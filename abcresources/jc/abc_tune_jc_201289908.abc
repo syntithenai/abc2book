@@ -1,0 +1,34 @@
+X: 1
+T: Ilaria valse
+C: Eric Th\'ez\'e?
+R: waltz
+S: Handout at 2014 NEFFA
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+% - - - - - - - - - -
+% Voice 1 has 4/8-bar lines:
+V: 1
+[|\
+"Am"e3 A ef | e3 A ef | "Dm"d6- | d4 c2 |\
+"E"B3 E B2 | B2 c2 d2 | "Am"f6 | e6 |
+"Am"e3 A ef | e3 A ef | "Dm"d6 | F4 c2 |\
+"E"B3 E B2 | B2 c3 B | "Am"A4 E2 | "Am"AB c2 d2 |
+"Am"e3 A ef | e3 A ef | "Dm"d6- | d4 c2 |\
+"E"B3 E B2 | B2 c2 d2 | "Am"f6 | e6 |
+"Am"e3 A ef | e3 A ef | "Dm"d6 | F4 c2 |\
+"E"B3 E B2 | B2 c3 B | "Am"A6 | z4 A2 |
+"Bb"G6 | F6 | "A"E6 | z4 A2 |\
+"Bb"G6 | "Gm"F6 | "A"E6- | E6 |]
+% - - - - - - - - - -
+% Voice 2 has the source page's staff breaks:
+V: 2
+[|\
+z2 E2 A2 | E6 | F6 | c6 | B6 | ^G6 |
+F6 | E6 | z2 E2 A2 | E3 D E2 | F6 | c6 |
+B6 | ^G6 | A6 | Z2 C2 D2 | E2 E2 A2 | E3 D E2 |
+F6 | c6 | B6 | ^G6 | F6 | E6 |
+z2 E2 A2 | E3 D E2 | F6 | c6 | B6 | ^G6 |
+A6- | A6 | G6 | F6 | E6 | z4 A2 |
+G6 | D6 | ^C6- | C6 |]

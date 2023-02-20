@@ -1,0 +1,29 @@
+X: 11402
+T: JINGLING JOHNNIE
+Q: "With spirit."
+%R: march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.140 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E |\
+A2Ac B3c | A2 (A/B/c) B3c |\
+A2af {f}e2(dc) | (Bc)(dB) c2A>A |\
+AAAc B2Bc | AA (A/B/c) B2cB |\
+A2a2 (fe)(dc) | (Bc)(dB) c2A2 |]
+e3f e2cd | e2a2 e2cd |\
+e2a2 e2a2 | e3f (fe)(dc) |\
+(df)(ed) (ce)(dc) | Bdce (ed)(cB) |\
+A2a2 (fe)(dc) (Bc)(de) c2A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Watt's song, "Kate Dalrymple,"
+%% is sung to the above air.
+%%endtext
+%%sep 1 1 300

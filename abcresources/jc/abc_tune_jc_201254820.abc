@@ -1,0 +1,54 @@
+X: 1
+T: Bonny Green Garters
+O: Morris Dance
+R: jig
+B: Morris Ring
+B: Barnes v.2 p.13
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+"A"|:"G"d>cB "D7"AGF | "G"G>AB "C"cde |\
+"G"d>ed dcB |1 "G"B3 "D7"A3 :|2 "D7"A3 "G"G2z ||
+"B"||\
+"G"d>cB "D7"AGF | "G"G2z "D7"A3 |\
+"G"d>cB "D7"AGF | "G"G2z "D7"A3 |\
+"G"d>cB "D7"AGF | "G"G>AB "C"cde |\
+"G"d>ed dcB | "D7"A3 "G"G3 |]
+%%text Play A2 as an intro.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2
+T: Bonny Green Garters
+S: MDT
+O: Bampton
+%Q: 3/8=100
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A | "D"d>cd AFA | "G"B>AB "A7"ABc | "D"d>cd "A7"efg | "D"faf "A7"ede |
+  | "D"d>cd AFA | "G"B>AB "A7"ABc | "D"d>cd "A7"efg |1- "D"f3 "A7"e3 :|["Last time" "D"f3 d3 |]
+P: Alt bar 4
+  | f3 e3 |
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3
+T: Bonny Green Garters
+S: MDT
+O: Headington
+P: A.(A2B)4
+%Q: 3/8=108
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+P: A
+   G |:\
+   "G"d>cB "D"AGF | "G"G>AB "C"cde | "G"d>ed dcB |1 "G"B3 "D"A2d :|2 "D"A3 "G"G3 ||
+P: B
+  "G"d2B "D"AGF | "G"G3 "D"A3 | "G"d2B "D"AGF | "G"G3 "D"A3 "->A2"| y6

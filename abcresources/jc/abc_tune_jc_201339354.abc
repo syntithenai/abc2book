@@ -1,0 +1,38 @@
+X: 1
+T: Soroc  [C]
+O: Romania
+M: 2/4
+L: 1/16
+B: Pinewoods International Collection
+K: Cmix
+"G"\
+|: "Gm"BAG2 G2GG | G^FGA "C"GGGE | "F"F2G2 AAAF | AAAF "D7"A^GAc |
+|  "Gm"BAG2 G2GG | G^FGA "C"GG=FE | "Dm"DEFF "G7"FEDE | "C"C4 z4 :|
+"A"\
+|: "G7"GGFE DEFF | FEFG "C"EEEC | DEFF FE^DE | "C"GG^FG AFG2 |
+|  "G7"GGFE DEFF | FEFG "F"AGFE | "G7"GEFF FEDE |1 "C"C2CD EFGA :|2 C4 z2 ||
+"B"\
+|: GG \
+| "C7"G^FGA BGAA | "F"AFGE F2GA | "C7"BGAA AFGE | "F"FFF2 ccc2 |
+| "C7"G^FGA BGAA | "F"AFGE F2EF | "G7"GEFF FEDE |1 "C"C4 z2 :|2 "C"C2z2 HC2Z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+T: Soroc  [D]
+O: Romania
+M: 2/4
+L: 1/16
+B: Pinewoods International Collection
+K: Dmix
+"A"\
+|: "Am"cBA2 A2AA | A^GAB "D"AAAF | "G"G2A2 BBBG | BBBG "E7"B^ABd |
+|  "Am"cBA2 A2AA | A^GAB "D"AA=GF | "Em"EFGG "A7"GFEF | "D"D4 z4 :|
+"G"\
+|: "A7"AAGF EFGG | GFGA "D"FFFD | EFGG GF^EF | "D"AA^GA BGA2 |
+|  "A7"AAGF EFGG | GFGA "G"BAGF | "A7"AFGG GFEF |1 "D"D2DE FGAB :|2 D4 z2 ||
+"C"\
+|: AA \
+| "D7"A^GAB cABB | "G"BGAF G2AB | "D7"cABB BGAF | "G"GGG2 ddd2 |
+| "D7"A^GAB cABB | "G"BGAF G2FG | "A7"AFGG GFEF |1 "D"D4 z2 :|2 "D"D2z2 HD2Z2 |]

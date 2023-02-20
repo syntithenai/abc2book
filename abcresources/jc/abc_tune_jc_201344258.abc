@@ -1,0 +1,22 @@
+X: 566
+T: This is Not My Sweetheart   #2
+T: ni sise mo \.muirnin
+R: reel, air
+%S: s:2 b:10(5+5)
+B: O'Neill's 1850 #566
+O: J.O'Neill
+Z: J.B. Walsh walsh@math.ubc.ca
+Z: Related to Scots reel High Road to Linton
+N: Compacted via repeats and multiple endings [JC]
+Q: "Moderate"
+M: C
+L: 1/8
+K: C
+"^A"[|] G \
+| EGGA c2cG | A/B/c GE {G}FDDG \
+| EGGA c2g>e | c>AG>F EC C \
+"^B":: G \
+| EGGc AcGE |
+| FAGC B,DDG |\
+[1 EGGc AcGE | FAG>F EC C :|\
+[2 EGGA c2g>e | c>AG>F EC C |]

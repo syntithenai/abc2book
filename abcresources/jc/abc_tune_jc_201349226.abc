@@ -1,0 +1,65 @@
+X: 1
+T: Vesti La Giubba
+C: Ruggiero Leoncavallo
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+S: Helene Criscio, Tony Santorella "Italian Favorites for Accordion" 1997
+M: 2/4
+L: 1/8
+K: Am
+%%continueall 1
+[| "Dm"z2 AA | A2 AA | "E"e2 (3(eee) | "Dm"f4 |
+w: 1.~Re-ci-tar, men-tre pre-so dal de-li-
+w: 2.~To go on when my head's reel-ing with mad-
+%
+"Gm"_B3 B | "A"^cc cc | "Bb"dd d2 | "G7"d3 G | "C"cc z2 | c2 cc |
+w:v'io non so piu quel-che di-co e quel che fac-cio Ep-pur-e
+w: ness, not know-ing what I speak of or what I'm do-ing, yet I must
+%
+"E"ee z2 | "C"g3 e | "B"B2 z2 | "E"e2 z2 | "E7"ee ^f^g | "Am"a4- |
+w: duo-po sfor-za-ti Bah! Sei Tu For-un uomo?
+w: go and force my-self Bah! I must be a man.
+%
+a2 z2 | c2 A^F | "Em"BB z2 | "B7"z4 | "Em"z4 | z4 ||[K:Em]
+w: ~ Tu sei pa-glia-ccio.
+w: ~ I'm a pa-glia-ccio.
+%
+"Em"e2 ^dG | B2 BB/B/ | B2 "C7"^AE | "Em"G2 G2 |
+w: Ves-ti la giub-ba e la fac-cia fa-ri-na
+w: On with your clown smock on your face dab the pow-der
+%
+"Am"zF GA | "Bm"B2 BB | "G7"BB cd |
+w: La gen-te pa-ga e ri-der vuo-le
+w: The peo-ple pay you to have an Eve-ning's
+%
+"C"e4 | "G"g2 "Bm"ff | "F"=f2 "Am"ze |
+w: que, E se-arlee- chin T'in
+w: fun, If har-le-quin Your
+%
+"E7"^de B=d | "Am"d2 c2 | "Cm"c2 GA |
+w: vo-la co-lum-bi-na Ri-di Pa-
+w: col-um-bine takes from you laugh oh Pa-
+%
+"G"B2 gd | "D7"e2 z/D/D/D/ | "G"G2 z2 |
+w: gliac-cio E ognuono Ap-plau-di-r\'a
+w: gliac-cio And all will shout "well done."
+%
+zG FG | (^AB) dg | "Ab"_a2 _AA |
+w: Tra-mon-ta las-li-lo Spas-mo Ed-il
+w: In place of tears, a-muse the crowd with your
+%
+"G"G2 Gz | "Bm"zF B^A | d2 ^cB |
+w: pian-to in u-na smot-fia sin-
+w: laugh-ter your bro-ken heart must not
+%
+"F#"ee "B7"^d^c | "Am"f2 f2- | "B7"f4 | "Am"g2 fe |
+w: gnio-zzo e'l do-lor Ah!* Ri-di Pa-
+w: stop you play the part Ah!* Laugh, laugh Pa-
+%
+g2 f2 | (3zfg (3(agf) | "Em"a2 g2 |
+w: glia-cio | sul tuo A-more-in fran-to
+w: glia-cio | though your love has been ru-in'd
+%
+"Am"f2 e>c | "Em"B2 (3FGA | "B7"B2 BB | "Em"B4 | z4 |]
+w: Ri-di-del duol che t'av-ve-le-na il cor.
+w: Laugh through the pain that now is know-int your heart!
+%

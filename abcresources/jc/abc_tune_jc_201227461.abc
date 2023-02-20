@@ -1,0 +1,34 @@
+X: 10801
+T: COTILLION No. 7. tune 1
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.80 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The last c in the last measure should probably be natural, not sharp
+M: 1/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+G2BG F2AF | G2BG D2EF | G2BG F2AF | GABc dBcA |\
+G2BG F2AF | G2BG D2EF | G2BG F2AF | G2G2G2 H|]
+(dc) |\
+B2d2 g2ba | gfed c2ac | B2gB A2AB | cBAG GFED |\
+B2d2 g2ba | gfed caaa | Bggg A2AB | cBAG "^D.C."d2 |]
+K: Gm
+"Minor"\
+A2 |\
+(B2A2) (c2B2) | (d2c2) (e2d2) | c2B2A2G2 | ^FGAF D2GA |\
+(B2A2) (c2B2) | (d2c2) (e2d2) | c2B2A2G2 | d^cd=e d=Bc"^D.C."A |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 right and left,
+%% balance 4,
+%% and turn partners,
+%% ladies chain,
+%% promenade 4,
+%% side couples the same.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

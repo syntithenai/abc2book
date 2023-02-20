@@ -1,0 +1,122 @@
+%%center The SEA MEDLEY
+
+
+X: 0
+T: Intro, Sailor's Hornpipe, 4 bars
+P: piffero primo b0040
+O: safd 083
+%R: hornpipe, reel
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/seamedF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+%%staffwidth 300
+(dc | d2)D2 D2AG | FAd2 d2(ed | e2)E2 E2ed | c2A2 A2 |]
+
+
+X: 1
+T: Cape Cod Girls
+P: piffero primo b0041
+O: safd 068
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/seamedF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+z2 \
+| B2B2 d2d2 | G2G2 D4 | G3B d4 | e3B d4 \
+| B2B2 d2d2 | G2G2 D4 | G2A2 Bd2B | A2G2 G2 :|
+|: z2 \
+| g2g2 g2e2 | dedB G4 | G3B d4 | e3B d4 \
+| g2g2 g2e2 | dedB G4 | G2A2 Bd2B | A2G2 G2 :|
+
+
+X: 2
+T: Bridge, Drunken Sailor, 8 bars in D
+P: piffero primo b0042
+O: safd 083
+%R: march, reel
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/seamedF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+z2 \
+| B2BB B2BB | B2D2 G2B2 | A2AA A2AA | A2D2 G2A2 \
+| B2BB B2BB | B2c2 d2e2 | d2B2 A2F2 | E4   E2  |]
+
+
+X: 3
+T: Roving Sailor
+P: piffero primo b0043
+O: safd 034 mod
+%R: hornpipe, reel
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/seamedF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+(3ABc \
+| d3B G2A2 | B2B2 (3BcBA2 | d3B G2A2 | B2e2 e2g2 \
+| d3B G2A2 | B2B2 (3BcBA2 | G3g f2g2 | e2d2 e2 :|
+|: z2 \
+| d3g f2g2 | e2d2 (3BcBA2 | G3g f2g2 | a2f2 a2z2 \
+| d3g f2g2 | e2d2 e2g2    | d3B G2A2 | B2e2 e2 :|
+
+
+X: 4
+T: Bridge, Drunken Sailor, 8 bars in G
+P: piffero primo b0044
+O: safd 083
+%R: march, reel
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/seamedF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+z2 \
+| e2ee e2ee | e2G2 c2e2 | d2dd d2dd | d2G2 c2d2 \
+| e2ee e2ee | e2f2 g2a2 | g2e2 d2B2 | A4   A2  |]
+
+
+X: 5
+T: A-Rovin'
+P: piffero primo b0045
+O: safd 083 mod
+%R: hornpipe, reel
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/seamedF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+D2 \
+| G2G2 ABc2 | B2A2 G2D2 | G3A B2c2 | d6 d2 \
+| e2e2 c2e2 | d2d2 B2d2 | c2B2 A2GA | B2G2 E2D2 \
+| G3A B2c2 | (d2g2) e2c2 |
+| B4 A4 | G6 d2 \
+| e4 c2e2 | d4 B2d2 | c2B2 A2GA | B2G2 D4 \
+| G3A B2c2 | (d2g2) e2c2 | B4 A4 | G6 :|
+
+
+X: 6
+T: Roll the Woodpile Down
+P: piffero primo b0034
+O: safd 072
+%R: hornpipe, reel
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/seamedF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+z2 \
+| D2EF G2AB | c2B2 A4   | A2 A4 B2 | AG E4 D2 \
+| D2EF G2AB | c2B2 A2GA | B3G E2D2 | G6 :|
+|: e2 \
+| d6   e2   | d6     g2 | ed2B G2A2 | E6 E2 \
+| D2EE G2AB | c2B2 A2GA | B3E  E2D2 | G6 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

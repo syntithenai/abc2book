@@ -1,0 +1,28 @@
+X: 189
+T: Vesper Hymn
+O: Russian Melody
+Q: "Moderato."
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+GB AB | GB FB | GB AF | DD E2 |
+w: 1.~Hark! the ves-per hymn is steal-ing     O'er the wa-ters, soft and clear;
+w: 2.~Now, like moon-light waves re-treat-ing To the shore, it dies a-long;
+%
+GB AB | GB FB | GB AF | DD E2 |
+w: Near-er yet, and near-er peal-ing,  Now it bursts up-on the ear;
+w: Now, like might-y sur-ges meet-ing, Breaks the min-gled tide of song;
+%
+|: "^mf"ed eB | AF GB | ed eB | "^dim."A "Repeat pp."F E2 :|
+w: Ju-bi-la-te, far-ther steal-ing, Soft it fades up-on the ear;
+w: Ju-bi-la-te, waves re-treat-ing  To the shore, it dies a-long;
+%
+"^p"E>E EE | F>F FF | "^dim."EE E(G>F) | ED E2 |]
+w: Far-ther now, now far-ther steal-ing, Soft it fades up - on the ear.
+w: Hark! a-gain, like waves re-treat-ing To the shore it* dies a-long.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

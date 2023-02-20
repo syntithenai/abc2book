@@ -1,0 +1,24 @@
+X: 10603
+T: the COVENANTER'S TOMB
+O: Scottish air.
+Q: "Solemn and slow."
+N: This is version 1, for ABC software that doesn't understand trailing grace notes.
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.60 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+G2 G>A B<d d>d | c3 B {B}A2 z2 |\
+G2 G>A B<d d2 |{e} d>c B>A G2 zD |\
+G2 G>A B<d d2 | c3 B {B}A3 D |\
+G2 G>A Bd d2 |{fe} d>c B>A {A}G2 z |]
+B |\
+d2 d2 {d}c3 c | B2 A>G ^F2 f2 |\
+G2 G>A B<d d3 |{e} d>c B>A G2 zB |\
+d2 d2 c2 zc | B2 AG ^F2 f2 |\
+G2 G>A B<d d2 |{fe} d>c B>A G2 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

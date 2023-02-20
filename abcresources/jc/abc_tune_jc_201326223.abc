@@ -1,0 +1,28 @@
+X: 1
+T: Pretty Nun
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (167)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+N: The rhythms don't add up at the strains' boundaries.
+M: 6/4
+L: 1/4
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A3 E3 | C>DE A,2A | D2B E2c | Fdc B3 :|\
+|: e |\
+a3 e3 | c>de A2f | G2e F2d | EcA BGE |\
+FAC B,B^G | A3- A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. take Hands the 2d Cu. do the same and go
+%% round into each others Places .| The same back again
+%% :| The 1st Man change Place with the 2d Wo then the
+%% 2d Man with the 1st Wo. and all four turn single .|
+%% Hand across and turn quite round then 1st Cu. turn
+%% proper :|
+%%endtext
+%%sep 1 8 500

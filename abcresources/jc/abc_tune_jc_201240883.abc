@@ -1,0 +1,33 @@
+X: 4151
+T: Lady Montgomerie
+C: by the Earl of Eglintonn
+%R: air, strathspey
+N: This is version 2, for ABC software that understands trailing grace notes and crescendo symbols.
+U: p=!crescendo(!
+U: P=!crescendo)!
+B: Niel Gow & Sons "Complete Repository" v.4 p.15 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "SLOW WITH EXPR.N"
+K: Bb
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+|:\
+[B2F2D2] B>F D>EFD | [B2F2D2] ~B>G pA>B cdP |\
+[B2-F2D2]TB>F D>E (G/F/E/D/) | Cc Tc>B .A(Bcd) :|\
+B<B f>B dBf2 | B<B f>e d>efg |
+B<B f>B dBf2 | {cd}e>d c>B pA>BcdP ||\
+B<B f>B dB Tf2{=ef} | B<B f>e ~d>e f>(g |\
+f)z/(d/ e)z/(c/ d)z/(B/ c)z/A/ | B>G (G/F/).E/.E/ Cc~cd |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+|:\
+[B2b2]>>A2 B>c d2 | [B2b2]>>=e2 f>g a2 |\
+[B2b2]>>A2 B>c dB | A2>>=E2 (FGA2) :|\
+B2[d'2b2] [d'2b2][d'2b2] | d'2>>a2 b>c'd'>e' |
+d'2b2 b2d'2 |[K:Bb clef=treble] "^Exp.o"G>F E=E F>G A2 |[K:Bb clef=bass middle=d]
+d'2b2 b2d'2 | [b2d'2f'2] [ac'f']>a b>c' d'>(e' |\
+d')z/(=b/ c')z/(a/ _b)z/(g/ a)z/(f/ | g)>e dB A2F2 |]

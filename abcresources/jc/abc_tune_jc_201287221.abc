@@ -1,0 +1,16 @@
+X:1
+T:Home with the Girls in the Morning
+R:Reel
+M:C|
+L:1/8
+%%printtempo 0
+Q:160
+K:Ddor
+G2|\
+"Dm"A2d2d4| "C"cdcB A2G2| "Dm"A2d2 ded2| "Am"c2 A2-A2 G2|
+"Dm"A2d2d4| "C"cdcB A2AB| cBAG "Am"FDEF| "Dm"D6:|
+DE|\
+"Dm"F2F2 "C"E2E2| "Dm"DEDC A,2 DE| F2F2 "C"ED C2| "Dm"D6DE|
+"Dm"F2F2 "C"E2E2| "Dm"DEDC A,2 AB| "C"cBAG "Am"FDEF| "Dm"D6 DE|
+"Dm"F2F2 "C"E2E2| "Dm"DEDC A,2 DE| FEDF "C"ED C2| "D"^F6 DE|
+"Dm"F2F2 "C"E2E2| "Dm"DEDC A,2 AB| "C"cBAG "Am"FDEF| "Dm"D6 |]

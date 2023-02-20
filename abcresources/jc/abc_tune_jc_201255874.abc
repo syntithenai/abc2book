@@ -1,0 +1,19 @@
+X: 1341
+T: the Boys of Galway
+O: Early
+R: reel
+%S: s:2 b:16(8+8)
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #1341
+Z: Trish O'Neil
+%%slurgraces 1
+%%graceslurs 1
+M: C|
+L: 1/8
+K: C
+"^A"\
+[|]B | cded cBAG | Addc dcAB | cded cBAG | AcGE EDD ||
+|| B | cded cBAG | Addc dcAB | cABG AFGE | FDGF ECC |]
+"^B"\
+[| f | gage {d}cBcd | ea{b}ag agef | gage {d}cBcd | eaag edd ||
+|| e | gage {d}cBcd | eaag    edde | gefd    ecdc | Bcdf ecc |]

@@ -1,0 +1,34 @@
+X:1
+T:GARRYOWEN
+M:6/8
+L:1/8
+Q:80
+C:Traditional
+S:March
+K:HP
+a/2g/2[|
+{a}f3/2e/2d{gcd}c3/2{e}B/2{d}A|
+{g}c2{GdGe}c{gcd}cag|  !
+{a}f3/2e/2d{gcd}c3/2{e}B/2{d}A|
+{g}B2{GdGe}B{gBd}Bag|
+{a}fe/2d{gcd}c3/2{e}B/2{d}A|  !
+{g}c2{GdGe}c{gcd}c2e|
+{gef}e3/2f/2ga3/2e/2c|
+{g}B2{GdGe}B{gBd}B2{g}c/2d/2|] [|  !
+{gef}e2c{gef}e2c|
+{gef}e2c{gef}eag|
+{a}f2d{gfg}f2d|  !
+{gfg}f2d{gfg}f2G|
+{g}A2B{gcd}c2B|
+{g}A/2g3/2f{gef}e2c|  !
+{gef}ef/2ga3/2e/2c|
+{g}B2{GdGe}B{gBd}Bag|]
+{a}f3/2e/2d{gcd}c3/2{e}B/2{d}A|  !
+{g}c2{GdGe}c{gcd}cag|
+{a}f3/2e/2d{gcd}c3/2{e}B/2{d}A|
+{g}B2{GdGe}B{gBd}Bag|  !
+{a}f3/2e/2d{gcd}c3/2{e}B/2{d}A|
+{g}c2{GdGe}c{gcd}c2e|
+{gef}e3/2f/2ga3/2e/2c|  !
+{g}B2{GdGe}B{G}A2|]
+

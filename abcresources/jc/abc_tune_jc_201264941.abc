@@ -1,0 +1,17 @@
+X: 713
+T: Courting Them All
+R: reel
+%S: s:2 b:16(8+8)
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #713
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0713/oneill-1001-0713-1.abc
+M: C|
+L: 1/8
+K: D
+"^A"\
+[|]F | DF (3(ABc) d2(3(ABc) | d2(fd) ecAc | d2(Ac) BAGF | EFGE FDD ||
+|| E | DF (3(ABc) d2(3(ABc) | d2(fd) ecAc | d2(Ac) BAGF | EFGE FDD |]
+"^B"\
+[| c | d2(fd) (3(fga) (fd) | g2bg ecAc | d2fd (3(fga) fd | efge fdd ||
+|| c | d2f(d (3(f)ga) (fd) | g2bg ecAc | d2(Ac) BAGF | EFGE FDD2 |]

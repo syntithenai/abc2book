@@ -1,0 +1,28 @@
+X: 21782
+T: THE MARSEILLAISE HYMN
+R: march
+B: K\"ohler's Violin Repository, v.2, 1885 p.178 #2
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Bar two had (d>B); changed to (d3B) to match several other editions and the standard French national anthem.
+M: C|
+L: 1/8
+K: G
+uD2 |\
+G2(.G>.G) A2(.A>.A) | (d3B) G2BG |\
+E2c2 c2(AF) | G2(.G>.G) G2(GA) |\
+[B2G2](.[BG]>.[BG]) [B2G2](cB) | (BA)(A>A) A2(AB) |
+c2(.c>.c) c2(dc) | (cB)(.B>.B) B2(.d>.d) |\
+d2BG d2BG | D2(.D>.D) D2(F>G) |\
+(A3B) c2AF | G4 =F4 |
+E2(.G>.G) GGFG | A6 A2 |\
+_B3B ABcB | (_BA)(.A>.A) A2(BA) |\
+G3G G_BAG | (GF)(.F>.F) F2(.d>.d) |
+d4- dA_BG | A2(.D>.D) D2(.d>.d) |\
+d4- dA_BG | A2(.D>.D) D2D2 |\
+G6 A2 | B6 B2 |\
+c4 (d2e2) | A6 e2 |
+d4- d(BcA) | GG/G/GG AA/A/ AA |\
+BGBd dcBA | GG/G/ GG AA/A/ AA |\
+BGBd dcBA | [G2B,2]z2 v[B2D2G,2]z2 |\
+Hv[G6B,6] "^Fine."|]

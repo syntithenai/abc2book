@@ -1,0 +1,22 @@
+X: 20142
+T: PANHARMONIC MARCH
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" 1843 p.14 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Moved rest at end of 2nd strain to beginning, to fix the rhythms.
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+c2c>c c2e2 | d2d>d d2g2 |\
+d2d>d d2f2 | e2e>e e2g2 |\
+(agfe) (agfe) | d2d>d d2 :|
+|: z2 |\
+d2d>d f2d2 | e2e>e g2e2 |\
+d3e gfed | e3g agfe |\
+a3b c'2a2 | g3c' bagf |\
+e>gc>e d>gB>d | c2c>c c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

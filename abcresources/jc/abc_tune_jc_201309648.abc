@@ -1,0 +1,36 @@
+X: 1
+T: Mile End Assembly    (D)
+O: Walsh 1748
+B: John Walsh "A Composite Music Volume" 1748
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/5/50/IMSLP98359-PMLP202128-walsh_caledonian_country_dance_vol2.1.pdf p.43 #303
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:43 #303
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%V: 1
+d/c/ |\
+"D"d2A "A"F2E | "Bm"DFE D2d/e/ | "D"f>gf "G"Te2d | "A"cde A2d/e/ |\
+"D"fdB "A"ecA | "Bm"dBA "E"^G2e/d/ | "A"c>de "E7"E>A^G | "A"A2A, A,2 :|
+|: e/d/ |\
+"A"c2e "F#m"A2f/e/ | "Bm"d2f "Em"B2g | "F#m"fed "F#7"cB^A | "Bm"B2B B2d/c/ |\
+"G"Bdg "F#m"Acf | "Em"GBe "Bm"F2d/c/ | "G"Bcd "A7"A>dc | "D"d2d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%V: 2 clef=bass middle=d
+%z |\
+%a3 c'3 | d'3 z3 | f3 b3 | c'3 z3 |\
+%f2z e2z | d2z G2=B | c2e g2G | c3- c2 :|
+%|: z |\
+%z2c'/b/ a3 | z2d'/c'/ b2g | a3 A3 | d3 z3 |\
+%b2e a2f | g2e f2d | B3 c3 | F3- F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %begintext align
+% % First Cu. cast off, 1st Man hands round with the 3d Cu.
+% % 1st Wo at the same time hands round with the 2d Cu. .|
+% % First Man Heys with the 3d Cu. 1st Wo.
+% % at the same time Heys with the 2d Cu. :|
+% % Six hands quite round .|
+% % First and 2d Cu. Right and Left quite round.
+% %endtext

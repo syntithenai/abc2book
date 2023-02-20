@@ -1,0 +1,41 @@
+
+X: 1
+T: Dio Kardies  [Gm]
+T: Two Hearts
+O: Greece
+R: kalamatianos
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: 7/8
+L: 1/8
+K: Gdor
+[GD][GD] "A"\
+| "Gm"[B2G2][AF] [BG][FA] [BG][cA] | "Dm"[A2F2][GE] [F2D2] [EC][EC] \
+|  "C"[G2E2][FD] [G2E2]   [A2F2]   |1,3 "Gm"[B3G3]     z2  |2,4 "Dm"[F3D3]     z2  :|
+"B"\
+|: "no chords"D3 C3z [|]| B,3 A,3z | A,2G, A,G, A,B, | C2B, DC/B,/ A,2 :|
+"C"\
+|: "Dm"[AF][AF][AF] [AF][GE] [GE][FD] | "Gm"{F}[G3-D3-] [G3D3]z \
+|  "Dm"[F2D2][EC] [F2D2] [A2F2] | "Gm"[G7D7] :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2
+T: Dio Kardies  [Am]
+T: Two Hearts
+O: Greece
+R: kalamatianos
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: 7/8
+L: 1/8
+K: Ador
+[AE][AE] "A"\
+| "Am"[c2A2][BG] [cA][GB] [cA][dB] | "Em"[B2G2][AF] [G2E2] [FD][FD] \
+|  "D"[A2F2][GE] [A2F2]   [B2G2]   |1,3 "Am"[c3A3]     z2 :|2,4 "Em"[G3E3]     z2  :| z2
+"B"\
+|: "no chords"E3 D3z [|]| C3 B,3z | B,2A, B,A, B,C | D2C ED/C/ B,2 :|
+"C"\
+|: "Em"[BG][BG][BG] [BG][AF] [AF][GE] | "Am"{G}[A3-E3-] [A3E3]z \
+|  "Em"[G2E2][FD] [G2E2] [B2G2] | "Am"[A7E7] :|

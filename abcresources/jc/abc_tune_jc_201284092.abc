@@ -1,0 +1,63 @@
+
+X: 1
+T: H\"alsa dem d\"arhemma
+C: musik: Elith Worsing
+C: text: Ch. Bengtsson
+N: Published 1922 by Wilhelm Hansen, Copenhagen
+R: waltz
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+| "D"A2 B | "C#aug"A2B | "D"A2 G | F2 z | "G"d2 e | "F#aug"d2 e | "G"d2 c | B2 z |
+w: I den sto-ra tys-ta natt, st\aar jag h\"ar vid skepp-ets rad,
+w: Lil-la sva-la, fast-\"an svag, dag och nott, och natt och dag.
+| "G"d2 B | "Gm"A2 G | "D"F2 G | A3 | "Bm"A2 A | "Em"G2 F | "A7"E3- | E2 z |
+w: un-der himm-lens stj\"ar-na hjer, man p\aa post mig satt.
+w: F\"o-rer dig till m\aa-let fram snab-ba vi-nge-slag.
+| "D"A2 B | "C#aug"A2B | "D"A2 G | F2 z | "G"d2 e | "F#aug"d2 e | "G"d2 c | B2 z |
+w: Ef-ter l\aang och str\"av-sam dag, h\"or jag fj\"ar-ran ving-ge-slag
+w: Sva-la, t\"ank ock-s\aa p\aa mig; G\"ar-na fl\"o-ge jag med dig.
+| "G"B2 c | "Gm"d2 e | "D"f2 d | "B(m)"A2 F | "Em"A2 G | "A7"F2 E | "D"D3- | D2 z |]
+w: sva-lors flock som \aat-er g\aar, mot nord, mot ljus, mot v\aar.
+w: Hem-ma st\aar v\"al \"ang-en gr\"on.  O, sva-la, h\"or min b\"on.
+%
+[| "D"d2 d | "(F#m)"c2 c | "G"B3 | "Em"G2 z \
+| "A7"c2 c | B2 B | "D"A3- | A2 z |
+w: H\"al-sa dem d\"ar-hem-ma, h\"al-sa far och mor,
+| "B7"B2 B | A2 A | "Em"G3 | E2 z \
+| "A7"A2 A | [B2G2] G | "D"F3- | F2 z |
+w: h\"al-sa gr\"o-na ha-gen, h\"al-sa lil-le bror.
+| "D"d2 d | "(D+)"f2 f2 | "Em"e3 | B2 z \
+| "A7"c2 c | e2 e | "Bm"d3- | d2 z |
+w: Om jag ha-de ving-ar, fl\"o-ge jag med dig.
+| "D"d2 d | A2 B | "G"c3 | B2 z \
+| "A7"A2 [AG] | [B2F2] [cE] | "D"[d3-D3-] | [d2D2] z |]
+w: Sva-la, flyg mot hem-met.  H\"al-sa i-fran mig.
+
+
+X: 1
+T: H\"alsa dem d\"arhemma
+C: musik: Elith Worsing
+N: Published 1922 by Wilhelm Hansen, Copenhagen
+R: waltz
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: G
+[| "G"d2 e | "F#aug"d2 e | "G"d2 c |     B2 z \
+|  "C"g2 a |  "Baug"g2 a | "C"g2 f |     e2 z \
+|  "C"g2 e | "Cm"   d2 c | "G"B2 c |     d3   \
+| "Em"d2 d | "Am"   c2 B | "D7"A3- |     A2 z |
+|  "G"d2 e | "F#aug"d2 e | "G"d2 c |     B2 z \
+|  "C"g2 a |  "Baug"g2 a | "C"g2 f |     e2 z \
+|  "C"e2 f | "Cm"   g2 a | "G"b2 g | "E7"d2 B \
+| "Am"d2 c | "D7"   B2 A | "G"G3-  |     G2 z |]
+[| "G"g2 g | "(Bm)" f2 f | "C"e3   | "Am"c2 z \
+| "D7"f2 f |        e2 e |  "G"d3- |     d2 z \
+| "E7"e2 e |        d2 d | "Am"c3  |     A2 z \
+| "D7"d2 d |        c2 c |  "G"B3- |     B2 z |
+|  "G"g2 g | "(G+)" b2 b | "Am"a3  |     e2 z \
+| "D7"f2 f |        a2 a | "Em"g3- |     g2 z \
+|  "G"g2 g |        d2 e |  "C"f3  |     e2 z \
+| "D7"d2 [dc] | [e2B2] [fcA] | "G"[g3-B3-G3-] | [g2B2G2] z |]

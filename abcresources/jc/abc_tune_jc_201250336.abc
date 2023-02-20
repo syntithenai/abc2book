@@ -1,0 +1,5 @@
+X: 1
+T: TEST: Fat bar in middle
+%%staffwidth 400
+K: C
+[| CDEF | GABc |]| cdef | gabc' || c'bag | fedc |[| cBAG FEDC |]

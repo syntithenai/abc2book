@@ -1,0 +1,18 @@
+X:233
+T:Fair and Softly
+M:3/4
+L:1/8
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=92
+K:F
+%%MIDI program 68     Oboe
+%%MIDI chordprog 73   Flute
+%%MIDI bassprog 71    Clarinet
+%%MIDI gchord bcb
+P:A
+"Dm"d2D2de | "/"f2 (3def (3def | "C"e2C2ef | "A7"g2(3efg (3efg |
+"Dm"f2D2fg | "/"a2(3fga (3fga | "Gm"b2g3f/g/ | "A"a6 |
+P:B
+|: "F"a2 (3 fga (3fga | "Gm"b2g2E2 | "C"g2 (3efg (3efg | "Dm"a2f2D2 |
+"Dm"f2 (3=B^cd (3=B^cd | "A"^c2A2 "Dm"d2 | "Gm"e2"A"e4 | "Dm"d6 :|

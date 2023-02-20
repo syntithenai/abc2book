@@ -1,0 +1,23 @@
+X: 1532
+T: the Northern Lasses
+T: na cailini.de on .tuai.g.
+R: reel
+%S: s:4 b:17(4+4+4+5)
+R: reel
+B: O'Neill's 1850 "Music of Ireland" #1532
+O: J.O'Neill
+Z: transcribed by John B. Walsh, walsh@math.ubc.ca 8/23/96
+M: C|
+L: 1/8
+K: G
+((3def) | gG (3GGG (EG)DG | (EG)DG (EG)AB | cBAG FGAB | cBAB cdef ||
+| gG (3GGG (EG)DG | (Aa)af gfed | cBAG FGAc | BGAF G2 || (Bd) |
+| g2dg egdg | agbg agef | g2 dg egdg | agba g2 (ga) ||
+| ((3bag) ((3agf) gfed | Bdef gedc | ((3Bcd) ef gfge |1 Bgba gfef :|2 dB ((3cBA) G2 |]
+%%begintext align
+%% It's not clear how much is to be repeated (with 2 endings).
+%% Maybe those are just two endings for the 16-bar tune.
+%% O'Neill's DMoI collection has :| instead of || in the middle of the 2nd staff,
+%% for two 8-bar phrases with the first repeated, which is still ambiguous.
+%% The tune works as a 16- or 32-bar tune, so play it however you like.
+%%endtext

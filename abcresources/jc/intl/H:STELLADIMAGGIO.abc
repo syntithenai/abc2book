@@ -1,0 +1,14 @@
+X: 48
+T: Stella di Maggio
+O: Italy
+F: http://www.youtube.com/watch?v=Z2TwgC9_n0E
+M: 2/4
+L: 1/8
+Q: 1/4=96
+K: C
+%%MIDI program 110 Fiddle
+%%MIDI bassprog 32 Acoustic Bass
+%%MIDI chordprog 24 Acoustic Guitar
+"C"GGAG|GEFG|"F"A2A2|"C"AG3-|\
+"C"GEFG|"F"A2BA|"C"GEFG|G2F2|
+E2DE|"F"F4|A4|"C"GEFG|G2F2|"C"E4-|E2z2:|

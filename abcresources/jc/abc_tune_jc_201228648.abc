@@ -1,0 +1,19 @@
+X: 11462
+T: le PASSEREAU
+Q: "Allegretto."
+%R: air, shottish, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.146 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+g4 d3=f | e4 c3e | d3cB3A | B2z2 G2z2 |\
+g4 d3=f | e4 c3e | d3cB3A | G2z2 g2z2 |\
+B4 A3G | dedc B2d2 | e3dc3B | B2z2 A2z2 |
+B4 A3G | dedc B2d2 | e3gf3a | g2z2 g2z2 |][K:=f]\
+c4 G2c2 | e4 c3c | d2d2 edcd | e2d2c2G2 |\
+c4 G2c2 | e4 c2c2 | d2d2 edcd | e2z2 c2"^D.C."z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

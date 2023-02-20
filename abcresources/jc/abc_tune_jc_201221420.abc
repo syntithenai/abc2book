@@ -1,0 +1,36 @@
+X: 04801 
+T: Columbia, the Gem of the Ocean
+N: 1st tune in "Victory March" medley
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: march
+M: 2/4
+L: 1/8
+K: G
+V: 1 clef=treble
+V: 2 clef=bass middle=d
+V:1
+DD |\
+"G"[G2D2B,2] [GDB,][GDB,] | "D7"[A2F2D2] [dAF][cAF] |\
+"G"[BDB,] [G3-D3-B,3-] | [G2D2B,2] [DB,G,][DB,G,] |\
+"C"[E2C2G,2] [ecE]"E7"[dBE] | "Am"[cAE]"E"[B^GE] "Am"[AE]"A7"[=GE] |
+"G"[G4D4B,4] | "D"[F2D2A,2] [AFD][AFD] |\
+"D"[A2F2D2] [AFD][AFD] | "A7"[A2G2^C2] [BGE][^cGE] |\
+"D"[dFD] [A3-F3-D3-] | [A2F2D2] [dAD][dAD] |
+"Em"[^cE][BE] [AEB,][GEB,] | "A"[F^CA,][ECA,] [ACA,][^CA,] |\
+"D"[D4-A,4-F,4-] | [DA,F,]z DF |\
+"D7"[A2F2C2] [AFC][AFC] | [GC][FC] [EC]D |
+"G"[DB,] [G3-B,3-] | [G2B,2] [GB,][AC] |\
+"G"[B2G2D2] [BGD][BGD] | [cGD][BGD] [AB,][GB,] |\
+"D7"[A4-F4-D4-] | [AFD]z GB |\
+"G"[d2B2G2] [dBG][dBG] |
+"G"[cD][BD] [AB,][GB,] |\
+"C"[FCG,] [E3-C3-G,3-] | [E2C2G,2] [eGE]"E7"[d^GE] |\
+"Am"[cEC][BEC] [AEA,]"A7"[GEA,] | "D7"[F2C2A,2] [ECA,][FCA,] |\
+"G"[G4-D4-B,4-] | [GGDB,]z [GDB,] |]
+V:2
+z2 | Gd Dd | Fd Dd | Gd Dd | Gd BB | c2 c^G | AB c^c |
+dd/^c/ dd | d2 z2 | da Aa | ea Aa | da Aa | da ff |
+gg ee | ^cc Ae | dB AF | Dz z2 | FdDd | AdDd |
+Gd Dd | Gd Dd | Gd Dd | Gd Dd | dc AF | Dz z2 | Gd Dd |
+Gd Dd | cz GE | C2 cB | AB c^c | d2 Ad | ge dB | Gz [gdG] |]

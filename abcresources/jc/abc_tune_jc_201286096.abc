@@ -1,0 +1,38 @@
+X:1
+T: Heydaze
+N:
+C:Tune is "Spatter the Dew" (trad.)
+S:
+A:
+O:
+R:
+M:9/8
+K:Am
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 31 notes)
+K:Am
+M:9/8
+L:1/16
+A2 B2 A2 A4 B2 c4 B2 A2 B2 A2 A4 e2 d2 B2 G2 A2 B2 A2 A4 B2 c4 e2 d2 B2 d2 g2 d2 c2 B2 A2 G2 |
+%W: A2
+% voice 1 (1 lines, 31 notes)
+A2 B2 A2 A4 B2 c4 B2 A2 B2 A2 A4 e2 d2 B2 G2 A2 B2 A2 A4 B2 c4 e2 d2 B2 d2 g2 d2 c2 B2 A2 G2 |
+%W: B1
+% voice 1 (1 lines, 28 notes)
+A4 e2 e4 B2 c4 B2 A4 e2 e4 c2 d2 B2 G2 A4 e2 e4 B2 c4 e2 d2 B2 d2 g2 d2 c2 B2 A2 G2 |
+%W: B2
+% voice 1 (1 lines, 30 notes)
+A4 e2 e4 B2 c4 B2 A4 e2 e4 c2 d2 B2 G2 A4 e2 d2 e2 ^f2 g2 f2 e2 d2 B2 d2 g2 d2 c2 B2 A2 G2 |
+%W: C1
+% voice 1 (1 lines, 28 notes)
+e4 a2 a b a2 g2 a4 g2 e4 a2 a4 d'2 b2 g2 e2 d4 g2 g4 ^f2 g4 e2 d4 a2 g4 e2 d2 B2 G2 |
+%W: C2
+% voice 1 (1 lines, 30 notes)
+e4 a2 a b a2 g2 a4 g2 e4 a2 a4 d'2 b2 g2 e2 b2 c'2 d'2 a2 b2 c'2 g4 d2 e4 ^f2 d4 c2 B2 A2 G2 |
+%W: D1
+% voice 1 (1 lines, 33 notes)
+e2 g2 e2 d2 e2 d2 c4 B2 A2 B2 A2 A4 e2 d2 B2 G2 e2 g2 e2 d2 e2 d2 c4 e2 d2 B2 d2 g2 d2 c2 B2 A2 G2 |
+%W: D2                                                                               FINAL
+% voice 1 (1 lines, 36 notes)
+e2 g2 e2 d2 e2 d2 c4 B2 A2 B2 A2 A4 e2 d2 B2 G2 e2 ^f2 g2 d2 e2 f2 g2 f2 e2 d2 B2 d2 g2 d2 c2 B2 A2 G2 ||A12A6||

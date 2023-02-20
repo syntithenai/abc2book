@@ -1,0 +1,27 @@
+X:8
+T: The Blue River Waltz  (Jay Ungar & Molly Mason \251 2002) Play: aabbcc,aabbcc,d   %% X:61  WJ FH 2015
+T: Lazy, lilting swing                                                        from the soundtrack of Ken Burns' "The National Parks"
+M: 3/4
+L: 1/8
+K: G
+ %%vskip .7cm
+[P:a]\
+yy "G"DE GA BG |"Am"A3 G AB |    A3 B AG |"C"E6  |\
+           DE GA BG |"Am"A3 G AB |"D7"d3 B AB |"G"G6 :|
+"^I"|: \
+[P:b]\
+yy "G"DE GA Bd |"C"e3 d eg |"Am"e3 d Bd |"D7"A6       |\
+        "G"DE GA Bd |"C"e3 g eB |"D7"d3 B AB |[1"G"G6     :|\
+                                              [2"G"G3 A Bd ||
+|: \
+[P:c]\
+yy "G"g2 f2 d2 | "C"e6      |    g2 f2 d2 |  "Em"e6      |\
+        "G"g2 f2 d2 |"Am"e3 g eB |"D7"d3  B AB |[1"G"G3 A Bd :|\
+                                                [2"G"G6      ||
+% %%text Play a, b, and c parts again (as written with repeats), then finish with d part (below).
+[P:d]\
+yy"G"b2 a2  g2 | "C"e6      |    b2 a2 g2 |            "Em"e6       |\
+   b2 a2  g2 |"Am"e3 g eB |"D7"d3  B AB |             "G"G3  A Bd |
+y"G"b2 a2  g2 | "C"e6      |    b2 a2 g2 |            "Em"e6       |\
+   ba gd- d2 |"Am"e3 g eB |"D7"d3  B AB |"_ritardando""G"G2 B2 d2 | "G"[g6B6] |]
+% %%stretchlast

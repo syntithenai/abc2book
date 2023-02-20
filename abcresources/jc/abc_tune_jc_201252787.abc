@@ -1,0 +1,46 @@
+X: 1
+T: Bishop of Chester's Jigg
+T: the Fit's come on me now
+P: Longways for as many as will
+%R: slip-jig, triple hornpipe
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.106 #148 (212)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89752805 p.132
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: CCDM1 has K:F (one flat), whihc DMDfD has K:Fmix (2 flats).
+N: Repeats added to match instructions in the dance.
+N: DMDfD has (fa)a rather that (fb)a in bar 6, beat 2.
+N: CCDM1 is mising the final f in bar 6, which has only 8 counts.
+M: 9/4
+L: 1/4
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: F2c (cA)c c2A | F2c (cA)c (d/e/f)c | F2c (cA)c d2e | (fc)d (cA)F G2F :|
+|: (fc)f (ec)f e2d | d>ed f>g a/f/ g2f | (fc)f (fb)a g2f | (df)d (cA)F G2F :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% First Man cast off and go below the 2d Man and come up into his Place,
+%% the 2d Wo. go up and cast around the 1st Wo. into her Place again;
+%% then each Cu. take Hands and turn once round into their Places. the
+%% 2d Cu. do the same over as the first did :| First and 2d Men cross
+%% over and change into their own We. Places; then the 1st Man go
+%% below the 2d Wo. the half Figure while the 1st Wo. goes round the
+%% 2d Man the half Figure, 'till they come into their Places again, and
+%% turn S. the next Cu. cast up and do the same :|
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% First man cast off and go below the 2. man and come up into his place, the 2. wo. go up and come
+%% round the I. wo. into her place again, then each cu. take hands and turn once round into their places;
+%% the 2. cu. do the same over as the first did.  This to the first Strain played twice.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First and 2. man cross over and change into their own we. places, then the I. man go below the 2. wo.
+%% the half Figure, while the I. wo. goes round the 2. man the half Figure, till they come into their places
+%% again, and turn S. The next cu. cast up and do the same.  This to the second Strain played twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

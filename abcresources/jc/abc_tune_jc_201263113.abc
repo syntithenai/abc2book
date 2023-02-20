@@ -1,0 +1,27 @@
+X: 1
+T: Cockle-Shells
+N: Handwritten after the title: a Scots air
+N: Handwritten between the staffs: The "Lass of Livingston"
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.304
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F % and Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+F3G A2c2 | A2d2 cA GF | A2G2 G2FG | A2G2 G2D2 |\
+F3G A2c2 | A2d2 cA GF | A2D2 D2C2 | F2D2 D2 |]
+c2 |\
+dcdc A2c2 | dcdc A2(GF) | A2G2 G2(FG) | A2G2 G2c2 |\
+dcdc A2c2 | dcdc A2(GF) | A2D2 D2C2 | F2D2 D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man turns the 2. wo. with his right-hand, and his Partner with his left .| The 2. cu. does the same :|
+%% The 1. man change places with the 2. wo. and the 2. man with the 1. wo. then hands half round and
+%% cast off .| Then the Figure of Eight through the 3. cu. and turn your Partner :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

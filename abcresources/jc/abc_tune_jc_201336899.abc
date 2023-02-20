@@ -1,0 +1,44 @@
+
+X: 1
+T: Vr\aalk\aada
+C: Roger Tallroth
+R: shottish
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+S: Printed page from Colin Fergusun & Heather Lee
+M: C
+L: 1/8
+K: Am
+|:\
+"Am"c2cB A^GAc- | "E7"cBB^G E2E2 |\
+"Am"c2cB A^GAc- | "B7"cBB^d "E7"e2e2 |
+"Am"c2cB A^GAc- | "E7"cBB^G E3=G |\
+"D"^FED2 "C"E3C | "G"B,A,G,2 [1 "Am"A,2z2 :|2 "Am"A,4- |]
+|:\
+"Am"A,G,A,C "E7"B,2B,2- | B,A,B,D "Am"C2C2- |\
+"Am"CB,CE "C"GAGE | "D"^FAFD "E7"E2E2- |
+"Am"EG,A,C "E7"B,2B,2- | B,A,B,D "Am"CDEG |\
+"D"^FED2 "C"E3C | "G"B,A,G,2 [1 "Am"A,4- :|2 "Am"A,2z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Vr\aalk\aada
+C: Roger Tallroth
+R: shottish
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+S: Printed page from Colin Fergusun & Heather Lee
+M: C
+L: 1/8
+K: Am
+|:\
+"Am"c2cB A^GAc- | "E7"cBB^G E2E2 |\
+"Am"c2cB A^GAc- | "B7"cBB^d "E7"e2e2 ||\
+"Am"c2cB A^GAc- | "E7"cBB^G E3=G |
+"D"^FED2 "C"E3C | "G"B,A,G,2 [1 "Am"A,2z2 :|2 "Am"A,4- \
+|:\
+"Am"A,G,A,C "E7"B,2B,2- | B,A,B,D "Am"C2C2- |\
+"Am"CB,CE "C"GAGE |
+"D"^FAFD "E7"E2E2- ||\
+"Am"EG,A,C "E7"B,2B,2- | B,A,B,D "Am"CDEG |\
+"D"^FED2 "C"E3C | "G"B,A,G,2 [1 "Am"A,4- :|2 "Am"A,2z2 |]

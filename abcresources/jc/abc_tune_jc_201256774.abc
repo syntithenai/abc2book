@@ -1,0 +1,19 @@
+X: 1
+T: Brig of Perth
+C: Daniel Dow 1773
+B: RSCDS 11-4
+B: Kerr "Merrie Melodies", 1st Coll.
+B: RSCDS "Originally Ours"
+Z: 2001 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/16
+K: Amix=g
+e \
+| "A"ABcd e3A "D"d3A f3A | "A"c3A e3c a3e ce3 \
+| "A"ABcd e3d c3e A3=c | "G"Bd3 G3B g3d B3 :|
+e \
+| "A"A3a e3a c3a ea3 | Aa3 e3f e3A c2 \
+|    A3a e3a c3a Aa3 | "G"g3b e3g B3G B3 |]
+e \
+| "A"A3a e3a c3a ea3 | Aa3 e3f e3A c2 \
+|    A3a g3a e3a c3a | "G"Bg3 d3g B3G B3 |]

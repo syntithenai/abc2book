@@ -1,0 +1,29 @@
+X: 64
+T: Trusty Dick
+T: Longways for as many as will.
+%R: march, reel
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.32
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2G2 c2c2 | defd e2de |\
+f2A2 B2cd | Td3c c4  :|\
+dcBc Td3e | dcBc Td3e |
+f2A2 BdcB | TA3G G2ef |\
+gagf e2dc | defd e2de |\
+f2A2 B2cd | Td3c c4  |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st Cu. clap Hands and cast off and turn
+%% .| the 2d Cu. do the same, :| then the 1st Cu.
+%% Cross over and single figure .| then Right
+%% and Left quite round :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

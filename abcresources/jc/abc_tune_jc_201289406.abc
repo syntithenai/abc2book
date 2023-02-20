@@ -1,0 +1,29 @@
+X:1
+T: I Care Not for These Ladies
+N:
+C:
+S:3 times
+A:
+O:
+R:
+M:6/8
+K:C
+I:speed 180
+%W:              A
+% voice 1 (1 lines, 15 notes)
+K:C
+M:6/8
+L:1/16
+G2 |c4 d2 e4 f2 e6 d4 B2 c4 c2 =f4 e2 d6d4 G2 |
+%W:
+% voice 1 (1 lines, 13 notes)
+c4 d2 e4 f2 e6 d4 B2 c4 c2 =f4 e2 d6d6 |
+%W:         B
+% voice 1 (1 lines, 14 notes)
+A4 B2 c4 d2 B6 G4 g2 g4 a2 =f4 g2 e6e4 g2 |
+%W:         C
+% voice 1 (1 lines, 16 notes)
+g3 f e2 d4 e2 f6 z4 f2 f3 g f2 e4 e2 d6 z4 e2 |
+%W:
+% voice 1 (1 lines, 16 notes)
+d4 c2 d4 B2 c4 c2 d3 e f2 g2 f2 e2 d4 d2 c6c4 ||

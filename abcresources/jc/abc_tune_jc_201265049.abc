@@ -1,0 +1,19 @@
+X:275
+T:Cradle Song, The
+R:SONG/STRATHSPEY
+N:
+Z:J. Scott Skinner
+Z:John Chambers <jc@trillian.mit.edu>
+M:4/4
+L:1/8
+Q:132
+K:A
+"A"      Ac {c}BA          e2     f2 |         e4        c2z2 |\
+Ac {c}BA       {A}e2     c2 | "Bm" {c}B4- "E7"  B2c2 |!
+"A"      Ac {c}BA          e2     f2 |         e4  "F#m" c2A2 |\
+"Bm" {FG}FE    AB "E7" {AB}c2 {Ac}B2 | "A"     A6        z2  ||!
+||\
+"D"      fd    Ad          f2     a2 | "A"     e4        c2z2 |\
+Ac {c}BA       {A}e2     c2 | "Bm" {c}B4- "E7"  B2z2 |!
+"A"      Ac    BA          ef     ga |         e4  "F#m" c2A2 |\
+"Bm" {FG}FE    AB "E7" {AB}c2 {Ac}B2 | "A"     A6        z2   |]

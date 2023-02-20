@@ -1,0 +1,83 @@
+
+X: 1
+T: Dr & Mrs Nedderman
+C: Sheena Sturrock
+R: strathspey
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: Suggested tune for John Drewry's "Bridge of Sighs"
+M: C
+L: 1/8
+K: G
+E2 "A"|:\
+"G"D<G G>A B>A B<d | "C"(3efg "G"d>B "D7"A<G A<B |\
+"G"D<G G>A B>A B<d | "C"(3efg "G"d>B "D7"A<B "G"G2 :|
+"B1"[|]\
+"G"B<d d>e d>B "D"A2 | "Em"B<e e>f g>f ge |\
+"G"d>B GB "D"AF DF | "Em"(3GAB "B7"A>F "Em"G<E E2 ||
+"B2"[|]\
+"G"G2 B>A B>d d2 | "C"e>f ge "G"dB "D7"AB |\
+"G"G>D EG "C"c>d ec | "G"d<g "D7"B>A "G"G2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Braes of Tulliemet 1 [Em]
+T: the Braes of Tullymet
+R: strathspey
+B: Neil Stewart 1761
+B: RSCDS 2-10b
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Edor
+F \
+| "Em"E<B B>A B>A B<d | "D"F<D A>D B>D A>F \
+| "Em"E<B B>A B>A B<e | "D"d>B A>F "Em"E/E/E E :|
+B \
+| "Em"e>B e<g e>B e<g | "D"d>A d<f d>A d<f \
+| "Em"e>B e<g e>B e<g | "D"d>B A>F "Em"E/E/E E |]
+B \
+| "Em"e>B e<g e>B e<g | "D"d>A d<f d>A d<f \
+| "Em"e<B B>c "D"d>e f>e | "Bm"d>B A>F "Em"E/E/E E |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Braes of Breadalbane 1
+R: strathspey
+B: RSCDS 21-7(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+|: E \
+| "Am"E<A AB c>B Ac | "Am"e2 cA e2 cA \
+| "Am"E<A AB "(F)"c>B Ac | "E7"c>A B>^G "Am"A3 :|
+|: G  \
+| "C"c<c cc "G"d<d dd | "C"e>f ge "G"d>B AG \
+| "C"c<c cc "G/b"d<d dd |1 "Am"e>d c>d "E7"e2z :|2 "E7"e>d c>B "Am"A3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Marquis of Huntly's Strathspey
+C: William Marshall
+N:
+N: Caledonian Companion, p.86
+N: Hunter 174
+N: Skye, p.123
+N: First published in 1781, in Marshalls "Collection of Strathspey Reels" as
+N: the "Marquis of Huntly's Reel"; published in 1822 as a strathspey.
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: GDorian
+F \
+|  "Gm"D<G {A}G>F D<G G>A | "F"F>G A>B c/B/A/G/ F<A \
+|  "Gm"D<G {A}G>F D<G G>g | "F"f>c "(D7)"d/c/B/A/ "Gm"B<G G :|
+d \
+| "Gm"g>a b>g d<g b>g | "F"a/g/f/d/ c>d {e}f<c a>f \
+| "Gm"g>a b>g d<g b>g | b/a/g/f/ "D7"d>^f "Gm"~g3 |]
+d \
+| "Gm"g>a b>g "(D)"a<^f "Gm"g>e | "F"f>d c<f A<F c>F \
+| "Gm"D<G {A}G>F D<G G>g | "F"f>c "(D7)"d/c/B/A/ "Gm"B<G G |]

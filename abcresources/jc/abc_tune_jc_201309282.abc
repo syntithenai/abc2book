@@ -1,0 +1,32 @@
+X:1
+T: The Merry Moment
+N:
+C:
+S: Play  3  times
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 20 notes)
+K:D
+M:4/4
+L:1/16
+f4 e2 f2 f4 e2 f2 |f4 e2 d2 e4 A4 |f4 e2 f2 f4 e2 f2 |f4 d4 d8 |
+%W: A2
+% voice 1 (1 lines, 20 notes)
+f4 e2 f2 f4 e2 f2 |f4 e2 d2 e4 A4 |f4 e2 f2 f4 e2 f2 |f4 d4 d8 |
+%W: B1
+% voice 1 (1 lines, 30 notes)
+a4 f2 g2 a4 f2 g2 |a4 g2 f2 b8 |g4 e2 f2 g4 e2 f2 |g4 f2 e2 a8 |d4 c2 B2 c4 A4 |d4 c2 B2 c4 A4 |
+%W:
+% voice 1 (1 lines, 26 notes)
+a2 g2 f2 g2 a2 g2 f2 g2 |a2 g2 f2 g2 a2 g2 f2 g2 |a2 g2 f2 e2 d4 e4 |c4 B2 A2 d8 |
+%W: B2
+% voice 1 (1 lines, 30 notes)
+a4 f2 g2 a4 f2 g2 |a4 g2 f2 b8 |g4 e2 f2 g4 e2 f2 |g4 f2 e2 a8 |d4 c2 B2 c4 A4 |d4 c2 B2 c4 A4 |
+%W:
+% voice 1 (1 lines, 26 notes)
+a2 g2 f2 g2 a2 g2 f2 g2 |a2 g2 f2 g2 a2 g2 f2 g2 |a2 g2 f2 e2 d4 e4 |c4 B2 A2 d8 ||

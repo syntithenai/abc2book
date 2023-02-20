@@ -1,0 +1,27 @@
+X: 1
+T: Drown Drowth
+%R: slip-jig, triple hornpipe
+P: Longways for as many as will
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.4
+S: 3: CCD3  http://javanese.imslp.info/files/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.13
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: "Each Strain twice." Repeat signs added by jc.
+M: 9/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+   E | D/E/FD BFE D2B, | D/E/FD ECC C2E | D/E/FD BFE D2B, | D/E/FE DB,B, B,2 :|
+|: F | BcB dBg fdB  | A2F A/B/cc c2F | B>cd/e/ fga bag | fbd TdcB B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z | b3 f3 B3 | b3 f3 F3 | b3 B3 b2z | b2f B3 B2 :|
+|: z | b3 B3 b3 | f3 F3 f2e | d2c B2d gfe | d2B f2F B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st and 2d Cu. set all four, and turn single .|
+%% Then both Cu. Back to Back with their Partners :|
+%% Then the 1st Cu. cross over and turn and the 2d Cu. cast off and turn .|
+%% Then Hands all four quite round and each turn their Partners.
+%%endtext

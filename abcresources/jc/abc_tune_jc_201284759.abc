@@ -1,0 +1,21 @@
+X:1
+T:Harliquin Air, A. BC.10
+T:Harliquin Air
+R: hp 32 march
+A:Uncertain, probably northern
+F:http://richardrobinson.tunebook.org.uk/tune/7882
+L:1/4
+M:C|
+N:Several works between 1735-1756 by Thomas Arne involving Harlequins
+N:could be the source of this tune. CGP.
+O:England
+Q:1/2=100
+R:.Air
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+Z:vmp.John Bagnall
+%%TBL:{"version":"beta","type":"tune","id":"7882"}
+K:D
+"D"d A A "G"d|"A"c/d/e/c/ A2| "G" B G G E|"A"F/G/A/F/ "D"D2|!
+"D"d A A "G"d|"A"c/d/e/c/ A g|"D"f e/d/ c"Em" d|"A"e2-e2:|!
+"A"e a a "Em"e|"D"f/g/a/f/ d2|"G"B g g"Bm" B|"A"c/d/e/c/ "A"A2|!
+"A"A a a "Em"g|"D"f/e/d/c/ d"Bm" G|F d"A" E c|"D"d2-"G"d2|]

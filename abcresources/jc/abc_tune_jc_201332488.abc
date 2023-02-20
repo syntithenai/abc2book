@@ -1,0 +1,23 @@
+X:15
+T:Russian Sher Traditional tune 1
+Z:Jack Campin, http://www.campin.me.uk
+F:http://www.campin.me.uk/Music/EdinburghKlezmer.abc
+M:2/4
+L:1/16
+Q:1/4=110
+K:DMin
+  d2ff   ffff   |gfga     f4  |fede  fgfe |d4    A4 |
+  d2ff   ffff   |gfga     f4  |c'abg afge |fd_ec d4:|
+%
+  a4     g2a2   |b2a2     g4  |g2ag  d2e2 |f8       |
+  abc'2- c'2c'2 |d'2c'2   b2a2|b2g2  c'2b2|a8      ||
+%
+|:aggf   feed   |d2e2     f2g2|aggf  feed |efd2  z4:|
+%
+|:efg2-  g2g2   |g_aga    g4  |fede  fgfe |f4    z4 |
+  cdef   g_a=bc'|d'c'=b_a gfed|fccf  f_eed|d4    z4:|
+%
+  a6       gf   |g2f2     z4  |a2a2  a2gf |gaf2  z4 |
+  a2a2   a2gf   |a2a2     a2gf|a2a2  a2gf |gaf2  z4 |
+  efg2-  g2g2   |g_aga    g4  |fede  fgfe |f4    z4 |
+  cdef   g_a=bc'|d'c'=b_a gfed|fccf  f_eed|d4    z4|]

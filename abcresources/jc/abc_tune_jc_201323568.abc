@@ -1,0 +1,26 @@
+X:1
+T: Philandering
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:D
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 42 notes)
+K:D
+M:6/8
+L:1/16
+f2 |a4 a2 f2 e2 d2 e2 f2 d2 c2 B2 A2 B4 g2 A4 f2 e4 d2 c2 B2 A2 |B2 G2 B2 d2 c2 B2 A2 F2 A2 d2 c2 B2 A2 B2 A2 A2 B2 c2 e6 d4 f2 |
+%W: A2
+% voice 1 (1 lines, 42 notes)
+a4 a2 f2 e2 d2 e2 f2 d2 c2 B2 A2 B4 g2 A4 f2 e4 d2 c2 B2 A2 |B2 G2 B2 d2 c2 B2 A2 F2 A2 d2 c2 B2 A2 B2 A2 A2 B2 c2 e6 d4 a g |
+%W: B1
+% voice 1 (1 lines, 46 notes)
+f2 g2 a2 d2 e2 f2 B2 c2 d2 G4 b a g2 a2 b2 e2 f2 g2 c2 d2 e2 A4 a g |f2 g2 a2 d2 e2 f2 g2 a2 b2 e2 f2 g2 f2 a2 f2 e2 c2 A2 d6d4 a g |
+%W: B2
+% voice 1 (1 lines, 44 notes)
+f2 g2 a2 d2 e2 f2 B2 c2 d2 G4 b a g2 a2 b2 e2 f2 g2 c2 d2 e2 A4 a g |f2 g2 a2 d2 e2 f2 g2 a2 b2 e2 f2 g2 f2 a2 f2 e2 c2 A2 d6d4 ||

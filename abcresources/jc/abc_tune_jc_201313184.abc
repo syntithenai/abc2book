@@ -1,0 +1,22 @@
+X: 1
+T: Morton's Maggot
+R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: The Gentleman's Magazine v.23, January 1753, p.42
+N: Added missing 2nd beam in bar 3 to fix the rhythm.
+M: C
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d4 A4 (Bcd2) A4 | (GAB2) A2G2 (F2GA) D4 |\
+d4 A4 (Bcd2) A2G2 | (FED2) TE4 D8 :|
+|:\
+ABcd e2f2 e2c2A2g2 | (f2ed) (a2gf) e4- e4 |\
+d4 A4 (Bcd2) A2G2 | (FED2) TE4 D8 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   First couple cast off, two couple .| cross over and figure into their own
+%% places :| ; first couple cross over and half figure .:| all four hands round and
+%% right and left.
+%%endtext

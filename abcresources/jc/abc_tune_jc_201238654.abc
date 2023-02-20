@@ -1,0 +1,32 @@
+X: 31091
+T: COTILLION No. 16. EMMA QUADRILLE tune 4
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.109 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+cccc c2G2 | c2(a2 g4) | d2^cd f2d=c | BcdB G2(AB) |\
+cccc c2G2 | c2(a2 g4) | g2^fe d2ed | (dc)BA G4 H|]
+e4 (f2e2) | d2c2 B2c2 | dddd d2g2 | efed cBcd |\
+e4 (f2e2) | d2c2 B2c2 | dddd d2g2 | c4 "^D.C."z4 |]
+c3(a f4) | A3(d c4) | E3d c3B | A2(cA) FGAB |\
+c3(a g4) | A3(d c4) | E3d c3E | F2Ac f2"^D.C."z2 |]
+{^g}a2A2 {=g}a2A2 | ded^c defg | {^g}a2A2 {^g}a2A2 | fgfe d2(ef) |\
+{^f}g2G2 {^f}g2G2 | efed cdef | {^f}g2G2 d2(ed) | c4 "^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple forward and back,
+%% 1st lady cross over on the left hand side of the 2d Couple,
+%% forward and back 3,
+%% 2 ladies cross over,
+%% forward 3,
+%% swing partners to place,
+%% balance 4 and turn.
+%% The others the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

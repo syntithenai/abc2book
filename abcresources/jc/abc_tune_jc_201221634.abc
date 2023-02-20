@@ -1,0 +1,24 @@
+X: 05029
+T: the FRANCESTOWN JIG
+C: Bob McQuillen Sept'80
+B: Bob's Note Book 5 #29
+%R: jig
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+FG \
+| ABA FAd | dfd A2F | DFA B2A | G3- G EF || GAG EFG | e2d c2B | ABd c2B | B3 AFG |
+| ABA FAd | dfd ABc | dcd e2d | B3- B cd || efe Bce | dfd AFA | Bcd e2f | d3- d |]
+[| fg \
+| fcd efg | f2c dcB | c2f edc | d2c Bcd || eBc dcB | c2e A2B | cde dcB | aba gfe |
+| ded fed | cBc edc | BGB dcB | ABA FGA || BGB gfe | ABA fed | cBA gfe | d3 d |]
+%%begintext align
+%% It's always
+%% wonderful to be in Francestown on
+%% Labor Day among so many dear friends,
+%% with special mention going to the
+%% Francestown Fire Department! (I played
+%% music for the Labor Day Dance with Duke
+%% Miller in the Town Hall for 25 consecutive years!!)
+%%endtext

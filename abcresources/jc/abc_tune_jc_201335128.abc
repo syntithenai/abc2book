@@ -1,0 +1,27 @@
+X: 1
+T: the Scoulding Pair
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (59)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+BAG G2A | BGF GAB | cde dgd | dgd dgd |\
+efe dcB | A>Bc/d/ edc | BAG F2E | D3- D2 :|
+|: d |\
+dDD Ddc | dcB dcB | cCC CcB | cBA cBA |\
+BB,B, B,BB | AA,A, A,AA | GB,A, G,GF | G3 G,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice
+%%begintext align
+%% The 1st Man sides to the 2d Wo. and turns her with his
+%% right hand then your partner with your left hand then
+%% your Partner does the same :| Then cross over and figure
+%% in and right and left quite round then single figure at
+%% ?? Top and right and left quite round with the 3d Cu.
+%%endtext
+%%sep 1 8 500

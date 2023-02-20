@@ -1,0 +1,19 @@
+X: 102	% 24
+T: Flop Eared Mule
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.10 #2
+R: reel, hornpipe
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+V: 1 name=24
+|:\
+dedB  dedB | dedB G2G2 | FGAB cBcA | GABc d2d2 |\
+dedB  dedB |
+dedB G2G2 | FGAB cAFD | G2G2G2z2 ::\
+"^gliss sul E"\
+{g}.[b2d2].[b2d2].[g2B2].[g2B2] | dedB MG2MG2 |
+FGAB cBcA | GABc .d2.d2 |\
+"^gliss sul E"\
+{g}.[b2d2].[b2d2].[g2B2].[g2B2] | dedB MG2MG2 |\
+FGAB cAFD | G2G2G2z2 :|

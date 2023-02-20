@@ -1,0 +1,44 @@
+X:1
+T:Resolis
+M:6/8
+L:1/8
+Q:80
+C:
+S:Jig
+K:HP
+|: {d}c/2e/2 | \
+f2{gBG}B{g}Bcd | \
+{gcd}cB{G}A{g}B{d}ce |
+f2{gBG}B{g}Bcd | \
+{gcd}cB{G}Aaga | | \
+f2{gBG}B{g}Bcd |
+{gcd}cB{G}A{g}B{d}ce | \
+{g}fecagf | \
+{g}ec{G}A{g}B3 ::
+{d}c/2e/2 | \
+f2{gBG}Ba2{BG}B | \
+{gcd}cB{G}A{g}B{d}ce |
+f2{gBG}Ba2{BG}B | \
+{gcd}cB{G}Aaga | | \
+f2{gBG}Ba2{BG}B |
+{gcd}cB{G}A{g}B{d}ce | \
+{g}fecagf | \
+{g}ec{G}A{g}B3 ::
+{d}c/2e/2 | \
+{afg}f2B{g}B2{GdGe}B | \
+{gcd}cB{G}A{g}B{d}ce |
+{gfg}f2B{g}B2{GdGe}B | \
+{gcd}cB{G}Aaga | | \
+{afg}f2B{g}B2{GdGe}B |
+{gcd}cB{G}A{g}B{d}ce | \
+{g}fecagf | \
+{g}ec{G}A{g}B3 ::
+{d}ce | \
+{gfg}f2a{fg}fec | \
+{g}ec{G}A{g}B{d}ce |
+{gfg}f2a{fg}fec | \
+{g}B{d}ceaga | | \
+{gfg}f2a{fg}fec |
+{g}ec{G}A{g}B{d}ce | \
+{g}fecagf | \
+{g}ec{G}A{g}B3 :|

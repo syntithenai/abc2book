@@ -1,0 +1,27 @@
+X: 1252
+T: the Quilting Party
+C:
+O: College Song
+%R: air, march
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [EC][FD] | [G3E3][GE] [A2F2][G2E2] | [GE][c3-E3-] [c2E2] [cG][cG] | [c3A3][GB] [A2F2][c2F2] | [G6E6]
+w: In the sky the bright stars glit-tered,* On the bank the pale moon shone;
+[V:2] [GC][GC] | [c3C3][cC] [c2C2][c2C2] | [cC][G3-C3-] [G2C2] [cE][cE] | [c3F3][cF] [c2F2][A2F2] | [c6C6]
+!segno!\
+[V:1] [EC][FD] | [G2E2][c2G2] [e2G2][c2G2] | [dF][c3F3] [AF][cF] [cF][cF] | [B3F3][cF] [dF]~[d3F3]  | [c4-E4-]"^Fine."[c2E2] |]
+w: And 'twas from Aunt Di-nah's quilt-ing par-ty I was see-ing Nel-lie home.*
+[V:2] [GC][GC] | [c2C2][G2C2] [c2C2][c2E2] | [AF][A3F3] [cF][AF] [AF][AF] | [G3G3][AG] [BG,][B3G,3] | [G4-C4-]        [G2C2] |]
+"^Chorus"\
+[V:1] [EC][FD] | [GE][G3E3] [AF][A3F3] | ([G2E2-][c2E2-] [G2E2]) [cG][cG] | [c3A3][BG] [AF][c3F3] | "D.S. al Fine"[G6E6] |]
+w: I was see-ing Nel-lie home,__ I was see-ing Nel-lie home;
+[V:2] [GC][GC] | [cC][c3C3] [cF][c3F3] | ([c2C2-][G2C2-] [c2C2]) [cE][cE] | [c3F3][cF] [cF][A3F3] |               [c6C6] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

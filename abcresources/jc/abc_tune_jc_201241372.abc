@@ -1,0 +1,23 @@
+X: 331
+T: Tuzzy muzzy
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%
+V: 1
+|: D2(3E/F/G/ A2B | ABG FED | D2(3E/F/G/ A2g | fdf ecA |\
+   D2(3E/F/G/ A2B | AFA EFG | FAd Bcd | FGE D3 :|
+|: d2(3e/f/g/ a2g | fdf ecA | Bcd AFd | GAF E2(3G/F/E/ |\
+   D2(3E/F/G/ A2g | afa gec | dfd Bcd | FGE D3 :|
+%
+V: 2 clef=bass middle=d
+|: d2e f2g | f2e d3 | d2e f2c | d3  a3 |\
+   d2e f2g | d3  A3 | d3  g2d | a2A d3 :|
+|: d2e f2e | d3  a3 | g2f d3  | e2d a3 |\
+   d2e f2c | d3  a3 | d3  g2d | a2A d3 :|
+%%begintext align
+Hey contray sides, then on your own :|
+First Cu cast off and turn, Right and Left with the 2d Cu. :|:
+%%endtext

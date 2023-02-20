@@ -1,0 +1,32 @@
+X: 3
+T: Mrs Rait of Anniston's Strathspey
+C: by J. Boick.
+%R: strathspey
+B: "Tom Thumb a Favorite Dance with Three New Strathspeys and a Reel", R.RobertPurdie, ed. p.2 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=118869468
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Both strains have final repeat but no initial repeat symbol; not fixed.
+M: C
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+E2 |\
+AA3Tc3A F4 F3E | AA3Tc3A eA3c3e |\
+c3e {d}c2BA {G}F4 F2E2 | (AB).c.d e2c2 A4 A2 :|
+cd |\
+eA3Tc3e {d}c2BA TB2cd | eA3c3e | Ta3ec2d2 |\
+eA3c3e {d}c2BA TB3c | .A.B.c.d e3c {B}A4 A2cd |
+eA3c3e {d}c2BA B2cd | .e2.A2.f2.A2 .g2.A2.a2.f2 |\
+eA3c3e {d}c2BA TB3c | .A.B.c.d e3c A4 A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+A4A4 d4d4 | A4A4 A4A4 |\
+A4A4 d4d4 | a4e4 A6 :|\
+z2 |\
+A4A4 e4e4 | A4A4 A4A4 |
+A4A4 e4e4 | A4A4 A4A4 |\
+A4A4 e4e4 | A4A4 A4A4 |\
+A4A4 e4e4 | a4e4 A6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

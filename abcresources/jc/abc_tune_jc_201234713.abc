@@ -1,0 +1,23 @@
+X: 20722
+T: the DORSET QUADRILLE
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.72 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+ded |\
+b2b a2a | g2d ded | c'2c' b2b | a3 ded |\
+b2b a2a | g2d ded | e2a def | "^Fin."g3 H|]\
+ded | f2f g2g | ^g2a ded |
+cdc BcB | A3 ded |\
+b2b a2a | g2g gfe | d2B dcA | G3 |] BcB |\
+e2e g2g | f2B BcB | e2e g2g | f3 BcB |\
+g2g f2f |
+e2e =f2f | e2e ^d2d | e3 |] BcB |\
+^d2d e2e | ^e2f BcB | ABA GAG | F3 BcB |\
+g2g f2f | e2e =f2f | e2e ^d2d | "^D.C."e3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

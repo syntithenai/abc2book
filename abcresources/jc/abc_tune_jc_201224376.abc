@@ -1,0 +1,37 @@
+X: 08242
+T: AP SHENKIN
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.8 p.24 #2
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has final repeat symbol but no initial repeat; not fixed.
+N: (The first and last bar lines have 4-dot "repeat" symbols, but the 1st strain ends with a 2-dot repeat symbol.)
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 1 clef=treble middle=B
+A/G/ |:\
+F2F Fdc | B2B Bcd | ABA AGF | FEE E2A/G/ |\
+F2F Fdc | B2B Bcd | ABA GFE | D2D "Fine"D2 H:|
+d/e/ |\
+f2d e2c | dcB AGF | GAB AdF | {G}FEE E2d/e/ |\
+f2d e2c | dcB edc | fed cdB | Adc BA"D.C."G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z |:\
+dfa dfa | dgb dgb | dfa dfa | Aea A2z |\
+dfa dfa | dgb dgb | dfa Aea | dfa "Fine"d2 H:|
+z |\
+[d'3d3] [^a3^A3] | b=ag fed | c3 d3 | Ace a2z |\
+d'3 c'3 | b3 c'3 | d'3 e'3 | a3 z2"D.C."z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Lady set to 2d Gent: & turn round with both hands,
+%% 1st Gent: do the same,
+%% down the mid: up again,
+%% Pousette with 2d Couple.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

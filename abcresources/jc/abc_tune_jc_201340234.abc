@@ -1,0 +1,52 @@
+
+X: 1
+T: Srbijanka  [F C G]
+O: Serbia
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+Q: 1/4 "=100-112"
+M: 2/4
+L: 1/16
+K: F
+|::: "F"c4- c=Bcd | "C"_B4- BABc |1,3 "F"A2F2 "C"G2A2 :|2,4 "F"A2F2 "C"G4 :|
+K: C=B
+|::: "C"G4 cBAG | "G"F2E2 F2GF |1,3 "C"E2C2 "G"D2E2 :|2,4 "C"E2C2 "G"HD4 :|
+K: G
+[| "G"G4 D4 | D2ED B,2D2 | "G"G4 D4 | D2ED B,4 |]
+
+
+%%sep 3 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: Srbijanka  [G D A]
+O: Serbia
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+Q: 1/4 "=100-112"
+M: 2/4
+L: 1/16
+K: G
+|::: "G"d4- d^cde | "D"=c4- cBcd |1,3 "G"B2G2 "D"A2B2 :|2,4 "G"B2G2 "D"A4 :|
+K: D
+|::: "D"A4 dcBA | "A"G2F2 G2AG |1,3 "D"F2D2 "A"E2F2 :|2,4 "D"F2D2 "A"HE4 :|
+K: A
+[| "A"A4 E4 | E2FE C2E2 | "A"A4 E4 | E2FE C4 |]
+
+
+%%sep 3 1 500
+
+%%sep 1 1 500
+
+X: 3
+T: Srbijanka  [A E B]
+O: Serbia
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+Q: 1/4 "=100-112"
+M: 2/4
+L: 1/16
+K: A
+|::: "A"e4- e^def | "E"=d4- dcde |1,3 "A"c2A2 "E"B2c2 :|2,4 "A"c2A2 "E"B4 :|
+K: E
+|::: "E"B4 edcB | "B"A2G2 A2BA |1,3 "E"G2E2 "B"F2G2 :|2,4 "E"G2E2 "B"HF4 :|
+K: B
+[| "B"B4 F4 | F2GF D2F2 | "B"B4 F4 | F2GF D4 |]

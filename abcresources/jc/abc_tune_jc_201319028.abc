@@ -1,0 +1,20 @@
+X:5
+T:Oh Callar Spirlings (variation 4)
+C:Domenico Corri
+S:Jack Campin <abc:purr.demon.co.uk> abcusers 2004-12-6
+V:1
+V:2 bass middle=D transpose -12
+M:3/4
+L:1/16
+Q:1/4=92
+m:S = (6:4:6
+K:D Minor
+[V:1] A2|Sd^c`dA`Bc   Sda```gf```ed S^cd`````eA`Bc   |Sd^c`fe``fe  Sa^g`ad'^c'd'  f'2     z2     |
+[V:2] z2|[d2f2][d2f2] [d2f2][d2f2]   [A2e2g2][A2e2g2]|[d4f4]        z4            z2    (3GA=B   |
+[V:1]    Sc=B`ce`de   Sg^f``gc'`=bc'  d'2     z2     |Sd^c`dA`=Bc  Sda``gf``ed   Scd`````eA```Bc |
+[V:2]    [c4e4]        z4             z2    (3A=B^c  | d2[d2f2]    [d2f2][d2f2]  [A2e2g2][A2e2g2]|
+%
+[V:1]    Sd^cd`ABc    Sda```gf```ed S^cd`````eA```Bc |Sd^c`fe``fe  Sa^g`ad'^c'd'  f'2     z2     |
+[V:2]     d2[d2f2]    [d2f2][d2f2]   [A2e2g2][A2e2g2]|[d4f4]        z4            z2    (3GA=B   |
+[V:1]    Sbab``d'c'b  Sag```fe```fg S fe`````d^c``de |Sdf``af``ad'  d4                    z2    ||
+[V:2]     G4           A4             A,4            | D4          SD,F,A,D`A,F,  D,2           ||

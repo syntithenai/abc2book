@@ -1,0 +1,48 @@
+X: 1
+T: Staines Morris
+% Nottingham Music Database
+O: Playford 1651
+P: AABBC(C)
+M: 4/4
+L: 1/4
+K: Dm
+|:\
+"Dm"Ad "G"=B"A7"^c | "Dm"d"C7"c/B/ "F"A3/B/ |\
+"F"c/d/c/B/ "(Gm)"AG/F/ | "A7"E/D/E/F/ "Dm"D ::\
+"F"{E}F/G/A/B/ AG/F/ |
+"C(A7)"E/D/E/F/ "Dm"D :|\
+|:\
+"F"{E}FF/-F/ CC/-C/ | "Bb"D/E/F/G/ "F"A3/B/ |\
+"F"c/d/c/B/ "(Gm)"AG/F/ | "A7"E/D/E/F/ "Dm"D :|
+
+%%sep 1 1 500
+X: 1
+T: Staines Morris
+T: Then Away to the Maypole
+R: March
+C: Trad. Playford 1651
+O: England, Staines
+Z: Paul Hardy's Session Tunebook 2014 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M: 2/2
+L: 1/8
+%Q: 1/2=60
+K: Em
+|: "Em"B2 e2 "A"^c2 "B7"^d2 | "Em"e2 "D7"dc "G"B3 c | "G"dedc "(Em)"B2 AG | "B(m)"FEFG "Em"E4 :|
+[| "Em"GABc B2 AG | "Bm"FEFG "Em"E3 F | "G"GABc B2 AG | "D(B7)"FEFG "Em"E4 |]
+|: "G"G2 GG D2 D2 | "C"EFGA "G"B3 c | "G"dedc "(Em)"B2 AG | "B7"FEFG "Em"E4 :|
+
+%%sep 1 1 500
+X: 1
+T: Staines Morris
+R: march
+B: "FIFTY OLD ENGLISH FOLK DANCE AIRS", Edgar H. Hunt ed., Schott & Co. Ltd. pub., London 1939
+Z: 2004-2014 John Chambers <jc:trillian.mit.edu>
+N: Chords by John Chambers
+M: 2/2
+L: 1/8
+K: Gdor
+|:\
+"Gm"d2g2 "C"e2"D7"^f2 | "Gm"g2 "F7"(=f_e) "Bb"d3e |\
+"F(Bb)"(fg)f_e "Bb(Gm)"d2cB | "F(D7)"(AG)AB "Gm"G4 :: "Bb"(Bc)d_e d2cB |
+"F(D7)"(AG)AB "Gm"G4 :: "Bb"B2B2 F2F2 | "Eb"(GA)Bc "Bb"d3e |\
+"Bb"(fg)fe "(Cm)"d2cB | "F(D7)"(AG)AB "Gm"G4 :|

@@ -1,0 +1,30 @@
+X: 21223
+T: MASSASOIT SETT (tune 3)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.122 #3 (and top staff on p.123)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+A |\
+.A(fe) def | .A(fe) def | dcd ede | a^ga f2d |\
+.A(fe) def | .A(fe) def | dcd ede | ace d2 H|]
+e/f/ |\
+gBe dcB | AGF E2E | A2A A2A | A3 (Ae)f |\
+gBe dcB | A2G F2E | Afe dcB | A3 "^D.C."[A2F2] |] [K:=f=c]
+K: C
+[ec] |\
+d_e=e f^fg | a2g e2g | g2f d2e | gfd cBA |\
+d_e=e f^fg | a2g e2g | a^ga ba^g | a3 "^D.C."a2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% back to back,
+%% balance four.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

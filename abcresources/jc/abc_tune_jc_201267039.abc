@@ -1,0 +1,26 @@
+X:313
+T:Danza Prima
+R:Danza Prima
+C:Tradicional
+S:Música Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:armadura no=tonalidad
+A:Asturies
+O:Mieres
+Z:ByD IDEA
+M:3/8
+L:1/8
+Q:3/8=108
+K:Am
+"solo"
+|E2 E|C2 C|B,2 C|D2 D|
+"coro"
+|AAA|G2 G|F2 F|E z2|
+"solo"
+|E2 E|C2 C|B,2 C|D2 D|
+"coro"
+|A2 A|G2 G|F2 F|E z2|
+"solo"
+|G2 G|E2 E|G2 G|F2 F|F2 E|D2 E|F2 F|E2D|E3-|E z2|
+"coro"
+|G2 G|E2 E|G2 G|F2 F|F2 E|D2 E|F2 F|E2D|E3-|E z2|

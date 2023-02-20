@@ -1,0 +1,27 @@
+X: 1
+T: the Fox hunters Jigg
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #1 (1)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The rhythm isn't quite right at the Strains' boundaries.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+def Tf2e | fag Tf2e | dBB TB2A | dBB TB2A |\
+def Tf2e | fag f2e | aAA A2A | cAA A2 :|
+|:\
+ab/a/g/f/ ga/g/f/e/ | fg/f/e/d/ e2c | dBB TB2A | dBB B2A |\
+ab/a/g/f/ ga/g/f/e/ | fg/f/e/d/ Te2c | aAA A2A | cAA A2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice
+%%begintext align
+%% The 1st Man Sides with the 2d Wo. then sett and turn single .|\
+%% Then the 2d Man Sides to the 1st Wo. then sett and turn single :|\
+%% The 1st Man change Places with the 2d Wo. and the 2d Man change Places with the 1st Wo.
+%% then change Places each with their own Partners .|
+%% Then Hands across all four quite round, and turn single :|
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,25 @@
+X: 21212
+T: FRA DIAVOLO SETT (tune 6)
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.121 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="6"
+|:\
+B2dB A2dA | GBAG GFED | GDAD BDcD | BdcB B2A2 |\
+B2g>B A2f>A | GBAG GFED | FDAD BDcD | BDAD G4 H:|
+g3f (efge) | a3g gfed | geae fdag | f2e2d2 cB |\
+c2a>c B2g>B | GBAG GFED | GDAD BDcD | BDAD "^D.C."G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across partners,
+%% and back,
+%% all balance to partners and turn.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

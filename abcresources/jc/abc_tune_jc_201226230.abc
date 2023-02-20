@@ -1,0 +1,35 @@
+X: 10161
+T: Hope told a flatt'ring tale
+T: Sung by Madam Mara
+C:
+Q:
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.16-17
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%%continueall
+% %scale 0.60
+G | (d//c//B/)z2 (c//B//A/)z2 | (B//A//G/)z2 z2G | (B//c//d/)z2 (c//d//e)z2 | (A//G//F/)z2 z2D |
+(G//A//B/)z2 (A//B//c/)z2 | (B//c//d/)z2 (c//d//e/)z2 | Bz2 Az2 | G2B G2d !segno!| B2B A2A |
+w: | | | * * * Hope told a flatt'-ring
+G3 z2d | d2B e2e | A2z z2A | B2B c2c | (d3 e2)e |
+w: tale, that Joy would soon re-turn, Ah! nought my sighs a-vail* For
+G2G A2A | G2z z2d | ^G2G e2d | c3 z2c |
+w: Love is doom'd to mourn, Ah where's the flatt'-rer gone, From
+F2F d2c | B3 z2G | ^c2c Hc2c | d2z Hz2d | =c2c B2B |
+w: me for e-ver flown, from me for e-ver flown For love is doom'd to
+% p.17
+A3- A2A | B2B c2c | (d3 e2)e | G2G A2A | G2z z2b |
+w: mourn* ah! nought my sighs a-vail,* For Love is doom'd to mourn.
+c'2c' b2b | az2 z2a | b2b c'2c' | d'2z z2e' | b2b aga | fff fff | g2z "_Fine"z2z H|]
+K: Gm
+d3 d2d | e2z z2c | A3 (d2c) | B2z z2z | (Bcd de) =f |
+w: The hap-py dream of love is* o'er, life**** a-
+G3- G (ec) | B3 c3 | B2z z2z | d3 (de) =f | (=f3 f2^f | g2)d d2d |
+w: las* can* charm no more, the hap-*py dream*** of love is
+d2z z2z | (c3 cd) e | (^F3 G2)G | B3 TA3 | G2z z2"_D.C. al Fine"d !segno!|]
+w: o'er, life** a-las* can charm no more.
+%
+%%center -

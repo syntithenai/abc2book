@@ -1,0 +1,19 @@
+X: 1
+T: the Ranger Waltz
+C: music: Quentin Ratliff
+C: words: Leslie Welch
+%D:1971
+R: waltz
+S: https://tunearch.org/wiki/Ranger_Waltz_(The)
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+"^A"[|] (3fg^g |\
+a6 | f6 | A3 BAF | D3 FED | A,2 C2 E2 | A2 c2 B2 | AA ^GA BA | F4 ||
+A2 |\
+a6 | f6 | A3 BAF | D3 FED | A,2 C2 E2 | =G2 F2 E2 | [D3F3] [DF] [D2F2] | [D3F3] B,C^C |]
+K: G
+"^B"[|\
+D2 G3 A | B2 A2 G2 | dd ^cd gd | B3 B=cB | A3 BcA | F3 GAF | G3 GBG | D3 B,C^C ||
+D2 G3 A | B2 A2 G2 | dd ^cd gd | B3 B=cB | A3 BcA | F3 GAF | G6- | G3 |]

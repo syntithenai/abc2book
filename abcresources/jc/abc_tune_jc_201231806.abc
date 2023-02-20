@@ -1,0 +1,34 @@
+X: 15
+T: the Watermen's Rant
+%R: reel
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.105 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gmix
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+G>D D/D/D GABG | c>dcf F/F/F [A2F2] |\
+G>D G/G/G GABG | d>edf G/G/G [B2G2] :|\
+dg-ga gedB | cAfA F/F/F [A2F2] |
+Gg-gb a^fge | dBgB G/G/G [B2G2] |\
+Gg-ga gedB | cAfA F/F/F [A2F2] |\
+BGcA dBec | d>edg G/G/G [B2G2] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g2g2 g2g2 | f2f2 f2f2 |\
+g2g2 g2g2 | d2d2 G2G2 :|\
+g2g2 g2g2 | f2f2 f2f2 |
+g2g2 g2g2 | d2d2 G2G2 |\
+g2g2 g2g2 | f2f2 f2f2 |\
+G2A2 B2c2 | d2d2 G2G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands a cross .|
+%% and back again :|
+%% cross over one Couple, right and left at Top .|.
+%%endtext
+%%sep 2 2 400

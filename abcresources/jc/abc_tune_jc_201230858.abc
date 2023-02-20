@@ -1,0 +1,21 @@
+X: 14252
+T: Oswald's Scotch Measure
+C: James Oswald
+%R: Scotch measure, reel
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.4 p.25 #2
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+"_Brisk"(ba) |\
+g2 d4 (cd) | TB2(AG) G2(ed) | cdBc ABGA | TF2 A4 D2 |\
+EFGE FGAF | G2g2 d3B | cAdB ecfd | g2 G4 :: (Bc) |
+d3e dBgB | dBgB dBgB | cde=f edcB | Tc2(BA) A2(g^f) |\
+edce dgB2 | cBAG FAD2 | EGFA GdAc | TB2(AG) G2 :|
+|: (ba) |\
+g2d2 B2(ge) | (dc)(BA) G2(gf) | (ed)(cB) ceEG | TF2 A4 (dc) |\
+Bdgf egc'b | agfe d2(gf) | ecdB cBaf | g2 G4 :|
+|: (Bc) |\
+d3d' d3d' | agfe d2gB | c2(ag) (fe)(dc) | TB2 A4 (gf) |\
+egec dgdB | ceag fedc | BdGB Eedc | TB2(AG) G2 :|

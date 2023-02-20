@@ -1,0 +1,18 @@
+X: 828
+T: the Wicklow Hornpipe   #2
+R: hornpipe
+%S: s:3 b:14(6+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #828
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0828/oneill-1001-0828-1.abc
+N: Compacted via repeats and multiple endings [JC]
+M: C|
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+"^A"[|]\
+(FG) |: A>BAF DEFG | AGFD c2 (3ABc | defd [1,3 cAGF | (D>G (3{A}GFG D)>GG z :|
+|[2,4 (c<A)AG | F2D2 D2 "^B":: z2 | f2{g}fd cAGF | D2 g2 g2 af | d3e fdec |
+| Addc Add z || efec ABcA | dcAB c2 (3ABc | defd (c<A)AG | F2D2 D2 :|

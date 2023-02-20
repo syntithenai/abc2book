@@ -1,0 +1,16 @@
+X:27
+T:Grandfather's Clock
+C:1870 Henry C. Work
+M:2/4
+Q:1/4=100
+L:1/16
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A2|d2cd e2de|f2gf B2 ee|d2d2 c2Bc|defg a2 AA|d2cd e2de|
+ffgf B2 ee|d2d2 c2Bc|d4 z2::df|Lagfe d2d2|LedcB A2 df|La2Lf2 d2cd|e4 z2AA|
+Ld2 z2 Le2 z2|ffgf B2 ee|d2d2 c2Bc|d4 z2::AA|d2AA B2A2|.F2.A2 .F2.A2|
+ddAA B2A2|.F2.A2 .F2.A2|Ld2 z2 Le2 z2|ffgf B2 ee|d2d2 c2Bc|d4 z2:|

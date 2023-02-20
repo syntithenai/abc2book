@@ -1,0 +1,8 @@
+%% staffwidth 200
+X: 1
+T: Test of Am keysig with bass clef
+K: Am clef=bass
+| A2 E2 | e2 a2 |
+W: A E e a
+% This tests what formatters do with a simple minor-mode bass voice.
+% Some software does rather strange things as the default.

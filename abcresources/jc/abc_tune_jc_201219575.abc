@@ -1,0 +1,323 @@
+X: 0261
+T: COTILLONS.  First set.
+C: Composed by S. Knaebel
+C: Figures adapted by I. J. Shaw
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.26-31
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+V: 1 nm="VIOLIN"
+V: 2 nm="C CLARINET"
+V: 3 nm="POST HORN or\nCORNOPEAN IN G"
+V: 4 clef=bass middle=d nm="BASE"
+M: 2/4
+L: 1/16
+K: G
+P: 1
+% -------------------------
+V: 1 nm="VIOLIN"
+K: G
+[|\
+%"^p26s1v1"\
+"_2. Balance and turn."!f!d2z2 g2z2 | [b6d6D6] g2 |\
+"_4. Half promenade."f4 (ag).f.e | d4 z4 |\
+(ca) c4 (dc) | (Bd).g.b d3d | (^cded) {d}(=cBcA) | G2Bd g2z2 H|]|\
+"_1. Right and left."!p!f3e f3g | a3f b3a |\
+%"^p26s2v1"\
+(g2^g2a2=g2) | f6 f2 |
+f4 (fef).e | d4 d2cB | (Ad)(A2 AG)EF | "_D.C. 2."D6 z2 |]|[K:C]\
+"_3. Ladies chain."!p!E2G2E2G2 | C2G2E2G2 | C2G2E2G2 | C2G,2C2G2 |\
+F4!trem1!G,4 | E4!trem1!G,4 | D2G,2 F2G,2 | [E4G,4] "_D.C. 4."z4 |]
+% -------------------------
+V: 2 nm="C CLARINET"
+K: G
+[|\
+%"^p26s1v2"\
+!f!B2z2 d2z2 | g6 B2 | c4 c2c2 | B4 z4 |\
+A2 A4 (BA) | (GB).d.g B3B | c4 A3c | B2(3GBd g2z2 H|]|\
+!p!d3^c d3e | f3d g3f |
+%"^p26s2v2"\
+(e2^e2f2=e2) | d6 d2 |
+"^>"(^c8 | B2)z2 =f4 | ^f3f e2g2 | f6 z2 |]|[K:C]\
+!p!c3B c3d | e2 g4 (cd) | e2 g4 (cd) | e6 =fe |\ 
+d3c d2ed | c3B c2dc | B2ag gdfe | c4 z4 |]
+% -------------------------
+V: 3 nm="POST HORN or\nCORNOPEAN IN G"
+K: C
+[|\
+%"^p26s1v3"\
+!f!c2z2 c2z2 | c2cc c2c2 | c8- | c2cc c2c2 |\
+z2G2 z2G2 | z2cc c2c2 | B4 B2B2 | c2c2c2z2 H|]|\
+!p!z2d2 z2d2 | z2dd d2d2 |
+%"^p26s2v3"\
+d4 d2d2 | d4 z4 |\
+"^>"B8- | B2z2 "^>"G4 | G2G2 z2^F2 | G6 z2 |]|[K:F]\
+!p!A3G A3B | c2 A4 AB | c2 A4 AB | c6 dc |\
+B3A B2cB | A3G A2BA | G4 E2E2 | F4 z4 |]
+% -------------------------
+V: 4 clef=bass middle=d nm="BASE"
+K: G
+[|\
+%"^p26s1v4"\
+!f!g4 g4 | g4 z4 | g4 g2g2 | g4 z4 |\
+f2z2 f2z2 | g4 z4 | d4 d2d2 | g2G2G2z2 H|]|\
+!p!d2z2 d2z2 | d4 z2d2 |
+%"^p26s2v4"\
+A4 A2A2 | d2f2a2d'2 |\
+(^a8 | b2)z2 ("^>"^g4 | a2)z2 A2A2 | d6 z2 |]|[K:C]\
+!p!c2G2c2G2 | c2G2c2G2 | c2G2c2G2 | c2G2c2G2 |\
+B2z2 B2z2 | c2z2 c2z2 | G4 g2g2 | c4 z4 |]
+% ------------------------- -------------------------
+P: 2
+% ------------------------- -------------------------
+V: 1
+M: 6/8
+L: 1/8
+K: G
+N: Part 2, phrase 2 has a final repeat but no begin repeat; the most obvious choice is the start of that line, after the fermata.
+K: G
+[|\
+%"^p27s1v1"\
+"_3. Balance and turn partners."\
+!p!dBc  dBc | d2e d2e | c2d B2c | A3 ed^c |\
+!f!dB=c dBc | d2e d2b | b2a c'2b | g3- g2z H|]|
+|:\
+%"^p27s2v1"\
+"_1. Forward two and cross over."\
+!f!efg f2B | efg f2b |\
+"_2. Le chassez."\
+e2f g2a | b3 b3 |\
+c'2a fed | b2g dBG | e2d ^c=cA | G3- "_D.C. 3."G2z :|
+% -------------------------
+V: 2
+M: 6/8
+L: 1/8
+N: The high notes in bars 29-31 are written in small notes; they're presumably alternatives.
+K: G
+[|\
+%"^p27s1v2"\
+!p!BGA BGA | B2c B2c | A2B G2A | F3 cB^A |\
+!f!BG=A B2c | B2c B2[d'd] | [d'2d2][c'c] [e'2e2][d'd] | [d'3-d3-] [d'2d2]z H|]|
+|:\
+%"^p27s2v2"\
+!f!gfe ^dB2 | gfe ^dB2 | g2f e2e | ^d3 d3 |\
+a2z (=c3 | g2)z (B3 | c2)z A2c | B3- "_D.C. 3."B2z :|
+% -------------------------
+V: 3
+M: 6/8
+L: 1/8
+K: C
+[|\
+%"^p27s1v3"\
+!p!zcB zcB | c3 c3 | zG/G/G GGG  | G3- G2z |\
+!f!zcB zcB | c3 c3 | zG/G/G GGG  | c3- c2z |]|
+|:\
+%"^p27s2v3"\
+!f!ee/e/e eee | ee/e/e eee | e2d c2d | ee/e/e eee |\
+G2z zG/G/G | G2z zG/G/G | G3- GG/G/G | c3- c2z :|
+% -------------------------
+V: 4
+M: 6/8
+L: 1/8
+K: G
+[|\
+%"^p27s1v4"\
+!p!gzd gzd | g3 g3 | f3 g3 | dfa [d'2d2]z |
+!f!gzd gzd | g3 g3 | f3 d3 | GBd g2z H|]|
+|:\
+%"^p27s2v4"\
+!f!e2z B^c^d | e2z B^c^d | e2^d e2=c | B3 B3 |\
+f2z def | g2z g2z | f2z d2z | gbd' g2z :|
+% ------------------------- -------------------------
+P: 3
+% -------------------------
+V: 1
+M: 2/4
+L: 1/16
+K: G
+[|\
+%"^p28s1v1"\
+"_2. Half Promenade."\
+!f!d4 ^c2d2 | e2d2 ^cdb2 |\
+"_4. Forward four, right and left to place."d2=c2 cda2 | BgdB A4 |\
+d4 g2a2 | b4 a(gfg) | f2e2 dcAd | G4 z4 H|]|\
+"_1. Right hand across, and balance in line."\
+!p!A2B2c2e2 | d2b2a2g2 | f2g2a2e2 |\
+%"^p28s2v1"\
+e2d2 d4 |
+!f!(d2c2) (c2B2) | (B2A2) (A2G2) | (Fe)d2- dcAB | "_D.C. 2."G4 z4 |[|[K:C]\
+"_3. Forward two, bak to back."\
+!p!c4 cBcd | e3c g3a | (g4 d2) dg | (e4 c2) cB |\
+A3B c3A | e4 =f2f2 | e2d2 c2B2 | A4 "_D.C. 4."z4 |]
+% -------------------------
+V: 2
+M: 2/4
+L: 1/16
+K: G
+[|\
+%"^p28s1v2"\
+B4 ^A2B2 | c2B2 ^ABg2 | B2A2 ABc2 | GBdg f4 |\
+B4 B2c2 | d4 e2e2 | d2c2B2A2 | B4 z4 H|]|\
+!p!c4 A4 | B2d2c2B2 | c8 |
+%"^p28s2v2"\
+c2B2 B4 |!f!\
+(b2a2) (a2g2) | (d2c2) (c2B2) | c2c2 A2c2 | B4 z4 |[|[K:C]\
+!p!e3dc3B | e3G e3f | B8 | (c4 e2)z2 |\
+c8 | d8 | c2B2A2^G2 | A4 z4 |]
+% -------------------------
+V: 3
+M: 2/4
+L: 1/16
+K: C
+[|\
+%"^p28s1v3"\
+!f!c2cc c2c2 | c4 z2c2 | G4 z2G2 | c2ce g4 |\
+c2cc c2c2 | c4 c2c2 | z2c2c2B2 | c4 z4 H|]|\
+z2G2 z2G2 | z2G2 z2G2 | z2G2 z2G2 | 
+%"^p28s2v3"\
+z2cc c2c2 |!f!\
+B4 z4 | c8 | d4 B2B2 | c4 z4 |[|[K:F]\
+c2cc c2c2 | c8 | z2cc c2z2 | z2cc c2z2 |\
+d8 | e8 | f2g2f2e2 | d4 z4 |]
+% -------------------------
+V: 4
+M: 2/4
+L: 1/16
+K: G
+[|\
+%"^p28s1v4"\
+!f!g4 g2g2 | g4 z2g2 | f4 z2f2 | g2g2 d4 |\
+g4 g2g2 | g4 e4 | c'4 d'2d2 | g4 z4 H|]|\
+!p!f2z2 d2z2 | g2z2 d2z2 | a2z2 d2z2 |
+%"^p28s2v4"\
+g2z2 g2z2 | !f!d4 z4 | d4 z4 | d4 d2d2 | g4 z4 |]|[K:C]\
+c'2c'c' c'2c'2 | c'2c'2c'2c'2 | g2gg g2z2 | c2c'c' c'2z2 |\
+=f8 | e4 d4 | e4 e2e2 | A4 z4 |]
+% ------------------------- -------------------------
+P: 4
+% -------------------------
+V: 1
+M: 6/8
+L: 1/8
+K: G
+[|\
+%"^p29s1v1"\
+"_2. First tent. turn two opp. ladies."\
+!p!d3 BcB | d3 g3 | "_4. Four hands half round, right and left to places."B2G e2d | (d^c=c) A3 |\
+f2d/e/ dbg | fga gab | a"_>"d'2 g"_>"b2 | def g2z H|]|\
+%"^p29s2v1"\
+"_1. First couple forward, leave the lady opposite."!f!bba gfe | ^d^cd efg | aag fed | ^cBc def |
+fef gbB | edA ^ABG | fef gbB | "_D.C. 2."AeF G2z |]|\
+%"^p30s1v1"\
+"_3. Forward and back twice."\
+!p!!/![E6G,6] | !/![E6G,6] | !/![F6G,6] | !/![E6G,6] |\
+[DB,][DB,][DB,] CCE | [DC][DC][DC] [DB,][DB,][DB,] | DCB, CDE | [FG,][FG,][FG,] "_D.C. 4."[E2G,2]z |]
+% -------------------------
+V: 2
+M: 3/8
+L: 1/8
+K: G
+[|\
+%"^p29s1v2"\
+!p!B3 ded | b3 B3 | g2d c'2b | b^a=a f3 |\
+a2f bgb | agf bag | "_>"d'2a "^>"b2g | c2c B2z H|]|
+%"^p29s2v2"\
+!f!bba gfg | fa2 gfe | aag fef | eg2 fed |\
+a3 bg2 | c3 (^cd).B | =c3 Bd2 | c2A B2z |]|
+%"^p30s1v2"\
+!p!e2f (ga).g | e3 c3 | d2g d2g | (cB).c e3 |\
+e^f^g a2c' | de^f g2b | =fed edc | {c}B.AB c2z |]
+% -------------------------
+V: 3
+M: 6/8
+L: 1/8
+K: C
+[|\
+%"^p29s1v3"\
+!p!cc/c/c ccc | cc/c/c ccc | c3 zc/c/c | G2G G2z |\
+G3 zc/c/c | d3 c=fe | z"_>"d2 z"_>"c2 | d2d c2z H|]|
+%"^p29s2v3"\
+!f!ee/e/e eee | eee eee | dd/d/d ddd | ddd ddd |\
+=f3 e3 | d3 c3 | zG/G/G c2c/e/ | gzG c2z |]|
+%"^p30s1v3"\
+!p!F2G (A_B).A | F3 A3 | B3 B3 | (AG).A F3 |\
+e2e zd/d/d | d2d zc/c/c | c3- cBA | G2G A2z |]
+% -------------------------
+V: 4
+M: 6/8
+L: 1/8
+K: G
+[|\
+%"^p29s1v4"\
+!p!ggg ggg | ggg ggg | ggg ggg | ddd d2z |\
+d2z g2z | d2z gfg | "^>"f3 "^>"g3 | d'zd g2z H|]|
+%"^p29s2v4"\
+!f!^d2z e2z | BBB eee | ^c2z d2z | AAA ddd |\
+d2z g2z | f2z g2z | d'2z g2z | d2d g2z |]|
+%"^p30s1v4"\
+!p!czc czc | czc czc | B2z B2z | ccc ccc |\
+^gze a3 | ^fzd g3 | b2z c'2z | gzG c2z |]
+% ------------------------- -------------------------
+P: 5
+% -------------------------
+V: 1
+M: 2/4
+L: 1/16
+K: C
+[|\
+%"^p30s2v1"\
+"_3. Forward four, 1-2 right and left."\
+!f!d4 (ed^cd) | d2 g4 d2- | d2.e2"_4. Forward four, right and left to place.".B2.e2 | (d4 c2)z2 |\
+a4- agfe | f4- fedc | .d2(fe) dAcB | G2Bd g2z2 H|]|\
+"_1. Forward two, back to back."\
+e4 e4 | e6 f2 | g2f2g2a2 |\
+%"^p31s1v1"\
+(b4 g2)z2 |
+!p!(f4 a2)z2 | (g4 b2)b2 | b2a2g2f2 | "_D.C. 2."e4 e4 |]|[K:D]\
+"_3. Ladies chain."\
+!f!f2z2 d2z2 | a6 b2 | a2b2 a2b2 | a6 (3agf |\
+.g2.e2 z2(3gfe | .f2.d2 z2(3fed | c2(b2 a2)c2 | "_D.C. 4."d6 z2 |]
+% -------------------------
+V: 2
+M: 2/4
+L: 1/16
+K: C
+[|\
+%"^p30s2v2"\
+B4 (cB^AB) | B2BB B2B2 | B8 | z2A2 A4 |\
+c8 | z2c2 A4 | F3A c2A2 | B2B2B2z2 H|]|\
+e4 e4 | e6 f2 | g2f2g2a2 |
+%"^p31s1v2"\
+(b4 g2)z2 |
+!p!c8 | B4 g2g2 | g2f2e2^d2 | e4 e4 |]|[K:D]\
+!f!d2z2 f2z2 | f6 g2 | f2g2 f2g2 | f6 (3fed |\
+.e2.^c2 z2(3edc | .d2.f2 z2(3agf | g4 g2g2 | f6 z2 |]
+% -------------------------
+V: 3
+M: 2/4
+L: 1/16
+K: F
+[|\
+%"^p30s2v3"\
+!f!c4 c2c2 | c2cc c2c2 | e8 | z2dd d2d2 |\
+G8 | z2G2 z2G2 | z2GG G2G2 | cege c2z2 H|]|\
+A4 A4 | A6 B2 | c2B2c2d2 |
+%"^p31s1v3"\
+(e4 c2)z2 |\
+!p!d4 B4  | A8- | A2 .f2.e2.d2 | c4 c4 |]|[K:G]\
+!f!G2z2 G2z2 | G2GG G2G2 | G2G2G2G2 | G2GG G2z2 |\
+z2ddd2z2 | z2GGG2z2 | A4 A2A2 | G2GG G2G2 |]
+% -------------------------
+V: 4
+M: 2/4
+L: 1/16
+K: G
+[|\
+%"^p30s2v4"\
+g4 g2g2 | g2gg g2g2 | ^g8 | a2e2a2c'2 |\
+f2z2 d2z2 | a2z2 d2z2 | =c'2a2 f2d2 | g2g2g2z2 H|]|\
+e4 e4 | e6 f2 | g2f2g2a2 |
+%"^p31s1v4"\
+(b4 g2)z2 |\
+!p!"^>"^d8 | e4 e2g2 | .b2z2 B2B2 | e4 e4 |]|[K:D]
+!f!d2z2 d2z2 | ddd2 d2d2 | d2d2d2d2 | d2fa d'2z2 |\
+A4 z4 | d4 z4 | A4 A2A2 | d4 z4 |]

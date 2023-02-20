@@ -1,0 +1,22 @@
+X: 1
+T: Namibian Night
+C: Dave Reiner 2018
+R: waltz
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Gm
+%%slurgraces 1
+%%graceslurs 1
+(G,A, "A"|:\
+"Gm"B,4) B,2 | [D3B,3] [DA,] [D2G,2] | "D"C4 C2 | [D3C3] [DB,] [D2A,2] |
+"Gm"B,4 B,2 | [D3B,3] [DA,] [D2G,2] | [^F4G,4] [G2-G,2-] | [G4G,4] G,A, |
+"Gm"B,4 C2 | D3 E F2 | "F"A B3 A2 | "Bb"D3 E F2 |
+[1 "D"D2 ^F2 c2- | "Cm"c2 e2 g2 | "Gm"[^f4G4] [g2-G2-] | [g6G6] :|
+[2 "D"^F A3 D2 | "Cm"C2 E2 G2 | "Gm"[^F4G,4] [G2-G,2-] | [G4G,4] GA |]
+"B"|:\
+"Gm"{D}B3 A G2 | ([BD]A G)([BD]AG) | "D"c3 B A2 | ([cD][BD] [AD])([cD] [BD][AD]) |
+"Gm"[BD] [d3D3] z2 | "Cm"[cE] [e3E3] z2 | "Bb"[BF] [d3F3] z2 |  "D"[^f2c2] z2 z2 |
+"Gm"Jb4 b2 | b3 a g2 | "F"f [g3B3] {g}[f2A2] | "Bb"d3 c B2 |
+[1 "D"A2 ^F2 c2- | "Cm"c2 e2 g2 | "Gm"^f4 [g2-B2-] | [g4B4] GA :|
+[2 "D"A ^F3 D2 | "Cm"C2 E2 G2 | "Gm"[^F4G,4] [G2-G,2-] | [G6G,6] |]

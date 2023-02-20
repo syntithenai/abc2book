@@ -1,0 +1,18 @@
+X: 210
+T: Imate Li Vino
+O: Macedonia
+F: http://www.youtube.com/watch?v=zUQFrD3EgY8
+M: 7/8
+L: 1/8
+K: Gphr =B
+Q: 1/4=120
+%%MIDI program 49 % String Ensemble 2
+%%MIDI beat 97 87  77 4
+%%MIDI drum d2dd2d2 43 43 43 43 110 50 70 60
+%%MIDI drumon
+  G2F GABc|d2e dcBA|B2c BAGF|G2A B4|
+  G2F GABc|d2e dcBA|B2c BAGF|G2F G4|
+  c2G c2d2|e2d c4  |c2G c2d2|e2d c4|
+  d2e f2g2|f2e d2c2|d2c B2A2|G3-G4 |
+|:g2g f2e2|g3- g4  |f2e d2e2|f3-f4 |
+  d2e f2g2|f2e d2c2|d2c B2A2|G3-G4 :|

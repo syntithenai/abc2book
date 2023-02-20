@@ -1,0 +1,18 @@
+X: 317
+T: a Maid Without a Gown
+T: cailin gan gunna\`d
+B: O'Neill's 317
+O: J.O'Neill
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+Q: "Slow"
+N: 6-bar phrases
+P: Play ABA
+M: 3/4
+L: 1/8
+K: G
+"^A"[|](G>A) \
+| (B2 c2) .B2 | ({G}B2 A2) (AG) | (F2 G2)  ({F}G>A) \
+| (B2 d2) ((3{d}cAG) | A2 G2 G2 | G4 Hy|]
+"^B"|| (G>F) \
+| (G2 B2) .d2 | d2 e2 (cB) | (c2 A2) .A2 \
+| (G2 B2) .c2 | (d2 B2) (~cd/e/) | d4 "D.C."y |]

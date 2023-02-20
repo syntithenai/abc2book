@@ -1,0 +1,30 @@
+X: 68
+T: Galopede
+%T: Yarmouth Reel
+%T: Persian Dance
+O: England 1805
+R: Reel
+N: NEFR has no initial pickup, but a dc pickup in the final bar.  This is rather clumsy,
+N: so I've used a lightly different rendering that attached the pickups to their phrases.
+N: I've also taken the liberty of collapsing it from 6 lines to 3 by using alternate endings.
+N: You can expand it back to 6 4-bar lines if you prefer.
+M: C|
+L: 1/8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: NEFR #68
+B: Preston’s 24 Country Dances for 1801
+B: Karpeles & Schofield p.1 (1951)
+B: Kennedy v.1 p.31 #63 (1951)
+K: G
+dc \
+|    "G"B2 Bc "D7"A2 AB | "G"G2 G2 G2 AB |\
+[1,3 "C"cB cd ed cB | "D7"A2 A2 A2 :|\
+[2,4 "C"cB AG "D7"FG AF | "G"G2 G2 G2 :|
+|: dc \
+|  "G"B2 gf "C"e2 d2 | "D7"dc Bc A2 dc |\
+[1 "G"B2 gf "C"ed cB | "D7"A2 A2 A2 :|\
+[2 "G"Bd cB "D7"Ac BA | "G"G2 G2 G2 |]
+|: Bc \
+|  "G"d2 d2 d2 {f}g2 | d2 d2 d2 {f}g2 |\
+[1 "G"d2 d2 "(C)"ed cB | "D7"A2 A2 A2 :|\
+[2 "C"ed cB "D7"dc BA | "G"G2 G2 G2 |]

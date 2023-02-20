@@ -1,0 +1,59 @@
+X: 1701
+T: MUNICH QUICK-STEP
+C Arranged by A. F. Knight
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.170-171
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: The pickup notes are marked as a triplet, but ABC software doesn't seem to like this for grace notes.
+N: All three parts have final repeats, but no initial repeats.  Fixed.
+M: 2/4
+L: 1/16
+K: Bb
+% -------------------------
+V: 1
+K: C
+|:"Bb CLAR. PRIMO"!f!\
+{gab}c'2gg g2g2 | ("^>"g3e) ("^>"g3e) | c'2gg g2g2 | ("^>"g3e) ("^>"g3e) |\
+g4 .a2.b2 | c'(bc')d' e'4 | d'4 c'2a2 | g2b2g2z2 :|
+|:!p!\
+e3d c4 | e3d c4 |  d3^c d3^d | ("^>"e4 c2)z2 |\
+!mf!e'3d' c'4 | e'3d' c'4 | d'3^c' d'3e' | (d'4 c'2)z2 :|
+|:!p!\
+b2(c'b) (^ab)(ab) | d'c'af d4 | d2ba ( agfg) | ("^>"^g4 a2)z2 |\
+(defg) (fe^de) | (efga) (gf^ef) | d2(e'd') (c'a).e.f | g2b2g2z2 H:|
+% -------------------------
+V: 2
+K: C
+|:"Bb CLAR. SECONDO"!f!\
+e2ee e2e2 | ("^>"e3c) ("^>"e3c) | e2ee e2e2 | ("^>"e3c) ("^>"e3c) |\
+e4 .f2.d2 | (edef) g4 | d4 c2c2 | B2d2B2z2 :|
+|:!p!\
+c2G2 c2G2 | c2G2 c2G2 | B2G2 B2G2 | c2G2 c2G2 |\
+!mf!e3f g4 | e3f g4 | B2G2 d2G2 | B2G2c2z2 :|
+|:!p!\
+z2d2d2d2 | z2d2 z2d2 | z2d2 z2^c2 | ("^>"^e4 f2)z2 |\
+z2G2 z2G2 | z2A2 z2A2 | c4 c2c2 | B2d2B2z2 H:|
+% -------------------------
+V: 3 
+K: C
+|:"Bb CORNOPEON"!f!\
+c2z2 z4 |c2z2 c2z2 | c2z2 z4 |c2z2 c2z2 |\
+G4 A2B2 | (cBcd) e4 | d4 c2A2 | G2G2G2z2 :|
+|:!p!\
+g3f e4 | g3f e4 | f3e f3^f | (g4 e2)z2 |\
+!mf!g3f e4 | g3f e4 | f3e f3g | (f4 e2)z2 :|
+|:!p!\
+z2B2B2B2 | z2A2 z2A2 | z2G2 z2A2 | d2d2d2c2 |\
+z2d2 z2e2 | z2e2 z2f2 | A4 A2A2 | G2G2G2 z2 H:|
+% -------------------------
+V: 4 clef=bass middle=d
+K: Bb
+|:"BASE TROMBONE"!f!\
+B2z2 z4 | B2z2 b2z2 | B2z2 z4 | B2z2 b2z2 |\
+f4 e4 | d4 B4 | c4 c2c2 | f4z4 :|
+|:!p!\
+B2z2 B2z2 | B2z2 B2z2 | f2z2 f2z2 | b2z2 B2z2 |\
+!mf!B4 b4 | B4 b4 | f4 f4 | f4 B2z2 :|
+|:!p!\
+f2z2 f2z2 | c2z2 B2z2 | A2z2 d2z2 | c4 c2B2 |\
+A2z2 B2z2 | =B2z2 c2z2 | B4 c2c2 | f2f2f2z2 H:|

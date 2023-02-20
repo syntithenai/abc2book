@@ -1,0 +1,29 @@
+X: 31041
+T: COTILLION No. 14. COLUMBIAN SETT tune 1
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.104 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+C/B,/ |\
+A,CF F3 | FCF A3 | cBA cBA | AGG G2 C/B,/ |\
+A,CF Acf | B,DF Bdf | CEG ceg | fff f2 H|]
+g |\
+ggg gec | gAB c2c | BBB ABA | GGG G2z |\
+G2G GA=B | c2c f2f | edc dc=B | ccc "^D.C."c2 |]
+C |\
+F2A A2c | c2B G2 f//e//f/ | gec BAB | AcA G3 |\
+cBA GFE | FEF DEF | GA=B cEG | FED "^D.C."C2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right and left 4,
+%% balance,
+%% swing round,
+%% chassa, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

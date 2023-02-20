@@ -1,0 +1,19 @@
+X: 1301
+T: the_Countess_of_Sutherlands_Reel
+%R: reel
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.30 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - -
+V: 1 staves=2
+d |\
+TB2FB GBFB | EBDB Cc-cd | TB2FB Ggfe | dfce dB-B :| f/g//a// | bfdf egce | dfBd cF-Ff/g//a// |
+bfdf egce | dfce dB-Bf/g//a// || bfdf egce | dfBd cF-Ff | (Tg>fg)a bgfe | dfce dB-B |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+B2d2 e2d2 | c2B2 f2F2 | B2d2 e2c2 | f2F2 B2B :| z | b2b2 c'2c'2 | b2b2 f2f2 |
+b2b2 c'2c'2 | f2f2 b2b2 || b2b2 c'2c'2 | b2b2 f2f2 | b2b2 b2b2 | f2f2 B2B |]

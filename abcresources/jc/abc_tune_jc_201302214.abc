@@ -1,0 +1,31 @@
+X: 1
+T: Lilli Burlero
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master" printed by John Walsh, London
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.19 #38
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.156
+Z: 2012-2013 John Chambers <jc:trillian.mit.edu>
+N: The time signature is 3/4, but that doesn't agree with the bar lines.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+G>AG B2B | A>BA c3 | BdG c2B | AGF G3 |] g2f g2d | =f2=f e2d |
+e^fg g2d | edB A3 | (ed)c (Bc)d | (edc) (Bc)d | edB c2B | AGF G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man lead his Partner down thro' the 2d Cu.
+%% and cast up to his own Place, and then the 2d Cu. lead
+%% up thro' the 1st Cu. and cast off into their own Places
+%% then 1st Man cross over with the 2d Wo. and the 1st
+%% Wo. with the 2d Man, then fall back and meet and
+%% turn S. then cross over, and the Men Back to Back,
+%% the We. at the same Time doing the like; then the
+%% two Men right and left, the We. at the same Time doing
+%% the like, 'till the 1st Cu comes into the 2d Cu.
+%% Place.
+%%endtext
+%%sep 1 8 500

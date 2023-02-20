@@ -1,0 +1,38 @@
+X:7
+T:Emma Waltz Medley
+M:3/4
+L:1/4
+Q:1/4=160
+C:arr. Eira Mattson (Washington DC Finlandia Foundation) ~1976
+S:Emma, Muurari, Savonmaan Hilima
+R:waltz
+N:1. Emma
+N:2. Muurari
+N:3. Savonmaan Hilima
+K:Em
+P:E
+|: B, | "Em" B B B | G E G | B B B | G E G |
+"B7" F F>F | A G F |[1 "Em" E2 G | B2 :|[2 "Em" E2 E | E2 || !
+|: B | "Am" e e>e | e d c | "Em" B B>B | B A G |
+"B7" F F>F | A G F |[1 "Em" E2 G | B2 :|[2 "Em" E2 E | E2 ||
+P:M
+B, | "Em" G F E | G F E | "B7" ^D2 F | B,3 |
+B, ^D F | A G F | "Em" B2 G | E3 | !
+E G B | "Am" e/2e/2 d c/2c/2 | "B7" B B>A | B2 A |
+G F E | B,2 ^D | "Em" (E3 | E) z B, | !
+E E E/2E/2 | E G B | e3 | e2 c/2B/2 |
+"Am" A A c | e d c | "Em" (B3 | B) z | !
+|: c/2B/2 | "Am" A A A/2A/2 | A G F | "Em" E2 G | B2 G/2G/2 |
+"Am" F A c | "B7" B G F | "Em" (E3 |[1 E2) :|[2 E2) B,/2B,/2 ||
+P:SH
+"Em" E E>G | B G>A | "B7" G (F2 | F2) B,/2B,/2 |
+F F>G | A G F | "Em" (B3 | B2) G/2A/2 | !
+B B>c | d c B | "Am" d (c2 | c2) d/2d/2 |
+"D7" d A B | c/2c/2 B A | "B7" (B3 | B) z B | !
+"Em" e e>f | g f e | "Am" d c B | A2 A |
+"D7" d d>e | d c A | "B7" B A G | F2 B | !
+|: "Em" e e e/2f/2 | g/2f/2 e d/2d/2 |
+"Am" c c/2B/2 c/2d/2 | e/2d/2 c B |
+"D7" A A/2^G/2 A/2B/2 | !
+d/2c/2 B A/2A/2 |
+[1 "B7" G G/2F/2 G/2A/2 | B z B :||[2 "B7" G G F | "Em" E3 ||

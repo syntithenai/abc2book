@@ -1,0 +1,54 @@
+
+X: 1
+T: Louis Cyr
+M:C|
+L:1/8
+C:Jean-Claude Mirandette
+S:Jean Marie Verret and Guy Bouchard
+Z:For more tunes, discussion of the tunes, and other
+Z:traditional music and dance resources, go to
+Z:<http://tunes.nhcountrydance.com>.
+F:http://web.me.com/peterynh/music/fiddle-tunes_abc_reels.html
+K:G
+"D7"DB, |\
+"G"G,2G,B, D2B,D | "C"EDEF "(G)"G2GA | "G"BAGB "D"AGFD | "C"E2{D}EF "D7"FEB,D |
+"G"G,2G,B, D2B,D | "C"EDEF "(G)"G2GA | "Em"BAGB "D"AGFD | "C"ED"D"EF "G"G2 :|
+|: GA |\
+"G"BAGB "D"A2GA | "G"BAGB "D"A2AB | "Am"cBAc "Em"B2AB | "Am"cABG "D"A2GA |
+"G"BAGB "D"A2GA | "G"BAGB "D"AGFD | "Em"E2~E2 "Bm"E2~F2 | "D"FDE2 "Em"E2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Verret's
+R:Reel
+C:
+B:
+L:1/8
+M:C|
+K:D
+%%staffsep 45
+de |\
+"D"fedf "Bbdim/Bb"edBc | "Bm"dB (3BBB "G"BAFD | "D"A,DFA "D#dim"cBAG | "Em7"FAde "A"fede |
+"D"fedf "Bbdim/Bb"edBc | "Bm"dB (3BBB "G"BAFD | "D"A,DFA "Em7"cBAG | "A"FDEF "D"D2 :|
+|: AG |\
+"D"FDA,D FDDF | "C"E=CEG B2 AG | "D"FDAD FAAA | "G"BA"A"cA "D"d2 AG |
+"D"FDA,D FDDF | "C"E=CEG B2 AG | "D"FAdf "Em7"edce | "A"dfec "D"d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Motel Henry
+C: Jean-Claude Mirandette
+O: Quebec
+R: reel
+Z: 2011, 2017 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+S: handout at Roaring Jelly practice Jan 2017
+M: 2/4
+L: 1/16
+K: A
+|: "A"[c3E3]c- cfec | "E7"BABc dcBA | "A"c3c- cfec | "E7"BABc  "A"AE[A2E2] |
+   "A"c3c- cfec | "E7"BABc dcBA | "A"c3c- cfec | "E7"BABc  "A"A2[A2E2] :|
+|: "D"f3f- fgaf | "A"e2(3cBA e2(3cBA | "E7"B2GB EBGB | "A"ABcd "A7"eA[e2A2] |
+   "D"fAAf- fgaf | "A"e2(3cBA e2(3cBA | "D"fgaf "A"ec"D"Aa- | "E7"afec "A"AE[A2E2] :|

@@ -1,0 +1,17 @@
+X: 72
+T: Coskun Coruh
+O: Bulgaria
+F: http://www.youtube.com/watch?v=5QR3xbGA1Fw
+F: http://www.youtube.com/watch?v=8zmU-NF9frE
+M: 2/4
+L: 1/8
+Q:1/4=120
+K: C
+%%MIDI gchord f2z2
+|:"C" D2 A2|D2 A2|DEFA|G2 E2 :|\
+|:C2 G2    |E2 C2|DEFG|E2 C2 :|
+Q:1/4=240
+|:D2 A2    |D2 A2|DEFA|G2 E2 :|\
+|:C2 G2    |E2 C2|DEFG|E2 C2 :|
+|:D2 A2    |D2 A2|DEFA|G2 E2 :|\
+|:C2 G2    |E2 C2|DEFG|E2 C2 :|

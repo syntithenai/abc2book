@@ -1,0 +1,31 @@
+X: 31273
+T: COTILLION No. 22. PILGRIM tune 3
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.127 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has 9 bars, the 3rd has 14.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(3(d/e/f/) |\
+{g}g2g {g}g2g | {g}g2g {g}g2g | bag agf | ggg g2z |\
+{a}a2a {a}a2a | {a}a2a {a}a2a | agf ed^c | (ddd d2) H|]
+B/c/ |\
+d3 e2d | dgz dg B/c/ | d3 e2d | daz da B/c/ |\
+d3 e2d | dbz agz | egz dgz | faz def | g3- "^D.C."g2 |]
+B/c/ |\
+d3 d3 | d3 d^cd | B3 B3 | B3 Bcd |\
+e3 e3 | e3 gfe | d3 d3 | d3 dcB |\
+A3 A3 | ABc def | gdd def | gdd def |\
+g2[fd] g2[fd] | g3 "^D.C."g2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies all balance to the right,
+%% all promenade,
+%% gentlemen the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

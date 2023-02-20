@@ -1,0 +1,315 @@
+
+X: 1
+T: Whiskey In The Jar    [G]
+I: 067 2
+R: Reel
+Z: Carl Allison
+B: Joe Buchanan's Scottish Tome - Page 067.2
+L: 1/4
+M: 4/4
+K: G
+B |\
+"G"d>d de | "G"d B2 d | "Em"e>e ef | "Em"e B2 d | "C"e>e ef | "C"g<g fe |
+"G"dd gf |1 e B2 :|2 "G"ed BG |] "D"A>A AB | "D"A4 | z "G"B B3/ A/ |
+"G"B<c "G7"d2 | z "C"e e3/ d/ | "C"e<f ge | "G"BB "D7"AA | "G"G3 |] z4 | z4 ||
+
+%%sep 1 1 500
+
+X: 1
+T: Down by the Salley Gardens    [A]
+%R: air, march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+S: PDF from Darlene Wigton 2019-3-2
+L: 1/8
+M: 4/4
+K: A
+AB |\
+"A"c2BA "E"B2ce | "D"f4 "A"e2ae | "D"f2"C#m"ec "E7"B3A | "A"A4 z2AB |\
+"A"c2BA "E"B2ce | "D"f4 "A"e2ae | "D"f2"C#m"ec "E7"B3A | "A"A6 ||
+e2 |\
+"F#m"a2 ge "D"f2a2 | "E"g4 "C#m"e2ce | "D"f2ec "E"efa>b | "F#m"a6 AB |\
+"A"c2BA "E"B2ce | "D"f4 "A"e2ae | "D"f2"C#m"ec "E7"B3A | "A"A6 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Inis Siar
+T: Inisheer
+C: Thomas Walsh
+R: waltz
+S: printed page ofknown origin from Darlene Wigton 2019-3-13
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+   zD2 |\
+"G"B3 A B<d |"Bm"B3 A B<d | "C"E3 B A>B | "D"D3 B AG |\
+"G"B3 A B<d |"Bm"B3 A B<d | "C"E3 B "D"A/G/F | "G"G3 :|
+|: ABd |\
+ "C"e3 f ed | "G"B3 A Bd | "C"ef ed B/c/d | "C"e4 Bd |\
+"Am"e3 f ed | "G"B3 A "Em"B<d | "D"D3 B A/G/F | "G"G3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: By the Hush
+T: Paddy's Lamentation
+O: 19th-century Irish-American
+R: air, march
+S: PDF from Darlene Wigton 2019-3-2
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 4/4
+K: Bm
+D2E2 |\
+"Bm"F3F "G"G2E2 | "Bm"F4 F2F2 | "A"E3F E2C2 | "F#m"A,6 A,2 |\
+"Bm"B,B,3 "D"D2E2 | "Bm"FB3 B2c2 | B4- BAFE | "F#"F4 D2E2 |
+"Bm"F3F "G"G2E2 | "Bm"F4 F2F2 | "A"E3F E2C2 | "F#m"A,4 B,2C2 |\
+"Bm"DD3 C2B,2 | "A"C2F2 F2E2 | "Bm"C2 B,6- | "G"B,4 z4 ||
+"Bm"B,4 B,4 | "G"B8 | "D"F2 E4 "E"F^G | "A"A6 B,B, |\
+"Bm"B,B,3 "E"^D2E2 | "Bm"F2B2 B2c2 | B4- BAFE | "F#"F4 D2E2 |
+"Bm"FF3 "G"G2E2 | "Bm"F4 F2D2 | "A"E2F2 EC3 | "F#m"A,4 B,2C2 |\
+"Bm"DD3 C2B,2 | "A"C2F2 F2E2 | "G"CB,7- | B,4 |]
+%%vskip 3	% To prevent clipping of that final tie
+
+%%sep 1 1 500
+
+X: 1
+T: Dear Ould Ireland
+%R: hornpipe
+S: printed page ofknown origin from Darlene Wigton 2019-3-2
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+z2A2 |\
+"D"d3c d3f "G"e3d "A"B3A | "D"d3A d3f a6 a2 |\
+"G"b3b b3a "D"b3a f3d | "Em"e3f e3d "A"B6 A2 |
+"D"d3c d3f "G"e3d "A"B3A | "D"d3A d3f a6 f2 |\
+"G"g3f g3a "Em"b3g e3c | "A"e8 "D"d8 || z16 | z12 A4 |
+"D"d3c d3e f3a "G"b3b | "D"a3f "A"e3f "D"d6 a2 |\
+"G"b3b b3a "D"f3a2f3 | "A"e3e a3e "D"f6 a2 |
+"G"b3a b3a "D"f3a a3f | "A"e3e a3e "Bm"f6 f2 |\
+"G"g3f g3e "Em"b3g e3c | "A"e8 "D"d8 | z16 | z16 |]
+
+%%sep 1 1 500
+
+X: 1
+T: An Thou Wert My Ain Thing
+T: Gin thou wert mine awn thing
+%R: air, march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+S: PDF from Darlene Wigton 2019-3-2
+L: 1/8
+M: 4/4
+K: D
+[|\
+"D"A3 d "Bm"d3 f | "G"e2 dc "Em"B4 | "G"dc BA "D"de f2 | "G"gf ed "D"fg "A"a2 ||\
+"D"A3 d "Bm"d3 f | "G"e2 dc "Em"B4 | "D"ab af "G"gf ed | "Bm"d3 e "D"f4 |]
+[|\
+"D"a2 A2 "Bm"A2 f2 | "G"e2 dc "Em"B3 c | "D"A2 a2 a3 b | ab "A"ag "D"f2 ff ||\
+"G"ga bg "D"fg af | "Em"gf ed "G"B3 b | "D"ab af "Em"gf ed | "G"B4 "A"A2 z2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Last Time I Came Over the Moor    [G]
+%R: air, march
+S: PDF from Darlene Wigton 2019-3-2
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+(d>c) |\
+B2 (AG) g3 a | {ab}b2 (ag) f2 (ed) | e3 d (B>AB) d | (e3 f) g2 (d>c) | B2 (AG) g3 a |
+b2 (ag) f2 (ed) | (e>fg) a (bag) f | (e3 f) g2 :: (ag) | f2 (ed) d3 b | (af) (e>f) d3 B |
+d3 e (d>ed) B | d4 g3 d | (e>de) g e2 (dB) | (dBd) e g3 a | (ba) (ge) (de/f/g) c | (B2 TA2) G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Planxty Irwin
+T: Colonel John Irwin
+C: O'Carolan
+R: waltz, jig
+B: O'Neill's 677
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Spirited"
+M: 6/8
+L: 1/8
+K: D
+|: A |\
+"D"d2c "G"Bcd | "A7"A2G "D"FED | "G"G>FE "D"FGA |\
+[1,3 "A7"C2D E2 :|2,4 "A7"D2C "D"D2 :|
+|: A |\
+"D"d2d d>cd | "A7"e>fe ecA | "D"f2f "G"e>fd | "E7"c>dB "A7"ABc |
+y2 |\
+"D"d2c "G"Bcd | "A7"A2G "D"FED | "Em"G2E "D"FGA | "A7"D2C "D"D2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Whiskey You're the Devil    [C]
+C: Jerry Barrington 1873
+O: Ireland
+M: C
+L: 1/16
+Z: 2019 John Chambers <jc@trillian.mit.edu>
+K: C
+G2  \
+| "C"C2C2C2D2 E2G2G2G2 | "Dm"A2D2D2E2 "G7"F2G2A2G2 \
+| "F"c2d2c2A2 "C"A2G2G2E2 | "D7"D2D2D2E2 "G7"D2B,2A,2G,2 |]
+| "C"C4E3D C6GE | CCCC CDEF G6 GE | "Dm"DDDD DEFG A4 "G7"z2G2 \
+| "F"c2d2c2A2 "C"A2G2"F"c2A2 | "C"G2E2 "G7"D3E "C"C4 z4 |]
+[| "C"C2C2 C3D E2G4G2 | "F"A2G2A2B2 c4 \
+| "F"c3d c2A2 "C"A2G4E2 | "D7"D3D D2E2 "G7"D6 G2 |
+| "C"C2C2C2D2 E2G2G2G2 | "F"A2G2A2B2 c4c2B2 \
+| "C"A2G2 "F"[c3F3]B "C"A2G2 "Am"E2C | "Dm"D4-"G7"D4 "C"C6 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Finnegan's Wake    [G]
+O: Ireland 1850s?
+M: 2/4
+L: 1/8
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+% %wordsfont Helvetica-Narrow-Bold 14
+K: G
+d |\
+"G"B/G/G GG | Bc dd | "Am"e/A/A AG | "D7"AB c>d |\
+"G"dG GG | Bc dd/d/ | "C"ee/e/ ed | "D7"e/e/f "G"g>d |
+"Em"gg/g/ ga/a/ | "Bm"gf ed/d/ | "Em"gg/g/ ga | "Bm"gf ef/f/ |\
+"Em"gg ga/a/ | "Bm"gf ed/d/ | "C"ee/e/ ed | "D7"ef "G"g2 |]
+[|\
+"Em"BB/B/ BA | Be/e/ ef | "C"gf "G"ed | "D"BA A2 |\
+"Em"BB BA | Be ef | "C"gf "G"ed | "D7"e/e/f "G"g |]
+
+%%sep 1 1 500
+
+X: 1
+T: Finnegan's Wake    [C]
+O: Ireland 1850s?
+M: 2/4
+L: 1/8
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+% %wordsfont Helvetica-Narrow-Bold 14
+K: C
+G |\
+"C"E/C/C CC | EF GG | "Dm"A/D/D DC | "G7"DE F>G |\
+"C"GC CC | EF GG/G/ | "F"AA/A/ AG | "G7"A/A/B "C"c>G |
+"Am"cc/c/ cd/d/ | "Em"cB AG/G/ | "Am"cc/c/ cd | "Em"cB AB/B/ |\
+"Am"cc cd/d/ | "Em"cB AG/G/ | "F"AA/A/ AG | "G7"AB "C"c2 |]
+[|\
+"Am"EE/E/ ED | EA/A/ AB | "F"cB "C"AG | "G"ED D2 |\
+"Am"EE ED | EA AB | "F"cB "C"AG | "G7"A/A/B "C"c |]
+
+%%sep 1 1 500
+
+X: 1
+T: Raise a Glass to Saint Patrick   [D]
+%R: jig, song
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+S: printed page of unknown origin from Darlene Wigton 2019-3-2
+L: 1/8
+M: 6/8
+K: D
+[|\
+"D"f2f "A"edc | "D"dA2- A3 | "D"d2d "A"cBc | "D"d3- d2d |\
+"G"G2B "A"A2c | "D"df2 "Em"g3- g2g | "D"fd2 "A"Ae2 | "D"d3- d3 |]
+"D"f2d A2d | "G"cB2- B2f | "Em"g2e "A"c2e | "D"A3- A2f |\
+a2f d2c | "G"B>cd/B/ "D"A2A | "Em"Bd2 "A"g2f | "D"d3- d2d |
+"Bm"d2d "A"c2d | "A7"edc "D"d>ef | "G"g2g "D"f>ed | "A"e3- e2f |\
+"D"a2f d2c | "G"Bd2 "D"A2A | "Em"Bd2 "A"g2f | "D"d3- d2 |] z6 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Wild Rover    [G]
+O: Ireland
+R: waltz
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: Printed page of unknown origin, via the Merry Minstrels (Lexington MA USA)
+M: 3/4
+L: 1/4
+K: G
+%%continueall 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+z3 | z2 |: D |\
+"G"G> A G | E D B | B< A B | "C"c3- | c2 B/c/ | "G"d B d | "D7"c A F | D B A |
+[1 "G"G3- | G2 :|[2 "G *"G3- | G F G || "D" A3 | A3 | "D7"F D2 | .D.E.F | "G".G BB | B< A B |
+"C"c3- | c B c | "G"d3- | d B G | "C"F E2- | E2 E | "G"D B2- | "D7"B2 A | "G"G3 | z3 |]
+%%text * This measure is often omitted.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+%%sep 1 1 500
+
+X: 1
+T: Danny Boy    [G]
+T: The Londonderry Air
+C: Traditional
+M: 4/4
+L: 1/8
+K: G
+  "D7"zFGA | "G"B3 A    Be "G7"dB | "C"AG E2 "D7"zGBc | "G"d3 e dB "(A7)"GB | "D"A4
+  "D7"zFGA | "G"B3 A    Be "G7"dB | "C"AG "(Am)"E2 "D7"zFGA | "G"B3 c BA "D7"GA | "G"G4
+  "D7"zdef | "G"g3 f "C"fe "(D7)"de | "G"dB G2 "D7"zdef | "G"g3 f "C"fe dB | "D"A4
+  "D7"zded | "G"b3 a "C"ag       eg | "G"dB G2 "Em"zF"C"GA | "G"Be dB "C"AG "D7"EF | "G"G4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: When Irish Eyes Are Smiling    [A]
+C:Music by Ernest R. Ball
+%C:Lyrics by Chauncey Olcott and George Graff Jr.
+%%staffsep 30
+M:3/4
+L:1/4
+K:A
+c/d/ "A1"[|\
+"A"e a f | e2 c/d/ | e a f | e c B |\
+A B c | c B A | "E7"e3- | e2 B/c/ ||\
+"E7"d c B | d c B | "A"A B c | "F#7"e ^d c |
+"B7"B c^d | f g B | "E"e3- | "E7"e2 c/d/ "A2"|]\
+"A"e a f | e c d | e a f | e c B |\
+A B c | "A7"c B A | "D"f3- | f2 f/g/ |
+"B7"a f g | a g f | "E"g e f | g f e |\
+"B7"B c^d | f2 g | "E"e3- | "E7"e2 "B1"|[| e |\
+"A"c2 c | "(E7)"B2 A | "A"c e2- | e c A |
+"D"d2 f | a2 f | "A"e3- | e2 f/g/ ||\
+"D"a2 g | a2 g | "A"f e2 | d2 c |\
+"B7"f2 B | B2 c | "E"B3- | "E7"B2 e "B2"|]\
+"A"c2 c | "(E7)"B2 A |
+"A"c e2- | e c A |\
+"D"d2 f | a2 f | "A"e3- | e f g | "D"a2 g |\
+"B7"b2 a | "A"c'3 | "F#7"e ^d e |\
+"B7"fg a | "E7"b2 a | "A"a3- | a2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: It's a Long Way to Tipperary   [G]
+%R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+S: printed image from Darlene Wigton 2019-3-2
+L: 1/8
+M: C
+K: G
+%%continueall 0
+D |\
+"G"BB Bc BB AG | "C"AB AG "Am"E3 (G |\
+"D"A)A AB "D7"AG ED | "G"GG GG "D"D2 z2 ||\
+"G"BB Bc "Em"BB AG | "C"AB AG "Am"E2 G-G |
+"D"AA AB "D7"AG ED | "G"GG "C"GE "G"G2 |]\
+"^Chorus"[| B,C |\
+"G"D2 D2 zDEF | G2 B4 BA |\
+"C"G2 E4 G2 | "G"D4- "D"D2 B,C ||\
+"G"D2 D2 zDEF | "Em"G2 B4 FG |
+"A"A2 E2 "A7"F2 G2 | "D"A4- "D7"A4 ||\
+"G"D2 D2 zDEF | G2 B4- B2 |\
+"C"c2 G2 G2 A2 | "B"B4- B2 GA ||\
+"G"B2 B2 BG AG | "C"E4 "G"D2 (GA) |\
+"A7"B2 G2- "D7"G2 A2 | "G"G6 z |]

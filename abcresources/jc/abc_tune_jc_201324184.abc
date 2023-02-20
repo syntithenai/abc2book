@@ -1,0 +1,24 @@
+X: 1
+T: Pizni Vesilni Zvuky
+C: Cookie Segelstein (Veretski Pass)
+%O: 
+R: waltz
+F:
+S: Handout from Steve Rauch as Klezmer Jam 2020-2-9
+D: Veretski Pass
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+"^A"|:\
+"Dm"A2D2F2 | A3BA2 | "Gm"d2c2B2 | "Dm"A4A2 |\
+"Gm"G2G2B2 | "Dm"A3GF2 | "A7"E2G2FE |[1 "Dm"DE FG AB :|[2 "Dm"D3A,D2 |]
+"B"|:\
+"Dm"A2A2A2 | f2e2d2 | "A7"^c2A2c2 | "Dm"d4A2 |\
+"C7"c2G2B2 | "F"A4A2 | "A7"G2F2E2 |1 "Dm"DE FG AB :|[2 "Dm"D4C2 |]
+"^C"[|\
+"F"c4d2 | c4A2 | "C7"B3AG2 | "F"A4F2 |\
+"F"c2c2d2 | c4A2 | "C7"~B2A2G2 | "F"F4E2 |]
+"^D"|:\
+"Dm"D2F2A2 | f2e2d2 | "A7"^c2A2c2 | "Dm"d4A2 |\
+"C7"c2G2B2 | "F"A4A2 | "A7"G2F2E2 |1 "Dm"DE FE DA, :|2 "Dm"D4z2 |]

@@ -1,0 +1,23 @@
+X: 1211
+T: SWEDISH WALTZ
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.121 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: Corrected note length in last bar of 3rd part and 1st bar of 4th part.
+N: The 4th part has 18 bars.
+M: 3/8
+L: 1/16
+K: D
+(FG) |\
+A2(A^G)A2 | d4(fg) | a2(a^g)a2 | f4FG |\
+A2(A^G)A2 | d4ed | B2^G2E2 | A4 :|
+|: A2 |\
+(A^G)(BA)(cA) | (edcB).A2 | (dF).A.d(fe) | d2{e}dcd2 |\
+(eA)ce(gf) | e2{f}e^de2 | (ce).AA(Bc) | d4 H:|
+|: (FG) | .A2(FGAB) | (Ad).d.d.dd | (dcecdB) | (ABAGFG) |\
+.A2(FGAB) | (Ad).d.d.d.d | (fe).e.A.B.c | d4 :|
+|: B2 |\
+B2 (FBdc) | .B2(fedc) | (B^ABc).d.B | (edcB).A2 |\
+(AB).c.d.e.f | g4z2 | e4z2 | c4z2 | A4z2 |
+z4(FG) | .A2(FGAB) | (Ad).d.d.d.d | (dc).e.c(dB) | (ABAG).F.G |\
+.A2(FGAB) | (Ad).d.d.d.d | (fe).e.A(Bc) | d4 "^D.C.":|

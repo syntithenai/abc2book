@@ -1,0 +1,30 @@
+X: 1
+T: the Beaux Delight
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.75 #108 (150)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The CCDM1 version had several illegible words, filled in from CCDM1, whose dance is identical except for spelling and punctuation.
+N: There are some differences in the tune.
+M: 6/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+E>FG C2c | B>cd G2c/B/ | c>de A>fe | d3 G3 |\
+E>FG C2c | B>cd G2g/f/ | e>fg G>cB | c3 C3 |]
+[|\
+GEG AFA | GEG AFA | GEG ABc | B3 G3 |\
+dBd eBe | fdf geg | aga def | e3 c3 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Do the single Figure and turn single, and cast off and
+%% change Places with your Partner, then you will be in
+%% the 2d Cu. Place; the 2d Cu. do the same: Then
+%% clap Hands and cast off, the next Cu. do the same,
+%% then right and left 'till you come to the 2d Cu.
+%% Place, and lead thro' the 1st Cu.
+%% [CCDM1]
+%%endtext
+%%sep 1 8 500

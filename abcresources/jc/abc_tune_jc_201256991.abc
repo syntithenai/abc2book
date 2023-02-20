@@ -1,0 +1,67 @@
+
+X: 0
+T: Broadway
+T: 8x32S8
+R: air
+%%text Broadway song tunes suggested
+% First 2 tunes from Marian Anderson Scottish Dance Band:
+K:
+% hdr/Broadway.hdr
+
+
+X: 1
+T: Give My Regards to Broadway   [G]
+S: SAFD #a0523a
+O: George M Cohan (1904)
+% for the musical play "Little Johnny Jones" which debuted in 1904 in New York.
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/clemC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|:  "G"DE2F G2A2 | "Am7"G4 "D7"F3D | "C"EEEE "D7"F2F2 | "G"D4- D4 |
+|[1 "G"DE2F G2E2 | "D"F2G2 AFED | "A7"G2E2 F2G2 | "D7"A4- Azz2 :|
+%"G"DE2F G2A2 | "Am7"G4 "D7"F3D | EEEE F2F2 | "G"D4- D3z |
+|[2 "E"B^G2E "E7"c2B2 | "Am"A2"E7"^G2 "Am"A=GAG | "G"B3G "D7"G2A2 | "G"G4- G2z2 |]
+
+
+X: 1
+T: Singin' in the Rain
+%D: 1929
+C: words: Arthur Freed
+C: music: Nacio Herb Brown
+O: for the 1929 musical of the same name
+R: air
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+"G7"G2 |\
+"C"g4- g>ed>c | "Am"A6 G2 | "C"c4- c>cd>e | g6 G>A |\
+"C6"c4- c>de2 | g4 e2"E#dim7"g2 | "G7/D"g4- g>ed2 | A6 G2 |
+"C"g4- g>ed2 | "Am"A6 G2 | "G"g4 e3d | "Am"A6 G2 |\
+"C"g4- g>eA2 | "G7"B4- B>eA2 |1 "C"c4- cAc2 | A6 :|[2 "C"c8- | c6 |]
+
+
+X: 1
+T: Ol' Man River
+C: Jerome Kern &Oscar Hammerstein
+O: Show Boat 1927
+M: C
+L: 1/8
+K: F
+[|\
+"F"C2C2 "Dm7"DF2D | "F"C2C2 "Bb"DF2G | "F"A2A2 "Bb"GF2G | "F"A2c2 "Dm7"dc2d ||\
+"Gm7"c2c2 "C9"AG2A | "Gm7"c2c2 "C9"AG2A | "F"F4- "Bb"F4- | "F"F6 zC |
+||\
+"F"C2C2 "Dm7"DF2D | "F"C2C2 "Bb"DF2G | "F"A2c2 "Dm7"dc2d | "F"f2f2 "E7/G#"ed2e ||\
+"Gm7"c2c2 "C9"AG2A | "Gm7"c2c2 "C9"AG2A | "F"F4- "Bb"F4- | "F"F2z2 "Bm7b5 E7"z4 |]
+[|\
+"Am"e2c2 "E7b9"d3f | "Am"e2c2 "E7b9"d4 | "Am"e>ec2 "E7b9"d>df2 | "Am"e2c2 "E7b9"d4 ||\
+"Am"c2A2 "Dm6"=B4 | "Am"c2A2 "E7b9"=B4 | "Am"c>cA>A "E7b9"=B2d>d | "Am"c2A2 "Gm7"G2-"C7"G2 |]
+[|\
+"F"C2C2 "Dm7"DF2D | "F"C2C2 "Bb"DF2G | "F"A2c2 "C9"dc2d | "Dm7"f2f2 "G7"gf2g ||\
+"F/C"a2a2 "Dm7"gf2g | "Gm7"a2a2 "C7"gfg2 | "F"f8- | f2z2 "(Gm7 C7)"z4 |]
+
+%%text https://www.youtube.com/watch?v=yrkBZwcMlHw (1st & 2nd tunes)

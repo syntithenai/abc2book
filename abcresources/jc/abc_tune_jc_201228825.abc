@@ -1,0 +1,31 @@
+X: 11672
+T: NOW PHOEBUS SINKETH IN THE WEST
+T: From the "Mask of Comus."
+C: Dr Arne.
+Q: "With spirit."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.167 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+e2d (cB)A | GAB E3 | (c/d/e)e e2c | (B/c/d)d d3 |\
+c2A ^d2B | edB z2z | g2f (e^d)c | BAG z2z |\
+(c^de) B2a |gaf e3 | (e^d)c (BA)G | (AG)F E3 |]
+z2z z2B |\
+f2e (dc)B | (cB)^A B3 | e2d (cB)A | (BA)G A3 |\
+c2B A2F | dcB z2z | f2e (dc)B | A2G F3 !segno!|:\
+(c/d/e)e e2c | (B/c/d)d d3 | c2c (cBA) | (GA)B E3 |
+A2c (FGA | Bcd GAB | cde AB)c | (de)f He3 |\
+c2B d2c | f2e G3 | e2d (cB)A | (BA)G "^Fin."A3 !segno!:|\
+[M:C] "Adagio."\
+f2e2 G2A2 | E3E A4 |
+F2G2 A3B | c2F2 ^E2z2 |\
+f3e d2(cB) | F3F B2z2 | z4 z2B2 | e3E A3B |\
+c>BB2 z4 | ^B>Bc2 HF3G | A3A G4 | ee^d2 Hc3F |\
+G3G "^D.C. al Fin."c4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,20 @@
+X:2
+$SmallLMargin
+$SmallRMargin
+T:Sasha (from Dancingmasters.com)
+C:M-14
+M:C
+L:1/4
+K:Dm                           % key
+%%postscript /shd{gsave T .1 dup scale 0 0 hd grestore}!
+%%deco head-s 0 shd 0 0 0
+U: s=!head-s!
+"Dm"AAz2|AAz2|Az"A7"Az|"Dm"Azz2|:"Dm"AFA2|AFA2|
+w:Sa-sha Sa-sha Ras Dva Tri (Right right right, left left left,
+"A7"EEA>G|FDD2:| |:"Gm"B2B2|"Dm"A3 A/B/|"A7"AGFE|Dz"<X"sA z:|
+w:both both both * knee knee knee) La la la la la la la la la la HEY!
+|:[K:D]"D"F2A2|d3e|dcBA|"Em"G3F|"A"E2A2|c3d|
+["Optional 1st ending"cBAG|"D"F3E:|[2cABc|d2z2|]
+%%begintext ragged
+The optional repeat isn't called by Susan, but some callers like it. It allows the dancers more time
+to find new partners.

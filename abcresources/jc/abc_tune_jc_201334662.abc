@@ -1,0 +1,63 @@
+
+X: 1
+T: Schwartzerdener [Bb]
+T: Black Earth Circle
+O: North German
+R: waltz
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Bb
+zF2 \
+| "Bb"B2 BA Bc | "Bb"d4 B2 | "F7"c2 cB cd | "F7"e4 c2 \
+| "Bb"d2 dc de | "Bb"f2 e2 d2 | "F7"cd cB Ac | "Bb"B3 :|
+|: cde \
+| "Bb"f2 fd gf | "F7"e2 ed cd | "F7"e2 ec fe | "Bb"d2 dc Bc \
+| "Bb"d2 dB d2 | "Eb"e4 d2 | "F7"cd cB Ac | "Bb"B3 :|
+|: FBc \
+| "Bb"d4 "Eb"e2 | "Bb"f4 "Eb"g2 | "F7"c4 f2 | "Bb"ed cd Bc \
+| "Bb"d4 "Eb"e2 | "Bb"f4 "Eb"g2 | "F7"cf ed ec | "Bb"B3 :|
+
+
+%%sep 2 1 500
+
+X: 2
+T: Schwartzerdener [C]
+T: Black Earth Circle
+O: North German
+R: waltz
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+zG2 \
+| "C"c2 cB cd | "C"e4 c2 | "G7"d2 dc de | "G7"f4 d2 \
+| "C"e2 ed ef | "C"g2 f2 e2 | "G7"de dc Bd | "C"c3 :|
+|: def \
+| "C"g2 ge ag | "G7"f2 fe de | "G7"f2 fd gf | "C"e2 ed cd \
+| "C"e2 ec e2 | "F"f4 e2 | "G7"de dc Bd | "C"c3 :|
+|: Gcd \
+| "C"e4 "F"f2 | "C"g4 "F"a2 | "G7"d4 g2 | "C"fe de cd \
+| "C"e4 "F"f2 | "C"g4 "F"a2 | "G7"dg fe fd | "C"c3 :|
+
+
+%%sep 2 1 500
+
+X: 3
+T: Schwartzerdener [D]
+T: Black Earth Circle
+O: North German
+R: waltz
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+zA2 \
+| "D"d2 dc de | "D"f4 d2 | "A7"e2 ed ef | "A7"g4 e2 \
+| "D"f2 fe fg | "D"a2 g2 f2 | "A7"ef ed ce | "D"d3 :|
+|: efg \
+| "D"a2 af ba | "A7"g2 gf ef | "A7"g2 ge ag | "D"f2 fe de \
+| "D"f2 fd f2 | "G"g4 f2 | "A7"ef ed ce | "D"d3 :|
+|: Ade \
+| "D"f4 "G"g2 | "D"a4 "G"b2 | "A7"e4 a2 | "D"gf ef de \
+| "D"f4 "G"g2 | "D"a4 "G"b2 | "A7"ea gf ge | "D"d3 :|

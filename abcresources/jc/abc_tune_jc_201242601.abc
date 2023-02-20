@@ -1,0 +1,31 @@
+X: 621
+T: Let's to the Ard -- Strathspey
+R: strathspey
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.62 #1 & p.63 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+c>AFc AFc>A | c>dcA A<GG2 |\
+c>AFc AFc>A | f>gac A/A/A A2 :|\
+|:\
+f>ga>f g>ef>d | c>Af>d Tc>AG2 |
+f>ga>f g>ef>d | c<A f>g a>cA2 |\
+f>ga>f g>ef>d | c<Af>d Tc>AG2 |\
+c>AFc A<Fc>A | f>gac A/A/A A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+f2f2 f2f2 | f2f2 g2g2 |\
+f2f2 f2f2 | c2c2 F2F2 :|\
+|:\
+f2f2 f2f2 | f2f2 g2g2 |
+f2f2 f2f2 | c2c2 F2F2 |\
+f2f2 f2f2 | f2f2 g2g2 |\
+f2f2 f2f2 | c2c2 F2F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,15 @@
+X: 15272
+T: Jenny and I
+%R: air, waltz, minuet
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.5 p.27 #2
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dmix
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"G>A |\
+(B2 e2) d2 | (ed)(cB)(AG) | G3 A(Bc) | {B2}A4 G2 | g2 G2 A2 | {c}B3 A (B/A/G) | {A}B2 e2 d>e | d4 :: f>e | d2 e2 (f3/g//a//) |
+g2 G2 g>f | g3 a (b/a/g) | {g}Tf3 e d2 | g2 e2 (d/e/g) | Te3 d (e/d/B) | A2 B2 d2 | e4 (e/f/g) | (dB)(AB) d2 | dBAB G2 |
+g>fe>fg>a | {g}f3 e d2 | (e>f) g2 f2 | e4 d2 | B2 g2 f2 | e>gd>eB>d | G3 A (Bc) | {B2}A4 G2 | {A}B2 e2d>e | d4 :|

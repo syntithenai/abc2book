@@ -1,0 +1,48 @@
+X:1
+T: The Penniless Soldiers
+N:
+C:
+S: Play  3  times
+A:
+O:
+R:
+M:4/4
+K:A
+I:speed 200
+%W: A1                                                                      A2
+% voice 1 (1 lines, 34 notes)
+K:A
+M:4/4
+L:1/16
+A2 B2 c2 d2 e4 e4 |a8 e8 |A2 B2 c2 d2 e4 e4 |a4 a4 e8 |A2 B2 c2 d2 e4 e4 |a8 e8 |A2 B2 c2 d2 e4 e4 |a4 a4 e8 |
+%W: B1                                                                      B2
+% voice 1 (1 lines, 44 notes)
+=g4 f2 e2 f4 e2 d2 |e4 d2 c2 d4 e2 f2 |=g4 f2 e2 f2 e2 d2 e2 |e6 d2 d8 |=g4 f2 e2 f4 e2 d2 |e4 d2 c2 d4 e2 f2 |=g4 f2 e2 f2 e2 d2 e2 |e6 d2 d8 |
+%W: A3                                                                      A4
+% voice 1 (1 lines, 34 notes)
+A2 B2 c2 d2 e4 e4 |a8 e8 |A2 B2 c2 d2 e4 e4 |a4 a4 e8 |A2 B2 c2 d2 e4 e4 |a8 e8 |A2 B2 c2 d2 e4 e4 |a4 a4 e8 |
+%W: C1
+% voice 1 (1 lines, 19 notes)
+M:3/4
+L:1/16
+c4 c6 B c |d2 c2 B6 G2 |A4 A8 |c4 c6 B c |d2 c2 B6 G2 |A12 |
+%W: C2
+% voice 1 (1 lines, 19 notes)
+c4 c6 B c |d2 c2 B6 G2 |A4 A8 |c4 c6 B c |d2 c2 B6 G2 |A12 |
+%W: D1
+% voice 1 (1 lines, 29 notes)
+e4 e6 d e |f2 e2 e2 d2 d2 c2 |d4 d6 c d |e2 d2 d2 c2 c2 B2 |c4 c6 B c |d2 c2 B6 G2 |A12 |
+%W: D2
+% voice 1 (1 lines, 29 notes)
+e4 e6 d e |f2 e2 e2 d2 d2 c2 |d4 d6 c d |e2 d2 d2 c2 c2 B2 |c4 c6 B c |d2 c2 B6 G2 |A12 |
+%W: A1                                                                      A2
+% voice 1 (1 lines, 34 notes)
+M:4/4
+L:1/16
+A2 B2 c2 d2 e4 e4 |a8 e8 |A2 B2 c2 d2 e4 e4 |a4 a4 e8 |A2 B2 c2 d2 e4 e4 |a8 e8 |A2 B2 c2 d2 e4 e4 |a4 a4 e8 |
+%W: B1                                                                      B2
+% voice 1 (1 lines, 44 notes)
+=g4 f2 e2 f4 e2 d2 |e4 d2 c2 d4 e2 f2 |=g4 f2 e2 f2 e2 d2 e2 |e6 d2 d8 |=g4 f2 e2 f4 e2 d2 |e4 d2 c2 d4 e2 f2 |=g4 f2 e2 f2 e2 d2 e2 |e6 d2 d8 |
+%W: A3                                                                      A4
+% voice 1 (1 lines, 32 notes)
+A2 B2 c2 d2 e4 e4 |a8 e8 |A2 B2 c2 d2 e4 e4 |a4 a4 e8 |A2 B2 c2 d2 e4 e4 |a8 e8 |A2 B2 c2 d2 e4 e4 |a16 ||

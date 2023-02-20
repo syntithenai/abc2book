@@ -1,0 +1,18 @@
+X:177
+T: Gavot ("duett III")
+N: O'Farrell's Pocket Companion v.2 (Sky ed. p.90)
+M: 2/4
+L: 1/8
+R: polka
+Q: 240
+V: 1 %%MIDI program 1 73 volume=70 % flute
+V: 2 %%MIDI program 1 40 % fiddle
+K: D
+[V:1] A|f2 gf/e/|fdde|fbag|fbag|f2 gf/e/|fdde|fagf|e3 :|
+[V:2] A|d2 ed/c/|dAAe|dgfe|dgfe|d2 ed/c/|dAAe|dfed|A3 :|
+%
+[V:1] z|e2 fe/d/|eaae|fefe/d/|eaac|dcdc/B/|caad|c2 B2| A3G|
+[V:2] z|A2 dc/B/|cffc|dcdc/B/|cffe|fefe/d/|edcB|A2^G2| A3G|
+%
+[V:1] F2 GF/E/|FDDe|f2 gf/e/|fdde|fbag|f2 e2|d3 :|
+[V:2] F2 GF/E/|FDDA|d2 ed/c/|dAAe|dgfe|d2 c2|d3 :|

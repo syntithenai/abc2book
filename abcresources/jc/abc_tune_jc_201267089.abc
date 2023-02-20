@@ -1,0 +1,29 @@
+X: 1
+T: Daphne's Delight
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (194)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/4
+L: 1/4
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: B/c/ |\
+A2G ^FD^F | GBG AcA |\
+(B/c/d)G ^FDG | GA^F G2 :|\
+|: d/e/ |\
+c2B dfB | AcA BdG |
+^FAd =E=FG | ^F3 D2=E/^F/ |\
+G^F=E AG^F | BAG cBA |\
+dAB B>AG | G3 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Couple cast off and cross below the 3d Couple
+%% and turn up the Middle in the second Couple's Place :|
+%% Then Hands across with the second Couple and go half
+%% round and turn single then Hands back again and right
+%% and left quite round :|
+%%endtext
+%%sep 1 8 500

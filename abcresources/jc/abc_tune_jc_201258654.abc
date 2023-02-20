@@ -1,0 +1,34 @@
+X: 1
+T:Cockney Jocks  "arr. Russ Spaulding"
+M:C
+L:1/8
+Q:80
+C:John Hays
+S:March
+K:HP
+{g}((3ABc)|
+{Gdc}d4{gdG}d2{g}fa|
+G4{a}g3/2f/2{g}ed|  !
+{g}c3/2d/2{g}ec{g}A2{d}B2|
+{G}A4a3/2g/2{a}fe|
+{Gdc}d4{gdG}d2{g}fa|  !
+G4{a}g3/2f/2{g}ed|
+{g}c3/2d/2{g}ec{g}A2{d}B3/2c/2|
+{Gdc}d4{gdG}d2-dA|]  !
+{Gdc}d2{g}fa{Gdc}d2{g}fa|
+G4{a}g3/2f/2{g}ed|
+{g}c3/2d/2{g}ec{g}A2{d}B2|  !
+{G}A4a3/2g/2{a}fe|
+{Gdc}d2{g}fa{Gdc}d2{g}fa|
+G4{a}g3/2f/2{g}ed|  !
+{g}c3/2d/2{g}ec{g}A2{d}B3/2c/2|
+{Gdc}d4{gdG}d2-dA|]
+{Gdc}dA{g}fd{g}Ad{g}fa|  !
+G4{a}g3/2f/2{g}ed|
+{g}c3/2d/2{g}ec{g}A2{d}B2|
+{G}A4a3/2g/2{a}fe|  !
+{Gdc}dA{g}fd{g}Ad{g}fa|
+G4{a}g3/2f/2{g}ed|
+{g}c3/2d/2{g}ec{g}A2{d}B3/2c/2|  !
+{Gdc}d4{gdG}d2|]
+

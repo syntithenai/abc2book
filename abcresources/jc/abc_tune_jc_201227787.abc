@@ -1,0 +1,31 @@
+X: 10991
+T: COTILLION No. 15. tune 3
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.99 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!f!B2 |\
+b3b b3b | .b2.a2.g2.e2 | .^d2.c2.B2.A2 | G2FG E2B2 |\
+b3b b3b | .b2.a2 .g2.e2 | B2cB BAFG | [E6G,6] H|]
+!mf!c2 |\
+(f2{^a}b2) (f2{a}b2) | (g2{^a}b2) (g2{a}b2) | a2(ab) g2(gb) | fB^c^d efga |\
+!f!b3b b3b | .b2.a2.g2.e2 | B2({d}cB) B2(fg) | (f4 "^D.C."e2) |]
+[K:E]\
+(!mf!ga) |\
+.b2.^a2.b2.a2 | b3g e2g2 | f2b2f2b2 | gBcd efga |\
+b2"^cresc."^a2b2a2 !f!| b2(fa) g2(eg) | f2(ce) d2(Bd) | e2g2"^D.C."e2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies all forward and back,
+%% gentlemen the same,
+%% all balance and turn partners,
+%% all chassa across partners and back,
+%% all balance corners and turn partners.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

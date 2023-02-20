@@ -1,0 +1,23 @@
+X: 213
+T: Merry Lads and bonny Lasses.
+T: Fleasguich og is cailleagan.
+R: reel
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.97 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+Q: "Dance"
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+c |\
+AFEF CFA,F | B,DG,A, B,CDB | AFEF CFA,e | fdcf AFF :| f | cfTf2 efgb | afTf2 GABd |
+cfTf2 efga | bagf efgb || afeg fBAc | BAGF EFGB | AfBf cfeg | fdcf AFF |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | F2f2 F2f2 | [B2B,2]B2 [B2B,2]B2 | F2f2 F2f2 | B2A2 F2f :| z | f2a2 g2c'2 | f2a2 b2b2 |
+a2f2 g2c'2 | c2c'2 c2c'2 || f2c'2 d'2c'2 | d'2=b2 c'2e2 | f2g2 a2c'2 | b2c'2 f2f |]
+% = = = = = = = = = =

@@ -1,0 +1,32 @@
+X:16982
+T:The Squirrel's Toy
+C:Francis Cutting, arr. Frank Nordberg
+O:England
+R:Toy, jig
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/cutting-francis/cutf-squirrel/cutf-squirrel-gtr2.abc
+V:1 Program 1 24 up %Classical guitar
+V:2 Program 1 24 merge down %Classical guitar
+V:3 Program 1 24 merge %Classical guitar
+M:6/4
+L:1/4
+Q:3/4=90
+K:G -8va % Bb with capo on third fret
+V:1
+G|B3/c/d e2d|e2f g2d|g3/a/b a3/g/f|e3/d/e d2:|
+V:2
+x|G3 x3|c3 B3|x6|B2^c A2:|
+V:3
+x|G,3 C2B,|A,3 G,3|G3 D3|G2A D2:|
+%
+V:1
+|:G|B3/c/d e2d|c3/d/B c2A|c3/d/e d3/c/B|d3/c/A G2:|
+V:2
+|:x|G3 x3|x3 E3|x6|x3 G2:|
+V:3
+|:x|G,3 C2B,|A,2^G, A,3|A,3/B,/C B,2G,|D2F G,2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

@@ -1,0 +1,32 @@
+X: 1
+T: Devetorka: Samokovsko Horo
+O: Bulgaria: Shop
+S: Jaap Leegwater
+%Q: 2/8 2/8 2/8 3/8=70
+M: 9/8
+L: 1/8
+N: This is a fairly basic version, without many ornaments
+Z: 2003 by John Chambers from handwritten MS, Tom Pixton's transcription
+%%slurgraces
+K: G=B_e_A
+"A"\
+|: "G"GF GA Bc B2A | GF GA Bc B2A | GF GA Bc B2A | "Fm"BA GF G2 "G"G3 :|
+"B"\
+|: "Cm"cB cB cd "G"B2A | GF GA Bc B2A | "Cm"cB cB cd "G"B2A | "Fm"BA GF G2 "G"G3 :|
+"A"\
+|: "G"GF GA Bc B2A | GF GA Bc B2A | GF GA Bc B2A | "Fm"BA GF G2 "G"G3 "fine"y:|
+K: F
+"C"\
+|: "F"[A6F6] [BG][AF][BG] | [c6A6] [dB][cA][dB] \
+| "C"[e6c6] [fd][ec][dB] |1 "F"[c6A6] "C7"[BG][AF][GE] :|2 "F"[c7A7]z2 ||
+"D"\
+|: "C"[e6c6] [fd][ec][dB] | "F"[c6A6] "(C7)"[BG][AF][BG] \
+|1 "F"[c6A6] [BG][AF][BG] | "Bb"[d7B7]z2 \
+:|2 "F"[c6A6] "C7"[dB][cA][BG] | "F"[A7F7]z2 ||
+"E"\
+[| "F"[c2A2] [fd][ec] [f2d2] "Bb"[d3B3] | "C"[c2A2] [cA][dB] [cA][BG] "F"[A3F3] \
+| "Bb"[f2d2] [fd][ec] [d2B2] [fd][ec][dB] |  "F"[c2A2][cA][BG] [AF][BG] [c3A3] \
+| "F"[c2A2] [fd][ec] [f2d2] "Bb"[d3B3] |
+| "C"[c2A2] [cA][dB] [cA][BG] "F"[A3F3] \
+|: "C"[c2A2] [BG][AF] [G2E2] [BG][AF][GE] | "F"[F4F4] [AF][BG] [c3A3] \
+|  "C"[c2A2] [BG][AF] [G2E2] [BG][AF][GE] | "F"F7z2 :|

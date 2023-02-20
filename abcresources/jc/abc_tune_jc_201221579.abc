@@ -1,0 +1,24 @@
+X: 05006
+T: APRIL LEE'S WALTZ
+C: Bob McQuillen 16 Sept'81
+B: Bob's Note Book 5 #5
+%R: waltz
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+A \
+| df>d | c3  | B>cd | A3  | fg>f | ede  | fd>B | A3 |\
+| g>fg | e3  | cde  | B2A | cd>e | ede  | fd>B | A3 |
+| df>d | c3  | B>cd | A3  | d>ef | f>ed | c3   | B3 |\
+| Bc>d | ede | fdB  | AFA | fdf  | e2d  | d3-  | d2 |]
+[| a \
+| f3 | ede | f3 | A3 | f3 | efg | a2f | dfa |\
+| b3 | a3 | agf | ede | f3 | edB | eAB | cde |
+| f3 | efg | fdB | A3 | fg>f | ede | f3 | d2A |\
+| B3 | cde | AFA | BAg | f3 | e3 | d3- | d2 |]
+%%begintext align
+%% With love and so many thanks (x10^44!)  to April Limber, who
+%% has played all these tunes on her fiddle
+%% first, so we could hear what they sound like!
+%%endtext

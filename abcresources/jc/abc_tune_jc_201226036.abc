@@ -1,0 +1,27 @@
+X: 10082
+T: the LANGOUR OF LOVE
+N: Yes, "languor" is mispelled.
+Q: "Slow and tender."
+%R: air
+N: This is version 1, for ABC software that doesn't understand trailing grace notes.
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.8 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D2 FA d4 | !p!(c2 d2) B4 |\
+A2 (Bc) d3 e | d3 c (B2 A)z !f!|\
+~F3 G A2 g2 | {d}f3 e Hd2 zD !p!|\
+~F3 G {FG}A3 F | (G2 F2) (E2 D2) :|\
+"^cres."{d}f3 e d3 f | (c2 d2) B4 |\
+{d}f3 e d3 f | d3 c B2 Az |
+~F3 G A2 ag | f3 e Hd2 zD |\
+F3 G {FG}A3 F | (G2 F2) (E2 D2) !f!|\
+{g}f3 e d3 f | (c2 d2) B4 |\
+f3 e d4 | c2 (c3/d/4e/4) d2 Dz |\
+~F3 G A2 g2 | (3(.f.g.a) (3(.g.f.e) Hd4 |{DEFGABc}\
+d3 B A3 F | (G2 F2) (E2 D2) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

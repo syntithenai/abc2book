@@ -1,0 +1,32 @@
+X: 20673
+T: JOHNNIE ARMSTRONG
+O: Old ballad air.--Modern set.
+Q: "Very slow."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.67 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(G3A) |\
+{A2}B8 {B}A4 | ({A}G4 E4) D4 |\
+D4 E4 G4 | {G2}A8 (A2G2) |\
+(G4 E4) D4 | {D}E4 G4 (G3A) |\
+{A2}B8 B3A | {A}G4 E4 D4 |\
+D4 E4 G3A/B/ | {B2}A8 (G3A) |\
+{A2}B8 A3G | (G4 E4) D4 |\
+{D}E4 G4 (G3A) | G8 |]
+(B2d2) |\
+e8 (edB2) | (A4 G4) A4 |\
+B4 (g4 e4) | e2 d6 B4 |\
+(A4 B4 d4) | g8 (e2d2) |\
+(B4 e4) (e3f) | e8 d4 |\
+(e3f) g4 f4 | (e3f)(e3d)(B2e2) |\
+(d3e)(dB3)(A3G) | {G2}A8 B3d |\
+(e2f2)(g2e2)(d2B2) | c6 B2A2G2 |\
+E4 G4 G3A | G8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

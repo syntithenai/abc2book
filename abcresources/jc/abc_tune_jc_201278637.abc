@@ -1,0 +1,62 @@
+X: 1
+T:The Gold Ring
+M:6/8
+L:1/8
+Q:80
+C:
+S:Jig
+K:HP
+|: e|
+{g}fed{gef}e2a|
+fed{gdc}d2e|
+{g}fed{gef}e2a|  !
+ged{g}cde| |
+{g}fed{gef}e2a|
+fed{gdc}d2e|  !
+{g}f/2a3/2f{a}gec|
+{g}edc{Gdc}d2:| |:
+e|  !
+{gfg}f3{g}f/2a3/2g|
+{ef}e3ag{a}e|
+{g}d{e}d{c}d{g}dcd|  !
+{gef}e2agec| |
+{gfg}f3{g}f/2a3/2g|
+{ef}e3ag{a}e|  !
+{g}c/2{d}A3/2B{gcd}c2a|
+gec{Gdc}d2:| |:
+e|  !
+{g}f3/2d/2{c}d{g}e3/2d/2{c}d|
+{g}f3/2d/2{c}d{g}e3/2d/2{c}d|
+{g}d{e}d{c}d{g}dfa|  !
+ged{g}cde| |
+{g}f3/2d/2{c}d{g}e3/2d/2{c}d|
+{g}f3/2d/2{c}d{g}e3/2d/2{c}d|  !
+{g}d{e}d{c}d{g}dfa|
+gec{Gdc}d2:| |:
+| A3/2f/2{e}f{g}A3/2f/2{e}f|  !
+{g}A3/2e/2{A}e{g}A3/2e/2{A}e|
+{g}d{e}d{c}d{g}dfa|
+ged{g}cde| |  !
+A3/2f/2{e}f{g}A3/2f/2{e}f|
+{g}A3/2e/2{A}e{g}A3/2e/2{A}e|
+{g}d{e}d{c}d{g}dfa|  !
+gec{Gdc}d2:| |:
+e|
+{gfg}f2A{g}A{d}A{e}A|
+{gef}e2A{g}A{d}A{e}A|  !
+{g}d{e}d{c}d{g}dfa|
+ged{g}cde| |
+{gfg}f2A{g}A{d}A{e}A|  !
+{gef}e2A{g}A{d}A{e}A|
+{g}d{e}d{c}d{g}dfa|
+gec{Gdc}d2:| |:  !
+e|
+{gfg}f2d{gef}e2d|
+{ag}a2d{gdc}d2e|
+{gfg}f2d{gef}e2d|  !
+ged{g}cde| |
+{gfg}f2d{gef}e2d|
+{ag}a2d{gdc}d2e|  !
+{g}f/2a3/2f{a}gec|
+{g}edc{Gdc}d2:|
+

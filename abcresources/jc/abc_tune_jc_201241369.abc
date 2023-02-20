@@ -1,0 +1,22 @@
+X: 4331
+T: Master F. Sitwell's    Strathspey
+C: by Nath. Gow
+%R: C
+N: This is version 1, for ABC software that doesn't understand voice overlays or cres/dim symbols.
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.33 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+% - - - - - - - - - -
+V: 1 staves=2
+D/E/ |\
+F>BD>B TG2EG | ~F>f (e/d/).c/.B/ Ac-cd/e/ | .d.B FD TG2E>G | ~F>B A>c {Bc}dBB :|\
+d/e/ | f>dg>e Tf2{=ef}dg | f<dg>B Ac-cd/e/ |
+"_cres . . ."f>dg>e f>db>d | "^dim . . ."(e/d/).c/.B/ Af dB-Bd/e/ ||\
+f>dg>e Tf2{=ef}dg | f<d g>B Ac-cd/e/ | .f.d .B.F (G3/A//B//) E>G | TF>B A>c {Bc}dB-B |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | B2d2 e2e2 | d2B2 f2F2 | B2d2 e2e2 | f2F2 B2B :| z | [B2d2][B2e2] [B2d2][B2e2] | d2e2
+f2F2 | "_cres . . ."d2e2 f2g2 | "^dim . . ."e2f2 B2B2 || [B2d2][B2e2] [B2d2][B2e2] | d2e2 f2F2 | B2d2 e2e2 | f2F2 B2B |]

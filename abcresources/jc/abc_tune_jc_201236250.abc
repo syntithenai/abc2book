@@ -1,0 +1,22 @@
+X: 2182
+T: New Claret.   a Jig.
+%R: slip-jig
+B: Niel Gow & Sons "Complete Repository" v.2 p.18 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: Some of the slurs aren't clear whether they include 2 or 3 notes.
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+G2G B2G (B/c/d)B | G>AG B2G (B/c/d)B | .E2.E .C2.C (E/F/G)E | D>ED TF2D (F/G/A)F :: G2G g2d (B/c/d)B | G>AG g2d (B/c/d)B |
+.c2.c e2c (e/f/)ge | d>ed f2d (f/g/)af :: !f!gdB GAB gdB | gdB GAB gdB | ece ece (e/f/)g.e | fdf fdf (f/g/)af :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+g3 g3 g3 | g3 g3 g3 | c3 c3 c3 | d3 d3 d3 :: g3 g3 g3 | g3 g3 g3 |
+[c'3c3] [c'3c3] [c'3c3] | [d'3d3] [d'3d3] [d'3d3] ::\
+[g3G3] [g3G3] [g3G3] | [g3G3] [g3G3] [g3G3] |\
+[c3C3] [c3C3] [c3C3] | [d3D3] [d3D3] [d3D3] |]

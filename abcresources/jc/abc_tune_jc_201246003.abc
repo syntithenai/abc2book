@@ -1,0 +1,92 @@
+
+X: 1
+T: All Alive   [Dm]
+R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Chords from Peter Barnes, modified by John Chambers
+B: Young – Second Volume of the Dancing Master, 1st ed., 1710
+B: John Walsh, "The Compleat Country Dancing-Master", London ca. 1740
+M: 6/8
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+"Dm"d2e fed | "Dm"fa2- a2A |\
+"Dm"def "Gm"efd | "A7"^c3 A2d |\
+"F"cBA "C(Gm)"BAG | "F"AcF "Bb"B2A |
+"Gm"GEF "A7"E2D | "Dm"D3- D2 :: F |\
+"C"E2F GAF | "F"Ac2 "(C)"B2A |\
+"Dm"fed "Gm"gef | "A7"^c3 A2a |
+"Gm"bag "A7(Dm)"a2A | "Gm"BAG "A(Dm)"A2f |\
+"Gm"gfe "A7"e2d | "Dm"d3- d2 "I"|| A |\
+"Gm"GEF "A7"E2D | "Dm"D3- D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %center Other sources have 8-bar 2nd strain, + 2 extra bars.
+% %begintext align
+% % The 1st Cu. sett to each other then cast off and go half the
+% % Figure then cast off again into the 2d Cu. Place Improper
+% % .| Then the 2d Cu. do the same :| Then all four cross
+% % over and give a Jump then Face to Face and Jump again
+% % and Back to Back with your Partner the 1st Man and 2d
+% % Wo. meet then take right and left Hands the 2d Man and
+% % 1st Wo. do the same .| Then go quite round Hands a cross
+% % which will bring the 1st Cu. into the 2d Cu. Place :|
+% %endtext
+
+%%sep 1 1 500
+
+X: 1
+T: All Alive   (Am)
+R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Chords from Peter Barnes, modified by John Chambers
+B: Young – Second Volume of the Dancing Master, 1st ed., 1710
+B: John Walsh, "The Compleat Country Dancing-Master", London ca. 1740
+M: 6/8
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E |\
+"Am"A2B cBA | "Am"ce2- e2E |\
+"Am"ABc "Dm"BcA | "E7"^G3 E2A |\
+"C"GFE "G(Dm)"FED | "C"EGC "F"F2E |
+"Dm"DB,C "E7"B,2A, | "Am"A,3- A,2 :: C |\
+"G"B,2C DEC | "C"EG2 "(G)"F2E |\
+"Am"cBA "Dm"dBc | "E7"^G3 E2e |
+"Dm"fed "E7(Am)"e2E | "Dm"FED "E(Am)"E2c |\
+"Dm"dcB "E7"B2A | "Am"A3- A2 "I"|| E |\
+"Dm"DB,C "E7"B,2A, | "Am"A,3- A,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %center Other sources have 8-bar 2nd strain, + 2 extra bars.
+% %begintext align
+% % The 1st Cu. sett to each other then cast off and go half the
+% % Figure then cast off again into the 2d Cu. Place Improper
+% % .| Then the 2d Cu. do the same :| Then all four cross
+% % over and give a Jump then Face to Face and Jump again
+% % and Back to Back with your Partner the 1st Man and 2d
+% % Wo. meet then take right and left Hands the 2d Man and
+% % 1st Wo. do the same .| Then go quite round Hands a cross
+% % which will bring the 1st Cu. into the 2d Cu. Place :|
+% %endtext
+
+%%sep 1 1 500
+
+X: 1
+T: All Alive
+R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Young – Second Volume of the Dancing Master, 1st ed., 1710
+B: John Walsh, "The Compleat Country Dancing-Master", London ca. 1740
+K:
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Other sources have 8-bar 2nd strain, + 2 extra bars.
+%%begintext align
+%% The 1st Cu. sett to each other then cast off and go half the
+%% Figure then cast off again into the 2d Cu. Place Improper
+%% .| Then the 2d Cu. do the same :| Then all four cross
+%% over and give a Jump then Face to Face and Jump again
+%% and Back to Back with your Partner the 1st Man and 2d
+%% Wo. meet then take right and left Hands the 2d Man and
+%% 1st Wo. do the same .| Then go quite round Hands a cross
+%% which will bring the 1st Cu. into the 2d Cu. Place :|
+%%endtext

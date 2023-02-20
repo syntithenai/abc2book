@@ -1,0 +1,19 @@
+X: 176
+T: Merrily Kiss the Quaker's Wife
+T: Merrily Dance the Quaker
+N: page 57
+N: hexatonic
+N: matches 10
+Z: Boston
+R: slide
+M: 6/8
+L: 1/8
+K: G
+|: D | "G"GAB D2B | "C"c2A BGE | "G"GAB DEG | "D"~A3 A2D \
+     | "G"GAB D2B | "C"c2A BGE | "G"GAB D2E | "G"G3 G2 :|
+|: c | "G"BGG AGG | BGG "C"AGE | "G"GAB DEG | "D"A3 AGA \
+     | "G"BGG AGG | BGG "C"AGE | "G"GAB D2E | "G"G3 G2 :|
+|:d  | "G"~g3 "D7"aga | "G"bge dBd| ~g3 gab | "D"~a3  aba \
+     | "C"gag "D7"faf | "C"ege "D7"dBA | "G"GAB D2E | "G"G3  G2 :|
+%*************************** SLIP JIGS ******************************
+%%scale 0.72

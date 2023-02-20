@@ -1,0 +1,30 @@
+X: 31343
+T: COTILLION No. 26. PAUL JONES' SETT tune 3
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.134 #3 (and p.135 #1)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+cd |\
+e2ee e2e2 | g4 fedc | cBAG ^FGAB | cBcd c2cd |\
+e2ee e2e2 | g4 fedc | cBAG AcBd | c2c2c2 H|]
+Bc |\
+d^cdc d2=ce | d^cdc d2=ce | d^cdc ed=cB | A2A2 A2Bc |\
+d^cdc d2=ce | d^cdc d2=ce | d2g2 fgaf | g2g2"^D.C."g2 |]
+f2 |\
+g3a g2f2 | e3d c2d2 | e2ef d2de | cded c2e2 |\
+g3a g2f2 | e3d c2e2 | d2de dcBA | "^D.C."G6 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Grand right and left,
+%% all balance,
+%% and swing round,
+%% chain,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

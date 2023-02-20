@@ -1,0 +1,29 @@
+X: 31433
+T: COTILLION No. 30. TOM MOORE'S SETT tune 5
+C:
+%R: march, polka, reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.143 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Incorrect rhythm between strains 1 & 2 fixed with added rest between them.
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+FAce | dBB2 | d(3(d/e/d/) cA | GBBG |\
+FAce | dBB2 | d(3(d/e/d/) cA | AGG H:| z \
+cege | dBB2 | d(3(d/e/d/) cA | GBBG |\
+cege | dBB2 | d(3(d/e/d/) cA | AGG2 :|
+K: =f
+[K:C]\
+G2Bd | f2ef | .g.c.B.d | ce/c/Gz |\
+G2Bd | f2ef | .g(cB).d | c2z2 :|\
+A2c=f | aag^f | gag^f | g2ez |\
+G2Bd | =f2ef | .g(cB).d | c2 "^D.C."z |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies cross hands round and back all balance, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

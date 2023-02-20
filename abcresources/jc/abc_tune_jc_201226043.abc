@@ -1,0 +1,25 @@
+X: 10083
+T: MARCH
+T: From the Occasional Overture
+C: Handel
+%R: march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.8 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P:2d time pp
+!ff!A2 |\
+defg f2e2 | d4 A4 | fgab a2g2 | f4 e4 |\
+{a}gfga g2f2 | e4 d4 | g2ag f2ga | e6 a2 |\
+edef e2a2 | A^GAB A2f2 |
+{e}d2cB B3A | A6 :: !f!A2 |\
+e2e>d e2f2 | g4 Te3d/e/ | f2gf e2d2 | a4 f4 |\
+!p!A2AA A2d2 | A2AA A2f2 | d2dd d2!f!a2 | f2ff f2d'2 |\
+b2ag a2gf |
+g4 b4 | a2gf g2fe | f4 a4 |\
+g2fe f2ed | e2A2 d4 | g2fe e3d | d2dd d2af |\
+d2dd d2f2 | e2ee e2eg | f2ed e3d | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

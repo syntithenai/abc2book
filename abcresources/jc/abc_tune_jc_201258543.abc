@@ -1,0 +1,2837 @@
+
+%%printtempo no
+%%pagesize 28.00cm
+%%deco alcoda 3 dacs 20 0 0 Al Coda
+% -- big letters in a box
+%%postscript /bigl{	% usage: str x y bigl
+%%postscript	/Times-Bold 16 selectfont
+%%postscript	4 add M showc
+%%postscript	1 setlinewidth 1 -2 RM 
+%%postscript	0 14 RL -14 0 RL
+%%postscript	0 -14 RL 14 0 RL
+%%postscript	stroke}!
+% -- big letters in a circle
+%%postscript /biglc {    % usage: str x y biglc
+%%postscript    2 copy 5 2 roll /Times-Bold 16 selectfont
+%%postscript    7 add M showc
+%%postscript    1 setlinewidth 13 add newpath
+%%postscript    9 0 360 arc
+%%postscript    stroke}!
+%
+%%deco biga 3 bigl 20 0 0 A
+%%deco bigb 3 bigl 20 0 0 B
+%%deco bigc 3 bigl 20 0 0 C
+%%deco bigd 3 bigl 20 0 0 D
+%%deco bige 3 bigl 20 0 0 E
+%%deco bigf 3 bigl 20 0 0 F
+%%deco bigg 3 bigl 20 0 0 G
+%%deco bigh 3 bigl 20 0 0 H
+%%deco bigac 3 biglc 20 0 0 A
+%%deco bigbc 3 biglc 20 0 0 B
+%%deco bigcc 3 biglc 20 0 0 C
+%%deco bigdc 3 biglc 20 0 0 D
+%%deco bigec 3 biglc 20 0 0 E
+%%deco bigfc 3 biglc 20 0 0 F
+%%deco biggc 3 biglc 20 0 0 G
+%%deco bighc 3 biglc 20 0 0 H
+%%deco bigic 3 biglc 20 0 0 I
+%%deco bigjc 3 biglc 20 0 0 J
+%%deco bigkc 3 biglc 20 0 0 K
+%
+%%postscript /roll1up{    % usage: x y roll1up
+%%postscript    M 3 8 RM 10 4 RL 0 -2 RL -10 -4 RL fill}!
+%%deco r1u 1 roll1up 0 0 0
+%%postscript /roll1dn{    % usage: x y roll1dn
+%%postscript    M -3 -9 RM 9 3 RL 0 -2 RL -9 -3 RL fill}!
+%%deco r1d 1 roll1dn 0 0 0
+%%postscript /roll1dnshift{    % usage: x y roll1dnshift
+%%postscript    M 5 -9 RM 9 3 RL 0 -2 RL -9 -3 RL fill}!
+%%deco r1ds 1 roll1dnshift 0 0 0
+% -- tremolo sign in an downward stem
+%%postscript /repst{	% usage: x y repst
+%%postscript	M -3 -13 RM 9 3 RL 0 -3 RL -9 -3 RL fill}!
+% -- tremolo on stem
+%%deco / 1 repst 0 0 0
+% -- cresc / decresc / dimin
+%%postscript /crdc{	% usage: str x y crdc - cresc, decresc, ..
+%%postscript	/Times-Italic 14 selectfont
+%%postscript	M -6 4 RM show}!
+%%deco cresc 6 crdc 20 2 14 Cresc.
+%%deco decresc 6 crdc 20 2 20 Decresc.
+%%deco dimin 6 crdc 20 2 14 Dimin.
+%%deco mp 6 pf 20 2 5 mp
+%%postscript /tr2 {	% usage: x y t2ub - mordent ending with an upper bar
+%%postscript	2 copy umrd 0.6 setlinewidth
+%%postscript	M 5 4 RM 0 6 }!
+%%deco tr2 3 tr2 12 5 5
+% -- draw octava indication
+%%postscript /octava{	% usage: len x y octava
+%%postscript	exch -10 add exch 2 copy
+%%postscript	M 0 10 RM /Times-Roman 16 selectfont (8) show
+%%postscript	/Times-Roman 12 selectfont (va) show
+%%postscript	M 0 6 RL currentpoint stroke M
+%%postscript	[6] 0 setdash 30 add 0 RL currentpoint stroke M
+%%postscript	[] 0 setdash 0 -6 RL stroke}!
+% -- start / stop of octava indication
+%%deco 8( 5 - 24 0 0
+%%deco 8) 5 octava 24 0 0
+%
+
+X:1
+T:Washington's Artillery March
+C:Trad.
+M:2/4
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+P:1st Fife
+f/e/|dd AA|BB Ad|c/d/e/f/ gf|Tf2ef/e/|\
+dd AA|BB Ad|c/d/e/f/ g/f/e/d/|e2d::
+A|AA A/A/A|dA/A/ Af|gg ff|(Tf2e)A|AA A/A/A|\
+dA/A/ Ad|c/d/e/f/ g/e/d/c/|e2d::
+A|dA fA|dA/d/ fA|dA df|d2 ff|ge ea/g/|\
+fd dd|c/d/e/f/ g/e/d/c/|e2d:|
+P:2nd Fife
+z|FF FF|GG FD|A/B/c/d/ ed|(Td2 c)A/G/|\
+FF FF|GG FF|E/F/G/A/ B/A/G/F/|G2 F::
+A|AA A/A/A|dA/A/ Ad|ee dd|Td2 cA|\
+AA A/A/A|dA/A/ AF|E/F/G/A/ B/G/F/E/|G2 F::
+A|dA fA|dA/d/ fA|dA df|d2 dd|\
+ec cf/e/|dF AF|E/F/G/A/ B/G/F/E/|G2 F:|
+
+X:2
+T:American Patriot
+M:C
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+GA|B2G2B2d2|edcB A3B|c2A2c2e2|dcBA B2 G/A/B/c/|d2B2g2d2|e2ee e2 dc|B2AG ecBA|G2F2G2::
+(3def|g2d2B2G2|FGAB A2BA|G2B2d2g2|edcB A3B|c2A2c2e2|dcBAB2dc|B2AG ecBA|G2GG G2:|
+
+X:3
+T:Lilliburlero
+M:6/8
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+G|:GAG B2B|ABA c3|BdG c2B|AGF G3:|g2f g2d|de=f e2e|
+def gde|dcB A2d|edc Bcd|edc Bcd|egG c2B|AGF G3||
+
+X:4
+T:March On
+M:C
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+GA|BGBd g2fe|d2de d2cB|cBcd ecBG|A2 A>A A2GA|BGBd g2fe|
+d2de d2cB|Aedc B2A2|G2 G>G G2::GA|BGBG BdcB|AFAF ABcA|BGBd gdBG|
+A2 A>A A2 GA|BGBd g2fe|d2de d2cB|Aedc B2A2|G2G>GG2:|
+
+X:5
+T:Over the Hills and Far Away
+M:2/4
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+df/e/ d/e/f/e/|dB B>A|df/e/ d/e/f/d/|ge e>A|df/e/ d/e/f/e/|dB g>B|BA/G/ Af|ge e2||
+a>g fe|dB Af/g/|a>g fe/d/|ge ef/g/|a>g fe|dB Hg2|BA/G/ Af|ge ez|]
+
+X:6
+T:Queen of Hearts
+M:C|
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+B2|cd e2e2 dc|Bcde d2B2|cd e2e2 dc|Bcde d3B|c2d2e2f2|g2e2d3c|B2AGA2GF|G2GG G2::
+g2|f2d2d2ef|g2dBG2g2|f2d2defg|a2aa a3g|f2d2d2ef|g2e2d3c|B2AGA2GF|G2G2G2:|]
+
+X:7
+T:I Was One Day at Whapping
+M:C
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+D2|G2BG d2Bd|g2eg d2BG|A2Dc BdBG|D2GB c2AD|G2BG d2Bd|g2eg d2BG|A2Dc BdBG|E2FA G2::
+D2|c2Ac B2GB|c2AG FDz2|c2BA Bdef|gedc d3D|G2BG d2Bd|g2eg d2BG|A2Dc BdBG|E2FA G2:|
+
+X:8
+T:Dutch Fusiliers
+M:C
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+D|GBdc B2AG|BA GF G2D2|GB dc B2 AG|BAGF G3:|z|:B2Bc A4|GB dcB4|
+d2ef gd ec|B2A2G4|B2Bc A4|GB dc B4|d2ef gdec|Bd AF G4::Bddd ceee|
+defd g2g2|Bddd ceee|defd g4::B3c d4|efge e2d2|B3cd2B2|ec AF G2G2|
+B3c d4|efge edcB|B3c d2B2|ec AF G4:|
+
+X:9
+T:Successful Campaign
+M:C|
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+G2GB A2Ac|BGBd g4|gfed fedc|cBAG FAFE|G2GBA2Ac|BGBd g4|gfed efga|f2Te2d2z2::
+d3fe2d2|c2B2d2A2|c3e d2c2|B2A2B2A2|G2GB A2Ac|BGBd g4|gfed efga|B2TA2G4:|
+
+X:10
+T:Paddy Whack
+M:6/8
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+D|(GB)d gfg|(ed)c BAG|(GB)d gfg|fdd def|geg fdB|cec dBG|GBd cAc|BGG G2::
+z|BBB ccc|gdG TA2G|Bcd efg|fdd d2e/f/|geg fdB|cec dBG|GBd cAc|BGG G2:|
+
+X:11
+T:Shiley Me Gile
+M:6/8
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+D|G2G GBG|BAB c2c|dcB ABc|BAB G2D|G2G GBG|BAB c2e|dcB ABc|BGG G2::
+z|Bcd gag|BBB B3|efg aba|ddd d3|Bcd gag|dcB A2e|dcB ABc|BGG G2:|
+
+X:12
+T:Rule Brittania
+M:C
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A|d2d2 (d/e/f/g/ a)d|e3 (f/g/ f2)zA|(d/e/d/e/ f/g/f/g/ a)efe|(de/f/) ed c2zA|
+cAec a^g/f/ (e/f/)(c/B/)|A2 B>A A2 z2|d2 d>A BG zd|g>fed c2 ze|a2g2 (f/d/g/e/) ag|
+f2e2d4|:f2zf gg zf|g>f ed c4|a2g2(f/d/g/e/) ag|[1 f2e2d4:|[2 f2e2d3||
+
+X:13
+T:Governor King's March
+M:C
+L:1/16
+K:D
+P:1st Fife
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+D2>F2|A4 A2>A2 A4 GFED|B4 B2>B2 B2>c2d2>B2|B2A2F2A2 A2G2G2F2|E4 E2>E2 E4 D2>F2|A4 A2>A2 A4 GFED|B4 B2>B2 B2>c2d2>B2|
+B2>A2F2>A2 A2>G2F2>E2|D4 d2>d2 d4::A2A2|d2AA A2A2 e2AA A2A2|d2AA e2AA f2AA A2A2|g2AA A2A2 f2AA A2A2|
+(ef)(ed) (cd)(cB) (AB)(AG) (FG)(FE)|A4 A2>A2 A4 GFED|B4 B2>B2 B2>c2d2>B2|B2>A2F2>A2 A2>G2F2>E2|D4 d2>d2 d4:|]
+P:2nd Fife
+D2>F2|F4 F2>F2 F4 BAGF|G4 G2>G2 G2>A2B2>G2|G2F2D2F2 F2E2E2D2|C4 C2>C2 C4 D2>D2|F4 F2>F2 F4 BAGF|G4 G2>G2 G2>A2B2>G2|
+G2>F2D2>F2 F2>E2D2>G2|F4 F2>F2 F4::A2A2|F2FF F2F2 C2CC C2C2|F2FF C2CC D2FF F2F2|E2CC C2C2 D2FF F2F2|
+(cd)(cB) (AB)(AG) (FG)(FE) (DE)(DC)|F4 F2>F2 F4 BAGF|G4 G2>G2 G2>A2B2>G2|G2>F2D2>c2 c2>B2A2>G2|F4 F2>F2 F4:|]
+
+%%%newpage
+X:14
+T:Northwest Passage
+M:6/8
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+B|A2A ABc|d2d d2e|f2d e2d|fed B2d|A2A ABc|D2e f2e|afd efe|d3-d2::f|
+g2b g2e|f2a f2d|eed ffd|B3 d3|A2A ABc|d2e F2g afd efe|d3-d2::z|
+D3 F2G|Afe dBA|D3 F2b|afd e3|D3 F2G|Afe dBA|B2B A2b|afd e2:|
+
+X:15
+T:Slow Troop 3/4
+M:3/4
+L:1/4
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A/>G/|FGA|Afe|dBB|B2 A/>G/|FGA|Ade|fdd|d2A/>G/|FGA|Afe|
+dBB|B2 A/>G/|FGA|Ade|fdd|d2 d/>e/|fdf|a2 f/>d/|fee|e2 d/>e/|fgf|
+ede|fdB|B2 A/>G/|FGA|Afe|dBB|B2 A/>G/|FGA|Ade|fdd|d2||
+
+X:16
+T:Slow March 4/4
+M:4/4
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+F>G|A4 BcdB|A2 d>d d2e2|f2 e>f g2f2|e2e>e e2F>G|A4 BcdB|A2d>d d2e2|
+fage d2c2|d2d>dd2::a>g|fd/d/dd dfaf|g2A>A A2g>f|eA/A/AA Aceg|
+f2d>d d2F>G|A4 BcdB|A2d>d d2e2|fage d2c2|d2d>dd2:|
+
+X:17
+T:Essex March
+M:2/4
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d2dc|B3A|GBAG|A2D2|GBAc|Bcdf|B2cA|!fine!G4::d2dB|
+e2ed|cBcA|d3c|BBAG|ggff|eed^c|d4!D.C.!||
+%%%newpage
+
+X:18
+T:Haste to the Wedding
+M:6/8
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A|AFA Aaf|ede feB|AFA AGF|GFG EFG|AFA Aaf|ede fdB|AFA faf|d3 d2::
+a|afa afa|bgb bgb|afa agf|gfg efg|a3 f3|ede fdB|AFA Aaf|edc d2:|
+
+X:19
+T:Granny, Will Your Dog Bite
+M:2/4
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d>A FA|GBFG|d/c/d/A/ FA|Bc d>d|d>A FA|GBFA|d/c/d/A/ FA|Bc d2::
+d/c/d/e/ fa|gfec|d/c/d/e/ fa|gf ef/g/|a/b/a/f/ ge|fdef|d/c/d/A/ FA|Bc d2:|
+
+X:20
+T:Fifer's Masterpiece
+M:2/4
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+EA/B/ cB/A/|eA/B/ cB/A/|EG/G/ Gg|EG/A/ BG|Ec Bd|ce df|ea e/d/c/B/|cA/A/ Ae::
+ea ea|B/G/B/d/ e2|Bg Bg|e/d/e/f/ g2|ea ea|ge/g/ fd|Bg e/d/c/B/|cA/A/ A2:|
+
+X:21
+T:Pennsylvania Quick Step
+M:C|
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+dB|A2 FA F2 ED|F2 AF D2 dB|A2 FA F2 ED|F2 E>E E2 D/E/F/G/|A3B AGFE|
+D/E/F/G/ AG A2 fe|d3B BA (3GAB|A2 D>D D::(3ABc|d2 f2 e2 f2|d2 f2 a2 (3ABc|
+dcde defg|a2 AB A2 (3ABc|d2 f2 e2 g2|f2 a2 e2 f2|d3B BA (3GAB|A2 D>D D2:|
+
+X:22
+T:York Fusiliers
+M:2/4
+L:1/16
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+D4 F2A2|d2ef g2e2|f2d2 c2d2|edcB AGFE|D4 F2A2|d2ef g2e2|f2d2 cdec|d8::
+f2e2 e4|f2a2 a4|f2a2 f2d2|edcB ABcd|f2e2 e4|f2a2 a4|f2a2 f2d2|e8::
+D2A2 A4|D2B2 B4|A2B2 AGFE|D2d2 c2d2|D2A2 A4|D2B2 B4|A2B2 AGFE|TE4 D4::
+A2>G2 F2d2|A2>G2 F2d2|B2A2 G2F2|EDEF E4|A2>G2 F2d2|A2>G2 F2d2|B2b2 fdec|d2d2 d4:|
+P:2nd Fife
+D2F2 D2F2|F2Ad e2c2|d4 e2f2|gfed fedc|d2F2 D2F2|F2Ad e2c2|d2F2 EFGE|F8::
+d2c2 A2c2|d2f2 f4|d2f2 a2f2|gfed cdef|d2c2 A2c2|d2f2 f4|d2f2 a2fd|c8::
+dfef dfef|dfge d2g2|e2d2 fedc|d2f2 e2f2|dfef dfef|dfge d2g2|e2d2 fedc|Tc4 d4::
+F2>E2 D2F2|F2>E2 D2F2|G2F2 E2D2|cdcd c4|f2>e2 d2f2|f2>e2 d2f2|B2ge dBcA|f2f2f4:|
+
+X:23
+T:Turkish March
+M:2/4
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+a>g ff|f>e dd|ed ec|d/e/f/e/ d/e/f/g/|a>g ff|f>e dd|ed ec|d2 d2!fine!:|
+e2 f2|gg/f/ ee|f2 g2|aa/g/ fa|ag gf|ag gf|ab/a/ gf|Tf2 e2!D.C.!||
+P:2nd fife
+f>e dd|A>G FF|GF GE|FGAG FAde|f>e dd|A>G FF|GF GE|F2 F2!fine!:|
+cA dA|e/c/e/c/ c/A/c/A/|d2 e2|ff/e/ df|fe ed|fe ed|fg/f/ ed|Td2 c2!D.C.!||
+
+X:24
+T:Duke of York (Short Troop)
+M:3/8
+L:1/16
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+(3(def)|g2d2d2|d3(edc)|B2G2G2|G3(BAG)|(F2A2)A2|(G2B2)d2|(d2c2)B2|{B}A3 (def)|g2d2d2|d3(edc)|
+B2G2G2|G4 d2|e2(ge)(ge)|d2(Bd)(Bd)|c2(AF)(AF)|G4::G2|(F2A2).A2|(G2B2).B2|(A2c2).c2|B3(dBG)|
+F2(AF)(AF)|G2(BG)(BG)|A2(cA)(cA)|B4 (3(def)|g2d2d2|d3(edc)|B2G2G2|G4d2|(ed)(ef)(ge)|
+(fg)(af)(gd)|.c2.A2.F2|G4::z2|(B2d2)d2|(^d2e2)e2|(A2c2).c2|(^c2d2)d2|G4 (FA)|G2B2d2|(gd)(gd).B.G|D6|
+(B2d2)d2|(^d2e2)e2|(A2c2).c2|(^c2d2)d2|(gf)(gf)(e^d)|(ed)(cB)(AG)|(ce)(dB)(cA)|G4:|
+P:2nd fife
+z2|B2B2B2|B3(cBA)|G2G2G2|G3(GFE)|(D2F2).F2|(D2G2).B2|B2A2G2|{G}F2z2|B2B2B2|B3(cBA)|G2G2G2|
+G4 B2|c2(ec)(ec)|B2(GB)(GB)|A2(FD)(FD)|G4::z2|D2D2D2|D2D2D2|D2D2D2|G4z2|D2D2D2|D2D2D2|D2D2D2|G4z2|B2B2B2|
+B3(cB)A|G2G2G2|G4B2|c6|(ABc)A3|.A2.F2.A2|G4::z2|(G2B2).B2|(B2c2).d2|(F2A2).A2|(^A2B2).B2|B4 (AF)|
+G4 G2|B4 G2|D6|(G2B2)B2|B2c2c2|(F2A2)A2|(^A2B2)B2|B4G2|(cB)(AG)(FE)|(Ac)(BG)(AF)|G4:|
+
+X:25
+T:Merry Men Home from the Grave
+M:6/8
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+D|G2B BAB|GBd def|gfg edB|dcA A2B|G2B BAB|GBd def|gfg edB|dBG G2::
+d|def gfg|dag fed|def gfg|a2A A2B|G2B BAB|GBd def|gfg edB|dBG G2:|
+
+X:26
+T:The Duke of Kent's March
+M:2/4
+L:1/8
+K:D
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:A|d>e d>e|f>g fd|a>g g/f/e/d/|c/d/e/c/ A/B/c/A/|d>e d>e|f>g fe|g>f f/e/d/c/|ddd::
+f|e/d/c/B/ AB|cdef|g>e f>d|e/d/c/B/ Af|e/d/c/B/ AB|cdef|g>e f>d|a2 g/f/g/e/|
+d>e de|f>g fd|g>f f/e/d/c/|ddd::d/e/|f>g fe|d/e/c/d/ BF|B/^A/B/c/ d/c/d/e/|fFF d/e/|
+f>g fe|d/e/c/d/ Bg|fedc|B2 A/B/A/G/|F>G Ff|edcB|AB/c/ dF|E2D:|
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:A|F>G F>A|d>e dA|f>d e/d/c/B/|AAAG|F>G F>G|d>e dA|e>d AA|dDD::
+d|c/B/A/^G/ AA|ABcd|e>c d>B|(ce)(ed)|c/B/A/^G/ AB|ABcd|e>c d>B|(cA)(BG)|
+F>G FA|d>e dA|(BA)(cA)|dDD::B/c/|d>e dc|B^A BF|B/^A/B/c/ d/c/d/e/|fFF B/c/|
+d>e dc|B^ABe|dcB^A|B2 A/B/A/G/|D>E Dd|cBAG|FE F/E/D/C/|(C2D):|
+
+X:27
+T:Oswestry Volunteers March
+M:2/4
+L:1/16
+Q:1/4=70
+K:G
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:GA|B2B>B B2G2|.G.F.G.A Bcdc|B2B>B B2A2|G2G>G G2gg|(gG)AB cdec|Bdef gf/e/dc|
+BB/c/dB AcBA|{A}G2GG G2::Bc|d2d>d d2(ed)|d2AA A2ag|gfed edef|g2gg g2fe|
+d4 cBcA|B4 AGAF|G>AB>c (de)(cA)|G2G>G G2::!p!Bc|.d.d(dB) .c.c(cA)|B2GG G2gf|
+e2ee egfe|dcBc d2c2|BB/c/dB edcB|AA/B/cA dcBA|GABc decA|G2GG G2:|
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:D2|G2G>G G2D2|GDEF GABA|G2GG G2D2|G2GG G2BB|B2AG ABcA|B2A2G2F2|
+GG/A/BG FAGF|G2GG G2::^GA|B2^GG B2cB|A2AA A2c>B|BAGF GFED|G2GG G2A2|
+B4 AGAF|d4 cBcA|G>AB>c BcAF|G2GG G2::!p!GA|.B.B(BG) .A.A(AF)|G2GG G2B2|
+c2cc cedc|BAGA B2A2|GG/A/BG cBAG|FF/G/AF BAGF|GFGA BcAF|G2GG G2:|
+
+X:28
+T:Finale British Laurels
+M:2/4
+L:1/16
+K:D
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:A2|d4 e4|f2>g2 a2g2|f2e2d2c2|d4 z2A2|BAGB AGFA|GFED A2c2|
+dcde f2e2|d4 z2::f2|e2>f2 g2f2|edcB A2g2|f2>g2 a2g2|fedc d2A2|BAGB Adcd|
+BAGB Adcd|f2ed a2e2|d4 z2::AG|FGAF DEFD|GABG EFGE|FDEF GABc|
+d2cB AGFE|FGAF DEFD|GABG EFGE|FDEF GABc|d2d2d2:|
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:A2|d4 e4|f2>g2 a2g2|f2e2d2c2|d4 z2A2|BAGB AGFA|GFED A2c2|
+dcde f2e2|d4 z2::d2|c2>d2 e2d2|cBA^G A2e2|d2>e2 f2e2|d2A2F2A2|BAGB Adcd|
+BAGB Adcd|f2ed a2e2|d4 z2::AG|FGAF DEFD|GABG EFGE|FDEF GABc|
+d2cB AGFE|FGAF DEFD|GABG EFGE|FDEF GABc|d2d2d2:|
+
+X:29
+T:Duke of York March
+M:C|
+L:1/8
+K:D
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:D2 D>D F2 F>F|A>F A>F D2 A2|d>A d>A DA FD|A2 A>A A2 z2|a3 f d2 d2|e2 e>g f3 a|a3 f fd gf|
+e2 e>e e2 z2::A2 A>A (Ae f)g|A2 A>A (Ad f)a|(ge) ee (fd) dd|b(a gf) (f2 e2)|d3 f/e/ dA B=c|
+=cB B4 (c/d/e/f/)|.g.g .f.f .e.e .d.d|e2 e>e e2 z2|D2 D>D F2 F>F|AF AF D2 g2|(fa) (af) (ge) (dc)|d2 d>d d2 z2:|
+%P:2nd fife
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:D2 D>D F2 F>F|A>F A>F D2 A2|d>A d>A DA FD|A2 A>A A2 z2|(DF) .A.A (DF) .A.A|(EG) .A.A (DF) Ad|
+f3 d (dB) (ed)|A2 A>A A2 z2::A2 A>A (Ac d)e|A2 A>A AF (Ad)|(cA) AA dd dd|(gf) ed (d2 c2)|F8|
+G6 (A/B/c/d/)|.e.e .d.d .c.c .B.B|A2 A>A A2 z2|D2 D>D F2 F>F|AF AF D2 B2|A4 BG FE|F2 F>F F2 z2:|
+
+%%%newpage
+X:30
+T:Rondeau
+C:Mouret ca. 1716
+M:C|
+L:1/8
+U:L=!tenuto!
+K:G
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+BA|:.G2 .D2 .G2 .A2|BcBA GABc|Ld2 dd Ld2 Le2|d3 c B2 Bc|d2g2 d2d2|B2 AB cdBc|
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+dc|:.B2 .B2 .B2 .D2|GAGF GFGA|LB2 BB LB2 Lc2|B3 A G2 GA|BdcB AGFE|D2 FG ABGA|
+V:3
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+z2|:d6           F2|G6     g2|g6          g2|d6      BA|G4   A4  |B4    F2d2|
+V:1
+[1 A2 z2 A2 AA|A6       BA:|[2 AdcB (A3 G)|!fine!G6 Bc||d2 dd d2 d2|B2 G2 BABc|d2 z2  A2 B2|
+V:2
+[1 F2 z2 F2 FF|F6       dc:|[2 FBAG (F3 G)|!fine!B6 G2||A2 FG A2 G2|z4    GFGA|B2 AB (CB)AG|
+V:3
+[1 d2 z2 d2 dd|d2 FG A2 F2:|[2 d4    c2 A2|!fine!d6 G2||F2 DE F2 A2|d4    G2d2|G2 z2  F2 G2|
+V:1
+ F2 FG A2 Bc|d2 dd d2 d2|B2 G2 BABc|d2 dd d2G2|d6  !D.C.!||  
+V:2
+(AG)FE d2 z2|A2 FG A2 G2|B2 G2 GFGA|B2 AB cBAG|D3 D/E/ F2||
+V:3
+ D2 DE F2 G2|F2 DE F2 A2|d4    G2d2|d2 g2 a2g2|f3 f/f/ f2||
+
+%%%newpage
+X:31
+T:Captain Macintosh
+M:2/4
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A|d>e d>e|cA AA|d>e d>f|a3 f|bg    ge|af    fd|ef ge|dc BA|
+  d>e d>e|cA AA|d>e d>f|a3 f|bg    ge|af    fd|ge ec|d2-d::
+d|a>b a>b|ge ef|g>a g>a|f3 d|Ad/e/ fd|Be/f/ ge|bg ed|dc BA|
+  d>e d>e|cA AA|d>e df |a3 f|bg    ge|af    fd|ge ec|d2-d:|
+P:2nd Fife Harmony
+F|F>G F>G|EF EF|F>G  Fd|fd fd|ge    ec|fd    AF|GA BA|BA GF|
+  F>G F>G|EF EF|F>G  Fd|fd fd|ge    ec|fd    AF|BG GE|F2-F::
+d|f>g f>g|ec cd|e>f e>f|dA dF|GF/G/ AF|GG/A/ BG|ge cd|BA GF|
+  F>G F>G|EF EF|F>G  Fd|fd fd|ge    ec|fd    AF|Bc AG|F2-F:|
+
+X:32
+T:Fifer's Delight
+M:6/8
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d|(gfg) GBd|(gfg) G3|(gfg) edB|BAG A3|(gfg) GBd|(gfg) a2La|Lbdd def|Lg2LG LG2::
+G|B2d d^cd|Lg2G G3|B2d d^cd|e2A A3|B2d d^cd|gfg a2La|LBdd def|Lg2LG LG2:|
+
+%%%newpage
+X:33
+T:Ah, Ca Ira
+M:2/4
+L:1/16
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d2(de) d2(de)|d2(de) d4|defg a2(ba)|(ag)(gf) (f2e2)|d2(de) d2(de)|d2(de) d4|defg a2ba|
+f2Te2 d4!fine!:||f2af gfed|cdec d2A2|f2af gfed|def^g a4|A2AB A2AB|A2AB A4|
+ABcd e2(fe)|(ed)(dc) c2B2|A2AB A2AB|A2AB A4|ABcd ecfd|c2A2 A4|
+agfe ^d2d2|^d2d2 e4|gfed c2c2|c2c2 d4|e2f2 g2gf|g2a2 f2d2|e2f2 g2gf|edcB A4!D.C.!||
+
+X:34
+T:Janizary's March
+M:2/4
+V:1 up
+V:2 down
+%%staves (1 2)
+L:1/8
+Q:1/4=70
+%%MIDI ratio 3 1
+K:D
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:A|d>f e>g|f>g aA|Bg/e/ ca|f>e dA|d>e ff| B>c dd|cd/B/ A^G|
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:A|F2  A2 |d>e fF|G2    A2|d>A FA|F>G AA|^G>A BB|FG    EE |
+V:1
+c>B AB| cB cd|e>f ed|c/d/e/d/ cTB |AA/>A/ A::z/A/|AA//B//c//d// e>f|
+V:2
+EE  EE|A^G AB|c>d cB|A/B/c/B/  A^G|AA/>A/ A::x/A/|AA            c>d|
+V:1
+g/a/b/g/ e>G|GG//A//B//c// dTe|f/g/a/f/ da|ge/g/ fd/f/|f2 ee/f/|g>a bb|
+V:2
+e/f/g/e/ c>E|EE//F//G//A//  Bc|d/e/f/d/ Ff|e2    d2   |d2 cc/d/|e>f gg|
+V:1
+e>f gg|fg/e/ dc|fe de|fe fg|ab ag|f/g/a/g/ fTe|d d/>d/ d:|
+V:2
+c>d ee|dB/G/ FA|dA FA|dA de|fg fe|d/e/f/e/  dc|d F/>F/ F:|
+
+X:35
+T:Flowing Bowl
+M:2/4
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A/A/|dA FA|ddd d/d/|ee ea|(f2 d) A/A/|DA FA|ddd d/d/|ee ea|d2-d::
+z|f>f ff|gg LG2|e>e ee|ff Lf2|d>d dd|eB ed/d/|cA Bc|d2-d:|
+
+%%%newpage
+X:36
+T:First of September
+M:2/4
+L:1/16
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d2d2 d2cd|A2d2 A2f2|e2d2 c2B2|AGAB A4|FAdA FAdA|GBdB GBdB|ABAG FGFE|D4 D4::
+a2>b2 abag|f2d2 d2f2|g2f2 e2d2|cdec A4|a2>b2 abag|f2d2 d2f2|gbag fedc|d4 d4:|
+P:2nd Fife Harmony
+d2A2 F2EF|F6 d2|c2B2 A2G2|FEFG F4|F8|G8|FGFE dedc|d4 d4::
+f2>g2 fgfe|d2F2 F2d2|e2d2 c2B2|A8|f2>g2 fgfe|d2F2 F2d2|egfe AGFE|F4 F4:|
+
+X:37
+T:Sister's Jig
+M:6/8
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d|B2d (gfg|agf g2)d|B2d (gfg)|a2A A2d|B2d (gfg|
+agf g2)d|Bdd Add|B2G G2::G|B2d d2B|(=c2e) Le3|
+B2d (gfg)|a2A LA3|B2d d2B|(=c2e) Le3|Bdd Add|B2G G3:|
+
+X:38
+T:Three Hundred Years
+M:6/8
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A|B2c dcB|c2d edc|add dcd|ecB A2A|d2e fed|
+e2f gfe|add dcd|edc d2::A|ABA AFA|dcB A2LF|
+La2f Lg2e|LfLaLf Le2A|ABA AFA|dcB A2LF|La2d dcd|edc d2:|
+
+%%%newpage
+X:39
+T:Soldier's Return
+M:C
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+de|f2 A>B A3d|BABd e2 de|f2A2 gfed|B3c d2 de|f2 A>B A3d|BABd e2 de|f2A2 gfed|B3c d2::
+A|defg a3a|bagf e3A|defg abag|f3g a2 A2|defg a2 fa|bagf e2 de|f2 A2 gfed|B3c d2:|
+
+X:40
+T:New 6/8
+M:6/8
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+AAA AGA|d2e f2g|afd ede|fed Bcd|AAA AFA|d2e f2g|afd edc|d3 z3::
+ggg gab|fff fga|eee ede|fed Bcd|AAA AFA|d2e f2g|afd edc|d3 z3:|
+
+X:41
+T:Finnegan's Wake
+M:2/4
+L:1/8
+U:H=!tenuto!
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d|B>B BA|Bd ed|g/g/g/g/ ge|dB HA2|B>B BA|Bd ed|g/g/g/g/ gd|efg::
+Ld|Lg>f ga|gf ed|Lg>f ga|gf He2|Lg>f ga|gf ed|e/e/e/e/ ed|efg:|
+
+X:42
+T:Willie Weaver
+M:2/4
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A|dd cd|ef d2|a>b ag|fga A/A/|dd cd|ef d2|e>d ce|d2 Ld::
+A/A/|defg|(Laf) d2|e>d ef|gfe A/A/|defg|(Laf)d Ld|Le>d ce|d2 Ld:|
+
+X:43
+T:Battle Hymn of the Republic
+C:Wm.Steffe
+M:6/8
+Q:1/8=270
+K:D
+%%staves (1 2)
+V:1 up
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:A|A2A A2G|F2A d2e|f2f f2e|d3 -d2c|B2B B2c|d2c d2B|A2B A2F|A3 -A2A|
+A2A A2G|F2A d2e|f2f f2e|d2z Ld3|Le3 Le3|Ld3 Lc3|Ld6-|d2z z3||
+A3 -A2G|F2A d2e|(Lf6|d3) -d2z|B3 -B2c|d2c d2B|(LA6|F3) -F2z|
+A3 -A2G|F2A d2e|(Lf6|d2)z Ld3|Le3 Le3|Ld3 Lc3|Ld6-|d2z z2:|
+V:2 down
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:F|F2F F2E|D2F F2G|A2A A2G|F3 -F2A|G2G G2A|B2A B2G|F2G F2D|F3 -F2F|
+F2F F2E|D2F F2G|A2A A2G|F2x LF3|LG3 LG3|LF3 LE3|LF6-|F2x x3||
+F3 -F2E|D2F F2G|(LA6|F3) -F2x|G3 -G2A|B2A B2G|(LF6|D3) -D2x|
+F3 -F2E|D2F F2G|(LA6|F2)x LF3|LG3 LG3|LF3 LE3|LF6-|F2x x2:|
+
+X:44
+T:Dixie
+C:Daniel Emmett
+M:2/4
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d/B/|GG G/A/B/c/|dd dB|ee e>d|e>d e/f/g/a/|b3 g/d/|g3 d/B/|d3 A/B/|G2 z:|
+d|gb a>g|e g2 e|a3 e|a3 d|gb a>g|ef g>e|dB gB|B A2 B|
+G3 B|A3 c|dB g>b|a g2 B|G3 B|A3 e|dB b>g|a g2||
+
+X:45
+T:Marching Through Georgia
+C:1865 Henry C. Work
+M:2/4
+Q:1/4=100
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+z2|f>e de|fA AA|B>c de|d4|F>G AA|BA Bd|e>d ef|e4|
+Sdd ef|gB BB|Ad de|f3 f|e2 e>e|ee fe|d4|d2!fine!|]z f|
+a3 f|a3 f|d>e dB|d3 f|a3 f|a3 f|e>d ef|e4!D.S.!|
+%dd ef|gB BB|Ad de|f3 f|e2 e>e|ee fe|d4|d4!D.S.!|
+
+%%%newpage
+X:46
+T:Old Dan Tucker
+M:2/4
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A|dddc|ddd A/A/|ddef|AA B (3(A/B/c/)|dddc|dddA|dd ef|AAB::
+z|Lf2 Laz/f/|ed Bd|e>e ef|AA Bd|Lf2 Laz/f/|ed Bd|e>e ef|ABd :|
+
+X:47
+T:Kingdom Coming
+M:2/4
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+F/E/|DF FA|Af Lf/e/d/B/|Ad dF|E2-E (F/E/)|DF FA|
+Af Lf/e/d/B/|Ad e>d|d2-d||A|B>B Bd|A>B A/G/F/G/|AF dF|
+E2-E F/E/|DF FA|Af Lf/e/d/B/|Ad e>d|d2-d|:!ff!A|B>c d>c|
+d2-d B|A>B A>F|A2-A A|LDF/F/ LFA/A/|LALf Lf/e/d/B/|Ad Le>d|d2-d:|
+
+X:48
+T:Golden Slippers
+M:2/4
+L:1/8
+%%staves (1 2)
+K:D
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d/e/|fff d/e/|fff d/e/|ff f/e/f/g/|fee c/d/|eee c/d/|eee c/d/|
+a>a fe|d2 z:|z|A3 d|fe dc|B3 e|gf ed|c>c cd|
+e>e ec|d>c de|f (aLba)|A3 d|fe dc|B3 e|
+gf ed|c>c cd|e>e eg|f>g fe|d2 z|]
+V:2 down
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+x|x4|x4|x4|x4|x4|x4|eg fe|x3:|x|
+x4|x4|x4|x4|x4|x4|x4|x4|x4|x4|x4|x4|x4|x4|x4|x3|]
+
+%%%newpage
+X:49
+T:Bonnie Blue Flag
+M:6/8
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d|B2B B2B|c2c c2c|d2d B2G|A3-A2 d|g2g f2g|e2d B2G|A2G G2F|G3-G2::
+d|Lg3-g2 d|Lf3-f2 d|e2e f2e|d3-d2 d|g2d d2d|f2e d2c|B2c B2A|G3-G2:|
+
+X:50
+T:Blue Bells of Scotland
+M:C
+L:1/4
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d|g2 f e|d2 e f/g/|B B c A |G2-G d|g2 f e|d2 e fg|B B c A|G2-G||
+d|B G B d|g2 e f/g/|f d e ^c|d2 e f|g2 f e|d2 e f/g/|B B c A|G2-G||
+
+X:51
+T:One Hundred Pipers
+M:6/8
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+GA|B2D DDD|E2F G2e|d2B BAG|ABA AGA|B2D DDD|
+E2F G2e|d2B ABA|G3-Gz::Bc|d2d dBd|e2f g2e|d2B BAG|
+ABA ABc|d2d dBd|e2f g2e|d2B ABA|G3-Gz:|
+
+X:52
+T:When Johnny Comes Marching Home
+M:6/8
+L:1/8
+K:Bm
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+B|FBB B2c|d2c d2B|A3-A2F|A3-A2B|FBB B2c|d2c d2e|f3-f2d|
+f3-f de|f2f fed|e2e e2c|d2d dcB|c2c c :"tag"de|f3 e3|d3 c3|FBB B2^A|B3-B2||
+
+%%%newpage
+X:53
+T:Power of Whiskey
+M:6/8
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+(3(ABc)|ded dAF|ABA ABc|ded dAF|Eee efe|ded dAF|ABA A2g|fed dcB|ABc d2::
+A|dfa afd|cee ecA|dfa afd|Aaa a2A|dfa afd|cee efg|fed dcB|ABc d2::
+(3(ABc)|dAF dAF|ABA ABc|dAF dAF|Eee efe|dAF dAF|ABA A2g|fef dcB|ABc d2:|
+
+X:54
+T:Girl I Left Behind
+M:2/4
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+g/f/|ed BG|AG E>F|GG GB|(LD2B) (g/f/)|ed BG|AG E>G|FA DE/F/|LG2 LG::
+d|!crescendo(!Bdef!crescendo)!|(Lgd)B G/G/|!crescendo(!Bdef!crescendo)!|(Lg2f) (g/f/)|ed BG|A/B/A/G/ E>G|FA DE/F/|LG2 LG:|
+
+X:55
+T:Nelly Bly
+C:Stephen Foster
+M:4/4
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+FA A2 FG A2|F>G AB E3 G|FG A2 Bc d>d|cd ec d4::
+f2 dd B2 AA|BA FD E3 G|FG A2 Bc d>d|cd ec d4:|
+
+X:56
+T:Camptown Races
+C:Stephen Foster
+M:2/4
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d|dd Bd|ed B2|B A3|B A2 z/d/|dd Bd|ed B2|A2 BA|G3::
+z|G>G Bd|g4|e>e ge|d3 B/c/|dd Bd|ed B4|AB/c/ BA/A/|G3:|
+
+%%%newpage
+X:57
+T:Tenting To-Night
+C:Harmony by J. McDonagh
+M:C
+L:1/8
+K:D treble
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A2|f2 f>e d2 d>c|B2 d2  A2 z2|A A2 A G3  F |F6  A2|f2 f>e d3 c|B2 d2  A3 A|c3 c B2 A2|
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A2|A2 A>G F2 F>F|G2 G2  F2 z2|F F2 F E3  D |D6  A2|A2 A>G F3 F|G2 G2  G3 F|G3 G G2 G2|
+V:3
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A2|D2 D>D D2 D>D|E2 B,2 D2 z2|D D2 D C3 A,|A,6 A2|D2 D>D D3 D|E2 B,2 D3 D|E3 E D2 E2|
+V:4
+K:treble-8
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose -4
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A2|F2 F>F A2 A>A|E2 G2  D2 z2|D D2 D A3  D |D6  A2|F2 F>G A3 A|E2 G2  D3 D|A3 A G2 c2|
+V:1
+d6 z2|A<A A>A A2 GA|B B2 B B4|AAAA d3 d|E6 z2|f<f f>e d2 d>c|B<B B>d A3 d|
+V:2
+A6 z2|F<F F>F F2 EF|G G2 G G4|FFFF A3 A|A6 z2|A<A A>A A2 A>A|G<G G>G F3 B|
+V:3
+F6 z2|D<D D>D D2 DD|D D2 D D4|DDDD F3 F|G6 z2|F<F F>F F2 F>F|D<D D>D D3 D|
+V:4
+d6 z2|D8           |G8       |AAAA d3 d|c6 z2|D8            |G6        G2|
+V:1
+f3 f f3 e|d6 z2|A A2 A A4|B B2 B B4|AAAA B2 c2|A6 z2|]
+V:2
+A3 A A3 A|A6 z2|F F2 F F4|G G2 G G4|GGGG G2 G2|F6 z2|]
+V:3
+D3 D D3 G|F6 z2|D D2 D D4|D D2 D D4|EEEE D2 E2|D6 z2|]
+V:4
+D3 F A3 c|d6 z2|D D2 D D4|G G2 G G4|cccc G2 c2|D6 z2|]
+
+%%%newpage
+X:58
+T:When the Cruel War is Over
+C:Harmony by J. McDonagh
+M:4/4
+L:1/4
+Q:1/4=90
+K:G
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+G>A   B/G/D/B,/   |(C>D) E z|D  G  B A|D3 C|G>A   B/G/D/B,/   |(C>D) E z|
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+K:treble
+D>E   F/D/D/B,/   |(G>F) E z|B, D  G A|F3 z|D>E   F/D/D/B,/   |(G>F) E z|
+V:3
+K:treble
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+B,>B, B,/B,/B,/B,/|G,2   C z|B, B, E E|D3 z|B,>B, B,/B,/B,/B,/|G,2   C z|
+V:4
+K:treble-8
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose -4
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+G>G   G/G/G/G/    |E2    G z|G  G ^c c|D3 z|G>G   G/G/G/G/    |E2    G z|
+V:1
+D D D2  |G3  z|A>B c/F/G/A/|B>A G z|E F/G/ B>A|A2 ^A2|B >c  B/A/G/F/    |G2   E  z|
+V:2
+D D C C |D3  z|A,4         |D3    z|A,4       |F,4   |A,>A, A,/A,/A,/A,/|B,B,^C  z|
+V:3
+B,B,A,A,|B,3 z|F,4         |B,3   z|G,4       |A,2 E2|F,>F, F,/F,/F,/F,/|G,G,_B, z|
+V:4
+G G D D |G3  z|D4          |G3    z|E4        |D2 ^c2|^D>D  D/D/D/D/    |E E G   z|
+V:1
+D B B A |G3  z|c c E E |G2  D z|B>A G A/B/|c4      |G> A  B/G/D/B,/   |(C>D) E z|D>D D2 |F3  z|]
+V:2
+D2  C2  |B,3 z|C C C C |D D D z|D2  E2    |A,C B,A,|D> E  F/D/D/B,/   |(G>F) E z|D2  c2 |D3  z|]
+V:3
+B,2 B,2 |B,3 z|G,G,G,G,|B,B,B,z|B,2^C2    |F,4     |B,>B, B,/B,/B,/B,/|G,2   C z|B,2 A,2|B,3 z|]
+V:4
+G2  F2  |G3  z|E E E E |G G G z|G2  A2    |D4      |G> G  G/G/G/G/    |E2    G z|F2  F2 |G3  z|]
+
+%%%newpage
+X:59
+T:How Are You, Kitty?
+C:Played by V.C.A.
+M:6/8
+L:1/8
+K:Amix
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+(A/F/)|EAA cAA|eAA cAA|EAA cBA|dBB B2c|A3 cAA|eAA cBA|EFA Bcd cAA A2::
+(c/e/)|a3 gfe|cef ecA|EAA cBA|dBB Bce|a3 gfe|c2f ecA|EFA Bcd|cAA A2::
+(c/e/)|e2(a/e/) c2(e/c/)|A2(c/A/) E2z|A3 cBA|cBB B2(c/d/)|e2(a/e/) c2(e/c/)|A2 (c/a/)E2z|A3 Bcd|cAA A2:|
+
+X:60
+T:Doherty's Fancy
+C:Played by V.C.A.
+M:6/8
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+D|G3 BAG|dBG gdB|G3 BAG|AFD cAF|G3 BAG|dBG gdB|efg dBG|cAF G2::
+d|gfg efg|fag fed|gfg efg|agf g2(3(d/e/f/)|gfe dcB|edc BAG|efg dBG|cAF G2:|
+
+X:61
+T:Teddy O'Neill
+C:Played by V.C.A.
+M:6/8
+L:1/8
+K:Bm
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+F|FBc dcB|fBc dcB|fdB fdB|fgf edc|FBc dcB|fBc dcB|fff f2e|dBB B2::
+z|A2z G2z|FAd fed|cBc edc|dfe dcB|A2z G2z|FAd fed|cBc edc|dfe d2:|
+
+X:62
+T:How's Your Mother?
+C:Liberty F. & D. Corps
+M:6/8
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A|d2d f2f|a2a f2d|g2e f2d|cde ABc|d2d f2f|a2a f2d|g2e f2d|ABc d2::
+A|F2A E2A|F2A d2c|B2d A2d|cde A2G|F2A E2A|F2A d2c|Bed cBc|d2z d2:|
+
+%%%newpage
+X:63
+T:O'Gallagher's Hornpipe
+C:V.C.A.
+M:C|
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+(Bc)|d^ced =cBAG|BAGF GABc|dgfg edcB|AGFE D2(Bc)|d^ced =cBAG|
+BAGF GABc|dgfg ecAF|G2G2G2::(Bc)|dgfg edcd|e^def g2fg|
+edcB cBAG|AGFE D2(EF)|GFGB A^GAc|B^ABd efge|BdBG AcAF|G2G2G2:|
+
+X:64
+T:Daniel of the Sun
+C:V.C.A.
+M:6/8
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+(d/e/)|fdd {f}edd|fef dBA|(B<e)e e2d|(B<e)e e2(d/e/)|fdd {f}edd|fef dBA|(B<d)d d2A|(B<d)d d2::
+(d/e/)|f>ga e>fg|f>ef dBA|(B<e)e e^de|(B<e)e e2g|f>ga e>fg|fef dBA|(B<d)d d2A|(B<d)d d2::
+(d/e/)|Tf2d Tf2d|Tf2e dBA|Bee e2d|Bee e2(d/e/)|fdd edd|fef dBA|(B<d)d d2A|(B<d)d d2:|
+
+X:65
+T:Eddie Clapp 6/8
+C:V.C.A.
+M:6/8
+L:1/8
+K:G
+D|Gge dBG|AGA BGE|DGG AGA|BAA A2D|Gge dBG|AGA BGE|DGG AGA|BGG G2::
+d|dBd ege|dBd ege|dBd dBG|BAA A2d|dBd ege|dBd ege|def gdB|AGG G2:|
+
+X:66
+T:Bruce's Address
+C:Sailing Masters
+M:6/8
+L:1/8
+K:Amix
+A|A2A AFA|B2c d2c|BBB B2A|B2c d2e|f2g e2f|d2e fed|BBB BAF|A3 z2::
+f|f2f f2e|f2g a3|eee e2d|e2f g3|a2f e2f|d2e fed|BBB BAF|A3 z2:|
+
+%%%newpage
+X:67
+T:Bluff Reel
+C:S. Gooman
+M:2/4
+L:1/16
+K:G
+Bc|defg dBGB|cdec BcdB|ABcA GFGB|AGFE D2Bc|defg dBGB|
+cdec BcdB|ABcA GFGB|d^def g2::gf|eBBB eBef|gabg afdf|
+eBBB eBef|gbaf efge|dAAA dAde|fdec dcBA|B^cde fgag|fde^c d2:|
+
+X:68
+T:Key West Hornpipe
+C:S. Goodman
+M:2/4
+L:1/16
+K:G
+Bc|dBGB dgfg|dBGB dgfg|dBed cBAG|FAGE D2Bc|dBGB dgfg|
+dBGB dgfg|edcB AGFA|G2B2G2::cB|AFDF AcBA|BGDG BdGB|DGBd gdBG|
+Ad^ce d2ef|gbgd BdBG|cBcd edcB|cedc BAGF|G2B2G2:|
+
+X:69
+T:Morgan's Rattler
+M:6/8
+L:1/8
+K:G
+dcB ABc|BAB G2e|dcB ABc|e2d efg|dcB ABc|BAB G2d|gfg afd|e2d efg::
+G2g gfg|A2a a^ga|G2g gfg|e2d efg|G2g gfg|A2a a^ga|bag agf|[1 e2d efg:|[2 e2d e2z|]
+
+X:70
+T:Little Tea
+C:Played by V.C.A.
+M:6/8
+L:1/8
+K:D
+F/G/|Afe dcd|BGB e2d|cBc ABc|dfd A2F/G/|Afe dcd|BGB e2d|cBc ABc|d2f d2::
+F/G/|AFA dcd|BGB e2d|cBc ABc|dfd A2F/G/|AFA dcd|BGB e2d|cBc ABc|d2f d2:|
+
+%%%newpage
+X:71
+T:Dashing White Sgt.
+M:2/4
+L:1/16
+K:D
+dB|GFGA GABc|dcde dgba|g2e2d2B2|g2A2 A2dB|GFGA GABc|
+dcde dgba|g2e2f2d2|g2b2g2::fg|a2a2 abag|f2f2- fage|d2A2e2A2|
+dcde fgef|a2a2- abag|f2f2- fagf|d2A2e2A2|d2f2d2:|
+
+X:72
+T:Sgt. O'Leary
+M:6/8
+L:1/8
+U:H=!tenuto!
+K:D
+(3(A/B/c/)|:.d2d def|.d2d def|(LeA)A ALcLd|(LeA)A ALB(c|.d2)d def|.d2d def|(LeA)A ABc|[1 ddf dz (3(A/B/c/):|
+[2 ddf Ld2f|:La2f La2f|Hd2.d dLfLg|b2g b2g|He2.e Le2Lf|La2f La2f|Hd2.d def|(LeA).A .A.B.c|[1 .d.dLf Ld2Lf:|[2 LdLdLa Lb2z|] 
+
+X:73
+T:Garry Owen
+M:6/8
+L:1/8
+K:G
+(g/f/)|edc BAG|BcB B2(g/f/)|edc BAG|ABA A2(g/f/)|edc BAG|BcB B2c|def gdB|ABA A2::
+B/c/|d2B d2B|d2B d2(g/f/)|e2c e2c|e2c e2f|g2a b2a|gfe d2B|def gdB|ABA A2:|
+
+X:74
+T:Rory O'Moore
+M:6/8
+L:1/8
+K:G
+d|dGG BGG|dGG G2e|dcB BAG|FAA ABc|dGG BGG|dGG edc|Bcd def|gGG G2::
+g|gfe eBB|cBA G2F|EFG GAB|Bed def|gfe eBB|cBA G2F|EFG GAB|Bed d2:|
+
+%%%newpage
+X:75
+T:Irish Reel
+M:2/4
+L:1/8
+K:D
+a/g/|fd dd|fga g/f/|eA AA|A/B/c/d/ e a/g/|fd dd|fg a2|
+g/f/e/d/ c/d/e/g/|fdd::A/A/|df df|df g/f/e/d/|ce ce|ce a/g/f/e/|
+df df|d/e/f/g/ a2|g/f/e/d/ c/d/e/g/|fdd:|
+
+X:76
+T:Devil of Dublin
+C:Liberty F&D Corps
+M:6/8
+L:1/8
+K:Emin
+(E/F/|G2)B BAB|G2E E2G|F2A AGA|F2D DEF|G2B BAB|def gfe|dcB BAB|G2E E2::
+e|e2B BAB|d2B B2g|d2B BAB|G2E E2e|e2B BAB|def gfe|dcB BAB|G2E E2:|
+
+X:77
+T:Kinlin's Reel
+M:2/4
+L:1/8
+K:Bmin
+A|fB B/c/d/e/|fF f>f|eA A/B/c/d/|e/f/e/d/ ed/e/|fB B/c/d/e/|fF f2|fb f/g/f/e/|dB B::
+A|d>c d/e/f/g/|af d>d|ee e/f/e/d|c/A/c/e/ a2|BB B/c/d/e/|fF f2|fb f/g/f/e/|dB Bz:|
+
+X:78
+T:House of Duncan
+M:6/8
+L:1/8
+K:Edor
+E|E>FE G>FE|B>GF G>FE|D>ED D>FA|dcB AFD|E>FE G2A|B>GE G2A|(3(B/c/d/)B2 A>^GA|B>GE E2::
+e/f/|g>ab efe|g>ab e2e|f>ga ded|f>ga d2d|e>fg f>ga|g>ab e>fg|e>dB A>^GA|B>GE E2:|
+
+%%%newpage
+X:79
+T:Union Quick Step
+M:2/4
+L:1/16
+K:D
+(3(ABc)|d2d2 d2cd|ecAc e2e2|dcBc Acec|d2df a2gf|d2d2 d2cd|
+ecAc e2d2|dcBc Acec|d2f2d2::A2|g2g2 gfed|f2f2 fedc|e2e2 e2de|
+f6 af|d2d2 d2cd|ecAc e2d2|dcBc Acec|d2f2d2:|
+
+X:80
+T:Strassburg's Quick Step
+M:2/4
+L:1/8
+K:G
+d|gd gd|G>A Be|dB AG|EA AD|gd gd|G>A Be|dB A/G/A/B/|A2 z::
+d|gf ed|g2 Ge|d>B AG|EA Ad|g>f ed|g2 Ge|dB AGAB|A2 z:|
+
+X:81
+T:Hare in the Corn
+M:6/8
+L:1/8
+K:D
+A|BAB d2A|BAB d2A|BdB AFD|efe e2A|BAB d2A|BAB d2A|BdB AFA|dfd d2::
+A|F2A AFA|BGB AFA|BdB AFD|efe e2A|F2A AFA|BGB AFA|BdB AFA|ded d2::
+f|fdd edd|fdd d2A|BdB AFD|efe e2g|fdd edd|fdB AFA|DFA deg|fdd d2:|
+
+%%%newpage
+X:82
+T:Rakes of Kildare
+M:6/8
+L:1/8
+K:Ador
+E|EAA {B}AGA|Bcd e2f|gfg (e/f/g)e|dBA G2E|EAA {B}AGA|Bcd e2f|gfe dBG|A3 A2:|
+g|aea aea|aea b2a|{a}gfg (e/f/g)e|dBA G2a|aea aea|aea b2a|gfe dBG|A3 A2
+a|{b}aea {b}aea|{b}aea (b2a)|{a}gfg (e/f/g)e|dBg G2E|EAA {B}AGA|Bcd e2f|gfe dBG|A3 A2:|
+
+X:83
+T:Swallow's Tail
+M:6/8
+L:1/8
+K:Ador
+A/B/|cAA eAA|cAc edc|BGG dGG|gfg dcB|cAA eAA|
+cAc e2f|gfg dcB|cAA A2::z|ef^g a2b|a2b a=ge|ef^g a2b|
+a=ge g2z|ef^g a2b|a2b a=ge|gfg dcB cAA A2:|
+
+X:84
+T:McIntyre
+M:2/4
+L:1/8
+K:D
+A|d2 ef|A3 A|BG dB|A3 a|a3 a|ba fd|f e3|e2 zA|d2 ef|A3 A|
+BG dB|A3 a|a2 fd|e2 Ae|d4-|d2 z::f|g>f ga|bb af|ee de|f2 zf|
+g>f ga|bb af|e4-|e2 zA|d2 ef|A3 A|BG dB|A3 a|a2 fd|e A2 e|d4-|d2z:|
+
+%%%newpage
+X:85
+T:Spider 6/8
+M:6/8
+L:1/8
+K:D
+A|:f2e f2g|a2f d2A|(c3 B2)c|B3-B2 B|e2^d e2f|g2e c2A|B3 F2B|
+A3 ABc|d2c d2f|a2f g2f|e3 B3|B3-B2 B|e2^d e2f|g2e c2A|e3 d2c|
+d3-d2||A|f3- f2g|a3- a2d|e3 B3|B3- B2B|e2^d e2f|g2e c2A|(B3 F2)B|
+A3 ABc|d2c d2f|a2f g2f|e3 B3|B3- B2B|e2^d e2f|g2e c2A|e3 d2c|Ld z2 z2:|
+
+X:86
+T:Larry O'Gaff
+M:6/8
+L:1/8
+K:G
+(3(d/e/f/)|gGG BAG|ded dBG|cec BdB|ABc def|gGG BAG|ded dBG|cec BdB|AGA G2::
+d|dgg gag|gag afd|daa aba|aga bag|gba gfe|dge dBG|cBc Adc|BGG G2:|
+
+X:87
+T:Tatterjack
+M:6/8
+L:1/8
+K:D
+F|F>BB B2c|dcd fed|cA~A eA~A|ced cBA|FBB B2c|def b2a|fed cde|f^ef B2::
+f/g/|afg a2b|afg a2A|ABA cBA|ced cBA|F>BB B2c|def b2a|fed cde|f^ef B2:|
+
+X:88
+T:Fisher's Hornpipe
+M:2/4
+L:1/16
+K:D
+(3(ABc)|dAFA GBAG|FAFA GBAG|FDFD GEGE|FDFD E2 (3(ABc)|dAFA GBAG|
+FAFA GBAG|FGAB cAcA|d2d2d2::cd|ecAc ecge|fdAd fdgf|ecAc ecgf|
+edcB A2GA|BGDG BGdB|AFDF AFdA|BdcB AGFE|D2d2d2:|
+
+%%%newpage
+X:89
+T:Wind that Shakes the Barley
+M:2/4
+L:1/16
+K:D
+A2AB AGFE|B2{c}BA (B2d2)|A2AB AFED|gfed (B2d2)::f2fd g2ge|f2fd edBA|
+f2fd g2ge|afed (B2d2)|f2fd g2ge|f2fd ecBA|defg afba|gfed (B2c2):|
+
+X:90
+T:Dohm's Express
+M:2/4
+L:1/8
+K:D
+c|:df B>c|df B>d|ce Ac/d/|ec A>c|df B>c|df B>d|ce cA|[1 B2 B>c:|[2 B2 B2|
+|:b2 B/d/f/^a/|bb f>^g|ae A/B/c/d/|ec A2|b2 B/d/f/^g/|bb f>e|de f/e/d/c/|B2 B2:|
+
+X:91
+T:Red, White and Blue
+C:T. Beckett ?
+C:D. Shaw ?
+M:4/4
+L:1/8
+K:D
+A>A|d2 d>d e2 a>g|f d3 z2 A2|B2 ba gf ed|d4 c2 ze|e2 e>e e2 f>^g|a e3 z2 a2|
+^gf ed cB e>G|A4 z2 Ac|e2 e>e dc BA|A d3 z2 de|f2 f>f gf ed|e4 z2 df|
+a2 a>a gf ed|c B3 z2 ba|gf ed c2 Bc|d4 z2 cd|e2 e>e e2 ag|f4 z2 cd|
+e2 e>e e2 ag|f4 z2 df|a2 a>a gf ed|c B3 z2 ba|gf ed c2 Bc|d6 |]
+
+%%newpage
+X:92
+T:Jay Bird
+M:2/4
+Q:1/4=100
+L:1/16
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+G2B2 BGBG|F2A2 AFAF|G2e2 e2d2|cdec A4|G2B2 BGBG|F2A2 AFAF|dcde dBAG|F2D2D2z2::
+f2d2 f2d2|fdfg a4|ecAc ecAc|ecef g4|f2d2 f2d2|fdfg a4|[1 efec dedB|c2A2 A2Ad:|[2 dcde dBAG|F2D2D2z2|]
+
+X:93
+T:Fireman's Q.S.
+M:2/4
+Q:1/4=100
+L:1/16
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+%%staves (1 2)
+V:1
+d2fd c2ec|d2fd A4|BGBd cdec|defg abaf|d2fd c2ec|d2fd A4|BGBd cdec|d2f2d2 z2::
+a4 a4|a6 ef|gfed cdec|defd A4|a4 a4|a6 ef|gfed cdec|d2f2d2 z2:|
+V:2
+x8|x8|x8|x8|x8|x8|x8|x8::x8|x8|x8|x8|x8|x8|x8|x8:|
+%%staves [1 2]
+V:1
+"2nd Fife"A2FF G2FF|A2FF A4|GEGB A2G2|FBAB cedA|A2FF G2EE|A2FF F4|"2nd and 3rd Fife by N. Langer"GEGB A2G2|F2A2F2z2::
+dAFA dAFA|dFAd dFA2|GABA GAG2|ABAA F4|dAFA dAFA|dFAd dFA2|GABA GAG2|F2A2F2z2:|
+V:2
+"3rd Fife"F2AA E2GG|F2AA D2A,2|C2EE F2E2|D2FF G2F2|F2AA E2GG|F2AA D2A,2|C2EE F2E2|D2F2D2z2::
+F2DD F2DD|A2F2 A2F2|EFGF C2E2|FGFF D4|F2DD F2DD|A2F2 A2F2|EFGF C2E2|D2F2D2z2:|
+
+X:94
+T:Katy Hill
+M:2/4
+L:1/8
+K:G
+D|GA Bd|(Tgf/)g/ ed|BG dG|A/B/A/G/ FD|GA Bd|(Tgf/)g/ ed|BG A/B/A/F/|G2 z::
+Ld|(Tgf) ed|(Tgf) ed|BG dG|A/B/A/G/ FD|!crescendo(!GA Bd!crescendo)!|GA Bd|(Tgf/)g/ ed|BG A/B/A/F/|G2 z:|
+
+%%%newpage
+X:95
+T:Barren Rocks of Aden
+M:2/4
+Q:1/4=100
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+f>g fe|df Ad|ce Ad/e/|fA de|f>g fe|df A>d|ce Af/e/|[1 d3 d/e/:|
+[2 d3 d/f/||:a>f df|eg Ae/f/|g/g/e ce|df Ad/f/|a>f df|eg Ae/f/|g/g/e ce|
+[1 d3 d/f/:|[2 d3 d/f/|[L:1/16]|:afdf afdf|e2g2 A2ef|gece gece|d2f2 A2df|afdf afdf|
+e2g2 A2ef|gge2 c2e2|[1 d6 df:|[2 d6 df||:afdA Afdf|afdA Afdf|
+gecA Aece|gecA Aece|afdA Afdf|afdA Afdf|gecA Aece|[1 d6 df:|[2 d6 z2|]
+
+X:96
+T:Stillman's Reel
+C:Major Stillman
+M:2/4
+Q:1/4=100
+L:1/16
+%%staves (1 2)
+K:D
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+AG|FAd2 d2cd|edcB A2AG|FAd2 d2cd|e2a2 a2AG|FAd2 d2cd|edcB A2A2|B2gf edce|d2f2d2::
+f2|a2>f2 d2f2|edcB A2f2|a2>f2 gfed|c2e2 e2f2|a2>f2 d2f2|edcB A2A2|B2gf edce|d2f2d2:|
+V:2
+x2|x8|x8|x8|x8|x8|x8|x8|x6::x2|x8|x8|x8|x8|x8|x8|x8|x6:|
+%%staves [1 2]
+V:1
+"2nd Fife"FE|DFAG FAGF|G2E2 F2FE|DFAG FAGF|Gcc2 c2E2|DFAG FAGF|"2nd and 3rd fife by N.Langer"G2E2 F2F2|G2Bd c2G2|F2A2F2::
+A2|d2>A2 F2A2|E2G2 FEFA|d2>A2 B2G2|G2B2 B2A2|d2>A2 F2A2|E2G2 FDF2|G2Bd c2G2|F2A2F2:|
+V:2
+"3rd Fife"D2|A,DD2 D2EA|B,CDC D2DC|A,2DD D2EA|E2G2 G2E2|A,DD2 D2EA|B,CDC D2D2|E2GB AGEC|D2F2D2::
+F2|F2>D2 A2d2|cBAE DFDF|F2>D2 G2E2|E2G2 G2F2|F2>D2 A2d2|cBAE D2FD|E2GB AGEC|D2F2D2:|
+
+X:97
+T:Oak Hill Reel
+M:2/4
+L:1/16
+K:G
+D2|G2BG dGBG|ABcd cBAG|Bdgd egdB|cBAG FADF|
+G2BG dGBG|ABcd cBAG|Bdgd egdB|zdcA G2::z2|g2dg Bgdg|gabg agef|
+g2dg Bgdg|cBAG FADF|g2dg Bgdg|gabg agef|gfga gfed|defa g2:|
+
+X:98
+T:The Muffled Drum
+M:2/4
+L:1/8
+K:G
+d|.d(g/f/ g).B|B(d/^c/ d)G|F/A/c/e/ d>c|B/A/B/c/ dz/d/|d(g/f/ g)B|B(d/^c/ d)G|F/A/c/e/ dF|G2 z::
+d|d(f/^e/ f)d|d(g/f/ g)d|d(a/^g/ a)d|d(b/a/ b)d|d(g/f/ g)B|B(d/^c/ d)G|F/A/c/e/ dF|G2-G::
+d|(^c/d/c/d/) ef|(a/g/f/g/) dB|d/c/B/c/ AF|G/F/G/B/ dz/d/|(^c/d/c/d/) ef|a/g/f/g/ dB|d/c/B/c/ AF|GBG:|
+
+X:99
+T:Drums and Guns
+C:Roy Watrous
+M:2/4
+L:1/16
+K:Bm
+zF|BFdF BFdF|Bcde f2de|fbag fede|f2fg fedc|BFdF BFdF|
+Bcde f2de|fbag fede|f2f2B2::z2|a2fg a2gf|Te2f2 g2ef|gAfA eAfA|
+gfed cedc|BFdF BFdF|Bcde f2de|fbag fede|f2f2B2:|
+
+X:100
+T:Dream Quick Step
+M:2/4
+L:1/16
+Q:1/4=90
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:d2|gfgd B2BA|GFGB D2DG|GDGB A2 Ac|BGBc d2ef|gfgd BcBA|
+GFGB D2DG|GDGB ADFA|G2B2G2::D2|GDGB A2Ac|BGBc d2ef|gfgg agfe|
+dd^cd e2f2|gfgd B2BA|GFGB D2DG|GDGB ADFA|G2GF G2:|
+
+X:101
+T:Twilight
+M:2/4
+L:1/16
+K:D
+FG|A2de f2df|a2fd A4|A2ce g2fe|fedf A4|A2df a4|gfef g4|
+fedf agec|d2f2d2::df|abag fede|fdef g4|gagf edcd|efge a4|
+abaf gage|fgfd gfe2|fedA gfec|d2f2d2:|
+
+X:102
+T:Blackberry Blossoms
+M:2/4
+L:1/16
+K:G
+(ge)|dBAc (BA)GA|BcB^A B2(ge)|dBAc (BA)GB|(Aa2).b .a2(ge)|dBAc (BA)GA|
+BcB^A B2(ge)|dBAc (BA)GB|(Aa2)b a2::z2|(ba).g.a. gfe2|(gf).g.a .b.ge2|
+(gf).g.a gfe2|(ea2).b a4|(gf).g.a gfe2|(gf).g.a bge2|(ga)bg afge|(ea2).b .a2:|
+
+X:103
+T:Fireman's Reel
+M:2/4
+L:1/16
+K:A
+E2|:AcBc AcE2|Ac2e f2e2|agae fecA|[1 BcBA F2E2:|[2 B2B2A2||(3(efg)|aa2b agfe|
+fece fece|aa2b agfe|fecA B2(3(efg)|aa2b agfe|fece fece|f2af ecBA|GEFG A2||
+
+X:104
+T:Red Coat Fifer
+M:2/4
+L:1/8
+K:D
+d/B/|Ad d/c/d/e/|fe/d/ eA|Af/g/ ff/g/|ag/f/ ge|f/g/a/f/ df|AB/c/ df/g/|ag/f/ ba/g/|Tfdd::
+z|a>g f/g/a|dd/e/ dA|a>g f/g/a|aa/b/ a2|a>g f/g/a|dd/e/ df/g/|ag/f/ ba/g/|Tfdd:|
+
+X:105
+T:Oyster River
+C:3rd strain by H. McCarthy
+M:2/4
+L:1/8
+K:G
+D|GB B/A/G/A/|Be e/f/g/e/|dB AG/A/|B/c/B/A/ G/F/E/D/|GB B/A/G/A/|
+Be e/f/g/e/|dB AG/A/|BGG[K:D]::A|d>e d/c/B/A/|dd ed/e/|ff ed/e/|
+ff/e/ d/c/B/A/|B/c/d/e/ d/c/B/A/|dd ed/e/|ff ed/e/|fdd::BB B/c/B/A/|
+GE E2|AA A/B/A/G/|FD D2|dc dA|B/A/B/c/ dA/G/|FD ED/E/|FDD:|
+
+X:106
+T:Lamplighter's Hornpipe
+M:C|
+L:1/8
+K:A
+cd|ecec eagf|ecec eagf|ecec fedc|d2B2B2 cd|ecec eagf|
+ecec eagf|efde cdBc|A2A2A2::cd|edcd e2fe|dcBc d2ed|cAcA dcBA|
+B2B2B2 cd|edcd e2fe|dcBc d2ed|cagf edcB|A2A2A2:|
+
+X:107
+T:Some Distance From Prussia
+M:2/4
+L:1/16
+Q:1/4=100
+K:Bm
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:fe|d2BB B^ABc|dcde f2ed|c2AA A^GAB|cBcd e2fe|d2BB B^ABc|dcde f4|
+B2f2 fedc|B2f2B2::F2|B3c dcde|f2f2 TF4|f2f2 TF4|TA2F2 TA2F2|B3c dcde|f2f2 F3F|B2f2 fedc|B2f2 [B2b2]:|
+
+X:108
+T:Huntsman Hornpipe
+M:2/4
+L:1/16
+K:D
+AG|F2d2 d2cd|ecAc d2de|fdfd gfgf|afdf ecAG|F2d2 d2cd|
+ecAc d2de|fdgf edcB|A2A2A2::fg|agfe dcBA|B2G2 G2ga|
+bagf gfed|c2A2 A2fg|afaf bge2|gfge afd2|agbg fedc|d2d2d2:|
+
+X:109
+T:Blatchley's Banter
+M:2/4
+L:1/8
+K:Amix
+A/G/|E/AB/ Ac/d/|e/ec/ dc/d/|e/aa/ ga/g/|e/aa/ ga/g/|e/d/b/(b/ A)c/d/|
+e/ec/ dc/d/|e/ab/ g/e/d/B/|A3::c/d/|e/ab/ ag/a/|b/ab/ ae/f/|g/a/f/d/ e/aa/|
+g/a/f/d/ e/c/B/A/|A/e/a/b/ ag/a/|b/ab/ ae/f/|g/a/f/d/ e/f/d/B/|A3:|
+
+X:110
+T:Guilderoy Reel
+M:2/4
+L:1/16
+K:Amix
+AG|E2AB ABcd|efec d2cd|acAB ABcA|BGEF G2AG|E2AB ABcd|
+efec d2cd|efaf gecB|A2B2A2::ef|g2>a2 gfef|gage d2cd|
+ecAB ABcA|BGEF G2AG|E2AB ABcd|efec d2cd|efaf gedB|A2B2A2:|
+
+X:111
+T:Cincinatti Hornpipe
+M:2/4
+L:1/16
+K:D
+D2|:DAFA DAFA|dAfA eAfA|gAfA edcd|edcB AGFE|DAFA DAFA|
+DAfA eAfA|gAfA edcB|cdeg fdd2::eAAA fAAA|gAAA fAAA|eAfA gAfA|
+edcB AGFE|Dddd ceee|dfff eggg|fgaf bgec|d2d2d2z2:|
+
+X:112
+T:Liverpoole
+M:2/4
+L:1/16
+K:D
+A2|FDFA dfaf|gefd dcBA|GBGB FAFA|EFGA GFED|FDFA dfaf|
+gefd dcBA|afdf gecA|d2d2d2::A2|dfdf cece|Bcde dcBA|
+GBGB FAFA|EFGA GFED|FDFA dfaf|gefd dcBA|afdf gecA|d2f2d2:|
+
+X:113
+T:Smith's Hornpipe
+M:C|
+L:1/8
+K:D
+A2|dcdA Bcde|gfed cBAG|FAdf gfed|.c2.A2.A2 (Bc)|dAeA fAgA|
+gfed dcBA|dfeg faeg|.f2.d2.d2::fg|agfe dfga|.b2.e2.e2.d2|
+cAeA fAed|.c2.A2.A2 Bc|dAeA fAgA|aAbe dcBA|dfeg faeg|.f2.d2.d2:|
+
+X:114
+T:Constitution Hornpipe
+M:2/4
+L:1/16
+Q:1/4=60
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+|:(3ABc|d2d2 dAfd|e2e2 eAge|fedc BAgf|edef eABc|d2d2 dAfd|
+e2e2 eAge|fedc Bgec|d2f2 d2::A2|FAdA fdAF|GBdB gdBG|
+Acec gece|dfed cBAG|FAdA fdAF|GBdB gdBG|Acec gece|d2f2d2:|
+P:2nd fife harmony by C. Myers
+|:AG|F2FE DFAF|G2GF ECEG|A2F2 D2FG|A2AB AGFE|F2FE DFAF|
+G2GF ECEG|A2AF GFEG|F2E2 D2::F2|D2F2 A2D2|B,2D2 G2D2|
+C2A,2 E2G2|A2A2 AGFE|D2F2 A2D2|B,2D2 G2D2|A2A2 AGFE|F2A2D2:|
+
+X:115
+T:Corn Cob Clog
+M:2/4
+L:1/16
+K:A
+A2ga fedf|ecAc (3(BcB)(3(ABc)|A2ga fedf|ecAc B2b2|A2ga fedf|
+ecAc (3(BcB)(3(ABc)|fedf ecAc|(3(BcB)(3(ABc) A4::A2ga A2ga|A2ga fece|
+A2ga A2ga|fece B2b2|A2ga A2ga|A2ga fece|fedf ecAc|(3(BcB)(3(ABc) A4:|
+
+X:116
+T:Post's Quick Step
+M:2/4
+L:1/16
+K:D
+EF^G|A4 Adfd|A4 Adfd|dcBA ^GABc|{e}dcde f2>F2|G4 GBeG|
+F4-FAdF|EFGA ^AB^Bc|d2d2d2::cd|eA~A2 eA~A2|gAfA eA~A2|
+dfAf gfed|cedf e2cd|e2AA e2AA|gAfA e2AA|FAdf EAce|d2f2d2:|
+
+X:117
+T:Yorktown
+C:W. Krug
+M:2/4
+L:1/8
+K:D
+d/e/|ff g/f/e/d/|Bc dd/f/|a>b af|fe ed/e/|ff g/f/e/d/|Bc dd/f/|
+a/f/d/f/ e/A/B/c/|d2-d::A|d/c/d/f/ ag/f/|eA AA|c/B/c/d/ e/g/f/e/|
+fd dA|d/c/d/f/ ag/f/|eb bd/f/|a/f/d/f/ e/A/B/c/|d2-d::A|A>B AF|A3 d|
+d>e dB|d3 e/f/|gf ed|Bd Ad|c/d/e/f/ gc|d2-d:|
+P:C part, 2nd Fife
+F|F>G FD|F3 B|B>=c BG|G3 B/B/|ed cF|GG FF|G/G/G/A/ cA|F2-F:|
+
+X:118
+T:O'Connor's Quickstep
+C:W. Krug
+M:2/4
+Q:1/4=90
+L:1/16
+K:A
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+ed|c2ec Acec|d2fd fagf|e2a2 a2ga|b2B2 BdcB|c2ec Acec|
+d2fd fagf|e2c2 BdcB|A2c2A2::z2|ABcd e2e2|fa2f ecA2|ABcd e2e2|
+cA2c B2z2|ABcd e2e2|fa2f ecA2|c2ec BdcB|A2c2A2:|
+
+X:119
+T:Korn Likker
+M:2/4
+L:1/8
+K:D
+a/g/|f/a/d de/f/|ge e>d|cc c/A/B/c/|d/c/d/e/ f/g/a/g/|f/a/d de/f/|ge e2|
+Ac/e/ g/e/c/e/|edd::d/f/|a>b af|gg/f/ eA/e/|g>a ge|
+ff/e/ dd/f/|a>b af|gg/f/ e2|Ac/e/ g/e/c/e/|edd:|
+
+X:120
+T:The Devil's Flute
+C:W. Krug
+M:2/4
+L:1/16
+Q:1/4=90
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+(3(DEF)|.G2B2 D4{EF}|.G2B2 d4|(ed).c.B cBAG|BAGF GFED{EF}|.G2B2 D4{EF}|.G2B2 d4|(ed).c.B cBAG|
+BAGF G2::GA|.B2d2 g2fe|(dg)dB A2BA|GABG ABcA|BcdB A2 GA|.B2d2 g2fg|(ag)fe d2ef|
+.g2Bc .d2D2|G4 z2::(3(DEF)|GFGA B2G2|AGAB c2A2|GBdg dBGg|dBGB .A2(3(DEF)|GFGA B2G2|
+AGAB c2A2|GBdg dBGA|.B2TA2 .G2::d2|(gfg).e dBGB|(gfg).e d2ef|(gfg).e dBGB|
+(dg).d.B .A2d2|(gfg).e dBGB|(gfg).e d2ef|(gfg).e dBGA|.B2A2 .G2:|
+
+X:121
+T:Black Watch
+M:2/4
+Q:1/4=100
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+(B/c/)|dB BB|TFB B/c/d/B/|cA AA|A/B/c/d/ ed/c/|dB BB|TFB Bd/e/|f>g fe|dB B:|
+z|:f>g af|e/c/A/c/ ec|d>e Tf3/e/|d/c/B/A/ B/c/d/e/|Tf3/g/ af|e/c/A/c/ ed/e/|f>g fe|dB B:|
+
+X:122
+T:Soldier's Joy
+M:2/4
+L:1/16
+K:D
+FG|AFDF AFDF|A2.d2 .d2cB|AFDF AFDF|G2E2 E2FG|AFDF AFDF|A2d2 d2de|
+fafd egec|.d2.d2.d2::de|fdfd fagf|ecec egfe|fdfd fagf|
+edcB A2de|fdfd fagf|ecec egfe|fafd egec|d2d2d2:|
+
+X:123
+T:Molly on the Shore
+C:W. Krug
+M:2/4
+L:1/16
+K:G
+(BA|G)EDB cABA|(3(GAG)BG AGEF|GEDB cABA|(3(GAG)BG A3(BA|
+G)EDB cABA|(3(GAG)BG AGEF|GEDB cABA|(3(GAG)BG A2Gd||gfgd ecdB|
+(3(GAG)BG AGEf|gfgd ecdB|(3(GAG)BG A2Gf|gfgd ecdB|(3(GAG)BG AGEF|
+GBAc Bdge|dBGB A2BG||cccA BBBA|(3(GAG)BG AGEB|cccA BBBA|(3(GAG)BG A2GB|
+c/c/ccA B/B/BBBA|(3(GAG)BG AGEA|GEDB cABA|(3(GAG)BG A2||
+
+X:124
+T:Mason's Apron
+M:C|
+L:1/8
+K:A
+(ed)|c>A (3AAA ABAF|EFAc dcBA|d>B (3BBB BcBA|Bcde fefg|a>A (3AAA ABAF|
+EFAc dcBA|Bcde fefa|(3AAA cB A2||e2|cAeA fAeA|cAeA fedc|dBfB bBfB|
+defg afed|(3(cBA) eA fAeA|EFAc dcBA|Bcde fefa|(3AAA cB A2||
+
+X:125
+T:The Scarlet Regiment
+C:W. Krug
+M:3/4
+L:1/8
+K:D
+V:1st Fife
+|:A>A|d3 c/d/ e>c|d2 A2 dc|B2 (gf) ed|Tf2 ez A>A|d3 c/d/ ef|
+g2 B2 f>e|(dc) BA f>e|e2 dz::A>A|e3 d/e/ fd|e2 A2 de|
+fe/f/ gf ed|Tf2 ez A>A|d3 c/d/ ef|g2 B2 f>e|(dc) BA f>e|e2 dz:|
+V:2nd Fife
+|:G>G|F3 E/F/ G>E|F2 F2 FF|G2 EF GG|A2 Gz G>G|F3 E/F/ GA|
+B2 G2 A>G|FE DC A>G|G2 Fz::z2|za/a/ a2 z2|za/a/ a2 FG|
+AG/F/ (EF) G^G|A2 Gz G>G|F3 E/F/ GA|B2 G2 A>G|FE DC A>G|G2 Fz:|
+V:3rd Fife
+|:C>C|D3 C/D/ D>C|D2 D2 DD|D2 (EF) CB,|C2 Cz C>C|D3 C/D/ EF|
+E2 D2 F>E|DE FG F>E|E2 Dz::z2|zA/A/ A2 z2|zA/A/ A2 DE|
+DC/D/ (ED) CB,|C2 Cz C>C|D3 C/D/ EF|G2 D2 F>E|DE FG F>E|E2 Dz:|
+
+X:126
+T:Steeplechase Polka
+C:W. Krug
+M:2/4
+L:1/16
+Q:1/4=100
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+g2(3ggg gaba|g2(3ggg gaba|(Lgf)ed cBAG|F2 z2z2 d2|:!biga!BdGd BdGd|Bdgf edcB|
+cAag fedc|Bde^c d2=c2|BdGd BdGd|Bdgf edcB|ABc^c d^def|[1 (3ggg dB G2z2:|[2 (3ggg (3fff g2z2||
+||!bigb!(3BBB ^AB Td4|(3ddd ^cd g4|(3ggg fg bgdB|dcAF D4|(3ccc Bc e4|(3eee ^de a4|(3fff (3ccc (3fff (3ccc|
+edBG D4|(3BBB ^AB Td4|(3ddd ^cd g4|(3ggg fg bgdB|A6 ef|gfed ^cgfe|d^ced =cBAG|
+FGAB cdef|gfga b2 ef|gfed ^cgfe|d^ced =cBAG|FGAB cdefO|g2 z2z2 d2||!bigc!d4-dBGE|D4-DDGB|
+D2 (3ggg (3fff (3eee|ez/(e/LF2) ez/(e/LF2)|c4-cBdB|c4-cAFE|(3DDD FD GDAD|B6 d2|d4-dBGE|D4-DDGB|
+D2 (3ggg (3ddd (3^ddd|e6 ef|(3ggg (3^ccc (3fff (3eee|(ed)BG DGFE|(3DDD FA Le2d2|(3GGG Bd g2d2||
+|:!bigd!LBc^cd Ledcd|Lgd^cd Ledcd|Lad^cd Ledcd|Lbd^cd Ledcd|Bc^cd edcd|gd^cd edcd|
+=cBAB cdef|[1 (3ggg dB G2 z2:|[2 (3ggg !D.C.!dB G2 z2!alcoda!||\
+%%staffbreak 1cm
+[|Og2(3ddd f2(3ddd|e2(3ddd ^c2d2|g2(3ddd f2(3ddd|
+e2(3ddd ^c2d2|gd^cd edfd|gd^cd edfd|g2(3ggg (3ddd (3BBB|G2(3eee (3ccc (3AAA|
+F2(3ddd (3BBB (3GGG|E2(3ccc (3AAA (3FFF|G2(3ddd A2(3ddd|B2(3ddd A2(3ddd|G2(3ddd A2(3ddd|
+B2(3ddd A2(3ddd|GDEF GABc|dGAB cdef|(gf)(gf) (gf)(gf)|g2 z b b2 z B|G8!fine!||
+
+X:127
+T:Southern Rose Polka
+M:2/4
+L:1/16
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+!ff!D2DDD2 z2|F2FFF2 z2|A2AAA2 z2|"^ad lib"Hd4-d2^cded cded =c2A2F2HD2 ^cded cded =c2A2F2HD2
+z2D2 F2>F2 A2>A2 d2>d2 f2>f2 a2>a2 Hd'4 D2F2A2d2 HTd4 D2F2A2d2 HTd4 ^cdfe =cAEF \
+HTB2(A/G/A/B/^c/d/e/f/) .g2.f2.e2.d2 =c2B2A2G2
+HF4 (D/E/F/G/A/B/^c/d/ e/f/g/a/b/^c'/d'/) d2 Hd4||\
+[P:Tempo di polka](3.d.d.d|dd^cd edBG|D6 (3.d.d.d|dd^cd edBG|D6 (3.=c.c.c|
+=ccBA e2 (3.B.B.B|BBAG d2>d2|^cccc cgfe|d2^c2 d2(3.d.d.d|dd^cd edBG|D6 (3.d.d.d|dd^cd edBG|
+E6 (3.c.c.c|ccBA e2 (3.B.B.B|BBAG d2>d2|^cGAB =cdef|g2g2g2z2||dd^cc eedd|BBGG D2z2|
+dd^cc eedd|BBGG E2z2|ccAA ffee|BBGG eedd|cABc defg|gdBG D2z2|dd^cc eedd|
+BBGG D2z2|dd^cc eedd|BBGG E2z2|ccAA ffee|BBGG eedd|cABc defg|
+g2Lf2Le2Ld2|dd^cc eedd|BdBd D2z2|DEFG ABcd|e2e2e2z2|ee^dd ffee|ccAA eedd|
+DEFG ABcd|edBG D2z2|dd^cc eedd|BdBd D2z2|DEFG ABcd|e2e2e2 z2|ggff eedd|
+eedd ^ccdd|eedd eeff|g2g2g2z2||"@-5,16 3""@-6,10 ..."!r1d!d2 "@-5,12 3""@-6,6 ..."!r1ds!^c2 e2d2|\
+"@-5,15 3""@-6,9 ..."!r1d!B2 "@-6,-7 ...""@-4,-20 3"!r1u!A2 c2B2|BABA GAGF|E2e2e2z2|\
+"@-5,16 3""@-6,10 ..."!r1d!d2 "@-5,16 3""@-6,10 ..."!r1ds!^d2 f2e2|
+"@-5,12 3""@-6,6 ..."!r1d!c2  "@-6,-7 ...""@-4,-20 3"!r1u!A2 e2d2|DEFG ABcd|edBG D2z2|\
+"@-5,16 3""@-6,10 ..."!r1d!d2 "@-5,12 3""@-6,6 ..."!r1ds!^c2 e2d2|\
+"@-5,15 3""@-6,9 ..."!r1d!B2 "@-6,-7 ...""@-4,-20 3"!r1u!A2 c2B2|\
+BABA GAGF|EAce g2z2|
+"@-5,12 3""@-6,6 ..."!r1d!g2 gf ed^cd|ed^cd e2d2|"@-5,12 3""@-6,6 ..."!r1d!e2 de fdef|\
+g2Lf2Le2Ld2|"@-5,16 3""@-6,10 ..."!r1d!d2 "@-5,12 3""@-6,6 ..."!r1ds!^c2 "@-5,12 3""@-6,6 ..."!r1d!e2 \
+"@-5,16 3""@-6,10 ..."!r1d!d2|BdBd D2z2|DEFG ABcd|
+e2e2e2 z2|"@-5,12 3""@-6,6 ..."!r1d!e2 "@-5,16 3""@-6,10 ..."!r1ds!^d2 f2e2|\
+"@-5,12 3""@-6,6 ..."!r1d!c2 "@-6,-7 ...""@-4,-20 3"!r1u!A2 e2d2|DEFG ABcd|edBG D2z2|\
+"@-5,16 3""@-6,10 ..."!r1d!d2 "@-5,12 3""@-6,6 ..."!r1ds!^c2 "@-5,12 3""@-6,6 ..."!r1d!e2 \
+"@-5,16 3""@-6,10 ..."!r1d!d2|BdBd D2z2|
+DEFG ABcd|e2e2e2 z2|\
+"@-5,12 3""@-6,6 ..."!r1d!g2 "@-5,12 3""@-6,6 ..."!r1d!f2 "@-5,12 3""@-6,6 ..."!r1d!e2 "@-5,16 3""@-6,10 ..."!r1d!d2|\
+"@-5,12 3""@-6,6 ..."!r1d!e2 "@-5,16 3""@-6,10 ..."!r1d!d2 "@-5,12 3""@-6,6 ..."!r1ds!^c2 "@-5,16 3""@-6,10 ..."!r1d!d2|\
+"@-5,12 3""@-6,6 ..."!r1d!e2 "@-5,16 3""@-6,10 ..."!r1d!d2 "@-5,12 3""@-6,6 ..."!r1d!e2 "@-5,12 3""@-6,6 ..."!r1d!f2|\
+g2g2g2z2||z4 z2 "@-6,-7 ...""@-4,-20 3"!r1u!D2|:G2(3DDD B2(3DDD|
+d6 ^cd|ed^cd ed=cA|F4 z2(3DDD|F2(3DDD A2(3DDD|c6 AF|DEFG ABcd|
+[1 (e4 d2) (3DDD:|[2 (e4 d2) z2||"@-5,16 3""@-6,10 ..."!r1d!d2 "@-5,12 3""@-6,6 ..."!r1ds!^c2 e2d2|\
+"@-5,15 3""@-6,9 ..."!r1d!B2 "@-6,-7 ...""@-4,-20 3"!r1u!A2 c2B2|BABA GAGF|EAce Hg2 "@-5,16 3""@-6,10 ..."!r1d!d2|\
+g2(3BBB d2(3GGG|
+B2(3DDD G2FE|D^CDE FDEF|"^presto"G4 B4|d4 g2 "@-5,16 3""@-6,10 ..."!r1d!d2|g2(3ddd e2(3ddd|g2(3ddd e2(3ddd|g2(3ddd e2(3ddd|g2(3ddd e2(3ddd|g4 z2b2|b4 z2g2|Hg8|]
+
+X:128
+T:Clark's Hornpipe
+C:H. Clark
+M:C|
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+F|{c}B>AB>c d>cd>e|f>^ef>g f>=ed>e|(3(fgf) (3(efe) (3(ded) (3(cdc)|B>cd>B (3(cdc) F>F|
+{c}B>AB>c d>cd>e|f>^ef>g f>=ed>e|(3(fgf) (3(efe) (3(ded) (3(cdc)|B>gf>d B2 z::
+a|(3(aba) (3(^gab) a>=gf>e|d>cd>e f>F^A>c|(3(fgf) (3(efg) f>ed>c|B>^AB>c d>ef>g|
+(3(aba) (3(^gab) a>=gf>e|d>cd>e f>ed>e|(3(fgf) (3(efe) (3(ded) (3(cdc)|B>gf>d B2 z:|
+
+X:129
+T:Harem Scarem
+M:2/4
+L:1/8
+K:D
+(3(A/B/c/)|:[P:A]df d/f/d/f/|ce c/e/c/e/|df d/f/d/f/|Bg B/g/B/g/|df d/f/d/f/|ce c/e/c/e/|
+d/f/d/f/ c/e/c/A/|[1 dd d ((3(A/B/c/):|[2 dddz|:[P:B]dA/A/ FD|FA d2|FF/F/ df|
+ec AA|dA/A/ FD|FA d2|F/D/F/A/ df|[1 e/c/A/A/ f2:|[2 e/c/A/A/ f|]
+P:2nd Fife (B part)
+fe/e/ df|de f2|dd/d/ fa|ge ce|fe/e/ df|de f2|d/c/d/e/ fa|[1 g/e/c/G/ d2:|[2 g/e/c/G/ d2|]
+
+X:130
+T:Harem Scarem
+C:As played by The Old Guard
+M:2/4
+L:1/8
+K:D
+P:1st Fife
+(3(A/B/c/)|df d/f/d/f/|ce c/e/c/e/|df d/f/d/f/|Bg B/g/B/g/|df d/f/d/f/|ce c/e/c/e/|d/f/d/f/ c/e/c/e/|
+dfd::z|dA/A/ FD|FA d2|dd/d/ fa|ge cA|dA/A/ FD|FA d2|d/c/d/e fa|g/e/c/e/ d:|
+P:2nd Fife
+A|FD FD|EE E2|FD FA|GG G2|FD FD|EE E2|FD EE|DF D::z|
+fe df|de f2|FF df|ec Ac|fe df|de f2|FF df|ec d:|
+
+X:131
+T:Oh, Susanna
+C:S. Foster
+M:2/4
+L:1/8
+K:D
+d/e/|fa a>b|af d>e|ff ed|e3 d/e/|fa a>b|af d>e|ff ee|d2 z::
+z|g2 g2|b b2 b|aa fd|e3 d/e/|fa a>b|af d>e|ff dd|d2 z:|
+
+X:132
+T:All Take Tea
+C:Harmonies by A. Terreri
+M:6/8
+L:1/8
+K:D
+%%staves (1 2)
+V:1
+A|d2d def|edc d2e|f2f fga|gfe f2g|a2a agf|g2g gfe|fed afd|edc d2::
+d/f/|a2a aba|g2g gef|g2g gag|fde f2A|d2d def|e2e efg|a2f gfe|d2f d2:|
+V:2
+x|x6|x6|x6|x6|x6|x6|x6|x3x2::x|x6|x6|x6|x6|x6|x6|x6|x3x2:|
+%%staves [1 2]
+V:1
+"^2nd Fife"A|F2F FGA|GFE F2C|D2D DEF|EDC D2E|F2F FED|E2E EDC|(D3 d3)|(B3 A2)::
+z|F2F FGF|E2E ECD|E2E EFE|A3-A3|A3-A3|A3-A3|G2A BAG|F2A F2:|
+V:2
+"^3rd Fife"z|A3-A3|A3-A3|A3-A3|A3-A3|d3-d3|A3 A3|AGF FAF|(G3 F2)::
+z|d3-d3|dcd cAA|A3-A3|DFC D3|F3 FCD|C2C CDE|C3-C3|D3-D2:|
+
+X:133
+T:Love One's Fancy
+C:R. Klimowicz
+M:2/4
+K:D
+L:1/16
+(ea).e.a (ea){e}f2|[1 f6 z2:|[2 f4|:a2aa|f2A2 (ef).g.e|d2A2 .e2.e.e|(gf).e.d (ga).f.g|
+e2A2 .a2.a.a|f2A2 (ef).g.e|d2A2 .e2.e.e|(gf).e.d (fe).d.c|d2 D2::.e2.e.e|(fd).d2 .f2.f.f|
+(ge).e2 (ab).a.g|(fe).d.c (BA).G.F|(FE).E2 .a2.a.a|f2A2 (ef).g.e|d2A2 .e2.e.e|(gf).e.d (fe).d.c|d2 D2:|
+
+X:134
+T:Rochester Schottishe
+M:2/4
+L:1/16
+U:R=!breath!
+K:D
+F2AB A2f2|F2AB A2a2|ggff eedd|ccBB AAGG|F2AB A2Rf2|
+F2AB A2Ra2|ggff ee (3(ABc)|d2f2d2z2::e2e2 a4|c2c2 Re4|Beee Aeee|
+Beee Aeee|e2e2 RA4|A2A2 e4|ggff ee (3(ABc)|d2d2d2z2::F2A2 F2A2|
+f2d2A2 (3(ABA)|G2e2 G2Re2|FABc d2d2|F2A2 F2A2|B2BB RB4|A2AA A2Bc|d2d2d2z2:|
+P:2nd Fife - Harmony by A. Terreri
+L:1/16
+D2A2 F2A2|D2A2 F2RA2|eedd ccBB|AAGG FFDD|D2A2 F2RA2|
+D2A2 F2RA2|eedd cc a2|f2f2f2z2::c2c2 c4|A2A2 c4|dggg cggg|
+dggg cggg|c2c2 Rc4|c2c2 c4|ccdd cc a2|f2f2f2z2::D2F2 D2F2|
+A2F2F2 z2|A2g2 A2g2|f4 Rf4|D2=c2 D2c2|G2GG RG4|G2GG G2GG|F2F2F2z2:|
+
+X:135
+T:Red Coat Fifer
+C:Harmony by N. Langer
+M:2/4
+L:1/8
+K:D
+V:1
+d/B/|Ad d/c/d/e/|fe/d/ eA|Af/g/ ff/g/|ag/f/ ge|f/g/a/f/ df|
+AB/c/ df/g/|ag/f/ ba/g/|Tfdd::z|a>g f/g/a|dd/e/ dA|
+a>g f/g/a|aa/b/ a2|a>g f/g/a|dd/e/ df/g/|ag/f/ ba/g/|Tfdd:|
+V:2
+A/G/|F/D/F/A/ GB|dG/B/ GF|Fd/c/ d/c/B/c/|f/d/c/d/ e/A/B/c/|d/e/f/d/ Ad|
+FG AB/c/|Ac/d/ Bd/e/|TAFF::z|F>E D/E/F|AA/B/ AF|
+F>E D/E/F|A/G/A/B/ A/c/d|F>E D/E/F|AA/B/ AF|Ac/d/ Bd/e/|TAFF:|
+
+X:136
+T:Swede's Hall
+C:A. Ferrante
+M:2/4
+L:1/16
+K:D
+af|defg La2gf|eABc d2.A.A|.dLf2d e2z2|.eLg2e f2df|La2fd A2af|
+dfaf d2ef|g2.g.f .eLa2f|Lgfea d2::fe|d2>A2 d2gf|e2>B2 e2ag|f2d2 f2.d.f|
+.aLa2a Lb2.b.a|.gLg2.e La2gf|.e.e.a.a .d.d.f.f|a2.g.f .eLa2f|Lgfea d2:|
+
+X:137
+T:Soldier's Joy
+C:N.J. Col.Militia
+C:Harmony by M. Chioda and N. Langer  Introduction and Ending by A. Terreri
+M:2/4
+L:1/16
+%%staves (1 2 3)
+K:D
+V:1
+P:Introduction
+AFDF .A2z2|dBGB .d2z2|AFDF .A2z2|GECE .G2z2|AFDF .A2z2|dBGB d2z2|F.Az2 E.Az2|.D2 z2 z4||
+V:2
+x8|x8|x8|x8|x8|x8|x8|x8|
+V:3
+x8|x8|x8|x8|x8|x8|x8|x8|
+%%staves [1 2 3]
+V:1
+FG|AFDF AFDF|A2 .d2 .d2 cB|AFDF AFDF|.G2 .E2 .E2 FG|AFDF AFDF|
+A2 .d2 .d2de|fafd egec|.d2.d2.d2::de|fdfd fagf|ecec egfe|fdfd fagf|
+edcB A2 de|fdfd fagf|ecec egfe|fafd egec|.d2 .d2 .d2:|
+V:2
+DB|A2d2 f2dA|F2A2 A2AG|A2d2 f2dA|c2 .c2 .c2 dB|A2d2 f2dA|
+F2g2 g2B2|d2A2 c2AG|.A2 .A2 .A2::B2|A2A2 dfed|cAcA c2AG|A2A2 dfed|
+A2G2 c2 B2|A2A2 dfed|cAcA c2AG|dfdA cBAG|.A2 .A2 .A2:|
+V:3
+DE|F2A2 D2A2|D2F2 F2FE|F2A2 D2A2|C2G2 G2DE|F2A2 D2A2|
+D2B2 B2G2|A2F2 G2FE|.F2 .F2 .F2::G2|F2D2 F2A2|E2E2 G2FE|F2D2 F2A2|
+E2C2 E2 G2|F2D2 F2A2|E2E2 G2FE|A2F2 G2FE|.F2 .F2 .F2:|
+%%staves (1 2 3)
+P:Ending
+V:1
+z2|AFDF AFDF|A2 z2 z4|AFDF AFDF|G.E z2 z4|AFDF AFDF|.A2 z2 z4|F.A z2 E.A z2|.d4 z2||
+V:2
+x2|x8|x8|x8|x8|x8|x8|x8|x6||
+V:3
+x2|x8|x8|x8|x8|x8|x8|x8|x6||
+
+X:138
+T:Themes
+C:A. Terreri
+C:N. J. Col. Militia
+%%staves (1 2)
+U:R=!breath!
+M:2/4
+L:1/8
+K:D
+%P:1812 Overture
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+"^A"dd/e/ f/e/d/e/|f4|ee/f/ g/f/e/f/|g4|ff/g/ a/g/f/g/|a4|e/f/g Ae/f/|
+gA g/f/Re||"^B"dd/e/ f/e/d/e/|fd Rd2|ee/f/ g/f/e/f/|ge Re2|ff/g/ a/g/f/g/|
+af Rf2|e/f/g Ae/f/|gA g/f/e||"^C"dD (D>E)|RF2 (d2|e)E (E>F)|RG2 (e2|f)F F>G|
+RA2 (f2|e/)f/g Ae/f/|gA g/f/Re||"^D"d/e/f/e/ d2|e/f/g/f/ Re2|f/g/a/g/ fg/a/|
+b/a/g g/f/e||\
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+x4|x4|x4|x4|x4|x4|x4|x4||x4|x4|x4|x4|x4|x4|x4|x4||
+x4|x4|x4|x4|x4|x4|x4|x4||x4|x4|x4|x4||
+V:1
+P:Folk (Our Lady)
+|:[M:6/8]!ff!"^E"d>dd e>ee|f/d/z2 zff|Tg2f e>ed|c3-c2 g|g2e efg|
+f2d d2f|Re2e edc|d2e f2g||[1 "^F"Rg2e efg|f2d Rd2f|e2e edc|d3-d2 A:|
+[2 "^G"g2e efg|z3 z2f|f2d def|z3 z2e|e2c cde|f2d f2e|e2c cde|
+Rd3 e3|f3 gfe|d3 e3|Rf3 gfe||\
+V:2
+|:[M:6/8]x6|x6|x6|x3x2!pp!B|B2G GAB|
+A2F F2A|G2G GFE|F2G A2B||[1 B2G GAB|A2F F2A|G2G GFE|F3-F2x:|
+[2 B2G GAB|x3 x2A|A2F FGA|x3 x2G|G2E EFG|A2F A2G|G2E EFG|
+F3 G3|A3 BAG|F3 G3|A3 BAG||
+V:1
+P:Weasel
+"^H"d>dd e>ee|faf Rd2A|
+d>dd e>ea|f3 Rd2A|d>dd e>ee|faf Rd2z||"^I"z2z ee/ R.az/|z2z ee/ .az/||
+|:"^J"fdd gee|aff bag|[1 Aff fed|cAA AAA:|[2 Aff Gee|Fdd ddd||
+V:2
+x6|x6|x6|x6|x6|x6||x6|x6||
+|:x6|x6|[1 x6|x6:|[2 x6|x6||
+V:1
+|:"^K"g3-g>zf/e/|d(3AAA A>AA|g3-g>zf/e/|d3 A3|g3-g>zf/e/|d(3AAA A>AA|z2z A>AA|z2z A>AA:|
+V:2
+|:B3-B>zA/G/|FDD D>DD|B3-B>zA/G/|F3 E3|B3-B>zA/G/|FDD D>DD|x2x D>DD|x2x D>DD:|
+V:1
+M:2/4
+P:British
+"^L"dA de|fg/f/ ef/g/|ad f/e/d/c/|d2-d (3(A/B/c/)|dA de|fg/f/ ez||
+L:1/16
+z4 agfe|daaa ^gaaa|fdd2 gfed|caaa ^gaaa|ec c2 fedc|
+Bbbb ^abbb|fddd edcB|A2a2 A2a2|A2A2 A2dc||
+P:Sailor's
+|:"^M"d2D2 D2AG|FAd2 dfed|e2E2 E2ed|cda2 a4|Bddd Addd|Gddd Fddd|
+BdAd GdFd|[1 F2D2 D2 dc :|[2 F2D2 D4||:"^N"LDddd dd=cd|LBGGG LGGGG|
+LEeee eede|LcAAA AAAA|LFfff ffLBg|gggg caaa|caBg AfGe|
+[1 Fddd dddd:|[2 d2D2 D2AG||[P:Modulation]"^O"FAd2 d2fe|f2D2 D2fe|dfa2 a2gf|
+g2A2 A2ed|cea2 a2 (3(ABc)|d2A2 d2e2|f2gf e2fg|a2d2 fedc|d4-d2 (3(ABc)|
+d2A2 d2e2|f2gf e4|z4 agfe|\
+P:Finale
+=c8-|c4-c3 A|=c8-|c4-c3 .A|c8-|c4 .a.g.f.e|Ld2.d2 z4||
+
+X:139
+T:Three Little Drummers
+C:Arr. J. Ciaglia
+M:6/8
+L:1/8
+Q:1/8=400
+K:D
+%%staves [1 2]
+P:As played by Ancient Mariners
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:(A//B//c//d//|e)AA eAA|(B/=c/B/A/B) GBd|eAA eAA|{e}def (g/a/g/f/g)|eAA eAA|(B/=c/B/A/B) G2d|
+def gdB|{=c}BAA A2::z|eaa eaa|dgg dgg|eaa eaa|{e}def (g/a/g/f/g)|
+eaa eaa|dgg d2-d|{e}def gdB|{c}BGG G2::z|eaa a^ga|bab ged({ef}|
+e)aa a^ga|{e}def (g/a/g/f/g)|eaa {b}a^ga|bab ged|{e}def ~gdB|(B/=c/B/A/B) A2:|
+%(A//B//c//d//|e)AA eAA|~BAB GBd|eAA eAA|{e}def ~gfg|eAA eAA|~BAB G2d|
+%def gdB|{=c}BAA A2::z|eaa eaa|dgg dgg|eaa eaa|{e}def ~gfg|eaa eaa|
+%dgg d2-d|{e}def gdB|{c}BGG G2::z|eaa a^ga|bab ged|{ef}eaa a^ga|
+%{e}def ~gfg|eaa {b}a^ga|bab ged|{e}def ~gdB|~BAB A2:|
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+|:(A//B//c//d//|c)AA cAA|G2G G2B|cAA cAA|{c}B2A BcB|cAA cAA|G2-G G2=c|
+B2A B2G|G2{E}E C2::z|{A}c2z {A}c2z|{G}B2z {G}B2z|{A}c2z {A}c2z|{=c}BcA BcA|
+{A}c2z {A}c2z|{G}B2z {G}B2=c|{=c}B2A B2G|G2{E}D C2::z|c z B c z c|d z d B=cB|
+c z B c z B|B=cA (B/c/B/A/B)|c z B c z c|d z d B>=cA|BcA B>AG|(G/A/G/F/G) C2:|
+
+X:140
+T:Squirrel Hunter's Quick Step
+M:2/4
+L:1/16
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+Bd|e2>d2 B2BB|efed B2BA|GFGB d2dd|BABc d2>d2|efed BABd|
+efed d2dc|GFGB dedd|B2A2A2::Bd|e2>e2|a2aa|edef g4|GBGB d2dd|
+BGBc d4|ee2e a2aa|edef g4|GBGB dedd|B2A2A2:|
+
+X:141
+T:Bonaparte Crossing the Rhine
+C:Arr. by J. Ciaglia
+M:C
+Q:1/4=85
+L:1/16
+%%staves [1 2 3]
+K:C
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:E2FG|A2>B2 c2B2 A2G2 E2G2|ABcd edc2 [B2e2]z2 e2fg|a2g2 e2d2 c2A2 G2E2|G4 G2>A2 G2z2 E2FG|
+A2>B2 c2B2 A2G2 E2G2|ABcd edc2 [B2e2]z2 e2fg|a2g2 e2d2 c2A2 G2E2|A4 A2>B2 A4::e2fg|
+a2g2 efg2 a2z2 e2fg|a2g2 edc2 B2z2 e2fg|a2g2 e2d2 c2A2 G2E2|G4 G2>A2 G2z2 E2FG|
+A2>B2 c2B2 A2G2 E2G2|ABcd edc2 [B2e2]z2 e2fg|a2g2 e2d2 c2A2 G2E2|[1 A4 A2>B2 A2z2:|[2 A4 A2>B2 A2z2||
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:z4|E4 D4 E2D2D2E2|E2D2 DC_E2 =E2z2 ^G2AB|c2B2A2B2 cAF2 E2C2|D4 D2>D2 E2z2 z4|
+E4 D4 E2D2D2E2|E2D2 DC_E2 =E2z2 ^G2AB|c2B2A2B2 cAFE D2D2|E4 E2>E2 E4:: ^G2AB|
+c2B2 ^GAB2 c2z2 G2AB|c2cB A2BA =G2z2 B2BB|c2B2 cAB2 cAF2 D2C2|D4 D2>D2 E2z2 z4|
+E4 D4 E2D2D2E2|E2D2 DC_E2 =E2z2 ^G2AB|c2B2A2B2 cAFE D2D2|[1 E4 E2>E2 E2z2:|[2 E4 D2>D2 E2z2||
+V:3
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose -4
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+L:1/8
+K:treble-8
+|:z2|A2 G2 F2 E2|AGF^F ^Gz e2|A2 ^F^G A/E/=F =G2|E2 F>F Ez z2|
+A2 G2 F2 E2|AG F^F/A/ ^Gz e2|A2 ^F^G AE=F=G|A2 A>A A2::e2|
+Ac/d/ eE Az e2|AE F^F =Gz ^Ge|A2 ^F^G AE/=F/ =G2|E2 F>F Ez z2|
+A2 G2 F2 E2|AG F^F/A/ ^Gz e2|A2 ^F^G AE=F=G|1 A2 A>A Az:|2 A2 B>B ^cz||
+
+X:142
+T:Downshire
+C:Arrangement and Harmony by J. Ciaglia
+U:N=!tenuto!
+U:K=!crescendo(!
+U:V=!crescendo)!
+U:J=!diminuendo(!
+U:W=!diminuendo)!
+M:2/4
+L:1/8
+K:D
+V:1
+!mf!KA/G/|F(3VD/D/D/ J.DNDW!p!|KNDNF NANdV|JNc"@-5,16 3"!r1d!A .ANAW!p!|KNANc NeNgV|!f!f/d/(e//d//c//d// e/)d/c/d/|
+V:2
+!mf!C|D(3A,/A,/A,/ .A,NA,|NA,ND NFNF|NE"@-3,26 3"!r1u!E .DND|CE NA2|A/F/(G//F//E//F// G/)F/E/F/|
+V:3
+K:treble-8
+!mf!A|d(3F/F/F/ .FNF|NFNA NdN^G|NA"@-5,12 3"!r1d!c .BNB|A2 NcNe|d/f/Na aa/a/|
+V:1
+KBg gf/g/V|!ff!e/f/Jg/f/ e/f/e/d/W|Kc/d/Ve/Jd/ c/B/A/G/W|!mf!F"@-3,28 3"!r1u!D D"@-3,28 3"!r1u!D|KD/F/A/d/ D/F/A/d/V|
+V:2
+GB AA|.B.B NBN^G|A^G AE|D"@-3,30 3"!r1u!A, A,"@-3,30 3"!r1u!A,|A,/D/F/D/ A,/D/"@-3,28 3"!r1u!F|
+V:3
+g/f/(e//f//e//d// c)d|ge ^ge|ae Ac|d"@-3,28 3"!r1u!F F"@-3,28 3"!r1u!F|F/A/d/f/ F/A/d/^G/|
+V:1
+L:1/16
+Jc2"@-3,18 3"!r1d!A2 A2"@-3,22 3"!r1u!A2W|!mp!Ac!cresc!eg Aceg|fAdf edcd|B2g2 g2fg|!f!Jefge d2c2W|!f!Je4 d2W:|
+V:2
+L:1/8 
+E"@-3,28 3"!r1u!C D"@-3,28 3"!r1u!D|C/E/"@-3,22 3"!r1u!A C/E/"@-3,22 3"!r1u!A|A/F/F/A/ G/FF/|GB _Bz|AA/G/ .FNF|NG2 F:|
+V:3
+L:1/8
+A"@-3,22 3"!r1u!A _B"@-3,22 3"!r1u!B|NAc/d/ NA(3c/d/e/|d/dd/ dd/d/|Gd Dz|c/A/B/c/ dNA|NAB/c/ d:|
+V:1
+L:1/16
+!f!A2|!cresc!f2(3fff Nf2"@-5,8 3"!r1d!f2|fefg agfg|!ff!e2!f!"@-5,8 3"!r1d!e2 !cresc!e2"@-5,8 3"!r1d!e2|edef gfed|!ff!fgfe dcBA|
+V:2
+L:1/8
+A|A"@-3,22 3"!r1u!A A"@-3,22 3"!r1u!A|A"@-3,22 3"!r1u!A d"@-3,18 3"!r1d!A|c(3=c/B/_B/ A(3B/A/_A/|G/F/"@-3,22 3"!r1u!A A(3A/G/F/|B(3A/A/B/ BE|
+V:3
+a|d"@-5,8 3"!r1d!d d"@-5,8 3"!r1d!d|d/c/d/e/ f/e/d/d/|A(3^A/B/=c/ ^c(3=c/B/_B/|Ac/d/ e/d/c/B/|d/e/f/F/ G^G|
+V:1
+L:1/16
+J^GABG WA2!mf!ec|dece BeAe|^GeAe Bece|dece BeAe|^GeAe Bece|
+V:2
+L:1/8
+EE EA|^GA GF|EF ^GA|^GA GF|EF ^GA/=G/|
+V:3
+L:1/16
+E2d2 c2ce|EeEe EeEe|EeEe EeEe|EeEe EeEe|EeEe EeA2|
+V:1
+L:1/16
+!f!eFAd fAdf|a2ab agfe|dFAd fAdf|a2ab agfe|(e/d/c/d/!decresc!f)e dcBA|
+V:2
+L:1/16
+FDFF AFFA|d2d2 c2AG|FDFF AFFA|.c2Nd2 cBAG|F2^GF B2F2|
+V:3
+L:1/8
+dd/A/ dd/G/|F/f/g aNc|dd/A/ dd/B/|A/a/_b aA|BF/^A/ Bc/d/|
+V:1
+L:1/8
+^G/A/d/c/ A/G/F/E/|!mf!F"@-3,28 3"!r1u!D !cresc!D"@-3,28 3"!r1u!D|D/F/A/d/ D/F/A/d/|[L:1/16]!f!Jc2"@-3,18 3"!r1d!A2 A2"@-3,22 3"!r1u!A2W|!cresc!Aceg Aceg|
+V:2
+L:1/8
+^GE/G/ .ANC|D"@-3,30 3"!r1u!A, A,"@-3,30 3"!r1u!A,|A,/D/F/D/ A,/D/"@-3,28 3"!r1u!F|E"@-3,28 3"!r1u!C D"@-3,28 3"!r1u!D|C/E/"@-3,22 3"!r1u!A C/E/"@-3,22 3"!r1u!A|
+V:3
+L:1/8
+e^g/e/ aA|d"@-3,28 3"!r1u!F F"@-3,28 3"!r1u!F|F/A/d/f/ F/A/d/^G/|A"@-3,22 3"!r1u!A _B"@-3,22 3"!r1u!B|NAc/d/ NA(3c/d/e/|
+V:1
+L:1/16
+fAdf edcd|.B2Ng2 Ng2fg|!f!efge d2c2|e4 d2:|
+V:2
+L:1/8 
+A/F/F/A/ G/FF/|.G!f!NLB _Bz|AA/G/ .FNF|NG2 F:|
+V:3
+L:1/8
+d/dd/ dd/d/|.GNd Dz|c/c/B/c/ .dNA|(3ABc d:|
+
+X:143
+T:The Devil's Flute
+C:W. Krug
+C: Arr. by John Ciaglia
+U:N=!tenuto!
+U:K=!crescendo(!
+U:V=!crescendo)!
+U:J=!diminuendo(!
+U:W=!diminuendo)!
+M:2/4
+L:1/16
+Q:1/4=90
+%%staves [1 2 3]
+K:G
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:(3(DEF)|.G2B2 ND4{EF}|.G2B2 d4|(ed).c.B cBAG|BAGF GFED{EF}|.G2B2 D4{EF}|.G2B2 d4|
+(ed).c.B cBAG|BAGF G2::GA|.B2d2 g2fe|(dg)dB A2BA|GABG ABcA|
+BcdB A2 GA|.B2d2 g2fg|(ag)fe d2ef|.g2Bc .d2D2|G4 z2::(3(DEF)|GFGA B2G2|
+AGAB c2A2|GBdg dBGg|dBGB .A2(3(DEF)|GFGA B2G2|AGAB c2A2|
+GBdg dBGA|.B2A2 .G2::d2|(gfg).e dBGB|(gfg).e d2ef|(gfg).e dBGB|
+(dg).d.B .A2d2|(gfg).e dBGB|(gfg).e d2ef|(gfg).e dBGA|.B2A2 .G2:|z2|
+V:2
+K:treble
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:z2|.D2G2 D4|.D2G2 B4|(cB).A.G EDCB,|.C2.B,2 .A,2.F,2|
+.G,2.G2 D4|.D2G2 B4|(cB)AG EDCB,|.^C2.=C2 .B,2::
+GF|.G2B2 d2c2|(Bd)BG F2DC|B,CDB, FGAF|GABG .F2GF|
+.G2B2 d2c2|^c2c2 d2=cA|.B2GA .F2C2|B,4 z2::
+(3(D^C=C)|.BABC D2B,2|FEFG A2F2|.B,2._B,2 .A2._A2|.G2.E2 .F2(3(D^C=C)|
+.BABC D2B,2|FEFG A2F2|.B,2._B,2 .A2._A2|.E2F2 .G2::
+d2|(Bcd).G BGGA|(Bcd).G F2cA|._B2.=B2 .G2.G2|.E2G2 .F2d2|
+(Bcd).^A BGG=A|Bcd.G F2cA|._B2.=B2 .G2.G2|.E2D2 .D2:|z2|
+V:3
+K:treble-8
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose -4
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:(3(d^c=c)|.B2d2 B2c2|.B2d2 g4-|g.^G.A.B cde2|._e2.d2 .^c2.=c2|
+.B2d2 B2c2|.B2d2 g2G2-|G^GAB cde2|.A2._A2 .G2::
+d2|GB(dg) bag2|(GA)Bc (dc)Bd|GG2G dd2d|G2g^c .d2z2|
+GB(dg) bag2|a2A2 d2D2|.d2z2 .d2(EF)|G4 z2::
+z2|.G2.G(3(c/B/A/) GFGA|d2A2 .d2.^c(3(=c/B/A/)|G2=f2 e2_e2|B2^c2 d2z2|
+.G2.G(3(c/B/A/) GFGA|d2A2 (3(_ed^c)dD|G2f2 e2_e2|^c2=c2 B2::
+d2|(GAB).c =fe_ed|(GAB).c d2d2|g2=f2 e2_e2|^c2_e2 d2d2|
+(GAB).c =fe_ed|(GAB).^c d2dd|g2=f2 e2_e2|^c2(3(=cdc) B2:|z2|
+
+X:144
+T:Prussia Variation 
+C:A. Terreri
+C:Played by N. J. Col. Militia
+M:2/4
+L:1/16
+K:Bm
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose -4
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+fe|:dLB2 LBLB2 z2|z4 Tf2ed|c2A2 A^GAB|cBcd Le2B2|dBF2 Ld2fd|B2f2 bfd2|
+z2Bc def(!tr2!g|[1 f)F2F B2fe:|[2 f)F2F B2F2|:LB3c dcde|f2f2 La2f2|f2La2 f2L^a2|f2f2 ^a2b2|
+[M:5/8]LB3c dcde f2|LB3c dcde f2|[M:3/8]Bcdef(!tr2!g[M:2/4]|[1 f)F2F B2F2:|[2 f)F2F B2fe|
+|:dLB2LB LB^ABc|dcde Tf2ed|cLA2A A^GAB|cBcd e2FF|.F.F L.BL.B .F.F L.dL.d|
+.B.B L.fL.f .d.d L.bL.b|z2 Bc def(!tr2!g|[1 f)F2F B2fe:|[2 f)F2F L.b2z2||
+
+X:145
+T:Contemporary Revolution
+C:Thos. Terreri, 1975
+U:N=!tenuto!
+U:K=!crescendo(!
+U:V=!crescendo)!
+U:J=!diminuendo(!
+U:W=!diminuendo)!
+M:C
+L:1/16
+Q:1/4=90
+K:G
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:!biga!!mp!K[AD][AD][dG][dG][BE][BE][fB]V[fB]!f! zL(aa)f edcA|\
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+K:treble
+|:G,G,CCA,A,[EA,][EA,] zL(aa)f edcA-|\
+V:1
+M:3/4
+e2ef edcA-A4||\
+V:2
+M:3/4
+A8 LGLELDLC||\
+V:1
+M:4/4
+!mp!K[AD][AD][dG][dG][BE][BE][fB]V[fB]!f! zL(aa)f edcA|
+V:2
+M:4/4
+G,G,CCA,A,[EA,][EA,] z(aa)f edcA-|
+V:1
+M:2/4
+e2eg ecA2:|\
+V:2
+M:2/4
+.A4 AE[E2A,2]:|\
+V:1
+M:4/4
+!bigb!LaecA LaecKA ceLVa2 aage|[M:5/4]ecAG zA zc eeze cczc AALcA|
+[M:4/4]GELae cALae cAce La2aa|[M:3/4]gecA GczA z4|[M:4/4]LaecA LaecKG ceLVa2 aage|
+dcAG zA zc eeze cczc|AALcA GELcA (3GEGLcA GEae|dALae cKAce La2aa gecA|[M:2/4] GczA z4||
+V:2
+M:4/4
+LaecA LaecA ceLa2 aage|[M:5/4]ecAG zA zc eeze cczc AALcA|
+[M:4/4]GELae cALae cAce La2aa|[M:3/4]gecA GczA z4|[M:4/4]LaecA LaecG ceLa2 aage|
+dcAG zA zc eeze cczc|AALcA GELcA (3GEGLcA GEae|dALae cKAce La2aa gecA|[M:2/4] GczA z4||
+V:1
+M:4/4
+|:!mf!KAAddBBff BBee^cc^gVg|[M:2/4]z(Laa)f edcA:|\
+V:2
+M:4/4
+|:[DG,][DG,][GC][GC][EA,][EA,][AD][AD] [EA,][EA,][AD][AD][^FB,][FB,][^A^F][^A^F]|[M:2/4]z(Laa)f edcA:|\
+V:1
+M:4/4
+!bigc!!mf!KAAddBBff BBee^cc^gVg-|
+V:2
+M:4/4
+[DG,][DG,][GC][GC][EA,][EA,][AD][AD] [EA,][EA,][AD][AD][^FB,][FB,][^A^FB,][^c-^F-B,-]|
+V:1
+M:5/4
+!f!^g16-g2ff-|f16-f2ee-|Je16-e4-|e8-W!p!e2z2 z4 z4"^(fine)"||
+V:2
+M:5/4
+[c16-F16-B,16-][c2F2B,2][BEA,][B-E-A,-]|[B16-E16-A,16-] [B2E2A,2][ADG,][A-D-G,-]|[A16-D16-G,16-][A4-D4-G,4-]|[A8-D8-G,8-][A2D2G,2]z2z4z4||
+V:1
+M:4/4
+L:1/4
+!bigd!Ke ^f ^g Va-|a J^f3W|Ke ^f ^g Va-|a =g2 b-|b J^f3-|f2 WKe a-V|
+a J^f3-|f2W Ke a-V|Ja g2W K=f-|f V!ff!Lb3-|b2 Lf Lb-|b4|La Lb3-|Jb2-Wb/z/ z|
+V:2
+M:4/4
+L:1/4
+[ADG,][BED,][^c^FB,][d-G-C-]|[dGC] [B3G3A,3]|[ADG,][BEA,][^c^FB,][d-G-C-]|[dGC] [^c2^F2^A,2] [e-A-D-]|
+[eAD] [B3-E3-A,3-]|[B2E2A,2] [ADG,][d-G-C-]|[dGC] [B3-E3-A,3-]|[B2E2A,2] [ADG,][d-G-C-]|[dGC] [=c2=F2_B,2] [^A-^D-^G,-]|
+[ADG,] [Le3-A3-D3-]|[e2A2D2] [LBEA,][Le-A-D-]|[e2-A2-D2-][e2A2D2]|[LdGC][Le3-A3-D3-]|[e2-A2-D2-][e/A/D/]z/ z|
+V:1
+M:4/4
+L:1/16
+|:z4z4 !mp!AAddBBff|z16|!cresc!AAddBBff BBee^ccL^gg:|[M:3/4]z4 !f!Laa z2 z2 !ff!Lbb!D.C.!||
+V:2
+M:4/4
+L:1/16
+|:z4 z4 [DG,][DG,][GC][GC][EA,][EA,][BEA,][BEA,]|z16|[DG,][DG,][GC][GC][EA,][EA,][GE][GE] [EA][EA][AD][AD][^FB,][FB,][^cFB,][cFB,]:|\
+[M:3/4]z4 [dGC][dGC] z2 z2 [eAD][eAD]||
+V:1
+M:4/4
+L:1/16
+!bige!!mf!K[AD][AD][dG][dG][BE][BE][fB][fB]V z(aa)f edcA|[M:3/4]e2eg edcA-A4|[M:4/4]AAddBBff BBee^cc^gg|
+z(Laa)f edcA e2eg ec"^From (B) to fine"A2:||
+V:2
+M:4/4
+L:1/16
+G,G,CCA,A,[EA,][EA,] z(aa)f edcA-|[M:3/4]A8 GEDC|[M:4/4][DG,][DG,][GC][GC][EA,][EA,][BE][BE] [EA,][EA,][AD][AD][^FB,][FB,][^cF][cf]|z(Laa)f edcA-A4 AE[EA,]:|
+
+X:146
+T:Kater Tacawitha
+T:(American Indian Saint)
+C:A. Terreri
+M:2/4
+L:1/16
+Q:1/4=110
+K:D
+%%staves (1 2 3 4)
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:!biga!BfBf BfBf|BfBf BfBf|([d=F][B3^F3]) [B2F2][B2F2]|([d=F][B3^F3]) [B2F2][B2F2]::\
+"^Mountain Hornpipe"B2df Bfdf|A2ce Aece|
+B2df Bfdf|ecAB cBB2::d2fd adfd|A2cA eAcA|B2df Bfdf|ecAB cBB2:|\
+([d=F][B3^F3]) [B2F2][B2F2]|([d=F][B3^F3]) [B2F2][B2F2]||
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+L:1/4
+|:x2|x2|x2|x2::x2|x2|x2|x2::x2|x2|x2|x2:|x2|x2|
+V:3
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+L:1/4
+|:x2|x2|x2|x2::x2|x2|x2|x2::x2|x2|x2|x2:|x2|x2|
+V:4
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+L:1/4
+|:x2|x2|x2|x2::x2|x2|x2|x2::x2|x2|x2|x2:|x2|x2|
+%%staves [1 2 3 4]
+V:1
+L:1/8
+!bigb!f>"^Interlude"f f/f/f|f2 f2|f>f f/f/f|f2 f2|e>e e/e/e|e2 e2|^a4-|^a4||:!bigc!ff|"^Theme"f>f|ff|f2:|
+V:2
+L:1/8
+d>d d/d/d|d2 d2|d>d d/d/d|d2 d2|d>d d/d/d|d2 d2|c4-|c4||:dd|d>d|dd|c2:|
+V:3
+L:1/8
+B>B B/B/B|B2 B2|B>B B/B/B|B2 B2|B>B B/B/B|B2 B2|E4-|E4||:BB|B<B|BB|F2:|
+V:4
+L:1/8
+^G>G G/G/G|^G2 G2|A>A A/A/A|A2 A2|^G>G G/G/G|^G2 G2|F4-|F4||:"^Melody"!8(!FG|F<D|FG|A2:|
+V:1
+L:1/4
+|:ff|f>f|f/ff/|f2::ff|f2|ff|f2|ff/z/|ff/z/|f/ff/|[1 f2:|[2 f z/B//c//||
+V:2
+L:1/4
+|:dd|d<d|A/AA/|d2::BA|d2|BA-|A2|BA/z/|BA/z/|A/Ac/|[1 d2:|[2 d z/B//c//||
+V:3
+L:1/4
+|:BB|B<B|F/FF/|F2::FF|F2|FF-|F2|FF/z/|FF/z/|F/FF/|[1 f2:|[2 F z/B//c//||
+V:4
+%%MIDI transpose -4
+L:1/4
+|:FG|F<D|c/cA/|B2::dc|B2|dc-|c2|dc/z/|dc/z/|c/cA/|[1 B2:|[2 B z/B//c//||
+%%newpage
+%%staves (1 2 3 4)
+V:1
+%%MIDI transpose 8
+L:1/16
+|:!bigd!d2f"^Pretty Girl Milking a Cow"e c2ed|BAF2 z2Bc|ddfe cced|B2F2 B2Bc|d2fe c2ed|BAF2 BAF2|"^(Bass drum)"z2 z2 fedc|
+[1 BF2d B2Bc:|[2 BF2d B2A2|:defg a2fd|cBA2 z2A2|defg a2fa|B4-B2B2| 
+a2fd e4|a2fd e2|z2 z2 fedc|[1 BF2d B2A2:|[2 BF2d B4||"^Interlude"([d=F][B3^F3]) [B2F2][B2F2]|([d=F][B3^F3]) [B2F2][B2F2]||
+|:!bige!B2d2 "^Dvorak"dcB2|ce2c e4|d2B2 (3(Bcd)d2|[1 cdcA B4:|[2 cdcA B2F2||B2d2 ddcB|c2Ac edcd|
+B2FF BBd2|(3(cdc)Ac e2de|f2B2 dfed|c2Ac edcd|B2FF BBd2|(3(cdc)AA B4||
+|:!bigf!fB2f B2de|f2af ede2|fB2f B2ed|cAce a4|fB2f B2de|f2af ede2|fB2f B2de|
+fdec B4:|!bigg!([d=F][B3^F3]) [B2F2][B2F2]|([d=F][B3^F3]) [B2F2][B2F2]||!bigh!B2d2 "^Dvorak"dcB2|cez2 z4|d2B2 Bcd2|cAz2 z4|
+B2d2 dcB2|cez2 z4|dcB2 z4|dcB2 z2Bc|d2fe c2ed|BAF2 BAF2|"^Bass""^Drum"z2 z2 fedc|.B .F2 .d .B2 z2||
+
+%%newpage
+X:147
+T:Telemann To Vivaldi
+T:Concerto fo the Fife
+C:Arr. by A. Terreri
+M:2/4
+L:1/16
+Q:1/4=100
+%%staves (1 2 3)
+K:A
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+!bigac!a4 ABcd|e2a2 A4|e4 EFGA|B2e2 E4|f4 f=gfe|d2f2 B4|e4 efed|c2a2 B2g2|aEFGABcd||
+!bigbc!ea"^Tutti Forte"ga caga|Aaga ABcd|ee^de Bede|Ee^de f=gfe|defd BcdB|GABA efed|c2a2 B2g2||
+!bigcc!aga2 A2ag|a2B2 aga2|c2ag a2d2|aga2 [f4-A4-D4-]|[f2A2D2] dc d2F2|dcd2 G2dc|d2A2 d2cd|[g4-B4-D4-][g2B2D2] gf|
+g2B2 gfg2|=c2gf g2d2|gfg2 [e4-c4-A4-]|[e2c2A2] =ga g2e2|cdc2 =G2cd|B2=G2 cdBd|efdf cdBd||
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+x8|x8|x8|x8|x8|x8|x8|x8|x8||x8|x8|x8|x8|x8|x8|x8||x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8||
+V:3
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+x8|x8|x8|x8|x8|x8|x8|x8|x8||x8|x8|x8|x8|x8|x8|x8||x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8||
+%%staves [1 2 3]
+V:1
+|:!bigdc!efdf efdf|efdf efdf|efdf efdf|efdf efdf:|
+V:2
+|:z4     cdBd|EBGB EBGB|EBGB EBGB|EBGB EBGB:|
+V:3
+|:[e4B4=G4-][e4B4=G4-]|[e4B4=G4-][e4B4=G4-]|[e4c4=G4-][e4c4=G4-]|[e4c4=G4-][e4c4=G4]:|
+%%staves [1 (2 3)]
+V:1
+!bigec!d2D2 zEFG|AFdA fAdA|a2A2 zBcd |ecaA  cAae|f4-  fgfe|defd BcdB|
+e2E2 zfed|cdec ABcA|d4-  ded=c|B=cdB GABG|efed cdec|gagf efge|
+V:2
+d2D2 z4  |zEFG AFdA|a2A2 z4   |zBcd ecaA|f2F2 z4  |BcdB defe|
+efed cdcB|A4   cdec|B4-  B=cBA|GABG BcdB|cdeB GABA|cccc efge|
+V:3
+x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|
+%%staves (1 2 3)
+V:1
+"^Unison"=cgBg ^AgBg|=cgBg ^AgBg|^cgdg Bgdg|^cgdg Bgdg|
+V:2
+x8|x8|x8|x8|
+V:3
+x8|x8|x8|x8|
+%%staves [1 (2 3)]
+V:1
+!bigfc!
+Bgdg Bgdg|Bg dg Bg dg|Af cf Af cf|Af cf Af cf|Ge Be Ge Be|
+Ge Be Ge Be|Fe ce Fe ce|Fe ce Fe ce|Df Bf Df Bf|Df Bf Df Bf|
+Dg Bg Dg Bg|Dg Bg Dg Bg|D^g Bg Dg Bg|D^g Bg Dg Bg|
+V:2
+G4 GAB=c|dBgB d4|F4 FGAB|cAfA f4|E4-EFGA|
+BGeE B4|F4-F^G^A^B|cFeF ^A4|B4-Bcde|fBdB f4|
+B4-Bdef|gBdB g4|B4-Bdef|^gBdB g4|
+V:3
+x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|
+%%staves (1 2 3)
+V:1
+"^Unison"[^a2d2^G2][a4d4G4][a2-d2-G2-]|[^a2d2^G2][a4d4G4][a2d2G2]|bfdB fdBF|[M:2/8]DF Bd|
+V:2
+x8|x8|x8|[M:2/8]x4|
+V:3
+x8|x8|x8|[M:2/8]x4|
+%%staves [1 (2 3)]
+V:1
+M:2/4
+L:1/4
+^G//B//d//f// [^g-BD]|[^g-BD][g-BD]|[^g/B/D/][g/B/D/][f-AD]|[f-AD][f-AD]|[f/-A/D/][f/A/D/][^g-BD]|[^g-BD][g-BD]|
+[^g/B/D/][g/B/D/][f-AD]|[f-AD][f-AD]|[f/-A/D/][f/A/D/][^g-BD]|[^g-BD][gBD]|\
+L:1/16
+!biggc!ceee eeee|Beee deee|
+ceee eeee|Beee deee|ceee eeee|ceee eeee|Beee eeee|Beee eeee|
+dfff ffff|=ceee eggg|dfff ffff|=ceee eggg|dfff ffff|dfff ffff|
+=ceee eeee|=ceee eeee|[^g8-B8D8]|[^g4-B4D4][g2B2D2][g2B2D2]|[f8-A8D8]|[f4-A4D4][f2A2D2][f2A2D2]|
+[^g8-B8D8]|[^g4-B4D4][g2B2D2][g2B2D2]|[f8-A8D8]|[f4-A4D4][f2A2D2]([f2A2D2]|[^g8B8D8])|[^g4B4D4] z4||
+V:2
+L:1/16
+z4[^GE][GE][GE][GE]|[^GE][GE][GE][GE] [GE][GE][GE][GE]|[^GE][GE][GE][GE] [FD][FD][FD][FD]|[FD][FD][FD][FD] [FD][FD][FD][FD]|
+[FD][FD][FD][FD] [^GE][GE][GE][GE]|[^GE][GE][GE][GE] [GE][GE][GE][GE]|[^GE][GE][GE][GE] [FD][FD][FD][FD]|
+[FD][FD][FD][FD] [FD][FD][FD][FD]|[FD][FD][FD][FD] [^GE][GE][GE][GE]|[^GE][GE][GE][GE] E4|[c8(A8]|[G4)(B4] [d4B4]|
+[c8)(A8]|[G4)B4] [d4B4]|[c8(A8]|[c8A8)]|[B8(G8]|[B8G8)]|[d8(F8]|[E4)(=c4][e4)G4]|[d8(F8]|[E4)(=c4][(e4)G4]|
+[d8)A8-]|[d8A8-]|[=c8A8-]|[=c8A8]|z[^GE][GE][GE] [GE][GE][GE][GE]|[^GE][GE][GE][GE] [GE][GE][GE][GE]|[AF][AF][AF][AF] [AF][AF][AF][AF]|
+[AF][AF][AF][AF] [AF][AF][AF][AF]|^GGGG GGGG|^GGGG GGGG|AAAA AAAA|AAAA AAAA|BBBB BBBB|B4 z4||
+V:1
+!bighc!ceAe ceAe|ceAe ceAe|[e8-c8A8]|[e4c4A4][e4c4A4]|dfAf dfAf|dfAf dfAf|[f8-d8D8]|
+[f4-d4D4][f4d4D4]|e^gBg egBg|e^gBg egBg|[^g8-B8D8]|[^g4-B4D4][^g4B4D4]||
+V:2
+ceAe ceAe|ceAe ceAe|AAAA AAAA|=GGGG GGGG|F8-|F8|BBBB BBBB|
+AAAA AAAA|^G8-|G8|[e^G][eG][eG][eG] [eG][eG][eG][eG]|[d^G][dG][dG][dG] [dG][dG][dG][dG]||
+V:1
+!bigic!
+[ac]ccc ccdd|eeee ee (3(fed)|[ac]ccc ccdd|eeee ee (3(edc)|BBBB BBcc|
+dddd dd (3(edc)|BBBB BBcc|dddd dd (3(fdA)||!bigjc!FFFF AA dd|f4 z4|GGGG BB dd|g4 z4||
+|:!bigkc!FFFF AA dd|GGGG BB ee:|\
+L:1/8
+FA LdG|BLe FA|LdG BLe|(3FALd (3GBLe|(3FALd (3GBLe|
+L:1/16
+FAdG BeFA|dGBe FAdG|[g8-B8D8]|[g8B8D8]|"^Finale"[acE]ccc cc dd|e4-e2 (3(fed)|[acE]ccc cc dd|
+e4-e2 (3(fed)|[ac][ac][ac][ac] [ac][ac][ac][ac]|\
+[aB][aB][aB][aB] [gB][gB][gB][gB]|[a4c4] z4|"^Unison"c2a2B2g2|a4 z4|ceAe ceAe|ceAe ceAe|[e8-c8A8]|[e8-c8A8]|[e4c4A4] z4||
+V:2
+AAAA AABB|cccc cc (3(dcB)|AAAA AABB|cccc cc (3(cBA)|GGGG GGAA|
+BBBB BB (3(cBA)|GGGG GGAA|BBBB BB (3(dAF)||DDDD FF AA|d4 z4|EEEE GG BB|d4 z4||
+|:DDDD FFAA|EEEE GG [BG][BG]:|\
+L:1/8
+DF AE|GG DF|AF GG|(3DFA (3DGG|(3DFA (3DGG|\
+L:1/16
+FAdG BeFA|dGBe FAdG|
+EEEE EEEE|DDDD DDDD|AAAA AA BB|c4-c2 (3(dcB)|AAAA AA BB|c4-c2 (3(dcB)|EEEE EEEE|
+EEEE EEDD|[A4E4] z4|c2a2B2g2|a4 z4|ceAe ceAe|ceAe ceAe|[e8-c8A8]|[e8-c8A8]|[e4c4A4] z4||
+
+X:148
+T:Handel's Gavot, with Variations
+M:C|
+L:1/4
+Q:1/2=80
+K:D
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:A|d2fd|dAGF|Ee-ed|dcBA|d2fd|B2ge|fagf|fedc|d2fd|dAGF|
+Ee2d|dcBA|G2(3BGE|F2(3AFD|E2c2|d3::A|dfad|dcBA|Gb2d|dcBA|
+Gb2G|Fa2F|Eg2f|fedc|dfBf|AdFd|Ee2d|dcBA|G2(3BGE|
+F2(3AFD|E2c2|d3::"^Var. 1st."A|dfBd|AdFd|Ee2d|dcBA|dbca|BgAg|fab/a/g/f/|
+fedc|d/e/f/d/ B/c/d/B/|A/B/A/G/ Fd|Ee2d|dcBA|G2(3BGE|F2(3AFD|E2c2|d3::
+[L:1/8]"^Var. 2d."A2|defd BcdB|ABAG GFED|E2e4d2|d2c2B2A2|dcdf b2d2|cAce a2A2|BABd gfed|
+d2c2B2A2|dfBd Ad Dd|ceAd FADd|E2e4d2|d2c2B2A2|GFGA BABG|FEFG AGAF|E4 c4|d6::
+"^Var. 3d."A2|dfad ceaA|BdgB BAGF|G2b4d2|dced dcBA|dAdA b2d2|cAcA a2A2|BGAB cdef|
+gfed dcBA|defd BGdB|AFdA GFED|c/A/B/c/d/e/f/^g/ a2 d2|dcec A2F2|G4 BGdG|F4 AFdF|E4c4|d6::
+[L:1/4]"^Var. 4th."A|(3def (3Bcd|(3AdA (3FGA|(3Eee (3efd|(3cec A>c|(3daa a>d|(3 caa a>A|(3Bcd (3efg|(3fed (3cBA|
+(3def (3Bcd|(3ABG (3FGA|(3Eee e2|(3cec (3AGF|G>B (3eGE|F>A (3dFD|E2 c2|d3::
+[L:1/8]"^Var. 5th."A2|dfa2 cea2|Bdg2 Adf2|GBe2 FAd2|d2c2 f/(e/d/c/)B2|GBe2 FAd2|GBe2 FAd2|
+GBe2 FAd2|d2c2B2A2|dfa2 cea2|Bdg2 Adf2|GBe2 FAd2|FAe2 AFG2|G4 (e/d/).c/.B/.A/.G/.F/.E/|
+F4 (d/c/)B/A/G/F/.E/.D/|E4 c4|d6::"^Var. 6th."A2|dfBd AdFd|GdFd EdDd|ceAe ceAe|
+ceAa A2a2|dbca BgAf|GeFd GeFd|dAeA aA cA|d2c2B2A2|dfBd AdFd|GdFd Ed Dd|cAeA aA cA|
+d2c2B2A2|dbed ceAc|df AG FADF|E4 c4|d6::[L:1/32]"^Var. 7th."A8|d'24 d'c'bagfed|
+b24 bagfedcB|g24 gfedcBAG|[L:1/16]d2f2A2d2 F2A2D2d2|dABcdef^a b4d4|
+cABcdef^g a4A4|BGAB cdef gaba gfed|cdef edcB ABAG GFED|
+[L:1/32]d'24 d'c'bagfed|b24 bagfedcB|g24 gfedcBAG|
+[L:1/16]d4 {e}c3dB3c A4|BGABcdef bagf edcB|AFGA Bcde fedc BAGF|E8 c8|d12::
+[L:1/4]"^Var. 8th."A|dbca|BgAf|GeFd|dcBA|[L:1/16]d4 Tb3a/b/ c2a2 Ta3g/a/|
+B2g2 Tg3f/g/ A2f2 f3d/e/|B2e2 Te3d/e/ F2d2 Td3c/d/|[L:1/4]dcBA|dbca|BgAf|
+GeFd|dcBA|[L:1/16]G3G TG3F/G/ gfed cBAG|F3F TF3E/F/ fedc BAGF|E8 c8|d12:|
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+L:1/4
+|:A|F2AF|F2ED|GG2F|E2GF|F2AF|G2Bc|dfed|A2FE|F2AF|F2ED|GG2F|E2GF|E2E2|
+D2DF|G2E2|F3::A|FAFB|BAGF|EG2^G|A2GF|EG2E|DF2D|GB2A|AGFE|FAGB|
+FADF|GG2^G|A2GF|E2E2|D2DF|G2E2|F3::A|FAGB|F2DF|GG2^G|A2GF|
+FGEF|DBCE|DFGG|A3G|F/G/A/F/ G/A/B/G/|F/G/F/E/DF|GG2^G|A2GF|E2E2|D2DF|G2E2|F3::
+[L:1/8]A2|FGAF GABG|FGFE EDGF|G2G4^G2|A4G2F2|F2A2G2B2|A2G2F2F2|G4 BAGF|F2E2G2F2|FAGB FAFA|
+G2F2D2F2|G2G4^G2|A4G2F2|EDEF GFGE|DCDE FEFD|G4E4|F6::A2|FAFA GAGA|GBEG GFED|
+E2G4^G2|A4 z2GF|F2F4F2|G2G4F2|G4A4|B4A2GF|FGAF GEBG|FDAF EDGF|
+E2B2A2F2|E2E2A2D2|E4E2E2|D4D2D2|G4E4|F6::[L:1/4]A|(3FGA (3GAB|(3FAF (3DEF|(3GGG (3GGG|
+A2 z2|(3FGG G>F|(3EFF F>F|(3GGF (3GFE|(3AGF E>A|(3FGA (3GAB|(3FGE (3DEF|(3GGG ^G2|
+A2zD|E2 (3GEC|D2 (3FAF|G2E2|F3::[L:1/8]A2|FAFA GAGA|GBEB FADA|EGBG DFAF|F2E2 d/c/B/A/G2|
+EGBG DFAF|EGBG DFAF|EGBG DFAF|B2A2G2F2|FAFA GAGA|GBEB FADA|EGBG DFAF|DFA2 FDE2|
+E4 E4|D4 D4|G4 E4|F6::[L:1/4]A|F/FFFF/|.B.A.G.F|AcAc|AcAe|
+gfed|cdcd|AcAc|^GAEA|F/FFFF/|.B.A.G.F|AccA/A/|
+BA^GA|[L:1/8]BGGF GG2G|FDFE DFFA|G4 E4|F6::[L:1/16]z4|DFAF DFAF DFAF DFAF|DGBG DGBG DGBG DGBG|EGBG EGBG EGBG EGBG|
+[L:1/4]F/FF/ D/FF/|F/FF/DF|E/ED/CF|GABB//A//G//F//|E^GAz|
+[L:1/16]DFAF DFAF DFAF DFAF|DGBG DGBG DGBG DGBG|EGBG EGBG EGBG EGBG|^G4A4E4A4|G2G4F2 gfed cBAG|
+F2F4F2 dcBA GFED|G8 E8|F12::[L:1/4]z|FGAF|GEFD|ECDd|BAGF|[L:1/16]B2G2 TG3F/G/ A2F2 TF3E/F/|G2E2 TE3D/E/ F2E2 TD3C/D/|
+D2G2 TG3F/G/ D2F2 TF3E/F/|[L:1/4]BAGF|GBAF|GEFD|DCDF|BAGF|[L:1/16]E3E TE3D/E/ BAGF AGFE|D3D TD3C/D/ dcBA GFED|G8 E8|F12:|
+
+X:149
+T:An Italian Duet.
+M:3/4
+K:G
+V:1
+L:1/4
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:.d.d.e|.d.d.e|d c/B/A/G/|FE/F/D|.B.B.c|.d.d.c|.B.B.c|
+.d.d.c|BGF|G2A|[L:1/8]BdBdBd|BdBdBd|BdBdBd|A4e2|fafafa|
+eaeaea|f2d2^c2|D6::[L:1/4].a.a.b|.a.a.b|ag/f/e/d/|^cB/c/A|.f.f.g|
+.a.a.g|.f.f.g|aag|fd^c|[L:1/8]d3 ABc|[L:1/4].d.d.e|.d.d.e|dc/B/ A/G/|
+FE/F/D|.B.B.c|.d.d.c|.B.B.c|.d.d.c|BA/G/F/A/|G3:|
+V:2
+L:1/8
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:BGBGBG|BGBGBG|B2AGFE|D4z2|GDGDAD|BDBDAD|GDGDAD|BDBDAD|G2B2A2|G2D2F2|G2B2G2|F2D2F2|
+G2B2G2|F2D2A2|d2f2d2|^c2A2c2|d2G2A2|F6::fdfdgd|fdfdgd|f2ed^cB|A4z2|dAdAeA|fAfAeA|dAdAeA|
+fAfAeA|d2G2A2|D4z2|BGBGcG|BGBGcG|B2AGFE|D4z2|GDGDAD|BDBDAD|GDGDAD|BDBDAD|G2FGAF|G6:|
+
+X:150
+T:Minuet
+C:By Perotto
+M:3/4
+L:1/16
+K:A
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:c2z2 d2zc e2zc|(dc)Bc B4-B2z2|B^ABc dcde =gfe>d|d2zc c4-c2z2|[L:1/8].e>.d .c.c.d.d|.e>.d .c.c.d.d|
+e2 fedc|e/d/c/d/ B2 Bz::[L:1/16]Bdfd Bdfd Bdfd|ceae ceae ceae|Bdfd Bdfd Bdfd|
+ceae ceag fedc|f2z2 faga bagf|Tfe z e e2f2g2a2|gfed Tdc z e edcB|B2zA A4 A2z2:|
+V:2
+L:1/16
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:A2z2 A2zA c2zA|B2zE E4-E2z2|[L:1/8].G.A.B.c dz/B/|Bz/A/ A2-Az|.c>.B .A.A.B.B|.c>.B .A.A.B.B|
+c2 dcBA|Bz/E/ E2 Ez::.G.B .G.B .G.B.|.A.c .A.c .A.c|.G.B .G.B .G.B|.A.c .A.c .A.c|
+dz d>f e>d|d/c/ z/ c/ cdef|dz/B/ Az/E/ E>E|Ez/A/ A2 Az:|

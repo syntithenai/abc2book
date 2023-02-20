@@ -1,0 +1,42 @@
+X: 1
+T: Happy Meeting
+P: Longways for as many as will
+%R:
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.43 #76
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.206
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat added to satisfy the "first Strain played twice" instruction in DMDfD.
+M: 3/2
+L: 1/4
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+FB2d cB | c2 A2 F2 | fb2B Bc | (B/c/d) c>B B2 |\
+Bd2f ba | g2 =e2 c2 | fa2c' fg | a2 g>f f2 :|
+[|\
+fb2a g2 | eg2f e2 | cf2e de | c3 B c2 |\
+(d/e/)f (d/e/)f cf | (d/e/)f (d/e/)f cf | c2 (ef) (ed) | c4 B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. go the Figure thro' the 2d Cu. then
+%% cross over above into the 2d Cu. Place, the other
+%% Cu. do the like :| Both Cu. clap Hands with their
+%% Partners, the 1st Cu. cast off, then right and left
+%% with your Partners quite round; the 2d Cu. being
+%% in the 1st Cu. Place, clap Hands and cast off, then
+%% right and left as before.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%    The 1. cu. go the Figure through the 2. cu. and then cross over above into the 2. cu. place, the
+%% other cu. do the like.  This to the first Strain played twice.
+%%    Both cu. clap hands with their Partners, the 1. cu. cast off, then right and left with your Partners
+%% quite round; the second cu. being in the 1. cu. place, clap hands and cast off, then right and left at
+%% before.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

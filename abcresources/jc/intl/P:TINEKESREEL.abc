@@ -1,0 +1,18 @@
+X: 50
+T:Tineke's Reel
+O:Netherlands
+M:2/4
+L:1/8
+K:Dm
+%%MIDI program 27
+%%MIDI bassprog 45
+%%MIDI chordprog 45
+%%MIDI gchord fc
+|:(3AB^c         |"Dm"dAdf|"A"eAeg |"Dm"f2 d2-|\
+  d2 z/2F/2G/2A/2|"Bb"BdcB|"Dm"Adde|fagf      |
+  "A"e2 (3AB^c   |"Dm"dAdf|"A"eAeg |"Dm"f2 d2-|\
+  d2 z/2F/2E/2G/2|"Bb"dcBA|"Gm"GFGA|"Dm"FzEz  |[1D2 :|[2 D4|
+|:"Gm"z2d2       |"C"g2e2 |"Gm"g2e2|"Dm"f2d2  |\
+  f2d2           |"C"g2e2 |g2e2    |"Dm"f2z2  |
+  "Gm"z2d2       |"C"g2e2 |g2e2    |"Dm"f2d2  |\
+  f2d2           |"Gm"g2f2|"A"e2^c2|"Dm"d2z2  :|

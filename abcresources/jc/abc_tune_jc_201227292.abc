@@ -1,0 +1,30 @@
+X: 10711
+T: ASSEMBLY WALTZ
+C: John Turnbull
+Q: "Copyright."
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.71 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Bars 3,4 of the 3rd strain have overlapped slurs: The ed notes in bar 3 are slurred, and the d is also slurred to the e in bar 4.
+N: The last strain has a final repeat symbol, but there are no other repeat symbols anywhere; not fixed.
+M: 3/8
+L: 1/16
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+GA !p!|\
+"_>".B2(g2e2) | "_>".B2(g2e2) !f!| b3afg | e2d2c2 !p!|\
+"_>".B2(g2e2) | "_>".B2(g2e2) | ("_>"B3AGA | F2G2A2) |\
+!p!"_>".B2(g2e2) | "_>".B2(g2e2) !f!| b3afg | agfedc |\
+.B2(e2B2) | .c2(f2c2) | defbBb | "^Fin."e4 H|]
+g2 |\
+fd B2.b2 | ge B2b2 | aaa2a2 | ggg2z2 |\
+fd B2b2 | ge B2e2 | _ddd2d2 | ccc2z2 |\
+B2bBb2 | B2aBa2 | B2gBg2 | fedcBA |\
+"_>"G2(g2e2) | "_>"E2(g2e2) | defbBb | e4 |]
+e2 |\
+e2d2c2 | G2gGg2 | f2e2(d2 | e2)c2d2 |\
+G2z2 (3(ABA) | G2z2 d'2 | g2z2 (3(aba) | g2z2 f2 |\
+(=e2f2g2) | f2-fFf2 | d2e2f2 | e2-eEe2- |\
+e2d2c2 | =B2z2 (3(gag) | G2z2 (3(gag) | "^D.C."c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

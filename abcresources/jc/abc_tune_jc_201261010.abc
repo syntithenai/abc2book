@@ -1,0 +1,24 @@
+X: 1
+T: Cellosaurus Stomp
+C: Music & Lyrics by Andy Reiner
+C: Dance by Joy Adams
+R: reel
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+S: Email attachment for Fiddle Hell 2015
+M: C|
+L: 1/8
+K: Ddor
+%%vocalfont Helvetica-Narrow-Bold 16
+"A"\
+|:\
+"D5"DEFG A2c2 | d2cA c2A2 | "F"d2cA c2A2 | "G"F2G2 G2F2 |
+"D5"DEFG A2c2 | d2cA c2A2 | "F"F2G2 D2G,2 | "D5"[C2C,2][D2D,2] [D4D,4] :|
+"B"[|]\
+"G"B2D2 G2A2 | BABc B2cB | "D5"A2D2 FED2 | C2D2 D2dc |
+"G"B2D2 G2A2 | BABc B2cB | "D5"A2D2 FED2 | C2D2 D4 ||
+"G"G,G,G,G, G,2z2 | GGGG G2z2 | "D5"DD2D F2D2 | DDDD C2A,2 |
+w: Lyrics:~bass-a-sau-rus rex cel-lo-cer-a-tops vi-o-la-rap-tor vi-o-lin-a-dac-tyl
+w: Dance:~right foot (up)* stomp left foot (up)* stomp down** up* turn* around***
+"G"G,G,G,G, G,2z2 | GGGG G2z2 | "D5"DD2D F2A2 | dddd d4 |]
+w: bass-a-sau-rus-rex cel-lo-cer-a-tops vi-o-la-rap-tor cel-lo-sau-rus stomp!
+w: right foot (up)* stomp left foot (up)* stomp down** up* turn around* and stomp!

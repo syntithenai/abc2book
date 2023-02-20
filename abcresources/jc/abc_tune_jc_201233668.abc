@@ -1,0 +1,27 @@
+X: 20062
+T: MADAME VANDERCOURT
+C: Dibdin.
+Q: "Not too quick."
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.6 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f |\
+d2B c2F | d2B c2z | BBB c2c | d2f c2f |\
+d2B c2F | d2B c2F | d2d e2e | f2b f2e |\
+{e}d2g f2A | {c}B2B B2d | {d}c2c cde |
+f2d d2z |\
+f>gf fg_a | b2g g2g | g2f e2d | c2c d2e |\
+f2e d2c | B2B c2d | e2c d2B | A2c HF2f |\
+d2B c2F | d2B c2F |
+B2B c2c | d2f c2f |\
+d2B c2F | d2B c2F | d2d e2e | f2b Hf2e |\
+d2g f2A | B2d G2B | E2b e2A | B2d G2B |\
+E2g f2A | B2B B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

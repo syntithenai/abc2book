@@ -1,0 +1,815 @@
+%%maxshrink 1
+%%scale 0.4
+
+X: 1
+T: Old-Time Tunes p.1
+K: C
+%
+[K:D]\
+[L:]\
+[|""a2 ag fefg|a2 ag fefg|]\
+[K:Amix]\
+[L:1/8]\
+[|"8A. THE CUCKOO'S NEST"ef/^g/ | a6 a2 | bae2 e3f | g2f2 g2g2 |]\
+[K:G]\
+[L:1/8]\
+[|"12. REEL"Hd>c | BG2B A2Ac | BGBd [g2B2]e>d |]\
+[K:D]\
+[L:1/8]\
+[|"13. QUADRILLE"A | F2A [d2D2]F | A[AG][AF] [AE][AF][AG] |]
+P:
+[K:D]\
+[L:1/8]\
+[|"14. ROLLING OFF A LOG"D2F A2d | f2d A2F | G2G [e2A2G2]d |]\
+[K:D]\
+[L:1/8]\
+[|"15. THE BONNY MAID"z2  FA2B d3B | ABAF E2D2 |]\
+[K:G]\
+[L:1/8]\
+[|"16. LEATHER BREECHES"DGBG AGBG | DGBG AGEG |]\
+[K:A]\
+[L:1/8]\
+[|"18. BUTTERMILK AND CIDER"A2- | AcBA FAE2 | Aceg f2g2 |]
+P:
+[K:D]\
+[L:1/16]\
+[|"19. THE ROAD TO BOSTON"f6 (3eef g2f2e2d2 | c2d2e2f2 d2AA F>FA2 |]\
+[K:D]\
+[L:1/8]\
+[|"Angeline the Baker"A2B2 d3A | B2d2- d4 | A2B2 d2A2 |]\
+[K:C]\
+[L:1/16]\
+[|"Angle Cain Tune"G(B|c2) G2 E2 G2| (cBc)d e2d(c|]\
+[K:D]\
+[L:1/16]\
+[|"Arkansas Traveler"H[D4D4] | vDEFD B,2B,2 | A,A,A,A, D2D2 |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Aunt Mary's (Canadian) Jig"A | f2f fga | d3- dcB | ABA AGF |]\
+[K:D]\
+[L:1/8]\
+[|"Aunt Mary's Jig"de | f2f f>ga | d3 dcB |]\
+[K:D]\
+[L:1/8]\
+[|"Aunt Mary's (Canadian) Jig"f2f fga | d3 dcB | ABA AGF |]\
+[K:A]\
+[L:1/16]\
+[|"Bake Them Hoe-Cakes Brown"[c2E2][c2E2] [c2E2][c2E2] | [d2F2][d2F2] [d2F2][d2F2] | [c2E2][c2E2] [c2E2][c2F2] |]
+P:
+[K:Amix]\
+[L:1/8]\
+[|"Benton's Dream"e2 |[a6c6] e2 | [g6B6] f2 | e3f edcB |]\
+[K:Amix]\
+[L:1/8]\
+[|"Betty Likens"e2- | edef gfgf | ecef a2af |]\
+[K:D]\
+[L:1/8]\
+[|"the Big Mule"DB, | A,B,D2 D2D2- | DFA2 BAAA |]\
+[K:G]\
+[L:1/8]\
+[|"Big Scioty"(3DEF | G2Bd BAGB | AB2B B2dc |]
+P:
+[K:G]\
+[L:1/8]\
+[|"Big Scioto"z2  DEGA BAGB | A[D2B2]A [D2B2]Bd |]\
+[K:G]\
+[L:1/8]\
+[|"Big Scioty"DE | GABG AGED | EDEF G2 (3DEF |]\
+[K:G]\
+[L:1/8]\
+[|"Big Scioty"(3DEF | G2Bd BAGB | ABBB B2dc |]\
+[K:G]\
+[L:1/8]\
+[|"Big Sciota"D2 | G2 GB A2 Ad | B2 G2- G2 D2 |]
+P:
+[K:G]\
+[L:1/8]\
+[|"Big Scioty"(3DEF | GFGA Bdd2 | [AD-][B2D2][AD-] [BD]ABd |]\
+[K:G]\
+[L:1/8]\
+[|"Bill Vance"edB edB | G2G B2B | AGE AGE |]\
+[K:C]\
+[L:1/8]\
+[|"Billy in the Lowground"G,A,CD EGAB | cBcd cGEG |]\
+[K:C]\
+[L:1/8]\
+[|"Billy in the Lowground"G,A,CD EGAB | cBcd cGEG |]
+P:
+[K:C]\
+[L:1/8]\
+[|"Billy In the Low Ground II"C3 D EGAB | cBcd cA G2 |]\
+[K:G]\
+[L:1/8]\
+[|"Blackberry Quadrille"ud2d ed^c | d2B G2B | A2F D2D |]\
+[K:D]\
+[L:1/8]\
+[|"Blacksmith's Quadrille"[AF][AF][AF] [BG][BG][BG] | [AF][AF][AF] f2(f/g/) |]\
+[K:D]\
+[L:1/8]\
+[|"Blacksmith's Quadrille"[AF][AF][AF] [BG][BG][BG] | [AF][AF][AF] f2(f/g/) |]
+P:
+[K:A]\
+[L:1/8]\
+[|"Bluemont Waltz"AB | c4ec | B3dcB | AF3FG |]\
+[K:A]\
+[L:1/16]\
+[|"Bodine's Waltz [A]"E A2B | c3- c3 c2d | c3 B3 ABc |]\
+[K:D]\
+[L:1/16]\
+[|"Bodine's Waltz [D]"A d2e | f3- f3 f2g | f3 e3 def |]\
+[K:D]\
+[L:1/8]\
+[|"Bonaparte Crossing the Rhine"DF | A>[BF]AF A2[dF][eA] | [fd]>[ec][fd][ge] [f2d2][ec][dB] |]
+P:
+[K:C]\
+[L:1/8]\
+[|"Bony Smith's Quadrille"g | geg age | ccc G2c |]\
+[K:A]\
+[L:1/8]\
+[|"Booth (Trad. version from Bruce Molsky)"AF | ECEF E3E | FA2B A3A |]\
+[K:G]\
+[L:1/8]\
+[|"Bostony"de |  gfgb a2 f2 | gega g2 dc |]\
+[K:G]\
+[L:1/8]\
+[|"Bostony"de |  gfgb a2 f2 | gega g2 dc |]
+P:
+[K:G]\
+[L:1/8]\
+[|"1A. BUFFALO GALS"EF | G2A2 B2^/c2 | eddB G2B^/c |]\
+[K:G]\
+[L:1/8]\
+[|"1B. BUFFALO GALS"D2 | G3A B2G2 | BcdB G2Bc |]\
+[K:C]\
+[L:1/16]\
+[|"Canyon Quadrille"(cd) | e3^d e3=d | c3B (cB)c2 |]\
+[K:A]\
+[L:1/8]\
+[|"Cat On A Leash"a2f2 ecBA | Bc-c2 c2Bc |]
+P:
+[K:C]\
+[L:1/16]\
+[|"Chadham County Breakdown"ve3g gage | g4- g4 | ee2g edcB |]\
+[K:C]\
+[L:1/16]\
+[|"Chinese Breakdown"((3vGAB | c2)GG AAEF | G6 (vAB |]\
+[K:Ador]\
+[L:1/8]\
+[|"Cold Frosty Morning"a4 a4 | a>b a>g e>d c>d | e>d e>f g>a g>f |]\
+[K:Ador]\
+[L:1/8]\
+[|"Cold Frosty Morning 1 (Minor-Major)"EDEG A2A2 | ABcd e2 (3DEF |]
+P:
+[K:Ador]\
+[L:1/8]\
+[|"Cold Frosty Morning"a4 a4 | a>b a>g e>d c>d | e>d e>f g>a g>f |]\
+[K:G]\
+[L:1/16]\
+[|"Colored Aristocracy"E2F2 |G2GA GED2 | G6 GA |]\
+[K:C]\
+[L:1/16]\
+[|"Cripple Creek"cBcA BBAB | cBc2 E4 |]\
+[K:Amix]\
+[L:1/8]\
+[|"8A. THE CUCKOO'S NEST"ef/^g/ | a6 a2 | bae2 e3f | g2f2 g2g2 |]
+P:
+[K:G]\
+[L:1/8]\
+[|"Dance All Night with a Gal with a Hole in Her Stocking"BB B/A/B/c/ | dB B>A | c/B/A F/G/A/F/ |]\
+[K:Bb]\
+[L:1/8]\
+[|"the Dawn Waltz [Bb]"(3Bc^c | d4g2 | f4d'2 | d4g2 | (3fgf d2B2 |]\
+[K:F]\
+[L:1/8]\
+[|"the Dawn Waltz [F]"(3FG^G | A4d2 | c4a2 | A4d2 | (3cdc A2F2 |]\
+[K:G]\
+[L:1/8]\
+[|"the Dawn Waltz [G]"(3GA^A | B4e2 | d4b2 | B4e2 | (3ded B2G2 |]
+P:
+[K:Bb]\
+[L:1/4]\
+[|"Done Gone"B/c/ | d/B/F/D/ B,/D/F/G/ | B/c/d/f/ gf |]\
+[K:G]\
+[L:1/16]\
+[|"Don't You Want To Go To Heaven, Uncle Joe?"GABc dBGA | B2(BA) B2A2 |]\
+[K:A]\
+[L:1/8]\
+[|"Double File"e4g4 | B3cB4 | ccef(a2a2) |]\
+[K:D]\
+[L:1/8]\
+[|"Down at the Mouth of Old Stinson"a2d2 a/f/a/a/ ba | [L:1/8] [M:5/4] f/ab/ ag/e/ f/d/e/d/ B(A A2) |]
+P:
+[K:D]\
+[L:1/4]\
+[|"Dubuque"A,/B,/D/E/ DD/E/ | FB/F/ A2 |]\
+[K:Ador]\
+[L:1/8]\
+[|"Ducks on the Pond"[A4E4] [e4A4] | edef g4 | B2Bc BAGA |]\
+[K:C]\
+[L:1/16]\
+[|"Durangs Hornpipe (OLD WAY)"MC2E2 MC2E2 | Ac2A GFED |]\
+[K:C]\
+[L:1/16]\
+[|"Durang's Hornpipe"MC2E2 MC2E2 | (Ac2)A GFED |]
+P:
+[K:G]\
+[L:1/8]\
+[|"Dusty Bob's Jig"D | G2G GAB | A2A ABc |]\
+[K:C]\
+[L:1/4]\
+[|"East Hill Breakdown"G | c/2c/2c/2c/2cd | e/2e/2e/2e/2ef |]\
+[K:G]\
+[L:1/8]\
+[|"Ed's Waltz"D2 | G2 F2 G2 | D4 G2 | A2 B2 c2 | E4 E2 |]\
+[K:C]\
+[L:1/16]\
+[|"Eighth Of January"[e2e2](ef) e2e2 | dedc A2((3ABc) |]
+P:
+[K:G]\
+[L:1/16]\
+[|"All Those Endearing Young Charms"BA | G3 A G2 | G2 B2 d2 | c2 e2 g2 |]\
+[K:G]\
+[L:1/16]\
+[|"Fall of Paris"G2 | u[BG][BG][BG][BG] [BG][BG][BG][BG] | d3B B3A |]\
+[K:G]\
+[L:1/16]\
+[|"Fiddle Hill Jig"B2A | G2g f2e | d^cd edB |]\
+[K:G]\
+[L:1/16]\
+[|"Fiddle Hill Jig"BA | G2g f2e | d^cd edB |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Fishin' the Kettle Hole"DE | F2D2 D2ED | EFA2 B3 B |]\
+[K:G]\
+[L:1/16]\
+[|"Flop-Eared Mule"dedB dedB | dedB G2G2 |]\
+[K:G]\
+[L:1/8]\
+[|"Flying Home to Shelley"DGdG cGBG |DGcG BGAG |]\
+[K:D]\
+[L:1/4]\
+[|"Forked Deer"d- | d/e/f/g/ aa/f/ | g/a/g/e/ f/d/e |]
+P:
+[K:D]\
+[L:1/4]\
+[|"Fortune"f/2g/2 | fff/2e/2d | e/2d/2cdf/2g/2 |]\
+[K:Em]\
+[L:1/4]\
+[|"Frosty Morning"G | E/G/A/B/ A3/G/ | A/c/de2 |]\
+[K:Am]\
+[L:1/8]\
+[|"Frosty Morning"a4 a4 | abag edcd | ede^f gagf |]\
+[K:D]\
+[L:1/8]\
+[|"Galloping Horses"z  DFA DFA | DGB DGB |]
+P:
+[K:A]\
+[L:1/4]\
+[|"George Booker"A,2C/2A,/2C/2E/2 | A/2A/2c/2A/2B/2A/2c |]\
+[K:A]\
+[L:1/4]\
+[|"Georgia Railroad"B | c3/2c/2cA/2B/2 | cBAF | B3/2B/2BA/2B/2 |]\
+[K:Gm]\
+[L:1/8]\
+[|"Ghost"DEGA BABc | dcBA GFED |]\
+[K:G]\
+[L:1/16]\
+[|"Golden Slippers"(GA) | B2B2 BAGA | B2B2 B2(GA) |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Good-Bye, Girls"ABcA E3 D | CEDC A,4 |]\
+[K:G]\
+[L:1/8]\
+[|"Good-bye Liza Jane (basic tune)"G2G2 A2A2 | B2B2 c4 | B2G2- G4 | F2D2- D4 |]\
+[K:G]\
+[L:1/8]\
+[|"Good-bye Liza Jane"(G | G)FG2 A2AA | [GB]A[G2B2] [G2c2][G2c2] |]\
+[K:Am]\
+[L:1/8]\
+[|"Grandmammy Look at Uncle Sam".vA,2 vA,B,CA, CD | vEDEF v(AB)u.c2 |]
+P:
+[K:Am]\
+[L:1/8]\
+[|"Grandmammy Look at Uncle Sam".vA,2 vA,B,CA, CD | vEDEF v(AB)u.c2 |]\
+[K:D]\
+[L:1/8]\
+[|"Grasshopper Sittin' on a Sweet Potato Vine"ABAG F2A2 | fefe d2A2 |]\
+[K:G]\
+[L:1/8]\
+[|"Greasy String"D2ED G2A2 | B2d2 B4 | A2G2 EDEG |]\
+[K:D]\
+[L:1/8]\
+[|"Green Willis"(3ABc | d2dc d2fe | dAdA d2gf |]
+P:
+[K:C]\
+[L:1/16]\
+[|"Half Way"z2  uC2[EC][EC] [EC][EC][EC][EC] | uA,[FA,][FA,] [FA,][FA,][FA,][FA,] |]\
+[K:D]\
+[L:1/8]\
+[|"Haste To The Wedding"(FG) | AFA Afe | dcd fdB |]\
+[K:D]\
+[L:1/8]\
+[|"Havre"e2 | fgfe d2ef | gagf e3f |]\
+[K:G]\
+[L:1/8]\
+[|"Hawk Got the Chicken"B2(ef) e3(d | Bd)e2 G3 A | Bde2 dBAG |]
+P:
+[K:G]\
+[L:1/8]\
+[|"Hollow Poplar"Bc | d4d2 Bc | d2B2 AGAB |]\
+[K:D]\
+[L:1/8]\
+[|"Holloway"fa2f a2fa-| abaf ed3 |]\
+[K:C]\
+[L:1/8]\
+[|"Home with the girls in the morning"G2 | A2d2d4 | cdcB A2G2 | A2d2 de d2 |]\
+[K:G]\
+[L:1/8]\
+[|"11A. THE HONEYCOMB ROCK"Hge | dB^/cA BAGB | dB^/cA [BD]z Hge |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Hut on Staffin Island"zB, | A,B,DE D2-DE | FEFA d[dD][cA][dD] |]\
+[K:Amix]\
+[L:1/8]\
+[|"7. I'LL DANCE A JIG AND I'LL DANCE NO MORE"Bcd | e2e efe | d2B G2A |]\
+[K:Amix]\
+[L:1/8]\
+[|"7. I'LL DANCE A JIG AND I'LL DANCE NO MORE"Bcd | e2e efe | d2B G2A |]\
+[K:A]\
+[L:1/8]\
+[|"Indian Ate a Woodchuck"cd | e2ef e2c2 | ecef e2ef |]
+P:
+[K:G]\
+[L:1/8]\
+[|"the Irish Washerwoman"d/c/ | BGG DGG | BGB dcB |]\
+[K:A]\
+[L:1/16]\
+[|"Jan's Tune [A]"c2e2 fee2 | fee2 fee2 |]\
+[K:G]\
+[L:1/16]\
+[|"Jan's Tune [G]"B2d2 edd2 | edd2 edd2 |]\
+[K:G]\
+[L:1/8]\
+[|"Jenny's Waltz"(3GFE | D2- D>G B>e | d2- d>B G>E |]
+P:
+[K:G]\
+[L:1/8]\
+[|"Jimmy in the Swamp"GE | DEGA BAGA | Bded ef .g2 |]\
+[K:G]\
+[L:1/8]\
+[|"Jimmy in the Swamp"GE | DEGA BAGA | Bded ef .g2 |]\
+[K:C]\
+[L:1/8]\
+[|"4. JINNY IN THE LOWLANDS"G,2- | G,2C2 _/E2G2 | c3d c2G2 | ABcB ABcB |]\
+[K:C]\
+[L:1/8]\
+[|"4. JINNY IN THE LOWLANDS"G,2- | G,2C2 _/E2G2 | c3d c2G2 | ABcB ABcB |]
+P:
+[K:A]\
+[L:1/8]\
+[|"John Stenson's #2"ABcA B2cB | ABcA BAFE |]\
+[K:D]\
+[L:1/8]\
+[|"Johnny, Don't Get Drunk"fefg a2g2 | fdec d4 |]\
+[K:D]\
+[L:1/8]\
+[|"Julianne Johnson"e2 | fafe dfed | Bd- de d2fg |]\
+[K:D]\
+[L:1/16]\
+[|"Julie Ann Johnson"f2e2 d2B2 | d2B2 A4 | f2a2 a2b2 |]
+P:
+[K:G]\
+[L:1/16]\
+[|"Jumping Cactus"[bd][bd][bd][bd] [b2d2][a2c2] | [gB][gB][gB][gB] [g2B2][f2A2] |]\
+[K:D]\
+[L:1/4]\
+[|"June Apple"e/2g/2 | a/2g/2e/2g/2a/2g/2e/2g/2 | a/2g/2e/2d/2ce/2f/2 |]\
+[K:AMix]\
+[L:1/8]\
+[|"June Apple"eg | a2eg a2eg | a2ed cBAf |]\
+[K:AMix]\
+[L:1/8]\
+[|"June Apple"eg | a2eg a2eg | a2ed cBAf |]
+P:
+[K:G]\
+[L:1/8]\
+[|"the Kesh Jig"D | ~G3 GAB | ~A3 ABd | edd gdd |]\
+[K:A]\
+[L:1/8]\
+[|"Kesh Jig"E | ~A3 ABc | ~B3 Bce | fee aee |]\
+[K:G]\
+[L:1/8]\
+[|"Kesh Jig"D | ~G3 GAB | ~A3 ABd | edd gdd |]\
+[K:Amix]\
+[L:1/8]\
+[|"Kitchen Girl"[a4c4] [g4B4] | efed c2cd | ecef gaba |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Kitchen Girl"[c4a4] [B4g4] | efed c2cd | e2f2 gaba |]\
+[K:D]\
+[L:1/8]\
+[|"Lady of the Lake"AGFE DEFG | AGFE DEFG |]\
+[K:Em]\
+[L:1/8]\
+[|"Lady of the Lake"z2  A2B2 c2d2 | egfa g2.dc |]\
+[K:D]\
+[L:1/8]\
+[|"Lady of the Lake"z2  A2B2 c2d2 | egfa g2.dc |]
+P:
+
+X: 2
+T: Old-Time Tunes p.2
+K: C
+%
+[K:G]\
+[L:1/8]\
+[|"Lady of the Lake"DB, | G,B,DG BGBc | dBGA BGAB |]\
+[K:G]\
+[L:1/8]\
+[|"Lady of the Lake"DB, | G,B,DG BGBc| dBGA BGAB|]\
+[K:D]\
+[L:1/8]\
+[|"Lady of the Lake"fg | a2fg a2fg | afaf d2ef |]\
+[K:D]\
+[L:1/8]\
+[|"Liberty"f2A2 f2A2 | fgfe d2ef |]
+P:
+[K:A]\
+[L:1/8]\
+[|"Little Dutch Girl"e2f2 a2c2 | e2ed c2A2 | e2f2 a2c2 |]\
+[K:A]\
+[L:1/16]\
+[|"Little Rabbit"ef | a2af e2ef | a2aa b2ef |]\
+[K:A]\
+[L:1/16]\
+[|"Little Rabbit"ef | a2af e2ef | a2aa b2ef |]\
+[K:Am]\
+[L:1/8]\
+[|"Grandmammy Look at Uncle Sam".vA,2 vA,B,CA, CD | vEDEF v(AB)u.c2 |]
+P:
+[K:G]\
+[L:1/8]\
+[|"Bostony"de |  gfgb a2 f2 | gega g2 dc |]\
+[K:G]\
+[L:1/8]\
+[|"Jimmy in the Swamp"GE | DEGA BAGA | Bded ef .g2 |]\
+[K:Em]\
+[L:1/8]\
+[|"Lady of the Lake"A2 B2 c2 d2 | egfa g2. dc |]\
+[K:AMix]\
+[L:1/8]\
+[|"the Squirrel Hunters"e3d .B2 Bd | efed .B2 BA |]
+P:
+[K:G]\
+[L:1/4]\
+[|"Lost Indian"d/2B/4B/4d/2B/4B/4 | d/2B/4B/4G/2B/2 |]\
+[K:G]\
+[L:1/8]\
+[|"Maple Sugar Gal - Two Step"Bc | d2 d>e | dc BA | B2 B>c |]\
+[K:A]\
+[L:1/8]\
+[|"Maple Sugar Gal - Two Step"cd | e2 e>f | ed cB | c2 c>d |]\
+[K:A]\
+[L:1/8]\
+[|"Maple Sugar Gal - Two Step"cd | e2 e>f | ed cB | c2 c>d |]
+P:
+[K:G]\
+[L:1/8]\
+[|"Maple Sugar Gal - Two Step"Bc | d2 d>e | dc BA | B2 B>c |]\
+[K:G]\
+[L:1/8]\
+[|"11B. THE MCCLELLANTOWN HORNPIPE"Bc | dB^/cA BAGB | dB (3cBc d3 B/c/ |]\
+[K:D]\
+[L:1/8]\
+[|"Midnight on the Water"A, DE | F4 F2 | F4 FE | F2 A3 B |]\
+[K:D]\
+[L:1/16]\
+[|"Mississippi Sawyer"(vfg | a2)(a^g) a2ag | a2a2 bagf |]
+P:
+[K:D]\
+[L:1/16]\
+[|"Moses Hoe the Corn"f2af efec | dedB A2AB |]\
+[K:G]\
+[L:1/8]\
+[|"Nail That Catfish to the Tree"DE | G2 BG AG BG | cB A2 [B4G4] |]\
+[K:Am]\
+[L:1/8]\
+[|"6. O DEAR MOTHER MY TOES ARE SORE"He2^f edB | GA>B AGE |]\
+[K:Am]\
+[L:1/8]\
+[|"6. O DEAR MOTHER MY TOES ARE SORE"He2^f edB | GA>B AGE |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Possum Up a Gum Stump [4]"D/F/ | AF ED | A/d/f/d/ e/d/B/d/ |]\
+[K:Amix]\
+[L:1/8]\
+[|"Old Bell Cow"A=cAG EGED | ^CA,2C A,3A, |]\
+[K:A]\
+[L:1/8]\
+[|"Old Horse and Buggy"EF  | A2A2 cBAA | c2e2- e2EF |]\
+[K:D]\
+[L:1/16]\
+[|"Old Kentucky"(dB) | A2F2 FEDF | A2F2 F2(dB) |]
+P:
+[K:D]\
+[L:1/16]\
+[|"Old Missouri"((3vABc | d2)A2 F2A2 | vd2uMD2- MD2 ((3vABc |]\
+[K:A]\
+[L:1/8]\
+[|"Old Mother Flanagan"a2a2 fecd | efec BAFG |]\
+[K:Ab]\
+[L:1/8]\
+[|"Orvetta Waltz"E3 FED | C6 | A3 BAG | F6 | B3 cBA |]\
+[K:G]\
+[L:1/8]\
+[|"Orvetta Waltz"D3 EDC | B,6 | G3 AGF | E6 | A3 BAG |]
+P:
+[K:G]\
+[L:1/8]\
+[|"Orvetta Waltz #2"B,C DE DB, | CD EG EC |]\
+[K:Bm]\
+[L:1/8]\
+[|"Peas Breakdown"b2a2 f2e2 | d2B2 B2Bd | cAFA fedc |]\
+[K:G]\
+[L:1/8]\
+[|"Peek-A-Boo Waltz"(Bc) | (d2 b2 a2) | (g2 f2 e2 ) | (d2 B2 e2) |]\
+[K:D]\
+[L:1/8]\
+[|"Portsmouth Winder"[df].d [df].d | [d/f/]d/B/A/ FA | Ae [Ae]>f |]
+P:
+[K:A]\
+[L:1/8]\
+[|"Possum Up a Gum Stump [1]"(E | E/)F/A/B/ c/d/c/B/ | A/B/c/e/ fe |]\
+[K:D]\
+[L:1/8]\
+[|"Possum Up a Gum Stump [1]"(A, | A,/)B,/D/E/ F/G/F/E/ | D/E/F/A/ BA |]\
+[K:C]\
+[L:1/8]\
+[|"Possum Up a Gum Stump [2]"e2g2 | g/e/a/g/ e/g/g | e2 gg/a/ |]\
+[K:D]\
+[L:1/8]\
+[|"Possum up a Gum Stump [3]"FE | D2DE FEDF | GFGA BcdB |]
+P:
+[K:G]\
+[L:1/8]\
+[|"Possum up a Gum Stump [3]"B,A, | G,2G,A, B,A,G,B, | CB,CD EFGE |]\
+[K:D]\
+[L:1/8]\
+[|"Possum Up a Gum Stump [4]"D/F/ | AF ED | A/d/f/d/ e/d/B/d/ |]\
+[K:Am]\
+[L:1/4]\
+[|"Pretty Little Dog"AE GA/G/ | E/D/C A,G, | A,/G,/A,/B,/ CD |]\
+[K:A]\
+[L:1/8]\
+[|"Pretty Little Dog"eg | a2 e2 g2 ag | edcB A2 G2 |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Pretty Little Widder"f/g/ | aa/b/ a/f/e/d/ | gg/a/ g/e/d |]\
+[K:D]\
+[L:1/4]\
+[|"Ragtime Annie"A/2 | D/4F/4A/4F/4 B/2A/4F/4 | D/4F/4A/4F/4 B/2A/4F/4 |]\
+[K:D]\
+[L:1/16]\
+[|"Ragtime Annie"((3DEF) | [AF][AF][BF][BF] [AF][AF][BF][BF] |]\
+[K:C]\
+[L:1/8]\
+[|"5. REEL"G,2 | G,2C2 E2G2 | cBcd c2B2 |]
+P:
+[K:D]\
+[L:1/4]\
+[|"Richmond Cotillion"[DA]f f/g/f/e/ | dFA3/d/ | cBAB |]\
+[K:A]\
+[L:1/8]\
+[|"Robertson's Reel"AB | c2 Bc e2 cB | ABAF E2 AB |]\
+[K:D]\
+[L:1/8]\
+[|"Rock the Cradle Joe"fg|a2 ag f2 fg|a2 ag f2 f2|]\
+[K:D]\
+[L:1/8]\
+[|"Rock the Cradle Joe"a2 ag fefg|a2 ag fefg|]
+P:
+[K:D]\
+[L:1/8]\
+[|"Rock the Cradle Joe"fg | a2ab affg | a2a2 affg |]\
+[K:D]\
+[L:1/8]\
+[|"3. THE ROCKY MOUNTAIN HORNPIPE"A,2- | A,2DE FEDE | F2[A2D2] [A2D2]A2 |]\
+[K:D]\
+[L:1/8]\
+[|"3. THE ROCKY MOUNTAIN HORNPIPE"A,2- | A,2DE FEDE | F2[A2D2] [A2D2]A2 |]\
+[K:G]\
+[L:1/8]\
+[|"Run, Johnny, Run"z  D[GB,][GB,] [GB,][GB,][BG] | [GB,][GB,][GB,] [GB,][GB,][BG] |]
+P:
+[K:A]\
+[L:1/8]\
+[|"Ruth's Quadrille"((3e/f/g/) | a2c cBA | cBA E2((3e/f/g/) |]\
+[K:D]\
+[L:1/8]\
+[|"Sadie at the Back Door"agfe d4 | ag f/2e/2d=c2e2 |]\
+[K:D]\
+[L:1/8]\
+[|"Sally Ann Johnson"DE | FGAB A3A | BABd d2-d2 |]\
+[K:G]\
+[L:1/16]\
+[|"Sally Johnson"((3EFvG | B3)uB vAAGG | vDGBd e(ufg2) |]
+P:
+[K:D]\
+[L:1/16]\
+[|"Sally, There's A Bug On Me"A3d fgfe | d2F2 A3d | c2E2 G3B |]\
+[K:Amix]\
+[L:1/8]\
+[|"Sandy Boys"aa | a2g2 e2g2 | edc2 A2aa |]\
+[K:Amix]\
+[L:1/8]\
+[|"Sandy Boys Reel"ag eg | e/d/c Aa- | ag eg |]\
+[K:D]\
+[L:1/4]\
+[|"Sandy River Belles"E | A,/B,/D/E/ F2 | ED BA | A,/B,/D/E/ F2 |]
+P:
+[K:G]\
+[L:1/4]\
+[|"Sandy River Belles"F/E/ | D/E/G/A/ BB/B/ | AG ed |]\
+[K:G]\
+[L:1/8]\
+[|"Waiting for the Federals"DG | B4 B2AB | d2B2 BAG2 |]\
+[K:G]\
+[L:1/8]\
+[|"Waiting for the Federals"DG | B4 B2AB | d2B2 BAG2 |]\
+[K:G]\
+[L:1/8]\
+[|"Sheep's In The Meadow"A2d2 BAGB | A2d2 G3G | A2d2 BAGB |]
+P:
+[K:G]\
+[L:1/8]\
+[|"Shoes and Stockings"D2 |G2G2 B2B2 | cBc2 d4 | G2G2 B2B2 |]\
+[K:G]\
+[L:1/8]\
+[|"Shoes and Stockings"D2 | G2G2 B2B2 | cBc2 d4 | G2G2 BAGB |]\
+[K:G]\
+[L:1/8]\
+[|"Shove That Pig's Foot A Little Closer To The Fire"Bc BA G4 | EG E2 D4 | DE G2 B3 c |]\
+[K:G]\
+[L:1/8]\
+[|"Shove that Pig's Foot a Little Farther in the Fire"z(B | B)cBA G2 EF | GAGE D3 D |]
+P:
+[K:G]\
+[L:1/8]\
+[|"Shove That Pig's Foot a Little Further in the Fire"GA | BdBA G2E2 | GAGE D4 |]\
+[K:G]\
+[L:1/8]\
+[|"Shove the Pig's Foot a Little Further Into the Fire"BcBA G2DE | GAGE D4 |]\
+[K:G]\
+[L:1/8]\
+[|"Shove That Pig's Foot a Little Further in the Fire"GA|BdBA G2 E2|GAGE D4|]\
+[K:D]\
+[L:1/8]\
+[|"Smith's Reel #1"fe | d2Bd A2FA | BAFA D2ED |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Smith's Reel #2"fg | afbf afde | fafd edBc |]\
+[K:D]\
+[L:1/8]\
+[|"Smith's Reel #2"fg | afbf afde | fafd edBc |]\
+[K:D]\
+[L:1/8]\
+[|"the Snouts and Ears of America"A2 | d2D2 D3E | F2A2 d2ed | c2A2 ABcd |]\
+[K:D]\
+[L:1/8]\
+[|"the Spotted Pony"f2a2 f4 | efed BcdB |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Spotted Pony, The (R-48)"FE | D2D2 E2E2 | FDF2 G4 | ABde fede |]\
+[K:D]\
+[L:1/8]\
+[|"the Spotted Pony"f2a2 f4 | efed BcdB |]\
+[K:D]\
+[L:1/8]\
+[|"the Spotted Pony"f2a2 f4 | efed BcdB |]\
+[K:D]\
+[L:1/8]\
+[|"the Spotted Pony"f2a2 f4 | efed BcdB |]
+P:
+[K:AMix]\
+[L:1/8]\
+[|"the Squirrel Hunters"e3d .B2 Bd | efed .B2 BA |]\
+[K:AMix]\
+[L:1/8]\
+[|"the Squirrel Hunters"e3d .B2 Bd | efed .B2 BA |]\
+[K:A]\
+[L:1/4]\
+[|"Sugar in the Gourd"A/2B/2 | c/2B/2A/2F/2E/2F/2A/2B/2 | c/2B/2c/2A/2B3/2B/2 |]\
+[K:G]\
+[L:1/8]\
+[|"Sugar in the Gourd [6]"g2 ga gded | e g2 a [d3g3]A |]
+P:
+[K:EDor]\
+[L:1/8]\
+[|"Swallowtail Jig"E/F/ | GEE BEE | GEG BAG |]\
+[K:EDor]\
+[L:1/8]\
+[|"Swallowtail Jig"E/F/ | GEE BEE | GEG BAG |]\
+[K:D]\
+[L:1/8]\
+[|"2. SWEET ELLEN"A,2 | D2DE F2ED | FAAF A3A |]\
+[K:D]\
+[L:1/8]\
+[|"2. SWEET ELLEN"A,2 | D2DE F2ED | FAAF A3A |]
+P:
+[K:A]\
+[L:1/8]\
+[|"Sweet Marie"cB | AE AB | c2 BA | de fa |]\
+[K:D]\
+[L:1/8]\
+[|"Teardrop Waltz (1st setting)"A B>c | d>e d>c B>A | A2 A>[FA,] D>E |]\
+[K:D]\
+[L:1/8]\
+[|"Teardrop Waltz (2nd setting)"Bc | de d(B AG) | F3 (EDE) |]\
+[K:A]\
+[L:1/2]\
+[|"Tom And Jerry"c/2 | e/2c/4B/4A/4c/4B/4A/4 | c/4B/4A/4c/4B/4A/4B/4c/4 |]
+P:
+[K:A]\
+[L:1/4]\
+[|"Up Jumped The Devil"e | ee/2e/2ff | aafe | eafe |]\
+[K:C]\
+[L:1/16]\
+[|"Waggoner"C2(EF) G2(AB) | cBAB cBc2 |]\
+[K:C]\
+[L:1/16]\
+[|"Waggoner"C2(EF) G2(AB) | cBAB cBc2 |]\
+[K:C]\
+[L:1/16]\
+[|"Waggoner"z2  C2(EF) G2(AB) | cBAB c(Bc2) |]
+P:
+[K:D]\
+[L:1/8]\
+[|"Wait for the Waggon"A2 | d2d2D2D2 | F2G2A4 | B2B2G2B2 |]\
+[K:D]\
+[L:1/4]\
+[|"Waiting For Nancy"A/2A/2 | B/2A/2A/2A/2B/2A/2A/2A/2 | B/2A/2A/2A/2EE/2F/2 |]\
+[K:G]\
+[L:1/8]\
+[|"Waiting for the Federals"DG | B4 B2AB | d2B2 BAG2 |]\
+[K:G]\
+[L:1/8]\
+[|"Waiting for the Federals"DG | B4 B2AB | d2B2 BAG2 |]
+P:
+[K:G]\
+[L:1/4]\
+[|"Walking In My Sleep"G,/2A,/2B,/2C/2D/2G/2B/2d/2 | B2-B/2d/2B/2A/2 |]\
+[K:C]\
+[L:1/16]\
+[|"Walking Up Town"(GuF) | vE2G2 c2f2 | e3^d e(=duc2) |]\
+[K:G]\
+[L:1/8]\
+[|"Walnut Gap"DE  | GABd g2g2 | (3fgf ec A3A |]\
+[K:D]\
+[L:1/4]\
+[|"West Fork Gals"d/2e/2| f/2g/2f/2e/2de/2f/2| g/2f/2gBf |]
+P:
+[K:A]\
+[L:1/8]\
+[|"Where's the Red Chook?  [A]"cd | e2cd e2cd | eaed cBA2 |]\
+[K:D]\
+[L:1/8]\
+[|"Where's the Red Chook?  (D)"FG | A2FG A2FG | AdAG FED2 |]\
+[K:D]\
+[L:1/4]\
+[|"Whisky Before Breakfast"F/2E/2 | D/2E/2F/2G/2 AA | A/2B/2A/2G/2 F/2E/2D |]\
+[K:A]\
+[L:1/8]\
+[|"Whistling Rufus"E2 | A2Ac e2ef | a2a2 fe3 |]
+P:
+[K:C]\
+[L:1/8]\
+[|"Whistling Rufus"G2 | CCC2 E2GG | c2cc A2G2 |]\
+[K:G]\
+[L:1/8]\
+[|"Whistling Rufus"(3D/E/F/ | G(3A/B/c/ d(e/f/) | gge<d |]\
+[K:Amix]\
+[L:1/8]\
+[|"Wild Rose of the Mountain"(3ef^g | a2a2 gagf | efed c2(3ef^g |]\
+[K:D]\
+[L:1/8]\
+[|"Winder Slide"de | f2fe f3e | f2 a4 de |]
+P:
+[K:G]\
+[L:1/8]\
+[|"Wooden Ended Reel"DEGA G2 D2 | G2 cd c2 G2 |]\
+[K:D]\
+[L:1/4]\
+[|"Yellow Barber"A,/B,/D/E/DD/D/ | A,/B,/D/E/ F/E/D |]\
+[K:D]\
+[L:1/4]\
+[|"Yellow Barber"D/>=C/ | A,/G,/A,/=C/ D/E/D/C/ |A,/=C/D/E/ F/D/E/^C/ |]\
+y8 y8 y8 y8 y8 y8\

@@ -1,0 +1,25 @@
+X: 173
+T: Di Rayze Nukh Amerike
+O: Dave Tarras with the Abe Schwartz Orchestra 1929
+N: Arranged for contra dance by John Chambers
+M: 2/4
+L: 1/16
+K: Dm
+P: Form: (AABB)(AACD)...
+P: A
+A,2 \
+|: "Dm"D2E2 F2G2 | A2B2 A2d2 | A8- | A6 A,2 | D2E2 F2G2 | "D7"A2c2 B2A2 | "Gm"G8- | G8 || "C7"G2d2 d2d2
+| "F"cdcB A2G2 | "Bb"F2B2 B2B2 | "A7"ABAG F2E2 |1 "Dm"D4 F2E2 | D2F2 A2d2 | A8- | A8 :|2 "Dm"D2F2 A2d2 | "A7"cBAG F2E2 | "Dm"D8 |
+P: B
+"F"z2c2 B2A2 \
+|: "F"c2c2 c4 | z2c2 B2A2 | "Gm"G2G2 D4 | z2D2 G2B2 | "C7"d2 d4 d2 | dede d2e2 | "F"c8
+| z2c2 B2A2 | c2c2 c4 | z2 c2 B2A2 | "Bb"d2d2 d4 | z2d2 ^c2d2 | "F"f2>>A2 c2>>F2 | A2>>C2 F2A2 | "C7"G8 |1 "F"F2c2 B2A2 :|2 "F"F2AA "A7"A2A2 :|
+%P: AA
+P: C
+M: 6/8
+L: 1/8
+| "Dm"F2F F3- | FFF AGF | "A7"G2G G3- | GGG ED^C | "Dm"D2A ^G2A | D2E F2D | "A"EA,A, A,A,A, | AAA AAA
+|  "Dm"F2F F3- | FFF AGF | "A7"G2G G3- | GGG ED^C | "Dm"D2^C D2E | "Bb"F2E F2G | "A7"AGF GFE | "Dm"D3/2(A,/=B,/^C/D3) |
+P: D
+| "F"F2F FED | C3 F3 | "Dm"F2F FED | A,3 D3 | "F"A^GA F2A |A^GA F3 | AGF "F7"_E2E | "C7"=E3 z3
+| "F"F2A AGF | C3 F3 | "Dm"F2F FED | A,3 D3 | "F"CA,C F3 | FCF A3 | "C7" cBA GAG | "F"F3 z3 |]

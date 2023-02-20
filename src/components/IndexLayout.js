@@ -70,6 +70,11 @@ export default function IndexLayout(props) {
             //console.log('RUN SEARCH init use cache')
             //console.log( 'F',props.filter,'B', props.currentTuneBook,"t", props.tagFilter,"G",props.groupBy)
         }
+        setTimeout(function() {
+            //console.log('doscrollSTART',props.scrollOffset)
+            window.scroll(0,props.scrollOffset)
+            props.stopWaiting()
+        },300)
     },[])
     
     
@@ -85,9 +90,9 @@ export default function IndexLayout(props) {
               //console.log('RUN SEARCH on change')
               setGrouped({})
               setFiltered({})
-              setSelected({})
+              //setSelected({})
               props.startWaiting()
-              setSelectedCount(0)
+              //setSelectedCount(0)
               //console.log("filter")
               var filtered = Object.values(props.tunes).filter(filterSearch)
               //console.log('F',props.filter,'B', props.currentTuneBook,"t", props.tagFilter,"G",props.groupBy)
@@ -149,7 +154,7 @@ export default function IndexLayout(props) {
                       if (props.groupBy === "tuneStatus") {
                           setGrouped(tuneStatusGroups)
                       } else {
-                        setGrouped(props.tunebook.groupTunes(filtered))
+                        setGrouped(props.tunebook.groupTunes(filtered, props.groupBy))
                       }
                   } else {
                       setGrouped(null)
@@ -157,7 +162,7 @@ export default function IndexLayout(props) {
             } else if (props.filter.length <= 2 && props.filter.length > 0) {
               //console.log("more input")
               setFiltered({})
-              setSelected({})
+              //setSelected({})
             } else  {
                 //console.log("no books, tags or filter")
                 var filtered = Object.values(props.tunes).filter(filterSearchNoBooks)
@@ -165,18 +170,18 @@ export default function IndexLayout(props) {
                       return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
                 })
                 if (props.groupBy && props.groupBy !== 'tuneStatus') {
-                      setGrouped(props.tunebook.groupTunes(filtered))
+                      setGrouped(props.tunebook.groupTunes(filtered, props.groupBy))
                 } else {
                       setGrouped(null)
                 }
 
                 setFiltered(filtered)
-                setSelected({})
+                //setSelected({})
               
             }
             
             setTimeout(function() {
-                //console.log('dosdcroll',props.scrollOffset)
+                //console.log('doscroll',props.scrollOffset)
                 window.scroll(0,props.scrollOffset)
                 props.stopWaiting()
             },300)
@@ -188,6 +193,11 @@ export default function IndexLayout(props) {
         }
       setListHash(JSON.stringify([props.groupBy, props.filter,props.currentTuneBook, props.tagFilter]))
     },[props.groupBy, props.filter,props.currentTuneBook, props.tagFilter])
+    
+    useEffect(function() {
+        setSelected({})
+        setSelectedCount(0)
+    },[props.groupBy,props.currentTuneBook, props.tagFilter])
     
     function selectAllToggle(groupKey=null) {
         if (groupKey === null) {
@@ -348,6 +358,8 @@ export default function IndexLayout(props) {
                 <span><Link key={tk} style={{textDecoration:'none', color:'black'}} to={"/tunes/"+tune.id} onClick={function() {props.setCurrentTune(tune.id); props.tunebook.utils.scrollTo('topofpage',10)}} ><Button variant="primary" style={{minWidth:'30%'}} >{tune.name && tune.name.trim().length > 0 ? tune.name : 'Untitled Song'} {tune.type && <b>&nbsp;&nbsp;&nbsp;({tune.type.toLowerCase()})</b>}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style={{fontSize:'0.5em'}}>{tune.composer ? ' - ' + tune.composer : ''}</span></Button> </Link></span>
                 
                 {props.showPreviewInList && <Abc link={true} scale="0.7" abc={props.tunebook.abcTools.json2abc_cheatsheet(tune)}  tunebook={props.tunebook} />}
+                
+                {props.showPreviewInList && <div>{tune.words.slice(0,3).map(function(line) {return <div>{line}</div>})}</div>}
             
                 
             </ListGroup.Item> : ''

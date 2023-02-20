@@ -1,0 +1,13 @@
+X: 1
+T: Key Signatures
+K: A
+             |    "A"CDE FGA | Bcd efg |]
+[K:G]        |    "G"CDE FGA | Bcd efg |]
+[K:Bb]       |   "Bb"CDE FGA | Bcd efg |]
+[K:Dm]       |   "Dm"CDE FGA | Bcd efg |]
+[K:F#m]      |  "F#m"CDE FGA | Bcd efg |]
+[K:DDor]     | "DDor"CDE FGA | Bcd efg |]
+[K:ADor]     | "ADor"CDE FGA | Bcd efg |]
+[K:Gm^F]     | "Gm^F"CDE FGA | Bcd efg |]
+[K:DMix_B_e] |   "Dh"CDE FGA | Bcd efg |]
+[K:^G]       |   "^G"CDE FGA | Bcd efg |]

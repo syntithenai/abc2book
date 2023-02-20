@@ -1,0 +1,15 @@
+X: 597
+T: the Bend of the River   #2
+T: caime na a\.mne
+R: air, waltz, jig
+%S: s:3 b:13(5+4+4)
+B: O'Neill's 1850 #597
+Z: John Walsh (walsh@math.ubc.ca)
+N: Compacted via repeats and multiple endings [JC]
+Q: "Slow."
+M: 6/8
+L: 1/16
+K: Dm
+"^A"[|](FG) | A3(BAG) F4 A2 | G3(AFD) C4 (AG) | .F.E.D .C.A, [1 .C | F4 A2G4 :|[2 .^C | D6 D4 |]
+"^B"[| (DE) | F3(AFD) F4 A2 | c3(dcA) c4 (AG) | F3(AFD) F2A2c2 | d6 d4 |]
+"^C"[| e2 | f2e2dc A4 (FA)| G3(AFD) C4 (AG) | .F.E.D .C.A,.^C | D6 D4 |]

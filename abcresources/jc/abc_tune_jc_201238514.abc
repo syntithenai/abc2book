@@ -1,0 +1,26 @@
+X: 3092
+T: She's fair and Fause
+%R: jig, air
+B: Niel Gow & Sons "Complete Repository" v.3 p.9 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slow"
+K: Em
+% - - - - - - - - - -
+V: 1 staves=2
+% The first staff of V:1 has no repeat sign, but the other 3 staffs all have one.
+G/A/ |\
+B>cB {G}A2G | "_cres."~F>GE {E}^D2B, | ~E>FG (A<F)^D | E3- E2 G/A/ |\
+B>cB {G}A2G | ~F>GE {E}^D2B, | ~E>FG (AF^D) | E3- E2 :|
+|: !p!G/A/ |\
+B2g (gf).e (dB).e d2B | G>AG (dc).B | A>BG {G}F2D |\
+!f!G>FG A>GA | B2E {E}H^D2B, | !p!E>FG (A<F)^D | E3- E2 :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z |\
+[e3g3b3] [^d2f2b][egb] | "_cres."A2^A B2=a | g>fe A2B | E>GB e3 |\
+[e'2g'2][f'd'] [e'2c'2][bd'] | [a2c'2][gb] [f3a3] | g>fe A2B | E>GB e2 :|
+|: z |\
+gbd' [a2c'2][gb] | fgc [B3g3] | b>ag f2g | c2^c d2=c' |\
+!f!b>ag f3 | e2c' Hb2a | g>fe A2B | EGB e2 :|

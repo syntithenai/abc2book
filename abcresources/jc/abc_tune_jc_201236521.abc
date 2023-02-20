@@ -1,0 +1,32 @@
+X: 222
+T: Miss Caldwall's Favorite
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.22#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: jig
+M: 6/8
+L: 1/8
+K: F
+V: 1
+|:\
+A>Bc F2~F | {A}GFG A2F | (A>Bc) cfe | fcA {c}BAG |\
+ABc F2F | {A}G>FG ABc  | d>ef edc | cd=B c3 :|
+!f!c>dc c!p!.a.g | !.f.e.d .c.B.A | !f!B>cB B!p!.g.f | .e.d.c BAG |\
+!f!A>BA A!p!.f.e | .d.c.B AG^F | (GB).d (cA).f | (cf)c {c}BAG |
+!f!ABc F2~F | {A}G>FG A2F | A>Bc cfe | fcA {c}BAG |\
+A>Bc F2~F | {A}G>FG ABc | ~d>ef cfc | {c}BAG F3 ||
+|:\
+FAc _e2e | {f}_e>dc d3 | G=Bd f2f | {g}fed e3 |\
+ceg bag | {c'}b>ag a2f | f>ed cfa | [gB][fA][eG] [f2F2]z :|
+V: 2 clef=bass middle=d
+|:\
+F3 f2a | c'2c fcA | F2f a2c' | a2f c'2z |\
+f3 a3 | c'2c f2g | =b2g c'2e | g2G c2z :|
+FAc f2z | F3 f3 | ceg c'2z | c3 c'3 |\
+f'c'a f2z | G3 f3 | e3 f3 | G2g cde |
+fac' fac' | egc' fac' | fac' egc' | fac' gfe |\
+fac' fac' | egc' fac' | b2g f2a | c'2c f3 ||
+|:\
+[a3f3] fac' | [a2f2][a_e] bfd | [=b3g3] gbd' | [=b2g2][bf] c'ge |\
+c3 e2g | c'2c f2a | b2B a2f | c'2c f2z :|
+

@@ -1,0 +1,45 @@
+X: 20651
+T: NATIONAL CADETS' QUICKSTEP
+C:
+%R: jig, quickstep, march
+B: Elias Howe "The Musician's Companion" 1843 p.65 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain has only two staffs, unlabelled and lacking clefs, transcribed as V:1 and V:2
+N: The rhythms between the strains don't match very well at all.
+N: There's a mysterious '9' below V:2's 2nd d in bar 18.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+(3(d/e/f/) |\
+g2(3(d/e/f/) g2(3(d/e/f/) | g3 z.b.a | .g.f.e .d.c.B | d^c=c A2(3(e/f/g/) |\
+a2(3(e/f/g/) a2(3(e/f/g/) | a3 z.b.a | gfe def | g3 z2 |]
+ddd |\
+e2d ddd | ^c2d ddd | .g.f.e .d.c.B | d2c ccc |\
+d2c ccc | B2c ccc | fed cBA | B2"^D.C."z |]
+D |\
+GDG B3 | BGB d3 | dd/d/d ddd | BdB G3 |\
+GDG B3 | BGB d3 | dd/d/d ddd | G3 "^D.C."z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z |\
+B2(3(B/c/A/) B2(3(B/c/A/) | B3 zgf | edc BAG | BAA F2z |\
+f2(3(A/d/e/) f2(3(A/d/e/) | f3 zgf | edc Bc[dA] | B3 z2 |]
+BBB |\
+c2B BBB | A2B BBB | edc BAG | B2A AAA |\
+B2A AAA | G2A AAA | dcB AGF | G2"^D.C."z |]
+F |\
+BFB d3 | dBd f3 | ff/f/f fff | dfd B3 |\
+BFB d3 | dBd [f3d3] | ff/f/f fff | B3 "^D.C."z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z |\
+g2z g2z | g3 zz2 | g3 g3 | d3 zz2 |\
+d2z d2z | d3 zz2 | g3 d3 | [g3G3] z2 |]
+z2z |\
+c2d ddd | A2A AAA | g3 G3 | g2d ddd |\
+d2e eee | g2e eee | e3 d3 | G2 "^D.C."z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %sep 1 1 300

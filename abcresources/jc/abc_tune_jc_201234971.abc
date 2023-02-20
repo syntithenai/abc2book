@@ -1,0 +1,23 @@
+X: 20923
+T: the DARK PHANTOM
+O: Irish air.
+Q: "Slow and tenderly."
+%R: air, waltz
+N: This is version 2, for ABC software that understands diminuendo/crescendo notation.
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.92 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+EF |!p!\
+G4 QcqB | pB4 PG>B | ("^>"c2 B2 G2) | B2 B2 ("^cres."cd) |\
+"^>"e4 (dc) | "^>"B2 !p!G2 (c>d) | "^>"B2 !pp!G2 c>d | B2 !mf!G2 EF |\
+pG2 B2 (cPd) | "^>"e2 e2 (dc) | (BA) (GF) (EF) "cres."| G2 !f!c2 (Bc) |\
+"^>"e2 d2 c2 | "^>"B2 G2 !p!(AG) | pF2 E2 (GPB) | !f!c2 e2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,20 @@
+X: 1
+T: der Gasn Nigun
+T: the Street Tune
+C: trad.
+O: arr. Shana Aisenberg
+R: horra
+S: Fiddle Hell Online 2020-11-09 handout for Klezmer Jam led by Shana Aisenberg
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Spaces inserted before the last 8th notes in most meastures to break the beams,
+N: and better bring out the tune's 2-beat long-short rhythm.
+M: 3/8
+L: 1/16
+K: Ddor
+%%continueall
+"^A"|: zF2 |\
+"Gm"FG-G2 G2 | G4 F2 | "Dm"FD-D4 | D4 F2 | "Gm"FG-G2 G2 | "C"G3F AG | "F"F3C FC | F4 (3FED |
+"Fm"C3F EF | G3_A Bc | "G"d3_e dc | B3_A GF | "Dm"F3E GE | F3D "Cm"_EC | "Dm"D3d AF | D3 :|
+"^B"|: A,DF |\
+"Dm"A6- | A3c (3cBA | ^GBA4- | A3D FA | c3B (3cBA | c3B (3cBA | ^GBA4- | A3A, DF |
+A3^G (3AGF | A3^G (3AGF | EGF4- | F3A, DE | F3E (3FED | F3E (3FED | ^CED4- | D3 :|

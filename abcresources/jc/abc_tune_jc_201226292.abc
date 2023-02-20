@@ -1,0 +1,77 @@
+%%text RJ Set 101
+
+
+X: 1
+T: Glen Echo Jig
+C: Larry Unger
+M: 6/8
+L: 1/8
+R: jig
+K: G
+|:"G"B3   BAB | "Em"GED E2D | "C"EGD EGD |    EGB  "D"AGE |\
+| "G"B2B  BAB | "Em"GED E2D | "C"EGD EGB |  "D"AGE "G"G3 :|
+|:"G"B,2D DED |    B,DE D2D | "C"E2G GED | "Am"GED "D"B,A,G, |\
+| "G"B,2D DED |    B,DE D2D | "C"EGB AGE |  "D"DB,A, "G"G,3 :|
+
+
+X: 2
+T: Reunion Jig
+C: Russ Barenberg
+M: 6/8
+L: 1/8
+R: jig
+K: A
+|:\
+"A"c3 "E"BAG | "A"AED CB,A, | "D"DEF "A/C#"EAc | "Bm"dec "E"BAB | \
+"A"cdc "E"BAG | "A"AED CB,A, | "D"DEF "E"EAG |1 "A"A3-A2 B :|
+[2 "A"A3-AcA |:\
+"E"BEE cEE | edc Bcd | "A"cAA ABc | "E"BEE E2 c | BEE cEE | \
+"E" edc Bcd |
+[1 "A"cAA eAc | "E"B3-B2 c :|[2 "A"cAA "F#m"ABc | "Bm"dFc "E"Bcd :| \
+|["Transition:"y "A"cAA "F#m"ABc | "Bm"dFc "B7"Bc^d |]
+
+
+X: 3
+T: Calliope House in E
+C: Dave Richardson
+N: RJ J-39 E
+M: 6/8
+R: jig
+K: E
+B |\
+"E"eBB gBB | "E" fBB gBB |\
+"A"cff f2e | "B"fge cec |\
+"E"BcB B2G | B2c e2f |\
+[1 "A"gbg gfe | "B"f3 f2 :|
+[2 "A"gbg "B"fec | "E"e3 ega |:\
+"E(Bm7)"b3 gbb | "E" fbb gbb |\
+"A"a3 gag | "B"fgf fec |\
+"E"BcB B2G |
+"C#m"B2c e2f |\
+[1 "A"gbg gfe | "B"f3 fga :|\
+[2 "A"gbg "B"fec | "E"e3 e2 :|\
+["Transition""A"gbg "B"fec | "E"e3 A3 |]
+
+
+X: 4
+T: Calliope House in D
+N: RJ J-39 D
+M: 6/8
+R: jig
+K: D
+A |\
+"D"dAA fAA | eAA fAA |\
+"G"Bee e2d | "A"efd BdB |\
+"D"ABA A2F | A2B d2e |
+[1 "G"faf fed | "A"e3 e2 :|\
+[2 "G"faf "A"edB | "D"d3 dfg |:\
+"D(Am7)"a3 faa | "D" eaa faa |\
+"G"g3 fgf |
+"A"efe edB |\
+"D"ABA A2F | "Bm"A2B d2e |\
+[1 "G"faf fed | "A"e3 efg :|\
+[2 "G"faf "A"edB | "D"d3 d2 |]
+% text 05/22/10
+
+%%text After playing once or twice, go back to Glen Echo.
+

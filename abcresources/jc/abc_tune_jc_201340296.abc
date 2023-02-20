@@ -1,0 +1,29 @@
+X:1
+T: St. Andrews Assembly
+N:
+C:Bundesleid by Beethoven
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 154
+%W: A1
+% voice 1 (1 lines, 26 notes)
+K:G
+M:4/4
+L:1/16
+G2 D2 B2 A2 G2 G2 G2 A2 |B2 A2 B2 c2 A8 |B2 B2 B2 c2 d2 d2 d2 c2 |B2 B2 A2 A2 G8 |
+%W: A2
+% voice 1 (1 lines, 26 notes)
+G2 D2 B2 A2 G2 G2 G2 A2 |B2 A2 B2 c2 A8 |B2 B2 B2 c2 d2 d2 d2 c2 |B2 B2 A2 A2 G8 |
+%W: B1
+% voice 1 (1 lines, 25 notes)
+A2 D2 A2 B2 A2 F2 D2 F2 |A2 D2 A2 B2 A8 |G2 D2 G2 B2 d4 B2 c2 |d2 c2 B2 A2 G8 |
+%W: B2
+% voice 1 (1 lines, 25 notes)
+A2 D2 A2 B2 A2 F2 D2 F2 |A2 D2 A2 B2 A8 |G2 D2 G2 B2 d4 B2 c2 |d2 c2 B2 A2 G8 |
+%W: C
+% voice 1 (1 lines, 29 notes)
+d2 c2 B2 A2 G2 e2 e2 f2 |g2 f2 e2 d2 e2 d2 c2 B2 |A2 G2 F2 E2 D2 d2 d2 e2 |g2 a2 g2 a2 g8 ||

@@ -1,0 +1,32 @@
+X: 1
+T: Neat Mr John
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (187)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+e4 fga2 | g2 e4 dc | B4 A4 | (G2 B6) |\
+e4 fga2 | g2 e4 dc | B4 A4 | (E2 A6) :|
+|:\
+c3B c2d2 | efed cBcA | d2c2 d2e2 | fgfe dcdB |\
+c2B2 c2d2 | efed cBcA | aedc B2A2 | (G2 B6) |
+c3B c2d2 | efed dBdA | d2c2 d2e2 | fgfe dcdB |\
+e4 fga2 | g2 e4 dc | B4 A4 | (E2 A6) :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. change Places set and cast off below the 2d
+%% Cu. .| Then change as before cast off below the 3d Cu. :|
+%% The 1st Cu. go the whole Figure contrary sides set and
+%% cast up above the 3d Cu. and turn in the 2d Cu. Place
+%% proper .| The 1st Man go the Hey with the 3d Cu. the 1st
+%% Wo. at the same Time go the Hey with the 2d Cu. the
+%% 1st Cu. lead up abreast with the 2d Cu. then slip up to
+%% the Top and cast off :|
+%%endtext
+%%sep 1 8 500

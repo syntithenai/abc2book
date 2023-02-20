@@ -1,0 +1,44 @@
+X: 1
+T: Mi go zatvorile
+R: lesnoto
+C: Trad.
+O: Macedonia
+Z: 2018 John Chambers
+S: Pinewoods collection
+P: A BB A BB A BBB
+M: 7/8
+L: 1/8
+K: D
+"A"\
+[| "D"([FD][GE][AF]) ([FD][GE]) ([AF][BG]) | "G"([dB][cA][BG]) "D"([AF][GE]) [FD]z \
+ | "D"([FD][GE][AF]) ([FD][GE] [AF][BG]) | "G"([dB][cA][BG]) "A"[c2A2] z2 |
+ | "A"([cA][dB][ec]) "G"([dB][cA][BG][dB]) | "A"([c2A2][BG]) "D"([AF][GE] [FD]) z \
+ | "G"([dB][cA][BG]) "A"([AF][BG][AF][GEC]) | "D"[F3-D3-] [F2D2] z2 |]
+"B"
+[| "D"[FD][F2D2] [A2F2] [A2F2] | "A"([G2E2][FD]) "D"[F2D2] z2 \
+ | "D"[FD][F2D2] "G"[B2G2] [B2G2] | "D"([B2G2][AF]) [A2F2] z2 |]
+w: 1.~Mi go zat-vo-ri-*le mla-di-ot Jor-dan-*\vce,
+w:    Vo zan-da-ni i-*ma vo-da do ko-le-*na,
+w: 2.~Ko-ga doj-de vre-*me Jor-dan da se pu-*\vsta,
+w:    Ko-ga doj-de Jor-*dan do d-ma\vs-ni por-*ti,
+w: 3.~Ko-ga go do-\vcu-*la ne-go-va-ti maj-*ka,
+w:   "Ka-de mi je maj-*ko moj-to ver-no li-*be,
+w:   "Tvoj-to ver-no li-*be, sno-\vsti se o-ma-*\vzi,
+%
+|: "A"[AF][B2G2] [c2A2] ([BG][AF]) | "G"[B3G3] "D"([AF][GE] [F2D2]) \
+ | "A"[AF][A2F2] [G2E2] ([GE][AF]) | "D"([G2E2][FD]) [F4-D4-] :| [F3-D3-] !fine![F2D2] z2 |]
+w: 1.~mi go zat-vo-*ri-le** vo tem-ni zan-*da-*ni.
+w:    vo-da do ko-*le-na,** ko-sa do ra-*me-*na.
+w: 2.~pra-vo on si* tr-ga** vo ne-go-vo* se-*lo.
+w:    dva pa-ti mi* \vcuk-na,** tri pa-ti mi* vik-*na.
+w: 3.~por-ti ot-vo-*ri-la,** si-na pre-gr-*ni-*la.
+w:    por-ti da ot-*vo-ri,** me-ne da pre-*gr-*ne?"
+w:    za tvo-jot kom-*\vsi-ja,** za tvo-jot po-*bra-*tim."
+% - - - - - - - - - -
+W:1.  Young Jordan was imprisoned, imprisoned in a dark dungeon.
+W: In the dungeon the water reached his knees, and his hair reached his shoulders.
+W:2.  When the time came that Jordan was freed, he went straight to his village.
+W: When Jordan reached the door of his house, he knocked twice and called out three times.
+W:3.  When his mother heard, she opened the door and embraced her son.
+W:"Where, mother, is my true love, to open the door and embrace me?"
+W:"Your true love was married last night, to your neighbor, to your blood-brother."

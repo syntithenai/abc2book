@@ -1,0 +1,29 @@
+X: 481
+T: DUNKELD HERMITAGE
+C: N. GOW
+R: Reel
+B: Glen Collection p.48 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Em
+%
+V: 1
+e |\
+E/E/ETB2 GEBG | FdAd FDAF | E/E/E TB2 GEBG | AFdF E/E/E E :|
+g |\
+e/e/eTg2 bege | d/d/d fd adfd | e/e/e Tg2 bege | dBdF E/E/E ETg |
+e/e/e g2 bege | d/d/d fd adfd | gbfa efde | BFdF E/E/E E |]
+%
+V: 2
+z |\
+e2[e'2b2] B2[e'2b2] | d2[a2f2] A2[f2d2] |\
+e2[e'2b2] B2[e'2b2] | d2[a2f2] e2[bge] :|
+z |\
+e2[b2g2] B2[b2g2] | d2[a2f2] A2[a2f2] |\
+e2[b2g2] B2[b2g2] | B2d2 e2[b2g2e2] |
+e2[b2g2] B2[b2g2] | d2[a2f2] A2[a2f2] |\
+e2^d2 e2G2 | B2B2 e2[bge] |]

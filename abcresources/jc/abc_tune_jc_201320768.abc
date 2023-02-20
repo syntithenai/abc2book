@@ -1,0 +1,15 @@
+X: 760
+T: Out With the Boys - 1st Setting.
+R: jig
+%S: s:3 b:16(6+5+5)
+N: O'Neill's 1850 "Music of Ireland" #760
+O: J. O'Neill.
+Z: Stephen Foy (shf@access.digex.net)
+N: Fermata above first double bar-line.
+N: D.C. under last bar-line.
+N: Both attached to last note, to satisfy software that doesn't recognize them on bar lines.
+M: 6/8
+K: G
+B | G3 g2e | dBG AFD | G3 g2e | dBG A2B || G3 g2e | dBG GAB |
+| cde dcB | cAF HG2 |]| B | eBe gbg | eBe gbg | eBe g2a |
+| bag agf || eBe gbg | eBe g2a | bag agf | e3 "_D.C."d2 |]

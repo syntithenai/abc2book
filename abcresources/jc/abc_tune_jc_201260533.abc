@@ -1,0 +1,24 @@
+X:1
+T:Castle Dangerous
+M:3/4
+L:1/8
+Q:80
+C:J. Havek
+S:Retreat
+K:HP
+|: {Gdc}d3/2e/2{g}f2{ag}a2 | \
+{fg}fd{g}G2{d}B2 | \
+{gde}d2{GBG}A2{Gdc}d2 |
+{g}fa{ef}e4 | \
+{Gdc}d3/2e/2{g}f2{ag}a2 | \
+{fg}fd{g}G2{d}B2 |
+{gde}d2{GBG}A2{g}f2 | \
+{gf}gc{Gdc}d4 :: \
+{g}f3/2g/2{ag}a2fa |
+{fg}fd{g}G2{d}B2 | \
+{gde}d2{GBG}A2{Gdc}d2 | \
+{g}fa{ef}e4 |
+{g}f3/2g/2{ag}a2fa | \
+{fg}fd{g}G2{d}B2 | \
+{gde}d2{GBG}A2{g}f2 |
+{gf}gc{Gdc}d4 :|

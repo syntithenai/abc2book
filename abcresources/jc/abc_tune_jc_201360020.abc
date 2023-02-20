@@ -1,0 +1,18 @@
+%Scale the output
+%%scale 1.2
+X: 1
+T:Simple Gifts
+C:Shaker Tune
+M:4/4%(3/4, 4/4, 6/8)
+L:1/4%(1/8, 1/4)
+%V:1 treble clef
+K:D%(D, C)
+|+segno+"A7"A,|"D"D D/2D/2 "Bm"F/2E/2F/2G/2|"F#m"A A/2A/2 "Bm"F F/2F/2
+|"Em"E E E E/2F/2|"Em"G/2F/2E/2D/2 "A7"C A,/2A,/2
+|"D"D D/2D/2 "Bm"F/2E/2F/2G/2|"F#m"A A/2A/2 "Bm"F F/2F/2
+|"Em"E E "A7"F F/2E/2|"G"D D "D"D2
+|"D"A2 "Bm"F3/2 E/2|"D"F/2G/2F/2E/2 "Bm"D2
+|"D"F F/2G/2 A G/2F/2|"Em"E E "A7"E A,/2A,/2
+|"D"D D "G"D3/2 E/2|"D"F/2E/2"A7"F/2G/2 "D"A G/2F/2
+|"Em"E E "A7"F F/2E/2|"D"D "G"D +fine+"D"D F/2F/2
+|"Em"E E "A7"F F/2E/2|"D"D "G"D +D.S.+"D"D||

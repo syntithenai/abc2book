@@ -1,0 +1,32 @@
+
+X: 1
+T: the Soldier's Song    [Bb]
+T: Amhr\'an na bhFiann
+C: music: Patrick Heeney (1881-1911)
+R: march
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+[|\
+"Bb"B3c d2B2 | F6 F2 | "Eb"G3G E2G2 | "Bb"F4 F4 || "Gm"B4 "D7"A4 | "Gm"G6 AB |
+"F"c3d "C7"c2G2 | "F"A6 "F7"z2 || "Bb"B3c d2B2 | F6 F2 | "Eb"G3G E2G2 | "Bb"F4 F4 ||
+"Dm"A4 A3A | A2A2 "C7"G3G | "F"F6 F2 || "Cm"E3E "F7"ECDE | "Bb"F3G F2B2 | "A7"A3G "Cm"A2G2 |
+"F7"F2E2 C2"F+"F2 || "Bb"D2B,D "F"F3F | "Gm"GA"Eb"Bc "D7"Hd2 "Eb"BG | "Bb"FB2d "F7"c3B | "Bb"B6 z2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Soldier's Song    [G]
+T: Amhr\'an na bhFiann
+C: music: Patrick Heeney (1881-1911)
+R: march
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+[|\
+"G"G3A B2G2 | D6 D2 | "C"E3E C2E2 | "G"D4 D4 || "Em"G4 "B7"F4 | "Em"E6 FG |
+"D"A3B "A7"A2E2 | "D"F6 "D7"z2 || "G"G3A B2G2 | D6 D2 | "C"E3E C2E2 | "G"D4 D4 ||
+"Bm"F4 F3F | F2F2 "A7"E3E | "D"D6 D2 || "Am"C3C "D7"CA,B,C | "G"D3E D2G2 | "F#7"F3E "Am"F2E2 |
+"D7"D2C2 A,2"D+"D2 || "G"B,2G,B, "D"D3D | "Em"EF"C"GA "B7"HB2 "C"GE | "G"DG2B "D7"A3G | "G"G6 z2 |]

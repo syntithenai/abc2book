@@ -1,0 +1,42 @@
+X: 1
+T: Juanita
+C: Caroline Norton
+R: waltz
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+N: The opening 4-bar phrase is from Handel's aria Lascia ch'io pianga from the opera Rinaldo. [Wikipedia]
+M: 3/4
+L: 1/8
+V: 1 clef=treble
+V: 2 clef=treble
+V: 3 clef=treble
+%%score [(1|2) 3]
+%%chords below
+K: F
+% - - - - - - - - - -
+V: 1 name=1 snm=1 staves=3
+[|\
+"F"c2-c2 B>A | A2 "C7"G2 z2 | "C7"G>A B3 B | "F"Ad c2 z2 |\
+"F"c2-c2 B>A | A2 "C7"G2 z2 | "C7"G>A B2 C2 | "F"F4 z2 |
+"F"Ac f3 e | e2 "Bb"d2 z2 | "C7"G>G c3 B | "F"Ad c2 z2 |\
+"F"Ac f3 e | e2 "Bb"d2 z2 | "C7"c>c c2 A2 | "F"F4 z2 |
+"F"A2 A2 (3AGA | "Gm"B2 B2 z2 | "C7"G>G c3 B | "F"Ad c2 z2 |\
+"F"A2 A2 (3AGA | "Gm"B2 B2 z2 | "C7"cc A2 G2 | "F"F4 z2 |]
+% - - - - - - - - - -
+V: 2 name=2 snm=2 staves=3
+[|\
+A2-A2 G>F | F2 E2 z2 | E>F G3 G | FB A2 z2 |\
+A2-A2 G>F | F2 E2 z2 | E>F G2 B,2 | A,4 z2 |
+FA A3 A | c2 B2 z2 | E>E E3 E | FB A2 z2 |\
+FA A3 A | c2 B2 z2 | D>^D E2 C2 | A,4 z2 |
+F2 F2 (3FEF | G2 G2 z2 | E>E E3 E | FB A2 z2 |\
+F2 F2 (3FEF | G2 G2 z2 | B,B, C2 B,2 | A,4 z2 |]
+% - - - - - - - - - -
+V: 3 name=3 snm=3 staves=3
+[|\
+F2-F2 E>F | C2 B,2 z2 | B,>C E3 E | CF F2 z2 |\
+F2-F2 E>F | C2 B,2 z2 | B,>C E2 C2 | C4 z2 |
+CF F3 F | F2 F2 z2 | B,>B, B,3 C | CF F2 z2 |\
+CF F3 F | F2 F2 z2 | B>B B2 E2 | C4 z2 |\
+C2 C2 C2 | E2 E2 z2 | B,>B, B,3 C | CF F2 z2 |\
+C2 C2 C2 | E2 E2 z2 | C2 E2 E2 | C4 z2 |]
+% - - - - - - - - - -

@@ -1,0 +1,38 @@
+X:1
+T:Hins polska
+M:3/4
+L:1/16
+Q:1/4=120
+O:Sweden
+A:Common
+N:Notated for fiddle tuned in GDAE
+N:"+" before a note means left hand pizzicato
+Z:L.Sohlman <l.y.sohlman@mailbox.calypso.net>, Sweden
+K:A
+"+"c4 "+"A4 "+"E4|"+"c2uc2 "+"A2uA2 "+"E2uE2| "+"c4 "+"A4 "+"E4|"+"c2uc2 "+"A2uA2 "+"E2uE2|
+A3A B2AB c4|E2FE D2ED [C4E4]| A3A B2AB c4|E2FE D2ED [C4E4]|
+A3A B2AB c4|A3A B2AB c4| c2Bc d2Bd c2Ac|B2GB [A8A8]::
+(DF)(AF) (DF)(AF) (DF)(AF)|(CE)(AE) (CE)(AE) (CE)(AE)| (DF)(AF) (DF)(AF) (DF)(AF)|(CE)(AE) (CE)(AE) (CE)(AE)|
+A3A B2d2 c2"+"c2|A3A B2d2 c4-|c2Bc d2Bd c2Ac|B2GB [A8A8]:: {c}e2(ef) ve2"+"c2 "+"A2uc2|d2(de) vd2"+"c2   "+"A2uc2|
+e2(ef) ve2"+"c2 "+"A2uc2|B2GB [A8A8]:: (DF)(AF) (DF)(AF) (DF)(AF)|(CE)(AE) (B,E)(AE) (A,E)(AE)|
+(DF)(AF) (DF)(AF) (DF)(AF)|(CE)(AE) (B,E)(AE) (A,E)(AE)| A3A B2Bd c2"+"c2|A3A B2Bd c4| c2Bc d2Bd c2Ac|B2GB [A8A8]:|
+
+X:2
+T:Hins polska
+M:3/4
+L:1/16
+Q:1/4=124
+O:Sweden
+A:Common
+N:Tuning: A - E - A - C#
+P:Notated for "trollst\"amt" fiddle (A,EAC#)
+N:"+" before a note means left hand pizzicato
+Z:L.Sohlman <l.y.sohlman@mailbox.calypso.net>, Sweden
+K:A
+"+"e4 "+"A4 "+"D4|"+"e2ue2 "+"A2uA2 "+"D2uD2| "+"e4 "+"A4 "+"D4|"+"e2ue2 "+"A2uA2 "+"D2uD2|
+A3A B2AB [c4e4]|D2ED =C2DC [B,4D4]| A3A B2AB [c4e4]|D2ED =C2DC [B,4D4]|
+A3A B2AB [c4e4]|A3A B2AB [c4e4]| c2Bc d2Bd c2Ac|B2FB [=G8A8]::
+(=CE)(AE) (CE)(AE) (CE)(AE)|(B,D)(AD) (B,D)(AD) (B,D)(AD)| (=CE)(AE) (CE)(AE) (CE)(AE)|(B,D)(AD) (B,D)(AD) (B,D)(AD)|
+A3A B2d2 c2"+"e2|A3A B2d2 c4-|c2Bc d2Bd c2Ac|B2FB [=G8A8]:: {e}=g2(ga) vg2"+"e2 "+"A2ue2|=f2(f=g) vf2"+"e2 "+"A2ue2|
+=g2(ga) vg2"+"e2 "+"A2ue2|B2FB [=G8A8]:: (=CE)(AE) (CE)(AE) (CE)(AE)|(B,D)(AD) (A,D)(AD) (=G,D)(AD)|
+(=CE)(AE) (CE)(AE) (CE)(AE)|(B,D)(AD) (A,D)(AD) (=G,D)(AD)| A3A B2Bd c2"+"e2|A3A B2Bd [c4e4]| c2Bc d2Bd c2Ac|B2FB [=G8A8]:|

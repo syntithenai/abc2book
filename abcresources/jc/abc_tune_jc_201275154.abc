@@ -1,0 +1,24 @@
+X: 375
+T: Father Quinn
+R: air
+%S: s:2 b:12(6+6)
+B: O'Neill's 1850 #375
+O: J.O'Neill.
+N: Grace notes are slurred to following note (which is then
+N: sometimes slurred to the note after that.)
+Z: Transcribed by Chris Falt, cfalt@trytel.com
+Q: "Slow with expression."
+M: C
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+G \
+| c2 (Ted) {c}B2 (AG) | (cB) (TAG) {F}E2 (G>A) \
+| (Bd3) (D3E) | (GA/2B/2) ({B}TA>G) G2z :|\
+| G \
+| (B3d) (e2 =f2) | (e3d) (cB) (TAG) |
+| "^>"B2 "^>"d2 "^>"e2 "^>"f2 | "^>"g3B {B}A2 z |\
+| f \
+| "^>"g2 e{fe}d B2 A{BA}G | (cB) A{BA}G {F}E2 (G>A) \
+| (Bd3) (D3E) | (GA/2B/2) ({B}TA>G) G2z |]

@@ -1,0 +1,47 @@
+%%text RJ Set 015 Jigs
+
+
+X: 1
+T: Kesh Jig
+I: RJ J-18 G jig Set 15
+I: Kincora Jig	J-18	G	jig	Set 15
+M: 6/8
+R: jig
+K: G
+D |\
+"G"G2G GAB | "D"ABA ABd | "G"edd gdd | edB "D"dBA |\
+"G"G2G GAB | "D"ABA ABd | "G"edd gdB | "D"AGF "G"G2 :|
+|: A |\
+"G"B2B dBd | "C"ege "G"dBG | BAB dBG | "Am"ABA AGA |\
+"G"B2B dBd | "C"ege "G"dBd | "C"g2g "D"aga | "G"bgg g2 :|
+
+
+X: 2
+T: Hills of Glenurchie
+I: RJ J-31 Em jig
+M: 6/8
+R: jig
+K: Em
+d |\
+"Em"BGE EFE | BAB d2B | "D"AFD DED | AFA ded |\
+"Em"BGE EFE | BAB d2e | "D"dBd AFD | "Em"EFE E2 :|
+|: B |\
+"Em"efe edB | efg "A"gfe | "D"ded dAB | def fed |\
+"Em"efe edB | efg "A7"gfe | "D"dBd AFD | "Em"EFE E2 :|
+
+
+X: 3
+T: Humours of Kesh, The
+I: RJ J-53 G jig Set 15
+M: 6/8
+R: jig
+K: G
+|:\
+"G"BGG Bcd | "C"ecG "D7"efg | "G"dcB "Em"gdB | "Am"A3 "D7"ABc |\
+"G"BGG Bcd | "C"ecc "D7"efg | "G"dcB "Em"gdB | "D7"cAF "G"G3 :|
+"G"gfg "Em"bag | "Am"fed "D7"^cde | "G"dcB "Em"gdB | "Am"A3 "D7"ABd |\
+"G"gfg bag | "D7"fed ^cde | "C"dcB "Am"gdB | "D7"cAF "G"G (3Bcd |]
+"G"gfg "Em"bag | "Am"fed "D7"^cde | "G"dcB "Em"gdB | "Am"A3 "D7"ABc |\
+"G"BdG Bcd | "C"e2c "Am"efg | "D7"dcB gdB | cAF "G"G3 |]
+% text 08/29/98
+

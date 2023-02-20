@@ -1,0 +1,26 @@
+X: 31002
+T: COTILLION No. 12. HIGHLAND SETT tune 2
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.100 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+B,2 |\
+E2G2B2e2 | g2gf e2g2 | f2^ab f2ab | f3dB2 B,2 |\
+E2G2B2e2 | g2gf e2g2 | f2^ab B2^d2 | e2g2e2 H|]
+d2 |\
+g4 d2b2 | g4 d2b2 | c'2a2b2g2 | agfe d2ef |\
+g4 d2b2 | g4 d2b2 | c'2a2f2a2 | g2b2"^D.C."g2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple forward and back,
+%% cross over,
+%% cross back,
+%% balance, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

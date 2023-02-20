@@ -1,0 +1,12 @@
+X:616
+T:Boston
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 61
+M:6/8
+L:1/8
+Q:1/8=270
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+B/c/|dbf gBe|edB G2G|FAc edF|Ged Bc^c|dbf gBe|edB G2G|FAe def|g3-g2::
+B|Te3-efg|Tf3-fab|gfe ^def|eFG E2B|Te3-efg|Tf3-fab|gfe ^def|e3-e2:|

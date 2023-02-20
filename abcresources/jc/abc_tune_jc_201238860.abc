@@ -1,0 +1,32 @@
+X: 31452
+T: COTILLION No. 31. PANTHEON SETT tune 5
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.145 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The rhythm between strains 1 & 2 is wrong; not fixed.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(3(d/e/f/) |\
+g2(3(d/e/f/) g2(3(d/e/f/) | g3 z.b.a | .g.f.e .d.c.B | d^c=c A2 (3(e/f/g/) |\
+a2(3(e/f/g/) a3(3(e/f/g/) | a3 z.b.a | gfe def | g3 z2 H|]
+ddd |\
+e2d ddd | ^c2d ddd | .g.f.e .d.c.B | d2c ccc |\
+d2c ccc | B2c ccc | fed cBA | B3 "^D.C."z2 |]
+D |\
+GDG B3 | BGB d3 | dd/d/d ddd | BdB G3 |\
+GDG B3 | BGB d3 | dd/d/d ddd | G3 "^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% 2 ladies forward and back,
+%% gentlemen the same,
+%% balance partners and turn,
+%% all chassa across partners and back,
+%% all balance partners and turn.
+%% Next 2, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

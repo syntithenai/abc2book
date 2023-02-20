@@ -1,0 +1,64 @@
+
+X: 1
+T: Le'Aliza
+C: John Chambers 1975/5
+N: Written for a friend who was leaving to live in Israel.
+L: 1/8
+M: C
+K: AM
+|:\
+"Am"e2ed edc2 | c2cB A2Bc |\
+"G"B2Bc d2cB | "Am"A2Ac e4 |\
+"Am"e2ed edc2 | c2cB A2Bc |
+"G"B2Bc d2cB | "Am"A2Ac e2dc |\
+"G"d2dc B2AG |1 "Am"A4 z4 :|2 "Am"A4 z2eg |:\
+"Am"a2eg a2eg | a2ag e2dc |\
+"C"e2e2 e2dc |
+"G"d2dc B2AG |\
+"Am"A2Ac e2e2 | e2dc A2Bc |\
+"G"B2Bc d2cB | "Am"A2Ac e2dc |\
+"G"d2dc B2AG | "Am"A4 z4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Starigradovo lesnoto
+C: John Chambers 1976/4
+R: lesnoto
+N: Written and played for a party (anniversary?) at Serbian restaurant in Milwaukee
+N: One of the people present made up Serbian lyrics on the spot, but I didn't get them written down.
+M: 7/8
+L: 1/8
+K: D
+|:\
+"D"F2D FG AB | A2G F2EF |\
+"G"G2B "A7"AB AG |1 "D"F2D FG AG :|2 "D"F7 :|
+||\
+"D"[F3D3] [F2D2] [G2E2] | [A7F7] |\
+"G" [B3G3] [B2G2] [B2G2] | "A7"[A2F2][GE] "D"[F2D2] "A7"[E2A,2] |\
+"D"[F3D3] [F2D2] [G2E2] | [A7F7] |\
+"G"[B3G3] [B2G2] [d2B2] | "A7"[c7A7] ||
+|:\
+"G"[B3G3] [B2G2] [d2B2] | "A7"[c2A2][BG] [A2F2][G2E2] |\
+"G"[G3E3] [G2E2] [B2G2] | "D"[A2F2][GE] [F4D4] |\
+"G"[G3D3-] [G2D2-] [B2D2-] | "A7"[A3D3-] [GEC4][AF] [GEA,][FD] |\
+"D"[F7-D7-] | [F7D7] :|
+
+%%sep 1 1 500
+
+X: 1
+T: Unnamed lesnoto
+C: John Chambers 1975/5
+N: Spur-of-the-mmoment tune for a dance+music workshop with novice musicians.
+R: lesnoto
+L: 1/8
+M: 7/8
+K: Am
+|: A2G AB c2 | c2B cd e2 |\
+   d2c BA BG |1 A2G AB c2 :|2 A2d A3 z :|
+|: dee ed ec | cdd dc dB |\
+[1 Bcc cB cA | B2A Bc d2 :|\
+[2 Bcd cA BG | A2d A3 z :|
+|: g2a gf e2 | f2g fe d2 |\
+[1 e2f ed cB | c2d ed ef :|\
+[2 c2d cA BG | A2d A3 z :|

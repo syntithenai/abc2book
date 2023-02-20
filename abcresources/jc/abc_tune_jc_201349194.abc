@@ -1,0 +1,19 @@
+X: 1
+T: Verkaa
+T: Baize
+O: Karjala, Finland
+S: handwritten copy of unknown origin.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The MS has all the accidentals written into the clarinet part, and no key signature.
+M: 3/4
+L: 1/8
+K: G
+V: 1
+"Violin"y\
+[| "D7"a2 d2 ef | "G"g2 g4 | "D7"a2 d2 ef | "G"g2 g4 ||
+|: "C"aa c'2 c'2 | "Em"aa b2 b2 | "D"aa d2 ef |1 "Em"g2 g4 :|2 "G"g2 g4 |]
+V: 2
+K: A
+"Bb clar."y\
+[| B,2 G,2 B,2 | c4 B,2 | G4 E2 | C4 F2 ||
+|: D2 A,2 F,2 | A,6 | F,2 A,2 D2 |1 F2 C4 :|2 C2 A4 |]

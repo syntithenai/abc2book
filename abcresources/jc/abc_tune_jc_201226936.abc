@@ -1,0 +1,53 @@
+X: 10521
+T: EMELIA'S FAVORITE
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.52 #1 (and p.53 #1)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+FGA |\
+B2F FDF | B2c d2e | f2d Bcd | e2c cAF |\
+B2F FDF | B2c d2e | f2d cBc | B3 :|
+|: F |\
+BcB AGA | BFD B,DF | BcB AGA | Bcd B2F |\
+BcB AGA | BFD B,DF | BcB AGA Bcd B2 :|
+|: !pp!F |\
+G2A BAG | F2F FED | C2D EDC | DED D2F |\
+G2A BAG | F2F FED | C2D EDC | B,2z z2 :|
+|: F |\
+B2z B2z | c2z z2B | AGA FGA | BFD B,DF |\
+B2z B2z | c2z z2B | AGA FGA | B2z z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2z |\
+D2D DB,D | D2F B2c | dBF DFB | CFA A2z |\
+D2D DB,D | D2F B2c | dBF EDE | D3 :|
+|: z |\
+D3 E3 | D2z z2z | D3  E3  | DEF D2z |\
+D3 E3 | D2z z2z | D2D E2E | DEF D2 :|
+|: D |\
+E2F GFE | D2D DCB, | A,2B, CB,A, | B,CB, B,2D |\
+E2F GFE | D2D DCB, | A,2B, CB,A, | B,2z z2 :|
+|: F |\
+D2z D2z | G2z z2G | F2F E2E | D2z z2F |\
+D2z D2z | G2z z2G | F2F E2E | D2z z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2z |\
+B2z B2z | B2z B2z | B2z B2z | F2F F2z |\
+B2z B2z | B2z B2z | B2d f2F | B3 :|
+|: z |\
+b3 f3 | b2z z2z | b3  f3  | b2b b2z |\
+b3 f3 | b2z z2z | b2b f2f | b2b b2 :|
+|: z |\
+B2B B2B | B2B B2B | f2f f2f | B2B B2z |\
+B2B B2B | B2B B2B | f2f f2f | B2z z2 :|
+|: z |\
+b2z g2z | e2z z2=e | f2f f2f | B2z z2z |\
+b2z g2z | e2z z2=e | f2f f2f | B2z z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

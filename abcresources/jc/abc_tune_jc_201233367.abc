@@ -1,0 +1,35 @@
+X: 193
+T: the Romp
+T: Longways for &c.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.97
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+N: The dance ends with 2 raised dots, presumable the ":|" icon missing its line.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+AGF FED | Dd2- d2A | AGF FED | Dd2- d2e |\
+fed edc | dcB cde | E3 ^G3 | A3- A2 :|
+|: e |\
+cde A2e | cde A2A | FGA D2A | FGA D2e |\
+edc cBA | Ae2- e2A | AFG AFG | Ad2- d2B |\
+AGF E2D | D3- D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st Cu. right and left with the 2d Cu. then
+%% change places at the top proper .| then Figure
+%% thro' the 3d Cu. and turn in the 2d Cu. Place :|
+%% Then the 1st Cu. clap Hands with the 2d Cu.
+%% and humour the tune, then take all four Hands
+%% and go twice round and turn single .| then 1st
+%% and 3d Cu. sett and turn S., then take hands
+%% and go half round, which brings the 1st Cu. in
+%% to the 2d Cu. Place Proper :
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

@@ -1,0 +1,22 @@
+X: 20093
+T: the WIDOW MAHONEY
+O: Irish air.
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.9 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Added missing dots to several quarter-notes.
+M: 6/8
+L: 1/8
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d/e/ |\
+fdd ecc | cBB c2d/e/ | fdd ecc | dBB B2d/e/ |\
+fdd ecc | dBB cde | fbd fed | {c}cBc B2d |\
+ddd HgHd d | ddd HgHd d |
+cAB cAB | cAB c<fHb |\
+agf e2d/c/ | cBG F>FF | BBB Hg2f/e/ | dB{d}c B3 "^slow"|\
+!p!Hd3 cBA | A2G HF3 !f!| Hb2B Bcd | d2c B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

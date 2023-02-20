@@ -1,0 +1,41 @@
+X:1
+T: The Black Boy
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:A
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 31 notes)
+K:A
+M:4/4
+L:1/16
+A8 c2 B2 A2 G2 |A4 c4 e4 a4 |g4 b4 e4 d4 |c4 A8 B4 |c4 e4 f4 f4 |e4 g8 e4 |f4 a4 g2 f2 e2 ^d2 |e8 E8 |
+%W: A2
+% voice 1 (1 lines, 31 notes)
+A8 c2 B2 A2 G2 |A4 c4 e4 a4 |g4 b4 e4 d4 |c4 A8 B4 |c4 e4 f4 f4 |e4 g8 e4 |f4 a4 g2 f2 e2 ^d2 |e8 E8 |
+%W: B1
+% voice 1 (1 lines, 33 notes)
+e4 =g8 f4 |f2 e2 d2 c2 d8 |B4 d8 f4 |e2 d2 c2 B2 c8 |A4 c8 e4 |d2 c2 B2 A2 G4 B4 |E4 d4 c2 B2 A2 G2 |A8 A,8 |
+%W: B2
+% voice 1 (1 lines, 33 notes)
+e4 =g8 f4 |f2 e2 d2 c2 d8 |B4 d8 f4 |e2 d2 c2 B2 c8 |A4 c8 e4 |d2 c2 B2 A2 G4 B4 |E4 d4 c2 B2 A2 G2 |A8 A,4 |
+%W: C1        Met. 150
+% voice 1 (1 lines, 40 notes)
+K:D
+M:6/8
+L:1/16
+A2 |d4 d2 c4 d2 e2 f2 e2 e2 f2 g2 d4 d2 c4 d2 e2 c2 A2 A4 A2 |d4 d2 c4 d2 e2 f2 d2 e2 f2 g2 a2 f2 d2 g2 e2 c2 d4 d2 d4 A2 |
+%W: C2
+% voice 1 (1 lines, 39 notes)
+d4 d2 c4 d2 e2 f2 e2 e2 f2 g2 d4 d2 c4 d2 e2 c2 A2 A4 A2 |d4 d2 c4 d2 e2 f2 d2 e2 f2 g2 a2 f2 d2 g2 e2 c2 d4 d2 d4 z2 |
+%W: D1
+% voice 1 (1 lines, 42 notes)
+f4 f2 f2 d2 f2 g4 g2 g2 e2 g2 f4 f2 f2 d2 f2 e2 c2 A2 A4 g2 |f2 a2 f2 d2 e2 f2 g2 b2 g2 e2 f2 g2 a2 f2 d2 g2 e2 c2 d4 d2 d4 z2 |
+%W: D2
+% voice 1 (1 lines, 41 notes)
+f4 f2 f2 d2 f2 g4 g2 g2 e2 g2 f4 f2 f2 d2 f2 e2 c2 A2 A4 g2 |f2 a2 f2 d2 e2 f2 g2 b2 g2 e2 f2 g2 a2 f2 d2 g2 e2 c2 d4 d2 d4 ||

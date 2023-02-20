@@ -1,0 +1,32 @@
+X: 31342
+T: COTILLION No. 26. PAUL JONES' SETT tune 2
+C:
+%R: 6/8
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.134 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+GGG |\
+c2c cBe | e3 c2c | def GAB | cec GEG |\
+c2c cBc | e3 c2c | def GAB | c3 H|]
+g2g |\
+g2g ede | c2c GAB | GAB GAB | GAB c2g |\
+g2g ede | c2c GAB | GAB GAB | "^D.C."c3 |]
+EEE |\
+A2A ABc | B2E ede | cBc ABc | B2E EEE |\
+A2A ABc | B2E ede | cBc E^F^G | "^D.C."A3 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 forward and back,
+%% cross over,
+%% chassa,
+%% cross back,
+%% balance and turn,
+%% ladies chain,
+%% promenade 4.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

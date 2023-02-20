@@ -1,0 +1,15 @@
+X: 1
+T: B\"olli-\"Olli sottiisi
+O: Trad (Suomi)
+R: Shottish
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The Swedish version usually has just 2 parts; the B and C parts here are variants of the Swedish B part.
+M: 2/4
+L: 1/16
+K: Bm
+F2 "A"|\
+"Bm"Bcde f2f2 | f2ed B2Bd | "A"c2A2 c2dc |1,3 "Bm"Bcdc B2 :|2,4 "Bm"B2BA B2 :|
+|: A2 "B"|\
+"D"f2fe "(Bm)"d2dc | "G"B2BA "(Em)"G2GF | "A7"E2c2 cABc |1,3 "D"dcde f2 :|2,4 "D"d2dc d2 |]
+|: A2- "C"|\
+"D"A2fe d2AF | "G"B2B2 B2ed | "A7"c2c2 c2fe |1,3 "D"d2dc d2 :|2,4 "D"d2[f2d2] d2 |]

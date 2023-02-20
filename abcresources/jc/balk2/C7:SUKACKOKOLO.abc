@@ -1,0 +1,37 @@
+X: 437
+T: Sukacko Kolo
+O: Croatia
+Z: Deborah Jones VIFD I
+F: http://www.youtube.com/watch?v=aOZBnk940AM
+F: http://www.youtube.com/watch?v=6NKdr56-FtA
+F: http://www.youtube.com/watch?v=rqsugAdzNAo
+M: 2/4
+L: 1/8
+Q: 1/4=120
+K: G
+%%MIDI program 0
+%%MIDI bassprog 17
+%%MIDI chordprog 38
+P:A
+   "G"[DG][DG] "D"[DG][DG]  |"G"[GB][GB] "D"[A2c2]    |\
+   "G"[FB][G] "D"A/B/A/F/   |"G"[DG] [D2G2]D          |
+   "G" [DG][DG] "D" G/A/G/A/|"G" [GB][Gd] "D" [A2c2]  |\
+   "G" [GB][Gd] "D" [DA][DF]|"G" [D2G2][DG]z          |
+|: "G" [GB][cd] [A^c][Bd]   |"C"[c2e2] "G" [B2d2]     |\
+   [^c2A2] [G2B2]           |[Bd][^A^c]
+   [Bd][GB]                 | [B2d2][G2B2]            |\
+   "D" [D2A2] "G" [DG]z     :|
+|: "G"[DG][DG] "D" [DA][DA] |"G" [GB][GB] "D" [AD][Ac]|\
+   "G" [GB][GB]"D"[DA][DA]  |[1 "G"[D3G3]D            :|[2 [D2G2][DG]z|
+P:B
+K:C
+   "C"[ce][eg] [^d^f][eg]   |"F"[f2a2]"C"[e2g2]       |\
+   [eg][d^f] [c2e2]         |[eg][eg] [df][ce]        |\
+   "G" [d2f2]"C"[c2e2]      |"G"[G2d2] "C" [G2c2]     |
+   "C"c[eg] [^d^f][eg]      |"F"[f2a2]"C"[e2g2]       |\
+   [d2^f2][c2e2]            |[eg][^d^f] [eg][ce]      |\
+   [d2^f2][c2e2]            |"G" [G2d2] "C" [G2c2]    |
+   "C" [Gc][Gc] "G" c/d/c/d/|"C" [ce][ce] "G" [d2f2]  |\
+   "C" [ce]c d/e/d/B/       |[Gc][g2c2]G              |
+   "C" [Gc][Gc] c/d/c/d/    |"C" [ce][cg] "G"[d2g2]   |\
+   "C" [ce][cg] "G" [Gd][GB]|"C" [G2c2][Gc]z          |

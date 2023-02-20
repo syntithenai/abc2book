@@ -1,0 +1,23 @@
+X: 24
+T: March of the 17 Reg.t
+%R: march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.12 #24
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|:\
+G2D>G B2G>B | d2B>d g4 |\
+e2g>e d2g>d | d>cB>A B2G2 |\
+e2g>e d2g>d | d>cB>A B2G2 |
+(B/c/B/c/).d.d {e}d2c>B | A2d>e d4 |\
+(B/c/d/c/).d.d {e}d2c>B | A2A>A A2g2 |\
+(gf).e.d (fe).d.^c | d2d>d d4 :|
+|:\
+(A/B/A/B/).c.c {d}c2BA | (B/c/B/c/).d.d {e}d2cB |\
+(A/B/A/B/).c.c {d}c2BA | {c}B2A>A A4 |\
+(d/e/d/c/) (B/c/B/A/) G2G2 | d>=fe>d {d}e4 |
+(e/^f/e/d/) (^c/d/c/B/) A2A2 | e>gf>e {e}f4 |\
+g2d>d d2g2 | d2B>B B2(3(def) |\
+g>gf>e d>cB>A | G2G>G G4 :|

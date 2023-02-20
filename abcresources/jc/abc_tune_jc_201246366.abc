@@ -1,0 +1,57 @@
+
+X: 1
+T: Always
+C: Words, music: Irving Berlin [1925]
+M: 3/4
+L: 1/8
+K: F
+[| "F"cd c2 C2 | A6 | "Gm"Bc B2 C2 | "C7"G4- GC |\
+   "Gm7"G6 | "C7"c6 | "F"A6- | A6 |
+w: Ev-'ry-thing went wrong, and the whole day long_ and feel so blue.
+w: Dreams will all come true, grow-ing old with you_ and time will fly,
+   "F"cd c2 C2 | A6 | "Gm"Bc B2 C2 | "C7"G4- GC |\
+   "Gm7"G6 | "C7"c6 | "F"F6- | F6 |
+w: For the long-est while I'd for-get to smile._ Then I met you.
+w: Car-ing each day more than the day be-fore,_ 'til spring rolls by.
+   "Am"E2  A2 A2 | "F7"A2 ^G2 A2 | "E7"=B6- | B6 |\
+       E2 =B2 B2 | =B2 A2 B2 | "Am"c4- c2- | "C7"c6 |
+w: Now that my blue day have passed,_ now that I've found you at last...
+w: Then when the spring-time has gone,_ then will my love lin-ger on.
+|: "F"C3 DFG | A6 | c2 A4- | A6 |\
+   "C7"C3 DEF | G6 | "F"A2 F4- | F6 |
+w: I'll be lov-ing you, al-ways_ with a love that's true, al-ways.
+   "F"C3 DFG | A6 | "A/E"E3 ^FA=B | ^c6 |\
+   "E7"E3 ^F^G=B | d6 | "A"^c2 A4 |
+w: When the things you've planned need a help-ing hand, I will un-der-stand, al-ways,
+   "C7"A2 G4 || "F"C3 DFG | A6 | c2 A4- | "F /E /Eb"A6 |\
+   "D7"D3 E^FA | d6 | "Gm"_e2 d4- | d6 |
+w: al-ways. Days may not be fair, al-ways._ That's when I'll be there, al-ways.
+   "Bb6"B3 AGA | "Gm7b5"B6 | "F"A3 GFG | "D(m)"A6 |\
+   "G7"G3 FEF | "C7"G4 C2 | "F"A2 F4- | F4 z2 :|
+w: Not for just an hour, not for just a day, not for just a year, but al-ways.
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: Always
+C: Words, music: Irving Berlin [1925]
+M: 3/4
+L: 1/8
+K: G
+[| "G"de d2 D2 | B6 | "Am"cd c2 D2 | "D7"A4- AD |\
+   "Am7"A6 | "D7"d6 | "G"B6- | B6 |\
+   "G"de d2 D2 | B6 | "Am"cd c2 D2 | "D7"A4- AD |\
+   "Am7"A6 | "D7"d6 | "G"G6- | G6 |
+   "Bm"F2  B2 B2 | "G7"B2 ^A2 B2 | "F#7"^c6- | c6 |\
+       F2 ^c2 c2 | ^c2 B2 c2 | "Bm"d4- d2- | "D7"d6 |\
+|: "G"D3 EGA | B6 | d2 B4- | B6 |\
+   "D7"D3 EFG | A6 | "G"B2 G4- | G6 |
+   "G"D3 EGA | B6 | "B/F"F3 ^GB^c | ^d6 |\
+   "F#7"F3 ^G^A^c | e6 | "B"^d2 B4 | "D7"B2 A4 ||\
+   "G"D3 EGA | B6 | "G"d2 B4- | "G /Gb /F"B6 |
+   "E7"E3 F^GB | e6 | "Am"=f2 e4- | e6 |\
+   "C6"c3 BAB | "Am7b5"c6 | "G"B3 AGA | "E(m)"B6 |\
+   "A7"A3 GFG | "D7"A4 D2 | "G"B2 G4- | G4 z2 :|

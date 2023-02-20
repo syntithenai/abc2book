@@ -1,0 +1,39 @@
+X:131
+T:Christmas waltzes
+%%subtitlefont Times-Roman 22
+T:Away in a Manger
+C:William J Kirkpatrick, 1895
+M:3/4
+L:1/4
+%%MIDI beat 100 95 80
+Q:1/4=110
+K:G
+D | "G"GG "D7"A/B/ | "G"GG B/c/ | "G"dd "E7"e | "Am"c2A/B/ | "D"ccd | "Em"BB G/B/ | "A7"AEG | "D7"F2D |
+"G"GG "D7"A/B/ | "G"GG B/c/ | "G"dd "E7"e | "Am"c2A/B/ | "D"ccd | "Em"BB G/B/ | "Am"AE "D7"F | "G"G2 |]
+N:Replace by blank line and X field
+T:We Wish You a Merry Christmas
+%%titlefont Times-Roman 22
+C:Trad. English
+%%MIDI beat 100 95 80
+Q:1/4=110
+M:3/4
+L:1/4
+K:G
+D | "G"G G/A/ G/F/ | "C"E C E | "A7"A A/B/ A/G/ | "D"F D F | "B7"B B/c/ B/A/ | "Em"G E D/D/ | "Am"E A "D7"F | "G"G2 ||
+D | "G"G G G | "Bm"F2 F | "A7"G F E | "D"D2 A | "Em"B A/A/ G/G/ | "D"d D D/D/ | "C"E A "D7"F | "G"G3 |]
+N:Replace by blank line and X field
+T:Silent Night
+%%titlefont Times-Roman 22
+C:Franz Gruber
+%%MIDI beat 100 95 80
+%%MIDI ratio 3 1
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+N:The first two are 16 bars; the third has been extended from 24 to 32 bars.
+Q:1/4=110
+M:3/4
+L:1/4
+K:D
+"D"A>BA | "/"F3 | "D"A>BA | "/"F3 | "Em"e2e | "A7"c3 | "D"d2d | "D7"A3 ||
+"G"B2B | "/"d>cB | "D"A>BA | "/"F3 | "G"B2B | "/"d>cB | "D"A>BA | "/"F3 ||
+"Em"e2e | "A7"g>ec | "D"d3 | "Bm"f3 | "D"dAF | "A7"A>GE | "D"D3 | "/"F/G/ A/B/ c/d/ |
+"Em"e2e | "A7"g>ec | "D"d3 | "Bm"f3 | "D"dAF | "A7"A>GE | "D"D3 | "/"z3 |]

@@ -1,0 +1,31 @@
+X: 275
+T: Memede
+O: Macedonia
+F: http://www.youtube.com/watch?v=_sLCGlsmL5Q
+F: http://www.youtube.com/watch?v=uXEguxTLaN0
+F: http://www.youtube.com/watch?v=lXzj8BaAG8Y
+M: 7/8
+L: 1/8
+Q: 1/4=96
+K: Gm clef=treble
+V:1
+%%MIDI program 2 Electric Grand
+|z7|z7|:
+DD/B,/CC/D/ B,/A,/G,2|F,A,B,C B,/C/ B,B,     :: B,C/D/ .E .E zE .E|
+Dz Dz FFF            |F/G/ _A/G/F/=E/ F/E/_D3|CC/E/_DCB,B,2        ::
+%%MIDI program 66 Tenor Sax
+DD/B,/CC/D/ B,/A,/G,2|F,A,B,C B,/C/ B,B,     :: B,C/D/ .E .E zE .E|
+Dz Dz FFF            |F/G/ _A/G/F/=E/ F/E/_D3|CC/E/_DCB,B,2        :|
+V:3 name=drum clef=perc stafflines=4
+K: none
+L:1/16
+%%MIDI channel 10
+%%MIDI drummap ^A 35 % Acoustic Bass Drum
+%%MIDI drummap _f 55 % Splash Cymbal
+%%MIDI drummap ^c 60 % Hi Bongo
+%%MIDI drummap ^F 61 % Low Bongo
+|^A2^c^F^A2^c^F^c^F^A2^c^F |^A2^c^F^A2^c^F^c^F^A2^c^F|:
+^A2^c^F^A2^c^F^c^F^A2^c^F |^A2^c^F^A2^c^F^c^F^A2^A2::^A2^c^F^A2^c^F^c^F^A2^A2::
+^A2^c^F^A2^c^F^c^F^A2^A2::^A2^c^F^A2^c^F^c^F^A2^c^F |^A2^c^F^A2^c^F^c^F^A2^c^F ::
+^A2^c^F^A2^c^F^c^F_f2^c^F |^A2^c^F^A2^c^F^c^F^A2^c^F ::^A2^c^F^A2^c^F^c^F_f2_f2 |
+^A2^c^F^A2^c^F^c^F_f2_f2 |^A2^c^F^A2^c^F^c^F^A2^c^F |^A2^c^F^A2^c^F^c^F^A2^c^F :|

@@ -1,0 +1,24 @@
+X: 20852
+T: BANNOCKS O' BARLEY MEAL
+O: Old Scottish air.
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.85 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+Gcc {d}cBc | edd d2f | {f}e>dc e<gG | GAB c2G |\
+Gcc {d}cBc | edd d2f | {f}e>dc e<gG | GAB c2 |]
+g |\
+gec ceg | gfe f2a | gec ceg | {a}gfe d2d/e/ |\
+f>gf f>gf | G>AG Hg2g/f/ | {f}e>dc e<gG | GAB c2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The song "Argyle is my name," is sung to the above air.
+%%endtext
+%%sep 1 1 300

@@ -1,0 +1,22 @@
+X:3
+T:A-minor Polkka Medley
+M:2/4
+L:1/16
+Q:1/4=120
+S:A-minor Polkka, A.A.Hyvarinen's Polkka
+R:polka
+P:AP,AAH
+N:A-minor Polkka  2. A.A. Hyvarinen's Polkka
+K:Am
+P:AP
+|: c | "Am" e2ef edcB | A2Ac A2 Ac | "E" B2E2 E^GB2 | "Am" cBA^G ABcd | !
+e2ef edcB | A2Ac A2 Ac | "E" B2E2 E^GB2 | "Am" cBA2 A3 :| !
+|: B | "Am" .c2 .E2 "E7" .B2 .E2 | "Am" ABcB "E7" .E2 B2 |
+"Am" .c2 .E2 "E7" .B2 .E2 | "Am" ABcB "E7" .E2 B2 | !
+"Am" .c2 .E2 "E7" .B2 .E2 | "Am" A2ce a2a2 |
+"E7" ^gbg^f e2fg | "Am" a2a2 a2 z :| !
+P:AAH
+|: c | "Am" e3d e3d | cdcB A2c2 | "E" BcBA ^G2E2 | "Am" A^GAB cBcd | !
+"Am" e3d e3d | cdcB A2c2 | "E" BcBA ^GEFG | "Am" A2A2 A2 z :| !
+|: E | "Am" E2A2 A2B2 | cdcB A2c2 | "E" BcBA ^G2E2 | "Am" A^GAB cBA2 | !
+E2A2 A2B2 | cdcB A2c2 | "E" BcBA ^GEFG | "Am" A2A2 A2 z :||

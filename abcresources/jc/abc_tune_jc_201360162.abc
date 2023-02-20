@@ -1,0 +1,32 @@
+X:12659
+T:Styrienne
+C:anon., arr. Carl Czerny
+O:Germany
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/germany/styrienne-f/styrienne-f-pno2.abc
+V:1 Program 1 0 %Piano
+V:2 Program 1 0 bass up %Piano
+V:3 Program 1 0 bass merge down %Piano
+M:3/4
+L:1/8
+K:F
+V:1
+"^Allegretto"(c"_p"B|Aca3)(g|fAc3)("_cresc."f|eGB)(ceg|fA c) z (cB|
+Aca3)(g|fAc3)(f|eGB)("_dim."ceg|f2)z2:|
+|:("_mf"a2|gfd3)(=B|ceg3)(g|"_cresc."agf)(d=Bd|cec'3)(a|
+"_dim."gfd3)(=B|ceg3)("_p"g|agf)(d=Bd|c4):|
+V:2 % l. h. up
+z2|z2 [A,2C2] [A,2C2]|z2 [A,2C2] [A,2C2]|z2 [G,2B,2] [G,2B,2]|z2 [A,2C2] [A,2C2]|
+z2 [A,2C2] [A,2C2]|z2 [A,2C2] [A,2C2]|z2 [G,2B,2] [G,2B,2]|z2 z2:|
+|:z2|z2 [D2F2] [D2F2]|z2 [C2E2] [C2E2]|z2 [D2F2] [D2F2]|z2 [C2E2] [C2E2]|
+z2 [D2F2] [D2F2]|z2 [C2E2] [C2E2]|z2 [D2F2] [D2F2]|[C2E2] [C2E2]:|
+V:3 %l. h. down
+z2|F,6|F,6|C,6|F,6|
+F,6|F,6|C,6|[F,2A,2]"_Fine" [F,2A,2]:|
+|:z2|G,6|G,6|G,6|G,6|
+G,6|G,6|G,6|"_D. C. al fine"z2 z2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

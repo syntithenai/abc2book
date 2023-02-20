@@ -1,0 +1,38 @@
+X: 10142
+T: MORELLA'S LESSON
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.14-15 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+D2 |\
+G2G>G GBAc | B2B>B Bdce |\
+dgfe dcBA | G2G>G G2dB |\
+G2G>G GBAc | B2B>B Bdce |\
+dgfe dcBA | G2G>G G2 :| \
+|: Bc |\
+d2d>d dgfe |
+d2d>d d2Bc |\
+dBGB dBGB | cAFA cAFA |\
+BGEG BGEG | A2A>A AcBA |\
+G2G>G GBAc | B2B>B Bdce |\
+dgfe dcBA | G2G>G G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+z4 z2D2 | G2G>G GBAc |\
+Bedc BAGF | G2G>G G2z2 |\
+z4 z2D2 | G2G>G GBAc |\
+Bedc BAGF | G2G>G G2 :|
+|: GA |\
+B2B>B BBAG | F2F>F F2GA |\
+BG2B BG2G | AFDF AFDF |\
+G2G2 G3G | F2F>F FAGF |\
+G2z2 z2D2 | G2G>G GBAc |\
+Bedc BAGF | G2G>G G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,26 @@
+X:24
+T:Kapylan Poikain Polkka Medley
+M:2/4
+L:1/16
+Q:1/4=120
+S:Kapylan Poikain Viinapolkka, Tuusulan Polkka
+R:polka
+P:K,T
+N:1. Kapylan Poikain Vinapolkka  2. Tuusulan Polkka
+K:G
+P:K
+|: d |"G" B3B B2B2 | BGBd B2B2 | "C" c3c c2c2 | cGce c2c2 |
+"D7" d2dd d2f2 | aa.a2 gg.g2 | !
+ff.f2 eee2 | ddd2 ccc2 | "G" B3B B2B2 | BGBd B2B2 | "C" c3c c2c2 | !
+cGce c2c2 | "D7" d2dd d2f2 | aa.a2 gg.g2 | f2f2 f2ef | "G" g2g2 g2 z :| !
+|: a |"G" b2b2 b2ab | "C" c'2e2 e3g | "D" f2f2 ffef | "G" g2B2 d3g | !
+"G" b2b2 b2ab | "C" c'2e2 e3g | "D" f2f2 ffef | "G" g2g2 g2 z :| !
+P:T
+|: d | "G" .e2.d2 .c2.B2 | "D7" D2FA FDFA |
+.d2.c2 .B2.A2 | "G" G2Bd BGBd | !
+.e2.d2 .c2.B2 | "D7" D2FA FDFA |
+.d2.c2 .B2.A2 | "G" .G2.B2 .G2 z :| !
+|: z | "C" c2eg eceg | "G" G2Bd BGBd |
+"D7" D2FA FDFA | "G" G2Bd BGBd | !
+"C" c2eg eceg | "G" G2Bd BGBc |
+"D7" .d2.c2 .B2.A2 | "G" .G2.B2 .G2 z :| !

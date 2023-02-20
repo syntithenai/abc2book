@@ -1,0 +1,26 @@
+X: 330
+T:Srpkinja
+O:Serbia
+F: http://www.youtube.com/watch?v=nkJAqBodfuY
+M:2/4
+L:1/16
+Q:1/4=210
+K:F
+%%MIDI program 24
+P:A
+   GA     |:B4 B4 |A4 G4   |AAAAA4 |FFFFF4|\
+   BBB6   |AAAA G4|AAAAA4- |A8     |
+   fff2f4 |e2e2d4 |eeeee4  |ccccc4 |\
+   fffff4 |eeeed4 |[1e8-   |e4G2A2 :|[2c8-|c8|
+P:B
+|: dddd d4|dddd d4|ddd2 c4-|c4 c4  |\
+   d4 ccc2|BBB2 A4|G8      |G4 z4  :|
+P:C
+   ccccc4 |=B4c4  |ddddd4  |z8     |\
+   ccccc4 |B4 A4  |BBBBB4  |A8     |
+   ccccc4 |f4 e4  |ddddd4  |z8     |\
+   c8     |B4 A4  |B8      |A8     |
+   c4c4   |B4A4   |G4A4    |B8     |\
+   A4F4   |F4F4   |G4A4    |B8     |
+   c4c4   |B4A4   |G4A4    |B8     |\
+   A4F4   |F4F4   |G8      |G8     |

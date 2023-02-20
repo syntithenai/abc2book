@@ -1,0 +1,27 @@
+X: 1
+T: Camberwell Frolick
+N: Pub: J. Walsh, London, 1748
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.87 #347
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:87 #347
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+GGG2 B2d2 | gfga g2d2 | e2d2c2B2 | AdBG F2D2 |\
+GGG2 B2d2 | g2{a}b2a2g2 | f2d2 ged^c | {^c}d8 :|
+|:\
+de=f2 e2d2 | cBA^G A2A,2 | (cde2) d2c2 | BAGF G2G,2 |\
+G2 B4 d2 | gfga g2d2 | ecdB cAGF | GGG2 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: g4g4 | g4g4 | c'2b2a2g2 | d4d4 | g4g4 | g4g4 | a4A4 | d8 :|
+|: b4^g4 | a4A4 | a4^g4 | g4G4 | g4g4 | g4g4 | c4d4 | g4g4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hey contrary sides and then on your own sides :|:
+%% cast off and turn your Partner .|.
+%% Right and Left at Top.
+%%endtext

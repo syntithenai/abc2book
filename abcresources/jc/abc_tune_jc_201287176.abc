@@ -1,0 +1,16 @@
+X:330
+T:Hombey House
+C:John Young, 1713
+L:1/4
+M:3/2
+%%MIDI gchord czc
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=102
+K:F
+P:A
+|: "F"F2 A/c/A F/A/F | "F"c2 f/a/f c/f/c | "Gm"d2 g/b/g d/g/f | "C"e3 d "C7"c2 |\
+"F"F2 A/c/A F/A/F | "F"c2 f/a/f c/f/c | "Gm"d2 g/b/g "C7"e/g/e | "F"f2 F4 :|
+P:B
+|: "F"a2 F/A/c f2 | "Gm"b2 G/B/d g2 | "Am"c'2 A/c/e "G7/B"a/g/f | "C"e3 d "C7"c2 |\
+"F"a2 f/a/f c/f/c | "Gm"d2 B/d/B G/B/G | "C"g2 e/g/e "C7"c/e/c | "F"f2 F4 :|

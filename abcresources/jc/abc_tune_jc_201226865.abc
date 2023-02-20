@@ -1,0 +1,22 @@
+X: 10493
+T: the KILWINNING ARCHERS' STRATHSPEY
+O: Now printed for the first time.
+R: Strathspey.
+%R: strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.49 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+D<DF>A B>AB>d | A>Bd>f {f}e>de>f |\
+D>AF>A B>AB<d | A>Bd>e f<dd :| e |\
+f<dd>e f/g/a/g/ f<d | B>AB>d {f}e>de<g |
+f<dd>e f/g/a/g/ f<d | A>Bd>e f<dd>e |\
+(3(fga) (3(bge) (3(afd) (3(dcd) | (3(Bcd) (3(efg) (3(fed) (3(cBA) |\
+D>AF>A B>AB<d | A>Bd>e f<dd |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

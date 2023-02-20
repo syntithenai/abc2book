@@ -1,0 +1,640 @@
+%abc
+%%abc-alias Empire Violin Collection of Hornpipes
+%%abc-creator ABCexplorer 1.4.0 [10/12/2011]
+
+X:0
+T: Empire Violin Collection of Hornpipes
+K:
+%%begintext align
+%% This collection was transcibed from a scan of
+%% the only known copy of the original book
+%% which was bought by Mike Hirst in Newcastle
+%% in 2002. The scan was made available on the
+%% FARNE Folk Archive website:
+%% http://www.asaplive.com/archive/detail.asp?id=X0001001
+
+%% The individual page scans were then made into a single
+%% PDF file without Mike Hirst's knowledge or permission.
+%% This PDF file was made available on another website
+%% and was listed as 'Public Domain' without any
+%% acknowledgement of the source. I downloaded that
+%% PDF file and transcribed the whole book into ABC
+%% for ease of reading.
+%%endtext
+%%begintext
+%% I am indebted to Mike Hirst for his kind permission to freely circulate this transcription.
+%% Peter Dunk, January 2012
+%%endtext
+
+X:1
+T:Empire Hornpipe (Craig 1)
+M:2/4
+L:1/16
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=70
+K:A
+E2 | AGAB ABcA | BABc de.fg | agaf ecAc | BcBA AGFE |!
+AGAB ABcA | BABc defg | aefd cABG | A2A2A2 :|!
+cd | efed ceae | fefd ceae | fgaf ecAc | BcBA AGFE |!
+AGAB ABcA | BABc defg | aefd cABG | A2A2A2 :|
+
+X:2
+T:Clog Dance (Craig 2)
+M:C|
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/2=70
+K:A
+E2 | A2- A>c B>AF>E | A>ce>a Tf2e2 | f>ec>A B>AF>A | B>cB>A F2 c>B |!
+A2- A>c B>AF>E | A>ce>a Tf2e2 | f>ec>A B>AF>E | A2A2A2:|!
+|:c>d | e>fe>c A2 a>g | f>ed>c d>ef>g | a>gf>e d>cB>A | B>Ac>A F2 c>B |!
+A2- A>c B>AF>E | A>ce>a Tf2e2 | f>ec>A B>AF>A | A2A2A2:|
+
+X:3
+T:Tivoli Hornpipe (Craig 3)
+M:2/4
+L:1/16
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=70
+K:A
+E2 | A2A2 A2(GA)| BAGA FAEc | defg a2(gf) | ecdB cABG |!
+A2A2 A2(GA)| BAGA FAEc | defg a2(gf) | ecdB A2 :|!
+|: z2 | A,2A2C2A2 | A,2AB cBcA | E2e2G2e2 | E2(ef) gedB |!
+A,2A2C2A2 | A,2AB cBcA | E2e2G2e2 | (3gfe (3dcB A2 :|
+
+X:4
+T:His Majesty's Hornpipe (Craig 4)
+M:C|
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/2=70
+K:A
+E(F/G/) | A2 ED CA,CE | FDBA GEFG | Acec dcBA | GABc BdcB |!
+A2 ED CA,CE | FDBA GEFG | Aagf edcB | A2A2A2 :|!
+|: (ef/g/) | aefc fdcB | ecBA AGFE | dfdB cecA | GABc B3 E |!
+FDFA dcBA | GEGB edcB | Aagf edcB | A2A2A2 :|
+
+X:5
+T:American Hornpipe (Craig 5)
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:A
+A2 (3ABc B2 (3Bcd | e>cd>B c>A (3GFE | A2 (3ABc B2 (3Bcd |1e>c (3dcB A2E2 :|2(3efe (3dcB A2A,2 |!
+|: a2(3fga g2e2 | f2 g>ag>g e2 | a2(3fga g2e2 | f>ef>g a2 (3efg |!
+a2 (3fga g2e2 | f>fg>a b>g (3efg | a2 (3cde f2 (3Bcd | (3efe (3dcB A2A,2 :|
+
+X:6
+T:Liverpool Hornpipe (Craig 6)
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:D
+(AG) | FDFA dfaf | gfed dcBA | GBGB FAFA | EFGA GFED |!
+FDFA dfaf | gfed dcBA | dfaf bgec | d2d2d2 :|!
+|: (3ABc | dfdf cece | Bcde dcBA | GBGB FAFA | EFGA GFED |!
+FDFA dfaf | gfed dcBA | dfaf bgec | d2d2d2 :|
+
+X:7
+T:Fishers Hornpipe (Craig 7)
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:D
+(3 ABc | dAFA GBAG | FAFA GBAG | FDFD GEGE | FDFD E2 (3ABc |!
+dAFA GBAG | FAFA GBAG | FAdA fedc | d2d2d2 :|!
+|: (cd) | ecAc ecge | fdAd fdaf | ecAc ecgf | edcB A2A2 |!
+BGDG BGdB | AFDF AFdA | BdcB AGFE | D2D2D2 :|
+
+X:8
+T:Harvest Home Hornpipe (Craig 8)
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:D
+A2 | DAFA DAFA | defe dcBA | eAfA gAfA | (3efd (cB) AGFE |!
+DAFA DAFA | defe dcBA | eAfA gece| d2f2d2 :|!
+|:(cd) | eAAA fAAA | gAAA fAAA | eAfA gAfA | (3efd (cB) AGFE |!
+DAFA DAFA | defe dcBA | eAfA gece | d2d2d2:|
+
+X:9
+T:Manchester Hornpipe (Craig 9)
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:D
+(3ABc | d>cd>A F>Ad>f | e>dc>B A2g2 | f>ga>g b>ge>c | d>cd>f e>c (3ABc |!
+d>cd>A F>Ad>f | e>dc>B A2g2 | f>ga>g b>ge>c | d2f2d2 :|!
+|:(fg) | a>fa>f d>fa>f | b>gb>g e>fg>e | a>fa>f b>ag>f | e>dc>B A>gf>e |!
+d>cd>A F>Ad>f  | e>dc>B A>ce>g | f>ga>f b>ge>c | d2f2d2 H:|
+
+X:10
+T:Cliff Hornpipe (Craig 10), The
+M:C|
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:D
+F>E | D>FA>F D>GB>G | A>Fd>A f>dA>F | G>Bd>g F>Ad>f | (3 efd (3cdB (3ABG (3FGE |!
+D>FA>F D>GB>G | A>Fd>A f>dA>F | G>Bd>g (3fed (3edc | d2f2d2 :|!
+|: c>d | e>A^G>A f>AG>A | g>ef>d e>A^G>A | g>ef>d e>cd>f | (3 efd (3cdB (3ABG (3FGE |!
+D>FA>F D>GB>G | A>Fd>A f>dA>F | G>Bd>g (3fed (3edc | d2f2d2 :|
+
+X:11
+T:Milicen's Favourite Hornpipe (Craig 11)
+T:Milicent's Favourite
+T:Belfast Hornpipe
+%Fairly obvious typesetting error in the title
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:D
+a>g | f>ad>f A>dF>A | D>FA>d f2 e>f | g>be>g c>eA>F | G>AB>G  E2 a>g |!
+f>ad>f A>dA>F | D>FA>d f2 e>f | g>bg>e  c>AB>c | d2f2d2 :|!
+|: D2 | G>FG>A B>cd>e | f3 e d>cd>B | A2f2 f>Af>A | G2e2 e>Ge>G |!
+G>FG>A B>cd>e | f3 e d>cd>B | A>fe>d c>AB>c | d2f2d2 :|!
+|:a>g | (3fgf (3efe (3ded (3cdc | (3BcB (3ABA G2 b>a | (3gag (3fgf (3efe (3ded | (3cdc (3BcB A2 a>g |!
+(3fgf (3efe (3ded (3cdc | (3BcB (3ABA (3GAG (3FGF | E>ge>d c>AB>c | d2f2d2 :|
+
+X:12
+T:Elk's Hornpipe (Craig 12), The
+T:Elk's Festival, The
+% The A in bar 7 was shown as a B and
+% must have been a typesetting error
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:D
+(FG) | A>FA>d f>ed>c | B>GB>e g>fe>d | c>Ac>e a>gf>e | f>cd>B A2 (FG) |!
+A>FA>d f>ed>c | B>GB>e g2 (ag) | f>"?"af>d B>ge>c | d2d2d2 :|!
+|: (fg) | (3aaa (fd) A>df>d | (3ggg (ec) A>ce>c | f>dg>e a>fb>g | e>cd>B A2 (fg) |!
+(3aaa (fd) A>df>d | (3ggg (ec) A2 (ag) | f>dA>F E>ge>c | d2d2d2 :|
+
+X:13
+T:Minstrel's Hornpipe (Craig 13), The
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:D
+F>G | A>FA>d B>GB>d | A>FA>d f2 e>d | c>eg>f e>dc>d | (3efe (3dcB A2 F>G |!
+A>FA>d B>GB>d | A>FA>d f2 e>d | c>eg>f e>dc>e | d2f2d2 :|!
+|: (e>f) | g>fg>e | c>AB>c | d>cd>e f2 e>f | g>fg>e c>AB>c | (3efe (3dcB | A2 (FG) |!
+A>FA>d B>GB>d | A>FA>d f2 e>d | c>eg>f e>dc>e | d2f2d2 :|
+
+X:14
+T:Sailor's Hornpipe (Craig 14), The
+M:2/4
+L:1/16
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=70
+K:G
+(3def | gdBd cedc | BGBd cedc | BGBG cAcA | BGBG Adef |!
+gdBd cedc | BGBd cedc | Bdgb bagf | g2g2g2 :|!
+|:fg | afdf a2a2 | bgdg b2b2 | agfe a2ab | agfe d2d2 |!
+ecGc ecge | dBGB dBgd | egfe dcBA | G2G2G2 :|
+
+X:15
+T:Norfolk Hornpipe
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=130
+K:G
+D>B, | G,>B,D>G G>GD>B, | C>EA>B c>BA>c | B>dg>d e>cA>G | (3FGA (3GFE (3DED (3CB,A, |!
+G,>B,D>G B>GD>B, | C>EA>B c>de>f | {a/}g>fg>e (3ded (3cBA | G>Bd>B g2 :|!
+|: B>c | c>g{ag}f>g e>g{ag}f>g | b>ga>f g>ed>B | (3cde (3ABc (3Bcd A>B | (3AGF (3GFE D2 B>c |!
+d>g{ag}f>g e>g{ag}f>g | {a/}b>ga>f g>ed>B | c>de>f {a/}g>fg>e | d>Bc>A G2 :|
+
+X:16
+T:Trumpet Hornpipe (Craig 16)
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:G
+(3GGG G2 (3GGG G2 | BGBd gdBG | (3DDD D2 (3DDD D2 | FDFA cAFD |!
+(3GGG G2 (3GGG G2 | BGBd g2g2 | fbag fed^c | d2d2d2 :|!
+|:(3ddd d2 (3ddd d2 | efgf edcB | cded cBAG | FGAG FDEF |!
+(3GGG G2 EGDG | (3GGG G2 EGDG | Fedc BAGF | G2G2G2 :|
+
+X:17
+T:Jack Tar Hornpipe (Craig 17)
+T:Cuckoo's Nest, The
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:G
+B2 | e2e2 efge | d2B2B2 dB | ABcd faef | d2A2A2 (Bd) |!
+e2 ef g2 fe | dBGB d2 (BA) | GFGE DEFA | G2E2E2 :|!
+|:(GA) | BGEG BGEG | BAGF E2 (FG) | AFDF AFDF | AGFE D2 (EF) |!
+GFGE g2(fe) | dBGB d2 (BA) | GFGE DEFA | G2E2E2 :|
+
+X:18
+T:Headlight Clog Dance (Craig 18)
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:C
+A,>B, | C4 B,4 | (3A,CE (3Ace a2 z | (3def (3Bcd (3^GAB E2 | (3def (3Bcd (3^GAB E2 |!
+C4 B,4 | (3A,CE (3Ace a2 z | e>^de>f e<B zf | e>dc>B A2 :|!
+|: G2 | c<Bc>d e>d c2 | d>^cd>e f>e d2 | g>^fg>a b>ag>f | e>dc>A (_A2G2) |!
+c>Bc>d e>d c2 | d>^cd>e f>e d2 | g>^fg>a b>a g2 | (3bag (3fed c2 :|
+
+X:19
+T:Mountain Sprite Hornpipe or Sand Jig (Craig 19), The
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:C
+G, C2 E G4 | {d/}c>Bc>a g>ed>c | G, C2 E G4 | {c/}B>AB>e d>BA>G |!
+G, C2 E G4 | G, C2 E G4 | {c/}B>AB>a (3gag (3fed |1 c2 {^f/}g2 {^f/}g2 {^f/}g2 :|2 c2e2c4 |!
+|: (c'4b2) z2 | (F4 E2) z2 | (de/f/) e>d (cd/e/) d>c |1 (Bc/d/) c>B c>B A2 :|2 (Bc/d/) c>B A2 |!
+|:G>F | E>Gc>e g3 E | F>Ac>f a3 A | B>db>a g>fA>B | d>ce>c G>AG>F |!
+E>Gc>eg3 E | F>Ac>f a3 A | B>db>a g>fA>B |1 (3cge (3cGE C2 :|2 (3cge (3cGE C2 z|]
+
+X:20
+T:Negro Hornpipe or Sand Jig (Craig 20)
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:C
+E2 (3GEG c>GE>G | F2 (3AFA c>AF>A | G>BG>B d>BG>B | c>ec>e g>ec>G | E2 (3GEG c>GE>G |!
+F2 (3AFA c>AF>A | g>Bd>B G>fd>B | c2c2c2z H:: A2 (3cAc e>cA>c | B>eB>^G e>e^F>G | A2 (3cAc e>cA>c |!
+G>eB>^G  E2e2 | B>eB>^G E2e2 | (3efe (3ded (3cdc (3BcB |1A2a2a2z :|2 A3 z [B4F4] !D.C.! |]
+
+X:21
+T:Hole in the Wall Clog Dance (Craig 21)
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=160
+K:C
+A,2B,2 C<A, z B, | (C2.D2) E4 | A2c2 (3FGF E2 | A2c2 (3FGF E2 |!
+A,2B,2 C<A, z B, | (C2.D2) E4 | A>Bc>d e2a2 | g>ab>g a2 z2 :|!
+(3cdc G2 (3cdc G2 | (3cdc G2 c>cB>c | (3cdc G2 (3cdc G2 | (3cdc G2 d>dc>d |!
+e2e2 (3FGF E2 | (3FGF E2 (3FGF E2 | E>FE>F E>DC>B, |]!
+|:A,<A, z B, C>A,B,>C | D<D z E F>DE>F | E>^GB>c d>BG>B |1A>cB>^G A>GC>B, :|2A>AE>C A,4 |]
+
+X:22
+T:Violetta Hornpipe (Craig 22)
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:F
+(AB) | c=Bcd cfaf | dfba gfed | c=Bdc cAFA | Ac=Bc dcA_B |!
+c=Bcd cfaf | dfbf gfed | cfaf dbge | f2f2f2 :|!
+|: ef | g^fga bgec | fefg afcA | dbca BgAd | (3gag (3fed c2 AB |!
+c=Bcd cfaf | dfba gfed | cfaf dbge | f2f2f2:|
+
+X:23
+T:Concert Hornpipe (Craig 23)
+M:4/4
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:(hornpipe)
+Q:1/4=140
+K:F
+!segno!c2|: Acac Acac | Bcgc Ac a2 | b2 a>b g>af>f |1 e>fd>e c2 B2 :|2e>d (3cde f2 H:|!
+A2 |: a>Ag>A f>Ae>A | d>Ad>f a>gd>A | ^c>Ac>e a>ec>A |1 d>Ad>f a>fd>A :|2d>Af>e d2 !D.S.!|]
+
+X:24
+T:Haymarket Hornpipe (Craig 24)
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:F
+FAcA FBdB | Acfc afcA | Bdfb Acfa | gfed cBAG |!
+FAcA FBdB | Acfc afcA | Bdfb Acfa | g2e2f2||!
+|: ef | gec=B c2 ef | gec=B c2 ga | bagf gfed | efcB cBAG |!
+FAcA FBdB | Acfc afcA | Bdfb Acfa |1 g2e2f2 :|2 g2e2f2z2 |]
+
+X:25
+T:Saratoga Hornpipe (Craig 25)
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:F
+(AB) | c=BcA d_Bfd | BAFA cAdc | BAGB AGFA | Gc=Bd c_BAB |!
+c=BcA d_Bfd | cAFA cdef | defg efga | f2f2f2 :|!
+|: (ef)  | aAgA fAeA | fAeA dAfA | gA^ce agfe | fgef defg |!
+aAgA fAeA | fAeA dAdf | defg efga | f2f2f2:|
+
+X:26
+T:College Hornpipe (Craig 26), The
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:(hornpipe)
+Q:1/4=160
+K:Bb
+(BA) | B2B,2B,2 (FE) | DF B2 (Bd)cB | c2C2C2 (cB) |Ac f2f2 ga |!
+bagf gfed | edcB BAGF | GBAc Bdce | d2B2B2 :|!
+|: (FE) | DFBF DFBF | G2E2E2 (GF) | =EGcG EGcG | A2F2F2 (ed) |!
+e2g2 gfed | edcB BAGF | GBAc Bdce | d2B2B2 :|
+
+X:27
+T:Wonder Hornpipe (Craig 27), The
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:Bb
+(3FGA |: B>fd>B A>ec>A | B>cd>B F2 B>A |1 G>Bc>d e>dc>B | A>cf=e g>f_ec :|2 G>gf>e d>cB>A | c2B2B2 |!
+|: cB | A>cf>=e f>dc>B | A>cf>=e f>ag>f | =e>fg>a b>ge>g | f>=ef>g f2_e2 |!
+d>ed>c B>d g2 | c>dc>B A>c f2 | g>ba>g f>ed>c | B2d2B2 :|
+
+X:28
+T:Washington Hornpipe (Craig 28)
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:(hornpipe)
+Q:1/4=140
+K:Bb
+B>cd>e fBAB | g>Ba>B b>BA>B | G>BF>B E>BD>B |1G>ec>A B>AG>F :|2 G>ec>A B2 z2 |!
+|: fBAB fBAB | g>fg>a b>ag>f | b>ag>f e>dc>B | c>ec>A B>AG>F |!
+B>cd>e fBAB | gBaB bBAB | G>BF>B E>BD>B | GecA B2z2 :|
+
+X:29
+T:Stop Hornpipe (Craig 29)
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:Bb
+(FE) | DdcB Agfe | gf d4 (fg) |1 (fe)(ed) (dc)(cB) | Bd F4 :|2 (fe)cA F2 GA | B2d2B2 |!
+|:(bg) | fdBF  DFBd | ecAF EFCE |1 DFBA GBed | c=Bcd c2 :|2 DFBF GecA | B2d2B2 |]
+
+X:30
+T:Centennial Hornpipe (Craig 30)
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:Bb
+(dc) !segno!|: B>Fd>c B>Fd>c | B>Fe>d c2(f>e) | d>fB>d c>eA>c |1B>ba>g f>ed>c :|2 B2d2B2 |!
+|: A>B | c>f=e>g f2 A>B | c>f=e>g f2 A>B | c>=eg>b a>gf>e |1 f>=ef>g f2 :|2 f>=ef>g f>_ed>c !D.C.!|]
+
+X:31
+T:President Garfield's Hornpipe
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:Bb
+(dc) |: BFDF BFDF | BABc dcde |1fcAc fcAc | f=efg f_edc :|2 fgag fedc | B2d2Bd |!
+|:ba | geBG EGBg | fdBF DFBf |1 eAgf eAgf | dBgf dB :|2 =efag f_edc | B2d2B2 |]
+
+X:32
+T:Hampton's Hornpipe (Craig 32)
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:Bb
+(3fga |b2 (ag) fedc | BABc dBFD | FBAB GBAB | dBed cfga |!
+b2 (ag) fedc | BABc dBFD | EGcd ecag | fedc B2 :|!
+|:(fe) | dDFB dfba | gEGB egbg | f=efg fdBd | edc=B cf=e_e |!
+dDFB dfba | gEGB egbg | f=efg f_edc | Bbfd B2 :|
+
+X:33
+T:Whiddon's Hornpipe (Craig 33)
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:Bb
+F2 |B2 (BA) BFDF | Bcde fgab | BFcF dFeF | dcBd cBAc |!
+B2 (BA) BFDF | Bcde fgab | {g}f=efg f_ecA | Bbfd B2 :|!
+|:(FD) | B,DFB dBFD | EGcd ecAc | Bbab fdBd | (3cdc (3BAG (3FGF (3EDC |!
+B,DFB dBFD | EGcd ecAc | Bbab gecA | (3Bdf (3bfd B2 :|
+
+X:34
+T:Bamford's Hornpipe (Craig 34)
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:Bb
+(de) | fbdf edcB | Ac F2 F3 E |1DF B2d2 Bd | efed cBAB :|2 DFBd fecA |  B2d2B2 AB||
+|: cFAc eFAc | BDFB dFBd |1 fBdf bBdf | efed cBAB :|2 fgfe decd | Bbfd B2 |]
+
+X:35
+T:Hill's Hornpipe (Craig 35)
+M:C
+L:1/8
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=140
+K:Bb
+(de) | f>bd>f B>dF>B | D>B,D>F B2 (3 FGA | B>FD>F d>cB>d | f>ed>e c2 d>e |!
+f>bd>f B>dF>G | D>B,D>F B2 (3 FGA | B>FB>d c>eA>c | B2B2B2:|!
+|: (BA) | B>df>a b>ag^f | g>^fg>a g2 cB | A>FA>c e>gf>e | d>cd>e f2 (dc) |!
+B>df>g b>fd>D | E>Gc>e g>ec>E | D>FB>d c>eA>c | B2b2B2 :|
+
+X:36
+T:Bank's Hornpipe (Craig 36)
+M:2/4
+L:1/16
+B:Empire Violin Collection of Hornpipes
+H:Published by Thomas Craig
+H:Music Publisher, &c.
+H:George Street, Aberdeen, N.B.
+Z:Peter Dunk December 2011
+R:hornpipe
+Q:1/4=80
+K:Eb
+(3B,CD | E2G2G2 (3BGE | D2F2F2 (3AFD | C2c2c2 de | BcBA AGFE |!
+G,2B2 B2cd | A,2c2 c2cd | DEFG AFED | E2G2E2 :|!
+g^f | g2G,2G,2 (3gbg | f2B,2B,2 (3fgf | e2c2 c2fe | edcB B2B2 |!
+(DB)(fB) (DB)(fB) | (EB)(gB) (EB)(gB) | =ABcd ecBA | B=ABc B_AGF |!
+EGBG eGFE | DFBF dFED | B,EGE AGFE | ABcB AGFE |!
+(G,E)(BE) (G,E)(BE)| (A,E)(cE) (A,E)(cE) | DEFG AFED | E2G2E2 |]
+
+

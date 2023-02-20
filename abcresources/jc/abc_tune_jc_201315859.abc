@@ -1,0 +1,25 @@
+X: 1
+T:The Nurse's Song
+M:6/8
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+|: {g}A|
+{Gdc}d3/2f/2{g}d{gBd}B2d|
+{g}A3/2B/2{G}A{g}A/2{d}A3/2B|  !
+{g}A3/2B/2{G}A{g}A3/2B/2d|
+{gfg}f2a{f}g3/2f/2{g}e{Gdc}d3/2f/2{g}d{gBd}B2d|
+{g}A3/2B/2{G}A{g}A/2{d}A3/2{d}B|  !
+{g}A/2{d}A3/2{gf}g{a}f3/2g/2e|
+{Gdc}d3{gdc}d2:| |:
+{g}A|  !
+{Gdc}((3defg){ag}a2f|
+{gf}g2ea3/2f/2{g}d|
+{gdc}d3/2e/2f{gf}g2e|  !
+{gfg}f2d{g}e3/2c/2{d}A{Gdc}((3defg){ag}a2f|
+{gf}g2ea3/2f/2{g}d|
+{gfg}f3/2e/2{g}f{g}A3/2B/2{G}A|  !
+{g}f3/2g/2ag3/2f/2{g}e:|
+

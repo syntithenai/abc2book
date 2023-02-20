@@ -1,0 +1,17 @@
+X: 468
+T: Vranjanska Kadenca
+O: Macedonia
+F: http://www.youtube.com/watch?v=Wd4l-pOo5uw
+M: 7/8
+L: 1/8
+Q:1/4=144
+K: D
+%%MIDI program 20 Reed organ
+%%MIDI drum d3d2d2 41 41 41 80 60 50
+%%MIDI drumon
+|:DCDEz3|FEFGz3|A2FG2A2|[1FGEFD3:|[2FGEFD3-|D4z3|
+%%MIDI drumoff
+F2-F2-F2G|ABGAF3-|F4z3|\
+A2-A2-A2B|cd ed c3-|c4z3|: fF GA Bcd|f2 ee ddc|
+c2-c2 dcd|ec dB cAB|GF-F2 BA|\
+B3A BcA|A2 GAG F3-|F7:|

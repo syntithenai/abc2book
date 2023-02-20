@@ -1,0 +1,45 @@
+X: 4201
+T: the Hon.ble Mr Maule's Frolick    or the Trip to Dormont   [D/Dm]
+C: by Nath.Gow
+%R: jig, waltz, air
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.20 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: This tune has the 2nd strain written as 2 "voices", but it's easier to work
+N: with in this form, using chords rather than 2 voices.
+M: 6/8
+L: 1/8
+Q: "Slowish"
+K: D
+% A number people objected to the original F/Fm keys, and I was very sympathetic,
+% so here's a D/Dm version for the people with limited instruments. It might
+% also work well if transposed up to G, for instruments such as flutes, though
+% it would mean going up to 3rd position on fiddles.
+% - - - - - - - - - -
+% Voice 1 left as-is, though the note spacing could be slightly improved by adjusting the staff breaks.
+V: 1 staves=2
+(A//B//c/) |\
+~d2A ~A2F | ~F2D ~D2A, | A,2A, (A,D).C | (B,E).D {D}C2 (A//B//c/) ||\
+~d2A ~A2F | ~F2D ~D2A, | (B,G)F {F}EDC | (TC3 {B,C}D2) :| g |
+{fg}a2a ~a2g | {fg}a2a ~a2g | ~f>ga afd | (ce).e Te2g ||\
+{fg}a2a ~a2g | f>ga afd | (Bg).f {f}edc | Tc3 d2g ||\
+{fg}a2a ~a2g | {fg}a2a ~a2g |
+~f>ga afd | (ce).e ~e2g ||\
+f>ga {b}agf | ~g>ab ~e>fg | {g}fed {f}edc | Td3 "_Fine"HD2 |][K:Dm]|: "^Minore"D |\
+(A,<D).D TD2E | {E}F2D {F}EDC | (A,<D).D TD2E |
+F>GA A2A ||\
+(BG)B {B}AGF | (EG).c (GE).C | (.A,.D.E .F.G.A) |(FD).D D2 :| A |\
+{e}d^cd (Ad).f | {f}ede c2e | {e}d>^cd Ade | (fd).A def ||\
+Td^cd Adf | (eg).e cde |
+{de}f>ed (^ce).g | (fd).d d2A ||\
+{e}d^cd (Ad)f | {f}ede c2e | {e}d^cd Ad=c | HB>AG AFD ||\
+~D>EF F>GA | .G(=Bc) GEC | (AF).D (AF).D | ^CA,C "_D.C."[D2F,2] |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | D3 d3 | D3 d3 | f3 d2f | g2e a2z || d3 d3 | D3 F3 | G3 A2A, | DFA d2 :| z |
+[d3f3a3] [d2f2a2][cea] | [d3f3a3] [d2f2a2][cea] | [d3f3a3] [d3f3a3] | [A3e3a3] [A3e3a3] ||\
+[d3f3a3] [d2f2a2][cea] | [d3f3a3] [d3f3a3] | g3 a2A | dAF D2z || [d3f3a3] [d2f2a2][cea] | [d3f3a3] [d2f2a2][cea] |
+[d3f3a3] [d3f3a3] | [A3e3a3] [A3e3a3] || [D3d3] [F3f3] | [G3g3] [G3g3] | [A3a3] [A3A,3] | DFA "_Fine"Hd2 |][K:Dm]|: "^Minore"z |\
+d3 d3 |  d3 c3 | d3 d2A |
+d3 d3 || e3 f3 | c3 c3 | d3 A3 | d2A D2 :| z | d3 d3 | c3 c3 | d3 A3 | d3 D3 || d3 d3 | c3 c3 |
+d3 A3 | DFA d3 || d3 d3 | c3 c3 | d3 d3 | He>fg a2d || d3 =B3 | c3 c3 | d3 d3 | A2A, "_D.C."D2 |]

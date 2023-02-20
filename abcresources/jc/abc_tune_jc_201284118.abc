@@ -1,0 +1,31 @@
+X: 1
+T: Hambleton's Rant
+P: Longways for as many as will
+%R: strathspey
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.37
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #21 (29)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Long beams broken to improve readability.
+M: C|
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+GGG2 Bcd2 B3A G3A | A3G F2f2  A3G F2A2 |\
+GGG2 Bcd2 B3A G3c | A2F2 c2A2 G4 d4 |]
+[|\
+B2d2 def2 g2d2 BcdB | g2d2 Bcd2 f2c2 ABc2 |\
+B2d2 d2ef gfed edcB | cBAG A2F2 | G4 d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[| g8 G8 | d8 d'8 | g8 G8 | d4D4 G8 |]
+[| g4z4 G4z4 | g4z4 d4z4 | g4z4 b4c'4 | a2c'2d'2d2 G8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The two Men take Hands and fall back, then meet their Partners and turn
+%% single, the two We. doing the like, afterwards all four take hands and go
+%% half round and turn single, then half round and back again, then the double
+%% figure, and the 1st Cu. lead down the middle.
+%%endtext

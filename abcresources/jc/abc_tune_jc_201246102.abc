@@ -1,0 +1,551 @@
+X:1
+T:Damsons Bridge
+T:The Big Ship
+M:2/4
+L:1/16
+Q:80
+N:Damsons Bridge straddles the River Frome in WD - the road is frequently
+N:flooded in wet weather.
+Z:Brian Martin
+K:G
+"(The Big Ship)"
+D2|GFGA BABc|dedc B2G2|c2cB AFA2|dedc B2D2|
+GFGA BABc|dedc B2G2|cdcB AGFA|G2B2G2|]
+d2|g2gf efge|dedc B2G2|c2cB A2A2|dedc B2d2|
+g2gf efge|dedc B2G2|cdcB AGFA|G2B2G2||
+
+X:2
+T:Salmon Tails (1)
+M:2/4
+L:1/8
+Q:200
+N:Change to "Rattling Bog"  when "Horseshoes " is called.
+Z:Brian Martin
+K:G
+((3D/E/F/)|GE DE|G2G>A|B/c/d AB/A/|GE D2|GE DE|G2 G>A|B/c/d AB/A/|G3:|
+A||:Bd dc/B/|ce e2|dB AB/A/|GE D2|Bd dc/B/|ce e>f|gf ed|ef g2:||
+
+X:3
+T:Salmon Tails (2)
+T:Rattling Bog
+M:2/4
+L:1/8
+Q:200
+N:A music only .  Change to this tune (slightly slower) when "Horseshoes"
+N:is called.
+Z:Brian Martin
+K:G
+"(Rattling Bog)"
+A|B2 B>A|GE E2|DG G/F/G/A/|BA A2|B2 B>A|GE E2|Dd d>c|1BA G:||\
+"last time"BA G2|]
+
+X:4
+T:Rupert's Dance
+T:Donkey Riding
+M:4/4
+L:1/8
+Q:180
+Z:Brian Martin
+K:G
+"(Donkey Riding)"
+G2GAB2B2|c2A2B4|B2A2A2GA|B2A2A4|G2GAB2B2|c2A2B4|B2A2d2d2|G4d4|]
+e4d4|c2d2B4|B2A2A2GA|B2A2A4|e4d4|c2d2B4|B2A2d2d2|G4G4|]
+
+X:5
+T:The Cross Hands
+T:Squire's Frolic
+T:Harper's Frollick
+M:4/4
+L:1/4
+Q:90
+N:named after the village pub
+Z:Brian Martin
+K:D
+"(Squire's Frolic,  Harper's Frollick)"
+A/G/|FADA/G/|F/G/ADd|cdec|d/c/d/c/dA/G/|
+FADA/G/|F/G/ADd|cdec|d2d:||
+d/e/|fdd/e/f|gee>g|fddf|e/d/c/B/Ad/e/|
+fdd/e/f|gee>g|fd/f/ec/e/ddd|]
+
+X:6
+T:Brimfield
+T:Not for Joe
+M:4/4
+L:1/4
+Q:100
+Z:Brian Martin
+K:G
+"(Not for Joe)"
+DG/G/DG/G/|FEFE|DG/G/DG/G/|FGA2|DG/G/DG/G/|FEFE|D2B>A|GFGA|]
+B>AGB|c2A2|B>AGB|AFD2|B>AGB|c2Ac|BGAF|GG/G/G2|]
+
+X:7
+T:Horse Shoes
+T:Three Hand Reel
+M:6/8
+L:1/8
+Q:124
+N:Dance written by Linda Harley
+N:.
+Z:Brian Martin
+K:G
+"(Three Hand Reel)"
+d|B2dB2A|GBd e2d|efg dBG|AcB A2d|B2dB2A|GBd e2d|efg dcA|G3-G2:||
+d|g2de2d|g2de2d|efg dBG|AcB A2d|g2de2d|g2de2d|efg dcA|G3-G2:||
+
+X:8
+T:White Ladies Aston (1)
+T:Paddy McGinty's Goat
+M:4/4
+L:1/8
+Q:160
+Z:Brian Martin
+K:G
+"(Paddy McGinty's Goat)  Tune Changes at 'Cross Overs'"
+G>A|B2B>AG2G>A|B>AB>cd3B|c2c>BA2A>B|c>Bc>de2d>c|
+B2B>AG2G>A|B>AB>cd3B|c>Bc>BA2d>c|((3B<GG) G>GG2:||
+zf|g2g>ed2d2|g>fg>ed4|f>ef>ed2d2|f>ef>ed4|
+e2c2d2B2|c>Bc>dB3B|c>Bc>BA2d>c|((3B<GG) G>GG2:||
+
+X:9
+T:White Ladies Aston (2)
+T:Lord of the Dance
+M:4/4
+L:1/8
+Q:160
+Z:Brian Martin
+K:G
+"(Lord of the Dance)  Change to this tune on 'Cross Overs')"
+D2|GFGA BABc|d2d2B4|A2A2A2B2|cBAG FED2|GFGA BABc|
+d2d2B4|A2A2BcBA|G2G2G2:|Bc|d4B3A|BcBAG4|
+B2Bcd2cB|A2A2A2D2|G2G2G3A|BABcd2cB|A2A2BcBA|G2G2G2:||
+
+X:10
+T:Fox & Geese
+M:6/8
+L:1/8
+Q:124
+Z:Brian Martin
+K:G
+G2d dcB|A2B c3|BAG GAB|A2G FED|G2d dcB|A2B c3|BAG c2B|AGF G3:||
+F2G AFD|F2G ABc|d2B d2B|dBG dBG|F2G AFD|F2G ABc|dBG c2B|AGF G3:||
+
+X:11
+T:Much Wenlock
+T:Pigeon on the Gate
+M:4/4
+L:1/8
+Q:120
+K:G
+"Use A music chorus   (Pigeon on the Gate)"
+(3DEF|G>F (3GFE D2B2|A>GF>ED2B2|c2A>cB2G>B|A>GF>E D2 (3DEF|
+G>F(3GFE D2B2|A>GF>ED2B2|c>BA>G F>DE>F|G2B2G2:||
+A2|B2d2B2d2|e>dc>BA3B|c>BA>G F>DE>F|A>GF>E D2A2|
+B2d2B2d2|e>dc>BA3B|c>BA>G F>DE>F|G2B2G2||
+
+X:12
+T:Dartmoor Tinners' Rabbit
+T:Uncle Bernard's Polka
+M:2/4
+L:1/8
+Q:160
+C:harmony parts by BM
+Z:brian_martin12345@yahoo.com
+K:G
+"(Uncle Bernard’s Polka)"
+D|GA Bc|dd/e/ d/c/B|c>d c/B/A|B>c BA|
+GA Bc|dd/e/ dg|f/e/d/c/ BA|G2G:||
+d|gg fe|dd/e/ d/c/B|cc/d/ c/B/A|B>c Bd|
+gg fe|dd/e/ dg|f/e/d/c/ BA|G2G:||
+M:2/4
+L:1/8
+"2nd Part"
+D|B,D DC|B,B, DG|A>F EF|G>G GD|B,D DC|B,D/E/ GE|D/E/F/G/ DF|G2G:||
+G|BB/d/ AA|BG DG|A>F EF|G>D GG|BB/d/ AA|BG/E/ GE|D/E/F/G/ DF|G2G:||
+M:2/4
+L:1/8
+"Descant"
+d|Bd dc|BB dg|a>f ef|g>g gd|Bd dc|Bd/e/ ge|d/e/f/g/ df|g2g:||
+g|bb/d'/ aa|bg dg|a>f ef|g>d gg|bb/d'/ aa|bg/e/ ge|d/e/f/g/ df|g2g:||
+
+X:13
+T:The Old Mill
+T:The Gardener’s March (adapted)
+M:4/4
+L:1/8
+Q:150
+N:Tune adapted from Aird’s 18th Century
+N:Collection
+Z:Brian Martin
+K:G
+"(The Gardener's March [adapted])"
+D2 |G2A2B2c2|d2e>dc4|B2c>BA4|G>AB>GD4|
+G2A2B2c2|d2e>d c2d>c|B2AB c>BA>G|A4G2:||
+z2|e2c2A4|d2B2G4|c2B2A2G2|F>GA>FD2|
+cd|e2c2A4|d2B2G4|e2c2A>Bc>B|A4G2z2|e2g2f>ga>b|g4g2||
+
+X:14
+T:The Dingle Dance
+T:Albert Falmer's Bonfire Tune
+M:4/4
+L:1/4
+Q:80
+N:The Dingle is on the Winterbourn Down map
+N:.
+Z:Brian Martin
+K:D
+"(Albert Falmer's Bonfire Tune)"
+d/e/|f>d AF|GG/F/G2|e/d/c/A/Bc|d/f/f/d/Ad/e/|
+f>d AF|GG/F/G2|e/d/c/A/Bc|d2d:||
+d/e/|ff/d/ff/d/|g/e/f/d/e>f|g/f/e/d/ c/A/B/c/|d/f/f/d/Ad/e/|
+ ff/d/ff/d/|g/e/f/d/e>f|g/f/e/d/ c/A/B/c/|dd/c/d:||
+
+X:15
+T:Hambrook Broom Dance
+M:2/4
+L:1/16
+C:DDK-K once through, 2X SH, DDK-K A music only
+S:Davy Davy Knick-Knack, Shepherd's Hey
+Z:Brian Martin
+K:G
+D2|GFGA B2B2|GFGA B2B2|dcBc A2A2|dcBc A2A2|
+GFGA B2B2|GFGA B2B2|dcBc AcBA|G2B2 G2:||
+Bc|d3c B2d2|g2g2 d2 z2|dcBc A2A2|dcBc A2A2|
+d3c B2d2|g2g2 d2 z2|dcBc AcBA|G2B2 G2:||
+L:1/8
+A|Bc dB|c2c2|BcdB|A2A2|BcdB|c2 Bc|d2D2|G3:||
+A|B2G2|c4|B2G2|A4|BcdB|c2Bc|d2D2|G3:||
+
+X:16
+T:Chicken Pecking
+T:Earl Grey
+M:4/4
+L:1/4
+Q:112
+Z:Brian Martin
+K:G
+"(Earl Grey)"
+G>AGD|EGDB|cAc/B/A/G/|FAAB/A/|G>AGD|EGDB|cede/f/|1gGG2:|2gGG|]
+((3d/e/f/)|gGfG|eGdG|cA c/B/A/G/|FAA((3d/e/f/)|gGfG|eGdG|ced e/f/|gGG2|]
+
+X:17
+T:Craven's Stomp (1)
+T:Bobby Shaftoe
+M:4/4
+L:1/8
+Q:220
+Z:Brian Martin
+K:G
+"(Bobby Shaftoe)"
+D2|G2GGG2c2|B2d2B2G2|D2DDD2G2|F2A2F2D2|
+G2GGG2c2|B2d2B2G2|A2c2A2F2|1G4G2:|2G4G4|]
+B2d2B2G2|B2d2B4|A2c2A2F2|A2c2A4|
+B2d2B2G2|B2d2B4|A2c2A2F2|1G4G4:|2G4G2|]
+
+X:18
+T:Craven's Stomp (2)
+T:Portsmouth
+M:4/4
+L:1/8
+Q:200
+N:We tired of the old tune
+Z:Brian Martin
+K:G
+"Portsmouth"
+D2 | G2GA BAGF | E4  e4 | d2B2 cBAG |A6 D2 | G2GA  BAGF | E4 e4 | d2B2\
+cBAB |G6 |]
+d2 | g2ga bagf| g2d2 B2d2|g2B2 cBAG |A6 D2 |  G2 GA BAGF | E4  e4 |\
+ d2B2 cBAB | G6 :|
+
+X:19
+T:Craven Stomp (3)
+T:Mississippi Sawyer
+M:4/4
+L:1/4
+Q:120
+C:Trad Arr BM
+N:A Mississippi Sawyer is a waterlogged log (that's a log that's been
+N:in the water, presumably the Mississippi!) that bobs up under a boat 
+N:and rips it apart.  Jolly little tune, though
+N:By the way, we didn't like playing Portsmouth either
+Z:Brian Martin
+K:G
+"(Mississippi Sawyer)"
+B/2c/2|dd/2B/2 dd/2B/2|d/2B/2d ed|\
+cc/2A/2 cc/2A/2|c/2A/2c dc|
+BB/2c/2 B/2A/2G/2A/2|G/2A/2B/2c/2 dB|\
+AF D/2F/2A/2F/2|GG G|]
+z|GB/2A/2 GB/2A/2|G/2A/2B/2c/2 dB|\
+AFD2|D/2E/2F/2G/2 A/2B/2c/2A/2|
+GB/2A/2 GB/2A/2|G/2A/2B/2c/2 dB|\
+AF D/2F/2A/2F/2|GG G:|]
+
+X:20
+T:Dilwyn
+T:Not for Joe
+M:4/4
+L:1/4
+Q:100
+Z:n Martin
+K:G
+"(Not for Joe)  1st time pp 2nd time ff"
+DG/G/DG/G/|FEFE|DG/G/DG/G/|FGA2|
+DG/G/DG/G/|FEFE|D2B>A|1GFG2:|2GFGA|]
+B>AGB|c2A2|B>AGB|AFD2|B>AGB|c2Ac|BGAF|GG/G/G2||
+
+X:21
+T:Down Parade
+T:Twelve Up
+T:Portobello Hornpipe
+M:4/4
+L:1/8
+Q:150
+R:Hornpipe
+Z:Brian Martin
+K:G
+"(Twelve Up,  Portobello Hornpipe)"
+((3DEF)|G2G>F G>Bd>e|d>cB>A G>AB>G|A2A>G A2G>A|B>A ((3BAG) E2 ((3DEF)|
+G2G>F G>Bd>e|d>cB>A G>AB>c|d>BG>B c>AF>A|A2G2G2|]
+B>c|d2d2d2e>f|g>fe>d e3d|e>dc>B c>BA>G|F>GA>F D2B2|
+c2e>cB2d>B|A>B ((3cBA) G2 B>c|d>BG>B c>AF>A|A2G2G2|| 
+
+X:22
+T:Fairy Dance
+T:Largo's Fairy Dance
+M:2/4
+L:1/16
+Q:100
+S:Fairy Dance
+Z:Brian Martin
+K:G
+B2BG B2BG|B2BG FGAc|B2BG cBAG| FDEF GABc:||
+d2dB e3d|cABc d3c|B2BG cBAG|1 FDEF GABc:|2FDEF G4||
+
+X:23
+T:Hay 0n Wye
+T:The Redesdale Hornpipe
+T:The Underhand
+M:4/4
+L:1/8
+Q:100
+C:James Hill
+N:Adapted slightly for the dance - BM
+N:The tempo increases as the dance progresses.
+Z:Brian Martin 
+K:G
+"(The Redesdale Hornpipe,  The Underhand)"
+de/f/ |\
+gd Bd GB de/f/| gd Bd G2 AB |\
+cA FA DF Ac | ed ^cd B2 de/f/|
+gd Bd GB de/f/ |gd Bd G2 AB |\
+cA FA DF AB | A2 G2 G2 :|
+GA |\
+BG FG DG FG | BG FG D2 AB | \
+cA FA DF Ac |ed ^cd B2 GA | 
+BG FG DG FG | BG FG D2 AB |\
+cA FA DF AB | A2 G2 G2 :|
+
+X:24
+T:Jenny Lind
+M:2/4
+L:1/8
+Q:190
+R:Polka
+Z:Brian Martin
+K:D
+A>G||:FA GB|Af f/e/f|Ge e/d/e/G/|FAd2|\
+FA GB|Af f/e/f|ge e/g/f/e/|dfd2:|]
+K:G
+gf e/g/f/e/|dB B/c/d/B/|cA A/B/c/A/|BGG2|\
+gf e/g/f/e/|dB B/c/d/B/|cA A/B/c/A/|GB G2:||
+
+X:25
+T:Jenny Lind Variant
+T:Wind the Bobbin Up
+M:4/4
+L:1/8
+Q:180
+Z:Brian Martin
+K:G
+"(Wind the Bobbin Up)"
+Bc|d2 de dBGB|d2 de dBGB|c2 AcB2 GB|AGFG ABce|d2 de dBGB|
+d2 de dBGB|c2Ac B2 GB|AGFA G2|]z2|A2 AF D2D2|GABc d2B2|
+c2 Ac B2G2|AGFG A4|A2 AF D2D2|GABc d2B2|c2 Ac B2G2|A2F2G2||
+
+X:26
+T:John Smith's
+M:4/4
+L:1/8
+Q:220
+Z:Brian Martin
+K:G
+B2c2|d2d2dcB2|c2c2cBA2|B2B2BAG2|A2F2D4|
+d2d2dcB2|c2c2cBA2|BAG2A2F2|1G4:|2G8|]
+AGFED2D2|AGFED4|G4A4|BcB2A4|
+AGFED2D2|AGFED4|G2G2FGAF|1G8:|2G4|]
+
+X:27
+T:Kajelus
+T:Rochdale Coconut Dance
+M:2/4
+L:1/8
+Q:400
+N:This dance was acquired from a morris side (now defunct) called
+N: Kajelus
+Z:Brian Martin
+K:Em
+"(Rochdale Coconut Dance)"
+EFGF|E2B2|EFGF|E2B2|c2Ac|B2G2|AGFE|D4| 
+EFGF|E2B2|EFGF|E2B2|c2Ac|B2G2|AGFE|D2dd|]
+G2BB|G2B2|AGFG|A2dd|G2BB|G2B2|AGFE|D2dd|
+G2BB|G2B2|AGFG|A2dc|BdcB|AcBA|G2F2|G2D2|]
+
+X:28
+T:Severn Tunnel Junction
+T:Railway Man
+T:This Old Man + Gloucester Hornpipe
+M:4/4
+L:1/8
+C:Note: A music played 3 times
+S:This Old Man, Gloucester Hornpipe
+N:Railway man, he works hard
+N:Shunting on the Bristol Yard
+N:'Cos the Severn Tunnel never fails -
+N:Keeps the engine on the rails
+Z:Brian Martin
+K:G
+d2Bcd3e|dcBcd4|e3dc2B2|A2B2c2Bc|
+d2G2GAG2|GABcd4|d2AAA2c2|1"1&2"B2A2G4:|2"3"B2A2G2|]
+GF|G2gfg2d2|cBcd efge|dBGB edcB|A2A2AcBA|
+G2gfg2d2|cBcd efge|dBGB ecAF|G2G2G4|]
+
+X:29
+T:Speed the Plough
+M:4/4
+L:1/8
+Q:220
+Z:Brian Martin
+K:G
+D|GABc dedB|dgdB dedB|c2ecB2dB|AGAB cedB|
+GABc dedB|dgdB dedB|c2ecB2dB|AGFA G3:|
+z|{f}g2gf gGBd|g2fe dBGB|c2ecB2dB|AGAB cedB|
+{f}g2gf gGBd|g2fe dBGB|c2ecB2dB|AGFA G3:||
+
+X:30
+T:The Folly
+T:Sheffield Hornpipe
+M:4/4
+L:1/8
+Q:150
+R:Hornpipe
+N:The Folly is a W.D. location
+Z:Brian Martin
+K:D
+"(Sheffield Hornpipe)"
+A>F|D2F>Ad2d>c|B>GB>dA2A>d|c2c>ed2d>f|e>cd>B A>FG>E|
+ D2F>Ad2d>c|B>GB>dA2A>d|B>GB>d c>Ac>e|d2f2d2|]
+c>d|e>cA2A2d>e|f>dA2A2e>f|g4f4|e>dc>B A>FG>E| 
+D2F>Ad2d>c|B>GB>dA2A>d|B>GB>d c>Ac>e|d2f2d2:||
+
+X:31
+T:Three Jolly Sheepskins
+T:Three Jollies
+M:4/4
+L:1/8
+Q:160
+Z:Brian Martin
+K:G
+D|"$"GABc dedB|cdcA BcBA|GABc defg|1ecAF G3:|2ecAF G4|]
+A2D2A2D2|c2c2BcBG|A2D2A2D2|1ccBA G4:|2ccBA"             D.S." G2BA||
+
+X:32
+T:Up Mill Steps (1)
+T:Mind the Floor
+T:Jack Robinson
+M:4/4
+L:1/8
+Q:180
+N:Mill Steps is a Lane in W.D.
+Z:Brian Martin
+K:G
+"(Mind the Floor,  Jack Robinson)"
+G2|D2G2FGAB|c2A2A2G2|FGA2FGA2|Bcded2Bd|
+e2e2d2B2|cBAGA2G2|D2G2FGAB|A2G2G4|]
+d2d2Bcd2|e2A2A2Bc|d2d2Bcd2|e2A2A2Bc|
+d2B2c2A2|BAGBA2G2|D2G2FGAB|A2G2G2z2||
+
+X:33
+T:Up Mill Steps (2)
+T:O'Connor's Quickstep
+M:4/4
+L:1/8
+N:Linda decided Jack Robinson wasn't exciting
+N:enough for her for the whole dance
+C:W. Krug  Arr BM
+Z:BM
+K:G
+"O'Connor's Quickstep   Change to this after 'Swings'"
+dc|B2dB GBdB|c2ec egfe|d2g2 g2fg|a2A2 AcBA|
+B2dB GBdB|c2ec egfe|d2B2 AcBA|G2G2G2z2|]
+G2B2 d^cd2|eg2e dBG2|GABc d2d2|BG2B A4|
+G2B2 d^cd2|eg2e dBG2|B2dB AcBA|G2G2G2||
+
+X:34
+T:Upton-on-Severn Stick Dance
+M:6/8
+L:1/8
+Q:110
+R:Jig
+Z:Brian Martin
+K:G
+d|dBB BAG|AGA BGE|DGG GBd|edB A2d|!dBB BAG|AGA BGE|DGG GBd|AGF G2|]
+z|GBd {f}g3/2z/d|edc BAG|GBd {f}g3/2z/d|
+edB A3|GBd{f}g2d|edc Bcd|ege dBG|AGFG2:||
+
+X:35
+T:Winterbourn Down Stick Dance
+M:4/4
+L:1/8
+Q:160
+N:Tune written by former member of the side
+Z:Brian Martin
+K:G
+{f}g2gf gdBd|edcB ABcA|G2GB dBGB|cAFA G4:|
+A2AGFE D2|d2dcBA G2|{f}g2gf gdBd|ecAF G4:||
+
+X:36
+T:Hugh's Mistake
+T:The Sword of St. Columba
+M:2/4
+L:1/8
+N:Dance written by a former member
+N:now deceased and much missed.
+Z:BM
+K:G
+"The Sword of St. Columba"
+GB de/f/|gg f/e/d|DF A>B|cc B/c/B/A/|
+GB de/f/|gg f/e/d|D>F A/c/B/A/|GG G2|]
+BD BD|BB/c/ B/A/G|cE cE|cc/d/ c/B/A/G/|
+BD BD|BB/c/ B/A/G/B/|c/B/A/G/ F/G/A/F/|GG G2||
+
+X:37
+T:Five in a Bed
+T:Ma Cousine Clementine
+M:2/4
+L:1/8
+N:One evening, we only had five dancers 
+N:turn up for practice (shock, horror!)  Cedric said he had a 
+N:dance for five dancers.  We didn't like the music
+N:that came with it, so Brian found this - shame the musicians 
+N:can't play it very well, but what's new?
+C:Maxou Heintzen Arr BM
+K:G
+"Ma Cousine Clementine"
+d/c/ |\
+BG G/F/G/B/ | AE EA/G/ | F/D/F/A/ d^c/d/ | e/d/^c/d/ B/G/d/=c/ |
+BG G/F/G/B/ | AE EA/G/ | F/D/F/A/ d^c/d/ | e/d/^c/d/ G |]
+d/c/ |\
+Bd dc/d/ | ee e/d/c/B/ | AA AG/A/ | B/c/B/A/ Gd/c/ |
+Bd dc/d/ | ee f>e | d/e/d/c/ B/c/B/A/ | GGG ||
+
+%Winterbourn.abc version date 22nd March 2011

@@ -1,0 +1,30 @@
+X: 171
+T: BRECHIN LASSES
+C: C. STEWART, J. WALKER, Coll.
+R: Reel
+B: Glen Collection p.17 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: G
+%
+V: 1
+B |\
+DGGA BGcA | BGcB AGFA | DGGA BGcA | (B/c/d) DF G2G :|
+(e/f/) |\
+gdBd cedc | BGdB AGFA | gdBd cedc | Bdef g2(de/f/) |
+gdBd cedc | BdGB cBAF | GBAc Bdce | FADF G2G |]
+%
+V: 2
+z |\
+G2[g2d2] [g2d2][f2d2] | [g2d2][g2d2] [f2d2][a2d2] |\
+[b2g2][b2g2] [g2d2][f2d2]  | [g2d2][c'2d2] [b2g2][bg2] :|
+z |\
+g2[d'2b2] d2[a2f2] | g2[d'2b2] d2[c'2a2] |\
+g2[d'2b2] d2[a2f2] | [b2g2][c'2d2] [b2g2][b2g2] |
+g2[d'2b2] d2[a2f2] | G2[g2d2] [f2d2][c'2d2] |\
+[b2g2][d'2f2] [d'2g2][a2c2] | [c'2d2][c'2d2] [b2g2][gdG] |]
+

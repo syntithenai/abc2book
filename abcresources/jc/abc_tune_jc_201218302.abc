@@ -1,0 +1,28 @@
+X: 9
+T: Ailleacan Dubh O!
+O: "In the Poor Soldier"
+%R: reel
+B: "The Hibernian Muse" p.6 #1
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Corrected rhythm mismatch by moving 1st strain's final rest to 2nd strain's pickup.
+P: No. IX.
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A2 |\
+d3e (dc)(BA) | A2 (c/B/c/e/) f2 {b}g{g}f | (e<c) BA (FE)FA | A4 z4 |\
+d2(de) (dc)BA | A2 (c/B/c/e/) f2 af | (e<c) BA (FE)FA | A2z2 z2 |]
+|: zf |\
+(=g>f)ga gfec | e2fa a3=g | (gf)af (fe)ae | (dc) (d/c/B/)A/ TFE zf |\
+(=g>f)ga f2a2 | A2ce Hf2 {b}a{g}f | (e<c) BA (FE)FA | A4 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+f2d2 a2z2 | c2A2 d2z2 | e2c2 a2d2 | A4 a2g2 |\
+f2d2 a2z2 | c2A2 d2z2 | e2c2 a2d2 | A2a2 A2 |]
+|: z2 |\
+a2z2 d2z2 | a2z2  d2z2 | d2z2 A2z2 | d2z2 A2z2 |\
+a2z2 d2z2 | a2z2 Hd2z2 | A2c2 d2D2 | A2a2 A2 :|

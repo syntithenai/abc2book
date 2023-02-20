@@ -1,0 +1,22 @@
+X: 229
+T: Malcolm of the Glen.
+T: Callum a ghlinne.
+R: air, jig
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.103 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The only repeat symbol is at the very end; not fixed.
+M: 6/8
+L: 1/8
+Q: "Slow but with a spirited Expression."
+K: Eb
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+B,CE E>F(G/A/) | ~B2e GFE | CFG {G}A2F |_ded cB=A |\
+BcT=d{cd}y{d}e2(B/c/) | !p!_d>ed Tc>Be | "_cres."B2(AG) ~A>Bcc | BeG F>EC |]
+!f!EB,D E>F(G/A/) | BGe GEB, | !p!AFG {G}A2F | _ded "_>"c/B/z (3(B//c//d//) |\
+!f!{d}eBd {d}eBd | {d}eB_d cB{d}"_<"e | !p!B2(AG/) (A/G/)A/B/c/d/ | ("_>"e/d/)"_>"c/B/"_>"A/G/ "<"F>EC :|
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d

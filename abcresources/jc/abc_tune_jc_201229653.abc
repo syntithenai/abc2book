@@ -1,0 +1,19 @@
+X: 1271
+T: the Dutches of Hamilton's Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p27 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+c |\
+B<G-G>A TF>GA<c | B<G-G>D B,<DG,>c | B<G-G>A TF>GA<c | B>c A/B/c/A/ BG-G :| d | g>d B/c/d/B/ g<d-d>e | g>d g/a/b a<e-e>f |
+g>d B/c/d/B/ gdeB | c<aA<c B<G-G>d || g>d B/c/d/B/ g<d-d>e | g>d g/a/b a<e-e>f | g<bd<B c<ac<A | B>d A/B/c/A/ BG-G |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+g2g2 d2f2 | g2d2 g2G2 | g2g2 d2g2 | g2d2 G2G :| z | g2g2 g2g2 | g2g2 
+g2g2 | g2g2 g2c'2 | d'2d2 g2g2 || g2g2 g2g2 | g2g2 a2a2 | g2d2 e2c2 | d2D2 G2G |]

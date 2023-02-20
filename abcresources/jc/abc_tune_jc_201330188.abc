@@ -1,0 +1,18 @@
+X: 1
+T: Richard's Jig
+C: David A Kaynor 1981
+%D:1981
+O: simplification by Benjamin Kalish, 2019
+R: jig
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+S: https://fiddlewesternmass.files.wordpress.com/2019/01/richards-jig-simplified.pdf
+N: Named for Dave's clarinet-playing friend, Richard Blazej.
+M: C|
+L: 1/8
+K: D
+"A"a2g |\
+"D"f2f "A"e2e | "Bm"d2d "A"c2A | "G"d2d "A"e2e | "D"f3 a2g |\
+"A"f2e e2f | "D"e2d d3 |1 "E"e2c B2B | "A"A3 :|2 "E"a2f "A"e2c | "D"d3 ||
+|: "A"c2d |\
+"A"e3 e3 | e3 c2A | "D"d3 "A"e3 | "D"f6 |\
+"G"g2a g2e | "D"f2g f2d |1 "E"e2d c2B | "A"A3 :|2 "Em"e2f "A"e2c | "D"d3 |]

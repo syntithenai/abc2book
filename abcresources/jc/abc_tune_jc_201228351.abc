@@ -1,0 +1,24 @@
+X: 112101
+T: CRAIG ELLACHIE BRIDGE
+Q: "Strathspey."
+R:  Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.1 p.12 s.1 #1
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+uA,1 |:\
+vDD3 vF3uA dcBA FD3 | E=C3 =c3E G4 (G2AB) |\
+A3DF3D dcBA F2D2 | Ee3 c3A d4 (d2f2) !segno!:|\
+vdd3 f3a d2a2f2a2 | v=cg3 e3f g4- g2(ab) |\
+ad3 f3d a2d2f2b2 |
+a3d f2d2 (3(f2g2a2) f4 |\
+dd3 f3a d3af3a | gfed =c3e g4- g2(ag) |\
+fa3 ef3 df3 Bd3 | AF3 d3F A4- A2 |]\
+(Bc) |\
+dcBA GFED dcBA GFED | E=C3 =c3E G4 (G2FE) |
+DEFG ABcd DEFG ABcd | Dd3 Fd3 (B2A2)(G2F2) |\
+Dd3 Ed3 Fd3 Dd3 | =Cc3 c3E G4 (G2FE) |\
+Dd3 Ed3 Fd3 Gd3 | A3g fedc d4 "_D.C."(d2f2) !segno!|]
+%%text repeat 2nd part and then 1st.

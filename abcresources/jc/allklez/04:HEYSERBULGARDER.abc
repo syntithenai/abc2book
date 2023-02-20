@@ -1,0 +1,20 @@
+X: 304
+T: Heyser Bulgar, der
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+B: Henry Sapoznik, "The Compleat Klezmer".
+D: Naftule Brandwein Orchestra, 1923
+N:
+N: Original in 2/4, but with mostly triplets in melody.
+N: 8 repeated bars deleted from A phrase.
+M: 6/8
+L: 1/8
+K: Dphr
+D ^F2G \
+| "D"A2A A3 | ABc "Cm"BAG | "D"A2A ^F3- | F2D F2G | "D"A3 z2d | dAc "Cm"BAG | "D"A2A ^F3- | F2D ^F2G
+| "D"A2G B2A | G2^F E2D | "Cm"G2G C3- | C2C E2G | cde  dcB | ABc BAG | "(D)"^FGA "Cm"GFE | "D"D2D G2B
+| "Gm"^cd2- d2d | d^cB B3 | A=cB B2B | ~A2G ^F2G | "D"^F2G A2B | "Cm"cAc BAG | "D"A6 | z2D G2B
+|  "Gm"^cd2- d2d | d^cB B3 | A=cB B2B | ~A2G ^F2G | "D"^F2G A2B | "Cm"c2B BAG | G^FE EDC | "D"D2z z2A,
+| "D"Dz2 z3 | Az2 "(Gm)"BAG | "D"^FGA GFE | ^F2G ^G2A | "D"Dz2 z3 | Az2 BAG | "D"^FGA "Gm"BAG | "D"AG^F "Cm"EDC
+|  "D"Dz2 z3 | Az2 "(Gm)"BAG | ^F2G ^G2A | "Cm"=Bc2- c3 | cde  dcB | ABc BAG | "(D)"^FGA "Cm"GFE | "D"D2D D2_D
+| "Cm"C3 D2E | EDC G3 | ^FGA GFE | D2C ^F2G | C3 D2E | D2C c3 | cBA BAG | AG^F GFE
+|  "Cm"C3 D2E | EDC G3 | ^FGA GFE | D2C ^F2G | C3 D2E | D2C G3 | "D"^FGA "Cm"GFE | "D"D2 |]

@@ -1,0 +1,19 @@
+X: 2171
+T: Merrily Danced the Quakers Wife.   a Jig.
+%R: jig, air
+B: Niel Gow & Sons "Complete Repository" v.1 p.17 #1 (top 2 staffs continued from p.16)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+~G>AB D2B | {B}A2G E2D | TG>AB D2D | E3 G3 || ~G>AB D2B | {B}A2G TE2D | TG>AB D2D | TE3 G3 ::
+dcB edc | dcB ABc | dcB efg | TB3 d3- || dcB gfe | dcB {B}HA2G | G>AB D2D | TE3 G3 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+G3 g3 | d3 c3 | B3 G3 | c3 B3 || G3 g3 | d3 c3 | B3 G3 | c3 [B3G3] :: [g3B3] [g3c3] |
+[g3B3] [f3A3] | [g3B3] [g3c3] | GBd g3 || [g3B3] [g3c3] | [g3B3] H[d3D3] | [g3B3] [g3B3] | [g3c3] [g3B3] :|

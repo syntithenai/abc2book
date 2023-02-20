@@ -1,0 +1,20 @@
+X: 10391
+T: AGNES SOREL QUADRILLES Part 1.
+C: Arranged by W. B. Laybourn
+R: reel
+B: K\"ohler's Violin Repository, v.1, 1885 p.39 #1
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: The d' in bar 20 was double-dotted, giving an extra 1/32 note
+M: 2/4
+L: 1/16
+K: D
+[|\
+va2(af) dAdf | (a4 f2)z2 | va2(af) dAdf | (a4 f2)z2 |\
+ve2ee f2a2 | f2ff f2a2 c'2c'c' c'2c'2 | d'2z2 d'2 ||
+ua2 |\
+e4 (^defe) | =d2c2B2A2 | a4 (^gaba) | =g2f2e2d2 |\
+e4 (^defe) | =d2c2B2A2 | a4 (agfe) | d2z2 d'2"^D.C."z2 ||
+K:G
+vd'4 (.b3.g) | d6d2 | ^c2d2g2b2 | (d'3c'/b/) a2z2 |\
+vd'4(.b3.g) | d4 z2("^8va. . "uDE) | "^."F"^."G"^."A"^."B "^."c"^."d"^."e"^."f | g2z2 vg2z2 "_D.C."|]

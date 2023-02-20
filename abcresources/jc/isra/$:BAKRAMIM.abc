@@ -1,0 +1,21 @@
+X: 24
+T:Bakramim
+C:Shlomo Shai 1978
+I:taught by Moshe Eskayo
+O:Israeli
+F: http://www.youtube.com/watch?v=7_ZPV_--Fsc
+M:2/4
+L:1/8
+Q:1/4=92
+K:Am
+%%MIDI gchord fzfz
+|:"Dm".d.d "F".c.c|"Dm"AG/F/AA     | D>E FG         |"G"B/d/B/G/"Dm"A2    |\
+  .d.d "F".c.c    |"Dm"AG/F/A2     |d>d "Am"e/f/e/c/|"Dm"d4               :|
+|:"F".c.c "Dm"A2  |"G"B/dB/ "Dm"A2 | d/z/ A/dA/d    |"G"B/A/G/B/ "Dm"A2   |\
+  "F"cc "Dm"A2    |"G"B/dB/ "Dm"A2 | d/z/ A/dA/d    |"Am"e/f/e/c/ "Dm"d2  :|
+M:4/4
+L:1/8
+K:Gm
+%%MIDI gchordoff
+  GA B2 -BA GA    | BA A2 D4       | G2-GF EF GB    | A4  z2 GF           |\
+  B2 -BA GA Bc    | d2 A2 G3F     |EF GB A4        |

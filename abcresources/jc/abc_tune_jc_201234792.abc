@@ -1,0 +1,35 @@
+X: 20783
+T: HARRISON SETT (tune 3)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.78 #3 (and top staff of p.79)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain is missing its "D.C."; not fixed.
+N: The rhythms don't match between the strains; not fixed.
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+[|\
+C4 G,2B,2 | C4 G,2B,2 | C2E2 G,2B,2 | C4 G,2g2 |\
+c'2c'2 d'c'ba | g2g2 agfe | d2f2 A2B2 | d4 c2 H|]
+e2 |\
+d2dd d2e^f | g2g2 ag^fg | a2a2 d'2c'2 | c'bab g2e2 |\
+d2dd d2e^f | g2g2 g2ab | bad'a g^fef | g^fag =fe"^D.C."fd |]
+"^...."e4 "^...."e4 | "^...."e4 edcB | A^GAB cBcd | e4 E4 |\
+"^...."e4 "^...."e4 | "^...."e4 edcB | A^GAB cBcd | A2E2A,2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First four lead to right.
+%% -- Chasse out.
+%% -- Form lines across the hall.
+%% -- All right and left across.
+%% -- All chain across.
+%% -- All forward and back.
+%% -- Swing to place.
+%% -- Side couples, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

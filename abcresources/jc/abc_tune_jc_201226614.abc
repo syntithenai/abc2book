@@ -1,0 +1,20 @@
+X: 10362
+T: the NUT
+O: Country dance.
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.36 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: The final "D.C." isn't needed.
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E !segno!|\
+ABA Adc | cBA A2f | fed cBA | cBB B2E |\
+ABA Adc | cfe eag | gff f2G | BAA "^Fin."A2 H:|
+|: B |\
+BcB Bge | ^dBc B2c | cBB BGE | GFF F2B |\
+BcB Bge | ^dBc B2B | c^de fed | egf e=d"^D.C."B !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

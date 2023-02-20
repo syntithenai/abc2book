@@ -1,0 +1,45 @@
+%%center Lass of Patie's Mill
+
+
+X: 1
+T: The Lass of Patie's Mill v.1
+P: piffero primo a0710
+O: John Gay
+%R: reel, march
+F: http://ancients.sudburymuster.org/mus/sng/pdf/lassofpatieC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+A2 |\
+(GF)ED F2A2 | d3e f2A2 | (Bc)dc (BA)GF | (TF4 E2)A2 |\
+(GF)ED F2A2 | d3e f2A2 | (Bc)dB [1 (cd)ec | d6 :|[2 (cd)ef | d6 |: ef |
+(gf)ed (dc)BA | d3e f2A2 | (Bc)dc (BA)GF | (TF4 E2)A2 |\
+(GF)ED F2A2 | d3e f2A2 |(Bc)dB [1 (cd)ec | d6 :|[2 (cd)ef | d6 |]
+
+
+X: 2
+T: The Lass of Patie's Mill v.2
+P: piffero secondo a0711
+O: John Gay
+%R: reel, march
+F: http://ancients.sudburymuster.org/mus/sng/pdf/lassofpatieC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+F2 |\
+(ED)CA, D2E2 | F3A d2F2 | G4- GFED | (TD4 C2)F2 |\
+(ED)CA, D2E2 | F3A d2F2 | G4 (EF)G2 | (F2G2) F2E2 ||\
+D2A,F, A,2DE | F3G A2F2 |
+(G2F)E D2ED | (TD4 C2)F2 |\
+E2DC A,2DE | F3G A2F2 | G8 | F2G2 F2A2 ||\
+d2A2 B2AG | F3A d2F2 | G4- GFED | (TD4 C2)F2 |\
+(ED)CA, D2E2 |
+F3A d2F2 | G4 (EF)G2 | (F2G2) F2GA ||\
+B4 G4 | F3G A2F2 | G2FE D2ED | (TD4 C2)F2 |\
+D2A,F, A,2DE | F3G A2F2 | G8 | F2G2 F2 |]
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

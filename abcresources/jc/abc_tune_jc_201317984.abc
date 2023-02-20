@@ -1,0 +1,15 @@
+X: 1
+T: Nya Daldansen  [F,C]
+C: arr. Carl J.Johnson
+R: hambo-mazurka
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+"(C7)"c2 |\
+"F"[a2c2] [f2A2] (3(AB=B) | c2 A>F (3(CFA) | "C7"c2 B>G (3(EGB) | "F"d2 c>A F2 |
+"F"[a2c2] [f2A2] (3(AB=B) | c2 A>F (3(CFA) | "C7"c2 B>G E>G | "F"[F2C2A,2] !fine![F2C2A,2] H:|[K:=B]
+K: C
+|: z2 |\
+"C"(3(GAG) ^F>G "(G7)"=F>G | "C"E>G c>e g2 | "G7"(3(gag) f>e d>e | (3(fgf) e>d "C"c2 |
+"C"(3(GAG) ^F>G "(G7)"=F>G | "C"E>G c>e g2 | "G7"(3(gag) f>G A>B | "C"[c2G2E2] "^d.C."[c2G2E2] :|

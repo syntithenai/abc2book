@@ -1,0 +1,30 @@
+X: 21353
+T: IRISH SETT (tune 6)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.1353
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="6"
+A |\
+ded dAF | ABA ABc | ded dAF | Eee efe |\
+ded dAF | ABA A2g | fef dBA | Add d2 H|]
+(3(A/B/c/) |\
+dfa afd | ceg gec | dfa afd | fa^g a3 |\
+dfa afd | ceg g2g | fef dBA | Add "^D.C."d2 |]
+A |\
+dAF dAF | ABA ABc | dAF dAF | Eee e2f/e/ |\
+dAF dAF | ABA A2g | fef dBA | Add "^D.C."d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Grand right and left,
+%% all balance partners and turn,
+%% grand chain,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,34 @@
+X: 111
+T: Cromlet'sLilt
+%R: air, waltz, minuet
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.11 #1
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Q: "slow"
+M: 3/4
+L: 1/8
+%%stretchlast 1	% This doesn't seem to work with abc(m)2ps.
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1
+|:\
+d3 BA=c | {c}TB3 AGB | A2 GF TG(F/E/) | D6 |\
+F2 A2 d2 | TB>ABde>f | A2 (gf) Te(d/c/) | d6 :|
+|:\
+d2 (d/e/f) Ted | cBcd Je2 | A2 (AB/=c/) (TBA) | GABc d2 |\
+F2 (d/c/B) (A/G/F) | EFGA (B/c/)d | A>BAF {A}G(F/E/) | D6 :|
+|:\
+F2 (d/c/B) (AG/F/) | EFGA (B/c/d) | c2 Jgf (Te/d/c) | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+|:\
+d'2 d2 "b5"f2 | g2 G2 g2 | "6"f2 "6;5"g2 "7"a2 | d2 f2 a2 | d'2 d2 "6"f2 |g4 "6"G2 |
+"6"F2 "6;5"G2 "7"A2 | D6 :|\
+|:\
+"6"f2 b2 "6"g2 | a2 A2 "6"g2 | "6 b5"f4 d2 | g4 z2 | d4 d2 |
+"6"g4 "5"g2 | "6;4"a4 "5;3"A2 | d6 :|\
+|:\
+d2 "6"f2 d2 | "6"g4 "5"g2 | "6"f2 "6;5"g2 "7"a2 | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

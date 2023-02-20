@@ -1,0 +1,30 @@
+X: 16281
+T: the Inverness Scots Measure
+%R: Scots measure, reel
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.6 p.28
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+"_Brisk"FE |\
+D3F (TED)(EF) | A2E2 E2(TFE) | D3F (TEDE)F | A(FED) d3e |\
+fedf edBe | dBdF {F}E3F |DEFG AFdA |
+{G}TF2ED D2 :: (fe) |\
+d2a2 fgaf | {a}g2fe e3f | d2(ag) (fg)(ab) | (ag)(fe) d3e |\
+fedf edBe | dBAF E3F |
+DEFG AFdA | {G}TF2(ED) D2 :: (FE) |\
+DAFA DAFA | B2E2 E2(FE) | DAFA DAFA | dAFD d3e |\
+fdef dBAd |
+BADF E2FA | BcdB AFGE | F2(ED) D2 :: (fe) |\
+dafa dafa | b2e2 egfe | dafa dafa |
+.b(gfe) .a(fed) |\
+gefd ecda | bagf efde | fedB ABdF | A2D2 D2 :: (TFE) |\
+D2AF D2AF | dBAF E2AF |
+D2AF D2af | gedc d2(ef) |\
+(gf)(ed) TB2(AB) | dBdF E2FA | B2dB AFEA | TF2(ED) D2 :: fe |\
+d2fa d2af |
+bagf e2af | d2af dfaf | bgfe d2(ef) |\
+B2df A2Bd | FAdF E2FA | Bdce dABG | {G}TF2(ED) D2 :|

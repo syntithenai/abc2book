@@ -1,0 +1,22 @@
+X: 20493
+T: IS YOUR GRAITH IN ORDER
+R: Strathspey.
+%R: strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.49 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Both strains are 6 bars long.
+M: C
+L: 1/8
+K: D
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+D/D/D (A>B) A>FEF | D/D/D (A>B) A>FAB |\
+A>FAB A>FEF | D/D/D A>B A>Bde |\
+f>dg>f e>FE>F | D/D/D A>B AFD :|
+|: g |\
+f>dd>f g>feg | fdd>f a/g/f/e/ d>g |\
+f>dd>f g>f (ef/g/) | a>gfe d>efd |\
+(e/f/g) (f/g/a) e>FE>F | D/D/D d>B AFD :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

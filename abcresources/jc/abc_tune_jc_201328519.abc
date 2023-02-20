@@ -1,0 +1,44 @@
+X:1
+T:Rathven Market
+M:C|
+L:1/8
+Q:80
+C:Iain Duncan, Pitlochry
+S:Hornpipe
+K:HP
+{g}e3/4d/4 | \
+{g}c3/4{d}c/4{e}c3/4B/4{g}A3/4{d}c/4{g}e3/4g/4 | \
+{a}f3/4d/4{G}d3/4c/4{gBd}B{g}c3/4d/4 |
+{gef}e3/4c/4{G}c3/4e/4{g}d3/4B/4{G}B3/4d/4 | \
+{g}c{GdG}e3/4c/4{gBG}B|2 {g}e3/4d/4:|2
+{g}c3/4{d}c/4{e}c3/4B/4{g}A3/4{d}c/4{g}e3/4g/4 |
+{a}f3/4d/4{G}d3/4c/4{gBd}B{g}e3/4d/4 | \
+{g}c{GdG}e3/4c/4{GdGcG}B{g}e3/4d/4 | \
+{gcd}c{e}A{GAG}A :|
+{g}((3e/2f/2g/2) | \
+aA3/4a/4c3/4a/4e3/4a/4 | \
+f3/4d/4{G}d3/4c/4{gBd}B{g}c3/4d/4 |
+{gef}e3/4c/4{G}c3/4e/4{g}d3/4B/4{G}B3/4d/4 | \
+{g}c{GdG}e3/4c/4{gBG}B|1 {g}((3e/2f/2g/2)|1
+aA3/4a/4c3/4a/4e3/4a/4 |
+f3/4d/4{G}d3/4c/4{gBd}B{g}e3/4d/4 | \
+{g}c{GdG}e3/4c/4{GdGcG}B{g}e3/4d/4 | \
+{gcd}c{e}A{GAG}A :|
+e | \
+{g}A3/4e/4{A}e3/4A/4{gcd}c{e}A3/4f/4 | \
+{g}ec/2{Gdc}d/2{gcd}c2 | \
+{gef}e3/4c/4{G}c3/4e/4{g}d3/4B/4{G}B3/4d/4 |
+{g}c{GdG}e3/4c/4{gBG}B|1 e|1
+{g}A3/4e/4{A}e3/4A/4{gcd}c{e}A3/4f/4 | \
+{g}ec/2{Gdc}d/2{gcd}c{g}e3/4d/4 |
+{g}c{GdG}e3/4c/4{GdGcG}B{g}e3/4d/4 | \
+{gcd}c{e}A{GAG}A :| \
+{g}((3e/2f/2g/2) |
+a2e2 | \
+{g}f3/4d/4{G}d3/4c/4{gBd}B{g}c3/4d/4 | \
+{gef}e3/4c/4{G}c3/4e/4{g}d3/4B/4{G}B3/4d/4 | \
+{g}c{GdG}e3/4c/4{gBG}B|1 {g}((3e/2f/2g/2)|1
+a2e2 | \
+{g}f3/4d/4{G}d3/4c/4{gBd}B{g}e3/4d/4 | \
+{g}c{GdG}e3/4c/4{GdGcG}B{g}e3/4d/4 | \
+{gcd}c{e}A{GAG}A :|

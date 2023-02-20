@@ -1,0 +1,32 @@
+X: 20921
+T: COLUMBIAN SETT (tune 1)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.92 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Shortened initial C note from 1/4 to 1/8 note.  Note it's not played at the end of the 2nd strain.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="1"
+C2 |\
+F2A2 c2f2 | a2f2 g2fe | f2d2 c2A2 | B2G2 G2A2 |\
+F2A2 c2f2 | a2gf g2fe | f2d2 cBAG | A2F2F2 H|]
+cB |\
+A2c2 F2cB | AGAB c2BA | BABc dcBA | B2G2 G2cB |\
+A2c2 F2cB | Acfa afge | f2d2 dcBA | A2G2 GBA"^D.C."G |]
+d'd' |\
+d'2aa a2ff | f2d2 z2AA | A4 F2D2 | A,6 e'2 |\
+a2ag f2a2 | g2gf e2g2 | f2de fed^c | e4 "^D.C."d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right and left, four,
+%% balance four,
+%% ladies chain,
+%% promenade four,
+%% -- sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

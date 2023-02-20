@@ -1,0 +1,10 @@
+X: 1
+T: TEST: Breath mark
+N: Done by "abusing" the chord notation.
+%%staffwidth 300
+M: 6/8
+L: 1/8
+K: C
+[| CDE "(,)"yFGA ","yBc2 | "//"ycBA "(')"yGFE "'"yDC2 |]
+%
+[| CDE !(,)!yFGA !,!yBc2 | !//!ycBA !(')!yGFE !'!yDC2 |]

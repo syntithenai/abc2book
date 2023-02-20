@@ -1,0 +1,61 @@
+
+X: 1
+T: Dobra notsh #1
+T: A Good Night #1
+O: from Hankus Netsky
+R: waltz
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Gm
+D2 \
+| "D"^F4    D2   |    ^F4    D2 | "Cm"E3  D CE | "D"D6 \
+|     D3 E ^FG   |     A3 B  AG |     AB AB AB | A4 D2 |
+| "Gm"B3 A (3BAG | "D"^F3 D ^FA | "Cm"G3  F ED | C4 C2 \
+|     A2 G2 ^FE  |    ^F2 E2 DC |  "D"D2 {E}D2 {E}D2 | D3 :|
+|: DGB \
+| "Gm"d3  ^c dc    |     d3 ^c  dc |     d3  ^c BA | G4 D2 \
+|     B2  A2 GB    |  "D"A2 D2 ^FA | "Gm"G2  {A}G2 {A}G2 | {A}G4 D2 |
+| "Gm"B3   A (3BAG | "D"^F3  D ^FA | "Cm"G^F GF ED | C4 C2 \
+|     A2  G2 ^FE   |    ^F2 E2  DC |  "D"D2 {E}D2 {E}D2 | D3 :|
+
+
+X: 2
+T: Dobra notsh #2
+T: A Good Night #2
+O: from Hankus Netsky
+R: waltz
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Gm
+D2 \
+|: "D"^F4 D2 | ^F4 D2 | "Cm"E2 D2 CE | "D"D6 \
+| D2 E2 ^F{A}G | A2 {c}B2 AG | A2 {G}A2 {G}A2 | {G}A4 D2 |
+| B3 A (3BAG | ^F3 D ^FA | G^F GF ED | C4 C2 \
+| A2 G2 ^FE | ^F2 E2 DC | D2 {E}D2 {E}D2 |1 {E}D2 z2 D2 :|2 D2 dc BA ||
+|: D2 G2 B2 | d4 B2 | d3 c BA | G4 D2 \
+| B2 A2 GB | A2 D2 ^FA | G2 {A}G2 {A}G2 | {A}G4 D2 |
+| B3 A (3BAG | ^F3 D ^FA | G^F GF ED | C4 C2 \
+| A2 G2 ^FE | ^F2 E2 DC | D2 {E}D2 {E}D2 | D4 z2 :|
+
+
+X: 3
+T: Dobra notsh #3
+T: Good Night #3
+D: Klezmer Conservatory Band "Dance Me to the End of Love"
+R: waltz
+Z: 2012 John Chambers <jc:trillian.mit.edu>, from Steve Rauch's transcription
+M: 3/4
+L: 1/8
+K: Gm
+D2 \
+| "D"^F4 D2 | ^F4 D2 | "Cm"E2 D2 C2 | "D"D4 A,2 \
+| "D" D3 E ^FG | A3 B AB | AB AB AB | A4 D2 |
+| "Gm"B4 AG | "D"^F3 D FA | "Cm"G2 ^F2 ED | C6 \
+| "Cm"A2 G2 ^FE | ^F2 E2 DC | "D"DE DE DE | D4 :|
+|: D2 \
+| "Gm"D2 G2 B2 | d3 ^c dc | d^c dc BA | G4 D2 \
+| "Gm"B3 A GB | "D"A3 G ^FA | "Gm"G3 D BA | G6 |
+| "Gm"B3 A GB | "D"A3 G ^FA | "Cm"G2 ^F2 ED | C6 \
+| "Cm"A2 G2 ^FE | ^F2 E2 DC | "D"DE DE DE | D4 :|

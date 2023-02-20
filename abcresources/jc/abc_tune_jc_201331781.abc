@@ -1,0 +1,14 @@
+X:622
+T:Rosin the Bow
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=116
+M:6/8
+L:1/8
+%%MIDI ratio 3 1
+K:G
+P:A
+|:D | "G"G>FG BAG | "G"d3 "C"e>fg | "G"d>BG "Em"GAB | "Am"E3 "D7"DEF |\
+"G"G>FG BAG | "G"d3 "C"e>fg | "G"d>BG "D7"ABA | "G"G3- G2 :|
+P:B
+|: d | "G"dBd def | "C"g2e g2e | "G"dBG "Em"GAB | "Am"E3 "D7"DEF |\
+"G"G>FG BAG | "G"d3 "C"e>fg | "G"d>BG "D7"ABA | "G"G3- G2 :|

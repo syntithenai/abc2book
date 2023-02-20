@@ -1,0 +1,22 @@
+X: 1091
+T: Captain Keelers Reel
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.1 p.9 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb	% going to Gm
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+A |\
+TB2 (d/c/B) fBbB | TB2 (d/c/B) AFcA | TB2 (d/c/B) fBbB | cAFA BGG :| d | (DG)(.B.G) dGBG | (DG)(.B.G) AFcA |
+(DG)(.B.G) dGBG | cAFA BGGB || (DG)(.B.G) dGBG | (DG)(.B.G) AFcA | (DG)(.B.G) dGBG | cAFA BGG |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | B2B2 B2B2 | B2B2 F2F2 | B2B2 B2B2 | c2d2 G2G :|\
+z | [g2G2][g2G2] [g2G2][g2G2] | [g2G2][=e2=E2] [f2F2][f2F2] |
+[g2G2][g2G2] [g2G2][g2B2] | c2d2 G2G2 ||\
+[g2G2][g2G2] [g2G2][g2G2] | [g2G2][=e2=E2] [f2F2][f2F2] |\
+[g2G2][g2G2] [g2G2][g2B2] | c2d2 G2G |]

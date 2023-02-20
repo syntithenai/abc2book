@@ -1,0 +1,19 @@
+X: 1
+T: Minnie Walker
+C: Dave Wiesler (2004)
+N: Suggested tune for Grandma's Mandolin
+B: 8x32S 3C (Ellen Ternes, Strathsbabes)
+R: Strathspey
+M: 4/4
+K: G
+L: 1/8
+(3DEF |\
+"G"G2 F>G "C"E>G "D"D>C | "G"B,<G, B,>D G3 F/G/ |\
+"D"A>D "G"B>D "D"c>D "G"B>D | "Am"(3ABc (3BAG "D"(3FED (3cBA |
+"G"G2 F>G "C"E>G "D"D>C | "G"B,<G, B,>D "(Em)"G3 F/G/ |\
+"C"E>c "G"D>B "Am"C>A "G"B,>G | "D"(3FED (3cBA "G"G2 |]
+"D"d>c |\
+"G"B<g g2 "Am"c<a a>g | "D"f/g/a "A7"g>e "D"f<d "G7"d>=f |\
+"C"e<c c>e "G"d<B B>d | "Am"c>A "D"F>d "G"B<G G>A |
+"G"B<g g2 "Am"c<a a>g | "D"f/g/a "A7"g>e "D"f<d "G7"d>B |\
+"C"c/B/c/d/ e/g/f/a/ "G"g>d "C"e>c | "G"B<G "D"A<F "G"G2 |]

@@ -1,0 +1,20 @@
+X: 4232
+T: Lady Hamilton Dalrymple's    Strathspey
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.23 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+% - - - - - - - - - -
+% Voice 1 reformatted slightly to get more even note spacing.
+V: 1 staves=2
+d |\
+B<G TG>F DG-G>.B |AF c>F d>FAc | BG TG>F DG-G>A | TB>ABc d<g Tg>a || b>ga>^f g>d=f>c | {e}d{c}B f>B A<FA<c |
+B<G TG>F D<GTG>A | (B/A/B/c/ d/c/B/A/) BGG |[| B | G<g Tg2{^fg} dgBg | F<f d<f c<f AF | Gg Tg>f d^fgb |
+(3aba (3ga^f Tg>fga || b>ga>d gf/e/ fB | ecdG ^F<dD<c | B<G TG>F EG-TG>A | (B/A/B/c/ d/c/B/A/) BGG |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | g2g2 g2g2 | f2f2 f2^f2 | g2g2 g2g2 | g2d2 G2G2 || g2d2 B2A2 |
+B2B2 F2^F2 | G2G2 B2g2 | d2D2 G2G |[| z | g2g2 g2g2 | a2b2 a2f2 | g2g2
+d2e2 | c2d2 G2G2 || g2d2 e2B2 | A2B2 d2D2 | G2G2 G2Bc | d2D2 G2G |]

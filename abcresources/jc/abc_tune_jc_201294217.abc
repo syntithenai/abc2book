@@ -1,0 +1,17 @@
+X:1103
+T:Johnny McGill
+C:John MacGill
+S:Joshua Campbell's Coll. 1778
+R:Jig (8x40) ABABB
+B:RSCDS 11-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+V:1
+K:F	% ending in Dm
+f |\
+"F"cAA AGF | cAA A2f | cAA AGA | "Dm"FDD D2 f |\
+"F"cAA AGF | CAA AGA | "Gm"GAB "A7"AGA | "Dm"FDD D2 ||
+c |\
+"F"[f3c3A3] "C"[g3e3c3] | "F"{fg}afd cAF | "Dm"[f3d3A3] "Gm"[g3d3B3] | "Dm"{fg}afd d2 f/g/ |\
+"Dm"afa "A7"geg | "Dm"fde f2c | "F"cAF "Gm"G2 "A7"A | "Dm"FDD D2 |]

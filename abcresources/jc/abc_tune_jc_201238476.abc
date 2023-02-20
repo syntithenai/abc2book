@@ -1,0 +1,28 @@
+X: 30853
+T: COTILLION No. 4. COQUETTE SETT tune 6
+%R: jig
+N: This is version 2, for ABC software that understands tremolo notation.
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.85 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A, |\
+D3 FED | DFA dAF | D3 FED | FDE DCD |\
+D3 FED | DFA dAF | d3 efg | fge d2 H|]
+z |\
+f3 afd | ede fdA | A3 dAF | !/!E3 E3 |\
+BAF BAF | ABc dBG | d3 efg | fge "^D.C."d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance and turn.
+%% Next 2 forward, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

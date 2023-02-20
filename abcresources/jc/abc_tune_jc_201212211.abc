@@ -1,0 +1,18 @@
+X: 1009
+T: Hadarim
+O: Israel
+C: Eldad Pe'eri 1971
+D: Hadarim LP-3 Back from Israel
+M: 2/4
+L: 1/8
+K: Dm
+Q: 1/4=150
+%%MIDI program 20 Reed Organ
+%%MIDI bassprog 32 Acoustic Bass
+%%MIDI gchord fz
+"Gm"G2 "F"F2      |"Edim"E2 "Dm"D2      |"Gm"G2 F2|"Edim"E2 D2  |:\
+"Dm"D3 D          |EDEC                 |"F"F4    |"Gm"G2 "Dm"A2|
+D3 D              |"Edim"EDEC           |[1"F" F4 |"Edim"E4     :|[2 C "Dm"D3-|D4|:\
+d3 d              |"Am"c2 B2            |"Am"A4-  |A4           :|
+"Gm"GA/G/ "F"FG/F/|"Edim"EF/E/"Dm" DE/D/|\
+GA/G/ FG/F/       |EF/E/ DE/D/          |

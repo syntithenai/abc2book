@@ -1,0 +1,28 @@
+X: 21001
+T: CORNWALLIS'S LAMENT FOR COLONEL MUIRHEAD
+O: Scottish air.
+Q: "Plaintive and slow."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.100 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D>E |\
+F>F F2 E>D | D2 A,2 D>E | F2 F2 {F}d>B | {B2}A4 d>B |\
+(BA)(GF)(E>D) | D2 A,2 D>E | F2 F2 E>D | D4 :|\
+A>B |\
+d2 d>e f>e | {e}d2 A2 A>B | (dA)(GF)(ED) | {D2}E4 F>A |
+d2 (d>e)f>e | {e}d2 A2 f>g | a>b f2 (e>d) | d4 d>e |\
+f2 f>fe>f | {g}a2 a2 f>a | (ba)(gf)(e>d) | {d2}He4 f>e |\
+(dA)(GF)(ED) | A2 A,2 D>E | F2 F2 E>D | D4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Burns' song, "Sensibility how charming,"
+%% is set to the above air.
+%%endtext
+%%sep 1 1 300

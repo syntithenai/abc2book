@@ -1,0 +1,26 @@
+X: 21221
+T: THE HUNTSMAN'S CHORUS
+R: reel, march
+B: K\"ohler's Violin Repository, v.2, 1885 p.122 #1
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: There seems to be 3/4 of a bar missing at the D.C.  The tune has 55 bars (63 with the repeated 1st phrase).
+M: 2/4
+L: 1/16
+K: D
+uA2 |\
+d4 (defg) | a4 (.f2.f2) | e2a2e2a2 | fgfe d2A2 |\
+d4 (defg) | a4 (.f2.f2) | e2a2 c'2b2 | a6 :|
+uA2 |\
+[f4d4][f2d2][f2d2] | [d4F4][d2F2][d2F2] | [g4A4][g2A2][g2A2] | [e4c4][e2c2][e2c2] |\
+[f4d4][f2d2][f2d2] | [d4F4][d2F2][d2F2] | [g4A4][g2A2][g2A2] | [e6c6]uA2 |
+f4f2f2 | g4f2f2 | e2e2 (fe)de | f4d2A2 |\
+f4f2f2 | (a2g2)f2f2 | (fe)de f2e2 | d6 uA2 |
+A2AA A2AA | A2AA A2AA | d4A2f2 | d4A2f2 |\
+(ag)e2 (ag)e2 | (ag)e2 (ag)e2 | d4A2f2 | d4A2f2 |
+(ag)e2 (ag)e2 | (ag)e2 (ag)e2 | f2df a4 | f2dfa4 |\
+f2dd d2f2 | He8 | d4"^Tempo."A2f2 | d4A2f2 |
+(ag)e2 (ag)e2 | (ag)e2 (ag)e2 | d4A2f2 | d4A2f2 |\
+(ag)e2 (ag)e2 | (ag)e2 (ag)e2 | f2dfa4 | f2dfa4 |
+f2dd d2d2 | d4 z2vAuA | A2FF F2dd | d2AA A2ff |\
+f2d2f2a2 | vd'2z2 vd'2z2 | vH[d8F8] "_D.C."|]

@@ -1,0 +1,25 @@
+X: 11043
+T: JENNY DRINKS NAE WATER.
+O: Scottish air.
+Q: "Not too fast."
+%R: air, reel, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.104 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B>c |\
+(dc)(BA) d3f | e2E2 E2(Bc) |\
+(d>A)(c>A) d3A | F2D2 !p!D2a2 |\
+(fa)(ba) (~f>g)(af) | ({a}g>f)({f}e>d) {f}e2(de) |\
+!f!f2(ed) B<dA<d | F2D2D2 :|
+|: (Bc) |\
+(dc)(BA) (Bc)(dB) | (ed)(cB) (cd)(ec) |\
+(dc)(de) (de)(fg) | (ab)(ag) (fg)(af) |\
+(g>a)(bg) (f>g)(af) | ({a}gf)(ed) {f}e2(de) |\
+{de}f2(ed) (B<d)(A<d) | F2D2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

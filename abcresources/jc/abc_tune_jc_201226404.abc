@@ -1,0 +1,20 @@
+X: 10251
+T: Lock Errock Side
+C:
+Q: "Andante"
+B: "Man of Feeling", Gaetano Brandi, ed. v.2 p.25
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Add missing 32nd-note flags in last bar's 2nd beat.
+N: AKA "Lass O' Gowrie"
+M: C
+%%graceslurs 0
+L: 1/16
+K: D
+!f!A2G2 |\
+F2A2A2B2 d3ed2c2 | B3AB2d2 e3fe2E2 | !f!F2A2A2B2 d3e {de}f3e | edcB ABdF TE4 D4 |]
+!f!ag |\
+f2a2 d2fg agfg a4 | g2b2 e2ga baga b3a/g/ | f2a2 d2fg agfg a3f/d/ | A3df3d Te4 {de}d2a/g/ |
+f2a2 d2fg agfg a4 | g2b2 e2ga baga b3a/g/ | fa3ef3 d3c/B/ B2b2 | a2{ba^ga}Hd'z A>df>d e4 {de}Hd2 |]
+%
+%%center -

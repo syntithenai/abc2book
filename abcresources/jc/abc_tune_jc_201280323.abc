@@ -1,0 +1,28 @@
+X:410
+T:Geur-thuiges (Knowing)
+C:Shuana Pickett-Gordon
+R:Slow Air
+M:C
+L:1/4
+%%printtempo 0
+Q:80
+K:C
+V:1 Violin 1
+uE|\
+"Am"(vA>B)"Am/C"(cB)|"B7dim"vA2"E7"(^GE)|"Am"(A>c)"Dm"(BA)|"Am/E"e3 "E7"uE|
+"Am"(A>B)"Am/G"(cB/A/)|"Dm/F"(BA)"Em"(G"Em/D"E)|"Am/C"(vE>A)"Em/B"(AG)|"Am"A3||uE|
+"D"(^F>G) "G/B"(DE/F/)|"C"E2"Bm"(DB,)|"Em"(G>^F) "A/C#"(E"D7"D)|"G"B3 "E7/G#"e|
+"Am"A>B) "F"(cB)| "Dm"A2"Em"(G"Em/D"E)| "C"e2"Em7/B"(E>"E7/B"^G)| "Am"A3|]
+V:2 Violin 2
+uE|\
+vA2E2|(DF)(EE)|A2F2|(E>^F)(^GE)|
+A3uE|(DC/D/)(ED)|(E>A)(AG)|A3||uE|
+D2d2|(c/B/A/G/)(^FD)|(E>E)(A,B,/C/)|(B,>C)(DE)|
+A3uG|F2(ED)|E2D2|C3|]
+V:3 Cello
+K:C bass
+e|\
+A2c2|B2e2|A2d2|e4|
+a2g2|f2ed|c2B2|A4|d-
+dB2|c2Bd|e2^cd|g2^g2|
+a2f2|d2ed|c2B2|A3|]

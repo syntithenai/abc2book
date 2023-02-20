@@ -1,0 +1,17 @@
+X: 1
+T: the Mill Mill O
+R: Air
+S: J.Moore,Tyneside,1841.(74)
+A: Northumbria
+Z: England
+Z: vmp.Chris Partington
+M: 4/4
+L: 1/8
+K: A
+%Transposed from D
+ A>B |\
+"A" c2E>FE3A    | "D" F>EFA "E7" {c}B2A>B | "A" {AB}c2E2 "F#m" dcBA   | "Bm" F3G "E7" A2 A>B |
+"A" c2E>FE3A    | "D" F>EFA "E7" {c}B2A>B | "A" {AB}c2E2 "F#m" dcBA   | "E7" F3G  "A" A2    ||
+ E2 |\
+"A" ABcd e3e    | "D" fedc  "E7"    B3E   | "A" ABcd "F#m" e>fed      | "Bm" {d}c2cd "E7" e2zE |
+"A" ABcd e3d/e/ | "D" fedc  "E7" {c}B2A>B | "A" c2E2 "F#m" E2{d}c/B/A | "E7" F3G     "A"  A2  |]

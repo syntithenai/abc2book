@@ -1,0 +1,22 @@
+X: 04088
+T: TERRIYAKI'S JIG
+C: Bob McQuillen 20 July 79
+B: Bob's Note Book 04 #88
+%R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+f2e \
+| dBA ABA | dfe dcd | ecA B2A | Acd efe |\
+| dBA BAF | DFA dcd | Bed cde | fdd :|
+|: f2g \
+| afa gab | afd dfa | g2e cde | A>BA A2 f/g/ |\
+| afd dfd | Add dfa | gec ABc | d3 :|
+%%begintext align
+%% Yes, I know, it's a little unusual,
+%% but I really do have a friend named
+%% Terriyaki who always brings me
+%% happines. And so, you see, this is
+%% Terriyaki's Jig! And with love always!
+%%endtext

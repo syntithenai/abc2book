@@ -1,0 +1,468 @@
+X: 0
+T: Minuets for the Year 1777
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+B: Straight & Skillern "Minuets for the Year 1777", London 1777
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straight1777
+K:
+%%center MINUETS
+%%center for the Year 1777
+%%center as they were Perform'd at the Ball at Court
+%%center and other Publick Assemblys
+%%center for the Harpsichord Violin and German Flute
+%%center -----------------------------------
+%%center London Printed for Straight & Skillern in St Martins Lane near Charing Cross
+%%begintext align
+%% Transcription notes:
+%% Each tune is in a file with a name of the form PP_Title-K-B-S.abc,
+%% where PP is the 2-digit page number, Title is the tune's title with underscores
+%% for spaces, K is the key, B is the number of bars in one playing of the tune,
+%% and S is the number of staffs in the transcription.
+%%endtext
+%%begintext align
+%% The staffs have sometimes been reformatted to fit A4/US-letter pages, usually with
+%% a multiple of 4 bars per staff to go with a relatively small scale for proofreading.
+%% You should reformat the staffs to match your needs.
+%%endtext
+%%begintext align
+%% A few tunes use voice overlays (2 voices on one staff) that much ABC software can't handle.
+%% Two versions of these are provided: a PP-Title-K-B-S-V1.abc file that's arranged to work with
+%% such software, and a PP=Title-K-B-S-V2.abc file that contains the voice overlays.
+%% This is also used for the cases of "chord" appogiaturas and some other features
+%% that aren't widely implemented yet.
+%% The '-' vs '=' after the page number is to make it easier for makefiles to tell them apart.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 19
+T: Princess Charlotte Augusta's Minuet
+%R: minuet, waltz
+B: Straight & Skillern "Minuets for the year 1777", p.19
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straight1777
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for a US-letter/A4 page size.
+V: 1
+|:\
+d2 A2 A2 | A2 F2 F2 |\
+F2 D2 {de}f2 | e2 dcBA |\
+fd B2 A2 | ^GA E2 D2 |\
+CE A2 ^G2 | {G2}A6 :|\
+|:\
+AB A2 G2 | FAd4 |\
+B=c B2 A2 | ^GB e4 |
+A2 g2 g2 | fgaf d2 |\
+AG F2 TE2 | HD6 :|\
+|:\
+[K:D][M:3/4] "Min:2.o"\
+D2 F2 F2 | F2 A2 A2 |\
+A2 d2 c2 | {c2}d4 e2 |\
+fafd A2 | eaec A2 |\
+fdcBA^G | {G2}A6 :|
+|:\
+A2 B2 =c2 | (3(B=cd) G2 F2 |\
+E2 c2 d2 | (3(cde) A2 G2 |\
+d2 e2 f2 | Tg4 f2 |\
+dfegfa | g4 f2 |\
+egfedc | "D.C. 1st Min:"{c2}d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|: z6 | d'2 a2 a2 | f2 d2 z2 | [a6A6] |\
+[d6D6] | [d6D6] | E4 e2 | a2 e2 A2 :|\
+|: d2 a2 c2 | d2 f2 d2 | e2 b2 B2 |
+e2 ^g2 e2 | c6 | d2 e2 f2 | g2 a2 A2 | H[d2d6] A2 D2 :|\
+|:\
+[K:D][M:3/4] "Min:2.o"\
+[d6D6] | [d6D6] |\
+df a2 A2 | d2 D2 c2 | [d'6d6] | [c'6c6] |
+d2 e2 E2 | A2 e2 a2 :|
+|:\
+f2 e2 d2 | [g6G6] | ^g2 f2 e2 | [a6A6] |\
+f2 e2 d2 | e2 c2 d2 | f4 d2 | e2 c2 d2 |\
+g2 a2 A2 | "D.C. 1st Min:" d2 A2 D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20
+T: Richmond Regatta Minuet
+%R: minuet, waltz
+B: Straight & Skillern "Minuets for the year 1777", p.20
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straight1777
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for a US-letter/A4 page size.
+V: 1
+|:\
+g3 f e2 | Te3 d c2 | .G2 .A2 .B2 | TcBcd c2 |\
+g3 f e2 | e3 d c2 | G2 AfdB | {B2}c6 :|
+[e4c4G4] fd | [e4c4G4] fd | (3(efg) f2 e2 | dcBA G2 |\
+[e4c4G4] fd | [e4c4G4] fd | eg f2 e2 | Te4 d2 |
+g3 f e2 | e3 d c2 | .G2 .A2 .B2 | TcBcd c2 |\
+[g3e3] [fd] [e2c2] | [e3G3] [dF] [c2E2] | .G2 .A2 .B2 | [c6G6E6] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+c2 e2 g2 | c'2 g2 a2 | .e2 .f2 .g2 | c6 |\
+c2 e2 g2 | c'ceg a2 | e2 f2 g2 | c'2 g2 c2 :|
+cegeBg | cegeBg | (3(cde) d2 c2 | g4 G2 |\
+c2 e2 g2 | c2 e2 g2 | c2 B2 c2 | g4 G2 |\
+g3 f e2 |
+e3 d c2 | .e2 .f2 .g2 | c6- |\
+c6- | c6 | .e2 .f2 .g2 | c'2 g2 c2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 21
+T: Lady Derby's Minuet
+%R: minuet
+B: Straight & Skillern "Minuets for the year 1777", p.21
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straight1777
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The double appogiatura in bar 2 doesn't work right in some ABC software.
+N: See the -V1.abc version for a rewrite.
+M: 3/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for a US-letter/A4 page size.
+V: 1
+|:\
+[ge][af] [g2e2] [f2d2] | {[f2d2]}[e4c4] [a2c2] |\
+g2 c2 d'/c'/b/a/ | g2 f2 e2 & e2 d2 c2 |\
+A4 cA | G4 cG | Gggffe | Te4 d2 :|
+|:\
+dBGBdf | ecdB c2 | ag f2 e2 | Te4 d2 |\
+a2 ^cdef | g2 Bcde | {b}a{g}f e2 Td2 | c6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+c'2 z2 g2 | c4 f2 | e4 f2 | g2 G2 c2 |\
+fac'a f2 | egc'g e2 | e2 d2 c2 | g4 G2 :|
+|:\
+b2 g2 b2 | c'2 g2 c2 | fe d2 c2 | g4 G2 |\
+f6 | e6 | f2 g2 G2 | c6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22
+T: Capt Tates Minuet
+%R: minuet
+B: Straight & Skillern "Minuets for the year 1777", p.22
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straight1777
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for a US-letter/A4 page size.
+V: 1
+|:\
+A3 Bcd | G2 G2 A2 | B3 c {e}dc/B/ | {B2}A4 c2 |\
+d3 e {g}fe/d/ | c2 BABc | {d}cB A2 G>F | F6 :|
+|:\
+f3 g {b}ag/f/ | (g/a/)(f/g/) (e/f/)(d/e/) c2 | d3 e {g}fe/d/ | Tc3 B A2 |\
+B3 c {e}dc/B/ | (c/d/)(B/c/) (A/B/)(G/A/) F2 | {c}B>A {A2}TG4 | {G2}F6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+f2 F2 z2 | c'2 c2 z2 | g2 e2 c2 | f2 F2 z2 |\
+b2 g2 b2 | c'defga | b2 c'2 c2 | f3 (abg) :|\
+|: f2 f2 f2 |
+c'2 c2 z2 | b2 g2 b2 | c'2 e2 f2 |\
+b2 g2 e2 | f2 f2 a2 | b2 c'2 c2 | f6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 23
+T: Lady Betty Delmes Minuet
+%R: minuet, waltz
+B: Straight & Skillern "Minuets for the year 1777", p.23
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straight1777
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain moves onto the bass staff, which ABC can't do; rewritten to be on treble staff.
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for a US-letter/A4 page size.
+V: 1
+|:\
+B3 c d2 | {G2}TF4 G2 |\
+AB c2 B2 | {B}A2 GFED |\
+B3 c d2 | {G2}TF4 G2 |\
+AB [c2A2] [B2G2] | [B2G2] [A2F2] z2 :|\
+|:\
+[F2D2] [G2E2] [A2F2] | [B2G2] [c2A2] [d2B2] |\
+[F2D2] [G2E2] [A2F2] | [B2G2] [c2A2] [d2B2] |
+e3 eTdc | d3 dTcB |\
+c3 cTBA | B2 cBAG |\
+F2 E2 D2 | [B,2G,2] [C2A,2] [D2B,2] |\
+[E2C2] [F2D2] [G2E2] | [B,2G,2] [C2A,2] [D2B,2] |\
+[E2C2] [F2D2] [G2E2] | [D2B,2] [C2A,2] [B,2G,2] |\
+{F}ED/C/ B,2 A,2 | G,6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+g2 a2 b2 | d'2 c'2 b2 | a2 f2 g2 | d4 z2 |\
+g2 a2 b2 | d'2 c'2 b2 | a2 f2 g2 | d2 d'c'ba :|\
+|:\
+d6 | d6 | d6 | d6 |
+c'2 cc'ba | b2 Bbag | a2 Aagf | g6 |\
+D6 | G6 | G6 | G6 |\
+G6 | G6 | c2 d2 D2 | [d6B6G6] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 24
+T: Cassino Minuet
+%R: minuet
+B: Straight & Skillern "Minuets for the year 1777", p.24
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straight1777
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for a US-letter/A4 page size.
+V: 1
+|:\
+g4ec | c2TB2c2 | Aagfed | d/c/B/c/ B2z2 |\
+g4ec | c2TB2c2 | G2 {de}[f2d2][e2c2] | T[e2c2]d2z2 ::\
+d4ec | Bgfedc |
+d4ec | {c}B2ABG2 |\
+AFAcBd | cGcedf | (3(edc) (3(fed) gc | edcBAG |\
+GBdf e2 | dgBdcc' | (3{b}agf e2Td2 | c6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+c2e2c2 | g2f2e2 | f4^f2 | g3^fed | c2e2c2 | g2f2e2 | G4c2 | g4G2 :: G2B2c2 |
+G6 | G2B2c2 | g2d2G2 | f6 | e4B2 | c2d2e2 | g6 | G2B2c2 | g2f2e2 | f2g2G2 | c6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 25
+T: Miss Fredericks Minuet
+%R: minuet, waltz
+B: Straight & Skillern "Minuets for the year 1777", p.25
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straight1777
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for a US-letter/A4 page size.
+V: 1
+|:\
+G6 | d6 | g2B2c2 | d2Tc2B2 |\
+e6 | f4g2 | edcBAG | {G}F2EFD2 |\
+G6 | d6 | g2B2c2 | d2Tc2B2 |\
+e6 | Tf4g2 |
+(3({f}edc) B2A2 | HG6 :|\
+B6 | ^c4d2 | efgfed | ^c2BcA2 |\
+d6 | a6 | d'2f2g2 | a2Tg2f2 |\
+b6 | T^c'4d'2 | {c'}ba/g/ f2e2 | "Da Capo"d6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+g2f2e2 | d2c2B2 | G4A2 | B2A2G2 |\
+c2B2A2 | d2c2B2 | c4^c2 | d4z2 |
+g2f2e2 | d2c2B2 | G4A2 | B2A2G2 |\
+c2B2A2 | d2c2B2 | c2d2D2 | HG2B2d2 :|\
+g2f2e2 | a2g2f2 |
+g4b2 | a4A2 |\
+d'2^c'2b2 | a2g2f2 | d4e2 | f2e2d2 |\
+g2f2e2 | a2g2f2 | g2a2A2 | d2A2"Da Capo"D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 26
+T: Salisbury Assembly Minuet
+%R: minuet, mazurka
+B: Straight & Skillern "Minuets for the year 1777", p.26
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straight1777
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Version for ABC software that understands voice overlays.
+N: Bass line in bar 21 moved to the bass staff.
+M: 3/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for a US-letter/A4 page size.
+V: 1
+|:\
+[dA2F2D2]>d d2 d2 | [ec2A2E2]>e e2 e2 |\
+g>fe>dc>B | A2 TG2 F2 |\
+[FD]>[FD] [F2D2] [E2C2] | [GE]>[GE] [G2E2] [F2D2] |\
+A2 TG2 F2 | E>DE>F E2 |\
+[dF]>[dF] [d2F2] [d2F2] | [eA]>[eA] [e2A2] [e2A2] |
+gfedcB & edcBAG | [A2F2] [G2E2] [F2D2] |\
+[FD]>[FD] [F2D2] [E2C2] | [GE]>[GE] [G2E2] [F2D2] |\
+{c}(3(BAG) [F2D2] [E2C2] | Hd6 :|\
+|:\
+Te6 | Te6 |\
+fedcBA | T^G2 FG E2 |
+a2 ^g2 f2 | e2 Td2 c2 |\
+{g}(3(fed) c2 B2 | A4 G2 |\
+[FD]>[FD] [F2D2] [E2C2] | [GE]>[GE] [G2E2] [F2D2] |\
+A2 G2 F2 & D2 C2 D2 | EDEF E2 |\
+[FD]>[FD] [F2D2] [E2C2] | [GE]>[GE] [G2E2] [F2D2] |\
+A2 TG2 F2 | EDEF "D.C."E2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+d2 f2 d2 | A2 c2 A2 | d6 | f2 e2 d2 |\
+d4 A2 | A4 d2 | f2 e2 d2 | A6 | d6 | A6 |
+d6 | a2 A2 d2 |\
+d4 A2 | c4 d2 | g2 a2 A2 | Hd2 A2 D2 :|\
+|:\
+a2 c'2 a2 | ^g2 e2 g2 | a2 f2 d2 | e2 B2 E2 | f'2 e'2 d'2  |
+c'2 b2 a2 | d2 e2 E2 | A2 c2 A2 |\
+d4 A2 | A4 d2 | f2 e2 d2 | A6 |\
+d4 A2 | A4 d2 | f2 e2 d2 | "D.C."A6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 27
+T: Mount Edgcumbe Minuet
+%R: minuet, waltz
+B: Straight & Skillern "Minuets for the year 1777", p.27
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straight1777
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Version for ABC software that understands voice overlays.
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for a US-letter/A4 page size.
+V: 1
+|:\
+G4BG | d4fd | {ef}g2f2e2 | dBG4 |\
+d2D>FA>c | BGcAd2 | edc2B2 | TB4A2 & G4F2 :|
+|:\
+d2DFAc | B2TA2G2 | edc2B2 | TB4x2 & G4A2 |\
+e4{a}g{f}e | d2c2Bg | {f}(3(edc)TB2A2 & x2G2F2 | {A2}G6 & {F2}G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+g2b2g2 | f2d2f2 | e2d2c2 | G2B2G2 |\
+d2f2d2 | g2a2b2 | c'ba2g2 | d'4d2 :|
+|:\
+d2f2d2 | g2a2b2 | c'ba2g2 | d'4d2 |\
+c2e2c2 | B2A2G2 | c2d2D2 | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 28
+T: Scarborough Assembly Minuet
+%R: minuet
+B: Straight & Skillern "Minuets for the year 1777", p.28
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straight1777
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for a US-letter/A4 page size.
+V: 1
+|:\
+A4cA | e2Bdc2 | fedcBA | TG2FGE2 |\
+A4 d/c/B/A/ | e2Bdca | {g}fe/d/c2TB2 | HA6 :|
+|:\
+c4ec | B4eB | cBAGFE | T^D2CEB,2 |\
+e4f2 | (3(gab) (3(^def) eB | (3({^d}cBA)G2F2 | "Da Capo"E6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+a2c'2a2 | g2e2a2 | d4^d2 | e2B2E2 |\
+A2c2A2 | e2g2a2 | d2e2E2 | HA2c2e2 :|
+ac'e'c'a2 | gbe'bg2 | a4^a2 | b4B2 |\
+egbg^db | e2f2g2 | a2b2B2 | "Da Capo"efedcB |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 29
+T: Miss Nortons Minuet
+%R: minuet, waltz
+B: Straight & Skillern "Minuets for the year 1777", p.29
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straight1777
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Version for ABC software that understands voice overlays.
+M: 3/4
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for a US-letter/A4 page size.
+V: 1
+|:\
+[B2F2D2] BBBB | [B2F2D2] dBfd | b2 Ta2 g2 & G2 F2 E2 | gfTedTcB & D6 |\
+e2 gege | d2 fdfd | x2 e2 d2 & cd c2 B2 | Td2 c2 z2 & B2 A2 x2 :|
+|:\
+f>g (3(_agf) (3(edc) | c2 T=B2 c2 | e>f (3(gfe) (3(dcB) | B2 A2 B2 |\
+g2 egbg | f2 dfbf | x2 d2 c2 & {a}(3(gfe) B2 A2 | {c2}B6 & {A2}B6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+[b6B6] | [b6B6] | b6 | b6 |\
+c2 c'2 a2 | B2 b2 d2 | e4 =e2 | f2 F2 z2 :|
+|:\
+f4 _a2 | g2 G2 c2 | c4 e2 | f2 F2 z2 |\
+e6 | d4 B2 | e2 f2 F2 | Bbfd B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 30
+T: Mrs Hampdens Minuet
+%R: minuet
+B: Straight & Skillern "Minuets for the year 1777", p.30
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straight1777
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for a US-letter/A4 page size.
+V: 1
+|:\
+AGAB A2E2C2E2 | e4 Td4 c4 | B2d2c2B2A2G2 | G8 A4 |\
+A2c'a c'2a2e2c2 | G2bg b2g2e2B2 | {^d}c2BA G4 TF4 | E12 :|
+|:\
+Te^def e2=g2f2e2 | d2B2c2^A2 B4 | dcde d2f2e2d2 | c2A2B2G2 A4 |\
+A2a2a2f2e2d2 | c2e2G2B2A2E2 | {g}f2ed c4 TB4 | A12 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+:|\
+a8 A4 | c'4 b4 a4 | d4 e4 E4 | A2a2e2c2 A4 |\
+a12 | g12 | a4 b4 B4 | e12 :|
+|:\
+c'8 ^a4 | b4 f4 B4 | b8 g4 | a4 e4 A4 |\
+a12 | A4 B4 c4 | d4 e4 E4 | A4 c4 e4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

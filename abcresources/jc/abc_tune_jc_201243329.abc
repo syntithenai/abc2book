@@ -1,0 +1,63 @@
+X:97804
+T:Her Majesty is Welcome
+P:The Queen Mother's Progress
+C:Iain Robertson
+R:Medley (8x32)
+B:RSCDS D78-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:A
+V:1
+%%staves (1 2)
+[V:1] A>B|:"A"c<A A2 "D"F<D D2|"A"E<C c>A "E"B>E "E7"e>d|\
+[V:1]      "A"c<A A<E "D"(3FDE (3FGA|"A"E<C "E"B>G "A"A2 A>B|
+[V:1]      "A"c<A A<E "D"F<D D<F|"A"E<C e>c "E"B2 "E7"e>d|\
+[V:1]      "A"c<A A<E "D"(3FDE (3FGA|"A"E<C "E7"B>G "A"A2||
+[V:1]  c>d|"A"e<A A2 "D"(3fdA a2|"A"(3ecA a>c "E"B2 "E7"c>B|\
+[V:1]      "A"(3AEA (3cBA "D"F>D (3def|"A"c<e "E7"c<B "A"A2 c>d|
+[V:1]      "A"e<A A2 "D"(3fdA a2|"A"(3ecA a>c "E"B2 "E7"c>B|\
+[V:1]      "A"A<E E<C "D"(3FDF (3AGF|1 "A"E<A "E7"d>B "A"A2 A>B:|2 \
+[V:1]                                  "A"A<c "E7"e>G "A"A2|]
+%
+%[V:2]       A4   A4  |   D4   F4 | [c4A4]     B2G2|   E4-E2|]
+%[V:2]                                               E4   E4  |\
+%[V:2]       A6     Bc|   A6     AB|   A4   A4  |
+%[V:2]                    D4   D4  |   A4       B2G2|   A2E2 E2||AB|\
+%[V:2]       A4   A2E2|
+%[V:2] AB|   c2A2 x2Bc|   d2A2 x2AB|   c2A2 A4 |    G4   B4  |\
+%[V:2]                                 A4       E4  |   x6   ||\
+%[V:2]       A4   E4  |   x8       |
+%[V:2]       A4   x4  |   D4      x4  |C2E2 A4  |    x4   B3B |\
+%[V:2]                                                 x6   ||cB|\
+%[V:2]       A4   x4  |   x4   A4 |   c4       E4  |
+%[V:2] x2|   E4   E4  |   D4     x4  |C2E2 E4 |    G2E2 e2B2|\
+%[V:2]                                     x2      G2     E2|]
+%[V:2]      [E2C2] x2      D4        |1    Cx      G2     E2 x2 :|2 \
+%[V:2]         A2  x2     A2   F2|  [c2A2] A2     G2     G2 |\
+%[V:2]           C2    E2     x4       |   E2   [G2E2]    E2 A>B|
+%[V:2]  A>B|   c<A x2      A2  F2|   [c2A2]A2     G2     G2 |\
+%[V:2]         A2  x6                |   x4             E2||
+%[V:2]         E4         x4     |   x2  E2     G2     B2 |\
+%[V:2]         A2  E2     x4         |   x2      G2    E2 x2 |
+%[V:2] x2 |:   E4        D4    |   x2  E2     E2      B2 |\
+%
+%V:2
+P:Dame Diane's Delight
+C:Iain Robertson
+M:2/4
+L:1/16
+K:A
+%%staves (1 2)
+[V:1] AB|"A"cAAA A2E2|"D"F3A "A"E2EG|A2AB c3A|"E7"B2E2 e2ed|\
+[V:1]    "A"cdec A2E2|"D"FDFA d3f|"A"e2A2 "E7"GABG|
+[V:1]                                              "A"A4-A2||ed|\
+[V:1]    "A"cdec A2E2|"D"FGAF "A"E2EG|A2AB cBAG|"E7"B2EE e2ed|\
+[V:1]    "A"cdec A2E2|"D"F2DF Adf2|
+[V:1]                              "A"e2A2 "E7"GABG|"A"A4-A2||\
+[V:1] cd|"A"e2A2 A2de|"D"f2A2 A2cd|"A"e2A2 a3A|"E7"B2E2 edcB|\
+[V:1]    "A"cde2 A4  |
+[V:1]                 "D"FGAF D2F2|"A"cdec "E7"e2dB|"A"A4   A2||cd|\
+[V:1]    "A"e2ce a2de|"D"f2df a2cd|"A"e2A2 agfe|
+[V:1]                                           "E7"d2EE edcB|\
+[V:1]    "A"cdec A2a2|"D"FGAF d3f|"A"e2a2 "E7"e2dB|"A"A4-A2|]

@@ -1,0 +1,18 @@
+X: 1
+T: Reel du P\`ere Carignan
+M: C|
+L: 1/8
+R: reel
+K: D
+|:\
+"D"fafd "G"g3g | "D"fafd A2"D#dim"FA |\
+"Em7"dcBA GBBB | "A7"ABAG F2AA ||\
+"D"fafd "G"g3g | "D"fafd A2dd |
+"Em7"cdef "A7"gecA |1 dfec "D"d2 f2 :|[2 "A7"dfec "D"dAAG \
+|:\
+"D"ABAF DFAd | "G"BdBG ABcd |\
+"A7"efec Aceg |
+fafd A2AG ||\
+"D"ABAF DFAd | "G"BdBG ABcd |\
+"A7"efec Acef |1 gecA "D"dAAG :[2 gecA "D"d4 || 
+%%text Transition: Cut that last D short.

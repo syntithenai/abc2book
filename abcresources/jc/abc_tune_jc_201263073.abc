@@ -1,0 +1,28 @@
+X: 1
+T: the Cock o' the North
+O: 1667
+R: jig
+S: BSFC Tune Book XXIX-2
+Z: 2016 by John Chambers <jc:trillian.mit.edu>
+N: Earliest known reference: 1667 Samuel Pepys' diary mentions "Joan's Placket", one of the early titles.
+B: Playford 1674, 1686, as "Jumping Joan".
+M: 6/8
+L: 1/8
+K: A
+"E7"e2d |\
+"A"cdc cBA | cde "D"f2d |\
+"A"cAc "(Fm)"cBA | "Bm"B3 "E7"e2d |\
+"A"cdc cBA | "A7"cde "D"f2d |\
+"A"cAc "G"B=GB |\
+[1 "A"A3 :|\
+[2 "A"Acd ||
+"E7"efg |\
+"A"a2e f2e | "A"a2e f2e |\
+"A"cAc "F#m"cBA | "Bm"B2e "E7"efg |\
+"A"a2e f2e | "A"a2e "D"fga |\
+"A"cAc "G"B=GB | "A"Acd ||
+"E7"efg |\
+"A"a2e f2e | "A"a2e f2e |\
+"A"cAc "F#m"cBA | "Bm"B2e "E7"e2d |\
+"A"cdc cBA | "A7"cde "D"f2d |\
+"A"cAc "G"B=GB | "A"A3 |]

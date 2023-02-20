@@ -1,0 +1,28 @@
+X: 19
+T: Hugar Mu Fean
+%R: waltz
+B: "The Hibernian Muse" p.12 #2
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. XIX.
+M: 3/4
+L: 1/4
+K: D
+%%slurgraces
+%%graceslurs
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+ABd | {f2}e2e | Te(g/f/)(e/d/) | {f2}e2e |\
+def | {a2}g2a | {g2}f2Te/d/ | B2 ||
+|: B |\
+g(a/g/)(f/e/) | f(g/f/)(e/d/) | {f2}e2d | TB2A |\
+e>de | {g2}f2e | d2{c}B | {B2}A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+cdB | AcA | cdB | A/B/cA |\
+Bcd | e2c | d3 | g2 ||
+|: z |\
+ea2 | dg2 | a2d | g2d |\
+Aac | d2e | f2g | d2 :|

@@ -1,0 +1,610 @@
+X: 000
+T: Twenty Four Country Dances for the Year 1805
+Z: 2011,2014 John Chambers <jc:trillian.mit.edu>
+B: Tho. Preston eds "Twenty Four Country Dances for the Year 1805", London 1805
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1805.PDF
+F: http://folkopedia.efdss.org/images/0/02/Preston_24_1805.PDF
+K:
+%%center Preston's
+%%center Twenty four COUNTRY DANCES for the Year 1805
+%%center With proper Tunes & Directions to each Dance,
+%%center as they are performed at
+%%center COURT, BATH, and all PUBLIC ASSEMBLIES
+%%center -----------------------------------
+%%center London Printed & Sold by Tho. Preston at his Wholesale Warehouses 97 Strand
+%%begintext align
+%% Transcription notes:
+%% The tune numbers below the clef and key signature are used in the file names to preserve the dance order.
+%% Many abbreviations use small superscript letters with a dot underneath. The dots are ignored, and the letters typed as-is.
+%% The original staff breaks are ignored, and the music is formatted to have 4 bars per line.
+%% The lines are joined into staffs to look good at a small scale, but you may want to reformat the staffs.
+%% The dance descriptions have are transcribed with the original line breaks, but this isn't significant.
+%%endtext
+
+% %slurgraces yes
+% %graceslurs yes
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 537
+T: The Humours of Cork
+R: jig
+B: "Twenty Four Country Dances for the Year 1805", Tho. Preston, ed. p.229
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1805.PDF
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|:\
+dBG GFG | GFG ABc | BGB dcB | ece efg | dBG GFG |
+GFG ABc | Bdg gec | BcA G3 :: gfg efg | dec BAG |
+BGB dcB | ece efg | dBG GFG | AFA ABc | Bdg gec | BcA G3 :|
+%%begintext align
+%% Lead down the middle up again and allemande
+%% swing corners, foot it outsides.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 538
+T: Thro' the wood of Fife
+R: reel
+B: "Twenty Four Country Dances for the Year 1805", Tho. Preston, ed. p.229
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1805.PDF
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: rhythm fixed by adding rest as "pickup" to 1st strain.
+M: C|
+L: 1/8
+K: G
+z |\
+d>GBG A>Bce | ceBd dGBG | ceBd ABce | d>BgB d2d ::
+e |\
+dBgB ABce | dBgB bBgB | dBgB ABce | dBgB d3g |
+dBgB ABce | dBgB bBdB | cbBa ABce | dBgB d2d |]
+%%begintext align
+%% Cast off one Cu. up again, lead down the middle
+%% up again and turn your partner.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 539
+T: Capt.n Keeler's Reel
+%R: reel
+B: "Twenty Four Country Dances for the Year 1805", Tho. Preston, ed. p.230 #1
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1805.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+A |\
+B2 d/c/B fBbB | B2 d/c/B AFcA |\
+B2 d/c/B fBbB | cAFA BGG :|
+B |\
+DGBG dGBG | DGBG AFcA |\
+DGBG dGBG | cAFA BGGB |
+DGBG dGBG | DGBG AFcA |\
+DGBG dGBG | cAFA BGG |]
+%%begintext align
+%% 1st and 2d Cu. set and half right and left.
+%% Back again, lead down the middle up again
+%% and allemande.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 540
+T: Miss Maxwell's Reel
+%R: reel
+B: "Twenty Four Country Dances for the Year 1805", Tho. Preston, ed. p.230 #2
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1805.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+e |\
+c2Ac efec | Aa (b/a/).g/.a/ bBBe |\
+c2Ac eaec | dBeB cAA :|
+|: E |\
+C/B,/A, EA, FA,EA, | C/B,/A, EA, FB,B,E |\
+C/B,/A, EA, FA,EA, | EAGB cAA :|
+%%begintext align
+%% 1st and 2d Cu. set and half right and left,
+%% back again. lead down the middle up again
+%% poussette with the 2d Cu.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 541
+T: The Triumph
+%R: reel
+B: "Twenty Four Country Dances for the Year 1805", Tho. Preston, ed. p.231 #1
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1805.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Added rests at start of 2nd, 3d strains to fix the rhythm.
+M: 2/4
+L: 1/8
+K: G
+g |\
+dB-BG | cA-AF | dgfe | e2dg |\
+dB-BG | cA-AF | G2A2 | G3 :|
+|: z |\
+A2c2 | B2d2 | A2c2 | B2d2 |\
+AAAc | BBBg | B2TA2 | G3 :|
+|: z |\
+B2Bd | dcBA | A2Ac | c2B2 |\
+BBcd | efge | dcBA | G3 :|
+%%begintext align
+%% Set 4 hands across half round the same back
+%% again. the 2d Gent.n lead the 1st Lady into the 3d
+%% Cu.s place the 1st Gent.n cross over and meet them
+%% lead up to the top cast off one Cu. turn your part.r
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 542
+T: Duchess of Bedford's Strathspey
+%R: strathspey
+B: "Twenty Four Country Dances for the Year 1805", Tho. Preston, ed. p.231 #2
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1805.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+f |\
+Tc>FA>F CFA,d | Tc<FA>F G>AB>d |\
+Tc<Fc>A B>cd>e | f>d (Tc/d/).c/.B/ AFF :|
+c |\
+f>ac>a f>ga>f | g<cTg>e g<cTg>e |\
+f>ac>a f>ga>g | f>d (c/d/).c/.B/ AF-Fc |
+f>ac>a f>ga>f | g>cTg>e g>cTg>e |\
+f>ag>b a>fge | f>Td (c/d/).c/.B/ AFF |]
+%%begintext align
+%% Change sides, back again. lead down the middle
+%% up again allemande. swing corners and lead
+%% outsides.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 543
+T: Lord John Campbell's Reel
+%R: reel
+B: "Twenty Four Country Dances for the Year 1805", Tho. Preston, ed. p.232 #1
+F: http://folkopedia.efdss.org/images/0/02/Preston_24_1805.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+|:\
+F2Ac f2fa | g>fga gG-GA |\
+F/F/F Ac f2fa | g>fga f/f/f f2 :|
+FGAB cAfc | dBcF EG-GA |\
+F/F/F Ac dBGF | ECGA F/F/F F2 |
+FGAB cAfc | dBcF EFGA |\
+FfcA dBgf | ecga f/f/f f2 |]
+%%begintext align
+%% 1st Lady foot it to the 2d Gent.n and turn the
+%% 3d 1st Gent.n do the same to the 2d and 3d Ladies
+%% lead down the middle up again and cast off.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 544
+T: The Magic Oak
+%R: reel
+B: "Twenty Four Country Dances for the Year 1805", Tho. Preston, ed. p.232 #2
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1805.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Bb
+|:\
+BABc | Bdfd | cBcd | fedc |\
+BABc | Bdfd | decd | B2B2 :|
+|:\
+cdcB | Acf2 | =edec | f2c2 |\
+cdcB | Acf2 | {a}gfga | f2f2 :|
+b2ff | f2dd | d2BB | F2F2 |\
+BABd | cBcd | edcB | A2F2 |
+b2ff | f2dd | d2BB | F2F2 |\
+BABd | cABc | ABcA | B2B2 |]
+%%begintext align
+%% 1st and 2d Cu. hands across, back again, lead
+%% down the middle up again hands 4 round at top
+%% and swing corners.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 545
+T: Murphy Delany
+%R: jig
+B: "Twenty Four Country Dances for the Year 1805", Tho. Preston, ed. p.233 #1
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1805.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+|:\
+TB>cB BcB | TBcB def | BcB cBc | c>dB AGF |\
+TB>cB BcB | B>cB def | gab fed | c>dB AGF :|
+|:\
+d>ef fgf | fgf fed | efg gag | gag gfe |\
+d>ef fgf | f>gf fga | gab fed | c>dB AGF :|
+%%begintext align
+%% 1st Cu. set to the 2d Lady hands 3 round. same
+%% with the 2d Gent.n lead down the middle up again
+%% right and left.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 546
+T: Laborie's Hornpipe
+%R: hornpipe
+B: "Twenty Four Country Dances for the Year 1805", Tho. Preston, ed. p.233 #2
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1805.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+|:\
+e>fg>a e>fg>a | e>dc>B d>BA>G |\
+e>fg>a e>fg>a | e>dcB A2 A2 :|
+|:\
+E>AGB cAdB | cAec aecA |\
+E>AGB cAdB | c>ABG A2A2 :|
+%%begintext align
+%% 1st and 2d Cu. change sides. back again.
+%% lead down the middle up again hands 4
+%% round at top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 547
+T: Mrs Wm Lushington's Reel
+%R: hornpipe
+B: "Twenty Four Country Dances for the Year 1805", Tho. Preston, ed. p.234 #1
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1805.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+|:\
+TE>DE>C E>G G2 |    A>cG>c A>cG>c |  E>DE>C E>GG>c    |  A>cG>c   E>DD2  :|
+Te>dc>d e>fg>a | {f}e>dc>e e>dd>f | Te>dc>d e>f{f}g>c | .G>.G c>d e>c c>e |
+Te>dc>d e>fg>a | {f}e>cg>c a>dd>f |  A>Bc>d e>fg>a    | .G>.G c>d e>c [c2E2G,2] |]
+%%begintext align
+%% 1st and 2d Cu. set and change sides. back
+%% again. lead down the middle up again and
+%% allemande.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 548
+T: Norah Greenah
+O: Irish
+%R: jig
+B: "Twenty Four Country Dances for the Year 1805", Tho. Preston, ed. p.234 #2
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1805.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+|:\
+ABA A2d | c2A e2c | ABA A2c | B2c d2c |\
+ABA A2d | c2A e2c | BdB {a}gfg | B2c d2c :|
+|:\
+efe e2d | c2A e2c | efe e2c | B2c d2c |\
+efe e2d | c2A e2c | BcB gfg | B2c dBG :|
+%%begintext align
+%% Lead down the middle up again and turn
+%% your partner then swing corners.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 549
+T: Pinto's whim. a Reel
+%R: hornpipe, reel
+B: "Twenty Four Country Dances for the Year 1805", Tho. Preston, ed. p.235 #1
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1805.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The first "Gent.n" is actually spelled "Cent.n".
+M: C|
+L: 1/8
+K: F
+c |\
+A<Fc>F f>gfd | (d/c/).B/.A/ (B/A/).G/.F/ EG-Gc |\
+A<Fc>F Tf>gf>d | (d/c/).B/.A/ Gc AFF :|
+|: g |\
+{fg}a>gfd cA-Ac | g<cf>A {A}G3A |\
+TB>ABc defg | {fg}a>f{ef}g>e fFF :|
+%%begintext align
+%% 1st Lady set to the 2d Gent.n and turn round
+%% with both hands. the Gent.n do the same to the
+%% 2d Lady. lead down the middle up again and
+%% foot it.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 550
+T: Off she goes
+%R: jig
+B: "Twenty Four Country Dances for the Year 1805", Tho. Preston, ed. p.235 #2
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1805.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|:\
+F2A G2B | ABc d3 | F2A G2B | AGF E3 |\
+F2A G2B | ABc d3 | faf g2f | edc d3 :|
+|:\
+(f/g/a)f d2f | (g/a/b)g e2g | (f/g/a)f def | ecA efg |\
+(f/g/a)f d2f | (g/a/b)g e2g | faf g2f | edc d3 :|
+%%begintext align
+%% Cast off 2 Cu. back again. lead down the middle
+%% up again. hands 4 round right and left at top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 551
+T: Miss Blair's Strathspey
+%R: strathspey
+B: "Twenty Four Country Dances for the Year 1805", Tho. Preston, ed. p.236 #1
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1805.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+D |\
+F>BD>B F>BdB | GBFd cCCD |\
+F>BD>B FB dg | f>ed>c dBB :|
+f |\
+B>fd>f f>B (e/d/).c/.B/ | A>FcF dFcF |\
+B>fd>g fBdg | f>edc dB-Bc |
+B>fdg fd (e/d/).c/.B/ | A>FcF d>FcF |\
+e<gd<f c<e G>B | A>c Ff dBB |]
+%%begintext align
+%% 1st Cu. lead round the 2d and 3d Cu.
+%% and back again to their own places. lead down
+%% the middle up again and allemande.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 552
+T: Miss Ellison Chalmer's fancy
+%R: reel
+B: "Twenty Four Country Dances for the Year 1805", Tho. Preston, ed. p.236 #2
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1805.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A |\
+FADA FAdB | ADFA GE-EG |\
+FADA FAdB | AFEG FDD :|\
+|: f |\
+afdf gfed |
+gefd ce-eg |\
+[1 afdf geag | faeg fdd :|\
+[2 afge fdec | Bd AF ADD |]
+%%begintext align
+%% Set and change sides back again. lead down
+%% the middle up again and turn your partner.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 553
+T: The New Town of Edinburgh
+%R: reel
+B: "Twenty Four Country Dances for the Year 1805", Tho. Preston, ed. p.237 #1
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1805.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+g |\
+fBdB gBdg | fBdB gcgb | fBdB gbfd | dfcf gccg |
+fBdB fBdg | fBdB gcgb | eBdB GBFB | EGFE DB,B, |]
+E |\
+DEFB GBFB | DBFB cC-CE | DEFB GBFB | EGFE DB,B,F |
+DEFB GBFB | dBfB Ac-cf | gbfg dfcg | fdcf dBB |]
+%%begintext align
+%% 1st and 2d Cu. change sides. back again. hands
+%% across. back again. lead down the middle up
+%% again right and left.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 554
+T: The Arch Duke Charles's Waltz
+%R: waltz
+B: "Twenty Four Country Dances for the Year 1805", Tho. Preston, ed. p.237 #2
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1805.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/8
+K: C
+|:\
+CCC | CCC |\
+(g/a/g/f/)e | (g/a/g/f/)e |\
+[GG,3]GG | [GG,3]GG |\
+[GG,](d/c/B/A/) | G3 ::\
+(e/f/g).g  | (e/f/g).g |
+a>gf/a/ | g2f |\
+(e/f/g).g | (e/f/g).g |\
+fed | c3 :: [K:F]\
+FFF | ccc |\
+def | c2A |
+BBB | GGG |\
+c(d/c/B/c/) | A2c |\
+ddd | fed |\
+ccc | c2A |\
+BBB | dcB |\
+Aff | [f3A3] :|
+%%begintext align
+%% 1st Lady and 2d Gent.n change places 1st Gent.n
+%% and 2d Lady do the same. poussette with the 2d Cu.
+%% quite round. right and left with the 2d Cu.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 555
+T: Wilkinson's Hornpipe
+%R: hornpipe, reel
+B: "Twenty Four Country Dances for the Year 1805", Tho. Preston, ed. p.238 #1
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1805.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+ED |\
+CEB,E CEA,E | CEAc ecAE | FAGA EAGA | FBdB AGFE |
+CEB,E CEB,E | CEAc ecAE | Dfed caAf | edcB A2 :|
+|: ed |\
+ceAe ceAe | agfe dcBA | BABc dcde | fdBA AGFE |
+FAEA DACA | B,BdB AGFE | Dfed cGAF | EDCB, A,2 :|
+%%begintext align
+%% Foot it and cast off 2 Cu. the same back again.
+%% lead down the middle up again. swing corners.
+%% and lead outsides.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 556
+T: Miss Eliza Campbell of Shawfield's fancy
+%R: jig
+B: "Twenty Four Country Dances for the Year 1805", Tho. Preston, ed. p.238 #2
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1805.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The "Gent" in the dance seems to be actually spelled "Cent".
+M: 6/8
+L: 1/8
+K: G
+E/F/ |\
+G2G GFG | ABc B2e |\
+cBA BAG | AGF E2F |\
+G2G GFG | ABc B2e |
+BcB AGF | E3 E2 :|\
+|: B |\
+eBe gfe | ^def Bcd |\
+eBe gfe | faf d2f |
+[1 eBe gfe | ^def Bba |\
+gfe fe^d | e3 E2 :|\
+[2 efg fga | gfe dcB |\
+ABc BAG | {B}AGF E2 |]
+%%begintext align
+%% 1st Cu. set to the 2d Lady and hands 3 round.
+%% the same with the 2d Gent.n lead down the
+%% middle up again. right and left
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 557
+T: Leith Races
+%R: jig
+B: "Twenty Four Country Dances for the Year 1805", Tho. Preston, ed. p.239 #1
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1805.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+|:\
+c2G GEG | c2G GEG | c2e d2f | edc BAG |\
+c2G GEG | c2G GEG | c2e d2f | efd c3 :|
+|:\
+e2e ede | f2f fgf | e2e ece | d2d dcd |\
+e2e ece | f2f fgf | ece dcd | [c3E3] [c3E3] :|
+%%begintext align
+%% 1st and 2d Cu. foot it and turn your part.s
+%% then hands across with the 2d Cu. right
+%% and left.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 558
+T: Major Robertson's Reel
+%R: reel
+B: "Twenty Four Country Dances for the Year 1805", Tho. Preston, ed. p.239 #2
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1805.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+G |\
+c2ec AcGc | fage Tdcde |\
+c2ec AcGE | FAGB c2c :|\
+e/f/ |\
+gcec fadf | gcec Bd-d>a |
+gcec fadf | ecfd Tc2c>a |\
+gcec fada | gcec Bd-d>a |\
+ecfd geaf | (e/f/g) fd c2c |]
+%%begintext align
+%% 1st and 2d Cu. hands across back again. lead
+%% down the middle up again poussette at top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 559
+T: Windsor Castle
+%R: reel
+B: "Twenty Four Country Dances for the Year 1805", Tho. Preston, ed. p.240 #1
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1805.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Length of last note adjusted to fix the rhythm on repeats.
+M: C|
+L: 1/8
+K: F
+f |\
+ec-ce dB Bc/d/ | AFcF EGGf |\
+ec-ce dB Bc/d/ | AFBG F2F :|\
+e |\
+cf-fa gf/e/ fc | cfaf dgbg |
+cf2a gf/e/ fd | cBTAG F2Fd |\
+cf-fa gf/e/ fc | cfaf egab |\
+afge fdcB | AFBG F2F |]
+%%begintext align
+%% 1st and 2d Cu. set and change sides. back again.
+%% lead down the middle. up again and allemande.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 560
+T: Lady Carr Glynn's fancy
+%R: jig
+B: "Twenty Four Country Dances for the Year 1805", Tho. Preston, ed. p.240 32
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1805.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The As in bars 9 and 13 look hand-written.
+M: 6/8
+L: 1/8
+K: A
+e |\
+c2A AcA | ecA AB=c | B2G =GBG | dB=G Bcd |\
+c2A AcA | ecA ABc | ded ABc | ecA A2 :|
+|: d |\
+[c2A2]a aga | efe ed^c | B2=g gfg | ded dcB |\
+[c2A2]a aga | efe edc | ded Bcd | ecA A2 :|
+%%begintext align
+%% Hands across back aagain. lead down the
+%% middle up again right and left.
+%%endtext

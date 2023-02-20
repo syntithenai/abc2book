@@ -1,0 +1,52 @@
+
+X: 1
+T: Reel Beloeil
+C: Edouard Picard
+O: Trad Qu\'ebec
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+FE \
+| "D"D3D "(A7)"DFEG | "D"FDDE F2DF | "D"AdcB "A7"AGFE | "D"DFAd "A7"BGEC |
+| "D"D3D "(A7)"DFEG | "D"FDDE F2DF | "D"AdcB "A7"AGFE | "D"DdAF     D2 :|
+|: AG \
+| "D"FAdA FAdA | "G"GBdB "Em"GBdB | "A7"Acec Acec | "D"dfed "A7"cBAG |
+| "D"FAdA FAdA | "G"GBdB "Em"GBdB | "A7"Acec Acec |    dfec  "D"d2 :|
+
+%%sep 1 1 500
+
+X: 2
+T: Reel de P\`ere L\'eon
+R: reel
+S: printed copy of unknown origin, from Paul Lizotte
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+|: ef |\
+"G"g2gf "C"gedc | "D7"BGAc "G"BGG2 |\
+[1,3 "G"B3B "Am"cBAG | "D7" FGAB A2 |:\
+[2,4 "G"B3B "Am"cBAG | "D7"FGAF "G"G2 :|
+|: A2 |\
+"G"B3B "C"cBAG | "G"BGBG "C"cBc2 |\
+[1,3 "G"B3B "Am"cBAG | "D7"FGAB A2 :|\
+[2,4 "G"BGBd "Am"cBAG | "D7"FGAF "G"G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: La Belle Cath\'erine   [A]
+O: Qu\'ebec
+R: reel
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+|:\
+"A"CEAc BAA2 | CEAc BAA2 | "E7"GABc dcde |\
+[1,3 fe^de "A"cAA2 :|2,4 fe"E7"cB "A"A2z2 :|
+|:\
+"A"ce~e2 "(E7)"efed | "A"ce~e2 "D"[f4d4] | "E"~e2^de gfed |\
+[1,3 fe^de "A"cAA2 :|2,4 fe"E7"cB "A"A2z2 :|

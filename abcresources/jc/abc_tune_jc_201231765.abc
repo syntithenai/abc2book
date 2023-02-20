@@ -1,0 +1,24 @@
+X: 15
+T: Madam Fig's Waltz
+%C: Mr. Gray
+%R: waltz
+B: Mr. Gray "24 Country Dances for the Year 1805" p.3 #1
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The last word of the dance description is nearly illegible.
+N: The second strain has 9 bars.
+M: 3/8
+L: 1/8
+K: A
+(e/d/) |\
+ccc | c2 (d/c/) | BBB | B2 (e/d/) |\
+cca | dd (B/A/) | GE/F/G/F/ | A4 :|
+|: (c/d/) |\
+eef | dde | cc (d/c/) | BB (c/A/) |\
+BGE | FFF | Ddc | BAG | A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st & 2d C: hands across back again,
+%% down the mid: up again, Allemande right
+%% & [left?].
+%%endtext

@@ -1,0 +1,28 @@
+X: 50
+T: Highland Laddy
+%R: reel
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.25
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats and first/last notes adjusted to make the rhythm and phrasing work.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+z2 |\
+G2G2 B2AG | c4 B4 | A2A2 cdec | A2A2 cdec |\
+G2G2 B2G2 | c4 B4 | G2G2 BcdB | G6 :|
+|: ef |\
+gfed efg2 | d4 B4 | c2A2 A2fg | a2A2 A2ef |\
+gfed efge | d4 B4 | G2G2 BcdB | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man set to the 2d Wo. foot it
+%% and turn .| the 1st Wo. and 2d Man do
+%% the same :| the 1st Cu. cross over
+%% below the 3d Cu. .| then slip up
+%% the middle to the Top. foot it and
+%% cast off.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

@@ -1,0 +1,29 @@
+X: 4091
+T: the Honble Mrs Maule of Panmure's Favorite
+C: By Nath.Gow
+%R: air, waltz, jig
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.9 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slow"
+K: F
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 8-bar lines, for compactness and proofreading.
+V: 1 staves=2
+A/B/ |\
+(cA).F (AF).C (DG)G TG2F/G/ | {FG}A>GF (cA).F | Acc Tc2B/A/ ||\
+!p! (Bd).B {d}cB/A/G/F/ | (DGG) TG2F/G/ | {FG}A>GF (DF).C | (DF).F F2 :|
+Tf/>g/ |!p!\
+{fg}a>gf (df).c | dgg Tg2f/g/ | {fg}!f!a>gf (df).c | (df)f f2A ||\
+!p! (Bd).B (cA).F | (DG)G TG2F/G/ |!f! {FG}A>GF (DF)C | (DF)F F2 
+Tf/>g/ |\
+!p! {fg}a>gf (df).c | dgg Tg2f/g/ | {fg}a>gf df.c | dff Tf2!f!A ||\
+(B/d/)c/B/A/G/ (A/c/).B/.A/.G/.F/ | (DG).G TG2!p!A/B/ |"_Exp.o"c>BA/G/ (FA).C | (DF).F F2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | f3 F2A | B2=B c2z | F3 f2f | fac' f3 ||!p! g2e f2a | b2=b c'2z | f2A B2A | BcC F2 :|
+z |!p!f2a b2a | b2=b c'2z | F>GA B2A | B2c F2f ||!p! g2e f2A | B2G c2z | !f!F>GA B2A | B2c F3 |\
+!p!f>ga b2a |
+b2=b c'3 | f>ga b2a | b2c' f2!f!f || g2e fga | (b/a/)(g/f/)(e/d/) c2!p!z |"_Exp.o"Ff-f A2A | B2c F2 |]

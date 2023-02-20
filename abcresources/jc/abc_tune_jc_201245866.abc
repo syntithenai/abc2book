@@ -1,0 +1,52 @@
+X: 0
+T: Alexandrovski
+%info: couple
+O: Russia
+R: waltz
+K:
+
+
+X: 1
+P: Alexandrovsky [Am]
+O: Russia
+R: waltz
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: Am
+E \
+|| "Am"AA>c | ec>B | A^G>A | "E7"B3 || BB>c | dc>B | "Am"AA>c | e3 ||
+|| "Dm"aa>a | af>e | dd>f | a3 || "Am"ece | "E7"dc>B | "Am"A3- | Az"G7"G ||
+|| "C"cc>e | ge>d | cB>c | "G7"d3 || dd>f | af>d | "C"cc>e | g3 ||
+|| "Dm"aa>a | af>e | dd>f | a3 || "Am"ece | "E7"dc>B | "Am"A3- | Az2 |]
+
+
+X: 2
+P: Alexandrovsky [Dm]
+O: Russia
+R: waltz
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: Dm
+A, \
+|| "Dm"DD>F | AF>E | D^C>D | "A7"E3 || EE>F | GF>E | "Dm"DD>F | A3 ||
+|| "Gm"dd>d | dB>A | GG>B | d3 || "Dm"AFA | "A7"GF>E | "Dm"D3- | Dz"C7"C ||
+|| "F"FF>A | cA>G | FE>F | "C7"G3 || GG>B | dB>G | "F"FF>A | c3 ||
+|| "Gm"dd>d | dB>A | GG>B | d3 || "Dm"AFA | "A7"GF>E | "Dm"D3- | Dz2 |]
+
+
+X: 3
+P: Alexandrovsky [Em]
+O: Russia
+R: waltz
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: Em
+B, \
+|| "Em"EE>G | BG>F | E^D>E | "B7"F3 || FF>G | AG>F | "Em"EE>G | B3 ||
+|| "Am"ee>e | ec>B | AA>c | e3 || "Em"BGB | "B7"AG>F | "Em"E3- | Ez"D7"D ||
+|| "G"GG>B | dB>A | GF>G | "D7"A3 || AA>c | ec>A | "G"GG>B | d3 ||
+|| "Am"ee>e | ec>B | AA>c | e3 || "Em"BGB | "B7"AG>F | "Em"E3- | Ez2 |]
+

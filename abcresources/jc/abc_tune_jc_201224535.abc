@@ -1,0 +1,36 @@
+X: 0843
+T: the Spanish Patriots
+%R: reel
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1809, No. 8 p.4 #3
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances8
+N: The 2nd strain's bass line does have the treble clef instead of a bar line.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+(de) !segno!|:\
+f2a2 e2(ag) | f2d2d2 (ef) | g2f2e2d2 | (dc)ec A2(ag) |\
+f2a2 e2(ag) | f2d2d2 (ef) | g2e2d2c2 | d4 d2 H|] (ed) |\
+cded cABc |
+dABc defg | afba geag | fdBe dcAB |\
+cded cABc | dABc defg | afba gfed | cA^GA Bcde !segno!:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 !segno!|:
+d2d'2c'2a2 | d'4[a4f4] | [b4e4] g4 | a4 z4 |\
+d2d'2c'2a2 | d'4[a4f4] | [b2e2]g2a2A2 | d2A2"^Fine"D2 H|]
+z2[K:D clef=treble]\
+A,4 G4 | F2G2F2E2 | D2^D2E2C2 | D2G,2 A,4 |\
+A,4 G4 | F2G2F2E2 | D2^D2E2G,2 | A,4 "^D.C."z4 !segno!:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Half right and left,
+%% back again,
+%% down the middle,
+%% up again and Pousette.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

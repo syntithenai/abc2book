@@ -1,0 +1,33 @@
+X: 4
+T: Cotillon IV.     le Diable Boiteux.
+%R: reel
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #4
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+(FA)(GB) A2F2 | (Ac)(Bd) c2A2 | (cf)eg f2a2 | c'2a2Ta2g2 |\
+(FA)(GB) A2F2 | (Ac)(Bd) c2A2 | (cd)(ef) (gf)(ed) | e2Td2 c4 :|
+|:\
+(c'b)(ag) ^f2g2 | a2d2 g4 | (ba)(gf) e2f2 | g2c2 f4 |\
+(ag)(fe) d2^c2 | (df)(eg) f2e2 | (de)(fg) (ag)(fe) | f2Te2 d4 |
+(FA)(GB) A2F2 | (Ac)(Bd) c2A2 | (cf)(eg) f2a2 | c'2a2Ta2g2 |\
+(FA)(GB) A2F2 | (Ac)(Bd) c2A2 | (df)(eg) (fd)(cB) | A2TG2 F4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+f6 F2 | f6 F2 | f6 F2 | c2C2 C4 | f6 F2 | f6 F2 | f4 d2ef |
+g2G2 c4 :||: z2c'2d'2b2 | c'2d'2 g4 | z2b2c'2a2 | b2c'2 f4 | z2g2a2g2 | f2e2d2A2 | D4 defg |
+a2A2 d4 | f6 F2 | f6 F2 | f6 F2 | c2C2 C4 | f6 F2 | f6 F2 | b2g2a2b2 | c'2c2 f4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round: Each turn his Partner, Ballance, turn each others Partners: Ballance
+%% a Rigadoon Step: Every Gentleman turn his Partner into her Place.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.

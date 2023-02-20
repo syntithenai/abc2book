@@ -1,0 +1,60 @@
+X: 47
+T: le Charmant Vainqueur
+%R: waltz, reel, jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #47
+N: The waltz has 10- and 12-bar strains; the reel has two 8-bar strains; the jig has 8- and 16-bar strains.
+M: 3/4
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+GA |\
+{A}B3ABG | d2g2ab | {g}^f3=ed2 | _e2d2c2 |\
+d2B2f2 | b3ag2 | a2bagf |
+{f}=e2A2d^c |\
+d=e{f}Te3d |[1 d4 :|[2 d3 |: bab |\
+{g}^f3=efd | gagf_ef | d2edcB | c2A2c2 |
+B2d2eg | {g}f3fga | bBd2c2 | B2b2a2 | g2abag |\
+^f3dgf | ga{b}Ta3g |[1 g3 :|[2 d4 |]
+M: C|
+d2 |\
+B2G2 B2c2 | dcBA G2g2 | {g}^f2g2 aga^f | g^fga g2d2 |\
+B2G2 B2c2 | dcBA G2b2 | a2g2 ^fgaf | g6 |]
+de |\
+f2ed e2dc | d2cd B2d2 | cdBc ABGB | AG^F=E D_ede |\
+f2ed e2dc | d2cd B2b2 | B2cA BGA^F | G6 |]
+M: 6/8
+G2d |\
+{c}BAG d2g | {g}^f=ed g2a | bag dcd | {c}B2A G2d |\
+{c}BAG d2g | {g}^f=ed g2a | bag dg^f | g3 |]
+b2=f |\
+dcB F2f | dcB F2f | fed cBA | {c}BAB d2g |\
+edc =B2g | edc =B2g | gfe dc=B | c=Bc edc |
+ded dcB | cdc cBA | BAG d2G | ^F=ED d=e^f |\
+gab aga | bag ^fga | dcB AG^F | G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z2 |\
+G4g2 | f2e2c2 | d4g2 | c2f2F2 | B2b2a2 |
+g2f2=e2 | f2gf=ed | a3gf=e | fga2A2 |[1 d4 :|[2 d3 |: z2z |
+d6 | G4A2 | B2cBAG | F2f2e2 | d2B2e2 | d2d'2c'2 |
+b2f2F2 | B4d2 | e2c2e2 | d2c2BA | Bcd2D2 |[1 G3 :|[2 G4 |]
+M: C|
+z2 |\
+g4 G2A2 | B6 b2 | a2g2 d'2d2 | g4 G4 | g4 G2A2 |
+B6 g2 | c2e2 d2D2 | G6 |] z2 | b4 f4 | B6 b2 |
+"[p.2]"\
+a2g2 ^f2g2 | d4 z4 | b4 f4 | B6 d2 | e2c2 d2D2 | G6 |]
+M: 6/8
+z2z |\
+G3 B2c | d3 B2d | g3 ^f3 | g3- g3 |
+G3 B2c | d3 B2d | g2c d2D | G3 |] z2z | b3 a3 |
+b3 a3 | b3 f3 | B3 =B3 | c3 G3 | c3 G3 |
+c3 g3 | c'3 a3 | b3 g3 | a3 ^f3 | g3 B2c |
+d3 B2A | G3 d3 | g3 d3 | B2c d2D | G3 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400

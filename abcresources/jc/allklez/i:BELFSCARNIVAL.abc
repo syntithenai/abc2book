@@ -1,0 +1,45 @@
+X: 69
+T: Belf's Carnival
+S: printed MS labelled "Belf/London"
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Ddor
+"A"\
+|: "Dm"D3d d2d2 d2d2 d4 \
+| "C7"c3B cdc_B "F"A4- "A7"A4 \
+| "Dm"D3d d2d2 d2d2 d4 \
+| "C7"c3B cdc_B "F"A4- "A7"A4 \
+| "Dm"d3c d_eed dccB c4 |
+| "Gm"G3F G_AAG GFFE F4 \
+| "Dm"EFEF G3F _AGFE F4 \
+| "Dm"FEGE "(Cm)"FD_EC "Dm"D8 \
+| "Dm"EFEF G3F _AGFE F4 \
+| "Dm"FEGE "(Cm)"FD_EC "Dm"D8 :|
+| "D(maj)"D8 D8 \
+| D4 D4 D4 D4 \
+"B"\
+|: "D"d2cB cBA2 cBAG ^F4 \
+| cBBA AGG^F A8 \
+| "D"d2cB cBA2 cBAG ^F4 |
+| cBBA AGG^F F8 :| \
+"C"\
+|: "D"^G2A2 A2A2 B2c2 B3A \
+| ^GABA A=GG^F A8 \
+| "D"^G2A2 A2A2 B2c2 B3A |
+| ^GABA A=GG^F F8 :| \
+"D"\
+|: "C"c2c2- cBdc "G"B6 A2 \
+| "D"^GABA A=GG^F A8 \
+| "C"c2c2- cBdc "G"B6 A2 \
+| "D"^GABA A=GG^F F8 :|
+"E"\
+|: "D"cBAB cBAB cBAG ^F4 \
+| "D"cBBA AGG^F A8 \
+| "D"cBAB cBAB cBAG ^F4 \
+| "D"cBBA AGG^F F8 :|
+"F"\
+|: "Dm"A,2DE FED2 A^GGF FEED \
+| "Dm"A,2DE FED2 E2F2 ^G2A2 \
+| "Dm"A,2DE FED2 A^GGF FEED \
+| "Dm"EF^GA "A7"A,2^C2 "Dm"D8 :|

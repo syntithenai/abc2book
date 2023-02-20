@@ -1,0 +1,21 @@
+X: 1
+T: TRUNKLES
+S: MDT
+O: Headington
+B: Morris Ring
+P: A.(A2B3C3)4.(A2B3D3)2 (full sequence)
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F
+P: A
+Q: 1/2=108
+|: c2A>A B2d2 | c>BA>G A2 F2 | c2A>A B2d2 | c>BA>G F2A>B :|
+P: B
+A>B | c2c2 c2d>e | f>gf>d | c2=B>c | d2G2 G>cd>=B | c2z2 c2 ||
+P: C
+Q: 1/2=108 "1st+2nd times" 1/4=132 "3rd+4th times"
+zc | d2B2 B>cd>B | c2A2 A>Bc>A | B2G2 G>AB>G | A2F2 F2G>A | B>AG>F E>FG>E | F2z2 F2 ||
+P: D
+Q: 1/4=92
+zc | d2B2 B>cd>B | c2A2 A>BcA | B2G2 G>ABG |[M:3/4] A2 F2 FG/>A/ |[M:4/4] B>AG>F E>FG>E | F2z2 F2 ||

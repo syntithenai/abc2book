@@ -1,0 +1,28 @@
+X: 21332
+T: POLKA QUADRILLES. No. 5.--la Finale.
+%R: polka
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.133 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+(fg)A2 (ef)A2 | (de)A2 dcdf |\
+(gb)e2 (eg)c2 | (ce)A2 dcde |\
+(fg)A2 (ef)A2 | (de)A2 dcdf |\
+.b2.a2.g2.f2 | .e2.d2.=c2.B2 |
+=c2(3(cdc) A2e2 | d2d2 b3g |\
+f2f2 =c'3f | g>fg>a b2g2 |\
+=c2(3(cdc) A2e2 | d2d2 b3g |\
+f2f2 e'3f | g2g2g2z2 |]
+f2(3(fgf) a2d2 | Td2^c2 c4 |\
+g2(3(gag) b2^c2 | (e2Td2) d4 |\
+b2(bc') d'2b2 | "cresc."b2 a4 f2 |\
+"cresc"a2 g4 e2 | fefg a2d2 |
+(fg)A2 (ef)A2 | (de)A2 dcdf |\
+(gb)e2 (eg)c2 | (ce)A2 dcde |\
+(fg)A2 (ef)A2 | (de)A2 dcdf |\
+b2a2 gfge | d2z2 d'2z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

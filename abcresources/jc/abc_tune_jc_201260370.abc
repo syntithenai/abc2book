@@ -1,0 +1,22 @@
+X: 1
+T: Carolynn's Waltz
+C: Barbara McOwen 1988
+R: waltz
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: handwritten copy from Barbara McOwen, in from Concord Slow Scottish Session collection
+M: 3/4
+L: 1/8
+K: D
+%%indent 400
+"Intro"[| "D"D6 | "G"B,6 | "D"A,6- | "A7"A,4 |]
+A,2 "A"|:\
+"D"F3ED2 | D6 | F3ED2 | FA3G2 | "D"F3ED2 | "Bm"D4C2 | "G"B,4F2 | "A7"G2A2G2 |
+"D"F3ED2 | D4d2 | "A"c3BA2 | a4g2 | "D"fga4 | "Bm"def4 | "Em"efgfed | "A7"cdcBAG ||
+"D"F3ED2 | D6 | F3ED2 | FA3G2 | "D"F3ED2 | "Bm"D4C2 | "G"B,4F2 | "A7"G2A2G2 |
+"D"F3ED2 | D4d2 | "A"c3BA2 | "A7"a4g2 | "D"fed4 | "G"dcB4 | "A7"ABAGFE | "D"D2F2A2 |]
+"B"[|\
+"D"d4A2 | f3ed2 | "G"BG3Bd | "A"A4A2 | "A"e4A2 | "D"f4A2 | "Em"g3gfg | "A"a6 |
+"G"bag3f | "A"eAfAgA | "D"agf3e | "Bm"dAeAfA | "G"gag2A2 | "D"fgf2A2 | "A"efedcB | "A7"A2B2c2 ||
+"D"d4A2 | f3ed2 | "G"BG3Bd | "A"A4A2 | "A"e4A2 | "D"f4A2 | "Em"g3gfg | "A"a6 |
+"G"bag3f | "A"eAfAgA | "D"agf3e | "Bm"dAeAfA [|1 "A"gfe4 | "D"fed3c | "G"BAGFED | "A7"CA,DA,"->A"EA, :|
+[|2 "G"gfedc2 | "Em"edcBA2 | "A7"cBAGFE | "D"HD4 |] y6 y6 y6 y6 y6 y6 y6 y6

@@ -1,0 +1,29 @@
+X:1
+T: The Real Princess
+N:
+C:
+S:Play  4  times
+A:
+O:
+R:
+M:6/8
+K:D
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 40 notes)
+K:D
+M:6/8
+L:1/16
+A2 |B2 A2 F2 A4 A2 B2 A2 F2 A4 A2 d2 e2 f2 a2 f2 d2 e6e4 A2 |B2 A2 F2 A4 A2 d2 e2 f2 a2 f2 a2 b2 a2 f2 a2 f2 e2 d6d4 A2 |
+%W: A2
+% voice 1 (1 lines, 39 notes)
+B2 A2 F2 A4 A2 B2 A2 F2 A4 A2 d2 e2 f2 a2 f2 d2 e6e4 A2 |B2 A2 F2 A4 A2 d2 e2 f2 a2 f2 a2 b2 a2 f2 a2 f2 e2 d6d4 a2 |
+%W: B1
+% voice 1 (1 lines, 41 notes)
+b2 a2 f2 a2 f2 d2 e2 d2 B2 A4 a2 b2 a2 f2 a2 f2 d2 e6e4 a2 |b2 a2 f2 a2 f2 d2 e2 d2 B2 A2 F2 A2 B2 d2 e2 f2 A2 e2 d6d4 a2 |
+%W: B2
+% voice 1 (1 lines, 41 notes)
+b2 a2 f2 a2 f2 d2 e2 d2 B2 A4 a2 b2 a2 f2 a2 f2 d2 e6e4 a2 |b2 a2 f2 a2 f2 d2 e2 d2 B2 A2 F2 A2 B2 d2 e2 f2 A2 e2 d6d4 a2 |
+%W: C
+% voice 1 (1 lines, 41 notes)
+b2 a2 f2 a2 f2 d2 e2 d2 B2 A4 a2 b2 a2 f2 a2 f2 d2 a6 a2 b2 c'2 |d'2 c'2 b2 a2 f2 d2 e2 d2 B2 A2 F2 A2 B2 d2 e2 f2 A2 e2 d6d4 ||

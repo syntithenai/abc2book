@@ -1,0 +1,27 @@
+X: 2
+T: Fanny's Love
+%R: strathspey, shottish
+B: Name "Kauntze's Collection of the most favorite Dances, Reels, Waltzes, &c."
+F: http://imslp.org/wiki/Kauntze%27s_Collection_of_Dances,_Reels,_Waltzes_etc._%28Various%29
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+b |\
+a<ffe d>edA | B<dA>d Bd A>b |\
+a<ffe d>edf | e<aa>^g a3 :|
+|: a |\
+(b>g)(g>e) (f>g)(a>f) | (g>e)(e>c) (d>e)(fA) |\
+B<dA>d B<d A>b | a<ff>e d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+[d2d'2][d2a2] [d2f2][d2f2] | gdfd gdfd |
+[d2d'2][d2a2] [d2f2][d2a2] | [e2c'2][e2b2] [a3c'3] :||: z | d2a2 [d2f2]d2 |
+[A2c2][c2e2] [d2f2][d2f2] | gdfd gdfd | a2A2 d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Set, change sides, down the middle, up again, Right Left.
+%%endtext

@@ -1,0 +1,50 @@
+X: 0921
+T: the Happy Return
+%R: waltz
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1809, No. 9 p.2 #1
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances9
+N: Double bars introduced between 8-bar phrases, to make the phrasing clearer.
+N: It's not clear whether the large ">" symbols are stress or diminuendo symbols.
+M: 3/8
+L: 1/8
+K: Bb
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+[|\
+FBd | FBd | Fdf | "_>"f2d |\
+.e(ec) | .d(dB) | .c(c/d/c/B/) | AGF ||\
+.F(F/B/d) | .F(F/B/d) | Fdf | "_>"f2d |
+.e(ec) | .d(dB) | .c(d/c/B/A/) | B3 |]|\
+cAF | {G}F=EF | dBF | {G}F=EF |\
+(ec).F | (dB).F | .c(c/d/c/B/) | (AG).F ||
+"^8va  _  _  _"(cA).F |{G}F=EF | dBF | {G}F=EF |\
+e2F | d2F | (d=Bc) | (ecA) |[|\
+!p!FBd | FBd | Fdf | "_>"f2d |
+.e(ec) | .d(dB) | .c(c/d/c/B/) | AGF ||\
+.F(F/B/d) | .F(F/B/d) | Fdf | "_>"f2d |\
+.e(ec) | .d(dB) | .c(d/c/B/A/) | B3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=D
+[|\
+[F3D3B,3] | [F3D3B,3] | [F3-D3-B,3-] | [F2D2B,2]z |\
+[F3A,3] | [F3B,3] | [G3E3] | F3 ||\
+[F3D3B,3] | [F3D3B,3] | "_dim..."[F3-D3-B,3-] | [F2D2B,2]z |\
+[F3A,3] | [F3B,3] |
+([E3F,3] | [D2B,2])z |]|\
+(F3 | A3 | B3 | d3) | (A3 | B3 | [G3E3] | F3) ||\
+FAc | FAc | FBd | FBd | Acf | Bdf | EGc |
+Fce |[| "^Harp solo"\
+Bdf | Bdf | Bdf | Bdf | Acf | Bdf | EGc | Fce ||\
+Bdf | Bdf | Bdf | Bdf | Acf | Bdf | Fc(e | [d3B3]) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Half right and left, back again,
+%% down the middle, up again,
+%% and swing corners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

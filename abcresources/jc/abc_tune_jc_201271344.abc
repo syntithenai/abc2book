@@ -1,0 +1,41 @@
+X:1
+T:Duntroon
+M:C
+L:1/8
+Q:80
+C:Trad.
+S:Reel
+K:HP
+[| a | \
+{ef}e2{g}c/2e3/2{gfg}f2{g}d/2f3/2 | \
+{gef}e2{g}c/2e3/2{g}A/2{d}A3/2{gcd}c2 | \
+{gef}e2{g}c/2e3/2{gfg}f2{g}c/2e3/2 |
+{Gdc}d2{e}G/2d3/2{g}B/2{d}G3/2{gBd}B2 | \
+{gef}e2{g}c/2e3/2{gfg}f2{g}d/2f3/2 | \
+{g}f3/2e/2{g}c/2e3/2{g}A/2{d}A3/2{gcd}c2 |
+{Gdc}d3/2e/2{g}f3/2d/2{g}c2{GdG}e3/2c/2 | \
+{g}B3/2c/2{gde}d3/2B/2{g}G/2{d}G3/2{gBd}B2|] [ | \
+{gef}e3/2A/2{gef}e3/2c/2{g}A3/2B/2{GdG}c3/2d/2 |
+{g}e3/2f/2{gef}e3/2c/2{g}A/2{d}A3/2{gcd}c2 | \
+{gef}e3/2A/2{gef}e3/2c/2{g}A3/2B/2{g}c3/2{d}A/2 | \
+{g}B3/2c/2{gde}d3/2B/2{g}G/2{d}G3/2{gBd}B2 |
+{gef}e3/2A/2{gef}e3/2c/2{g}A3/2B/2{GdG}c3/2d/2 | \
+{g}e/2a3/2e3/2c/2{g}A/2{d}A3/2{gcd}c2 | \
+{Gdc}d3/2e/2{g}f3/2d/2{g}c2{GdG}e3/2c/2 |
+{g}B3/2c/2{gde}d3/2B/2{g}G/2{d}G3/2{gBd}B2|] [ | \
+{g}A/2{d}A3/2{g}c/2{d}A3/2{g}c/2{d}A3/2{g}c/2{d}A3/2 | \
+{g}A/2{d}A3/2{g}c/2{d}A3/2{g}c/2{d}A3/2{gcd}c2 |
+{g}A/2{d}A3/2{g}c/2{d}A3/2{g}c/2{d}A3/2{g}c/2A3/2 | \
+{g}B/2{d}G3/2{g}G/2{d}G3/2{g}B/2{d}G3/2{gBd}B2 | \
+{g}A/2{d}A3/2{g}c/2{d}A3/2{g}c/2{d}A3/2{g}c/2{d}A3/2 |
+{g}A/2{d}A3/2{d}c/2e3/2{gef}e3/2A/2{gcd}c2 | \
+{Gdc}d3/2e/2{g}f3/2d/2{g}c2{GdG}e3/2c/2 | \
+{g}B3/2c/2{gde}d3/2B/2{g}G/2{d}G3/2{gBd}B2|] [ |
+{g}e/2a3/2g/2a3/2e3/2A/2{g}c/2{d}A3/2 | \
+{g}e/2a3/2g/2a3/2e3/2A/2{gcd}c2 | \
+{g}e/2a3/2g/2a3/2e3/2A/2{g}c/2{d}A3/2 |
+{g}B/2{d}G3/2{g}G/2{d}G3/2{g}B/2{d}G3/2{gBd}B2 | \
+{g}e/2a3/2g/2a3/2e3/2A/2{g}c/2{d}A3/2 | \
+{a}e/2a3/2g3/2f/2{gef}e3/2A/2{gcd}c2 |
+{Gdc}d3/2e/2{g}f3/2d/2{g}c2{GdG}e3/2c/2 | \
+{g}B3/2c/2{gde}d3/2B/2{g}G/2{d}G3/2{gBd}B2|]

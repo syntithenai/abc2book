@@ -1,0 +1,18 @@
+X:209
+T:Dunant House Waltz
+C:Roger Davidson, 1991.  Play 3 x AABA.
+L:1/8
+M:3/4
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=120
+K:G
+P:A
+|: "G"D2G3A | "G"B3/G/D4 | "G"G3/B/e2d3/B/ | "G"d6 |\
+"C"g2g3f | "G"e3/d/B2G3/B/ |1 "Em"e3/d/B2 A3/G/ | "Am"A4- "D7"A2 :|2 "Em"e3/d/B2 "D7"A3/G/ | "G"G4 "G7"B3/d/ |
+P:B
+"C"e3/f/g2f3/e/ | "G"d3/B/d4 | "C"e3/f/a2g3/e/ | "G"d3/B/d3G |\
+"C"c3/d/ "D7"e3/f/g3/a/ | "G"g3/e/d2 "B7"B3/A/ | "Em"G3/F/E3/G/ "A7"B3/G/ | "D"A4B,3/C/ |
+P:A3
+"G"D2G3A | "G"B3/G/D4 | "G"G3/B/e2d3/B/ | "G"d6 |\
+"C"g2g3f | "G"e3/d/B2G3/B/ | "Em"e3/d/B2 "D7"A3/G/ | "G"G6 |]

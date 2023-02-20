@@ -1,0 +1,26 @@
+X:1
+T: One more dance and then
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W:          A1
+% voice 1 (1 lines, 31 notes)
+K:G
+M:4/4
+L:1/16
+B2 |d4 e4 d4 B4 |g8 B4 c4 |d6 e2 d4 B4 |c4 A8 B2 c2 |d6 e2 d4 B4 |g4 f4 e4 d4 |e4 d4 c4 B4 |A12 B2 c2 |
+%W:         A2
+% voice 1 (1 lines, 30 notes)
+d4 e4 d4 B4 |g8 B4 c4 |d6 e2 d4 B4 |c4 A8 B2 c2 |d6 e2 d4 B4 |g4 f4 e4 d4 |e4 d4 c4 B4 |A12 A2 B2 |
+%W:         B1
+% voice 1 (1 lines, 31 notes)
+c4 A4 f4 c4 |a4 c4 B4 A4 |B4 G4 d4 B4 |g4 B4 A4 G4 |a4 g4 f4 e4 |d4 c4 B4 A4 |G4 c4 B4 A4 |G12 A2 B2 |
+%W:         B2
+% voice 1 (1 lines, 30 notes)
+c4 A4 f4 c4 |a4 c4 B4 A4 |B4 G4 d4 B4 |g4 B4 A4 G4 |a4 g4 f4 e4 |d4 c4 B4 A4 |G4 c4 B4 A4 |G12G2 ||

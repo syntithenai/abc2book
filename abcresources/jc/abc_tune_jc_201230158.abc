@@ -1,0 +1,27 @@
+X: 1332
+T: ALEXIS WALTZ
+O: Arranged by J. H. Seipp
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.133 #2
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+%
+V: 1
+!p!(b>c') |\
+(b2 a2) (a>b) | (a2 g2) (g>a) | (g2 f).d.e.f | (a2 g2) (b>c') |\
+(ba)(.a~.a)(ba) | (ag).g~.g(ag) | (gf).f.d.e.f | g2 z2 :|\
+|: !f!(A>G) | (F2 A2) d>f |
+(ba) f3 d | (^cd)(ba).g.e | d2 z2 (b>c') |\
+(b2 a2) (a>b) | (a2 g2) (g>a) | (g2 f).d.e.f | (a2 g2) (b>c') |\
+(ba).a~a(ba) | (ag)g~g(ag) | (gf).f.d.e.f | g2z2 H:|
+%
+V: 2
+!p!(d>e) |\
+(d2c2) (c>d) | (c2 B2) (B>c) | (B2 A).F.G.A | (c2 B2) (d>e) |\
+(dc).c~.c(dc) | (cB).B~.B(cB) | (BA).A.F.G.A | B2 z2 :|\
+|: !f!(F>E) | DAFAFA |
+(GF) DFAF | A2 GFEG | F2 z2 (d>e) |\
+(d2c2) (c>d) | (c2 B2) (B>c) | (B2 A).F.G.A | (c2 B2) (d>e) |\
+(dc).c~.c(dc) | (cB)B~B(cB) | (BA).A.F.G.A | B2 z2 H:|

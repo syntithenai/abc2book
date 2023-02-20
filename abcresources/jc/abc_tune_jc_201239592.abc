@@ -1,0 +1,28 @@
+X: 3323
+T: Murphy Delaney.   a Jig.
+O: Irish
+%R: jig
+N: This is version 2, for ABC software that understands trailing ornaments.
+B: Niel Gow & Sons "Complete Repository" v.3 p.32 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+TB3 {AB}TB3 {AB}| BAB def | TB3 {AB}TB3 {AB}| GcB AGF |\
+TB3 {AB}TB3 {AB}| BAB def | Tg>ab fed | cdB cAF :|
+|:\
+Td>ef fgf | fgf fed | ~e>fg gag | gag gfe |\
+~d>ef fgf | fgf fga | bag fed | cdB cAF :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+[b3B3] B3 | B3 B3 | B3 B3 | e3 e3 |\
+d3 B3 | B3 d3 | e3 d3 | f3 F3 :|
+|:\
+B3 b3 | b3 _a3 | g3 e3 | e3 e3 |\
+d3 B3 | B3 B3 | B3 b3 | f3 F3 :|

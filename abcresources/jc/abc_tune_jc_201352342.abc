@@ -1,0 +1,30 @@
+X: 1
+T: the White Widow
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (76)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+N: The actual time signature is just "2".
+N: Fixed wrong length of last note, which was a whole note (d8).
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2 |\
+agfg a2d2 | edcB c2A2 | fedf e2c2 | d6 :|
+|: ga |\
+b4 gagf | e2e2 e2fg | a2b2 a4 | dedc B2B2 |\
+gfed fedc | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% First Cu. cast off, then the 2d Cu. cast off immediately,
+%% and all four lead up .| The 1st Cu. being the outer most
+%% Persons, slip in behind the 2d Cu. the 2d Cu. slipping
+%% out before, one after the other, then the 1st Cu. lead up
+%% and the 2d Cu. cast down into their own Places at the
+%% same Time :| The 1st Cu. set and turn single then lead
+%% thro and turn single .| The same back again, cast off and
+%% turn Partners :|
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,21 @@
+X: 3081
+T: STRATHSPEY COMPOSED BY PETER BAILIE
+C: Peter Bailie
+Q:"Strathspey."
+R: Strathspey.
+%R:strathspey
+B: James Kerr "Merry Melodies" v.3 p.11 #81
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+%%slurgraces yes
+%%graceslurs yes
+M: C
+L: 1/8
+K: A
+|:\
+{g}va>ve (e<a) ~f2(d>f) | ve>vc (d/c/B/A/) (G>B)B2 |\
+{g}a>e (e>a) ~f2(d>f) |[1 ve>vc (d/c/B/A/) (E<A)A2 :|\
+[2 ve>vc (d/c/B/A/) E<A A>c :|\
+(3AcA F>A E2(C>F) | vE>vA (d/c/B/A/) (G<B) (B>c) |
+(3AcA F>A E2C>f | ve>vc (d/c/B/A/) (E<A) A>c |\
+(3AcA F>A E2C>F | E>A (d/c/B/A/) (G<B) (B>d) |\
+(3cde (3cde (3def (3def | (3edc (3BAG (3Acd (3efg |]

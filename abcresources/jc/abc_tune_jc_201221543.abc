@@ -1,0 +1,68 @@
+X: 0
+T: The New Scotland Strathspey
+T: 4x40S4
+R: strathspey
+K:
+%
+P: The New Scotland Strathspey
+C: Calum Bolton
+R: strathspey
+B: RSCDS __-__
+N: Also in Bb
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+   A>B \
+| "A"c>B A>B c>A a>A | g>A e>A c>A c<e \
+| "E7"B>A G>A B>G g>G | f>G d>G B>G B<d |
+| "A"c>B A>B c>A a>A | g>A e>A c>A c<e \
+| "E7"B>A G>A B>G B<d | "A"c<e "E7"A>B "A"A2 :|
+|: c>d \
+| "A"e2 c>e A>e c<e | c>A a>A g>A eB/c/ \
+| "E7"d2 B>d G>d B<d | B>G g>G f>G dc/d/ |
+| "A"e2 c>e A>e c<e | (3cBA a>A g>A eB/c/ \
+| "E7"d>B G>B d>G B<d | "A"c<e "E7"A>B "A"A2 :|
+   e2 \
+| "A"(3cBA e>A c<A e>A | a2 g>a e>a c<a \
+| "E7"(3BAG d>G B>G d>G | g2 f>g d>g B<g |
+| "A"(3cBA e>A c<A e>A | a2 g>a e>a c<a \
+| "E7"d>B G>B d>G B<d | "A"c<e "E7"A>B "A"A2 |]
+%
+P: Jenny's Bawbee  2xAABB+AB
+R: strathspey
+B: RSCDS 5-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+|: f2 \
+| "D"a3b a3g fd3 d3f | "Em"g3B e3d "A7"cA3 A3f \
+| "D"a3b a3g fd3 d3f | "G"BB3 "A7"c3A "D"[d6F6] :|
+|: de \
+| "D"f3d "A7"g3e "D"fd3 d2ef | "Em"g3B e3d "A7"cA3 A2de \
+| "D"f3d "A7"g3e "D"fd3 fa3 | "G"BB3 "A7"c3A "D"[d6F6] :|
+
+X: 3
+P: Brochan Lom (Orange and Blue) ABABB
+O: Trad
+Z: John Chambers <jc:trillian.mit.edu>
+N: called a schottische in Skinner SV p.20 (with variations),
+N: Hunter  354
+N: jig or strathspey in Skye p.121
+N: second Kennedy tune-book
+N: p.19, BSFC I-23, keep under O&B name alphabetically
+M: 4/4
+L: 1/8
+K: G
+d>c "A"\
+| "G"B-<G ~G2 D-<G ~G2 | B>G d>B G2 AB \
+| "Am"c-<A ~A2 E-<A ~A2 | "D7"F>D A>F D2 d>c |
+| "G"B-<G ~G2 D-<G ~G2 | B>G d>B G2 (3Bcd \
+| "C"e>c "G/B"d>B "Am"c>A "G"B>G | "D7"A>F (3DEF "G"G2 |]
+d>c "B"\
+| "G"B-<d d2 "/F#"B-<d d2 | "Em"B>G d>B "/D"G2 A>B \
+| "Am"c-<e e2 "/G"c-<e e2 | "D/F#"c>A e>c "/E"A2 B>c |
+| "G"B-<d d2 "/F#"B-<d d2 | "Em"B>G d>B "/D"G2 (3Bcd \
+| "C"e>c "G/B"d>B "Am"c>A "G"B>G | "D7"A>F (3DEF "G"G2 |]
+

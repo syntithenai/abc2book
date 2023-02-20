@@ -1,0 +1,19 @@
+X: 1241
+T: the Dutches of Gordon's Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.24 #1 (top 2 staffs continued from p.23)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+% - - - - - - - - - -
+V: 1 staves=2
+A |\
+G/G/G d2 Td>cAg | G/G/G TG2 A>GFA | G/G/G d2 Td>cdg | f<dc>A G2-G :| ^f | g>aba gd-d>=e f>gfc AFF^f |
+g>aba gddg | f<dTc>A {A}G2 G^f || g>aba gd-d>=e | f>gfc A>GF^f | gaba gfag | f<dTc>A {A}G2-G |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+g2g2 g2g2 | g2g2 f2f2 | g2g2 g2g2 | d2d2 G2G :| z | g2g2 g2g2 | f2f2 f2f2 |
+g2g2 g2g2 | d2d2 G2G2 || g2g2 g2g2 | f2f2 f2f2 | g2g2 g2g2 | d2d2 G2G |]

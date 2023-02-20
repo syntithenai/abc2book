@@ -1,0 +1,20 @@
+X: 3143
+T: Here's a Health to them that's awa'
+%R: air, waltz
+B: Niel Gow & Sons "Complete Repository" v.3 p.14 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/8
+Q: "Slow with expre.n"
+K: D
+% - - - - - - - - - -
+V: 1 staves=2 clef=treble
+z |\
+[f2A2][eG] | [d2F2]A | TB>AF | A3 | [f2A2][eG] | [d2F2]A | (Bg).f | {f}e3 || [f2A2][eG] | [d2F2]A | TB>cd |
+{d}cBA | {c}Hd2 !p![A/E]G/ | F>DF | (EC).E | [D3F,3] | F<A :: !f!D | A2A/A/ | TB>AF | A3- | A2D/D/ | A2A/A/ | !p!(Bg).f |
+(f3 | e2)D/D/ || !f!A2A/A/ | (Bc).d | {d}c>BA | {c}Hd2 !p![A/E]G/ | F>DF | (EC)E | [D3F,3] | F<A :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | dd'a | b2f | [gd3]fd | (df).a | dd'a | b2f | gcd | (Ac).e || dd'a | b2f | g3 |
+a2=f | Hf2 !p!c | d3 | A3 | (DF)A | d2 :: !f!z | [d2D2]f | (gf)d | (df).a | d3 | (fd)f | !p!gcd |
+A(ce | a2)z || !f![d2D2]f | g3 | a2=g | Hf2 !p!c | d3 | A3 | (DF).A | d2 :|

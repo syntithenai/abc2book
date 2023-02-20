@@ -1,0 +1,28 @@
+X: 21343
+T: IRISH SETT (tune 3)
+N: A version of "My Love is But a Lassie Yet"
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.134 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+dc |\
+d2D2F2A2 | d2D2D2 dc | d2D2F2A2 | e2E2E2 dc |\
+d2D2F2A2 | d2g2f2e2 | dcBA B2c2 | d2D2D2 H|]
+fg |\
+a2f2g2e2 |f2d2d2 fg | a2f2g2f2 | e2E2E2 fg | a2f2g2e2 | f2d2e3c | dcBA B2c2 | d2D2"^D.C."D2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% swing between side couples,
+%% forward six,
+%% swing to place with partners,
+%% balance four,
+%% next two, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

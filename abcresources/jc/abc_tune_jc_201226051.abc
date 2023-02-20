@@ -1,0 +1,21 @@
+X: 10089
+T: RICHARD'S JIG
+C: Bob McQuillen 17 June 93
+B: Bob's Note Book 10 #89
+%R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D	% and Bm
+A3 \
+| d2A FGA | B2d A2d | cde dfa | gfg ecA |\
+| d2A FGA | B2d AdB | Agf edc | d3 :|
+|: cdc \
+| B2d cde | d2f e2g | fdB Bdf | ecA Adc |\
+| B2d cBA | Bdf e2g | fdB ABc | B3 :|
+%%begintext align
+%% Richard Blood lives up in
+%% Concord NH and he's a real fan - He loves the
+%% dances and misses very few of them. - "Thanks
+%% for your continued patronage", Richard!
+%%endtext

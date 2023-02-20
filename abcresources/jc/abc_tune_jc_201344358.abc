@@ -1,0 +1,16 @@
+X: 238
+T: Thou of the Beautiful Hair   #2
+R: air, march
+%S: s:2 b:10(6+4)
+B: O'Neill's 1850 #238
+O: by J.O'Neill
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+Q: "Moderate"
+M: C
+L: 1/8
+K: G
+"^A"[|] d>c | .B2.B2 (B>AG)B | .d2.d2 (=f>ed)^f |1 (g2B2) (B>AG)B | (c4 d2) :|2 e>d BG A3G | G4 HG2 |]
+"^B"||  (de) | =f2d2 f2d>e | =f>e ((3dBA) B2(de) | =f2 ((3edB) (g2B2) | ~c4 {de}"^->A2"d2 |]

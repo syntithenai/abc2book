@@ -1,0 +1,28 @@
+X: 201
+T: Miss Brown's Fancy
+O: Sergt. Jas. O'Neill. Mss.
+R: slip-jig
+%S: s:3 b:12(4+4+4)
+B: Francis O'Neill: "Waifs and Strays" ed.2 p.111 #201 (ed.1 #184)
+Z: 2000 Paul Kinder <Ptk12142@aol.com>
+Z: 2022 John Chambers <jc:trillian.mit.edu> (bass)
+M: 9/8
+L: 1/8
+S: hathitrust.org 
+K: Dmix
+% = = = = = = = = = =
+V: 1 staves=2
+|:\
+D2A A2G ABc | D2A BGE G2E | D2A A2G ABc | BAG AGE G2E :|
+c2d ecA A2c | B2c dBG G2B | c2d ecA ABc | BAG AGE G2E ||
+c2d ecA A2c | B2c dBG G2B | c2d e2f g2e | dBG AGE G2E |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+[d3D3] [a3f3d3] [a3f3d3] | [d3D3] [b3g3e3] [b2g2e2]z |\
+[d3D3] [a3f3d3] [a3f3d3] | [e3E3] [b3g3e3] [b2g2e2]z :|\
+[a3A3] [c'3a3e3] [c'2a2e2]z | [g3G3] [b3g3d3] [b2g2d2]z |
+[a3A3] [c'3a3e3] [c'2a2e2]z | [e3E3] [b3g3e3] [b2g2e2]z ||\
+[a3A3] [c'3a3e3] [c'2a2e2]z | [g3G3] [d'3b3g3] [d'2b2g2]z |\
+c3 [c'3g3e3] [c'3g3e3] | [g3G3] [b3g3e3] [b2g2e2]z |]

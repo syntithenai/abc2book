@@ -1,0 +1,24 @@
+X: 20291
+T: HAMBURG WALTZ
+C:
+%R: waltz
+B: Elias Howe "The Musician's Companion" 1843 p.29 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The grace notes in bar 11 appear to have dots below the note heads, whatever that means.
+N: The 2nd and 4th strains have no repeat signs, but have 1st and 2nd endings; repeats added to match.
+N: Bar 21 is repeated, which makes little musical sense, so I left out the 2nd copy. Repeat it if you like.
+M: 3/8
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+F3(GAB) | (Ac)(ac)(ac) | (GB)(gB)(gB) | (Ac)(fc)(fc) |\
+F3(GAB) | (Ac)(ac)(ac) | (GB)(gB)(gB) | {A}f4 z2 :|
+|:\
+(DF)(BF)(dF) | (DF)(BF)(dF) | {d}e2{d}e2{d}e2 | c3(AGF) |\
+(DF)(BF)(dF) | (DF)(BF)(dF) | {d}e2{d}e2 (cA) |[1 B6 :|[2 B4 |]
+|: (ag) |\
+(fg)(fg)(ab) | f4(df) | {f}e2e2 (cA) | (Bd)F2 (ag) |\
+(fg)(fg)(ab) | f4(df) | {f}e2e2 (cA) |[1 B4 :|[2 B3(AB"^D.C."G) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

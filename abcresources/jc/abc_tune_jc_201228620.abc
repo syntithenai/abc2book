@@ -1,0 +1,113 @@
+X: 11421
+T: KING OF PRUSSIA'S MARCH
+O: Arranged by A.F.Knight
+%R: march
+%N: This is version 2, for ABC software that understands diminuendo annotations.
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.142-144
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+N: Note the "Base Trombone" instrument name.
+M: C|
+L: 1/8
+K: Eb
+% %indent 55
+% %continueall
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 sname="EbBgl" name="Eb Bugle"
+K: C
+!p!E>F |\
+G2G>G G2A>B | c2c>c c2G2 | .A2.c2 .G2.c2 | F2F2 E2G2 |\
+.A(cBc) .G(cBc) | F2F>F E2c2 | BGcG dGeG | f4- fagf |\
+e2g>c edcB | c2c>c c2 :|
+|: z2 |\
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+.A(cBc) .G(cBc) | F2F2 E2G2 | .A(cBc) .G(cBc) | F2F2 E2c2 |\
+.B.G.c.G .d.G.e.G | Qf4- qfagf | e2g>c (ed).c.B | c2c>c c2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 sname="BbBgl" name="Bb Bugle"
+K: F
+!p!z2 |\
+F2A>A A2z2 | F2A>A A2z2 | B2z2 c2z2 | B2B2 A2z2 |\
+d2z2 c2z2 | B2B2 A2z2 | e2f2 g2f2 | g4- gbag | f2c>f cz Bz | A2A>A A2 :|
+|: !mf!f>g |\
+a2a>a a2gf | g2a>b c'2d>e | f2f>f f2ed | e2f>g a2c2 |\
+d2d>d (df)(ef) | c2c>c (cf)(ef) | B2B>B (BdcB) | A2A>A A2c2 |
+.d(fef) .c(fef) | B2B2 A2c2 | .d(fef) .c(fef) | B2B2 A2f2 |
+.e2.f2 .g2.a2 | Qb4- qbd'c'b | a2c'>f (ag).f.e | f2f>f f2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 sname="BbPHn" name="Bb Post Horn"
+K: F
+!p!A>B |\
+c2c>c c2d>e | f2f>f f2c2 | d2f2 c2f2 | B2B2 A2c2 |\
+dfef cfef | B2B>B A2f2 | e2f2 g2a2 | b4- bd'c'b |\
+a2c'>f agfe | f2f>f f2 :|
+|: !mf!z2 |\
+c2c>c c2BA | e2f>g e2z2 | A2A>A A2GF | ^c2d>e c2z2 |\
+F2F>F F2z2 | F2F>F F2z2 | C2C>C C2C2 | F2F>F F2z2 |
+B2z2 A2z2 | G2G2 F2z2 | B2z2 A2z2 | G2G2 F2c2 |\
+.c2.c2 .e2.f2 | g4- gbag | f2f>d (cB).A.G | A2A>A A2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 4 sname="BbCrn" name="Bb Cornopean"
+K: F
+!p!F>G |\
+A2A>A A2B>G | A2A>A A2z2 | B2z2 A2z2 | G2G2 F2z2 |\
+B2z2 A2z2 | G2G>G F2c2 | c2c2 e2f2 | g4- gbag |\
+f2f>d cBAG | A2c>c A2 :|
+|: !mf!z2 |\
+a2a>a a2z2 | e2f>g e'2z2 | f2f>f f2z2 | e2f>g a2z2 |\
+d2d>d d2z2 | c2c>c c2z2 | B2B>B B2z2 | A2A>A A2z2 |
+d2z2 c2z2 | B2B2 A2z2 | d2z2 c2z2 | B2B2 A2f2 |\
+.e2.f2 .g2.f2 | g4- gbag | f2c>f (cB).f.e | f2A>A A2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 5 sname="TTbn" name="Tenor Trombone" clef=bass middle=D
+K: Eb
+!p!z2 |\
+e2e>e e2z2 | B2B>B B2z2 | c2z2 B2z2 | B2B2 e2z2 |\
+e2z2 e2z2 | f2f2 e2z2 | d2e2 f2e2 | d2B2 c2d2 |\
+e2z2 d2d2 | e2e2 e2 :|
+|: !mf!z2 |\
+B2B>B B2z2 | B2B2 B2z2 | c2c>c c2z2 | G2G2 G2z2 |\
+c2c2 c2z2 | B2B2 B2z2 | A2A2 A2z2 | G2G2 G2z2 |
+e2z2 e2z2 | d2d2 e2z2 | e2z2 e2z2 | d2d2 e2z2 |\
+dz ez fz gz | d2B2 c2d2 | e2G>A B2d2 | e2e>e e2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 6 sname="BTbn" name="Base Trombone" clef=bass middle=d
+K: Eb
+!p!z2 |\
+e2e>e e2z2 | e2e>e e2z2 | e2z2 e2z2 | B2B2 e2z2 |\
+e2z2 e2z2 | B2B2 e2z2 | a2g2 f2e2 | d2B2 c2d2 |\
+e2z2 b2b2 | e2e>e e2 :|
+|: !mf!z2 |\
+e2e>e e2e2 | B2b2 b2z2 | c2c>c c2c2 | G2g2 g2z2 |\
+a2a>a a2z2 | g2g>g g2z2 | f2f>f f2z2 | e2e>e e2z2 |
+e2z2 e2z2 | B2B2 e2z2 | e2z2 e2z2 | B2B2 e2g2 |\
+.a2.g2 .f2.e2 | d2B2 c2d2 | e2g>a b2b2 | e2e>e e2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 7 sname="Oph1" name="1st Ophecleide" clef=bass middle=d
+% V: 7 clef=bass middle=d
+K: Eb
+!p!z2 |\
+c>e'b>g e2z2 | e>eg>b e'2z2 | .c'2.e'2 .b2.e'2 | a2a2 g2z2 |\
+z(e'd'e') z(e'd'e') | a2a2 g2z2 | a2g2 f2e2 | a4- ac'ba |\
+g2z2 b2b2 | g2g>g g2 :|
+|: !mf!z2 |\
+e'2e'>e' e'2z2 | b2b2 b2z2 | c'2c'>c' c'2c'2 | g2G2 G2z2 |\
+A2a>a a2z2 | G2g>g g2z2 | F2f>f f2z2 | E2e>e e2z2 |
+a2z2 g2z2 | f2b2 g2z2 | a2z2 g2z2 | b2b2 e2g2 |\
+.a2.g2 .f2.e2 | a4- ac'ba | g2g>a b2b2 | g2g>g g2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 8 sname="Oph2" name="2d Ophecleide" clef=bass middle=d
+V: 8 clef=bass middle=d
+K: Eb
+!p!z2 |\
+E2E>E E2z2 | E2E>E E2z2 | E2z2 e2z2 | b2B2 E2z2 |\
+E2z2 E2z2 | B2B2 E2z2 | A2G2 F2E2 | D2B,2 C2D2 |\
+E2z2 B2B2 | E2E2 E2 :|
+!mf!z2 |\
+E2E>E E2z2 | B2B2 B2z2 | c2c>c c2z2 | G2G2 G2z2 |\
+A2A>A A2z2 | G2G>G G2z2 | F2F>F F2z2 | E2E>E E2z2 |
+E2z2 e2z2 | B2B2 E2z2 | E2z2 e2z2 | B2B2 E2G2 |\
+.A2.G2 .F2.E2 | D2B,2 C2D2 | E2z2 B2B,2 | E2E>E E2 H:|
+% % - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,30 @@
+X: 53
+T: the Maid of Sutherland
+T: Nighean donn a buain nan dearcag
+C:
+O:
+R: air, strathspey
+B: Version from the Concord Slow Scottish Jam session binder 2.
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "Moderately Slow."
+K: Gm
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+BG3 TG4 F2(GB) Tc4 | BG3G3b g3f{e}d3c |\
+B3AG2B2 F2(GB) Tc4 | BG3"#"~G3A B3cdg3 :|
+{d}f3dg3d f3c Td4 | {d}f3d {d}b4 g3f{e}d3B |\
+c3dfb3 g3f{e}Hd3c | BG3"#"~G3A ~B3cdg3 |
+{d}f3dg3d f3c Td4 | {d}f3d {d}b4 g3f{e}d3B |\
+c3dfb3 Tg3f Hd2 (b/a/g/^f/) | g3G"#"~G3A B3cdg3 |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+!p!G4 g4 a2g2 f4 | g4 e4 e4 f4 |\
+!p!g4 e4 d2e2 f4 | "^cres."g6 ^f2 g4 G4 :|
+!p!B4 b4 f4 b4 | B4 b4 e4 b4 |\
+a2b2 d4 e4 Hf4 | g6 ^f2 g4 G4 |
+!p!B4 b4 f4 b4 | "^cres."B4 b4 e2d2 B4 |\
+!p!e4 d4 "^cres."efga Hb2z2 | g6 ^f2 g4 G4 |]

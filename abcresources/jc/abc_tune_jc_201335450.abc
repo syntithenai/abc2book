@@ -1,0 +1,19 @@
+
+X: 1
+T: Sej, Sej Bob
+O: Dobrudja
+R: rachenica
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+L: 1/16
+M: 7/16
+P: AB AB AB C DDD
+K: Am
+"A"|: [dd2]cd[ee2] c3 | B2G2 d3 | d[cc2]c[BB2] A3G | ABcd c2c | B2G2 A3 |1 A2A2 d3 :|2 A4 A3 ||
+"B"|: c2d2 e3 | f2ed e3 | c2B2 A3 | c2d2 e3 | c2cB ABG | A4 A2z :|
+"C"[| [d2G2]A[BB2] c3 | d2dc de2 | cddc cBG | A4 A3 |: c2d2 edB |\
+      d3c cBA | ABcG GAB | c4 d2c :|
+      ABcA ABG | A4 A2z \
+"D"[| cde2 edc | e4 edc | c2e2 edc | e4 edc ||
+   |: cde2 edc | d3c cBA |\
+   [1 BccB GAB |c2z2 ddc :|\
+   [2 BccB GAG | A4 A2z |]

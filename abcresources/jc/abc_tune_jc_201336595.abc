@@ -1,0 +1,18 @@
+X: 1
+T: Shiftin' Bobbins   (G)
+C: Muriel Rimmer
+R: reel, polka
+B: "3 Ormskirk Scottish Dances Book 6"
+B: The Kinpurnie Collection, Sidlaw Music, in A
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+[| "G"^cddd e2d2 | ^c2d2  B2G2 | DDDD G2B2  | "Am"B2c2 c4 \
+| "D7"^cddd e2d2 | f2e2   d2e2 | fedc B2A2  |  "G"G2E2 "D7"D4 ||
+|| "G"^cddd e2d2 | ^c2d2  B2G2 | DDDD G2B2  | "Am"B2c2 c4 \
+| "D7"Bccc ^G2A2 | ^E2F2 ^C2D2 | DEFG B2A2  |  "G"G8       |]
+[|  "G"DDDD E2D2 | ^C2D2  E2D2 | DDDD G2B2  | "Am"^G2A2 A4 \
+|  "D7"FFFF G2F2 | ^E2F2 ^C2D2 | F3E  D2^C2 |  "G"E2D2 B,4 ||
+||  "G"DDDD E2D2 | ^C2D2  E2D2 | DDDD G2B2  | "Am"^G2A2 A4 \
+|  "D"Bccc ^G2A2 | ^E2F2 ^C2D2 | DEFG B2A2  |  "G"G8       |]

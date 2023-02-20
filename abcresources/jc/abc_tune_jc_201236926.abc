@@ -1,0 +1,28 @@
+X: 2366
+T: FLEE AS A BIRD
+R: Clog Dance.
+%R: clog dance, hornpipe, reel
+B: James Kerr "Merry Melodies" v.2 p.40 #366
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Added flag to F note in bar 16 to fix the rhythm.
+M: C
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: G
+(uBc^c) |\
+(3dba (3gfe d>^ce>d | B>GD>B, G,>B,D>G |\
+E>cA>F D>cA>F |[1 G>Bd>e d2 :|[2 G2B2G2 |:\
+(3(B^AB) |\
+g>ba>g f>ag>f | e>gf>e f>^dB2 |
+g>ba>g f>ag>f | e>gf>e f>^dB2 |\
+(3cde A>c (3Bcd G>B | (3ABc F>A (3GAB D>F |\
+(3GAB (3DEF (3 GBA (3GFE | (3DED (3CB,A, G,2 :|
+|: e>f |\
+g2{a}g2 f2{g}f2 | e>Be>g b2z2 |\
+b>^ab>c' b>=a fz | b>^ab>c' b>=a fz |\
+g2{a}g2 f2{g}f2 | e>Be>g b2z2 |
+(3bbb (3c'c'c' (3bbb (3c'c'c' | f>ba>f e2 ::\
+D>C |\
+B,>DG>D B>D{F}E>D | B,>DG>D B>D{F}E>D |\
+(3D^CD F>E D>=CB,>A, | G,>GF>A G2 :|

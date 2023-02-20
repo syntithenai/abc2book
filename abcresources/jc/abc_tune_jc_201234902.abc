@@ -1,0 +1,26 @@
+X: 20872
+T: the REAL IRISH QUADRILLES No 4. -- la Trenise.
+P: the Drunken Peasant.
+%R: reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.87 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+.D4 .A4 | FGAF D4 | .A4 .d4 | cdec A2(fg) |\
+a2A2 a2gf | g2G2 g2(fe) | f2ed c2d2 | .e4 .e4 |]
+[|\
+A2d2d2A2 | BcdB G2G,2 | B2e2e2B2 | cdec A2A,2 |\
+(A2Bc) defg | a2c2d2g2 | .f4 .e4 | edBA ^GABc |]
+K: Dm
+[|"^Minore."\
+d2f2 efge | f2a2 a4 | d2f2 gfed | ^cdec A4 |\
+d2f2 efge | g2a2 a4 | e2g2 fed^c | d4 D4 |]
+K: D
+[|"^Major."\
+.D4 .A4 | FGAF D4 | .A4 .d4 | cdec A2(fg) |\
+a2A2 a2gf | g2G2 g2(fe) | f2ed A2c2 | d4 d4 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

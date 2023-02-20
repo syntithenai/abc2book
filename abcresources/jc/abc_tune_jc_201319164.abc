@@ -1,0 +1,43 @@
+
+X: 1
+T: Old Bald Eagle  [F]
+O: American
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: C
+L: 1/4
+K: F
+[| "F"F F/-F/ F F | F> F C2 | F2 E F | "C7"G4 |
+w: 1.~Old Bald* Ea-gle sail a-round, day-light is gone.
+w: 2.~For-ward and back a-cross the floor, day-light is gone.
+w: 3.~You swing* yours and I'll swing mine, day-light is gone.
+| "C7"E E/-E/ E E | E> E C2 | "F"A2 "C7"A G | "F"F4 |]
+w: 1.~Old Bald* Ea-gle sail a-round, day-light is gone.
+w: 2.~Fo-rward and back a-cross the floor, day-light is gone.
+w: 3.~You swing* yours and I'll swing mine, day-light is gone.
+
+%%sep 1 1 500
+
+X: 2
+T: Old Bald Eagle  [G]
+O: American
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: C
+L: 1/4
+K: G
+[| "G"G G G G | G> G D2 | G2 F G | "D7"A4 |
+| "D7"F F F F | F> F D2 | "G"B2 "D7"B A | "G"G4 |]
+
+%%sep 1 1 500
+
+X: 3
+T: Old Bald Eagle  [A]
+O: American
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: C
+L: 1/4
+K: A
+[| "A"A A A A | A> A E2 | A2 G A | "E7"B4 |
+| "E7"G G G G | G> G E2 | "A"c2 "E7"c B | "A"A4 |]

@@ -1,0 +1,35 @@
+X: 20691
+T: TOM AND JERRY
+C:
+%R: reel, polka
+B: Elias Howe "The Musician's Companion" 1843 p.69 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+%% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+G2 |\
+c2ce g2ge | f2a2 agdc | c2cd e2dc | cded cBAG |\
+c2ce g2ge | f2a2 afdc | !p!c2c2 cdec | d6 c2 :|
+|: Bc |\
+d2dB G2ef | g2ge c2de | fefg agfe | dcBA GABc |\
+d2dB G2ef | g2ge c2de | fefd c2B2 | c4 c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+E2Ec e2ec | d2f2 feBA | E2E[BG] c2BA | EFGE [AE]GFE |\
+E2EB e2ec | d2f2 fdBG | E2E2 EFGE | F6 E2 :|
+|: z2 |\
+B2BG D2cd | e2ec E2FG | dcde fedc | BAGF z4 |\
+B2BG D2Bd | e2ec E2EG | AGAG E2D2 | F4 E2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+c4 c4 | f4 f4 | c4 c4 | c4 [c4G4] |\
+c4 c4 | f4 f4 | c4 c4 | G6 c2 :|
+|: z2 |\
+G4 c4 | c4 c4 | f4 f4 | G2G2 G2G2 |\
+G4 G4 | c4 c4 | f4 c2G2 | G4 c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,22 @@
+X: 108101
+T: MARQUIS OF HUNTLY'S FAREWELL
+Q:"Strathspey."
+R: Strathspey.
+%R:strathspey, march
+Z: 2017 by John Chambers <jc:trillian.mit.edu>
+B: Kerr's Merrie Melodies v.1 p.8 s.1 #1
+M: C
+L: 1/16
+%%slurgraces yes
+%%graceslurs yes
+K: A
+[|\
+vA,4 uC4 EE3 E3uF | vA3vBuc3uB {B}A4 (Ac3) |\
+A,6 C2 EE3 E3c | B3c dcBA {G}F4 (FA3) |\
+A,6 C2 EE3 E3F | A3Bc3B {B}A4 (Ac3) |
+vd4 ud3uf veuc3 vc3vA | vB3uc dcBA {G}F4 (Ff3) |]\
+vfedc va3uc vb3vc ua4 | fedc a3uc f2e2d2c2 |\
+Bb3 b3f (bagf) b4 |
+fb3 b3f a2g2f2e2 |\
+vfedc va3uc vb3vc ua4 | fedc a3uc f2e2d2c2 |\
+defg a3e f2e2d2c2 | B3c dcBA {G}F4 (FA3) |]

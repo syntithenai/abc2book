@@ -1,0 +1,27 @@
+X: 1
+T: Apollo and Daphne
+P: Longways for as many as will
+%R: minuet
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.115 #169 (229)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+G4 GAB2 A2G2 | B2 d4 g2 e4 |\
+d2ed c2dc B2cB | A2D2 GAB2 A2G2 |]\
+A4 FGA2 d2A2 | FGA2 A2d2 B4 |
+g2ag f2e2 ^def2 | B2b2 a2g2 f2e2 |\
+g4 Bcd2 ded2 | e4 EFG2 F2D2 |\
+G4 (A3G/A/) B2dc | B2e2 ABc2 B2G2 |]
+% - - - - - - - - - - Dance description: - - - - - - - - - -
+%%begintext align
+%% The two first Cu. meet and foot it, then turn back again into their
+%% own Places and foot it .| Lead to the Wall, and back again :| Cast off,
+%% and lead thro' the 3d Cu. and cast up into the 2d Cu. Place, then go
+%% the whole Figure into the 2d Cu. Place .| All four Hands quite
+%% round, Back to Back, and turn Hands :|
+%%endtext
+%%sep 1 8 500

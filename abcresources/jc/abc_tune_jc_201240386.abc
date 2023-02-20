@@ -1,0 +1,39 @@
+X: 393
+T: Fair an' Lucky
+O: Very Old
+R: jig
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c."
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Moderato"
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+g |:\
+(TB>A)G D2D | =F2F A>Bc | G>AG AFD | G>AG TB2G ||\
+(ce).c (Bd).B | cA=F ABc | Bcd efg | fed efg :|
+|:\
+(b>a).g d2d | =f2f (Ta>g)a | b>ag afd | ga/(g/f/a/) gdB ||\
+.c(.a.c) .B(.g.B) | cA=F ABc | Bcd efg |[1 fed efg :|[2 (f/g/a)f "*)"gdc |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |:\
+[g3G3] [g3G3] | [=f3=F3] [f3F3] | [g3G3] [d3D3] | B3 G3 ||\
+A3 G3 | =F3 [f3F3] | [g3G3] [c3C3] | [d3D3] G3 :|
+|:\
+[g3G3] [g3G3] | [=f3=F3] [f3F3] | [g3G3] [d'3d3] | [b3B3] [g3G3] ||\
+a2f [g3G3] | [=f3=F3] [f3F3] | [g3G3] [c3C3] |[1 [d3D3] [G3G,3] :|[2 [d3D3] [g3G3] |]
+% = = = = = = = = = =
+%%begintext align
+%% *) The book has an up-stem and dot added to this note, indicating g3 rather than gdc,
+%% and the word "or" above and below the d note. This seems to indicate that the final
+%% dc notes may be used instead of the initial g pickup note when repeating the tune.
+%% I tested several abc notations for this, with several formatters,
+%% and none of them gave Christie's notation.
+%%endtext

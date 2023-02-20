@@ -1,0 +1,29 @@
+X: 07
+T: My Mother's coming in
+%R: reel
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.4 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+N: Rest added to 2nd strain to fix the rhythm.
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+edcB c3d | edcB c3e | ecfc gedc  | Bcde dBAG |
+edcB c3d | edcB c3d | ecfc gc'af | edcB c2  :|
+|: z2 |\
+g2^g2 a3f | d2g2 e3c | AcGc AcGg | gffe e2d2 |
+g2^g2 a3f | d2g2 e3c | AcGc AcGe | dcde c2  :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text DOUBLE FIGURE (Each strain repeated)
+%%begintext align
+%% The 3 Ladies lead round the 3 Gent: .| the 3 Gent: lead round the 3
+%% Ladies |: lead down the mid: up again allemande .| & lead round bottom & top |: .
+%%endtext
+%%center OR THUS
+%%begintext align
+%% Whole figure on your own sides .| cross over one Cu: & half figure
+%% round the bottom Cu: |: lead outsides .| & the double triangle |: .
+%%endtext

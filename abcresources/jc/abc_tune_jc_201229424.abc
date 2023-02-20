@@ -1,0 +1,64 @@
+X: 1231
+T: the Spanish Cavalier
+C: Wm.D.Hendrickson
+%R: march
+N: This is version 2, for ABC software that understands voice overlays.
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Final note(s) lengthened to fix the rhythm between verses.
+M: 4/4
+L: 1/8
+K: G
+V:1 clef=treble
+V:2 clef=treble
+V:3 clef=bass middle=D
+V:4 clef=bass middle=D
+%%score [(1 2) (3 4)]
+%%combinevoices yes % This modes may combine notes onto one stem, but it doesn't always work right.
+%%comball       yes % Combine notes in unison or a 2nd apart.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] D  | (DB)  B>B B3 G/G/ | E2 c>c c3 E |
+[V:2] B, | (B,D) G>G G3 D/D/ | C2 E>E E3 E |
+w: 1.~A Span-ish Cav-a-lier stood* in his re-treat,   And
+w: 2.~I'm off* to the war, to the | war I must go,    To
+w: 3.~And when the war is o'er, to* you I'll re-turn, A-
+[V:3] G | Gd d>d d3 G/G/ | (G^G) A>A A3 A |
+[V:4] G | G2 G>G G3 B,/B,/ | C2 A,>A, A,3 C |
+% - - - - - - - - - -
+[V:1] D2 F>A e2 d>e | d4 B2 zd | d2 G>B d3 d/-d/ |
+[V:2] C2 C>F F2 F>F | G4 G2 zG | G2 G>G G3 G/-G/ |
+w: on his gui-tar played a tune, dear;  The mu-sic so sweet,   Would*
+w: fight for my coun-try and you, dear; But if I should fall,  In*
+w: gain to my coun-try and you, dear;   But if I be slain, you may
+[V:3] F2 A>c c2 c>c | B4 d2 zB | B2 B>d =f3 f/f/ |
+[V:4] D2 D>D A2 D>D | G4 G2 zG | G2 G>G B3 B/B/ |
+% - - - - - - - - - -
+[V:1] e2 cA E3 E | DD FA (d^c) =cF | A4 G2 z ||
+[V:2] G2 AE E3 C | CC CF (F2   A)D | F4 G2 z ||
+w: oft-times re-peat  The bless-ing of my coun-try and you, dear.
+w: vain I would call, The bless-ing of my coun-try and you, dear.
+w: seek me in vain,   Up-on the bat-tle-field you will find me.
+[V:3] e2 ec c3 (A/G/) | FF Ac (A2 d)c | c4 B2 z ||
+[V:4] c2 cc A3  C     | DD DD  DE FA  | D4 G2 z ||
+% - - - - - - - - - -
+[V:1] "^Chorus"D  | D2  B>B B3 G | E2 c>c c4 | D2 F>A e2 d>e | d4 B4 |
+[V:2]          B, | B,2 G>G G3 D | C2 E>E E4 | C2 C>F F2 F>F | G4 G4 |
+w: Oh, say, dar-ling, say, when I'm far a-way, Some-times you may think of me, dear;
+[V:3] G | G2d>d d3 G  | G2 F>F  (G2 A2) | F2 A>c c2 c>c | B4 d4 |
+[V:4] G | G2G>G G3 B, | C2 A,>A, A,4    | D2 D>D A2 D>D | G4 G4 |
+% - - - - - - - - - -
+[V:1] d2 G>B d3d | e2 cA E3 E | DD FA (d^c) =cF | A4 G2 z |]
+[V:2] G2 G>G G3G | G2 AE E3 C | CC CF (F2   A)D | F4 G2 z |]
+w: Bright sun-ny days will soon fade a-way. Re-mem-ber what I say, and be true, dear.
+[V:3] B2 B>d =f3 f | e2 ec c3 (A/G/) | FF Ac (A2 d)c | c4 B2 z |]
+[V:4] G2 G>G  B3 B | c2 cc A3   C    | DD DD (DE F)A | D4 G2 z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center --------------- A Vocal Combat ---------------
+%%begintext align
+%% "The Spanish Cavalier" and "Solomon Levi" may be sung simultaneously by two groups of
+%% singers. The groups should be of equal strength and each group rehearsed on its song
+%% until it can sing it well. Then, under some capable leader who will mark the rhythm with
+%% strongly accented beat, let the two groups sing the numbers together. There should be no
+%% attempt at piano accompaniment. Singers of all ages will enjoy the "stunt".
+%%endtext

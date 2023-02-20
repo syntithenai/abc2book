@@ -1,0 +1,17 @@
+X: 20151
+T: FLOW ON THOU SHINING RIVER
+%R: reel, march, air
+B: "Edinburgh Repository of Music" v.2 p.15 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Several bars (2,4,6,8,10,12,14) have extra counts; not fixed.
+M: 2/4
+L: 1/16
+K: G
+%%slurgraces
+%%graceslurs
+d4 |\
+g3f {f}e3d | (d4 B2)zB2 | c2e2 d3c | {c}B4 z2d2 |\
+b3a (gfge) | (d4 B2)zd2 | e2a2 {g}f3d | {d}g4 z2 d'4 |
+c'a3 f2d2 | g2b2d'2 zd4 | (^cded) (cBcA) | d3BG2 d'4 |\
+{d'}c'3af2d2 | g2b2 d'3Hg | {f}e2d2 d2F2 | d6 |]

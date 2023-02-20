@@ -1,0 +1,1822 @@
+
+X: 0
+T: Haand me doon da fiddle
+C: Compiled by Tom Anderson & Pam Swing
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K:
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 1
+T: BAA BAA BLACK SHEEP
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+[|\
+A2A2 e2e2 | fgaf e4 | d2d2 c2c2 | B2B2 A4 |
+e2ee d2d2 | c2cc B4 | e2ee d2d2 | c2cc B4 |
+A2A2 e2e2 | fgaf e4 | d2d2 c2c2 | B2B2 A4 |]
+%%begintext align
+%% Dis is wan o' da aisiest t\"uns to play when du starts to learn
+%% da fiddle.  He haes words til him an if du minds dem when du's
+%% playing him, it's a great help.
+%%endtext
+%%begintext
+%%    Baa Baa black sheep   Haes du ony oo?
+%%    Yes sir, yes sir      Tree bags fou
+%%    Wan fir da maister    Wan fir da dame
+%%    Wan fir de peerie boy At's left be his lain.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2
+T: BONNIE TAMMIE SCOLLA
+S: Brenda Robertson, Burravoe
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/4
+K: A
+[|\
+A>B ce | fe c2 | BABc | BABc | A>B ce |
+fe c2 | e>c Bc | A2 A2 || a>g fe | fe c2 |
+BA Bc BA Bc | a>g fe | fe c2 | e>c Bc | A2 A2 |]
+%%begintext align
+Dis t\"un wis \"osed fir a sang.  Da auld fiddlers had different names
+fir him:  "Da Auld Mare's Gaen ta Snaraness", "I Canna Get me Mare
+Tamed", "Tame Her When da Snaa Comes", and dey played him in da key
+o' G as weel as A.  Dis is a fine aisy wye o' him as it only \"oses
+da first twa strings o' da fiddle.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 3
+T: MID-YELL SCHOOL WALTZ
+S: Jacqueline Sinclair, Bells Brae
+R: waltz
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: A
+u(c/d/) |\
+ve2e | f2f | e2c | A2A | a2a | g2f | e6- | ecd |
+ e2e | f2f | e2c | A2c | B2B | c2c | B3  | Bcd |
+ e2e | f2f | e2d | c2c | a2a | g2f | e3  | efg |
+ a2a | g2f | ea2 | A2B | ce2 | c2B | A3  | A2 :|
+%%begintext align
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 4
+T: DA BROON COO, OR MRS MacLEOD
+S: Leslie Hughson, Uyeasound
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+|:\
+A2a2 fefa | c2cB c2cB | A2a2 fefa | B2BA B2cB |
+A2a2 fefa | c2cB c2ce | f2f2 fefg | afec B2cB :|
+|:\
+vA2u(cA) veAcA | c2cB c2cB | vA2u(cA) eAcA | B2BA B2cB |
+vA2u(cA) veAcA | c2cB c2ce | f2f2 fefg | (af)ec A2cB :|
+%%%begintext align
+%%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 5
+T: UYEASOOND BAIRNS
+S: Cindy Ritch, Uyeasound
+R: waltz
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+A |:\
+d2d | f2d | g2e | c2A | d2f | e2d | e3- | e2A |
+d2d | f2d | g2e | c2A | d2d | e2c | d3- | d2 :|
+f/g/ |\
+a2g | fa2 | g2e | a2g | f2d | g2f | fe2- | e2f/g/ |
+a2g | fa2 | g2f | e2A | d2d | e2c | d3- | d2f/g/ |
+a2g | fa2 | g2f | e2A | d2d | g2f | fe2- | e2A |
+d2d | f2d | g2e | c2A | d2d | e2c | d3- | d2z |]
+%%begintext align
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 6
+T: DONALD BLUE
+S: Simon Mullay
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|:\
+vdu(BAF) vAFAB | vdu(BAF) vE2uD2 | vdu(BAF) vAu(FA2) |
+[1 vBu(BBA) vB2ue2 :|[2 vBu(BBA) vB2ud2 |: vABde vfu(afd) |
+vfu(afd) veu(dB2) | vABde vfu(afd) | vBu(BBA) vB2ud2 :|
+%%begintext align
+Dis t\"un cam fae Papa Stour whaur it wis caaed Donald Beu efter a
+teacher o' dat name.  Da only idder place it haes been fun wis in
+Fetlar, but it seems at dey wir folk at flit frae Papa to Fetlar a
+lang time ago so dey laikly took him wi dem.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 7
+T: DA MERRY BOYS O' GREENLAND
+S: Nelvyn Leask, Anderson High
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|:\
+u(AB)vde fdv[f2d2] | veece Aecu(e | AB)de fdf2 |
+gecA d2uk.d2 :||: u(fg)fe fga2 | u(gf)ec efg2 |
+u(fg)fe fgau(f | ge)cA vd2uk.d2 :|
+%%begintext align
+Dis t\"un was ta'en back be Shetland fiddlers fae da whale fishing
+ida Artic.  Da ships gyaain to Greenland to fish whales \"osed to
+call slang Lerwick to get men to join dem.  Dey usually always
+wanted a fiddler.  Dere is anidder wye o't played in Denmark.
+Nearly every Shetland fiddler played dis t\"un.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 8
+T: SEVEN STEP POLKA
+S: Hansen
+R: polka
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+[|\
+G2 G2 G2 G2 | FG AF G2 D2 | B2 B2 B2 B2 | AB cA B2 G2 |
+e2 e2 d3 B | c2 c2 B3 G | E2 A2 A3 G | FD EF GA Bd |
+e2 e2 d3 B | c2 c2 B3 G | E2 A2 A3 G | FD EF G2 D2 |]
+%%begintext align
+Dis t\"un wis |"osed fir an auld Shetland dance caaed be da same name.
+What wye it cam ta Shetland we dinna ken.  Dere is a version o' him
+in England \"osed fir a different dance.  Dis een is in G and du haes
+ta geng doon ower to da third string.  Afore du plays him, try du
+over da scale o' G.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 9
+T: DA BOANIE POLKA
+S: Tom Anderson
+R: polka
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: A variant of the Jenny Lind Polka.
+N: Fixed the missing initial repeat in the 2nd section.
+M: C
+L: 1/8
+K: D
+AG |:\
+F2A2 G2B2 | A2f2 fafd | B2e2 efec |1 A2d2 d2AG :|[2 A2d2 d2fe ||
+|: d2B2 BcdB | A2F2 F3A | G2E2 EFGE |1 F2D2 D2fe :|2 F2D2 D2-D2 |]
+"ex." vAu(G |F2) vAu(FG2) vBu(G | A2) y8 y8 y8 y8 y8 y8 y8 y8 y8
+%%begintext align
+I learned dis een frae da late Jean Pole o' Waas.  Sh\"u wis a body
+aboot 80 years auld whin sh\"u played him ta me.  Whin sh\"u played him,
+which sh\"u always did sittin doon, sh\"u kinda danced da t"un wi her feet
+so dat du could nearly see da steps o' da polka.  Dere is different
+wyes o' him played in England whaur he's \"osed fir a polka as weel.
+
+Dis is a fine aisy wye o' him.  Whin du's played fir a peerie while,
+try da first bar o' him da wye dat we're written him at da end o'
+da t\"un.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 10
+T: SISTER JEAN
+S: Leslie Hughson, Uyeasound
+R: polka, reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|:\
+u(AB)de f2f(d | g2)g(e f3)(g | f2)ef gecd |1e2d2 dedB :|2 e2d2 defg ||
+|: a2A2 AFAd | B2G2 A3g | f2ef gecd |1 e2d2 defg :|2 e2d2 d4 |]
+%%begintext align
+Dis is da best kent o' aa da polkas played in Shetland.  Nearly
+every fiddler hed his ane wye o' him.  Dis is da wye he wis
+played in Eshaness whin I wis peerie, an at dat time he wis a
+favourite dance.
+%%endtext
+%%begintext
+My sister Jean is come frae France
+Ta learn wis da Polka Dance
+First da heel an dan da toe
+Dats da wye da ladies go.
+
+Whin I was a peerie boy I had nae sense
+I bought me a fiddle fir 18 pence
+Da only t\"un at I could play
+Wis ower da hills an far away.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 11
+T: JACK BROKE DA PRISON DOOR
+S: Angela Hughson, Baldasound
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Fixed missing bar line after D pickup to 2nd section.
+M: C
+L: 1/8
+K: G
+(D |\
+G2)BG BdBG | v(cB)AB u(dB)Au(B | G2)BG BdBG |
+ABAG E2D :|| u(D | [g2B2])gd edBu(G | g2)gd e(aa)(f |
+g2)(gd) edBG | ABAG E2D :|
+%%begintext align
+Dis een wis made up be an auld fiddler named Jack Goudie frae
+da Ness.  Some said dat he'd hed a dunt on his head when he
+wis young dat gave him queer turns.  He wis a very good fiddler
+an made up loks o' t\"uns.  Wan night in Lerook wi a dram in him
+he got a queer turn an da poliss lockit him up ida auld prison.
+He waited til dey wir sleepin an dan he brook doon da prison
+door an made fir hame as fast as he could.  Da poliss wir awaur
+it he wis gaen, bit tocht better to let be fir let be, so dey
+didna geng efter him.  When Jack got hame he took his fiddle
+an made up dis t\"un an caaed him, "Jack Broke da Prison Door".
+If du listens to da first twartre notes du can hear hit sayin dat.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 12
+T: OLIVER JACK
+S: Lynne Johnson, Brae School
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+Bc |\
+d2dc B2ge | d2u(dc) vBGBc | d2dc B2ge | d4 d2 :| Bd |
+c2cA B2BG | A2AG FGAB | c2cA BGGB |[1 A2d2 G3B :|[2 A2d2 G2 |]
+%%begintext align
+Dus t\"un an da wan ower da page were baith brought back be
+Shetland fiddlers frae da Greenland whaling.  Naebody really
+kens wha made dem as dey wir a lok a' fiddlers frae different
+places at guid ta da whaling.  We do ken at Willafjord is
+played be fiddlers in Newfoundland an Cape Breton an dat dere
+dey \"ose muckle da sam kind o' bow strokes as we d\"o.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 13
+T: WILLAFJORD
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+uB2 |\
+vA2uFvA- AuDFA | vB2uGvB- BuDGB | A2FA- ADFA | (vEF)uGA (uGF)vED |
+A2FA- ADFA | B2GB- BDG(uB | AB)c(ud ef)gue | vf2[d2D2] [d2D2]e2 |
+vf2udvf- fufd(uf | ge)af gfeg | f2df- fAdf | e2ce- eAce |
+f2df- ffd(uf | ge)af gfe(uc | AB)c(ud ef)gue | vf2[d2D2] [d2D2] :|
+%%begintext align
+If du imagines some een gaen wi wan fit ida stank an de idder
+eed on a broo an gaein a lunk as dey go alang, dat's da kind
+o' syncopated rhythm du haes to get whin du plays dis een.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 14
+T: SLEEP SOOND IDA MOARNIN
+S: Brenda Robertson, Burravoe
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: none
+L: 1/8
+K: Amix
+N: The key signature has a C#, but the only important C's are natural.  It's really Dorian mode.
+|:\
+vA(uaag) va2(uef) | gedB GABG | A(uaag) a2(uef) |[1 gedB A2BG :| [2 gedB A3(uB ||
+=cA)ve(uA cA) ve(uA | Bc)dB [B3G3] (u[BG] | =cA)ve(uA cA)ve(A | TBA)GB A2-A(uB |
+=cA)e(uA cA)e(uA | Bc)dB G2-G(uB | AB)=c(ud ef)g(ua | ge)dB A2BG |]
+(uB | =cA)ve(uA cA)ve(uA cA) ve(uA |] y4 y4 y4 y4 y4 y4
+%%begintext align
+Dis is a very auld t\"un.  It is kent on da Wast side o' Shetland
+as "Da Gutters o' Skeld".  In Nort Yell da auld fiddlers played
+him wi da high bass, dat is:  da back string raised from G to A.
+Du'll notice da bow strokes ida first o' him are wan doon and tree
+up, da sam as du'll fin in loks o' Shetland t\"unes.  Ida second
+turning, da  1 doon and 3 up comes on whit day caa da "aff beat",
+not at da beginning o' da bar.  Dis happens ina braw twartree
+Shetland t\"uns, an is whit gies dem da queef.  We're geen dee a
+peerie exercise so dat du can practise him.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 15
+T: LASSES TRUST IN PROVIDENCE
+S: Mandy J Tulloch, Mid Yell
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: none
+L: 1/8
+K: D
+A | vd2ud(ve f)def | d2ud(vf e)dBA | d2ud(ve f)de(uf | dB)AF E2E :|
+|:\
+vA(uAAB) ADFA | d2d2 BAB<d | vA(uAAB) ADFA | (vGF)uEuC v[D2A,2-][D2A,2] :|
+%%begintext align
+Dis is a very fine auld t\"un in D.  As far as we ken he wis
+only fun in Unst bit naebody kens wha made him up.  Du'll
+notice at da wan doon an tree up bow strokes fairly come
+oot ida second half o' him.  He maks a fine dancin t\"un fir
+da Shetland Reel.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 16
+T: BOANNIE ISLE O' WHALSEY
+S: Emma Cox, Baltasound
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: none
+L: 1/8
+K: Amix
+(v[ee] |\
+[ee])dcA B2(ued) | cAAc BuE- E (v[ee] | [ee])dcA B2(ued) | vc(uABu.^G) A2A2 :|
+(ucd)eg fde(ud | TcA)Ac BuG- G(vB | c)deg fde(ud | cA)B^G A3(uA |
+cd)eg fde(ud | c)AAc BuG- G(vB | c)de(uf ga)g(ue | dB)GB A2A2 |]
+%%begintext align
+Dey wir a lok o' different wyes o' dis een bit wi're gaen dee
+da wye da Forty Fiddlers play him.  Some say dis wis taen frae
+Greensleeves, an auld English t\"un.  Hoo-som-ever, he's been
+played in Shetland a lang time.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 17
+T: DA BRIG
+C: Fredamann Stickle (Shetland)
+S: Eunice Henderson, Bells Brae
+R: jig
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Fairly Steady"
+K: D
+|:\
+k[d3D2] [A3D2] | k[AD][FD]D D3 | d3 A2F | k[D2G,2]g f(uef) |\
+d3 A3 | AFD D2(F | E2)(F G2)A | {Bc}B3 ABc :|
+|:\
+d2e f2d | c2e ecA | d2e f2d | g3 f2(g |\
+a2)(f g2)(e | f2)(d e2)(c | d2)A F2A | {Bc}B3 ABc :|
+%%begintext align
+Da great Unst fiddler Fredamann Stickle wha lived ower a hundred
+years ago made up dis t\"un whan he stod ida door o' his croft at
+Burrafirth an watched a sailin ship awa oot at sea rowlin as sh\"u
+sailed alang.  Da ship wis a brigantine so he caaed da t\"un "Da
+Brig" fir short.  If du plays him kinda slow an follows whaur
+we're accented him du can hear da motion o' da ship.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 18
+T: CHRISTMAS DAY IDA MOARNIN
+C: Fredamann Stickle (Shetland)
+R: jig
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dmix
+d2e !segno!|\
+f2d {fg}f3 | e2d ^c2A | BG2 d2d | B2G G2f |\
+e2f g2f | e2d ^c2A | ABA ABA | d3 d2e |
+f2ua- a3 | e2d ^c2A | BG2 d2d | B2G G2f |\
+e2f g2f | e2d ^c2A | ABA ABA | d3 d3 |]
+|:\
+e3 ede/f/ | {gf}g3 {Bc}B3 | A2A A2A | B2c d2B |\
+e3 ede/f/ | {gf}g3 {Bc}B3 | A2e d2B |[1 A3 A3 :|\
+[2 A3 Ad"^D.S."e |]["Final Time" A3 A3 |]
+%%begintext align
+Dis is anidder een o' Fredamann Stickle's.  He wes wint to play
+dis een to da Laird o' Buness every Christmas moarnin an some
+say he bedd maist o' da day dere playin to da Laird an da folk
+he hed bidin wi him.  I was telt dat Stickle composed dis t\"un
+as he walked alang frae his hoose in Burrafirth ta Buness.  Dey
+were nae roads danadays, just sheepgaets.  Apparently he wis
+nicknamed Stumpie, maybe because dere wis something wrang wi wan
+o' his feet.  Da t\"un fits in at an uneven walkin speed an says
+at da end o' it, "Christmas Day ida Moarnin."
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 19
+T: DA DAY DAWN
+S: Magnus Robertson, Burravoe
+R: slow air
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+u(AB) |: k(vc<d) ({c}BA) k(c<d) ({c}BA) | {c}B2 (AG) (c<d) ({c}BA) | (c<d) ({c}BA) e2 ","y(AB) |
+(vc<d) ({c}BA) (c<d) ({c}BA) | {c}B2 (AG) A2 (GE) | (DE)GA ({c}BA)Bc | (dc)BA ue2 ","yAB |
+vA2{g}Ha2","y {f}e2dc | {c}B2AG A2{g}Ha2","y | {f}e2dc e2AB |  A2 {g}Ha2","y {f}e2dc |
+(u{c}BA)BG A2","yu(GE) | (vDE)GA ({c}BA)Bc |1 (vdc)BA ue2vAuB :|["last" (dc)BA e2HA2 |]
+%%begintext align
+I first heard aboot dis t\"un whin I wis aboot 14 an wis telt dat
+a Northmavin fiddler \"osed ta walk to Busta Hoose in Deltng an
+play him ta da Laird on Yule moarin.  Some years later, whin I
+wis spaekin wi Peter Fraser, he played him ower ta me an said he
+wis a very auld t\"un.  I fan oot later on at dere wis a version
+printed in Hibbert's an anidder een ida Midbrake Papers (in the
+Museum of Antiquities, Edinburgh).  Whin I visited da late John
+Irvine o' Saltness, Whalsey (Auld Glybie), he played a version
+an caaed him "Da Day o' Dawye."  He telt me dat ida aulden days
+da fiddler \"osed ta geng aroond da hooses playin him first think
+Yule moarin.  In papa Stour, he wis \"owed ta lead da sword
+dancers onto da floor fir da "Papa Stour Sword Dance".  Da
+version here is da wye I play him.  It is my opinion dat it is
+da auldest fiddle t\"un we hae, an dat he is of Norse extraction.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 20
+T: SOLDIER'S JOY
+S: Melvyn Leask, Anderson High
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Bars 1, 3 and 4 have dots above some notes that may indicate an open-A "drone" note.
+M: none
+L: 1/8
+K: D
+vd(uB |:\
+AG)vF(uE DE)vF(uG | A2)vd(ud d2)vd(uB | AG)vF(uE DE)vF(uD | G2)vE(uE E2)vd(uB |
+AG)vF(uE DE)vFuG | vA2d2 [D3G,2] (ue | fd)fa gfe(uc |[1 A2) vd(ud d2) dB :|[2 A2vd(ud d3)(vA |]
+|: d)efg a2f2 | ve(udef) g2(fe) | defg a2f2 | ve(udcB) (v[A2D2][AD])[AD] |
+defg a2f2 | edef g2-g(ue | fa)vf(ud ef)veuc | vA2[f2d2] [f3d3]A :|
+%%begintext align
+Dis is a very auld t\"un which is fun all ower da world.  Dere are
+mony different wyes o' im even in Shetland.  Dis is da wye me
+grandfaider played him.  Although he's no a Shetland t\"un, he wis
+wan o' da favorite eens fir dancin til, an dey fairly licket at da
+Shetland Reel whan da fiddler played him.
+
+We're tryed to shaw dee da bow stokes o' da aff-beat 1 doon an 3
+up, at da auld fiddlers \"osed so dat du can git da right wye o' im.
+Da 1-2-3 at da end o' each turnin is whaur da dancers strampit oot
+da steps o' da Shetland Reel.  Da fiddler sometimes wid play dem
+wi da aff-beat bowin so it made a lightsome change.  Some o' you
+can draw bass while da idder eens plays him, as dey \"osed ta dae
+in Bressay.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 21
+T: STARRY NIGHT IN SHETLAND
+S: Ian Williamson, Cullivoe
+R: waltz
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The first 4 bars of the 2nd part have fingering notation that can't be represented in ABC.
+M: 3/4
+L: 1/8
+K: D
+uA2 |\
+vf4d2 | A2(uB2A2) | (vG4.G2) | (uc4B2) |\
+(vA4.c2) | (ue4.A2) | f6 | (uf4A2) |
+f4d2 | A2(B2A2) | (G4.G2) | (c4B2) |\
+A2c2ef | g2B2c2 | ud6 | vd4 :|
+|: (uef) |\
+(g2B2g2) | (g2B2g2) | (f2A2f2) | (f2A2f2) |\
+f2d2f2 | a2g2f2 | e6 | e2d2e2 |
+f4d2 | A2(B2A2) | (G4.G2) | (c4B2) |\
+A2c2ef | g2B2c2 | ud6 | vB4 :|
+%%begintext align
+Naebody kent very much aboot waltzes until efter da turn o' da
+century whan day cam into Shetland frae da Sooth.  Dey spread
+very quickly an are still popular today.  We dinna ken wha
+composed dis een bit it cam frae da North Isles.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 22
+T: GOSSABROUGH WALTZ
+C: Tom Anderson
+R: waltz
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+A |\
+(d2.d) | (f2.d) | (B2.d) | (AFA) | (d2.d) | fed | e3 | (e2.A) |
+(d2.d) | (f2.d) | (B2.d) | (AFA) | MBMcMd | McMdMe | d3 | d2 :|
+f/g/ |\
+a>ba | f>ed | edB | (AFA) | (d2.d) | fed | e3 | efg |
+a>ba | f>ed | edB | (AFA) | Bcd | cde | d3 | d2 |]
+f/g/ |\
+a>ba | f>ed | edB | (AFA) | d2d | fed | e3 | (e2.A) |
+(d2.d) | (f2.d) | (B2.d) | (AFA) | Bcd | cde | d3 | d2 |]
+%%begintext align
+"Da Gossabrough Waltz" is wan o' me ain t\"uns at I composed at a
+Regatta Dance in Yell aboot 1936.  I wis playin fir a St Bernard's
+Waltz an couldna mind what to play fir an encore.  I just started
+playin an dis is what cam oot.  It is a fine t\"un fir exercising
+dye forth finger.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23
+T: NORTHERN LIGHTS
+C: Tom Anderson
+R: waltz
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The repeat notation is a bit unusual ....
+M: 3/4
+L: 1/4
+K: D
+F/G/ |:\
+A2d | f2e | dB2 | d2B | A2d | e2f | a3 | a2A |
+A2d | f2e | dB2 | d2e | fa2 | A2c | d3 |1 d2F/G/ :||:2 d2e ||
+dB2 | B2d | dA2 | A2F | A2d | e2f | a3 | a2b |
+a2f | a2f | dB2 | d2e | fa2 | A2c |1 d3 :|["Last" dAF | D3 |]
+%%begintext align
+Dis is a t\"un I made up whin I wis leading da Isleburgh Dance Band.
+It goes fine wi da twa at comes afore dis een.  Vagaland, T. A.
+Robertson, wrote words fir dis which du'll fin in "Laeves fae
+Vagaland".  As du kens, da nordern lights is just anidder name fir
+da merrie dancers.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 24
+T: FAROE RUM
+S: Paul Wordie, Midyell
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: none
+L: 1/8
+K: D
+|: vA(uAAF) ABd(uB | AF)vFuD vE2(uFG) | vA(uAAF) ABd(ue | fa)fe d2[f2d2] :|
+|: ve(uAcA) ve(uAcA) | ABde f2(uaf) | ve(uAcA) ve(uAcA) | ve(ugfe) d2d2 :|
+%%begintext align
+A t\"un frae da days o' Faroe snacks.  Some say it wis a t\"un aboot
+da smuggling a tobacca an speerits it guid on in yun days.
+
+Dis is a fine een ta practise da wan doon an tree up as he starts
+aff wi dat.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 25
+T: AANDOWIN AT DA BOW
+S: Alan Leask, Brae School
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+(vA | B)GAG TE2D2 | (vBG)u(AG) BGAd | BGAG TE2(uDE) | GABA G2G :|
+(ug | eg)dB AGkE2 | (ueg)dg egvd(ug | eg)dB AG E(ue | kg2g)(vg a)(ufg2) |
+"^ff"egdg egvd(ug | eg)dB vA(uGED) | GABG TE2(uDE) | GABA G3 |]
+%%begintext align
+A t\"un aboot fishin.  Whin dey wir waitin fir dir lines ta fish
+dey keepit da boat aboot ee place.  If it wis a fine day it just
+meant pooin peerie-wise but if it was wind it took a braw grain o
+rowin just to hadd her in ee place.  Dis was caaed aandowin, as
+da rhyme says it wis made up be da late Andrew Abernathy o' Twatt:
+(da rhyme follows da first half o' da t\"un).
+%%endtext
+%%begintext
+		No Gaen Forward,
+		No gaen trow
+		Bidin aboot ee place
+		Aandowin at da bow
+%%endtext
+%%begintext align
+Du fairly haes to cleek da bow ida second half o him ta get him right.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 26
+T: DA FOREFIT O' DA SHIP
+S: Alex Stout, Whiteness Primary
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|: vkd2","yde dAvF2 | (uAB)AF (ED)EF | (3AAA AF ABde | kf2ed kB2AB :|
+|: kd2","y(fd) adfd | kd2","y(fd) eAAf | ka2-a(e f)d(ef) | vd(uBAF) E2AB :|
+%%begintext align
+Dis is een o' wir favorite t\"uns an we tink it cam frae Unst.  If
+du could tink du wis ida fo'castle o' a sailin ship an heard da
+sea brakin i'er da boo, du'll be able to play him right.  We hae
+pittin accents ida music ta tell dee whaur ta lay on da bow wi a
+measur o strength sae dat du can hear whaur da sea stricks da booe.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 27
+T: DA GREENLAND MAN'S TUNE
+S: Laureen Johnsson, Uyeasound
+R: slow air, jig
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|:\
+d2B c2A | BcB E3 | F2=G A2G | FD2 D3 |\
+d2B c2A | BcB E3 | G2A B2G | A3 A3 :|
+|:\
+B2B B2c | d2d d2B | A2A A2F | D2E F2A |\
+B2B B2c | d2d d2B | A2F F2D | E3 E3 :|
+%%begintext align
+Dis is anidder een brought back fae da Greenland whaling days.  Jamsie
+Laurenson o' Fetlar tocht he wis a listening t\"un, and might o' hed
+Yakki words.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 28
+T: UNST BRIDAL MARCH
+S: Steven Spence, Baltasound
+R: march, waltz
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+g2 |\
+G2 G2 A2 | B4 d2 | ef {gf}g2 {Bc}B2 | AG HA2 {fgf}g>e |\
+d2 G2 GA | B2 d2 Ac | {Bc}B2 G2 G2 | G4 :|
+{gf}ug2 |\
+(ve2 d2) {gf}g2 | (e2 d2) {gf}g2 | (e2 d2) g2 | e4 d2 |\
+e>>f {gf}g2 d2 | e>>f {gf}g2 d2 | e>>f {gf}g2 g2 | g4 B2 |
+{Bc}c2 c2 BA | B2 d2 d2 | ef {gf}g2 {Bc}B2 | AG HA2 {fgf}g>e |\
+d2 G2 G>A | B2d2 Ac | {Bc}B2 G2 G2 | G4 |]
+%%begintext align
+Whenever a weddin wis held ida auld days dey always had a fiddler
+ta lead da procession.  Dis t\"un wis \"osed in Unst te lead da wedding
+company fae da kirk efter da couple wis married.  Dere were very
+few roads danadays, so mony a time da company hed to buks ower
+broos an hedder an sometimes it wis a job fir da fiddler to keep
+on playin.  Dey still d\"o dis in Norrowa bit dere in some places
+dye play upo da Hardanger fiddle.
+
+We're written baith wweddin t\"uns twa wyes because at wan time dey
+maybe were played wi da twa back strings raised.  So du can try
+baith wyes an plaise deesel which wye du plays dem.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29
+T: UNST BRIDAL MARCH
+S: Steven Spence, Baltasound
+R: march, waltz
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+a2 |\
+A2 A2 B2 | c4 e2 | fg {af}a2 {cd}c2 | BA HB2 {g}a/g/a/f/ |\
+e2 A2 AB | c2 e2 Bd | {cd}c2 A2 A2 | A4 :|
+{ag}ua2 |\
+(vf2 e2) {ag}a2 | (f2 e2) {ag}a2 | (f2 e2) a2 | f4 e2 |\
+f>>g {ag}a2 e2 | f>>g {ag}a2 e2 | f>>g {ag}a2 a2 | a4 c2 |
+{de}d2 d2 cB | c2 e2 e2 | fg {ag}a2 {cd}c2 | BA HB2 {g}a/g/a/f/ |\
+e2 A2 AB | c2e2 Bd | c2 A2 A2 | A4 |]
+% %%begintext align
+% Whenever a weddin wis held ida auld days dey always had a fiddler
+% ta lead da procession.  Dis t\"un wis \"osed in Unst te lead da wedding
+% company fae da kirk efter da couple wis married.  Dere were very
+% few roads danadays, so mony a time da company hed to buks ower
+% broos an hedder an sometimes it wis a job fir da fiddler to keep
+% on playin.  Dey still d\"o dis in Norrowa bit dere in some places
+% dye play upo da Hardanger fiddle.
+%
+% We're written baith wweddin t\"uns twa wyes because at wan time dey
+% maybe were played wi da twa back strings raised.  So du can try
+% baith wyes an plaise deesel which wye du plays dem.
+% %%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 30
+T: DA BRIDE'S A BOANNIE TING
+S: Debbie Scott, Bells Brae
+R: jig
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|:\
+vMG3 uMG3 | (AFA) (ABc) | G3 G3 | e(^ce) d(Bd) |\
+G3 G3 | AFA ABc | dBd (cBA) | G3 G3 :|
+|:\
+def {gf}g2e | f2A (ABA) | d3 gdB | def {gf}gdB |\
+def ({gf}gfe) | g2A ABc | dBd (cBA) | G3 G3 :|
+%%begintext align
+Dis is annider wedding t\"un frae Unst.  Some says hit wis played
+whin da bride can trow da door o' da hoose efter da procession
+fae da kirk an some says it wis annider march at dey played on
+da wye fae da kirk.  Dey were leakly bride's marches in every
+district o' Shetland at wan time bit a lok o' dem haes been lost,
+mair's da peety.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 31
+T: DA BRIDE'S A BOANNIE TING
+S: Debbie Scott, Bells Brae
+R: jig
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|:\
+vMA3 uMA3 | (BFB) (Bcd) | A3 A3 | f(^df) e(ce) |\
+A3 A3 | BFB Bcd | ece (dcB) | A3 A3 :|
+|:\
+efg {ag}a2f | g2B (Bcd) | e3 aec | efg {ag}aec |\
+efg ({ag}agf) | a2B Bcd | ece (dcB) | A3 A3 :|
+%%begintext align
+(This is "scordatura" notation for AEAE tuning.  The low F#s are actually G#s.)
+%%endtext
+% %%begintext align
+% Dis is annider wedding t\"un frae Unst.  Some says hit wis played
+% whin da bride can trow da door o' da hoose efter da procession
+% fae da kirk an some says it wis annider march at dey played on
+% da wye fae da kirk.  Dey were leakly bride's marches in every
+% district o' Shetland at wan time bit a lok o' dem haes been lost,
+% mair's da peety.
+% %%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 32
+T: DA FERRY REEL
+S: Lynda Keenan, Brae School
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A |\
+vd2ud(vA d2)d2 | efed c2A2 | (Bc)dB (AB)A(F | G2)E2 E3(A |
+d2)d(A d2)d2 | efed c2A2 | (Bc)dB (AG)FE | D2d2 d2z :||: (e |
+f2)f(d fa)f(d | fg)a(g fe)d(f | e2)e(c e2)e(c | ef)e(d cA) A(g |
+f2)f(d fa)f(d | fg)a(g fe)d(f | ef)g(f ed)cB | a2d2 d2z :|
+%%begintext align
+Dis een comes fae Yell an it seems it a fiddler comin hame fae a
+weddin set him doon ta rest upon a broo.  He heard music comin
+fae a hole ida grund an he could hear da soond o dancin as weel.
+He kent it wis da trows haddin a rant bit he wisna feard an sat
+still until he'd gottin da t\"un in his head.  Whin he got hame
+he never guid ta bed until he wis able to play him upo da fiddle.
+Bobby Jamieson an Willie Barclay Henderson o Nort Yell played
+dis een wi da high bass, dat is, da back string set up ta A.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33
+T: LAY DEE AT DEE
+S: Lawrence Johnson, Brae J. H. School
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: There are small-dot A and D notes throughout, to indicate playing the open A and D "drone" strings.
+N: The last bar has 3 beats; added a rest to fill it out.
+M: C
+L: 1/8
+K: D
+|:\
+defe d2d2 | ABAG F2A2 | d2ef Tgfe2 | efed cBA2 |
+defe d2d2 | ABAG F2A2 | d2ef gfec | e2d2 d3e :|
+|:\
+f2df afdf | Tf2df g3f | e2ce eece | edcB A3e |
+f2df afdf | afdf g3f | efgf edcB | A2d2 d2z2 :|
+%%begintext align
+Anidder een fae Yell.  Ida haaf days whin da men cam ashore dey
+sleepit in a peerie stane hoose caaed a lodge.  Dere wis only
+wan bed at day aa sleepit in.  If some een took ower muckle
+room, da een next ta him wid say, "Lay dee at dee, boy".  Dis
+is anidder een played wi da high bass.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 34
+T: MISS SPENCE'S REEL
+S: May Hartley, Hamnavoe
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: none
+L: 1/8
+K: D
+(vA | d2)A(G F2)D(F | E2)C>E vc3 (uA | TB2) A(vG F2)(v[D2A,2] | [DA,]) ud-d2 (cd-d) :|
+|: (ue | fa)vf(d fa)f(d | eg)e(c eg)e(c | fa)f(d fa)fd | egec d3 :|
+%%begintext align
+Dis een wis made up be a man caaed John Anderson o' Voe
+awa back in 1759.  He wis playin at a dance ida Hoose
+o' Windhoose in MidYell an dey were dat moy Spence
+lasses dere dat he caaed him, "Miss Spence's Reel."
+Du can \"ose da high bass fir dis een t\"oe.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 35
+T: DA AULT RESTING CHAIR
+C: Tom Anderson
+S: Mr & Mrs Anderson, Hamna Voe.  Tom's Grandparents
+R: Slow air
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+|:\
+B3c A3B | G2D2 B,2G,2 | C2A2 B,2G2 | ^CE A<G F2 D2 |\
+B3c A3B | G2D2 B,2G,2 | C2A2 D2F2 |1 G6 D2 :|2 G6 d2 |
+TcBAG g3d | e2g2 Td2B2 | c3d B2G2 | E2AG F2D2 |\
+cBAG g2d2 | e2g2 d2B2 | c2de d2F2 | G6 d2 |
+McMBMAMG  g3d | e2g2 f2d2 | c3d B2G2 | ^CEAG TF2D2 |\
+B3c A3B | G2D2 B,2G,2 | {B,}C2A,2  D2F2 | G8 |]
+%%begintext align
+Dis is a slow air o' me ain at I composed in 1968 whin I fan
+at Hamnavoe, whaur me grandfaider bedd, da brucks o' da auld
+resting chair dat he sat upo whin he wis learnin me ta play
+da fiddle.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36
+T: HAMNAVOE POLKA
+R: polka
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Missing beat at end of 1st part; fixed by lengthening the final G.
+M: C
+L: 1/8
+K: G
+|:\
+{D}G2F2 TE2D2 | A>B c/B/A d>B G2 | {A}e2d2 c2B2 | A>B A>G F<A d2 |
+{D}G2F2 TE2D2 | A>B c/B/A d>B G2 | eg3 dg3 | {F}G2F2 G4 :|
+|:\
+{f}g2f2 e>f g/f/e | d2B2 A>B c/B/A | G2G2 G>A B>A | G2A2 {G}F4 |
+{f}g2f2 e>f g/f/e | d2B2 A>B c/B/A | G2G2 G>A B>A | G2F2 G4 :|
+%%begintext align
+Dis is wan o' da first t\"uns I learned fae me grandfaider.  He
+never kent da name o't but I caa it "Da Hamnavoe Polka" cause
+dat wis whaur he bedd.  I never heard it ony wye else ootside
+o' Eshaness.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 37
+T: DA ROAD TA HOULL
+C: Tom Anderson
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: none
+L: 1/8
+K: D
+A2 |\
+d2fd A2dA | GABG E2FG | A2A2 ABcd | f2e2 e2A2 |\
+d2fd A2dA | GABG E2FG | A2A2 ABAG | F2D2 D2 :| fg |
+a2af d2dA | BABd A2F2 | G2B2 ABcd | f2e2 e2fg |\
+a2af d2dA | BABd A2F2 | G2B2 ABAG | F2D2 D2fg |
+a2af d2dA | BABd A2F2 | G2B2 ABcd | f2e2 e2A2 |\
+d2fd A2dA | GABG E2FG | A2A2 ABAG | F2D2 D4 |]
+%%begintext align
+Dis t\"un was written in 1936 whin I came up to Unst to visit
+a schoolmaister friend o' mine.  It happened it dat moarnin
+wis da prizegiving an I wis axed to play at it.  I guid fir
+a walk an da t\"un cam in me head.  Da place I wis walkin ower
+wis caaed da Houll Road bit I tocht da Road ta Houll soonded
+better.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 38
+T: DA MILL
+S: Christopher Ritch, Baltasound
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The repeat signs are only at the ends of phrases, and are a bit unclear.
+M: C
+L: 1/8
+K: D
+|:\
+(vAB)cd (e2f2) | d2d>d d2(fe) | (dc)BA (AB)cA | B2E>E E2(ec) |
+(dc)BA (AB)cA | d2d>d d2(fe) | (dc)BA ((3Bcd) c2B2 | A2A<B A4 :|
+|:\
+ve(ucAc) e(cAc) | f(dBd) f(dBd) | A(FDF) A(FDF) | B(GEG) B(GE2) |
+e(cAc) ecef | d2dd d2(fe) | dcBA ((3Bcd) cB | A2A<B A4 :|
+%%begintext align
+Ida auld days dey wir nae shop loaf bread an baps, an whit shops
+dere wis keepit very little flour or aetmael.  Folk grund dir
+bere and aets in mills.  Dey wir two kinds:  da haand mill it
+wis keepit ida barn an da watermill it st\"od it da side o da burn.
+Sometimes when dey hed a lok ta grind and dey wir plenty o' water
+dey wid grind maist o' da night.  Dis t\"un wis made up be some een
+ta eemitate da motion o' da mill an du can hear foo sh\"u rins roond
+an roond an sometimes seems to haver when shu gits ower muckle
+coarn.  Nea doobt dey wir mony mill t\"uns in Shetland at ee time
+an we're still finnin dem here an dere.  In Norrawa dey hed mill
+t\"uns as weel, an dey still mind a lok o' dem.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 39
+T: DA LERWICK LASSES
+S: Lyn McCulloch, Sound Primary
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Added missing start-repeat sign to 2nd part, at bar line to handle the different pickup notes.
+M: C
+L: 1/8
+K: G
+GA !segno!|\
+vkBGG<G AFAc | B(GkG2) (vkg2d)uc | vBGG<G AFA(uc | BG)AF G2 :|
+ef |: vg2g2 afa(ud | [f2d2])fg ka2af | kg2gf efe(u^c |1 eka)vaf gede :|2 eaaf gedc |]
+%%begintext align
+As far as we ken dis een cam fae Unst an I aye tocht it wis
+wan o' da best o' da auld reels.  If du can git a real stop-go
+effect ida second half o' him laek whit da auld fiddlers
+did fir a dancing it fairly  pits a queef itil him.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 40
+T: DA SCALLOWA LASSES
+S: Colin Clark, Cullivoe
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+|: vAua-a(v^f e)fe(ud | cd)e(u^f ga)gd | ve(ua-a)(v^fe)fe(ud |1 cA)BG A2BG :|2 cABG A2A2 |]
+|: BE (3EEE c2cA | ded(uB g^f)ed | veua-a(vg e)^fe(d |cA)BG A2A2 :|
+%%begintext align
+Dis is wan o' da auldest Shetland t\"uns an wis fun aa ower Shetland.
+Dis wye o' him comes fae da Midbrake Papers an seems to be da auldest
+een o' da lot.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 41
+T: DA GALLEY WATCH
+S: Gwen Wiseman, Hamnavoe Primary
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: none
+L: 1/8
+K: D
+(ue |\
+kf2)vd(uf af)d(uf | ke2)c(ue ge)c(ue | kf2)d(uf af)d(uf | eg)fe vfud-d2 :|
+|: (vB |\
+kA)(uGFG) [A2D2][AD](vB | kA)GFE k[A2E2]k[A2E2] | DEFG kA(G[A2F2]) | vA(ugfe) vf(d-d2 :|
+%%begintext align
+Dis is an auld t\"un which was played nearly all o'er Shetland.
+It meybe wis made up be some een dat wis sailin ida Merchant
+Navy.  Da galley is da kitchen o' da ship an da watch refers
+to da men dats on duty on deck.  Sometimes een would oag in
+quietly whin da officer wisna lookin an mak a cup o' tae.
+Dis wis kent as da galley watch.  Dis version wis played in
+wir hoose in Eshaness whin I wis young.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 42
+T: JACK IS YET ALIVE
+S: Bobby Gear, Anderson High
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+|:\
+[DG,][EG,][GG,]B {B}[A2D2](uAc) | BdBG vA(uGEG) |\
+[DG,][EG,][GG,]B A2(uAc) |[1 vB(uGAF) G3E :|[2 BGAF G2G(uB ||
+k[g2B])ge f2fd | efge agfd | v[g2B2]ge f2fd | efag f2d2 |
+g2ge f2fd | (kv[e2A2][eA])f e(udB2) | vg2fg {f}[e2A2](dc) | vB(uGAF) G2-G2 |]
+%%begintext align
+Dere wis aince a fiddler caaed Jack it as taen wi da Press Gang.
+Dey took him oot o' a boat alang wi da rest o' da crew an naebody
+kent what hed happened te dem.  Dey tocht da boat hed been lost
+wi everybody in her.  Dey were pitten ida Navy an Jack wis awa
+fir five years.  Finally dey slippit him an he made fir hame as
+fast as he could.  Dey wir nae roads denadays so it took him a
+braw while to win hame.  Whin he got to da hoose it wis dark, an
+whin he guid in his midder tocht he wis a feyness.  Hooever, sh\"u
+saw it he wis real an made him a cup o' tae.  Whin he'd finished
+his tae he rekked doon da fiddle it was hangin' upa da wa' an efter
+he'd gotten her tuned he played a t\"un.  His midder wha kent aa da
+t\"uns at dat time saed, "Boy I'm never heard yon-een afore; what's
+yun?" Jack said, "Yun's een I made up as I wis maakin fir hame
+an I caa him, "Jack is Yet Alive".  Dis wis da first t\"un I learned
+fae me grandfaider.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 43
+T: SAIL HER OWER DA RAFTTREES
+S: Andrea Pottinger, Hamnavoe Primary
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+(vD2 |\
+G2)(uBG) AGB(uG | DG)BG G(ugfg) | G2(BG) AGB(uG | G,A,)B,C D(ucBA) |
+G2)(uBG) AGB(uG | DG)BG G(ugfg) | (3ddd d[fd] d2(cB) | AGAB cBA(uF :|
+|:\
+G2)vgg gage | (3ddd [fd]d d(ugfe) | (3ddd [fd]d d2cB | AGAB cBAF :|
+%%begintext align
+Dere wis mony a coorse day ida haaf days whin dey were gyaain
+awa oot maybe thirty miles off fae da land til Ronas Hill lay
+laek a cummelled boat ipa da water.  Iver sae aften da wind wid
+birse up an afore ye kent it wis blawin dat strong it du had ta
+tak in maybe aa da reefs at wis ida sail.  Da fiddler, whaever
+he wis it made up dis een, tocht upa da seas it dey wir sailin
+troo as high as da ruif ida hoose.  Du can hear ida first
+turning foo da t\"un gengs right fae da back string o' da fiddle
+up te da first een an back agan just laek da boat wid a d\"on
+running trow da seas.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 44
+T: DEIL STICK DA MINISTER
+S: Christine Leask, Mid Yell J.H.
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+"*"\
+|: (vAd)(ufd) e<ec(ue | fd)fd {f}vg2(ueg) | (vfd)(ufd) e<ece | d2 (ed)cA vA2 :|
+|: (ufg)af (vga)gf | e=cgc ecg(uc | fg)af gece | d2 (ed).cA A2 :|
+P: * second time bowings
+| (uAd)fd e<ec(ue |
+%%begintext align
+Ida auld days da minister never laekit da fiddle, no laek
+nooadays whin ministers play da fiddle an sometimes get
+fiddlers to play da hymns ida kirk.  Dis t\"un wis made up
+whin a very streek minister in Unst guid aroond brakkin aa'
+da fiddles he could lay his haands on.  Hooever dere wis
+ee fiddler it hoided his fiddle an da minister couldna fin
+him.  A peerie while later a new t\"un appeared ida parish
+an was caaed "Deil Stick da Minister".  Nooadays it wid be
+caaed a protest t\"un.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 45
+T: KALE AND KNOCKIT COARN
+S: Kim Tyrrell, Baltasound
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+{f}g |\
+G2(uBG) dGBuG | {D}uGz vG,z u{f}vg2(fg) | (3AAA ^cA e(uAcA) | edef g2(fg |
+G<G BG dGBG | {D}.Gz .G,z {f}g2fg | aefd e(udBG) | Ac BA G2 {f}g2 :|
+|:\
+dgBg dgBg | dBdg f2(ed) | e^cac ecac | edef g2(ufg) |
+dgBg dgBg | dBdg f2(ued) | aefd edBG | A<A Bd e2 g2 :|
+%%begintext align
+Da name o' dis t\"un is an auld Shetland mael.  It translates
+as, "Cabbage and Bruised Oats."  The "k" in knockit is pronounced,
+which wis da wye wi aa words beginning wi "kn" in
+Shetland ida auld days.  Dis is really no a Shetland t\"un ava.
+He's Scottish an his real name is "Bob o' Fettercairn", but
+he's been played dat lang aa ower Shetland an dey're dat mony
+wyes o' him at maist Scots widna ken him noo.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 46
+T: MAGGIE O' HAM
+S: Jim Clark, Burravoe
+R: jig
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Bar 9 of the 2nd version has G#s; they are clearly meant as As on the E string.
+M: 6/8
+L: 1/8
+K: A
+|:\
+vA2(uB/c/ e2.f) | ve2(uc B3) | vA2(uB/c/ e2.c) | vB3 uE3 |\
+vA2(uB/c/ e2.f) | ve2(uc BAB) | {cd}vc3 uA3 | (A3- A2)E :|
+"*"|:\
+vA2uA A2A | G2G G2G | F2A E2C | B,2A, B,2C |\
+(vA,B,C E2)uF | vE2(uC B,A,B,) | C3 A,3 | A,3- A,3 :|
+P: * second time bowings
+| vA2uA- A2uA | vG2uG- G2uG | "etc."y y6 y6 y6 y6 y6 y6 y6 y6
+P: "Scordatura" version for AEae tuning:
+|:\
+A2B/c/ e2f | e2c B3 | A2B/c/ e2c | B3 D3 |\
+A2B/c/ e2f | e2c BAB | {cd}c3 A3 | A3- A2D :|
+"*"|:\
+A2A A2A | F2F F2F | E2A D2B, | A,2G, A,2B, |\
+G,A,B, D2E | D2B, A,G,A, | B,3 G,3 | G,3- G,3 :|
+%%begintext align
+Dere's no an awful lok we ken aboot dis een.  He comes fae Foula
+bit wha Maggie o' Ham wis ah'm never fun oot.  It wid seem ta wis
+dat he might hae been \"osed fir da Shaalds o' Foula dance at ee
+time as he is dat kind o' a t\"un.  Noo we're written him twa wyes,
+da first wye is wi da strings as du usually sets dem bit da Foula
+man it I heard playin' him hed his two back strings set to A and E.
+Dis alters da fingering.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 47
+T: DA BURN O' WEINDIA LITTLE
+S: Colin Jamieson, Uyeasound
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+B |\
+kA2A2 FGA(uF | ED)CD EFGE | D2DE FGA(uF | AB)de fd d :|
+|: e |\
+(vfgf)e fgka2 | (uec)Ac efkg2 | (uf<a)ef dBAF | ABde fud-d(ve |
+f)gfe fga(uf | ed)cd efge | afeg vd(uBAF) | Adfe fd d2 |]
+%%begintext align
+Dis een is fae Hillsook an is caaed efter a burn it ran doon fae
+Pakin ta da sea.  Nooadays hits naething bit a stripe, bit dey
+said a while ago hit was a braw big burn an dey could hear da
+hush o da water rinnin doon wi a fine still night. Du can hear
+da soond o' da burn whin da fiddle rings oot apo da lower strings
+ida first half o' him.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 48
+T: DA FASHION O' DA DELTING LASSES
+S: Margaret Robertson, Mid Yell J.H.
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|:\
+(uDF)AF dFAF | G","y/BAF GEkE2 | (uDF)AF dFAF | G","y/BAG FDkD2 :|
+ud2","y/ef gef(ud | fg)af gfec | vd2","y/(ef) gef(d | AB)AG FDD2 |
+ud2","y/ef gef(ud | fg)af gfec | vd2(ef) kaef(d | AB)AG FDD2 |]
+%%begintext align
+Some folk say it did een is taen fae a Scottish t\"un caaed da "Duke
+o' Perth".  What wye he cam ta Shetland we niver ken bit da fiddlers
+fan oot it he could be turned in til a Shetland Reel an so dye \"osed
+him fir dat.
+
+Dey said at da Delting lasses wir awful fine dancers an it becam da
+fashion ta dance laek dem.  Idder eens said dey wir awful fashie
+so maybe dere's a bit o' afftak  ida name o' him.  Sometimes whin
+I play him hit minds me o' what da auld folk telt me aboot da Bad
+Day in 1900 whin sae mony Delting men were lost at da fishing, an
+hoo da lasses st\"od ida doors o' da hooses aye lippinin to see da
+boats comin sailin in trow da voe.  Efter dat naebody in dat district
+hed da hert to dance an onewye maist a what wis left moved awa an noo
+da hooses aa stand empty.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 49
+T: HEN'S MARCH
+S: Colin Nicholson, Cullivoe
+R: march
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%slurgraces
+|:\
+{ABc} d2 A2 de f(ug | f<a) gf [e3A3] (uA |\
+d3)(ve Tf3)(uf | g2fg) v{f}a3z |
+va>gf<a g>fe<g | Tf>ed>f A3(uA |\
+d)>fe>g f<ag<f | {f}[e4A4] d4 :|
+|:\
+uk.[A2A2] uk.[c2A2] uk.[A2A2] uk.[c2A2] | uA2 uA>v[cG] {gf}ve2 uf2 |\
+kd2 {g}u[f2d2] ukd2 {g}uk[f2d2] | ud2 udve Tvf2 ua2 |
+ud2 ud>v[fd] vT[g2B2] u[b2B2] | ud2 ud>ve vTf2 ua2 |\
+ud2 ud>v[fc] {a}vT[g2B2] u[b2B2] | ud2ud>ve vTf2 ua2 |
+a>gf<a g>fe<g | Tf>ed<f A3(A |\
+d)>(.f.e)>g f<ag<f |1 {gf}[e4A4] d4 :|2 {gf}.e2z2 [d2F2A,2]z2 |]
+%%begintext align
+Dis t\"un was wan dat was aye spoken aboot whin I wis young bit I
+never heard onybody playin him.  When I wis startin' to read
+music, Muckle Willie Thomson o' Tanook gave me a loan o' some
+manuscripts an dis t\"un wis amang dem.  I tochtna muckle o' him
+whan I tried him ower first bit efer I sat an watched a hen fir
+a while I began ta get da wye o' it.  Later on whin I met up wi
+Peerie Willie Johnson an we played him tigedder on the Children's
+Hur in 1948, he became very popular.
+
+If du's gaen ta get da right clang o' da hen, du'll hae to follow
+da fingerings an bowings as marked.  Mind du disna play him ower
+fast cause a hen aye took her time whin sh\"u scratched ida midden.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 50
+T: DA BOANNIE LASS O' BEKKA HILL
+S: Melvyn Leask, Anderson High
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: none
+L: 1/8
+K: D
+uB | AGF(uD EF)vG2 | vA(uGFG) (v(3Acd) F2 | vA(ud FD) EFG(uB | AG)FG Ad-d2 :|
+|: A | defa e(udcA) | defa f(udg2) | fdd(uf ed)cA | B(uGFG) Aud- d :|
+%%begintext align
+Dis is a t\"un fae da Wast Side o' Shetland.  I got him fae Peter
+Fraser o' Finnigirt an he aye played him a peerie bit slower dan
+da usual Shetlan' reel.  Dey were words at ee time.  I mind ee
+verse an it says:
+%%endtext
+%%begintext
+		If I hed anidder sixpence
+		I wid buy anidder gill
+		I wid axe da fiddler te play
+		"Da boannie lass o' Bekka Hill".
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 51
+T: DA BLUE YOWE
+S: Estelle Johnson, Hamnavoe
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: There's an extra count in the last bar.  Fixed by making the rhythm match bars 4 & 6.
+M: C
+L: 1/8
+K: D
+   f | afdf ede<e | (B/c/B) ed B2Af | afef edee | (e/f/g) fe {Bc}d3 :|
+|: A | d2fd ed BB | d<B ed {Bc}B2AA | d2fd edee | (e/f/g) fe d3 :|
+%%begintext align
+Dis is anidder t\"un o' Freddie Stickle's.  Wan day whin he wis
+at da cr\"u an dey wir rooin sheep twa folk fell oot aboot wha
+owned a yowe.  Whin Freddie cam hame he composed dis t\"un an du
+can hear da folk flytin as du plays him.  Da colour o' da yowe
+wis a dark blue bit dat strain o' sheep is aa dead oot noo.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 52
+T: PEERIE HOOSE AHINT DA BURN
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+D |:\
+GABc dBG2 | (uga)gf e2dc | (uBG)Bd cABG | ABAG TE2D2 |
+GABc dBG2 | (ga)gf e2dc | (uBG)Bd cAFA |[1 G2[GB][B-G-] [B3G3]D :|[2 G2[BG][B-G-] [B3G3]g |]
+Tfefg afd2 | (uga)gf e2dc | BGBd cABG | ABAG E2eg |
+fefg afd2 | (uga)gf e2dc | BGBd cAFA | G2GG- G2g2 |
+fefg afd2 | (ufa)gf e2dc | BGBd cABG | ABAG E2D2 |
+GABc dBG2 | (uga)gf e2dc | BGBd cAFA | [B2G2][BG][B-G-] [B4G4] |]
+%%begintext align
+In Waas dis t\"un wis caaed "Hae ye ony moorit oo?" an in Eshaness
+an Nor Yell it wis caaed "Da Doonfaa' o' Paris".  Da Peerie
+hoos wis what some auld folk caaed an ootside water closet.  Da
+t\"un is really a variant o' an English t\"un caaed "Fay's Hornpipe"
+bit he's been played aa ower Shetland fir mony a year.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 53
+T: AULD SWAARA
+R: lament
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+uD |\
+vGG D(3D(uB,G,) | (3Du(GD) (v(3B,A,B, | G,2) {c}(u(3BAF) |\
+G2G2 (3D(B,G,) | (3D(GD) (3(B,A,)B, | vDG G :|
+|: uA |\
+(vG/F/E/D/) ((3CEC) | ((3B,DB,) (A,>B,) | G,2 {c}((3uBAF) |\
+(vG/F/E/D/) ((3CEC) | ((3B,DB,) (A,>B,) | vDG G :|
+|: uD |\
+(vG/F/E/)uD/ G g | ve2(ud/B/) d/(ue/f/g/) | va2 {A}(3BAF |\
+(vG/F/E/)D/ G g | ve(ud/B/) (3d(gd) | vBG G :|
+%%begintext align
+Dis een is a lament fir fishermen wha were lost at sea ida time o'
+da Haaf fishing.  Naebody ida auld days laeked to caa a dead body
+be dere name.  Dey wir aye spoken aboot as "her it belanged ta me",
+or "da bairn's faider".  Ivery fisherman at dat time wore next til
+his skin a heavy knitted singlet caaed a jupie usually made oot o'
+3 ply black wirsit.  Dis wis referred to as da swaara, or dark jupie,
+so da name really means da auld swaara jupie.
+
+I got dis t\"un fae da late Peter Fraser, wha telt me dat his
+grandfaider aye said da t\"un was composed in deep sorrow, and da story
+o' da jupie fae my faider.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 54
+T: DEBBIE'S REEL
+C: Tom Anderson
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A, |:\
+DCD(uE FE)F(uA | dc)de fdAF | GFGA BABd | gfed cAGE |
+DCDE FEFA | dcde fdAF | GABg fdec | [1 d2dd- d3A, :|[2 d2dd d2fg |
+va(ufef) dcde | fdad fd-df | gfed caAa | Bged cAfg |
+afef dcde | fdad fddB | GABg fdec | d2dd d2fg |
+afef dcde | fdad fd-df | gfed caAa | Bged cAGE |
+DCDE FEFA | dcde fdAF | GABg fdec | d2dd- d2z |]
+%%begintext align
+I made up dis t\"un to Debbie Scott, wan o' my pupils.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 55
+T: RUBY'S SUCCESS
+C: Steven Spence
+R: march, reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: none
+L: 1/8
+K: D
+AG |:\
+.F2.D2 .G2.E2 | A2d2 d2cd | e2A2 fedc | d2A2 ABAG |
+F2D2 G2E2 | A2d2 d2cd | e2A2 fedc |1 d4- d2AG :|2 d4-.d2cd |:
+ve2A2 cAce | e2[e2B2] [e2B2]cd | e2A2 aece | d2[e2B2] [e2B2]cd |
+e2A2 cAce | d2[e2B2] [e2B2]cB | vA4 fe dc |1 d4- d2cd :|2 d4-d4 |]
+%%begintext align
+Dis is a t\"un composed be Steven Spence, wan o' da young fiddlers
+fae Uyeasoond in Unst.  His midder Ruby wan a competition run
+be Radio Aberdeen whaur shu had te say whit band was playing.
+Whin shu wan it he made up dis t\"un fir her.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 56
+T: RADIO SHETLAND
+S: Eunice Henderson, Bells Brae
+R: reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+de |\
+f2fd e2ec | dedB A2de | f2fd efec | ve<ua-.a2 v.a3A |
+[e2d2][ed][ed] [e2c2][ec][ec] | BcdB A2de | f2fd efec | vA<ud-d2 d2 :||: fg |
+a2af d2dA | BABd A2de | f2fd efec | e<a-[a2A2] [a3A2]A |
+[e2d2][ed][ed] [e2c2][ec][ec] | BcdB A2de | f2fd efec | vA<ud-d2 d2 :|
+%%begintext align
+Dis is annidder wan o' Steven Spence's it he composed whin
+Radio Shetland started broadcasting.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 57
+T: AIRTHREY CASTLE
+C: Tom Anderson
+R: march, reel
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Endings adjusted to get correct measure lengths.
+M: C
+L: 1/8
+K: D
+(fe) |\
+vd2AG kF2A<d | kG2B<d kF2A<d | fdfa gfed | g<Bed kc2fe |
+d2AG kF2A<d | kG2B<d kF2A<d | fAgf eGed |1 d4- d2 :|2 d4 d2fg ||
+abag fgfe | defd A2ef | gagf efed | c<aB<g A2fg |
+abag fgfe | defd A2ef | gBed cBGe | d4- d2fg ||
+abag fgfe | defd A2ef | gagf efed | c<aB<g | A2fe |
+d2AG kF2A<d | kG2B<d kF2A<d | fAgf "Rall"eGfe | d4 d2 |]
+%%begintext align
+I made up dis t\"un was moarnin at 5.00 a.m. whin I waakened up
+wi da notes rinnin thro me haed.  Airthrey Castle wis da place
+whaur we hed da Summer School run be Stirling University.
+%%endtext
+
+%%newpage
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 99
+T: Glossary of Shetland words
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K:
+
+%%begintext
+   --- A ---
+aa - all
+afftak - sarcasm
+ain - own
+aince - once
+aisy, aisiest - easy, easiest
+aits - oats
+an - and
+andowin - keeping a boat in one place by means of oars
+anidder - another
+at - which that
+auld, auldest - old, oldest
+awaur - aware
+aye - always
+%%endtext
+
+%%begintext
+   --- B ---
+baid - stayed
+baith - both
+bap - small loaf or roll of bread
+bank - a raised shelf of ground
+be - by
+bedd - lived, stayed
+binin- staying
+birse - show anger, become fierce
+bit - but
+body - person
+boo - bow
+brae - small hill
+brak - break
+braw - a lot of
+braw grain - quite a lot
+braw twartree - many more than two or three
+broo - brow of hill
+brook - broke
+buks - stride over with heavy action
+%%endtext
+
+%%begintext
+   --- C ---
+caaed - called
+caird card wool
+clag - cackle, as of hen
+cleek - use deftly
+coarn - oats
+cr\"u - enclosure for sheep
+cummelled - tumbled over upside down
+%%endtext
+
+%%begintext
+   --- D ---
+da - the
+dat - that
+dee - you
+deesel - yourself
+denadays - in those days
+dere - there is or there are
+d\"oe - do
+d\"on - done
+du - you
+dunt - blow
+dye -your
+%%endtext
+
+%%begintext
+ --- E ---
+ee - one
+een -one
+%%endtext
+
+%%begintext
+   --- F ---
+fae - from
+faider - father
+fan - find
+farder - further
+fashie - fussy
+feyness - spirit, ghots
+fir -for
+fit -foot
+foo - how
+flytin - speaking angrily
+fou - full
+frae - from
+fun -found
+%%endtext
+
+%%begintext
+   --- G ---
+gaen - gone
+geein - giving
+geen - given
+gengs - goes
+grund - ground
+guid - went
+gyaain - going
+%%endtext
+
+%%begintext
+   --- H ---
+haaf - far off fishing ground at edge of continental shelf
+hae - have
+hadd - hold
+haver - pause
+hedder - heather
+hoid - hide
+hoo-som-iver - however
+%%endtext
+
+%%begintext
+   --- I ---
+ida - in the
+idder -other
+ipa - upon
+it - that
+itil - into
+ivery - every
+%%endtext
+
+%%begintext
+   --- J ---
+jupie - woolen singlet, undershirt
+%%endtext
+
+%%begintext
+   --- K ---
+kail - cabbage
+kirk - church
+knockit - bruised
+%%endtext
+
+%%begintext
+   --- L ---
+laekit - liked
+laikly - likely
+lain - alone
+lang - long
+licket - stepped smartly
+lippin - expect
+lok - lot
+lunk - half leap; a walk with bopping action
+%%endtext
+
+%%begintext
+   --- M ---
+maist - most
+midden - compost heap
+midder - mother
+mirrie dancers - aurora
+muckle - big
+%%endtext
+
+%%begintext
+   --- O ---
+oag - creep, sneak
+oan - own
+ony - any
+oo - wool
+\"ose - use
+oot - out
+owre - over
+%%endtext
+
+%%begintext
+   --- P ---
+peerie - little
+pittin - put
+pooin - pulling
+%%endtext
+
+%%begintext
+   --- Q ---
+queef - lift, played with excitement
+%%endtext
+
+%%begintext
+   --- R ---
+raftrees - rafters
+rekked - reached
+ripin tatties - digging potatoes
+rooin - pulling wool from sheep by hand
+rowlin - rolling
+%%endtext
+
+%%begintext
+   --- S ---
+sae - so
+sheep gaets - sheep paths or tracks
+sh\"u - she
+stank - ditch
+st\"od - stood
+stramp - stamp with feet
+streek - strict
+strick - strike
+stripe - strip of water or small burn
+swaara - heavy knitted woolen underwear usually of a dark shade
+%%endtext
+
+%%begintext
+   --- T ---
+ta, te - to
+taen - taken
+tattie - potato
+tagedder - together
+ting - thing
+tink - think
+tocht - thought
+tree - three
+trow - through
+trows - fairies, little people
+t\"un - tune
+twa - two
+twalmonth - twelve months
+twartree - two or three
+%%endtext
+
+%%begintext
+   --- W ---
+wan - one
+whaur - where
+whin - when
+whit - what, which
+win - get
+wint - accustomed
+wir - our
+wirsit - woollen yarn
+wis - was
+wis - us
+wisna - wasn't
+wye - way
+%%endtext
+
+%%begintext
+   --- Y ---
+Yakki - Eskimo
+yowe - ewe
+yun - that
+%%endtext

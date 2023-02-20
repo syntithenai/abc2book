@@ -1,0 +1,15 @@
+X: 1760
+T: Roger Was A Plowboy   #2
+R: hornpipe, reel
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #1760
+O: F.O'Neill
+Z: Bob Safranek, rjs@gsp.org
+N: Compacted by using labels and play order [JC]
+P: Play ABAB CBCB
+M: C|
+L: 1/8
+K: G
+"^A"[|] (GF) | DGGF GABG | AFDE F2 ((3ABc) | defd cAGF | DEFE FGAF |]
+"^B"[| DGGF GABG | AFDE F2 ((3ABc) | dfeg fdcA | GBAF G2 |]
+"^C"[| ((3ABc) | dedB c2(Bc) | dgfa g2(ga) | bgag fdde | fdcA GBAF |]

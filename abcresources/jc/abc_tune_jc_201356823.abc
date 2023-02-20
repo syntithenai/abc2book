@@ -1,0 +1,28 @@
+X: 1
+A:Adam de la Halle
+T:Dame or sui trais
+N: (condensed)
+M:3/4
+L:1/4
+Q:1/4=136
+K:F Lydian
+%
+V:1 clef=treble
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+%%MIDI program 1       70 bassoon
+%%MIDI program 2       71 clarinet
+%%MIDI program 3       72 piccolo
+%
+[V:1 ][K:C] F3       | E3  | F (DE)|  F3         ||  E2    (E/4D/4C/)|(E C) (E |G2)  z ||
+[V:2 ][K:C](C/B,/A,2)| B,3 | C (ED)|  C (C/B,/A,)|| (A,/G,/ F,2)     |(E,F,)(A,|G,2) z ||
+[V:3 ][K:F] F,3      | G,3 | F, D,2|  F,3        ||  A,2   (A,/B,/)  | C2   (C |D2)  z ||
+w:  1.6.14.~Dame,      or   sui tra-  ïs     2.7.15.~Par    l'o-*      coi-  son*
+w:~~~5.~~~~~Et         par  vo  douch ris
+w:~~~10.~~~~Car        il   est as-   sis ~~~~11.~~~~Sur    cuer*      fé-   lon*
+%
+[V:1 ][K:C]  A   (G/F/E)| F   G2  | A3     ||      (F/E/    D)(F/E/)|(D/C/   B,2)| C3  ||
+[V:2 ][K:C]  A,   B,2   | C   D2  |(E/D/C2)||      (C/B,/   A,2)    |(G,/F,/ E,2)| F,3 ||
+[V:3 ][K:F]  E   (DG,)  | F,  B,2 | A,3    ||      (F,/G,/) A,2     |(B,/A,/ G,2)| F,3 ||
+w:   3.8.16.~De   vos*    iex qui   sont    4.9.17.~Pri-*   vé        lar-**      ron.
+w:~~~~12.~~~~Dont j'a-*   pel vo    vis     13.~~~~~De*     tra-      ï-**        son.

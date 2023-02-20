@@ -1,0 +1,17 @@
+X: 1
+T: Wirt vo Stoa (G)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 3/4
+L: 1/8
+K: G
+|: "D7"[D2D2] [E2^C2] [F2=C2] \
+|[M:2/4][L:1/8] "G"[G2B,2] z [DB,] | [D2B,2] z2 \
+|[M:3/4][L:1/8] "C"[E2C2] [F2D2] [G2E2] \
+|[M:2/4][L:1/8] "D7"[A2F2] z[GE] | [F2D2] z2 \
+|[M:3/4][L:1/8] [ec][dB] [cA][AF] [FD][AC] | "G"[G2B,2] z2 z2 :|
+|: "G"[GB,][BD] [BD][AC] [GB,][BD] \
+|[M:2/4][L:1/8] [d2G2] [B2G2] | [e2c2] [d2B2] \
+|[M:3/4][L:1/8] "D7"[c2A2] [cA][AF] [EC][cF] \
+|[M:2/4][L:1/8] "G"[B2G2] [BD][AC] | [G2B,2] \
+|[M:3/4][L:1/8] [ec][dB] [cA][AF] [FD][AC] | "G"[G2B,2] z2 z2 :|

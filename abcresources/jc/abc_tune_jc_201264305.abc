@@ -1,0 +1,22 @@
+X:27
+T: Conundrum, The
+C:Peter MacLeod
+M: 4/4
+L: 1/8
+R: hornpipe
+Q:180
+K: A
+A>B|\
+"A"c2 A>B e>f c2|A>c e>a "D"f2 (e>f)|"A"a2 e>f e>f c2|A>c e>c "E7"B2 A>B|
+"A"c2 A>c e>f c2|A>c e>a "D"f2 (e>f)|"A"a2 e>f e>f c2|"E7"{c}B2 A2 "A"{B}A2 :|
+vf>g|:\
+"A"a2 e>f a>e a2|e>f a>e "D"f2 (e>f)|"A"a2 e>f e>f c2|
+[1A>c e>c "E7"B2 (f>g)|"A"a2 e>f a>e a2|e>f a>e "D"f2 (e>f)|"A"a2 e>f e>f c2|"E7"{c}B2 A2 "A"{B}A2 f>g:|2
+A>c e>c "E7"B2 A>B|"A"c2 A>c e>f c2|A>c e>a "D"f2 (e>f)|"A"a2 e>f e>f c2|"E7"{c}B2 A2 "A"{B}uA2|:
+ue2|\
+"A"A>B c2 A>B(c>A)|c<e A>B c2e2|"D"f>g a2 "A"e>f c2|A>c e>c "E7"B2e2|
+"A"A>B c2 A>B(c>A)|c<e A>B c2e2|"D"f>g a2 "A"e>f c2|"E7"{c}B2 A2 "A"{B}A2::
+ua2|\
+"D"f>e a>e f2 (e<a)|f2 (e<a) f>e a>e|f>g a2 "A"(e>f) c2|
+[1"E7"A>c e>c "A"B2ua2|f>e a>e f2 (e>a)|f2 (e<a) f>e a>e|f>g a2 e>f c2|"E7"{c}B2 A2 "A"{B}uA2:|
+[2"E7"A>c e>c "A"B2 (A>B)|c2 d>c e>A c2|d>c e>A f2 (e>f)|a2 e>f e>a c2|"E7"{c}B2 A2 "A"{B}A2 |]

@@ -1,0 +1,27 @@
+X: 1
+T: (C'\'e la) Luna Mezzo Mare   [G]
+O: Sicilian folk tune
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: "G"B3 A3 | G3 DEF | G2F E2D | "D7"[F6A,6] \
+|     A3 G3 | F3 DE=E | FED CB,A, | "G"G,6 :|
+[| "G"z2z B2B | A2G A2A | G2G A2A | G2F E2D | "D7"D3 A,3- | A,6- | A,6 |
+|     z2z c2c | B2B A2G | F2E D2E | D2C B,2A, | "G"G,6- | G,6 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2
+T: (C'\'e la) Luna Mezzo Mare   [D]
+O: Sicilian folk tune
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: "D"f3 e3 | d3 ABc | d2c B2A | "A7"[c6E6] \
+|     e3 d3 | c3 AB^B | cBA GFE | "D"D6 :|
+[| "D"z2z f2f | e2d e2e | d2d e2e | d2c B2A | "A7"A3 E3- | E6- | E6 |
+|     z2z g2g | f2f e2d | c2B A2B | A2G F2E | "D"d6- | D6 |]

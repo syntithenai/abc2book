@@ -1,0 +1,15 @@
+X: 1
+T: Wei\ssenberger Bayrisch  [C]
+R: zwiefache
+O: Bayrischer Wald
+M: 2/4
+L: 1/8
+K: C
+G2 \
+| "C"[e2c2][ec]G | [e2c2][ec]G \
+|[M:3/4][L:1/8] [e2c2] [ec][dB] [ec][fd] | "G7"[d4B4] [dB][ec] \
+|[M:2/4][L:1/8] [f2d2][fd]G | [f2d2][fd]G \
+|[M:3/4][L:1/8] [f2d2] [fd][ec] [fd][ge] | "C"[e4c4] :|
+|: [g2e2] \
+|[M:2/4][L:1/8] "F"[a2f2][g2e2] | [f4c4] | "C"[g2e2] [f2d2] | [e4c4] \
+|[M:3/4][L:1/8] "G7"[d3B3] [ec] [f2d2] |1 "C"[ec][dB] [ec][fd] :|2 "C"[e4c4] |]

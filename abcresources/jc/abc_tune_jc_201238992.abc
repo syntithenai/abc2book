@@ -1,0 +1,18 @@
+X: 3193
+T: Miss Hamilton of Bangowre's    Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.19 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - -
+V: 1 staves=2
+A/B/ |\
+c>dTcA c>dcA | A<cf>A {A}G2 GA/B/ | c>dcA cdfa | f<dTc>A {A}F2F :| B | A<cf<a Tf>afc | d<fTc>A {A}G2 GB |
+A<cfc f>afc | d<fTc>A F2 F c/B/ || A<cfa A<cfa | Tc2 (f/g/a) gG GA/B/ | Tc>dcd f>g {fg}a>g | f>dTcA {A}F2F |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | f2f2 f2f2 | f2f2 c2c2 | f2f2 f2f2 | b2c'2 f2f :| z | f2f2 f2f2 | b2f2 c'2c2 |
+f2f2 f2f2 | b2c'2 f2f2 || f2f2 f2f2 | a2f2 c'2c2 | f2e2 d2f2 | b2c'2 f2f |]

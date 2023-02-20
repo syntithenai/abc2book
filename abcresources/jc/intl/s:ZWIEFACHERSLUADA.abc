@@ -1,0 +1,19 @@
+X: 73
+T: Zwiefacher S Luada
+O: Germany
+M: 3/4
+L: 1/8
+Q: 1/4=192
+K: F
+%%MIDI program 57
+%%MIDI bassprog 57
+%%MIDI chordprog 74
+%%MIDI bassvol 110
+%%MIDI chordvol 90
+  [M:2]"F" c3z  | "C"A3z |"F"B2 B2         | "Bb"G3z |"F" F4|z4\
+|:"F"c3z        |"F" A3z |[M:3/4]"Bb"ABBAG2|"F"GAAGF2|
+  [M:2/4]"F"c3z | A3z    |[M:3/4]"Bb"ABBAG2|"F"F4z2  :|\
+|:[M:2/4]"F" f3z|"C"e2 e2|"Bb"d2 d2        |"F"c2 c2 |"F"A4 |
+  "Bb"B2 B2     |G2 G2   |"C"AGAB          |"F"c3z   |\
+  "Bb"f3z"C"    |e2 e2   |"Bb"d2 d2        |"F"c2 c2 |A4    |
+  "Bb"d2 d2     |"C"e2 e2|"F"f2 f2         |f4       :|

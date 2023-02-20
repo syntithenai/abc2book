@@ -1,0 +1,36 @@
+X: 162
+T: the Boat Song
+C: C. M. Con Weber
+Q: "Moderato."
+%R: air, jig, waltz
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Eb
+V: 1 nm=""
+V: 2 nm="" clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [| [B3-G3-] [BG] [GE] [cA] | [B3-G3-] [BG] [GE] [eG] | [d3-A3-] [dA] [cA] [dA] | [e3-G3-] [eG][dB] [cA] | [B3-G3-] [BG] [GE] [cA] |
+w: 1.~On* we are float - ing in sun - shine and shad -* ow,     Soft* are the
+w: 2.~Light - ly our boat* on the wa - ter is swing -* ing,     On - ward she
+w: 3.~Com - rades, sing on,* while the ech - oes, a-wak -* ing, Join* in your
+w: 4.~Soon* will the man - tel of ev'n - ing fall o'er** us,    Soon* will the
+%
+[V:2] [| [b3-e3-] [b2e2] [be] | [b3e3] [b2e2] [be] | [b3f3] [b2B2] [bB] | [b3e3] [b3B3] | [b3e3] [b2e2] [be] |
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [B3-G3-] [BG] [GE] [eG] | [d3-A3-] [dA] [cA] [dA] | [e3-G3-]  [e2G2]z | [e3-c3-] [ec] [dB] [cA] | [B3-G3-] [BG] [AF] [GE] |
+w: rip -ples that sing* as we go,*           Soft - ly they break* on the
+w: floats* while the | swift* oars we play,* Gay* are our hearts* as the
+w: mu - sic with hap - py re-frain,*         Sing* while the waves* on the
+w: day - light fade out* from the sky,*      Then* with the thought* of a
+[V:2] [b3e3] [b2e2] [be] | [b3G3] [b2B2] [bB] | [b3-e3-] [b2e2]z | [a3A3] [a2c2] [c'e] | [e'3e3] [b2e2] [be] |
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [F3-D3-] [FD] [GE] [AF] | [B3-G3-] [BG][AF] [GE] | [e3-c3-] [ec] [dB] [cA] | [B3-G3-] [BG] [AF] [GE] | [F3-D3-] [FD] [GE] [FD] | [E3-B,3-] [E2B,2]z |]
+w: edge* of the mead -* ow,     Woo - ing the grass - es with mel - o-dies low.*
+w: songs* we are sing -* ing,   Bright* are our hopes* as the ra - di-ant sky.*
+w: sun - ny banks break -* ing, An - swer your | ca - dence with mu - sic a- gain.*
+w: wel - come be-fore** us,     Back* thro' the twi - light we'll cheer - ful-ly hie.*
+[V:2] [b3B3] [b2B2] [bB] | [e'3e3] [b3e3] | [a3A3] [a2c2] [c'e] | [e'3e3] [b2e2] [be] | [a3-B3] [aB2]b [aB] | [g3-e3] [g2e2]z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

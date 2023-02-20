@@ -1,0 +1,41 @@
+X: 1
+T: Cupid's Garden
+N: Called "Cuper's Garden" in the CCDM1 Table of Contents
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.107 #151 (213)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.135 "N 2"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+B>AB c>de | dB2- B2d/e/ | f>gf A2B | c3- c2F |\
+B>AB f>gf | gab a>gf | (gcf) f2=e | f3- f2 |]
+f |\
+f>gf g2a | bd2- d2d | e>fe dec | g3- g2f |\
+(ef)d (cd)B | ABG F2a | (g/a/)bG A2B | B3- B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man go the Hey between the 2d and 3d Men into the 4th Man's
+%% Place, then the 1st Wo. do the same as the 1st Man did, then 1st Man back
+%% to back with his own Wo. and cast up into the 2d Place; then 1st Man cross
+%% over into the 2d Wo. Place, and 2d Wo. at the same time cross over
+%% into the 1st Man's Place; then meet and sett, and cast off into the 2d Cu.
+%% Place; then go the half Figure into the 2d Cu. Place, and so turn their
+%% own, the rest doing the like.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% The 1. man go the Hey between the 2. and 3. man into the 4. man's place, then the 1 wo. do the
+%% same as the 1. man did, then 1. man back to back with his own wo. and cast up into the 2. place,
+%% then 1. man cross over into the 2. wo. place, and 2. wo. at the same time cross over into the 1. man's
+%% place, then meet and set, and cast off into the 2. cu. place, then go the half Figure into the 2. cu.
+%% place, and so turn their own; the rest doing the like.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

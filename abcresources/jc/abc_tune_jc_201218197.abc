@@ -1,0 +1,30 @@
+X: 6
+T: Irish Lamentation
+T: Longways for as many as will.
+%R: minuet
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.3
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+N: Bars 5 and 21 are usually identical, but the don't seem to be in this setting.
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+GA |\
+B2B2Bc | B3AG2 | a2A2(AB) | A4GA |\
+B2(cB)(AG) | E3GFE | D2G2G2 | G4 |]\
+G2 |\
+B2d2d2 | d>ed>BA>B | G2g2g2 | g4ed |
+B2d2d2 | e>ed>BA>B | G2g2g2 | g4de |\
+=f>gf>gf>g | e>de>ge>g | d2(ed)(cB) | A4 (GA) |\
+B2(cA)(GF) | E3GFE | G2 G2 G2 | G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Man dances the Minuet Step to the 2d Wo.
+%% & turns her .| the 2d  Man the same to the 1st Wo :|
+%% the 1st Cu. cast down & up again then cross over
+%% and half Figure .| then right hand and left quite
+%% round and turn your Partner.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

@@ -1,0 +1,30 @@
+X: 21283
+T: WESTMINSTER SETT (tune 3)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.128 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has an initial repeat, but no final repeat.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+d/e/ |\
+fzA fzA | fgf efe | dzc dzf | e2(3(d/c/B/) A2d/e/ |\
+fzA fzA | fgf efe | dcB dcB | f3 z2 H|]
+|: F/G/ |\
+ABc def | a2g efg | cde ABc | e3 d2F/G/ |\
+ABc def | a2g efg | cde ABc | (e3 "^D.C."d2) |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance four,
+%% next two forward, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

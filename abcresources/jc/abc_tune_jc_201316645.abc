@@ -1,0 +1,28 @@
+X: 1
+T: New Bath
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.120
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+c2G c2d | e>fe d>ef | (e/f/)gc d2G | ce2- e2 |] a/b/ | c'ga g2e | a>b a/g/ f>ed |
+(e/f/)gc B2A | BG2- G2c | (GE)c B2c | ded/c/ B>AG | (e/f/)gc d2G | ce2- e2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First man take the 2. man by the right-hand, and turn round into their places again, then 1. wo. take the
+%% 2. wo. by the right-hand, and turn round into their places again. This to the first Strain of the tune.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. man cross over into the 2. wo. place, and 2. man into the 1. wo. place, then all four meet and
+%% clap hands, and turn quite round, then 1. wo. cross over into the 2. man's place, and 2. wo. into the 1.
+%% man's place, and meet, then all four clap hands and turn quite round; The other cu. do the same over
+%% again.  This to the second Strain.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

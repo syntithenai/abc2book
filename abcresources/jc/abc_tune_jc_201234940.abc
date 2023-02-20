@@ -1,0 +1,24 @@
+X: 20901
+T: the Short Apron
+%R: air, waltz; slip-jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.90 #1
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Edor
+%%slurgraces yes
+%%graceslurs yes
+"_slow"g>e |\
+{e}d2 B2 B2 | B4 g>e | {e}d2 A2 A2 | A4 (Bc) |\
+d2 (cB)(AG) | g3 a b2 | (B2 e2) T^d2 | e4 ::\
+(dc) |\
+(Bc) d2 e2 | (dB)(dB)(AG) | (AB) d2 (de) | d4 c2 |
+B2 e2 f2 | g4 a2 | b2(ag)(fe) | B4 b2 |\
+(c'2 a2) f2 | (b2 g2) e2 | a2 gfge | {e}^d3 c (BA) |\
+G2 g2 f2 | b2 (ag)(fe) | (B2 e2) T^d2 | e4 :|
+|:[M:6/8] "_Brisk"g |\
+dBB gBB | bBB dAA | dBB gBB | bBd e2g |\
+dBB gBB | bBB dAA | BAG gab | af^d e2 :|
+|: d |\
+Bde dBG | (B/c/d)B dAd | B(c/d/)e dBG | gaf e2d |\
+Bde dBG | (B/c/d)B dAB | G>FE g>ab | af^d e2 :|

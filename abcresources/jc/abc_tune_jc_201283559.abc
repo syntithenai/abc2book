@@ -1,0 +1,110 @@
+I:abc-charset utf-8
+%%titlefont Times-Bold 24
+%%subtitlefont Times-Bold 18
+%%gchordfont Times-Bold 14
+%%composerfont Times-Italic 16
+%%notationfont Times-Bold 16
+%%annotationfont Times-Bold 16
+%%textfont Times-Italic 16
+%%partsfont Times-Bold 14
+%%printtempo 0
+%%printparts 1
+%%partsbox 1
+%%bstemdown 1
+%%withxrefs 1
+%%pageheight 11in
+%%%staffsep .01
+%%topspace .25in
+%%botspace .25in
+%%notespacingfactor 1
+%%stretchlast 0
+%%titleformat  T, R-1 C1
+%%scale .685
+%%footer "Quick Steps\n$P0.		$P1."
+%%newpage 357
+
+X:0
+%%%footer "Section D"
+%%withxrefs 0
+%%lineskipfac 8
+%%textfont Times-Bold 48
+%%begintext center
+%%Quick Steps
+%%endtext
+%%titlefont Times-Bold 1
+I:0
+T:_Quick Steps_
+M:1/1
+K:C
+%%newpage
+
+X:511
+T:Dumbarton Castle 
+C:Joe Buchanan's Scottish Tome - Page 032.0
+I:032 0
+R:Quickstep
+Z:Carl Allison
+L:1/16
+M:4/4
+K:A
+(G2 | [AA]2)>E2 .!tenuto!C2.!tenuto!A,2 | E4- E2 FG | ABcd e2A2 | c2B2 B2c2 |
+{G}[AA]2)>E2 .!tenuto!C2.!tenuto!B,2 | E4- E2 FG | ABcd B2ed | c2A2 A4 :|
+e2 | (a2>g2 f2).!tenuto!a2 | {f}(e4 .c2).A2 | .A.B.c.d e2A2 | c2B2 B2e2 |
+| (a2>g2 f2).a2 | e<e.!tenuto!c2 .!tenuto!A2.!tenuto!F2 | ABcd .!tenuto!B2.e.d | c2A2 A2e2 |
+| (a2>g2 f2)a2 | {f}(e4 .c2).A2 | .A.B.c.d .f.e.d.c | .B.A.G.A .B.d.c.B |
+| {G}[AA]2)>E2 .!tenuto!C2.!tenuto!A,2 | E4- E4 FG | ABcd B2ed | c2A2 A4 |]
+E2 | .A.G.F.E .D.C.B,.A, .E.A,.B,.C .D.E.F.G | .A.B.c.d .f.e.d.c | .B.A.G.A .B.d.c.B |
+| AGFE DCB,A, | EA,B,C DEFG | ABcd B2ed | c2A2 A4 :|
+e2 | agag faea | ecaf ecAF | Bcd fedc | BAGA Befg |
+| agag faea | eaf ecAF |  ABcd B2ed | c2A2 A2e2 |
+| gAag faea | ecaf ecAF | ABcd fedc | BAGA BdcB |
+| AFE DCB,A, | EA,B,C DEFG | ABcd B2ed | c2A2 A4 |]
+
+X:512
+T:Lord Huntly's Cave 
+C:Joe Buchanan's Scottish Tome - Page 033.0
+I:033 0
+R:Quickstep
+Z:Carl Allison
+L:1/16
+M:4/4
+K:D
+de | f2A2 gfed | f2A2 d2cd | e2A2 agfe | dcdf eAde |
+| f2A2 gfed | f2A2 d2f2 | eaca Aaca | {a}d4- d4 |
+ef | a2f2 d2a2 | fAa2 d2cd | e2A2 agfe | dcdf eAfg |
+|a2f2 d2a2 | fAa2 d2cd | eaca aca d4- d2 :|
+de | fAaA gfed | fABc dcdf | eAcA agfe | dcdf eAde |
+| fAaA gfed | fABc dcdf | eaa Aaca | d4- d2 :|
+fg | afdB Acde | faA ddcd | eAcA agfe | dcdf eAfg |
+| afdB Acde | fAaA ddcd | ecAa caAa | {a}d4- d2 :|
+.d.e | ((3fff) Af ((3aaa) Aa | ((3fff) Af ((3ddd) cd | eAcA agfe | dcdf e{ee}Ade |
+| ((3fff) f4 aaa Aa | .fff Af ddd cd | eee Ga caAa d4- d4 :|
+fg | aaa fd AAA de | fada fff df | eAcA agfe | dcdf e2{ee}ef |
+| aaa fd AAA de | fada fdad | eaca Aaca | {a}d4- d2 :|
+
+X:513
+T:Maggie
+C:Joe Buchanan's Scottish Tome - Page 624.1
+I:624 1
+Z:Carl Allison
+R:Quickstep
+L:1/4
+M:4/4
+K:G
+d | d2 B A | G2 A G | G4 | E G2 E | D2 G2 | B2 d2 | A4- | A2 B c |
+d2 B A | G2 A G | G4 | E G2 E | D2 G B | d2 A B | G4- | G2 G G |
+e2 e e| c2 d e | d4 | B d2 B | A2 d2 | e ^c f e | d4- | d2 B c |
+d2 B A | G2 A G | G4 | E G2 E | D2 G B | d2 A B | G4- | G2 z/ :|
+
+X:514
+T:Red River Valley
+C:Joe Buchanan's Scottish Tome - Page 624.2
+I:624 2
+Z:Carl Allison
+R:Quickstep
+L:1/4
+M:4/4
+K:C
+D G | "Gm"B2 B B | "D7"B2 "A"A "D7"B | "Gm"A G3 | "Gm"D G B2 | G B "D7"d2 | "D7"c B A2- | "D7"A4- | A2 "Gm"d c |
+"Gm"B2 "Dm"B A | "Gm"G2 B d | "C"d "C"c3"Gm" | "Cm"E E "D7"E2 | "D7"^F G A2 | "A"B "D7"A G2- | G4- | G2 z/ :|
+W:Errata: Chords so disturbingly bad I turned them off.

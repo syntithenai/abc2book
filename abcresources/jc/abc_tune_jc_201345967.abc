@@ -1,0 +1,32 @@
+X: 1
+T: Tra veglia e sonno  [Dm/D]
+T: Between awake and asleep
+C: Mo. Luigi Canora
+R: mazurka
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 3/4
+L: 1/8
+P: AABBACCA
+K: Dm
+"A"\
+|: \
+"Dm"de fd AF | "Gm"E6 | "A7"GA BG E^C | "Dm"D6 |\
+"Dm"A,D FA de | "A7"d>^c e4 |1,3 {e}d>^c e4 | "Dm"{f}e>d f4 \
+                          :|2,4 "A7"{d}^cB AG FE | "Dm"Dz [dF]!fine!z z2 :|
+"B"\
+|:\
+"Dm"AB/A/ ^GA BA | "A"^c>d e4 | "A7"AB/A/ ^GA BA | "Dm"d>e f4 |\
+"D7"d_e/d/ ^cd ed | "Gm"d>B G2>> B2 | "A"A>B A>G F>E |1,3 "Dm"G3 ^G F2 \
+                                                        :|2,4 "Dm"Dz [dF]z z2 :|
+"A"\
+|: \
+"Dm"de fd AF | "Gm"E6 | "A7"GA BG E^C | "Dm"D6 |\
+"Dm"A,D FA de | "A7"d>^c e4 |1 {e}d>^c e4 | "Dm"{f}e>d f4 \
+                          :|2 "A7"{d}^cB AG FE | "Dm"Dz [dF]z z2 |][K:=B]
+K: D
+"C"\
+|:\
+"A7".c.e .B.d .A.c | "A7"Gz [G3C3] .d | "A7".c.e .B.d .A.c | "D"B>B F3 =E |\
+"D".F.G .^G.A .^A.B | "A7"cz [c3A3] F |1,3 "A7".G.A .B.c .d.e | "D"fz [f3A3] .d \
+                                  :|2,4 "A7"GA ^AB fe | "D"dz [dF]z z2 :|

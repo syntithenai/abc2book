@@ -1,0 +1,24 @@
+X: 1
+T: Scotland the Brave
+R: march
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: Handout at Concord Slow Scottish jam session 2018-11-30
+N: Lyrics from the singing of Tom and Marie Teven.
+M: 2/4
+L: 1/8
+K: G
+%%continueall yes
+"Verse"[|\
+"G"G2 G>A | BG Bd | g2 g>f | gd BG | "C"c2 e>c | "G"Bd BG | "D7"A2 d>e | dc BA |
+w: 1.~Hark where the night is fall-ing.  Hark hear the pipes a call-ing Loud-ly and proud-ly call-ing down thru the glen.***
+w: 2.~High in the mist-y moun-tains, Out by the pur-ple high-lands, Brave are the hearts that beat be-neath Scot-tish skies.***
+w: 3.~Far-off in sun-lit pla-ces, Sad are the Scot-tish fa-ces, Yearn-ing to feel the kiss of sweet Scot-tish rain.***
+"G"G2 G>A | BG Bd | g2 g>f | gd BG | "C"c2 e>c | "G"Bd BG | "D7"A2 G>F | "G"G2 fg
+w: There where the hills are sleep-ing, Now feel the blood a leap-ing, High as the spi-rits of the old high-land men.**
+w: Wild are the winds to meet you.  Staunch are the friends that greet you.  Kind as the love that shines from fair maid-ens eyes.**
+w: Where tro-pic skies are beam-ing, Love sets the heart a'-dream-ing, Long-ing and dream-ing for the home-land a-gain!**
+"Chorus"[|\
+"D7"a2 a>a | af d2 | "G"g2 b>a | "C"ge "G"d2 | "Em"g2 g>g | "Bm"f2 g>f | "A7"eg fe | "D7"d y","cBA |
+w: Tower-ing in gal-lant fame, Scot-land my moun-tain hame, High may your proud stan-dards glo-ri-ous-ly wave.***
+"G"G2 G>A | BG Bd | g2 g>f | gd BG | "C"c2 e>c | "G"Bd BG | "D7"A2 G>F | "G"G3 z |]
+w: Land of my high en-dea-vor, Land of the shin-ing ri-ver, Land of my heart for-ev-er, Scot-land the Brave.

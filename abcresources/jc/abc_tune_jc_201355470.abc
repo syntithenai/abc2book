@@ -1,0 +1,431 @@
+%%textfont Helvetica-Bold 21
+
+%%titleleft
+%%textfont Helvetica 16
+%%infoline 1
+
+
+%%footer $D   Galouvielle-MBe 2007 \nBranle (France)
+X:1
+T:Ouvre-moi
+R:Branle
+O:France
+A:Lorraine
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-05-29
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+K:Dm
+V:1
+"A7"A2|:"A7"A2d2 d2c2|"Dm"d4d2e2|"Dm"f4e4|"Dm"d6d2|"A7"c4e4|
+"Dm"d4A2=B2|"A7"c4=B4|"A7"A6a2|"A7"a2g2 a2ag|"Dm"f6g2|"A7"a2b2 a2gf|
+"A7"e6e2|"Dm"d2c2 d2e2|"Dm"f2g2 a2g2|"Dm"f4e4|"Dm"d6A2:|
+%%begintext
+2 x
+%%endtext
+
+%%footer $D   Galouvielle-MBe 2007 \nBranle (France)
+X:2
+T:Le maitre de maison
+R:Branle
+C:Trad.
+A:Lorraine
+O:France
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-06-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+Q:1/4=105
+K:C
+A|Ae ed|e2c2|e2dc|B3A|Ae ed|e2c2|e2dc|B3c/2B/2|
+w:Mais où est-donc le maî-tre de la mai-son~? Mais où est-donc le maî-tre de la mai-son~? Il des
+Ac Bc/2B/2|Ac Bc/2B/2|Ac Bc/2B/2|AcB2|A2e2|d2B2|A3:|
+w:cend la rue, ou-blie sa char-rue Bien qu'il se-rait temps, d'la-bou-rer les champs, d'la-bou-rer les champs
+
+W:
+W:Mais où est-donc le maître de la maison ? (bis)
+W:Il descend la rue, oublie sa charrue
+W:Bien qu'il serait temps, d'labourer les champs
+W:
+W:Où est donc la maîtresse de la maison ? (bis)
+W:Elle fait la cuisine, sans oeufs ni farine,
+W:Vends la poule au pot et garde le magot
+W:
+W:Mais où est donc le fils de la maison ? (bis)
+W:C'est un petit ange qui chasse les mésanges
+W:Avec son pipeau crie comme un crapeau.
+W:
+W:Mais où est donc la fille de la maison ? (bis)
+W:Elle est à la messe et reçoit caresse
+W:D'un ou deux amants, d'tout un régiment
+W:
+W:Où est la servante de la maison ? (bis)
+W:En battant la chatte avec sa baratte
+W:Elle a mis d'la crème dans toute la pièce
+W:Et le maître l'aime
+%%begintext
+4 x
+
+Ouvre-moi (2 x)
+%%endtext
+
+%%footer $D   Galouvielle-MBe 2007 \nBranle (France)
+X:3
+T:Bergers et barons
+R:Branle
+C:Trad.
+H:XIII eme siecle
+A:Alsace
+O:France
+Z:S. Piron
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-05-21
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+d|:Bdd Bde|d2B c2d|B3B zd|Bdd Bde|
+d2 Bc2d|B2B BAG|B3 B z B|d2d c2c|B3 B z d:|
+%%begintext
+5 x
+
+Ouvre-moi (2 x)
+%%endtext
+
+
+%%footer $D   Galouvielle-MBe 2007 \nBranle (France)
+X:4
+T:Branle "Le joli mai"
+O:France
+A:Alsace
+R:Branle
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-10-09
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:5/4
+L:1/8
+K:Am
+P:A
+A | cd e2 c2 dB AA | cd e2 c2 dB A2 ||
+P:B
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-10-09
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+BB/c/ dc BA GG | AA GA c2 B2 | cc/d/ ee fe dB | cd ed cB A |]
+%%begintext
+4 x
+
+Ouvre-moi (2 x)
+%%endtext
+
+
+%%footer $D   Galouvielle-MBe 2007 \nSarabande (France)
+X:5
+T:Sarabande
+C:Trad.
+C:Chanson recueillie par J.-B. Weckerlin
+O:France
+A:Alsace - Sundgau - 1883
+R:Sarabande
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-06-22
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/2
+L:1/8
+K:C
+C2>D2 C2 D2E4 | E2GG GFFEE4 "FIN" ::  CEE2 EGG2  |1 G2 E2 | DF AG F2 DE-E4 :|2 G2 E2 G2 E2 | DFAG F2 DE- EG,A,B, |]
+%%begintext
+1-2, 3-4, 5-6, 6-5, 4-3, 2-1
+%%endtext
+
+
+%%footer $D   Galouvielle-MBe 2007 \nValse (France)
+X:6
+%%maxsysstaffsep 25pt
+T:Valse des roses
+O:France
+R:Valse
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-09-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+L:1/4
+Q:3/4=70
+K:G
+g2d | B>cd | g2d | B>cd | e2d | c2B | A3 | G3 ::
+B>cd | e2d | B>cd | e2d | e2d | c2B | A3 | G3 :|
+%%begintext
+1 x
+%%endtext
+
+
+%%footer $D   Galouvielle-MBe 2007 \nValse (France)
+X:7
+%%staffsep 25pt
+T:Im Haüsel am Rhein
+O:France
+A:Alsace
+R:Valse
+C:Trad. Weissenburg 1910
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-05-29
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+L:1/4
+K:G
+D | G>GG | BAG | A2D | D2D | A>AA | (cB)A | B2G |
+G2B | c>cc | edc | B>BB | dcB/B/ | A2A | c2F |
+(G2B | d2)B | c>cc | edc | B>BB | dcB/B/ | A2A | c2F | G3 |Gz |]
+%%begintext
+2 x
+
+Valse des roses, 1/2 fois : sans reprise.
+%%endtext
+
+
+%%footer $D   Galouvielle-MBe 2007 \nScottish (France)
+X: 8
+T:Scottish d'Alsace
+R:Scottish
+C:Trad.
+A:Alsace
+O:France
+Z:S. Piron
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-02-20
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+Q:1/4=90
+K:Cmaj
+G|:c/2B/2c/2d/2 e/2d/2e/2f/2|ag g>e|1gf f>d|ag gG:|2gf fe/2d/2|cec2|
+|:c'g g/2f/2e|c'g g/2f/2e|1dd/2e/2 f/2e/2f/2g/2|agg2:|2B/2c/2d/2e/2 fe/2d/2|ce cc|
+|:a/2g/2f/2e/2 g/2f/2e/2d/2|c2 Ac/2c/2|1_B2Gd/2d/2|c2Ac:|2d/2d/2c/2d/2 e/2e/2d/2e/2|ff fc/2f/2|
+|:ee e_B/2d/2|cc cc/2c/2|1d/2d/2c/2d/2 e/2e/2d/2e/2|f/2f/2e/2d/2 cc/2f/2:|2d/2d/2c/2d/2 e/2e/2d/2e/2|fa f ||
+
+%%begintext
+Jusqu'à ce qu'ils sortent
+(Version pour galoubet en Sol)
+%%endtext
+
+
+%%footer $D   Galouvielle-MBe 2007 \nBourrée à 3 temps (France)
+X:9
+T:Bourrée des jeunes
+R:Bourrée à 3 temps
+A:Berry
+O:France
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-05-15
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/8
+L:1/8
+Q:1/4=110
+K:C
+G|:e/2^d/2ec|B2 d/2e/2|f/2d/2f/2d/2f/2d/2|ecG|e/2^d/2ec|B2d/2e/2|f/2d/2f/2d/2B/2d/2|c2 G:|
+|:e/2^d/2e/2g/2e/2c/2|e/2^d/2e/2g/2e/2c/2|d/2^c/2d/2f/2e/2d/2|ecG|
+e/2^d/2e/2g/2e/2c/2|e/2^d/2e/2g/2e/2c/2|d/2^c/2d/2f/2e/2d/2|c2G:|
+
+%%footer $D   Galouvielle-MBe 2007 \nBourrée à 2 temps (--)
+X:10
+T:Bourrée à Gaston Pommier
+R:Bourrée à 2 temps
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-05-12
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+S:French Creek
+K:D
+D2F4A2|d6f2|e3d c2B2|ABAG F2E2|D2F4A2|d6f2|e3d c2B2|A8::
+F3A F2A2|G3B G2B2|F3A F2A2|E8|D3F A2d2|B6f2|e3d c2e2|d8:|
+
+%%footer $D   Galouvielle-MBe 2007 \nBourrée à 2 temps (--)
+X:11
+T:Bourrée Aurore Sand
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-05-12
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+Q:250
+S:Trad. Berry region
+R:Bourrée à 2 temps
+Z:Steve Mansfield
+K:Gm
+d|:G>A Bc|d3d|dg ^fg|d3c/d/|e>d cA|B>A GB|A>G AB|G3d:|
+:d>c Bc|d>c Bc|d>c de|d>c Bc|d>c de|d>c Bc|d>c BA|G3d:|
+
+%%footer $D   Galouvielle-MBe 2007 \nBourrée à 2 temps (Berry)
+X:12
+T: Bourrée d'Aurore Sand
+R:Bourrée à 2 temps
+O: Berry
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-05-12
+Z:Pour toute observation mailto:galouvielle@free.fr
+M: 2/4
+L: 1/8
+Q: 1/4=120
+K: Am
+V: 1
+E|: A>B cd|e2>e2|ea ^ga|e2>e2|f>e dB|
+c>B Ac|BA Bc|[1 B2>e2 :|[2 A2>e2 |:
+e>d cd|e>d cd|e>d ef|e/f/e/d/ cd|
+e>d cd|e>d ef|e/f/e/d/ cB|[1 AB cd:|[2 A4|]
+V: 2 clef=treble
+e|: A/-^G/A/B/ c/-B/c/d/|e/f/e/d/ ee|e/a/^g/a/ b/a/^g/a/|e/f/e/d/ ee|f/g/f/e/ d/f/e/d/|c/d/c/B/ A/c/B/A/|B/A/B/c/ A/^G/A/c/|[1 B/(c/B/c/) d/(e/d/e/):|[2 B/(c/B/c/) d/(e/d/e/)|:
+e>d c/B/c/d/|e>d c/B/c/d/|e>d e/f/g/f/|ee c/B/c/d/|e>d c/B/c/d/|e>d e/f/g/f/|ee c/d/c/B/|[1 A/^G/A/B/ c/B/c/d/ :|[2 A4|]
+
+%%footer $D   Galouvielle-MBe 2007 \nBourrée à 2 temps (France)
+X:13
+T:Bourrée ronde la Brande d'Ardente
+R:Bourrée à 2 temps
+O:France
+A:Berry
+C:Trad.
+I:abc2nwc
+M:2/4
+L:1/16
+Q:1/4=120
+K:G
+P:A
+"G"d3B G2B2 | "Am"c6g2| "D"f3d e2f2 | "G"g3a b2g2|d3B G2B2 | "Am"c6g2 | "D"f3d e2f2|[1 "G"g8:|[2 "G"g4gfed|]
+P:B
+K:C
+"C"c4e4|g3f "G"d4 | e3f d2e2 | "C"c2B2 "G"A2"C"G2 | c4e4 | g3f "G"d4 | e3f d2B2|[1 "C"c4cGAB:|[2 "C"c8|:
+P:A' (variante)
+K:G
+"G"dedB G2B2 | "Am"c6g2| "D"f3d e2f2 | "G"gfga b2g2|dedB G2B2 | "Am"c6g2 | "D"f3d e2f2|[1 "G"g8:|[2 "G"g4gfed|]
+
+%%footer $D   Galouvielle-MBe 2007 \nBourrée à 2 temps (France)
+X:14
+T:Bourrée carrée de la Châtre
+R:Bourrée à 2 temps
+A:Berry
+O:France
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-10-29
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+Q:1/4=122
+K:G
+V:1
+G>A Bc|d2d2|e>f ge|d>c BA|G>A Bc|d2d2|e>f ge|d3 d:|
+|:B>G Bd|c/2d/2c/2B/2 AB|c>B ce|d/2e/2d/2c/2 Bd|B>G Bd|c/2d/2c/2B/2 AB|c>d ef|g3 d:|
+
+V:2
+x4 | x4 | x4 | x4 | x4 | x4 | x4 | x4 ::
+x4 | x4 | x4 | x4 | x4 | x4 | x4 | x4 :|
+
+%%footer $D   Galouvielle-MBe 2007 \nBourrée à 3 temps (--)
+X:15
+T:Bourrée tournante des grandes poteries
+R:Bourrée à 3 temps
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-05-12
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/8
+L:1/8
+K:C
+e/f/|:geg|g/e/ce/f/|geg|g2 d/e/|\
+fdd|d2c/d/|ecc|1 c2e/f/:|2 cBA||
+|:G2A|G2A|Gcd|e2e|\
+dcd|cBA|1 GAG|e2c:|2 Ged|c3||
+
+%%footer $D   Galouvielle-MBe 2007 \nBourrée à 2 temps (France)
+X:16
+T:Les moutons
+R:Bourrée à 2 temps
+C:Trad.
+A:Limousin
+O:France
+Z:S. Piron
+M:2/4
+L:1/8
+Q:1/8=240
+K:C
+g>f ec|d>f ef|g>f ec|1d2e2:|2d>f e2|
+|:e>f e^d|ec A2|d>B cA|d>B cA|e>f e^d|ec A2|d>B cA|dB c2:|
+
+%%footer $D   Galouvielle-MBe 2007 \nBourrée à 3 temps (France)
+X:17
+T:Bourrée d'Arleuf
+R:Bourrée à 3 temps
+C:Trad.
+A:Morvan
+O:France
+Z:S Piron
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-05-12
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/8
+L:1/8
+Q:1/8=220
+K:C
+GAB|c>Bc|ede|c>Bc|ABc|d>ed|1cBA|A2G:|2GAB|c3|
+|:ege|dfe|dcd|e2c|ege|dfe|1dcd|d2c:|2dcB|c3||
+
+%%footer $D   Galouvielle-MBe 2007 \nBourrée à 3 temps (France)
+X:18
+T:Bourrée d'Armes
+R:Bourrée à 3 temps
+C:Trad.
+A:Morvan
+O:France
+Z:S Piron
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-05-12
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/8
+L:1/8
+Q:1/4=110
+K:C
+Gcd|ed/2e/2f/2d/2|cde|d3|Gcd|ed/2e/2f/2e/2|dcB|c3:|
+|:g f/2g/2a/2g/2|fd/2e/2f/2e/2|cde|d3|g f/2g/2a/2g/2|fd/2e/2f/2e/2|dcB|c3:||
+
+%%footer $D   Galouvielle-MBe 2007 \nBranle (France)
+X:19
+T:Branle de Gouloux
+R:Branle
+A:Morvan
+O:France
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-05-12
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+K:G
+G2BA2G|FGA G2 D|G2 BA2G|FGA G3:|
+A3A2G|F2ED3|D2GF2G|A2Bc2A|A3A2G|F2ED3|D2GF2F|G2AG3|]
+
+%%footer $D   Galouvielle-MBe 2007 \nBranle (France)
+X:20
+T:Branle du Rat
+R:Branle
+C:Trad.
+O:France
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-03-17
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C|
+L:1/16
+Q:1/4=90
+K:G
+B2B2 B2AB|c2B2 A4|A2A2 A2GA|G2A2 B2G2|\
+B2B2 B2AB|c2B2 A4|d2d2 d2cc|B2A2 G4||
+[M:6/8][L:1/8]
+Q:3/8=90
+B2G B2G|DEF E2D|B2G B2G|DEF G3:|
+
+%%footer $D   Galouvielle-MBe 2007 \nBourrée à 3 temps (France)
+X:21
+T:Bourrée de Nasbinals
+R:Bourrée à 3 temps
+O:France
+A:Auvergne
+C:Trad.
+M:3/4
+L:1/8
+Q:3/4=78
+K:C
+g3 a g2|f2 d2 g2|ed c2 d2|e2 d4|g3 a g2|f2 d2 g2|ed c2 d2|c4c2 :|:
+G2 c2 d2|e2 d2 f2|ed c2 d2|e2 d4|G2 c2 d2|e2 d2 f2|ed c2 d2|c4c2:|
+
+%%footer $D   Galouvielle-MBe 2007 \nBourrée à 3 temps (France)
+X:22
+T:Bourrée d'Egletons
+R:Bourrée à 3 temps
+A:Corrèze
+O:France
+M:3/8
+L:1/8
+Q:1/4=120
+K:F
+C F G|A2 A|B/2A/2 G F|A G2|C F G|A2 A|B/2A/2 G F|1G3:|2G2C|
+|:F2G|F/2E/2 D C|D2 E|D CC|F2G|F/2E/2 D C|DEC|1F2C:|2F3|

@@ -1,0 +1,43 @@
+X: 1
+T: Tango Caliente (in Gm)
+R: tango
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Gm
+|: "Gm"Dd-d^c d4- \
+| d~d^cd ed=cB \
+| "D7"BA-A^G A4- \
+| A8 \
+| "D7"Dc-c=B c4- \
+| c~c=Bc dc_BA |
+| "Gm"cB-BA B4- \
+| B6 _A2 \
+| "G7"G=B-Bc d4- \
+| dG=Bc dBcd \
+| "Cm"fe-ed e4- \
+| e6 e2 |
+| "Gm"ed-d^c d2B2 \
+| "D7"BA-A^F D2A2 \
+| "Gm"AG-G^F G4- \
+|1 "Gm"Gz3 E4 \
+:|2 "Gm"Gz3 |] \
+z2G_G |
+|: "F"F4- FGAB \
+| cA-AG F2E2 \
+| "Bb"ED-D^C D4- \
+| D6 ^C2 \
+| "D7"D^F-FG A4- \
+| AD^FA cB-BA |
+| "Gm"cB-BA G4- \
+| G4 "(G,7)"G2F2 \
+| "Cm"Ec-c=B c4- \
+| c~c=Bc dc_BG \
+| "Gm"DB-BA B4- \
+| B~BAB cBGD |
+| "A7"^CA-A^G A3^C- \
+| "D7"=CA-A^G A2B2 \
+| "Gm"AG-G^F G4- \
+|1 "Gm"G3D BAG_G \
+:|2 "Gm"Gz3 z4 |] \
+"Gm"Gz2 .d .gz3 |]

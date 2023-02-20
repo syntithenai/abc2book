@@ -1,0 +1,3235 @@
+
+X: 0
+T: A New Collection of Forty-four Cotillons
+C: Giovanni Andrea Gallini; ed.
+O: London c.1755
+K:
+%%sep 5 5 400
+%%center A
+%%center NEW COLLECTION
+%%center OF
+%%center Forty-four Cotillons,
+%%center With FIGURES properly adapted;
+%%center ALSO
+%%center The MUSIC for Six select DANCES,
+%%center Two of which may be used as Cotillons.
+%%sep 5 5 400
+%%sep 5 5 400
+%%center Printed for Giovanni Andrea Gallini;
+%%center And Sold by R. DODSLEY, in Pall-Mall; T. BECKET,
+%%center and P. A. De Hondt, in the Strand; J. Diswell, in St.
+%%center Martin's-Lane, near Charing-Cross;
+%%center AND
+%%center At Mr. BREMNER's Music Shop, opposite Somerset-House, in
+%%center the Strand.
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 1
+T: Les Fleurs Du Printems
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #1
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+A |\
+e2e efd | c2c cdB | A2A ABG | A>EC A,2A |\
+e2e efd | c2c cdB | A2A ABG | A2A A2 :|
+|: E |\
+FAd FAd | GBe GBe | ded cdc | B2E E2E |\
+FAd FAd | GBe GBe | cdc BAB | A2A A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z |\
+A2a g2e | A2a e2E | f2c d2e |
+a2e A3 | A2a g2e | A2a e2E | f2c d2e |
+a>ec A2 :||: z | d6 | e6 | f2g
+a3 | e>BG E2z | d6 | e6 |
+a2A e2E | A2a A2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Les Fleurs Du Printems.
+%%text Le Grand Rond, - - - - 2/1
+%%begintext align
+%%   The first and third Gentlemen turn the
+%% opposite Ladies and change places, then the
+%% Second and Fourth Gentlemen do the same - 1/2
+%%endtext
+%%begintext align
+%%   All Eight hands cross half Round and turn
+%% Partners in their own Places. - - 1/2
+%%endtext
+%%begintext align
+%%   * The Figures explain how much Music
+%% belongs to each part of the Cotillon. The
+%% under Figure Denotes the Strain, and the upper
+%% Figure tells how often it is to be played.
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2
+T: L' Amour fidelle
+%R: march
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #2
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+A>B |\
+AdAG | {G}F2GF | EDCD | EA,A>B |\
+AdAG | {G}F2GF | EDEC | D2 :|
+!segno!AA |\
+BA dc | {c}B2 cA | ^GA Bc | {c}B2 ec |\
+dc BA | dc {c}BA | ^GA c/B/A/^G/ | A2 ||
+A>B |\
+AdAG | {G}F2GF | EDCD | EA,A>B |\
+AdAG | {G}F2GF | EDEC | HD2 !segno!y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+dd |\
+d2d'a | dd'ba | gfed |
+A2dd | d2d'a | dd'ba | gfga |
+d2 :| !segno!cc | dcBA | eEAc | BA^GA |
+ed cA | fe dc | fe dc | BA eE |
+A2 || dd | d2d'a | fd'ba | gfed |
+A2dd | d2d'a | dd'ba | gfga | Hd2 !segno!y|]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center L'Amour Fidelle.
+%%begintext align
+%%   Le Grand Rond - - - - - 2/1
+%%endtext
+%%begintext align
+%%   The Ladies Contretems Forward and turn to
+%% face their Partners, then all Eight Allemande - 1/2
+%%endtext
+%%begintext align
+%%    All half a Course, with the Rigaudon at every
+%% Place - - - - - - 1/3
+%%endtext
+%%begintext align
+%%   The Gentlemen Contretems Forward and
+%% turn to face their Ladies, then all Eight
+%% Allemande - - - - - - 1/2
+%%endtext
+%%begintext align
+%%   All half a Course with the Rigaudon at every
+%% place - - - - - - 1/3
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 3
+T: La Bagatelle.
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #3
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+[B2D2G,2]B BcA | d2d def | gdc BAG | A2D DED |\
+[B2D2G,2]B BcA | d2d def | gdc BcA | G2G G3 :|
+|:\
+AG/F/E/D/ dAc | Bgf edc | B/c/dc BAG | F/G/AD D3 |\
+AG/F/E/D/ dAc | Bgf edc | BcB ABA | G2G G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+g3 d3 | B3 G2A | B3 e3 | d3 d3 |
+g3 d3 | B3 g2a | b2c' d'2d | g3 G3 :|
+|:\
+d3 f3 | g3 z2z | G2A B2^c | d3 d3 |
+f3 f3 | g3 c'3 | d'3 d3 | g3 G3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Bagatelle.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Couple step Forward,
+%% go Round Back to Back, then to their places
+%% Allemande; while the Second and Fourth Couple
+%% Allemande, then Back to Back into their
+%% places - - - - - - 1/2
+%%endtext
+%%begintext align
+%%   All Eight Chasse up and down and
+%% Rigaudon - - - - 1/2
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 4
+T: Les Quatre Nimphes.
+%R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #4
+N: In bar 25, the f notes aren't sharped but obviously should be.  Also, the c grace note in the last bar.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+defg |\
+a2a2 defd | A4 Adcd | Adcd Agfa | e4 defg |\
+a2a2 defd | A4 dcBA | Bcdg fdec | d4 :|
+|: ABcd |\
+ecBA g2g2 | g2f2 gbeg | fadf eged | c2A2 Adce |\
+dfeg Adce | dfeg Adce | dfeg fdec | d4 :|[K:Dm]
+"Mineur"\
+fgef |\
+dfeg fagb | a2d2 gafg | efde ^c2d2 | e2A2 fgef |\
+dfeg fagb | a2d2 gafg | efde A2^c2 | d4 :|
+|: a2d2 |\
+d_edc d_edc | B2G2 g2c2 | cdcB cdcB | A2F2 Ac=Bc |\
+Tc2=B2 =Bd^cd | Td2^c2 fgeg | fedf e2^c2 | {c}d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+d2d'2 | c'2a2f2d2 | c2A2 f2e2 | f2d2c2d2 | agfe d2d'2 |
+c'2a2f2d2 | c2A2 f2d2 | g2fg a2A2 | d4 :||: a4 | A2B2c2A2 | d2D2 B2c2 |
+d2f2g2^g2 | a2=g2f2a2 | d2g2f2a2 | d2g2f2a2 | d2g2a2A2 | d4 :|[K:Dm]
+"Mineur"\
+d2^c2 | d2A2 d2e2 | f4e2d2 | g2b2a2d2 | A4 d2^c2 | d2A2d2e2 |
+f4e2d2 | g2b2a2A2 | d4 :||: ^f4 | "^(#)"f4 f4 | g4 e4 | e4 e4 |
+f4 ^f4 | g4 ^g4 | a4 d'2^c'2 | d'2d2 a2A2 | d4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Les Quatre Nimphes.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first Lady and third Gengleman pass
+%% through the Second Couple to opposite places,
+%% while the first Gentleman and third Lady pass
+%% throuth the fourth Couple to opposite
+%% places - - - - - - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   The first and second Ladies Chass\'e Cross
+%% and Rigaudon, then back again, while the
+%% third and fourth Ladies do the same - 1/1
+%%endtext
+%%begintext align
+%%   Counter-part for the Gentlemen - - 1/1
+%%endtext
+%%begintext align
+%%   Each Couple Chass\'e to the Corner on their
+%% Right and Rigaudon, then Allemande - 1/2
+%%endtext
+%%begintext align
+%%   All Chass\'e to the Corner on their Right and
+%% Rigaudon, then Allemande to their own places 1/2
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 5
+T: La Victoire
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #5
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+d |\
+B2B AGF | [G2G,2][GG,] [G2G,2]d |\
+B2B AGF | [G2G,2][GG,] [G2G,2]D |\
+EGc EGc | FAd FAd | c2B A2G | A2D D2d |
+B2B AGF | [G2G,2][GG,] [G2G,2]d |\
+B2B AGF | [G2G,2][GG,] [G2G,2]D |\
+EGc EGc | FAd FAd | c2B AGF | G2G, HG,2 |]
+d |\
+g2g gfe | a2a agf | efg fed | c2B A2a |\
+faf eae | faf eae | fgf ed^c | d2d "_Da Capo"d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z |\
+g2b d'2d | g2G G2f | g3 d3 | g3 G2B |
+c3 c3 | d3 d3 | fg2 c2e | d3 def | g2b d'2d |
+g2g g2f | g3 d3 | g2b g2b | c'3 c3 | d3 d3 |
+efg c2d | g3 HG2 |] z | e3 ^c3 | f3 d3 | g3 ^g3 |
+a3 A3 | d3 ^c3 | d3 ^c3 | d3 A3 | d3 "^Da Capo"d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Victoire.
+%%begintext align
+%%   Le Grand Rond. - - - 1/1
+%%endtext
+%%begintext align
+%%   The first and third Couple Contretems to the
+%% Right and Rigaudon, then turn Round four to
+%% their places - - - 1/2
+%%endtext
+%%begintext align
+%%   The four Ladies Contretems in the Attitude
+%% of Right hands cross and Rigaudon, then the
+%% four Gentlemen Contretems and inclose the
+%% Ladies by taking hold of each others hands, the
+%% Ladies go Round with their Right hands cross,
+%% while the Gentlemen go Round inclosing
+%% them - - - - 1/1
+%%endtext
+%%begintext align
+%%   Counter-part of the whole Figure
+%%endtext
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 6
+T: L'aimable Jeunesse
+%R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #6
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+D2FA d2f2 | {f2}[e6A6] g2 | fafd egec | d2AF D2z2 |\
+D2FA d2f2 | {f2}[e6A6] d2 | cecA BdB^G | A4 A,4 :|
+|:\
+a4 gfe^d | eBcB AGFE | g4 fedc | dABA GFED |\
+BGBd cAce | dAdf eAeg | {g}f2ed fedc | d4 D4 :|
+|: [K:Dm]\
+"Mineur"\
+f4 gfed | {d2}^c6 d2 | e2 (ef/g/) fed^c | d2A2 d2e2 |\
+f4 edc=B | e4 dc=BA | =B2 (Bc/d/) c=BA^G | A4 A4 :|
+|:\
+a4 bag^f | {f2}g6 z2 | g4 agfe | {e2}f6 a2 |\
+a4 gfed | b4 agfe | f2 (ef/g/) fed^c | d4 d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+d4 f2d2 | a2e2 c2A2 | d2f2 g2a2 | d4 D4 | d4 f2d2 |
+a2c'2 ^g2e2 | a2c2 d2e2 | a4 A4 :||: z2=c2 B2A2 | G4 z4 | z2B2 A2G2 |
+F4 z4 | G2g2 a2g2 | f2d2 c2A2 | d2F2 G2A2 | d4 D4 :||: [K:Dm]
+d2d'2 b2g2 | a2a2 g2f2 | g2e2 a2A2 | d4 z4 | d2d'2 z4 |
+c2c'2 z4 | d'2=b2 e'2e2 | a4 A4 :||: z2d2 d'2a2 | b2g2 B2G2 |
+z2c2 c'2g2 | a2f2 A2F2 | d2d'2 z4 | ^c2^c'2 z4 | d'2g2 a2A2 | d4 D4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center L'Aimable Jeunesse.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Gentlemen lead the
+%% Ladies on their Left to the opposite places,
+%% then half Right hand and Left - - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   The first and third Gentlemen cross their
+%% Ladies and pass through the Couple on their
+%% Right, while the Ladies pass through on the
+%% Left, then meet in their own places - 1/1
+%%endtext
+%%begintext align
+%%   The second and fourth Couple do the same 1/1
+%%endtext
+%%begintext align
+%%   Each Gentleman Allemande with the Lady
+%% on his Left, and then with his Partner - 1/2
+%%endtext
+%%begintext align
+%%   All Eight half a Course with the Passes of the
+%% Allemande - - - - 1/2
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 7
+T: La Zone de Venus
+O: c.1755
+%R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" #7
+F: http://books.google.com/books?id=ipV0y26Vq8EC
+M: 6/8
+L: 1/8
+P: Rondeau
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+c3 BAB | E2F E2A | E2A G2A | B3 BAB |\
+c3 BAB | E2F E2A | Fdc B2A | HA6 :|
+[|\
+e2a e2a | cde f3 | df2 df2 | Bcd e3 |\
+ABA ABA | ABA GFE | ABA B2e | c3 B3 "_d.C."y|]
+[|\
+c2c cBA | e2e e3 | A2A AGF | G2F E2B |\
+c^de fga | ^dcB A3 | GFE TF3 | E6 "_d.C."y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+"A"a3 "E"e3 | "A"c2d c2A | "A"c2c "B7"B2A | "E"e3 E3 | "A"a3 "E"e3 |
+"A"c2d c2A | "D"d3 "E7"e2E | "A"HA6 :| [| "A"A3 A3 | "A"A3 "D"d3 | "Bm"b3 "E7"g3 |
+"E7"e3 "A"c3 | "A"A3 A3 | "A"A3 "E"e3 | "A"A3 "E"e2g | "A"a3 "E7"e3 "_d.C."y|]
+[|\
+"A"a2a a3 | "E"g2g g3 | "F#m"f2f "B7"^d2B | "E"e3 E3 | "A"A6 |
+"B7"B3 c2^d | "E"e2c' "B7"b2B | "E"e6 "_d.C."y|]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Zone de Venus
+%%text Le Grand Rond - - - 2/1
+%%begintext align
+%%   The Ladies go forward lifting up their hands
+%% and joining them together in the form of pyramids,
+%% the Gentlemen at the same time follow
+%% the Ladies and enclose them by taking hold of
+%% each others hand, All Rigaudon; then the Ladies
+%% go Round to the Left, while the Gentlemen
+%% go Round to the Right - - 1/2
+%%endtext
+%%text Chass\'e up and down - - 1/1
+%%text A Double Moulinet, the Ladies in, and the Gentlemen out - - - 1/3
+%%text Chass\`e up and down - - 1/1
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 8
+T: La Grotesque
+%R: march, reel
+P: Rondeau
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #8
+M: 2/4
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+{d}c>deA | GABA | dc {c}BA/G/ | AB{A}GE |\
+{d}c>deA | GABA | dcBA | (c/B/)A/G/ {G}A2 :|
+a>gfe | ^defB | ba/g/ {b}ag/f/ | {a}gf/e/ fB |\
+a>gfe | ^defB | ag/f/ g/e/f/g/ | B^d "_Da Capo"e2 |]
+EEFE | FGAA | Bc (d/c/B/)A/ | (c/B/A/)G/ AA |\
+EEFE | FGAA | Bc (d/c/)B/A/ | (c/B/)A/G/ "_Da Capo"A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+ABcc' | baga | fede | cde2 |
+ABcc' | baga | fe dc | deA2 :|
+fgaf | beB2 | GeF^d | eEB2 |\
+fgaf | be Bb | c'^d'e'a | bB"_Da Capo"e2 |]
+acdc | dBcA | eadf | eEA2 |\
+acdc | dBcA | eadf | eE "_Da Capo"A2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Grotesque.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first Couple advance and drop behind
+%% the fourth with their backs to them, while
+%% the third Couple do the same behind the
+%% second, then all turn to Face each other and
+%% Rigaudon - - - - 1/2
+%%endtext
+%%begintext align
+%%   The first and fourth Gentlemen Chass\'e to
+%% the Corners with each others Lady, while the
+%% second and third Gentlemen do the same, then
+%% the first and fourth Ladies give hands and turn
+%% Partners in their own Places, while the second
+%% and third Ladies do the same - - 1/1
+%%endtext
+%%begintext align
+%%   The Third Couple change places with the
+%% first by going under their Arms, then the fourth
+%% Couple change places with the second by going
+%% under their Arms - - - 1/3
+%%endtext
+%%begintext align
+%%   Half La Chaine to your own places - 1/1
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 9
+T: Le Bouquet
+%R: reel, march
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #9
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+f4 (ag)(fe) | (d4 c2)d2 | e2d2g2f2 | edcB A2e2 |\
+f4 (ag)(fe) | (d4 c2)d2 | e2d2g2f2 | {f2}e8 :|
+|:\
+a2A2 Aagf | g2A2 Agfe | f2ed c2d2 | edcB AGFE |\
+F2dF G2eG | A2fA B2ge | fafd A2c2 | {c2}d8 :|
+|: [K:Dm]\
+"Mineur"\
+defe d2^c2 | d2A2B2A2 | G2FE A2G2 | {G}F2ED dcBA |\
+{c}B2AG gfed | ^cA=B^c defg | afed g2f2 | {f2}e8 :|
+|:\
+A=B^cd e2f2 | e2A2a2^c2 | d2ef e2fg | {g}f6 a2 |\
+bagf gfed | ^cA=B^c d2G2 | FAFD EGE^C | D8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+d6 d2 | a6 f2 | g2f2e2d2 | a2A2c2A2 | d6 d2 |
+a6 f2 | g2f2e2d2 | a8 :||: a8 | A8 | d2f2e2d2 |
+a4 A4 | d4 e4 | f4 g4 | a4 A4 | d8 :||: [K:Dm]
+"Mineur"\
+d6 e2 | f4 g2f2 | e2d2^c2A2 | d4 f4 | g4 b4 |
+a2g2f2e2 | d2f2e2d2 | a8 :||: a4 ^c2d2 | A6 g2 |
+f2d2 ^c2A2 | d2e2f2d2 | g4 b4 | a2g2f2g2 | a4 A4 | d8 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Le Bouquet.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   Each Gentleman Chass\`e with the Lady on
+%% his Left, then Fall in two Lines and all Eight
+%% change places - - - 1/2
+%%endtext
+%%begintext align
+%%   Do the same back again - - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   The first and third Couple Contretems
+%% forward and Rigaudon, the first Gentleman goes
+%% back to his place with the third Lady, while
+%% the third Gentleman goes back to his place
+%% with the first Lady - - - 1/1
+%%endtext
+%%begintext align
+%%   Counter-part - - - - 1/1
+%%endtext
+%%begintext align
+%%   All Chass\'e Cross and Rigaudon, then
+%% Allemande - - - - 1/2
+%%endtext
+%%begintext align
+%%   The Ladies half Moulinet then Allemande
+%% with their Partners - - 1/2
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 10
+T: Les Aimables Filles.
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #10
+N: Repeats added to the 1st strain to match the dance description: 1-1-2-1.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+G2B B/c/dB | GFG A3 | c2B A2G | FGA D3 |\
+G2B B/c/dB | GFG A3 | c2B A2G | AGF G3 :|
+d2g f/g/af | d^cd e3 | g2f e2d | ^cde A3 |\
+d2g f/g/af | d^cd e3 | g2f e2d | ed^c "_Da Capo"d3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+G3 g3 | e2e d2f | e2d c2^c |
+d3 z2z |  G3 g3 | e2e d2f | e2d c2B |
+c2d G3 :| B2e d2d | B2B A2^c | B2A
+G2^G | A3 a2g | f2e d2d' | b2b a2^c' |
+b2a g2f | g2a "_Da Capo"d3 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Les Aimables Filles.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first Couple go between the fourth
+%% Couple, then half Moulinet and return to their
+%% places, while the third and second Couple do
+%% the same - - - - 1/2
+%%endtext
+%%begintext align
+%%   The Gentlemen Allemande to the Ladies on
+%% their Left, and then to their Partners - 1/1
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 11
+T: Aimons toujours
+%R: march, reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #11
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+Bc |\
+{B}A3B | G2AG | FGcB | A2Bc |\
+{B}A3B | G2AG | FG B/A/G/F/ | G2 :|\
+|: Bc |\
+d2ed | {d}c3B | AGFG | {G}A2Bc |
+d2ed | {d}c3B | AGcB | A2Bc |\
+{B}A3B | G2AG | FGcB | A2Bc |\
+{B}A3B | G2AG | FG B/A/G/F/ | G2 :| [K:Gm]
+|: "Mineur"Bc |\
+d2ec | d2cB | AG^FG | AD Bc |\
+d2ec | dgdc | {c}BA/G/ B/A/G/^F/ | G2 :|\
+|: df |\
+{f}e2ce | {e}d2fB | ABed | {d}c2f_A |
+Ge =Af | Bbce | dgfA | B2=Bd |\
+ceAc | BdGB | AcAG | {G}^F2Bc |\
+d2ec | dgdc | {c}BA/G/ B/A/G/^F/ | G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+gc |\
+dd'dg | e2c2 | dBAG | d2gc | dd'dg | e2c2 | dgdD |
+G2 :||: ga | bgc'b | afdg | cBAG | d2ga | bgc'b | afdg | cBAG |
+d2gc | dd'dg | e2c2 | dBAG | d2gc | dd'dg | e2c2 | dgdD | G2 :| [K:Gm]
+|: "Mineur" g2 |\
+g2g2 | gbag | c'bag | dcBA | G2g2 | G2Bc | d2D2 |
+G2 :||: =bg | c'2af | b2d2 | cBAB | f2d2 | e2f2 | g2a2 | befF |
+Bdgf | ecfe | dBed | cAce | dcBA | G2g2 | G2Bc | d2D2 | G2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Aimons toujours
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and second Ladies Chass\'e Cross and
+%% Rigaudon, then Chass\'e back to their places, while
+%% the third and fourth Ladies do the same, each
+%% Gentleman taking his Partner by the Left
+%% hand goes Round with her in Form of the
+%% Allemande - - - - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   Balanc\'e and Rigaudon, then Allemande with
+%% the Ladies on the Left - - 1/1
+%%endtext
+%%begintext align
+%%   Balanc\'e and Rigaudon, then Allemande with
+%% your Partner - - - 1/1
+%%endtext
+%%begintext align
+%%   The first and third Couple meet in the
+%% middle, all Balanc\'e and Rigaudon in two Lines,
+%% the first and third Couple Moulinet to the Right,
+%% while the second and fourth Couple Allemande
+%% to the Right and Left - - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 12
+T: Les Quatre Saisons.
+%R: reel/march, jig, minuet/waltz
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #12
+N: The dance description has "Quartre"; fixed.
+M: 1/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+A,2 |\
+(D3E/F/) ([E3A,2]F/G/) | ([F3A,2]G/A/) D2F2 | {F}E2D2C2D2 | (EDCB,) (A,B,CA,) |\
+(D3E/F/) ([E3A,2]F/G/) | ([F3A,2]G/A/) D2F2 | E2D2 (CDEC) | {C}D6 :|
+"_Doucement"A2 |\
+(A^G) e4 =G2 | (FA) d4 A2 | (BAGF) E2D2 | (CDEC) A,2A2 |\
+(A^G) e4 =G2 | (FA) d4 A2 | (BAGF) (EDEC) | {C}D6 |
+|: [M:6/8][L:1/8] "_Vivement"A, |\
+D2D (DF).A | d2d (dB).A | (dB).A (GF).E | D2D D2A, |\
+D2D (DF).A | d2d (dB).A | (dB).A (GF).E | D3- D2 :|
+|: [M:3/4][L:1/8] "_Gracieusement"\
+A2(TA3G/A/) | B2(TB3A/B/) | g2c2c2 | ({e}dcde)(df) |\
+A2(TA3G/A/) | B2B2-Bc//d//e//f// | g2c2c2 | {c2}d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z2 |\
+z2d2c2A2 | d2D2 z2d2 | g2f2e2d2 | a4 A4 |
+z2d2c2A2 | d2D2 z2d2 | g2f2e2a2 | d2A2D2 :| "_Doucement"z2 | z2a2c'2a2 |
+z2d2f2d2 | g4^g4 | a4A4 | z2a2c'2a2 | z2d2f2d2 |
+g2e2a2A2 | d2A2D2 |: [M:6/8][L:1/8] "_Vivement"z | d2z D2z | d2z D2z | d2F G2A | d2z D2z |
+d2z D2z | d2z D2z | d2f g2a | dAF D2 :||: [M:3/4][L:1/8] "_Gracieusement"d2f2d2 | G2g2f2 |
+e2a2g2 | f2d2z2 | d2f2d2 | G2g2f2 | e2a2A2 | d2A2D2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Les Quatre Saisons.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%center D O U C E M E N T.
+%%begintext align
+%%   Each Gentleman join hands with his Lady
+%% the Right over the Left, makes her turn to
+%% the Right and advance one quarter of the
+%% Course, then the Ladies make the Gentlemen
+%% turn to the Right and advance another quarter
+%% of the Course: The hands must be held up all
+%% the time - - - - 1/2
+%%endtext
+%%center V I V E M E N T.
+%%begintext align
+%%   One Quarter of the Grand Moulinet with
+%% the Ladies in the Middle, the Ladies Chass\'e
+%% outside, while the Gentlemen Chass\`e inside,
+%% then Rigaudon - - - 1/3
+%%endtext
+%%begintext align
+%%   All Eight advance another Quarter in the
+%% grand Moulinet, the Gentlemen Chass\`e outside
+%% and the Ladies inside, then Rigaudon - 1/3
+%%endtext
+%%center M I N U E T.
+%%begintext align
+%%   The grand Quarr\'e in Minuet Steps - 2/4
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 13
+T: Les Enfants
+%R: march, reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #13
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+g2af | g2af | gd{d}c2 | B/A/G/F/ GD |\
+EG ce | df gd | dc cB | A4 :|
+|:\
+TA2 TB2 | Tc2 TB2 | TA2 TB2 | cATB2 |\
+e2d/c/B/A/ | df gc | {c}BA/G/ AG/F/ | G2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+g2d2 | G2d2 | gbaf | g3G |
+c2c'2 | b2g2 | zfgG | d4 :||: dd' dd' |
+dd' dd' | dd' dd' | dd' g2 | c2 c'2 |
+ba bf | g2d2 | g2G2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Les Enfants.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Gentlemen Chass\'e with
+%% the Ladies on their Left in an oblique Line,
+%% while the second and fourth Gentlemen Allemande
+%% with the Ladies on their Left, then the
+%% second and fourth Gentlemen Chass\'e with the
+%% Ladies on their Left in an oblique Line,
+%% while the first and third Gentlemen Allemande
+%% with the Ladies on their Left - - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 14
+T: Le Berger Fidelle
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #14
+N: This version is for ABC software that doesn't understand voice overlay.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+A2d |\
+A2d AGF | E3 F2D | G2F E2D | E3 a2d' |\
+a2d' agf | e3 f2d | {ef}g2f ede | d3 :|
+|: A2d |\
+{d}c2d e2f | {a}g2f e2d | c2d e2f | {f}e3 A2d |\
+{d}c2d e2f | g2f e2d | {d}c2d efe | d3 :|
+|: DFA |\
+B2A {Bc}d2c | B2A d2c | B2A AGF | E3 dfa |\
+b2a {bc'}d'2c' | b2a d'2c' | b2a gfe | d3 :|
+|: F2G |\
+A2B c2d | B2A d2d | c2B A2G | F3 F2G |\
+A2B c2d | B2A d2B | A2G {G}F2E | D3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+d2z |\
+d2z d2z | a2z d2f | c2d A2d | a3 d2z | d2z d2z |
+a3 d2f | c2d a2A | d3 :||: [a2A3]a | [g2A3]f [e2A3]d | [c2A3]d [e2A3]f | [g2A3]f [e2A3]d |
+[c2A2]z [a2A3]a | [g2A3]f [e2A2]d | [c2A3]d [e2A3]f | [g2A3]f [e2A2][gA] | [f3d3] :||: d3 |
+d3 d3 | d3 d3 | d3 c2d | a3 d3 | d3 d3 |
+d3 d3 | d3 A3 | d3 :||: d3 | d3-d3 | d3-d3 |
+a3c3 | d3-d3 | d3-d3 | d3-d2g | a3 A3 | d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Le Berger Fidelle
+%%begintext align
+%%   The first Gentleman turns his Partner to
+%% face the outside, the second Couple follow the
+%% first, the third Couple follow the second, and
+%% the fourth Couple follow the third, then all
+%% Eight Balanc\'e and Rigaudon - - 1/2
+%%endtext
+%%begintext align
+%%   The first and second Couple hands cross,
+%% and back again, while the third and fourth
+%% Couple Chass\'e cross and back again - 1/2
+%%endtext
+%%begintext align
+%%   The first and second Couple Contretems and
+%% go to the Bottom, while the third and fourth
+%% Couple advance to the top and Rigaudon, then
+%% all Eight Allemance - - - 1/3
+%%endtext
+%%begintext align
+%%   The first and second Couple Contretems and
+%% go to the Bottom, while the first and second
+%% Couple advance to the Top and Rigaudon - 1/3
+%% The third and fourth Couple Contretems and
+%% go to the Bottom, while the first and second
+%% Couple advance to the Top and Rigaudon - 1/3
+%%endtext
+%%begintext align
+%%   Each Lady tuns under her Partner's Arm
+%% and Rigaudon, then each Gentleman turns
+%% under his Partner's Arm and Rigaudon - - 1/4
+%%endtext
+%%begintext align
+%%   All Eight Allemande to the Right, then
+%% back to their places - - - 1/4
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 15
+T: La Rose
+%R: reel, march
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #15
+N: The Mineur section has initial repeat but no final repeat.  The dance's pattern is 1-1-2-2-3-4-3.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+G3A B2D2 | E3F E4 | A2A>c BAGF | GFGA G2D2 |\
+G3A B2D2 | E3F E4 | A2Ac BAGF | G4 G,4 :|
+|:\
+cBcd c4 | BABc B2d2 | d2g2c2B2 | AGAB A4 |\
+G3A B2D2 | E3F E4 | A2Ac BAGF | g4 G,4 :| [K:Gm]
+|: "Mineur"\
+d6 e2 | {d}c6 d2 | {c}B2AB c2B2 | AG^FG AEDC |\
+B,2G2 C2A2 | D2c2 E2g2 | C2e2 dcBA | G8 |]
+[|\
+f6 g2 | {f}e6 f2 | dced fedc | BAcB AGFE |\
+D2B2 E2c2 | F2e2 G2b2 | E2g2 fedc | "_Da Capo"B8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+g4 G2G2 | c4 c2c2 | c4 d2D2 | G4 z4 | g4 G2G2 | c4 c2c2 |
+c4 d2D2 | G8 :|\
+|:\
+d4 D2D2 | g4 G2G2 | G2B2c2^c2 | d4 dcBA | G2g2 G4 |
+c4 c2c2 | c4 d2D2 | G4 z4 :|\
+[K:Gm]\
+|: "Mineur"z2g2b2g2 | z2a2^f2d2 | g4 ^f2g2 | d2d'2 c'4 |
+b4 c'4 | d'4 e'4 | c'4 d'2d2 | g4 G4 |]\
+[| z2b2d'2b2 | z2c'2a2f2 | b6 e2 |
+f4 z4 | d4 e4 | f4 g4 | e4 f2F2 | B2b2 "_Da Capo"d'c'ba |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Rose - - - 2/1
+%%begintext align
+%%   The first and third Couple Contretems forward
+%% and Rigaudon, then Contretems in turning and
+%% Rigaudon, while the other Chass\'e in their own
+%% Corners and back again - - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   The first Couple face the fourth and Moulinet
+%% four, while the third Couple do the same
+%% with the second - - - 1/1
+%%endtext
+%%begintext align
+%%   Each Gentleman with his Right hand turns
+%% the Lady on the Left under his Arm and
+%% Rigaudon, then, with the Left hand, turns his
+%% Partner, and Rigaudon - - 1/2
+%%endtext
+%%begintext align
+%%   The fourth Couple face the first and Moulinet
+%% four, while the second Couple do the same
+%% with the third - - - 1/1
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 16
+T: Les Plaisirs de Carel.
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #16
+M: 6/8
+L: 1/8
+P: Rondeau
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+!segno!A AAA |\
+FDd dfd | cAe {fg}aaa | fdd {e}dcd | e2A AAA |\
+FDd dfd | cAe {fg}a2a | fde fge | d2 :|
+A AA=c |\
+BGB (B/^c/d).B | AFA ABA | GEG AEA | F2A AA=c |\
+BGB BdB | AFA ABc | def g2f | "_Ca Capo"{f}e2 |]
+F FFF |\
+F2B dcB | cFc edc | dBd fed | c2f faf |\
+gee ege | fdd dfd | efg Tc2B | B2 !segno!|] [M:3/4]
+"Minuet"\
+f2 ffff | f2 e2 d2 | e2 d2 e2 | A6 | d2 dddd | e2 d2 a2 | f2 d2 g2 | {f2}e6 |
+f2 ffff | f2 e2 d2 | e2 d2 e2 | A6 | d2 dddd | e2 d2 a2 | f2 g2 e2 | d6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+!segno!z d'3 |\
+d3 f3 | a3 c'2a | d'3 b3 | a3 c'2a | d'3 d3 |
+a3 c'2a | d'3 a3 | d2 :| d f2d | g3 G3 | d3 f3 | e3 c3 |
+d2d f2d | g3 G3 | d3 f3 | b3 g2^g | "_Da Capo"a2 |] z d3 | B3 b3 |
+^a3 f3 | b3 B3 | f3 ^d3 | e3 c3 | d3 B3 | e3 f3 | B2 !segno!|] [M:3/4]
+"Minuet"\
+d2 f2 d2 | a2 g2 f2 | g2 f2 g2 | A2 agfe | d2 f2 d2 | g2 f2 c2 | d2 B2 G2 | A2 agfe |
+d2 f2 d2 | a2 g2 f2 | g2 f2 g2 | A2 agfe | d2 f2 d2 | g2 f2 c2 | d2 G2 A2 | D6 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Les Plaisirs de Carel.
+%%begintext align
+%%   Le Grand Rond. Then Fall in two
+%% Lines, the first and second Couple at the Top,
+%% the third and fourth Couple at the Bottom - - - - 2/1
+%%endtext
+%%begintext align
+%%   All Right advance with Contretems and
+%% Rigaudon, each Gentleman turns the opposite
+%% Lady, then all Retreat - - - 1/2
+%%endtext
+%%begintext align
+%%   The first and second Couple make half a
+%% Circle on the outside to the Left, while the
+%% third and fourth Couple do the same - 1/1
+%%endtext
+%%begintext align
+%%   The first and fourth Couple change places
+%% with Chass\'e and Rigaudon, then back again,
+%% while the second and third Couple do the same 1/3
+%%endtext
+%%begintext align
+%%   The First and second Couple make half a
+%% Circle on the outside, to the Right, while the
+%% third and fourth Couple do the same - 1/1
+%%endtext
+%%center M I N U E T.
+%%begintext align
+%%   All Eight Promenade with Minuet Steps,
+%% making an Allemande pass at each Quarter.
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 17
+T: Le Pouvoir de la Beaut\`e
+N: The book has a handwritten accent-grave over the final 'e', but that's bogus French.
+R: march
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #17
+M: 2/4
+%V: 1 clef=treble middle=B
+%V: 2 clef=bass   middle=d
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+G2G2 |\
+A2Bc B2A2 | G4 gfed | efgd c2B2 | {B}A4 G2G2 |\
+A2Bc B2A2 | G4 gfed | efga g2f2 | Hg4 :|
+B2B2 |\
+A2A2 d2ed | ^c2A2 f2gf | e2d2 ^cdec | A4 d2fd |\
+^c2BA d2fd | ^c2BA B^cdA | B^cdG F2E2 | D4 |][K:Gm]
+|: "Mineur"\
+B2c2 |\
+d4 e2dc | d4 {e}d2cB | A2G2 ^FGAF | D4 B2c2 |\
+d4 e2dc | d4 {e}d2cB | A2G2A2^F2 | HG4 :|
+B2d2 |\
+f4 edcB | A2F2 Bcde | fgab d2c2 | B4B2d2 | f4 edcB |\
+A2F2 Bbag | edcB F2A2 | B4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass   middle=d
+g2g2 |\
+c4d2D2 | E4B4 | c2B2A2G2 | d4g2g2 | c4d2D2 |
+E4B4 | c4d2D2 | HG4 :| G2g2 | f2d2f2g2 | a4d2d'2 | g2^g2a4 |
+A2a2f2d2 | a4f2d2 | a2f2g2f2 | g2b2a2A2 | "_Da Capo"d4 |][K:Gm]
+|: "Mineur"\
+g2A2 |\
+b4c'4 | b4g4 | c'2^c'2d'4 | d4g2a2 | b4c'4 |
+b4g4 | c2e2d2D2 | HG4 :| B2b2 | a2f2g2e2 | f4d4 | B4f2F2 |
+B4B2b2 | a2f2g2e2 | f4d4 | e4f2F2 | "_Da Capo"B4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Pouvoire de la Beaut\`e
+%%begintext align
+%%    Le Grand Rond, - - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Couple half Right hand
+%% and Left, then Allemande, at the same time
+%% the second and fourth Couple Allemande, then
+%% Right hand and Left half Round - - 1/2
+%%endtext
+%%begintext align
+%%   All Eight, the Moulinet half Round - 1/1
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   Half La Chaine - - - 1/1
+%%endtext
+%%begintext align
+%%   All Balanc\'e, Rigaudon and Allemande with
+%% their Partners - - - 1/2
+%%endtext
+%%begintext align
+%%   Finish La Chaine - - - 1/2
+%%endtext
+%%begintext align
+%%   All Balanc\'e, Rigaudon and Alemande with their
+%% Partners - - - - 1/1
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 18
+T: La Promenade a quatre
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #18
+N: This version is for ABC software that doesn't understand voice overlays.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+A |\
+[AD6]BA d2c | [B3D6] A2d | efg agf | efd cdB |\
+[AD6]BA d2c | [B3D6] A2d | egf edc | d3- d2 :|
+|: e |\
+[e2A6]f g2f | [e2A6]a e2f | [e2A6]f g2f | [f3A6] e2A |\
+[AD6]BA d2c | [B3D6] A2d | egf edc | d3- d2 :||: [K:Dm]
+|: "Mineur"a |\
+a3 f2a | a3 f2a | g2f gfe | fef dfg |\
+a3 f2a | a3 f2a | g2f gfe | d3- Hd2 :|
+a |\
+aga ^fga | bab b2g | fef efg | aga a2f |\
+fef def | gfg g2e | ede ^cde | f3 "_Da Capo"e2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z |\
+d3 d3 | d3 d3 | g3 fed | a3 z2z | d3 d3 |
+d3 d3 | g3 a3 | d3- d2 :||: z | A3 A3 | A3 A3 | A3 A3 |
+A6 | d3 d3 | d3 d3 | g3 a3 | d3- d2 :| [K:Dm]
+|: "Mineur"z |\
+dfa d'3 | dfa d'3 | g3 a3 | d'3 d2z | dfa d'3 |
+dfa d'3 | g3 a3 | d3- Hd2 :| z | d'3 de^f | g3 G3 | c'3 cde |
+f3 F3 | b3 Bcd | =e3 E3 | a3 A=B^c | d3 "_Da Capo"A2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Promenade a Quatre.
+%%begintext align
+%%   Le Grand Rond - - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and second Couple Chass\'e cross and
+%% Rigaudon, then Allemande to their places - 1/2
+%%endtext
+%%begintext align
+%%   The second and fourth Couple do the same - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   The first and third Couple Balanc\'e and
+%% Rigaudon, then Moulinet, the second and fourth
+%% Couple Balanc\'e, Rigaudon and Allemande at the
+%% same time - - - 1/1
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/1
+%%endtext
+%%begintext align
+%%   All Eight half the Course with Rigaudon at
+%% each Quarter - - - 1/2
+%%endtext
+%%begintext align
+%%   Double Moulinet to your own Places - 1/1
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 19
+T: L'Impromptu.
+%R: march, reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #19
+M: 2/4
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+A2ce | aee2 | d2 e/d/c/B/ | c/B/c/d/ cc |\
+A2ce | aee2 | d2 e/d/c/B/ | A2 A2 :|
+|:\
+eAae | dBbd | cAac | B/A/G/F/ EB |\
+ecae | dBbd | cAac | B2B2 |
+A2ce | aee2 | c2 e/d/c/B/ | c/B/c/d/ cc |\
+A2ce | aee2 | d2 e/d/c/B/ | A2A2 :|
+Accc | Bddd | ce ed/c/ | B/A/B/c/ BB |\
+Accc | Bddd | ce ed/c/ | B2"_Da Capo"B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+a2a2 | c'2a2 | b2ge | a2A2 | a2a2 | c'2a2 |
+b2ge | a2A2 :||: c2c2 | B2G2 | A2A2 | e2z2 | c2c2 |
+B2G2 | A2A2 | e2E2 | a2a2 | c'2a2 | b2ge | a2A2 |
+a2a2 | c'2a2 | b2ge | a2A2 :| A2a2 | g2e2 | a2A2 |
+e2z2 | A2a2 | g2e2 | a2A2 | e2"_Da Capo"z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center L'impromptu.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Couple Queue du Chat,
+%% then Right hand and Left - - 1/2
+%%endtext
+%%begintext align
+%%   The second and fourth Couple do the same 1/2
+%%endtext
+%%begintext align
+%%   The first and second Couple Poussette and
+%% change places, while the third and fourth Couple
+%% do the same, then the first and fourth Couple
+%% Poussette and change places, while the third
+%% and second Couple do the same - - 1/3
+%%endtext
+%%begintext align
+%%   Half La Chaine - - - 1/1
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 20
+T: La Nouvelle Vergne
+R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #20
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+ecA |\
+{GA}B2E d2c | {c}B2A ecA | f2e d2c | {c}B3 ecA |\
+{GA}B2E d2c | {c}B2A af^d | eBA G2F | {F}E3 :|
+BGE |\
+{Bc}dc2 f2e | d2c eBd | ced cBA | GFE ae=g |\
+Tg2f bfa | gb^d ebc | dfB ceG | A3 !segno!|][K:=f=c=g]
+K: Am
+"Mineur"\
+EDF |\
+E2A ^G2B | TB2A cBd | c2e d2f | Tf2e a^ce |\
+d^cd gBd | =cBc fed | cBA ^G2A | B2E EDF |
+E2A ^G2B | TB2A cBd | c2e d2f | Tf2e ag^f |\
+gb^d dec | B2c A2c | BAG ^F2E | E3 ||
+ecA |\
+{fg}a2A a2g | f2d dBG | {fe}g2G g2f | e2c cAF |\
+f2F f2e | dcB ce^g | aed c2B | A3 !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+A3 |\
+e3 f2e | d2c A2c | d2c B2A | e3 A3 | e3 f2e | d2c f2f |
+g2a b2B | e3 :| e3 | G2A d2c | B2A G2g | a3 A3 | e3 c2A |
+B3 ^d2B | e2f g2a | d3 e3 | A3 !segno!|][K:=f=c=g][K:Am] "Mineur"A3 | c2d e2d | c3 a2^g |
+a3 b3 | c'3 a3 | b3 g3 | a3 d3 | ^d3 e2A | e3 A3 | c2d e2d |
+c3 a2^g | a3 b3 | c'3 a2b | e2^f g2a | g2e ^f2^d | e3 B3 | e3 || A3 |
+c3 ^c3 | d3 B3 | B3 B3 | c3 A3 | A3 A3 | B2^G A2B | c2d e2E | A3 !segno!|]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Nouvelle Vergne
+%%text Le Grand Rond - - . 2/1
+%%begintext align
+%%   Each Gentleman Balanc\'e to his Partner,
+%% then turns the Lady on his left - - - 1/2
+%%endtext
+%%begintext align
+%%   Each Gentleman Balanc\'e to the Lady he
+%% turned, and then turns his Partner - - - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   The Ladies half Moulinet and turn the
+%% opposite Gentleman, then make an End of the
+%% Moulinet and turn their Partners - 1/1
+%%endtext
+%%begintext align
+%%   Each Gentleman Chass\'e with the Lady on his
+%% Left to the Corner, then back again and turn
+%% his Partner - - - - 1/2
+%%endtext
+%%begintext align
+%%   The Gentlemen half Moulinet and turn the
+%% opposite Ladies, then make an End of the
+%% Moulinet and turn their Partners - - 1/1
+%%endtext
+%%begintext align
+%%   Each Lady Chass\'e with the Gentleman on
+%% her Right to the Corner, then back again and
+%% turn her Partner - - - 1/2
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 21
+T: La Fantasie Liegeoise.
+%R: march, reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #21
+N: The final c grace note needs a sharp; not fixed.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+DFAd |\
+D2d2 D2d2 | D4 edcB | Acef gfge | f2d2 DFAd |\
+Dddd Dddd | D2D2 edcB | dcBA ^GABG | A4 :|
+|: Acea |\
+A2a2 A2a2 | A2A2 GAFA | GAEA FADA | A,2A,2 Acea |\
+Aaaa Aaaa | {a}g3f edcB | A2de fdec | {c2}d4 :|
+K: Dm
+|:"Mineur"DFAd |\
+D2d2 D2d2 | D2zd D2zd | D2zB AGFE | F2E2 DFAd |\
+DFAd DFAd | {f}e3d c=BA^G | AA=GF EDC=B, | A,4 :|
+|: FGAB |\
+Afac BAGF | C2C2 EFGA | BegB AGFE | F2F2 DFAd |\
+DFAd DFAd | Dddd FdEd | Dgfe fde^c | {c2}d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+d4 |\
+B4 G4 | F4 G4 | A4 A4 | D4 d4 | B4
+G4 | F4 ^G4 | A4 e4 | A4 :||: a4 | f4 d4 | A4 c2d2 |
+A2c2 d2D2 | A4 a4 | c4 d4 | B2A2 G2g2 | f2d2 a2A2 | d4 :|
+K: Dm
+|:"Mineur"d4 |\
+B4 G4 | F4 A4 | B2G2 A4 | d2A2 d4 | f4 d4 |
+a4 e4 | Aagf edc=B | A4 :||: f4 | A4 B4 | c4 c4 |
+c4 c4 | f4 f4 | d4 f4 | b4 a4 | b2g2 a2A2 | d4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+N: The dance has "Fontasie" rather than "Fantasie"
+%%sep 1 1 400
+%%center La Fontasie Liegeoise.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Couple Contretems
+%% Forward and Rigaudon, then Swing Round to
+%% their Places - - - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   The first and third Gentlemen Contretems
+%% Forward with the Ladies on their Left, then
+%% turn them to their places - - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/1
+%%endtext
+%%begintext align
+%%   La Chaine in the form of Allemande - 2/2
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 22
+T: Les Petites Folies
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #22
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+d2d |\
+c2c BAB | A3 c2c | B2B AGA | G3 e2g |\
+(dB).g e2g | (dB).g e2g | (dc).B (cB).A | G3 :|
+|: E2F |\
+(GF).G A2B | c2B c2d | e2f gfe | d3 E2F |\
+GFG A2B | c2B c2d | e2d cBA | G3 :|
+|: B2c |\
+ded gfe | d3 gfe | ded c2B | A3 B2c |\
+ded gfe | d2d gfe | ded cBA | G3 :|
+|: B2c |\
+dBG A2B | c2B c2d | ecA B2c | d3 g2a |\
+bgd g2a | bgd g2a | bag def | g3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+G2g |\
+fed g2G | d3 f2d | g2G d2c | BAG g2G |
+g2G g2G | g2G g2G | g2G d2D | G3 :||: c2d | G3- G2g | G3- G2g |
+G3- G2g | G3 c2d | G3- G2g | G3- G2g | c2G d2D | G3 :||: g3 |
+G2g G2g | G2z g3 | G2g f2g | d'2d g3 | G2g G2g |
+GBd G2c | B2G d2D | G3 :||: g2z | g2z d2z | d2g a2z |
+f2z g2z | G2z B2d | g2G B2d | g2G B2d | g2G d2D | G3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Les Petites Folies
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   Eath Gentleman leads his Partner a quarter
+%% of the Course on the Right and Rigaudon, each
+%% Lady Pirouette, then turns under her Partner's
+%% Arm and Rigaudon - - 1/2
+%%endtext
+%%begintext align
+%%   Another quarter of the Course in the same
+%% manner - - - - 1/2
+%%endtext
+%%begintext align
+%%   The Ladies Chass\'e on the inside and the
+%% Gentlemen on the outside and Rigaudon, then the
+%% Ladies Moulinet while the Gentlemen Pirouette 1/3
+%%endtext
+%%begintext align
+%%   The Gentlemen Chass\'e on the inside and the
+%% Ladies on the outside and Rigaudon, then the
+%% Gentlemen Moulinet while the Ladies Pirouette 1/3
+%%endtext
+%%begintext align
+%%   Each Gentleman leads his Partner a quarter
+%% of the Course on the Right and Rigaudon, each
+%% Lady Pirouette, then turns under her Partner's
+%% Arm and Rigaudon - - - 1/4
+%%endtext
+%%begintext align
+%%   Another quarter of the Course in the same
+%% manner - - - - 1/4
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23
+T: Le Passe-tems
+%R: march, reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #23
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+[gB][gB] {f}fe/d/ | ef [g2B2] | ag/a/ bg | ea {g}fe/d/ |\
+[gB][gB] {g}fe/d/ | ef [g2B2] | ag/a/ bg | f/g/a/f/ [g2B2] :|
+|:\
+dd {e}dc/B/ | cc {d}cB/A/ | BAGA | B/c/d/B/ AD |\
+dd {e}dc/B/ | cc {d}cB/A/ | Gd {d}cB/A/ | GD G2 :|
+K: Gm
+[|"Mineur"\
+dd(de) | cc(cd) | BB BA/B/ | cBAD |\
+dd(de) | cc(cd) | BA/B/ ce | d/c/B/A/ G2 |]
+[|\
+B2df | c/B/A/B/ c2 | BfBf | FFF2 |\
+B2df | c/B/A/B/ c2 | Aed^F | G2 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+g2dB | cAG2 | fdge | ^cAd2 | G2dB |
+cAG2 | fd gb | d'd g2 :||: b2g2 | a2d2 | gdBd |
+g2d2 | b2g2 | a2d2 | eBcd | g2G2 :|
+K: Gm
+[|"Mineur"\
+G2gc | f2fB | e2e2 | c2d2 | G2gc |
+f2fB | e2c2 | d2G2 |] [| BdBd | AFAF |
+dBdB | AfF2 | dfBd | AFAF | cAdD | G2g2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Le Passe-tems.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Ladies Chass\'e and change
+%% places with the Ladies on their Right, then
+%% half La Chaine to their own places - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part for the Gentlemen - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   Each Couple Chass\'e one quarter of the
+%% Round to the Right and Rigaudon, then one
+%% other quarter of the Round and Rigaudon - 1/1
+%%endtext
+%%begintext align
+%%   Each Couple go one Quarter of the Course
+%% to the Left in form of Allemande, then one
+%% other Quarter of the Course to their own places 1/2
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 24
+T: Les Plaisirs enchant\`es
+%R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #24
+N: The tune and dance titles have some minor spelling differences.
+P: Rondeau
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+G2AB |\
+ADAc BGBd | g4 gfed | edcB ABGA | ^F2D2 G2AB |\
+ADAc BGBd | g4 g^fgd | edcB AGA^F | HG4 :|
+B2cd |\
+cFce dBdf | b4 bagf | gfed edcB | A2F2 FEDC |\
+D4 edcB | c2F2 FGAB | cedc dcBA | "_Da Capo"B4 |]
+bagf |\
+=e2a2 gf=ed | ^c2A2 BAGF | =E2A2 GF=ED | ^C2A,2 A=Bcd |\
+c=BAG =B^cd=e | d^c=BA agf=e | gf=ed f=ed^c | "_Da Capo"d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+g4 |\
+^f4 g4 | B2d2 =B2G2 | c4 ^c4 |
+d4 B2G2 | ^F4 G4 | B2d2 =B2G2 | c4 d4 |
+HG4 :| B4 | A4 B4 | d2f2 d2B2 | e4 c4 |
+f4 A4 | B2b2 e2g2 | f4 F4 | f4 F4 | "_Da Capo"B4 |]
+g4 |\
+a4 b4 | a4 g4 | a4 b4 | a4 ^f4 |
+g4 ^g4 | a4 ^c'4 | d'4 a4 | "_Da Capo"d4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Les Plaisirs Enchant\'es
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   All Eight Contretems, the Gentlemen turn
+%% to the Left, while the Ladies turn to the Right
+%% and Rigaudon, then back to back Round to their
+%% places - - - - 1/2
+%%endtext
+%%begintext align
+%%   The Ladies present themselves to do the
+%% Round, the Gentlement Pirouette, each placing
+%% himself between two Ladies, puts his hands on
+%% theirs and all Rigaudon, then half Round in
+%% this manner - - - 1/1
+%%endtext
+%%begintext align
+%%   Right hand and Left four and four - 1/3
+%%endtext
+%%begintext align
+%%   The Gentlemen present themselves to do the
+%% Round, the Ladies Pirouette, each placing
+%% herself between two Gentlemen, puts her
+%% hands on theirs all Rigaudon, then half
+%% Round in this manner - - 1/1
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 25
+T: L'Harmonie.
+%R: march, reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #25
+M: C|
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+E2 (3(GFE) |\
+B2e2 e2e2 | d4 B2 (3(dcB) | f2 (3(dcB) a2 (3(fga) | g2e2 E2 (3(GFE) |\
+B2e2 e2e2 | d4 f2 (3(dcB) | b2 (3(gfe) d2c2 | B4 :|
+B2 (3(bab) |\
+B2b2 a2g2 | g2f2 a2 (3(fga) | g2e2 d2c2 | B4 Eedc |\
+B2A2 G2G2 | G4 B2 (3(GFE) | e2 (3(cBA) G2F2 | E4 |]
+B2 (3(edc) |\
+B2B2 c2c2 | B4 A2(3(FGA) | G2 (3(EFG) F2 (3(DEF) | E2B,2 B2 (3(edc) |\
+B2B2 c2c2 | B4 e2Be | g2eg b2 (3(bag) | {g2}f4 |]
+F2F2 |\
+F2 (3(fga) g2b2 | b4 F2F2 | F2 (3(fga) g2 (3(bag) | {g2}f4 B2 (3(edc) |\
+B2B2 c2c2 | B4 E2 (3(edc) | B2 (3(cBA) G2F2 | E4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+e4 | g4 e4 | b4 B4 |\
+d4 B4 | e4 e4 | g4 e4 |
+b4 B4 | d2e2 f2F2 | B4 :|\
+B4 | d4 e4 | B4 B4 |
+e4 f4 | g4 a4 | g2f2 e2B2 E4 e4 |\
+g2a2 b2B2 | e4 |]\
+e4 |
+g4 a4 | g4 d4 |\
+e4 B4 | E4 e4 | g4 a4 |
+g4 g4 | e4 e4 | B4 |]\
+B4 | d4 e4 | d4 B4 |
+d4 e4 | B4 e4 | g4 a4 |\
+g4 e4 | g2a2 b2B2 | e4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center L'Harmonie.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The four Gentlemen half Moulinet, then
+%% Allemande with the opposite Ladies - 1/2
+%%endtext
+%%begintext align
+%%   All Eight Poussette with an Allemande pass\`e 1/3
+%%endtext
+%%begintext align
+%%   The four Gentlemen half Moulinet, then
+%% Allemande with their Partners - - 1/4
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 26
+T: Le Rondeau de Fischar.
+%R: reel, march
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #26
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+c4 B2 (3(Bcd) | c2 (3(cde) d2 (3(def) | {f}e2dc (ed)cB | c2G2E2C2 |\
+c4 B2 (3(Bcd) | c2 (3(cde) d2 (3(def) | {f}e2dc (ed)cB | c4 c4 :|
+|:\
+g4 f2e2 | a6 bc' | g2g2f2e2 | d2de d2d2 |\
+g4 f2e2 | a6 bc' | g2g2f2e2 | {e4}d8 |
+c4 B2 (3(Bcd) | c2 (3(cde) d2 (3(def) | {f}e2dc (ed)cB | c2G2E2C2 |\
+c4 B2 (3(Bcd) | c2 (3(cde) d2 (3(def) | {f}e2dc (ed)cB | c4 c4 :|
+M: 3/8
+L: 1/8
+"Menuet"\
+g4 {f}ed/c/ | gf {e2}d4 | (eg)(gc')(c'e) | {e}d2 (cB)AG |\
+g4 {f}ed/c/ | gf {e}d3 f | (e/f/g/a/) c2B2 | {B2}c6 |]
+d4 {c}BA/G/ | (e2c2) (e/c/)(e/c/) | (f2d2) (f/d/)(f/d/) | g4 f2 |\
+(eg)(ag)(c'g) | (eg)(ag)(c'g) | (eg)(ag)(fe) | {f}d2(cB)AG |]
+g4 {f}ed/c/ | gf {e2}d4 | (eg)(gc')(c'e) | {e}d2 (cB)AG |\
+g4 {f}ed/c/ | gf {e2}d4 | (e/f/g/a/) c2B2 | c6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+c2e2g2G2 | c2e2g2G2 | c2e2f2g2 | c'2g2e2c2 | e2c2g2G2 | c2e2g2G2 | c2e2f2g2 |
+c'geg c4 :||: c2c'2b2c'2 | f2F2f4 | c'2c2B2c2 | g2G2z4 | c'2c2B2c2 | f2F2f4 | c'2c2B2c2 | GgdB G4 |
+c2e2g2G2 | c2e2g2G2 | c2e2f2g2 | c'2g2e2c2 | e2c2g2G2 | c2e2g2G2 | c2e2f2g2 | c'geg c4 :|
+M: 3/8
+L: 1/8
+"Menuet"\
+c2e2c2 | d2B2G2 | c2e2c2 | g2G2z2 |c2e2c2 | d2B2G2 | c2g2G2 | c2G2C2 |]
+GgGgGg | GgGgGg | GgGgGg | GgGgGg | c2zc'cc' | c2zc'cc' | cz Bz cz | g2G2z2 |]
+c2e2c2 | d2B2G2 | c2e2c2 | g2G2z2 |c2e2c2 | d2B2G2 | c2g2G2 | c2C2z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Le Rondeau de Fischar.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   All Eight Balanc\'e and Rigaudon, then Join
+%% hands and go half Round, each Gentleman
+%% Allemande with the Lady on his Left and then
+%% with his Partner - - - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%%center M I N U E T.
+%%begintext align
+%%   Half La Chaine - - - 1/1
+%%endtext
+%%begintext align
+%%   Each Gentleman makes two Minuet Steps
+%% to the Right and back again, while his Partner
+%% makes two Minuet Steps to the Left and back
+%% again - - - - 1/2
+%%endtext
+%%begintext align
+%%   Half La Chaine - - - 1/3
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 27
+T: La Mignonette Fran\,coise.
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #27
+N: One spelling of "Contretems" is "Coutretems"; fixed.  The cedille is missing in the dance description; not fixed.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+F |\
+A2A AGF | c2c c2f | c2a c2B | TA3 G2F |\
+A2A AGF | c2c c2f | edc Gc=B | c3 c2 :|
+|: c |\
+g2c b2a | Tg2f e2f | g2c b2a | gfe fc_e |\
+d>bd B>dB | c>ac A>cA | B2G F2E | F2F F2 :|
+|: A |\
+A3 GFG | F2F F2c | c3 BAB | A2A A2f |\
+{g}f2e {f}e2d | {e}d2c {d}c2B | ABc B2A | G2G G2 :|
+|: c |\
+{cd}_e2e ecA | B2B B2d | f2f fd=B | c2c c2a |\
+b2a {a}g2f | b2a {a}g2f | cba gfe | f2f f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z |\
+f3- f2f | a2a agf | e2f e2c | f3 c2z |
+f3- f2f | a2a agf | c'2a g2g | c'3 c2 :||: z | c2e g2f | e2d c2d |
+c3 e2f | b2c' a2f | b3 g3 | a3 f3 | g2b c'2c | f3 F2 :||:
+z | f3 c3 | A3 F2a | a3 gfg | f2f f2d' | d'2c' {d'}c'2b |
+{c'}b2a {b}a2g | f3 g2f | c2c c2 :||: z | f3 f3 | d3 B2z | g3 g3 |
+e3 c2c' | d'2c' {c'}b2a | d'2c' {c'}b2a | e2f c'2c | f2f f2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Mignonette Francoise.
+%%begintext align
+%%   Le Grand Rond: Then fall in two Lines,
+%% the first and second Couple at Top, the third
+%% and fourth Couple at Bottom - - 2/1
+%%endtext
+%%begintext align
+%%   The first and second Couple Chass\'e cross
+%% and Rigaudon, while the third and fourth
+%% Couple do the same, then the first and third
+%% Gentlemen Moulinet with the opposite Ladies,
+%% while the second and fourth Gentlemen
+%% Allemande with the opposite Ladies -- 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%%begintext align
+%%   Each Gentleman Balanc\'e with the Lady on
+%% his Left, then half La Chaine four and four
+%% on the opposite - - - 1/3
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/3
+%%endtext
+%%begintext align
+%%   The first and second Couple Face each
+%% other with Contretems and Rigaudon, then hands
+%% round four, while the third and fourth Couple
+%% do the same - - - 1/4
+%%endtext
+%%begintext align
+%%   The first and fourth Couple Face each other
+%% with Contretems and Rigaudon, then hands
+%% round four, while the second and third Couple
+%% do the same - - - 1/4
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 28
+T: La Choisie.
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #28
+N: The G grace note in the last bar needs a sharp.
+M: 6/8
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+(AB).c (de).f | {f}e3- e2a | (^ga).b (Bc)d | {d}Tc3 B3 |\
+(ce).c (Be).B | (ce).c (Be).B | {d}cBA {c}BA^G | {G}A3 A,3 :|
+|:\
+(cd).e (fg).a | {a}g3- g2a | (gf).e (de).c | (Bc).d .G(Bc) |\
+.G(cd) .G(de) | .G(ef) .G(ga) | (ed).c {c}BAB | c3- c2B |
+(Ac).e (Ac).e | (^GB).e (GB).e | (AB).c (Bc).A | ^G2A B2E |\
+(Ac).e (Ac).e | (^GB).e (GB).e | (AB).c (BA).^G | {G}A3 A,3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+z6 | aAB cBA | e3 ^g3 | a3 e3 |
+a3 ^g3 | a3 ^g3 | a2c d2e | A3- A3 :||:
+z6 | c'cd edc | B2c f2^f | g3 z2z |
+g3 z2z | g3 z2z | c2f g2G | ceg c'2z |
+c'3 a3 | e'3 e3 | f3 d3 | e3 E3 |
+c3 A3 | e3 E3 | c2A e2E | A3- A3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Choisie.
+%%begintext align
+%%   Le Grand Rond. Then fall in two Lines,
+%% the first and second Couple at the Top, the
+%% third and fourth at the Bottom - - 2/1
+%%endtext
+%%begintext align
+%%   Four an Four half Right hand and Left,
+%% then back again, the second and fourth
+%% Gentlemen Contretems Forward and Rigaudon,
+%% then Moulinet, with the opposite Ladies, at
+%% the same time the first and third Gentlemen
+%% Chass\'e to the Left in the Corner and back
+%% with Rigaudon, while the second and fourth
+%% Ladies Chass\'e to the Right in the Corner and
+%% back with Rigaudon, then fall into the contrary
+%% side Lines - - - - - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - - 1/2
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29
+T: La Royale
+O: c.1755
+%R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" #29
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+F3G |\
+A2A2 Bcd2 | A4 d2cB |\
+Adcd efge | f2d2 F3G |\
+A2A2 Bcd2 | A4 d2cB |\
+(3ca^g (3fed c2B2 | A4 :|
+Adfa |\
+a2g2 Aceg | g2f2 fafd |\
+gbge fafd | c2A2 Adfa |\
+a2g2 Aceg | g2f2 gbge |\
+fafd A2c2 | d4 "C"|]
+FAdA |\
+GBeB FAdF | EAcE FAdF |\
+GBed cBAG | F2D2 FAdF |\
+GBeB FAdF | EAcE FAdF |\
+GBeg fdec | d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+d3e | f2d2 g2g2 | f2d2 d2d2 | f2d2 c2A2 | d2d2 d3e | f2d2 g2g2 |
+f2d2 ^g2e2 | a2d2 e2E2 | A4 :| d2d2 | f2e2 c2A2 | d2d2 d2d2 |
+e2c2 d2D2 | a2a2 d2d2 | f2e2 c2A2 | d2d2 e2c2 | d2d2 a2A2 |
+d4 |] d2d2 | e2c2 d2d2 | A2A2 d2d2 | g2g2 a2A2 |
+d2d2 d2d2 | e2c2 d2d2 | A2A2 d2d2 | g2g2 a2A2 | d4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Royale
+%%text Le Grand Rond - - - 2/1
+%%begintext align
+%%   The first and third Gentlemen take the
+%% Ladies on their Left, cross Corners and change
+%% places, then the second and fourth Gentlemen
+%% do the same - - - 1/2
+%%endtext
+%%begintext align
+%%   The four Ladies hands Round to their places,
+%% then the four Gentlemen do the same. - 1/3
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 30
+T: Les Amusements de Spa.
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #30
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+aec AEC | A,DE F2E | cde fga | BcA {A}B2E |\
+aec AEC | A,DE F2E | cde fga | EAG A3 :|
+|:\
+cde aAc | Bcd bBd | ced cBA | BEE E3 |\
+cde aAc | Bcd bBd | ceA EAG | AA,A, A,3 :|
+M: 6/8
+K: Am
+[| "Mineur"\
+aec AEC | A,DE F2A | ABc BcA | ^G2^F ^G2E |\
+aec AEC | A,DE F2E | ABc BcA | BA^G A3 |]
+[|\
+cde edc | B2A B2G | Bcd {d}cBA | ^G2^F ^G2E |\
+ABc BcA | ^GBe ^gab | edc {c}BA^G | A3 A3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+a3- a3 | A3-A3 | a3 d3 | e3- e3 | A3 A3 |
+a3- a3 | A3 d3 | e3 A3 :||: a3 A3 | g3 e3 |
+a3 A3 | e3 E3 | A3 a3 | g3 e3 | a2c e2E | A3- A3 :|
+M: 6/8
+K: Am
+[| "Mineur"\
+a3- a3 | A3- A3 | c3 def | e2B E3 | A3- A3 |
+a3- a3 | c2A e2f | d2e A3 |]\
+[| a3 ^f3 | g2d G3 | d3 f3 |
+e2B E3 | c2A d2f | e3 E3 | c2A d2e | aec A3 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Les Amusements de Spa.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first Couple take hands, go between the
+%% fourth and change places, then Balanc\'e and
+%% Rigaudon while the third and second Couple
+%% do the same - - - 1/2
+%%endtext
+%%begintext align
+%%   The fourth Couple take hands, go between
+%% the first and change Places, then Balanc\'e and
+%% Rigaudon, while the second and third Couple
+%% do the same - - - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   The four Ladies half Right hand and Left
+%% to the opposite places, then the four Gentlemen
+%% do the same - - - 1/1
+%%endtext
+%%begintext align
+%%   The first and second Couple hands Round
+%% to their places, while the third and fourth
+%% Couple do the same - - - 1/2
+%%endtext
+%%begintext align
+%%   __
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 31
+T: La Tiroloise.
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #31
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+[f2A2D2]f fed | a2a a2g | fdf ece | ddd d3 |\
+f2f fed | cde e2d | cdc BcB | A2A A3 :|
+|:\
+d2d ded | (d/c/B)B B3 | e2e efe | (e/d/c)c c3 |\
+dfa cea | dfa cea | Bgf edc | d2d d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+d3 d3 | c3 A3 | d3 a2A | d2d d3 |
+d3 d3 | A3 c2d | e3 E3 | A2A A3 :|
+|:\
+d3 d3 | g3 g3 | ^g3 g3 | a3 A3 |
+d3 A3 | d3 a2f | g2d a2A | d2d d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Tiroloise.
+%%begintext align
+%%   Le Grand Rond. - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Couple Contretems
+%% Forward, each Gentleman with the Left hand
+%% takes the opposite Lady by the Right hand and
+%% makes her turn under his Arm to the Right,
+%% them Moulinet to their places - - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 32
+T: L'Amour du Village.
+%R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #32
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+dcBc |\
+d2d2 edef | g2g2 dcBA | cBAG F2G2 | A2D2 dcBc |\
+d2d2 edef | g2 g2 dcBA | cBAG A2F2 | G4 :|
+B2B2 |\
+BAGA B2^c2 | d4 G2G2 | GFEF GEAG | F4 A2d^c |\
+B2ed ^c2fe | d2g2 fefg | a^cdg f2e2 | "_Da Capo"d4 |]
+K: Dm
+"Mineur"B2dB |\
+A2dA G2eG | {G}^F2D2 G^FGB | AGAB c2B2 | {B2}A4 B2dB |\
+A2dA G2eG | ^F2D2 d2d2 | dgGc B2A2 | G4 |]
+B2Fd |\
+d2Bf fedc | d2B2 B2Fd | d2Bf fedc | B4 B2Fd |\
+d2Bf fedc | d2B2 B2Fd | d2Bg fedc | "_Da Capo"B4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+g2g2 |\
+gabg c'bc'a | gdBG bagf | edcB AdBG | defd g2g2 |
+gabg c'bc'a | gdBG bagf | edcB cAdD | G4 :| g2g2 | gfef geag | fafd e2e2 |
+ed^cd ed^cA | d2de fed2 | gfe2 agf2 | bab^c' d'2de | fabg agaA | "_Da Capo"defd |]
+K: Dm
+"Mineur"G2g2 |\
+^f2d2 e2c2 | d2d'c' bd'bg | ^f=efg a^fg^c | de^fd G2g2 |
+^f2d2 e2c2 | d2d'c' baga | b2c'2 d'2d2 | g4 |] B2b2 | b2dd' d'c'ba | bfdf B2b2 |
+b2dd' d'c'ba | bfdf B2b2 | b2dd' d'c'ba | bfdf B2b2 | b2de f2F2 | "_Da Capo"B4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center L'Amour du Village.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first Couple face the fourth and Rigaudon,
+%% while the third Couple face the second and
+%% Rigaudon, then Moulinet four and four to their
+%% own places - - - - 1/2
+%%endtext
+%%begintext align
+%%   The second Couple face the first and Rigaudon,
+%% while the fourth Couple face the third and
+%% Rigaudon, then hands Round four and four to
+%% their own Places - - - 1/1
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   Each Gentleman Balanc\'e with the Lady on
+%% his Left, then turn his Partner - - 1/1
+%%endtext
+%%begintext align
+%%   All Eight Chass\'e cross with the Partners
+%% and back again - - - 1/2
+%%endtext
+%%begintext align
+%%   Each Gentleman Balanc\'e with his Partner
+%% and Rigaudon, then Allemande with the Lady
+%% on his Left - - - - 1/1
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33
+T: La Precieuse.
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #33
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+A2A |\
+ABA F2E | D3 A2A | d2d ede | [f3A3D3] A2A |\
+ABA F2E | D3 A2A | ded efe | d3 :|
+|: FAc |\
+dAf gea | f2d FAc | dAf gea | d3 A2A |\
+GFG GAG | F2E A2A | G2F EDE | D3 :|[K:=f=c]
+[K:Dm]\
+|: "Mineur"a2a |\
+f2f {e}dcd | B3 g2g | e2e {d}cBc | A3 f2f |\
+d2d {c}BAB | G3 g2f | {f}e2d ^c2d | e3 :|
+|: c2c |\
+f2f fef | a3 A2A | d2d d^cd | e3 A2f |\
+f2e e2d | d2^c c2d | BAG FGE | D3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+d2d |\
+d3 d2a | d3 zza | f2d a2A | dfa d2d | d3 d2a | d3 zza |
+f2d a2A | d3 :||: d2d | d3 e2A | d2D D2d | d3 e2A | d2d f2f |
+g2d c2A | d2g f2d | a2d a2A | d3 :|[K:=f=c][K:Dm]|: "Mineur" z2z | d'2d' b2b | gfg e3 |
+c'2c' a2a | fef d3 | b2b g2g | e2d ^c2d | g2f e2d | A3 :||: z2z | d2d a2f |
+c3 z2z | d2d f2d | A2A A2z | d2z A2z | A2z A2d | G3 A3 | d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Precieuse.
+%%begintext align
+%%   Le Grand Rond - - - - 2/1
+%%endtext
+%%begintext align
+%%   The first Gentleman with his Left hand,
+%% takes his Partner by the Right, and puts his
+%% Right behind her while she puts her Left
+%% behind him; the third Couple do the same, and
+%% in that Position the first and third Couple
+%% Queue du Chat - - - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%% M I N E U R.
+%%begintext align
+%%   Each Gentleman Chass\'e to the Corner on
+%% his Right and Rigaudon, in this manner compleat
+%% the Square, while the Ladies do the same
+%% to the Left - - - - 2/1
+%%endtext
+%%begintext align
+%%   The four Ladies Contretems in the middle
+%% and Rigaudon, then Allemande with their
+%% Partners - - - - 1/2
+%%endtext
+%%begintext align
+%%   The four Gentlemen Contretems in the middle
+%% and Rigaudon, then Allemande with their
+%% Partners - - - - 1/2
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 34
+T: Le Bois de Boulogne.
+%R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #34
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+[B4D4G,4] dBcA | GABc d2d2 | dfga gdcB | AGFE D4 |\
+[B4D4G,4] dBcA | GABc d2d2 | dfga gBcA | G2G,2 G,4 :|
+|:\
+a4 {g}f2ed | g4 {e}d2cB | cfac BdgB | AGFE D4 |\
+a4 {g}f2ed | g4 dcBA | BdBG AcAF | G4 G,4 :|[K:Gm]
+[| "Mineur"\
+B4 dcBA | GBAc Bdce | {e}d2cB AG^FG | AG^F=E D4 |\
+B4 dcBA | GBAc Bdce | d2G2 {B}A2G^F | G2G,2 HG,4 |]
+B4 {e}d2cB | fgfb f4 | G4 {c}B2AG | Bdce d4 |\
+bagf =ed^c=B | A^c=ec Aceg | {g}f2=ed {f}e2d^c | "_Da Capo"d2D2 D4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+G4 B2d2 | g2G2B2G2 | d2c2B2G2 | d4 dcBA | G4 B2d2 |
+g2G2B2G2 | d2c2B2d2 | G8 :||: d4 d'2c'2 | b2d'2b2g2 |
+a2f2g2G2 | d4 f2a2 | d4 d'2c'2 | b2g2f2d2 | g2B2c2d2 | G8 :|[K:Gm]
+[| "Mineur"\
+G2g2^f2d2 | g2d2 G2c2 | B2G2c2e2 | d4 dcBA | G2g2^f2d2 |
+g2d2 G2c2 | B2e2c2d2 | HG8 |] b4 B4 | b4 B4 | g4 G4 |
+g4 G4 | g4 G4 | A4 ^c4 | d4 A4 | "_Da Capo"d8 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Le Bois de Boulogne.
+%%begintext align
+%%   Le Grand Rond - - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Couple advance with
+%% Contretems and Rigaudon, the first Gentleman
+%% and third Lady pass through the fourth Couple
+%% and turn to their places, while the third
+%% Gentleman and first Lady pass through the second
+%% Couple and turn to their places - - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   The first and third Couple hands Round
+%% with the Couple on their Left and change
+%% places, then do the same again 'till you
+%% compleat half the Course - - - 1/1
+%%endtext
+%%begintext align
+%%   Each Couple Back to Back with their
+%% Partners and Allemande - - - 1/2
+%%endtext
+%%begintext align
+%%   The first and third Couple hands Round
+%% with the Couple on their Left and change
+%% places, then do the same again 'till you have
+%% finished the Course - - - 1/1
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 35
+T: La Chatouilleuse.
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #35
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+DFA |\
+dfa gfe | d2A BGB | AFA AGF | {F}E3 DFA |\
+dfa gec | d2A BGB | AFA GFE | D3 :|
+|: Ad=c |\
+B2G Bed | ^c2A efg | fga agf | e3 DFA |\
+dfa gec | d2A BGE | AFD EDC | D3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z2z | d2f a2g | f3 g3 | f3 fed |
+A3 z2z | d2f a2g | f3 g3 | f3 g2a | d3 :|
+|: f3 | g3 ^g3 | a3 A3 | d3 d3 A3
+z2z | d2f a2g | f2f g3 | f3 g2a | d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Chatouilleuse.
+%%begintext align
+%%   Le Grand Rond - - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and Third Couple a Quarter of the
+%% Round with the Couple on their Right, and
+%% Rigaudon; the same again and then you are in
+%% opposite places - - - 1/2
+%%endtext
+%%begintext align
+%%   The Ladies half Moulinet on the Right, at
+%% the same time the Gentlemen make half a
+%% Course on the Left, and then the Allemande - 1/2
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36
+T: Les Plaisirs de Flore
+%R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #36
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+dBAG |\
+ecBA BdBF | GDB,G, dBAG | ecBA BdBF | G2G,2 dBAG |\
+ecBA BdBF | GDB,G, dBAG | ecBA BdBF | G4 :|
+|: bgfe |\
+afed ged^c | dAFD bgfe | afed ged^c | d2D2 dBce |\
+dG,B,D GBAF | GgBc dBce | dG,B,D GBAF | G4 :|\
+[K:Gm]
+"Mineur"bag^f |\
+gedc BAG^F | GDB,G, BGBd | e^FAc dDcB | A2D2 bag^f |\
+gedc BAG^F | GDB,G, dGBd | e^FAc dcBA | G2G,2 :|
+|: deff |\
+FEDE FBcA | Bdfb deff | FEDE FBcA | B2B,2 dBAG |\
+ecBA dBA^F | G2G2 dBAG | ecBA dBA^F | G2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+g4 |\
+c4 d4 | G4 g4 | c4 d4 | G4 g4 | c4 d4 |
+G4 g4 | c4 d4 | G4 :||: g4 | f4 e4 | d4 g4 | f4
+e4 | d4 g2c2 | B2G2B2d2 | g4 G2c2 | B2G2B2d2 | G4 :|\
+[K:Gm]
+"Mineur"g2a2 | b2c'2d'2d2 | g4 G4 | c4 B2AG | d4 g2a2 | b2c'2
+d'2d2 | g4 G4 | c4 B2d2 | G4 :||: B4 | d2B2 d2f2 | B4 B4 |
+d2B2 d2f2 | B4 b4 | c'4 d'2d2 | e4 B4 | c4 d2D2 | G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Les Plaisirs de Flore.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and fourth Couple Right hand and
+%% Left, while the second and third Couple do the
+%% same - - - - 1/2
+%%endtext
+%%begintext align
+%%   The first and second Couple Right hand and
+%% Left, while the third and fourth Couple do the
+%% same - - - - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   All Eight the Double Moulinet to the Right
+%% one Quarter of the Course and Rigaudon, then
+%% Chass\'e and change places with their Partners - 1/1
+%%endtext
+%%begintext align
+%%   One other Quarter of the Course in the same
+%% manner - - - - 1/1
+%%endtext
+%%begintext align
+%%   One other Quarter of the Course in the same
+%% manner - - - - 1/2
+%%endtext
+%%begintext align
+%%   Compleat the Course in the same manner - 1/2
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 37
+T: La Bientot faite.
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #37
+N: The middle part of the instructions should probably be 1/2, not 2/1.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+A>BA |\
+FDd e>de | f2d [A2D2]d | [B2D2]g {f}e2d | c3 ABA |\
+FDd e>de | f2d [f2A2D2]a | [g2B2D2]b ABc | d3 :|
+|: fga |\
+afd dcd | e3 efg | gec cBc | d3 dcd |\
+e2e fef | g2g aga | bag f2e | d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+d3 |\
+d2f a2A | d2f d2f | g2b g2^g |
+a3 c3 | d2d c2A | d2f d2f | g2e a2A |
+d3 :||: d3 | d3 B3 | A3 e3 | c3
+A3 | d3 f3 | g3 a3 | b3 f3 |
+g3 a2A | d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Bientot faite.
+%%begintext align
+%%   Le Grand Rond. Then fall in two Lines - 2/1
+%%endtext
+%%begintext align
+%%   Contretems Forward and Rigaudon, then
+%% hands Round four and four, finishing in
+%% opposite Lines - - - - 2/1
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 38
+T: Le Plaisir des Dames.
+%R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #38
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+E2 |\
+AGAB AcBd | {d}cBcd cedf |\
+e2{g}fe dcBA | GABG E2(3(EFG) |\
+AGAB AcBd |
+{d}cBcd cedf |\
+eagf gef^d | {d}e6 :||: (cd) |\
+edef eedc | dcB^A B2Bc |
+dcde ddcB | cBAG A2e2 |\
+fAdf eAce | fAdf eAce |\
+fedc BABG | {G}A6 :| [K:Am]
+"Mineur"cd |\
+edef ea (3(^gab) | d2de dfed |\
+(3(ced) (3(cBA) (3(Bdc) (3(BA^G) | (3(AED) (3(CDE) A,2cd |\
+edef ea (3(^gab) |
+d2de dfed |\
+(3(ced) (3(cBA) (3(Bdc) (3(BA^G) | {G}A6 |] ec |\
+{c}B2cA {A}^G2ec | {c}B2cA {A}^G2ec |
+f3e dcBA | (3(^GAB) (3(GAB) E2cd |\
+edef ea (3(^gab) | d2de dfed |\
+(3(ced) (3(cBA) (3(Bdc) (3(BA^G) | {G}A6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z2 | a2A2 c2e2 | a4 A2d2 | c4 d4 | e4 E4 | a2A2 c2e2 |
+a4 A2d2 | c2a2b2B2 | e2B2E2 :||: z2 | z2c'2f2^a2 | b2f2 B4 |
+z2b2e2g2 | a2e2 A2c2 | d4 c2A2 | d4 c2A2 | d2B2 e2E2 | A2a2A2 :| [K:Am]
+"Mineur"z2 |\
+a2A2 c2e2 | B2b2^g2e2 | a2c2d2e2 | a4 A4 | a2A2 c2e2 |
+B2b2^g2e2 | a2c2d2e2 | a2e2A2 |] a2 | ^g2a2e2a2 | ^g2a2e2a2 | d2e2f2d2 |
+e4 E4 | a2A2 c2e2 | B2b2^g2e2 | a2c2d2e2 | a2e2A2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Le Plaisir des Dames.
+%%begintext align
+%%   Le Grand Rond - - - - 2/1
+%%endtext
+%%begintext align
+%%   Every Gentleman goes behind Partner
+%% and Allemande with each Lady until he gets
+%% Round to his own place - - 2/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   Each Gentleman gives his Left hand to his
+%% Partner, and his Right hand to the Lady on his
+%% Left; All Rigaudon and go half Round in that
+%% Position - - - - 1/1
+%%endtext
+%%begintext align
+%%   The Gentlemen Quit hands, turn and Chass\'e
+%% on the outside to the Right, while the Ladies
+%% Chass\'ee inside on the Left to their own places - 1/2
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 39
+T: La Bien ais\`ee
+%R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #39
+N: Different accents are used in the tune and dance titles.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+AGFE |\
+D2D2 afed | {d}c2BA gecA | dAFD GEFD | A4 AGFE |\
+D2D2 afed | {d}c2BA gecA | dAFD ECA,C | D4 :|
+|: ABcd |\
+efgf gfed |{d}c2BA GBAG | {G}F2ED gAfA | edcB ABcd |\
+efgf gfed | {d}c2BA GBAG | FAde fdec | d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+d2a2 | f2d2 f2g2 | a4 e2g2 | f4 e2d2 |
+A4 z4 | z2d2f2g2 | a4 e2g2 | f2d2 a2A2 | d4 :||:
+z4 | A4 A4 | A2B2 c2A2 | d2f2 e2d2 |
+a4 z4 | A4 A4 | A2B2 c2A2 |
+d2fg a2A2 | d4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Bien Ais\'ee
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first Gentleman gives his Right hand to
+%% the third Lady, the third Gentleman gives his
+%% Right hand to the first Lady, All four change
+%% places and Rigaudon, then the second and fourth
+%% Couple do the same - - - 1/2
+%%endtext
+%%begintext align
+%%   All Eight Right hand and Left, half Round - 1/2
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 40
+T: Les Plaisirs Champetres.
+%R: reel, march
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #40
+M: 2/4
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+c>Bc>d | efed | cBAG | A2E2 |\
+c>Bc>d | efed | cBAG | A2 A2 :|\
+ed/c/ de | Tf2 ea | ed/c/ de | Tf2 ea |
+gfed | cd/e/ fe | dcBA | B4 |\
+c>Bc>d | efed | cBAG | A2E2 |\
+c>Bc>d | efed | cBAG | A2 A2 |]
+K: Am
+"Mineur"\
+cAAc | BEEe | dcBd | cB/c/ AE |\
+cAAc | BEEe | dcBc | A4 |]\
+ec/d/ ec | dggG | cedc | B2G2 |
+gf/e/ dc | fz ez | dcdB | c2 C2 |]\
+ecce | dB Bz | dBBd | cA Az |\
+fg/f/ ez | de/d/ cz | Bc/d/ E^G | A2 A,2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+A>GA>B | cdcB | A2e2 | aAce | a>ga>b | c'd'c'b | a2 e2 | a2 A2 :|
+A2 Bc | d2 c2 | A2 Bc | d2 cA | e2 g2 | a2 dc | B2 f2 | edcB |
+A>GA>B | cdcB | A2 e2 | aAce | a>ga>b | c'd'c'b | a2 e2 | a2 A2 |]
+K: Am
+"Mineur"\
+a2 c'a | ^g2 e2 | ^f2 ^g2 | a2 A2 | a2 c'a | ^g2 ac | d2 e2 | A4 |]
+c2 c'2 | b2 B2 | A2 ^f2 | g2 G2 | e2 a2 | d2 c2 | g2 G2 | c4 |]
+c2 c'2 | b2 ^g2 | e2 ^g2 | a2 A2 | d2 c2 | B2 A2 | d2 e2 | A4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Les Plaisirs Champetres.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   All Eight Contretems, the Ladies go Round
+%% to the Left and the Gentlemen to the Right,
+%% with Rigaudon to each Lady as he meets her - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   Half La Chaine - - - 1/1
+%%endtext
+%%begintext align
+%%   The Poussette - - - 1/2
+%%endtext
+%%begintext align
+%%   Compleat La Chaine - - -1/3
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 41
+T: La Reverie
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #41
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+E |\
+A2A Ace | a2a a2c | ded cdc | B2B B2E |\
+A2A Ace | a2a a2d | cec BdB | A2A A2 :|
+e |\
+a2a agf | b2b b2a | gag fge | f2B B2B |\
+e2e e^de | f2f fef | gag fgf | e2e "Da Capo"e2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z |\
+a2a c'2a | c'2a c'2a | b3 a3 |
+e3 e3 | c2A c2A | c2A c2f | e3 e3 |
+a2A A2 :| A | c2A f2f | g2e ^c2B | e3
+a2c' | b3 b2a | g3 e3 | ^d3 B3 |
+e2g b2B | e2e "Da Capo"e2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Reverie.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Couple Contretems
+%% Forward and Rigaudon, the first Gentleman and
+%% third Lady pass through the fourth Couple,
+%% and turn to their places, at the same time the
+%% first Lady and third Gentleman pass through
+%% the second Couple and turn to their places - 1/2
+%%endtext
+%%begintext align
+%%   The first and second Couple Right hand and
+%% Left, the third and fourth Couple Right hand
+%% and Left at the same time - - 1/1
+%%endtext
+%%begintext align
+%%   The second and fourth Couple Contretems
+%% Forward and Rigaudon, the second Gentleman
+%% and fourth Lady pass through the first Couple
+%% and turn to their places, at the same time the
+%% second Lady and fourth Gentleman pass
+%% through the third Couple and turn to their
+%% places - - - - 1/2
+%%endtext
+%%begintext align
+%%   The first and fourth Couple Right hand and
+%% Left, the second and third Couple Right hand
+%% and Left at the same time - - - 1/1
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 42
+T: La Belle Veuve.
+%R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #42
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+ed |\
+cdec A2c2 | BAGF E2B2 | cAce a2c2 | c2B2 z2B2 |\
+c2ac B2g2 | A2fA G2e2 | c2a2 gef^d | e6 :|
+|: BA |\
+GABG E2d2 | cdec A2=g2 | fedc dcBA | {A}G4 z2e2 |\
+f2df e2a2 | d2Bd c2e2 | F2d2 cABG | A6 :|
+M: 6/8
+K: Am
+|: "Mineur"AB |\
+cBAc B2E2 | FEDF E2A2 | B,2F2E2D2 | C2B,C A,2AB |\
+cBAc B2E2 | FEDF E2A2 | ^G2A2 d2c2 | B6 :|
+|: ed |\
+cdec A2G2 | FGAF D2dc | BcdB G2F2 | EFGE C2cB |\
+A2Bc dcBA | ^G2E2A2C2 | B,3F EDCB, | A,6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z2 |\
+A4 c2A2 | e4 g2e2 | a4 c'2a2 | e'2e2g2e2 | a2f2g2e2 |
+f2^d2e2g2 | a2f2b2B2 | e2B2E2 :||: z2 | e4 g2e2 | a4 c2A2 |
+d2e2f2d2 | e2e'2c'2a2 | d'2b2c'2a2 | b2g2a2c2 | d2B2e2E2 | a2e2A2 :|
+M: 6/8
+K: Am
+|: "Mineur"z2 |\
+a4 e2c2 | d4 c2A2 | d2B2 e2E2 | A4 z4 | a4 e2c2 |
+d4 c2A2 | e2c2B2A2 | e2B2E2 :||: z2 | A4 c2A2 | d4 f2d2 |
+g4 B2G2 | c4 e2c2 | f2e2d2f2 | e2d2 c2A2 | d2B2e2E2 | a2e2A2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+N: Redundant "the the" changed to "the".  "MINEUR" fixed.
+%%center La Belle Veuve.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The Ladies are to keep their places, but
+%% the Gentlemen must Allemande with each Lady
+%% on his Left, until he gets half Round - - 1/2
+%%endtext
+%%begintext align
+%%   The Gentlemen are to keep their places, but
+%% the Ladies must Allemande with each Gentleman
+%% on her Left, until she gets half Round - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   The Ladies Right hands cross, and the
+%% Gentlemen join hands with their Partners in
+%% form of a Double Moulinet, each Gentleman
+%% Contretems and advances before his Partner,
+%% then join their Left hand cross, holding their
+%% Ladies with the Right in the form of a Star,
+%% then Rigaudon - - - 1/1
+%%endtext
+%%begintext align
+%%   All Eight Chass\'e up and down with Rigaudon - 1/1
+%%endtext
+%%begintext align
+%%   Each Gentleman holding his Lady by both
+%% hands, makes her turn Round to the Right,
+%% and Chass\'e to the Corner in that Position, then
+%% makes her turn Round to the Left and Chass\'e
+%% back again - - - - 1/2
+%%endtext
+%%begintext align
+%%   Half La Chaine with the Allemande passes - 1/2
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 43
+T: La Belle Paisanne.
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #43
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+A2c |\
+e2a agf | e3 fdd | ecc BAB | c3 A2c |\
+e2a agf | g3 bge | cag fef | e3 |
+|: c2e |\
+efe edc | d3 B2d | ded dcB | c3 CDE |\
+EFE CDE | EFE EFG | Adc BAG | A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+A3 |\
+a3 d3 | c3 d3 | A3 e3 |
+a3 A3 | c3 f3 | e3 g3 | a3 b3 |
+e3 :||: a3 | c'3 f3 | b3 b3 | e3 g3 |
+a3 a3 | g3 a3 | g3 a2g | f2c d2e | A3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Belle Paisanne.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Couple Queue du Chat
+%% and Allemande with each others Partner, then
+%% return to their places - - - - 1/2
+%%endtext
+%%begintext align
+%%   The second and fourth do the same - - 1/2
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 44
+T: La Graziosetta
+%R: march
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #44
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+A2 |\
+A2d2 d2c2 | B4 A4 | B2A2 B2c2 | dcde d2A2 |\
+A2d2 d2c2 | B4 A4 | B2A2 B2c2 | d6        |]\
+d2 |\
+e2f2 g2f2 | e2d2 c2d2 | e2f2 g2f2 | e2A2 A2d2 |
+c2d2 edcB | c2A2 A2d2 | c2d2 edcB | A4   e4   |\
+e3d  e2f2 | g4   f4   | e2d2 e2c2 | dcde d2f2 |\
+e2d2 e2f2 | g4   f4   | e2d2 e2c2 | d6        |]
+[M:3/4]
+f2gfef | d2A2A2 | d2c2d2 | edefe2 |\
+f2gfef | d2A2A2 | d2cdec | d6     |]\
+e2gfed | edcBA2 | B2B2B2 | c2BcA2 |
+B2B2B2 | c2BcA2 | B2dcBc | A4A2   |\
+e2gfed | edcBA2 | d2d2d2 | efgef2 |\
+d2d2d2 | efgea2 | f2gfef | d6     |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z2 |\
+d4 f4 | g2e2 f2d2 | g2f2 g2a2 | d8 |
+d4 f4 | g2e2 f2d2 | g2f2 g2a2 | d6 |] d2 | c2d2 e2d2 |
+c2B2 A2B2 | c2d2 e2d2 | a4 z4 | A4 z4 | a4 z4 |
+A4 z4 | a2A2 c2e2 | A2a2 g2f2 | e2c'2 d'2f2 | g2f2 g2a2 |
+d6 d2 | g2f2 g2a2 | b2c'2 d'2f2 | g2f2 g2a2 | d6 |] [M:3/4]
+d'2g2a2 | f2d2z2 | f2e2d2 | a6 | d'2g2a2 | f2d2z2 |
+d2a2A2 | d2A2D2 |] A4z2 | a4z2 | e2^g2e2 | a2e2A2 |
+e2^g2e2 | a2e2f2 | d2e2E2 | A6 | a6 | A6 |
+f2d2f2 | a2A2d2 | f2d2f2 | a2A2c2 | d2G2A2 D6 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Graziosetta.
+%%begintext align
+%%   The first Gentleman leads his Partner and
+%% the second Couple the whole Round to the
+%% left, while the fourth Lady leads her Partner
+%% and the second Couple to the Right - - - 1/1
+%%endtext
+%%begintext align
+%%   The Gentlemen go Round to the Right and
+%% the Ladies to the Left, with the Allemande and
+%% Rigaudon at every Quarter of the Course - - 1/2
+%%endtext
+%%center M I N U E T.
+%%begintext align
+%%   This must be performed with Minuet Steps all through.
+%%endtext
+%%begintext align
+%%   The Ladies go to the Right with hands
+%% Round in the middle, while each Gentleman
+%% goes Round to the Left - - 1/1
+%%endtext
+%%begintext align
+%%   The Course, each Couple turning Round at
+%% every Quarter - - - 1/2
+%%endtext
+%%begintext align
+%%   __
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 45
+T: Allemande.
+%R: reel, march
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #45
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+a4 e4 | {d}c2Bc A2E2 | F2E2F2G2 | AGAB A2A2 |\
+a4 e4 | {d}c2Bc A2E2 | F2E2F2G2 | {G}A4 z2 :|
+|: e2 |\
+(fd).A.d (fd).A.d | (ec).A.c (ec).A.c | (de).c.d (Bc).A.B | (GA).B.G E2e2 |\
+(fd).A.d (fd).A.d | (ec).A.c (ec).A.c | (dc).B.A (GA).B.G | (AE).C.E A,4 :|
+|:\
+(CE).A.E (CE).A.E | (DF).A.F (DF).A.F | (EG).B.c (dc).B.A | (GA).B.G E2E2 |\
+(CE).A.E (CE).A.E | (DF).A.F (DF).A.F | (EG).B.d (cB).A.G | (AE).C.E A,4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+z2A2c2e2 | a4 z2c'2 | d'2c'2d'2b2 | a4 A4 |
+z2A2c2e2 | a4 z2c2 | d2c2d2e2 | a2e2A2 :||: c'2 |
+d'4 d4 | c'4 c4 | b2a2g2f2 | e6 c'2 |
+d'4 d4 | c'4 c4 | b2d'2e'2e2 | a4 A4 :||:
+A4 a4 | f4 f4 | g4 a4 | e4 E4 |
+A4 a4 | f4 d4 | e4 E4 | a4 A4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Allemande.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Gentlemen lead up and
+%% Allemande with each others Lady, then return
+%% and Allemande with their Partners - - 1/2
+%%endtext
+%%begintext align
+%%   The second and fourth Couple do the same 1/2
+%%endtext
+%%begintext align
+%%   Each Lady with the Right hand behind,
+%% joins her Partner's Right, and each Gentleman
+%% with his Left hand behind, joins his Partner's
+%% Left; in this Position they must do the Course,
+%% but all turn and face each other at every
+%% Quarter - - - - - 2/3
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 46
+T: Le Prince de Galles
+%R: jig, waltz
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #46
+M: 6/8
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+A |\
+d2A fed | a2A A2a | def efd | ^cde Aag |\
+fef c2c | dcd A2A | BAB Gge | f2F F2 :|
+|: f |\
+(f//g//a3/)f gbg | (e//f//g3/)e faf | (d//e//f3/)d ege | (^c//d//e3/)c Ad=c |\
+BAB GAB | Adf ed^c | dAG FGE | D2D D2 :|
+[K:=B][K:D][M:3/4] |:\
+"_Gracieusement"\
+f4e2 | d2c2d2 | edefga | (g2f2)g2 |\
+a2(gf) (ba) | {a}g2(fe) (ag) | {g}f2(ed) (gf) |[1 {f2}e6 :|[2 {f2}e6 |]
+|:\
+e3g fa | g2f2e2 | (fd)(cd)(Be) | (d2c2)A2 | B2(AG) (ed) |\
+c2(BA) (ag) | f2{a}g2{f}e2 |[1 {e2}d6 :|[2 {e2}d6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z |\
+d3 d'3 | c'3 c3 | B3 g3 |
+a3 ^c3 | d3 a3 | b3 f3 | g3 c'3 |
+f3- f2 :||: z
+d'3 b3 | c'3 a3 |
+b3 g3 | a3 f3 | g3 e3 |
+f2d g2a | f2g a2A | d3- d2 :|
+[K:=B][K:D][M:3/4] |:\
+"_Gracieusement"\
+d2d'2a2 | f2e2d2 | a2c'2a2 | d'2d2e2 |
+f2d2B2 | e2c2A2 | d2B2G2 |[1A2agfe :|[2 A2c2e2 |]
+|:\
+a2a2a2 | a2a2a2 | d2f2g2 | a4f2 | g4^g2 |
+a4c'2 | d'2g2a2 |[1dcdefg :|[2 d2A2D2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Le Prince de Galles
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Gentlemen lead their
+%% Partners half a Circle to each others Place,
+%% then the second and fourth do the same - 1/2
+%%endtext
+%%begintext align
+%%   Each Couple Allemande, then the Gentlemen
+%% Allemande to the Right and the Ladies to the
+%% Left, until they get Round to their places - 1/2
+%%endtext
+%%center M I N U E T.
+%%begintext align
+%%   This must be performed with Minuet Steps
+%% all through.
+%%endtext
+%%begintext align
+%%   The Gentlemen lead their Partners up the
+%% middle, then Round on the Right to their
+%% places - - - - 1/1
+%%endtext
+%%begintext align
+%%   Every Couple cross each other, then back
+%% again to their places - - 1/1
+%%endtext
+%%begintext align
+%%   The Ladies hands cross in the Middle, then
+%% turn to their Partners - - - 1/2
+%%endtext
+%%begintext align
+%%   The Gentlemen do the same - - 1/2
+%%endtext
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 47
+T: Le Charmant Vainqueur
+%R: waltz, reel, jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #47
+N: The waltz has 10- and 12-bar strains; the reel has two 8-bar strains; the jig has 8- and 16-bar strains.
+M: 3/4
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+GA |\
+{A}B3ABG | d2g2ab | {g}^f3=ed2 | _e2d2c2 |\
+d2B2f2 | b3ag2 | a2bagf |
+{f}=e2A2d^c |\
+d=e{f}Te3d |[1 d4 :|[2 d3 |: bab |\
+{g}^f3=efd | gagf_ef | d2edcB | c2A2c2 |
+B2d2eg | {g}f3fga | bBd2c2 | B2b2a2 | g2abag |\
+^f3dgf | ga{b}Ta3g |[1 g3 :|[2 d4 |]
+M: C|
+d2 |\
+B2G2 B2c2 | dcBA G2g2 | {g}^f2g2 aga^f | g^fga g2d2 |\
+B2G2 B2c2 | dcBA G2b2 | a2g2 ^fgaf | g6 |]
+de |\
+f2ed e2dc | d2cd B2d2 | cdBc ABGB | AG^F=E D_ede |\
+f2ed e2dc | d2cd B2b2 | B2cA BGA^F | G6 |]
+M: 6/8
+G2d |\
+{c}BAG d2g | {g}^f=ed g2a | bag dcd | {c}B2A G2d |\
+{c}BAG d2g | {g}^f=ed g2a | bag dg^f | g3 |]
+b2=f |\
+dcB F2f | dcB F2f | fed cBA | {c}BAB d2g |\
+edc =B2g | edc =B2g | gfe dc=B | c=Bc edc |
+ded dcB | cdc cBA | BAG d2G | ^F=ED d=e^f |\
+gab aga | bag ^fga | dcB AG^F | G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z2 |\
+G4g2 | f2e2c2 | d4g2 | c2f2F2 | B2b2a2 |
+g2f2=e2 | f2gf=ed | a3gf=e | fga2A2 |[1 d4 :|[2 d3 |: z2z |
+d6 | G4A2 | B2cBAG | F2f2e2 | d2B2e2 | d2d'2c'2 |
+b2f2F2 | B4d2 | e2c2e2 | d2c2BA | Bcd2D2 |[1 G3 :|[2 G4 |]
+M: C|
+z2 |\
+g4 G2A2 | B6 b2 | a2g2 d'2d2 | g4 G4 | g4 G2A2 |
+B6 g2 | c2e2 d2D2 | G6 |] z2 | b4 f4 | B6 b2 |
+"[p.2]"\
+a2g2 ^f2g2 | d4 z4 | b4 f4 | B6 d2 | e2c2 d2D2 | G6 |]
+M: 6/8
+z2z |\
+G3 B2c | d3 B2d | g3 ^f3 | g3- g3 |
+G3 B2c | d3 B2d | g2c d2D | G3 |] z2z | b3 a3 |
+b3 a3 | b3 f3 | B3 =B3 | c3 G3 | c3 G3 |
+c3 g3 | c'3 a3 | b3 g3 | a3 ^f3 | g3 B2c |
+d3 B2A | G3 d3 | g3 d3 | B2c d2D | G3 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 48
+T: La Fourlane Venetienne
+T: La Barcariuole
+%R: jig, tarantella
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #48
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+A ABc |\
+d2d g2f | e2a dcd | Bgf edc | d2A, A,B,C |\
+D2D G2F | E2A DCD | B,GF EDC | D2 |]
+d (f/g/a).a |\
+(g/a/b).b (e/f/g).g | (f/g/a).a def | Bgf edc | d2D (F/G/A).A |\
+(G/A/B).B (E/F/G).G | (F/G/A).A (D/E/F).F | B,GF EDC | D2 |]
+[fA] [fA][fA][fA] |\
+[gA][gA][gA] [eA][eA][eA] | [fA][fA][fA] [dF][dF][dF] | [eB2]gf edc | d2f A/f/A/f/A/f/ |\
+A/g/A/g/A/g/ A/e/A/e/A/e/ | A/f/A/f/A/f/ F/d/F/d/F/d/ | Bgf edc | d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z d'3 | b3 g3 | a3 f3 | g3 a3 | d3 d3 |
+B3 G3 | A3 F3 | G3 A3 | d2 |] a d'3 | g3 a3 |
+d3 f3 | g3 a3 | d3 d'3 | g3 a3 | d3 f3 |
+g3 a3 | d2 |] z d'3 | c'3 c'3 | d'3 d3 | g3 a3 |
+d3 d'3 | c'3 c'3 | d'3 d3 | g3 a3 | d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 49
+T: Minuet du Dauphin
+%R: minuet, waltz
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #49
+N: The fermata on the first beat of the last bar is a bit odd.
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+GBB2A2 | Acc2B2 | BdcABG | A2DDD2 |\
+GBB2A2 | Acc2B2 | BdBGAF | G6 :|\
+|:\
+Bdgbag | fagfed | efgefd | e4A2 |
+dffeed | eggffe | faA2^c2 | d4D2 |\
+BcdBca | ABcABg | ABcABG | A4D2 |\
+GBBAAG | AccBBA | (3(Bcd)D2F2 | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z2d'2d2 | z2d2g2 | z2d'2g2 | d6 |
+z2d'2d2 | z2d2g2 | z2d'2d2 | g2d2G2 :||: d4z2 |
+d4z2 | ^c4d2 | A4z2 | d2B2z2 | ^c2A2z2 |
+d2a2A2 | d6 | d6 | d6 | d4g2 |
+d4z2 | B2d2e2 | f2d2f2 | g2d2D2 | HG2B2d2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 50
+T: Le Passe-pied de la Reine
+%R: minuet, waltz
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #50
+M: 3/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+FEDEFG | AGABcA | d2B2e2 | c2BcA2 |\
+efg2B2 | cde2A2 | d2e2{d}c2 | d6 :|\
+|:\
+A2FGA2 | D2d2c2 | {c2}B4A2 | ^G2B2e2 |
+{e2}d4c2 | B2A2B2 | c2dcBc | A6 |\
+EDEGFA | GFGBA=c | B2e4 | {d}Tc3de2 |\
+A2A2A2 | A2BAGF | GA/B/F2TE2 | D6 :|
+|:\
+a2a2a2 | d6 | edefge | f2efd2 |\
+gfgafg | edefde | cd(Td3c/d/) | e6 :|\
+|:\
+AGAB=cA | B2ABG2 |
+BAB^cdB | c2BcA2 |\
+dcdecd | edefge | f2e2d2 | a6- |\
+agfedc | Bcdefd | ef/g/f2Te2 | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+d6 | c6 | B2G2E2 | A2e2a2 |
+g2g2g2 g4f2 | b2g2a2 | defgfe :||: d4 c2 |
+B4A2 | ^G4A2 | d4c2 | B4A2 | e2f2^g2 |
+a2d2e2 | A2c2e2 | a6 | edegfa | gfefge |
+"[p.2]"\
+a2A2g2 | f2d2d'2 | c'4d'2 | g2a2A2 | defgfe :||:
+d2c2A2 | B2b2f2 | g2e2a2 | d'2a2d2 | b4a2 |
+g4f2 | e2f2d2 | A2agfe :||: f4d2 | g2d2G2 |
+^g4e2 | a2e2A2 | f4z2 | c4A2 | d2c2B2 |
+A2agfe | f2d2f2 | gabc'd'2 | g2a2A2 | d2A2D2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400

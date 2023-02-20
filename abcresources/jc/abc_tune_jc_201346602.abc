@@ -1,0 +1,29 @@
+X: 1
+T: a Trip to the Lawndry
+P: Longways for as many as will.
+%R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.3 #9
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: 2nd part has initial repeat but no final repeat; fixed to match the dance.
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: (A2c2) (B2d2) | (c2e2) (B2d2) | c2(BA) G2B2 | d2B2 B4 |\
+   (A2c2) (B2d2) | (c2e2) (B2d2) | c2`BA  E2A2 | c2A2 A4 :|
+|: e2a2 agfe | fedc dcBA | e2a2 g2f2 | g2ab e4 |\
+   e2a2 agfe | fedc dcBA | cecA BdBG | c2A2 A4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man sets to the 2d Wo. and turns her .|  First Wo.
+%% does the same with the 2d Man :|  First Cu. cross over and
+%% half figure at Top .|  First and 2d Cu. Right and Left quite
+%% round :#:  The 1st Man turns the 3d Wo. his Partner turns
+%% the 2d Man at the same Time, then each other with your
+%% left Hands .|  Then do the same at the other Corner :|  The
+%% 1st Cu. leads through the 2d and 3d Wo. and turn in the 2d
+%% Cu. Place .|  Then lead through the 2d and 3d Men and turn
+%% again.
+%%endtext

@@ -1,0 +1,47 @@
+X: 1
+T: Bella Ragazza   [C]
+T: Babbo non Vuole
+O: Italia
+M: 3/4
+L: 1/4
+K: C
+P: Verse:
+z2 [EC] "A"|\
+"C"[G2E2][EC] | [GE][FD][EC] | "G7"[D2B,2][EC] | [F2D2][^F^D] |\
+"C"[GE][E2C2]- | [E2C2] [ec] | [ge][e2c2] ||
+w: 1.~Bel-la ra-gaz-*za dal-le trec-ce bion-de,
+w: 2.~Ve-nir se voi* vo-le-te nel giar-di-no,
+w: 3.~Un gel-so-mi-no a voi v'ho re-ga-la-re,
+w: 4.~Poi vi di-r\`o* che ro-s'~a pri-ma-ve-ra,
+z2 [EC] |\
+"C"[G2E2][EC] | [GE][FD][EC] | "G7"[D2B,2][EC] | [F2D2][^F^D] |\
+"C"[GE][E2C2]- | [E2C2] [ec] | [ge][e2c2] |]
+w: 1.~i gio-va-ni* per voi fan-no la ron-da.
+w: 2.~vi tro-ve-re-*te~o bel-la~un gel-so-mi-no.
+w: 3.~in pe-gno del* mio ve-ro~e gran-de~a-mo-re.
+w: 4.~non \`e quan-to* voi sie-te tan-to ca-ra.
+P: Chorus:
+CCC "B"|\
+"F"[A2F2][AF] | [AF][BG][cA] | "C"[G2E2][GE] | [GE][AF][BG] |\
+"Dm"[F2D2][FD] | "G7"[FD][GE][AF] | "C"[E3C3] |]
+w: Bab-bo non vuo-le, mam-ma nem-me-no, co-me fa-re-mo~a fa-re l'a-mor.
+CCC |"F"[A2F2][AF] | [AF][BG][cA] | "C"[G2E2][GE] | [GE][AF][GE] |\
+"G7"[B2G2D2][BGD] | [BGD][AF][BF] | "C"[c3E3] |]
+w: Bab-bo non vuo-le, mam-ma nem-me-no, co-me fa-re-mo~a fa-re l'a-mor.
+%%text Sometimes the first half of B is sung/played twice.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1
+T: Bella Ragazza   [D]
+O: Italia
+M: 3/4
+L: 1/4
+K: D
+[FD] "A"|\
+"D"[A2F2][FD] | [AF][GE][FD] | "A7"[E2C2][FD] | [G2E2][^G^E] |\
+"D"[AF][F2D2]- | [F2D2] [fd] |1 [af][f2-d2-] | [f2d2] :|2 [af][f2d2] ||
+|: DDD "B"|\
+"G"[B2G2][BG] | [BG][cA][dB] | "D"[A2F2][AF] |\
+[1 [AF][BG][cA] | "Em"[G2E2][GE] | "A7"[GE][AF][BG] | "D"[F3D3] :|\
+[2 [AF][BG][AF] | "A7"[c2E2][cE] | [cE][BG][cG] | "D"[d3F3] | z2 |]

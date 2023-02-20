@@ -1,0 +1,26 @@
+X:1
+T: Young's Wisdom
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 36 notes)
+K:G
+M:4/4
+L:1/16
+D4 |G6 A2 B2 A2 B2 c2 |d8 d6 g2 |d6 B2 c2 B2 A2 G2 |A12 D4 |G6 A2 B2 A2 B2 c2 |d12 d2 g2 |a2 g2 f2 e2 d4 B2 c2 |d12 D4 |
+%W: A2
+% voice 1 (1 lines, 35 notes)
+G6 A2 B2 A2 B2 c2 |d8 d6 g2 |d6 B2 c2 B2 A2 G2 |A12 D4 |G6 A2 B2 A2 B2 c2 |d12 d2 g2 |a2 g2 f2 e2 d4 B2 c2 |d12 f4 |
+%W: B1
+% voice 1 (1 lines, 39 notes)
+a2 g2 f2 e2 d2 c2 B2 c2 |d8 d6 d2 |e2 d2 c2 B2 c2 B2 A2 G2 |F12 D4 |G6 A2 B2 A2 B2 c2 |d8 d6 g2 |d4 c2 B2 c2 B2 A2 G2 |G12 f4 |
+%W: B2
+% voice 1 (1 lines, 38 notes)
+a2 g2 f2 e2 d2 c2 B2 c2 |d8 d6 d2 |e2 d2 c2 B2 c2 B2 A2 G2 |F12 D4 |G6 A2 B2 A2 B2 c2 |d8 d6 g2 |d4 c2 B2 c2 B2 A2 G2 |G12 ||

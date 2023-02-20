@@ -1,0 +1,1778 @@
+X:5
+T:Don Oiche Ud i mBeithil
+S:Paul Kinder[SMTP:PTK3509@AOL.COM]. Irtrad-L, 11/97
+M:4/4
+L:1/4
+Q:70
+B:Whistle & Sing, Vol.1
+R:Irish Xmas Carol
+K:Am
+E|A>c B A|G A2 A|c d/2e/2 d>B|G3 E|
+A>c B A|G A2 A|c d/2e/2 B>A|A3 e|
+g>e d e|g a2 b/2a/2|g e/2d/2 c d|e3 E|
+A>c B A|G A2 A|c>d e B>A|A3||
+
+X:10
+T:Glass of Beer, The
+S:Michael Hogan <Michael.Hogan@UNILEVER.COM>, Irtrad-l, 11/97
+R:reel
+D:Oisin: Over the Moor to Maggie.
+D:Frankie Gavin: Up and Away
+Z:id:hn-reel-77
+M:C|
+K:Bm
+fB~B2 fBaB|fB~B2 e2de|fB~B2 ~f3e|1 dfaf e2de:|2 dfaf e2fe||
+|:~d3e ~f3e|defd eA~A2|~d3e fgfe|1 dfaf e2fe:|2 dfaf e2de||
+
+X:15
+T:Glass of Beer, The
+S:Michael Hogan <Michael.Hogan@UNILEVER.COM>, Irtrad-L, 11/97
+R:reel
+D:Touchstone "The New Land"
+M:C|
+L:1/8
+K:Bm
+|:fB~B2 fBaB|fB~B2 e2de|fB~B2 ~f3e|1 dfaf e2de:|2 dfaf ~e3c||
+|:~d3e ~f3e|defd edBA|~d3e ~f3e|1 dfaf ~e3c:|2 dfaf edba||
+"End"fB~B2 fBaB|fB~B2 e2de|fB~B2 ~f3e|dfaf e2de|
+fB~B2 bBaB|fBeB fede|fB~B2 ~f3e|dfaf e4||
+
+X:20
+T:Gypsy Princess
+S:Jeffrey Myers[SMTP:jmyers@GOUCHER.EDU], Irtrad-L, 11/97
+R:Barndance
+M:4/4
+L:1/8
+K:G
+GA|B2 B2 B2 B2|ABAG E2 D2|G3 B d3 B|dedB AGGA|B2 BB B2 BB|
+ABAG E2 D2|G3 B dedB|1 A2 G2 G2 :|2 A2 G2 G2 Bc||
+d3 e g3 e|dedB AGBc|d3 e g3 e|dedB A2 Bc|d3 e g3 e|
+dedB A2 G2|G3 B dedB|1 A2 G2 G2 Bc:|2 A2 G2 G4||
+K:A
+c2 c2 c2 c2|BcBA F2 E2|A3 c e3 c|efec BAAB|
+c2 cc c2 cc|BcBA F2 E2|A3 c efec|1 B2 A2 A2 AB:|2 B2 A2 A2 cd||
+e3 f a3 f|efec BAcd|e3 f a3 f|efec B2 cd|e3 f a3 f|
+efec B2 A2|A3 c efec|1 B2 A2 A2 cd:|2 B2 A2 A2 AB||
+
+X:25
+T:Sunny Banks, The
+S:John Walsh <walsh@MATH.UBC.CA>, irtrad-l, 4/94
+E:8
+R:reel
+I:speed 350
+M:C|
+K:D
+B|AF~F2 d2 cA|(3Bcd AF ~G3 B|AF~F2 d2 cA|BdAG FDDB|AF~F2 d2 cA|
+(3Bcd AF~G3 B|AF~F2 d2 cA BdAF D3 ||
+e|f2 ed cA ~A2|fdef g2 ag|f2 ed cA~A2|(3Bcd AG FD ~D2|f2 ed cA ~A2|
+fdef g2ag|fded cA~A2|BdAG FD ~D2||
+
+X:30
+T:Jolly Clamdiggers, The
+S:John Walsh <walsh@MATH.UBC.CA>, irtrad-l, 4/94
+R:reel
+E:7.5
+I:speed 350
+M:C|
+K:D
+d2 FB AFEF|D2dc BABc|dF~F2 dFAF|GBAG FDFA|d2 FB AFEF|D2dc BABc|
+dF~F2 dFAF|GBAF D2 AB||
+d2 fd egfe|A2 (3cBA eAcA|defg ~a3 f|afeg fddA|d2 fd egfe|A2 (3cBA eAcA|
+defg ~a3 f|afeg fd ~d2||
+
+X:35
+T:Job of Journeywork, The (Richard Thompson)
+S:David Thomas <David.Thomas@BRUNEL.AC.UK>,irtrad-l, 4/94
+M:2/4
+R:polka
+N:It's a sort of polka.
+N:Richard Thompson (of Guitar,Vocal fame) has recorded it as a guitar
+N:instrumental that he calls The Job of Journeywork.
+N:(on a CD that comes with a book about the guitar maker Dan Ferrington).
+N:However it's not _THE_ job of journeywork at all, which he admits.  At
+N:first I assumed he'd made it up, but he says he got it in Ireland or
+N:at a festival from an Irish musician.
+N:It's an odd tune too, modulating to Bminor for the final chord of the
+N:A section. There's a triplet in the 3rd bar of the B section that I
+N:haven't noted correctly as I'm a novice user of abc2mtex/musictex.
+D:Richard Thompson
+K:D
+|: A2F2D2F2 | A8 | A2F2 GFED | E6 DE | FEDE FEDC | B,2C2D2E2 |
+F2 B2 B2 ^A2 | B4  d3B :|
+| d2 dd edcB | A2A2A2F2 | d2 d2 edc de | c6 d2 | d2 dd edcB |
+A2A2A2F2 | A2F2  GFED | E6 DE |
+
+X:40
+T:Gan Ainm
+S:John Walsh <walsh@MATH.UBC.CA>, irtrad-l, 4/94
+M:C|
+K:G
+GA|B2dB ABBA|GEDE GABd|e2 af gedB|GABG A2 GA |BddB ABBA|GEDE GABd|bgaf
+gedB|GBAF G2:|
+GA|~B3e dB~B2 |gfgb abge|d2 Bd gedB|GABG A2 GA|~B3e dB~B2|gfgb abge|dGBd
+gedB|GBAF G2:|
+
+X:45
+T:Gan Ainm
+S:John Walsh <walsh@MATH.UBC.CA>, irtrad-l, 4/94
+M:6/8
+K:G
+GA|BAB cBc|dgg d2g|fed cAF|Ggg d2c|BAB cBc|dgg d2g|fed cAF|GAG G:|
+Bd|gGG fGG|efg d2c|BAG A2g|fed efg|agf gfe|fed fga|gfe def|gGG G:|
+
+X:50
+T:Anne's Favorite
+S:irtrad-l, 8/94
+C:traditional (?)
+R:hornpipe
+Z: Transcribed by Charles Jones
+Z: as heard on Thistle and Shamrock, played as theme music
+Z:default note length
+L:1/16
+E:9
+I:speed 600
+M:4/4
+K:D
+(3A,B,C|D2 FD EFGE|ABce dBAG|F2 AF GECE|DFEC A,B, (3CB,A,|
+D2 FD EF (3GGE|ABce dBAG|FDFA GEA,C|[1EDDC DD (3A,B,C:|[2 ED DC DD (3EFA||
+|:d2 de dcAc|dAfA ecAB|(3ccc cd ecdB|cABG AGEC|
+D2 FD EF (3GGE|ABce dBAG|FDFA GEA,C|[1EDDC DD (3EFA:|[2EDDC DD||
+
+X:55
+T:Limerick Rake, The
+T:Fa/gaimi/d siu/d mar ata/ se/
+S:irtrad-l, 5/97, Jerome Colburn
+N:Ewan MacColl wrote "Champion at Keepin' 'Em Rollin'" to this tune
+M:6/8
+K:ADor
+A | AcB AGA | cde a2 e/f/ | ged cBc | dBA G2 A | AcB AGA | cde a2 e/f/ |
+gec dcB | A A2-A2 e |
+eaa aba | gef g2 a | aed cBc | dBA G2 c/B/ | AcB AGA | cde a2 e/f/ |
+gec dcB | A A2-A2 ||**
+
+X:60
+T:Eileen Curran
+T:Sailor's Return
+C:Traditional
+M:4/4
+Z: L:1/8
+E:11
+I:speed 350
+N:Tune from George Keith, ABC version from Dan Beimborn
+S:Kevin Burke's "Up Close", Gerald Trimble's "First Flight" (in G)
+K:F
+FA|BAGF DGGB|AFcF dFcF|BAGF DGGA|BABc dgga|(3bag a^f g=fde|
+fdcB AFFA|BAGF DGGA | [1 BdcA BGGA:|[2 BdcA BG G2||
+g2 g^f gbag|=f2 fe fgaf|dgg^f g2 ga|(3bag a^f g2 ga|
+(3bag a^f g=fde|fdcB AFFA|BAGF DFGA Bd| (3cBA BG G2:|
+
+X:65
+T:Hommage A Suzanne
+S:irtrad-l, 8/97, Edward A Beimborn
+C:Jan Earnest
+M:4/4
+E:6.5
+I:speed 350
+K:G
+D|:E3 F G3 A|B2 GB AFDF|EFGA (3BcB GB|AF (3FEF AFDF|EFGA BGGB|AF (3FEF
+AFDF|G3 E F3 D|EG (3FED E2:|
+ef|ge (3ege Be (3efe|ge (3ege defa|ge (3efe dBAF|GE (3FED E2 ef|\
+ge (3ege Be (3efe|ge (3ege defa|(3gfe (3fed eBBA|GE (3FED E2 ef|
+ge (3ege Be (3efe|ge (3ege defa|ge (3efe dBAF|GE (3FED E2 EF|\
+GE (3EGE B,E (3EFE|GE (3EFE DEFA|G3 E F3 D|EG (3FED E2||
+
+X:70
+T:Charlie Mulvihill's Jig
+S:irtrad-l, 8/97, Edward A Beimborn
+C:Charlie Mulvihill?
+N:from Brendan Mulvihill
+H:Brendan found the manuscript in a Charlie Mulvihill's attic (as part
+H:of his estate, as I recall).  Brendan taught this tune at the 1993
+H:Milwaukee summer school, and I transcribed it for the occasion of the
+H:Great IRTRAD 1994 Milwaukee Tune Swap.  I put in some, but not all,
+H:of the ornaments, which he taught us to do.  More rolls and cuts.
+M:6/8
+R:jig
+Z:Alan Ng's contribution.
+K:D
+A|dAF AGF|dAF AGF|A,CE GFG|A,CE GFE|DFA DGB|Adc d2e|fed cBA|GFE D2::\
+g|fdf a^ga|fdc d2=f|e=ce gfg|efd cde|~f3 ~g3|~a3 bag|{g}fed {d}cba|\
+{a}gfe D2:|
+
+X:75
+T: Princes qui en main tenez
+S: irtrad-l, 8/94, Millie Niss
+A: Brittany (France)
+H: Transcribed by Millie Niss
+H: from the 1st track of the Tri Yann album, "La decouverte ou
+H: l'ignorance"
+H: (The song has lyrics on the album, but the lyrics are not
+H: traditional.)
+L: 1/8
+M: 6/8
+K: G
+D2 G EFG|A2 AB AA|D2 G EFG|A3 GG2:|
+BBA GAA|BBA GAA|cBA GAA|cBA GAA|BAG BAG|GcB AGA|D2 G EFG|A3 GG
+
+X:80
+T: Bubbling Wine
+S:irtrad-l, 11/97
+C:Paddy O'Brien
+R:reel
+Z:id:hn-reel-337
+M:C|
+K:Edor
+BE~E2 d2^cd|BE~E2 ADFA|GBEF GABd|g2fg edBA|
+B=cBA GBdB|A2^GB ADFA|BE~E2 GBe^c|dBA=c BE~E2:|
+Be~e2 gebe|Ad~d2 fdad|Beed efge|fgaf gfef|
+g2fg edB^c|defe dBA=c|BE~E2 GBe^c|dBA=c BE~E2:|
+"Variations"
+BE~E2 d2d^c|BE~E2 ADFA|GBEF GAef|g2fg egd=c|
+B=cBA GBdB|BAGB AGFA|BE~E2 GBeB|dBA=c BE~E2:|
+Be~e2 gebe|ad~d2 fdad|be~e2 efge|fgaf gfed|
+g2fg edB^c|d2fe dBAF|BE~E2 GBeB|dBA=c BE~E2:|
+
+X:85
+T:Purphy's
+S:irtrad-l, 4/97, David de la Barre
+M:6/8
+L:1/8
+C:Brian Finnegan
+R:jig
+D:Kathryn Tickell Band;Signs
+K:D
+^A|B3 BAB|dBB BAF|G2d3E|F2c3^A|
+B3 BAB|dBB BAF|edc AEA|^A2B3c|
+B3 BAB|dBB BAF|G2d2ef|e2c3^A|
+B3 BAB|dBB eBf|BgB edB|^ABc B2:|
+
+z|FBd dcB|FBd dcB|Ace ecA|GBd F2E|
+FBd dcB|FBd dcB|fed efd|B3-B2 =f|
+fdB B2 d-|d e/2d/2c ^a2b|edB Bcd|c2B c2B|
+FBd fBd|EAc ec/2d/2e|dcB ^ABc|B3 B2 :|
+
+X:90
+T:Mark Quinn's
+S:irtrad-l, 5/97, P. Varlet
+M:2/4
+L:1/16
+Q:142
+R:polka
+D:Celtic Thunder: Green Linnet GL 1029 (1981)
+K:G
+G2AG E2D2 | G2B2 d4 | e2d2 B2G2 | ABAG E2D2 |
+G2AG E2D2 | G2B2 d4 | e2d2 B2A2 | G4 G4 :||
+: d4 d2Bd | e2d2 B2G2 | c4 c3d | e2d2 B2G2 |
+d4 d2Bd | e2d2 B2G2 | A2Bc B2A2 | G4 G4 :||
+
+X:95
+T:Galway Belle, The
+M:2/4
+L:1/16
+Q:142
+S:irtrad-l, 5/97, P. Varlet
+R:polka
+D:Celtic Thunder: Green Linnet GL 1029 (1981)
+K:E Dor
+E3F G2A2 | B2e2 B4 | A2F2 D2F2 | E2F2 D2B,2 |
+E3F G2A2 | B2e2 B4 | A2F2 D2F2 |1 E4 E2B,2 :|2 E4 E4 ||
+e2e2 B2B2 | e2e2 B4 | A2F2 D2F2 | E2F2 D4 |
+e2e2 B2B2 | e2e2 B4 | A2F2 D2F2 | E4 E4 |
+e2e2 B2B2 | e2e2 B4 | A2F2 D2F2 | E2F2 D2B,2 |
+E3F G2A2 | B2e2 B4 | A2F2 D2F2 | E4 E4 ||
+
+X:100
+T:Barren Rocks of Aden, The
+S:irtrad-l, 5/97, P. Varlet
+M:2/4
+L:1/16
+Q:142
+D:Celtic Thunder: Green Linnet GL 1029 (1981)
+R:polka
+D:GL 102
+K:D
+f4 f3e | d2f2 A2d2 | c2e2 A2Bc | d2e2 f2d2 |
+f4 f3e | d2f2 A2d2 | c2e2 A2Bc |1 d4 d2e2 :|2 d4 d2f2 ||
+a2f2 d2f2 | e2f2 A2f2 | g2e2 c2e2 | defg a3f |
+a2f2 d2f2 | e2f2 A2f2 | g2e2 c2e2 |1 d4 d2f2 :|2 d4 d4 ||
+
+X:105
+T: It Is Not Day, No, Nor Morning
+T: Poc Air Buille,
+T: The Mad Buckgoat
+B:Old Irish Folk Music and Songs, Joyce, P.W., 1965. #693
+S:irtrad-l,T McClain, 5/97
+M: 2/4
+L: 1/16
+R:Air
+K:G
+|d2de f2ed|g2g2d2B2|dded|e2g2a2g2|b2a2g2d2|=f2f2e2d2|gedB A2G2|A2GF G2D2|.E2.G2 G4|.A2.A2 A4|GEG2 G4|BAGE G2D2|.E2.G2 G4|.A2.G2.A> g|gedb d2B2|A2GA B2G2||
+
+
+X:110
+T:Unknown Strathspey?
+S:irtrad-l, 5/97, P. Varlet
+M:4/4
+L:1/8
+Q:190
+N:as played by Micmac Indian, Lee Cremo
+R:strathspey
+K:G
+DGGA (3GGG GB | dBgB (3AAA AB | GAGF EDEG|
+1 DCB,A, (3G,G,G, G,B, :|2  DCB,A, (3G,G,G, G,2 ||
+gage (3ggg ge | gbag {a}geef | gdeg dgBd | AGAB (3GGG G2 |
+gage (3ggg ge | gbag {a}geef | gdeg dgBb | agab (3ggg g2 ||
+
+X:115
+T:Unknown Reel # 1
+S:irtrad-l, 5/97, P. Varlet
+M:4/4
+L:1/8
+Q:240
+N:as played by Micmac Indian, Lee Cremo
+R:reel
+K:G
+GA | B2 BG DGBd | c2 cB Aceg | f2 fe dfaf | {a}gfga gedc |
+B2 BA GBdB | c2 cB Aceg | f2 fe dcBA | G2 B2 G2 :||
+ef | g2 ga gdBd | (3ccc cB Aceg | f2 fe dfaf | {a}gfga gdBd |
+g2 ga gdBd | (3ccc cB Aceg | f2 fe dcBA | G2 B2 G2 :||
+
+X:120
+T:Unknown Reel # 2
+S:irtrad-l, 5/97, P. Varlet
+M:4/4
+L:1/8
+Q:240
+N:as played by Micmac Indian, Lee Cremo
+R:reel
+K:G
+D2 |: G2 {d}BA BGGB | dedB BGGB | dedB degd | egdB A2 {d}BA |
+G2 {d}BA BGGB | dedB BGGB | dedB degd |1 egdB G2 {d}BA :|2 egdB G2 G2 ||
+gage gdde | gage degd | eaab ageg | abag gede |
+gage gdde | gage degd | eaab agea | gedB G2 G2 :||
+
+X:125
+T:Unknown Jig # 1
+S:irtrad-l, 5/97, P. Varlet
+M:6/8
+L:1/8
+N:as played by Micmac Indian, Lee Cremo
+R:jig
+K:A
+E3 EFA | B3 Bce | fea fec | ecA BAF |
+E3 EFA | B3 Bce | fea fec |1 ecA A2F :|2 ecA Acd ||
+e3 ecA | f3 fga | fec BAB | cAF FAc |
+e3 ecA | f3 fga | fec BAB | cAA Acd |
+e3 ecA | f3 fga | fec BAB | cAF Fzf |
+ecA Ace | fdf fga | fec BAB | cAA A2z ||
+
+X:130
+T:Unknown Jig # 2
+S:irtrad-l, 5/97, P. Varlet
+M:6/8
+L:1/8
+Q:130
+N:as played by Micmac Indian, Lee Cremo
+R:jig
+K:A
+a |: c'2 a e2 c | A3 AzC | A,CE Aca | g3 gag |
+f2 d B2 A | G3 G3 |1 GFE GFE | C2z a2 b :|2 EFE EFG | A3 A2 ||
+C/2B,/2 |: A,2 C E2 A | c3 c2 e | cAe cAc | B3 BGF |
+E2 G B2 c | d3 fa2 | gfe dcB |1 c3 c2z :|2 A3 A3 ||
+
+X:135
+T:Unknown Jig # 3
+S:irtrad-l, 5/97, P. Varlet
+M:6/8
+L:1/8
+Q:140
+N:as played by Lee Cremo
+R:jig
+K:A
+cd |: efe c2 d | efe c2 e | dcd B2 c | d3 {e}dcd |
+efe ce=g | fef dfa | g2 b gfg |1 a3 a3 :|2 a3 a2e ||
+agf edc | Bcd f2 e | cde eae | cde f2 e |
+agf edc | Bcd f2 a | efe dcB |1 c/2B/2A2 ea2 :|2 BA2 A3 ||
+
+X:140
+T:Sean Tiobrad Arann
+T:Old Tipperary
+S:irtrad-l, L.LaVerne,11/97
+M:6/8
+L:1/8
+S:David Kidd
+R:Jig
+P:AABB
+Z:Lorna LaVerne
+K:G
+d |
+cAF ~G3 | ABA G2d | cAG GFG | ADE F2d |
+cAF ~G3 | ABA GBd | fdd edd | fdd cAd |
+cAF ~G3 | ABA G2d | cAG GFG | ADE F2d |
+cAF ~G3 | ABA GBd | fdd edd | fdd cAF |
+GBd ~g3 | gaf g2g | dgg dgg | a2g fga |
+bag agf | gfe f2e | dcA (3Bcd e | fed cAF |
+GBd ~g3 | gaf g2g | dgg dgg | a2g fga |
+bag agf | gfe f2e | dcA (3Bcd e | fed cAF |
+
+X:145
+T:Strop the Razor
+S:irtrad-l, L.LaVerne,11/97
+M:6/8
+L:1/8
+S:David Kidd
+R:Jig
+Z:Lorna LaVerne
+K:G
+|:BGG AGG | BGG A2G | DGG G2F | DGG G2A |
+BGG AGG | BGG A2G | D2E F2G | ADE FGA:|
+|:dBB cAA | dBB cAA | DGG G2F | DGG G2B |
+dBB cAA | dBB cAA | D2E F2G | ADE FGA:|
+|:B3 cBc | d3 dBd | ~g3 gaf | gaf gdc |
+~B3 cBc | d3 d2e | ~f3 fde | fag fdc:|
+B2G A2F | G3 G3 |
+
+X:150
+T:Chicago Reel, The
+S:irtrad-l, L.LaVerne,11/97
+M:4/4
+L:1/8
+Q:180
+S:David Kidd
+R:Reel
+Z:Lorna LaVerne
+K:G
+D2 |
+|:GABA GEDB, | DEDB, DEGA | BGdG eGdG | Beed B2BA |
+GABA GEDB, | DEDB, DEGA | Beed B2BA | GEED E2EF:|
+GAB^c d2Bc | ~d3A FADD | GAB^c dcBA | Beed e2EF |
+GAB^c d2dB | e2e^c d2ed | ^c2cA BdBA | GEED E2EF |
+GAB^c d2Bc | d2dA FDDD | GAB^c dcBA | Beed e2EF |
+GAB^c d2dB | e2e^c d2ed | ^c2cA BdBA | GEED E2 |]
+
+X:155
+T:Chicago Reel, The
+S:irtrad-l, H. Norbeck, 11/97
+R:reel
+D:Stockton's Wing
+D:Fintan Vallely: Traditional Irish Flute Music
+Z:id:hn-reel-556
+M:C|
+K:Ador
+cded cAGE|~G3E GAcd|ecgc acgc|eaag edcA|
+cded cAGE|~G3E GAcd|eaag (3efg ed|cABG ~A3B:|
+|:cdef g2ef|gfgd BG~G2|cdef g2fg|eaag aged|
+cdef ~g3e|~a3f ~g3e|~f3d efed|cABG ~A3B:|
+"variations"
+|:cded cAGE|~G3E GAcd|(3edc gc acgc|eaag eged|
+cded cAGE|G2GE GAcd|eaag ~e3d|cABG A2AB:|
+|:cdef g2ef|gfgd BG~G2|(3Bcd ef gedg|eaag aged|
+(3Bcd ef ~g3e|~a3f ~g3e|=f3d efed|cABG ~A3B:|
+
+X:160
+T:Old Hag You Have Killed Me
+S:irtrad-l, L. LaVerne, 11/97
+M:6/8
+L:1/8
+N:as played by David Kidd
+D:Bothy Band
+R:Jig
+P:AABB
+Z:Lorna LaVerne
+K:G
+AG |
+FED c2A | ded cAG | ~A3 ABG |A2A A2G |
+FED c2A | ded cAF | ~G3 GcA | GcA G2G |
+FED c2A | ded cAG | ~A3 ABG |A2A A2G |
+FED c2A | ded cAF | ~G3 GcA | GcA G2d |
+~f3 gfg | afd cAG | A2A ABG | ABG A2d |
+~f3 gfg | afd cAF | ~G3 GcA | GcA G2d |
+~f3 gfg | afd cAG | A2A ABG | ABG A2d |
+~f3 gfg | afd cAF | ~G3 GcA | GcA G3 |
+
+X:165
+T:An Suisin Ban
+T:White Blanket, The
+S:irtrad-l, L. LaVerne, 11/97
+D:Michael Tubridy on the CD accompanying Breandan Breathnach's book
+D:Folk Music and Dances of Ireland; Gearóid OhAllmhuráin's CD
+D:"Traditional Music From Clare and Beyond".
+N:Names, info etc from the encyclopedic Philippe Varlet.
+M:4/4
+L:1/8
+S:David Kidd
+R:Set Dance
+P:AABB
+Z:Lorna LaVerne
+K:A
+(3ABc |
+dFFE FGAF | EF (3ABc d3B |
+cBAF E2FA | B2Bc B2AB |
+cBAF ECEF | A2AB A2(3ABc |
+dFFE FGAF | EF (3ABc d3B |
+cBAF E2FA | B2Bc B2AB |
+cBAF ECEF | A2AB AAce |
+f2fe fgaf | ec(3ABc d3B |
+cBAF E2FA | B2Bc B2AB |
+cBAF ECEF | A2AB AAce |
+f2fe fgaf | ec(3ABc d3B |
+cBAF E2FA | B2Bc B2AB |
+cBAF ECEF | A2AB A2 |
+
+X:170
+T:??
+S:irtrad-l,Frederic SAUR, 11/97
+R:reel
+Z:Fred SAUR le 11/11/97
+M:C
+L:1/8
+Q:120
+K:F
+|:B2GA Bcdc|BAGB ADGA|~B2GA Bcde|fdcB ADGA:|
+~B2fB gBfB|~B2dB cAFA|~B2fB gBfB|cAFA BGGA|
+~B2fB gBfB|~B2dB cAFA|GBdA gage|fdcB ADGA|
+~B2fB gBfB|~B2dB cAFA|~B2aB gBfB|cAFA BGGA|
+~B2fB gBfB|~B2dB cAFA|GBdA gage|fdcB ADGA|
+
+X:175
+T:Jenny Picking Cockles
+C:Traditional
+S:irtrad-l, L. Sanger, 10/97
+N:As played by Neillidh Boyle
+A:Dungloe, Co. Donegal, Ireland
+R:Reel
+M:C|
+Z:Transcribed by Larry Sanger from the old 78 rpm record of N. Boyle.
+K:C
+~g2||fagf dc~c2|Bcde {a}fe{a}+A2.f2+|~g2fg dc~c2|Acfc AG~G2|+G,G+B~g2
+dc~c2|Bcde {a}fe{a}+A2.f2+|~g2fg dc~c2|Acfc AG~G2|+G,G+B~g2 dc~c2|Bcde
+{a}fe{a}+A2.f2+|~g2fg dc~c2|Acfc AG~G2|+G,G+B~g2 dc~c2|Bcde
+{a}fe{a}+A2.f2+|~g2fg dc~c2|Acfc AG~G2||:\
+K:G
+|:dg~g2 bgag|fd~d2 +df+d+dg++df+|+d2g2++dg++df+ gbag|fdcd BG~G2|dg~g2
+bgag|~f2ga fddg|bg~a2 gfga|fdcA +G,G+B~g2:|
+
+X:180
+T:Fermoy Lasses
+S:John Gillis, irtrad-l, 11/97
+N:as played of Charlie Gaffney and Mike Gallagher
+M:4/4
+L:1/8
+R:Reel
+K:Em
+BA|GE~E2 BE~E2|GE~E2 B2BA|GE~E2 BE~E2|AFDF ACBA|
+GE~E2 BE~E2|GE~E2 B2BA|~G2GB d2dB|AFDF A2BA:|
+|:G2BG dGBA|
+G2 Bd efg2| G2BG dGBG|AFDF A2BA|
+G2BG dGBA|G2 Bd efg2|gage dedB|AFDF A2BA:|
+
+X:185
+T:Molly's Graduation
+M:C|
+L:1/8
+C:Dougie MacDonald
+R:Strathspey
+D:James Kelly-The Ring Sessions
+K:EDor
+c/2c/2c|B2 B>A G<B F>B|E>F G>A B>A B/2c/2d|e e>e e>g f>e|
+d>c d>A B>A F>A|B2 B>A G<B F>B|E>F G>A B>A B/2c/2d|
+e>g f>e d>B A>=c|B>A F>D E:||:B/2B/2B|b2 f2 e4|b>a g>f e>f e>c|
+d2 d>B A A>G|F>E D>F A>D F/2G/2A|B2 B>A G<B F>B|E>F G>A B>A B/2c/2d|
+e>g f>e d>B A>=c|B>A F>D E:||
+
+X:190
+T:Wisahicken Drive
+S:irtrad-l, Henrik Norbeck
+R:reel
+C:Liz Carroll
+Z:id:hn-reel-257
+M:C|
+K:A
+EFAB cBAB|ceef ecBA|F2dF eFde|fedf ecBA| EFAB cBAB\
+|ceef ecBA|~f3a e2cA|1 BABc ~A3F:|2 BABc ABce\
+||:a2ga baga|~f3e fgaf|ec~c2 acec|1 fcec BAce\
+| a2ga baga|f2de fgaf|ec~c2 afec|BAGB ABce:|2 fcec BABc\
+| ABce a2ga|f2de fgaf|ec~c2 afec|BAGB ~A3F||
+
+
+X:195
+T:Celtic Society's Quickstep The
+S:Irtrad-l, P. de Grae, 11/97
+M:4/4
+K:AMix
+e2 | A2 AA c2 BA | c2 e2 e2 a2 | A2 AA c2 BA | dcBA GABG |\
+A2 AA c2 BA | c2 e2 e2 g2 | B2 AB GABd | e2 A2 A2 :: e2 |\
+a2 e2 c2 BA | c2 e2 e2 ^g2 | a2 e2 c2 BA | g2 B2 B2 g2 |1\
+a2 e2 c2 BA | c2 e2 e2 g2 | B2 AB GABd | e2 A2 A2 :|2\
+a2 ^gf g2 fe | f2 ed e2 dc | B2 AB GABd | e2 A2 A2 ||**
+
+X:200
+T:?2
+S:irtrad-l, J.Myers, 8/97
+M:4/4
+L:1/8
+R:reel
+K:G
+|B2 cA B2 ge|d2 ge dBGA|B2 BA Bdge|dBAc BG G2:||
+gfed ed (3Bcd|gfed e3 f|1gfed efge|a2 ge d3 f:|2gbag fagf|efge dBFG||
+
+X:205
+T:?
+S:irtrad-l, J.Myers, 8/97
+M:4/4
+L:1/8
+R:reel
+O::|
+K:G
+G2 BG cABG|A~D3 FGAF|G2 BG cABG|1Addc AGFA:|2Addc AG G2||
+g2 dg egde|g2 ag fgaf|g2 dg egdB|cBAB BG G2:||
+
+X:210
+T:Amhr\'an na bhFiann
+T:The Soldier's Song
+M:4/4
+S:Jerome S. Coburn, Ir-trad, 5/97
+N:Ireland Nat'l anthem
+K:D
+A2 | F2 DF A3 A | Bcde f3 e | d2 B2 A2 F2 | A3 G E2 z A |
+F2 DF A3 A | Bcde f2 z
+d | c3 c B3 B | A2 A4 A2 |
+G3 G GEFG | A3 B A3 d | c3 B c2 B2 | A2 G2 E2 z A |
+F2 DF A3 A | Bcde f2 dB | A d2 f e3 d | d6 z2 |
+d3 e f2 d2 | A4 z2 A2 | B3 B G2 B2 | A4 A4 |
+d4 c4 | B6 cd | e3 f e2 B2 | c6 z2 |
+d3 e f2 d2 | A4 z2 A2 | B3 B G2 B2 | A4 A3 A |
+c4 c3 B | c2 c2 B3 A | A4 z2 A2 |
+G3 G GEFG | A3 B A3 d | c3 B c2 B2 | A2 G2 E2 z A |
+F2 DF A3 A | Bcde f2 dB | A d2 f e3 d | d6 ||**
+
+
+X:215
+T: Brighton Camp
+M: 4/4
+L: 1/8
+Q:1/4=182
+K:G
+gf|e2dc B2A2|B2G2 E2D2|.G2.G2 GABc|d4 B2gf|
+w: Sa-ys my aul' wan to your aul' wan
+w: Will~ye come to the Wa-x-ies dar-gle?
+e2dc B2A2|B2G2 E2G2|F2A2 D2EF|G2z2 G4|
+w: Sa-ys your aul'_ wan to my aul' wan,
+w: Sure I ha-ven't got a far-thing.
+B2d2 e2f2|g2d2 BAG2|Bcd2 e2f2|g4 f2gf|
+w: I'll go down to Mon-to to-w-n
+w: To see un-cle Mc-Ar-dle
+e2dc B2A2|B2G2 E2G2|F2A2 D2EF|G2z2 G4|
+w: A-nd ask him for a half a crown
+w: For~to go to the Wa-x-ies dar-gle
+
+X:220
+T:Sweeney's Buttermilk
+T:Charlie Lennon's No. 2
+T:Buttermilk Mary
+S:irtrad-l, Juergen Gier, 11/97
+C:Brendan McGlinchey
+S:Brendan McGlinchey
+Z:Juergen.Gier@post.rwth-aachen.de
+M:4/4
+L:1/8
+K:BDor
+FB~B2 FB~B2|dcBc AE~E2|FB~B2 ABce|afec Baga|\
+f2ec fecf|ecBc BAFE|FB~B2 ABce|1afec B4:|2faec B2BA|:\
+FBdc BF~F2|EAcB AE~E2|FBdc (3Bcd fb|afec dDcD|\
+Bcde fBBg|afec ABce|fe (3fga bafb|afec B2BA:|
+
+
+X:225
+T:Teague's Ramble
+S:WB Olson, irtrad-l, 11/97
+N:A New Selection of the most Admired Original Irish Airs,
+N:Hime:Dublin, n.d. (c 1800). one of 22 tunes.
+N:Copy at Lib. of Congress
+H:From a Scots MS of the 1740's. Rebinding narrowed margins and
+H:obscured some text. There are broadside copies extant, but I
+H:haven't seen one. A shorter copy of the song is in the later
+H:Scots Mansfield/ St. Clair MS. The similar American song
+H:"Nottamun/Nottingham town" is probably to some extent derived
+H:from this.]
+Q:56
+L:1/8
+M:6/8
+K:Dm
+A|d3/2e/2d/2e/2 f3/2a/2g/2f/2|ecc c2A|\
+d3/2e/2d/2e/2 f3/2a/2g/2f/2|eAA A2f/2g/2|\
+a3/2b/2a/2b/2 g3/2a/2g/2a/2|\
+f/2e/2f/2a/2g/2f/2 {f}e2e|\
+f/2e/2f/2g/2a/2f/2 g/2f/2g/2a/2b/2g/2|add d2|]
+
+
+W:Dear Catholick sister thou son of great M[ars
+W:I've been at the fighting where there was no w[ars
+W:no guns or no swords, but a great deal of arm[s
+W:to kill our poor friends that wou'd do us no ha[rms
+
+W:I set out for Dublin, next michael mass pas[t
+W:and Gallop't to Chester in a Damnable has[te
+W:but the seas blow'd a storm, & the winds they di[--
+W:which cast me away on the shore by my sho[--
+
+W:I having no haste did ride post to the mar[--
+W:Dear sister pray hear my poor sorrowful [--
+W:My] horse standing still, She threw me in the dirt |f.187.
+W:I] doubed all my flesh & sore bruised my shirt
+
+W:I] being of Courage I mounted again
+W:And] on my ten toes I tript over the main
+W:The]re taking a nap for six days on the ground
+W:In th]ree I arrived in fair London Town
+
+W:And] when I came there not a shoul cou'd I see
+W:The] Crowd was so thick they stood staring at me
+W:Not] one word did thee speak but made damnable pime?  [pain?
+W:--] my feet were worn out & my Brogues grown so thin
+
+W:Then] nevertheles standing still I did go
+W:--]e for hide peark & enquire for the shew?          [Hyde Park
+W:By] my shoul Cry'd the people but nothing did say
+W:The] army is here tho the Camp's march'd away
+
+W:To f]ind out new pleasures I was at a loss
+W:So] shuting my eyes, I perceiv'd Charing Cross
+W:The]re a man sat on horse back upon a cold stone
+W:Wi]th thousands about him good fait all alone
+
+W:--]ult'd off my head to his majesties Graces
+W:I ask'd him the way to, I do not know what pl[aces |f. 187v
+W:but he was so Brazen, he wou'd not come do[wn
+W:Nor shew me the way for an Irish half Cro[wn
+
+W:So by my own self I went stumbling on
+W:Quite tired to death, with the Damnable C[?]h[--
+W:at last to hide Park good fait I die Con[--
+W:by the beat of a Trumpet & Sound of a Dru[m
+
+W:Heat[?] soldiers on horseback stood here & lay cher[e?-
+W:With their left wing in the front & their right in the [rear
+W:and horse men on foot in an open Defence
+W:broke open open [sic] their files with a brave allie[nce?
+
+W:Then by my fait they began to retire
+W:when the Conel cry'd march, present they gave [fire
+W:Without powder or Ball such a noise the[y] did mak[e
+W:as made the earth tremble & Clouds for to quake
+
+W:The noise being over, tho' none did I hear
+W:I went to the Baker to Buy me some Bee[r
+W:and having no trust I payd Chink for my Ch[--
+W:I took Hakney Coach & away I did walk
+
+W:Then down to the Thames I made my appro[ach
+W:I] took me a place in the flying stage coach
+W:So] long we did Roll on the watery main
+W:At la]st we arrived at Salisbury plain
+
+W:I']s quite Choak'd with dust tho' it rained all the day
+W:I ho]ld for a pint to drive Gladness away
+W:But] ever I cou'd drink it, I heard a great noise
+W:'Twas] nothing at all but Hallo my boys
+
+W:The] King and the Prince & a great many more
+W:All] coming behind us just going before
+W:And] all keeping silence the[y] loudly did sing
+W:They] kept on their hats for to honour the King
+
+W:Be]ing Contented to sit on my seat
+W:I'm] still and went out to the midst of the street
+W:The]re the Bishop of Salisbury he did rehearse
+W:A p]iece of good Latine in old English verse
+
+W:It] pleased his majestys grace to protest
+W:Bu]t it was a fine Altho meanly dres'd
+W:The]n out came the Clergy in a black scarlet Gown
+W:To] kiss the King's hand for the sake of the Crown
+
+W:But all the while that the Condects[?] did run       |f. 188v
+W:There was good rost beef & Backon & best o[f rum ?
+W:There was Baskets of Claret & white wine was [---
+W:on Tables for firemen to eat when they red[---
+
+W:I took such a surfeit now at this fine fe[ast
+W:as did not disturb my poor shoul in the le[ast
+W:but if ever I go to see London again
+W:The Devil may be after taking Teague for h[im]
+
+N:This verse must be sung after the 10th
+
+W:There was Hollands Genever run thro' every [---
+W:and horses made fast for Greeting of win[--
+W:By my shoul I admired their wisdom & p[---
+W:With Sword on their shoulders & Guns [in their s[---
+
+X:230
+T:The Longford Tinker
+S:Bothy Band
+N:I like the 2nd bar of part 2 better as |d2fd +e2c2+ dB|
+N:- it resembles the scottish reel Jenny Dang The Weaver,
+N:of which this is an Irish version.
+M:4/4
+L:1/8
+R:Reel
+K:BMin
+dBBA B3 c|dB B2 fBeB|dBBA B2 dB|ABde f3 e|\
+dB B2 fB B2|dB B2 f2 fg|aA A2 ABAF|ABde fgfe||\
+d2 fd efge|defa g2 fe|d2 fd efge|fgaf g2 fe|\
+d2 fd efge|defa g2 ga|bgaf gfed|faaf gfed||\
+fa a2 fa a2|faaf gfed|gb b2 gb b2|gbbf gfeg|\
+fa a2 fa a2|faaf g2 ga|bgaf gfed|faaf gfef||
+
+X:235
+T:Monaghan Jig, The
+S:irtrad-l, Phil Sexton, 11/97
+R:double jig
+D:Mary Bergin "Fedoga Stain"
+Z:By Phil Sexton
+M:6/8
+L:1/8
+K:Edor
+BGE ~E3|BGE FGA|BGE ~E3|AFD FGA
+BGE ~E3|BGE FGA|dcB A{c}AG|FDF AFD|
+BGE ~E3|BGE FGA|BGE dBG|AFD FGA|
+BGE ~E3|BGE FGA|dzB ABA|FDF AFD|]
+EGB e{a}eg|fed edc|DFA dAG|FDF AFD|
+EGB ezg|fed edc|dcB A{c}AG|FDF AFD|
+EGB ezg|fed edc|DFA dAG|FDF AFD|
+EGB ezg|fed edc|dcB cBA|FDF AFD|]
+~g3 ezf|geg bge|fg{a}g ~e3|{a}fed dfa|
+~g3 ezf|geg bge|dcB A{c}AG|FDF AFD|
+~g3 ~e3|gza bge|~g3 ~e3|fed afd|
+~g3 ezf|geg {c}bge|dcB cAG|FED AFD||:
+EGB eBG|BGE ~F3|ez2 BGE|~F3 AFD|
+EGB GBd|Bdg egb|fed ABG|FDF AFD:|
+
+X:240
+T:O'er the Hills and far awa
+S:Fiddle-l, Dan Mozell, 11/97
+C:From Aird 1782-1785
+M:C
+K:G
+DE | G3 A G>ABA | G2 E2 E2 DE | G3 A GABG | B2 A2 A2 DE | G3 A GABA |
+G2 E2 c4 | E2 D2 DEGA | B2 A2 A2 :||: Bc | d3 e dcBA | G2 E2 E2 Bc |
+d3 e dBAG | B2 A2 A2 Bc | d3 e dcBA | G2 E2 c4 | E2 D2 DEGA | B2 A2 A2 :||:
+DE | GABA GABA | G2 E2 E2 DE | GABA GABG | B2 A2 A2 DE | GABA GABG | AGFE
+c4 | E2 D2 DEGA | B2 A2 A2 :||: Bc | dgfe dBAB | G2 E2 E2 Bc | dgfe dBAG |
+B2 A2 A2 Bc | dgfe dcBA | G2 E2 c4 | E2 D2 DEGA | B2 A2 A2 :||
+
+X:245
+T:Washington Hornpipe, The
+M:4/4
+L:1/8
+S:Paul de Grae, Paul Brock, irtrad-l, 11/97
+R:hornpipe
+Z:Paul de Grae
+K:A
+ABcd eA (3AAA | fAgA aA (3AAA | fAeA dBcA | (3BcB GB AGFE |
+ABcd eA (3AAA | fAgA aA (3AAA | fAeA dBcA |1 (3BcB GB A (3EFG :|
+2 (3BcB GB A (3F_G^G ||:
+K:D
+AD (3DDD BD (3DDD | dcBA BAFD | dcBA BAGF | E2 CE DCB,A, |
+AD (3DDD BD (3DDD | dcBA BAFD | dcBA BAGF |1 (3EFE CE D (3FG^G :|
+2 (EFE CE D2 ||
+
+X:250
+T:An Pa/isti/n Fionn
+T:Fairhaired Child
+S:irtrad-l, J. Coburn, 9/97
+R:Air
+M:3/4
+K:EDor
+B2 | e3 f e2 | d2 e2 f2 | g4 e2 | f4 gf |
+e3 d cB | G3 A Bc | d4 B2 | B4 B2 |
+e3 f e2 | d2 e2 f2 | g4 e2 | f4 gf |
+e2 d2 B2 | A2 G2 F2 | E6 | E4 || EF |
+G3 A Bc | d2 B2 B2 | c2 A2 A2 | d2 B2 A2 |
+G3 A Bc | d2 B2 d2 | e6 | e4 EF |
+G3 A Bc | d2 B2 A2 | B e3 f2 | g3 a fe |
+e2 d2 B2 | A2 G2 F2 | E6 | E4 |]
+W:1. Is gra/ le m-anam mo Pha/isti/n Fionn,
+W: A croi/ 's a h-aigne ag ga/iri/ liom,
+W: A ci/ocha geala mar bhla/th na n-u/ll,
+W: 'S a pi/b mar an eala la/ Ma/rta.
+W:Cu/rfa/:
+W: Is tusa mo ru/n, mo ru/n, mo ru/n,
+W: Is tusa mo ru/n is mo ghra/ geal;
+W: Is tusa mo ru/n is mo chumann go buan
+W: 'S e/ mo chreach gan tu/ 'gam o/ do mha/ithri/n.
+W:2. Is cara mo chroi/ mo Pha/isti/n Fionn,
+W: 'uil a da/ ghrua ar lasadh mar bhla/th na gcrann,
+W: Ata/ mise saor ar mo Pha/isti/n Fionn
+W: Ach amha/in nuair o/lfainn a sla/inte.
+W:3. Da/ mbe/innse sa mbaile 'mbi/onn su/gradh 's greann,
+W: No/ idir dha/ bharraile la/n de leann,
+W: Mo shu/iri/n im aice 's mo la/mh faoin a ceann
+W: Is su/gach a d'o/lfainn a sla/inte.
+W:4. Do bhi/ me/ naoi n-oi/che im lui/ go bocht,
+W: O/ bheith si/nte faoi 'n di/linn idir dha/ thor,
+W: A chumann mo chroi/! 's me/ ag smaoineadh ort,
+W: 'S nach bhfaghainnse le fead no/ le glaodh thu/.
+W:5. O/, tre/igfead mo charaid 's mo cha/irde gaoil,
+W: Is tre/igfead a maireann de mhna/ibh an tsaoil,
+W: Ni/ thre/igfead le m' mharthainn thu/, ghra/ mo chroi/,
+W: Go si/nfear i gcomhrainn faoi chla/r me/.X:
+
+X:255
+T:Se\'an is Sin\'ead (this is what I'll call it for now, anyway)
+S:irtrad-l, Henrik Norbeck, 6/97
+R:reel
+Z:id:hn-reel-519
+M:C|
+K:Amix
+e2dg eABd|(3efe dg dGBd|egdg eAAd|Bdgd BGBd:|
+cA~A2 cABd|cAAd BGBd|cA~A2 EAcA|BGBc dfed|
+cA~A2 cABd|cA~A2 gGBd|cA~A2 agfa|gfge defg||
+agae ceAf|gfgd Bdgb|agae ceAc|(3Bcd gd BAAa|
+eaae ceAf|gfge defg|afge fded|Bdgb afge||
+fedf eA~A2|gedf (3efg fa|fedf eAAd|(3BcB gb afge|
+fedf eA~A2|gedf (3efg fg|afge fded|Bdgb afgf||
+
+X:260
+T: Tuttle's Reel
+S: irtrad-l, 9/94, Dan Beimborn
+C: Trad.
+M: 4/4
+L: 1/8
+D: Kevin Burke, "Up Close", plain setting.
+K: Am
+G,|:A,DDE FEFG|AcGc AddG,|A,DDE F2 Ad|cAGE FDDG,|A,DDE FEFG|
+AcGc Adde|fddd dcAB|cAGE FD D :|
+A|:cddA c2 cA|cddA cAGA|ccdA cAGD|EEcE EDDA|cddA c2 cA|
+cddA c2 de|fddd dcAB|cAGE FD D :|
+
+X:265
+T: Tuttle's Reel
+S:irtrad-l, 9/94, Dan Beimborn
+C: Trad.
+M: 4/4
+L: 1/8
+D: Kevin Burke
+N: Ornamented Setting, for fiddle, Mandolin, Tenor Banjo
+K: Am
+|:{G,}A,DDE FEFG|AcGc (3Add D2|{G,}A,DDE (3EFF Ad|
+(3cAA GE FD D2|{G,}A,DDE FEFG|AcGc (3Add de|fd (3ddd dcAB|
+(3cBA GE {E}FD D :|
+A|:(3Add dA c2 +Ec+A|(3Add dA cAGA|(3ccc dA cAGD|
+(3EEE cE EDDA|(3Add dA c2 +Ec+A|(3Add dA +E2c2+ de|
+fd (3ddd dcAB|(3cBA GE {E}FD D :|
+
+X:270
+T:Music in the Glen
+S:irtrad-l, Ethan Hack, 10/94
+D:Bothy Band: "Old Hag You Have Killed Me"
+N:1st tune in the "Music in the Glen" Set
+M:C|
+K:G
+G2BG EGDC|B,DGB AGAB|cdec B2dB|cABG AGED|GABG EGDC|B'DGB AGAB|cdef g3e|
+[1dcBA G2(3DEF:|
+[2dcBA G3A|:G2dG eGdG|G2dB cAFA|G2dG eGde|gedB AGED|G2dG eGde|g2fg afdd|
+g2fg egdB|cABG AGED:|
+
+X:275
+T:??
+S:irtrad-l, Ethan Hack, 10/94
+D:Bothy Band: "Old Hag You Have Killed Me"
+N:2nd tune in the "Music in the Glen" Set
+M:C|
+K:Am
+d3e f2ed|cAGA cAGA|d3e f2ed|cAGE EDD2|dcde f2ed|cAGA cAGA|d3e f2ed|
+cAGE EDD2||c2gc acgc|c2gc eaag|c2gc acgc|edcd edd2|c2gc acgc|c2gc eaag|abag
+efed|cAGE EDD2||
+
+X:280
+T:Otter's Holt, The
+T:Poll an Madra Uisce
+S:irtrad-l, Ethan Hack, 10/94
+D:Bothy Band: "Old Hag You Have Killed Me"
+N:3rd tune in the "Music in the Glen" Set
+N:In Bulmer and Sharpley as "the Aughdarra"
+M:C|
+K:Bm
+fBBA FEFB|A2 FB ABde|fBBA FEFA|B2BA B2de|fBBA FEFB|A2FB ABde|f2af effe|
+[1dBAF B2de:|
+[2dBAF B3A|:d3f a2fa|bfaf effe|d3f a2fa|bfaf e2fe|d3f a2fa|bfaf efde|fBBA FEFA|
+ABBA B3a:|
+
+X:285
+T:Rolling in the Barrel
+S:irtrad-l, J. Walsh, 10/94
+H:Paddy Canny and P.J. Hayes
+R:reel
+E:7
+I:speed 350
+M:C|
+K:ADor
+E2~E2 BE~E2|B2 AF DEFD|E2~E2 BE ~E2|B2Ac BEED|\
+E2~E2 BE~E2|B2 AF DEFD|E2~E2 BE ~E2|B2Ac BE~E2||
+e2 (3gfe be (3gfe|d3f a2fd|e2(3gfe be (3gfe|dBAc BE~E2|\
+e2(3gfe be (3gfe|d3f a2fd|efge fdeB|(3dcB Ac BE~E2||
+
+X:290
+T:Kiss the Maid Behind the Barrel
+S:irtrad-l, J. Walsh, 10/94
+H:Seamus Ennis
+Z:the notation "J" means to slide up into the following note
+R:reel
+E:7
+I:speed 350
+M:C|
+K:G
+DG~G2 AFGE|DG~G2 cAFA|DG~G2 AG~G2|defd cAFA|\
+DG~G2 AFGE|DG~G2 cAFA|DG~G2 AG~G2|defd cAFA||
+dg~g2 afge|dg~g2 ag (3.f.g.e|d^cde Jfefe|defd cAFA|\
+dg~g2 afge|dg~g2 bgfg|abag (3.f.g.f ef|dfeg fdcA||
+~G2dG BGdG|~G2dB cAFA|~G2 dG BGdG|defd cAFA|\
+~G2dG BGdG|~G2dB cAFA|G3B A3c|defd cAFA||
+B2BG A2AG|BABc dedc|~B3G A2Bc|defd cAFA|\
+JB2 BG (3.A.B.A AG|BABc dedc|~B3G A2Bc|defd cAFA||
+
+X:295
+T:Flogging, The
+S:irtrad-l, J. Walsh, 12/94
+I:speed 350
+R:reel
+Z:piper's version
+M:C|
+K:G
+BG~G2 (3BAG dG|BG~G2 (3.B.cd gd|BG~G2 (3BAG dB|AFDF AB (3cBA|
+BG~G2 ~G2~G2|BG~G2 (3.B.cd gd|BG~G2 (3BAG dB|AFDF AB (3cBA||
+|~g3d BGBd|~g3e faa2|~g3d BGdB|AGFG AB (3cBA|
+|~g3d BG(3Bcd|~g3e faa2|(3bag af (3.g.fe dB|AFDF AB(3cBA||
+|(3.B.c.d gd (3.B.c.d gd|(3.B.c.d gd BG~G2|(3.A.c.A fd (3.A.c.A
+fd|(3.A.c.A fc AF~F2 |
+|(3.B.c.d gd edgd|(3.B.c.d ef ~g3 a|(3bag af (3.g.fe dB|AFDF AB (3cBA||
+
+X:300
+T:Dom Oiche Ud I mBeithil
+S:irtrad-l, J. Walsh, 12/94
+R:air
+M:3/4
+K:D
+F2|B4d2|c4 BA|B6-|B2 z2 Bc|d3e f2|c4 B2|A6-|A2 z2 F2|B4d2|c4 BA|B6-|B2 z2
+c2|d3 ef2|c4 B2|B6-|B2z2 f|
+a4 f2|e4 fa|b6-|b2 z2 b2|a4 fe|d4 e2|f6-|f2 z2 F2|B4d2|c4 BA|B6-|B2 z2
+Bc|d3 ef2|c4 B2|B6-|B2 z2 ||
+
+X:305
+T:Atholl Highlanders
+S:irtrad-l,Dan Mozell, 1/95
+C:Traditional
+S:Fiddler's Fakebook
+M:6/8
+L:1/8
+K:A
+e3 ecA|ecA Bcd|e2
+L:1/16
+ee
+L:1/8
+ecA|Bcd cBA|e
+L:1/16
+ee
+L:1/8
+ecA|ecA Bcd|
+L:1/16
+(3efga2e2
+L:1/8
+fed|cdB A3:|
+|:Ace Ace|Adf Adf|Ace Ace|Bcd c2
+L:1/16
+(3BcB|
+L:1/8
+Ace Ace|Adf Adf|
+L:1/16
+(3efga2e2
+L:1/8
+fed |cdB A3 :|
+|:e2 c aec|aec Bcd|ecc aec|Bcd cBA|ecc acc|acc Bcd|
+L:1/16
+(3efga2e2 {g} f2e2d2 |[1c2d2B2 A6:|[2 c2d2B2 A4B2|:
+L:1/8
+c3 cBA|d2e {g} fed|c2 e cBA|=G2 A BAG|A2 c cBA|
+d2 e {g} fed|
+L:1/16
+(3efga2e2
+L:1/8
+{g} fed|[1 cdB A2 B:|[2 cdB A3|
+
+X:310
+T: Martin Talty's
+T: McGreavy's
+S: irtrad-l, L. Mallette, 1/95
+C: Attributed to Martin Talty (notes to Front Hall Records 018)
+M: 6/8
+S: Bulmer and Sharpley's Music From Ireland, volume 4, tune 57
+S: (McGreavy's), from the playing of fiddler Jimmy McHugh
+N: Not sure where the title McGreavy's originated.
+O: Irish
+R: DJ
+I: flute/whistle players can substitute an E for the low B in
+I: measures 2 and 6.
+K: G
+A|B2e dBA|BAG EDB|DEG Bed|BAG ABd|
+|e/f/ge dBA|BAG EDB|DEG Bed|BAF E2:|
+B|e2f gfe|beg fed|Bde gfg|ged e2f|
+|g2f edB|AFD FGA|dc/d/e fed|BAF E2:|
+
+X:315
+T:Tom ?
+C:Aly Bain?
+S:irtrad-l, C.Walshaw, 2/95
+M:C|
+K:G
+A|B3c dcBA|GABG D4|cBcd edcB|AGFE D3A|\
+B3c dcBA|GABG D3G|EGEG FDFA|G2GF G3:|
+z|d2Bd gagf|eccB c2AB|c2Ac abag|fdd^c d2B=c|\
+d2Bd gagf|eccB c4|d2Bd cAFG|AGGF G3||
+
+X:320
+T:Morning Thrush, The
+S:irtrad-l, Andrew Pickering, 2/95
+C:James Ennis
+M:4/4
+K:D
+fag|f2ef d2AF|AdAF A2fe|dAAF dFF2|ABdf e2fe|
+dAAF dAAF|BAFA dADE|EDFA defa|afef d::
+ABc|dcde faaf|g3e fgfe|dcde faaf|gafg eAce|
+dcde faa2|bfaf efdB|BAFA defa|afef d::
+ABC|dAAF BAFA|D3F AFF2|dFFE F2AF|ABdf e2fe
+|dAAF dAAF|BAFA dADE|EDFA defa|afef d:|]
+
+X:325
+T:Jig of Slurs
+S:irtrad-l, Wil Macaulay, 2/95
+C:Trad.
+H:from Karen Light
+M:6/8
+K:D
+B|Add dcd|Bdd Add|Bdd Add|Bee edB|Add dcd|Bdd Add|Bdd cde|fdd d2 :|
+B|Aff fef|aff fed|Bee ede|fed edB|Aff fef|aff fed|Bdd cde|fdd d2 :|
+B|Ggg gfg|agf gdB|Ggg gfg|agf g2B|Ggg gfg|agf ged|Bee efg|fed e2 :|
+B|GBB Bdd|dee edB|GBB Bdd|dee efg|GBB Bdd|dee edB|Bee efg|fed e2 :|
+
+X:330
+T:Moving Cloud
+S:irtrad-l, C. Walshaw, 4/95
+H:Flute players (e.g. Matt Molloy) normally play this in G. It's
+H:in Bulmer's & Sharpley in both keys.
+M:4/4
+K:F
+|: CFAF DFBF | CFAF GFDF | GB~B2 Acfa | gfdc AGFD |
+| {C}F3C ^C3=C | CFAF GFDF | GABc defd |[1 cAGA F3D :|[2 cAGA FGAB |
+|: ~c2gc acgc | ~c2ac gcdc | ~d2ad =bdad | =bagf agfd |
+| ~c2gc acgc | ~c2ac gc~c2 | =bagf agfd | caga f3d :|
+
+X:335
+T:McFarley's
+S:irtrad-l, C.Walshaw, 4/95
+D:Paddy Glackin - In Full Spate
+D:Altan - Harvest Storm
+M:4/4
+L:1/8
+E:7
+K:D
+(3ABc|d~D3 EDB,D|D2FA BAFA|dDcD BDAD|D2FA BAFA|\
+d~D3 EDB,D|D2FA BAFA|(3Bcd ec dBAF|EDEF D2:|
+ag|fgab afdg|fdad bdaf|efga ge=cf|e=cgc acge|\
+fgaf bfaf|gfeg fdBc|defd edBd|AFEF D2:|
+
+X:340
+T:John Doherty's
+S:irtrad-l, C.Walshaw, 4/95
+D:Altan - Island Angel
+C:Trad.
+E:7
+M:4/4
+L:1/8
+K:D
+F2FE FGAB|Addc d2 (3efg|fded cA (3Bcd|cAGE EDD2:|\
+f2ed cAAg|fdec dfag|~f2ed cA(3Bcd|cAGE EDD2:|
+
+X:345
+T:Bean Dubh An Ghleanna
+T:Dark Woman of the Glen
+N:IrTrad, 6/99
+M:4/4
+L:1/8
+Q:70
+S:Seamus Ennis
+R:Air
+Z:Paul Kinde
+K:G
+D|G>AB>c d>>B G3 B/2d/2|g4 a/2g/2e/2f/2 d3 c/2A/2 B4|!
+G3 A/2B/2 cB A4 A/2G/2F/2A/2 G6:|(3def g4 (3feg a4|!
+(3bba g4 (3aag f/2 d2 c/2A/2 B4|G3 B/2d/2 g4 (3efg a4|!
+bc' b2 a2 g4|(3aag f/2 d2 c/2A/2 B>cAF G4|!
+(3ABd|g4 a/2g/2e/2f/2 d4 c/2A/2 B4|!
+G4 A/2B/2 cB A4|A/2G/2F/2A/2|G6||!
+
+
+X:350
+T:Diplodocus, The
+R:Double Jig
+N:IrTrad, 6/99, Jeffrey Myers <jmyers@GOUCHER.EDU>
+C:Liz Carroll
+D:Trian, _Trian_
+M:6/8
+L:1/8
+K:AMix
+A2B||:cAA edB|cAA ABc|dff ~g3|aee fed|
+cAA BAG|EAA AGE|DFF G2A|1 BAA A2B:|2 BAA A2e||
+efe e2d|cAB AGE|~G3 GEF|GAG FED|
+efe e2d|cAB AGE|DFF G2A|BAA A2e|
+efe e2d|cAB AGE|~g3 gef|gag fed|
+efe e2d|cAB AGE|DFF G2A|BAA Afg|
+||:aAA Aaf|~g3 efg|fdd def|~g3 efg|
+aAA Aaf|~g3 efg|fdd e2d|1 cAA Afg:|2cAA A2B||
+
+X:355
+T:Red Jacket, The
+C:Rick Gagne, 1986
+D:Dun Creagan, The 80s Live
+N:IrTrad, 6/99, Rick Gagne and Elise Morse-Gagne N:<Morse.Gagne@CONNRIVER.NET>
+M:6/8
+L:1/8
+R:Jig
+K:Ddor
+DE |: FDD A2A | c2 c BAG | ADD DEF | GEE CEE |
+FDD A2A | c2 c BAG | A2D DEF |1 GEC D2E :|2 GEC DFA ||
+d2d ded | cAA ABc | d2d de^f | g^fg a2g |
+^fed de^f | e^cA AGF | GAB BAG |1 AFD DFA :|2 AFD D3 ||
+
+X:360
+T:Martin Wynne's #1
+N:IrTrad, 6/99, Jeffrey Erickson <jeerickson@DAVIDSON.EDU>
+M:4/4
+L:1/8
+Q:200
+C:Martin Wynne
+S:Martin Mulvihill, First Collection
+R:reel
+K:D
+dB|:AF {G}(3FEF GE {F}(3EDE|F2 AF EFDB,|A,B,DE FEFG|ABde {g}fedB|
+AF {G}(3FEF GE {F}(3EDE|F2 AF EFDB,|A,B,DE FEFG|ABde fdd2:|
+|:dfaf gbeg|fgdf edBd|(3dcB AF DEFA|ABde fe e2|dfaf (3gfg ag|fgdf edBd|
+(3dcB AF DEFA|ABde fd d2:|
+
+X:365
+T:Martin Wynne's #1a
+N:IrTrad, 6/99, Jeffrey Erickson <jeerickson@DAVIDSON.EDU>
+M:4/4
+R:reel
+D:Bothy Band: Out of the Wind, Into the Sun
+Z:id:hn-reel-210
+K:D
+AF~F2 GE~E2|DFAF EFDB,|A,B,DE ~F3B|ABde fedB|
+AF~F2 GE~E2|DFAF EFDB,|A,B,DE ~F3B|1 ABde fddB:|2 ABde fede||
+|:f2af gfeg|fedf edBc|dBAF DEFB|ABde fede|
+f2af gfeg|fedf edBc|dBAF DEFB|1 ABde fdde:|2 ABde fedB||
+
+X:370
+T:Martin Wynne's #2
+N:IrTrad, 6/99, Jeffrey Erickson <jeerickson@DAVIDSON.EDU>
+M:2/2
+L:1/8
+Q:200
+C:Martin Wynne
+S:Martin Mulvihill, First Collection
+R:reel
+K:BMin
+|:BA|FBAF E2 FE|DB, {D}(3B,A,B, DB,A,2|B,E {F}(3EDE FEDE|FABc dcBA|
+FBAF EGFE|DB, {D}(3B,A,B, DB, A,2|B,E {F}(3EDE FEDE|FB{c}BA B2:|
+|:BA|FBAF A3 d|(3Bcd eg fdde|f2 af e2 fe|dBAd BAFE|
+(3Bcd AF A3 d|(3Bcd eg fdde|f2 af e2 fe|dBAd B2:|
+
+X:375
+T:Martin Wynne's #2a
+N:IrTrad, 6/99, Jeffrey Erickson <jeerickson@DAVIDSON.EDU>
+M:C|
+L:1/8
+Q:240
+C:Martin Wynne
+R:Reel
+A:Co. Sligo
+K:D
+F3 D ~E2 FE | DB,~B,2 DB,A,D | B,E~E2 FEDE | FB{d}Bc dcBA |
+FBAF ~E2 FE | DB,EB, DB,A,D | B,E~E2 FEDE | FB{d}BA B3 A :||:
+FBAF A2 FA | (3Bcd eg fdde | ~f2 af egfe | dfed BAFE |
+~F2 BF A2 dA | (3Bcd eg fdde | ~f2 df egfe | dBAF B3 A :||
+
+X:380
+T:Martin Wynne's #2b
+N:IrTrad, 6/99, Jeffrey Erickson <jeerickson@DAVIDSON.EDU>
+M:2/2
+L:1/8
+Q:200
+C:Martin Wynne
+S:unknown, via Brian Conway
+R:reel
+K:BMin
+|:BA|FBAF EGFE|DB, {C}(3B,A,B, DB,A,=C|B,E {F}(3EDE FEDE|FABc dcBA|
+FAFA E2 FE|DB, {C}(3B,A,B, DB,A,=C|B,E {F}(3EDE FEDE|FB {c}BA B2:|
+|:BA|FBAF A2 dA|Bcde fdde|f2 af egfe|dfed BAFE|
+FBAF A2 dA|Bcde fdde|{g}(3fef fd {f}(3ede ec|dBAF B2:|
+
+X:385
+T:Martin Wynne's #3
+N:IrTrad, 6/99, Jeffrey Erickson <jeerickson@DAVIDSON.EDU>
+M:4/4
+L:1/8
+Q:200
+C:Martin Wynne
+S:unknown, via Brian Conway
+R:reel
+K:G
+|:Bc|dged BdAc|BG {A}(3GFG DEGA|BG {A}(3GFG Bdef|gbaf gfec|
+dged BdAc|BG {A}(3GFG DEGA|BG {A}(3GFG Bdef|gbaf g2:|
+|:(3Bcd|g2 gf gfec|dged BGBd|g2 fa gfec|dega bg {a}(3gfg|
+gbaf gfec|dged BGBd|g2 fa gfed|ceaf g2:|
+
+X:390
+T:Martin Wynne's (#4,Maybe?)
+N:IrTrad, 6/99, Rick Gagne<Morse.Gagne@CONNRIVER.NET>
+N:Rick sez,'There's another D reel which I think of as
+N:"Martin Wynne's", though I can't remember where I
+N:learned it, or where I got that name.'
+M:4/4
+L:1/8
+R:Reel
+K:D
+D2FD A,DFD | E2GE B,EGE | Ddcd BAFD | E2EF EDB,C, | D2FD A,DFD |
+E2GE B,EGE | Ddcd BAFD |1 EDC,E D2A,B, ||2 EDC,E DEFA :||
+B2BA B2Bc | d2cd BAF^G | A2cA EAcA | ABce aecA | B2BA B2Bc |
+d2cd BAFE | DEFA dfec |1 dBAF EFGA ||2 dBAF EGFE :||
+
+X:395
+T:Paddy Cronin's
+N:IrTrad, 6/99
+M:6/8
+S:Charlie Harris, Willie Clancy Summer School 1998
+R:jig
+Q:120
+L:1/8
+K:G
+G|:EAA ABd|ege dBA|GEF G2B|dBA GED|
+EAA ABd|ege def|g2d efg|1 dBG A2G:|2 dBG A2d
+|:eag e2d|eaa bag|efg d2g|eaf ged|
+eag e2d|eaa bag|efg edB|1 BAG A2d:|2 BAG A3||
+
+X:400
+T:Echo, The
+N:IrTrad, 6/99
+M:4/4
+S:Charlie Harris, Willie Clancy Summer School 1998
+R:hornpipe
+Q:170
+L:1/8
+K:D
+(3ABc|:dAFA D2 FA|dfec dcBc|A2 ce A2 ce|faec dcBA|
+dAFA D2 FA|dfec dcBA|gfgb afdf|1 eABc d2 (3ABc:|2 eABc d2 Bc|
+|:dg (3gfg bg (3gfg|dgbg agfa|A2 ce A2 ce|faec dcBA|
+dg ~g2 bg ~g2|dgbg agfa|gfgb afdf|1 eABc d2 Bc:|2 eABc d4||
+
+X:405
+T:Tripping to the Well
+N:IrTrad, 6/99
+S:Charlie Harris, Willie Clancy Summer School 1998
+R:polka
+M:2/4
+Q:220
+L:1/8
+K:G
+D|:G>A BG|EG ED|G>A Bd|BA A2|G>A BG|EG ED|dB D/E/G/A/|1 BG GD:|2 BG G2||
+|:dB G>A|BG ED|dB G/F/G/A/|BA A2|dB G>A|BG ED|dB D/E/G/A/|BG G2||
+
+X:410
+T:Paddy Cronin's
+N:IrTrad, 6/99
+M:4/4
+L:1/8
+S:Christy Dunne: "Pluckin Good"
+R:R
+K:D
+d2fd Adfd|(3ddd fa gecA|d2fd Adfd|eA (3Bcd egfe:|(3aaa ab afdf|a2af gede
+|(3aaa ab afdf|eA (3Bcd egfe|(3aaa ab afdf|a2af gede|afge fdec|A2 (3Bcd
+egfe||d4
+
+X:415
+T:Honeymoon Reel, The
+N:IrTrad, 6/99
+M:4/4
+S:Charlie Harris, Willie Clancy Summer School 1998
+R:reel
+L:1/8
+K:G
+dc|:BG G2 DG G2|Bded gedc|BG G2 DG G2|BedB A2 dc|
+BG G2 DG G2|Bdef g3 a|bgaf gfed|1 (3efg dB A2 dc:|2 (3efg dB A2 Bd|
+|:(3ege dg edBA|(3Bcd ef gedc|BG G2 DG G2|BedB A2 Bd|
+(3ege dg edBA|(3Bcd ef g3 a|bgaf gfed|1 egdB A2 Bd:|2 egdB A4||
+
+X:420
+T:Munster Jig, The
+N:IrTrad, 6/99
+M:6/8
+S:Charlie Harris, Willie Clancy Summer School 1998
+R:jig
+Q:120
+L:1/8
+K:G
+D|:~G3 AGA|~B3 gdB|GAB cBA|BGE EDE|
+~G3 AGA|~B3 gdB|cBA (3BcdB|1 AGG G2D:|2 AGG G2f
+|:gfg efg|eag edB|gfg efg|afd d2f|
+gfe agf|gfe fdB|cBA (3BcdB|1 AGG G2f:|2 AGG G3||
+
+X:425
+T:Hennessey's
+N:IrTrad, 6/99
+M:4/4
+S:Charlie Harris, Willie Clancy Summer School 1998
+R:hornpipe
+Q:140
+L:1/8
+K:G
+Bc|:dBGB cAFA|GB (3AGF GABc|dgfg efge|dBGB A2 Bc|
+dBGB cAFA|GB (3AGF GABc|dgfg ecAF|GB (3AGF G2 Bc:|
+|:dgfg efge|dgfg edBc|dgfg bgeg|dBGB A2 Bc|
+dBGB cAFA|GB (3AGF GABc|dgfg ecAF|1 GB (3AGF G2 Bc:|
+[2 GB (3AGF G4||
+
+X:430
+T:Donegal Reel, The
+M:4/4
+S:Charlie Harris, Willie Clancy Summer School 1998
+R:reel
+L:1/8
+K:D
+A,|:D2 DE FDFA|dFAF BFAF|E3 F GFGA|(3Bcd AF EGFE|
+D3 E FDFA|B~F3 ABde|fgef dBAG|1 (3FAF EF D3 A,:|2 (3FAF EF D3 A|
+|:defg afdf|afdf a3 g|edef gfed|cdef g2 fe|
+defg afdf|afdf abag|(3faf ef dBAG|1 (3FAF EF D3 A:|2 (3FAF EF D4||
+
+X:435
+T:Leitrim Jig (Charlie Harris')
+T:Charlie Harris' Leitrim Jig
+N:IrTrad, 6/99
+M:6/8
+S:Charlie Harris, Willie Clancy Summer School 1998
+R:jig
+Q:140
+L:1/8
+K:G
+dcA G2G|AGF G2B|dcA G2G|Ade f2e|
+dcA G2G|AGF G2D|GBd g2g|ded cAF:|
+def g2g|agf g2g|def g2g|ded cAF|
+def g2g|agf g2a|bag agf|ded cAF:|
+
+X:440
+T:Martin Byrne's Waltz (A)
+N:IrTrad, 6/99. There is a (later?) version played as a
+N:march, (well known, Scottish)known as
+N: "Wi' A Hundred Pipers"
+M:3/4
+L:1/8
+Q:120
+D:"Last Night's Fun"  Sherburn & Bartley
+R:Waltz
+K:A
+|:|{e}c3 E E>c|cE eE cE|F<A F>E C>E|A,4 a>f|!
+e2 c2 c>d|c3 e (3dcB|AB c<e- e>d| c>A B2 A>B|!
+c3 E E>c|cE eE cE|F<A F>E C>E|A,4 a>f|!
+e>a (3fed c>A|B4 (3dcB|A4 A>B|1A4 (3BAB:|2A4 (3Bcd|!
+e2 c2 A2|{ef}e2 c2 A2|{a}f2 a2  a>b|a2  a>b af|!
+e2 c2 c>d|c3 e (3dcB|AB c<e- e>d|c>A B2 c (3B/2c/2d/2|!
+e2 c2 A2|{ef}e2 c2 A2|{a}f2 a2 a>b|a2 a>b a>f|!
+e>a (3fed c>A|B4 (3dcB|A4 {c}A>B|A4 (3Bcd|!
+e2 c2 A2|{ef}e2 c2 A2|{a}f2 a2 a>b|a2 a>b af|!
+e2 c2 c>d|c3 c/2e/2 c>B|A>B c>B A>F|E>D E3 d|!
+e2 c2 A2|{ef}e2 c2 A2|{a}f2 a2 a>b|a2 a>b a>f|!
+e>a (3fed) c>A|B4 (3dcB|A4 {c}A>B|A4||!
+
+X:445
+T:Marseillaise Hornpipe
+N:IrTrad, 6/99. Jeffrey Erickson stated: "I'm not saying
+N:it's a favorite, and it surely isn't good music, but a
+N:while back, in a fit of madness or maybe indigestion,
+N:I wrote it"(Quote from IrTrad-L)
+M:4/4
+L:1/8
+Q:160
+C:C. J. Rouget de Lisle, with help(?) from J. Erickson
+R:hornpipe
+K:GMaj
+(3DEF|: GF GB AF Ac|(3ddd dB GG BG|E2 (3cBd c2 AF
+|1 G2 {A}GF G2 (3DEF :|2 G2 {A}GF G2 (3dcA||
+B2 {c}BA BG (3dBG|BA (3A^GB A2 AB|c2 {d}cB ce dc|
+(3BBc (3BGE D2 (3d^ce|dD GB dD (3GFE|D2 {E}D^C D2 D/2E/2F/2G/2|A2 (3BA^G
+AD (3DEF|G2 {A}GF G2||
+
+X:450
+T:Larry Redican's Bow
+N:IrTrad, 6/99
+C:Larry Redican
+R:reel
+D:Dervish: "The Boys of Sligo"
+D:Seamus Connolly: "Notes from my Mind"
+Z:id:hn-reel-224
+M:C|
+K:D
+D2FD A,DFD|E2GE B,EGE|D2dA BAFA|GEFD EGFE|
+D2FD A,DFD|E2GE B,EGE|D2dA BAFA|GECE D4:|
+|:~B3A ~B3c|dBBA BdcB|cA~A2 fAec|ABce fcec|
+~B3A B2Bc|dBBA ~B3c|1 dBcA BAFA|Bcde fcec:|2 dBcA BAFE|FADE FEEF||
+
+X:455
+T:Rory O'More
+T:Good Omens
+N:IrTrad, 6/99
+D:Peter Wyper, Melodian, 78rpm (~1908)
+Z:Nigel Gatherer
+M:6/8
+L:1/8
+K:D
+B|ADD FED|ADD D2B|ADD FED|CEE E2B|ADD FED|
+FGA BAG|FAA ABc|dDD D2::A|dcB AGF|GFE D2A,-|A,DD EDE|
+FBB B2c|dcB AGF|GFE D2A,-|A,DD EDE|FDD D2:|]
+
+X:460
+T:Connachtman's Rambles
+N:IrTrad, 6/99
+D:Peter Wyper, Melodian, 78rpm (~1908)
+Z:Nigel Gatherer
+M:6/8
+L:1/8
+K:D
+A|FAA dAA|BAB dAA|FAA Afe|dBB BAG|FAA dAA|
+BAB def|gfe f2e|dBB B2::A|Bbb faa|fbb afe|
+fbb faa|fef A2e|fbb faa|fbb afe|fef agf|edc B2:|]
+
+X:465
+T:Unknown Irish Jig
+D:Peter Wyper, Melodian, 78rpm (~1908)
+N:IrTrad, 6/99
+Z:Nigel Gatherer
+M:6/8
+L:1/8
+K:D
+A|DFF DFF|EGG EGG|FAA dcd|fee ecA|DFF DFF|EGG EGG|
+FAd cBc|1edd d2:|2edd dcd||f3 d3|eee e3|g3 c3|ddd d3|
+f3 d3|eee e3|g3 c3|ddd dcB|A3 F2G|A3 F2G|
+AFA dAd|fed cBA|G3 E2F|GAG E2F|GBA AFE|DDD D2|]
+
+X:470
+T:Auchadon Hoose
+T:Auchadon House
+N:irTrad, 6/99
+D:Joe Ryan, "An Buchaille Dreoite"
+Z:Paul de Grae <sullgrae@IOL.IE>
+M:2/4
+L:1/8
+Q:1/4=50
+R:march
+O:Shetland
+K:G
+GB/G/ DG/D/ |B,/C/ D/B,/ G,A/B/ | cBAG | E2 EF |
+GB/G/ DG/D/ | B,/C/D/B,/ G,A/B/ | c/B/c/e/ dF |1 G2 GD :|2 G2 Ge/f/ |:
+gfed | ed B>d | cBAG | E2 EF | GB/G/ DG/D/ |
+B,/C/D/B,/ G,A/B/ | c/B/c/e/ dF |1 G2 Ge/f/ :|2 G2 G2 ||
+
+X:475
+T:no name Nr. 1 in Raheen Medley
+N:IrTrad, 6/99
+M:4/4
+L:1/8
+S:Patrick Street
+R:reel
+D:Life from Patrick Street
+Z:Barney Koepke
+K:G
+B|cA BG A3 B|cA BG AG ED|G3 GzA Bc|dB GB d3 B|
+cA BG A3 B|cA BG AG ED|Ae ef ga ge |dB GB A2 AB|
+(3cBA BG A3 B|(3cBA|BG AG ED|G3 GzA Bc|dB GB d3 B|
+cA BG A3 B|cA BG AG ED|Ae ef ga ge |dB GB A2 (3Bcd||
+ea ab a2{b} ag|ed ef gd dd|ed ef g2{a} gf|ed ef ge df|
+ea ab a2 ag|ed ef gd dd|ed ef ga ge|dB GB A2  (3Bcd|
+ea ab a2{b} ag|ed ef gd dd|ed ef g2{a} gf|ed ef ge df|
+ea ab a2 ag|ed ef gd dd|ed ef ga ge|dB GB A3 B||
+(3cBA BG A3 B|(3cBA|BG AG ED|G3 GzA Bc|dB GB d3 B|
+cA BG A3 B|cA BG AG ED|Ae ef ga ge |dB GB A2 AB|
+(3cBA BG A3 B|(3cBA|BG AG ED|G3 GzA Bc|dB GB d3 B|
+cA BG A3 B|cA BG AG ED|Ae ef ga ge |dB GB A2 (3Bcd||
+ea ab a2{b} ag|ed ef gd dd|ed ef g2{a} gf|ed ef ge df|
+ea ab a2 ag|ed ef gd dd|ed ef ga ge|dB GB A2  (3Bcd|
+ea ab a2{b} ag|ed ef gd dd|ed ef g2{a} gf|ed ef ge df|
+ea ab a2 ag|ed ef gd dd|ed ef ga ge|dB GB A3 B||
+
+X:480
+T:Trip to Cullenstown,The
+N:IrTrad, 6/99
+M:4/4
+L:1/8
+S:Patrick Street
+R:reel
+D:Life from Patrick Street
+Z:Barney Koepke
+K:G
+(3ABc|:d2 de dB GA|B2 BG AG EG|Bd de dB GA|BA AG A3 c|
+Bd ~d2 e2 dB|d2 dB AG ED|~B3 G AG EG|
+1 DG GF GA Bc:|2 DG GF G3 A||
+Bd ~d2 ce ~e2|d2 de dB GA|Bd ~d2 ed ~d2|ge dB A3 c|
+BG Bd e2 dB|d2 dB AG ED|~B3 G AG EG|
+1 DG GF G3 c:|2 DG GF G2 (3ABc||
+d2 de dB GA|B2 BG AG EG|Bd de dB GA|BA AG A3 c|
+Bd ~d2 e2 dB|d2 dB AG ED|~B3 G AG EG|
+1 DG GF GA Bc:|2 DG GF G3 A||
+Bd ~d2 ce ~e2|d2 de dB GA|Bd ~d2 ed ~d2|ge dB A3 c|
+BG Bd e2 dB|d2 dB AG ED|~B3 G AG EG|
+1 DG GF G3 c:|2 DG GF G4||
+
+X:485
+T:no name Nr. 3 in Raheen Medley
+N:IrTrad, 6/99
+M:4/4
+L:1/8
+S:Patrick Street
+R:reel
+D:Life from Patrick Stree
+Z:Barney Koepke
+K:D
+D2 DF ED B,A,|D2 DE FA A2|Be ef e2 de|~f2 ed BA FE|
+(3DED DF ED B,A,|D2 DE FA A2|Be ef e2 dB|
+1 AF EF D2 FE:|2 AF EF D4||
+AB de f2 fa|af df ed BA|AB de fe df|af df e2 dB|
+AB de f2 fa|af df ed BA|dc dB Ad dB|
+1 AF EF D4:|2 AF EF D2 FE||
+D2 DF ED B,A,|D2 DE FA A2|Be (3eee e2 de|~f2 ed BA FE|
+(3DED DF ED B,A,|D2 DE FA A2|Be ef e2 dB|
+1 AF EF D2 FE:|2 AF EF D4||
+AB de f2 fa|af df ed BA|AB de fe df|af df e2 dB|
+AB de f2 fa|af df ed BA|dc dB Ad dB|
+1 AF EF D4:|2 AF EF D4-||D4
+
+X:490
+T:Tom Billy's Reel
+T:O'Keefe's Plow
+R:Reel
+N:IrTrad, 5/99
+Z:Roger Landes
+M:C|
+L:1/8
+K:D
+dcdA BAFB|AF F/2F/2F EFDE|F/2F/2F AF G/2G/2G BG|ABde fdec|d/2d/2d dA BAF
+B|AF F/2F/2F/2 EFDE|F/2F/2F AF G/2G/2G BG|1ABde fe e/2e/2e:|2ABde fdde||
+fa a/2a/2a afdf|g/2g/2g fg edBd|fa a/2a/2a bafd|ABde fe e/2e/2e|fa a/2a/
+2a afdf|g/2g/2g fg|{f}edBA|F/2F/2F AF G/2G/2G BG|
+1ABde fe e/2e/2e:|2ABde fdec||
+
+X:495
+T:Aikendrum Polka, The
+C:Rick Gagne, 1997
+N:IrTrad, 6/99
+R:polka
+M:2/4
+L:1/8
+K:D
+fg|:~a2 af|gb bg|fd df|ec AG|FA df|gB Bg|fd ec|1 de fg:||2 d2 dB||
+~A2 Ag|fd df|eA Ag|fd dB|~A2 Ag|fd df|eA gf|1 d2 dB:||2 de fg||
+
+X:500
+T:Big Reel of Ballynacally, The
+T:R\'il Mh\'or
+T:Big Reel, The
+N:IrTrad, 6/99
+R:reel
+D:Solas: Sunny Spells and Scattered Showers
+Z:id:hn-reel-801
+M:C|
+K:G
+DG~G2 A2dc|AGFG AGFG|DG~G2 A2dc|AGFG =F3E|
+DG~G2 A2dc|AGFG ABcA|d2de fd~d2|dedc AG~G2:|
+|:g2dg ~g2dg|g2ag fdef|g2fg ~a3g|fdcA BGBd|
+g2fg a=f~f2|=fgfd ~e3c|d2de ^fedc|AGFG AG~G2:|
+
+X:505
+T:Bridge Over the River Ash
+M:2/8
+L:1/8
+Q:200
+N:Fiddle-L, 6/99
+K:G
+d/2d3[|g4|f4|e4|d2ef|g2d2|B2c2|{ABA}AG2|F2D2|
+g4|f4|e4|d2ef|g2A2|^c2d2-|d4-|dd/2d3|
+g4|f4|e4|d2ef|g2d2|B2c2|{ABA}AG2|F2D2|
+g4|f4|e4|d2ef|g2A2|^c2d2-|d4-|dAA2|]
+[|c4|B4|d2AB|cAB2|g2AB|cAB2|D2d2-|ddd2|
+c4|B4|{f}g2f2|e2d2|c2B2|A2G2-|G4-|1G2DD2:|2G4|]
+d4|a4|
+K:D
+[|f3f|g2b2|z2B2|c2A2||~d2cd|~e2de|~f2ef|~g2ea|A2e2|d{ed}ec2|A4|e4|
+K:A
+[|c3c|d2f2|z2F2|G2E2|~A2GA|~B2AB|~c2Bc|~d2Be|E2B2|A{BA}AG2|
+M:3/4
+Q:280
+Ad2cBE|Be2dcA|
+M:2/8
+Q:550
+K:D
+~d2cd|~e2de|~f2ef|~g2ea|A2e2|d{ed}ec2|d4|.a3z|
+[|f3f|g2b2|z2B2|c2A2||~d2cd|~e2de|~f2ef|~g2ea|A2e2|d{ed}ec2|A4|e4|
+K:A
+[|c3c|d2f2|z2F2|G2E2|~A2GA|~B2AB|~c2Bc|~d2Be|E2B2|A{BA}AG2|
+M:3/4
+Q:280
+Ad2cBE|Be2dcA|
+M:2/8
+Q:450
+K:D
+~d2cd|~e2de|~f2ef|~g2ea|A2e2|d{ed}ec2|d4|.d'3z|]
+
+X:510
+T:Colonel Frazer
+N:IrTrad, 6/99
+R:reel
+D:Johnny Doran
+D:Conal O'Grada: The Top of Coom
+Z:id:hn-reel-553
+M:C|
+K:G
+dc|:BGAF DG~G2|AF~F2 ABcA|BGAF GBdg|fdcA dBcA|
+BGAF DG~G2|AF~F2 ABcA|BGAF GBdg|1 fdcA G2dc:|2 fdcA G2Bc||
+|:dggf g2ag|fddc ABcA|dggf g2ag|fdcA GABd|
+~g3f d2dc|~B3G ~A3F|GBAc (3Bcd eg|1 fdcA G2Bc:|2 fdcA G2GA||
+|:Bd~d2 BGdB|AF~F2 ABcA|Bd~d2 BcdB|cAFG AG~G2|
+Bd~d2 BGdB|AF~F2 ABcA|GBAc Bdeg|fdcA G2GA:|
+|:B2GB ~B2GB|A2FA ~A2FA|B2GB ~B2GB|cAdc AGGA|
+B2GB GBGB|A2FA FAFA|GBAc (3Bcd eg|fdcA G2GA:|
+|:(3Bcd gd (3Bcd gd|Adfd Adfd|Bdgd Bdgd|cAdc AG~G2|
+[1 Bdgd Bdgd|Adfd gdfd|GBAc Bdeg|fdcA G2GA:|
+[2 Bdga agdA|F2Ad fdAF|GBAc Bdeg|fdcA G2dc||
+"variations"
+|:BG~G2 DG~G2|ABcA dBcA|BGAF G2 (3efg|fdcA dBcA|
+BG~G2 DG~G2|AF~F2 (3dcB (3cBA|BGAF G2 (3efg|1 fdcA G2dc:|2 fdcA G2Bd||
+|:~g3f gaag|fdcA AB~B2|~g3f gaag|fdcA AGBd|
+~g3f dedc|~B2GB ADFA|~G3A Bdeg|1 fdcA G2Bd:|2 fdcA G2GA||
+|:(3Bcd ^cd B=cdB|AF~F2 ABcA|BGdG BG (3Bcd|cAcd AG~G2|
+BGdG BGdB|AF~F2 ABcA|~G3A (3Bcd (3efg|fdcA G2GA:|
+|:B2GB ~B2Gd|A2Fd A2Fd|B2DG BGBd|cAFG AGGA|
+GB~B2 ~B2GB|A2~A2 ~A2FD|~G3A Bdeg|fdcA G2GA:|
+Bdgd Bdgd|Adfd Adfd|(3Bcd gd (3Bcd gd|cAFG AG~G2|
+(3Bcd gd gdgd|Adfd adfd|~G3A (3Bcd eg|fdcA G2GA||
+Bdgd Bdgd|Adfd Adfd|(3Bcd (3Bcd gd (3Bcd|cAFG AG~G2|
+Bdga agdA|FAdf fdAF|~G3A (3Bcd eg|fdcA G2||
+
+X:515
+T:Fig for a Kiss, A
+N:IrTrad, 6/99
+M:9/8
+L:1/8
+Q:100
+R:slip jig
+K:EDor
+G2B E2B BAG|FGA DFA AGF|G2B E2B BAG|1(3Bcd B AGF E2F:|2 (3Bcd B AGF E3|
+|g2e g2e edB|f2d dcd fed|1 g2e g2e edB|dBG GBd e2f:
+|2 gfe fed edB|(3Bcd B AGF E2F||

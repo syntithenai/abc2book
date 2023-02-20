@@ -1,0 +1,41 @@
+
+X: 0
+T: Garfield's Ruff (ruff, ruff!) Standpiece
+%C: 071229
+K:
+
+
+X: 1
+T: President Garfield's Hornpipe  v.1
+P: piffero primo a0500
+O: cfg bk 1
+R: hornpipe, reel
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/garfieldF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+fe |\
+dAFA dAFA | dcde fefg | aece aece | a^gab a=gfe | dAFA dAFA |
+dcde fefg | a^gab a=gfe | d2f2 d2 :: dc | BgdB GBdB | AfdA FAdA |
+GCBA GCBA | FDBA FDdc | BgdB GBdB | AfdA FAdA | ^GAcB A=GFE | D2F2 D2 :|
+
+
+X: 2
+T: President Garfield's Hornpipe  v.2
+P: piffero secondo 1051
+O: Greg Rice
+R: hornpipe, reel
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/garfieldF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+FE |\
+F2DD F2D2 | F2D2 FGAB | c2AA c2A2 | cz2B AGFE | F2DD F2D2 | F2D2 FGAB | cz2B AGFE | D2F2 D2 :|
+|: de | g4 zBdg | f4 zDFA | c4 E4 | z2.F2 .G2.A2 | B4 zBdg | f4 zDFA | E4 c4 | A2F2 D2 :|
+%%text 8vo........
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

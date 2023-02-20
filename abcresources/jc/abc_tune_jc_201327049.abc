@@ -1,0 +1,90 @@
+
+X: 1
+T: Quadriglia Amblas!
+C: N.N. (1917)
+N: Arr. L. Canoro
+R: tarantella
+M: 6/8
+L: 1/8
+P: Play AABBACCA
+K: D
+"A"[|]\
+f "A7"fg^g |\
+"D"a2f fed | A2f fed | "A7"c2c B2B | "D"A2f "A7"fg^g |\
+"D"a2f fed | A2f fed | "A7"cBA GFE | "D"D2 :|
+"B"\
+|: d ded |\
+"A7"c2d B2c | "D"A2d ded | "A7"c2d B2c | "D"A2f "A7"fg^g |\
+"D"a2f fed | a2f fed | "A7"cBA GFE | "D"D2 :|[K:G]
+"C"\
+|: B "D7"Bc^c |\
+"G"d>Bz "D7"Bc^c | "G"d>Bz gag | "D7"fgf efe | "G"d2B "D7"Bc^c |\
+"G"d>Bz "D7"Bc^c | d"G">Bz gag | "D7"fed cBA | "G"G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Quadriglia Amblas!
+C: N.N. (1917)
+N: Arr. L. Canoro
+R: tarantella
+M: 6/8
+L: 1/8
+P: Play AABBACCA
+K: D
+"A"[|]\
+d "A7"de^e |\
+"D"f2A AGF | F2d dcB | "A7"A2A G2G | "D"F2d "A7"de^e |\
+"D"f2A AGF | F2A AGF | "A7"Edc BAG | "D"F2 :|
+"B"\
+|: B BcB |\
+"A7"A2B G2A | "D"F2B BcB | "A7"A2B G2A | "D"F2d "A7"de^e |\
+"D"f2A AGF | F2A AGF | "A7"Edc BAG | "D"F2 :|[K:G]
+"C"\
+|: G "D7"GA^A |\
+"G"BGB "D7"GA^A | "G"BGB efe | "D7"ded cdc | "G"B2G "D7"GA^A |\
+"G"BGB "D7"GA^A | "G"BGB BcB | "D7"AGF EDC | "G"B,2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Quadriglia Amblas!
+C: N.N. (1917)
+N: Arr. L. Canoro
+R: tarantella
+M: 6/8
+L: 1/8
+P: Play AABBACCA
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V:1 staves=2
+"A"[|]\
+f fg^g |\
+a2f fed | A2f fed | c2c B2B | A2f fg^g |\
+a2f fed | A2f fed | cBA GFE | D2 y:|
+"B"\
+|: d ded |\
+c2d B2c | A2d ded | c2d B2c | A2f fg^g |\
+a2f fed | a2f fed | cBA GFE | D2 "d.C."y:|
+K:G
+"C"\
+|: B Bc^c |\
+d>Bz Bc^c | d>Bz gag | fgf efe | d2B Bc^c |\
+d>Bz Bc^c | d>Bz gag | fed cBA | G2 y:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+"A"[|]\
+d "A7"de^e |\
+"D"f2A AGF | F2d dcB | "A7"A2A G2G | "D"F2d "A7"de^e |
+"D"f2A AGF | F2A AGF | "A7"Edc BAG | "D"F2 y:|
+"B"\
+|: B BcB |\
+"A7"A2B G2A | "D"F2B BcB | "A7"A2B G2A | "D"F2d "A7"de^e |
+"D"f2A AGF | F2A AGF | "A7"Edc BAG | "D"F2 "d.C."y:|
+K:G
+"C"\
+|: G "D7"GA^A |\
+"G"BGB "D7"GA^A | "G"BGB efe | "D7"ded cdc | "G"B2G "D7"GA^A |
+"G"BGB "D7"GA^A | "G"BGB BcB | "D7"AGF EDC | "G"B,2 y:|

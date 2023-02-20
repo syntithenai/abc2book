@@ -1,0 +1,36 @@
+X: 19
+T: Soldier Ladie
+T: Soldier Laddy
+T: Longways for as many as will.
+N: Yes, that's "Ladie", not "Laddie".  But in the index, it's "Laddy"
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.10
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has inial repeat symbol but no final repeat; not fixed.
+N: Both "Hay" and "Hey" are used in the dance description.
+N: The bracketed final "im" and the last line are overlaid onto the succeeding dance, The Boyan.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g/d/ |\
+B>AG GDE | A>BA ABd | e/f/gG GDE | G>AG B2G |\
+cd/c/B/A/ Bc/B/A/G/ | A>BA ABd | e/f/gG GDE | G>AG G2 :|
+|: e/f/ |\
+g>ag gdB | a>ba Ta2g | e/f/gg gdB | ga/g/f/e/ gdB |\
+c/B/c/d/e/f/ g>fg | aAA ABd | e/f/gG GDE | G>AG G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man Hay with the 3d Cu. his Partner at the same time
+%% Hey with the 2d Cu. .| The 1st Man Heys with the 2d Cu. 1st Wo
+%% at the same time Heys with the 3d Cu. :| first Cu. leads thro'
+%% the 2 & 3d Wo. & turn in the 2d Cu. Place .| 1st Cu. leads
+%% through the 2d & 3d Men & turns at Top :#: The 1st Cu. Back to
+%% Back & cast off & turn .| the 2d Cu. do the same :| 1st Man leads the
+%% 2d. Wo. off & turns her .| 1st Wo. leads the 2d. Man off & turns h[im
+%% 1st Man cast off at the same Time.]
+%%endtext
+%%center A double dance.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

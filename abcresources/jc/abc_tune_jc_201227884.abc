@@ -1,0 +1,1189 @@
+X: 1
+T:Admiral Nelson
+R:reel
+B:RSCDS 19-8(I)
+O:Niel Gow
+Z:1997 by John Chambers <jc@trillian.mit.edu>
+M:C|
+L:1/8
+Q:300
+K:F
+|: cB \
+| "F"A2F2 FAGF | "C7"EGB2 BdcB | "F"Acde "Dm"fagf | "C7"e2c2 cdcB |
+| "F"A2F2 FAGF | "C7"EGB2 BdcB | "F"Acdf "C7"ecdB | "F"A2F2 F2 :|
+|: (3cde \
+| "F"fcAc fagf | "C"gece gbag | "F"af"C"ge "G7"fdgf | "C"e2c2 c2fe |
+| "Bb"dcBA "Gm"B2gf |  "C7"edcB "F"A2(3cde | "C7"fcdB cABG | "F"A2F2 F2
+:|
+
+X: 2
+T:All the Rage
+R:jig
+C:Larry Unger 1989
+Z:Transcribed to abc by Mary Lou Knack
+M:6/8
+L:1/8
+Q:300
+K:E
+e \
+| "E"fgg gfe \
+| fgg g2e \
+| "A"cee "E"Bee \
+| "F#m7"gfe "B7"f2e \
+| "E"fgg gfe \
+| fgg g2b \
+| "(A)"gfe "B7"fed \
+| "E"e3- e2 :|
+|: e \
+| "A"cee "E"Bee \
+| "A"cee "E"B2e \
+| "A"ece "F#m7"fef \
+| "E"gbg "B7"f2e \
+| "A"cee "E"Bee \
+| "A"cee "E"B2b \
+| "(A)"gfe "B7"fed \
+| "E"e3- e2 :|
+%  ABC2Win Version 2.1 5/26/2001
+
+X: 3
+T:Ballinasloe Jig
+R:Jig
+C:Trad
+S:Bridget Delaney, Athy, Co. Kildare, Ireland
+N:The Lilting Banshee, Boholla Jig #1,The Miller of Glenmire, Ryan's
+M:6/8
+L:1/8
+Q:300
+K:ADor
+"Am"EAA EAA|"Em"BAB G3 A|"Em"Bee edB|"G"dBA GED|
+"Am"EAA EAA|"Em"BAB G>A|"Em"Bee edB|"D"dBA A3 d:|
+"D"eaa age|"G"dBA G3 A|"Em"Bee edB|"G"def gfg|
+"Am"eaa age|"G"dBA G3 A|"Em"Bee edB|"D"dBA A3 d:|
+
+X: 4
+T:Barren Rocks of Aden, The
+M:2/4
+L:1/8
+R:March
+Z:<cfalt@trytel.com> www.trytel.com/~cfalt/Fiddle/The_List.abc
+Q:300
+K:D
+d/2e/2|"D"f2f2>e|dfAd|"A7"ceA(B/2c/2)|"D"dAde|
+f2f2>e|dfAd|"A7"ceA(B/2c/2)|"D"d2d :|!
+f/2g/2|"D"afd(e/2f/2)|"A7"efA(e/2f/2)|gece|"D"dfA(f/2g/2)|
+a>fdf|"A7"efA(e/2f/2)|gece|"D"d2d f/2g/2:|
+
+X: 5
+T:Bill Sullivan's
+M:2/4
+L:1/8
+R:polka
+D:Kevin Burke: If the Cap Fits
+Z:id:hn-polka-13
+Q:300
+K:A
+a2 a>f|ec a>f|ec a>f|ec BA|a2 a>f|ec a>f|ec B>c|1 BA A2:|2 BA A>B||
+|:ce ec|df fe|ce eA/B/|cB BA/B/|ce ec|df fe|ce B>c|1 BA A>B:|2 BA A2||
+"Variations:"
+a2 a>f|ec a>e|ce a>e|ce BA|a2 a>f|ec a>e|ce B>c|1 BA A2:|2 BA A>B||
+|:ce e/c/A/c/|df fe|ce e/c/A/B/|cB BA/B/|ce ec|df fe|ce B>c|1 BA A>B:|2
+BA A2||
+
+X: 30
+T:Brennan's
+T:John Brennan from Sligo
+T:Brennan's Fancy
+M:C|
+L:1/8
+R:reel
+Z:id:hn-reel-111
+Q:300
+K:D
+"D"D2FA "F#m"d2ed|"G"cdBc "F#m"AF~F2|"G"BAGB "D"A2FA|"G"BAGF "A"EGFE|
+"D"D2FA "F#m"d2ed|"G"cdBc "F#m"AF~F2|"G"BAGB "D"ABde|"G"faeg "D"fdd2:|
+"D"f2df "A"e2de|"Bm"fedB "D"AF~F2|"G"BAGB "D"A2FA|"Bm"BAGF "Em"EFGE|
+"D"f2df "A"e2de|"Bm"fedB "D"AF~F2|"G"BAGB "D"ABde|"D"faeg fdde|
+"D"f2df "A"e2de|"Bm"fedB "D"AF~F2|"G"BAGB "D"A2FA|"Bm"BAGF "Em"EGFE|
+"D"D2FA "F#m"d2ed|"G"cdBc "F#m"AF~F2|"G"BAGB "D"ABde|"A"faeg "D"fdd2||
+
+X: 6
+T:Cairo (Kay-roe)
+O:Kentucky
+M:2/4
+L:1/4
+Q:300
+K:D
+|"D"a2 a>g| f a z g| f d d/f/e/d/|"A7"c A A2| "D"a2 a>g| f a z g|"A7" f
+d e c |"D" d4|
+"D"a2 a>g| f a z g| f d d/f/e/d/|"A7"c A A2| "D"a2 a>g| f a z g|"A7" f d
+ e c |"D" d2>A|:
+"D"d d "A7"e e|"D"f f "G"g2 |"D"f d d2|"A7"c A2 A|
+"D"d d "A7"e e|"D"f f "G"g2 |"D" f d"A7" e c|[1 "D"d2>A:| [2 "D"d4|
+
+X: 7
+T:Calliope House
+M:6/8
+L:1/8
+C:D.Richardson
+N:Calliope House is a folk center in Pittsburgh.
+Z:John Chambers <jc@trillian.mit.edu>
+Q:300
+K:D % transposed from E
+|:zA|"D"dAA fAA|dAA fAA|"G"Bee e2d|"A"efd BdB|"D"ABAA2F|A2B d2e|
+|1 faf fed|"A"e3- e:|2 "G"faf "A7"edB|"D"d3- d|:fg|
+"D"a3 faa|eaa daa|"G"g3 fgf|
+"A"efe edB|"D"ABA A2F|A2B d2e|1 faf fed|"A"e3- e:|2"A"faf "D"edB|
+"D"d3- d|]
+%  ABC2Win Version 2.1 10/11/2001
+
+X: 8
+T:Connaughtman's Rambles, The
+R:Jig
+D:asin=B000005CSE(Matt Molloy: Stony Steps)
+D:asin=B000005CTU(Brendan Power: New Irish Harmonica)
+D:asin=B000003JM2(Karen Ashbrook: Hills Of Erin)
+D:anop=B0000003EN(Ashley MacIsaac: A Compilation)
+D:anop=B000009DPZ(Steeleye Span: The Big Squeeze)
+Z:As played by the CHB
+M:6/8
+L:1/8
+Q:300
+K:D
+AG|"D"FAA dAA|"G"BAB "D"dAG|FAA dfe|"Bm"dBB BAG|
+       "D"FAA dAA|"G"BAB "D"def|"Em"gfe dfe|1"Bm"dBB B2A:|2"Bm"dBB g2:|\
+|"D"faa "G"gbb|"D"afe dcd|faa "G"gbb|"D"afd e2g|
+"D"faa "G"gbb|"D"afe def|"Em"gfg efe|1"Bm"dBB B2g:|2"Bm"dBB B2B:|
+
+X: 9
+T:Dancing Bear
+M:4/4
+L:1/8
+C:Bob McQuillen
+R:Reel
+Q:300
+K:Em
+"Em"EFGF EFGF|"Am"EFGA G2 E2|"Em"EFGF EFGF|"Am"EFGA G2 E2|
+"Em"EFGF EFGF|EFGA B4| B2 Bc BAGF |G2 E2 E4:|
+e2 ef gfef|gf e2 e2|e2 ef gfef|gf e2 e2|e2 ef gfef|gf e2 e2| B2 Bc BAGF
+|G2 E2 E4:|
+
+X: 10
+T:Darling Nellie Gray
+M:2/4
+L:1/8
+R:2nd Change
+Z:<cfalt@trytel.com> www.trytel.com/~cfalt/Fiddle/The_List.abc mod by sn
+Q:300
+K:G
+Bc|"G"d^cde|"G7"dBAG|"C"cdef|g2fe|"G"d2d>d|edBG|"D7"A4-|A2Bc|!
+"G"d^cde|"G7"dBAG|"C"cdef|g2fe|"G"d2B>d|"D7"dcAF|"G"G4-|G2:|!
+|:GAB|"C"c2c>c|c2e>e|"G"eddB|d2Bc|dd^cd|edBG|"D7"A4-|A2Bc|!
+"G"d^cde|"G7"dBAG|"C"cdef|g2fe|"G"d2B>d|"D7"dcAF|"G"G4-|G2:|]
+
+X: 11
+T:Duncan  MacQuarrie Reel
+M:C
+L:1/8
+C:Duncan  MacQuarrie
+S:Doug MacPhee
+R:reel
+A:Cape Breton
+B:Silver Apple News
+Q:300
+K:A
+"A" eA A/2/A/2A eAce|"D"fefg abaf|"A"eA A/2/A/2A eAce|"D"faec "B"BABc|
+"A" eA A/2/A/2A eAce|"D"fefg agab|"A"c'2 b2 "D"agfe|"F#"faec "D"BABc:|
+"A"eA A/2/A/2A a2 ae|"D"fefg abaf|"A"eA A/2/A/2A a2 ae|"D"faec "B"BABc|
+"A"eA A/2/A/2A a2 ae|"D"fefg agab|"A"c'2 b2 "D"agfe|"F#"faec "D"BABc:|
+
+X: 12
+T:Eboulements, Reel des
+M:C
+L:1/8
+C:Traditional
+S:La Bottine Souriante
+R:4/4
+Q:300
+K:A
+eg|"A"aAAA cAec|"Bm"Bcde "E"fefg|"A"aAAA "F#m"cAec|"D"fd"E"ge "A"aefg|
+"A"aAAA cAec|"Bm"Bcde "E"fefg|"D"agfe "Bm"fedc|"E"defg "A"a2 ed|
+"A"cAEA cAec|"E"Bcde f2 ed|"A"cAEA "F#m"cAec|"D"fd"E"ge |"A"a2 ed|
+"A"cAEA cAec|"E"Bcde fefg|"D"agfe "Bm"fedc|"E"defg "A"a2 AF|:!
+"A"FAAA cABA|"E"GABc d2 cd|"E"GBBB GBBB|GBBB "A"A2 AF|
+"A"FAAA cABA|"E"GABc defg|"D"agfe "Bm"fedc|"E"defg "A"a2 AF:|
+
+X: 13
+T:Eds Jig
+C:Ed Delaney, April 1, 2001
+M:6/8
+L:1/8
+Q:300
+K:D
+|"D"dAA "G"BAG|"D"FAF "Em"GFE|"D"DFF "Em"EGG|"D"FAA "A"ABc|
+"D"dAA "G"BAG|"D"FAF "Em"GFE|"D"DFF "Em"EGB|"D"AFD D4:|
+|"D"Add dfa| "Em"gec gec|"D"dcd "Em"efg |"D"fed "A"e4|
+"D"Add dfa| "Em"gec gec|"D"dcd "Em"efg |"A"edc "D"d4:|
+
+X: 14
+T:Ennis Reel
+M:4/4
+L:1/8
+Q:120
+R:Polka
+Q:300
+K:G
+"G"D3 E DCB,C|D2E2 "Em"G3 A|"G"B2 d2 "D"A2 BA |"C" G2 E2 E2 GE|
+"G"D3 E DCB,C|D2E2 "Em"G3 A|"G"B2 d2 "D"A2 BA | "G"G2 G2:|
+"G"B2 d2 d2 cB|"C"c2e2e2dc|"G"B2d2A2BA|"C"G2E2E2 GA|
+"G"B2 d2 d2 cB|"C"c2e2e2"Em"f2|g2e2f2d2|"Bm"e4e2"Em" ef|
+g2e2 "Bm"f2d2|"Em"efed B2 GA|B2d2"Bm"A2BA|"C"G2E2E2GE|
+"G"D3 E DCB,C|"Em"D2E2 "C"G3 A|"G"B2d2"D"A2BA|"G"G4G4|
+%  ABC2Win Version 2.1 7/9/2003
+
+X: 15
+T:Egan's Polka
+M:2/4
+L:1/8
+R:polka
+Z:id:hn-polka-12
+Q:300
+K:D
+fA BA|fA BA|d2 e>f|ed BA|fA BA|fA BA|d2 e>f|ed d>e:|
+|:fa fe|ed BA|d2 e>f|ed BA|fa fe|ed BA|d2 e>f|ed d>e:|
+
+X: 16
+T:Fair Jenny's Jig
+M:6/8
+L:1/8
+Q:300
+C:Peter Barnes
+R:jig
+Z:1997 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music
+Z:bc/
+Q:300
+K:D
+A \
+| "D"f3 f fed | "A7"ecA ecA | "G"Bcd "A7"ecA | "G"Bcd "A7"eag \
+| "D"f3 f fed | "A7"ecA ecA | "G"Bcd "A7"ecA | ABc "D"d2 :|
+|: A \
+| "G"B3 B=cB | GBB B=cB | "D"ADD dDD | ^cDD =cDD \
+| "G"B3 B=cB | GBB B=cB | "A7"A3A ABc | "D"d4:|
+
+X: 17
+T:Far From Home
+M:4/4
+L:1/8
+R:Reel
+Q:300
+K:G
+D2|
+"G"GEDE G2GA|"G"B2BA Bc d2|
+"Am"GEDE "D7"G2GB|"G"AGAB AGEF|
+"C"GEDE "G"G2GA|"G"B2BA Bc d2|
+"C"edef "G"gedc|"G"BG "D7"AF "G"G2:|
+d2|
+"Em"g2ge "D7m"f2fd|"C"edef edBd|
+"G"gedB G2B2|"Am"AGAB "D7"AG E2|
+"G"GEDE G2GA|"G"B2BA Bc d2|
+"C"edef "G"gedc|"G"BG "D7"AF "G"G4:|
+
+X: 18
+T:Farewell to Whiskey
+R:polka
+S:Dennis Murphy
+M:2/4
+L:1/8
+Q:300
+K:G
+GE|"G"D2GA BAGA|"C"B2E2 EFGE|"G"D2GA BAGB|"Em"d2B2 B2d2|
+"C"efge "G"d2B2|"Am"cBAG "D"A2B2|D2"G"GA "D"BAGA|"G"B2G2G2:|
+B2|"G"d2g2 g2fg|"C"efge "D"d3B|"G"d2g2 g2fg|"C"e2f2"G"g4|
+"C"efge "G"d2B2|"Am"cBAG "D"A2B2|"G"D2GA "D"BAGA|"G"B2G2 G2:|**
+
+X: 19
+T:Father Francis Cameron
+M:4/4
+L:1/8
+C:John Campbell
+Q:300
+K:G
+E2|:
+"G"~G2BG "C"ECCE|"G"DG,B,D "C"~E2CE|"G"DGBG "Em"d2 BG | "D7"ADFA c2 BA|
+"G"~G2BG "C"ECCE|"G"DG,B,D "C"~E2CE|"G"DGBd "Em" cBce |"D7"dBcA "G"G2z2
+:|
+Bc |
+"G"d2BG dGBd |"C" e2cA "Am"eAce | "G"dgfa "Em"gdBG |"D7"ADFA c2Bc|
+"G"d2BG dGBd |"C" e2cA "Am"eAce | "G"dgfa "Em"gdBG |"D7"ADFA "G"G2z2 |
+
+X: 20
+T:Funs All Over (Wagoner's)
+R:Reel
+M:4/4
+L:1/8
+Q:300
+K:C
+e6 e|ed c2 A2 G2|g6 g|ga bg a2 g2|e6 e|ed c2 A2 G2|g2 ^fg a2 g2|c3 c c4:
+|
+C2 CC E2 G2| c2 cc A2 G2|B4 B2 B2| B2 B2 A2 G2|C2 CC E2 G2| c2 cc A2 G2|
+g2 ^fg a2 g2|c3 c c4:|
+
+X: 21
+T:Genevieve's Waltz
+M:3/4
+L:1/4
+Q:1/8=150
+C:Manus McGuire (Moving Cloud)
+R:waltz
+P:AABBAABB
+Z:Derek Bone 9th April 200 (irtrad-l 2001-04-28)
+Q:300
+K:A
+E\
+|: "A"c>dc "E"BAG | "F#m"A>Bc "C#m"E2E | "D"F>Ad "A"cEc | c>BA "E"B2E \
+| "A" c>dc "E"BAG |"F#m" A>Bc "C#m"E2E | "D"FAd "A"cEc |1 "E"B>AG "A"A2E
+ :|2"D" B>AG "A"A2e |
+|: "D"f>ff fga |"A" e2d c>BA | "D"d>ed "A"cBA |"F#m" FGA  "E"B2e \
+|   "D"f>ff fga |"A" e2d c>BA | "Bm"d>ed "A"cBA |"D" FAG "A"A2e \
+|   "D"f>ff fga |"A" e2d c>BA |"D" d>e{fg}a "A"ecA | "F#m"FGA "E"B2E \
+|   "A"c>dc "E"BAG |"F#m" A>Bc "C#m"E2E | "D"F>Ad "A"cEc |"E" B>AG "A"A3
+ |]
+
+X: 22
+T:Girl I Left Behind Me (The)
+M:4/4
+L:1/8
+R:Reel
+Q:300
+K:G
+gf|"G"e2 d2 B2 G2|"C"ABAG E2 (DEF)-|"G"G2 G2 GABc| "D"d4 B2 gf|"G"
+e2 d2 B2 G2|"C"ABAG E2 G2|"D" F2 A2 D2 EF|1 "G"G4 G2 gf :|2
+G4 G2 GA:|
+"G"B2d2e2f2|g2 d2 B2 "D" A2|"G"BGBd edef-|"C"g2 ag "D"f2 gf|"G"e2 d2 B2
+G2|"C"ABAG E2 G2| "D"F2 A2 D2 EF|1 "G"G4 G2 GA :|2 G4 G2:|
+%  ABC2Win Version 2.1 7/9/2003
+
+% Output from ABC2Win  Version 2.1 i on 7/9/2003
+
+X: 23
+T:Gneeveguilla Polka
+M:4/4
+L:1/8
+R:Polka
+D:Tony Elam
+Q:300
+K:Am
+|"Am"c2 "G"B2 cB "Am"AB "Em"G>A|
+"G"Bd "D"ef^ "G"g2 "E"g>d|
+"Am"ea gage|"G"dB G2 AB|
+"Am"ce "Em"dB "Am"A2 A2:|
+"Am"e2 a2 a2 ge|
+"G"d2 g2 g>d|"Am"e2 a2 a2 ^f"G"g2"EMaj" g>d|
+"Am"e2 a2 gage "G"dB G2|
+"am"AB "Em"cedB "Am"A2 A2
+:|
+
+X: 24
+T:Hull's Victory
+R:March
+C:Trad
+M:2/4
+L:1/16
+Q:300
+K:D
+A|"D" dAdf dAdf|"A7" fedc "D" d4EF|"D"A4 AB "A7"A2G2|FGEF "D" D2A2|
+dAdf dAdf| "A7" e2e2 e2>d|"E7"dcBA ^GABG|"A7" A2A2 A2:|
+A2|"D" dAde fedc|"G"B2G2 G2 cd|"Em7" edef gf"E7"ed|"A7" c2A2 A2 AA|
+"D"dAdf dAdf| "A7" eAeg eAeg|"D"fedf "A7"edce|"D" d2d2 d2:|
+
+X: 25
+T:Hundred Pipers,The
+S:The Portland Collection
+M:6/8
+L:1/8
+Q:300
+K:A
+A/2B/2|"A"c2E EFE|"D"F2A A2f|"A"e2c cBA|"Bm"BcB "E7"BAB|
+"A"c2E EFE|"D"F2A A2f|"A"e2c "E7"BAB|"A"A3 -A2::
+c/2d/2|"A"e2e ece|"D"f2a agf|"A"e2c cBA|"Bm"BcB "E7"Bcd|
+"A"e2e ece|"D"f2a agf|"A"e2c "E"BAB|"A"A3 -A2:|
+
+X: 26
+T:Huntsman's Chorus
+S:Kevin Briggs, via EF
+M:4/4
+L:1/4
+Q:300
+K:G
+ D|"G"GD G/2A/2B/2c/2|"G"d2 "Em"B2|"D7"Ad Ad|"G"B/2c/2B/2A/2 "D7"GD|\
+"G"GD G/2A/2B/2c/2|"G"d2 "C"c2|"D7"B/2A/2G/2A/2 "D7"BA|"G"G3:|
+G/2A/2|"G"B3/2B/2 "B7"BA|"Em"G2 G2|"Am"c3/2c/2 cB|"D7"AF ED|\
+"G"B3/2A/2 G/2A/2B/2c/2|"G"d2 "C"c2|"D"B/2A/2G/2A/2 "G"BA|
+
+X: 27
+T:Jamie Allen
+R:polka
+Z:id:hn-polka-26
+M:4/4
+L:1/4
+Q:300
+K:G % transposed from D
+"G"(G/4A/4B/4)G G G/2A/2|B2 A A/2B/2|"Am"c A AB|"D"cd/c/ BA|
+"C"Gg ge| "G"d2 B B/2c/2|"D" d d  c/2B/2 A|"G" G2 G>A:|
+|"G"Gg gf|ed cB|"Am"Aa ag|"D" f d e f|"C"g>a g e|
+"G"d2 B B/2c/2| "D"d d c/2B/2|"G"G4:|
+
+X: 28
+T:Jenny Lind's Polka
+R:polka
+D:Mary Bergin: Feadoga Stain 2
+Z:id:hn-polka-53
+M:2/4
+L:1/8
+Q:300
+K:D
+A/G/|:"D"FA/F/ "Em"GB|"D"Af f/e/f|"Em"Ge e/d/e|"D"Fd d2 A/G/|
+"D"FA/F/"Em" GB|"D"Af f/e/f|"Em"ge "A"e/c/A/c/|1 "Em"ed "D"dA/G/:|
+K:G
+"Em"g2 e2 e/f/g/e/|"G"dB B/A/B|"Am"cA "D"A/G/ A2|"Em"BG "G"G (3d/e/f/|
+"Em"~g>f e/f/g/e/|"G"dB "Em"B/A/ B2|"Am"cA A/c/B/A/|1 "Em"G2 "G"G (3d/e/
+f/:|2 AG G||
+
+X: 29
+T:Jessica's Polka
+M:2/4
+L:1/8
+Q:50
+C:Mick Hanly
+R:polka
+D:Kevin Burke: Up Close Mick Hanly: As I Went over Blackwater
+H:Composed by Mick Hanly for his newborn daughter
+Z:id:hn-polka-84
+Q:300
+K:A
+"A"ef/e/ ce|fe Bc|A>B cA|ec "E"B2|
+"A"ef/e/ ce|fe Bc|A>B cA|"D"FA "A"E2:|
+|:"D"F>B AF|"A"cB A2|ef/e/ ce|ag "D"f2|
+"A"ef/e/ ce|fe Bc|A>B cA|"D"FA "A"E2:|
+
+X: 31
+T:John Ryan's Polka
+R:Polka
+O:Ireland
+M:4/4
+L:1/8
+Q:300
+K:D
+A|\
+"D"d2d2 "G"BcdB|"D"A2F2 A2F2|d2d2 "G"BcdB|"D"A2F2 "A"(3EFE D2|\
+"D"d2d2 "G"BcdB|"D"A2F2 A2de|f2d2 "A"e2c2|"D"d4 d3::
+e|\
+"D"f2d2 d2ef|"G"g2f2 "D"e2d2|f2d2 A2d2|f2df "A"(a2a)g|\
+"D"f2d2 d2ef|"G"g2f2 e2de|"D"f2d2 "A"e2c2|"D"d4 d3:|
+
+X: 32
+T:John Ryan's
+S:via PR
+M:4/4
+L:1/4
+Q:300
+K:G
+e/2f/2|"G"gg "Em"e/2f/2(3g/2f/2e/2|"G"dB dB|"G"gg "Em"e/2f/2(3g/2f/2e/2|
+"G"dB "D7"AG|"G"gg "Em"e/2f/2(3g/2f/2e/2|"G"dB "D7"dg/2a/2|"G"bg "D7"af|
+"G"g3\
+::
+A|"G"BG GA/2B/2|"C"cB "D7"AG/2A/2|"G"BG DG|"G"BG/2B/2 "D7"d3/2c/2|\
+"G"BG GA/2B/2|"C"cB "D7"AG/2A/2|"G"BG "D7"AF|"G"G3:|
+
+X: 33
+T:Joys of Quebec
+M:C|
+L:1/8
+R:reel
+Q:300
+K:A
+ee| "A"eccc c2ee| eccc c2ee| fAeA dAcA| "E7"dBBB B2dd|
+    "E7"dBBB B2dd| dBBc B2(3Bcd| |1 "E7"e2ee gfeg| "A"fe^df e2 :|2 \
+                                    "E7"e2ee fefg| "A"a6 |]
+|:\
+(3ABc| "A"[A4e4] "D"[A4f4]| "A"[e3A3][fA] [A2e2]AB| \
+       "A"[c4e4] "D"[d4f4]| "A"[c3e3]d [c2e2]Ac|
+       "A"B2A2 G2A2| "E7"B3c B2Bc|1 d2e2 gfeg| "A"fe^df e2 :|2 \
+                                "E7"d2e2 fefg| "A"afec A2 |]
+
+X: 34
+T:Jump at the Sun(Dm)
+M:6/8
+L:1/8
+C:John Kirkpatrick
+S:Nottingham Music Database
+R:Jig
+Q:300
+K:Dm
+F/2E/2|"Dm"DFA ^G2A|DFA ^G2A|dAA dAA|"Gm"AGF "A7"E2F|
+"Dm"DFA ^G2A|DFA ^G2A|dAA "Gm"BAG|"A7"FGE "Dm"D2:|
+dAA fed|"A7"eAA gfe|"Dm"fed fed|"A7"ecA B2A|
+"Dm"dAA fed|"A7"eAA gfe|dAA "Gm"BAG|"A7"FGE "Dm"D2:|
+
+X: 35
+T:Jump at the Sun(Em)
+M:6/8
+L:1/8
+S:John Kirkpatrick, via EF
+Q:300
+K:Em % transposed from Gm
+P:A
+G/2F/2|"Em"EGB"Am" =A2B|"Em"EGB "Am"=A2B|"Em"eBB "Em"eBB|"Em"BAG "Bm"F2G
+|
+"Em"EGB "Am"=A2B|"Em"EGB"Am" =A2B|"Em"eBB "Am"cBA|"Em"GAF "Em"E2:|
+"Em"eBB gfe|"Bm"fBB "D"agf|"Em"gfe gfe|"Bm"fdB "Am"c2B|
+"Em"eBB gfe|"Bm"fBB "D"agf|"Em"eBB "Am"cBA|"Em"GAF "Em"E2:|
+
+X: 36
+T:Jump at the Sun(Gm)
+M:6/8
+L:1/8
+S:John Kirkpatrick, via EF
+Q:300
+K:Gm
+P:A
+B/2A/2|"Gm"GBd ^c2d|"Gm"GBd ^c2d|"Gm"gdd "Gm/bb"gdd|"Cm"dcB "D7"A2B|
+"Gm"GBd ^c2d|"Gm"GBd ^c2d|"Gm"gdd "Cm"edc|"D7"BcA "Gm"G2:|
+"Gm"gdd bag|"D7"add c'ba|"Gm"bag bag|"D7"a^fd e2d|
+"Gm"gdd bag|"D7"add c'ba|"Gm"gdd "Cm"edc|"D7"BcA "Gm"G2:|
+
+X: 37
+T:Kesh Jig, The
+T:Kerrigan's Jig
+M:6/8
+L:1/8
+R:jig
+Z:Boston  It is _very_ widely played.
+Q:300
+K:G
+D|"G"~G3 GAB|"D"ABA ABd|"G"edd gdd|edB "D"dBA|"G"~G3 GAB|"D"ABA ABd|"G"e
+dd gdB|"D"AGF "G"G2:|
+A|"G"~B3 dBd|"C"ege "G"dBG|~B3 dBG|"D"ABA AGA|"G"BAB dBd|"C"ege "G"dBd|g
+fg "D"aga|"G"bgf g2:|
+
+X: 38
+T:Kerry Polka #1
+M:C
+L:1/8
+C:R-108
+R:polka
+Z:Transcribed to abc by Mary Lou Knack
+Q:300
+K:A
+"A"a4 a3f| e2c2 a3f| e2c2 a2c2| "D"B2A2 "E"F2E2|
+"A"a4 a3f| e2c2 a3e| c2e2 "E"B2Bc| "A"B2A2 A4:|
+|:\
+"A"c2e2 e2c2| "D"d2f2 f2d2| "A"c2e2 "E"B2Bc| "D"B2A2 "E"F2E2|
+"A"c2e2 e2c2| "D"d2f2 f2fd| "A"c2e2 "E"B2Bc| "A"B2A2 A4 :|
+%%text 9/1/98
+%  ABC2Win Version 2.1 7/17/2002
+
+X: 39
+T:The Scartaglen Polka
+T:The Knocknabower Polka
+M:2/4
+L:1/8
+Q:300
+C:Trad
+R:Polka
+K:G
+D|G2 G>A|Bd de/2f/2|gB B/2A/2G/2A/2|BA AB/2A/2|!
+G2 G>A|Bd de/2f/2|gB AB/2A/2|G3:|!
+A|Bd g>g|fe e/2f/2g/2e/2|dB B/2A/2G/2A/2| BA A2|!
+Bd g>g|fe e/2f/2g/2e/2|dB AB/2A/2|G3:|!
+d|g2 a2|b3 a|g2 a2|b3 a|!
+ge e/2f/2g/2e/2|dB g>e|dB AB/2A/2|G3:|!
+
+X: 40
+T:La Gadeliderot
+M:C
+L:1/8
+C:Jean Duval
+S:Domino
+R:Reel
+Q:300
+K:D
+"D"DFAd "G"BGBG|"D"ABAG F2 DD|"A"EDEF GFGA|"Em"BAGF "A"EGFE|
+"D"DFAd "G"BGBG|"D"ABAG F2 (ABc)|"G"defg "A"edcB|1"A"cdeg "D"dBAF:|2"A"c
+def "D"dcde:||
+"D" fdAe fdAf|"A"edef gece|"D" fdAe fdAf|"Em"edcB "A"(ABA) GA|
+"G"Bdgd "A"ceae|"Bm"dfbf "G"g2 fe|"Em"defg "A"edcB|1"A" cdef "D"dcde:|2"
+A"cdef "D"dBAF
+|
+
+X: 41
+T:Lakes of Sligo, The
+M:2/4
+L:1/8
+Q:250
+R:Polka
+D:Chris Droney "The Flowing Tide"
+Q:300
+K:D
+|: "D"FA AB/c/ | d>e dc | "B"B>A "(Em)"Bd | "A7"e>d ef \
+ | "D"FA AB/c/ | "Bm"d>e fe | "G"dB "D"Af | "A7"e2 "D"d2 :|
+|: "D"fa d>e | fa ag/f/ | "Em"gb e>f | gb "A7"ba/g/ \
+ | "D"fa/f/ "A7"ef/e/ | "D"de f/a/f/e/ | "G"dB "D"Af | "A7"e2 "D"d2 :|
+
+X: 42
+T:Lauries Bird
+R:Reel
+C:Bob McQuillen
+M:C|
+L:1/8
+Q:300
+K:G
+DE|:"G" G2 G2 B3 A|GFGA B2 G2|"D7"A2 A2 c3 B|ABAG F2 D2|
+"G" G2 G2 B3 A|GFGA B2 d2|"C"e2 g2 "D7"fedc|"G"B2 G2G2 GF:|
+"Em"E2 EF GAGF|EFGA "E7"B2G2|"Am"A2 e2 c3 B|ABcd e2c2|
+"Em"B2 Bc BAGF|EFGA "E7"B2e2|"Am"cedc "B7"BAGF|"Em"G2 E2E2:|
+
+X: 43
+T:Levi Jackson Rag
+M:4/4
+L:1/8
+R:Reel
+Q:300
+K:G
+d2e2f2|g4 d4| ed Bd- |dB A2 G4| D6 E2|=F4 _B4| d=fg2 f>d =c2 |
+d8-|d2d2e2^f2| !g4 d4|ed Bd- dB A2| G8 | E4 _E2| D4 d4|
+BG A _B>G A2|G8|
+!G2^F2=F2| EG AE GA EG| AE GA EG Ac|e e2 e2 d c2|A4|
+! ^GB ^cG B^c ^GB| ^c^G Bc GB ce|^gg2 g2^fe2| ^c4-| ^c6 ef|
+!^gg2g2 f e2|  =gg2 g2 f d2|ff2 f2 e d2|fa f e2 d B2|b4 g4|ed B A2 G E2|
+G8
+:|
+%  ABC2Win Version 2.1 10/4/2001
+
+X: 44
+T:Little Judique
+R:Reel
+M:4/4
+L:1/8
+Q:300
+K:D
+fg|"D" a^gab a2 f2|d2 A2A2 fg|a^gab a2 f2|!d6 ef|
+"A"gfga g2 e2|  c2A2A2 ef|gfga g2 e2|c4 f>g|!
+"D" a^gab a2 f2|d2 A2A2 fg|a^gab a2 f2|d4 g>a|!
+"G"b2 gb "D"a2 fa |"A"g2 eg "D"f2 ed|"A"c2 Ac a2 c2|"D"d4||!
+K:A|
+"A"e4 e>f|e2c2B2A2|"D"agab a2 f2|"A"e6 fg|"D"a>b a2 f2|
+"A"e2c2a2f2|1"B"e2c2B2A2|"E"B4c2d2|2"E"e2c2B2c2|A6:|
+
+X: 45
+T:Margarets Waltz
+R:Waltz
+C:Pat Shuldham Shaw
+O:Shetland
+Z:Richard Robinson <richard@beulah.demon.co.uk>
+M:3/4
+L:1/8
+Q:300
+K:G % transposed from A
+G>E|"G"D3E G>A|"G"B4 GB|"C"A>G E2G2|"D7"A4 G>E|\
+"G"D3E G>A|"G"B4 d>G|"D7"B4 A2|"G"G4:|
+B>c|\
+"Bm"d2e2f2|"Em"g2f2g2|"Am"e>dc2e2|"D7"d3G (3BAG|
+"G"G3A B>c|"Em"d4 B>G|"Am"e>d c>BzB/d/|"D7"A4 B>c|
+"Bm"d>G e>G f>G|"Em"g>G f>G e>G|"Am"d>G c>G B>G|"D7"A4 G>E|
+"G"D3E G>A|"G"B4 d>G|"D7"B4 A2|"G"G4|]
+
+X: 46
+T:Mari's Wedding
+R:Reel
+M:C
+L:1/4
+Q:300
+K:D
+|"D"A> BA B| d e f f/2f/2| "G"edBd|"A7"fef<a|
+"D"A> BA B| d e f f/2f/2|"G"edBG|"A7"A2 A2:|!
+"D"a>aa b|agf2|"G"edBd|"A7"fef<a|
+"D"a> aa b|agf2|"G"edBG|"A7"A2 A2:|
+
+X: 47
+T:Martin O'Connor's
+M:C|
+L:1/8
+R:polka
+P:A Mixolydian
+Z:Transcribed to abc by Mary Lou Knack
+Q:300
+K:AMix
+"A"F2E2 E2DE| "D"F2D2 D3E| F2E2 D2A2| "G"d2B2 B2A2|
+"A"F2E2 E2DE| "D"F2D2 D3E| F2D2 d4|1 "G"B4 B2A2 :|2 "G"B8 |]
+|:\
+"D"F2d2 d3e| "G"f2e2 "A"e2f2| "D"d3c d2e2| "G"d2B2 "A"B2A2|
+"D"F2d2 d3e| "G"f2e2 "A"e2f2| "D"d2ed "A"c2A2|1 "G"B4 B2A2 :|2 "G"B8 |]
+
+X: 48
+T:Meeting of the Waters,The
+R:march
+Z:1997 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music
+Z:bc/
+M:C
+L:1/8
+Q:300
+K:A
+EF \
+| "A"A2 Ac E2 A>G | "D"FA FD "A"E2 A>B | ce Ee dc BA | "E7"c4 B2 EF \
+| "A"A2 Ac E2 A>G | "D"FA FD "A"E2 A>B | "A"ce dc "E7"dE GB | "A D A"A6
+:|
+|: cd \
+| "A"e>d ce A2 cA | "D"F<A FD "A"E2 A>B | ce Ee dc BA | "E7"c4 B2 cd \
+| "A"e>d ce A2 cA | "D"F<A FD "A"E2 A>B | "A"ce dc "E7"dE GB | "A D A"A6
+ :|"Variation"
+|: EF \
+| "A"A2 A>B c2 cd | eE FA E2 e>d | cE cd ec BA | "E7"c4 B2 EF \
+| "A"A2 A>B c2 cd | "A"ec BA "D"F2 A>B "A"ce dc "E7"dE GB | "A D A"A6 :|
+|: e>d \
+| "A"c2 e>d ce cE | "D"FA dF "A"E2 A>G | "D"FD FA dc BA | "E7"c4 B2 e>d
+\
+| "A"c2 e>d ce cE | "D"FA dF "A"E2 A>B | "A"ce dc "E7"dE GB | "A D A"A6
+:|
+
+X: 49
+T:Merry Blacksmith, The
+R:reel
+Z:Vancouver
+M:4/4
+L:1/8
+Q:300
+K:D
+AB|"D"d2 dA BAFA|ABdA BAFA|ABde f2 ed|"A"Beed egfe|
+ "D"d2 dA BAFA|ABdA BAFA|"A"ABde fedB|"D"AFEF D2:|
+"D"fg|abag fgfd|d2 dA BAFA|ABde f2ed|"A"Beed egfe|
+"D"abag fgfe|d2 dA BAFA|"A"ABde fedB|"D"AFEF D2:|
+
+X: 50
+T:Metsakukkia (Woodland Flowers)
+M:3/4
+L:1/8
+O:Trad Finland
+Z:1998 by John Chambers <jc@trillian.mit.edu>
+Q:300
+K:Gm
+| "Gm"D2 G2 A2 | B2 A2 G2 | d6- | d6 \
+| D2 G2 A2 | B2 A2 G2 | "Cm"e6- | e6 \
+| c2 d2 e2 | e2 d2 c2 | "Gm"d4 B2 | G6 |"D" D2 ^C2 D2|B4 A2|1"Gm" G6-|G6
+ D2:|2 G6|G z g2 ^f:
+| "F"=f3> f f2 | f2 g2 e2 | "Bb"d4 d2 | d2 e2 d2 \
+| "Cm"c3 c c2 | c2 d2 c2 | "Gm"B4 B2 | B2 c2 ^c2 |
+| "Gm"d2 z2 dd | d2 c2 B2 | "A"A6- | A4 D2 \
+| "D"D2 ^C2 D2 | B4 A2 |1 "Gm"G6- | G z g2 ^f2:|2 G6-|G2 z g^f:|!
+| "Gm"g2 z2 ~d^c | d2  z2 ~BA | B2 G2 ^F2 | G2 B2 d2
+| "Cm"e4 d2 | c2 e2 g2 | "Gm"d6- | "Gm"d4 D2
+| "D"D2 ^F2 G2 | A4 D2 | "Gm"D2 G2 A2 | B4 D2
+| "D"D2 ^C2 D2 | B4 A2 |1 "Gm"G6- | G z z2 g2^f2:|2"Gm" G6-|G4:|
+
+X: 51
+T:Morpeth Rant
+M:4/4
+L:1/8
+Q:180
+C:Traditional
+Q:300
+K:D
+(3ABc |\
+"D"d2 AG FDFA |\
+"G"BGBd "A"cAce |\
+"D"f2 df "G"gfed |\
+"A"c2 e2 A2 (3 ABc |\
+"D"d2 AG FDFA |\
+"G"BGBd "A"cAce |\
+"D"f2 df "A"gfec |\
+"D"A2 d4 :: A2 |\
+"D"dfaf dfaf |\
+"G"gfef "Em"g2 ef |\
+"A"gfed cdeg |\
+"D"fefg "A"f2 e2 |\
+"D"dfaf dfaf |\
+"G"gfef "Em"g2 ef |\
+"A"gfed ceag |\
+"D"f2 d2 d2 :|
+
+X: 52
+T:Mountain Road
+R:Reel
+D:asin=B000000DV5(Andy McGann, Paddy Reynolds: Andy McGann &amp; Paddy
+D:Rey
+D:lds)
+D:asin=B000003PZU(Dubliners: Complete Dubliners [BOX SET] [IMPORT])
+D:anop=B0000003EN(Ashley MacIsaac: A Compilation)
+D:anop=B000000E59(Laurence Nugent: Traditional Irish Music On Flute &amp;
+D:n...)
+D:anop=B000002413(Ceilidh House Sessions: From the Tron Tavern Edinburgh
+D:[
+D:PORT])
+D:anop=B000002OOK(Sorcerer: Sorcerer)
+D:anop=B000006OTZ(Battering Ram: Irish Rebel Songs)
+M:C
+L:1/8
+Q:300
+K:D
+DE|"D"F2AF BFAF|F2AF EDB,D|F2AF BFAF|"Em"GEFD EDB,D|\
+"D"F2AF BFAF|F2AF EDB,D|"Em"EFGA BAFA|"A"Bcde "D"fdd2:||\
+"D"dcdA BAFA|dcde fgfe|dcdA BAFD|"Em"GEFD EDB,D|\
+"D"dcdA BAFA|dcde fgfe|defd AFDF|"Em"GEFD EDB,D||
+
+X: 53
+T:Mouse in the Cupboard
+M:6/8
+L:1/8
+Q:300
+K:G
+GA|BcB AGE|DGG FGA|BAB cBc|def gdc|
+BcB AGE|DGG FGA|Bcd cAF|ABF G4:|
+BAB cBc|dgg fdc|def gfg|abg fdd|
+dgg b2 g|a2 g fdc| Bcd cAF |AGF G4:|
+
+X: 54
+T:Old French
+S:via PR
+M:4/4
+L:1/4
+Q:300
+K:D
+(3A/2B/2c/2|"D"dc/2d/2 B/2d/2A/2F/2|D/2F/2A/2d/2 fe/2d/2|\
+"A"c/2d/2e/2f/2 g/2e/2c/2e/2|"D"d/2e/2f/2d/2 "A"A(3A/2B/2c/2|
+"D"dc/2d/2 B/2d/2A/2F/2|"D"D/2F/2A/2d/2 fe/2d/2|\
+"A"c/2d/2e/2f/2 "A7"g/2e/2c/2e/2|"D"df d::
+c/2d/2|"A"e/2f/2e/2d/2 cA|A/2E/2A/2c/2 ed/2c/2|"G"B/2=G/2B/2d/2 g/2f/2e/
+2d/2|\
+"A"c/2A/2c/2e/2 ac/2d/2|
+"A"e/2f/2e/2d/2 cA|A/2E/2A/2c/2 ed/2c/2|"G"B/2=G/2B/2d/2 g/2f/2e/2d/2|"A
+"cA A\
+:|
+
+X: 55
+T:Old Grey Cat
+M:4/4
+L:1/8
+Q:300
+K:EDor
+"Em"e2 e2 E3F| GFGA BABc|"D"d2d2 D3E|FAdB AFED|
+"Em"e2e2 E3F| GFGA BABc|"D"dcBA BAGF|"Em"E4 e2 :|
+|: "Em"B2e2 e3d|Bdef gfed|"D"A2d2 d3B|ABde fedf|
+"Em"e2B2 "G"g2B2|"A"a2B2 "B"b4a|gfed BABd|"EM"e4 e4 :|
+
+X: 56
+T:Pays de Haut (The High Country)
+M:C|
+L:1/8
+Q:300
+R:reel
+Z:1997 by John Chambers <jc@trillian.mit.edu>
+K:D
+|: fg \
+| "D"afaf d2ef |  "A7"gege c2ef | gfed cABc | "D"defg a2 fg|
+"D"afaf d2ef |  "A7"gege c2ef | gfed cABc | "D"df"A7"ec "D"d2 :|
+|: AG \
+| "D"FAdA FAdA | "G"GBdB GBdB | "A7"ABcd efec|"D"defg a2 AG|
+"D"FAdA FAdA | "G"GBdB GBdB | "A7"ABcd efec| "D"df "A7" ec "D"d2:|
+
+X: 57
+T:Pincushion Polka
+M:2/4
+L:1/16
+R:Polka
+Q:300
+K:C
+E2|EFG2 GAG2|c2E2 G4|A2D2 F4|G2C2 E4|
+EFG2 GAG2|c2E2 G4|A2D2 F2B,2|C2E2 C2:|
+K:G
+D2D2 c4|B2B2 G4|ABc2 D2F2|G2B2 D4|
+D2D2 c4|B2B2 G4|ABc2 D2F2|A2G2 G2:|
+K:C
+EFG2 GAG2|c2E2 G4|A2D2 F4|G2C2 E4|
+EFG2 GAG2|c2E2 G4|A2D2 F2B2|C2E2 C2:|
+K:F
+z2|C2F2 F2A2|BcBA GAB2|C2G2 G2AG|F2d2 c4|
+C2F2 F2A2|BcBA GAB2|C2G2 G2AG|F2A2 F2:|
+%  ABC2Win Version 2.1 1/19/2002
+
+X: 58
+T:Prayermaster Jig,The
+M:6/8
+L:1/8
+N:Smoothly
+Q:300
+K:G
+|"Em"EFE G2 A|"Em"BAG F2 E|"D"DED F2 A|"Em"G2 B "Bm"AFD
+|"Em"EFE G2 A|"Em"BAG FGA|"Em"B2 E "Bm" EFD|"Em"E4 E2 D:|
+|"G"G2B d2e|"G"dBG dBG|"D"D2F A2B|"D"AFD AFD
+|"G"G2B d2e|"G"dBG GBd|"Em"e2E "Bm"EFD|"Em"E4 E2D:|
+%  ABC2Win Version 2.1 8/15/2001
+
+X: 59
+T:Prince William
+R:Reel
+N:Smooth, balance A1,B
+M:4/4
+L:1/4
+Q:300
+K:A
+|"A" A2 c B/2A/2|"E" B EE d|"A"c2 "E"B2| "A" A/2G/2A/2B/2 A B|
+c A E c|"E"B3 A|G e "B7"B ^d|"E" e4 :|
+"A"e2  "D" f>  "A" e | "D" d c "E" Be|"D" d "A" c "E" B "A" A| "E" G B "
+E7"E2|
+"A" A G/2A/2 "E" B A/2B/2| "A"c B/2c/2 "D" d e|"A"c B/2A/2 "E7"E G|"A" A
+4:|
+
+X: 60
+T:Priscilla's Jig
+M:6/8
+L:1/8
+C:Bob McQuillen
+R:Jig
+B:Bob's note book #3
+Q:300
+K:G
+D| "G"GAB BAB| GFE DGA| BAB  "C"cde|"G" dBG GBd|
+ "C" e2c ABc| "G" d2B GAB| "A7" cde dcB| "D7" AFD DEF|
+ "G"GAB BAB| GFE DGA| BAB  "C"cde|"G" dBG GBd|
+ "C" e2c ABc|"G" dBG GAB| cAF DEF|GGG G2A ||
+"D" |
+[K:D]
+ FAA BAA| Ade "C" fAA|"G" gAA "D" fAA|
+"A7" efe dcB| "D" AFA BAF| Ade fAA| "A7" gfg ede|fdd d2:|
+
+X: 61
+T:Reel Saint-Joseph
+R:Reel
+S:Portland collection
+M:4/4
+L:1/8
+Q:300
+K:D
+"D"defd "A"cdec|"A"defd A2 dc|"G"B2 gf edcB|"A" Aaab agfe|
+"D"defd "A"cdec|"A"defd A2 dc|"G"B2 gf edcB|1 "A"Agec "D"d4|2"A"Agec "D"
+d2:|
+e2|"D" f2 fg fedc|"G"BA G2 "Em"g3 f|"A"e2 ef edcB|Aaab agfe|
+"D" f2 fg fedc|"G"BA G2 "Em"g3 f|"A"e2 ef edcB|1"A"Agec "D"d2|2"A"Agec "
+D"d4:|
+
+X: 62
+T:Richmond Cotillion
+R:reel
+S:Portland collection
+M:4/4
+L:1/8
+Q:250
+K:D
+dB|"D"A2 f2 fgfe|d2 F2 A3 d|"A"c2 B2 A2 B2|ABAG FGFE|
+"D"D2 f2 fgfe|d2 F2 A3 d|"A"c2 A2 B2 c2|"D"d4:|
+K:A
+|:"A" efed cdeg| a2 c2 e4|"E"B2 c2 d2 B2|"A" cdcB ABcd|
+"A" efed cdeg| a2 c2 e3 a|"E"g2 e2 f2 g2|"A" a4:|
+
+X: 63
+T:Riding On A Load Of Hay
+M:2/4
+L:1/8
+Q:200
+C:Traditional
+S:A Little Couple Dance Musik
+R:Polka
+N:Second in set with "King of the Faeries
+Q:300
+K:Em
+|:"Em"E>F GA|"Em"Be ef/2e/2|"Bm"dB A/2B/2A/2G/2|"D"FD D/2E/2F/2D/2|
+"Em"E>F GA|"Em"Be ef/2g/2|"G"ge "D"af|1"Em"e2eB:|2"Em"e2 ef||:!
+"Em"g2 f>f| "Bm "ed "Em"BB/2^c/2|"D"dA A/2B/2A/2G/2|"D"FDD2|1
+"Em"ge/2g/2 "D"fg/2f/2|"Em"ed B> ^c|"D"dA B/2A/2G/2F/2|"Em"E2E2:|2
+"Em"EG "Bm"FA|"Em"GB e>f|"Em"ge"D"af|"Em"e2e2||
+
+X: 64
+T:Sandy River Belles - G
+M:4/4
+L:1/4
+Q:300
+K:G
+A|"G"D/2E/2G/2A/2 B2|AG ed|"G"D/2E/2G/2A/2 B2|"Am"AG "D7"ED|
+"G"D/2E/2G/2A/2 B2|"G"AG "D7"ed|"G"dg/2e/2 "C"dg/2e/2|"D7"d/2B/2A "G"G2:
+|
+|:"G"dg/2d/2 e/2d/2B|
+db ag|"G"dg/2d/2 e/2d/2B|"G"e/2d/2B "D7"a2|
+"G"dg/2d/2 e/2d/2B|"G"d/2g/2b/2g/2 "C"a/2g/2e/2g/2|"G"dg/2d/2 "C"e/2d/2g
+/2e/2|\
+"D7"d/2B/2A "G"G2:|
+
+X: 65
+T:Sandy River Belles
+M:4/4
+L:1/4
+Q:300
+K:D
+E|"D"A,/2B,/2D/2E/2 F2|ED BA|"D"A,/2B,/2D/2E/2 F2|"Em"ED "A7"B,A,|
+"D"A,/2B,/2D/2E/2 F2|"D"ED "A7"BA|"D"Ad/2B/2 "G"Ad/2B/2|"A7"A/2F/2E "D"D
+2::
+"D"Ad/2A/2 B/2A/2F|Af ed|"D"Ad/2A/2 B/2A/2F|"D"B/2A/2F "A7"e2|
+"D"Ad/2A/2 B/2A/2F|"D"A/2d/2f/2d/2 "G"e/2d/2B/2d/2|"D"Ad/2A/2 "G"B/2A/2d
+/2B/2|\
+"A7"A/2F/2E "D"D2:|
+
+X: 66
+T:Knocknabower Polka,The
+T:Scartaglen Polka,The
+M:2/4
+L:1/8
+Q:300
+C:Trad
+R:Polka
+Q:300
+K:G
+D|G2 G>A|Bd de/2f/2|gB B/2A/2G/2A/2|BA AB/2A/2|!
+G2 G>A|Bd de/2f/2|gB AB/2A/2|G3:|!
+A|Bd g>g|fe e/2f/2g/2e/2|dB B/2A/2G/2A/2| BA A2|!
+Bd g>g|fe e/2f/2g/2e/2|dB AB/2A/2|G3:|!
+d|g2 a2|b3 a|g2 a2|b3 a|!
+ge e/2f/2g/2e/2|dB g>e|dB AB/2A/2|G3:|!
+
+X: 67
+T:Scotland the Brave
+M:4/4
+L:1/4
+Q:300
+K:G
+D|"G"G2 G3/2A/2|"G"BG Bd|"G/b"g2 "C"g3/2a/2|"G/b"gd BG|"C"c2 e3/2c/2|
+\
+"G"Bd BG|
+"Am"A2 d3/2e/2|"D7"dc BA|"G"G2 "C"G3/2A/2|"G"BG Bd|"G/b"g2 "C"g3/2f/2|\
+"G/b"gd BG|
+"C"c2 e3/2c/2|"G"Bd "Em"BG|"Am"A2 "D7"G3/2F/2|"G"G2 fg|"D7"a2 a3/2a/2|\
+"D7"af d2|"G"g2 b3/2a/2|
+"G"gd BG|"Em"g2 gg|"B7"f2 gf|"Em"eg fe|"D7"dc BA|"G"G2 "C"G3/2A/2|
+"G"BG Bd|"G/b"g2 "C"g3/2f/2|"G/b"gd BG|"C"c2 e3/2c/2|"G"Bd "Em"BG|\
+"Am"A2 "D7"G3/2F/2|"G"G2 G:|
+
+X: 68
+T:Smash the Windows
+M:6/8
+L:1/8
+Q:300
+K:D
+|:"D"DED F2 A|d2 f ecA|"G"G2 B "D"F2 A|"A"E2 F GFE|\
+"D"DED F2 A| d2 f ecA|"G"Bgf "A"edc|"D"(d3 d2) :|
+|: "D"a|a2 f d2 f|A2 a agf|"G"g2 e "A"c2 e|A2 g gfe|\
+"D"f2 d "G"g2 e|"D"a2 f "G"bag|"D"fed "A"edc|"D"(d3 d2) |
+!"D"agf fed| Adf afd| "G"gfe ecA|Ace gfe|
+"D"fed "G"gfe|"D"agf "G"bag| "D"fed "A"cde|"D" d4|
+
+X: 69
+T:Spootiskerry
+M:C|
+L:1/8
+C:Ian Burns (Shetland)
+R:reel
+N:BSFC 4-16
+D:as trad by Fiddlers Five on CD 7
+Z:John Chambers <jc@trillian.mit.edu>
+Q:300
+K:G
+|: DE | "G"G2DE GDEG | DEGA "D7"B2AB | "G"G2DE "Em"GABd | "Am"eged "D7"B2AB
+| "G"G2DE GDEG | DEGA B2AB | "C"g2ed "D7"edBA | "G"B2G2 G2 :|
+| ef | "G"g2ed "Em"edB2 | "C"BABG "D7"E2DE | "G"GABd "Em"eged | "Am"B2A2 "D7"A2ef
+| "G"g2ed "Em"edB2 | "C"BABG "D7"E2DE | "G"GABd "D7"eged | "G"B2G2 G2ef
+| "G"g2ed "Em"edB2 | "C"BABG "D7"E2DE | "G"GABd "Em"eged | "Am"B2A2 "D7"A2DE
+| "G"G2DE GDEG | DEGA B2AB | "C"g2ed "D7"edBA | "G"B2G2 G2 |
+
+X: 70
+T:Staten Island Hornpipe
+M:4/4
+L:1/8
+R:Hornpipe
+Q:300
+K:D
+|:AG|FDFGA2A2|dfed dcBA|B2GBA2FA|G2E2E2AG|!|
+FDFGA2A2|dfed dcBA|d2dd efge|f2d2d2:|!|
+fg|a2fag2eg|f2df ecA2|=c2c2efge|=c2c2efge|!|
+a2fag2eg|f2df ecA2|d2dd ef ge|f2d2d2:|
+
+X: 71
+T:Still They Say She's Kind Of Pretty
+R:Reel
+S:Canterbury Country Dance Orchestra
+M:C|
+L:1/4
+Q:300
+K:G
+|:"G"GB Ac "D"(B/2c/2d/2) eg|"G"GG Bd "C"cB A2|
+ "G"GB Ac "D"(B/2c/2d/2) eg|"D"GG Bd (c/2B/2A/2) "G"G2:|
+"G"gg fd "D"(e/2f/2g/2) dB|"C"GB Ac"G" Bde2|
+"G"gg fd "D"(e/2f/2g/2) dB|"D"GG Bd (c/2B/2A/2) "G"G2:|
+
+X: 72
+T:Swinging on a Gate
+M:C|
+L:1/8
+Q:300
+K:G
+"G"gedB G2AB|"Am"cABG AGEG|"G"DGBd g2g2|"D"fgag fdef|
+"G"gedB G2AB|"Am" cABG AGEG|cABG AGEG|"D"DGGF "G"G2d2 :|
+"G"gfga bagf|"Em"gfed B2AG| "Am"EAAB cBAG|EAAB "D"cdef|
+"G"gfga bagf|"Em"gfed edBd|"C"cABG "Am"AGEG|"D"DGGA "G"G2G2 :|
+%  ABC2Win Version 2.1 3/28/2003
+
+X: 73
+T:Tobin's Favorite
+M:6/8
+L:1/8
+C:Tobin.
+R:Jig
+B:O'Neill's Music of Ireland
+N:O'Neill's - 775
+Z:Transcribed by Stephen Foy (shf@access.digex.net)
+Z:abc 1.6
+Q:300
+K:D
+A/F/|"D"DFA dcd|"A"ecA cde|"D"fdf "G"{a}gfg|"A7"ecA GFE|\
+"D"DFA dcd|"A"ecA efg|"D"(f/g/a)f "G"gec|"A7"edc "D"d2:|
+||d|"D"dfa agf|"A7"(e/f/g)e efg|"D"fdf "G"{a}gfg|"A7"ecA GFE|\
+"D"DFA dcd|"A7"ecA efg|"D"(f/g/a)f "A7"gec|"D"edc d2:|
+
+X: 74
+T:Turnpike Side
+M:6/8
+L:1/8
+S:Trad, arr Phil Rowe
+Q:300
+K:D
+A|"D"d2d "A"c2A|"G"BdB "D"AGF|"G"G2e "D"F2d|"Em"E2d "A"cBc|
+"D"d2d "A"c2A|"G"BdB "D"AGF|"Em"G2e "D"F2d|"A"cBc "D"d2::
+A|"D"d2f a2b|afd a2f|"A"A2c e2f|ecA e2c|
+"D"d2f a2b|"D"afd "Bm"a2f|"Em"gbg "D"faf|"A"edc "D"d2:|
+
+X: 75
+T:Waiting For The Federals
+S:via PR
+M:4/4
+L:1/4
+Q:300
+K:G
+"G"B2 BA/2B/2|dB B/2A/2G|"Em"B2 d3/2B/2|"Am"A/2B/2A/2G/2 "D7"EG|
+"G"B2 BA/2B/2|"G"dB B/2A/2G|"C"A/2B/2A/2G/2 "D7"E(3D/2E/2F/2|"G"G2 -G2::
+"G"g2 g/2a/2g/2e/2|dB B/2A/2G|"Em"g2 g/2f/2g/2a/2|"Am"b/2ef/2 "D7"ef|
+"G"g/2a/2b/2a/2 "Em"ge|"D7"d3/2A/2 "G"B/2A/2G|"C"A/2B/2A/2G/2 "D7"E(3D/2
+E/2F/2\
+|"G"G2 -G2:|
+
+X: 76
+T:Walker Street (Carpenter's Reel)
+M:C|
+L:1/8
+O:Trad
+B:Cole p.45
+Z:John Chambers <jc@trillian.mit.edu>
+Q:300
+K:G
+|: "G"~G2 BG [dD]GBG | "D7"ABcd cBAG | "G"BdgB dgBd | "C"cBAG "D7"FDEF |
+|  "G"~G2 BG [dD]GBG | "D7"ABcd cBAG | "G"BdgB dgBd | "D7"cAFD "G"G4 :|
+((3d/e/f/ |: "G"g2)dg Bgdg | gabg "D7"agef | "G"g2dg Bgdg | "C"cBAG "D7"
+Fdef |
+|  "G"g2dg Bgdg | gabg "D7"agef | "C"gfga "(G)"gfed | "C"eg"D7"fa "G"g4
+:|
+
+

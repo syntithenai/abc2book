@@ -1,0 +1,28 @@
+X: 1
+T: Nowill Hills
+T: Love Neglected
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.340
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain play'd twice" instruction.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D2F2 A2d2 | A4 F4 | G3A (BA)(GF) | E6 E2 |\
+D2F2 A2d2 | A4 f4 | (ef)(ec) (dc)(BA) | A8 :|
+|:\
+A2c2 e2a2 | e4 c4 | d3e (fe)(dc) | B6 B2 |\
+A2d2 A2F2 | A4 B4 | (AB) (AF) (GF)(ED) | D8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first man runs the Heys with the second couple, the first woman do the same; the first man and
+%% woman runs round their own Partners, the first woman and second man do the same, the two men take
+%% both hands and fall back, the women do the same at the same time, then Right-hands and Left. Each
+%% Strain play'd twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

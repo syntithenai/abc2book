@@ -65,6 +65,7 @@ function TuneBookOptionsModal(props) {
           {(props.currentTuneBook && props.token) && <hr style={{width:'100%', clear:'both'}} />}
            {<span style={{marginLeft:'0.3em',float:'right', paddingBottom:'1em'}} ><ShareTunebookModal tunebook ={props.tunebook} token={props.token} googleDocumentId={props.googleDocumentId} tiny={false} currentTuneBook={props.currentTuneBook}  /></span>}
            
+           
            {(props.user && props.user.email &&  props.user.email === 'syntithenai@gmail.com' && props.currentTuneBook && props.token) && <Button style={{color:'black'}} variant="info" onClick={exportYouTubePlaylist} >{props.tunebook.icons.add} {props.tunebook.icons.youtubeblack} Export YouTube Playlist</Button>}
            
          <hr style={{width:'100%', clear:'both'}} />

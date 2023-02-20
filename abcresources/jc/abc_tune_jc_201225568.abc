@@ -1,0 +1,65 @@
+%%text RJ Set 097 Old-Time set
+
+
+X: 1
+T: Turkey in the Pea Patch
+O: traditional
+M: C|
+L: 1/8
+R: reel
+K: D
+[|\
+"D"A2F2 D3 F | ABAG F2D2 | "A"E2C2A,3F | AcBA FA3 |\
+"D"A2F2 D4 | ABAG F2DF | "A"E2C2A,CEG | FDEF "D"D4 \
+[|\
+"D"A2F2 D4 |
+dBAG F2D2 | "A"E2C2A,2E2 | AcBA F2A2 |\
+"D"A2F2 A2F2 | ABAG F2DF | "A"E2C2 E2EG | FDEF "D"D4 \
+|:\
+"D"d2fd "G"BcdB | "D"AdBA FG A2 |
+"A"Acdf edef | "G"gfed "A"cABc |\
+"D"defd "G"BcdB | "D"ABAG F2DF | "A"E2C2A,2EG |["cont" FDEF "D"D4 :|["trans" FDEF "D7"D DED |
+% text 08/10/2009
+
+
+X: 2
+T: Big Sciota (traditional)
+M: C|
+L: 1/8
+K: G
+D ED |\
+"G"G2GA Bcd2 | B3A B3 B- |\
+BAGB "D"AGED | "G"G3 G2 D ED |\
+GFGA Bcd2 | "C"e3 e2-e2A |
+"G"BAGB "D"AGEG | "G"AG2 G2 D ED |]\
+"G"G2GA Bcd2 | B3A B3 B- |\
+BAGB "D"AGED | "G"GE DB, A,G,3 |
+GFGA Bcd2 | "C"e3 e2-e2 d |\
+"G"BAGB "D"AGED | "G"G3 G2 A Bd |\
+|:\
+"G"g3a ba g2 | "A"e a2 a2-a2 e |
+aege fe d2 | "C"Be2 e3ef |\
+gefg fed2 | "Am"Be2 e2-e2A |\
+"D"BAGB AGED |[1 "G"G3 G2 A Bd :|[2 "G"AG3-G |]
+% text Transition: Play G7 on last beat.
+
+
+X: 3
+T: Say No More
+C: Mark Simos
+M: C|
+L: 1/8
+K: C
+ag |\
+"C"ecag ecag | (3ege c2 c2 Bc |\
+"G"dedc BGAB | "C" cdef "G"g2ag ||\
+"C"ecag ecag | ec-cd c2 Bc |
+"G"dedc BGAB | "C"c6 :: AB |\
+"Am"c2 B2 AE3 | "F"F6 AB |\
+"Am"c2 B2 AE3 | "Dm"F4 "E7"E4 ||\
+"Am"cABc AGEG | "F"FE F2 "F#dim"A4 |
+"G"G^FGA G=F DB, | "C"C6 :|\
+y8 [| "G7   Internal tag ending (depending on dance):"\
+G^FGA G=F D2 | G^FGA G=F D2 | G^FGA G=F DB, | "C"C6 |]
+% text 08/10/2009
+

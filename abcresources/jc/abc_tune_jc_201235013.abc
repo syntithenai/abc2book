@@ -1,0 +1,30 @@
+X: 20961
+T: SAWNEY'S PIPE
+O: Old Scottish melody.
+Q: "Slow and with feeling."
+%R: air, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.96 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The dot on the a in bar 12 isn't needed, but was in the original.
+M: C
+L: 1/8
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+C2 |\
+E2G2 g3e | (fe)(dc) A3G |\
+E2G2 (fe)(dc) | A>Bc2 z2c2 |\
+(GE)(GA) c2(de) | (ge)(dc) A3G |\
+(EG)(Aa) (ge)(dc) | A>Bc2 z2G2 |
+(cd)(ef) g3(f/e/) | (fe)(dc) {c}d3G |\
+c2(de) (fe)(dc) | {fg}a3 Hg2 z2g2 |\
+f2(eg) {g}a3g | (fe)(dc) A3G |\
+(E>F)G2 (fe)(dc) | A2{B}c2 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The old song which narrates the death of Colonel
+%% Gardner at Prestonpans is sung to this air.
+%%endtext
+%%sep 1 1 300

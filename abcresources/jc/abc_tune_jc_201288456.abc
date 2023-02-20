@@ -1,0 +1,18 @@
+X: 786
+T: the Humors of Bandon
+R: jig
+C: J. O'Neill
+B: O'Neill's 1850 "Music of Ireland" #786
+Z: Stephen Foy (shf@access.digex.net)
+%abc 1.6
+Z: 1/4 note ornaments (~) are trills.
+Z: 1/8 note ornaments (~) are mordents.
+Z: Dal Segno above first and last bar-lines, fermata above repeat sign.
+M: 6/8
+K: G
+D !segno!|\
+D>GG {A}GFG | ~BAG FGA | {A}d G {A}GFG | Bcd =fef |\
+Td2e c2d | {d}cAG FGA | {c}BAG (A<D)F | G3 G2 H:|
+|: B |\
+d<gg ~gfg | (f<a)g f2 a | Tg2 f d2 e | T=f2 d c2 e |\
+Td2 c A2 B | Tc2 A G2 B | TA2 G F2 A | {A}GFE F2!segno!E |]

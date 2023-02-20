@@ -1,0 +1,51 @@
+X: 10241
+T: BOSTON CADETS
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.24,25 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added rests to last bar of 1st strain to fix the rhythm.
+M: C
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+|:\
+b4 f3d | B2B>B B2d>B | c2F>F F2e>c | d2B>B B2d>B |\
+c2F>F F2e>c | d2B>B B2z2 | dd/c/ df df df | =ee/d/ eg eg eg |
+f>cd>B A2G2 | cc/=B/ cf f=e dc | cc/=B/cf f=edc | f>c d>B A2G2 |\
+cc/=B/ cf f=edc | cc/=B/ cf f=edc | f>c c>B A2G2 | F2F>F F2z2 :|
+|:\
+c2c>c c2d2 | .e2.d2 .c2.d2 | .e2.d2 .c2.d2 | .e2.d2 .c2 f/g/b |\
+b4 f3d | B2B>B B2d>d | c2F>F F2e>e | d2B>B B2d>d |\
+c2F>F F2e>e | d2B>B B2F2 |
+B>ge>c A>af>d | B>bf>e c>c'a>f | b>fg>e d2c2 |: ff/=e/ fbbagf :|\
+b>fg>e d2c2 |: ff/=e/ fbbagf :| b>f g>e d2c2 | B2B>B B2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+|:\
+b4 f3d | B2B>B B2B>B | A2F>F F2c>A | B2D>D D2B>B |\
+A2F>F F2c>A | B2D>D D2z2 | BB/A/ Bd Bd Bd | GG/F/ GB B2B2 |
+A>AB>G F2=E2 | AcAc BcBc | AcAc BcBc | A>AB>G F2E2 |\
+AcAc BcBc | AcAc BcBc | A>A BG F2E2 | A2A>A A2z2 :|
+|:\
+A2A>A A2B2 | .c2.B2.A2.B2 |.c2.B2.A2.B2 |.c2.B2.A2z2 |\
+B4 F3D | B,2B,>B, B,2 B>B | A2F>F F2A>A | B2D>D D2z2 |\
+A2F>F F2c>c | B2B>B B2z2 |
+G2zG A2zA | B2zB c2zc | d2e>c B2A2 |: DFDF EFEF :|\
+D>d e>c B2A2 |: DFDF EFEF :| D>d e>c B2A2 | B2B>B B2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+|:\
+b4 f3d | B2B>B B2z2 | F>cA>c F2z2 | B2B>B B2z2 |
+F>cA>c F2z2 | B2B>B B2z2 | B2B2 B2B2 | c2c2 c2c2 |
+f2b2 c'2c2 | f2FA c2z2 | f2FA c2z2 | f2b2 c'2c2 |\
+f2f2 c2c2 | f2f2 c2c2 | f2b2 c'2c2 | f2f>f f2z2 :|
+|:\
+f2f>f f2f2 | .f2.f2.f2.f2 | .f2.f2.f2.f2 | .f2.f2.f2z2 |\
+b4 f3d | B2B>B B2z2 | F>A c>A F2z2 | B2B>B B2z2 |\
+F>A c>A F2z2 | B2B>B B2z2 |
+e2z=e f2zf | g2zg a2za | b2e2 f2z2 |: f2f2 f2f2 :|\
+b2e2 f2F2 |: f2f2 f2f2 :| b2e2 f2F2 | B2B>B B2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

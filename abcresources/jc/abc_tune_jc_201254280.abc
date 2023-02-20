@@ -1,0 +1,57 @@
+
+X: 1
+T: Boibriker Gasn Nign    [Dm]
+T: Mazel Tov
+D: Khevritsa "European Klezmer Music" 2000 track 2 "Mazeltov"
+S: PDF from Jon Cannon
+R: zhok, horra
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+Q: "Zhok"
+M: 3/8
+L: 1/16
+K: Dm
+A,2 |:\
+"Dm"D3 BAG | F3 GFE | D2z2 D2 | F6 |\
+D2E2F2 | "C(A7)"G2F2EG | "F(Dm)"F6 | "Dm"F2D2A,2 |
+"Dm"D3 BAG | F3 GFE | D2z2 D2 | "Gm"G6 |\
+"Dm"F3 GGF  | F3D "Cm"(3_EDC | "Dm"D3 AFA | D4 A,2 :|
+|:\
+"Cm"C2D2_E2 | "D"D6 | ^F3D "Cm"(3_EDC | C3 BAG |\
+"D"^F2G2A2 | G2^F2A2 | "Gm"G6- | G3D "Cm"(3_EDC |
+"Cm"C2D2_E2 | "D"D4D2 | ^F3D "Cm"(3_EDC | C3 AB=B |\
+"Cm"c3 BAG | "D"^F3D "Cm"(3_EDC | "D"D3 A^FA | "D"D6 :|
+|:\
+"F"F6- | F3 CFA | c6- | c6 |\
+"Bb"d3 ccB | "C7"B3 AcB | "F"A3 | A2G2F2 |
+"F"C2F2G2 | A6 | "Gm"G3 DBA | G6 |\
+"Dm"F3 GGF | F3_E "Cm"(3_EDC | "Dm"D3 AFA | D6 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Boibriker Gasn Nign    [Em]
+T: Mazel Tov
+D: Khevritsa "European Klezmer Music" 2000 track 2 "Mazeltov"
+S: PDF from Jon Cannon
+R: zhok, horra
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+Q: "Zhok"
+M: 3/8
+L: 1/16
+K: Em
+B,2 |:\
+"Em"E3 cBA | G3 AGF | E2z2 E2 | G6 |\
+E2F2G2 | "D(B7)"A2G2FA | "G(Em)"G6 | "Em"G2E2B,2 |
+"Em"E3 cBA | G3 AGF | E2z2 E2 | "Am"A6 |\
+"Em"G3 AAG  | G3E "Dm"(3=FED | "Em"E3 BGB | E4 B,2 :|
+|:\
+"Dm"D2E2=F2 | "E"E6 | ^G3E "Dm"(3=FED | D3 cBA |\
+"E"^G2A2B2 | A2^G2B2 | "Am"A6- | A3E "Dm"(3=FED |
+"Dm"D2E2=F2 | "E"E4E2 | ^G3E "Dm"(3=FED | D3 Bc=c |\
+"Dm"d3 cBA | "E"^G3E "Dm"(3=FED | "E"E3 B^GB | "E"E6 :|
+|:\
+"G"G6- | G3 DGB | d6- | d6 |\
+"C"e3 ddc | "D7"c3 Bdc | "G"B3 | B2A2G2 |
+"G"D2G2A2 | B6 | "Am"A3 EcB | A6 |\
+"Em"G3 AAG | G3=F "Dm"(3=FED | "Em"E3 BGB | E6 :|

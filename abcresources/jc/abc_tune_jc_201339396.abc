@@ -1,0 +1,74 @@
+
+X: 1
+T: the Sound of Sleat
+C: D.MacKinnon
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+f \
+"A"|: "D"A2AB "Bm"Bdd2 | "Em"e2ed "A7"eff2 |  "D"A2AB "Bm"Bdde | "Em"fded "A7"B2A2 :|
+"B"|: "D"f2fe faa2 | "Em"e2de "A7"fdBA  |1 "D"f2fe faae | "Em"fded "A7"B2A2 \
+                                       :|2 "Em"e2ed "A7"effa | "D"fded "A7"B2A2 |]
+"C"|: "D"A2AG "G"B2BA | "D"d2df "A7"edef | "D"A2AG "G"B2BA | "D"fded "A7"B2A2 :|
+"D"|: "D"a2fa afa2 | "Em"e2de "A7"fdBA  |1 "D"a2fa afa2 | "D"fded "A7"B2A2 \
+                                       :|2 "D"d2df "Em"edef | "D"fded "A7"B2A2 |]
+
+
+X: 1
+T: Tail Toddle Reel v.2
+C: E.MacColl
+R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: page in Concord Slow Scottish Session collection
+N: "Burns Tunes  SRSNH  1/93  5.14" at top
+B: the Sinkler Manuscript of (1710) untitled
+B: the George Skene Manusript 1717-c.1740, as "Lasses Gar Your Tails Toddle"
+B: the Drummond Castle Manuscript (1734)
+B: Aird (1785)
+B: BSFC Session Tune Book 2016 p.48
+S: Barbara McOwen
+M: C|
+L: 1/8
+K: D
+A2 |:\
+"D"d2fd "G"g2fe | "D"~d2 fd "A7"e2cA |\
+"D"d2fd "G"g2fe | "D"f{g/}a gf "A7"e2cA :|\
+"G"g2dB B2dB | "G"g2dB "A"e2cA |
+"G"g2dB B2dB | "D"~A2 af "A"e2cA ||\
+"G"g2dB B2dB | "G"g2dB "A"e2cA |\
+"G"g2dB g2dB | "D"~A2 af "A"e2cA |]
+
+
+X: 1
+T: Rannie MacLellan's Reel
+C: Brenda Stubbert
+O: Cape Breton
+S: http://www.cranfordpub.com
+D: In Jig Time, 1994; Fiddler's Choice, Jerry Holland; Natalie MacMaster Live
+R: reel
+B: Brenda Stubbert's Collection
+B: BSFC Session Tune Book 2016 p.49
+L: 1/8
+M: C|
+K: D
+fe |\
+"D"dBAd BAFD | "Em"E2FE "G"DB,B,D | "D"A,B,DE "(Bm)"F2ED | "Em"EBBA "A"B3c | "D"defe dBAF |
+"Em"E2FE "G"DB,B,D | "D"A,B,DE "(Bm)"F2dB | "A"AFEF "D"D2 :: FG | "D"Addc d2cA | "Em"Beed "(A7)"e2de |
+"D"f2af "Em"egfe | "G"dBAd "A"FEEF | "D"Dddc d2cA | "Em"Beed "(A7)"e2de | "D"f2af "G"egfe | "A"dBAF "D"D2 :|
+
+
+X: 1
+T: the Spey In Spate
+C: James Scott Skinner
+B: BSFC Session Tune Book 2016 p.49
+B: BSFC Tune Book XII-3
+Z: Nigel Gatherer; small changes by John Chambers
+M: 4/4
+L: 1/8
+K: D
+A,2 | "D"D2FD A,DFA | dcBA ^GAFD | "Em"E2GE B,EGB | "A7"gecA GECA, || "D"D2FD A,DFA | dDcD BDAf |
+| "G" gefd "Em"ecdB | "A7"AFGE "D"DABc |[| "D"d/d/d fd AdFA | DFAd fagf | "Em"e/e/e ge BeGB |
+| "A7"CEAc egfe || "D"d/d/d fd AdFA | DFAd fagf | "G"gefd "Em"ecdB | "A7"AFGE "D"D2 |]
+%%text Also as a 32-bar reel with 1st & 2nd endings.

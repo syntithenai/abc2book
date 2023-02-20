@@ -1,0 +1,57 @@
+X:1
+T:Juggernaut
+M:6/8
+L:1/8
+Q:80
+C:
+S:Jig
+K:HP
+[| e | \
+{g}A{d}A{e}A{Gdc}d2f | \
+{g}Adfafd | \
+{g}G{d}G{e}G{gBd}B2d |
+{g}GBdgdB | | \
+{g}A{d}A{e}A{gcd}c2e | \
+{g}A{d}ceg{g}eg |
+{gfg}f2d{gef}e2c | \
+{Gdc}d2B{g}cB{G}A|] [ | \
+| {Gdc}d3{g}A2d |
+{g}Adfafd | \
+{gBd}B3{e}G2{d}B | \
+{g}GBdgdB| |
+{gcd}c3{e}A2{d}c | \
+{g}A{d}ceg{a}eg | \
+{a}fdf{a}gec |
+{g}edc{Gdc}d3|] [ | \
+| {ag}a2f{gdc}d2f | \
+{g}Adfafd |
+{gf}g2d{gBd}B2d | \
+{g}GBdgdB | | \
+{gef}e2c{g}A2{d}c |
+{g}A{d}ceg{a}eg | \
+{ag}a3{f}g3 | \
+{gfg}f3{gef}e3|] [ |
+| {ag}a2f{gdc}d2f | \
+{g}Adfafd | \
+{gf}g2d{gBd}B2d |
+{g}GBdgdB | | \
+{gef}e2c{g}A2{d}c | \
+{g}A{d}ceg{a}eg |
+{a}fdf{a}gec | \
+{g}edc{Gdc}d3|] [ | \
+| {g}dfd{g}A2d |
+{g}Adfafd | \
+{g}BdB{g}G2{d}B | \
+{g}GBdgdB| |
+{g}cec{g}A2{d}c | \
+{g}A{d}ceg{a}eg | \
+{a}A3{d}c3 |
+{gef}e3{ag}a3|] [ | \
+| {g}dfd{g}A2d | \
+{g}Adfafd |
+{g}BdB{g}G2{d}B | \
+{g}GBdgdB | | \
+{g}cec{g}A2{d}c |
+{g}A{d}ceg{a}eg[ | \
+M:C| {afg}f{g}d3/4f/2{a}g3/4e/2{g}d3/4c/2 | \
+{g}e3/4d/2{c}d3/4c/2{Gdc}d2|]

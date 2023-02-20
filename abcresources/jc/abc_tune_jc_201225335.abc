@@ -1,0 +1,35 @@
+X: 0933
+T: the Italian Momfrina
+%R: jig
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1809, No. 9 p.3 #3
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances9
+M: 6/8
+L: 1/8
+K: C
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+G |\
+cde (ef).d | ({e}dc).c c3 | gec Bcd | (de).c c2G |\
+cde (ef).d | ({e}dc).c c3 | BGB Bcd | (dc).c c2 |]
+g |\
+{d'}c'bc' (d'b).f | ("_>"fe).g g2c' | {d'}c'bc' (d'b).f | ("_>"fe).g g2g |\
+c'bc' {d'}c'bc' | afa abc' | gag fed | (dc).c c2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=D
+z |\
+[e3c3] [f3B3G3] | [e3c3A3] "_fz"[_e3c2A2^F3] | [=e3c3G3] [f3d3G3] | [e3-c3-] [e2c2]z |\
+ceg Bdg | Ace ^FAd | GBd Gdf | ceg c2 :| z [K: C clef=treble]
+CEG B,DG | CEG CEG | CEG B,DG | CEG CEG |[K: C clef=bass middle=D]\
+EGc EGc | FAc ^Fc_e | Gc=e GBf | ceg c2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off two couple, back again,
+%% down the middle, up again,
+%% and set it out.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

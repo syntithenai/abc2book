@@ -1,0 +1,28 @@
+X: 1
+T: Whinham's Reel
+C: Robert Whinham (?-1893)
+O: Morpeth, England
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Charlton Memorial Tunebook
+B: Barry Callaghan "Hardcore English" 2007 p.94
+N: Only the parts A and B are usually played.
+M: 2/4
+L: 1/16
+K: G
+D2 \
+| GABA G2D2 | E2G2 D4 | E2G2 E2G2 | B2A2 A2B2 \
+| GABA G2E2 | E2G2 D4 | E2G2 D2d2 | B2G2 G2 :|
+|: (3def \
+| g2G2 B2g2 | f2G2 c2e2 | d2D2 G2B2 | cBAB cdef \
+| g2G2 B2g2 | f2G2 c2e2 | d2D2 F2d2 | B2G2 G2 :|
+|: (3DEF \
+| G2B2 BcBA | G2E2 E2G2 | F2A2 D2EF | GABc d2 (3DEF \
+| G2B2 BcBA | G2E2 E2G2 | F2A2 D2EF | G2G2 G2 :|
+|: (3Bc^c \
+| d2B2 d2g2 | f2e2 e4 | F2A2 c2e2 | e2d2 d2z2 \
+| d2B2 d2g2 | f2e2 e2AG | FGAB cdef | g2g2 g2 :|
+|: G2 \
+| B2c2 d2g2 | d6 (3DEF | G2A2 B2c2 | B6 (3BcB \
+| A2c2 f2e2 | e2d2 e4 | d2c2 B2A2 |1 G6 :|2 B2G2 G2 |]
+

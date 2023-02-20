@@ -1,0 +1,29 @@
+X:1
+T: The Royal Hunters
+N:
+C:c. 1748
+S: Play  6  times
+A:
+O:
+R:
+M:4/4
+K:Em
+I:speed 180
+%W: A1
+% voice 1 (1 lines, 45 notes)
+K:Em
+M:4/4
+L:1/16
+E4 G3 A B4 G3 A |B4 G3 A B4 e4 |A4 F3 G A4 G3 F |G3 E ^D3 E F4 B3 B |c4 e3 c B4 e3 B |A4 e3 A G4 B4 |G4 F2 E2 ^D4 E4 |B2 A2 G2 F2 E8 |
+%W: A2
+% voice 1 (1 lines, 45 notes)
+E4 G3 A B4 G3 A |B4 G3 A B4 e4 |A4 F3 G A4 G3 F |G3 E ^D3 E F4 B3 B |c4 e3 c B4 e3 B |A4 e3 A G4 B4 |G4 F2 E2 ^D4 E4 |B2 A2 G2 F2 E8 |
+%W: B
+% voice 1 (1 lines, 38 notes)
+B4 G B3 d4 g e3 |d4 c2 B2 B4 A4 |F A3 c e3 d B3 g e3 |d B3 A2 G2 A F3 E2 D2 |E4 G3 E D4 G3 D |C4 G3 C B,4 e4 |
+%W:
+% voice 1 (1 lines, 37 notes)
+d g3 ^c e3 d F3 G2 =c2 |B4 A4 G6 A2 |B4 ^G3 A B4 =f4 |e2 d2 c2 B2 c2 A2 ^G2 A2 |A4 F3 G A4 e4 |d2 c2 B2 A2 B4 G3 F |
+%W:
+% voice 1 (1 lines, 33 notes)
+G4 E3 F G4 B4 |A2 G2 F2 E2 ^D4 ^c B3 |c4 e3 c B4 e3 B |A4 e3 A G4 B4 |G4 F2 E2 ^D4 E4 |B2 A2 G2 F2 E8 ||

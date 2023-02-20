@@ -1,0 +1,37 @@
+
+X: 1
+T: Rowing from Islay to Uist #2   [Am]
+T: Iomramh eadar Il'as Uist
+B: Simon Fraser Collection #45
+R: air
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: page from Concord Slow Scottish Session collection
+N: Potomac Valley Scottish Fiddle Club I-18
+M: C
+L: 1/8
+K: Am
+E |\
+"Am"A2A c2d | "G"B2A B2d | "Am"A2A e2e | "Dm"fed "Em"e2B |\
+"Am"c2c "G"d2c | "Em"B2A "G"B2d | "Dm"fed "C"e2"G"B |1 "Am"A2A "G"G2 :|2 "Am"A2B c2 ||
+|: G |\
+"C"E2E E2D | "C"E2E c2d | "G"B2A G2E | "G"D2C D2F |\
+"C"E2E E2D | "Am"E2E c2d | "G"B2A G2B | "Am"A3- A2 :|
+
+
+X: 2
+T: Rowing from Islay to Uist #2   [Bm]
+T: Iomramh eadar Il'as Uist
+B: Simon Fraser Collection #45
+R: air
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: page from Concord Slow Scottish Session collection
+N: Potomac Valley Scottish Fiddle Club I-18
+M: C
+L: 1/8
+K: Bm
+F |\
+"Bm"B2B d2e | "A"c2B c2e | "Bm"B2B f2f | "Em"gfe "F#m"f2c |\
+"Bm"d2d "A"e2d | "F#m"c2B "A"c2e | "Em"gfe "D"f2"A"c |1 "Bm"B2B "A"A2 :|2 "Bm"B2c d2 ||
+|: A |\
+"D"F2F F2E | "D"F2F d2e | "A"c2B A2F | "A"E2D E2G |\
+"D"F2F F2E | "Bm"F2F d2e | "A"c2B A2c | "Bm"B3- B2 :|

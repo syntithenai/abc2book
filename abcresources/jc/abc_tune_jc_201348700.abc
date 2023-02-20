@@ -1,0 +1,30 @@
+X:2
+T:Vals (Sk\aane SvL 1325)
+C:Nils Str\"ob\"ack, 1815-1881.
+O:Sk\aane
+B:Anderson, Nils och Olof Andersson. Svenska L\aatar, Sk\aane.
+N:Komponerad 1848. Valsen b\"orjar snarlikt andra l\aatar av Str\"ob\"ack,
+N:men, konstaterar upptecknaren Nils Andersson, "att en bondspeleman
+N:upprepar sig sj\"alv, \"ar mindre underligt \"an att han kan komponera
+N:s\aa sk\"ona tong\aangar som sista reprisens f\"orsta h\"alft.
+M:3/4
+L:1/8
+K:Bb
+((3dfa) \
+| b2 bb b2 | b2 a2 b2 | f6 | d6 \
+| g2 gg g2 | g2 a2 b2 | a6 | a2 z2 c2 |
+| (Ac) ec gf | dB df ga | bd gf ec | dD FB d2 \
+| Ac ec gf | db df ga | bd gf ec | B2 z2 :|
+K:F
+|: c \
+| Ac fc af | d2 b2 b2 | (dg) ce gb | ac af cB \
+| Ac fc af | d2 B2 B2 | (EG) cB dc | F2 z2 :|
+K:Bb
+|: ((3dfa) \
+| b2 fe df | d2 BF D2 | E2 Ac ec | B2 df ga \
+| b2 (fe) df | d2 Bf D2 | E2 (Ac) ec | B2 z2 :|
+|: G \
+| G2 ^F2 G2 | B2 A2 G2 | c2 d2 e2 | d6 \
+| g2 a2 b2 | a2 g2 f2 | d6 | B6 |
+| ff dB gf | ee eF ec | AA AF ec | BB Bd eb \
+| ff dB gf | ee eF ec | AA AF ec | B2 z :|

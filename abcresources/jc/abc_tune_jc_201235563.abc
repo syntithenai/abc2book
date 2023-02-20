@@ -1,0 +1,39 @@
+X: 21221
+T: TRIO FROM THE COMIC OPERA OF "THE COOPER."
+C: Dr. Arne.
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.122 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 adjusted for small-scale, proofreading layout.
+V: 1 staves=3
+[|\
+z4A2 | d4z2 | z4A2 | d4z2 |\
+z4 e2 | f2d2A2 | B4z2 | z6 |\
+z4c2 | d4c2 |
+d4c2 | d2c2B2 | c4c2 | d4c2 |\
+d4c2 | d2c2B2 | c4 e2 | f2d2d2 |\
+g2e2z2 | z6 | z4B2 |
+e2B2e2 | c2A2z2 | z6 | z4A2 |\
+B4eB | c4z2 | z6 | z4c2 |\
+d4ce | d4d2 | d4ec | d4z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voices 2,3 preserve the original staff layout.
+V: 2
+[|\
+z4z2 | z4d2 | a4z2 | z4d2 | a4z2 | z6 | z4d2 | g2e2B2 |
+c4e2 | f2d2e2 | f2d2e2 | f2a2^g2 | a4g2 | f2d2e2 | f2d2e2 | f2a2g2 | a4z2 |
+z6 | z6 | f3cf2 | d2B2z2 | z6 | z6 | a3ea2 |
+f2d2z2 | z6 | z4f2 | d4g2 | e4e2 | f4e2 | f4b2 | a4g2 | f4z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3
+[|\
+D4z2 | DCDEFG | ABAGFE | DCDEFG | ABAGFE | DCDEFD | GFGAGF | E^DEFGE |
+ABAGFE | DEFGA2 | DEFGA2 | DB, E2E2 | AEAGFE | DEFGA2 | DEFGA2 | DB, E2E2 | AEAGFE |
+DFBAGF | EB edcB | ^A^GFGAF | BcdcBA | ^GFEFGE | ABcded | cBABcA |
+d2 FEFD | GFEFGE | AGFGAF | BAGBed | cBAGFE | DEFGAC | DEFDGE | FD A2A2 | D4z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,27 @@
+X: 16201
+T: Hey how the Ballop
+N: The title is fairly illegible on the tune page, the index title for P.20 is used.
+%R: air, march
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.6 p.20
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Amix
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"e>f |\
+g3a g2d2 | {c2}TB4 d2(fg) | a3b a2e2 | Tc4 e2(ef) |\
+g2g2 Bgfe | f2f2 defd | e2(ef) e2A2 | Tc4 e2 :|
+|: gf |\
+(efga) g2d2 | {c2}B4 d2(ag) | (fg)(ab) a2e2 | Tc4 e2(ef) |\
+gdBG g2(fe) | fdfg afed | e3f e2A2 | Tc4 e2 :|
+|: ef |\
+g2d2 e2(dc) | BcBc d2(cB) | c2A2 (Bc)(dB) | e2c2 A2(af) |\
+g2b2 bgbg | agfe defd | efeA aefd | Tc4 e2 :: (ef) |
+gfed BcdB | G2g2 B2g2 | a^gfe cdec | A2a2 e2(ef) |\
+gbgd gbgd | fafd fafd | efeA aefd | Tc4 e2 :: (ef) |
+gdBG Bdgd | TB4 g2fg | aecA ceae | Tc4 a2(ef) |\
+gdBd gbge | fdAd fafd | ecAa efde | Tc4 e2 :: (ef) |
+gggd eeeg | GBGB g2B2 | aaae fffa | ccce a2(ga) |\
+bbdd gggb | eeea fffd | eecc aefd | Tc4 e2 :|

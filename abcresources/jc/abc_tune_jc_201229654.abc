@@ -1,0 +1,45 @@
+X: 1271
+T: the Tree In the Wood
+O: English Folk Song
+%R: air
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+V:1 nm=SA
+V:2 nm=TB clef=bass middle=d
+% %score (1 | 2)
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] D | DE [FD][GE] [A2F2D2] [A2F2D2] | [B2G2D2] [B2G2D2] [A3F3D3]F | DE [FD][GE] [A2F2D2] [A2F2D2] |1 [BG2D2]B [B2G2D2] [A2F2D2]
+w: 1.~All in* a* wood there grew a tree, The fin-*est* tree you ev-er did see
+w: 2.~And on* this* tree there grew a limb, The fin-*est* limb you ev-er did see
+[V:2] [af] | [fd2]a a2 dfad | g2 B2 d3 [af] | fa a2 (dfad) | g2 B2 d2
+%
+[V:1] [FC]>E | D2 [D2B,2] [E2C2] [E2C2] | [FD]>[EC] [FD]>[GC] [A2D2] [dG2D2]>B | [A2D2] D2 [F2C2] [E2C2] | D4 z2 |]
+w: And the green leaves grew a-round, a-round, a-round, And the green leaves grew a-round.
+[V:2] [aA]>g | [f2B2] [f2B2] [g2A2] [a2g2] | [fa2]>g [fa2]>e [f2d2] [bB2E2]>g | [f2A2] [f2B2] [a2A2] [g2A2] | [f4d4] z2 |]
+%
+[V:1] [2 [BG2D2]B [B2G2D2] [A3F3D3] [AD] ||[M:3/4] [AC2]>E [EC2]>F [GC2]A ||[M:2/4] [AC2]>E [EC2]F ||[M:4/4] [G2-C2] [GE2]A/G/ [F2D2]
+w: ev-er did see; The limb was on the tree, The Tree was in the wood,****
+[V:2] g2 B2 d3 [fd] ||[M:3/4] [e2A2] [gA2]>f "^>"[e2A2] ||[M:2/4] [e2A2] [gA2]>f ||[M:4/4] [e2A2] [a2c2] [a2d2] 
+%
+[V:1] [FC2]>E | [D2B,2] [D2B,2] [E2C2] [E2C2] | [FD]>[EC] [FD]>[GE] [A2F2] [dG2D2]>B | [A2D2] D2 [F2C2] [E2C2] | D4 z3 |]
+w: And the green leaves grew a- round, a-round, a-round, And the green leaves grew a-round.
+[V:2] [f2^A2] | [f2B2] [g2B2] [g2A2] [g2A2] | [a2d2] [a2A2] [a2d2] [gB]>G | [f2A2] [f2A2] [a2A2] [g2A2] | [f4d4] z3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text 3. Branch. 4. Nest. 5. Egg. 6. Yolk. 7. Bird. 8. Wing. 9. Feather.
+%%begintext align
+%% As each item is added in successive verses, the preceding items are repeated in reverse order.
+%% Thus the last verse would run as follows:
+%% endtext 
+W: And on the wing there was a feather, The finest feather you ever did see,
+W: The feather was on the wing,         The wing was on the bird,
+W: The bird was in the yolk,            The yolk was in the egg,
+W: The egg was in the nest,             The nest was on the branch,
+W: The nest was on the branch,          The limb was on the tree,
+W: The tree was in the wood,            And the green leaves grew around, around, around,
+W: And the green leaves grew around.
+W:
+% %vskip 8pt	% Some formatters don't leave any space here.

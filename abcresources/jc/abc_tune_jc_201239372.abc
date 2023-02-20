@@ -1,0 +1,50 @@
+X: 32671
+T: THE MARIE VALSES
+C: Composed by J. Mackenzie, Edin.
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.267
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+P: 1.
+[|\
+G6 | (^F4G2) | (A4G2) | E6 |\
+G6 | (^F4G2) | (B4A2) | F6 |\
+F6 | (D4E2) | (F4G2) | (B4A2) |\
+(G4F2)| (D4E2) | (A4G2) | E6 |
+G6 | (^F4G2) | (A4G2) | E6 |\
+G6 | (^F4G2) | (B4A2) | F6 |\
+(c4B2) | (B4c2) | (e4d2) | (g4f2) |\
+(e4c2) | (d4e2) | c6- | c2 |]
+(g^f)ga \
+|: !f!(.g3.e)e2 | e2(g^f)ga | (.g3.e)e2 | e2(c'b)c'd' |\
+(.c'3.b)b2 | b2(ba)bc' | (.b3.g)g2 | g2(g^f)ga |
+(.g3.e)e2 | e2(g^f)ga | (.g3.e)e2 | e2(c'b)c'd' |\
+(.c'3.b)b2 | e4a2 |[1 g6- | g2(g^f)ga :|[2 g6- | g2z2z2 "_D.C."|]
+%
+K: G
+P: 2.
+N: Tune 2: 2nd part has final repeat but no initial repeat.  Fixed to repeat 2nd part.
+[|\
+(B4d2) | e6 | (d4B2) | g6 |\
+(g2f3)va | (g4f2) | e6 | d6 |\
+e6 | (f4g2) | g6 | d6 |\
+(d2c3)ve | (d4B2) | A6 | (d2^c2=c2) |
+(B4d2) | e6 | (d4B2) | g6 |\
+(g2f3)va | (g4f2) | e6 | d6 |\
+e6 | (f4g2) | g6 | d6 |\
+(d2c3)vd | (e4f2) | g6- | g2z2z2 |]
+|: vB4B2- | B2(.A3.G) | F4F2- | F2(.E3.F) |\
+G4G2- | G2(.F3.E) | (.B,4.B,2) | ^A,2(G2=A2) |
+B4B2 | B2(.A3.G) | F4F2- | F2(.E2.F2) |\
+G6 | (F4G2) |[1 E6- | E2(G2A2) :|[2 E6- | E2z2z2 "_D.C."|]
+%
+P: 3.
+N: Tune 3: both parts have a final repeat but no initial repeat.  Fixed to repeat both parts.
+|:\
+vgggggg | (f4d'2) | eeeeee | (d4b2) | (d3cAf) | (e4d2) | (d3cAf) | (e4d2) | 
+gggggg | (f4d'2) | eeeeee | (d4b2) | (d3^cde) | (f3dfg) | (a3^gad') | g2z2 :||: ud2 |
+gfedcB | edcBAG | cBAGFE | D4D2 | DEFGAB | c4F2 | GABcde | d4d2 |
+gfedcB | edcBAG | cBAGFE | D4D2 | DEFGAB | c4d2 | ede^def | g2z2 :|

@@ -1,0 +1,18 @@
+X: 884
+T: Early in the Morning
+R: hornpipe
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #884
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0884/oneill-1001-0884-1.abc
+M: C|
+L: 1/8
+K: A
+"^A1"|: E2 \
+| E>A (3AAA (Ac)BA | GABc d2(cd) | efge dBAG | EDEF GBAG ||
+"^A2"\
+| E>A (3AAA (Ac)BA | GABc d2(cd) | efge dBGA | B2AA A2 :|
+"^B" |: (cd) \
+| (3eee ed cAce | dcBc d2(cd) | (3efg fd edce | dcBA GBAG ||
+"^A2"\
+| E>A (3AAA (Ac)BA | GABc d2(cd) | efge dBGA | B2AA A2 :|

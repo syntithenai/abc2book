@@ -1,0 +1,38 @@
+X:1
+T:Exercises - Page 6
+M:C
+L:1/8
+Q:80
+C:
+S:Exercise
+K:HP
+{gfg}fA{gfg}f | \
+c{gfg}fG{gfg}fd{gfg}fe{gfg}fa{fg}f | \
+e{gcd}ce{gcd}c |
+A{gcd}cf{gcd}cd{gcd}cB{gcd}cG{gcd}c | \
+e{gBd}Be{gBd}B | \
+A{gBd}Bf{gBd}Bd{gBd}Bc{gBd}BG{gBd}Be{gcd}c{e}Af{gcd}B{e}G |
+e{gcd}c{e}A{gcd}ce{gfg}fd{gBd}B{e}G | \
+eA3/2B/2{g}c2{gcd}c{e}A{g}c3/2d/2{g}e2{A}e2 | \
+e{Gdc}d2{gcd}c{e}A{ag}a2{fg}f2 |
+e{gBd}B{G}A{gBd}B{Gdc}d{gfg}fd{gBd}B{e}G | \
+e{gfg}f3/4e/4{g}f/2a/2{fg}f3/4e/4{gcd}c/2e/2 | \
+a{fg}fA{gBd}Bd{gfg}fe{gcd}ce |
+e{gBd}B{e}A{gcd}ce{gcd}c{e}G{gBd}Bd | \
+M:3/4  |: \
+{g}A3/2B/2{gcd}c2{G}c2 |
+{g}e2{gcd}c{e}B{G}A2 | \
+{g}A3/2B/2{gcd}c2{g}e2 | \
+{ag}a2{fg}f4 |
+{g}e3/2d/2{gcd}c2{g}e2 | \
+{gcd}c{e}A{gBd}B2{gcd}c2 | \
+{ag}af{g}e2{gcd}c{e}A |
+{gBd}B2{G}A4 :: \
+{g}c3/2d/2{g}e2{A}e2 | \
+{ag}a2{fg}f2{g}e2 |
+{g}c3/2d/2{g}e2{gfg}f2 | \
+a2{g}a4 | \
+A3/2B/2{gcd}c2{e}B2 |
+{G}A2{gBd}B2{gcd}c2 | \
+{ag}a3/2f/2{g}e2{gcd}c{e}A | \
+{gBd}B2{G}A4 :|

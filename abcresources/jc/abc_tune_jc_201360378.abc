@@ -1,0 +1,44 @@
+%!abctab2ps
+X:1
+%
+%%titleleft      true
+%%tabfontsize    12
+%%tabaddflags    0
+%%tabrhstyle     grid
+%%gchordfont     ZapfChancery-MediumItalic 18
+%
+T:Waltz for Guitar
+C:Matteo Carcassi
+L:1/8
+M:3/8
+K:Am guitartab
+%
+!mf![,,c,a/],a,b,d,ea | [d,,a/]ba,d,b,a |\
+    [,b,c/]a,,c,b[,a,,,a]a | [,d,,a/],b,a,b,,c1 |
+%
+[,,c,a/],a,b,d,ea |\
+    [d,,a/]ba,d,b,a | [,b,c/]a,,c,b[,a,,,a],,b |\
+    [,,c,a2] z1 :: !f!,,a/,,c,a,b,da |
+%
+,,,a/,,ab,,ab,,a |\
+    ,,,,d/,,aa,,aa,,a | ,,,,c/,,a,d,,a,d1 |\
+    ,,a/,,c,a,b,da | ,,,a/,,ab,,ab,,a |
+%
+,,,,d/,,aa,,aa,,a |\
+    [,d,,c2] z1 | [,g,,,a/],f,e,f,a,d |\
+    [,b,,a/]a,d,b,a,,c | ,,,c/,,b,a,,b,a,,b |
+%
+,,,,a/,,c,b,,c,b1 |\
+    [,g,,,a/],f,e,f,a,d | [,b,,a/]a,d,b,a,,c |\
+    ,,,,,a/,,b,a,,b,a,,b | [,,c,a2] z1 :|
+%%vskip -10pt
+%%right Fine
+%%vskip 5pt
+%
+[,cc/],,,,a,,,,a,,,,a[,de],,,,a | [ac/],,,,afe'ca |\
+    [,de/],,,,,a,,,,,a,,,,,a[,cc],,,,,a | [,ab/],,,,,a,ea,d,a |
+%
+[,cc/],,,,a,,,,a,,,,a[,de],,,,a | [ac/],,,,afe'ca |\
+    [,de/],,,,,a,,,,,a,,,,,a[,f,g],,,,,a | [,cc,a2] z1 :|
+%%vskip -10pt
+%%right D.C. al Fine

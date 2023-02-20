@@ -1,0 +1,41 @@
+
+X: 1
+T: Flickorna Svensson
+C: av Pelle Svensson, Tr\"on\"o, H\"alsingland
+S: Peter "Puma" Hedlund at ANA Stämma East, 1999
+Z: from a transcription by Matt Fichtenbaum
+S: also from a handout from Bronwyn Bird at Fiddle Hell Online 2020
+M: C|
+L: 1/8
+K: G
+D2 \
+| "G"G2G2 G2AG | G2FE "D7"D2EF | "G"G2AB "C"(cB)AG |[M:3/2] "D7"~F2EF G6 :|
+M:C|
+|: Bc \
+| "G"d2d2 d2ed | d2cB "D7"A2Bc | "G"d2d2 d2ed | d2cB "D7"A2D2 |
+| "C"E2G2 "D7"(FG)AF | "G"G2~B2 "D7"(AB)cA | "G"~B2AG "D7"F2EF | "G"G6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Flickorna Svensson
+C:Pelle Svensson
+R:G\aangl\aat
+Z:Patrik M\aansson, 2008-07-24
+O:Sverige
+M:2/4
+L:1/16
+%Q:1/4=100
+K:G
+V:1
+D2 | G2G2 G2AG | G2FE D2EF | G2AB cBAG | [M:3/4] F2EF G6 :|
+[M:2/4] \
+|: Bc |\
+d2d2 d2ed | d2cB A2Bc | d2d2 d2ed | d2cB A2D2 |
+E2G2 FGAF | G2B2 ABcA | B2AG F2EF | G6 :|
+V:2
+G,A, | B,2B,2 B,2CB, | B,2A,G, A,2G,A, | B,2CD EDCB, | [M:3/4] A,2G,A, B,6 :|
+[M:2/4] \
+|: GA |\
+B2B2 B2cB | B2AG F2GA | B2B2 B2cB | B2AG F2D2 |\
+C2E2 DEFD | D2G2 FGAF | G2FE D2C2 | B,6 :|

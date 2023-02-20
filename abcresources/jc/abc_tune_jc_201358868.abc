@@ -1,0 +1,325 @@
+
+X: 0
+T: NEW CONTRA WALTZ TUNES
+K:
+
+%%sep 1 1 500
+
+X: 1
+T: the Old Man
+T: 30 Years' Waltz
+O: 2009
+C: attr. Fried de Metz Herman
+R: waltz
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: https://www.youtube.com/watch?v=UmVeP8GKHNE
+B: "Serendipity"
+M: 3/4
+L: 1/8
+K: Bm
+F2 |\
+"Bm"B2 Bc d2 | "F#"cd f2 e2 | "Bm"dc "Em"g2 "F#"f2 | "Bm"B4 fe |\
+"Bm"dc B2 B2 | "D"AG FG A2 | "Bm"B2Bc "F#"^A2 | "Bm"B4 :|
+|: "A"c2 |\
+"D"dc df "G"g2 | "D"af d2 "A"c2 | "G"Bc "A7/c#"ed c2 | "D"d4 "F#"c^A |\
+"Em"Bc dB GE | "Bm"F4 EF | "Em"GF EG "F#"F2 | "Bm"f4 :|
+
+%%sep 1 1 500
+
+X: 2
+T: Candles in the Dark   [Am]
+C: Jonathan Jensen 2004
+R: waltz
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: Printed page labelled "22 Loretta Holz" at bottom
+S: http://dickatlee.com/misc/fv/centennial/music/pdfs/candles_in_the_dark.pdf
+M: 3/4
+L: 1/8
+K: Am
+|: "Am"Aa ge "Dm"dB | "Am"c2 A4 |  "Am"Aa ge "Dm"dB | "E"e6 \
+|  "Am"Aa ge "Dm"dc | "G"B2 G2 AB | "F"c3 B AG | "Am"E2 A4 :|
+[| "F"c3 A "G"dB | "Am"c3 A "G"BG | "F"AG AB cd | "C"e3 g ec \
+|  "G"B3 e "Am"cA | "Em"G3 c "F"AF | "Dm"DE FG AB | "Am"c2 A4 |]
+[| "F"c3 A "G"dB | "Am"c3 A "G"BG | "F"AG AB cd | "C"e3 g ec \
+|  "G"dB G"Am"e cA | "Em"BG E"F"c AF | "Dm"DE FG AB | "Am"c2 A4 |]
+
+%%sep 1 1 500
+
+X: 3
+T: Candles in the Dark   (Dm)
+C: Jonathan Jensen 2004
+R: waltz
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: Printed page labelled "22 Loretta Holz" at bottom
+S: http://dickatlee.com/misc/fv/centennial/music/pdfs/candles_in_the_dark.pdf
+M: 3/4
+L: 1/8
+K: Dm
+|: "Dm"Dd cA "Gm"GE | "Dm"F2 D4 |  "Dm"Dd cA "Gm"GE | "A"A6 \
+|  "Dm"Dd cA "Gm"GF | "C"E2 C2 DE | "Bb"F3 E DC | "Dm"A,2 D4 :|
+[| "Bb"F3 D "C"GE | "Dm"F3 D "C"EC | "Bb"DC DE FG | "F"A3 c AF \
+|  "C"E3 A "Dm"FD | "Am"C3 F "Bb"DB, | "Gm"G,A, B,C DE | "Dm"F2 D4 |]
+[| "Bb"F3 D "C"GE | "Dm"F3 D "C"EC | "Bb"DC DE FG | "F"A3 c AF \
+|  "C"GE C"Dm"A FD | "Am"EC A,"Bb"F DB, | "Gm"G,A, B,C DE | "Dm"F2 D4 |]
+
+%%sep 1 1 500
+
+X: 4
+T: the Dancing Bear
+C: ?
+R: waltz
+B: John Thompson`s easiest piano course, part 2
+D: https://www.youtube.com/watch?v=_aGfapB04dI
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: C
+[|\
+"C"c3 | A3 | "G7"B3 | GAB |\
+"C"c3 | A3 | "G7"B3 | GAB |\
+"C"c3 | "C7"_B3 | "F"A3 | "Abdim"_A3 |\
+"C"G3 | "G7"d3 | "C"c3- | czz |]
+
+%%sep 1 1 500
+
+X: 5
+T: Far Away in Australia
+S: Printed page of unknown origin.
+R: air, waltz, jig
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+ [|\
+"C"CEG GEG | "F"AFA "C"G3 |\
+"C"CEG A2G | "G"D3- D2c |\
+"Am"cAc "Em"BGB | "F"AFA "C"G2A/B/ |\
+"C"cG[AE] "G"E2D | "C"C3- C2z |]
+ [|\
+"C"C2D EGA | E2D "G"D3 |\
+"Am"c>BA "Em"BAG | "F"A3- A2B |\
+"Am"c>BA "Em"BAG | "F"AGA "C"E2D |\
+"C"EGA "G"E2D | "C"C3- Cz |]
+
+%%sep 1 1 500
+
+X: 6
+T: Round the Room
+C: Mike Mahar 2018
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+S: email from Sand Lafleur 2019-1-1
+%%begintext align
+%% I had just returned from Fiddle Hell where I spent the weekend trying to play too
+%% fast. So, in order to wind down a little I decided to play some waltzes. This tune
+%% just popped out. It seemed to me that it was quite danceable and I have this image
+%% of the dancers twirling 'round the room.
+%%endtext
+%%text Play one A and one B last time to finish up.
+M: 3/4
+L: 1/4
+K: G
+D |:\
+"G"G>AB | "Bm"d2g | "G"b>ag/f/ | "Em"g2d | "C"e>fg |\
+[1,3 "G"dgd | "Am"e>dc/B/ | "D"A>cB/A/ :|\
+[2,4 "G"dBG | "D"A>GF | "G"G2 :|
+|: D |:\
+"C"E2c | "Am"c>de | "G"d2B | "Bm"B2B |\
+[1,3 "G"d>cB | "Em"d>cB | "D"A2B | "D7"c>BA :|\
+[2,4 "D"d>cB | "D7"A>GF | "G"G3 | G2 :|
+
+%%sep 1 1 500
+
+X: 7
+T: Round the Room
+C: Mike Mahar 2018
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+S: email from Sand Lafleur 2019-1-1
+%%begintext align
+%% I had just returned from Fiddle Hell where I spent the weekend trying to play too
+%% fast. So, in order to wind down a little I decided to play some waltzes. This tune
+%% just popped out. It seemed to me that it was quite danceable and I have this image
+%% of the dancers twirling 'round the room.
+%%endtext
+%%text Play one A and one B last time to finish up.
+M: 3/4
+L: 1/4
+K: G
+D |\
+"G"G>AB | "Bm"d2g | "G"b>ag/f/ | "Em"g2d | "C"e>fg | "G"dgd | "Am"e>dc/B/ | "D"A>cB/A/|
+"G"G>AB | "Bm"d2g | "G"b>ag/f/ | "Em"g2d | "C"e>fg | "G"dBG | "D"A>GF | "G"G2 :|
+|: D |\
+"C"E2c | "Am"c>de | "G"d2B | "Bm"B2B | "G"d>cB | "Em"d>cB | "D"A2B | "D7"c>BA |
+"C"E2c | "Am"c>de | "G"d2B | "Bm"B2B | "D"d>cB | "D7"A>GF | "G"G3 | G2 :|
+
+%%sep 1 1 500
+
+X: 8
+% %topspace 1cm
+% %leftmargin 1.5cm
+% %staffwidth 18.59cm
+% %subtitlespace 0cm
+% %composerspace 0cm
+% %musicspace 0cm
+% %partsfont Times 12 box
+% %sysstaffsep 40pts
+% %staffsep 70pt
+% %writefields TCOBDFGHNPQRSWZ
+T: Susan and Rose
+C: \251 Anna Magee 2016
+N: Some previous versions of this tune show Key of D, with some errant C#s instead of all naturalized Cs.
+M: 3/4
+L: 1/8
+R: Waltz
+K: Dmix
+P: A
+[V:1]  A |:"D"f2 fg fe |d2 de fA |"G"B2 Bd BA |"D"F2 D2 A2 |f2 fg fe |d2 de fA |"G"B4- "C"B2- |"G"B4    A2  |
+[V:2]  z |:   d3  B AF |D4    D2 |   B2 BA GD |   A4    A2 |d3  B AF |D4    F2 |   G2 D2  B,2 |   G2 D2 B,2 |
+[V:1]      "D"f2 fa fe |d2 de fA |"C"c3 d  ec |"D"d2 A4 |"C"c2 cd ec |"G"d2 A2 G2  |"D"F6- |[1 F4 A2 :|[2F2 D2 A2 |]
+[V:2]         d3  c AF |D4    D2 |   G4    B2 |   A2 D4 |   G4    B2 |   A2 F2 A,2 |   D6- |   D4 F2 :|  D2 F2 D2 |]
+% %vskip .5cm
+P: B
+[V:1] |:"D"d3 e fA |"G"B4 A2 |"D"d3  e fa  |"G"g4  A2 |"C"c3 d ec |"G"d4   B2 |"D"A2 f4-   |f4    a2 |
+[V:2] |:   A4   d2 |   G4 FG |   A2 F2 A,2 |   B,4 D2 |   G4   G2 |   G3 G AG |   F2 A2 d2 |F2 A2 d2 |
+[V:1]   "D"f3 e  dA |"G"B4 d2 |"D"A3  F DA, |"G"B,4 D2 |"C" G2 A2 c2 |"G"B2 c2 e2 |"D"d6- |[1 d2 A2 B2 :|[2d6 |]
+[V:2]      d3 c  AF |   G4 A2 |   F2 D3  A, |   G,4 D2 |    E2 C3  E |   D2 E2 G2 |   F6- |   F2 F2 G2 :|  F6 |]
+% %stretchlast
+% %text Key of D Mixolydian
+% %textoption 1
+%%begintext
+%%Anna Magee of Sharon MA was inspired by two of her pet mice, Susan and Rose.
+%%endtext
+% %textoption 5
+% %begintext
+% % 2018.06.02
+% %endtext
+
+%%sep 1 1 500
+
+X: 9
+T: Tourner \`a trois   [Am]
+C: Paul Machlis (1998)
+R: waltz
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: Peter Barnes "English Country Dance Tunes" V.2
+M: 3/4
+L: 1/8
+K: Am
+||:"Am"cd e3 E | "Dm"FG A4 | "G"Bc d3 D | "C"F2 E4 \
+|  "Am"A,C EA ce | "Dm"de f4 |1 "Bm"ef e3 E | "E7"ef ed cB \
+                            :|2 "E7"e3 dcB | "Am"A6 ||
+[| "G"Bc d3 f | "C"f2 e4 | "Dm"d3 fed | "Am"d2 c4 \
+|  "Bb"_Bc de fB | "Am"Ac e4 | "Bm"ef e3 E | "E7"ef e4 ||
+|| "Am"ae cA EC | "Dm"FG A4 | "G"Bc d3 D | "C"F2 E4 \
+|  "Bb"_Bc de fB | "Am"Ac e3 f | "E7"e3 dcB | "Am"A6 |]
+
+%%sep 1 1 500
+
+X: 10
+T: Upper Valley Waltz    [Dm]
+C: Pete Sutherland
+R: waltz
+N: transcribed to abc by Oatmeal88  https://thesession.org/tunes/15525
+S: Email from Ishmael the Fiddler <ijs:alum.mit.edu> 2018-8-7
+M: 3/4
+L: 1/8
+K: Dmin
+|:\
+"Dm"d2 Ac GF | d6 |\
+"F" c2 Ac GF | "C" c6 ||\
+"Bb"B2 cB AG | "F" F2 G2 A2 |
+"Dm" A,2 D4 | D4 z2 :|\
+"Gm"A2 B4 | B2 GA BA |\
+"F"G2 A4 | "Dm"A2 DE FA ||
+"Dm" d2 ef ga | "Bb" b6 |\
+"Dm" a2 gf ed | "F" f6 ||\
+"Gm"A2 B4 | B2 GA BA |
+"F" G2 A4 | "Dm"A2 de fg ||\
+"Dm" a2 d4 | "C" g2 c4 |\
+"Dm" A2 d4 | "Dm" d4 z2 |]
+
+%%sep 1 1 500
+
+X: 11
+T: Vals efter Johan Jacob Bruun
+S: Played by Mia and Mikael Marin, 10/21/2015
+Z: Transcribed brian.wilson@alumni.brown.edu
+%Q: 1/4=138
+M: 3/4
+K: Clyd
+L: 1/8
+V: 1 staves=2
+|: "G"d2 (dB) cA | "G"B2 (BG) EF | "C"G2 G2 (A2 | "G"BA) Bc B2|\
+  "G"d2 (dB) cA | "G"B2 (BG) EF | "C"G2 (GA) "G"(FG) |"C" E6 :|
+|: "D"F2 (FG) AF | "G"G2 (FE) DE | "Bm"F2 (FG) AF |"D" G2 FE D2 |\
+ "G" d2 (dB) cA | "C"B2 (BG) EF | G2 (GA) (FG) | "C"E4 D2 :|
+V: 2
+|: G2 G2 EF | G2 G2 CD | E2 E2 F2 | GF GA G2 |
+ G2 G2 EF | G2 G2 CD | E2 EF DE | C6 :|
+|: D6 | C6 | B,6 | A,6 | G,2 (GF) EF | G2 G2 CD | E2 EF DE | C6 :|
+%%text As played by Mikael & Mia Marin on 2015.10.21, transcribed by Brian Wilson.
+%%text Chords for Lydian mode botched in by Ishmael.
+
+%%sep 1 1 500
+
+X: 12
+T: Valse Beaulieu
+C: trad.
+O: Qu\'ebec
+S: http://pascalgemme.com/tradquebec/valse-des-poeles-valse-beaulieu/ via ECD list 2018-4-13
+R: waltz
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+z Bd |\
+"G"G3 A Bd | "Em"G3 B "/D"AF | "C"E2 ED EF | "D7"ED D2 BA |\
+"G"G3 A "/F#"Bd | "Em"G3 B "/D"AF | "C"E2 ED "D7"GF | "G"G3 :|
+A Bd |\
+"G"g3 f ed | "Em"B2 BA "/D"Bd | "C"E2 ED EF | "D7"ED D2 Bd |\
+"G"g3 f "/F#"ed | "Em"B2 BA "/D"BA | "C"E2 ED "D7"GF | "G"G3 |]
+A Bd |\
+"G"g3 f ed | "Em"B2 BA "/D"Bd | "C"E2 ED EF | "D7"ED D2 BA |\
+"G"G3 A "/F#"Bd | "Em"G3 B "/D"AF | "C"E2 ED "D7"GF | "G"G3 |]
+%%text Also played with the 2nd part repeated, without the jump back to the 1st part's ending.
+
+%%sep 1 1 500
+
+X: 13
+T: Valse des po\^eles
+T: Waltz of the Stoves
+C: trad.
+O: Qu\'ebec
+S: http://pascalgemme.com/tradquebec/valse-des-poeles-valse-beaulieu/ via ECD list 2018-4-13
+N: Pascal Gemme recommends A,EAe tuning for the fiddle.
+R: waltz
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+B |\
+"A"cd cB AE | "D"F3 G FE | "A"AG AB cA | "E7"Bc dc B2- |\
+"A"Bc cB AE | "D"F3 G FE | "A"AG Ac "E7"BG | "A"A2 A3 :|
+|: A |\
+"A"AE Ac ec | "D"f3 g fe | "A"ef ec Ac | "E7"Bc BG FE |\
+"A"AE Ac ec | "D"f3 g af | "A"ec Ac "E7"BG | "A"A2 A3 :|
+
+%%sep 1 1 500
+
+X: 14
+T: Young Jane
+O: England
+R: jig, waltz
+M: 6/8
+L: 1/16
+Z: 2020 John Chambers <jc@trillian.mit.edu>
+S: Handwritten version from my 1970's notebook
+R: waltz
+K: G
+(3DEF \
+| "G"G3AB2 "D7"A2B2d2 | "C"e6 "G"d3BA2 | "G"G3AB2 "Am"A4G2 | "C"E6  "D7"D2EF2 \
+| "G"G3AB2 "D7"A2B2d2 | "C"e6 "G"d4[g2B2] | "G"G3AB2 "D7"A2G2F2 | "G"G6- G4 |]
+Bc \
+| "G"d3Bd2 g3fg2 | "C"e6  "Am"A4B2 | "D7"c3de2 "G"d2B2A2 | "C"G6 "D7"F4D2 \
+| "G"G3AB2 "D7"A2B2d2 | "C"e6 "G"d4g2 | "G"G3AB2 "D7"A2G2F2 | "G"G6- G4 |]

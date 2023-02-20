@@ -1,0 +1,30 @@
+X: 1
+T: Bach-polsen
+T: Fri bearbeidelse av et parti fra J.S.Bachs orkestersuite i h-moll
+C: Sven Nyhus
+N: Laget i anledning radiokonsert med finske, norske og svenske
+N: spellmenn i Berwaldhallen, Stockholm, 3. aug. 1985.
+M: 3/4
+L: 1/16
+%%slurgraces
+K: Am
+V: 1
+|: A3(B cBce) a3a | (g2f2) {fe}[f8A8] \
+| e4 d2e2 {cB}c4 | {Bc}[B4E4] A2B2 ({cB}c2A2) |
+| ({fg}f2e2) (d2^g2) a3f | (e2d2) (c2e2) a3e \
+| d3(c B2e2) c3A |1 ({cd}c2B2) [B8E8] :|2 ^G2BG [A8A8] |
+|: E3(^F ^GFGB) e3e | (d2c2) ({cB}c6 BA) \
+| (G2A2) (B2d2) g3f | f2ed e8 |
+| (A2G2) (F2B2) {cB}c3A | (G2F2) (E2B2) {cB}c3e \
+|1 (f2gf) e4 d3c | ({cd}c2B2) [B8E8] \
+:|2 (f2gf) e4 (c2BA | G2)Bd {cB}[c8E8] |]
+V: 2
+|: "Am"C3(E A3B) c3e | "Dm"(d2c2) [d8D8] \
+| "Am"c4 B2c2 (A2E2) | "E7"^G4 ^F2E2 (A,2E2) \
+| "Dm"(D2E2) (F2E2) D3A | "Am"(c2B2) (A2B2) c3A \
+| "E7"E3(^F ^G2E2) "Am"A3E |1"E7"(E2^G2) G8 :|2 "E7"E2DB, "Am"[E8C8] |
+|: "E7"B,3(B, E3^G) B3G | "Am"(E2A2) (E6 DC) \
+| "G7"(B,2D2) (G2A2) B3d | (B2G2) "C"(c6 GE) |
+| "F"C4 (A,2F2) A3F | "C"(E2G,2) (C2D2) E3G \
+|1 "Dm"A4 "C"c4 B3A | "E7"(E2^G2) G8 \
+:|2 "Dm"A4 "C"G4 (E2DC | "G7"B,2)G,B, "C"[G8C8] |]

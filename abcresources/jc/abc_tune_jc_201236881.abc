@@ -1,0 +1,23 @@
+X: 2343
+T: Royal Circus
+%R: jig
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.34 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - -
+V: 1 staves=2
+F/G/ |\
+AFc- Tc>BA | BGd {e}d>cB | AFc Tc>BA | BGG TGFG ||\
+AFc  Tc>BA | BGd {e}d>cB | Acf gae | .f.f.f Tf2 ::
+e/f/ |\
+gec Tc>dc | afc Tc>dc | .b.a.g .a.g.f | e>fg c2Tc ||\
+dBd dfb | cAc ~cfa | b.a.g .a.g.f | cfe Tf2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+f3 f3 | g3 g3 | f3 f3 | c'3 c2z || f3 f3 | g3 g3 | f3 c3 |
+F3 F2 :: z | c3 c'3 | c3 c3 | e3 f3 | c3 c3 ||\
+B3 b3 | a3 f3 | e3 f3 | c'2c f2 :|

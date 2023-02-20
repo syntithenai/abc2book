@@ -1,0 +1,37 @@
+X:1
+T:Auld Lang Syne
+M:C
+L:1/8
+N:?As arranged by John McAlpin, Killen?
+B:Stewart-Robertson ? The Athole Collection (1884)
+Z:AK/Fiddler?s Companion
+R:Strathspey
+K:A
+E|A2A>c B>AB>c|AAA>a f2f>a|e<cc>A B>AB>c|A>FE>F A2A:|
+|:a|e<cc>A B>AB>c|e<cc>e f>ga>f|e>cc>A B>AB>c|A>FE>F A2A:|
+
+X:2
+T:Auld Lang Syne
+S:??, heard on Thistle and Shamrock and possibly misremembered
+N: (AK)This is the Tannahill Weavers (IV) version
+Z:Jerome Colburn
+M:2/4
+L:1/8
+K:D
+DE | F3 G | A2 F2 | E3 D | D3 D | D2 d2 | c2 d2 | B4 |-B2  \
+Bc | d3 d | c2 BA | B3 A | E4 |-E2 \
+dc | B3 A | FEFA | B4 |-B2 :|**
+
+X:3
+T:Auld lang Syne
+M:C
+L:1/8
+R:Air
+N:?Slow?
+S:McGibbon ? Scots Tunes, Book 1 (c. 1762)
+Z:AK/Fiddler?s Companion
+K:F
+cd | f3g (fg) a2 | c2A2 ?tr?G2F2 | f2d2 (fg/a/) ?tr?(g>f) | d3f d2 :: fg | a2F2 (Ac)dF | A2(GA) G3A | c3d (cd)cA |
+(cA)(cd) f2 (cB) | A2 (GF) A>BcA | (dc)?tr?(BA) G(BAB) | (cA)(cd) (fc)(dA) | c3d c2 :: cd | fcfg (f>ga)A |
+(cA)cd (cA)?tr?(GF) | fcfg (f/g/a) ?tr?(g>f) | d3f d2 :: fg | (a/g/f/g/ a)F Acdf | A2 (GA) G3A | (c/B/A/B/ c)d (f/d/c) (d/c/A) |
+cAcd f2 (cB) | Ac (B/A/)(G/F/) (A/G/A/B/) (A/B/c/A/) | (dc/)d (BA/)B (GB)(AB) | (c/A/G/A/) cd (f/d/c) (d/c/A) | c3d c2 :|

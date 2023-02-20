@@ -1,0 +1,22 @@
+X:292
+T:Danza de Los Caranquiños
+R:Danza
+C:Tradicional ¿?
+S:Música Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+B:Fausto Vigil "La Tierrina" (1909)
+Z:ByD IDEA
+M:2/4
+L:1/8
+Q:1/4=84
+K:C
+"voz"
+|CD EF|G2 cB|AB G2|
+"coro"
+|cB AB|c2 EF|GG FE|D2 C2|
+"voz"
+|CD EF|G2 cB|AB G2|cB AB|c2 E2|D2 C2|
+"coro"
+|CD EF|GG cB|AB G2|cB AB|c2 EF|GG FE|D2 C2|
+|CD EF|[M:3/4] GG cB AB|[M:2/4] c2 G2|cB AB|c2 EF|GG FE|D2 C2|

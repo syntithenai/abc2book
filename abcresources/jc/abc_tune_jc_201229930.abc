@@ -1,0 +1,32 @@
+X: 13041
+T: Bonny Dundee
+%R: air, waltz, minuet
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.3 p.4
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+"_Slow"(AG) |\
+E2A2(AB) | TA4(GA) | B2(cB)(AG) | {A}B2d2g2 |\
+e3g (e/d/B) | d2e2(ga) | (ba)(ge)(dB) | {B}A4 :: (TBA) |\
+G2B2d2 | g3a (g/a/)b | B2(cB)(AG) |
+(Bc)d2(cB) |\
+A2a2(ab) | a4(ga) | b2(d'b)(ag) | e3g (e/d/)B |\
+d2e2T^f2 | (g^f) (ga) (g/a/)b | B2(cB)(AG) | {A}B2d2(g/b/a/g/) |\
+(ede)g (e/d/)B |
+d2e2(ga) | (ba)(ge)(dB) | A4 :: TA>G |\
+E2A2(c/B/c/d/) | {B}TA4(GA) | (Bd) (dB)(TAG) | {A}B2d2(b/a/g) |\
+Te>deg (e/d/)B | d2e2g>a |
+(b/a/g) (a/g/e) (g/e/d/B/) | A4 :: TB>A |\
+GB2d2(e/^f/) | g^f ga (g/a/b) | (Bc/d/) (c/d/c/)B/ (A/B/A/)G/ | {A}B2d2Tc>B |\
+A2a2(a/g/a/)b/ | Ta4ga |
+b2(d'/c'/b) (b/a/g) | e3g (e/d/e/)B/ |\
+d2e>^f (Tf3/e//f//) | gG ga (g/a/b) | ba (g/e/c) (d/B/G) | {A}B2d2(b/a/g) |\
+e>d e/(g/^f/g/) e/(g/f/g/) |
+dD eE gG | (b/a/g/b/) (a/g/e/a/) (g/e/d/B/) | A4 :|\
+[M:6/8] |: "_Giga"G |\
+EAA ABd | TBAG Bdg | efe deg | edB A2 :|
+|: B |\
+Ggg gab | dBG Bcd | eaa aga | bag Te2d |\
+gba geg | dBG ABd | e2e deg | edB A3 :|

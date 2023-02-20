@@ -1,0 +1,24 @@
+X: 1
+T: Br\^iul de la F\uag\uara\,s   [G]
+O: Romania
+N: The F\uag\uara\,s Mountains are the east-west part of the Carpathians across central Romania.
+M: C|
+L: 1/8
+K: G
+|:"G"G2A2 B2c2 | d2e2 d4 | d^cde =fedc | d^cde d4 \
+| "G"G2A2 B2c2 | d2e2 d4 | "D7"a3g fgaf | "G"gagf g4 :|
+|:"G"{def}g4 g4 | "Em"~f2e2 e4 | "Am"~d2c2 c4 | ~B2A2 A4 \
+| "D7"ded^c dedc | ded=c B2A2 | "G"G2D2 "D7"D2EF | "G"GAGF G4 :|
+
+%%sep 1 1 500
+X: 2
+T: Br\^iul de la F\uag\uara\,s   [A]
+O: Romania
+N: The F\uag\uara\,s Mountains are the east-west part of the Carpathians across central Romania.
+M: C|
+L: 1/8
+K: A
+|:"A"A2B2 c2d2 | e2f2 e4 | e^def =gfed | e^def e4 \
+| "A"A2B2 c2d2 | e2f2 e4 | "E7"b3a gabg | "A"abag a4 :|
+|:"A"{efg}a4 a4 | "F#m"~g2f2 f4 | "Bm"~e2d2 d4 |  ~c2B2 B4 \
+| "E7"efe^d efed | efe=d c2B2 | "A"A2E2 "E7"E2FG | "A"ABAG A4 :|

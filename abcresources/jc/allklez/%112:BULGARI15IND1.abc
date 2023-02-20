@@ -1,0 +1,30 @@
+X: 112
+T: Bulgar (I-15) in D #1
+R: bulgar
+M: 2/4
+L: 1/16
+K: D
+"^A"\
+|: A,2"A7"B,2C2 \
+| "D"D8 | z2A2 "A7"G3F | "D"^E2 F6 | z2 A,2 "A7"B,2C2 \
+| "D"D2F2 E2D2 | F2A2 "A7"G2F2 | "D"^E2 F6 | z2 A,2 "A7"B,2C2
+| "D"D3C D2E2 | "D7"F2D2 E2F2 | "Gm"G8 | _B8 \
+| "D"^G2 A4 F2 | "A7"(3G2F2E2 A2A,2 | "D"D8 | z2 :|
+"^B"\
+|: D2G2_B2 \
+| "Gm"d8 | z2 d2 c3_B | A2 _B6- | B4 z2_B2 \
+| A2_B2 c2d2 | c2_B2 A2G2 | "D"A8 | z2 :|
+"^A"\
+[| FA "A7"(3G2F2E2 \
+| "D"D8 | z2A2 "A7"G3F | "D"^E2 F6 | z2 A,2 "A7"B,2C2 \
+| "D"D2F2 E2D2 | F2A2 "A7"G2F2 | "D"^E2 F6 | z2 A,2 "A7"B,2C2
+| "D"D3C D2E2 | "D7"F2D2 E2F2 | "Gm"G8 | _B8 \
+| "D"^G2 A4 F2 | "A7"(3G2F2E2 A2A,2 | "D"D8 | z2 |]
+"^C"\
+|: z2 (3=c2B2A2 \
+| "D"^GBA6- | A8- | A8- | A8 \
+|     ced6- | d8  | d2z2 {c}d2z2 | {c}d2z2  {c}d2z2
+| ^GAB=c B2{cB}A2 | ^GAB=c B2{cB}A2 | ^GAB=c B2{cB}A2 | ^GAB=c B2{cB}A2 \
+| ^GB A4 A2 | "A7"=G2F2 E2D2 | "D"^G2 A6 | z2D2 E2F2
+| "Gm"G4 G4 | G4 G4 | "A7"F3G ^G2A2 | "D"F2EF E2D2 \
+| ^G2 A4 F2 | "A7"GFE2 A2A,2 | "D"D8 | z2 :|

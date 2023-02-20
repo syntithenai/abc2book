@@ -1,0 +1,30 @@
+X: 121
+T: 4 Les fanfares de St Cloux
+%R:
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.12 #1
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%indent 400
+d2a2 |\
+f2e2 f2g2 | f2e2 d2a2 |\
+f2d2 e2A2 | d4 :|
+|: "2.f."e2f2 |\
+e2A2 e2f2 | e2A2 d2e2 |\
+f2e2 f2g2 | Ha4 d2a2 |\
+f2e2 f2g2 | f2e2 d2a2 |\
+f2d2 e2A2 | d4 :|
+|: "2.f."dcde |\
+d2e2 f2g2 | f2e2 dcde |\
+d2e2 f2e2  | d4 dcde |\
+d2e2 f2g2 | f2e2 dcde |\
+d2e2 f2e2 | d4
+agab |\
+a4 A2A2 | A4 gfga |\
+g4 A2A2 | A4 dcde |\
+d2e2 f2g2 | f2e2 dcde |\
+d2e2 f2e2 | d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

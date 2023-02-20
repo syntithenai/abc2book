@@ -1,0 +1,35 @@
+X: 02
+T: The Monckton __ or British white Feathers.
+C: (Hon: C.G.)
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: a2a fef | d3 A3 | .B.c.d .e.f.g | e>fd cBA \
+|  a2a fef | d3 A3 | B>.gf edc | d3 D3 :|
+|: D>FD D>FD | E>GE E>GE | .F.G.A .B.A.G | FED CB,A, \
+|  D>FD D>FD | E>GE E>GE | {c}BAG F>GE | D3 D3 :|
+|: (d2e) (c2d) | (B2d) (A2d) | .A.F.D .A.F.D | .[EA,].[EA,].[EA,] .[E2A,2]z \
+|  (d2e) (c2d) | (B2d) (A2d) | Bcd {g}f2e | f>dd d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: d2f a2f | d2d def | g3 c3 | d2f a3 \
+|  d2f a2f | d2d def | g3 a2a | d3 D3 :|
+|: f3 d3 | c3 A3 | def g3 | d3 a3 \
+|  f3 d3 | c3 A3 | g2e a2A | d3 D3 :|
+|: "p"b3 a3 | g3 f3 | "f"d3 d3 | Ace A2z \
+|  "p"b3 a3 | g3 f3 | g3 ABc | dfa d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First Lady Foot's it to the 2d Gen.n and turns him to the Right .|.
+%% First Gen: Ditto with the 2d Lady :|: Gallop down two Couple and
+%% foot it .|. Gallop up and cast off :|: Four hands the round with
+%% the 3d Couple .|. Right and Left at the top. :|:
+%%endtext

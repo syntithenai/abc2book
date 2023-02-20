@@ -1,0 +1,62 @@
+
+X: 1
+T: Bour\'ee Pastourelle  [C]
+O: central France
+M: 6/8
+L: 1/8
+K: C
+G \
+| "C"ccd efe | "G"~dc/d/c/d/ "C"~ecG \
+| "C"ccd efe | "G"~dc/d/e/d/ "C"c2 :|
+|: e \
+| "G"~d2B G2B | "C"cc/d/c/d/ ~ece \
+| "G"~d2B G2B | "C"cc/d/e/d/ c2 :|
+
+
+X: 1
+T: Bour\'ee Pastourelle  [D]
+O: central France
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"dde fgf | "A"~ed/e/d/e/ "D"~fdA \
+| "D"dde fgf | "A"~ed/e/f/e/ "D"d2 :|
+|: f \
+| "A"~e2c A2c | "D"dd/e/d/e/ ~fdf \
+| "A"~e2c A2c | "D"dd/e/f/e/ d2 :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: la Montagnarde  [C]
+O: central France
+M: 6/8
+L: 1/8
+K: C
+G \
+| "C"c/d/e~e c/d/e~e | c/e/gf "G"~e2d \
+| "C"c/d/e~e c/d/e~e | c/e/gf "G"d2 :|
+|: G \
+| "C"c2~B "Am"ABc | "Dm"d2f "G7"~ed2 \
+| "C"c2~B "Am"ABc | "G7"de~d "C"c2 :|
+
+
+X: 1
+T: la Montagnarde  [D]
+O: central France
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"d/e/f~f d/e/f~f | d/f/ag "A"~f2e \
+| "D"d/e/f~f d/e/f~f | d/f/ag "A"e2 :|
+|: A \
+| "D"d2~c "Bm"Bcd | "Em"e2g "A7"~fe2 \
+| "D"d2~c "Bm"Bcd | "A7"ef~e "D"d2 :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+

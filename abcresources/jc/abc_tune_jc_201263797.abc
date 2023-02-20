@@ -1,0 +1,16 @@
+X: 692
+T: Comely Jane Downing
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #692
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0692/oneill-1001-0692-1.abc
+M: C|
+L: 1/8
+K: G
+"^A"\
+[| G2(BG) BddB | c2(ec) (ef)g2 | G2(BG) Bddg | edcB ABcA ||
+|| G2(BG) BddB | cBcd    efga  | bgaf   gfeg | edcB A2G2 |]
+"^B"\
+[| g2(bg) agfd | edef gdBd | g2(bg) agfd | edef g2(ga) ||
+|| bagf   gfed | edef gdBd | cBcd   efge | dBGB A2G2 |]

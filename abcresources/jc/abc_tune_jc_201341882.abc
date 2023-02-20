@@ -1,0 +1,26 @@
+X:1
+T: Susan
+N:
+C:Tune is "The Fairy Queen" by O'Carolan
+S:
+A:
+O:
+R:
+M:3/4
+K:D
+I:speed 150
+%W:
+% voice 1 (1 lines, 30 notes)
+K:D
+M:3/4
+L:1/16
+d4 d4 B2 A2 |d8 B2 A2 |d4 d4 B2 A2 |d4 e4 f4 |d4 d4 A2 B2 |F8 d2 c2 |B8 d2 c2 |d6 g2 f g f e |
+%W:
+% voice 1 (1 lines, 32 notes)
+d6 f2 e f e d |c6 f2 e f e d |B6 c2 B2 A2 |F6 g2 f2 e2 |B6 d2 c2 B2 |A4 B4 d2 c2 |d12|d8 d2 e2 |
+%W:
+% voice 1 (1 lines, 30 notes)
+f6 e f f4 |f2 e2 f2 g2 f2 g2 |e8 e4 |e4 f4 a4 |d8 a4 |c8 a2 c2 |B6 c2 B c B A |F6 A2 B2 c2 |
+%W:
+% voice 1 (1 lines, 32 notes)
+d6 G2 F G F E |D6 d2 c2 d2 |e6 d2 c d c B |A6 g2 f2 e2 |B6 d2 c d c B |A4 B4 d2 c2 |d12|d8 ||

@@ -1,0 +1,70 @@
+
+X: 1
+T: Troika    [Dm]
+O: Russian
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dm
+[| "Dm"za-"A7"ag "Dm"f2 "A7"e2 | "Dm"d2 "A7"^c2 "Dm"d2 "A7"A2 \
+|  "Dm"za-"A7"ag "Dm"f2 "A7"e2 | "Dm"d2 "A7"^c2 "Dm"d2 "C7"=c2 |
+|| "C7"zc'-c'b "F"b2a2 | "A7"za-ag "Dm"g2f2 \
+|  "Gm"zefg "Dm"a2A2 | "A7"fed^c "Dm"d2 z2 ||
+|| "Dm"f4- ffed | "A7"e4- eed^c \
+|  "Dm"d4- dded | "A7"^c2A2 A4 |
+|| "Dm"f4- ffef | "Gm"g4- ggfg \
+|  "Dm"a3g "A7"f2e2 | "Dm"d2 "A7"^c2 "Dm"d2 z2 |]
+
+%%sep 1 1 500
+
+
+X: 1
+T: Troika    [Gm]
+O: Russian
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Gm
+[| "Gm"zd-"D7"dc "Gm"B2 "D7"A2 | "Gm"G2 "D7"^F2 "Gm"G2 "D7"D2 \
+|  "Gm"zd-"D7"dc "Gm"B2 "D7"A2 | "Gm"G2 "D7"^F2 "Gm"G2 "F7"=F2 |
+|| "F7"zf-fe "Bb"e2d2 | "D7"zd-dc "Gm"c2B2 \
+|  "Cm"zABc "Gm"d2D2 | "D7"BAG^F "Gm"G2 z2 ||
+|| "Gm"B4- BBAG | "D7"A4- AAG^F \
+|  "Gm"G4- GGAG | "D7"^F2D2 D4 |
+|| "Gm"B4- BBAB | "Cm"c4- ccBc \
+|  "Gm"d3c "D7"B2A2 | "Gm"G2 "D7"^F2 "Gm"G2 z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Troika    [Em]
+O: Russian
+Z: John Chambers <jc:trillian.mit.edu>
+K: Em
+[| "Em"zb-"B7"ba "Em"g2 "B7"f2 | "Em"e2 "B7"^d2 "Em"e2 "B7"B2 \
+|  "Em"zb-"B7"ba "Em"g2 "B7"f2 | "Em"e2 "B7"^d2 "Em"e2 "D7"=d2 |
+|| "D7"zd'-d'c' "G"c'2b2 | "B7"zb-ba "Em"a2g2 \
+|  "Am"zfga "Em"b2B2 | "B7"gfe^d "Em"e2 z2 ||
+|| "Em"g4- ggfe | "B7"f4- ffe^d \
+|  "Em"e4- eefe | "B7"^d2B2 B4 |
+|| "Em"g4- ggfg | "Am"a4- aaga \
+|  "Em"b3a "B7"g2f2 | "Em"e2 "B7"^d2 "Em"e2 z2 |]
+
+%%sep 1 1 500
+
+
+X: 1
+T: Troika    [Am]
+O: Russian
+Z: John Chambers <jc:trillian.mit.edu>
+K: Am
+[| "Am"ze-"E7"ed "Am"c2 "E7"B2 | "Am"A2 "E7"^G2 "Am"A2 "E7"E2 \
+|  "Am"ze-"E7"ed "Am"c2 "E7"B2 | "Am"A2 "E7"^G2 "Am"A2 "G7"=G2 |
+|| "G7"zg-gf "C"f2e2 | "E7"ze-ed "Am"d2c2 \
+|  "Dm"zBcd "Am"e2E2 | "E7"cBA^G "Am"A2 z2 ||
+|| "Am"c4- ccBA | "E7"B4- BBA^G \
+|  "Am"A4- AABA | "E7"^G2E2 E4 |
+|| "Am"c4- ccBc | "Dm"d4- ddcd \
+|  "Am"e3d "E7"c2B2 | "Am"A2 "E7"^G2 "Am"A2 z2 |]

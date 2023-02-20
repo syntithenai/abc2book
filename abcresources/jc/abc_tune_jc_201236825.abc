@@ -1,0 +1,22 @@
+X: 2321
+T: Sally Kelly.   a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.2 p.32 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - -
+V: 1 staves=2
+E |\
+Ddd^c ~d3f | {f}edcd efga | fde^c d2AF | GBAG FDD :| E | TF>GAc F/F/F A2 | TF>GAc BGGg |
+fde^c d2AF | G/A/B 	A>G FD-DF || F>GAc F/F/F A2 | TF>GAc BGGg | fde^c d2AF | (G/A/B) ~A>G FD-D |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d2A2 d2d2 | c2c2 c2c2 |\
+d2A2 d2F2 | G2A2 D2D :| z |\
+[f2F2][f2F2] [f2F2][f2F2] | [f2F2][f2F2] [g2G2][g2G2] |
+d2A2 d2F2 | G2A2 D2Dz ||\
+[f2F2][f2F2] [f2F2][f2F2] | [f2F2][f2F2] [g2G2][g2G2] |\
+d2A2 d2F2 | G2A2 D2D |]

@@ -1,0 +1,27 @@
+X: 10364
+T: MARI NIGHEAN DHEORSA
+O: Gaelic air.
+Q: "Very slow."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.36 #4 (and p.37 #1)
+N: This is version 2, for ABC software that understands trailing grace notes.
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+{c}TB4 A2F2 | A4 {c}Ha4 |\
+({c}e4 e)(dcB) | A4 (A3B) | A4 (F2E2) |]|\
+!p![f3d3][fd] {g}a4 | "^cres."[f3d3][fd] {c}a4 |\
+a3g {g}a4 | ([f3d3][ec]) [e4c4] |\
+(c3d) [e4c4] | [f2d2][e2c2] [e4c4] |
+(ABcd efga) |\
+Tf4 {e2f2}He4 {e/f/g} !f!| (a3g) f4 |\
+(e3c) [e4c4] | (f3c) {c}a4 |\
+{c}TB4 (A2F2) | A4 {c}Ha4 |\
+({c}e4 e)(dcB) | A4 (A2B2) | A4 F2E2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

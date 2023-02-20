@@ -1,0 +1,37 @@
+X: 342
+T: Ostropat
+O: Romania
+F: http://www.youtube.com/watch?v=wnFckOC-5tA
+Z: Birgitt Karlson
+M: 7/16
+L: 1/16
+Q: 1/4=110
+K: Dm
+%%MIDI trim 1/2
+%%MIDI gchord c2c2f3
+%%MIDI program 22
+%%MIDI chordprog 105
+%%MIDI bassprog 43
+%%MIDI chordvol 60
+%%MIDI bassvol 85
+|:"Dm" AB_A=A fed  | dA=B^c def        |\
+  "A7" gffe d^ce   | dA=B^c def        |
+  "D7"d_e^cd ede   |^f_edc BAd         |\
+  cBAG ^FGA        |"Gm"GDE^F GAB      |
+  GAB^c def        |"A7" gefd e^cd     |\
+  e^cdB cAB        |^cBAG GFE          |
+  G2FE BAG         | BAGF ED^C         |\
+  EA,B,^C DEF      |[1"Dm"DEF^G AFD    :|[2 "Dm"D4 z3  |
+|:"C7" A2G^F GAG   |"F"FCFG ABc        |\
+  "Bb"B2BA BcB     |"F"AFAc f_Bc       |
+  "Bb"d2 d^c ded   | "F"cfed cBA       |\
+  "C7"c2 G^F GEG   |[1"F"FCDE F^FG     :|[2"F"F4 z3   |
+|:"D7" d2d2 cBA    |"Gm"cBBA GAB       |\
+  "C7"c2c2 BAG     |"F"BAAG FGA        |\
+  "Gm"B2B2 BAG     |
+  BAGF ED^C        |"A7"EA,B,^C DEF    |\
+  [1"Dm"DEF_A =AFD :|[2"Dm"D4 z3       |
+|:"D7"dDdD cBA     |"Gm"BCDE F^FG      |\
+  "C7"cCcC BAG     |"F"ACDE FGA        |
+  "Gm" BB,BB, BAG  | BAGF ED^C         |\
+  "A7"EA,=B,^C DEF |[1 "Dm" DEF_A =AFD :|[2 "Dm" D4 z3|

@@ -1,0 +1,29 @@
+X: 30931
+T: COTILLION No. 8. WINTHROP HALL SETT tune 4
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.93 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain's pickup notes are duplicated at the end of the 2nd strain, plus a "D.C.". Not fixed.
+M: 6/8
+L: 1/8
+K: G	% and Em in strain 3
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+B/c/ |\
+d2d e2d | B2B d2c | A2A AGA | B3 G2 B/c/ |\
+d2d e2d | B2B d2c | A2A AGA | G3 z2 H|]
+g |\
+f2f fef | g3 d2e | c2d B2c | A^cd D2 g |\
+f2f fef | g3 e2g | fed cde | dce d2"^D.C."B/c/ |]
+B |\
+e2e g2g | f2^d B2B | c2A F2A | GFG E2 B |\
+e2e g2g | f2d B2a | c'2a f2^d | e3 "^D.C."e2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 right and left,
+%% balance and swing round.
+%% Next 2 right and left, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

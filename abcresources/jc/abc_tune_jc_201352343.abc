@@ -1,0 +1,13 @@
+X:1
+T:White Wings
+R:Waltz
+M:3/4
+L:1/4
+%%printtempo 0
+Q:180
+K:D
+f/g/|\
+"D"a>b a| f>ed| "G"e>dB| "D"d2d/B/| AFA| def| "A"{g}fe>f| e2 f/g/ |
+"D"a>ba| f>ed| "G"edB| "D"d2d/B/| AFA| def| "A7"{g}fBc| "D"d2A/B/||
+"D"AFA| d>dA| "G"B>Bd| BAF/E/| "D"DFA| def| "A"{g}fe>f| e2A/B/|
+"D"AFA| d>dA| "G"B>Bd| BAF/E/| "D"DFA| def|"A7"{f}eBc| "D"d2|]

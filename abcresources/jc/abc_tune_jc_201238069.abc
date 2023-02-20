@@ -1,0 +1,24 @@
+X: 30191
+T: WHIG MARCH
+C:
+%R: march, hornpipe
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.19 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The initial 3 pickup notes should probably be quarter notes, like the other similar pickups.
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(3(d/e/f/) |\
+g>fg>d B>cd>c | A>GA>B G2 (3(DAB) |\
+c2 (3(ABc) B2 (3(GAB) | A>G[AF]>G D2 (3(def) |\
+g>fg>d e>de>d | c>de>c d2 B>A |\
+G>g (3(edc) B2 A2 | G2 [gG]>[gG] [g2G2] :|
+|: (3(GAB) |\
+c>Bc>B A2 (3(DEF) | A>A (3(DEF) A2 A>B |\
+c>Bc>B A2 (3(DEF) | G>G (3(DEF) G2 G>A |\
+B>BB>d (3(cBc) (3(ABc) | B>BB>d (3(cBc) (3(ABc ) |\
+(3(Bcd) (3(efg) B2A2 | G2 a>a a2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,27 @@
+X: 11261
+T: SPANISH FANDANGO
+Q: "Moderate."
+%R: fandango, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.126 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: All 3 strains have final repeats but no initial repeat symbols; fixed.
+M: 3/4
+L: 1/8
+K: F
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+cB |\
+(AcfAcf) | {fg}a2a2gf | (egbgeg) | (ffedcB) |\
+(AcfAcf) | {fg}a2a2gf | (egbgeg) | f4 :|
+|: AB |\
+(cdcBAc) | d2d2(ef) | (egbgeg) | (fafcAB) |\
+(cdcBAc) | d2d2(ef) | (egbgeg) | f4 :|
+|: AB |\
+(c/d/c/B/ A).f.c.a | (c/d/c/B/ A).f.c.a |\
+(B/c/B/A/ G).e.B.g | (B/c/B/A/ G).e.B.g |\
+(c/d/c/B/ A).f.c.a | (c/d/c/B/ A).f.c.a |\
+(B/c/B/A/ G).e.B.g | f4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

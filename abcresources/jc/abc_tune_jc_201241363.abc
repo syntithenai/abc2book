@@ -1,0 +1,40 @@
+X: 432
+T: the Ruffians Rant -- Strathspey
+R: strathspey
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.43 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B2 |\
+AF3 TF3D TF3EF2B2 | AF3 TF3D TE3DE2B2 |\
+AF3 TF3D d3ef3e | dB3A2F2 TE3DE2 :|
+|: B2 |\
+AF3 B3A d3ATB3A | FF3 d3A B3AB2d2 |\
+AF3TE3D d3eTf3e | d3Bd3F TE3DE2 :|
+|: b2 |\
+af3Tf3e Tf3ef2b2 | af3 Tf3d Te3de2b2 |\
+af3Tf3e d3eTf3e | (dcBA d3)F TE3DE2 :|
+|: B2 |\
+AF3 d3A TB3Ad3A | TB3Ad3A d3ABd3 |\
+AF3TE3D d3eTf3e | (fe)(dB) (dB)(AF) TE3DE2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+d4d4 d4d4 | d4d4 e4e4 |\
+d4d4 d4d4 | d4d4 e4e2 :|\
+|: z2 |\
+d4d4 d4d4 |
+d4d4 d4d4 |\
+d4d4 d4d4 | d4d4 A4A2 :|\
+|: z2 |\
+d4d4 d4d4 | d4d4 A4A4 |\
+d4d4 d4d4 | d4d4 A4A2 :|\
+|: z2 |\
+d4d4 d4d4 | d4d4 d4d4 |\
+d4d4 d4d4 | d4d4 e4 e2 :|
+
+% - - - - - - - - - - - - - - - - - - - - - - - - -

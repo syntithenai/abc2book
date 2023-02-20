@@ -1,0 +1,64 @@
+
+X: 1
+T: The Duke of Gordon
+R: march, air
+M: 2/4
+L: 1/8
+F: http://sniff.numachi.com/~rickheit/dtrad/abc/DUKEGORD.abc	 2008-05-06 22:37:13 UT
+K: G
+D | G2 GA | G2 DD | G2 GA | G2 G2 | A2 BA | d2 cB | AG D2 | D3 |]
+d | BA Bc | d2 DD | DD EF | G2 DD | G2 GG | AG FE | D2 G2 | G3 |]
+
+
+%%sep 3 1 500
+
+X: 2
+T: the Duke of Gordon's Strathspey #1
+C: William Marshall
+M: C
+L: 1/8
+S: Marshall's 1822 Collection
+Z: AK/Fiddler's Companion
+K: D
+B/c/ |\
+"D"d>D F>D AD FD | "G"B>D "D"F>D "Em"E/E/E "A7"EB/c/ |\
+"D"d>D F>D AD FD | "A7"d>f e>f "D"d/d/d d :|
+f/g/ |\
+"D"a>f d<f Ad FD | "G"GB "D"FA "Em"E/E/E "A7"Eg |\
+"D"a/g/f/e/ d>f A<d F>D | "G"G>B "A7"A>c "D"d/d/d d ||
+f/g/ |\
+"D"a>f d<f A>d F>A | "G"G>B "D"F>A "Em"E>F "A7"G<E |\
+"D"D>F "A7"E>G "D"F>A "G"G>B | "D"A>F "A7"G>E "D"D/D/D D |]
+
+
+%%sep 3 1 500
+
+X: 3
+T: the Duke of Gordon #2
+M:4/4
+L:1/8
+%Q:128
+K:G
+G \
+|:"G"G3/D/ G/B3/ G3/D/ G/B3/ | "G"d3/B/ g3/B/ "D7"A/A3/ A3/B/ \
+| "G"G3/D/ G/B3/ G3/D/ G/B3/ | "D7"d3/c/ B3/A/ "G"G/G3/ G2 :|
+|:"G"g3/a/ b3/g/ d/d3/ d2 | "G"g3/a/ b3/g/ "C"e/e3/ e3/f/ \
+| "G"g/b3/ "C"e/g3/ "G"d/g3/ "Em"B/g3/ | "D7"A3/G/ A3/B/ "G"G/G3/ G2 :|
+
+
+%%sep 3 1 500
+
+X: 4
+T: the Duke Of Gordon #3
+C:Niel Gow (1727-1807)
+M:4/4
+L:1/8
+R:strathspey
+F:http://www.thesession.org/tunes/display.php/2814	 2008-05-06 22:37:13 UT
+K:D
+F>E | D<A, B,>A, D>B, A,>F | G<E   F>D B,2 F>E \
+    | D<A, B,>A, D>B, A,>B | A>F (3EFE D2     :|
+B>c | d<A  B>F   A>F  D>F  | G<E   F>D B,2 B>c \
+    | d<A  B>F   A>F  D>F  | G<E   B>c d2     ||
+B>c | d<A  B>F   A>F  D>F  | G<E   F>D B,2 F>E \
+    | D<A, B,>A, D>B, A,>B | A>F (3EFE D2     |]

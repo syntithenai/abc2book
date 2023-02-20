@@ -1,0 +1,28 @@
+X: 1
+T: Glascow Lasses
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.73 #333
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:73 #333
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 2/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+        c | F>GFd | cAcf    | F>GFA | BG2c    | F>GFd | cA2c     | d>efg    | af2 :|
+|: (f/g/) | a>gfF | Ac2f/g/ | a>gfF | eg2f/g/ | a>gfc | d/e/f cA | B/c/d BG | AF2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z | f2f2 | f2f2 | f2f2 | c2c2 | f2f2 | f2za | bgac'| f3 :|
+|: z | f2f2 | f2z2 | f2d2 | c4   | f2a2 | b2f2 | d2c2 | f3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Man foot it to the 2d Wo. and cast off into the 2d Mans Place,
+%% and the 2d Wo. cast up at the same time into the 1st Wo.s Place .|
+%% Then the 2d Man foot it to the 1st Wo. (he being a Top) and cast off into his Place,
+%% and the 1st Wo. cast up into her Place ||
+%% then the 1st and 2d Man foot it to their Partners,
+%% the 1st Cu. cast off one Cu. take hands with the 2d Cu. and lead up,
+%% foot it and cast off into the 2d Cu.s Place.
+%%endtext

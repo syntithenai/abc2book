@@ -1,0 +1,34 @@
+X: 11043
+T: COTILLION No. 18. Basket Sett tune 3
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.104 #3 (and p.105 #1)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!p!A2 |\
+(dAf).e .d2.f2 | (^gab).a .e2.a2 | (=gfe).d .^c2.d2 | (^de)(=B^c) A2A2 !f!|\
+(dAf).e .d2.f2 | (ab).f.d B2FG | (A2.d.f) a2.e.f | d2d2d2 H|]
+%p.201 #1
+!p!c2 |\
+(dc=Bc) .a2.f2 | (dc=Bc) .a2.f2 | (ab)(^fg) e2c2 | (aefa) c'2c2 |\
+(dc=Bc) a2(ef) | (dc=Bc) a2(ef) | (ab)ge (cB).G.E | F2F2"^D.C."F2 |]
+!pp!A2 |\
+([fd]A).[fd].[fd] .[f2d2].[f2d2] | [fd]A[fd][fd] [f2d2][f2d2] |\
+([ec]A)[aA][aA] [a2A2][a2A2] | [a4A4] (b2a2) |\
+(a[ec])[ec][ec] [e2c2][ec][ec] | [e4c4] (b2a2) |\
+[fd][fd][fd][fd] [e2A2][e2A2] | [d4D4] "^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% partners the same,
+%% balance 4 and turn,
+%% grand chain,
+%% all promenade,
+%% next 2 forward, &c.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

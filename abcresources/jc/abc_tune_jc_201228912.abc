@@ -1,0 +1,20 @@
+X: 11773
+T: BIDE YE YET
+Q: "Not too fast."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.177 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F	% and Dm
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(c/B/) |\
+A>GA FFG | (A>Bc) (BAG) | A>GA F>FG | Add d2c |\
+A>GA FFG | A>Bc {c}B2G | A>GA FFG | Add d2 |]
+c |\
+A2f f2c | A2c c2G | A<Af f>ga | A2d d2c |\
+A<Af f>ga | (ABc) B>AG | A2G F<FG | A2d d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

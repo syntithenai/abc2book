@@ -1,0 +1,33 @@
+X: 1301
+T: ELLSLER'S CACHUCHA
+C: Auber
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.130 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: G
+%
+V: 1
+|:\
+g6- | g2 {a}gfga | b2g2d2 | d2e2B2 |\
+(d6 | c2) {b}a^gab | c'2a2f2 | d2e2c2 |
+d4 c2 | B2 gfga | b2g2f2 | d2e2B2 |\
+(d6 | c2)a^gab | c'2a2f2 | d2e2c2 |
+B2dedc | B2.B2.A2 | c2 "^>"B4 | G2B2c2 |\
+d2e3d | A2A2^G2 | B2 "^>"A4 | A2B2c2 |
+d2e3d | b2b2a2 | c'2 "^>"b4 | g2b2c'2 |\
+d'2e'3d' | a2a2^g2 | b2 a4 | a2b2c'2 |\
+d'2e'3d' :| g2g'2g'2 | f'4z2 |]
+%
+V: 2
+|:\
+GBdBdB | G4z2 | G2B2B2 | B2 z2 G2 |\
+(B6 | A2)cBcd | e2c2A2 | F2z2A2 |
+B4 A2 | G2 BcBA | G2B2B2 | B2z2G2 |\
+(B6 | A2)cBcd | e2c2A2 | F2z2A2 |
+G2BcBA | G2G2F2 | B2"^>"G4 | G2G2A2 |\
+B2c3B | F2F2^E2 | G2 "^>"F4 | F2G2A2 |
+B2"^>"c3B | g2g2f2 | a2 "^>"g4 | g2g2f2 |\
+b2c'3b | f2f2^e2 | g2 f4 | f2g2a2 |\
+b2c'3b :| b2b2b2 | b4z2 |]

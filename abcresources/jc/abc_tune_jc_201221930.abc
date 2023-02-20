@@ -1,0 +1,22 @@
+X: 10
+T: Miss Lamberts Delight
+%R: slip-jig
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1765", London 1765, p.5 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1765#
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+g3 gfe dcB | ced cBA BAG |\
+g3 gfe fag | fed AB^c d3 :|
+|:\
+d3 dBG ecA | d3 dBG AFD |\
+d3 dBG ecA | BdB cAF G3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Half Right and left .|. the same back again
+%% :|. cross over and turn .|: lead up and cast off :|:
+%% turn contrary Corners .||. :||. lead out sides .||: :||:
+%%endtext

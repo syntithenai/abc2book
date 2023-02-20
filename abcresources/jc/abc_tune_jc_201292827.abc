@@ -1,0 +1,26 @@
+X: 1
+T: Ji Bi Di, Ji Bi Da
+O: French
+Z: John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: Play in each key twice
+M: 2/4
+L: 1/8
+K: F
+P: Intro
+    A/B/ | "F"c3 d/e/ | f3 A/B/ | "C7".c.B .A.G | "F"Fz ||
+P: F
+K: F
+|:  FG   | "F"A>G AB | "C7"AG EF | G>F GA | "F"Fz :|
+|: zA/B/ | "F"c3 d/e/ | f3 A/B/ | "C7".c.B .A.G |1 "F"A2 F :|2 "F"Fz |]
+P: C
+K: C
+|:  CD   | "C"E>D EF | "G7"ED B,C | D>C DE | "C"Cz :|
+|: zE/F/ | "C"G3 F/E/ | D3 E/F/ | "G7".G.F .E.D |1 "C"E2 C :|2 "C"Cz |]
+P: G
+K: G
+|:  GA   | "G"B>A Bc | "D7"BA FG | A>G AB | "G"Gz :|
+|: zB/c/ | "G"d3 c/B/ | A3 B/c/ | "D7".d.c .B.A |1 "G"B2 G :|2 "G"Gz |]
+P: D
+K: D
+|:  DE   | "D"F>E FG | "A7"FE CD | E>D EF | "D"Dz :|
+|: zF/G/ | "D"A3 B/c/ | d3 F/G/ | "A7".A.G .F.E |1 "D"F2 D :|2 "D"Dz |]

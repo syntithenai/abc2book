@@ -1,0 +1,36 @@
+X: 94
+T: Dr O Connor
+T: Doctor O'Connor
+C: Carolan
+%R: jig
+B: "The Hibernian Muse" p.58
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. XCIV.
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+c2c cdB | cdB c2d | e2e efd | efd e2f |\
+gfg GBG | fef FAF | ede EGE | dcd BdB |
+GGc BBd | cce BBd | GGg agf | edc dBd |\
+c2G c2c | d2G d2d | edc f2d | g2G c3 |]
+[|\
+A2A ABc | dBG GBG | d2d ded | ded efg |\
+{f}edc c'2c | edc g2e | fed a2d | BA^G A3 |
+=GEC GEC | G3 c3 | Tc3 AFc | AFc d>cB |\
+cde def | efg agf | edc TBGB | c3 c3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+c3 z2z | c3 z2z | c'2c' c'd'b | c'd'b c'2z |\
+g3 g3 | d3 d3 | c3 c3 | f3 g3 |
+e3 g3 | c'3 g3 | e3 f3 | c3 g3 |\
+e3 edc | B3 BAG | c2e d2f | g2G c3 |]
+[|\
+A3 a3 | g3 g3 | f3 d3 | B3 c3 |\
+c3 edc | c3 edc | d3 f3 | e2E A3 |
+e3 c3 | egc' egc' | ece f3 | a3 g3 |\
+e3 g3 | c'3 f3 | g3 G3 | c3 c3 |]

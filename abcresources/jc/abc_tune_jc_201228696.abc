@@ -1,0 +1,25 @@
+X: 115101
+T: FAIRBAIRN'S
+Q: "Strathspey."
+R:  Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.1 p.15 s.1 #1
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: A
+(uc/>B/) |\
+vA>vE (3CEA (3DFA (3CEA | (3DFA (3CEA B,<B B(c/B/) |\
+vA>vE (3CEA (3DFA (3CEA | (3DFA (3B,EG A2- A :|\
+ue |\
+va>vAug>uA vf>vAue>uc | vd>uB d/c/B/A/ G<B B>ug |
+a>Ag>A f>Ae>c | (3def {ef}ue>uc A2-Aue |\
+a>Ag>A f>Ae>c | vd>uB d/c/B/A/ G<B B>c |\
+(3ABc (3Bcd (3cde (3def | (3edc (3Bcd c<A A || ue |\
+!4!e'>!0!A!3!c'>A !1!a>!0!A!0!e>!0!A |
+(3Ace (3Ace G<B B>ue |\
+e'>Ac'>A a>Ae>c | (3def {ef}e>c A2- Ae |\
+e'>Ac'>A a>Ae>c | (3Ace (3Ace G<B B>e |\
+(3eac' (3ebd' (3ee'c' a>c | (3def {ef}e>c A2- A |]

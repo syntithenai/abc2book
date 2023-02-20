@@ -1,0 +1,21 @@
+X: 683
+T: Planxty O'Neill
+T: pleraca ua niall
+R: jig
+%S: s:6 b:24(4+4+5+4+3+4)
+C: O'Carolan
+B: O'Neill's 1850 #683
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+R: jig, waltz
+Q: "Animated"
+O: J.O'Neill
+N: There are some very unclear slurs in my copy of O'Neill's.
+M: 6/8
+L: 1/8
+K: D
+"^A"[| A>FD DA,D | (F/G/A).B AFD | GFE {G}FED | B>(Bc/d/) ecA ||
+|| (d/f/e/d/c/e/) (d/c/B/A/G/)F/ |  G/(A/G/F/E/)D/ CB,A, | .D(DE) FGA | .E(EF) FAB ||
+|| AFD dAF | BGE ecA | dAF {A}GEC | D3 D2z "^B"|]| A2d ((d/c/)dc) |
+| (B>cB/A/) GFE | (Ee).e edc | BAG F2G || .A(g/e/c/e/) .d(c/d/e/d/) |
+| .B(b/a/f/a/) .g(f/g/a/g/) |  f/(e/d/c/B/A/) (G/F/E/F/G/)A/ | BEE {d}cAA ||
+|| (A/a/)(.f.d) (A/G/)(.E.E) | (G/F/)(.E.D) (C/B,/)(.A,.A,) | AdF {B}AGE | D3 D2z |]

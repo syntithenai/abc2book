@@ -1,0 +1,19 @@
+X: 2
+T: Adama
+O: Israel
+M: 4/8
+L: 1/8
+K: Bm
+Q: 1/4=120
+%%MIDI gchord fcfc
+%%MIDI program 74 recorder
+%%MIDI bassprog 24 Acoustic Guitar
+%%MIDI chordprog 24 Acoustic Guitar
+"Bm"B3c|d3F|B3c|d4|\
+"A"cdcB|A2"Bm"B2|"A"cdcB|"Bm"B4|
+B3c|d4|"A"c3d|e4|\
+"Bm"d2e2|f2g2|f4-|[1f4:|f3F|
+B3F|B3F|DEFG|F4|\
+"Em"EFG2|"Bm"DEF2|"A"CDEF|"Bm"F3F|
+B3F|B3F|DEFG|F4|\
+"A"EFG2|"Bm"DEF2|"A"CDEC|"Bm"B,4|

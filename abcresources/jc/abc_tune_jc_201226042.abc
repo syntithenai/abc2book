@@ -1,0 +1,16 @@
+X: 10083
+T: LEWIE GORDON
+Q: "Very Slow with Express:"
+R: strathspey
+B: "Edinburgh Repository of Music" v.1 p.8 #3
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The last two bars have an initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: G
+[|\
+G>ABA GEA2 | G>ABd ed{f}g2 |\
+edg>B (c/B/)(A/G/) (BA) | G>A{G}B>A GEG2 |
+G2{G}B>A GEA2 | G>ABc de/f/ {a}g>f |:\
+{f}ed g>B c/B/A/G/ BA | G>ABc dDG2 |]

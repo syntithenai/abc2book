@@ -1,0 +1,17 @@
+X: 20682
+T: PAUVRE JACQUE
+Q: "Adagio ma non troppo"
+%R: march
+B: "Edinburgh Repository of Music" v.2 p.68 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+[|\
+b2bb | d'2(c'b) | (abc'a) | g2z2 |\
+.d(dgb) | a3a | Tb4 |{c'b} a2z2 |\
+b2bb | d'2c'b |
+abc'a | g2z2 |\
+d'2c'b | a2c'a | g2a2 | ^a2b2 |\
+d'd'c'b | ae' d'/c'/b/a/ | ~g2b>a | g2z2 |]

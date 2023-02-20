@@ -1,0 +1,19 @@
+X: 11361
+T: the Highland Laddie
+%R: air, strathspey, march
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.36 #1
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Initial rests added to the first 2 strains to fix the rhythms of repeats.
+M: C
+L: 1/8
+K: G
+"_Slow"z |\
+G3B (AG)(AB) | (d>e)dB {B}A3B | G3B AGAB | d3e (de) g :: a |\
+{ga}b2a>g {fg}a2Tg>e | (ge)(dB) {B}A3B |
+d3e dega | Ta3g (de) g :: z |\
+(3(BAG) (.G.G) G2AB | (d/e/g/e/) dB {B}A3B | G3B (AGAB) | (g/a/b/a/) ge (de) g :|
+|: a |\
+(b>a)(g>b) (a>g)(e>a) | g/(e/d/e/) (g/e/d/)B/ {B}A3B | (3(dcB) (.B.B) gdeg | {ga}b2Ta>g (de) g :: [M:C] "_Brisk"e |\
+dGBG d2TB2 | eAAB eAAB |
+dgBg {e}d2TB2 | (G/A/B/c/) dA BGG :: g |\
+ed (e/f/g) e2(d<B) | aAAB aAAB | dgBg {e}Td2B2 | (G/A/B/c/) dA BGG :|

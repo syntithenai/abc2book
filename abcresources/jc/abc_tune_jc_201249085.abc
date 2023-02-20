@@ -1,0 +1,453 @@
+
+X: 0
+T: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS
+T: Scottish Country Dances
+N: A tune's number is its page number in the booklet.
+O: 2000
+K:
+%%begintext align
+Most of these tunes were transcribed to ABC in 2009,
+when several of the Boston-area RSCDS leaders ran a set
+of workshops to teach the dances in the booklet.
+This directory contains only the primary tunes for the dances.
+Tune sets for the dances may be found elsewhere,
+but musicians are encouraged to make their own medleys.
+   -- John Chambers
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 051
+T: Auld Reekie Hornpipe
+T: dance: Auld Reekie Hornpipe [Marianne Taylor]
+C: Barbara McOwen \251 1992
+R: hornpipe, reel
+Z: John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000) p.5
+M: C|
+L: 1/8
+P: ABAB
+K: Gm
+"A"[|\
+Bc \
+| "Gm"dcBA G2dc | "Gm"BAGB cdd2 | "F"c2Ac f2cf | "F"agfe "D7"dcBc |
+| "Gm"dcBA G2dc | "Gm"BAGB "C7"cdd=e | "F"f2ag "Dm"f_edc | "Gm"d2G2 G2 |]
+"B"[| ga \
+| "Gm"bB B/B/B "D7"aA A/A/A | "Gm"g2GA Bcd2 | "Am"=e2A=B cdeg | "D7"^fd d/d/d fdfa |
+| "Gm"bB B/B/B "D7"aA A/A/A | "Gm"gaba gdBG | "F"F2ag "Dm"fedc | "Gm"d2G2 G2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 071
+T: Braighe Bhanbh
+T: Braes of Banffshire
+T: dance: Anna's Wedding Cake [Brenda Janssen]
+O: Trad, arr. Susie Petrov
+R: strathspey
+Z: 2001 John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000) p.7
+M: 4/4
+L: 1/8
+P: ABAB
+K: F
+"A"[| d |\
+"F"c<F c>B A<F F<f | "F"c<F c>B A2 A<f | "F"c<F c>B A<F c>A | "Eb"B>G _E/F/G/A/ B2 Bd |
+"F"c<F c>B A<F F<f | "F"c<F c>B A2 A<f | "F"c<F c>B A<F c>A | "Eb"B>G _E/F/G/A/ B2 B ||
+"B"[| b |\
+"F"a>f c<f A<f c<b | "F"a<f c>B A2 Ab | "F"a>f c<f A<f c<A  | "Eb"B>G _E/F/G/A/ B2 Bb |]
+"F"a>f c<f A<f c<b | "F"a<f c>B "Am"A>B cf/g/ | "F"(3afa "C"(3geg "Dm"(3fed (3cBA | "Eb"B>G _E/F/G/A/ B2 B |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 091
+T: Jock McLeod's Wedding March
+T: dance: Flights of Fancy [Jeanetta McColl]
+C: Alexander C. McColl \251 1947
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000) p.9
+M: 6/8
+L: 1/8
+P: AA BB CC DD
+N: Once through the tune, with repeats, is twice through the dance.
+K: D
+"A"|: a |\
+"D"f>ef d3 | "A7"e>de c3 |\
+"D"f>ef "Bm"d>ef | "Em"g>fg "A7"e>fg |\
+"D"f>ef d3 | "A7"e>de c2g |\
+"D"f>ed "A7"A>ce | "D"d3 d2 :|
+"B"|: f/g/ |\
+"D"a2a "D7"a>fd | "G"B<GB d>BA |\
+"D"a2a "Bm"d>ef | "Em"g>fg "A7"e>fg |\
+"D"a2a "D7"a>fd | "G"B<GB d>BA |\
+"D"f>ed "A7"A>ce | "D"d3 d2 :|
+"C"|: f |\
+"D"A>AA A3 | f>ef d>ef |\
+"A7"a>eg "D"f>dd | "Em"g>fg "A7"e>dB |\
+"D"A>AA "D7"A3 | "G"B<GB d>BA |\
+"D"f>ed "A7"A>ce | "D"d3 d2 :|
+"D"|: g |\
+"D"f>dd a>dd | "A7"g>cc c>eg |\
+"D"f>dd "Bm"a>dd | "Em"g>fg "A7"e>fg |\
+"D"f>dd a>dd | "A7"g>cc c>ea |\
+"D"f>ed "A7"A>ce | "D"d3 d2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 111
+T: Mr. Gordon of Hallhead's Strathspey
+T: dance: The Maine Medley [Daan Troost]
+C: William Marshall
+O: arr. Elke Baker
+R: strathspey
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000) p.11 #1
+M: 4/4
+L: 1/16
+P: AAB
+K: G
+"A" |:\
+"G"G3DB,3D GFED B,2D2 | GG,3BD3 "D7"FA3A3B |\
+"G"G3DB,3D "Em"GFEF G2g2 | "D7"d3B cBAG "G"DG3G4 :|
+"B"[|\
+"G"gfga g4 "Em"gfga g4 | "C"efga gfed "D7"ea3a3f |\
+"G"g3bgd3 "C"e2g2"G"d2B2 | "C"c2e2"D7"A2d2 "G"B2G2G2d2 |
+"G"gfga g2z2 "Em"gfga g2z2 | "C"gaba gfed "D7"ea3 a2gf |\
+"G"gb3"C"eg3 "G"d2g2B2G2 | "C"c3A "D7"cBAG "G"DG3G4 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 112
+T: Teetotaler's Reel
+T: dance: The Maine Medley [Daan Troost]
+O: arr. Barbara McOwen
+Z: John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000) p.11 #2
+M: C|
+L: 1/8
+P: AB
+K: G
+"A"[| "D7"D2 \
+| "G"G2GF GABc | "G"dBeB dBAG | "Em"BEED EFGA | "Am"BGAF "D7"GFED |
+| "G"G2GF GABc | "G"dBeB dBAG | "Em"BEED "Am"EFGA | "D7"BGAF "G"G2 ||
+"B"[| B2 \
+| "Em"Beed e3f | "Em"geaf "A7"gfed | "D"Add^c d3e | "D"fdaf "Bm"gfed |
+| "Em"Beed e3f | "Em"geaf gfed | "Em"BEED "Am"EFGA | "D7"BGAF "G"G2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 131
+T: Hal Robinson's Rant
+T: dance: Hal Robinson's Rant [Barbara Russell]
+C: Anne Hooper \251 1999
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000) p.13
+M: C|
+L: 1/8
+P: ABABB
+K: E
+"A"[| ec |\
+"E"Bege fege | "E"fege "A"fece | "E"Bede "F#m"cAFc | "B7"Beed "E"e2ec |
+"E"Bege fege | "E"fege "A"fece | "E"Bede "F#m"cAFc | "B7"BAGF "E"E2  ||
+"B"[| ef |\
+"E"gbBb "A"agfe | "B7"dcBd fagf | "E"gbBb "A"cagf | "B7"edcB "E"e2ef |
+"E"gbBb "A"caca | "E"Bgfe "B7"dcBA | "E"GBeB "F#m"cAFc | "B7"BAGF "E"E2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 151
+T: the Warrior's Return
+T: dance: The MonMouth Ramble [Gillian Charters]
+C: J. Scott Skinner
+O: arr. Duncan Smith and David South
+R: air, strathspey
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000) p.15
+M: 4/4
+L: 1/8
+P: ABAB
+K: D
+"A"[| "A7"A2 \
+| "D"A2 F2 A2 Bc | "G"d3 B "D"A2 "A7"FE | "Bm"D2 EF "Em"G2 B2 | "A"A6 "A7"A2 |
+| "D"A2 F2 A2 Bc | "G"d3 c "Em"B2 cd | "A"e2 cA "E7"E2 F^G | "A"A6 ||
+"B"[| "A"A2 \
+| "Em"G2 A2 "A7"e3 G | "D"F2 "A7"A2 "D"d2 dc | "G"B2 Bc d2 e2 | "F#"f6 dc |
+| "G"B>^A Bc "Em"ed cB | "D"A2 F2 "Bm"A2 df | "D"a2 fd "A7"A2 Bc | "D  G  D"d6 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 171
+T: A Dance for Sylvia
+T: dance: Stoner House [Paul Hemenway]
+C: Burt Murray \251 1998
+O: arr. Sylvia Miskoe
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000) p.17
+M: 6/8
+L: 1/8
+P: AB
+K: G
+"A"[| E |\
+"G"DB,G, G,B,D | "G"B2B B2A | "G"GFE DCB, | "Am"C3 C2B, |\
+"D7"A,B,C A,B,C | "D7"F2F F2E | "D7"D^CD ED=C | "G"B,3- B,2 E ||
+"G"DB,G, G,A,B, | "G"D2G G2A | "G7"BcB BAG | "C"E3- E2E |\
+"Am"c2c cBA | "G"GFE D2B, | "D7"DED CB,A, | "G"G,3- G,2 |]
+"B"[| D |\
+"G"DGB dBG | "G"DGA BAG | "G"DGB dcB | "Am"c3 c2B |\
+"D7"cBc A^GA | "D7"F^EF D^CD | "D7"DFA d^c=c | "G"B3- B2c ||
+"G"dBG DB,G, | "G"B,DG B2c | "G"d2d dcB | "C"e3- e2f |\
+"G"gfe dcB | "C"edc BAG | "D7"ABc def | "G"g3- g2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 191
+T: Burns Night
+T: dance: Burns Night [Robert McOwen]
+C: Barbara McOwen \251 1991
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000) p.15
+M: 6/8
+L: 1/8
+P: AB
+K: G
+"A"[| B, \
+| "G"G,2B BAB | "G"d2B BAB | "G"G,2B "Em"BAB | "Am"c2B "D7"A2B \
+| "G"G,2B BAB | "G"d2B "G7"B2d | "C"cBA GFE | "Am"DED "D7"CB,A, ||
+| "G"G,2B BAB | "G"d2B BAB | "G"G,2B "Em"BAB | "Am"c2B "D7"A2B \
+| "G"G,2B BAB | "G7"d2B "C"c2e | "Am7"dcB "D7"AGF | "G"G3 G2 |]
+"B"[| c \
+| "G"B2g gfg | "A"^caa "A7"a2g | "D"fga "Em"gfe | "A7"de^c "D7"d2=c \
+| "G"B2g "G7"gfg | "C"e2d c2e | "Am"dcB "D7"AGF | "G"G3 G2c ||
+| "G"B2g gfg | "A"^caa "A7"a2g | "D"fga "A7"gfe | "D"ded "D7"=cBA \
+| "G"G,2B BAB | "G7"d2B "C"c2e | "Am"dcB "D7"AGF | "G"G3 G2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 211
+T: The Earl of Northampton
+T: dance: The Earl of Northampton [Virginia Van Scoy]
+C: Karen Axelrod \251 1995
+R: strathspey
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000) p.21
+M: 4/4
+L: 1/8
+P: ABAB
+K: Dm
+"A"[| A2 |\
+"Dm"d<AA>G F>G AF | "G"GA=B2 "A7"A2B^c | "Dm"d<AA>G F>G AF | "Gm"G<E"A7"F>E "Dm"D2A2 |
+"Dm"d<AA>G F>GAF | "G"GA=B2 "A7"A2B^c | "Dm"(3def (3ed^c d>AF<D | "Gm"G>_B"A7"A<^C "Dm"D2 |]
+"B"[| A2 |\
+"D7"^F>GA<F "Gm"B3B | "C7"E>FG<E "F"A4 | "Gm"G>F ED "A"^CEFG | "A7"A>GF<E "Dm"D3A |
+"D7"^F>GA<F "Gm"B3B | "C7"c>B AG "F"A4 | "Gm"B>GE<G "Dm"A>FD<F | "Gm"GE "A7"A<^C "Dm"D2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 231
+T: The 25th Reel
+T: dance: The 25th Reel [Lydia and Alan Smith]
+C: Ed Pearlman \251 1995
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000) p.23
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+P: ABAB
+K: D
+"A"[| A2 |\
+"D"Adfd "A7"Aege | "D"fagf "G"edBc | "D"dfed "G"dBGB | "D"dAFd "A7"e2A2 |
+"D"Adfd "A7"Aege | "D"fagf "G"edBc | "D"dfed dAFG | "A7"AFGF E2 ||
+"B"[| "D"D2 |\
+"G"BGDB "D"dAFd | "A7"eAce "D"f2fa | "G"geag "D"fdag | "Bm"fdAd "A7"e2A2  |
+"G"BGDB "D"dAFd | "A7"eAce "D"f2fa | "G"geag "D"fAaf | "A7"eAdc "D"d2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 251
+T: But and Ben
+T: dance: The Latvian Lass [Boston Branch Demo Team]
+O: arr. Barbara McOwen
+R: strathspey
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000) p.25 #1
+Z: 2012 John Chambers
+M: 4/4
+L: 1/8
+P: AB
+K: D
+"A"[| B |\
+"D"A>GF>E D2d>e | "D"f2e>d f<aa2 | "D"A>GF>E "Bm"D2d>e | "F#m"f>ed>c "Bm"B3d |
+"D"A>GF>E D2d>e | "D"f2e>d "D7"f<aa2 | "G"b>ga>f "Em7"e>de<g | "F#m"f>ed>c "Bm"B3 ||
+"B"[| d |\
+"D"A>Bd>e "D7"f>ed<A | "G"B2g>B "A7"B<AA>B | "D"A>Bd>e "Bm"f>af<d | "Em"B<Bg>f "A7"e3B |
+"D"A>Bd>e "D7"f>ed<A | "G"B2g>B "A7"B<AA>B | "D"A>Bd>e "D7"f>af<d | "G"B<d"A7"c<e "D"d3 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 252
+T: Sir David Davidson of Cantray
+T: dance: The Latvian Lass [Boston Branch Demo Team]
+C: by John Lowe
+O: arr. Barbara McOwen
+R: reel
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000) p.25 #2
+Z: 2012 John Chambers
+M: C|
+L: 1/8
+P: AB
+K: D
+"A"[| "A7"c2 |\
+"D"d2fd cdBd | "D"AdFd "A7"EecA | "D"d2fd "Bm"cdAF | "A7"GEec "D"d2Bc |
+"D"d/d/d fd cdBd | "D"AdFd "A7"EecA | "D"d2fd "G"cdAF | "A7"GEec "D"d2 ||
+"B"[| fg |\
+"D"afdf afba | "Em"gfed cdef | "A7"gfed cbag | "A7"fedc "D"dfg |
+"D"afdf afba | "Em"gfed "A7"cBAG | "Bm"FAdc "G"Bbge | "A7"cAec "D"d2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 271
+T: the Craigies
+T: dance: Northern Harmony [Gregor Trinkaus-Randall]
+C: Tom Pixton \251 1999
+R: jig
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000) p.27
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+P: AAB
+K: F
+"A"|: C |\
+"F"F2A AGF | "F"AGA "C"A2G | "F"F2A AGF | "Gm"BAB BAG |\
+"Dm"A2f fef | "Dm"fef "C"cAB | "F"c2c cAG | "Dm"AGA "Bb"FD :|
+"B"[|] C |\
+"F"F2d dcd | "F"dcd "C"cAG | "F"Acd dcf | "Gm"BAB BAG |\
+"Dm"Acd dcf | "Dm"fef "C"cAG | "F"A2c cAG | "Dm"AGA "Bb"FDC ||
+"F"F2f fef | "F"fef "C"cAG | "Dm"Acd dcf | "Bb"dcd dcd |\
+"F"F2f fef | "Bb"dcd dAB | "C7"c2c cAG | "F"AGA "Bb"FD |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 291
+T: Furth, Fortune and Fill the Fetters
+T: dance: Fill the Fetters [Roberta and Howard Lasnik]
+C: Barbara McOwen \251 1993
+R: strathspey
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000) p.29
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+P: ABAB
+K: C
+G, \
+| "C"C2-~C>D E<G G2 | E2- ~E>F "C7"G<c c>d \
+| "F"e>c A<c "Em"d>c B>G | "Dm"c>A F>A "G7"B>A G/F/E/D/ |
+| "C"C2-~C>D E<G G2 | E2- ~E>F "C7"G<c c>B \
+| "F"A>G F>E "Dm"F>E D>C | "G7"B,/C/D G,>B, "C"C2 Cz |]
+[| "G"B2 B>c d>c B>A | G>D B<D c>D B<D \
+| "D"A2 A>B c>B A>G | "D7"^F>D A<D B>D A<D |
+| "G"G2-~G>A "G7"B<d d>=f | "C"e>d c>B "Am"c2 c>B \
+| "F"A>G F>E "Dm"F>E D>C | "G7"B,/C/D G,>B, "C"C2 C |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 311
+T: the Farmer's Daughter
+T: Aberarder's Rant
+T: dance: The Sprig of Ivy [John Bowie Dickson]
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000) p.31
+M: C|
+L: 1/8
+P: ABAB
+K: D
+"A"[| AB \
+| "D"d2ag f2ef | dedB ~d2AB | d2ag f2ea | "A7"~A2eA cAAB |
+| "D"d2ag f2ef | dedB ~d2Ag | fgag f2ef | "A"~A2eA cA ||
+"B"[|  AB \
+| "Bm"d2fB ~B2fB | cBfB cBBc | "A"d2eA ~A2eA | cAeA cAAB |
+| "Bm"d2fB ~B2fB | cBfB "A7"cBBc | "D"d2ag f2ef | "A"~A2eA cA |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 321
+T: To the Next Twenty-Five
+T: dance: Waltz
+C: Beth Murray \251 1995
+R: waltz
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000) p.32
+Z: 2012 John Chambers
+M: 3/4
+L: 1/8
+K: D
+"A"|:\
+"D"F2 A2 D2 | "C"DE2F GE | "D"F2 FA Ad | "G"B6 |\
+"D"A2 d2 D2 | "C"DE3 G2 | "Bm"F2 D3 A, | "G"A, B,3- B,2 :|
+"B"[|\
+"Bm"D3 C D2 | "A"E3 A,2 AG | "D"F2 D2 A,2 | "G"B,6 |\
+"Bm"D3 C D2 | "A"E4 AG | "D"F2 A2 d2 | "G"A B3- B2 |
+"D"A2 d2 A2 | "C"=c4 d=c | "G"B2 G2 B2 | "A"A4 AG |\
+"Bm"F2 D2 A,2 | "G"A B,3 A,2 | "Em"B,2 D2 E2 | "D"D6 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 322
+T: The Aberdeen Schottische
+T: dance: Highland Schottische
+C: Bert Murray M.C.P.S.
+R: shottish
+S: Handwritten MS
+B:
+D: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000)
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+N: This was included on the CD as a bonus for those who like to dance a schottische.
+M: C
+L: 1/8
+%
+K: G
+"A1"[|]\
+"D7"D2 \
+| "G"(3DED B,>E (3DED B,>D | B2 B2 B2 B>c | d>^c d>e d>B G>B | "A7"A>^G AB "D7"A>=G F>E |
+y8\
+| "G"(3DED B,>E (3DED B,>D | B2 B2 B2 B>c | d>^c d>e "D7"d>=c B>A | "G"G2 G2 G2 |]
+K: D
+"B"[|]\
+"A7"A2 \
+| "D"f2 f2 f>e d>B | A2 F2 F2 Ad | "A7"c2 E>F G>A B>c | "Ddim7"B>A ^GB "A7"A2 F>A |
+y8\
+| "D"f2 f2 "D7"f>d ef | "G"g2 g2 "Em"g2 a>g | "D"(3fgf d>f "A7"(3efe c>e | "D"d2 d2 d2 |]
+K: G
+"A2"[|]\
+"D7"D2 \
+| "G"(3DED B,>E (3DED B,>D | B>A G>A B2 A>B | "C"c2 e>c "G"B2 d>B | "A7"A>^G AB "D7"A>=G F>E |
+y8\
+| "G"(3DED B,>E (3DED B,>D | B>A G>A "G7"B2 A>B | "C"(3cde gfe "D7"dcB AGF | "G"G2 G2 G2 |]
+K:D
+"C"[|]\
+"A7"A2 \
+| "D"(3ABA F>E D>F Ad | f2 f2 f2 f>g | a>^g a>b "(Bm)"a>f d>f | "E7"e>^d e>f "A7"e>=d c>B |
+y8\
+| "D"(3ABA F>E D>F Ad | f2 f2 f2 f>g | a>f (3def "A7"g>e (3cde | "D"d2 d2 d2 |]
+"A3"[|]\
+"D7"D2 \
+| "G"(3DED B,>E (3DED B,>D | B2 B2 B2 B>c | d>^c d>e "(Em)"d>B G>B | "A7"A>^G AB "D7"A>=G F>E |
+y8\
+| "G"(3DED B,>E (3DED B,>D | B>A G>A "G7"B2 A>B | "C"(3cde (3gfe "D7"(3d^cd e>f | "G"g2 g2 g2 |]

@@ -1,0 +1,29 @@
+X: 192
+T: HILTON LODGE
+C: N. GOW
+R: Strathspey
+B: Glen Collection p.19 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: C
+%
+V: 1
+e/f/ |\
+g<cg>e fdTde/f/ | gcg>e c>ege | f>de>c dD-D.E | C>Ec>E G2G :|
+E |\
+CEcE FD-D.E | C>EcE G>cEc | G<cE<c dD-D.E | C>EcE {E}G2GE |
+C>EcE FDD.E | C>Ec>E G<cE<c | FdEc Dd-de/f/ | ecdB {B}c2c |]
+%
+V: 2
+z |\
+[c'2c2][c'2e2] [b2g2][b2g2] | [c'2c2][c'2e2] [c'2g2][c'2e2] |\
+[b2d2][c'2e2] [b2g2][b2g2] | [g2e2][c'2e2] [b2g2][bg] :|
+z |\
+c2[g2e2] G2[f2d2] | c2[g2e2] [c'2e2][g2e2] |\
+c2[g2e2] G2[f2d2] | c2[g2e2] G2[g2c2] |
+c2[g2e2] G2[f2d2] c2[g2e2] [c'2e2][g2e2] |\
+[b2g2][c'2g2] [b2g2][b2g2] | c'2[f'2d'2g2] [e'2c'2][c'c] |]

@@ -1,0 +1,31 @@
+X: 31121
+T: COTILLION No. 18. AUBURN SETT tune 1
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.112 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Both of the grace notes in bar 1 should probably be g sharps.
+N: The last bar in strain 2 should probably move the sharp one note to the right.
+M: 2/4
+L: 1/16
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+{g}[a4c4] {a}[a4d4] | [a2c2]gf e2gf | {f}e2dc {e}d2cB | {d}c2BA {c}B2AG |\
+A4 [a4d4] | [a2c2]gf e2gf | d2ba ^gabg | a2A2 z2 H|]
+c2 |\
+a4 f4 | c2fa cfga | _b2(ba) (ag)(gf) | (fe)(ed) cefg |\
+a4 f4 | d2fa _b2a2 | (g3f/e/) (g2f/d/) | c2cd ef^g"^D.C."g |]
+(3(gfd) !p!|\
+.e2.g2.f2.d2 | .c2.G2.e2z2 | .e2.g2.f2.d2 | .c2.G2.e2z2 |\
+e6 d!f!c |  BcBA GAGF | EFGA B2cd | c2cc B2B"^D.C."B |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 right and left,
+%% balance 4,
+%% ladies chain,
+%% promenade 4.
+%% sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

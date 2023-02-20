@@ -1,0 +1,41 @@
+X: 0822
+T: Montreal
+%R: jig
+%N: This is version 2, for ABC software that understands voice overlays.
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1809, No. 8 p.2 #2
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances8
+N: The note lengths in bar 8 are wrong; fixed.
+M: 6/8
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+A |\
+{e}dcd e2f | d2f "_fz"a3 | ("_>"ag).e ("_>"gf).d | ("_>"fe).B ("_>"dc).A |\
+{e}dcd e2f | d2f "_fz"a3 | ("_>"ag).e Bc2 | (c3 d2) |]
+(e/d/) |\
+e2(e d)cB | ABc def | g2B (fe).d | (cde) A2c |\
+e2(e d)cB | ABc def | gag fed | e(.b.a {a}.g.f.e) |
+"^8va  _ _ _"\
+{e}dcd e2f | d2f "^fz"a3 | ("_>"ag).e ("_>"gf).d | ("_>"fe).B ("_>"dc).A |\
+{e}dcd e2f | d2f "^fz"a3 | (ag).e B2c | (c3 d2) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=D
+z |\
+F3G3 & D6- | F3D3 & D3D3 | [A3C3][A3D3]  | [B3G3]A3 |\
+(F3G3 & D6 | F3=c3 & D6 | B3G3 & D6 | G3F2 & D3-D2 |]
+z |\
+(A,3A3 | G3F3 | E3G3 | A6) | (A,3A3 | G3F3 | E3G3 | A3)"^dim:"z2z |
+[K:D clef=treble]!p!\
+DFA DGA | DFA DFA | CEA DFA | G,B,E A,CE | DFA DGA | DFA DA=c | DGB DEG | DEG [F2D2] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change sides, back again,
+%% down the middle up again
+%% and pousette.
+%%endtext
+%%sep 1 5 500

@@ -1,0 +1,57 @@
+
+X: 1
+T: Eleno Mome (Elenino Horo)
+O: Bulgaria
+M: 7/8
+L: 1/8
+Z: 1998 by John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+P: C instruments
+K: C
+"A"\
+|: "G7"G2 AB c/B/AG | B2 Bd c/B/AG | G2 AB c/B/AG | B2 Bd c/B/AG |
+| "G7"G2 {A}BA GF/E/D | "C"E2- E2 "F"cBA | "G7"G2 {A}BA GF/E/D | "C"E2- E2 {GAB}McMcz |
+| "F"cc BA "G7"GF/E/D | "C"E2- E2 "F"cBA | "G7"G2 {A}BA GF/E/D | "C"E2- E2 {GAB}McMcz :|
+"B"\
+|: "C"E2 FE ^D/E/FE | G2 AG ^F/G/AG | E2 FE ^D/E/FE | "G7"~G2 ^F/G/A/B/ "C"ccz :|
+"C"\
+|: "C"G/^F/G/A/ G/F/G/A/ GE2 | "G7"GG FF "C"E/F/Gz | G/^F/G/A/ G/F/G/A/ GE2 | "G7"GG FF "C"EEz :|
+K: G
+"D"\
+[| "G"B2 cB "D7"BAA | "G"G2 GD G/A/B2 | B2 cB "D7"BAA | "G"G2 GD GGz |
+"D'"\
+| "G"[B2d2] [ce][Bd] "D7"[Bd][Ac][Ac] | "G"[G2B2] [GB][DG] [G/B][A/c][B2d2] \
+| [B2d2] [ce][Bd] "D7"[Bd][Ac][Ac] | "G"[G2B2] [GB][DG] [GB][GB]z |]
+K: C
+"E"\
+[| "G7"GA _BA GF/E/D | "C"E2- E2 "F"cBA | "G7"GA BA GF/E/D | "C"E2- E2 {GAB}McMcz |
+| "F"cc BA "G7"GF/E/D | "C"E2- E2 "F"cBA | "G7"G2 {A}BA GF/E/D | "C"E2- HE2 {GAB}McMcz |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Eleno Mome (Elenino Horo)
+O: Bulgaria
+M: 7/8
+L: 1/8
+Z: 1998 by John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+P: Bb instruments
+K: D
+"A"\
+|: "A7"A2 Bc d/c/BA | c2 ce d/c/BA | A2 Bc d/c/BA | c2 ce d/c/BA |
+| "A7"A2 {B}cB AG/F/E | "D"F2- F2 "G"dcB | "A7"A2 {B}cB AG/F/E | "D"F2- F2 {ABc}MdMdz |
+| "G"dd cB "A7"AG/F/E | "D"F2- F2 "G"dcB | "A7"A2 {B}cB AG/F/E | "D"F2- F2 {ABc}MdMdz :|
+"B"\
+|: "D"F2 GF ^E/F/GF | A2 BA ^G/A/BA | F2 GF ^E/F/GF | "A7"~A2 ^G/A/B/c/ "D"ddz :|
+"C"\
+|: "D"A/^G/A/B/ A/G/A/B/ AF2 | "A7"AA GG "D"F/G/Az | A/^G/A/B/ A/G/A/B/ AF2 | "A7"AA GG "D"FFz :|
+K: A
+"D"\
+[| "A"c2 dc "E7"cBB | "A"A2 AE A/B/c2 | c2 dc "E7"cBB | "A"A2 AE AAz |
+"D"\
+| "A"[c2e2] [df][ce] "E7"[ce][Bd][Bd] | "A"[A2c2] [Ac][EA] [A/c][B/d][c2e2] \
+| [c2e2] [df][ce] "E7"[ce][Bd][Bd] | "A"[A2c2] [Ac][EA] [Ac][Ac]z |]
+K: D
+"E"\
+[| "A7"AB =cB AG/F/E | "D"F2- F2 "G"dcB | "A7"AB cB AG/F/E | "D"F2- F2 {ABc}MdMdz |
+| "G"dd cB "A7"AG/F/E | "D"F2- F2 "G"dcB | "A7"A2 {B}cB AG/F/E | "D"F2- HF2 {ABc}MdMdz |]

@@ -1,0 +1,119 @@
+X: 386
+T:Retko Kolo
+O:Serbia
+S:Ciga and Ivon Despotovic vol 1.
+M: 4/4
+L: 1/8
+Q: 1/4=320
+K:G
+P:A
+%%MIDI program 42
+%%MIDI gchord fzfz
+%0
+"d"(3cBc BA "f#" ^GA Bc|\
+"d" zA2 "f#" c<c c B<A|\
+"g" ^G/A/ z3 cccB|\
+B2 D2 =FG ^G2|
+"d" zA2z "f#" Bz =Gz|\
+"e" E2 Az "g#" Gz D2|\
+"a"^A/G/^F/E/ FE Ez Dz|\
+"e"^Fz GA "a" z2 B2|
+"d" cc BA "f#" ^GA cz|\
+"d" .B2 .G2 "f#".F2 .A2|\
+%10
+"g" F2 ez dz cz|\
+"e" Bz Dz "g" FG ^GA|
+"g" Az ^cz Bz F2|\
+"a" Az G2 Fz G2|\
+"a" F/=F/2 Ee ^cAz3|
+%0
+"d"(3CB,C B,A, "F#" ^G,A, B,C|\
+"d" zA,2 "F#" C<C C B,<A,|\
+"g" ^G,/A,/ z3 CCCB,|\
+B,2 D,2 =F,G, ^G,2|
+"d" zA,2z "F#" B,z =G,z|\
+"e" E,2 A,z "G#" G,z D,2|\
+"a"^A,/G,/^F,/E,/ F,E, E,z D,z|\
+"e"^F,z G,A, "A" z2 B,2|
+"d" CC B,A, "F#" ^G,A, Cz|\
+"d" .B,2 .G,2 "F#".F,2 .A,2|\
+%10
+"g" F,2 Ez Dz Cz|\
+"e" B,z D,z "G" F,G, ^G,A,|
+"g" A,z ^Cz B,z F,2|\
+"a" A,z G,2 F,z G,2|\
+"a" F,/=F,/2 E,E ^CA,z3|
+P:B
+M: 2/4
+L: 1/16
+K:D
+|:
+"a" z2ED ^D2=D2| \
+    (3.C4.C4.C4| \
+   C2z2   C4   | \
+  .C4     .A4  |
+  .C4      D2F2| \
+  F2E2     z4  | \
+  FEF2    z4   | \
+  (3.G4 .G4 .F4|
+  E2E2    D4   | \
+  c2 ^A2 =A2 A2| \
+(3G2F2G2  z2^A2| \
+   A4        G4|
+z2 F2        A4| \
+G2 z2      D4  | \
+^G2 =G2 F2 E2  | \
+=F2 E2  ^F2 z2 |
+G2 z2     A2 z2| \
+"g" (3B2A2B2 z2 B2| \
+.B4     .B4    | \
+.B4     .B4    |
+.B4     .B4    | \
+ B2 ^d2  c2 z2 | \
+ A2 z2   B4    | \
+"d" G4      A4 |
+"g" F2 G2 z2 G2| \
+"e" E2 E2   F2 z2  | \
+"g".D4      .D4   | \
+"g" F2 z2   A2 G2  |
+"g" F2 z2   G2G2   | \
+"a" F2 E2  E2 z2   :|
+P:C
+M: 4/4
+L: 1/4
+K:G
+"a"^c=c "g"  BB|  \
+"g" BB "d"   BB| \
+"g" BB  (3Bcc|  \
+"g" AB "d"    GA|
+"g" (3FGF "e" E<E|  \
+"g#" F>D  "f#"FA/2G/2| \
+"g#"  FE "a"  E2  |  \
+"a"z3/2^C/2 "d" AB|
+"a" c^c    dB   |
+"g" BB    BB| \
+"a" BB "g" B=c/2c/2 | \
+"g" AB "d"    GA| \
+"g" (3FAG "e" (3EFF|
+"g#" Ad "g" F/2zG/2| \
+"g" FG  "a" F/2<E/2E |
+P:D
+M: 4/4
+L: 1/8
+K:A
+|:z4      zz/2 F/2 =FF|\
+"a" EzE3/2d/2  dcd/2c3/2|\
+"a" cz  c2     dc    =cB|\
+"e" Bz  B2   "g#" ^cB   ^A=A|
+"a" Az  E2     AB  AB   |\
+ (3 =fdc  dc  zc  z/2A3/2|\
+"e" B/2z3/2 B2   "g#"    BG2d|\
+"a" cB ^A=A       AE3    |
+"e" Az  G2  "g#" FD/2 =F2 E/2 |\
+"a" z4      (3=ded (3dBB|\
+"e"    z4 "g#"  =c/2d/2^c (3B=cB|\
+"a" z4         (3=c^cB ^A=A |\
+"a" z4             AB    AB     |\
+"a" ddcc    z2    A2     |
+"e" BAB2    "g#" Bz    G2     |\
+ cBAA             zz/2 F/2 =FF:|\

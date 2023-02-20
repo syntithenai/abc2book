@@ -1,0 +1,37 @@
+X:1802
+T:Lady Auckland's Reel
+%
+P:Lady Auckland's Reel
+C:Traditional?
+R:Strathspey (8x32)
+B:RSCDS 18-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:Bb
+F|"Bb"D>B, D>F B>d B>F|D>F B>d "F"c<C C>F|\
+  "Bb"D>B, D>F B>F B>d|f>B "F7"e>c "Bb"d<B BF|
+  "Bb"D>B, D>F B>d B>F|D>F B>d "F"c<C C>F|\
+  "Bb"D>B, D>F B>F B>d|f>B "F7"e>c "Bb"d<B B||
+g|"Bb"f>B d>B B>f d>f|"C7"g>c e>c A>g e>g|\
+  "Bb"f>B d>B B>f d>f|"C"c>B "F"A>G "Bb"F<B B>g|
+  "Bb"f>B d>B B>f d>f|"C7"g>c e>c A>g e>g|\
+  "Bb"f>d "F7"e>c "Bb"d>B "C"c>G|"Dm"F>f "F7"c>A "Bb"d>B B|]
+%
+P: Miss Barbara Cunningham
+C: Robert MacKintosh
+R: strathspey
+B: Kerr's Merrie Melodies
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+B \
+| "G"G>g d<B G<d B<G | "C"(3EFG A>G "D7"F<D D>B \
+| "G"G>g d<B G<d B<G | "C"E>c "D7"B/A/G/F/ "G"G2 [GG,] :|
+g/a/ \
+| "G"b<g d<g "C"e<g "G"d<B | "D7"c<a "G"B<g "D7"a>A Ag/a/ \
+| "G"b<g d<g "C"e<g "G"d<B | "Am"c<a "D7"B>f "G"g2 G |]
+g/a/ \
+| "G"b<g "D7"a<f "C"g<e "D7"f<d | "C"e<c "G"d<B "D7"a<A A>B \
+| "G"G>D "Em"B<G "Bm"d<B "Am"g<e | "G"d<g "D7"D>F "G"G2 [GG,] |]

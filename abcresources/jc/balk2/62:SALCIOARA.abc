@@ -1,0 +1,17 @@
+X: 362
+T: Salcioara
+O: Romania
+M: 2/4
+L: 1/8
+K: Dm
+Q: 1/4=180
+%%MIDI gchord hzzzizzz
+%%MIDI program 22
+%%MIDI chordprog 56
+|:"Edim" E3/2F/GF|E3/2F/GF|"C"E2A2  |^GFED   |
+  "Edim"E3/2F/GF |E3/2F/GF|"Dm"E2D2 |D4::
+%%MIDI gchord hzzzzzzz
+  "Am"A2A2       |A4      |"Dm"^GFED|"Gm"G2G2|G4|AFED::
+%%MIDI gchord hzzzizzz
+  E3/2F/GF       |E3/2F/GF|E2A2     |^GFED   |
+  E3/2F/GF       |E3/2F/GF|E2D2     |D4      :|

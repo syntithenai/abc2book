@@ -1,0 +1,31 @@
+X: 149
+T: Coreli's Gavot
+T: Longways for as &c.
+%R: gavotte, march
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.75
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+e2 g2 c'2 c2 | f>g e>f d2 c2 |\
+e2 g2 d2 G2 | c>d B>c A2 G2 :|\
+|:\
+d2 g>f e2 a>g | f>e d>c B2 A2 |\
+e>f g>G A>B c>g | f>g e>f d2 c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st Cu. hands across with the 2d Cu. and go
+%% the half round .| then the same back again :|
+%% then the 1st Man change places quick with the
+%% 2d Wo and the 1st Wo. with the 2d Man at the
+%% same time; then all four go round in their
+%% proper places, then right and left with the 2d
+%% Cu :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

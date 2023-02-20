@@ -1,0 +1,20 @@
+X: 1
+T: On the Wings of a Skorrie
+C: Michael Ferrie 1995
+%D:1995
+R: reel
+S: Fiddle Hell Online 2022-4-3 handout for Celtic Backup Workshop
+N: The chords need a bit more work.
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Em
+"^A"|:\
+"Em"BE E/E/E BEcE | BE E/E/E GFGB | "D/E"ABGB AGFA | GEED EFGA ||
+"Em"BE E/E/E BEcE | BE E/E/E GFGB | "D/E"ABGB AGFA | GEED [1 E3A :|[2 E3D |]
+"^B1"[|\
+"C"EB B/B/B BAFA | GEDE GABd | "Bm"Beed efge | fedf e2gf ||
+ "C"eB B/B/B BAFA | GEDE GABd | "D"f/g/a df efdB | "Am"ABdf "Bm"e3D |]
+"^B2"[|\
+"C"EB B/B/B BAFA | GEDE GABd | "Bm"Beed efge | fedf e2gf ||
+"Am"EB B/B/B BAFA | GEDE GABd | f/g/a df efdB | ABdf e3A |]

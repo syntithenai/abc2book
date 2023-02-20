@@ -1,0 +1,36 @@
+X: 10041
+T: Together then we'd fondly stray
+T: Sung by Miss Griffiths
+C: Attwood
+O: Castle of Sorento
+B: "Man of Feeling", Gaetano Brandi, ed. p.4-5
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+P: "Moderato"
+%%graceslurs 0
+K: C
+G2 | c2 e>c G2 G2 | A2 c2 ((3cdc (3Bc) A | G2 c2 {c}B2 {A}G2 |
+w: To-ge-ther* then we'd fond-ly stray,**** o'er mea-dows green thro'
+c2 e>d d3 G | c2 e>c G2 G2 | A2 c2 ((3cdc (3Bc) A |
+w: wood-land* deep, re-joi-cing view the Lamb-kins play**** and
+G2 c2 A2 d2 | {c/}B>A B>d c2 ef & x6 z2| .g2 c'2 .a2 d'2 |
+w: in the gur-gling Stream* let* peep.
+{c'}b>a b>d' c'2 ze | d2 d2 B3 d | (dc) (A^F) G3 d |
+w: ***** No cank'-ring Cares our sleep mo-lest no
+(B>c) (d>e) (d g2) d/B/ | {B/}A>G A>d HG3 G | c2 e>c G2 G2 |
+w: frown-*ing* frown-*ing* | Jai-*lor* part. a-bove the* world su-
+A2 c2 (3cdc (3BcA | G2 c2 {c}B2 {A}G2 | c2 e2 Hf2 ((3dBG) |
+w: preme-ly blest** his** throne his throne Ro-si-na's heart a-**
+G2 (3GAB c2 e>c | G2 (3GAB c>d e>f | Hg2 e>c A2 c2 |
+w: bove the** world su-*preme-ly** blest* his* throne his* throne Ro-
+G2 c2 c2 e>f & x6z2 | g2 e>c A2 c2 | G2 c2 c2 "_Da Capo"|]
+w: si-na's heart.
+%
+W:From Haunts of surly Man we'd fly,   My Pris'ner safe from harm I'd guard,
+W:Secure from Envy's prying Eye   And Love and Peace our bright reward,
+W:For him I'd cull Pomona's store,   Nor ever from his side depart
+W:Thus blest could Blinval ask for more   His throne, his throne Rosina's Heart.
+%
+%%center -

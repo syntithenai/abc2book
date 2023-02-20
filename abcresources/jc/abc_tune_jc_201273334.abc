@@ -1,0 +1,20 @@
+X: 651
+T: Erin's Hope
+R: reel
+%S: s:2 b:12(6+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #651
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0651/oneill-1001-0651-1.abc
+%m: Nn2 = n/o/n/m/
+M: C|
+L: 1/8
+K: G
+"^A"[|]\
+dc !segno!\
+|: (3(BcB) AG (3(Bcd) AG | FADA FADc \
+|[1 (3(BcB) AG BdAG | FDEF GBdc :|\
+|[2 (3(BcB) AG (3(gfe) dc | BdAF G2 |]
+"^B"|: f2 \
+| ("^ ~"Ng2g)d BGBd | gfeg fgaf |\
+[1 ("^ ~"Ng2g)d (3(Bcd) AG | FADA FADF :|\
+[2 (3(fab) af gedc | BdAG FAdc !segno!|]

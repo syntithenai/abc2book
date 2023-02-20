@@ -1,0 +1,235 @@
+%abcjoin: renum=1 Xlast=0 Xnext=1 [opt '+R']
+X: 1
+T: A Trip to Paris
+C: Andr\'e Campra 1710
+O: Playford 1726
+%Q: 1/4=120
+M: 2/4
+L: 1/16
+K: Am
+A2 |\
+"Am"c3d e2e2 | "Am"c3d e2e2 |\
+"Am"c2e2 c2e2 | "Am"c2Bc A2A2 |\
+"Am"c3d e2e2 | "Am"c3d e2e2 |\
+"Am"c2A2 "E"B2^G2 | "Am"A6 ||
+e2 |\
+"F"a4 a2^g2 | "Am"a2gf e2e2 |\
+"Dm"a4 a2^g2 | "Am"a2gf e2e2 |\
+"Dm"f3e "G"d2g2 | "C"e6 f2 |\
+"G"d6 e2 | "Am"c6 ||\
+d2 |\
+"G"d2c2 d2B2 | "Am"c6 ||
+c2 |\
+"G"B2c2 d2e2 | "Am"c2Bc A2c2 |\
+"G"B2c2 d2e2 | "Am"c2Bc A2c2 |\
+"C"E2F2 G2A2 | "G"B4 "F"a4 |\
+"Am"e2dc "E"d2cB | "Am"A6 |]
+
+%%sep 1 1 500
+
+X: 2
+T: A Trip to Paris
+C: Andr\'e Campra 1710
+O: Playford 1726
+%Q: 1/4=120
+M: 2/4
+L: 1/16
+K: Am
+A2 || "Am"c3d e2e2 | "Am"c3d e2e2 | "Am"c2e2 c2e2 | "Am"c2Bc A2A2 |\
+"Am"c3d e2e2 | "Am"c3d e2e2 | "Am"c2A2 "E"B2^G2 | "Am"A6 e2 | "F"a4 a2^g2 |
+"Am"a2gf e2e2 | "Dm"a4 a2^g2 | "Am"a2gf e2e2 | "Dm"f3e "G"d2g2 | "C"e6 f2 |\
+"G"d6 e2 | "Am"c6 d2 | "G"d2c2 d2B2 | "Am"c6 c2 | "G"B2c2 d2e2 |
+"Am"c2Bc A2c2 | "G"B2c2 d2e2 | "Am"c2Bc A2c2 | "C"E2F2 G2A2 | "G"B4 "F"a4 |\
+"Am"e2dc "E"d2cB | "Am"A6 |]
+
+%%sep 1 1 500
+
+X: 3
+T: A Trip to Paris
+C: Andr\'e Campra 1710
+O: Playford 1726
+R:
+Z: 2009 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+P:
+K: Am
+A |\
+"Am"c>d ee | c>d ee | ce ce | cB/c/ AA |\
+c>d ee | c>d ee | cA "E7"B^G | "Am"A3 ||
+e |\
+"F"a2 a^g | "Am"ag/f/ ee | "F"a2 a^g | "Am"ag/f/ ee |\
+"Dm"f>e "G"dg | "C"e3 f | "G"d3 e | "Am"c3 d ||
+"Dm"dc "G"dB | "C"c3 c ||\
+"G"Bc de | "Am"cB/c/ Ac | "G"Bc de | "Am"cB/c/ Ac |\
+"C"EF GA | "G"B2 "F"a2 | "C"ed/c/ "G"dc/B/ | "Am"A3 |]
+
+%%sep 1 1 500
+
+X: 4
+T: A Trip To Paris
+C: Andr\'e Campra 1710
+O: Playford 1726
+M: C|
+L: 1/8
+%Q: C2=128
+B: The Round Band Book of Playford
+K: C
+A2 |\
+"Am"c3 d e2 e2 | c3 d e2 e2 | c2 e2 c2 e2 | "Dm"c2 Bc A2 A2 |\
+"Am" c3 d e2 e2 | "Dm"c3 d e2 e2 | "Am"c2 A2 "E7"B2 ^G2 | "Am" A4 A2 ||
+e2 |\
+"F"a4 a2 ^g2 | "Am"a2 =gf e2 e2 | "F"a4 a2 ^g2 | "Am"a2 =gf e2 e2 |\
+"Dm"f3 e "G"d2 g2 | "C"e6 f2 | "Dm"d6 e2 | "Am"c6 d2 |
+"Dm"d2 c2 "G7"d2 B2 | "C"c6 c2 || "Dm6"B2 c2 d2 e2 | "Am"c2 Bc A2 c2 |\
+"Dm6"B2 c2 d2 e2 | "Am"c2 Bc A2 c2 | "C"A2 F2 G2 A2 | "G" B4 "F"a4 |\
+"C"e2 dc "E7"d2 cB | "Am"A6 |]
+
+%%sep 1 1 500
+
+X: 5
+T: Trip to Paris. JJo.084, A
+O:J.Johnson 1758
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+%Q:3/8=120
+K:Bb
+|: B | d2B def | gab fdB | Ace dcB | AGF EDC | B,Bd Cce | Acf dgb | agf cf=e | fcAF2 :|
+|: f | fdB fg_a | ged {d}e2d | cBA GFE | DCB,{A,}A,2B, | CEA cde | DFB def | ged{d}"^tr"c3 | B3-B2 :|
+
+%%sep 1 1 500
+
+X: 6
+T: The Trip to Paris
+O: Jackson MS 1823
+R: Jig
+M: 6/8
+N: also in MR.
+K: A
+E| \
+A2A Ace | A2A ABc | d2B BcA | G2E EFG | \
+A2A e2c | A2A f2d | F2B GFG | A3 A2 :|
+|:A|\
+a2A g2A | f2A e2A | F2B BcA | G2B B2e |\
+afa geg | fdf ecA | FdB G^FG | A3 A2:|
+
+%%sep 1 1 500
+
+X: 7
+T: Trip to Paris,A. HSJJ.136
+O:Jackson 1823
+M:6/8
+L:1/8
+S:HSJ Jackson,Wyresdale,Lancs.1823
+R:Jig
+A:Lancashire
+H:1823
+Z:Chris Partington.
+K:A
+E |\
+A2A Ace | A2A ABc |\
+d2B BcA | G2E EFG |\
+A2A e2c | !A2Af2d |\
+F2B GFG | A3A2 :|
+|: A |\
+a2Ag2A | f2Ae2A |\
+F2B BcA | !G2BB2e |\
+afa geg | fdf ecA |\
+FdB GEG | A3A2 :|]
+
+%%sep 1 1 500
+
+X: 8
+T: Trip to Paris, The
+R:Jig
+O:Winder MS, Lancashire, England
+M:6/8
+N:also in MR.
+A:Lancashire
+B:Winder
+K:A
+E| \
+A2A Ace | A2A ABc | d2B BcA | G2E EFG | \
+A2A e2c | A2A f2d | F2B GFG | A3 A2 :|*
+|:A|\
+a2A g2A | f2A e2A | F2B BcA | G2B B2e |\
+afa geg | fdf ecA | FdB G^FG | A3 A2:|**
+
+%%sep 1 1 500
+
+X: 9
+T: Trip to Paris
+O: Bland & Weller 1803
+R: jig
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.11 #21
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: 6/8
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K: D
+FG |\
+A6 (Bcd2B2) | A4G2 F2G2A2 |\
+B2c2d2 A2G2F2 | G2E2E2 E4FG |\
+A6 (Bcd2B2) |
+{B}A4G2 F2G2A2 |\
+(B/c/d3)B2 (c/d/e3)c2 | d2D2D2 D4 :: fe |\
+d2c2d2 d2e2f2 | e2c2A2 A2B2c2 |
+d2c2B2 A2G2F2 | G2E2E2 E4fg |\
+a2g2f2 b2g2f2 | e2f2d2 c2B2A2 |\
+(B/c/d3)B2 (c/d/e3c2) | d2D2D2 D4 :|
+%%begintext align
+%% Set & hands across .|
+%% back again :|
+%% down the middle up again :|.
+%% Allemand :|:
+%%endtext
+
+%%sep 1 1 500
+
+X: 10
+T: Trip to Paris
+O: Thompson 1771
+%R: reel
+M: C|
+L: 1/8
+Z: 2011,2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1771", London 1771, p.80
+K: G
+|:\
+G2(Bd) cAFD | GBdg d2cB |\
+ceAc BdGB | AcAF G2G,2 ::\
+gbeg fadf | egfe d2d2 |\
+ceAc BdGB | AcAF G2G,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Figure down contrary sides .|. up again on your
+%% own sides :|. right hands across .|: left hands back :|:
+%% sett all 4 and change places .||. the same back again :||.
+%% cross over one Cu. and turn .||: right and left :||:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 11
+T: Trip to Paris. WCl.13
+O: William Clarke, Lincoln, England 1770
+M: 2/4
+L: 1/16
+%Q: 100
+S: William Clarke MS,Lincoln,1770.
+R: reel
+%O: Lincoln
+A: England
+N: ? bar 4 should be as bar 8, but missingAcFA in MS..I have presumed it
+N: for PlayQabc...CGP...
+Z: vmp.Barry Callaghan
+K: G
+|:\
+G2Bd cAFD | GBdg (d2cB) | ceAc BdGB | AcFA G2G,2 ::\
+gbeg fadf | egce d2d2 | ceAc BdGd | AcFA G2G,2 :|
+N: NB. AcFA missing in MS in bar 4
+
+%%sep 1 1 500

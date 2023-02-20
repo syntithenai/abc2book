@@ -1,0 +1,75 @@
+
+X: 1
+T: The Bonnie Lass o' Bon Accord
+C: James Scott Skinner
+R: air
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+ "(E7)"E \
+| "A"A>B "E7"c>B "A"AA, CE | "A"A/G/A/f/ e/c/B/A/ "E7"B3 E \
+| "A"A>B "E7"c>B "A"AC E=G | "D"F/D/F/A/ "E7"G/E/G/B/ "A"A3 :|
+ "(E7)"e \
+| "A"a>c "D"df "A"eA "D"ag/f/ | "A"eA "D"f/e/d/c/ "E7"B3 e \
+| "A"a>c "D"df "A"eA a=G | "D"F/D/F/A/ "E7"G/E/G/B/ "A"A3 |]
+ "(E7)"e \
+| "A"a>c "D"df "A"eA "D"ag/f/ | "A"eA "D"f/e/d/c/ "E7"B3 c \
+| "A"A,/C/E/A/ "E7"c>B "A"AC E=G | "D"F/D/F/A/ "E7"G/E/G/B/ "A"A3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: The Bonnie Lass o' Bon Accord   [A]
+C: J.S.Skinner
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+N: BSFC IV-17 as an air, have versions in A and D
+N: Caledonian Companion, p.83 (with variations by J.S.Skinner).
+N: Hardie p.83
+N: Harp and Claymore, p.2 (with variations by J.S.Skinner, plus 6 verses of words).
+N: Hunter 21
+N: Logie  Collection
+N: SFT p.24
+N: Skye p.152
+M: C
+L: 1/16
+K: A
+|: E2 \
+| "A"{G}A3B "E7"c3B "A"A2A,2 C2E2 \
+| AGAf ecBA "Bm"B4- "E7"B2c2 \
+| "A"A3B "E7"c3B "A"A2C2 "A7"E2=G2 \
+| "D"FDFA "E7"GEGB "A"A6 :|
+(3efg \
+| "A"a3c "D"d2f2 "A"e2A2 "D"{g}a2gf \
+| "A"e2A2 "F#m"fedc "Bm"B4- "E7"B2(3efg \
+| "A"a3c "D"d2f2 "A"e2A2 "A7"{g}a2=G2 \
+| "D"FDFA "E7"GEGB "A"A6 (3efg |
+| "A"a3c "D"d2f2 "A"e2A2 "D"{g}a2gf \
+| "A"e2A2 "F#m"fedc "Bm"B4- "E7"B6 c2 \
+| "A"A,CEA "E7"c3B "A"A2C2 "A7"E2=G2 \
+| "D"FDFA "E7"GEGB "A"A6 |]
+
+%%sep 1 1 500
+
+X: 1
+T: The Bonnie Lass o' Bon Accord   [Am]
+C: J.S.Skinner
+B: J.S.Skinner "Harp and Claymore" p.3
+N: Usually in A major, but Skinner also played it in minor.
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+%%slurgraces 1
+M: C
+L: 1/16
+K: Am
+E2 |\
+"Am"A3B {AB}c3B A2A,2 C2E2  | A^GAB "Dm"cAdc "E7"B4- B2E2 |\
+"Am"A3B c3B A2C2 "Dm"D2F2  | "E7"{EF}EDEF E2^G,2 "Am"A,4- A,2 ||
+E2 |\
+"Am"A3B {AB}c3B A2A,2 C2E2  | A^GAB "Dm"cAdc "E7"B4- B2E2 |\
+"Am"A3B c3B A2c2 "Dm"d2f2  | "E7"{ef}edef e2^G2 "Am"A4- A2 |]
+(3e^f^g |\
+"A7"a3=g f2e2 "Dm"f2e2 d2=c2  | "Am"cBAB "Dm"cAdc "E7"B4- B2 (3e^f^g |\
+"A7"a3=g f2e2 "Dm"dcBc defd  | "Am"edef "E7"e2^G2 "Am"A4- A2 ||
+(3e^f^g |\
+"A7"a3=g f2e2 "Dm"f2e2 d2=c2 | "Am"cBAB "Dm"cAdc "E7"B4- B2 ^c2 |\
+"A"A,^CEA ^cea^g aecA "A7"^GAE=G  | "D"^FDFA "E7"^G^fHe^g "A"{g}a4- a2 |]

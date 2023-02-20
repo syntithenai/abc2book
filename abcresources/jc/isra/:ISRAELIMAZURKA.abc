@@ -1,0 +1,23 @@
+X: 95
+T:Israeli Mazurka
+C:Yitzchak Gratziyani
+O:Israeli
+F: http://www.youtube.com/watch?v=vzz0GNzEYQU
+F: http://www.youtube.com/watch?v=00z1Um_zJCc
+L:1/8
+M:3/4
+Q:1/4=132
+K:Dm
+%MIDI gchord c2c2c2
+ "Gm"(3BAG (3BAG (3BAG      |"Dm"(3AGF (3AGF (3AGF|"Gm"(3EFG (3ABG (3GFE       |\
+ "Dm"D2 D4                  |"Dm"A,2 D2 F2        |A2 A4                       |
+ A2 G2 F2                   |"A"E2 E4             | "Dm"A,2 "A"^C2 E2          |\
+ "Gm"G2 G4                  |"Gm"G2 F2 E2         |"A"E2 "Dm"D4                |
+ "Dm"A,2 D2 F2              |"Dm"A2 A4            |"Dm"c2 B2 A2                |"Am"c2 "Gm"B4|
+ "Gm"(3BAG (3BAG (3BAG      |"Dm"(3AGF (3AGF (3AGF|"Gm"(3EFG (3ABG (3GFE       |\
+ "Dm"D2 D4                  |"Dm"D>D "A"^CD CB,   |"Dm"A,2 A,4                 |
+ "Dm"D>D "A"^CD CB,         |"Gm"G,2 G,4          | GG "A"AG "Dm"AG            |\
+ "A"^c2 c4                  |"Dm"AA "Gm"BA "G"=BA |"Dm"d2 d4                   |
+ "Dm"D>D "A"^CD CE          |"Eb"B2 "Bb"B4        |\
+ "F"c2 "Bb"B2 "F"A2         |"F"c2 "Bb"B4         |
+ "Gm"(3BAG (3BAG (3BAG      |"Dm"(3AGF (3AGF (3AGF|"A"(3EFG "Dm"(3ABG "Gm"(3GFE|"Dm"D2 D4    |

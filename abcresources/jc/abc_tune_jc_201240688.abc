@@ -1,0 +1,24 @@
+X: 4071
+T: Lady Caroline Montague's    Strathspey
+C: By Nath. Gow
+%R: strathspey
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.7 #1 (top 4 staffs continued from p.6)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - -
+V: 1 staves=2
+e/f/ |\
+gce>d Tc2Ge/f/ | gcec B(dde/)f/ |\
+g>ca>c g>ce>c | (A/B/c) (B/c/d) Gc-c :|\
+E |\
+C>EGc (A/B/c) Gc | (Cc) (.e.c) Bd-d>e |
+C>EGc (A/B/c) Gc | (A/B/c) (B/c/d) Gcc>E ||\
+C>EGc (A/B/c) Gc | (E/G/).c/.e/ g>c Bdd>e |\
+(3cef (3geg (3afa (3geg | (3fdc (3Bgf | ec-c |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | c2c2 c2c2 | c2c2 g2G2 | [c2e2][c2f2] [c2e2] c2 | f2g2 c2c :| z | c2e2 f2e2 | c2c'2 g2G2 |
+c2e2 f2e2 | f2g2 c2c2 || c2e2 f2e2 | c2e2 g2G2 | c2e2 f2e2 | f2g2 c2c |]

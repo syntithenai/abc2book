@@ -1,0 +1,21 @@
+X: 012
+T: Bugle Horn
+%R: march, reel
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+B: Bland and Weller "Country Dances for the Year 1798" p.1 #2
+M: 2/4
+L: 1/8
+K: D
+a |\
+affd | d2AA | ddee | f/e/f/g/ fa |\
+affd | d2Ad | eeef | d3 :|
+|: f |\
+(d2A).f | d2Af | dfdf | d2Aa |\
+affd | d2Ad | eeef | d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%  Set & change sides .| the same back again
+%% .|. down the middle up again :|. and
+%% right & left.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,16 @@
+X: 1
+T: Jingle Bells   [A]
+C: J. Pierpont
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+"C"|:\
+"A"c2c2 c4 | c2c2 c4 | c2e2 A3B |\
+c4 z4 | "D"d2d2 d3d | "A"d2c2 c2cc |\
+[1 c2B2 B2c2 | "E7"B4 e4 :|[2 "E7"e2e2 d2B2 | "A"A6 |]
+"E7"E2 \
+"V"|:\
+"A"E2c2 B2A2 | E4 z2E-E | E2c2 B2A2 | "D"F4 z4 | F2d2 c2B2 |\
+[1 "E7"G4 z4 | e2e2 d2B2 | "A"c4 z4 :|\
+[2 "A"e2e2 e2e2 | "E7"f2e2 d2B2 | "A"A4 "E7"e4 |]

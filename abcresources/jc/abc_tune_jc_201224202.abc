@@ -1,0 +1,23 @@
+X: 08090
+T: PETER AND POLLY'S WALTZ
+C: Bob McQuillen 15 Oct 91
+B: Bob's Note Book 8 #90
+%R: waltz
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+FG \
+| "D"A2 d2 dc | "G"B2 A2 "D"FG | A2 d3 e | f4 ef | "A7"g2 e2 ed | cB A2 ef | g3 f g2 | e4 fg |
+| "D"a2 ab ag | fe d2 fe | "G"d2 c3 B | "D"A4 FG | A2 A2 "G"Bc | "D"d2 A2 FA | "G6"B2 d3 e | "D"d4 :|
+|: de \
+| "D"f2 d2 dA | "G"B2 "D"A2 de | f2 d3 "G"B | "D"A4 d2 | "Em"e2 e2 ef | gf e2 ef | "A7"g3 f g2 | e4 de |
+| "D"f2 de dc | "G"B2 "D"A2 de | f2 d3 "G"B | "D"A4 FA | "G"B2 d2 gb | "D"af d2 fg | "A7"fe d2 c2 | "D"d4 :|
+%%begintext align
+%% Great weeks at
+%% Augusta got even better after you've met Polly and
+%% Peter Gott. Peter, with help from Lenny Riggs, runs a
+%% log cabin building class, and on Thursday night, when
+%% it's almost finished, they have a wonderful dance
+%% party in the new cabin. Great Stuff!
+%%endtext

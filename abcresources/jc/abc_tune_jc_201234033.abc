@@ -1,0 +1,95 @@
+
+X: 1
+T: It's Beginning to Look a Lot Like Christmas   [G]
+C: words & music: Meredith Wilson (1951)
+%D:1951
+R: song
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%P: Play A1A2 B A2
+K: G
+%%continueall yes
+% = = = = = = = = = =
+"^A1"[|] {A}B>c |\
+  "G"(3ded ^c>d "C"e2 g2 | "G"b2 d6 | b3 b "B7"a3 g | "C"e4- "E7"e2 e>f |\
+  "Am"(3gag e>^e "D"f4 | "D7"(3fgf d>^d "Am"e2 "A7"z^e | "D"f>g a>b "A7"a>g f>e | "Am"a4 "D7"z2 \
+"^A2"[| {A}B>c |\
+  "G"(3ded ^c>d "C"e2 g2 | "G"b2 d6 | b3 b "B7"a3 g | "C"e4- "E7"e2 e>f |\
+  "Am"(3gag f>g "F#"f2 e>_e | "G"d>e g>b "E7"d'2 ^d>e | "Am"c'4 "D7"f4 | "G"g4 z2 \
+"^B"[| {f}g>a |\
+  "B7"(3bc'b (3aba (3gag (3fga | "(Em)"b>b "(B7)"(3agf "Em"e2 z2 | "D7"(3aba (3gag (3fgf "(A)"(3efg |\
+  "D"a>a "(A7)"(3gfe "D"d2 zd | "D7"d'>_d' c'>b "(A7)"a>g f>e | "Am"d>e d>^c "D7"d2 \
+"^A1"[| B>c |\
+  "G"(3ded ^c>d "C"e2 g2 | "G"b2 d6 | b3 b "B7"a3 g | "C"e4- "E7"e2 e>f |\
+  "Am"(3gag e>^e "D"f4 | "D7"(3fgf d>^d "Am"e2 "A7"z^e | "D"f>g a>b "A7"a>g f>e | "Am"a4 "D7"z2 \
+"^A2"[| B>c |\
+  "G"(3ded ^c>d "C"e2 g2 | "G"b2 d6 | b3 b "B7"a3 g | "C"e4- "E7"e2 e>f |\
+  "Am"(3gag f>g "F#"f2 e>_e | "G"d>e g>b "E7"d'2 ^d>e | "Am"c'4 "D7"f4 | "G"g4 z4 |]
+"Dance"[| "G"b4 "D7"a4 | "C"g4 "D7"f2 \
+"^A1"[| B>c |\
+  "G"(3ded ^c>d "C"e2 g2 | "G"b2 d6 | b3 b "B7"a3 g | "C"e4- "E7"e2 e>f |\
+  "Am"(3gag e>^e "D"f4 | "D7"(3fgf d>^d "Am"e2 "A7"z^e | "D"f>g a>b "A7"a>g f>e | "Am"a4 "D7"z2 \
+"^A2"[| B>c |\
+  "G"(3ded ^c>d "C"e2 g2 | "G"b2 d6 | b3 b "B7"a3 g | "C"e4- "E7"e2 e>f |\
+  "Am"(3gag f>g "F#"f2 e>_e | "G"d>e g>b "E7"d'2 ^d>e | "Am"c'4 "D7"f4 | "G"g4 z2 |]
+"^B"[| {f}g>a |\
+  "B7"(3bc'b (3aba (3gag (3fga | "(Em)"b>b "(B7)"(3agf "Em"e2 z2 | "D7"(3aba (3gag (3fgf "(A)"(3efg |\
+  "D"a>a "(A7)"(3gfe "D"d2 zd | "D7"d'>_d' c'>b "(A7)"a>g f>e | "Am"d>^c d>e "D7"d2 \
+"^A2"[| B>c |\
+  "G"(3ded ^c>d "C"e2 g2 | "G"b2 d6 | b3 b "B7"a3 g | "C"e4- "E7"e2 e>f |\
+  "Am"(3gag f>g "F#"f2 e>_e | "G"d>e g>b "E7"d'2 ^d>e | "Am"c'4 "D7"f4 | "G"g4  !fine!z2 |]
+
+%%sep 1 1 500
+
+X: 2
+T: The Old Year Now Away Is Fled   [Dm]
+T: Tune:  Greensleeves
+O: Francis Coles "New Christmas Carols" London 1642
+R: air, jig
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dm
+P: Verse:
+d | "Dm"f2g (a>b)a | "C"g2e (c>de) | "Dm"f2d (d>^c)d | "A"e2^c A2 ||\
+d | "Dm"f2g (a>b)a | "C"g2e (c>de) | "Dm"(f>e)d "A"(^c>=B)c | "Dm"d3 d2 |]
+P: Chorus:
+c' | "F"c'2c' (c'>b)a | "C"g2e (c>d)e | "Dm"f2d (d>^c)d | "A"e2^c A2 ||\
+c' | "F"c'2c' (c'>b)a | "C"g2e (c>d)e | "Bb"(f>e)d "A"(^c>=B)c | "Dm"d3 d2 |]
+
+%%sep 1 1 500
+
+X: 3
+T: Ring Out Wild Bells   [Bm]
+C: Crawford Gates
+Z: DW
+M: 6/8
+L: 1/8
+K: Bm
+B |\
+"Bm"Bcd f2f | "Em"gfe "Bm"f2f |\
+"Em"efg "Bm"fd>d | "F#"edc "Bm"d2 ||\
+d |\
+"G"b2b "D"ad2 | "Em"g2g "F#"f2f |
+"Em"c>de "Bm"dB>B | "F#"cB^A "Bm"B2 ||\
+d |\
+"G"b2b "D"a2d | "Em"g2g "F#"f2f |\
+"Em"c>de "Bm"dB>B | "F#"cB^A "Bm"B2 |]
+
+%%sep 1 1 500
+
+X: 4
+T: Sing We Now of Christmas   [Dm]
+C: trad. French 15th century, trad. English 17th-18th century
+Z: DW
+M: 2/4
+L: 1/8
+K: Ddor
+[|"Dm"da "G"bg | "Dm"a2 f2 | "C"g(g/a/) fe | "Dm"d4 |\
+| "Dm"da "G"bg | "Dm"a2 f2 | "C"g(g/a/) fe | "Dm"d4 |\
+[|"Dm"f2 ed | "Am"e3 A |
+| "Dm"ff ed | "Am"e4 |\
+| "Dm"f2 ed | "C"e3 A | "Bb"ff ed | "A7"e4 |\
+[|"Dm"da "G"bg | "Dm"a2 f2 | "Bb"gg/a/ "C"fe | "Dm"d4 |]
+

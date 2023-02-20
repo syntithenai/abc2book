@@ -1,0 +1,31 @@
+X: 10
+T: an Eilean Ard
+R: jig
+B: Ceol Sean's Fergusson Collection, Book 1 p.9
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Amix
+e |\
+A>Bc a2e | f<aa c>BA |\
+c2A c<ef | e>cA B2c |\
+A>Bc a2e | f<aa c>BA |\
+f<af c<eB | c>BA A2 :|
+|: {c}e |\
+f2a f>ea | f2a f>ec |\
+e2a f>ec | e>cA B2 [1 {c}e |\
+f2a f>ea | f2a f>ec |\
+f<af c<eB | c>BA A2 :|
+[2 {c}e |\
+f<af f>ec | A>Bc a2e |\
+f<af c<eB | c>BA A2 |: e |\
+A>Bc a2c | c>Bc e>cA |\
+c2c c<af | e>cA B2c |
+B>Bc a2A | c>Bc e>cA |\
+f<af c<eB | c>BA A2 :: {c}e |\
+f>ea f>ec | c<ea  f>ec |\
+a2e f<af | e>cA B2{c}e |
+[1 f>ea f>ec | c<ea f>ec |\
+f<af c<eB | c>BA A2 :|\
+[2 f<ae f>ec | A>Bc a>fe |\
+f<af c<eB | c>BA A2 |]

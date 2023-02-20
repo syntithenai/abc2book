@@ -1,0 +1,27 @@
+X: 1
+T: Craigellachie Bridge
+S: William Marshall, a.p.b. Alasdair Fraser
+Z: arr. T. Traub 8-22-06
+R: Strathspey
+M: 4/4
+K: D
+L: 1/8
+"^A"[|] d |\
+"D"D<DF>A d/c/B/A/ FD | "C"E<=Cc>E G2 G>B |\
+"D"A>DF>D d/c/B/A/ F<D | "A"EecA "D"d2 d<f |\
+"D"D<DF>A d/c/B/A/ FD |
+"C"E<=Cc>E G2 G>B |\
+"D"A>DF>D d/c/B/A/ F<D | "A"EecA "D"d2 d<f "^B"|[|\
+"D"d<d f/g/a dafa | "C"=c>ge>f ~g2 g/a/b |
+"D"adfd ad"G"gb | "D"adfd f/g/a af |\
+"D"d<d f/g/a d>af>a | "C"g/f/e/d/ =ce g<ba>g |\
+"D"f<ae<f d<f"G"B<d | "D"A<Fd>F "A"A2 Bc |]
+"^C"[|\
+"D"d/c/B/A/ G/F/E/D/ d/c/B/A/ G/F/E/D/ | "C"E<=Cc>E G2 G>E |\
+"D"D/E/F/G/ A/B/c/d/ D/E/F/G/ A/B/c/d/ | "D"D>dE>d "A"F>dE>d |
+"D"D>dE>d F>dE>d | "C"E=ccE G2 FE |\
+"D"DdEd FdAd | "A"E<ec>A "D"d2 d<f |[|\
+"D"d<d f/g/a dafa | "C"=c>ge>f ~g2 g/a/b |
+"D"adfd ad"G"gb | "D"adfd f/g/a af |\
+"D"d<d f/g/a d>af>a | "C"g/f/e/d/ =ce g<ba>g |\
+"D"f<ae<f d<f"G"B<d | "D"A<Fd>F "D (A)"A3 "^B"|]

@@ -1,0 +1,17 @@
+X: 204
+T: the Irish Nation
+R: air, march
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #204
+O: F.O'Neill
+N: There is a minor typo in bar 1.
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Shortened final note,rest in A,B parts to fix the rhythm.
+N: Added flag to f in 1st bar to fix the rhythm, and match bar 9 and other similar bits.
+Q: "Moderate"
+M: C
+L: 1/8
+K: A
+  (c>d) | e>^de>f e2c>e | d>cBA G2AB | c>B (3(cBA) B>edB  | A4 Az :|
+||  zB  | A2A2    a3g   | e>de>f g3z | A>AA>A      a>ag>f | g<ez2 z2 ||
+| (c>d) | e>^de>f e2c>e | d>cBA G2AB | c>B (3(cBA) B>ed>B | A4 Az |]

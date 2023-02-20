@@ -1,0 +1,23 @@
+X: 20773
+T: THOU BONNIE WOOD OF CRAIGIELEE
+C: R. A. Smith.
+Q: "Slow."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.77 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(Bc) |\
+d3ed2B2 g3fe2d2 | d3e (ed)(cB) B2A2 A2(Bc) |\
+d2B2c2d2 e2f2Hg2e2 | d2G2d3B (A>G)(AB) G4 H|]
+GA |\
+(B3c)(A3B) (G2B2)(E3G) | D2G2B3G d2(cB) ({B}A3B) |\
+G3AB2G2 d2B2He2g2 | d2G2d3B (A>G)(AB) | G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Tannahill's song with the above title is sung to this air.
+%%endtext
+%%sep 1 1 300

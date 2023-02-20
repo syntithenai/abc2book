@@ -1,0 +1,38 @@
+X: 10101
+T: Duettini - Allegretto
+C: Gaetano Brandi
+Q: "Allegretto"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.10-11
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Dynamics copied from voice 1 to voice 2 to simplify splitting the parts.
+M: C
+L: 1/16
+K: D
+%%graceslurs 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 2/4-bar staff/line lengths for our page size:
+V: 1
+!f!a |\
+(a4 !p!g2)!f!f2 (f4 !p!e2)!f!d2 | e2(ef) g2g2 {a/}g4 f2za |\
+(a4 !p!g2)!f!f2 (f4 !p!e2)!f!d2 | e2(ef) g2c2 (e4 d2)za |
+!f!b2(bc') d'2d'2 d'3(c'/a/) a2za | Tgfga Tfefg (f4 e2)za |\
+!f!b2(bc') d'2d'2 d'3(c'/b/) a2za | Tfefg Tedef d4 :|
+|: z3!f!e |\
+e3!p!(f/e/) !f!(a2g2) (^e4 f2)za | (d'c'ba) (gfef) (f4 e2)z!f!e |\
+e3!p!(f/e/) !f!a2g2 (^e4 f2)za | (d'c'ba) (gfed) A4 z3!f!a |
+(a4 !p!g2)!f!f2 (f4 e2)d2 | e2(ef) g2g2 {a}(g4 f2)za |\
+!f!{b}(a4 !p!g2)!f!f2 {g}(f4 !p!e2)d2 | !f!Tedeg TcBce d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff/line breaks in the MS:
+V: 2
+!f!f |\
+(f4 !p!e2)!f!d2 (A4 !p!G2)!f!F2 | c2(cd) e2e2 {f/}e4 d2zf |
+(f4 !p!e2)!f!d2 (A4 !p!G2)!f!F2 | c2(cd) e2E2 (G4 F2)zf | !f!g2(ga) b2b2 b3(a/g/) f2zf |
+Tedef Tdcde (d4 c2)zf | !f!g2(ga) b2b2 b3(a/g/) f2zf | Tdcde A2A2 F4 :|
+|: z3!f!c |\
+c3!p!(d/c/) !f!(f2e2) c4 d2zf | (bagf) (edcd) (d4 c2)z!f!c | c3!p!(d/c/) !f!f2e2 (c4 d2)zA |
+(dcBA) (GFED) A4 z3!f!f | (f4 !p!e2)!f!d2 (A4 G2)F2 | c2(cd) e2e2 {f}(e4 d2)zf |
+!f!{g}(f4 !p!e2)!f!d2 (A4 !p!G2)F2 | !f!TcBce TEDEG F4 :|
+%
+%%center -

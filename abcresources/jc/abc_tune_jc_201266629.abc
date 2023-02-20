@@ -1,0 +1,17 @@
+X: 370
+T: Dan Rogers' jig
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #370
+R: Single jig
+%S: s:2 b:8(4+4)
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0370/oneill-1001-0370-1.abc
+%m: Tn2 = (3n/o/n/ m/n/
+M: 12/8
+L: 1/8
+K: Em
+"^A"[|]def \
+| gdB TB2A TB2A Bcd | efe edB dBA ABd \
+| gdB TB2A TB2A Bcd | efg fed e3 :|
+"^B"|: e2f \
+| gbg faf gfg edB | edB Bed BAA A2(e/f/) \
+| gbg faf gfg efg | aga Bcd e3 :|

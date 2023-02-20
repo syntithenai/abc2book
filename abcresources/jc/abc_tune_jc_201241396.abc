@@ -1,0 +1,29 @@
+X: 433
+T: MISS SARAH DRUMMOND OF PERTH
+C: M. Mc Donald. 2nd Coll.
+R: Strathspey
+B: Glen Collection p.43 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Am
+%
+V: 1
+a |\
+A<A e>d B<d e2 | d<g B<g d<g B<G | A<A d<d B<d e<(g | a)>e g>B {B}A2 A :|
+g |\
+a<a e<a c<a e2 | g<g d<g Bg d2 | a<a e<a c<a e<g | a<e g<B {B}A2 Ag |
+a<a e<a c<a e2 | g<g d<g Bg d2 | a<a e<a g<b e<g | a<e g<B {B}A2 A |]
+%
+V: 2
+z |\
+a2[e'2c'2] e2[e'2c'2] | g2[d'2b2] [d'2b2][d'2b2] |\
+a2[e'2c'2] e2[e'2c'2] | e2[b2g2] [c'2a2][aA] :|
+z |\
+a2[e'2c'2] e2[e'2c'2] | g2[d'2b2] d2[b2g2] |\
+a2[e'2c'2] e2[e'2c'2] | e2[b2g2] [c'2a2][c'2a2] |
+a2[e'2c'2] e2[e'2c'2] | g2[d'2b2] d2[b2g2] |\
+a2[e'2c'2] g2[e'2b2] | e2[b2g2] [c'2a2][aecA] |]

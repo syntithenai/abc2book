@@ -1,0 +1,69 @@
+
+X: 1
+T: La Bagatelle  (Bb)
+O: England 1788
+R: jig
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: John Griffiths' Collection, 1788
+S: printed MS of unknown origin
+M: 6/8
+L: 1/8
+K: Bb
+F \
+| "Bb"Bcd "F"cdB | "C7"ABG "F"F2F | "Eb"GAB "Bb"F2B | "F7"BcA "Bb"B2F \
+| "Bb"Bcd "F"cdB | "C7"ABG "F"F2F | "Eb"GAB "Bb"F2B | "F7"BcA "Bb"B2 :|
+|: D \
+| "Bb"DCD "F7"E2E | EDE "Bb"F2F | FGA "Eb"BAG | "Bb"FED "F7"C2D \
+| "Bb"DCD "F7"E2E | EDE "Bb"F2F | "Eb"GAB "Bb"F2B | "F7"BcA "Bb"B2 :|
+
+
+%%sep 5 1 500
+
+X: 2
+T: La Bagatelle  (C)
+O: England 1788
+R: jig
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: John Griffiths' Collection, 1788
+S: printed MS of unknown origin
+M: 6/8
+L: 1/8
+K: C
+G \
+| "C"cde "G"dec | "D7"BcA "G"G2G | "F"ABc "C"G2c | "G7"cdB "C"c2G \
+| "C"cde "G"dec | "D7"BcA "G"G2G | "F"ABc "C"G2c | "G7"cdB "C"c2 :|
+|: E \
+| "C"EDE "G7"F2F | FEF "C"G2G | GAB "F"cBA | "C"GFE "G7"D2E \
+| "C"EDE "G7"F2F | FEF "C"G2G | "F"ABc "C"G2c | "G7"cdB "C"c2 :|
+
+
+%%sep 5 1 500
+
+X: 3
+T: La Bagatelle  [D]
+O: England 1788
+R: jig
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: John Griffiths' Collection, 1788
+S: printed MS of unknown origin
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"def "A"efd | "E7"cdB "A"A2A | "G"Bcd "D"A2d | "A7"dec "D"d2A \
+| "D"def "A"efd | "E7"cdB "A"A2A | "G"Bcd "D"A2d | "A7"dec "D"d2 :|
+|: F \
+| "D"FEF "A7"G2G | GFG "D"A2A | ABc "G"dcB | "D"AGF "A7"E2F \
+| "D"FEF "A7"G2G | GFG "D"A2A | "G"Bcd "D"A2d | "A7"dec "D"d2 :|
+
+
+%%sep 5 1 500
+
+X: 4
+M:none
+K:C clef=none
+x4
+x4
+x4
+x4
+x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4

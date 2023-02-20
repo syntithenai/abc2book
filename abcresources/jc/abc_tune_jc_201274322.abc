@@ -1,0 +1,16 @@
+X: 408
+T: the Fairy Rath
+N: Irish title: an ra.t si.de
+R: air
+%S: s:4 b:8(2+2+2+2)
+N: This is more like a 3-bar waltz, with 2/3 of its bar lines missing.
+B: O'Neill's 1850 #408
+Z: henrik.norbeck@mailbox.swipnet.se
+Q: "Playful"
+M: 6/8
+L: 1/16
+K: G
+"^A"[|] (BA) | .G2(AG)(ED) .D2(d2c2) (B3AGE) | .G2(AGED) (D2E2G2) (A3 ||
+"^B"[|  cBA) | (GBAGED)    .D2(d2c2) (B3AGE) |  (G2AGED) E2G2G2    G4 |]
+"^C"[|| (Bc) | .d2(edBA)    G2B2d2   (e3gfe) | .d2(edBA) G2(d2B2) (A3 ||
+"^B"[|  cBA) | (G2AGED)     D2(d2c2) (B3AGE) |  (G2AGED) E2G2G2    G4 |]

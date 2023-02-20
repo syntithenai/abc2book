@@ -1,0 +1,20 @@
+X: 180
+M: 2/4
+L: 1/16
+P: dos Tsigayner (the Gypsy)
+K: D
+"A1"|: "D"^G2A2 A2A2 | B2=c2 B2A2 | "A7"A2 G4 F2 | "D"^GA F6 :|[K:Dm] \
+"A2"|: "Dm"E2F2 F2F2 | ^G2A2 G2F2 | "A7"F2 E4 D2 | "Dm"F2E2 D4 :|
+"B"|: "Dm"E2F2 F2E2 | E2 D6 | E2F2 F2E2 | E2 D6 \
+   |      E2F2 G2_A2 | "Gm"_A2 G6 | "A7"A2G2 F2E2 | "Dm"D8 :|
+"C"|: "F"A4 "C7"GFGB | "F"A4 "C7"GFGB | "F"A4 "C7"GFAG | "F"F4 F2G2 \
+   |      A4 GAGF | "Gm"EF G6 | "A7"A2G2 F2E2 | "Dm"D8 :|
+"D"|: "F"=Bcd2 c3_B | B2 A4 GF | "A7"EFG2 F2E2 | "Dm"E2 D6 \
+   |       E2F2 G2_A2 | "Gm"_A2 G6 | "A7"A2G2 F2E2 | "Dm"D8 :|
+"C"|: "F"A4 "C7"GFGB | "F"A4 "C7"GFGB | "F"A4 "C7"GFAG | "F"F4 F2G2 \
+   |      A4 GAGF | "Gm"EF G6 | "A7"A2G2 F2E2 | "Dm"D8 :|
+"E"|: "D"d4 c=Bcd | "G"=B8 | "C"c2c2 _BABc | "F"A8 \
+   |  "D"ABcB BAAG | "Gm"G2G2 B4 | "A7"A2A2 G^FGA | "D"^F8 :|
+K: D
+"F"|: "A7"A2G2 G2G2 | G8 | A2A2 G2FE | "D"FG A6 \
+   |  "A7"A2G2 G2G2 | "Gm"G4 _B4 | "Cm"A2GF _ED=CE | "D"D8 :|

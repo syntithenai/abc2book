@@ -1,0 +1,20 @@
+X: 12292
+T: Tak your Auld Cloak about you
+%R: air, waltz, minuet
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.29 #2
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+"_Slow"E |\
+A>B {B}c3 e | {e}d>c {c}B3 B | {d}c>B A3 B | {A}^G>F E2 zE |\
+EA c2 (c/d/e) |
+{e}d>c B3 d | Tc>B A3 ^G | A>B c3 :: G |\
+GE G3 G | AE G3 G | EA A3 ^G | A>B c3 G |\
+G>A c3 c | (d>e) g3 g |
+e^g Ha2 (e>d) | Tc>B A3 :: E |\
+(A/c/B/d/) c3 (a/g/) | (f/e/d/c/) {c}B3 e | {d}c{c}B (Ac)(TBA) | ({A}^G{G}F) E3 E |
+(E/A/)(A/c/) c3 (d/e/) | (f/d/e/f/) {c}TB3 e | {d}c{c}B A3 ^G | (A/c/B/d/) c3 :: d |\
+(ec)(GE) G3 F |
+(E/c/G/E/) G2 zG | (EA)(^GB) (A/c/B/d/) | (c/e/d/f/) e3d |\
+c>c c2 (3(gec) | (d/c/d/e/) {f}g3 g | (e^g) Ha2 Te>d | Tc>B A3 :|

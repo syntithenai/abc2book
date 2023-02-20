@@ -1,0 +1,19 @@
+X: 1
+T: The Rothiemurcus Rant
+R: strathspey
+C: Robert Bremner?
+%D:1757
+S: BSFC
+S: Slow Scottish collection 2021-1-13
+S: MS dated "2/11" by Barbara McOwen from the Athole collection
+S: Robert Bremner "A Collection of Scots Reels" 1757 p.42 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: The ending of C does have a different rhythm from the others here.; most versions don't. Bremner had ddd2 d2.
+M: C
+L: 1/16
+K: C
+"^A"|:  G2 | "C"E3D E3C     EG3 G4  |  "C"c3G A3G "F"c3G  Ac3  | "C"E3D  E3C  "Am"EG3 G3c |"Dm"Ac3 "(C)"G3c "G7"ED3 D2 :|
+"^B"|:  f2 |"Am"e4  d3c "G7"d3e d3B |  "C"c3d e3d "F"edcB c3G  |"Am"AAA2 a3g  "Em"e4  d3c | "F"Ac3 "(C)"Gc3 "G7"ED3 D2 :|
+"^C"|:  f2 | "C"eg3 g3a     g3a g3d | "Am"ea3 a3b "F"a3b  a3g  | "C"eg3  d3e  "Am"c3d e3d |"Dm"Aa3 "(C)"g3e "G7"e3d d2 :|
+"^D"[|] g2 | "Am"e4 d3c     de3 a4  |  "C"ge3 e3d "F"cA3  A3c  | "C"G2A2 c2d2 "Am"e4  dc3 |"Dm"Ac3 "(C)"Gc3 "G7"ED3 D2 ||
+       yg2 | "Am"e4 d3c     de3 a4  |  "C"ge3 e3d "F"cA3  A2eg | "C"a3e  g3d  "Am"e4  dc3 | "F"Ac3 "(C)"Gc3 "G7"ED3 D2 |]

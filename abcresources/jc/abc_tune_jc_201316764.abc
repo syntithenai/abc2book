@@ -1,0 +1,14 @@
+X: 248
+T: the New Langolee
+R: jig
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #248
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+Q: "With expression"
+M: 6/8
+L: 1/8
+K: G
+   D/D/ | D>EF  GAB | c>ed   cBA   |  BGE   DEG   | B>cA G2 ||
+|  D    |(DEF) (GAB)| (ced) (cBA)  | (BGE) (DEG)  | (B{d}cA) G2 |]
+|| c/c/ | BGB  dBd  | e>dc  dBG    | G>Bd   efg   | G>AG GE ||
+|  D/D/ | cec  BdB  | A>GA  BGE/E/ |  GFE  (D<d)c | B>cA G2 |]

@@ -1,0 +1,26 @@
+X: 1
+T:South Australia
+M:4/4
+C:
+S:Digital Folk Tradition Database
+N:hacked DigiTrad SongWright code
+A:Adderbury
+O:
+R:Reel
+%P:A(AB)$^4$
+P:A(AB)4
+Z:Ruth says Seabright plays it in D
+%:WWW:no
+%:abc2mtex:no
+K:C
+I:speed 400
+P:A
+   G2 | E2    G2  G2   G2 | A2    G2   G4       | A2    G2 G4    | A2   G2 G2
+w: In   South Aus-tral-ia   I     was  born.      Heave a-way!     Haul a-way!
+   zF | E2    G2  G2   E2 | D2    E2   C2    CD | E2    G2 G3 E  | D4      C2 ||
+w: In   South Aus-tral-ia  'round Cape Horn, We are bound for South Aus-tral-ia.
+P:B
+   z2 | c3     c  A2  c2 |  A2    G2   G4       | A2    G2 G4    | A2   G2 G4 |
+w:      Heave  a-way, you   rol-ling   kings.     Heave a-way,     haul a-way!
+        c3     c  A2  c2 |  A2    G2   G2    CD | E2    G2 G3 E  | D4      C2 ||
+w:      Heave  a-way, you'll hear me sing:  We are bound for South Aus-tral-ia.

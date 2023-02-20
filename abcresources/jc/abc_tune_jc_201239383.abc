@@ -1,0 +1,21 @@
+X: 3271
+T: the Cushion Dance.   a Jig.
+%R: jig
+N: This is version 1, for ABC software that doesn't understand voice overlays or trailing grace notes.
+B: Niel Gow & Sons "Complete Repository" v.3 p.27 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+z |\
+e3 Tf2e/f/ | edc TB2A | ~F>GA E2c | {c}d2c B2A || e3 Tf2e/f/ | edc B2a | ecA TF2E | ~F3 A2 :: e |
+(ac').e (ac').e | bd'e bd'e | ac'e ac'e | gbe gbe || ac'e ac'e | bd'e Tb>c'd' | c'ba Tf2e | (Tf3 {ef}a2 :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z \
+| [a3c'3] [a3d'3] | c'3 e'3 | [a3c'3] [a3c'3] | g2a b2c' |\
+| a3 [a3d'3] | c'3 e'3 | [a3c'3] [a2d'2]c' | a3 a2 :: z |
+"_sf"[A3A,3] "^p"[a3c'3] | "_sf"[e3E3] "^p"[e'3g'3] | "_sf"[A3A,3] "^p"[a3c'3] | "_sf"[e3E3] "^p"[b3d'3] ||\
+"_sf"[A3A,3] "^p"[a3c'3] | "_sf"[e3E3] "^p"[e'3g'3] | "^8va"a3 [a2d'2]d' | [a3d'3] [a2c'2] |]

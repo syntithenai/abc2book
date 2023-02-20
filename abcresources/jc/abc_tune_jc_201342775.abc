@@ -1,0 +1,16 @@
+X: 1
+T:Theme Song from Titanic
+M:C
+L:1/8
+Q:80
+C:Traditional
+S:Slow Air
+O:|
+K:HP
+|:{g}de|{g}(f4f)g{a} fd|{g}e/2(a3/2a4) fe|{g} d2 (B4B)d/2B/2|{G}A8|!
+{fgf}(f4f2) g{a}d|{g}e/2(a3/2a4) fa|B6 {g}fd|{gef}e6|!
+
+|{gf}g6 {g}f3/2d/2|{e}B6 {g}Bd|{g}e6 {g}d3/2B/2|{G}A8|!
+{g}B2 A2 G3/2B/2 {G}(A2|A2) {g}GA {g}BC BA|{g}G3/2B/2 {G}(AA)
+
+% Output from ABC2Win  Version 2.1 h on 01/02/99

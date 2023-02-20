@@ -1,0 +1,56 @@
+
+X: 1
+T: Cadet-Valse
+C: music: Frank Mayr
+C: words: L. W. Vizay
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+%%barlabelfont Times-Narrow
+"^Newport."[|\
+	"G"{c}B>^AB>d "/D#"c>B | "Am/C"^G>A f>e A2 \
+"^Waltz."||\
+	("D7"{B}A2 ^G2 A2) | "D7"(e4 A2) | "G"(B2 F2 A2) | "G"(G4 D2) ||
+"^Newport."||\
+	"G"{c}B>^AB>d "/D#"c>B | "A4/E"^G>A f>e A2 \
+"^Waltz"||\
+	"D7"F2 [A2F2] [c2A2] | ([e4C4E4] [f2c2F2]) | "G"[g6-B6-G6-] | [g2B2G2] "/A"Hz2 "/A#"z2 ||
+"^Newport."||\
+	"B"{c}B>^AB>^d "B7/A"[gdB]>f | "Em/G"{c}B>^AB>e "/E"[=aeB]>g \
+"^Waltz"||\
+	"B7"([f2F2] [g2G2] [a2A2]) | [c'2c2] [b3B3] [fF] | ("Em"[f4F4] [a2A2]) | [g6G6] ||
+"^Newport."||\
+	"B"{c}B>^AB>^d "B7/A"[gdB]>f | "Em/G"{c}B>^AB>e "/E"[=aeB]>g \
+"^Waltz"||\
+	"Am/C"([e2E2] [^d2^D2] [e2E2]) | k[g2G2] k[f2F2] k[e2E2] | "/B /A# /B"k[b6f6^d6B6] | "D7"k[d6B6A6F6] ||
+% - - - - - - - - - - p.2
+"^Newport."||\
+	"G"{c}B>^AB>d "/D#"c>B | "Am/C"^G>A f>e A2 \
+"^Waltz"||\
+	("D7"{B}A2 ^G2 A2) | "D7"(e4 A2) | "G"(B2 F2 A2) | "G"(G4 D2) ||
+"^Newport."||\
+	"G"{c}B>^AB>d "/D#"c>B | "A4/E"^G>A f>e A2 \
+"^Waltz"||\
+	"D7"F2 [A2F2] [c2A2] | ([e4C4E4] [f2c2F2]) | "G"[g6-B6-G6-] | [g2B2G2] z2 !Fine!z2 H||[K:=f]
+P: Trio.
+K: C
+"^Newport."||\
+	"C"[eG]>[^d^F] [eG]>[dF] [eG]>[=d=F] | "C"[cE]>B c>e g2 \
+"^Waltz"||\
+	"G/D"[a2f2A2] z2 [f2d2F2] | "Dm7"[f2d2F2] z2 [^f2^d2^F2] | "C"[g2e2G2] z2 [^d2B2^D2] | "C"[e6c6E6] ||
+"^Newport."||\
+	"C"[eG]>[^d^F] [eG]>[dF] [eG]>[=d=F] | "C"[cE]>B c>e g2 \
+"^Waltz"||\
+	"D7/F#"[e'2c'2e2] z2 [c'2a2c2] | "D7"[c'2a2c2] z2 [^c'2^a2^c2] | "G"[d'2b2d2] z2 [^a2g2^c2] | "G7"[b6g6B6] ||
+"^Newport."||\
+	"C"[eG]>[^d^F] [eG]>[dF] [eG]>[=d=F] | "C"[cE]>B c>e g2 \
+"^Waltz"||\
+	"A7/CE"[a2A2] z2 [e2E2] | "A7"[f2F2] z2 [g2G2] | "Dm"[_b2_B2] z2 [^g2^G2] | "Dm"[a6A6] ||
+"^Newport."||\
+	[aA]>[^g^G][aA]>[bB] k[c'2c2] | [c'c]>[bB][c'c]>[d'd] k[^d'2^d2] \
+"^Waltz"||\
+	"C/G"[e'2e2] z2 [g2G2] | ("G7"[a4f6d6B6]g2) | "C"c6- | c2 "^D.C. al"z2 z2Hy |]
+%
+%%center Dedicated to the U. S. CORPS OF CADETS. West Point N.Y.U.S.A.

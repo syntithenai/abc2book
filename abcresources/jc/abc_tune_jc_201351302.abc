@@ -1,0 +1,29 @@
+X: 1
+T: Well done Jack
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (149)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+a2 |\
+g2(fe) a2e2 | g2(fe) f4 | e2dc B2A2 | G2 B4 a2 |\
+gfge a2e2 | g2(fe) f4 | e2dc B2A2 | E2 A4 :|
+|: ed |\
+c2A2 c2e2 | a2c2 d4 | c2dc B2A2 | G2 B4 ed |\
+c2e2 a2c2 | (d2a2) (c2a2) | c2dc B2A2 | E2 A4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st and 2d Men go Back to Back with their Partners
+%% and turn each a round and a half .| Then Back to
+%% Back sides and turn as before :| The Men being
+%% improper the 1st Cu. go right Hands and left with the
+%% 2d Cu. half round all dance and turn single .| The 1st
+%% Cu. lead thro the 3d Cu. then cast up and turn
+%% Partners quite round :|
+%%endtext
+%%sep 1 8 500

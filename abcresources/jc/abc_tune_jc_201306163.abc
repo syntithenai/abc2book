@@ -1,0 +1,26 @@
+X:1
+T: Maine Chance
+N:
+C:Tune "Morpeth Lasses"
+S:
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 30 notes)
+K:Am
+M:4/4
+L:1/16
+A6 B2 c4 B4 |E4 A4 A8 |B6 A2 G4 A4 |B4 A4 A4 E4 |A6 B2 c4 B4 |E4 A4 A4 e4 |d4 B4 G4 B4 |c4 A4 A8 |
+%W: A2
+% voice 1 (1 lines, 30 notes)
+A6 B2 c4 B4 |E4 A4 A8 |B6 A2 G4 A4 |B4 A4 A4 E4 |A6 B2 c4 B4 |E4 A4 A4 e4 |d4 B4 G4 B4 |c4 A4 A8 |
+%W: B
+% voice 1 (1 lines, 27 notes)
+a4 g4 e4 a4 |g4 e4 a8 |g6 e2 d4 g4 |B4 G4 d8 |a4 g4 e4 a4 |g4 e4 a8 |g6 e2 g4 B4 |A8 A8 |
+%W:
+% voice 1 (1 lines, 28 notes)
+a4 g4 e4 a4 |g4 e4 a8 |g6 e2 d4 g4 |B4 G4 d8 |A4 c4 B4 d4 |c4 e4 d4 a4 |g6 e2 g4 B4 |A8 A8 ||

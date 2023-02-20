@@ -1,0 +1,21 @@
+X: 13
+T: Hat and Feather
+%R: jig
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.7 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A |\
+F2A d2f | gec d2A | Bcd AFD | F3 E2A |\
+F2A d2f | efd c2e | a2A B2e | cAE CA, |]
+|: e |\
+c2d ecA | d2e f2g | f2b dec | dAF B,2A/G/ |\
+FAd d2A | Adf Ha2 A | B2d fge | fdA FD :|
+%%begintext align
+%%   Right Hands across Left back
+%% again .| lead down the middle up
+%% again Cast off :| four Hands
+%% at bottom Lead thro' top & Cast off :|.
+%%endtext

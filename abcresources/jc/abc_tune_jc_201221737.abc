@@ -1,0 +1,22 @@
+X: 05087
+T: To a Wee Maid (With Love)
+C: Bob McQuillen 26 May 81
+B: Bob's Note Book 5 #87
+%R: 3/4
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: Em
+B,/D/ \
+| EGA  | Be>B | d3   | e2d    | B>AG | E2G/E/ | D>ED | B,2D |\
+| EG>A | Be>B | dB>A | G2E/F/ | GB>G | FED    | E3-  | E2 :|
+|: e/f/ \
+| g>ed | e>dB | dBG  | A3 | B>AG | EGA  | Bd>B | A3 |\
+| e>dB | d3   | B>GB | A3 | B>AG | A>FD | E3-  | E2 :|
+% '/' used to suggest lines of poetry:
+%%begintext align
+%% The Bees they Buzz /
+%% Amongst the Flowers, /
+%% Making glad /
+%% Our waking hours.
+%%endtext

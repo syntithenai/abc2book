@@ -1,0 +1,62 @@
+X: 1
+T: an Old Man a Bed full of Bones
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.115 #170 (230)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.41 "E 3"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: In DMDfD, the dance is in 3 sections with 2 columns; ## used to mark the column separation.
+M: 6/4
+L: 1/4
+K: Ddor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+eee e2e | e^cA ^c2^c | ddd d2^c | d2e fed |\
+eee e2e | e^cA ^c>BA | f>ef g>af | e2d d3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up all a D. forward and back, sett and turn S .| That again :|
+%% First Man lead down his Wo. between the rest a D. forward and back,
+%% then lead her to the lower End, and turn her and leave her .|
+%% Bring up the last Wo. in the same Manner :| Then the last man do the
+%% like, and fetch his own.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Sides all sett and turn S. .| That again :|
+%% This as before, only crossing both Hands in the middle :|:|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Arms all, sett and turn S .| That again :|
+%% This as before, holding your Wo. by one Hand, and let her turn
+%% under your Arm, and kiss her :|:|
+%% [CCDM1]
+%%endtext
+%%sep 1 8 500
+%%begintext align
+%% Lead up all a D. forward and back, set and turn S. .| That again :|
+%% ##
+%%		First man lead down his Wo. between the rest a D.
+%%		forward and back, then lead her to the lower end
+%%		and turn her and leave her .| Bring up the last wo.
+%%		in the same manner :| Then the last man do the
+%%		like, and fetch his own.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Sides all, set and turn S. .| That again :|
+%% ##
+%%		This as before, only crossing both hands in the middle :|:|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Arms all, set and turn S. .|
+%% ##
+%%		This as before, holding your wo. by one hand, and
+%%		let her turn under your arm, and kiss her :|:|
+%%	[DMDfD]
+%%endtext
+%%sep 1 8 500

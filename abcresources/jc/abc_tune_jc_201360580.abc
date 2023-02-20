@@ -1,0 +1,40 @@
+X: 2
+A:Adam de la Halle
+T:Trop desire a veoir
+N: (written out)
+M:3/4
+L:1/4
+Q:1/4=120
+K:F Lydian
+%
+V:1 clef=treble
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+%%MIDI program 1       70 bassoon
+%%MIDI program 2       71 clarinet
+%%MIDI program 3       72 piccolo
+%
+[V:1][K:C]  F2      ((3F/E/D/)|(C D E) |(D  C) ((3:2:2DC/)  ||   (B,C (3:2:2B,C/) |((3:2:2D/C F  E)  | F3  ||
+[V:2][K:F]  F,2 ((3:2:2F,G,/) |(A,B,A,)|(G, F,)       D,    ||   (E,F,E,)    |((3:2:2D,/E,F, G,)| F,3 ||
+[V:3][K:F]  C2  ((3:2:2CB,/)  |(A,G,A,)|(B, A,)((3:2:2A,G,/)||   (G,F,(3:2:2G,A,/)|((3:2:2F,/G,F, E,)| F,3 ||
+w:   1.4.7.~Trop       dé-*     sir**    a*          veoir*   2.8.~Ce***            que***      j'aim.
+%
+[V:1][K:C]  F2      ((3F/E/D/)|(C D E) |(D  C) ((3:2:2DC/)  ||
+[V:2][K:F]  F,2 ((3:2:2F,G,/) |(A,B,A,)|(G, F,)       D,    ||
+[V:3][K:F]  C2  ((3:2:2CB,/)  |(A,G,A,)|(B, A,)((3:2:2A,G,/)||
+w:  ~~3.~~~~Ne         m'en*    puis**   re-mou-     voir*
+%
+[V:1][K:C]  F2      ((3F/E/D/)|(C D E) |(D  C) ((3:2:2DC/)  ||
+[V:2][K:F]  F,2 ((3:2:2F,G,/) |(A,B,A,)|(G, F,)       D,    ||
+[V:3][K:F]  C2  ((3:2:2CB,/)  |(A,G,A,)|(B, A,)((3:2:2A,G,/)||
+w:   1.4.7.~Trop       dé-*     sir**    a*          veoir*
+%
+[V:1][K:C]  F2      ((3F/E/D/)|(C D E) |(D  C) ((3:2:2DC/)  ||   (B,C (3:2:2B,C/) |((3:2:2D/C F  E)  | F3  ||
+[V:2][K:F]  F,2 ((3:2:2F,G,/) |(A,B,A,)|(G, F,)       D,    ||   (E,F,E,)    |((3:2:2D,/E,F, G,)| F,3 ||
+[V:3][K:F]  C2  ((3:2:2CB,/)  |(A,G,A,)|(B, A,)((3:2:2A,G,/)||   (G,F,(3:2:2G,A,/)|((3:2:2F,/G,F, E,)| F,3 ||
+w:  ~~5.~~~~Et         au*      main**   et au       soir*   ~6.~~Me***            com-***     plains
+%
+[V:1][K:C]  F2      ((3F/E/D/)|(C D E) |(D  C) ((3:2:2DC/)  ||   (B,C (3:2:2B,C/) |((3:2:2D/C F  E)  | F3  ||
+[V:2][K:F]  F,2 ((3:2:2F,G,/) |(A,B,A,)|(G, F,)       D,    ||   (E,F,E,)    |((3:2:2D,/E,F, G,)| F,3 ||
+[V:3][K:F]  C2  ((3:2:2CB,/)  |(A,G,A,)|(B, A,)((3:2:2A,G,/)||   (G,F,(3:2:2G,A,/)|((3:2:2F,/G,F, E,)| F,3 ||
+w:   1.4.7.~Trop       dé-*     sir**    a*          veoir*   2.8.~Ce***            que***      j'aim.

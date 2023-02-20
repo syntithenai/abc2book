@@ -1,0 +1,29 @@
+X:567
+T:Peat Fire Flame
+M:2/2
+%%MIDI ratio 3 1
+Q:1/2=112
+L:1/4
+K:Em
+%%textfont Times-Roman-Bold 20
+%%center Play  ABBAB
+P:A
+B | "Em"E>F GF | "Em"ED "G"B2 | "Am"BA AG/A/ | "D"BA AB |\
+"Em"E>F GF | "Em"ED "G"B>A | "C"GE "D"FD | "Em"E2E ||
+P:B
+F | "G"G>A Bg/f/ | "Em"ed B2 | "Am"BA AG/A/ | "D"BA AB |\
+"G"G>A Bg/f/ | "Em"ed B>A | "C"GE "D"FD | "Em"E2 E |]
+N:Replace by blank line and X field
+T:Donkey Riding
+C:Trad. Shanty
+M:2/2
+L:1/4
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=112
+K:D
+P:A
+"D"D3/E/ FF | "G"GE "D"F2 | "Em"FE ED/E/ | "A7"FE E2 |\
+"D"D3/E/ FF | "G"GE "D"F2 | "A7"FE AA | "D"D2 D2 ||
+P:B
+"G"B2"D"A3/F/ | "Em"GA "D"F2 | "Em"FE ED | "D"FE ED |\
+"G"B2"D"A3/F/ | "Em"GA "D"F2 | "A7"FE AA | "D"D2 D2 |]

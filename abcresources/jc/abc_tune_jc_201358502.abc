@@ -1,0 +1,57 @@
+%%scale .975
+%%barsperstaff 4
+X:1
+T:Lily of the Valley - #10
+T:Song of Solomon 2:1
+C:William S Hays
+M:4/4
+L:1/8
+K:D
+%%staves{RH1 RH2}
+V:RH1 clef=treble name="melody"
+|F G|"D"A A B A A F2 D|"G"E D D B, "D"A,2 D E
+w:v1~I have found a friend in Je-sus. He's eve-ry-thing to me. He's the
+w:v2~He_ all my grief has tak-en, and all my sor-rows borne; In temp-
+w:v3~He will nev-er, nev-er leave me, nor yet for-sake me here, While I
+V:RH2
+|D D D D D D D D2 A,|B, B, B, G, A,2 A, A,
+V:RH1
+|F F F F B A A F|"A"E6 F G
+w:fair-est of ten thou-sand to my soul; The_
+w:ta-tion He's my strong and might-y tow'r, I have
+w:live by faith and do His bless-ed will; A_
+V:RH2
+|D D D D D D F D|C6 D D
+V:RH1
+|"D"A A B A A F2 D|"G"G D D B, "D"A,2 D E
+w:Li-ly of the Val-ley, in Him a-lone I see All I
+w:all for Him for-sa-ken, and all my i-dols torn From my
+w:wall of fire a-bout me, I've noth-ing now to fear, From His
+V:RH2
+|D D D D D D2 A,|B, B, B, G, A,2 A, A,
+V:RH1
+|F A F D "A"E G F E|"D"D6 D2
+w:need to cleanse and make me ful-ly whole. In
+w:heart and now He keeps me by His pow'r. Though
+w:man-na He my hun-gry soul shall fill. Then
+V:RH2
+|D F D A, C E D C A,6 =C2
+V:RH1
+|"G"G G G G G B2 B|"D"B A A F A2 F E
+w:sor-row He's my com-fort, in trou-ble He's my stay; He_
+w:all the world for-sake me and Sa-tan temp me sore, Through_
+w:Sweep-ing up to glo-ry to see His bless-ed face, Where_
+V:RH2
+|B, B, B, B, B, D2 D|D D F D F2 A,-A,
+V:RH1
+|D D D D B A A F|"A"E6 F G||
+w:tells me eve-ry care on Him to roll. ch~He's the
+w:Je-sus I shall safe-ly reach the goal.
+w:riv-ers of de-light shall ev-er roll.
+V:RH2
+|A, A, D D D D F D|C6 D C||
+V:RH1
+|"D"A A B A A F2 D|"G"E D D B, "D"A,2 D E|F A F D "A"E G F E|"D"D6||
+w:Li-ly of the Val-ley, the Bright and Morn-ing Star, He's the fair-est of ten thou-sand to my soul.
+V:RH2
+|D D D D D D2 A,|B, B, B, G, A,2 A, A,|D F D A, C E D C|A,6||

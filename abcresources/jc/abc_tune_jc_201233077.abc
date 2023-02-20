@@ -1,0 +1,22 @@
+X: 183
+T: Miss Parker's Reel
+C: Mr Greenwell
+R: reel
+M: C|
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Abraham Mackintosh "A Collection of Strathspeys, Reels, Jigs &c.", Newcastle, after 1797, p.18
+F: http://imslp.info/files/imglnks/usimg/a/a8/IMSLP80796-PMLP164326-Abraham_Mackintosh_coll.pdf
+K: A
+V: 1
+e |\
+A/A/A ec fdec | A/A/A ec dBBc | A/A/A ec fdec | efed cAA :|
+|: e |\
+afec fdec | afec dBBg | afec defa | efed cAA :|
+V: 2 clef=bass middle=d
+z |\
+[a2c'2e'2][a2c'2e'2] [d'2a2][a2c'2e'2] | [a2c'2e'2][a2c'2e'2] [e2g2b2e'2][e2g2b2e'2] |\
+[a2c'2e'2][a2c'2e'2] [d'2a2][a2c'2e'2] | cde2 a2A :|
+|: z |\
+a2[a2c'2e'2] [d'2a2][c'2a2] | a2[c'2a2] [e2g2b2e'2][e2g2b2e'2] |\
+a2[c'2a2] f2d2 | cde2 a2A :|

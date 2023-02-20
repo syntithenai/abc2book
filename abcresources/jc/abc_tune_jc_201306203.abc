@@ -1,0 +1,93 @@
+X: 0
+T: Mairi's Wedding
+T: 8x40R3
+C: James B Cosh
+B: Twenty Two SCD and Two Others
+P: 1-2-3-2-3-2-3-1
+N: Phrasing really should be ABBAB to fit the dance
+K:
+%%begintext
+   Tune 1: A-B1-A-B1-B2
+   Tune 2: A-B-A-B-B
+   Tune 3: A-A-B1-B1-B2
+%%endtext
+
+
+X: 1
+P: Mairi's Wedding  (the Lewis Bridal Song)
+C: Words: John Bannerman (1935)
+O: Music: Trad Scotland (1909)
+H: The well-known words for this song, and the Scottish Country Dance that goes
+H: with it, were written for Mary McNiven, born in 1908, and still alive in 1998.
+H: The lyrics were written by Johnny Bannerman for her birthday in 1935, in Gaelic.
+H: Her wedding to Captain John Campbell was in 1941.  The tune itself is older.
+H: It was published in Marjory Kennedy-Fraser's "Songs of the Hebrides" (1909).
+R: march
+Z: 1998 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: D
+f "A"\
+[| "D"A>A AB | de f2 | "G"ed Bd | "A7"fe fa \
+|  "D"A>A AB | de f2 | "G"ed BG | "A7"A2 A2 |]
+"B1"\
+[| "D"a>a ab | ag f2 | "G"ed Bd | "A7"fe f<a \
+|  "D"a>a ab | ag f2 | "G"ed BG |1 "A7"A2 A2 :|2 "A"AB/c/ d/e/f/g/ |]
+"B2"\
+[| "D"a>a ab | ag f2 | "G"ed Bd | "A7"fe f<a \
+|  "D"A>A AB | de fg | "G"a>f "A7"fe | "D"d2 z |]
+W: Step we gaily on we go, heel for heel and toe for toe,
+W: Arm and arm and row on row, all for Mh\`airi's wedding.
+W: Plenty herring, plenty meal, plenty fish to fill her creel,
+W: Plenty bonny bairns as weel, that's our toast for Mh\`airi.
+
+
+X: 2
+P: the Deveron Reel
+C: Iain MacFadyen
+N: From David.South:nre.vic.gov.AU:
+N: Looks like a variation of "The Deveron Reel" by Neil Grant (real name of
+N: the composer is Iain MacFadyen - producer of The White Heather Club).
+B: Ceol na Fidhle v.3
+R: reel, march
+Z: Cambridge Folk Orchestra
+M: C|
+L: 1/4
+K: D
+[| "D"DD F/D/F/G/ | AA F/A/F/A/ | dd f/e/d/e/ | "A7"fe ef \
+ | "D"DD F/D/F/G/ | AA F/A/F/A/ | "D"df "A7"e/f/g/e/ | "D"fd d2 |]
+[| "D"ff d/e/f/d/ | "A"eA A>A | "G"BB G/A/B/G/ | "D"AD D>D \
+ | "G"GG "A7"E/F/G/E/ | "D"FA d>A | "G"B/A/G/F/ "A7"E>G | "D"FD D2 |]
+
+
+X: 3
+P: the Birken Tree
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/4
+K: EDor
+B \
+| "Em"Be ed | "D"f>e dc | "G"Bc "D"de | "A"cA2 B \
+| "Em"Be ed | "D"f>e dc | "G"dB "D"AF | "G"d2 "A"c :|
+|: d/c/ \
+| "Em"BE EF | "(G)"B>c dB | "D"AG FG | A2 dc/d/ \
+| "Em"BE EF | "(G)"B>c de | "D"dB AF | "Em"E2- E :|
+
+
+X: 4
+P: the Piper's Cave  #1
+R: march
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+E2 "A"\
+| "A"E2A2 A3B | c2A2 F2E2 | "E7"E2B2 B3c | dcBA G2E2 \
+| "A"E2A2 A3B | c2A2 F2E2 | "E7"E2B2 cBAG | "A"A6 :|
+cd "B1"\
+| "A"e2c2 c2e2 | "E7"d2B2 B2cd | "A"e2A2 "D"F2A2 | "E7"G2E2 E2cd \
+| "A"e2c2 c2e2 | "E7"d2B2 B2cd | "A"e2A2 cBAG | "A"A6 |]
+cd "B2"\
+| "A"e2c2 c2e2 | "E7"d2B2 B2cd | "A"e2A2 "D"F2A2 | "E7"G2E2 E3F \
+| "A"E2A2 A3B | c2A2 F2E2 | "E7"E2B2 cBAG | "A"A6 |]
+

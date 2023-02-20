@@ -1,0 +1,38 @@
+X: 1701
+T: A Trip to Aberdeen
+%T: 8x32J
+%O: RSCDS 17-1, 1953
+K:
+%
+P: the Braes of Elchie's
+C: Charles Grant (Aberlour)
+R: jig
+B: RSCDS 17-1(I), 1953
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+A \
+| "C"G>EG c3 | "G7"e2d "C"c2A | G>EG "F"f3 | "C"ege "G7"d2A \
+| "C"G>EG c3 | "G7"e2d "C"c2B | "F"AFA "C"GcE | "G7"D3 "C"C2 :|
+e/f/ \
+| "C"geg gec | "F"afa "Dm"afd | "C"geg gec | "D7"ece "G"dBG \
+| "C"geg gec | "F"afa "Dm"afd | "C"gec "G7"dBG | "C"c3 c2 ||
+e/f/ \
+| "C"geg gec | "F"afa "Dm"afd | "C"geg gec | "D7"ece "G"dBG \
+| "F"AFA "(Dm)"AFA | "C"GEG "(Em)"GEG | "F"AFA "C"GcE | "G7"D3 "C"C2 |]
+%
+P: Miss Anne Drummond Smith's Reel
+C: Syd Chalmers
+R: jig
+B: RSCDS 17-1(II), 1953
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+C \
+| "F"FFG AAB | cAF "Bb"d3 | "F"cAF "Gm"B3 | "F"AFC "C7"G2C \
+| "F"FFG AAB | cAF "Bb"d3 | "F"cfA "C7"GFG | "F"FF"Bb"F "F"F2 |]
+|| c \
+| "F"cff "Bb"dff | "F"cff cBA | "C7"GGG G2C | GGG G2c \
+| "F"FFG AAB | cAF "Bb"d3 | "F"cfA "C7"GFG | "F"FF"Bb"F "F"F2 |]

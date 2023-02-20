@@ -1,0 +1,23 @@
+X: 102
+T: Adieu to Fortgeorge
+R: reel
+M: C|
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.10 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: Some slurs are very ambiguous and may be wrong.
+N: The 3rd part has a final repeat but no begin repeat.  Not fixed.
+N: The 4th part has some obviously wrong note lengths.
+K: D
+d3e |\
+(gf).e.d (fe).d.c (ed).c.B A3G | (GF)ED g3f Tf4 e2(de) |\
+(gf).e.d (fe).d.c (ed).c.B .A2.G2 | Fbag fedc d2dd d2 :|
+|: z2 |\
+(ag)(fg) .a2.a2 (a2d'2)(d'2c'2) | (c'2b2)(b2a2) a3f d4 |\
+(ag)(fg) .a2.a2 .a2d'2 defg | f4 Te4 d8 :|
+[|\
+D3E F2F2 F3G.A2.A2 | d4 (df)(ed) (c2BA) A4 |\
+D3E.F2.G2 F3A (cB)(AG) | F4 TE4 D8 :|
+[| (a3g)(f3g) .a2d'2a2d'2 | (c'b)(ag) f2g2 afaf Td4 |\
+(a3g)f3g .a2.a2 (abc')d' d'(afd) | f4 Te4 d4 |]

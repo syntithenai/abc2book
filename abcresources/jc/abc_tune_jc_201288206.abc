@@ -1,0 +1,33 @@
+
+X: 1
+T: Hughie Jim Paul's Reel
+T: Hughie Jim Paris
+C: Joan McDonald Boes
+R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: handwritten copy from Barbara McOwen, in the Concord Slow Scottish Session collection
+M: C|
+K: A
+AF \
+| "A"EAAc "D"BAFA | "A7"EAc[eA] "D"d2cd | "A"ea{b}ag "F#m"aec[eA] | "Bm7"dfec "E7"B2AF |
+| "A"EAAc "D"BAFA | "A7"EAc[eA] "D"d2cd | "A"ea{b}ag "F#m"aece | "E7"fdec "A"A2 :|
+|: ab \
+| "A"c'bag fecB | "A"Ae^df "E7"e2fg | "F#m"ae~e2 "D"fedc | "Bm7"dfec "E7"B2 ab |
+| "A"c'bag fecB | "A"Ae^df "E7"e2=dc | "D"[ad]a{b}ag "F#m"aece | "E7"fdec "A"A2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Hughie Jim Paul's Reel
+T: Hughie Jim Paris
+C: Joan McDonald Boes
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+K: A
+AF \
+| "A"EAAc "F#m"BAFA | "A"EAcA "D"d2cd | "A"eaag aecA |1 "D"dfec "E7"B2AF \
+                                                    :|2 "E7"fdec "A"A2 :|
+|: ab \
+| "F#m"c'bag "Bm"fecB | "B7"Ae^df "E7"e2fg |1 "A"ae~e2 "F#m"fedc | "D"dfec "E7"B2 \
+                                          :|2 "A"ae~e2 "D"fece | "E7"fdec "A"A2 :|

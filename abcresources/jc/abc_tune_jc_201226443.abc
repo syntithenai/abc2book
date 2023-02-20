@@ -1,0 +1,23 @@
+X: 10282
+T: GO, GEORGE, I CAN'T ENDURE YOU.
+Q: "Lively."
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.28 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+FG |\
+A2A2A2B2 | B2A2 z2FG | A2A2A2B2 | {c}B2A2 z2A2 |\
+d2c2d2e2 | f2e2d2c2 | B2A2G2F2 | {F}E4 z2FG |\
+A2A2A2B2 | B2A2 z2FG | A2A2A2B2 | B2A2 z2A2 |\
+d2c2d2e2 | g2f2e2d2 | f2e2d2c2 | d4 z2A2 |
+G2G2 {A}GFGA | F4 z2d2 | {F}E2E2 EDEF | D4 z2A2 |\
+{A}G2G2 GFGA | F4 z2A2 | G2G2 gedc | d6 d2 |\
+f2e2d2c2 | B2A2G2F2 | G2G2 E2E2 | F4 z2d2 |\
+f2e2d2c2 | B2A2G2F2 | G2G2 E2E2 | D4 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

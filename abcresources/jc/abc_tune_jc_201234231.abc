@@ -1,0 +1,27 @@
+X: 20361
+T: the Wars Alarm's
+N: The title has its apostrophes wrong.
+%R: air, march
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.36 #1
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+%%slurgraces 1
+%%graceslurs 1
+|: "_Slow"\
+F4 (FGA2) | A2F2(TE2D2) | d4 (def2) | Tf2e2e2A2 |\
+F4 FGA2 | A2F2(TE2D2) | (af3) (Te3d) | d8 ::\
+e3fe2A2 | e8 | e3fe2A2 | e8 |\
+a3ba2d2 | a8 |
+a3ba2d2 | a8 |\
+TF6A2 | A2F2(TE2D2) | d4 (def2) | Tf2e2e2A2 |\
+F4 (FGA2) | A2F2(TE2D2) | (af3) (Te3d) | d8 ::\
+F4 (DEFG) | (A2F2)(TB2A2) | d4 (Adfa) |
+(gfed) e2A2 |\
+F4 (GABc) | d2F2TE2D2 | (af3) (Te3d) | d8 ::\
+e3f (ec)(af) | e4 (ABcd) | e3f (ec)(fd) | e4 (defg) |\
+a3b (af)(d'b) |
+a4 (defg) | a3b (af)(d'b) | {b}a8 |\
+F4 F2A2 | A2(FA) TE2D2 | d4 (Adfa) | (gfed) e2A2 |\
+F4 (DEFG) | A2FA TE2D2 | (a3f) (Te3d) | d8 :|

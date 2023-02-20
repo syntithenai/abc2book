@@ -1,0 +1,576 @@
+
+X: 0
+T: Community Dances Manual 6
+N: Reprint No. 6, 1981
+N: prepared by Jack Hamilton
+N: Publiched by EFDSS (The English Folk Dance and Song Society) 1964
+K:
+%%center Twenty-one dances from various sources, including squares, contras, long sets,
+%%center rings and waltzes with twenty-eight tunes
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 1
+T: BLACK JACK
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.5
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+"A"|: D- | "G"D2G GFG | "C"ABA- "D7"AGA | "G"BcB BAG | "C"ABA "D7"AFD | "G"G2B "C"EFG |
+"D7"DEF "G"G2 "B":: G | "G"B2d- dcB | "C"dee "D7"d2c | "G"B2d- dcB | "C"dee "D7"d2c |
+"Em"B2B- BAG | "Am"ABA "D7"AGA | "G"BcB BAG | "C6"ABA "D7"AGF | "Em"G2B "Am"EFG | "D7"DEF "G"G2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2
+T: CANADIAN BREAKDOWN
+T: McArthur's Reel
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.13
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+"A"|: A2 |\
+"D"d3d d2Bc | "D"d2A2 F2D2 | "A7"[e3A3][eA] [e2A2]de | "A7"f2e2 edBc |
+"D"d3d d2Bc | "D"d2A2 F2D2 | "Em"EFGA "A7"BABc | "D"d2ec "A7"A2 :|
+"B"|: A2 |\
+"D"d2fd fdfa | "D"d2ed "A7"edcA | "D"d2fd fdfa | "Em"gfed "A7"cABc |
+"D"d2fd fdfa | "D"d2ed "A7"edcA | "Em"gfed "A7"cABc | "D"d2f2 d2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 3
+T: CAPTAIN MAGUIRE
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.7
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+"A"|: FG |\
+"D"ABAG F2A2 | "D"d2e2 f2ef | "Em"g2ag "A7"f2e2 | "D"d2f2 "A7"A2FG |\
+"D"ABAG F2A2 | "D"d2e2 f2ef | "Em"g2ag "A7"f2e2 | "D"d4 d2 :|
+"B"|: cd |\
+"A"e2ee e2d2 | "A"c2e2 a4 | "A"e2ee e2f2 | "A"g2e2 c2A2 |\
+"A"e2ee e2d2 | "A"c2e2 a4 | "E7"efed c2B2 | "A"A4 A2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 4
+T: CHEVIOT RANT
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.3
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+"A"|: FG |\
+"D"AdBd A2de | "D"fgef d2ef | "G"gBed "E7"cded | "A7"c2A2 A2de | "D"fdgf "Em"e2cd |
+"A7"ecfe "Bm"d2Bc | "Em"dBed "A7"cAag | "D"f2d2 d2 "B":: FG | "D"AFAd fdAF | "G"G2B2 B2ef |
+"A7"gfge cBAG | "D"B2A2 "A7"A2FG | "D"Adfe dcBA | "G"GBed "A7"cBAG | "D"FAdf "A7"geag | "D"f2d2 d2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 5
+T: DRUMDELGIE
+T: Miller of Stralloch
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.5
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+"A"|: A |\
+"D"A>BA AFA | "D"d2e "G"g2f | "A"e2A AGF | "Em"G3 "A7"GFG |\
+"D"A>BA AFA | "D"d2e "G"g2f | "A7"e2A ABc | "D"d3 d2 :|
+"B"|: e |\
+"D"f2f "Bm"def | "Em"g2f "A7"eag | "D"f2d A2F | "Em"G3 "A7"GFG |\
+"D"A>BA AFA | "D"d2e "G"g2f | "A7"e2A ABc | "D"d3 d2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 6
+T: FAREWELL TO DEVON
+C: Pat Shaw
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.15
+R: waltz
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+e2 |\
+"A"a3 g fe | "A"c2 e4 | "E7"A2 A2 B2 | "A"c4 e2 |\
+"F#m"a3 g fe | "C#m"c2 e4 | "B7"cB A2 c2 | "E7"B4 e2 |
+"A"a3 g fe | "C#m"e2 c4 | "D"f3 e dc | "F#m"c2 A4 |\
+"Bm"d3 c BA | "D6"B3 A GF | "E7"E2 c2 B2 | "A"A4 ||
+E2 |\
+"A"A3 B cB | "A"A2 E4 | "Bm"B3 c dc | "E7"B2 E4 |\
+"A"c3 d ed | "F#m"c2 A2 de | "D(Bm)"f3 e dc | "E7"B4 E2 |
+"A"c3 d ed | "F#m"c2 A4 | "Bm"d3 e fe | "E7"d2 B2 cd |\
+"C#m"e3 f ge | "F#m"a2 A2 "Bm"d2 | "A"c3 d "E7"B2 | "A"A4 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 7
+T: FARMERS' JAMBOREE
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.13
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+"A"|: cd |\
+"A"efe "E7"dcB | "A"A2c E2c | "A"c^bc edc | "E7"B3 Bcd |\
+"A"efe "E7"dcB | "A"A2c Eef | "E7"gfe dcB | "A"A3- A :|
+"B"|: cd |\
+"A"e2c a2g | "D"f2d "Bm"b2a | "E7"g2B Bdf | "A"e3 "E7"ecd |\
+"A"e2c a2g | "D"f2d "Bm"b2a | "E7"gfe dcB | "A"A3- A :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 8
+T: FLOWERS OF EDINBURGH
+O: Cecil Sharp Mss
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.3
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+"A"|: D2 |\
+"G"G2G2 B2GB | "G"d2B2 "C"g3e | "G"d2B2 BAGA | "A7"B2G2 "D7"E2D2 |\
+"G"G2G2 B2GB | "G"d2B2 "C"g3e | "G"d2B2 "D7"BAGA |1 "G"B2G2 G2 :|2 B2G2 G4 ||
+"B"|:\
+"Em"g4 "Bm"f3e | "Em"B2e2 e3f | "Em"g2g2 "Am"fagf | "Em"B2e2 e4 |\
+"G"dBGB d2d2 | "C"e2ef g2e2 | "G"d2B2 "D7"BAGA | "G"B2G2 G4 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 9
+T: GOATHLAND SQUARE EIGHT
+O: Cecil Sharp Mss
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.5
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+"A"|: D2 |\
+"G"G2GB d2B2 | "G"g2d2 B2G2 | "Am"c2AB c2(3BcB | "D7"A2G2 F2D2 |\
+"G"G2BB d2B2 | "G"g2d2 B2G2 | "C6"A2AB "Am"c2ec | "D7"A2F2 "G"G2 :|
+"B"|: D2 |\
+"G"G2gg g2gf | "C"e2ee e2ed | "Am"c2a2 a2ag | "D"f2d2 d2ef |\
+"Em"g2e2 "A7"e2ag | "D"f2d2 "G"d2g2 | "A"e2^c2 "D7"A2d=c | "G"B2G2 G2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 10
+T: HUNTSMEN'S CHORUS
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.7
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+"A"|: "G"D2 |\
+G2D2 GABc | "G"d4 B4 | "D7"A2d2 A2d2 | "G"BcBA G2D2 |\
+G2D2 GABc | "G7"d4 "C"c4 | "G"BAGA "D7"B2A2 | "G"G6 :|
+"B"|: D2 |\
+"G(Bm)"B2BB B2A2 | "Em"G4 G4 | "Am"c2cc c2B2 | "D7"A2F2 E2D2 |\
+"G"B2BA GABc | "G7"d4 "C"c4 | "G"BAGA "D7"B2A2 | "G"G6 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 11
+T: JIMMY ALLEN
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.9
+R: march
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+"A"[|]BA |\
+"G"B2G2 G2A2 | "G"B4 G2AB | "Am"c2A2 A2B2 | "Am"c4 "D7"B2A2 |\
+"G"G2g2 "C"g2e2 | "G"d4 B2Bc | "Am"d2d2 "D7"c2A2 | "G"G4 G2GA |
+"G"B2G2 G2AA | "G"BcBA G2AB | "Am"c2A2 A2AB | "Am"cdcB "D7"A2BA |\
+"G"G2g2 "C"g2e2 | "G"d4 B2Bc | "Am"d2d2 "D7"c2A2 | "G"G4 G2 ||
+"B"|: BA |\
+"G"G2g2 g3f | "G"e2d2 c2B2 | "A7"A2a2 a3g | "D7"f2d2 e2f2 |\
+"G"g3a "C"g2e2 | "G"d4 B2Bc | "Am"d2d2 "D7"c2A2 | "G"G4 G2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 12
+T: JOHNNY GET YOUR HAIR CUT
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.7
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+"A"[|]\
+A2 |\
+"D"dfed B2A2 | "D"B2A2 "A7"F2A2 | "D"dfed B2AA | "A7"B2c2 "D"d2A2 |\
+"D"dfed B2A2 | "D"B2A2 "A7"F2A2 | "D"dfed B2AA | "A7"B2c2 "D"d2  :|
+"B"\
+|: "D"d2f2 a3a | "G"b2a2 "A7"f2e2 | "D"defg a2a2 | "G"b2a2 "A7"f3e |\
+"D"d2f2 a3a | "G"b2a2 "A7"f2e2 | "Bm"dfed "Em"B2A2 | "A"B2c2 "D"d2A2 :|
+"C"\
+|: "D"D2FG A2Bc | "D"d2d2 F3B | "A7"A2A2 E3B | "D"A2A2 "A7"F2E2 |\
+   "D"DEFG A2Bc | "D"d2d2 F3B | "A7"A2A2 E2FE | "D"D4 D2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 13
+T: JUBILEE ROUNDABOUT, first tune
+C: Freda Burford, 1961
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.9
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+"A"|: Bc |\
+"G"d2B2 G2B2 | "G"d4 g2 | "G"d3B "C"cBAG | "A7"E4 "D7"D2EF |\
+"G"G2A2 B2d2 | "C"e2d2 "G"B2G2 | "C"E2G2 "D"FGAF | "G"G4 z2 :|
+"B"|: d2 |\
+"G"gaba g2e2 | "G"d2e2 g2a2 | "Em"b3a g2e2 | "G"d2B2 "D"A2B2 |\
+"G"G3A "D"B2d2 | "C"edcB "D"A2BA | "Em"G2E2 "C"G2A2 | "G"G4 z2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 14
+T: JUBILEE ROUNDABOUT, second tune
+C: Freda Burford, 1961
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.9
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+"A"|: G2 |\
+"G"B2d2 g3b | "C"agfe "G"d3d | "C"e2g2 "G"d2B2 | "Am"ed"(C6)"cB "D7"AGFE |\
+"G"D2GD "C"E2AE | "D"F2BF "Em"GABc | "Am"d2g2 "D7"dcBA | "G"B2G2 G2z2 :|
+"B"|:\
+"Em"g3g g2e2 | "Bm"edef "Em"g2e2 | "Bm"d2B2 "Em"e2B2 | "Am"AGAB "D7"AcBA |\
+"G"G2GB "D"A2Ac | "G"B2d2 "C"bagf | "G"g2B2 "D"AcBA | "G"B2G2 G2z2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 15
+T: KITTY O'NEIL'S JIG
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.7
+R: hornpipe
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+"A"[|](3efg |\
+"A"a2g2 a2A2 | "D"f>ed>f "A"e>cA2 | "E7"B2^A2 B2E2 | "A"E>A"E7"G>B "A"A>Ac>e |
+"A"a2g2 a2A2 | "D"f>ed>f "A"e>cA2 | "E7"B2^A2 B2E2 | "A"E>A"E7"G>B "A"A2 ||
+"B"[|]A>B |\
+"A"c2a2 c2c>d | "Bm"B2b2 B2B>c | "D"d>ef>g a2g>f | "E7"e>dc>B "A"c2A2 |
+"A"c2a2 c2c>d | "Bm"B2b2 B2B>c | "D"d>cd>e f>ga>f | "E7"(3efe (3dcB "A"A2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 16
+T: MARGARET'S WALTZ
+C: Pat Shaw
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.15
+R: waltz
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+"A"|: c2 |\
+"A"E3 F AB | "A"c4 c2 | "D"BA F2 A2 | "E7"B4 c2 |\
+"A"E3 F AB | "A"c3 d e2 | "E7"c4 B2 | "A"A4 :|
+"B"[|] cd |\
+"C#m"e3 f ge | "F#m"a4 a2 | "D"fe d2 f2 | "E7"e4 cB |\
+"F#m"A3 B cd | "A"e4 c2 | "D"BA F2 A2 | "E7"B4 cd |
+"C#m"e3 f ge | "F#m"a3 g f2 | "Bm"e2 d2 c2 | "E7"B4 c2 |\
+"A"E3 F AB | "A"c3 d e2 | "E7"c4 B2 | "A"A4 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 17
+T: MARMADUKE'S HORNPIPE
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.11
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+"A"|: A2 |\
+"D"A2A2 AdBA | "D"F2FF D2D2 | "A7"E2A2 E2A2 | "A7"E2A2 E2A2 |\
+"D"A2AA AdBA | "D"F2FF D2D2 | "A7"E2A2 E2E2 | "D"F3E D2 :|
+"B"|:\
+"D"d2e2 fefe | "G"d2e2 gege | "D"d2e2 f2df | "A7"e2A2 ABcA |\
+"D"d2e2 fefe | "G"d2e2 g3a | "Em"b2a2 "A7"g2e2 | "D"d4 d2z2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 18
+T: OLD COUNTRYMAN'S REEL
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.13
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Bb
+"A"|: dc |\
+"Bb"Bdfa bfgf | "F7"edcB AcFE | "Bb"DFBd ABcd | "Cm"edcB "F7"AcF2 |
+"Bb"Bdfa bfgf | "F7"edcB AcFE | "Bb"DFBd DFAc | "F7"ecAc "Bb"B2 :|
+"B"|: FE |\
+"Bb"DFBF dFBF | "Bb7"DFBF dFBF | "Eb"EGBG eGBG | "Eb"EGBG eGBG |
+"Bb"DFBF dFBF | "Bb7"DFBF dFBF | "F7"eAce AceA | "F7"ceAc "Bb"B2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 19
+T: ONE NIGHT IN THE SHIELING
+T: Way up in Clachan
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.15
+R: waltz
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+D2 |\
+"G"G3 B d2 | "G"d2 B2 d2 | "C"e2 c2 e2 | "G"d2 B2 d2 |\
+"G"G3 B d2 | "G"d2 B2 d2 | "A7"e2 A2 A2 | "D7"A4 BA |
+"G"G3 B d2 | "G"d2 B2 d2 | "C"e2 c2 e2 | "G"d2 B2 GA |\
+"G"B3 B B2 | "Am"d2 c2 A2 | "D7"A2 G2 A2 | "G" G4 ||
+d2 |\
+"G"g2 g g2 | "C"g2 f2 e2 | "D7"d2 e2 d2 | "G"B2 A2 G2 |\
+"Em"g3 g g2 | "Am"g2 f2 e2 | "G"d2 c2 B2 | "D7"A4 d2 |
+"G"g2 g g2 | "A7"g2 f2 e2 | "D7"d2 e2 d2 | "G"B2 A2 G2 |\
+"G"B3 B B2 | "D7"d2 c2 A2 | "C"A2 G2 G2 | "G" G4 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 20
+T: OPERA REEL
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.11
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+"A1"|: "D"D2D2 FAFA | "D"D2D2 "A7"EDEF | "D"D2D2 FDFA | "G"BdAF "A7"E2E2 :|
+"A2"|: "D"d2d2 dAFA | "D"d2d2 "A7"egfe | "D"d2d2 dAFA | "G"BdAF "A7"E2E2 :|
+"B1"|: "D"afaf "A7"gege | "D"faed "A7"c2BA | "D"afaf "Em"gege | "A7"faec "D"d2d2 :|
+"B2"|: "D"defd "A7"efge | "D"defd "A7"edcA | "D"defd "G"efge | "A7"faec "D"d2d2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 21
+T: PADDY McGINTY'S GOAT
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.7
+R: hornpipe
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+"A"[|]d>c |\
+"G"B2B>A G2G>A | "G"B>AB>c d2d>B | "Am(D)"c>dc>B A>AA>B | "Am"c>Bc>d "D7"e2d>c |
+"G"B2B>A G2G>A | "G"B>AB>c d2d>B | "Am"c>cB>c "D"A>Ad>c | "G"(3BGG "C"G>G"G"G2 ||
+"B"[|]B>d |\
+"G"g2g>g d2d>d | "G"g2g>g d2d>e | "D"f>gf>e d>^cd>e | "A7"f>gf>e "D"d2d2 |
+"C"e>eg>e "G"d>dg>d | "D7"c>Bc>d "G"B3B | "Am"c>cB>c "D7"A>Ad>c | "C"(3BGG G>G "G"G2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 22
+T: RAKES OF KILDARE
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.11
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+N: The book spells it "RAKE'S", but current EFDSS docs omit the apostrophe.
+M: 6/8
+L: 1/8
+K: Ador
+"A"|: E |\
+"Am"EAA AGA | "Am"Bcd "(D7)"e2f | "G"gfg ege | "G"dBG A2G |\
+"Am"EAA AGA | "Am"Bcd e2f | "Em"gfe dBG | "Am"A3 A2 :|
+"B1"[|] a |\
+"Am"aea aea | "Am"aea "(D7)"b2a | "G"gfg ege | "G"dBG G2a |\
+"Am"aea aea | "Am"aea b2a | "Em"gfe dBG | "Am"A3 A2 :|
+"B2"[|] a |\
+"Am"aea aea | "Am"aea "(D7)"b2a | "G"gfg ege | "G"dBG A2G |\
+"Am"EAA AGA | "Am"Bcd e2f | "Em"gfe dBG | "Am"A3 A2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23
+T: ROXBURGH CASTLE
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.3
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+"A"|: E2 |\
+"A"A2Ac ecAc | "D"d2df "A"ecAc | "D"d2fd "A"c2ec | "D"B2BA "E7"BdcB |
+"A"A2Ac ecAc | "D"f2df "E7"edcd | "A"eagf "E7"edcB | "A"c2A2 A2 :|
+"B"|: e2 |\
+"A"aece fece | "A"aece fedc | "D"d2fd "A"c2ec | "D"B2BA "E7"BdcB |
+"A"A2Ac ecAc | "D"f2df "E7"edcd | "A"eagf "E7"edcB | "A"c2A2 A2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 24
+T: THE SPACEMAN
+C: Doreen Buckoke, 1961
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.9
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+"A1"[|] D |\
+"G"d2^d d2B | "D7"c2B c2A | "G"B2^A B2G | "D"A2F D2D |\
+"C"E2G c2e | "G"d2B "C"G2c | "G"B2G "D7"A2F | "G"G3 G2 ||
+"A2"[|] D |\
+"G"dBG DGB | "G"dBG d3 | "D7"A2^G A2G | "D7"A2F D3 |\
+"G"dBG DGB | d2B d3 | "C"E2A "D"D2F | "G"G3 ||
+"B1"[|] "G7"G3 |\
+"C"ecG EGc | "C"ecG e3 | "G"dBG DGB | "G"dBG d3 |\
+"A7"^cAG EEG | "A7"^c2A c3 | "D"d3 "A7"^c3 | "D7"=c3 A3 ||
+"B2"[|]\
+"G"dBG DGB | "G"dBG d3 | "D7"A2^G A2G | "D7"A2F D3 |\
+"G"dBG DGB | "G"dBG d3 | "Am"c2B "D"A2B | "G"G3- G2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 25
+T: STORRERS
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.3
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+"A"|: ed |\
+"A"c2A2 AcBA | "E"G2E2 E2FE | "B7"^D2B2 BcBA | "E7"G2E2 E2ed |
+"A"c2A2 AcBA | "E7"GABc defg | "A"aecA "E7"Gfed | "A"c2A2 A2 :|
+"B"|: ce |\
+"A"fece agfe | "A"fec2 c2ce | "A"fece agfe | "Bm"d2B2 "E7"B2ce |
+"A"fcea agfe | "D"fefg agfe | "Bm"dcBA "E7"Gfed | "A"c2A2 A2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 26
+T: STREETS OF LAREDO
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.16
+R: waltz
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+%%text (play 6 times)
+d2 |\
+"G"d3 c B2 | "D7"c2 d2 c2 | "G"B3 A G2 | "G"G2 D4 |\
+"Em(G)"G3 G G2 | "Am(C6)"A2 B2 c2 | "G(A7)"B2 A2 G2 | "D7"A4 d2 |
+"G"d3 c B2 | "D7"c2 d2 c2 | "G"B3 A G2 | "G"G2 D4 |\
+"Em"G3 G G2 | "Am"A2 B2 c2 | "D7"B2 F2 F2 | "G"G6 ||
+"Am(D7)"A3 A A2 | "D7"A2 B2 c2 | "G"d3 e d2 | "G"B2 A2G2 |\
+"Am(D7)"A3 A A2 | "D7"A2 B2 c2 | "G"d2 c2 B2 | "D7"A4 d2 |
+"G"d3 c B2 | "D7"c2 d2 c2 | "G"B3 A G2 | "G"G2 D4 |\
+"Em"G3 G G2 | "Am"A2 B2 c2 |1-5 "D7"B2 F2 F2 | "G"G6 :|6 "D7"d2 e2 f2 | "G"g4 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 27
+T: THE TIPSY PARSON
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.11
+N: Known as "Liberty" in the US.
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+"A"|: e2 |\
+"D"f2A2 f2A2 | "D"fgfe d^def | "Em"g2B2 g2B2 | "A7"gagf e^de=f |
+"D"^f2A2 f2A2 | "D"fgfe d2cd | "A7"efed cABc | "D"dfec d2 :|
+"B"|: FG |\
+"D"A2AB AGFE | "D"DFAd fdAF | "D"A2AB AGFD | "A7"[E3A,3][EA,] [E2A,2]FG |
+"D"A2AB AGFE | "D"DFAd f2ef | "Em"gfed "A7"cABc | "D"dfec d2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 28
+T: UP JUMPED THE DEVIL
+C: Buck Ryan
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.13
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+"A"[|]\
+"A"e2ee f2f2 | "A"a2a2 f2e2 | "A"e2a2 f2e2 | "E7"g6 e2 |\
+"E7"egbe gbeg | "E7"begb g2e2 | "E7"gfeg fefc | "A"e6 e2 |
+"A"ecec fcfc | "A"acac f2e2 | e2a2 e2a2 | "D"f6 a2 |\
+"D"a3b a2f2 | "A"e3f e2ef | "E7"gfed cAB2 | "A"A4- A4 ||
+"B"[|]\
+"A"E2AA E2AA | "A"F2AA E2E2 | "A"E2AA E2E2 | "E7"B2e2- e2e2 |\
+"E7"BBee BeBB | "E7"eBBe e2f2 | "E7"gfeg fedB | "A"ABAF "E7"E2E2 |
+"A"E2AA E2AA | "A"F2AA E2E2 | "A"E2AA E2AA | "D"F2F2- F2a2 |\
+"D"a3b a2f2 | "A"e3f e2f2 | "E7"gfed cAB2 | "A"A4- A4 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29
+T: WILLIE'S DROWNED IN YARROW
+O: Original collected by Lucy Broadwood
+O: Adaptation by Pat Shaw
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.16
+R: waltz
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+A2 |\
+"D"d4 d2 | "D"f3 e d2 | "G"B d3 B2 | "A7"A6 |\
+"D"f4 f2 | "G"g2 a2 b2 | "D"a6 | "A7"f4 e2 |
+"Bm"d3 d d2 | "Bm"f3 e d2 | "Em"B d3 B2 | "A7"A4 A2 |\
+"G"g4 b2 | "D"a2 f2 d2 | "A7"e6 | "D"d4 ||
+d2 |\
+"G"g4 b2 | "D"a2 f2 d2 | "G"e2 d2 B2 | "A7"A4 A2 |\
+"G"g2 b2 | "D"a2 f2 d2 | "E7"f3 g f2 | "A7"e4 A2 |
+"D"d3 d d2 | "D"f3 e d2 | "G"B d3 B2 | "D"A4 A2 |\
+"G"g3 a b2 | "D"a2 f2 d2 | "A7"e6 | "D"d4 |]

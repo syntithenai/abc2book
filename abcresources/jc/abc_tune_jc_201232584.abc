@@ -1,0 +1,33 @@
+X: 174
+T: Vallentines Maggot
+T: Longways &c.
+%R: march
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.87
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2A2 A2d2 | e2A2 A2e2 | f2gf e2d2 | a4 A4 |\
+d2A2 A2d2 | e2A2 A2e2 | f2gf e2d2 | ^c8 :|
+|:\
+a2d2 d2a2 | b2G2 G2b2 | g2c2 c2f2 | a2F2 F2a2 |\
+a2d2 d2a2 | a2^c2 c2a2 | a2d2 d2a2 | a2^c2 c2a2 |\
+f4 e4 | d8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st Cu. fall back, and sides with the 2d Cu.
+%% then cast of and turn, and sides with the 3d.
+%% Cu. .| then the 1st Man hands round with his
+%% partner, and both cast up :| the 1st Man change
+%% places with the 2d Wo. and his partner with
+%% the 2d Man, and all four move round to their
+%% own places .| then 1st Cu. right and left quite
+%% round with the 2d Cu. into the 2d Cu. place :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

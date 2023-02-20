@@ -1,0 +1,14 @@
+X: 257
+T: On a Bank of Flowers   #2
+R: air, march
+%S: s:2 b:14(7+7)
+B: O'Neill's 1850 #257
+O: J.O'Neill
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Compacted via repeats and multiple endings [JC]
+Q: "Moderate"
+M: C
+L: 1/8
+K: D
+"^A"|: DE | F2A2 A2Bc | d2A2 A2f2 |1 e2d2 fedc | d6 :|2 gecA f2e2 | d6 "^B"[| fg | a2g2 fgaf |
+| g2c2 c2de | =f2d2 de^fg | a2A2 A2 "^A3"|| FG | A^GAB A=GFG | A^GAB A2f2 | e2d2 fedc | d6 |]

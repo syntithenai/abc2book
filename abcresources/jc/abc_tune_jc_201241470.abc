@@ -1,0 +1,23 @@
+X: 4369
+T: AIR FROM "LIGHT CAVALRY."
+%R: air, march
+B: James Kerr "Merry Melodies" v.4 p.39 #369
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The D.C. should probably be a D.S. with a segno sign on the first bar line.
+N: Initial repeat sign added to 2nd strain to match its redundant 1st ending.
+M: 6/8
+L: 1/8
+K: A
+%%slurgraces yes
+%%graceslurs yes
+(A/B/) |\
+czc/c/ cz(A/B/) | czc/c/ cz(A/B/) |\
+czc/c/ cBc | f3 e3 |\
+dzE/E/ Ezd | czE/E/ Ezc |\
+[1 BcB AGF | (B3 E2 :|\
+[2 BcB F2G | A3 H|]
+Ace |: [a3A3] [a3A3] |\
+agf e^de | fzB {c}B^AB |\
+c2B G2E | [a3A3] [a3A3] |\
+[Aa]gf e^de | fBc edB |\
+[1 A3 Ace :|[2 AEF GA"_D.C."B |]

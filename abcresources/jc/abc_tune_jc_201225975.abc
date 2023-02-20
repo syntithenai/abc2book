@@ -1,0 +1,28 @@
+X: 10063
+T: AH! ROSES ARE SWEET.
+C: M. P. King
+Q: "Moderate."
+%R: air, waltz, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.6 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/16
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+Hde/c/ |\
+B3AB2 c2d2e2 | d2{c}B2{A}G2 A4d2 |\
+G3FG2 A2B2c2 | (c6 B4)d2 |\
+B3AB2 c2d2e2 | {e}d2{c}B2{A}G2 A4d2 |\
+G3FG2 A2c2F2 | (A6 G4) dB |
+A2B2G2 F2A2d2 | A2B2G2 HF2A2d2 |\
+{c}B2{A}G2{F}E2 D2HA3^C | D4z2 Hd6 {^cd^de=c}y |\
+B3AB2 c2d2e2 | d2{c}B2{A}G2 A2z2 HB2 |\
+E2c3A F2d3B | G6 z4d2 |
+A6- A2G2A2 | (B4d2) z2B2B2 |\
+c2c2c2 {cd}e2d2c2 | (B4d2) z4d2 |\
+A6- A2G2A2 | (B4d2) z2Hd2Hg2 |\
+He2HA2HB2 (dc)(BA)(dF) | (A6 G4) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

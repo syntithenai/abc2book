@@ -1,0 +1,25 @@
+X:242
+T:Exercises (Simple Melodies)
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 24, on which Scales and Exercises are given.
+M:C
+L:1/4
+Q:1/4=100
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+P:Common Time
+"_1"G"_2"G"_3"d"_4"d|"_1"e"_2"e"_3  4"d2|"_1"c"_2"c"_3"B"_4"B|"_1"A"_2"A"_3  4"G2||"_1"d"_2"d"_3"c"_4"c|"_1"B"_2"B"_3"A"_4"A|
+"_1"d"_2"d"_3"c"_4"c|"_1"B"_2"B"_3  4"A2|"_1"G"_2"G"_3"d"_4"d|"_1"e/f/"_2"g/e/ "_3  4"d2|"_1"c"_2"c"_3"B"_4"B|"_1"A/G/"_2"A/B/ "_3  4"G2:|
+P:Example 2d
+M:C|
+L:1/8
+[K:D]F>E|D3D d3c|c2B4B2|AF3 F3D|E4z2 F>E|D3D d3c|c2B4B2|A3F {F2}E3D|
+D4 z2A2|d2>>d2 e2>>e2|f4 z2A2|d2>>d2 e2>>e2|f4 z2f>e|dB3 B3A|(A4 F2)E>D|d2F2{F2}E3D|D4z2||
+P:Example 3d
+M:2/4
+A|"_1"dd"_2"ef|"_1"df"_2"ec|"_1"dd"_2"ef|"_1"d2"_2"A2|"_1"dd"_2"ef|"_1"gf"_2"ed|"_1"cA"_2"Bc|"_1"d2-"_2"d::
+z|"_1"BB"_2"BA|"_1"Bc"_2"d2|"_1"AB"_2"AG|"_1"FG"_2"A2|"_1"BB"_2"BA|"_1"Bc"_2"d2|"_1"Ad"_2"ce|"_1"d2-"_2"d:|
+P:Example 4th
+d/c/|dDFA|dDD d/c/|dDFA|BEE d/c/|dDFA|Bgfe|d/c/B/A/ Bc|dDD::
+f/g/|a>f g>e|fd d/e/f/g/|a>f g>a|bee f/g/|a>f g>e|fd ef/e/|d/c/B/A/ B>c|dDD:|

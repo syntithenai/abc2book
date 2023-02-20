@@ -1,0 +1,27 @@
+X: 43
+T: the King's March
+%R: march, reel
+N: This is version 2, for ABC software that understands trailing grace notes.
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.20 #43
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The first strain has 9 bars.
+M: 2/4
+L: 1/16
+K: D
+%%slurgraces 1
+%%graceslurs 1
+A2 |\
+A2(Bc) d2d2 | (d4 c2)ef |\
+g2fe {g}f2ed | c2d2- defg |\
+a2(ba) g2f2 | {ga}b3a gfed |\
+g2fe f2d2 | d2eB Tc3d | d6 :|
+|: f2 |\
+e2d2c2a2 | g2f2e2d2 |\
+Tc2d2 z2a2 | g2f2e2d2 |\
+Tc2d2 z2b2 | {a}^g2(fe) a4- |\
+a2bf (T^g4{fg}) | a6 d2 |
+c2B2c2A2 | d2{fg}a2g2f2 |\
+gaba gfed | a2A2 z2a2 |\
+b2(Tgf) g2g2 | g2e2 f2dA |\
+(Bcde) Tc3d | d6 :|

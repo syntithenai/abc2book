@@ -1,0 +1,19 @@
+X: 20182
+T: CAMPBELLS ARE COMING
+Q: "Alleg.o"
+%R: jig, march
+B: "Edinburgh Repository of Music" v.2 p.18 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 6/8
+L: 1/8
+K: G
+%%slurgraces
+%%graceslurs
+G |\
+B2g (dB).G | (Bc).B B2A | B2g (dB).G | ABA {B}A2G |\
+B2g (dB).G | (A>B).A (g>a).b | g>eg (dB).G | B>cB B2 :|
+|: d |\
+g2g (ga).b | (d>e).d (dB).d | g2g g>a.b | (ge).g {g}f2d |\
+(d>e).f (g>f).e | (dB).d (g>a).b | (ge).g (dB).G | (B>c).B B2 |]

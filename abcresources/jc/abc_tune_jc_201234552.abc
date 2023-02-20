@@ -1,0 +1,26 @@
+X: 205
+T: the Hunt Is Up
+O: Old English Folksong.
+Q: "Somewhat quickly."
+%R: jig
+N: This is version 2, for ABC software that understands crescendo symbols.
+U: p=!crescendo(!
+U: P=!crescendo)!
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: In bar 6, "gone a" looks like "gona".
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A | d2 A (F>!mf!G) A | d- d A (F>G) A | (B>A) G F>E D | E3- E2 ||
+w: 1.~The hunt is up,* the hunt* is up,* And it* is well* nigh day;*
+w: 2.~The east is bright* with morn-*ing light,* And dark-*ness it* is fled;*
+w: 3.~The hors-es snort* to be at the sport,* The dogs* are run-*ning free;*
+%
+A | (BG) A B2 A/- A/ | (G>F) G A2 A p|  (B> Pc) d (c>d) e | !f!d3- d2 |]
+w: And Har-ry, our King, is* gone a hunt-ing, To bring* his deer* to bay.*
+w: The mer-*ry horn wakes* up* the morn, To leave* his i-*dle bed.*
+w: The woods* re-joice at the mer-*ry noise Of hey! tan-ta-ra,* tee! tee!*
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

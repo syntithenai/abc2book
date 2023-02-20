@@ -1,0 +1,38 @@
+X: 21231
+T: MASSASOIT SETT (tune 4)
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.123 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+A2 |\
+Adfd Adf2 | (ba)(ag) (gf)(fe) |\
+Acec Ace2 | (ag)(gf) (fe)(ed) |\
+Adfd Adf2 | (ba)(ag) (gf)(fe) |
+DFAd FAdf | [eA]fed d2 H|]\
+A,2 |\
+A,DFA DFAd | FAdf Adfa |\
+(3(bag) (3(agf) (3(gfe) (3(fed) | (3(edc) (3(dcB) (3(cBA) (3(BAG) |
+A,DFA DFAd | FAdf Adfa |\
+(3(bag) (3(agf) (3(gfe) (3(fed) | Acec "^D.C."d2 |]\
+A2 |\
+dcde [fd]efg | aAgA [ec]Az2 |
+dbca BgAf | GdFc EBDA |\
+dcde [fd]efg | aAgA eAz2 |\
+bagc' agfa | Aba^g "^D.C."a2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All alamand corners,
+%% partners the same,
+%% balance corners,
+%% turn partners,
+%% all chain,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

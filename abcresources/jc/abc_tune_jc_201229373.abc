@@ -1,0 +1,39 @@
+X: 12261
+T: I Love my Love in secret
+%R: air, march, reel
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.26 (and top 9 staffs of p.27)
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The repeat symbol in bar 24 is missing its dots; fixed.
+M: C|
+L: 1/8
+K: C
+"_Slow"gf |\
+e2(dc) c3G | A2(de) d2(gf) | e2dc g2c2 | fgag {f}e2(dc) |\
+(fga)f (efg)e | (fe)(dc) Td3c | egac (g<e) (Td>c) | A2(cd) c2 :|
+|:\
+(Tgf) | e2(Tdc) g2G2 | A2(de) d2(gf) | e2(dc) g2c2 | a2c2 g2c2 |\
+(fga)f (efg)e | (fe)(Tdc) (de)(fg) | (abc')c (g<e) (Td>c) | A2(c>d) c2 :|
+|: "^Variations"(gf) |\
+egcg ecgG | A2(de) d2(gf) | egcg ecgc | acgc ecge |\
+(f/e/f/g/) af (e/d/e/f/) ge | (fe)(dc) d2eg |
+aegc (g<e) (Td>c) | A2(cd) c2 :: (gf) |\
+eg2 c2 e2G | A2(d>e) d2(gf) | eg2 c2 g2c | ac'2c gc'2c |\
+fa2c' eg2c' | (f/e/f/)g/ (e/d/e/)f/ {e}d3g |
+(a/g/a/b/) c'c (g<e) (Td>c) | A2(cd) c2 :: (gf) |\
+ecgc c'/g/e/c/ c'/g/e/c/ | GABc d2gf | .e/(c/B/c/) .g/(c/B/c/) .a/(c/B/c/) .g/(c/B/c/) |
+c'(b/a/) gf edec |\
+(f/a/)c' (f/a/)c' (e/g/)c' (e/g/)c' | (fe)(dc) d2eg | (ag)(ec') (g<e)(Td>c) | A2(cd) c2 :|
+|: gf |\
+(3(ege) (3(cec) (3(GcG) (3(EcG) | A2d>e d2Tg>f |\
+(3(ege) (3(cec) (3(GcG) (3(Ec'g) | (3(ac'a) (3(faf) (3(gc'g) (3(ege) |\
+(3(fac') (3(c'af) (3(egc') (3(c'ge) |
+(3(afd) (3(gec) Td3c | (eg)(ac') (g<e) (Td>c) | A2(cd) c2 :: gf |\
+e/g/g/g/ c/g/g/g/ e/g/g/g/ c/g/g/g/ | B/d/d/d/ G/d/d/d/ B/d/d/d/ G/d/d/d/ |
+e/g/g/g/ c/g/g/g/ e/g/g/g/ c/g/g/g/ | a/g/g/g/ e/g/g/g/ a/g/g/g/ c/g/g/g/ |\
+c'/c'/c'/c'/ b/b/b/b/ a/a/a/a/ g/g/g/g/ |
+fe (a/g/)(f/e/) defg |\
+(a/c'/b/)d'/ c'c (g<e)(Td>c) | A2(c>d) c2 :: (gf) |\
+e2(dc) gG ce | A2(de) d2(gf) |
+eg (f/e/)(d/c/) gc'cg | ac'ca gc'cg |\
+(F/c/)(a/c/) (F/c/)(a/c/) (E/c/)(g/c/) (E/c/)(g/c/) | (ag)(fe) d2(ef) |\
+a3c' (g<e)(Td>c) | A2(cd) c2 :|

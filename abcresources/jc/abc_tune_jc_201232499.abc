@@ -1,0 +1,31 @@
+X: 172
+T: Blue Joak
+T: Longways for &c.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.86
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed to match the dance.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2A BAG | d2=f A3 | efg d2c | ABG FED |\
+G2A BAG | d2=f A3 | efg d2c | BcA G3 ::\
+A2B cBA | e2d ^c3 |
+d2e =fed | faA d3 |\
+efg d2g | c2g B3 | Bcd G2d | F2d D3 |\
+efg d2c | BcA G3 | efg d2c | BcA G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st and 2d Men figure thro' the 1st and 2d
+%% We. cast off and turn S. in their places .| the
+%% We. do the same :| the 1st Man change places
+%% with the 2d Wo. and the 2d Man with the 1st
+%% Wo. then hands half round and cast off and
+%% turn .| then go the figure thro' the 3d Cu.
+%% and turn your partners the tune out :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

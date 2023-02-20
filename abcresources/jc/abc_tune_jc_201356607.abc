@@ -1,0 +1,58 @@
+%%scale 1.0
+%%barsperstaff 4
+X:1
+T:Old Country Church - #49
+C:J M Vaughan
+M:4/4
+L:1/8
+K:D
+%%staves{RH1 RH2}
+V:RH1 clef=treble name="melody"
+|A,B,|"D"F2 F3/2=F1/2 ^F2 DF|"G"E D2 B, "D"A,2 A,A,|D2 DE F2 ED
+w:v1~There's a place, dear to me, where I'm long-ing to be, With my friends at the old coun-try
+w:v2~As a small coun-try boy, how my heart beat with joy, When I knelt in the old coun-try
+w:v3~How I wish, that to-day, all the peo-ple would pray, As we prayed in the old coun-try
+w:v4~Oft my thoughts make me weep, for the man-y who sleep, in their graves near the old coun-try
+V:RH2 clef=treble name="harmony"
+|FF|A2 A3/2^G/2 A2 FA|B B2 G F2 FF|F2 AA A2 A^G
+V:RH1
+|"A"E6 A,D|"D"F2 F3/2=F/2 ^F2 DF|"G"E D2 B, "D"A,2 A,A,
+w:church; There with mo-ther we wept, and our Sun-days were spent, With the
+w:church; And the Sav-iour a-bove by His won-der-ful love, Saved my
+w:church; If they'd on-ly con-fess, Je-sus shure-ly would bless, As He
+w:church; And some-time I may rest, with the friends I love best, In a
+V:RH2
+|A6 FF|A2 A3/2=G/2 A2 FA|B B2 G F2 FF
+V:RH1
+|D2 DE "A"F2 DE|"D"D6||
+w:friends at the old con-try church.
+w:soul in the old coun-try church.
+w:did in the old coun-try church.
+w:grave near the old coun-try church.
+V:RH2
+|F2 AB A2 FG|F6||
+V:RH1
+|A,D|"D"F4-FGFE
+w:ch~Pre-cious years_ of mem-o-
+V:RH2
+|FF|A4-ABAG
+V:RH1
+|D4-D2 DF|"A"E4-EEDE|"D"F4-F2 A,D
+w:ry,_ Oh what joy_ they bring to me._ How I
+V:RH2
+|F4 F2 FA|G4-GGFG|A4-A2 FF
+V:RH1
+|"D7"F4-FDEF|"G"G4-G2 DE|"D"F2 F3/2-F/2 "A"^F2 DE|"D"D6||
+w:long_ once more to be,_ With my friends at the old coun-try church.
+V:RH2
+|A4 AFGA|B4 B2 BB|A2 A3/2^G/2 A2 F=G|F2 F=F ^F2||
+
+
+
+
+
+
+
+
+
+

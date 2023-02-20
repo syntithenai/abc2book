@@ -1,0 +1,29 @@
+X:1
+T:Dornoch Links  "rpband"
+M:C|
+L:1/8
+Q:80
+C:
+S:2/4 March
+K:HP
+|: a3/4f/4 | \
+{gef}e3/2A/2{gcd}c{e}B3/4{d}c/4 | \
+{gef}eA{GAG}Aa3/4f/4 |
+{gef}e3/2A/2{gcd}c{e}B3/4{d}c/4{gfg}fB{GdG}B{g}c3/4d/4 | \
+{g}e3/4f/4{g}e3/4d/4{gcd}c{g}B/4{d}A3/4 | \
+{gcd}ce{ag}a3/2c/2 |
+{Gdc}d{gf}g{BG}B{gef}e3/4d/4 | \
+{gcd}c{e}A{GAG}A :: \
+{gf}g |
+{ag}a2{ef}e{g}f3/4g/4 | \
+{ag}ae3/4d/4{gcd}c{g}B/4{d}A3/4 | \
+{ag}a2e3/4f/4{g}e3/4c/4 |
+{Gdc}d{g}B{GdGe}B{gf}g|1
+{ag}a2{ef}e{g}f3/4g/4 | \
+{ag}ae3/4d/4{gcd}c{g}B/4{d}A3/4 |
+{Gdc}d{gf}g{BG}B{gef}e3/4d/4 | \
+{gcd}c{e}A{GAG}A:|2
+{ag}a2{ef}e{g}f3/4g/4 |
+{ag}a3/4e/4{g}f3/4d/4{gcd}c{g}B/4{d}A3/4 | \
+{Gdc}d{gf}g{BG}B{gef}e3/4d/4 | \
+{gcd}c{e}A{GAG}A|]

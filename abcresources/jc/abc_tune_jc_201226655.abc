@@ -1,0 +1,37 @@
+X: 10391
+T: GERMAN WALTZ
+C:
+%R: waltz
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.39
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The initial pickups should probably be 8th notes, or an initial rest should be added to fix the rhythm of repeats.
+M: 3/4
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8 bars per staff; redo this to fit your needs.
+V: 1 staves=2
+B/c/ |\
+d2(dc).d.f | d2(dc).d.f | e2(ed).e.f | d4fd |\
+c2(cB).c.d | B2(Bd).e.d | c2(cB).c.d | B4 :|
+|: f2 |\
+bfdfbf | afcfaf | bfdfbf | afcfaf |\
+bagfed | cBAGFE | DEFGAc | B4 :|
+|: g2 |\
+f3ed2 | dg3f2 | (f2=e2_e2) | c4BB |\
+B2b2b2 | (ba).g.f(ed) | d2c2c2 | c4 (3(d_e=e) |
+f3ed2 | (dg3)f2 | (f2=e2_e2) | c4B2 |\
+B2g2f2 | e2d2c2 | (BA).B.d(cA) | B4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2
+D/F/ |\
+B2(BA).B.d | B2(BA).B.d | c2(cB).c.d | B2(BF).D.F |\
+E2(ED).C.D | D2(DB,).C.D | E2(ED).E.F | D4 :|
+|: f2 |\
+[d2F2][d2F2][d2F2] | [c2F2][c2F2][c2F2] | [B2D2][B2D2][B2D2] | [A2C2][A2C2][A2C2] |\
+F2D2B,2 | E2C2A,2 | B,2D2F2 | [D4B,4] :||: z2 | d3cd2 |
+(Be3d2) | (d2^c2=c2) | A4z2 | d2d2d2 | dfedcB | B2A2A2 | A4 (3(Bc^c) |
+d3cB2 | B2B2d2 | d2^c2=c2 | A4z2 | D2B2A2 | G2F2E2 | D2F2E2 | D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

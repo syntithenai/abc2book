@@ -1,0 +1,40 @@
+X:1
+T:THE CAMERONIAN RANT (cont.)  " "
+M:C
+L:1/8
+Q:80
+C:PM D.MacLeod,MBE/JHP
+S:
+K:HP
+d/2{e}G3/2{g}((3G{d}G{e}G){dc}d/2{e}G3/2{gBd}B/2{e}G3/2 | \
+{dc}d/2{e}G3/2{g}((3G{d}G{e}G){dc}d/2{e}G3/2{gBd}B/2{e}G3/2 | \
+{gcd}c/2{e}A3/2{g}((3A{d}A{e}A){gcd}c/2{e}A3/2{gBd}B/2{e}A3/2 |
+{gcd}c/2{e}A3/2{g}((3A{d}A{e}A){gcd}c/2{e}A3/2{gBd}B/2{e}A3/2 | \
+{Gdc}d/2{e}G3/2{g}((3G{d}G{e}G){dc}d/2{e}G3/2{gBd}B/2{e}G3/2 | \
+{dc}d/2{e}G3/2{g}((3G{d}G{e}G){g}((3G{d}G{e}G){gBd}B/2{e}G3/2 |
+{gcd}c/2{e}A3/2{g}((3A{d}A{e}A){g}((3A{d}A{e}A){gcd}c/2{e}A3/2 | \
+{g}((3A{d}A{e}A){gcd}c/2{e}A3/2{Gdc}d3/2c/2{gBd}B3/2A/2[ | \
+{g}G3/2B/2{Gdc}d3/2B/2{gf}g3/2B/2{Gdc}d3/2B/2 |
+{g}G3/2B/2{Gdc}d3/2B/2{gf}g3/2B/2{Gdc}d3/2B/2 | \
+{g}A3/2{d}c/2{gef}e3/2c/2{ag}a3/2A/2{gef}e3/2c/2 | \
+{g}A3/2{d}c/2{gef}e3/2c/2{ag}a3/2A/2{gef}e3/2d/2 |
+{g}G3/2B/2{Gdc}d3/2B/2{gf}g3/2B/2{Gdc}d3/2B/2 | \
+{g}G3/2B/2{Gdc}d3/2g/2{afg}f2{Gdc}d3/2g/2 | \
+{a}((3fga){ef}((3e3/2g/2{a}fga){ef}e3/2f/2 |
+{gf}g3/2e/2{ag}a3/2e/2{gf}((3g3/2a/2gfe)[ | \
+{Gdc}d/2{e}B3/2{g}((3B{d}B{e}B){gf}g3/2B/2{Gdc}d/2{e}B3/2 | \
+{Gdc}d/2{e}B3/2{g}((3B{d}B{e}B){gf}g3/2B/2{Gdc}d/2{e}B3/2 |
+{gcd}c/2{e}A3/2{g}((3A{d}A{e}A){ag}a3/2e/2{gcd}c/2{e}A3/2 | \
+{gcd}c/2{e}A3/2{g}((3A{d}A{e}A){ag}a3/2e/2{gcd}c/2{e}A3/2 | \
+{Gdc}d/2{e}B3/2{g}((3B{d}B{e}B){gf}g3/2e/2{Gdc}d/2{e}B3/2 |
+{Gdc}d/2{e}B3/2{g}((3B{d}B{e}B){g}((3B{d}B{e}B){Gdc}d/2{e}B3/2 | \
+{gcd}c/2{e}A3/2{g}((3A{d}A{e}A){g}((3A{d}A{e}A){gcd}c/2{e}A3/2 | \
+{g}((3A{d}A{e}A){gcd}c/2{e}A3/2{Gdc}d3/2c/2{gBd}B3/2A/2|]
+{g}((3G{d}G{e}G){gf}((3g3/2a/2gfe){gf}g3/2B/2 | \
+{g}((3G{d}G{e}G){gf}((3g3/2a/2gfe){gf}g3/2B/2 | \
+{g}((3A{d}A{e}A){ag}((3a3/2A/2agf){gef}e3/2d/2 |
+{g}c/2{GdG}e3/2{ag}((3a3/2A/2agf){gef}e3/2d/2 | \
+{g}((3G{d}G{e}G){gf}((3g3/2a/2gfe){gf}g3/2d/2 | \
+{g}((3efg){a}((3fed){gBd}B2{e}G3/2g/2 |
+{a}((3fga){ef}((3e3/2g/2{a}fga){ef}e3/2f/2 | \
+{gf}g3/2e/2{ag}a3/2e/2{gf}((3g3/2a/2gfe)|]

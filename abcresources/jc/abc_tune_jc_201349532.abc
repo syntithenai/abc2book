@@ -1,0 +1,615 @@
+X:1
+T:The Ball
+C:Wm Mittell MS
+N:Wm.Mittell,1799
+N:England
+N:Kent
+R:Quadrille
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+d|B2G A2F|GAG D2D|E2E c2B|B3A2d|
+B2G A2F|GBG D2D|E2c A2F|G3G2:|
+|:B|A2D c2A|BdB G2B|A2D c2A|B3A2d|
+e2c A2f|g2d B2G|E2c A2F|G3G2:|
+
+
+X:2
+T:The Barren Rocks of Aden
+C:from the Knots of May repertoire
+Q:1/4=180
+I:abc2nwc
+M:4/4
+L:1/8
+K:D
+A2d2|:e2|f3g f2e2|d2f2A3d|c2e2A2de|f2A2d2e2|
+f3g f2e2|d2f2A3d|c2e2A2fe|d6:|
+|:fg|a3f d2f2|e2g2A4|g3e c2e2|defg a2fg|
+a3f d2f2|e2g2A4|g3e c2e2|d6:|
+
+
+X:3
+T:Bielbie's Hornpipe
+C:(Curlew or Green Bay Hornpipe)
+Q:1/4=140
+I:abc2nwc
+M:4/4
+L:1/8
+K:G
+D2|:G3/2A/2 B3/2c/2 d3/2g/2 f3/2a/2|g2B2d2-d3/2B/2|\
+c3/2e/2 A3/2B/2 c2c2|B3/2d/2 G3/2A/2 B3/2c/2 B3/2A/2|
+G3/2A/2 B3/2c/2 d3/2g/2 f3/2a/2|g2B2d2-d3/2B/2|\
+c3/2e/2 A3/2B/2 c3/2B/2 c3/2A/2|\
+[1G2B2G2D2:|[2G2B2G3/2A/2 B3/2c/2
+|:d2b2c2a2|B2g3/2f/2 g3/2d/2 B3/2G/2|F3/2G/2 A3/2B/2 c3/2A/2 F3/2D/2|\
+G3/2F/2 G3/2A/2 B3/2A/2 B3/2c/2|
+d2b2c2a2|B2g3/2f/2 g3/2d/2 B3/2G/2|F3/2G/2 A3/2B/2 c3/2A/2 F3/2A/2|\
+[1A3/2G/2 G3/2F/2 G3/2A/2 B3/2c/2:|\
+[2A3/2G/2 G3/2F/2 G4|]
+
+
+X:4
+T:Black Joke
+C:Wm.Mittell MS,1799
+N:Wm.Mittell,1799
+N:England
+N:Kent
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+D|:D2G GFG|ABA AGA|BcB BAG|ABA AGF|
+G3E2D|DEF G3:||:B2c d2d|efg d2c|
+Bcd ded|efg d3|c2a B2g|ABA AGA|
+BcB BAG|ABA AGF|G3E2D|DEF G3:|
+
+
+X:5
+T:Brighthelmstone Hot Bath
+C:Sussex Archaeological Soc MS
+I:abc2nwc
+M:6/8
+L:1/8
+K:D
+dfa gec|dfa gec|dfd Bge|ced cBA|
+dfa gec|dfa gec|dfd Bge|cBc d3:|
+|:FGA AB=c|B^cd cde|dAd eAe|fag {f}e3|
+FGA AB=c|B^cd cde|dag fed|ABc d3:|
+
+
+X:6
+T:Caddam Wood
+I:abc2nwc
+M:2/4
+L:1/16
+K:G
+dddd ^c2d2|e2d2 B4|DDDD G2B2|e2d2 c4|
+cccc B2c2|f2e2 d4|f2e2 c2A2|e2d2 ^c2d2|
+dddd ^c2d2|e2d2 B4|DDDD G2B2|e2d2 c4|
+cccc B2c2|f2e2 c4|fedc B2A2|G8||
+dddd .B2.B2|dddd .B2.B2|d4e3.d|.d2.^c2 =c4|
+cccc A2A2|cccc A2A2|f3e f2e2|e2d2 e2d2|
+d2d2 dedc|.B2.B2 B4|d4e3.d|d2^c2 =c4|
+c2c2 cdcB|A2A2 A4|dddd e2f2|g8|]
+
+
+X:7
+T:Carolan's Quarrel
+C:Carolan
+Q:1/4=80
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+B/2A/2|G3/2A/2B g2g/2a/2|b/2a/2g/2f/2e/2d/2 g2g/2f/2|\
+e3/2f/2e/2d/2 efg/2f/2|e/2d/2c/2B/2A/2G/2 A2B/2A/2|
+G3/2A/2B g2g/2a/2|b/2a/2g/2f/2e/2d/2 g2g/2f/2|\
+ef/2e/2d/2B/2 de/2d/2B/2A/2|B3g2g/2f/2|
+ef/2e/2d/2B/2 de/2d/2B/2A/2|Bee e2||\
+g/2a/2|bgb b/2a/2g/2f/2e/2d/2|dfg a2a/4b/4c'/2|
+b/2a/2g/2f/2e/2d/2 efg/2f/2|e/2d/2c/2B/2A/2G/2 A3/2c/2B/2A/2|\
+G3/2A/2B g2g/2a/2|b/2a/2g/2f/2e/2d/2 g2f|
+ef/2e/2d/2B/2 de/2d/2B/2A/2|B3g2f|ef/2e/2d/2B/2 de/2d/2B/2A/2|Bee e2|]
+
+
+X:8
+T:Carr Lodge Polka
+C:from the playing of Bob Keeble
+Q:1/4=80
+I:abc2nwc
+M:2/4
+L:1/16
+K:G
+|:dc|B2d2 dedB|c2e2 e2c2|B2d2 abag|f2d2 dedc|
+B2d2 dedB|c2e2 e2c2|gage dedc|B2G2G2:|
+|:z2|.B2 G2 .B2 G2|BGBc d3 (c/2B/2|A)FDF AFDF|A2.B2 c4|
+.B2G2 .B2G2|BGBc d3 (e/2f/2|g)age dedc|.B2G2G2:|
+
+
+X:9
+T:Corn Rigs
+Q:1/4=140
+I:abc2nwc
+M:4/4
+L:1/8
+K:D
+A2|d3e f2ed|cB cd ec A2|dc de fg fe|d2a2a2A2|
+d3e f2ed|cB cd ec A2|B2dB ed cB|A2d2d2:|
+|:A2|d2a2fg a2|cB cd ec A2|d2a2fg fe|d2a2a2A2|
+d2a2ba gf|gf ed dc BA|B2dB ed cB|A2d2d2:|
+
+
+X:10
+T:The Darling Waltz
+C:Johnny Cunningham
+I:abc2nwc
+M:3/4
+L:1/8
+K:G
+B,2D3D|E2G2G2|A3B AG|E2D2DC|B,2D2D2|E2G2G2|A2B2G2|A4DC|
+B,2D2D2|E2G2G2|A3B AG|E2D2B2|c3B A2|B2A2G2|E2D2C2|D6:|
+|:B2d3c|B2A2G2|E2c3E|E2D4|B2d3c|B2A2G2|A2B2d2|e4f2|
+gf ef ge|f2d2B2|ed cd ec|d2B2G2|cB AB cA|B2G2E2|E2D2C2|D6:|
+
+
+X:11
+T:Ditchling Carol
+Q:1/4=180
+I:abc2nwc
+M:3/4
+L:1/8
+K:C
+"^Verse"c2|c4B2|c4B2|A4^G2|A4||
+E2|A4^G2|A4A2|B4A2|^G4||
+A2|A4^G2|A4B2|c4d2|e4||
+B2|c4c2|B4B2|A6|A4|]
+[|[M:2/2]"^Chorus"G2|c B3c3G|e d3e3c|c c3c3c|B3c d3||
+G|G3G c3c|c3c e3c|d d3B B3|c4c4||
+W:But oh remember gentles gay,
+W:For you who bask in fortunes ray
+W:The year is all a holiday,
+W:The poor have only Christmas
+W:
+W:(Chorus) Be merry all, be merry all, with holly deck the festive hall,
+W:Prepare the song, the feast, the hall, to welcome merry Christmas.
+W:
+W:When you with velvets mantled o’er
+W:Defy December’s tempest roar
+W:O spare one garment from your store
+W:To clothe the poor at Christmas
+W:
+W:(Chorus)
+W:
+W:From blazing loads of fuel awhile
+w:Your homes are within summer smile
+W:O spare one faggot from your pile
+W:To warm the poor at Christmas
+W:
+W:(Chorus)
+W:
+W:When you the costly banquet deal
+W:To guests who never famine feel
+W:O spare one morsel from your meal
+W:To feed the poor at Christmas
+W:
+W:(Chorus)
+W:
+W:When gen’rous wine your care controls
+W:And gives new joy to happier souls
+W:O spare one goblet from your bowls
+W:To cheer the poor at Christmas
+W:
+W:(Chorus)
+W:
+W:So shall each note of mirth appear
+W:More sweet to heaven than praise or prayer
+W:And angels in their carols there
+W:Shall bless the poor at Christmas
+W:
+W:(Chorus)
+
+X:12
+T:Dorset Four Hand Reel
+C:from the playing of Mary Motley
+Q:1/4=180
+I:abc2nwc
+M:4/4
+L:1/8
+K:G
+GA Bc d2B2|c2e2c2e2|GA Bc d2B2|c2A2A4|
+GA Bc d2B2|c2e2c2e2|GA Bc d2B2|A2G2G4:|
+|:g2g2gf e2|d2d2dc B2|A3B c2d2|e2d2e2f2|
+g2g2gf e2|d2d2dc B2|A3B c2F2|A2G2G4:|
+
+
+X:13
+T:Gipsy's Hornpipe
+I:abc2nwc
+M:4/4
+L:1/8
+K:G
+"^Dotted"d2|gf ed ed Bd|ed  (3efg B2(BA)|GF GA BA Bd|e2A2A3d|
+gf ed ed Bd|ed  (3efg B2(BA)|GF GA Bc BA|G2E2E2:|
+|:(gf)|e2B2B2(gf)|e2B2B2(gf)|ed ef gf ga|b2e2e2(ga)|
+bg af g2gf|ed  (3efg B2(BA)|GF GA Bc BA|G2E2E2:|
+
+
+X:14
+T:Horse's Brawl (Branle des Chevaux)
+C:From Arbeau, Orchesographie, 1689
+Q:1/4=180
+I:abc2nwc
+M:2/2
+L:1/8
+K:G
+G3A B2B2|c2B2A2c2|B2A2G2F2|E4D4|
+G3A B2B2|c2B2A2c2|B2G2G2F2|G4G4||
+d2cB A2AB|c2BA G2B2|A2G2F2G2|A4A4|
+d2cB A2AB|c2BA G2B2|A2G2G2F2|G4G4||
+K:Gdorian
+B2AG B2AG|F2G2A4|D2E2F2G2|A2B2A2G2|
+B2AG B2AG|F2G2A4|D2E2F2G2|G2^F2G4|]
+
+
+X:15
+T:John of Paris
+C:from the Knots of May repertoire
+N:Shoosmith MS
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+d2c|B2B BAB|d2B BAB|c2e g2e|d2B BAB|
+c2A AGA|B2G G2B|A2B A2B|A3d2c|
+B2B BAB|d2B BAB|c2e g2e|d2B BAB|
+c2A AGA|B2G G2F|Eed cBA|B2G G2B||
+d2c Bcd|e2f g2a|b2a gfe|d2c Bcd|
+e2e ecA|d2d dBG|c2A B2G|A2F D2c|
+B2B BAB|d2B BAB|c2e g2e|d2B BAB|
+c2A AGA|B2G G2F|Eed cBA|B2G Gdc|]
+
+
+X:16
+T:Kurakin
+C:Hodsdull's 24 Favourite Country Dances 1826
+N:Hodsdull's 24 Favourite Country Dances 1826
+N:via Maxwell's Demon [Nick & Mary Barber, Jim & Bernice Harding]
+N:via Tony Dunn
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+|:G2G G3|GAB GAB|A2A A3|ABc ABc|
+B2B Bcd|c2c cde|ded cBA|[1G2d c2A:|[2G2d e2f
+|:g3gab|a2f d2^d|e3efg|f2d B3|
+c2c cde|d2B G2B|ded cBA|[1G2d e2f:|[2G2d c2A|]
+
+
+X:17
+T:The Leeds Polka
+C:from the playing of Bob Keeble
+Q:1/8=200
+I:abc2nwc
+M:2/4
+L:1/16
+K:D
+d2g2 gfge|d2g2 B4|A2f2 f4|B2g2 g4|
+d2g2 gfge|d2g2 B4|A2f2 a2f2|g4g4:|
+|:Adf2 f2a2|a2g2 gfe2|Ace2 e2g2|g2f2 f2ed|
+Adf2 f2a2|a2g2 gfe2|Ace2 Ace2|d4d4:|
+|:DGB2 B4|DGB2 B4|=cBA2 cBA2|G2B2 e2d2|
+DGB2 B4|DGB2 B4|=cBA2 cBA2|G4G4:|
+
+
+X:18
+T: Little Burnt Potato
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+|:[Q:1/4=140]B2c|d^cd edc|dBG DGA|B2B c2B|A3EFG|
+ABA AFE|DFA d3|[1d^cd ed=c|B3:|[2d^cd e2F|G3
+|:G2A|B2D B2D|B3-B2A|GAB dcB|c3-cAB|
+ced cBA|GFE D3|[1d^cd ed=c|B3:|[2d^cd e2F|G3|]
+
+
+X:19
+T:Metal Man
+I:abc2nwc
+M:3/4
+L:1/8
+K:D
+|:[Q:1/4=140]FG A2F2|D2F2A2|cd e2c2|d2B2G2|FG A2F2|D2F2A2|E2ED EF|G2F2E2|
+FG A2F2|D2F2A2|cd e2f2|g2f2e2|d2A2F2|GA B2G2|FE D2C2|D6:|
+|:f2d2A2|e2c2A2|B2BA Bc|d2A2F2|GA B2G2|FG A2F2|E2ED EF|G2F2E2|
+f2d2A2|e2c2A2|B2BA Bc|d2A2F2|GA B2G2|FE D2C2|D6-|D6:|
+
+
+X:20
+T:The Moon Shines Bright
+C:from the playing of Vic & Tina Smith
+Q:1/4=180
+I:abc2nwc
+M:4/4
+L:1/8
+K:G
+B2c2|d3e d2B2|A2G2G4|E2G2G2F2|E2D2D4|
+dcBd c2A2|BAGB A2D2|EF G2B2A2|[1G4:|[2G6G2
+|:E2G2G3E|D2B2B4|E2G2G3A|B2A2A4|
+dcBd c2A2|BAGB A2D2|EF G2B2A2|[1G6G2:|[2G4|]
+
+
+X:21
+T:Nancy's Fancy
+I:abc2nwc
+M:2/4
+L:1/16
+K:G
+|:D2|G2B2 B2AB|c2A2 A2d2|B2G2 G2B2|AGFE D2D2|
+G2B2 B2AB|c2A2 A2d2|B2G2 A2F2|G4-G2:|
+g2|f2e2 d2c2|B2A2 G2B2|d2g2 d2B2|(B4A2)g2|
+f2e2 d2c2|B2A2 B2c2|d2g2 f2d2|g4-g2||
+D2|B2B2 BAB2|c2c2 cBc2|B2B2 BAB2|AGFE D2D2|
+B2B2 BAB2|c2c2 cBc2|B2G2 A2F2|G4-G2|]
+
+
+X:22
+T:Northern Schottische
+C:from the playing of John Barry
+I:abc2nwc
+L:1/8
+K:G
+G3/2A/2|B2B2B/2 d7/2|c3/2B/2 c3/2d/2 e4|\
+d3/2g/2 f3/2e/2 d3/2c/2 B3/2A/2|G3/2A/2  (3BAG D2G3/2A/2|
+B2B2B/2 d7/2|c3/2B/2 c3/2d/2 e4|d3/2g/2 f3/2e/2 d3/2c/2 B3/2A/2|G2B2G2:|
+|:d2|c/2A3/2 F2F2e2|d/2B3/2 G2G2g2|f2A3/2B/2 c2e2|d3/2B/2 G3/2A/2 B2d2|
+c/2A3/2 F2F2e2|d/2B3/2 G2G2g2|f2A3/2B/2 c3/2d/2 e3/2f/2|g2g2g2:|
+|:G3/2A/2|B2B2B2A3/2G/2|F3/2E/2 F3/2G/2 A2A3/2B/2|\
+c2c2c2B3/2A/2|G3/2F/2 G3/2A/2 B2G3/2A/2|
+B2B2B2A3/2G/2|F3/2E/2 F3/2G/2 A2A3/2B/2|c2c2c2B3/2A/2|G2B2G2:|
+
+
+X:23
+T:Oats, Peas and Beans
+N:by ear from Mary Motley, Andy Warburton
+Q:1/4=160
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+B2B B2B|ABA G2G|F2G A2F|G2A B3|
+B2B B2B|ABA GAB|c2B A2G|FEF G3:|
+K:D
+|:A2A F2D|GAB A3|A2A F2D|GAB A2A|
+d2d c2c|B2B A2A|G2G F2F|EDE D3:|
+K:G
+|:d2d d2d|cdc B2B|A2B c2A|B2c d3|
+d2d d2d|cdc Bcd|e2d c2B|AGF G3:|
+
+
+X:24
+T:Orotaba Waltz
+C:from Charlie Batchelor (1898-1984), Australia
+N:Charlie Batchelor (1898-1984), collected by Chris Sullivan and Mark Rummery
+N:Charlie learnt this tune from the playing of Jack Smith and Queenie McLennan
+N:Bingara, New England district of New South Wales, Australia
+Q:1/4=140
+I:abc2nwc
+M:3/4
+L:1/8
+K:G
+dc|B2D2D2|G4B2|A2E2E2|A4G2|F2A2c2|f4ef|e2d2d2|d4dc|
+B2D2D2|G4B2|A2E2E2|A4de|f2e2d2|c2F3G|G3A G2|G4BA|
+G2B2c2|d2g3g|f2A2B2|c4fg|f2A2B2|c4ef|e2d2d2|d4BA|
+G2B2c2|d2g3g|f2A2B2|c4de|f2e2d2|c2F3G|G3A G2|G4|]
+
+
+X:25
+T:Percy Brown's Polka
+Q:1/4=180
+I:abc2nwc
+M:2/2
+L:1/8
+K:G
+D2B2BA B2|D2B2BA B2|D2B2A2G2|F2E2E2D2|E2c2cB c2|
+[1E2c2cB A2|D3E F2G2|A2F2E2D2:|[2B2A4A2|G2F2E2F2|G4G2|
+|:FE|D2G2B3d|c2A2B3G|B2A2A3B|A2G2G2:|
+A2|B2D2DE D2|E2c2c3B|c2E2EF E2|D2d2d3c|
+B2D2DE D2|E2c2cB c2|B2A2E2F2|G4G4|]
+
+
+X:26
+T:The Pilgrim
+C:Aylmore MS
+I:abc2nwc
+M:6/8
+L:1/8
+K:D
+A|d2d e2e|fd zz2A|Bcd A2G|FD zz2c|
+dcd ede|f3e2c|dfe dcB|A3-A2:|
+|:z|A2A AGF|G2B e2G|G2G GFE|F2A d2F|
+GAB AFD|B2c d3|egf gec|d3-d2:|
+
+
+X:27
+T:Planxty Fanny Power
+C:O'Carolan 1670-1738
+Q:1/4=80
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+D|G2D G3/2A/2B|c2B A2G|F2E D3/2E/2D|F2G A3/2B/2c|
+B3/2A/2G Bcd|e2A A2G|F2E D3/2E/2F|G3G2:|
+|:d|dB/2c/2d dB/2c/2d|G3/2A/2G GBd|ec/2d/2e ec/2d/2e|A2A A2c|
+B3/2c/2d e3/2f/2g|f3/2g/2a d2c|B3/2A/2G D3/2E/2F|G3G2:|
+
+
+X:28
+T:Pleal's Allemand
+C:Aylemore MS
+N:by ear, Andy warburton
+Q:1/4=90
+I:abc2nwc
+M:2/4
+L:1/16
+K:G
+A2|B2cB A2BA|G4D2G2|A2A2 ABc2|d4B4|
+B2(cB) A2(BA)|G4D2G2|A2A2 ABA2|G6:|
+|:Bc|d2d2 f3e|d2d2 g4|c2B2 c2d2|B4B3c|
+d2d2 f3e|d2d2 g4|c2B2 c2A2|G6:|
+
+
+X:29
+T:Ragtime Annie
+C:from the playing of Michi Mathias
+Q:1/4=140
+I:abc2nwc
+M:4/4
+L:1/8
+K:D
+FE|[FA]F[FB]F [FA]F[FB]F|[FA]F[FB]F A2FE|DFBF AFBF|A [c2e2]B [c2e2]cB|
+[Ae][Be][ce][Ae] BcAB|cABc ABcB|ABcd egfe|d3c d2:|
+fg|a2ab af d2|A3B A2fg|a2ab ag f2|[B6g6]ef|
+g2ef gfef|gfed c2ef|gfed cdcB|[F6A6]fg|
+a2ab afdB|dBAF D3A|[F3d3][Fd] [=F2^c2][E2=c2]|[D6B6]A2|
+g b2g b2ag|fgab a2fd|ABcd egfe|d6z2|]
+
+
+X:30
+T:The Rights of Man
+C:from the playing of Tony Dunn
+N:from the playing of Tony Dunn
+I:abc2nwc
+M:4/4
+L:1/8
+K:G
+GA|: (3Bcd AB GAGF|EFGA B2ef|gfed edBd|cBAG A2GA|
+(3Bcd AB GAGF|EFGA B2ef|gfed Bgfg|[1e2E2E2GA:|[2e2E2E2ga
+|:babg efga|babg egfe|d2d^c defg|afbf afdf|
+edef gfga| (3bag af gfef|gfed Bgfg|[1e2E2E2ga:|[2e2E2E2|]
+
+
+X:31
+T:Rosalie The Prairie Flower
+C: (or Northumbrian Schottische)
+Q:1/4=140
+I:abc2nwc
+M:4/4
+L:1/8
+K:D
+f3/2e/2 d3/2c/2 d2B2|A3/2B/2 A/2F3/2 A4|f3/2e/2 d3/2c/2 d2f2|e2B2e4|
+f3/2e/2 d3/2c/2 d2B2|A3/2B/2 A/2F3/2 A4|B3/2c/2 d3/2e/2 f2e2|d4d4:|
+|:e2d3/2e/2 f2a2|e2d3/2e/2 f4|d2c3/2d/2 e2f2|d2c3/2d/2 e2A2|
+f3/2e/2 d3/2c/2 d2B2|A3/2B/2 A/2F3/2 A4|B3/2c/2 d3/2e/2 f2e2|d4d4:|
+
+
+X:32
+T:Shepherds Arise
+C:from the Copper Family
+I:abc2nwc
+M:4/4
+L:1/8
+K:G
+G4A2A2|B6c2|d2B2A2(GB)|A6|
+(Bc)|d2(B2B)AGB|A4G2F2|G8|
+A2F2G2A2|B3A GA Bc|d2B2BA G2|A6|
+D2|G2G2D2DG|B3A G2B2|A6|
+A2|B2c2d2B2|AB c2BA GB|A3B/2A/2 G2F2|G8|]
+[|"^chorus"B4A2c2|B6c2|B2A2G2Bc|d2c2B2AB|
+c2B2AG F2|G4B4|A6AB|c2A2BA G2|
+d3c B2B2|A2A2G2c2|B4A4|G6z2|]
+W:Shepherds arise be not afraid, with hasty steps prepare
+W:To David's city sing on earth
+W:With our blest infant, our blest infant there,
+W:With our blest infant there, with our blest infant there
+W:Sing, sing all earth, sing sing all earth eternal praises sing
+W:To our redeemer, to our redeemer and our heavenly King
+W:
+W:Laid in a manger viewed as a child, humility divine.
+W:Sweet innocence sounds meek and mild,
+W:Grace in his features, grace in his features shine,
+W:Grace in his features shine, grace in his features shine.
+W:Sing, sing all earth, etc.
+W:
+W:For us the Saviour came on Earth, for us his life he gave,
+W:To save us from eternal death
+W:To raise us from, to raise us from the grave,
+W:To raise us from the grave, to raise us from the grave.
+W:Sing, sing all earth, etc.
+
+X:33
+T:Shepherds Hey
+Q:1/4=140
+I:abc2nwc
+M:4/4
+L:1/8
+K:G
+G|BcdB c2c2|BcdB A4|BcdB c2Bc|d2D2G3:|
+|:A|B2G2c4|B2G2A4|B2d2c2Bc|d2D2G3:|
+
+
+X:34
+T:Strike The Bell
+N:by ear, APBW
+Q:1/4=180
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+B3B2A|G3B2d|g3g2f|e6|d3d2e|d3B2G|A3A2B|A6||
+B3B2A|G3B2d|g3g2f|e3f2g|a2g f2e|d2c B2A|G3g3|g6|]
+[|a3a2g|f2g a3|g3b3|g6|e3e2f|g2f g2e|d2e d2B|A6||
+B3B2A|G3B2d|g3g2f|e3f2g|a2g f2e|d2c B2A|G3g3|g6|]
+
+
+X:35
+T:What a Beau My Granny Was
+C:Aylemore MS
+N:from the Knots of May repertoire
+Q:1/4=180
+I:abc2nwc
+M:4/4
+L:1/8
+K:D
+f3d e3c|d2B2A2G2|F2A2d2f2|e2A2A2g2|
+f3d e3c|d2B2A2G2|F2A2B2c2|[1d2D2D2g2:|[2d2D2D2D2
+|:A3F A2F2|B3G B2G2|F2A2d2f2|e2A2A2A2|
+A3F A2F2|B3G B2G2|F2A2B2c2|d2D2D2D2:|
+
+
+X:36
+T:When Daylight Shines (Carnival of Venice)
+Q:1/4=140
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+d|gfe dcB|d2c A2B|cBc e2d|B3-B2d|
+gfe dcB|d2c A2B|cBc e2F|G3-G2:|
+|:D|G2A B2c|d3B2d|e2d c2d|B3-B2D|
+G2A B2c|d3g3|fed cBA|G3-G2:|
+|:d|dcB BAG|F2A e2e|ded c2d|B3-B2d|
+dcB BAG|F2A e2e|d2B dcA|G3-G2:|
+
+
+X:37
+T:Whinham's Reel
+C:Robert Whinham
+N:Robert Whinham who died in the workhouse in about 1890
+N:his father, also Robert, invented the gooseberry or at least a version
+N:of it called Winham's Industry, The Morpeth Chronicle or some such reported
+N:"After many fruitless efforts, Mr Winham achieved his gooseberry."
+Q:1/4=100
+I:abc2nwc
+M:2/4
+L:1/16
+K:G
+D2|GABA G2D2|E2G2 D4|E2G2D2G2|B2A2A2D2|
+GABA G2D2|E2G2 D4|E2G2D2dc|B2G2 G2:|
+|: (3def|g2G2B2g2|f2G2c2e2|d2D2G2B2|cBAB cdef|
+g2G2B2g2|f2G2c2e2|d2D2F2dc|B2G2G2:|
+
+
+

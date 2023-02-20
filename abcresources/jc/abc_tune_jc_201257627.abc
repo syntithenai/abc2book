@@ -1,0 +1,22 @@
+X: 1
+T: Odessa Bulgar #3
+R: Bulgar, Frailach
+N: from handwritten MS, slightly simplified by John Chambers
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+"A"[|] E FE \
+| "Am"A2 E2 c2 E2 | A4 zA Bc \
+| "Dm"dc BA ^GA GF | "E"E8 \
+| E^G GG GF {G}FE | "Am"EA AA A4 |
+| "Dm"Bd cB "E"cB A^G | "Am"A4 z \
+"B":: "G7"zG2 | "C"ce ee ed {e}dc \
+| ce ee ed {e}dc | e2 f2 e2 d=c | "G"d6 zB |
+| Bd dd dc {d}cB | Bd dd dc {d}cB | d2 e2 d2 cB \
+| "C"c4 z "C":: c B^G \
+| "Am"A4 "Dm"zd "E7"cB | "Am"c4 zc BA |
+| "Am"A4 "A7"zf ed | "Dm"d6 "G7"G2 \
+| "C"c3 e gf ed | "E7"cd Bc "Am"AB cd \
+| "Am"~ec "E7"~dB "Am"~cA "E7"~B^G | "Am"A4 z :|
+%|["Coda" "D"dB cA zd/^c/ d/e/=e/^f/ | "Gm"Hgz "D7"Hdz "Gm"HG4 |]

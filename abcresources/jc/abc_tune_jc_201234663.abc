@@ -1,0 +1,27 @@
+X: 20691
+T: the CALEDONIAN HUNT'S DELIGHT
+Q: "Slow."
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.69 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+G2G A>GA | BdB A>GA | B>AG G<ED | DEG A2D |\
+G2G AGA | BdB AGA | B>AG G<ED | DEG G2 :|
+|: (B/c/) |\
+d2e dBG | d2e dBG | dBG dBG | e>dc/B/ HBAD |\
+G2G A>GA | BdB A>GA | B>AG G<ED | DEG G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The joint compilation of James Miller, depute tiend clerk,
+%% Edinburgh, and Stephen Clarke, organist, Edinburgh.
+%%endtext
+%%begintext align
+%% Burns' song, "Ye banks and braes o' bonnie Doon," 
+%% is sung to the above air.
+%%endtext
+%%sep 1 1 300

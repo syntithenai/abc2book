@@ -1,0 +1,29 @@
+X: 1
+T: the Round
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.282
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "[each] Strain twice" instructions.
+M: 6/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+A/B/cc c>dc | cGc c2A | B/c/dd d>ed | dAd d2B |\
+A/B/cc c>dc | cGc c2A | B>cB AGg | e3 c2 :|
+|: c |\
+e/f/gg g>ag | gcg g2e | f/g/aa a>_ba | ada a2f |\
+e/f/gg g>ag | gcg g2e | a>gf edg | e3 c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%    The 1st. man and woman turn both hands down between the 2d. couple, the 2. man and woman
+%% turn down below the first couple, the 1st. and 2. man slide up, the 1st. and 2d. woman down and
+%% come in their own places, then Arms round with their own Partners. The first Strain twice.
+%%    The 1st. and 2d. man fall back and meet up, the 1st. and 2d. woman do the same, at the same time,
+%% and all 4. turn Single, the 1st. couple slide down the middle, and 2d. couple up at the same time, then
+%% right and left a whole round, and Arms round till done. The second Strain twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

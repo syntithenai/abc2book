@@ -1,0 +1,17 @@
+X: 20041
+T: OFT IN THE STILLY NIGHT
+Q: "Slow"
+%R: air, strathspey
+B: "Edinburgh Repository of Music" v.2 p.114 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+[|\
+e2 e>d | c>A Ac | G>G ce | d(e/f/) e2 |\
+e2 e>d | c>A Ac | G<G e>c | ({d}d2c) z/G/ |\
+G>c c>c | {d}d>c c z/c/ | e>c cc | ({e}d2 c)z |
+G>B c>c | {e}d>c cz/c/ | e>c cc | d(e/f/) {f}He2 |\
+e2 e>d | c>A Ac | G>G cd | d(e/f/) {f}e2 |\
+e2 e>d | c>A A(B/c/) | G<G e>c | ({e}d2 c)z |]

@@ -1,0 +1,19 @@
+X: 17
+T: BARBARA SAUNDERS OF DOLLAR
+C: Andrew Rankine
+R: jig
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.22
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: Moved final D chord to start of measure rather than the middle that the book has.
+M: 6/8
+L: 1/8
+K: D
+A, |:\
+"D"DCD "A"EDE | "Bm"FEF "A"GFG | "G"BAG "A7"cBc | "D"d3 "D7"d2c |\
+"G"BGg dBG | "D"AFd AFD | "A7"ECA A,EC |[1 "D"D3 D2"A7"A, :|[2 "D"D3 DFA ||
+|:\
+"G"BGB dcB | "D"Aff dAF | "Em"Eee "A7"cAG | "D"Fdd "D7"DFF |\
+"G"BGB dcB | "D"Aff dAF | "A7"ECA A,EC |[1 "D"D3 DFA :|[2 "D"D3 "B7"B3 ||
+|:\
+"Em"GEG "A7"BAG | "D"FDF "B7"AGF | "A"EAc ecA | "D"Afd "B7"BAF |\
+"Em"GEG "A7"BAG | "D"FDF "B7"AGF | "A7"ECA A,EC | "D"D3- D3 :|

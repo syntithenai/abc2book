@@ -1,0 +1,62 @@
+
+X: 1
+T: In Gradina Lui Ion
+O: Romania
+P: AA (BCA)x3 BCC
+N: From transcription by Ray Rosenstock & Martina Aurian-Blajeni
+N: Vowel marks need to be added here.
+%%vocalfont Helvetica-Narrow-bold 18
+M: 3/4
+L: 1/8
+K: C
+"A"\
+[|"C"C2 E4 | "F"FE D3 C | "Fm"FE D3 C | "G"G2 G2 z2 \
+| "C"C2 E4 | "F"FE D3 C | "G7"FE D3 C | "C"C2 C2 z2 |]
+"B"\
+[|"C"[EC][FDC] [G3E3C3] [AFC] | [_BGC][AFC] [G3E3C3] [FDC] \
+| "C"[EC][FDC] [G3E3C3] [AFC] | [_BGC][AFC] [G4E4C4] |
+w:1.~In-*gra-*di-*na* lu* I-*o-*nu,
+w:2.~Nu-*ma* u-*na* nu* mai* do-ar-me,
+w:3.~Nu* e* Ion* nu* e* ni-* mi-*cu,
+w:4.~Da* lu-* bit* a* ca-*pa-*ta-*tu,
+| [C2A,2] [D4A,4] | [D2A,2] "G"[G4D4G,4] \
+| [GG,][FB,] "C"[E3C3] D/C/ | "G"[D2G,2] "C"C2 z2 |]
+w:1.~In-gra-di-na lu* I-**o-nu,
+w:2.~Nu-ma u-na nu* mai** doar-me,
+w:3.~Nu e Ion nu e* ni-** mi-cu,
+w:4.~Da lu- bit a ca-*pa-**ta-tu,
+"C"\
+[|"C"C2 E4 | "F"FE D3 C | "Fm"FE D3 C | "G"G2 G2 z2 |
+w:1.~Ta-te pa-*sa-*ri-*le* dor-mu,
+w:2.~Ta-ta no-ap-tea* stri-*ga* "Ioa-ne,"
+w:3.~Ion s\-a dus* du-*pa* iu-*bi-tu,
+w:4.~Si s\-an-tors* tir-*siu* din* sa-tu,
+w:   Da iu-bit* a* ca-*pa-*ta-tu,
+| "C"C2 E4 | "F"FE D3 C | "G7"FE D3 C | "C"C2 C2 z2 |]
+w:1.~Ta-ta pa-*sa-*ri-*le* dor-mu,
+w:2.~Ta-ta no-ap-tea* stri-*ga* "Ioa-ne,"
+w:3.~Ion s\-a dus* du-*pa* iu-*bi-tu,
+w:4.~Si s\-an-tors* tir-*siu* din* sa-tu,
+
+%%sep 1 1 500
+
+
+X: 2
+T: In Gradina Lui Ion
+O: Romania
+P: AA (BCA)x3 BCC
+N: From transcription by Ray Rosenstock & Martina Aurian-Blajeni
+M: 3/4
+L: 1/8
+K: D
+"A"\
+[|"D"D2 F4 | "G"GF E3 D | "Gm"GF E3 D | "A"A2 A2 z2 \
+| "D"D2 F4 | "G"GF E3 D | "A7"GF E3 D | "D"D2 D2 z2 |]
+"B"\
+[|"D"[FD][GED] [A3F3D3] [BGD] | [=cAD][BGD] [A3F3D3] [GED] \
+| "D"[FD][GED] [A3F3D3] [BGD] | [=cAD][BGD] [A4F4D4] \
+| [D2B,2] [E4B,4] | [E2B,2] "A"[A4E4A,4] \
+| [AA,][GC] "D"[F3D3] E/D/ | "A"[E2A,2] "D"D2 z2 |]
+"C"\
+[|"D"D2 F4 | "G"GF E3 D | "Gm"GF E3 D | "A"A2 A2 z2 \
+| "D"D2 F4 | "G"GF E3 D | "A7"GF E3 D | "D"D2 D2 z2 |]

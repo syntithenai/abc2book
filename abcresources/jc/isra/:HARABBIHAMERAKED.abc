@@ -1,0 +1,27 @@
+X: 97
+T:Harabbi Hameraked
+C:Toby David
+I: Dance taught by Shlomo and Dina Bachar
+O:Israeli
+M:4/4
+L:1/8
+Q:1/4=240
+K:Em
+|  "Am"c3 B "Am".A2.B2 | "Am".c2.e2 "Am"c3 z   |\
+   "Am"c3 B "Am".A2.B2 | "Am".c2.e2 "Am".c3 z  |\
+|: "Am"z2 e2 "Dm"d2 c2 | "Am"z2 e2 "Dm"d2 c2   |\
+   "Am"z2 e2 "Dm"=f3 e | "Dm"d2 e2 "Dm"d2 c2   |
+|  "Am"z2 e2 "Dm"d2 c2 | "Am"z2 e2 "Dm"d2 c2   |\
+   "Am"z2 e2 "Am"a3 g  | "Dm"=f2 g2 "Am"e2 z2  |\
+   "C"g4 "Em"b4        | "Am"a2 g2 "D"f2 g2    |\
+   "Am"e8-             |"Am"e4 "Am"z2 g2       |
+   "C"g4 "Em"b4        | "Am"a2 g2 "D"^f2 g2   |\
+   "Am"e8-             |"Am"e4 "Am"z4          :|\
+|: "Am"a4 "Am"a4       | "Am"e4 "Am"z2 e2      |\
+   "C"g2 =f2 "Am"e2 f2 | "Dm"d2 e2 "Dm"=f2 g2  |\
+   "Am"a4 "Am"a4       | "Am"e4 "Am"z2 e2      |\
+   "C"g2 =f2 "Am"e2 f2 |
+   "Dm"d4 "Am"z4       | "C"g4 "C"g4           |\
+   "Am"c4 "Am"z2 g2    | "Dm"=f2 e2 "Dm"d2 c2  |\
+   "Dm"d6 =f2          |"Am"e4 "Dm"z2 =f2      |\
+   "Am"e4 "Dm"z2 =f2   |"Am"e2=f2"Am"e2f2      |"Am"e4 "Am"z4   :|

@@ -1,0 +1,26 @@
+X:1
+T: The Prince of Westborough
+N:
+C:
+S:Tune is "The Middle of the Night" by Peter Barnes
+A:
+O:
+R:
+M:3/4
+K:Em
+I:speed 150
+%W: A
+% voice 1 (1 lines, 18 notes)
+K:Em
+M:3/4
+L:1/16
+E2 F2 |G6 F2 G4 |A6 G2 A4 |B12 |g8 e4 |d8 B4 |A12 |B8 G4 |G4 F8 |
+%W:
+% voice 1 (1 lines, 20 notes)
+E4 G4 B4 |F4 A2 B2 c4 |B8 g4 |f12 |A8 e4 |d6 c2 A4 |A4 G8|G8 e2 f2 |
+%W:
+% voice 1 (1 lines, 17 notes)
+g8 e4 |e6 d2 e4 |B8 e4 |d12 |A6 c2 e4 |d8 B4 |A4 B4 c4 |F12 |
+%W:
+% voice 1 (1 lines, 18 notes)
+F4 E4 G4 |F6 A2 c4 |B4 g8 |a12 |g4 f6 d2 |B6 A2 F4 |F4 E8|E8 ||

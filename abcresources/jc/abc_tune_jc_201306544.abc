@@ -1,0 +1,20 @@
+X:87
+T: Man From Skye, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K:Am
+|:B<d |\
+"Am" e2 (e>d) d>e e>d|B>e e>d "D7"B2 A2|"G"G>G G<B G2 B2|G>B B<d B2 d2|
+"Am"e2 (e>d) d>e e>d | B>e e>d "Em"B2 (AG) |"Am"A>A A>B "E7"e2 d<B|"Am" A4 A<A :|
+|: (B<d)|\
+e2 g2 a2 e>^f | g>^f e<d "D7"B2 A2 |"G" G>G G<B G2 B2|G>B B<d B2 d2|
+[1 "Am"e>^f g<e a2 A<a | g>^f e<d "G"B2 A<G |"F" A>A A>B "E7"e2 d<B|"Am"A4 A>A :|
+[2 "Am"e2 e>d d>e e>d  | B>e e>d "G"B2 (A<G)|"F" A>A A>B "E7"e2 d<B|"Am"A4 A<A||
+|: (B<d)|\
+"Am"e2 A2 A2 B<d | (e<g) (e>d) "D7"B2 (A<B) |"G" d2 G<G (B>A) B<G|(B<d) (G>d) B2 d2|
+"Am"e2 A<A (B>A) B<d | (e<g) (d<e) "Em"B2 (A<G) |"Am" A>A A>B "E7"e2 (d<B)|"Am"A4 A>A :|
+|: (B<d)|\
+"Am"e2 (e>d) e2 (e>^f)    | g>^f e<g "D7"B2 A2      |"G"G>G G<B G2 B2 | G>B B>d B2 d2|
+[1"Am" e2 (e>d) e2 (e>f) | g>f e<g "G"B2 A<G      |"F"A>A A>B "E7"e2 (d<B) |"Am" A4 A<A :|
+[2"Am" e2 A<A (B>A) B<d  | (e<g) (d<e) "G"B2 (A<G)|"F"A>A A<B "E7"e2 (d<B) |"Am" A4 A<A|]

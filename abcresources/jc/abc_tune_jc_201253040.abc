@@ -1,0 +1,14 @@
+X:1
+T: Black Jack
+C: J-6
+M: 6/8
+Z:
+R: jig
+% %staffwidth     14cm
+K: G
+D-| "G"D2G GFG| "C"ABA "D7"AGA| "G"BcB BAG| \
+    "C"ABA "D7"AFD| "G"G2B "C"EFG| "D7"DEF "G"G2 :|
+\
+G| "G"B2d- dcB| "C"dee "D7"d2c| "G"B2d- dcB| "C"dee "D7"d2c| "Em"B2B- BAG|
+   "Am"ABA "D7"AGA| "G"BcB BAG| "C"ABA "D7"AGF| "Em"G2B "Am"EFG| "D7"DEF "G"G2|]
+%

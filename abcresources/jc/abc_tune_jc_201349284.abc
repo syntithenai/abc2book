@@ -1,0 +1,68 @@
+
+X: 1
+T: Vieni sul mar   [C]
+O: trad Italy
+R: waltz
+Z: 1999 Chambers <jc:trillian.mit.edu>
+S: Enrico Caruso recording
+M: 3/4
+L: 1/4
+K: C
+%%indent 100
+"Intro"[|]\
+ B,C | "F"DA,2 | "(G7)"zCD | "C"EE2 | zEF | "G7"AG^F | GDE | "C"Cz"G7"G | "C"c |]
+"Verse"[|\
+ CD | "C"EAG | "G7"ECD | "C"EC2 | zCD | EFG | "F"ABA | "G7"D3 |
+w: 1.~Deh! ti des-ta fan-ciul-la, la lu-na span-de~un rag-gio s'i ca-ro sul mar,
+zCD | "C"EAG | "G7"ECD | "C"EC2 | zCD | "Am"`EAG | "G7"DFE | "C"C3 |
+w:   vie-ni me-co t'as-pet-ta la bru-na fi-da bar-ca del tuo ma-ri-nar.
+zCD | "Am"EAB | cBA | "E7"A^G2 | z^GG | "Am"AAB | "Dm"cd^d | "E7"e3 |
+w:   Ma tu dor-mi,~e non pen-si al~tuo fi-do, ma non dor-me chi vi-ve d'a-mor;
+z"(G7)"ED | "C"CEG | ccB | "F"BA2 | zEF | "G7"GAG | FED | "C"C3 | z3 |]
+w:   io la not-te~a te vo-lo sul li-do ed il gior-no~a te vo-lo nel cor!
+"Chorus"\
+   |: "C"E3  | "G7"DCD | "C"C3- | C3 | "F"c3 | AFA | "C"G3- | G3 |
+w:     Vie-ni_ sul mar_ vie-ni a vo-gar,_
+    | "F"cAc | "Em"BGB | "Dm"AFA | "C"G3 | "C"E3  | "G7"DCD | "C"C3 | z :|
+w:     sen-_ti-rai_ l'eb-brez-__za del tuo ma-ri-nar!
+%
+W: 2.Addio dunque, riposa, e domani      quando l'alba a svegliarti verr\`a,
+W:   sopra lidi lontani lontani      l'infelice nocchiero sar\`a.
+W:   Ma tu dormi, e non pensi al tuo fido,      ma non dorme chi vive d'amor;
+W:   e la notte a te volo sul lido      ed il giorno a te volo col cor!
+W:
+W: 3.Da quel giorno che t'ho conosciuto     o fanciulla di questo mio cuor,
+W:   speme e pace per te ho perduto     perché t'amo d'un immenso amor.
+W:  .Fra le belle tu sei la pi\`u bella,     fra le rose tu sei la pi\`u fin:
+W:   tu del cielo sei brillante stella,      ed in terra sei belt\`a divin!
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Vieni sul mar #2    [D]
+O: trad Italy
+R: waltz
+Z: 1999 Chambers <jc@trillian.mit.edu>
+S: Enrico Caruso recording
+M: 3/4
+L: 1/4
+K: D
+%%indent 200
+CD "I"|\
+"G"EB,2 | "(A7)"zDE | "D"FF2 | zFG |\
+"A7"BA^G | AEF | "D"Dz"A7"A | "D"d |]
+DE "V"|\
+"D"FBA | "A7"FDE | "D"FD2 | zDE |\
+FGA | "G"BcB | "A7"E3 | zDE |\
+"D"FBA | "A7"FDE | "D"FD2 | zDE |\
+"Bm"FBA | "A7"EGF | "D"D3 | zDE |
+"Bm"FBc | dcB | "F7"B^A2 | z^AA |\
+"Bm"BBc | "Em"de=f | "F#7"^f3 | z"(A7)"FE |\
+"D"DFA | ddc | "G"cB2 | zFG |\
+"A7"ABA | GFE | "D"D3 | z3 |]
+"Ch"|:\
+"D"F3  | "A7"EDE | "D"D3- | D3 |\
+"G"d3 | BGB | "D"A3- | A3 |\
+"G"dBd | "F#m"cAc | "Em"BGB | "D"A3 |\
+"D"F3  | "A7"EDE | "D"D3 | z :|

@@ -1,0 +1,95 @@
+
+X: 1
+T: Fairy Dance Reel
+C: Nathaniel Gow 1802
+R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: BSFC Tune Book XXVI-3
+B: BSFC Session Tune Book 2016 p.56
+S: SRSNH 3.9 handwritten MS by Barbara McOwen (in Concord Slow Scottish Jam collection)
+P: ABAB...CD
+M: C|
+L: 1/8
+K: D
+de \
+"A"|: "D"f2fd f2fd | "D"f2fd "A7"cAeA | "D"f2fd "G"gfed | "A7"cABc "D"defg :|
+"B"|: "D"a2af "G"b2ba | "Em"g2ge "A7"a2ag | "D"f2fd "G"gfed | "A7"cABc "D"defg :|
+%%center - - - - - - - - - -
+"C"|: "D"fafd fafd | "D"fafd "A7"cdeg | "D"fdfa "G"gfed | "A7"cABc "D"defg :|
+"D"[| "D"agfe "B7"^dfba | "Em"gfed "A7"ceag | "D"fdfa "G"gfed | "A7"cABc "D"de"d.C."fg |
+    | "D"agfe "B7"^dfba | "Em"gfed "A7"ceag | "D"[f2A2D2]z2 "G"[g2B2D2G,2]z2 | "A7"[c2E2A,2]z2 "D"[d4F4A,4] |]
+
+
+X: 1
+T: Fairy Dance Reel - Harmony
+C: Ed Pearlman
+R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: BSFC Tune Book XXVI-5
+B: BSFC Session Tune Book 2016 p.56
+M: C|
+L: 1/8
+K: D
+de \
+"A"|: "D"d2dA d2dA | "D"d2dA "A7"GAcA | "D"d2dA "G"edcB | "A7"A2G2 "D"FAde :|
+"B"|: "D"f2fd "G"g2gf | "Em"e2eA "A7"f2fe | "D"d2dA "G"edcB |["1,2,.." "A7"A2G2 "D"FAde :|["Tag" "A7"A2G2 "D"F2 |]
+
+
+X: 1
+T: Fairy Dance
+C: Nathaniel Gow 1802
+O: arr. A.Hooper
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+B: BSFC Tune Book XXVI-3
+B: BSFC Session Tune Book 2016 p.57
+M: C|
+L: 1/8
+K: D
+de \
+"A"|: "D"f2(fd) f2(fd) | "D"f2(fd) "A7"cdeg | "D"f2(fd) "G"gfed | "A7"cABc "D"defg :|
+"B"|: "D"a2(af) "Bm"b2(ba) | "Em"g2(ge) "A7"a2(ag) | "D"f2(fd) "G"gfed | "A7"cABc "D"defg :|
+
+
+X: 1
+T: Fairy Dance Var.I
+C: Nathaniel Gow 1802
+O: Hooper/Hunter/Skinner
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+B: BSFC Tune Book XXVI-3
+B: BSFC Session Tune Book 2016 p.57
+S: Anne Hooper
+M: C|
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: D
+"A"|: "D"f2(fd) "Bm"{B}f2fd | "D"fafd "A7"cdeg | "D"fdfa "G"gfed | "A7"cABc defg :|
+"B"[| "D"a2af "Bm"{B}b2ba | "Em"(gf)ge "A7"{A}a2ag | "D"f2(fd) "G"gfe(d | "A7"cA)Bc defg |
+    | "D"a2af "Bm"{B}b2ba | "Em"(gf)ge "A7"{A}a2ag | "D"f2fd "G"(gf)ed | "A7"cABc "C"d2d2 |]
+
+
+X: 1
+T: Fairy Dance Var.II
+C: Nathaniel Gow 1802
+O: Hooper/Hunter/Skinner
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+B: BSFC Tune Book XXVI-3
+B: BSFC Session Tune Book 2016 p.57
+S: Anne Hooper
+M: C|
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: D
+"A"|:\
+"D"(3(DAf) (3(fAD) (3(DAf) (3(fAD) | "D"(3(DAf) (3(fAD) "A7"(A,/E/c/a/) (a/c/E/A,/) |\
+"D"(3(DAf) (3(fAD) "G"Bged |[1 "A7"cABc "D"d2d2 :|
+[2 "A7"cABc defg \
+"B"[|\
+"D"afdf "Bm"gaba | "Em"gfed "A7"ceag | "D"fedc "G"Bged |
+"A7"cABc defg |\
+"D"agfe "B7"^dfba | "Em"gfe=d "A7"ceag |\
+"D"[f2A2D2]z2 "G"[g2B2D2]z2 | "A7"[c2E2A,2]Hz2 "D"H[d4F4A,4] |]

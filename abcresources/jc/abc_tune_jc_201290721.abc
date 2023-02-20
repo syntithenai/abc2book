@@ -1,0 +1,17 @@
+X: 165
+T: Irish Champion   #2
+R: jig
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #165
+O: F.O'Neill
+Z: 1997 henrik.norbeck@mailbox.swipnet.se
+Z: The f in bar 6 should be an 1/8 note. [Fixed. JC]
+N: Compacted by using labels and play order [JC]
+P: Play AB BC
+Q: "With spirit"
+M: 6/8
+L: 1/8
+K: D
+"^A"[|] A/G/ | F2A d2f | e2c A2B | {d}cBc d2d | d3- d2 |]
+"^B"|: g | f2d f2g | a2f g2a/g/ | f2d c2B | A3- A2 :|
+"^C"[| A | B2B g2f | e2c A2B | {d}cBc d2d | d3- d2 |]

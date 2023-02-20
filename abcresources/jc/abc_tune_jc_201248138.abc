@@ -1,0 +1,38 @@
+X:1
+T: Assembly of Lovers
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:A
+I:speed 160
+%W: A1
+% voice 1 (1 lines, 37 notes)
+K:A
+M:6/8
+L:1/16
+c2 d2 c2 e4 a2 a2 g2 f2 e4 e2 A2 B2 A2 c4 f2 e4 d2 c2 B2 A2 |c2 d2 c2 e4 a2 a2 g2 f2 e6 e2 f2 g2 a2 g2 f2 e6e6 |
+%W: A2
+% voice 1 (1 lines, 37 notes)
+c2 d2 c2 e4 a2 a2 g2 f2 e4 e2 A2 B2 A2 c4 f2 e4 d2 c2 B2 A2 |c2 d2 c2 e4 a2 a2 g2 f2 e6 e2 f2 g2 a2 g2 f2 e6e6 |
+%W: B1
+% voice 1 (1 lines, 36 notes)
+b2 c'2 b2 b4 e2 c'2 b2 c'2 b6 b2 c'2 b2 b4 e2 d2 c2 B2 c4 B2 |A2 B2 A2 c4 a2 a2 g2 f2 e4 d2 c2 B2 A2 E4 G2 A6A6 |
+%W: B2
+% voice 1 (1 lines, 36 notes)
+b2 c'2 b2 b4 e2 c'2 b2 c'2 b6 b2 c'2 b2 b4 e2 d2 c2 B2 c4 B2 |A2 B2 A2 c4 a2 a2 g2 f2 e4 d2 c2 B2 A2 E4 G2 A6A6 |
+%W: A3
+% voice 1 (1 lines, 37 notes)
+c2 d2 c2 e4 a2 a2 g2 f2 e4 e2 A2 B2 A2 c4 f2 e4 d2 c2 B2 A2 |c2 d2 c2 e4 a2 a2 g2 f2 e6 e2 f2 g2 a2 g2 f2 e6e6 |
+%W: A4
+% voice 1 (1 lines, 37 notes)
+c2 d2 c2 e4 a2 a2 g2 f2 e4 e2 A2 B2 A2 c4 f2 e4 d2 c2 B2 A2 |c2 d2 c2 e4 a2 a2 g2 f2 e6 e2 f2 g2 a2 g2 f2 e6e6 |
+%W: B3
+% voice 1 (1 lines, 36 notes)
+b2 c'2 b2 b4 e2 c'2 b2 c'2 b6 b2 c'2 b2 b4 e2 d2 c2 B2 c4 B2 |A2 B2 A2 c4 a2 a2 g2 f2 e4 d2 c2 B2 A2 E4 G2 A6A6 |
+%W: B4
+% voice 1 (1 lines, 36 notes)
+b2 c'2 b2 b4 e2 c'2 b2 c'2 b6 b2 c'2 b2 b4 e2 d2 c2 B2 c4 B2 |A2 B2 A2 c4 a2 a2 g2 f2 e4 d2 c2 B2 A2 E4 G2 A6A6 ||

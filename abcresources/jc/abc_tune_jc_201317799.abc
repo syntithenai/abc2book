@@ -1,0 +1,9 @@
+X:1
+T:TEST: note head with no stem
+%%titleleft yes
+% This exists mostly for making instructional examples.
+% The note head and spacing should be determined by the lengths after the zeroes.
+M:none
+L:1/16
+K:none
+[| F0 G01 A02 B0/ | c04 d08 | e016 |]

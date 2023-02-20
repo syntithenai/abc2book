@@ -1,0 +1,31 @@
+X: 30902
+T: COTILLION No. 7. BLACKSTONE SETT tune 2
+N: This set isn't named on its first page (90), but its name is in the index at the end of the book.
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.90 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Mismatched rhythms bewteen strains 1 and 2 fixed with initial rest before strain 2.
+N: Is this in C or F?  (If in F, it hasn't been fixed here.)
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+c3 cag | fAd c3 | GAB d2c | age f2c |\
+c3 (ca).g | fAd c3 | GAB dcE | F3- F2 H|]
+z |\
+F3 FGA | B2c d2B | (g2f) (f2c) | e2d d2B |\
+F3 FGA | (B2c) (d2B) | g2f fAc | B3- "^D.C."B2 |]
+A |\
+(d_e=e) (f^fg) | a3 d'3 | (d'2c') (c'2a) | (a2g) (g2A) |\
+d_e=e f^fg | a3 d'3 | a>g b>a ^c<e | d3- "^D.C."d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple forward and back,
+%% balance there,
+%% cross over second couple,
+%% balance and turn, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

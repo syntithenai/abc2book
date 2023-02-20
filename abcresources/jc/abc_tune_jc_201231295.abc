@@ -1,0 +1,31 @@
+X: 15022
+T: Fife and all the lands about it
+%R: air, strathspey
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.5 p.2 #2 (and 1 staff on p.3)
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+|: "_Slow"\
+E2 (G>A) G2 g2 | {e}d3 B {Bc}d2 G2 |\
+g2 G2 (GA)(Bc) | {Bc}d2 Tc>B {B}TA4 |\
+c2 (e>f) e2 (e/f/g) | (G>A)(B>c) {Bc}d2 D2 |\
+{D}E2 G2 Te3d | (B>c)(d>e) d4 :|
+|:\
+(g>a)(b>a) g2 d2 | e3 d TB2 d2 |\
+e2 (gf) g3 d | (cB)(AG) d3d |\
+(ed)(ef) {f}g3 a | {ga}b2 Ta>g {g}a2 A2 |\
+{A}B2 d2 Te3 d | {ef}g2 (G>A) G4 :|
+|:\
+(EG)(FA) (GA/B/ c/d/e/f/) | (g<e) (d<B) {Bc}d2 G2 |\
+g2 (g/a/b) G3 A | (B<g)(d<B) {B}A4 |\
+c2 (3(ecg) (e/g/f/a/) g(f/e/) |
+(d<B) TA>G {Bc}d2 D2 | (EDE)G Te3 d | (B>c)(d>e) d4 ::\
+(g>a) (b/g/a/b/) g2 d2 | (e/g/f/a/) (g/e/d/c/) (TB>c) d2 |\
+(3(edg) (3(gfa) (3(agb) (a/g/f/e/) |
+(d<B) (TA>G) d3 d |\
+(d>e)(e>f) (f>g)(g>a) | (3(bag) (3(d'c'b) a2 A2 |\
+(TBABd) Te3 d | {ef}g2 (G>A) G4 :|

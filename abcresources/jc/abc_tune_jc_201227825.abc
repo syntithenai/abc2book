@@ -1,0 +1,29 @@
+X: 10
+T: Bits and Scraps
+%R: reel
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.5 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+dAFA dfaf | efed dcBA |\
+dAFA dfaf | edef d4 :|
+|:\
+afdd' bgdd'| afdf ecAa |\
+afdd' bgeg | fdec d4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Each strain repeated)
+%%begintext align
+%% Cast off 2 Cu: & back again |: cross over one Cu:
+%% & half figure round the bottom Cu: |: .
+%%endtext
+%%text DOUBLE FIGURE (Tune play'd twice thro' with repeats)
+%%begintext align
+%% The 1st Lady turns the 3d Gent: the 1st Gent: turns 3d Lady |:
+%% swing with right hands top & bottom |: set 3 across & set 3 in your
+%% places |: & the double triangle |: .
+%%endtext

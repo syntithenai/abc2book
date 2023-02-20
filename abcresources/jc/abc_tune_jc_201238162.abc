@@ -1,0 +1,41 @@
+X: 30311
+T: NEWARK WALTZ
+C:
+%R: waltz
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.31
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Oddly, the 3rd staff system has M:3/4 in both voices, but the music stays in 3/8. (Time change not transcribed.)
+M: 3/8
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+d2 |\
+d2g2g2 | e2a2a2 | gfedef | g2b2d'2 |\
+d2g2g2 | e2a2a2 | gfedef | g4 :|
+|: g2 |\
+c'2g2g2 | g2e2e2 | d2de=fd | c2G2G2 |\
+c'2g2g2 | g2e2e2 | d2de=fd | c4 :|
+|: G2 |\
+c2c2B2 | c2c2B2 | c2c2d2 | e4c2 |\
+g2g2e2 | g2g2e2 | d2dede |1 B4 :|2 c4 |]
+|: ef |\
+gegege | gegege | afafaf | g4c'2 |\
+gegege | gegege | afafaf | g4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+B2 |\
+B2B2B2 | c2c2c2 | A2A2c2 | B2d2B2 |\
+B2B2B2 | c2c2c2 | A2A2c2 | B4 :|
+|: z2 |\
+EGEGEG | EGEGEG | =FGFGFG | EGEGEG |\
+EGEGEG | EGEGEG | =FGFGFG | E4 :|
+|: G2 |\
+E2E2G2 | E2E2G2 | E2E2G2 | c4c2 |\
+e2e2c2 | e2e2c2 | B2BcBc |1 B4 :|2 E4 |]
+|: z2 |\
+e2e2e2 | e2e2e2 | f2f2f2 | e4e2 |\
+e2e2e2 | e2e2e2 | f2f2f2 | e4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

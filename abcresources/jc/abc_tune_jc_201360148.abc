@@ -1,0 +1,934 @@
+X:5
+T:A. A. Cameron's
+M:4/4l
+K:D
+eA3 A4 B3Gd3B|eA3 A4 d3g (3f2e2d2|eA3 A4 B3Gd3B|BG3 G3B d3g (3f2e2d2:|
+Be3e3f g3ea3f|Be3e3f g3e (3f2e2d2|Be3e3f g3ea3f|dB3G3B d3g (3f2e2d2:|
+
+X:10
+T:Auld Luckie
+M:4/4
+L:1/8
+Q:128
+K:C
+c/c3/2e3/2c/ g3/2c/e3/2c/|G3/2A/G3/2F/ E/G3/2G2|c/c3/2e3/2c/ g3/2c/e3/2c
+/|d3/2e/d3/2c/ B/d3/2d2|
+W: C C C C C C D7 G
+c/c3/2e3/2c/ g3/2c/e3/2c/|G3/2A/G3/2F/ E/G3/2G3/2c/|A3/2B/c3/2d/ e3/2f/g
+3/2a/|(3gfe(3def e/c3/2ce|
+W: C C C C F C G7 C
+g/g3/2e3/2g/ a3/2g/e3/2c/|G3/2A/G3/2F/ E/G3/2G2|g/g3/2e3/2g/ a3/2g/e3/2c
+/|d3/2e/d3/2c/ B/d3/2d2|
+W: C C C C C C D7 G
+g/g3/2e3/2g/ a3/2g/e3/2c/|G3/2A/G3/2F/ E/G3/2G/c3/2|(3agf(3gfe (3fed(3ed
+c|B/d3/2g3/2f/ e/c3/2c2|
+W: C C C C F C Dm C G7 C
+
+X:15
+T:Atholl Brose
+S:Logan's -- 55
+E:7
+M:4/4l
+K:D
+{gde}c{g}A3 {gAGAG}A4 {gef}e3A {gAGAG}A2d2|{gde}c{g}A3 {gAGAG}A3e {ag}a3f {gef}e3d|\
+{gde}c{g}A3 {gAGAG}A4 {gef}e3A {gAGAG}A2d2|{g}cde2 {g}G3{g}B {gf}g2G2 {dc}d3B:|\
+{g}ce3 {gf}g3e {ag}a3e {gf}g3e|{g}ce3 {gf}g3e {ag}a4 {GdG}a3d|\
+{g}ce3 {gf}g3e {ag}a3e {gf}g3e|{gef}e3d {gf}g3d {gBd}BG3 {dc}d3{g}B|\
+{g}ce3 {gf}g3e {ag}a3e {gf}g3e|{g}ce3 {gf}g3e {ag}a4 {GdG}a2d2|\
+{g}c{GdG}e3 {gf}g2a2 {f}g3e {g}f3d|{g}efg2 {GdB}d3c {gBd}B{g}G3 {dc}d4||\
+
+X:20
+T:Ayrshire Lassies
+M:4/4
+L:1/8
+Q:128
+K:C
+G3/2c/E3/2c/ d3/2c/d3/2e/|c/c3/2e3/2d/ c/A3/2A3/2c/|G3/2c/E3/2c/ d3/2c/d
+3/2e/|c/A3/2G3/2F/ E/C3/2C2|
+W: C G C F C G F G C
+G3/2c/E3/2c/ d3/2c/d3/2e/|c/c3/2e3/2d/ c/A3/2A3/2c/|G3/2c/E3/2c/ d3/2c/d
+3/2e/|c/A3/2G3/2F/ E/C3/2C2|
+W: C G C F C G F G C
+g3/2e/c3/2g/ e/f/g/e/c3/2e/|g3/2e/c3/2e/ d/D3/2D3/2e/|g3/2e/c3/2e/ d3/2c
+/d3/2e/|c/A3/2G3/2F/ E/C3/2C2|
+W: C C G C G F G C
+W: E
+g3/2e/c3/2g/ e/f/g/e/c3/2e/|g3/2e/c3/2e/ d/D3/2D3/2e/|g3/2e/c3/2e/ d3/2c
+/d3/2e/|c/A3/2G3/2F/ E/C3/2C2|
+W: C C G C G F G C
+
+X:25
+T:Balletarach Strathspey
+M:4/4
+L:1/8
+Q:128
+K:G
+DG3/2B/A3/2B/G/D3/2D3/2E/G3/2B/E3/2G/A2-A3/2f/g3/2d/e/f/ g/e/d/B3/2G3/2B
+/E3/2A/G/F/ E/D/G2-G|D
+W:. G D G G C D G C G Em C D7 G
+G3/2B/A3/2B/G/D3/2D3/2E/G3/2B/E3/2G/A2-A3/2f/g3/2d/e/f/ g/e/d/B3/2G3/2B/
+E3/2A/G/F/ E/D/G2-G|d
+W:. G D G G C D G C G Em C D7 G
+g3/2d/B3/2d/G3/2d/B3/2d/g3/2d/b3/2d/f/a3/2a3/2b/g3/2d/B3/2d/G3/2d/B3/2d/
+E3/2A/G/F/ E/D/G2-G3/2d/
+W:. G G D7 G Em C D7 G
+g3/2d/B3/2d/G3/2d/B3/2d/g3/2d/b3/2d/f/a3/2a3/2f/d3/2B/c3/2A/B3/2G/A3/2F/
+G3/2E/D/c3/2BGG|z
+W:. G G D7 Bm Am G D Em D7 G
+
+X:30
+T:Because He was a Bonnie Lad
+M:4/4
+L:1/8
+Q:128
+K:D
+AF3/2E/D3/2d/B/c/dA3/2F/G3/2B/A3/2F/E/E/EE3/2A/F3/2E/D3/2d/B/c/dA3/2F/G3
+/2B/A3/2F/D/D/DD3/2A/
+W: D G D G D A7 D G D G A7 D
+F3/2E/D3/2d/(3BdB(3ABAG3/2B/A3/2F/E/E/EE|AF3/2E/D3/2d/(3BdB(3ABAG3/2B/A3
+/2F/D/D/DD|A
+W: D G D G D A7 D G D G A7 D
+F3/2E/D3/2F/G3/2A/B3/2G/F3/2D/A3/2F/E/E/EE|AF3/2E/D3/2F/G3/2A/B3/2c/d/c/
+B/A/d3/2A/F/D3/2D|A
+W: D G D A7 D G A7 D
+F/D3/2A3/2D/B3/2D/A/d3/2F/D3/2A3/2F/E/E/EE|B/c/d3/2B/c3/2A/B3/2G/A3/2F/G
+3/2B/A3/2F/D/D/DD|
+W: D G D D A7 Bm A7 G D G A7 D
+
+X:35
+T:Birks of Invermay, The
+R:Strathspey
+S:Rogart
+O:Scotland
+M:4/4
+K:G
+B>c |\
+d3e d>B A>G | A>G A>B E3G |\
+D>E D>B, D2G>D | B,2D>E D2 G>B |\
+d2ef/g/ d<B A>G | c>B AG E2B>A |\
+G>E D>B, D2 G>A | B2A>G G2||\
+D>C |\
+B,3D E>D E<G | A>G A<B E2e2 |\
+d>ed>B c>B A<G | c>d c>B A2 d>c |\
+B>d e>f g3e | d>B A>G E2 B>A |\
+G>E D>B, D2 G>A | B2A>G G2 ||**
+
+X:40
+T:Braes of Breadalbane
+M:4/4
+L:1/8
+Q:128
+K:A
+EE/A3/2A3/2B/c3/2B/A3/2c/e2c Ae2c|AE/A3/2A3/2B/c3/2B/A|cc3/2A/B3/2^G/A2A
+|E
+W: Am Am Am Am E Am
+E/A3/2A3/2B/c3/2B/A3/2c/e2c Ae2c|AE/A3/2A3/2B/c3/2B/A|cc3/2A/B3/2^G/A2A|
+G
+W: Am Am Am Am E Am
+c/c3/2c cd/d3/2d|de3/2f/g3/2e/d3/2B/A|Gc/c3/2c cd/d3/2d|de3/2d/c3/2d/e2e
+|^G
+W: C G C G C G Am E
+c/c3/2c cd/d3/2d|de3/2f/g3/2e/d3/2B/A|Gc/c3/2c cd/d3/2d|de3/2d/c3/2B/A2z
+|z
+W: C G C G C Dm E Am
+
+X:45
+T:The Braes of Letterfourie
+M:4/4
+L:1/8
+Q:128
+K:A
+Ac/e3/2e3/2c/d/c/B/A/F2E3/2A/E/C3/2B,2B,3/2d/c/e3/2e3/2c/d/c/B/A/F2E3/2A
+/G3/2B/A2-A|A
+W: A D A E7 A D A E7 A
+c/e3/2e3/2c/d/c/B/A/F2E3/2A/E/C3/2B,2B,3/2d/c/e3/2e3/2c/d/c/B/A/F2B/E3/2
+G3/2E/A2-A|B
+W: A D A E7 A D E7 A
+A/A/Ad/c/ B/A/e/A3/2c3/2A/B3/2E/c3/2E/d3/2E/B3/2E/A/A/Ad/c/ B/A/e/A3/2c3
+/2A/B/E3/2G3/2E/A2A3/2E/
+W: A E7 A E7 A
+A/A/Ad/c/ B/A/e/A3/2c3/2A/B3/2E/c3/2E/d3/2E/B3/2E/A,/A,/A,E3/2C/F3/2D/E3
+/2C/B,/B3/2E3/2G/A/A,3/2A,|z
+W: A E7 A D A E7 A
+
+X:50
+T:The Bridge of Gairn
+M:4/4
+L:1/8
+Q:128
+K:D
+AF3/2D/D/D/ DB,3/2D/A,3/2D/F3/2D/A3/2F/B/E3/2E3/2A/F3/2D/D/D/ DB,3/2D/A,
+3/2D/G3/2B/A3/2c/d/D3/2D3/2A/
+W: D G D D Em D G D Em A7 D
+F3/2D/D/D/ DB,3/2D/A,3/2D/F3/2D/A3/2F/B/E3/2E3/2c/d3/2f/a3/2e/B3/2d/A3/2
+F/G3/2B/A3/2c/d/D3/2D3/2g/
+W: D G D D Em Bm A G D Em A7 D
+f3/2d/f/e/ d/c/d3/2B/A3/2F/G3/2B/F3/2A/B/E3/2E3/2g/f3/2d/f/e/ d/c/d3/2B/
+A3/2F/G3/2b/a3/2g/f/d3/2d3/2g/
+W: D G D Em D A7 D G D Em A7 D
+f3/2d/f/e/ d/c/d3/2B/A3/2F/G3/2B/F3/2A/B/E3/2E3/2A/F/D3/2F/A3/2G/B3/2A/d
+3/2c/e3/2A3/2c/d/D3/2D|z
+W: D G D Em D A7 D G D A7 D
+
+X:55
+T:The Brig o' Dee
+M:4/4
+L:1/8
+Q:128
+K:D
+AF/A3/2A3/2F/G3/2F/E3/2D/F/A3/2A3/2G/F3/2A/d2F/A3/2A3/2F/G3/2F/E3/2D/G3/
+2A,/F3/2A,/E/E/EB|A
+W: D A D D Em A D Em A
+F/A3/2A3/2F/G3/2F/E3/2D/F/A3/2A3/2G/F3/2A/d2F/A3/2A3/2F/G3/2F/E3/2D/G3/2
+A,/F3/2A,/E/E/Ec|B
+W: D A D D Em A D Em A
+A/d3/2d e/f/g3/2A/f3/2A/g3/2A/f3/2A/(3efd(3cBAA/d3/2d e/f/g3/2f/g3/2b/a3
+/2g/f3/2e/d2d|c/B/
+W: D A D A D A D G D A D
+A/d3/2d e/f/g3/2A/f3/2A/g3/2A/f3/2A/e3/2f/g3/2b/(3aga(3def(3gfg(3BcdA3/2
+G/F3/2E/D2D|z
+W: D A D A D Em D Em D A D
+
+X:60
+T:Cawder Fair
+M:4/4
+L:1/8
+Q:150
+K:G
+g3/2f/e3/2d/ g2B2|d3/2e/d3/2B/ d4|g3/2f/e3/2d/ g2B2|A3/2B/c3/2d/ e3e|
+W: G G D7 G Em Am
+d3/2g/g3/2a/ g3/2a/g3/2f/|e3/2a/a3/2b/ a2g3/2a/|b3/2a/g3/2f/ g3/2f/e3/2d
+/|e/g3/2f/a3/2 g3g|
+W: G Am G C D7 G
+g3/2f/e3/2d/ g2B2|d3/2e/d3/2B/ d4|g3/2f/e3/2d/ g2B2|A3/2B/c3/2d/ e3e|
+W: G G D7 G Em Am
+d3/2g/g3/2a/ g3/2a/g3/2f/|e3/2a/a3/2b/ a2g3/2a/|b3/2a/g3/2f/ g3/2f/e3/2d
+/|e/g3/2f/a3/2 g2a2|
+W: G Am G C D7 G A7
+
+X:65
+T:Calum Breugach
+R:strathspey
+S:Toby A. Rider, Los Angeles Scottish Fiddler's Association
+M:4/4
+L:1/8
+K:C
+B|G<EE>G D>EG>B|A/2A/2A e>A c>Ae>A|G<EE>G D>EG>B|c>AB>G A/2A/2A e:|!
+^f|g>g  a/2g/2^f/2e/2 d/2c/2B/2A/2  G>B|(ABcd) e>A d>Ae>^f| g>g  a/2g/2^
+f/2e/2 d/2c/2B/2A/2 G>B| c>AB>G A/2A/2A {^g}a2 |!
+g<b e<g d<g B<G| G<g A<a B<b A<B| G<EE>G D>EG>B| c>AB>G A/2A/2A e:|!
+^f| g<ee>g d>eg>a| b<aa>g b<aa>b| g<ee>g d>eg>a|b<aa>^g a3:|
+
+X:70
+T:Captain Campbell
+O:Scotland
+M:4/4
+L:1/8
+K:C
+G|E<AA>B  c>A  B<G|D<GG>A B>d c/2B/2A/2G/2|E<AA>B  c>B c<e|d<B g>B A2 A:
+|
+B|A<aa>g  e>d   c<e| d>eg>e  d/2c/2B/2A/2  G>B|A<aa>g e>d c<e|d<B g>B A2
+A>B|
+A<aa>g e>d c>e|d>eg>e  d/2c/2B/2A/2  G>B| c<Ad>B  e>d  c<e|d<B  g>B  A2
+A|
+
+X:75
+T:Cutting Ferns
+R:Strathspey
+S:SSRS of NH via Dave Thompson
+M:4/4
+L:1/8
+Q:300
+K:C
+B|"Am"A<Aa2 "G"ge g2|"C"e>dB<A "G"G>AB<G|"Am"A<A a2 g<e g2|e>dB<g B<A A:|
+g|"Am"e>dB>A "G"G>AB<G|"Am"e>dB>A "G"B2 B<g|"Am"e>dB>A "G"G>AB<d|"Em"e>dg>B "Am"A2 A>g|
+"Am" e>dB>A "G"G>AB<G|"Am"e>dB>A "G"B2 B<g|"Am"e>dB>A "G"G>AB<d|"Em"e>dg>B "Am"A2 A:|
+
+X:80
+T:Dumbarton Castle
+M:4/4
+L:1/8
+Q:128
+K:A
+AE/A3/2A3/2B/c3/2B/A3/2B/c/e3/2e3/2f/e3|AE/A3/2A3/2B/c3/2B/A3/2E/F/B3/2B
+3/2c/B3|A
+W: A C#m A Bm E7
+E/A3/2A3/2B/c3/2B/A3/2B/c/e3/2e3/2f/e3|ea3/2g/f3/2e/(3fed(3cBAF/B3/2B3/2
+c/B3|d
+W: A C#m F#m D Bm E
+c/e3/2e3/2f/a3/2e/c3/2A/c/e3/2e3/2f/e3|dc/e3/2e3/2f/a/g/f/e/d/c/|B/A/F/B
+3/2B3/2c/B3|d
+W: A A A Bm E7
+c/e3/2e3/2f/a3/2e/c3/2A/c/e3/2e3/2f/e3|ea3/2g/f3/2e/a/g/f/e/d/c/|B/A/F/B
+3/2G/e3/2A3|z
+W: A C#m F#m D Bm E7 A
+
+X:85
+T:Captain Horne
+R:pipe strathspey
+S:Toby A. Rider, Los Angeles Scottish Fiddler's Association
+M:4/4
+L:1/8
+K:D
+d>e|: "D" f>A A/2A/2A "G"B<G d>e|"D"f>A A/2A/2A "A"B<dd>e|"D"f>A A/2A/2A
+"G"B<G g|"D"f<ae>d "G"B<dd>e:|!
+"D"f2 f<d f2 f<a| "D"f2 f<d "A"e>f a2|"D"f>gf>d "G"e>fg>e |1  "A"a>fe>d
+"G"B<dd>e |2 "A" a>fe>d "G"B<d d2||
+
+X:90
+T:Duke of Gordon
+M:4/4
+L:1/8
+Q:128
+K:G
+GG3/2D/G/B3/2G3/2D/G/B3/2d3/2B/g3/2B/A/A3/2A3/2B/G3/2D/G/B3/2G3/2D/G/B3/
+2d3/2c/B3/2A/G/G3/2G2
+W: G G D7 G D7 G
+G3/2D/G/B3/2G3/2D/G/B3/2d3/2B/g3/2B/A/A3/2A3/2B/G3/2D/G/B3/2G3/2D/G/B3/2
+d3/2c/B3/2A/G/G3/2G2
+W: G G D7 G D7 G
+g3/2a/b3/2g/d/d3/2d2g3/2a/b3/2g/e/e3/2e3/2f/g/b3/2e/g3/2d/g3/2B/g3/2A3/2
+G/A3/2B/G/G3/2G2
+W: G G C G C G Em D7 G
+g3/2a/b3/2g/d/d3/2d2g3/2a/b3/2g/e/e3/2e3/2f/g/b3/2e/g3/2d/g3/2B/g3/2A3/2
+G/A3/2B/G/G3/2G2
+W: G G C G C G Em D7 G
+
+X:95
+T:The Earl of Angus and Arran
+M:4/4
+L:1/8
+Q:128
+K:F
+CF/F3/2c2A3/2G/F3/2A/B/D3/2G3/2F/E/C3/2D3/2E/F/F3/2c2A3/2G/F3/2A/B/D3/2G
+3/2E/F2F3/2C/
+W: F Bb G7 C7 F Bb C7 F
+F/F3/2c2A3/2G/F3/2A/BDG FECD|EF/F3/2c2A3/2G/F3/2A/B/D3/2G3/2E/F2F|c
+W: F Dm Gm C7 F Dm Bb C7 F
+A/c3/2F3/2c/A/c3/2F3/2e/f3/2F/A3/2F/E/G3/2G3/2B/A/c3/2F3/2c/A/c3/2F3/2a/
+g3/2f/e dc2c|A
+W: F F C7 F Gm Bb C7 F7
+B/d3/2G3/2B/A/c3/2F3/2A/G3/2A/B/A/ G/F/GFE|CF/A3/2G/B3/2A/c3/2B/d3/2c3/2
+f/e/g3/2f3|
+W: Bb C7 F Dm Bb C7 F C7 F Bb C C7 F
+
+X:100
+T:Earl Grey
+M:4/4
+L:1/8
+Q:128
+K:A
+E|:A3/2B/A/E3/2F/A3/2E3/2c/d3/2B/d/c/ B/A/G/B3/2B3/2c/A3/2B/A/E3/2F/A3/2
+E3/2c/(3def(3efg(3afe(3dcB
+W: A D A Bm E7 A D A D E7 A E7
+A3/2B/A/E3/2F/A3/2E3/2c/d3/2B/d/c/ B/A/G/B3/2B3/2c/A3/2B/A/E3/2F/A3/2E3/
+2c/(3def(3efga/A3/2A3/2g/
+W: A D A Bm E7 A D A D E7 A
+a3/2A/g3/2A/f3/2A/e3/2A/d3/2B/c3/2A/G/B3/2B3/2g/a3/2A/g3/2A/f3/2A/e3/2A/
+d3/2f/(3efga/A3/2A3/2g/
+W: F#m E7 D A Bm A E7 F#m E D A D E7 A
+a3/2A/g3/2A/f3/2A/e3/2A/d3/2B/d/c/ B/A/G/B3/2B3/2E/A3/2B/A/E3/2F/A3/2E3/
+2c/(3def(3efg(3afe(3dcB:|
+W: F#m E7 D A Bm E7 A D A D E7 A E7
+a3/2A/g3/2A/f3/2A/e3/2A/d3/2B/d/c/ B/A/G/B3/2B3/2E/A3/2B/A/E3/2F/A3/2E3/
+2c/(3def(3efga/A3/2A2
+W: F#m E7 D A Bm E7 A D A D E7 A
+
+X:105
+T:Easter Skene
+M:4/4
+L:1/8
+Q:128
+K:F
+AF/F3/2A3/2F/D3/2F/C3/2A,/F/G3/2A3/2F/G3/2G,/G,3/2C/F/F3/2A3/2F/D3/2F/C3
+/2A,/B,3/2D/C3/2E/F3|C
+W: F Bb F Dm C F Bb F Gm C7 F
+F/F3/2A3/2F/D3/2F/C3/2A,/B,3/2D/A,3/2F/G,/G3/2G3/2B/A/F3/2c3/2A/B/G3/2g3
+/2f/e3/2c/d3/2e/f2-f|c
+W: F Bb F Gm F C F Gm C7 F
+f3/2a/g3/2a/f/c3/2f3/2d/c/A3/2A3/2G/F/D3/2D3/2c/A3/2f/c3/2f/A3/2f/c/A3/2
+G/g3/2g3/2f/g2-g3/2e/
+W: F C7 F Bb Am Dm F Gm C
+f3/2a/g3/2a/f/c3/2f3/2d/c/A3/2A3/2G/F/D3/2D3/2c/f3/2g/a/g/ f/e/f/e/d/c/d
+/f3/2c/F3/2A3/2G/F2-F|z
+W: F C7 F Bb Am Dm F Bb F C7 F
+
+X:110
+T:Francis Sitwell
+M:4/4
+L:1/8
+Q:128
+K:Bb
+BF3/2B/D3/2B/G2E3/2G/F3/2f/e/d/ c/B/A/c3/2c|d/e/d3/2B/F3/2D/G2E3/2G/F3/2
+B/A/B/ cd/B3/2B2
+W: Bb Eb Dm Bb F Bb Eb F Bb
+F3/2B/D3/2B/G2E3/2G/F3/2f/e/d/ c/B/A/c3/2c|d/e/d3/2B/F3/2D/G2E3/2G/F3/2B
+/A/B/ cd/B3/2B|d/e/
+W: Bb Eb Dm Bb F Bb Eb F Bb
+f3/2B/g3/2B/f2B|d/e/f3/2d/e/d/ c/B/A/c3/2c|d/e/f3/2B/g3/2B/f3/2B/b3/2f/e
+/d/c/B/F3/2f/d/B3/2B|d/e/
+W: Bb Eb Bb Bb F Bb Eb Bb Eb F Bb
+f3/2B/g3/2B/f2B|d/e/f3/2B/e/d/ c/B/A/c3/2c|f/a/b/a/g/f/e/d/ c/B/G2E3/2G/
+F3/2B/A/B/ cd/B3/2B|z
+W: Bb Eb Bb Bb F Bb Eb F Bb
+
+X:115
+T:Galloway House
+M:4/4
+L:1/8
+Q:212
+K:G
+G|:B2B2B2A|GE4G3|ED2D2E2G2B2A2A2G|A
+zD2 D2D2|CB,C4E3CB,2 B,2C2|C2G2 F2F2|B,C
+W: G C G C D7
+B2 B2B2|AGE4G3ED2 D2E2|F2G6|GA
+D2 D2D2|CB,C4E3CB,2 B,2C2|A,2B,6|z2
+W: G C G C D7 G
+B2 B2B2|AGc4e2|c2B2 d2B2|G2B2 A2A2|GA
+z8z8z8G2 F2F2|B,C
+W: G C G C D7
+B2 B2B2|AGE4G3ED2 D2E2|F2G6:|
+D2D2 D2CB,|C4 E3C|B,2B,2 C2A,2|B,6
+W: G C G C D7 G
+
+X:120
+T:Hebridean Milking Song
+M:4/4
+L:1/8
+Q:212
+K:G
+d2G3GG2|G2d2 ddB2|d2GG GGD2|DDE2 G2B2|A2
+W: G G G C D7
+G3GG2|G2d2 ddB2|d2GG GGD2|G2B2 A2G2|B2
+W: G G G D6 G
+dd ddG2|GGB2 d2e2|d2dd dde2|dde2 d2B2|AB
+W: G G C G G C G C G D6 B
+G3GG2|GGd2 ddB2|d2GG GGD2|G2B2 A2G2|B2
+W: Em G G D6 G
+%Different Harmonies
+d2 G3G|G2G2 d2dd|B2d2 GGGG|D2DD E2G2|B2A2
+W: G Em Bm C G C D6
+G3G|G2G2 d2dd|B2d2 GGGG|D2G2 B2A2|G2B2
+W: Em G Em7 Bm C G D6 G
+dddd|G2GG B2d2|e2d2 dddd|e2dd e2d2|B2AB
+W: G Em Bm C Bm Bm C G C G B
+G3G|G2GG d2dd|B2d2 GGGG|D2G2 B2A2|G2B2
+W: Em G C9 G C G D6 G
+
+X:125
+T:Hamish Henderson's Refusal
+R:strathspey
+C:Brian MacNeill
+S:Los Angeles Scottish Fiddler's Tunebook
+M:4/4
+L:1/8
+K:F
+A,2|:D2 C>D A,2  A,>G,| A,<D E>F D3 E| F>C F<A (3GAB A>G| A<d d>e ^c3 A|
+!
+d>e f<a e<c c>A| (3Bcd A>F E3 F| D2 C>D A,2 A,>G,| A,<D E>F D4:|!
+E2 E>D E<c c2| (3BAG A>B A<d d>e| f>e (3fga a>g g<f| f>e e<d e3 A|!
+B>A (3GAB A<d d2| F<d d<F E3 F| D2 C>D A,2 A,>G,| A,<D E>F D4:||
+
+X:130
+T:H.M.S. Invincible and H.M.S. Berwick
+C:Muriel Johnstone
+M:4/4
+L:1/8
+Q:212
+K:D
+%H.M.S. Invincible
+|:z6Az|d3d A2d2|Bcd2 A4|Bcd2 A2d2|F2E2 E2A2|
+W:
+d3d A2d2|Bcd2 A4|GAB2 A2f2|e2d2 d2z2:|
+W:
+|:z6ez|f3f F2f2|e2dc d4|e3e B2d2|d2cB cABc|
+W:
+d3d c2e2|edcB A4|GAB2 A2f2|e2d2 d2z2:|
+W:
+K:G
+%H.M.S. Berwick
+z6dz|g3g d2g2|fgaf g2ab|c'2b2 a2g2|fgfe d2gf|
+W:
+%
+Fine
+g2G2 d2D2|EFG2 D2d2|ege2 faf2|g2G2 G2z2:|
+W:
+z4 ze^dz|e2E2 E2d^c|d2D2 D2cB|c2A2 d3c|BAGF G2e^d|
+W:
+%
+Dal Segno al Fine
+e2E2 E2d^c|d2D2 D2B2|^c2A2 a3g|fgef d2ef|
+W:
+
+X:135
+T:Iomadh Rud Tha Dhith Orm
+R:strathspey
+S:Entered by Toby A. Rider, Los Angeles Scottish Fiddler's Association
+M:4/4
+L:1/8
+K:D
+A<A (B<d) f2 e<f| e>Bd>B G>A (3BAG| A2 (B<d) f2 e<f| e>Bd>B A2 A2:|!
+=cc BB A2 A2|=cc B>A G>A (3BAG|=cc BB A2 (c>d)| e>ed>B A2A2:|
+
+X:140
+T:Innes Russell of Perth
+M:4/4
+L:1/8
+Q:128
+K:G
+G2D3/2G/ B,3/2G/G,3/2G/|D3/2F/G3/2A/ B/G3/2G/B3/2|A2E3/2A/ c3/2B/A3/2G/|
+F/D3/2F/A3/2 c3/2A/F/A3/2|
+W:. G D7 G Am D7
+G2D3/2G/ B,3/2G/G,3/2G/|D3/2F/G3/2A/ B/G3/2G/B3/2|c3/2A/f3/2e/ d/g3/2D2|
+(3FGA(3cBA B/G3/2G2|
+W:. G D7 G Am D7 G D7 G
+d2B3/2d/ g3/2d/e3/2d/|B/G3/2B/d3/2 g3/2f/e/d3/2|c2A3/2c/ a3/2g/f3/2e/|c/
+A3/2a3/2g/ f/d3/2d2|
+W:.
+B2G3/2B/ g3/2f/e3/2d/|B/G3/2B/d3/2 g3/2d/B/G3/2|c3/2A/f3/2e/ d/g3/2D2|(3
+fed(3cBA B/G3/2G2|
+W:. G G Am D7 G D7 G
+
+X:145
+T:James Moray of Abercarney
+M:4/4
+L:1/8
+Q:128
+K:G
+G,3/2B,/D3/2G/ E/G3/2D3/2G/|A3/2B/c/B/A/G/ E2E3/2G/|G,3/2B,/D3/2G/ E/G3/
+2D3/2e/|d3/2B/d/c/B/A/ G2G,B,|
+W: G C G Am Am D7 G C G G D7 G
+G,3/2B,/D3/2G/ E/G3/2D3/2G/|A3/2B/c/B/A/G/ E2E3/2G/|G,3/2B,/D3/2G/ E/G3/
+2D3/2e/|d3/2B/d/c/B/A/ G2Ge|
+W: G C G Am Am D7 G C G G D7 G
+de/f/g3/2d/ e3/2d/g3/2B/|c3/2a/B3/2g/ A2AB/c/|de/f/g3/2d/ e3/2d/g3/2e/|d
+3/2B/d/c/B/A/ G2Ge|
+W: G C G Am G D G C G D7 G
+de/f/g3/2d/ e3/2d/g3/2B/|(3cac(3BgB A2AB/c/|(3dcB(3cBA B3/2G/A3/2B/|d3/2
+e/d/c/B/A/ G2-Gz|
+W: G C G Am G D G D Em Am G D7 G
+
+X:150
+T:The Iron Man
+M:4/4
+L:1/8
+Q:128
+K:A
+A2c3/2A/ B3/2G/A3/2B/|c2e3/2c/ d3/2B/c/e3/2|f2d/f3/2 e2c/e3/2|(3dcB(3cBA G/B3/2B3/2c/|
+W:. A E7 A A E7 A D A E7
+A2c3/2A/ B3/2G/A3/2B/|c2e3/2c/ d3/2B/c/e3/2|f2d/f3/2 e/a3/2c3/2A/|(3Bcd(3dcB c/A3/2A2|
+W:. A E7 A A E7 A D A E7 A
+a3/2A/g3/2A/ f3/2A/e3/2A/|(3cBAe3/2g/ a3/2e/c3/2A/|d3/2E/c3/2E/ B3/2E/c3/2E/|(3dcB(3cBA (3Bcd(3efg|
+W:. F#m E D A A Bm A E A E7 A Bm E7
+a3/2A/g3/2A/ f3/2A/e3/2A/|(3cBAe3/2g/ a3/2e/c3/2A/|d2f3/2d/ (3eag(3fed|(3cBA(3GAB A2A2|
+W:. F#m E D A A D A Bm A E7 A
+
+X:155
+T:J.F. MacKenzie
+R:pipe strathspey
+S:Toby A. Rider, Los Angeles Scottish Fiddler's Association
+M:4/4
+L:1/8
+K:A
+a|"A" A<Ac>B c<ee>f| "A" a>fe>c "D" f>ef<a| "A" A<Ac>B  "A" c<ef>e| "E"
+(3fga  e>c "A" A2 Aa|!
+"A" A<Ac>B c<ee>f| "A" a>fe>c "D" f>ef<a| "A" c2 e>c "D"  B>cf>e| "E" (3
+fga e>c "A"  A2 A|!
+B|"A"  A<aa>e "D"f<af>e| "A"c<ef>e "D"f<af>e| "A"A<aa>e "D"f<af>e| (3fga
+e>c "A"A2 A>B|!
+"A" A<aa>e "D"f<af>e| "A" c<ef>e f<af>e| "A" c2 e>c B>cf>e| "E"(3fga e>c
+"A"A2 A||
+
+X:160
+T:J.F. Dickie's Delight
+M:4/4
+L:1/8
+Q:128
+K:A
+c3/2B/A3/2c/ d3/2A/F2|GB/G/E3/2G/ A3/2c/e2|d3/2f/a3/2g/ (3fed(3cde|f/F3/
+2B3/2A/ (3GFE(3DCB,|
+C3/2B,/A,3/2C/ D3/2F/A2|
+W: A D E7 A D D A Bm E7
+A,/CB,/A,3/2C/ D3/2F/A2|GB/G/E3/2G/ A3/2c/e2|d3/2f/a3/2f/ ea/g/(3fed|e/E
+3/2c3/2B/ A2-A3/2E/|
+W: A D E7 A D A D E7 A
+A3/2c/e3/2a/ G3/2B/e3/2g/|F3/2A/d3/2f/ E3/2A/c/e3/2|C3/2E/A3/2c/ (3fed(3
+cBA|B/F3/2B3/2A/ G/BG/(3EFG|
+W: A E7 D A A D C#m Bm E7
+A3/2c/e/aA/ G3/2B/e/gG/|F3/2A/d/fF/ E3/2A/c/eA/|d3/2c/d3/2f/ e/ag/(3fed|
+e/E3/2c3/2B/ A2-A2|
+W: A E7 D A D A D E7 A
+
+X:165
+T:James Scott Skinner
+M:4/4
+L:1/8
+Q:128
+K:A
+DC/A,3/2A,3/2C/E3/2F/E/C3/2A3/2F/E3/2C/(3AGF(3EDCD/B,3/2B,3/2C/D3/2F/B3/
+2A/G3/2B/g3/2f/(3efe(3dcB
+W: A A Bm E7
+A/A,3/2A,3/2C/E3/2F/E/C3/2A3/2F/E3/2C/(3AGF(3EDCF/D3/2F3/2A/E3/2A/c3/2A/
+(3FBA(3GEGA2-A|f
+W: A A D A Bm E7 A
+e/A3/2c3/2f/e/c3/2c2a/A3/2c3/2B/(3ABG(3ABcB/E3/2G3/2B/e3/2B/g3/2e/b3/2e/
+g3/2f/(3efe(3dcB
+W: A A E7 E7
+c/A3/2c3/2f/e/c3/2c3/2A/a3/2e/c3/2B/(3ABG(3ABcF/D3/2F3/2A/E3/2A/c3/2A/(3
+FBA(3GEGA2-A|z
+W: A A D A Bm E7 A
+
+X:170
+T:Laddie wi' the Plaidie
+M:4/4
+L:1/8
+Q:150
+K:D
+f3/2g/f3/2e/ d3/2e/d3/2B/|A3/2F/A3/2d/ c/e3/2e2|f3/2g/f3/2e/ d3/2e/d3/2B
+/|c3/2d/e3/2a/ f/d3/2d2|
+W: D G D A7 D G A7 D
+A2(3FED F/A3/2A3/2d/|B3/2A/B3/2d/ c/e3/2e2|A2(3FED F/A3/2A3/2d/|c3/2d/e3
+/2a/ f/d3/2d2|
+W: D G A7 D A7 D
+f3/2g/f3/2e/ d3/2e/d3/2B/|A3/2F/A3/2d/ c/e3/2e2|f3/2g/f3/2e/ d3/2e/d3/2B
+/|c3/2d/e3/2a/ f/d3/2d2|
+W: D G D A7 D G A7 D
+f2(3agf e2(3gfe|d2(3fed c2(3edc|B2(3dcB A2f3/2a/|g3/2f/e3/2a/ f/d3/2d2|
+W: D A7 Bm F#m G D A7 D
+
+X:175
+T:Lady Charlotte Campbell
+M:4/4
+L:1/8
+Q:128
+K:Bb
+FD/F3/2F3/2B/E/G3/2G|c/B/A/c3/2f3/2e/d/b3/2B/f3/2D/F3/2F3/2B/E/G3/2G|c/B
+/A/B/cF/e3/2d/B3/2B|F/E/
+W: Bb Cm F Bb Bb Cm F Bb
+D/F3/2F3/2B/E/G3/2G|c/B/A/c3/2f3/2e/d/b3/2B/f3/2D/F3/2F3/2B/E/G3/2G|c/B/
+A/B/cF/e3/2d/B3/2B|a
+W: Bb Cm F Bb Bb Cm F Bb
+b3/2B/A3/2a/g3/2G/F3/2f/e3/2c/e/d/ c/B/A/c3/2c3/2a/b3/2B/a3/2B/g3/2B/f3/
+2B/A/B/cF3/2e/d/B3/2B|a
+W: Gm F Eb Bb Cm F Gm F Eb Bb F Bb
+b3/2B/A3/2a/g3/2G/F3/2f/e3/2c/e/d/ c/B/A/c3/2c|B/A/G3/2B/F3/2B/E3/2B/D3/
+2B/E/F/GF3/2E/D/B,3/2B,|z
+W: Gm F Eb Bb Cm F Eb Bb Cm7 Bb Cm F Bb
+
+X:180
+T:Lady Ann Hope
+M:4/4
+L:1/8
+Q:128
+K:G
+DG/G3/2G3/2B/A3/2G/E2c2c3/2e/d3/2c/B/g3/2B/B3/2B3/2G/c3/2A/B3/2G/E3/2A/G
+/F/ E/D/G2-G|D
+W: G Am C C G G D7 G Am D7 G
+G/G3/2G3/2B/A3/2G/E2c2c3/2e/d3/2c/B/g3/2B/B3/2B3/2G/c3/2A/B3/2G/E3/2A/G/
+F/ E/D/G2-G|e/f/
+W: G Am C C G G D7 G Am D7 G
+g2d3/2g/B3/2g/d3/2f/g/g3/2b3/2g/e2e3/2f/(3gab(3agf(3efg(3dcB(3cde(3def(3
+gdc(3BcA
+W: G G C G D C G C D G D7
+G/g3/2d3/2g/B3/2g/d3/2f/g/g3/2b3/2g/e2e3/2f/(3gab(3agf(3gfe(3dcB(3cde(3d
+efg3|
+W: G Em C G D C G C D7 G
+
+X:185
+T:Lady Dick Lauder's Strathspey
+Z:Footnote: 15 July 1996
+M:4/4
+L:1/8
+Q:128
+K:Bb
+FB/c/dB FG3/2B/F3/2B/F3/2B/d/c/ B/c/dcc|dB/c/dB FG3/2B/F3/2B/G3/2B/G/F/
+E/D/C2B,|F
+W: Bb Eb Bb Bb F F7 Gm Bb Eb Bb Cm F7 Bb
+B/c/dB FG3/2B/F3/2B/F3/2B/d/c/ B/c/dcc|dB/c/dB FG3/2B/F3/2B/G3/2B/G/F/ E
+/D/C2B,|d
+W: Bb Eb Bb Bb F F7 Gm Bb Eb Bb Cm F7 Bb
+B3/2B/d Bf3/2B/d|fe3/2g/d3/2f/g/f/e/d/c3/2d/B3/2B/d Bf3/2B/d|fe3/2g/g/f/
+e/d/c2B|d
+W: Bb Eb Bb Cm F7 Bb Eb Cm F7 Bb
+B3/2B/d Bf3/2B/d|fe3/2g/d3/2f/g/f/e/d/c3/2d/B/c/dB FG/B3/2e/g3/2f3/2b/g/
+f/ e/d/c2B|
+W: Bb Eb Bb Cm F7 Gm Bb Eb Cm Bb Eb F7 Bb
+
+X:190
+T:The Laird o' Drumblair
+Z:Footnote: 15 July 1996
+M:4/4
+L:1/8
+Q:128
+K:A
+|:A2c3/2A/ E3/2A/c3/2A/|a2g3/2a/ f3/2a/e3/2c/|(3def(3efg (3aed(3cBA|(3Bc
+d(3cBA (3GFE(3dcB|
+W: A A D A D A D E7
+A2c3/2A/ E3/2A/c3/2A/|a2g3/2a/ f3/2a/e3/2c/|(3def(3efg (3aed(3cBA|(3GFE(
+3dcB A2-Ag|
+W: A A D A D A E7 A
+a2e3/2a/ c3/2a/A3/2a/|c/B/Ae3/2g/ a3/2A/c/a3/2|b2f3/2b/ d3/2b/B3/2b/|d/c
+/Bf3/2B/ b3/2B/d/b3/2|
+A2A2 z4|z8|B2B2 z4|z8|
+W: A A Bm Bm
+a2e3/2a/ c3/2a/A3/2a/|c/B/Ae3/2g/ a3/2e/c3/2A/|(3def(3efg (3aed(3cBA|(3G
+FE(3dcB A2-AE:|(3GFE(3DCB, A,2-E2-|
+A2A2 z4|
+W: A A D A E7 A E7 A E7
+
+X:195
+T:Lime Hill
+R:strathspey
+C:Dan R. MacDonald
+S:Sandy MacIntryre's Book
+O:Cape Breton, Nova Scotia
+M:4/4
+L:1/8
+K:A
+a| e<cc>B A<FF>A| E<CE>F A2 A>B| c>Bc>e f>ef<a|!
+e<c{d}c>A  (B2 B<a)| e<cc>B A<FF>A| E<CE>F A2 A>B|!
+c>Bc>e  f>ef>a| e<cB>c A2 A|d| c<ee>f e<ca>e|!
+c<ee>f {gf}e2 e>a| c<ff>a f>e a/2g/2f/2e/2| c<ff>g f2 f>a| c<ee>f e<ca>e
+|!
+c<ee>f (e2 e>g)|(3agf (3edc (3dfd (3cac| B<EG>B A2 A||
+
+
+X:200
+T:The Lea Rig
+Z:Footnote: 16 July 1996
+M:4/4
+L:1/8
+Q:128
+K:A
+|:cBc2 E2E2|F2A3BA2|c2B3cdc|BAc2 F2F2|cB
+W: A A Bm F#m E7
+c2 E2E2|F2A3BA2|agf3efg|ae[c2 E2[A2|D2[A2 C2e2|
+W: A A Bm A D A
+fefg a2c2|dcde f2A2|B3c dcBA|c2F2 F2cB|
+W: D Bm Bm F#m E7
+c2E2 E2F2|A3B A2ag|f3e fgae|[c2E2 [A2D2|[A2C2 :|
+W: A A Bm A D A
+
+X:205
+T:Miss Margaret Gordon
+Z:Footnote: 15 July 1996
+M:4/4
+L:1/8
+Q:128
+K:G
+|:dB/G3/2G3/2A/F3/2A/c/A3/2B/G3/2G3/2A/[B3/2G3/2|c/d/g3/2B/G3/2G3/2A/F3/
+2|A/c/d3/2B/G3/2A3/2^F/G2Gd
+|:zD4C4D4z4D4C4D2C2[D2B,2[DB,z
+W: Gm F Gm Gm F Gm D7 Gm
+B/G3/2G3/2A/F3/2 A/c/A3/2B/G3/2G3/2A/[B3/2 G3/2c/d/g3/2|B/G3/2G3/2A/ F3/
+2A/c/d3/2|B/G3/2A3/2^F/ G2Gd|
+D4 C4|D4 z4|D4 C4|D2C2 [D2B,2|[DB,z
+W: Gm F Gm Gm F Gm D7 Gm
+g/d3/2d3/2f/A/F3/2c/A3/2g/d3/2d3/2=e/f/g3/2a/g3/2f/d3/2d3/2f/F3/2A/c/d3/
+2B GA^FG2G^f
+B/G3/2G3/2B/F/z3/2F2B/G3/2G2A2c2B/G3/2G3/2B/C2F2D2C2B,2z2
+W: Gm F Gm F Gm F Gm D7 Gm
+g/d3/2d3/2f/A/F3/2c/A3/2g/d3/2d3/2=e/f3/2a/g/a3/2f3/2g/d/g3/2c/f3/2A/c3/
+2d3/2B/d/c/B/A/G2G:|
+B/G3/2 G3/2B/F/z3/2|F2B/G3/2 G2A2|c2A2 G2F2|C2G2 F3/2C/B,2|B,:|
+W: Gm F Gm F F Gm F Gm D7 Gm
+
+X:210
+T:Neil Gow's Second Wife
+Z:Footnote: 18 July 1996
+M:4/4
+L:1/8
+Q:128
+K:Bb
+z6dz|B/G3/2G3/2B/ A/F3/2F3/2A/|B/G3/2G3/2B/ B3/2A/Bg|B/G3/2G3/2B/ A/F3/2
+F3/2A/|B/B3/2c3/2B/ FBBd|
+W: Gm F Gm Gm F Bb F Bb
+B/G3/2G3/2B/ A/F3/2F3/2A/|B/G3/2G3/2B/ B3/2A/Bg|B/G3/2G3/2B/ A/F3/2F3/2A
+/|B/B3/2c3/2B/ FBBd|
+W: Gm F Gm Gm F Bb F Bb
+B/B3/2d3/2B/ f3/2B/d3/2B/|F/F3/2A3/2F/ c3/2F/Ac|B/B3/2d3/2B/ f3/2B/d3/2f
+/|g3/2g/b3/2g/ d/g3/2g3/2b/|
+W: Bb F Bb Gm
+f/d3/2d3/2f/ e/c3/2c3/2e/|d/B3/2B3/2d/ B3/2A/B3/2F/|G/G3/2B2 c/c3/2d3/2c
+/|B3/2G/B/A/G/F/ DGGz|
+W: Bb F Gm Dm Cm Cm D Gm Dm Gm
+
+X:215
+T:Pamela Rose McLeod
+Z:Footnote: 15 July 1996
+M:4/4
+L:1/8
+Q:128
+K:F
+|:c2A3/2B/ c3/2B/A/F3/2|d2B3/2c/ d3/2f/e/g3/2|c2A3/2B/ c3/2B/A/F3/2|D/G3
+/2G3/2A/ B2A3/2B/|
+W: F Bb C F Dm Bb C
+c2A3/2B/ c3/2B/A/F3/2|d2B3/2c/ d3/2f/e/g3/2|c/a3/2g3/2e/ f3/2d/c/A3/2|D/
+G3/2G3/2A/ B2A3/2G/|
+W: F Bb C Am7 Dm7 Gm7 C
+F2f3/2g/ a3/2g/f/c3/2|dfcA A/G3/2G3/2A/|F2f3/2g/ a3/2g/fg/a/|b3/2a/g3/2f
+/ d3/2c/d/f3/2|
+W: F Bb C F Dm Gm C
+F2f3/2g/ a3/2g/f3/2e/|d3/2c/df g2f3/2g/|a3/2g/f3/2d/ c3/2d/f3/2A/|D/G3/2
+G3/2A/ B2AB:|D/G3/2G3/2E/ F2
+W: F Bb C Dm Am Gm7 C7 Gm7_C7_F
+
+X:220
+T:Muriel Johnstone's Compliments to Robert MacKay
+Z:Footnote: 15 July 1996
+M:4/4
+L:1/8
+Q:128
+K:Bb
+d2d3/2B/ G/E3/2E2|e2g3/2B/ A/F3/2F2|A3/2c/(3fga bfdB|g3/2e/c3/2B/ A/F3/2
+F2|
+W: Bb Eb Cm F7 F F7 Bb Bb7 Eb C7 F F7
+d2d3/2B/ G/E3/2E2|e2g3/2B/ A/F3/2F2|A3/2c/(3fga (3bab(3fed|g3/2e/c3/2f/
+d/B3/2B2|
+_A4 z4|G4 z4|
+W: Bb7 Eb Cm F7 F Eb Bb Bb7 Cm F7 Bb
+B,3/2D/F/D3/2 B2(3BAB|G3/2e/F/D3/2 E3/2C/C/D3/2|B,3/2D/F/D3/2 B2(3BAB|(3
+gfe(3dcB A/F3/2F3/2A/|
+z4 F4|
+W: Bb Eb Bb Cm F Bb Gm Eb C7 F F7
+B3/2d/f/d3/2 [b2d2|(3baba3/2g/ f3/2=e/f/d3/2|d2d2 d3/2B/G/E3/2|E3/2e/g/e
+3/2 c3/2a/b/B3/2|B2
+z8=e4A4_A4z4
+W: Bb Gm A Dm Bb7 Eb Cm F7 Bb
+
+X:225
+T:The Rakes of Glasgow
+Z:Footnote: 16 July 1996
+M:4/4
+L:1/8
+Q:128
+K:C
+G|:c3/2d/c/G3/2E3/2C/E/G3/2A3/2c/G/E3/2g3/2e/d3/2e/c3/2d/e/c3/2A/c3/2G/c
+3/2B3/2d/G/d3/2e/c3/2c|G
+W: C F C C G C F C G C
+c3/2d/c/G3/2E3/2C/E/G3/2A3/2c/G/E3/2g3/2e/d3/2e/c3/2d/e/c3/2A/c3/2G/c3/2
+B3/2d/G/d3/2e/c3/2c|G:|
+W: C F C C G C F C G C
+|:A2G3/2F/E/C3/2E2g3/2e/f3/2d/B/c/d/B/G2A2G3/2F/E/C3/2E/c3/2B/c/d/B/G3/2
+d/e/c3/2c|d:|
+W: F G C C Dm G F G C G C
+|:e2c3/2g/e/c3/2g3/2c/d2e2g/f/e/f/d2e2c3/2g/e/c3/2g3/2c/B/c/d/B/G3/2g/e/
+c3/2c|z:|
+W: C G C G C G C
+
+X:230
+T:Scotch Mist
+Z:Footnote: 16 July 1996
+M:4/4
+L:1/8
+Q:128
+K:C
+EG3/2E/G/c3/2A3/2F/A/c3/2B3/2c/d3/2B/c2e2f3/2e/f/a3/2g3/2e/d/c3/2A2f3/2e
+/d2E3/2F/
+W: C F G C F C Dm G
+G3/2E/G/c3/2A3/2F/A/c3/2B3/2c/d3/2B/c2e2f3/2e/f/a3/2g3/2e/c/G3/2A3/2f/e/
+d/ c/B/c2e3/2f/
+W: C F G C F C Dm G C
+g3/2a/g3/2e/c3/2d/e3/2c/f3/2g/a3/2f/d2e3/2f/g3/2a/g3/2e/c3/2d/e3/2c/A2f3
+/2e/d2E3/2F/
+W: C Am Dm G C Am Dm G
+G3/2E/G/c3/2A3/2F/A/c3/2B3/2c/d3/2B/c2e2f3/2e/f/a3/2g3/2e/c/G3/2A3/2f/e/
+d/ c/B/c2z2
+W: C F G C F C Dm G C
+
+X:235
+T:Scottish Ramble
+Z:Footnote: 15 July 1996
+M:4/4
+L:1/8
+Q:128
+K:A
+EA/A3/2A3/2c/e3/2c/A3/2c/B/B3/2G3/2B/d2c3/2B/A/A3/2A3/2c/e3/2c/d3/2B/c3/
+2e/B3/2c/A/A/AA3/2E/
+W: A E7 A E7 A E7 A
+A/A3/2A3/2c/e3/2c/A3/2c/B/B3/2G3/2B/d2c3/2B/A/A3/2A3/2c/e3/2c/d3/2B/c3/2
+e/B3/2c/A/A/AA3/2d/
+W: A E7 A E7 A E7 A
+c3/2e/e f/g/a2e3/2c/a3/2e/c3/2A/B/B/BB3/2d/c3/2A/e3/2A/a3/2e/c3/2A/c3/2e
+/B3/2c/A/A/AA3/2d/
+W: A A E7 A E7 A
+c3/2e/e f/g/a2e3/2c/a3/2e/c3/2A/B/B/BB3/2d/c3/2A/e3/2A/a3/2e/c3/2A/c3/2e
+/B3/2c/A/A/AA|
+W: A A E7 A E7 A
+
+X:240
+T:Sir Ronald McDonald's Strathspey
+Z:Footnote: 21 February 1994
+M:4/4
+L:1/8
+Q:128
+K:G
+BG/G/Gd3/2c/d2-d3/2g/f3/2d/c3/2A/F3/2G/A/F3/2G/G/Gd3/2c/d2-d3/2g/f3/2d/c
+3/2A/G/G/GG|B
+W: . Gm F Gm Dm D7 Gm
+G/G/Gd3/2c/d2-d3/2g/f3/2d/c3/2A/F3/2G/A/F3/2G/G/Gd3/2c/d2-d3/2g/f3/2d/c3
+/2A/G/G/GG|^f
+W: . Gm F Gm Dm D7 Gm
+g3/2^f/g3/2a/d3/2^f/g3/2a/=f/d3/2c3/2A/FcA|fg3/2^f/g3/2a/d3/2^f/g3/2a/=f
+/d3/2c3/2A/G/G/GG|^f
+W: . Gm F Gm Dm D7 Gm
+g3/2^f/g3/2a/d3/2^f/g3/2a/=f/d3/2c3/2A/FcA|fg/a3/2f/g3/2d/f3/2c/f3/2A3/2
+f/c3/2A/G/G/GG|
+W: . Gm F Gm F Dm F Dm D7 Gm
+
+X:245
+T:Stumpie
+Z:Footnote: 15 July 1996
+M:4/4
+L:1/8
+Q:128
+K:A
+|:c3/2e/a3/2b/ a/g/f/e/a2|c3/2e/a2 b/B3/2B3/2d/|c3/2e/a3/2b/ a/g/f/e/a2|
+c/e3/2B3/2d/ c/A3/2A2|
+W: A A E7 A A E7 A
+c3/2e/a3/2b/ a/g/f/e/a2|c3/2e/a2 b/B3/2B3/2d/|c3/2e/a3/2b/ a/g/f/e/a2|c/
+e3/2B3/2d/ c/A3/2A3/2d/|
+W: A A E7 A A E7 A
+c/e3/2e3/2c/ d/f3/2f3/2d/|c/e3/2e3/2c/ d/B3/2B3/2d/|c/e3/2e3/2c/ d/f3/2f
+3/2d/|c/e3/2B3/2d/ c/A3/2A2|
+W: A D A E7 A D E7 A
+c/e3/2e3/2c/ d/f3/2f3/2d/|c/e3/2e3/2c/ d/B3/2B3/2d/|c/e3/2e3/2c/ d/f3/2f
+3/2d/|c/e3/2B3/2d/ c/A3/2A2:|
+W: A D A E7 A D E7 A
+
+X:250
+T:Timour the Tartar
+Z:Footnote: 18 July 1996
+M:4/4
+L:1/8
+Q:128
+K:A
+z6Ez|A2(3cBA e2(3cBA|eAaA gAfA|e2(3cBA e2(3cBA|BEdE cEBE|
+W: A A D E D A E
+A2(3cBA e2(3cBA|eAaA gAfA|efec eaec|BABc A4|
+W: A A D E D A E A
+E2(3GFE B2(3GFE|BEdE cEBE|A2(3cBA e2(3cBA|eAaA gAfA|
+W: E A A D E D
+efec agaf|efec agaf|ecag fedc|BABc A4|
+W: A D A D E E A
+
+X:255
+T:Traditional Gaelic Melody
+Z:Footnote: 19 April 1994
+M:4/4
+L:1/8
+Q:128
+K:G
+|:d3/2c/B3/2c/ B/G3/2G2|B3/2G/F3/2G/ FDD2|d3/2c/B3/2c/ B/G3/2G2|F3/2C/D/
+^F3/2 G4|
+W: Gm Dm Gm F D7 Gm
+d3/2c/B3/2c/ B/G3/2G2|B3/2G/F3/2G/ FDD2|d3/2c/B3/2c/ B/G3/2G2|F3/2C/D/^F
+3/2 G4|
+W: Gm Dm Gm Eb F D7 Gm
+G2G/F3/2 G2G2|F3/2D/C3/2D/ B,3/2C/DF|G2G3/2F/ G2G2|F3/2C/D/^F3/2 G4|
+W: Gm Dm F Bb Dm Gm Dm D7 Gm
+G2G3/2F/ G2G2|F3/2D/C3/2D/ B,3/2C/DF|G2G3/2F/ G2G2|F3/2C/D/^F3/2 G4:|G2G
+3/2F/ G2G2|^F3/2C/D/^F3/2 G4|
+W: Gm Eb Dm F Bb Dm Gm Dm D7 Gm Eb Cm A7 D7 Gm
+
+% Output from ABC2Win  Version 2.1 f on 9/19/97

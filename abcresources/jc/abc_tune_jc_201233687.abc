@@ -1,0 +1,22 @@
+X: 20073
+T: LILLIBULERO
+Q: "With spirit."
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.7 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+B>cB | d2d | c>dc | e2e | (d/e/)fB | eed | c>BA | B2B |\
+B2B | d>ed | c>dc | e2e | efB | e2d | c>BA | B3 |]
+[|\
+b2a | b2f | fg_a | g2f | gab | b2f | gfd | c2c |\
+gfe | def | gfe | def | ged | e>ed | cBA | B3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% This set of the air is from "Durfey's Pills to Purge Melancholy."
+%%endtext
+%%sep 1 1 300

@@ -1,0 +1,19 @@
+X: 124008
+T: KATE DALRYMPLE
+Q: "Reel."
+R: Reel.
+%R: reel
+B: James Kerr "Merry Melodies" v.1 p.24 s.0 #8
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: A
+|:\
+A2Ac B2Bc | A2Ac B2Bc |\
+A2a2 fedc | B2e2 c2A2 :|\
+e2(ef) edcd | e2a2 e2c2 |
+e2{g}a2 e2{g}a2 | e2(ag) fedc |\
+d2bd c2ac | BABc edcB |\
+Aaga fedc | Bcde c2A2 |]

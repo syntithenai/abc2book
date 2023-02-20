@@ -1,0 +1,31 @@
+
+X: 1
+T: Tamburalo mom\vce uz tamburu
+S: https://www.youtube.com/watch?v=C-9g2-oG_qA 2017-7-28
+S: https://www.youtube.com/watch?v=nadbpEun-SQ 2017-7-28
+M: C
+L: 1/8
+Q: 1/8 2/8 1/8 2/8 2/8
+K: _B_E^F
+"^instr."[|\
+"D"DEDC D2E2 | "D"F2G2 A4 | "D"ABAG F2G2 | "D"A4 z4 |\
+"D"AcBA "Gm"G4 | "D"FAGF "Cm"E4 | "D"DFED "Cm"C2D2 | "D"D4 z4 :|
+"^vocal"|:\
+"Gm"DD3 "(D)"BAGF | "Gm"G4 z4 | "Gm"BB3 A2G2 |[M:3/4] "D"F2G2 A4 z4 :|
+w:1.~Tam-bu-ra-___lo mom-\vce uz tam-bu-*ru,
+w:   tam-bur-a___ mu od su-ho-ga zla-*ta,
+w:2.~Gle-da-la___ ga Aj-ka sa \vcar-da-*ka:
+w:  "Vi-di maj-___ko, li-je-pa ju-na-*ka!
+w:3.~Ka-ran-fil___ bih pod nje-ga ste-ra-*la,
+w:   a pod gla-___vu ru-me-nu ru-\vzi-*cu,
+[M:C]|:\
+"Gm"BB3 A2B2 | "Cm"cB3 A2G2 | "D"F2G2 A4 |
+w:1.~tan-ke \vzi-ce, ko-se dje-vo-ja\vc-*ke,
+w:2.~Da mi ga je u dvo-ru gle-da-*ti,
+w:3.~nek mi-ri-\vse, nek' se \vces-to bu-*di,
+| "D"A2B2 A2G2 | "(Cm)"FG3 A2G2 | "D"F3A "Cm"GFED | "D"D4 z4 :|
+w:   a ter-zi-jan pe-ro so-ko-lo-_____vo.
+w:   na nje-go-vim grud-'ma sev-di-sa-_____ti!
+w: \vces-to bu-di i \vces-to me lju-_____bi!"
+%
+%%text There's a lot of variety in the length of phrase endings.

@@ -1,0 +1,33 @@
+X: 21431
+T: CUCKOO SETT (tune 4)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.143 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: "pickup" rest added to 2nd strain to fix the rhythm.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+A |\
+d2A AFA | B2A AFA | d2A agf | ecA ABc |\
+d2A AFA | B2A AFA | dfa efg | fdd d2 H|]
+z |\
+fdd add | bdd add | fdd add | gfg eag |\
+fdd add | bdd add | gfg eag | fdd "^D.C."d2 |]
+d |\
+cdB AFA | BGB AFA | DFA dAF | GEE E2d |\
+cdB AFA | BGB AFA | DFA GEG | FDD "^D.C."D2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple promenade round,
+%% 2d 3d and 4th the same,
+%% and form lines lengthwise the hall,
+%% first lady in each set balance with each gentleman and turn who she pleases,
+%% gentleman perform the same,
+%% all balance and swing to place.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

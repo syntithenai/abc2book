@@ -1,0 +1,23 @@
+X: 20111
+T: FOR LACK OF GOLD
+Q: "Mod.o"
+%R: hornpipe, strathspey, reel
+B: "Edinburgh Repository of Music" v.2 p.11 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: flag added to the F in bar 1 to fix the rhythm, as in bars 7 and 15.
+M: C
+L: 1/8
+K: D
+%%slurgraces
+%%graceslurs
+F>E |\
+D3F A>BdA | B2e>f {f}e2dB |\
+d2a2 f>gad | f2a>b a3d |\
+~g>ab>g ~f>ga>f |
+{a}gfed {f}e2 (de/f/) |\
+D3F A>BdA | B2d>{f}e d2 :: d>e |\
+(fd)(eB) (dA)(BF) | E2e>f e2fa |
+(ba)(fb) (ad)(bd) | f2a>b {b}a2(gf) |\
+~g>ab>g  ~f>ga>f | {a}gf {f}ed {f}He2 (de/f/) |\
+D3F A>Bd>A | B2d>e d2 :|

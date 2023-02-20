@@ -1,0 +1,24 @@
+X: 3131
+T: Roy's Wife
+%R: air, strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.13 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow"
+K: F
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+|:\
+c>AA>G {B}A>GA<d | c>AA>F TG>FGA |\
+c>A {A}G>F f>g {f}Ha>g | {g}f>d c>{df}A TG>FG<A :|\
+Tc>dfa {g}g/f/g/a/ f>c | cd/e/ f>A {A}G<FG>A |
+cd/e/ f>a g/f/b/a/ Hg>f | {f}a>gf>A TA>G Af/d/ ||\
+!f!c>AA>G TA>GA<d | c<AA>F TG>FG<A |\
+!p!c>A {A}G>F f>g {f}Ha>g | {g}f>d c>{df}A TG>FG<A |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|: F2f2 F2fb | a2f2 c2c'2 | f2e2 d2H[A2f2] | zbaf c'2c2 :| a2f2 c'2f2 |
+ab af c'2c2 | F2f2 efc2 | F2f2 F2f2 || !f!zFfe fc fb | afd=b c'gc2 |!p!fc' ec' da Af | zBfF c2[c2C2] |]

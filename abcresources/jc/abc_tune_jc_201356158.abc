@@ -1,0 +1,62 @@
+%%scale 1.2
+%%barsperstaff 4
+X:1
+T:Beautiful River
+T:Shall We Gather At The River
+C:Robert Lowry
+M:4/4
+L:1/4
+K:Eb
+%%staves{RH1 RH2}
+V:RH1 clef=treble name="melody"
+|G G G3/4 F/4 G3/4 A/4|B2 G2
+w:v1~Shall we gath-er at the riv-er,
+w:v2~On the bos-om of the riv-er,
+w:v3~Ere we reach the shin-ing riv-er,
+w:v4~Soon we'll reach the shin-ing riv-er,
+V:RH2 clef=treble name="harmony"
+|E E E3/4 E/4 E3/4 F/4|G2 E2
+V:RH1
+|A A A3/4 B/4 A3/4 G/4|F2 B2
+w:Where bright an-gel feet have trod;_
+w:Where the Sav-ior King we own,_
+w:Lay we ev-'ry bur-den down;_
+w:Soon our pil-grim-age will cease;_
+V:RH2
+|F F F3/4 G/4 F3/4 E/4 D2-D2
+V:RH1
+|G G G3/4 F/4 G3/4 A/4|B2 G G/2 A/2
+w:With its crys-tal tide for-ev-er, Flow-ing
+w:We shall meet, and sor-row nev-er, 'Neath the
+w:Grace our spir-its will de-liv-er, And pro-
+w:Soon our hap-py hearts will qui-ver With the
+V:RH2
+|E E E3/4 E/4 E3/4 F/4|G2 E E/2 E/2
+V:RH1
+|F F/2G/2 A G/2F/2|E4||
+w:by the_ throne of_ God?
+w:glo-ry_ of the_ throne.
+w:vide a_ robe and_ crown.
+w:mel-o_dy of_ peace.
+V:RH2
+|D D/2E/2 F E/2D/2|E4||
+V:RH1
+|c c e3/4 d/4 e3/4 c/4|B2 G3/2 G/2
+w:ch~Yes, we'll ga-ther at the riv-er, The
+V:RH2
+|E E E3/4 E/4 E3/4 A/4|G2 E3/2 E/2
+V:RH1
+|A3/4 G/4 A3/4 G/4 A3/4 G/4 A/2F/2|G2 B2
+w:beau-ti-ful, the beau-ti-ful_ riv-er,
+V:RH2
+|F3/4 =E/4 F3/4 E/4 F3/4 E/4 F/2D/2|E2 G2
+V:RH1
+|c3/4 c/4 c3/4 c/4 e3/4d/4 e3/4 c/4|B2 G G
+w:Gath-er with the saints_ at the riv-er That
+V:RH2
+|A3/4 A/4 A3/4 A/4 A3/4-A/4 A3/4 A/4|G2 E E
+V:RH1
+|F F3/4 G/4 A G/2F/2|E4||
+w:flows by the throne of_ God.
+V:RH2
+|D D3/4 E/4 F E/2D/2|E4||

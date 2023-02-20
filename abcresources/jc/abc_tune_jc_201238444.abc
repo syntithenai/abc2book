@@ -1,0 +1,31 @@
+X: 30802
+T: COTILLION No. 2. BALTIMORE SETT tune 2
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.80 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The repeat pattern is really confused, especially for the 3rd staff, and may not be transcribed correctly.
+N: Consult with your dance leader to figure it out.
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+BFd BFd | f2d dcd | e2c ccc | d3 B2F |\
+BFd BFd | f2d dcd | ecc cBA | cBB B2 H|]
+d |\
+cd=e fed | dcc cBA | BAB dcB | BAA A2c |:\
+fff faf | dgg gbg | faf =ede | gff "^D.C."f2 :|
+d |\
+fab bag | g^ff f2d | e2e edc | cBB B2d ::\
+g/^f/g/a/b/a/ g=fd | e/d/e/f/g/f/ edc |1 BAG BAG | B3 B2B :|2 Bcg D^g^f | g3 g2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies chain,
+%% first lady forward and back twice,
+%% second gentleman the same,
+%% promenade 4,
+%% chain, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

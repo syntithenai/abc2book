@@ -1,0 +1,21 @@
+To: Shelley.Drowns@gmail.com
+Subject: Hail Massachusetts
+
+X: 1
+T: Hail Massachusetts
+M: 6/8
+L: 1/8
+P: Flute
+Q: 1/2=100
+%C:Barry Sadler and Robin Moore
+K:Ab
+E3||c2=Bc3|-c3A3|F2zF3-|F3E3|c2=Bc3|-c3A3|G6-|G2zB2c|d2cd3-|d3B3|
+G2zG3-|G3F2=E|E3G3|B3e3|c6-|c2zE3|c2zc3-|c3A3|F2=EF3-|F6|f2=ef3-|
+f3e3|d6-|d2zF2G|A2GA3-|A3B3|c2zA3-|A2zG2F|E2zd3|c3B3|A6-|A3|]
+%%textfont helvetica 10
+%%begintext
+%% OH! HAIL MASSACHUSETTS, THE GRAND OLD BAY STATE.
+%% SHE'S THE LEADER OF THE NATION AND THE MOLDER OF ITS FATE.
+%% WE'LL SWING DOWN THE AVENUE, COLORS ON HIGH,
+%% AND WE'LL TELL THE WHOLE CREATION, THAT MASSACHUSETTS PASSES BY!
+%%endtext

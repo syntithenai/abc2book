@@ -1,0 +1,21 @@
+X: 10
+T: Miss Gayton's Hornpipe
+%R: hornpipe
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.5 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(c>B) |\
+(A>c)(f>e) f2(c>B) | (A>c)(f>e) f2(c>B) | (A>a)(g>f) (e>d) (c>=B) | (c>e)(g>f) (e>d)(c>_B) |
+(A>c)(f>e) f2(c>B) | (A>c)(f>e) f2(f>e) | (d>e)(f>g) (e>f)(g>a) | (f>e)(f>g) f2 |]
+(f>g) |\
+(a>g)(a>f) g2e2 | (f>e)(f>d) c2A2 | (B>c)(d>B) (A>B)(c>A) | ({B}G>F)(G>A) G2(f>g) |
+(a>g)(a>f) g2e2 | (f>e)(f>d) c2(f>e) | (d>e)(f>g) (e>f)(g>a) | (f>e)(f>g) f2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands across, & back again,
+%% down the mid: & Allemande.
+%%endtext

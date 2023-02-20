@@ -1,0 +1,17 @@
+X: 495
+T: the Seige of Rochelle
+R: march, air
+%S: s:2 b:16(8+8)
+B: O'Neill's 1850 #495
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+Q: "Spirited"
+O: (Balfe.)
+N: Why "Balfe" is parenthesized isn't obvious.
+N: Typo: Bar 6 obviously needs e6 rather than e4.
+M: C
+L: 1/8
+K: C
+  ((3GAG) | .^F2.G2 .c2.d2 | e6 (fe) | .d2.^c2 .d2.e2 | (d4 g2) |\
+| ((3GAG) | .^F2.G2 .c2.d2 | e6 (^fg) | .g2Be .d2AB | G6 |]
+||((3GAG) | .^F2.G2 =f2e2  | d6 ((3GAG) | ^F2G2 =f2e2 | d6 |\
+| ((3GAG) |  ^F2G2   c2e2  | (a4 gfed) | (fe)(Bc) (ed)(AB) | c6 |]

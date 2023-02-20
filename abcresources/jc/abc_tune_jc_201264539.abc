@@ -1,0 +1,40 @@
+X:1
+T:Corkhill
+M:6/8
+L:1/8
+Q:80
+C:
+S:Jig
+K:HP
+|: {g}A{d}A{e}A{g}e2f | \
+{g}ec{G}c{g}e2f | \
+{g}A{d}A{e}A{g}e2f |
+{g}ec{G}c{gcd}c2B | \
+{g}A{d}A{e}A{g}e2f | \
+{g}ec{G}c{g}e2f |
+{g}A{d}A{e}A{Gdc}d2f | \
+{g}ec{G}c{gcd}c2B :: \
+{g}A{d}ceaec |
+aecaec | \
+{g}A{d}ceaec | \
+aec{gcd}c2B |
+{g}A{d}ceaec | \
+aecaec | \
+{g}A{d}A{e}A{Gdc}d2f |
+{g}ec{G}c{gcd}c2B :: \
+{g}A{d}A{e}A{g}ec{G}c | \
+{g}fd{G}d{g}ec{G}c |
+{g}A{d}A{e}A{g}ec{G}c | \
+{g}ec{G}c{gcd}c2B | \
+{g}A{d}A{e}A{g}ec{G}c |
+{g}fd{G}d{g}ec{G}c | \
+{g}A{d}A{e}A{Gdc}d2f | \
+{g}ec{G}c{gcd}c2B ::
+{g}A{d}A{e}Aac{G}c | \
+{g}ec{G}cac{G}c | \
+{g}A{d}A{e}Aac{G}c |
+{g}ec{G}c{gcd}c2B | \
+{g}A{d}A{e}Aac{G}c | \
+{g}ec{G}cac{G}c |
+{g}A{d}A{e}A{Gdc}d2f | \
+{g}ec{G}c{gcd}c2B :|

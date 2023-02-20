@@ -1,0 +1,133 @@
+X:2565
+T:The nightingale
+C:Thomas Weelkes
+O:England
+A:London
+B:Weelkes: AYERES OR Phantasticke Spirites for three voices (1608), no. 25
+H:Taken from the Performers' Facsimiles print of the London, 1608 edition
+Z:Transcribed by Laura Conrad - http://www.laymusic.org
+F:http://abc.musicaviva.com/tunes/weelkes-thomas/weelkes-1608-25/weelkes-1608-25-voca3.abc
+%Posted at abcusers Jan 17th 2001 by Laura Conrad
+% Copyright (C) 1999  Laura E. Conrad lconrad@world.std.com
+% 233 Broadway, Cambridge, MA 02139, USA
+%
+%    This information is free; you can redistribute it and/or modify it
+%    under the terms of the GNU General Public License as published by
+%    the Free Software Foundation; either version 2 of the License, or
+%    (at your option) any later version.
+%
+%    This work is distributed in the hope that it will be useful,
+%    but WITHOUT ANY WARRANTY; without even the implied warranty of
+%    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%    GNU General Public License for more details.
+%
+%    You should have received a copy of the GNU General Public License
+%    along with this work; if not, write to the Free Software
+%    Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+%%gchordfont Helvetica 12 box
+K:C
+T: Cantus
+M:C
+L:1/8
+N: Original clef, treble
+%1
+G4 d c B A G A B c B c d e d2 g2 g3 f/2 e/2 d4 c2
+w:The Night- in- _ _ _ _ _ _ _ _ _ _ gall the or- _ _ gan of
+%2
+B2 A4 B4 z4 z2 e2 e d e d e d c d e4 z2 f2 d4
+w: de- _ light- the nim- ble nim- ble nim- ble nim- ble Larke, the blacke
+%3
+   e4 z2 B2  ^c4    d2    d3  c B2  A2     G2 "A"^F4 z4 z2 d2 e   f   g4   f2 e3
+w: bird, The blacke bird, and _ the Thrush the Thrush,   and all the pre- ty Chor-
+%4
+   e    d2   B2 A4 z2   A2   d3 c B2 A2 B2 B2 A3 A B4 z2 d2 g3 f e2
+w: ris- ters of flight, that chant their Mu- sicke notes in ev- ery bush, that chant their Mu-
+%5
+d2 c2 B2 A3 A B4 |: z2 d2 d2 d2 e4 c2 f4 d2 d2 ^c2 d2 A2
+w:sicke notes in ev- ery bush, Let them no more con- tend who shal ex- cell, the
+%6
+z2 d2   B4 z2 g2  e3    e   a2   ^f2 z a   ^f2 z  a    ^f2   d2 z g    e2
+w: coo- ckoo coo- ckoo, the coo- ckoo coo- ckoo.  coo- ckoo the   coo- ckoo,
+%7
+z  g    e2 z  c    A2 z  d B2 z d B2 z d B2 z2 e3 e d2 B2 A3 A |1  G4:|2 HG16 ||
+w: coo- ckoo, coo- ckoo, coo-ckoo. coo- ckoo, coo- ckoo is the bird that beares the bell. bell.
+W:
+W:The Nightingall the organ of delight
+W:the nimble Larke, the blacke bird, and the Thrush,
+W:and all the prety Chorristers of flight,
+W:that chant their Musicke notes in every bush,
+W:Let them no more contend who shal excell,
+W:the coockoo is the bird that beares the bell.
+
+
+X:2
+T: XXV. The Nightingale
+O: AYERES OR Phantasticke Spirites for three voices
+H: taken fromm the Performers' Facsimiles print of the London, 1608 edition
+C: Thomas Weelkes
+%%gchordfont Helvetica 12 box
+K:C
+T: Tenor
+M:C
+L:1/8
+N: Original clef, treble
+%1
+z4 G4 d c      B   A G A B c B2 c d e3   d/2 c/2 B4  A2  G4 ^F2 G4 z4 z2
+w:The Night- _ in- _ _ _ _ _ _  _ _ gall the _   or- gan of de- light
+%2
+c2 c B c B c B A B c4 z2 A2 B4 c4 z2 g2 e4 ^f4 z2 d3 c B2
+w: the nim- ble nim- ble nim- ble nim- ble Larke, the blacke bird, the Black- bird, and the
+%3
+"A"A4 z2 G2 B c d4 c2 B B A B ^c d2 c d4 z2 A2 d3 c
+w: Thrush and all the prit- tie quer- ist- ers of _ _ _ flight, that chant their
+%4
+   B2  A2    G2    ^F2 G6 ^F2  G2    d2   g3    f     e2  d2    c2    B2 A2  G4 ^F2 G4 |: z2 B2 B2
+w: Mu- sicke notes in  ev- ery bush, that chant their Mu- sicke notes in ev- _ ery bush, Let them
+%5
+   B2 c4   A2   A4   A2  B2   G2  ^F6   A2 z2 d2   B4   g2   e2 z  d   a2   ^f2
+w: no more con- tend who shal ex- cell, the   coo- ckoo coo- ckoo, the coo- ckoo
+%6
+z   a     ^f2 z d    B2   G2 z  g    e2 z  g    e2   ^f ^f  g2 z d    B2 z d B2
+w:  coo- ckoo.  coo- ckoo the   coo- ckoo, coo- ckoo is the bird coo- ckoo coo- ckoo
+%7
+z d B2 c3 c B2 G2 G2 ^F2 |1 G4 :|2 HG16 ||
+w:  coo- ckoo is the bird that beares the bell. bell.
+
+X:3
+T: XXV. The Nightingale
+O: AYERES OR Phantasticke Spirites for three voices
+H: taken fromm the Performers' Facsimiles print of the London, 1608 edition
+C: Thomas Weelkes
+%%gchordfont Helvetica 12 box
+%%MIDI transpose -12
+K:C
+T: Bassus
+M:C
+L:1/8
+N: Original clef: C on second line
+%1
+z8 z4 G4 g        f e d c d e f g2   G2 A2 B c   d2
+w:   The Night- _ in- _ _ _ _ _ gall the or- gan _ of
+%2
+d2 G2 g2 g ^f g ^f g ^f e f g4 z4 z2 c2 F4
+w: de- light- the nim- ble nim- ble nim- ble nim- ble Larke, the blacke
+%3
+   G4 z2 c2  G4     A4    d3  e ^f2 g2  d4 "A"z2 d2 e f g4 f2 e3 e d2 d2 A4 z2
+w: bird, The blacke bird, and _ _   the Thrush, and all the pre- ty qui- rist- ers of flight,
+%4
+G2 d3 c B2 A2 G2 ^F2 G2 d2 G4 z2 d2 g3 f e2 d2 c2 B2 c A B
+w: that chant their Mu- sicke notes in ev- ery bush, that chant their Mu- sicke notes in e- very bush,
+%5
+G A ^F G B d3 d G4 |: z2 g2 g2 g2 c4 f2 d4 f2 g2
+w: in ev- ery bush, in ev- ery bush: Let them no more con- tend who shal
+%6
+   e2  d8 z2 G2 g2 e3 e a2 ^f2 d4 d2 d2 d2 z g e2 c3 c c2 c2
+w: ex- cell, the coo- ckoo, the coo- ckoo, is the bird, the coo- ckoo is the bird the
+%7
+z   d    B2   G6 G2  G4   c4 G4 d4 |1 G4 :|2 HG16 ||
+w:  coo- ckoo is the bird that beares the bell. bell.
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

@@ -1,0 +1,677 @@
+Repertorio recomendado para principiantes. José Moreno.
+Tutor de Tin Whistle: http://personales.alcavia.net/~jmoreno/tw
+jmoreno@alcavia.net
+X:1
+T:Cumpleaños Feliz
+Q:90
+K:G
+DDE2D2 G2F2 DDE2D2 A2G2 DDB2A2G2F2E2 cc2B2G2 A2G2
+
+X:2
+T:Jarre
+C:Jean Michael Jarre
+M:4/4
+L:1/4
+Q:50
+K:A
+AGF2| FED2:|
+def2| cde2|
+Bcd2| cBF2|
+
+X:3
+T:March (Mozart)
+R:March
+C:Mozart
+M:2/4
+L:1/8
+K:G
+GA|B2GA|BAGF|EFGA|FD GA|B2GA|BAGF|EA FD|G2:|
+
+X:4
+T:Minuet (Bach)
+R:Minuet
+C:J.S. Bach
+M:3/4
+L:1/8
+Q:110
+K:D
+A2DEFG|A2D2D2|B2GABc|d2D2D2|G2AGFE|!F2GFED|E2DEFD|E2AGFE|
+A2DEFG|A2D2D2|B2GABc|!d2D2D2|G2AGFE|F2GFED|E2FEDE|D6||
+
+X:5
+T:O Son do Ar
+C:B. Romero (Luar Na Lubre)
+D:Luar Na Lubre: Plenilunio
+D:Mike Oldfield: Voyager
+O:Galicia
+Q:90
+K:D
+EFG FGA GAB AGE GAd edc dc cB AB
+EFG FGA GAB AGE GAG FED EFE:|
+BAGFE FED EFE FGA GFE FDF FE DE
+BAGFE FED EFE FGA GFG FEF EDE
+
+X:6
+T:O Son do Ar 2
+C:Bieito Romero (Luar Na Lubre)
+D:Luar Na Lubre: Plenilunio
+D:Mike Oldfield: Voyager
+O:Galicia
+K:D
+E2F2G3 FG2A3 GA2B3 AG2E3
+GB2d3 ed2c3 dc2c2 B3 AB2
+E2F2G3 FG2A3 GA2B3 AG2E3
+GA2G3 FE2D3 EF2E8 :|
+|:BAGFE4 F2D3 F3E3 FG2A3
+GF2E4 F2D3 FF2 EEDE2
+BAGFE4 F2D3 F3E3 FG2A3
+GF2G3 FE2F3 ED2E8:|
+>|:BAGFE4 F2D3 EF2E3 FG2A3
+>GF2E4 F2D3 EF2 F2 E3DE2
+>BAGFE4 F2D3 EF2E3 FG2A3
+>GF2G3 FE2F3 ED2E8:|
+
+X:7
+T:Tú Gitana
+A:Galicia
+D:Luar Na Lubre: Plenilunio
+O:Spain
+M:C|
+K:C
+% (Introducción de "violín Cedrón")
+D8 ^C8 D8 z/2 ^F8 E8 ^F8
+% (Introducción de gaita, of course, Bieito)
+B2^c2d4 E2^c4d2  BAG8
+DE^F4 ^F2A4 EG^F8
+B2d2^c4 ^F2d4 ^c2BAG8
+Bd^c4  A2B2 d^cd8
+% (aquí entra la melodiosa voz de Rosa)
+B2^c2d4 E2^c4d2 BAG8
+DE^F4 ^F2A4 EG^F8
+B2d2^c4 ^F2d4 ^c2BAG8
+Bcd4 e2c2A2 dcB8
+%
+B2^c2d4 E2^c4d2 BAG8
+DE^F4 ^F2A4 EG^F8
+^F2A2^G4  E2D4^C2 B,A,G,8
+DEF4 G2E4 FED8
+
+X:8
+T:Auld Lang Syne
+O:Scottish
+M:4/4
+L:1/8
+Q:100
+K:D
+D2|G3FG2B2|A3GA2B2|G3GB2d2|e6e2|d3BB2G2|A3GA2BA|G3EE2D2|G6e2|
+d3BB2G2|A3GA2e2|d3BB2d2|e6e2|d3BB2G2|A3GA2BA|G3EE2D2|G6||
+
+X:9
+T:The Cats Jig
+R:jig
+M:6/8
+L:1/8
+Q:150
+K:G
+BGGG2A|BABd2B|cBc Adc|BGGG3:|
+
+X:10
+T:God Rest Ye Merry Gentlemen
+D:Loreena McKennitt (A Winter Garden)
+M:4/4
+L:1/4
+Q:150
+K:D
+B|Bffe|dcBA|Bcde|f3B|Bffe|dcBA|Bcde|f2 z f|gefg|
+abfe|dBcd|e2de|f2gf|fedc|B2 d/2c/2 B|e2de|fgab|fedc|B3|
+
+X:11
+T:Off She Goes
+R:jig
+M:6/8
+L:1/8
+K:D
+F2A G2B|ABc d3|F2A G2B|AFD E2D|\
+F2A G2B|ABc d2e|f2d g2f|edc d3::
+f2a afd |\
+M:3/8
+e4f2|\
+M:6/8
+g2b b2g|f2a f2d|e2cA3|\
+f2a afd|g2b b2g|f2a f2d|e3 d3:|
+
+X:12
+T:Amazing Grace
+M:3/4
+L:1/4
+D/G/|G2B/A/G/|B2B/A/|G2 E|D2 D/G/
+|G2 B/A/G/| B2 A/B/| d2>| d2 B/d/
+|d2 B/A/G/|B2 B/A/| G2 E| D2 D/G/
+|G2 B/A/G/ |B2A|G2>|G2
+
+X:13
+T:Irish Washerwoman, The
+R:jig
+Z:Bar 3 also played |cAA =FAA| or |cAA EAA|
+Z:id:hn-jig-2
+M:6/8
+K:G
+BGG DGG|BGB dcB|cAA FAA|cAc edc|BGG DGG|BGB dcB|cBc Adc|1 BGG G2A:|2 BGG
+ Gef||
+|:gfg ~d3|gdg bag|fef ~d3|fdf agf|egg dgg|cgg Bgg|cBc Adc|1 BGG Gef:|2 B
+GG G2A||
+
+X:14
+T:Mn na h-Eireann (Women of Ireland)
+R:Air
+C:Sean O Riada (words by Peadar O Doirnin ?1704-1769)
+S:Sean O'Malley <d034923c@dc.seflin.ORG> (tune)
+S:Joseph Mulvanerty <mulvanerty@WORLDNET.ATT.NET> (words)
+S:Translation from Caroline Foty <fotyc@EARTHLINK.NET>
+N:From James Galway's "Legends"
+N:CD. The {G}A is actually a slide
+N:from G to A which makes up for
+N:the missing beat in the measure.
+N:(There really isn't a good way
+N:to notate slides in ABC.)
+D:James Galway's "Legends" CD
+D:Joanie Madden "Song of the Irish Whistle"
+M:4/4
+L:1/4
+Q:60
+W:
+W: Ta bean in Eireann a phronnfadh sead damh is mo shaith le n-ol
+W: Is ta bean in Eireann is ba bhinne leithe mo rafla ceoil
+W: No seinm thead; ata bean in Eirinn is niorbh fhearr lei beo
+W: Mise ag leimnigh no leagtha i gcre is mo tharr faoi fhod
+W:
+W: Ta bean in Eireann a bheadh ag ead liom mur bhfaighfinn ach pog
+W: O bhean ar aonach, nach ait an sceala, is mo dhaimh fein leo;
+W: Ta bean ab fhearr liom no cath is cead dhiobh nach bhfagham go deo
+W: Is ta cailin speiriuil ag fear gan Bhearla, dubhghranna croin.
+W:
+W: Ta bean a dearfadh da siulann leithe go bhfaighinn an t-or,
+W: Is ta bean 'na leine is is fearr a mein no na tainte bo
+W: Le bean a bhuairfeadh Baile an Mhaoir is clar Thir Eoghain,
+W: Is ni fhaicim leigheas ar mo ghalar fein ach scaird a dh'ol.
+W:
+W:
+W: There's a woman in Ireland who'd give me shelter and my fill of ale;
+W: And there's a woman in Ireland who'd prefer the strains of my music
+W: To the playing of strings; there's a woman in Ireland and nothing would
+W:lease her more
+W: Than me burning or lying in the clay beneath the sod.
+W:
+W: There's a woman in Ireland who would be envious if I were to get only a
+W:iss
+W: From a woman at a fair, isn't it strange, and I love them all;
+W: There's a woman whom I prefer to battle and a hundred of them I will ne
+W:r get
+W: And there's a beautiful girl who belongs to a man without English, so u
+W:y.
+W:
+W: There's a woman who would say that if I would wander with her I would f
+W:d gold;
+W: And there's a woman in a shift whose beauty is worth more than the catt
+W: raids
+W: With a woman who vexed Ballymoyer and the plain of Tyrone {this is a
+W: reference to Maeve and the cattle raid of Cooley, a Cuchulainn tale}
+W: And I see no cure for my illness but drink.
+K:G
+{G}ABc | g2 a~g | fdA2 | ABc2 | BcA2 | ~A4 |
+{G}ABc | g2 b~a | gfdA-| AABc-| cBcd-| dcBd |
+G2 G g-| gaba-| ag2e | de2 d | cBAg-| ga2g |
+fd2 e | cA2G | FG3 |]
+
+X:15
+T:Mist covered mountains (Chi mi na mor-bheanna)
+R:Waltz
+O:Scotland
+M:3/4
+L:1/4
+K:Am
+A3|A3|e>de|edB| G3|G2A|B>AB|A>GE |c3|d3|\
+e>^fg|B>AG|A>Be|dcB|A3|A3||\
+e3|e3| deg|edB| G2G|d2B|e2e|d>cB|A3| c3|\
+d>eg|B>AG|A>Be|dcB|A3A3|]
+
+X:16
+T:The Mist-Covered Mountains of Home
+R:Slow Air
+C:Traditional
+O:Scotland
+M:3/4
+L:1/8
+K:G
+|:A4 AG |A3 B cd |e3 A B2 |A3 G EF |G4 GF |G3 A B2 |B2 A2 B2 |A3 G E2 |c4 Bc |\
+d3 c d2 |e3 f g2 |B3 A G2 |e3 c e2 |d4 cB |A2 GE A2 |1 A4 EG :|2 A4 e2 ||\
+|:e6 |e4 ed |e3 f g2 |e3 d BA |G3 D G2 |d4 d2 |e4 e2 |d3 c B2 |c4 Bc |\
+d3 c d2 |e3 f g2 |B3 A G2 |A e3 Ae |d4 cB |A2 GE A2 |1 A4 e2 :|2 A4||\
+
+X:17
+T:Brian Boru (José)
+M:6/8
+Q:90
+K:D
+|:B G2 F E E2 B G2 F E E2
+A F2 E D D2 A F2 E D D2
+B G2 F E E2 B G2 F E E2
+E F G A2 G F EEE2:|
+|:F G A B2 A B2 A B2 A
+E F G A2 G A2 G A2 G
+F G A B2 A B2 A B2
+E F G A2 G F EEE2:|
+|:B G2 F E B2 B G2 F E B2
+A F2 E D A2 A F2 E D A2
+B G2 F E B2 B G2 F E B2
+E F G A2 G F EEE2:|
+|:B G2 F E E2 B G2 F E E2
+A F2 E D D2 A F2 E D D2
+B G2 F E E2 B G2 F E E2
+E F G A2 G F EEE2:|
+F G A B2 A B2 A B2 A
+E F G A2 G A2 G A2 G
+F G A B2 A B2 A B2
+E F G A2 G F EEE2
+
+X:18
+T:Brian Boru's March
+R:march
+Z:id:hn-march-4
+M:6/8
+Q:90
+K:Ador
+ed|:cBA Aed|cBA Adc|BAG Gdc|BAG Ged|
+cBA Aed|cBA A2G|Acd e2d|1 cAA Aed:|2 cAA A2G||
+|:Acd e2d|e2d edc|GBc d2g|d2g dBG|
+Acd e2d|e2d edc|Acd e2d|1 cAA A2G:|2 cAA A2B||
+|:cBA aAA|cBA aAA|BAG gGG|BAG gGG|
+cBA aAA|cBA aAA|Acd e2d|1 cAA A2B:|2 cAA A2||
+
+X:19
+T:Brian Boru's March
+R:march
+M:6/8
+L:1/8
+K:C
+ed |: c3/2B/A Aed |c3/2B/A Adc |B3/2A/G Gdc |B3/2A/G Ged |c3/2B/A Aed |\
+c3/2B/A A3 |Acd e2 d |1 c3/2B/A Aed :|2 c3/2B/A A2 G |
+|:Acd e2 d |e2 d e3/2c/A | GAB d2 B |d2 B d3/2B/G |Acd e2 d |e2 d e3/2c/A |
+A3/2c/d e2 d |1 c3/2B/A A2 G :|2  c3/2B/A A2 B|
+|: c3/2B/A a2 a |c3/2B/A a2 a |B3/2A/G g2 g |B3/2A/G g2 B |c3/2B/A a2 a |
+c3/2B/A a2 b |c'ba gfe |dcB A2 B :|
+|: cde g2 e |g2 e g3/2e/c |GAB d2 B |d2 B d3/2B/G |cde g2 e |g2 e g3/2e/c |
+Acd e2 d |1 c3/2B/A A2 B :|2 c3/2B/A A2 ||
+
+
+X:20
+T:Cóndor Pasa. El
+O:Peru
+Q:70
+K:G
+a2gagedcde:|
+eeef2 gagedcdA2
+|:EA GABcBcde2 g2e2 age2 edcA2cA :|
+EA2 GAGA2 cAG2 AGE2 edcA2 cA
+cAde2AAAA
+|:EAG AB cB cd e2 ged ed cA:|
+EA2 G AG AG AAAcG2 G   AGE
+|: EAG AB cB cd eeege2 ed ed cA:|
+ea ga ed cAG AE2G ABd ege
+ea ga ed cAG AE2 AB cd ed cA
+egegd ge          ea ga ed cAG AE2 AB c
+ded cA      cced c2AcAG2 cceged c
+AAcAGEE DEG2 ccd ed cA
+
+X:21
+T:Trip to Plymouth, The
+R:Jig
+A:Lancashire
+B:Winder
+O:England
+M:6/8
+K:D
+A | d2f ecA | Bcd AFD | FGA Bcd | efd cBA | \
+d2f ecA | B2d AFD | FGA Bcd | edc d2 :|*
+ |:A | e2f ecA | f2g fdA | Bcd efg | Bed c2A | \
+e2f ecA | f2d AFD | FGA Bcd | edc d2 :|**
+
+X:22
+T:South Wind, The
+R:Other
+C:Turlough O'Carolan (?)
+D:Joemy Wilson, "Celtic Dreams"
+D:Joanie Madden, "Song of the Irish Whistle"
+O:Ireland
+M:3/4
+L:1/8
+K:G
+c2|B3 AG2|B3 cd2|A4A2|A4c2|!
+B3 AG2|E3 DE2|G4G2|G4:|!
+|:d2|g4g2|g3 fe2|d4d2|d4c2|!
+B3 AG2 |1 B3 cd2|A4A2|A4:|2 Ac3F2|(G6|G4)||!
+
+X:23
+T:Lord Mayo
+R:march
+C:David Murphy
+Z:Origianlly a harp tune. David Murphy was harper to Lord Mayo
+M:2/4
+L:1/16
+K:G
+A2G2 A2B2|e4 edBd|e2A2 A2BA|GAGF E2D2|!
+A2G2 A2Bd|e3f g3f|e3f gdBG|A8:|!
+a4 gega|b4 b2ag|e2d2 deg2|G3A G2E2|!
+a4 gega|b4 b2ag|e2d2 deg2|a8|!
+a4 gega|b4 b2ag|e2d2 deg2|G3A G2E2|!
+A3B d3B|AGAB g4|e3f gdBG|A8||!
+
+X:24
+T:Muiñeira de Lugo
+R:muiñeira
+C:Trad.
+B:Xose Luis Foxo- Os segredos da Gaita
+O:Galicia (Spain)
+Z:Transcrito por Antonio-Nil
+M:6/8
+K:AMix
+dc |:A4dc|A4dc|A>BA G>FG| B2A2dc| A4dc| A4dc| A>BA G>FE |1 D4dc :|2 D3F2F||
+|:F2GA>GF|E3G2G|G2ABAG|F3F2F|F2GA>GF|E3G>AG |F>GF E>FE |1 D3F2F :|2 D2 ||
+
+X:25
+T:I buried my wife and danced on her grave
+R:Jig
+O:Irish
+M:6/8
+L:1/8
+Q:130
+K:G
+|:DED F2 G|AdB cAF|G2A BAG|F2  F GEA|
+  DED F2G|AdB cAF|G2A BAG|AFD  D2A:|
+|: d2e fed| faf gfe| d2e fed| dcA dcA|
+ d2e fed| faf gfe |dcA BAG|1 AFD  D2A
+:|2 AFD  D2|
+
+X:26
+T:Highlanders Lamentation, The
+R:Air
+A:Lancashire
+B:Winder
+O:England
+M:4/4
+L:1/8
+Q:1/4=75
+K:G
+B/A/|G2GE D3E|G2GA cBAG|cBce dBAG|ABAG E2BA|!
+G2GB D3E|G2G2 g3f|edcB ABcd|B2G2 G3:|!
+|:f|gfef d3d|gfga b3a|e2ge dBAG|ABAG E2BA|!
+G2GB D3E|G2G2 g3f|edcB ABcd|B2G2 G3:|!
+
+X:27
+T:Shepherd's Hey
+O:English
+M:4/4
+L:1/8
+Q:150
+K:D
+fgafg4|fgafe4|fgafg2fg|a2A2d4:|
+|:agfa gfeg|fedfe4|dcde fefg|a2A2d4:|
+|:afaf bgbg|afafe4|dfeg fagb|a2A2d4:|
+
+X:28
+T:Scarborough Fair
+O:English
+M:3/4
+L:1/4
+Q:70
+K:D
+E2E|BAB|F>GF|E3|EBd|e2d|BcA|B3|B  z  B|!
+e2e|G2A|BAG|E2D|E2B|A2G|FED|E3E||
+
+X:29
+T:Portsmouth
+S:Playford
+A:English
+O:Manuscript
+M:4/4
+L:1/8
+Q:160
+K:G
+D2|G3 A BAGD|E4 e4|d2 B2 cBAG|A6
+D2|G2 F BAGF|E4 e4|d2 B2 cBAB| G6::\
+d2|g3 a bagf|g2 d4 B2|g2 B2 cBAG| A6
+D2|G3 A BAGF|E4 e4|d2 B2 cBAB| G6:|
+
+X:30
+T:Romance d'amour
+O:Spain???
+M:4/4
+L:1/4
+Q:90
+K:G
+BBBB|AGGF|EEGB|eeee|dccB|AABc|B^dcB|BAFF|FFGF|E2
+
+X:31
+T:Oda a la Alegria
+C:Beethoven
+M:4/4
+L:1/8
+Q:50
+K:G
+BBcd|dcBA|GGAB|B>AA2|!
+BBcd|dcBA|GGAB|A>GG2|!
+AABG|A B/2c/2 BG|A B/2c/2 BA|GAD2|!
+BBcd|dcBA|GGAB|A>GG2|
+
+X:32
+T:Silent Night
+C:Gruber
+M:3/4
+L:1/8
+Q:120
+K:D
+A3BA2|F6|A3BA2|F6|e4e2|c6|d4d2|A6|B4B2|d3cB2|A3BA2|F6|
+B4B2|d3cB2|A3BA2|F6|e4e2|g3ec2|d6|f6|d3AF2|A3GE2|D6|D4 z2 |
+
+X:33
+T:In Dublin's Fair City
+T:(Cockles and Mussels)
+H:Molly Malone
+M:3/4
+Q:90
+K:G
+D|GGG|GB G/G/|AAA|Ac B/A/
+|BAG|dcB|BAG|A2D
+|GGG|GBG|AAA|Ac B/A/
+|Bdc|Bdc|BGA|G2
+
+X:34
+T:Lluvia en soledad
+C:Celtas Cortos
+O:Spain
+Q:60
+DEGED
+DDEGE
+DEGABcd
+Bdege
+edBBAGBAGEG
+DEGABcd
+cBAGABAG
+
+X:35
+T:She Moved Through the Fair
+R:Air
+D:Chieftains, "The Long Black Veil" (Sinead O'Connor)
+O:Ireland
+M:3/4
+L:1/8
+Q:1/4=95
+K:D
+ABc|d2c2d2|e2 (e4|e4)dB|G3 AA2|!
+(A6|A4)ef|g2a3e2|f2e3c|!
+d2c2d2|(e6|e4)ef|g2a3e|!
+f2e3c|d2c2d2|(e6|e4)AB c|!
+d2c2d2|e2 (e4|e4)dB|G4A2|!
+(A6|A4)||
+
+% Output from ABC2Win  Version 2.1 f on 12/09/98
+X:36
+T:Carrickfergus
+R:Air
+M:3/4
+L:1/8
+Q:90
+K:F
+f2 f3 e|d2 G4|GA B3 c|A3 G F2-|F2 FG A2|B2 D4|EF G3 A|F6:|
+cc f2 e2|f6|fg a2 f2|g3 e c2|c2 f2 g2|a6|gf b2 a2|g6|
+f2 f2 e2|d2 G4|GA B3 c|A3 G F2-|F2 FG A2|B2 D4|EF G3 A|F6|]
+
+X:37
+T:Carrickfergus
+S:Ir-Trad, Dan Mozell, 3/97
+D:Chieftains, "Chieftains Live"
+O:Ireland
+M:4/4
+L:1/8
+Q:1/4=100
+K:G
+g2g2 f2|e4 A4-|A2B2 c2d2|B3A G4-|G2G2 A2B2|!
+c4 E4-|E2F2 G3G|G8-|[1 G2:|[2 G2d2 g2a2||!
+b8-|bgab c'2b2|a3f d4-|d2dd g2a2|!
+b8-|bgab c'2b2|a8-|a2g2 g3f|!
+e4 A4-|A2AB c2d2|B3A G4-|G2G2 A3B|!
+c4 E4-|E2F2 G3G|G8-|G2||!
+
+X:38
+T:Canon
+M:4/4
+L:1/8
+Q:1/4=98
+K:D
+f4 e4 d4 c4 B4 A4 B4 c4
+f4 e4 d4 c4 B4 A4 B4 c4
+f4 e4 d2 f2 a4 gf eg fe dc BA Bd d2 c2:|d4
+
+
+X:39
+T:Rising of the Moon
+M:4/4
+L:1/4
+K:D
+D/2 E/2 FFF|EFAA|FFEE|FE2 A/2A/2|BGdc|BAFD|EDDE|D2
+
+X:40
+T:Glass of Beer, The
+R:reel
+D:Oisin: Over the Moor to Maggie.
+D:Frankie Gavin: Up and Away
+Z:id:hn-reel-77
+M:C|
+K:Bm
+fB~B2 fBaB|fB~B2 e2de|fB~B2 ~f3e|1 dfaf e2de:|2 dfaf e2fe||
+|:~d3e ~f3e|defd eA~A2|~d3e fgfe|1 dfaf e2fe:|2 dfaf e2de||
+
+X:41
+T:Me Zo Ganet E Kreiz Ar Mor (acordes)
+R:Air
+C:Traditional
+A:Brittany
+O:France
+M:C
+L:1/4
+K:Em
+|:zE BA|"Em"B4 -|"Em"B^c AG|"Bm"F4 -|!
+"Bm"FG AB|"Em"E4 -|"Em"EF GA|"C"{GA}GE DE|!
+"Bm"F4 -|"Bm"FB AB|"Em"E4 -|"Em"EF AG|!
+"Em"E2 "Bm"{FE}D2 -|"Bm"DE GA|"G"B3G|"A"A2 ^c2|!
+"Em"B4 -|"Em"BE BA|"Em"B4 -|"Em"B^c AG|!
+"Bm"F4 -|"Bm"FG AB|("A"E4|("A"E4)|"Em"E4):|!
+
+X:42
+T:Me Zo Ganet E Kreiz Ar Mor
+A:Bretaña
+O:Francia
+M:C
+L:1/4
+K:D
+E BA B5
+c AG F5
+G AB E5
+FGA {GA} GE DE F5
+B AB E5
+F AG E2 {FE} D3
+E GA B3
+G A2c2 B5
+E BA B5
+c AG F5
+G AB E4E4E4
+
+X:43
+T:Banjo breakdown
+R:Jig
+S:Sessions
+O:Scotland
+M:6/8
+K:A
+AAA c2e|a2e c2e|AAA d2f|a2f d2f|\
+AAA c2e|a2e c2e|BBB c2e|BBB c2e|
+AAA c2e|a2e c2e|AAA d2f|a2f d2f|\
+efg agf|e2d c2B|Ace aec|A3-A2||
+e|a2e c2e|a2e c2e|a2f d2f|a2f d2f|\
+AAA c2e|AAA c2e|AAA d2f|AAA d2f|\
+AAA c2e|AAA c2e|B2e ccc|BBB c2e|
+AAA c2e|AAA c2e|AAA d2f|AAA d2f|\
+efg agf|e2d c2B|Ace aec|A3 Ace||
+a2e cee|a2e cee|a2f dff|a2f dff|\
+a2e cee|a2e cee|
+Bee cee|Bee cee|\
+aee cee|aee cee|aff dff|
+aff dff|\
+efg agf|efe dcB|Ace aec|A3 a3||
+
+X:44
+T:Union Reel, The
+R:reel
+D:Mary Bergin: Feadoga Stain
+Z:id:hn-reel-382
+M:C|
+K:A
+e2 (3cBA eAcA|eAcA Bcdf|1 e2 (3cBA eAcA|(3Bcd cA BAFA:|2 ~e3c dcBA|FABc d3A||
+K:D
+|:df~f2 dfef|df~f2 afef|df~f2 dfec|1 dcBA FABc:|2 dcBA Bcdf||
+K:A
+"variations"
+eA (3cBA eAcA|e2cA Bcdf|1 eA (3cBA eAcA|Bcdc BAFA:|2 ~e3c dcBA|FABc dABc||
+K:D
+|:df~f2 d2ec|df~f2 afec|df~f2 dfec|1 dcBA FABc:|2 dcBA FAdf||
+
+X:45
+T:Lullaby
+C:Miss Mary Gawne, Peel
+Z:KV381
+M:3/8
+Q:80
+K:D
+D/E/|F F D|G2 G|F F D|E D D/E/|F F D|E F G|E D D|D2:|
+A/B|=c2 B/A/|B2 A/G/|A2 A/G/|F D A/B/|=c2 B/A/|B2 A/G|A d c|d2 A/B|
+=c2 B/A/|B d B|A A G|F D D/E/|F F D|E F G|E D D|D2||
+
+X:46
+T:Aires de Pontevedra
+R:Alborada?
+C:gaiteiro de Viasc\'on
+B:Xose Luis Foxo- Os segredos da Gaita
+O:Galicia (Spain)
+Z:Transcrito por Antonio-Nil
+M:2/4
+L:1/16
+K:Amix
+EF |: GFGEFDEF| GFGEFDEF| GFGEFDEF| GFGEFDFA| =c4 cBce| d=cBAGFGA| G4{GA}GFGA| d=cBAGFGA| F2{GF}D2FD
+d=cBAGFGA| E4FAFD| FAFDGAGC| E2D2D4-|1 D6EF :|2 D2A2d2A2
+|: F2GABAGF| E3FGAGF| E2FGAGFE| D2A2d2A2|
+F2GABAGF| E3FGAGF| BAFDAGEC |1 D2A2d2A2:|2 D3EF
+|: GFGEFDEF| GFGEFDEF| GFGEFDEF| GFGEFDFA| =c4 cBce| d=cBAGFGA| G4{GA}GFGA| d=cBAGFGA| F2{GF}D2FDFA|
+d=cBAGFGA| E4FAFD| FAFDGAGC| E2D2D4-|1 D6EF :|2 D2A2d2A2
+|: F2GABAGF| E3FGAGF| E2FGAGFE| D2A2d2A2|
+F2GABAGF| E3FGAGF| BAFDAGEC |1 D2A2d2A2:|2 D3EF| D2A2d2
+

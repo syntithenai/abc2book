@@ -1,0 +1,47 @@
+X: 1
+T: I'm Dreaming of Home
+C: Phillippe Rombi
+%C: words: Lori Barth
+N: Theme song from the World War I French film "Joyeux Noël"
+R: march
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+A2 |\
+"D"d3e f2d2 | "F#m"A6 A2 | "Em"e3f g2e2 | "A7"c4 A2A2 | "D"f3g a2f2 |
+w:1.~I hear the moun-tain birds, The sound of riv-ers sing-ing A song I've of-ten
+w:2.~It's car-ried in the air, The breeze of ear-ly morn-ing. I see the land so
+w:3.~This is no for-eign sky, I see no for-eign light,* But far a-way am
+"Bm"d6 d2 | "G"[b4B4] "A7"a3f | "Bm"d6 d2 | "G"[b4B4] "A7"a3f | "Bm"d6 d2 |
+w:1.~heard. It flows through me now, So clear and so loud. I
+w:2.~fair. My heart o-pens wide, There's sad-ness in-side, I
+w:3.~I From some peace-ful land I'm long-ing to stand A
+"G"[b4B4] "A7"a3f | "D"d4 "A7"e2A2 | "G"g4 "D"f2a2 | "Em"g4 "A7"e3d | "D"a6 a2 |
+w:1.~stand where I am, And for-ev-er I'm dream-ing of home I
+w:2.~stand where I am, And ...
+w:3.~hand in my hand,  And ...
+"Em"g4 "A7"e3d | "D"a6 a2 | "Em"g4 e4- | "A7"e6 d2 | "D"d4- "(G)"d4- | "D"d6 |]
+w:feel so a-lone, I'm dream-ing* of home.
+
+%%sep 1 1 500
+
+X: 1
+T: I'm Dreaming of Home
+C: Phillippe Rombi
+%C: words: Lori Barth
+N: Theme song from the World War I French film "Joyeux Noël"
+R: march
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+"(A7)"A2 |\
+"D"d3e f2d2 | "F#m"A6 A2 | "Em"e3f g2e2 | "A7"c4 A2A2 | "D"f3g a2f2 | "Bm"d6 d2 |
+"G"[b4B4] "A7"a3f | "Bm"d6 d2 |\
+"G"[b4B4] "A7"a3f | "Bm"d6 d2 |\
+"G"[b4B4] "A7"a3f | "D"d4 "A7"e2A2 |
+"G"g4 "D"f2a2 | "Em"g4 "A7"e3d | "D"a6 a2 | "Em"g4 "A7"e3d |\
+"D"a6 a2 | "Em"g4 e4- | "A7"e6 d2 | "D"d4- "(G)"d4- | "D"d6 |]
+
+%%sep 1 1 500

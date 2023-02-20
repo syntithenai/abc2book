@@ -1,0 +1,23 @@
+X: 1
+T: Bessarabian hora    [Gm]
+S: Jon Cannon, from Belf's Rumanian Orchestra
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Gm
+"A"|:\
+"Gm"G,3 B, DG | B,3 D GB | D3 G Bd | ^c3 B AG |\
+^c2 d2 (3f=ed | "D7"^c3 B AG | "(D7)"d2 z2 D2 | "D7"d2 z2 D2 ||
+"Gm"G,3 B, DG | B,3 D GB | D3 G Bd | ^c3 B AG |\
+^c2 d2 (3f=ed | "A7"^c3 B "(D7)"AB | "Gm"G3 BdB | G4 z2 :|
+"B"|:\
+"Cm"=B2 c2 c2 | c3 B AG | "Gm"A2 B2 B2 | B3 B AG |\
+"D7"A2 A2 A2 | d3 D =E^F | "Gm"G3 A Bc | "(G7)"d4 z2 ||
+"Cm"=B2 c2 c2 | c3 B AG | "Gm"A2 B2 B2 | B3 B AG |\
+"D7"A2 A2 A2 | d3 D =E^F | "Gm"G3 B dB | G4 z2 :|
+"C"|:\
+"Gm"G,3 B, B,A, | "D7"A,3 C CB, | "Gm"B,3 D DC | "Cm"C3 E ED |\
+"Gm"D3 C CB, | "D7"B,3 A, A,G, | "Gm"G,3 E D^C | "D7"D4 z2 ||
+"Gm"G,3 B, B,A, | "D7"A,3 C CB, | "Gm"B,3 D DC | "Cm"C3 E ED |\
+"Gm"D3 C CB, | "D7"B,3 A, A,G, | "Gm"G,3 B, DB, | G,4 z2 :|
+%%text transcribed by Jon Cannon, from Belf's Rumanian Orchestra

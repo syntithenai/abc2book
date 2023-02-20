@@ -1,0 +1,20 @@
+X: 635
+T: Beauty in Tears   [D]
+R: air, waltz
+%S: s:3 b:24(8+8+8)
+B: O'Neill's 1850 #635
+N: The book has d6 at the start of the 1st strain, causing a "stumble" due to the extra
+N: beat between repeats. Fixed with a final d4 note, plus the rest after the repeat sign.
+Z: 1999 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/
+Z: Ted Hastings, ted@hastings.nu
+Q: "Moderate"
+M: 3/4
+L: 1/8
+K: D
+A2 \
+| (d2 f2 a2) | (f2 d2 B2) | (efgfed) | (fedcBA) \
+| d2 (fdec) | d2 B2 G2 | A2 B2 c2 | d4 :| z2
+|| (d2 f2 a2) | (d'2 a2 f2) | (edefga) | (b2 g2 e2) \
+| (dcdefg) | a2 (gfed) | (e2 a2 ^g2) | (a4 f2) |
+| (f2 d2 B2) | (B2 c2 d2) | (efgfed) | (fedcBA) \
+| d2 (fdec) | d2 B2 G2 | A2 B2 c2 | d4 |]

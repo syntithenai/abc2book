@@ -1,0 +1,107 @@
+% %center Boy's Lament Set
+#X: 0
+#T: Boy's Lament Set
+#B: BSFC Session Tune Book 2016 p.40
+#K:
+
+
+X: 1
+T: the Boy's Lament for his dragon, by William MacKay
+T: the 72nd Highlanders' Farewell to Aberdeen, by N. Mathieson
+B: Glenallen
+B: Queen's Own
+B: BSFC Session Tune Book 2016 p.40
+S: Barbara McOwen
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+"A"|: A2 |\
+"D"A2d2 d2ef | "A7"gfed "D"f4 | "G"g2B2 B2cd | "E7"efed "A7"c2A2 |\
+"D"A2d2 d2ef | "A7"gfed "D"f4 | "G"g2B2 "A7"cdec | "D"d4 d2 :|
+"B"|: fg |\
+"D"a2A2 "D7"A2=c2 | "G"B2G2 "D"A4 | "D"A2d2 "Bm"ABde | "E7"f2e2 "A7"e2fg |\
+"D"a2A2 "D7"A2=c2 | "G"B2G2 "D"A4 | "D"A2d2 "A7"fedc | "D"d4 d2 :|
+
+
+X: 1
+T: Jessie Smith
+R: strathspey
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+d2 \
+| "D"AF3 F3E D3A GFED | AF3 F3A "G"~B4 Bd3 \
+| "D"AF3 F3E "Bm"D3A GFED | "Em"GB3 "D"A3F "A7"E6 :|
+A2 \
+| "D"d4 f3d "G"B3e "A7"dcBA | "D"d3e f3d "G"B4- "(A7)"B3A \
+| "D"d3e f3d "G"B3e "A7"dcBA | "Bm"d3B AF3 "A7"E6 |]
+c2 \
+| "D"d4 f3d "G"B3e "A7"dcBA | "D"d3e f3d "G"B4- "(A7)"B3g \
+| "D"(3f2e2d2 "A"(3c2d2e2 "Bm"(3d2c2B2 "A"(3A2B2c2 | "G"d3B "D"AF3 "A7"E6 |]
+
+
+X: 1
+T: the Braes of Mar
+O: Cape Breton version
+R: strathspey
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: BSFC Session Tune Book 2016 p.41
+B: San Francisco Fiddle Club
+B: Concord Slow Scottish Session collection
+N: "One Long Strathspey" at top of page
+N: "Lessons Materials Arranged by Barbara McOwen, November 2000"
+M: C
+L: 1/8
+K: D
+"A"[|] A |\
+"D"F<A A>B "D7"d>e f>e | "G"d<B B>A "A7"B<d B>A |\
+"D"F<A A>B "Bm"d>e f>d | "G"e<g "D"f<a "A7"e2 "D"d :|
+"B"|: z |\
+"D"f<a a>g "D7"f<d a>f | "G"g<b b>a "A7"g<e b>g |\
+"D"f<a a>g "Bm"f>d a>f | "G"g<b "D"f<a "A7"e2 "D"d :|
+"C"|: z |\
+"Em"e<e e>f g>f e>d | "G"B<B B>A B<d "A7"B>A |\
+"D"F<A A>B "Bm"d>e f>d | "G"e<g "D"f<a "A7"e2 "D"d :|
+"D"[|] z |\
+"D"F<A A>F D>F A>F | "G"G<B B>G D>G B>G |\
+"D"F<A A>F "Bm"D>F A>F | "G"G<B "D"F<A "A7"E2 "D"D2 ||
+y2 |\
+"D"F<A A>F D>F A>F | "Em"E<E E>F "A7"G>F E>D |\
+"D"F<A A>B "Bm"d>e f>g | "G"a>b "D"a<f "A7"e2 "D"d |]
+
+
+X: 1
+T: Miss Susan Cooper
+C: Ronnie Cooper (1934-1982)
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+(3ABc |\
+"D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde "Bm"fa^ga | "G"=g2fd "A7"eAce || "D"dfed "G"B2dB |
+"D"A2FA DAFA | "D"ABde fafd | "A7"eAce "D"d2 :: dc  | "Bm"Bcde fB~B2 | def^g "E7"a2gf |
+"A"eAce a2^ga | "Bm"=g2fd "A7"eAce || "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde fafd | "A7"eAce "D"d2 :|
+
+
+X: 1
+T: Culburnie Cottage
+C: Alasdair Fraser
+N: (Ask permission)
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+fe |\
+"D"d2AF DFAF | "G"GDGA "Em"B2cB |\
+"A7"Aa^ga =gfed | "A7"ceAc egfe ||\
+"D"d2AF DFAF |
+"G"GDGA "Em"B2cB |\
+"A7"Aa^ga =gecA | "D"d4- d2 :: fg |\
+"D"a2fa "A7"gece | "D"dAFA d2cd |
+"A7"ecAc eAce | "D"fdba "A7"agfg ||\
+"D"a2fa "A7"gece | "Bm"dAFA "G"d2cd |\
+"A7"ea^ga =gecA | "D"d4- d2 :|

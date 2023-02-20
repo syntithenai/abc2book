@@ -1,0 +1,23 @@
+X: 2233
+T: the Drummer.   a Reel.
+O: Very Old
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.2 p.23 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+% - - - - - - - - - -
+V: 1 staves=2
+B | (ABc)A E2E^F | GABc dBGB | ABcA E2-Ef | edcB A2A :| B | c2(.c.e) d2(.d.e) | c2ce (d/c/B/A/) GB |
+c2ce d2df | edcB A3B || c2ce d2de | c2ce (d/c/B/A/) GB | ccce dddf | edcB A2A |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+[a2A2][a2A2] [a2A2][a2A2] | [g2G2][g2G2] [g2G2][g2G2] |\
+[a2A2][a2A2] [a2A2][a2A2] | [e2E2][e2E2] A2A :| z |\
+[c'2c2][c'2c2] [d'2d2][d'2d2] | [c'2c2][c'2c2] [g2G2][g2G2] |
+[c'2c2][c'2c2] [d'2d2][d'2d2] | [e'2e2][e'2e2] [a3A3]z ||\
+c2c'2 d2d'2 | c2c'2 g2G2 |\
+[a2A2][c'2c2] [b2B2][d'2d2] | [e'2e2][e'2e2] [a2A2][aA] |]

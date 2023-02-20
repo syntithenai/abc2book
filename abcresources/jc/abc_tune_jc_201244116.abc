@@ -1,0 +1,26 @@
+X: 405
+T: Nifty's freylekhs
+C: Naftule Brandwein
+R: freylach
+Z: John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/8
+K: DPhr
+P:A
+zA,2 \
+|  "D"D2        zD | "Cm"E2 zE |  "D"^F2 zA | "Cm"G^F ED \
+|  "D"{^G=B}A2 ^F2 | "Cm"ED EG |  "D"^F4    | (3AG^F "Cm"(3EDC |
+| "D"D2        zD | "Cm"E2 zE |  "D"^F2 zA | "Cm"G^F ED \
+|  "D"{^G=B}A2 ^F2 | "Cm"ED CE |  "D"D4-    | D :|
+P:B
+|: z3 \
+| "Gm"zd dd | dd dd | "Cm"cd ed | cB AG \
+|  "D"{^G=B}A2 ^F2 | "Cm"GF GB |  "D"A4- | A4 |
+| "Gm"zd dd | dd dd | "Cm"cd ed | cB AG \
+|  "D"{^G=B}A2 ^F2 | "Cm"ED CE |  "D"D4-  | D  :|
+P:C
+|: "D7"DGA \
+| "Gm"B4- | BB AG | "D7"A4 | zD^FG \
+| A4 | zD B/A/G/^F/ | "Gm"G4 | "D7"zDGA |
+| "Gm"B3 D | (3BAG (3^FED | "Cm"C4 | c3 c \
+| cA/c/ (3BAG | "D"(3^FGA "Cm"(3GFE |1 "D"D4- | D :|2 "D"(3DE^F "Cm"(3EDC | "D"D :|

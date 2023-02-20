@@ -1,0 +1,36 @@
+
+X: 1
+T: Candles in the Dark   [Am]
+C: Jonathan Jensen 2004
+R: waltz
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: Printed page labelled "22 Loretta Holz" at bottom
+S: http://dickatlee.com/misc/fv/centennial/music/pdfs/candles_in_the_dark.pdf
+M: 3/4
+L: 1/8
+K: Am
+|: "Am"Aa ge "Dm"dB | "Am"c2 A4 |  "Am"Aa ge "Dm"dB | "E"e6 \
+|  "Am"Aa ge "Dm"dc | "G"B2 G2 AB | "F"c3 B AG | "Am"E2 A4 :|
+[| "F"c3 A "G"dB | "Am"c3 A "G"BG | "F"AG AB cd | "C"e3 g ec \
+|  "G"B3 e "Am"cA | "Em"G3 c "F"AF | "Dm"DE FG AB | "Am"c2 A4 |]
+[| "F"c3 A "G"dB | "Am"c3 A "G"BG | "F"AG AB cd | "C"e3 g ec \
+|  "G"dB G"Am"e cA | "Em"BG E"F"c AF | "Dm"DE FG AB | "Am"c2 A4 |]
+
+%%sep 2 1 500
+
+X: 1
+T: Candles in the Dark   [Bm]
+C: Jonathan Jensen 2004
+R: waltz
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: Printed page labelled "22 Loretta Holz" at bottom
+S: http://dickatlee.com/misc/fv/centennial/music/pdfs/candles_in_the_dark.pdf
+M: 3/4
+L: 1/8
+K: Bm
+|: "Bm"Bb af "Em"ec | "Bm"d2 B4 |  "Bm"Bb af "Em"ec | "F#"f6 \
+|  "Bm"Bb af "Em"ed | "A"c2 A2 Bc | "G"d3 c BA | "Bm"F2 B4 :|
+[| "G"d3 B "A"ec | "Bm"d3 B "A"cA | "G"BA Bc de | "D"f3 a fd \
+|  "A"c3 f "Bm"dB | "F#m"A3 d "G"BG | "Em"EF GA Bc | "Bm"d2 B4 |]
+[| "G"d3 B "A"ec | "Bm"d3 B "A"cA | "G"BA Bc de | "D"f3 a fd \
+|  "A"ec A"Bm"f dB | "F#m"cA F"G"d BG | "Em"EF GA Bc | "Bm"d2 B4 |]

@@ -1,0 +1,32 @@
+X: 7
+T: the Steam Packet
+%R: waltz
+B: "Le Sylphe, Twenty Four Country Dances with Figures for the Year 1818", Button & Whitaker, p.4 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1818
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 3/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+FG |\
+A4(BA) | A2(f2d2) | A4(BA) | A4(g2e2) |\
+A4(BA) | A2(df)a2 | c2c2c2 | d4 :|
+|: (cd) |\
+(ef)(ef)(ef) | e2(a^gfe) | (dcBcde) | (cB).A.B.c.d |\
+(ef)(ef)(ef) | e2(a^gfe) | (dcBA)(^GB) | A4 :|
+|: a2 |\
+(fa)(fa)(d'a) | (fa)(fa)(d'a) | (^ab)(ge)(ce) | (dcdefg) |\
+(fa)(fa)(d'a) | (fa)(fa)(d'a) | (^ab)(ge)(ce) | d4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center WALTZ FIGURE        (Each strain repeated)
+%%begintext align
+%% The 3 Ladies & 3 Gent: set to each other & turn a la waltz |: whole
+%% poussette with sauteuse step |: & swing corners a la waltz |: .
+%%endtext
+%%center COUNTRY DANCE FIGURE        (Each strain repeated)
+%%begintext align
+%% The 1st Lady leads down 2d Gent: 1st Gent: leads down 2d Lady |: lead your partner
+%% down the mid: up again allemande |: lead thro' bottom & half poussette with top Cu: |: .
+%%endtext
+%%sep 1 1 450

@@ -1,0 +1,26 @@
+X: 2053
+T: the Highlanders Farewell to Ireland.   a Strathspey.
+%R: strathspey
+B: Niel Gow & Sons "Complete Repository" v.2 p.5 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Unnecessary natural signs ignored on some bass G notes.
+N: Using K:Ador will make the sharps on F notes unnecessary.
+M: C
+L: 1/8
+Q: "SLOWLY"
+K: Am
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+~A,3B, A,/A,/A, A,2 | {^F}G>E D>B, G,/G,/G, G,>G |\
+{^F}TE>DEG A>BAG | E<G {E}D>B, A,/A,/A, A,2 :|\
+Ta3b a/a/a a2 | Tg>age d/c/B/A/ Gg |
+{^f}e>d eg Ta>bag | eg d>B A/A/A A2 ||\
+Ta3b a/a/a a2 | gbeg d/c/B/A/ G>g |\
+{^f}Te>d eg Ta>bag | e<g d>B A/A/A A2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+A2A2 A2A2 | G2G2 G2G2 | A2A2 A2A2 | E2E2 A2A2 :| a2a2 a2a2 | g2g2 g2g2 |
+a2a2 a2a2 | e2e2 A2A2 || a2a2 a2a2 | b2c'2 g2g2 | a2a2 a2a2 | e2e2 A2A2 |]

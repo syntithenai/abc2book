@@ -1,0 +1,15 @@
+X:1
+T: Brother John
+T: transposed to bass clef
+C: Traditional
+L: 1/4
+V: 1 clef=bass middle=D octave=-2 name="Bass1" sname="B1"
+V: 2 clef=bass middle=D octave=-2 name="Bass2" sname="B2"
+K: E
+%
+[V: 1] EFGE|EFGE|GABz|GABz|B/c/B/A/ GE|B/c/B/A/ GE|
+[V: 2] z4 |z4 |EFGE|EFGE|GABz |GABz |
+%
+[V: 1] FB,Ez |FB,Ez |z4 |z4 |
+[V: 2] B/c/B/A/ GE|B/c/B/A/ GE|FB,Ez|FB,Ez|
+%(:abcmend:)

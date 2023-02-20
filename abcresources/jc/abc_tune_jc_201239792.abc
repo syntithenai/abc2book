@@ -1,0 +1,23 @@
+X: 3419
+T: the 42nd HIGHLANDER'S FAREWELL
+%R: march
+B: James Kerr "Merry Melodies" v.3 p.47 #419
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Added missing flag in bar 14; omitting the dot would also work.
+M: 2/4
+L: 1/16
+%%slurgraces yes
+%%graceslurs yes
+K: Bm
+(fe) |\
+d2B2B3c | d2B2B3c | d2(cB) edcB | A4- A2(Bc) |\
+d2B2B3c | d2B2B3c | d3ef2d2 | B4 (B2c2) |\
+d3e f2e2 | {g}f3ed2e2 | f2(ed) edcB | A4 (A2c2) |
+B3cd2e2 |\
+[1 f3ed2c2 | a3f e2(dc) | B4-B2 :|\
+[2 f2d2e2f2 | d3Bc2A2 | B4 (B2c2) ||\
+d2B2B3c | d2B2B2f2 | d2B2 edcB | A4 (A2Bc) |\
+d2B2B3c |
+d2B2B2 (fe) | a3fa2c2 | B4 (B3c) |\
+(d3e)(f2a2) | (f3e)(d2e2) | (f3e)(d2B2) | A4 A2dc |\
+B3cd2e2 | f3ed2c2 | a3f e2(dc) | B4- B2 |]

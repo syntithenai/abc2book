@@ -1,0 +1,35 @@
+X: 10121
+T: QUICK MARCH IN THE BATTLE OF PRAGUE
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.12 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+|:\
+g>fee | e>dcc | dcdB |c/d/e/d/ c/d/e/f/ |\
+g>fee | e>dcc | dcdB | c2 "^FINE"c2 :|
+|:\
+d2 e2 | ff/e/ dd | e2 f2 | gg/f/ eg |\
+gffe | gffe | ga/g/ fe | e2 "^Da capo."d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+|:\
+e>dcc | G>FEE | FEFD | E/F/G/F/ E/G/c/d/ |\
+e>dcc | G>FEE | FEFD | E2 E2 :| 
+|:\
+BGcG | dd/c/ BB | cGdG | ee/d/ ce |\
+eddc | eddc | ef/e/ dc | c2 B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+|:\
+c3z | c3z | GGGG | c3z |\
+c3z | c3z | GGGG | c2 c2 :|
+|:\
+gGgG | Gggg | c2G2 | cccc |\
+cccc | cccc | c3c | g2 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

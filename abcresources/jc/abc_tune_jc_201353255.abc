@@ -1,0 +1,30 @@
+X:802
+T:Winter Waltz
+%%subtitlefont Times-Roman 28
+%%MIDI beat 100 95 80
+T:Crossing to Ireland (B part)
+C:Scottish traditional
+Q:1/4=120
+M:3/4
+%%MIDI program 71     Clarinet
+%%MIDI chordprog 46   Orchestral Harp
+%%MIDI bassprog 46    Orchestral Harp
+L:1/4
+K:Em
+e/f/ | "Em"g e e | "/"B e>B | "/"G E E | "/"E>b a/g/ | "D"f d d | "/"A d>A | "/"F D D | "/"D>a g/f/ |
+"Em"g e e | "/"B e>B | "/"G E g | "Bm"f2 e | "Em"G>A B/^c/ | "Bm"d ^c B | "D"A G F | "Em"E2 e/f/ |
+"Em"gee | "/"Bee | "/"EGB | "/"e/f/ g/b/ a/g/ | "D"fdd | "/"A d>A | "/"DFA | "Bm"d/e/ f a/f/ |
+"Em"g>f e | "B7"f>e ^d | "Em"e>d B | "D"A>G F | "Em"G>A B/^c/ | "Bm"d ^c B | "D"A G F | "Em"E3 |]
+N:Replace by blank line and X field
+T:Captain O'Kane
+C:O'Carolan
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+M:3/4
+L:1/4
+%%MIDI beat 100 95 80
+Q:1/4=120
+M:3/4
+K:Em
+|: e/d/ | "Em"Bef | "/"g2 f/e/ | "D"f/g/ a/g/ f/e/ | "Bm"def | "G"gbg | "Em"b/a/ g/f/ e/d/ | "Em"Be "D"e | "Em"e2 :|
+e/ d/ | "G"GBB | "/"B2 A/G/ | "D"FAA | "/"A2 d/c/ | "Em"Be "B7"^d | "Em"e3/f/ g | "Em"Be "B7"^d | "Em"e2 e/f/ |
+"G"g3/f/ e | "/"d3/c/ B | "D"AFd | "Bm"DEF | "G"GBg | "Em"b/a/ g/f/ e/d/ | "Em"Be "B7"G | "Em"E2 |]

@@ -1,0 +1,25 @@
+X: 1
+T: America    [C]
+C: Leonard Bernstein
+O: West Side Story
+R: mixed
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+|:\
+"C"GGG ccc | "F"A2 F2 C2 | "C"GGG ccc | "G"d2 B2 G2 |\
+"Cm7"_BBB _eee | "Bb"d2_B2 F2 | "Ab"_EEE _AAA | "C"G2 e2 C2- |\
+C6- | C6 | z6 |
+C6 | "C"EAG EAG | E z(E C3) |\
+"C"EAG cAG | "G7"B z(B A3) | z6 |\
+"Dm7"Adc Adc | "G9"A2(A F3) | "Dm7"A,DC FDC |
+"G"B,z (B, G,3) |[1,2,3 "d.C."z6 :|[4 z6 ||\
+"C"GGG ccc | "F"A2 F2 C2 | "C"GGG ccc | "G"d2 B2 G2 |\
+"Cm7"_BBB _eee | "Bb"d2_B2 F2 |
+"Ab"_EEE _AAA | "C"G2 e2 C2- |\
+|| "n.c.".[CgG].[gG].[gG] .[gG].[gG].[gG] |\
+.[gG].[gA] .[g_B].[gc] .[g_B].[gA] |\
+.[gG].[aA].[_b_B] .[c'c].[b_B].[aA] |\
+"C"[g2G2] [c'2g2e2c2] [C2C,2] |]
+

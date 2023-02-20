@@ -1,0 +1,44 @@
+
+X: 1
+T: Bregovsko Horo  #1
+O: Serbia, Bulgaria
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: From transcriptions by Tom Pixton, Seymour Shlien and [unknown] at www.kirby98.fsnet.co.uk.
+R: fast pravo
+M: 12/16
+L: 1/16
+K: Am
+"A"|:\
+"E7"E3 "Am"ABc "E7"edB "Am"~A2E | "A7"A^c_B ~G2E "Dm"FED ~D3 |\
+"G7"C~D2 DG,G ~F2D "C"~E3 | "Dm"DEF "E7"~E2D CB,A, "Am"A,3 :|
+"B"|:\
+"G7"C~D2 DG,G ~F2D "C"~E3 | "G7"C~D2 DG,G FG,G "C"~E3 |\
+"G7"C~D2 DG,G ~F2D "C"~E3 | "Dm"DEF "E7"~E2D CB,A, "Am"A,3 :|
+"C"|:\
+"Dm"def "Am"edc "E7"~B3A "Am"AEA | "E7"^GBe cBG ~B2A "Am"~A2E |\
+"Dm"def "Am"edc "E7"~B3A "Dm"AFA | "E7"^GBe cBG ~B2A "Am"~A2E :|
+"D"|:\
+"G"G2B "D7"d~c2 ~A2G "G"~B2D | "D7"d~c2 ~A2G "G"BAB (4(gBgB) |\
+"G"G2B "D7"d~c2 ~A2G "G"~B2D | "E7"e2f "(Am)"edc "E7"~B2A "Am"A2z!fine!y :|
+
+%%sep 1 1 500
+
+X: 2
+T: Bregovsko Horo #2
+O: Bulgaria
+M: 6/8
+L: 1/8
+K: Am
+"A"|:\
+"Am"E^F^G A3 ABc A3 | "E"e^de ede "Am"cBA A3 :|\
+"B"|:\
+"C"GAB c3 "Am"dcde3 | "C"g^fa g=fe [1 dcd e3 :|[2 "Am" dcB A3 |]
+"C"|:\
+"Am"cBA A^GA A^GA e3 | cBA A^GA A^GA e2z |\
+"Am"cBA A^GA A^GA e3 | cBA A^GA A2z A2z :|
+"D"|:\
+"C"c2z egf e2d c3 | egf e2d cBA G2z ::\
+"C"c2z egf e2d c3 | "C"egf e2d c2z c2z :|
+"E"|:\
+"C"egf egf e2d c3 | egf e2d cBA G2z ::\
+"C"egf egf e2d c3 | egf e2d c2z c2z :|

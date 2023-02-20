@@ -1,0 +1,52 @@
+X: 513
+T: Razbitaya Zhizn
+T: A Broken Life
+R: waltz
+O: Russia
+M: 3/4
+L: 1/8
+K: Dm
+"^A"\
+|: z2 A,2 \
+| "Dm"(F2 E2 D2) | "A7"(^C2 D3 E) | E6 | "Dm"D6 \
+| z2 (Ad) (df) | (fa) (ag) (gf) | (f6 | "A7"e4) A,2 \
+| (G2 F2 E2) | "Dm"(D2 E2 F2) | ({G}F6 | "A7"E6)
+| "A7"z2 (^ce) (eg) | (gb) (ba) (ag) | (g6 | "Dm"f4) A,2 \
+| (F2 E2 D2) | "A7"(^C2 D3 E) | E6 | "Dm"D6 \
+| "Gm"z2 (dg) (gb) | (bd') (d'c') (c'b) | b6 | "Dm"a6
+| "Gm"ga ba b2 | "Dm"FG A^G A2 | "A7"ef g^f g2 | "Dm"DE FE F2 \
+| "Gm"(E4 D2) | "A7"z2 (f3 e) | "Dm"d6- |d2 \
+"^B"\
+:: "^n.c."(agfe) \
+| "Dm"d2 z2 {d}f2 | z2 (ag fe)
+| d2 z2 {d}f2 | "(Gm)"z2 (ba gf) \
+| "A7"e2 z2 {e}g2 | z2 (ba gf) \
+| e2 z2 {e}g2 | z2 (ag fe) \
+| "Dm"d2 z2 {d}f2 | z2 (ag fe) \
+| d2 z2 {d}f2 | z2 (gf ed)
+| "A7"^c2 z2 {c}e2 | z2 (fe d^c) \
+| "Dm"d6- | d2 \
+"^C"\
+:: A2 A2 \
+| "Dm"d6 | "A7"(e4 f2) | "Dm"A6- | A2 ({c}B2 A2) \
+| d6 | "A7"(e4 f2) | "Dm"({g}f6 | "A7"e6) \
+| e6 | "Dm"(f4 g2)
+| "Gm"B6- | B2 (A2 G2) \
+| (e4 d2) | "A7"(^c4 B2) | A6- | A6 \
+| "Dm"d6 | "A7"(e4 f2) | "Dm"A6- | "A7"A2 ({c}B2 A2) \
+| "Dm"d6 | "A7"(e4 f2) | "Dm"({g}f6 | "A7"e6) \
+| e6 | "Dm"(f4 g2)
+| "Gm"(b6 | "Dm"a6) \
+| "(Gm)"(g2 f2 e2) | "A7"(e2 d2 ^c2) \
+| "Dm"d6- | d2 \
+"^D"\
+:: "^n.c."c^c de \
+| "F"f2 z2 e2 | g2 z2 f2 \
+| "C7"f2 z2 e2 | z2 cd ef \
+| g2 z2 ^f2 | a2 z2 g2
+| "F"g2 z2 f2 | z2 c^c de \
+| f2 z2 e2 | g2 z2 f2 \
+| "Gm"e2 z2 d2 | d'2 z2 b2 \
+| "Dm"a2 za a2 \
+|1 "Gm"(gb) ag fe | "A7"a2 zA A2 | A2 \
+:|2 "A7"b2 a2 ^c2 | "Dm"d2 zd d2 | d2 |]

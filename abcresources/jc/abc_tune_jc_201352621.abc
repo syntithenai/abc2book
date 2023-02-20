@@ -1,0 +1,32 @@
+X: 1
+T: the Wild Rose of the Mountain
+T: Ros fhiadhaich nam Beann
+C: John Mason
+C: arr. Sandy MacIntyre, Winnie Chafe, Tom Hutchinson
+R: air, waltz
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+D2 | G4 D2 | A4 D2 | B3 c d2 | e3 f g2 | d3 e d2 | B4 G2 | A6 | A4 ||
+D2 | G4 D2 | A4 D2 | B3 c d2 | e3 f g2 | d3 B G2 | A4 B2 | G6 | G4 :|
+d2 | d B3 d2 | d c3 d2 | f4 {gf}ef | g4 d2 | e3 f g2 | d4 B2 | A6 | A4 ||
+d2 | d B3 d2 | d c3 d2 | f4 {gf}ef | g4 fe | d3 B G2 | A4 B2 | G6 | G4 ||
+d2 | d B3 d2 | d c3 d2 | f4 {gf}ef | g4 fe | d4 e2 | d4 B2 | A6 | A4 ||
+GF | E3 F G2 | F3 G A2 | B3 c d2 | e2 f2 Hg2 | d3 B G2 | A4 B2 | G6 | G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+d2 | B4 G2 | c4 d2 | g3 a b2 | g3 a b2 | g6 | d4 B2 | ab af e^c | d4 || d2 | B4 G2
+c4 d2 | g3 a b2 | g3 a b2 | d4 B2 | a4 b2 | g6 | B4 :| g2 | b6 | g6 |
+a4 g2 | b4 a2 | g3 a b2 | b4 g2 | ab af e^c | d4 || d2 | b6 | g6 | a4 g2 | b4 a2 |
+g4 b2 | a4 b2 | g6 | d4 || g2 | b6 | g6 | a4 g2 | b4 a2 | g2 f2 e2 | g3 f g2 |
+ab af e^c | d4 || c2 | c3 d e2 | d3 e f2 | g3 a b2 | g2 a2 Hg2 | b4 g2 | a4 b2 | g6 | g4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3
+D2 | B,4 z2 | C4 z2 | G,3 A, B,2 | C3 D E2 | B,3 C B,2 | G,4 B,2 | A,2 ^C2 E2 | D4 || D2 | B,4 z2 |
+C4 z2 | G,3 A, B,2 | C3 D E2 | B,6 | C4 D2 | C6 B,4 :| B,2 | B, G,3 B,2 | B, A,3 B,2 |
+D4 {ED} C2 | G,6 | C3 D E2 | B,4 G,2 | A,2 ^C2 E2 | D4 || B,2 | B, G,3 B,2 | B, A,3 B,2 | D4 {ED}CD | B,4 A,2 |
+B,6 | C4 D2 | C6 | B,4 || B2 | B G3 B2 | B A3 B2 | d4 {ed}cd | B4 A2 | B4 c2 | B4 G2 |
+A,2 ^C2 E2 | D4 || ED | C3 D E2 | D3 E F2 | G3 A B2 | c2 d2 He2 | B3 G D2 | C4 D2 | C6 | B,4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

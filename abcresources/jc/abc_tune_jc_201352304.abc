@@ -1,0 +1,32 @@
+X:1
+T:White Horse Waltz  "	"
+M:6/8
+L:1/8
+Q:80
+C:
+S:Waltz
+K:HP
+[| {g}Afe{Gdc}d{e}A2 | \
+{g}Bgf{gef}eB2 | \
+{g}ca{g}aBg{f}g |
+{a}f3/2e/2{Gdc}d{gef}e3 | \
+{g}Afe{Gdc}d{e}A2 | \
+{g}Bgf{gef}eB2 |
+{g}ca{g}a{f}g{a}e3/2c/2 | \
+{Gdc}d3{gdG}d3|] [ | \
+{g}Af{e}f{g}Af{e}f |
+a{f}g3/2e/2{g}B3 | \
+{g}ca{g}aBg{f}g | \
+{a}f3/2e/2{Gdc}d{gef}e3 |
+{g}Af{e}f{g}Af{e}f | \
+a{f}g3/2e/2{g}B3 | \
+{g}ca{g}a{f}g{a}e3/2c/2 |
+{Gdc}d3{gdG}d3|] [ | \
+{g}Afe{g}fd{e}A | \
+{g}Bgf{a}ge{g}B |
+{g}ca{g}aBg{f}g | \
+{a}f3/2e/2{Gdc}d{gef}e3 | \
+{g}Afe{g}fd{e}A |
+{g}Bgf{a}ge{g}B | \
+{g}ca{g}a{f}g{a}e3/2c/2 | \
+{Gdc}d3{gdG}d3|]

@@ -1,0 +1,18 @@
+X: 1
+T: Schottis fr\aan Harg
+C: Trad.
+R: shottish
+S: http://www.nyckelharpa.org/archive/written-music/american-allspel-list/ 2022/9/28
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: 1/4=80
+K: C
+"^A"|: "C"c2c2 (ce)dc | "F"B2A2 A4 |\
+[1,3 "G7"g2g2 (ga)gf | "C"f2e2 e4 :|
+[2,4 "G7"g2ag (fA)Bd | "C"c2c2 c4 \
+"^B":: "C"(EG)c2 (EG)c2 | "G7"(cB)Bd F4 |\
+"G7"(DG)B2 (DG)B2 |
+"C"(AG)Gc E4 ||\
+"C"(EG)c2 (EG)c2 | "G7"(cB)Bc d4 |\
+"G7"(ed)cA GfdB | "C"c2c2 c4 :|

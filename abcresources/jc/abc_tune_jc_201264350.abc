@@ -1,0 +1,16 @@
+X: 780
+T: Cooleen Bridge
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #780
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0780/oneill-1001-0780-1.abc
+M: C
+L: 1/8
+K: Em
+"^A"[|]\
+   F | Eee^d e2(BA) | GBA(F GE)EF | D(dd^c) d2(AF) | GBA(G FD)D ||
+|| F | E(ee^d) efg(a | fe)df e(BBA) | G2BG (FG)A(c | BG)A(F GE)E |]
+"^B"\
+[| f | gfe(f ge)be | geb(a ge)e^c | d(efg) a2(fd) | gef(d e)d ||
+||BA | (G2B)(G F2)AF | E(ee^d) e3(f | ge)f(d ed)B(^c | (3dcB) A(F GE)E |]

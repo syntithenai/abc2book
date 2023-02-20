@@ -1,0 +1,21 @@
+X: 10875
+T: WHEN WE SAILOR LADS FIRST PUT TO SEA
+O: From "The Mariners."
+Q: "With spirit."
+%R: march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.87 #5
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(cd) |\
+e2c2 c2(Bc) | d2B2 B2(ed) | c2A2 (AB)(cA) | B2EE E2(cd) |\
+e2e2 e2({e}dc) | d2d2 Hd2(cd) | (ed)(cd) (ed)(cB) | "^Fin."A2A2A2 H|]
+(GA) |\
+B2B2B2E2 | c2c2 c2(Bc) | d2B2c2A2 | B2B2 B2(GG) |\
+B2B2 B2EE | c2c2 c2(Bc) | d2B2 c2AA | e2"^D.C."e2He2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

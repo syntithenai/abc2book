@@ -1,0 +1,27 @@
+X: 1
+T:McCarthy Street  "1998.3"
+M:C
+L:1/8
+Q:80
+C:Karl Walford
+S:March
+K:HP
+[| e|
+{g}fA{g}A3/2{d}B/2{g}A{Gdc}d-df|
+{gef}ed{g}G3/2{d}B/2{g}G{d}B-Bd|
+{gcd}c3/2B/2{g}c3/2d/2{gef}e2{g}f3/2e/2|  !
+{Gdc}d{e}A{gef}eA{g}f2{g}f3/2e/2|
+{g}fA{g}A3/2{d}B/2{g}A{Gdc}d-df|
+{gef}ed{g}G3/2{d}B/2{g}G{d}B-Bd|  !
+{gcd}c3/2B/2{g}c3/2d/2{gef}e2{gf}g3/2e/2|
+{gAGAG}Aa{f}g3/4f/4{g}e{Gdc}d2-d|]
+A|  !
+{g}fa{fg}f3/2e/2{Gdc}d{e}A-Ad|
+{g}G3/2{d}B/2{G}B3/2d/2{gBd}B{e}A-A{GAG}A|
+{gcd}c3/2B/2{g}c3/2d/2{gef}e2{g}f3/2e/2|  !
+{Gdc}d{e}A{gef}eA{g}f2{g}f3/2e/2|
+{g}fa{fg}f3/2e/2{Gdc}d{e}A-Ad|
+{g}G3/2{d}B/2{G}B3/2d/2{gBd}B{e}A-A{GAG}A|  !
+{gcd}c3/2B/2{g}c3/2d/2{gef}e2{gf}g3/2e/2|
+{gAGAG}Aa{f}g3/4f/4{g}e{Gdc}d2-d|]
+

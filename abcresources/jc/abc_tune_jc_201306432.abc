@@ -1,0 +1,22 @@
+X: 1
+T: Malisorka
+T: Svekrvino Oro
+%: Свекрвино Оро
+O: Macedonia
+R: lesnoto
+F: http://ifdo.ca/~seymour/midipage/malisorka.pdf 2015-11-23
+S:
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: Am
+[|\
+"Am"A3- A2 d2 | "Dm"d3 c2 B2 | "Am"A6      d | "Dm"cd2 c2 B2 |\
+"Am"c3  A2 c2 | "G"B2A B2 B2 | "Am"c3  A2 c2 | "G"B2A B2 B2 |
+"Am"A3- A2 Bc | "G"B2A B2 B2 | "Am"A3- A2 Bc | "G"B2A B2 B2 |\
+"Am"A3- A2 d2 |    A2z A2 z2 |]
+[|\
+"Dm"D3- D2 G2 | "G"G3  F2 E2 | "Dm"D6      G | "G"FG2 F2 E2 |\
+"Dm"F3  D2 F2 | "C"E2D E2 E2 | "Dm"F3  D2 F2 | "C"E2D E2 E2 |
+"Dm"D3- D2 EF | "C"E2D E2 E2 | "Dm"D3- D2 EF | "C"E2D E2 E2 |\
+"Dm"D3- D2 G2 |    D2z D2 z2 |]

@@ -1,0 +1,23 @@
+X:1
+T: New Bo-Peep
+N:
+C:aka "Pickadilla"
+S:
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 165
+%W: A1
+% voice 1 (1 lines, 39 notes)
+K:G
+M:6/8
+L:1/16
+e =f |g6 e6 d2 e2 d2 B2 c2 d2 c2 d2 B2 A3 G A B G6G4 e =f |g6 e6 d2 e2 d2 B2 c2 d2 c2 d2 B2 A3 G A B G6G4 B2 |
+%W: B1
+% voice 1 (1 lines, 29 notes)
+c2 d2 e2 e2 d2 c2 d2 B4 G4 B2 c2 d2 e2 e2 d2 c2 d2 B4 G4 e f |g6g4 f g a6a4 e f
+%W:
+% voice 1 (1 lines, 22 notes)
+g6g4 f g a6a4 g a |b4 e2 e4 f2 g4 d2 B2 c2 d2 c4 B2 A6 G4 B2

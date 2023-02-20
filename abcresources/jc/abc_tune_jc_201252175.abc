@@ -1,0 +1,29 @@
+X: 1010
+T: Biddy Maloney
+O: Gillan
+B: O'Neill's 1850 #1010
+Z: Dan G. Petersen, dangp@post6.tele.dk
+M: 6/8
+L: 1/8
+K: D
+(A/G/) |\
+FGA AFA | AFA AFA | BGG AGF | BGE EGE |\
+FGA AFA | AFA d2A | (B/c/d)B AFd | AFD D2 :|
+|: (c/d/) |\
+ecA AcA | ecA d2A | GBG FGA | BGE E2(c/d/) |\
+ecA dfa | gfe d2A | dcB AFd | AFD D2 :|
+|: (f/g/) |\
+a3 g3 | fed cBA | GBG FGA | BGE E2(f/g/) |\
+agf gbg | fed cBA | dcB AFd | AFD D2 :|
+|: (f/g/) |\
+.a(f/g/a/f/) dfg | .a(f/g/a/f/) dga | .b(g/a/b/g/) ega | .b(g/a/b/g/) efg |\
+.a(f/g/a/f/) bgg | .a(f/g/a/f/) d2A | (B/c/d)B AFd | AFD D2 :|
+|: A |\
+(d/e/d)c dAF | (d/e/d)c dAF | GBG FGA | BGE E2A |\
+(d/e/d)c dAF | (d/e/d)c dAF | dcd efg | fdd d2 :|
+|: g |\
+(f/g/)ab afd | fd(f/g/) afd | g2e f2d | efe efg |\
+(f/g/)ab afd | (f/d/)fg afd | gfg eag | fdd d2 :|
+|: g |\
+fdf ece | dcB AGF | GBG FGA | BGE E2g |\
+fdf ece | dcB AGF | (B/c/d)B AFd | AFD D2 :|

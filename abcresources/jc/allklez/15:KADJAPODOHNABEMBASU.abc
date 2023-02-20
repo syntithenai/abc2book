@@ -1,0 +1,43 @@
+X: 315
+T: Kad ja po\doh na Bemba\vsu,
+O: trad. Bosnja
+R: pravo, sevdalinka
+M: 3/2
+L: 1/8
+K: Am
+%%MIDI gchord ccc
+[| "Am"c2"(E)"B2 "Am"A4 "E7"B4 |[M:4/2] "Am"c2"(E)"B2 "Am"A4 "G"G4 z4 |
+w: 1.~Kad ja po-\doh na Bem-ba-\vsu,
+w: 2.~Sve dje-voj-ke Bem-ba-\vsan-ke
+w: 3.~Ja joj naz-vah: "Do-bro ve-\vce,
+w: 4.~Ja ne o-\doh is-to ve-\vce,
+|[M:3/2]"Dm"d3e f4 a4 | "G7"g2f2 "C"e4 z4 |]
+w: 1.~na Bem-ba-\vsu, na vo-du,
+w: 2.~na ka-pi-ji sta-ja-hu,
+w: 3.~do-bro ve-\vce, dje-voj-\vce!"
+w: 4.~ve\'c ja o-\doh sut-ra-dan.
+|: "Dm"d3e fgfe "G7"d4 | "C"c3d efed "Am"cBA2 |
+w: 1.~ja po-ve-___doh b'je-lo ja-___nje,__
+w: 2.~sa-mo mo-___ja mi-la dra-___ga,__
+w: 3.~O-na me-___ni: "do\d' do-ve-___\vce,
+w: 4.~A-li mo-___ja, mi-la dra-___ga__
+|  "E7"B3c "Dm"d4 "E7"e4 | "E7"c2B2 "Am"A4 z4 :|
+w: 1.~b'je-lo ja-nje sa so-bom.
+w: 2.~na de-mir-li pen-d\vze-ru.
+w: 3.~do\d' do-ve-\vce, dil-ber-\vce!"
+w: 4.~za dru-gog se u-da-la.
+%
+W:[Above lyrics from Kemal Monteno.  Alternate verses 3&4:]
+W: 3. Ja joj nazvah: "Selam alejk, selam alejk, djevoj\vce!"
+W: |: Ona meni: "Alejk selam, do\d' do ve\vce, dilber\vce!" :|
+W: 4. Ja ne odoh isto ve\vce, ve\'c ja odoh sutradan.
+W: |: Drugog dana, moja draga za drugog se udala. :|
+W:
+W: When I went to Bembasha, to Bembasha by the riverside,
+W:   I led a white lamb, a white lamb with me.
+W: All the Bembasha girls were standing at their courtyard gates;
+W:   my beloved was alone at her latticed window.
+W: I said to her, "Good evening, girl!"
+W:   She replied, "Come see me this evening my darling!"
+W: I didn't go that evening, but went the next day;
+W:   The next day my beloved married another!

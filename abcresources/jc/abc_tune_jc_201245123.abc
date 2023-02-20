@@ -1,0 +1,28 @@
+
+X: 1
+T: Adir Hu
+T: Mighty is He
+C: Shlomo Carlebach
+R: freylach
+M: 4/4
+L: 1/8
+Z: John Chambers <jc:trillian.mit.edu>
+K: _B_e^F	% D freygish
+"A"|:z2 | "D"(FG) (AB) A4 | (FG A)B A2 A2 | (FG A)B "Cm"c(c2 B) | AG FE "D"D2 :|
+"B"|:z2 |  "D"D2 A2 A4 | "Cm"(AG) (BA) "Gm"G3 G |1 "Eb"(G2 A2) (F2 G2) | "D"A6 :|2 "Eb"(G2 A2) (F2 E2) | "D"D6 ||
+"C"|:d>c | "D"d6 d>c | "Bb"d6 zd | "Cm"e2 d2 c2 B2 | "D"A6 :|
+"B"|:z2 | "D"D2 A2 A4 | "Cm"(AG) (BA) "Gm"G3 G |1 "Eb"(G2 A2) (F2 G2) | "D"A6 :|2 "Eb"(G2 A2) (F2 E2) | "D"D6 |]
+
+%%sep 1 1 500
+
+X: 2
+T: Adir Hu
+T: Mighty is He
+C: Shlomo Carlebach
+R: freylach
+Z: John Chambers <jc:trillian.mit.edu>
+K: ^G	% E freygish
+"A"|:z2 | "E"(GA) (Bc) B4 | (GA B)c B2 B2 | (GA B)c "Dm"d(d2 c) | BA GF "E"E2 :|
+"B"|:z2 |  "E"E2 B2 B4 | "Dm"(BA) (cB) "Am"A3 A |1 "F"(A2 B2) (G2 A2) | "E"B6 :|2 "F"(A2 B2) (G2 F2) | "E"E6 ||
+"C"|:e>d | "E"e6 e>d | "C"e6 ze | "Dm"f2 e2 d2 c2 | "E"B6 :|
+"B"|:z2 | "E"E2 B2 B4 | "Dm"(BA) (cB) "Am"A3 A |1 "F"(A2 B2) (G2 A2) | "E"B6 :|2 "F"(A2 B2) (G2 F2) | "E"E6 |]

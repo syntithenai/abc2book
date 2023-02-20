@@ -1,0 +1,24 @@
+X: 20034
+T: JOHN OF PARIS
+%R: jig
+N: This is version 1, for ABC software that doesn't understand crescendo symbols.
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.3 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c/B/ !segno!|:\
+!p!A2A {B}AGA | c2A {B}AGA | "_cresc."B2d f2d | c2A {B}AGA |\
+{c}B2G {A}GFG | A2F {G}FEF | D2d dcB | A2F "^Fin."F2 H:|
+|: c |\
+c2B ABc | d2e f2g | a2g fed | c2A ABc |\
+d2d dBG | c2c cAF | {c}B2G {B}A2F | G2E Cc"^D.C."B :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The popular song of "The Ladies Club" is sung to the above air.
+%%endtext
+%%sep 1 1 300

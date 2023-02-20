@@ -1,0 +1,17 @@
+X:81
+T:Brawl: Charlotte
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=112
+M:none
+L:1/4
+C:Thoinot Arbeau: Orchesographie, 1589
+K:F
+P:A
+%%MIDI gchord fcfc
+%%MIDI program 110
+%%MIDI chordprog 7
+%%MIDI bassprog 4
+|: "Gm"GG "Gm/F"BB | "Cm/Eb"cc "D"d2 | "Gm"gz "/"dz | "Cm"cA "/"Bc | "D7"d2 "Gm"G2 :|
+P:B
+|: "Gm"Gd "/"dd | "F"cd "Gm"B2 | "Bb"dz "F"cz | "Eb"GA "/"Bc "D7"AG | "Bb"dz "F"cz | "Eb"GA "/"Bc "D7"AG |\
+"Bb"dz "C"ez | "Gm/D"dc "/"BB | "D7"AA "Gm"G2 :|

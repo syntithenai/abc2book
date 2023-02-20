@@ -1,0 +1,28 @@
+X: 1
+T: Daisy Bell
+C: Harry Dacre
+R: waltz
+M: 3/4
+L: 1/8
+K: G
+"Intro"\
+| "G"[d2d'2] [^c2^c'2] [d2d'2] | [B2b2] [A2a2] [G2g2] | "D7"[A4a4] f2 | d4 d'2 \
+| "G"bd ef ga | ^ab e'd' bg | "D7"[a4c4] [d2c2] | [g4B4] z2 |]
+"Verse"\
+[| "G"d2 ^c2 d2 | B2 A2 G2 | "D7"A4 F2 | D4 z2 "D7"A6 | D6 | "G"d6 | B4 z2 |
+w: There is a flow-er with-in my heart, Dai-sy, Dai-sy.
+| "G"d2 ^c2 d2 | B2 A2 G2 | "D7"A4 F2 | D4 z2 | "G"G2 d2 G2 | "D7"F2 D2 A2 | "G"G6- | G2 z4 |
+w: Plant-ed one day by a glanc-ing dart, plant-ed by Dai_sy Bell.
+| "Em"B2 c2 B2 | "B7"A2 G2 F2 | "Em"B4 G2 | E4 z2 | "D7"d2 c2 B2 | A4 ^A2 | "G"B6- | B2 z4 |
+w: Whe-ther she loves me or loves me not, some-times it's hard to tell.
+| "Em"B2 c2 B2 | "B7"A2 G2 F2 | "Em"B4 G2 | E4 B2 | "A7"A2 e2 ^c2 | B4 A2 | "D7"d6- | d2 z4 |]
+w: Yet I am long-ing to share the lot of beau-ti-ful Dai-sy Bell.
+"Chorus"\
+[| "G"d6 | B6 | G6 | D6 | "C"E2 F2 G2 | E4 G2 | "G"D6- | D2 z2 |
+w: Dai-sy, Dai-sy, give me your an-swer, do.
+| "D7"A6 d6 | "G"B6 G6 | "A7"E2 F2 G2 | A4 B2 | "D"A6- | A2 z2 B2 |
+w: I'm half cra-zy, all for the love of you.* It
+| "D7"c2 B2 A2 | d4 B2 | "G"A2 G4- | G2 z2 A2 | "Em"B4 G2 | "C"E4 G2 | "G"E2 D4- | D2 z2 D2 |
+w: won't be a styl-ish mar-riage,* I can't af-ford a car-riage,* But
+| "G"G4 B2 | "D7"A2 z4 | "G"G4 B2 | "D7"A2 z2 Bc | "G"d2 B2 G2 | "D7"A4 D2 | "G"G6- | G2 z4 |]
+w: you'll look sweet on the seat of a bi-cy-cle built for two.

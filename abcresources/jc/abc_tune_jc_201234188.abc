@@ -1,0 +1,22 @@
+X: 20322
+T: the WIDOW OF WAREHAM
+O: Country dance.
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.32 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+FGA Bcd | efg fed | BdB AFD | GFE F2D |\
+FGA Bcd | efg fed | BdB AFD | E3 D2 :|
+|: e |\
+fdf ece | dBd cBA | fdf ^gea | dcB A>BA/G/ |\
+FGA Bcd | e/f/ge cBA | B/c/dB AFD | E3 D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The above tune is taken from the Universal Magazine, for August, 1760.
+%%endtext
+%%sep 1 1 300

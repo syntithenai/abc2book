@@ -1,0 +1,37 @@
+X: 1
+T:The Lonesome Boatman
+M:4/4
+L:1/8
+C:Finbar Furey
+Z:Gerry Strong
+K:Bm
+P:"Slow Intro"
+{e}"Bm"(f8 e4 ^e4) f8 z/|(f4 g4 {^e}f8) z/|"Quickly"{ef}.e {ef}.e {ef}.e
+{ef}.e {ef}.e z {ef}.e z {ef}.e z {ef}.e z {ef}.e {e}.e2 {f}A B8 z|
+"D"(3B/c/e/ .d/.d/.d/ d8 z/ "A"c6 {dc}B "F#m"{cBA}F8|"Bm"{e}(f8 e2 f4 g4
+)
+~f8 z|"Quickly"{ef}.e {ef}.e {ef}.e {ef}.e z/ {ef}.e {ef}.e z {ef}.e z
+{ef}.e z {ef}.e z {ef}.e {ef}.e2 {e}e4 {f}A B8 z|"D"{d}e8 (e/4f/4e/4d/4
+c/4d/4c/4e/4) (3.d.d.d (3.d.d.d {e}d8 {edc}d8 {e}"Quickly"(f/4e/4d/4c/4
+d/4e/4d/4c/4B/4 z/|"F#m"{B}.c (c4 ^B4 "A"c8) z|"F#m"{^e}F6 z {^A}B|
+"Bm"{^A}B8-|B8|
+P:"Normal Tempo: Faster than Intro"
+|:{e}f4-fgfe|f B4 zc/d/c/e/|"D"d4 dc {cd}cB|"F#m"AF-F6-|F4 z2 {g}(fe|
+"Bm"f4)-fgfe|fB-B4 e/d/c/e/|"D"dd- dd- dd- dd-|dc {cd}c/c/c cdcA|
+"Bm"({A}B8|B4) z2 e|"E"{f}^g8-|^g6 e2|"Bm"{e}f8-|f4 z2
+f2|"E"{e^gf}^g6-^g(e=g|
+^g6) (e=f|"Bm"f6) ze/4f/4e/4d/4c/4e/4|"D"dd- dd- dd- d{f}e/d/|
+"F#m"(3c2{B}c2{B}c2 c3 {c}B/A/|"Bm"F8-|F4 z2 {g}f2-|f4-fgfe|
+fB-B4 {f}e/d/c/e/|"D"dd- dd- dd {f}e/f/e-|"F#m7"e6 {ed}cA|[1 "Bm"{A}B8-|
+B8
+:|
+P:"Last time"
+|[2 "Bm"B4 {c}BA {fa}Bc|"Em7"{c}d4 z B|"Bm"{c}BA {FA}Bc {d}cB d/c/B|
+"Em7"e/d/c d/c/B {f}e/d/c d/c/B|"Bm"{c}BA {G}FE {G}F2 de|
+"Em7"{g}f/e/d {e}dc {d}cB {c}BA|"Bm"B/c/d z c {d}cB {c}BA|"Em7"Bc {e}d/c
+/B
+{f}e/d/c {e}d/c/B|"Bm"{f}e/d/c {d}c/B/A {c}BA {G}FE|"F#m"F z de {g}f/e/d
+{e}dc
+P:"Repeat Ad Lib"
+|:{d}cB {c}BA "Em"B/c/{c}d d{d}c/|"Bm"B2 {c}BA
+"Em"{c}B/c/d-dc:|"Bm"{A}B8-|B8|]

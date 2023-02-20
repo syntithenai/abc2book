@@ -1,0 +1,32 @@
+X: 11311
+T: the EXILE
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.11 p.31 #1
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+G |\
+e2g fdB | c2e dBG | ABc dfd | (c3 B2)G |\
+efg fdB | cde dBG | ABc [B2F2][dF] | [c3-E3-] [c2E2] :|
+|: B/c/ |\
+{e}d2G {f}e2G | fed gec | ABc dfd | (c3 B2)B/c/ |\
+dBG ecG | fBG gec | ABc [B2F2][dF] | [c3-E3-] [c2E2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z |\
+[c3C3] [d3D3] | [e3E3] [f2F2][eE] | [f2F2][eE] [d2D2][fF] | g^fg G2z |\
+[c3C3] [d3D3] | [e3E3] [f2F2][eE] | [f2F2][eE] [d2D2][gG] | ceg c2 :|
+|: z |\
+[B3g6] c3 | [d2g6]B c2e | f2e d2f | g^fg G2z |\
+[f3g6] e3 | [d3g6] c2e | f2e d2f | ceg c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set and change sides back again down the mid: up again Right & left.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

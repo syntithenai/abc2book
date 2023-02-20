@@ -1,0 +1,29 @@
+X: 2122
+T: the Humours of Glen
+O: Supposed Irish
+%R: air, jig, waltz
+B: Niel Gow & Sons "Complete Repository" v.2 p.12 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/16
+Q: "SLOWISH"
+K: Am
+% - - - - - - - - - -
+V: 1 staves=2
+E2 |\
+A2(cB)A^G A2E2E2 | (E2c2)B2 c2E2E2 | A2(cB.A).^G A2E2c2 | (D2E2).^G2 A4E2 ||\
+(A2cBA)^G A2E2E2 | E2c2TB2 c2E2E2 |
+~F2GFED ~E2FEDC | (D2E2).G2 [A4E4C4] :: !f!cA |\
+GAc2c2 Tc4ed | (cB)(cd)(ef) (g2e2.c2) | ~f2gfed e2c2A2 | (G2E2).^G2 [A4E4C4] :: cA |
+G2E2E2 c2E2E2 | G2E2E2 A2B2.c2 | G2E2.c2 (AG)(FE)(DC) | (D2E2).^G2 A4cA ||\
+(G2E2).E2 (A2F2).F2 | G2E2c2 (AG)(FE)(DC) | ~f2gfed e2c2A2 | (G2E2).^G2 [A4E4C4] :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |\
+A2e2E2 A4z2 | c2e2E2 A4z2 | A2e2E2 A4e2 | (f2e2).E2 A6 ||\
+A2e2E2 A4B2 | cde2E2 A4^c2 |
+d2"_sf"B4 c2"_sf"A4 | B4E2 A4 :: z2 |\
+C2c2c2 C2c2z2 | C2c2c2 C2c2z2 | d4B2 c4f2 | e4E2 A4 :: z2 |
+c2c'2c'2 c2c'2c'2 | e2c'2c'2 f2c'2c'2 | c2c'2c'2 c6 | (f2e2)E2 A4z2 ||\
+E4c2 F4c2 | E4c2 C6 | d2B4 c4f2 | e4E2 A4 :|

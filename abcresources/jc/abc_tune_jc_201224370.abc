@@ -1,0 +1,35 @@
+X: 08233
+T: LARGOS FAIRY DANCE
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.8 p.23 #3
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 1 clef=treble middle=B
+[f2A2](f>d) | [f2A2](f>d) | [f2A2](f>d) | (c>A)(e>c) |\
+[f2A2](f>d) | (g>f)(e>d) | (c>A)(e>c) | [d4F4] :|\
+!p!a2(a>f) | b2(b>a) | g2(g>e) | a2(a>g) |
+f2(f>d) | B2(g>e) | (c>A)(B>c) | [d4F4] |\
+!f!(a>b)(a>f) | {ga}b2(b>a) | (g>a)(g>e) | {fg}a2(a>g) |\
+(f>g)(f>d) | B2(g>e) | (c>A)(B>c) | [d4F4] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+|:\
+D2d2 | D2d2 | D2d2 | A2a2 |\
+d2d'2 | b2g^g | a2A2 | d2D2 :|\
+!p!d2f2 | g2f2 | e2d2 | c2A2 |
+d2f2 | g2e2 | a2A2 | d2D2 |\
+[d2D2][f2F2] | [g2G2][f2F2] | [e2E2][d2D2] | [c2C2][A2A,2] |\
+[d2D2][f2F2] | [g2G2][e2E2] | [a2A2][a2A2] | [d4D4] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead outsides, back again,
+%% hands 4 quite round, back again,
+%% right & left.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

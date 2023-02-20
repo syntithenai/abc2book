@@ -1,0 +1,19 @@
+X: 3341
+T: Lord Kinnaird's Reel
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.3 p.34 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: Bar 4 has wrong length; fixed by making the initial 8th-note c a quarter note.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+(A/B//c//) !segno!|\
+d2d2 d(FTED) | d2A=c B2AB/^c/ | dABF AFdF | E/E/E FA TB2A :| g fdad feeg | fdad Tf2eg |
+fdad eBdF | E/E/E FA TB2Ag || fdad feeg | fdad Tf2ef/g/ | aefd eBdF | EFGA BdAB !segno!|]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z !segno!|\
+d2d2 d2d2 | d2f2 g2a2 | f2f2 d2d2 | c2d2 d2-[dD] :| z | d'2d'2 a2a2 | d'2d'2 d'2c'2 |
+d'2d'2 d2[f2d2] | c2d2 d2[d2D2] ||d'2d'2 a2c'2 | d'2d'2 d'2c'2 | a2b2 g2f2 | e2f2 g2g2 !segno!|]

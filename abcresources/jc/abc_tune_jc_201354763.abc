@@ -1,0 +1,18 @@
+X: 1
+T: Yoshke (Ma Yofus; Tanz, Tanz, Yideleh)
+Z: John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/abc/
+O: Trad
+M: 4/4
+L: 1/8
+K: Gm
+"A"\
+|:  "D"DE^FG ABAG | ^F2FD "Gm"G4 |1 "D"A2A2 cBAG | ^F2FD "Gm"G4 \
+                               :|2 "D"^F2F2 "Cm"EDEC | "D"D4 z2"F7"[F2A] |]
+y/"B"\
+[| "Bb"Bcd4 d2 | "F"cdcA F4 | "F7"FGAB cdec | "Bb"d2de "D"dcBA |
+y\
+|  "Gm"GAB4 B2 | "D"ABA^F D4 | DE^FG ABAF | "Gm"G4 z2^FE |]
+y/"C"\
+|: "D"D2^F2 D2F2 | "Gm"G2G2 cBAG |1 "D"^F2F2 "Gm"GFGB | "D"A2A2 ~d4 \
+                                :|2 "D"^F2F2 "Cm"EDEC | "D"D4 z2 |]
+P: Play ABCB

@@ -1,0 +1,20 @@
+X: 1
+T: Petruno pile \vsareno    [Cm]
+O: Bulgaria
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+L: 1/16
+M: 7/8
+Q: 2/8 2/8 1/8 2/8
+%P: (ABCB)x4+A
+K: _E^F
+"A"|:\
+"Cm"Bcc2 c_BAG FG ~A3G | "D"~F2EF "(Cm)"EDC2 "G"FG ~G4 |\
+"Cm"Bcc2 c_BAG FG ~A3G |[1 "D"~F2EF "(Cm)"EDEC "G"D2 FGAB :|
+[2 "D"~F2EF "Cm"EDC2 "G"D2D2 !fine!z2 |]\
+!segno!y "B"[|\
+"Cm"G4 A2G2 "(D)"~F4E2 | "G"~F4 (E2D2) "Cm"C4z2 |\
+"Cm"G4 A2G2 "(D)"~F4E2 | "G"~F4 (E2D2) "Cm"C4z2 |\
+"Ab"C4 D2E2 "G"~D4G,2 | "Cm"C4 (D2E2) C4z2 |
+"Fm"C4 =F2E2 "G"~D4G,2 | "Cm"C4 "G"(D2E2) "Cm"C4z2 "C"|]\
+"Cm"Bcc2 c_BAG "(D)"FG A3G | "D"F2EF "(Cm)"EDEC "G"D2D2 !segno!z2 |]*
+%%text Some recordings use only part A as the instrumental.

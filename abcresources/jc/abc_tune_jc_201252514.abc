@@ -1,0 +1,27 @@
+X: 1
+T: Billy Dimple
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.41 #301
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:41 #301
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F |\
+Ac-cd/e/ fc-ce | (d/e/f) cB/A/ G>AGA | Bd-de fe-eg | ed/c/ dc/=B/ c3 :: C |
+EGGB Beeg | ((3gfe) ((3dcB) {B}A3G | FA-Ac- cf-fe/d/ | cB/A/ BA/G/ F3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+fgab afac' | bgaf c'cef | gabg a=bc'b | c'2g2 c3 :: z |
+c2c2 c2c2 | c2e2 f3c | f2f2 fgab | afc'c f3 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% First Man set to the 2d Wo. then the 1st Wo. does the same .|
+%% First Man sets and Jiggs to the 2d Wo. and turn her, 1st Wo. does the same :|
+%% Hands across half round and back again, all four Set, and both hands round,
+%% till the 1st Cu. gets in the 2d Cu. Place.
+%%endtext

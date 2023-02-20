@@ -1,0 +1,19 @@
+X: 1390
+T: the Wexford Lasses   #2
+R: reel
+%S: s:2 b:12(6+6)
+B: O'Neill's 1850 #1390
+O: McFadden
+Z: Bob Safranek, rjs@gsp.org
+Z: Compacted via repeats and multiple endings [JC]
+M: C|
+L: 1/8
+K: D
+"^A"((3ABc) !segno!\
+|: {e}dcdA ((3Bcd) AF | DFAg fdec |\
+[1 TdBdA BdAF| GBAG FDDA :|\
+[2 defd cdec| dBAG FD HD |]
+"^B"\
+|: g | fdde fgaf | gfga bgeg |\
+[1 fdde fgaf | gbag fdd :|\
+[2 fgaf ((3gag) bg | faeg fde!segno!c |]

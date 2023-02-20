@@ -1,0 +1,25 @@
+X: 21791
+T: NAPOLEON'S MARCH
+R: march
+B: K\"ohler's Violin Repository, v.2, 1885 p.179 #1
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The use of segnos is confusing; the part order ABCB is probably what's intended.
+M: C|
+L: 1/8
+K: D
+u(AB/c/) |\
+[d2F2] (.[dF]>.[dF]) [d2F2] (A/B/c/d/) | [e2c2] (.[ec]>.[ec]) [e2c2] (de) |\
+[f2A2D2] (ef) [g2A2] [f2A2] | [e2A2] (.[eA]>.[eA]) [e2A2] (AB/c/) |
+dd AA FF AA | dd AA FF AA |\
+[f3A3D3]a gfed | [a2A2] (.[aA]>.[aA]) [a2A2] !segno!:|
+|: uf2 |\
+(.e>.d) (.c>.B) (.A>.B)(.c>.A) | (.d>.c)(.d>.c) (.d>.e)(.f>.d) |\
+(.e>.d)(.c>.B) (.A>.B)(.c>.A) | (.d>.c)(.d>.c) (.d>.e)(.f>.d) |
+B2 (.[gB]>[gB]) [g2B2] (e/d/c/B/) | A2 (.[fA]>.[fA]) [f2A2] [a2A2] |\
+[e3A3] d edef | [d2F2] (.d>.d) [d2F2] "^Fine.":|
+u(fg) |\
+a2a2 b2b2 | (.a>.b)(ag) f2a2 |\
+(.g>.f)(ga) (.f>.e)(fg) | (fe)(.[eA]>.[eA]) [e2A2]A2 |
+g2(g/f/e/d/) c2A2 | a2(a/g/f/e/) d3e |\
+[f3A3D3]a gfed | [a2A2](.[aA]>.[aA]) [a2A2] "_D.C."!segno!|]

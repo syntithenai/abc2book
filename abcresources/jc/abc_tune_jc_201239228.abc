@@ -1,0 +1,19 @@
+X: 3233
+T: Miss Elphinstones Strathspey.
+C: by McIntyre
+%R: strathspey, air
+B: Niel Gow & Sons "Complete Repository" v.3 p.32 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+c | {G}A2EF/G/ A/G/F/E/ F>C | D<F TE>C B,BB>d | (3cde (3ABc (3def TB>A | (3GAB E>d cAA :|
+f/g/ | (a/g/f/e/) ca db ca | Aaca B/B/B TB>g | (a/g/f/e/) ca dbca | Fd Be cAA ||
+f/g/ | (a/g/f/e/) ca df ca | Aaca f/e/d/c/ B/c/d/f/ | e/d/c/B/ A>E F<A D>f | e<c a>c A/A/A A |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | A2A2 A2A2 | d2c2 B2B2 | a2c2 B2d2 | e2E2 A2A :|
+z | a2a2 b2a2 | c'2a2 e'2e2 | a2a2 g2a2 | d2e2 A2A || z |
+a2a2 b2a2 | c'2a2 b2B2 | A2c2 d2d2 | e2E2 A2A |]

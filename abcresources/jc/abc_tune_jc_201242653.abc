@@ -1,0 +1,13 @@
+X:642
+T:Chebang
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 64
+M:6/8
+L:1/8
+Q:1/8=270
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A|SA2F BdB|AFG A2z|c2e gba|aef d2A|A2F BdB|AFG A2z|c2e gba|aef !coda!d2:|
+f|a3 cde|f3 Bcd|efe dBe|c2e ef^g|a3 cde|f3 Bcd|efe dBe|A2z "^D.C. al Coda"BcB||
+[K:G]!coda!(d|Mb2)(dMb2)(d|Mb2)(dMb2)(d|g)GB dgb|ba^g a2(d|Ma2)(dMa2)(d|Ma2)(dMa2)(d|Ma)ba gfe|def g2:|

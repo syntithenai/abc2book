@@ -1,0 +1,46 @@
+%%text RJ Set 019
+
+
+X: 1
+T: Roaring Jelly (Smash the Windows)
+M: 6/8
+R: jig
+K: D
+A, |\
+"D"DED F2A | d2f "A"ecA | "G"G2B "D"F2A | "A"E2F GFE |\
+"D"DED F2A | d2f "A"ecA | "G"Bgf "A"edc | "D"d3- d2 :|
+a |\
+"D"a2f d2f | A2a agf | "A"g2e c2e | A2g gfe |\
+"D"f2 d "A"g2 e | "D"a2 f "G"bag | "D"fed "A"edc | "D"d3- d2 ||
+a |\
+"D"agf fed | Adf agf | "A"gfe ecA | Ace gfe |\
+"D"fed "A"gfe | "D"agf "G"bag | "D"fed "A"edc | "D"d3- d2 |]
+
+
+X: 2
+T: Squirrel in the Tree
+I: Squirrel in the Tree	J-39	G	jig
+M: 6/8
+R: jig
+K: G
+"D7"d2c |:\
+"G"B2B B2B | B2A GAB | "C"c2c c2B | c2d efg || "D"f2f f2f | fed cBA |
+[1 "G"GBd "D"e2d | "G"B3 :|2 "G"GBd "D"b2a | "G"g3 :: Bdg | "G"b2b b2b | b2a "C"gfe | "G"d2d d2e |
+d2c Bdg || "D"f2f f2f | fed cBA |1 "G"GBd "D"e2d | "G"B3 :|2 "G"GBd "D"bfa | "G"g3 |]
+
+
+X: 3
+T: Fair Jenny's Jig
+C: Peter Barnes 1977
+N: RJ J-18 D jig
+M: 6/8
+R: jig
+K: D
+A |\
+"D"f3 fgf | "A"ecA ecA | "G"Bcd "A"ecA | "G"Bcd "A"e2A |\
+"D"f3 fed | "A"ecA ecA | "G"Bcd "A"e2A | ABc "D"d2 :|
+|: A |\
+"G"B3 B=cB | GBB B=cB | "D"ADD dDD | ^cDD "D7"=cDD |\
+"G"B3 B=cB | GBB B=cB | "A"AEA "A7"AB^c | "D"dAF D2 :|
+% %text 08/29/98
+

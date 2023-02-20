@@ -1,0 +1,20 @@
+X: 43
+T: il Valzer di Mezzanotte
+T: Midnight Waltz
+C: Franc Amodio 1937
+%date:1937
+P: Play: aabbc,aabbc,a
+R: waltz
+M: 3/4
+L: 1/8
+K: Am
+"^a"[|] E AB cd |\
+"Am"e6 | "Dm"f6 | "Am"ed c4- | c2 de dc | "E7"B6 | d6 | "Am"cB A4 | 
+"Am/E"z E AB cd | "Am"e6 | "A7"g6 | "Dm"fe d4- | d2 ef ed | "Am"c2 z2 e2 | "E7"B2 z2 e2 | "Am"A3 A A2 | "^Fine."A :| 
+K: A
+z z4 "^b"|: \
+"A"e6 | f2 g3 "^,"ya | "E7"g6- | "Bm7"g2 b3 a | "E7"g4 g2 | f4 =f2 | "A"e6- | e2 e2 d2 | 
+"F#"c6 | c2 e3 c | "Bm"d6- | "D"d2 e2 d2 | "A"c2 z2 d2 | "E"B2 z2 e2 | "A"A3 A A2 |[1 "A"A6 :|[2"Am"A || [K:Am]
+"^c"[| "Am"E AB cd |\
+e4 c2 | "Dm"d4 B2 | "Am"c4 A2 | "E7"B6 | "Am"(e2 f2) e2 | "Dm"(d2 e2) d2 | "Am"(c2 d2) c2 | "E7"B |] 
+% %text Finish with a single (unrepeated) A part, ending at "FINE".

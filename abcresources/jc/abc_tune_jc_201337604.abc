@@ -1,0 +1,74 @@
+X: 1
+T: Sir Roger de Coverley   [G]
+O: Playford 1695
+S: Playford "Dancing Master", 9th Ed, 1695
+%Q: 1/4=120
+M: 9/8
+L: 1/8
+K: G
+B/A/ |:\
+"G"G2G "C"G2e "G"dBG | "Am"A2A "(A7)"ABG "D"FED |\
+"G"G2G "C"G2e "D"def | "G"g2G "(A7)"GAG "D"FED :|
+|:\
+"G"dBd "C"ece "G"dBG | "Am"A2A "(A7)"ABG "D"FED |\
+"G"dBd "C"ece "D"def | "Em"g2G "(A7)"GAG "D"FED :|
+
+%%sep 1 1 500
+X: 2
+T: Brose and Butter   [Am]
+R: slipjig
+O: Gow
+B: Hunter p.284; SRSNH 5.31
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.32 #1
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: ADor
+|: "Am"cde ~A2A c2A | cde ~A2A "G"dBG | "Am"cde ~A2A ABc | "G"B2G Gge dBG :|
+|: "C"cde ege ege | cde ege "G"dBG |  "C"cde ege efg | "D"f2d dge "G"dBG :|
+
+%%sep 1 1 500
+X: 3
+T: Drops of Brandy   [G]
+T: A Drop of Whiskey
+R: slipjig
+O: Trad
+B: Cole p.63 ("A Drop of Whiskey")
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+|: "G"d2c BGB BGB | d2c BGB "D7"cBA | "G"d2c BGB BGB | "Am"cBc A2B "D7"cBA :|
+|: "G"GBd gdB gdB | GBd gdB "D7"cBA | "G"GBd gdB gdB | "Am"cBc A2B "D7"cBA :|
+
+%%sep 1 1 500
+X: 4
+T: Another Jig Will Do   [D]
+C: Irish
+M: 9/8
+Z: Transcribed to abc by Mary Lou Knack
+R: slipjig
+K: D
+|: "D"ABA A2G "(A7)"F2G | "D"ABA AGF "G"~G3 | "D"ABA A2G "(A7)"F2G | "D"A2d "A7"d2c "D"d3 :|
+[| "D"A2g f2d "A7"e2c | "C"A2B =c2B c2B | "D"A2g f2d "A7"e2c | "D"A2d "A7"d2c "D"d3 |]
+[| "D"A2g f2d "A7"e2c | "C"A2B =c2B "(A7)"c2^c | "D"d>AA A2G "A7"F2G | "D"A2d "A7"d2c "D"d3 |]
+
+%%sep 1 1 500
+X: 5
+T: Woo'd and Married and A'   [G]
+R: slip-jig
+Z: Betsy Hooper
+M: 9/8
+L: 1/8
+K: G
+g |\
+"G"d2c "D7"BcA "G"G2c | "G"B{c}dd "D"deB "G"d2g |\
+"G"d2c "D7"BcA "G"GAB | "Em"E2e "B7"ef^d "Em"e2 :|
+g |\
+"G"def gag "D"fed | "G"B{c}dd "D"deB "G"d2e |\
+"G"def gag "D"fed | "Em"B2e "B7"ef^d "Em"e2 |]
+g |\
+"G"def gab "D"fga | "Bm"B{c}dB "G"gdB "D"d2g |\
+"G"d>ec "D7"BcA "G"GAB | "Em"E2e "B7"ef^d "Em"e2 |]

@@ -1,0 +1,20 @@
+X: 10711
+T: CALEDONIAN QUADRILLES #4
+C: Arranged by W.B. Laybourn
+R: hornpipe
+B: K\"ohler's Violin Repository, v.1, 1885 p.71 #1
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: This is a version of "There's Nae Luck Aboot the Hoose", with a third part.
+M: 2/4
+L: 1/16
+K: D
+uc'2 |\
+(.d'3.b) (.a3.f) | (.g3.a) (.b3.c') | (.d'3.b) (.a3.f) | e6 c'2 |\
+(.d'3.b) (.a3.f) | (.g3.a) (.b3.d') | (.a3.g) (.f3.e) | d4 |]
+u(d3e) |\
+f4 (fa3) | g4 (gb3) | f4 (fa3) | e4 (d3e) |\
+f4 (fa3) | g4 (gb3) | (.a3.g) (f3.e) | d6 |]
+u(de) |\
+f2f2f2 (ed) | g2g2g2 (fe) | f2f2 (fg)(^ga) | e6 (de) |\
+f2f2f2 (ed) | (.g3.a) (.b3.d') | (.a3.g) (f3.e) | d6 |]

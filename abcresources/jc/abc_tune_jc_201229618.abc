@@ -1,0 +1,21 @@
+X: 1265
+T: How D'ye Do
+%R: song, jig
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Ab
+%%continueall
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+E2E | A3 A2A | A2A G2A | B6- | B2z E2E | B2B B2B | B2B A2B | c6- | c2z
+w: How d'ye do, Mis-ter John-son? How d'ye do?* Is there a-ny-thing that we can do for you?*
+%
+E2E | c2c c2c | c3 B2c | d2d d2d | d3 c2d | e3 e2e | e2e c2B | A3 c2 | A3 :|
+w: We will do it if we can, We'll stand by you to a man. How d'ye do, Mis-ter John-son? How d'ye do, do do?
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% (This number may be used at banquets by having various tables compete with one another
+%% in improvising words to suit the melody. Any name may be substituted for "Mister Johnson".)
+%%endtext

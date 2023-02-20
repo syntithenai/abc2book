@@ -1,0 +1,17 @@
+X: 756
+T: the Same Old Story
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #756
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0756/oneill-1001-0756-1.abc
+N: Adjusted lengths of 1st/last notes from 4 to 2, to fix the rhythm. [JC]
+M: 2/4
+L: 1/16
+K: G
+"^A"[|] D2 \
+|  G2(BG) ABcA | BdcA BGAD | G2(BG) ABcA | BdcA GDEF ||
+|| G2(BG) ABcA | BdcA BGAD | G2(BG) ABcA | BdcA G2 |]
+"^B"[| D2 \
+|  G2(GF) GABd | edef edBA | G2(GF) GABG | ABAG FDEF ||
+|| G2(GF) GABd | edef edBd | gfgd   edBG | AGEF G2 |]

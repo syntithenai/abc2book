@@ -1,0 +1,16 @@
+X:1
+T:O'Carolan's Ramble to Cashel
+R:Air
+M:3/4
+L:1/8
+%%printtempo 0
+Q:100
+K:Em
+def|:\
+"Em"g2 ga ba|g2 fg af|"C"e2B2 de|
+"Bm"d4 gf|"C"edc BAG|"Am"G4 BA|"Bm"B3 AGF|
+"Em"E3 def::"Em" g2 b2 b2|"C"b3 a g2|"D"f2 de fg|
+"Bm"a2g2f2| "C" g2 ga ba|"Am"g2 fg af|"Em"e2 B2 de|
+"Bm"d4d2| "Em" ef ed BA|"Bm" BA Bd ef|"Em"gf ga ba|
+"Em"g2 fg af|"C"e2 B2 de| "Bm" d4 gf|"C"ed cB AG|
+"Am"G3 ABA|"Bm"B3 G F2|1 "Em"E3 def:|2 E6|]

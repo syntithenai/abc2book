@@ -1,0 +1,12 @@
+X:10
+T:Baltimore
+M:6/8
+Q:1/8=300
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+c|B2A B2A|G2G GAB|c2B c2B|A2A A2B|c2e edc|B2d dcB|ABc B2A|G2A G2::
+B|d2d dcd|e2e e3 |c2c ABc|d2d d2D|G2A B2c|def g2f|dcB cBA|G2A G2:|

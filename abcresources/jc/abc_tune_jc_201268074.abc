@@ -1,0 +1,25 @@
+X:1
+T:Departed Father
+M:6/8
+L:1/8
+P:ABAB.CDCB
+R:Slow Air
+Q:1/4=60
+C:G. S. Davidson
+S:abcusers 2014-1-24
+Z:abc-transcription David Murray for DPPB 2013.02.02
+K:HP
+%%MIDI gracedivider 8
+%%partsbox
+P:A
+| {gcd}c3/2{e}B/2{d}c {g}f/2e3/2{g}c | {Gdc}d3/2e/2f {g}e/2c3/2B \
+| {g}A3/2B/2{G}A {g}c/2e3/2c | {g}f3/2e/2{g}A {GdG}B3 |
+P:B
+| {gcd}c3/2{e}B/2{d}c {g}f/2e3/2{g}c | {Gdc}d3/2e/2f {g}e/2c3/2-c \
+| {g}f3/2g/2a {ef}e/2c3/2{g}c | {Gdc}d3/2c/2{e}B {G}A3 |
+P:C
+| {ag}a3/2g/2a {gfg}f/2e3/2c | {gfg}f3/2e/2c {gef}e/2c3/2B \
+| {g}A3/2B/2{G}A {g}c/2e3/2c | {g}f3/2e/2{g}A {GdG}B3 |
+P:D
+| {ag}a3/2g/2a {gfg}f/2e3/2c | {gfg}f3/2e/2c {gef}e/2c3/2-c \
+| {g}f3/2g/2a {ef}e/2c3/2{g}c | {Gdc}d3/2c/2{e}B {G}A3 |

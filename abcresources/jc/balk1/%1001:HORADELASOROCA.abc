@@ -1,0 +1,12 @@
+X: 1001
+T: Hora de la Soroca
+M: 2/4
+L: 1/8
+K: CMix
+Q: 1/4=132
+%%MIDI program 48 string ensemble 1
+%%MIDI gchord IG
+%%MIDI chordprog 32 Acoustic Bass
+|:"C" E3/2G/F2|E3/2G/F2|E3/2G/F2|ECC2::
+  "F" cB AG   |EF G2   |cB AG   |"C"EC C2::
+  "F" EGF2    |EGF2    |EGF2    |"C" ECC2 :|

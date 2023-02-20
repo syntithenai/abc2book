@@ -1,0 +1,15 @@
+X: 875
+T: the Star Hornpipe   #2
+R: hornpipe
+%S: s:2 b:10(5+5)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #875
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0875/oneill-1001-0875-1.abc
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play (A1A2)x2 + (BA2)x2
+M: 2/4
+L: 1/16
+K: G
+"^A"[|] (Bc) | dcdf gecA | GFGB D2(EF) |[1,3 GFGA BABc | dcdf A2 :|[2,4 Gedc BAGF |
+| A2G2 "^fine"G2 "^B"::  (cB) | AGAB cBcd | edef g2(gf) | edcB cBAG | F2D2 "^->A2"D2 |]

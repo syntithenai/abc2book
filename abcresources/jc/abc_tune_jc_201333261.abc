@@ -1,0 +1,42 @@
+X: 1
+T: the Sailor's Delight
+T: the Sailer's Delight
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.39 #72
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p._ 
+N: DMDfD spells it "Sailer's".
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the DMDfD's dance instructions.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+FAF AFA | d3 A2G/F/ | G>AG F2E | E3- E2G/F/ |\
+GFG EFG | d3 e2a/g/ | f>g a/g/ e2d | d3- d2 :|
+|: g/f/ |\
+g>fg eag | fa2- a2g/f/ | g>a g/f/ ef^d | e3- e2(c/B//c//) |\
+d>cB A>GF | G>AB E2d/c/ | dFd E2D | D3- D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. Back to Back with the 2d Cu. and Back to Back
+%% with their own Partners .| The 1st Cu. turn the 2d Cu. and
+%% turn their own :| Meet and sett all four and turn single, then
+%% clap Hands and go quite round .| The 1st Cu. go the Figure
+%% thro' the 2d Cu. and cross over and turn their Partners :|
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. back to back with the 2. cu. and back to back with their own Partners. This to the first
+%% Strain played once.  The 1. cu. turn the 2. cu. and turn their own. this to the first Strain played twice.
+%% Meet and set all four, turn S. and clap hands all four, go quite round. This to the second Strain played
+%% once. The 1. cu. go the Figure thro' the 2. cu. and cross over and turn their Partners. This
+%% to the second Strain played twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

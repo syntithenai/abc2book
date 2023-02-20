@@ -1,0 +1,32 @@
+X: 8
+T: Hare in the Corn
+T: Longways for as many as will.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.4
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Fixed bad rhythm between the strains by adding a rest.
+N: The last measure has 3 quarter notes; fixed in the obvious way for a jigg.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+d3- def | edc BAG | c2g B2g | aAA ABc |\
+d3- def | edc GAB | cBc Agf | gGG G2 |]
+z |\
+dB/c/d/B/ GB/c/d/B/ |  dB/c/d/B/ GB/c/d/B/ | cA/B/c/A/ FA/B/c/A/ | cA/B/c/A/ FA/B/c/A/ |\
+dcB edc | dcb gfe | dcB A2f | g2G b2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. cross over half figure at bottom .| the 2d
+%% do the same :| Clap to your Partner then clap sides
+%% and turn sides, till the 1st Cu. is in the 2d Cu. Places .|
+%% clap sides clap to your Partner and turn :| lead up with
+%% the 2d. Cu. and Jigg it Jigg it and cast off .| lead down
+%% with the 3d Cu. Jigg it and cast up .| 3 Men take hands
+%% cast back to the Wall & Jigg it, the 3d Wo. do the same meet
+%% & turn single, right hand & left at top.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

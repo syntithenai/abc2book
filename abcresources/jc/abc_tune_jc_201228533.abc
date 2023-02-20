@@ -1,0 +1,19 @@
+X: 11343
+T: HORNPIPE
+%R: hornpipe, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.134 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F2 |\
+BFdc BFed | cFed ccde | dfbf edcB | ABcA FFGA |\
+BFdc BFed | cFed ccde | dbag fedc | B2B2 "^Fin."B2 H:|
+|: gf |\
+ecgf ecfe | dBed c2F2 | GABc de=ef | f=e_ec BBgf |\
+ecgf ecfe | dBed c2f2 | =efga bgfe |[1 f2f2 f2 :|\
+[2 f=efg f_e"^D.C."dc |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

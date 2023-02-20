@@ -1,0 +1,63 @@
+X: 1
+T: Lord Carnarvan's Jigg
+P: Longways for eight
+N: The page has "Iigg", but the ToC has "Jigg", the more modern spelling.
+%R: march, reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.74 #104
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.26
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats symbols added to both parts to match the alternate endings.
+N: The dance directions are formatted in two columns; ## is used to indicate the column separation.
+M: C|
+L: 1/8
+K: Gmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B2G2 Bcd2 | c2A2 AB cd | B2G2 G2G2 |g4 [1 d4 :|[2 d2 \
+|: ef |\
+gfed g3B | A2A2 c2dc | B2G2 b2a2 | g4 [1 d2 :|[2 d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up all a D. forward and back .| That again :| ##
+%% Each Man and Wo. go about each other, not turning your Faces .| That again :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First Cu. cross over and fall into the 2d Place on the outside the 2d Cu. the
+%% Men on the outside of the We. and the We. on the Men's Side .| Cross over
+%% again, and fall into the 3d Place :| ##
+%% Take Hands with your Wo. and leading
+%% her down between the last Cu. cast off all and meet above, the first Cu. in
+%% the first Place, the last Cu. in the 2d Place, and the 3d Cu. in the last Place .|
+%% Arms all :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Lead down forward and back .| That again :| ## Go about each other as before .|
+%% That again :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The lowest Cu. cross over as before :| ##  Cast off as before.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Lead up all a D. and back .| That again :| ##  Go about each other as before .|
+%% That again :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The Uppermost Cu. cross over as before :| ##  Cast off as before.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Lead down forward and back :| That again :| ##  Go about each other as before .|
+%% That again :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The lowest Cu. cross over as before :| Cast off as before.
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,25 @@
+X: 10653
+T: I LOVE MY LOVE IN SECRET.
+O: Scottish air.
+Q: "Not too fast."
+%R: air, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.65 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(d>c) |\
+(cB)(AG) G2D2 | E2A>B A2(d>c) |\
+(cB)(AG) d2G2 | (c>d)(ed) (cB)(AG) |\
+(c>d).e.c (B>c).d.B | ({d}cB)(AG) A3G |\
+BdeG dBAG | {F}E2G>A G2 :|
+|: (d>c) |\
+(cB)(AG) d2D2 | E2(A>B) A2 (d>c) |\
+{c}B2AG d2G2 | e2G2 d2G2 |\
+(c>d).e.c (B>c).d.B | ({d}c>B)({B}A>G) A2(Bd) |\
+(e>f)gB (dB){B}.A.G | {F}E2G>A G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

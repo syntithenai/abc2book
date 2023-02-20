@@ -1,0 +1,20 @@
+X:1
+T: Up Tails All
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 210
+%W: A1
+% voice 1 (1 lines, 23 notes)
+K:G
+M:4/4
+L:1/16
+d4 |d8 B4 A2 B2 |c4 c4 A4 A4 |d4 d4 B6 c2 |d12 e4 |d8 B8 |c8 A8 |d8 D8 |G12 e4 |
+%W: A2
+% voice 1 (1 lines, 21 notes)
+d8 B4 A2 B2 |c4 c4 A4 A4 |d4 d4 B6 c2 |d12 e4 |d8 B8 |c8 A8 |d8 D8 |G12 ||

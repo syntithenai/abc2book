@@ -1,0 +1,38 @@
+X: 11
+T: The green Room
+%R: march, reel
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8- and 10-bar staffs.
+V: 1 staves=2
+ed |\
+c2A2A2B2 | Tc4 c2e2 | d2c2B2A2 | BAGF E2ed |\
+c2A2A2B2 | Tc4 c2e2 | d2c2 TB4 | A6 :|
+ba |\
+g2e2e2f2 | Tg4 g2b2 | a2g2f2e2 | fe^dc B2ba |\
+g2e2e2f2 | Tg4 g2b2 | a2g2 Tf4 | e6 ga |\
+b2d2 Td4 | b2d2 Td4 |
+b2d2d2d2 | c2B2 A2fg |\
+a2c2 Tc4 | a2c2 Tc4 | a2c2B2A2 | G2F2E2ed |\
+Tc2A2A2c2 | Tc4 c2e2 | d2c2 TB4 | A6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z2 |\
+A8 | A8 | d4 "6"f4 | e4 "6"g4 |\
+a4 z4 | A4 "6"c4 | "6;5"d4 "4#"e4 | A6 :| "Last Strain once"z2 |\
+e8 | e8 | a4 "6"c'4 | "#"b4 z2"6"^d2 |
+e8 | e8 | "6;5"a4 "4#"b4 | e8 |\
+"5"g8 | g8 | g4 "7"e4 | a4 A4 |\
+a8 | a8 | a4 "6;5"^d4 | e4 "6"g4 |\
+a4 z4 | A4 "6"c4 | "6;5"d4 "4#"e4 | A6 |]
+%%begintext align
+%% First & 2d Man foot it to their Partners & turn them to the Man's Side | then foot it to their Partners and
+%% turn each into their Places | First Cu. cast off one Cu. & lead up footing it to the Top & cast off to the
+%% 2d Couple's Place   then the first Cu. foot it to the 2d Cu. then to themselves & turn |
+%%endtext

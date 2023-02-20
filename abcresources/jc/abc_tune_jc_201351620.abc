@@ -1,0 +1,160 @@
+X: 1
+T:What Child Is This [G,w]
+C:Traditional (Greensleeves), Words: William C. Dix
+S:MySheetMusic.com
+Z:ABC by Thornton Rose, December 2001
+N:Original score in C.
+M:3/4
+L:1/4
+Q:1/4=130
+K:G
+A | "Am"c2 d | "D7"e>f e | "G"d2 B | "Em"G>A
+w:What child is this,_ who, laid to rest,_
+B | "F"c2 A | A>^G A | "E"B2 ^G | E2
+w:On Ma-ry's lap_ is sleep_ ing?
+A | "Am"c2 d | "D7"e>f e | "G"d2 B | "Em"G>A
+w:Whom an-gels greet_ with an-thems sweet,_
+B | "F"c>B A | "E7"^G>F G | "Am"A3 | A3 |
+w:While shep_ herds watch_ are keep-ing?
+"C"g3 | g>f e | "Bm"d2 B | "Em"G>A
+w:This, this_ is Christ the King,_
+B | "Am"c2 A | "F"A>^G A | "E"B2 ^G | E3 |
+w:Whom shep-herds guard_ and an-gels sing.
+"C"g3 | g>f e | "G"d2 B | "Em"G>A
+w:This, this_ is Christ the King,_
+B | "F"c>B A | "E7"^G>F G | "Am"A3 | A2 |]
+w:The Babe,_ the Son_ of Ma-ry.
+%
+W:2. Why lies He in such mean estate
+W:Where ox and ass are feeding?
+W:Good Christian, fear, for sinners here
+W:The silent Word is pleading.
+W:(Chorus)
+W:
+W:3. So bring Him incense, gold and myrrh
+W:Come, peasant, King to own Him;
+W:The King of Kings salvation brings
+W:Let loving hearts enthrone him.
+W:(Chorus)
+W:
+W:0. Chorus:
+W:This, this is Christ the King,
+W:Whom shepherds guard and angels sing.
+W:This, this is Christ the King,
+W:The Babe, the Son of Mary.
+
+X: 2
+T:What Child Is This [G]
+C:Traditional (Greensleeves), Words: William C. Dix
+S:MySheetMusic.com
+Z:ABC by Thornton Rose, December 2001
+N:Original score in C.
+M:3/4
+L:1/4
+Q:1/4=130
+K:G
+A | "Am"c2 d | "D7"e>f e | "G"d2 B |
+"Em"G>A B | "F"c2 A | A>^G A | "E"B2 ^G |
+E2 A | "Am"c2 d | "D7"e>f e | "G"d2 B |
+"Em"G>A B | "F"c>B A | "E7"^G>F G | "Am"A3 | A3 |
+"C"g3 | g>f e | "Bm"d2 B |
+"Em"G>A B | "Am"c2 A | "F"A>^G A | "E"B2 ^G |
+E3 | "C"g3 | g>f e | "G"d2 B |
+"Em"G>A B | "F"c>B A | "E7"^G>F G | "Am"A3 | A2 |]
+W:
+W:1. What child is this, who, laid to rest,
+W:On Mary's lap is sleeping?
+W:Whom angels greet with anthems sweet
+W:While shepherds watch are keeping?
+W:
+W:Chorus:
+W:This, this is Christ the King,
+W:Whom shepherds guard and angels sing.
+W:This, this is Christ the King,
+W:The Babe, the Son of Mary.
+W:
+W:2. Why lies He in such mean estate
+W:Where ox and ass are feeding?
+W:Good Christian, fear, for sinners here
+W:The silent Word is pleading.
+W:(Chorus)
+W:
+W:3. So bring Him incense, gold and myrrh
+W:Come, peasant, King to own Him;
+W:The King of Kings salvation brings
+W:Let loving hearts enthrone him.
+W:(Chorus)
+
+X: 3
+T:What Child Is This [C]
+S:MySheetMusic.com
+Z:ABC by Thornton Rose, December 2001
+N:Original score in C.
+M:3/4
+L:1/4
+Q:1/4=130
+K:C
+D | "Dm"F2 G | "G7"A>B A | "C"G2 E |
+"Am"C>D E | "Bb"F2 D | D>^C D | "A"E2 ^C |
+A,2 D | "Dm"F2 G | "G7"A>B A | "C"G2 E |
+"Am"C>D E | "Bb"F>E D | "A7"^C>B, C | "Dm"D3 | D3 |
+"F"c3 | c>B A | "Em"G2 E |
+"Am"C>D E | "Dm"F2 D | "Bb"D>^C D | "A"E2 ^C |
+A,3 | "F"c3 | c>B A | "C"G2 E |
+"Am"C>D E | "Bb"F>E D |  "A7"^C>B, C | "Dm"D3 | D2 |]
+W:
+W:1. What child is this, who, laid to rest,
+W:On Mary's lap is sleeping?
+W:Whom angels greet with anthems sweet
+W:While shepherds watch are keeping?
+W:
+W:Chorus:
+W:This, this is Christ the King,
+W:Whom shepherds guard and angels sing.
+W:This, this is Christ the King,
+W:The Babe, the Son of Mary.
+W:
+W:2. Why lies He in such mean estate
+W:Where ox and ass are feeding?
+W:Good Christian, fear, for sinners here
+W:The silent Word is pleading.
+W:(Chorus)
+W:
+W:3. So bring Him incense, gold and myrrh
+W:Come, peasant, King to own Him;
+W:The King of Kings salvation brings
+W:Let loving hearts enthrone him.
+W:(Chorus)
+
+%--------------------------------------------------------------------
+
+X: 4
+T:What Child Is This (Lyrics)
+Z:ABC by Thornton Rose, December 2001
+M:3/4
+L:1/4
+Q:1/4=130
+K:C
+|]
+W:1. What child is this, who, laid to rest,
+W:On Mary's lap is sleeping?
+W:Whom angels greet with anthems sweet
+W:While shepherds watch are keeping?
+W:
+W:Chorus:
+W:This, this is Christ the King,
+W:Whom shepherds guard and angels sing.
+W:This, this is Christ the King,
+W:The Babe, the Son of Mary.
+W:
+W:2. Why lies He in such mean estate
+W:Where ox and ass are feeding?
+W:Good Christian, fear, for sinners here
+W:The silent Word is pleading.
+W:(Chorus)
+W:
+W:3. So bring Him incense, gold and myrrh
+W:Come, peasant, King to own Him;
+W:The King of Kings salvation brings
+W:Let loving hearts enthrone him.
+W:(Chorus)

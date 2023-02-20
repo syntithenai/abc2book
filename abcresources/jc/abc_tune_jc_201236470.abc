@@ -1,0 +1,18 @@
+X: 2213
+T: WEST ADAM St. CLUB
+C: By J. Mc Kenzie
+R: Schottishe.
+%R: shottish
+B: James Kerr "Merry Melodies" v.2 p.24 #213
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The final repeat symbol is probably wrong; not fixed.
+M: C
+L: 1/8
+K: D
+|:\
+(3(DFA) d>F (A<F) A2 | (3(DFA) d>F (A<F) E2 |\
+(DFA) d>F (A<F) A>F | (3GBG (3FAF (3EFG F2 ::\
+d>B A<F A<F A2 |
+d>B A>f g>f e2 |\
+[1 (3fec d>A (3BAG F2 | G<B F<A E<G F2 :|\
+[2 (3dfd (3cec (3BdB (3AGF | (3GBG (3FAF (3EFG F2 :|

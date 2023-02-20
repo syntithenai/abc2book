@@ -1,0 +1,17 @@
+X: 12052
+T: Strily Vale
+T: Strily Vaile
+C: James Oswald
+%R: air, waltz
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.5 #2
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Bar 15 has "Part 2d" below the 1st 2 notes.
+M: C
+L: 1/8
+K: A
+"_Brisk"e2 |\
+c2 (B<A) A2 (B<c) | e2 (c<e) f2 (g<a) | {f}e3 c (dc)(BA) | F2 (Bc) B2 (ed) |\
+c2 (B<A) A2 (B<c) | e2 (c<e) f2 (g<a) | {f}e3 c (dc)(BA) | F2 (AB) A2 :|
+|: (cd) |\
+e3 f (e<c)(B<c) | (ec)(Bc) e3 c | B2 ce (ag)(fe) | c2 (fg) Tf3 e |\
+a3 g f2 (e<c) | B2 (ce) =g2 (f/g/)a | {f}e3 c (dc)(BA) | F2 (TAB) A2 :|

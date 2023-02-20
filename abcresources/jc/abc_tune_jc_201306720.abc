@@ -1,0 +1,38 @@
+X: 1
+T: the Mansel
+P: Longways for as many as will
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.69 #105
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.3-8
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+G4 B4 d6 d2 | (g2d2) (c2B2) A6 B2 |\
+c6 d2 (B2d2) (g2d2) | B4 A2G2 G8 |]\
+B4 d4 g6 f2 | e4 ab (ag) f6 g2 |
+fgeg fgeg fgfg a3e | f4 (e2d2) d6 g2 |\
+e2g2 d2g2 c2g2 B2g2 | e2g2 d2g2 c2g2 B2g2 |\
+e4 d3c B3c (Bc) (dA) | B4 (A2G2) G8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man sett and turn single, then turn the 2d Wo. .|
+%% First Wo. do the same :| Then 1st Cu. lead up and 2d Cu.
+%% lead down, then right and left quite round, clap and cast
+%% off, and double figure at the Bottom, then clap, lead up,
+%% and cast off.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man set and turn single, then turn the 2. wo .| The 1. wo. does the same :| Then the 1. cu.
+%% leads up and the 2. cu. leads down, then right and left quite round, clap and cast off, and double Figure
+%% at the bottom, clap and lead up and cast off.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

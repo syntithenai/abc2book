@@ -1,0 +1,17 @@
+X:805
+T:Die Woaf
+C:Traditional Austrian + Colin Hume
+N:Original tune is just the first 16 bars.  Original dance is just 8 bars.
+M:3/4
+L:1/8
+%%MIDI beat 100 95 80
+%%MIDI program 60
+%%MIDI chordprog 58
+%%MIDI bassprog 58
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=130
+K:G
+dd | "G"g2 dz dz | "/"d2 z2 de | "/"d2 Bz Bz | "/"B4 z2 | "G"d2 ed cB | "Em"d2 ed cB | "Am"B2 Az Az | "D"A6 |
+"D"A2 A2 B2 | "D7"c2 cB A2 | "G"B2 B2 c2 | "Em"d2 dc BA | "G"d2 ed cB | "D7"d2 ed cA | "G"A2 Gz Gz | "/"G4 AG |
+"D7"F2 Az Az | "/"A2 z2 BA | "G"G2 Bz Bz | "/"B4 z2 | "G"d2 ed cB | "Em"d2 ed cB | "Am"B2 Az Az | "D"A4 AG |
+"D7"F2 Az Az | "/"A2 z2 BA | "G"G2 Bz Bz | "/"B2 z2 "G7"d2 | "C"e2 ec Ge | "G"d2 dB GB | "D7"Ac Dz Fz | "G"G4 |]

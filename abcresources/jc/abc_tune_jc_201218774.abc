@@ -1,0 +1,34 @@
+X: 15
+T: Plangsty Connor
+C: Carolan
+O: "In the Poor Soldier"
+%R: jig
+B: "The Hibernian Muse" p.10 #1
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. XV.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+G2G FED | E2F G2A | B2G c2A | B2G c2A |\
+Bcd EFG | ABG FED | EFG AFD | G3  G3 :|
+|:\
+d2d def | g3 g3 | c2c cdc | e3 g3 |\
+dcB c2e | dBd D2D | EFG AFD | G3 G3 :|
+|:\
+BGE EGE | AFD DFD | EFG ABG | {G}F3 D3 |\
+ded dBG | efe efg | dcB AGF | G3 G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g2z d2z | c2d e2f | g2z a2z | g2z a2z |\
+g2z e2z | c2z d2z | c2z d2z | GBd G3 :|
+|:\
+d3 d3 | Bdc BAG | c3 c3 | c2c cef |\
+g2z e2z | d2z g2z | e2z d2z | GBd G3 :|
+|:\
+e3 d3 | d3 d3 | e3 c3 | d3 G3 |\
+G3 g3 | e3 c3 | d3 D3 | GBd G3 :|

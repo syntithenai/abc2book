@@ -1,0 +1,27 @@
+X: 1
+T: Mr Isaac's Maggot
+P: Longways for as many as will
+%R: minuet
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.190
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: 3/2
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+g4 e4 d4 | cde2 d2c2 d2G2 | G2 c4 B2 A4 | A2 d4 A2 B2G2 |\
+g4 e4 d4 | cde2 d2c2 d2G2 | G2 c4 B2 A2(fe) | d2c2 d2B2 | c4 :| |: E2 G4 A2 G4 |
+E2 G4 AB c2G2 | E2 G4 A2 G4 | E2 G4 AB c2G2 | (g3f/g/) (a3g/f/) (g3f/g/) | agfe fedc d2G2 | (g3f/g/) (a3g/f/) (g3f/g/) |
+agfe defg e2c2 | e4 (f3e/f/) g4 | cde2 d2c2 d2G2 | e4 (f3e/f/) g4 | G2c2 (cd)e2 dc :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man turn the 2. wo. with his right-hand, and cast off below the 2. man, the 1. wo. turn the 2.
+%% man with her right-hand, and cast off below the 2. wo. :| The two men take hands and fall back, the
+%% two we. doing the same at the same time, all four meet and turn S. then go the whole Figure through,
+%% then all four hands a-breast, then lead through and cast off :|
+%% [DMDfD]
+%%endtext
+%%text Note: Each Strain is to be play'd twice over.
+%%sep 1 8 500

@@ -1,0 +1,39 @@
+X: 315
+T: Liljano Mome
+O: Bulgaria
+R: lesnoto
+F: http://balkanarama.com/liljano.htm
+F: http://www.youtube.com/watch?v=Ua2Lw854_S0
+F: http://www.youtube.com/watch?v=T91CYbrmUE8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+Z: MIDI commands added by Seymour Shlien
+M: 7/8
+L: 1/8
+Q:1/4 = 144
+K: Dm
+%%MIDI chordprog 24 % Acoustic Guitar (nylon)
+%%MIDI bassprog 32 % Acoustic Bass
+%%MIDI program 41 % Viola
+%%MIDI beat 97 87  77 4
+%%MIDI ratio 2 1
+%%MIDI chordvol 60
+%%MIDI bassvol 116
+%%MIDI gchord f2cf2f2
+"instr:"\
+|: "Dm"[Ac][GB][FA] [Ac][GB] [F2A2] | "Gm"[G3-B3-] [G4B4] |\
+   "C7"[GB][Ac][Bd] [Bd][Ac] [Ac][GB] | "F"[A3-c3-] [A4c4] |
+   "Dm"[Ac][GB][FA] [Ac][GB] [F2A2] | "Gm"[G3-B3-] [G2B2] [GB][FA] |\
+   "A7"[EG]z[Ac] [Ac][GB] [FA][EG] |1 "Dm"[D3F3] [DF][EG] [FA][GB] :|2 "Dm"[D3-F3-] [DF]z z2 ||
+"vocal:"
+[| "Dm"DAA A2 A2 | "Gm"B2A (G>A GF) | "C"EGG G2 G2 | "F"A2G (F>G FE) |
+   "Dm"DFF F2 F2 | "Gm"G2F (E>F ED) | "A7"^C2D E2 F2 | "Gm"BBA "A7"A4 |
+   "Dm"[DF][Ac][Ac] [A2c2][A2c2] | "Gm"[B2d2][Ac] ([GB]>[Ac] [GB][FA]) |\
+   "C"[EG][GB][GB] "C7"[G2B2] [G2B2] | "F"[A2c2][GB] "A7"([FA]>[GB] [FA][EG]) |
+   "Dm"[DF][FA][FA] [F2A2] [F2A2] | "Gm"[G2B2][FA] ([EG]>[FA] [EG][DF]) |\
+   "A7"[^C2E2][DF] [E2G2] [G2B2] | [FA][E2G2] "Dm"[D4F4] |]
+%
+% Ivan Djakov's 2nd verse:
+%   Не е излязла Лиляна,
+%   най е излязла майка й,
+%   люти си клетви колнеше
+%   и на Георги думаше.

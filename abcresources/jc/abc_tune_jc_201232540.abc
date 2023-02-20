@@ -1,0 +1,19 @@
+X: 173
+T: the Bank
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.17 #3
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 16th-note EFG runs in bars 1 and 2 should probably be triplets.
+N: The d4-d4 from bar3 to bar 4 is a half note superposed on the bar line.
+M: C|
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D6 EFG TG8 | D6 EFG A4 d4 |\
+{c4}TB8 GABc Td4- | d4 d4 c2 TB6 |\
+G2A2B2c2 d8 | c2B2c2d2 Te8 |
+d2ef g4 {g}Tf4 e4 | Td8 d4 e2fg |\
+Td8 d4 e2fg | Td8 {c}TB4 A2B2 |\
+c4 B4 c2A2 F4 | G8 z8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

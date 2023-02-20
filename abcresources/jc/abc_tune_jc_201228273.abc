@@ -1,0 +1,32 @@
+X: 11161
+T: DUETTO
+C: Gaetano Brandi
+Q: "Andantino"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.116-117
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: G
+V: 1
+%%graceslurs 0
+|:\
+!p!d4 !f!d3B e3d | d6 "_cres"ef g2g2 | {a/}g2 f4 e2d2c2 | c3d B4 z4 |\
+!p!cBAG "_cres"FGAB !f!c4 | !p!dcBA "_cres"GABc !f!d4 | d3e/f/ g2d2c2B2 | !p!B8 A4 :|
+|:\
+!f!c'6 ag {g/}f2ed | g2ga b2bc' d'4 | !f!c'6 ag {g/}f2ed | g2ga b2bc' d'4 |\
+e6 fg abc'e | d6 ef gabd | {f/}e2dc B4 TA3G/A/ | G4 G4 z4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff lines.
+V: 2
+|:\
+B4 B3G c3B | B6 cd e2e2 |
+{f/}e2 d4 c2B2A2 | A3B G4 z4 | AGFE DEFG A4 |
+G4 GFGA B4 | B3c/A/ B2B2A2G2 | G8 F4 :|
+|:\
+!f!DFAF DFAF DAdA | B2z2 g2ga b4 | DFAF DFAF DAcA |
+B2z2 g2ga b4 | c4 c4 c4 | B4 B4 B4 |
+{d/}c2BA G4 TF3E/F/ | G4 G4 z4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%
+%%center -

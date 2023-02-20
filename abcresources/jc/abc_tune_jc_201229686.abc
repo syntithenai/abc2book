@@ -1,0 +1,45 @@
+X:127
+T:Southern Rose Polka
+M:2/4
+L:1/16
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+!ff!D2DDD2 z2|F2FFF2 z2|A2AAA2 z2|"^ad lib"Hd4-d2^cded cded =c2A2F2HD2 ^cded cded =c2A2F2HD2
+z2D2 F2>F2 A2>A2 d2>d2 f2>f2 a2>a2 Hd'4 D2F2A2d2 HTd4 D2F2A2d2 HTd4 ^cdfe =cAEF \
+HTB2(A/G/A/B/^c/d/e/f/) .g2.f2.e2.d2 =c2B2A2G2
+HF4 (D/E/F/G/A/B/^c/d/ e/f/g/a/b/^c'/d'/) d2 Hd4||\
+[P:Tempo di polka](3.d.d.d|dd^cd edBG|D6 (3.d.d.d|dd^cd edBG|D6 (3.=c.c.c|
+=ccBA e2 (3.B.B.B|BBAG d2>d2|^cccc cgfe|d2^c2 d2(3.d.d.d|dd^cd edBG|D6 (3.d.d.d|dd^cd edBG|
+E6 (3.c.c.c|ccBA e2 (3.B.B.B|BBAG d2>d2|^cGAB =cdef|g2g2g2z2||dd^cc eedd|BBGG D2z2|
+dd^cc eedd|BBGG E2z2|ccAA ffee|BBGG eedd|cABc defg|gdBG D2z2|dd^cc eedd|
+BBGG D2z2|dd^cc eedd|BBGG E2z2|ccAA ffee|BBGG eedd|cABc defg|
+g2Lf2Le2Ld2|dd^cc eedd|BdBd D2z2|DEFG ABcd|e2e2e2z2|ee^dd ffee|ccAA eedd|
+DEFG ABcd|edBG D2z2|dd^cc eedd|BdBd D2z2|DEFG ABcd|e2e2e2 z2|ggff eedd|
+eedd ^ccdd|eedd eeff|g2g2g2z2||"@-5,16 3""@-6,10 ..."!r1d!d2 "@-5,12 3""@-6,6 ..."!r1ds!^c2 e2d2|\
+"@-5,15 3""@-6,9 ..."!r1d!B2 "@-6,-7 ...""@-4,-20 3"!r1u!A2 c2B2|BABA GAGF|E2e2e2z2|\
+"@-5,16 3""@-6,10 ..."!r1d!d2 "@-5,16 3""@-6,10 ..."!r1ds!^d2 f2e2|
+"@-5,12 3""@-6,6 ..."!r1d!c2  "@-6,-7 ...""@-4,-20 3"!r1u!A2 e2d2|DEFG ABcd|edBG D2z2|\
+"@-5,16 3""@-6,10 ..."!r1d!d2 "@-5,12 3""@-6,6 ..."!r1ds!^c2 e2d2|\
+"@-5,15 3""@-6,9 ..."!r1d!B2 "@-6,-7 ...""@-4,-20 3"!r1u!A2 c2B2|\
+BABA GAGF|EAce g2z2|
+"@-5,12 3""@-6,6 ..."!r1d!g2 gf ed^cd|ed^cd e2d2|"@-5,12 3""@-6,6 ..."!r1d!e2 de fdef|\
+g2Lf2Le2Ld2|"@-5,16 3""@-6,10 ..."!r1d!d2 "@-5,12 3""@-6,6 ..."!r1ds!^c2 "@-5,12 3""@-6,6 ..."!r1d!e2 \
+"@-5,16 3""@-6,10 ..."!r1d!d2|BdBd D2z2|DEFG ABcd|
+e2e2e2 z2|"@-5,12 3""@-6,6 ..."!r1d!e2 "@-5,16 3""@-6,10 ..."!r1ds!^d2 f2e2|\
+"@-5,12 3""@-6,6 ..."!r1d!c2 "@-6,-7 ...""@-4,-20 3"!r1u!A2 e2d2|DEFG ABcd|edBG D2z2|\
+"@-5,16 3""@-6,10 ..."!r1d!d2 "@-5,12 3""@-6,6 ..."!r1ds!^c2 "@-5,12 3""@-6,6 ..."!r1d!e2 \
+"@-5,16 3""@-6,10 ..."!r1d!d2|BdBd D2z2|
+DEFG ABcd|e2e2e2 z2|\
+"@-5,12 3""@-6,6 ..."!r1d!g2 "@-5,12 3""@-6,6 ..."!r1d!f2 "@-5,12 3""@-6,6 ..."!r1d!e2 "@-5,16 3""@-6,10 ..."!r1d!d2|\
+"@-5,12 3""@-6,6 ..."!r1d!e2 "@-5,16 3""@-6,10 ..."!r1d!d2 "@-5,12 3""@-6,6 ..."!r1ds!^c2 "@-5,16 3""@-6,10 ..."!r1d!d2|\
+"@-5,12 3""@-6,6 ..."!r1d!e2 "@-5,16 3""@-6,10 ..."!r1d!d2 "@-5,12 3""@-6,6 ..."!r1d!e2 "@-5,12 3""@-6,6 ..."!r1d!f2|\
+g2g2g2z2||z4 z2 "@-6,-7 ...""@-4,-20 3"!r1u!D2|:G2(3DDD B2(3DDD|
+d6 ^cd|ed^cd ed=cA|F4 z2(3DDD|F2(3DDD A2(3DDD|c6 AF|DEFG ABcd|
+[1 (e4 d2) (3DDD:|[2 (e4 d2) z2||"@-5,16 3""@-6,10 ..."!r1d!d2 "@-5,12 3""@-6,6 ..."!r1ds!^c2 e2d2|\
+"@-5,15 3""@-6,9 ..."!r1d!B2 "@-6,-7 ...""@-4,-20 3"!r1u!A2 c2B2|BABA GAGF|EAce Hg2 "@-5,16 3""@-6,10 ..."!r1d!d2|\
+g2(3BBB d2(3GGG|
+B2(3DDD G2FE|D^CDE FDEF|"^presto"G4 B4|d4 g2 "@-5,16 3""@-6,10 ..."!r1d!d2|g2(3ddd e2(3ddd|g2(3ddd e2(3ddd|g2(3ddd e2(3ddd|g2(3ddd e2(3ddd|g4 z2b2|b4 z2g2|Hg8|]

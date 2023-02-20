@@ -1,0 +1,16 @@
+X: 1
+T: Winter Wonderland   [C]
+C: words: Richard Bernhard Smith 1934
+C: melody: Felix Bernard 1934
+%D: 1934
+R: song
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: C
+%%continueall
+"^A"|: "C"G>G |\
+G6 G>G | E2 G4 G>G | "G"G6 G>G | F2G2- G3 ||
+G | "G7"BBB2 "Dm"A3A | "Em"GGG2 "F"F4 | "C"E>E E>E "G"D>D D>D | "C"C4- "^fine"C2 :|
+z2 "^B"| "E"B,>B, ^G>G "A"^C>C A>A | "E"^G2 E6 | B,>B, ^G>G "A"^C>C A>A | "E"^G8 ||
+"G"D>D B>B "C"E>E c>c | "G"B2 G4 A2 | B>B D>D "D"A>A D>D | "G"G4- "d.C."G2 |]

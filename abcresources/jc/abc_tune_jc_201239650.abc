@@ -1,0 +1,31 @@
+X: 3351
+T: Lord McDonald's Old Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.3 p.35 #1 (top 6 staffs continued from p.32)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+%%continueall 0
+% - - - - - - - - - -
+V: 1 staves=2
+[AG] | FA- Af/g/ afed | ~g>f {f}ed BdBA | FA- Af/g/ afed | (e/f/g) (f/g/a) Te2 d :|
+|: G | FA-A>B ABAF | G/G/G TG2 G>B"^*1"[dB][BG] | "^*2"[AF]([AF]A)>B ABAF | GBAF TE2D :|
+|: [AG] | FA- Af/g/ affe | ~g>fed BdBA | FA-Af/g/ agfe | (e/f/g) (f/g/a) Te2 d :|
+|: g | fa-a>b a>baf | g/g/g Tg2 g>abg | fa-a>b a>baf | gafg Te2d :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z | d2d2 d2d2 | e2f2 g2g2 | f2d2 d2f2 | g2a2 d2d :|
+|: z | d2d2 d2d2 | e2e2 c2c2 | d2d2 d2f2 | g2a2 d2d :|
+|: z | d2d2 d2d2 | e2f2 g2G2 | d2d2 d2f2 | g2a2 d2d :|
+|: z | d'2d'2 d2d2 | e2e'2 c'2c'2 | d'2d'2 d'2d'2 | c'2d'2 a2d :|
+% - - - - - - - - - -
+%%begintext align
+%% *1 The d note in bar 6 is drawn with a small note head.
+%% It's possible that the 4 2-note chords are intended as alternates,
+%% or parallel lines when there are 2 instruments.
+%%endtext
+%%begintext align
+%% *2 In bar 7, the initial [AF] "chord" has the A attached to the bar line, not the F note's stem.
+%% It's not obvious what this could have meant.  It may be a typo.
+%%endtext

@@ -1,0 +1,54 @@
+X: 10
+T: GLEAMHAM HALL
+M: 6/4
+L: 1/8
+Z: 2011,2014 John Chambers <jc:trillian.mit.edu>
+B: Thomas Bray's Country Dances 1699 p._
+N: Duple minor longways
+N: Removed extra bass f note in bar 8.
+N: The dance often has "VV", transcribed as the more modern "W" here.
+P: AA BB ad.lib.
+Q: 3/4=80 "lightly"
+K: Bb
+%----------------------------------------
+V: 1
+"A"[|]F2 |\
+"Bb"BABcB2 cBcdc2 | d6 B4", "f2 |\
+d2c2B2 A4B2 | c6- c4", "F2 |\
+BABcB2 cBcdc2 |
+d6 B4", "d2 |\
+c2B2A2 G4F2 | F6- F4 :|\
+"B"|: c2 |\
+cBcdc2 AGABc2 | F6 f4", "g2 |
+f2d2B2 e4f2 | g6- g4", "a2 |\
+b2a2b2 f4f2 | gfgag2 c4b2 |\
+b2d2e2 c4B2 | B6- B4 :|
+%----------------------------------------
+V: 2
+D2 |\
+D2F2B2 A2F2A2 | B2F2D2 D4C2 | B,2C2DE F2C2B,2 | A,2C2F2 A4F2 |
+F4G2 A4F2 | F6 G4F2 | F4F2 =E4C2 | A,6- A,4 :|
+|: A2 |\
+A4G2 F4G2 | F2G2A2 B4B2 | B4G2 B4_A2 | G4F2 E2D2C2 |
+B,6 B,2C2D2 | E2G2B2 A2G2F2 | G4G2 A4F2 | D6- D4 :|
+%----------------------------------------
+V: 3 clef=bass middle=d
+B2 |\
+"Bb"B6 "F"f4f2 | "Bb"babc'b2 "Gm"g4"F"a2 | "Bb"b2a2g2 "F"f4"Bb"B2 | "F"F4F2 fefgf2 |
+"Bb"d4 "Gm"g2 "F"f4 a2 | "Bb"babc'b2 "Gm"g2a2b2 | "F"a2g2f2 "C"c'4c2 | "F"f4F2 fefg :|
+|: f2 |\
+"F"F6 f4e2 | "Bb"d6- d4"Eb"e2 | "Bb"d4"Gm"g2 g4"Fm"f2 | "Eb"e4d2 "Cm"c4"F"f2 |
+"Eb"g2f2e2 "Bb"d2c2B2 | "Eb"e6 "F"f4"Dm"d2 | "Gm"g4"Eb"e2 "F"f4F2 | "Bb"B6- B4 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%center Gleamham-Hall, a New Country Dance
+%%begintext align
+%% The 1st Man and 2d Wo. go round to their own Partners on the outside to each others place, and
+%% meet in the middle of the Room, then cast back again to the left Hand to their own places, as at
+%% first .| The 1st Wo. and 2d Man the same after them, only they must cast back to their right Hand :|
+%% The 1st cu. cross over and meet below, the 2. cu. and leads up the middle, the 1st Man turn to the right
+%% Hand above the 2d Wo. and take her by the right Hand, the 1st Wo. doing the same at the same time,
+%% only turning to the left Hand, and take left Hands with the 2d Man, then all four slip up the Room
+%% two or three steps and close their feet and all turn single, quite round, 1st cu. move out, 2. cu. in,
+%% then 1st cu. in, and 2d cu. out, 1st cu. cast off and cross over below, 2d cu. cross over up the middle
+%% at the same time, and turn S. |: And so to the end.
+%%endtext

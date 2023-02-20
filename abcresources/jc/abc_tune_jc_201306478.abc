@@ -1,0 +1,77 @@
+
+X: 1
+T: Mama    [C]
+O: Italy
+Z: 2004 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Cm
+ef \
+| "Cm"g2g2 g3e | "Fm"f6 de | f2f2 "G7"e3d | "Cm"c6 =Bc \
+| "Fm"d2d2 d2ef | "Cm"e6 e2 | "D7"d2d2 e3d | "Dm"d4- "G7"d4 || [K:C]
+|: "C"e4 c4- | cGAB cdef | "C#dim"g3e "G7"g2d2- | d8 \
+| "G7"z2d2 B4- | BGAB "Dm"cd"G7"ef | "C"a3g "Dm"(3fgfe2- | "C"e8 |
+| "C"zggg a3g | (e/g/e/d/ c6) | "Gm"zggg "A7"ag2f | "Dm"e2 d6 \
+| "Fm"ff2f f2g_a | "Cm"g_eg2- g3z | "Fm"f2(3fff f_a2c' | "G7"b4- bc'"Dm"c'2 |
+| "F"c'4 "Fmaj7"a4- | "F"afga bc'ba | "C"c'b2a g4- | "Cmaj7"g4- "C7"g2z2 \
+| "F"a4 f2a2 | "C"gfe2- "C7"ecde | "Dm"fgfe "G7"gf2d | "C"c6 z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mama    [D]
+O: Italy
+Z: 2004 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+FG \
+| "Dm"A2A2 A3F | "Gm"G6 EF | G2G2 "A7"F3E | "Dm"D6 ^CD \
+| "Gm"E2E2 E2FG | "Dm"F6 F2 | "E7"E2E2 F3E | "Em"E4- "A7"E4 || [K:D]
+|: "D"F4 D4- | DA,B,C DEFG | "D#dim"A3F "A7"A2E2- | E8 \
+| "A7"z2E2 C4- | CA,B,C "Em"DE"A7"FG | "D"B3A "Em"(3GAGF2- | "D"F8 |
+| "D"zAAA B3A | (F/A/F/E/ D6) | "Am"zAAA "B7"BA2G | "Em"F2 E6 \
+| "Gm"GG2G G2A_B | "Dm"A=FA2- A3z | "Gm"G2(3GGG G_B2d | "A7"c4- cd"Em"d2 |
+| "G"d4 "Gmaj7"B4- | "G"BGAB cdcB | "D"dc2B A4- | "Dmaj7"A4- "D7"A2z2 \
+| "G"B4 G2B2 | "D"AGF2- "D7"FDEF | "Em"GAGF "A7"AG2E | "D"D6 z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mama    [G]
+O: Italy
+Z: 2004 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+Bc \
+| "Gm"d2d2 d3B | "Cm"c6 AB | c2c2 "D7"B3A | "Gm"G6 ^FG \
+| "Cm"A2A2 A2Bc | "Gm"B6 B2 | "A7"A2A2 B3A | "Am"A4- "D7"A4 || [K:G]
+|: "G"B4 G4- | GDEF GABc | "G#dim"d3B "D7"d2A2- | A8 \
+| "D7"z2A2 F4- | FDEF "Am"GA"D7"Bc | "G"e3d "Am"(3cdcB2- | "G"B8 |
+| "G"zddd e3d | (B/d/B/A/ G6) | "Dm"zddd "E7"ed2c | "Am"B2 A6 \
+| "Cm"cc2c c2d_e | "Gm"d=Bd2- d3z | "Cm"c2(3ccc c_e2g | "D7"f4- fg"Am"g2 |
+| "C"g4 "Cmaj7"e4- | "C"ecde fgfe | "G"gf2e d4- | "Gmaj7"d4- "G7"d2z2 \
+| "C"e4 c2e2 | "G"dcB2- "G7"BGAB | "Am"cdcB "D7"dc2A | "G"G6 z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mama    [A]
+O: Italy
+Z: 2004 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+cd \
+| "Am"e2e2 e3c | "Dm"d6 Bc | d2d2 "E7"c3B | "Am"A6 ^GA \
+| "Dm"B2B2 B2cd | "Am"c6 c2 | "B7"B2B2 c3B | "Bm"B4- "E7"B4 || [K:A]
+|: "A"c4 A4- | AEFG ABcd | "A#dim"e3c "E7"e2B2- | B8 \
+| "E7"z2B2 G4- | GEFG "Bm"AB"E7"cd | "A"f3e "Bm"(3dedc2- | "A"c8 |
+| "A"zeee f3e | (c/e/c/B/ A6) | "Em"zeee "F#7"fe2d | "Bm"c2 B6 \
+| "Dm"dd2d d2e=f | "Am"e=ce2- e3z | "Dm"d2(3ddd d=f2a | "E7"g4- ga"Bm"a2 |
+| "D"a4 "Dmaj7"f4- | "D"fdef gagf | "A"ag2f e4- | "Amaj7"e4- "A7"e2z2 \
+| "D"f4 d2f2 | "A"edc2- "A7"cABc | "Bm"dedc "E7"ed2B | "A"A6 z2 :|

@@ -1,0 +1,19 @@
+X: 138
+T: Lady Cunningham's Strathspey
+%R: strathspey
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.54 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/16
+K: D
+fe |\
+d2D2 D3F A3B A2f2 | e3f gfed c2e2 e2fe |\
+d2D2 D3A A2B2 A2g2 | {g}f3a {g}f2ed A2d2d2 :|
+|: fg |\
+a3ba2f2 d'2c'2b2a2 | g2ab afed c2e2 e2fg |\
+a3ba2d2 d'2c'2b2a2 | b2c'd' afed A2d2 d2 ||
+f>g |\
+.a2.f2.d2d'2 .b2.g2.e2e'2 | {g}fefd' afed c2e2 e2f>g |\
+{fg}.a2.g2.f2.e2 .d2.c2.B2.A2 | B/c/d3 A3F D2d2d2 |]

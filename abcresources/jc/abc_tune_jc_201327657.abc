@@ -1,0 +1,49 @@
+
+X: 1
+T: Reign of Love
+T: (Rain of Love)
+C: Keith Murphy
+R: march, reel
+B: Keith Murphy "Black Isle Music II" p.37 2012
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Em
+B,2 |\
+"Em"E2FG A2B2 | G4 "(D)"F4 | "D"A2GF E2A2 | GFE2 FED2 | "Em"E2FG A2B2 | G4 "(D)"F4 |
+"D"A2GF EFD2 | "A"E6 : z2 | "Em"e2B2 d2A2 | A2BA G2F2 | "D"A2GF E2A2 |
+"G"B2G2 "D"d4 | "Em"e2B2 d2A2 | A2BA G2F2 | "D"A2GF EFD2 | "A"E6 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Evit Gabriel
+C:Daniel Thonon
+R:reel
+Z:transcribed to ABC by Debby Knight
+M:C|
+L:1/8
+K:Em
+|: "Em"EFGF EFGF | EFGA B2AB |"Am"cBAG F2GA | "Em"BAGB "B7"F4 |
+|  "Em"EFGF EFGF | EFGA B2AB | "Am"cBAG "B7"FBGF | "Em"EG"B7"FD "Em"E4 :|
+|: "Am"eAAe "D"dcBc | "G"dGGd "C"cBAG | "D7"FGAc "B7/D#"BAGF | "Em"GFGA "E7"B2cd |
+|  "Am"eAAe "D"dcBc | "G"dGGd "C"cBAG | "D7"FGAc "B7/D#"BAGF| "Em"GA"B7"FG "Em"E4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Berkeley Reel    [Bm]
+C: Larry Unger
+R: reel
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bm
+|:\
+"Bm"Bffe fgfe | "G"dBBA "A"ABcA | "Bm"Bffe fgfe | "G"dBAF "F#m"A2FA |
+"Bm"Bffe fgfe | "G"dBBA "A"ABcA | "G"B2dB "D"AFED | "Em"EFED "G"B,2D2 :|
+|:\
+"Em"EDB,D E2DE | "F#m"FAAB AFED | "G"EDEF EDB,D | EDB,D "A"A,4 |
+% %vskip 2
+[1 "Em"EDB,D E2DE | "F#m"FAAB AFED | "G"EDEF EDB,D | "A"FABA "Bm"B4 :|
+[2 "Em"EDB,D E2DE | "F#m"FAAB AFED | "Em"EFGE "F#m"FGAc | "G"Bcde "A"fedc |]

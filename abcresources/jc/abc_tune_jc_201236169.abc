@@ -1,0 +1,23 @@
+X: 21732
+T: RATTLING ROARING WILLIE
+O: 2d set.
+R: Jig
+%R: slip-jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.173 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f |\
+ecA ABA cef | =g3 {fg}BGB d2f |\
+ecA ABA ceg | a3 {ga}ecA e2f/g/ |\
+agf ecA cef | =g3 {fg}BGB d2B |\
+ABA c2A cea | cAc BGB A3 :|
+|: f |\
+ecA acA ecA | B=GB gdB d2f |\
+ecA acA ecA | {b}agf edc efg |\
+agf ecA cef | {a}=gfg BGB d2B |\
+ABA c2A cea | cAc BGB A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,28 @@
+X: 1
+T: Tom Thumb
+%R: reel
+B: "Tom Thumb a Favorite Dance with Three New Strathspeys and a Reel", R.RobertPurdie, ed. p.1 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=118869468
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+!segno!|:\
+TB2FD TB2FD | BdcB BAGF |\
+GABG GFED | E2F2 "^Fine."B4 ::\
+d2dB ~d2~d2 | ddfd TB2TB2 |
+c2cA ccTc2 | FGFE EDCB, ::\
+deff [fd][fd][fd][fd] | fbag gfed |\
+eege fdcB | cgfe edcB !segno!:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+!segno!|:\
+[b2B2][b2B2] b2b2 | b2b2 d2d2 |\
+e2e2 G2G2 | e2f2 "^Fine."B4 ::\
+B2b2 B2b2 | B2b2 B2b2 |\
+F2f2 F2f2 | F2F2 B2B2 ::\
+[b2d2][b2d2] [b2d2][b2d2] | [b2d2][b2d2] [b2d2][b2d2] |\
+[b2e2][b2e2] [b2d2][b2d2] | f2a2 b2b2 !segno!:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

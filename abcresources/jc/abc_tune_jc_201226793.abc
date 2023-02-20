@@ -1,0 +1,19 @@
+X: 10451
+T: RULE BRITANIA
+Q: "Moderato"
+%R: march
+B: "Edinburgh Repository of Music" v.1 p.45 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A2 |\
+d2 d2 d/e/f/g/ ad | e2 ef/g/ {g}f3 A |\
+d/e/d/e/ f/g/f/g/ aefe | de/f/ e>d {d}c2 zA |
+cAec a^g/f/ e/d/c/B/ | A2 TB2 A4 |\
+d2 d>A BG zf | {a}gfed A2 d/e/f/g/ |\
+a2 g2 f/d/g/e/ ag |
+f2 Te2 d2 z2 !segno!:|\
+f2 zf gg zf | {a}gfed AB/c/ d/e/f/g/ |\
+a2 g2 f/e/f/g/ a/b/c'/d'/ | A2 Te2 d2 !segno! |]

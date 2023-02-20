@@ -1,0 +1,57 @@
+
+X: 1
+T: (Sous) le Ciel de Paris
+C: Hubert Giraud, Jen Dr\'ejac
+R: waltz
+P: tempo de valse
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/16
+K: Dm
+"A"\
+|: "Dm"A,2D2E2 F4G2 | "Dm"A2G2F2 E2D2C2 | "Gm"B,6 A6 | "C"G6- G4z2 |\
+"A7"A,2^C2D2 E4F2 | "Gm6"G2B2A2 "A7"G2F2E2 | "Dm"D6- "Gm"D6- |
+[1 "Dm"D6 "A7"z6 :|2 "Dm"D6- "A7"E2F2E2 "B"[| "Bb"D6- D6- | D6z2 "A7"E2F2E2 |\
+"Dm"D6- "Gm"D6- | "Dm"D6 "A7"E2F2E2 | "Gm"D4E2 F4G2 | "C7"A2B2c2 B2A2G2 |
+"F"A6- "Gm"A6- | "A7"A_AG_GFE _ED_DC=B,_B, | "Dm"A,2D2E2 F4G2 | A2G2F2 E2D2C2 |
+"Gm7"B,6 A6 | "C"G6- G4z2 | "A7"A,2^C2D2 E4F2 | "Gm6"G2B2A2 "A7"G2F2E2 |\
+"Dm"D6- D6- |][K:D] "C"[| "Dm"D4A2 "D"A2F3D | "Dmaj7"^C6- C6- | C4A2 A2F3D |
+"D7"=C6- C6- | C4A2 A2F3D | "G"B,6- B,6- | B,4G2 "G"G2D3B, | "Bb"_B,6- B,6- | B,6 D2=C2_B,2 |\
+"F"A,4A,2 "Bb"_B,4B,2 | "G"=B,4B,2 "A7"^C4C2 |
+"D"D4D2 "E"E4E2 | "B"F6 "Gm"G2F2G2 | "A"A6- "Bb"A6- | "A"A4A2 "Em7"B2G2E2 |\
+"A"A6- "Gm6"A6- |[K:=f=d] [K:Dm] "A7"A_AG_GFE _ED_DC"d.C."=B,_B, |]
+"Coda"[|\
+"Dm"A,2D2E2 F4G2 | "Dm"A2G2F2 E2D2C2 | "Gm7"B,6 A6 | "C"G6- G4z2 |\
+"A7"A,2^C2D2 E4F2 | "Gm6"G2B2A2 "A7"G2F2E2 | "Dm"D6- D6- |
+"Gm6"D6- D6- | "Dm"D6- D6 | "A7"^C6- C6 | "Dm"(DEFG^GA _B=Bc^cde |\
+(3fg^g) .az "A7".[^cE]z "Dm".[dF]zz2z2 |]
+
+
+%%sep 5 1 500
+
+X: 2
+T: (Sous) le Ciel de Paris
+C: Hubert Giraud, Jen Dr\'ejac
+R: waltz
+P: tempo de valse
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/16
+K: Em
+"A"\
+|: "Em"B,2E2F2 G4A2 | "Em"B2A2G2 F2E2D2 | "Am"C6 B6 | "D"A6- A4z2 |\
+"B7"B,2^D2E2 F4G2 | "Am6"A2c2B2 "B7"A2G2F2 | "Em"E6- "Am"E6- |
+[1 "Em"E6 "B7"z6 :|2 "Em"E6- "B7"F2G2F2 "B"[| "C7"E6- E6- | E6z2 "B7"F2G2F2 |\
+"Em"E6- "Am"E6- | "Em"E6 "B7"F2G2F2 | "Am"E4F2 G4A2 | "D7"B2c2d2 c2B2A2 |
+"G"B6- "Am"B6- | "B7"B_BA_AGF =FE_ED_DC | "Em"B,2E2F2 G4A2 | B2A2G2 F2E2D2 |
+"Am7"C6 B6 | "D"A6- A4z2 | "B7"B,2^D2E2 F4G2 | "Am6"A2c2B2 "B7"A2G2F2 |\
+"Em"E6- E6- |][K:E] "C"[| "Em"E4B2 "E"B2G3E | "Emaj7"^D6- D6- | D4B2 B2G3E |
+"E7"=D6- D6- | D4B2 B2G3E | "A"C6- C6- | C4A2 "A"A2E3C | "C"=C6- C6- | C6 E2=D2=C2 |\
+"G"B,4B,2 "C"=C4C2 | "A"^C4C2 "B7"D4D2 |
+"E"E4E2 "F#m"F4F2 | "C#m"G6 "Am"A2G2A2 | "B"B6- "C"B6- | "B"B4B2 "F#m7"c2A2F2 |\
+"B"B6- "Am6"B6- |[K:=c=g=d] [K:Em] "B7"B_BA_AGF =FE_ED"d.C"_DC |]
+"Coda"[|\
+"Em"B,2E2F2 G4A2 | "Em"B2A2G2 F2E2D2 | "Am7"C6 B6 | "D"A6- A4z2 |\
+"B7"B,2^D2E2 F4G2 | "Am6"A2c2B2 "B7"A2G2F2 | "Em"E6- E6- |
+"Am6"E6- E6- | "Em"E6- E6 | "B7"^D6- D6 | "Em"(EFGA^AB c^cd^def |\
+(3ga^a) .bz "B7".[^dF]z "Em".[eG]zz2z2 |]

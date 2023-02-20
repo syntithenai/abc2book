@@ -1,0 +1,36 @@
+X: 07124
+T: ZEBADIAH'S JIG
+C: Bob McQuillen 30 May 89
+B: Bob's Note Book 7 #124
+%R: jig
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: His name is actually Zebadiah Kellog−Roe.
+M: 6/8
+L: 1/8
+K: Bm	% and Em
+P: 1st Setting
+dc \
+| "Bm"B2F FEF | BFF F2E | "D"DFA "Bm"BdB | BAF "A"Adc \
+| "Bm"BFB dBd | fba "F#7"f2e | "Bm"fdB "F#7"AFE | "Bm"FBB B :|
+|: de \
+| "Bm"fdf ede | fab afe | fdf edB | "A"BAF "F#m"AFE \
+| "Bm"FDF EDE | FAB dfa | baf "F#7"efe | "Bm"dBB B :|
+P: 2nd Setting
+K: Em
+GF \
+| "Em"E2B, B,A,B, | EB,B, B,2A, | "G"G,B,D "Em"EGE | EDB, "D"DGF \
+| "Em"EB,E GEG | Bed "B7"B2A | "Em"BGE "B7"DB,A, | "Em"B,EE E :|
+|: GA \
+| "Em"BGB AGA | Bde dBA | BGB AGE | "D"EDB, "Bm"DB,A, \
+| "Em"B,G,B, A,G,A, | B,DE GBd | edB "B7"ABA | "Em"GEE E :|
+%%begintext align
+%% Zebadiah K-Roe is from Greenville,
+%% HN.H., and I got to know him because his dad, Gene, tunes
+%% my piano. Zeb's a dandy young man, full of music, and maybe
+%% some day you'll play this tune on your flute, Zeb!
+%% Much love to you, from Bob--
+%%endtext
+%%begintext align
+%% Note: The 1st Setting fits both flute and fiddle; the 2nd Setting won't fit the flute,
+%% but I thought it might sound good on the fiddle in the lower register - Try it and see!
+%%endtext

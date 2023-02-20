@@ -1,0 +1,21 @@
+X: 1791
+T: the Bold Deserter
+T: an treig\'teoir dana
+R: reel, "long dance"
+%S: s:5 b:20(4+4+4+4+4)
+O: Mrs.Cantwell
+S: 1791 O'Neill's Music of Ireland
+N: Lead-in to second part should probably be 1/16th notes not 1/8th notes
+B: O'Neill's 1850 #1791
+Z: Robert Thorpe (thorpe@skep.com)
+Z: ABCMUS 1.0
+M: 2/4
+L: 1/8
+K: D
+(f/e/) \
+"^A1"| dA B(A/F/) | A/B/d/e/ f/e/d/B/ | A/F/d/B/ A/F/D/F/ | EE/E/ E/G/F/E/ |
+"^A2"| dA B(A/F/) | A/B/d/e/ f/e/d/B/ | A/F/d/B/ A/F/E/F/ | DD/D/ D :|
+|: (D/E/) \
+"^B1"| FA d(e/f/) | g/f/g/e/ d(d/e/) | f/e/d/B/ A/F/E/F/ | AA/A/ A(D/E/) |
+"^B2"| FA d(e/f/) | g/f/g/e/ d(d/e/) | f/e/d/B/ A/F/D/F/ | EE/E/ E/G/F/E/ |
+"^A2"| dA B(G/F/) | A/B/d/e/ f/e/d/B/ | A/F/d/B/ A/F/E/F/ | DD/D/ D :|

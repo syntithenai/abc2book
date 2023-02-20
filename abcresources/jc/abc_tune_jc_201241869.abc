@@ -1,0 +1,19 @@
+X: 481
+T: Manitou
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.48 #1
+R: two-step
+Q: "Tempo Two Step"
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+(Bc !segno!|| "^Heel & Toe"\
+B3)D D2(Bc0 | B3)D D3B |\
+c3B A3G | G3F F2(de |\
+d3)F F2(de | d3)F F3d |\
+e3d ^c2d2 | e3d B4 ||
+"^Two Step"D3E D3B, | (3(D2G2A2) B4 |\
+E3F E3C | (3(E2G2A2) c3e |\
+d3BG3A | B6 (cB) |\
+A6 (BA) |[1 G6 ("^D.S."Bc) !segno!:|\
+[2 "^Final end"G6 z2 |]

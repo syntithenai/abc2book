@@ -1,0 +1,38 @@
+X: 1
+T: Tri Godini Se Ljubevme  [G]
+O: Macedonia
+R: devetorka
+M: 9/8
+L: 1/8
+Q: 2/8 2/8 2/8 3/8
+K: G
+P: instr.
+"A"[|\
+"G"B>G Bc BA G2A | B>G Bc BA GGz |\
+"G"[Bd]>[GB] [Bd][ce] [Bd][Ac] [G2B2][Ac] | [Bd]>[GB] [Bd][ce] [Bd][Ac] "G7"[GB][Ac][Bd] |
+"B"|\
+"C"[c2e2] [c2e2] [Bd][ce] [ce][Bd][Ac] | "G"[B2d2] [B2d2] [Ac][Bd] [Bd][Ac][GB] |\
+"Am"[A2c2] [A2c2] [GB][Ac] "D7"[Ac][GB][FA] | "G"[GB][FA] [GB][Ac] [B2d2] "E7"[^GB][Ac][Bd] |
+"Am"[c2e2] [c2e2] [Bd][ce] "D7"[ce][Bd][Ac] | "G"[B2d2] [B2d2] [Ac][Bd] "Em"[Bd][Ac][GB] |\
+"D"d^c ^Bc d2 =c=BA | "G"GF ^EF "C"GA "G"GG"fine"z |]
+P: vocal:
+"C"|:\
+"G"gf ^ef ga g3 | gf ^ef ga "G7"g3 | "C"e2 e2 e2 edc | "Cm"d_e gf ed "G"d3 :|
+"D"|:\
+"Dm"d2 "Am"a2 g=f e2^f | "(G)"g=f ed "D7"dc "G"B2c/d/ |\
+"Am"e2 ed "D7"dc "G"B2G | "Am"AB cB "D7"A2 "G"G3 :|
+%
+% W:Три години се љубевме - Елена Ристеска & Влатко Миладиновски
+% %From http://www.youtube.com/watch?v=JdVPZoP6UpE
+% W:
+% W:Три години се љубевме    лоша дума не рековме. [x2]
+% W:Зар не ти е жал бре либе, аман ли за мене,    јас да умрам сè заради тебе? [x2]
+% W:
+% W:Твојта мајка песни пее    А пак мојта солзи лее. [x2]
+% W:Зар не ти е жал бре либе, аман ли за мене,    јас да умрам сè заради тебе? [x2]
+% W:
+% W:Тебе ти чукат тапаните    А пак мене камбаните. [x2]
+% W:Зар не ти е жал бре либе, аман ли за мене,    јас да умрам сè заради тебе? [x2]
+% W:
+% W:Тебе те носат на венчило    А пак мене на носило. [x2]
+% W:Зар не ти е жално либе, аман ли за мене,    јас да умрам сè заради тебе? [x2]

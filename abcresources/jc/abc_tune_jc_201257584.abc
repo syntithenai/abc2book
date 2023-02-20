@@ -1,0 +1,33 @@
+X: 1
+T: Bulgar, Frailach
+O: Kammen 9 #17
+B: Kammen 9 #17
+R: jig, bulgar
+Z: John Chambers <jc:trillian.mit.edu>
+N: Original in 2/4, but with mostly triplets in melody.
+M: 6/8
+L: 1/8
+K: DDor
+|: "(A7)"A,B,^C \
+| "Dm"D3 FED | F3 A^GF | A2B cBA | Bcd cBA | Bc2- c2c | Bcd cBA | ^GA2- A2G | "(A7)"A^GF FED |
+| "Dm"D3 FED | F3 A^GF | A2B cBA | Bcd cBA | "(E7)"^GAB cBA | "(A7)"A^GF FED | "Dm"D6- | D3 :|
+|: A,DF \
+| "Dm"{^G}A2A A2A | A2B cBA | ^GBA- A3- | A6 | ^GAB cBA | A^GF FED | ^GBA- A3- | A6 |
+| "Dm" ^GAB cBA | A^GF FED | E=GF- F3- | F6 | "(E7)"EF^G AGF | "(A7)"A^GF FED | "Dm"EFD- D3- | D3 :|
+
+X: 2
+T: Bulgar, Frailach
+O: Kammen 9 #17
+B: Kammen 9 #17
+R: jig, bulgar
+Z: John Chambers <jc:trillian.mit.edu>
+N: Original in 2/4, but with mostly triplets in melody.
+M: 6/8
+L: 1/8
+K: EDor
+|: "(B7)"B,C^D \
+| "Em"E3 GFE | G3 B^AG | B2c dcB | cde dcB | cd2- d2d | cde dcB | ^AB2- B2A | "(B7)"B^AG GFE |
+| "Em"E3 GFE | G3 B^AG | B2c dcB | cde dcB | "(F#7)"^ABc dcB | "(B7)"B^AG GFE | "Em"E6- | E3 :|
+|: B,EG \
+| "Em"{^A}B2B B2B | B2c dcB | ^AcB- B3- | B6 | ^ABc dcB | B^AG GFE | ^AcB- B3- | B6 |
+| "Em" ^ABc dcB | B^AG GFE | F=AG- G3- | G6 | "(F#7)"FG^A BAG | "(B7)"B^AG GFE | "Em"FGE- E3- | E3 :|

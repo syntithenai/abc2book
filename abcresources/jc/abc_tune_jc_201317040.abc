@@ -1,0 +1,32 @@
+X:1
+T: The News of the Victory
+N:
+C:aka "The Willow Tree"
+S:Play  4  times
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 43 notes)
+K:G
+M:6/8
+L:1/16
+d2 |d2 ^c2 d2 d2 c2 d2 g4 G2 G4 B2 A2 B2 c2 D2 E2 F2 G2 B2 d2 d4 d2 |d2 ^c2 d2 d2 c2 d2 g4 G2 G2 F2 G2 A2 B2 c2 D2 E2 F2 G4 B2 G4 d2 |
+%W: A2
+% voice 1 (1 lines, 42 notes)
+d2 ^c2 d2 d2 c2 d2 g4 G2 G4 B2 A2 B2 c2 D2 E2 F2 G2 B2 d2 d4 d2 |d2 ^c2 d2 d2 c2 d2 g4 G2 G2 F2 G2 A2 B2 c2 D2 E2 F2 G4 B2 G4 g2 |
+%W: B1
+% voice 1 (1 lines, 40 notes)
+f2 e2 d2 d4 c2 B2 c2 d2 G4 B2 A2 B2 c2 D2 E2 F2 G2 B2 d2 d4 g2 |f2 e2 d2 d4 c2 B2 c2 d2 G4 B2 A2 B2 c2 D2 E2 F2 G6 G4 g2 |
+%W: B2
+% voice 1 (1 lines, 40 notes)
+f2 e2 d2 d4 c2 B2 c2 d2 G4 B2 A2 B2 c2 D2 E2 F2 G2 B2 d2 d4 g2 |f2 e2 d2 d4 c2 B2 c2 d2 G4 B2 A2 B2 c2 D2 E2 F2 G6 G4 d2 |
+%W: A3
+% voice 1 (1 lines, 42 notes)
+d2 ^c2 d2 d2 c2 d2 g4 G2 G4 B2 A2 B2 c2 D2 E2 F2 G2 B2 d2 d4 d2 |d2 ^c2 d2 d2 c2 d2 g4 G2 G2 F2 G2 A2 B2 c2 D2 E2 F2 G4 B2 G4 g2 |
+%W: B3
+% voice 1 (1 lines, 39 notes)
+f2 e2 d2 d4 c2 B2 c2 d2 G4 B2 A2 B2 c2 D2 E2 F2 G2 B2 d2 d4 g2 |f2 e2 d2 d4 c2 B2 c2 d2 G4 B2 A2 B2 c2 D2 E2 F2 G6 G4 ||

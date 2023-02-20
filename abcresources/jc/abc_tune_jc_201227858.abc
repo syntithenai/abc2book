@@ -1,0 +1,24 @@
+X: 10
+T: Open the Windows
+%R: strathspey
+B: "Twenty Four Country Dances with Figures for the Year 1810", Button & Whitaker, p.5 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1810
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B<dd>e d>Bg>e | d<BB>G A>BA2 |\
+B<dd>e d>Bg>e | d<BA>B G2z2 :|\
+|:\
+F<AA2 G<BB2 | A<cB>A B<dB<G |
+F<AA2 G<BB<d | ^c<eA>c d3=c |\
+B<dd>e d>Bg>e | d<BG>B A>BA2 |\
+B<dd>e d>Bg>e | d<BA>B G2z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%  Hands across, back again, down the 
+%% middle up again hands 4 round.
+%%endtext

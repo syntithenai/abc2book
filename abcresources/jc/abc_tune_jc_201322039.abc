@@ -1,0 +1,18 @@
+X: 1516
+T: Paddy's Surprise   #2
+T: iongantas .paidin.
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 "Music of Ireland" #1516
+O: F.O'Neill
+Z: transcribed by John B. Walsh, walsh@math.ubc.ca 8/23/96
+Z: Compacted via repeats and multiple endings [JC]
+M: C|
+L: 1/8
+K: G
+"^A"[|] ((3DEF) \
+| G2(BA) GABc | dBec dBAB | G2(BA) GABc | dcAB GFED ||
+| G2(BA) GABc | dBec d2 ((3def) | gfge dBge | dBAB G2 |]
+"^B"[| (e3def) \
+| gfgd edBd | gabg agef | gfgd edBd | cABG AGEG ||
+| gfgd edBd | gabg agef | gfge dBge | dBAB G2 |]

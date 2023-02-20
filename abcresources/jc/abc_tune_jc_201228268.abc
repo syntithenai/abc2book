@@ -1,0 +1,26 @@
+X: 11154
+T: MARY SCOTT
+Q: "Slow."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.115 #4
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D3 EFG | A4 B2 | (A2 B2) d2 | TF3 E D2 |\
+(E2 F2) A2 | TB4 (de) | f2 (gf)(ed) | {f}Te4 (de/f/) |\
+D3 EFG | A4 B2 | (A2 B2) d2 |
+TF3 E D2 |\
+G2 (AG)(FE) | F2 (GF)(ED) | (E2 F2 ) A2 | TB4 A2 ::\
+d2 D2 F2 | d2 (ed)(cB) | (A2 B2) d2 | F3 E D2 |\
+E2 e2 (ef/g/) | {f}e4 (de) |
+Tf2 (gf)(ed) | B4 (AB/c/) |\
+d2 A2 d2 | (d>c)(de)(fe) | (d>e)(dB)(AG) | TF3 E D2 |\
+(G>B)(AG)(FE) | (F>A)(GF)(ED) | E2 F2 A2 | TB4 A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,23 @@
+X: 1221
+T: the Millers Daughter's    Old Sett.
+N: There's a missing ' in the title.
+%R: strathspey, air
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.22 #1 (top 4 staves continued from p.21)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow"
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 close-to-equal lines.
+V: 1 staves=2
+A, | B,<DD>B, E>DTE>F | A,>A,B,>A, D2D>A, | B,<D D>B, TE>DEF | A,<A,B,>A, D2D :: B | D<DTF>D A>FE<B | D<DTF>D A>DTF<D | GB/G/ Fd/F/
+TE>DE<F | A,<A,TB,>A, D2D :: f | d<dd>B Te>de<f | A<AB>A d2d>f | d<dd>B Te>de<f | A<ATB>A d3 :: (f/g/ | a)>fdf Te>de<f | a/g/f/e/ d>A
+d>ef>d | ga/g/ f/a/g/f/ Te>de<f | A<ATB>A d2d :: f | D<D TF>D E2 E>f | D<DF>A A>Bd<e | f>de>B d>FE>F | A,<A,TB,>A, D3 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d2d2 A2A2 | f2g2 f2d2 | d2d2 a2A2 | f2g2 f2d :: z | d2d2 d2A2 | d2d2
+d2d2 | g2fd a2A2 | f2g2 f2d :: z | d2d2 g2a2 | f2g2 f2d2 | d2d2 g2a2 |
+f2g2 f2d :: z | d2d2 a2A2 | d2a2 f2d2 | e2d2 g2a2 | f2g2 f2d :: z |
+d2d2 e2e2 | d2d2 f2d2 | f2g2 a2A2 | f2g2 f2d :|

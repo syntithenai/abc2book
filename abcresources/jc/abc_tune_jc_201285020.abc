@@ -1,0 +1,52 @@
+
+X: 1
+T: Haste to the Wedding
+O: 1760
+M: 6/8
+L: 1/8
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: Cole p.53
+B: Called "The Small Pin Cushion" in J. Oswald's "Caledonian Pocket Companion" (bk. 10, c 1760)
+B: Called "Carrick Fergus" in J. Brysson's "A Curious Collection of Favourite Tunes" (Edinburgh 1791)
+N: "The tune 'Come, Haste to the Wedding,' of Gaelic origin, was introduced in the pantomime, The Elopement, staged in London in 1767." (Linscott, 1939)
+K: D
+F/G/ \
+| "D"A>BA Agf | "G"ede "A7"fdB | "D"A>BA "Bm"AdF | "Em"GFG "A7"EFG |
+"D"A>BA Aaf | "G"ede "A7"fdB | "D"A>BA "A7"faf | "D"d>ed d2 :|
+|: f/g/ |\
+"D"a>fa afa | "G"b>gb "(A7)"bag | "D"fga "Bm"agf | "Em"g>fg "A7"efg |
+"D"a2z "Bm"f2z | "Em"ede "A7"fdB | "D"A>BA "A7"faf | "D"d>ed d2 :|
+
+%%sep 1 1 500
+
+X: 2
+T: Out on the Ocean v.1   [G]
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 6/8
+L: 1/8
+K: G
+E |\
+"G"D2B BAG | BdB "D7"ABA | "G"GED G2A | ~B3 "D7"AGE |\
+"G"D2B BAG | BdB "D7"ABA | "G"GED G2A |1 "G"BGF G2 :|2 "G"BGF GBd ||
+|:\
+"Em"~e3 edB | efe edB | "D"~d3 dBA | d2d dBA |\
+"G"G2A B2d | "C"ege "D7"dBA | "G"GED "D7"G2A |1 "G"BGF GBd :|2 "G"BGF G2 |]
+
+%%sep 1 1 500
+
+X: 3
+T: Irishman's Heart to the Ladies
+S: Roaring Jelly collection
+M: 6/8
+R: jig
+K: A
+a |\
+"A"ecA "D"BAF | "A"AFE EFA | "Bm"Bdc     BAB | "E7"cBB B2a |
+"A"ecA "D"BAF | "A"AFE EFA | "Bm"Bdc "E7"BAB | "A"cAA  A2 :|
+|: A |\
+"A"Aee "D"dff | "A"cee ecA |     cde  "D"eaf | "A"ecA "E7"B2A |
+"A"cee "D"dff | "A"cee ecA | "Bm"Bdc "E7"BAB | "A"cAA     A2 :|
+

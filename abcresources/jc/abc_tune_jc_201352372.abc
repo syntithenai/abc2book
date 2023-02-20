@@ -1,0 +1,25 @@
+X:2
+T:Whitley Chapel Barn Dance
+M:4/4
+L:1/8
+C:Jimmy Shand
+S:NoelJackson tradtunes 2017-2-7
+K:Dmaj
+f>c [|\
+"D"e2d2d2d>A | c2"G"B2B4 |\
+"A7"g>fg>e c2e2 | "D"e>df>d "A7"A2 f>c |
+"D"e2d2d2d>A | c2"G"B2B4 |\
+"A7"g>fg>e c>AB>c | "D"d2d2d2 |]
+%Error : Bar 8 is 3/4 not 4/4
+K:Amaj
+%Error : Bar 9 is 1/4 not 4/4
+(3CD^D [|\
+"A"E2c2^B2c2 | "D"c>Bd>B F4 |\
+"E7"G>^^FG>A c2B2 | "A"B>Ac>A "E7"E2 (3CD^D |
+"A"E2c2^B2c2 | B>cd>"D"e f4 |\
+e>^de>"E7"f e>=dc>B | "A"A2c2A4 |]
+K:Gmaj
+[| "G"B2B>A G2D2 | B>^AB>ed4 |\
+"D7"A2A>^G B2A2 | A>^GA>G B>AF>D |
+"G"B2B>A G2D2 | B>^AB>ed4 |\
+D>"D7"EF2F>GA>B | (3cd"D7"c B>A"G"G4 |]

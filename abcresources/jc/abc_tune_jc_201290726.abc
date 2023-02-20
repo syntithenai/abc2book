@@ -1,0 +1,14 @@
+X: 388
+T: Irish Exile   #2
+R: air, jig, waltz
+%S: s:2 b:9(4+5)
+B: O'Neill's 1850 #388
+N: H is a fermata, ">" is an accent.
+Z: Chris Falt, cfalt@trytel.com
+N: Compacted via repeats and multiple endings [JC]
+Q: "Slow."
+M: 6/8
+L: 1/8
+K: G
+"^A"[|] (G/A/) | (B>AG) (EA).A | A3-A2(G/A/) | (B>AG) (EG).G | G3-G2 ||
+"^B"|: (G/A/) | BGB "^>"d2(B/d/) | ece "^>"d2(d/c/) | (B>AG) [1 (EA).A | A3-A2 :|[2 (EG).G | G3-HG2 |]

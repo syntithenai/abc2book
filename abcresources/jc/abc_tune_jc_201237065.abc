@@ -1,0 +1,22 @@
+X: 2405
+T: MASSA'S IN THE COLD COLD GROUND.
+R: Sang jig.
+%R: sand jig, hornpipe, march
+B: James Kerr "Merry Melodies" v.2 p.45 #405
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The repeat notation for the 2nd strain is a bit odd. "|]" added to get ABC software to
+N: mark the end of the 1st strain's second ending, which is the 1st bar of the 2nd strain.
+N: This may be all wrong, and the odd repeat notation may be just a typo.
+M: C
+L: 1/8
+K: G
+|:\
+d3e dBAG | g4 e4 |\
+e2d2 B2G2 | ADEF GABc |\
+d3e dBAG | g4 e4 |\
+edBG B2A2 |[1 G2[g2B2] [g2B2]z2 :|
+|:2 G2AB cdef |]\
+g4 f2e2 | d4 B4 |\
+e2d2 B2G2 | Adfe dcBA |\
+d3e dBAG | g4 e4 |\
+edBG B2A2 :|[2 G2[g2B2] [g2B2]z2 |]

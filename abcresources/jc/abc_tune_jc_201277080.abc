@@ -1,0 +1,34 @@
+X:254
+T:Folkus Pocus
+C:Colin Hume, 2005
+L:1/8
+M:3/4
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%MIDI beat 100 95 80
+Q:1/4=120
+%%MIDI chordname dim 0 3 6 9
+K:Am
+P:A
+V:1
+[| L[CEA] A,/B,/ CA, [B,D]A, | [CE]A, [DF]A, [CE]A, | L[CEA] A,/B,/ CA, [B,D]A, | EB, [^D^F]B, [E^G]B, |
+L[CEA] A,/B,/ CA, [B,D]A, | [CE]A, [DF]A, [CE]A, | L[B,^D] D/E/ ^FB, DF | [GB][^FA] [EG][^DF] E2 ||
+V:2 bass octave=-2
+%%MIDI gchordoff
+[| "Am"[Aa]z z2 z2 | "Am"[Ae]z [Ae]z [Ae]z | "Am"[Aa]z z2 z2 | "E7"[Ee]z [Ee]z [Ee]z |
+"Am"[Aa]z z2 z2 | "Am"[Ae]z [Ae]z [Ae]z | "B7"[B,B]z z^f ^dc | "B7"BB BB "Em"Lez ||
+P:B
+V:1
+[ce][ce]2 c/d/ ec | [Bd][Bd]2 B/c/ dB | [Ac][Ac]2 A/B/ [^Fc]A | [E^G][^FA] [GB][Ac] [Bd][ce] |
+[df][df]2 d/e/ fd | [ce] [ce]2 c/d/ ec | LB B,/^C/ ^DE ^FG | AB cB ^dB ||
+V:2
+"Am"[Ae]2 z2 [ea]2 | "E7"[e^gb]2 z2 [e^ge']2 | "Cdim"[^f_e']2 z2 [_E_e]2 | "E7"[=E=e]^f ^ga bc' |
+"Dm"[Dd]2 z2 [Dd]2 | "Am"[Aa]2 z2 [Aa]2 | "B7"[Bb]z [Bb]z [Bb]z | "B7"[B^d^fa]z [B^d^fa]z [B^d^fa]z ||
+P:C
+V:1
+L[GBe]z L[GBe]z L[GBe]z | L[Ace] A/B/ cB AG |\
+L[Fdf]z L[Fdf]z L[Fdf]z | L[^Gdf] B/c/ dc BA |
+L[Bd^g]z L[Bd^g]z L[Bd^g]z | L[Aca] c/d/ ed cB |\
+[CFA] [FA]2 [EG] [DF]2 | [EBd] [Bd]2 [Ac] [^GB]2 |]
+V:2
+"Em"[eb]z [eb]z [eb]z | "Am"[Ae]z z2 z2 | "Dm"[da]z [da]z[da]z | "Bdim"[Bb]z z2 z2 |
+"E7"[ee']z [ee']z [ee']z | "Am"[Aa]z z2 z2 | "F"f f2 e d2 | "E7"[Ee]2 [Ee]2 [Ee]2 |]

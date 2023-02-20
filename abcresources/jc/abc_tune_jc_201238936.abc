@@ -1,0 +1,23 @@
+X: 3163
+T: Jenny Nettles    a Reel
+%R: reel
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3  p.16 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+V: 1 staves=2
+A/B/ |\
+{AB}c2.B2 .A2.a2 | (e^fg)e dBGB | {AB}c2.B2 .A2.a2 | ge^fd e2A :| B | Tc>deA Tc>deA | d/c/B/A/ Gd BGdB |
+c>deA cdea | ge^fd e2AB || Tc>deA Tc>dec | BAGd BGdB | Tc>deA c>dec | BcdB {B}e2A |[| B | !f!Tc>de^f g>age |
+gaTge d/c/B/A/ GB | Tc>de^f gage | aba^g Ta2AB || cde^f gage | gage {d}cB/A/ GB | cde^f gagf | ea^gb a2A |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | a2e2 a2A2 | c2c'2 g2g2 | a2e2 a2A2 | c2d2 e2A :| z | a2a2 a2a2 | g2g2 g2g2 |
+a2a2 a2a2 | c2d2 e2A2 || A2a2 A2A2 | G2g2 G2G2 | A2a2 A2A2 | e2E2 A2A |[| z | !f![c2C2][c2C2] [c2C2][c2C2] |
+[c2C2][c2C2] [g2G2][g2G2] | [c2C2][c2C2] [c2C2][c2C2] | e2E2 A2A2 ||\
+[c2C2][c2C2] [c2C2][c2C2] | [c2C2][c2C2] [g2G2][g2G2] | [c2C2][c2C2] [c2C2][d2D2] | e2E2 A2A |]

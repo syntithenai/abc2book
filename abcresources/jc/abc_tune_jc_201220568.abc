@@ -1,0 +1,25 @@
+X: 38
+T: Irish Air
+C: "In Robin Hood"
+%R: jig
+B: "The Hibernian Muse" p.23 #2
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. XXXVIII.
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+c2c c2G | A2G G2z | c2c dcd | e2c c2e |\
+f2f e2e | dec BAG | AGF EFG | A2G G2!p!A/B/ |
+c2c c2G | TA2G G2z | !f!c2c Tdcd | e2c c2e |\
+f2a e2g | dec B2G | AGF EFG | AcB c3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+c3 c'3 | c3 c'3 | c3 g3 | c'2c c2z |\
+d3 c3 | f3 gfe | fed cde | f2c c2!p!z |
+c3 c'3 | c3 c'3 | !f!c3 g3 | c'2c c2z |\
+d2d' c2c' | b2a g2e | fed cde | f2g c3 |]

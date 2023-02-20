@@ -1,0 +1,36 @@
+X:8237
+T:Croatian tune
+C:anon.
+O:Croatia
+A:Petrijanec
+B:Vinko Zganec: Narodne Popijevke Hrvatskog Zagorja (Zagreb, 1950)
+F:http://abc.musicaviva.com/tunes/croatia/749/749-gnperc.abc
+%Posted May 20th 2002 at abcusers by Jack Campin, proposing an
+%extension of the abc standard to deal with percussion notation.
+V:1
+V:2 K:P       % drum right
+V:3 K:P merge % drum left
+M:2/4
+L:1/8
+Q:1/4=96
+K:G
+V:1 (d/e/d) .B.B   |(d/e/d) .c.c    |(df/).f/ (f.e)   |(e.d)  .d.d   |
+V:2  u   z   u2    | z   u   z2     | uz       u2     | z u    z2    |
+V:3  z   d   z2    | d   z   d2     | zd       z2     | d z    d2    |
+%
+V:1 (d/e/d) .B.B   |(d/e/d) .c.c    |.d.d     (d/e/f) | gg/g/  g z   |
+V:2  u   z   u2    | z   u   z2     | u z      u2     | zu     z2    |
+V:3  z   d   z2    | d   z   d2     | z d      z2     | dz     d2    |
+%
+V:1  DD     (D/E/F)|.G(G/A/  B/A/.B)|.c.A     (A/^G/A)|.B.G   (G/F/G)|
+V:2  uz      u2    | z u     z2     | u z      u2     | z u    z2    |
+V:3  zd      z2    | d z     d2     | z d      z2     | d z    d2    |
+%
+V:1  DD     (D/E/F)|.G(G/A/  B/A/.B)|.c.A     (A/B/A) |.G(G/F/ G)z  |]
+V:2  uz      u2    | z u     z2     | u z      u2     | z u    z2   |]
+V:3  zd      z2    | d z     d2     | z d      z2     | d z    d2   |]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

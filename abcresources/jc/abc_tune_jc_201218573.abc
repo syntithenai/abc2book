@@ -1,0 +1,24 @@
+X: 011
+T: Sir David Hunter Blairs Fancy
+N: has "or Reel" as handwritten insert above title
+%R: reel
+M: 2/4
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.1 #1
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+N: There's an odd squiggle above the final f that's not a common ornament symbol.
+K: F
+|:\
+fcde | cdcd | cfa2 | cfa2 |\
+b2ga | gaga | {a2}gfef | gec2 :|
+|:\
+afTf2 | cfAc | FAcf | egTg2 |\
+afTf2 | cfAc | FAcf | gef2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Right hands across Left hands back
+%% again lead down the middle up again
+%% and turn your partenr [sic]
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

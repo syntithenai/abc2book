@@ -1,0 +1,25 @@
+X: 21703
+T: CAPTAIN O KANE
+O: Irish air.
+Q: "Slow."
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.179 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/16
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(GF) |\
+D2G2A2 B4(AG) | ABcBAG F2G2A2 |\
+B2d2B2 dcBAGF | D2G2G2 G4 :: (GA) |\
+B2d2d2 (d4cB) | A2c2c2 c4f2 |
+d3g^f2 g3ab2 | d3g^f2 g4ga |\
+{ga}b2a2g2 {g}f3ed2 | dcBAf2 F2G2A2 |\
+B2d2B2 dcBAGF | D2G2G2 G4 :|
+%%begintext align
+%% Campbell's beautiful song, "The wounded Hussar," is sung to this air,
+%% also Burns' song beginning "The small birds rejoice."
+%%endtext
+%%sep 1 1 300
+% - - - - - - - - - - - - - - - - - - - - - - - - -

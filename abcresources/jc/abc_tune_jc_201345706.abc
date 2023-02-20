@@ -1,0 +1,16 @@
+X: 947
+T: the Top of the Hill   #2
+R: jig
+%S: s:3 b:14(4+4+6)
+B: O'Neill's 1850 #947
+O: F.O'Neill
+Z: Tom Keays (htkeays@mailbox.syr.edu)
+%abc 1.6
+M: 6/8
+L: 1/8
+K: C
+"^A"\
+|: ABc e2A | g2A e2A | ABc e2A | gze dBG ||
+|  ABc eAA | gAA eAA | BGB gfe | dge dBG :|
+"^B"\
+|: gAg g2f | e^f^g a3 | aAa [1,3 gze | dge dBG :|[2,4 g2e | dge dBG :|

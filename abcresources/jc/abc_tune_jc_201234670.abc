@@ -1,0 +1,26 @@
+X: 20693
+T: the Lamentation for the cheif
+N: Yes, "chief" is also misspelt here.
+%R: air, waltz
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.69 #3
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dmix
+%%slurgraces 1
+%%graceslurs 1
+|:"_Plaintive"\
+f3 d ed | B3 ABA | F3 FAF | {F}E3 DDD |\
+{D}f3 d ed | {d}b3 aba | Tf3 e d2 | d6 ::\
+a4 .f.f | .f.f (e2 d2) | a4 ba | ba (f2 e2) |
+.d.d (B2 A2) | .d.d (B2 A2) | {de}f3 e d2 | d4 :: DD |\
+DD (f3 e/d/) | BB d3 (B/A/) | .F.F (B3 A/F/) | EE (F3 E/D/) |\
+DD {D}f3 e/d/ | BB d3 (B/A/) | TF3 E D2 |
+D4 :: aa |\
+a3 f Ted | e3 def | a3 f Ted | e3 d (ef) |\
+dB B2 (BA) | AF F2 BA | TF3 E D2 | D4 :: DD |\
+d4 DD | f4 dd | a3 faf |
+e4 f2 |\
+d4 AA | {A}f3 e (d/B/A) | TF3 E D2 | D4 :: ba |\
+Tf3 e d2 | B4 ba | Tf3 e d2 | {d2}e4 (dB) |\
+d4 (BA) | F4 (BA) | TF3 E D2 | D4 :|

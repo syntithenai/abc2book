@@ -1,0 +1,44 @@
+X: 1
+T: Tobin's Favourite
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 2017-02-23 15:26:59 by Dave Hunt daverhunt@aol.com
+K: D Major
+E|DFA dcd|ecA cde|faf gfg|ecA GFE|
+DFA dcd|ecA cde|faf gec|edc d2:|
+g|fga agf|efg efg|fef gfg|ecA GFE|
+DFA dcd|ecA cde|faf gec|edc d2:||
+
+X: 1
+T: Kenmure's Up And Awa'
+M: 6/8
+L: 1/8
+R: jig
+K: G Major
+D|GBd gdB|ded dBA|GBd gdB|ABA cBA|
+GBd gdB|def gfe|dcB AGF|GAG G2:|
+d|g2d edB|ded def|g2d edB|ABA ABd|
+g2d edB|def gfe|dcB AGF|GAG G2:||
+
+X: 1
+T: Hullichan Jig
+R: jig
+M: 6/8
+L: 1/8
+K: G Major
+GFG BGB|ded dBG|cBc ege|dBG A2D|
+GFG BGB|ded Bdg|fed cBA|(G3 G3):|
+d^cd Bcd|e2e efg|faf def|g2g gfe|
+d^cd Bcd|ece gfe|dcB AGF|(G3 G3):||
+
+X: 1
+T: Spotted Borders
+R: jig
+M: 6/8
+L: 1/8
+K: D Major
+D2A D2c|dcB AGF|G2B E2B|G2B E2B|
+D2A D2c|dcB AGF|GAB edc|(d3 d3):|
+A2a A2g|A2f ecA|faf ecA|faf ecA|
+BdB AFD|BdB A2g|fed edc|(d3 d3):||

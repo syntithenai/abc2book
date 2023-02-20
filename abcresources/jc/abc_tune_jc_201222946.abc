@@ -1,0 +1,56 @@
+%%text RJ Set 066 Jigs
+
+
+X: 1
+T: Ingonish Jig
+I: RJ J-71 Em jig
+R: jig
+Z: Transcribed to abc by Mary Lou Knack
+M: 6/8
+K: Edor
+|:\
+"Em"B2e efg | "D"fef "Bm"dBA | "Em"B2e efg | "D"afe "Bm"d2A |\
+"Em"Bee efg | "D"fef dBA | "G"BdB "D"AFD |1 "Em"EFE E2A :|2 "Em"EFE E2e |]
+|:\
+"Em"BEE BEE | "D"FEF DFA | "Em"BEE BEE | "D"ABc "Bm"dcd |\
+"Em"BEE BEE | "D"FEF DFA | "G"ABc "D"dAF |1 "Em"EFE E2e :|2 "Em"EFE E3 |]
+
+
+X: 2
+T: Andy De Jarlis' jig
+I: RJ J-70 E jig
+R: jig
+Z: Transcribed to abc by Mary Lou Knack
+M: 6/8
+L: 1/8
+K: E
+|:\
+"E"EGB EGB | EGB "A"c2B | "E"EGB EGB | "D"=DFA B2A |\
+"E"EGB EGB | EGB "A"c2a | "B"g2f Bcd |[1 "E"efe e3 :|[2 "E"efe e2a |]
+|:\
+"E"gbg efg | "A"aba c2e | "F#m/A"f2g f2e | "B7"dcB c2B |\
+"E"gbg efg | "A"aba "F#m"c2a | "B"gfe Bcd |[1 "E"e3 e2a :|[2 "E"e3 e3 |]
+[K:Am] "Transition:"y | "E"e_ed "E7#9"c2^c |
+
+
+X: 3
+T: Blue Jig, the
+C: Joel Mabus
+I: RJ J-61 Am jig
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: Am
+"^A"|:\
+"A7"A3 cBA | cBA a3 |\
+[1,3 age _edc | "D7"d^de d=dc :|\
+[2,4 age "D7"cAG | "E7"_EDC "A"A,3 :|
+"^B"|:\
+"D7"^FAB cBA | ^FAB cBA |\
+[1,3 "A7"^ce^f gfe | ^ce^f gfe :|\
+[2,4 "A7"age "D7"cAG | "E7"_EDC "A"A,3 :|
+|: "^B Harmony:"y\
+Acd _edc | Acd _edc |\
+[1,3 ega _bag | ega _bag :|\
+[2,4 age cAG | _EDC A,3 :|
+

@@ -1,0 +1,20 @@
+X: 20715
+T: ALLES SCHWEIGE
+T: "BE ALL SILENT."
+O: Burschen melody.
+Q: "Slow and solemnly."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.71 #5
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/2
+L: 1/4
+K: G
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(d/B/)(c/A/) |\
+G2 D2 GA | B2G2 Bc | d2 e2 dc | (c2 B2) :|\
+[M:C]"^fz"\
+d>B Gg | e>d cB | A>B cA | d>c BA |\
+G2A2 | Bc d(e/c/) | B2 A2 | G2 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

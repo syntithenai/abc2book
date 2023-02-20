@@ -1,0 +1,26 @@
+X:1
+T: Don't Go Yet
+N:
+C:by Thomas d'Urfrey
+S:Tune is "Fisherman's Song"
+A:
+O:
+R:
+M:4/4
+K:C
+I:speed 200
+%W:
+% voice 1 (1 lines, 30 notes)
+K:C
+M:4/4
+L:1/16
+e4 |f4 e4 d4 c4 |B4 ^G8 A4 |B4 E4 A4 B4 |c12 d4 |e4 c4 f4 e4 |d4 G8 c4 |A2 B2 c4 e2 d2 c2 B2 |c12 e4 |
+%W:
+% voice 1 (1 lines, 29 notes)
+f4 e4 d4 c4 |B4 ^G8 A4 |B4 E4 A4 B4 |c12 d4 |e4 c4 f4 e4 |d4 G8 c4 |A2 B2 c4 e2 d2 c2 B2 |c12 A4 |
+%W:
+% voice 1 (1 lines, 30 notes)
+^F4 A4 d4 B4 |^G4 B4 e4 c4 |d4 G4 c6 d2 |d8 c6 e2 |f4 d4 e4 c4 |d4 B4 c4 A4 |B4 E4 A6 B2 |B8 A4 E4 |
+%W:
+% voice 1 (1 lines, 28 notes)
+G4 D4 D4 F4 |E4 C8 c4 |A4 F4 D4 B4 |^G12 B4 |c4 d4 e4 c4 |f4 d4 e4 E4 |A4 B4 c2 B2 A2 ^G2 |A12 ||

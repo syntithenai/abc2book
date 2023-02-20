@@ -1,0 +1,15 @@
+X: 1016
+T: the Grange
+%R: jig
+B: Henry Playford "Apollo's Banquet", London 1687 (5th Edition)
+F: https://archive.org/details/apollosbanquetco01rugg
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: Not the extra half-measure at the end.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - -
+A |\
+def e>dc | dB2 A>GF | GAB AB>c | d3- d2 :: f/g/ | a>ba g>ag |
+f3 e2a/g/| f>ed d>ef | B3 A2B/c/ | dBe cAf | gea B>cd | d2c d3- d2 |]
+% - - - - - - - - - -

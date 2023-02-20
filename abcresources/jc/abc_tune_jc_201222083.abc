@@ -1,0 +1,33 @@
+X: 0551
+T: GALOPADE For two Flutes
+C: S. Knaebel
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.55 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% -------------------------
+V: 1
+|:!p!\
+.g2(Td2 B2).d2 | ("_>"g4 b2)z2 | .g2(Td2 B2).d2 | ("_>"g4 b2)z2 |\
+!mf!\
+.d'2(c'a) .f2e'2- | e'2(d'b) g3e | (de)d2 .b2.a2 | (gag).f g2z2 :|
+|:!ff!\
+"^>"e4 "^>"e4 | "^>"d'4 "^>"d'4 | .a2.g2.f2.e2 | .^d2.f2 ("^>"c2B2) |\
+"^>"a4 "^>"a4 | b2((3gag) .f2.g2 | .a2((3ded) b2a2 | .g2.b2.g2"_FINE"z2 H:|
+|:[K:C]!p!\
+.c2.d2.e2.f2 | .g2.a2  g2e'2- | e'2 "^>"d'4 b2 | c'2ba gggg |\
+.c2.d2.e2.f2 | .g2.a2 .g2e'2- | e'2 "^>"d'4 b2 | "_D.C. AL FINE"c'2c'2c'2z2 :|
+% -------------------------
+V: 2
+|:!p!\
+.G2.B2 .G2.B2 | .G2.B2 .G2.B2 | .G2.B2 .G2.B2 | .G2.B2 .G2.B2 |\
+.F2.A2 D2"^>"c'2- | c'2(bg) .B2(c^A) | .B2(GB) .d2.c2 | B2B2B2z2 :|\
+|:!ff!\
+e4 e4 | ^d6 dB | .=c2.B2.A2.G2 |
+("^>"F4 G4) |\
+"^>"c6 AG | G2((3BcB) d2B2 | c3B d3c | B2d2B2"_FINE"z2 H:|\
+|:[K:C]!p!\
+E2G2 .c2.d2 | .e2.f2 .e2g2- | g2 "^>"f4 d2 | e2f2 eeee |\
+E2G2 .c2.d2 | .e2.f2 .e2g2- | g2 "^>"f4 d2 | "_D.C. AL FINE"e2e2e2z2 :|

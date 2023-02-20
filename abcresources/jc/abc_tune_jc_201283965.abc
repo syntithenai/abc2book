@@ -1,0 +1,15 @@
+X:81
+T:Haihintulo Marssi (harmony)
+M:4/4
+L:1/16
+Q:1/4=100
+R:march
+K:C
+|: "C" E4 C3E c4 G4 | e2ee e2e2 c4 c3c |
+"G" d2c2 B2A2 "C" G4 E4 | "G" F4 G3B B2B2 A2G2 | !
+"C" e4 e4 c4 G4 | E4 e4 c3d B3G |
+"G" F4 F4 "D" G4 A4 | "G" B4 B3B B4 G4 :| !
+|: "G" F2B2 B2_B2 =B4 c4 | B2G2 F2D2 F2G2 F2D2 |
+"C" G3C E2G2 c4 d4 | e4 c4 e4 G4 | !
+"F" A4 A4 "C" c4 e4 | "G" f4 f4 "C" c4 e4 |
+"G" d4 G4 B2B2 A2G2 |[1 "C" E4 E3E E4 G4 :|[2 "C" c4 e3e e8 ||

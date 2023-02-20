@@ -1,0 +1,54 @@
+X: 1801
+T: LADIES' GALOPADE
+C: Strauss
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.180-181
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: The thick bar line inside bar 32 is a bit odd.  What does it mean?
+M: 2/4
+L: 1/16
+K: C
+% -------------------------
+V: 1
+"C CLAR."(3GAG !p!|\
+.^F2.G2.A2.B2 | .c2.d2.^d2.e2 | "_>".e2.d2"_>".e2.d2 | .d2.c2.B2.A2 |\
+!ff!.^F2.G2.A2.B2 | .c2.d2.^d2.e2 | .e2.d2.e2.d2 | c4z2 :||: z2 |\
+z2e4e2 | z2e4e2 |
+z2g(a gabc') | d'(c'ba gfed) |\
+c2 e4 e2 | z2 e4 e2 | (d4 def)g | e4 z2 :||:[K:F] !pp!c2 |\
+(a6 g2) | {f}f3e f3d | c2z2 {e}f2z2 | A7 c |
+B2z2 {^c}d2z2 | "^>"G7 B | A2z2 c2z2 | F3Ac3f | (a6 g2) |\
+{g}f3e f3d | cccc c2{e}f2 | "^>"A7 c | BBBB B2{^c}d2 | "^>"G7 B |
+A3c B3G | F4 z2 !f!] z2 |\
+"^>"e6 z2 | "^>"e6 z2 | e2z2 e2z2 | f2z2 f2z2 |\
+e6 z2 | e6 z2 | f2z2 (B2AG) | A6 "_D.C.":|
+% -------------------------
+V: 2
+"VIOLIN"z2 !p!|\
+z2!/![E6G,6] | z2!/![E6G,6] | z2[F2G,2] z2[F2G,2] | z2!/![F6G,6] |\
+!ff!!/![E8G,8] | !/![E8G,8] | !/![F8G,8] | [E4G,4]z2 :||: "8va. AD LIB."(GF) !f!|\
+E(FGA) (GABc) | E(FGA) (GABc) |
+GA(Bc Bcde) | (fedc B)AGF |
+E(FGA) (GABc) | E(FGA) (GABc) | (GABc) (Bcde) | c4 z2 :||:[K:F] !pp!z2 |\
+[F2A,2]z2 [F2A,2]z2 | [F2A,2]z2 [D2B,2]z2 | [F2A,2]z2 [F2A,2]z2 | [F2A,2]z2 [F2A,2]z2 | 
+[E2G,2]z2 [E2G,2]z2 | [E2B,2]z2 [E2B,2]z2 | [F2A,2]z2 [F2A,2]z2 | [F2A,2]z2 [F2A,2]z2 |\
+[F2A,2]z2 [F2A,2]z2 | [F2A,2]z2 [D2B,2]z2 | [F2A,2]z2 [F2A,2]z2 | [F2A,2]z2 [F2A,2]z2 |\
+[D2B,2]z2 [D2B,2]z2 | [D2B,2]z2 [D2B,2]z2 |
+[F2A,2]z2 [E2G,2]z2 | [F4A,4] z2 !f!] (=Bc) |
+g6 (=Bc) | g6 (=Bc) | g2(=Bc) g2(=Bc) | a2(ef) c'2(=Bc) |\
+g6 (=Bc) | g6 (=Bc) | a2(ef) g2(fe) | f6 "_D.C.":|
+% -------------------------
+V: 3 clef=bass middle=d
+"BASE"!p!z2 |\
+c4z4 | c4z4 | G2z2 G2z2 | G4z4 |\
+!ff!c4c4 | c4c4 | G4G4 | c4z2 :||: !f!z2 |\
+c4!trem1!G4 | c4!trem1!G4 |
+B4!trem1!G4 | B4!trem1!G4 | c4!trem1!G4 | c4!trem1!G4 |
+B4!trem1!G4 | c4 z2 :||:[K:F] !pp!z2 |\
+f2z2 f2z2 | f2z2 f2z2 | f2z2 f2z2 | f2z2 f2z2 |
+c2z2 c2z2 | c2z2 c2z2 | f2z2 f2z2 | f2z2 f2z2 |
+f2z2 f2z2 | f2z2 f2z2 | f2z2 f2z2 | f2z2 f2z2 |
+B2z2 B2z2 | B2z2 B2z2 |
+c2z2 c2z2 | f4 z2 !f!] z2 |\
+z2(=bc') c4 | z2(=bc') c4 | c2z2 c2z2 | f2z2 a2z2 |
+z2(=bc') c4 | z2(=bc') c4 | c2z2 c2z2 | f6 "_D.C.":|

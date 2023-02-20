@@ -1,0 +1,49 @@
+X: 1841
+T: WALTZ FROM SEMIRAMIS
+O: Arranged by A.F. Knight
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.184
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+V: 1 clef=treble nm="CLARINET PRIMO" snm="C1"
+V: 2 clef=treble nm="CLARINET SECONDO" snm="C2"
+V: 3 clef=bass middle=D nm="TENOR TROMBONE" snm="T"
+V: 4 clef=bass middle=d nm="OPHICLEIDE" snm="O"
+K: F
+%----------
+V: 1
+%P: CLARINET PRIMO
+c>c |\
+c2c2c2 | c4c>c | c2c2c2 | d4f2 |\
+(f2e2)d2 | (c2B2)G2 | F4z2 | z6 ||
+|: c2-cdcA | F2-FEFA | c2-cdef | g2-gf^cd |\
+e2-edBG | FEGFAG | (BA)(cB)(dc) | =BcdcA2 |
+"^8va   -   -   -   -   -   -   -   -"\
+c2cdcA | F2-FEFA | c2cdef | g2gf^cd |\
+e2edcG | ^FGAGBA | cBedBG | F4z2 H:|
+%----------
+V: 2
+%P: CLARINET SECONDO
+!f!A>A |\
+A2A2A2 | B4B>B | A2A2A2 | B4d2 | c6 | G4E2 | !p!F2c2c2 | c2c2c2 \
+|: !p!z2c2c2 | z2c2c2 | z2c2c2 | z2d2d2 |
+z2d2d2 | z2c2c2 | z2e2e2 | z2c2c2 |\
+zcAcAc | zcAcAc | zcAcAc | zdGdBd | zdGdBd | zcEcBc | zcEcBc | A4z2 H:|
+%----------
+V: 3
+%P: TENOR TROMBONE
+!f!F>F |
+F2F2F2 | E4E>E | _E2E2E2 | D4G2 | A4A2 | B4B2 | !p!A2A2A2 | A2A2A2 \
+|: !p!z2A2A2 | z2A2A2 | z2A2A2 | z2B2B2 |
+z2B2B2 | z2B2B2 | z2c2c2 | z2A2A2 |\
+!f!c2cdcA | F2-FEFA | c2cdef | g2gf^cd | e2 edBG | ^FGAGBA | cBedBG | F4z2 H:|
+%----------
+V: 4
+%P: OPHICLEIDE
+!f!F>F |\
+F2F2F2 | G4G>G | A2A2A2 | B4=B2 | c4c2 | c4c2 | !p!F2f2f2 | f2f2f2 \
+|: !p!F6 | f6 | f6 | f6 |
+f2z2z2 | f2z2z2 | f2z2z2 | f2z2z2 |\
+!f!f2f2f2 | f2f2f2 | f2f2f2 | f2f2f2 |\
+f2f2f2 | e2e2e2 | c2c2c2 | F4z2 H:|

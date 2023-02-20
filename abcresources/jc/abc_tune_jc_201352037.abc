@@ -1,0 +1,43 @@
+X: 1
+T: Whip her and Gird her
+P: Longways for &c.
+%R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.77
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+G2G G2(3(B/c/d/) | BGB c2A | G2G G2(3(B/c/d/) | AFA c2A |\
+G2G G2(3(B/c/d/) | BGB g2d | ece dBd | AFA c2A :|
+|:\
+g>fg def | g>fg d>cB | g>fg def | AFA c2A |\
+g>fg def | g>fg d>cB | (c/d/)ec (d/e/)fd | AFAc2A :|
+|:\
+BGG GDD | BGG cBA | BGG GDD | AFA c2A |\
+BGG GDD | g>fg dcB | (c/d/)ec (d/e/)fd | AFAc2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g3 B2G | g3 c2d | g3 B2G | d3 e2f |\
+g3 B2G | g3 B2G | c2A B2G | d2d e2f :|\
+|:\
+g3 B2d | e3 f2f | e3 B3 | zzd e2f |\
+g3
+B2d | e3 f2g | g3 B3 zzc e2f :|\
+|:\
+g3 B2G | g3 c2d | g3 B3 | zzd e2f |\
+g3 B2d | e3 f2f | e3 B3 | zzd A2d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu cross over and gallop down to the Bottom & lead up & turn .|
+%% then foot it with your Partner, Jigg it and turn :|
+%% the 2d Cu. do the same .|
+%% then 1st and 2d Cu. take hands and lead out to the Wal & 1st Cu. take
+%% hands & foot it & cast off in the 2d Cu. Place.
+%%endtext

@@ -1,0 +1,31 @@
+X:1
+T:The Midlothian Pipe Band
+M:6/8
+L:1/8
+Q:80
+C:
+S:March 6/8
+K:HP
+|: {g}fe | \
+{Gdc}d2{e}A{Gdc}d3/2e/2f | \
+{g}A2{GdGe}A{g}A2{GdGe}A |
+{g}f2{GdG}f{g}f3/2e/2{g}d | \
+{g}e3/2f/2{g}e{g}A3/2B/2{GdG}c | | \
+{Gdc}d2{e}A{Gdc}d3/2e/2f |
+{g}B/2{d}G3/2{d}B{gBd}B2{gf}g | \
+{a}f3/2g/2aA3/2B/2{GdG}c | \
+{Gdc}d3{gdc}d ::
+ag | \
+{a}f2{GdG}f{gfg}f3/2e/2d | \
+{g}e2{GdG}e{gef}e2{gf}g | \
+a2{GdG}a{fg}f2e |
+{g}d3/2B/2{G}B{gBG}B3/2|1 a/2g|1  | \
+{a}f2{GdG}f{gfg}f3/2e/2d | \
+{g}e2{GdG}e{gef}e2{gf}g |
+a3/2f/2{g}d{g}A3/2B/2{GdG}c | \
+{Gdc}d3{gdc}d:|2
+{gf}g |
+{a}f3/2g/2ae3/2f/2g | \
+{a}f3/2e/2d{gBd}B{gf}g | \
+{a}f3/2g/2aA3/2B/2{GdG}c |
+{Gdc}d3{gdc}d|]

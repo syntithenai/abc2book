@@ -1,0 +1,39 @@
+X: 13
+T: Cotillon XIII.     la Blanchisseuse.
+%R: jig
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #13
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+(fef) (cAF) | (fef) (cAF) | (fga) (gab) | (agf) (gec) |\
+(fef) (cAF) | (fef) (cAF) | (fga) (gfe) | (dc=B) c3 :|
+|:\
+(c=Bc) (GEC) | (c=Bc) (GEC) | (gfe) (dcB) | (AGF) F3 |\
+(d^cd) (AFD) | (d^cd) (AFD) | (def) (efd) | (^c=BA) A3 |
+(fef) (cAF) | (fef) (cAF) | (fga) (gab) | (agf) (gec) |\
+(fef) (cAF) | (fef) (cAF) | (fga) (gba) | (gfe) f3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+f3 F3 | f3 F3 | f3 e3 | f3 c2B |\
+A3 F3 | f3 F3 | f2d e2f | g2G c3 :|
+|:\
+c'3 c3 | c'3 c3 | e3 c3 | f3 F3 |\
+d'3 d3 | d'3 d3 | f3 g3 | a3 A3 |
+f3 F3 | f3 F3 | f3 e3 | f3 c2B |\
+A3 F3 | f3 F3 | a2f b2g | c'2c f3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round: the first Couple lead up and make a whole round in the Centre: mean time
+%% the second Couple Chassee to the Corners, & then Chasse\`e to the middle: change Ladies lead
+%% up & make a round in the Centre: the first Cu. Chasse\`e at right & left side, & then another Chass\`e to
+%% the Corner: Every one falls into their own Places by Chasse\`e: the 4 Ladies turn under the Arm of their Partner.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.

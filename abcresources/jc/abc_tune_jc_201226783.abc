@@ -1,0 +1,19 @@
+X: 10443
+T: COLLEGE HORNPIPE, OR JACK'S THE LAD
+C: Arr. by W. B. Laybourn
+R: hornpipe
+B: K\"ohler's Violin Repository, v.1, 1885 p.44 #3
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: There were unneeded triplet notations in bar 7 and 15; omitted.
+N: Missing naturals in bar 11 paired _e with =E; corrected.
+M: C|
+L: 1/8
+K: Bb
+(uB>A) |\
+B2[D2B,2] [D2B,2](F>E) | DFBA Bdc=B | c2[=E2C2] [E2C2](c>B) | A<cf2 f2ga |
+(ba)gf (gf)ed | (ed)cB (BA)GF | G{A}BA{B}c B{c}dc{d}e | [d2F2][B2D2][B2D2] :|
+|: ([fF]>[eE]) |\
+[dD][fF][bB][fF] [dD][fF][bB][fF] | [g2G2][e2E2G,2] [e2E2G,2]([gG]>[fF]) |\
+[=e=E][gG][c'c][gG] [eE][gG][c'c][gG] | [a2A2][f2F2A,2] [f2F2A,2](G>A) |
+B2g2 (gf)ed | (ed)cB BAGF | G{A}BA{B}c B{c}dc{d}e | [d2F2][B2D2][B2D2] :|

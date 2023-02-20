@@ -1,0 +1,14 @@
+X:104
+%%printtempo 0
+Q:1/8=180
+T:North Shore
+M:2/4
+L:1/16
+R:Hornpipe
+K:D
+(3ABc|\
+"D"d2)dA (BA)FD| "A"CDE(F G2)AG| "D"FAdc "G"Bdgf| "A"edcB Agfe|
+"D"{/c}d2dA (BA)FD| "A"CDEF GABG| "D"FAdA "G"BGEC| "D"[D2D2](.D2.D2):|
+AB|\
+"A"cdef gecA| "D"{/c}defg {/f}a2fa| "G"g2eg "D"f2df| "A"(ed)cB Agfe|
+"D"d2dA (BA)FD| "A"CDEF GABG| "D"FAdA "G"BGEC|1 "D"[D2D2](.D2.D2):|2 [D2D2]D2[D2A,2]|]

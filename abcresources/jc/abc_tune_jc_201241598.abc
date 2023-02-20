@@ -1,0 +1,21 @@
+X: 4444
+T: the VILLAGE FESTIVAL
+C: Carl Colti
+%R: jig
+B: James Kerr "Merry Melodies" v.4 p.50 #444
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+[| "_p 2nd f"\
+{ABc}d2A f2A | d3- d2z | {ABc}d2A f2A | d3- d2f |\
+e2a aba | f2d dcd | Bcd fed | cde A2z |\
+{ABc}d2A f2A | d3- d2z | {ABc}d2A f2A | d3- d2f |
+e2a aba | f2d dcd | efg abc' | d'2z d'2z H|:\
+e3 c2B | A3- A(cd) | e2e f2e | (e2d) d3 |\
+d3 B2A | ^G3- G(Bc) | d2d e2d | (d2c) c3 |
+e3 c2B | A3- A(cd) | e2e f2e | (e2d) d3 |\
+f3- fdB | e3- ecA | d3- d(B^G) | Acf e2e |\
+f3- fdB | e3- ecA | Bcd ef^g | a2z "_D.C."[a2c2]z :|

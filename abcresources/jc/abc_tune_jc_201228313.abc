@@ -1,0 +1,23 @@
+X: 111	% 26
+T: Blue Bird Schottische
+N: handwritten at top: Hi Lo Schottish
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.11 #1
+R: shottish
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+V: 1 name=26
+%%slurgraces 1
+%%graceslurs 1
+[|\
+D>FA>B A2{fg}f2 | D>FA>B A2{fg}f2 |\
+(3(ggg) (3(fff) (3(eee) (3(ddd) | (3(ccc) (3(BBB) |\
+(3(AAA) (3(GGG) | F>GA>B A2{fg}f2 |
+D>FA>B A2{fg}f2 | (3(ggg) (3(fff) e>AB>c |\
+.d2.d2 "^Fine".d2 |]| (cd) ||\
+e2(3(ef^g) a>ga2 | c>Bc>d e>^de2 |\
+(3(BBB) e2 (3(BBB) e2 |
+(3(ccc) (3(BBB) A2(cd) |\
+e2(3(ef^g) a>^ga2 | c>Bc>d e>^de2 |\
+e>ag>f e>dc>B | A2A2 A2(FE) |]

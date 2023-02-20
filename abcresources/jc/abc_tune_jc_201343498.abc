@@ -1,0 +1,96 @@
+
+X: 1
+T: Tayere Odessa Khusidl    [Dm]
+O: Brave Old World
+S: Brave Old World: Klezmer Music
+S: Transcription by Steve Rauch
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+P: Play AABCCB
+K: Dm
+"A"|:\
+"Dm"A2dd dddd | d2Ad f4 |\
+"Dm"d2ff ffff | f2df a4 |\
+"Dm"f2aa aaaa | d'2a2 fefg |
+"Dm"(3a2b2a2 "Gm"g2a2g2 |1 "Dm"fgab "A7"agfe :|2 d4 z2f2 \
+"B"[|\
+"Dm"f2 g4 f2 | "(Cm)"f2_ef e2d2 | "Dm"d4- dAFA |
+d^cde fefg | "F"a2b2 b2a2 | "C"a3g c'bag |\
+"F"f4- fcAc | "Dm"(3f2e2f2 "Cm"g2f2g2 ||\
+"Fm"_a2ga "(Dm)"g2fg | "Fm"f2_ef "(Dm)"e2de |
+"Dm"d2d2 g2fe | f4-fefg |\
+"Fm"_a2ga "(Cm)"g2fg | "Fm"f2_ef "(Cm)"e2de |\
+"Dm"d2a2 ^g2a2 | "Dm"Hd4 z2"(C7)"c2 \
+"C"|:\
+"F"f8 | a8 | c'8- | c'8 |
+"F"a2ga g2f2 | "Bb"b2b2 "F"a4 |\
+"F"a2ga g2f2 | "Bb"b2b2 "F"a4 |\
+"C7"g2 c'4 ba | g2 c'4 ba |\
+g^fga babc' | "F"a4 z2 f2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Tayere Odessa Khusidl    [Em]
+O: Brave Old World
+S: Brave Old World: Klezmer Music
+S: Transcription by Steve Rauch
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+P: Play AABCCB
+K: Em
+"A"|:\
+"Em"B2ee eeee | e2Be g4 |\
+"Em"e2gg gggg | g2eg b4 |\
+"Em"g2bb bbbb | e'2b2 gfga |
+"Em"(3b2c'2b2 "Am"a2b2a2 |1 "Em"gabc' "B7"bagf :|2 e4 z2g2 \
+"B"[|\
+"Em"g2 a4 g2 | "(Dm)"g2=fg f2e2 |\
+"Em"e4- eBGB |
+e^def gfga |\
+"G"b2c'2 c'2b2 | "D"b3a d'c'ba |\
+"G"g4- gdBd | "Em"(3g2f2g2 "Dm"a2g2a2 ||\
+"Gm"_b2ab "(Dm)"a2ga | "Gm"g2=fg "(Dm)"f2ef |
+"Em"e2e2 a2gf | g4-gfga |\
+"Gm"_b2ab "(Dm)"a2ga | "Gm"g2=fg "(Dm)"f2ef |\
+"Em"e2b2 ^a2b2 | "Em"He4 z2"(D7)"d2 \
+"C"|:\
+"G"g8 | b8 | d'8- | d'8 |
+"G"b2ab a2g2 | "C"c'2c'2 "G"b4 |\
+"G"b2ab a2g2 | "C"c'2c'2 "G"b4 |\
+"D7"a2 d'4 c'b | a2 d'4 c'b |\
+a^gab c'bc'd' | "G"b4 z2 g2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Tayere Odessa Khusidl    [Bm]
+O: Brave Old World
+S: Brave Old World: Klezmer Music
+S: Transcription by Steve Rauch
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+P: Play AABCCB
+K: Bm
+"A"|:\
+"Bm"F2BB BBBB | B2FB d4 |\
+"Bm"B2dd dddd | d2Bd f4 |\
+"Bm"d2ff ffff | b2f2 dcde |
+"Bm"(3f2g2f2 "Em"e2f2e2 |1 "Bm"defg "F7"fedc :|2 B4 z2d2 \
+"B"[|\
+"Bm"d2 e4 d2 | "(Am)"d2=cd c2B2 | "Bm"B4- BFDF |
+B^ABc dcde | "D"f2g2 g2f2 | "A"f3e agfe |\
+"D"d4- dAFA | "Bm"(3d2c2d2 "Am"e2d2e2 ||\
+"Dm"=f2ef "(Am)"e2de | "Dm"d2=cd "(Am)"c2Bc |
+"Bm"B2B2 e2dc | d4-dcde |\
+"Dm"=f2ef "(Am)"e2de | "Dm"d2=cd "(Am)"c2Bc |\
+"Bm"B2f2 ^e2f2 | "Bm"HB4 z2"(A7)"A2 \
+"C"|:\
+"D"d8 | f8 | a8- | a8 |
+"D"f2ef e2d2 | "G"g2g2 "D"f4 |\
+"D"f2ef e2d2 | "G"g2g2 "D"f4 |\
+"A7"e2 a4 gf | e2 a4 gf |\
+e^def gfga | "D"f4 z2 d2 :|

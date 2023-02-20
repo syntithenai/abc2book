@@ -1,0 +1,44 @@
+
+X: 1
+T: Maple Sugar Gal - Two Step
+C: Ward Allen
+R: march, polka
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS
+M: 2/4
+L: 1/8
+K: G
+Bc \
+| "G"d2 d>e | dc BA \
+| B2 B>c | B2 cB \
+| "D7"BA AB | c>B BA \
+|1 BB Bc | BG \
+:|2 "G"G4- | "fine"G2 FG ||[K:D]
+|: "D"A2 A>B | AF Ad \
+| f2 f>e | dA cd \
+| "A7"e2 e>f | ec Bc \
+|1 "D"d2 cB | "A7"AF GB \
+:|2 "D"d2 d>e | "D7"d=c "c.B,."|]
+
+%%sep 1 1 500
+
+X: 1
+T: Maple Sugar Gal - Two Step
+C: Ward Allen
+R: march, polka
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS
+M: 2/4
+L: 1/8
+K: A
+cd \
+| "A"e2 e>f | ed cB \
+| c2 c>d | c2 dc \
+| "E7"cB Bc | d>c cB \
+|1 cc cd | cA \
+:|2 "A"A4- | "fine"A2 GA ||[K:E]
+|: "E"B2 B>c | BG Be \
+| g2 g>f | eB de \
+| "B7"f2 f>g | fd cd \
+|1 "E"e2 dc | "B7"BG Ac \
+:|2 "E"e2 e>f | "E7"e=d "d.C."|]

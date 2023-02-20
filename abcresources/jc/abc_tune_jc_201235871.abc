@@ -1,0 +1,33 @@
+X: 2142
+T: My Mither's aye glowren o'er me. a Jig.
+%R: jig, air
+B: Niel Gow & Sons "Complete Repository" v.2 p.14 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: The {g} grace note in bar 1 has a sharp in the book, an obvious error not repeated in later measures.
+N: (But you can play it that way if you like, and most people might not notice.)
+M: 6/8
+L: 1/8
+K: Gm
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 8-bar lines, for readability and proofreading.
+V: 1 staves=2
+D |\
+GAG {G}^F2D | BcB ABc | d>ed {d}Tc2B | Tf3 d2g |\
+fdB Bfd | Tc>AF Fdc | .B>AG AFD | B3 A2 :|
+e |\
+g>ag {g}^f2d | .g>ab a2g | fdb {d}c2B | Tf3 g>ab |\
+fdB Bfd | TcAF F>dc | TB>AG A>FD | TB3 A2d ||
+g>ag {g}^f2d | .g>ab a2g | fdb {d}c2B | Tf3 g>ab |\
+fdB Bfd | TcAF Fdc | B>AG AFD | TB3 A2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+g3 d3 | g3 a3 | b3 c'3 | d'3 e'3 |\
+d'3 b3 | f3 f3 | g3 d3 | G3 d2 :| z |\
+G3 A3 | B3 c3 | d3 e3 |
+d3 e3 | d3 B3 | f3 F3 | g3 d3 | G3 d3 ||\
+G3 A3 | B3 c3 | d3 e3 | d3 e3 |\
+d3 B3 | f3 F3 | g3 d3 | G3 d2 |]
+
+

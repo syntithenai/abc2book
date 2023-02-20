@@ -1,0 +1,13 @@
+X:56
+T:Turkey in the Straw
+M:2/4
+Q:1/4=100
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+f/e/|dd dF/G/|AA Ad/e/|ff f/e/d/e/|fe ef/e/|d/c/d/e/ dF/G/|A/B/A/F/ Ad/e/|fa a/f/d/e/|fe d::
+z|f/ a f/ aa|f/ a f/ a2|g/ b g/ bb|g/ b g/ b2|[dd'][dd'] aa|ff ed/e/|fa a/f/d/e/|f/d/e/c/ d:|

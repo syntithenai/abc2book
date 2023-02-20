@@ -1,0 +1,485 @@
+
+X: 1
+T: Aird Ranters
+R: strathspey
+M: 4/4
+L: 1/8
+K: Ador
+"A"[|]z |\
+"Am"e<a a>e "G"g<e d2 | "Am"e<a a>e "G"g2 e2 |\
+"Am"e<a a>e "G"g<e e>d | "Am"c<A "G"A>G "Am"c<A A :|
+"B"|: B |\
+"Am"c>A "G"B>d "Am"c<A A>B | "Am"c<A A>B c<A A>B |\
+"Am"c>A "G"B>d "Am"c<A A>B | "Am"c<A "G"A<G "Am"A2 A :|
+
+%%sep 1 1 500
+
+X: 2
+T: The Ale is Dear
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bm
+|:\
+"Bm"f2ef B2fe | "D"faef "A"cAAc |\
+"Bm"f2ef B2fe | "D"f/g/a "A"ec "Bm"B2Bc :|
+|:\
+"Bm"BBc d2cB | "A"AAAB cABc |\
+"G"BBBc d2cB | "F#"f2ec "Bm"B2B2 :|
+
+%%sep 1 1 500
+
+X: 3
+T: Auld Adam
+C:
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Amix
+cd "A"|\
+"A"e2e cAc | "A"efg "D"f2e | "A"c2c cAc | "A"edc "E"Bcd |\
+[1 "A"e2e cAc | "A"efg "D"f2e | "A"c2e "G"dcB | "A"A3 A2 :|
+[2 "A"c2A A2A | "D"dcd "E"e2a | "A"c2e "G"dcB | "A"A3 A2 \
+|: e "B"|\
+"A"A2A cBB | "A"cAc "D"efa | "A"c2c cAc | "A"edc "E"B2e |
+"A"A2A cBB | "A"cAc "D"efa | "A"c2e "G"dcB | A3 A2 :: g "C"|\
+"F#m"agf "Em"gfe | "D"fed "A"e3 | "A"Ace efg |"G"B<GB dcB |
+[1 "D"agf "Em"gfe | "Bm"fed "A"e2a | c2e "G"dcB | "A"A3 A2 :|\
+[2 "A"A2A cBB | "A"cAc "D"efa | "A"c2e "G"dcB | "A"A3 A2 |]
+
+%%sep 1 1 500
+
+X: 4
+T: Ben Williams (of Tiree)
+R: strathspey
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Amix
+[|\
+"A"c>d e<c "D"d2 c>d | "A"e>a g<e "D"d2 c>d |\
+"A"e2 A2 A>B c<d | "G"G4 G>A B<G |\
+"A"A2 c<A "Bm"d2 c>d | "A"e>a g<e "D"d2 c>d |
+"A"e2 A2 "G"B>A G<B | "A"A4 A4 |]|\
+"A"A>B c<A "G"B4 | "A"c>d e<c "D"d2 c>d |\
+"A"e>a g<e "D"d2c>d |
+"G"G4 G>A B<G |\
+"A"A>c c<A "D"d2 c>d | "A"e>a g<e "D"d2 c>d |\
+"A"e2 A2 "G"B>A G<B | "A"A4 A4 |]
+
+%%sep 1 1 500
+
+X: 5
+T: Calliope House   [D]
+C: Dave Richardson
+N: Calliope House is a folk center in Pittsburgh.
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"dAA fAA | "A7"eAA "D"fAA | "Em"Bee e2d | "A"efd BdB || "D"ABA A2F | A2B d2e |
+|1 "G"faf fed | "A7"e3- ez :|2 "G"faf "A7"edB | "D"d3- d |: fg | "D"a3 faa | "A7"eaa "D"faf | "G"g3 fgf |
+| "A7"efd BdB || "D"ABA A2F | A2B d2e |1 "G"faf fed | "A7"e3- e :|2 "G"faf "A7"edB | "D"d3- dz |]
+
+%%sep 1 1 500
+
+X: 6
+T: Campsie Glen
+R: strathspey
+%R:strathspey
+B: James Kerr "Merry Melodies" v.3 p.14 #111
+Z: 2016 John Chambers <jc:trillian.mit.edu> (chords added 2017 by John Chambers, from an image from Stephen Thomforde)
+N: The 2nd strain has final repeat but no initial repeat; fixed.
+M: C
+L: 1/8
+K: A
+uE |\
+"A"C<E E>A "D"F>A "A"E2 | C<E E>F A>B (c<e) |\
+"A"C<E E>A "D"F>A "A"E>c | "E7"(3dcB "A"(3cBA "E7"G<B B :: d |\
+"A"c<e "E7"ef/g/ "A"a>e c2 |
+"A"c<e "E7"ef/g/ "A"a>e "D"f<a |\
+[1 "A"c<e "E7"ef/g/ "A"a>e c2 | "E7"(3dcB "A"(3cBA "E7"G<B B :|\
+[2 "A"e<c a>g "D"f>e d>c | "E7"(3dcB "A"(3cBA "E7"G<B B |]
+
+%%sep 1 1 500
+
+X: 7
+T: Emi's Jig
+C: Aron Garceau
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+"A"|:\
+"D"fga "G"g2f | "A7"efg "D"f2e | "D"cdf "A"edc | "G"dcB "A"AAA |\
+"D"fga "G"g2f | "A7"efg "D"f2e | "A7"cde   ABc | "D"dfe    d3 :|
+"B"|:\
+"D"fdd     dfd | "G"gdd    dgd | "D"add    dad | "A7"aaa afg |\
+"D"agf "Em"gfe | "D"fed "A"edc | "G"dcB "A"ABc |  "D"dfe d3 :|
+
+%%sep 1 1 500
+
+X: 8
+T: The Glen Where the Deer Is
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|:\
+"D"d2ag fefg | "D"ad d/d/d "A"cdef |\
+"D"d2ag fefg | G2ed "A"cA A/A/A :|
+|:\
+"D"fd d/d/d "A"geeg | "D"fd d/d/d "A"cAAg |\
+"D"fd d/d/d "A"geeg | "D"fded "A"cA A/A/A :|
+
+%%sep 1 1 500
+
+X: 9
+T: The Gown and Apron
+S: smallpipes set from Stephen Thomforde
+R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Amix
+|:\
+"A"c2e ece | ece ge2 | "D"fdd add | f3 fed |\
+"A"c2e ece | ece ge2 | "D"fdd fgf |1 "Em"e2d cAA :|2 "Em"eed cde ||
+|:\
+"A"a3 c2a | ccc g2e | "A"a3 "D"d2a | "Em"e2d cAA |\
+"A"a3 c2a | ccc g2e | "D"fdd fgf |1 "Em"e2d cde :|2 "Em"e2d "Am"cAA |]
+
+%%sep 1 1 500
+
+X: 10
+T: Itchy Fingers
+C: P.M. Rab Pinkman
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Amix
+"A"[|] cd |\
+   "A"e2ef "A/C#" eAce | "D"fAdf "E7"e2cd | "A"e2ef "F#m"eAce | "Bm"cAdc "E"B2cd |
+   "A"e2ef "A7/C#"eAce | "D"fAdf "A/C#"e2cd | "Bm"dccB "E7"BfeB | "A"c2"E7"A2 A2 :|
+"B"|: ce |\
+   "A"a2Aa "A7/C#"caAa | "D"fadf "E7" e2ce | "A"a2Aa "F#m"caAa | "Bm"cAdc "E"B2ce |
+[1 "A"a2Aa "A7/C#"caAa | "D"fadf "A/E"e2ce | "Bm/F#"dccB "E7/G#"BfeB | "A"c2"E7"A2 A2 :|
+[2 "A"e2ef "A7/C#"eAce | "D"fdaf "A/E"e2ce | "Bm/F#"dccB "E7/G#"BfeB | "A"c2A2 A2 |]
+
+%%sep 1 1 500
+
+X: 11
+T: Johnny's Jig
+C: John McCusker
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+dB ||\
+"D"Add cdA- | Add cdA | "G"dB/c/d ede | "A"f2f edB ||\
+"D"Add cdA- | Add cdA | "G"dB/c/d efg | "A7"fdc "D"d :|
+ef ||\
+"G"gBB BAG | "D"ABA f2f | "A7"gAA cBc | "D"edd def ||\
+"G"gBB BAG | "D"ABA f2f | "A7"gAA cBc | "D"edd d |]
+ef ||\
+"G"gBB BAG | "D"ABA f2f | "A7"gAA cBc | "D"edd dcA ||\
+"G"BB/B/B BAG | "D"ABA f2f | "A7"gAA cBc | edd "D"d3 |]
+
+%%sep 1 1 500
+
+X: 12
+T: Johnny's Jig
+C: John McCusker
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+"A"|:\
+"D"Add cdA- | Add cdA |\
+[1,3 "G"dB/c/d ede | "A"f2f edB :|\
+[2   "G"dB/c/d efg | "A7"fdc "D"d3 :|
+[4   "G"dB/c/d efg | "A7"fdc "D"def |]\
+"B"|:\
+"G"gBB BAG | "D"ABA f2f |\
+"A7"gAA cBc |[1 "D"edd def :|
+[2 "D"edd def :|[3 "D"edd dcA :|\
+"G"BB/B/B BAG | "D"ABA f2f |\
+"A7"gAA cBc | edd "D"d3 |]
+
+%%sep 1 1 500
+
+X: 13
+T: Johnny's Jig
+C: John McCusker
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|:\
+"D"Add cdA- | Add cdA |\
+"G"dB/c/d ede | "A"f2f edB |\
+"D"Add cdA- | Add cdA |
+"G"dB/c/d efg | "A7"fdc [1 "D"d3 :|2 "D"def ||\
+"G"gBB BAG | "D"ABA f2f |\
+"A7"gAA cBc | "D"edd def |
+"G"gBB BAG | "D"ABA f2f |\
+"A7"gAA cBc | "D"edd def |]\
+"G"gBB BAG | "D"ABA f2f |
+"A7"gAA cBc | "D"edd dcA |\
+"G"BB/B/B BAG | "D"ABA f2f |\
+"A7"gAA cBc | edd "D"d3 |]
+
+%%sep 1 1 500
+
+X: 14
+T: Loic Denis'
+R: strathspey
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Amix
+"A"|:\
+"Em"B<e e>f e<d B>A | "G"B<d d>e "A"d<B A2 |\
+"Em"B<e e>f e<d B>A | "G"B>d f<d "A"e2 e>f :|
+"B"[|]\
+"A"e<f a>f "D"f<e d2 | "Em"f<e e>f "Bm"e>d B2 |\
+"A"e<f a>f "Bm"f<e d>B | "G"d>e f>d "A"e2 e>f ||
+"F#m"e<f a>f "Bm"f<e d2 | "Em"f<e e>f "A"e<d B>A |\
+"D"f<a "A"e<f "Bm"d<e B>A | "G"B>d f<d "A"e2 e2 |]
+
+%%sep 1 1 500
+
+X: 15
+T: Maid of Black
+R: strathspey
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+"A"[|] B |\
+"D"A2 A>B A>B d>e | "D"f>A "A"e>A "D"f>d "G"B<d |\
+"D"A2 A>B A>B d>e | "D"f>d a>f "A"e2 "D"d :|
+"B"[|] e |\
+"D"f>e d>e f>g a>f | "A"e>d B<d e>f g>e |\
+"D"f>e d>e f>g a>f | "Em"g>e "D"a>f "A"e2 d ||
+e |\
+"D"f>e d>e "Bm"f>g a>f | "Em"e>d B<d "A"e>f g>e |\
+"D"f>a "A"e>f "D"d>f "Bm"B<d | "D"A>d "D"a>f "A"e2 "D"d |]
+
+%%sep 1 1 500
+
+X: 16
+T: My Kindly Sweetheart
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bm
+|:\
+"Bm"B2d2 cBBc | "Bm"B2d2 "A"feef |\
+"Bm"B2d2 cBBc | "A"cAAc fee2 :|
+|:\
+"D"d2fe "G"dBAB | "D"d2a2 "A"feef |\
+"D"d2fe "G"dBAd | "A"cAAc feef :|
+
+%%sep 1 1 500
+
+X: 17
+T: Nelson Mandela's
+C:
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+"A"[|] c |\
+"D"ddd def | AAA BAA | "D"ABd "G"dBA | "D"ABd "A"e2c |\
+"D"ddd def | AAA BAA | "D"ABd edB | "A"ABd "D"d2 :|
+"B"|: e |\
+"D"faa fed | "G"efe dBA | "D"ABd dBA | "A"ABd e2g |\
+"D"faa fed | "G"efe dBA | "D"ABd edB | "A"ABd "D"d2 :|
+"C"|: e |\
+"D"fff f<ad | fff f<aA | "G"ABd dBA | "A"ABd e2e |\
+"D"fff f<ad | fff f<aA | "G"ABd edB | "A"ABd "D"d2 :|
+"D"|: e |\
+"D"fdd aAf | AfA aAf | "G"ABd dBA | "A"ABd e2e |\
+"D"fdd aAf | AfA aAf | "G"ABd edB | "A"ABd "D"d2 :|
+"E"|:\
+e>d |\
+"A"c2A ABA | "D"dcd "E"e3 | "A"Ace efg | "G"B<GB dcB |\
+"A"c2A ABA | "D"dcd "E"e2a | "A"c2e "G"dcB | "A"A3 A2 :|
+
+%%sep 1 1 500
+
+X: 18
+T: Nelson Mandela's jig
+S: smallpipes set from Stephen Thomforde
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+"A"[|] c |\
+"D"ddd def | AAA BAA | "D"ABd "G"dBA | "D"ABd "A"e2c |\
+"D"ddd def | AAA BAA | "D"ABd edB | "A"ABd "D"d2 :|
+"B"|: e |\
+"D"faa fed | "G"efe dBA | "D"ABd dBA | "A"ABd e2g |\
+"D"faa fed | "G"efe dBA | "D"ABd edB | "A"ABd "D"d2 :|
+"C"|: e |\
+"D"fff f<ad | fff f<aA | "G"ABd dBA | "A"ABd e2e |\
+"D"fff f<ad | fff f<aA | "G"ABd edB | "A"ABd "D"d2 :|
+"D"|: e |\
+"D"fdd aAf | AfA aAf | "G"ABd dBA | "A"ABd e2e |\
+"D"fdd aAf | AfA aAf | "G"ABd edB | "A"ABd "D"d2 :|
+"E"|:\
+e>d |\
+"A"c2A ABA | "D"dcd "E"e3 | "A"Ace efg | "G"B<GB dcB |\
+"A"c2A ABA | "D"dcd "E"e2a | "A"c2e "G"dcB | "A"A3 A2 :|
+
+%%sep 1 1 500
+
+X: 19
+T: Out of the Air
+C: M. Blair
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Amix
+z "A"|\
+"A"A2e edB | dee edB | "G"Gdd dBd  | edB deg |\
+"A"A2e edB | dee edB | "G"GdB dee  | edB "A"A2 :|
+e "B1"|\
+"A"a2e edB | dee edB | "G"Gdd dBd | edB deg |\
+"A"a2e edB | dee edB | "G"GdB dee  | edB "A"A2 |]
+e "B2"|\
+"A"a2e edB | dee edB | "G"Gdd dBd | edB deg |\
+"A"A2e edB | dee edB | "G"GdB dee  | edB "A"A2 |]
+
+%%sep 1 1 500
+
+X: 20
+T: The Rector at the Feis
+C: Ryan J. MacNeil
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Amix
+"A"[|]ef |\
+"G"g2gf gedB | g2gf gedB | "A"eaag aged | cded cA A/A/A |
+"G"g2gf gedB | g2gf gedB | "A"eaag aged | c2A2 A2 :|
+"B"[|] AB |:\
+"A"c2A2 A2eA | cdeA cdeA | "G"g2d2 d2fd | "D"adgd fdcd |
+"A"c2A2 A2eA | cdeA cdeA | "G"g2gf gedB |1 "E"deBd "A"cAAA :|2 "E"deBd "A"cA |]
+
+%%sep 1 1 500
+
+X: 21
+T: Sandy's New Chanter
+C: P.M. Rab Pinkman
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+"A"[|] A2 |:\
+"D"f2ef "D/F#"fAef | "G"g2eg "A7"B2Bg | "D"fAdf "Bm"faga | "Em7"eAce "A7"eage |
+"D"f2ef "D/F#"fAef | "G"g2fg "A7/E"B2Bg | "D"fAdf "A"eAce | "D"d4 d2A2 :|
+"B"|:\
+"D"a2fa "D/F#"dffA | "G"g2fg "A7"B2Bg | "D"fAdf "B/D#"faga | "E7"eAce "A7"eage |
+"D"a2fa "D7/C"dffA | "G/B"g2fg "Gm/Bb"B2Bg | "D/A"fAdf "A/G"eAce | "D/F#"d4 "A7/E"d2Ad :|
+"C"|:\
+"D"fA A/A/A AffA | "G/D"g2f<g gAdg | "D"fA A/A/A faga | "Em7/D"eAce "A7/D"eage |
+"D"fA A/A/A AffA | "G/D"gBdg Bdge | "D"fAdf "A7/E"eAce | "D/F#"d4 "A7/E"d2A2 :|
+"D"|:\
+"D"a2a2 "D/F#"fgaf | "G"fBdg "A7"Bdge | "D"fA A/A/A "Bm"faga | "Em"eAce "A7"eage |
+"D"a2a2 "D/F#"fgaf | "G"fBdg "A7/E"Bdge | "D"fAdf "A"eAce | "D"d4 d2A2 :|
+
+%%sep 1 1 500
+
+X: 22
+T: Seonaidh's
+R: strathspey
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+S: smallpipes set from Stephen Thomforde
+M: C
+L: 1/8
+K: D
+|:\
+"D"d>e f>g f<ef2 | "(Bm)"d>e f>g f<d "A(Em)"e2 |\
+"Em"B<e g>f e<d c>B | "A"A>c e>g [1 "D"f2 f>e :|[2 "D"f<d d |]
+f |:\
+"D"a2 a>g f<e f2 | "(Bm)"f>g a>g f<d "A(Em)"e2 |\
+"Em"B<e g>f e<d c>B | "A"A>c e>g [1 "D"f2 f>g :|[2 "D"f<d d2 |]
+
+%%sep 1 1 500
+
+X: 23
+T: The Soup Dragon   [Bm,D]
+C: Gordon Duncan
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu> from Stephen Thomforde's copy
+F: https://www.youtube.com/watch?v=Mb21k-Vuv6Q
+M: 6/8
+L: 1/8
+P: A2 A2 B1 B2
+K: Bm
+"^A"|:\
+e |"Bm"fBB BAB | "D"eff fed | "Em"eee e2d | "A"eff    ede |\
+[2 "Bm"fBB BAB | "D"eff fed |  "A"eee f2e |    dBA "Bm"B2 :|
+"^B"|:\
+e | "D"faa afd |    eff fed |  "A"eee e2d |    eff    ede |\
+[1 "D"faa afd |    eff fed |  "A"eee f2e |    dBA "Bm"B2 :|
+
+%%sep 1 1 500
+
+X: 24
+T: The Soup Dragon
+C: Gordon Duncan
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu> from Stephen Thomforde's copy
+F: https://www.youtube.com/watch?v=Mb21k-Vuv6Q
+M: 6/8
+L: 1/8
+K: Bm
+|: e |\
+"Bm"fBB BAB | "D"eff fed | "Em"eee e2d | "A"eff ede |\
+"Bm"fBB BAB | "D"eff fed | "A"eee f2e | dBA "Bm"B2 :|
+e |\
+"D"faa afd | eff fed | "A"eee e2 d | eff ede |\
+"Bm"faa afd | eff fed | "A"eee f2e | dBA "Bm"B2  ||
+e |\
+"D"faa afd | eff fed | "A"eee e2 d | eff ede |\
+"Bm"fBB BAB | "G"eff fed | "A"eee f2e | dBA "Bm"B2 |]
+
+%%sep 1 1 500
+
+X: 25
+T: Tail Toddle
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|:\
+"D"d2fd "G"g2fe | "D"d2fd "A7"e2cA |\
+"D"d2fd "G"g2fe | "D"f{g}a gf "A7"e2 cA :|
+|:\
+"G"g2dB B2dB | g2dB "A7"e2cA |\
+"G"g2dB B2dB | "A"A2af e2cA :|
+
+%%sep 1 1 500
+
+X: 26
+T: (Small) Pipes Music Collection
+K:

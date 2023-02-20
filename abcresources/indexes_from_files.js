@@ -91,11 +91,20 @@ const cyrb53 = function(str, seed = 0) {
 var index = {tokens: {}, lookups: {}}
 var files = []
 var count = 0
-var limit = 50000000
+var limit = 500000000000
 var seenNotesHash = {}
 var duplicates = {}
+var toMove = {}
+var noMove = {}
+
 
 function processFile(filename, dir,folderIndex,folderKey, forceDups = false) {
+        try {
+            fs.mkdir(dir+"duplicates", function (err) {
+              //if (err) throw err
+              //console.log('Successfully created ' + dir + "duplicates")
+            })
+        } catch (e) {}
         var parts = filename.split(".")
         var parts2 = parts[0].split('_')
         var id = parts2[parts2.length - 1]
@@ -103,8 +112,10 @@ function processFile(filename, dir,folderIndex,folderKey, forceDups = false) {
           const data = fs.readFileSync(dir + filename, 'utf8')
           var tunebook = tools.abc2Tunebook(data)
           //console.log(tunebook)
+          var allDups = true
           tunebook.forEach(function(tune,tuneKey) {
             var title = tools.stripText(tune.name) //innerParts[0].trim()
+            //console.log(tuneKey,filename,title)
             if (title && title.toLowerCase().trim().endsWith(", the")) {
                 title = "The "+title.slice(0,-5)
                 //console.log('HACK TITLE',title)
@@ -130,6 +141,7 @@ function processFile(filename, dir,folderIndex,folderKey, forceDups = false) {
             var hash = cyrb53(notes)
             //console.log(title,notes)
             if ((forceDups || !seenNotesHash[hash]) && title && title.length > 0 && id && id.length > 0) {
+                allDups = false
                 seenNotesHash[hash] = true
                 var tk = folderIndex+'-'+id + "-" + tuneKey
                 index.lookups[tk] = title
@@ -164,9 +176,22 @@ function processFile(filename, dir,folderIndex,folderKey, forceDups = false) {
                 })
                 pushSetting(stripText(title), tk)
              } else {
-                 duplicates[dir+"-"+title] = duplicates[dir+"-"+title] > 0 ? duplicates[dir+"-"+title] + 1 : 1
+                 duplicates[dir+filename] = duplicates[dir+filename] > 0 ? duplicates[dir+filename] + 1 : 1
              }
+             
           })
+          if (duplicates[dir+filename] > 0) {
+                if (allDups) {
+                    toMove[dir+filename]  = 1
+                    console.log('Try  move ',dir+filename, ' to ', dir+"duplicates/"+filename)
+                    fs.rename(dir+filename, dir+"duplicates/"+filename, function (err) {
+                      if (err) throw err
+                      console.log('Successfully moved!',dir+filename, dir+"duplicates/"+filename)
+                    })
+                } else {
+                    noMove[dir+filename]  = 1
+                }
+          }
         } catch (err) {
           console.error(err)
         }
@@ -271,9 +296,28 @@ for (var filenameKey in fileNames)  {
 };
 
 
+
+var folderKey = 'jc'
+var folderIndex = 6
+var dir = __dirname+'/'+folderKey+'/'
+var fileNames = fs.readdirSync(dir)
+for (var filenameKey in fileNames)  {
+    var filename = fileNames[filenameKey]
+    //console.log('filename', filename)
+    if (filename.startsWith('abc_tune_')) {
+        processFile(filename,dir,folderIndex,folderKey)
+    }
+    count++
+    if (count > limit) break;
+
+//if (isFile) files.push({ filepath, name, ext, stat });
+};
+console.log("MOVE",toMove)
+console.log("NO MOVE",noMove)
+
 index.settings = settings
 
 fs.writeFileSync(__dirname.split("/").slice(0,-1).join("/") + "/textsearch_index.json"  , JSON.stringify(index));
 
 //console.log('index', index.tokens)
-console.log("duplicates",duplicates)
+//console.log("duplicates",duplicates)

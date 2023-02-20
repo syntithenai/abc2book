@@ -1,0 +1,25 @@
+X: 5
+T: Polystons Hornpipe
+%R: triple hornpipe
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.2,3 #5
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The grace note in bar 9 (c) was probably a typo; fixed.
+M: 3/2
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+|:\
+f4 (egfe) d4 | f2a2 e2g2 {g}f2(ed) |\
+c2e2 B2d2 c2e2 | A2 d4 f2 {f}Te2d2 ::\
+f2a2 g2b2 f2a2 | e2g2 {g}f2(ed) c2e2 |
+B2A2 G2F2 (EGFE) | A2 d4 f2 {f}Te2d2 ::\
+d'2f2 e2d'2 {d'}c'2ba | d'2f2 (gf)(ed) c2e2 |\
+d2A2 e2A2 (egfe) | d2 D4 F2 TE2D2 :|
+|:\
+d'agf efge fgab | agfe dfed cdef |\
+gfed cdcB (AG).F.E | D2 d4 f2 {f}Te2d2 :|
+|:\
+(f/d/A3) (f/d/A3) (f/d/A3) | {d}Tc2 e4 f2 (gfed) |\
+(cd)(Bc) (AB)(GA) (FG)(EF) | D2 d4 f2 {f}e2d2 :|

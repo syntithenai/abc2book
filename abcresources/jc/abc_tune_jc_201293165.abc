@@ -1,0 +1,917 @@
+X: 1
+T: Angus McLeod of Achgarve
+C: Jimmy Shand
+R: jig
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+e2 \
+| "A"A>AA c2a | {fg}f>eA {cd}c2B | {e}A<af {ef}e>cA | "G"{Bc}B<=Ge {de}d>GB |
+|  "A"A>AA c2a | {fg}f>eA {de}c2{e}A | "G"{Bc}B<=Ge {de}d>GB | "A"{efe}A3 {AB}A2 :|
+|: cd \
+| "A"{ef}e2a a2f | "A"{efe}f>eA {cd}c2a | {a}A>ca {fg}f>eA | "G"B<=Ge {de}d>GB |
+|1 "A"{fg}A2a {ab}a2f | "A"{fgf}f>eA {efe}c2A | "G"B<=Ge {de}d>GB | "A"{efe}A3 {AB}A2 :|
+|2 "A"A>AA c2a | {fg}f>eA {de}c2{e}A | "G"{Bc}B<=Ge {de}d>GB | "A"{efe}A3 {AB}A2 :|
+|: e2 \
+| "A"A>ca A>cf | {f}A>ca {cd}c>BA | "A"{ga}A<af {ef}e>cA | "G"{ef}B<=Ge {de}d>GB |
+| "A"{ga}A>ca A>cf | A>ca {cd}c>BA | "G"B<=Ge {de}d>GB | "A"{ga}A3 A2 :|
+|: cd \
+| "A"e2a A>ca | "D"{de}d>fa "A"{cd}c2a | "A"{ef}e2a A>ca | "G"B<=Ge {de}d>GB |
+|1 "A"{ef}e2a A>{d}ca | "D"{dc}d>fa "A"{cd}c2a | "G"B<=Ge {de}d>GB | "A"{Bc}A3 {AB}A2 :|
+|2 "A"{ga}A>ca A>cf | "A"{cB}A>ca {cd}c>BA | "G"B<=Ge {de}d>GB | "A"{ga}A3 {AB}A2 :
+
+%%sep 1 1 500
+
+X: 1
+T: Angus McLeod of Achgarve
+C: Jimmy Shand
+R: jig
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+e2 \
+| "A"A>AA c2a | {fg}f>eA {cd}c2B | {e}A<af {ef}e>cA | "G"{Bc}B<=Ge {de}d>GB |
+|  "A"A>AA c2a | {fg}f>eA {de}c2{e}A | "G"{Bc}B<=Ge {de}d>GB | "A"{efe}A3 {AB}A2 :|
+|: cd \
+| "A"{ef}e2a a2f | "A"{efe}f>eA {cd}c2a | {a}A>ca {fg}f>eA | "G"B<=Ge {de}d>GB |
+|1 "A"{fg}A2a {ab}a2f | "A"{fgf}f>eA {efe}c2A | "G"B<=Ge {de}d>GB | "A"{efe}A3 {AB}A2 :|
+|2 "A"A>AA c2a | {fg}f>eA {de}c2{e}A | "G"{Bc}B<=Ge {de}d>GB | "A"{efe}A3 {AB}A2 :|
+|: e2 \
+| "A"A>ca A>cf | {f}A>ca {cd}c>BA | "A"{ga}A<af {ef}e>cA | "G"{ef}B<=Ge {de}d>GB |
+| "A"{ga}A>ca A>cf | A>ca {cd}c>BA | "G"B<=Ge {de}d>GB | "A"{ga}A3 A2 :|
+|: cd \
+| "A"e2a A>ca | "D"{de}d>fa "A"{cd}c2a | "A"{ef}e2a A>ca | "G"B<=Ge {de}d>GB |
+|1 "A"{ef}e2a A>{d}ca | "D"{dc}d>fa "A"{cd}c2a | "G"B<=Ge {de}d>GB | "A"{Bc}A3 {AB}A2 :|
+|2 "A"{ga}A>ca A>cf | "A"{cB}A>ca {cd}c>BA | "G"B<=Ge {de}d>GB | "A"{ga}A3 {AB}A2 :
+
+%%sep 1 1 500
+
+X: 1
+T: Audrey Hinchliffe
+C: Jimmy Shand
+R: strathspey
+M: 4/4
+L: 1/8
+K: D
+A \
+| "D"d2 c>d "(Bm)"(3Bcd A>F | "Em"G<E E>F "A7"G<E E>A \
+| "D"d2 c>d "(Bm)"(3Bcd A>F | "Em"(3GAB "A7"A>G "D"F<D D :|
+G \
+| "D"F<D D>G F>D A>F | "Em"G<E E>F "A7"G<E E>G \
+| "D"F<D D>G F>D A>F | "Em"(3EFG F>E "Bm"D<B, B,>g |
+| "D"f<d d>g f>d a>f | "Em"g<e e>f "A7"g<e e>g \
+| "D"f<d d>g f>d a>f | "A7"(3EFG (3ABc "D"d3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Audrey Hinchliffe
+C: Jimmy Shand
+R: strathspey
+M: 4/4
+L: 1/8
+K: D
+A \
+| "D"d2 c>d "(Bm)"(3Bcd A>F | "Em"G<E E>F "A7"G<E E>A \
+| "D"d2 c>d "(Bm)"(3Bcd A>F | "Em"(3GAB "A7"A>G "D"F<D D :|
+G \
+| "D"F<D D>G F>D A>F | "Em"G<E E>F "A7"G<E E>G \
+| "D"F<D D>G F>D A>F | "Em"(3EFG F>E "Bm"D<B, B,>g |
+| "D"f<d d>g f>d a>f | "Em"g<e e>f "A7"g<e e>g \
+| "D"f<d d>g f>d a>f | "A7"(3EFG (3ABc "D"d3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: The Claverhouse Reel
+C: Jimmy Shand
+R: reel
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|: D \
+| "G"G2GA B2Bc | dedc BcBA | "Em"G2GA "G"BAGB | d2B2 B2g2 |
+| "G"G2GA BGBd | "C"edcB AGFE | "D"DEFG AB"D7"cA | "G"B2G2G2 :|
+|: d2 \
+| "G"g2gd BGBd | "C"edcB "D7"A2d2 | "G"g2gd BGBd | B2d2d2 (3def |
+| "G"g2gd BGBd | "C"edcB AGFE | "D"DEFG "D7"ABcA | "G"B2G2G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: The Claverhouse Reel
+C: Jimmy Shand
+R: reel
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|: D \
+| "G"G2GA B2Bc | dedc BcBA | "Em"G2GA "G"BAGB | d2B2 B2g2 |
+| "G"G2GA BGBd | "C"edcB AGFE | "D"DEFG AB"D7"cA | "G"B2G2G2 :|
+|: d2 \
+| "G"g2gd BGBd | "C"edcB "D7"A2d2 | "G"g2gd BGBd | B2d2d2 (3def |
+| "G"g2gd BGBd | "C"edcB AGFE | "D"DEFG "D7"ABcA | "G"B2G2G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: David Anderson Shand
+C: Jimmy Shand
+R: march
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+e2 \
+| "A"A2A>B c>Bc>d | e2A2 f>ed>c |    e2A2     f>ed>c | "G"d2=G>B e>dB>G |
+| "A"A2A>B c>Bc>d | e2A2 f>ed>c | "G"d>=GB>=g d>Be>B | "A"c2A2   A2 :|
+|: e2 \
+| "A"a3e c2e2 | e>Ac>f f>ed>c | "G"=g3d     B2d2   |    d>=GB>e e>dB>G |
+| "A"a3e c2e2 | e>Ac>f f>ed>c | "G"d>=GB>=g d>Be>B | "A"c2A2    A2 :|
+|: e2 \
+| "A"A>AA>c e>Ac>A | e>Ac>f f>ec>=g | "G"=G>G>B   d>GB>G |    d>=GB>e e>dB>G |
+| "A"A>AA>c e>Ac>A | e>Ac>f f>ed>c  | "G"d>=GB>=g d>Be>B | "A"c2A2    A2 :|
+|: e2 \
+| "A"a>^ga>f e>ac>a | (3AAA ce f>ec>e | "G"=g>fg>e  d>gB>g | (3=GGG Bd e>dB>d |
+| "A"a>^ga>f e>ac>a | (3AAA ce f>ec>e | "G"d>=GB>=g d>Be>B | "A"c2A2   A2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: David Anderson Shand
+C: Jimmy Shand
+R: march
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+e2 \
+| "A"A2A>B c>Bc>d | e2A2 f>ed>c |    e2A2     f>ed>c | "G"d2=G>B e>dB>G |
+| "A"A2A>B c>Bc>d | e2A2 f>ed>c | "G"d>=GB>=g d>Be>B | "A"c2A2   A2 :|
+|: e2 \
+| "A"a3e c2e2 | e>Ac>f f>ed>c | "G"=g3d     B2d2   |    d>=GB>e e>dB>G |
+| "A"a3e c2e2 | e>Ac>f f>ed>c | "G"d>=GB>=g d>Be>B | "A"c2A2    A2 :|
+|: e2 \
+| "A"A>AA>c e>Ac>A | e>Ac>f f>ec>=g | "G"=G>G>B   d>GB>G |    d>=GB>e e>dB>G |
+| "A"A>AA>c e>Ac>A | e>Ac>f f>ed>c  | "G"d>=GB>=g d>Be>B | "A"c2A2    A2 :|
+|: e2 \
+| "A"a>^ga>f e>ac>a | (3AAA ce f>ec>e | "G"=g>fg>e  d>gB>g | (3=GGG Bd e>dB>d |
+| "A"a>^ga>f e>ac>a | (3AAA ce f>ec>e | "G"d>=GB>=g d>Be>B | "A"c2A2   A2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Jean Ireland
+C: Jimmy Shand
+R: jig
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: c/B/ \
+| "A"A>EE "D"A>FF | "A"A>EE E>AB | c>ff ecA | "E7"c>BB BcB \
+| "A"A>EE "D"F>DD | "A"E>FE EAB | cef "E7"ecB | "A"cAA A2 :|
+f/g/ \
+| "A"aAA "D"fAA | "A"efe "E7"efg | "A"aAA "D"fAA | "A"edc "E"B2A \
+| "A"aAA "D"fAA | "A"efe "E7"efg | "A"aec "E7"BAB | "A"cAA Afg ||
+|| "A"aAA "D"fAA | "A"efe "E7"efg | "A"aAA "D"fed | "A"cBA "E7"B2c \
+| "A"A>EE "D"A>FF | "A"A>EE EAB | cef "E7"ecB | "A"cAA A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Jean Ireland
+C: Jimmy Shand
+R: jig
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: c/B/ \
+| "A"A>EE "D"A>FF | "A"A>EE E>AB | c>ff ecA | "E7"c>BB BcB \
+| "A"A>EE "D"F>DD | "A"E>FE EAB | cef "E7"ecB | "A"cAA A2 :|
+f/g/ \
+| "A"aAA "D"fAA | "A"efe "E7"efg | "A"aAA "D"fAA | "A"edc "E"B2A \
+| "A"aAA "D"fAA | "A"efe "E7"efg | "A"aec "E7"BAB | "A"cAA Afg ||
+|| "A"aAA "D"fAA | "A"efe "E7"efg | "A"aAA "D"fed | "A"cBA "E7"B2c \
+| "A"A>EE "D"A>FF | "A"A>EE EAB | cef "E7"ecB | "A"cAA A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Jimmy Shand Polka
+C: Jimmy Shand
+R: polka
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+(3EF^F \
+| "C"G>^FG>A G>=FE>G | e2e2c3G | "G7"B2B2f3A | "C"G2G2e2 (3EF^F |
+| "C"G>^FG>A G>=FE>G | e2e2c3e | "G"d>g^f>e d>c"D7"B>A | "G7"(3BBB Bd f (3EF^F |
+| "C"G>^FG>A G>=FE>G | e2e2c3G | "G7"B2B2f3A | "C"G2G2e3G |
+| "F"A>^GA>B d>cB>A | "C"e2e2G3c | "G7"B2f2 A3B | "C"c2c2c2 (3Bc^c ||[K:G]
+| "G"d^cd>e d>BG>E | D>^CD>E D2(3B,C^C | D>G,B,>D G>B,D>G | "Am"(3FGF E>^D E4 |
+| "Am"(3efe ^d>f e>=dc>B | A>^GA>B A>=GF>E | "D7"(3DDD F>D D>CA,>^A, | "G"B,2"Gdim"[E2_B,2]"G"[D2=B,2] (3Bc^c |
+| "G"d^cd>e d>BG>E | D>^CD>E D2(3B,C^C | D>G,B,>D G>B,D>G | "Am"(3FGF E>^D E2(3EEE  |
+| "Am"E>cB>A d>^ce>d | c>BA>G B>AG>E | "D7"D>Fc>D B>DA>D | "G"(3GGG (3GBd g2 "G7"E=F^F ||[K:C]
+| "C"G>^FG>A G>=FE>G | e2e2c3G | "G7"B2B2f3A | "C"G2G2e2 (3EF^F |
+| "C"G>^FG>A G>=FE>G |  e2e2c3e | "G"d>g^f>e d>c"D7"B>A | "G7"(3BBB Bd f (3EF^F |
+| "C"G>^FG>A G>=FE>G | e2e2c3G | "G7"B2B2f3A | "C"G2G2e3G |
+| "F"A>^GA>B d>cB>A | "C"e2e2G3c | "G7"B2f2 A3B | "C"c2c2c2 "C7"(3cB_B ||[K:F]
+| "F"A2A>c F2F>A | (3CDE (3FG^G A2(3AB=B | c2F2 A2d2 | "Gm"(3cdc B>A B3A |
+| "C7"G2G>B E2E>G | (3CD^D (3EF^F G2G>A | B2G2 e2d2 | "F Fdim"[d4^G4] "F"[c2A2](3c=B_B |
+| "F"A2A>c F2F>A | (3CDE (3FG^G A2(3AB=B | c2F2 "F7"f2e2 | "Bb"d3c B2GA |
+| "C7"B2G2 e3d | "F"c2f2A2 Fc | "C7"B2E2 A3G | "F"F2F2F2z2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Jimmy Shand Polka
+C: Jimmy Shand
+R: polka
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+(3EF^F \
+| "C"G>^FG>A G>=FE>G | e2e2c3G | "G7"B2B2f3A | "C"G2G2e2 (3EF^F |
+| "C"G>^FG>A G>=FE>G | e2e2c3e | "G"d>g^f>e d>c"D7"B>A | "G7"(3BBB Bd f (3EF^F |
+| "C"G>^FG>A G>=FE>G | e2e2c3G | "G7"B2B2f3A | "C"G2G2e3G |
+| "F"A>^GA>B d>cB>A | "C"e2e2G3c | "G7"B2f2 A3B | "C"c2c2c2 (3Bc^c ||[K:G]
+| "G"d^cd>e d>BG>E | D>^CD>E D2(3B,C^C | D>G,B,>D G>B,D>G | "Am"(3FGF E>^D E4 |
+| "Am"(3efe ^d>f e>=dc>B | A>^GA>B A>=GF>E | "D7"(3DDD F>D D>CA,>^A, | "G"B,2"Gdim"[E2_B,2]"G"[D2=B,2] (3Bc^c |
+| "G"d^cd>e d>BG>E | D>^CD>E D2(3B,C^C | D>G,B,>D G>B,D>G | "Am"(3FGF E>^D E2(3EEE  |
+| "Am"E>cB>A d>^ce>d | c>BA>G B>AG>E | "D7"D>Fc>D B>DA>D | "G"(3GGG (3GBd g2 "G7"E=F^F ||[K:C]
+| "C"G>^FG>A G>=FE>G | e2e2c3G | "G7"B2B2f3A | "C"G2G2e2 (3EF^F |
+| "C"G>^FG>A G>=FE>G |  e2e2c3e | "G"d>g^f>e d>c"D7"B>A | "G7"(3BBB Bd f (3EF^F |
+| "C"G>^FG>A G>=FE>G | e2e2c3G | "G7"B2B2f3A | "C"G2G2e3G |
+| "F"A>^GA>B d>cB>A | "C"e2e2G3c | "G7"B2f2 A3B | "C"c2c2c2 "C7"(3cB_B ||[K:F]
+| "F"A2A>c F2F>A | (3CDE (3FG^G A2(3AB=B | c2F2 A2d2 | "Gm"(3cdc B>A B3A |
+| "C7"G2G>B E2E>G | (3CD^D (3EF^F G2G>A | B2G2 e2d2 | "F Fdim"[d4^G4] "F"[c2A2](3c=B_B |
+| "F"A2A>c F2F>A | (3CDE (3FG^G A2(3AB=B | c2F2 "F7"f2e2 | "Bb"d3c B2GA |
+| "C7"B2G2 e3d | "F"c2f2A2 Fc | "C7"B2E2 A3G | "F"F2F2F2z2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Lucky Scaup
+C: Jimmy Shand
+R: reel
+S: http://nigelgatherer.com/tunes/abc/abc7/lucks.abc	 20110323 013453 UT
+S: printed MS from Mike Briggs
+N: Chords added by John Chambers <jc:trillian.mit.edu>
+N: Also played with the 2nd part returning to the 2st part's ending.
+M: C|
+L: 1/8
+K: D
+   z2 | "D"D2DF "A7"E2EG | "D"F2FA  "G"G2GB | "D"A2f2 "Em"gfed | "A7"f2e2 e2f2 |
+   y4 | "D"D2DF "A7"E2EG | "D"F2FA  "G"G2GB | "D"A2a2 "A7"gfed | "D"f2d2  d2  :|
+|: fg | "D"a2d2  "G"b2d2 | "D"a2gf "A7"g2fg | "D"a2d2 "Em"bagf | "A7"g2e2 e2fg |
+   y4 | "D"a2d2  "G"b2d2 | "D"a2gf "A7"g2fe | "D"A2a2 "A7"gfed | "D"f2d2  d2  :|
+
+%%sep 1 1 500
+
+X: 1
+T: Lucky Scaup
+C: Jimmy Shand
+R: reel
+N: Also played with the 2nd part repeated.
+N: Chords added by John Chambers <jc:trillian.mit.edu>
+S: http://nigelgatherer.com/tunes/abc/abc7/lucks.abc	 20110323 013453 UT
+S: printed MS from Mike Briggs
+S: handwritten page from Barbara McOwen in the Concord Slow Scottish Session collection (chords, trills)
+M: C|
+L: 1/8
+K: D
+FE | "D"D2DF "A7"E2EG | "D"    F2FA  "G"G2GB | "D"A2f2 "Em"Tgfed | "A7"f2e2     e2f2 |
+y4 | "D"D2DF "A7"E2EG | "D(Bm)"F2FA  "G"G2GB | "D"A2a2 "A7" gfed | "D" f2d2     d2  :|
+fg | "D"a2d2  "G"b2d2 | "D"    a2gf "A7"g2fg | "D"a2d2 "Bm" bagf | "Em"g2e2 "A7"e2fg |
+y4 | "D"a2d2  "G"b2d2 | "D"    a2gf "A7"g2fe | "D"A2a2 "A7" gfed | "D"Tf2d2      d2  |]
+fg | "D"a2d2  "G"b2d2 | "D"    a2gf "A7"g2fg | "D"a2d2 "Bm" bagf | "Em"g2e2 "A7"e2f2 |
+y4 | "D"D2DF "A7"E2EG | "D(Bm)"F2FA  "G"G2GB | "D"A2a2 "A7" gfed | "D" f2d2     d2  |]
+
+%%sep 1 1 500
+
+X: 1
+T: Lucky Scaup
+C: Jimmy Shand
+R: reel
+S: http://nigelgatherer.com/tunes/abc/abc7/lucks.abc	 20110323 013453 UT
+S: printed MS from Mike Briggs
+N: Chords added by John Chambers <jc:trillian.mit.edu>
+N: Also played with the 2nd part returning to the 2st part's ending.
+M: C|
+L: 1/8
+K: D
+   z2 | "D"D2DF "A7"E2EG | "D"F2FA  "G"G2GB | "D"A2f2 "Em"gfed | "A7"f2e2 e2f2 |
+   y4 | "D"D2DF "A7"E2EG | "D"F2FA  "G"G2GB | "D"A2a2 "A7"gfed | "D"f2d2  d2  :|
+|: fg | "D"a2d2  "G"b2d2 | "D"a2gf "A7"g2fg | "D"a2d2 "Em"bagf | "A7"g2e2 e2fg |
+   y4 | "D"a2d2  "G"b2d2 | "D"a2gf "A7"g2fe | "D"A2a2 "A7"gfed | "D"f2d2  d2  :|
+
+%%sep 1 1 500
+
+X: 1
+T: Lucky Scaup
+C: Jimmy Shand
+R: reel
+N: Also played with the 2nd part repeated.
+N: Chords added by John Chambers <jc:trillian.mit.edu>
+S: http://nigelgatherer.com/tunes/abc/abc7/lucks.abc	 20110323 013453 UT
+S: printed MS from Mike Briggs
+S: handwritten page from Barbara McOwen in the Concord Slow Scottish Session collection (chords, trills)
+M: C|
+L: 1/8
+K: D
+FE | "D"D2DF "A7"E2EG | "D"    F2FA  "G"G2GB | "D"A2f2 "Em"Tgfed | "A7"f2e2     e2f2 |
+y4 | "D"D2DF "A7"E2EG | "D(Bm)"F2FA  "G"G2GB | "D"A2a2 "A7" gfed | "D" f2d2     d2  :|
+fg | "D"a2d2  "G"b2d2 | "D"    a2gf "A7"g2fg | "D"a2d2 "Bm" bagf | "Em"g2e2 "A7"e2fg |
+y4 | "D"a2d2  "G"b2d2 | "D"    a2gf "A7"g2fe | "D"A2a2 "A7" gfed | "D"Tf2d2      d2  |]
+fg | "D"a2d2  "G"b2d2 | "D"    a2gf "A7"g2fg | "D"a2d2 "Bm" bagf | "Em"g2e2 "A7"e2f2 |
+y4 | "D"D2DF "A7"E2EG | "D(Bm)"F2FA  "G"G2GB | "D"A2a2 "A7" gfed | "D" f2d2     d2  |]
+
+%%sep 1 1 500
+
+X: 1
+T: Maid of Bellevue
+C: Jimmy Shand
+R: jig
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+|: G \
+| "C"c>GF "G7"E>FD | "C"C>EG c2G | "Dm"A>ag "G7"e>fd | "C"c>ec "G7"d>BG \
+| "C"c>GF "G7"E>FD | "C"C>EG c2G | "Dm"A>ag "G7"e>fd | "C"e>cc c2 :|
+e/f/ \
+| "C"g>ec G>ce | "G7"f>dB G2f | "C"e>cG E>Gc | "G7"d>BG G2e/f/ \
+| "C"g>ec G>ce | "G7"f>dB G2f | "C"e>dc "G7"G>cB | "C"c3 c2 ||
+e/f/ \
+| "C"g>ec G>ce | "G7"f>dB G2f | "C"e>cG E>Gc | "G7"d>BG G>AB \
+| "C"c>GF "G7"E>FD | "C"C>EG c2G | "Dm"A>ag "G7"e>fd | "C"e>cc c2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Maid of Bellevue
+C: Jimmy Shand
+R: jig
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+|: G \
+| "C"c>GF "G7"E>FD | "C"C>EG c2G | "Dm"A>ag "G7"e>fd | "C"c>ec "G7"d>BG \
+| "C"c>GF "G7"E>FD | "C"C>EG c2G | "Dm"A>ag "G7"e>fd | "C"e>cc c2 :|
+e/f/ \
+| "C"g>ec G>ce | "G7"f>dB G2f | "C"e>cG E>Gc | "G7"d>BG G2e/f/ \
+| "C"g>ec G>ce | "G7"f>dB G2f | "C"e>dc "G7"G>cB | "C"c3 c2 ||
+e/f/ \
+| "C"g>ec G>ce | "G7"f>dB G2f | "C"e>cG E>Gc | "G7"d>BG G>AB \
+| "C"c>GF "G7"E>FD | "C"C>EG c2G | "Dm"A>ag "G7"e>fd | "C"e>cc c2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Manchester Caledonians
+C: Jimmy Shand
+R: strathspey
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+E\
+| "A"A<A A>c E>c A<c | "E7"e>d c>B "A"c<A A>c \
+| "E7"E<E E>G E>F G>A | "B7"B>A G>F "E7"GE (3EFG |
+| "A"A2 A>B c>B A<a | "E7"e>d c>B "A"c<A A>G \
+| "D"F>f (3dcB "A"E>e (3cBA | "E7"G>E (3dcB "A"c<A A> ||
+g \
+|| "A"a2 a>g a>A c>A | "E7"e>d c>B "A"c<A A>^a \
+| "Bm"b2 b>^a b<f d>B | F<B B>c "E7"d>e f>g |
+| "A"a2 (3bag a>A c>A | "E7"e>d c>B "A"c<A A>G \
+| "D"F>f (3dcB "A"E>e (3cBA | "E7"(3GFE (3dcB "A"c<A A> |]
+
+%%sep 1 1 500
+
+X: 1
+T: The Manchester Caledonians
+C: Jimmy Shand
+R: strathspey
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+"E7"[c2G2E2] \
+| "A"A<A A>c E>c A<c | "E7"e>dc>B "A"c<A A>c | "E"E<E E>G E>FG>A | "B7"B>AG>F "E7"GE (3EFG ||
+| "A"A2 A>B c>B A<a | "E7"e>dc>B "A"c<A A>G | "Bm"F>f (3dcB "A"E>e (3cBA | "E7"G>E (3dcB "A"c<A A> g ||
+| "A"a2 a>g a>Ac>A | "E7"e>dc>B "A"c<A A>^a | "Bm"b2 b>^a b<f d>B | F<B B>c d>e "E7"f>g |
+| "A"a2 (3bag a>Ac>A | "E7"e>dc>B "A"c<A A>G | "Bm"F>f (3dcB "A"E>e (3cBA | "E7"G>E (3dcB "A"c<A A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Manchester Caledonians
+C: Jimmy Shand
+R: strathspey
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+E\
+| "A"A<A A>c E>c A<c | "E7"e>d c>B "A"c<A A>c \
+| "E7"E<E E>G E>F G>A | "B7"B>A G>F "E7"GE (3EFG |
+| "A"A2 A>B c>B A<a | "E7"e>d c>B "A"c<A A>G \
+| "D"F>f (3dcB "A"E>e (3cBA | "E7"G>E (3dcB "A"c<A A> ||
+g \
+|| "A"a2 a>g a>A c>A | "E7"e>d c>B "A"c<A A>^a \
+| "Bm"b2 b>^a b<f d>B | F<B B>c "E7"d>e f>g |
+| "A"a2 (3bag a>A c>A | "E7"e>d c>B "A"c<A A>G \
+| "D"F>f (3dcB "A"E>e (3cBA | "E7"(3GFE (3dcB "A"c<A A> |]
+
+%%sep 1 1 500
+
+X: 1
+T: The Manchester Caledonians
+C: Jimmy Shand
+R: strathspey
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+"E7"[c2G2E2] \
+| "A"A<A A>c E>c A<c | "E7"e>dc>B "A"c<A A>c | "E"E<E E>G E>FG>A | "B7"B>AG>F "E7"GE (3EFG ||
+| "A"A2 A>B c>B A<a | "E7"e>dc>B "A"c<A A>G | "Bm"F>f (3dcB "A"E>e (3cBA | "E7"G>E (3dcB "A"c<A A> g ||
+| "A"a2 a>g a>Ac>A | "E7"e>dc>B "A"c<A A>^a | "Bm"b2 b>^a b<f d>B | F<B B>c d>e "E7"f>g |
+| "A"a2 (3bag a>Ac>A | "E7"e>dc>B "A"c<A A>G | "Bm"F>f (3dcB "A"E>e (3cBA | "E7"G>E (3dcB "A"c<A A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Miss Wilma McKay's Wedding March
+C: Jimmy Shand
+R: jig
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+|: AB \
+| "A"c4 c2e2 | d>cB>A c2e2 | f2ea f>ea>A | "E7"c2B2B2 AB \
+| "A"c4 c2e2 | d>cB>A c2e2 | f2ea "E7"f>ea>B | "A"c2A2 A2 :|
+|: a2 \
+| "A"f2ec c2a2 | A>Bc>d e2a2 | f2ea f>ea>A | "E7"c2B2B2 a2 \
+| "A"f2ec c2a2 | A>Bc>d e2a2 | f2ea "E7"f>ea>B | "A"c2A2A2 a2 |
+| "D"f>ga>f "A"eacB | ABcd e2a2 | "D"f2"A"ea feaA | "E7"c2B2B2 AB \
+| "A"c4 c2e2 | d>cB>A c2e2 | f2ea "E7"f>ea>B | "A"c2A2A2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Miss Wilma McKay's Wedding March
+C: Jimmy Shand
+R: jig
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+|: AB \
+| "A"c4 c2e2 | d>cB>A c2e2 | f2ea f>ea>A | "E7"c2B2B2 AB \
+| "A"c4 c2e2 | d>cB>A c2e2 | f2ea "E7"f>ea>B | "A"c2A2 A2 :|
+|: a2 \
+| "A"f2ec c2a2 | A>Bc>d e2a2 | f2ea f>ea>A | "E7"c2B2B2 a2 \
+| "A"f2ec c2a2 | A>Bc>d e2a2 | f2ea "E7"f>ea>B | "A"c2A2A2 a2 |
+| "D"f>ga>f "A"eacB | ABcd e2a2 | "D"f2"A"ea feaA | "E7"c2B2B2 AB \
+| "A"c4 c2e2 | d>cB>A c2e2 | f2ea "E7"f>ea>B | "A"c2A2A2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Miss Wilma McKay's Wedding March
+C: Jimmy Shand
+R: jig
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+|: AB \
+| "A"c4 c2e2 | d>cB>A c2e2 | f2ea f>ea>A | "E7"c2B2B2 AB \
+| "A"c4 c2e2 | d>cB>A c2e2 | f2ea "E7"f>ea>B | "A"c2A2 A2 :|
+|: a2 \
+| "A"f2ec c2a2 | A>Bc>d e2a2 | f2ea f>ea>A | "E7"c2B2B2 a2 \
+| "A"f2ec c2a2 | A>Bc>d e2a2 | f2ea "E7"f>ea>B | "A"c2A2A2 a2 |
+| "D"f>ga>f "A"eacB | ABcd e2a2 | "D"f2"A"ea feaA | "E7"c2B2B2 AB \
+| "A"c4 c2e2 | d>cB>A c2e2 | f2ea "E7"f>ea>B | "A"c2A2A2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Miss Wilma McKay's Wedding March
+C: Jimmy Shand
+R: jig
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+|: AB \
+| "A"c4 c2e2 | d>cB>A c2e2 | f2ea f>ea>A | "E7"c2B2B2 AB \
+| "A"c4 c2e2 | d>cB>A c2e2 | f2ea "E7"f>ea>B | "A"c2A2 A2 :|
+|: a2 \
+| "A"f2ec c2a2 | A>Bc>d e2a2 | f2ea f>ea>A | "E7"c2B2B2 a2 \
+| "A"f2ec c2a2 | A>Bc>d e2a2 | f2ea "E7"f>ea>B | "A"c2A2A2 a2 |
+| "D"f>ga>f "A"eacB | ABcd e2a2 | "D"f2"A"ea feaA | "E7"c2B2B2 AB \
+| "A"c4 c2e2 | d>cB>A c2e2 | f2ea "E7"f>ea>B | "A"c2A2A2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: MonkRidge Lassies
+C: Jimmy Shand
+R: jig
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: D \
+| "G"G>AG B2d | "C"c2e "G"e2d | d>gf "C"e>dc | "A7"B>GB "D7"A>FD \
+| "G"G>AG B2d | "C"c2e "G"e2d | g>dc B<gB | "D7"A>dF "G"G2 :|
+d \
+| "G"g2B B2d | "C"c2e "G"d2B | g2B B2d | "Am"c>Aa "D7"f>ef \
+| "G"g2B B2d | "C"c2e "G"d2B | "Am"c>Aa "D7"f>ef | "G"g3 g2 ||
+d \
+| "G"g2B B2d | "C"c2e "G"d2B | g2B B2d | "Am"c>Aa "D7"f>ef \
+| "G"g2e "D7"a2f | "C"g>ec "G"B2d | "G"g>dc B<gB | "D7"A>dF "G"G2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: MonkRidge Lassies
+C: Jimmy Shand
+R: jig
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: D \
+| "G"G>AG B2d | "C"c2e "G"e2d | d>gf "C"e>dc | "A7"B>GB "D7"A>FD \
+| "G"G>AG B2d | "C"c2e "G"e2d | g>dc B<gB | "D7"A>dF "G"G2 :|
+d \
+| "G"g2B B2d | "C"c2e "G"d2B | g2B B2d | "Am"c>Aa "D7"f>ef \
+| "G"g2B B2d | "C"c2e "G"d2B | "Am"c>Aa "D7"f>ef | "G"g3 g2 ||
+d \
+| "G"g2B B2d | "C"c2e "G"d2B | g2B B2d | "Am"c>Aa "D7"f>ef \
+| "G"g2e "D7"a2f | "C"g>ec "G"B2d | "G"g>dc B<gB | "D7"A>dF "G"G2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Morag Hutton's Strathspey
+C: Jimmy Shand
+B: Newcastle
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+F \
+| "G"G2 D>C B,-<G, B,-<D | "D7"G>B (3ABc "G"B-<G G>F \
+| "C"E>G c>E "G"D>G B>G | "A(m)"F-<A A>G "D7"(3FGA (3DEF |
+| "G"G2 D>C B,-<G, B,-<D | "D7"G>B (3ABc "Em"B-<G G>F \
+| "C"E>G c>e "G"d>B G>D | "C"(3EFG "D7"(3FGA "G"B-<G G |]
+B \
+| "Em"e>f g>f e-<B B2 | E>F G>A B>A B-<e \
+| "Em"g>e "B7"f>^d "C"e>f g>e | "G"d>B G>{A}B "Am"(3cBA "D7"A>B |
+| "G"G2 D>C B,-<G, B,-<D | "D7"G>B (3ABc "Em"B-<G G>F \
+| "C"E>G c>e "G"d>B d-<g | "D7"f>{e}d (3cBA "G"B-<G G |]
+
+%%sep 1 1 500
+
+X: 1
+T: Morag Hutton's Strathspey
+C: Jimmy Shand
+B: Newcastle
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+F \
+| "G"G2 D>C B,-<G, B,-<D | "D7"G>B (3ABc "G"B-<G G>F \
+| "C"E>G c>E "G"D>G B>G | "A(m)"F-<A A>G "D7"(3FGA (3DEF |
+| "G"G2 D>C B,-<G, B,-<D | "D7"G>B (3ABc "Em"B-<G G>F \
+| "C"E>G c>e "G"d>B G>D | "C"(3EFG "D7"(3FGA "G"B-<G G |]
+B \
+| "Em"e>f g>f e-<B B2 | E>F G>A B>A B-<e \
+| "Em"g>e "B7"f>^d "C"e>f g>e | "G"d>B G>{A}B "Am"(3cBA "D7"A>B |
+| "G"G2 D>C B,-<G, B,-<D | "D7"G>B (3ABc "Em"B-<G G>F \
+| "C"E>G c>e "G"d>B d-<g | "D7"f>{e}d (3cBA "G"B-<G G |]
+
+%%sep 1 1 500
+
+X: 1
+T: Mrs Maurice Cramb
+C: Jimmy Shand
+R: jig
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+|| "G"D>EG G>AB | G>BG A2B | G>AB A>BG | B<dG e2d \
+|  "G"d>eg B>AG | A>BG E2D | D>EC D>dB | "D7"A3 "G"G2 B/c/ ||
+| "G"d>ed d>Bc | d>cB "D7"A>Bc | "G"d>ge d>BD | "C"E3 "D7"D2B/c/ \
+| "G"d>ed d>Bc | d>cB "D7"A>Bc | "G"d>ge d>cB | "D7"A3 "G"G2 B/c/ ||
+| "G"d>ed d>Bc | d>cB "D7"A>Bc | "G"d>ge d>BD | "C"E3 "D7"D2D \
+| "C"E>CE G>FE | "G"D>BA G>FE | D>EC D>dB | "D7"A3 "G"G2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Mrs Maurice Cramb
+C: Jimmy Shand
+R: jig
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+|| "G"D>EG G>AB | G>BG A2B | G>AB A>BG | B<dG e2d \
+|  "G"d>eg B>AG | A>BG E2D | D>EC D>dB | "D7"A3 "G"G2 B/c/ ||
+| "G"d>ed d>Bc | d>cB "D7"A>Bc | "G"d>ge d>BD | "C"E3 "D7"D2B/c/ \
+| "G"d>ed d>Bc | d>cB "D7"A>Bc | "G"d>ge d>cB | "D7"A3 "G"G2 B/c/ ||
+| "G"d>ed d>Bc | d>cB "D7"A>Bc | "G"d>ge d>BD | "C"E3 "D7"D2D \
+| "C"E>CE G>FE | "G"D>BA G>FE | D>EC D>dB | "D7"A3 "G"G2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Sister Elder's Reel
+C: Jimmy Shand
+R: reel
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+A2  \
+| "D"DEFG A2D2 | fedc d2 FE | DEFG ABcd | "A7"e2E2E2 F2 \
+| "D"DEFG A2D2 | fedc d2 A2 | "G"BGBd "A7"cAge | "D"f2d2d2 :|
+fg \
+| "D"agfe d2A2 | fedc d2 FE | DEFG ABcd | "A7"e2E2E2 fg \
+| "D"agfe d2A2 | fedc d2 A2 | "G"BGBd "A7"cAge | "D"f2d2d2 ||
+fg \
+| "D"agfe d2A2 | fedc d2 FE | DEFG ABcd | "A7"e2E2E2 F2 \
+| "D"DEFG A2D2 | fedc d2 A2 | "G"BGBd "A7"cAge | "D"f2d2d2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Sister Elder's Reel
+C: Jimmy Shand
+R: reel
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+A2  \
+| "D"DEFG A2D2 | fedc d2 FE | DEFG ABcd | "A7"e2E2E2 F2 \
+| "D"DEFG A2D2 | fedc d2 A2 | "G"BGBd "A7"cAge | "D"f2d2d2 :|
+fg \
+| "D"agfe d2A2 | fedc d2 FE | DEFG ABcd | "A7"e2E2E2 fg \
+| "D"agfe d2A2 | fedc d2 A2 | "G"BGBd "A7"cAge | "D"f2d2d2 ||
+fg \
+| "D"agfe d2A2 | fedc d2 FE | DEFG ABcd | "A7"e2E2E2 F2 \
+| "D"DEFG A2D2 | fedc d2 A2 | "G"BGBd "A7"cAge | "D"f2d2d2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Six-Twenty Two-Step
+C: Jimmy Shand
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+"A"\
+|| D3 \
+ | "G"G2G "D7"FGA | "G"G2G G2D | B2B "D7"ABc | "G"B3- B2B \
+ | "C"c2c "D7"A2c | "G"B2B "Em"G2B | "Am"ABA "A7"GFE | "D"D3 ||
+|| "D7"d3 \
+ | "G"G2G "D7"FGA | "G"G2G G2D | B2B "D7"ABc | "G"B3- B2B \
+ | "C"c2A "D7"F2e | "G"d2c B2d | "C"ded "D7"cBA | "G"G2z || [K:D]
+"B"\
+|| "A7"A3 \
+ | "D"A2B B2A | Afd A3 | A2f fef | "A7"g3- g2A \
+ | A2e e2d | d2c c3 | ded c2B | "(D)" B2_B A2A |
+ | "D"A2B B2A | Afd A3 | a2d d2c | "G"B3- B2B \
+ | B2g g2B | "D"A2f f2d | "A7"c2A ABc | d2z || [K:G]
+"A"\
+|| "D7"D3 \
+ | "G"G2G "D7"FGA | "G"G2G G2D | B2B "D7"ABc | "G"B3- B2B \
+ | "C"c2A "D7"F2e | "G"d2c B2d | "C"ded "D7"cBA | "G"G2z || [K:C]
+%%sep 10 10 200
+"C"\
+|| G_GF \
+ | "C"E3 B,3 | C3 E3 | A2G G2^F | G3- G3 \
+ | "C"E3 B,3 | C2E A2G | "G7"G3- G3 | B,3- B,3 ||
+ | "Dm"D3 "A7"^C3 | "Dm"D2A, F2E | D2D "A7"^CDE | "Dm"D3- D3 \
+ | "D7"D2^D E2F | ^F2c B2A | "G"G2g "D7"ag^f | "G"g3 ||
+|| G_GF \
+ | "C"E3 B,3 | C3 E3 | A2G G2^F | G3- G3 \
+ | "C"e3 c3 | G3 E3 | "F"B2A A2^G | A3- A3 |
+ | "Dm"f2e d2^c | "G"d3 g3 | "C"e2d cBA | G3- G3^G \
+ | "F"A2c cBA | "C"G2e edc | "G7"BAG FED | "C"C2z || [K:G]
+"A"\
+|| "D7"D3 \
+ | "G"G2G "D7"FGA | "G"G2G G2D | B2B "D7"ABc | "G"B3- B2B \
+ | "C"c2A "D7"F2e | "G"d2c B2d | "C"ded "D7"cBA | "G"G2z |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Six-Twenty Two-Step
+C: Jimmy Shand
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+"A"\
+|| D3 \
+ | "G"G2G "D7"FGA | "G"G2G G2D | B2B "D7"ABc | "G"B3- B2B \
+ | "C"c2c "D7"A2c | "G"B2B "Em"G2B | "Am"ABA "A7"GFE | "D"D3 ||
+|| "D7"d3 \
+ | "G"G2G "D7"FGA | "G"G2G G2D | B2B "D7"ABc | "G"B3- B2B \
+ | "C"c2A "D7"F2e | "G"d2c B2d | "C"ded "D7"cBA | "G"G2z || [K:D]
+"B"\
+|| "A7"A3 \
+ | "D"A2B B2A | Afd A3 | A2f fef | "A7"g3- g2A \
+ | A2e e2d | d2c c3 | ded c2B | "(D)" B2_B A2A |
+ | "D"A2B B2A | Afd A3 | a2d d2c | "G"B3- B2B \
+ | B2g g2B | "D"A2f f2d | "A7"c2A ABc | d2z || [K:G]
+"A"\
+|| "D7"D3 \
+ | "G"G2G "D7"FGA | "G"G2G G2D | B2B "D7"ABc | "G"B3- B2B \
+ | "C"c2A "D7"F2e | "G"d2c B2d | "C"ded "D7"cBA | "G"G2z || [K:C]
+%%sep 10 10 200
+"C"\
+|| G_GF \
+ | "C"E3 B,3 | C3 E3 | A2G G2^F | G3- G3 \
+ | "C"E3 B,3 | C2E A2G | "G7"G3- G3 | B,3- B,3 ||
+ | "Dm"D3 "A7"^C3 | "Dm"D2A, F2E | D2D "A7"^CDE | "Dm"D3- D3 \
+ | "D7"D2^D E2F | ^F2c B2A | "G"G2g "D7"ag^f | "G"g3 ||
+|| G_GF \
+ | "C"E3 B,3 | C3 E3 | A2G G2^F | G3- G3 \
+ | "C"e3 c3 | G3 E3 | "F"B2A A2^G | A3- A3 |
+ | "Dm"f2e d2^c | "G"d3 g3 | "C"e2d cBA | G3- G3^G \
+ | "F"A2c cBA | "C"G2e edc | "G7"BAG FED | "C"C2z || [K:G]
+"A"\
+|| "D7"D3 \
+ | "G"G2G "D7"FGA | "G"G2G G2D | B2B "D7"ABc | "G"B3- B2B \
+ | "C"c2A "D7"F2e | "G"d2c B2d | "C"ded "D7"cBA | "G"G2z |]
+
+%%sep 1 1 500
+
+X: 1
+T: Stobhall
+C: Jimmy Shand
+R: jig
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+BA \
+| "G"G>G,B, D>EG | "D"A>GA "G"B2e | d>cB "D7"A>GA | "G"B<GD "C"E2B/A/ \
+| "G"G>G,B, D>EG | "D"A>GA "G"B2e | d>cB "D7"A>GA | "G"B<GG G2 :|
+c \
+| "G"B<dG "C"c<eG | "G"B<dg d>BG | "C"c>de "D7"A>Bc | F>GA D2c \
+| "G"B<dG "C"c<eG | "G"B<dg "D7"f>ef |"G"g>dB "D7"A>GA | "G"B>GG G2c ||
+| "G"B<dG "C"c<eG | "G"B<dg d>BG | "C"c>de "D7"A>Bc | F>GA D2F \
+| "G"G>AB "C"E>FG | "D7"F>GA D2e | d>cB "D7"A>GA | "G"B<GG G3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Stobhall
+C: Jimmy Shand
+R: jig
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+BA \
+| "G"G>G,B, D>EG | "D"A>GA "G"B2e | d>cB "D7"A>GA | "G"B<GD "C"E2B/A/ \
+| "G"G>G,B, D>EG | "D"A>GA "G"B2e | d>cB "D7"A>GA | "G"B<GG G2 :|
+c \
+| "G"B<dG "C"c<eG | "G"B<dg d>BG | "C"c>de "D7"A>Bc | F>GA D2c \
+| "G"B<dG "C"c<eG | "G"B<dg "D7"f>ef |"G"g>dB "D7"A>GA | "G"B>GG G2c ||
+| "G"B<dG "C"c<eG | "G"B<dg d>BG | "C"c>de "D7"A>Bc | F>GA D2F \
+| "G"G>AB "C"E>FG | "D7"F>GA D2e | d>cB "D7"A>GA | "G"B<GG G3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Young Sandy Tulloch - Reel
+C: Jimmy Shand
+R: reel
+N: For Cadgers in the Cannon Gate
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+d \
+| "G"gG (3GGG BG GG | "Am"cBAG "D7"FDD2 | "G"gG (3GGG BG GG | "Am"ABcA "D7"defd |
+| "G"gG (3GGG BG GG | "Am"cBAG "D7"FDD2 | "G"GABG "Am"ABcA | "D7"(3Bcd DF "G"G2 "_fine"G ||
+|: c \
+| "G"Bdde dBAG | Bdde d2B2 | Bdde dGBd | "D7"edcB "G"A2G2 |
+| "G"Bdde dBAG | Bdde d2ga | bgaf gfed | "C"(3efg "G"dB "D7"A2- "_D.C."A :|
+
+%%sep 1 1 500
+
+X: 1
+T: Young Sandy Tulloch - strathspey
+C: Jimmy Shand
+R: strathspey
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+d \
+| "G"g>d "C"(3efg "G"d<G "(D7)"B>A | "G"G>A "D7"B>A "Em"G<E- ED \
+| "C"E>D (3EFG "G"D>E G>e | d>G "C"e>G "D7"F<A A>d |
+| "G"g>d "C"(3efg "G"d<G "(D7)"B>A | "G"G>A "D7"B>A "Em"G<E- ED \
+| "C"E<G D>E "G"G>A B>e | "D7"d>B (3ABc "G"B<G Gc  ||
+| "G"B>G d>c B>G D>c | B>G d>B "Am"c/B/A/G/ "D7"A>c \
+| "G"B>G d>c B>G D>G | "Am"E>A "D7"c/B/A/G/ "G"D<G G>c |
+| "G"B>G d>c B>G D>c | B>G d>B "Am"e/d/c/B/ "D7"A>d \
+| "G"g>d "C"(3efg "G"d<G B>e | "D7"d>B (3ABc "G"B<G G |]
+
+%%sep 1 1 500
+
+X: 1
+T: Young Sandy Tulloch - Reel
+C: Jimmy Shand
+R: reel
+N: For Cadgers in the Cannon Gate
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+d \
+| "G"gG (3GGG BG GG | "Am"cBAG "D7"FDD2 | "G"gG (3GGG BG GG | "Am"ABcA "D7"defd |
+| "G"gG (3GGG BG GG | "Am"cBAG "D7"FDD2 | "G"GABG "Am"ABcA | "D7"(3Bcd DF "G"G2 "_fine"G ||
+|: c \
+| "G"Bdde dBAG | Bdde d2B2 | Bdde dGBd | "D7"edcB "G"A2G2 |
+| "G"Bdde dBAG | Bdde d2ga | bgaf gfed | "C"(3efg "G"dB "D7"A2- "_D.C."A :|
+
+%%sep 1 1 500
+
+X: 1
+T: Young Sandy Tulloch - strathspey
+C: Jimmy Shand
+R: strathspey
+B: Jimmy Shand, Scottish Dance Album Book 2 (1953) Pub. James S.Kerr, Glasgow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+d \
+| "G"g>d "C"(3efg "G"d<G "(D7)"B>A | "G"G>A "D7"B>A "Em"G<E- ED \
+| "C"E>D (3EFG "G"D>E G>e | d>G "C"e>G "D7"F<A A>d |
+| "G"g>d "C"(3efg "G"d<G "(D7)"B>A | "G"G>A "D7"B>A "Em"G<E- ED \
+| "C"E<G D>E "G"G>A B>e | "D7"d>B (3ABc "G"B<G Gc  ||
+| "G"B>G d>c B>G D>c | B>G d>B "Am"c/B/A/G/ "D7"A>c \
+| "G"B>G d>c B>G D>G | "Am"E>A "D7"c/B/A/G/ "G"D<G G>c |
+| "G"B>G d>c B>G D>c | B>G d>B "Am"e/d/c/B/ "D7"A>d \
+| "G"g>d "C"(3efg "G"d<G B>e | "D7"d>B (3ABc "G"B<G G |]
+
+%%sep 1 1 500

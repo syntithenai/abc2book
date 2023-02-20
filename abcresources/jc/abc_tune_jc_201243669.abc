@@ -1,0 +1,27 @@
+X: 871
+T: My Mither's av glowran o'er me
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.87 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 6/8
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+D |\
+GAG T^F2D | BcB ABc | ded Tc2B | f3 d2g |\
+fdB Bfd | cAF FGA | BAG A^FD | B3 A2 :|
+|: d |\
+gag T^f2d | gab Ta2g | B>cd/e/ fdB | f3 gab |\
+fdB Bfd | cAF Fdc | BAG A^FD | B3 A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g3 d3 | g3 a3 | b3 c'3 | d'3 e'3 |\
+d'3 b3 | f3 f3 | g3 d3 | G3 d2 :|
+|: z |\
+g3 d3 | B3 c3 | d3 d3 | d3 e3 |\
+d3 B3 | f3 F3 | g3 d3 | G3 d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,27 @@
+X: 1
+T: O Maria, Mari   [Cm,C]
+C: Eduardo di Capua (1865-1917)
+O: Italy
+R: waltz
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Cm
+"Intro"[|]D/E/FG \
+| "Cm"EG2 "G7"D/E/FG | "Cm"EG2 "G7"=B/c/de \
+| "Cm"cG2 "G7"D/E/FG | "Cm"C3 z3 |  z3 z3 ||
+"A"\
+|: "Cm"e3- "G7"ed/c/=B/d/ |  "Cm"c/=B/c2- "(C7)"c2z \
+|  "Fm"c3- cc/=B/c/A/ |  "Cm"G/^F/G2- G2z \
+|  "G7"F3- FF/=E/F/G/ |  "Cm"_E3 E2z |
+|  "Fm"D3- "G7"DD/^C/D/E/ |1 "Cm"C3 z3 :|2 [K:=B=e=A][K:C] "C"C3 \
+"B"\
+|: z[cE][dF] \
+| "C"[c3-E3-] "(G7)"[cE][AF][BG] | "C"[E3-G3-] [EG][EG][EA] \
+| [AE][AE][BE] [BE][BE][GE] | "Dm"[A3-F3-] [A3F3] |
+| "G7"[B3G3] [c2A2][dB] | (3[B/G][c/A][B/G] [A2-F2-] [AF][AF][AF] \
+| [BG][BG][BG] [BG][cA]>[dB] | "C"(3[A/F][B/G][A/F] [G2-E2-] [GE][cE][dF] \
+| "C"[c3-E3-] "(G7)"[cE][AF][BG] | "C"[E3-G3-] [EG][cE][dF] |
+| "A7"[eG][eG]>[^d^F] [eG][fA][g_B] | "Dm"(3[e/G][f/A][e/G][d2-F2-] [dF][dF][eG] \
+| "F"[f3A3] "Fm"[d2_A2F2][eAF] | "C"[c3-E3G3-] [cEG][AF][BG] \
+| "G7"[G3-F3-] [GF][dBF][eBF] | "C"[c3E3G3] :|

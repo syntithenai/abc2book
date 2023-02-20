@@ -1,0 +1,605 @@
+X: 0
+T: Twenty Four Country Dances for the Year 1781
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Thomas Skillern "Twenty Four Country Dances for the Year 1781", London 1781
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+K:
+%%center Twenty four
+%%center COUNTRY DANCES
+%%center for the Year 1781
+%%center With proper Directions to each Dance,
+%%center as they are performed at
+%%center COURT, ALMACKS BATH PANTHEON
+%%center and all Public Assemblies
+%%center -----------------------------------
+%%center London Printed for T.Skillern No.17 St Martins Lane the corner of St Martins Ch: Yard.
+%%begintext align
+%% Transcription notes:
+%% The tunes are are unnumbered; their count (01-24)
+%% is used in the file name to preserve the publication order.
+%% Some abbreviations use small superscript letters with a dot underneath.
+%% The dots are mostly ignored, and the letters typed as-is.
+%% Some abbreviations end with ":", which is transcribed.
+%% Original staff breaks are ignored; the ABC is formatted to have 2 or 4 bars per line,
+%% which are joined into staffs to look good at a small scale.
+%% Feel free to reformat the staffs for your own use.
+%% Dances are transcribed with the original line breaks, which isn't significant.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1
+T: Queens Row
+%R: march, reel
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.1 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+fe |\
+d2A2A2G2 | FGA2 A2d2 | c2d2g2f2 | f2e2 z2fe |\
+d2A2A2G2 | FGA2 A2f2 | e3a edcB | A2E2A,2 :|
+|: cd |\
+e3f ecBA | d3ef2g2 | f2b2 fedc | c2B2 z2AG |\
+F2D2A2F2 | f2ed c2BA | a3b afef | d2A2D2 :|
+%%begintext align
+%%   First Cu. Cast down one Cu. and 4 Hands
+%% with the 3d .| Cast up again & 4 Hands with the
+%% 2d :| Cross over one Cu. figure thro' the top :|.
+%% 4 Hands at bottom Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2
+T: They say there is an Eccho here
+%R: jig
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.1 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D |\
+G2G GFG | A2D D2D | A2A AGA |\
+B2G G2A | B2B BAG | D3- D2 :|
+|: G |\
+GFG D2G | E2C C2A | AGA E2A |\
+F2D Ddc | BAG DGF | G3- G2 :|
+%%begintext align
+%%   First & 2d Cu. pas Rigadoon Chassee , first
+%% Man turn Partner under the Arm .| the same
+%% back again & do with Left Arm :| Cross over
+%% 1 Cu pas Rigadoon :|. Right & Left at top
+%% and pas Rigadoon :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3
+T: Trip to Windsor
+%R: jig
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.2 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|:\
+a2e cBA | f2f f2e | FGA Bcd | cBA GFE |\
+a2e cBA | a2f ^dcB | b2a gfe | B2^d e3 :|
+|:\
+B2c d2c | f2e G2A | B2c d2c | B2A GFE |\
+e2c d2B | c2A GFE | e2d cBA | E2G A3 :|
+%%begintext align
+%%   Cast down one Cu. & figure thro' bottom .|
+%% Cast up one Couple and figure thro' top :|
+%% First three Cu. Chassee and back :|. cross over
+%% one Cu. and Right and Left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 4
+T: The Weavers
+%R: reel
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.2 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: F
+|:\
+FGAB cAdB cAf2 f2ed | cAFA cAFA G2C2 C2DE |
+FGAB cAdB cAf2 f2ed | gecG Acfa gefd c4 :|
+|:\
+GECE GECE GdcB A2GF | cAFA cAFA c_edc d2cB |
+bagf fedc | BAGF FEDC | b3g aefB A2G2 F4 :|
+%%begintext align
+%%   Hey on the contrary sides .| then on
+%% your own :| lead down one Cu. up again
+%% Cast off :|. Hands four at bottom
+%% Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 5
+T: Dartford Camp
+%R: march, reel
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.3 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+e |\
+aAAB | cccd | e>f ed/c/ | B/A/G/F/ Ee |\
+aAAB | c>^dea | gf/e/ B^d | e3 :|
+|: B |\
+eEEF | G>ABc | d>ec>d | B/A/G/F/ Ee |\
+d>edB | c>deE | Fd c/B/A/G/ | A3 :|
+%%begintext align
+%%   Cast off one Cu. four Hands round with
+%% the third .| Cast up again four Hands with
+%% the 2d :| 1st three Coupels [sic] double promenade
+%% :|. lead down up again and Cast off :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 6
+T: Make a Bustle
+%R: reel
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.3 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: F
+|:\
+FAcA FBdB Afed {d}c2BA | dBAG cAGF fcBA A2G2 :: c=Bce dcdf edeg fefa |
+gedc afed gcd=B c2de | fcAF dBdf BGAF FEDC | A,CFA DFBd cABG F4 :|
+%%begintext align
+%%   First four Couple Le chain :|
+%% First four Couple Chassee and
+%% back again :|. Cross over figure
+%% thro' the bottom and Right &
+%% Left with the top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 7
+T: Bean Flower
+%R: reel
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.4 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The last 8 bars are a repeat of the first strain (AABA form).
+M: 2/4
+L: 1/16
+K:
+|:\
+A2AB AFED | A2d2 d2cB | A2AB AFdF | EDEF E2FG |\
+A2AB AFED | A2d2 d2cB | A2Ad edef | d2d2 d4 :|
+f2fd afdf | e2ec aece | d2Bd cAec | c2B2 z2Bc |\
+dcde dfed | cBcd cef^g | a2Af edcB | B2A2 z2FG |
+A2AB AFED | A2d2 d2cB | A2AB AFdF | EDEF E2FG |\
+A2AB AFED | A2d2 d2cB | A2Ad edef | d2D2D2 |]
+%%begintext align
+%%   First Cu. lead dwn the middle the 2d and 3d
+%% following Lady off to their places & Gentlemen
+%% to theirs .| Cross over two Cu. lead up to the top
+%% Cast off :| lead thro' the bottom then thro' the
+%% top Allmand and Right and Left at top :|.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 8
+T: Walcot Place
+%R: reel
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.4 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Rhythic mismatch at strain boundaries fixed by adding an initial rest to the 2nd strain.
+M: C|
+L: 1/16
+K: A
+E2 |\
+ABcd e2e2 fdaf e4 | dfBd ceAc BdGB A2 :: z2 | e3cd3B c3AB2E2 |
+e3cd3B cAec B2E2 | ABcd e2e2 fdaf e2c2 | dfBd ceAc BdEG A2 :|
+%%begintext align
+%%   First and 2d Gent: lead thro'
+%% first & 2d Lady .| 1st & 2d Lady
+%% lead thro' the 1st & 2d Gent: :| Cross
+%% over 1 Cu. figure thro' top :|. 1st & 2d Cu.
+%% Chassee & back Right & left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 9
+T: Trip to Carlisle House
+%R: march, reel
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.5 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+ed |\
+c2A2 A2ed | c2A2a2A2 | B2c2 dcBA | GABG E2ed |\
+c2A2 A2ed | c2A2a2f2 | g2fe B2^d2 | e4 E2 :|
+|: ed |\
+c2e2 A2a=g | f2d2D2e2 | fedc dcBA | ^GABG E2a2 |\
+g2e2e2f2 | e2c2A2E2 | F2f2 edcB | c2A2A2 :|
+%%begintext align
+%%   Sett all four 1st Cu. lead down one Cu. and
+%% Cast up .| Sett all four 2d Couple lead up &
+%% Cast down :| Cross over one Couple figure
+%% thro' top :|. Hands four at bottom Right
+%% and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 10
+T: The Chace
+%R: reel
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.5 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: D
+|:\
+dcde d2A2 B4 A4 | defd efge a2gf e2A2 |\
+a2^gf e2d2 cAce a2d2 | c2BA E2^G2 A4 A,4 :|
+|:\
+e2ef e2A2 f2ed e2A2 | a2gf g2fe f2ed c2BA |\
+B3dc3e defg a2g2 | f2ed A2c2 d4 D4 :|
+%%begintext align
+%%   First Lady figure down on her own side,
+%% partner following Her to his .| the Gent:
+%% do the same, Lady following him :|
+%% Chassee and back again :|. Cross over
+%% and Right and Left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 11
+T: The Banks of the Shannon
+%R: jig
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.6 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+Bc |\
+d>ed dBG | E>FE E2B/c/ | d>ed dBG | DED D2B/c/ |\
+d>ed dBG | e>fg gfe | d>ed cBA | G>AG HG2 :|
+|: G |\
+G>AB B>^cd | d2D D2F | G>AB A>BG | F2D D2A |\
+B>cB Beg | A>BA A>df | Ggf ed^c | d2D "D.C."D2 |]
+%%begintext align
+%%   Right Hands across & pas Rigadoon .| Left back again
+%% & pas Rigadoon :| Cross over 2 Cu. lead up & Cast off 4
+%% Hands at bottom :|. Six Hands round, 1st two Cu. pas
+%% Rigadoon & Right & Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 12
+T: Ding dong to the Camp
+%R: reel
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.6 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|:\
+d2Bd c2Ac | B2GB AFED |\
+GBAc Bdef | gdcB B2A2 ::\
+d2Bd cDD2 | c2Ac BGG2 |\
+GBAc Bdef | gcBA G4 :|
+%%begintext align
+%%   First Cu. Swing Right
+%% Hands & Cast off .| 2d Cu.
+%% do the same :| Cross over :|.
+%% & Right & Left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 13
+T: Hat and Feather
+%R: jig
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.7 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A |\
+F2A d2f | gec d2A | Bcd AFD | F3 E2A |\
+F2A d2f | efd c2e | a2A B2e | cAE CA, |]
+|: e |\
+c2d ecA | d2e f2g | f2b dec | dAF B,2A/G/ |\
+FAd d2A | Adf Ha2 A | B2d fge | fdA FD :|
+%%begintext align
+%%   Right Hands across Left back
+%% again .| lead down the middle up
+%% again Cast off :| four Hands
+%% at bottom Lead thro' top & Cast off :|.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 14
+T: The Forum
+%R: jig
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.7 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+c |\
+ceg fdB | cGE C2a |\
+gec Bfe | e3 d2 :: g |\
+g>ag ecg | fge d2G |
+ceg gfe | e3 d2G |\
+Afd Bgf | ece g2G |\
+Afe dcB | c3- c2 :|
+%%begintext align
+%%   Four Hands across .| back
+%% again :| Cross over one Cu. figure
+%% thro' the top :|. four Hands at
+%% bottom Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 15
+T: The Glass house
+%R: jig
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.8 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|:\
+gfe dcB | ABG FED | GAG BdB | ABA c2e |\
+gfe dcB | ABG FED | gfe afd | Ad^c d3 :|
+|:\
+dBd cAc | BGB AFD | GAG BGB | dcB A3 |\
+gfe dcB | ABG FED | GAG BdB | cAd G3 :|
+%%begintext align
+%%   Cast down 1 Cu. & 4 Hands with the 3d .| Cast
+%% up again and 4 Hands at top :| lead down two
+%% Cu. up again and Cast off :|. lead thro' the 3d
+%% Cu. and Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 16
+T: The Crescent
+%R: reel
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.8 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: F
+cB | A2f2 g2fe f2F2A2c2 | d3c BAGF GFED C2cB |\
+A2f2 g2fe f2F2A2f2 | e2dc G2=B2 c4 C2 :|
+|: AB |\
+c3B ABcA B3A GABG | A3G FcBA GFED C2cB |\
+A3G FGAF B3c defd | c2f2 g2fe f4 F2 :|
+%%begintext align
+%%   First Cu. Chassee & figure on Contrary
+%% sides .| Chassee & figure on your own :|
+%% 1st three Cu. Chassee & pas Rigadoon hands
+%% 3 on the Sides :|. Chassee back again and
+%% lead your Partner off in the 2ds place :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 17
+T: Vauxhall Gardens
+%R: reel, march
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.9 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+|:\
+c>dcB | A>BAE | e>fed | d2c2 | a>gfe | f>edc | B/c/d/e/ fA | A2G2 :|
+e>feB | g>age | agfe | e2^d2 | b2 a2 | gf/e/ ^d/c/B/A/ | G2TF2 | E4 |
+c>dcB | A>BAE | e>fed | d2c2 | a>gfe | f>edc | B/c/d/e/ fA | A2GE |
+c>dcB | A>BAE | e>fed | d2cc | d>efg | a>gaf | ed/c/ e/d/c/B/ | A4 |]
+%%begintext align
+%%   Top Cu. figure down on their own Side .| 3d Cu.
+%% do the same :| Cross over two Cu. lead up and Cast
+%% off lead thro' the bottom and thro' the top 4 hands
+%% at bottom and Right and Left at top :|.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 18
+T: Thursday Night
+%R: reel
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.9 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|:\
+GBAc Bdce | dBAG AFED |\
+GBAc Bdeg | fde^c d4 :|
+|:\
+de=fd ecBc | efge fdcd |\
+gdBG EGce | dBcA G2G,2 :|
+%%begintext align
+%%   First and 2d Cu. Sett & turn
+%% Partners .| Sett and turn sides :|
+%% Cross over one Cu. :|. Right and
+%% Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 19
+T: The Eclipse
+%R: jig
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.10 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+|:\
+BAB F2F | B2F d2B | fgf b2f | dcB AGF |\
+fdf ece | dfB AGF | fed cBA | B3 B,3 :|
+|:\
+fef B2B | cBc F3 | BAB G2G | d3 D3 |\
+e2c d2B | c2A d2c | Bdg BcA | G3 G,3 |
+BAB F2F | B2F d2B | fgf fdB | cdB AGF |\
+DFB EGc | FAd GBe | dfd ecA | B3 B,3 :|
+%%begintext align
+%%   First and 2d Cu. pas Rigadoon and Right Hands
+%% across .| the same and Left Hands across :| Cross
+%% over two Cu. lead up and Cast off :|. Hands four
+%% with the 3d Cu. & Right & Left with the top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20
+T: Tiptree Camp
+%R: reel
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.10 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: A
+|:\
+e2ed c3B AcBA B2E2 | AGAB cBcd e2dc c2B2 :: EFEe ecBA EFEd d4 |
+cAdB ecBA BcdB AGFE | e2ed c3B AcBA BGFE | AcBd ceaf ecBc A2A,2 :|
+%%begintext align
+%%   First Cu. cast down 2 Cu. .| up
+%% again :| 1st & 2d Cu. Chassee & pas
+%% Rigadoon Chassee back again & turn
+%% Partnes [sic] :|. Cross over one Cu &
+%% Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 21
+T: The Deceivers
+%R: jig
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.11 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+c |\
+AGA F2F | fef c3 | def cAF | GAF EDC |\
+AGA F2F | fed g2f | edc Gc=B | c3- c2 :|
+|: c |\
+cBc A2A | BAB G3 | ABc F2F | GAF EDC |\
+AGA F2F | B2c d2e | fga cdB | ABG F2 :|
+%%begintext align
+%%   First & 2d Cu. pas Rigadoon & half Right and
+%% Left .| the same & half Right and Lelf [sic] to your
+%% own places :| lead down the middle :|. up again
+%% Cast off and Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22
+T: Fire and Water
+%R: reel
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.11 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: G
+Bc |\
+d3e d3e d3c B3b | a2g2 a2gf gfga g2b2 |\
+agfe d2f2 ed^cB A2A2 | B2g2 fed^c d4 D2 :|
+|: Bc |\
+d3ed3e c3dc3d | B2cd cBAG AGFE D2D2 |\
+GABc d2B2 cdef g3e | d3e dBAB G3A G2 :|
+%%begintext align
+%%   First & 2d Cu. Chassee pas Rigadoon
+%% and Allmande .| the same back again
+%% and Allmand :| Le chain :|. Cross
+%% over and Right and Left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 23
+T: Bloom of the Pea
+%R: jig
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.12 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|:\
+gfg d2c | BcA G3 | G2D B2G | dcB A3 |\
+gfg d2c | BcA G2d | g2e f2d | Ad^c d3 :|
+|:\
+dcd D2d | cBc D3 | cBA BAG | F2G AFD |\
+gfg d2c | BcA G3 | DcB AGF | GDB, G,3 :|
+%%begintext align
+%%   First and 2d Cu. Right Hands across Left
+%% back again .| figure down the side and up
+%% again :| Cross over two Cu. lead up & Cast off :|.
+%% Six Hands Round lead thro' the top & Cast off :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 24
+T: Smiths Gardens
+%R: march, reel
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.12 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+|:\
+f2c2 c2BA | GABc A2GF |\
+BdG2 AcF2 | EGBA A2G2 :|\
+|:\
+CDEF GABc | FGAB cdef |\
+dfB2 cfA2 | BdcE F4 :|
+%%begintext align
+%%   First & 2d Cu. Right Hands across .|
+%% Left back again :| 1st & 2d Cu. Chassee :|.
+%% lead your partner off one Couple
+%% into the 2d Cu.s place :|:
+%%endtext

@@ -1,0 +1,20 @@
+X: 2303
+T: Marchioness of Tweeddale's Delight
+%R: triple hornpipe
+N: This is version 1, for ABC software that doesn't understand trailing grace notes.
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.30 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/2
+L: 1/8
+K: Gm
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+B2 G4 D2 TG4 | B2 G4 B2 ABcA | B2 G4 D2 TG3B | A2F2 F2c2 ABcA ::\
+G2g2 {a}Tg2^f2 g4 | d2g2 Tg3a b2g2 | d2g2 (ag)f=e Tf3 (e/f/) | A2F2 F2c2 ABcA :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+g4 g4 g4 | g4 g4 d4 | g4 G4 g4 | f4 f4 f4 ::\
+G4 g2d2 g4 | g4 g4 g4 | g4 G4 A2c2 | f4 f4 f4 :|

@@ -1,0 +1,28 @@
+X: 10642
+T: the DARK TOWER
+O: Irish air.
+Q: "Moderate."
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.64 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+d3 d2d | B3 G3 | A3- A2d | B3 G2z |\
+e3 d3 | c3 B3 | A3 ecA | G3 F2z |\
+d3 d2d | B3 G3 | A3 A2d | B3 G2z |
+~e3 efg | d3 ecA | G3 A3 | (^A3 B2)z |\
+~e3 efg | d3 ecA | G3 F3 | G3 zGA |\
+B2B Bcd | d2A ABA | GAB BAG | {A}G3 FGA |
+BcB Bcd | d2A B2g | f3 {f}ede | Hd3 zBc |\
+ded ded | BdB GBG | ABA ded | B3 G3 |\
+e3 d3 | c3 B3 | ~A3 ecA | G3 F2z |
+d2d ded | BdB GBG | ABA ded | B3 G3 |\
+~e3 efg | d3 ecA | G3 A3 | ^A3 B2z |\
+~e3 efg | dgf gec | B3 A3 | G3 z2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

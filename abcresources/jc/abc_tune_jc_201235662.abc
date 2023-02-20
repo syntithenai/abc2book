@@ -1,0 +1,22 @@
+X: 21291
+T: THE DEAD MARCH IN SAUL
+R: march
+B: K\"ohler's Violin Repository, v.2, 1885 p.129 #1
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+[|\
+vE2 E2 E3 E | ED/E/ FE D2 z2 | vF2 (FG/A/) F2 zuA | (GF) (E(3D/E/F/) E2 z2 |\
+vG2 G2 G3 G/A/ | (._B.B.B.A) G2 zuG | GF zuE ED zuG | GF/E/ FE D3 z |
+ve2 e2 e3 e | ed/e/ fe d2 z2 | vf2 (fg/a/) f2 zua | (gf) (e(3d/e/f/) e2 z2 |\
+vg2 g2 g3 g/a/ | (._b.b.b.a) g2 zug | gf zue ed zug | gf/e/ fe d3 z |
+v[G2B,2] [A2D2] B2 zuc | BA/G/ A^F GD (G2 | G4 G)z vA2- | AG/F/ (E>D) D2 z2 |\
+ve2 (ef/g/) e2 zue | dcfe d3 z | vg2 c'2 g2 zug | (fe/d/) (d>c) c3 z |
+vg2 a2 b2 zuc' | ba/g/ a^f gd g2- | g2 g2 (g/a/_b) b2 | (ag/f/) (e>d) d3 z |\
+ve2 (ef/g/) e2 zue | dcfe d3 z | g2 c'2 g2 zug | (fe/d/) (d>c) c3 z |
+ve2 e2 e3 e | ed/e/ fe d2 z2 | f2 (fg/a/) f2 zua | (gf) (e(3d/e/f/) e3 z |\
+vg2 g2 g3 g/a/ | (._b.b.b.a) g2 zug | gf zue ed zug | gf/e/ fe d2 z2 |
+[G2B,2] [A2D2] B2 zuc | BA/G/ A^F GD (G2 | G4 G)z vA2- | AG/F/ (E>D) D2 z2 |\
+e2 (ef/g/) e2 zue | dc fe d3 z | g2 c'2 g2 zug | (fe/d/) (d>c) c3 z "^D.C."|]

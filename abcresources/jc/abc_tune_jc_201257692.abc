@@ -1,0 +1,78 @@
+
+X: 1
+T: Odessa Bulgar #1   [Dm]
+R: bulgar, freylach
+M: 2/4
+L: 1/8
+B: Henry Sapoznik "The Compleat Klezmer" 1987
+D: Abe Schwartz Orchestra
+K: Ddor^G
+"A"[|] A,DF |:\
+"Dm"A2 G2 | A2 B2 | c2 B2 | AG F2 |\
+G/B/A2 A | AG FG | AB AG | FE FG ||\
+"Dm"A2 G2 | A2 B2 | c2 B2 | AG F2 |
+"A7"EF A/G/F | G2 A2 | "Dm"D3 A | A/G/F F2 |\
+"A7"EF A/G/F | G2 A2 |[1 "Dm"D4- | HD A,DF :|\
+[2 "Dm"D4- | D4 \
+"B"|:\
+"Dm"zd dd | dd dd |
+"E7"dc Bd | "Am"cB Ac |\
+"E7"BA GB | "Dm"AG F2 | "A7"EF A/G/F | G2 A2 |\
+"Dm"D3 A | A/G/F F2 | "A7"EF A/G/F | G2 A2 |\
+"Dm"D4- | D4 :|
+"C"|:\
+"Dm"D D2 A | A/G/F F2 | "A7"F/E/D EF | "Dm"GA F/E/D |\
+D D2 A | A/G/F F2 | "A7"ED EF | "Dm"E D3 :|
+
+
+X: 2
+T: Odessa Bulgar #1   [Em]
+R: bulgar, freylach
+M: 2/4
+L: 1/8
+B: Henry Sapoznik "The Compleat Klezmer" 1987
+D: Abe Schwartz Orchestra
+K: Edor^A
+"A"[|] B,EG |:\
+"Em"B2 A2 | B2 c2 | d2 c2 | BA G2 |\
+A/c/B2 B | BA GA | Bc BA | GF GA ||\
+"Em"B2 A2 | B2 c2 | d2 c2 | BA G2 |
+"B7"FG B/A/G | A2 B2 | "Em"E3 B | B/A/G G2 |\
+"B7"FG B/A/G | A2 B2 |[1 "Em"E4- | HE B,EG :|\
+[2 "Em"E4- | E4 \
+"B"|:\
+"Em"ze ee | ee ee |
+"F7"ed ce | "Bm"dc Bd |\
+"F7"cB Ac | "Em"BA G2 | "B7"FG B/A/G | A2 B2 |\
+"Em"E3 B | B/A/G G2 | "B7"FG B/A/G | A2 B2 |\
+"Em"E4- | E4 :|
+"C"|:\
+"Em"E E2 B | B/A/G G2 | "B7"G/F/E FG | "Em"AB G/F/E |\
+E E2 B | B/A/G G2 | "B7"FE FG | "Em"F E3 :|
+
+
+X: 3
+T: Odessa Bulgar #1   [Bm]
+R: bulgar, freylach
+M: 2/4
+L: 1/8
+B: Henry Sapoznik "The Compleat Klezmer" 1987
+D: Abe Schwartz Orchestra
+K: ^f^c^g^e	% B mishebeirach
+"A"[|] FBd |:\
+"Bm"f2 e2 | f2 g2 | a2 g2 | fe d2 |\
+e/g/f2 f | fe de | fg fe | dc de ||\
+"Bm"f2 e2 | f2 g2 | a2 g2 | fe d2 |
+"F#7"cd f/e/d | e2 f2 | "Bm"B3 f | f/e/d d2 |\
+"F#7"cd f/e/d | e2 f2 |[1 "Bm"B4- | HB FBd :|\
+[2 "Bm"B4- | B4 \
+"B"|:\
+"Bm"zb bb | bb bb |
+"C7"ba gb | "F#m"ag fa |\
+"C7"gf eg | "Bm"fe d2 | "F#7"cd f/e/d | e2 f2 |\
+"Bm"B3 f | f/e/d d2 | "F#7"cd f/e/d | e2 f2 |\
+"Bm"B4- | B4 :|
+"C"|:\
+"Bm"B B2 f | f/e/d d2 | "F#7"d/c/B cd | "Bm"ef d/c/B |\
+B B2 f | f/e/d d2 | "F#7"cB cd | "Bm"c B3 :|
+

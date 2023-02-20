@@ -1,0 +1,28 @@
+X: 1073
+T: Punchanello's Hornpipe
+T: the Three Rusty Swords
+R: minuet
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The time signature was 2/3, which doesn't make sense in modern notation; changed to 3/2.
+N: The 2nd part has initial repeat but no final repeat.
+M: 3/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: GABc d2G2 d2G2 | F2 A4 c2 B2A2 | GABc d2G2 B4 | D2 G4 B2 A2G2 :|
+|: g4   f4   e4   | f2 d4 f2 e2d2 | c4   B4   A4 | B2 G4 B2 A2G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: g4   z2G2 B2c2 | d4 f4  g2d2  | G4   g4   G4   | B4 G4 d2G2 :|
+|: z2G2 d2B2 c2A2 | d4 d'4 c'2b2 | a2A2 G2g2 f2e2 | g4 G4 d2G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The first Man and 2d Wo. dance the Hornpipe step & turn .|
+then the 2d Man and first Wo. do the same :|
+Then cross over below the 2d Cu. then below the 3d Cu & lead thro' both Couples & cast off & turn .|
+Then Men fall back, and the We. follow them dancing, and turn single.
+the We. fall back & the Men follow them and turn single dancing.
+%%endtext

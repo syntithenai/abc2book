@@ -1,0 +1,21 @@
+X: 1
+T:Flogging Reel, The
+R:reel
+H:Originates from a Scottish reel called "The Flagon Reel"
+N:Version 1 and version 2 - The third parts are different.
+D:Chieftains: Live. Oisin: Over the Moor to Maggie.
+D:Mary Bergin: Feadoga Stain 2.
+Z:id:hn-reel-1
+M:C|
+K:G
+BG~G2 BGdG|BG~G2 Bdgd|BG~G2 BdcB|1 ADFG ABcA :|2 AGFG ABcA||
+~g3d BGBd|~g2eg faaf|g2gd BddB|ADFG ABcA|
+~g3d BGBd|~g2eg fa~a2|bgaf gedB|AGFG ABcA||
+Bdgd Bdgd|Bdgd BG~G2|Ac=fc Acfc|Ac=fc BG~G2|
+Bdgd Bdgd|Bdef ~g3a|bgaf gedB|AGFG ABcA||
+"Version 2"
+|:BG~G2 BGdG|BG~G2 Bdgd|BG~G2 BdcB|AGFG ABcA:|
+~g3d BGBd|~g3e faaf|g2gd BGBd|AGFG ABcA|
+~g3d BGBd|~g3e fa~a2|bgaf gedB|AGFG ABcA||
+Bdgd Bdgd|Bdgd BG~G2|Adfd Adfd|Adfd BG~G2|
+Bdgd Bdgd|Bdef ~g3a|bgaf gedB|AGFG ABcA||

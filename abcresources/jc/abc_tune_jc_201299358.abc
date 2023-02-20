@@ -1,0 +1,29 @@
+X: 1
+T: Lady Cunningham's Strathspey
+R: strathspey
+Q: "Slow"
+S: Fiddle Hell Online 2020-11-05 Se\'an Heel Slow Airs Workshop
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The rhythm is a bit odd in the 2nd half of bar 3.
+M: C
+L: 1/16
+K: A
+% - - - - - - - - - -
+% Voice 1 preserves the source's staff layout.
+V: 1 staves=2
+Tc>B |\
+A2TA,2A,3C E3FE2c2 | TB3c {d}c2BA G2B2 B2Tc>B |\
+A2A,2TA,3C E2FE3d2 | {d}Tc3e {d}c2BA E2A2A2 :| Tc>d |\
+c3fe2c2 (a2g2f2e2) | Tf2ga (ec).B.A
+G2B2 TB2c>d |\
+e3fe2c2 (a2g2f2e2) | Tf2ga (ec)TBA E2A2 A2Tc>d |\
+.e2.c2.A2.a2 .f2.d2.B2.b2 | ({d}cBc).a (ec)TBA G2B2 B2cd |\
+{cd}e3d.c2.B2 .A2.G2.F2.E2 | (F/G/A3)  TE3C A,2A2A2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the source's staff layout.
+V: 2 clef=bass middle=d
+z2 |\
+A4A4 c4A4 | G4A4 e4E2z2 | a4A4 c4A4 | e4E4 A4A2 :| z2 |\
+c'4a4 f2e2d2c2 | d4a4
+e4 E2z2 | c'4a4 f2e2d2c2 | B4e4 A4A2z2 |\
+a4a4 a4a4 | a4A4 E4E2z2 | c'3ba2g2 f2e2d2c2 | d4e4 A4A2 |]

@@ -1,0 +1,32 @@
+X: 502
+T: MISS ANN MONRO
+C: R. MACKINTOSH
+R: Jig
+B: Glen Collection p.50 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: Bm
+%
+V: 1
+F |\
+B3 f3  | edc dcB | Acd edc | aed cBA |\
+B3 fgf | edc dcB | efd edc | dBB B2 :|
+c |\
+dfB dbB | dcB fdB | ceA caA | cBA edc |\
+dfB dbB | dcB fdB | efd edc | dBB B2c |
+dfB dbB | dfB dbB | ceA caA | ceA caA |\
+BdB cec | dfd ege | fgf edc | dBB B2 |]
+%
+V: 2
+z |\
+b3 [f'3d'3] | f3 [f'3d'3] | a3 [e'3c'3] | e3 [e'3c'3] |
+b3 [d'3b3]  | f3 [f'3d'3] | f3 ^a3 | b3 [b2f2d2B2] :|
+z |\
+b3 [f'3d'3] | f3 [f'3d'3] | a3 [e'3c'3] | e3 [e'3c'3] |
+b3 [f'3d'3] | f3 [f'3d'3] | f3 ^a3 | b3 B3 |
+b3 [f'3d'3] | f3 [f'3d'3] | a3 [e'3c'3] | e3 [e'3c'3] |
+b3 ^a3 | b3 [e'3b3g3] | [d'3f3] ^a3 | b3 [b2f2d2B2] |]

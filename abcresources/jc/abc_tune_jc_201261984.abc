@@ -1,0 +1,40 @@
+%%scale       0.80
+%%topmargin   0.80cm
+%%leftmargin  2.00cm
+%%botmargin   0.80cm
+%%titlespace 10pt
+%%titleleft  true
+%%musicspace 10pt
+%%staffsep   20pt
+%%staffwidth  3.00cm
+%%partsfont Times-Roman 18.0
+%%textfont  Times-Roman 18.0
+
+X: 1
+T: Common chords and progressions for folk music
+R: reel
+N: arr. T. Traub 8-6-2016
+M: none
+L: 1/2
+K: C
+%%text C Major (CM)
+[CEGc] |
+%%text C minor (Cm)
+[C_EGc] |
+%%text C seventh (C7)
+[CEG_B] |
+%%text C Sus4
+[CFG] |
+%%text C Dim % (C∫)
+[C_E_GA] |
+%%text C Major 7th (CM7)
+[CEGB] |
+%%text C6
+[CEGA] |
+%%text 1 4 5 progression
+%%staffwidth 5.750cm
+[CEG] [FAc] [GBd] |
+%%text 1 6 2 5 (Heart and Soul) progression
+%%staffwidth 5.750cm
+[CEG] [A,CE] [DFA] [G,B,D] |
+

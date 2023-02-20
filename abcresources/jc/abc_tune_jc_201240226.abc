@@ -1,0 +1,43 @@
+X: 37
+T: la Bientot faite.
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #37
+N: The middle part of the instructions should probably be 1/2, not 2/1.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+A>BA |\
+FDd e>de | f2d [A2D2]d | [B2D2]g {f}e2d | c3 ABA |\
+FDd e>de | f2d [f2A2D2]a | [g2B2D2]b ABc | d3 :|
+|: fga |\
+afd dcd | e3 efg | gec cBc | d3 dcd |\
+e2e fef | g2g aga | bag f2e | d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+d3 |\
+d2f a2A | d2f d2f | g2b g2^g |
+a3 c3 | d2d c2A | d2f d2f | g2e a2A |
+d3 :||: d3 | d3 B3 | A3 e3 | c3
+A3 | d3 f3 | g3 a3 | b3 f3 |
+g3 a2A | d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Bientot faite.
+%%begintext align
+%%   Le Grand Rond. Then fall in two Lines - 2/1
+%%endtext
+%%begintext align
+%%   Contretems Forward and Rigaudon, then
+%% hands Round four and four, finishing in
+%% opposite Lines - - - - 2/1
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%%sep 1 1 400

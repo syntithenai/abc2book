@@ -1,0 +1,23 @@
+X: 20402
+T: the HEAVING OF THE LEAD
+Q: "Moderato"
+%R: reel, march
+B: "Edinburgh Repository of Music" v.2 p.40 #2 - p.41 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The d in bar 12 has a "wrong" length, maybe to start the adagio section.  Not fixed.
+M: C
+L: 1/8
+K: G
+(G>A) |\
+B2B2 A2(c>A) | G2TF2 G2zD |\
+(GA)(Bc) d3d | (ef)(ge) d2zd |\
+g3f e3d | (cB)(AG) F2zA |
+d2d2 (Be)(fg) | d2(T^c2 {Bc}d2)zd |\
+g3g (gf2)f | (fe)(e2 {e}d2)zd |\
+dB2 (ec) A2d | (BG2) ^c2 d4 |\
+"_Adagio ad lib:"A>G TA2 G4 |
+B>B Tc2 {Bc}HB3B |\
+"A Tempo."(Ae)(dc) (cB)(dB) | (Ae)(dc) (cB)(dB) |\
+(cB)(AB) (cB)(de) | (ed)(ef) Hg4 |\
+B3c B2(TA2{GA}y) | G6 |]

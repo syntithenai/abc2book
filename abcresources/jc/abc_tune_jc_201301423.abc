@@ -1,0 +1,21 @@
+X: 1
+T: the Left-Handed Fiddler
+C: J.S.Skinner
+N: H&C p.95, Battlefield's version p.31, Hunter 240)
+N: This has the commonly-played final ending, with Skinner's original ending as the final coda.
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+"A"[|]d \
+| "A"cAce {g}a2ed | cAEA "E7"GB-Bd |\
+"A"cAce "D"aefd | "E7"ecdB "A"cAAd |\
+"A"cAce {g}a2ed | cAEA "E7"GB-BG |
+"A"Ac"E"Bd "A"ce"D"df | "E7"ecdB "A"cAA \
+"B"|[| g |\
+"A"~a2Aa caAa | caAa "E7"BcdB |\
+"A"~a2Aa caAa | "E7"BcdB "A"cAAg |
+"A"~a2Aa caAa | caAa "E7"BcdB |\
+[1 "A"cA"E"dB "A"eagf | "E7"ecdB "A"cAA :|\
+[2 "A"~AEcA "Bm"dBec | "E7"fdge "A"{g}aAA |]
+%%text The 2nd ending is Skinner's; most people play only the 1st ending.

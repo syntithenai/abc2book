@@ -1,0 +1,48 @@
+
+X: 1
+T: Shiroh Hora
+O: Sid Beckerman/Howie Lees
+D: "Klezmer Plus"
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+N: from printed transcription by Steve Rauch
+Q: "Zhok"
+M: 3/4
+L: 1/8
+K: Dphr^F
+A, "A"\
+| "D"D3 FAF | "Gm"G3 ABG | "D"A3 GFE | D4 D2 \
+| FA F2 D2 | "Gm"G3 ABG | "D"A3 DFA | "Cm"ed cA FE |
+| "D"D3 FAF | "Gm"G3 AB=B | "Cm"c3 ded | "Cm"c4 z2 \
+| "D"c2 (3zAc "Gm"(3BAG | "D"A2 (3zFA "Cm"(3GFE |\
+"D"F2 (3zEF "Cm"EDC | "D"D4 z :|
+|: D "B"\
+| "Gm"G2 G2 G2 | B3 AAG | B6 | z4 "D7"D2 \
+| "Gm"B3 AAG | B3 AAG | "Cm"c3 BAG | "D"A4 D2 |
+| "Gm"G2 G2 G2 | B3 AAG | "Cm"c3 ded | c4 z2 \
+| "D"c2 (3zAc "Gm"(3BAG | "D"A2 (3zFA "Cm"(3GFE \
+| "D"F2 (3zEF "Cm"(3EDC | "D"D4 z :|
+
+%%sep 1 1 500
+
+X: 2
+T: Shiroh Hora
+O: Sid Beckerman/Howie Lees
+D: "Klezmer Plus"
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+N: from printed transcription by Steve Rauch
+Q: "Zhok"
+M: 3/4
+L: 1/8
+K: Ephr^G
+B, "B"\
+| "E"E3 GBG | "Am"A3 BcA | "E"B3 AGF | E4 E2 \
+| GB G2 E2 | "Am"A3 BcA | "E"B3 EGB | "Dm"fe dB GF |
+| "E"E3 GBG | "Am"A3 Bc^c | "Dm"d3 efe | "Dm"d4 z2 \
+| "E"d2 (3zBd "Am"(3cBA | "E"B2 (3zGB "Dm"(3AGF |\
+"E"G2 (3zFG "Dm"FED | "E"E4 z :|
+|: E "C"\
+| "Am"A2 A2 A2 | c3 BBA | c6 | z4 "E7"E2 \
+| "Am"c3 BBA | c3 BBA | "Dm"d3 cBA | "E"B4 E2 |
+| "Am"A2 A2 A2 | c3 BBA | "Dm"d3 efe | d4 z2 \
+| "E"d2 (3zBd "Am"(3cBA | "E"B2 (3zGB "Dm"(3AGF \
+| "E"G2 (3zFG "Dm"FED | "E"E4 z :|

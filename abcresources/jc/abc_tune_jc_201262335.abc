@@ -1,0 +1,17 @@
+X: 1
+T: Ciganko
+O: Bulgaria
+F: http://www.youtube.com/watch?v=Kced_9ROq-E
+F: http://www.youtube.com/watch?v=TjBFpGfol3M
+Z: Seymour Shlien http://ifdo.ca/~seymour/runabc/balk1.abc
+M: 2/4
+L: 1/8
+K: C_e
+Q:1/4=180
+%%MIDI gchord fz
+|:\
+"Bdim"B3c | d2d2 | d2d2 | d2d2 |\
+"Dm"f4 | "C"e4 | "Dm"d4- | d4 :|
+:\
+"C"e4 | c4 | "Bdim"B4 | Bcd2 |\
+"C"e4 | c4 | "Bdim"B4 | B4 :|

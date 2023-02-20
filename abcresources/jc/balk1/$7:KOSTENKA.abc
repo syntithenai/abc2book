@@ -1,0 +1,17 @@
+X: 247
+T:Kostenka
+O:Serbia
+F: http://www.youtube.com/watch?v=-J8yTIuD8V4
+M:2/4
+L:1/8
+Q:1/4=192
+K:Ebm
+%%MIDI drum dzdz 36 42 50 80
+%%MIDI drumon
+|: z2D2       |EFG2|F4  |E4  |E2D2|EFG2|F4  |E4   :|
+|: A2G2       |G2F2|F2E2|E2z2|A2G2|G2F2|F2E2|E2z2 :|
+K:Eb
+|: GABG       |E2E2|GABG|E2E2|GABG|E2E2|FEE2|E4   :|
+K:C
+|: cBAG       |F2E2|cBAG|F2E2|cBAG|F2E2|G2EC|G,4  :|
+|: E2GE       |F2E2|E2GE|F2E2|E2GE|F2E2|G2EC|G,4  :|

@@ -1,0 +1,16 @@
+X: 229
+T: Kapepek
+O: Serbia
+N: Ansambl Arhaika
+F: http://www.youtube.com/watch?v=cVwNiXeyshs
+M: 2/4
+L: 1/8
+K: Am
+%%MIDI drum dddd 43 43 36 50 70 50 60 50
+%%MIDI drumon
+%%MIDI program 71 Clarinet
+Q:1/4=192
+d2 dc|BG AG|zddc|BG AG|\
+d2 dc|BG AG|zddc|BG AG|
+G2 A2|d2 A2|GA AA|d2 A2|\
+GA AA|d2 A2|GA AA|d2 A2:|

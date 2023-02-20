@@ -1,0 +1,5 @@
+X: 1
+T: TEST: Two multiple endings, with chords.
+%%staffwidth 300
+K: C
+|: "C"CD EF |1,3 "G7"GA B2 :|2,4 "G7"GA "C"Bc |]

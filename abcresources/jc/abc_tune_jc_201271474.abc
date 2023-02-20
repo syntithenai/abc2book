@@ -1,0 +1,24 @@
+X: 1
+T: the Dutches
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.178
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B2 |\
+(c2A2)c2 (B2E2)B2 | c2(AB) (cA) (B2E2)B2 | cde2c2 B2E2^G2 | A4a2 a4B2 | c3BA2 B3A^G2 | A3B (A/B/c) B3cd2 |
+c3BA2 B3A^G2 | A4a2 a4B2 | e2(cd) (ec) g3ag2 | d2(Bc) (dB) f4f2 | f2gfe2 e2fed2 | d3edc d2B2G2 | c3d cd d4c2 |
+c2E2G2 G2E2C2 | f3e dc B2E2B2 | c2(AB) (cA) B2E2B2 | cBcd ec edef ge | ^fefg a^f ^g4a2 | (e2B2)c2 (B2E2)^G2 | A6- A4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man cast off and slip up the middle, the 1. wo. goes down the middle and cast up at the same
+%% time; the 2. man cast up and go down the middle, the 2. wo. goes down the middle, and cast off into
+%% their own places; the 1. cu. cast off and go quite round the 2. cu. into their own places, and all four
+%% take hands and go quite round till they come into their own places, the 1. cu. cast off.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

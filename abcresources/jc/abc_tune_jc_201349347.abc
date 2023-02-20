@@ -1,0 +1,37 @@
+X: 1
+T: Vals efter Vilhelm Hedlund    [Dm]
+C: efter Edvard S\"oderlund
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+A,2 |: "Dm"A,2 D2 F2 | A4 d2 | (3ded ^c2 d2 | "A7"e4 A2 \
+| "Dm"(3fgf e2 d2 | "A7"^c4 A2 | "Gm"(3BcB A2 G2 | "A7"A4 A,2 |
+| "Dm"A,2 D2 F2 | A4 d2 | (3ded ^c2 d2 | "A7"e4 A2 \
+| "Dm"(3fgf e2 d2 | "A7"^c4 A2 | (3FGF E2 ^C2 | "Dm"D4 :|
+|| "(C7)"c2 |: "F"c2 aa a2 | c2 aa a2 | a2 b3 a | "C7"a4 g2 \
+| B2 gg g2 | B2 gg g2 | "A7"g2 a3 g | "Dm"g4 f2 |
+| "Dm"A2 ff f2 | A2 ff f2 | "Gm"f2 g3 f | e4 d2 \
+| "A7"^c3 dc=B | A2 ^c2 e2 | (3fgf e2 ^c2 | "Dm"d4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Vals efter Vilhelm Hedlund    [Em]
+C: efter Edvard S\"oderlund
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Em
+B,2 |: "Em"B,2 E2 G2 | B4 e2 | (3efe ^d2 e2 | "B7"f4 B2 \
+| "Em"(3gag f2 e2 | "B7"^d4 B2 | "Am"(3cdc B2 A2 | "B7"B4 B,2 |
+| "Em"B,2 E2 G2 | B4 e2 | (3efe ^d2 e2 | "B7"f4 B2 \
+| "Em"(3gag f2 e2 | "B7"^d4 B2 | (3GAG F2 ^D2 | "Em"E4 :|
+|| "(D7)"d2 |: "G"d2 bb b2 | d2 bb b2 | b2 c'3 b | "D7"b4 a2 \
+| c2 aa a2 | c2 aa a2 | "B7"a2 b3 a | "Em"a4 g2 |
+| "Em"B2 gg g2 | B2 gg g2 | "Am"g2 a3 g | f4 e2 \
+| "B7"^d3 ed=c | B2 ^d2 f2 | (3gag f2 ^d2 | "Em"e4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500

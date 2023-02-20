@@ -1,0 +1,43 @@
+X: 1
+T: the Coronation Day
+P: Longways for as many as will
+%R: march, reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.109 #158 (218)
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.8
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain is to be played twice over" instruction in DMDfD.
+N: Illegible right-edge parts in CCDM1 corrected from DMDfD.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c2 |\
+f2e2 f2c2 | f4 c3c | d2(BA) G2c2 | A2 F4 :: A2 | B3c d2(cB) | A3G F2A2 |
+B3c d2(cB) | A3B c2(BA) | (G2A2) (B2c2) | d3e f2A2 | B2A2 G2c2 | A2 F4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu. lead down in the contrary Place, the 2d Cu. cast
+%% up at the same Time, and cross over; the 2d lead down as before;
+%% 1st Cu. cast up in their own Place; 1st Man go within side
+%% round his Woman into her Place, she turning single at the
+%% same Time into the 2d Wo. Place, she going round her Man
+%% at the same Time, he turning single into the 1st Man't Place.
+%% 1st Cu. lead thro' the 2d then the 1st Man's Place, then turn
+%% single all four; 1st Cu. cross over into the 2d Cu. Place,
+%% they leading up at the same Time, cross into their own Place.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% First cu. lead down in the contrary place, the 2. cu. cast up at the same time, and cross over;
+%% Second lead down as before; first cu. cast up into their own place; First man go within side round
+%% his wo. into her place, she turning single at the same time into the 2. wo's place, she going round
+%% her man at the same time, he turning single into the 1. man's place, 1. cu. lead through the 2. then the
+%% 1. man's place; turn single all four; 1. cu. cross over into the 2. cu. place, they leading up at
+%% the same time, cross into their own place.
+%% [DMDfD]
+%%endtext
+%%sep 1 1 300
+%%text Note: Each Strain is to be played twice over.
+%%sep 1 8 500

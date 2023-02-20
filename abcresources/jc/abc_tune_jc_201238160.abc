@@ -1,0 +1,16 @@
+X: 3030
+T: Minuet
+%R: minuet, waltz
+B: Henry Playford "Apollo's Banquet", London 1687 (5th Edition)
+F: https://archive.org/details/apollosbanquetco01rugg
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: Initial "pickup" rest added to fix the rhythm of repeats.
+M: 3/4
+L: 1/8
+K: Am
+% - - - - - - - - - -
+z2 |\
+A^G AB  A2 | B2  B2  E2 | A2 ^G2 A2 | B4 B2 |\
+cB  cd  c2 | B2  B2  E2 | A2 B2 ^G2 | A4 :: e2 |\
+d2 (cB) e2 | c2 (BA) B2 | c2 (d3c/d/) | He4 |]
+% - - - - - - - - - -

@@ -1,0 +1,57 @@
+%%text RJ Set 040 Reels
+
+
+X: 1
+T: Brenda Stubbert's
+C: Jerry Holland
+I: RJ R-121 A Dor reel
+M: C|
+R: Reel
+K: ADor
+"^A"[|] B |\
+"Am"A/A/A BA GAAB | A/A/A B[dA] edd \
+[1,3 e | "G"G/G/G BA BGGB | "F"c2BA "G"BGG :|\
+[2,4 a | "G"gedB GABd | e2dB "Am"eAA :|
+"^B"|:: B |\
+"Am"A/A/A a2 A/A/A g2 | Aage age \
+[1,3 g | "G"G/G/G BA BGGB | "F"c2BA "G"BGG :|\
+[2   a | "G"gedB GABd | e2dB "Am"eAA :|
+"^B4"[|]\
+[4   B | "Am"A/A/A BA GAAB | A/A/A B[dA] edda \
+       | "G"gedB GABd | e2dB "Am"eAA |]
+%%text Occasionally play the B part down an octave.
+
+
+X: 2
+T: Gordon Cot\'e
+C: Jerry Holland
+I: RJ R-121 A reel
+M: C|
+R: reel
+K: A
+E |\
+"A"A2cA    EACE | A,CEA caga | "D"fdBd "A"ecAc | "Bm"BFBA "E"GBEG ||\
+"A"A/A/AcA EACE |
+                  A,CEA caga | "D"fdBd "A"ecAc | "E"BEFG "A"A3 :: g |\
+"A"abag aece | "D"fefg "A"aece |
+                                 "D"fdBd "A"ecAc | "Bm"BFBA "E"GBEg ||\
+"A"abag aece | "D"fefg "A"aecA | "D"FAdf "A"ecae | "E"dEFG "A"A3 :|
+
+
+X: 3
+T: Homeward Bound
+I: RJ R-121 D reel
+M: C|
+R: reel
+K: D
+A, |\
+"D"D2DE FEDF | A2AF    "Em"ABde |\
+"D"f<aed "G"B2dB | "D"AFEF "A"DB,A,B, ||\
+"D"D2DE FEDF | ~A2AF "Em"ABde |
+"D"f<aed "G"B2dB | "A"AFEF "D"~D2D :: g |\
+"D"fdfg afdf | "Em"~e2ed "A"efg2 | "D"fdfg afdf |
+"A"edef "D"~d2dg ||\
+"D"fdfg afdf | "Em"~e2ed "A"efg2 | "D"f{g}aed "G"B2dB |\
+[1 "A"AFEF "D"~D2D :|[2 "A"AFEF "D"DB,A,B, |]
+% text 08/29/98
+

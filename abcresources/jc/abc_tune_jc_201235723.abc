@@ -1,0 +1,34 @@
+X: 21331
+T: FREE SUFFRAGE SETT (tune 4)
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.133 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Rest added as "pickup note" to 2nd strain to fix the rhythm.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+A2 |\
+d2 d4 cd | fedc BABc | d2 d4 cd | e4 a2A2 |\
+d2 d4 cd | fedc BABc | dfBd egce | d2d2d2 H|]
+z2 |\
+AFDF AFdA | B2B2 B4 | ecAc ecge | d2d2 d4 |\
+AFDF AFdA | BGEG BGdB | Aceg fedc | dDEF GAB"^D.C."c |]
+K: Dm
+A2 |\
+d3e f2f2 | e2a2a2A2 | d3e f2f2 | e2A2A2A2 |\
+d3e f2f2 | e2a2a2A2 | eadf eg^ce | dDE^F GA=B"^D.C."^c |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two ladies back to back,
+%% partners the same,
+%% balance four and turn,
+%% ladies chain,
+%% promenade four,
+%% sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

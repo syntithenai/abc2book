@@ -1,0 +1,17 @@
+X: 410
+T: Barrack Hill
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #410
+R: single jig
+%S: s:5 b:20(4+4+4+4+4)
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0410/oneill-1001-0410-1.abc
+M: 6/8
+L: 1/8
+K: Ador
+"^A"\
+|: e2A A2f | e2d Bcd | e2A A2B | G2A Bcd ||
+|  e2A A2f | e2d Bcd | e2d g2B | A3 A3 :|
+"^B"\
+|:  e2d efg | a2b g2e | d2e d2B | d2e dcB |
+|[1 e2d efg | a2b g2e | d2B g2B | A3 A3 :|
+|[2 e2d e2f | g2a b2a | g2e d2B | A2a agf |]

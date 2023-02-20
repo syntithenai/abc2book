@@ -1,0 +1,31 @@
+X: 11192
+T: I PRITHEE SEND ME BACK MY HEART.
+C: Miller.
+Q: "Moderate."
+%R: air, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.119 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+G3A (Bc)(dc) | B2G2 G2{AB}c2 |\
+{c}B2(AG) (AB)(cB) | A4 z2D2 |\
+(EG)(FA) G2Ac | (Bd)(ge) {d}^c2(BA) |\
+(df)(eg) (fe)(d^c) | {cd/e/}d4 z2B2 |\
+(Ad)(BG) (FD)(E>F) | D4 z2z |]
+A |\
+d3=f (ec)(BA) | (dc)(BA) {A}^G3^F/E/ |\
+(Ac)(Bd) (cB)(A^G) | {G2}A4 z2zA |\
+c2 (e/d/c/B/) c2zB | (3(ABc) (3(BAG) {G}HF2zc |\
+{c}B2(AG) {B}A2(GF) | (G>BA>c B3c) |\
+(Be)(dc) (BA)(GF) | G4 z2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Composed for the song by Sir John Suckling.
+%%endtext
+%%sep 1 1 300

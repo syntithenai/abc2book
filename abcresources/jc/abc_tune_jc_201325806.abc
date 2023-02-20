@@ -1,0 +1,26 @@
+X:1
+T: Porter's Lamentation
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/4
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 32 notes)
+K:G
+M:6/4
+L:1/16
+G4 G4 A3 B G4 G8 |c4 c2 e2 d2 B2 A4 A8 |B2 c2 d2 B2 c2 d2 e6 d2 e2 B2 |c2 d c B2 G2 A3 B G4 G8 |
+%W: A2
+% voice 1 (1 lines, 32 notes)
+G4 G4 A3 B G4 G8 |c4 c2 e2 d2 B2 A4 A8 |B2 c2 d2 B2 c2 d2 e6 d2 e2 B2 |c2 d c B2 G2 A3 B G4 G8 |
+%W: B1
+% voice 1 (1 lines, 41 notes)
+g4 g2 a g f2 d2 e4 e2 f e d2 B2 |c4 c2 d c B2 G2 d12 |d3 c B2 A2 B2 G F E2 e2 e3 d e2 B2 |c2 d c B2 G2 A3 B G4 G8 |
+%W: B2
+% voice 1 (1 lines, 41 notes)
+g4 g2 a g f2 d2 e4 e2 f e d2 B2 |c4 c2 d c B2 G2 d12 |d3 c B2 A2 B2 G F E2 e2 e3 d e2 B2 |c2 d c B2 G2 A3 B G4 G8 ||

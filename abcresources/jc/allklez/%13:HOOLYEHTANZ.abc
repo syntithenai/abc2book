@@ -1,0 +1,42 @@
+X: 13
+T: a Hoolyeh Tanz
+C: Bob Follansbee (1997-9-27)
+M: 4/4
+L: 1/8
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+K: Gm
+V:1
+P: A
+|:d^cd \
+| "Gm"g2 d2 zd ^cd | B2 G2 zd ^cd \
+| g>a b/a/g  "F"(3fgf "Eb" (3efe | "Gm"d4 zd e=e |
+| "Bb"f>g _a/g/f ed cB | "Cm"c/d/e c=B c2 z^c \
+| "D"^cd zc (3dcB (3BAG |1 "Gm"G4 z :|2 "Gm"G2 z2 "F"F2 z2 |
+V:2
+|:z3|Z7|[1z4 z:|[2Z|
+P: B
+V:1
+| "Bb"(3BBB "F"(3ccc "Bb"(3ddd "F7"e>e | "Bb"(3ddd "F7"(3eee "Bb"(3fff "Ebm"_g>g \
+| "Bb"fd- df "Ebm"_gb ag | "Bb"f2 (3d^cd "F7"f2 zf
+| "Bb"(3BBB "F"(3ccc "Bb"(3ddd "F7"e>e | "Bb"(3ddd "F7"(3eee "D"(3^fff "Bm"g>f \
+| "Gm"gd- dg "D7"^fg ba | "Gm"g2 z2 "F7"f3 f
+| "Bb"[dB][dB] "F"[ec][ec] "Bb"[fd][fd] "F7"[ge]>[ge] \
+| "Bb"[fd][fd] "Eb"[ge][ge] "F"[af][af] "Ebm"[b_g]>g \
+| "Bb"fd- df "Ebm"_gb ag | "Bb"f2 (3d^cd "F"f2 zf
+| "Bb"[dB][dB] "F"[ec][ec] "Bb"[fd][fd] "F7"[ge]>[ge] \
+| "Bb"[fd][fd] "Eb"[ge][ge] "D"[a^f][af] "Bm"[bg]>a \
+| "Gm"gd- dg "D7"(3gfg  (3bag | "Gm"g4 z2 g2 |
+V:2
+|Z16|
+P: C
+V: 1
+|  "D"^f2 z2 z2 f2 | "Gm"g2 z2 z2 g2 | "D7"a2 z2 z2 d2 | "Gm"g2 z2 z2 g2 \
+| "D7"^f2 z2 z2 f2 | "Gm"g2 z2 z2 d2 | "Cm"dc- cB "D7"(3d^cB (3BAG | "Gm"G4 z2 g2
+|  "D"^f2 z2 z2 f2 | "Gm"g2 z2 z2 g2 | "D7"a2 z2 z2 d2 | "Gm"g2 z2 z2 g2 \
+| "D7"^f2 z2 z2 f2 | "Gm"g2 z2 z2 d2 | "Cm"dc- cB "D7"(3d^cB (3BAG | "Gm"G4 z |]
+V: 2 clef=bass middle=d
+|  "D"z2 c2 ^f2 z2 | "Gm"z2 d2 g2 z2 | "D7"z2 d2 a2 z2 | "Gm"ga =bg =Bc ^cd \
+| "D7"z2 c2 ^f2 z2 | "Gm"z2 d2 g2 z2 | "Cm"e2 g2 a4 | "Gm"g2 d2 G2 z2
+|  "D"A2 c2 ^f2 z2 | "Gm"=B2 d2 g2 z2 | "D7"c2 d2 a2 z2 | "Gm"ga =bg =Bc ^cd \
+| "D7"A2 c2 ^f2 z2 | "Gm"=B2 d2 g2 f2 | "Cm"e2 g2 a4 | "Gm"g2 d2 G |]

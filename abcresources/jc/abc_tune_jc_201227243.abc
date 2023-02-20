@@ -1,0 +1,28 @@
+X: 10693
+T: COTILLION No. 1. tune 6
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.69 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Short rests added in bars 2,6 to fix the rhythm. (A double dot on the previous note would also work.)
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d/e>f !segno!|\
+g3d B>BB>B | dcA3 z/c/B>A | G2G,2 B,>DG>B | A>d^c>d D>de>f |\
+g3d B>BB>B | dcA3 z/A/c>e | d3c B>cA>B | G2g2 G2 H|]
+F>G |\
+A>GF>E D>cB>A | G>G,B,>D G>Bd>B | A>GF>E D>cB>A | G>G,B,>D G>Bd>g |\
+e>cG>E C>ef>g | d>BG>D G,>Bc>d | c>Aa>c B>Gg>B | A2d2 D2F>"^D.C."B |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 chassa across partners,
+%% and back,
+%% forward and back four,
+%% balance and turn partners,
+%% side couples the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,23 @@
+X: 08110
+T: SUSIE'S WALTZ
+C: Bob McQuillen 14 Nov 90
+B: Bob's Note Book 8 #110
+%R: waltz
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: G
+GA \
+| "G"B2A | GBd | "C"e3 | "G"d2d | "G"g2d | "Em"dBd | "Am"c>Bc | "D7"Adc |\
+| "G"B>AB | GBd | "C"e3 | "G"dg"C"e | "G"dBG | "D7"A>BA | "G"G3- | G :|
+|: Bd \
+| "C"e>ce | gfe | "G"ed>e | dBd | "D7"c>Bc | ABc | "G"e3 | "G7"dBd |\
+| "C"e>fg | age | "G"d>ef | "C"gde | "G"dBc | "D7"B2A | "G"G3- | G :|
+%%begintext align
+%% If you've ever been to
+%% the "Lady of the Lake" dance camp on Lake Coeur
+%% D'Alene, Idaho, then you, too, have met a lovely
+%% Lady of the Lake named Susie Winegardner.
+%% If you don't believe me, go see for yourself!
+%% Love to you, Susie!
+%%endtext

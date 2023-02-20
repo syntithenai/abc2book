@@ -1,0 +1,33 @@
+X: 1006
+T: Willey Wilky
+P: Longways for as many as will.
+N: AKA Cobler's Hornpipe
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+d2 |\
+c2F2 ABcA | c2F2 F2d2 | c2F2 ABcA | G2 C4 d2 |\
+c2F2 ABcA | c2F2 ABcA | G4 A3G | F2 D4 :|
+|: c2 |\
+f3g (Tg3f/g/) | a2 F4 c2 | f3g (Tg3f/g/) | a2 G4 de |\
+f2ef g2fg | a2ba g2fe | defd cdcA | F2 D4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+f8 | f8 | F8 | c8 |\
+f8 | f8 | e4 ^c4 | d6 :|
+|: z2 |\
+f4 c4 | f2g2 a2e2 | f4 c4 | f2e2 e2c2 |\
+d2z2 e2z2 | f2z2 e2z2 | d2z2 A2z2 | d6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. foot it and turn single all four Hands with the 2d Cu. and back again
+%% cross over, Figure in, lead up and then down, and then lead thro the 2d Cu. at top .
+%%endtext

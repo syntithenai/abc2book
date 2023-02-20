@@ -1,0 +1,22 @@
+X: 2141
+T: the Cove of Cork.    or Orchills Favourite
+%R: air, waltz
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.14 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Note the 6-bar phrases.
+M: 3/8
+L: 1/8
+Q: "Slow"
+K: F	% and/or Dm
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+V: 1 staves=2
+f |\
+{d}Tc2B | A2G/A/ | FDf | (c/B/)A/G/F | GAc | d2 :| A | Tfef | {ef}gfe | ~dAD | Tfef | {ef}gfe |
+Td2D |[1 fef | {ef}gfe | d>ef | (c/B/)A/G/F | GAc | d2 :|[2 (f/g/a).A | (e/f/g).A | {AB}cAf | (c/B/)A/G/F | GAc | d2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | f3 | f2e | d2b | a2f | efe | d2 :| z | d^cd | ed^c | d2D | d^cd | ed^c |
+d3 |[1 d^cd | eda | b3 | a2f | efe | d2 :|[2 f2d | ^c2A | f3 | a2f | efe | d2 |]

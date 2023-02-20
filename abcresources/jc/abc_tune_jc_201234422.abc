@@ -1,0 +1,22 @@
+X: 20501
+T: AH COLIN, WHY.
+O: Old air.
+Q: "Slow."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.50 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+% %stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G4(3(GAB) | {B2}A4G2 | B2B2(3(Bcd) | {d2}c4B2 |\
+d4g>e | d4g>e | (e<d)(d<c)(c<B) | {B2}A6 :|\
+|:\
+(3(ded)d2c2 | B3cd2 | (3(ded)d2c2 | B3cd2 |\
+g2f2e2 | d2f2g2 | (3(edc)B2A2 | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,51 @@
+X:1
+T:Trip to Kareol
+M:13/8
+L:1/8
+R:reel
+K:Emin
+
+% repeat this section
+E2B2 A2E GAB A2E | GABG AGE GAB FGF |
+E2B2 A2E GAB A2E | GABG AGE GAB ~F3 |
+E2B2 A2E GAB A2E | GABG AGE GAB FGF |
+E2B2 A2E GAB A2E | GABG AGE GAb ~F2E |
+
+FGAB cBA Bde B2G | FGAB cBA Bde B2G |
+ABcd edc Bdg B2G | FGAB cBA GFE E2D |
+FGAB cBA Bde B2G | FGAB cBA Bde B2G |
+ABcd edc Bdg B2G | FGAB cBA GFE E2D |
+
+E2B2 A2E GAB A2E | GABG AGE GAB FGF |
+E2B2 A2E GAB A2E | GABG AGE GAB ~F3 |
+E2B2 A2E GAB A2E | GABG AGE GAB FGF |
+E2B2 A2E GAB A2E | GABG AGE GAb ~F2E |
+
+FGAB cBA Bde B2G | FGAB cBA Bde B2G |
+ABcd edc Bdg B2G | FGAB cBA GFE E2D |
+FGAB cBA Bde B2G | FGAB cBA Bde B2G |
+ABcd edc Bdg B2G | ABcd egf egf efe |
+
+^d2e2 f2f efg efg | f2g2 a2f gba gfe |
+^d2f2 bfb efg fdB | cega fdB egf efe |
+^d2e2 f2f efg efg | f2g2 a2b c’bg fdB |
+c2g2 ABc Bcd GAB | dega cBG EEE E3 |
+
+% percussion break
+
+% play this section 8 time
+E2G2 F2D EFG F2D | EFGE FED EDB, A,2B, |
+% added as harmony after 3-4 times
+% E2B2 A2F GAB A2F | GABG AGF GAB FGF |
+
+FGAB cBA Bde B2G | FGAB cBA Bde B2G |
+ABcd edc Bdg B2G | FGAB cBA GFE E2D |
+FGAB cBA Bde B2G | FGAB cBA Bde B2G |
+ABcd edc Bdg B2G | ABcd egf egf efe |
+
+^d2e2 f2f efg efg | f2g2 a2f gba gfe |
+^d2f2 bfb efg fdB | cega fdB egf efe |
+^d2e2 f2f efg efg | f2g2 a2b c’ba gfe |
+^d2f2 bfb efg fdB | cega fdB egf ezz |
+^d2e2 f2f efg efg | f2g2 a2b c’bg fdB |
+c2g2 ABc Bcd GAB | DFAB cBG EEE E3 |

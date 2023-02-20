@@ -1,0 +1,20 @@
+X: 1
+T: the Beaver Hat
+T: Jerry's Beaver Hat
+T: the Cat in the Corner
+T: Paddy Get Up
+O: Ireland
+B: Francis O'Neill: "Music of Ireland: 1850 Melodies", 1903, p.141, #754
+B: Francis O'Neill: "The Dance Music of Ireland", 1907, p.23, #40
+R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS by John Chambers (1970s)
+M: 6/8
+L: 1/8
+K: D
+|:\
+"D"DFA d2e | fdB BAF | "D"ABA AFD | "A7"EFE E2D |\
+"D"DFA d2e | fdB BAF | "D"ABA "A7"dAF | "D"DED D3 :|
+|:\
+"D"dfa afd | "G"gbg "D"faf | "D"dfa afd | "A7"cee e3 |\
+"D"dfa afd | "G"gbg "D"faf | "G"BdB "A7"AFA | "D"DED D3 :|

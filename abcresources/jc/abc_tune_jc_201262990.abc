@@ -1,0 +1,16 @@
+X:136
+T:The Cobbler's Jig
+M:2/2
+L:1/4
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=112
+C:John Young, 1721
+N:A less notey version (in G) was published by John Playford in 1679.
+%%MIDI ratio 3 1
+%%stretchstaff 0
+K:A
+P:A
+|: "A"aa ga | "D"f/g/f/g/ "E"e2 | "Bm"ff "E7"g/f/g/e/ | "A"a2 "E7"e2 :|
+P:B
+|: "A"ae "D"f/e/d/c/ | "A"c>ded/c/ | "Bm"Bc "E7"de | "A"c>B AB |\
+"F#m"c>B AB | "F#m/D#"c>B AB | "A/E"c/d/e "E7"B>A | "A"A4 :|

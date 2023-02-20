@@ -1,0 +1,38 @@
+
+X: 1
+T: Severnya\vska R\^a\vcenica  [Am]
+R: rachenica
+O: Bulgaria
+S: From handwritten ms labelled "jm 6-7-86"
+Z: 2003 John Chambers <jc@trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: Am
+"A"
+|: "Am"{^g}az z2 {g}az2 | "Dm"d2 z2 z3 | "E7"~c2 Bc dcB |1,3 "Am"AB cd e3 :|2,4 "Am"AE ^F^G A3 :|
+"B"
+|: "Am"~c2 Bc "E7"dcB | ~c2 Bc "E7"dcB | ~c2 Bc "E7"dcB | |1,3 "Am"AB cd e3 :|2,4 "E7"AE ^F^G "Am"A3 !fine!:|
+"C"
+|: "G7"Bc de fed | "C"cB ce gec | "G7"Bc de fed |1,3 "C"cB ce g2z :|2,4 "C"cG AB c2z :|
+"D"
+|: "Am"A^G AB cBA | A^G Ac ecA | A^G AB cBA |1,3 A^G Ac "E7"e2z :|2,4 "E7"AE ^F^G "Am"A3 :|
+"E"
+|: "C"Gc Gc ~e3 |  ec dc ~e3 | Gc Gc ~e3 |1,3 ed dc "G7"g GG :|2,4 "G7"ed dc "C"c2z :|
+"D"
+|: "Am"A^G AB cBA | A^G Ac ecA | A^G AB cBA |1,3 A^G Ac "E7"e2z :|2,4 "E7"AE ^F^G "Am"A3 :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: Star\vceska R\ua\vcenica
+Z: 2003 John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+D: Bitov - Balkanska No\vc
+M: 7/16
+K: G
+L: 1/16
+|: "Am"ABcd ~c2G | cB{c}BG c2G | "(G)"cB{c}BG "G"ABG |1,3."Am"A2cd {e}dcB :|2,4."Am"A2AE A2z :|
+|: "Am"cB{c}BG AEE | FG~A2 AGA | cB{c}BG AEE |1,3 FG~A2 Ad{e}d :|2,4 FGA2 "fine"A2z :|
+K:A
+|: "A"ed~c2 AEE | "G(E7)"AB{c}BA "A"ABc | dBc2 AEE |1,3."E7"AB{c}BA "A"Ade :|2,4."E7"AB{c}BA "A"A2z :|
+|: "A"~A2z2 "D"d2z | "A"~c2z2 "E7"edc | "A"~A2z2 "D"d2z |1,3 "A"~c2 ze "E7"~B3 :|2,4 "A"~c2z2 "E7"~B2A :|

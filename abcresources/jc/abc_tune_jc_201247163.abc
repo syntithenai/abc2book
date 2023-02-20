@@ -1,0 +1,5 @@
+X: 1
+T: TEST: Annotation above 2 notes
+%%staffwidth 200
+K: C
+[| "G7"Hb4 |]

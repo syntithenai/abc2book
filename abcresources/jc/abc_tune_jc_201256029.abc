@@ -1,0 +1,25 @@
+X: 1
+T: the Braes of Castle Grant
+C: Duncan MacDonald
+O: as played by Alasdair Fraser"
+S: San Francisco Scottish Fiddlers, Aug 1999
+R: strathspey
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+e<a |\
+"A"c2 BA e>A c<e | "D"{e}a2 {A}a>g f>e f<a |\
+"A"c>B c<f {f}e>A c<a | "E7"B>A B<c B2 e<a |
+"A"c2 BA e>A c<e | "D"{e}a2 {A}a>g f>e f<a |\
+"A"A>B c<a c<e {e}"E7"B>c | "A"A2 A2 {A}A2 :|
+e>g |\
+"A"{g}a2 a>e f>e c<e | "D"{c}d>e f<a "A"e>A c<A |\
+"A"A>a g<a e>A c<A | "Bm"B>A B<c "E7"B2 e>g |
+"A"{g}a2 a>e f>e c<e | "D"{c}d>e f<a "A"e>A c<A |\
+"A"A>B c<a c<e "E7"B>c | "A"{B}A2 A2 A2 |]
+e>g |\
+"A"{g}a2 a>e f>e c<e | "D"{c}d>e f<a "A"e>A c<A |\
+"A"A>a g<a e>A c<a | "B7"B>A B<c "E7"B2 e>d |
+"A"{d}c2 B>A e>A c<e | "D"{g}a2 {A}a>g f>e f<a |\
+"A"A>B c<a {c}e2 "E7"B>c | "A"A2 A2 A2 |]

@@ -1,0 +1,37 @@
+X: 1
+T: London's Loyalty
+P: Longways for as many as will
+%R: minuet
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.148 #196 (296)
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.33
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Irregular beaming fixed to show 3/2 rhythm more clearly.
+N: DMDfD lacks the accidentals in the last measure (but has the C sharp in the 2nd measure).
+M: 3/2
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+D4 dcdA G2F2 | E3F GFED ^C4 | D4 dcdA G2E2 | F2ED EDEC D4 |]
+c4 e2c2 efg2 | e2 g4 c2 g4 | defg a2d2 fga2 | d2 a4 d2 a4 |
+gfed c2g2 ABcA | GFED C2c2 E4 | F2EF G2FG A3A | =B^cd2 d3^c d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first Cu. lead up, and the 2d Cu. lead down, then the
+%% Men lead out, the Wo. do the same, then sett all four
+%% and turn single .| Then Hands half round and foot it,
+%% and back again; then lead thro' the 2d Cu. cast up, and
+%% cross over; then half figure, and lead thro' the 3d Cu.
+%% and cast up and turn :|
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% The first couple lead up, and the second couple lead down, then the men lead out, the women do
+%% the same, Then set all four and turn single .| Then hands half round and Foot it, and back again,
+%% and lead through the second couple, and cast up and cross over, then half Figure and lead through
+%% the third couple and cast up and turn .:|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

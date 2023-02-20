@@ -1,0 +1,29 @@
+X: 303
+T: MISS HANBURY'S FANCY
+C: D. MACINTYRE
+R: Reel
+B: Glen Collection p.30 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Bb
+%
+V: 1
+G |\
+FDFB {e}d2cB | ABcd edcd | dbfd gecB | A/B/c Fe dBB :|
+g |\
+fgaf bfdf | egce dfBg | fgaf bg=eb | afg=e f2fg |
+fdgf ecfe | dBed cAFE | Dbfd gecB | (A/B/c) FA BB,B, |]
+%
+V: 2
+z |\
+B2[b2d2] [b2f2][b2f2] | [a2f2][a2f2] [a2f2][a2f2] |\
+[b2B2][b2d2] [b2e2][g2e2] | [c'2f2][a2f2] [b2f2B2][bfdB] :|
+z |\
+f2e2 d2[b2f2] | [a2f2][a2f2] [b2f2][b2f2] |\
+f2e2 d2c2 | f2[b2c2] [a2f2][a2f2] |
+b2[b2f2] c2[a2f2] | d2[b2f2] [b2f2][a2f2] |\
+[b2B2][b2B2] e2[c'2g2] | f2[e'2f2] [d'2b2][bfdB] |]

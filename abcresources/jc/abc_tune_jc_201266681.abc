@@ -1,0 +1,31 @@
+X: 1
+T: Danced with me the Beautiful Maiden
+T: 'Miss Lyall'
+C: trad.
+R: strathspey, march
+%S: s:4 B:32 b:26(2+2+2+2+2+2+2+2+2+2+2+2+2)
+N: Highland-pipes version
+S: Fiddle Hell Online 2021-11
+N: The book has A major, but it's really A mixolydian.
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Hp
+%%continueall 1	% Format to fit the chosen scale.
+"^A"[| d/ |\
+    {gBd}B>{e}A (3{g}A{d}A{e}A (3{g}B{d}A{e}A {gBd}B>{e}A | (3{g}G{d}G{e}G {gBd}B>A {gBd}A>G {gBd}G>d |
+ [1 {gBd}B>{e}A (3{g}A{d}A{e}A (3{g}B{d}A{e}A {gBd}B>A | {g}B{GdG}e (3{g}edB {gBd}B{e}A {GAG}A3/ :|
+ [2 {g}e{GdG}e {gdc}d>B {gcd}c>{e}A {gBd}B>{e}G | {g}B{GdG}e (3{g}edB {gBd}BA {GAG}A>
+"^B"[| B/ |\
+    {GAG}A<a {g}a>e (3{g}fga (3gfe | {gAGAG}A<a {g}a>e {gf}g2 {afg}f>e |
+    {GAG}A<a {g}a>e (3{g}fga (3efg | (3{a}edc {g}dcB {gBd}B{e}A {GAG}A>B |\
+    {GAG}A<a {g}a>e {gf}g>a (3gf{g}e | {GAG}A<a {g}a>e {gf}g2 (3{a}efg |\
+    (3agf (3{a}gfe (3{g}fed (3{g}cde | (3{g}fec (3{g}dcB {gBd}B{e}A {GAG}A3 /
+"^C"|: B/ |\
+    {gAGAG}A2 {gAd}A>B {gAGAG}A2 {gBd}B{e}A | (3{g}G{d}G{e}G {gGd}G>B {Gdc}d>e {g}d{BG}B |
+ [1 {gAGAG}A2 {gAd}A>B {gAGAG}A2 {gBd}B{e}A | {g}B{GdG}e (3{g}edB {gBd}B{e}A {GAG}A3/ :|
+ [2 {g}e>G {dc}d>G (3{g}Bcd (3{g}G{d}G{e}G | {g}B{GdG}e (3{g}edB {gBd}B{e}A {GAG}A3/
+"^D":| B/ |\
+    (3{g}G{d}G{e}G {gf}g>G {dc}d>G {gef}e>d | (3{g}B{d}B{e}B {Gdc}d>B (3{g}ege (3{g}dB{G}B |
+ [1 (3{g}G{d}G{e}G {gf}g>G {dc}d>G (3{g}Bcd | {g}B{GdG}e (3{g}edB {gBd}B{e}A {GAG}A3/:|
+ [2 {gf}g>a (3fed (3{g}efg (3{g}Bcd | {g}B{GdG}e (3{g}edB {gBd}B{e}A {GAG}A3/ |]

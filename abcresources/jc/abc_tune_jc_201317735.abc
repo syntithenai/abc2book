@@ -1,0 +1,13 @@
+X: 1
+T: Northern Rooters
+C: Keith Murphy
+B: Black Isle Music III (2018)
+R: march
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+|: "A"A4 A3B | "(A7)"c2e2 cBA2 | "D"d3c  B2A2 | "E"BcBA EFA2 \
+|  "A"A4 A3B | "(A7)"c2e2 cBA2 | "D"d2f2 e2c2 | "E"B2A2 [1 "A"A2EF :|2 "A"A4 ||
+|: "D"f4 f3g | a2g2 f2e2 | "F#m"f2c2 c2B2 | c2e2 fec2 \
+|  "D"f4 f3g | a2g2 f2e2 | "A"f2a2 e2c2 | "E"B2A2 "A"A4 :|

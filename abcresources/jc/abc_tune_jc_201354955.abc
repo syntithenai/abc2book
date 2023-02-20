@@ -1,0 +1,60 @@
+X: 1
+T: Young Jemmy
+P: Longways for as many as will
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.118 #171 (235)
+B: "The Dancing-Master: Containind Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.101 "K 3"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The two versions differ in beaming; the shortest beams were chosen here.
+N: Repeats added to match the DMDfD dance instructions.
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+F2 (ED) F2 A2 | d4 f4   | (ef) (ed) (ce) (dB) | G4 A4 |\
+F2  D2  F2 A2 | d4 f3 g |  a2  (gf) (ef) (ed) | d4 D2 :|
+|: A2 |\
+d3 e (fe) (fc) | A2 c2 c2 (BA) | d3   d  (gf) (ge) | f6 fg/a/ |\
+A3 G  A2  (Bc) | c3  B A2  A2  | d2 (ef) (gf) (ed) | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the Presence, then to the We. lead up all forward and back that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1st Man take his own Wo. by the left Hand, and cast off into the 2d Cu. Place,
+%% the Man being on the Wo. Side, and the Wo. on the Man's, then the 1st Man
+%% take the 2d Wo. by the Hand, and lead her betwixt the other two, each casting
+%% off round, then into their own Places, they standing still while the other two
+%% do the same :| Then the Men give their right Hands to their own We. then
+%% their Left to the next We. turning them off the 2d Time, then each Man sett
+%% to his own and change Places, then you are as you were at first; then the
+%% 1st Man change Places with the 2d Wo. standing Back to Back at a little
+%% Distance, the 1st Wo. and 2d Man do the same; all four clap Hands, and then take
+%% Hands and go round in a Ring; then Back to Back half, and turn your own
+%% half a Turn, and so on to the End :|
+%% [CCDM1]
+%%endtext
+%%sep 1 8 500
+%%begintext align
+%% Honour to the Presence, then to your we. Lead up all forward and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. man take his own wo. by the left-hand and cast off into the 2. cu. place, the man being on the wo. side, and the wo.
+%% on the man's, then the 1. man take the 2. wo. by the hand and lead her betwixt the other two, each casting off round,
+%% then into their own places, they standing still while the other two do over the same. This ends the first Strain played twice.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then the men give their right-hands to their own we. then their left to the next we. turning them off the second time,
+%% then each man set to his own and change places, then are you as you were at first; then the 1. man change places with
+%% the 2. wo. standing back to back at a little distance, then the 1. wo. and 2. man do the same, then all four clap hands, and
+%% then take hands and go round in a ring, then back to back half, and turn your own half a turn, and so on to the end.
+%% This ends the last Strain played twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

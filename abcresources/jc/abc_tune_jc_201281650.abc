@@ -1,0 +1,24 @@
+X: 1
+T:Gold Ring, The
+T:Fainne Oir Ort
+R:jig
+Z:id:hn-jig-261
+M:6/8
+K:D
+DB,A, DFA|~d3 ecA|BdB AFD|~E3 FDB,|
+~A,3 DFA|dfd ecA|~B3 AFA|1 Bdc dAF:|2 Bdc d2B||
+|:AFA dfa|bgb afd|~g3 ~f3|ede fdB|
+AFA dfa|bgb afd|B/c/dB AFA|1 Bdc d2B:|2 Bdc dfe||
+|:dAF AFE|DB,A, DFA|~d3 ede|fdB BAB|
+dAF AFE|DB,A, DFA|~d3 ede|1 fdc dfe:|2 fdc d2B||
+|:AFA ~d3|~B3 dAF|DEF ~E3|FDB, B,dB|
+AFA ~d3|~B3 dAF|DEF ~E3|1 FDC DdB:|2 FDC D2B,||
+"variations"
+~A,3 DFA|dfd ecA|~B3 AFD|EDE FDB,|
+A,G,A, DFA|~d3 ecA|B/c/dB AFE|1 FDC D2B,:|2 FDC DdB||
+|:AFA dfa|bgb afd|gag faf|ede fdB|
+AFA dfa|bgb afd|BdB AFA|1 Bdc d2B:|2 Bdc dfe||
+|:dFF AFE|DFE DFA|dfd ede|fdB B2c|
+dFF AFE|DFE DFA|dfd ~e3|1 fdc dfe:|2 fdc d2B||
+|:AFA dfd|BAB dAF|DEF EDE|FDB, B,dB|
+AFA dcd|BAB dAF|DEF EDE|1 FDC D2B:|2 FDC DFE||

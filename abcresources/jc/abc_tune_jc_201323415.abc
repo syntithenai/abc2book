@@ -1,0 +1,88 @@
+
+X: 1
+T: Peter's Peerie Boat
+C: Tom Anderson
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+B: BSFC Session Tune Book 2016 p.42
+M: 6/8
+L: 1/8
+K: D
+"A"|:\
+"D"d2d D2D | "G"EFG "A"ABc | "D"d2d "Bm"Bed | "A"cAA ABc |\
+"D"d2d D2D | "G"EFG "A"ABc | "D"d2A "A7"GFE |1 "D"FDD  DBc :|2 "D"FDD D2 ||
+A "B1"|\
+"D"d2d f2d | "A7"c2c e2c | "G"B2B dcB | "D"A3 A2F |\
+"G"GFG BAG | "D"F2A d3 | "G"E2G B3 | "A"C2E A3 ||
+"B2"||\
+"D"dcd fed | "A"cBc edc | "G"B^AB dcB | "D"A3 A2F |\
+"G"GFG BAG | "D"F2A a2g | "A"fed Adc | "D"d3 D2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Raivlin Reel
+C: Barbara McOwen Nov.1993
+N: for Lance Ramshaw
+R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: Handwritten MS by Barbara McOwen
+N: This "tangled reel"  is  specially  written  for  Lance  Ramshaw,  artificial
+N: intelligence  wizard, dance teacher, minister, musician and poet.  Instead of
+N: waiting around at a jam session for the piano to be free, he decided to learn
+N: the  fiddle,  so  he  could  play  all  the time.  And he is devouring tunes!
+N: "Raivlin" is Scots for "a tangled thread," or, "used of rhyme: loose odds and
+N: ends" and at his request it is intended to be a fun tune for him to play.
+M: C|
+L: 1/8
+K: D
+FE |\
+"D"D3G FEDA | "D"GFED d3c |\
+"G"BDAD GDFD | "Em"EFGE "A7"FGFE |\
+"D"D3G FEDA |
+"D"GFED d3c |\
+"G"BDAD "Em7"GDFD | "A7"EFGA "D"D2 :: FG |\
+"D"Add2 "G"Bdd2 | "A7"cdef g3f |
+"A7"efge fgef | "Em7"gaaA "A7"agfe |\
+"D"d2ed fdgd | "D"fedc "D7"BAGA |\
+"G"BDAD "Em7"GDFD | "A7"EFGA "D"D2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Molly Rankin's Reel
+C: John Morris Rankin
+M: C|
+L: 1/8
+R: reel
+B: BSFC Session Tune Book 2016 p.43
+S: Barbara McOwen
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+K: Dmaj
+"A"|: dB |\
+| "D"Ad d/d/d d2df | "Em"edef "A7"ed B2 | "D"Ad d/d/d "Bm"d2ef | "Em7"afdf "A7"e2dB || "D"Ad d/d/d d2df |
+| "Em"edef "A7"edB2 | "D"abaf "Bm"edef | "Em7"defd "A7"e2 "B":: ef | "D"aA A/A/A afef | "D"abaf "A7"edef |
+| "D"aA A/A/A "Bm"afef | "Em7"defd "A7"e2fg || "D"aA A/A/A afef | abaf "A7"edef | "G"gefb "/F#"edBe | "Em7"defd "A7"e2 :|
+
+%%sep 1 1 500
+
+X: 125
+T: Iggie and Squiggie
+C: Jerry Holland
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+B: BSFC Session Tune Book 2016 p.43
+S: BSFC Tune Book XII-20
+N: Chords added by John Chambers
+M: C|
+L: 1/8
+K: D
+z2 |\
+"D"fgfe d/d/d fd | "G"B2dB "D"BAFA |\
+"D"fgfe d/d/d fd | "D"ABde "A"fec2 |\
+"D"fgfe d/d/d fd |
+"G"B2dB "D"BAFA |\
+"D"fgfe "Bm"dedc | "A"TBABc "D"d2 :: fg |\
+"D"ad d/d/d adbd | "D"ad d/d/d "A"agfg |
+"D"ad d/d/d adbd | "A"fede fecf |\
+"D"ad d/d/d adbd | "D"ad d/d/d "G"Tg2fg |\
+"D"fgfe "G"dedc | "A"BABc "D"d2 :|

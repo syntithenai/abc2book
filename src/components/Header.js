@@ -36,8 +36,8 @@ export default function Header(props) {
     //console.log("param  ",params,location)
     return <header className="App-header" style={{zIndex:11, fontSize:'1.2em'}} >
         <span style={{marginRight:'2em'}} >
-           <Link to="/books" ><Button size="lg" variant="info" style={{marginLeft:'0.3em', color: 'black', border: (location.pathname === '/' ? '1px solid black' : '')}} onClick={function(e) {props.setAbcPlaylist(null);props.setMediaPlaylist(null); props.tunebook.utils.scrollTo('topofpage',70)}} >{props.tunebook.icons.bookheader}</Button></Link>
-           <Link to="/tunes" ><Button size="lg" variant="info" style={{marginLeft:'0.3em', color: 'black', border: (location.pathname === '/tunes' ? '1px solid black' : '')}} onClick={function(e) {props.setAbcPlaylist(null); props.setMediaPlaylist(null); }} >{props.tunebook.icons.searchheader}</Button></Link>
+           <Link to="/books" ><Button size="lg" variant="info" style={{marginLeft:'0em', color: 'black', border: (location.pathname === '/' ? '1px solid black' : '')}} onClick={function(e) {props.setAbcPlaylist(null);props.setMediaPlaylist(null); props.tunebook.utils.scrollTo('topofpage',70)}} >{props.tunebook.icons.bookheader}</Button></Link>
+           <Link to="/tunes" ><Button size="lg" variant="info" style={{marginLeft:'0.1em', color: 'black', border: (location.pathname === '/tunes' ? '1px solid black' : '')}} onClick={function(e) {props.setAbcPlaylist(null); props.setMediaPlaylist(null); }} >{props.tunebook.icons.searchheader}</Button></Link>
             
              {(!isMobile && props.mediaPlaylist === null && props.currentTune && props.tunes && props.tunes[props.currentTune]) ? <Link to={"/tunes/"+props.currentTune} ><Button size="lg" variant="info" style={{marginLeft:'0.3em', color: 'black',  border: (location.pathname.startsWith('/tunes/') ? '1px solid black' : '')}} onClick={function(e) {props.tunebook.utils.scrollTo('topofpage',10)}} >{props.tunebook.icons.musicheader}</Button></Link> : null}
             

@@ -1,0 +1,27 @@
+X: 1
+T: the Witches
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.85
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+d>ef f2e  | f3  A>Bc | d3   G3   | C3- C2c |\
+d>ed c2d  | B2A A,2e | f>ed d2^c | d3- d2  ][ g/f/ |
+e>dc c2=B | c3  A2f  | g3   b3   | c3- c2c |\
+d>ed c2e  | B2A A,2e | f>ed d2^c | d3  d2  |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the Presence. Lead up all forward and back .| That again :| The two first men take
+%% hands, the two first we. do the same, and put back till the men fall into the we places, then right-hands
+%% to the man, and left to their own wo. then the first man and second wo. clap first their own hands, then
+%% each others at the same time; the 2. wo. and 1. man cast off till you fall in each other's places, then
+%% all round in a ring, then the 2. man and 1. wo. cast off while the other clap and round again in a
+%% ring, and then the like to the rest .|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

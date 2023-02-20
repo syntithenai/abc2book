@@ -1,0 +1,26 @@
+X:1
+T: An Old Man is a Bed Full of Bones
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/4
+K:Am
+I:speed 75
+%W: A1
+% voice 1 (1 lines, 18 notes)
+K:Am
+M:6/4
+L:1/16
+e4 e4 e4 e8 e4 |e4 c4 A4 c8 c4 |d8 c4 d8 c4 |d8 e4 f8 d4 |
+%W:
+% voice 1 (1 lines, 20 notes)
+e4 e4 e4 e8 e4 |e4 c4 A4 c8 e4 |f8 f4 e6 d2 c4 |d8 e4 f6 e2 d4 |
+%W: A2
+% voice 1 (1 lines, 18 notes)
+e4 e4 e4 e8 e4 |e4 c4 A4 c8 c4 |d8 c4 d8 c4 |d8 e4 f8 d4 |
+%W:                                                                                                         End
+% voice 1 (1 lines, 22 notes)
+e4 e4 e4 e8 e4 |e4 c4 A4 c8 e4 |f8 f4 e6 d2 c4 |d8 e4 f6 e2 d4 ||A12A12 |||

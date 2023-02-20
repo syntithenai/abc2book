@@ -1,0 +1,22 @@
+X: 354	% 101
+T: Walkin' Up Town
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.35 #4 (and top 2 lines of p.36)
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Rest added to bar 16 to fix the rhythm.
+N: The g notes in bars 21,25 have dots; removed to be like other similar measures.
+N: The A in bar 22 is handwritten.
+M: 2/4
+L: 1/16
+K: C
+V: 1 name="101"
+(GF) |\
+E2G2 c2f2 | e3^d e=dc2 | A2^GA dcA2 | G6 (GF) |\
+E2G2 c2f2 | e3^d e=dc2 | d^cde ^fdef | g6 (GF) |
+E2G2 c2f2 | e3^d e=dc2 | A^GA2 dcA2 | G6 (GF) |\
+E2G2 c2f2 | e3^d e=dc2 | dedc BGAB | c6 z2 ||
+g^fg2 age2 | c4 e4 | A^GA2 dc2A | G6 z2 |\
+g2^fg ag2e | c4 [e4A4] | d^cde ^fdef | g4- g4 |
+g2^fg age2 | c4 e4 | A^GA2 dc2A | G6 (GF) |\
+E2G2c2f2 | e3^d e=dc2 | dedc BGAB | c6 |]
+

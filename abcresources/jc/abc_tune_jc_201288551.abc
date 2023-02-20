@@ -1,0 +1,19 @@
+X: 699
+T: the Humors of Schull
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #699
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0699/oneill-1001-0699-1.abc
+%m: Mn = (3n/o/n/
+M: C|
+L: 1/8
+K: Am
+%%slurgraces 1
+%%graceslurs 1
+"^A"\
+[| EAAA cAAA | BGGG BcdB | eddBA2(ge) | dBGA (BA)A2 \
+|| EAAA cAAA | BGGG BcdB | EAAB cde^f | gedB A2 z2 |]
+"^B"\
+[| eaaa a2(ba) | a2(ba) age^f | g2gg gabg | gedB (MBA)A2 \
+|| eaaa a2(ba) | a2(ba) age^f | gedB {d}cBce | gedB A2 z2 |]

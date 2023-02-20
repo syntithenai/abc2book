@@ -1,0 +1,21 @@
+X: 21554
+T: HORNPIPE
+%R: hornpipe, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.155 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(3(FFF) F2 (3(FFF) F2 A>Fc>A f>cA>F |\
+(3(CCC) C2 (3(CCC) C2 E>CG>E B>GE>C |\
+(3(FFF) F2 (3(FFF) F2 A>Fc>A f>cA>F |\
+G>ag>f e>dc>=B c2c2 c4 :|
+|: \
+(3(ccc) c2 (3(ccc) c2 d>ef>e d>c=B>c |\
+(3(ddd) d2 (3(ddd) d2 e>fg>e c>BA>G |\
+F>F ~F2 D>FC>F F>F ~F2 A>FE>F |\
+D>dc>B A>GF>E F2F2 F4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

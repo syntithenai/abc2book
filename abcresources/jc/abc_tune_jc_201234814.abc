@@ -1,0 +1,19 @@
+X: 20802
+T: AIR FROM THE OPERA OF "LA DAME BLANCHE."
+C: Boieldieu.
+Q: "Allegro."
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.80 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g |\
+("_>"g3 e2)g | ("_>"g3 e2)e | d2d d>ed | (c3 G2)g |\
+("_>"g3 e2)g | ("_>"g3 e2)e | d2d d>ed | c3 "^Fin."z2 H|]
+c |\
+(dg)G (dg)G | (cg)G (cg)G | (dg)G (dg)G | e2c c2c |\
+(dg)G (dg)G | (cg)G (cg)G | (dg)G (dg)G | e2c "^D.C."c2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

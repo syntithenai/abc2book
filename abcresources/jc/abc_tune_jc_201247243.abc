@@ -1,0 +1,15 @@
+X: 1
+T: Annie Laurie
+C: Tune: Alicia Scott (1834)
+%C: Words: William Douglas (1672?-1748)
+R: air
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+"A7"FE \
+| "D"D2 D2 d3 c | "G"c B3- B2 B2 | "D"A2 F2 "Bm"F2 ED | "Em"E4- "A7"E2FE \
+| "D"D2 D2 d3 c | "G"c B3- B2 B2 | "D"A2 F2 "A7"F3  E |  "D"D6 |]
+"A7"A2  \
+| "D"d2 d2 "A7"e3  e | "D"f6       "A7"A2 | "Bm"d2 d2 "Em"e3{fed}e | "F#7"f6 fe \
+| "G"d3  c     Bc dB | "D"A F3- "Bm"F2 FE | "G"Dd- dF "A7"F3 E |   "D"D6 |]

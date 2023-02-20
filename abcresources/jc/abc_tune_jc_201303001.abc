@@ -1,0 +1,26 @@
+X:1
+T: Lobelia
+N:
+C:Brian Jenkins
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A
+% voice 1 (1 lines, 21 notes)
+K:G
+M:4/4
+L:1/16
+E16|E4 E4 F4 A4 |D16|D4 E4 F4 G4 |c12 c4 |c4 c4 d4 A4 |B16|B4 c4 B4 A4 |
+%W:
+% voice 1 (1 lines, 20 notes)
+E16|E4 c4 B4 A4 |D12 E4 |F4 G4 A4 B4 |e12 E4 |F12 B4 |G16|G4 G4 A4 B4 |
+%W: B
+% voice 1 (1 lines, 23 notes)
+c12 c4 |c4 c4 d4 A4 |c6 B2|B4 B4 c4 d4 |e12 e4 |e4 e4 f4 ^c4 |d16|d4 c4 B4 A4 |
+%W:
+% voice 1 (1 lines, 19 notes)
+d12 G4 |G4 G4 A4 G4 |f12 e4 |d4 G4 A4 B4 |c4 E4 F4 G4 |B12 B4 |G16 ||

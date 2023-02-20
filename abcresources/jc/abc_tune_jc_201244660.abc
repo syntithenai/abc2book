@@ -1,0 +1,74 @@
+
+X: 1
+T: a Glezele Yash
+C: words: Y.Kerler
+C: music: V.Shainsky
+M: 2/4
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: "Am"A,A, A,C | E2 "E7"ED | "Am"E2 A2 | E4 |
+w:1.~Ven ikh nem a bi-se-le yash, oy-oy,
+w:  Kh'gib  a vorf di pus-te_ flash, oy-oy,
+%
+|  "A7"EG FE | "Dm"D4 |  "G"GF ED |1 "C"E2- "E7"E2 :|2 "C"C2- "E7"E2 |
+w:  Fin-klt alts un glants; fin-klt alts un glantst;_
+w:  Un ikh gey a tants, un ikh gey a | | tants,_
+%
+|: "Am"A2 E2 | "F"cB A2 |  "G"GF EF | "C"G4 |
+w:  Oy, oy, tsu-ker-zis, halt mir bay di hent;
+%
+|  "A7"GA "Dm"F/E/D | "E7"zE "Am"A,2 | "F"CC "E7"B,B, | "Am"A,4 :|
+w:  Flekh-tn bey-ge-lekh di fis, di ne-sho-me brent!
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+W:2. Vos mir shviger, ver mir vayb, oy, oy, veys ikh zey di shlek!
+W:   Mitn ershtn kelishik vayn, oy-oy, shvimen zey avek
+W:      Oy, oy, tsuker-zis, brider, kumt in kon,
+W:      Lomir vayzn vind un vist vos a kabtsn kon!
+W:3. Vos mir dayges, ver mir zorg, oy-oy, shtrof nit far di reyd,
+W:   Gib mir, gotenyu, af borg, oy-oy. Khotsh a tropn freyd.
+W:      Oy, tate, tsuker-zis, s'redele zikh dreyt,
+W:      S'kostn tsores halb um zist, shpringt tsezetsterheyt!
+W:4. Ven ikh nem a bisele yash, oy-oy, bin ikh gornit der,
+W:   Kh'gib a vorf di puste flash, oy-oy, un ikh gey a sher.
+W:
+W:When I take a little drink, everything sparkles and shines.  When I finish the bottle, I
+W:start dancing.  Who worries about such things as a wife or a mother-in-law? After the
+W:first glass of wine, they just fade away.  Who has worries, who cares?  May I not be
+W:punished for these words!  Let me have, Oh Lord, just a drop of joy!  When I take a
+W:drink, I'm not the same.  I throw away the empty flask and I dance a sher.
+%
+
+%%sep 1 1 500
+
+X: 1
+T: a Glezele Yash [Dm]
+C: V.Shainsky
+M: 2/4
+L: 1/8
+K: Dm
+|: "Dm"DD DF | A2 "A7"AG \
+|  "Dm"A2 d2 | A4 \
+|  "D7"Ac BA | "Gm"G4 \
+|  "C"cB AG |1 "F"A2- "A7"A2 :|2 "F"F2- "A7"A2 ||
+|: "Dm"d2 A2 | "Bb"fe d2 \
+|  "C"cB AB | "F"c4 \
+|  "D7"cd "Gm"B/A/G | "A7"zA "Dm"D2 \
+|  "Bb"FF "A7"EE | "Dm"D4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: a Glezele Yash [Em]
+C: V.Shainsky
+M: 2/4
+L: 1/8
+K: Em
+|: "Em"EE EG | B2 "B7"BA \
+|  "Em"B2 e2 | B4 \
+|  "E7"Bd cB | "Am"A4 \
+|  "D"dc BA |1 "G"B2- "B7"B2 :|2 "G"G2- "B7"B2 ||
+|: "Em"e2 B2 | "C"gf e2 \
+|  "D"dc Bc | "G"d4 \
+|  "E7"de "Am"c/B/A | "B7"zB "Em"E2 \
+|  "C"GG "B7"FF | "Em"E4 :|

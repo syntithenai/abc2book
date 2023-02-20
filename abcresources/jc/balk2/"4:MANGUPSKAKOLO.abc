@@ -1,0 +1,18 @@
+X: 224
+T: Mangupska Kolo
+O: Serbia
+M: 2/4
+L: 1/8
+K: Em
+Q:1/4=96
+"C"GA_BA|GFGE|\
+Q:1/4=120
+%%MIDI gchordoff
+=FEFG|E4|z4|\
+Q:1/4=96
+%%MIDI gchordon
+c_BAG|GFGE|\
+Q:1/4=120
+%%MIDI gchordoff
+=FEFG|E4|z4|
+|:G,/F,/G,C/B,/C|E/^D/EG2|=FEFG|E4|z4:|

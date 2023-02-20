@@ -1,0 +1,24 @@
+X: 2261
+T: Miss Ann Stewart East Craigs Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.26 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The begin-repeat symbol was missing to the 2nd strain; fixed.
+M: C
+L: 1/8
+Q: "Slow"
+K: Gm
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 5/5/4-bar lines, for compactness and proofreading.
+V: 1 staves=2
+B |\
+G>gg>f g>a{ga}b>g | f>dc>d B>FF>B | G>gg>f g>a{ga}b>g | f>dc>d TB>GG>A || G>gTg>f f>a{ga}b>g |
+f>d c<f A>fF<A | G>gg>f g>a{ga}b>g | (g/<f/)(e/<d/) Tc>d B>GG |: A | (TB>c)df (Tc>d)eg | (B/A/B/c/) (B/c/d/c/) B>FF>A |
+|[1 (TB>c)df (Tc>d)eg | (g/<f/)(e/<d/) Tc>d B>GG :|[2 (B/A/B/c/) d>f (c/B/c/d/) e>g | (g/<f/)(e/<d/) (e/<d/)(c/<d/) B>GG |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+g2g2 g2g2 | b2f2 f2f2 | b2b2 g2g2 | b2d'2 g2g2 || g2g2
+g2g2 | b2f2 f2f2 | g2g2 g2g2 | b2d'2 g2g |: z | b2b2 c'2c'2 | b2b2
+f2f2 |[1 b2b2 c'2c'2 | b2d'2 g2g :|[2 b2b2 c'2c'2 | b2d'2 g2g |]

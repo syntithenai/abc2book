@@ -1,0 +1,30 @@
+X: 4201
+T: Rasay House
+C: by Mr McLeod of Rasay.
+%R: air, strathspey
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.4 p.20 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "SLOW"
+K: E
+% - - - - - - - - - -
+% Voice 1 formatted to clarify the phrasing.
+V: 1 staves=2
+G2 |\
+E3G e3B (cBAG) (AGFE) | [F2D2]f2 Tf3g (ag)(fe) (edc)B |\
+T[c3A3][BG] ([cA][dB][ec]).[dB] (cB)(AG) (AGFE) | ~B,3CE3F {EF}G2E2[E2B,2G,2] :|
+a2 |\
+{a}gfga b3g (agfe) e2dc | B3ce3g a2f2f2 gf |\
+e4 {d'}e'4 Tc'3bc'3e' | ~B3ce3f g2e2e2 ||
+a2 |\
+(gfga) b3a gfga b3e | e'3b (c'b)(ag) g2f2Hf3g |\
+"_Expr."E4 e4 c2G2 HB4 | ~B,3C [E3B,4]F {EF}G2E2[E2B,2G,2] |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout (and has an added || to show the phrasing).
+V: 2 clef=bass middle=d
+z2 |\
+E4 e3g a2b2 c'2^a2 | b4 [d3b4]e fga^a b2c'd' | e'2e'2 e'4 agfe fedc |
+B2A2G2D2 E2e2E2 :| z2 | e3f g2b2 c'bag g2a2 | g2a2g2e2 B4 b2d'2 | e'2d'2c'2g2 a2g2 a4 | g2a2b2B2 e4 E2 || z2 |
+e2f2 g2d2 e4 E4 | g3g agfe B2b2 HB4 | "_Expr."e2d2 c2B2 A4 HG4 | B2A2 G2D2 E2e2e2 |]

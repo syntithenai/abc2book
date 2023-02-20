@@ -1,0 +1,33 @@
+X: 10782
+T: COTILLION No. 6. tune 2
+C:
+%R: reel
+N: This is version 1, for ABC software that doesn't understand diminuendo annotation.
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.78 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Should the 2nd strain have a "D.C." at its end?
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(bg) |\
+"dim . ."f2 f4 (bg) | f2 f4 (dB) | A2(Ac) B2(Bd) | (d4 c2) (bg) |\
+"dim . ."f2 f4 (bg) | "dim . ."f2 f4 (dB) | A2ec (cB).B.A | (c4 B2) H|]
+(AB) |\
+!p!c2(cB) A2(AG) | F2FE D2(Bc) | d2(dc) B2(BA) | G2GF E2(cd) |\
+e2(ed) c2(de) | f2(fd) B2(bg) | "dim . ."e2c2 "dim . ."B2A2 | (c4 B2) |]
+(AB) |\
+(cd)cB (AB)AG | FGFE D2(Bc) | (de)dc (Bc)BA | (GA)GF E2(cd) |\
+(efe)d c2de | fgfd B2(bg) | (ge).e.c (cB).B.A | (c4 "^D.C."B2) |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance partners and turn,
+%% others the same.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

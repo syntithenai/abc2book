@@ -1,0 +1,29 @@
+X: 332
+T:Itamar Freilach
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=140
+K:Dm
+DF A |:"Dm" d4 |A2 F2 |D4 |
+zD FA |d3/2 ^c/ (3d^cB |"D7" B3/2 A/ (3BAG |"Gm" G4 |
+zG ^FG |"A7" e2 d2 |^c2 .B2 |A4 |
+zE F^G |"A7" ^GA z^G | (3AGF  (3FED |"Dm" D4 |
+|1 zD FA :|2 zD _ED ||  |:
+K:Gm
+"Gm" [D4G4]|[G4B4]|[(B4(d4]|[B4)d4)]|
+"Gm" [Ac][ce](3B/d/A/(3c/G/B/|(3A/c/B/(3d/c/e/(3B/d/A/(3c/G/B/|"D" [A4^F4]|z[D^F][EG][D^F]|
+D3 A,|^F3 A,|A3 A,|d4 |
+"D" ^cd z^c | (3d^cB  (3BAG |"Gm" B4 |zD ED |
+"Gm" D4 |G4 |(B4 |B4) |
+(3ABc  (3BAG | (3ABc BG |c4 |"G7" d4 |
+c2 Bc |zc BA |B2 GB |zB AG |
+"D7" A2 ^FA |zD B/A/G/^F/ |"Gm" (G4 |1 G)D ED :|2
+G2 "A7" z2 || ||
+K:D
+"D" FA FA |z"A7" G/A/ GE |"D" FA FA |"A7" zG/A/ GE |
+"D7" FG AB |"G" =c3/2 B/ (3=cBA |"D" ^G(A3 |A4) |
+"D" FA FA |"A7" zG FE |"D" FA FA |"A" zG FE |
+CD EG |FD EC |(D4 |1 D2) z2 :|2
+DD =FA ||
+(3A/^G/A/ _B/B/=c/c/ d||

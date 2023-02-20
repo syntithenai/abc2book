@@ -1,0 +1,12 @@
+X: 1163
+T: Another Jig Will Do!
+R: slipjig
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 Music of Ireland #1163
+Z: Stephen Foy (shf@access.digex.net)
+%% abc 1.6
+M: 9/8
+K: D
+|: ABA A2G F2G | ABA  AGF G3   | ABA A2G F2G | A2d d2c d3 :|
+|: A2g f2d e2c | A2B =c2d c3   | A2g f2d e2c | A2d d2c d3 ||
+|  A2g f2d e2c | A2B =c2d c2^c | d2A A2G F2G | A2d d2c d3 :|

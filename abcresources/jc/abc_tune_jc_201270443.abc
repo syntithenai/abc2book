@@ -1,0 +1,13 @@
+X:1
+T:Drunken Gauger
+M:6/8
+L:1/8
+R:Jig
+K:G
+%%printtempo 0
+Q:160
+D |:\
+"G" GAB "C"c2A | "G"BAG "Am"AGE | "G"GBd "Em"g2e | "D"dBe "G"dBG |
+"C"c2A "G"BdB | "D"AGA "G"BGE | "D"DEG "Am"AGA | "G"BGG G2D:|
+|:"G"GBd "Em"g2e | "D"dBe "Bm"dBG | "C" Ace "Am"a2a | "C"agb "Am"age |
+"Bm"dBd "Em"g2e| "D"dBe "Bm"dBG | "C"c2A "Bm"BdB |1 "Am"AGA "G"BGG :|2 "Am"AGF "G"G2 |]

@@ -1,0 +1,17 @@
+X: 1
+T: Fairy Dance Reel
+C: Nathaniel Gow 1802
+R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: SRSNH 3.9 handwritten MS by Barbara McOwen (in Concord Slow Scottish Jam collection)
+M: C|
+L: 1/8
+K: D
+%%stretchlast 0
+de \
+"A"|: "D"f2fd f2fd | "D"f2fd "A7"cAeA | "D"f2fd "G"gfed | "A7"cABc "D"defg :|
+"B"|: "D"a2af "Bm"b2ba | "Em"g2ge "A7"a2ag | "D"f2fd "G"gfed | "A7"cABc "D"defg :|
+"C"|: "D"fafd fafd | "D"fafd "A7"cdeg | "D"fdfa "G"gfed | "A7"cABc "D"defg :|
+"D"[| "D"afdf "Bm"gaba | "Em"gfed "A7"ceag | "D"fedc "G"Bged | "A7"cABc "D"defg ||
+   || "D"agfe "B7"^dfba | "Em"gfed "A7"ceag |1 "D"fedc "G"Bged | "A7"cABc "D"de"d.C."fg |]
+   [|["end" "D"[f2A2D2]z2 "G"[g2B2D2G,2]z2 | "A7"[c2E2A,2]z2 "D"[d4F4A,4] |]

@@ -1,0 +1,34 @@
+X: 83
+T: Sweet and Low	
+C: words: Alfred Tennyson
+C: music: J. Barnby
+Q: "Larghetto."
+N: This is version 1, for ABC software that doesn't understand tremolo notation.
+%R: air, waltz, jig
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[| !pp!E2 E A3 | G2 G c3 | c B A G>- G ^F | (A3 G2) z |
+w: 1.~Sweet and low, sweet and low,   Wind of the west-*ern sea;*
+w: 2.~Sleep and rest, sleep and rest, Fa-ther will come to thee soon;*
+%
+"^<>"E3 "^<>"A2 A | G2 "^>"E HA3 | !p!d B c A>- A B | (A3 G2) z |
+w: Low, low* breathe and blow,      Wind of the west-*ern sea;*
+w: Rest, rest, on moth-er's breast, Fa-ther will come to thee soon;*
+%
+!mf!G B A (G A) G | (G c) A G3 | !pp!(G2 B) A
+w: O-ver the roil-*ing wa-*ters go,           Come from the
+w: Fa-ther will come to his babe in the nest, Sil-*ver
+%
+GA G | (G c) "^>"^F G3 | !f!c c c c2 B | ("^>"A3 H_A3) |
+w: dy-*ing moon* and blow,     Blow him a-gain to me,*
+w: sails* all out of the west, Un-der the sil-ver moon,*
+%
+!p!G2 G G> A G | "^rall. e dim."G2 G G> A G | "^pp dim."c6- | c3- c2 z |]
+w: While my lit-tle one, while my pret-ty one sleeps.__
+w: Sleep my lit-tle one, sleep my pret-ty one, sleep.__
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

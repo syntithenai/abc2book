@@ -1,0 +1,29 @@
+X: 1
+T: Open the Door to Three
+P: Round for as many as will
+%R: triple hornpipe, slip-jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.13 "C"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The time signature is actually 6/4, but that's clearly wrong.
+M: 9/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+G2G B>cB A2D | G2G B>cB c2d | e>fe d>cB AFD | G>AG BcA G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands and two D. round, and set and turn S. .| Meet again :| Met meet, back again, go all to the
+%% left-hand on the out-side of the co. we. .:| Meet all again, back again, and go all on the out-side of the
+%% next we. :|:| Do all this till you come to your own places; then the we. as much.
+%%endtext
+%%sep 1 5 300
+%%begintext align
+%% Sides all, set and turn S .| That again :| As before, we. beginning.
+%%endtext
+%%sep 1 5 300
+%%begintext align
+%% Arms all, set and turn S .| That again :| As at the first.
+%%endtext
+%%sep 1 8 500

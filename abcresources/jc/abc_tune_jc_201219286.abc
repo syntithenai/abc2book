@@ -1,0 +1,33 @@
+X: 4
+T: Minuet
+C: Michael Dabney
+R: minuet
+B: Michael Dabney "Twelve Minuets and Twelve Dances" p.2 #2
+S: "http://imslp.org/wiki/12_Minuets_and_12_Dances_(Dabney,_Michael)"
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces mostly 4- or 8-bar staffs.
+V: 1
+|:\
+D>F A2 d2 | {B}A2 GFED | d2 fedc | (3(def) A4 |\
+B2 TB2 (3(Bcd) | A2 A2 (3(Bcd) | A2 BAGF | TF2 E2 z2 |
+F^GABcd | {f}e2 dcBA | FdcBA^G | {^G2}A6 :|\
+|:\
+A2 A2 GF | G>AGF E2 | DEFGAB | {B}A2 {A}G2 {G}F2 |
+(3(fed) c2B2 | e2 dcBA | (3(dcB) A2 T^G2 | A>BAGFE |\
+D2 DEFG | A2 ABcd | (3BAG F2 TE2 | D6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+|:\
+"D"d4 d2 | "A"c2 "A7"A2 "D"d2 | "D"fg a2 "A"A2 | "D"d2 f2 d2 |\
+"G"g2 b2 g2 | "D"f2 d2 "G"g2 | "A"c2 "D"d2 "G"G2 | "D"A2 "A"c2 A2 |\
+z2 z2 AB | "A"c2 "E"B2 "A"A2 | "D"d2 "A"e2 "E"E2 | "A"A6 :|
+|:\
+"D"f4 d2 | "A7"e2 c2 A2 | "D"d3 efg | "D"f2 "A7"e2 "D"d2 |\
+z2 z2 d2 | "A"c2 z2 c2 | "Bm"d2 "A"e2 "E7"E2 | "A"A4 z2 |\
+"D"d4 d'2 | "A"c'2 a2 "D"f2 | "G"g2 "D"a2 "A"A2 | "D"D6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

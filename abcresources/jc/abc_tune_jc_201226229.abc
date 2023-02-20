@@ -1,0 +1,35 @@
+X: 10161
+T: HAIL TO THE CHIEF
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.16 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+|:\
+A2 B>c d2 cB | A>B AF E2 D2 | A2 d>e f2 ed | e>d e>f edcB |\
+A2 B>c d2 cB | A>B AF E2 D2 | A2 d>c Bd AF | A2 d>d d2 z2 :|
+|:!f!\
+f2 f>f f2 gf | edef e2 A2 | f2 f>f f2 ed | e2 a>a agfe |\
+d2 d>c B>c dB | A2 d>e f2 ed | B>c d>B AdAF | A2 d>d d2 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+|:\
+F2 G>A B2 AG | F>G FD C2 D2 | F2 B>c d2 cB | c>B c>d cBAG |\
+F2 G>A B2 AG | FG FD G2 F2 | F2 BA dB A2 | F2 F>F F2 z2 :|
+|:\
+d2 d>d d2 ed | cBcd c2 A2 | d2 d>d d2 cB | c2 c>c cedA |\
+F2 F>A G>A BG | F2 A>c d2 cB | GF/A/ BG F2 FD | F2 F>F F2 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+|:\
+d2 z2 d2 z2 | d2 f2 a2 d'2 | d2 z2 d2 z2 | A2 A>A A2 z2 |\
+d2 z2 d2 z2 | d2 f2 a2 d'2 | d4 d4 | d2 d>d d2 z2 :|
+|:\
+d2 d>d d2 z2 | A2 A>A A2 z2 | d2 d>d d2 z2 | A2 A>A A2 z2 |\
+d2 z2 d2 d2 | d2 f>a d'2 z2 | d4 d4 | d2 d>d d2 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

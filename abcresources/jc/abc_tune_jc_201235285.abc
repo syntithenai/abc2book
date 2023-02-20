@@ -1,0 +1,35 @@
+X: 21070
+T: Purie's Farewell [standard tuning]
+%R: air, jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.106 #2 (two staves), p.107 (full page)
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The book has A,EA^c scordatura tuning, and the tune uses two-voice notation.
+N: This transcription is converted to "standard" tuning, for ABC version 2 software.
+M: 3/4
+L: 1/8
+K: A
+%%continueall
+|:"_Slow"AB |\
+c2 A2 E2 | A,2 CE A2 | c2 (dc)(TBA) | B4 (AB) & E6 | c2 A2 E2 & c2 x2 x2 |
+A,2 CE A2 | B3 dcB & E4 x2 | [A4E4] & A,4 :: (cd) | e2 cA E2 | e2 cA E2 |
+(fe)(dc)(TBA) | B4 AB & E4 x2 | c2 A2 E2 & c2 x2 x2 | A,2 CE A2 | TBABdcB | [A4E4] & A,4 :: (AB) |
+cAEACE | A,CEAcA | e2 (fe)(dc) | TBABcAB |
+cA EACE | A,CEA Ff | e2 cABc | [A4E4] & A,4 :: (cd) |
+ec AECA, | ec AECA, | eA fedc | B4 (AB) & E4 x2 | cA EACE |
+A,CEAFf | ecBABc | [A4E4] & A,4 :: "_Brisk"||[M:C] c2 ec A2 E2 |
+FdcB Tc2(BA) | c2ec A2E2 |FdcB [A4E4] & x4 A,4 :: EAcA eAcA |
+BdcB{d}c2{B}A2 | EA cA eAcA | BdcB [A4E4] & x4A,4 :: AECA, AECA, |
+BdcB{d}c2{B}A2 | AECA, AECA, | BdcB [A4E4] & x4 A,4 :: ceAe fAdf |
+ceAc BAGE | ceAe fAdf | edcB [A4E4A,4] :: c2 c2 B2 cd & A2 A2 G2 x2 |
+ceAc B2E2 | c2 c2 B2 cd & A2 A2 G2 x2 | cABG [A4E4] & x4 A,4 :: [e2A2E2A,2] cA [e2A2E2A,2] cA | BdcB {d}c2BA |
+[e2A2E2A,2] cA [e2A2E2A,2] cA | BdTcB [A4E4A,4] :: AA, c2 BE d2 | ceAc BAGE |
+AA, c2 BE d2 | cABG [A4E4] & x4 A,4 :: eAf2 eAcA |
+eAfe dcBE | AA, c2 BE d2 | cABG [A4E4] & x4 A,4 :|
+%%begintext align
+%% The book has A,EA^c scordatura tuning; transcribed here for standard tuning.
+%% This tune has two voices, entirely for chords, transcribed here with ABC 2.0 voice overlays.
+%%endtext
+%%begintext align
+%% The book has A,EA^c scordatura tuning; transcribed here for standard tuning.
+%% This tune has two voices, entirely for chords, transcribed here with ABC 2.0 voice overlays.
+%%endtext

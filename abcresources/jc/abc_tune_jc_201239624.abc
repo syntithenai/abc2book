@@ -1,0 +1,34 @@
+X: 333
+T: MISS STEWART OF ALLANBANK
+C: Wm SHEPHERD
+R: Strathspey
+B: Glen Collection p.33 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: There is no repeat at the end of the first part.
+N: Added missing dot to e in bar 5.
+M: C
+L: 1/16
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Cm
+%
+V: 1
+GF |\
+E3CC3D E3F {EF}G3E | [D3B,3]F B2GE (DE).F.D B,2GF |\
+E3CC3D E3F {EF}G3E | G2cd edc=B c2C2C2 |]
+cd |\
+{cd}e3dc2=B2 Tc4 G3E | D3F B2GE (DE).F.D. B,2cd |\
+{cd}e3dc2=B2 Tc4 G3E | DEFD {G}F2.E.D E2TC2C2cd |
+{cd}e3dc3=B Tc4 G3E | D3F B2GE DEFD B,AGF |\
+E3CC3D ({F}ED).E.F EFGE | TG2cd edc=B c2C2C2 |]
+%
+V: 2
+z2 |\
+c4[g4e4] [g4e4][g4e4] | B4[b4f4] [b4f4][f4d4] |\
+c4[g4e4] [g4e4][g4e4] | [g4e4][f4d4] [e4c4][e2c2] |]
+z2 |\
+c4[c'4g4] e4[c'4g4] | f4[d'4b4] B4[f4d4] |\
+c4[g4e4] [g4e4][g4e4] | B4=B4 c4[g4e4c4] |
+c4[c'4g4] e4[c'4g4] | f4[d'4b4] B4[f4d4] |\
+c4[g4e4] [g4e4][g4e4] | [g4e4][f4d4] [e4c4][g2e2c2] |]

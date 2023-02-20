@@ -1,0 +1,5 @@
+X: 1
+T: TEST crescendo + diminuendo
+K: C
+F G !crescendo(!A B c !crescendo)!d e f |\
+F G !diminuendo(!A B c !diminuendo)!d e f |

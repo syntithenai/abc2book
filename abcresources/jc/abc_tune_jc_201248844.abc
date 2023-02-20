@@ -1,0 +1,214 @@
+X:0101
+T:Petronella
+P:Petronella
+C:Nath. Gow's Repository 1820
+R:Reel (8x32)
+B:RSCDS 1-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:F
+|:fc|"F"A2cA "C7"G2cA|"F"F2F2F2 Ac|"F"f2ef "Gm"g2f2|"C"e2ge c2fc|
+     "F"A2cA "C7"G2cA|"F"F2F2F2 Ac|"F"f2ef "C7"[g2B2]e2|"F"[f4A4] [f2A2]:|
+|:fc|"F"A2af c2c'a|"Gm"b2ba gfed|"C7"c2ge c2bg|"F"a2af cfcA|
+     "F"A2af c2c'a|"Gm"b2ba gfed|"C7"c2ge cbge|"F"f4 [f2A2]:|
+
+X:0102
+T:The Triumph
+P:The Triumph
+C:Aird 1797
+R:Reel (4x24)
+B:RSCDS 1-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:A
+af|"A"eccA "E7"dBBG|"A"A2[a2A2] "D"[f2A2][a2A2]|"A"eccA "E7"dBBG|"A"A2c2A2 af|\
+   "A"eccA "E7"dBBG|"A"A2[a2A2] "D"[f2A2][a2A2]|
+                                               "A"eccA "E7"dBBG|"A"A2c2A2 z2||\
+   "E"B2e2 "A"c2e2|"E"B2e2 "A"c2e2|"E"B2Bd "A"c2ce|"E7"c2B2 A2z2|
+   "E"Be^de "A"cede|"E"Be^de "A"cede|"E"B2Bd "A"c2ce|"E7"c2B2 A2z2||\
+   "A"c2cd e2c2|"E7"B2bc d2B2|
+                              "A"c2cd eagf|"E7"edcB A2 AB|\
+   "A"c2cd "F#7"fedc|"Bm"B2bc "E7"edcB|"A"c2cd ea"D"fe|"E7"edcB A2|]
+
+X:0103
+T:Circassian Circle
+P:Circassian Circle
+C:Traditional
+R:Reel (nx32)
+B:RSCDS 1-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:Bb
+|:dc|"Bb"BFdc B2d2|BFdc B2d2|"F7"cFed c2e2|cdcB AFGA|
+     "Bb"BFdc B2d2|BFdc B2d2|"F7"cdcB AFGA|"Bb"B2[d2F2][B2F2]:|
+|:f2|"Bb"dBfe d2f2|dBfd bfdB|"F7"cAed c2e2|cdcB Acf2|
+     "Bb"dBfe d2f2|dBfd bfdB|"F7"cdcB AFGA|"Bb"B2[d2F2][B2D2]:|
+
+X:0104
+T:The Nut
+P:The Nut
+C:Traditional
+R:Jig (8x24) ABA
+B:RSCDS 1-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Bb
+F|S"Bb"B>cB Bed|dcB B2g|"Eb"gfe "Bb"dcB|"C7"dcc "F7"[c2A2F2] F|
+   "Bb"B>cB Bed|dgf fba|"Eb"g2B "F7"ABc|"Bb"cBB B2"Fine"||
+A/B/|"F"c>dc caf|"C7"=ecd "F"c2c|cdc cAF|"C7"AGG GAB|
+   "F"c>dc caf|"C7"=ecd "F"c2c|"Gm"d=ef "C7"[gB]fe|"F"[fA]gf "F7"_edc"D.S."||
+
+X:0105
+T:Meg Merrilees
+P:Meg Merrilees
+C:Traditional
+R:Reel (8x24)
+B:RSCDS 1-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:A
+%%staves (1 2)
+[V:1] cd|"A"edcd eagf|fee2 e2cd|efec efec|"E7"cBB2 B2cd|\
+[V:2] x2|   x8       |x8       |x8       |    x8       |\
+[V:1]    "A"edcd eagf|fee2 e2cd|
+[V:2]       x8       |x8       |
+[V:1]                           efec "E7"BABc|"A"A2AA A2||\
+[V:2]                           x8           |   x6     ||\
+[V:1] ze|"E7"^defe =deBe|"A"ceAe ceAe|"E7"^defe =dcdB|"A"BAAA A2e2|
+[V:2] x2|    x8         |   x8       |     x8        |   x8       |
+[V:1]    "E7"^defe =deBe|"A"ceAe ceAe|\
+[V:2]         x8        |   x8       |\
+[V:1]			"Bm"BA"A"Bc "Bm"de"E7"fg|"A"ag"D"[ad]g "A"[a2c2]||\
+[V:2]                       x8                  |x6                     ||\
+[V:1] cd|"A"e2AB c2Bc|"E7"d2a2 g2   fg|
+[V:2] x2|   z2E2 z2E2|z2[B2G2][B2G2]x2|
+[V:1]				    "A"a2c'b a2gf|"Bm"e2dc "E7"B2cd|\
+[V:2]                                  z2c2  z2A2|    z2F2     G2z2|\
+[V:1]    "A"e2AB c2Bc|"E7"d2a2 g2   fg|"A"agfe "Bm"dcBA|"E7"cBAG "A"A2|]
+[V:2]       z2E2 z2E2|z2[B2G2][B2G2]x2|x8              |    x6        |]
+
+X:0106
+T:Flowers of Edinburgh
+P:Flowers of Edinburgh
+C:Traditional
+R:Reel (8x32)
+B:RSCDS 1-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:G
+|:GE|"G"D2 DE G2 GA|BGBd "Am"cBAG|"D"FGEF DEFG|"D7"AFdF "C"E2 GE|
+     "G"D2 DE "(Em)"G2 GA|"(G)"BGBd "C"efge|"G"dcBA "D7"GFGA|"G"B2 G2 G2:|
+|:d2|"G"g2 g2 gbag|"B7"f2 f2 fagf|"Em"e2 ef gfed|"e"B2 "d"e2 "c"e2 ge|
+     "G"dBGB d2 d2|"C"edef "A7"g2 fe|"G"dcBA "D7"GFGA|"G"B2 G2 G2:|
+
+X:0107
+T:Strip the Willow/Drops of Brandy
+P:Drops of Brandy
+C:Old Scots Jig called »Hey my Nannie« traced to 17th c.
+R:9/8 Jig (4x40) ABABB
+B:RSCDS 1-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:9/8
+K:G
+"G"d2 c BGB BGB|d2 c BGB "D7"c2A|"G"d2c BGB BGB|"D7"{d}cBc A2B c2A|
+"G"d2 c BGB BGB|d2 c BGB "D7"c2A|"G"d2c BGB BGB|"D7"{d}cBc A2B c2A||
+"G"G2f gdB gdB|"C"G2f "G"gdB "D7"c2A|"G"G2f gag gdB|"Am"{d}cBc A2B c2A|
+"G"G2f gdB gdB|"C"G2f "G"gdB "D7"c2A|"G"G2f gag gdB|"Am"{d}cBc A2B c2A|]
+
+X:0108
+T:Duke of Perth/Pease Strae/Broun's Reel
+P:Duke of Perth's Reel
+C:Bremner 1757
+R:Reel (8x32)
+B:RSCDS 1-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/4
+K:G
+|:d|"G"G/A/B/c/ d B|g B d B|g B d B|"D"a A A B|
+    "G"G/A/B/c/ d B|g B d B|"Am"c A "D7"d>c |"G"B G G:|
+|:f|"Em"g>a g e|"B"a>b a f|"Em"g>a g e|b e e "B7"f|
+    "Em"g>a g e|"D"a>b a f|"C"g d "D7"e d/c/|"G"B G G:|
+
+X:0109
+T:Rory O'More
+P:Rory O'More
+C:Irish
+R:Jig (8x32)
+B:RSCDS 1-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+|:e|"G"dGG BGG|dGG G2e|dcB BAG|"D"FAA ABc|
+    "G"dGG BGG|Bcd "C"e2d|"G"Bcd "D7"def|"G"gGG G2:|
+|:g|"Em"gfe eBB|"Am"cBA "Em"G2F|"C"E2F G2A|"G"Bed "Bm"def|
+    "Em"gfe eBB|"Am"cBA "Em"G2F|1"Am"EFG "Em"GAB|"Bm"Bed "D7"[d2c2F2]:|\
+                               [2"Am"E2F "D7"G2A|"G"BGG G2|]
+
+X:0110
+T:Fight About the Fireside
+P:Glenburnie Rant
+C:Niel Gow's Collection 1809
+R:Reel (8x32)
+B:RSCDS 1-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:Am
+e|"Am"A2AB A2AB|"G"GABc dBGB|"Am"A2AB A2e2| "E7"aba^g "Am"a2 a2|
+  "Am"A2AB A2AB|"G"GABc dBGB|"Am"A2AB A2e2| "E7"aba^g "Am"a2||
+e|"Am"a2ab c'2ba|"G"gabc' d'bgb|"Am"a2ab c'2ba|"E7"aba^g "Am"a2e2|
+  "Am"a2ab "D7"c'2ba|"G"gabc' d'bgb|"Am"c'2d'c' "Bo"b2c'b|"Am"ab"E7"a^g"Am"a2|]
+
+X:0111
+T:Cumberland Reel
+P:Cumberland Reel
+C:Traditional
+R:Jig (4x32)
+B:RSCDS 1-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:D
+%%staves (1 2)
+[V:1] |:A|"D"[f2A2]e [d2A2]c|"G"[d2G2]B "D"A2F|"Em"GFG "A7"EFG|"D"F2G A2A|\
+[V:2] |:x|   x6             |   x6            |    x6         |   x6     |\
+[V:1]     "G"B2G d2B|"D"A2F d2d|
+[V:2]        x6     |   x6     |
+[V:1]                           "A7"cde ABc|"D"[d3F3] [d2F2]:|\
+[V:2]                               A2z G2z|   x3      x2   :|\  
+[V:1] d/e/|"D"f2f f2e|f2f f2e|f2f g2f|"A"e2e "A7"e2c|
+[V:2] x   |   A2A A2x|A2A A2x|A2A A2x|   A2A     A2x|
+[V:1]      "Bm"d2d d2c|d2d d2c|d2B "E7"e2d|"A"c2B "A7"ABc|\
+[V:2]          F2F F2x|F2F F2x|F2x    ^G2z|   E2z    =G2z|\
+[V:1]      "Bm"d2d "A7"cBA|"G"B2c "D"d2A|
+[V:2]          F2z     x3 |   D2z    D2z|
+[V:1]                                    "Bm"ded "A"cBA|"G"B2c "D"d2f|\
+[V:2]                                        F2z    x3 |   x6        |\
+[V:1]      "A7"e2e e2e|e2e efg|"(D)"a2A "A7"ABc|"D"d3 d2|]
+[V:2]          A2z d2z|c2z B2z|     A2z     G2x|   F3 F2|]
+
+X:0112
+T:Merry Lads of Ayr
+P:The Merry Lads of Ayr
+C:John Riddell (Bremner 1757)
+R:Reel (8x32)
+B:RSCDS 1-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:C
+|:f|"C"edcB cGGf|edce "G7"f2gf|"C"edcB cGGc|"F"A/B/c "C"GE "G7"D2 Df|
+    "C"edcB cGGf|edce "G7"f2gf|"C"edcB cGGc|"F"A/B/c "C"GE "G7"D2 D||
+  d|"C"c2ga "(G)"gede|"C"ccga "(G)"g2ed|"C"cega gece|"F"fa"C"ge "G"d2 de|
+    "C"c2ga "(G)"gede|"C"ccga "(G)"g2ed|\
+                              "Am"cega "C"gece|1 "Dm"fa"C"ge "F"de"G7"fg:|\
+                                              [2 "Dm"fa"G7"ge "C"[c2E2] z|]
+

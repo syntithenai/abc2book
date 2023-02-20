@@ -1,0 +1,26 @@
+X: 2063
+T: Hon.ble Col Hamilton's Delight.    or New Bumpkin.
+%R: jig
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.6 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The rhythms don't quite line up between the strains; not fixed.
+N: (A slight adjustment was made to note lengths, to make the voices' bar lines match.)
+N: (The 3rd strain was given an initial repeat symbol, to match the 2 endings.)
+M: 6/8
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+[g3B3D3G,3] dBd | {d}Tc2B A2c | BdB {B}A2G | TF>EF D3 || [g3B3D3G,3] dBd | {d}c2B Ace | dcB AGF | G3 G3 :: D3 (TEDE) |
+DGB d2d | {d}c2B {B}A2G | TFEF D2D || E2c cde | dBG G2g | dBG cAF | G3 G2 :: B/c/ | dBd ege | dBd {d}Tc2A | dBG EFG |
+ABG FED |[1 dBd ege | dBd {d}Tc2A | dBG EFG | G3 G2 :|[2 dgb bgd | cfa afc | Bed cBA | GDC B,A,G, |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+g3 g3 | f2g d2f | g3 G3 | d3 D3 || g3 g3 | f2g d3 | g3 d3 | G2g G3 :: B3 c3 |
+B3 g3 | f3 g3 | d3 d3 || c3 c3 | B3 G3 | d3 D3 | G2g G2 :: z | g3 c3 | B2G d2D | g3 c3 |
+^c3 d3 |[1 g3 c3 | d3 f3 | g3 d3 | g3 G2 :|[2 g3 g3 | d3 d3 | gc'b agf | g3 G3 |]

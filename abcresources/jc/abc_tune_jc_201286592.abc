@@ -1,0 +1,16 @@
+X: 644
+T: the Highway to Limerick
+R: reel
+%S: s:2 b:12(6+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #644
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0644/oneill-1001-0644-1.abc
+N: Key changed to A dorian because all f notes have a sharp.
+%m: Tn = (3n/o/n/
+M: C|
+L: 1/8
+%%slurgraces 1
+%%graceslurs 1
+K: Am
+"^A"|: EAAA cBAc | BAGB dBGA | EAAB cBcd | (3(e^fg) TdB BAA2 "^B":| eaag e^fge | dBGB AGED |
+| eaag e^fga | bagb a2a2 | eaag e^fge | dBgd TBGG2 | EAAB {d}cBcd | (3(e^fg) TdB BAA2 |]

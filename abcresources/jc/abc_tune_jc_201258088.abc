@@ -1,0 +1,28 @@
+X: 1
+T: Butchers Hornpipe
+%R: minuet, triple hornpipe
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (93)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+N: The initial E in bar 3 should perhaps be F.
+M: 3/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: GFGA B2c2 d4 | edcB cBAG F2D2 | E2d2 E2c2 D2B2 | D2EF G2D2 B,2G,2 :|
+|: g4 Bc d2 g2G2 | cde2 A2a2 f4 | e2ce d2Bd c2Ac | D2G2 GABc A2G2 :|
+|: G3A GABc d2G2 | F2 A4 B2 c2E2 | E3F EFEF G3C | A,2D2 DEDC B,2G,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1st and 2d Cu. take hands and go half round the 1st
+%% Cu. go the half Round again with the 2d Cu. the 2d Cu.
+%% at the same time turn one another into their own places
+%% .| then 1st Cu. lead up to the top then sett and cast
+%% off :| then 1st Cu. lead down the Middle thro the 3d Cu.
+%% and lead up again thro the 2d and cast off into the 2d
+%% Cu. place .:|
+%%endtext
+%%sep 1 8 500

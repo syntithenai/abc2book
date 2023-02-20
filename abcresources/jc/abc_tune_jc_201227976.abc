@@ -1,0 +1,21 @@
+X: 11021
+T: Joky blythe and gay
+T: Joky blyth & gay
+N: The tune page and index spell things differently.
+%R: air, minuet
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.2 (and the top 3 staffs on p.3)
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: In bar 60 there seems to be an odd-looking double-sharp before the A. Omitted, because it makes no sense.
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+|: "_Slow"\
+F2(GF)(ED) | B3AB2 | d2AFED | E3FG2 | F2GFED | B3cd2 | e>fecBc | A3BA2 :: c2d2e2 | Tf3ef2 |
+a2ecBA | d3ed2 | B2GBeB | Tc3BA2 | d2AFED | d3e Hd2 :: (GF)(FE)(ED) | BABcd2- | d(c/B/) A(G/F/) G/(E/F/D/) | E3FG2 |
+{FG}A2GFED | B3cd2 | (ef)TB3A | A3BA2 :: (AB)(Bc)(cd) | d/(A/B/c/ d/e/f/)g/ a2- | a(g/f/) e(d/c/) d/(B/c/A/) | d3edc |
+BFGB eg | Tc3BA2 | d2AFED | d3ed2 :: Dd DEFG | A^GABcA | Bd2c/B/ AG/F/ | (EDE)GFE | dcdEFG |
+(A^GA)Bcd | e>fedcB | A3BA2 :: cA(Bc)(de) | (fe)(fg)a2 | (fe)(dc)(BA) | d3edc | BGBdGe | cAceAf |
+gfedec | d3ed2 :: FDFA Dd | cAceAc | (dc)(BA)(GF) | (EDE)GFE | "P.3" FDFA Dd | cAceAe |
+fedcBc | A3BA2 :: cAceAc | dBdfBf | (gf)(ed)(cB) | TA3GF2 | D(d/c/) dF Ee | F(f/e/) fFGg | a2A2{d}c2 | d3ed2 :|

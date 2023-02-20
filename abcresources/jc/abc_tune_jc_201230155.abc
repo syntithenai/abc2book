@@ -1,0 +1,38 @@
+X: 13322
+T: LORD CATHCART'S WELCOME TO SCOTLAND
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.13 p.32 #2
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout not changed to fit our page size:
+V: 1 clef=treble middle=B
+D |\
+DGB d2d | dcB A2c | (BG).d (cA).e | (G3 F2)D |\
+DGA dDd | dcB {B}A2c | cBG BAF | G[gB][gB] [g2B2] :|
+d |\
+def gGg | {a}gfe d2d | ecB Ace | (G3 F2)G |\
+AB^c def | B2d gfe | fed ^cde | de^c def |
+gdB GBd | dcB A2c | BGd cAe | (G3 F2)D |\
+DGB dBd | dcB A2c | cBG BAF | G[gB][gB] [g2B2] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+N: Original version with voice overlays in the bass line.
+z |\
+gbd' gbd' | ac'd' dfa | egb cea | dgb d'2z |\
+gbd' gbd' | ac'd' dfa | gbd' dfd' | gbd' g2 :|
+z |\
+b2c' b3 & g6 | e'd'c' b2z & g6 | c'2b c'2^c' | d'^c'd' d2z |\
+a2g f2d | g2f efg | a3 A3 | d3- d2z |
+GBd g2b | bag f2^d & d6 | egb cea | dgb d'2z |\
+gbd' g2z | fad' d2z | gbd' dfd' | gbd' g2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Half right & left, back again,
+%% down the mid: up again, & swing corners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

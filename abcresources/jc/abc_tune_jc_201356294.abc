@@ -1,0 +1,84 @@
+X:1
+T:Alleluia
+C:William Boyce (1710-1779)
+C:Round for three parts
+G:Vocal
+M:C|
+L:1/4
+Z:Bert Van Vreckem <Bert.VanVreckem@advalvas.be>, 30 jan 2001
+Q:160
+K:C
+"1."c4 | B4 | A4 | G4 | A3 B | (c/B/A/G/ A/G/F/E/ | F2 G2) | !fermata!C4 |
+w:Al-le-lu-ia, al-le-lu-_________ia.
+"2."zCEC | GDG (A/B/) | (c/B/) (A/B/) c d | !breath!B2 (G2 | G) G F2 | E2 (c2 | c) A B2 | !fermata!!breath!c4 |
+w:Al-le-lu-ia, al-le-lu-_ia, al-_le-_lu-ia, al-_le-lu-ia, al-_le-lu-ia.
+"3."c3 e | (d/c/B/A/) G2 | GA ^F2 | !breath!G3 E | C2 D2 | C3 c | d2 [G2d2] | !fermata![G4e4] :|
+w:Al-le-lu-___ia, al-le-lu-ia, al-le-lu-ia, al-le-lu-ia.
+
+X:2
+T:Alleluia - score
+C:William Boyce (1710-1779)
+C:Round for three parts
+G:Vocal
+M:C|
+L:1/4
+Z:Bert Van Vreckem <Bert.VanVreckem@advalvas.be>, 30 jan 2001
+Q:160
+K:C
+% Line one
+V:1
+c4 | B4 | A4 | G4 | A3 B | (c/B/A/G/ A/G/F/E/ | F2 G2) | !fermata!C4 |
+w:Al-le-lu-ia, al-le-lu-_________ia.
+V:2
+z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 |
+V:3
+z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 |
+% Line two
+V:1
+zCEC | GDG (A/B/) | (c/B/) (A/B/) c d | !breath!B2 (G2 | G) G F2 | E2 (c2 | c) A B2 | !fermata!!breath!c4 |
+w:Al-le-lu-ia, al-le-lu-_ia, al-_le-_lu-ia, al-_le-lu-ia, al-_le-lu-ia.
+V:2
+c4 | B4 | A4 | G4 | A3 B | (c/B/A/G/ A/G/F/E/ | F2 G2) | !fermata!C4 |
+w:Al-le-lu-ia, al-le-lu-_________ia.
+V:3
+z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 |
+% Line three
+V:1
+c3 e | (d/c/B/A/) G2 | GA ^F2 | !breath!G3 E | C2 D2 | C3 c | d2 [G2d2] | !fermata![G4e4] |
+w:Al-le-lu-___ia, al-le-lu-ia, al-le-lu-ia, al-le-lu-ia.
+V:2
+zCEC | GDG (A/B/) | (c/B/) (A/B/) c d | !breath!B2 (G2 | G) G F2 | E2 (c2 | c) A B2 | !fermata!!breath!c4 |
+w:Al-le-lu-ia, al-le-lu-_ia, al-_le-_lu-ia, al-_le-lu-ia, al-_le-lu-ia.
+V:3
+c4 | B4 | A4 | G4 | A3 B | (c/B/A/G/ A/G/F/E/ | F2 G2) | !fermata!C4 |
+w:Al-le-lu-ia, al-le-lu-_________ia.
+% Line four
+V:1
+c4 | B4 | A4 | G4 | A3 B | (c/B/A/G/ A/G/F/E/ | F2 G2) | !fermata!C4 |
+w:Al-le-lu-ia, al-le-lu-_________ia.
+V:2
+c3 e | (d/c/B/A/) G2 | GA ^F2 | !breath!G3 E | C2 D2 | C3 c | d2 [G2d2] | !fermata![G4e4] |
+w:Al-le-lu-___ia, al-le-lu-ia, al-le-lu-ia, al-le-lu-ia.
+V:3
+zCEC | GDG (A/B/) | (c/B/) (A/B/) c d | !breath!B2 (G2 | G) G F2 | E2 (c2 | c) A B2 | !fermata!!breath!c4 |
+w:Al-le-lu-ia, al-le-lu-_ia, al-_le-_lu-ia, al-_le-lu-ia, al-_le-lu-ia.
+% Line five
+V:1
+zCEC | GDG (A/B/) | (c/B/) (A/B/) c d | !breath!B2 (G2 | G) G F2 | E2 (c2 | c) A B2 | !fermata!!breath!c4 |
+w:Al-le-lu-ia, al-le-lu-_ia, al-_le-_lu-ia, al-_le-lu-ia, al-_le-lu-ia.
+V:2
+c4 | B4 | A4 | G4 | A3 B | (c/B/A/G/ A/G/F/E/ | F2 G2) | !fermata!C4 |
+w:Al-le-lu-ia, al-le-lu-_________ia.
+V:3
+c3 e | (d/c/B/A/) G2 | GA ^F2 | !breath!G3 E | C2 D2 | C3 c | d2 [G2d2] | !fermata![G4e4] |
+w:Al-le-lu-___ia, al-le-lu-ia, al-le-lu-ia, al-le-lu-ia.
+% Line six
+V:1
+c3 e | (d/c/B/A/) G2 | GA ^F2 | !breath!G3 E | C2 D2 | C3 c | d2 [G2d2] | !fermata![G4e4] |]
+w:Al-le-lu-___ia, al-le-lu-ia, al-le-lu-ia, al-le-lu-ia.
+V:2
+zCEC | GDG (A/B/) | (c/B/) (A/B/) c d | !breath!B2 (G2 | G) G F2 | E2 (c2 | c) A B2 | !fermata!!breath!c4 |]
+w:Al-le-lu-ia, al-le-lu-_ia, al-_le-_lu-ia, al-_le-lu-ia, al-_le-lu-ia.
+V:3
+c4 | B4 | A4 | G4 | A3 B | (c/B/A/G/ A/G/F/E/ | F2 G2) | !fermata!C4 |]
+w:Al-le-lu-ia, al-le-lu-_________ia.

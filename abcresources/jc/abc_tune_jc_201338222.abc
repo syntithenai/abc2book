@@ -1,0 +1,16 @@
+X:1
+T:Sl\"anspolska
+C:Trad.
+O:Sverge
+Z:Bart Vanhaverbeke <bvanhaverbeke@unicall.be>
+L:1/8
+M:3/4
+K:Dm
+[e2e2]|"Dm"[fc]>[eA] [dF]>[^cE] [dF]>[fA]|"A"[e^c]>[cA] [A4E4]|\
+{Bc}[AE]>[G^C] [FA,]>[EC] [DA,]>[CA,]|"Dm"[DA,]>[E^C] [FD]>[GE] [A2F2]|
+{fg}[fc]>[eA] [dF]>[^cE] [dF]>[fA]|"A7"[e^c]>[cA] [A4E4]|\
+{AB}[GE]>[G^C] [FA,]>[EC] [DA,]>[CA,]|[^CA,]>D "Dm"[D4D4] :|
+"A7"{DED}[^CA,]>[DB,]  [E4C4] | "Dm"{EFE}[DB,]>[E^C] [F4D4] |\
+"C7"{GAG}[E=C]>[FD] [G4E4] | "F"{GAG}[FC]>[GE] [A4F4] |
+"Gm"{Bc}[BG]>[GD] [GB,]>[^FA,] [GB,]>[BG] | "Dm"[AD]>[GE] [=F4D4] |\
+"A7"{FGF}[E^C]>[DB,] [CA,]>[DB,] [EC]>A, | "Dm"[DA,]>A, [D4A,4] :|

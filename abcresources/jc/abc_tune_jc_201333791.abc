@@ -1,0 +1,38 @@
+
+X: 1
+T: Les Salutos
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+B,C \
+| "G"D>ED D>ED | G2G G2F/E/ | "D7"D>ED D>ED | A2A A2F/E/ |
+y3 \
+| "G"D>ED D>ED | G2G G2F/E/ | "A7"A>BA "D7"D>EF | "G"G2G G :|
+z2 \
+| "G"B>AG B>AG | "D7"A2D D3 | "G"B>AG B>AG | "D7"A2D D3 |
+y3 \
+| "G"B>AG B>AG | "D7"c>BA d3- | d6 | "D7"DDD E2F | "G"G3 z |]
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: Les Salutos
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+CD \
+| "A"E>FE E>FE | A2A A2G/F/ | "E7"E>FE E>FE | B2B B2G/F/ |
+y3 \
+| "A"E>FE E>FE | A2A A2G/F/ | "B7"B>cB "E7"E>FG | "A"A2A A :|
+z2 \
+| "A"c>BA c>BA | "E7"B2E E3 | "A"c>BA c>BA | "E7"B2E E3 |
+y3 \
+| "A"c>BA c>BA | "E7"d>cB e3- | e6 | "E7"EEE F2G | "A"A3 z |]
+

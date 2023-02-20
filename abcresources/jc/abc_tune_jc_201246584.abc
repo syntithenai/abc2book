@@ -1,0 +1,84 @@
+%%abc 2.0
+X: 1
+T: The American Legion    [E]
+C: Carl D. Vandersloot
+C: arr. by Frank E. Barry
+M:C|
+L:1/4
+P: Db Piccolo
+%Q:1/2=120
+%C:
+%%staffwidth 7.5in
+%%borderwidth .5in
+% %leftmargin 0.5in
+%%topmargin 0.5in
+%%composerspace 0
+%%partsspace 0
+%%musicspace 0
+%%staffsep
+%%textfont helvetica 16
+%%scale .7
+K:E
+!>!!ff!Bzz!>!=c | !>!Bzz^c | !<(!!>!d!>!e!>!f!>!g!<)! | !>!az!>!b2 \
+|: !>!b(b/^a/b)!>!a | !>!=a(a/g/a)!>!f \
+| !>!g(g/^^f/g).=f | .e.d.c.=c | 
+(!<(!!>!B^A/B/)(!>!d^^c/d/!<)!) | /(!>!f^e/f/)!>!b2 \
+| (!>!ed/e/)(!>!g^^f/g/) | (!>!b^a/b/)!>!e'2 \
+| !>!b(b/^a/b)!>!a | =a(a/g/a)!>!f \
+| !>!g(g/^^f/g).^f | .e.d.e.f | 
+!>!=gz/.g/.gg \
+| !>!^gzz2 | z2(!>!d2 |1 e).e'.d'.c' :|2 e)zz2 \
+|: T!trill(!b4- | b4- \
+| b4- | !trill)!b(!<(!e/g/ b/g/b/e'/!<)!) \
+| !>!!sfz!d'z/.d'/.d'.^c' | !>!bz/.^a/.b.=a | 
+!>!gz/.g/.g.^f | .e.e.d.c \
+| T!trill(!b4- | b4- \
+| b4 | -!trill)!b(e/g/ b/g/b/e'/) \
+| !>!!sfz!e'z/.d'/.e'.c' | !>!bz/.^a/.b.g \
+| b=c'^c'd' | e'zz2 :| 
+"TRIO"
+K:A
+!segno!z((3e/f/e/).c.e | z.e.e.e | z((3a/b/a/).e.a | z.a.a.a \
+| z(e/f/ g/a/b/c'/) | .d'.b.^a.b \
+| !<(!(e'>f'g').f'!<)! | 
+!>(!.e'.^d'.=d'.b!>)! \
+| z((3e/f/e/).c.e | z.e.e.e \
+| z((3a/b/a/).e.a | z.a..aa \
+| (Tb2b)z | (Tb2b)z \
+| !<(!b=c'^c'^d'!<)! | !>!!f!e'z z2 \
+| z.!p!ez.=f | 
+z!<(!.fz.g | z.az.b | z.c'z.d'!<)! \
+| z(e'/^d'/.e')(e'/.d'/ | .e').=d'.c'.b \
+| z(c'/=c'/^c')(c'/b/ | !>(!.c').=b.a.f!>)! \
+| z.!p!ez.=f | 
+z!<(!.fz.gz.az.^a | .b.c'.d'.^d'!<)! | !>!e'(e'/^d'/.e')(c'/=c'/ \
+| .c')(a/g/.a).f | .e.=f.^f.g | azaz!fine!!fermata! \
+|| !>!!ff!czz!>!d | !>!czz!>!d | 
+!>!c!>!d!>!c!>!d | !>!cz!>!!sfz!c'z | !>!=ezz!>!=f | !>!ezz=!>!f \
+| !>!e!>!=f!>!e!>!f | !>!ez!>!!sfz!e'z \
+| !>!e3!>!f | !>!g3!>!a \
+| !>!b!>!c'!>!d'!>!^d' | !>!e'z!>!!sfz!e'z!segno! |] 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

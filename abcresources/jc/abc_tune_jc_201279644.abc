@@ -1,0 +1,48 @@
+
+X: 1
+T: Garoun 2  [Gm]
+T: Springtime
+O:Armenia
+S:Deborah Jones, VIFD Book; Tom Pixton, Pinewoods Intl. Coll.
+M:2/4
+L:1/16
+P: (ABCD)x2
+%Q:1/4=160
+K:Gm
+P: A instr
+|: "Gm"G2GD G2A2 | "(Cm)"BABc A2G2 | "D7"^FGF=E F2G2 | A2BA "Gm"G2G2 \
+|  "Gm"G2GD G2B2 | "(Cm)"d2d2 cBAG | "D7"^FGF=E F2G2 | A2BA "Gm"G4 :|
+P: B vocal
+|: "Gm"d2d2 d2d2 | d2d2 ed3 | "Cm"c4 "(Gm)"B4 | "Cm"A6 z2 \
+|  "D7"c2c2 c2c2 | c2c2 B2A2 | "Gm"B4 "(D7)"c4 | "Gm"d6 z2 :|
+P: C
+|: "Gm"B2B2 B2B2 | B2B2 A2B2 | "Cm"c4 "(Gm)"B4 | "Cm"A6z2 \
+|  "D7"A2A2 A2A2 | c2c2 B2A2 | "Gm"BAG2 "D7"AG^F2 | "Gm"G6 z2 :|
+P: D chorus
+|: "Gm"G2G2 G2A2 | "Cm"B2cB A2G2 | "D7"^F2F2 F2G2 | A2BA "Gm"G4 \
+|  "Gm"G2G2 G2B2 | "Cm"d2d2 c2B2 | "D7"A3G ^F2G2 | "Gm"A2BA G4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Garoun 2  [Dm]
+T: Springtime
+O:Armenia
+S:Deborah Jones, VIFD Book; Tom Pixton, Pinewoods Intl. Coll.
+M:2/4
+L:1/16
+P: (ABCD)x2
+%Q:1/4=160
+K:Dm
+P: A instr
+|: "Dm"d2dA d2e2 | "(Gm)"fefg e2d2 | "A7"^cdc=B c2d2 | e2fe "Dm"d2d2 \
+|  "Dm"d2dA d2f2 | "(Gm)"a2a2 gfed | "A7"^cdc=B c2d2 | e2fe "Dm"d4 :|
+P: B vocal
+|: "Dm"A2A2 A2A2 | A2A2 BA3 | "Gm"G4 "(Dm)"F4 | "Gm"E6 z2 \
+|  "A7"G2G2 G2G2 | G2G2 F2E2 | "Dm"F4 "(A7)"G4 | "Dm"A6 z2 :|
+P: C
+|: "Dm"F2F2 F2F2 | F2F2 E2F2 | "Gm"G4 "(Dm)"F4 | "Gm"E6z2 \
+|  "A7"E2E2 E2E2 | G2G2 F2E2 | "Dm"FED2 "A7"ED^C2 | "Dm"D6 z2 :|
+P: D chorus
+|: "Dm"D2D2 D2E2 | "Gm"F2GF E2D2 | "A7"^C2C2 C2D2 | E2FE "Dm"D4 \
+|  "Dm"D2D2 D2F2 | "Gm"A2A2 G2F2 | "A7"E3D ^C2D2 | "Dm"E2FE D4 :|

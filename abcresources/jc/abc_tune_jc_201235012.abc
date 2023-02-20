@@ -1,0 +1,27 @@
+X: 20961
+T: DI PLACER MI BALZA IL COR
+T: (My heart leaps with pleasure)
+Q: "Moderato"
+%R: minuet
+B: "Edinburgh Repository of Music" v.2 p.96
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Bar 3 has the cbc slur overlapping a slur over the cba triplet, so the triplet slurs are ignored here.
+M: 3/4
+L: 1/16
+K: D
+"_F."d3f |\
+a7 d'c'3e' | d'4 z4 "_>"d'3c' |\
+(c'4 "_P"b2(3c')ba (3bag (3agf | e2f2 e4 "_F."d3f |\
+a7 d'c'3e' | d'4 z4 d'3a |\
+f2(3gfe f2(ba) .e2(gf) | "_P."dAFA DAFA dAdf |
+"_F."ea^ga =gaea caAa | dAFA dAFA dAdf |\
+ea^ga =gaea caAa | d4 zd'c'b agfe |\
+d3{edcd}f A3{BA^GA}d F3{=GFEF}A | D8 H|]
+f3f |\
+d'6 c'b (^a2bc') | b4 z4 b3f |\
+d'2b2 z6 ef3g | a4 Hz4 e'3d' |\
+c'7 b (3b2a2f2 | e8 e'3d' |
+d'4 c'2z^g (3b2a2f2 | e8 a3b |\
+c'4 (c'e')(d'c') (ba) (eg) | Hf4 z6 f d'3b |\
+e7 e f3^g | Ha8 "_D.C."y|]

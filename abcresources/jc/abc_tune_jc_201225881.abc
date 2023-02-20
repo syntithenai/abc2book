@@ -1,0 +1,26 @@
+X: 10032
+T: the FOLKLIFE WALTZ
+C: Bob McQuillen 19 April 93
+B: Bob's Note Book 10 #32
+%R: waltz
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: G	% and Em
+dc \
+| "G"Bd>B | "D7"dBd | "G7"ed>B | "G7"G>BG | "C"E>FG | "D7"FGA | "G"G3- | "D7"Gdc |\
+| "G"Gd>B | "D7"dBd | "G"ed>B | "Bm"G>BG | "A7"EG>B | BGB | "D7"A3- Adc |
+| "G"Bd>B | "G7"GBd | edB | G>BG | "C"EG>B | "D7"AGF | "G"G3- | G2"G7"D |\
+| "C"E>FG | "C7"AGA | "G"Bdg | "E7"e>dc | "A7"BGB | "D7"A2G | "G"G3- | G ||
+|| GF \
+| "Em"E>FG | "Am"AGA | "Em"BG>E | "Bm"DGF | "Em"E>FG | "Bm"FED | "Em"E3- | EGF |\
+| "Em"E>FG | "Am"AGA | "Em"Be>d | BGA | Be>g | "Bm"fed | "Em"e3- | ega |
+| "Em"b>ge | "D"afd | "Em"ge>g | "Bm"dBd | "Em"ed>B | dBG | EG>B | "Bm"AFD |\
+| "Em"E>GB | "Am"ABd | "Em"eg>b | "Am"a2g/a/ | "Em"bg>e | "Bm"afd | "Em"e3- | e |]
+%%begintext align
+%% For so many good
+%% friends and happy times and great music at
+%% The NorthWest Folklife Festival.
+%% and with thanks, many thanks, to my very dear
+%% Frank and Dina and Zora and Kitty Blade - love, MAC
+%%endtext

@@ -1,0 +1,130 @@
+
+X: 0
+T: Mountain Dew Standpiece
+%C:
+K:
+
+%%textfont Times-Italic 12
+
+
+X: 1
+T: Mountain Dew
+P: Piffero primo b0003
+O: safd 118
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/mountainF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+d2 |\
+efed B2AG | ABAG E2D2 | G2B2 A2G2 | d6 d2 |\
+efed B2AG | ABAG E2D2 | G2B2 A2A2 | G6 :|
+|: d2 |\
+e2d2 | G2Bd | e2d2 G2Bd | e2d2 B2G2 | E6 d2 |\
+efed B2AG | ABAG E2D2 | G2B2 A2A2 | G6 :|
+
+
+X: 2
+T: Oyster River Hornpipe  v.1
+P: Piffero primo b0035
+O: safd 115
+%R: hornpipe, march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/mountainF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+D2 |\
+G2B2 BAGA | B2e2 efge | d2B2 A2GA | BcBA GFED |\
+G2B2 BAGA | B2e2 efge | d2B2 A2GA | B2G2 G2 :|
+|: A |\
+d3e  dcBA | d2d2 e2de | f2f2 e2de | f2fe dcBA |\
+Bcde dcBA | d2d2 e2de | f2f2 e2de  f2d2 d2 :|
+
+
+X: 3
+T: Oyster River Hornpipe  v.2
+P: Piffero secondo b0036
+O: safd 115
+%R: hornpipe, march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/mountainF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+D2 |\
+C2E2 EDCD | E2A2 ABcB | G2E2 D2CE | EFED CB,A,G, |\
+C2E2 EDCD | E2A2 ABcB | G2E2 D2CE | E2C2 C2 :|
+|: D2 |\
+G3A  GFED | G2G2 A2GA | B2B2 A2GA | B2BA GFED |\
+EFGA GFED | G2G2 A2GA | B2B2 A2GA | B2G2 G2 :|
+
+%%center (drum bridge, paddy on the handcar, 8 bars)
+
+
+X: 4
+T: Essence of Tampa
+P: Piffero primo b0037
+O: safd 103
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/mountainF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+D2 |\
+G2GB A2AB | G2GB A4   | G2ge dBGB | AGAB  GED2 |\
+G2GB A2AB | G2GB A4   | G2ge dBGB | AGAB  G2  :|
+|: z2 |\
+e3f  g2f2 | BB2c BAGF | E3F  G2A2 | B^ABc B4 |\
+e3f  g2f2 | BB2c BAGF | E3F  G2A2 | BAG2  E2 :|
+
+
+X: 5
+T: Bummer's Reel
+P: Piffero primo b0038
+O: safd 060
+%R: reel
+S: http://ancients.sudburymuster.org/mus/ssp/pdf/mountainF.pdf
+N: aka Fletcher's Delight, Lancaster Reel, Levantine's Barrel, Reilly's Own
+N: There are two versions of this tune in the SAFD collection.
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Glyd	% All the c notes are sharp.
+BA |\
+(GB)(DG B2)(BA) | G2ed (cd)(AG) | (FA)(DF A)(DFA) | (GB)(ed B2)BA |\
+(GB)(DG B2)(BA | G2)ed (cd)(AG) | (FA)(DF A)(DFA) | G2B2 G2 :|
+|: d2 |\
+e2f2 g2ed | (edcd) B2AG | (FA)(DF A)(DFA) | GBed B2zd |\
+e2f2 g2ed | (edcd) B2AG | (FA)(DF A)(DFA) | G2B2 G2 :|
+
+%%center (drum bridge, downshire, 8 bars)
+
+
+X: 6
+T: Downshire
+P: Piffero primo b0039
+O: Bruce and Emmett
+%R: reel
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/mountainF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+AG \
+| F2DD D2D2 | D2F2 A2d2 | c2AA A2A2 | A2c2 e2g2 \
+| fdd2 edcd | B2g2 g2fg | efgf efed | cded cBAG |
+| F2DD D2D2 | DFAd DFAd | c2AA A2AA | Aceg Aceg \
+| fAdf edcd | B2g2 g2fg | efge d2c2 | (e4 d2) :|
+|: A2 \
+| f2ff f2f2 | fefg agfg | e2ee e2e2 | edef gfed \
+| fgfe dcBA | ^GAB=G A2ec | dece BeAe | ^GeAe Bece |
+| dece BeAe | ^GeAe Bece | dFAd fAdf | a2ab agfe \
+| dFAd fAdf | a2ab agfe | d2fe dcBA | ^GAdB A=GFE |
+| F2DD D2DD | DFAd DFAd | c2AA A2A2 | Aceg Aceg \
+| fAdf edcd | B2g2 g2fg | efge d2c2 | (e4 d2) :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

@@ -1,0 +1,64 @@
+
+X: 1
+T: Sir Charles Sedley's Minuet    [D]
+%Q: 3/4=60
+O: England 1770
+A: Carlisle
+R: minuet
+B: Thompson, C. & S. (pub) "The Compleat Tutor for the Fife" 1770 p.31 #3
+B: Joseph Barnes MS, Carlisle, 1762. [VMP C.Graebe]
+N: Barnes has d2fdfd in bar 1, and lacks the natural in bar 9 and the sharp in bar 11.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Chords by John Chambers.
+M: 3/4
+L: 1/8
+F:http://localhost/~jc/music/abc/England/CharlesSedleysMinuet.abc	 2014-02-16 161900 UT
+K: D
+|: "D"d2 fd "A7"ec | "D"d2 "(A7)"e2 "D"f2 | "A7"A2 Bc dB | "(d)"A2 G2 F2 |
+|  "D"D2- DF "A7"EG | "D"F2 DF "A7"EG | "D"F2 GF ED | "A7"A6 :|
+|: "D"AF DF "D7"A=c | "G"{c}B2 AB G2 | "E7"B^G EG Bd | "A"{d}c2 Bc A2 |
+| "A7"ec Ac eg | "D"fd "A7"ec "D"d2 "I"| "A7"A>g f2 Te2 | "D"d6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sir Charles Sedley's Minuet    (G)
+%Q: 3/4=60
+O: England 1770
+A: Carlisle
+R: minuet
+B: Thompson, C. & S. (pub) "The Compleat Tutor for the Fife" 1770 p.31 #3
+B: Joseph Barnes MS, Carlisle, 1762. [VMP C.Graebe]
+N: Barnes has d2fdfd in bar 1, and lacks the natural in bar 9 and the sharp in bar 11.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Chords by John Chambers.
+M: 3/4
+L: 1/8
+F:http://localhost/~jc/music/abc/England/CharlesSedleysMinuet.abc	 2014-02-16 161900 UT
+K: G
+|: "G"g2 bg "D7"af | "G"g2 "(D7)"a2 "G"b2 | "D7"d2 ef ge | "(G)"d2 c2 B2 |
+|  "G"G2- GB "D7"Ac | "G"B2 GB "D7"Ac | "G"B2 cB AG | "D7"d6 :|
+|: "G"dB GB "G7"d=f | "C"{f}e2 de c2 | "A7"e^c Ac eg | "D"{g}f2 ef d2 |
+| "D7"af df ac' | "G"bg "D7"af "G"g2 "I"| "D7"d>c' b2 Ta2 | "G"g6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sir Charles Sedley's Minuet    (C)
+%Q: 3/4=60
+O: England 1770
+A: Carlisle
+R: minuet
+B: Thompson, C. & S. (pub) "The Compleat Tutor for the Fife" 1770 p.31 #3
+B: Joseph Barnes MS, Carlisle, 1762. [VMP C.Graebe]
+N: Barnes has d2fdfd in bar 1, and lacks the natural in bar 9 and the sharp in bar 11.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Chords by John Chambers.
+M: 3/4
+L: 1/8
+F:http://localhost/~jc/music/abc/England/CharlesSedleysMinuet.abc	 2014-02-16 161900 UT
+K: C
+|: "C"c2 ec "G7"dB | "C"c2 "(G7)"d2 "C"e2 | "G7"G2 AB cA | "(C)"G2 F2 E2 |
+|  "C"C2- CE "G7"DF | "C"E2 CE "G7"DF | "C"E2 FE DC | "G7"G6 :|
+|: "C"GE CE "C7"G_B | "F"{B}A2 GA F2 | "D7"A^F DF Ac | "G"{c}B2 AB G2 |
+| "G7"dB GB df | "C"ec "G7"dB "C"c2 "I"| "G7"G>f e2 Td2 | "C"c6 :|

@@ -1,0 +1,75 @@
+
+X: 1
+T: Yellow Stockings   [Em]
+T: Mad Moll
+T: The Peacock Followed The Hen
+O: Neal 1726
+B: William Neal "Choice Collection" 1726
+N: See Brose and Butter for another version of this tune.
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Edor
+|:"Em"GAB GEE GEE |"Em"GAB GEE "D"F2D |"Em"GAB GEE GEE |"D"FGA AdA F2D :|
+|: "G"GAB dBB dBB | "G"GAB dBB "A"c2A | "G"GAB dBB dBB |"D"FGA AdA F2D :|
+
+%%sep 1 1 500
+
+X: 1
+T: Yellow Stockings   [Em]
+O: O'Farrell 1797
+B: O'Farrell's National Irish Music 1797
+Z: Paul Kinder
+M: 9/8
+L: 1/8
+K: Em	% and G
+E \
+|: "Em"G2 B GEE GEE | G2 B GEE "D"FED | "Em"G2 B GEE GEE | "D"FGA ABG FED :|
+|: "G"G2 c BGd BGd | G2 c BGd "D7"cBA | "G"G2 c BGd BGd | "Am"ecA "(A7)"ABG "D7"FED :|
+|: "Em"B{c}BA GEE GEE | BdB GEE "D"FED | "Em"B{c}BA GEE GEE | "D"FGA ABG FED :|
+
+%%sep 1 1 500
+
+X: 2
+T: Yellow Stockings   [Bm]
+O: Ryan 1883
+R: Slip Jig
+B: Ryan's Mammoth Collection (1883)
+Z: AK/Fiddler's Companion
+M: 9/8
+L: 1/8
+K: Bm	% and D
+(B/c/) \
+|: "Bm"d2f (dB)B (dB)B | d2f (dB)B "A"cBA | "Bm"d2f (dB)B (dB)B | "A"cde efd cBA :|
+|: "D"d2g (fd)a (fd)a | d2g (fd)a "A7"gfe | "D"d2g (fd)a (fd)a | "Em"g2e efd "A"cBA :|
+
+%%sep 1 1 500
+
+X: 3
+T: Yellow Stockings   [Am]
+T: Mad Moll
+O: Barnes v.2 2005
+B: William Neal "Choice Collection" 1726
+B: Barnes v.2 p.147 in Am
+N: some versions retain the `f' sharp
+M: 9/8
+L: 1/8
+K: Am
+|: "Am"c>de cAA cAA | "Am"c>de cAA  "G"B2G | "Am"c>de cAA cAA | "G"B>cd ded "(G7)"B2G :|
+|:  "C"c>de gee gee |  "C"c>de gee "G7"f2d |  "C"c>de gee gee | "Dm"f2d ded  "G7" B2G :|
+
+%%sep 1 1 500
+
+X: 4
+T: Yellow Stockings   [F#m]
+T: Mad Moll
+T: Virgin Queen, The
+O: Chappell 1856
+%date 1856
+M: 9/8
+L: 1/8
+S: Chappell "Popular Music of the Olden Time" v.2 p.74 1855-6
+K: F#m
+E | "F#m"A>Bc AFF (AF)F | A>Bc (AF)F "E"G2E | "F#m"A>Bc AFF (AF)F | "E"G>AB BcB G2 :|
+|:\
+E | "A"A>Bc ecc (ec)c | (A>B)c ecc "E7"e2B | "A"A>Bc "E"gee gee | G>AB (Bc)B G2 :|

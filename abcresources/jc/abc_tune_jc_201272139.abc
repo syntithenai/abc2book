@@ -1,0 +1,29 @@
+X: 1
+T: Easter Tuesday
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.184
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat added to satisfy the "Each Strain twice" instruction.
+M: 6/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+c3dc2 B3AG2 | A4A2 G3FE2 |\
+F3GF2 G4G2 | c6 c6 ::\
+e2g2g2 g3fe2 | fga2a2 a3gf2 |
+efg2g2 e3dc2 | d6 G6 |\
+E2G2G2 G3FE2 | FGA2A2 A3GF2 |\
+ABc2A2 Bcd2B2 | c6 C6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man cast off into the 2. man's place and turn S .| The 1. Wo. do the like .| Then back to back
+%% with their Partners, then back to back, sides, and right and left quite round till the 1. cu. comes into the
+%% 2. cu. place .|
+%% [DMDfD]
+%%endtext
+%%sep 1 1 300
+%%text Note: Each Strain is to be play'd twice over.
+%%sep 1 8 500

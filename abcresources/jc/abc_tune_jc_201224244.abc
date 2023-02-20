@@ -1,0 +1,24 @@
+X: 08105
+T: the SQUEEKY JIG
+C: Bob McQuillen 16 Sept 91
+B: Bob's Note Book 8 #105
+%R: jig
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+| BAB AFA | dfa a2g | faf dfd | edB AFA |\
+| BAB AFA | dfa a2g | faf ede | fdd d2 :|
+|: f \
+| afa baf | aba f2a | fdB AFA | Bdf edf |\
+| afa baf | aba f2d | edB AFA | Bdd d2 :|
+%%begintext align
+%% When I
+%% went to Buffalo Gap Dance Weekend I discovered
+%% I was all out of soap, but Susan Jewett gave
+%% me some which kept me squeeky clean the whole
+%% time I was there. Thanks, Susan! P.S. Thanks also to
+%% Rick Trois for getting me down there. I really had a
+%% wonderful time!
+%%endtext

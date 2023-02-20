@@ -1,0 +1,25 @@
+X:1
+T:Kyla McKellar's Lullaby
+M:6/8
+L:1/8
+Q:80
+C:S.S. Kelly 1982
+S:Slow Air
+K:HP
+|: A | \
+{gfg}f2e{Gdc}d2{e}A | \
+{gcd}c2{g}B{GdG}B2{g}B | \
+{gef}e2d{gcd}c2{e}A |
+{Gdc}d2e{gfg}f3 | \
+{ag}a2{f}g{fg}f2d | \
+{gf}g2f{gef}e2d |
+{gcd}c2{e}A{gfg}f2e | \
+{Gdc}d3{gdc}d2 :: \
+{ag}a2{f}g{fg}f2d |
+{gf}g2f{gef}e3 | \
+{A}e2d{gcd}c2{e}A | \
+{Gdc}d2e{gfg}f3 |
+{ag}a2{f}g{fg}f2d | \
+{gf}g2f{gef}e2d | \
+{gcd}c2{e}A{gfg}f2e |
+{Gdc}d3{gdc}d2 :|

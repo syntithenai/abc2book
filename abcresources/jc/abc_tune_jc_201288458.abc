@@ -1,0 +1,23 @@
+X: 977
+T: The Humors of Bandon
+O: Ireland
+R: jig; long dance, set dance
+%S: s:3 b:24(8+8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #977
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0977/oneill-1001-0977-1.abc
+P: Play AA BA or AA BA BA, as needed by the dance.
+M: 6/8
+L: 1/8
+K: G
+"^A"[|] F \
+| DGG GFG | (A/B/A)(G F)GA | BGG GFG | (A/B/d)(e f)ef \
+| d2e c2A | (BA)(G F)GA | BGA FD(F | G3)G2 :|
+"^B"\
+|: c \
+| dgg gfg | (g/b/a)g f2a | (g/a/g)f d2e | (f/g/f)d c2e \
+| (d/e/d)c B2d | (c/d/c)B G2A | (B/c/B)G F2A | (G/A/G)F D2 ||
+"^A"\
+|| C \
+| DGG GFG | (A/B/A)(G F)GA | BGG GFG | (A/B/d)(e f)ef \
+| d2e c2A | (BA)(G F)GA | BGA FD(F | G3)G2 :|

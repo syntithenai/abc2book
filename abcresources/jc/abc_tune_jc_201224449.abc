@@ -1,0 +1,43 @@
+X: 0832
+T: Lord Cathcart
+%R: jig
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1809, No. 8 p.3 #2
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances8
+%%slurgraces 1
+%%graceslurs 1
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+F |\
+(FB).d f2f | (fe).d c2e | (dB)f (ec)g | B3 A2F |\
+(FB).d f2f | (fe).d c2e | (ed).B (dc).A | (A3 B2) |]
+f |\
+fga bBb | bag f2.^f | ged ceg | (B3 A2)c |\
+cd=e fga | d3 b3 | agf {a}gf=e | fg=e fga |
+"^8va  _  _  _"\
+bfd Bdf | (fe).d c2e | (dB).f (ec).g | (B3 A2)F |\
+(FB).d f2f | (fe).d c2e | (ed).B (dc).A | (A3 B2) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=D
+z |\
+([d3F3-] [B3F3] | [c3F3-] [A3F3-] | [B3F3]) [c3E3] | ([d3F3] [c2F2])z |\
+([d3F3-] [B3F3] | [c3F3-] [A3F3] | [B3F3]) [e3c3E3] | ([e3c3E3] [d2B2]) |]
+z |\
+[B3B,3] D3 | F3 [B3D3] | [B3E3] [c3E3] | ([d3F3] [c2F2])z |\
+[c3B3] [c3A3] | GBf =ece | f2A B2c | F3 z2z |
+Bdf Bdf | Acf Acf | Bdf EGc | FBd Fce |\
+Bdf Bdf | Acf Acf | Bdf Fce | Fc(e [d2B2]) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Gentleman turns the 2d Lady,
+%% 1st Lady turns the 3d Gentleman,
+%% Cast off, up again
+%% and right and left.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

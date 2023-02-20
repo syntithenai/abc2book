@@ -1,0 +1,25 @@
+X: 11374
+T: GLASGOW OLD HARMONIC SOCIETY
+C: James Warden.--Copyright.
+Q: "Very slow."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.137 #4
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/16
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+F4(ED) A4 z2 | F4(ED) B4 z2 |\
+F4(ED) d4(cB) | c4(B^A) B4 z2 |\
+A4(GF) d4(cB) | (B2A2G2) F2E2D2 |\
+=F4(ED) =c4(BA) | {A}^F6 z4z2 |]
+[|\
+d4(^cd) (^F2E2D2) | d4 (cd) e2c2A2 |\
+d4(cd) (=F2E2D2) | d4(cd) e4 z2 |\
+d4(cB) B4(cd) | (d2A2G2) (F2E2D2) |\
+{DE}F4(ED) D4 (EF) | F2 B6 z4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

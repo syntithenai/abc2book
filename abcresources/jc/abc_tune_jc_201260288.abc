@@ -1,0 +1,26 @@
+X: 1
+T:Carnival of Venice
+M:3/4
+L:1/4
+Q:200
+R:waltz
+D:Conal O'Grada
+Z:Gerry Strong (line-wrapping damage and poor spacing cleaned up by John Chambers)
+K:D
+A |:\
+B2 A | G2 F/2G/2 | A2 G | E2 E/2F/2 |\
+G2 A | B>A G | FAd | F2 A |
+d2 A | G2 F/2G/2 | A2 G | E2 E/2F/2 |\
+G2 A | B2 A |1 D3- | D2 A :|2 D3- | D> A ^G/2A/2 |
+B/2A/2^G/2A/2 B/2A/2 | G/2F/2=F/2^F/2 G/2F/2 | A G/2F/2E/2D/2 | C2 E/2F/2 |\
+G/2F/2A/2G/2 B/2A/2 | c/2B/2A/2B/2 c/2A/2 | d/2B/2A/2G/2 F/2G/2 | A>A ^G/2A/2 |
+B/2A/2^G/2A/2 B/2A/2 | G/2F/2=F/2^F/2 G/2F/2 | A G/2F/2E/2D/2 | C2 E/2F/2 |\
+G/2F/2A/2G/2 B/2A/2 | c/2B/2A/2G/2 F/2E/2 | DFA | d2 A |
+f2 e | d>c A | GEc | B2 A |\
+g2 e | c>B A | B2 A | FGA |
+f2 e | d2 c/2d/2 | eBd | edB |\
+Afd | Bgc | dfa | d'2 A |
+f2 e | d>c B | B2 A | A2 A |\
+g2 e | c>B A | B2 A | FG A |
+f2 e | d2 c/2d/2 | eBd | edB |\
+Afd | Bgc | dfa | d'3 |]

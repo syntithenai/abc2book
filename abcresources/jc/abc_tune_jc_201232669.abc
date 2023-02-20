@@ -1,0 +1,30 @@
+X: 1772
+T: HUNTING DUET
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.177 #2
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% -------------------------
+V: 1
+|:\
+!p!c2G (G^FG) | (cG)c (dG)d | e2c edc | (g3 e2)z |\
+!f!(de).d g2g | e2c (cB).A | (Gc)d e2d | (d3 c2)z :|
+|:\
+!p!d2e d2e | d2e f2d | e2d e2d | e2f g2g |\
+!f!(g3 e2)e | (e3 c2)c | d2d ded | c3- c2z "_FINE"H:|
+|:\
+!p!(cB)c Azc | (cB)c fzf | eze dzd | (c3 A)z c |\
+(cB)c Azc | (cB)c fzf | gzd cze | (g3 "_D.C. AL FINE"f2)z :|
+% -------------------------
+V: 2
+|:\
+!p!E2G G^FG | E2E G2G | c2E cGE | (e3 c2)z |\
+!f!(Bc).B (dc).B | .c.G.E C2F | E2z G2F | (F3 E2)z :|
+|:\
+!p!G2c G2c | G2c d2G | c2G c2G | c2d e2e |\
+!f!(e3 c2)G | (G3 E2)E | G2G GcG | E3- E2z "_FINE"H:|
+|:\
+!p!(A^G)A czA | (A^G)A FzA | _BB/B/B BAB | AcA Fz A |\
+(A^G)A czA | (A^G)A FzA | _Bz=B czG | (_B3 "_D.C. AL FINE"A2)z :|

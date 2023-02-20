@@ -1,0 +1,19 @@
+X: 30723
+T: COBB'S ASSEMBLY
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.72 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added flag to last note in strain 1, to fix the rhythms.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+dcde fedc | dAFD DFAc | dAeA fAgA | fAeA dcBA |\
+dcde fedc | Beed dcBA | AdAe AdAe | Bgec d2 :|
+|: ef |\
+gefd ecdB | AdAF GFED | FDAF dAfd | gefd BdAF |\
+DFAd dcBA | BGgf edcB | ABAF Adfd | gecA d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

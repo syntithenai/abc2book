@@ -1,0 +1,18 @@
+X: 393
+T: Syrtos Pylaias
+O: Greece
+Z: Deborah Jones VIFD I
+M: 7/8
+L: 1/8
+Q: 1/4=120
+K: D
+  %%MIDI gchord f2zfzfz|
+%%MIDI program 71
+%%MIDI bassprog 24
+|:"D" a2 a b2 b2       | a2 g f^e fg   | a a2 b2 b2      | a2 g f2-f2  :|
+  eff fefe             |eff fe ed      | eff fe ed       |
+  "A7"a3-ab ad         |f2 f fd ef     |"D" d D/F/A d2-d2|
+  "D" A3 B2B2          |TA2 G FE FG    | A2 A B2B2       | A2G F2-F2   |
+  "D" a2 a b2b2        |a2g f^e fg     |a a2b2 b2        |
+  a2 g fe f2           | "D" F2 F FE ED| F2 F FE ED      | F2F FE ED   |
+  "A7" A3-AB AG        | F2E ED ED     | "D" D3-D2-D2    |

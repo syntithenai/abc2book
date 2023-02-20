@@ -1,0 +1,30 @@
+X: 272
+T: Dr Rutherford of Craigow's Strathspey
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.27#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: strathspey
+M: C
+L: 1/16
+K: D
+V: 1
+A,2 |\
+DD3 {DE}F3E DD3 {DE}F3E | DD3 d3c {c}B3A {A}G4 |\
+DD3 {DE}F3E DD3 {DE}F3D | B,E3 ~E3D {D}C3B, C2A,2 |
+DD3 {DE}F3E DD3 {DE}F3E | DD3 d3c {c}B3A ~F2A2 |\
+G2B2 ~E3G F2A2 D2EF | G3E GF.E.D {D}C3B, C2A,2 ||
+DD3 d3f DD3 d4 | DD3 ~d3f fedc ~B2cd |\
+DD3 d2f2 ~B3d ~A2d2 | ~G3d F2A2 GFETD E2F2 |
+DD3 d3f DD3 d4 | DD3 ~d3f (fe).d.c (dc).B.A |\
+~B3d ~F3A ~G3B E2G2 | F2A2 D2EF (GF).E.D (DC).B,.A, |]
+V: 2 clef=bass middle=d
+z2 |\
+[d4D4][d4D4] [d4D4][d4D4] | [d4D4][d4D4] [g4G4][g4G4] |\
+[d4D4][d4D4] [d4D4][d4D4] | [e4E4][e4E4] [c4C4][A4A,4] |
+[d4D4][d4D4] [d4D4][d4D4] | [d4D4][d4D4] [g4G4][d4D4] |\
+[g4G4][c4C4] [d4D4][d4D4] | [c4C4][d4D4] [A4A,4][A4A,4] ||
+[d4D4][d4D4] [d4D4][d4D4] | [d4D4][f4F4] [a4A4][g4G4] |\
+[d4D4][f4F4] [g4G4][f4F4] | [e4E4][d4D4] [d4D4][A4A,4] |
+[d4D4][d4D4] [d4D4][d4D4] | [d4D4][f4F4] [a4A4][g4G4] |\
+[g4G4][d4D4] [B4B,4][c4C4] | [d4D4][d4D4] [A4A,4][A4A,4] |]

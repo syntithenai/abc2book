@@ -1,0 +1,18 @@
+X: 1806
+T: Shane O'Neill's March
+R: march
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #1806
+O: J.O'Neill
+Z: Bob Safranek, rjs@gsp.org
+M: C
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+GA \
+| B2B>A B2 ((3Bcd)  | B2B>A B2AG | Bdge dBAG | A2A>B A2GA |
+| B2B>A B2 B/c/d/c/ | B2B>A B2AG | Bdge dBAB | G2G>A G2 :|
+|: ef \
+| g2f{a}g e2ag | fefd B2 G/A/B/c/ | d3e dBAG | g2g>a g2 ((3fga) |
+| e2 ((3efg) d2 ((3efg) | dBAG A2Bd | ef{a}ge dBAB | G2G>A G2 :|

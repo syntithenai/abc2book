@@ -1,0 +1,17 @@
+X:1
+T:Strathspey and Reel Excercises
+M:C
+L:1/8
+Q:80
+C:
+S:Exercise
+K:HP
+{gcd}c{e}A{gcd}c{e}A{gBd}B{e}G{gBd}B{e}G | \
+{g}((3cde){gcd}c{e}A{g}((3Bcd){gBd}B{e}G | \
+{g}((3A{d}A{e}A){gcd}c{e}A{g}((3G{d}G{e}G){gBd}B{e}G |
+{g}((3A{d}A{e}A){gcd}((3caG{d}G{e}G){gBd}Bg|]
+B | \
+{g}c/2{d}A3/2{g}c/2{d}A3/2{g}c3/2{d}A/2{e}A3/2B/2 | \
+{g}c/2{d}A3/2{g}c/2{d}A3/2{g}B3/2{d}G/2{e}G3/2B/2 |
+{g}c/2{d}A3/2{g}c/2{d}A3/2{g}A/2{d}A3/2{g}c/2{d}A3/2 | \
+{g}B/2{d}B3/2{g}c/2{d}A3/2{g}B3/2{d}G/2{e}G|]

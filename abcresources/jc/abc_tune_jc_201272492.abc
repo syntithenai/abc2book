@@ -1,0 +1,16 @@
+X: 393
+T: Eileen Aroon - 2nd Setting
+R: air, waltz
+%S: s:2 b:16(8+8)
+B: O'Neill's 1850 #393
+Z: Chris Falt, cfalt@trytel.com
+Q: "Slow."
+M: 3/4
+L: 1/8
+K: Bb
+%%slurgraces 1
+%%graceslurs 1
+[| (F2G2A2) | (B2>c2d2) | (F2G2)(Ac) | B6 |\
+|  (F2G2A2) | (B2>c2d2) | (F/B/)z (G/B/)z (A/c/)z | {c2}B4 |]
+[| (d2d2d2) | (e2>G2)G2 | d2d2c2 | (B2>G2).F2 |\
+|  f2(ec)(BA) | (B2>c2d2) | (F/B/)z (G/B/)z (A/c/)z | {c2}B4 |]

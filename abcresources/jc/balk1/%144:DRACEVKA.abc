@@ -1,0 +1,24 @@
+X: 144
+T:Dracevka
+O:Macedonia
+M:7/8
+L:1/8
+Q:1/4=240
+K:Ddor
+%%MIDI drum d3d2d2 50 50 50
+%%MIDI drumon
+%%MIDI program 22
+P:A
+  F3 .F2.F2|F3 FEDC |F3 .F2.F2|F3 FEDC  |
+|:E3 C2 D2 |D3 GFED |E3 C2 D2 |D3 D4    :|
+  F3 .F2.F2|F3 FEDC |F3 .F2.F2|F3 FEDC  |
+|:E3 C2 D2 |D3 GFED |E3 C2 D2 |D3 D4    :|
+P:B
+|:D3 TG4-  |G3 AGFE |\
+  D3 TG4-  |G3 AGFE |
+  D3 EFG2  |D3 EFG2 |A2G A2G2 |FEDC D2z :|
+P:C
+|:A2GA2G2  |F2E DEFG|A2GA2G2  |F2E D3z  |\
+  A2GA2G2  |F2E DEFG|A2GA2G2  |F2E D3z  :|
+P:D
+|:C2D A,4  |C2D A,4 |C2D E2D2 |C2D A,4  :|

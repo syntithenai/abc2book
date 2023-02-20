@@ -1,0 +1,20 @@
+X: 119
+T: Dramskoto
+O: Macedonia
+F: http://www.youtube.com/watch?v=OfoFXd0590Q
+F: http://www.youtube.com/watch?v=9N-6u87O_K8
+F: http://www.youtube.com/watch?v=Ede9AtJz3j4
+M: 2/4
+L: 1/8
+Q: 1/4=120
+K: Dm
+%%MIDI program 24
+  c=Bcd|cBAG|G3D|F/E/D/C/D2|\
+  TG3F |FEDE|F4 |CFGA      |
+  c=Bcd|cBAG|G3D|F/E/D/C/D2|\
+  G3E  |FEFG|D4-|D4        |
+%%MIDI program 72
+|:G2FG |ABAG|G4-|G4        |\
+  c3=B |A3G |G3A|F2F2      |DE3-|E4|
+  G4   |AGFE|D4 |A2A2      |\
+  GF2E |FGED|D4-|D4        :|

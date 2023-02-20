@@ -1,0 +1,25 @@
+
+X: 1
+T: Quando Tremondo
+O: Italia
+R: waltz
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+"I"[|\
+"D"a3 g fg | "A7"e3 f ga | gf ef ga | "D"f2 d4 |\
+"D"A3 G FG | "A7"E3 F GA | GF EA Bc | "D"d2 d2 z2 |
+"A"|:\
+"D"A2 Bc ed | F3 A c2 | "Em"B2 G4- | G6 |\
+"A7"A2 AA AB | c3 B dc |"D"B2 A2- | A6 :|
+"B"[|\
+"D"A2 AA A2 | "B7"B3 A GF | A6 | "Em"G6 |\
+"A"c2 c2 c2 | c6 | "E7"B2 c2 d2 | "A7"e6 |]
+"C1"[|\
+"D"f2 ed ed | "G"c2 B4 | "A7"e2 d2 c2 | "D"B2 A4 |\
+"F#m"c2 cc cc | "Em"BA G4 | "A7"c2 cc cc | "D"BA F4 ||
+"C2"||\
+"D"f2 ed ed | "G"c2 B4 | "A7"e2 d2 c2 | "D"B2 A4 |\
+"Em"B2 d2 e2 | "Bm"f3 B cd | "A7"e4 f2 | "D"{fe}d6- | d4 z2 |]
+%%text The C2 part may be repeated, often at the end.

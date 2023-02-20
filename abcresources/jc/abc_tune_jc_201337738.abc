@@ -1,0 +1,38 @@
+X:1
+T: Sir Watkin's Jig
+N:
+C:
+S:3 times
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 150
+%W:         A1
+% voice 1 (1 lines, 19 notes)
+K:G
+M:6/8
+L:1/16
+d2 |e2 f2 g2 a2 f2 d2 g6 d6 e2 c2 c2 d2 B2 B2 c2 A2 A2 G6 |
+%W:
+% voice 1 (1 lines, 18 notes)
+D2 G2 A2 B4 G2 D2 G2 A2 B4 G2 B2 c2 d2 c4 B2 A6A4 d2 |
+%W:      A2
+% voice 1 (1 lines, 18 notes)
+e2 f2 g2 a2 f2 d2 g6 d6 e2 c2 c2 d2 B2 B2 c2 A2 A2 G6 |
+%W:
+% voice 1 (1 lines, 18 notes)
+D2 G2 A2 B4 G2 D2 G2 A2 B4 G2 B2 c2 d2 c4 B2 A6A4 A2 |
+%W:      B1
+% voice 1 (1 lines, 26 notes)
+F2 G2 A2 A2 F2 D2 A6 d6 A2 F2 F2 G2 E2 E2 D6 F2 G A B c |d6 G2 A B c d
+%W:
+% voice 1 (1 lines, 24 notes)
+e6 A2 B c d e f6 B2 c d e f g6 d4 c2 |B2 G2 G2 c2 A2 A2 G6G4 A2
+%W:      B2
+% voice 1 (1 lines, 26 notes)
+F2 G2 A2 A2 F2 D2 A6 d6 |A2 F2 F2 G2 E2 E2 D6 F2 G A B c d6 G2 A B c d
+%W:
+% voice 1 (1 lines, 23 notes)
+e6 A2 B c d e |f6 B2 c d e f g6 d4 c2 B2 G2 G2 c2 A2 A2 G6G4 ||

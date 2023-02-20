@@ -1,0 +1,42 @@
+X: 13331
+T: MARCHIONESS OF TAVISTOCK'S WALTZ
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.13 p.33 #1
+S: http://imslp.org/wiki/Button13 p.33 #1ker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: First two notes in bar 12 shortened to fix the rhythm.
+M: 3/8
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+(Bc) |\
+(dB)G2 (Bc) | (dB)G2 (gf) | e2e2e2 | e3(dcB) |\
+A2A2A2 | d3(cBA) | G2G2G2 | G4 :|
+|: (3(def) |\
+[g4B4] (af) | [g4B4] (af) | (gf)(ga)(bg) | (af)d2 (ef) |\
+[g4B4] (af) | [g4B4] (af) | (gf)(gb)(af) | [g4B4] :|
+|: (ga) |\
+(bagfed) | (edcBAB) | c2A2A2 | A4 (ab) |\
+(c'bagfe) | (dedcBA) | B2[G2B,2][G2B,2] | [G4B,4] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z2 |\
+gd'bd'bd' | gd'bd'bd' | ge'c'e'c'e' | g4z2 |\
+dd'fd'ad' | dd'fd'ad' | gd'bd'bd' | [b4g4] :|\
+|: z2 |\
+[bg]d'[bg]d'[c'g]d' | [bg]d'[bg]d'[c'g]d' | [b4g4] z2 |
+d2d'2z2 |\
+[bg]d'[bg]d'[c'g]d' | [bg]d'[bg]d'[c'g]d' | [bg]d'[bg]d'[ad]c' | [b4g4] :|\
+|: z2 |\
+[G2G6]g2g2 | [G2G6]g2g2 | d2f2a2 | d4z2 |\
+[D2D6]d2d2 | [D2D6]d2d2 | G2B2d2 | g4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands 4 round, back again,
+%% down the mid: up again,
+%% right & left, & Swing corners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

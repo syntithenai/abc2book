@@ -1,0 +1,23 @@
+X:1
+T: The Country Farmer (NEAL)
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:C
+I:speed 165
+%W:     A1                                                    A2
+% voice 1 (1 lines, 41 notes)
+K:C
+M:6/8
+L:1/16
+G2 |A2 B2 c2 B4 c2 d4 d2 d2 e2 f2 e2 d2 c2 d2 c2 B2 c4 c2 c4 G2 |A2 B2 c2 B4 c2 d4 d2 d2 e2 f2 e2 d2 c2 d2 c2 B2 c4 c2 c4 d2 |
+%W: B1
+% voice 1 (1 lines, 41 notes)
+e2 f2 g2 a2 b2 c'2 g4 g2 g2 f2 e2 f2 g2 a2 g2 f2 e2 d4 d2 d4 e2 |f2 g2 a2 g2 f2 e2 d4 e2 f2 g2 f2 e2 d2 c2 d2 c2 B2 c6 c4 d2 |
+%W: B2
+% voice 1 (1 lines, 40 notes)
+e2 f2 g2 a2 b2 c'2 g4 g2 g2 f2 e2 f2 g2 a2 g2 f2 e2 d4 d2 d4 e2 |f2 g2 a2 g2 f2 e2 d4 e2 f2 g2 f2 e2 d2 c2 d2 c2 B2 c6 c4 |

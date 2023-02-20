@@ -1,0 +1,87 @@
+
+X: 1
+T: Hora Mare     [Am/Dm]
+O: Romania
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+P: AB AB CDC EF AB
+K: Am
+"A"\
+|: "Am"A3B c2c2 | c2c2 c4 | cBA^G ABcA | "E7"B8 \
+|     ^G3A B2B2 | B2B2 d4 | cBA^G ABcB |1 "Am"A8 :|2 "Am"A2B2 c2^d2 ||
+"B"\
+|: {^d}e8- | {^d}e8- | {^d}e4- {d}e4- | {^d}e4- {d}e4 \
+|| "Am"edcB cded | cBA^G ABcB | "Dm"AGFE FGAG | FED^C D4 |
+| "E7"E^DE^F ^G^^FG^A | B^AB^c d4 \
+| "Am"E^DE^G AGAB | cBc^d e4 \
+|| "Am"edcB cded | cBA^G ABcB |
+| "Dm"AGFE FGAG | FED^C D4 \
+| "E7"E^DE^F ^G^^FG^A | B^AB^c d4 \
+| "E7"cBA^G ABcB |1 "Am"A2B2 c2^d2 :|2 "Am"~A4- "(A7)"A2z2 ||
+K: Ddor^G
+"C"\
+|: "Dm"D4 ~^G2FE | FGAF ~G3F \
+|    AGFE   FGAF | ~G3F AGFE \
+| "Dm"D4   ~A2FE | FGAF ~G3F \
+| "A7"AGFE  FGEF |1 "Dm"D2A2 D2A2 :|2 "Dm"D8 :|
+K: Dm
+"D"\
+|: "C"E2F2 ~G3F | "Fm"_AFEF ~G3F \
+|  "C"E2F2 ~G3F | "Fm"cFEF ~G3F \
+|  "C"E2F2 ~G3F | "Fm"_AFEF ~G3F \
+|  "C"BA_AG FGEF |1 "Dm"D2A2 D2A2 :|2 "Dm"D8 :|
+"E"\
+|: "A7"E2F2 G2F2 | "Dm"E2 D4 D2 \
+|  "A7"E2F2 G2F2 | "Dm"E2 D4 D2 \
+|  "A7"E2F2 G2A2 | "Bb"B2A3 EFG \
+|  "A7"AGFE FGEF |1 "Dm"D2A2 D2A2 :|2 "Dm"D8 :|
+"F"\
+|: "C"~A4 GFEF | "F"~G3F GFEF \
+|  "C"~A4 GFEF | "F"~G3F GFEF \
+|  "C"~A4 GFEF | "F"G2F3 EFG \
+| "A7"ABGA FGEF |1 "Dm"D2A,2 D4 :|
+
+
+X: 1
+T: Hora Mare     [Bm/Em]
+O: Romania
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+P: AB AB CDC EF AB
+K: Bm
+"A"\
+|: "Bm"B3c d2d2 | d2d2 d4 | dcB^A BcdB | "F#7"c8 \
+|     ^A3B c2c2 | c2c2 e4 | dcB^A Bcdc |1 "Bm"B8 :|2 "Bm"B2c2 d2^e2 ||
+"B"\
+|: {^e}f8- | {^e}f8- | {^e}f4- {e}f4- | {^e}f4- {e}f4 \
+|| "Bm"fedc defe | dcB^A Bcdc | "Em"BAGF GABA | GFE^D E4 |
+| "F#7"F^EF^G ^A^^GA^B | c^Bc^d e4 \
+| "Bm"F^EF^A BABc | dcd^e f4 \
+|| "Bm"fedc defe | dcB^A Bcdc |
+| "Em"BAGF GABA | GFE^D E4 \
+| "F#7"F^EF^G ^A^^GA^B | c^Bc^d e4 \
+| "F#7"dcB^A Bcdc |1 "Bm"B2c2 d2^e2 :|2 "Bm"~B4- "(B7)"B4z2 ||
+K: Edor^A
+"C"\
+|: "Em"E4 ~^A2GF | GABG ~A3G \
+| BAGF GABG | ~A3G BAGF \
+| "Em"E4 ~B2GF | GABG ~A3G \
+| "B7"BAGF GAFG |1 "Em"E2B2 E2B2 :|2 "Em"E8 :|
+K: Em
+"D"\
+|: "D"F2G2 ~A3G | "Gm"_BGFG ~A3G \
+|  "D"F2G2 ~A3G | "Gm"dGFG ~A3G \
+|  "D"F2G2 ~A3G | "Gm"_BGFG ~A3G \
+|  "D"cB_BA GAFG |1 "Em"E2B2 E2B2 :|2 "Em"E8 :|
+"E"\
+|: "B7"F2G2 A2G2 | "Em"F2 E4 E2 \
+|  "B7"F2G2 A2G2 | "Em"F2 E4 E2 \
+|  "B7"F2G2 A2B2 | "C"c2B3 FGA \
+|  "B7"BAGF GAFG |1 "Em"E2B2 E2B2 :|2 "Em"E8 :|
+"F"\
+|: "D"~B4 AGFG | "G"~A3G AGFG \
+|  "D"~B4 AGFG | "G"~A3G AGFG \
+|  "D"~B4 AGFG | "G"A2G3 FGA \
+| "B7"BcAB GAFG |1 "Em"E2B,2 E4 :|

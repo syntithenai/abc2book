@@ -1,0 +1,31 @@
+X: 199
+T: Wanton Bess
+T: Longways for &c.
+%R: reel
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.100
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+N: Repeats modified to match the "Each strain twice" instruction.
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+Bc |\
+B2A2 G2F2 | G4 d4 | BcBA GdcB | AGFE D2Bc |\
+B2A2 G2F2 | G4 g4 | efge dcBA | G6 :|
+|: ef |\
+gdBd gdBd | gagf efed | c2B2 cBAG | F4 D2ef |\
+gdgd fdfd | gbag fagf | g2d2 B2Ad | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st and 2d Man figure thro' the 1st and 2d
+%% Wo. and turn proper .| the 1st and 2d Wo. do
+%% the same :| the 1st Cu. go the figure sides below
+%% the 3d Cu. take hands with the 3d Cu. and go
+%% half round .| then take hands as before and go
+%% back again, the 1st Cu. sett and cast up into the
+%% 2d Cu. Place :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

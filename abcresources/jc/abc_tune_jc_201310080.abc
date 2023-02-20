@@ -1,0 +1,55 @@
+
+X: 1
+T: the Minstrel Boy   [D]
+C: melody: trad. Irish
+C: lyrics: Thomas Moore (3rd verse source unknown)
+%O: (American Civil War)
+R: march
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+% %continueall
+A | "D"D3 E | GF ED | F2 A2 | "Bm"d2 cd | "G"B2 A2 | "D"F>G AF | "A7"E4 | "D"D3 ||
+w: 1.~The Min-strel boy* to the war is gone, In the ranks of death* you will find him.
+A | "D"D3 E | GF ED | F2 A2 | "Bm"d2 cd | "G"B2 A2 | "D"F>G AF | "A7"E4 | "D"D3 z |]
+w: His fath-er's sword* he hath gird-ed on, And his wild harp slung* be-*hind him.
+   "Bm"d2 c2 | B2 cd | "A"c3 B | A3 A | "Bm"B3 F | F3 F | "G"B2 "A7"c2 | "D"d2 ||
+w: "Land of Song!" cried the war-rior bard, "Tho' all the world be-tray* thee,
+FE | "D"D3 E | GF ED | F2 A2 | "Bm"d2 cd | "G"B2 A2 | "D"F>G AF | "A7"E4 | "D"D3 ||
+w: One* sword at least* thy* right shall guard, One* faith-ful harp* shall* praise thee!"
+%
+W:2.
+W: The Minstrel fell! But the foeman's chain
+W: Could not bring that proud soul under.
+W: The harp he lov'd ne'er spoke again,
+W: For he tore its chords asunder;
+W: And said "No chains shall sully thee,
+W: Thou soul of love and brav'ry!
+W: Thy songs were made for the pure and free;
+W: They shall never sound in slavery!
+W:3.
+W: The minstrel boy will return one day,
+W: When we hear the news, we will cheer it.
+W: The minstrel boy will return we pray,
+W: Torn in body, perhaps, but not in spirit.
+W: Then may he play his harp in peace,
+W: In a world such as Heaven intended,
+W: For every quarrel of Man must cease,
+W: And every battle shall be ended.
+
+%%sep 1 1 500
+
+X: 1
+T: the Minstrel Boy   [G]
+R: march
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+D |:\
+"G"G3 A | cB AG | B2 d2 | g2 fg |\
+"C"e2 d2 | "G"B>c dB | "D7"A4 | "G"G3 :|
+[|\
+"Em"g2 f2 | e2 fg | "D"f3 e | d3 d |\
+"Em"e3 B | B3 B | "C"e2 "D7"f2 | "G"g2 "d.C."BA |]

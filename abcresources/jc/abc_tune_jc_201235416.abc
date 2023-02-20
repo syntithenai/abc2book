@@ -1,0 +1,28 @@
+X: 21131
+T: WHIPPLE'S SETT (tune 2)
+N: A version of Katie's Rambles
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.113 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="2"
+[|\
+A2d cBA | fga gec | ded cAF | GFG AFD |\
+A2d cBA | fga gec | ded cAG | Ad^c d2z H|]
+[|\
+fad fad | fga agf | egc egc | efg gfe |\
+fga gab | afd ecA | fed cAG | Ad^c "^D.C."d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back twice,
+%% back to back,
+%% balance to partners,
+%% promenade eight,
+%% next two forward, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,19 @@
+X: 4286
+T: POORHOUSE
+%R: reel
+N: Variant of "Turkey in the Straw".
+N: The "D.C." should perhaps be at the end of the 2nd strain, not the 1st.
+N: 2nd strain has initial repeat but no final repeat; fixed.
+B: James Kerr "Merry Melodies" v.4 p.30 #286
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A,2 |\
+     DFED B,2D2 | A,2(A,B,) D2D2 |\
+[1,3 (3EEE E2 (3FFF F2 | DFED B,2A,2 :|\
+[2,4 dcdA BdcB | (3ABA (3GFE D2 |]
+|: (3(efg) |\
+   agfa gfeg | fedf ecAc |\
+[1 dcdA Bcde | (3(fed) g>fe2 :|\
+[2 dcdA BdcB | AGFE D2 :|

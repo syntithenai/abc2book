@@ -1,0 +1,17 @@
+X: 1
+T: Turkey in the Pea Patch
+O: traditional
+M: C|
+L: 1/8
+R: reel
+K: D
+[|\
+"D"A2F2 D3 F | ABAG F2D2 | "A"E2C2A,3F | AcBA FA3 |
+"D"A2F2 D4 | ABAG F2DF | "A"E2C2A,CEG | FDEF "D"D4 |]
+[|\
+"D"A2F2 D4 | dBAG F2D2 | "A"E2C2A,2E2 | AcBA F2A2 |
+"D"A2F2 A2F2 | ABAG F2DF | "A"E2C2 E2EG | FDEF "D"D4 |]
+|:\
+"D"d2fd "G"BcdB | "D"AdBA FG A2 | "A"Acdf edef | "G"gfed "A"cABc |
+"D"defd "G"BcdB | "D"ABAG F2DF | "A"E2C2A,2EG |["cont" FDEF "D"D4 :|["trans" FDEF "D7"D DED |
+% text 08/10/2009

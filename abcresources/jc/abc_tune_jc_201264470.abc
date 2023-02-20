@@ -1,0 +1,15 @@
+X: 1
+T: Corelli's Maggot  [G]
+O: tune: Arcangelo Corelli ca.1700
+N: Based on the 4th movement (Gavotte) of Arcangelo Corelli's Violin Sonata in F, op.5 no.10, ca.1700.
+Z: 2002 John Chambers <jc:trillian.mit.edu>
+%Q: 1/4=100
+M: 2/4
+L: 1/16
+K: G
+D2 |\
+"G"G2D2 G2D2 | "D"A6 D2 | "G"B2GA B2AG | "D"A6 A2 |\
+"G"B2GA B2AG | "D"A2BA BAGF | "G"G2d2 "A"E2^c2 | "D"d6 :|
+|: D2 |\
+"G"G2GA BAGF | "C"E2C2 C2E2 | "Am"A2AB cBAG | "D"F2D2 D2A2 "I"|\
+"G"d2G2 "D"c2BA | "G"B2D2 G2B,2 | "C"CBAG "D"F3G | "G"G6 :|

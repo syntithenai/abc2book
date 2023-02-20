@@ -1,0 +1,57 @@
+X:106
+T:Baille del Centru (MG 48)
+R:Xota
+C:Versión del Gaiteru Veriña
+S:Música Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+O:Centru d'Asturies
+Z:Métodu de Gaita 48
+L:1/8
+Q:3/8=88
+E:Nivel 4
+K:C
+G4 E4 C4 {GCB,}D4 {B,}C4 ~E2 G2 C2 ~E2 G2 C2 ~E2 G2 ~E2 C2
+A2 G2 {A}E2 ~A2 F2 D2 G2 E2 C2 FDB, C/4D/4E/4F/4c/4 e2 f4
+e2 ~d2 c2 BA BG AF GEFDEC {DC}B,DEF EDCB, D2 {B,}C4
+[M:3/8]
+G
+|G~EA|A~EG|G~EA|A{F}E/G/{F}E/G/|
+|c/G/{F}E/G/{F}E/G/|c/G/{F}E/G/{F}E/G/|c/G/{F}E/G/{F}E/G/|c/G/{F}E/G/{F}E/G/|
+|c e/c/e/c/|
+|A .F/A/.F/A/|G .E/G/.E/G/|F .D/F/.D/A/|~E C/E/C/E/|D B,/D/B,/D/|
+|A .F/A/.F/A/|G .E/G/.E/G/|F D/F/D/A/|~E C/E/C/E/|D B,/D/B,/D/|C2 G|
+|c~e>c|AF A/B/|c~e>c|AFG|c~ec|AF A/B/|c/B/A/B/c/B/|G E/G/E/G/|
+|c~e>c|AF A/B/|c~ec|AF A/B/|c/B/A/B/c/B/|
+|G E/G/E/G/|c B/A/G/F/|~A .F/A/.F/A/|c B/A/G/F/|E C/E/C/E/|
+|: A F/E/D/C/|D/C/B,/D/B,/D/|F E/F/E/D/|E C/E/C/E/ :|
+|A F/E/D/C/|D/C/B,/D/B,/D/|F E/F/E/D/|C2 {A}G|
+|: c2 ~e|cB A/B/|c2 A|.FFG|A2 B|c~ec|G{A}GF|EEG :|
+|cBA|G2 {CA}G|cBA|F2 {A}G|AGA|cGG|~AGF|EEG|
+"Coda 1"
+% Coda 1
+|c~ec|~A2 .F|AAB|~G2 E|GGA|F2 D|.FED|C2 A|
+|: A c/B/A/B/|G/A/G/E/ G|G c/B/A/G/|A/B/A/F/ A|
+|A c/B/A/B/|G/A/G/E/ G|G c/B/A/G/|A/B/A/F/ A  :|
+|A c/B/A/B/|G/A/G/E/ G|G c/B/A/B/|{F}E D/E/ G|
+|G c/B/A/B/|{E}D~C/D/ A|A c/B/A/B/|{F}~E D/E/ G|
+|G ~A2|{F}ECC|{F}ECC|{F}ECC|{F}ECC|{F}ECC|
+|{F}E B,/E/B,/E/|{F}ECC|{F}E B,/E/B,/E/|{F}E B,/E/B,/E/|{F}E B,/E/B,/E/|
+|F D/F/D/F/|{G}F D/F/D/F/|{G}F D/F/D/F/|
+|G/F/D/F/D/F/|G/F/D/F/D/F/|G/F/D/F/D/F/|G/F/D/F/D/F/|G/F/D/F/D/F/|
+|ce~d|ce~d|ce~d|ce~d|ce~d|
+|cB A/B/|G A/B/A/B/|G A/B/A/B/|G A/B/A/B/|G A/B/A/B/|
+|{E}D B,/D/B,/D/|F E/F/E/D/|C2 .E/E/|
+|Gc G/A/|FD {G}D/E/|F E/F/E/D/|G/E/C/E/C/E/|
+|Gc G/A/|FD {G}D/E/|F E/F/E/D/|C3|
+"Coda 2"
+% Coda 2
+|{EGEF}E>D E/F/|{DGDE}D>C D/E/|F E/F/E/D/|
+|{EGEF}E>D C|{EGEF}E>D E/F/|{DGDE}D2 (3C/D/E/|G G/A/G/A/|C2 A|
+|: {F}EEA|{F}E2 A|{F}EDE|F2 A|.EEA|DDE|B,CD|E2 A :|
+|{F}EEA|{F}EEA|{F}EDE|F2 A|.FEA|DDE|B,CD|E2 A/B/|c2 A|BBG|~A2 E|F2 D|c2 G|~A2 E|
+|AFD|C2 A/B/|
+"De Coda 1 a Coda 2 y Final"
+% Final
+G/4C/4B,/4C/4D/4E/4c/4 e2 f4 e2 ~d2 c2 BA BG AF GE FD EC DC B,CDEFEDCB, D2
+{B,}C4 G4 c/4

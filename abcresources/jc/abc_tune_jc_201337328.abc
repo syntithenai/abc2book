@@ -1,0 +1,20 @@
+X:1011
+%%annotationfont Times-Roman 14
+T:Silver City Waltz #2, The
+C:Joe Buchanan's Scottish Tome - Page 602.2
+I:602 2
+Z:Carl Allison
+R:Waltz
+L:1/4
+M:3/4
+K:C
+S "C"G,3 | "C"(C2 E) | "C"A3 | "C"G3 | "C"(A2 G) | "C7"(E2 G) | "G7"B,3- | "G"B,3 |
+"G"G,3 | "G"(B,2 D) | "G"A3 | "G7"G3 | "G"(A2 G) | "G"(^F2 G) | "C"E3- | "C7"E3 |
+"C"G,3 | "C"(C2 E) | "C"A3 | "C"G3 | "C"(c B c) | "C"(d2 c) | "F"A3- | "F"A3 |
+"F"(c B) c | "C"(d c B) | "C"G3 | "A7"E3 | "D7"[A,A]3 | "G7"[B,B]3 | "C"[Cc]3- | "C"[Cc]3 :|
+[K:F] "F"(c ^B c) | "F".d2 .c | "F".A2 .c | "F"F2 c | "F"(f e d) | "F"(c2 "D"d) | "C7"E3- | "C7"E2 B |
+"G"B A G | "C7"G A B | "F"c A "A7"G | "Dm"F2 A | "G"G B d | "G7"f e d | "C"c3- | "C"c3 |
+"F"(c ^B c) | "F".d2 .c | "F"A2 .c | "F"F2 c | "F"(f e f) | "F7"(g2 f) | "Bdim"d3- | "B"d3 |
+"F"(f e f) | "G"(g f d) | "C"c3 | "F"(A2 c) | "D"d3 | "C"e3 |1 "F"f3- |  f3 :|2 "G7"f ^f | "G"g3 S|]
+%
+W:Errata: Added chords for last line. Left out some annotation that caused pdf problems. Refer to scan 602.

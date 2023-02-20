@@ -1,0 +1,39 @@
+X:1
+T:Exercises - Page 9
+M:C
+L:1/8
+Q:80
+C:
+S:Exercise
+K:HP
+{gde}dd{gde}d | \
+e{gde}dB{gde}df{gde}dc{gde}d | \
+{g}fd{gde}d{e}A{GBG}Ad{gde}de |
+B{gde}d3/2c/2{gBd}B{G}A{gde}de{gfg}f | \
+{g}A{GdGe}A{g}A{GdGe}A | \
+{g}B{GdGe}B{g}A{GdGe}A{g}c{GdGe}c |
+{g}B{GdGe}B{g}c{GdGe}c{g}B{GdGe}B{g}A{GdGe}A{g}c{GdGe}c{g}A{GdGe}A | \
+e{gcd}c{e}A{GdGe}A2{Gdc}d3/2c/2{g}B{GdGe}B{Gdc}d2 | \
+{g}ec{gcG}c{e}B{g}A{GdG}c{GdGe}c |
+e{g}c{GdGe}A{g}B{GdGe}A{g}e{GdGe}Aa{GdGe}A{g}f{GdGe}A{a}g{GdGe}Ae{g}A2{G
+dGe}A{d}c{g}B2{GdGe}ce{g}c2{GdGe}Bf{g}B2{GdGe}ca{g}A2{GdGe}ce{g}c2{GdGe}
+d | \
+M:6/8  |: \
+e |
+{g}A2{GdGe}A{GBG}A3/2B/2d | \
+{g}e3/2f/2g/2{fg}f3/2e/2{g}d/2 | \
+{g}A2{GdGe}A{GBG}A3/2B/2d |
+{gef}e3{A}e2{g}f | \
+{g}A2{GdGe}A{GBG}A3/2B/2d | \
+{g}e3/2f/2g/2{fg}f3/2e/2{g}d/2 |
+{g}A2{GdGe}A{GBG}A3/2f/2{g}e | \
+{Gdc}d3{gdc}d2 :: \
+{gf}g |
+{a}f2{GdG}f{g}f3/2e/2{g}f | \
+{ag}a2f{gfg}f3/2e/2{g}d | \
+{gef}e2{GdG}e{g}e3/2g/2{a}f |
+{gef}e3{ag}a2g | \
+{fg}f3/2e/2{g}d{gde}d3/2e/2{g}f | \
+{g}B2{GdGe}B{g}B3/2c/2{g}d |
+{g}A2{GdGe}A{GBG}A3/2f/2{g}e | \
+{Gdc}d3{gdc}d2 :|

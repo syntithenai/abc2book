@@ -1,0 +1,83 @@
+
+X: 1
+T: Liljano Mome
+O: Bulgaria
+R: lesnoto
+F: http://balkanarama.com/liljano.htm
+F: http://www.youtube.com/watch?v=Ua2Lw854_S0
+F: http://www.youtube.com/watch?v=T91CYbrmUE8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: Dm
+"^instr:"\
+|: "Dm"[Ac][GB][FA] [Ac][GB] [F2A2] | "Gm"[G3-B3-] [G4B4] |\
+   "C7"[GB][Ac][Bd] [Bd][Ac] [Ac][GB] | "F"[A3-c3-] [A4c4] |
+   "Dm"[Ac][GB][FA] [Ac][GB] [F2A2] | "Gm"[G3-B3-] [G2B2] [GB][FA] |\
+   "A7"[EG]z[Ac] [Ac][GB] [FA][EG] |1 "Dm"[D3F3] [DF][EG] [FA][GB] :|2 "Dm"[D3-F3-] [DF]z z2 ||
+"^vocal:"
+[| "Dm"DAA A2 A2 | "Gm"B2A (G>A GF) | "C"EGG G2 G2 | "F"A2G (F>G FE) |
+w: 1.~Li-lja-no mo-me Li-lja-no___ ja sta-ni ra-no pri-zo-ri___
+w: 2.~Ne e is-ljaz-la Li-lja-na,___ naj e is-ljaz-la maj-ka i___
+w: 3.~I-di si Geor-gi, i-di si,___ Li-lja-na bol-na leg-na-la___
+w: 4.~Ne mi go la-zhi ma-mo ma___ jas s\^am si Geor-gi lju-bi-la___
+   "Dm"DFF F2 F2 | "Gm"G2F (E>F ED) | "A7"^C2D E2 F2 | "Gm"B(BA) "A7"A4 |
+w: 1.~ja sta-ni ra-no pri-zo-ri__ i li-be-to si po-sresht-*ni
+w: 2.~lju-ti si klet-vi kol-ne-she___ i na Geor-gi du-ma-*she.
+w: 3.~Li-lja-na bol-na leg-na-la___ i ne mo-zhe da sta-*ne.
+w: 4.~jas s\^am si Geor-gi lju-bi-la__ i za~ne-go ke ce o-zhe-*nja.
+   "Dm"[DF][Ac][Ac] [A2c2][A2c2] | "Gm"[B2d2][Ac] ([GB]>[Ac] [GB][FA]) |\
+   "C"[EG][GB][GB] "C7"[G2B2] [G2B2] | "F"[A2c2][GB] "A7"([FA]>[GB] [FA][EG]) |
+w: 1.~Li-lja-no mo-me Li-lja-no___ ja sta-ni ra-no pri-zo-ri___
+w: 2.~Ne e is-ljaz-la Li-lja-na,___ naj e is-ljaz-la maj-ka i___
+w: 3.~I-di si Geor-gi, i-di si,___ Li-lja-na bol-na leg-na-la___
+w: 4.~Ne mi go la-zhi ma-mo ma___ jas s\^am si Geor-gi lju-bi-la___
+   "Dm"[DF][FA][FA] [F2A2] [F2A2] | "Gm"[G2B2][FA] ([EG]>[FA] [EG][DF]) |\
+   "A7"[^C2E2][DF] [E2G2] [G2B2] | [FA][E2G2] "Dm"[D4F4] |]
+w: 1.~ja sta-ni ra-no pri-zo-ri__ i li-be-to si po-sresht-ni
+w: 2.~lju-ti si klet-vi kol-ne-she___ i na Geor-gi du-ma-she.
+w: 3.~Li-lja-na bol-na leg-na-la___ i ne mo-zhe da sta-ne.
+w: 4.~jas s\^am si Geor-gi lju-bi-la__ i za~ne-go ke ce o-zhe-nja.
+%
+% Ivan Djakov's 2nd verse:
+%   Не е излязла Лиляна,
+%   най е излязла майка й,
+%   люти си клетви колнеше
+%   и на Георги думаше.
+
+%%sep 1 1 500
+
+X: 1
+T: Liljano Mome
+O: Bulgaria
+R: lesnoto
+F: http://balkanarama.com/liljano.htm
+F: http://www.youtube.com/watch?v=Ua2Lw854_S0
+F: http://www.youtube.com/watch?v=T91CYbrmUE8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: Em
+"^instr:"\
+|: "Em"[Bd][Ac][GB] [Bd][Ac] [G2B2] | "Am"[A3-c3-] [A4c4] |\
+   "D7"[Ac][Bd][ce] [ce][Bd] [Bd][Ac] | "G"[B3-d3-] [B4d4] |\
+   "Em"[Bd][Ac][GB] [Bd][Ac] [G2B2] |
+   "Am"[A3-c3-] [A2c2] [Ac][GB] | "B7"[FA]z[Bd] [Bd][Ac] [GB][FA] |1\
+   "Em"[E3G3] [EG][FA] [GB][Ac] :|2 "Em"[E3-G3-] [EG]z z2 \
+"^vocal:"\
+[| "Em"EBB B2 B2 |
+    "Am"c2B (A>B AG) | "D"FAA A2 A2 |\
+   "G"B2A (G>A GF) | "Em"EGG G2 G2 | "Am"A2G (F>G FE) |
+   "B7"^D2E F2 G2 | "Am"ccB "B7"B4 ||\
+   "Em"[EG][Bd][Bd] [B2d2][B2d2] | "Am"[c2e2][Bd] ([Ac]>[Bd] [Ac][GB]) |\
+   "D"[FA][Ac][Ac] "D7"[A2c2] [A2c2] |
+   "G"[B2d2][Ac] "B7"([GB]>[Ac] [GB][FA]) |\
+   "Em"[EG][GB][GB] [G2B2] [G2B2] | "Am"[A2c2][GB] ([FA]>[GB] [FA][EG]) |\
+   "B7"[^D2F2][EG] [F2A2] [A2c2] | [GB][F2A2] "Em"[E4G4] |]
+%
+% Ivan Djakov's 2nd verse:
+%   Не е излязла Лиляна,
+%   най е излязла майка й,
+%   люти си клетви колнеше
+%   и на Георги думаше.
+

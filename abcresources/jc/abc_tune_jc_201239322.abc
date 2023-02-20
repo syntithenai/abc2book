@@ -1,0 +1,19 @@
+X: 3253
+T: Mr Baillie of Mellerston's   Strathspey
+C: by Nath. Gow
+%R: strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.25 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Em
+% - - - - - - - - - -
+V: 1 staves=2
+e |\
+B<EB>d | D>EFd | B<EB>F TE>FGA | B<dF<d D>EFd | B<EB>F {F}E2E :| g/a/ | be-e>.f Td>efa | be-e>g e>ge^c |
+d<fB<d D>EFd | B<ETB>F {F}E2Eg/a/ || be-e>.f Td>e f/e/f/a/ | be-e>.f e>ge^c | d<fB<d D>EFd | De (B/A/)G/F/ {F}E2E |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | e2e2 d2d2 | e2e2 e2e2 | g2a2 d2d2 | e2B2 E2E :| z | e2e2 d2d2 | e2e2 e2a2 |
+f2g2 f2d2 | e2B2 E2E2 || e2e2 d2d2 | e2e2 e2a2 | f2g2 f2d2 | e2B2 e2E |]

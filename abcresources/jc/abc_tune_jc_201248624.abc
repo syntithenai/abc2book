@@ -1,0 +1,38 @@
+
+X: 1
+T: Aursundvals I
+R:vals
+Z:2001 Brian Wilson <baab@mediaone.net>
+Z:Storbrekkingen, Track 26
+Z:Also tune #3, Fel'klang
+M:3/4
+L:1/8
+K:D
+"A"|: "D"F3 E D2 | "G"G3 FGB | "D"A4 d2 | "D/A"F3 E D2 \
+|1 "A/E"E4 B2 | "A"B2 A2 F2 | "D"D4 B2 | "A"B2 A2 G2 :|
+|[2 "Em"E4 d2 | "Em/B"d2 c2 B2 | "E"B2 A2 ^G2 | "A"A3 GFG |]\
+"B"|: "D"A2 B2 c2 | "D/A"d2 e2 f2 | "Em/B"g2 f2 e2 | "Em"B4 e2 |
+|1 "G"e2 d2 B2 | "G/B"G3 FGA | "A7"B2 A2 G2 | "D"F3 EFG \
+:|2 "A/E"e3 dcB | "A7"A2 f2 e2 | "D"d3 e"A"dc | "D"d4 A2 |]
+"C"|: "D"d3 edc | "D/A"d2 efgb | "D"a2 f2 d2 | "D/A"A3 faf \
+| "G"g2 efge | "D"f2 d2 cd |1 "E"ed cB cd | "A"e4 A2 :|
+|[2 "A"ed cA Bc | "D"d3 edc |]"D"|: "G"B2 gfga | "G/B"g4 B2 \
+| "D/A"A2 fefg | "D"f3 e d2 |1 "A"c3 def | "A/E"e3 dcB |
+"D"A2 fg ab | "D7/A"a2 f2 d2 :|2 "A"cd ef gb | "D"a2 fd fa \
+| "A"g2 ec (3ABc |["1-N" "D"d3 B"d.C."AG |] |["Coda" "D"d3 e"A7"dc | "D"d4 |]
+
+%%sep 5 1 500
+
+X: 2
+T: Aursundvals II
+R: vals
+Z: Smaaviltlaget, paa Skuddhold, Track 10
+S: Brian Wilson
+M: 3/4
+L: 1/8
+K: D
+B AG | "D"F2 E2 F2 | "D/F#"D3 D EF | "G"G2 GF GB | "Em"e3 d cB | "A"A2 c2 e2 | "A/E"A2 c2 e2 |
+"D"f2 d3 B | "A"A3  B AG || "D"F2 E3  F | "D/F#"D3 D EF | "G"G2 GF GB | "Em"e3 d cB | "A"A2 c2 e2 |
+"A/E"A2 c2 e2 | "D"d2- "D/A"df "A7/G"ce | "D"d3 :: c de |  "D"fe de fe | "D/F#"d3 d cd | "G"e2 d3 G |
+"Em"B3 B ~B2 | "A"A2 c2 e2 | "A/E"(a3 b) a2 | "A"a2 g3 a | "D"f3 e de || "D"fe de fe | "D/F#"d3 d cd |
+"G"e2 d3 G | "Em"B3 B ~B2 | "A"A2 c2 e2 | "A/E"(a3 b) a2 | "A"g/a/g f/g/f e/f/e | "D"d2- "D/A"df "A7/G"ce | "D"d3 :|

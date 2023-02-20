@@ -1,0 +1,43 @@
+X:104
+T:Cascade: Piano Score
+C:Colin Hume, 1986
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=120
+%%MIDI chordname dim 0 3 6 9
+%%MIDI chordname 7sus 0 5 7 10
+%%staves (U L) B
+K:Em
+P:A
+V:U treble
+|: EB-BA/G/ | G/A/DD2 | A/B/GGd | d/e/cc2 | Bc/d/cB | B3/A/A2 |
+A B/c/BF | A3/G/G2 | E3/F/G3/A/ | Bd!turn!B/A/G | A3/E/cB | A2G2 :|
+V:L treble
+|: G,G/F/EB, | E/F/F,G,/A,/z | D2C=F | E2D/E/C | ^G2AE/D/ | C2C/B,/C/D/ |
+E2EB, | E2 E/F/E/D/ | C/B,/C/D/ E/^D/E/F/ | GBG/F/E | C3/C/AG | GFB,2 :|
+V:B bass octave=-2
+%%MIDI beat 100 95 80
+%%MIDI gchordoff
+|: "Em"[Ee]2 "/"[Ge][Ee] | "D"[Dd]2 "/"E[Fd] | "G"[Gg]2 "/"[Ad][Bg] | "C"[cc']2 "/"[Cc][Dd] |\
+"E7"[Ee]2 "/"[Fe][^Ge] | [Ae]2 "/"[Ge][Ae] |
+"B7sus"[Bf]2 "B7"[^cf][^da] | "Em"[eb]2 "/"[db][db] |\
+"C"[cg]2 "C#dim"[^c^a]2 | "G/D"[dg]2 "Em"[eb]2 | "Am"[Aa]2 "Am7"[Ge]2 | "D"[Dd]2 "G"[Gd][Fd] :|
+P:B
+V:U
+[| gf/e/df | ed/c/dG | cB/A/ B/d/c/B/ | A4 | ag/f/ef | gf/e/d2 | ed/^c/Bc | d4 |]
+V:L
+[| BA/G/FA | GF/E/GD | ED/C/ D/F/E/D/ | [CE]3/[B,D]/ [A,C]/[CE]/[DF]/[EG]/ |\
+d2GA | B2F/E/F/G/ | A2E2 | [FA][EG]/[DF]/[CE][DF] |]
+V:B
+[| "Em"[Ee]2 "Bm"d2 | "C"c2 "G"B2 | "Am"A2 "E7"^G2 | "Am"A2 "/"ag |\
+"D"f2 "D7"ed | "Em"e2 "Bm"b2 | "A"a2 "A7"g2 | "D"f2ed |]
+P:C
+V:U
+[| dG-GA/B/ | B/A/ee2 | eA-AB/c/ | c/B/gg2 | e3/f/ a/g/f/e/ | d3/B/g2 | eA-AG | A/B/GG2 |]
+V:L
+[| BB,/C/DC/D/ | Ec[Ac]/[GB]/[FA]/[GB]/ | cD/E/FE/F/ | GBcd |\
+G3/d/ed/^c/ | G2B2 | cD/E/FE/D/ | C/D/B,B,2 |]
+V:B
+[| "G"[Gg]2 "/"[Bg][Gg] | "Am"[Aa]2 "Am7"G2 | "D"[Ff]2 "D7"[Dd][Ff] | "G"[Gg]2 "/"AB |\
+"C"[cc']2 "C#dim"[^c^a]2 | "G/D"[db]2 "Em"[ee']2 | "Am"[Aa]2 "D7"[Dd]2 | "G"[Gg]2[Gg][Ff] |]

@@ -1,0 +1,26 @@
+%%text Noel wrote:
+%%begintext align
+%% A tune writtten to be played in the same slightly swung way as Albert Farmer's.
+%% I hope that players get the joke with the final crescendo and single very loud note at the end.
+%% I still think that over 400 years later Guido Fawkes and his friends had much the right approach to the sitting government.
+%%endtext
+X: 1
+T: Guy Fawkes' Good Idea
+C: Noel Jackson November 2020
+S: Message from Noel on tradtunes list.
+Q: 1/4=140
+M: C|
+L: 1/8
+K: G
+|: B>c \
+| "G"d2d>e d2g2 | "G"B>cd>e d2g2 | "C"c2c>B "Am"A2A>G | "D7"F>GA>B c2B>c |\
+[1 "G"d2d>e d2g2 | "G"B>cd>e d2B2 | "Am"c2cB "D7"A2G2 | "D7"D>^DE>F G2 :|
+[2 "G"G2G>A B>AG2 | "Am"A2A>B c>BA2 | "Em"B2B>c "G"d>gf>e | "D7"d>c A>F"G"G2 |\
+|: F>G \
+| "Am"A2A>B c>BA2 | "G"B>cd>e d2g2 | "A7"^c2c>d e>dc2 |
+" D7"d>^c=c>A D2d>c |\
+| "G"B2B>c d>ed2 | "C"c2c>d e>fe2 | "G"d>BG>B "D7"c>AF>A | "G"G>FGA G2F>G |\
+| "Am"A2A>B c>BA2 | "G"B>cd>e d2B2 |\
+"A7"^c2c>d e>dc2 | "D7"d>^c=c>A D2z2 |\
+| !pp!y"Em"E>FG>E "D7"F>dc>A | !p!y"G"B>cd>B  "Am"A>ec>A \
+| !f!y"G"B>cd>B "C"c>ge>c | !ff!y"D7"d>ef>d !fff!y"G"Hg2 |]

@@ -1,0 +1,36 @@
+X: 13333
+T: the FAIRY PRINCE
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.13 p.33 #3
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout not changed to fit our page size:
+V: 1 clef=treble middle=B
+|:\
+G3 BAG dcB | ABc BAG FED |\
+G3 BAG dcB | AcB AGF G3 ::\
+d^cd dcd cBA | d^cd ded cBA |
+d^cd dcd AGF | EGF ED^C D3 ::\
+g2G g2G g2G | edc BAG FED |\
+{a}gfg {a}gfg gfe | dcB AGF G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+|:\
+G3 g3 g3 | c3 ^c3 d3 |\
+G3 g3 g3 | c3 d3 G3 ::\
+dfa dfa Aea | dfa dfa Aea |
+dfa dfa def | g2g a2A d3 ::\
+[g3G3] [g3G3] [e3E3] | [c3C3] [^c3^C3] [d3D3] |\
+[G3G,3] [A3A,3] [B3B,3] | [c3C3] [d3D3] [g3G3] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead outsides, back again,
+%% down the mid: up again,
+%% right & left, & Swing corners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

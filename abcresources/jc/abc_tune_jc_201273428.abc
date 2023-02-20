@@ -1,0 +1,51 @@
+X: 1
+T: Estudio No. 6 (audio version)
+C: Fernanado Sor
+M: 4/8
+L: 1/8
+I: Intended to reflect (in a small way)  how it actually sounds on a guitar rather than to create a nice looking piece of sheet music.
+V:1 up treble
+V:2 merge down treble
+V:3 merge down treble
+K: D
+[V:1] A | f3 f | e3 e  | d3 f   | A3  A   | B3  B  | e3  d  | d3  c | e3  A |
+[V:2] z | x2 A2| x2 G2 | x2  F2 | x D F x | x2 G2  | x2 E2  | x2 E2 | x2 E2 |
+[V:3] x | x D3 | x A,3 | x D3   | x4      | x  G,3 | x ^G,3 | x A,3 | x A,3 |
+%%
+%%
+[V:1] f3 f  | e3 e  | d3  d  | ^d3  d | e3  B     | c3  e     | [F3d3]   F  |
+[V:2]  x2 A2| x2 G2 | x2 F2  | x2 F2  | x2 [E2G2] | x2 [E2G2] | x2 A2       |
+[V:3]  x D3 | x A,3 | x B,3  | x A,3  | x  G,3    | x  A,3    | x D3        |
+%%
+%%
+[V:1] D3  f | e3  e | ^d3  d | e3  e | c3  c  | d3  d | B3  e  | d4       | [A2c2] z e |
+[V:2] x4    | x2 A2 | x2 A2  | x2 A2 | x2  A2 | x2 F2 | x2 ^G2 | x E ^G E | x  E  A,2  |
+[V:3] x4    | x C3  | x ^B,3 | x C3  | x A,3  | x B,3 | x E3   | x4       | x4         |
+%%
+%%
+[V:1] e3  e | ^e3  e | f3  f | B3  ^B | c3  c  | d3  B  | c4    |
+[V:2] x2 A2 | x2  A2 | x2 A2 | x2 A2  | x2  A2 | x EB^G | A,AEC |
+[V:3] x C3  |x C3    | x D3  | x ^D3  | x  E3  | E,4    | x4    |
+%%
+%%
+[V:1] A,3  a | a3  a  | =c3  c  | B3  B  | f3  f   | g3  g  |  _B3  B | A3  A  | e3  e  |
+[V:2]  x4    | x2 A2  | x2  A2  | x2  A2 | x2  A2  | x2 G2  | x2  G2  | x2 G2  | x2  G2 |
+[V:3]  x4    | x  F3  | x  E3   | x ^D3  | x ^D3   | x  E3  | x D3    | x  C3  | x  C3  |
+%%
+%%
+[V:1] =f3  d  | c3  e  | d3  e  | =f3  e  | d3  d  | e3  e  |  c4    | x4       |
+[V:2] x D =F2 | x E G2 | x2  A2 |  x2  A2 | x2 A2  | x2 ^G2 | x2 A E | C E A, A |
+[V:3]  x4     |  x4    | x =F3  | x =F3   | x _B,3 | x _B,3 | x A,3  | x4       |
+%%
+%%
+[V:1] f3  f  | e3  e  | d3  f  | A3  d  | B3   B  | e3   d  | d3  c  |  e3  A  |
+[V:2] x2  A2 | x2  G2 | x D F2 | x D F2 | x2  G2  | x2  E2  | x2 E2  | x2 E2   |
+[V:3] x  D3  | x  A,3 |  x4    | x4     | x  G,3  | x ^G,3  | x A,3  | x A,3   |
+%%
+%%
+[V:1] f3  g/f/  | e3  f/e/  |  d4      |  e3   f/e/    | d3  d  |  c3  c     |  [d4F4] | D4  |
+[V:2]  x2  A2   | x2  G2    | x B, F B | G  E, [G,2B2] | x2  A2 | x2  [E2G2] | x D A F | x4  |
+[V:3] x  D3     | x  ^A,3   |   x4     |   x4          | x  A,3 | x  A,3     |  x4     | x4  |
+
+
+

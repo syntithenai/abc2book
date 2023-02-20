@@ -1,0 +1,19 @@
+X:245
+T:Festing's Minuet
+C:Wright, c.1740
+L:1/8
+M:3/4
+%%MIDI beat 100 95 80
+%%MIDI gchord chihch
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=115
+K:D
+P:A
+|: "D"FA "/"d2 "/"A2 | "G"B2 "A7"A2 "^-"z2 | "D"FA "/"d2 "G"G2 | "A7"E2 "D"D2 "^-"z2 | "Bm"fe "/"fd "/"cB | "A"ed "/"ec "/"BA |
+"Bm"Bc "/"d2 "B7"A2 | "E"^GA "/"B2 "C#m"G2 | "E7"E2 "/"d4 | "A"cd "/"e2 "F#m"A2 | "Bm"Bd "E7"cB "/"A^G | "A"A6 :|
+P:B
+|: "A"Ae "/"a2 "/"g2 | "D"f2 "A"e2 "^-"z2 | "Bm"d2 "/"c2 "Em"B2 | "F#7"^A^G "/"F2 "Bm"B2 |\
+"A"cd "/"e2 "/"dc | "D"de "/"f2 "/"ed | "Bm"B2 "Em"dc "F#7"B^A | "Bm"B6 |
+"D"A2 "/"d2 "/"A2 | "G"B2 "A"A4 | "G"GB "D"A2 "/"F2 | "A7"F2 "/"E4 |\
+"D"A2 "/"fe "/"dc | "G"B2 "/"gf "/"ed | "A7"c2 "/"ag "/"fe | "Bm"dc "/"d2 "^-"z2 |
+"Em"GF "/"G2 "/"e2 | "D"FA "/"d2 "^-"z2 | "Bm"F2 "A7"AG "/"FE | "D"D6 :|

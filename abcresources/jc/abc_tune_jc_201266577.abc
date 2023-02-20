@@ -1,0 +1,28 @@
+X: 1
+T: Damey
+P: Longways for as many as will
+%R: 
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.100
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+c2 B2 c2 B>A | G>F E>F G2 E2 |\
+D>E F>G A>B cB/A/ | G2 B2 c2 C2 |]\
+c>d e2 c>d e2 | c>d e>f d>B A>G |
+c>d e2 c>d e2 | c>d e>f g3 a |\
+g>f e>d c>B A>e | f2 A>e f3 e |\
+f>e d>c B>A GF/E/ F2 G2 c4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% All four set to your Partners and turn S. and hands half round .| All four set to your Partners and turn
+%% S. and hands half round into your own places :| The 2. man go back to back, the women the same
+%% at the same time; then right and left with your Partners quite round .| The 1 cu. go the Figure
+%% through into their own places, then right and left with your Partners which brings the 1. cu. into the
+%% 2. cu. place :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

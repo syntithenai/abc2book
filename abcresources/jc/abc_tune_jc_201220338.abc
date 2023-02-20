@@ -1,0 +1,48 @@
+%%text RJ Set 034 Jigs
+
+
+X: 1
+T: Lad O'Beirne
+M: 6/8
+R: jig
+K: D
+|:\
+"D"d2F AGF | d2F AGF | "A"A,CE GFE | A,CE GFE |\
+"D"DFA "G"G2B | "A"Adc "D"d2e | fed cBA | "A"GFE "D" D3 :|
+|:\
+"D"f=f^f a^ga | f2d de=f | "C"e=ce gfg | "A"e2^c cde |\
+"D"f=f^f "G"gfg | "D"agf "A"efg | "D"fed cBA | "A"GFE "D" D3 :|
+
+
+X: 2
+T: Devlin's
+I: RJ Bm jig
+M: 6/8
+R: jig
+K: Bm
+|:\
+"Bm"d2B BAB | F2B BAB | "G"d2B Bcd | "A"cBc ABc |\
+"G"d3 "A"e3 | "Bm"f2b afe | "G"dcB "A"AFE | "Bm"FBB B2c :|
+|:\
+"D"a3 f3 | "A"e2A cBA | c2A cBA | "F#"cde f2e |\
+"Bm"d2B BAB | F2B Bcd | "G"efg "A"fef | "Bm"dBB B3 :|
+
+
+X: 3
+T: Medway Jig #2
+I: RJ J-43 G jig
+C: Paul Milde 1994
+M: 6/8
+R: jig
+K: G
+"^A"\
+|: "G"BAG BAG | BAG d2G | B2G "C"AGE | "D"D3 C3 |\
+[1 "G"B,CD D2G | D2E G2A | B2d dcB | "D"(A3 A2)G :|
+[2 "G"B,CD D2E | D2E G2 A | "D"B2B AGA | "G"(G3 G2) \
+"^B"\
+|: d |\
+   "G"Bcd dcB | "C"c2d g2d | "G"Bcd e2d | "C"c2B "D"A3 |
+[1 "G"B2c dcB | "D"A2B c2A | "Em"GAB BAG | "D"A2F "G"G2 :|\
+[2 "G"Bcd "D"c2A | "G"B2G "D"ABc | ABc "G"B2G | "D"A2F "G"G3 |]
+%%text Roaring Jelly  J-43
+

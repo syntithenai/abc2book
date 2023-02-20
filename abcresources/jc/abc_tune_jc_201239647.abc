@@ -1,0 +1,33 @@
+X: 3351
+T: In the Style of an Opera Dance
+C: by Mr Nisbet
+%R: jig
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.35 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+!f!(A,//B,//C/) |\
+D2D TF2A | {c}d2D DEF | TEFD {D}CB,A, | (EF).D {D}CB,A, |\
+D2D TF2A | {c}d2D DEF | B,GF TEDC | {C}D3 D2 :|
+|: F/G/ |\
+!p!AFA TBAB | {A}GFG AGA | EB,E {A}GFG | EFD {D}CB,A, |\
+AFA TBAB | {A}GFG AFD | B,GF EDC | {C}D3 D2 :|
+|: !p!(3(A/B/c/) |\
+d2d Tf2a | {c'}d'2d def | efd {d}cBA | efd {d}cBA |\
+d2d Tf2a | {c'}d'2d def | Bgf edc | {c}d3 d2 :|
+|: "_Pia.mo"f/g/ |\
+{b}a^ga bab | {a}gfg {b}a^ga | eBe {a}gfg | efd {d}cBA |\
+{b}a^ga bab | {a}gfg afd | Bgf edc | {c}d3 d2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+!f!z |\
+D3 d3 | f3 d3 | G3 A3 | E3 A2G | F3 D3 | F2A d3 | g3 a2A | dfa d2 :||: z | !p!f3 g3 |
+e3 f3 | G3 g3 | e2g a2g | f2d g3 | e2A f3 | g3 a2A | dAF D2 :||: !p!z |\
+dfa dfa | dfa dfa | GBe Ace | Aeg Aea |
+dfa dfa | fad' fad' | gbe' ac'e' | d'af d2 :||: "_Pia.mo"z |\
+[f3d'3] [g3d'3] | [e3c'3] [f3d'3] | [g3e'3] [g3b3] | e2g a2g |\
+[f3d'3] [g3d'3] | [e3c'3] [f3d'3] | g3 a2A | dAF D2 :|

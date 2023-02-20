@@ -1,0 +1,24 @@
+X: 032
+T: the Union
+%R: slip-jig
+M: 9/8
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.3 #2
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+K: G
+|:\
+GAG B2c dBG | ABA c2d e2g |\
+GAG B2c dBG | e2e eag f2g :|
+|:\
+gfg gfg afd | gfg agf {f}e2d |\
+gfg gfg agf | gfe dcB {B}A2G :|
+|:\
+BGB BGB cAc | BGB BGB AFA |\
+BGB BGB cAc | def gdB {B}A2G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change Sides & back again lead down the middle
+%% up again & Swing corners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

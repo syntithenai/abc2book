@@ -1,0 +1,23 @@
+X: 12211
+T: So Merry as we have been
+%R: air, waltz, minuet
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.21 #1
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"f>e |\
+d3 e {de}f2 | A2 G2 (F>G) | {F2}TE4 D2 | d2 f>e f2 |\
+D3 EF>G | {G2}A4 (a>g) | f2 af(Te>d) | TB3/A//B// dB(TAF) |\
+G3 ABc |
+{Bc}d4 (Tc>B) | A>BAGFE | D4 :: TF>E |\
+D2 F>G A2 | D2 FA dF | E4 TF>E | D2 F>G A2 |\
+D2 (F>G) (TG3/F//G//) | A4 a>g |
+f2 {a}gf{f}ed | B2 (d<B) (A<F) |\
+G3 ABc | (dfed) (Tc>B) | A>BAGFE | D4 :: (Tf>e) |\
+d2 e2 {de}f2 | d3 efg | {f2}e4 (Tf>e) |
+d2 (Tf>e) f2 |\
+(dcd).e.f.g | {fg}a4 a>g | (f3/g//a//) gfTe>d | B2 (d<B) (A<F) |\
+G3 ABc | d2 c2 TB2 | A>BAGFE | D4 :|

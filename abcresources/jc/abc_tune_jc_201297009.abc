@@ -1,0 +1,22 @@
+X:387
+T:King's Maggot
+T:New York
+%%MIDI gchord cc2cc2
+%%MIDI program 74
+%%MIDI chordprog 54
+%%MIDI bassprog 54
+%%MIDI chordvol 60
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=100
+M:6/4
+L:1/8
+C:John Young, 1718
+K:Bb
+P:A
+|: "Bb"F2B2 "Eb/Bb"E2B2 "Bb"D4 | "Cm"C2c2-c2G2 "F"ABcA | "Bb"F2B2 "Eb/Bb"E2B2 "Bb"D4 | "C7"C2B2-B2G2 "F"ABcA :|
+P:B
+|: "Bb"d2B2-B2F2 D4 | "Cm"C2c2-c2G2 "F"ABcA | "Bb"d2B2-B2F2 D4 | "C7"C2B2-B2G2 "F"ABcA :|
+P:C
+|: "Bb"B2b2 "F"a2gf "Eb"gfed | "F"ABcd "C"c2G2 "F"ABcA | "Bb"B2b2 "F"a2gf "Cm"gfga | "Bb"b2B2- "Eb"B2G2 "F"ABcA :|
+P:D
+|: "Bb"dcBA "Gm"BAGF "Eb"GFED | "Cm"C2c2-c2G2 "F"ABcA | "Bb"dcBA "Eb"BAGF "Bb"DEFD | "C7"C2B2-B2G2 "F"ABcA :|

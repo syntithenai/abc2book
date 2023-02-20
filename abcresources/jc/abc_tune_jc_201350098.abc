@@ -1,0 +1,41 @@
+
+X: 1
+T: Walls of Winchester  [D]
+C: Joan Winsor
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A |\
+"D"def "A"afe | "D"d3- d2c | "G"B2c d2B | "D"A3- A3 |\
+"Em"G2F "A7"G2A | "D"F2E F2A | "E7"B2^A B2d | "A"e3- "A7"e3 ||
+"D"def "A"afe | "D"d3- d2c | "G"B2c d2e | "F#"f3- f3 |\
+"Em"e2d "A7"c2B | "D"A3 "Bm"F2A | "Em"B3 "A7"c3 | "D"d3- d2 |]
+e |\
+"D"f2f "A"e2e | "Bm"d2d "F#"c2c | "Bm"B2A "B7"ABA | "Em"G3- G3 |\
+"Em"e2e "E7"d2d | "A"c2c "E7"B2B | "A"A2A "A7"ABA | "D"F3 G2A ||
+"D"d2d "D7"=c2c2 | "G"B3 G3 | "Em"e2e "E7"d2d | "A"c3 "A7"A3 |\
+"D"def "A"afe | "D"d2A F2A | "G"B2 "A7"c3 | "D"d3- d2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2
+T: Walls of Winchester  [C]
+C: Joan Winsor
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+G |\
+"C"cde "G"ged | "C"c3- c2B | "F"A2B c2A | "C"G3- G3 |\
+"Dm"F2E "G7"F2G | "C"E2D E2G | "D7"A2^G A2c | "G"d3- "G7"d3 ||
+"C"cde "G"ged | "C"c3- c2B | "F"A2B c2d | "E"e3- e3 |\
+"Dm"d2c "G7"B2A | "C"G3 "Am"E2G | "Dm"A3 "G7"B3 | "C"c3- c2 |]
+d |\
+"C"e2e "G"d2d | "Am"c2c "E"B2B | "Am"A2G "A7"GAG | "Dm"F3- F3 |\
+"Dm"d2d "D7"c2c | "G"B2B "D7"A2A | "G"G2G "G7"GAG | "C"E3 F2G ||
+"C"c2c "C7"_B2B2 | "F"A3 F3 | "Dm"d2d "D7"c2c | "G"B3 "G7"G3 |\
+"C"cde "G"ged | "C"c2G E2G | "F"A2 "G7"B3 | "C"c3- c2 |]

@@ -1,0 +1,26 @@
+X:1
+T: Halsway Sicilian
+N:
+C:"As Luck Will Have It" by Pat Shaw
+S:(Circle Dance)
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 36 notes)
+K:G
+M:6/8
+L:1/16
+A2 |B6 d4 c2 B2 c2 B2 A6 B4 d2 g4 f2 e2 f2 e2 d6 |c4 e2 d4 c2 B4 d2 g4 b2 a2 b2 a2 g2 f2 e2 d2 e2 d2 c2 B2 A2 |
+%W: A2
+% voice 1 (1 lines, 31 notes)
+B6 d4 c2 B2 c2 B2 A6 B4 d2 g4 f2 e2 f2 e2 d6 |c4 e2 d4 c2 B4 A2 G4 B2 A2 B2 c2 B4 A2 G6G4 d2 |
+%W: B1
+% voice 1 (1 lines, 33 notes)
+g6 b2 a2 g2 f4 g2 a4 d2 e2 f2 g2 f4 e2 d6d4 d2 |e6 g2 f2 e2 d4 g2 b4 d'2 d'2 c'2 b2 b2 a2 g2 a6a4 d2 |
+%W: B2
+% voice 1 (1 lines, 30 notes)
+g6 b2 a2 g2 f4 e2 d4 d2 e6 g2 f2 e2 d6d4 B2 |c6 e2 d2 c2 B4 d2 g4 G2 A2 B2 c2 B4 A2 G6G4 ||

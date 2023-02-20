@@ -1,0 +1,23 @@
+X: 20052
+T: COULD I EACH FAULT REMEMBER
+T: From the opera of "The Duenna."
+Q: "Moderate."
+%R: air, march, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.5 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+B2B>B d2f2 | f3d f2(fB) | {d}c2B2 (dc)(BA) | B4 z4 |\
+B2B>B d2f2 | f3d f2b2 | f3f {g}fe{f}ed | {d}c4 z4 |\
+f2ga {g}f3a |{g}f3=e f2d2 | (3(c=Bc) (3(dc_B) A2G2 | F4 z4 |]
+|:\
+f2cc c2f2 | e4 d3f | f3c c2f2 | {f}e4 d4 |\
+B2BB B2c2 | d2dd d2e2 | Hf3d He2f2 | (3(f=ef) (3(gf_e) d2c2 |\
+B2(f>d) c2(f>e) | d2(f>d) c2(f>e) | (3(dcB) (3(gfe) d2c2 | B4 z4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

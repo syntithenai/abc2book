@@ -1,0 +1,17 @@
+X: 1
+T: the Parting   [D,Dm]
+C: Cyril O'Donoghue
+R: waltz
+S: https://wellington.session.nz/tunes/the-parting.html 2021-5-12
+N: Duplicate portions converted to repeats. [JC]
+M: 3/4
+L: 1/8
+K: D
+de \
+|:   f2{e}fg ag | f2 d2 dc | BA GA Bd | A2 F2 D2 ||\
+[1,3 d3 c de | f2 e2 d2 | c4  d2 | e3 e fg :|\
+[2,4 d3 c df | e2 B2 c2 | d3 e dc | d6 :|
+K: Dm
+|: f3 f gf | e2 c4 | A3 G Ac | E2 D4 || d3 e f2 |\
+[1,3 ec AG A2 | a3 e fg | fe dc de :|\
+[2,4 ec AG A^c | d3 e d^c | d6 :|

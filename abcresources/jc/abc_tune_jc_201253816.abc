@@ -1,0 +1,23 @@
+X: 1
+T: (On the Beautiful) Blue Danube
+C: Johann Strau\ss
+%D:1866
+R: waltz
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+D DFA \
+| "D"A2.a  .a2.f  |  .f2D  DFA |"A7"A2.a  .a2.g  |  .g2C  CEB |\
+|"A7"B2.b  .b2.g  |  .g2C CE.B | "D"B2.b  .b2.f  |  .f2D  DFA |
+| "D"d2.d' .d'2.a |  .a2D  DFA | "G"d2.d' .d'2.b |  .b2E  EGB |\
+|"A7"B3-    B^GA  | "D"f3- fdF | "G"F2E "A7"B2A  | "D".D>[dD][dD] "fine"[dD] |]
+K:A
+|: .d.c \
+| "E7".c.BB z.B.^A | .^A.BB         z.E.E | "A"F2E z.E.E | B2A "A"z.d.c |\
+| "E7".c.BB z.B.c  |  .e.dd "C#7"z.G.B | "F#m"B2A "Bm"G3/F/D/B,/ | "E7"F/F/FE "A"[AA,]"d.C."y :|
+%%begintext align
+%% The original composition went on for many minutes of waltzes, without returning to the first part.
+%% The above initial parts are often played as a "traditional" waltz tune, sometimes with some
+%% other parts taken from Strauss's medley.
+%%endtext

@@ -1,0 +1,34 @@
+X: 1241
+T: FIRTH'S WALTZ
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.124 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: Added missing beat between 2nd and 3rd parts.
+M: 3/8
+L: 1/16
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+U: P=!crescendo(!
+U: p=!crescendo)!
+K: C
+E>F |\
+(QG4{B})q(AG) | (G4y0)(AB) | (c4y0)(de) | g4fe |\
+d4ef | B4cd | F4AG | A2G2 E>F |\
+(G4{B}AG) | (G4AB) | c4de | g4fe |
+d4ef | B4cd | (GB) (Ac) (Bd) | c4 H:| C2 |\
+(E4F2) | (G4^G2) | (A4B2) | (c4^c2) |\
+(d4e2) | (f4g2)  | (a4g2) | (c4C2) |
+.E.E.E.E.F.F | .G.G.G.G.^G.G | .A.A.A.A.B.B | cccc^cc |\
+ddddee | ffffgg | aaaagg | c4 :|
+|: z2 |\
+c2e2g2 | c2e2g2 | .c2(BA) (G/F/E/D/) | (C4G2) |\
+c2d2e2 | f4e2 | ^c6 | d4G2 |\
+G2B2d2 | G2B2d2 | g2fe (d/c/B/A/) | G4G2 |
+B2c2d2 | e4d2 | (cBce).g.e | c4 :|\
+e2 |\
+{g}f(efg).a.f | (d^cde)f.d | {f}(e^def)g.e | (cBcd).e.c |\
+(d^cde).f.d | (BABc).d.B |
+[1 {d}(cBcd).e.f | g4e2 :|[2 c2e2g2 | c4 z2 |] [K:F]\
+AB |\
+c2(fe).f.d | c2(fe).f.d | c2d2B2 | (A^GAB).c.d |\
+(c2f).e.f.d | (c2f).e.f.d | (ce)(df)(eg) | f4 "^D.C.":|

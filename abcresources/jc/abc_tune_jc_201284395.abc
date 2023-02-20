@@ -1,0 +1,25 @@
+X: 1
+T: Hang Sorrow
+P: Longways for as many as will
+%R: march, reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.322
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+a4 g2e2 | f2(ed) ^c4 | d3f (ef)g2 | f4 e4 |\
+a3g f2e2 | f2(ed) ^c3e | d3f (ef)g2 | f4 e4 |]
+[|\
+e2ef e2d2 | c2=B2 c2A2 | c3c (dc)(BA) | G4 F4 |\
+A=Bc2 =B3c | =B^cd2 ^c3d | e3f g2(fe) | e4 d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man set to the 2. wo. turn single and turn her .| The 2. man does the same :| Cross over and
+%% Figure through the 1. cu. Right and Left quite round, lead through the 3. cu. then through the 2. cu.
+%% cast off and turn your Partners.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

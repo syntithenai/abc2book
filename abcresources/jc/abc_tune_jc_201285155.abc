@@ -1,0 +1,16 @@
+X: 1
+T: Hava Nagila  [E]
+O: Klezmer
+Z: John Chambers <jc:trillian.mit.edu>
+N: At end, the last bar is often played at half speed, with note values doubled.
+M: C
+L: 1/8
+K: Ephr
+|: "E"E2 E3 ^G FE | ^G2 G3 B AG | "A"A2 A3 c BA \
+|1 "E"^G2 "Dm"F/E/F "E"G4 :|2 "E"^G2 "Dm"F/E/F "E"E4 |]
+|: "E"^GG2F EE E2 | "Dm"FF2E DD D2 | D2F3E DD A2 \
+|1 "E"^G2 "Dm"F/E/F "E"G4 :|2 "E"^G2 "Dm"F/E/F "E"E4 |]
+[|"Am"A4 c4 | A2 c2 A2 c2 \
+| "Am"AA c>B Ac BA | AA c>B Ac BA |
+| "Dm"BB d>c Bd cB | BB d>c Bd cB \
+| "Dm"BB "E"e2 "Dm"BB "E"e>E | "E7"EE (c/B/A/^G/) "Am"A4 |]

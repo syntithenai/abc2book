@@ -1,0 +1,17 @@
+X: 97
+T: Damat Halyi
+O: Turkey
+F: http://www.youtube.com/watch?v=k0iSDaut0Rw
+F: http://www.youtube.com/watch?v=bcaqrnthUSw
+F: http://www.youtube.com/watch?v=FNBh4DARsbY
+M: 2/4
+L: 1/16
+K: G
+Q:1/4 = 108
+%%MIDI program 111 % Shanai
+%%MIDI beat 97 87  77 4
+%%MIDI drum dd 36 35 90 70
+%%MIDI drumon
+DGGG G2Bc|d2cB A4  | BcBA B2c2    |B3A G4 :|
+dcd2 A4  |BcBA GAB2|dcd2 A4       |BcBA G4|
+GGGG G2FG|A2z6     |GGGG G2FG A2z6|

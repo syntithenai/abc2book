@@ -1,0 +1,31 @@
+X: 4319
+T: Rakes of Rochester
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+%
+V: 1
+ed |\
+c2 A4 E2 | F4 E2A2 | G2A2 d2c2 | BAGF E2ed |\
+c2 A4 E2 | F4 E2A2 | G2A2 cBAG | {G}A6 :|
+|: B2 |\
+c4 B2e2 | c4 B2d2 | c2BA G2A2 | BAGF E2B2 |\
+c4 B2e2 | c4 B2d2 | c2BA B2AG | {G}A6 :|
+%
+V: 2 clef=bass middle=d
+z2 |\
+a4 c'4 | d'4 c'2a2 | b2a2 g2a2 | e4 z4 |\
+a4 c'4 | d'4 c'4 | b2a2 e2E2 | A6 :|
+|: z2 |\
+a4 g4 | a4 e4 | a4 e2f2 | e4 z4 |\
+a4 g4 | a4 e4 | a4 e4 | A6 :|
+%%begintext align
+First Man turns the 2d Wo. with his right hand,
+and then his Partner with his Left hand .|
+First Wo. turns the 2d Man with her Right hand,
+and her Partner with her Left hand :|
+First Cu. gallop down, then gallop up again and cast off .|
+First and 2d Cu. Right and Left quite round.
+%%endtext

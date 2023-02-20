@@ -1,0 +1,20 @@
+X:265
+T:Garden City Square
+C:Colin Hume, 1998
+L:1/8
+M:6/8
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=112
+%%MIDI chordname 7sus 0 5 7 10
+K:G
+P:A
+|: "Em"e2f gfe | "B7"^d2e "/"f2B | "Am"c2d "/"edc | "B7sus"B3- "B7"B2A |
+M:9/8
+"Em"G2A "/"BAG "D"A3 | "Am/C"A2B "/"cBA "B7"B3 |\
+"Am"c2d "/"edc "G"def |1 "Em"g2z "Am"a2z "B7"f2z :|2 "Em"g2z "B7"f2z "Em"e2z |
+M:6/8
+P:B
+|: "G"d2d "/"dBA | "C"G2E "/"G2E | "Am"c2c "/"cAG | "D7"F2E "/"D2A |
+M:9/8
+"G"BdB "/"GAB "C"c3 | "Am"cec "/"ABc "D7"def |\
+"G"g2g "/"gfe "/"dcB |1 "Am"A2z "D7"d2z "G"G2z :|2 "Am"A2z "B7"B2z "Em"E2z |]

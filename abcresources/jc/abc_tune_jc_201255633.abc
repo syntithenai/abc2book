@@ -1,0 +1,25 @@
+X: 345
+T: the Boy From the Top of the World
+T: buacaillua ua\`cdar an do\`main
+R: air, waltz?
+%S: s:4 b:16(8+8+8+8)
+B: O'Neill's 1850 #345
+O: F.O'Neill
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+Q: "Slow"
+N: Bar 12 doesn't add up. Fixed by changing B3 to B2 [JC].
+M: 3/4
+L: 1/8
+K: D
+f>e \
+| .d2 (A2 B2) | .d2 (A2 B2) | =c3 (edc) | B3 (=cdB) \
+| (BAGFEF) | (D2 F2 A2) | (B2 d2) .f2 | He4 ||
+(f>e) \
+| d2 (A2 B2) | .d2 (A2 B2) | T=c3 (edc) | B2 c2 ({e}d/c/d/B/) \
+| (BAGFEF) | (D2 F2 A2) | {G}B3 (gec) | d4 |]
+|| ((3def) \
+| g2 g2 (a/g/f/e/) | f2 f2 (g/f/e/>d/) | (e>d) ef de | B3 (cdB) \
+| (BAGFEF) | (D2 F2) .A2 | (B2 d2) .d2 | d4 ||
+(ef) \
+| Tg>f gb ag | Tf>e fa gf | (e>d) ef (g/e/f/d/) | B3 (cdB) \
+| (BAGFEF) | (D2 F2 A2) | (B3 d) d2 | d4 |]

@@ -1,0 +1,15 @@
+X: 163
+T: Kitty Quinn   #2
+R: air
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #163
+Z: 1997 henrik.norbeck@mailbox.swipnet.se
+N: Compacted by using labels and play order [JC]
+P: Play ABAB CBCB
+Q: "Moderate"
+M: 6/8
+L: 1/8
+K: Amix
+"^A"[| A | (ABd) (.d2.d) | (edc) (.d2.d) | (.d2.d) ede | fdB B2 |]
+"^B"[| g | (fa).f g2e | (fa)f g2e | dAd (f2e) | dBA "^fine"A2 |]
+"^C"[| A | (ABc) (dcd) | (Bcd) (ede) | (ABc) (.d2.e) | fdB B2 |]

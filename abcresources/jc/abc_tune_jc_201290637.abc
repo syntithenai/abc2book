@@ -1,0 +1,34 @@
+X: 1
+T: Iolly Roger
+T: Jolly Roger
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (192)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat sign added to match the dance description.  The 2nd strain has 11 bars.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F/G/ |\
+AAA AAA | A2F A2F/G/ | ABA AFG | A3- A2 :|\
+A |\
+GBB BBA | BBd BBd | gGA A2G |
+G3- G2d |\
+gfg f2(e/d/) | ede (c>B)c | dFG E2D | Ddd ddd |\
+ddd ddd | dDD DDD | D3- D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Note The 1st strain is to be play'd twice and the last but once
+%%begintext align
+%% The 1st Man sett tot he 2d Wo. then jump round single the
+%% 2d Man do the same with the 1st Wo. .| The 1st Man change
+%% Places with the 2d Wo. and the 2d Man do the same with
+%% the 1st Wo. then Hands all four half round and right and
+%% left quite round then foot it and jump :| 1st Cu. cross
+%% over and go quite round into the 2d Cu. Place the Man
+%% on the Wo. side then 1st Man Arms round with the 2d Wo.
+%% and the 2d Man do the same with the 1st Wo. at the same
+%% Time then Arms with your Partners then foot it all
+%% and jump .|
+%%endtext
+%%sep 1 8 500

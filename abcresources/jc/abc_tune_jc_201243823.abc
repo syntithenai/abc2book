@@ -1,0 +1,27 @@
+X: 911
+T: Sugarcandy
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.91 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The first strain's repeat rhythm isn't quite right. (So play the pickup note if you like.)
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+g "^:S:"|\
+Te>dcg (a/g/f/e/ g)c | (a/g/f/e/ g)c A2f2 |\
+Te>dcg (a/g/f/e/ g)c | (Bd)(dg) (BG)TB2 :|
+|:\
+AcBd cedf | c(e/f/g)c A2Tf2 |\
+AcBd ceec | (B/c/d) dg BG TB2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+c2c2 c2c2 | c2c2 c2c2 |\
+c2c2 c2c2 | G2G2 G2G2 :|
+|:\
+c2c2 c2c2 | c2c2 c2c2 |\
+c2c2 c2c2 | G2G2 G2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

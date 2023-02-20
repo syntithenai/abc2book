@@ -1,0 +1,90 @@
+I:abc-charset utf-8
+X:10
+T: Mariupol Waltz
+C: \2512022 Rodney Miller
+S: RM
+R: Waltz
+M: 3/4
+L: 1/8
+K: Dm
+[|\
+"Dm"A,3 A, {C}B,A, | A,3 A, B,A, | A,2 D4- | D3 ^C DE |\
+"Bm7(b5)"F4 F2 | "Bb7"E4 D2 | "A"A4 EF | E3 ^D "A7"EF ||
+"Gm"G4 G2 | "F"F4 (3FGF | "Em7(b5)"E4- EF | "A"E3 ^D EF |\
+"Em7b5)"G4 AB | "A7"A2 G2 FA, | "Dm"D6- | D4 A2 |]
+[|\
+"D"d4 d2 | "D7/F#"c3 B AB | "Gm"(3ABA G3 ^F | G4 AB |\
+"C"c4 c2 | "Bb"B3 G AB | "F"A4 =B2 | "A7"^c3 A =Bc ||
+"Dm"d2 e2 f2 | (3efe d4 | "Gm"g4 ab | a2 g2 fe |\
+"Dm"f4 ed | "A"e4 d^c |[" " "Dm"d6- | d6 !D.C.!y |]["Last" "Dm"d2 f2 a2 | d'6 |] 
+
+% %topspace 0cm
+% %leftmargin 1.5cm
+% %staffwidth 18.59cm
+% %composerspace -.65cm
+% %musicspace 0cm
+% %gracespace 6 6 12
+% %notespacingfactor 
+% %partsfont Times 12 box
+% %gchordfont sans-serifBold 15
+% %gchord up
+% %sysstaffsep 50pt
+% %staffsep 50pt
+% %bstemdown 0
+% %alignbars 4
+% %textspace -.27cm
+% %rbmin 5
+% %rbmax 5
+% %writefields TCPRS
+
+X:11
+T: Mariupol Waltz
+C: 2022 Rodney Miller
+S: RM
+R: Waltz
+M: 3/4
+L: 1/8
+K: Dm
+P: A
+yy\
+"Dm"A,3 A, {C}B,A, | A,3 A, B,A, | A,2 D4- | D3 ^C DE |\
+"Bm7(b5)"F4 F2 | "Bb7"E4 D2 | "A"A4 EF | E3 ^D "A7"EF ||
+"Gm"G4 G2 | "F"F4 (3FGF | "Em7(b5)"E4- EF | "A"E3 ^D EF |\
+"Em7b5)"G4 AB | "A7"A2 G2 FA, | "Dm"D6- | D4 A2 |]
+P: B
+[|\
+"D"d4 d2 | "D7/F#"c3 B AB | "Gm"(3ABA G3 ^F | G4 AB |\
+"C"c4 c2 | "Bb"B3 G AB | "F"A4 =B2 | "A7"^c3 A =Bc ||
+"Dm"d2 e2 f2 | (3efe d4 | "Gm"g4 ab | a2 g2 fe |\
+"Dm"f4 ed | "A"e4 d^c |[" " "Dm"d6- | d6 |]["Last" "Dm"d2 f2 a2 | d'6 |]
+
+% %stretchlast .5
+% %leftmargin 7.7cm
+% %vskip -1.8cm
+% %text Last Time:
+% %leftmargin 1.5cm
+% %text Key of Dm
+% %vskip .1cm
+% %textoption 1
+% %begintext 
+% %Just composed in 2022 by Sonoma CA based Antrim NH fiddler, composer, and violin maker Rodney Miller, 
+% %who says: "Glory to Ukraine! After hearing of the tragic takeover of Mariupol City by Russian aggression, I 
+% %was overwhelmed by feelings of empathy, compassion and indignation by what happened.. AND continues to 
+% %happen. I wrote 'Mariupol Waltz' in response to my feelings. The McMinn family in the Napa region of 
+% %California heard of this from a friend of mine and asked if they could use this tune as a soundtrack to the 
+% %video they were making in support of Ukraine and their son's family who have been living in Ukraine. My 
+% %well wishes go out to Dan, Lesya, Oliver, Lucas, Anne and Chuck McMinn, and Pat Friday."
+% %endtext
+% %begintext 
+% %"A number of you asked for the music to my composition, 'Mariupol Waltz.' Here it is and please feel free to 
+% %share and play it. Glory to Ukraine and Democracy everywhere!!"
+% %endtext
+% %textoption 0
+% %begintext 
+% %https://www.facebook.com/millerrodneyc
+% %endtext
+% %textoption 5
+% %begintext 
+% % 2022-09-15
+% %endtext
+

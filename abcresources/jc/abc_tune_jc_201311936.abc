@@ -1,0 +1,17 @@
+X:485
+T:Mission to Please
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=110
+%%MIDI chordprog 46   Orchestral Harp
+%%MIDI bassprog 46    Orchestral Harp
+%%MIDI gchord bc
+%%MIDI program 72     Piccolo
+K:Bb
+P:A
+|: "Bb"fg ab | "Eb"gf ed | "Cm"ef ge | "F7"g2 f2 | "Eb"gf ed | "Cm"ed "C7"cB | "F"AB "C7"cd | "F"cA "F7"GF |
+"Bb"fg ab | "Eb"gf ed | "Cm"efge | "F7"g2f2 | "Eb"gf ed | "Cm"ed cB | "F7"dc BA | "Bb"B4 :|
+P:B
+|: "F"cd ed | "/"ec BA | "Bb"Bc de | "G7"fd c=B | "Cm"cd ef | "Eb"gf ed | "Cm"ed "C"cB | "F"BA "F7"GF |
+"Bb"fg ab | "Eb"gf ed | "Cm"efge | "F7"g2f2 | "Eb"gf ed | "Cm"ed cB | "F7"dc BA | "Bb"B4 :|

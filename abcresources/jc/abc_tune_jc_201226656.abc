@@ -1,0 +1,20 @@
+X: 10391
+T: St Patrick's day
+%R: jig
+B: "Edinburgh Repository of Music" v.1 p.39 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: This tune is usually played AABA, and the B part is only 6 bars.
+M: 6/8
+L: 1/8
+K: G
+D !segno!|\
+G>AG GAB | d>ed dBG |\
+B>AB GED | EFE E2D |\
+G>AG GAB | d>ed dBG |\
+B>AB GED | E3 {F}G2 :|
+|: d |\
+def g2e | f2d e2B |\
+def g2e | fed e3 |\
+def gfe | fed efg !segno! |]

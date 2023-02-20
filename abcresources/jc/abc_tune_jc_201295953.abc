@@ -1,0 +1,18 @@
+X: 400
+T: Katty Nowlan - 2nd Setting
+R: air
+%S: s:2 b:16(8+8)
+B: O'Neill's 1850 #400
+Q: "Tenderly."
+N: All ornaments (~) are turns.
+O: F.O'Neill
+Z: Chris Falt, cfalt@trytel.com
+M: 3/4
+L: 1/8
+K: Dm
+%%slurgraces 1
+%%graceslurs 1
+ (f>e) | (d2 A2).G2 | {G}F>E (DEFG) | A2(fed^c) | {c}d4 |\
+| (fe) | (d2 A2) G2 | {G}F>E (.D.E.F.G) | A2 (fde^c) | {e}d4 |]
+|| d>e |(~f>g)a2 gf | (~e>f)g2 ag | f>e(~d2 e^c) | A4 |\
+| (fe) | (d2 A2) G2 | {G}F>E (.D.E.F.G) | A2 (fde^c) | {e}d4 |]

@@ -1,0 +1,29 @@
+%%scale 1.3
+%%barsperstaff 4
+X: 1
+T:Happy Trails
+C:Dale Evans
+M:4/4
+L:1/4
+K:A
+%%staves{RH1}
+V:RH1 clef=treble
+|"A6""^Intro"A,EFE A,EFE|A,EFE A,EFE
+|"A6""^Tune"z e d e|"F#7"f/2 e c/2-c2
+w:Some trails are hap-py ones,_
+|"Bm"B2 d B|F3 G3/4A/4|"E7"B ^A B c|d B/2G/2-G G3/4F/4
+w:oth-ers are blue. It's the way you ride the trail that counts;_ here's a
+|E d c B|"A"A3 E3/4E/4|:"A"e3 e|c2-c3/2 E/2
+w:hap-py one for you. Hap-py trails to you_ un-
+|F3/2 E/2 "A#dim7"^^F3/2  E/2|"E7"G3 E/2E/2
+w:til we meet a-gain. Hap-py
+|"E7sus"e3 e|"E7"B3 E|B3/2 E/2 "E7#5"^B3/2 E/2|"A(+9)"c2-"A"c3/2 e/2
+w:trails to you, keep smil-in' un-til then._ Who
+|"A7"e/2c/2c/2B/2 B/2A/2G/2A/2|"Dmaj7"e2 "D6"d3/2 c/2
+w:cares a-bout the clouds when we're to-geth-er? Just
+|"F#7"c/2^A/2A/2G/2 G/2F/2^E/2F/2|"B9"c2 "E7"B E/2E/2
+w:sing a song and bring the sun-ny weath-er. Hap-py
+|"A"e3 "Em6"e|"F#7"c3 d/2e/2|"Bm"f2 "E7"G2
+w:trails to you till we meet a
+|1 "A"A2 "E7"z E/2E/2:|2 "A"A- "D"A- "A6"A2||
+w:gain. Hap-py gain.__

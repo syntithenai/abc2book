@@ -1,0 +1,21 @@
+
+X: 1
+T: Karper\"o polka
+C: Ebbe Jularbo
+O: efter Korsholms Gille, Vasa, Finland
+Z: 2004 John Chambers <jc@trillian.mit.edu>
+P: (A2B2A2C2)A2
+M: 2/4
+L: 1/16
+K: Dm
+"A"\
+|: "Dm"{DFA}d2d2 "D7"A3c | "Gm"B2B2 G3^G | "A7"A^GAB A=GFE |1,3 "Dm"D^CDE FG^GA :|2,4 "Dm"D2A2 "fine"D4 :|
+"B"\
+|: "Gm"G2GA BdcB | "Dm"A2AG F4 | "A7"E2EF GBAG | "Dm"F2FE D4 \
+|  "Gm"G2GA BdcB | "Dm"A2AG FAGF | "A7"G2GF EGFE | "Dm"D2A2 "d.C."D4 :|
+K:G
+"C"\
+|: "G"D2DE FGA^A | "G"B8 | "G"B4 e3d | "D7"d2_d2 c4 \
+| "D7"D2DE FGAB | "D7"c8 | "D7"c4 f3e | "G"e2_e2 "(D7)"d4 |
+|  "G"D2DE FGA^A | "G"B8 | "E7"B4 e3d | "Am"d2_d2 c4 \
+| "Am"c2cB A2E2 | "G"B2BA G2D2 | "D7"A2AG FDEF | "G"G2D2 G4 :|

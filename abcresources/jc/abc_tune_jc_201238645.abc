@@ -1,0 +1,28 @@
+X: 31073
+T: COTILLION No. 15. WARREN SETT tune 6
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.107 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Repeated bar 5 with "Bis" above" duplicated for simplicity.
+N: Initial rest added to strain 2, to fix the rhythm.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+G2gd fdBG | G2gd edBG | DGBG AGBG | DGBG cBBG |\
+G2gd edBG | G2gd edBG | gfgd ecAF | G2G2G2 H|]
+z2 |\
+B3cd2d2 | cBcd e2e2 | A3B cBcA | Ggfa g2ge |\
+dBdg eceg | fdfa gfge | dBdg ecAF | G2G2"^D.C."G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across partners and back,
+%% all balance partners,
+%% grand chain,
+%% promenade 8.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

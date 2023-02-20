@@ -1,0 +1,391 @@
+X:1
+T:The Black Nag
+M:6/8
+L:1/8
+Z:abc2nwc
+K:C
+E|:A3/2B/2A B3/2A/2B|c3/2B/2c Bcd|e3/2d/2c B3/2A/2B|[1A3A2E:|[2A3A2A
+|:BGE BGE|BGE BGE|ecA ecA|ecA ecA|
+BGE BGE|BGE B2c/2d/2|e3/2d/2c B3/2A/2B|[1A3A2A:|[2A3A2E|]
+
+
+X:2
+T:Blackberry Quadrille
+M:6/8
+L:1/8
+Z:abc2nwc
+K:D
+|:fg|a2a ba^g|a2f d2f|e2c A2g|fdB Afg|
+a2a ba^g|a2f d2f|e2c ABc|d3-d:|
+|:cB|A2B G2A|F2A def|g2e cBc|dfe dcB|
+A2B G2A|F2A def|g2e cBc|d3-d:|
+
+
+X:3
+T:Fairy Dance
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+|:B2BG B2BG|B2BG FG Ac|B2BG cB AG|FD EF GA Bc:|
+|:d2dB e2ed|cB cA d2dc|B2BG cB AG|
+[1FD EF GA Bc:|[2FD EF G2G2|]
+
+
+X:4
+T:Girl with the Red/Blue Dress on
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+Bc|d2Bd c2Ac|B2G2GF GB|A2F2FE F2|A2GF G2Bc|
+d2Bd c2Ac|B2G2GF GB|A2F2FE FG|A2GF G2:|
+|:z|G2Bd g3f|f2e2e3d|F2Ad f3e|e2d2dc BA|
+G2Bd g3f|f2e2e3g|fg a2e2f2|g4g2:|
+
+
+X:5
+T:Harry Cox's Schottische
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+|:d2 (3dcB A2G2|E3/2A/2A3/2G/2 F3/2E/2 D2|
+d2 (3dcB A2G2|E3/2A/2G3/2F/2 G2G2:|
+|:B3/2A/2  (3GFE D3/2B,/2 D2|G3/2F/2 G/2B3/2 A2A2|
+B3/2A/2  (3GFE D3/2B,/2 D2|E3/2A/2G3/2F/2 G2G2:|
+
+
+X:6
+T:I Wish They'd Do It Now
+N:as played by Will Duke at The Ram
+N:refrain :
+N:Oooh, I wish they'd do it now
+N:Oooh, I wish they'd do it now
+N:I've got itches in me britches
+N:and ... I wish they'd do it now
+Q:1/4=200
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+|:GA|B2d2d2B2|A2G2G2GA|B2d2d2B2|d6d2|e2f2g2f2|
+[1e2d2B2d2|e2A2A2B2|A6:|[2e2d2B2G2|A2G2G2A2|G4
+|:g3f|e2d2d2B2|d4g3f|e2d2d2B2|A6GA|
+B2d2d3d|e2d2B2G2|A2G2G2A2|G4:|
+
+
+X:7
+T:Indian Queen
+C:Wm Mittell MS no 48
+M:4/4
+L:1/8
+Z:abc2nwc
+K:D
+DD DE FD FA|BA B/2c/2d A3f|ed df ed dA|Bc dF F2E2|
+DD DE FD FA|BA B/2c/2d A3f|ed df ed dA|B2c2d2z:|
+|:a/2f/2|dd cd ef/2g/2 fa/2f/2|dd cd ef/2g/2 f2|
+b2a/2g/2f/2e/2 a2g/2f/2e/2d/2|c/2d/2e/2f/2 g/2f/2e/2d/2 e/2d/2c/2B/2 A/2G/2F/2E/2|
+DD DE FD FA|BA B/2c/2d A3f|ed df ed dA|B2c2d4:|
+
+
+X:8
+T:Jamie Allen
+N:as played by Mary Motley
+Q:1/4=200
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+|:GA|B2G2G2A2|B4G2AB|c2A2A2B2|c3c B2A2|
+G2g2g2e2|d4B3c|d2d2cB A2|G6:|
+|:BA|G2g2g3f|e2d2c2B2|A2a2a3g|f2d2e2f2|
+g3a g2e2|d4B3c|d2d2cB A2|G6:|
+
+
+X:9
+T:King of the Cannibal Islands
+N:or Vulcan's cave - Thomas Hardy manuscript
+M:6/8
+L:1/8
+Z:abc2nwc
+K:D
+|:A|f2e d2c|d2B A2F|GFG EFG|F2G A2A|
+B2G d2B|A2F d2d|cde ABc|d3d2:|
+|:e|f2f f2e|f2f f2e|f2f g2f|e2e e2c|
+d2d d2c|d2d d2c|d2B e2d|c2B ABc|
+d2d cBA|B2c d2A|ded cBA|B2c d2f|
+e2e e2e|e2e efg|a2a A B c|d3d2:|
+
+
+X:10
+T:Laura
+N:tune was known to Thomas Hardy
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+|:D2|GFGA G2B2|d^cde d2g2|edcB cBAG|FGAB A2D2|
+GFGA G2B2|d^cde d2g2|edcB AGAB|G2B2G2:|
+|:D2|FEFG A2F2|GFGA B2d2|c2e2B2d2|AGAB A2D2|
+FEFG A2F2|GFGA B2d2|c2e2d2F2|G4G2:|
+
+
+X:11
+T:Marmalade Polka
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+|:D2|G2G2GABc|dd d2d2ed|cc c2c2dc|BB B2B3A|
+G2G2GABc|dd d2d2ed|c2AA A2F2|A2G2G2:|
+|:d2|e2d2B2G2|G2F2F4|e2d2c2A2|A2G2G2Bd|
+g2g2g2ag|f2e2e3e|d2Bd cAFG|A2G2G2:|
+
+
+X:12
+T:Moll of the Wood
+M:6/8
+L:1/8
+Z:abc2nwc
+K:G
+|:BAB G2F|E2F G2A|BAB dcB|[1A2F D2D:|[2A2F D2c
+|:BGB d2c|BGB d2c|BGB dcB|[1A2F D2c:|[2A2F D3|]
+
+
+X:13
+T:Monk's March
+N:from Andy Warburton, by ear
+M:2/4
+L:1/16
+Z:abc2nwc
+K:G
+|:D2E2F2|G4G2B2|A4A2c2|B2d2g2e2|d4d2c2|
+B2d2B2G2|A2c2A2F2|G3A B2A2|G2:|
+|:z2B2c2|d4d2c2|B4B4|c3d c2B2|A4A4|
+d3e d2c2|B4B4|c2d2e2c2|A2c2B2A2|
+G4G2B2|A4A2c2|B2d2g2e2|d4d2c2|
+B2d2B2G2|A2c2A2F2|G3A B2A2|G2:|
+
+
+X:14
+T:My Love She's But A Lassie Yet
+Q:1/4=200
+M:4/4
+L:1/8
+Z:abc2nwc
+K:D
+|:dc|d2D2F2A2|d2D2D2dc|d2D2F2A2|e2E2E2dc|
+d2D2F2A2|B2g2f2e2|dcBA B2c2|d2D2D2:|
+|:fg|a2f2g2e2|f2d2d2fg|a2f2g2a2|b2e2e2fg|
+a2f2g2e2|f2d2e2c2|dcBA B2c2|d2D2D2:|
+
+
+X:15
+T:(The saucy little bird on) Nelly's Hat
+C:Trad/Scan Tester
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+|: (3DEF|G2G2G3/2B/2 A3/2G/2| (3FGA d2d7/2c/2|B3/2d/2 B3/2G/2 A3/2c/2 A3/2F/2|
+G3/2A/2  (3BAG D2 (3DEF|
+G2G2G3/2B/2 A3/2G/2| (3FGA d2d7/2c/2|
+B3/2d/2 B3/2G/2 A3/2c/2 A3/2F/2|G2G2G2:|
+|:B3/2c/2|.d2.d2d2e2|d2c3/2B/2 c2A3/2B/2|
+c3/2B/2 A3/2B/2 c2d2|c2B3/2A/2 B2 (3DEF|
+G2G2G3/2B/2 A3/2G/2| (3FGA d2d7/2c/2|
+B3/2d/2 B3/2G/2 A3/2c/2 A3/2F/2|G2G2G2:|
+
+
+X:16
+T:The New Moon
+C:Welch MS
+M:6/8
+L:1/8
+Z:abc2nwc
+K:G
+D|G2G G2D|E2D DEF|G2G AGA|B2G G2B|
+c2c B2B|ABG FED|EDC B,CD|E2D D2:|
+|:G|e2e dBG|e2e d2B||e2e dBG|F3GAG|
+e2e dBG|cAG FED|EDC B,CD|E2D D2:|
+
+
+X:17
+T:Off She Goes
+C:trad
+Q:1/4=160
+M:6/8
+L:1/8
+Z:abc2nwc
+K:D
+|:A|F2A G2B|ABc d2A|F2A G2B|AFD E2A|
+F2A G2B|ABc d2e|fed g2f|edc d2:|
+|:g|faf def|gbg efg|faf def|ecA A2g|
+faf def|gbg efg|fed g2f|edc d2:|
+
+
+X:18
+T:Off To California
+C:
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+|: (3DEF|G3/2F/2G3/2B/2 A3/2G/2E3/2D/2|
+G3/2B/2d3/2g/2 e2 (3def|g3/2f/2g3/2d/2 e3/2d/2B3/2G/2|
+A3/2B/2A3/2G/2 E2 (3DEF|
+G3/2F/2G3/2B/2 A3/2G/2E3/2D/2|G3/2B/2d3/2g/2 e2 (3def|
+g3/2f/2g3/2d/2 e3/2d/2B3/2G/2|A3/2B/2A3/2F/2 G2:|
+|: (3def|g3/2f/2e3/2g/2 f3/2e/2d3/2f/2|
+e3/2d/2e3/2f/2 e3/2d/2B3/2d/2|g3/2f/2g3/2d/2 e3/2d/2B3/2G/2|
+A3/2B/2A3/2G/2 E2 (3DEF|
+(3GAG B3/2G/2 A3/2G/2E3/2D/2|G3/2B/2d3/2g/2 e2 (3def|
+g3/2f/2g3/2d/2 e3/2d/2B3/2G/2|A3/2A/2E3/2F/2 G2:|
+
+
+X:19
+T:Parson's Farewell
+M:2/2
+L:1/8
+Z:abc2nwc
+K:G
+|:z2|g2e2e2fg|a2d2d3d|ef g2f2e2|d2B2B4|
+g2e2e2fg|a2d2d3d|ef g2f2e2|d2B2B2:|
+|:b2|g4g2b2|g4g2b2|ga b2ga b2|a2f2f4|
+fg a2fg a2|g2e2efga|b2ag fe f2|e6:|
+
+
+X:20
+T:The Portabello Hornpipe
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+DE/2F/2|G2GA G2B,E|DCB,A, G,A,B,G,|A,2AB A2GA|BGAG EFGE|
+G2GA G2B,E|DCB,A, G,2Bc|dBGB cAFA|G2GA G2:|
+|:Bc|d2de d2ef|gfed e2ef|edcB cBAG|FGAF D2CB,|
+C2EC B,2DB,|A,2DB, G,2Bc|dBGB cAFA|G2GA G2:|
+
+
+X:21
+T:Princess Royal
+N:as played by Mary Motley
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+|:dc|B2A2G2dc|B2A2G2d2|e3d cd e2|d3c B2dd|
+c2B2A2G2|FGAF D2dc|BA G2A2F2|G4G2:|
+|:d2|e3d e3d|e2f2g3g|g2f2e2d2|BA G2A4|
+G2G2A4|BA G2g3g|g2d2e4|d2B2c3c|
+c2B2A2G2|FGAF D2dc|BA G2A2F2|G4G2:|
+
+
+X:22
+T:Professor Blackie
+C:J. Scott Skinner
+M:4/4
+L:1/8
+Z:abc2nwc
+K:D
+C2|:D4F3D|FE DC D2FA|d2d2c2d2|B2d2A2A2|
+B3A G2B2|A2d2F2A2|G3F E2D2|C2E2A2A2|
+D4F3D|FE DC D2FA|d2d2c2d2|B2d2A2A2|
+B3A G2B2|A2d2cB AG|F2D2F3E|[1D6C2:|[2D6g2
+|:f3e d2f2|e2a2c2e2|d3c B2d2|c2e2A2=c2|
+B2d2G2B2|A2d2F2A2|G3F E2D2|C2E2A2g2|
+f3e d2f2|e2a2c2e2|d3c B2d2|c2e2A2=c2|
+B2d2G2B2|A2d2cB AG|F2D2F3E|[1D6g2:|[2D6z2|]
+
+
+X:23
+T:Redesdale Hornpipe
+C:James Hill
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+(3def|g3/2d/2 B3/2g/2 G3/2B/2 de/2f/2|
+g3/2d/2 B3/2g/2 G2A3/2B/2|c3/2A/2 F3/2A/2 D3/2F/2 A3/2c/2|
+e3/2d/2 ^c/2d3/2 B2de/2f/2|
+g3/2d/2 B3/2g/2 G3/2B/2 de/2f/2|g3/2d/2 B3/2g/2 G2A3/2B/2|
+c3/2A/2 F3/2A/2 D3/2F/2 A3/2B/2|A2G2G2:|
+|:G3/2A/2|B3/2G/2 F3/2G/2 D3/2G/2 F3/2G/2|
+B3/2G/2 F3/2G/2 D2A3/2B/2|c3/2A/2 F3/2A/2 D3/2F/2 A3/2c/2|
+e3/2d/2 ^c/2d3/2 B2G3/2A/2|
+B3/2G/2 F3/2G/2 D3/2G/2 F3/2G/2|B3/2G/2 F3/2G/2 D2A3/2B/2|
+c3/2A/2 F3/2A/2 D3/2F/2 A3/2B/2|A2G2G2:|
+
+
+X:24
+T:The Rose tree
+M:4/4
+L:1/8
+Z:abc2nwc
+K:D
+|:fe|d2B2A2F2|ABAF A2F2|d2d2fede|f2e2e2fe|
+d2B2A2F2|ABAF A2A2|d2cd e2de|f2d2d2:|
+|:de|f2e2f2g2|a2ba g2f2|e2b2b2a2|b2e2e2fe|
+d2B2A2F2|ABAF A2A2|d2cd e2de|f2d2d2:|
+
+
+X:25
+T:Scan Tester's Schottische No. 2
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+(3DEF|G2g2G2g2|e3/2g/2 f3/2e/2 d7/2B/2|c3/2e/2 d3/2c/2 B3/2A/2 G3/2G/2|
+A3/2B/2 A3/2G/2 F3/2E/2  (3cAF|
+G2g2G2g2|e3/2g/2 f3/2e/2 d7/2B/2|c3/2e/2 d3/2c/2 B3/2A/2  (3GAB|A2F2G2:|
+|:d3/2c/2| (3BdB G2A2F2|G3/2A/2 B3/2G/2 D2G3/2F/2|
+E2A2A3/2B/2 A3/2G/2|F3/2G/2  (3AFD d2d3/2c/2|
+(3BdB G2A2F2|G3/2A/2 B3/2G/2 D2G3/2F/2|
+E3/2c/2 B3/2A/2 E3/2F/2 G3/2A/2|G2g2g2:|
+
+
+X:26
+T:Tip Top Polka
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+|:d2d2de dc|B2B2B2GA|B2B2B2d2|AG AB A2A2|
+c2c2cd cB|A2A2A2G2|FG AB cd ef|g2g2g4:|
+|:g2e2ed ef|g2d2d4|B2 (3BcB A2G2|e2d2d2ef|
+g2e2ed ef|g2d2d4|cB AB cd ef|g2g2g4:|
+
+
+X:27
+T:Trumpet Hornpipe
+N:or "Captain Pugwash"
+L:1/8
+Z:abc2nwc
+K:C
+"punto ma non troppo"
+K:G
+[M:2/4][L:1/16]|:D4| (3G2G2G2 G4| (3G2G2G2 G3d|B3G B3d|g3d B3G|
+(3D2D2D2 D4| (3D2D2D2 D3A|F3D F3A|c3A F3A|
+(3G2G2G2 G4| (3G2G2G2 G3d|B3G B3d|(g4g3)g|
+f3a g3f|e3g f3e|d4d4|d4:|
+|:B3c| (3d2d2d2 d4| (3d2d2d2 d4|e3f g3f|e3d c3B|
+c3d e3d|c3B A3G|F3G A3F|D4D4|
+(3G2G2G2 G4| (3=F2F2F2 F4| (3E2E2E2 E4| (3_E2E2E2 E4|
+D3g f3e|d3c B3A|G4B4|G4:|
+
+
+X:28
+T:Waterloo
+C:Welch MS
+M:6/8
+L:1/8
+Z:abc2nwc
+K:G
+GBA G2e|d2c B2A|G2G B2B|dcB A2B|
+GBA G2e|d2c B2d|c2B AGF|G3G3:|
+|:GBA G2d|d2c d2G|GBA G2e|e2d e2z|
+GBA G2F|E2E e2e|dcB A2B|G3G3:|
+
+
+

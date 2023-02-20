@@ -1,0 +1,29 @@
+X: 53
+T: Cork
+%R: slip-jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.27
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/4
+L: 1/4
+K: G	% Glyd in the book
+N: The book has 2 sharps, but the music sounds more "normal" with C naturals.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+G2c BGB AFA | G2G B/c/dB g2f |\
+g>fe dcB AFD | G2G B/c/dB G2 |]
+d |\
+gdg gdg gdf | gdg gdg a2f |\
+g>fe dcB AFD | G2G B/c/dB G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cross over and turn hands
+%% the 2d Cu. do the same, then
+%% Right and Left, Jigg up
+%% and down and cast off hands
+%% and cross dance to the 2d
+%% Wo. and turn, the other
+%% Cu. do the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

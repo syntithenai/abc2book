@@ -1,0 +1,15 @@
+X:1
+T:Scale........................................... ...Type of track
+M:C............................................... ....Time signature
+L:1/16................................................'standard' notes=semiquaver
+Q:250 ................................................250 semiquavers per minute
+K:Cmaj ...............................................Key signature
+|C,E,G,|CEG|cGE|CEG|ceg|c'2z|..............The notes; c'2 sustains for two
+.................................................. .......semiquaver beats, z means rest
+X:G7............................................Plays a G7 chord
+T:Scale
+M:C
+L:1/16
+Q:200
+K:Gmaj...........................................Automatically add the accidentals
+|G,B,D,=F|GBd=F|g2z2|....................."=F" removes the sharp from "F"

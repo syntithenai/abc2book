@@ -1,0 +1,17 @@
+X: 3371
+T: Glen Lyons Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.3. p.37 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+F |\
+D/D/D d>F A3=c | B>G A>F (G/F/E/D/) =CE | D/D/D d>F A3g | fdef ~d3 :| e | fda>f e=cce fdge ~d3g |
+fdgf e=cce | afge ~d3e || fdgf e=cce | fdge fdge | fdgf e=cce | (f/g/a) e>f ~d3 |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | d2d2 d2f2 | g2f2 e2=c2 | d2d2 f2g2 | a2A2 d2D :| z | d'2d'2 =c'2c'2 | d'2d'2 d'2d'2 |
+d'2d'2 =c'2c'2 | d'2a2 d2d2 || d'2d'2 =c'2c'2 | d'2c'2 d'2c'2 | d'2d'2 c'2c'2 | d'2a2 [d3D3] |]

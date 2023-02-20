@@ -1,0 +1,81 @@
+%%center Hornpipes - 1
+
+
+X: 1
+T: Harvest Home Hornpipe
+P: piffero primo a0580
+O: Fifers Delight
+%R: hornpipe
+F: http://ancients.sudburymuster.org/mus/col/pdf/hornpipes1F.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+AF |\
+DAFA DAFA | defe dcBA | eAfA gAfA | edcB AGFE |\
+DAFA DAFA |
+            defe dcBA | eAfA gAeA | dfec d2 :: cd |\
+eAAA fAAA | eAAA fAAA |
+                        eAfA gAfA | edcB AGFE |\
+DAFA DAFA | defe dcBA | eAfA gAeA | dfec d2 :|
+
+
+X: 2
+T: Zig Zag Clog Dance
+P: piffero primo a0577
+O: cfd bk 1
+%R: hornpipe
+F: http://ancients.sudburymuster.org/mus/col/pdf/hornpipes1F.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+AF |\
+DFAF EGBG | FAde fdAF | G2gf edcd | edcB AGFE |\
+DFAF EGBG |
+            FAde fdAF | G2ed cABc | d2f2 d2 :: cd |\
+eAAA fAAA | gAfA eAAA |
+                        eAfA gAfA | edcB AGFE |\
+DFAF EGBG | FAde fdAF | G2ed cABc | d2f2 d2 :|
+
+
+X: 3
+T: Cincinnati Hornpipe
+P: piffero primo a0578
+O: cfd bk 2
+%R: hornpipe
+F: http://ancients.sudburymuster.org/mus/col/pdf/hornpipes1F.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|:\
+DAFA DAFA | dAfA eAfA | gAfA edcd | edcB AGFE |\
+DAFA DAFA |
+            dAfA eAfA | gAfA edcB | cdeg fdd2 ::\
+eAAA fAAA | gAAA fAAA |
+                        eAfA gAfA | edcB AGFE |\
+Dddd ceee | dfff eggg | fgaf bgec | d2d2 d2z2 :|
+
+
+X: 4
+T: Montezuma
+P: piffero primo a0579
+O: Bruce & Emmet
+%R: hornpipe, reel
+F: http://ancients.sudburymuster.org/mus/sng/pdf/montezumaC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+fg |\
+afge fdec | dfec A2AG | FAdf gfed | cdec A2fg |\
+afge fdec |
+dfec A2AG | FAdf gedc | d2d2 d2 :: cd |\
+eAAA eAeA | eAfA eAfa |
+gfed dcBA | BGEG TB2AG |\
+FAdc BBed | cABc defg | afbg fedc | d2d2 d2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

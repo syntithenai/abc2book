@@ -1,0 +1,24 @@
+X: 1
+T: Ann Maguire's Silver Wedding
+C: John McCusker
+M: 3/4
+L: 1/8
+R: waltz
+F: http://www.thesession.org/tunes/display/2544
+N: Slightly reformatted by John Chambers
+K: D
+(3ABc \
+| "D"d3 d BA | "G"{A}B4 BA | "D"A d3 D2 | "D/f#"A4 G2 \
+| "D"F3 E D2 | "Bm"D A3 AB | "G"G3 A (3FED | "A"E4 (3ABc |
+y6 \
+| "D"d3 f ed | "G"{A}B4 BA | "D/f#"A d3 D2 | "G"A4 G2 \
+| "Bm"F3 E D2 | "A"E A3 AB | "G"D3 F (3EDC | "D"D4 :|
+|: {E}FA \
+| "G"G3 A/G/ FG | "A" A3 A BA | "D"A f3 e2 | "Bm"d3 d BA \
+| "G" B3 c d2 | "D"A D3 FA | "G"A3 G F2 | "A"E4 ||
+[1 EF \
+| "G"G3 F GB | "A"A3 A BA | "D"A ~f3 e2 | "Bm"d3 d cB \
+| "D"A d3 FA | "A7" G3 F EA | "G"D4 (3FED | "D"D4 :|
+[2 ed \
+| "D"d f2 ed2 | "G"B4 BA | "D/f#"A d3 D2 | "G"A4 G2 \
+| "Bm" F3 ED2 | "A"E A3AB | "G"D3F ~ED | "D"D6 |]

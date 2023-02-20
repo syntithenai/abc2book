@@ -1,0 +1,22 @@
+X:223
+T:Elegy
+C:Colin Hume, 1998
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=90
+%%MIDI ratio 3 1
+%%MIDI program 60     French Horn
+%%MIDI chordprog 73   Flute
+%%MIDI bassprog 43    Contrabass
+%%MIDI gchord bb
+K:G
+P:A
+|: "G"G3G | "G/F#"GA AG | "Em"G3B, | "G/D"D4 | "C"c3c | "E7/B"cB e>c | "Am"B4 | "Am/G"A4 |
+"D/F#"d2- "D/E"dd | "D7"df ba | "Em"g3G | "Cm/Eb"A2 Bc | "G/D"d3B | "Em"BA GB | "Am"c3E | "D"A3z :|
+P:B
+"F"A3A | "/"Ac c>d | "C/E"c2G2- | "C/D"G2 "C"de | "Bb"=f2 d2 | "Gm"d=f f>g | "F"a2 =f2- | "/"=f2 ab |
+"E7"c'3b | "/"a^g f>g | "Am"a4 | "/"e4 | "B7"a3=g | "/"fe ^d>f | "Em"e4- | "/"e2 ef |
+P:C
+"A7"g3f | "/"e^cde | "F#7/A#"f3e | "Bm"d2 B^c | "Bm/G#"d3 d | "C#7"^cB A>^G | "F#m"B4 | "F#m/E"A4 |
+"D"F3F | "D/C#"FA "D/B"A>B | "A"A2E2- | "/"E2A2 | "G"B3B | "G/F#"Bd "G/E"d>e | "D"d4- | "D7"d3z |]

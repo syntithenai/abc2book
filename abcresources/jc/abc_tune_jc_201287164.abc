@@ -1,0 +1,31 @@
+X: 1
+T: Holyrood Day
+N: The title may be hyphenated, or the dot may be just a smudge.
+P: Longways for as many as will
+%R:
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.139 "N 4"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The first and last notes of both strains have "wrong" lengths, fixed to both have quarter-note pickups to match the tune's rhythms.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+e4 f3c | d3_e c3B/A/ | B3G c3A | G4 F3 |] c | f3g e3d | g3g g3a |\
+b3g c'3b | a4 b3a | g3f/e/ a3g | f3e d3c | f3g g3f | f7 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man and 1. wo. cast off behind the 2. cu. then 1. man and 1. wo. lead through the 3. cu. and
+%% up round again, then 1. man give his right-hand to his Partner's right, and 2. man give his right-hand
+%% to his Partner's right, and so change till they come to their places again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. man and 1. so. cross over the 2. cu. and back to back, then 1. man and 1. wo. cast off behind
+%% the 3. and back to back, then 1. man turn the 3. wo. and 1. wo. turn the 3. man, then the 1. cu. turn
+%% each other, then the 1. man turn the 2. wo. and the 1. wo. turn the 2. man then the 1. cu. turn each
+%% other.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

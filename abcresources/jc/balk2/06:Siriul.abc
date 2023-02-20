@@ -1,0 +1,50 @@
+X: 306
+T: Siriul
+O: Romania
+M: 2/4
+L: 1/16
+Q:1/4=132
+K:G % 1 sharps
+V:1
+%%MIDI program 74
+G2 E2 F2 D2| E8-        | E4 F4      | G2 E2 F2 D2|
+E8-        | E4 F4      | G2 E2 F2 D2| E8-        |
+E4 F4      | G2 A2 B2 A2| G2 E2 F2 D2| E8-        |
+E8-        | E8         | x8         | x8         |
+% B
+e8         | d8         | e8         | f4 e4      |
+d8         | e8         | f4 e4      | d8         |
+c8         | B4 A4      | G8         | A8         |
+B4 G4      | A8         | G4 F4      | E8-        |
+E8-        | E8         | e8         | d8         |
+e8         | f4 e4      | d8         | e8         |
+f4 e4      | d8         | c8         | B4 A4      |
+G8         | A8         | B4 G4      | A8         |
+G4 F4      | E8-        | E8-        | E8         |
+E8         | E8         | D8         | E4 F4      |
+G8         | A8         | B4 d4      | c8         |
+B8         | B4 A4      | G8-        | G8         |
+A8         | B4 G4      | A8         | G4 F4      |
+E8-        |E8          |
+V:2
+%%MIDI program 45
+% B
+E,4 B,4    | E,4 B,4    | E,4 B,4    | E,4 B,4    |
+E,4 B,4    | E,4 B,4    | E,4 B,4    | E,4 B,4    |
+E,4 B,4    | E,4 B,4    | E,4 B,4    | E,4 B,4    |
+E,4 B,4    | E,4 B,4    | E,4 B,4    | E,4 B,4    |
+% B
+E,4 B,4    | D,4 A,4    | E,4 B,4    | F,4 C4     |
+D,4 A,4    | E,4 B,4    | F,4 C4     | D,4 A,4    |
+C,4 G,4    | B,4 F4     | B,4 F4     | A,4 E4     |
+G,4 D4     | A,4 E4     | G,4 D4     | E,4 B,4    |
+E,4 B,4    | E,4 B,4    | E,4 B,4    | D,4 A,4    |
+E,4 B,4    | F,4 C4     | D,4 A,4    | E,4 B,4    |
+F,4 C4     | D,4 A,4    | C,4 G,4    | B,4 F4     |
+B,4 F4     | A,4 E4     | G,4 D4     | A,4 E4     |
+G,4 D4     | E,4 B,4    | E,4 B,4    | E,4 B,4    |
+E,4 B,4    | E,4 B,4    | D,4 A,4    | E,4 B,4    |
+G,4 D4     | A,4 E4     | D,4 A,4    | C,4 G,4    |
+G,4 D4     | G,4 D4     | G,4 D4     | G,4 D4     |
+A,4 E4     | B,4 F4     | A,4 E4     | B,4 F4     |
+E,4 B,4    | E,4 B,4    |

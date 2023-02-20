@@ -1,0 +1,18 @@
+X: 32372
+T: MRS. CAPTAIN STEWART'S, OF FINCASTLE, STRATHSPEY
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.237 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: Eb
+uB,2 !segno!|\
+(.E3.F) (EF)GE (FE)DC B,2CD | (.E3.G)(B3G) (.c3.d) {cd}(.e3.B,) |\
+(.E3.F) (EF)GE (FE)DC B,2cd |[1 {cd}(e3c) (ed)c=B (.c3.d) {cd}e4 !segno!:|\
+[2 {cd}(.e3.c) (ed)c=B c4 C2 ||
+uG2 |\
+(.c3.d) {cd}(e2c2) (fe)dc {c}(=B3G) | (.c3.d)(e3f) (.g3.a)(g3e) |\
+(a3f)(g3e) (f3d) (B2gf) | (.e3.c) (ed)c=B c4 (C3G) |
+(.c3.d) {cd}(e3c) (fe)dc {c}(=B3G) | (.c3.d)(e3f) (.g3.a)(g3e) |\
+(a3b)(g3a) f2(gf edc=B) | (.c3.G) (GF)ED "_Segue Reel"{D}C4 C2 "^D.C."|]

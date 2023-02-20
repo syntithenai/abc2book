@@ -1,0 +1,38 @@
+X: 021
+T: Ettrick Banks
+%R: air
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.2 #1
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Bar 12 seems to have a natural under the bass g note; what does this mean?  Why isn't it above the g?
+Q: "slow"
+M: C
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1
+A2 |\
+{G}TF3E D2f>e | Td3c {B}A2f2 |\
+{d}c2{B}A2 f2A2 | {B}A2(TGF) G3A |
+{G}TF3E D2f>e | Td3c {B}A2e2 |\
+{e}f3e d>ef>d | Tc2{B}A>B A2 :|
+|: ~c2 |\
+f3g f2F2 | A>Bc>d {d}c2{B}A2 |\
+f>ef>g Tf2(ed) | c>de>f g2~f>g |
+{fg}a2(Tg>f) f2F2 | {FG}A2c2 a3g |\
+{g}Tf3e d>ef>d | Tc2{B}A>B A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+z2 |\
+d2z2 z2"6 5;4 #"a2 | "6"f>ed>"6"e f>g"6"a>f |\
+"6"ecFG "6"A2F2 | "6 5;4 3"c6 "6"^c2 |\
+d2z2 z2"6 5;4 #"a2 | "6"f>ed>"6"e f2"6"^c2 |
+d2"6"A2 B4 | F3A "#"A2 :|\
+|: z2 |\
+z2c2 f>g"6"a>g | f3b "6"a>gf>e |\
+d2d'2 =b2"7"g2 | a2 "6"gf "6"ec"7"d"5"e |
+f2c2 d>b"6"a>g | f>g"6"a>"6"e f2"6"^c2 |\
+d2"6"A2 B4 | F3G "#"A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

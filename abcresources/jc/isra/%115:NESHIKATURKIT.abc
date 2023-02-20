@@ -1,0 +1,24 @@
+X: 115
+T: Neshika Turkit
+C: Turkish
+O: Israel
+F: http://www.youtube.com/watch?v=t7YrlTUhP4U
+F: http://www.youtube.com/watch?v=JfzGil74iMw
+F: http://www.youtube.com/watch?v=bryVhGDfmBg
+M: 2/4
+L: 1/8
+Q: 1/4=210
+K: Am
+%%MIDI program 64
+%%MIDI drum dz 35
+%%MIDI drumon
+|:E2 E2   |D2 D2   |C2 C2      |B,2 B,2|\
+  A,2 A,2 |G,A, B,2|A,2z2      |z4     :|
+|:CCCC    |C2 D2   |B,B,B,B,   |B,2 B,2|\
+  CCCC    |C2 E2   |B,CB,C     |B,2z2  :|
+|:A,A,A,A,|C2 C2   |B,CB,C     |B,2 B,2|\
+  A,A,A,A,|C2 C2   |[1 A,B,A,B,|A,2z2  :|[2 B,2 z2|B,2 z2|
+|:A,A,A,A,|C2 C2   |B,CB,C     |B,2 B,2|\
+  A,A,A,A,|C2 C2   |[1 A,B,A,B,|A,2z2  :|[2 B,2 z2|B,2 z2|
+  A,3C    |B,2B,2  |A,2C2      |B,2z2  |\
+  A,3C    |B,2B,2  |A,2C2      |B,2z2  |

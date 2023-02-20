@@ -1,0 +1,27 @@
+X: 1
+T: French Embassader
+P: Longways for as many as will
+%R: march, reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.266
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f2 |\
+d2B2 F2A2 | B6 f2 | f2f2 gab2 | a6 g2 |\
+f2d2 e2f2 | g2e2 c2g2 | _a2gf =efg=e | f6 |]\
+f2 |\
+g3f g2a2 | b2d2 d2d2 | g3a b2ag | ^f6 g2 |
+g2d2 d2cd | e2c2 c2cd | ed cB A3G | G6 B2 |\
+A3B ABAB | c2F2 F2F2 | B3c d2cB | g6 ga |\
+b2d2 g2c2 | f2B2 A2f2 |d2(dB) F2A2 | B6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. cross over and turn below the 2. cu. .| Then cross over below the third cu. and turn :| The
+%% 1. man turns the 3. wo. and the 1. wo. the 2. man, then turn your Partner with your left-hand, then lead
+%% through the 3. cu. and cast up and turn, Figure thorow the 2. cu. and turn your Partner.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

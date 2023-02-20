@@ -1,0 +1,37 @@
+X: 141
+T: Where Helen lies
+%R: air, minuet, waltz
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.14 #1
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Q: "slow"
+M: 3/4
+L: 1/8
+K: Bb
+% Original staff breaks preserved: each strain is 15 bars.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+F2 B>dc>e | d3 fcd | f>g (f/e/d) Tc>B | {A}G3 BTF>D |\
+F2 G2 (TA3/G//A//) | B4 (FD) | E>F (E/F/G) (F/E/D) |
+TC4 B,2 |\
+F2 B>dc>e | d3 fc>d | f>g (f/e/d) Tc>B |\
+{A}G4 (F/G//A//B//c//d//e//) | f3 g (fe/d/) |(c/d/e/d/) {d}c3 B | B6 :|
+|:\
+F2 B2 B>c | B3 fTc>B | A2 A2 (A/B/c) | {A}G4 f>d |\
+f2 g2 (a3/g//a//) | b4 f>d | e>f (e/f/g) Tf(e/d/) | Tc4 B2 |
+F2 B2c2 | d3 fc>d | f>g (f/e/d) Tc>B |\
+{A}G4 (F/G//A//B//c//d//e//) | f3 g (fe/d/) |(c/d/e) {d}c3 B | B6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+b4 f2 | b2 B2 z2 | "6"d2 B2 d2 | e2 E2 z2 |\
+"6"d2 e2 "6"c2 | "6"dcBcdB | c2 A2 B2 |
+"4"f2 "3"F2 B2 | d'4 "6"a2 | b2 B2 z2 | "6"d2 B2 d2 |\
+e2 E2 z2 | "6"d2 B2 d2 | "6;5"e2 "4"f2 "3"F2 | B6 :|
+|:\
+"6"d2 g2 e2 | "6"d2 D2"6"=E2 | F4 f2 | "6 5;4 ="c'4 z2 |\
+"6"d2 e2 "6"c2 | BABc"6"dB | c2 A2 B2 | "4"f2 "3"F2 B2 |
+z2 z2 f2 | b2 B2 z2 | "6"d2 B2 d2 | e2 E2 z2 |\
+"6"d2 B2 d2 | "6;5"e2 "4"f2 "3"F2 | B6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

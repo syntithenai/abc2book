@@ -1,0 +1,17 @@
+X:1
+% %staffwidth     14.50cm
+T: J. B. Milne
+I:
+%C: S-J
+Z:
+R: square
+M: C|
+K: A
+cd | "A"efed c2A2 | E2A2 c4 | cedc B2A2 | "Bm"d6Bc | \
+    "E"dedc B2G2 | E2G2 B4 | BdcB "E7"A2B2 | "A"c6cd |
+    "A"efed c2A2 | E2A2 c4 | "A7"cedc B2A2 | "D"f6fg |\
+    "D#dim"af^d=c A2ag | "A"fecA E2gf | "Bm"(3efe ^de "E7"f2g2 | "A"a4 z2cd |]
+    "A"e2c2 f2c2 | e2c2 f2c2 | e2^de fe=dc | "Bm"d6 Bc | \
+    "E"d2B2 e2B2 | d2B2 e2B2 | d2cd "E7"edcB | "A"c6cd |
+    "A"e2c2 f2c2 | e2c2 f2c2 | (3aba ga "A7"baga | "D"f6fg | \
+    "D"abag fagf | "A"fecA E2gf | "E"(3efe ^de "E7"f2g2 | "A"a6 |]

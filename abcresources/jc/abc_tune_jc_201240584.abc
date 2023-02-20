@@ -1,0 +1,25 @@
+X: 4021
+T: the Marquis of Huntlys Snuff Mill    or the Royal Gift
+C: by Niel Gow
+%R: air, strathspey
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.2 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Very Slow with Expression"
+K: F
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+(C<F) TF>A {A}G>F D2 | (C<F) F>A Tcd/e/ fc |\
+Td>c f(A B/A/)(G/F/) D2 | C<F {F}A>F TG2F2 :|\
+(cf) f>a {a}g>fd2 | (cf) f>a Tga f>c |
+df {d}c>A (B/A/)(G/F/) D2 | C>FA>F TG2F2 ||\
+(cf) Tf>a {a}gf ~d2 | (cf) ~f>a .g.a .f.a |\
+.d.f (A>c) (B/A/)(G/F/) Df/g/ | a>Fc>A TG2F2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+F2f2 c2B2 | A2F2 f2A2 | B2AF GA B2 | A2F2 c2F2 :| a2f2 c'2b2 | a2f2 efA2 |
+B2AF GAB2 | A2F2 cCF2 || a2f2 c'2b2 | a2f2 e2f2 | [f2b2]f2 gab2 | f2A2 cCF2 |]

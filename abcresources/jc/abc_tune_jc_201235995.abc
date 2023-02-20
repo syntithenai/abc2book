@@ -1,0 +1,18 @@
+X: 2152
+T: BLACK BUT COMELY
+Q: "Reel."
+R: Reel.
+%R: reel
+B: James Kerr "Merry Melodies" v.2 p.18 #152
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The final repeat symbol should probably be just a double bar.
+M: C
+L: 1/8
+K: D
+A |\
+d2(fd) AAfd | eefd B3A |\
+defd AAfd | fedB A3 ::\
+uf |\
+adad feef | adad B3f |\
+[1 adad feef | dedB A3 :|\
+[2 adab afef | dedB A3 :|

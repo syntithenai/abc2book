@@ -1,0 +1,23 @@
+X: 2181
+T: Lord Elcho's Favourite
+%R: jig, air
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.18 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slow"
+K: Gm
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+F |\
+DGG TG2F | GBc dgf | Td2c (B/c/d)c | BFF TF2F ||\
+DGG TG2F | GBc dgf | d(bg) fdc | BGG TG2 :|
+|: f |\
+(g2b) fdB | cdf (g2b) | fdc (B/c/d).c | BFF F2F ||\
+GB~F GB~F | GBc dgf | dbg fdc | BGG TG2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | g3 g3 | g3g3 | b3 d'3 | f3 f3 || g3 g3 | g3 g2a | b3 d'2d | g3 G2 :||:
+z | e3 d2b | abd e3 | d3 B2d | f3 F3 || e2d e2d | edc B2A | B2e d2D | GBd G2 :|

@@ -1,0 +1,26 @@
+X: 14
+T: Port Patrick
+%R: jig
+B: "The Hibernian Muse" p.9 #2
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. XIV.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+g |\
+dBG GAB | c2B A2G | dBG GAG | A2B c2g |\
+dBG GAB | c2B A2G | (B/c/d)B cAd | BGG G2 :|
+|: d |\
+ece dBd | ece dBd | efg dBG | A2B c2e |\
+def gfe | dcB A2G | (B/c/d)B cAd | BGG G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g3 g3 | a2g f2e | g3 G3 | d3 d2z |\
+g2z g2z | a2g f2e | g3 f2d | gGG G2 :|
+|: g |\
+c'3 b3 | c'3 g3 | c3 g3 | d3 d2z |\
+d3 e2f | g3 f2e | d3 d3 | gGG G2 :|

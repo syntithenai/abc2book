@@ -1,0 +1,24 @@
+X:243
+T:Felicity
+C:Dave Brown, 2002
+L:1/8
+M:3/4
+R:Swing waltz
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=120
+H:For the dance by Colin Hume
+N:Play with a swing - make it a dotted rhythm.
+K:Am
+P:A
+[| "Am"e2 A3 B | "/"cB A3 e- | "Am7/G"eA B2 c2 | "/"B3 A-A2 |\
+"Fmaj7"e2 A3 B | "/"cd e2 f2 | "Am"g2 a3 e | "/"ag ec BA |
+P:B
+| "Am"e2 A3 B | "/"cB A3 e- | "Am7/G"eA B2 c2 | "/"B3 A-Ac- |\
+"Fmaj7"cA F3c- | "/"cA E2 D2 | "Em"E3 B cd | "/"BA Bc de |
+P:C
+"Dm"fe dA fe | "/"fe dA fe | "F"f3 e dc | "G7"A3 B-B2 |\
+"C"cB AE cB | "Am"cB AE cA | "E7"B3 B cd | "/"e2 ^f2 ^g2 |
+P:D
+"Am"(3age cA Bc | "Am7/G"B2 A4 | "Fmaj7"(3cBA GF ED | "Em"E4 E2 |\
+"Am"C4 E2 | "Em"B,4 E2 | "Am"A,3 G, A,C | "/"A,6 |]

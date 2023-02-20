@@ -1,0 +1,41 @@
+X:1
+T:Shooting
+C:Traditional arr. Ian Dedic/Ollie King
+M:9/8
+L:1/8
+K:D
+T:Walk round
+A,3 C3|:"D drone"D2 D FED FAF|EEE E2 F GEC|D2 D FED FAF|1DEF GEC D2 A,:|2DEF GEC D2 (3A/B/c/|
+T:Foot Up/Clash
+P:A
+|:"D/D"d2 d fed faf|"A/D"eee e2 f gec|"G/D"d2 d fed faf|1def "A/D"gec "G/D"d2 (3A/B/c/:|2def "A/D"gec "G/D"d3|
+P:B
+|:"D/D"a2 g fed faf|"A/E"eee e2 f g3|"D/B"dag fed faf|1def "A/A"gec "G/G"d3:|2def "A/A"gec "G/G"d2 (3A/B/c/|
+T:Half hands/Shoot
+P:A
+|:"D/D"d2 d fed faf|"A/D"eee e2 f gec|"G/D"d2 d fed faf|1def "A/D"gec "G/D"d2 (3A/B/c/:|2def "A/D"gec "G/D"d3|
+P:B
+|:"D/D"a2 g fed faf|"A/E"eee e2 f g3|"D/B"dag fed faf|1def "A/A"gec "G/G"d3:|2def "A/A"gec "G/G"d2 (3A/B/c/|
+T:Processional Down/Rooks
+P:A
+|:"D/D"d2 d fed f2 (3A/B/c/|"D/D"d2 d fed "A/D"e2 (3A/B/c/|"G/D"d2 d fed faf|1a3 "A/D"g3 "G/D"b2 (3A/B/c/:|2def "A/D"gec "G/D"d3|
+P:B
+|:"D/D"a3 ""z3 "D/D"d'3|"G/G"bbb b2 d' "A/A"a3|"D/B"a2 g fed faf|1def "A/A"gec "G/G"d3:|2def "A/A"gec "G/G"d2 (3A/B/c/|
+T:Hands Around/Clash
+P:A
+|:"D/D"d2 d fed faf|"C/C"eee e2 f g3|"G/G"d2 d fed faA|1def "A/A"gec "G/G"d2 (3A/B/c/:|2def "A/A"gec "G/G"d3|
+P:B
+|:"D/D"a2 g fed faf|"A/E"eee e2 f g3|"D/B"dag fed faf|1def "A/A"gec "G/G"d3:|2def "A/A"gec "G/G"d2 (3A/B/c/|
+T:Processional Up/Shoot
+P:A
+|:"D/D"d2 d fed f2 (3A/B/c/|"D/D"d2 d fed "A/D"e2 (3A/B/c/|"G/D"d2 d fed faf|1a3 "A/D"g3 "G/D"b2 (3A/B/c/:|2def "A/D"gec "G/D"d3|
+P:B
+|:"D/D"a2 g fed faf|"A/E"eee e2 f gec|"D/B"dag fed faf|1def "A/A"gec "G/G"d3:|2def "A/D"gec "G/D"d2 (3A/B/c/|
+T:Hey/Rooks
+P:A
+|:"D/D"d2 d fed faf|"C/C"eee e2 f g3|"G/G"d2 d fed faA|1def "A/A"gec "G/G"d2 (3A/B/c/:|2def "A/A"gec "G/G"d3|
+P:B
+|:"D/D"a3 ""z3 "D/D"d'3|"G/G"bbb b2 d' "A/A"a3|"D/B"a2 g fed faf|1def "A/A"gec "G/G"d3:|2def "A/A"gec "D/D"d3|
+W:
+W:Note - the chord symbols work thus: chord/bass
+W:Therefore D/B is a D chord with a B bass.

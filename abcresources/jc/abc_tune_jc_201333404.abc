@@ -1,0 +1,49 @@
+X: 1
+T: March of Saint Timothy
+% Nottingham Music Database
+C: Judi Morningstar, 1992
+D: "Michigan Spring" from the Detroit Country Dancers
+M: 2/4
+L: 1/4
+K: G
+d/ \
+| "G"B3/4c/4 d/B/ | "D"A3/4B/4 c/A/ \
+| "Em"G3/4A/4 B/G/ | "Bm"G/F/ E/D/ \
+| "C"E3/4F/4 G/E/ | "G"D/G/ B/d/ \
+|[1"Am"c3/4B/4 "A7"A/G/ | "D7"F/A/ D/c/ \
+:|2"Am"c/4B/4A/ "D7"F/A/ | "G"G3/ |]
+d/4d/4 \
+| "D7"c/d/ A/c/ | F/A/ D/d/4d/4 \
+| "G"B/d/ G/B/ | D/G/ B,/d/4d/4 \
+| "D7"c/d/ A/c/ | F/A/ D/d/4d/4 \
+| "G"B/D/ E/F/ | G/A/ B/ ||
+d/4d/4 \
+| "D7"c/d/ A/c/ | F/A/ D/d/4d/4 \
+| "G"B/d/ G/B/ | D/G/ B,/D/ \
+| "C"E3/4F/4 G/E/ | "G"D/G/ B/d/ \
+| "Am"c/4B/4A/ "D7"F/A/ | "G"G3/ |]
+
+%%sep 1 1 500
+X: 1
+T: March of Saint Timothy
+% Nottingham Music Database
+C: Judi Morningstar, 1992
+D: "Michigan Spring" from the Detroit Country Dancers
+M: 2/4
+L: 1/4
+K: A
+|: "A"c3/4d/4 e/c/ | "E"B3/4c/4 d/B/ \
+| "Fm"A3/4B/4 c/A/ | "Cm"A/G/ F/E/ \
+| "D"F3/4G/4 A/F/ | "A"E/A/ c/e/ \
+|[1"Bm"d3/4c/4 "B7"B/A/ | "E7"G/B/ E/d/ \
+:|2"Bm"d/4c/4B/ "E7"G/B/ | "A"A3/ ||
+e/4e/4 \
+| "E7"d/e/ B/d/ | G/B/ E/e/4e/4 \
+| "A"c/e/ A/c/ | E/A/ C/e/4e/4 \
+| "E7"d/e/ B/d/ | G/B/ E/e/4e/4 \
+| "A"c/E/ F/G/ | A/B/ c/ ||
+e/4e/4 \
+| "E7"d/e/ B/d/ | G/B/ E/e/4e/4 \
+| "A"c/e/ A/c/ | E/A/ C/E/ \
+| "D"F3/4G/4 A/F/ | "A"E/A/ c/e/ \
+| "Bm"d/4c/4B/ "E7"G/B/ | "A"A2 |]

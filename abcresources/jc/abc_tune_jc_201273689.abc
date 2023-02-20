@@ -1,0 +1,413 @@
+I:abc-charset utf-8
+%%titlefont Times-Bold 24
+%%subtitlefont Times-Bold 18
+%%gchordfont Times-Bold 14
+%%composerfont Times-Italic 16
+%%notationfont Times-Bold 16
+%%annotationfont Times-Bold 16
+%%textfont Times-Italic 16
+%%partsfont Times-Bold 14
+%%printtempo 0
+%%printparts 1
+%%partsbox 1
+%%bstemdown 1
+%%withxrefs 1
+%%pageheight 11in
+%%%staffsep .01
+%%topspace .25in
+%%botspace .25in
+%%notespacingfactor 1
+%%stretchlast 0
+%%titleformat  T, R-1 C1
+%%scale .685
+%%footer "Pipe Marches & Pibrochs\n$P0.		$P1."
+%%
+%%newpage 301
+
+X:0
+%%%footer "Section D"
+%%withxrefs 0
+%%lineskipfac 8
+%%textfont Times-Bold 48
+%%begintext center
+%%Pipe Marches & Pibrochs
+%%endtext
+%%titlefont Times-Bold 1
+I:0
+T:_Pipe Marches & Pibrochs_
+M:1/1
+K:C
+%%newpage
+
+X:446
+T:Athole And Breadalbane Gathering #1, The 
+C:Joe Buchanan's Scottish Tome - Page 003.2
+I:003 2
+C:W. Fergusson
+R:Pipe March
+Z:Carl Allison
+L:1/16
+M:2/4
+K:A
+| A>B | "A" {B}c4 "E7"(c<e)d>B | "A"{d}c2A2 {B}A2(c<e) | "D"{fg}f2>e2 "A"c2(a>e) |"B7" {d}(c2B2) "E7"{Bc}B2(A>B) |
+|"A"{d}c4 "E7"(c<e)d>B | {d}"A"c2A2 {B}A2(c<e) | "D"f2{g}a2 "A"e>fe>c | "E7"{Bd}B2A2 "A"{A}A2 :|
+c>d |"A" e2>f2 {ef}e2c2 | {b}a2>e2 "D"f>ga>f | {ef}"A"e2(A>c) "F#m"e>fe>A | {d}"B7"(c2B2) "E7"{Bc}B2c>d |
+|"A"e2>f2 {ef}e2c2 | {b}a2>e2 "D"f>ga>f | "F#m"{ef}e2(A>c) "E7"e>fe>c | {Bd}"D"B2A2 "A"{A}A2 :|
+A>B | "A"{d}c4 c2e2 | "D"{fg}f2a>f "A"e>cA>B | "A"{ef}c2(A>c) "F#m"e>fA>B | "D"{d}c2B2 "E7"{Bc}B2A>B |
+|"A"{d}c4 c2e2 | "D"{fg}f2a>f "A"e>cA>B |"F#m" {cd}c2(A>c) "E7"e>fe>c |  "D"{Bd}B2A2 "E7"{A}A2 :|
+c>d | "A"{ef}e2(a>e) "D"f>ga>f | "A"{ef}e2(a>f) e>cA>B | "A"{d}c2(A>c) "F#m"e>fa>e | "B7"{d}c2B2 "E7"{Bc}B2(c>d) |
+| "A"{df}e2(a>e) "D"f>ga>f | "A"{ef}e2(a>f) e>cA>B | "F#m"{d}c2(A>c) "E7"e>fe>c | "D"{Bd}B2A2 "A"{A}A2 :|
+
+X:447
+T:Athole And Breadalbane Gathering #2, The 
+C:Joe Buchanan's Scottish Tome - Page 014.0
+I:014 0
+C:W. Fergusson
+R:Pipe March
+Z:Carl Allison
+L:1/16
+M:2/4
+K:A
+| A>B | "A" {B}c4 "E7"(c<e)d>B | "A"{d}c2A2 {B}A2(c<e) | "D"{fg}f2>e2 "A"c2(a>e) |"B7" {d}(c2B2) "E7"{Bc}B2(A>B) |
+|"A"{d}c4 "E7"(c<e)d>B | {d}"A"c2A2 {B}A2(c<e) | "D"f2{g}a2 "A"e>fe>c | "E7"{Bd}B2A2 "A"{A}A2 :|
+c>d |"A" e2>f2 {ef}e2c2 | {b}a2>e2 "D"f>ga>f | {ef}"A"e2(A>c) "F#m"e>fe>A | {d}"B7"(c2B2) "E7"{Bc}B2c>d |
+|"A"e2>f2 {ef}e2c2 | {b}a2>e2 "D"f>ga>f | "F#m"{ef}e2(A>c) "E7"e>fe>c | {Bd}"D"B2A2 "A"{A}A2 :|
+A>B | "A"{d}c4 c2e2 | "D"{fg}f2a>f "A"e>cA>B | "A"{ef}c2(A>c) "F#m"e>fA>B | "D"{d}c2B2 "E7"{Bc}B2A>B |
+|"A"{d}c4 c2e2 | "D"{fg}f2a>f "A"e>cA>B |"F#m" {cd}c2(A>c) "E7"e>fe>c |  "D"{Bd}B2A2 "E7"{A}A2 :|
+c>d | "A"{ef}e2(a>e) "D"f>ga>f | "A"{ef}e2(a>f) e>cA>B | "A"{d}c2(A>c) "F#m"e>fa>e | "B7"{d}c2B2 "E7"{Bc}B2(c>d) |
+| "A"{df}e2(a>e) "D"f>ga>f | "A"{ef}e2(a>f) e>cA>B | "F#m"{d}c2(A>c) "E7"e>fe>c | "D"{Bd}B2A2 "A"{A}A2 :|
+
+X:448
+T:Grand Old MacIntyre 
+C:Joe Buchanan's Scottish Tome - Page 030.0
+I:030 0
+R:Pipe March
+Z:Carl Allison
+L:1/16
+M:4/4
+K:A=G
+ed | cABc dBcd | eaAa  {f}e2dc | ceAa  |{/e}c2B2B2 ed  |
+cABc dBcd | eaAa g2 gfed | ceAa  |{/e}c2A2A2  :|
+e2 | agfe fadf | eaAc {c}e2dc | ceAe ceAa | {ce} e2c2B2 e2 |
+agfe fadg | eaAa gfed | ceAe deBe | {e}c2A2A2 :|
+ed | cABc dBcd | ((3eee) Aa gfed | ((3ddd) Be ceAe (3ccc Aa | {cd}cBB ed |
+cABc dBcd | ((3eee) Aa gfed | ceAa  |{/e}c2A2A2  :|
+e2 | agfe ((3fff) df | ((3eee) Aa gfed | dfBe ((3ccc) Aa | {cd}c2B2B2 e2 |
+agfe ((3fff) df | ((3eee) Aa gfed | ceAe ((3ccc) Ae | {/e}c2A2A2 :|
+ed | ceAe deBe |ceac' e'c'ae | dfBd ceAa | {cd}cBB ed |
+ceAe deBe |ceac' e'c'ae | ceAe deBe | {cd}c2A2A2 :|
+e2 | agfe fadf |ceac' e'c'ae  | dfBd ceAa |  {cd}c2B2B2 e2 |
+agfe fadf | eaAa gfed | ceAe deBe | {cd}c2A2A2 :|
+
+X:449
+T:King George V's Army 
+C:Joe Buchanan's Scottish Tome - Page 051.1
+I:051 1
+C:P.M. G.S. McLennan
+R:Pipe March
+Z:Carl Allison
+M:2/4
+K:Amix
+(ed) | "A" c2A2 A3B | "A" cAce fedc | "Bm" d2B2 B3c | "E7" defa f2(ed) |
+"A" c2A2 A3B | "A" cAce fedc | "D" d2fd "A" c2(ec) | "E7" B4 "A" A2 :|
+(cd) | "A" e2a2 a2(gf) | "A" e2c2 c2(ec) | "E7" d2B2 B2(cd) | "A" c2A2 A2(cd) |
+"A" e2a2 a2(gf) | "A" e2c2 c2(ec) | "D" d2(fd) "A" c2(ec) | "E7" B4 "A" A2 :|
+(ed) | "A" c2e2 a3e | "A" ceae faec | "D" d2f2 a3f | dfad fafd |
+"A" c2e2 a3e | "A" ceae faec | "D" dfad "A" ceac | "E7" B4 "A" A2 :|
+(ed) | "A" c2e2 e3d | "A" ceea fedc | "D" d2f2 f3e | "D" dffa gfed |
+"A" c2e2 e3d | "A" ceea fedc | "D" dfad "A" ceac | "E7" B4A2 :|
+
+X:450
+T:Sweet Maid of Mull, The 
+C:Joe Buchanan's Scottish Tome - Page 072.0
+I:072 0
+C:A C Beaton
+R:Pipe March
+Z:Carl Allison
+L:1/8
+M:6/8
+K:C
+e | "Am"A>Bc e2 "Em"a | "Dm"a>gf "Am"e3 | "Dm"f<af "Am"f>ec | "B7"c>BA B2 "E7"e |
+"Am"A>Bc e2 "Em"a | "Dm"a>gf "Am"e2 a | "Am"A>ce "F#m"f>ec | "E7"B3 "Am"A2 :|]
+g | "Am"a>ea a2 "Em"e | "Dm"f<af "Am"e2 a | "Am"A>cf "F#m"e>cA | "B7"c<ec B2 "E7"g |
+"Am"a>ea a2 "Em"e | "Dm"f<af "Am"e2 a | "Am"A>ce "F#m"f>ec | "E7"B3 "Am"A2 g |
+"Am"a>ea a2 "Em"e | "Dm"f<af "Am"e2 a | "Am"A>cf "F#m"e>cA | "B7"c<ec A2 "E7"e |
+"Am"A>Bc e2 "Em"a | "Dm"a>gf "Am"e2 a | "Am"A>ce "F#m"f>ec | "E7"B3 "Am"A2 |]
+e | "Am"A>Bc c<eA | "Dm"d>ef "Am"e2 a | "Am"e>fe "F#m"c>BA | "B7"c<ec B2 "E7"e |
+"Am"A>Bc c<eA | "Dm"d>ef "Am"e2 a | "Am"A>ce "F#m"f>ec | "E7"B3 "Am"A2 :|]
+g | "Am"a>ea "Em"a>gf | "Dm"f<af "Am"e2 a | "Am"A>cf "F#m"e>cA | "B7"c<ec B2 "E7"g |
+"Am"a>ea "Em"a>gf | "Dm"f<af "Am"e2 a | "Am"A>ce "F#m"f>ec | "E7"B3 "Am"A2 g |
+"Am"a>ea "Em"a>gf | "Dm"f<af "Am"e2 a | "Am"A>cf "F#m"e>cA | "B7"c<ec B2 "E7"e |
+"Am"A>Bc e2 "Em"a | "Dm"a>gf "Am"e2 a | "Am"A>ce "F#m"f>ec | "E7"B3 "Am"A2 |]
+
+X:451
+T:Tug Argan Gap 
+C:Joe Buchanan's Scottish Tome - Page 073.0
+I:073 0
+R:Pipe March
+Z:Carl Allison
+M:6/8
+K:D
+L:1/8
+a|"D"f<af d2 "A"f|"D"f>ga "Bm"a>ef|"Em"g3 c2 "A"e|"C#"A>ce "A"e>f"A7"g|
+"D"f<af d2 "A"f|"D"f>ga "Bm"a>ef|"Em"g2 A "A7"f>ge|"D"d3 d2 :|
+(f>g)|"D"a3 "A"f3|"D"A>da "A"f>ed|"Em"g3 "A"e3|"A"A>ce "C#"e>f"A7"g|
+"D"a3 "A"f3 |"D"A>da "Bm"f>ed|"Em"g2 A "A7"f>ge|"D"d3 d2 :|
+a|"D"A>df "A"f3|"D"A>da "A"f>ed|"Em"g>ee "Em"e2 g|"Em"e<ge "A7"c2 a|
+"D"A>df "A"f3|"D"A>da "Bm"f>ed|"Em"g2 "A7"Af>ge|"D"d3 d2 :|
+(f<g)|"D"a>ff "A"f2 a|"D"(f<a)f "Bm"d>ef|"Em"g>ee "Em"e2 g|"Em"e<ge "A7"c>BA|
+"D"a>ff "D"f2 a|"D"(f<a)f "Bm"d>ef|"Em"g2 A "A7"f>ge|"D"d3 d2 :|
+"D"a>ff "A"f2 a|"D"(f<a)f "Bm"d>ef|"Em"g>ee "Em"e2 g|"Em"e<ge "A7"c2 a2|
+"D"A>df "A"f>ed | "D"d>cB A>ef | "Em"g2 A "A7"f>ge | "D"d3 d2 |]
+
+X:452
+T:Dundee City Police Pipe Band 
+C:Joe Buchanan's Scottish Tome - Page 074.0
+I:074 0
+R:Pipe March
+Z:Carl Allison
+L:1/8
+M:6/8
+K:Dmaj
+A|"D"d>fe ({c}d2 A)|("G"B<d)A {c}B2 d|"D"A>BA A>af|f>ed ("A7"e2 A)|
+"D"d>fe ({c}d2 A)|("G"B<d)A {c}B2 d|"D"A>af "A7"e>de| "D"{c}d3 d:|
+g|"D"a>gf e>de|(fa>)A "G"{c}B2 d|"D"A>BA A>af|f>ed "A7"{f}(e2g) |
+"D"a>gf e>de|(fa>)A "G"{c}B2 d|"D"A>af "A7"e>de|"D"{c}d3 dg |
+"D"a>gf e>de|(fa>)A "G"{c}B2 d|"D"A>BA A>af|f>ed "A7"{f}e2 A  |
+"D"d>fe ({c}d2 A)|(B<d)A {c}"G"B2 d|"D"A>af "A7"e>de| "D"{c}d3 d |]
+"D"d>fe f>AA|(B<d)A {c}"G"(B2 d)|"D"A>af "A7"(f2 a)| f>ed "A7"{f}e3 A |
+"D"d>fe f>AA|(B<d)A {c}"G"(B2 d)|"D"A>af "A7"e>de| "D"{c}d3 d |]
+g | "D"f>aa A>aa | (f<a)A {c}B2 d | G>BB "D"A>dd | (f<a)f "A7"e2 g |
+"D"f>aa Aa/a | f<aA "G"{c}B2 d | "D"A>af "A7"e>de |  {c}d3 "D"dg |
+"D"f>aa A>aa | (f<a)A "G"{c}B2 d | G>BB "D"A>dd | (f<a)f "A7"e2 A |
+"D"d>fe f>AA | d>fA "G"{c}(B2 d) | "D"A>af "A7"e>de |"D"{B}d {d}d |]
+
+X:453
+T:Dovecot Park 
+C:Joe Buchanan's Scottish Tome - Page 076.0
+I:076 0
+C:J. Braidwood
+R:Pipe March
+Z:Carl Allison
+L:1/8
+M:6/8
+K:Dmaj
+f |"D" A>FA (B2A) | "D"A>df (a2g) | "D"f>ef A>df | "D"a>fd "A"(e2f) |
+"D"AFA (B2A) | "D"A>df (a2g) | "Em"f>ga "A"e>cA | "D"d3 d<d :|
+g | "D"f>ga (d2e) | "D"f>ed (a2f) | "A"e>ce A>Bc | "D"(e<gf) (e2g) |
+"D"f>ga (d2e) | "D"f>ed (a2g) | "Em"f>ga "A"e>cA | "D"d3 d<d g |
+"D"f>ga (d2e) | "D"f>ed (a2f) | "A"e>ce A>Bc | "D"e<gf (e2f) |
+"D"A>FA (B2A) | "D"A>df (a2g) | "Em"f>ga "A"e>cA | "D"d3 d<d |]
+f | "D"A>df f>ef | "D"A>df (a2g) | "Em"f>ed A>df | "A7"e3 (ef) |
+"D"A>df f>ef | "D"a>fd "G"(B2g) | "D"f>ga "A7"e>cA | "D"d3 d<d :|
+(f/>g/) | "D"a>fd A>df | "D"f>ed "G"(B2d) | "D"A>df a>fd | "A7"e3 e (f/>g/) |
+"D"a>fd A>df | "D"f>ed "G"(B2g) | "D"f>ga "A7"e>cA | "D"d3 d<d (f/>g/) |
+"D"a>fd A>df | "D"f>ed "G"(B2d) | "D"A>df a>fd | "A7"e3 e2f |
+"D"A>df f>ef | "D"a>fd "G"(B2g) | "D"f>ga "A7"e>cA | "D"d2 d<d |]
+
+X:454
+T:Glendaruel Highlanders 
+C:Joe Buchanan's Scottish Tome - Page 077.0
+I:077 0
+C:P.M. A. Fettas
+R:Pipe March
+Z:Carl Allison
+L:1/8
+M:6/8
+K:A
+e | "A"A>AA A>Bc | e>ce {fg}(f2 e) |"A"c>BA "D"(f<a)c |"A"{f}e3 "A7"e>fa |
+"A"A>AA A>Bc | e>ce {fg}(f2 e) | "D"(f<a)c "A"e>dB|"A"A3 {B}A2 :|
+(ed) | "A"{d}c2 A "E7"(c<e)B | "A"{d}c2 A Ace | {fg}(f2 A) f<af |  "A"{f}e3 "E7"e>fa |
+"A"{d}c2 A "E7"(c<e)B | "A"{d}c2 A A>ce | "F#m"f>ec "E7"e>dB | "A"A3 A (ed) |
+{d}c2 A "E7"(c<e)B | {d}c2 A A>ce | "D"f2 A (f<a)f | "A"e3 "E7"e>fg |
+"A"a>cc c>fe | "Bm"f>BB B>fe | "F#m"(f<a)c "E7"e>dB | "A"A3 {B}A |]
+(ed) |"A"{d}c3 "E7"e>cB | "A"A>Bc (e2 c) | "D"{fg}f3 a>gf | "A"{f}e3 "E7"e>fa |
+"A"{d}c3 "E7"e>cB | "A"A>Bc ef=g | "D"(f<a)c "E7"e>dB | "A"A3 {B}A :|
+g | "A"{b}a3 "E7"f>ec | "A"A>Bc {f}(e2 c) | "D"{fg}f3 "A"e>dc | "E7"B3 {c}(B2 g) |
+"A"{b}a3 "E7"f>ec | "A"A>Bc e>f=g | "D"(f<a)c "E7"e>dB | "A"A3 {B}A2 g |
+"A"{b}a3 "E7"f>ec | "A"ABc {f}(e2 c) | "D"{g}f3 "A"e>dc | "E7"B3 {c}B (ed) |
+"A"(c<e)c "E7"d>cB | "A"A>Bc e>f=g | "D"(f<a)c "E7"e>dB | A3 {B}A2 |]
+
+X:455
+T:P.M. Donald MacLean of Lewis 
+C:Joe Buchanan's Scottish Tome - Page 080.0
+I:080 0
+C:P.M. Donald MacLeod
+R:Pipe March
+Z:Carl Allison
+L:1/8
+M:6/8
+K:C
+e|"Am"A>BG A3|"Em"e>dg e>dB|"Am"A>BA "G"(G2 B)|"G"(d2e) e>dB|
+"Am"A>BG A3|"Em"e>dg e>dB| "G"G>Bg e>dB|"Am"A3 A2:|
+g|"Am"(a2e) (e2g)|a>ee e>dB|A>BA "G"(G2 B)|(d2e) e>dB|
+"Am"(a2e) (e2g)|a>ee e>dB| "G"G>Bg "G"e>dB|"Am"A3 (A2 g)|
+"Am"(a2e) (e2g)|a>ee e>dB|A>BA "G"(G2 B)|"Am"(d2e) e>dB|
+"Am"A>BG A3|"Em"e>dg e>dB| "G"G>Bg e>dB|"Am"A3 A2|]
+|:e|"Am"A>ee d>ee|A>ee "Em"e>dB|"Am"A>BA "G"G>GG|B<de "Em"e>dB|
+"Am"A>ee d>ee|A>ee e>dB| "G"G>Bg e>dB|"Am"A3 A2:|
+e|"Am"(A2a) a>ga|"Em"g>ee e>dB|"Am"A>BA "G"(G2B)|"Am"(d2e) e>dB|
+"Am"(A2a) a>ga|"Em"g>ee e>dB| "G"G>Bg e>dB|"Am"A3 (A2 e)|
+"Am"(A2a) a>ga|"Em"g>ee e>dB|"Am"A>BA "G"(G2B)|"Am"(d2e) "Em"e>dB|
+"Am"A>BG A3|"Em"e>dg e>dB| "G"G>Bg e>dB|"Am"A3 A2||
+
+X:456
+T:Farewell To The Creeks 
+C:Joe Buchanan's Scottish Tome - Page 082.0
+I:082 0
+C:P.M. J. Robertson
+R:Pipe March
+Z:Carl Allison
+L:1/8
+M:6/8
+K:A
+a |e2 c c>Bc | d>ef e2 d | c2 e A2 e | e>dc B2 a |
+e2 c c>Bc | d>ef e2 d | c2 e e>dc | B3 A2 :|
+f |e>ce f<ag | f>df e>cA | c2 c c>ec | d>cd B2 f |
+e>ce f<ag | f>df e>cA | c2 e e>dc |B3 A2 :|
+a |c3 d2 f | c>ec c>BA | d2 f c2 e | e>dc B2 a |
+c3 d2 f | c<ec c>BA | c2 e e>dc | B3 A2 :|
+e |a2 e f2 a | e2 f e>cA | d2 f c2 e | e<dc B2 e |
+a2 e f2 a | e2 f e>cA | c2 e e>dc | B3 A2 :|
+
+X:457
+T:Cameron Highlanders, The 
+C:Joe Buchanan's Scottish Tome - Page 112.0
+I:112 0
+Z:Carl Allison
+C:J. S. Skinner
+R:Pipe March
+L:1/8
+M:2/4
+K:A
+z | (Ae/c/) (Ae/A/) | {fg}(fe) (ea) | (Ae/c/) (Ae/A/) | {A}(cB) Bc |
+(Ae/c/) (Ae/A/) | {fg}(fe) (ea) | f/a/e/a/ c/a/B/a/ | {ce}(cA) [AA] :|
+a | {fa}(fe/a/) {ce}(cA/a/) | {ce}(cA) (Aa) | {fa}(fe/a/) {ce}(cA/a/) | {ce}(cB) (Ba) |
+{fg}(fe/a/) (cA/a/) | e/c/a/c/ e{/f}a | f/a/e/a/ c/a/B/a/ | {ce}(cA) [AA] :|
+(e/c/) | A/<(A/e/c/) A/e/c/A/ | {fg}(fe) (ea) | A/<A/e/c/ A/e/c/A/ | {ce}(cB) (Be/c/) |
+A/<A/e/c/ A/e/c/A/ | {fg}(fe) (ea) | f/a/e/a/ c/a/a/ | {cd}(cA) [AA] :|
+a | (f/a/e/)a/ c/a/A/a/ | {fg}(cA) (Aa) | f/a/e/a/ c/a/A/a/ | {ce}(cB) (Ba) |
+f/a/e/a/ c/a/A/a/ | e/c/a/c/ e/f/g/a/ | f/a/e/a/ c/a/B/a/ | {ce}(cA) ([AA] a) |
+(f/a/e/)a/ c/a/B/a/ | A/a/B/a/ c/a/A/a/ | f/a/e/a/ c/a/A/a/ | {ce}(cB) (Be/c/) |
+A/<(A/c/A/) e/A/c/A/ | e/A/f/A/ g/A/a/A/ | f/a/e/a/ c/a/B/a/ | {ce}(cA) [AA] |]
+
+X:458
+T:Braemar Gathering, The 
+C:Joe Buchanan's Scottish Tome - Page 131.2
+I:131 2
+C:George S. Maclenox
+Z:Carl Allison
+R:Pipe March
+L:1/8
+M:6/8
+K:A
+e | "A"A>AA A>Bc | "A"A>ce "F#m"f>ec | "Bm"B>BB B>cA | "Bm"B>ce "E7"f>ga |
+"A"A>AB A>Bc | "A"A>ce f>ec | "D"(f>a)f "E7"e>Bc | "A"A>AA {A}A2 :|
+e | "A"f>ff f>ga | "D"f>ff (f2 c) | "A"e>ee "D"f>ga | "A"e>ee "E7"e2 B |
+"A"c>cc c>BA | "A"A>AA "A7"B>ce | "D"(f>a)f "E7"e>Bc | "A"A>AA {A}A2 :|
+e | "A"A>AA {d}c>BA | "A"(c<e)A "F#m"{d}c>BA | "Bm"A>AA A>ce | "Bm"{g}f>ga "E7"f>ec |
+"A"A>AA {d}c>BA | "A"(c<e)A "A7"{d}c>de | "D"(f>a)f "E7"e>Bc | "A"A>AA {A}A2 :|
+f/g/ | "G#m"a>ff f>ef | "D"f<af f>ec | "A"f>ee e>ce | "A"f>ec "E7"e>cB |
+"A"c>BA "F#m"A>AA | "A"B>ce "A7"f2 e | "D"(f>a)f "E7"e>Bc | "A"A>AA {A}A2 :|
+
+X:459
+T:Martha's Carpet 
+C:Joe Buchanan's Scottish Tome - Page 328.0
+I:328 0
+C:Donald MacFarlane
+R:Pipe March
+Z:Carl Allison
+L:1/16
+M:2/4
+K:C
+e>d | c>BA>c e>Ac<A | d>fa>f e>fc>e | f>Ae>A c2B>A | f<ae>c B2e>d |
+c>BA>c e>Ac<A | d>fa>f e>fc<e | d>ef<a e>fB<e | c2A2 A2 :|
+f>g | a2f<a e2A<c | A<Aa>e c2e2 | f>Ae>A c2>BA | f<ae>c B2f>g |
+a2f<a e2A<c | A<Aa>e c2e2 | d>ef<a e>fB<e | c2A2 A2 :|
+c>d | e>fe>c a>af<a | f>da>f e>fc>e | f>Ae>A c2B<A | f<ae>c B2c>d |
+e>fe>c a>af<a | f>da<f e>fc>e | d>ef<a e>fB<e | c2A2 A2 :|
+f>g | a2e>f a>ec<e | f2a>f e>fc<A | f>Ae>A c2B<A | f<ae>c B2f>g |
+a2e>f a>ec<e | f2a>f e>fc<A | d>ef>a e>fB<e | c2A2 A2 :|
+
+X:460
+T:Mrs. H. L. MacDonald of Dunach 
+C:Joe Buchanan's Scottish Tome - Page 341.0
+I:341 0
+R:Pipe March
+Z:Carl Allison
+L:1/16
+M:2/4
+K:D
+(A>B) | "D" d2A>B d2f>g | "D" a2f>g a2f>d | "D" A>AA>B d2(e>f) | "G" g>fe<d "A7" B2(A>B) |
+"D" d2A>B d2f>g | "D" A2(f>d) "A7" A>Bc>d | "D" e2A>c e>de<f | "D" {c}d4 d<d :|
+"D" a2a>g (f<a)d>f | "G" A>AA>B "D" d2(A>d) | "A7" f>Ad>f a2(g>f) | "D" e>cA>c e2(f>g) |
+"D" a>gf>e d2A2 | "G" B<dc>B "D" A>Bc>d | "A7" e2(A>c) e>de<f | edef  | {c}d4 d<d :|
+(f>e) | "D" (d<f)A>d (d<f)A>d | "D" (f<a)g>e d2A>d | "D" (d<f)A>d (d<f)A>d | "A7" (c<e)(A>c) e>gc>e |
+"D" (d<f)A>d (d<f)A>d | "D" (f<a)f>e d2c>d | "A7" e2(A>c) e>gf>e | "D" {c}d4 d<d :|
+(f>g) | "D" a>f(d<A) d2f>g | "D" a>f(d<A) d2f>g | "A7" g>e(c<A) (c<e)A>c | "A7" g>e(c<A) (d<e)f>g |
+"D" a>f(d<A) d2f>g | "D" a>f(d<A) d2f>g | "A7" g>e(c<A) (c<e)A>c | "D" {c}d4 d2 f<g |
+"D" a>f(d<A) d2f>g | "D" a>f(d<A) d2f>g | "A7" g>e(c<A) (c<e)A>c | "A7" g>e(c<A) (d<e)f>g |
+"D" a>gf>e d2A2 | "G" (B<d)c>B "D" A>Bc>d | "A7" e>cA>c e>gf>e | "D" {c}d4 d<d |]
+
+X:461
+T:25th King's Own Scottish Borderer's Farewell To Meerut, The 
+C:Joe Buchanan's Scottish Tome - Page 347.0
+I:347 0
+Z:Carl Allison
+R:Pipe March
+L:1/16
+M:2/4
+K:D
+(A>d) | "D" {g}f4 "A" e>g(f<a) | "D" {fg}B2d2 c2e2 | "G" B4 (g>f)e>d | "A" {d}c2e2 e2(A>d) |
+"D" {g}f4 "A" e>gf<a | "D" {fg}f2d2 d2g2 | "G" B>d "A" c<eA>a | "D" {fg}f2d2 {e}d2 :|
+(f<g) | "D" a2 (3AAA "G" (g>f)(e>d) | "Em" {d}c2B2 B2e>f | "Em" {a}g2e2 G>Be>d | "A" {d}c2e2 e2(f<g) |
+"D" a2 (3AAA (g>f)(e>d) | "G" {d}c2B2 f2g2 | "A" c>de<a g>ec<A | "D" {e}d4 d2 :|
+A>d | "D" f>ef<a A>df<a | "D" {fg}f2d2 d2g2 | "G" (B<G)(B<d) "Em" g>fe>d | "A" {e}c2e2 e2(A<d) |
+"D" f>ef<a A>df<a | "D" {fg}f2d2 d2g2 | "G" (B<G)(B<d) "A" (c<e)(A<a) | "D" {fg}f2d2 {e}d2 :|
+f<g | "D" a>gf>d f>da>d | "G" {d}c2B2 B2e>f | "G" g>fg>e G>Be>d | "A" {d}c2e2 e2(f<g) |
+"D" a>ga>d f>da>d | "G" {d}f2d2 d2g2 | "A7" A>ce>a g>ec>A | "D" {d}d4 {e}d2 :|
+
+X:462
+T:Dargai
+C:Joe Buchanan's Scottish Tome - Page 491.0
+I:491 0
+Z:Carl Allison
+R:Pibroch
+L:1/8
+M:C
+K:A
+{d}(c2 A) {A}(B2 A) | {A}(c2 A) {A}!fermata!e3 |{d}(c2 A) {Bd}(B2 A) | {A}(c2 A) !fermata!(F2 A) | 
+(c2 A) (B2 A) | (c2 A) !fermata!(!open!a2 gf) | (c2 A) (B2 A) | {Ad}!fermata!B3 A2 |] 
+c/d/ | {f}(e2 A) {fg}(f2 A) | {f}(e2 A) {Ad}!fermata!c3 | {f}(e2 A) {fg}(f2 A) | {f}(e2 A) {Ad}!fermata!B2 (c/d/) | 
+{f}(e2 A) {fa}(f2 e) | {f}(e2 A) {A}!fermata!(a2 g/f/) | (e2 A) (e2 c) | {Ad}!fermata!B3 A2 |] 
+{d}c2 {AdB}A {d}c2 {AdB}A | {d}c {AdB}A {A}!fermata!e3 | {d}c2 {AdB}A {d}c2 {AdB}A | {d}c2 {AdB}A (F2 A) | 
+{d}c2 {AdB}A {d}c2 {AdB}A | {d}c2 {AdB}A {A}!fermata!(A2 g/f/) | e2 {AdB}A {f}e2 {AdB}A | {Ad}!fermata!B A2 |] 
+(c/d/) | {f}e2 {AdB}A {Fa}f2 {AdB}A | {f}e2 {AdB}A {d}c2 {AdB}A | {f}e2 {AdB}A {fa}f2 {AdB}A | e2 {AdB}A {Bd}(B2 c/d/) | 
+{d}e2 {AdB}A {fa}f2 {AdB}A | {f}e2 {AdB}A !open!!fermata!(a g/f/) |{f}e2 {AdB}A e2 {AdB}A | {Ad}!fermata!B3 A2 |] 
+
+X:463
+T:Donald MacPherson's Lament 
+C:Joe Buchanan's Scottish Tome - Page 497.0-498.0
+I:497 0
+Z:Jo Wegstein
+C:J. S. Skinner
+R:Pibroch
+L:1/8
+M:2/4
+K:Dmaj
+A | {fg}"D"f2 "A"(ea) | "D"(fd) "G"(e/d/B) | "D"{c}d2 (Af) | "A"{f}e2 > A2 |
+"D"{fa}f2 "A"(ea) | "D"(fd) "G"(e/d/B) | "D"{A}(dA) "A"{A}(eA) | "D"{A}(d2 d) :|
+|: "G"{Bd}B2 (dB) | "D"A2 d2 | "G"(dB) (df) | "A"{f}e2> A |
+"D"{fg}f2 "A"(ea) | "D"(fd) "G"(e/d/B) | "D"!uppermordent!(dA) "A"{ef}(e>d) | "D"(d2 d) z :|
+%%vskip 0
+%%MIDI gchordoff
+z | A2 A2 | AF GG | F2 (FA) | (GE) (CA,) |
+A2 A2 | AF GG | F2 G2 | (F2 F) :|
+|: G2 (BG) | F2 F2 | B2 (BA) | (GE) (CA,) |
+A2 A2 | AF GG | F2 (G>F) | (F2 F) z :|
+%%newpage
+T:Donald MacPherson's Lament (cont) 
+A | {fa}[Af]2 [Ae][Aa] | [Af][Fd] [Ge]/d/[GB] | {c}[Fd]2 [FA][Af] | {f}([Ge]2> E2) ([CA] A,) |
+{fa}[Af]2 [Ae][Aa] | [Af][Fd] [Ge]/d/[GB] | {A}[Fd][FA] {A}[Ge][FA] | {A}[Fd]2 [Fd] :|
+|: {Bd}[GB]2 [Bd][GB] | [FA]2 [Fd]2 | [Fd]B [Bd][Af] | {f}([Ge]2 E) ([CA] A,) |
+{fa}[Af]2 [Ae][Aa] | [Af][Fd] [Ge]/d/[GB] | !uppermordent![Fd][GB] {ef}[Ge]>[Fd] | [Fd]2 [Fd] z :|

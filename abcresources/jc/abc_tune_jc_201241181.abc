@@ -1,0 +1,31 @@
+X: 4282
+T: the Ploughman
+%R: air, strathspey
+N: This is version 1, for ABC software that doesn't understand voice overlays and diminuendo symbols.
+N: Actually, the ABC1 version works just as well, if the software handles "chord" notes of different lengths.
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.8 p.28 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "Slow"
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+d2 |\
+(ce3)e3c d2c2B2A2 | c2e2 e2fg {g}a4e2a2 |\
+Tf3ef2a2 (gb3)B3d | ce3 {c}a3f e4A2 :|\
+fg |\
+a2f2e2c2 e2c2B3g | a3fe3c e2fg a3e |
+(ag).f.e (fe).d.c d2c2B3A | (ce3) {c}a3f {f}e4 A2fg ||\
+(ag)(fe) (fe)(dc) Td2c2 B2fg | a3fe2c2 e2fg a3e |\
+"^dim. . . ."(ag)(fe) (fe)(dc) (de)(cd) {c}B3HA | !p!c3e (fg)a.f {f}e4A2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |\
+a4a4 b2a2g2f2 | e2d2c2B2 A2a2 A2c2 |\
+d6f2 e4^g4 | a4f2d2 e2E2 A2 :| z2 |\
+a4a4 [b2e8]a2g4 | f3d A4 c2d2 c4 |
+A4a4 [b2e8]a2g4 | !p!a4f2d2 e4A2z2 ||\
+A4a4 b2a2g2e2 | f2d2 c2A2 G2E2 A2z2 |\
+"_dim. . . ."A2a2 A2a2 b2a2 Hg2z2 | !p!a4f2d2 e2E2A2 |]

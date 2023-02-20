@@ -1,0 +1,16 @@
+X: 645
+T: Col. McBain
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #645
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0645/oneill-1001-0645-1.abc
+M: C|
+L: 1/8
+K: Em
+"^A"\
+[|](EF) | GBEF GEBE | FADE FDAD | GBEF   GEBE | FADA E2 \
+|| (EF) | GBEF GEBE | FAEF FDAD | G2(GF) GBdB | AFDF E2 |]
+"^B"\
+[| (EF) | G2(GF) GBdB | ABAG FAAF | Eee^d e2(ef) | gefd Be \
+||  ef  | gfge   dedB | ABAG FGAF | Beed  BcdB   | AFDF E2 |]

@@ -1,0 +1,32 @@
+X: 2029
+T: Marquiss of Carmarthen's Birth Day
+R: reel
+B: John Walsh "Caledonian Country Dances"
+S: http://petrucci.mus.auth.gr/imglnks/usimg/5/50/IMSLP98359-PMLP202128-walsh_caledonian_country_dance_vol2.1.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+D2F2 F4 | F2A2 A4 | d2 f4 ed | edcB A4 |\
+D2F2 F4 | F2 A4 A2 | {d}c2BA B2^G2 | A4 A,4 :|
+|:\
+a2 A4 a2 | g2 A4 g2 | f2gf e2d2 | Tc2Bc A4 |\
+d2 D4 B2 | A2 D4 f2 | {f}e2d2 e2c2 | d4 D4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d4 d4 | d4 d4 | d4 d4 | A4 agfe |\
+d4 d4 | d4 d4 | e4 E4 | A4 a4 :|
+|:\
+a4 A4 | a4 A4 | d4 g4 | a6 g2 |\
+f4 g4 | f4 d4 | a4 A4 | d4 D4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First and 2d Cu. Set all four, and Hands round all four, Set all four
+and Hands round back again.  2d Part. The 1st Man and 1st Wo. figure
+down, and turn your Partners, then Right and Left.
+%%endtext

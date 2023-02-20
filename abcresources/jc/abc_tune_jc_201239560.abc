@@ -1,0 +1,19 @@
+X: 3312
+T: Mr Drummond younger of Perth's   Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.31 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+B |\
+G<Gd>B d>e {e}d>B | G<G Td>B e>AA>B | G<G d>B d>eg<b | g>ed>g BGG :| e/f/ | gdg>a {ga}b>ga>b |
+g>dg>b adfa | gdg>a {ga}b>gab | Tg>ed>c BGGe/f/ || gdg>a {ga}b>ga>b | gdg>b a>dfa | g<ba>f gdTc>B | Ag fa gG G |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+g2g2 g2g2 | B2G2 c2d2 | B2G2 g2G2 | c2d2 g2G :| z | g2g2 g2g2 |
+g2G2 d2d2 | g2g2 g2g2 | c2d2 G2g2 || g2g2 g2g2 | g2g2 d2d2 | g2d2 e2B2 | c2d2 G2G |]

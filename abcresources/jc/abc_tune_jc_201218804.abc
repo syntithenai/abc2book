@@ -1,0 +1,27 @@
+X:16
+T:Auld Robin Gray
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=100
+Z:Peter Dunk 2012
+K:D
+!p!D|([FD]>[GE][AF]>[BG]) {[B/G/]}[A3F3] [AF]|\
+[BG]>G[dB]>[BG] {[B/G/]}[A3F3] zD|\
+([FD]>[GE][AF]>[BG]) ([BG][AF]GF)|(E>DG>F) (F2 E) D|
+%
+([FD]>[GE][AF]>[BG]) {[B/G/]}[A3F3] [AF]|\
+[BG]>c[dF]>F {[A/F/]}[G3E3] E|\
+"_cres."F<A (df) "_rall."(gecd)|F2 {F/}E>D D2||
+%
+!p!=F| (=F2 E>F) D2 (F>G)|\
+([A=F]>A[_BG]>G) [A2F2] "_cres."E>E|\
+([=FD]>E[FD_B,]>[^F=CA,]) ([GB,G,]>FG[^GED])|\
+"_rall."([AE^C]>^G)(d>[GD]) H[A3C3] !p!A|
+%
+(F<D) ([AF]>[BG]) ([BG][AF]) z[AF]|\
+([BG]>[AF][GE][FD]) ([AF] [G2E2]) E|\
+(FA) (d<f) "_rall."([gE]e[cG][dF])|\
+(F>G) {F/}(E>D) D2||

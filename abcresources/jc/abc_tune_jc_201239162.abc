@@ -1,0 +1,20 @@
+X: 321
+T: Willie Pringle, a Strathspey
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.32#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slow"
+R: strathspey
+M: C
+L: 1/8
+K: Gm
+V: 1
+^f | g<d~d>c {c}BAGA | B>c (e/d/c/B/) {B}A2 D^f |\
+     g<d~d>c {c}B>AGA | B>G (B/A/)(G/^F/) G2G, :|
+A | B>dfb A>cea | B>c e/d/c/B/ {B}~A2 D>A |\
+    B>dfb A>cea | B>G B/A/.G/^F/ G2 G, ||
+A | B>dfb A>cea | (B/A/B/c/) (e/d/c/B/) {B}~A2 D^f |\
+    ~g(a/b/) a>g ~^f(g/a/) d>c | {c}B>G B/A/G/^F/ G2G, |]
+V: 2 clef=bass middle=d
+z | g2G2  gdGz | Bde=e f2z2 | zbgf  gdGz | zcdD GDG, :|
+z | b2b2  a2a2 | zde=e f2z2 | b2b2  a2a2 | zedD GDG, ||
+z | zbd'b zfaf | bde=e f2z2 | g2^f2 d2B2 | zcdD GDG, |]

@@ -1,0 +1,93 @@
+%%center Anachreon in Heaven + Balquhidder Lasses
+%F: http://ancients.sudburymuster.org/mus/acn/pdf/fyf02F.pdf
+%S: anc02.pif
+%D: 030107
+
+
+X: 1
+T: Anachreon in Heaven  v.1
+T: Star Spangled Banner
+C: John Stafford Smith (1780)
+P: piffero primo a0263
+O: old guard
+F: http://ancients.sudburymuster.org/mus/acn/pdf/fyf02F.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+A>F |\
+D2 F2 A2 | d3 zfe | d2 F2 ^G2 | A3 zA>A |\
+f3 e d2 | c3 zBc | d2 d2 A2 | F2 D2 :|
+ff |\
+f2 g2 a2 | a4 gf | e2 f2 g2 | g3 zg2 |\
+f3 e d2 | c3 zBc | d2 F2 ^G2 | A3 zA2 ||
+d2 d2 dc | B2 B2 B2 | e2 gfed | d2 Hc2 AA |\
+d3 efg | Ha4 de | f3 g e2 | Hd6 |]
+
+
+X: 2
+T: Anachreon in Heaven  v.2
+T: Star Spangled Banner
+P: piffero secondo a0264
+O: old guard
+F: http://ancients.sudburymuster.org/mus/acn/pdf/fyf02F.pdf
+F: http://ancients.sudburymuster.org/mus/acn/pdf/fyf03F.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+A>F |\
+D2 D2 F2 | B3 zB2 | B2 F2 E2 | A3 zA>A |\
+D3 EFG | A3 zG2 | F2 A2 A2 | F2 D2 :|
+dd |\
+d2 e2 f2 | f4 ed | c2 d2 e2 | e3 ze2 |\
+d3 c B2 | A3 zGA | D2 D2 E2 | E3 z F2 ||
+F2 G2 A2 | G2 G2 G2 | G2 BAGF | F2 HE2 FE |\
+D3 EFG | HA4 GG | A3 B G2 | HF6 |]
+
+
+X: 3
+T: Anachreon in Heaven  v.3
+T: Star Spangled Banner
+P: piffero terzo a0265
+O: old guard
+F: http://ancients.sudburymuster.org/mus/acn/pdf/fyf02F.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+A>F |\
+D2 D2 C2 | B,3 zB,2 | B,2 D2 E2 | C3 zA,2 |\
+A,3 CDE | E3 zE2 | D2 F2 A2 | F2 D2 :|
+z2 |\
+z4 AF | D2 F2 A2 | A3 EC2 | A,2 B,2 C2 |\
+D3 EFG | A4 G2 | F2 B2 E2 | ABAGFE ||
+DCDEFA | GABAGF | E^DEFGA | A2 HA,2 AG |\
+FGFEDC | H=C4 BB | A3 G E2 | HD6 |]
+
+
+X: 4
+T: Balquhidder Lasses
+P: piffero primo b0073
+O: safd 153
+S: acn02.pif
+F: http://ancients.sudburymuster.org/mus/acn/pdf/fyf02F.pdf
+F: http://ancients.sudburymuster.org/mus/acn/pdf/fyf03F.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: This version is in 4/4; the 2/4 version is more common.
+M: 4/4
+L: 1/8
+K: Em
+BA |\
+G2FG (EF)GA | B2B2 e3e | d2A2 ABAG | FEFG A2BA |\
+G2FG EFGA | B2B2 e3e | d2A2 BAGF | E4- E2 :|
+B2 |\
+e2ef e2B2 | efgf e2B^c | d2de dAFA | (DE)FG A2B2 |\
+e2ef e2B2 | efgf e2B^c | d2A2 BAGF | E4- E2 ||
+B2 |\
+e2ef e2B2 | efgf e2B^c | d2de dAFA | DEFG A2BA |\
+G2FG EFGA | B2B2 e3e | d2A2 BAGF | E4 z2 |]
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

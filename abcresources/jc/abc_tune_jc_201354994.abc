@@ -1,0 +1,41 @@
+X: 1
+T: Young Sir Solomon
+T: Young Sir Solamon
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.114 #168 (228)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.217 "U"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The f in bar 2 actually is actually marked flat, not natural.
+N: In bar 12, "Bass" is placed inconsistently: the initial 'B' below the A note in CCDM1 and below the first G note in DMDfD.
+M: 6/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c/d/ |\
+d>fg ag^f | g3 =f3 | e>dc B2A | aba g>fe |\
+f>g f/e/ e2d | d3- d2 |] d/e/ | f>gf e2a | a>b^g a2"_Bass"D/E/ |
+F>GF EDC | D>ED B,2 "_Treble"g/f/ | e>dc d2G | "_Bass"A>GF G2G |\
+"_Treble"A>Bc d>cB | c3 G3 | E>DC C2B, | C3- C2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. meet and sett, and cast off into the 2d Cu. Place, then meet and
+%% sett, and cast up into their own Places :| The 1st Cu. cross over below the
+%% 2d Cu. and stand still, the 2d Cu. being in the 1st Cu. Place, take Hands and
+%% turn half round, the 1st Man being in the 2d Wo. Place, and the 1st Wo. in
+%% the 2d Man's, and all four take Hands and lead below the 3d Cu. round, till
+%% the 1st Cu. comes into the 2d Cu. Place to their own Sides :|
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%%   The 1. cu. meet and set, and cast off into the 2. cu. place, then meet and set, and cast up into their
+%% own places :|
+%%   The 1. cu. cross over below the 2. cu. and stand still, the 2. cu.being in the 1. cu. place, take hands
+%% and turn half round, the 1. man being in the 2. wo. place, and the 1. wo. in the 2. man's, all four take
+%% hands and lead below the 3. cu. round, till the 1. cu. comes into the 2. cu. place to their own sides :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

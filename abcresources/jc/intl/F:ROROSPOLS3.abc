@@ -1,0 +1,27 @@
+X: 46
+T: Rorospols 3
+O: Norway
+Z: Deborah Jones VIFD II
+M: 3/4
+L: 1/8
+Q: 1/4=160
+K: D
+%%MIDI program 41
+%%MIDI bassprog 33
+%%MIDI chordprog 24
+V:1
+|:"D" F2 A<F D>F|"Em" G2 B<G E2 |"A7" c2 e<c A>c|"D" D2 f<d "A7" A>G|
+V:2
+|:D2 F<D A,>D   | E2 G<E B,2    |A2 c<A E>A     |A2 d<A G>E         |
+V:1
+  "D" F2 A<F D>F|"Em" G2 B<G E2 |"A7" c2 e<c A>c|"D" D2 D4          :|
+V:2
+  D2 F<D A,>D   | E2 G<E B,2    |A2 c<A E>A     |F2 F4              :|
+V:1
+|:"D" f2 f<d f>a|"Em" g2 g>f e>d|"A7"c2 e<c e>g |"D" f2 f>e d2      |
+V:2
+|:d2 d<A d>f    | e2 e>d c>B    |A2 c<A c>e     |d2 d>A F>A         |
+V:1
+  "D" f2 f<d f>a|"Em" g2 g>f e>d|"A7"c2 e<c e>g |"D" d2 d4          :|
+V:2
+  d2 d<A d>f    | e2 e>d c>B    |A2 c<A c>e     |F2 F4              :|

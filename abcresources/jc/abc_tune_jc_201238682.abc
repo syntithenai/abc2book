@@ -1,0 +1,48 @@
+X: 31143
+T: COTILLION No. 16. LONG ISLAND SETT tune 3
+%R: march, reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.114 #3 (and p.114 #1)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+GF |\
+E2G2 G2c2 | A6 GF | E2c2 A2F2 | E2FE DFED |\
+E2G2 G2c2 | A6 GF | E2GE D2FD | C2C2C2 H|]
+de |\
+f2d2 B2G2 | g3f edef | g2e2 c2G2 | a6 cd |\
+e2gf e2e2 | c2ec GBcd | c2dc B2G2 | B2 [d2F2] "^D.C."[c4E4] H|]
+GF |\
+E2E2 E2F2 | G6 FE | D2D2 D2E2 | F6 ED | E2E2 E2F2 | G6 FE | D2A2G2B,2 | C2E2"^D.C."C2 |]
+cd |\
+e4 c4 | A6 GF | E2FG ABcd | e6 e2 |\
+d4 B4 | G6 FD | C2DE FGAB | A4 z2 |]
+%
+EF |\
+G2G2 GEAG | GFEF D2DE | F2F2 FDGE | CB,CD EDEF |\
+G2G2 GEAG | GFEF DEFG | GFEF D2F2 | C2c2c2 |]
+%
+Bd |\
+c2c2 dcBA | GAGF EGce | dcBA GABc | dcBA G2AB |\
+c2c2 dcBA | GAGF EGce | dcBA GABd | c2c2c2 |]
+%
+e>f | g3a agfe | f3g gfed | e3g fedc | dcBA Gdef |\
+g3a agfe | f3g gfed | e3g fedc | g^fed BAG"^D.C."F |]
+%
+% %scale 0.4	% Doesn't work; makes everything small, not just what follows.
+P: Descant or alternate lines (small notes) for strains 2, 3:
+z2 | z8 | z8 | z8 | z4 fgab | c'2e'c' g2c'g | e2ge cdef | cdfd g2B2 | B2 d2 "D.C."c4 |]
+z2 | EFED CDEF | GEcB AGFE | FGFE DEFG | FDdc BAGF | EFED CEFF | GEcB AGFE | FEFA B^FGG, | CcGE "D.C."C2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% ladies chain,
+%% promenade 4.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

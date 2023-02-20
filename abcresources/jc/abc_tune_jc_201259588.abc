@@ -1,0 +1,18 @@
+X: 1
+T: Canone
+P: piffero primo a0612
+O: Teleman
+%R: march
+F: http://ancients.sudburymuster.org/mus/spp/pdf/robroymacF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Why is there an initial rest "pickup"?
+M: 2/4
+L: 1/16
+K: D
+z2 \
+[| A2 d4 c2 | F2 B4 A2 | D2 G4 F2 | B4 A4 | G2FE F2D2 | TC4 {B,C}D4 | E2A2 F2D2 | A,4 z4 | A2 d4 c2 | F2 B4 A2 |
+|  D2 G4 F2 | B4 A4 | G2FE F2D2 | TC4 {B,C}D4 | E2A2 F2D2 | A,4 A4- | A2GF G2FE | F2ED E2DC | D2F2 G2A2 | D4 z4 |]
+[| DEF2 F2ED | A2A2 A2d2 | cde2 fed2 | e2A2 A2B2 | cdc2 c2d2 | efe2 e2f2 | T^G4 {FG}A4 | B2E2 c2E2 |
+|  d4 e2dc | f2F2 e4 | d2cB c2A2 | T^G4 {FG}A4 | B2e2 c2A2 | E4 e4- | e2dc d2cB | c2BA B2A^G | A2C2 D2E2 | A,4 z4 |]
+[| A2 d4 c2 | F2 B4 A2 | D2 G4 F2 | B4 A4 | G2FE F2D2 | TC4 {B,C}D4 | E2A2 F2D2 | A,4 z4 | A2 d4 c2 | F2 B4 A2 | D2 G4 F2 |
+|  B4 A4 | G2FE F2D2 | TC4 {B,C}D4 | E2A2 F2D2 | A,4 A4- | A2GF G2FE | F2ED E2DC | D2F2 G2A2 | D4 z2 |]

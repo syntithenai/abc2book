@@ -1,0 +1,43 @@
+X: 1521
+T: CHINESE GALOPADE
+O: Arranged by A.F. Knight
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.152 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+%----------
+V: 1
+"CLARINET PRIMO"|:\
+cccc c2e2 | g2c'2g2e2 | cccc c2e2 | d2g2 G4 |\
+cccc c2e2 | g2c'2g2e2 | dddd d2b2 | c'2c'2c'2z2 :|
+|:!f!\
+gggg g2b2 | aaaa a2d'2 | bbbb c'bag | ^f2d'2 d4 |\
+gggg g2b2 | aaaa a2d'2 | b2(c'b) a2(ba) | g2b2g2z2 :|
+|:!p!\
+cccc c2e2 | g2c'2g2e2 | cccc c2e2 | d2g2 G4 |\
+cccc c2e2 | g2c'2g2e2 | dddd d2b2 | c'2c'2c'2z2 H:|
+%----------
+V: 2
+"CLARINET SECONDO"|:\
+z2E2E2E2 | E2E2E2E2 | z2E2E2E2 | B2B2B4 |\
+CGEG CGEG | CGEG CGEG | FGFG FGFG | c2e2e2z2 :|
+|:!f!\
+BBBB B2B2 | dddd d2d2 | [B2G2][d2B2] [B2G2][d2B2] | d2d2 A4 |\
+!/!B8 | !/!d8 | d2d2 c2c2 | B2d2B2z2 :|
+|:!p!\
+z2E2E2E2 | E2E2E2E2 | z2E2E2E2 | d2B2B4 |\
+C4!trem2!G4 | C4!trem2!G4 | C4!trem2!G4 | c2e2e2z2 H:|
+%----------
+V: 3 clef=bass middle=d
+|:\
+c2c'2 c2c'2 | c2c'2 c2c'2 | c2c'2 c2c'2 | G2g2 g4 |\
+c'2g2 c'2g2 | c'2g2 c'2g2 | f2f2 g2G2 | c2c'2c2z2 :|
+|:!f!\
+g2g2g2g2 | ^f2f2f2f2 | g4g4 | d2d2d4 |\
+G2g2 G2g2 | !/!^f8 | g2g2 d2d2 | G2g2G2z2 :|
+|:!p!\
+c2c'2 c2c'2 | c2c'2 c2c'2 | c2c'2 c2c'2 | G2g2 g4 |\
+c2c2c2c2 | c2c2c2c2 | f4 g2G2 | c2c'2c'2z2 H:|
+%----------

@@ -1,0 +1,42 @@
+X:1
+T:LIBERTON POLKA
+M:C|
+L:1/8
+Q:80
+C:Traditional
+S:March
+K:HP
+|: e2 | \
+{g}A{d}B/2A/2{g}GA | \
+{Gdc}dA{gfg}f2 |
+{g}fe/2f/2{gf}ge | \
+{g}d3/4B/4d3/4e/4{g}fd | \
+{g}A{gBd}B/2A/2{g}G{d}A |
+{Gdc}dA{gfg}f2 | \
+{g}fe/2f/2{gf}gc | \
+{gef}ed{gdc}d{c}d ::
+{gef}e{g}f/2e/2{gcd}ce | \
+{ag}ac{gef}e2 | \
+{g}e{g}f/2e/2{Gdc}d{e}B |
+{g}fe{gcd}c2 | \
+{gef}e{g}f/2e/2{gcd}ce | \
+{ag}ac{gef}e2 |
+{g}e{g}f/2e/2{Gdc}dG | \
+{gBd}BA{GAG}A2 :: \
+e2 |
+{g}A{d}c{g}A{d}c | \
+{gef}e{g}f/2e/2{gcd}c2 | \
+{gef}e{g}f/2e/2{Gdc}d{e}B |
+{g}A{d}c{gcd}c2 | \
+{g}A{d}c{g}A{d}c | \
+{gef}e{g}f/2e/2{gcd}c2 |
+{gef}e{g}f/2e/2{Gdc}d{g}G | \
+{gBd}BA{GAG}A2 :: \
+{ag}af{g}f{ag}a |
+e{g}f/2e/2{gcd}c2 | \
+{g}e{g}f/2e/2{Gdc}d{e}B | \
+{g}fe{gcd}c2 |
+{ag}af{g}f{ag}a | \
+e{g}f/2e/2{gcd}c2 | \
+{g}e{g}f/2e/2{Gdc}d{g}G |
+{gBd}B{e}A{GAG}A2 :|

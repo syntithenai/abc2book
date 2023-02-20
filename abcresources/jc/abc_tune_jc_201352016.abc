@@ -1,0 +1,29 @@
+X: 1
+T: Whimbleton-House
+P: Longways for as many as will
+%R: march, reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.275
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the dance instruction.  The first strain has 5 bars; the second 12 (which is 4 3-bar phrases).
+N: This is a different dance and tune from the Wimbleton House in CCD2 and ACMV.
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G4 d2 cB | A2 G2 (AB) (cA) |\
+^F2 D2 G2 d2 | (cB) (AG) g2 G2 | A2 ^F2 G4 :|\
+d3 e f2 d2 | c3 B A2 B2 | c2 A2 ^F2 D2 |
+d3 e f2 d2 | c2 B2 g4 | g2 ^f2 g4 |\
+d3 e f2 d2 | c3 B A2 B2 | G2 A2 ^F2 D2 |\
+d3 e d2 (cB) | (AB) (cA) d2 G2 | A2 ^F2 G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. cast off and lead up all 4. with the 2. cu. The 1. man turns the 2. wo. the 1. wo. turns the
+%% 2. man :| Set all four to the 3. cu. half Figure, and cross over below the 2. cu.
+%% [DMDfD]
+%%endtext
+%%sep 1 1 300
+%%text Note: The second Strain played once.
+%%sep 1 8 500

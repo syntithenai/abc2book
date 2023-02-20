@@ -1,0 +1,28 @@
+X: 21491
+T: GRAND MILITARY SETT (tune 4)
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" 1843 p.149 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The phrasing of the music is unclear.
+M: 2/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+[|\
+c2Gc | Bcdc | ec gc | ^fc ac |\
+g2 ^f=f | ed cB | Ad BG | c3 z H|]
+AG EG | c2c2 | dcGc | e2e2 |\
+fe ce | g4 | ag fd | c3 "^D.C."z :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple promenade round,
+%% 2d. 3d and 4th the same,
+%% form lines lengthwise the hall,
+%% all march,
+%% all balance and change sides.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

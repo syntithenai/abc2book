@@ -1,0 +1,40 @@
+
+X: 1
+T: Royal Empress Tango
+P: I-AA-BB-A-Trio-A
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+P: Intro
+aaaa _b2g2 | e3=f g2e2 | c3d e2c2 | A2G2 F2E2 | "D"D z3 z4 | z3 ||
+P: A
+|: ad'2c'2 \
+|| "D"c'a3- a4- | a3f b2a2 | af3- f4- | f3f b2f2 | "A7"a4 c4- | c3B d2c2 | "D"BA3- A4- | "A7"A3 ad'2c'2 |
+|  "D"c'a3- a4- | a3f b2a2 | af3- f4- | f3f b2f2 | "Em"fe2f b2f2 | "A7"fe2f a2f2 | "D"ed3- d4- |[1,2 d3 :|["fine" .dz2 "A"k.A "D"k.dz :|
+P: B
+K: G
+|: z "D7"dddd \
+|| "G"d4 e4 | "D7"fz cz z2d2 | fz cz z2d2 \
+| "G"ez Bz dddd | d2~B2 A2G2 | "D7"~G2F2 FFdF |
+| "Ddim7"~F2E2 EEGF | "G"~E2D2  dddd \
+| "G"d4 e4 | "D7"fz cz z2d2 | fz cz z2d2 |
+| "G"ez Bz dddd | "C"d2c2 BdcA | "G"~A2G2 FAGE | "D7"d3e B2A2 | "G"G3 "->A"[|]:|
+P: Trio
+[| zD4 \
+| "G"[d6B6] [_d2_B2] | "D7"[c6A6] [^c2^A2] \
+| "G"[dB][cA] [B6-G6-] | [B6G6] D2 \
+| "D7"[B6F6] [A2F2] | [c6E6] [B2D2] \
+| "G"[BD][AC] [G6-B,6-] | [G6B,6][G2F2] |
+| "C"[G6E6] [F2D2] | [F6D6] [E2C2] \
+| "G"[E2C2] [D6-B,6-] | [D6B,6] [B2G2] \
+| "A9"[B6E6] G2 | "Adim7"[A6^D6] B2 \
+| "D"[d4-F4] [d4-G4] | [d4-^G4] [d4-A4] |
+| "Gm"[d6_B6] [^c2B2] | "D7"[c6A6] [_d2A2] \
+| "Gm"[d_B][cA] [_B6-G6-] | [_B4G4] "G7"G4 \
+| "Cm"[G6_E6] [^F2E2] | "G7"[=F6D6] [^F2D2] \
+| "Cm"[G_E][FD] [_E6-C6-] | [_E4C4] "Eb"[E4B,4] |
+| "Gm"[D6_B,6] [G2D2] | [F6D6] [=F2D2] \
+| "C"[E8C8] | "Eb"[_E6C6] z2 \
+| "G"[B6D6] [A2C2] | "D7"[c6E6] [B2D2] \
+| "G"[BD][AC] [G6-B,6-] | [GB,] z2 "->A"[|]|]

@@ -1,0 +1,40 @@
+X: 21023
+T: la FLEUR DE LA ROSE
+O: French air.
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.102 #3 (and p.103 #1)
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Rest split in last bar to get correct placing of the "D.C.".
+M: 3/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for compact staff layout.
+V: 1 staves=2
+|:\
+(GBd) | g2f | {f}e2d | {f}e2d |\
+(def) | (gab) | {b}c'2b | {b}a2F |\
+GBd | g2f | {f}e2d | {f}e2d |\
+gbd' | (^c'=c'b) | {b}agf | "Fine."g2z H:|
+b2b | afd | (ef).g | g2f |\
+(dfa) | (d'^c')b | (ag)f | {f}e2a |\
+b2b | (af).d | (ef)g | Tg2f |\
+(ad').^c' | (ba).g | (fg)e | Hd3 |\
+"_ad lib."d(e^c | B)c"^D.C."A |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout.
+V: 2
+|:\
+z3 | GBd | G2B | {d}c2B |\
+BcA | (Bdg) | {b}a2g | (f/e/d/c/B/A/) |\
+BGB | e2d | {d}c2B |
+{d}c2B |\
+B/d/G/d/B/d/ | Aed | {d}cBF | "Fine."B2z H:|\
+G2g | fAd | (^cd).e | e2d |\
+(F/A/)df | (fe)g |
+(fe)d | {d}^c2F |\
+GBd | FAd | (^cde) | Te2d |\
+(fb).a | (gf).e | (de)G | HF3 |\
+z3 | z2"^D.C."z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

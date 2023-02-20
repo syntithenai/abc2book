@@ -1,0 +1,16 @@
+X: 157
+T: the Boys in the Gap   #2
+R: jig
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #157
+O: F.O'Neill
+Z: 1997 henrik.norbeck@mailbox.swipnet.se
+N: Compacted by using labels and play order [JC]
+P: Play AB CB
+Q: "With spirit"
+M: 6/8
+L: 1/8
+K: Gm
+"^A"[|] D | G>AG B>cB | (A<F)F F2 A | G>AG g>ag | (f<d)d d2 |]
+"^B"[| =e | fgf f_ed | cdB ABc | d>ed d2 c | (B<G)G "^fine"G2 |]
+"^C"[|  d | g>ag gab | (a<f)f f2 a | g=e^f gab | afd "^->B"d2 |]

@@ -1,0 +1,10 @@
+X:1
+T: Song in three parts
+L: 1/4
+P: AABBC % or:
+P: A2.B2.C
+K: C
+[P: A] C D E F|C D E F|G G G G|G2 z2||
+[P: B] C E G c|C E G c|c c c c|c2 Cz||
+[P: C] C/E/G/c/ C2|C/E/G/c/ C2|C4|]
+%(:abcmend:)

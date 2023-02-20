@@ -1,0 +1,20 @@
+X: 30673
+T: the CIRCUS
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.67 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The g in the first bar should probably be an f.
+N: Dots added to first notes in last bar to fix the rhythm.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+fag cfc | AcA F2C | FAc cBA | d2c A2c |\
+faf cfc | AcA F2C | GAB cBA | def c2 :|
+|: A |\
+BAB GAB | ABc agf | def Bcd | ABc GAB |\
+AGA BAB | cde fed | gfe bge | [g3B3] [f2A2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

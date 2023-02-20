@@ -1,0 +1,18 @@
+X: 182
+T: Shiru HaShir
+O: Israel
+C: Matitiahu Shelem 1959
+D: Potpourri Israeli folk dances
+M: 2/4
+L: 1/8
+K: Gdor
+%%MIDI program 23 Tango Accordian
+%%MIDI chordprog 45 Pizzicator String
+%%MIDI gchord GzHz
+%%MIDI chordvol 64
+"C"CF2G   |"Am"A2B/A/G|"C"c3/2B/AG|"Gm"G2 G2 |\
+"C"CFED   |"Gm"CGGG   |G4-        |G4        :|
+"C"cc2B/A/|B/A/GGz    |cc2B/A/    |B/A/GGz   |\
+CFED      |CGG2       |"F"FFF2    |"Edim"EEE2|
+"C"CFED   |CGG2       |"F"FFF2    |"Edim"EEE2|\
+"C"CFED   |CFED       |"Gm".G2.G2 |.A2G2     |

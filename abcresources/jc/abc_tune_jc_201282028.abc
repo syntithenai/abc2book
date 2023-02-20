@@ -1,0 +1,27 @@
+X: 100
+T: Goodwin's Maggot    [D]
+N: Often mispelled as "Godwin's Maggot"
+P: Longways for as many as will.
+O: Young 1710 (DM v.2 #100)
+B: John Young "The Dancing-Master" V.2 1710 #100
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: Initial rest added to fix the the rhythm of repeats.
+L: 1/8
+M: 9/8	% Originally 9/4
+K: D
+z |\
+f>ed AFA d2A | f>ed f/g/ag eca |\
+f>ed AFA B/c/dB | eB/c/d cAc d2 :|
+|: D |\
+F/G/AB AFA B/c/dB | F/G/AB eB/c/d c2E |\
+F/G/AB AFA B/c/dB | eB/c/d cAc d2 :|
+%%center Note: Each Strain is to be play'd twice over.
+%%begintext align
+%%   The first Couple cross over the second and third Couple,
+%% and draw in and out with the second and third Couple,
+%% till you come to your own Places .|
+%% Then the first Man change Place with the second Woman,
+%% the first Woman do the same with the second Man :|
+%% Then the first and second Couple take Hands half round .|
+%% The Right and Left quite round into the second Couple's Place :|
+%%endtext

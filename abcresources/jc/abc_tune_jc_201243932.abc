@@ -1,0 +1,32 @@
+X: 952
+T: Lord Eglinton's Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.95 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Shortened some final notes in strains to fix the repeat rhythms.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F |\
+ABAF D/D/D dA | BdAF E/E/E EF |\
+ABAF D/D/D (Tf>e) | dBAF D/D/D D :|\
+|: (f/g/ |\
+a)dab abaf | gbfa e/e/e Te(f/g/ |
+a)dab abaf | geaf d/d/d d(f/g/ |\
+a)dab abaf | gbfa e/e/e e(f/g/ |\
+a)fge fdec | (d/c/B/A/) dF D/D/D D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 d2d2 | d2d2 e2e2 |\
+d2d2 d2d2 | G2A2 D2D :|\
+|: z |\
+d2d2 d2d2 | d2d2
+e2e2 |\
+d2d2 d2d2 | g2a2 d2d2 |\
+d2d2 d2d2 | d2d2 e2e2 |\
+d2e2 f2g2 | a2a2 d2d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

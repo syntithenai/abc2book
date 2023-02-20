@@ -1,0 +1,23 @@
+X:1
+T: The More the Merrier
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 200
+%W: A
+% voice 1 (1 lines, 33 notes)
+K:Am
+M:4/4
+L:1/16
+A2 B2 |c4 B2 A2 ^G4 E4 |^G4 B8 B2 c2 |d4 B4 e4 ^G4 |A12 A2 B2 |c4 B2 A2 ^G4 E4 |^G4 B8 B2 c2 |d4 B4 e4 ^G4 |A12 B4 |
+%W: B1
+% voice 1 (1 lines, 36 notes)
+c6 d2 e2 d2 e2 f2 |d4 G8 G4 |c6 d2 e2 d2 e2 f2 |g4 e8 d2 e2 |f4 e4 d4 c4 |B2 c2 B2 A2 ^G4 E4 |A4 B2 c2 B4 A4 |A12 B4 |
+%W: B2
+% voice 1 (1 lines, 35 notes)
+c6 d2 e2 d2 e2 f2 |d4 G8 G4 |c6 d2 e2 d2 e2 f2 |g4 e8 d2 e2 |f4 e4 d4 c4 |B2 c2 B2 A2 ^G4 E4 |A4 B2 c2 B4 A4 |A12 ||

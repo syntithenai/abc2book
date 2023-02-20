@@ -1,0 +1,42 @@
+X: 1
+T: the Cameron Highlanders
+C: J. Scott Skinner
+R: march
+S: handwritten page in Concord Slow Scottish Session collection
+S: "The Strathspey & Reel Society of New Hampshire, Inc." at bottom
+N: labelled "SRS 10/94 7.5 at top right
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+% %continueall
+%%staffsep 40
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+"A"[|] e2 |\
+"A"A2ec "A7"A2eA | "D"{fa}f2e2 "E7"e2a2 |\
+"A"A2ec "F#m"A2eA | "Bm"{B}c2B2 "E7"B2c2 |\
+"A"A2ec "A7"A2eA |
+"D"{fa}f2e2 "E7"e2a2 |\
+"D"faea "E7"caBa | "A"{ce}c2A2A2 "B":: a2 |\
+"A"{fa}f2ea {ce}c2Aa | "A"{ce}c2A2A2a2 |
+"A"{fa}f2ea "F#m"{ce}c2Aa | "Bm"{ce}c2B2"E7"B2a2 |\
+"A"{fa}f2ea {ce}c2Aa | "A"{ce}ecac "A7"e2{g}a2 |\
+"D"faea "E7"caBa |
+"A"{ce}c2A2A2 "C":: ec |\
+"A"A<Aec "A7"AecA | "D"{fa}f2e2"E7"e2a2 |\
+"A"A<Aec "F#m"AecA | "Bm"{ce}c2B2 "E7"B2ec |
+"A"A<Aec "A7"AecA | "D"{fa}f2e2"E7"e2a2 |\
+"D"faea "E7"caBa | "A"{ce}c2A2A2 "D1":|| a2 |\
+"A"faea caAa |
+"A"{ce}c2A2A2a2 |\
+"A"faea "F#m"caAa | "Bm"{ce}c2B2"E7"B2a2 |\
+"A"faea caAa | "A"ecac "A7"efga |
+"D"faea "E7"caBa | "A"{ce}c2A2A2 "D2"|[| a2 |\
+"A"faea caBa | "A"AaBa caAa |\
+"A"faea "F#m"caAa |
+"Bm"{ce}c2B2 "E7"B2ec |\
+"A"A<AcA eAcA | "A"eAfA "A7"gAaA |\
+"D"faea "E7"caBa | "A"{ce}c2A2[A2E2] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% %text: Last time: Rit . . . . . A - D - A.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

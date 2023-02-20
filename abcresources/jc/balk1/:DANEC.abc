@@ -1,0 +1,36 @@
+X: 92
+T: Danec
+O: Bulgaria
+F: http://www.youtube.com/watch?v=fYW5niWvxg0
+M: 2/4
+L: 1/8
+Q: 1/4=180
+P:ABACDE
+K: D
+%%MIDI gchord fzfz
+%%MIDI program 69
+%%MIDI bassprog 117
+%%MIDI bassvol 50
+P:A
+|:"D"A4      |F2EF    |"G"A2GA  |F2E2    |\
+  A2GA       |F2E2    |"D"D4    |D4      |
+  "C#dim" E4 |E4      |"A"DEFG  |F2ED    |\
+  "C#dim"DE2D|"D"F2ED |D4       |[1DEFG  :|z4  |
+P:B
+|:"D"D2G2    |"G"GFE2 |"A"A2F2  |"D"FED2 |\
+  "G"A2G2    |"A"GFE2 | "D"F4   |F4      |
+  D2G2       |"G"GFE2 |"A"A2F2  | "D"FED2|\
+  CDE2       |EDCD    |E4       |E4      :|
+P:C
+|:"D"G>AF2   |"G"G>AD2|"A"A>BF>E|"D"E>FD2|\
+  "G"G>AF2   |G>AD2   |"A"A2F2  |E4      :|
+P:D
+|:"D"DEFG    |F4      |"A"E4    |"D"D4   |\
+  "D"DEFG    |DEFG    |F4       |"A"E4   |"D"D4|A,2D2|D4 :|
+P:E
+K:Bm
+|:"Em"E2E2   |EDCB,   |E2G2     |"B"F4   |\
+  "C#dim"E2G2|"A"F4   |"E"D2F2  |E4      :|
+|:"Em"B3A    |"G"GFE2 |"B"F3E   |D2F2    |\
+  "Em"E4     | E2DE   |F3A      |GFE2    |\
+  F3E        |D2F2    |E4       :|

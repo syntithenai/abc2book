@@ -1,0 +1,29 @@
+X: 352
+T: Mr GEORGE GORDON
+T: re-named the Strathbogie Toast
+C:  Wm MARSHALL
+R: Reel
+B: Glen Collection p.35 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Gm
+%
+V: 1
+dg a/g/^f g2d=f | cdfg dfcf | dg a/g/^f g2dg | f<dc>A {A}G2G2 |
+dg a/g/^f g2d=f | cdfg dfcf | dfga bagf | d<fTc>A {A}G2Gg ||
+BGdG BGdG | fdcf AFcA | BGdG BGdG | f<dTc>A {A}G2Gg |
+BGdG BGdG | fdcf AFcA | GABc d=efTg | f<dTc>A {A}G2G2 |]
+%
+V: 2
+g2[d'2b2] d2[d'2b2] | f2[c'2a2] c2[c'2a2] |\
+g2[d'2b2] d2[d'2b2] | d2[a2f2] [b2g2][b2g2] |
+g2[d'2b2] d2[d'2b2] | f2[c'2a2] c2[c'2a2] |\
+g2[d'2b2] d2[d'2b2] | f2[a2f2] [b2g2][b2g2] ||
+g2[d'2b2] d2[d'2b2] | f2[c'2a2] c2[c'2a2] |\
+g2[d'2b2] d2[d'2b2] | f2[c'2a2] [d'2b2][b2g2] |
+g2[d'2b2] d2[d'2b2] | f2[c'2a2] c2[c'2a2] |\
+g2[d'2b2] d2[d'2a2] | f2[a2f2] [b2g2][g2G2] |]

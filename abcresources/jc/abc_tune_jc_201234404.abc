@@ -1,0 +1,38 @@
+X: 20491
+T: JOHNNY COPE
+O: A favorite English Air
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.49
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Changed length of first low A at end of 5th strain to fix a missing 8th note.
+N: Added missing bar line in 6th strain.
+M: C|
+L: 1/16
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+EG |\
+A2A2A2Bd e2A2 A2GF | G2G2 GABc d>ed>c B2AG |\
+c3cd3d e2g2 B2AB | G2g2 (ed)(cB) A4 A2 :|
+|: AB |\
+c2c2 cGEG c>de>f g2d>c | B2AG d2G2 B>cd>e d2cB |\
+cBcd e>dea ged>c B2AB | G2g2 edcB A4 A2 :|
+|: E2 |\
+A4 ABcd e2A2 BAGE | G4 GABc d2G2 BAGE |\
+A4 ABcd e2A2 B2AB | G2g2 edcB A4 A2 :|
+|: AB |\
+c4 c2C2 cdef g2c2 | {c}B2AG G2d2 Bcdc B2A^G |\
+A2c2B2d2 c2e2 B2AG | G2g2 edcB A4 A2 :|
+|: EG |\
+A2A,2 ABcd edcB dcBA | G2D2 GABc dBgd cBAG |\
+A2GF EDCB, A,B,CD E2DC | D3F EDCB, A,4A,2 :|
+|: e2 |\
+a4 a2ga b2a2 bagf | g4 g3a gaba bage |\
+a4 a2ga b2g2a2e2 | g2d2 edcB A4 A2 :|
+|: E2 |\
+AGAB ABcd efed cBcA | BGdG eGdG Bdgd cBAG |\
+cdcB AGAF ABcd edec | dega gedB A4 A2 :|
+|: a2 |\
+aeab aeab Acea baec | gdgb gdgb GBdg bgdB |\
+eceg dBdf cAca fBdf | ecdB cAB^G A4 A,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,36 @@
+X:1
+T:M\'ilo mou k\'okkino
+O:Greece
+R:Kalamatiano
+Z:2017 John Chambers <jc:trillian.mit.edu>
+F:http://www.tousauxbalkans.net/Milo_mou_kokkino
+F:http://www.tousauxbalkans.net/abc/Milo%20mou%20kokkino.abc
+M:7/8
+L:1/8
+K:C
+|:\
+("C"[C/E/][D/F/][EG])[EG] [EG][DF] [DF][CE] |\
+("F"[D/F/][E/G/][FA])[FA] [FA][EG] [EG][DF] |\
+("C"[C/E/][D/F/][EG])[EG] [EG][DF] [DF][CE] |\
+[1 "C"[CE][B,D][A,C] "G7"[G,4B,4] :|\
+[2 "C"[C2E2][DF] ("G7"[E/G/][D/F/][C/E/][D/F/] "C"[C2E2]) |]
+|: "C"C3 C2 C2 | E2F G4 | ""A3 A2 A2 |1 "C"G2F E>F ED :|2 "C"G2F E4 |]
+|: "C"G3 AG FE | "Dm"F2E D2 CD | "G7"E3 FE DC |1 "C"E2D CDEF :|2 "C"E2D C4 |]
+%
+W: / Μήλο μου κόκκινο, 'ρόϊδο βαμμένο /
+W: / γιατί μ' εμάρανες, τον πικραμένο; /
+W: / Πηγαίνω κι έρχομαι, μα δεν σε βρίσκω /
+W:   βρίσκω την πόρτα σου αμπαρωμένη
+W:   τα παραθύρια σου φεγγοβολούνε.
+W: / Ρωτώ του πάπλωμα, ‹Πουν' η κυρά σου;› /
+W:   ‹Κυρά μου δέν ειν' δω, πάησι στη βρύση
+W:   πάησι 'να πιή νιρό, κι 'να γεμίση.›
+W:
+W: / M\'ilo mou k\'okkino, 'r\'o\"ido vamm\'eno /
+W: / giat\'i m' em\'aranes, ton pikram\'eno; /
+W: / Piga\'ino ki \'erkhomai, ma den se vr\'isko /
+W:    vr\'isko tin p\'orta sou amparom\'eni
+W:    ta parath\'yria sou feggovolo\'une.
+W: / Rot\'o tou p\'aploma, ‹Poun' i kyr\'a sou;› /
+W:    ‹Kyr\'a mou d\'en ein' do, p\'aisi sti vr\'ysi
+W:    p\'aisi 'na pi\'i nir\'o, ki 'na gem\'isi.›

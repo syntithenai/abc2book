@@ -1,0 +1,27 @@
+X: 1
+T: St David's Day
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (195)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A, |\
+D>ED E>FE | F>EF D2d | c2d eBd | c3 A2F |\
+D>ED E>FE | F>GF D2d | BdB c/d/ec | d3 D2 :|
+|: f |\
+f>ga agf | g>ab bfg | efg Bcd | c3 A2G |\
+F>GA Bcd | F>GA Bcd | E>FG F>ED | D3- D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The two 1st Men change Places with the two Woman the
+%% first Couple cast off and change Places again then the
+%% second Couple cast off :| Hands half round then clap
+%% Hands with your Partners and turn all four single
+%% then lead up abreast and cast off :|
+%%endtext
+%%sep 1 8 500

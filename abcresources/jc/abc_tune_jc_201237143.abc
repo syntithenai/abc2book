@@ -1,0 +1,30 @@
+X: 243
+T: Sally Robinson's Favorite
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.24#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: The two bass lines should be combined on one staff.
+Q: "Slow with Expression"
+R: reel
+M: 2/4
+L: 1/16
+K: F
+V: 1
+cB |\
+!p!.A2(A2B2d2) | c3AF2 zB | (AG)(BA) (^cd).B.G | !f!(F4 {GF}.E2)cB |
+!p!.A2(A2B2d2) | c3AF2 zd | (cf).A.c (cB).A.G | !f!(G4 {AG}.F2) :|
+|: G2 |\
+!f!E4 B2GE | !p!F2.d.c .B.A.G.F | !f!E4 B2GE | !p!(FD)(GF) (AG).B.A |
+c3AB2 zd | c2(cd/B/) A2 zd | (cf).A.c (cB)AG | (G4 {AG}F2) :|
+V: 2 clef=bass middle=d
+z2 |\
+ac'ac' bc'bc' | ac'ac' a2G2 | f4 b2=b2 | c'2c'd' c'bag |
+ac'ac' bc'bc' | ac'ac' a2y2 | y8 | y6 :|
+|: z2 |\
+ecec ecec | fcfc fcfc | ecec ecec | f2z2 z4 |
+ac'ac' bc'bc' | ac'ac' fac'a | y8 | y6 :|
+V: 3 clef=bass middle=d
+z2 |\
+f4 f4 | f4 f2G2 | f4 b2=b2 | c'2c'd' c'bag |
+f4 f4 | f4 f2B2 | a2f2c'2c2 | f2c2F2 :|
+|: z2 | G8 | F8 | G8 | f2z2 z4 |
+f4 f4 | f4 f4 | a2f2c'2c2 | f2c2F2 :|

@@ -1,0 +1,39 @@
+X: 131
+T: O dear Mother, what shall I do
+%R: air, waltz
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.13 #1
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Q: "slow"
+M: 3/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1
+|:\
+D3ED2 | F2A2B2 | d3ef>e | {e}Td3BA2 |\
+d2B>dA>d | B4b2 | a2(ba)(gf) | (Te4{de}d2) |
+({G}TF3E)D2 | JF2A2B2 | d2d>e f>e | Td3BA2 |\
+~B3cd2 | TA2{G}F2A2 | B>cd2(F>G) | {F}TE4D2 :|
+|:\
+f>ga2a2 | agf2a2 | b2a2(g>a) | {g}Tf3ed2 |\
+f>ab2(b>c') | Tb4a2 | d2d>ef>g | {f}Te4d2 |
+Tfedefg | a>gf2a2 | b2Ta2g2 | a>gTf>ed2 |\
+B3cJd2 | TA2{G}F2A2 | B>cd2(F>G) | {F}TE4D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+|:\
+d4z2 | d4g2 | "6"f2"6;5"g2a2 | d2D2z2 |\
+b4"6"f2 | g2G2g2 | "6"f2g4 | "4"a2"3"A2d2 |
+D4z2 | d4g2 | "6"f2"6;5"g2a2 | d2e2"6"f2 |\
+g2G2z2 | "6"f2d2f2 | g4d2 | "4"a2"3"A2d2 :|\
+|:\
+d>e"6"f2"6"c2 |
+d4"6"f2 | g2"6;4"a2"5;3"A2 | d2D2z2 |\
+d2g2G2 | "6;4"d2D2"5;3"d2 | B2b2g2 | "4"a2"3"A2d2 |\
+z6 |
+"6"fedefd | g2"6"f2"6"e2 | "6"f4f2 |\
+g2G2z2 | "6"f2d2f2 | g4d2 | "4"a2"3"A2d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

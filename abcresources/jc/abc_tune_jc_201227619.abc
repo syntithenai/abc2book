@@ -1,0 +1,20 @@
+X: 10893
+T: the FIRST OF JUNE
+Q: "In the style of a March."
+%R: march, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.89 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+B>F B>c B2 (cd/e/) | d2 c>B B2 zd | B2 G>F F2 f2 | B>c d>e {d}c2 F2 |\
+B>A B>c B2 B2 | g2 f>e d3 d | c2 B2 A>B c>d | A2 G>F F2 zF |
+c>d c>d c2 F2 | d>e d>e d2 c>d | eeed g2f2 | G2 e>d {d}c2 c2 |\
+f>=e f>g a2 g>f | f2 f>a b>d e>f | Hg4 z2cc | (ef/g/) fe d2 c>B |\
+B6 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

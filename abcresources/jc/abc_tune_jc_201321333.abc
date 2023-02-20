@@ -1,0 +1,11 @@
+X: 1
+T: Pols etter Halvor \Orsal
+O: Norway
+R: R\orospols
+M: 3/4
+L: 1/8
+K: Dm
+|: "Dm"A>c d2 e<f | "A7"d<c e4 \
+| ~g>e "Dm"f<d "A7"e>c |1,3 "Dm"d>e f<d "A7"c>A :|2,4 "Dm"d2 d4 :|
+|: "Dm"{f}a>a a/f/a a/f/a | "A7"g>g g/e/g g/e/g \
+| "Dm"a>f d<f "A7"e>c |1,3 "Dm"d>e f<d "A7"c>A :|2,4 "Dm"((3def) d4 |]

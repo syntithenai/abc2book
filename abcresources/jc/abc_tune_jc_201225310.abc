@@ -1,0 +1,36 @@
+X: 6
+T: the Chance
+C: Michael Dabney
+%R: reel
+B: Michael Dabney "Twelve Minuets and Twelve Dances" p.9 #2
+S: http://imslp.org/wiki/12_Minuets_and_12_Dances_(Dabney,_Michael)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces mostly 4- or 8-bar staffs.
+V: 1
+c2 |\
+fgaf efge | defd cAGF |\
+fafd egec | fdc=B c2 :|
+|: c2 |\
+dBTB2 bBTB2 | cAA2 aAA2 |\
+BGGG g3b | agfe f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+z2 |\
+f2a2c'2c2 | B2G2A2F2 |\
+f2z2 c'2e2 | f2g2c2 :|\
+|: a2 | b2g2 z2g2 |
+a2f2 z2f2 |\
+g2c2e2c2 | f2c2F2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hey down your own Side, the
+%% same back again _ fall in top
+%% and bottom & set all 6 the
+%% same on the Sides, turn cross
+%% Corners lead out sides
+%%endtext

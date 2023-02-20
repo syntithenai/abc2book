@@ -1,0 +1,50 @@
+X: 357
+T:Nestinarsko
+O:Bulgaria
+F: http://www.youtube.com/watch?v=7lFZ7K2SAiI
+I:bagpipes and percussion recommended
+P:ABCBCDEDEFGH
+M:2/4
+L:1/8
+Q:1/4=180
+K:Dm
+%%MIDI gchord fzzz
+%%MIDI drum d2d2 50
+%%MIDI drumon
+P:A
+   A4-      |A4       |D4-       |D4      |"Dm"z4    |
+P:B
+|:"D"D2EF   |GAGA     |GFGA      |D4      |\
+  A2GA      |GFED     |D4        |D4      :|
+P:C
+|:"D"A2GA   |GF"A"EC  |"D"D4     |DEFG    |\
+  A2GA      |GF"A"EC  |"D"D4     |D4      :|
+P:D
+|:"D"FGAG   |A4       |FGAG      |A4      |\
+  FGAG      |A4       |GF"A"EC   |"D"D4   :|
+P:E
+|:"D"G2FE   |DEDC     |"C"G2"D"FE|"D"DEDC |\
+  "C"G2"D"FE|DEDC     |D4        |D4      :|
+P:F
+|:"D"D2EF   |GAA2     |GAA2      |D4      |\
+  A2GA      |GF"A"EC  |"D"D4     |D4      :|
+P:G
+|:"D"A2AG   |FGD2     |A2AG      |FGD2    |\
+  A2AG      |FGD2     |FD"A"EC   |"D"D4   :|
+P:H
+K:Am
+|:"A"A,2B,C |DEDE     |DCDE      |A,4     |\
+  E2DE      |DCB,A,   |A,4       |A,4     :|
+|:"A"E2DE   |DC"E"B,G,|"A"A,4    |A,B,CD  |\
+  E2DE      |DC"E"B,G,|A,4       |A,4     :|
+|:"A"CDED   |E4       |CDED      |E4      |\
+  CDED      |E4       |DC"E"B,G, |A,4     :|
+|:"A"C2B,A, |A,B,A,G, | C2B,A,   |A,B,A,G,|\
+  C2B,A,    |A,B,A,G, |A,4       |A,4     :|
+K:Dm
+|:"D"FGAG   |A4       |FGAG      |A4      |\
+  FGAG      |A4       |GF"A"EC   |"D"D4   :|
+|:"D"G2FE   |DEDC     |"C"G2"D"FE|"D"DEDC |\
+  "C"G2"D"FE|DEDC     |D4        |D4      :|
+|:"D"D2EF   |GAA2     |GAA2      |D4      |\
+  A2GA      |GF"A"EC  |"D"D4     |D4      :|

@@ -1,0 +1,29 @@
+
+X: 1
+T: Eddie Kelly's Jig No. 1
+C:Martin Talty
+R:double jig
+M:6/8
+L:1/8
+K:Edor
+|:\
+efe dBA | BAG EDB, | DEG Eed | BAG ABd |\
+efe dBA | BAG EDB, | DEG Eed | BAG E3 :|
+|:\
+e2f gfe | beg fed | Beg bge | fed e2f |\
+~g3 edB | AFD FGA | d2e fed | BAF E3 :|]
+
+%%sep 1 1 500
+
+X: 2
+T: Eddie Kelly's Jig No. 2
+R:double jig
+M:6/8
+L:1/8
+K:Em
+|:\
+BEF G2A | BAB edc | ~B3 GAB | AFD FGA |\
+BEF G2A | BAB edc | ~B3 GAB | AFD E3 :|
+|:\
+g2e fed | Bee Bef | gfe fed | B^cd e2f |\
+gfe fed | Bee Bef | gfe fed | B^cd [1 e3 :|2 Hed=c |]

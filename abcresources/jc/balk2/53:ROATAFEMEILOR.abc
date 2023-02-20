@@ -1,0 +1,19 @@
+X: 353
+T: Roata Femeilor
+O: Romania
+M: 3/4
+L: 1/8
+K: F
+Q: 1/4=120
+V:1
+%%MIDI program 41
+|:EFG3F  |A2c4  |dcB3F  |AFG4    |\
+  A2c4   |dcB3F |AFG4   |FEF4::
+  ff3c2  |d2d4  |cdB2AB |AG5     |\
+  A2c4   |dcB4  |GB/A/G4|AGF4    :|
+V:2
+L:1/4
+|:F,,G,,2|A,,C,2|D,F,,2 |A,,G,,2 |\
+  A,,C,2 |D,B,,2|A,,G,,2|F,,F,,2::
+  F,,C,2 |D,D,2 |D,B,,2 |A,,G,,2 |\
+  A,,G,,2|D,B,,2|G,,G,,2|A,,F,,2 :|

@@ -1,0 +1,16 @@
+X: 646
+T: the Collier's Reel
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #646
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0646/oneill-1001-0646-1.abc
+M: C|
+L: 1/8
+K: Dmix
+"^A"[|]\
+G | (3(FED) (FG) A2(AB) | cAd(B cAG)c | Add(c d2)de | fd(ec dc)AG ||
+|| F(EFG) A2(AB) | cAd(B cAG)c | Add(c A2)A(G | EF)G(E FDD) |]
+"^B"\
+[| g | fde(g fd)ec | Add(c Add)g | fde(g f)dec | ABcd e2(fg) ||
+|| agf(a gf)eg | fde(d cA)Gc | Add(c A2)A(G | EF)G(E FDD) |]

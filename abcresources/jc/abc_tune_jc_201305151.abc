@@ -1,0 +1,28 @@
+X:1
+T:MacKenzie of Gairloch
+M:C|
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+|: {gcd}c{e}A{GAG}A{g}B/2c/2 | \
+{Gdc}d3/2c/2{gBd}B{e}G | \
+{gcd}c{e}A{GAG}A{gf}g |
+{ag}a3/2e/2{gf}ga | \
+{cd}c{e}A{GAG}A{g}B/2c/2 | \
+{Gdc}d3/2c/2{gBd}B{e}G |
+{g}A{ag}a{ef}e3/2c/2 | \
+{Gdc}d{e}B{gBd}B{G}A :: \
+{g}G3/2{d}B/2{gf}g3/2f/2 |
+{gef}e{gf}g{Bd}B{g}A/2{d}G/2 | \
+{g}A{ag}a{g}a3/2f/2 | \
+{gef}e{ag}a{cd}c{g}B/2{d}A/2|1
+{g}G3/2{d}B/2{gf}g3/2f/2 | \
+{gef}e{gf}g{Bd}B{g}A/2{d}G/2 | \
+{g}A{ag}a{ef}e3/2c/2 |
+{Gdc}d{e}B{gBd}B{G}A:|2
+{gf}ga{ef}ef | \
+{Gdc}d{gf}g{Bd}B{g}A/2{d}G/2 |
+{g}A{ag}a{ef}e3/2c/2 | \
+{Gdc}d{e}B{gBd}B{G}A|]

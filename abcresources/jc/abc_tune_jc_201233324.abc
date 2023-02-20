@@ -1,0 +1,23 @@
+X: 191
+T: The Lass and the Money's all my own
+R: jig
+M: 6/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Abraham Mackintosh "A Collection of Strathspeys, Reels, Jigs &c.", Newcastle, after 1797, p.19
+F: http://imslp.info/files/imglnks/usimg/a/a8/IMSLP80796-PMLP164326-Abraham_Mackintosh_coll.pdf
+K: A
+V: 1
+   f |\
+ecA ABc | d2c B2A | ecA ecA | B2c d2f |\
+ecA ABc | d2c B2A | c/d/ec dBe | cAA A2 :|
+|: e |\
+fdf ece | fdf ece | fga edc | B2c d2f |\
+efg agf | edc B2A | c/d/ec dBe | cAA A2 :|
+V: 2 clef=bass middle=d
+z |\
+[a3A3] [a3A3] | f2e d2c | [a3A3] [a3A3] | g2a b2d' |\
+c'3 a3 | f2e d2c | [a3A3] [e3E3] | a3 A2 :|
+|: z |\
+[d'3a3] [c'3a3] | [d'3a3] [c'3a3] | [d'3a3] c'2a | g2a b2d' |\
+[c'2a6]d' c'2d' | c'ba e'd'c' | [a3A3] [e3E3] | [a3A3] [a2A2] :|

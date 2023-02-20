@@ -1,0 +1,12 @@
+X:1
+T:Wild One, The
+R:Jig
+M:6/8
+L:1/8
+%%printtempo 0
+Q:160
+K:Dm
+"Dm"DEF DGD|"F" ADc AGF|"Bb" DEF DGD|"Am" ADF E3|
+"Dm"DEF DGD|"F" ADc AGF|"Bb" dcA "C"GAF| "Am"EDC "Dm"D3 :|
+|:"Dm"d2c A2c| dcA cdc| d2c A2G| "Am"FGE FED|
+"Dm"d2c A2c| dcA cdc| dcA "C"GAF| "Am"EDC "Dm"D3:|]

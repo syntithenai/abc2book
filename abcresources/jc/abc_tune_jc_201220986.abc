@@ -1,0 +1,23 @@
+X: 7
+T: the Merry Girls of Bristol
+%R: march, reel
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1765", London 1765, p.4 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1765#
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+GBdB | efge | dBAG | AFED |\
+GBdB | efge | dcBA | G2-G2 ::\
+dfaf | bgfe | fgaf | e^cBA |
+dfaf gabg | faA^c | d2D2 | GBdB |\
+efge | dbca | BgAf | GBdB |\
+efge | dcBA | G2[G2G,2] :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right hands across round .|. left hands back again
+%% :|. Cross over two Cu: lead up to the top and cast off .|:
+%% hands round four at bottom Right and left at top :|:
+%%endtext

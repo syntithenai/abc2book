@@ -1,0 +1,23 @@
+X: 1
+T: Kathryn's Reel
+C: by David A Kaynor 2010
+R: reel
+%D:2010
+B: David A. Kaynor "Living Music and Dance" 2021 p.88
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+S: Dave_Kaynors_Melodies_and_Harmonies.PDF
+M: 4/4
+L: 1/8
+K: Am
+# = = = = = = = = = =
+"^A"|:\
+"Am"A2AB cBcd | ea-ag a2"G"gf | "Am"e2AB \
+[1,3 cBcd | "Dm"e2dc "Em"BdcB :\
+[2,4 "Dm"cBcd | "Em"BAGE "Am"EAA2 :|
+"^B"|:\
+"Am"e2ed eaa2 | e2dc "Em"cBB2 | "Am"e2ed eaed |\
+[1,3 "Dm"cA"Em"BG "Am"A2cd :|\
+[2,4 "Em"BAGE "Am"EAA2 :|
+# = = = = = = = = = =
+%%begintext align
+%%endtext

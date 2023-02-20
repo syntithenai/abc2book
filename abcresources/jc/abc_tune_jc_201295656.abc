@@ -1,0 +1,24 @@
+X: 1
+T: Karen's Reel [ABCDD]
+C: Sandy Nixon
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+N:
+M: C|
+L: 1/8
+K: D
+"A"[|] \
+   A,2 \
+| "D"~D2A,D FDFA | B2A2 A4 | ~A2^GA "B7"BA=GF | "Em"G2E2 E3D \
+| "A7"~C2A,C ECEG | c2B2 B4 | "(Em)"gfed "A7"cBA^G | "D"B2A2 "A7"A2 |]
+"B"\
+[| A,2 \
+| "D"~D2A,D FDFA | B2A2 A4 | ~A2^GA dcBA | "G"c2B2 "B7"B3c \
+| "Em"~B2^AB gBeg | "D"~A2^GA fAdf | "Em"edcB "A7"AGFE | "D"D2"G"D2 "D"D2 |]
+"C"\
+[| B2 \
+| "D"~A2FA d2A2 | ~d2Ad f2d2 | a3g "D7"fedA | "G"c2B2 "B7"B3c \
+| "Em"~B2GB e2B2 | ~e2Be g2e2 | "Em"bged "A7"cBA^G | "D"B2A2 "A7"A2 |]
+"D"\
+|: B2 \
+| "D"~A2FA d2A2 | ~d2Ad f2d2 | a3g "D7"fedA | "G"c2B2 "B7"B3c \
+| "Em"~B2^AB gBeg | "D"~A2^GA fAdf | "Em"edcB "A7"AGFE | "D"D2"G"D2 "D"D2 :|

@@ -1,0 +1,12 @@
+%%scale 0.75
+%%staffwidth=100
+%%indent 50
+%%stretchstaff 0
+%%titleleft yes
+
+X: 1
+T: % C major chord with name
+M: none
+K: none clef=none
+V: 1 name="C Major" clef=none
+   [CEGc]

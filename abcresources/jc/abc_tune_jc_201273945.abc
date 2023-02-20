@@ -1,0 +1,43 @@
+X: 1
+T:The Flowers of the Forest
+M:6/8
+L:1/8
+Q:80
+C:
+S:Slow Air
+K:HP
+B|
+{g}A3{GAG}A2B|
+{G}A2{g}B3/4c/4{Gdc}d2{g}((3e/2f/2g/2)|
+{a}f3{gef}e2d|  !
+{g}Bd2{gBd}B2{g}A/4{d}G3/4|
+{g}A3{GAG}A2B|
+{G}A2{g}B3/4c/4{Gdc}d2{g}((3e/2f/2g/2)|  !
+{a}f3{gef}e2f|
+{Gdc}d3{gdG}d2B|
+{g}A3{GAG}A2B|  !
+{G}A2{g}B3/4c/4{Gdc}d2{g}((3e/2f/2g/2)|
+{a}f3{gef}e2d|
+{g}Bd2{gBd}B2{g}A/4{d}G3/4|  !
+{g}A3{GAG}A2B|
+{G}A2{g}B3/4c/4{Gdc}d2{g}((3e/2f/2g/2)|
+{a}f3{gef}e2f|  !
+{Gdc}d3{gdG}d2|]
+e|
+{g}fa2{g}a3|
+{GdG}a2g{a}f/2a3/2g|  !
+{afg}f3{gef}e2d|
+{g}Bd2{gBd}B2{g}A/4{d}G3/4|
+{g}fa2{g}a3|  !
+{GdG}a2g{a}f/2a3/2g|
+{afg}f3{gef}e2d|
+{gfg}fe2{A}e2{gf}g|  !
+{a}fa2{g}a3|
+{GdG}a2g{a}f/2a3/2g|
+{afg}f3{gef}e2d|  !
+{g}Bd2{gBd}B2{g}A/4{d}G3/4|
+{g}A3{GAG}A2B|
+{G}A2{g}B3/4c/4{Gdc}d2{g}((3e/2f/2g/2)|  !
+{a}f3{gef}e2f|
+{Gdc}d3{gdG}d2|]
+

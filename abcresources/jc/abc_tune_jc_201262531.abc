@@ -1,0 +1,26 @@
+X:1
+T: Clapham Frolick
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:A
+I:speed 200
+%W:         A1
+% voice 1 (1 lines, 30 notes)
+K:A
+M:4/4
+L:1/16
+c4 A8 B2 c2 |d4 B8 c2 d2 |c4 A8 B2 c2 |B4 G4 F4 E4 |c4 A8 B2 c2 |d4 B8 c2 d2 |c4 A4 d4 c4 |B8B8 |
+%W:         A2
+% voice 1 (1 lines, 30 notes)
+c4 A8 B2 c2 |d4 B8 c2 d2 |c4 A8 B2 c2 |B4 G4 F4 E4 |c4 A8 B2 c2 |d4 B8 c2 d2 |c4 A4 d4 c4 |B8B8 |
+%W:
+% voice 1 (1 lines, 28 notes)
+e4 c8 d2 e2 |f4 e4 d4 c4 |d4 B8 c2 d2 |e4 d4 c4 B4 |c4 A8 B2 c2 |d4 B4 c4 a4 |c8 B8 |A8A8 |
+%W:
+% voice 1 (1 lines, 28 notes)
+e4 c8 d2 e2 |f4 e4 d4 c4 |d4 B8 c2 d2 |e4 d4 c4 B4 |c4 A8 B2 c2 |d4 B4 c4 a4 |c8 B8 |A8A8 ||

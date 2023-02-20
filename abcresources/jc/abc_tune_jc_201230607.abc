@@ -1,0 +1,25 @@
+X: 14029
+T: the FUZZY JIG
+C: Bob McQuillen April'09
+B: Bob's Note Book 14 #29
+%R: jig
+%D:2009
+N: Bob mispelled her last name as Ievens; corrected. (And she likes to spell her name in lower case.)
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+| DFA BAF | ABd B2a | fdB AdB | AFD EFE |\
+| DFA BAF | ABd B2a | fdB AFA | Bdc d2 :|
+|: B \
+| ABd Bde | fed B2A | dBd ede | faf edB |\
+| ABd Bde | fed B2A | dBd ede | fdd d2 :|
+%%begintext align
+%% Bob Mills, great
+%% sound tech from Montague, MA, has a real nice
+%% friend named Lydia Ievins, and that's who
+%% this tune is for. I sure hope you like it, Lydia!
+%% (P.S. - Kind of a funny name for a tune for a nice
+%% young woman, don't you think?)
+%%endtext

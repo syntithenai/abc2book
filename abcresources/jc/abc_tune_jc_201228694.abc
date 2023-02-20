@@ -1,0 +1,29 @@
+X: 11505
+T: GENTLE YOUTH, AH! TELL ME WHY.
+T: From "Love in a Village."
+C: Dr. Arne.
+Q: "Slow."
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.150 #5
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Added obvious missing beat/note (B2) in bar 9.
+M: C
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+(BA)(AG) G2ze | d2(3(cBc) B2z2 |\
+G3G g3{f}e | d2{d}c>B B2z2 |\
+B2z2^c d2z2f | (fe)({f}ed) (d^c)z2 !f!|
+a2-a(g//f//e//d//) b2-b(a//g//f//e//) | A2{f}e2 d2z2 |\
+a2-a(g//f//e//d//) B2-BB//c//d//e// | A2{f}e2 d2z2 !p!|\
+(dc)(cB) c2za | ({b}a{g}f){e}d(c B2)z2 |\
+c2zd e2a=f |
+(e2d)>c c2z2 |\
+(dc)({d}cB) B2zc | d2({f}ec) {B2}A4 |\
+d2-d(c//B//A//G//) e3a | (g2f)>g g2z2 |\
+d2-d(c//B//A//G//) e2-ed//c//B//A// | D2({B}A>G) G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

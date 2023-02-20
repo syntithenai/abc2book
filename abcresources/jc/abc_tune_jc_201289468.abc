@@ -1,0 +1,28 @@
+X:1
+T: I Have a Song to Sing
+N:
+C:2nd tune: Now let us be Joyful
+S:Can end with either tune
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 27 notes)
+K:G
+M:6/8
+L:1/16
+G2 |G4 B2 A4 B2 G3 F E2 D4 d2 d4 c2 B3 A G2 F4 G2 A4 c2 |B4 G2G2 A2 A2 G6G4 G2
+%W: A2
+% voice 1 (1 lines, 25 notes)
+G4 B2 A4 B2 G3 F E2 D4 d2 |d4 c2 B3 A G2 F4 G2 A4 c2 B4 G2G2 A2 A2 G6G4 ||
+%W:
+% voice 1 (1 lines, 0 notes)
+%W: A1
+% voice 1 (1 lines, 27 notes)
+d2 |d4 B2 B4 d2 e3 f g2 d4 d2 d4 B2 B4 B2 A3 B c2 B4 d2 |d4 d2 B2 G2 B2 A6 G4 d2
+%W: A2
+% voice 1 (1 lines, 25 notes)
+d4 B2 B4 d2 e3 f g2 d4 d2 |d4 B2 B4 B2 A3 B c2 B4 d2 d4 d2 B2 G2 B2 A6 G4 ||

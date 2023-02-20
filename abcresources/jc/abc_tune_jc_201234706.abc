@@ -1,0 +1,22 @@
+X: 2071
+T: the Princess Royal
+%R: air, reel
+B: Niel Gow & Sons "Complete Repository" v.1 p.7 #1 (top 2 staves continued from p.6)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "SLOWISH"
+K: Gm
+% - - - - - - - - - -
+V: 1 staves=2
+G/A/ |\
+B2AB G2dc | (Bc)(AB) G3~d | {d}e3d c2fe | (de)(cd) B4 || TB2gB TA2fA | (GA)(BG) D2dc | T(BA)(BG) (DG)(^FA) |
+G2[G2D2B,2] [G3D3B,3] :: d | (Tg^fg).a (Tg^fg).a | b2B2 B2ga | (ba~gf) (ed~cB) | (ABc).A F4 || B2AB c2Bc | d2~d2 g4 |
+f2~B2 e4 | d2~G2 c4 || (Bc)BA (GA)BG | (^FG)AF D2dc | (BA)BG (DG)(^FA) | G2[G2D2B,2] [G3D3B,3] :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+G2d2 g2^f2 | g2d2 B2G2 | c2B2 A2F2 | B2f2 b4 || [g4b4d'4] [f4c'4] | e4 d2^f2 | g2e2 d2D2 |
+G2g2 G3 :: z | g2g'2 g2g'2 | d'e'f'e' d'2e'2 | d'2d2 e2=e2 | f4 fgf_e || d2cB A2F2 | B2b2 e'2c'2 |
+d'4 c'2~a2 | b4 a2~^f2 || g4 e4 | d4 D2^f2 | g2e2 d2d2 | G2g2 G3 :|

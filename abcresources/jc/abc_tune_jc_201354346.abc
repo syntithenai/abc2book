@@ -1,0 +1,55 @@
+
+X: 1
+T: Yankee Doodle
+C: unknown
+R: march
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: https://upload.wikimedia.org/wikipedia/commons/3/32/36_Yankee_Doodle.png
+M: C
+L: 1/8
+V:1 clef=treble
+V:2 clef=treble
+V:3 clef=bass middle=d
+V:4 clef=bass middle=d
+%%staves [(1 2) (3 4)]
+%%vocalfont Times-Roman 13
+%%voicecombine 1	% How to combine notes on a single stem
+K: A
+% - - - - - - - - - -
+V:1
+E | AA Bc | Ac BG | AA (Bc) | A2 GE |
+V:2
+E | CC DE | CE DD | CC (DE) | C2 DD |
+w:   ~ Yan-kee Doo-dle went to town a-rid-ing on a po-ny. He
+w: 1.~ Fath'r and I went down to camp, A-long with Cap-tain Good-'in, And
+w: 2.~And there we saw a thou-sandd men, As rich as Squire_ Da-vid, And
+w: 3.~And there was Cap-tain Wash-ing-ton Up-on a slap-ping stal-lion, A-
+w: 4.~And there I saw a swamp-ing gun, Big as a log of ma-ple, Up-
+V:3
+e | aa gg | aa gb | aa g-g | a2 bg |
+V:4
+e | AA ee | AA ee | AA e-e | A2 ee |
+% - - - - - - - - - -
+V:1
+AA Bc | dc BA | GE FG | A2 Az || F>G FE | FG A2 |
+V:2
+CC DE | FF FF | EE DD | C2 Cz || D>E DC | DE F2 |
+w:   ~stuck a fea-ther in his hat, And called it ma-ca-ro-ni. ~ ~ ~ ~ ~ ~ ~
+w: 1.~there we saw the men and boys As thick as has-ty pud-din'. ~ ~ ~ ~ ~ ~ ~
+w: 2.~what they wast-ed ev-'ry day, I wish it could be sav-ed. Yan-kee Doo-dle keep it up,
+w: 3.~giv-ing or-ders to his men; I guess there was a mil-lion. ~ ~ ~ ~ ~ ~ ~
+w: 4.~on a might-y lit-tle card; A load for fa-ther's cat-tle. ~ ~ ~ ~ ~ ~ ~
+V:3
+aa aa | aa d'd' | bg ab | a2 az || a>a aa | aa a2 |
+V:4
+AA aa | dd dd | ee ee | A2 Az || d>d dd | dd d2 |
+% - - - - - - - - - -
+V:1
+E>F ED | CD Ez | F>G FE | FG AF | EA GB | A2 A |]
+V:2
+C>D CB, | A,B, Cz | D>E DC | DE FD | CC DD | C2 C |]
+w: Yan-kee Doo-dle dan-* day, Mind the mu-sic and the step, And with the girls be han-dy.
+V:3
+a>a aa | e2 az | a>a aa | aa aa | aa bg | a2 a |]
+V:4
+A>A AA | A2 Az | d>d dd | dd dd | ee ee | A2 A |]

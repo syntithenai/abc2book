@@ -1,0 +1,20 @@
+X:459
+T:Melodic Evil
+C:Mollie Koenigsberger, 2009
+L:1/8
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=110
+%%MIDI program 40
+%%MIDI bassprog 32
+%%MIDI chordprog 105
+H:For Vic and Ed Smith, the other members of the anagrammatic band.
+K:Am
+P:A
+|: "Am"[A,E]2[EA]2 [EA]2[Ae]2 | "Am"[Ae]2[Aa]2 "Em"[Bg]4 | "G"BdBA G^FGA | "/"BdBA GABG |\
+"Am"[A,E]2[EA]2 [EA]2[Ae]2 | "Am"[Ae]2[Aa]2 "Em"[Bg]4 | "G"bage gedB |1 "/"edBA BAGD :|2 "G"AGED "Am"[A,E]4 |
+P:B
+"Am"[A,E][A,E]A[A,E] [A,E]c[A,E][A,E] | "/"d[A,E][A,E]c [A,E][A,E]A[A,E] | "G"BdBA G^FGA | "/"BdBA GABG |\
+"Am"[A,E][A,E]A[A,E] [A,E]c[A,E][A,E] | "/"d[A,E][A,E]e [A,E][A,E]f[A,E] | "Em"gBBb BBaB | "/"gBeB dBAG |
+"Am"[A,E][A,E]A[A,E] [A,E]c[A,E][A,E] | "/"d[A,E][A,E]c [A,E][A,E]A[A,E] | "G"BdBA G^FGA | "/"BdBA GABG |\
+"F"[A,E][A,E]A[A,E] [A,E]c[A,E][A,E] | "/"d[A,E][A,E]e [A,E][A,E] gz | "Em"bage gedB | "Em"AGED "Am"[A,E]4 |]

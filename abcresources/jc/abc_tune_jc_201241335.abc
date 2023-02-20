@@ -1,0 +1,25 @@
+X: 4321
+T: Glenbucket's Breeks.   a Strathspey.
+O: Communicated by Mr McLeod of Rasay.
+%R: strathspey
+B: Niel Gow & Sons "Complete Repository" v.4 p.32 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - -
+V: 1 staves=2
+C |\
+EG~G>E G/G/G G2 | Tc>dec d/d/d d2 |\
+EG-Gg egde | (c/B/A/B/) cE C/C/C C :| E |\
+(G/F/E/D/) C>E GEcE | GEce d/d/d dg |
+(a/g/f/e/) cg ecgc | f<aTg>e c/c/c cg ||\
+a>egd ecge | f<aTg>e dDDF |\
+EG-Gg | egde | (c/B/A/B/) cE C/C/C C |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+% Voice 2 preserves the book's staff layout.
+z |
+c2c'2 c2c2 | e2c'2 b2g2 | c'2b2 c'2g2 | afg2 c2c :| z | c2c2 c2c2 | e2c2 
+G2B2 | c2c2 c2e2 | f2g2 c2c2 | c'2b2 c'2e2 | f2ec g2b2 | c'2b2 c'2g2 | afg2 c2c |]
+%%text * Supposed to have been Composed when it was rare to see Breeches worn in the Highlands.

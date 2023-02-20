@@ -1,0 +1,17 @@
+X: 1
+T: In Praise of the Braes
+C: Adam Sutherland
+R: reel
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Written about the Braemar area, on the east side of the Cairngorm Mountains
+N: Condensed by introducing repeats.
+M: C|
+L: 1/8
+K: D
+"^A"|: d2ed adda | daaf eABA |[1,3 d2ed adda- | afeg  fddA :|\
+                              [2,4 Bded afda- | afeg  fddA :|
+"^B"|: cAdA eAAe | Aede cAAB |[1   cAdA eAAg- | ggfg  feeB :|\
+                              [2  =cAcA dAAc  | AA=cA dcAB :|
+                              [3   cAdA eAAg- | ggfg  feef |]\
+"^B4"[|] g2fg feef | g/f/e fg fdef | gfeg fege | eaaf eABA |]
+"^Outro"|: FFGF AABA | dded g2fd- | dFGF AABA | dded gfef :|

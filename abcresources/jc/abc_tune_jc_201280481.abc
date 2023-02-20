@@ -1,0 +1,27 @@
+X: 1
+T: the Gilford
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.257 "Z 3"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+%%center [Set up the biggest String a Note higher.]
+N: The tuning instruction means that a violin should have its G string tuned up to A.
+N: This implies that the tune is written in "scordatura", with notes below D sounding a tone higher.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+G,A,B,2 A,B,C2 | B,4 D2EF | G2(AB) (AF)(ED) | (B,D) (EF) E4 |\
+G,A,B,2 A,B,C2 | B,6 D2 | EFG2
+(AB) (AD) | (E2 D6) |][|\
+(ef)g2 (fg)a2 | g2f2 e2(dc) | d2(ef) g2f2 | e2d2 e2(dc) |\
+(ef)g2 (fg)a2 | g2f2 e2(dc) | (Bc)d2 e2(dc) | d4- d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. and 2. man take hands, and lead through the women and turn .| The women do the same :|
+%% The 1. cu. cross over and go the half Figure .| Then go the double Figure through the third cu. :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

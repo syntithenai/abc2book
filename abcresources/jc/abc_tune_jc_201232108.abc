@@ -1,0 +1,33 @@
+X: 164
+T: March
+T: Longways for as &c.
+%R: march
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.82
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2dd d2d2 | e2d2 e2d2 | e2d2 c2B2 | A4- A4 |\
+B2Bc d2de | dcde d2gf | edcB A3G | G8 :|
+|:\
+A2AA A2A2 | B2BB B2B2 | e2f2 e2d2 | c6 e2 |\
+ffff eeee | ffff e2fg | a2gf e3d | d6 d2 |
+g2gg g2f2 | e2ee e2d2 | e2d2 c2B2 | A6 A2 |\
+B2Bc d2de | dcde d2gf | edcB A3G | G8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st Man turn the 2d Wo. then his partner
+%% .| 1st Wo. do the same :| then cross over
+%% and half figure with the 2d Cu. then fall back
+%% sides and turn in the 2d Cu. place .| the 1st
+%% Wo. change place with the 2d Man, and the 1st
+%% Man with the 2d Wo. and right hands and left
+%% quite round, and turn your partner :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

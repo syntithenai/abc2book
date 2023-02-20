@@ -1,0 +1,492 @@
+
+X: 1
+T: Sing We Now of Christmas    [Dm]
+C:
+S: https://hymnary.org/text/sing_we_now_of_christmas
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Ddor
+% - - - - - - - - - -
+D [| "Dm"DA "G"BG | "Dm"A2F2 | "G"G(G/A/) "A7"FE | "Dm"D4 |
+w: 1.~ Sing we now of Christ-mas, No-el,* sing we here!
+w: 2.~ An-gels called to shep-herds, "Leave your* flocks at rest,
+w: 3.~in Beth-le-hem they found him; Jo-seph and Ma-ry mild,
+w: 4.~ From the east-ern coun-try came the* kings a-far,
+w: 5.~ Gold and myrrh they took there, gifts of* great-est price;
+y3 "Dm"DA "G"BG | "Dm"A-A F2 | "G"G(G/A/) | "A7"FE | "Dm"D4 |]
+w: Hear our grate-ful prais-*es to the* Babe so dear.
+w: jour-ney forth to Beth-le-hem, find the* lamb-kin blest."
+w: seat-ed by the man-*ger, watch-ing the ho-ly child.
+w: bear-ing gifts to Beth-le-hem guid-ed* by a star.
+w: there was ne'er a place on earth so like* pa-ra-dise.
+|: "Dm"F2 ED | "A7"E3 A, | "Dm"FF ED | "A7"E4 :|
+w: Sing we No-el, the King is born, No-el!
+   "Dm"DA "G"BG | "Dm"A2 F2 | "G"G(G/A/) | "A7"FE | "Dm"D4 |]
+w: Sing we now of Christ-mas, sing we* now No-el!
+
+%%sep 1 1 500
+
+X: 2
+T: Sing We Now of Christmas   [Dm]
+C: trad. French 15th century, trad. English 17th-18th century
+Z: DW
+M: 2/4
+L: 1/8
+K: Ddor
+[|"Dm"da "G"bg | "Dm"a2 f2 | "C"g(g/a/) fe | "Dm"d4 |\
+| "Dm"da "G"bg | "Dm"a2 f2 | "C"g(g/a/) fe | "Dm"d4 |\
+[|"Dm"f2 ed | "Am"e3 A |
+| "Dm"ff ed | "Am"e4 |\
+| "Dm"f2 ed | "C"e3 A | "Bb"ff ed | "A7"e4 |\
+[|"Dm"da "G"bg | "Dm"a2 f2 | "Bb"gg/a/ "C"fe | "Dm"d4 |]
+
+%%sep 1 1 500
+
+X: 3
+T: Wondrous Love    [Dm]
+C: music: 1701 or earlier
+C: words: 1811 songbook
+B: "A General Selection of the Newest and Most Admired Hymns and Spiritual Songs Now in Use" 1811
+N: Melody and words combined by James Christopher ca. 1840 in the Southern Harmony songbook.
+N: The melody is a variant of the Ballad of Captain Kidd.
+M: C
+L: 1/4
+K: Ddor
+[|\
+z2 D2 | "Dm"DC "C"EG | "F"A2 GE | "Gm"D2 DC | "Am"E2 A2 | "F"cB "G"AG | "Am"A2 GE |
+w: What won-drous love is this, O my soul, O my soul! What won-drous love is this O my
+%
+"Dm"D4 | z2 G2  | "F"AG Ac | "Dm"d2 d2 | "F"cA A/G/E | "Dm"D2 D2 | "Dm"DC "C"EG |
+w: soul?  What won-drous love is this that caused the Lord* of bliss to bear the dread-ful
+%
+"F"A2GE | "Gm"D2 DC | "Am"E2 A2 | "F"cB "G"AG | "Am"A2 GE | "Dm"D4 |] z4 |]
+w: curse for my soul, for my soul, to bear the dread-ful curse for my soul.
+
+%%sep 1 1 500
+
+X: 4
+T: Angels We Have Heard On High
+C: Traditional
+S: http://john-chambers.us/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/angels.abc
+M: 4/4
+L: 1/4
+K: D
+%%continueall 1
+[| "D"F F F A | "A"A3/ G/ "D"F2 | F "A/C#"E "D"F A |
+w: 1.~An-gels we have heard on high sweet-ly sing-ing
+w: 2.~Shep-herds why this ju-bi-lee? Why your joy-ous
+w: 3.~Come to Beth-le-hem and see Him whose birth the
+w: 4.~See Him in a man-ger laid, whom the choirs of
+   "D/A"F3/ "A7"E/ "D"D2 | "Bm"F "F#7"F "Bm"F "A"A |
+w: o'er the plains.  And the moun-tains
+w: strains pro-long? What the glad-some
+w: an-gels sing. Come a-dore on
+w: an-gels praise. Mar-y, Jo-seph,
+   "D/F#"A3/ "A7/E"G/ "D"F2 | F "A/C#"E "D"F A |
+w: in re-ply ech-o-ing their
+w: tid-ings be which in-spire your
+w: bend-ed knee Christ the Lord, the
+w: lend your aid while our hearts in
+   "D/A"F3/ "A7" E "D"D2 ||
+w: joy-ous strains.
+w: heav'n-ly song?
+w: new-born King.
+w: love we raise.
+   "D"A2 "B7"B/A/G/F/ | "Em"G2 "A7/C#"A/G/F/E/ |
+w: Glo-_________
+   "D"F2 "G/B"G/F/E/D/ | "A"E3/ A,/ A,2 |
+w: ______ri-a
+   "D"D "A"E "D"F "G"G | "D/A"F2 "A"E z |
+w: In ex-cel-sis De-o.
+   "D"A2 "B7"B/A/G/F/ | "Em"G2 "A7"A/G/F/E/ |
+w: Glo-_________
+   "D"F2 "G/B"G/F/E/D/ | "A7"E3/ A,/ A,2 |
+w: ______ri-a
+   "D"D "A"E "D"F "G"G | ("D"F2 "A7"E2) | "D"D3 z |]
+w: In ex-cel-sis De-_o.
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+%%sep 1 1 500
+
+X: 5
+T: The Christ Child's Lullaby
+C:traditional
+Z:DW
+M:3/4
+L:1/4
+K:G
+d | "D"d2 e | a a2 | "Am"g a2 | "D"d2 f | f2 d | "Am"e a2 | "C"g a2 | "Am"c2 e |
+"D"d2 e | a2 a | "Am"g a2 | "D"d2 d | d "Am"A2 | "C"c2 d | "D"e/2 d/2-d2- | d2 |]
+
+%%sep 1 1 500
+
+X: 6
+T: Dona Nobis Pacem
+T: Give us peace
+P: 3-part round
+S: http://www.gulfweb.net/rlwalker/abc/!ABCCollections/KG_tunes_webready.abc
+M: 3/4
+L: 1/4
+P: Play as a round
+K: D treble-8
+"^A"[|\
+"D"(d/A/) f2 | "A7"(e/A/) g2 | "D"(f e) d | "A7"d c2 | "G(Em)"(b a/g/f/e/) | "D"(a3/ g/) f | "A7"(f/e/) (d c) | "D"d3 |]
+%w: Do-*na No-*bis Pa-*cem, pa-cem. Do-na*** no-*bis pa-***cem.
+"^B"[|\
+a3 | a3 | (a g) f | f e2 | b b2 | a a2 | (a/g/) (f e) | d3 |]
+%w: Do-na no-*bis pa-cem. Do-na no-bis pa-***cem.
+"^C"[|\
+d3 | c3 | (d3 e/) (f/g/) | a A2 | g g2 | f f2 | (c/e/) (a A) | d3 |]
+%w: Do-na no-*bis* pa-cem. Do-na no-bis pa-***cem.
+
+%%sep 1 1 500
+
+X: 7
+T: Gaudete! Gaudete!
+O: first published in Piae Cantiones, 1581
+%S:1581
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+%%continueall
+"^Refrain"|:\
+"Am"A2A2 "Em"G2AB |[M:6/8] "C"c2c B2A |
+w: Gau-de-te! Gau-de-te! Christ-us est
+[M:2/4] "G"G2 G2 |[M:4/4] G2A2 "Em"B3A |
+w: na-tus ex Ma-ri-a
+[M:6/8] G2A "G"B2A |[M:3/4] GA "Am"A2 "^fine"z2 :|
+w: vir-gi-ne, gau-de-*te!
+"^Verse"[|[M:4/4] "Am"AA GA cB A2 | "Dm"AF "Em"EF "Dm"D2 D2 |
+w: Tem-pus ad-est gra-ti-ae, hoc quod op-ta-ba-mus;
+"Dm"DD FD FG "Am"A2 | cA "G"Bc "F"A2 A2 |]
+w: car-mi-na lae-ti-ti-ae de-vo-te red-da-mus.
+
+%%sep 1 1 500
+
+X: 8
+T: Aspenglow
+C:John Denver
+M:3/4
+L:1/4
+K:Am
+%%continueall
+"^I"\
+| "Am"z6 | "Dm"z6 | "F"z6 | "C"z6 | "Am"z6 | "Dm"z6 | "F"z6 | "C"z6 \
+"^A"\
+|: "Am"A/G/A/G/A/G/ | "Dm"A3 | "F"A/G/A/G/A/E/ | "C"G3 |\
+| "Am"c/B/A/G/F/E/ | "Dm"D3 | "C"E/F/G2 | "G"E/F/G2 :|
+"^B"\
+[|"F"A/B/c/d/c/>E/ | "C"G3 | "F"c/c/c/c/c/>E/ | "C"G3 |\
+| "F"A/B/c/c/c/>E/ | "C"G3 | "D"A/B/c/c/B/A/ | "G"G3- | G3 |]\
+"^A"\
+|: "Am"A/G/A/G/A/G/ | "Dm"A3 | "F"A/G/A/G/A/E/ | "C"G3 |
+| "Am"c/B/A/G/F/E/ | "Dm"D3 | "C"E/F/G2 | "G"E/F/G2 :|\
+"^B"\
+[|"F"A/B/c/d/c/>E/ | "C"G3 | "F"c/c/c/c/c/>E/ | "C"G3 |\
+| "F"A/B/c/c/c/>E/ | "C"G3 | "D"A/B/c/c/B/A/ | "G"G3- | G3 |]
+"^A"\
+[|"Am"A/G/A/G/A/G/ | "Dm"A3 | "F"A/G/A/G/A/E/ | "C"G3 |\
+| "Am"c/B/A/G/F/E/ | "Dm"D3 | "C"E/F/G2 | "G"E/F/G2 |]\
+| "C"E/F/G2 | "G"E/F/G2- | "Am"A3- | A3 |]
+
+%%sep 1 1 500
+
+X: 9
+T: Ye Nations All   [Dm]
+T: The Babe of Bethlehem
+C: William Walker (1809-1875)
+M: 6/8
+L: 1/8
+K: Dm
+z3 z2\
+A, | "Dm"D2D "C"(ED)C | "Dm"D2F "Gm"G2A | "Dm"A2c "(Am)"(AG)E | "Dm"(D2C) "Am"A,2 ||\
+A, | "Dm"D2D "C"(ED)C | "Dm"D2F "Gm"G2A | "Dm"Ac=B "(Am)"(AG)E | "Dm"D3 D2 ||
+A | "F"A2(A/=B/) "C"c2G | "F"A2(A/=B/) "C"c2c | "Dm"d2A "(Am)"(AG)E | "Dm"(D2C) "Am"A,2 ||\
+A, | "Dm"D2D "C"(ED)C | "Dm"D2F "Gm"G2A | "Dm"Ac=B "(Am)"(AG)E | "Dm"D3 D2z |]
+
+%%sep 1 1 500
+
+X: 10
+T: A Midwinter Waltz
+C: Dave Richardson (1994)
+N: Dave was a member of Boys of the Lough for 40 years, until he retired.
+N: This was based on a favorite carol remembered from his youth, "In the Bleak Midwinter".
+%D:1994
+B: Joe Buchanan's Scottish Tome - Page 623.0
+I: 623 0
+Z: Carl Allison
+R: Waltz
+L: 1/4
+M: 3/4
+P: Play A1A2 A1A2 B1B2 B1A2
+K: G
+"A"|::: G/A/ |\
+"G"B>cd | "D"d>BA | "Am"A>BA | "C"G2E/G/ || "Am"A>BA |  "D"A>BA |\
+[1,3 "G"G>AB/c/ | "D"A2 :|2,4 "C"G>AG | "G"G2 :|
+"^B"|:: A/B/ | "C"c>Bc | "Am"c>Bc | "C"e>de | "Am"A>Bc ||\
+"G"d>ed | "Em"B>AG |1,3 "Am"A>BG | "D"A2 :|2 "D"A>BA | "G"G2 :|
+"^(A2)"[|] G/A/ | "G"B>cd | "D"d>BA | "Am"A>BA | "C"G2E/G/ ||\
+"Am"A>BA |  "D"A>BA | "C"G>AG | "G"G2 |]
+
+%%sep 1 1 500
+
+X: 11
+T: Ring Out Wild Bells   [Bm]
+C: Crawford Gates
+Z: DW
+M: 6/8
+L: 1/8
+K: Bm
+B, |\
+"Bm"B,CD F2F | "Em"GFE "Bm"F2F |\
+"Em"EFG "Bm"FD>D | "F#"EDC "Bm"D2 ||\
+D |\
+"G"B2B "D"AD2 | "Em"G2G "F#"F2F |
+"Em"C>DE "Bm"DB,>B, | "F#"CB,^A, "Bm"B,2 ||\
+D |\
+"G"B2B "D"A2D | "Em"G2G "F#"F2F |\
+"Em"C>DE "Bm"DB,>B, | "F#"CB,^A, "Bm"B,2 |]
+
+%%sep 1 1 500
+
+X: 12
+T: Ring Out Wild Bells   [Bm]
+C: Crawford Gates
+Z: DW
+M: 6/8
+L: 1/8
+K: Bm
+B |\
+"Bm"Bcd f2f | "Em"gfe "Bm"f2f |\
+"Em"efg "Bm"fd>d | "F#"edc "Bm"d2 ||\
+d |\
+"G"b2b "D"ad2 | "Em"g2g "F#"f2f |
+"Em"c>de "Bm"dB>B | "F#"cB^A "Bm"B2 ||\
+d |\
+"G"b2b "D"a2d | "Em"g2g "F#"f2f |\
+"Em"c>de "Bm"dB>B | "F#"cB^A "Bm"B2 |]
+
+%%sep 1 1 500
+
+X: 13
+T: Watts's Cradle Song   [Dm]
+R:
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dm
+[|\
+"Dm"D2F2 D2CD | "F"F2F2 "Dm"(DC)A,2 | "Am"C3D C2A,2 | "F"F2"C"G2 "F"A4 ||\
+"Dm"A2c2 (AG)F2 | "Gm"G2(AG) "Dm"(FD)"C"C2 | "Dm"D3E F2A,2 |[M:2/4] A,2C2 |[M:4/4] "Dm"D8- | D8 |]
+"F"F4 "C"G4 | "F"A8 | "Bb"F4 "Am"EDC2 | "Dm"D6 E2 ||\
+"F"F4 "C"G2FG | "F"A3B A2GF | "Gm"G4 "C"c4 | "Dm"A8- | A8 |]
+
+%%sep 1 1 500
+
+X: 14
+T: The Coventry Carol
+O: England
+R: waltz
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: Am
+[|\
+"Am"A A "E7"^G | "Am"A2 c | "Dm"B2 A | "E7"^G3 |\
+"Am"A B c | "Dm"d2 "E7"B | "Am"A3- | A z "C"e |
+"G"d2 "Am"c | "E7"B2 "Am"c | "Dm"B2 A | "E7"^G3 |\
+"Am"A "E"^G "F"A | "Dm"d2 "E7"B | "A"^c3- | c2 z |]
+
+%%sep 1 1 500
+
+X: 15
+T: I Believe in Father Christmas + Troika interlude
+C: Greg Lake & Peter Sinfield
+Z: DW
+M: 4/4
+L: 1/8
+K: D
+[|\
+| "G"z2BA- "D"AF2D | "Em7"E2DE- "D"EF-F2 | "G"z2BA- "D"AF2D | "A"E2DD- "D"D2z2 |\
+| "G"z2BB "D"A2FD | "Em7"ED2E- "D"EF-F2 | "G"zDBB " D"A2FD | "A"ED2D- "D"D2z2 |]
+| "C"z2=cc "G"BAG2 | "D"A2AG- GA-A2D | "C"=cc2B- "G"BA2G | "D"AA2A- A2 zA/A/ |\
+| "Bm"d2dd "F#m"c2AA | "G"BAA2 "D"A2zD/D/ | F2FF "C"ED=CD- | "D"D4 z2 |]
+"^Troika"A2 |\
+| "G"dcBc d2B2 | "D"A2B2 F2A2 | "G"BAG2 d2cd | "D"A6 GF "^I"|\
+| "Em"E2B2 "A7"AGFG | "D"AGFG A2dB | "G"G2FG "A7"A2A2 | "D"d6 z2 |]
+
+%%sep 1 1 500
+
+X: 16
+T: The Old Year Now Away Is Fled   [Dm]
+T: Tune:  Greensleeves
+O: Francis Coles "New Christmas Carols" London 1642
+R: air, jig
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dm
+% %continueall
+P: Verse:
+D | "Dm"F2G (A>B)A | "C"G2E (C>DE) | "Dm"F2D (D>^C)D | "A"E2^C A,2 ||\
+D | "Dm"F2G (A>B)A | "C"G2E (C>DE) | "Dm"(F>E)D "A"(^C>=B,)C | "Dm"D3 D2 |]
+P: Chorus:
+c | "F"c2c (c>B)A | "C"G2E (C>D)E | "Dm"F2D (D>^C)D | "A"E2^C A,2 ||\
+c | "F"c2c (c>B)A | "C"G2E (C>D)E | "Bb"(F>E)D "A"(^C>=B,)C | "Dm"D3 D2 |]
+
+%%sep 1 1 500
+
+X: 17
+T: The Old Year Now Away Is Fled   [Dm]
+T: Tune:  Greensleeves
+O: Francis Coles "New Christmas Carols" London 1642
+R: air, jig
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dm
+P: Verse:
+d | "Dm"f2g (a>b)a | "C"g2e (c>de) | "Dm"f2d (d>^c)d | "A"e2^c A2 ||\
+d | "Dm"f2g (a>b)a | "C"g2e (c>de) | "Dm"(f>e)d "A"(^c>=B)c | "Dm"d3 d2 |]
+P: Chorus:
+c' | "F"c'2c' (c'>b)a | "C"g2e (c>d)e | "Dm"f2d (d>^c)d | "A"e2^c A2 ||\
+c' | "F"c'2c' (c'>b)a | "C"g2e (c>d)e | "Bb"(f>e)d "A"(^c>=B)c | "Dm"d3 d2 |]
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+%%sep 1 1 500
+
+X: 18
+T: It's Beginning to Look a Lot Like Christmas   [G]
+C: words & music: Meredith Wilson (1951)
+%D:1951
+R: song
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+P: Play A1A2 B A1A2
+K: G
+%%continueall 0
+% = = = = = = = = = =
+"^A"|: {A,}B,>C | "G"(3DED ^C>D "C"E2 G2 | "G"B2 D6 | B3 B "B7"A3 G | "C"E4 "E7"z2 E>F |
+|[1 "Am"(3GAG E>^E "D"F4 | "D7"(3FGF D>^D "Am"E2 "A7"z^E | "D"F>G A>B "A7"A>G F>E | "Am"A4 "D7"z2 :|
+|[2 "Am"(3GAG F>G "F#"F2 E>_E | "G"D>E G>B "E7"d2 ^D>E | "Am"c4 "D7"F4 | "G"G4  !fine!z2 |]
+"^B"[| {F}G>A \
+|"B7"(3BcB (3ABA (3GAG (3FGA | "(Em)"B>B "(B7)"(3AGF "Em"E2 z2 | "D7"(3ABA (3GAG (3FGF "(A)"(3EFG |
+|"D"A>A "(A7)"(3GFE "D"D2 zD | "D7"d>_d c>B "(A7)"A>G F>E | "Am"D>^C D>E "D7"D2 "d.C."y|]
+P: Dance transition (Dt):
+[| "G"B4 "D7"A4 | "C"G4 "D7"F2 ||
+P: Now play A1A2 B A2 for the dance.
+
+%%sep 1 1 500
+
+X: 19
+T: White Christmas   [A]
+C: Irving Berlin
+S: http://www.gulfweb.net/rlwalker/abc/white.abc 2021-11-20
+Z: Tweaked by John Chambers
+M: 4/4
+L: 1/4
+K: A
+%
+[|\
+"A"c4 | dc "C#m"^Bc | "Bm"d4 | "E7"^d e3 |\
+"D"zf ga | "E7"ba gf | "A"e4- | "(E7)"ez ||
+AB |\
+"A"c2 c2 | "A7"c f2 e | "D"A2 A2 | "Dm"A e2 d |\
+"A"c4 | "Bm"dc BA | "E"B4- | "E7"B z3 |]
+[|\
+"A"c4 | dc "C#m"^Bc | "Bm"d4 | "E7"^d e3 |\
+"D"zf ga | "E7"ba gf | "A"e4- | "(E7)"ez ||
+AB |\
+c2 c2 | "A7"c f2 e | "D"a4- | "Dm"a2 AB "^I"|\
+"A"c2 "F#m(A7)"c2 | "D"f3/ G/ "E7"GG |1 "A"A4 | "Bm"z2 "E7"z2 :|2 "A"A4 |]
+
+%%sep 1 1 500
+
+X: 20
+T: Frosty the Snowman   [G]
+C: music: Steve Nelson
+C: words: Jack Rollins
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+"A"|:\
+"G"d4 B3c | d2 g4 "G7"fg |\
+"C"a2g2 "D7"f2e2 | "G"d6 fg |\
+"C"a2g2 "A7"f2ee | "G"d2g2 B2de |\
+"Am"d2c2 [1 "D7"B2c2 | "G"d6 "D7"z2 :|\
+         [2 "D7"B2A2 | "G"G6 H|]
+"G7"G2 "B"|\
+"C"e2e2 "A7"g2g2 | "G"f2e2 d2B2 |\
+"Am"c2e2 "D7"d2c2 | "G"B6 B-B |\
+"D"A2A2 d2d2 | f2f2 "B7"a2fg |\
+"Em"a2g2 "A7"f2e2 | "D"d2z2 "D7"d4 |]
+
+%%sep 1 1 500
+
+X: 21
+T: The First No\"el   [G]
+R: waltz
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+"^A"|: BA \
+| "G"G3 ABc | "D"d4 ef | "C"g2 f2 e2 | "G"d4 ef \
+| "C"g2 f2 e2 | "D7"d2 e2 f2 | "G"g2 d2 "D7"c2 | "G"B4 :|
+"^B"[|] BA \
+| "G"G3 ABc | d4 gf | "C"e4 e2 | "G"d4 "^I"\
+| "Em"g2 f2 e2 | "Bm"d2 e2 f2 | "D7"g2 d2 c2 | "G"B4 |]
+%%text The B part is sometimes repeated.
+
+%%sep 1 1 500
+
+X: 22
+T: O Come, All Ye Faithful [D]
+T: Adeste Fideles
+M: 4/4
+L: 1/4
+K: G
+"D"d \
+| "D"d2 A d | "A"e2 A2 | "D"f "A"e "D"f "G"g | "D"f2 "A"e d || "Bm"d2 cB \
+| "A"c "D"d "A"e "D"f | "A"c2 "E"B>A | "A"A3 "A7"z || "D"a2 gf | "Em"g2 "Bm"f2 |
+| "Em"e f "Bm"de | "A"c>B A d || "D"dc de | "D"d2 Af | "D"f "A"e "D"f "G"g \
+| "D"f2 "A"e f "^I"|| "Em"gf "Bm"ed | "A"c2 "D"d "G"g | "D"f2 "A7"e>d | "D"d3 |]
+
+%%sep 1 1 500
+
+X: 23
+T: (Have a) Holly Jolly Christmas   [G]
+C: Johnny Marks, 1962
+%D:1964
+D: The Quinto Sisters album "Holly Jolly Christmas" 1964
+D: Burl Ives single 1964
+S: http://gulfweb.net:34043/~rlwalker/abc/christmas/haveaholly.abc 2009-11-30
+M: 4/4
+L: 1/4
+%Q: 1/4=80
+K: G
+%%continueall yes
+[b/B/][a/d/] |\
+"G"gg ff | e B2 B/d/ | ee dd | "D"[A4F4] |\
+ff f>e | "D7"dd d>B | "D7"dd [ec][cd] | "G"B2 |[| z"D7"[b/B/][a/d/] |
+"G"gg ff | e B2 B/d/ | ee dd | "D7"[A4F4] |\
+"D7"ff f>e | dd d>B | "D7"dd cA | "G"G4 |]
+|:\
+"Em"g2 e>g | "Bm"fd d2 | "C"ec ce | "G"d4 |\
+"Am"c2 A>c | "Em"Be e2 | "A"AA "A7"B^c | "D"d3 "D7"b/a/ ||\
+"G"gg ff | e B2 B/d/ |
+ee dd | "D7"[A4F4] "^I"|\
+"D7"ff f/e/d/c/ | "G"B d "Em"eg |[" " "A7"ae- e"D7"f | "G"g3 :|\
+["fine" "A7"a2 e2- | e2 "D7"f2 | "G"g4- | g3 |]
+

@@ -1,0 +1,44 @@
+X: 198
+T: Firn di Mekhutonim
+R: horra
+O: Rob Mendel
+S: Rob Mendel
+Z: John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 3/8
+L: 1/16
+K: DPhrygian
+%%MIDI gchord fcc
+|: "D"^F4(3EDC | D6- \
+| D2B2A2 | "Gm"G3G ^FA \
+| G4 (3EDC | "Cm"C6 \
+| C2A2G2 | "D"^F4 (3EDC \
+| D3F AG | ^F3A cB |
+| A3c ed | c3B AG \
+| ^F3G AG | "Cm"^F3E DC \
+| "D"D3d A^F | D2z2 (3DDD \
+:: "D"D2B2A2 | "Gm"G3D GD \
+| G6- | G6 \
+| G2e2d2 |
+| "Cm"c3G cG | c6- \
+| c3B BA | AccBBA \
+| "D"AccBBA | A6- \
+| A3B AG | ^FAAGGF \
+| ^FAAGGF |
+| ^F6- | F3E "Cm"(3EDC \
+| "D"D3F AG | ^F3A cB \
+| A3c ed | c3B AG \
+| ^F3G AG | "Cm"^F3E DC |
+| "D"D3d A^F | D2z2 DD \
+:: "Gm"d6- | d6- \
+| d6- | d4 c2 \
+| "Gm"B6- | B4 A2 \
+| "(Cm)"G6- | G4 F2 \
+| "Cm"E6- | E4 D2 \
+| C6- | C6 \
+| "D"A4 A2 | A4 (3BAG \
+| ^F4 F2 |
+| ^F4 "Cm"(3EDC | "D"D3F AG \
+| ^F3A cB | A3c ed \
+| c3B AG | ^F3G AG \
+| "Cm"^F3E ED | "D"D3d A^F \
+| D2z2 z2 :|

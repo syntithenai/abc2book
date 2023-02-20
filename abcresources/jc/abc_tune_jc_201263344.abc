@@ -1,0 +1,24 @@
+X:1
+T:Colin's Cattle
+M:3/4
+L:1/8
+Q:80
+C:Seconds
+S:
+K:HP
+|: {g}A3/2B/2{g}A2{GAG}A2 | \
+{GdG}c2{gAd}AGA2 | \
+{g}A3/2B/2{g}A2{GdG}c2 |
+{g}f2{Gdc}d4 | \
+{gcd}c3/2B/2{g}A2{GdG}c2 | \
+{gAd}A{e}A{g}G2{g}A2 |
+{g}f3/2d/2{gcd}c2{gAd}A{e}A | \
+{g}G2{g}A2{GAG}A2 :: \
+{g}A3/2B/2{g}c2{GdG}c2 |
+{g}f2{Gdc}d2{g}c2 | \
+{g}A3/2B/2{g}c2{Gdc}d2 | \
+{g}f2{g}f4 |
+{g}A3/2B/2{g}A2{gAd}G2 | \
+{g}A2{g}G2{g}A2 | \
+{g}f3/2d/2{gcd}c2{gAd}A{g}A |
+{g}G2{g}A2{GAG}A2 :|

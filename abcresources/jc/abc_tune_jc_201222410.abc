@@ -1,0 +1,22 @@
+X: 5
+T: Public Thanks
+%R: strathspey
+B: "Twenty Four Favourite Dances for the Year 1779", Thomas Straight, ed. p.3 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1779
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The icons seem to imply a 3rd and 4th strain; presumably this means to repeat the tune.
+M: C
+L: 1/16
+K: Bb
+|:\
+B3cB3F d3edB3 | f3gfd3 g3ab4 | fd3(Tc2B2) g3ab2f2 | (ec3)(dB3) (B3c/d/) c4 |
+B3cBF3 d3edB3 | f3gfd3 g3ab4 | fd3cB3 g3ab2f2 | fd3c3d B8 :|
+|:\
+fd3Tc2B2 (B2A2)(c2e2) | (d3e/f/) e2d2 Td4 c4 | fd3(Tc2B2) B2A2c2e2 | (dBfd) b2d2 (Td4 c4) |
+B4 (BcBc) dB3 B4 | d4 (dede) fd3 d4 | f3gf2d2 (g3ab2g2) | fd3c3d B8 :|
+%%begintext align
+%% Cast off 2 Cu: and up again .|. :|. cross over 2 Cu.
+%% lead up to the top and cast off .|: :|: hands across
+%% with the 3d Cu. .|:. back again :|:. 4 at top .|:: Right
+%% and Left :|::
+%%endtext

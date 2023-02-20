@@ -2,7 +2,7 @@ import abcjs from "abcjs";
 import * as localForage from "localforage";
 import localforage from "localforage";
 
- 
+    
 export default function utilsFunctions(props) {
 
 
@@ -188,81 +188,33 @@ export default function utilsFunctions(props) {
       }); 
     }
     
-      function YouTubeGetID(url){
+    function YouTubeGetID(url){
             url = url.split(/(vi\/|v%3D|v=|\/v\/|youtu\.be\/|\/embed\/)/);
             return undefined !== url[2]?url[2].split(/[^0-9a-z_\-]/i)[0]:url[0];
-      }
+    }
       
-      function cleanupChords(val) {
-           //console.log('CLEAN ',val)
-           if (val) {
-               var final = []
-               val.split("\n").forEach(function(line) {
-                    if (line.trim().length > 0) {
-                        var lineParts = line.split(' ')
-                        var caps = lineParts.map(function(part, partKey) {
-                           if (part && part.length > 1) {
-                               lineParts[partKey] = part.slice(0,1).toUpperCase() + part.slice(1)
-                           }  
-                        })
-                        var score = lineParts.length / line.length
-                        if (score > 0.7) {
-                            final.push(stripText(caps.join(' ')))
-                        }
-                    } else {
-                        final.push('')
-                    }
-                        
-               })
-               return final.join("\n")
-            }
-       }
+    function removeQuotedSections(str) {
+        var flag = false
+        var newStr = ""
+        for (let i = 0; i < str.length; i++){
+          if(str[i] == '"') flag = !flag
+          if(!flag && str[i]!='"') newStr += str[i]
+        }
+        return newStr
+    }
     
-      function cleanupLyrics(val) {
-           //console.log('CLEAN L',val)
-           if (val) {
-               var final = []
-               val.split("\n").forEach(function(line) {
-                    if (line.trim().length > 0) {
-                        var lineParts = line.split(' ')
-                        
-                        var score = lineParts.length / line.length
-                        if (score <= 0.7) {
-                            final.push(line)
-                        }
-                    } else {
-                        final.push('')
-                    }
-                        
-               })
-                //console.log('CLEAN L',final)
-          
-               return final.join("\n")
-            }
-       } 
-       
-       function removeQuotedSections(str) {
-            var flag = false
-            var newStr = ""
-            for (let i = 0; i < str.length; i++){
-              if(str[i] == '"') flag = !flag
-              if(!flag && str[i]!='"') newStr += str[i]
-            }
-            return newStr
+    function removeSquareBracketedSections(str) {
+        var flag = false
+        var newStr = ""
+        for (let i = 0; i < str.length; i++){
+          if(str[i] == '[') flag = true
+          if(str[i] == ']') flag = false
+          if(!flag && str[i]!='[' && str[i]!=']') newStr += str[i]
         }
-        
-        function removeSquareBracketedSections(str) {
-            var flag = false
-            var newStr = ""
-            for (let i = 0; i < str.length; i++){
-              if(str[i] == '[') flag = true
-              if(str[i] == ']') flag = false
-              if(!flag && str[i]!='[' && str[i]!=']') newStr += str[i]
-            }
-            return newStr
-        }
-       
+        return newStr
+    }
+     
           
-    return {loadLocalObject, saveLocalObject,loadLocalforageObject, saveLocalforageObject, toSearchText, scrollTo, generateObjectId, hash, saveLastPlayed, hasPlayedInLast24Hours, nextNumber, previousNumber, download, copyText, uniquifyArray, stripText, resetAudioCache, YouTubeGetID, cleanupChords, cleanupLyrics, removeQuotedSections, removeSquareBracketedSections}
+    return {loadLocalObject, saveLocalObject,loadLocalforageObject, saveLocalforageObject, toSearchText, scrollTo, generateObjectId, hash, saveLastPlayed, hasPlayedInLast24Hours, nextNumber, previousNumber, download, copyText, uniquifyArray, stripText, resetAudioCache, YouTubeGetID, removeQuotedSections, removeSquareBracketedSections}
     
 }

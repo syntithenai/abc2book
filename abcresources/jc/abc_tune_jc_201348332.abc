@@ -1,0 +1,65 @@
+
+X: 1
+T: Uva'u ha'ovdim
+T: We came as slaves
+C: Shlomo Carlebach
+O: Isaiah 27:13
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: Printed MS of unknown origin ("26" at bottom)
+M: C
+L: 1/8
+K: Dm
+"A"\
+|:"Dm"D F2 F FD "Gm"G2 | "Dm"D F2 F FD "Gm"G2 | "Dm"D F2 F FD AG |
+w: U-va-u ha-ov-dim b'-e-retz a-*shur v'-ha-ni-da-*him b'-
+| "Dm"F2 F>F F2 F2 "B"::"F"AA AA AA A2 | "Gm"zB AG A2 G2 |
+w: e-retz mitz-ra-yim v'-hish-ta-ha-vu la-shem b'-har ha-ko-desh
+| "Gm"DG GG GG G2 |1 "C7"zA GF G2 "F"F2 :|2  "C7"zA GF G2 "F"FA ||
+w: v'-hish-ta-ha-vu la-shem b'-har ha-ko-desh b'-har ha-ko-desh bi-
+"C"\
+|:"D7"d4 c2 A2 | "Gm"G6 zG | "C"c4 "C7"A2 G2 | "F"F6 zA |
+w: ru-sh-la-yim bi-ru-sh-la-yim bi-
+| "D7"d4 c2 A2 | "Gm"G6 zc | "Am"c4 "A7"f2 e2 |1 "Dm"d6 zA :|2 "Dm"d6 z2 |]
+w: ru-sh-la-yim bi-ru-sh-la-yim bi- yim.
+%
+W: And they shall come that were enslaved in the land of Assyria, and they that
+W: were dispersed in the land of Egypt; and they shall worship the lord in the
+W: holy mountain at Jerusalem.
+
+
+%%sep 1 1 500
+
+X: 2
+T: Uva'u ha'ovdim
+T: We came as slaves
+C: Shlomo Carlebach
+O: Isaiah 27:13
+M: C
+L: 1/8
+K: Dm
+"A"\
+|:"Dm"D F2 F FD "Gm"G2 | "Dm"D F2 F FD "Gm"G2 | "Dm"D F2 F FD "A7"AG | "Dm"F2 F>F F2 F2 :|
+"B"
+|:"F"AA AA AA A2 | "Gm"zB AG A2 G2 | "Gm"DG GG GG G2 |1 "C7"zA GF G2 "F"F2 :|2  "C7"zA GF G2 "F"FA ||
+"C"\
+|:"D7"d4 c2 A2 | "Gm"G6 zG | "C"c4 "C7"A2 G2 | "F"F6 zA \
+| "D7"d4 c2 A2 | "Gm"G6 zc | "Am"c4 "A7"f2 e2 |1 "Dm"d6 zA :|2 "Dm"d6 z2 |]
+
+
+%%sep 1 1 500
+
+X: 3
+T: Uva'u ha'ovdim
+T: We came as slaves
+C: Shlomo Carlebach
+O: Isaiah 27:13
+M: C
+L: 1/8
+K: Em
+"A"\
+|:"Em"E G2 G GE "Am"A2 | "Em"E G2 G GE "Am"A2 | "Em"E G2 G GE BA | "Em"G2 G>G G2 G2 :|
+"B"
+|:"G"BB BB BB B2 | "Am"zc BA B2 A2 | "Am"EA AA AA A2 |1 "D7"zB AG A2 "G"G2 :|2  "D7"zB AG A2 "G"GB ||
+"C"\
+|:"E7"e4 d2 B2 | "Am"A6 zA | "D"d4 "D7"B2 A2 | "G"G6 zB \
+| "E7"e4 d2 B2 | "Am"A6 zd | "Bm"d4 "B7"g2 f2 |1 "Em"e6 zB :|2 "Em"e6 z2 |]

@@ -1,0 +1,27 @@
+X: 1
+T: Yankee Doodle
+C: unknown
+R: march
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: https://upload.wikimedia.org/wikipedia/commons/3/32/36_Yankee_Doodle.png
+M: C
+L: 1/i
+K: A
+% Define voices:
+V:1 clef=treble
+V:2 clef=treble
+V:3 clef=bass middle=d
+V:4 clef=bass middle=d
+%%staves [(1 2) (3 4)]
+%%vocalfont Times-Roman 13
+K:Bb
+% - - - - - - - - - -
+V:1
+V:2
+V:3
+V:4
+% - - - - - - - - - -
+V:1
+V:2
+V:3
+V:4

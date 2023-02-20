@@ -1,0 +1,49 @@
+X: 20991
+T: ALL MY LIFE IS JOY AND PLEASURE
+C: Bellini
+%R: march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.99
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 preserves the original staff layout.
+V: 1 staves=2
+[|\
+(A2F)d | (d2c)B | (AB2)A | A2Fz |\
+(f2e)d | (dc2)B | (AG2)E | (G2F)z |\
+(A2F)d | (d2c)B |
+(AB2)A | (A2F)z |\
+(f2e)d | (ce2)d | (cB)(A^G) | (^G2F)z |\
+A(B/A/) A(B/A/) | (Ad2)f | (g/f/)(e/d/) (c/B/)(A/G/) |
+F/G/ Az2 | A(B/A/) A(B/A/) | Addf | (g/f/)(e/d/) (c/B/)(A/G/) |\
+Fzz2 | zB2A/G/ | Fzz2 | zB2(A/G/) |
+.F.G"_cres.".A.B | .c.d.e.f | gg2f | (ed)(cB) |\
+(BA2)F | (AG2)E | .F.G"^cres.".A.B | .c.d.e.f |\
+gg2f | (ed)(cB) |
+A2A2 | d2d2 | f4- | f4 |\
+a4 | a4 | "^Fine."d2z2 H|\
+z4 | d2z2 | e2z2 | z4 |\
+e4 "ad lib."| "_3"z4 | Hg3f | "D.C.alFine."(edcB) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout.
+V: 2
+[|\
+(F2D)F | (F2A)G | FG2F | F2Dz |\
+(d2c)B | (BA2)G | FE2C | (E2D)z |\
+(F2D)F | (F2A)G |
+(FG2)F | F2Dz |\
+(d2c)B | (Ac2)B | (A^G)(F^E) | (^E2F)z |\
+z4 | z4 | A(B/A/) A(B/A/) |
+(Ad2)f | (g/f/)(e/d/) (c/B/)(A/G/) | F/G/ Az z/A/ | A(B/A/) A(B/A/) |\
+(A=c2)B/A/ | Gzz2 | z=c2B/A/ | Gz zF/E/ |
+.D.E"^cres.".F.G | .A.B.c.d | ee2d | (cB)(AG) |\
+(GF2)D | (FE2)C | .D.E"^cres.".F.G | .A.B.c.d |\
+ee2d (cB)(AG) |
+F2F2 | F2F2 | d4- |\
+d4 | c4 | c4 | "^Fine."d2z2 H|\
+z4 | F2z2 | G2z2 | z4 |\
+c4 "ad lib."| "_3"z4 | He3d | "^D.C.al Fine."(cBAG) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

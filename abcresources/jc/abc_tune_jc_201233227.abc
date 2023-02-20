@@ -1,0 +1,50 @@
+X: 18
+T: THE SCOTCH MEASURE
+C: from Amphitryon by Henry Purcell
+%R: reel, Scotch measure
+M: C|
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Thomas Bray's Country Dances 1699 p.42
+N: Duple minor longways
+P: AA BB ad lib.
+Q: 1/2=76 "with poise"
+K: F
+%----------------------------------------
+% V:1 arranged to give fewer, longer staff lines.
+V: 1
+"A"|:\
+F3 A (FA) (cA) | F2 f2 d3 ", "e |\
+(fd) (fd) (cA) (cA) | G2 g2 e3 ", "e |\
+f3 g (ga) (gf) |
+(ab) (ag) c3 ", "f |\
+(df) (ba) (ge) (ce) | f2 a2 f4 :|\
+"B"|:\
+c'2 a2 (fa) (ba) | g2 e2 (ce) (fe) |
+(fd) (cB) (Ac) (dc) | d2 g2 e3 ", "e |\
+(eg) ag ab ag | (df) (gf) (ga) (gf) |\
+(cd) (_ed) (cA) (cG) | A2 F2 F4 :|
+%----------------------------------------
+V: 2
+|: A,2 C2 F2 C2 | F2 A2 B2 FE | D2 F2 A2 F2 | E2 D2 E2 G2 |
+F2 C2 C2 FE | E2 FE F2 c2 | B2 GF EG EG | A2 c2 A4 :|
+|: A2 c2 A2 F2 | E2 G2 E2 G2 | F2 G2 A2 BA | G2 B2 G2 E2 |
+E2 FE FG FE | D2 ED C2 A,2 | F2 F2 =E2 E2 | F2 C2 A,4 :|
+%----------------------------------------
+V: 3 clef=bass middle=d
+|: "F"f4 F4 | "F"A2F2 "Bb"B4 | "Bb"b4 "F"f4 | "C"c'2"G"=b2 "C"c'd'c'_b |
+"F"abag f2F2 | "Gm"G4 "F"A4 | "Bb"B4 "C"c4 | "F"F8 :|
+|: "F"f4 F4 | "C"c6 c2 | "Dm"d2e2 "F"f2F2 | "Gm"B2G2 "C"c4 |
+"C"c'4 "Gm"g2G2 | "Bb"B2b2 "F"f2F2 | "F"A2"Bb"B2 "C"c2C2 | "F"F4- F4 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%center The Scotch Measure a New Country Dance.
+%%begintext align
+%% The 1st Man and Wo. cross over, and meet below the 2d cu. and lead up all on a a Row, 1st Man
+%% turn the 2d Wo. round by the right Hand, his Wo. doing the same with 2d Man, then turn
+%% your own with your left Hand into your own places as at first .| The 2d cu. do the same only lead
+%% down all on a Row as the 1st cu. lead up :| All four Hands half round to the left Hand, 1st Man and
+%% 2d Wo. cross over with each other; then Hands half round to the left Hand again; 1st Wo. and 2d
+%% Man cross over with each other .| The 1st Man and 2d Wo. Sett and fall back, then Men and We.
+%% Sett to each other and fall back, 1st cu. cross over up the middle, 2d cu. cast off at the same time, then
+%% 1st cu. cast off and 2d cu. cross over up the middle :| And so to the end.
+%%endtext

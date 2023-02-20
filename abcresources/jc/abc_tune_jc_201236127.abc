@@ -1,0 +1,20 @@
+X: 21682
+T: THE FIRE CROSS SONG
+R: jig
+B: K\"ohler's Violin Repository, v.2, 1885 p.168 #2
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a final repeat but no initial repeat.  Not fixed.  (Either way works.)
+M: 6/8
+L: 1/8
+Q: "Lively."
+K: Cm
+uB |\
+(.G2.G) {GA}G>^FG | Ccc (.c2.d) | {d}(.e2.e) {d}e>de | dff (.f2.b) |\
+{e}(.g2.g) gfe | {d}(.f2.f) fed | (.c2.d) (c/d/)ec | BGG G2 :|
+u(G/F/) |\
+EGE DFD | Ccc (.c2.d) | ege dbB | dff (.f2.b) |\
+{e}(.g2.g) gfe | {d}(.f2.f) fed | (c2d) (c/d/)ec | BGG G2 |]
+G/F/ |\
+EGE DFD | Ccc (.c2.d) | ege dbB | dff f2E/F/ |\
+GeG FdF | EcE Dga | {a}gfe dec | BGG "^D.C."G2 :|

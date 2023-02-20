@@ -1,0 +1,18 @@
+X: 391
+T: Whistle and I'll Wait For You
+R: jig
+%S: s:4 2:10(4+6)
+B: O'Neill's 1850 #391
+N: Segno above first and last bar lines. [Added. JC]
+O: J.O'Neill
+Z: Chris Falt, cfalt@trytel.com
+Q: "With spirit."
+P: Play AA BA
+M: 6/8
+L: 1/8
+K: D
+"^A"[|] (d/e/) !segno!\
+| f>dB A>GF | E>ee e2d/e/ | f>dB AFA | B>dd d2 :|
+"^B"| (f/e/) \
+| d>fa d>fa | d>fa a>(gf/e/) | d>fa d>fa \
+| bge e2(f/e/) | dfa dfa | dd'b Ha2(a/g/) !segno!|]

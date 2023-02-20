@@ -1,0 +1,25 @@
+X: 20353
+T: ST. LOUIS STOP WALTZ
+C:
+%R: waltz
+B: Elias Howe "The Musician's Companion" 1843 p.35 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added initial rest to fix the rhythms of repeats.
+M: 3/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+zEF |\
+(AG)(GE)(FA) | (Ge)(eG)(Ge) | (Fd)(dF)(Fd) | (Ec)(cE)(EF) |\
+(AG)(GE)(FA) | (Ge)(eG)(Ge) | (Fd)(dF)(Fd) | c2z :|
+|: GEC |\
+(B,D)(DG)(GB) | (Bd)(df) (fa) | (ag)(ge)(ec) | (AG)(GE)(EC) |\
+B,DDG(GB) | (Bd)(df)(fa) | (ge)(ce)(dB) | c2z :|
+|: Gcd |\
+e3 Gcd | e3 GBd | f3 GBd | f3 dge |\
+d3 dfd | (cB)(ce)(dB) | c2z :| zG2 | (GB)(Bd)(df) |
+(Gc)(ce)(eg) | (GB)(Bd)(df) | (Gc)(ce)(eg) | z6 |\
+z2zGBd | e3 Gcd | e3 GBd | f3 GBd |\
+f3 dgf | e3 ege | d3 dgd | (cB)(ce)(dB) | c2"^D.C."z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

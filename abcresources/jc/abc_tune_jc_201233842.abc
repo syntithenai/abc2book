@@ -1,0 +1,22 @@
+X: 20134
+T: CHARLIE IS MY DARLING.
+O: Jacobite air.
+Q: "Moderate."
+%R: air, strathspey, shottish
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.13 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The lone final repeat symbol is a bit odd and ambiguous; not fixed.
+M: C
+L: 1/8
+K: E
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|!f!\
+E>FG>A (B2e) z/B/ | (c2e) z/c/ (B2e) z |\
+E>FG>A (B2e) z/f/ | g2 {g}fe e3 H|]\
+!p!e |\
+^dB^cd e>fge | ^dB^cd e3f |\
+g>fge dB GA/B/ | c>AB>G F>c B/A/G/"^D.C."F/ :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

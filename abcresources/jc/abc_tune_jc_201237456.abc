@@ -1,0 +1,22 @@
+X: 262
+T: Rickets Hornpipe
+%R: hornpipe, reel
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: John Treat - "Gamut for the Fifes", 1779, p.26 #2
+F: https://archive.org/details/GamutFortheFifes
+N: Made 1st strain's pickup a triplet, added initial rest to 2nd strain's pickup, to fix the rhythms of repeats.
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(3ABc |\
+dcdA FAdf | edcB A2f2 |\
+gfed gfed | cdBc Agfe |\
+dcdA FAdf | edcB A2g2 |\
+fafd egec | d2d2 d2 :|
+|: zf/g/ |\
+affd dfaf | bgge egbg |\
+affd bged | cdBc Agfe |\
+dcdA FAdf | edcB A2g2 |\
+fafd egec | d2d2 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

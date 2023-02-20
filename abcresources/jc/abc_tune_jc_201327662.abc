@@ -1,0 +1,1052 @@
+% Roaring Jelly - jigs
+
+%%leftmargin     3.5cm
+%%staffwidth     14.50cm
+
+% ---------- page 49 ----------
+
+X: 98
+T: Squirrel in the Tree
+C: J-39
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+% %staffwidth 12.5cm
+K: G
+d2c|: "G"BBB B2B| B2A GAB| "C"ccc c2B| c2d efg|
+      "D"fff fff| fed cBA|1 "G"GBd "D"e2d| "G"B3 Bdc:|2 "G"GBd "D"b2a| "G"g3 d2|]
+|:\
+g| "G"bbb b2b| b2a "C"gfe| "G"ddd d2e| d2c Bdg|
+   "D"fff fff| fed cBA|1 "G"GBd "D"e2d| "G"B3 Bd:|2 "G"GBd "D"bfa| "G"g3 g2|]
+%%text 9/1/98
+
+X: 99
+T: Calliope House
+C: J-39
+C: Dave Richardson
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+% %staffwidth 12.5cm
+K: E
+B| "E"eBB gBB| fBB gBB| "A"cff f2e| "B"fge cec|
+   "E"BcB B2G| B2c e2f|1 "A"gbg gfe| "B"f3 f2:|2 "A"gbg "B"fec| "E"e3 ega|]
+|:\
+ "E"b3 gbb| fbb gbb| "A"a3 gag| "B"fgf fec|
+   "E"BcB B2G| "C#m"B2c e2f|1 "A"gbg gfe| "B"f3 fga:|2 "A"gbg "B"fec| "E"e3 e2|]
+%%text 9/1/98
+
+% ---------- page 50 ----------
+
+X: 100
+T: Jig of Slurs
+C: J-40
+C: G. S. MacLellan
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+% %leftmargin 1.6cm
+% %staffwidth 18.4cm
+P: D, E Dorian
+K: D
+A| "D"Add dcd| "G"Bdd "D"Add| "G"Bdd "D"Add| "Em"Bee "A"edB|
+   "D"Add dcd| "G"Bdd "D"Add| "G"Bdd "A"cde| "D"fdd d2:|
+|:\
+B| "D"Aff fef| aff fed| "Em"Bee ede| "G"fed "A"edB|
+   "D"Aff fef| aff fed| "G"Bdd "A"cde| "D"fdd d2 :| \K:Edor\
+|:\
+B| "G"Ggg gfg| "Em"age "G/D"gdB| "G"Ggg gfg| "D"age "G"g2 B|
+   "G"Ggg gfg| "Em"age "G"ged| "Em"Bee efg| fed e2:|
+|:\
+G| "G"GBB Bdd| dee "Em"edB| "G"GBB Bdd| dee "Em"efg|
+   "G"GBB Bdd| dee edB| "Em"Bee efg| "D"fed "Em"e2:|
+%%text 10/25/99
+
+%%newpage
+
+% ---------- page 51 ----------
+
+X: 101
+T: Mist Over Tennessee
+C: J-40
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: G
+"D7"d2c| "G"B2B BGE| DGB d3| "C"ege "G"dBG|
+"Am"c3 "D"cAB| c2c cAF| DFA c3| ded cBA|1 "G"B3:|2 "G"G3 g2a|]
+|:\
+"G"b3 g3| ded B3| DGB DGB| "Am"c3 cBc|
+"D"a3 f3| d3 dBc| ded cBA|1 "G"B2c d2g:|2 "G"G3|]
+%%text 9/1/98
+
+%%vskip 1cm
+%%textfont       Times-Roman 13.0
+%%text J-41, "The Lassies of Dunse", same as J-47
+%%textfont       Times-Roman 9.0
+
+X: 102
+T: Mr. Charles Graham's Welcome Home
+C: J-41
+C: Wm. Gow
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+P: A Dorian
+K: ADor
+A/G/| "Am"EAA A2G| BAA A2B| "G"d2e dBg| BGG G2A/G/|
+      "Am"EAA A2G| BAA A2B| "G"d2e dBg| "Am"BAA A2 :|
+\
+e| "Am"a>^ga a2e| a>^ga a2e| "G"=g>bg e>ge| dBG G2e|
+   "Am"a>^ga a2e| a>^ga a2e| "G"=g>bg e>ge| d>BA "Am"A2e|
+   "Am"a>^ga a2e| a>^ga a2e| "G"=g>bg e>ge| dBG G2A/G/|
+   "Am"EAA A2G| BAA A2B| "G"d2e dBg| "Am"BAA A2|]
+%%text 10/25/99
+
+% ---------- page 52 ----------
+
+X: 103
+T: Portland Fancy
+C: J-42
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: A
+"A"E2A E2A| EAB c2c| "D"dcd "E"Bcd| "D"f2e "E"cAF|
+"A"E2A E2A| EAB c2c| "D"dcd "E"EFG|1 "A"AcB AGF:|2 "A"AcB Ace|]
+|:\
+"A"a2a gag| "D"fdf e2c| dcd "E"Bcd| "A"cde "E"f2e|
+"A"a2a gag| "D"fdf e2c| dcd "E"EFG|1 "A"AcB Ace:|2 "A"AcB AF=G |] \K: D\
+|:\
+"D"ABc d2e| f2g a3| "G"efg "A"Ade| "D"f2d "A"AFG|
+"D"ABc d2e| f2g a3| "A"efg ABc| "D"d2f d3:|
+|:\
+"D"F2A F2A| FAd f3| "A"ece gec| "D"dfe dAG|
+"D"F2A F2A| FAd f3| "A"ece gec| "D"d3 d3:|
+%%text 9/1/98
+
+% ---------- page 53 ----------
+
+X: 104
+T: Medway Jigs I, The
+C: J-43
+C: Paul Milde  1994
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: G
+GA| "G"BAB "C"cBc| "G"dBG "C"EFG| "G"DGA BAG| "D"ded dGA|
+    "G"BAG "C"cBA| "D"def "G"gdB| "C"ecA "D"FAF| cAF "G"G2D|
+    "G"GFG "C"ABG| "G"dBG "C"EFG| "G"DGA "Em"BAG| "D"ded dGA|
+    "G"BAG "C"cBA| "D"def "G"gdB| "C"ecA "D"FAF| DAF "G"G2|]
+\
+d| "G"cAf "C"edg| "D"fef "G"gfg| "D"aga "G"bag| "A"fge "D"d2B|
+"G"b2g "D"agf| "C"efg "G"d2g| "C"efg "D"agf| "G"g3- g2d|
+"G"cAf "C"edg| "D"fef "G"gfg| "D"aga "G"bag| "A"fge "D"d2B|
+"G"b2g "D"agf| "C"age "G"d2B| "C"ced "D"cAF| "G"G3- G|]
+%%text 9/1/98
+
+% ---------- page 54 ----------
+
+X: 105
+T: Medway Jigs II, The
+C: J-43
+C: Paul Milde  1994
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: G
+"G"BAG BAG| BAG d2G| B2G "C"AGE| "D"D3 C3|
+"G"B,CD D2G| D2E G2A| B2d dcB| "D"A3- A2G|
+"G"BAG BAG| BAG d2G| B2G "C"AGE| "D"D3 C3|
+"G"B,CD D2E| D2E G2 A| "D"B2B AGA| "G"G3- G2 |]
+\
+d| "G"Bcd dcB| "C"c2d g2d| "G"Bcd e2d| "C"c2B "D"A3|
+   "G"B2c dcB| "D"A2B c2A| "Em"GAB BAG| "D"A2F "G"G2d|
+   "G"Bcd dcB| "C"c2d g2d| "G"Bcd e2d| "C"c2B "D"A3|
+   "G"Bcd "D"c2A| "G"B2G "D"ABc| ABc "G"B2G| "D"A2F "G"G3|]
+%%text 9/1/98
+
+X: 106
+T: Mist on the Mountain
+C: J-44
+C: Bruce A. Randall  1994
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: Am
+E| "Am"cAc "G"BAG| "Am"E2A A2B| cBc "Dm"dcd| "E"e3- e2e|
+   "Dm"fdf "Am"ece| "G"dBd "C"c2d| "Am"edc "G"BAG| "Am"A3- A2:|
+|:\
+c| "C"ece "G"dBG| "Am"cAc "E"B^GE| "Am"AEA "E"BEB| "Am"c3 "G"dcd|
+   "C"ece "G"dBd| "Am"cAc "E"B^GB| "Am"cBA "E"B2^G| "Am"A3- A2:|
+%%text 9/1/98
+
+% ---------- page 55 ----------
+
+X: 107
+T: Paul Revere's Ride
+C: J-44
+C: Bruce A. Randall  1994
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: Em
+E| "Em"B,EF GEA| BED EGA| "G"Bde dBG| "Em"EGB "D"A2F|
+   "Em"B,EF GEA| BED EGA| "G"Bde dBA| "Em"BGE E2 :|
+|:\
+B/d/| "Em"efd edA| BED EGA| Bef gba| gfe "D"f2g/a/|
+      "G"bab "Em"geg| "D"afe dfa| "G"bag "Bm"fdB| "D"ABd "Em"e2 :|
+%%text 9/1/98
+
+X: 108
+T: Over the Hills
+C: J-45
+C: Bruce A. Randall  1994
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: A
+E| "A"A2 A/B/ AGA| c2d e2a| "D"f2d "B"B2c| "E"edB GFE|
+   "A"A2 A/B/ AGA| c2d e2a| "D"fed "E"B2c| B2A "A"A2:|
+|:\
+e| "A"e2d/f/ e^de| "D"f2e "A"c2d| "E"edc dgf| "A"fec Acd|
+   "A"e2d/f/ e^de| "D"f2e "A"c2a| "D"fed "E"cdB| B2A "A"A2:|
+%%text 9/1/98
+
+% ---------- page 56 ----------
+
+X: 109
+T: Devlin's
+C: J-46
+C: Irish
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: Bm
+"Bm"d2B BAB| F2B BAB| "G"d2B Bcd| "A"cBc ABc|
+"G"d3 "A"e3| "Bm"f2b afe| "G"dcB "A"AFE| "Bm"FBB B2c:|
+|:\
+"D"a3 f3| "A"e2A cBA| c2A cBA| "F#"cde f2e|
+"Bm"d2B BAB| F2B Bcd| "G"efg "A"fef| "Bm"dBB B3:|
+%%text 9/1/98
+
+X: 110
+T: Lassies of Dunse, The
+C: J-47
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: D
+f/g/| "D"afd "A"ecA| "D"d2A A2=c| "G"BGB "D"AGF| "A"E2E E2f/g/|
+      "D"afd "A"ecA| "D"d2A A2G| FDF "A"ECE| "D"D3 D2:|
+|:\
+F/G/| "D"AFA "G"BGB| "D"AFA d2A| "G"BGB "D"AGF| "A"E2E E2 f/g/|
+      "D"afa "A"geg| "Bm"fdf "A"ecA| "G"B/c/dB "A"c/d/ec| "D"d3 d2:|
+%%text 9/1/98
+
+% ---------- page 57 ----------
+
+X: 111
+T: Lads of Dunse, The
+C: J-47
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: D
+B| "D"A2D DED| DED "G"B2A| Bcd "D"AFA| "G"BGE "A"E2d|
+   "D"A2D DED| DED "G"B2A| "Em"Bcd "A"AFd| "D"AFD D2 :|
+\
+g| "D"fef d2e| fga "G"B2A| Bcd "D"AFA| "Em"BGE "A"E2g|
+   "D"fef d2e| fga "Em"B2A| "G"Bcd "A"AFd| "D"AFD D2g|
+   "D"fef d2e| fga "G"B2A| "Em"Bcd "D"AFA| "G"BGE "A"E2f/g/|
+   "D"afa "A"geg| "Bm"fdf "A"ece| "G"dcB "A"AFd| "D"AFD D2 |]
+%%text 9/1/98
+
+X: 112
+T: Young Tim Murphy
+C: J-48
+C: Hartnett
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: D
+F/G/| "D"AFD DFA| "G"Bcd "D"A2A| "G"Bcd "D"AGF| "G"GFG "A7"EFG|
+      "D"AFD DFA| "G"Bcd "D"B2A| "G"Bcd "D"F2E| FDD D2:|
+|:\
+e| "D"fef "G"dBA| "Bm"Bdd d2e| "D"fef def| "G"gfg "A7"e2a|
+   "D"fed "G"B2d| "D"A2d F2A| "G"Bdd "A7"F2E| "D"FDD D2 :|
+%%text 9/1/98
+
+%%vskip 1cm
+%%textfont       Times-Roman 13.0
+%%text J-48, "Hundred Pipers", same as J-6
+%%textfont       Times-Roman 9.0
+
+% ---------- page 58 ----------
+
+X: 113
+T: All the Rage
+C: J-48
+C: Larry Unger \2511989
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: E
+e| "E"fgg gfe| fgg g2e| "A"cee "E"Bee| "F#m7"gfe "B7"f2e|
+   "E"fgg gfe| fgg g2b| "A"gfe "B7"fed| "E"e3- e2:|
+|:\
+e| "A"cee "E"Bee| "A"cee "E"B2e| "A"ece "F#m7"fef| "E"gbg "B7"f2e|
+   "A"cee "E"Bee| "A"cee "E"B2b| "A"gfe "B7"fed| "E"e3- e2:|
+%%text 9/1/98
+
+X: 114
+T: Reunion Jig
+C: J-49
+C: Bruce A. Randall
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: D
+D| "D"FAB AFD| FAB cde| "Bm"fBA Bde| fBA "G"BdB|
+   "D"AFG AFD| FAB Ade| "Bm"fBA "G"BdB| "A"AFE "D"D2:|
+|:\
+d| "D"fga fdg| fag fdf| "Em"ega bge| geb geg|
+   "D"fda baf| def "A"edf| "Em"eBA "G"Bcd| "A"AFE "D"D2 :|
+%%text 9/1/98
+
+% ---------- page 59 ----------
+
+X: 115
+T: Birthday Jig, The
+C: J-49
+C: Laura Davidson
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: G
+"G"GDE G3| "D"AdB ABA| "C"GED G2A| "D"BAB GED|
+"G"GDE G3| "D"AdB ABA| "C"GED G2A| "D"BGG "G"G3:|
+|:\
+"Em"Bed BBA| "C(no E)"GAB "D(no F#)"GAB| "Em"Bed Bef| "G"ged BAG|
+"Em"Bed BBA| "C"GAB GED| "G"GDE G2A| "D"BGG "G"G3:|
+%%text 9/1/98
+
+X: 116
+T: Jump At the Sun
+C: J-50
+C: John Kirkpatrick  \2511972
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: Gm
+"Gm"GBd ^c2d| GBd ^c2d| gdd gdd| dcB "D"A3|
+"Gm"GBd ^c2d| GBd ^c2d| gdd "Cm"ed=c| "D7"BcA "Gm"G3:|
+|:\
+d| "Gm"gdd bag| "D7"add c'ba| "Gm"bag bag| "D"a^fd "D7"e2d|
+   "Gm"gdd bag| "D7"add c'ba| "Gm"gdd "Cm"edc| "D7"BcA "Gm"G2:|
+%%text 10/21/98
+
+% ---------- page 60 ----------
+
+X: 117
+T: Maid on the Green
+C: J-50
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: G
+d| "G"gfg e2d| "Em"Bee "G"dcB| BGG dBG| "D7"FAA A2f|
+   "G"gfg e2d| "Em"Bee "G"dBG| Bdd dBG| BAG G2:|
+|:\
+g| "G"gfg "D7"afd| "Em"gfg "D"a2a| "Em"bgg "D"aff| "G"gfa g2a|
+   "Em"bgg "D"aff| "Em"gfg "D7"e2d| "Em"Bee "G"dBG| BGG G2:|
+%%text 9/1/98
+
+X: 118
+T: Mug of Brown Ale, The
+C: J-50
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: Am
+G| "Am"EAA Acd| edB c2A| "G"BGG dGG| Bdc BAG|
+   "Am"EAA Acd| ede a2g| edc "E7"Bcd| "Am"ecA A2:|
+\
+f| "Em"gef g2a| gef g2d/c/| "G"BGG dGG| BdB BAG|
+   "Em"gef g2a| gef g2d| "Am"edc "E7"Bcd| "Am"ecA A2f|
+   "Em"gef g2a| gef g2d/c/| "G"BGG dGG| BdB BAG|
+   "Am"EAA Acd| ede a2e| edc "E7"Bcd| "Am"ecA A2|]
+%%text 9/1/98
+
+% ---------- page 61 ----------
+
+X: 119
+T: Hare in the Corn, The
+C: J-51
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: G
+Bc| "G"d2B G2B| ded "C"cBA| "G"BAG "C"EDB,| EDB, "D"A,B,A,|
+    "G"G,B,D G,B,D| "C"EFG "D"Adc| "G"B2G dBG| "D"cAF "G"G:|
+|:\
+Bc| "G"ded BGB| def g2e| "C"edB "G"gdB| gdB ABA|
+    "G"GBd GBd| "C"bag "D"(4efge| "C"edB "G"gdB| "D"cAF "G"G:|
+%%text 9/1/98
+
+X: 120
+T: Tipsy Sailor, The
+C: J-51
+C: Scottish
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: Em
+D| "Em"E2B- BAB| E2B- BAB| "D"ded d^cB| AFD DEF|
+   "Em"E2B- BAB| E2B- BAB| "D"AdB AFA| "Em"BGE E2:|
+\
+f| "Em"eBe gfe| Bef gfe| "D"fdA FAd| fdf "B7"agf|
+   "Em"eBe gfe| Bef gfe| "D"fdf gfg| "Em"bge e2f|
+   "Em"eBe gfe| Bef gfe| "D"fdA FAd| fdf "B7"agf|
+   "Em"gba gfe| "D"fag fed| B/c/dB AFA| "Em"BGE E2|]
+%%text 9/1/98
+
+% ---------- page 62 ----------
+
+X: 121
+T: Miners' Jig, The
+C: J-51
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+P: E Dorian
+K: EDor
+"Em"g3 edB| BAB "A7"EFG| "D"F/G/AF DFA| dAF Adf|
+"Em"g3 edB| BAB EFG| "C"B/c/dB "B7"AGF| GE=C "Em"[B,3E3]:|
+|:\
+"Em"e3 Beg| bge "A7"gfe| "D"d3 Adf| afd "B7"fed|
+"Em"e3 Beg| bge gfe| "C"B/c/dB "B7"AGF| GE=C "Em"[B,3E3]:|
+%%text 9/1/98
+
+X: 122
+T: Handsome Young Maids
+C: J-52
+C: Charlie Lennon
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+% %staffwidth 12.5cm
+K: A
+"A"aed cBA| cde aga| "E"bee dee| Bee bag|
+"A"aed cBA| cde aga| "E"bee dee|1 BAG "A"A2e:|2 "E"BAG "A"A2|]
+B| \
+"A"c2A ABc| "D"dcd "E"fed| "A"cAc aec| "E"B2f fed|
+"A"c2A ABc| "D"dcd "E"fed| "A"ece "D"fed| "E"cdB "A"A2B|
+"A"c2A ABc| "D"dcd "E"fed| "A"cAc aec| "E"B2f fed|
+"A"c2A ABc| "D"dcd "E"fed| "A"ece "D"fef| "E"gfg bag|]
+%%text 10/31/00.  Also known as "Handsome Young Lasses".
+
+% ---------- page 63 ----------
+
+X: 123
+T: Humours of Kesh, The
+C: J-53
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: G
+"G"BGG Bcd| "C"ecG "D7"efg| "G"dcB "Em"gdB| "Am"A3 "D7"ABc|
+"G"BGG Bcd| "C"ecc "D7"efg| "G"dcB "Em"gdB| "D7"cAF "G"G3:|
+\
+"G"gfg "Em"bag| "Am"fed "D7"^cde| "G"dcB "Em"gdB| "Am"A3 "D7"ABd|
+"G"gfg bag| "D7"fed ^cde| "C"dcB "Am"gdB| "D7"cAF "G"G (3Bcd|
+"G"gfg "Em"bag| "Am"fed "D7"^cde| "G"dcB "Em"gdB| "Am"A3 "D7"ABc|
+"G"BdG Bcd| "C"e2c "Am"efg| "D7"dcB gdB| cAF "G"G3|]
+%%text 9/1/98
+
+X: 124
+T: Tom Trainor's
+C: J-53
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+% %staffwidth 12.5cm
+K: E
+"E"EGB EGB| EGB "B7"c2B| "E"EGB EGB| "D"=DFA B2A|
+"E"EGB EGB| EGB "B7"c2a| "E"gbg Bcd|1 "E"e3 eBG:|2 "E"e3 "B7"efa|]
+|:\
+"E"gbg efg| "A"aga c3| "B7"fgf f2e| "B7"dBB c2B|
+"E"gbg efg| "A"aga c3| "B7"f2e dBd|1 "E"e3 "B7"efa :|2 "E"e3 eBG|]
+%%text 9/1/98
+
+% ---------- page 64 ----------
+
+X: 125
+T: C\'uil Aodha, The
+C: J-53
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: A
+"A"aec dBG| A3 "E7"c2d| "A"edc dBA| "E7"GEE dcB|
+"A"A3 AGA| "E7"BAB gab| "D"age "E7"dBe| "A"ABA Ace:|
+|:\
+"F#m"a2a aga| "E7"bef gab| "A"age "D"d2e| "B7"dBA "E7"GAB|
+"A"a2a aga| "E7"bef gab| "D"age "Bm"dBe| "E7"A3 "A"Ace:|
+%%text 9/1/98
+
+X: 126
+T: Ruddy Turnstone, The
+C: J-54
+C: J. M. Graetz
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+% %staffwidth 13cm
+K: D
+AG|: "D"FGA A2A| "Em"B3- BAG| "D"FDF GAB| "A7"E3- EAG|
+     "D"FDD D2A| "G"BGG "(Em)"EFG|1 "D"ABA AGF| "A7"E3- EAG :| \
+                                 [2 "A7"ABA GFE| "D"D2E "E7"F2|] \K: A\
+|:\
+^G| "A"A3 Bcd| e3- edc| "E"BGB dcB| "A"cBA "E"Bcd|
+    "A"ecc c2e| "Bm"fdd B2A| "E7"GEG dcB|1 "A"A2E "E7"F2 :|\
+                                        [2 "A"A2z "A7"=G3|]
+%%text 9/1/98.  Also known as "Noel Stone's Jig".
+
+% ---------- page 65 ----------
+
+X: 127
+T: Medway Jig #3
+C: J-54
+C: Paul Milde  1997
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: G
+D| "G"G3 "D"FGA| "G"G3 D2G| B2d dcB| "D"AGA "G"B2d|
+      d2c B2A| GAB "D"A2D| "G"G2G "D"F2G| AGF "G"G2 :|
+\
+d| "C"e3 efg| "G"d3 dcB| "D"cBA "G"BAG| "Am"ABe "D"d2d|
+   "C"e3 efg| age "G"d2B| "C"cde "G"dcB| "D"FGA "G"G2d|
+   "C"e3 efg| "G"d3 dcB| "D"cBA "G"BAG| "Am"ABe "D"d2d|
+%%text All but the last time
+   "C"e3 gfe| "G"ded B2G| "D"A2c "G"BAG| "D"FGA "G"G2 |]
+%%text Last time
+   "C"e3 gfe| "G"d3  B2d| "D"A2c "G"BAG| "D"FGA "G"G3|]
+%%text 5/5/99
+
+%%vskip 1cm
+%%textfont       Times-Roman 13.0
+%%text J-55, "Solomon Levi", moved to S-S
+%%textfont       Times-Roman 9.0
+
+% ---------- page 66 ----------
+
+X: 128
+T: Pet of the Pipers
+C: J-56
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: G
+"G"G3 BAG| dBG gdB| G3 BAG| "Am"FED "D"cBA|
+"G"G3 BAG| dBG g2d| "C"efg "G"dBG |1 "D"cAF "G"G2D :|2 "D"cAF "G"GBd |]
+|:\
+"C"g3 efg| "D"agf "G"ged| "C"g3 efg| "D"agf "G"g2d|
+"C"gfe "G"dcB| "C"edc "G"BAG| "C"efg "G"dBG| "D"cAF "G"G3 :|
+%%text 9/1/98
+
+X: 129
+T: Ship in Full Sail
+C: J-56
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: G
+"G"DGG BGG| dGG Bdd| "C"ege "G"dBG| "Am"ABA "D"AGE|
+"G"DGG B3| "G"dGG Bdd| "C"ege "G"dBG| "D"ABA "G"G3 :|
+|:\
+"G"dgg bgg| "D"aga "Em"bge| "G"dgg bgg| "D"a2a age|
+"G"dgg bgg| "D"aga "Em"bgd| "C"ege "G"dBG| "D"ABA "G"G3 :|
+%%text 9/1/98
+
+% ---------- page 67 ----------
+
+X: 130
+T: Swallow's Nest, The
+C: J-57
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+% %staffwidth 14cm
+K: D
+A/c/| "D"dcd fdc| dAG FED| FAd "A"cAF| E=CE "A7"GFE|
+      "D"DFA dAF| "Em"EGB "A7"efg| "D"f/f/df "A7"gec| edc "D"d2 :|
+|:\
+f/g/| "D"a>ba fdf| "A7"gag ecA| "D"fef "A7"gfg| ecA GFE|
+      "D"DFA dAF| "Em"EGB "A7"efg |1 "D"f/f/df "A7"gec| edc "D"d2 :|2\
+      "D"f2f "A"gec| edc "D"d2 :|
+%%text 9/1/98
+
+X: 131
+T: Port an Bhrathar
+C: J-57
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: D
+%%text Repeat each part 4 times
+% NOTE: can modify PS files - look for end1 and change (1) to (1,3) & (2) to (2,4)
+   "D"d2e "Bm"fdB| "D"d2e "Bm"fdB| "D"AFE "A"EFA |1 "D"AFE "A"EFA :|2 AFD "D"D3 |]
+\
+|: "G"B3 "D"BAF| "A"ABc "D"d2B| AFE "A"EFA |1 "D"AFE "A"EFA :|2 AFD "D"D3 |]
+\
+|: "G"gag "D"fgf| "A"ede "Bm"fdB| "D"AFE "A"EFA |1 "D"AFE "A"E2f :|2 AFD "D"D3 |]
+%%text 9/1/98
+
+% ---------- page 68 ----------
+
+X: 132
+T: Eavesdropper, The
+C: J-58
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: G
+GE| "G"DBB BAG| Bdd dBG| "C"cde "G"dBG| "Am"BAA "D"AGE|
+    "G"DBB BAG| Bdd dBG| "C"cde "G"dBA| "D"AGF "G"G :|
+|:\
+Bd| "G"g3  "D"afd| "C"efg "G"dBG| "C"cde "G"dBG| "Am"BAA ABd|
+    "G"g2b "D"afd| "C"efg "G"dBG| "C"cde "G"dBA| "D"AGF "G"G :|
+%%text 9/1/98
+
+X: 133
+T: Knight's of Saint Patrick
+C: J-58
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+% %staffwidth 13.5cm
+K: D
+"D"dcd faf| dcd AFD| "G"GBG FAF| "A"EFG ABc|
+"D"d3 faf| dcd AFD| "G"GBG "D"FAF |1 "A"EDE D2A :|2 "A"EDE D2f |]
+\
+"D"aga fdf| aba agf| "A"g3 gec| Ace gfe|
+"D"aga fdf| aba afg| afd "Em"bge| "A"edc "D"d2f|
+"D"aga fdf| aba agf| "A"g3 gec| Ace gfe|
+"D"d3 "Em"ede| "F#m"fef "G"gfg| "D"afd "Em"bge| "D"dAF D2 "(A)"A |]
+%%text 9/1/98
+
+% ---------- page 69 ----------
+
+X: 134
+T: Medway Jig Trilogy: #4
+C: J-59
+C: Paul Milde 1998
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: D
+A| "D"dcd "G"edB| "D"A3 F2G| A2F FED| "A"EDE "D"F2A|
+      dcd "G"edB| "A"ABA "D"F2D| F2E FED| "A"EFE "D"D2A|
+   "D"dcd "G"edB| "A"ABA "D"F2G| ABA AGF| "A"EDE "D"F2A|
+      d2d "A"cAB| "G"cdB "A"A2G| "D"F2D FED| "A"EFE "D"D2 |]
+\
+D| "D"d3 "A"ede| "D"f3 a2f| "G"gfe "D"f2d| fed "A"e2a |
+   "D"a2g f2e| def "A"e3| ABc e2c| edc "D"d2A|
+   "D"d3 "A"ede| "D"f3 a2f| "G"gfe "D"f2d| fed "A"e2a |
+   "D"a2a fed| agf ez2| DEF AGF| "A"EFE "D"D2 |]
+%%text 9/1/98
+
+% ---------- page 70 ----------
+
+X: 135
+T: Medway Jig Trilogy: #5
+C: J-59
+C: Paul Milde 1998
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: A
+E| "A"A2A "E"BAB| "A"c2d e2c| "E"dcB "A"c2A| cBA "E"B2E|
+   "A"C2E A2E| "D"FGA "E"E2D| "A"C2A, EDC| "E"B,CB, "A"A,2E|
+   "A"A2A "E"BAB| "A"c2d e2c| "E"dcB "A"c2A| cBA "E"B2e|
+      efe "A"c2A| "D"d2c "E"B2B| "D"d2c "E"BAG| "A"A3- A2 |]
+\
+a| "D"f2f d2f| "A"efe c3| "D"def "E"G2B| "A"A2B c2a|
+   "D"faf d2f| "A"efe c2e| "D"d2B "E"GAB| "A"A3 a3|
+   "D"f2f d2f| "A"efe c3| "D"def "E"G2B| "D"A2F "E"E2D|
+   "A"C2E A2E| "D"FGA "E"E2D| "A"C2A, "E"B,CB,| "A"A,3- A,2 |]
+%%text 9/1/98
+
+% ---------- page 71 ----------
+
+X: 136
+T: Three Sea Captains, The
+C: J-60
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: G
+D| "G"G2G BGB| "D"c2A F2A| "G"G2A B2c| d2B G2B|
+   "Am"c2c "D"ecA| "G"B2B dBG| "Am"A2B c2B| ABG "D"FED|
+   "G"G2G BGB| "D"c2A F2A| "G"G2A B2c| d2B G2B|
+   "Am"cec "D"A2c| "G"BdB G2F| "C"EcB "D7"AGF| "G"G3- G2 |]
+\
+d| "G"g2g dcB| "D7"ABc def| "G"g2g "Am"efg| "D"fdd d2d|
+   "Am"c2c ecA| "G"B2B dBG| "Am"A2B c2B| ABG "D"FED|
+   "G"G2G BGB| "D"c2A F2A| "G"G2A B2c| d2B G2B|
+   "Am"cec A2c| "G"BdB G2F| "Am"EcB "D"AGF| "G"G3- G2 |]
+%%text 9/1/98.  Formerly R-13
+
+X: 137
+T: Andromeda
+C: J-61
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+P: A Mixolydian
+K: AMix
+"A"Ace ecA| "D"def "G"gfg| "A"efe ecA| "G"dcd BAG|
+"A"Ace ecA| "D"def "G"gfg| "A"efe "G"dBG| "A"ABA A3 :|
+|:\
+"A"c'ac' "G"bgb| "A"aec Ace| c'ac' "G"bgb| "A"age "D"d3 |
+"A"c'ac' "G"bgb| "A"aec Ace| "G"bgb "D"afa| "G"gfd "E"B3 :|
+%%text 9/1/98.  Formerly R-47
+
+% ---------- page 72 ----------
+
+X: 138
+T: Road to Lincoln
+C: J-61
+C: Jim Guinness 1981
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: Em
+"Em"edB AGE| GAB AGF| "D"DFG AFD| "(F#m)"FA=c "D"d=cd|
+"Em"edB AGE| GAB AGF| "D"DEF EDF| "Em"EFE E3 :|
+|:\
+"Em"efg gfe| "Bm"fed BAB| "D"def fga| "Em"ged d3 |
+"Em"gfe efg| "Bm"fed BAB| "D"def fga| "Em"bag "D"fgf :| "Em - go out on"e3|]
+%%text 9/1/98.  Formerly R-47
+
+X: 139
+T: Blue Jig, The
+C: J-61
+C: Joel Mabus
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: Am
+"A7"A3 cBA| cBA a3| age _edc| "D7"d^de d=dc|
+"A7"A3 cBA| cBA a3| age "D7"cAG| "E7"_EDC "A"A,3:|
+|:\
+"D7"^FAB cBA| ^FAB cBA| "A7"^ce^f gfe| ^ce^f gfe|
+"D7"^FAB cBA| ^FAB cBA| "A7"age "D7"cAG| "E7"_EDC "A"A,3 :|
+%%textfont Times-Bold 10.0
+%%text Alternate B:
+%%textfont Times-Roman 9.0
+|:\
+^FAB cBA| ^FAB cBA| ^ce^f [Af][Ag][Ag]| [A^f][Ag][Ag] [Ag][Af][Ae]|
+^FAB cBA| ^FAB cBA| age cAG| _EDC A,3 :|
+%%text 9/1/98. From 'Rum and Onions' band by way of Aline Pepper
+
+% ---------- page 73 ----------
+
+X: 140
+T: Stan Chapman
+C: J-62
+C: Jerry Holland
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: A
+F| "A"E3 EFA| "E"B3 Bce| "D"fea "F#m"fec| "Bm"ecA "E"BAF|
+   "A"E3 EFA| "E"B3 Bce| "D"fea "E"fec| "A"ecA A2 :|
+|:\
+f| "A"e3 ecA| "D"f3 fga| "A"fec BAB| "F#m"cAF F2f|
+[1 "A"e3 ecA| "D"f3 fga| fec "E"BAB| "A"cAA A2 :|
+[2 "A"ecA ecA| "D"fdf fga| fec "E"BAB| "A"cAA A2 |]
+%%text 01/15/99.  From Jerry Holland's "Collection of Fiddle Tunes"
+
+X: 141
+T: Old Favorite
+C: J-63
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: G
+"G"B3 BAB| dBA G2B| ded d2B| ded "D"B2A|
+"G"B3 BAB| dBA G2B| ded "D"cBA| "G"G3 G3 :|
+|:\
+"G"g3 "D"f3| "C"efe "G"d2B| ded d2B| ded Bdf| "G"g3 "D"f3|
+"C"efe "G"d2B|1 "D"dge dBA| "G"G3 G3 :|2 "G"dge dge| dge "D"dBA |]
+%%text 03/24/99
+
+% ---------- page 74 ----------
+
+X: 142
+T: One-Horned Sheep
+C: J-64
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: G
+"G"g2G GFG| "C"EGG "G"DGG| g2G GFG| "Am"EAG "D"FED|
+"G"g2G GFG| "C"EGG "G"DGG| "C"EGG "D"FGA| "G"BGF G3 :|
+|: \
+"G"GBd dBd| GAB d2D| GBd dcB| "D"cdc A2D|
+"G"GBd dBd| GAB def| "C"gfe dBG |1 "D"ABA G2D :|2 "D"ABc def |] "G"g |]
+%%text 2/27/00.  From "The Portland Collection" - revised by Debbie Knight.
+
+X:143
+T: Moon and Seven Stars, The
+C: J-65
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: D
+A| \
+"D"d2A AGF| "G"GAB "D"A2A| "G"Bcd efg| "A"fed cBA|
+"D"d2A AGF| "G"GAB "D"A2A| "G"Bcd efg| "A"Adc "D"d2 :|
+|: \
+"A"e2A ABA| efg "D"f3| "A"efg "D"fed| "E"cdB "A"A2A|
+"G"BGB "D"A2A| "G"BGB "D"A2A| "G"Bcd efg| "A"Adc "D"d3 :|
+%%text 10/28/99.  From "The Portland Collection"
+
+% ---------- page 75 ----------
+
+X: 144
+T: Timmy Clifford's
+C: J-66
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: G
+"G"G,B,D "C"E2D| EGF "D"GDB,| "G"G,B,D "C"C2B| "D"AGF "G"G3|
+"G"G,B,D "C"E2D| EGF "D"GAB| "G"d3 B3|1 "D"AGF "G"G3 :|2 "D"AGF "G"GBd|]
+|: \
+"C"efe "G"d2B| BAG GBd| "C"efe "G"d2B| BAG "D"A2g/f/|
+"C"efe "G"d2B| BAG GAB| "C"c3 "G"B3|1 "D"AGF "G"GBd :|2 "D"AGF "G"GDB,|]
+%%text 10/28/99
+
+X:145
+T: Cliffs of Moher
+C: J-67
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: Ador
+"Am"a2a bag| eaf "G"ged| "Am"c2A BAG| "Em"EFG ABd|
+"Am"eaa bag| eaf "G"ged| "Am"c2A BAG| "Em"EFG "Am"A3:|
+|:\
+"Am"e=fe dBA| ~e3 dBA|  "G"GAB dBA| GAB ~d3|
+"Am"e=fe dBA| ~e3 dBA|  "G"GAB dBG| "Em"EFG "Am"[E3A3] ||
+"Am"e=fe dBA| e=fe dBA| "G"GAB dBA| GAB ~d3|
+"Am"e=fe dee| cee Bee| EFG BAG| "G"EDB, "Am"A,3 |]
+%%begintext ragged
+%% 10/12/00.  From "The Portland Collection"
+%% - measures B8, B15, B16 revised by Debbie Knight.
+%%endtext
+
+% ---------- page 76 ----------
+
+X:146
+T:Falling Off A Log
+R:jig
+C:J-68
+C:Quebec
+H:Traditional reel from Quebec
+D:From workshop by Richard Forest; chords and bass line based on accompaniment by Mario Loiselle
+Z:Translated to abc by Debbie Knight, edited by Mary Lou Knack
+M:6/8
+K:G
+B | \
+"G/G"d2B "C/C"e2B | "G/B"d2B "Gdim/A#"G2G | "Am7/A"FAF "D/D"DEF | "Am7/C"GFE "D+/F#"D2B |
+"G/G"d2B "C/C"e2B | "G/B"d2B "Gdim/A#"G2G | "Am7/A"FAF "D7/D"DEF | \
+[1 "D7/D"GBd "G"g2 :| \
+[2 "G"G3 "A7"A2G |]
+\
+K:D
+|: \
+"D"F2d dcd | F2d dcB  |"Em7"A2e edc | "A7"dcd fdA |
+"D"F2d dcd | F2d dcB | "Em7"A2e edc |1 "A7"dfe "D"d2A :|\
+                                    [2 "A7"dfe "D7"d3 |]
+%%text 6/24/00
+
+X:147
+T:Hommage a Jos. Bouchard
+R:jig
+C:J-69
+C:Quebec
+C:Philippe Bruneau
+H:Written by Philippe Bruneau, in honor of Joe Bouchard
+D:From Sam Bartlett, then Mario Loiselle
+Z:Translated to abc by Debbie Knight
+M:6/8
+K:C
+"C"E3 EFA| G3GAB| cBc "F"dcA| "A"G2G "Am7"EGc| \
+"Dm"B2B "G"GBd|
+ "Dm"f2f "G"GBd|1 "Dm"bag "G"fed| "C"cdc "G7"BAG:|\
+[2 "G"bag fed| "G"c3-"E7"cAB|]
+\
+K: Am
+\
+"Am"c2c cBc| AEE EAB| c2c cBc| "Bm7"BEE "E7"E3| \
+"Bm7"d2d dcd| \\"E7"BEE E^GB| "E"eEE "Fdim"dEE| "F#dim"cEE "E7/G#"BAB |\
+"Am"c2c cBc| AEE EAB| c2c cBc| \\"Bm7"BEE "E7"E3| \
+"Bm7"d2d dcd| "E7"BEE E^GB| "E7"efe dcB|1 "Am7"A3 "G7"G3 |][2 "A - Last time"A3-A3|]
+%%text 11/10/00
+
+% ---------- page 77 ----------
+
+X:148
+T:Andy De Jarlis'
+C: J-70
+R:jig
+Z:Transcribed to abc by Mary Lou Knack
+M:6/8
+K:E
+"E"EGB EGB| EGB "A"c2B| "E"EGB EGB| "D"=DFA B2A|
+"E"EGB EGB| EGB "A"c2a| "B"g2f Bcd|1 "E"efe e3 :|2 "E"efe e2a|]
+|:\
+"E"gbg efg| "A"aba c2e| "F#m/A"f2g f2e| "B7"dcB c2B|
+"E"gbg efg| "A"aba  "F#m"c2a| "B"gfe Bcd |1 "E"e3 e2a :|2 "E"e3 e3 |]
+%%text 02/05/01
+
+X:149
+T:Ingonish Jig
+C: J-71
+R:jig
+Z:Transcribed to abc by Mary Lou Knack
+M:6/8
+P: E Dorian
+K:Edor
+"Em"B2e efg| "D"fef "Bm"dBA| "Em"B2e efg| "D"afe "Bm"d2A|
+"Em"Bee efg| "D"fef dBA| "G"BdB "D"AFD |1 "Em"EFE E2A :|2 "Em"EFE E2e |]
+|:\
+"Em"BEE BEE| "D"FEF DFA| "Em"BEE BEE| "D"ABc "Bm"dcd|
+"Em"BEE BEE| "D"FEF DFA| "G"ABc "D"dAF |1 "Em"EFE E2e :|2 "Em"EFE E3 |]
+%%text 02/05/01
+
+% ---------- page 78 ----------
+
+X: 150
+T: Hills of Sharon
+C: J-72
+M: 6/8
+Z: Transcribed to abc by Debby knight
+R: jig
+K: D
+"Bm"F3 FEF| "G"EDB, "D"A,B,D| "A"E2E EDE| "D"FDF "A"E3|
+"Bm"F2F FEF| "G"EDB, A,B,D| "A"EDC "D"D2D| "A"EDC "D"D3 :|
+|: \
+"G"B3 BAB| AGF "A"E2F-| "D"F2F BAF| "A" E3- E2D |
+"D"EFF FED| "G"ABB B2g-| "Em"gfe "D/F#"dAF| "A" E3- E3 :|
+%%text 2/24/02
+
+X:151
+T:Out On the Ocean
+C: J-73
+R:Jig
+M:6/8
+L:1/8
+K:A
+"A"E2c cBA| cec "A/C#"BcB| "D"AFE "Bm"A2B| "E7"cec BAF|
+"A"E2c cBA| cec "A/C#"BcB| "D"AFE "Bm"A2B|1 "E7"cAG "A"A2F:| \
+                                         [2 "E7"cAG "A"Ace|]
+\
+"F#m"f3 fec| "D"fgf fec| "C#m"efe ecB| "E7sus4"e2e ecB|
+"A"A2B "A/C#"c2e| "D"faf "D#dim"ecB| "E7"AFE A2B| cAG "C#7/F"Ace|
+"F#m"f3 fec| "D"fgf fec| "C#m"efe efg| "E7"agf ecB|
+"A"A2B "A/C#"c2e| "D"faf "A/C#"ecB| "D"AFE "Bm"A2B| "E7"cAG "A"A3|]
+%%text 2/24/02
+
+% ---------- page 79 ----------
+X:1
+T:Pipe On The Hob, The
+C: J-74
+M:6/8
+L:1/8
+R:jig
+Z:abc by J. Walsh
+K:DMix
+A|"D"d^cd A2G|F2D DED|"C"EDE cBc|E2D "D"D2A|
+  "D"dcB "Am7"cBA|"Bm7"BAG "Am7"A2G|"C"EDE cBc|"C"E2D "D"D2:|
+g|: \
+"D"f2d d^cd|f2d d^cd|"C"edB c2d|"C"ede "A"age|
+[1 "D"f2d d^cd|f2d d^cd|"C"ede age|"A"ed^c "D"d2e:|
+   [2 "D"fef "C"gfg |"D/B"afa "Am7"g2e|"D"fed "C"eag|"A"ed^c "D"d2|]
+%%text 4/12/03
+
+X:2
+T:Wild One
+C:J-75
+M:6/8
+L:1/8
+R:jig
+C:Mary Pantaleone
+Z:abc by Debby Knight
+K:Dmin
+"Dm"DEF DGD|"F"ADc AGF|"Bb"DEF DGD|"Am"ADF EDC |
+"Dm"DEF DGD|"F"ADc AGF|"Bb"dcA "Dm"GAF|1 "Am"EDC "Dm"D2A,:|\
+	[2 "Am"EDC "Dm"D2A ||
+|: \
+"Dm"d2c A2c|"F"dcA cdc|"Bb"d2c A2G|"Am"FGE FED |
+"Dm"d2c A2c|"F"dcA cdc|"Bb"dcA "Dm"cdF| "Am"EDC "Dm"D3:|
+%%text 4/12/03
+
+% ---------- page 80 ----------
+X:4
+T:The Roaring Barmaid
+R:jig
+C:J-76
+C:Tony O'Sullivan
+Z:Translated to abc by Debbie Knight
+Z:
+M:6/8
+K:G
+"G"G3 EGD |"C/G"G3 EGD |"G"DGG BGG |dGG BdB |
+"G"G3 EGD |"G/B"G3 EGD |"C"GAB deg |"D" deg edB :|
+|:\
+"G"deg b3 |"G/B"bab deg  |"C"b3 bag |"D"edB deg |
+"G"b3 bab |"G/B"agg bgg |"C"agg efg|"D"deg edB :| "G - go out on"G6 |]
+%%text 4/12/03
+
+X:5
+T:The Roaring Barmaid
+T:B part harmonies
+R:jig
+D:
+Z:Translated to abc by Debbie Knight
+L:1/8
+M:6/8
+K:G
+P:1st Harmony
+GGB d3|dcd GGB| d3 dcB|GGD GGB |d3 dcd|
+cBB dBB| cBB GAB| GGB cAG:|"go out on"D6 |]
+P:2nd Harmony
+Bcd g3 |geg Bcd |g3 ged |cBG Bcd | g3 geg |
+edd gdd |edd Bcd | Bcd gfd:|"go out on"B6 |]
+%%text 4/12/03
+
+% ---------- page 81 ----------
+X:3
+T:Indian Point
+R:jig
+C:J-77
+C:Rick Mohr  4/89
+D:
+Z:Translated to abc by Debbie Knight
+Z:
+M:6/8
+K:Emin
+"Em"B,EF G2A  |BAG FED |"C"CEF G2A |BAG BAG |
+"D"FED A,2D |FEF AGF |1"Em"EFG BAG |"B" F3 FED :|\
+	[2 "Em"GFE "D"FED | "Em"E3 E2 ||
+|: A| \
+"Em"Bef gfe |"C"cef gfe  |"D"dfg agf |"Em"gfe "D"fed |
+"Em"Bef gfe |"C"ceg a2a |"B"bag fgf|"Em"e3 e2 :|
+%%text 4/12/03

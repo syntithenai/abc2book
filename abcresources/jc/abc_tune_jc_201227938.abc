@@ -1,0 +1,29 @@
+X: 11011
+T: the Denkes dang ower my Deddie
+T: the Dukes dang o'er my &c.
+T: the Buff Coat Hath No Fellow
+T: Miss Peake's Delight
+N: The titles on the page and in the index are slightly different
+%R: air, waltz, minuet
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.1
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"f>e |\
+d4 A2 | F3 E D2 | E3 F E2 | c2 B2 c2 | d4 A2 | TF4 E2 | F2 (ED)(DE) | D4 :: A2 |\
+(d2 c2) d2 | (B2 c2) d2 | (e2 f2) g2 | Tc3 B A2 |
+(d2 c2) d2 | (e2 f2) g2 | Tf3 e d2 | d4 f2 |\
+(g2 f2) g2 | B4 c2 | df e2 d2 | Tc2 (Bc) A2 | d2 cBAG | TF3 E (F/G/A) | F2 (ED)(DE) | D4 :|
+|: A2 |\
+(3(FED) (.D.D.D.D) | (3(AGF) (.F.F.F.F) | B2 e2 d2 | Tc3 B c2 | (dc)(BA)(GF) | B3 c {Bc}d2 | TF2 EDDE | D4 :|
+|: A2 |\
+(3(Bcd) (.d.d.d.d) | (3(Bcd) (.d.d.d.d) | (3(efg) (3(Bcd) (3(efg) | Tc3 B A2 | (3(Bcd) (.d.d.d.d) | (3(efg) (3(fga) (3(efg) |
+Tf2 (ed)(de) | d4 (ef) |\
+(gA)(fA)(eA) | (aA)(gA)(fA) | (gf)(ed)(cB) | Tc2 (Bc) A2 | (3(Bcd) (.d.d.d.d) | cBAG FE | F2 (ED)(DE) | D4 :|
+M: 6/8
+|: (f/e/) |\
+d2A TF>ED | (EF)E (cB)c | d2A TF2E | (FD)D D2 :: A | (dc)d (Bc)d | efd Tc2A |
+(dc)d (ef)g | (fd)d d2f | (gf)g (Bc)d | (ef)d (cB)c | d2A TF2E | (FD)D D2 :|

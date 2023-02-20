@@ -1,0 +1,28 @@
+X: 20793
+T: the OX'S MINUET
+C: Haydn.
+%R: minuet
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.79 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Initial 1/8-note rest was added, to fix the rhythms of repeats.
+N: The grace notes in bars 9, 11 were before the bar line; moved to help ABC software that doesn't allow such positioning.
+M: 3/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+z2g2 |\
+c'2(c'b) c'2c'2c'2c'2 | ([E12G,12] | D2)(a^g) a2a2a2a2 | ([F8G,8] E2)ce |\
+(a2g2) z2(Bd) cece | (a2g2) z2(Bd) cece | d4 g4 ^f4 | g8 :: \
+G4 | {^FG}=f3g e3g d3^c |
+d4 z4 G4 | {^FG}g3a f3g e3^d | e4 z4 c4 |\
+a2^g2 a2g2 a2=g2 | g2^f2 =f6 e2 | d3d d4 eg^fa | (a4 g2)z2 z2g2 |\
+c'2(c'b) c'2c'2c'2c'2 | [^F12A,12] | (a2a^g) a2a2a2a2 | [F12G,12] |\
+[G4E4] [c'4c4] [b4B4] | [c'4c4] z4 :|
+|: G4 |\
+c4 (cdef g2)g2 | (^fa).g2 (fa).g2 (fa).g2 | d6 (fe gfed) | (ce).G2 (ce).G2 (ce).G2 |\
+c4 (cdef g2)g2 | (^fa).g2 (fa).g2 (fa).g2 | (d^cdc) (defd) (gfed) | d3e c2z2 :|
+|: g4 |\
+{fg}b4 b3bb3b | b8 g4 | {^fg}c'4 c'3c'c'3c' | c'8 G4 |\
+c4 (cdef g2)g2 | (^fa).g2 (fa).g2 (fa).g2 | (d^cdc) (defd) (gfed) | (d4 c2)z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

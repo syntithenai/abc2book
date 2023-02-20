@@ -1,0 +1,48 @@
+X: 1
+T: New Year's Eve
+P: Longways for as many as will
+%R: jig,waltz
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.34 #62
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.9 "B 4"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+N: "Tune the Bass String to a 4th." This implies "scordatura" violin tuning, with notes below C sounding a step higher.
+N: DMDfD has a sharp before the low C sharp in bar 2 (written as B sharp); CCDM1 lacks this sharp.
+N: The last note in bar 2 is A, in CCDM1, and G, in CCDM1.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+(FA)A A>AB | (AF)E ^B,2G, |\
+(B,E)E E2D | (B,E)E d>f e/d/ |\
+c(B/A/)G FdF | fdc d2 :|
+|: F/G/ |\
+A (G/F/) (E/D/) G>AB | A (G/F/) (E/D/) G>AB |\
+ef2 d2c | dB2 A>Bc |\
+d>cB A2 (G/F/) (E/D/) | E(G,B,) D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Note, Each Strain is to be play'd twice over.
+%%begintext align
+%% First Man take the second Woman by the right Hand, and lead
+%% between the second Man and first Woman; cast off into their Places,
+%% and turn; the first Couple run the Figure between the second,
+%% turn your own, first Man standing in his own Place; first
+%% Man and second woman cross and go round.  The first Man round
+%% his Woman into his own Place, and second Woman round her
+%% Man into her Place; Hands half round; the second Couple cast
+%% off; first Man cross over with the second Woman, the second
+%% Man cross over with the first Woman then turn your own.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% First man take the 2. wo. by the right hand, and lead between the 2. man and 1. wo. cast off into their
+%% places, and turn, 1. cu. run the Figure between the 2. turn your own, 1. man standing in his own place;
+%% 1. man and 2. wo. cross and go round : the 1. man round his wo. into his own place, and 2. wo.
+%% round her man into her place, hands half round; 2. cu. cast off; 1. man cross over with the 2. wo.
+%% 2. man cross over with the 1. wo. turn your own.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

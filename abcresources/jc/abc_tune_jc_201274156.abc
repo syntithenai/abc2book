@@ -1,0 +1,26 @@
+X:1
+T: The Fair One Let Me In
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 180
+%W:
+% voice 1 (1 lines, 34 notes)
+K:Am
+M:4/4
+L:1/16
+e4 |c4 B2 A2 e4 a4 |g6 f2 e4 d2 c2 |f6 e2 d4 c2 B2 |^G12 e4 |c4 B2 A2 e4 a4 |^g6 a2 b4 c'4 |a4 g2 ^f2 f6 e2 |e12 e4 |
+%W:
+% voice 1 (1 lines, 34 notes)
+c4 B2 A2 e4 a4 |g6 f2 e4 d2 c2 |f6 e2 d4 c2 B2 |^G12 e4 |c4 B2 A2 e4 a4 |^g6 a2 b4 c'4 |a4 g2 ^f2 f6 e2 |e12 e2 f2 |
+%W:
+% voice 1 (1 lines, 37 notes)
+g6 g2 a2 g2 f2 e2 |f4 g2 ^f g a6 a2 |f4 e2 d2 d6 c2 |c12 c'4 |a6 e2 f4 e2 d2 |b4 c'4 ^g6 e2 |f2 e2 d2 c2 d4 e4 |a12 e2 f2 |
+%W:
+% voice 1 (1 lines, 35 notes)
+g6 g2 a2 g2 f2 e2 |f4 g2 ^f g a6 a2 |f4 e2 d2 d6 c2 |c12 c'4 |a6 e2 f4 e2 d2 |b4 c'4 ^g6 e2 |f2 e2 d2 c2 d4 e4 |a12 ||

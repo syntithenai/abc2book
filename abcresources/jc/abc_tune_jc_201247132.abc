@@ -1,0 +1,19 @@
+X: 1
+T: Anita
+T: Anita's Jig
+C: Jean-Paul Loyer
+R: jig
+F: https://natunelist.net/anitas-jig/ 2021-7-30
+S: From the playing of Susan Reid.
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: 2nd part has initial repeat but no final repeat symbol.
+M: 6/8
+L: 1/8
+K: G
+|:\
+"G"bag d3 | "D"dec A3 | "G"GBd "D7"cBc | "G"Bdg "D"fga |\
+"G"bag d3 | "D"dec A3 | "G"GBd "Am"cBc | "D"agf "G"g3 :|
+"C"c2B "D"AGA | "G"BGD GBd | "C"ecA "G"dBG | "Am"EFG "D"A2B |\
+"C"c2B "D"AGA | "G"BGD GBd | "C"cde "D"ded | "G"G3- GAB ||
+"C"c2B "D"AGA | "G"BGD GBd | "C"ecA "G"dBG | "Am"EFG "D"A2B |\
+"C"c2B "D"AGA | "G"BGE "C"E3 | "G"DGB "D"AGF | DEF "G"G3 |]

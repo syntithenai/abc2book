@@ -1,0 +1,17 @@
+X: 10701
+T: TEKELI
+Q: "Allegro"
+%R: jig
+B: "Edinburgh Repository of Music" v.1 p.70 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The rhythms aren't quite right between the strains; not fixed.
+M: 6/8
+L: 1/8
+K: F
+c |\
+f2f {f}ede | d2f c2c | cde fga | b2g {f}e2c |\
+f2f ede | d2f c2c | cde fga | bge f2 :|
+|:\
+f2g a3 | aba {a}g2f | {a}g2f {a}g2f |\
+{a}g2f g2a | f2g a3 | aba {a}g2f | g2f g2a | f3 f3 :|

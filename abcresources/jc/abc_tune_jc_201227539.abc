@@ -1,0 +1,20 @@
+X: 10843
+T: INVERARAY CAST.E
+C: Fraser
+R: strathspey
+B: K\"ohler's Violin Repository, v.1, 1885 p.84 #3
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F#m
+[|v\
+(C<F) "~\n#"F2 C>FA<F | C<(FF<G) (A<B) {AB}c2 |\
+(C<F) "~\n#"F2 C>FA<F | (.E>.C)(A,>B,) (.C>.E)(E>^D) |
+(C<F) "~\n#"F2 C>FA<F | C<(FF<G) (A<B) {AB}c2 |\
+(A,<F) "~\n#"F2 C>FA<F | (.E>.C)(A,>B,) (C>E) ~E |]
+u(c/B/) |\
+A>Bc<a (.f>.c)(c>B) | (.A>.B)(c>f) (c<f)~f2 |\
+A>B c<f A<f c<f | e>BG<E (G<B)~B2 |
+A>B (c/f/)c (A/f/)A (c/f/)c | (.A>.B)(.c>.f) (a/g/)f/^e/ (f>g) |\
+(.a>.c)(B>A) (.G>.F)(E>D) | (.C>.A,) (E>A,) "_Segue Reel."(C>E) ~E2 "^D.C."|]

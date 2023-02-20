@@ -1,0 +1,30 @@
+X: 4357
+T: The Fortune Hunter
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 2/4
+L: 1/8
+K: G
+%
+V: 1
+g |\
+fddg | ecce | dBAG | ADDg |\
+fddg | ecce | dBAG | DGG :|
+|: A |\
+BG dc/B/ | ADDA | BG dc/B/ | Ac cB/A/ |\
+Bdgb | Acfa | cABc | BGG |]
+%
+V: 2 clef=bass middle=d
+g |\
+d'2b2 | c'2a2 | b2g2 | d'2d2 |\
+d'2b2 | c'2a2 | g2d2 | g3 :|
+|: f |\
+g2g2 | d2d2 | g2g2 | d2d2 |\
+g4 | d4 | f2d2 | g3 |]
+%%begintext align
+First Man turns the 2d Wo. with his left Arm and his Partner with his right .|
+First Wo. turns the 2d Man with her left Arm and her Partner with her right :|
+gallop down one Cu. up again and cast off .|
+Right and Left with the top Cu. :|:
+%%endtext

@@ -1,0 +1,30 @@
+X: 1
+T: Millbury schottis
+C: Erling Maribo
+S: handwritten MS of unknown origin
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+((3G_GF) !Segno!\
+| "C"E>G c>e d>c G>^G | "Dm"B>A d>f a2 a>^a \
+| "G7"b>g a>f g>e f>d | "C"e>c d>B c2 ((3G_GF) |
+| "C"E>G c>e d>c G>^G | "Dm"B>A d>f a2 a>^a \
+| "G7"b>g a>f g>e f>d | "C"c2 c2 "fine"c2 :|
+K: G
+|: z2 \
+| "D7"((3d^cd) f>e d>=c B>A | "G"((3GFG) B>A G>F E>_E \
+| "D7"((3D^CD) F>A ((3ddd) d2 | "G"((3D^CD) G>B d2 z2 |
+| "D7"((3d^cd) f>e d>=c B>A | "G"((3GFG) B>A G>F E>_E \
+| "D7"((3D^CD) F>A d>c B>A | "G"G2 G2 "d.S."G2 :|
+P: Trio
+K: F
+((3cde) \
+| "F"f3 e g>f e>f | "Gm"((3efe) d2 d2 z2 \
+| "C7"e3 d f>e d>e | "F"((3ded) c2 c2 z |
+| "D7"d3 _e d>c B>A | "Gm"G^F G>A B>c d2 \
+| "E7"e3 f e>d c>B | "Am"A>^G A>B "C7"c>d e2 |
+| "F"f3 e g>f e>f | "Gm"((3efe) d2 d2 z2 \
+| "C7"e3 d f>e d>e | "F"((3ded) c2 c2 z |
+| "D7"d3 _e d>c B>A | "Gm"G^F G>A B>c d>f \
+| "C7"e>d c>d e>f g>a | "F"f2 f2 "d.S. al fine"f2 :|

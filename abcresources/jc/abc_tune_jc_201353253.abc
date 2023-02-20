@@ -1,0 +1,23 @@
+X:801
+T:Winter Memories (4 parts) - INCOMPLETE
+M:2/2
+L:1/4
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=83
+%%MIDI chordname 7sus 0 5 7 10
+C:Colin Hume, arr. Chris Jewell
+K:G
+P:A
+V:1
+|: "G"dBAG | "Am"dgdc | "Bm"dBAG | "C"E3F | "G"GDGd |\
+"Am"cBAG |1 "C"ecde | "D7sus"d2- "D7"d2 :|2 "D7"CDFA | "G"G4 |
+V:2 bass octave=-2
+%%MIDI program 2
+%%MIDI program 44
+|: "G"G4 | "Am"A4 | B4 | cdef | g4 | a3 B |1 cABc | dcBA :|2 A2d2 | gagf |
+P:B
+V:1
+|: "Em"gefg | "Bm"f3B | "C"ecde | "G"d2GA | "Em"B2e2 | "Bm"dBAG |1\
+"Am"e2g2 | "D7sus"a2- "D7"a2 :|2 "D7sus"A2- "D7"AG | "G"G4 |]
+V:2
+|: e4 | d'bc'd' | c'4 | b2gf | e2ga | b2c'b |1 a2ge | d3^d :|2 a2d2 | g4 |]

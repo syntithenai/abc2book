@@ -1,0 +1,66 @@
+X: 11081
+T: CIRCUS TUNE
+C:
+%R: march
+N: This is version 2, for ABC software that understands voice overlays and tremolo notation.
+N: The original 4-staff arrangement is transcribed, with staffs 3 & 4 each containing 2 voices.
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.108 (and p.109 #1)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=4
+K: C
+!p!G2 |\
+E>e^d>e c>g^f>g | e2 c'4 e2 | (g2f).d "_zf"(fe).d.c | dg^fg G2G2 |\
+E>e^d>e c>g^f>g | e2 "_>"c'4 e2 | d>gb>g d>^fa>f | (a3b/a/ g2) :|
+|: (ag) |\
+!p!(g2f)>d (fe).d.c | (G3A/B/) c2^c2 |\
+(d/^c/d/e/ f/e/f/g/ ab/a/ g(3f/)e/d/ | (c3d/c/ B2G2) |\
+G>e^d>e c>g^f>g | (e2e'2c'2^g2) | (a3=g (3gfe (3gfd) | (d3e/d/) c2 H:|
+"Trio."[K:G]\
+|: d2 |!p!\
+d2 (b4 g2) | d2 (c'4 a2) | g2{a}g2{f}g2{fg}b2 | (ab/a/ g/f/g/)e/ d>dd>d |\
+d2 (b4 g2) | d2 (c'4 a2) | (gc'^c'd') z(def) | (a3b/a/) g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+K: F
+!p!z2 |\
+A4!trem1!c4 | A4!trem1!c4 | G2c2A2c2 | e2e2 E2z2 |\
+A4!trem1!c4 | A2c2A2f2 | e2e2f2f2 | (f4 e2) :|
+|: z2 |\
+e2z2 f2z2 | B2B2 (A2c_e) | d4 z2d2 | (A2c2 G2c2) |\
+A4!trem1!c4 | A2c2A2z2 | z2d2A2B2 | E2B2 A2 H:|
+"Trio."[K:C=B]\
+|: z2 |!p!\
+!/!e8 | !/!d6 f2 | !/!e6 c2 | B2c2c2z2 |\
+!/!e8 | !/!d8 | c2e2 B2d2 | (f4 e2) :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3
+K: C
+!p!z2 |\
+[c2E2]z2 [c2E2]z2 | !/![c6E6]z2 | [d2G2]z2 [e2c2]z2 | !/![d6G6]z2 |\
+[c2E2]z2 [c2E2]z2 | !/![c6E6]z2 | !/!d8 & G2G2d2d2 | !/!.d4 d2 & !/!.d4 G2 :|
+|: z2 |!p!\
+[d2G2]z2 [e2c2]z2 | [d2G2][d2G2] [c2E2]z2 | d2d4d2 & d2d4d2 | [e2c2][e2c2] [d2G2]z2 |\
+[c2E2]z2 [c2E2]z2 | !/![c6E6]z2 | z2[f2d2][e2c2][d2G2] | [d2G2][d2G2][c2E2] :|
+"Trio."[K:G]\
+|: z2 |!p!\
+!/![d8G8] | !/!d8 & !/!d8 | !/![d8G8] | d2[e2^c2]d2z2 |\
+!/![d8G8] | !/!d8 & !/!d8 | d2d2d2d2 & G2G2d2d2 | d2d2 d2 & d2d2 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 4 clef=bass middle=d
+K: Eb
+!p!z2 |\
+[e2E2]z2 [e2E2]z2 | e2e2 e2x2 & E2GB e2z2 | b2z2 b2z2 & B2d2e2g2 | [b2b2][b2B2][b2B2]z2 |\
+[e2E2]z2 [e2E2]z2 | e2e2 e2z2 & E2GB e2z2 | f2f2 f2f2 & f2f2 F2F2 | b2f2 b2 & B2f2 B2 :|
+|: z2 |!p!\
+[b2B2]z2 [b2B2]z2 | [b2B2][b2B2] [e2E2][g2G2] | [a2A2] [a4A4] [a2A2] | [b2B2][B2B2][b2B2]z2 |!f!\
+[e2E2]z2 [e2E2]z2 | !/![e6E6]z2 | [a2A2]z2 [b2B2][b2B2] | [b2e2][b2B2][b2E2] :|
+"Trio."[K:Bb=A]\
+|: z2 |!p!\
+z2(bd') f'2z2 & !/!B8 | z2(ac') f'2z2 & !/!A8 | z2bd' f'2b2 & !/!B8 | c'2c2f2z2 & c2c2f2z2 |\
+z2(bd') f2z2 & !/!B8 | z2(ac') f2z2 & !/!A8 | z2b2c'2f2 &  B2B2f2f2 | b2f2 B2 & b2f2 B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

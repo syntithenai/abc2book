@@ -1,0 +1,32 @@
+X: 7
+T: Lucky Dick
+%R: jig
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed.
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+|:\
+A2a g2f | edc B3 | c2d ecA | G2A BGE |\
+A2a g2f | edc B3 | c2d ecA | BAG A3 :|
+|:\
+E2G B2e | d2c B3 | ecA e2a | g2f e3 |\
+fdB df2 | ecA ce2| dBG AdB | {c}TB3 A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+A3 e3 | c2A e3 | a3 a3 | e3 e3 |\
+A3 e3 | a2A e3 | a3 a3 "6"d2e A3 :|\
+|: e3 "6"g3 |
+"6"b2a "6"g2e | a3 "6"c'3 | e'2d' "6"c'2a |\
+"6"d'3 b3 | "6"c'3 a3 | "6"b3 "6"c2"6;5"B |"4 3"e3 A3 :|
+%%begintext align
+%% First Man hay with the first & second Woman, then the first Wo. hay with the 1st and 2d Man ||
+%% Cross over two Couples lead up to the top and cast off ||
+%%endtext

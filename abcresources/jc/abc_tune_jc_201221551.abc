@@ -1,0 +1,35 @@
+X: 4
+T: Twoli
+%R: waltz
+B: "Le Sylphe, Twenty Four Country Dances with Figures for the Year 1818", Button & Whitaker, p.2 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1818
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 3/8
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+GB |\
+(d2B2).g2 | (d2B2).g2 | (d2g2b2) | d'4(e'd') |\
+(c'd').c'.b.a.g | fedcBA | (GFEDEF) | G4 :|
+|: A2 |\
+dfa2a2 | (a2f2)d'2 | a2f2d2 | (ag)e2 e2 |\
+A^ce2e2 | g3fed | d^cBABc | d4 :|
+|: d=c |\
+(B4d2) | (e4d2) | (g4f2) | (e4d2) |\
+c4B2 | A2c2e2 | d4F2 | G4 :|
+|: d2 |\
+c'2c'bc'2 | b4g2 | fagfed | gfgbe'd' |\
+c'2c'bc'2 | b4g2 | (fagfed) | g4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center WALTZ FIGURE        (Each strain repeated)
+%%begintext align
+%% Swing with right hands round 2d Cu: & turn your partner ala waltz |: swing cor.s |:
+%% chain figure 4 round at bottom & lead thro' top |: & hands 6 round & back again |: .
+%%endtext
+%%center COUNTRY DANCE FIGURE        (Each strain repeated)
+%%begintext align
+%% Hands 3 round on the Ladies side hands 3 round on the Gent: side |:
+%% promenade 3 Cu: |: whole poussette |: & swing corners |: .
+%%endtext
+%%sep 1 1 450

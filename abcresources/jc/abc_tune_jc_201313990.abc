@@ -1,0 +1,64 @@
+
+X: 1
+T: MacLeod's Reel
+T: Miss/Mrs. MacLeod's
+O: Trad
+Z: John Chambers <jc:trillian.mit.edu>
+N: Sometimes called "Uncle Joe" in America.
+N: Skye p.8
+N: Hunter 249
+N: BSFC I-61 and III-45
+N: Winston  Scotty  Fitzgerald
+D: Celtic 40 Fiddlers 3+2 tape A6
+R: reel
+M: C|
+L: 1/8
+K: A
+   cB \
+| "A"A2a2 "(D)"fefa | "A"~c2cB "(E7)"c2cB \
+| "A"A2a2 "F#m"fefa | "Bm"B2BA "E7"B2cB |
+| "A"A2a2 "(D)"fefa | "A"~c2cB c2e2 \
+| "D"~f2fg fefg | "A"afec "E7"B2 :|
+|: cB \
+| "A"~A2cA eAcA | c2cB "(E7)"c2cB \
+| "A"~A2cA "F#m"eAcA | "Bm"B2BA "E7"B2cB |
+| "A"~A2cA eAcf | ecBA c3e \
+| "D"~f2fg fefg | "A"afec "E7"B2 :|
+
+
+X: 1
+T: Reconciliation Reel
+T: Olive Branch Hornpipe
+T: Crannciuil Umfrei
+T: Humphrey's Reel
+O: Ryans 1883
+R: reel
+D: Matt Molloy & Sean Keane: Contentment is Wealth.
+B: O'Neill's 1850 (hornpipe)
+B: Ryan’s "Mammoth Collection", 1883, titled “The Olive Branch”
+Z: id:hn-reel-95
+M: C|
+L: 1/8
+K: A
+|: "A"A2 c{B}A eAfA | eAfA "E7"ecBc | "A"A2 c{B}A eAfA | "(E)"ecBc "E7"AFEF |
+|  "A"A2 c{B}A eAfA | eAfA "E7"ecBc | "A"ABAF EAcf | "E7"ecBc "A"A4 :|
+|: "A"A2{B}ce a3f | "E7"efed cdcB | "A"A2{B}ce a3g | "Bm"fbba "E7"gefg |
+|  "A"a2{g}ae f{g}aec | "Bm"dBcA "E7"BAFG | "A"ABAF EAcf | "E7"ecBc "A"A4 :|
+
+
+X: 1
+T: Angus Campbell
+T: the Laird o' Drumblair
+C: J.S.Skinner
+B: Harp & Claymore, p.93, p.94; SV p.13; Hunter #134, #224; Hebert p.8; BSFC IV-20.
+N: Skinner also published this tune as the strathspey/shottish "Laird o' Drumblair".
+R: reel
+R: C
+L: 1/8
+K: A
+E2 \
+| "A"~A2cA EAce | {g}a2ga faec | "D"d2Bd "A"c2Ac | "Bm"BFBA "E7"GBEG |
+"A"~A2cA EAce | {g}a2ga faec | "D"defd "A"ceaf | "E7"ecdB "A"A2 :|
+|: (3efg |\
+"A"{g}a2ea caAa | cAeA aAca | "Bm"{^a}b2fb dbBb | dBfB "E7"bBdg |
+"A"{g}a2ea caAa | cAeA aecA |"D"defd "A"ceaf | "E7"ecdB "A"A2 :|

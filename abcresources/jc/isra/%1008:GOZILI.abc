@@ -1,0 +1,16 @@
+X: 1008
+T: Gozi Li
+O: Israel
+C: Yedidia Admon 1949
+D: Israeli Folk Dance Souvenir
+M: 2/4
+L: 1/8
+K: Dm
+Q: 1/4=144
+%%MIDI program 20 Reed Organ
+%%MIDI chordprog 32 Acoustic Bass
+%%MIDI gchord GzHz
+|:"Dm"A3B |AG/F/G2    |E/F/G "Gm"G2- |G2 z2|\
+  "Dm" A3B|AG/F/"Gm"G2|F/E/D "Dm"D2- |D2 z2::
+  "Dm"d3e |cd=BA      |d2 d2         |d2 d2|\
+  d3e     |cd=BA      |c/=B/A "Am"A2-|A4   :|

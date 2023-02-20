@@ -1,0 +1,53 @@
+
+X: 2
+T: Devil's Polska v.1
+A: Bingsj\"o
+R: Polska
+O: Sweden
+S: http://kirby98.fsnet.co.uk/de/ 2009-11-3
+M: 3/4
+K: Am
+|:\
+a2 e2 c2 | B/c/d/B/ c2 B2 | \
+A/B/A/^G/ A>B cc | d^f/d/ e3 e |\
+aa ee cc | B/c/d/B/ c2 B2 |
+A/B/A/^G/ A>B cc |1 BA/^G/ A3 e :|2 BA/^G/ A3 E ||\
+|:\
+A^G/A/ BA/B/ cB/c/ | dc/d/ [eA][eA] [f2A2] |\
+e>d cB Ac |
+B<^G E3 E |\
+A^G/A/ BA/B/ cB/c/ | dc/d/ [eA][eA] [a2A2] |\
+g>f ed cA | E/^G/B/G/ |1 A3 E :|2 A3 A ||
+|:\
+[A/a/]b/a/^g/ ae cA | [g/B/]a/g/^f/ gd BG |\
+[fA]g/f/ ed cB |1 A^G/A/ BA/B/ e2 :|2 \
+A^G/A/ BA/B/ A2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Devil's Polska v.2
+M: 3/4
+L: 1/8
+R: Polska
+O: Sweden
+A: Bingsj\"o
+S: http://kirby98.fsnet.co.uk/de/ 2009-11-3
+K: Am
+|:\
+a2 e2 c2 | B/c/d/B/ c2 B2 |\
+A/B/A/^G/ A>B cc | d^f/d/ e3 e |\
+aa ee cc |
+B/c/d/B/ c2 B2 |\
+A/B/A/^G/ A>B cc |1 BA/^G/ A3 e :|2 BA/^G/ A3 E \
+|:\
+A^G/A/ BA/B/ cB/c/ |
+dc/d/ [eA][eA] [f2A2] |\
+e>d cB Ac | B<^G E3 E |\
+A^G/A/ BA/B/ cB/c/ | dc/d/ [eA][eA] [a2A2] |
+g>f ed cA | E/^G/B/G/ |1 A3 E :|2 A3 A \
+|:\
+[A/a/]b/a/^g/ ae cA |
+[g/B/]a/g/^f/ gd BG |\
+[f3/A3/]g//f// ed cB |1 A^G/A/ BA/B/ e2 :|2 \
+A^G/A/ BA/B/ A2 :|

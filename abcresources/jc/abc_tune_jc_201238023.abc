@@ -1,0 +1,37 @@
+X: 30111
+T: LEICESTER WALTZ
+C:
+%R: waltz
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.11 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 puts each strain on a staff.
+V: 1 staves=2
+A2 |\
+d>cd>ef>e | d>cd>ef>d | e>^de>fg>e | =d>cB>AB>c |\
+d>cd>ef>d | e>^de>fg>e | (dc)dfe>c | d4 :|
+|: a2 |\
+a2d'2f2 | d4f2 | e>dc>de>f | g2e2a2 |\
+a2d'2f2 | d4f2 | e>de>fg>e | d4 :|
+|: A2 |\
+A>GF>GA2 | B>AG>AB2 | c>BA>Bc2 | d>ef>ga2 |\
+A>GF>GA>F | B>AG>AB>G | c>BA>Bc>A | d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout.
+V: 2
+A2 |\
+F2F2A2 | F2F2A2 | c2c2c2 | d2D2z2 |\
+F2F2A2 G2G2B2 | A2A2G2 |
+F4 :| \
+|: f2 |\
+f4d2 | F2A2c2 | E2A2c2 | e2c2f2 |\
+f4d2 | F2A2d2 | E2A2G2 | F4 :| \
+|: F2 |
+F>ED>EF2 | G>FE>FG2 | A2A2G2 | F>Ad>ef2 |\
+F>ED>EF>D | G>FE>FG>E | A2A2G2 | F4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

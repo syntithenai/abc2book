@@ -1,0 +1,32 @@
+X: 151
+T: Geambaseasca de la Tortomanu
+O: Romania
+M: 2/4
+L: 1/8
+Q: 1/4=210
+K: Gm
+%%MIDI program 42
+%%MIDI gchord z2fz
+%%MIDI bassprog 28
+P:A
+|:"c"G2 d2  |cB"g"AG |"c"cBA2|"g"GAd2 |\
+  g2 d2     |cBAG    |"c"cBA2|"g"G2z2 |
+  "c"G2 d2  |cBA2    |cBA2   |"g"GAB2 |\
+  "c"cBA2   |"g"GAB2 |G2D2   |G4      :|
+P:B
+%%MIDI program 71
+|:"f"f2"c"e2|"f"dc=Bc|dc=Bc  |d2"f"c2 |\
+  f2"c"e2   |"f"dc=Bc|dc=Bc  |"c"A2F2 :|
+|:"f"f2"c"e2|"f"dc=Bc|dc=Bc  |d2"f"c2 |\
+  f2"c"e2   |"f"dc=Bc|dc=Bc  |"c"A2F2 :|
+P:C
+%%MIDI gchord IG
+|:"F"Bcc2   |z4      |Bcc2   |z4      |\
+  ed=c2     |Bdc2    |ABc2   |c2z2    :|
+|:Bcc2      |z4      |Bcc2   |z4      |\
+  ed=c2     |Bdc2    |ABc2   |c2z2    :|
+P:D
+%%MIDI gchordoff
+|:DDcB      |AFAF    |c^c=cB |c2A2    |\
+  c^ce2     |^f=fe^c |d^c=cB |cBA^F   |
+  cBA^F     |F2C2    |F4     :|

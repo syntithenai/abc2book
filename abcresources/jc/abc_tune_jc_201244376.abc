@@ -1,0 +1,33 @@
+X: 1
+T: ABC Musiknotation
+T: (ABC Music Notation Cheat Sheet)
+R: tutorial
+Z: Kai-Uwe Behrmann, 2015, Creative Commons CC BY licenced.
+L: 1/4
+M: 4/4
+K: F
+P: Noten + Pausen / Notes + Rests / Nota e Pausa
+   C D E F          | G A B c         | C,, C, C c       | c' c'' c''' z   |]|
+w: C D E F            G A B c           C,, C, C c         c' c'' c''' z
+   C/2D/2 E/2F/2    (3C D E           | ^C   ^^C    =C  _C        | Z2     |]|
+w: C/2D/2_ E/2F/2_  (3C D E             \^\C \^\^\C =C \_C~~~~~~~\|~Z2~\|\|
+P: Länge / Length / Tempo
+   C2 C C/2 C/4 C/8 | F>G  A>>B       | c/2<B/2  A/2>G/2F/2>E/2    [CE]    |]|
+w: C2 C C/2 C/4 C/8   F>G_ A>>B_        c/2< B/2 A/2> G/2 F/2> E/2 [CE]
+P: Bindung / Tie + Slur / Legato
+   (C D E F)        | .(C D E F)      | C -D  .-E   -'F  | ('C D E F)      |]|
+w: (C D E F)          .(C D E F)        C \-D \.\-E \-'F   ('C D E F)
+P: Phrasierung / Grace Notes + Ornaments / Fraseggio
+   {d}c2 {dcd}c2    | {/d}c2 {/dcd}c2 | TC PC ~C MC      | JC2 RC2         |]|
+w: {d}c2 {dcd}c2      {/d}c2 {/dcd}c2   TC PC ~C MC        JC2 RC2
+P: Auszeichnung / Decoration / Segno
+   .C LC HC SC      | OC uC vC !tenuto!C          |]|
+w: .C LC HC SC        OC uC vC !tenuto!C
+   !3!C !plus!C !wedge!C !open!C      | !breath!C !shortphrase!C !mediumphrase!C !longphrase!C |]|
+w: !3!C !plus!C !wedge!C !open!C        !breath!C !shortphrase!C !mediumphrase!C !longphrase!C
+P: Dynamik / Dynamic / Sonorità
+   !ppp! C !pp! C !p! C !mp! C        | !mf! C !f! C !ff! C !fff! C | !p! !<(!C D E !<)!F  | !>(!F E D !>)!C |]|
+w: !ppp!~C !pp!~C !p!~C !mp!~C          !mf!~C !f!~C !ff!~C !fff!~C   !p!~!<(!C D E !<)!F    !>(!F E D !>)!C 
+P: Akkorde + Taktwiederholungen / Chords + Repating Bars / Accordo e Replica Misura
+!f!|:  "C" C2  "Cm" C2                | "Cm6" C2 "C7" C2 :||:  "C+" C2 "Cdim" C2           | [1 "Csus" C2 "Csus9" C2 :|  [2 "Csus" C2 "Cmaj7"!arpeggio![C2E2G2=B2c2]    |]
+w: \|:~"C"~C2  "Cm"~C2                | "Cm6"~C2 "C7"~C2~:\| \|:~"C+"~C2 "Cdim"~C2~\|        [1~"Csus"~C2 "Csus9"~C2~:\| [2~"Csus"~C2 "Cmaj7"!arpeggio![C2E2G2=B2]~\|]

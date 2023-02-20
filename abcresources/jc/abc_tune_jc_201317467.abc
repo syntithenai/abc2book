@@ -1,0 +1,38 @@
+X:1
+T: Noisette
+N:
+C:John Stapledon
+S:
+A:
+O:
+R:
+M:3/2
+K:D
+I:speed 180
+%W: A1
+% voice 1 (1 lines, 24 notes)
+K:D
+M:3/2
+L:1/16
+d6 |e2 |f4 d4 |A4 d4 |c4 d4 |e4 c4 |A8 |e6 |f2 g4 |B4 B4 |d4 c4 |d4 e12 |e2 f2 g4 |e4
+%W:
+% voice 1 (1 lines, 23 notes)
+a4 |f4 d4 |a4 b4 |a4 g6 |f2 e4 |d4 c4 |B4 A4 |d4 f4 |e2 f2 g4 |c4 d8|d8 |B6 |c2
+%W: A2
+% voice 1 (1 lines, 22 notes)
+f4 |d4 A4 |d4 c4 |d4 e4 |c4 A8 |e6 |f2 g4 |B4 B4 |d4 c4 |d4 e12 |e2 f2 g4 |e4
+%W:
+% voice 1 (1 lines, 23 notes)
+a4 |f4 d4 |a4 b4 |a4 g6 |f2 e4 |d4 c4 |B4 A4 |d4 f4 |e2 f2 g4 |c4 d8|d8 |f6 |g2
+%W: B1
+% voice 1 (1 lines, 22 notes)
+a4 |f4 d4 |A4 B4 |=c4 B4 |A4 G4 |B4 e4 |f4 g4 |f4 e4 |f4 d4 |e4 c8 |A8 |F6 |G2
+%W:
+% voice 1 (1 lines, 29 notes)
+A4 |d4 f4 |e2 f2 g2 |f2 e2 d2 |c4 e4 |g4 f2 |g2 a2 g2 |f2 e2 f2 |g2 a4 |d4 e4 |A4 c4 |d8|B8 |f6 |g2
+%W: B2
+% voice 1 (1 lines, 22 notes)
+a4 |f4 d4 |A4 B4 |=c4 B4 |A4 G4 |B4 e4 |f4 g4 |f4 e4 |f4 d4 |e4 c8 |A8 |F6 |G2
+%W:
+% voice 1 (1 lines, 27 notes)
+A4 |d4 f4 |e2 f2 g2 |f2 e2 d2 |c4 e4 |g4 f2 |g2 a2 g2 |f2 e2 f2 |g2 a4 |d4 e4 |A4 c4 |d8|d8 |||

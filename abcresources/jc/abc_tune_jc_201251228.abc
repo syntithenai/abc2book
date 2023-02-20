@@ -1,0 +1,26 @@
+X: 1
+T: the Beautiful Scrabmagg, by G. B.
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.250
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A/G/ |\
+F>ED FAA, | D3 e3 | (e/f/g)f efd | ^c3- c2(A/G/) |\
+F>ED FAA, | D3 f3 | (e/f/g)f (ea)A | d3- d2 |]
+[| f/e/ |\
+f>ef gab | a3 f2c/B/ | ABc G>FE | F3- F2G/F/ |\
+E>FG ABc | =B>cd ^cde | (fA)f f>ed | d3- d2 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1. man turns his Partner, with his right-Hand, and turns the 2. man with his left, his Partner does
+%% the same; Then take Hands and fall back, all four turn single, the 1. man goes into the 2. wo. place,
+%% and the 1. wo. into the 2. man's place, then 1. cu. go the Figure through the 3. cu. and cast up into
+%% the 2. cu. place.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

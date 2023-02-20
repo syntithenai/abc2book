@@ -1,0 +1,28 @@
+X: 10281
+T: Duet - Presto
+C: Gaetano Brandi
+Q: "Presto"
+B: "Man of Feeling", Gaetano Brandi, ed. v.2 p.28
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+%%graceslurs 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 4/8-bar staff/line lengths:
+V: 1
+d>d |\
+.g2d>d | .g2d>d | (gfed) | {f/}(ed) d>d |\
+.g2d>d | .g2 d>d | {d/}(cBcd) | B2 :|
+|: f>f |\
+(af)(c'a) | .g2f>f | (af)(c'a) | .g2d>d |\
+(gfed) | {f/}(ed) d>d | {d/}(cBcd) | B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff/line layout:
+V: 2
+B>B | .B2B>B | .B2B>B | (edcB) | {d/}(cB) B>B | .B2B>B |
+.B2 B>B | {B/}(AGAB) | G2 :||: d>d | (fd)(af)  | .g2d>d |
+(fd)(af)  | .g2B>B | (edcB) | {d/}(cB) B>B | {B/}(AGAB) | G2 :|
+%
+%%center -

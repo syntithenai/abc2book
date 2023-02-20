@@ -1,0 +1,28 @@
+X: 413
+T: La Partida
+S: Seth Austin to CoMandoList TOW 2008
+O: Venezuela
+F: http://www.youtube.com/watch?v=bWay7VQ_lZM
+F: http://www.youtube.com/watch?v=7-KZpSZVSJ4
+F: http://www.youtube.com/watch?v=1OG-AiLDnUY
+M: 3/4
+L: 1/8
+R: choro
+R: waltz
+K: Bmin
+Q:1/4 = 160
+%%MIDI program 22 % Harmonica
+%%MIDI chordprog 21 % Accordian
+%%MIDI bassprog 24 % Acoustic Guitar (nylon)
+%%MIDI beat 97 87  77 4
+%%MIDI ratio 2 1
+%%MIDI chordvol 60
+%%MIDI bassvol 77
+FGF^EF|:"Bm"d3FdF|d3FdF|"F#"de/d/c^Bc2|zEFE^DE|
+"F#"c3EcE|c3EcE|"Bm"cd/c/B^AB2|zFGF^EF|
+"B7"B3^A B=c|B3 A GF|"Em"FG/F/E^DE2|zGFEDC|
+"Bm"B,^A,B,CDE|"F#"FGFEDC|"Bm"B,C/B,/^A,B,DF|1BFGF^EF:|2BzF2F2||
+|:"F#"feFfeF|feFfeF|"Bm"edFedF|edFedF|
+"F#"dcFdcF|dcFdcF|"Bm"cBFcBF|cBFcBF|
+"B7"BAFBAF|BAFBAF|"Em"FG/F/E^DE2|zGFEDC|
+"Bm"B,^A,B,CDE|"F#"FGFEDC|"Bm"B,C/B,/^A,B,DF|1BzF2F2:|2B|]

@@ -1,0 +1,402 @@
+X:1
+T: Star of the County Down
+C: Traditional
+M: 3/4
+Q:1/4=120
+N:Bonanzaville Jam
+K:Am
+[|E2G2|"AM"A4A2|"F"(A3GA2)|"C"c4c2|"G"(d4cd)|"Am"(e3dc2)|(A3GE2)|
+"Em"(G6|G2)(c2B2)|"Am"A4A2|"F"(A3GA2)|"C"c4c2|"G"(d4cd)|"Am"(e3dc2)|
+"Dm"(A4G2)|"Am"(A6|A4)e2|"C"(g4e2)|(e3dc2)|"G"d4d2|(d4cd)|
+"Am"(e3dc2)|(A3GE2)|"Em"(G6|G2)(c2B2)|"Am"A4A2|"F"(A3G)A2|"C"c4c2|
+"G"(d4cd)|"Am"(e3dc2)|"Dm"(A4G2)|"Am"(A6|A2|]
+
+X:2
+T: Star of the County Down
+C: Traditional
+M: 4/4
+R: Reel
+L:1/4
+N:Bonanzaville Jam
+K:Am
+[|E/2G/2|"AM"AA"F"AG/2A/2|"C"cc"G"dc/2d/2|"Am"ed/2c/2AG/2E/2|"Em"G2zE/2G/2|
+"AM"AA"F"AG/2A/2|"C"cc"G"dc/2d/2|"Am"ed/2c/2AA/2G/2|A2ze/2e/2|
+"C"geed/2c/2|"G"dddc/2d/2|"Am"ed/2c/2AG/2E/2|"Em"G2zE/2G/2|
+"AM"AA"F"AG/2A/2|"C"cc"G"dc/2d/2|"Am"ed/2c/2AA/2G/2|A2z|]
+
+X:3
+T:Ookpik Waltz
+C:Traditional
+M:3/4
+R:Waltz
+L:1/8
+Q:1/4=140
+N:Bonanzaville Jam
+K:G
+[|(3DEF|G2> F2 GB|A2 G2 ED|E2 G2> A2| G2 B2 d2|e2>d2 ef|
+e2 d2 BG|B2 d2>e2|d4 Bd|e2>d2 eg|e2 d2 BA|
+B2 d2 BA|G2 E2 D2|C2> B,2 CE|D2 F2 ED|E2 G2> A2|
+G2 B2 d2|e2 B2> A2|B4 e2|d2 B2> A2|B4 B2|
+A2> G2 AB|A2 G2 ED|E2 G2 A2|G2 B2 d2|e2 B2> A2|
+B4 fe|d2 B2>G2|B4 B2|A2> G2 AB|A2 G2 ED|E2 G2 E2|D4|]
+
+
+
+
+
+X:4
+T: Country Waltz
+C: Traditional
+M: 3/4
+R: Waltz
+L:1/8
+N:Bonanzaville Jam
+K:D
+|:"D"D2F2A2|"A"A3G FE|"D"D2F2A2|f2d2ef|"A"g2e2ag|
+"D"f2d2cd|1"E"e>fe>dc>B|"A"A>BA>GF>E:|2"E"e2B2"A"c2|"D"d4A2||
+|:f3e dB|A3G FE|D2F2Ad|B2A2F2|"A"g3f ed|
+c3d cB|1A2c2e2|a2g2A2:|2A2B2c2|"D"d4z2|]
+
+X:5
+T: Country Waltz
+C: Traditional
+M: 3/4
+R: Waltz
+L:1/8
+N:Bonanzaville Jam
+K:G
+|:"G"G,2B,2D2|"D"D3C B,A,|"G"G,2B,2D2|B2G2AB|"D"c2A2dc|
+"G"B2G2FG|1"E"A>BA>GF>E|"A"D>ED>CB,>A,:|2"A"A2E2"D"F2|"G"G4D2||
+|:B3A GE|D3C B,A,|G,2B,2DG|E2D2B,2|"D"c3B AG|
+F3G FE|1D2F2A2|d2c2D2:|2D2E2F2|"G"G4z2|]
+
+X:7
+T: Westphalia Waltz
+C: Traditional
+M: 3/4
+R: Waltz
+L:1/8
+N:Bonanzaville Jam
+K:G
+D2|:"G"G4A2|B4e2|d6|d2(3(DFG)|G4A2|B4c2|"D"A6|A4D2|"Am"A4B2|
+c4g2|"D"f6|f4e2|d4e2|1d4c2|"G"B6|B4D2:|2d4F2|"G"G6|G3A Bc||
+|:d2zd dd|d2zd dd|d2e2g2|B6|B2A2G2|B2A2G2|"C"c3B cd|c6|
+"Am"e2ze ee|e2ze ee|e2f2g2|"D"f4e2|d4e2|
+|1d4c2|"G"B6|D>E G>A B>c:|2d4F2|"G"G6|G4z2|]
+
+X:8
+T: Peek-a-boo Waltz
+C: Traditional
+M: 3/4
+R: Walt5
+Q:1/4=150
+L:1/8
+N:Bonanzaville Jam
+K:D
+FG|:"D"A2f2e2|"G"d2c2B2|"D"A2F2B2|A4FG|A2f2e2|"E"d2c2d2|
+"A"e3d ef|e4FG|"D"A2f2e2|"G"d2c2B2|"D"A2F2B2|
+A4A^A|"G"B2g2f2|"A"e2B2c2|"D"d3c de|"D"d4FG:|
+|:"D"A3zgz|A3d cd|"G"B3zgz|"E"B6|"A"c3dc2|
+"G"B3cB2|"D"A2F2B2|A4FG|A3zfz|A3d cd|
+"G"B3zgz|"E"B6|"A"c3BA2|f2c2e2|"D"d3c de|d6:|]
+
+X:9
+T:Cripple Creek
+C: Traditional
+M:4/4
+R: Reel
+L:1/8
+N: Bonanzaville Jam
+K:A
+[|a2 a2 ecec|defd e2 fg|agaf ecec|=c^cec A2 fg|
+a2 a2 ecec|defd e2e2|(3B=c^c ec BAFF|E2 (3F=G^G A2 A2|
+|:=c^cec decd|=c^cec E2 AB|=c^cec BAFF|[1 E2 (3F=G^G A2 A2:|2E2 (3F=G^G A4|]
+
+X:10
+T:Fisher's Hornpipe
+C: Traditional
+M:4/4
+R: Hornpipe
+L:1/8
+K:D
+Bc|:dAFD GBAG|FEDF GBAG|FDFD GBAG|FGAF D2 Bc|
+dAFD GBAG|FEDF GBAG| FGAd cdec|[1dBAF D2 Bc:|2 dBAF D2 cd||
+|:ecAc egfe|fdAd fagf|ecAc egfe|d2 B2 A2 A_B|
+=BGDG BdcB|AFDF A2 _B2|=BGBd cdec|[1 dBAF D2 cd:|2 dBAF D2|]
+
+X:11
+T:Girl I Left Behind Me
+C: Traditional
+M:4/4
+R: Reel
+L:1/8
+K:G
+gf|:"G"e2 d2 B2 G2|"C"ABAG "(D)"E2 (3DEF|"G"G2 G2 GABc|
+"D"d4 B2 gf|"G"e2 d2 B2 G2|"C"ABAG "(A)"E2 G2|"D"F2 A2 D2 EF|[1"G"G4 G2gf:|2"G"G4 G2 GA||
+|:"G"B2 d2 e2 f2|g2 d2 B2 A2|BGBd edef|"(D)"g2 ag "D"f2 gf|
+"G"e2 d2 B2 G2|"C"ABAG "(A)"E2 G2|"D"F2 A2 D2 EF|[1"G"G3 G2 GA:|2"G"G4 G2|]
+
+X:12
+T:June Apple
+C: Traditional
+M:4/4
+R:Reel
+L:1/8
+K:Amix
+eg|:ageg ageg|aged cdef|gfef gfef|gagf e2 eg|
+ageg ageg|aged cBAA|G2 GA BA G2|[1 A3 B A2 eg:|2 A3 B A2 ed||
+|:c2 cB A2 AB|c2 cd e2 A2|G2 A2 B c3|d3 e d4|
+cdcB A2 AB|cBcd e2 A2|GFGA BA G2|[1 A3 B A2 ed:|2 A6|]
+
+X:13
+T:Liberty
+C: Traditional
+M:4/4
+R:Two Step
+L:1/8
+K:D
+de|:"D"f2 A2 f2 A2|fgfe d2 ef|"G"g2 B2 g2 B2|gagf efge|
+"D"f2 A2 f2 A2|fgfe d2 ef|"G"gfed "A"cABc|[1"D"dBAF D2 de:|2 "D"dBAF D2 FG||
+|:"D"A2 AB AGFE|DFAd f2 d2|A2 AB AFED|"A"A,2 C2 E2 G2|
+"D"A2 AB AGFE|DFAd fdef|"G"gfed "A"cABc|[1 "D"dBAF D2 FG:|2"D"dBAF D2|]
+
+X:14
+T:Little Liza Jane
+C: Traditional
+R:Reel
+M:4/4
+L:1/8
+K:A
+(3efg|:a2 f2 e3 e|fecB A2 (3efg|a2 f2 e2 c2|f3 g f2 (3efg|
+a2 e2 e3 e|fecB A4|cBAF E2 F2|[1 A6 (3efg:|2A6 A2||
+|:B c2 B c3 A|B2 A4 A2|B c2 B cB A2|F6 E2|
+F A3 B3 A|B c3 B3 A|cBAF E2 F2|1A6 A2:|2 A6|]
+
+X:15
+T:Mississippi Sawyer
+C: Traditional
+R:Reel
+M:4/4
+L:1/8
+K:D
+fg|:"D"a2 af a2 af |af a2 b2 a2|"G"g2 ef g2 ef|gf g2 a2 g2||
+"D"f2 fg fedc|defg a2 ef|"A"gfed cABc|1 "D"d2 f2 d2 fg:|2"D"d2 de d2 fe|]
+|:"D"d2 fe d2 fe|defg a4|"A"e2 c2 A2 c2|ABcd efec|"D"d2 fe d2 fe|
+defg a2 ef|"A"gfed cABc|1"D"d2 f2 b2 fe:|2"D"d2 f2 d2|]
+
+X:16
+T:Over the Waterfall
+C: Traditional
+R:Reel
+M:4/4
+L:1/8
+K:D
+de|:"D"f2 af "A"gfec|"D"dedB ABde|f2 af "A"gf e2|"D"e f2 e fede|
+f2 af "A"gfec|"D"dedB A2 AB|"C"=c2 c2 B2 A2|1"G"G6 de:|2 "G"G6 fg|]
+|:"D"A2 A2 "G"BABd|"D"ABAG F2 fg|A2 d2 "A"cd e2|"D"e f2 e f2 FG|
+A2 A2 "G"BABd|"D"ABAG F2 FG|A2 A2 "A"GF E2|[1 "D"D6 FG:|2 "D"D6|]
+
+X:17
+T:Red Haired Boy
+C: Traditional
+R:Reel
+M:4/4
+L:1/8
+K:A
+AF|:"A"F2 A2 ABcd|efec "D"d2 fd|"A"edcB ABcA|"G"BAEF =G3 F|
+"A"E2 A2 ABcd|dfdc "D"d2 cd|"A"e2 a^g afed|[1 "(E)"c2 A2 "(A)"A3 F:|2"(E)"c2A2 "(A)"A2 ef||
+"G"=gfef gfef|=gfec "D"d2 cd|"A"edcB ABcA|"G"BAEF =G3 F|
+"A"E2 A2 ABcd|efec "D"d2 cd|"A"e2 ag afed|1"(E)"c2 A2 "(A)"A2 ef:|2"(E)"c2A2 "(A)"A2|]
+
+X:18
+T:Saint Anne's Reel
+C: Traditional
+R:Reel
+M:4/4
+L:1/8
+K:D
+[|"D"f2 fg fedB|ABAG FGAd|"G"B2 G2 G2 AG|"D"ABAG FGAd|
+f2 fg fedB|ABAG FGAd|"G"BGBd "A"cdec|1"D"dBAF D2 de:|2"D"dBAF D2 ag||
+|:"D"fafd Adfg|"G"a2 g2 g2 gf|"A"edcB Aceg|"D"b2 a2 a2 ag|
+"D"fafd Adfg|"G"a2 g2 g2 gf|"A"edcB Aceg|1 "D"f2 d2 d2 ag:|2"D"f2 d2 d2|]
+
+X:19
+T:Soldier's Joy
+C: Traditional
+R:Hornpipe
+M:4/4
+L:1/8
+K:D
+dB|:"D"A2F2D2F2|A2d2d2dB|A2F2DEFD|"A"E3FE2eB|
+"D"A2F2D2F2|A2d2d2de|f2d2"A"e2c2|1"D"d3ed2eB:|2"D"d3ed2Ad||
+|:"D"f2g2a3f|"G"e2f2g4|"D"f2g2a2f2|"A"e2c2A2Ad|
+"D"f2g2a3f|"G"e2f2g4|"D"f2d2"A"e2c2|1"D"d3ed2Ad:|2"D"d3ed2|]
+
+X:20
+T:Swallowtail Jig
+C:Traditional
+R:Jig
+M:6/8
+L:1/8
+K:Amix
+F|:"Em"GEE BEE|GEE BAG|"D"FDD ADD|dcd AGF|
+"Em"GEE BEE|GEE B2c|"D"dcd AGF|1"Em"GEE E2F:|2GEE E3||
+|:"Em"Bcd e2f|e2f edB|Bcd e2f|edB"D"d3|
+"Em"Bcd e2f|e2f edc|"D"dcd AGF|"Em"GEE E3:|
+
+X:21
+T:Garryowen
+C:Traditional
+R:Jig
+M:6/8
+L:1/8
+K:G
+gf|:"G"edc BAG|BcB Bgf|edc BAG|"D"ABA Agf|
+"G"edc BAG| BcB B2d|def gdB|1"D"ABA Age:|2"D"ABA ABc||
+|:"G"d2B d2B|d2B dgf|"C"e2c e2c|e2ce2f|
+"G"g2ab2a|gfe d2B|def gdB|1"D"ABA ABc:|2"D"ABA G3|]
+
+X:22
+T:En Dro
+C:Traditional
+R:Dance?
+M:4/4
+L:1/8
+K:G
+|:"E"B2BcB3A|G2F2E4|"D"A2AGF3A|1"E"B2A2G2F2:|2"E"G2F2E4||
+"E"B2BcB2G2|"D"A2ABA2F2|1"E"G2GFE3F|G2A2"D"F4:|2"E"G2GFE3G|"D"F2G2"E"E4|]
+
+X:23
+T:Swedish Waltz
+C:Traditional
+R:Waltz
+M:3/4
+L:1/8
+K:Am
+Ac|:"Am"e4e2|c2A2Ac|e4e2|c2A2c2|"Em"B4Bc|d2c2B2|
+|1"A"A3B cd|e4Ac:|2"Am"A3B cB|A4e2||"Dm"a4a2|a2g2f2|
+"C"e4e2|e2d2c2|"Em"B4Bc|d2c2B2|1"Am"A3B cd|e4e2|2"Am"A3B cB|A6|]
+
+X:24
+T:From Hannu
+C:Traditional
+R:Polka
+M:4/4
+L:1/8
+K:Am
+|:"Am"A2ABc3d|c2B2"E7"B4|e2ef ed cB|1"Am"AB cd"E7"e4:|2"Am"c4AB cd||
+|:"C"e2e2"F"f3e|"G"e2d2dc Bc|"G"d2d2"E7"e3d|d2c2"Am"c4|
+"Am"A2ABc3d|c2B2"E7"B4|e2ef ed cB|1"Am"c4AB cd:|2"Am"A4A4:|
+
+X:25
+T:Old Joe Clark
+C:Traditional
+R:Reel
+M:4/4
+L:1/4
+K:Amix
+|:"A"ef=g>f|edc2|ef=g/g/f|e3e|ef=gf|edc2|AcB"G"=G/G/|"A"A2A2:||
+|:AA/A/AA|edc2|AA/A/Ac|"G"B3B|"A"AAAA|edc>c|Ac"G"BG|1"A"A2A2:|2"A"A3e|3"A"A4|]
+
+X:26
+T:Frosty Morning
+C:Traditional
+R:Reel
+M:4/4
+Q:1/8=120
+L:1/8
+K:Adorian
+(D2|:"Am"E)D(EG)A2A2|AB(cd)e2(3(DEF|"G"G2)BAG2D2|GA(Bcd2)(D2|
+"Am"E)D(EG)A2A2|ABc(de2)ed|(cB)A(c"G"BA)G2|1"Am"A3(BA2)(D2:|2"Am"A3(BA2)Bd|
+|:"Am"e2a2a2a2|(ab)(age2)(^cd)|"G"(ed)e(^f gf)(gf|e)dB(de2)e2|
+"Am"A2A2c2c2|d2d2e2ed|(cB)A(c"G"BA)G2|1"Am"(A3BA2)Bd:|2"Am"(A3BA2)|]
+
+X:27
+T:Angeline The Baker
+C:Stephen Foster
+R:Reel
+M:4/4
+L:1/8
+K:D
+|:"D"A2B2c2A2|B2d4d2|A2B2d2A2|"G"B6B2|
+"D"A2B2d2e2|f2e2d2e2|f2e2d2B2|A8:|
+|:a2f2e2d2|f2e2d2f2|a2f2e2d2|"G"B4B4|
+"D"a2f2e2d2|f2e2d2e2|f2e2d2B2|A8:|
+
+X:28
+T:Sally Ann
+C:Traditional
+R:Reel
+M:4/4
+L:1/8
+K:D
+(fg|:"D"a2)ag (fe)(fg|a2)(ag) (fe)(fg|a2)ag f(efg|a2)(afa2)(a2|
+b2)a2fed2|(ef2)(efe) ((f2|"A"f)e)dd BA(Bc|1"D"d2)d(cd2) (fg:|2"D"d2)d(cd3) (e|||:"D"f2f2(fe)(fe)|f2
+
+X:29
+T:Valse Du Depart
+C:Traditional
+R:Waltz
+M:5/4
+L:1/4
+K:Am
+E|:"Am"ABc2c|"G"dB"Am"c2e|"F"dc"E"B2E|1cB"Am"A2E:|2cB"Am"A2a||
+"G"gf"C"e2A|cd"E"e2d/c/|1,3B/c/d"Am"ece|"G"dg"Am"e2a:|
+|2B/c/d"Am"ecA|"G"BG"Am"A2a:|4B/c/d"Am"ecA|"G"BG"Am"A|]
+
+X: 30
+T:Sourwood Mountain
+G:dance song
+B:Richard Chase: American Folk Tales and Songs
+M:C
+R:Reel
+L:1/4
+Q:1/2=120
+K:Eb
+% lydian/major/mixolydian pentatonic
+G<B B/B/B|c e    BG |B>B Bc/c/|G/G/ F/F/ E2 |
+GG  G   E|F E/E/ CB,|E>E Ec/c/|B/B/ G/F/ E2|]
+
+X:31
+T:She'll Be Comin' Round The Mountain
+C:Stephen Foster
+R:Reel
+M:4/4
+L:1/8
+K:G
+DE|:GGGG EDB,D|G6GA|BBBB dBAG|A6dd|
+BBBB AGGG|EEEE AGGE|DDDD BAEF|1G6DE:|2G6|]
+
+X:32
+T:Buffalo Gals
+C:Stephen Foster
+R:Reel
+M:4/4
+L:1/8
+K:G
+|:G2GGB2d2|e2d2B4|d2c2A4|e2d2B4|
+G2GGB2d2|e2d2B4|c2d2ddcB|A2G6|
+ggf2e2dd|ed2dB4|dc2cA4|ed2dB4|
+ggf2e2dd|ed2dB4|c2d2ddcB|A2G6:|
+
+X:33
+T:Camptown Races
+C:Stephen Foster
+R:Reel
+M:4/4
+L:1/8
+K:G
+|:d2d2B2d2|e2d2B4|B2A6|B2A6|
+|:d2d2B2d2|e2d2B4|A2AAB2A2|G8|
+G2GGB2d2|g8|e2eeg2e2|d8|
+d2d2BBdd|e2d2B4|A2AAB2A2|G8:|
+
+X:34
+T:Pollu Wolly Doodle
+C:Traditional
+R:Reel
+M:4/4
+L:1/8
+K:G
+|:GAB2B2G2|GAB2B2G2|GAB2B2c2|A8|
+A2A2F2F2|A2A2F4|AAAAB2A2|G8:|

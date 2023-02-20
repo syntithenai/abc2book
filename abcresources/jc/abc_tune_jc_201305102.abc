@@ -1,0 +1,21 @@
+X:1
+T:McGlashan's Croanick
+B:NLS MS.5449 (Guittar/keyboard music, Scots tunes and minuets) c.1765
+Z:Jack Campin scots-l 2001-04-07
+N:most similar codes in Gore: "Caidil gu Lo" (Patrick McDonald,
+N:1784) and "Sleep on Till Day" (Beauties of Niel Gow volume 2, but
+N:not in the edition I've got.)
+N:The six-quaver groups are barred together in the MS.
+M:3/4
+L:1/8
+K:F
+ c>A      G2  F2  |   f>g    [F2c2f2] [F2A2]|   c>A   G2  [C2F2]|    f>g  (f>a) c>d   |\
+_e>f  {_e}d2  c2  |   a>b  {a}g2       c2   |   c'>b  a2   g2   |    f>a   d2  (c<f) :|
+ c>A      G2  F2  |(3(fga)    A2       B>d  |   c>A   G2   F2   | (3(fga)  c2   d2    |\
+_e>f   {e}d2  c2  |   a>b  {a}g2       c2   |(3(abc') c2   f2   |   (c<A)  G2  [C2F2]:|
+ cB       AG  AF  |   fe      fg       aA   |   cB    AG   AF   |    fe    f>a  c>d   |\
+_e>f      d>f c>g |   a>b     ac       gc   |  (c'b) (ba) (ag)  |[1  gf    ed   ec   :|\
+                                                                 [2  gf    ed   c2   ||
+ cA       GF  GA  |   f>e     f>g      fA   |   cA    G>F  GA   |    f>e   f>a  c2    |\
+ d>c      d>f c>_e|   d>c     da       gc   |   db    ag   fe   |[1  fe/d/ cB   AG   :|\
+                                                                 [2 [F6c6f6]         |]

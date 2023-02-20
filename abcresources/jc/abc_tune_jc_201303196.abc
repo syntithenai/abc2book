@@ -1,0 +1,19 @@
+X: 388
+T: Lock the Door
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #388
+R: single jig
+%S: s:3 b:24(8+8+8)
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0388/oneill-1001-0388-1.abc
+M: 6/8
+L: 1/8
+K: Em
+"^A"[|] z \
+| EFE BAG | FDF AGF | EFE BAG | AGF E3 |\
+| EFE BAG | FDF AGF | (B/^c/d)B AGF | E3 E2 :|
+"^B"|: A \
+| B2^c d2e | d2B AFD | B2^c d2e | fdB fdB |\
+| B2^c d2e | dcB AFA | (B/^c/d)B AGF | E3 E2 :|
+"^C"|: E \
+| E2B E2B | E2B BAB | E2B E2B | AGF E3 |\
+| E2B E2B | E2B BAB | dcB AGF | E3 E2 :|

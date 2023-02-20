@@ -1,0 +1,169 @@
+X: 1
+T:Scarborough Fair
+C:Traditional
+S:Soodlum's Tin Whistle Book
+M:3/4
+L:1/4
+K:G
+E2 E | B2 B | F G F | E3- | E B d | e2 d | B ^c A |
+B3- | B2 e | e2 e | d2 B | B A G | F D2- | D3 | E2 B |
+A2 G | F E D | E3- | E3 |]
+%
+W:1. Are you going to Scarborough Fair?
+W:Parsley, sage, rosemary, and thyme.
+W:Remember me to one who lives there,
+W:She once was a true love of mine.
+W:
+W:2. Tell her to make me a cambric shirt,
+W:Parsley, sage, rosemary, and thyme,
+W:Without no seems nor needle work,
+W:Then she'll be a true love of mine.
+%
+W:3. Tell her to find me an acre of land,
+W:Parsley, sage, rosemary, and thyme,
+W:Between the salt water and the sea strands,
+W:Then she'll be a true love of mine.
+W:
+W:4. Tell her to reap it with a sickle of leather,
+W:Parsley, sage, rosemary, and thyme,
+W:And gather it all in a bunch of heather,
+W:Then she'll be a true love of mine.
+
+X: 2
+T:Scarborough Fair / Canticle (Melody)
+C:Paul Simon, Art Garfunkel
+M:3/4
+L:1/4
+K:G
+"(7)" z3 |:
+%
+  E2 E | B/2 B3/2-B/2 B/2 | F3/2 G/2 F | E3- | E3 | z
+w:1,5.~Are you go-ing to Scar-bor-ough Fair?_
+  B d | e2 d | B ^c A | B3- | B3- | B3- | B z
+w:Pars-ley, sage, rose-mar-y, and thyme.___
+  e | e2 e | d2 B | B A G | F3- | F3 |
+w:Re-mem-ber me to one who lives there,_
+  E2 B | A2 G | F E D | E3- | E3- | E3- | E3 |:
+w:She once was a true love of mine.___
+%
+  "(2,3,4)" E E E | B B B | (F G) F | E3- | E3 | z
+w:2.~Tell her to make me a cam_ bric shirt,_
+  B d | e2 d | B ^c A | B3- | B3- | B3 | z z
+w:Pars-ley, sage, rose-mar-y, and thyme,__
+  e | e2 e | d2 B | (B A) G | F3- | F3 |
+w:With-out no seems nor nee_ dle work,_
+  E2 B | A2 G | F E D | E3- | E3- | E3- | E3 :|
+w:Then she'll be a true love of mine.___
+%
+W:3. Tell her to find me an acre of land,
+W:Parsley, sage, rosemary, and thyme,
+W:Between the salt water and the sea strands,
+W:Then she'll be a true love of mine.
+W:
+W:4. Tell her to reap it with a sickle of leather,
+W:Parsley, sage, rosemary, and thyme,
+W:And gather it all in a bunch of heather,
+W:Then she'll be a true love of mine.
+W:
+W:5. (Repeat 1)
+
+X: 3
+T:Scarborough Fair / Canticle (Melody, Extended)
+C:Paul Simon, Art Garfunkel
+M:3/4
+L:1/4
+K:G
+V:0
+"(7x)" z3 |]
+%
+  E2 E | B/2 B3/2-B/2 B/2 | F3/2 G/2 F | E3- | E3 | z
+w:1,5.~Are you go-ing to Scar-bor-ough Fair?_
+  B d | e2 d | B ^c A | B3- | B3- | B3- | B z
+w:Pars-ley, sage, rose-mar-y, and thyme.___
+  e | e2 e | d2 B | B A G | F3- | F3 |
+w:Re-mem-ber me to one who lives there,_
+  E2 B | A2 G | F E D | E3- | E3- | E3- | E3 ||
+w:She once was a true love of mine.___
+%
+  E E E | B B B | (F G) F | E3- | E3 | z
+w:2.~Tell her to make me a cam_ bric shirt,_
+  B d | e2 d | B ^c A | B3- | B3- | B3 | z z
+w:Pars-ley, sage, rose-mar-y, and thyme,__
+  e | e2 e | d2 B | (B A) G | F3- | F3 |
+w:With-out no seems nor nee_ dle work,_
+  E2 B | A2 G | F E D | E3- | E3- | E3- | E3 ||
+w:Then she'll be a true love of mine.___
+%
+  E E E | B B B | (F G) F | E3- | E3 | z
+w:3.~Tell her to find me an a-cre of land,_
+  B d | e2 d | B ^c A | B3- | B3- | B3 | z z
+w:Pars-ley, sage, rose-mar-y, and thyme,__
+  G | G G A | B2 A | G A G | F3- | F3 |
+w:Be-tween the salt wa-ter and the sea strands,_
+  E2 B | A2 G | F E D | E3- | E3- | E3- | E3 ||
+w:Then she'll be a true love of mine.___
+%
+  E E E | B B B/2B/2 | (F G) F | E E2- | E3 | z
+w:4.~Tell her to reap it with a sick-le of leath-er,_
+  B d | e2 d | B ^c A | B3- | B3- | B3 | z z
+w:Pars-ley, sage, rose-mar-y, and thyme,__
+  G | G G A | B2 A | G A G | F F2- | F3 |
+w:And ga-ther it all in a bunch of hea-ther,_
+  E2 B | A2 G | F E D | E3- | E3- | E3- | E3 |]
+w:Then she'll be a true love of mine.___
+
+X: 4
+T:Scarborough Fair / Canticle (Canticle)
+C:Paul Simon, Art Garfunkel
+M:3/4
+L:1/4
+K:G
+"(7)" z3 |]
+%
+  E2 E | B/2 B3/2-B/2 B/2 | F3/2 G/2 F | E3- | E3 | z
+w:1,5.~Are you go-ing to Scar-bor-ough Fair?_
+  B d | e2 d | B ^c A | B3- | B3- | B3- | B z
+w:Pars-ley, sage, rose-mar-y, and thyme.___
+  e | e2 e | d2 B | B A G | F3- | F3 |
+w:Re-mem-ber me to one who lives there,_
+  E2 B | A2 G | F E D | E3- | E3- | E3- | E3 |]
+w:She once was a true love of mine.___
+%
+  z3 | z E E | D E D | G F E |
+w:2.~On the side of a hill in the
+  E E D | B,3 | z3 | z3 |
+w:deep for-est green.
+  d e d | e e e | f f f | e3 |
+w:Trac-ing of spar-row on snow-crest-ed brown.
+  z3 | z3 | D E E | D D D |
+w:Blan-kets and bed-clothes the
+  D E D | E E2 | z3 | z3 |
+w:child of the moun-tain.
+  G F G | A G F | G F D | E3 ||
+w:Sleeps un-a-ware of the clar-i-on call.
+%
+  z3 | z E E | F G F | E2 E |
+w:3.~On the side of a hill a
+  E E D | B,3 | z3 | z3 |
+w:sprink-ling of leaves.
+  d e d | A2 c | d c A | B3 |
+w:Wash-es the grave with sil-ver-y tears.
+  z3 | z3 | G A B | d2 A |
+w:A sol-dier cleans and
+  d-d/2 A/2 d/2c/2 | e3 | z3 | z3 |
+w:po_ lish-es a gun.
+  E3- | E3- | E3- | E3 ||
+w:mine.
+%
+  z3 | z3 | D E D | G F E |
+w:4.~War bel-lows blaz-ing in
+  E E D | E B,2 | z3 | z3 |
+w:scar-let bat-tal-ions.
+  d e d | e e e | f f f | e3 |
+w:Gen-er-als or-der their sol-diers to kill.
+  z3 | z d d | d B d | A2 D |
+w:And to fight for a cause they've
+  D/2E/2 F G | E E2 | z3 | z3 |
+w:Long a-go for-got-ten.
+  E3- | E3- | E3- | E3 |]
+w:mine.

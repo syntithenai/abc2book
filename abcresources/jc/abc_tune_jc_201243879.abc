@@ -1,0 +1,27 @@
+X: 932
+T: Back of the Change house
+R: reel, strathspey
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.93 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Shortened final bass note to agree with the melody, and to fix the repeat rhythm.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+(B |\
+TA)>FAf Te>dBd | TA>FAB (ded)B |\
+TA>FAf Te>dB(f/g/ | a)>A-AB d2d :|
+|: (g |\
+Tf)>edf Te>dBg | Tf>efg a>baf |\
+g>af>g Te>dBg | (f/g/a) A>B d2-d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 e2e2 | d2d2 d2d2 |\
+d2d2 e2e2 | d2A2 D2D :|
+|: z |\
+d2d2 e2e2 | d2d2 d2d2 |\
+d2d2 e2e2 | d2A2 D2D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

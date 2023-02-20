@@ -1,0 +1,40 @@
+X: 1
+T: the Bonny grey-ey'd Morn
+T: the Bonney Grey-Ey'd Morn
+P: Longways for as many as will
+N: "a Scots air, same name" handwritten over title in DMDfD.
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.114 #167 (227)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.218
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+(BA) (Bc) d2 (cB) | (de) f2 f3 g | (fg) (fd) (ed) (cB) | (AB) (cd) c3 d |\
+(ed) (cB) A3 A | (BA) (GF) =E3 C | (FA) (GB) (Ac) (dc) | (BA) (GF) F3 |]
+c |\
+(cA) (cA) F3 f | (fd) (fd) B3 d | (eG) (cA) ^F3 d | (cB) (AG) G3 D |\
+(GA) (BG) e3 d | (dG) (cB) A3 F | (Bd) (ce) (df) (gf) | (ed) (cB) B3 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1st Man turn the 2d Wo. and come into his own Place, and cast off below
+%% the 2d Man; the 1st Wo. do the same .| The 2d Cu. being in the 1st Cu. Place,
+%% do the same :| The 1st Cu. being in their Places, cross over below the 2d
+%% Cu. and go the Figure then lead thro' the 3d Cu. and cast up into the 2d
+%% Cu Place, the 2d Cu. being in the 1st Cu. Place, do the same, the 1st Cu.
+%% casting off at the same Time.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%%   The 1. man turn the 2. wo. and come up into his own place, and cast off below the 2. man; the 1.
+%% wo. do the same .| The 2. cu. being in the 1. cu place, do the same :|
+%%   The 1. cu. being in their own places, cross over below the 2. cu. and go the Figure, then lead through
+%% the 3. cu. and cast up into the 2. cu. place, the 2. cu. being in the 1. cu. place do the same, the 1 cu.
+%% casting off at the same time. [DMDfD]
+%%endtext
+%%sep 1 8 500

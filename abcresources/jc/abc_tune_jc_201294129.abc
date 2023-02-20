@@ -1,0 +1,26 @@
+X:1
+T: Johnny Cock Thy Beaver
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/4
+K:G
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 42 notes)
+K:G
+M:6/4
+L:1/16
+e4 |d8 G4 B6 A2 G4 |A4 B4 A4 c8 e4 |d8 G4 B6 A2 B4 |G4 g4 d4 B4 c4 d4 |e4 d4 e4 g4 d4 B4 |A4 B4 A4 c8 e4 |d8 G4 B8 A4 |G4 g4 d4 B8 G4 |
+%W: A2
+% voice 1 (1 lines, 41 notes)
+d8 G4 B6 A2 G4 |A4 B4 A4 c8 e4 |d8 G4 B6 A2 B4 |G4 g4 d4 B4 c4 d4 |e4 d4 e4 g4 d4 B4 |A4 B4 A4 c8 e4 |d8 G4 B8 A4 |G4 g4 d4 B8 G4 |
+%W: B1
+% voice 1 (1 lines, 48 notes)
+G4 g4 d4 B2 c2 d4 B4 |A4 a4 e4 c8 A4 |G4 g4 d4 B2 c2 d4 B4 |G4 g4 d4 B6 c2 d4 |c2 B2 c2 d2 e2 f2 g6 G2 B4 |A4 B4 A4 c8 g4 |d8 c4 B8 A4 |G4 g4 d4 B8 G4 |
+%W: B2
+% voice 1 (1 lines, 48 notes)
+G4 g4 d4 B2 c2 d4 B4 |A4 a4 e4 c8 A4 |G4 g4 d4 B2 c2 d4 B4 |G4 g4 d4 B6 c2 d4 |c2 B2 c2 d2 e2 f2 g6 G2 B4 |A4 B4 A4 c8 g4 |d8 c4 B8 A4 |G4 g4 d4 B4 G8 ||

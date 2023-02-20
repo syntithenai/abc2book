@@ -1,0 +1,31 @@
+X: 12251
+T: Steer her up and had her gaun
+%R: reel
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.25
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Should the F (sharp) in bar 12 also be F natural?
+N: Added flag to the grace note in the next-to-last bar.
+M: C|
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+"_Brisk"af |\
+d2d2 Tf3e | (de)(fg) a2(AG) | F2A2 A2GF | E2E2 {d}c3e |\
+d2d2 Tf3e | (de)(fg) a2(ga) | bagf edec | {c2}d4 D2 :|
+|: fe |\
+d2A2 F3A | d(AG)A F2ED | E2 =c4 E=F | GFED [E2=C2] fe |\
+d2A2 {G}F3E | DEFG A2gf | (ef)(gf) ecAc | d4 D2 :|
+|:"^Variation"fe |\
+dfag fgef | defg a2AG | FDAF dAGF | EeBd {d}c3e |\
+d2ag fgfe | defg afga |
+bagf efAc | {c2}d4 D2 :: fe |\
+dfAd FADA | dcBA GFED | E=cBc G=cEG | =ceEG [E2=C2] (fe) |\
+dAGA FGEF |
+DEFG Aagf | egce AdEc | {c2}d4 D2 :: fe |\
+dfa2- agfe | dfaf d2AG | FAd2- dAGF |
+EG Bg Tc3A |\
+dfa2 agfe | defg abga | bagf ed'ec' | d'dfa d2 :: fe |\
+dafa dfAc |
+dcBA GFED | EG=c2 EG=c2 | e=c GE [E=C]EAG |\
+FDAF dAeA | fdaf d'agf | eefg {f}e2(dc) | {c2}d4 D2 :|

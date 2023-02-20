@@ -1,0 +1,33 @@
+X: 30952
+T: COTILLION No. 9. HORN POND SETT tune 5
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.95 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The rhythms don't quite match between the strains; not fixed.
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+E2 |\
+c3B AGAB | c2e2 f2a2 | Te2c2 Te2c2 | B>AB>c B2E2 |\
+c3B AGAB | c2e2 f2a2 | e3c BABc | A2c2A2 H|]
+GA |\
+BGe2 BGe2 | (c/d/c/B/)Ae (c/d/c/B/)Ae | BGe2 BGe2 | ^defd e2GA |\
+BGe2 BGe2 | (c/d/c/B/)Ae (c/d/c/B/)Ae | ^defg afe^d | e^def e=dc"^D.C."B |]
+K: E
+B3e edef | gfga g2f2 | b3g e3g | cagf e2d2 |\
+B3e edef | {a}gfga g2f2 | B2ge c2af | edef e=dc"^D.C."B |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Forward 4,
+%% 4 hands half round,
+%% chassa across,
+%% 2 ladies forward and back,
+%% gents the same,
+%% balance,
+%% half right and left.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

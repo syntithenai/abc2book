@@ -1,0 +1,16 @@
+X: 821
+T: the Top of the Morning
+R: hornpipe
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #821
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0821/oneill-1001-0821-1.abc
+M: 2/4
+L: 1/16
+K: G
+"^A"[|] (3DEF \
+|  G>FG>A G2A>B | c>AF>A G2A>B | c>Bc>e d>BG>B | A>GF>E D>EF>D ||
+|| G>FG>A G2A>B | c>AF>A G2A>B | c>Bc>e d>BA>B | G2G>G G2 :|
+"^B"|: (A>B) \
+|  c>Bc>d e2d>c | B>AB>c d2B>G | G>FG>A B2A>G | A2d>e d>cA>F ||
+|| G>FG>A G2A>B | c>AF>A G2A>B | c>Bc>e d>BA>B | G2G>G G2 :|

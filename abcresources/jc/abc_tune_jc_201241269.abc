@@ -1,0 +1,30 @@
+X: 4302
+T: The Rakes of Tunbridge
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 2/4
+L: 1/16
+K: A
+%
+V: 1
+E2 |\
+A2cd e2fg | a2ga b2f2 | e2d2c2B2 | c2Bc A2e2 |\
+fef=g fedc | BcdB edcB | A2Bc d2c2 | TB6 :|
+|: (ga) |\
+bagf e2d2 | c2B2A2e2 | fedc B2A2 | G2F2E2E2 |\
+AcBd cBAG | ABcd e2a2 | {d}c2BA {c}B2AG | A6 |]
+%
+V: 2 clef=bass middle=d
+z2 |\
+a4 g4 | f4 d4 | e4 E4 | A4 z4 |\
+d4 d'4- | d'4 c'4- | c'4 b2a2 | e6 :|
+|: z2 |\
+e4 g4 | a4 c4 | d4 ^d4 | e4- ed'c'b |\
+a2g2 a2e2 | f4 c2d2 | e4 E4 | A6 |]
+%%begintext align
+First Cu. Setts cast off and hands half round with the 3d Cu. .|
+First Cu. leads thro' the 3d Cu. Right and Left half round with the 3d Cu. .|
+First Cu. Double figures thro' the 2d Cu. .|
+First and 2d Cu Right and Left quite round.
+%%endtext

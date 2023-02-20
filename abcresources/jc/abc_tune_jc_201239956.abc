@@ -1,0 +1,17 @@
+X: 352
+T: Bessarabian Sirba #2
+R: sirba
+O:
+Q: 1/4=160
+B: German Goldenshteyn "Shpilt klezmorimlach klingen zoln di gesalach" New York 2003 v.3 #52
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 1st/2nd endings aren't really needed.
+M: 2/4
+L: 1/8
+K: G
+z(def) |:\
+g2 d2 | b2 g2 | ab c'b | a4 | (~d'c') (~c'b) | (~ba) (~ag) | b4- | b(def) |
+g2 d2 | b2 g2 | ab c'd' | e'2 z2 | (~d'c') (~c'b) | (~ba) (~ag) |[1 g4- | gdef :|[2 g4- | gbc'^c' ||
+|:\
+d'4- | d'd'c'b | a4 | e'4 | (~d'c') (~c'b) | (~ba) (~ag) | b4- | bbc'^c' |
+d'4- | d'd'c'b | a4 | e'4 | (~d'c') (~c'b) | (~ba) (~ag) | g4- | g2 z2 :|

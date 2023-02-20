@@ -1,0 +1,18 @@
+X: 1121
+T: Green Grows the Rashes.   a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.1 p.12 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G	% ending on Em
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+A | G/G/G (T.B>.A) BGGB | A/A/A (.e>.d) eAAB | ~c3e d/(c/B/A/ G).B | (A/B/c) TB>A GEE :| A | G/G/G (~.g>.f g)ddg | e/e/e (~.a.g a)ee>f |
+Tg>age d/(c/B/A/ G).B | (A/B/c TB)>A GEEA || G/G/G (~.g>.f g)ddg | e/e/e ~.a>.g aeef | .g.b.e.g dgBg | (A/B/c) TB>A GEE |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | g2g2 g2g2 | a2a2 a2a2 | a2f2 g2g2 | a2b2 e2d :| z | g2g2 g2g2 | a2a2 a2a2 |
+b2c'2 b2b2 | a2b2 e2e2 || g2g2 g2g2 | a2a2 a2a2 | b2c'2 b2g2 | a2b2 e2e |]

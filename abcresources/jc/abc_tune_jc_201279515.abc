@@ -1,0 +1,46 @@
+
+X: 1
+T: G\aangl\aat av Gothe Wahl\'en
+T: G\aangl\aat till S\"odermanlands Spelmansf\"orbund
+R: g\aangl\aat
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Printed copy of unknown origin, from Paul Milde
+Q: 1/4=88
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+V:1
+G2 |\
+[c4E4G,4] (cd)cB | (c2g2) (e2c2) |\
+d4 (de)d^c | (d2g2) (f2d2) |\
+(ef)ed (cd)cB |
+(AB)AG (FG)FE |\
+(DE)DC (B,C)B,A, | G,6 G2 |\
+[c4E4G,4] (cd)cB | (c2g2) (f2g2) |
+a4 (ab)ag | (f2a2) (g2f2) |\
+(eg)ec (eg)ec | (df)dB (df)dB |\
+c4 (Bc)dB | c6 "fine"y:|
+|: e2 |\
+a4 (e3d) | c4 (B3^G) |\
+(A^G)AB (cB)cd | e6 (AB) |\
+c2c2 (Bc)BA |
+^G2G2 (B3G) |\
+E4 (E3E) | E6 e2 |\
+a4 (e3d) | c4 (B3^G) |
+(A^G)AB (cB)cd | e6 f2 |\
+(ef)ec (A2c2) | (Bc)B^G (E2F2) |\
+E4 (^GA)BG | A6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+V: 2
+G,2 |\
+[E4C4] (.[E2B,2].[E2A,2]) | [E4G,4] (c2G2) | [B4F4G,4] (FG)FE | [D4B,4] (d2B2) |\
+(cd)cB (AB)AG | (FG)FE (DE)DC | (B,C)B,A, (G,2G2) | (F2D2 B,2)G,2 |
+[E4C4] (.[E2B,2].[E2A,2]) | ([E2G,2]e2) (d2e2) | (fc)Ac (fg)fe | (d2F2) (E2D2) |\
+(CE)GE (CE)GE | (G,D)FD (G,D)FD | (A2G2) (F2G2) | [E6G,6] "fine"y:|
+|: z2 |\
+(A,C)EA (c3B) | (A2e2) F4 | [E4C4] (A^G)AB | (cB)AB (c2F2) |\
+(3(Ede) (3(edE) (3(Fde) (3(edF) | (3(Ede) (3(edE) (3(Fde) (3(edF) |\
+(3(^Gde) (3(edG) (3(Gde) (3(edG) | (E2D2) (C2B,2) |
+(A,C)EA (c3B) | (A2e2) F4 | [E4C4] (A^G)AB | (cB)AB (c2d2) |\
+(cd)cA (FE)FA | (^GA)GE (D2B,2) | (DC)B,A, [D4B,4] | [E6C6] :|

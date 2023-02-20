@@ -1,0 +1,26 @@
+X: 1
+T: the Westcoaster
+C: Aonghas Grant
+R: hornpipe
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: ({B,C}B,>A,) |\
+"G"G,>B, (D>G) (B>d) e<f | g>d B<G "G7"F>G D<B, | "C"C>E A<B c>B A<G | "D7"F<d A<F D>C B,<A, |
+"G"G,>B, D<G B>d e<f | g>d B<G "G7"[FD]>G D<B, | "C"C>E A<B ({d}B>A) (G<F) | [G4G,4] [G2G,2] y:|
+|: (B>c) |\
+"G"(dg) g/g/g (ag) (fg) | (dg) g/g/g (ag) (fg) | "Am"(ea) a/a/a (ba) (^ga) | (ea) a/a/a "D7"(ba) (3(gfe) |
+"G"(dg) g/g/g (ag) (fg) | (dg) (fg) ("G7"dB) G<D | "C"A,>A (B<c) "D7"({Bd}B>A) G<F | [G4G,4] [G2G,2] y:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %begintext align
+% % There's absolutely no tradition of hornpipe playing in the Highlands at all.
+% % There's not one single hornpipe. So this is the original, first one. It's
+% % dedicated to the West Highland Fiddle Class at Stirling University. It was
+% % originally transcribed by Rosemary Stewart. Hornpipes are very, very nice
+% % tunes to play because most of them are uncomplicated, although they can be
+% % fancy, like the "Beeswing" and "Newcastle".
+% %endtext

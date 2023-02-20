@@ -1,0 +1,20 @@
+X: 105
+T: Hinach Yaffa
+C: Shem Tov Levi and Yosef Mustaki 1966
+O: Israel
+I: Dance taught by Shlomo and Dina Bachar
+Z: adapted from John Chambers <jc@eddie.mit.edu>
+F: http://www.youtube.com/watch?v=S447e7PSKfA
+L: 1/8
+M: 2/4
+Q: 1/4=100
+K: G
+%%MIDI gchord fzcz
+%%MIDI drum dddd 54 54 54 54 70 50 60 50
+%%MIDI drumon
+  "D7"zDGA | "G"B4  |"G7"BcBA |"C"c3d/2c/2 | "G"B4-   | B2A2    |
+ B2c2      | "G7"d4-| d2 d2   | "C"e3d     | ccde     | "G"d4-  | d4-  | d2B2     |
+ B2c2      | d4     | d2de    | "Am"c3B    | A4-      | "D7"A2AG| AAB2 | "D7"c2dc |
+ B2c2      | "G"d4- | d4-     | d2B2       | "G7"c2d2 | "C"e3e  |e2e2  | "D7"dedc |
+ "Em"B4-   | B2BA   | BBc2    | "Am"d2ed   | c2B2     | "D7"A4- | A4-  | A2AG     |
+ F2D2      | "G"B4- | B4      |"D7"ABAG    | "G"G4-   | G4-     | Gz3  |

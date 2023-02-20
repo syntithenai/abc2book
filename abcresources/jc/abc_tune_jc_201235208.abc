@@ -1,0 +1,33 @@
+X: 21032
+T: BOSTON SETT (tune 5)
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.103 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+FF |\
+B2GB d2Bd | f4 g2f2 | =efge _edec | B2d2 F2BB |\
+B2dd d2ff | f4 g2f2 | b2fe fecd | B2d2B2 H|]
+f2 |\
+d2f2 B2d2 | cBAG F2f2 | g2f2 e2d2 | c2f2 F2f2 |\
+d2f2 B2d2 | cBAG F2f2 | g2b2 =e2g2 | f2a2"^D.C."f2 |]
+D2 |\
+G2GB d2d2 | A2AB c2c2 | B2B2 AGAB | G2B2 D2d2 |\
+G2GB d2d2 | A2AB c2c2 | B2G2 AGAB | G2B2"^D.C."G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies all forward and back.
+%% gentlemen the same,
+%% all balance,
+%% turn partners,
+%% grand right and left,
+%% all balance to corners,
+%% turn partners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

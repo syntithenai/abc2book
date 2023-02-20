@@ -1,0 +1,35 @@
+X:1
+T:Exercises - Page 10
+M:C
+L:1/8
+Q:80
+C:
+S:Exercise
+K:HP
+{AGAG}Aa{AGAG}A | \
+f{gAGAG}Ac{gAGAG}A | \
+g{GAG}AB{GAG}A |
+e{gAd}Ac{gAd}A | \
+e{Ad}Aa{Ad}Ae{gGd}G | \
+d{gGd}Ge{Gd}Gg{Gd}G |
+a{f}ga{f}g | \
+f{e}faf{e}f{g}df{e}f | \
+ae{A}e{g}ef{e}fa{f}g{a}f |
+M:C [ | \
+e | \
+{g}A2{GdGe}AB{G}A2{gcd}ce | \
+{ag}a2{fg}fd{gef}e4 |
+{g}A2{GdGe}AB{G}A2{gcd}ce | \
+{g}f3/2e/2{gde}dc{gBd}B2-B3/2e/2 | \
+{g}A2{GdGe}AB{G}A2{gcd}ce |
+{ag}a2{fg}fd{gef}e4 | \
+{ag}a2{fg}fd{gef}e2{gde}d2 | \
+{GBG}A4{GAG}A4|] [ |
+{ag}a2{fg}fd{gef}e2{g}A2 | \
+{ag}a2{fg}fd{gef}e4 | \
+{g}A2{GdGe}AB{G}A2{gcd}ce |
+{g}f3/2e/2{gde}dc{gBd}B2-B3/2e/2 | \
+{g}A2{GdGe}AB{G}A2{gcd}ce | \
+{ag}a2{fg}fd{gef}e4 |
+{ag}a2{fg}fd{gef}e2{gde}d2 | \
+{GBG}A4{GAG}A4|]

@@ -1,0 +1,17 @@
+X: 21563
+T: MEG MERRILEES' HORNPIPE
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.2, 1885 p.156 #3
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Add obvious natural to 2nd d in bar 11, to match bars 9 and 13.
+N: The 2nd d in bar 13 is probably a typo, and should be e as in bars 9 and 11.
+M: C|
+L: 1/8
+K: A
+(ucd) |\
+edcd Aaga | (fe)ee e2cd | (ef)ec (ea)ec | (cB)BB [B2G2]cd |\
+edcd Aaga | (fe)ee e2cd | (ef)ec (BA)Bc | A2c2A2 :|
+|: ue2 |\
+(^de)fe (=dc)dB | ceAe ceAe | (^de)fe (=dc)dB |(BA)AA (.A2.e2) |\
+(^de)fd (=dc)dB | ceAe ceAe | (dc)de (fe)fg | (ba)aa a2 :|

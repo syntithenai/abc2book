@@ -1,0 +1,18 @@
+X: 272
+T: Auld Chapel Brae
+C: Bert Murray
+R: strathspey
+B: Bert Murray's "Bon Accord Collection" 1999 p.27
+%
+N: Auld Chapel Brae is the composer's father's birthplace in Banchory.
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces
+uD |\
+{Bc}B>A G>E {DE}D2 (B,D) | {EF}E<C E<G D3 D | {F}G>A BG {^c}dGBG | E<G c>B A3 G |
+{A}B>A GE {DE}D2 (GF) | {EF}E<C E<G D3 B, | {B,}C>D EF GE D>B, | D2 ({F}G>A) G3 ||
+uB |\
+c>B AG B>A GD | {EF}E<G c>E D3 B | {cd}c>B ce d<B GD | E2 (A>B) {B}A3 G |
+{GA}B>A GE {DE}D2 (B,D) | E<G c>E {DE}D3 B | {B}c>B ce dB G>D | E2 ({F}G>A) G3 |]

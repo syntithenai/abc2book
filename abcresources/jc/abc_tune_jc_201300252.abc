@@ -1,0 +1,25 @@
+X: 1
+T: L\aangbacka Jans G\aangl\aat
+C: Trad.
+R: g\aangl\aat, march
+S: http://www.nyckelharpa.org/archive/written-music/american-allspel-list/ 2022/9/25
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: 1/4=96
+K: G
+"^A"[|] v(DG)(Bd) |\
+vg4 (gf)ga | vg2B2 c2e2 | vd4 (de)dB | vG4 (DG)Bd ||\
+vc3B c2A2 | vF4 (DF)Ac | ve4dd d2B2 | vG4 (DG)(Bd) ||
+vg4 (gf)ga | vg2B2 c2e2 | vd4 (de)dB | vG4 (DG)Bd ||\
+v(cd)cB c2A2 | uF2DD E2F2 | vG2FG B2A2 |1 uG4 :|2uG3 ||
+"^B"|: vD2- |\
+vD2BB B2BB | vB2AB (cB)AG | vE2cc c2cc | vc2Bc (dc)BA ||\
+vF2dd d2dd | vd2D2 E2F2 | vG2DG B2BG | vD6 :|
+z2 "^C"|:\
+vd4(Bd) g2d2 | vB4 G4 | vB2(GB) d2B2 | vG4 (D3F) ||\
+vA2D2 F2A2 | vc2A2 F2D2 |1 vG2(DG) B2(GB) | d6 (GB) :|2 vG4 B3A | uG8 |]
+%%begintext align
+%% That long final G may be shortened to play the 4 initial pickup notes.
+%% But they are often omitted, giving a pause, then a sudden start with the high g.
+%%endtext

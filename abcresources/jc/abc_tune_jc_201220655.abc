@@ -1,0 +1,22 @@
+X: 3
+T: Be silent pray?
+%R: march, reel
+B: "Twenty Four Favourite Dances for the Year 1783", Thomas Straight, ed. p.2 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1783
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+Bc |\
+A2G2 FGAB | F2 D4 Bc | A2G2 gfgB | c2 e4 dc |\
+d2a2 c2g2 | B2f2 A2e2 | gfed cdec | d2 D4 :|
+|: Bc |\
+A2G2 F2d2 | E2c2 D2B2 | A2G2 F2a2 | BcdB c2B2 |\
+A2G2 FGAF | BcdB cdec | fgaf befc | d2 D4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hey contrary sides .|. then on your own sides :|.
+%% lead down the middle thro the bottom the 2d
+%% Cu follow & up into their own places .|: cross
+%% over 1 Cu & right & left at top :|:
+%%endtext

@@ -1,0 +1,37 @@
+X: 196
+T: Jovano Jovanke
+R: lesnoto
+N: *1 Optional held measures.
+N: The instrumental phrases are from two different recordings.
+W: Originally transcribed by John Chambers
+W: http://trillian.mit.edu/~jc/music/abc/
+F: http://www.youtube.com/watch?v=FoswY63n_zA
+F: http://www.youtube.com/watch?v=Od_jUZsNXr4
+F: http://www.youtube.com/watch?v=P8mqWe-8nrY
+F: http://www.youtube.com/watch?v=jUFL01Is5vE
+M: 7/16
+L: 1/16
+K: Dphr^F
+Q: 1/4=60
+%%MIDI program 69 English Horn
+%%MIDI chordprog 32 Acoustic Bass
+%%MIDI bassprog 34 Electric Bass (pick)
+%%MIDI gchord f3c2c2
+"Vocal"\
+|: "D"F3 "(Cm)"GFE2 | "D"D7- | "*1"D7 \
+| "D"[A2F2][cA] "(Cm)"[BG][AF][GE][F/D/][G/E/] | "D"[A7-F7-] | "*1"[A7F7] :|
+w: Jo-va-__no,_ Jo-va-_____nke,_
+|: "Gm"[d2B2][dB] [d2B2][d2B2] | [dB][cA][dB] "Cm"[e2c2][ec][dB] \
+| "F"[c2A2][cA] [c2A2][c2A2] | [cA][BG][cA] "Bb"[d4B4] |
+w: 1.~Kraj Var-da-ro se-__di\vs mo-ri, be-lo plat-no be-__li\vs,
+w: 2.~Tvo-_ja-ta maj-__ka mo-ri, te-be ne te pu-__\vsta,
+w: 3.~Jaz te te-be \vce-__kam mo-ri, do-ma da mi doj-__de\vs,
+| "Gm"[B2G2][BG] [B2G2][cA][dB] | "Cm"[ec][d2B2] [c2A2][B2G2] \
+| "D"[A2F2][AF] [BG][AF][BG][cA] | [A2F2][cA] [BG][AF][G2E2] | [F7-D7-] | "*1"[F7D7] :|
+w: 1.~se na-go-re_ gle-da\vs du-\vso, sr-ce mo-*je* Jo-_va-__no._
+w: 2.~kaj me-ne da_ doj-de\vs, du-\vso, sr-ce mo-*je,* Jo-_va-__no._
+w: 3.~a ti ne do-_ag-ja\vs, du-\vso, sr-ce mo-*je* Jo-_va-__no._
+"Instr.1"\
+|: "D"ABG A2GF | FGE F2ED |1,3 DEC DEFG | ABG A2z2 :|2,4 "Cm"DEC DEFC | "D"D7- | "*1"D7 :|
+"Instr.2"\
+|: "D"c2d cBA2 | "Gm"B2c BAG2 | "D"F2G ABAG |1 F2G A4 :|2 "(Cm)"F2E "D"D4 |]

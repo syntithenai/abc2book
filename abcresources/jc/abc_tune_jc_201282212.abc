@@ -1,0 +1,371 @@
+X:99001
+T:Leap Year
+P:Glasgow Peggy
+C:Traditional
+R:Jig (8x24) ABB
+B:RSCDS Gr-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:D
+B|"D"A2F FED|"G"G2G G2B|"D"A2F FED|"A"E3 E2B|
+  "D"A2F FED|"G"G2G G2B|"D"[A2F2][GE] "A7"[F2D2][EC]|"D"[F3D3] D2|
+|:A2|"Bm"d2d dcd|"G"B2B B2d|"D"A2F FED|"A"E3 E2c|
+     "Bm"d2d dcd|"G"B2B B2d|"D"[A2F2][GE] "A7"[F2D2][EC]|"D"[F3D3] D2:|
+
+X:99002
+T:Watson's Reel
+P:John Grumlie
+C:Traditional
+R:Jig (8x24) ABB
+B:RSCDS Gr-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Bb
+F|"Bb"D2F F2G|F2G B2c|d2B "Cm"e2d|"F"d3 c2 F|
+  "Bb"D2F F2G|FGA "Gm"B2c|"Bb"d2f "F7"edc|"Bb"B3-B2||
+|:B/c/|"Bb"d2d B2B|"Cm"e3 "F"c2c|"Bb"d2B "Cm"e2d|"F"d2 c2F|
+       "Bb"D2F F2G|"Bb"F3 "Cm"e2e|"Bb"d2f "F7"edc|"Bb"B3 b2:|
+
+X:99003
+T:The Merry Reapers
+P:The Hundred Pipers
+C:Traditional
+R:Jig (8x24) ABB
+B:RSCDS Gr-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:F
+F/G/|"F"A2C CDC|"Bb"D2F F2d|"F"c2A A>GF|"C"[G2E2][GE] [G2E2] F/G/|
+     "F"A2C C>DC|"Bb"D2F F2d/d/|"F"c2A "C7"G>AG|"F"F2F F2||
+|:A/B/|"F"c2c cAc|"Bb"d2f f2d|"F"c2A "Dm"A>GF|"C"[G2E2][GE] [G2E2] A/B/|
+       "F"c2c "C"cde|"Dm"f2f "Bb"f2e/d/|"F"c2A "C7"G>AG|"F"F2F F2:|
+
+X:99004
+T:Davy's Locker
+P:The Boatie Rows
+C:Traditional
+R:Reel (8x24) ABB
+B:RSCDS Gr-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:F
+F|"F"A2c2 "C"c3d|"F"c2f2 "Bb"gfed|"F/A"c2A2 "G7/B"G3F|"C"G6 F2|
+  "F"A2c2 "C"c3d|"F"c2f2 "Bb"gfed|"F/A"c2A2 "C"G3A|"F"F6||
+|:c2|"F"f2c2 c2de|f2c2 c2f2|"Bb"d3c d2f2|"C"g6 e2|
+     "Dm"f2a2 "Bb"d3f|"F"c3f c2A2|"Gm"G3F "C7"G2A2|"F"F6:|
+
+X:99005
+T:Galloway House
+P:Aitken Drum
+C:Traditional
+R:Reel (8x32)
+B:RSCDS Gr-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/4
+K:G
+G/A/|"G"BB BA/G/|"C"E2 G>E|"G"DD "C"EG|"D7"BAA G/A/|
+     "G"BB BA/G/|"C"E2 G>E|"G"DD "D7"EF|"G"G3||
+G/A/|"G"BB BA/G/|"C"c2 ec|"G"Bd "Em"BG|"D7"BAA G/A/|
+     "G"BB "G7"BA/G/|"C"E2 G>E|"G"DD "D7"EF|"G"G3|]
+
+X:99006
+T:The Highland Fair
+P:Muirland Willie
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Gm
+D|"Gm"G2A "Eb"B2c|"Bb"d>ed f3|"F"cAc "Bb"f2d|"Gm"dcB "D7"AG^F|
+  "Gm"G2A "Eb"B2c|"Bb"d>ed b2b|"Ao"a>ga "D7"d<g^f|"Gm"g3 G2||
+d|"Eb"g2a "Bb"b2b|d2e "F"f3|"F7"cAc "Bb"f2d|"Eb"dcB "F"AG"D7"^F|
+  "Gm"G2A "Eb"B2c|"Bb"d>ed b2b|"Ao"a>ga "D7"d<g^f|"Gm"g3 G2|]
+
+X:99007
+T:Lady Catherine Bruce's Reel
+P:The Laird o' Cockpen
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Gm
+D|"Gm"G>AG B2"C7"B|"F"A>FF F2A|"Gm"G>AG g2g|"Dm"f<dd d2e|
+  "Bb"fBd fed|"Cm"c>d"C7"B "F"A2B/c/|"Gm"d>ed "D7"d2c|"Gm"B>GG [G2B,2]||
+d|"Gm"g2g g>a"C7"b|"F"a<ff f2a|"Gm"gBd g>ag|"Dm"f<dd d2d/e/|
+  "Bb"fBd "F"f>e"Gm"d|"Cm"c>d"C7"B "F"A2B/c/|"Gm"d>ed "D7"[d2^F2]c|\
+        "Gm"B<GG [G2B,2]|]
+
+X:99008
+T:The Honeymoon
+P:Oh gin I were where Gadie rins
+C:Traditional
+R:Reel (8x32)
+B:RSCDS Gr-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:C
+|:A|"C"G2GA c2cd|e2e2e2 dc|"C+"e2e2e2 dc|"Dm"d2de "G7"edcA|
+    "C"G2GA c2cd|e2e2e2 dc|"G7"g2G2 [G2F2]AB|"C"[c6G6E6]:|
+|:a2|"C"g2e2e2 "A7"g2|"Dm"f2d2"G7"d2 gf|\
+         "C"e2c2"Em"e2g2|"Am"c'bc'e' "Dm"d'c'"G7"ba|
+     "C"g2e2e2 "A7"g2|"Dm"f2d2"G7"d2 gf|"C"e2c2 [e2c2]"G7"[g2B2]|"C"[c'6e6]:|
+
+X:99009
+T:Mr Watson's Favourite
+P:The Lass o' Gowrie
+C:Traditional
+R:Reel (8x32)
+B:RSCDS Gr-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/8
+K:C
+G/F/|"C"EG GA/B/|c>d cB|"F"A>G Ac|"G"d>e dG/F/|
+     "C"EG GA/B/|c>d "E7"e>d|"F"d/c/B/A/ "C"G/A/c/E/|"G7"D2 "C"C||
+g/f/|"C"eg ce/f/|g/f/e/f/ "A7"gf/e/|"Dm"fa df/g/|a/g/f/g/ ag/f/|
+     "C"eg "G"d>e|"Am"c>A "G"G"F"a|"C"ge gf/e/|"G7"d2 c|]
+
+X:99010
+T:Mrs Cholmondeley's Reel
+P:The Lass o' Patie's Mill
+C:Traditional
+R:Reel (8x32)
+B:RSCDS Gr-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:C
+|:G>F|"C"E2DC E2G2|"Am"c3"G7"xd "C"e2zG|"F"A>BcB "Dm"AGFE|"G"E2D4 G>F|
+      "C"E2DC E2G2|"Am"c3d/e/ "C"G2zc|"F"ABcA "G"Bcde|"C"c6:|
+|:e2|"Dm"fedc "G7"cBAG|"C"c3d e2zG|"F"A>BcG "Dm"AGFE|"G"E2D4 ef|
+     "C"gefd ec"F"Af|"G"e2d4 "C7"E2|"F"F2 G>A "G7"G2 [B2F2D2]|"C"[c6E6]:|
+
+X:99011
+T:The Moray Reel
+P:Here's a health to ane I lo'e dear
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:D
+f/e/|"D"d2A "G"B>AF|"D"A3-A2 f/e/|d2A "G"Bgf|"A"e3-e2fe|
+     "D"d2A "G"B>cd|"A"cBA "Bm"d2 A/G/|"D"F>DF "A7"E>CE|"D"D3 z2||
+F|"D"A>AA BAF|"D"A3-A2 F|A>AA "G"Bg"E7"f|"A"e3-e2 A|
+  "D"A>BA "G"Bcd|"A"c>BA "Bm"d2 A/G/|"D"F>DF "A7"E>CE|"D"D3 z2|]
+
+X:99012
+T:Mrs Stewart Sinton's Reel
+P:Pibroch o' Donuil Dhu
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+"G"d>BB "C"e>fg|"G"d>BB B2G|d>BB "C"e>fg|"G"d>BG "D7"A2G|
+"G"d>BB "C"e>cc|"G"d>BB B2G|"Am"A>AB c>de|"G"d>BG "D"A2"G"G||
+"G"d>BB "C"e>cc|"G"d<BB B2G|d<BB "C"e<cc|"G"dBG "D7"A2G|
+"G"d>BB "C"e<cc|"G"d>BB B>AG|"Am"A<AB c>de|"G"dBG "D7"A2"G"G|]
+
+X:99013
+T:Miss Welsh's Reel
+P:The Campbells are comin'
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-13
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:F
+F|"F"Acd cAF|A2A A2G|Acd cAF|"C"G2G G2F|
+  "F"Acd cAF|"Dm"A>BA "F"f>ga|"Bb"fdf "F"cAF|A2A A2||
+c|"F"f2f f>ga|c>dc cAF|"Dm"f2f f>ga|"Bb"d2d d2c|
+  "F"c>de "Bb"f>ed|"F"c>de fga|"Bb"fdf "F"cAF|A2A A2|]
+
+X:99014
+T:Berwick Johnnie
+P:He's o'er the hills that I lo'e dear
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-14
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+D|"G"DEG G2G|BAG "C"E2G|"G"DEG G<dB|"D7"BAG "G"G2E|
+  "G"DEG G2G|"G7"BAG E2e|"G"d2e dBG|"D7"BAG "G"G2||
+B|"G"d2"C"e "G"dBG|BAG "C"E2e|"G"d2"C"e "G"dBG|"D7"BAG "G"G2B|
+  "G"d2"C"e "G"dBG|"G"BAG "C"E2G|"G"DEG G<dB|"D7"BAG "G"G2|]
+
+X:99015
+T:The Isle
+P:Bonnie Dundee
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-15
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+|:A/B/|"F"c>dc cdc|"Bb"fed "F"c2B|AcC AcC|"C7"G>GG G2A/B/|
+       "F"cdc cdc|"Bb"fed "F"c2 c/B/|A<cC "C7"G<cC|"F"F<FF F2:|
+|:C|"F"F>FF FBA|"C"GCC C2C|GGG GAB|"F"BAA A2F|
+    [AF]>G[AF] "C7"[BE]>A[BE]|"F"[cF]>B[cF] "Bb"[d2F2] c/B/|\
+          "F"AcC "C7"G<cC|"F"F<FF F2:|
+
+X:99016
+T:Duff's House
+P:I lo'e nae laddie but ane
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-16
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+B/A/|"G"G>AG GBd|"C"e3-e2 f/g/|"G"d>BG GAB|"D"A3-A2 B/A/|
+     "G"G>AG GBd|"C"e3-e2 f/g/|"G"dgB "D7"A>GA|"G"G3-G2||
+d|"G"d>ef g>fg|"C"e3-e2 f/g/|"G"dBG GAB|"D"A3-A2 B/A/|
+  "G"G>AG GBd|"C"e3-e2 f/g/|"G"dgB "D7"A>GA|"G"G3-G2|]
+
+X:99017
+T:Miss Betty Boyle
+P:We're a' noddin'
+C:Traditional
+R:Reel (8x32)
+B:RSCDS Gr-17
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:G
+GA|"G"[B4D4] A2G2|"D"A2A2 BAGA|"G"[B4D4] [A2C2][G2B,2]|"D7"BAGF "G"G2 GA|
+   "G"[B4D4] A2G2|"D"A2A2 BAGA|"G"[B4D4] [A2C2][G2B,2]|"D7"BAGF "G"G2||
+dc|"G"B2Bc d2ge|d2d2d2 Bc|d2d2 "C"edcB|"Am"cB"A7"AG "D"F2 dc|
+%%staves (1 2)
+[V:1] "G"B2Bc d2"C"ge|"G"d2d2d2 Bc|"G7"d2d2 "E7"edcB|"Am"cBAG "D7"[A2F2C2]|]
+[V:2]    x8          |   x8       |    B2A2    ^G4  |    E4       x2      |]
+
+X:99018
+T:Wedderburn's Reel
+P:Duncan Gray
+C:Traditional
+R:Reel (8x32)
+B:RSCDS Gr-18
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/4
+K:A
+%%staves (1 2)
+[V:1]"A"EA "E7"[GD]"A"[AE]|"Bm"Bc "E"[G2E2]|"A"[A2E2] "E7"B>d|"A"[cE][AC][AC]z|
+[V:2]   C2     x2         |    F2    x2    |   x2         E2 |   x4           |
+[V:1]"A"EA "E7"[GD]"A"[AE]|"Bm"Bc "E"[G2E2]|"A"[A2E2]"E7"B>d|"A"[cE][AC][AC]z||
+[V:2]   C2     x2         |    F2    x2    |   x2        E2 |   x4           ||
+[V:1]"A"ce ed/c/|"Bm"dd d2|dc "B7"BA|"E"G"B7"[BF] "E7"E2|
+[V:2]   x4      |    x4   |x4       |   x4              |
+[V:1]"A"ef/e/ "E7"d"A"c|"Bm"B/c/d/B/ "E7"G2|"A"[A2E2]"E7"B>d|"A"[cE][AC][AC]z|]
+[V:2]   x4             |    x4             |   x2        E2 |   x4           |]
+
+X:99019
+T:Kitty Campbell's Reel
+P:Old Rosin the Beau
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-19
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:A
+|:E|"A"A>GA c>BA|[e3c3A3] "D"[f3d3A3]|"A"e>cA A>Bc|"D"F3-F2 E|
+    "A"A>GA c>BA|[e3c3A3] "D"[f3d3A3]|"A"e>cA "E7"BAG|"A"A3-A2:|
+|:c/d/|"A"e2e "E"efg|"D"a2f a2f|"A"e>cA A>Bc|"D"F3-F2 E|
+       "A"A>GA c>BA|[e3c3A3] "D"[f3d3A3]|"A"e>cA "E7"BAG|"A"A3-A2:|
+
+X:99020
+T:Tarry a While
+P:Tarry a While
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-20
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Bb
+F|"Bb"B>cB F2D|F2F F2d|"Cm"e>fe "Bb"dcB|"C7"d3 "F7"c2F|
+  "Bb"B>cB F2D|F2F Fde|"Bb"fdB "F7"c2d|"Bb"B3 B2||
+e|"Bb"d2f fed|"Cm"e2g cde|"Bb"d>cB "C7"BAB|"F"d>cA F2e|
+  "Bb"d2f fed|"Cm"efg "F7"cde|"Bb"dcB "C7"BAB|"Bb"[d3B3F3] "F"[c3A3F3]|]
+
+X:99021
+T:Regent's Favourite
+P:Willie Brewed a Peck o' Maut
+C:Traditional
+R:Reel (8x32)
+B:RSCDS Gr-21
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:Eb
+GA|"Eb"B2e2 "Ab"cBAG|"Fm"c2f2 "Bb"edcB|"Eb"e3c B2G2|"Ab"c2"F7"F2 "Bb"F2GA|
+   "Eb"B2e2 "Ab"cBAG|"Fm"c2f2 "Bb"edcB|"Eb"e3c "Bb"B2G2|"Eb"B2"Ab"E2"Eb"E2||
+ef|"Eb"g3e "Bb"f3d|"Eb"edcB e3G|"Fm"A3c "Eb"B2G2|"Ab"c2"F7"F2 "Bb"F2 ef|
+   "Eb"g3e "Bb"f3d|"Eb"edcB "Eb7"e3G|"Ab"A3c "Bb7"B3A|"Eb"G2"Ab"E2"Eb"E2|]
+
+X:99022
+T:Kendall's Hornpipe
+P:Ower the Water
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-22
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:D
+"D"D2A AFA|"G"B/c/dF "D"E2D|DFA AFA|"G"BAB "D"def|
+"D"DFA AFA|"G"Bcd "D"AFD|"Bm"dfd "A"ecA|"G"[B3G3] "D"[d3F3]||
+"D"dfd "A"ecA|"D"d2F "A"E2 "D"D|"D"dfd "A"ecA|"G"B3 "D"d2A|
+%%staves (1 2)
+[V:1] "D"dfd "A"ecA|"D"d2F "A"E2 "D"D|"D"D2A "F#m"AFA|"G"[B3G3D3] "D"[d3A3F3]|]
+[V:2]    x6        |   x6            |   x3       C3 |   x6                  |]
+
+X:99023
+T:Argyll's Fancy
+P:Argyll is my Name
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-23
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Bb
+F|"Bb"F>BB BAB|"Cm"dcc "F7"c2e|"Bb"d>cB "F"A<fF|"F7"FG[AE] "Bb"[B2D2] F|
+  "Bb"F>BB BAB|"Cm"dcc "F7"c2e|"Bb"d>cB d<fF|"F7"FG[AE] "Bb"[B2D2]||
+f|"Bb"fdB Bdf|fed "Cm"e2g|"Bb"fdB Bdf|"Cm"fe"C7"d "F"c2 d|
+  "Cm"e>fe "F"e>fe|"F"F>GF "F7"e2f/e/|"Bb"d>cB d<fF|"F7"FG[AE] "Bb"[B2D2]|]
+
+X:99024
+T:Miss Flora's Favourite
+P:Miss Flora's Favourite
+C:Traditional
+R:Reel (8x32)
+B:RSCDS Gr-24
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:C
+f|"C"e<ccc c2ec|"F"fe"D7"dc "G"Bagf|"C"e<ccc "F"c2"D7"ac|"G7"BGAB "C"c3 f|
+  "C"e<ccc c2ec|"F"fe"D7"dc "G"Bagf|"C"e<ccc "F"c2"D7"ac|"G7"BGAB "C"c3||
+F|"C"EFGE "F"FGAc|"G"BcdB "C"cdef|"C"efge "F"af"D7"dc|"G7"BGAB "C"c2zF|
+  "C"EFGE "F"FcAc|"G7"BcdB "C"cgeg|"Am"aA"A7"ag "Dm"fedc|"G7"BGAB "C"c3|]

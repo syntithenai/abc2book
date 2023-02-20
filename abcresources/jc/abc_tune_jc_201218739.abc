@@ -1,0 +1,29 @@
+X: 14
+T: True Joak
+T: Longways for as many as will.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.7
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Added dots to last note in both strains to fixed the rhythm.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+d2e fga | c2d efg | dcB AGF | GEA FDA |\
+d2e fga | c2d edc | dcB EA^G | A3- A3 |]
+[|\
+F2G AFd | AFB AFD | G2A AFA | ecd cBA |\
+def fed | efg gab | agf eAc | d3- d3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Wo. leads the two 1st Men round the
+%% 2nd Wo. into their own Places and turn single. .|
+%% The 1st Man leads the 2d Wo. round 2d Man into
+%% their own Places & turn single :| The 1st Man turns
+%% The 2d Wo. and all four Hands round .| Back to
+%% Back and right Hand and Left :|:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

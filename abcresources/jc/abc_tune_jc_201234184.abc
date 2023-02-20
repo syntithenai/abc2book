@@ -1,0 +1,26 @@
+X: 20322
+T: the Highlanders March
+%R: march, jig+reel
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.32 #1
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The (d2d2) in bar 1 has a squiggle above rather than a tie/slur.
+M: 6/8
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+|:"_Slow"\
+D>EF G>AB | AdF {F}E2F | G>FE (FA)G | FDD D3 ::\
+B>cd B>cd | B>cd F2E |
+A>BA A2{Bc}d | {B}A>G E2F |\
+D>EF GAB | (A<d)F {F}E2D | G>FE (F/G/A)G | FDD D3 :|
+|: [M:C|] "_Brisk"\
+F2(FD) G2(GE) | F2(FD) E4 | (F/D/E/F/G/A/B/c/) d3B | (AF)(GE) D4 ::\
+d2dA d2dA | defF TE4 |
+(F/D/E/F/G/A/B/c/) d3B | (AF)(GE) D4 ::\
+(f/g/)a df gbeg | (f/g/)a df Te3f | gfed TB3d | AFGE D4 :|
+|:\
+d2fa d2fa | gbaf Te3g | (f/d/e/f/ g/a/b/c'/) d'3b | (af)(ge) d4 ::\
+FDA2 FDB2 | AFdF E3e |
+fage fcdB | AFGE D4 ::\
+fd (e/f/)g fdbd | afd'f Te3f | (g/f/e) (f/e/d) B2b2 | afge d4 :| 

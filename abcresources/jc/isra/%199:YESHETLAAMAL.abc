@@ -1,0 +1,16 @@
+X:199
+T: Yesh et la'amal
+O: Israel
+C: Yedidia Admon 1951
+N: record: Blue-Star 84 FOR EDUCATIONAL USE YE-10008
+M: 2/4
+L: 1/8
+K: Cm
+Q:1/4=132
+%%MIDI program 74 recorder
+%%MIDI bassprog 24 Acoustic Guitar
+%%MIDI chordprog 24 Accoustic Guitar
+"Cm"C2 CE|"Eb"GGG2|"Cm"c2cc|"Eb"BGFE|\
+EFGE|"Ddim"FFF2|"Eb"EFGB|"Cm"c2c2::
+e3B|"Ddim"eddc|"Cm"c2c2|z4|\
+"Eb"GBed|"Cm"ccc2|"Eb"GBed|"Cm"c2c2:|

@@ -1,0 +1,35 @@
+
+X: 1
+T: Sasha  [Dm]
+O: Russia
+B: "Ska' Vi Danse", Claus J\orgensen (Edition Wilhelm Hansen, Copenhagen)
+M: 2/4
+L: 1/8
+K: Dm
+"A"| "Dm"AA z2 | AA z2 | "A7"A2 A2 | A2 z2 \
+"B"|: "Dm"AA AF | AA AF | "A7"EE A>G | "Dm"FD D2 :|
+w: Sa-sha, Sa-sha, ras dva tri...
+w: Sa-sha, Sa-sha, one two three...
+"C"|: "Gm"B2 B2 | "Dm"A2 A2 | "A7"AG FE | "Dm"D2 D2 :|[K:D]\
+"D"|: "D"F2 A2 | d3 c | dc BA |
+   | "Em"G3 F | "A7"E2 G2 | c3 B \
+   |1 cB AG | "D"F3 E :|2 "A7"cA Bc | "D"d2 d2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2
+T: Sasha  (Em)
+O: Russia
+B: "Ska' Vi Danse", Claus J\orgensen (Edition Wilhelm Hansen, Copenhagen)
+M: 2/4
+L: 1/8
+K: Em
+"A"| "Em"BB z2 | BB z2 | "B7"B2 B2 | B2 z2 \
+"B"|: "Em"BB BG | BB BG | "B7"FF B>A | "Em"GE E2 :|
+w: Sa-sha, Sa-sha, ras dva tri...
+w: Sa-sha, Sa-sha, one two three...
+"C"|: "Am"c2 c2 | "Em"B2 B2 | "B7"BA GF | "Em"E2 E2 :|[K:D]\
+"D"|: "E"G2 B2 | e3 d | ed cB |
+   | "F#m"A3 G | "B7"F2 A2 | d3 c \
+   |1 dc BA | "E"G3 F :|2 "B7"dB cd | "E"e2 e2 |]

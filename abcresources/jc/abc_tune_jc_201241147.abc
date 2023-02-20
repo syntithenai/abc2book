@@ -1,0 +1,24 @@
+X: 4263
+T: Master Erskine's    Hornpipe
+C: by Niel Gow
+%R: hornpipe, reel
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.26 #3 (and top 4 staves of p.27)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 8-bar lines, for compactness and proofreading.
+V: 1 staves=2
+c |\
+.G(cB).c .G(cB).c | (ec)(gc) (ac)(gc) | .G(cB).c .G(cB).c | [e2c2][d2B2] [d4B4] ||\
+.G(cB).c .G(cB).c | (ec)(gc) (ac)(gc) | GcBd cagf | e2c2 c3 :|
+|: e |\
+(ga).g.f (ef).e.d | (cd).c.B AGFE | (EG).c.G (EF).G.E | F2D2 D3f ||\
+(ga).g.f (ef)ed | (cd).c.B AGFE | (EG)cG Fagf | e2c2 c3 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | c2z2 c2z2 | c2e2 f2e2 | c2z2 c2z2 | g2g2 g4 || c2z2 c2z2 | c2e2
+f2e2 | c'2g2 f2g2 | c'2c2 c3 :||: z | e'2d'2 c'2b2 | a2g2 f4 | c2c2 c'2c2 | g2G2 G4 ||
+e2f2 g2^g2 | a2b2 c'2z2 | c2e2 f2g2 | c'2g2 c3 :|

@@ -1,0 +1,36 @@
+X: 1
+T: the Five Stringed Fiddle
+C: Nigel Gatherer
+R: waltz
+N: In honour of Dick Rutter, violin maker, Edinburgh
+N: Chords and harmony by John Chambers <jc:trillian.mit.edu>
+S: Nigel Gatherer <gatherer:argonet.co.uk> scots-l 2000-09-20
+M: 3/4
+L: 1/8
+K: D
+V: 1 staves=2
+A,2 \
+| D4 FG | A4 D2 | B2 c2 d2 | F A3 D2 \
+| G3 ABG | F4 D2 | B, E3 D2 | C A3 A,2 ||
+y4 \
+| {C}D3 EFG | A4 D2 | B2 c2 d2 | F A3 D2 \
+| G3 ABG | F3 EDF | E3 DCE | D4 |]
+AB/c/ \
+| d2 f3 d | c2 e3 c | B3 cdB | A F3 D2 \
+| G3 ABG | F4 D2 | B,2 E3 D | C2 A3 G ||
+y4 \
+| F2 d3 F | G2 e3 G | A3 ceg | f3 dAF \
+| G3 Beg | f3 edc | e2 d3 c | d4 |]
+V: 2
+E2 \
+| "D"D4 DE | F4 F2 | "G"G2 A2 B2 | "D"A F3 F2 \
+| "Em"E3 FGE | "D"D4 A2 | "E7"^G4 F2 | "A7"E4 C2 ||
+y4 \
+| "D"D3 CDE | F4 F2 | "G"G2 A2 B2 | "D"AG FE F2 \
+| "Em"E3 FGE | "D"D2 A2 F2 | "A7"G2 A2 G2 | "D"F4 |]
+F2 \
+| "D"A2 d3 A | "A7"E2 c3 A | "G"G3 ABG | "D"F D3 F2 \
+| "Em"E3 FGB | "D"A4 A2 | "E7"^G2 G3 F | "A7"E2 c3 B ||
+y4 \
+| "D"A2 F2 A2 | "Em"E2 G2 B2 | "A7"E3 ABc | "D"d3 AFD \
+| "Em"E3 G B2 | "D"A4 A2 | "A7"Bc BA AG | "D"F4 |]

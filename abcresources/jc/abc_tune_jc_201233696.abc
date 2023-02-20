@@ -1,0 +1,22 @@
+X: 20081
+T: GILDEROY
+Q: "Slow"
+%R: reel
+B: "Edinburgh Repository of Music" v.2 p.8 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+%%slurgraces
+%%graceslurs
+E2 |\
+A>^GAB {d}c>Bcd | {f}e2dc {e}d2cd |\
+{cd}e2G2 (c<A)(G<E) | {A}G4 z2c>B |\
+{B}A>^GAB {d}c>Bcd |
+{f}e>def e2a>g |\
+{g}fedc c2TB>A | A6 :||: e>f |\
+{a}g>fga {a}g2fe | (fe)(dc) {e}d2c>d |
+{cd}e2G2 (c/B/A) (G/F/E) | G4 z2c>B |\
+{B}A>^GAB {d}c>Bcd | {f}e>def {f}He2 a>g |\
+{g}fe{e}dc c2TB>A | A6 :|

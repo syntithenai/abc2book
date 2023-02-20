@@ -1,0 +1,26 @@
+X: 10492
+T: JAMES BOICK'S REEL
+O: Now printed for the first time.
+R: Reel.
+%R: reel
+N: This is version 1, for ABC software that doesn't understand trailing grace notes.
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.49 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+DFAF GETE2 |{DE} FDAF dAFA |\
+BGAF GETEG | FABc Td2dc |\
+(d/c/B/A/) (G/F/E/D/) GEEG |
+FdAB {B}AGFA |\
+BGAF GEEG | FABc d2d |]\
+f |\
+(d/e/f/g/) af {a}gfef | (d/e/f/g/) af dafa |
+gbfa {f}edef | (d/e/f/g/) af {c}d2dA |\
+dAFA GEEG | DdEd FdAd |\
+fdec dBcA | BABc d2d |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

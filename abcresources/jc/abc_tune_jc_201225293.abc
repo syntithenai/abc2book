@@ -1,0 +1,19 @@
+X: 092	% unnumbered
+T: Lamplighter's Hornpipe
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.9 #2
+R: hornpipe, reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Shortened the initial pickup notes to fix the rhythm of repeats.
+N: The 2nd strain has no initial repeat, but 2 final repeat; fixed to get the usual 32 bars.
+N: The endings can be moved to the (g/a/) pickup notes to the start of the 2nd strain, eliminating alternate endings.
+M: 2/8
+L: 1/16
+K: A
+V: 1 name=" "
+"Lively"(cd) |\
+ecec eagf | ecec eagf | ecec fedc | d2B2 B2(cd) |\
+ecec eagf |
+ecec eagf | efde cdBc | A2A2A2 :: (cd) |\
+edcd e2(fe) | dcBc d2(ed) |
+cAcA dcBA | B2B2B2(cd) |\
+edcd e2(fe) | dcBc d2cd | eagf edcB | A2A2A2 :|

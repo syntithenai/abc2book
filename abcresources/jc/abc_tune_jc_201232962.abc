@@ -1,0 +1,831 @@
+
+X: 0
+T: Twenty Four Country Dances for the Year 1813
+C: Figures by Mr WILSON.
+P: Button and Whitaker (pub.)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+B: Button & Whitaker "Twenty Four Country Dances with Figures for the Year 1813", London 1813
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+K:
+%%sep 5 5 500
+%%center Button and Whitaker's
+%%center Twenty Four Country Dances,
+%%center the Figures by Mr Wilson.
+%%center For the Year 1813, Adapted for the
+%%center Violin, German Flute or Oboe.
+%%center -----------------------------------
+%%center London
+%%center Printed by the Editors at their Wholesale Music & Musical Instrument Warehouse 75, St Paul's Church Yard.
+%%center -----------------------------------
+%%begintext align
+%% Transcription notes:
+%% The tunes are are unnumbered; their count (01-24)
+%% is used in the file name to preserve the publication order.
+%% Some abbreviations use small superscript letters with a dot underneath.
+%% The dots are mostly ignored, and the letters typed as-is.
+%% Some abbreviations end with ":", which is transcribed.
+%% Original staff breaks are ignored; the ABC is formatted to have 2 or 4 bars per line,
+%% which are joined into staffs to look good at a small scale.
+%% The only common end-of-phrase mark used in the dance descriptions is the one transcribed
+%% as "|:" (a horizontal line with two dots under, rotated left to make it typeable).
+%% It and sometimes others are used irregularly, and can't be relied on to match the music.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 01
+T: The Toy
+%R: jig
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.1 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+e |\
+aec cBc | edB B2c | A>BA cec | cBz z2e |\
+aec cBc | edB B2c | AGA Bed | cAz z2 :|
+c |\
+B>cB B<ed | c>dc c<ec | B>cB B<dc | cez z2e |\
+afe ^dcB | efg fga | gee B^dd | ^dez z2e |
+a>ec c2c | e>dB B2c | A>BA cec | cBz z2e |\
+c'ba gfg | agf edc | Bdf AGB | BAz z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text   SINGLE FIGURE (1st strain repeated 2d play'd straight thro')
+%%begintext align
+%% The three Ladies lead round the three Gent: |: the three
+%% Gent: lead round the three Ladies |: whole poussette & swing corners .|
+%%endtext
+%%center OR THUS
+%%begintext align
+%% Hey contrary sides .| hey on your own sides |: swing round two Cu:
+%% cross over one Couple and half figure round the top Couple .| .
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 02
+T: The Raffle
+%R: reel
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.1 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2 |\
+BdAd BdAd | BdAd feeA |\
+BdAd BdAf | edef d2 :|
+|: f2 |\
+gbag gfdf | efed dcAd |\
+BdAd BdAf | edef d2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Each strain repeated)
+%%begintext align
+%% Hands across and back again |: lead down the
+%% middle up again and allemande |: .
+%%endtext
+%%text DOUBLE FIGURE (Tune play'd twice thro' with repeats)
+%%begintext align
+%% Set & change sides set & back again |: cross over 2 Cu: & set at
+%% bottom |: lead up the mid: cast round the top Cu: & turn |: &
+%% hands six round and back again |: .
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 03
+T: Lady Frances Pratt's Fancy
+%R: jig
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.2 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+ABA c3 | FGF A3 | DED G2A | BDG EDC |
+ABA c3 | =BcB f3 | edc =Bcd |1cdc _BAG :|2 cd=B cde ||
+|:\
+fgf e2A | ded c2F | f2a gec | f2a gec |
+fgf efe | ded c3 | def efg | f3 F3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text DOUBLE FIGURE (Each strain repeated)
+%%begintext align
+%% Swing with right hands round the 2d Cu: .| the 2d Cu: do the same |:
+%% lead down the middle up again allemande .| and turn corners |: .
+%%endtext
+%%center OR THUS
+%%begintext align
+%% Chain figure 6 round .| lead down the mid: up again lead thro' the top Cu:
+%% & turn |: set & half right & left with the bottom Cu: .| & lead outsides |: .
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 04
+T: Lady Egremont's Waltz
+%R: waltz
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.2 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 3/8
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+d2 |\
+Bc d2g2 | Bc d2g2 | fgabc'a | b2g2 d2 |\
+Bc d2g2 | Bc d2g2 | fgabc'a | g4 :|
+|: d2 |\
+c'b a2c'2 | ba g2b2 | agfgab | g2d2 d2 |\
+c'b a2c'2 | ba g2b2 | agfgab | g4 :|
+|: Bc |\
+d2B2g2 | e2c2A2 | F2d2c2 | c2B2 Bc |\
+d2B2g2 | e2c2A2 | F2dcBA | G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Each strain repeated)
+%%begintext align
+%% Hands 3 round on the Ladies side hands 3 round on the Gents: side |:
+%% cross over one Cu: half figure round the bottom Cu: |: the Lady
+%% whole figures round the bottom Cu: & the Gent: round the top |: .
+%%endtext
+%%center OR THUS
+%%begintext align
+%% Swing with right hands round the 2d Cu: then with the left |: hands six
+%% round & back |: & set & half right & left with the 3d Cu: |: .
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 5
+T: Lady Olivia Sparrow's Hornpipe
+%R: hornpipe, reel
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.3 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+d>cd>e d>AF>A | B2g>e d>cB>A | B>cd2 c>de>f | d>ef>g f2e2 |
+d>cd>e d>AF>A | B2g>e d>cB>A | B>ef>g f>ed>c | d>cd>e d4 |]
+[|\
+a>fd2 b>c'd'>b | a>f d>f e>c A>c | d>fe>d c>B A>c | d>fe>d c>BA2 |
+a>fd2 b>c'd'>b | a>fd>f e>cA>d | B>b^a>b =a>gf>e | d>cd>e d4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Tune play'd straight thro')
+%%begintext align
+%% Set & hands across quite round set & back again .| lead
+%% down the mid: up again & right & left with the top Cu: .| .
+%%endtext
+%%text DOUBLE FIGURE (Each strain repeated)
+%%begintext align
+%% Hey contrary sides .| hey on your own sides |: set & change places (with
+%% the 2d Cu:) allemande .| hands 4 round at bottom & half poussette at top |: .
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 6
+T: Here and There
+%R: march, reel
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.3 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+fd e2 fd e2 | fd cd e/d/c/B/ A2 |\
+fd e2 fd e2 | fd Be Ac d2 :|
+|:\
+ad' b2 ad g2 | fd cd e/d/e/f/ e2 |\
+ad' b2 ad g2 | fB ge dc d2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Each strain repeated)
+%%begintext align
+%% The 1st Lady turns the 2d Gent: 1st Gent: turns the 2d Lady |:
+%% lead down the mid: up again & right & left |: .
+%%endtext
+%%text DOUBLE FIGURE (Tune play'd twice thro' with repeats)
+%%begintext align
+%% Cast off 2 Cu: & back again |: swing with right hands round the 2d Cu:
+%% then with left |: set contrary corners |: & the double triangle |: .
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 07
+T: My Mother's coming in
+%R: reel
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.4 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+N: Rest added to 2nd strain to fix the rhythm.
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+edcB c3d | edcB c3e | ecfc gedc  | Bcde dBAG |
+edcB c3d | edcB c3d | ecfc gc'af | edcB c2  :|
+|: z2 |\
+g2^g2 a3f | d2g2 e3c | AcGc AcGg | gffe e2d2 |
+g2^g2 a3f | d2g2 e3c | AcGc AcGe | dcde c2  :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text DOUBLE FIGURE (Each strain repeated)
+%%begintext align
+%% The 3 Ladies lead round the 3 Gent: .| the 3 Gent: lead round the 3
+%% Ladies |: lead down the mid: up again allemande .| & lead round bottom & top |: .
+%%endtext
+%%center OR THUS
+%%begintext align
+%% Whole figure on your own sides .| cross over one Cu: & half figure
+%% round the bottom Cu: |: lead outsides .| & the double triangle |: .
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 08
+T: Tar and Feathers
+%R: reel
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.4 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+Bcd2 Bcd2 | cdec BAGF | GAB2 ABc2 | Bcde d2c2 |
+Bcd2 Bcd2 | cdec BAGF | GBAc Bdce | dcBA B4  :|
+|:\
+dfb2 egb2 | fdBd cAF2 | GBg2 FBf2 | efde d2c2 |
+dfb2 egb2 | fdBd cAFF | GBg2 fdBd | cBcd B4  :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Each strain repeated)
+%%begintext align
+%% The 1st Lady sets to the 2d Gent: & turns the 3d the 1st Gent: sets to
+%% the 2d Lady & turns the 3d |: lead your partner down the mid: up again &
+%% lead outsides |: .
+%%endtext
+%%center OR THUS
+%%begintext align
+%% Hands 3 round on the Ladies side & the 2d Lady passes under to her place hands 3
+%% on the Gents side & the 2d Gent: passes under to his place |: down the mid: & set to the top Cu: |:
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 9
+T: Hunting the Slipper
+%R: reel, march
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.5 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+dd/e/ fd | ee a2 | fdfd | e2 A2 |\
+dd/e/ fd | ee a2 | fdec | d2 z :|
+|: f |\
+ec cf | ec af | ec Be | dc ze |\
+a^gfe | f^gaf | ec Be ec z :|
+|: A |\
+BAFA | dcBA | Bcde | cA zA |\
+BAFA | dcBA | Bdce | d2 z :|
+|: f |\
+gbeg | fadf | Bcde | cA zA |\
+BAFA | dcBA | Bgec | d2 z :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Each strain repeated)
+%%begintext align
+%% Set & change sides & back again |: lead down the mid: up again allemande |:
+%% set contrary corners |: and hands six round and back again |: .
+%%endtext
+%%text DOUBLE FIGURE (Tune play'd twice thro' with repeats)
+%%begintext align
+%% Hey on your own sides |: promenade 3 Cu: |: whole poussette |: whole figure at bottom |:
+%% & swing corners |: set & change places & back with the 3d Cu: |: set 3 across & set 3 in your places |:
+%% lead outsides turn |: and whole figure round the top couple |: .
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 10
+T: Bits and Scraps
+%R: reel
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.5 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+dAFA dfaf | efed dcBA |\
+dAFA dfaf | edef d4 :|
+|:\
+afdd' bgdd'| afdf ecAa |\
+afdd' bgeg | fdec d4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Each strain repeated)
+%%begintext align
+%% Cast off 2 Cu: & back again |: cross over one Cu:
+%% & half figure round the bottom Cu: |: .
+%%endtext
+%%text DOUBLE FIGURE (Tune play'd twice thro' with repeats)
+%%begintext align
+%% The 1st Lady turns the 3d Gent: the 1st Gent: turns 3d Lady |:
+%% swing with right hands top & bottom |: set 3 across & set 3 in your
+%% places |: & the double triangle |: .
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 11
+T: Middling thank you.
+%R: jig
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.6 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+dcB d2B | d2B gfe | dcB d2B | c2A FED |\
+dcB d2B | d2B gfe | dcB c2A | FEF G3 |]
+[|\
+gag f2f | efe dBG | gag f2g | afd g3 |\
+gag f2f | efg dBG | ABA e2e | dcA G3 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Tune play'd straight thro')
+%%begintext align
+%% Chain figure 6 round .| lead down the mid: up again cast round the top Cu: & turn .| .
+%%endtext
+%%text DOUBLE FIGURE (Each strain repeated)
+%%begintext align
+%% Set & half right & left set & back again .| whole poussette |:
+%% lead round bottom and top .| and turn corners |: .
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 12
+T: The Funny
+%R: jig
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.6 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+a2g fed | e2d cBA | Bcd efg | efd cBA |\
+a2g fed | e2d cBA | A2a B2b | fge d2 |]
+d |\
+d2b add'| g2a gfd | d2b add'| gaf e2d |\
+d2b add'| g2a gfd | B2b A2a | fge d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Tune play'd straight thro')
+%%begintext align
+%% Chain figure 6 round .| lead down the mid: up again & right & left at top .| .
+%%endtext
+%%text DOUBLE FIGURE (Each strain repeated)
+%%begintext align
+%% The 3 Ladies lead round the 3 Gent: .| the 3 Gent: lead round the 3 Ladies |:
+%% cross over 1 Cu: half figure at bottom .| & the double triangle |: .
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 13
+T: The Salamanca Castanets
+%R: waltz, minuet
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.7 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 3/4
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+dc |\
+BdGdBd | cdA2dc | BdGBAG | A^F Dd cA |\
+BdGd=Bd | cde2dc | BdBGA^F | G2g2 |]
+fd |\
+Bcdefg | fdB2dB | ABcdec | AGF2GA |\
+Bcdefg | fdB2dc | BABGA^F | G2g2 |]
+d2 |\
+c'c'/b/ ab c'a | bag2b2 | aa/g/ ^fg af | gbd'2d2 |\
+c'c'/b/ ab c'a | bagbag | ac'bag^f | g2G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Tune play'd straight thro')
+%%begintext align
+%% Swing with right hands round the 2d Cu: then with left .| the Lady whole figures
+%% round the top Cu: & the Gent: round the bottom .| & set contrary corners .| .
+%%endtext
+%%text DOUBLE FIGURE (Each strain repeated)
+%%begintext align
+%% The 3 Ladies lead round the 3 Gent: .| the 3 Gent: lead round the 3 Ladies |: whole
+%% poussette .| set contrary corners |: hands 6 round & back again .| & the double triangle |: .
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 14
+T: Mad Cap
+%R: slip-jig
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.7 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 9/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+ded a2f def | efe B2e cBA |\
+ded a2f def | efg ABc d3 :|
+|:\
+aba d'c'b afd | aba d'c'b a3 |\
+aba d'c'b afd | efg ABc d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Each strain repeated)
+%%begintext align
+%% Set and change sides set and back again |: lead down the
+%% middle up again and right and left at top |: .
+%%endtext
+%%text DOUBLE FIGURE (Tune play'd twice thro' with repeats)
+%%begintext align
+%% The 3 Ladies & 3 Gent: set & lead thro' set & back again |: lead
+%% down the middle up again set to the top Cu: |: swing cor.s |:
+%% and set 3 across and set 3 in your places |:
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 15
+T: Old England's Heroes
+%R: hornpipe, reel
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.8 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+B>c |\
+d>^cd>B g>fg>e | d>BG>B A>FD>^D | E>FG>A B>cd>e | d>BG>B A2B>c |
+d>^cd>B g>fg>e | d>BG>B A>FD>^D | E>FG>A B>cd>e | d>B A>B G2 |]
+G2 |\
+F>GA>B c>BA>B | c>ed>c B>cd>B | g>fe>d e>dc>B | c>BA>G F>AD>D |
+d>^cd>B g>fg>e | d>BG>B A>FD>d | c>ed>c B>dG>B | A>GA>B G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Tune play'd straight thro')
+%%begintext align
+%% Set & hands across set and back again .| lead down
+%% the middle up again and set to the top couple .| .
+%%endtext
+%%text DOUBLE FIGURE (Each strain repeated)
+%%begintext align
+%% Hey contrary sides .| hey on your own sides |: lead down the mid: up
+%% again allemande .| & set 3 across & set 3 in your places |: .
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 16
+T: The Bubble
+%R: hornpipe, reel
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.8 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+N: The right edge is fuzzy; repeats added to match the "Each strain repeated" instruction.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+f>FA>c f>FA>c | f>ag>f e>fg^f |\
+g>GB>d g>GB>d | g>ba>g a>gf2 :|
+|:\
+a>ga>f g>fg>e | f>ag>f e>dc>B |\
+d>ef>d | c>ef>c | B>dc>B A>GF2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Each strain repeated)
+%%begintext align
+%% Swing with right hands round 2 Cu: |: cross over one
+%% Cu: half figure round the top Cu: & turn |: .
+%%endtext
+%%text DOUBLE FIGURE (Tune play'd twice thro' with repeats)
+%%begintext align
+%% 1st Gent: turns the 3d Lady 1st Lady turns the 3d Gent: |:
+%% chace round one Cu: & back again |: set & change places
+%% with the 2d Cu: & whole figure contrary corners |: .
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 17
+T: Marmont's Retreat
+%R: reel
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.9 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+N: The left edge is very fuzzy, and the dance's words there are guesses.
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+e2 |\
+ceAe ceAe | ceAe Geed |\
+ceAe ceAe | BABc A2 :|
+|: a2 |\
+faea daca | faea gbbg |\
+faea daca | gabg a2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Each strain repeated)
+%%begintext align
+%% Set & change sides set & back again |: lead down
+%% the mid: up again and right and left |: .
+%%endtext
+%%text DOUBLE FIGURE (Tune play'd twice thro' with repeats)
+%%begintext align
+%% Hands across quite round & back again |: lead down the mid: up
+%% again [half?] poussette |: the double triangle |: & turn corners |: .
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 18
+T: The Dowdy
+%R: jig
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.9 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+N: The rhythms aren't quite right at the strain boundaries.
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+B/c/ |\
+ded fdB | GAB F2F | Bcd cAF | Bcd c2c |\
+dcd fdB | GAB F2f | fdB gec | BcA B2 :|
+|: F/E/ |\
+DFB EGB | DFB dcB | fdb geb | fdB c2F/E/ |\
+DFB EGB | DFB dcB | fdb gec | BcA B2 :|
+|:\
+b2a gdB | b2a gdB | G2A B2c | d2e dBG |\
+b2a gdB | b2a gdB | G2A B2c | D=E^F G3 :|
+|:\
+=e2e ede | f2g a2z | ^f2f f=ef | g2a b2z |\
+g2b f2b | _e2b fdB | G2g fdB | G2A B3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text DOUBLE FIGURE (Each strain repeated)
+%%begintext align
+%% The 3 Ladies lead round the 3 Gent: .| the 3 Gent: lead round the 3
+%% Ladies |: whole poussette .| swing corners |: the double triangle .| whole
+%% figures at bottom |: set 3 across & set 3 in your places .| & turn corners |: .
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 19
+T: In and Out
+%R: reel
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.10 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+BABc dBGB | EGDG EGDG | EGDG CGB,d | dccB B2A2 |
+BABc dBGB | EGDG EGDG | EGDG CGB,d | dcBA G4 |]
+[|\
+gfga fdBf | ecAe dBGd | cADc BGDB | ABAG {G}F2ED |
+gfga fdBf | ecAe dBGd | cADc BGDG | EGFA G4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Tune play'd straight thro')
+%%begintext align
+%% Whole figure at top .| lead down the mid: up again & half poussette .| .
+%%endtext
+%%text DOUBLE FIGURE (Each strain repeated)
+%%begintext align
+%% Cast off 2 Cu: & back again .| chain figure 6 round |: lead
+%% down the mid: up again allemande .| & whole figure contrary cor.s |: .
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 20
+T: Clarissa
+%R: reel
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.10 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+AG |\
+Fd~d2 Af~f2 | egBe dcBA |\
+Fd~d2 Af~f2 | edef d2 :|\
+|:\
+AGF2 AGF2 | {e}d2cB B2A2 |
+gA~A2 fA~A2 | cdef ecA2 |\
+A2GF A2GF | {e}d2cB B2A2 |\
+ge~e2 {g}f2ed | Bgec d4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Each strain repeated)
+%%begintext align
+%% 1st Lady turns the 2d Gent: 1st Gent: turns the 2d Lady |: cross
+%% over one Cu: and half figure round the bottom Cu: and turn |: .
+%%endtext
+%%text DOUBLE FIGURE (Tune play'd twice thro' with repeats)
+%%begintext align
+%% Set and change places (with the 2d Cu:) and back again |: whole poussette |:
+%% the double triangle |: and hands 6 round and back again |: .
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 21
+T: Marchioness of Headfort's Waltz
+%R: waltz
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.21 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+N: The left edge is blurred, making some words illegible.
+M: 3/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+cee | cee | fAd | B/c/A/B/G |\
+cee | cee | fAB | c2 :|\
+|: d |\
+d/c/Bd | d/c/Bg | g^fe | edd |
+cDD | BDD | Ac^F | G2 :|\
+|: G |\
+=FFd | EEc | Afd | cBG |\
+c/d/e/f/g | c/d/e/f/g | dfB | c2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Each strain repeated)
+%%begintext align
+%% Hands across & back again :| lead down the mid: up
+%% again lead thro' the top Cu: |: & turn corners |: .
+%%endtext
+%%text DOUBLE FIGURE (Tune play'd twice thro' with repeats)
+%%begintext align
+%% ??? figure 6 round :| promenade 3 Cu: |: whole figure on your own sides |:
+%% ??? Ladies & 3 Gent: set & lead thro' & back again |: whole poussette |: & lead out.s |: .
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 22
+T: The Sequel
+%R: jig
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.11 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+F/E/ |\
+DFB d2d | DFB d2d | ede dcB | ABc c2 F/E/ |\
+DFB d2B/A/ | GBe g2g | fed cBc | dBB B2 |]
+f |\
+b2f def | g2f f2f | ede dcB | cAF F2 F/E/ |\
+DFB d2B/A/ | GBe g2g | fed cBc | dBB B2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Tune play'd straight thro')
+%%begintext align
+%% Set and change sides and back again .| lead down the
+%% middle up again and right and left at top .| .
+%%endtext
+%%text DOUBLE FIGURE (Each strain repeated)
+%%begintext align
+%% Hey contrary sides .| hey on your own sides |: cross over 2 Cu: to the
+%% bottom .| cross up one Cu: & half figure round the top Cu: |: .
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23
+T: The Basket Hornpipe Down
+%R: hornpipe, reel
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.12 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+{Bc}d2 |\
+c>BA>G F>GA>B | G>AB>c d2e>f | g>fe>d e>dc>B | A>GA>B A>d^c>d |
+=c>BA>G F>GA>B | G>AB>c d2g>f | e>dc>B c>AG>F | G>FG>A G2 |]
+d2 |\
+b>ag>f g>dB>d | b>ag>f g>dB>d | e>gd>g c>gB>g | f>ef>g a>fe>d |
+b>ag>f g>dB>d | b>ag>f g>dB>d | e>gf>a g>bg>e | d>cB>A G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Tune play'd straight thro')
+%%begintext align
+%% Set and half right and left and back again .| lead down the
+%% middle up again and set to the top couple .| .
+%%endtext
+%%text DOUBLE FIGURE (Each strain repeated)
+%%begintext align
+%% The 3 Ladies lead round the 3 Gent: .| the 3 Gent: lead round the 3
+%% Ladies |: set & change places with the 2d Cu: .| & swing corners |: .
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 24
+T: Thistle Down
+%R: march, reel
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.12 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 2/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+cedg | ec BG | cedg | f/g/e/f/ dG |\
+cedg | ecBG | cgca | e/f/d/e/ c :|
+|: g |\
+gc'af | dgec | f/g/e d/e/c | Bcd e |\
+(fe)(dc) | (fe)(dc) | cgca | edc :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Each strain repeated)
+%%begintext align
+%% Set and hands across set and back again |: lead down the
+%% middle up again and right and left at top |: .
+%%endtext
+%%text DOUBLE FIGURE (Tune play'd twice thro' with repeats)
+%%begintext align
+%% Set & half right & left set & back again |: whole poussette |:
+%% set contrary corners |: & whole figure contrary corners |: .
+%%endtext

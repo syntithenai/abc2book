@@ -1,0 +1,19 @@
+X:978
+T:the Orange Rogue
+R:jig; long dance, set dance
+%S: s:3 b:24(8+8+8)
+B:Francis O'Neill: "The Dance Music of Ireland" (1907) #978
+Z:Frank Nordberg - http://www.musicaviva.com
+F:http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0978/oneill-1001-0978-1.abc
+M:6/8
+L:1/8
+K:Em
+"^A"[|]d \
+| (e/f/g)(e d)B(A | G)EF G2A | BAB def | (g2b) agf \
+| (e/f/g)(e d)B(A | G)EF G2(A | B)AB dcd | e3e2 :|
+"^B"|: f \
+| (g2e) (a2f) | g2B (Bc)d | g2(e a)gf | Tg3 (B2d) \
+| (g2e) (a2f) | g2(e f)ed | (BA)(B d)ef | g2(b a)g ||
+"^A"|| f \
+| (e/f/g)(e d)B(A | G)EF G2A | (BA)(B d)ef | g2(b a)gf \
+| (e/f/g)(e d)BA | GEF G2A | (BA)(B d)c(d | e3)e2 :|

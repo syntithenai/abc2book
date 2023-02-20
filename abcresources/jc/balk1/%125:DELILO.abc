@@ -1,0 +1,13 @@
+X: 125
+T: Delilo
+O: Turkey
+S: Bora Ozkok
+M: 2/4
+L: 1/8
+Q: 1/4=120
+K: C
+%%MIDI program 109
+%%MIDI drum ddd2 43 43 41
+%%MIDI drumon
+|:Adc2|dfc2|(3dcdBG|c2c2:|
+|:cded|eded|(3dcdBG|c2c2:|

@@ -1,0 +1,21 @@
+X: 47
+T:Steppin Out
+O:America
+F: http://www.youtube.com/watch?v=_g9ahQcbmOk
+M:2/4
+L:1/8
+Q:1/4=160
+P:ABBC
+K:Dm
+P:A
+%%MIDI gchord fzzz
+  "Dm"A3B |"Dm"A2"Gm"G2|"Dm"F2"Am"E2|"Dm"D4    |
+P:B
+|:"Dm"D2F2|A3A         |"Gm"G2"Dm"F2|GA3       |\
+  D2F2    |A3A         |"Gm"G2"Dm"F2|[1 "Gm"G4 :|[2 "Dm"D4|
+P:C
+K:Em
+  "Bm"d4  |^cB3        |AB3         |"D"AF3    |\
+  "Bm"DF3 |F4          |DF3         |F4        |
+  d4      |^cB3        |AB3         |"D"AF3    |\
+  "A"DE3  |E4          |EE3         |E4        |

@@ -1,0 +1,23 @@
+X: 4012
+T: Charlie he's my Darling.  Modern Set.
+%R: air
+N: This is version 1, for ABC software that doesn't understand voice overlays or diminuendo symbols.
+B: Niel Gow & Sons "Complete Repository" v.4 p.1 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: The book has bass bar 5 in treble clef.
+M: C
+L: 1/8
+Q: "SLOW"
+K: Dm
+% - - - - - - - - - -
+V: 1 staves=2
+~A, |\
+D>EFG "^dim..."(A2.d) z/A/ | "^dim..."(B2.d) z/B/ "^dim..."(A2.d) z/F/ | ~D>EFG A2~d>e | [f2d2A2] T[e^cG]>[dF] [d3A3F3] :: d |
+.^c(A=Bc) ~d>efd | .^c(A=Bc) d2T[e2_B2G2] | [fcA]>efd =cA ~F(G/A/) | B>G A>F EA/G/ FE |
+!p!D>EFG "^dim..."(A2.d) z/A/ | "^dim..."(B2.d) z/B/ "^dim..."(A2.d) A/F/ | ~D>EFG A2~d>e | [f2d2A2] T[e^cG]>[dF] [d3A3F3] :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d>^c de "^dim..."(f2.d) z/^f/ | "^dim..."(g2.e) z/e/ "^dim..."(f2.d)z | z>^cde f>e f>g | a2A2 d2D :: z |
+z2"^dim..."(^g'=g' f'>e') d'2 | z"^dim..."(a^g=g) f2"^sf"=c2 | [fF]>[gG][aA][bB] [a2A2][f2F2] | "^dim..."g>e f>d ^c2 A2 |
+!p!d>^cde "^dim..."(f2.d) z/^f/ | "^dim..."(g2.d) z/e/ "^dim..."(f2.d)z | d>^cde f>ef>g | a2A2 [d3D3] :|

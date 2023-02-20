@@ -1,0 +1,29 @@
+X: 4293
+T: Easton Hall
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 2/4
+L: 1/8
+K: F
+%
+V: 1
+c |\
+(f/g/a) (f/g/a) | f2c2 | dfdB | AcAF |\
+(f/g/a) (f/g/a) | f2c2 | dfTBA | G3 :|
+|: c |\
+(A/B/c) (A/B/c) | AcAF | (d/_e/f) (d/e/f) | dfdB |\
+bgTg2 | afTf2 | {a}gf e/f/g/e/ | f3 |]
+%
+V: 2 clef=bass middle=d
+z |\
+f2zf | ac'af | b2z2 | a2z2 |\
+f2zf | ac'af | b2d2 | c3 :|
+|: z |\
+f2f2 | f2z2 | b2b2 | b2z2 |\
+c'2z2 | f2ab | c'2c2 | f3 |]
+%%begintext align
+First and 2d Man foot it to their Partners and turn them off the Men's side,
+then foot it to their Partners and turn them into their Places |
+Cross over the whole figure and hands across quite round |
+%%endtext

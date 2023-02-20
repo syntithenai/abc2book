@@ -1,0 +1,26 @@
+X: 3231
+T: Mrs Weymes of Cuttlehill's Strathspey
+C: by Nath. Gow
+%R: air, strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.23 #1 (top 2 staves continued from p.22)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+Q: "Slow"
+K: Gm
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 12-bar lines.
+V: 1 staves=2
+|:!p!\
+{A}BGGG | (DG)GG | BGGB | d2 (d/e/d/c/) |\
+BGTG>F | DG TGA/B/ | !f!A[FC][FC]A | c2 (d/c/)B/A/ :|\
+!p!TB>cdd | {^f}gddd | TB>cdd | Tg>a {ga}b2 |
+(B/A/B/c/) (d/c/d/=e/) | fc Tc>B | !f!A[FC][FC]A  | c2 (d/c/B/A/) ||\
+!p!TB>cdd | {f}gddd | (B/A/B/).c/ dd | gdg>(a |\
+"_Expr.o"b)>(g a)>(^f | g)>(d=f)>.c | A[FC][FC]A | c2(d/c/).B/.A/ |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+!p!g2G2 | {f}g2G2 | g2G2 | b3a | g2G2 | g2G2 | !f!F2f2 | a2d^f :| !p!g2G2 | g2G2 | g2G2 |
+g2G2 | g2b2 | a3g | !f!f2F2 | f2d^f || !p!g2G2 | g2G2 | g2G2 | g3d | "_Expr.o"g2d2 | g2a2 | f2F2 | f2d^f |]

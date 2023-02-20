@@ -1,0 +1,29 @@
+X: 7
+T: Count Leon
+R: minuet
+M: 3/2
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Andrew Shaw "Mr Kynaston's Famous Dance" p.7
+S: Image in Cal Howard's collection with modern and original versions of the tune.
+N: footnote: "Reproduced courtesy of The Vaughan Williams Memorial Library, London."
+P: Play AABB x 3
+K: Am
+% - - - - - - - - - -
+"A"|:\
+"Am"A4 c3d e4 | "Am"a2e2 "Dm"fedc "E"B4 | "Am"ABcd efed cdcB | "Am"AcBc "Dm"dcBA "E"^G2E2 |\
+"Am"ABAB "Dm"cdcd "E"e4 | "Am"a2e2 "Dm"fedc "E"B4 |
+"Am"ABcd ecAc "Dm"fdBd | "Am"ecAc "E"BA^GB "Am"A4 :|\
+"B"|:\
+"C"c4 e3f g4 | "C"cdef gece gedc | "G"Bcde fdBd fdcB |
+"Am"ABcd ecAc e2dc |\
+"F"BcBc "Dm"dcBA "E"^G2E2 | "C"c4 e3f g4 | "F"agfe "Dm"fedc "E"B2^g2 | "Am"a4 e3d c4 |\
+"Dm"fedc "E"BcB>A "Am"A4 :|
+%%begintext align
+%%             The 1st man cross over below the 2d wo. the 1st wo. at the same time Figure
+%% through the 2d cu. both Set the 1st man cast up the 2d wo. at the same time cast off and
+%% turn partners in the 2d cu. place .| The 2d cu. do the same :| The 1st cu. cast off the 1st
+%% man Figure through the 3d cu. the 1st wo. goes the Figure through the 2d cu. at the same time
+%% Set and change Places .| The 1st man go the Hey with the 2d cu. the 1st wo. the same with
+%% the 3d cu. then lead up to the top and cast off :|
+%%endtext

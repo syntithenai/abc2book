@@ -1,0 +1,22 @@
+%%scale 1.1
+%%barsperstaff 4
+X:1
+T:Boil Them Cabbage Down
+C:Traditional Folk Tune
+L:1/8
+M:2/4
+K:D
+V:1 clef=treble
+|"D""^Melody"FF FF|"G"G2 G2|"D"FF FF|"A"E4
+w:1.Bile them cab-bage down boys, turn them hoe-cakes round.
+w:2.Rac-coon has a bushy tail, Pos-sum's tail is bare.
+w:3.Pos-sum up a 'simmon tree, Rac-coon on the ground.
+w:4.Jay-bird died with~the whoopin' cough, Spar-row died with~the colic.
+|"D"FF FF|"G"GG GG|"D"FF "A"EE|"D"D4||
+w:On-ly song that I can sing is bile them cab-bage down.
+w:Rab-bit's got no tail at all, But~a little bitty bunch of hair.
+w:Rac-coon says to~the pos-sum, "Won't you shake them 'sim-mons down?"
+w:Along come~the frog with~a fiddle on~his back, In-quirin' his way to~the frolic.
+V:2 clef=treble
+|"^Harmony"AA AA|BB BB|AA AA|G4
+|AA AA|BB BB|AA GG|F4||

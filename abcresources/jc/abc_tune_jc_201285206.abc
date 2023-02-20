@@ -1,0 +1,55 @@
+X: 1
+T: Have at thy Coat, old Woman
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.150 #204 (300)
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.45
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: DMDfD has the comma in the title; CCDM1 doesn't.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B/c/ | d2e d2B | cA2 e2B/c/ | d2e d2A | BG2- G2 |]\
+e/f/ | g>fe d>cB | A>BA e2B/c/ | d2e d2A | BG2 G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up forward and back, sett and turn S .| That again :|
+%% First Cu. lead a D. forward and back to the 2d cross, and
+%% turn each the 2d, then turn your own in the 2d Place :|
+%% Do this to the last, the rest following and doing the like.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Sides all, sett and turn S .| That again :| First Cu. cross
+%% over, and go behind the 2d, and peep three Times, then
+%% turn your own in the 2d Place .:| Do this to the last,
+%% the rest following.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Arms all, sett and turn S .| That again :| First Cu. cross
+%% over and go btween [sic] the 2d, then cross over again like the
+%% Figure of 8, falling into the 2d Place :| Do this to the
+%% last, the rest following.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% Lead up forward and back, set and turn S. .| That again :| First cu. lead a D. forward and back
+%% to the 2. cross, and turn each the 2. then turn your own in the 2. place .:| Do this Change to the
+%% last, the rest following and doing the like.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Sides all, set and turn S .| That again :| First cu. cross over, and go each behind the 2. and peep
+%% three times, then turn your own in the 2. place .:| Do this Change to the last, the rest following.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Arms all, set and turn S .| That again :| First cu. cross over and go between the 2. then cross over
+%% again like the Figure of 8. falling into the 2. place .:| Do this to the last, the rest following.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

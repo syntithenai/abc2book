@@ -1,0 +1,17 @@
+X: 513
+T: Vasilice
+O: Macedonia
+F: http://www.youtube.com/watch?v=DR8oqwOT9XY
+M: 7/8
+L: 1/8
+Q: 1/4 =160
+K: Ador
+%%MIDI program 24
+%%MIDI beat 80 70 60 4
+dddd2d2 |c2d e4| g2=f edc2|dcB A4  |
+dddd2d2 |c2d e4| g2=f edc2|dcB A4  |
+%%MIDI program 42
+GFG A2A2|GFG A4|G2=F EDC2 |DCB, A,4|
+GFG A2A2|GFG A4|G2=F EDC2 |DCB, A,4|
+DDDD2D2 |C2D E4| G2=F EDC2|DCB, A,4|
+DDDD2D2 |C2D E4| G2=F EDC2|DCB, A,4|

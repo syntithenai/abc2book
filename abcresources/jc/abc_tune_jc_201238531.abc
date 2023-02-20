@@ -1,0 +1,29 @@
+X: 30962
+T: COTILLION No. 10. MEDWAY SETT tune 2
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.96 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+cBcd g2g2 | gf d4 f2 | ecBc A2dc | BcAB GABG |\
+cBce g2g2 | gf d4 f2 | ecBc AfdB | d4 c2 H|]
+Bc |\
+dB G4 ef | ge c4 ag | fgef decd | BcAB G2Bc |\
+dB G4 ef | ge c4 g2 | ^fgag fdef | g2g2"^D.C."g2 |]
+EF |\
+G3AG2c2 | G2E2E2 G2 | FEDC B,CDE | DCB,A, G,2EF |\
+G3AG2c2 | A2F2F2 f2 | fedc GcBd | c6 "^D.C."y|]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% back to back,
+%% balance and turn.
+%% Next2, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

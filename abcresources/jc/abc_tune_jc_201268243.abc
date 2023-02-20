@@ -1,0 +1,67 @@
+X: 1
+T: Devetorka: Samokovsko Horo
+O: Bulgaria: Shop
+S: Jaap Leegwater
+%Q: 2/8 2/8 2/8 3/8=70
+M: 9/8
+L: 1/8
+N: This version has a number of ornaments written out, and a few extra harmony notes.
+Z: 2003 by John Chambers from handwritten MS, Tom Pixton's transcription, plus some CFO ornaments
+%%slurgraces
+K: G=B_e_A
+"A"\
+|: "G"A/G/F GA Bc B2A | A/G/F GA Bc B2A | A/G/F GA Bc B2A | "Fm"c/B/A/B/ A/G/F G2 "G"G3 :|
+"B"\
+|: "Cm"cB cB cd "G"B2A | A/G/F GA Bc B2A | "Cm"cB cB cd "G"B2A | "Fm"c/B/A/B/ A/G/F G2 "G"G3 :|
+"A"\
+|: "G"A/G/F GA Bc B2A | A/G/F GA Bc B2A | A/G/F GA Bc B2A | "Fm"c/B/A/B/ A/G/F G2 "G"G3 "fine"y:|
+K: F
+"C"\
+|: "F"[A6F6] [BG][AF][BG] | [c6A6] [dB][cA][dB] \
+| "C"[e6c6] [fd][ec][dB] |1 "F"[c6A6] "C7"[dBG][cAF][BGE] :|2 "F"[c7A7]z2 ||
+"D"\
+|: "C"[e6c6] [fd][ec][dB] | "F"[c6A6] "(C7)"[BG][AF][BG] \
+|1 "F"[c6A6] [BG][AF][BG] | "Bb"[d7B7]z2 \
+:|2 "F"[c6A6] "C7"[dB][cA][BG] | "F"[A7F7]z2 ||
+"E"\
+[| "F"[c2A2] [fd][ec] [f2d2] "Bb"[d3B3] | "C"[c2A2] [cA][dB] [cA][BG] "F"[A3F3] \
+| "Bb"[f2d2] [fd][ec] [d2B2] [fd][ec][dB] |  "F"[c2A2][cA][BG] [AF][BG] [c3A3] \
+| "F"[c2A2] [fd][ec] [f2d2] "Bb"[d3B3] |
+| "C"[c2A2] [cA][dB] [cA][BG] "F"[A3F3] \
+|: "C"[c2A2] [BG][AF] [G2E2] [BG][AF][GE] | "F"[F4F4] [AF][BG] [c3A3] \
+|  "C"[c2A2] [BG][AF] [G2E2] [BG][AF][GE] | "F"F7z2 :|
+
+%%sep 3 1 500
+%%sep 1 1 500
+
+X: 2
+T: Devetorka: Samokovsko Horo
+O: Bulgaria: Shop
+S: Jaap Leegwater
+%Q: 2/8 2/8 2/8 3/8=70
+M: 9/8
+L: 1/8
+Z: 2003 by John Chambers from handwritten MS, Tom Pixton's transcription, plus some CFO ornaments
+%%slurgraces
+K: A^c=f_B
+"A"\
+|: "A"B/A/G AB cd c2B | B/A/G AB cd c2B | B/A/G AB cd c2B | "Gm"d/c/B/c/ B/A/G A2 "A"A3 :|
+"B"\
+|: "Dm"dc dc de "A"c2B | B/A/G AB cd c2B | "Dm"dc dc de "A"c2B | "Gm"d/c/B/c/ B/A/G A2 "A"A3 :|
+"A"\
+|: "A"B/A/G AB cd c2B | B/A/G AB cd c2B | B/A/G AB cd c2B | "Gm"d/c/B/c/ B/A/G A2 "A"A3 "fine"y:|
+K: G
+"C"\
+|: "G"[B6G6] [cA][BG][cA] | [d6B6] [ec][dB][ec] \
+| "D"[f6d6] [ge][fd][ec] |1 "G"[d6B6] "D7"[ecA][dBG][cAF] :|2 "G"[d7B7]z2 ||
+"D"\
+|: "D"[f6d6] [ge][fd][ec] | "G"[d6B6] "(D7)"[cA][BG][cA] \
+|1 "G"[d6B6] [cA][BG][cA] | "C"[e7c7]z2 \
+:|2 "G"[d6B6] "D7"[ec][dB][cA] | "G"[B7G7]z2 ||
+"E"\
+[| "G"[d2B2] [ge][fd] [g2e2] "C"[e3c3] | "D"[d2B2] [dB][ec] [dB][cA] "G"[B3G3] \
+| "C"[g2e2] [ge][fd] [e2c2] [ge][fd][ec] |  "G"[d2B2][dB][cA] [BG][cA] [d3B3] \
+| "G"[d2B2] [ge][fd] [g2e2] "C"[e3c3] |
+| "D"[d2B2] [dB][ec] [dB][cA] "G"[B3G3] \
+|: "D"[d2B2] [cA][BG] [A2F2] [cA][BG][AF] | "G"[G4G4] [BG][cA] [d3B3] \
+|  "D"[d2B2] [cA][BG] [A2F2] [cA][BG][AF] | "G"G7z2 :|

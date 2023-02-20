@@ -1,0 +1,26 @@
+X: 234
+T:Klecka Igra
+O:Serbia
+F: http://www.youtube.com/watch?v=8HyXM_nQx7E
+M:7/8
+L:1/8
+K:G
+Q:1/4=240
+%%MIDI program 21 Accordian
+%%MIDI bassprog 115 Woodblock
+%%MIDI gchord f2f2f3
+"G"G2 G2 B2 G|cBAG B2 z|G2 G2 B2 G|[1"B" A2 A2 d2 z:|[2 D2 D2 D2 z|
+K:F
+|:"F"F2 F2 A2 F|G2 GE D2 C|F2 F2 A2 F|[1G2 G2 c2 z:|[2 G2 G2 G2 z|
+K:G
+D7| D7|D7|D7|
+|:"G"de=fe d2 c|=fedc B2 G|"D" ABcA "G"B2 G|[1 "D"A2 A2 d2 z:|"D"A2 A2 G2 z|:
+"D"ABcA "G"B2 G|"D"A2 A2 d2 z|ABcA "D"B2 G|"D"A2 A2 "G" G2 z:|
+K:C
+"C" c7|c7|c7|c7|:
+"C"c2 c2 e2 c|fedc e2 z|c2 c2 e2 c|[1 "G" d2 d2 g2 z:|[2 "G"d2 d2 d2 z|
+K:Bb
+|:"Bb"B2 B2 c2 B|c2 BA G2 B|B2 B2 d2 B|[1"F"c2 c2 f2 z:|[2"F"c2 c2 c2 z|
+W:
+W:Martin Junghans and Jutta Weber-Karn
+W: www.folkloretanznoten.de/

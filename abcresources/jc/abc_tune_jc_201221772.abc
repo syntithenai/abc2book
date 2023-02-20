@@ -1,0 +1,19 @@
+X: 051
+T: Dorcesteshire's Dorsetshire's March
+%R: march
+N: This is version 1, for ABC software that doesn't understand some ABC 2.* features.
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: John Treat - "Gamut for the Fifes", 1779, p.4 #1
+F: https://archive.org/details/GamutFortheFifes
+N: Bar 3 is missing an 8th note; fixed by matching the rhythms of nearby bars.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+F2D>F A2F>A | d2A>d f2d>f | a2b>a g2 (3(fef) | e2e>e e2D2 |\
+F2D>F A2F>A | B>cd>e {d2}c2B>A | B>cd>g f2e2 | d2d>d d2 :|
+|: A2 |\
+d2f>d B2d>B | A>F d>B A>FE>D | F>A dc BAGF | E2E>E E2D2 |\
+F2D>F A2F>A | B2g>e c2BA | B>b a>g f2e2 | d2d>d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

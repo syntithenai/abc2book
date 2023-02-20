@@ -1,0 +1,182 @@
+
+X: 0
+T: BRANDYWINE STANDPIECE
+%C: 071229
+K:
+
+%%textfont Times-Italic 12
+
+
+X: 1
+T: Brandywine Quick Step  v.1
+P: Piffero primo a0091
+O: camp dupont
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/brandywF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+d2 |\
+g2g2 d2d2 | BABc d2B2 | G2G2 A2A2 | BABc B2d2 |\
+g2g2 d2d2 | BABc d2B2 | G2G2 AGAB | G4 z2 :|
+|: d2 |\
+^c2c2 c2c2 | d^cde d2d2 | ^c2c2 c2c2 | d6 B2 |\
+c2c2 c2A2 | B2B2 B2G2 | A2A2 A2B2 | G4 z2 :|
+|: (GA) |\
+.B2.B2 (B2c2) | TB2A2 A2(AB) | .c2.c2 (c2d2) | Tc2B2 B2(Bc) |\
+.d2.d2 (d2e2) | .c2.c2 (c2d2) | B2(BG) A2(AF) | G4 z2 :|
+
+
+X: 2
+T: Brandywine Quick Step v.2
+P: Piffero secondo a0092
+O: camp dupont
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/brandywF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+d2 |\
+B4 TA4 | GFGA B2B,2 | D2D2 F2F2 | GFGA G2d2 |\
+B4 TA4 | GFGA B2D2 | B,2B,2 CB,CD | B,4 z2 :|
+|: z2 |\
+EGEG EGEG | FEFG F2F2 | EGEG EGEG | F6 G2 |\
+A2A2 A2D2 | D2D2 D2B,2 | C2C2 C2D2 | B,4 z2 :|
+|: (GF) |\
+.G2.G2 (G2A2) | TG2F2 F2(FG) | .A2.A2 (A2B2) | TA2G2 G2(GA) |\
+.B2.B2 (B2c2) | .A2.A2 (A2F2) | D2DC C2CA, | B,4 z2 :|
+
+%%slurgraces 1
+%%graceslurs 1
+%%center (drum bridge, union quickstep, 8 bars)
+
+
+X: 3
+T: Union Quick Step  v.1
+P: Piffero primo a0084
+O: american veteran fifer
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/brandywF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+(3ABc |\
+d2d2 d2cd | ecAc e2e2 | dcBc Acec | d2df a2af |\
+d2d2 d2cd | ecAc e2e2 | dcBc Acec | d2f2 d2 :|
+|: A2 |\
+g4 gdef | g4 g2f2 | e2e2 e2de | f4 f2af |\
+d2d2 d2cd | ecAc e2e2 | dcBc Acec | d2f2 d2 :|
+
+
+X: 4
+T: Washington Artillery's March  v.1
+P: Piffero primo b0020
+O: camp dupont
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/brandywF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+fe |\
+d2d2 A2A2 | B2B2 A2d2 | cdef g2f2 | f4 e2fe |\
+d2d2 A2A2 | B2B2 A2d2 | cdef gfed | e4 d2 :|
+|: A2 |\
+A2A2 AAA2 | d2AA A2f2 | g2g2 f2f2 | (Tf4 e2)A2 |\
+A2A2 AAA2 | d2AA A2d2 | cdef gedc | e4 d2 :|
+|: A2 |\
+d2A2 f2A2 | d2Ad f2A2 | d2A2 d2f2 | d4 f2f2 |\
+g2e2 e2ag | f2d2 d2d2 | cdef gedc | e4 d2 :|
+
+
+X: 5
+T: Washington Artillery's March  v.2
+P: Piffero secondo b0021
+O: camp dupont
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/brandywF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+z2 |\
+F2F2 F2F2 | G2G2 F2D2 | ABcd e2d2 | d4 c2AG |\
+F2F2 F2F2 | G2G2 F2D2 | EFGA BAGF | G4 F2 :|
+|: A2 |\
+A2A2 AAA2 | d2AA A2d2 | e2e2 d2d2 | Td4 c2A2 |\
+A2A2 AAA2 | d2AA A2F2 | EFGA BGFE | G4 F2 :|
+|: A2 |\
+d2A2 f2A2 | d2Ad f2A2 | d2A2 d2f2 | d4 d2d2 |\
+e2c2 c2fe | d2F2 A2F2 | EFGA BGFE | G4 F2 :|
+
+%%center (drum bridge, first of September, 8 bars)
+
+
+X: 6
+T: The First of September  v.1
+P: Piffero primo b0022
+O: safd 102
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/brandywF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+z2 |\
+d2d2 d2cd | A2d2 A2f2 | e2d2 c2B2 | AGAB A4 |\
+FAdA FAdA | GBdB GBdB | ABAG FGFE | D4   D2 :|
+|: z2 |\
+a3b abag | Tf2d2 d2f2 | g2f2 e2d2 | cdec A4 |\
+a3b abag | Tf2d2 d2f2 | gbag fedc | d4   d2 :|
+
+
+X: 7
+T: The First of September  v.2
+P: Piffero secondo b0023
+O: safd 102
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/brandywF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+z2 |\
+d2A2 F2EF | F6 d2 | c2B2 A2G2 | FEFG F4 |\
+F8        | G8    | FGFE dedc | d4   d2 :|
+|: z2 |\
+F3G FGFE | D2F2 F2d2 | e2d2 c2B2 | A8 |\
+F3G FGFE | D2F2 F2d2 | EGFE AGFE | F4 F2 :|
+
+
+X: 8
+T: La Belle Cathrine  v.1
+P: Piffero primo b0024
+O: safd 015
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/brandywF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+z2 |\
+d4 {e}fede | f2d2 d2c2 | B2e2 efed | c2A2 A2c2 |\
+d4 {e}fede | f2d2 d2c2 | B2e2 dcBA | d4   d2  :|
+|: z2 |\
+F2A2  A2G2 | F2A2 A2G2 | F2A2 efed | c2A2 A2G2 |\
+FGAB  A2F2 | F2A2 A2Bc | d3e  gfed | B2c2 d2  :|
+
+
+X: 9
+T: La Belle Cathrine  v.2
+P: Piffero secondo b0025
+O: safd 015
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/brandywF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+z2 |\
+F4 {G}AGFG | A2F2 F4   | G4   GAGF | E2E2 E2E2 |\
+F4 {G}AGFG | A2F2 F2A2 | G2G2 E2E2 | F4   F2  :|
+|: z2 |\
+D2F2  F2D2 | D2F2 F2D2 | D2F2 GAGF | E2E2 E2E2 |\
+DEFG  F2E2 | D2F2 F2GA | d3c  A3d  | B2c2 d2  :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

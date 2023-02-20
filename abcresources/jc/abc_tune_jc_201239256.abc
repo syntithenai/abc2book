@@ -1,0 +1,20 @@
+X: 323
+T: Miss Macdonald Buchanan's Strathspey
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.32#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slow"
+R: strathspey
+M: C
+L: 1/8
+K: D
+V: 1
+A, |\
+D<D~F>A BE~E>F | D<DF>A BB,B,A, |\
+DDF>A ~Bc/d/ (B/A/).G/.F/ | {F}E>D {G}~F>E DB,B, :|
+|: (A//B//c/) |\
+dd ~d(f/d/) {B}Ad/A/ (G/F/).E/.D/ | dd (f/e/)(d/c/) ~cB B(A//B//c/) |\
+~df/d/ ~Ad/A/ F/G/A/B/ {F}~HE2 | D<D {G}F>E DB,B, :|
+V: 2 clef=bass middle=d
+   z | d2d2 c2A2 | d2A2 G2G2 | d2d2 g2f2 | a2A2 G2G :|
+|: z | d2d2 f2d2 | d2d2 g2G2 | d2F2 G^GHA2 | d2A2 G2G :|

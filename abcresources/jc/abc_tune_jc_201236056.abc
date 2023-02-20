@@ -1,0 +1,23 @@
+X: 21594
+T: WANDERING WILLIE
+O: Scottish melody.
+Q: "Slow."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.159 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F	% and Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+c3 B (AG) | F3 G F2 | G3 F G2 | A2 d4 |\
+c3 B (AG) | F3 G A2 | A3 ^G A2 | D4 z2 |\
+c3 B (AG) | F3 G F2 | G4 FG | A2 d4 |\
+c3 B (AG) | F3 G A2 | A3 ^G A2 | D4 z2 |]
+[|\
+A2 d2 ^c2 | d3 e f2 | (c3 d)cB | A3 B c2 |\
+A2 d2 ^c2 | d3 e f2 | A3 ^G A2 | D4 z2 |\
+A2 d2 ^c2 | d3 e f2 | c3 (dcB) | A3 B c2 |\
+A2 (fe)(d^c) | d3 e Hf2 | A3 ^G A2 | D4 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

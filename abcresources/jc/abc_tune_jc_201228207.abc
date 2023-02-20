@@ -1,0 +1,22 @@
+X:1
+T: the Rothesay Rant
+C: Beryl S Johnston
+R: jig
+B: Birmingham Branch RSCDS "Scottish Country Dances" #11
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+   E \
+| "A"{FG}A2G F2E | "D"F2E F2A | "A"E2C C2A | "E7"C2B, B,2E \
+| "A"A2G A2B | "A"c3 A2c | "D"B2A "(E7)"A2F | "A"A3- A2 :|
+|: e \
+| "A"c2A A2e | "A"c2A A2e | "D"f2e "A"c2A | "E7"B2e e2 e \
+| "D" {efg}a2g f2e | "Bm"f2e d2c | "E7"B2f f2G | "A"A3- A2 :| [K:=g]
+K: D
+|: A/>A \
+| "D"f3 f2f | "A7"e3 e2e | "G"d2e d2B | "D"AF2 F2A \
+| "A7"g3 g2g | "D"f3 a2b | "D"a2f d2f | "A7"e3 a2g |
+| "D"f3 a2f | "A"e3 a2g | "D"f2a "/C#"e2f | "Bm"d2c B2A \
+| "G"B2d g2b | "G"d'<d'z "A7"c'2b | "D"a2f "A7"f2e | "D"d3- d2 :|

@@ -1,0 +1,15 @@
+X: 21032
+T: the Irish Lilt
+%R: jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.103 #2
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Initial rest added to fix the rhythms of repeats.
+M: 6/8
+L: 1/8
+K: D
+z |"_Brisk"\
+e2e e2e | efd cBc | d2d fed | cAc e3 |\
+e2e e2e | efd TcBc | d2d f2a | gec d2 :|
+|: (f/g/) |\
+a3 geg | fdf ecA | d2d fed | cAc e2(f/g/) |\
+(a2f) (g2e) | (f2d) cBc | d2d f2a | gec d2 :|

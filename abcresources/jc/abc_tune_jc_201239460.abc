@@ -1,0 +1,20 @@
+X: 3291
+T: Lady Jardine's Strathspey.
+%R: strathspey, air
+B: Niel Gow & Sons "Complete Repository" v.3 p.29 #1 (top 4 staffs continued from p.28)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - -
+V: 1 staves=2
+{e}f !segno![|\
+c>AFA FA/B/ cA | c>AFA ~G>ABd | ~c>AFA ~F>AcA | B<d {d}c>A ~G>A Bd || Tc>AFA FA/B/ cA |
+Tc>AFA ~G>ABd | ~c>AFA ~F>AcA | B<d {d}c>A ~G>A Bd |]| ~c>dfg {fg}a>gfc | d<f {d}c>A ~G>ABd | c<ATf>g {fg}a>gfd |
+(d/e/f) (e/f/g) af- ~fe/d/ || c>fac B>geB | A<f {d}c>A ~G>ABd | c>(fe)(g a)(fe)g | ~f>(dc)A ~G>ABd !segno!|]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z !segno![|\
+[f2a2]f2 f2f2 | f2F2 c2B2 | A2F2 f2f2 | e2f2 c'2b2 || [f2a2]f2 f2f2 |
+f2F2 c2B2 | A2F2 f2f2 | e2f2 c'2b2 |]| a2f2 f2a2 | b2f2 c'2b2 | a2f2 f2a2 |
+b2c'2 f2f'2 || a3^f g3e | f2f2 c'2b2 | a2g2 f2b2 | [a2c'2][f2c'2] c'2b2 !segno!|]

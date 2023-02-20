@@ -1,0 +1,24 @@
+X: 1
+T: the Headlands
+C: Ronnie Cooper
+R: march
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Ceol na Fidhle p. 47
+M: 2/4
+L: 1/8
+K: A
+(e>d) "^A1"\
+| "A"dc BA | "A"(A<c) "A7"(E>A) | "D"FA df | "A"e2 "E7"(ef/g/) \
+| "A"a>e fa | "F#m"fe dc | "B7"c>B Ac | "E"B2y
+"E7"(e>d) "^A2"\
+| "A"dc BA | "A"(A<c) "A7"(E>A) | "D"FA df | "Adim"a2 (gf) \
+| "A"ea Ac | "Bm"Bf "E7"ed | "A"c2 "D"A2 | "A"A2 :|
+|: "E7"(ef/g/) "^B"\
+| "A"a>e fa | ce "A7"cA | "D"dA df | "A"e2 "E7"(ef/g/) \
+| "A"a>e fa | "F#m"fe dc | "Bm"c>B Ac | "E"B2y
+[1 "E7"(ef/g/) "^B1"\
+| "A"a>e fa | ce "A7"cA | "D"dA fg | "Adim"a2 (g>f) \
+| "A"ea Ac | "Bm"Bf "E7"ed | "A"c2 "D"A2 | "A"A2 :|
+[2 "E7"(e>d) "^A2"\
+| "A"dc BA | (A<c) "A7"E>A | "D"FA df | "Adim"a2 (gf) \
+| "A"ea Ac | "Bm"Bf "E7"ed | "A"c2 "D"A2 | "A"A2 |]

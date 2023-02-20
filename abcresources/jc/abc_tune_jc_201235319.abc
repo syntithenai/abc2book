@@ -1,0 +1,22 @@
+X: 21082
+T: BANKS OF BANNA
+Q: "Slow."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.108 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+e3f g2(gf) | (fe)(eB) B4 | c2B2e2(de) | {d2}c4 B4 |\
+e2e2 (eg) (gb) | B2(Bc) (cB)(AG) | (AB)(cd) efeA | {G2}F4 E4 |]
+[|\
+G3F G2A2 | B2(Bc) B2z2 | c2B2 e2(de) | {d2}c4 B4 |\
+e2e2 (eg) (gb) | B2(Bc cBAG) | (AB)(cd) (e>f)eA | {G2}F4 E4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Burns' song, "Yestreen I had a pint of wine," is sung to the above air.
+%%endtext
+%%sep 1 1 300

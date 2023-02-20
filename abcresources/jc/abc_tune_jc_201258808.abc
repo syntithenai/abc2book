@@ -1,0 +1,5097 @@
+X: 0
+T: A Collection of Scots Reels or Country Dances
+C: Robert Bremner, publisher, London 1757
+B: Robert Bremner "A Collection of Scots Reels or Country Dances"
+S: "http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)"
+Z: 2013-2014 John Chambers <jc:trillian.mit.edu>
+N: The tunes' index numbers are a 2-digit page number and one digit to number the tune on the page.
+K:
+%%center - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center A COLLECTION
+%%center of
+%%center SCOTS REELS
+%%center or
+%%center COUNTRY DANCES
+%%center With a BASS for the VIOLINCELLO  or HARPSICHORD
+%%center - - - - - - - - - - - - - - - - - - - -
+%%center In Playing these Basses on the Harpsichord, their Octaves may be also
+%%center struck, as represented by small Notes in the Fyket Page 6.
+%%center - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center LONDON Printed & Sold by ROB:T BREMNER at the Harp & Hautboy
+%%center in the Strand
+%%sep 1 5 500
+
+%%slurgraces yes
+%%graceslurs yes
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 011
+T: Lady Doll Sinclair's Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.1 #1
+S: "http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The :S: symbol is a "segno", but there's only one, so it doesn't make sense.
+M: C|
+L: 1/16
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%V: 1
+B2 |\
+AAA2 c2A2 d2B2c2A2 | B2g2-g2d2 B2G2G2B2 |\
+AAA2 c2A2 d2B2c2A2 | B2a2-a2e2 c2A2A2 :|
+|: g2 "^:S:"| (agfe) c2a2 e2a2c2a2 | B2g2-g2d2 B2G2G2g2 |\
+[1 (agfe) c2a2 e2a2c2a2 | B2a2-a2e2 c2A2A2g2 :|\
+[2 (agf2) (gfe2) (fed2) (edc2) | B2a2-a2e2 c2A2A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+a4 a4 a4 a4 | g4 g4 g4 g4 |\
+a4 a4 a4 a4 | e4 e4 A4 A2 :|\
+|: z2 | a4
+a4 a4 a4 | g4 g4 g4 g4 |\
+[1 a4 a4 a4 a4 | e4 e4 A4 A4 :|\
+[2 a4 a4 a4 a4 | e4 e4 A4 A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 012
+T: Ratha Fair
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.1 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The f notes are printed high, barely overlapping the top staff line, but make more sense than g.
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+   g | adaf  ecge | adaf  adaf | adaf  ecge | (f/g/a) ge d2d :|
+|: e | cA-Ac GAcG | cA-AB cded | cA-Ac GAcG | (A/B/c) Ec D2D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 c2c2 | d2d2 d2d2 | d2d2 c2c2 | d2A2 D2D :|\
+|: z | a2a2
+g2g2 | a2a2 a2a2 |\
+a2a2 g2g2 | f2e2 d2d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 021
+T: The Milkmaids of Blantyre
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.2 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+   B | G/G/G BG cGBG | AD D/D/D =FGAF | G/G/G BG cGBG | Agdg BG G :|
+|: g | dgBg AA/A/ a2 | dgBg dgBg | (a/g/f/e/ g)B A/A/A a2 | egdg BG G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | g2g2 g2g2 | d2d2 =f2f2 | g2g2 g2g2 | d2d2 G2G :|\
+|: z |
+g2g2 a2a2 | g2g2 g2g2 | g2g2 a2a2 | g2d2 G2G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 022
+T: Miss Polly Skiner's Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.2 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+   F | DdFd E/E/E EF | DdFd DdFd | (e/d/c/B/ d)F E/E/E EF | DdFA D/D/D D :|
+|: f | (d/e/f/g/ a)f geef | (d/e/f/g/ a)f bgaf | gefd geef | (d/c/B/A/ d)F D/D/D D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 e2e2 | d2d2 d2d2 |\
+d2d2 e2e2 | d2A2 D2 D :|\
+|: z |
+d2d2 e2e2 | d2d2 g2f2 | e2d2 e2e2 | d2A2 D2D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 031
+T: Miss Ramsey's Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.3 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+g |\
+(b/a/g/f/ g)d BGGB | cABG TA>GEg |\
+(b/a/g/f/ g)d BGGB | cAdB G/G/G G :|
+|: e |\
+dg-ge db-ba | gedB TA>GEe |\
+dg-ge db-ba | gedB G/G/G G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g2g2 g2g2 | a2g2 e2e2 |\
+g2g2 g2g2 | d2d2 G2G :|\
+|: z |
+g2g2 g2g2 | g2g2 a2a2 |\
+g2g2 g2g2 | g2d2 G2G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 032
+T: The Parks of Killburnie
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.3 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F |\
+(A/B/c) cf (a/g/f/e/ f)d | cAdA BGGB |\
+(A/B/c) cf (a/g/f/e/ f)d | cABG F/F/F F :|
+|: c |\
+(A/B/c) Fc dBfd | cAaf gGGc |\
+(A/B/c) Fc dBfd | cABG F/F/F F :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+f2f2 f2f2 | f2f2 g2g2 |\
+f2f2 f2f2 | c2c2 F2F :|
+|: z |\
+f2f2 f2f2 | f2f2 g2g2 |\
+f2f2 f2f2 | c2c2 F2F :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 041
+T: Kiss me Sweetly
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.4 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+g |\
+(a/g/f/e/ c)g egcg | (a/g/f/e/ c)g eddg |\
+(a/g/f/e/ c)g egde | cAGE C/C/C C :|
+|: F |\
+(EG)(cG) (AG)(cG) | (EG)(cG) dDDF |\
+EGcG EG ga | gede c/c/c c :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+c2c2 c2c2 | c2c2 d2d2 | c2c2 c2c2 | f2g2 c2c :|\
+|: z c2c2
+c2c2 | c2c2 d2d2 | c2c2 c2c2 | G2G2 C2C :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 042
+T: Camron has got his Wife again
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.4 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B |\
+dABF AA/A/ AB | dABF E/E/E Ee |\
+dABF AA/A/ (Tf>e) | dBAF DD/D/ D :|
+|: g |\
+fdaf e(gTfe) | fdfa BB/B/ Bg |\
+fdaf e(gTfe) | dBAF D/D/D D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 d2d2 | d2d2 e2e2 |\
+d2d2 A2A2 | G2A2 D2D :|\
+|: z |
+d2d2 e2e2 | d2d2 e2e2 |\
+d2d2 A2A2 | G2A2 D2D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 051
+T: Mr Robt Kenedys Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.5 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+(F/G/A/B/ c)F dFcF | fdcA BGGA |\
+(F/G/A/B/ c)F dFcF | BG (A/B/c/B/ A)F F :|
+|: A |\
+(F/G/A/B/ c)f dfcf | BfAf gGGA |\
+(F/G/A/B/ c)f dfcA | BGcB AF F :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+f2f2 f2f2 | f2f2 g2g2 |\
+f2f2 f2f2 | c2c2 F2F :|\
+|: z |
+f2f2 b2a2 | g2f2 g2g2 |\
+f2f2 f2f2 | c2c2 F2F :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 052
+T: Miss Blair's Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.5 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+(Tf>ef)d eBdA | (Tf>ef)d B/B/B B2 |\
+(Tf>ef)d eBdA | (B/A/B/c/ d)F D/D/D D2 :|
+|:\
+(D/E/F/G/ A)F BGAF | GdFd E/E/E EF |\
+(D/E/F/G/ A)F dFAF | GBAF D/D/D D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d2d2 d2d2 | d2d2 B2B2 | d2d2 d2d2 | G2A2 D2D2 :|\
+|: d2d2
+d2d2 | d2d2 e2e2 |\
+d2d2 d2d2 | G2A2 D2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 061
+T: I'll gae nae mair to your Town
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.6 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+Ff-fc TA2 Fc | (A/B/c) Fc AGGg |\
+(a/g/f/e/ f)c TA2 Fc | (A/B/c) Gc AF F :|
+|: (c |\
+AF)cF dFcF | AFcF (d/c/B/A/) Gc |\
+AFcF dFcF | (A/B/c) Gc AFF :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+f2f2 f2f2 | f2f2 g2g2 |\
+f2f2 f2f2 | c2c2 F2F :|\
+|: z | f2f2
+f2f2 | f2f2 g2g2 |\
+f2f2 f2f2 | c2c2 F2F :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 062
+T: The Fyket
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.6 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Ador
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+(g |\
+fA)eA fAA(g | fA)eA BGG(g |\
+fA)eA ^cea(g | fd)ec BGG :|
+|: g |\
+(f/g/a) ef T^cAAg | (f/g/a) eg BGGg |\
+(f/g/a) eg fae(g | fd)ec BGG :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | a2a2 g2g2 |\
+a2a2 a2a2 | a2a2 g2g :|\
+|: z | a2a2
+a2a2 | a2a2 g2g2 |\
+a2a2 a2a2 | a2a2 G2G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 071
+T: Isle of Sky
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.7 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B- |\
+BFDF BFDF | EC-CB cGGA |\
+BFDF BFDF | ECCF DB,B, :|
+|: f- |\
+fdfb fdBd | Tc>Bcd cGGf- |\
+fdfb fdBd | Tc>Bcd B/B/B B :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+B2B2 B2B2 | c2c2 c2c2 |\
+B2B2 B2B2 | f2f2 B2B :|\
+z | b2b2
+b2b2 | c'2c'2 c'2c'2 |\
+b2b2 b2b2 | f2f2 B2B :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 072
+T: Jacky Stewarts Reell
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.7 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: In the title, the 'J' is more like a script 'Y', "Stewarts" is spelled without an apostrophe, and "Reell" really has an extra 'l'.
+M: C|
+L: 1/8
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+B2 (EF/G/) BGEG | AFDF dFDF |\
+BGEG (eg/a/ b)a | gef^d e/e/e e2 :|
+|:\
+e(gTfe) B/B/B eB | defe d/d/d fd |\
+e(gTfe) dBAF | GBAF E/E/E E2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+e2e2 e2e2 | d2d2 d2d2 |\
+e2e2 e2e2 | B2B2 E2E2 :|\
+|: e2e2
+e2e2 | d2d2 d2d2 |\
+e2e2 d2d2 | e2B2 E2E2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 081
+T: Duke of Perth's Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.8 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B |\
+(G/A/B/c/ d)B gBdB | gBdB aAAB |\
+(G/A/B/c/ d)B gBdB | cAdc BGG :|
+|: f |\
+gage abaf | gage beef |\
+gage abaf | gddc BGG :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g2g2 g2g2 | g2g2 a2a2 |\
+g2g2 g2g2 | d2d2 G2g :|\
+|: z |
+g2g2 a2a2 | g2g2 e2e2 |\
+g2g2 a2a2 | g2d2 G2G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 082
+T: Capt Ross's Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.8 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+E3(c TB>A)FB | A/A/A (TcA) eAcA |\
+E3c TB>AFf | (ef/g/ a)c A/A/A A2 :|
+|:\
+(ef/g/ a)c (TB>A)Ff | (ef/g/ a)e fea(e |\
+f>a)ec TB>AFf | (ef/g/ a)c A/A/A A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+a2a2 b2b2 | a2a2 a2a2 |\
+a2a2 b2b2 | a2e2 A2A2 :|\
+|: a2a2
+b2b2 | a2a2 a2a2 | d'2c'2 b2b2 | a2e2 A2A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 091
+T: Short Apron
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.9 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F	% Each strain ends in Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+f |\
+cAA fAA | aAA cGG | cAA fAA | aAc d2f |\
+cAA fAA | aAA cGG | AGF fga | gec d2 :|
+|: c |\
+Acd cAF | (A/B/c)A cGc | A(B/c/d) cAF | f>(gf/e/) d2c |\
+Acd cAF | (A/B/c)A cGc | AGF f>ga ge^c d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a3 a3 | a3 g3 | a3 a3 | a3 a3 |\
+a3 a3 | a3 g3 | f3 f3 | e3 d2 :|
+|: z |\
+f3 f3 | c3 c3 | f3 f3 | d3 d3 |\
+f3 f3 | f3 g3 | f3 f3 | e3 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 092
+T: Hoptoun House
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.9 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+d |\
+E/E/E BE dEEe | dBAF DEFA |\
+E/E/E BE dEEe | dBAF {FA}B2E :|
+|: F |\
+Ee-ef gefd | BdAF D>EFD |\
+Ee-ef gefd | BdFA {FA}B2E :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+e2e2 e2e2 | d2d2 d2d2 |\
+e2e2 e2e2 | B2B2 E2E :|\
+|: z |\
+e2e2 e2e2 | d2d2 d2d2 |\
+e2e2 e2d2 | B2B2 E2E :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 101
+T: Lady Hariot Hope's Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.10 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+FAcf c2(TBA) | f2(a/g/f) gGGA |\
+FAcf c2(TBA) | BGcA F/F/F F2 :|\
+fcfg (f/g/a) (Tgf) | ecgc acgc |
+fcfg (f/g/a) (Tgf) | cfeg f/f/f f2 |\
+fcfg (f/g/a) (Tgf) | g>fga bag(a |\
+fd)cB A2(Tf>d) | cABG F/F/F F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+f2f2 f2f2 | f2f2 g2g2 |\
+f2f2 f2f2 | c2c2 F2F2 :|\
+f2f2 f2f2 | c2c2 c2c2 |
+f2f2 f2f2 | c2c2 F2F2 |\
+f2f2 f2f2 | g2g2 g2g2 |\
+f2f2 f2B2 | c2c2 F2F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 102
+T: The Highlandman Kiss'd his Mother
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.10 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C	% 2nd strain is A dorian.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+cg-ge gcge | cg-ge dBGB |\
+cg-ge gcge | a^fge dBGB :|
+|:\
+ceAe ceAe | ceAe (d/c/B/A/) GB |\
+ceAe ceAg | a^fge dBGB :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+c'2c'2 c'2c'2 | c'2c'2 g2g2 |\
+c2c2 c2c2 | c2c2 G2G2 :|\
+|:\
+a2a2 a2a2 |
+a2a2 g2g2 |\
+a2a2 a2a2 | a2a2 g2g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 111
+T: Miss Murray's Reel
+R: minuet, triple hornpipe
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.11 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/2
+L: 1/4
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+eA- Ac TB2 | eA- Ac B/c/d/B/ |\
+eA- Ac TB2 | dG- Gc B/c/d/B/ :|\
+|:\
+cc ec gc | ec bc d/f/g/e/ |\
+cc ag Te2 | dG- Gc B/c/d/B/ :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+a2 a2 a2 | a2 a2 a2 |\
+a2 a2 a2 | g2 g2 g2 :|\
+|:\
+c2 c2 c2 | c2 c2 c2 |\
+c2 c2 c2 | g2 g2 g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 112
+T: Drummore's Rant
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.11 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+(d |\
+B)GdB ecd(c | B)GdB (FA/B/ c)A |\
+BGdB ecdB | (A/B/c) FA fcc :|
+|: f |\
+(e/f/g) dg BGdB | (e/f/g) df AFcA |\
+(e/f/g) dg BGdB | (A/B/c) FA fcc :|
+|: d |\
+BG G/G/G G/G/G ed | BG G/G/G F(A/B/ c)A |\
+BG G/G/G G/G/G ed | (A/B/c) FA fcc :|
+|: f |\
+(e/f/g) (e/f/g) BGBG | (e/f/g) (e/f/g) AFAF |\
+(e/f/g) (e/f/g) BGBG | (A/B/c) FA fcc :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g2g2 g2g2 | g2g2 f2f2 | g2g2 g2g2 | f2f2 f2f :|\
+|: z | g2g2 g2g2 | g2g2
+f2f2 | g2g2 g2g2 | f2f2 f2f :|\
+|: z | g2 g2 g2g2 | g2g2 f2f2 | g2g2 g2g2 |
+f2f2 f2f :|\
+|: z | g2g2 g2g2 | g2g2 f2f2 | g2g2 g2g2 | f2f2 f2f :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 121
+T: He hirpl'd till her
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.12 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+f |\
+eaca ecAc | d>fec B/B/B Bf |\
+eaca ecAc | dfec A/A/A A :|
+|: e |\
+cAec fdec | dfca B/B/B Be |\
+cA (ef/^g/) afec | dfec A/A/A A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | a2a2 b2b2 |\
+a2a2 a2a2 | d2e2 A2A :|\
+|: z |
+a2a2 a2a2 | a2a2 b2b2 |\
+a2a2 a2a2 | d2e2 A2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 122
+T: Had the Lass till I win at her
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.12 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+Ae-e(g f)dec | Ae-e(B d)GdB |\
+Ae-e(g f)def | g>edg BGdB :|
+|:\
+Ag (f/g/a) (fd)ec | Ag (f/g/a) G(B/c/ d)B |\
+Ag (f/g/a) (fd)ef | g>edg BGdB :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+a2a2 a2a2 | a2a2 g2g2 |\
+a2a2 a2a2 | g2g2 g2g2 :|\
+|:\
+a2a2
+a2a2 | a2a2 g2g2 |\
+a2a2 a2a2 | g2g2 g2g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 131
+T: Steer the Gil
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.13 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The high c's in bar 4 are also natural.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+d2de (d/c/B/A/) (G/F/E/D/) | d2df e(gTfe) |\
+d2de (d/c/B/A/) (G/F/E/D/) | E=C-CE c2ce :|
+|:\
+dD-DB A(FTED) | dD-Df egfa |\
+dDDB A(FTED) | E=C-CE =c2ce :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d2d2 d2d2 | d2d2 A2A2 |\
+d2d2 d2d2 | =c2c2 c2c2 :|
+|:\
+d2d2 d2d2 | d2d2 A2A2 |\
+d2d2 d2d2 | =c2c2 c2c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 132
+T: Lady Nelly Wemyss's Reel
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.13 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B |\
+Tc2e- e(f/^g/a) | cAc Te2d |\
+Tc2e- e(e/f/=g) | BGB d2B |\
+Tc2e- ef^g | a^gf edc |\
+dfd cac | BGB d2 :|
+|: (f/^g/ |\
+a)cA ecA | acA ef^g |\
+acA ecA | BGB d2(f/^g/ |\
+a)cA ecA | a^gf edc |\
+dfd cac | BGB d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a3 a3 | a3 a3 |\
+a3 a3 | g3 g3 |\
+a3 a3 | a3 a3 |\
+a3 a3 |
+g3 g2 :|\
+|: z |\
+a3 a3 | a3 a3 |\
+a3 a3 | g3 g3 |\
+a3 a3 | a3 a3 |\
+a3 a3 | g3 g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 141
+T: Your welcome to your feet again
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.14 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+CEGA cED2 | CEGA cGAc | FdEc dEDE | CEGA cGAc :|
+|: gcga gede | gcga gage | fage dcde | cGAG cGAc :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+c2c2 d2d2 | c2c2 c2c2 | f2e2 d2d2 | c2c2 c2c2 :|
+|: c2c2 d2d2 |
+c2c2 c2c2 | f2e2 d2d2 | c2c2 c2c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 142
+T: Because he was a bonny Lad
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.14 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+e |\
+(Tc>BA)a faec | dfec  B/B/B Be |\
+(Tc>BA)a faec | dfec A/A/A A :|\
+e |\
+(Tc>BA)c defd | cAec B/B/B Be |
+(Tc>BA)c def^g | (a/^g/f/e/) ac A/A/A Ae |\
+cAeA fAeA | cAeA B/B/B B^g |\
+afge fdec | dBec A/A/A A |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | a2a2 b2b2 |\
+a2a2 a2a2 | d2e2 A2A :|\
+z |\
+a2a2 a2a2 | a2a2
+e2e2 |\
+a2a2 a2a2 | e2e2 A2A2 |\
+a2a2 a2a2 | a2a2 b2b2 | a2a2 a2a2 | d2e2 A2A |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 151
+T: The Parson & his Boots
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.15 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+G3 G2d | B2G (B/c/d)B | G3  Bcd | EFG AFD |\
+G3 G2d | B2G (B/c/d)B | gfe dcB | ABG AFD :|
+|:\
+Bcd ded | ded dcB | cde efe | efe edc |\
+Bcd ded | ded def | gfe dcB | ABG AFD :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g3 g3 | g3 g3 | g3 g3 | e3 d3 |\
+g3 g3 | g3 g3 | g3 g3 | d3 d3 :|\
+|: g3
+g3 | g3 g3 | c3 c3 | c3 c3 |\
+g3 g3 | g3 g3 | g3 g3 | d3 d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 152
+T: Merry Lads of Air
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.15 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+f |\
+edcA cGGf | edcA f2(e/f/g) |\
+edcA cGGc | (A/B/c) GE D2C :|
+|: z |\
+c2g>a g>ede | c2ga g2(Tfe) |\
+c/c/c ga gede | f>g a/g/f/e/ d2d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+c2c2 G2G2 | c2c2 c2c2 |\
+c2c2 g2g2 | f2g2 g2c :|\
+|: z |
+c2c2 G2G2 | c2c2 c2c2 |\
+c2c2 g2g2 | f2e2 d2d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 161
+T: Tulloch Gorm
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.16 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+(G/A/B/c/ d)G cFA2 | BGdG Bcdg |\
+BGdG cFA2 | Ggdc TB2AB :|
+|:\
+Ggde fFA2 | Ggde f>gag |\
+fedf cFA2 | Ggde TB2AB :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g2g2 f2f2 | g2g2 g2g2 |\
+g2g2 f2f2 | g2g2 g2g2 :|\
+|: g2g2
+f2f2 | g2g2 f2f2 |\
+f2f2 f2f2 | g2g2 g2g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 162
+T: Over the Water to Charlie
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.16 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+A>BA A2G | (TF>EF) D3 | ABA AFA | B3 d3 |\
+D>ED DEF | G2F TE2D | dcB AFA | B3 {Bc}d3 :|
+|:\
+d2e f2f | e2d (TcBA) | d2e fdg | Te3 A3 |\
+dcd efg | fed (Tc>BA) | (B/c/d)B AFA | B3 d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d3 d3 | d3 d3 | d3 d3 | d3 d3 |\
+d3 d3 | d3 d3 | d3 d3 | d3 d3 :|
+|:\
+d3 d3 | A3 A3 | d3 d3 | a3 a3 |\
+d'3 c'3 | d'3 a3 | g3 f3 | g3 d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 171
+T: Lenox Love to Blantyre
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.17 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+C |\
+F/F/F F>G TA>GFA | G/G/G GA d>cdf |\
+F/F/F FG TA>GFA | GAFC D/D/D D :|\
+|: f |
+cdfg agfa | gfga g>fdf |\
+[1 cdfg agfa | gfba Tg2f :|\
+[2 c/c/c af gfba | gfba Tg2f |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+f2f2 f2f2 | g2g2 g2g2 |\
+f2f2 f2f2 | c2f2 d2d :|\
+|: z |
+f2f2 f2f2 | g2g2 g2g2 |\
+[1 f2f2 f2f2 | c2c2 c2f :|\
+[2 f2f2 f2f2 | c2c2 c2f |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 172
+T: Struen Robertson's Rant
+R: reel, strathspey
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.17 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Edor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B |\
+E/E/E G>A (TB>AB)d | D/D/D FE (DF/G/A)F |\
+E/E/E G>A TB>ABe | dBdF E/E/E E :|
+|: f |\
+efge bfge | Tf>edf (a/g/f/e/) df |\
+efge bfge | dBAF E/E/E E :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+e2e2 e2e2 | d2d2 d2d2 |\
+e2e2 e2e2 | d2d2 e2e :|\
+|: z |
+e2e2 e2e2 | d2d2 d2d2 |\
+e2e2 e2e2 | d2d2 e2e :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 181
+T: A Trip to London
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.18 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+DFB dcB | ABc GFE |\
+DFB dcB | FBA B3 :|\
+|:\
+Bdf Bdf | bag fdB |
+Bdf Bdf | gec cAF |\
+Bde fga | bag fed |\
+cde dcB | FBA B3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+B3 B3 | f3 e3 |\
+B3 B3 | f3 B3 :|\
+|:\
+b3 b3 | b3 b3 |\
+b3 b3 | c3 f3 |\
+B3 B3 | B3 B3 |\
+f3 B3 | f3 B3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 182
+T: Miss Fraser's Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.18 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+gG-GA GAGA | gG-GB TA>GE2 |\
+gG-GA GABG | A/A/A (b/a/g) e2g2 :|
+|:\
+dega (b/a/g) (a/g/e) | (d/e/f) gB TA>GE2 |\
+dega (b/a/g) ab | d/d/d (b/a/g) e2g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g2g2 g2g2 | g2g2 a2a2 |\
+g2g2 g2g2 | a2g2 g2g2 :|\
+|:\
+g2g2
+g2g2 | g2g2 a2a2 |\
+g2g2 g2g2 | g2g2 g2g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+% missing page
+
+% missing page
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 211
+T: Miss Flora McDonald's Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.21 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The first half of the last measure should probably have E(m) for the bass.
+M: C|
+L: 1/8
+K: Edor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F |\
+E2EF BFEF | E2EF dFDF |\
+E2EF EFGA | (B/c/d) AG FDD :|
+|: F |\
+Ee-ed eEEF | Ee-ec dDDF |\
+Eeed BcdB | (e/f/g) Tfe dDD :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+e2e2 e2e2 | e2e2 d2d2 |\
+e2e2 e2e2 | d2d2 d2d :|\
+|: z |
+e2e2 e2e2 | e2e2 d2d2 |\
+e2e2 e2e2 | d2d2 d2d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 212
+T: Lady Betty Wemyss's Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.21 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The pickups & endings of the two strains have mismatched rhythms.  Not fixed.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+EGc2 EGc2 | (d/c/B/A/) cE D/D/D D2 |\
+EGc2 EGc2 | (d/c/B/A/) cE C/C/C C2 :|\
+|: g |\
+egcg ecge | faTg>e d/d/d dg |
+egcg ecge | fdge c/c/c cg |\
+egcg ecge | faTg>e d/d/d dg |\
+egde cdAc | GEcE C/C/C C |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+c2c2 c2c2 | c2c2 d2d2 |\
+c2c2 c2c2 | G2G2 C2C2 :|\
+|: z |\
+c2c2 c2c2 | c2c2
+d2d2 |\
+c2c2 c2c2 | f2g2 c2c2 |\
+c2c2 c2c2 | c2c2 d2d2 |\
+c2c2 c2c2 | c2c2 c2c |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 221
+T: Sir Alex:r McDonald's Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.22 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+%%text In this Reel the 1st part is play'd twice over between the 2d & last parts.
+P: AABBAACC
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+FA-A(f/g/ a)fed | gfed BdBA |\
+FA-A(f/g/ a)fed | (e/f/g) (f/g/a) Te2d2 :|
+|:\
+FAA>B A>BAF | G/G/G G2 GABG |\
+FA-A>B A>BAF | GBAF TE2D2 :|
+|:\
+(f/g/a) a>b a>baf | g/g/g g2 g>aba |\
+(f/g/a) a>b a>baf | gafg Te2Hd2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d2d2 d2d2 | e2e2 e2e2 |\
+d2d2 d2d2 | g2a2 a2d2 :|\
+|:\
+d2d2 d2d2 | g2g2 g2g2 |\
+d2d2 d2d2 |
+g2a2 a2d2 :|\
+|:\
+d'2d'2 d'2d'2 | e'2e'2 e'2e'2 |\
+d'2d'2 d'2d'2 | g2a2 a2d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 222
+T: Sodger Laddie
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.22 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+g "^:S:"|\
+(TB>AG) GDE | A>BA ABd | (e/f/g)G- GDE | G>AG B2G |\
+cAc BGB | ABA ABd | (e/f/g)G- GDE |[1 G>AG Gg :|[2 G2G G2 :|
+|: e/f/ |\
+g>ag gdB | Aaa Ta2g | def gdB | g(a/g/f/e/) gdB |\
+(c/B/c/d/e/f/ g)dB | aAA ABd |\
+(e/f/g)G- GDE | G>AG G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g3 g3 | a3 a3 | g3 g3 | g3 g3 |\
+a3 g3 | a3 a3 | g3 g3 |[1 g3 g2 :|
+[2 g3 g2 :|\
+|: z |\
+g3 g3 | a3 a3 | g3 g3 | g3 g3 |\
+c'3 b3 | a3 a3 | g3 g3 | g3 g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 231
+T: Marchmont House
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.23 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+(F/G/A)F D2A | ded dAG | (F/G/A)F D2f | eEE E2G |\
+(F/G/A)F D2A | ded dAG | FdF Edc | dAF D2 :|
+|: g |\
+(f/g/a)f d2f | aba afd | (f/g/a)f d>ef | eEE E2g |\
+(f/g/a)f dfa | bag fed | (B/c/d)B AFB | AFD D2 :|
+|: A |\
+FAd FAd | dAF dAF | FAd def | eEE E2G |\
+FAd FAd | fed cBA | (B/c/d)B AFB | AFD D2 :|
+|: f |\
+dfa dfa | afd afd | dfa def | eEE E2f |\
+dfa dfa | bag fed | (B/c/d)B AFB | AFD D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d3 d3 | d3 d3 | d3 d3 | e3 e3 |\
+d3 d3 | d3 d3 | a3 A3 |
+d3 d2 :|\
+|:z |\
+d3 d3 | d3 d3 | d3 d3 | e3 e3 |\
+d3 d3 | g3 d3 | G3 A3 |\
+d3 d2 :|\
+|: z |\
+d3 d3 | d3 d3 | d3 d3 | e3 e3 |\
+d3 d3 | d3 d3 | g3 a3 |
+d3 d2 :|\
+|: z |\
+d3 d3 | d3 d3 | d3 d3 | e3 e3 |\
+d3 d3 | d3 d3 | g3 a3 | d3 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+% missing page
+
+% missing page
+
+% missing page
+
+% missing page
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 281
+T: O'er Young to Marry yet
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.28 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+C |\
+EG-GA c>de(d | Tc>A)GA dedD |\
+EG-GA c>dec | (e/f/g) de cCC :|
+|: g |\
+ecgc e>fga | ecgc eddg |\
+ecgc ef>g(a | ec)dB cCC :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+c2c2 c2c2 | c2c2 d2d2 |\
+c2c2 c2c2 | g2G2 c2c :|\
+|: z |
+c2c2 c2c2 | c2c2 d2d2 |\
+c2c2 c2c2 | G2G2 C2C :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 282
+T: Scots Bonnet
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.28 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+GABc dedB | ABcd e/e/e e2 |\
+GABc (de/f/ g)e | dBcA G/G/G G2 :|
+|:\
+BGAB A(FTED) | BGAB E/E/E E2 |\
+BGAB A(FTED) | dBcA G/G/G G2 :|
+|:\
+gdBG gdBG | (TA>GA)B E/E/E E2 |\
+gdBG gdBG | cAdB G/G/G G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g2g2 g2g2 | a2a2 a2a2 |\
+g2g2 g2g2 | d2d2 G2G2 :|\
+|:\
+g2g2 d2d2 | g2g2 e2e2 |
+g2g2 d2d2 | d2d2 G2G2 :|\
+|:\
+g2g2 g2g2 | d2d2 e2e2 |\
+g2g2 g2g2 | c2d2 G2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 291
+T: Pipers Maggot
+R: slip-jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.29 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Gmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+d |\
+TB2G GAG dBG | (B/c/d)B gdB deg |\
+TB2G GAG dBG | (A/B/c)A fcA c2 :|
+|: d |\
+TB2d gdB gdc | TB2d gdB deg |\
+TB2d gdB gdB | (A/B/c)A fcA c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g3 g3 g3 | g3 g3 g3 |\
+g3 g3 g3 | a3 a3 a2 :|\
+|: z |\
+g3 g3 g3 |
+g3 g3 g3 |\
+g3 g3 g3 | f3 f3 f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 292
+T: Loch-ness
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.29 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The bass part's last note in each strain is shortened to an 8th note.
+M: C|
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+A/A/A a2 gede | cGGA GAcG |\
+A/A/A a2 gede | cABG A/A/A A :|
+|: B |\
+A>Bcd e>dce | G/G/G GE cG-Gc |\
+A>Bcd egde | cABG A/A/A A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | e2e2 A2A :|\
+|: z |\
+a2a2
+a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | e2e2 A2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+% missing page
+
+% missing page
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 321
+T: Brose and Butter
+R: slip-jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.32 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+cde AcA AcA | cde AcA TB2G |\
+cde AcA ABc | TB2G Gge dBG :|
+|:\
+cde ege ege | cde ege dBG |\
+cde ege e^fg | T^f2d dge dBG :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+a3 a3 a3 | a3 a3 g3 |\
+a3 a3 a3 | g3 g3 g3 :|\
+|:\
+c3 c3 c3 | c3 c3 g3 |\
+c3 c3 c3 | d3 d3 g3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 322
+T: Keep the Country Bonny Lassie
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.32 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+e |\
+A/A/A (TcA) B>cdf | A/A/A (TcA) eATcA |\
+dfce B>cdf | ecaf Te2 A :|
+|: g |\
+(a/g/f/e/) ce B>cdg | (a/g/f/e/) ce (a/g/f/e/) ce |\
+dfca B>cde | (e/f/g a)f Te2 A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 b2b2 | a2a2 a2a2 |\
+a2a2 b2b2 | a2a2 a2a :|\
+|: z |\
+a2a2
+b2b2 | a2a2 a2a2 |\
+d'2c'2 b2b2 | a2a2 a2a :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 331
+T: Lady George Beauclark's Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.33 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Shortened last note in bar 4 to fix the rhythm.
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+G |\
+TE2(.C.G) cGEC | FAGE FD-DG |\
+TE2(CG) cGEC | FDGF ECC :|\
+|: g |\
+egcg afge | afge fd-dg |
+Te2cg fage | fdgf ec-cg |\
+egcg afge | afge fd-de |\
+cedf egfa | egdf ec-c :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+c2c2 c2c2 | c2c2 d2d2 |\
+c2c2 c2c2 | f2g2 c2c :|\
+|: z |\
+c2c2 c2c2 | c2c2 d2d2 |\
+c2c2 c2c2 | f2g2 c2c2 |\
+c2c2 c2c2 | c2c2 d2d2 |\
+c2d2 e2f2 | g2g2 c2c :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 332
+T: Balendaloch's Dream
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.33 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Removed dot from last e in last bar; might be a random speck.
+M: C
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+e |\
+Tc2(.A.c) (ef/g/ a)f | g2(.g.B) GBde |\
+Tc2(.A.c) (ef/g/ a)f | gefd e2A :|
+|: e |\
+a2(.e.a) cA af | g2(.d.g) BG dB |\
+cedf egfa | (a/g/f/e/) (.f.d) e2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | a2a2 a2a :|
+|: z |\
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | a2a2 a2a :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 341
+T: The Braes of Mor
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.34 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+f |\
+f/f/f (.d.f) d/d/d df | E/E/E (TB>A) BEBe |\
+f/f/f (.d.f) defg | aAAG TF2D :|
+|: z |\
+FA-AB/c/ (d/c/B/A/) (TFD) | GBFA E/E/E (.B.E) |\
+FA-AB ABde | fdgf Te2d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 d2d2 | e2e2 e2e2 |\
+d2d2 d2d2 | A2A2 D2D :|
+|: z |\
+d2d2 d2d2 | g2f2 e2e2 |\
+d2d2 d2d2 | d2g2 a2d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 342
+T: The Bride is a bonny thing
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.34 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+eAA ecc | fBB Baf | eAA ecc | eAA ecc |\
+fdd ecc | fBB Baf | eAA ecc | eAA Aaf :|
+|:\
+e2e (f/e/f/g/a) | g2B Bcd | e2e (f/e/f/g/a) | ece aeg |\
+fdf ece | f2B Bcd | e2e (f/e/f/g/a) | Te2A Acd :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+a3 a3 | b3 b3 | a3 a3 | a3 a3 |\
+d'3 c'3 b3 b3 | a3 a3 | a3 a3 :|
+|:\
+a3 a3 | b3 b3 | a3 a3 | a3 a3 |\
+d'3 c'3 | b3 b3 | a3 a3 | a3 a3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 351
+T: Lady Jean Murray's Rant
+R: reel, rant
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.35 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+D/D/D (D>A) TF2 FA | E2 E>B c2- ce |\
+D/D/D D>A TF2 FA | E2 Ec d2- d :|\
+|: g |
+(f/g/a) fd (f/g/a) fd | (e/f/g) ec (e/f/g) ec |\
+(f/g/a) fd (f/g/a) fd | (e/g/f/e/) (a/g/f/e/) d2 d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 d2d2 | c2c2 c2c2 |\
+d2d2 d2d2 | A2A2 D2D :|\
+|: z |
+d2d2 d2d2 | c2c2 c2c2 |\
+d2d2 d2d2 | A2A2 D2D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 352
+T: Birks of Abergeldy
+R: reel, march
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.35 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+F>GAc | f2(Ted) | f2(Ted) | (e/f/g) (f/g/a) |\
+F>GAc | f>gag | fdcA | TG2 d2 :|
+|:\
+F>GAd | cF (A/B/c/)A/ | cF (A/B/c/)A/ | (d/c/B/A/ G)A |\
+F>GAc | f>gag | fdcA | TG2 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+f2f2 | f2f2 | f2f2 | g2g2 |\
+f2f2 | f2f2 | f2f2 | g2g2 :|
+|:\
+f2f2 | f2f2 | f2f2 | g2g2 |\
+f2f2 | f2f2 | f2f2 | g2g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 361
+T: Irvin Stiple
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.36 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: Fixed the incorrect lengths of the bass voice's last notes in each strain.
+M: C
+L: 1/8
+K: Dmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+f |\
+d/d/d (.d.A) F>GAc | BGcG ECGE |\
+Dd-dA F>GA(g | f)de^c dD-D :|\
+|: f |\
+defg a>baf | gecg ecge |
+defg a>ba(g | f)de^c dDDf |\
+defg a>baf | (g/a/g) (.c.g) ecge |\
+fdge afb(g | f)de^c dD-D |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 D2D2 | G2G2 c2c2 |\
+d2d2 d2d2 | A2A2 D2D :|\
+|: z |\
+d2d2 d2d2 | c2c2 c2c2 |
+d2d2 d2d2 | A2A2 D2D2 |\
+d2d2 d2d2 | c2c2 c2c2 |\
+d2e2 f2g2 | a2a2 d2d |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 362
+T: Kick the Rogues out
+R: slip-jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.36 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The time signature was 6/8, but it's obviously 9/8.
+M: 9/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+(FGA) D2B (AFD) | (FGA) D2=c B2A |\
+(FGA) D2B (AFD) | (GFE) (EFA) TB2A :|
+|:\
+(dcd) D2B (AFD) | (dcd) A2g (Tf2e) |\
+(de)f (ef)d (cTB)A | (B/c/d)B (AF)A TB2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d3 d3 d3 | d3 d3 d3 |\
+d3 d3 d3 | A3 A3 D3 :|
+|:\
+d3 d3 d3 | d3 d3 d3 |\
+a3 a3 a3 | g3 f3 d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 371
+T: Braes of Balquheder
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.37 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c |\
+(A/B/c) Fc A2Ac | dFcF AGGc |\
+(A/B/c) Fc A2Ac | d>efc A/A/A A :|\
+|: c |\
+d>efc A/A/A (.a.g) | fdcA cGGc |
+d>efc A/A/A ag | (Tfef)c A/A/A Ac |\
+d>efc A/A/A ag | fdcA cGGA |\
+FC-CD F>GAc | f>gac A/A/A A |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+f2f2 f2f2 | f2f2 g2g2 |\
+f2f2 f2f2 | B2c2 F2F :|\
+|: z |\
+f2f2 f2f2 |
+f2f2 g2g2 |\
+f2f2 f2f2 | c2c2 F2F2 |\
+f2f2 f2f2 | f2f2 g2g2 |\
+f2f2 f2f2 | c2c2 F2F |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 372
+T: The Last pint Ale
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.37 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Added missing natural in bar 2 of the bass voice.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+D2DF E2Ec | (B/c/d) AF (G/F/E/D/ =C)E |\
+D2DF E2Ec | B/c/d AF A2-A2 :|
+|:\
+defd gfed | (B/c/d) AF (G/F/E/D/ =C)E |\
+defd gfed | B/c/d AF A2 A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d2d2 A2A2 | d2d2 =c2c2 |\
+d2d2 A2A2 | d2A2 D2D2 :|
+|:\
+d2d2 d2d2 | d2d2 =c2c2 |\
+d2d2 d2d2 | g2a2 d2d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 381
+T: The Fir Tree
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.38 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Bars 1, 3 & 5 have a DBc beat with a double beam across all 3 notes; written as triplet to fix it.
+N: There is a final repeat sign, but no others.
+M: C
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A2 |\
+TF4 (3:4DBc d3(AB3)G | TE4 =C2AB c3GE3A |\
+TF4 (3:4DBc d3AB3G | TF4 D2AB c3Ad3G |
+TF4 (3:4DBc dcBA BAGF | TE4 =C2AB =c3GE3A |\
+TF4 D2Bc d3AB3G | TF4 D4 d3d d2 |]
+f2 |\
+ddd2 f3d g3ef3e | e2ee g3e g3ec3e |\
+d3ef3g a3ba3f | ge3a3g f3ed2f2 |
+ddd2 f3d g3ef3d | eee2 g3e g3e =c2(fg |\
+a3)fg3e f3de3c | BABc dcBA TF3E D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+d4d4 d4d4 | =c4c4 c4c4 |\
+d4d4 d4d4 | d4d4 d4d4 |\
+d4d4 d4d4 |
+=c4c4 c4c4 |
+d4d4 d4d4 | d4d4 d4d2 |]\
+z2 |\
+d4d4 d4d4 | =c4c4 c4c4 |\
+d4d4 d4d4 |
+g4a4 d4d4 |\
+d4d4 d4d4 | =c4c4 c4c4 |\
+d4d4 d4d4 | G4A4 D4D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 382
+T: Kilwinan Lodge
+N: The table of contents has "Kilwinnan".
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.38 #2 (and p.39 #1)
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c |\
+AF-Fc (A/B/c) Fc | fc (A/B/c) BGGc |\
+AFFc  (A/B/c) Fc | f2 (a/g/f/e/ f)FF :|
+|: e |\
+f2 (a/g/f) gefc | (f/g/a) (f/g/a) gdde |\
+f2 (a/g/f) gdfc | fdcB AFFe |
+f2 (a/g/f) gdfc | (f/g/a) (f/g/a) gddg |\
+(a/g/f) (g/f/d) (f/d/c) (d/c/B) | (A/B/c) (G/A/B) AFF |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+f2f2 f2f2 | f2f2 g2g2 |\
+f2f2 f2f2 | c2c2 F2F :|\
+|: z |\
+f2f2 f2f2 | f2f2 g2g2 |
+f2f2 f2f2 | c2c2 F2F2 |\
+f2f2 f2f2 | f2f2 g2g2 |\
+f2g2 a2b2 | c'2c'2 f2f |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 392
+T: Balgeny's Bouling Green
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.39 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The notes in the bass line are all quarter notes, without dots; fixed.
+M: 12/8
+L: 1/8
+K: Ddor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+(D>ED) D2c GEC C2E | (DED) D2f Te2d ecA |\
+(fgf) Te2d cAc C2E | (DED) D2f (e/f/g)e d3 :|
+|:\
+(ded) d2a gec c2e | ded d2a g2e gec |\
+(fgf) Te2d cAc C2E | (DED) D2f (e/f/g)e d3 :|
+|:\
+dAd cAc GEC CDE | dAd cAc dAd cAc |\
+fed cAc GEC C2E | (DED) D2f (e/f/g)e d3 :|
+|:\
+{fg}afd afd gec efg | afd afd afd afd |\
+(fgf) Te2d cAc C2E | (DED) D2f ( e/f/g)e d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d3 d3 c3 c3 | d3 d3 A3 A3 | d3 d3 c3 c3 | d3 d3 A3 D3 :| |: d3 d3 c3 c3 |
+d3 d3 c3 c3 | d3 d3 c3 c3 | d3 d3 A3 D3 :| |: d3 d3 c3 c3 | d3 d3 d3 d3 | d3 d3
+c3 c3 | d3 d3 A3 D3 :| |: d3 d3 c3 c3 | d3 d3 d3 d3 | d3 d3 c3 c3 | d3 d3 A3 D3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 401
+T: Queensberry House
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.40 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B |\
+A(FTED) G2-GB | A(FTED) E2-EB |\
+AFED G2-GB | AFdF D2D :|
+|: A |\
+defd gfec | defd eAcA |\
+defd gfeg | (f/g/a) (.A.c) d2d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 G2G2 | d2d2 A2A2 |\
+d2d2 G2G2 | A2A2 D2D :|\
+|: z |
+d2d2 A2A2 | d2d2 A2A2 |\
+d2d2 g2g2 | a2a2 d2d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 402
+T: The Bonny wi thing
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.40 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+fcA AcA | fcA Aag |\
+fcA AcA | B2G (B/c/d)B :|\
+|:\
+c2g gea | gec (e/f/g)e |
+c2g gec | dBG (B/c/d)B |\
+c2g gea | gec (e/f/g)e |\
+afd gec | dBG (B/c/d)B :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+a3 a3 | a3 a3 |\
+a3 a3 | g3 g3 :|\
+|:\
+c3 c3 | c3 c3 |
+c3 c3 | G3 G3 |\
+c3 c3 | c3 c3 |\
+d3 c3 | G3 G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 410
+T: The Millers Wedding -- Strathspey
+R: strathspey
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.41 #0 (scordatura)
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Added missing flags in bars 1, 2, and to the last bass notes in some strains.
+N: The low note in bar 1 is positioned like G, but has a leger line; treated as low G.
+N: The final bar should probably be like the others, but what should be a low B is below the leger line.
+P: Violin tuning: [eADG,]
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+G, |\
+[DD]<[DD] [DD]>A, [E2-B,2][EB,]F |\
+A,>A, B,>A, [D2-D2][DD]F |\
+[DD]<[DD] [DD]>A, [E-B,2]>DEF |\
+A,<A, TB,>A, [D2-D2][DD] :|
+|: A |\
+D/D/D TF>D A>FEB | D<D TF>D A>D TF>D |\
+TE>D TF>D A>FEB | A,<A, TB,>A, [D2-D2][DD] :|
+|: f |\
+d/d/d dB [e2B2][eB]f |\
+A/A/A (TB>A) d2-df |\
+d/d/d d>B Te>def | A<A TB>A d2d :|
+|: (f/g/ |\
+a)>fd>f e2-ef/g/ | a>fd>e d>efd |\
+g>af>b Te>de>f | A<A TB>A d2d :|
+|: f |\
+D<D TF>D E2-Ef | D/D/D TF>D A2Ag |\
+D<D TF>D E2Ef | D<DTF>D d>efd |\
+g>ef>d e>Bd>B, | A,>A, TA,>A, [D2-D2][DD] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 e2E2 | A2A2 D2D2 | d2d2 e2E2 | A2A2 D2D :|\
+|: z |
+d2d2 d2e2 | d2d2 d2d2 |\
+d2d2 d2e2 | A2A2 D2D :|\
+|: z |\
+d2d2 e2E2 |
+A2A2 D2D2 |\
+d2d2 e2e2 | A2A2 D2D :|\
+|: z |\
+d2d2 e2e2 | d2d2 d2d2 |\
+g2f2 e2E2 | A2A2 D2D :|
+|: z |\
+d2d2 A2A2 | d2d2 d2d2 |\
+d2d2 A2A2 | d2d2 d2d2 |\
+g2f2 e2d2 | A2A2 D2D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 421
+T: Rothemurches Rant -- strathspey
+R: strathspey
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.42 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 4th strain has initial repeat but no final repeat; not fixed.
+N: Fixed the lengths of the final bass notes in each strain.
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+G |\
+(TE>DE)C E<GG2 | c>GA>G c>GA<c |\
+(TE>DE)C E<GG2 | A>cG>c E<DD :|
+|: f|\
+Te2d>e d>ed>A | c>de>d c>Ac>G |\
+A/A/A a>g Te2dc | A>cG>c EDD :|
+|: g |\
+e>gg>a g>aTg>e | e>a-a>b a>ba>g |\
+e>gd>e c>de>c | e>a(Tg>e) d/d/d d :|
+|: g |\
+Te2d>c d<e a2 | g<e ed Tc2 A>c |\
+G>Ac>d Te2d>c | A>cG>c E<DD |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+c2c2 c2c2 | c2c2 c2c2 |\
+c2c2 c2c2 | f2e2 d2d :|\
+|: z |\
+c2d2 d2d2 |
+c2c2 c2c2 |\
+A2A2 a2a2 | f2e2 d2d :|\
+|: z |\
+c2c2 c2c2 | c2c2 c2c2 |\
+c2c2 c2c2 |
+A2A2 D2D :|\
+|: z |\
+c2c2 c2c2 | c2c2 c2c2 |\
+c2c2 c2c2 | f2e2 d2d |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 422
+T: The Wives of Torphican
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.42 #2 & p.43 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Bar 2 has a mark before the C that may be a natural sign, but the bass line has no such marks.
+N: Removed dots from last bass notes in each strain.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+TF2D DFA | ECE G2E | TF2D DFA | DED f2d |\
+(ga/g/f/e/) (fg/f/e/d/) | eEE E2A | TF2D A(d/c/B/A/) | FDD D2 :|
+|: f |\
+(f>ef) def | gaf efg | (Tf>ef) def | (ab/a/g) Tf2d |\
+g(a/g/f/e/) f(g/f/e/d/) | eEE E2A | TF2A (Bd/c/B/A/) | dDD D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d3 d3 | c3 c3 | d3 d3 | d3 d3 |\
+g3 f3 | e3 e3 | d3 d3 | d3 d2 :|
+%page 43
+|: z |\
+d3 d3 | e3 e3 | d3 d3 | d3 d3 |\
+e3 d3 | A3 A3 | d3 d3 | d3 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 432
+T: The Ruffians Rant -- Strathspey
+R: strathspey
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.43 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B2 |\
+AF3 TF3D TF3EF2B2 | AF3 TF3D TE3DE2B2 |\
+AF3 TF3D d3ef3e | dB3A2F2 TE3DE2 :|
+|: B2 |\
+AF3 B3A d3ATB3A | FF3 d3A B3AB2d2 |\
+AF3TE3D d3eTf3e | d3Bd3F TE3DE2 :|
+|: b2 |\
+af3Tf3e Tf3ef2b2 | af3 Tf3d Te3de2b2 |\
+af3Tf3e d3eTf3e | (dcBA d3)F TE3DE2 :|
+|: B2 |\
+AF3 d3A TB3Ad3A | TB3Ad3A d3ABd3 |\
+AF3TE3D d3eTf3e | (fe)(dB) (dB)(AF) TE3DE2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+d4d4 d4d4 | d4d4 e4e4 |\
+d4d4 d4d4 | d4d4 e4e2 :|\
+|: z2 |\
+d4d4 d4d4 |
+d4d4 d4d4 |\
+d4d4 d4d4 | d4d4 A4A2 :|\
+|: z2 |\
+d4d4 d4d4 | d4d4 A4A4 |\
+d4d4 d4d4 | d4d4 A4A2 :|\
+|: z2 |\
+d4d4 d4d4 | d4d4 d4d4 |\
+d4d4 d4d4 | d4d4 e4 e2 :|
+
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 441
+T: Lochiels Rant
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.44 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Fixed lengths of last bass note in each strain.
+M: C
+L: 1/8
+K: Ador
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+f |\
+EA A/A/A Te2dc | BG G/G/G Bd-dg |\
+egag Te2dg | TBA A/A/A gee :|\
+|: g |\
+dega {ga}b2ab | gd d/d/d gddg |
+dega baba | ge e/e/e geeg |\
+dega (b/a/g) (a/g/e) | (g/e/d) (e/d/B) gd-d(g/a/ |\
+b)gae d>eg>B | TBA A/A/A gee :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | a2a2 a2a :|\
+|: z |\
+g2g2 g2g2 | g2g2 g2g2 |
+g2g2 g2g2 | a2a2 a2a2 |\
+g2g2 g2g2 | g2g2 g2g2 |\
+g2g2 g2g2 | a2a2 a2a :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 442
+T: The North Loch
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.44 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c |\
+BGdG Bcdf | AFcF TA2Fc |\
+BGdG Bcdg | BGA^F G/G/G G :|\
+|: ^f |\
+(g>ag)d (ga)(gd) | ^fgfc TA2F^f |
+g>agd g>agd | c<Ad>c TB2G^f |\
+g>agd g>agd | ^f>gfc TA2FA |\
+BGcA dBge | dcBA TB2G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g2g2 g2g2 | f2f2 f2f2 |\
+g2g2 g2g2 | d2d2 G2G :|\
+|: z |\
+g2g2 g2g2 |
+f2f2 f2f2 |\
+g2g2 g2g2 | d2d2 G2G2 |\
+g2g2 g2g2 | f2f2 F2F2 |\
+G2A2 B2c2 | d2d2 G2G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 451
+T: I have a wife of my Ain
+R: slip-jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.54 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Edor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+(EFE) G2A B3 | (EFE) G2A BGE |\
+(EFE) G2A (Bcd) | (DED) F2d (AFD) :|\
+|:\
+(gag) (fgf) e3 | (EFE) G2A (BG)E |
+(gag) (fgf) (efe) | (DED) F2d (AFD) |\
+(gag) (fgf) e3 | (EFE) G2A (BGE) |\
+(gag) (fgf) (efe) | (ABc) (dcB) (AFD) :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+e3 e3 e3 | e3 e3 d3 |\
+e3 e3 e3 | d3 d3 d3 :|\
+|:\
+e3 e3 e3 | e3 e3 e3 |\
+e3 e3 e3 | d3 d3 d3 |
+e3 e3 e3 | e3 e3 e3 |\
+e3 e3 e3 | d3 d3 d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 452
+T: The Stuart's Rant
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.45 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+e |\
+(c/d/e) (f/g/a) Te2dc | dBgB aBgB |\
+(c/d/e) (f/g/a) Te2dc | dBgB aAA :|
+|: e |\
+TcA A/A/A TcAcA | BE E/E/E BEBe |\
+TcA A/A/A TcAcA | BE E/E/E aAA :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | e2e2 A2A :|
+|: z |\
+a2a2 a2a2 | e2e2 e2e2 |\
+a2a2 a2a2 | e2e2 A2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 461
+T: The Bonnet makers of Dundee
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.46 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: Ee-ef Te2dB | defd eBdA | Be-ef Te2dB | ABdF E/E/E E2 :|
+|: F/F/F F>E DEFA | B/B/B B>A Bdef | dBAF D>EFA | BdAF E/E/E E2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: e2e2 e2e2 | d2d2 d2d2 | e2e2 e2e2 | d2d2 e2e2 :|
+|: d2d2 d2d2 | e2e2 e2e2 | d2d2 d2d2 | g2f2 e2e2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 462
+T: Hey my Nanny
+R: slip-jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.46 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: Tf2e cee cee | Tf2e cee Bdd | Tf2e cee cee | gfe dBG Bcd :|
+|: fga eae cde | fga dgd Bcd | fga eae cde | gfe dBG Bcd :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: a3 a3 a3 | a3 a3 g3 | a3 a3 a3 | g3 g3 g3 :|
+|: a3 a3 a3 | a3 g3 g3 | a3 a3 a3 | g3 g3 g3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 471
+T: The Maltman comes a Monday
+R: slip-jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.47 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+(E/F/G)G G2g dBG | TF2A ABA TF2D |\
+(E/F/G)G G2g def | g2G GAG TF2D :|\
+|:\
+dBd ece dBG | TF2A ABA TF2D |
+dBd ece def | g2G GAG TF2D :|\
+|:\
+gag Tf2e dBG | TF2A ABA TF2D |\
+gag Tf2e def | g2G GAG TF2D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g3 g3g3 | d3 d3 d3 |\
+g3 g3 g3 | g3 g3 d3 :|\
+|:\
+b3 c'3 b3 | a3 a3 a3 |
+g3 c3 d3 | g3 G3 d3 :|\
+|:\
+g3 g3 g3 | d3 d3 d3 | g3 g3 g3 | g3 G3 d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 472
+T: The Highland Laddie
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.47 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+   f | eAcA {de}e2Tc2 | fBBc fBBf | ecac e2Tc2 | (A/B/c/d/ e)B TcAA :|
+|: f | fefa     Tf2ec | fBBc fBBf | eaca Te2c2 | (A/B/c/d/ e)B  cAA :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z | a2a2 a2a2 | b2b2 b2b2 | a2a2 a2a2 | e2e2 A2A :|
+|: z | a2a2 a2a2 | b2b2 b2b2 | a2a2 a2a2 | e2e2 A2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 481
+T: The Drunken Wife
+T: The Drunken Wifie
+N: The music page has "Wifie"; the table of contents and other sources have "Wife"
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.48 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The bass line is missing the "pickup" rests in both strains; fixed.
+M: C
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+d |\
+cAec dBgB | cAec A/A/A ae |\
+cAec dBgB | cA A/A/A Tf2e :|
+|: (f/g/ |\
+a/g/f/e/) ca B/B/B gB | (a/g/f/e/ a)e Tf2(ef/g/ |\
+a)efc B/B/B gB | cA A/A/A Tf2e :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 b2b2 | a2a2 a2a2 |\
+a2a2 b2b2 | a2a2 a2a :|
+|: z |\
+a2a2 b2b2 | a2a2 a2a2 |\
+a2a2 b2b2 | a2a2 a2a :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 482
+T: Sleepy Maggy
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.48 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+Tf2Bb fBde | Tf2Bb eAce |\
+Tf2Bb fBde | (f/e/f/g/ a)f eAce :|
+|:\
+fBdB fBde | fBdB eAce |\
+fBdB fBde | (f/e/f/g/ a)f eAce :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+b2b2 b2b2 | b2b2 a2a2 |\
+b2b2 b2b2 | b2b2 a2a2 :|
+|:\
+b2b2 b2b2 | b2b2 a2a2 |\
+b2b2 b2b2 | b2b2 a2a2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 491
+T: Collonel Crafurd's Reel
+T: Collouel Crafurd's Reel
+N: The ToC has "Collonel"; the music page has "Collouel", an obvious typo.
+R: reel, strathspey
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.49 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+F>CA,C  F/F/F A>F | G/G/G B>A GDDE |\
+F>CA,C  F/F/F c>f | dfcf TA>GF :|\
+e |\
+f>gag fefc | d/d/d b>a gdde |
+f>gag fefc | dfcf TA>GFe |\
+f>gag fefc | d/d/d ba gdde |\
+fca(g f)(cd)(A | B)GcB TA>GF |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+f2f2 f2f2 | g2g2 d2d2 |\
+f2f2 f2f2 | B2c2 F2F :|
+z |\
+f2f2 f2f2 | g2g2 g2g2 |
+f2f2 f2f2 | B2c2 F2F2 |\
+f2f2 f2f2 | g2g2 g2g2 |\
+f2g2 a2b2 | c'2c2 f2F |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 492
+T: Will you go to Sheriff Moor
+R: reel, strathspey
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.49 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: There is a footnote "Number 7."
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+D>EGB A/A/A A2 | D>EGA c/c/c c2 |\
+B/B/B Bg A/A/A AB | G(cTBA) G2D2 :|\
+g>age agab | gage gd-de |
+gage agab | gaef g2dg |\
+edgB A/A/A A2 | D>EGA c/c/c c2 |\
+B/B/B Bg A/A/A AB | G(cTBA) G2G,2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g2g2 a2a2 | g2g2 c2c2 |\
+G2G2 d2d2 g2d2 G2G2 :|\
+g2g2 a2a2 | g2g2 g2g2 |
+g2g2 a2a2 | g2g2 g2g2 |\
+g2g2 a2a2 | g2g2 c2c2 |\
+G2G2 d2d2 | g2d2 G2G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 501
+T: Pudding Maggie
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.50 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F |\
+D/D/D AF ADDF | D/D/D AF BEEF |\
+D/D/D A>B d>efe | dBAF ADD :|\
+f |\
+d>efg abaf | gefd beef |
+d>efg abaf | ge (a/g/f/e/) fdde |\
+defg abaf | gefd beef |\
+(d/e/f) (e/f/g) (a/g/f) (g/f/e) | f>bef dDD |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 d2d2 | d2d2 e2e2 |\
+d2d2 d2d2 | g2a2 d2d :|\
+z |\
+d2d2 d2d2 | d2d2 e2e2 |
+d2d2 d2d2 | G2A2 D2D2 |\
+d2d2 d2d2 | d2d2 e2e2 |
+d2e2 f2g2 | a2A2 D2D |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 502
+T: Lady Jean Hume's Reel
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.50 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+c2g- geg | gea Tg2e | c2g g(a/g/f/e/) | ded e2d |\
+c2g- geg | gea Tg2e | (f/e/f/g/a) gfe | ded Te2d :|
+|:\
+c>dc cGc | cGc Te2d | c>dc cGE | DED Te2d |\
+cdc cGE | GAB cGE | FGA GFE | DED Te2d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+c3 c3 | c3 c3 | c3 c3 | d3 d3 |\
+c3 c3 | c3 c3 | c3 c3 | d3 d3 :|
+|:\
+c3 c3 | c3 c3 | c3 c3 | d3 d3 |\
+c3 c3 | c3 c3 | f3 e3 | d3 d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+% missing page
+
+% missing page
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 531
+T: The Burn of Carnie
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.53 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Why does bar 8 have that initial sharp before the c?
+M: C|
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+E2EF EFA(c | TB)ABc BAFA |\
+E2EF EFAc | TB>ABc A/A/A A2 :|\
+Tc>BAB cdec | d/c/B/A/ GA BcdB |
+Tc>BAB cdec | d/c/B/A/ ^GB A/A/A Ae |\
+T^c>BAB cdec | d/c/B/A/ GA BcdB |\
+cAdB ecfd | ^geac A/A/A A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+a2a2 a2a2 | a2a2 b2b2 |\
+a2a2 a2a2 | e2e2 A2A2 :|\
+a2a2 a2a2 | g2g2 g2g2 |
+a2a2 a2a2 | d2e2 A2A2 |\
+a2a2 a2a2 | g2g2 G2G2 |\
+A2B2 c2d2 | e2e2 A2A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 532
+T: Merrily dance the Quaker
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.53 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+(GAB) D2B | A2G TE2D |\
+(GAB) D2D | E3 G3 :|\
+|:\
+dcB edc | dcB ABc |
+dcB efg | TB3 d3  |\
+dcB gfe | dcB A2A |\
+GAB D2D | E3  G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g3 g3 | d3  d3  |\
+G3 B3 | cBA G3 :|\
+|:\
+G3 c3 | B3  d3  |
+g3 g3 | gdB GBd |\
+g3 c3 | B3  d3  |\
+G3 B3 | cBA G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 541
+T: Jenny dang the Weaver
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.54 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+g |\
+fA A/A/A ABAB | dA A/A/A Tf2ed |\
+fB B/B/B BABd | ABde Tf2e :|
+|: f |\
+defd efge | defd Te2dB |\
+defd eBgB | aA A/A/A Tf2e :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | a2a2 a2a2 |\
+b2b2 b2b2 | a2a2 a2a :|\
+|: z |
+d2d2 e2e2 | e2e2 B2B2 |\
+d2d2 G2G2 | A2A2 D2D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 542
+T: Peggie's Wedding
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.54 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+cdc c2c | ceg gec | cdc cdc | Bcd dBG |\
+cdc c2c | ceg gec | fgf efe | Bcd dBG :|
+|:\
+cdc g2c | e2c g2c | cdc g2c | Bcd dBG |\
+cdc gcc | ecc gcc | afd gec | Bcd dBG :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+c3 c3 | c3 c3 | c3 c3 | G3 G3 |\
+c3 c3 | c3 c3 | c3 c3 | G3 G3 :|
+|:\
+c3 c3 | c3 c3 | c3 c3 | G3 G3 |\
+c3 c3 | c3 c3 | f3 e3 | d3 G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+% missing page
+
+% missing page
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 571
+T: Lord Kelly's Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.57 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gdor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+D |\
+(DG)(BG) dGBG | (CFA)f F>GA(G/F/) |\
+DG-G(B A)(cB)(d | c)f (d/c/B/A/) BGG :|\
+|: g |\
+bgdg (Gdg)b | afcf (Fcf)a |
+bgdg feTcA | Af (d/c/B/A/) BGGg |\
+bgdg (Gdg)b | afcf (Fcf)a |\
+bga^f gd=fc | Af d/c/B/A/ BGG |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g2g2 g2g2 | f2f2 f2f2 |\
+g2g2 g2g2 | d2d2 G2G :|\
+|: z |\
+g2g2 g2g2 | f2f2 f2f2 |\
+g2g2 B2c2 | d2d2 G2G2 |\
+g2g2 g2g2 | f2f2 F2F2 |\
+G2A2 B2c2 | d2d2 G2G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 572
+T: Links of Leith
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.57 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: There's a footnote "Number 8."
+N: Fixed lengths of last notes in each strain to account for following pickup notes.
+M: C|
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+e |\
+TcA c/d/e AecA | BGgd (B/c/d) Ge |\
+TcA c/d/e aecA | BGgB A/A/A A :|\
+g |\
+a>bag egab | g>age dBGg |
+a>bag egab | gegB A/A/A Ag |\
+a>bag egab | gage dBGg |\
+afge fdec | dBgB A/A/A A |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | e2e2 A2A :|\
+z |\
+a2a2 a2a2 | g2g2 g2g2 |
+a2a2 a2a2 | e2e2 A2A2 |\
+a2a2 a2a2 | g2g2 g2g2 |
+a2a2 a2a2 | e2e2 A2A |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 581
+T: The Bridge of Anas
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.58 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C|
+L: 1/8
+K: Ddor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+D/D/D F>D E2c2 | GFED CDEC |\
+D/D/D FD E2d2 | c>Ac>E D/D/D D :|\
+|: A |\
+d>edA d/d/d f2 | Te>dce cdec |
+decA d/d/d f2 | Te>dce d/d/d d2 |\
+dedA d/d/d  f2 | Te>dce cdec |\
+d>ec>d A>cG>A | F>GEd D/D/D D |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 d2d2 | c2c2 c2c2 |\
+d2d2 d2d2 | A2A2 D2D :|\
+|: z |\
+d2d2 d2d2 | c2c2 c2c2 |
+d2d2 d2d2 | A2A2 D2D2 |\
+d2d2 d2d2 | c2c2 c2c2 |\
+d2d2 d2d2 | A2A2 D2D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 582
+T: I wish you would marry me now
+N: The "I" in the title is actually "J".
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.58 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C|
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+EA-AB c2ce | dcBA GABG |\
+AE E/E/E c2ce | dBgB A/A/A A2 :|\
+|:\
+age(a g)eae | gedg BGdB |
+agea geae | gdgB A/A/A A2 |\
+agea geae | gedg BGdB |\
+cAdB ecae | gegB A/A/A A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | e2e2 A2A2 :|\
+|:\
+a2a2 a2a2 | g2g2 g2g2 |
+a2a2 a2a2 | e2e2 A2A2 |\
+a2a2 a2a2 | g2g2 g2g2 |
+a2a2 a2a2 | e2e2 A2A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 591
+T: Hoble about
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.59 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+G |\
+(F/G/)AA d2A | d>ed Tc2A | (B/c/d)B AFD | GEE E2G |\
+(F/G/)AA d2A | d>ed Tc2A | (B/c/d)B AFd | AFD D2 :|
+|: f/g/ |\
+afd afd | efd Tc2A | (G/A/B)G (F/G/A)F | BGE E2f/g/ |\
+afd afd | efd Tc2A | (B/c/d)B AFd | AFD D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d3 d3 | d3 d3 | g3 f3 | e3 e3 |\
+d3 d3 | d3 d3 | g3 a3 | d3 d2 :|\
+|: z |\
+d3 d3 | A3 A3 | d3 d3 | e3 e3 |\
+d3 d3 | e3 f3 | g3 a3 | d3 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 592
+T: The Lads of Elgin
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.59 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C|
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B |\
+ABcd edTcA | BE E/E/E GABG |\
+ABcd edTcA | BE E/E/E A2-A :|\
+|: B |\
+Aaef deTcA | BE E/E/E GABG |
+Aaef deTcA | BE E/E/E A2AB |\
+Aaef deTcA | BE E/E/E GABG |\
+ABcd edTcA | BE E/E/E A2 A |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | e2e2 g2g2 |
+a2a2 a2a2 | e2e2 A2A :|\
+|: z |\
+a2a2 a2a2 | e2e2 g2g2 |
+a2a2 a2a2 | e2e2 A2A2 |\
+a2a2 a2a2 | e2e2 g2g2 |\
+a2a2 a2a2 | e2e2 A2A |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 601
+T: As black as a Coal
+R: slip-jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.60 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B |\
+(AG/F/E/D/) (D>FE/D/) A,2B | (AG/F/E/D/) (D>FE/D/) G2B |\
+(AG/F/E/D/) (D>FE/D/) A,2e | efe E2F G2 :|
+|: g |\
+Tf>ef def A2g | fef def gag |\
+fef def ABd | efe E2F G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d3 D3 A3 | d3 f3 g3 |\
+d3 D3 A3 | A3 A3 G2 :|\
+|: z |
+d3 d3 d3 | d3 d3 d3 |\
+d3 d3 d3 | A3 A3 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 602
+T: Up & war them a' Willie
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.60 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+e |\
+A/A/A Tc>A d2df | A/A/A Tc>A B2Bf |\
+A/A/A c>A defa | e>dTc>B A2A :|
+|: (f/g/ |\
+a)ecA d2d(f/g/ | a)ece B2Bf/g/ |\
+(a/g/f/e/) (d/c/B/A/) defa | edTcB A2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | a2a2 b2b2 |\
+a2a2 d2d2 | e2e2 A2A :|\
+|: z |
+a2a2 a2a2 | a2a2 b2b2 |\
+a2a2 d2d2 | e2e2 A2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 611
+T: Willie Winks -- Strathspey
+R: strathspey
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.60 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+f2 |\
+c3F (dcBA) c3FF2f2 | c3F (ABc)A TG3FD2f2 |\
+c3F (dcBA) c2F2A2F2 | GGG2 A3F TG3FD2 :|
+|: e2 |\
+f3c (dcBA) f3cc2e2 | f2c2f2a2 g2d2d2e2 |\
+f2c2c2e2 f3g (f/g/a)g2 | f2d2Tc3A G2D2-D2 :|
+|: f2 |\
+FF3 A3F c3FA3F | FFF2 A2F2 TG3FD2f2 |\
+FFF2 A2F2 c3FA3(c | B3)GA3F TG3FD2 :|
+|: ag |\
+f3cf3g a3fg3e | f3cf3g a3fg2a2 |\
+f3cf2g2 a2f2g2e2 | f2d2Tc3A TG3FD2 :|
+|: e2 |\
+f4 g4 FFF2 A4 | GGG2 A2F2 TG3FD2e2 |\
+f3ga2g2 f3c (f/g/a)g2 | f2d2c3A TG3FD2 :|
+|: e2 |\
+(fga2) g2a2 f2F2-F2A2 | B3GA3F TG3FD2e2 |\
+f3ga2f2 g2e2f2c2 | (def2) c2A2 TG3FD2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+f4f4 f4f4 | f4f4 d4d4 |\
+f4f4 f4f4 | f4f4 d4d2 :|\
+|: z2 |\
+f4f4 f4f4 |
+f4f4 g4g4 |\
+f4f4 f4f4 | f4f4 d4d2 :|\
+|: z2 |\
+f4f4 f4f4 | f4f4 d4d4 |\
+f4f4 f4f4 |
+g4f4 d4d2 :|\
+|: z2 |\
+f4f4 f4f4 | f4f4 f4f4 |\
+f4f4 f4f4 | f4f4 d4d2 :|\
+|: z2 |\
+f4f4 f4f4 | f4f4 d4d4 |
+f4f4 f4f4 | f4f4 d4d2 :|
+|: z2 |\
+f4f4 f4f4 | g4f4 d4d4 |
+f4f4 f4f4 | f4f4 d4d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 621
+T: Lady Elgin's Reel
+R: reel, strathspey
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.62 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Added initial pickup rest to fix the rhythm on repeats.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+z |\
+D2DF TE>DB,2 | D2DF AdD2 |\
+G>AFd TE>DB,2 | {Bc}dB AF A2-A :|
+|: a |\
+fd-df g>fea | fddf a>baf |\
+g>af>g Te>def | d>edF A2-A :|
+|: B |\
+AFd>F TE>DB,B | A<Fd>F A>Fd>F |\
+GdFd TE>DB,B | dBAF A2-A :|
+|: (g |\
+Tf)ddf g>fea | fddf a>baf |\
+g>af>g Te>def | dedF A2-A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 e2e2 | d2d2 d2f2 |\
+g2f2 e2e2 | d2A2 D2D :|\
+|: z |\
+d2d2 e2e2 | d2d2 d2d2 |
+g2f2 e2e2 | d2A2 D2D :|\
+|: z |\
+d2d2 e2e2 |d2d2 d2d2 |\
+d2d2 B2B2 | d2A2 D2D :|
+|: z |\
+d2d2 e2e2 | d2d2 d2d2 |\
+g2f2 e2e2 | d2A2 D2D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 622
+T: Let's to the Ard -- Strathspey
+R: strathspey
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.62 #1 & p.63 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+c>AFc AFc>A | c>dcA A<GG2 |\
+c>AFc AFc>A | f>gac A/A/A A2 :|\
+|:\
+f>ga>f g>ef>d | c>Af>d Tc>AG2 |
+f>ga>f g>ef>d | c<A f>g a>cA2 |\
+f>ga>f g>ef>d | c<Af>d Tc>AG2 |\
+c>AFc A<Fc>A | f>gac A/A/A A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+f2f2 f2f2 | f2f2 g2g2 |\
+f2f2 f2f2 | c2c2 F2F2 :|\
+|:\
+f2f2 f2f2 | f2f2 g2g2 |
+f2f2 f2f2 | c2c2 F2F2 |\
+f2f2 f2f2 | f2f2 g2g2 |\
+f2f2 f2f2 | c2c2 F2F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 632
+T: Don Side -- Strathspey
+R: strathspey
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.63 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A2 |\
+GGG2 B3G TA3GE2A2 | GGG2 B3G TA3GB2G2 |\
+c3AB3G TA3GE2e2 | d3cTB3A B2G2-G2 :|
+|: (e2 |\
+g2)d2g2B2 TA3GE2(e2 | g3)dg3B g3dg3a |\
+(bage g3)B TA3GE2e2 | d3cTB3A B3G-G2 :|
+|: a2 |\
+ggg2 b3g Ta3ge2a2 | ggg2 b3g a3gb3g |\
+(baga b3)g Ta3ge2g2 | d3cTB3A B3G-G2 :|
+|: (EF |\
+G3)DB,3D E2A,2A,2(EF | G3)DB,3D G,3DB,3D |\
+C3EB,3D E2A,2-A,2E2 | (GFED) TB,3A, B,2G,2-G,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+g4g4 e4e4 | g4g4 g4g4 |\
+a4g4 e4e4 | d4d4 G4G2 :|\
+|: z2 |\
+g4g4 a4a4 |
+g4g4 g4g4 |\
+g4g4 e4e4 | d4d4 G4G2 :|\
+|: z2 |\
+g4g4 a4a4 | g4g4 g4g4 |
+g4g4 e4e4 |
+d4d4 G4G2 :|\
+|: z2 |\
+G4G4 A4A4 | G4G4 G4G4 |\
+G4G4 A4A4 | d4d4 G4G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 641
+T: Just as I was in the morning
+N: The "I" in the title is actually "J"
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.64 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+f/e/ |\
+d2D (F/G/A)F | EFE (Tc>Bc) |\
+d2D (F/G/A)F | A3 d2 :|\
+|: A |\
+dfa afd | cde ecA |
+ded fdg | Tf3 a2b |\
+afa geg | fdf ecA |\
+{Bc}d2D (F/G/A)F A3 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | d3 d3 | e3 e3 | d3 d3 | A3 D2 :| |: z | d3 d3 |
+A3 A3 | d3 d3 | d3 d3 | f3 e3 | d3 A3 | d3 d3 | A3 D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 642
+T: The Grant's Rant
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.64 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: This is a version of Green Grow the Rashes O.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+G/G/G B>A BGGB | A/A/A ed eAAB |\
+c2ce d/c/B/A/ GB | cABG TA>GE :|
+|: A |\
+G/G/G g>e gddg | e/e/e a>g aeef |\
+gage d/c/B/A/ GB | c>AB>G TAGE :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g2g2 g2g2 | a2a2 a2a2 |\
+c'2c'2 b2b2 | a2g2 e2e :|\
+|: z |\
+g2g2 g2g2 | a2a2 a2a2 |\
+g2g2 g2g2 | a2g2 e2e :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 651
+T: Clean Peas straw
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.65 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: Dmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+e |\
+defd gefd | eA A/A/A c2-ce |\
+defd gefd | eA A/A/A d2-d :|\
+|: f |\
+afdf (a/g/f/e/ d)f | eA A/A/A c2-cf |
+afdf a/g/f/e/ df | eA A/A/A d2-df |\
+(a/g/f/e/ d)f (a/g/f/e/ d)f | eA A/A/A c2cf |\
+afge fde^c | d(gTfe) d2d |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 d2d2 | A2A2 c2c2 |\
+d2d2 d2d2 | A2A2 D2D :|\
+|: z |\
+d2d2 d2d2 | A2A2 c2c2 |
+d2d2 d2d2 | A2A2 D2D2 |\
+d2d2 d2d2 | A2A2 c2c2 |
+d2e2 f2g2 | a2a2 d2d |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 652
+T: Drown Drouth
+R: slip-jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.65 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Dropped dot on last bass note to fix the rhythm on repeats.
+M: 9/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F |\
+(D/E/F)D BFE TD2B, | (D/E/F)D ECC C2F |\
+(D/E/F)D Bcd TD2B, | (D/E/F)C DB,B, B,2 :|
+|: F |\
+BcB fdg fdB | TA2F (A/B/c)c c2d |\
+Bcd fga bag | fbd Tc2B B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z | B3 B3 B3 | B3 c3 c3 | B3 B3 B3 | f3 F3 B2 :|\
+|: z | b3 b3 b3 | f3 f3 f3 | B3 B3 B3 | f3 F3 B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 661
+T: Cleek him inn
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.66 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+F>c c/c/c fcdA | BdcA G/G/G G2 |\
+F>c c/c/c afge | cfeg f/f/f f2 :|\
+|: a>gfa c/c/c ac | defa g/g/g g2 |
+a>gfa c/c/c ac | d>fe>g f/f/f f2 |\
+a>gfa c/c/c ac | defa g/g/g g2 |\
+afge fcdB | cABG F/F/F F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: |\
+f2f2 f2f2 | f2f2 g2g2 |\
+f2f2 f2f2 | c2c2 F2F2 :|\
+|:\
+f2f2 f2f2 | f2f2 g2g2 |
+f2f2 f2f2 | c2c2 F2F2 |\
+f2f2 f2f2 | f2f2 g2g2 |\
+f2g2 a2b2 | c'2c2 f2f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 662
+T: Pitkerie's Reel -- Strathspey
+R: strathspey
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.66 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+g |\
+G<G B>G TB>AAg | G/G/G B>G A>GB>G |\
+(B/c/d) BG TB>AAa | (e/f/g) d>B d2-d :|
+|: g |\
+e>gd>g TB>AAa | (e/f/g) d>B d>eg>a | (b/a/g/f/ g)>B TB>AAa | (e/f/g) d>B d2-d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g2g2 a2a2 | g2g2 g2g2 |\
+g2g2 a2a2 | g2d2 G2G :|\
+|: z |
+g2g2 a2a2 | g2g2 g2g2 |\
+g2g2 a2a2 | g2d2 G2G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 663
+T: Blue Britches
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.67 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+Ae-ed (TcA)Tc2 | Bg-gd BGBd |\
+(A/B/c/d/ e)A TcATc2 | Aa-ae TcAce :|\
+(a/g/f/e/) fd ceTc2 | Bg-gd BGBd |
+(a/g/f/e/) ca eaca | Aaca eAce |\
+(a/g/f/e/) ae fdec | Bg-gd BGBd |\
+(A/B/c/d/) eA cATc2 | Aa-ae TcAce |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | e2e2 A2A2 :|\
+a2a2 a2a2 | g2g2 g2g2 |
+a2a2 a2a2 | e2e2 A2A2 |\
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | e2e2 A2A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 672
+T: What the D---l ails you
+T: What the Devil ails you
+N: Second title with "Devil" spelled out to help in computer searches.
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.67 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+e |\
+c>BAg agec | defd gfed |\
+cBAg agec | defg Te2d :|
+|: e |\
+c>BAG E/E/E c2 | defd gfed |\
+c>BAG E/E/E c2 | dagf Te2d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 c'2c'2 | d'2d'2 d2d2 |\
+a2a2 c'2c'2 | d'2d'2 a2d :|\
+|: z |
+c2c2 c2c2 | d2d2 d2d2 |\
+c2c2 c2c2 | d2d2 A2D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 681
+T: Barley Cakes
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.68 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Added missing dot to last bass note.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+TB2G (B/c/d)B | A2F (A/B/c)A | TB2G (B/c/d)B | d3 g3 |\
+TB2G (B/c/d)B | A2F (A/B/c)A | dcB cBA | G3 G,3 :|
+|:\
+gag fgf | e2d TB3 | gag f2g | a3 d3 |\
+c2a B2g | A2G FED | GAB AGF | G3 G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g3 g3 | d3 f3 | g3 g3 | g2d B2G |\
+g3 g3 | d3 f3 | g3 d3 | gdB G3 :|
+|:\
+b3 a3 | g3 g3 | g3 g3 | c'd'c' bc'b |\
+a3 g3 | d3 d3 | g3 d3 | gdB G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 682
+T: Yeal Yeal
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.68 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has 6 bars.
+M: C
+L: 1/8
+K: Edor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F |\
+EB (d/c/B/A/) dDAF | EB-BA BEBA |\
+(B/c/d) (d/e/f) dDAF | EB-BA BEE :|\
+|: f |\
+gebe (a/g/f/e/) df |
+gebe bege |\
+gebe (a/g/f/e/) df | gebe gebe |\
+(d/e/f/g/) (a/g/f/e/) dDAF | EB-BA BEE :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+e2e2 d2d2 | e2e2 e2e2 |\
+e2e2 d2d2 | e2e2 e2e :|\
+|: z |\
+e2e2 d2d2
+e2e2 e2e2 |\
+e2e2 d2d2 | e2e2 e2e2 |\
+d2d2 d2d2 | e2e2 e2e :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 691
+T: Crief Fair
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.69 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F	% Mostly Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+A>BAG FGA2 | c(dTcA) cdTcB |\
+ABAG FGAc | fde^c d/d/d d2 :|\
+|:\
+defg afge | fdcA FGAc |
+defg afge | fde^c d/d/d d2 |\
+defg afge | fdcA FGAc | AcFc A/A/A ag | fde^c d/d/d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+f2f2 f2f2 | f2f2 f2f2 |\
+f2f2 f2f2 | d2A2 D2D2 :|\
+|:\
+d2d2 d2d2 | f2f2 f2f2 |
+d2d2 d2d2 | A2A2 D2D2 |\
+d2d2 d2d2 | f2f2 f2f2 |\
+f2f2 f2f2 | d2A2 D2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 692
+T: Insh of Perth
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.69 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Added flag to last notes to fix the repeat rhythm.
+M: C
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+f |\
+eaca e/e/e g2 | dgBg d/d/d Tf2 |\
+dgcg e/e/e (Tfe) | dfec A/A/A A :|
+|: f |\
+ecAc e/e/e g2 | d/c/B/A/ GB d/d/d Tf2 |\
+ecAc e/e/e (Tfe) | dfec A/A/A A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | d2e2 A2A :|\
+|: z |
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | d2e2 A2A :|\
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 701
+T: New Claret
+R: slip-jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.70 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+G2G TB2G (B/c/d)B | GAG TB2G (B/c/d)B |\
+E2E C2C (E/F/G)E | DED TF2D (F/G/A)F :|
+|:\
+G2G g2d (B/c/d)B | GAG g2d (B/c/d)B |\
+c2c e2c (e/f/g)e | ded Tf2d (f/g/a)f :|
+|:\
+gdB GAB gdB | gdB GAB gdg |\
+ece ece ece | (a/g/f/e/d) Tf2d (f/g/a)f :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g3 g3 g3 | g3 g3 g3 |\
+c3 c3 c3 | d3 d3 d3 :|\
+|:\
+g3 g3 g3 | g3 g3 g3 |
+c3 c3 c3 | d3 d3 d3 :|\
+|:\
+g3 g3 g3 | g3 g3 g3 |\
+c3 c3 c3 | d3 d3 d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 702
+T: Argyll's Bouling Green
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.70 #2 and p.71 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Bar 6's first two notes have inconsistentdot/flag combo; fixed to be short-long.
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+   E | Cc-cB c>dec | dBcA G>FTED | Cc-cB c>dec | d>AcE D/D/D D :|
+|: E | G>EcE G>EEA | G<Ec>G E2-EF | G>Ec>E GEEd | c<Ac>E D/D/D D :|
+|: E | Cc c/c/c c>dec | d/c/B/A/ cA GFED | Cc-cB cdec | d/c/B/A/ c>E D/D/D D :|
+|: e | g>ea>e g>eea | g<ea>g e2-ef | g>ea>e geef | g>age d2-d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+c2c2 c2c2 | c2c2 G2G2 | c2c2 c2c2 | c2c2 d2d :|\
+|: z |\
+c2c2 c2c2 |
+c2c2 c2c2 | c2c2 c2c2 | c2c2 d2d :|\
+|: z |\
+c2c2 c2c2 | c2c2 G2G2 |
+c2c2 c2c2 | c2c2 d2d :|\
+|: z |\
+c2c2 c2c2 | c2c2 c2c2 | c2c2 c2c2 | c2c2 d2d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 712
+T: Shaun Truish Willichan
+R: strathspey
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.71 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Ddor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A,2 |\
+DDD2 D3F TE4 A,3F | F4 (E2TD2) GFED C2E2 |\
+DDD2 D3F E4 A,3E | F4 E2TD2 C3A,A,2 :|
+|: G2 |\
+A3cA2F2 G3AG2E2 | F3GF2D2 GFED C2G2 |\
+A3cA2F2 G3AG2E2 | F2D2 GFED C2A,2A,2 :|
+|: A2 |\
+ddd2 d3f Te4 A3e | {de}f4 Te2d2 gfed c2e2 |\
+ddd2 d3f Te4 A2e2 | f2d2 gfed Tc3AA2 :|
+|: g2 |\
+a2a2 _bagf g2g2 agfe | f2f2 gfed e2c2c2g2 |\
+a2a2 _bagf g2g2 agfe | f2d2 gfed Tc2A2A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+d4d4 A4A4 | d4d4 c4c4 |\
+d4d4 A4A4 | d4d4 A4A2 :|\
+|: z2 |\
+f4f4 e4e4 |
+d4d4 c4c4 |\
+f4f4 e4e4 | d4d4 A4A2 :|\
+|: z2 |\
+d4d4 A4A4 | d4d4 c4c4 |\
+d4d4 A4A4 |
+d4d4 A4A2 :|\
+|: z2 |\
+f4f4 e4e4 | d4d4 c4c4 |\
+f4f4 e4e4 | d4d4 A4A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 721
+T: New Mills House
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.72 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F |\
+DFd AGF | E=CE TF2E | DFd AGF | dcd AFD |\
+GBG FdF | E=CE TF2E | D2f edc | dCC C2 :|
+|: f |\
+(d/e/f/g/a a)fa | e=ce Tf2e | (d/e/f/g/a a)fa | dfd Tf2d |\
+geg fdf | e=ce Tf2e | agf edc | dDD D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d3 d3 | =c3 c3 | d3 d3 | d3 d3 |\
+e3 d3 | =c3 c3 | d3 A3 | D3 d2 :|
+|: z |\
+d3 d3 | =c3 c3 | d3 d3 | d3 d3 |\
+e3 d3 | =c3 c3 | d3 A3 | D3 D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 722
+T: Lady Betty Cochran's Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.72 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+E |\
+C/C/C CE GcGE | FDd^c dAA=c |\
+GcEc GAca | g<cf>d ecc :|\
+|: e |\
+c/c/c ec gcec | Gcec adde |
+c/c/c ec gcec | Gc (B/c/d) ecce |\
+c2 (e/d/c) gc (e/d/c) | Gc (e/d/c) adde |\
+cdAc GAca | g<cf>d e>cc :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+a |\
+c2c2 c2c2 | d2d2 d2d2 |\
+c2c2 c2c2 | G2G2 C2C :|\
+|: z |\
+c2c2 c2c2 | c2c2 d2d2 |
+c2c2 c2c2 | g2g2 c2c2 |\
+c2c2 c2c2 | c2c2 d2d2 |\
+c2d2 e2f2 | g2g2 c2c :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 731
+T: Earl Marshal's Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.73 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+F2FA cAAc | (A/B/c) FA cAAf |\
+F2FA cAAc | (d/e/f) TcA G/G/G G2 :|
+|:\
+(f/g/a) fc d2-df | cfAf cfAf |\
+(a/g/f/e/) fc d2-df | cAfd TcAGA :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+f2f2 f2f2 | F2F2 F2F2 |\
+f2f2 f2f2 | f2f2 g2g2 :|
+|:\
+f2f2 f2f2 | F2F2 F2F2 |\
+f2f2 f2f2 | f2f2 g2g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 732
+T: The Spell
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.73 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+C2EG cGEC | C2EG FDB,G, |\
+C2EG cGEC | ecGF TE2C2 :|
+|:\
+g>age f>gfd | e>fec (B/c/d) T^F2 |\
+G2GA Bcde | fagf Te2c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+c2c2 c2c2 | c2c2 G2G2 |\
+c2c2 c2c2 | G2G2 C2C2 :|
+|:\
+g2g2 g2g2 | g2g2 g2g2 |\
+g2g2 e2c2 | f2g2 c2c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 741
+T: A Kiss for Nothing
+R: slip-jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.74 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: There is no key signature, but the tune is clearly in F major; it contains no Bs at all.
+M: 9/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+F2c A2c d2f | F2c cAF GEC |\
+FAc cAc d2f | agf cAF G2A :|
+|:\
+(f/g/a)g fcf Acf | fcf Aca g2(f/e/) |\
+fce fga cde | fac dfF G2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+f3 f3 f3 | f3 c'3 c3 |\
+f3 f3 f3 | f3 f3 g3 :|
+|:\
+f3 f3 f3 | f3 f3 g3 |\
+f3 f3 f3 | f3 f3 g3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 742
+T: A Feg for a kiss
+R: slip-jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.74 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Added missing dots to final notes in strains.
+M: 9/8
+L: 1/8
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+E2B BGE BGE | FAD AFd AFD |\
+EFG ABc BAG | BeB AGF E3 :|\
+|:\
+eBe geg bge | dAd fdf afd |
+eBe geg bge | (gfe B)e^d e3 |\
+eBe geg bge | dAd fdf afd |\
+(e/f/g)f edc BAG | BeB AGF E3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+e3 e3 e3 | d3 d3 d3 |\
+e3 e3 e3 | b3 B3 e3 :|\
+|:\
+e3 e3 e3 | d3 d3 d3 |\
+e3 e3 e3 | b3 B3 e3 |\
+e3 e3 e3 | d3 d3 d3 |\
+e3 e3 e3 | B3 B3 E3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 751
+T: Double Kisses
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.75 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has final repeat but no initial repeat; not fixed.
+N: The final low Es in the first strain's bass line should probably be low Cs.
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+e |\
+c2GE c2de | c2GE dDDe |\
+c2GE cdec | eagf ecc :|\
+(e/f/ |\
+g)cge gc-c(e/f/ | g)cge ad-d(e/f/ |
+g)cge gcge | f(aTgf) ec-c(e/f/ |\
+g)cge gc-c(e/f/ | g)cge ad-dg |\
+aegd ecdB | A(aTgf) ec-c :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+c2c2 c2c2 | c2c2 d2d2 |\
+c2c2 c2c2 | G2G2 E2E :|\
+z |\
+c2c2 c2c2 | c2c2 d2d2 |
+c2c2 c2c2 | f2g2 c2c2 |\
+c2c2 c2c2 | c2c2 d2d2 |\
+c2d2 e2f2 | g2G2 c2c :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 752
+T: O as I was Kiss'd the Streen
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.75 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Rhythms as the start and end of strains are messed up; fixed with initial rests and no final dots.
+M: 6/8
+L: 1/8
+K: Ador
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+z |\
+A>BA ABd | (e/f/g)B A2c | B>AB GAB | (B/c/d)B G2B |\
+cBc dcd | ede a2g | edB ABd | e2A A2 :|
+|: g |\
+a2A ABA | aAA A2f | g2G GAG | (TBAB) GAB |\
+cBc dcd | ede a2g | edB ABd | e2A A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a3 a3 | a3 a3 | g3 g3 | G3 G3 |\
+A3 B3 | c3 d3 | e3 E3 | A3 A2 :|
+|: z |\
+a3 a3 | a3 a3 | g3 g3 | G3 G3 |\
+A3 B3 | c3 d3 | e3 E3 | A3 A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 761
+T: The Lassie wi the yellow Coatie
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.76 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+G2GB degd | e/e/e gd e>deg |\
+G/G/G GB degd | (e/f/g) dB TAGE2 :|
+|:\
+gabg aegd | Bd-de =f>gaf |\
+gabg aegd | (e/f/g) dB TA>GE2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g2g2 g2g2 | g2g2 g2g2 |\
+g2g2 g2g2 | g2g2 e2e2 :|
+|:\
+g2g2 g2g2 | g2g2 g2g2 |\
+g2g2 g2g2 | g2g2 e2e2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 762
+T: My ain kind Dearie
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.76 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B |\
+AFEF A2-Ac | B/B/B c>A BFFB |\
+AFEF A2-Aa | Tf2ec eAA :|
+|: a |\
+f/f/f af ecac | B/B/B c>A BFFB |\
+AFEF ABce | faec eAA :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | b2b2 b2b2 |\
+a2a2 a2a2 | d2e2 A2A :|\
+|: z |
+a2a2 a2a2 | b2b2 b2b2 |\
+a2a2 a2a2 | d2e2 A2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 771
+T: The File-bek is ay ready
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.77 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c |\
+(B/c/d) dc BGge | (B/c/d) dB AFcA |\
+(B/c/d) dc BGgB | AFcA G/G/G G :|\
+|: b |\
+gdgb gbgd | fcfa fafc |
+gdgb gbgd | fdTc>A G/G/G Gb |\
+gdgb gbgd | fcfa fafc |\
+gd (b/a/g/^f/) gdeB | cAfA G/G/G G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g2g2 g2g2 | g2g2 f2f2 |\
+g2g2 g2g2 | d2d2 G2G :|\
+|: z |\
+g2g2 g2g2 | f2f2
+f2f2 |\
+g2g2 g2g2 | d2d2 G2G2 |\
+g2g2 g2g2 | f2f2 F2F2 |\
+G2A2 B2c2 | d2d2 G2G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 772
+T: O'er the Moor among the Heather
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.77 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+DG-GA GAGD | EAAB cBAB |\
+GABc degd | e/f/g dB ABAG :|
+|:\
+Gg-ga gagd | ea-ab abag |\
+bage d/d/d b>a | gedB ABAG :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g2g2 g2g2 | a2a2 a2a2 |\
+g2g2 g2g2 | g2g2 a2a2 :|
+|:\
+g2g2 g2g2 | a2a2 a2a2 |\
+g2g2 g2g2 | g2g2 a2a2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 781
+T: The Athol Cummers -- Strathspey
+R: strathspey
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.78 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F |\
+E<EE2 E>FTB>A | E<EE2 TF>DA>F |\
+E<EE2 E>FTB>A | B>dA>B TF>DA :|
+|: d |\
+B<E TB>A B>EE>d | B<E TB>A TF>DD>d |\
+G<E TB>A d>ef>e | d/c/B/A/ dA TF>DD :|
+|: f |\
+e<ee2 e>fb>f | e<ee2 fda>f |\
+e<ee2 e>fb>f | g>eb>e f>da>f |\
+g<eb>e g>eb>e | (f/g/a) e>f d>DA :|
+|: (e |\
+B<E TB>A) B>EE(e | B<E TB>A) d>DD(e |\
+B<ETB>A) (B<ETB>A) | (B<ETB>A) d>DD(e |\
+B<ETB>A) d>ef>d | e>B d/c/B/A/ TF>DD :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+e2e2 e2e2 | e2e2 d2d2 |\
+e2e2 e2e2 | e2e2 d2d :|\
+|: z |\
+e2e2 e2e2 | e2e2 d2d2 |\
+e2e2 d2d2 | d2d2 d2d :|\
+|: z |\
+e2e2 e2e2 | e2e2 d2d2 |\
+e2e2 e2e2 | e2e2 d2d2 |\
+e2e2 e2e2 |
+d2d2 d2d :|\
+|: z |\
+e2e2 e2e2 | e2e2 d2d2 |\
+e2e2 e2e2 | e2e2 d2d2 |\
+e2e2 d2d2 | d2d2 d2d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 782
+T: Breas of Athol
+T: Braes of Athol
+N: The tune title has "Breas", but the table of contents has the correct "Braes".
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.78 #2 (and p.79 #1)
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Added flags to a few final quarter notes to fix the repeat rhythms.
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+d |\
+B2AG (B/c/d) (e/f/g) | B>AGB A/A/A Ad |\
+TB2AG (B/c/d) (e/f/g) | D2-DB G/G/G G :|
+|: (e/f/ |\
+g)dBg dgdB | (g/f/e/d/ B)g Tf2 A(e/f/ |\
+g)dBg dgdB | (c/B/A/G/ F)A G/G/G G :|
+|: A |\
+(BG)(BG) (BG) (B/c/d) | BG (B/c/d) (e/f/g) A2 |\
+(BG) (B/c/d) (e/f/g) (f/g/a) | D2-DB G/G/G G :|
+|: A |\
+Gg g/f/e/d/ Bg g/f/e/d/ | Gg Bg a2 Ae/f/ |\
+(g/f/e/d/ B)g dgdB | c/B/A/G/ FA G/G/G G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g2g2 g2g2 | g2g2 a2a2 |\
+g2g2 g2g2 | d2d2 G2G :|\
+|: z |\
+g2g2 g2g2 | g2g2
+%page 79
+a2a2 |\
+g2g2 g2g2 | d2d2 G2G :|\
+|: z |\
+g2g2 g2g2 | g2g2 a2a2 |\
+g2g2 g2g2 |
+d2d2 G2G :|\
+|: z |\
+g2g2 g2g2 | g2g2 a2a2 |\
+g2g2 g2g2 | d2d2 G2G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 792
+T: The Corporal
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.79 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+(c |\
+B)GGA B>cdf | AFcA cFF(A |\
+B)G-GA Bcdg | fdTcA G2G :|
+|: (e |\
+g)dg^f gdd(e | f)cfe fcc(f |\
+g)dg^f gdd(c | B)GAB G2G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g2g2 g2g2 | f2f2 f2f2 |\
+g2g2 g2g2 | d2d2 G2G :|\
+|: z |
+g2g2 g2g2 | f2f2 f2f2 |\
+g2g2 g2g2 | d2d2 G2G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 801
+T: The Oyster Wives Rant
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.80 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Final bass notes shortened to fix the rhythm.
+M: C
+L: 1/8
+K: Ador
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B |\
+e2ed eAAB | dedB GABd |\
+e2ed e>fge | dBgB A/A/A A :|
+|: B |\
+edef g2(Tfe) | d>edB d>edB |\
+edef ga(gf) | dBgB A/A/A A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | e2e2 A2A :|\
+|: z |
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | e2e2 A2A :|\
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 802
+T: Jenny Nettles
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.80 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Ador
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B |\
+c2TB2 A2a2 | e>fge dBGB |\
+c2TB2 A2a2 | g>egd e2A :|\
+|: B |\
+c>deA c>deA | (d/c/B/A/ G)d BGdB |
+c>deA c>dea | (Tgeg)d e2A :|\
+|: B |\
+c>def g>(aTge) | g>(aTge) (d/c/B/A/ G)B |\
+c>def g>(aTge) | aba^g a2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | a2a2 g2g2 |\
+a2a2 a2a2 | e2e2 A2A :|\
+|: z |\
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | e2e2 A2A :|\
+|: z |\
+a2a2 a2a2 | a2a2 g2g2 |\
+a2a2 a2a2 | e2e2 A2A :|\
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 811
+T: Lord Kinaird's Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.81 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B/(c/ |\
+d2)d2 d(FTED) | d2A=c TB2AB/^c/ |\
+dABF AFdF | E/E/E FA TB2A :|
+|: (g |\
+f)dad Tfeeg | fdad Tf2e(g |\
+f)dad eBdF | E/E/E FA TB2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 d2d2 | d2d2 d2d2 |\
+d2d2 d2d2 | A2A2 D2D :|\
+|: z |
+d2d2 e2e2 | d2d2 d2d2 |\
+d2d2 d2d2 | A2A2 D2D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 812
+T: Mary Gray
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.81 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+dGBG cFTA2 | dGBG gdTB2 |\
+dGBG cF A(B/c/ | d)cTBA G2 (G/A/B) :|
+|:\
+DDFA cFTA2 | GGBd gdTB2 |\
+DDFA cFTA2 | {Bc}dcTBA G2 (G/A/B) :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g2g2 f2f2 | g2g2 g2g2 |\
+g2g2 f2f2 | g2d2 G2G2 :|
+|:\
+d2d2 d2d2 | g2g2 g2g2 |\
+d2d2 f2f2 | g2d2 G2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 821
+T: Cameronian's Rant
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.82 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Flyd	% or Gmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+f |\
+cF F/F/F cFAf | cF F/F/F c2Ad |\
+BG G/G/G BGAG | BG G/G/G TB2A :|\
+c |\
+Ff-fg fecA | Ff-fg fdcA |
+Gg-ga gfed | Gg-ga gfed |\
+Ff-fg fecA | Ff-fg fecA |\
+(e/f/g) df (e/f/g) df |\
+(e/f/g) df Te2d |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+f2f2 f2f2 | f2f2 f2f2 |\
+g2g2 g2g2 | g2g2 g2g :|\
+z |\
+f2f2 f2f2 |
+f2f2 f2f2 |\
+g2g2 g2g2 | g2g2 g2g2 |\
+f2f2 f2f2 | f2f2 f2f2 |\
+g2g2 g2g2 | g2g2 g2g |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 822
+T: Lady Mary Menzies Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.82 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: It's not clear why this tune has a Lydian key signature; it uses a normal major scale.
+M: C
+L: 1/8
+K: Flyd
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+(f |\
+c)FAF cFfd | cFAF dGGA |\
+cFcA cFag | fdcA cFF :|
+|: (e |\
+f)cce f>gag | fdTcA gdd(e |\
+f)dcA (f/e/f/g/ a)g | fdTcA cFF :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+f2f2 f2f2 | f2f2 g2g2 |\
+f2f2 f2f2 | _B2c2 F2F :|\
+|: z |
+f2f2 f2f2 | f2f2 g2g2 |\
+f2f2 f2f2 | _B2c2 F2F :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 831
+T: Lasses likes nea Brandy
+T: Lasses like(s) nae Brandy
+N: The "nea" is an odd spelling; it's usually "nae".
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.83 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+(ef/^g/a)e fdec | Bg-gB d2Tf2 |\
+(ef/^g/a)e fdec | ea-ac e2Tf2 :|
+|:\
+eATcA eATcA | BggB d2Tf2 |\
+eA TcA (a/^g/f/e/) TcA | eaac e2Tf2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | a2a2 a2a2 :|
+|:\
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | a2a2 a2a2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 832
+T: Campbells are coming Oho
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.83 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+G |\
+B2e dBG | A2A TA2G | B2e dBG | B2B TB2A |\
+B2e dBG | ABA gab | geg dBG | B2B TB2 :|
+|: d |\
+g2g gab | ded Td2B | g2g gab | e2e Te2d |\
+def gfe | dBd gab | geg dBG | B2B TB2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g3 g3 | a3 a3 | g3 g3 | g3 g3 |\
+g3 g3 | d3 d3 | c3 d3 | G3 G2 :|
+|: z |\
+g3 g3 | g3 g3 | g3 g3 | c3 c3 |\
+d3 c3 | B3 G3 | c3 d3 | G3 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 841
+T: Knit the Pocky
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.84 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has final repeat but no initial repeat; not fixed.
+N: The key signature should probably be standard D minor, since the only B is flatted.
+M: C
+L: 1/8
+K: Ddor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+Dd-d^c defd | c_BAG FGEC |\
+Dd-d^c d>ef>g | Ted^ce d/d/d d2 :|\
+defg afdg | Te>dcg ecge |
+defg afdg | ecge d/d/d d2 |\
+defg afdg | Te>dcg ecge |\
+defg afgf | ecge d/d/d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d2d2 d2d2 | c2c2 c2c2 |\
+d2d2 d2d2 | A2A2 D2D2 :|\
+d2d2 d2d2 | c2c2 c2c2 |
+d2d2 d2d2 | A2A2 D2D2 |\
+d2d2 d2d2 | c2c2 c2c2 |\
+d2e2 f2g2 | a2a2 d2d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 842
+T: Reel of Tulloch
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.84 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+f |\
+Te2 Ac/d/ ecAa | Te2 A/B/c dBGf |\
+Te2 Ac/d/ eATcA | BE E/E/E dBG :|
+|: B |\
+TcA c/d/e cAAB | TcA (c/d/e) dBGB |\
+cA (c/d/e) TcATcA | BE E/E/E dBG :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | a2a2 g2g2 |\
+a2a2 a2a2 | e2e2 g2g :|\
+|: z |
+a2a2 a2a2 | a2a2 g2g2 |\
+a2a2 a2a2 | e2e2 g2g :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 851
+T: Maggy's Weam is fu' I true
+N: The "I" in the title actually looks like "J", but this collection prints them the same.
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.85 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B |\
+ADFD ADFB | ADFA E/E/E GB |\
+ADFD ABde | f>dg>e d/d/d d :|
+|: A |\
+defd geaf | gefd e/e/e eB |\
+defd eBdA | BA dF D/D/D D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 d2d2 | d2d2 e2e2 |\
+d2d2 d2d2 | A2A2 D2D :|\
+|: z |\
+d2d2 d2d2 | d2d2 e2e2 |\
+d2d2 d2d2 | g2a2 d2d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 852
+T: Cuzle together
+R: slip-jig, triple hornpipe
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.85 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+Tc2e- ecf Te2A | Tc2e- ece g2B |\
+Tc2e- ece aeg | fdf ece g2B :|
+|:\
+a2a- aec a2e | a2a- aec g2B |\
+a2a- aec aeg | fdf ece g2B :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+a3 a3 a3 | a3 a3 b3 |\
+a3 a3 a3 | d'3 c'3 b3 :|
+|:\
+a3 a3 a3 | a3 a3 b3 |\
+a3 a3 a3 | d'3 c'3 b3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 861
+T: Lady Ann Erikin's Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.86 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Final bass notes shortened to fix the rhythms at repeats.
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c |\
+C2-Cc (d/c/B/A/) cG | EGcE FDDE |\
+C2-Cc (d/c/B/A/) cG | EGDF ECC :|\
+g |\
+ecac (ed/c/) gc | (f/e/f/g/ a)e
+fddg |\
+ecgc (e/d/c) gc | (e/f/g) df eccg |\
+ecgc (e/d/c) gc | (f/e/f/g/ a)e fddf |\
+(e/d/c) (d/c/B) (c/B/A) (G/F/E) | (C/D/E/F/) GD ECC |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+c2c2 c2c2 | c2c2 d2d2 |\
+c2c2 c2c2 | G2G2 C2C :|\
+z |\
+c2c2 c2c2 | c2c2
+d2d2 |\
+c2c2 c2c2 | G2G2 C2C2 |\
+c2c2 c2c2 | c2c2 d2d2 |\
+c2c2 c2c2 | G2G2 C2C |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 862
+T: Duke of Hamilton's Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.86 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B |\
+G/G/G (B/c/d) TB2Gc | TA2Fc TA2FA |\
+G/G/G (B/c/d) TB2Gc | A^FcA G/G/G G :|
+|: c |\
+Bd-d(e/^f/ g)d B/c/d/B/ | =fc A/_B/c/A/ fc A/B/c/A/ |\
+=Bd-de/^f/ g/f/e/d/ e/d/c/B/ | c/B/A/G/ ^FA G/G/G G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g2g2 g2g2 | f2f2 f2f2 |\
+g2g2 g2g2 | d2d2 G2G :|\
+|: z |
+g2g2 g2g2 | f2f2 f2f2 |\
+g2g2 g2g2 | d2d2 G2G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 871
+T: My Mither's av glowran o'er me
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.87 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 6/8
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+D |\
+GAG T^F2D | BcB ABc | ded Tc2B | f3 d2g |\
+fdB Bfd | cAF FGA | BAG A^FD | B3 A2 :|
+|: d |\
+gag T^f2d | gab Ta2g | B>cd/e/ fdB | f3 gab |\
+fdB Bfd | cAF Fdc | BAG A^FD | B3 A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g3 d3 | g3 a3 | b3 c'3 | d'3 e'3 |\
+d'3 b3 | f3 f3 | g3 d3 | G3 d2 :|
+|: z |\
+g3 d3 | B3 c3 | d3 d3 | d3 e3 |\
+d3 B3 | f3 F3 | g3 d3 | G3 d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 872
+T: Blair Drummond's Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.87 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The first bar line should be an initial repeat.
+M: C
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+e |\
+A/A/A Tc2 eaec | A/A/A Tc2 BgBG |\
+A/A/A Tc2 eae(f | g)aef gdBG :|
+|:\
+a2 (e/f/^g) aecA | a2ef gdBG |\
+a2eg fae(g | f)aef gdBG :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | a2a2 g2g2 |\
+a2a2 a2a2 | a2a2 g2g2 :|
+|:\
+a2a2 a2a2 | a2a2 g2g2 |\
+a2a2 a2a2 | a2a2 g2g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 881
+T: Old Stuarts back again
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.88 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+(c |\
+B)GAG FGA(c | B)GAG cEE(c |\
+B)GAG FGA(g | f)de^c dDD :|
+|: g |\
+fgaf gabg | fgaf beeg |\
+fgaf gab(g | f)de^c dDD :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g2g2 d2d2 | g2g2 e2e2 |\
+g2g2 d2d2 | A2A2 D2D :|\
+|: z |\
+d2d2 d2d2 | d2d2 e2e2 |\
+d2d2 g2g2 | a2a2 d2d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 882
+T: Eight men of Mudart
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.88 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+e |\
+A/A/A Ae TcAec | B/B/B Bg BGGB |\
+A/A/A Ae  cAec | B/B/B ed TcAA :|\
+|: e |\
+a>bae a>bae | g>agd BGGB |
+a>bae abae | dBed cAAe |\
+a>bae a>bae | g>agd BGGg |\
+afge fdec | dBed TcAA :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | e2e2 A2A :|\
+|: z |\
+a2a2 a2a2 |
+g2g2 g2g2 |\
+a2a2 a2a2 | e2e2 A2A2 |\
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | e2e2 A2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 891
+T: The Jolly Plowman
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.89 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+d |\
+ce-ec dcTBA | ce e/e/e a2ea |\
+Tfefa gbBd | ceaf Te2A :|
+|: (f/g/) |\
+(a/g/f/e/) ac d>c B(f/g/ | a)fec efge |\
+(a/g/f/e/) (f/e/d/c/) dcTB2 | ceAa Te2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+a |\
+a2a2 e2e2 | a2a2 a2a2 |\
+d2d2 e2e2 | A2A2 A2A :|\
+|: z |
+a2a2 b2b2 | a2a2 a2a2 |\
+d2d2 e2e2 | A2A2 A2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 892
+T: Hey to Couper
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.89 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Footnote: "Number 12"
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A, |\
+D>ED TF2G | A2d AFD | G2d F2d | EFD CB,A, |\
+D>ED TF2G | A2d AFD | FdF Edc | d3 D2 :|
+|: A |\
+d>ed Tf2g | aba Tfed | BcB Tc2d | efd TcBA |\
+ded Tf2g | a2g Tfed | (B/c/d)B (c/d/e)c | d3 D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d3 d3 | d3 d3 | e3 d3 | c3 A3 |\
+d3 d3 | d3 d3 | A3 A3 | D3 D2 :|
+|: z |\
+d3 d3 | d3 d3 | g3 g2f | e3 a3 |\
+d3 d3 | d3 d3 | g3 a3 | d3 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 901
+T: The Auld Wife avont the fire
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.90 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+d |\
+TB2AG E/E/E cA | TB2AG G/G/G gd |\
+TB2AG E/E/E cA | BdAB G2G :|
+|: c |\
+B>cde c/c/c cA | B>cde d/d/d gd |\
+B>cde c/c/c cA | BdAB G2G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g2g2 a2a2 | g2g2 g2g2 |\
+g2g2 a2a2 | g2d2 G2G :|\
+|: z |
+g2g2 a2a2 | g2g2 g2g2 |\
+g2g2 c'2c'2 | d'2d2 g2g :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 902
+T: O'er Boggie
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.90 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+cdcA cGGA | cdcA GAcG |\
+Ad-dc dega | gedc TA2GA :|
+|:\
+c2 (g/f/e) cg (e/f/g/e/) | cdcA GAcG |\
+Ad-dc dega | T(ge)dc TA2GA :|\
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+c2c2 c2c2 | c2c2 c2c2 |\
+d2d2 d2d2 | d2d2 d2d2 :|\
+|:\
+c2c2
+c2c2 | c2c2 c2c2 |\
+d2d2 d2d2 | d2d2 d2d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 911
+T: Sugarcandy
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.91 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The first strain's repeat rhythm isn't quite right. (So play the pickup note if you like.)
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+g "^:S:"|\
+Te>dcg (a/g/f/e/ g)c | (a/g/f/e/ g)c A2f2 |\
+Te>dcg (a/g/f/e/ g)c | (Bd)(dg) (BG)TB2 :|
+|:\
+AcBd cedf | c(e/f/g)c A2Tf2 |\
+AcBd ceec | (B/c/d) dg BG TB2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+c2c2 c2c2 | c2c2 c2c2 |\
+c2c2 c2c2 | G2G2 G2G2 :|
+|:\
+c2c2 c2c2 | c2c2 c2c2 |\
+c2c2 c2c2 | G2G2 G2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 912
+T: New Christmass
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.91 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+d |\
+TB2GB dgdB | gg a/g/f/e/ aA-Ad |\
+TB2GB dgdB | cA (d/c/B/A/) BGG :|
+|: D |\
+(B,/A,/G,) DG, EG,DG, | (B,/A,/G,) DG, EA,A,D |\
+(B,/A,/G,) DG, EG,DG, | EGFA GG,G, :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g2g2 g2g2 | g2g2 a2a2 |\
+g2g2 g2g2 | c2d2 G2G :|
+|: z |
+G2G2 G2G2 | G2G2 A2A2 |\
+G2G2 G2G2 | c2d2 G2G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 921
+T: Cambdelmore -- Strathspey
+R: strathspey
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.92 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+d |\
+TB>ABd e/e/e eg | dGTBA G2-Gd |\
+TB>ABd e/e/e ea | g>eg>B A2A :|
+|: (g/a/ |\
+b)>ga>e gdeg | dG(TBA) G2 G(g/a/ |\
+b)>ga>e g>aba | g>eg>B A2 A(g/a/ |
+b)>ga>e g>deg | dGTBA G2Gd |\
+TB>ABd e/e/e ea | g>eg>B A2A |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g2g2 g2g2 | g2g2 g2g2 |\
+g2g2 a2a2 | e2e2 A2A :|\
+|: z |\
+g2g2 g2g2 |
+g2g2 g2g2 |\
+g2g2 g2g2 | e2e2 A2A2 |\
+g2g2 g2g2 | g2g2 g2g2 |\
+g2g2 g2g2 | e2e2 A2A |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 922
+T: The Wright's Rant
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.92 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+cAA eAA | cAA Te2c | dBB gBB | aBB Tf2e |\
+cAA eAA | cAA Te2c | def efg | (f/^g/a)c TB2A :|
+|:\
+cAA (f/g/a/g/f/e/) | cAA Te2c | dBB (f/g/a/g/f/e/) | aBB Tf2e |\
+cAA (f/g/a/g/f/e/) | cAA Te2c | def efg | (f/^g/a)c TB2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+a3 a3 | a3 a3 | b3 b3 | b3 b3 |\
+a3 a3 | a3 a3 | d3 e3 | A3 A3 :|
+|:\
+a3 a3 | a3 a3 | b3 b3 | b3 b3 |\
+a3 a3 | a3 a3 | d3 e3 | A3 A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 931
+T: Jock's Lodge
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.93 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: The first bar line should probably be a start-repeat.
+M: C
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+e "^:S:"|\
+Tc>BAe cAeA | BGdB G/G/G TB2 |\
+Tc>BAe cAeA | dBgB A/A/A Te2 :|\
+|:\
+Tc>BA(^g a)baf | gedB G/G/G TB2 |
+Tc>BA^g abae | fdgB A/A/A Te2 |\
+Tc>BA(^g a)>baf | gedB G/G/G TB2 |\
+cAdA eAfA | ^gAac A/A/A Te2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+e |\
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | e2e2 A2A2 :|\
+|:\
+a2a2 a2a2 | g2g2 g2g2 |
+a2a2 a2a2 | d2e2 A2A2 |\
+a2a2 a2a2 | g2g2 G2G2 | A2B2 c2d2 | e2e2 A2A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 932
+T: Back of the Change house
+R: reel, strathspey
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.93 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Shortened final bass note to agree with the melody, and to fix the repeat rhythm.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+(B |\
+TA)>FAf Te>dBd | TA>FAB (ded)B |\
+TA>FAf Te>dB(f/g/ | a)>A-AB d2d :|
+|: (g |\
+Tf)>edf Te>dBg | Tf>efg a>baf |\
+g>af>g Te>dBg | (f/g/a) A>B d2-d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 e2e2 | d2d2 d2d2 |\
+d2d2 e2e2 | d2A2 D2D :|
+|: z |\
+d2d2 e2e2 | d2d2 d2d2 |\
+d2d2 e2e2 | d2A2 D2D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 941
+T: Merry Dancers
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.94 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Shortened pickup note (c) to 2nd strain to fix the repeat rhythm.
+N: The sharp sign in bar 8 is a mystery.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c |\
+(TB>AB) cGE | GAG G2c | (TB>AB) cGE | DED D2c |\
+(TB>AB) cGE | GAG c2e | dcB c2B | A^FD D2 :|
+|: c |\
+(B/c/d)B GAG | (B/c/d)B G2c | (B/c/d)B GAG | (F/G/A)F D2c |\
+(B/c/d)B GAG | (B/c/d)B c2e | dcB c2B | AFD D2 :|
+|: g |\
+(Tf>ef) gdB | gdB G2g | (Tfef) gdB | AFD D2g |\
+(Tf>ef) gdB | def gdB | cac BgB | AFD D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g3 g3 | g3g3 | g3g3 | d3 d3 |\
+g3 g3 | g3g3 | g3g3 |
+d3 d2 :|\
+|: z |\
+g3 g3 | g3g3 | g3g3 | d3 d3 |\
+g3 g3 | g3g3 | g3g3 |
+d3 d2 :|\
+|: z |\
+g3 g3 | g3g3 | g3g3 | d3 d3 |\
+g3 g3 | g3g3 | g3g3 | d3 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 942
+T: Carrick Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.94 #2 & p.95 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+D3F A/A/A AB | ABdA F/F/F FD | EFEF B/B/B Bf | gfed TB2 (A/B/d) |
+D3F A/A/A AB | ABdA F2ED | GBGB FAFA | EFGA TB2 (A/B/d) :|
+|:\
+d>edf d/d/d dA | BAdA F/F/F FD | e>fef e/e/e ef | gfed B/B/B (TBA) |
+d3f d/d/d dA | BAdA F/F/F FD | G/G/G GB F/F/F FA | EFGA TB2 (A/B/d) :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d2d2 d2d2 | d2d2 d2d2 | e2e2 e2e2 | e2e2 e2e2 |\
+d2d2 d2d2 |
+%page 95
+d2d2 d2d2 | g2g2 d2d2 | e2e2 e2e2 :|\
+|:\
+d2d2 d2d2 | d2d2 d2d2 | e2e2 e2e2 |
+e2e2 e2e2 |\
+d2d2 d2d2 | d2d2 d2d2 | g2g2 f2f2 | e2e2 e2e2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 952
+T: Lord Eglinton's Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.95 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Shortened some final notes in strains to fix the repeat rhythms.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F |\
+ABAF D/D/D dA | BdAF E/E/E EF |\
+ABAF D/D/D (Tf>e) | dBAF D/D/D D :|\
+|: (f/g/ |\
+a)dab abaf | gbfa e/e/e Te(f/g/ |
+a)dab abaf | geaf d/d/d d(f/g/ |\
+a)dab abaf | gbfa e/e/e e(f/g/ |\
+a)fge fdec | (d/c/B/A/) dF D/D/D D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 d2d2 | d2d2 e2e2 |\
+d2d2 d2d2 | G2A2 D2D :|\
+|: z |\
+d2d2 d2d2 | d2d2
+e2e2 |\
+d2d2 d2d2 | g2a2 d2d2 |\
+d2d2 d2d2 | d2d2 e2e2 |\
+d2e2 f2g2 | a2a2 d2d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 961
+T: Bonintown Well
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.96 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+c2ec dBTAG | AcTBA GETE2 |\
+c(e/f/ g)e dBTAG | AcTBA GCC2 :|\
+ecgc dBgB | cAfA BGTG2 |
+AFcF GEcE | FD (G/F/E/D/) ECC2 |\
+egcg dgBg | ceAc BGTG2 |\
+AcFc GcEc | A(aTgf) ecc2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+c'2c'2 b2b2 | a2a2 c'2c'2 |\
+c'2c'2 g2g2 | f2g2 c2c2 :|\
+c'2c'2 b2b2 | a2a2 g2g2 |
+f2f2 e2c2 | f2g2 c2c2 |\
+c'2c'2 b2b2 | a2a2 g2g2 |\
+f2f2 e2c2 | f2g2 c2c2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 962
+T: Sir John Malcolm
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.96 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+d |\
+A>Bde fdef | A/A/A AF A2Ad |\
+ABde fdef | B/B/B dA B2B :|\
+|: b |\
+a>baf Te>def | TA2A>F A2Af |
+a>baf Tedef | B/B/B dA B2Bb |\
+abfa Te>def | TA2A>F A2Ad |\
+ABde fdef | dBdA B2B |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | a2a2 a2a2 |\
+a2a2 a2a2 | b2b2 b2b :|\
+|: z |\
+a2a2 a2a2 | a2a2
+a2a2 |\
+a2a2 a2a2 | b2b2 b2b2 |\
+a2a2 a2a2 | a2a2 a2a2 |\
+a2a2 a2a2 | b2b2 b2b |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,35 @@
+X: 21412
+T: MILFORD SETT (tune 5)
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.141 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+(3(ABc) |\
+d2f2 A3B/c/ | d2f2 A2fa | agf2 e2eg | gfe2 d2 (3(ABc) |\
+d2f2 A3B/c/ | d2f2 A2fa | agf2 edce | d2f2d2 H|]
+fa |\
+age2 edc2 | cdfd A2a2 | bagf ecAe | fedc dAFD |\
+age2 edc2 | cdfd A2a2 | bagf edce | d2f2"^D.C."d2 |]
+z2 |\
+f4 b4 | f4 g2f2 | e4 f2e2 | decd B4 |\
+f4 b4 | g4 gfge | f3e edcd | "^D.C."B6 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across partners,
+%% and back,
+%% all balance partners,
+%% and turn,
+%% all chain,
+%% all promenade,
+%% ladies all balance to the right,
+%% all promenade,
+%% gentlemen the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

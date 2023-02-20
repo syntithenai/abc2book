@@ -1,0 +1,18 @@
+X: 2263
+T: LITTLE HOUSE ROUND THE CORNER
+Q: "Jig."
+R: Jig.'
+%R: jig
+B: James Kerr "Merry Melodies" v.2 p.29 #263
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: F
+uA |\
+FDA, DFB | AFD {F}EDB, | A,DF Adf | {a}g>fg eag |\
+{g} fed AFD | {F}EDB, DFA | {e}dcd eag | fdd d2 :|
+|: (uf/g/) |\
+a(fa) g(eg) | fed ecA | {e}dcd ede | fdf (efg) |\
+a(fa) g(eg) | {g}fed ecA | {e}dcd AFD | {F}EDE D2 :|

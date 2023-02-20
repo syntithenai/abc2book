@@ -1,0 +1,21 @@
+X: 21611
+T: the VIENNA POLKA
+Q: "Vivace."
+%R: polka, march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.161 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+Bc |\
+d2B2 g2B2 | d2{d}cB ceA2 | c2A2 a2c2 | e2{e}d^c dgB2 |\
+d2B2 g2B2 | d2{d}cB ceA2 | c2A2 a2f2 | {a}gfga g2 |]
+fg |\
+a2 A4 e2 | ded2 z2b2 | cdc2 z2a2 | BcB2 z2g2 |\
+a2 A4 e2 | ded2 z2b2 | cdc2 z2a2 | g2b2"^D.C."g2 |]
+d2 |\
+defg abc'd' | c'2{d'c'}b2 d'c'b2 | b2{c'b}a2 c'ba2 | a2{ba}g2 bag2 |\
+defg abc'd' | c'2{d'c'}b2 d'c'b2 | b2{c'b}a2 c'ba2 | g2z2 "^D.C."G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

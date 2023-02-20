@@ -1,0 +1,15 @@
+X: 60
+T: Bracno Oro
+O: Albania
+F: http://www.youtube.com/watch?v=2PIaEh-YrXs
+F: http://www.youtube.com/watch?v=NYT6buyY5eg
+F: http://www.youtube.com/watch?v=xYqLsKtPJs0
+M: 7/8
+L: 1/8
+K: Am
+Q: 1/4=120
+%%MIDI gchord f2z2f3
+"Am"E3 DEDC |"Bdim"B,2C DCED |D3 CB,A,B,     |"Am"C3z4  |\
+E3 C2A,2    |"Em"^G,2A, B,2C2|B,2C B,CB,^G,  |"Am"A,4z2 :|
+E3 A2B2     |c2B c2d2        |"Bdim"B2A ^GABc|B7        |\
+"Dm"d2c d2e2|"Am"c2B A2c2    |"G"B2A ^GABc   |"Am"A7    |

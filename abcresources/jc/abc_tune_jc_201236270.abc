@@ -1,0 +1,36 @@
+X: 21861
+T: MARTHA Valse 1.
+C: Composed by W.C. Paton
+R: waltz
+Q: "Tempo di Valse."
+B: K\"ohler's Violin Repository, v.2, 1885 p.186 #1
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+U: P=!crescendo(!
+U: p=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: 3/4
+L: 1/8
+K: Am
+[|\
+!ff!"_>"vA6 | ("_>"E4F2) | ("_>"E4D2) | ("_>"C4D2) |\
+"_>"C6 | "_>"B,6 | "_>"A,6- | A,6 |\
+Te6- | e6 | "^cres."(c2d2)"^>"e2- | e2c2d2 |\
+"^>"e6 | E2E2E2 | !p!(PA,B,A,B,CpD) | (QEFEDCqB,) |
+(PA,B,A,B,CpD) | (QEFEDCqB,) | (A,AGF"_cres."ED) | (PCB,CEAp^G) |\
+(ABcd^de) | a6 | !p!A,2[E2C2][E2C2] | A,2[E2C2][E2C2] |]
+[|\
+(vA,2B,2C2) | ("_>"C4B,2) | ("_>"C4B,2) | A,6 |\
+(A,2B,2C2) | (D4C2) | (B,4F2) | E6 |\
+("_>"F4QE2) | (D2C2qB,2) | (Q"_>"E4D2q) | (Q"_>"C2B,2qA,2) |\
+("_>"C2B,2A,2) | ("_>"C2B,2A,2) | ^A,2EEE2 | E2(.E2.E2) |
+(A,2B,2C2) | ("_>"C4B,2) | ("_>"C4B,2) | A,6 |\
+(A,2B,2C2) | (D4C2) | (B,4F2) | E6 |\
+"_>"G4QF2- | F2E2qD2 | "_>"F4QE2- | E2D2qC2 |\
+(B,4A,2) | (C4B,2) | A,6- | A,2z2z2 H|]
+|:\
+!ff!"^>"vedcBA^G | "^>"ABcdef | "^>"edcBA^G | "^>"ABcdef |\
+("^>".e3.d)d2- | d2c2B2 | ("^>".c3.B)(A2- | A^G)A.B.c.d |
+"^>"edcBA^G | "^>"ABcdef | "^>"edcBA^G | "^>"ABcdef |\
+("^>".e3.d)Qd2- | qd2c2B2 |[1 (AEABcB) | A2(ABcd) :|[2 A6 | ^G6 "_D.C."|]

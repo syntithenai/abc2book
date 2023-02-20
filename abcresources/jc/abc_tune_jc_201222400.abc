@@ -1,0 +1,28 @@
+X: 5
+T: Lady Olivia Sparrow's Hornpipe
+%R: hornpipe, reel
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.3 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+d>cd>e d>AF>A | B2g>e d>cB>A | B>cd2 c>de>f | d>ef>g f2e2 |
+d>cd>e d>AF>A | B2g>e d>cB>A | B>ef>g f>ed>c | d>cd>e d4 |]
+[|\
+a>fd2 b>c'd'>b | a>f d>f e>c A>c | d>fe>d c>B A>c | d>fe>d c>BA2 |
+a>fd2 b>c'd'>b | a>fd>f e>cA>d | B>b^a>b =a>gf>e | d>cd>e d4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Tune play'd straight thro')
+%%begintext align
+%% Set & hands across quite round set & back again .| lead
+%% down the mid: up again & right & left with the top Cu: .| .
+%%endtext
+%%text DOUBLE FIGURE (Each strain repeated)
+%%begintext align
+%% Hey contrary sides .| hey on your own sides |: set & change places (with
+%% the 2d Cu:) allemande .| hands 4 round at bottom & half poussette at top |: .
+%%endtext

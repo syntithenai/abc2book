@@ -1,0 +1,993 @@
+
+X: 1
+T: CFO Program for NEFFA 2022 (online)
+P: Arranged in play order, plus 3 extras.
+K:
+%%sep 2 1 500
+%%sep 1 2 500
+
+
+X: 2
+T: \vSetnja
+O: Srbija
+%level: 0
+Z: 1997 John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: Play the first part 6 or 8 times, then speed up for the second part.
+N: Sometimes the second part is played like the first part, but faster.
+M: 2/4
+L: 1/8
+K: F
+P: Slowly:
+|: "F"[c2A] [cA][cA] | [cA][BG] [BG][AF] | "C7"[AF][GE] [GE][AF] | [B2-G-] [BG][AF] \
+| [GE][AF] [BG][AF] | "G7"[BG][AF] [GE][FD] | "C"[G2E] [GE][GE] | [G4E] :|
+[FD] |: "C7"[G3E] [AF] | [B2-G2-] [BG][AF] | [AF][GE] [GE][AF] | [B2-G2-] [BG][AF] \
+| [GE][AF] [BG][AF] | "G7"[BG][AF] [GE][FD] | "C"[G2EC2] [GEC][GEC] | [G4E4C4] :|
+P: Faster:
+K: C
+|: "C"[g2e] [ge][ge] | [ge][fd] [ge][ec] | "G7"[f2d] [fd][fd] | [fd][ec] [dB][ec] \
+| [f2d] [fd][fd] | "D7"[ec][dB] [ec][cA] |1 "G7"[d2B] [e2c] | [f2d] [^f2^d] :|2 "G"[d2B] [dB][BG] | [d4B] ||
+[cA] |: "G7"[d3B] [ec] | [f3d] [ec] | [ec][dB] [dB][ec] | [f3d] [ec] \
+| [dB][ec] [fd][ec] | "D7"[fd][ec] [dB][cA] | "G"[d2B2G2] [dBG][BGD] | [d4B4G4] :|
+P: Last time:
+[cA] || "G7" [d3B] [ec] | [f3d] [ec] | [ec][dB] [dB][ec] | [fd]z3 [f/d][e/c][d/B][c/A] | "D7"[d8c8A8^F8] | "G"[d8-B8-G8-] | H[d8B8G8] |]
+%%sep 5 5 300
+P: Bb instruments:
+P: Slowly:
+K: G
+|: "G"[d2B] [dB][dB] | [dB][cA] [cA][BG] | "D7"[BG][AF] [AF][BG] | [c2-A2-] [cA][BG] \
+| [AF][BG] [cA][BG] | "A7"[cA][BG] [AF][GE] | "D"[A2F] [AF][AF] | [A4F] :|
+[GE] |: "D7"[A3F] [BG] | [c2-A2-] [cA][BG] | [BG][AF] [AF][BG] | [c2-A2-] [cA][BG] \
+| [AF][BG] [cA][BG] | "A7"[cA][BG] [AF][GE] | "D"[A2FD2] [AFD][AFD] | [A4F4D4] :|
+P: Faster:
+K: D
+|: "D"[a2f] [af][af] | [af][ge] [af][fd] | "A7"[g2e] [ge][ge] | [ge][fd] [ec][fd] \
+| [g2e] [ge][ge] | "E7"[fd][ec] [fd][dB] |1 "A7"[e2c] [f2d] | [g2e] [^g2^e] :|2 "A"[e2c] [ec][cA] | [e4c] ||
+[dB] |: "A7" [e3c] [fd] | [g3e] [fd] | [fd][ec] [ec][fd] | [g3e] [fd] \
+| [ec][fd] [ge][fd] | "E7"[ge][fd] [ec][dB] | "A"[e2c2A2] [ecA][cAE] | [e4c4A4] :|
+P: Last time:
+[dB] || "A7" [e3c] [fd] | [g3e] [fd] | [fd][ec] [ec][fd] | [ge]z3 [g/e][f/d][e/c][d/B] | "E7"[e8d8B8^G8] | "A"[e8-c8-A8-] | H[e8c8A8] |]
+
+%%newpage
+
+
+X: 3
+T: Devetorka: Tri godini
+O: Bulgaria
+Q: 2/8 2/8 2/8 3/8=70
+M: 9/8
+L: 1/8
+Z: 2003 by John Chambers from two handwritten MSs (Mandala, unidentified)
+P: ABABCD
+K: C
+%%indent 150
+"A"\
+|: "C"[cE][BD] [AC][BD] [cE][dF] [c3E3] | [cE][BD] [AC][BD] [cE][dF] [c3E3] |
+w: 1.~Tri* go-*di-*ni se* lju-*bev-*me,
+w: 2.~Te-*be te no-*sat na* ven-*\vci-*lo
+w: 3.~Te-*be te \vcu-*kat ta-*pa-*ni-*te
+w: 4.~Tvoj-*ta* maj-*ka pes-*ni* pe-*je
+| "F"[A2F2] [A2F2] [A2F2] "(G7)"[AF][GE][FD] | "C"[G2E2] [cGE][BG] "G7"[AF][GE] "C"[G3E3] "B":: "C"[G2E2] [cE][dF] [cE][BE] "F"[AF][AF][BG] |
+w: lo-\vsa du-ma** ne re-*kov-*me.  Zar ne ti je \vzal, bre, li-be,
+w: Me-ne, milo li-*be, na ve-*si-*lo.
+w: Me-ne, milo li-*be, kam-ba-*ni-*te.
+w: Moj-ta maj-ka** sol-zi* le-*je.
+| [cA][BG] [AF][GE] "(G7)"[GE][FD] "C"[E2C2][F/D/][G/E/] | "F"[A2F2] [AF][GE] [GE][FD] "C"[E2C2][CG,] | "G7"[DB,][EC] [FD][EC] [D2B,2] "C fine"[C3C3] :|
+w: a-man i za me-* ne** Jas da* um-*ram se za-ra-de* te-be.
+%%%text Instrumental:
+"C"\
+|: "C"{cd}ec ef "G7"ed "C"c2d | "C"ec ef "G7"ed "C"c3 "D":: "C"{ef}[ge][ec] [ge][af] "G7"[ge][fd] "C"[e2c2][fd] | "C"[ge][ec] [ge][af] "G7"[ge][fd] "C"[e3c3] :|
+
+%%sep 1 1 500
+
+
+X: 4
+T: Devetorka: Tri godini
+%O: Bulgaria
+Q: 2/8 2/8 2/8 3/8=70
+M: 9/8
+L: 1/8
+Z: 2003 by John Chambers from two handwritten MSs (Mandala, unidentified)
+%P: ABABCD
+K: D
+%%%text Vocal:
+"A"\
+|: "D"[dF][cE] [BD][cE] [dF][eG] [d3F3] \
+| [dF][cE] [BD][cE] [dF][eG] [d3F3] \
+| "G"[B2G2] [B2G2] [B2G2] "(A7)"[BG][AF][GE] \
+| "D"[A2F2] [dAF][cA] "A7"[BG][AF] "D"[A3F3] :|
+"B"\
+|: "D"[A2F2] [dF][eG] [dF][cF] "G"[B2G2][cA] \
+| [dB][cA] [BG][AF] "(A7)"[AF][GE] "D"[F2D2][G/E/][A/F/] \
+| "G"[B2G2] [BG][AF] [AF][GE] "D"[F2D2][DA,] \
+| "A7"[EC][FD] [GE][FD] [E2C2] "D fine"[D3D3] :|
+%%%text Instrumental:
+"C"\
+|: "D"{de}fd fg "A7"fe "D"d2e \
+| "D"fd fg "A7"fe "D"d3 \
+"D"\
+:: "D"{fg}[af][fd] [af][bg] "A7"[af][ge] "D"[f2d2][ge] \
+| "D"[af][fd] [af][bg] "A7"[af][ge] "D"[f3d3] :|
+
+%%newpage
+
+
+X: 5
+T: Sirun A\,h\vcik   [Dm]
+T: Sweet Girl
+C: Udi Hrant (1936)
+N: Udi Hrant wrote this song for his bride-to-be, Aghvan\i.
+O: Armenia
+M: 4/4
+L: 1/8
+S: Pinewoods International Collection
+K: Ddor
+|: "instr."zC EF "Gm"G2 G2 | "(F)"~AG A{G}F "Gm"G4 | "(F)"GF AF "Cm"FE G_E | "Cm"_ED FE "Dm"D4 H:|
+|: {GABc}kdz "vocal"Bc "Gm"d2 d2 | "F(Dm)"c2 Bc A4 | "Gm"GF EF G2 AF | "Cm"F_E ED "Dm"D4 :|
+|: z2 "vocal"EF "Gm"G2 G2 | "(F)"AG AF "Gm"G2 z2 | "(F)"GF AF "Cm"FE G_E | "Cm"_ED FE "Dm"D4 :|
+%
+W:1.Sirun akhchik, sirun yar yekur, yekur, hokis ar.
+W:  Arantz kezi chem kurna ur vor yertas het\"ot tar.
+W:2.Hetet tar indz murushik tas mu haner anushik.
+W:  Shaghar es tu anneshik tar vodkerud tarm pachik.
+W:3.Yes khu motu ul-lahi patut matnu antznehi.
+W:  Pachik mu kezi tayi het\"ot kyankh\"uz azdehi.
+%W
+%%begintext
+%% 1. Sweet girl, sweet love, come, come, take my soul. I can't do without you. Wherever you go, take me with you.
+%% 2. Take me with you, O sweet one, even if it's for ten years. You are like sugar, my sweet one. Let me kiss your feet.
+%% 3. If I were close to you, I would stay under your wall. I would give you a kiss, I'd even give my life.
+%%endtext
+
+%%sep 5 5 500
+
+
+X: 6
+T: Sirun A\,h\vcik   [Em]
+T: Sweet Girl
+C: Udi Hrant (1936)
+N: Udi Hrant wrote this song for his bride-to-be, Aghvan\i.
+O: Armenia
+M: 4/4
+L: 1/8
+S: Pinewoods International Collection
+K: Edor
+|: "instr."zD FG "Am"A2 A2 | "(G)"~BA B{A}G "Am"A4 | "(G)"AG BG "Dm"GF A=F | "Dm"=FE GF "Em"E4 H:|
+|: {ABcd}kez "vocal"cd "Am"e2 e2 | "G(Em)"d2 cd B4 | "Am"AG FG A2 BG | "Dm"G=F FE "Em"E4 :|
+|: z2 "vocal"FG "Am"A2 A2 | "(G)"BA BG "Am"A2 z2 | "(G)"AG BG "Dm"GF A=F | "Dm"=FE GF "Em"E4 :|
+%
+%W:1.Sirun akhchik, sirun yar yekur, yekur, hokis ar.
+%W:  Arantz kezi chem kurna ur vor yertas het\"ot tar.
+%%W:
+%W:2.Hetet tar indz murushik tas mu haner anushik.
+%W:  Shaghar es tu anneshik tar vodkerud tarm pachik.
+%%W:
+%W:3.Yes khu motu ul-lahi patut matnu antznehi.
+%W:  Pachik mu kezi tayi het\"ot kyankh\"uz azdehi.
+%%W:
+%%%begintext
+%%% 1. Sweet girl, sweet love, come, come, take my soul. I can't do without you. Wherever you go, take me with you.
+%%% 2. Take me with you, O sweet one, even if it's for ten years. You are like sugar, my sweet one. Let me kiss your feet.
+%%% 3. If I were close to you, I would stay under your wall. I would give you a kiss, I'd even give my life.
+%%%endtext
+%
+%%%sep 1 1 500
+%%%sep 1 1 500
+%X: 2
+%T: Sirun A\,h\vcik   [Am]
+%T: Sweet Girl
+%O: Armenia
+%M: 4/4
+%L: 1/8
+%S: Pinewoods International Collection
+%K: Ador
+%|: "instr."zG Bc "Dm"d2 d2 | "(C)"~ed e{d}c "Dm"d4 | "(C)"dc ec "Gm"cB d_B | "Gm"_BA cB "Am"A4 H:|
+%|: {defg}kaz "vocal"fg "Dm"a2 a2 | "C(Am)"g2 fg e4 | "Dm"dc Bc d2 ec | "Gm"c_B BA "Am"A4 :|
+%|: z2 "vocal"Bc "Dm"d2 d2 | "(C)"ed ec "Dm"d2 z2 | "(C)"dc ec "Gm"cB d_B | "Dm"_BA cB "Am"A4 :|
+
+%%newpage
+
+
+X: 7
+T: Koftos
+O: Greece
+K:
+
+
+X: 8
+P: Koftos  [Dm]
+O: Greece
+%level: 1
+Z: John Chambers <jc@trillian.mit.edu>, from a 1983 transcription by Bill Possi
+N: On recording, guitar plays melody an octave down and has solo on endings.
+D:
+B:
+M: C
+L: 1/8
+%Q: 3/8 1/8 2/8 2/8
+%%staffsep 40
+K: Dm
+G=Bc \
+|: "Dm"d2dc efgf \
+| Tg2fe ~dG=Bc \
+| d3~c "C7"efge \
+| "F"Tf>cAc ~fG=B~c \
+| "Dm"d3c ~efgf |
+| Tg2fe ~d2zd \
+| "Dm"~f>~edf "C"~e~dce \
+| "Dm"~dz z6 \
+:: "F"{c}a2~ag a=bc'~d' \
+| c'>b~ag ~fe~dc |
+| "F"a2-~ag a=bc'~d' \
+| c'>b~ag ~f2z(c \
+| "F"a2)~ag a=bc'~d' \
+| c'>b~ag ~fe~dc \
+| "Dm"~f~edf "C"~e~dce \
+| "Dm"dz z6 :|
+
+
+X: 9
+P: Koftos  [Dm]
+O: Greece
+%level: 1
+Z: John Chambers <jc@trillian.mit.edu>, from a 1983 transcription by Bill Possi
+N: On recording, guitar plays melody an octave down and has solo on endings.
+D:
+B:
+M: C
+L: 1/8
+%Q: 3/8 1/8 2/8 2/8
+%%staffsep 45pt
+K: Dm
+G,=B,C \
+|: "Dm"D2 DC EF GF \
+| G2 FE DG,=B,C \
+| D3 C "C7"EF GE \
+| "F"F>C A,C FG,=B,C \
+| "Dm"D3 C EF GF \
+| G2 FE D2 zD |
+| "Dm"F>E DF "C"ED CE \
+|1 "Dm"Dz =B,2 C2 ^C2 \
+:|2 "Dm"Dz D2 _D2 "C7"C2 \
+|: "F"A2 AG A=B cd \
+| c>B AG FE DC \
+| A2- AG A=B cd |
+| c>B AG F2 "C7"z(C \
+| "F"A2) AG A=B cd \
+| c>B AG FE DC \
+| "Dm"FE DF "C"ED CE \
+|1 "Dm"Dz D2 _D2 C2 \
+:|2 "Dm"HDz =B,2 C2 ^C2 |]
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 10
+P: Koftos  [Em]
+O: Greece
+%level: 1
+Z: John Chambers <jc@trillian.mit.edu>, from a 1983 transcription by Bill Possi
+N: On recording, guitar plays melody an octave down and has solo on endings.
+D:
+B:
+M: C
+L: 1/8
+%Q: 3/8 1/8 2/8 2/8
+%%staffsep 40
+K: Em
+A^cd \
+|: "Em"e2ed fgag \
+| Ta2gf ~eA^cd \
+| e3~d "D7"fgaf \
+| "G"Tg>dBd ~gA^c~d \
+| "Em"e3d ~fgag |
+| Ta2gf ~e2ze \
+| "Em"~g>~feg "D"~f~edf \
+| "Em"~ez z6 \
+:: "G"{d}b2~ba b^c'd'~e' \
+| d'>c'~ba ~gf~ed |
+| "G"b2-~ba b^c'd'~e' \
+| d'>c'~ba ~g2z(d \
+| "G"b2)~ba b^c'd'~e' \
+| d'>c'~ba ~gf~ed \
+| "Em"~g~feg "D"~f~edf \
+| "Em"ez z6 :|
+
+
+X: 11
+P: Koftos  [Em]
+O: Greece
+%level: 1
+Z: John Chambers <jc@trillian.mit.edu>, from a 1983 transcription by Bill Possi
+N: On recording, guitar plays melody an octave down and has solo on endings.
+D:
+B:
+M: C
+L: 1/8
+%Q: 3/8 1/8 2/8 2/8
+%%staffsep 45pt
+K: Em
+A,^CD \
+|: "Em"E2 ED FG AG \
+| A2 GF EA,^CD \
+| E3 D "D7"FG AF \
+| "G"G>D B,D GA,^CD \
+| "Em"E3 D FG AG \
+| A2 GF E2 zE |
+| "Em"G>F EG "D"FE DF \
+|1 "Em"Ez ^C2 D2 ^D2 \
+:|2 "Em"Ez E2 _E2 "D7"D2 \
+|: "G"B2 BA B^c de \
+| d>c BA GF ED \
+| B2- BA B^c de |
+| "G"d>c BA G2 "D7"z(D \
+| "G"B2) BA B^c de \
+| d>c BA GF ED \
+| "Em"GF EG "D"FE DF \
+|1 "Em"Ez E2 _E2 D2 \
+:|2 "Em"HEz ^C2 D2 ^D2 |]
+
+%%newpage
+
+
+X: 12
+T: Djurdjevi\'ca   [C]
+O: Serbia
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: The first few bars are played slowly, then accel and play the rest fast.
+N: End with the usual 2-chord Serbian ending.
+M: 2/4
+L: 1/16
+K: C
+"slow..."G,2- \
+|: "C"C2z2 E2z C- | "G7"D2z2 FAGF | "C"E2C2 E2FF | "G7"FEDC "^accel..."DG,A,B, |
+| "C"C2CG, E2EG, | "G7"D2DG, DAGF | "C"E2C2 E2FF | "D7"FEDC "G"D4 :|
+|: "C"e2c2 e2ff | "G"fedc dagf | "C"e2c2 e2ff | "G"fedc d2g2 |
+| "C"e2c2 e2ff | "G"fedc dagf | "C"e2c2 e2ff | "D7"fedc "G"d4 :|
+|: "F"a4 f2ga | "C"gefa g2ge | "G7"g2f2 fdgf | "C"e2ed efg^g |
+| "F"a4 f2ga | "C"gefa g2ge | "G7"g2f2 fdgf | "C"e2ed e4 :|
+|: "C"e2ge gege | "G7"def2 fagf | "C"e2c2 e2ff | "G"fedc d2g2 |
+| "C"e2ge gege | "G7"def2 fagf | "C"e2c2 e2ff | "D7"fedc "G"d4 :|
+
+
+X: 13
+T: Djurdjevi\'ca  [D]
+O: Serbia
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: The first few bars are played slowly, then accel and play the rest fast.
+N: End with the usual 2-chord Serbian ending.
+M: 2/4
+L: 1/16
+K: D
+"slow..."A,2- \
+|: "D"D2z2 F2z D- | "A7"E2z2 GBAG | "D"F2D2 F2GG | "A7"GFED "^accel..."EA,B,C |
+| "D"D2DA, F2FA, | "A7"E2EA, EBAG | "D"F2D2 F2GG | "E7"GFED "A"E4 :|
+|: "D"f2d2 f2gg | "A"gfed ebag | "D"f2d2 f2gg | "A"gfed e2a2 |
+| "D"f2d2 f2gg | "A"gfed ebag | "D"f2d2 f2gg | "E7"gfed "A"e4 :|
+|: "G"b4 g2ab | "D"afgb a2af | "A7"a2g2 geag | "D"f2fe fga^a |
+| "G"b4 g2ab | "D"afgb a2af | "A7"a2g2 geag | "D"f2fe f4 :|
+|: "D"f2af afaf | "A7"efg2 gbag | "D"f2d2 f2gg | "A"gfed e2a2 |
+| "D"f2af afaf | "A7"efg2 gbag | "D"f2d2 f2gg | "E7"gfed "A"e4 :|
+
+%%newpage
+
+
+X: 14
+T: Albanian #1    [G]
+T: Punt\"etor\"et t\"e Ndertimit (the Construction Workers)
+%info: line
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+%Q: 3/8 2/8
+M: 5/8
+L: 1/8
+K: G
+|: DD \
+| "G"[d2B] [dB] [ec][dB] | "Am"[c3A] [dB][dB] \
+| "D7"[f2d] [fd] [ec][cA] | "G"[B3G] DD \
+| [d2B] [dB] [dB][fd] | "Am"[e3c] [a/f][g/e][f/d][e/c] \
+| "D7"[d2B] [dB] [dB][cA] | "G"[B3G] :|
+|: [GB,][AC] \
+| "G"[B2D] [BD] [cE][BD] | [cE][B2D] [GB,][AC] \
+| [B2D] [cE] [d=F][dF] | "Am"[c3E] [cE][cE] \
+| [c2E] [cE] [cE][cE] | "D7"[f2A] [fA] [fA][eG] \
+| [d2F] [cE] [BD][AC] |1 "G"[B3D] :|2 "G"[G3B,] |]
+|: [DB,][DB,] \
+| "G"[G2D] [GD] [GD][AF] | [B2G] [BG] [BG][cA] \
+| [d2B] [dB] [cA][BG] | "Am"[c3A] [AE][AE] \
+| "D7"[G2E] [FD] [AF][AF] | [G2E] [FD] [AF][GE] \
+| [F2D] [EC] [DB,][CA,] |1 "G"[D3B,] :|2 "G"[B,3G,] |]
+
+
+X: 15
+T: Albanian #1    [A]
+T: Punt\"etor\"et t\"e Ndertimit (the Construction Workers)
+%info: line
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+%Q: 3/8 2/8
+M: 5/8
+L: 1/8
+K: A
+|: EE \
+| "A"[e2c] [ec] [fd][ec] | "Bm"[d3B] [ec][ec] \
+| "E7"[g2e] [ge] [fd][dB] | "A"[c3A] EE \
+| [e2c] [ec] [ec][ge] | "Bm"[f3d] [b/g][a/f][g/e][f/d] \
+| "E7"[e2c] [ec] [ec][dB] | "A"[c3A] :|
+|: [AC][BD] \
+| "A"[c2E] [cE] [dF][cE] | [dF][c2E] [AC][BD] \
+| [c2E] [dF] [e=G][eG] | "Bm"[d3F] [dF][dF] \
+| [d2F] [dF] [dF][dF] | "E7"[g2B] [gB] [gB][fA] \
+| [e2G] [dF] [cE][BD] |1"A"[c3E] :|2 "A"[A3C] |]
+|: [EC][EC] \
+| "A"[A2E] [AE] [AE][BG] | [c2A] [cA] [cA][dB] \
+| [e2c] [ec] [dB][cA] | "Bm"[d3B] [BF][BF] \
+| "E7"[A2F] [GE] [BG][BG] | [A2F] [GE] [BG][AF] \
+| [G2E] [FD] [EC][DB,] |1 "A"[E3C] :|2 "A"[C3A,] |]
+
+%%newpage
+
+
+X: 16
+T: Pajdu\vsko #1   [C]
+O: Bulgaria
+R: Pajdushko
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+%%staffsep 45
+M: 5/8
+L: 1/8
+K: C
+"A"\
+|:\
+"C"cG ~c2G | "G"dG ~d2G | "C"ec fed | ec fef |\
+"G"~g2 fed | ef gfg | "C"~e2 dcB |1,3 cd ~e2G :|2,4 cG c3 :|
+"B"\
+|:\
+"G"~g2 fed | ef gfg | "C"~e2 dcB | cd ~e2G |\
+"G"~g2 fed | ef gfg | "C"~e2 dcB | "C"cG Hc3 :|
+K:D^f_B_e
+"C"\
+|:\
+"D"dA "(Cm)"gfe | "D"dc ~d2A | "D"dA "(Cm)"gfe | "D"de fga |\
+"D"dA gfg | "D"ad bab | "Cm"~c'2 bag | "D"fe ~d3 :|
+"D"\
+|:\
+"D"dA gfg | ad bab | "Cm"~c'2 bag | "D"fe def |\
+"Cm"cz c3- | c2 fga | "D"~f2 edc |1 dA fga :|2 dA ~d3 ||
+"E"\
+|:\
+"Cm"cz c3- | c2 fga | "D"~f2 edc | dA fga |\
+"Cm"cz c3- | c2 fga | "D"~f2 edc | dA ~d3 :|
+"F"\
+|:\
+"D"~f2 edc | dA fga | "(Cm)"~f2 edc | "D"dA  ~d2A |\
+~f2 edc | dA fga | "(Cm)"~f2 edc | "D"dA  ~d3 :|
+
+%%sep 1 1 500
+
+
+X: 17
+T: Pajdu\vsko #1   [D]
+O: Bulgaria
+R: Pajdushko
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+%%staffsep 45
+M: 5/8
+L: 1/8
+K: D
+"A"\
+|:\
+"D"dA ~d2A | "A"eA ~e2A | "D"fd gfe | fd gfg |\
+"A"~a2 gfe | fg aga | "D"~f2 edc |1,3 de ~f2A :|2,4 dA d3 :|
+"B"\
+|:\
+"A"~a2 gfe | fg aga | "D"~f2 edc | de ~f2A |\
+"A"~a2 gfe | fg aga | "D"~f2 edc | "D"dA Hd3 :|
+K:E=f=c^g
+"C"\
+|:\
+"E"eB "(Dm)"agf | "E"ed ~e2B | "E"eB "(Dm)"agf | "E"ef gab |\
+"E"eB aga | "E"be c'bc' | "Dm"~d'2 c'ba | "E"gf ~e3 :|
+K:E^g
+"D"\
+|:\
+"E"eB aga | be c'bc' | "Dm"~d'2 c'ba | "E"gf efg |\
+"Dm"dz d3- | d2 gab | "E"~g2 fed |1 eB gab :|2 eB ~e3 ||
+"E"\
+|:\
+"Dm"dz d3- | d2 gab | "E"~g2 fed | eB gab |\
+"Dm"dz d3- | d2 gab | "E"~g2 fed | eB ~e3 :|
+"F"\
+|:\
+"E"~g2 fed | eB gab | "(Dm)"~g2 fed | "E"eB  ~e2B |\
+~g2 fed | eB gab | "(Dm)"~g2 fed | "E"eB  ~e3 :|
+
+%%newpage
+
+
+X: 18
+T: Sandansko Oro
+T: Strand\vzansko Oro
+O: Bulgaria
+R: Horo
+Z: John Chambers <jc@trillian.mit.edu>
+P: ABABCAB
+M: 9.9.4/8
+K: Dm
+"A"\
+|: "Dm"D2 A2 G2     A3  | "Gm"G2 GF AG    G2F | "Dm"FE ED \
+|| "Dm"DE F2 FE "Gm"G2F |  "C"FE ED EC "Dm"D3 |1 DE FG :|2 D2 D2 ||
+"B"\
+|: "Dm"DE F2 FE "Gm"G2F | "Dm"FE ED FG "Gm"G2A | "Dm"GF FE \
+|| "Dm"DE F2 FE "Gm"G2F |  "C"FE ED EC "Dm"D2A,|     D2 D2 :|
+K: C
+"C"\
+|: "C"[EC][FD] [G2E2]   [GE][FD] [F2D2][EC] \
+|  "C"[EC][FD] [GE][AF] "(G7)"[BG][AF] [G2E2][FD] \
+|     [GE][FD] "C"[FD][EC] \
+|| "C"[EC][FD] [G2E2]   [GE][FD] [F2D2][EC] \
+|  "C"[EC][FD] [GE][AF] "G7"[GE][FD] [EC][FD][EC] \
+|  "C"[E2C2]   [E2C2] :|
+
+%%sep 1 1 500
+
+
+X: 19
+T: Sandansko Oro
+T: Strand\vzansko Horo
+O: Bulgaria
+R: (h)oro
+Z: John Chambers <jc@trillian.mit.edu>
+P: ABABCAB
+M: 9.9.4/8
+K: Em
+"A"\
+|: "Em"E2 B2 A2     B3  | "Am"A2 AG BA    A2G | "Em"GF FE \
+|| "Em"EF G2 GF "Am"A2G |  "D"GF FE FD "Em"E3 |1 EF GA :|2 E2 E2 ||
+"B"\
+|: "Em"EF G2 GF "Am"A2G | "Em"GF FE GA "Am"A2B | "Em"AG GF \
+|| "Em"EF G2 GF "Am"A2G |  "D"GF FE FD "Em"E2B,|     E2 E2 :|
+K: D
+"C"\
+|: "D"[FD][GE] [A2F2]   [AF][GE] [G2E2][FD] \
+|  "D"[FD][GE] [AF][BG] "(A7)"[cA][BG] [A2F2][GE] \
+|     [AF][GE] "D"[GE][FD] \
+|| "D"[FD][GE] [A2F2]   [AF][GE] [G2E2][FD] \
+|  "D"[FD][GE] [AF][BG] "A7"[AF][GE] [FD][GE][FD] \
+|  "D"[F2D2]   [F2D2] :|
+
+%%newpage
+
+
+X: 20
+T: Kolo from Ripanj
+O: Serbia
+Z: John Chambers <jc@trillian.mit.edu> from handwritten ms.
+%%musicspace 5.0
+M: 2/4
+L: 1/16
+K: C
+"A"|: "C".c2.c2 c2cB | "G7"^A2B2 "C"c2cB | c2cB "G7"^A2B2 | "C"c4 c4 |
+   | "C"^f2fg f2g2 | e2c2 cB^AB | "G7"cB_BA B2=B2 | "C"c4 "->Coda"c4 :|
+"B"|::: "C" c2cB "G7"^A2B2 | "C"c2^fg f2g2 | "G7"ag^f=f ^f2g2 | =fefd "C"e4  :::|
+"C"|: "C7"[_B4G4] [B2G4]cB | "F"[A4F4] [A2F4]_BA | "G7"[F4D4] [F2D4]GF \
+   |1,3 [E4C4] "C"[EC4]FGA :|2 "C"k[E2C2] k[E2C2] [EC4]FGA :|4 "C"k[E2C2] k[E2C2] [EC4]F^FG ||
+"D"|::: "G7"AG_GF ~G2=G2 | =F2D2 "C"E4 | "G7"EFF2- F2D2 \
+   |1-3 E2E2 "C"EF^FG :|4 "C"E2E2 E4  :|
+"E"|::: "G7"F2FE F2D2 | "C"E4 G4 | "G7"F2FE F2D2 |1,3 E2"C"E2 EF^FG :|2,4 E2"C"E2 E4 :|
+"Coda"[| "C".c2.c2 c2cB | "G7"^A2B2 "C"c2cB | c2cB "G7"^A2B2 | "C"c4 c4 ||
+      |:: "C"^f2fg f2g2 | e2c2 cB^AB ::| \
+      |: "G7"cB_BA B2=B2 | "C"c4 c4 :| \
+      | "G7"cB_BA B2=B2 | "C".c2"G".G2 "C".c2z2 |]
+
+%%sep 1 1 10cm
+
+
+X: 21
+T: Kolo from Ripanj
+O: Serbia
+Z: John Chambers <jc@trillian.mit.edu> from handwritten ms.
+%%musicspace 5.0
+M: 2/4
+L: 1/16
+K: D
+"A"|: "D".d2.d2 d2dc | "A7"^B2c2 "D"d2dc | d2dc "A7"^B2c2 | "D"d4 d4 |
+   | "D"^g2ga g2a2 | f2d2 dc^Bc | "A7"dc=cB c2^c2 | "D"d4 "->Coda"d4 :|
+"B"|::: "D" d2dc "A7"^B2c2 | "D"d2^ga g2a2 | "A7"ba_ag a2=a2 | gfge "D"f4  :::|
+"C"|: "D7"[=c4A4] [c2A4]dc | "G"[B4G4] [B2G4]=cB | "A7"[G4E4] [G2E4]AG \
+   |1,3 [F4D4] "D"[FD4]GAB :|2 "D"k[F2D2] k[F2D2] [FD4]GAB :|4 "D"k[F2D2] k[F2D2] [FD4]G^GA ||
+"D"|::: "A7"BA_AG ~A2=A2 | G2E2 "D"F4 | "A7"FGG2- G2E2 \
+   |1-3 F2F2 "D"FG^GA :|4 "D"F2F2 F4  :|
+"E"|::: "A7"G2GF G2E2 | "D"F4 A4 | "A7"G2GF G2E2 |1,3 F2"D"F2 FG^GA :|2,4 F2"D"F2 F4 :|
+"Coda"[| "D".d2.d2 d2dc | "A7"^B2c2 "D"d2dc | d2dc "A7"^B2c2 | "D"d4 d4 ||
+      |:: "D"^g2ga g2a2 | f2d2 dc^Bc ::| \
+      |: "A7"dc=cB c2^c2 | "D"d4 d4 :| \
+      | "A7"dc=cB c2^c2 | "D".d2"A".A2 "D".d2z2 |]
+
+%%newpage
+
+
+X: 22
+T: R\ua\vcenica for Three  [F]
+O: Bulgaria
+P: AB.ABC.DEC.DEC.FGC.FGC.DEC
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 7/8
+L: 1/8
+K: F
+"A" \
+[|"F"[A2F] [A2F] [A2F][BG] | [c2A] [c2A] [c2A][dB] | "C7"[e4c] [d3B] | "F"[c7A] \
+| "F"[A2F] [A2F] [A2F][BG] | [c2A] [c2A] [c2A][dB] | "C7"[e4c] [d3B] | "F"[c7A] |]
+"B" \
+|:"F"[c4A] "C7"[B3G] | "F"[A4F] "Bb"[d3B] | "F"[c2A] [c2A] [BG][AF][BG] | "F"[c7A] \
+| "F"[c4A] "C7"[B3G] | "F"[A4F] "Bb"[d3B] | "F"[c2A] [c2A] [BG][AF][BG] | "F"[A7F] :|
+%%sep 1 8 200
+"C" \
+|:"F"[AF][BG] [AF][BG] [c2A][cA] | "C7"[cA][dB] [cA][BG] "F"[A3F] | "F"[AF][BG] [AF][BG] [c2A][cA] | "C7"[cA][dB] [cA][BG] "F"[A3F] \
+| "F"[AF][BG] [AF][BG] [c2A][cA] | "C7"[cA][dB] [cA][dB] [e2c][dB] | "C7"[cA][dB] [dB][cA] [cA][BG][BG] | "F"[A7F] :|
+%%sep 1 8 200
+"D" \
+[|"F"[A2F] [B2G] [c3A] | [A2F] [B2G] [c3A] | "Bb"[d2B] [d4B][dB] | "C7"[cA][BG] [BG][AF] "F"[A3F] \
+| "F"[A2F] [B2G] [c3A] | [A2F] [B2G] [c3A] | "Bb"[d2B] [d4B][dB] | "C7"[cA][BG] [BG][AF] "F"[A3F] |]
+"E" \
+|:"Bb"[d2B] [d2B] [d2B][dB] | [d2B] [d2B] [d2B][cA] | "C7"[c2A] [d2B] [e2c][dB] | "F"[d2B] [c2A] [c3A] \
+| "C7"[c2A] [d2B] [e2c][dB] | "F"[d2B] [c2A] [c3A] | [A2F] [B2G][c2A][cA] | "C7"[cA][BG] [BG][AF] "F"[A3F] :|
+P: - - - C - - -
+%%sep 1 8 200
+"F" \
+[|"F"[c2A] [d2B] [dB][cA][dB] | "C7"[e7c] | "Bb"[cA][dB] [d2B] [dB][cA][BG] | "F"[c7A] \
+| "F"[c2A] [d2B] [dB][cA][dB] | "C7"[e7c] | "Bb"[cA][dB] [d2B] [dB][cA][BG] | "F"[c7A] |]
+"G" \
+[|"F"[c2A] [d2B] [cA][BG][AF] | "C7"[B7G] | [c2A] [d2B] [dB][cA][BG] | "F"[A7F] \
+| "F"[c2A] [d2B] [cA][BG][AF] | "C7"[B7G] | [c2A] [d2B] [dB][cA][BG] | "F"[A7F] |]
+P: - - - C - - -
+
+%%sep 1 1 500
+
+
+X: 23
+T: R\ua\vcenica for Three  [G]
+O: Bulgaria
+P: AB.ABC.DEC.DEC.FGC.FGC.DEC
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 7/8
+L: 1/8
+K: G
+"A" \
+[|"G"[B2G] [B2G] [B2G][cA] | [d2B] [d2B] [d2B][ec] | "D7"[f4d] [e3c] | "G"[d7B] \
+| "G"[B2G] [B2G] [B2G][cA] | [d2B] [d2B] [d2B][ec] | "D7"[f4d] [e3c] | "G"[d7B] |]
+"B" \
+|:"G"[d4B] "D7"[c3A] | "G"[B4G] "C"[e3c] | "G"[d2B] [d2B] [cA][BG][cA] | "G"[d7B] \
+| "G"[d4B] "D7"[c3A] | "G"[B4G] "C"[e3c] | "G"[d2B] [d2B] [cA][BG][cA] | "G"[B7G] :|
+%%sep 1 8 200
+"C" \
+|:"G"[BG][cA] [BG][cA] [d2B][dB] | "D7"[dB][ec] [dB][cA] "G"[B3G] | "G"[BG][cA] [BG][cA] [d2B][dB] | "D7"[dB][ec] [dB][cA] "G"[B3G] \
+| "G"[BG][cA] [BG][cA] [d2B][dB] | "D7"[dB][ec] [dB][ec] [f2d][ec] | "D7"[dB][ec] [ec][dB] [dB][cA][cA] | "G"[B7G] :|
+%%sep 1 8 200
+"D" \
+[|"G"[B2G] [c2A] [d3B] | [B2G] [c2A] [d3B] | "C"[e2c] [e4c][ec] | "D7"[dB][cA] [cA][BG] "G"[B3G] \
+| "G"[B2G] [c2A] [d3B] | [B2G] [c2A] [d3B] | "C"[e2c] [e4c][ec] | "D7"[dB][cA] [cA][BG] "G"[B3G] |]
+"E" \
+|:"C"[e2c] [e2c] [e2c][ec] | [e2c] [e2c] [e2c][dB] | "D7"[d2B] [e2c] [f2d][ec] | "G"[e2c] [d2B] [d3B] \
+| "D7"[d2B] [e2c] [f2d][ec] | "G"[e2c] [d2B] [d3B] | [B2G] [c2A][d2B][dB] | "D7"[dB][cA] [cA][BG] "G"[B3G] :|
+P: - - - C - - -
+%%sep 1 8 200
+"F" \
+[|"G"[d2B] [e2c] [ec][dB][ec] | "D7"[f7d] | "C"[dB][ec] [e2c] [ec][dB][cA] | "G"[d7B] \
+| "G"[d2B] [e2c] [ec][dB][ec] | "D7"[f7d] | "C"[dB][ec] [e2c] [ec][dB][cA] | "G"[d7B] |]
+"G" \
+[|"G"[d2B] [e2c] [dB][cA][BG] | "D7"[c7A] | [d2B] [e2c] [ec][dB][cA] | "G"[B7G] \
+| "G"[d2B] [e2c] [dB][cA][BG] | "D7"[c7A] | [d2B] [e2c] [ec][dB][cA] | "G"[B7G] |]
+P: - - - C - - -
+
+%%newpage
+
+
+X: 24
+T: Kalamatian\'os: Samiotissa    [G]
+T: Girl from Samos
+O:Greece
+R:kalamatianos
+Z:John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N:The lower line should be considered the melody.
+N:The instrumental interlude here is a "generic" interlude used in much Greek music.
+W:Girl from Samos, when I get to Samos, I'll throw roses on the shore, roses on the sand.
+W:And in the boat in which you go, golden sails I'll put, golden oars, so I can take you.
+W:Girl from Samos with the black olives and the black eyes, you've broken my heart into 42 pieces.
+W:Samiotissa, passion doesn't need begging. There are other orange trees that give oranges.
+M:7/8
+L:1/8
+K:G
+P: Instr:
+|: z[ge][fd][ec] | "D7"[d2B][dB] [cA][BG] [cA][dB] | "G"[B2G][cA] [dB][ge][fd][ec] \
+| "D7"[d2B][dB] [cA][BG] [cA][dB] | "G"[B3G] :|
+P: Vocal:
+|: [D2G] | "G"[G2B][FA] [G2B] [A2c] | [B2d][Ac] [G4B] | "C"[ce][ce][ce] [ce][Bd] [Ac][GB] | "G"[B3d] z2 :|
+w: 1.~Sa-mio-tis-sa, Sa-mio-tis-sa, po-te tha pos ti Sa-*mo,
+w: 2.~Ke me tin var-ka pu tha pas khri-sa pa-nia tha va-*lo,
+w: 3.~Sa-mio-tis-sa, mi tis e-lyes ke me ta mav-ra ma-*tia
+w: 4.~Sa-mio-tis-sa, o e-ro-tas, den the-li pa-ra-ka-*lia
+|: "D7"[df][df][df] "C"[eg][df] [ce][Bd] | "D7"[A2c][ce] "G"[Bd][Ac] [GB][Ac] |
+w: ro-dha pa ri-kso sto yia-lo, Sa-mio-tis-sa, trian-
+w: ma-la-ma te-nya ta ku-pia Sa-mio-tis-sa, ya
+w: mu 'ka-nes tin kar-dhu-la mu, Sa-mio-tis-sa, sa-
+w: E-khi ky'a-la por-to-kya-lies, Sa-mio-tis-sa, pu
+| [B2d][Bd] "D7"[Ac][GB] [Ac][Bd] |1 "G"[G2B][Ac] [B2d][c2e] :|2 "G"[G3B] z2 |]
+w: da-fi-la stin a-*mo.___ \-mo.
+w: har-tho, na se pa-*no.___ \-no.
+w: \-ran-da-dhyo ko-ma-*tya.___ \-tya.
+w: ka-noun por-to-ka-*lia.___ \-lia.
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+
+X: 25
+T: Kalamatian\'os: Samiotissa    [A]
+T: Girl from Samos
+O:Greece
+R:kalamatianos
+Z:John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N:The lower line should be considered the melody.
+N:The instrumental interlude here is a "generic" interlude used in much Greek music.
+M:7/8
+L:1/8
+K: A
+|: z[af][ge][fd] | "E7"[e2c][ec] [dB][cA] [dB][ec] | "A"[c2A][dB] [ec][af][ge][fd] \
+| "E7"[e2c][ec] [dB][cA] [dB][ec] | "A"[c3A] :|
+|: [E2A] | "A"[A2c][GB] [A2c] [B2d] | [c2e][Bd] [A4c] \
+| "D"[df][df][df] [df][ce] [Bd][Ac] | "A"[c3e] z2 :|
+|: "E7"[eg][eg][eg] "D"[fa][eg] [df][ce] \
+| "E7"[B2d][df] "A"[ce][Bd] [Ac][Bd] \
+| [c2e][ce] "E7"[Bd][Ac] [Bd][ce] \
+|1 "A"[A2c][Bd] [c2e][d2f] :|2 "A"[A3c] z2 |]
+
+%%newpage
+
+
+X: 26
+T: Div\vcibarsko [F]
+O: Croatia
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/16
+K: F
+|:\
+"F"[cA][BG][A2F] [AF][GC][AF][BG] | [cA][BG][A2F] [AF][GC][AF][BG] | "C7"[c2A][B2G] [B2G][cA][BG] |\
+[1,3 "F"[A2F][AF][GC] [AF][BG][c2A] :|2,4 "F"[A2F][AF][FC] [A4F] :|
+|:\
+"C7"[c2A][B2G] [B2G][cA][BG] | "F"[A2F][AF][GC] [AF][BG][c2A] | [c2A][B2G] "C7"[B2G][cA][BG] |\
+[1,3 "F"[A2F][AF][FC] [A2F][AF][FC] :|2,4 "F"[A2F][AF][FC] [A4F] :|
+|:\
+"F"[c'2a][c'2a] [c'a][bg][a2f] | [c'2a][c'2a] [c'a][bg][af][bg] | "C7"[c'2a][b2g] [b2g][c'a][bg] |\
+[1,3 "F"[a2f][af][gc] [af][bg][c'2a] :|2,4 "F"[a2f][af][fc] [a4f] :|
+|:\
+"F"[F2C][AF][FC] [AF][FC][AF][FC] | "Bb"[B2G][BG][AF] [B2G][BG][GE] |\
+[1,3 "F"[FC][GE][A2F] [AF][FC][AF][cF] | "C7"[BG][AF][GE][FD] [G4C] :|\
+[2,4 "F"[BG][AF][GE][FC] "G7"[GE][FD][EC][F=B,] | "C"[G2C][GC][FC] [G4C] :|
+
+%%sep 1 1 200
+
+
+X: 27
+T: Div\vcibarsko    (G)
+O: Croatia
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/16
+K: G
+|:\
+"G"[dB][cA][B2G] [BG][AD][BG][cA] | [dB][cA][B2G] [BG][AD][BG][cA] | "D7"[d2B][c2A] [c2A][dB][cA] |\
+[1,3 "G"[B2G][BG][AD] [BG][cA][d2B] :| [2,4 "G"[B2G][BG][GD] [B4G] :|
+|:\
+"D7"[d2B][c2A] [c2A][dB][cA] | "G"[B2G][BG][AD] [BG][cA][d2B] | [d2B][c2A] "D7"[c2A][dB][cA] |\
+[1,3 "G"[B2G][BG][GD] [B2G][BG][GD] :| [2,4 "G"[B2G][BG][GD] [B4G] :|
+|:\
+"G"[d'2b][d'2b] [d'b][c'a][b2g] | [d'2b][d'2b] [d'b][c'a][bg][c'a] | "D7"[d'2b][c'2a] [c'2a][d'b][c'a] |\
+[1,3 "G"[b2g][bg][ad] [bg][c'a][d'2b] :|2,4 "G"[b2g][bg][gd] [b4g] :|
+|:\
+"G"[G2D][BG][GD] [BG][GD][BG][GD] | "C"[c2A][cA][BG] [c2A][cA][AF] |\
+[1,3 "G"[GD][AF][B2G] [BG][GD][BG][dG] | "A7"[cA][BG][AF][GE] "D"[A4D] :|\
+[2,4 "G"[cA][BG][AF][GD] "A7"[AF][GE][FD][G^C] | "D"[A2D][AD][GD] [A4D] :|
+
+%%newpage
+
+
+X: 28
+T: Daj mi daj  [C]
+C: Dalmatia
+R: waltz
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: C
+[| "C"[C2E2] [DF] | [E3G3] | [C2E3] [DF] | [E2G2] [EG] | "F"[F2A2] [EG] | "Dm"[D2F2] [CE] | "G7"[B,3D3]- | [B,3D3] |
+w: 1.~Daj mi daj, daj mi daj, O li-pa Ma-ri-ja.
+w: 2.~Bjon-da si, bjon-da si, Ti li-pa Ma-ri-jo.
+y2 [B,2D2] [CE] | [D3F3] | [B,2D2] [CE] | [D2F2] [EG] | [G2B2] [FA] | [E2G2] [DF] | "C"[C3E2]- | [C3E2] ||
+w: Daj mi daj, daj mi daj, Da te-be lju-bim ja.
+w: Te-bi \'cu, te-bi \'cu, Da pi-vam pis-mi-cu.
+|: "F"[A3c3] | [F2A2] [Ac] | "G7"[G3B3]- | [G3B3] | "F"[FA] [FA]> [FA] | [Ac] [GB] [FA] | "C"[E2G2] [FA] | [E2G2] [FA] |
+w: Pri-di s~me-noj,_ Pri-di s~me-noj na mor-je ve-slaj, ve-
+y2 ([E3G3] | [E3G3]) | "G7"[G3B3] | [F2A2] [EG] | [D3F3]- | [D3F3] | [DG] [EG] [FA] | [E2G2] [DF] | "C"[C3E3]- | [C3E3] :|
+w: slaj,_ Pri-di s~me-noj_ kra-sna je no\'c o-va.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 29
+T: Daj mi daj  [D]
+C: Dalmatia
+R: waltz
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+[|\
+"D"[D2F2] [EG] | [F3A3] | [D2F2] [EG] | [F2A2] [FA] |\
+"G"[G2B2] [FA] | "Em"[E2G2] [DF] | "A7"[C3E3]- | [C3E3] |
+[C2E2] [DF] | [E3G3] | [C2E2] [DF] | [E2G2] [FA] |\
+[A2c] [GB] | [F2A2] [EG] | "D"[D3F3]- | [D3F3] ||
+|:\
+"G"[B3d] | [G2B2] [Bd] | "A7"[A3c]- | [A3c] |\
+"G"[GB] [GB]> [GB] | [Bd] [Ac] [GB] | "D"[F2A2] [GB] | [F2A2] [GB] |
+([F3A3] | [F3A3]) | "A7"[A3c] | [G2B2] [FA] |\
+[E3G3]- | [E3G3] | [EA] [FA] [GB] | [F2A2] [EG] |\
+"D"[D3F3]- | [D3F3] :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+%%newpage
+
+
+X: 30
+T: Lesnoto: Makedonske Devoj\vce
+K:
+
+
+X: 31
+P: Makedonske Devoj\vce (Dm)
+C: Jon\vce Hristovski 1964
+R: lesnoto
+M: 7/8
+L: 1/8
+K: Dm
+[| "Dm"D2d c2 d2 | cd2 A4 | "Gm"B2A G2 B2 | "A7"A7 \
+|  "Dm"D2d c2 d2 | cd2 A4 | "A7"A2G F2 E2 | "Dm"D7 |]
+|: "Dm"[F3d] "D7"[^F3A][Ac] | "Gm"[GB][F2A2] [D4G4] | "C7"[G2B][FA] [E2G][G2B] | "F"[F7A] \
+|  "Eb"[G2B][FA] [_E2G][G2B] | "Dm"[FA][E2G2] [F2D][FD][EG] | "A7"[F2A][EG] [D2F][A,2E] | "Dm"[D7D] :|
+P: Instr:
+[| "Dm"{E}F2E DEFG | "Gm"A2G G4 | "C7"C2D EFG2 | GFE "F"F2FE \
+|  "Dm"{E}F2E DEFG | "Gm"A2G G2FG | "A7"A2G F2E2 | "Dm"D7- | "Dm"D7 |]
+
+
+X: 32
+P: Makedonske Devoj\vce (Em)
+C: Jon\vce Hristovski 1964
+M: 7/8
+R: lesnoto
+Z: John Chambers <jc:trillian.mit.edu>
+L: 1/8
+K: Em
+[| "Em"E2e d2 e2 | de2 B4 | "Am"c2B A2 c2 | "B7"B7 \
+|  "Em"E2e d2 e2 | de2 B4 | "B7"B2A G2 F2 | "Em"E7 |]
+|: "Em"[G3e] "E7"[^G3B3][Bd] | "Am"[Ac][G2B2] [E4A4] | "D7"[A2c][GB] [F2A][A2c] | "G"[G7B] \
+|  "F"[A2c][GB] [=F2A2][A2c2] | "Em"[GB][F2A2] [G2E][GE][FA] | "B7"[G2B][FA] [E2G][B,2F] | "Em"[E7E] :|
+P: Instr:
+[| "Em"{F}G2F EFGA | "Am"B2A A4 | "D7"D2E FGA2 | AGF "G"G2GF \
+|  "Em"{F}G2F EFGA | "Am"B2A A2GA | "B7"B2A G2F2 | "Em"E7- | "Em"E7 |]
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+%%newpage
+
+
+X: 33
+T: Leap Year Hambo
+C: Cal Howard 1980
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+|: "D"A>F D>F A>d | ~B2 A>F D>F | A>"A7"G E>C E>G | "D"B>A F2 D2 \
+|  "D"A>F D>F A>d | ~B2 A>F D>F | A>"A7"G E>A, C>E | "D".D2 D4 :|
+[|"A7"A,>B, C>A, B,>C | "D"D>E F2 F2 | "B7"B,>C ^D>B, C>D | "Em"E>F G2 G2 \
+| "A7"A>G E>A G>E | "D"A>F D>A F>D | "E7"E>F E>D C>D | "A"E>D C>B, A,2 ||
+||"A7"A>B c>A B>c | "D"d>e f2 f2 | "B7"B>c ^d>B c>d | "Em"e>f g2 g2 \
+| "A7"a>g e>a g>e | "D"a>f d>a f>d | "A7"c>d e>f g>c | "D".d2 d4 |][K:G]
+|: "G"d>d d>c B>A | B>B B>A G>F | "C"E>E E>G c>e | "G".d2 d4 \
+| "D7"c>d c>B A2 | "G"B>c B>A G2 | "A7"A>B A>G F>G | "D"A>G F>E D2 |
+|  "D7"d>d d>c B>A | "G"B>B B>A G>F | "C"E>E E>G c>e | "G".d2 d4 \
+| "Am"c>d c>B "D7"A>c | "G"B>c B>A "Em"G>B | "Am"A>B c>A "D7"F>A | "G".G2 G4 :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 34
+T: Acano mlada nevesto  [Dhjz]
+T: Acana young bride
+C: Saldjiev Angel
+O: Macedonia
+N: Introduced by Atanas Kolarovski
+S: R.B.Iverson
+M: 11/16
+L: 1/16
+K: _B_e^F
+"^vocal:"\
+|: "Gm"D3  d2d2 c2B2 | "D"~A2G "Cm"~G2FG "D"A2-A2 :: "Gm"G2G cBBA AGGF |
+"D"~F2E "Cm"~E2DE "D"~F2ED | |  "Gm"G2G cBBA AGGF | "D"~F2E "Cm"~EFED "D"D2D2 :|
+"^instr:"\
+|: "D"DEC DEFG ABAG | ABc "Cm"BABG "D"ADdD \
+|  "D"DEC DEFG ABAG | FGA "Cm"GFED "D"D2-D2 :|
+
+%%sep 1 1 500
+
+
+X: 35
+T: Acano mlada nevesto  [Ehjz]
+T: Acana young bride
+C: Saldjiev Angel
+O: Macedonia
+N: Introduced by Atanas Kolarovski
+S: R.B.Iverson
+M: 11/16
+L: 1/16
+K: ^G
+"^vocal:"\
+|: "Am"E3  e2e2 d2c2 | "E"~B2A "Dm"~A2GA "E"B2-B2 :: "Am"A2A dccB BAAG |
+| "E"~G2F "Dm"~F2EF "E"~G2FE | "Am"A2A dccB BAAG | "E"~G2F "Dm"~FGFE "E"E2E2 :|
+"^instr:"\
+|: "E"EFD EFGA BcBA | Bcd "Dm"cBcA "E"BEeE \
+|  "E"EFD EFGA BcBA | GAB "Dm"AGFE "E"E2-E2 :|
+
+%%newpage
+
+
+X: 36
+T: Kopanica/Gankino #2   [Dm]
+R: gankino, kopanica
+O: Bulgaria
+Z: 2002 John Chambers <jc:trillian.mit.edu>
+M: 11/16
+L: 1/16
+Q: "Brzo" 2/16 2/16 3/16 2/16 2/16=70
+K: =F^G
+"A"|: "Dm"D2^cd d2d d=cBA | cBAG GFA G2FE | D2EF FDA G2FA | G2FE "E7"EDF "A"E2E2 :|
+"B"|: "Dm"D2EF FDA G2FE | D2dd dcB AGFE | D2EF FDA G2FA | G2FE "E7"EDF "A"E2E2 :|
+K: A
+"C"|: "E7"[BG][cA][d2B2] [dB][BG][dB] "A"[c2A2][cA][AE] | "E7"[BG][cA][d2B2] [dB][BG][dB] "A"[c2A2][c2A2] \
+   |  "E7"[BG][cA][d2B2] [dB][BG][dB] "A"[c2A2][cA][AE] | "E"[BG][AF][GE][AF] [B2G2][eG] [B2E2][B2E2] :|
+K: =F^G
+"D"|: "E"ABG2 "Dm"FED "E"E2E2 | "E"ABG2 "Dm"FED "E"E2z2 | "E"ABG2 ABG "E"ABG2 | "E"ABG2 "Dm"FED "E"E2!fine!E2 :|
+K: D
+"E"|: "A7"[ec][fd][g2e2] [ge][ec][ge] "D"[f2d2][fd][dA] | "A7"[ec][fd][g2e2] [ge][ec][ge] "D"[f2d2][f2d2] \
+   |  "A7"[ec][fd][g2e2] [ge][ec][ge] "D"[f2d2][fd][dA] | "A"[ec][dB][cA][dB] "E7"[e2c2][eB] "A"[e2A2][e2A2] :|
+%
+
+
+X: 37
+T: Kopanica/Gankino #2   [Em]
+R: gankino, kopanica
+O: Bulgaria
+Z: 2002 John Chambers <jc:trillian.mit.edu>
+M: 11/16
+L: 1/16
+Q: "Brzo" 2/16 2/16 3/16 2/16 2/16=70
+K: ^F^c^A
+"A"|: "Em"E2^de e2e e=dcB | dcBA AGB A2GF | E2FG GEB A2GB | A2GF "F#7"FEG "B"F2F2 :|
+"B"|: "Em"E2FG GEB A2GF | E2ee edc BAGF | E2FG GEB A2GB | A2GF "F#7"FEG "B"F2F2 :|
+K: B
+"C"|: "F#7"[cA][dB][e2c2] [ec][cA][ec] "B"[d2B2][dB][BF] | "F#7"[cA][dB][e2c2] [ec][cA][ec] "B"[d2B2][d2B2] \
+   |  "F#7"[cA][dB][e2c2] [ec][cA][ec] "B"[d2B2][dB][BF] | "F#"[cA][BG][AF][BG] [c2A2][fA] [c2F2][c2F2] :|
+K: ^F^c^A
+"D"|: "F#"BcA2 "Em"GFE "F#"F2F2 | "F#"BcA2 "Em"GFE "F#"F2z2 | "F#"BcA2 BcA "F#"BcA2 | "F#"BcA2 "Em"GFE "F#"F2!fine!F2 :|
+K: E
+"E"|: "B7"[fd][ge][a2f2] [af][fd][af] "E"[g2e2][ge][eB] | "B7"[fd][ge][a2f2] [af][fd][af] "E"[g2e2][g2e2] \
+   |  "B7"[fd][ge][a2f2] [af][fd][af] "E"[g2e2][ge][eB] | "B"[fd][ec][dB][ec] "F#7"[f2d2][fc] "B"[f2B2][f2B2] :|
+%
+
+%%sep 1 0 500
+%%sep 1 0 500

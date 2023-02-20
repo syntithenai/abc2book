@@ -1,0 +1,3225 @@
+%%slurgraces 0
+%%writehistory 1
+
+
+X: 0000
+T: A Composite Music Volume
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: From an image at archive.org, taken from a copy in the Nation Library of Scotland, donated
+N: by Lady Dorothea Ruggles-Brise, formerly in the collection of John Glen (1833-1904)
+K:
+%%text Small note before the first title page:
+%%center THE GLEN COLLECTION
+%%center OF SCOTTISH MUSIC
+%%begintext align
+Presented by Lady Dorothea Ruggles-Brise to the national library of Scotland,
+in memory of her brother, Major Lord George Stewart Murray, Black Watch,
+killed in action in France in 1914.
+28th January 1927.
+%%endtext
+
+%%writehistory 0
+
+%%newpage
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1000
+T: COUNTRY DANCES SELECTED v.1
+N: Pub: J. Walsh, London (1748)
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K:
+%%begintext center
+%% As Perform'd at Court and all
+%% Publick Assemblies and Entertainments.
+%% For the Hapsicord, Violin, German Flute, or Hoboy.
+%% with proper Direction to each Dance.
+%% PART I Price 6d
+%% London. Printed for I Walsh in Catharine Street in the Strand.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1002
+T: The Laundry . or Hot Pot .
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+V: 1
+|: GABc d4 | g2g2 e4 | d2z2 B2z2 | AGAB G4 :|
+|: g2g2Te2d2 | g2g2TA2G2 | g2g2f2f2 | egfe d4 |
+   GABc d4 | g2g2 e4 | d2z2 B2z2 | AGAB G4 :|
+V: 2 clef=bass middle=d
+|: g4 g4 | b2g2 c'4 | b2z2 g2z2 | f2d2 g4 :|
+|: b4 c'2b2 | b4 f2g2 | b2g2d'2f2 | g2a2 defd |
+   g4 g4 | b2g2 c'4 | b2z2 g2z2 | f2d2 g4 :|
+%%begintext align
+    The First Cu. cast off one Cu. and turn .|
+    Cast off another Cu. and turn :|
+    Lead up to the top foot it and cast off .|.
+    Hands round four with the Third Cu. Right and left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1003
+T: Rosey Doll
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+V: 1
+|: G>AB B2g | dcB A2B | G>AB B2g | DCB, TA,2G, :|
+|: g>ab d2B | g>ab c2A | g>ab e>fg | DCB, TA,2G, :|
+V: 2 clef=bass middle=d
+|: g3 G3 | g3 d3 | g3 G3 | g3 d2G :|
+|: g3 G3 | g3 d3 | g3 c3 | d3 D2G :|
+%%begintext align
+The First and 2d. Cu. foot it and turn round Singls .|
+The same back again :|
+Right hands across .|.
+Left hands across :|:
+The 1st Cu. foot it to the 2d Wo. But not turn .||
+The same to the 2d Man :||
+Cross over one Cu. .||.
+Right and left :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1004
+T: I'll be Married
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+V: 1
+|: Ae2d Tc2Ac | Bg2d B2G2 | Ae2d ea^ga | ecBe A/A/A A2 :|
+|: A/A/A Ac B/B/B Bd | cg2d B2G2 | A/A/A ea gede | Td>cde A/A/A A2 :|
+V: 2 clef=bass middle=d
+|: a2^g2 a2A2 | =g2^f2 g2G2 | a2^g2 a2A2 | e2^g2 a2A2 :|
+|: a2A2 =g2G2 | c'2b2 g2G2 | a2A2 c2e2 | ^g2e2 a2A2 :|
+%%begintext align
+Right hands across at top Cast off and Left Hands across at Bottom
+Lead thro the Bottom and cast up Right and Left at top Set Corners
+and turn and Lead outsides and turn.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1005
+T: Marybone Assembly
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 12/8
+L: 1/8
+K: G
+V: 1
+c | BGB ADA BGB ADA | Bcd edc Tc3 B2c | BGB ADA BGB ADA | Bcd cBA G3 G,2 :|
+|: gab agf efg dcB | Bcd efg TB3 A3 | gab agf efg dcB | Bcd efg TB2A G3 :|
+V: 2 clef=bass middle=d
+z | g3 f3 g3 f3 | gab c'ba a3 g2d | g3 f3 g3 f3 | g2B c2d g3 G2 :|
+|: g3 d'3 c'3 g3 | g3 G3 d3 D3 | g3 d'3 c'3 g3 | g3 G3 d2D G3 :|
+%%begintext align
+The 1st Cu. hey contrary sides .|
+then on your own sides :|
+lead down one Cu. up again and cast off .|.
+hands round Six :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1006
+T: Jenny's Delight
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+V: 1
+BA |\
+GE2 E2E BA | GD2 D2D EF | GABc dgfe | dBAG A2BA |
+GE2 E2E BA | GD2 D2D EF | GABc dgfe | dbcA G2 ||
+|: Bc |\
+dBdB dBge | dBAG E2Bc | dBdB dBge | dBAF G2 :|
+V: 2 clef=bass middle=d
+z2 |\
+e2E2 e2E2 | d2D2 d2D2 | G2ga b2c'2 | b2c'2 d'2d2 |
+e2E2 e2E2 | d2D2 d2D2 | G2ga b2c'2 | d'2d2 g2 ||
+|: G2 |\
+g2G2 g2c2 | g2G2 c2G2 | g2G2 g2c2 | d2D2 G2 :|
+%%begintext align
+The 1st Cu. casts off one Cu. hands round four with the 3d Cu. .|
+cast up. hands round four with the 2d Cu. :|
+cross over two Cu. .|.
+lead up to the top and cast off :|
+turn corners with your Right hands, your Partner with your Left :||
+lead thro' the 3d Cu. and cast up .||.
+lead up to the top and cast off :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1007
+T: Disk's Fancy
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+V: 1
+c |\
+AFc AFc | AFc f2c | AFc AFc | GEG C2c |\
+AFc AFc | AFc f2d | gfe dc=B | c3 C2 :|
+|: c |\
+cd_e edc | cBA G2A | Bcd dcB | BAG F2c |\
+fca  fca | fca fed | cdB ABG | F3- F2 :|
+V: 2 clef=bass middle=d
+z |\
+f3 F3 | f3 F3 | f3 F3  | c3  C3 |\
+f3 F3 |f3 F2d | e3 f2g | c'3 c2 :|
+|: z |\
+^f3 d3 | g3 G2=f | =e3 c3   | F3 f3 |\
+ F3 f3 | F3 f2b  | a2b c'2c | f3 F2 :|
+%%begintext align
+The 1st Man leads his Partner down, and brings up the 3d Wo. .|
+the 3d Man brings up the 3d Wo. and takes his Partner down :|
+cross over one Cu. and turn .|.
+foot it all four, Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1008
+T: Fanny's Delight
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+V: 1
+Bc |\
+dBGB dBge | dBGB dBge | {e}d2cB {d}c2BA | BGAB AFED |\
+dBGB dBge | dBGB dBge | fafd ege^c | d4 D2 :|
+|: de |\
+{g}=f2ed {f}e2dc | {e}d2cB A2cd | {f}e2dc {e}d2cB | {d}c2BA G2Bc |\
+dBdB dBge | dBdB dBge | {e}d2cB {d}c2BA | G2D2 G,2 :|
+V: 2 clef=bass middle=d
+z2 |\
+G4 G4 | G4 g2c'2 | b2g2 a2d2 | g2G2 d2D2 |\
+G4 g4 | G4 g4 | a4 A4 | d4 D2 :|
+|: z2 |\
+b4 ^g4 | e4 A4 | a4 f4 | d4 g4 |\
+G4 g4 | G4 g2c'2 | b2g2 a2d2 | g2d2 G2 :|
+%%begintext align
+The 1st 2d and 3d Cus. foot it, and hands round Six .|
+the same back again .|
+foot it Six and change sides, the same back again .|.
+cross over two Cu. lead up to the top and cast off :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1009
+T: Chudleigh Box
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+V: 1
+|: [A2D2] (B/c/d) AGFE | Ddef e2e2 | [A2D2] (B/c/d) AGFE | Ddec d2D2 :|
+|: efec fgfd | gfge a2a2 | agfe dcdA | BGFE D2D2 :|
+V: 2 clef=bass middle=d
+|: d4 c2A2 | d4 a2A2 | d4 c2A2 | d2A2 d4 :|
+|: c2A2 d2A2 | e2A2 f4 | c'2a2 f4 | g2a2 d4 :|
+%%begintext align
+First Cu. foot it and cast off two Cu. .|
+Lead up to the top & cast off :|
+Hands round four with the Third Cu. .|.
+Right and Left at top :|:
+foot it Corners and turn :||
+Lead outsides and turn :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1010
+T: The Nineteenth of May
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+V: 1
+|: GBAc | dBge | dBAG | FAD2 | GBAc | dBge | dBAG | AFG2 :|
+|: BdBG | FAFD | Bdgf | ecBA | BdBG | FAFD | gdec | dBG2 :|
+V: 2 clef=bass middle=d
+|: g2fd | g2bc' | b2c'2 | d'2d2 | g2fd | g2bc' | b2g2 | d2g2 :|
+|: g2G2 | d'2d2 | g2b2 | c'2d'2 | g2G2 | d'2d2 | b2c'2 | g2G2 :|
+%%begintext align
+The First and Second Cu. foot it Right and Left half round .|
+The same Back again :|
+Lead down one Cu. up again and cast off one Cu. .|.
+Hands round all Six :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1011
+T: Ups and downs
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+V: 1
+|: GBdg | f2e2 | dBAG | F/G/A/F/ D2 | GBdg | f2e2 | fdA^c | d4 :|
+|: GgTg2 | FfTf2 | egfd | ^c/d/e/c/ A/G/F/E/ | DGBd | gbdB | cAGF | G4 :|
+V: 2 clef=bass middle=d
+|: g2b2 | d'2c'2 | b2g2 | d'dd'c' | b2g2 | d'2^c'a | d'2a2 | d'2d2 :|
+|: g2G2 | d2D2 | ^c2df | aA^cA | dBGB | g2G2 | c2d2 | g2G2 :|
+%%begintext align
+Cast off two Cu. .|
+Lead up to the top and Cast off :|
+Hands round four with the Third Cu. .|.
+Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2000
+T: COUNTRY DANCES SELECTED (continued)
+N: Pub: J. Walsh, London (1748)
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K:
+%%begintext align
+The following tunes are printed somewhat differently from the previous,
+and have page numbers that restart at 1.  They are presumably from a
+different publication, but there's no identification.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2001
+T: New Hessian Camp
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The original lacked the final repeat symbol.  Maybe it's a 24-bar dance?
+M: 2/4
+L: 1/8
+K: D
+V: 1
+|: d2e2 | fdde | f2g2 | affg | afba | geag | fdgf | Tf2e2 :||:
+   fdfa | ecea | fdfa | Tf2e2 | d/e/f/g/ aa | d/e/f/g/ aa | bgfe | d4 |]
+V: 2 clef=bass middle=d
+|: d2a2 | d'2za | d'2e'a | d'2ze | fagf | egfe | dfed | a2A2 :||:
+   [a2f2d2]z2 | [a2e2c2]z2 | [a2f2d2]z2 | a2A2 | d2z2 | D2z2 | g2a2 | d4 |]
+%%begintext align
+The two 1st Cu. foot it and change sides, back again, cross over two
+Cu. lead up to the top, foot it corners, and lead out at the sides.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2002
+T: Schwabe, or Hessian Dance
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: There are no repeat symbols, but the 2nd and 3rd parts have alternate endings.
+N: What phrasing does the dance require?
+M: 3/4
+L: 1/8
+K: G
+V: 1
+g2d2B2 | GFGAG2 | D2E2F2 | GFGAG2 | g2d2B2 | GFGAG2 | D2E2F2 | G6 ||
+d2e2f2 | g4e2 | fgagaf | gbagfe | d2e2f2 | g4c2 | B2AGAF |[1 G6 ||[2 G4 ||
+g2 |\
+d4e2 | B4c2 | A2G2F2 | G2D2g2 | d4e2 | B4d2 | A2G2F2 |[1 G4 |[2 G6 |]
+V: 2 clef=bass middle=d
+G2B2d2 | g4z2 | B2c2d2 | G4z2 | G2B2d2 | g4z2 | B2c2d2 | G6 ||
+B2c2d2 | e4c2 | d4D2 | G4z2 | B2c2d2 | ede2f2 | g2d2D2 |[1 G6 ||[2 G4 |
+z2 |\
+z2z2g2 | d4e2 | c4d2 | B4z2 | z2z2g2 | d4B2 | c4d2 |[1 G4 |[2 G6 |]
+%%begintext align
+First and 3d Cu. change Places, back again, cross over and half figure
+2d Cu. do the same, cast off windmill sails with the 3d Cu. foot it
+with your Partner and turn Right and Left with the 1st Cu. foot it
+and turn.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2003
+T: The Gypsies
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has an open repeat but not a final repeat.
+M: 6/8
+L: 1/8
+K: Bb
+V: 1
+f |\
+d>cB b>ag | fdB F2E | DFB d/e/fd | ccc c2f |\
+d>cB b>ag | fdB F2E | DFB edc | BBB B2 :||:
+c |\
+Acf edc | Bdf bag | fdf g/a/ba | ggg g2a |\
+bfd g/a/bg | fdB G2B | FDF edc | BBB B2 |]
+V: 2 clef=bass middle=d
+f |\
+b2B d2e | d3- d2c | B3  b3  | f3 a3 |\
+b2B d2e | d3- d2c | B2d f2F | b3 B2 :||:
+z |\
+f3 a3 | b3 d2e | d3 D3 | G2g f2e |\
+d3 e3 | B3 e3 | f3 F3 | B3 b2 |]
+%%begintext align
+First Cu. cast off, 1st Man turns the 3d Wo. with his Right hand, 1st Wo. turn ye
+2d Man at the same time with her Right hand .| 1st Cu. keep the contrary side,
+lead thro' the 3rd Cu. and cross over up to the top :| 1st and 2d Cu. Hands quite
+round, 1st Cu. cast off .| turn the other corner with your Right hand & turn your
+Partner with your Left hand.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2004
+T: Saintis Hussars
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+V: 1
+|:\
+G2g f2e | d3 GGG | A2A A2B | A2d AFD |\
+E2G G,2G | E2G G,2b | a2g def | g3- g3 :|
+|:\
+d2D dcB | A3 DDD | G2A B2G | cdB ABc |\
+d2D d2D | d2D d2g | dcB AGF | G3- G3 :|
+V: 2 clef=bass middle=d
+|:\
+g2e d2c | B3 B3 | c3 A3 | d3 D3 |\
+c3 G3 | c3 B3 | c3 d3 | g3 G3 :|
+|:\
+d3 bag | f3 d3 | e2f g2e | abg fdc |\
+B3 G3 | B3 c3 | d3 D3 | G3- G3 :|
+%%begintext align
+First Man turns the 2d Wo. with his Right hand, then turns his own Partner with his Left hand .|
+their Partners does the same :|
+1st Cu. Gallops down the middle, Gallop up again and cast off .|
+1st and 2d Cu. Right & Left quite round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2005
+T: McFarland's Reel
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+V: 1
+e |\
+fA A/A/A (Te>dB)e | fA A/A/A Te2de | fA A/A/A e>dBg | {g}aefd Te2d :||: e |
+fdfd Te>dBe | fdfd Te2(de) | fdfd Te>dBg | aefd Te2d :|
+V: 2 clef=bass middle=d
+A |\
+d'2d2 g2G2 | d'2d2 a2d2 | d'2d2 g2G2 | f2g2 a2d :||: a |
+d'2d2 g2G2 | d'2d2 a2d2 | d'2d2 g2G2 | f2g2 a2d :|
+%%begintext align
+First and 2d Cu. foot it all four and Right hands across quite round .|
+foot it and Left hands back again :|
+Gallop down one Cu. up again and cast off .|.
+hands round Six :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2006
+T: The Parks of Kilburnie
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+V: 1
+F | (A/B/c) (cf) (a/g/f/e/) fd | cAdA BGGB | (A/B/c) (cf) (a/g/f/e/) fd | cABG F/F/F F :||:
+c | (A/B/c) (Fc) dBfd | (TcA) (ae) fddf | (A/B/c) (Fc) dBfd | cABG F/F/F F :|
+V: 2 clef=bass middle=d
+z | f2F2 f2ab | a2f2 g2c2 | f2F2 f2ab | c'2c2 f2F :||:
+f | f2fa b2B2 | a2f2 b2B2 | f2F2 b2g2 | c'2c2 f2F :|
+%%begintext align
+First Man turns his Partner with his Right hand and cast off one Cu. .|
+turn with your Left hands, the Man fall in between the 3d Cu. and the Wo. between the 2d Cu. :|
+Foot it three at top and bottom and turn .|.
+lead up to the top, foot it and cast off :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2007
+T: Leith Wynd
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+V: 1
+g |\
+(dB)(AG) (TED)(EG) | d2dB d3e | (dB)(AG) (TED)(EG) | e2ed e3 :|
+|: g |\
+dega b2Ta>g | d2dB d3e | dega b2Ta>g | e2ed e3g |
+dega b2Ta>g | ded>B d2(e/f/g) | TdBAG EDEd | e2ed e3 :|
+V: 2 clef=bass middle=d
+z |\
+g2G2 c4 | B2G2 B2d2 | g2G2 c3d | e4 E3 :|
+|: e |\
+g4 G4 | g4 b3c' | b4 g4 | c4 c'4 |
+b4g4 | G4 B2c2 | B4 c3d | e4 E3 :|
+%%begintext align
+First and 2d Cu. foot it, and Right hands and Left half round .|
+the same back again :|
+cross over two Cu. lead up to the top, foot it and case off .|.
+hands round four with the 3d Cu. Right hand & Left as top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2008
+T: Hay Jenny come down to Jock
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+V: 1
+D |\
+G>AG g2a | Tf>ed Te2d | (e/f/g)B ABc | TB>AG G2 :|
+|: B/c/ |\
+d>ed dBg | G>AB A2f/g/ | {fg}a3 efg | Te2d d2g |
+(g/a/b)g a2d | (e/f/g)B ABc | {Bc}d3 dBg | TA2G G2 :|
+V: 2 clef=bass middle=d
+z |\
+g3 b2c' | d'2b c'2b | c'3 d'2d | g3 G2 :|
+|: g/a/ |\
+b>c'b g2G | g3 d3 | f3 g3 | a2A d3 |
+g3 f3 | e3 f3 | g3 G3 | d3 G2 :|
+%%begintext align
+First Cu. foot it to the 2d Wo. but not turn .|
+the same to the 2d Man :|
+cross over one Cu. and turn, lead up to the top and cast off .|
+lead thro' the 3d Cu. and cast up into the 2d Cus. Place, Right & Left at top :||
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2009
+T: Woo'd & Married & aw
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: F
+V: 1
+f |\
+c2B AGA F3 | c2c cfA c2f | c2B AGA FGA | D2e de^c d2 :||:
+f |\
+cde fgf edc | A2c cdB c2f | cde fgf edc | A2d de^c d2f |
+cde fgf edc | ABc fcA c2f | cdB ABG FGA | D2d de^c d2 |]
+V: 2 clef=bass middle=d
+c |\
+f3 F3 f3 | f3 F3 f3 | f3 F3 f3 | d3 D3 d2 :||:
+c |\
+f3 F3 c3 | f3 F3 f3 | f3 F3 c3 | d3 D3 d3 |
+f3 F3 c3 | f3 F3 f3 | f3 F3 f3 | d3 D3 d2 |]
+%%begintext align
+The 1st Cu. cast off one Cu. and hands round with the 3d Cu. .|
+case up again and hands round with the 2d Cu. :|
+Gallop down one Cu. up again & cast off :|
+Right hands and Left
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2011
+T: Cadgers in the Conongate
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: "Canongate" is how they spelled it.
+N: There is a really long, undulating slur over the last 4 bars.
+M: C|
+L: 1/8
+K: G
+V: 1
+|:\
+GBGB (de/f/g)e | dBgB A/A/A A2 |\
+GBGB (de/f/g)e | dBgB G/G/G G2 :|\
+|:\
+bage gedB | GBgB A/A/A A2 |
+bage gedB | GBgB G/G/G G2 ||\
+(b/a/)g (a/g/)e (g/e/)d (e/d/)B | GBgB G/G/G G2 :|
+V: 2 clef=bass middle=d
+|: g4 G4 | g2G2 d2D2 | g2G2 B2c2 | d2D2 g2G2 :|
+|: g2c2 B2G2 | g2G2 d2D2 | g2c2 B2G2 | d2D2 g2G2 ||
+   g2c2 B2G2 | d2D2 g2G2 :|
+%%begintext align
+First Cu. hey contrary sides .|
+then on your own sides :|
+the 1st Cu. foot it to the 2d Wo. and turn her .|.
+the same to the 2d Man :|:
+the 1st and 2d Cu. foot it and Right hands across .||
+Foot it and Left hands across back again :||
+cross over one Cu. and turn .||.
+Right and left at top :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2012
+T: A Trip to Kew
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+%
+V: 1
+|: G2G>B d>eg>d | e>dg>d Te>de>g | G2G>B d>eg>d | e/f/g dB TA>G E2 :|
+|: g>ab>g a>eg>d | B>d-d>e =f>ge>d | g>a (b/a/g) (a/g/e) g>d | e/f/g dB TA>G E2 :|
+%
+V: 2 clef=bass middle=d
+|: g2G2 g2B2 | c2B2 c2G2 | g2G2 g2B2 | c2d2 e2E2 :|
+|: g2G2 c2B2 | g2G2 d2G2 | g2G2 c2B2 | c2d2 e2E2 :|
+%%begintext align
+Cast off two Cu. .|
+cast up again, cross over two cu. .|.
+Lead up to the top foot it and cast off :|:
+Foot it corners and turn .|.
+Lead outsides and turn :|:
+%%endtext
+
+%%newpage
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3000
+T: COUNTRY DANCES SELECTED Part II
+N: Pub: J. Walsh, London (1748)
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K:
+%%begintext center
+As Perform'd at Court and all
+Publick Assemblies and Entertainments.
+For the Harpsicord, Violin, German Flute, or Hoboy.
+with proper Directions to each Dance.
+PART II   Price 6d
+London. Printed for I. Walsh in Catharine Street in the Strand.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3013
+T: A Trip to the Nunr'y
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+V: 1
+|: Gedc TB3A | Ggfe d3d |\
+ecBA dBAG | ecdB A4 :|\
+|: AGFE DEFG | ABcA B4 |
+edcB AGAB | efga f4 |\
+dgdB cecA BdBG A4 |\
+GcBA Ggfe | dcBA G4 :|
+V: 2 clef=bass middle=d
+|: g4 G2d2 | e2dc B2b2 | c'4 b4 | c'2g2 d2D2 :|
+|: d2D2 d2de | f2d2 g2G2 | c'bag d4 | c2A2 d2D2 |
+b2g2 a2f2 | g2G2 d4 | e2dc Bedc | d2D2 G4 :|
+%%begintext align
+First & 2d Cu. foot it & Right & Left half round .|
+the same back again :|
+cross over two Cu. lead up to the top & cast off .|
+hands round four with the 3d Cu. Right & Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3014
+T: The Bonny Lass or Under the Water
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+V: 1
+|: agfe dcBA | agfe f2a2 | agfe dcBA | aaAA c2e2 :|
+|: A/B/c/d/ ec ecec | B/c/d/e/ fd fd a2 | A/B/c/d/ ec ecec | agfe f2a2 :|
+V: 2 clef=bass middle=d
+|: a4 A4 | c'2a2 d'2d2 | c'4 a4 | c2e2 a2A2 :|
+|: a4 A4 | d'4 d4 | a4 A4 | c4 d2A2 :|
+%%begintext align
+The 1st Cu. cast off two Cu. .|
+cast up again :|
+Gallop down one Cu. up again & cast off .|.
+hands round all fix :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3015
+T: Lady Mackentashes Reel
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+V: 1
+((3f/e/d/) | c2cG A2Af | ((3fed) ec A2AB | cBcG ABcd | ecdB G2G :||: f |
+efge fddf | Te>fge A2Af | e>fge afdf | ecdB G2G :|
+V: 2 clef=bass middle=d
+z | c'2c2 f2d2 | B2c2 f2d2 | e2c2 fgab | c'2g2 G3 :||: b |
+c'2c2 g2b2 | c'2c2 f2d2 | c2e2 f2d2 | c2g2 G3 :|
+%%begintext align
+The 1st & 2d Cu. right hands across quite round .|
+Left hands back again :|
+cross over one Cu. & turn .|.
+lead up to the top & cast off :|:
+foot it Corners & turn :||
+lead outsides & turn :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3016
+T: A Trip to Rookby Park
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+V: 1
+|: a>gf>e d/e/f/g/ a2 | AcBd ced2 | dfeg f^gab | eba^g a4 :|
+|: a>gf>e ^dfef | ge=dc defA | Bgfe dbag | fedc d2D2 :|
+V: 2 clef=bass middle=d
+|: d'2a2 d2f2 | a2e2 A2d2 | d'2a2 d'2b2 | e'2e2 a2A2 :|
+|: f2a2 b2^d2 | e2g2 f2d2 | g2e2 f2g2 | a2A2 d4 :|
+%%begintext align
+The 1st & 2d Cu. foot it all four Right & Left half round .|
+foot it to the same back again :|
+Gallop down one Cu. up again & cast off .|.
+Right hand and left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3017
+T: Althrop House
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+V: 1
+c/d/ |\
+eca2 ecdf | ecBA TB3D | CEAB cdef | ecac TB3 c/d/ |
+eca2 ecdf | ecBA TB3D | CEAB cfed | c2B2 A3 :|
+|: c |\
+BEdB cAec | BEdB Tc3A | BEdB cefg | ((3agf) ((3edc) TB3c |
+BEdB cAec | BEdB Tc3D | CEAB cfed | c2B2 A3 :|
+V: 2 clef=bass middle=d
+a |\
+a2A2 c2d2 | c2d2 e2g2 | a2e2 abc'd' | c'2a2 e'2e2 |
+a2e2 A2d2 | c2d2 e2g2 | a2e2 Adcd e2E2 A3 :|
+|: a |\
+g2e2 a2A2 | g2e2 a2A2 | g2e2 ac'd'b | c'2a2 e'2e2 |
+g2e2 c2A2 | e2g2 a2e2 | A2e2 adcd | e2E2 A3 :|
+%%begintext align
+The 1st Man sets to the 2d Wo. & turn her .|
+the 1st Wo. sets to the 2d Man & turn :|
+the 2d Man sets to the 3d Wo. & turn .|.
+the 2d Wo sets to the 3d Man & turn :|:
+the 1st Cu. cross over two Cu. lead up to the top & cast off |
+hands round 4 with the 3d Cu. Right & Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3019
+T: Swab the Decks
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+V: 1
+|: GB- B(d/c/) BdBA | GB- B(d/c/) Bdgd | GB- B(d/c/) BdBG | ecBA G2G,2 :|
+|: Bddg dgdc | Bddg faAc | Bddg dgdB | ecBA G2G,2 :|
+V: 2 clef=bass middle=d
+|: g2G2 g2d2 | g2G2 g2d2 | g2G2 g2B2 | c2d2 g2G2 :|
+|: g4 G4 | g4 d2f2 | g4 G2B2 | c2d2 g2G2 :|
+%%begintext align
+The 1st Cu. foot it to the 2d Man & hands round 3 .|
+the same to the 2d Wo :|
+Gallop down one Cu. up again & cast off .|.
+Right & left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3020
+T: Eau De Luce
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+V: 1
+|: ((3Acf) ((3agf) e2f2 | B>cA>B G/G/G G2 | ((3Acf) ((3agf) e2f2 | A>BG>A F/F/F F2 :|
+|: ((3Acf) ((3Acf) ((3Bdf) ((3Bdf) | ((3Acf) ((3Acf) a2f2 |\
+   ((3Acf) ((3Acf) ((3Bdf) ((3Bdf) | ((3def) ((3ece) f2F2 :|
+V: 2 clef=bass middle=d
+|: f2F2 c'2a2 | g2f2 c'2c2 | f2a2 g2f2 | c'2c2 f2F2 :|
+|: f4 b4 | f4 F4 | f2F2 b2g2 | b2c'2 f2F2 :|
+%%begintext align
+First Cu. foot it & cast off one Cu. cast up again .|
+Gallop down one Cu. up again & cast of [sic] :|
+lead thro the 3d Cu. cast up into the 2d Cu.s place .|
+foot it & Right & left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3021
+T: Brave Blakeney or Wild Boars Frolick
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+V: 1
+|:\
+G3 d2c | BGB AFD | EGE AcA | F3 D3 |\
+G3 d2c | BGB AFD | E/F/GE AGF | G3 G,3 :|
+|:\
+b3 gb2 | afa geg | faf gbd | ^c3 A3 |\
+afa bgb | afa geg | faf ed^c | d3 D3 |
+G3 d2c BGB AFD | EGE AcA F3 D3 |\
+G3 d2c BGB AFD | EGe cAF G3 G,3 :|
+|:\
+BdB c2a | AcA B2g | EGE AcA | F3 D3 |\
+G3  d2c | BGB AFD | EGE F/G/AF | G3 G,3 :|
+V: 2 clef=bass middle=d
+|:\
+g3  f3 | g3 d2B | c3 A3 | d3 D3 |\
+G2g f3 | g3 d2B | c3 d3 | g3 G3 :|
+|:\
+g3  G3 | d3 ^c3 | d3 g3  | a3 A3 |\
+d3  g3 | f3 e3  | d3 a2A | d3 D3 |
+g3  f3 | g3 d2B | c3 A3  | d3 D3 |\
+G2g f3 | g3 d2B | c3 d3  | g3 G3 :|
+|:\
+gbg a3 | fgf g3 | c3 A3 | d3 D3 |\
+G2g f3 | g3 d2B | c3 d3 | g3 G3 :|
+%%begintext align
+The 1st Cu. cast of two Cu. .|
+lead up to the top & cast off :|
+1st Man falls in between the 3d Cu. & his Partner between the 2d Cu.
+at the same time foot it all six foot it & hands round 3 top & Bottom .|.
+lead up to the top and cast off .||.
+lead thro the 3d Cu. cast up into the 2d Cu.s place & turn .||.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3023
+T: The Whigs of Fyffe
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+V: 1
+   f- | fFFA AGGf- | fFFA (f>ga)g | fFFA AGGA | FDE^C D3 :|
+|: (e | f)cce gdd(e | f)cce (f>ga)g | fcce gdde | (f/g/a) Tg>e f3 :|
+V: 2 clef=bass middle=d
+   F | f2f2 c2c2 | f2f2 F2F2 | f2f2 c2c2 | d2A2 d3 :|
+|: c | f2f2 g2g2 f2f2 F2F2 | f2f2 g2g2 f2c2 f3 :|
+%%begintext align
+The 1st Cu. foots to the 2d Wo. & hands round three .| the same to the 2d Man :| cross over two Cu. & turn your Partner .|.
+lead up to the top foot it & cast off one Cu. :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3024
+T: Lads of saltcots
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+V: 1
+|: A3c BABc | AFEF B/B/BB2 | A3c BABc | AFEF A/A/AA2 :|
+|: (ef/g/ a)c TBA(Bc) | (ef/g/ a)c B/B/BB2 | (e/f/g) ac TBABc | AFEF A/A/AA2 :|
+V: 2 clef=bass middle=d
+|: a2A2 e2E2 | d2cd e2E2 | a2A2 e2E2 | d2e2 a2A2 :|
+|: A2A2 A2A2 | A2A2 e2E2 | a2A2 e2E2 | d2e2 a2A2 :|
+%%begintext align
+The 1st Cu. Hey with the 2d Man .|
+then with the 2d Wo. :|
+Gallop down the Middle up again & cast off .|.
+Right & Left at top :|:
+%%endtext
+
+%%newpage
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4000
+T: CALEDONIAN COUNTRY DANCES Vol.2 Part 1
+N: Pub: J. Walsh, London (1748)
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The tunes in this set are numbered 265-358, plus an extra tune (Hampstead Assembly)
+N: at the end with a handwritten number 122 and an extra undecipherable squiggle.
+K:
+%%begintext center
+Being a Collection of all the Celebrated Scotch
+and English Country Dances now in Vogue,
+with Proper Directions to each Dance.  Perform'd
+at Court, and Publick Entertainments.
+For the Harpsicord, Violin, Hoboy, or German FLute
+Vol.II. PART I.
+----------------------------------------------------------------------
+N.B. Just Publish'd, Caledonian Dances Vol.1st. in 4 Books, Each 2s.6d.
+----------------------------------------------------------------------
+London. Printed for I.Walsh, in Catherine Street, in the Strand.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4265
+T: Miss in her own Hair
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: There seems to be a missing phrase mark between the 1st and 2nd phrases of the dance.
+M: C|
+L: 1/8
+K: A
+V: 1
+[|\
+((3ABc) B2 ((3ABc) B2 | Aa2g f2e2 | (f/e/d/e/) fa (e/d/c/d/) ea | db ca c2B2 |
+((3ABc) B2 ((3ABc) B2 | Aa2g f2e2 | (f/e/d/e/) fa (e/d/c/d/) ea | fdBe {d}c2BA ||
+|: Beed c2B2 & E2z2 E2E2 | Beed c2B2 & E2z2 E2E2 |\
+(3cBA (3cde (3fed (3fga | (3gfe (3gab a2A2 :|
+V: 2 clef=bass middle=d
+[|\
+a2e2 a2e2 | a2a2 a2a2 | d2d2 c2c2 | B2A2 e2e2 |
+a2e2 a2e2 | a2a2 a2a2 | d2d2 c2A2 | d2e2 A2a2 ||
+|: g2e2 a2e2 | e2e2 e2e2 | a2a2 d2d2 | e2e2 A2A2 :|
+%%begintext align
+The 1st Cu. turns the 2d Wo.
+the 2d Man lead down the middle, up again, foot it and cast off :|
+Foot it corners and turn .|
+Hands round all Six :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4266
+T: No sure
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has 14 bars.
+M: 6/8
+L: 1/8
+K: G
+V: 1
+|:\
+Bdb {d}c2B | Aca B2A | BDG BdD | BDG BdD |\
+Bdb c3 | Aca B2A | Bdg | Ad^c | dAF D3 :|
+|:\
+ADd B3 | ADc B3 | efg Be^d | eBG E3 |\
+ADc B3 | dBb Tc3 | (B/c/d)G (A/B/c)G | FAF D3 |
+(B/c/d)G (A/B/c)G | FAF DAc | Bdb dcB | Aca cBA |\
+BGE DGF | GDB, G,3 :|
+V: 2 clef=bass middle=d
+|:\
+g3 zzg | f3 zzf | g3 G3 | g3G3 |\
+g3 a3 | f2d g2d | g3 a3 | d6 :|
+|:\
+f3 g3 | f3 g3 | c3 B3 | E2e g2e |\
+f3 gdB | G2g afd | g3 c3 | d3 fdf |\
+g3 c3 | d3 f3 | g3 G3 | A3 f3 | g2c d2D | G6 :|
+%%begintext align
+The 1st Man Sets to the 2d Wo. and turn her .|
+the 1st Wo. does the same :|
+Cross over two Cu. lead up to the top, foot it and cast off .|.
+Hands round four with the 3d Cu. Right hand and Left with the 2d Cu. :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4268
+T: Jack's Delight
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has an start-repeat but no final-repeat symbol.
+N: The dance has four phrases, so the 2nd part is probably repeated.
+M: C|
+L: 1/8
+K: G
+V: 1
+|: ga/b/ ag f2ed | B2AG E/E/EE2 | ga/b/ ag f2ed | B2AG D/D/DD2 :|
+|: Bd-dc/d/ ecc2 | Ac-cB/c/ dBB2 | GB-BA/B/ cA-AB/c | dBcA G/G/GG2 |]
+V: 2 clef=bass middle=d
+%%begintext align
+The 1st Man casts off and turns the 3d Wo. and remains in the 2d Man's Place .|
+the 1st Wo. does the same :|
+Hands round all Six .|.
+Right and Left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4269
+T: The Gaveson
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+V: 1
+|: ("t"f3/e//f//) ((3aef) "t"f2 | ("t"f3/e//f//) ((3aef) "t"f2 | d>f c>f B>f | (3AcB (3AGF (3EDC :|
+|: (3GBA (3GAB (3ABc | (3Beg (3Beg f2 | (3GBA (3GAB (3ABc | (3dba (3gfe f2 :|
+V: 2 clef=bass middle=d
+|: f2 f2 f2 | f2 f2 f2 | b2 c'2 c2 | f2 F2 c2 :|
+|: c2 c2 f2 | g2 c2 f2 | e2 c2 f2 | B2 c2 F2 :|
+%%begintext align
+Lead down between the 2d Cu. and without sides the 3d Cu. and turn your Partner .|
+Lead up to the top foot and cast off :|
+Hands round with the 3d Cu. .|
+Right hand and Left with the 2d Cu. :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4270
+T: Whip the Cat
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: This tune seems incomplete, and lacks a dance description.
+N: The document also jumps from this tune on page 10 to page 27.
+M: C|
+L: 1/8
+K: G
+V: 1
+|:\
+G/A/B/A/ GA Bcd2 | gdcB gdcB | Aa2g {g}"t"f2ed |\
+G/A/B/A/ GA "t"Bcd2 | gd"t"cB gd"t"cB | Aagf g2G2 :|
+|:\
+be ((3gfe) be ((3gfe) | (3fga ("t"f3/e//d//) (3fga ("t"f3/e//d//) |\
+be (3gfe be (3gfe | (3fga ("t"f3/e//d//) (3fga ("t"f3/e//d//) |\
+gG GA "t"Bcd2 | gd"t"cB gd"t"cB |
+V: 2 clef=bass middle=d
+%%begintext
+--- This tune is incomplete ---
+--- The document jumps to page 27 ---
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4287
+T: Cameronian Rant
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+V: 1
+f |\
+cF F/F/F cFBd | cF F/F/F c2Ad | BG G/G/G BGdG | BG G/G/G c2A :|
+|: G |\
+Fffg fdcA | Fffg fdcA | Ggga gfed | Ggga gfed |
+Fffg fdcA | Fffg {f}e>dcf | (e/f/g) dg (e/f/g) dg | e/f/g dg {f}e3 |]
+V: 2 clef=bass middle=d
+z |\
+f2f2 f2f2 | f2f2 f2f2 | g2g2 g2g2 | g2g2 f2f :|
+|: z |\
+f2f2 f2f2 |f2f2 f2f2 | g2g2 g2g2 | g2g2 g2g2 |
+f2f2 f2f2 |f2f2 c'3=b | c'2=b2 c'2=b2 | c'2=b2 c'3 |]
+%%begintext align
+Fall back to two Cu.  lead your Partner to the top and foot it,
+fall back to the 2d Cu. and lead thro' the 3d,
+cast up the 3d Cu. and lead thro' the 2d,
+foot it corners and turn, lead out of the sides.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4288
+T: The Mouse Trap
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+%
+V: 1
+|:\
+D/D/D FA d>edf | edef e>fef | D/D/D FA d>edf edef d>e d :|
+|: (f/g/) |\
+af(de/f/) gece | afdf e>f (ef/g/) | af- f(e/f/) ge- e(f/g/) | afge d/d/d d |]
+%
+V: 2 clef=bass middle=d
+|:\
+d2d2 d2d2 | a2a2 a2a2 | d2d2 d2d2 | a2A2 d2D :|
+|: z |\
+d'2d2 a2A2 | d'2d2 a2A2 | d'2d2 a2A2 | d'2a2 d3 |]
+%%begintext align
+The 1st Cu. foot it and turn single, all four hands with the 2d cu. and back
+again, cross over, figure in, lead up and then down, and then lead thro' the
+2d Cu. at Top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4289
+T: Marquiss of Carmarthen's Birth Day
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd phrase has a begin-repeat but no end-repeat.
+M: C|
+L: 1/8
+K: D
+%
+V: 1
+|:\
+D2F2 F4 | F2A2 A4 | d2 f4 ed | edcB A4 |\
+D2F2 F4 | F2A4 d2 | {d}c2BA G2^G2 | A4 A,4 :|
+|:\
+a2 A4 a2 | g2 A4 g2 | f2gf e2d2 | Tc2Bc A4 |\
+d2 D4 B2 | A2 D4 f2 | {f}e2d2 e2c2 | d4 D4 |]
+%
+V: 2 clef=bass middle=d
+|:\
+d4 d4 | d4 d4 | d4 d4 | A4 agfe |\
+d4 d4 | d4 d4 | e4 E4 | A4 a4 :|
+|:\
+a4 A4 | a4 A4 | d4 g4 | a6 g2 |\
+f4 g4 | f4 d4 | a4 A4 | d4 D4 |]
+%%begintext align
+First and 2d Cu. Set all four, and Hands round all four, Set all four
+and Hands round back again.  2d Part. The 1st Man and 1st Wo. figure
+down and turn your Partners, then Right and Left.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4290
+T: The Green Room
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat, and 20 bars.
+M: 2/4
+L: 1/8
+K: A
+%
+V: 1
+e/d/ |\
+cAAB | Tc2ce | dcBA | B/A/G/F/ Ee/d/ |\
+cAAB | Tc2ce | dcTB2 | A3 :|
+|: b/a/ |\
+geef | Tg2gb | agfe | f/e/^d/c/ Bb/a/ |\
+geef | Tg2gb | agTf2 | e3 g/a/ |
+bdTd2 | bdTd2 | bddd | cBAf/g/ |\
+acTc2 | acTc2 | acBA | GF Ee/d/ |\
+TcAAc | Tc2ce | dcTB2 | A3 |]
+%
+V: 2 clef=bass middle=d
+z |\
+A4 | A4 | d2f2 | e2g2 | a2z2 | A2c2 | d2e2 | A3 :|
+|: z |\
+e4 | e4 | a2c'2 | b2z^d | e4 | e4 | a2b2 | e4 |
+g4 | g4 | g2e2 | a2A2 | a4 | a4 | a2^d2 | e2g2 |
+a2z2 | A2c2 | d2e2 | A3 |]
+%%begintext align
+First and 2d Man foot it to their Partners and turn them to the Man's side |
+then foot it to their Partners and turn each into their Places |
+First Cu. cast off one Cu. and lead up, footing it to the Top, and cast off to the 2d
+Cu.s Place, then the 1st Cu. foot it to the 2d Cu. then to themselves and turn |
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4292
+T: Barton's Maggot
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+%
+V: 1
+|: (GB) (dg) (bg) (af) | (ge) (dg) (dB) A2 | (GB) (dg) (bg) (af) | (ge) d>e (BG) G2 :|
+|: B>d .G.G B>d .G.G | c>e dB cA A2 | (GB) (dg) (bg) (af) | (ge) d>e (BG) G2 :|
+%
+V: 2 clef=bass middle=d
+|: g2g2 g2g2 | g2g2 g2g2 | g2g2 g2g2 | g2g2 g2g2 :|
+|: g2g2 g2g2 | g2g2 g2g2 | g2g2 g2g2 | g2g2 g2g2 :|
+%%begintext align
+The 1st Man Right hands with the 2d Wo. .|
+the 1st Wo. the same with the 2d Man :|
+Hands across all round .|
+the 1st Cu. cast of and turn :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4293
+T: Easton Hall
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 2/4
+L: 1/8
+K: F
+%
+V: 1
+c |\
+(f/g/a) (f/g/a) | f2c2 | dfdB | AcAF |\
+(f/g/a) (f/g/a) | f2c2 | dfTBA | G3 :|
+|: c |\
+(A/B/c) (A/B/c) | AcAF | (d/_e/f) (d/e/f) | dfdB |\
+bgTg2 | afTf2 | {a}gf e/f/g/e/ | f3 |]
+%
+V: 2 clef=bass middle=d
+z |\
+f2zf | ac'af | b2z2 | a2z2 |\
+f2zf | ac'af | b2d2 | c3 :|
+|: z |\
+f2f2 | f2z2 | b2b2 | b2z2 |\
+c'2z2 | f2ab | c'2c2 | f3 |]
+%%begintext align
+First and 2d Man foot it to their Partners and turn them off the Men's side,
+then foot it to their Partners and turn them into their Places |
+Cross over the whole figure and hands across quite round |
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4294
+T: Flower of Edinburgh
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+%
+V: 1
+((3GFE) |\
+D3E G3A | BGBd {c}B2AG | {G}F3E DEFG | AF dF E2FE |
+DEFD G3A | ((3BAG) ((3Bcd) e3g | dBAG E2GA | B2GA G2 :|
+|: d2 |\
+gfg>a g/a/b ag | fef>g (f/g/a) gf | edef gfed | B2e2 e3 g//f//e/ |
+dBAG d2cB | edef g3 (g//a//b/) | cBAG E2GA | B2G2 G2 :|
+%
+V: 2 clef=bass middle=d
+g2 |\
+g2g2 g2g2 | g2g2 g2g2 | d2d2 d2d2 | d2d2 d2d2 |
+d2d2 g2g2 | g2g2 g2g2 | g2g2 c2d2 | g2g2 g2 :|
+|: g2 |\
+g2g2 g2g2 | d2d2 d2d2 | e2e2 e2f2 | g2g2 e2f2 |
+g2g2 g2g2 | c'2a2 b2g2 | c2c2 c2d2 | g2g2 g2 :|
+%%begintext align
+The 1st Cu. figure down between the 2d and 3d Cu. .|.
+then figure up again the same .|.
+cast off and lead thro' the 2d Cu. and cast off .|.
+Right hands across with the 3d Cu. lead thro' the 2d Cu. and cast off .|.
+Right and Left and foot it :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4296
+T: Humours of Marybon
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/8
+L: 1/8
+K: A
+%
+V: 1
+|:\
+A3 fga | edc Bcd | cde fdc | B2A GFE |\
+A3 fga | ecA Bcd | cag Tf2e | Be^d e3 :|
+|:\
+e3 =gec | ec^A c^AF | d3 fdB | dBG BGE |\
+c3 ecA | afd ecA | f3 edc | BAG A3 |]
+%
+V: 2 clef=bass middle=d
+|:\
+a3 a3 | a3 a3 | a3 d3 | e3 e3 |\
+a3 a3 | a3 a3 | a3 a3 | b3 e3 :|
+|:\
+e3 e3 | e3 e3 | d3 d3 | d3 d3 |\
+a3 a3 | a3 a3 | d3 d3 | e3 a3 |]
+%%begintext align
+First Man cast off and turn 3 with the 3rd Cu. .|.
+First Wo. cast off and turn 3 with the 2nd Cu. :|:
+Hands Six round .|.
+Lead thro' the 2d Cu. cast off and turn.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4297
+T: Sherburn Castle
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+%
+V: 1
+|:\
+d2 f4 e2 | d2 a4 g2 | f2 A4 G2 | F4 E4 | D2d2F2E2 | D2d2F2E2 | (DEF2) (FGA2) | "t"B4 A4 :|
+|:\
+fede fedc | B2g2 g4 | edcd edcB | A2f2 f4 | G2e2c2A2 | F2dc BAGF | E2g2 A2d2 | d4 D4 :|
+%
+V: 2 clef=bass middle=d
+|: d4 d4 | d4 d4 | d4 d4 | d4 d4 | d4 d4 | d4 d4 | d4 d4 | d4 d4 :|
+|: d4 d4 | d4 d4 | d4 d4 | d4 d4 | d4 d4 | d4 d4 | d4 d4 | d4 d4 :|
+%%begintext align
+The 1st Man turns his Partner with his Right hand and both cast off .|
+turn again with your Left hands and cast off again :|
+Lead up to the top, foot it and cast off .|.
+Hands round all Six :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4298
+T: The Bracelet
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 9/8
+L: 1/8
+K: G
+%
+V: 1
+|:\
+G3 GBG BdB | G3 GBG afa | ece dBd cAc | BGB ADG FED |
+G3 GBG BdB | G3 GBG afa | gdg ece dBc | BGB ADF G3 :|
+|:\
+b3 G2b aga | gfg efg fed | bgb afa geg | fdf e^ce d3 |
+G3 GBG BdB | G3 GBG afa | ece dBd cAc | BGB ADG FED |
+G3 GBG BdB | G3 GBG afa | gdg ece dBc | BGB ADF G3 |]
+%
+V: 2 clef=bass middle=d
+|:\
+g3 G3 z3 | g3 e3 d3 | c2a B2g A2f | g3 f2e d3 |\
+B3 G3 z3 | g3 e3 d3 | B2b c'3 b2a | g2c d2D G3 :|
+|:\
+g3 b2g f2d | e3 ^c'3 d'3 | g3 f3 e3 | d3 A3 D3 |
+z3 g3 f3- | f3 e3 d3 | c2a B2g A2f | G3 c3 d3 |
+B3 g3 f3 | e3 e3 d3 | B2b c'3 b2a | g3 d3 G3 |]
+%%begintext align
+First Man cast down, the 2d Wo. at the same time cast up, and double figure round their own Partners .|
+their Partners does the same :|
+First Cu. gallops down, gallop up again, and cast off Right and Left quite round at Top, and foot it.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4300
+T: Wimbleton House
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: C|
+L: 1/8
+K: D
+%
+V: 1
+|:\
+fgfe d2B2 | AdAF E/E/EE2 | fgfe d2B2 | AdAF D/D/DD2 :|
+|:\
+AF-FG/A/ BGBd | cA-AB/c/ dBdf | ec-cd/e/ f>gfe | dBAF E/E/EE2 |
+AF-FG/A/ BG-GA/B/ | cA-AB/c/ dB-Bc/d/ | ec-cd/e/ f>gfe | dBAd D/D/DD2 |]
+%
+V: 2 clef=bass middle=d
+|:\
+d'2d2 f2g2 | f2d2 a2A2 | d'2d2 f2g2 | fgaA d2D2 :|
+|:\
+d'2d2 g2e2 | a2f2 b2g2 | c'2a2 d'2a2 | bgfd a2A2 |
+d'2d2 g2e2 | a2f2 b2g2 | c'2a2 d'2a2 | bgaA d2D2 |]
+%%begintext align
+The 1st Man meet and Set with the 2d Wo. and turn single, then turn her .|
+the 2d Cu. does the same :|
+then all four Right hands across half round, and Left hands back again .|
+then back to back again with your Partner, then Right and Left quite round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4301
+T: Billy Dimple
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: C|
+L: 1/8
+K: F
+%
+V: 1
+F |\
+Ac-cd/e/ fc-ce | (d/e/f) cB/A/ G>AGA | Bd-de fe-eg | ed/c/ dc/=B/ c3 :: C |
+EGGB Beeg | ((3gfe) ((3dcB) {B}A3G | FA-Ac- cf-fe/d/ | cB/A/ BA/G/ F3 |]
+%
+V: 2 clef=bass middle=d
+z |\
+fgab afac' | bgaf c'cef | gabg a=bc'b | c'2g2 c3 :: z |
+c2c2 c2c2 | c2e2 f3c | f2f2 fgab | afc'c f3 |]
+%%begintext align
+First Man set to the 2d Wo. then the 1st Wo. does the same .|
+First Man sets and Jiggs to the 2d Wo. and turn her, 1st Wo. does the same :|
+Hands across half round and back again, all four Set, and both hands round,
+till the 1st Cu. gets in the 2d Cu. Place.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4302
+T: The Rakes of Tunbridge
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 2/4
+L: 1/16
+K: A
+%
+V: 1
+E2 |\
+A2cd e2fg | a2ga b2f2 | e2d2c2B2 | c2Bc A2e2 |\
+fef=g fedc | BcdB edcB | A2Bc d2c2 | TB6 :|
+|: (ga) |\
+bagf e2d2 | c2B2A2e2 | fedc B2A2 | G2F2E2E2 |\
+AcBd cBAG | ABcd e2a2 | {d}c2BA {c}B2AG | A6 |]
+%
+V: 2 clef=bass middle=d
+z2 |\
+a4 g4 | f4 d4 | e4 E4 | A4 z4 |\
+d4 d'4- | d'4 c'4- | c'4 b2a2 | e6 :|
+|: z2 |\
+e4 g4 | a4 c4 | d4 ^d4 | e4- ed'c'b |\
+a2g2 a2e2 | f4 c2d2 | e4 E4 | A6 |]
+%%begintext align
+First Cu. Setts cast off and hands half round with the 3d Cu. .|
+First Cu. leads thro' the 3d Cu. Right and Left half round with the 3d Cu. .|
+First Cu. Double figures thro' the 2d Cu. .|
+First and 2d Cu Right and Left quite round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4303
+T: Mile End Assembly
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/8
+L: 1/8
+K: F
+%
+V: 1
+f/e/ |\
+f2c A2G | FAG F2f/g/ | a>ba Tg2f | efg c2f/g/ |\
+afd gec | fdc =B2g/f/ | e>fg G>c=B | c2C C2 :|
+|: g/f/ |\
+e2g c2a/g/ | f2a d2b | agf ed^c | d2d d2f/e/ |\
+dfb cea | Bdg A2f/e/ | def c>fe | f2f f2 |]
+%
+V: 2 clef=bass middle=d
+z |\
+a3 c'3 | d'3 z3 | f3 b3 | c'3 z3 |\
+f2z e2z | d2z G2=B | c2e g2G | c3- c2 :|
+|: z |\
+z2c'/b/ a3 | z2d'/c'/ b2g | a3 A3 | d3 z3 |\
+b2e a2f | g2e f2d | B3 c3 | F3- F2 |]
+%%begintext align
+First Cu. cast off, 1st Man hands round with the 3d Cu.
+1st Wo at the same time hands round with the 2d Cu. .|
+First Man Heys with the 3d Cu. 1st Wo.
+at the same time Heys with the 2d Cu. :|
+Six hands quite round .|
+First and 2d Cu. Right and Left quite round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4304
+T: The Bush
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%
+V: 1
+d |\
+gd-de dB-Bd | e/f/g dc/B/ {B}A3d |\
+gd-de dc/B/ e/f/g | dBcA G3 :|
+|: B |\
+AD cB/A/ BG dc/B/ | AD cB/A/ B3A |\
+(B/^c/d) (e/f/g) (f/e/d) (c/B/A) | (f/a/f/d/) (e/g/e/^c/) d3 :|
+%
+V: 2 clef=bass middle=d
+z | gabc' bg-gb | c'abg d'2d2 | gabc' bgc'a | d'2d2 g3 :|
+|: g | d'2d2 g2G2 | d'2d2 g3d | g2g2 a2a2 | d'2a2 d3 :|
+%%begintext align
+The 1st Cu. foots it cast off and turn .|
+First Cu foots it again, cast up and turn :|
+the 1st and 2d Cu. hands across quite round with their right hands .|
+back again with their left hands, First Man foots it with the 2d Wo. and turns her .|
+their Partners do the same :|
+the 1st Cu cross over and half figure at top .|
+First and 2d Cu. right and left quite round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4305
+T: The Merry Christmas
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 3rd part has a begin-repeat but no end-repeat.
+M: C|
+L: 1/8
+K: Bb
+%
+V: 1
+|: c2 ((3cde) d2B2 | ABcA B2F2 | c2 ((3cde) d2B2 | ABcA B4 :|
+|: B,2B,2 C2C2 | FGFE D2B,2 | c2 ((3cde) d2B2 | ABcA B4 :|
+|: bagf edcB | ABcA B2F2 | c2 ((3cde) d2B2 | ABcA B4 |]
+%
+V: 2 clef=bass middle=d
+|: z4 b4 | f4 d4 | e4 g4 | f4 B4 :|
+|: B2B2 c2c2 | dedc B4 | z4 b4 | f4 B4 :|
+|: d4 e4 | f4 d'4 | a4 b4 | f4 B4 |]
+%%begintext align
+First Man turns the 2d Wo. with his Right hand .|
+Their Partner does ye same :|
+First Cu. cast off and turn .|
+First Cu. leads thro' the 3d Cu. and foot it :|
+First and 2d Cu. Right and Left quite round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4306
+T: Honey suckles Frolick
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/8
+L: 1/8
+K: F
+%
+V: 1
+F |\
+ABc cde | fef cde | def {c}B3 | {B}A3 z2F |\
+ABc cde | fef egf | edc ag=B | c3 c2 :|
+|: c |\
+fef gfe | fag fag | fag fcA | G3 z2F |\
+ABc cde | fge fge | fge fcA | F3 F2 |]
+%
+V: 2 clef=bass middle=d
+z |\
+f3 g3 | a3 f3 | b3 g3 | f3 F3 | f3 g3 | a2=b c'3 | c'3 g3 | c'3 c2 :||: z |
+f3 g3 | a3 b3 | a3 f3 | c'3 c3 | f3 g3 | a2b a2b | a2b c'2c | f3 F2 |]
+%%begintext align
+Cross over down one Cu. and turn hands, then down the next Cu. the same way
+and turn hands, the Wo. turns the upper Man with one hand, her Partner w.th
+the other, the Man does the like at the same time, only at the last Dancers
+turn with both hands.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4307
+T: Paxton's Humour
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 12/8
+L: 1/8
+K: G
+%
+V: 1
+|:\
+G3 Bcd efg dcB | A3 agf gfe fga |\
+G3 Bcd efg dcB | edc BcA G3 G,3 :|
+|:\
+{a}Tg>fg dgb- bgd bgd | {g}Tf>ef dfa- afd afd |\
+{a}Tg>fg dgb- bgd bgd | {g}Tf>ef agf gdB G3 |]
+%
+V: 2 clef=bass middle=d
+|:\
+g3 g3 g3 g3 | d3 d3 d3 d3 | g3 g3 g3 g3 | c'3 d'3 g3 G3 :|
+g3 g3 g3 g3 | d3 d3 d3 d3 | g3 g3 g3 g3 | d'3 d3 g3 G3 |]
+%%begintext align
+First Man turn his Partner, then both cast off and take hands round .|
+the 2d do the same :|
+then the 1st Cu. cross over and go the figure of 8 between the 2d Cu into the 2d Cu. Place .|
+then right and left with the 2d Cu.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4308
+T: The Smart
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: C|
+L: 1/8
+K: G
+%
+V: 1
+|:\
+d2g2 d2BA | G4 D4 | G2g2 d2cB | fga2 A3B |\
+G2g2 d2cB | cBcd e2dc | B2AG FGAB | G4 D4 :|
+|:\
+B2AG c2BA | G4 D4 | B2AG c2BA | fga2 A3c |\
+B2AG c2BA | cBcd e2dc | B2AG FGAB | G4 D4 |]
+%
+V: 2 clef=bass middle=d
+|:\
+G4 z4 | B2g2 f2ed | e2c2 B2g2 | d4 f2g2 |\
+e4 b2g2 | a4 g2f2 | g4 d4 | G4 z4 :|
+|:\
+z4 e2f2 | g2d2 B2G2 | z2g2 a2z2 | d2f2 a2d'2 |\
+g2b2 a2f2 | d6 f2 | g2c2 d2D2 | G4- G4 |]
+%%begintext align
+First and 2d Man lead thro' sides and turn .|
+Their Partners does the same :|
+First Cu. double figure thro' the 2d Cu. .|
+First and 2d Cu. foots it Right and Left half round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4309
+T: Jovial Beggar
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: There are only 15 bars of music.
+M: 2/4
+L: 1/8
+K: D
+%
+V: 1
+   A | d2AG | TF3E | DEFG | A3A  | Addd | Td3d | efge |
+f2ed | Te3d | c2Bc | dcBA | BAGF | GABG | A2dc | d3  |]
+%
+V: 2 clef=bass middle=d
+     z | d2c2 | d3a  | f3e  | defg | f2d2 | f2g2 | a2A2 |
+d'2c'b | c'3b | a2ga | bagf | gfed | efge | fga2 | d3  |]
+%%begintext align
+First Cu. turn right hands Single with his Partner and cast off .|
+Turn Left hands Single and cast up :|
+Cross over and half figure .|
+Lead thro' the 3d Cu. cast up and turn :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4310
+T: Black Jack
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: C|
+L: 1/8
+K: D
+%
+V: 1
+|: d>efd ecdf | ecdB AFE2 | d>efd ecdf | ecdB AFD2 :|
+|: DEFG ABAF | ABAF d>edB | ABAF d>efe | dBAB AFE2 |
+   DEFG ABAF | ABAF defe | dBAB ABAF | dBAB AFD2 |]
+%
+V: 2 clef=bass middle=d
+|: d'2d2 a2bd' | c'abg a2a2 | d'2d2 a2bd' | c'abg d2d2 :|
+|: d2d2 d2d2 | d2d2 d2d2 | d2d2 d2d2 | d2d2 a2A2 |
+   d2d2 d2d2 | d2d2 d2d2 | d2d2 d2d2 | d2d2 d2d2 |]
+%%begintext align
+Foot it cross ways, First Cu. cross over two Cu. lean up to the top and foot a
+little, cast of one Cu. foot it and back to back and right hands and left with
+the uppermost Cu.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4311
+T: Petticoat Loose. or Curickle
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+%
+V: 1
+B |\
+c2A BGE | c2A BGE | GAG G2d | GAG G2B |\
+c2A BGE | c2A BGE | ABA A2e | ABA A2 :|
+|: B |\
+cde def | edc BAG | g>ag gdB | g>ag gdB |\
+cde def | edc dcB | ABA A2e | ABA A2 :|
+%
+V: 2 clef=bass middle=d
+z |\
+e3 e3 | e3 e3 | g3 g3 | g3 g3 |\
+e3 e3 | e3 e3 | a3 a3 | a3 a2 :||: g |
+c'3 b3 | c'3 g3 | g3 g3 | g3 g3 |\
+c'3 b3 | c'3 g3 | a3 a3 | a3 a2 :|
+%%begintext align
+Two first Cu. fall back and cross over, and so back again to their Places :|
+cross over and figure in .|
+Lead thro' the 3d Cu. cast up and turn hands.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4312
+T: Princock
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 2/4
+L: 1/8
+K: G
+%
+V: 1
+|: B2GB | cecA | B2AG | FAc2 | B2GB | c2Ac | BGAF | G2G,2 :|
+|: B2GB | dBg2 | c2Ac | eafd | Bdg2 | dBAG | c2ec | B2A2  |
+   B2GB | cecA | B2AG | FAc2 | B2GB | c2Ac | BGAF | G2G,2 |]
+%
+V: 2 clef=bass middle=d
+|: z2g2 | g2f2 | g2c2 | d2z2 | gabg | a2f2 | g2d2 | G4  :|
+|: z2b2 | g2e2 | a2A2 | c2d2 | g4   | G4   | A2c2 | d2D2 |
+   z2g2-| g2f2 | g2c2 | d2z2 | gabg | a2f2 | g2d2 | G4  |]
+%%begintext align
+First Cu. cast off and turn .|
+First Cu. leads thro' the 3d Cu. and foot it :|
+turn corners, 1st Man figures round the 3d Man,
+1st Wo. at the same time figures round ye 2d Wo. and foot it to her Partner in the 2d Cu.s Place .|
+turn the other corner, first Man figures round the 2d Man,
+1st Wo. at the same time figures round the 3d Wo. and foot it to her Partner in the 2d Cu.s Place.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4313
+T: Johnny Grot's House
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+N: Bar 8 was missing its dot; added to fix the rhythm.
+M: 2/4
+L: 1/8
+K: F
+%
+V: 1
+c | f/f/f fa | f/f/f fa | f>gfA | G3A | F/F/F FA | F/F/F Ff | c>dcA F3 :|
+|: A/B/ | c>dcA | c/c/c cf | d>dca | {a}g3 (f/g/) | a/a/a ad | g/g/g gc | f/f/f AG | F3 |]
+%
+V: 2 clef=bass middle=d
+z | f4- f4 | f2d2 | e2c2 | f4- | f4 | f2c'2 | f3 :|
+|: z | a2zf | a2zf | a2zf | e2c2 | f2z2 | e2z2 | AB cC | F3 |]
+%%begintext align
+The 1st Man foot it to his Partner and turn the 2d Wo. and stop in the 2d Man's Place,
+and the 2d Man turn the 1st Wo. at the same time the 1st Man was turning the 2d Wo. and
+stop in the 1st Man's Place.  Then the 2d Man foots it to the 1st Wo. and turns his own
+Partner and stops in his own Place, and the 1st Man turns his Partner at the same time
+and stops in his own Place.  First and 2d Cu. lead downwards abreast and hands
+half round, then lead up abreast and cast into the 2d Cu.s Place.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4314
+T: Lady's Favourite
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+N: The title was somewhat obscured, printed partly off the top of the page.
+N: Below the title, "LADy's" was added in handwriting.
+N: The title is also handwritten at the bottom, with the 2nd word barely legible.
+M: 2/4
+L: 1/8
+K: A
+%
+V: 1
+|:\
+c2 (c/B/A) | d2 (d/c/B) | c2 (c/B/A) | GB B2 |\
+c2 (c/B/A) | d2 (d/c/B) | (c/d/e) (f/g/a) | cA A2 :|
+|:\
+a2 (a/g/f) | g2 (g/f/e) | f2 (f/e/d) | ce e2 |\
+a2 (a/g/f) | g2 (g/f/e) | (c/d/e) (f/g/a) | cA A2 ||
+(cA)(fd) | (ec)(dB) | (cA)(dB) | GB B2 |\
+(cA)(fd) | (ec)(dB) | (c/d/e) (f/g/a) | cA A2 |]
+%
+V: 2 clef=bass middle=d
+|:\
+a2 z2 | b2 z2 | a2 z2 | e2 z2 | a2 z2 | b2 z2 | a2 d2 | eEA2 :|
+|:\
+a2 z2 | e2 z2 | d2 z2 | A2 z2 | a2 z2 | e2 z2 | a2 d2 | eE A2 ||
+a2 z2 | A2 z2 | a2 z2 | e2 z2 | a2 z2 | A2 z2 | a2 d2 | eE A2 |]
+%%begintext center
+	Each Strain twice
+%%endtext
+%%begintext align
+First Cu. cast off one Cu. and turn .|
+the 2d Cu. the same :|
+First Cu. gallop down the middle, up again and cast off .|
+2d Cu. do the same :|
+First Cu. cross over and half figure .|
+Right and Left with the 2d Cu. :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4315
+T: Miss Ash's Delight
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+%
+V: 1
+!segno!|:\
+d2d>d | Tc2B2 | TA>GA>F | G>AB>c |\
+d2d>d | Tc2B2 | TA>GA>F | G2Hz2 :|
+d2e>f | g2g2 | a>gTf>e | d2D2 |\
+d2e>f | g>a Tf>g | a>gTf>e | d2z2 !segno!|]
+%
+V: 2 clef=bass middle=d
+|:\
+G2G2 | G2G2 | G2G2 | G2G2 | G2G2 | G2G2 | G2G2 | G2Hz2 :|
+G2G2 | G2G2 | G2G2 | G2G2 | G2G2 | G2G2 | G2G2 | G2 z2 |]
+%%begintext align
+First Cu. turn Right hands single and cast off .|
+turn Left hands single and cast up :|
+First Cu. gallop down the middle, cast off and turn .|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4316
+T: Kettle Bender
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+%
+V: 1
+a2 |\
+f3e  d2d2 | c2e2 e2g2 | f3e  d2d2 | d2d2 fga2 |\
+a2aa b2b2 | g2g2 a4   | f2ff g2g2 | e2e2 f2ga |\
+d2d2 c2c2 | B2B2 A2G2 | F2a2 a2g2 | fdge dcd2 :|
+|:\
+a2a2 bgdB | G2b2 afdA | F2a2 geBG | E2g2 fga2 |\
+d2d2 c2c2 | B2B2 A2G2 | F2a2 a2g2 | fdge dcd2 :|
+%
+V: 2 clef=bass middle=d
+z2 |\
+d4d4 | a4a4 | d4d4 | d4d4 |\
+f4g4 | e4f4 | d4e4 | c4d4 |\
+b4a4 | g4f2e2 | d2e2f2g2 | a2A2d4 :|
+|:\
+f4g4 | e4f4 | d4e4 | c4d4 |\
+b4a4 | g4f2e2 | d2e2f2g2 | a2A2d4 :|
+%%begintext align
+First Man turn his Partner with his Right hand Single,
+the same with Left hands on their own sides .|
+Cast off and turn :|
+Cross corners, meet in the middle, clap hands four times and turn .|
+the same with the other corners and turn it out :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4317
+T: Captain Drivers Delight
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+%
+V: 1
+|: e2cd e3f  | edcB c2BA | e2cd e2a2 | e2dc B4 :|
+|: BAGA Bcdf | edcB c2BA | a2ec f2dB | ecdB A4 :|
+%
+V: 2 clef=bass middle=d
+|: a2a2 a2d2 | e2e2 a2a2 | a2a2 a2d2 | c2d2 e4 :|
+|: e2e2 e2e2 | e2e2 a2a2 | c2c2 d2d2 | e2e2 a4 :|
+%%begintext align
+First and 2d Men lead thro sides and turn .|
+Their Partners do the same :|
+First Cu. gallop down one Cu. gallop back again and cast off .|
+First and 2d Cu. Right and Left quite round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4318
+T: Jack Meggot
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%
+V: 1
+D/E/ |\
+F2G AFD | F2G AFD | F2G ABc | dfd ecA |\
+F2G AFD | F2G ABc | def gef | edc d2 :|
+|: A/B/ |\
+c2d ecA | g2e f2d | cde dcB | ABG AFD |\
+F2G AFD | c2d ecA | gbg afd | gec d2 :|
+%
+V: 2 clef=bass middle=d
+z |\
+d3 D3 | d3 D3  | d3  f3  | a3  A3 |\
+d3 D3 | d3 fge | f2d c2d | a2A d2 :|
+|: z |\
+A3 a3 | c'ba d'ad | A3 B3 | c2A d3 |\
+d3 D3 | a3   A3   | g3 d3 | a2A d2 :|
+%%begintext align
+The 1st Man Heys on the Women's side,
+his Partner Heys on the Men's side at the same time .|
+The 1st Cu. Hey on their own sides :|
+The to 1st Cu. foot, and hands across half round .|
+The two 1st Cu. foot, and Right and Left.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4319
+T: Rakes of Rochester
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+%
+V: 1
+ed |\
+c2 A4 E2 | F4 E2A2 | G2A2 d2c2 | BAGF E2ed |\
+c2 A4 E2 | F4 E2A2 | G2A2 cBAG | {G}A6 :|
+|: B2 |\
+c4 B2e2 | c4 B2d2 | c2BA G2A2 | BAGF E2B2 |\
+c4 B2e2 | c4 B2d2 | c2BA B2AG | {G}A6 :|
+%
+V: 2 clef=bass middle=d
+z2 |\
+a4 c'4 | d'4 c'2a2 | b2a2 g2a2 | e4 z4 |\
+a4 c'4 | d'4 c'4 | b2a2 e2E2 | A6 :|
+|: z2 |\
+a4 g4 | a4 e4 | a4 e2f2 | e4 z4 |\
+a4 g4 | a4 e4 | a4 e4 | A6 :|
+%%begintext align
+First Man turns the 2d Wo. with his right hand,
+and then his Partner with his Left hand .|
+First Wo. turns the 2d Man with her Right hand,
+and her Partner with her Left hand :|
+First Cu. gallop down, then gallop up again and cast off .|
+First and 2d Cu. Right and Left quite round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4320
+T: Marble Hall
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 9/8
+L: 1/8
+K: G
+%
+V: 1
+|:\
+G3 AcA BdB | G3 dBG gfg | A3 afa gfe | dcB ABG FED |\
+G3 AcA BdB | G3 dBG gfg | A3 afa gfe | dcB AGF G3 :|
+|:\
+b3 d2b afd | gfg efg fed | bgb afa geg | fdf e^ce d3 |\
+G3 AcA BdB | G3 dBG gfg | A3 afa gfe | dcB AGF G3 |]
+%
+V: 2 clef=bass middle=d
+|:\
+g3 g3 g3 | g3 g3 g3 | d3 d3 d3 | d3 d3 d3 |\
+g3 g3 g3 | g3 g3 g3 | d3 d3 d3 | d3 d3 g3 :|
+|:\
+g3 g3 f3 | e3 e3 d3 | g3 f3 e3 | d3 a3 d3 |\
+g3 g3 g3 | g3 g3 g3 | d3 d3 d3 | d3 d3 g3 |]
+%%begintext align
+First and 2d Cu. half Right and Left .|
+the same back again :|
+Cross over and turn Proper .|
+Lead thro' the 3d Cu. foot it and turn out :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4321
+T: Kev Green
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 9/8
+L: 1/8
+K: G
+%
+V: 1
+|: G3 B2c dBG | gfe dcB A3 | cBc EFG AFD | EFG AGF G3 :: AFD DFA AFD |
+  dBG GBd dBG | ede EFG F3 | G3 D2=F ECE | A3 E2G FDc |  BdE FDF G3 |]
+%
+V: 2 clef=bass middle=d
+|: g3 G3 g3 | e3 g2G d3 | e3 ^c3 d3 |  g3 d3 G3 :: d3 d3  d3 |
+   g3 G3 g3-| g3 ^c3 d3 | B3  G3 c3 | ^c3 A3 d3 | g2c d2D G3 |]
+%%begintext align
+First Cu. cast off one Cu. and Back to Back, then cast up into their Places and
+Back to Back, take hands and lead down the middle below the 3d Cu. and
+cast up into the 2d Cu.s Place, then lead up abreast with the 2d Cu. and cast
+off into the 2d Cu.s Place and turn |
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4322
+T: Hot Cockles
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The dance seems too short for the music.
+M: 6/8
+L: 1/8
+K: C
+%
+V: 1
+|: c>de e>de | e>de e>de | c>de dBG | c>de dBG |\
+   c>de e>de | e>de e>de | c>de dBG | c3   C3 :|
+|: g>a_b b>ab | b>ab b2g | f>ga gec | f>ga gec |\
+   g>a_b b>ab | b>ab b2g | f>ga gec | d3   c3 :|
+%
+V: 2 clef=bass middle=d
+|: c3 z3 | c3 z3 | c3 g3 | c3 g3 |\
+   c3 z3 | c3 z3 | c3 g3 | c'2g c3 :|
+|: c3 z3 | c3 z3 | f3 c3 | f3 c3 |\
+   c3 z3 | c3 z3 | f3 c3 | g3 c3 :|
+%%begintext align
+First Cu. half figure thro' the 2d Cu. and cross over .|
+First Cu. leads thro' the 3d Cu. and foot it :|
+turn Corners, and turn your Partner each time.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4323
+T: Handel's Hornpipe
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%
+V: 1
+d/c/ | BcAB GDDE | FGAB G/F/G/A/ GA | B^cde cAAG | FdE^c d3 :|
+|: d | ecce dBgB | cAdc BGGA | BGcA BGGA | BGcA BGGA |
+       BGcA A3 (3d/e/f/ | gGeG dGGF | EGDG CAAC | B,GA,F G3 :|
+%
+V: 2 clef=bass middle=d
+   z | zafg G4   | d'bag G2z2 | g2fg  a2A2 | d2aA d3  :|
+|: z | c2z2 b2g2 | f2d2  G2z2 | g2f2  g2z2 | g2f2 g2z2 |
+       g2c2 d2z2 | b2c'2 b2z2 | c'2b2 a2f2 | g2dD G3  :|
+%%begintext align
+First Man Set to the 2d Wo. his Partner the same, 1st Man Heys on the contrary
+site, and then on his own side, First Wo. the same at the same time, 1st
+Cu. cross over, figure in, Right and Left.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4324
+T: Trip to Birmingham
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/8
+L: 1/8
+K: D
+%
+V: 1
+B/c/ |\
+d2A FED | BGB A2d | cde fed | e3 e2d/e/ |\
+fdf ece | dBd cBA | ^GAB EA^G | A3 A2 :|
+|: A/B/ |\
+cde ecA | Bdc dAF | BGB AFD | E3 E2F/G/ |\
+AFA BGB | cAc dcB | Agf edc | d3 d2 |]
+%
+V: 2 clef=bass middle=d
+z |\
+d2e f2d | g3 f2d | a3 d'3 | a2b c'2a |\
+d'3 a3 | b3 a2d | e3 E3 | a3 A2 :|
+|: z |\
+a3 g3 | f3 d3 | g3 d3 | a2g f2e |\
+d3 g3 | a2g f2g | a3 A3 | d3 D2 |]
+%%begintext align
+Hands round with the 1st Cu. cast off and hands round with the 3d Cu.
+gallop up, foot, cast off, lead down, foot, cast up and turn.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4325
+T: Have a sup of Brandy
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Dm
+%
+V: 1
+|: f>ed>^c d>fe>a | g>fe>d T^c4  | f>cd>e f>ag>b | a>gf>e Tf4 :|
+|: f>ad>^f g>ab2  | e>gc>e f>ga2 | d>fB>d g>ba>g | f>ed>^c d4 :|
+%
+V: 2 clef=bass middle=d
+|: d2a2 f2^c2 | d2g2 a>ba>g | f3e d2g2 | a2A2 d4 :|
+|: d'2c'2 b2g2 | c'2b2 a2f2 | b2g2 e2f>g | a2A2 d4 :|
+%%begintext align
+Lead thro' the 1st Cu. and on the outside of the 2d Cu. then turn your Partner,
+Lead thro' the 2d Cu. and on the outside of the 1st Cu. then turn your Partner.
+cross over two Cu. lead up to the top, foot it and cast off.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4326
+T: Pray be civil
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+%
+V: 1
+|: GGG2 B2d2 g2d2B2G2 | DDD2 F2A2 d2A2F2D2 | GGG2 B2d2 g2d2B2G2 | cBAG d2D2 G4 G,4 :|
+|: d2f2e2g2 f2a2g2b2 | d2f2e2g2 fga2 f2d2 | defg efga fgab gabg | defd efge fga2 f2d2 |
+   gab2 g2e2 fga2 f2d2 | efg2 d2B2 A3GF2D2 | GGG2 B2d2 g2d2B2G2 | cBAG d2D2 G4 G,4 :|
+%
+V: 2 clef=bass middle=d
+|: G4z4 G4z4 | d4z4 d4z4 | G4z4 G4z4 | cBAG d2D2 G4 z4 :|
+|: d4z4 d4z4 | d4z4 d4z4 | d4A4 d4g4 | f4   e4   d4 z4 |
+   g4e4 d4z4 | g4z4 f4z4 | g4z4 g4z4 | c'bag d'2d2 g4z4 :|
+%%begintext align
+First Cu. foot it and cast off, the same again .|
+Lead up to the top, foot it and cast off :|
+Six hands round .|
+First and 2d Cu. Right and Left quite round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4327
+T: A Trip to Jamaica
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 12/8
+L: 1/8
+K: D
+%
+V: 1
+|: dAA TFEF Gee Te3 | dcd efg faf Te3 | dAA TFEF Gee Te3 | dfd ege faf Td3 :|
+|: bgg  fge bgg fge | fag fed ced cBA | bgg  fge bgg fge | fad egc dAF  D3 :|
+%
+V: 2 clef=bass middle=d
+|: d3 d3 A3 A3 | d3 A3 d3 A3 | d3 d3 A3 A3 | d3 A3 D3 D3 :|
+|: g3 a3 g3 a3 | d3 d3 A3 a3 | g3 a3 g3 a3 | d3 A3 d3 D3 :|
+%%begintext align
+First Man turn his Partner, then both cast off and take hands round .|
+the 2d do the same :|
+Then the 1st Cu. cross over and go the figure of 8 between the 2d Cu. into the 2d Cu.s Place .|
+then Right and Left with the 2d Cu.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4328
+T: Maclod's Rant
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 2/4
+L: 1/8
+K: G
+%
+V: 1
+|: B2 AG | G/G/G GA | B2 AG | A/A/A Ad | B2 AG | G/G/G GB | E/E/E EF | G/G/G G2 :|
+|: d>edg | d2Bc | d/d/d dg | d2Bc | d/d/d gd | c/c/c gc | B/B/B gB | A/A/A A2 |
+   G>A Bd | E2 DB, | G/G/G Bd | E2 DB, | CDEF | Ge d2 | B2 AG | G/G/G G2 |]
+%
+V: 2 clef=bass middle=d
+|: G4   | e4   | g2G2 | d4   | G4    | e4    | c2d2 | G4 :|
+|: g2g2 | g2G2 | g2g2 | g2G2 | b4    | a4    | g2G2 | d4 |
+   z4   | zcBG | e2g2 | zcBG | c2c'2 | zc'bf | g2f2 | G4 |]
+%%begintext align
+The 1st Cu. foot it and turn the 2d Cu. to the Top, then foot it and turn the 2d Cu, into their Places |
+Dance inside below the 3d Cu. cast up into the 2d Cu.s Place, take hands sideways, foot it and turn |
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4329
+T: Lucky Dick
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/8
+L: 1/8
+K: A
+%
+V: 1
+|:\
+A2a g2f | edc B3 | c2d ecA | G2A BGE |\
+A2a g2f | edc B3 | c2d edc | BAG A3 :|
+|:\
+E2G B2e | d2c B3 | ecA e2a | g2f e3 |\
+fdB df2 | ecA ce2 | dBG AdB | {c}TB3 A3 |]
+%
+V: 2 clef=bass middle=d
+|:\
+A3 e3 | c2A e3 | a3 a3 | e3 e3 |\
+A3 e3 | a2A e3 | a3 a3 | d2e A3 :|
+|:\
+e3 g3 | b2a g2e | a3 c'3 | e'2d' c'2a |
+d'3 b3 | c'3 a3 | b3 c2d | e3 A3 |]
+%%begintext align
+First Man Hey with the 1st and 2d Wo. then the 1st Wo. Hey with the 1st and 2d Man ||
+Cross over two Cu. lead up to the top and cast off ||
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4330
+T: Squire Fribble
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 2/4
+L: 1/8
+K: A
+%
+V: 1
+|: (Ac)(Bd) | cefg |  afed  | ecBA | (Ac)(Bd) | cefg | aedc | B2E2  :|
+|: (eg)(fa) | gbge | ^dfB=d | cecA |  BGEd    | cAfd | cBAG | A2A,2 |]
+%
+V: 2 clef=bass middle=d
+|: a2 g2 | a2d2 | zdcB | A2z2 | a2g2 | a2d2 | zcBA | e2E2 :|
+|: e2^d2 | e2z2 | b2g2 | a2z2 | g2e2 | a2d2 | e2E2 | A4   |]
+%%begintext align
+First Man turn the 2d Wo. with his Right hand Single and cast off .|
+his Partner the same with the 2d Man :|
+Hands 6 round .|
+Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 331
+T: Tuzzy muzzy
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%
+V: 1
+|: D2(3E/F/G/ A2B | ABG FED | D2(3E/F/G/ A2g | fdf ecA |\
+   D2(3E/F/G/ A2B | AFA EFG | FAd Bcd | FGE D3 :|
+|: d2(3e/f/g/ a2g | fdf ecA | Bcd AFd | GAF E2(3G/F/E/ |\
+   D2(3E/F/G/ A2g | afa gec | dfd Bcd | FGE D3 :|
+%
+V: 2 clef=bass middle=d
+|: d2e f2g | f2e d3 | d2e f2c | d3  a3 |\
+   d2e f2g | d3  A3 | d3  g2d | a2A d3 :|
+|: d2e f2e | d3  a3 | g2f d3  | e2d a3 |\
+   d2e f2c | d3  a3 | d3  g2d | a2A d3 :|
+%%begintext align
+Hey contray sides, then on your own :|
+First Cu cast off and turn, Right and Left with the 2d Cu. :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4332
+T: Just thought on't
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+%
+V: 1
+|: f>a f>d | e2 A2 | (B//c//d/)z (c//d//e/)z | d2 D2 |\
+   (f>a) (f>d) | (^g>b) (^g>e) | f2 T^g2 | a4 :|
+|: efeA | g2fz | efeA | f2ez |\
+   efeA | gagA | fgfA | {f}e4 |
+   a2gf | b2za | gfed | c2A2 |\
+   gecA | fdAF | E2 Tc2 | d4 :|
+%
+V: 2 clef=bass middle=d
+|: d2 d'2 | c'2 zf | gz az | d2 D2 |
+   d2 d2 | e2 zc | d2 e2 | A4 :|
+|: A2 A2 | A2 A2 | A2 A2 | A2 A2 |\
+   A2 A2 | A2 A2 | A2 A2 | A4 |
+   z2 zd | g2 g2 | g2 g2 | a2 A2 |\
+   A2 A2 | d2 zf | g2 a2 | d4 :|
+%%begintext align
+First Cu. foot it and cast off  the same again .|
+Lead up to the top, foot it and cast off :|
+Six hands round .|
+First and 2d Cu. Right and Left quite round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4333
+T: Glascow Lasses
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 2/4
+L: 1/8
+K: F
+%
+V: 1
+c |\
+F>GFd | cAcf | F>GFA | BG2c | F>GFd | cA2c | d>efg | af2 :|
+|: (f/g/) |\
+a>gfF | Ac2f/g/ | a>gfF | eg2f/g/ | a>gfc | d/e/f cA | B/c/d BG | AF2 |]
+%
+V: 2 clef=bass middle=d
+z |\
+f2f2 | f2f2 | f2f2 | c2c2 | f2f2 | f2za | bgac' | f3 :|
+|: z |\
+f2f2 | f2z2 | f2d2 | c4 | f2a2 | b2f2 | d2c2 | f3 |]
+%%begintext align
+First Man foot it to the 2d Wo. and cast off into the 2d Mans Place,
+and the 2d Wo. cast up at the same time into the 1st Wo.s Place .|
+Then the 2d Man foot it to ye 1st Wo. (he being a Top) and cast off into his Place,
+and the 1st Wo. cast up into her Place ==,
+then the 1st and 2d Man foot it to their Partners,
+the 1st Cu. cast off one Cu. take hands with the 2d Cu. and lead up,
+foot it and cast off into the 2d Cu.s Place.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4334
+T: New Tambourine
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+%
+V: 1
+   G | A/B/c cB A2 G2 | AGAB  c/B/c/d/ cG | A/B/c cB A2 G2    | AGAB c3 :|
+|: c | e/f/g gf e2 d2 | g2 g/a/g/f/ e2 d2 | e/f/g gf e2 d/e/f | ecGB c3 :|
+%
+V: 2 clef=bass middle=d
+   z | f2  ec fF  ec | fefd  c2  ec | f2  ec fF  ec | fefd  c3 :|
+|: z | c'2 bg c'c bg | ec zg c'c bg | c'2 bg c'c bg | c'agG c3 :|
+%%begintext align
+%% All four fall back and forward again and turn single, Men change Places with the Wo. .|
+%% 1st Man change with 2d Wo. 2d Man with the 1st Wo. :|
+%% 1st Cu. being in 2d Cu. Place Jigg it up. All four Lead to the Wall, back again .|
+%% 1st Cu. go the half figure thro' 2d Cu. turn hands with your Partner, and jump and cast off :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4335
+T: Pot Stick, or the Shamboy
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/8
+L: 1/8
+K: D
+%
+V: 1
+|: D2A AFA | B/c/dF E2D | D2A AFA | B3 d3 :|
+|: d/e/fd ecA | B/c/dF E2D | d/e/fd ecA | B3 d3 |
+   d/e/fd ecA | B/c/dF E2D | DFA AFA | B3 d3 |]
+%
+V: 2 clef=bass middle=d
+|: d3  d3  | g2z a2d | d3  d3  | g3 d3 :|
+|: d3  a3  | g2z a2d | d2z a2z | g3 d3 |
+   d2z a2z | g2z a2d | d2z d2z | g3 d3 |]
+%%begintext align
+The 1st Cu foot it 2 and cast off one Cu. .|
+then foot it and cast up then cross over,
+and half figure, and Right hands and Left.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4336
+T: Star Light Night
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+%
+V: 1
+|: a2fg a2fg | a2b2a2g2 | f3ed2c2 | d2A2A4 |\
+   a3g f2e2 | A3G F2E2 | a2ba g2f2 | {f}e4 z4 :|
+|: e4 fefg | a2g2f2e2 | e4 fefg | a2g2f2e2 |\
+   a4 gfge | fefg a4 | A4 GFGE | FEFG A4 |\
+   d'2de f2e2 | d4 Hz4 :|
+%
+V: 2 clef=bass middle=d
+|: d2d2d2d2 | d2d2d2d2 | d2d2d2d2 | d2d2d2d2 |\
+   d2d2d2d2 | d2d2d2d2 | d2d2d2d2 | A4  z4  :|
+|: a2a2a2a2 | a2a2a2a2 | a2a2a2a2 | a2a2a2a2 |\
+   d2d2 A2A2 | d2d2d2d2 | d2d2 A2A2 | d2d2d2d2 |\
+   f2g2a2A2 | d4 Hz4 :|
+%%begintext align
+First Man turn the 2d Wo. with his Right hand Single and cast off .|
+his Partner the same with the 2d Man :|
+Hands 6 round .|
+Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4337
+T: The Woodcutters
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/8
+L: 1/8
+K: D
+%
+V: 1
+a |\
+a/g/ff fad | e>fe e2a | f>gf Te>de | dAF D2a |\
+a/g/ff fad | e>fe eae | fd'b T^g>fg | aec A2 :|
+|: e |\
+e/d/cc ceA | dAF D2a | a/g/ff fad | gdB G2b |\
+b/a/gg afd | e/f/gg g2a | f>gf Te>de | dAF D2 |]
+%
+V: 2 clef=bass middle=d
+z |\
+d3 f3 | g3 a3 | d'3 a3 | d3- d2z |\
+d3 f3 | g3 a3 | d3 e3 | A3- A2 :|
+|: z |\
+a3 g3 | f3- f2z | d'3 =c'3 | b3- b2z |\
+g3 f3 | e3 c3 | d3 A3 | D3- D2 |]
+%%begintext align
+Hey contrary sides, then on your own :|
+First Cu. cast off and turn, Right and Left with the 2d Cu. :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4338
+T: Cure of all Grief
+N: Pub: J. Walsh, London, 1748
+N: The 2nd part has a begin-repeat but no end-repeat.
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%
+V: 1
+|:\
+d2A d2e | f2g a3 | gfe d2g | fge d3 |\
+d2A d2e | f2g a3 | gfe d2g | fge d3 :|
+|:\
+a2g fga | g2f g3 | g2f efg | f2e f3 |\
+d2A d2e | f2g a3 | gfe d2g | fge d3 |]
+%
+V: 2 clef=bass middle=d
+|:\
+d3 z3 | d2e fed | e3 f2b | a2A d3 |\
+d3 z3 | d2e fed | e3 f2b | a2A d3 :|
+|:\
+f3 d3 | e3  E3  | e3 c3  | d2A D3 |\
+d3 z3 | d2e fed | e3 f2b | a2A D3 |]
+%%begintext align
+First and 2d Cu. Right hands half round, Left hands back again .|
+1st Cu. cast off 2 Cu :|
+Hands 6 round, 1st Cu lead to the top and cast off :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4339
+T: the Puff
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: aecA aecA | Bcdf  ecBA | aecA aecA | BcdB A2A,2 :|
+|: E2Ac E2Bd | E2ce Tc2B2 | A2ce aecA | BdcB A2A,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: A2z2 A2z2 | e2E2 A2z2 | a2z2 a2z2 | e2E2 A4 :|
+|: e2z2 E2z2 | e2z2 a2e2 | c2A2 a2z2 | e2E2 A4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu lead thro' the 2d and cast up .|
+%% Right and Left with the top Cu. :|
+%% Cross over two Cu. .|
+%% Lead to the top and cast off :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4340
+T: Merry Harry
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/4
+L: 1/4
+K: G
+%
+V: 1
+|:\
+G2d TB>AB | GBd gdB  | G2d TB>AG | FAd AFD |\
+G2d TB>AB | GBd gdB  | (e/f/g)e (f/g/a)g | f3 g3 :|
+|:\
+G2b  afd  | F2a ge^c | dfa bge | Te3 d3 |\
+c2B  cfa  | B2A Bdg  |Tfef gdB | TA3 G3 |]
+%
+V: 2 clef=bass middle=d
+|:\
+g3 G3 | g3 G3 | g3 G3 | g3- g3 |\
+g3 G3 | g3 B3 | c3 A3 | d2D G3 :|
+|:\
+e3   d3- | d3  e3  | f3  g3  | a2A d3 |\
+e2^g a2f | d2f g2e | d2c B2G | d2D G3 |]
+%%begintext align
+First and 2d Cu. Set to the Partners and Hands across half round the same
+again which brings each into their Places = Cast off and lead thro' the 3d Cu.
+and cast up into the 2d Cu.s Place, cast up to the Top and Right hand and
+Left half round which brings them into the 2d Cu.s Place.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4341
+T: Welcome to your fool again
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+%
+V: 1
+|: e>ae>d | c2B2 | A>GA>B | c>BA2 | B>cd>c | B>cd>c | B>AG>F | E2-E2 :|
+|: E>e E>F | E>e E>F | G>AB>c | Td2 c2 | f>e g>a | f>e g>a | c2 TB2 | A2- A2 :|
+%
+V: 2 clef=bass middle=d
+|: A2e2 | A2e>d | c2e2 | A3z/a/ | e3z/a/ | e3z/a/ | b2B2 | e>ag>f & e>dc>B :|
+|: e2z2 | .e2z2 | e>fg>a | bgaA | d>cB>A | d>cB>A | e2E2 | A>ag>f & A3z :|
+%%begintext align
+First Cu. turn Right hands Single with his Partner and cast off .|
+Turn Left hands Single and cast up :|
+Cross over and half figure .|
+Lead thro' the 3d Cu. cast up and turn :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4342
+T: Captain Flash
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: in bar 9 there's what looks like a faint sharp before the f.
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/8
+L: 1/8
+K: C
+%
+V: 1
+|:\
+c3 ecA | afd {c}B3 | cGF EFG | ABc dBG |\
+A2c B2d | c2g f/g/af | edc G2B | c3 C3 :|
+|:\
+ecA e2^f | g3 G3 | dBG d2e | =f3 F3 |\
+dBG def | edc BAG | (A/B/)cA (B/c/)dB | c3 C3 |]
+%
+V: 2 clef=bass middle=d
+|:\
+c3 A3 | f3 g2f | e2d c3 | f3 g3 |\
+f2e d2B | c2e f2a | c'ba g2G | c2G C3 :|
+|:\
+a3 c'2a | bag G3 | g3 b2g | agf F3 |\
+g3 b3 | c'ba g2G | f3 g3 | c2G C3 |]
+%%begintext align
+First Man turn his Partner, with his Right Hand, and cast off .|
+1st Wo. turn the 2d Man with her Left Hand and cast off .|.
+1st Cu. clap Hands sideways with the 2d Cu. and turn them |.
+1st Cu figure and turn it out :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4343
+T: Now or never
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/8
+L: 1/8
+K: C
+%
+V: 1
+|: c2c BAG | ABc dBG | cdc BAG | AG^F G3 :: c2c e2g | f2e d2c |
+   c2c e2f | g2f g3 | c2c e2g | f2e d2c | cac BgB | ABc dBG | cdc BAG | A2B c3 |]
+%
+V: 2 clef=bass middle=d
+|: c2z g2z | f2z g2z | a2z g2z | d2D G3 :: e2z c2z | d2c g2z |
+   e2z c2z | A2z G2z | e2z c2z | d2c g2z | a2z g2z | f2z g2z | a2z g2z | f2g c3 |]
+%%begintext align
+First Cu. foot and cast off .|
+load thro' 3d Cu. and cast up :|
+First Man turn 3d Wo. while 1st Wo. turns 2d Man, foot it to your Partners and turn .|
+1st Man turn 2d Wo. while 1st Wo. turns 3d Man, foot to your Partner and turn proper
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4344
+T: Leister House
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+N: Bar 3 had 4 quarter notes; changed to eighth notes.
+M: 2/4
+L: 1/16
+K: C
+%
+V: 1
+|:\
+(gfed) c2a2 | (gfed) c2g2 | {f}e2dc B2c2 | d4 G4 |\
+(gfed) c2a2 | (gfed) c2e2 | A3c BcdB | c4 C4 :|
+|:\
+(GFEF) G2c2 | (GFEF) G2c2 | A2c2 ^F4 | G4 G,4 |\
+a2^f2 g4- | g2e2 f4 | e2dc BcdB | c4 C4 |]
+%
+V: 2 clef=bass middle=d
+|:\
+c4 c4 | c4 c4 | c2a2 g2^f2 | g4 g4 |\
+c4 c4 | c4 e4 | f2d2 g2G2 | c8 :|
+|:\
+c4 e4 | c4 e4 | f4 d4 | g4 G4 |\
+d4 z2e2 | c4 z2d2 | e2f2 g2G2 | c8 |]
+%%begintext align
+First Cu. foot it and cast off one Cu. and turn the 2d Cu. do the same = cast
+off and lead up a Breast with the 2d Cu. and cast off into the 2d Cu.s Place
+and Right hand and Left al round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4345
+T: Jenny's Whim
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+%
+V: 1
+d/e/ |\
+f2ed/c/ | dBAg | f2ed | ce2d/e/ |\
+f2ed/c/ | dBAg | f2ed | Ad2 :|
+D/E/ |\
+FA,TA,2 | EA,TA,2 | {G}F2TED | CE2D/E/ |\
+FA,TA,2 | EA,TA,2 | f2ed | Ad2 |]
+%
+V: 2 clef=bass middle=d
+z |\
+dd'c'a | zgfe | dd'ge | a2A2 |\
+dd'c'a | zgfe | d2a2 | d3 :|
+z |\
+A2A2 | A4 | A2A2 | A4 |\
+A2A2 | A4 | d2a2 | d3 |]
+%%begintext align
+First Cu. cast off into ye Cu. Place, then Right hand and Left half round, the 1st and 2d Man
+foot it to their Partners and turn them into their Places | The 1st Man foot it to the 2d Wo.
+and turn her, the 2d Man do the same with the 1st Wo.  First Cu. cast off the 2d Cu. and
+turn, and the 3d Cu. and turn, take hands and lead up to the top and cast off one Cu.
+Right hand and Left all round |
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4346
+T: Harly Bush Fair
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/4
+L: 1/8
+K: D
+%
+V: 1
+a2 |\
+{g}f4d2 d2e2f2 | (ef)g2f2 g4b2 | a2g2f2 {f}e4d2 | e2c2A2 A4a2 |\
+f4d2 d2e2f2 | (ef)g2f2 g4b2 | a2g2f2 e2d2c2 | d2A2F2 D4 :|
+|: A2 |\
+F4D2 A2B2=c2 | B2G2G2 G4B2 | ^G4E2 B2c2d2 | c2A2A2 A4a2 |\
+(ga)b2e2 (fg)a2d2 | (ef)g2c2 (de)f2B2 | (cde2)d2 c2A2c2 | d2A2F2 D4 |]
+%
+V: 2 clef=bass middle=d
+z2 |\
+d6 d'6 | a6 b4g2 | f4d2 a4d2 | c6 A6 |\
+d6 d'6 | a6 b4g2 | f4d2 a4A2 | d6 d4 :|
+|: z2 |\
+d6 d6 | g6 G6 | e6 e6 | a6 A6 |\
+b4g2 a4f2 | g4e2  f4d2 | a6 A6 | d6- d4 |]
+%%begintext align
+First Cu. Set and cast off two Cu. and up again, cross over and figure with
+the 1st Cu. then the half figure below, and half figure a Top |.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4347
+T: Caberwell Frolick
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+%
+V: 1
+|:\
+GGG2 B2d2 | gfga g2d2 | e2d2c2B2 | AdBG F2D2 |\
+GGG2 B2d2 | g2{a}b2a2g2 | f2d2 ged^c | {^c}d8 :|
+|:\
+de=f2 e2d2 | cBA^G A2A,2 | (cde2) d2c2 | BAGF G2G,2 |\
+G2 B4 d2 | gfga g2d2 | ecdB cAGF | GGG2 G4 :|
+%
+V: 2 clef=bass middle=d
+|: g4g4 | g4g4 | c'2b2a2g2 | d4d4 | g4g4 | g4g4 | a4A4 | d8 :|
+|: b4^g4 | a4A4 | a4^g4 | g4G4 | g4g4 | g4g4 | c4d4 | g4g4 :|
+%%begintext align
+Hey contrary sides and then on your own sides :|:
+cast off and turn your Partner .|.
+Right and Left at Top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4348
+T: The Plod
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+%
+V: 1
+|:\
+(defg) ad3 | (ec3) d4 |\
+(AF3) d4 | (AF3) E4 |\
+DEFG A2A2 | (dA3) f4 |\
+(ec3) dB3 | A6 z2 :|\
+|:\
+(ABcd) (eA3) | (dA3) (fa3) |
+(FA3) D=c3 | BG3 G4 |\
+GABc d2ef | g2fe f2ed |\
+(ec3) (Ac3) | dD3 D4 |\
+(BG3) (Fd3) | (BG3) A4 |\
+df3 AF3 | d2D2 D4 :|
+%
+V: 2 clef=bass middle=d
+|:\
+d4d4 | d4d4 | d4d4 | a4A4 |\
+d4d4 | d4d4 | e4E4 | A6 z2 :|
+|:\
+a4a4 | f4d4 | d4f4 | g4G4 |\
+g4g4 | g4g4 | a4A4 | d4d4 |\
+d4d4 | d4d4 | a4A4 | d4d4 :|
+%%begintext align
+The 1st Man foot it to the 2d Wo. and cast off .|.
+the 1st Wo. foot it to the 2d Man and cast off .||.
+Hands Six round, then lead thro' the 2d Cu. .|.
+Right and Left at top and foot it to your Partner :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4349
+T: Trip to Hereford
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 2/4
+L: 1/8
+K: G
+%
+V: 1
+|: cBAG    | GFG2 | AGcB | A2G2 | cBAG | FAD2 | AGcB | A2G2 :|
+|: B/c/dd2 | edd2 | edgf | e2d2 | cBAG | FAD2 | AGcB | A2G2 |]
+%
+V: 2 clef=bass middle=d
+|: g2g2 | g2g2 | g2g2 | g2g2 | g2g2 | d2d2 | d2d2 | d2g2 :|
+|: g2g2 | g2g2 | g2g2 | g2g2 | g2g2 | d2d2 | d2d2 | d2g2 |]
+%%begintext align
+Foot it 3 and turn .|.
+Foot it 3 to the Wo. and turn :|:
+Gallop down, up again, cast off .|.
+Right and Left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4350
+T: Bromely Assembly
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/4
+L: 1/4
+K: D
+%
+V: 1
+A |\
+d2d {g}Tf>ef | e2e {a}Tg>fg | fag fed | ced cBA |\
+d2d {g}Tf>ef | e2e {a}Tg>fg | fba {a}T^g>fg | a3 A2 :|
+|: a |\
+a2a bab | g2g aga | f2f fed | ced cBA |\
+d2d {g}Tf>ef | e2e {a}Tg>fg | fed {d}Tc>Bc | d3 D2 |]
+%
+V: 2 clef=bass middle=d
+z |\
+d3 d'3 | c'3 a3 | d'3 d3 | a3 A3 |\
+d3 d'3 | c'3 c3 | d3 e3 | A3- A2 :|
+|: z |\
+d3 z3 | e3 c'3 | d'3 d3 | a3 A3 |\
+d3 d'3 | c'3 a3 | d'2g a2A | d3 d2 |]
+%%begintext align
+Set and cast off down to Cu. Right hand Left half round and turn your Partners of their own Side |
+The 1st Man turn hands with the 2d Cu. and the 1st Wo. do the same with the 3d Cu. at the same time,
+and meet in the middle and turn, lead thro' the 3d Cu. and then a Top into the 2d Cu.s Place.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4351
+T: The Cabinet
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 2/4
+L: 1/16
+K: F
+%
+V: 1
+|:\
+c2AB c2f2 | d2B2  Tc4 | c2BA B2AG | A2GF G2E2 |\
+c2AB c2f2 | d2B2   c4 | f2ed e2dc | d2c=B c4 :|
+|:\
+g2ef g2a2 | b2ag a2f2 | cdef g2a2 | gfed c4 |\
+c2AB c2f2 | d2cB c2A2 | b2ag a2gf | g2fe f4 |]
+%
+V: 2 clef=bass middle=d
+|: f4a4 | b4a4 | f4e4 | f4c4 | f4a4 | b4a4 | =b4c'4 | g4c4 :|
+|: c4c4 | e4f4 | c4c4 | c4c4 | f4a4 | b4f4 |  e4f4  | c4f4 |]
+%%begintext align
+First Cu. hands round with the 2d Cu. .|
+First Cu. foot it and cast off and turn Partners :|
+Cross round the 2d Cu. into the 2d Cu.s Place .|
+Right and Left quite round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4352
+T: Hart Hall
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/4
+L: 1/4
+K: Bb
+%
+V: 1
+F |\
+B2B Bbg | fdB A2B | cde dcB | cAF F2F |\
+B2B Bbg | fdB G2F | Ged cBA | BFD B,2 :|
+|: F |\
+B2B B>cB/_A/ | GEE GBe | c2c c>dc/B/ | AFF Acf |\
+.g(ec) .f(dB) | .e(cB) A>GF | Ged cBA | BFD B,2 |]
+%
+V: 2 clef=bass middle=d
+z |\
+B3 d2e | d3 f3 | a3 b3 | a3 f3 |\
+B3 d2e | d3 B3 | e3 f3 | B2B B2 :|
+|: z |\
+d3 B3 | e3 z3 | =e3 c3 | f3 z3 |\
+e3 d3 | e3 f2d | e3 f3 | B2B B2 |]
+%%begintext align
+The 1st Man cast off and turn the 3d Wo. (his Partner turning the 2d Man at
+the same time) then his Partner, then Set and cast up to the top and Set and turn _
+Then the 1st Man clap hands with the 2d Man, and the 1st Wo. with the 2d Wo. at the same
+time, then with their Partners and turn them, then the 1st and 2d Man clap hands
+with their Partners, then with each other and turn into the 2d Cu. Place.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4353
+T: Bantering Billy
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+%
+V: 1
+|: AA2c | B2 A/B/c/d/ | ee2d | cBAG | AA2c | B2a2 | ((3gfe) f^d | e4 :|
+|: ee2f | dd2e | (3cde dc | B2E2 | AA2c | BB2d | ((3cBA) BG | A2A,2 :|
+%
+V: 2 clef=bass middle=d
+|: c'2a2 | g2a2 | c'c'2b | a2e2 | c'2a2 | g2a2 | b2B2 | d2D2 :|
+|: c'2a2 | b2g2 | a2d2 | e2E2 | c'2a2 | g2e2 | a2e2 | a2A2 :|
+%%begintext align
+The 1st Man cast off into the 2d Man's Place, his Partner following .|
+the Wo. casts up, the Man following :|
+Hands round four .|
+cast off and turn :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4354
+T: Fort William
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+%
+V: 1
+|:\
+A2 (A/B/c) | B2 (B/c/d) | cecA | BGFE |\
+A2 (A/B/c) | B2 (B/c/d) | ceEG | AECA, :|
+|:\
+cde=g | fdcB  | BcdB | ecBA |\
+GB Ed | cde=g | fdcB | {B}A4 :|
+%
+V: 2 clef=bass middle=d
+|: c'2a2 | g2e2  | a2A2 | e2E2 | c'2a2 | g2e2 | a2e2 | a2A2 :|
+|: a2c'2 | d'2b2 | g2b2 | c'2a2 | e2g2 | a2c2 | d2e2 | a2A2 :|
+%%begintext align
+The 1st Cu. cast two Cu. .|.
+then cross up two Cu. .|.
+Gallop down, up again, cast off .|.
+Right and Left.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4355
+T: Chester Assembly
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+%
+V: 1
+a/g/ |\
+fddd | d2d2 | (=c/B/c/d/) cG | EG Gg |\
+fddd | d2d2 | (a/g/a/b/) ag | fa- a :|
+|: (a/g/) |\
+fadg | bg2=f | e=c2G | EG2d |\
+cA2(^c/d/) | ee2f/g/ | aa2g | fa2 :|
+%
+V: 2 clef=bass middle=d
+z |\
+d'2d2 | f2d2 | e2=c2 | e2=c2 |\
+d2e2 | f2g2 | a2A2 | d3 :|
+|: z |\
+d'2=c'2 | b2g2 | c'2c2 | e2g2 |\
+a2a2 | a2a2 | a2a2 | d3 :|
+%%begintext align
+Foot it to your Partner and turn .|.
+then foot it sideways and turn :|:
+Cross over and half figure .|.
+lead thro' the 3d Cu. cast up and turn :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4356
+T: The Gold Ring
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+%
+V: 1
+|: G2(Bd) | cAFD | GBdg | d2B2 |\
+   c2(Ac) | TBABG | cA FD | G2G,2 :|
+|: d2(Bc) | dB ge | d2(Bc) | d2G2 |\
+   g2(eg) | Tfefd | e2^c2 | d=cBA |
+   G2(Bd) | cAFD | GBdg | d2B2 |\
+   (ce) Ac | (Bd) GB | (Ac) DF | G2 G,2 :|
+%
+V: 2 clef=bass middle=d
+|: g2g2 | d2d2 | g2g2 | g2g2 |\
+   a2f2 | g2e2 | c2d2 | g2G2 :|
+|: g2g2 | g2g2 | g2g2 | g2g2 |\
+   e2e2 | d2g2 | a2A2 | d2d2 |
+   g2g2 | d2d2 | g2g2 | g2g2 |
+   a2f2 | g2e2 | c2d2 | g2G2 :|
+%%begintext align
+First and 2d Cu. Set and half Right and Left .|
+the same back again :|
+cast off and lead thro' the 3d Cu. cast up two Cu. and turn single at top, and change sides .|
+Set sides and turn sides cast off and turn :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4357
+T: The Fortune Hunter
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 2/4
+L: 1/8
+K: G
+%
+V: 1
+g |\
+fddg | ecce | dBAG | ADDg |\
+fddg | ecce | dBAG | DGG :|
+|: A |\
+BG dc/B/ | ADDA | BG dc/B/ | Ac cB/A/ |\
+Bdgb | Acfa | cABc | BGG |]
+%
+V: 2 clef=bass middle=d
+g |\
+d'2b2 | c'2a2 | b2g2 | d'2d2 |\
+d'2b2 | c'2a2 | g2d2 | g3 :|
+|: f |\
+g2g2 | d2d2 | g2g2 | d2d2 |\
+g4 | d4 | f2d2 | g3 |]
+%%begintext align
+First Man turns the 2d Wo. with his left Arm and his Partner with his right .|
+First Wo. turns the 2d Man with her left Arm and her Partner with her right :|
+gallop down one Cu. up again and cast off .|
+Right and Left with the top Cu. :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4358
+T: Petticoat tight
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/8
+L: 1/8
+K: D
+%
+V: 1
+D |\
+FGA FGA | Bcd d2A | Bcd d2A | BGE E2D |\
+FGA FGA | Bcd d2A | Bcd d2A | AFD D2 :|
+|: e |\
+f2d ecA | faf ecA | Bcd d2A | BGE E2A |\
+BGB AFA | GEG F2A | BGB cAc | dAF D2 |]
+%
+V: 2 clef=bass middle=d
+z |\
+d'3 c'3 | b3 f3 | g3 f3 | g3 a3 |\
+d'3 c'3 | b3 f3 | g3 a3 | d3 d2 :|
+|: a |\
+d3 a3 | d3 a2f | g3 f3 | g3 a2f |\
+g2e f2d | e2c d2f | g2e a2A | d3 D2 |]
+%%begintext align
+First Cu. Set 3 with the 2d Wo. and turn .|
+the same to the Man :|
+cast off and turn .|
+Lead thro' the 3d Cu. cast up and turn :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4359
+T: Hampstead Assembly
+N: Pub: J. Walsh, London, 1748
+N: "122" plus a squiggle are pencilled in at top center.
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+%
+V: 1
+Bc |\
+d2g2d2c2 | {c}TB3AB2c2 | d2G2 BAGF | GFGA G2Bc |\
+d2g2d2c2 | {c}TB3cd2g2 | {g}f2ed fed^c | d4 D2 :|
+|: fg |\
+a2d2b2d2 | a2d2g2d2 | c2B2A2G2 | AGFE D2Bc |\
+dcBc dcBc | dcBc d2g2 | cBAG BAGF | G4 G,2 :|
+%
+V: 2 clef=bass middle=d
+g2 |\
+g4 f2d2 | g4 G4 | B4 c2d2 | g4 G4 |\
+g4 f2d2 | g4 G4 | a4 A4 | d4 D2 :|
+|: d2 |\
+f2d2g2d2 | f2d2g4 | e2d2c2e2 | d4 D2G2 |\
+g4 G4 | g4 b2g2 | c4 d4 | g4 G2 :|
+%%begintext align
+The First Cu. foot to the Second Wo. and Hands round three .|
+The same to the Second Man :|
+Cross over two Cu. .|.
+Lead up to the top foot it and Cast off :|:
+%%endtext

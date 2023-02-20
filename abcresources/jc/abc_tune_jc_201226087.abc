@@ -1,0 +1,27 @@
+X: 1
+T:A Hundred Pipers
+M:6/8
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+|: d/4e3/4|
+{gfg}f2A{g}A3/2B/2{G}A|
+{gBd}B2d{gdc}d2{gf}g|  !
+{ag}a2f{gfg}f3/2e/2d|
+{gfg}f2e{g}e3/2d/2e| |
+{gfg}f2A{g}A3/2B/2{G}A|  !
+{gBd}B2d{gdc}d2{gf}g|
+{ag}a2f{g}e3/2d/2e|
+{g}d3{G}d2:| |:  !
+c/4d3/4|
+{g}e2{GdG}e{g}e3/2c/2e|
+{gfg}f2a{g}a2f|  !
+{gef}e2c{gcd}c3/2B/2{G}A|
+{gcd}c2{e}B{G}B3/2c/2d| |
+{g}e2{GdG}e{g}e3/2c/2e|  !
+a2{GdG}a{g}a3/2g/2f|
+{gef}e2c{gBd}B3/2A/2B|
+{g}A3{GAG}A2:|  !
+

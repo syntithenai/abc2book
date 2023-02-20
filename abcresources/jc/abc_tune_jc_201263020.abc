@@ -1,0 +1,31 @@
+X: 1
+T: \vCo\vcek: Majstore Majstore    [A]
+O: Macedonian gypsy
+L: 1/8
+M: 8/8
+Q: 3/8 3/8 2/8
+K: _B^c	% Ahjz
+"A inst."|:\
+"A"z2!segno!GA ~A2A2 | cBAG ~A2Az |\
+cBAG ~A2AG | ABcd ~e2eA |\
+"Dm"d2ef ~f2f2 | "Bb"e^gfe dcd2 |\
+"Gm" efed cdcB | "A"~A2Ae ~A2!fine!Az :|
+"A"{a}a8 | ~g2f~e- edcB \
+"B voc."|:\
+"A"A2A2 c2d2 | e2e2 e2d2 |\
+"Dm"{e}f4 fgfe | "A"e4 z4 |\
+"Gm"g3g g2g2 | "Bb"{f}g2f2 e2d2 |\
+"Gm"e2d2 c2BA | "A"A4 z4 :|
+"inst."||\
+"A"ABcd Bcde | cdef def^f \
+"C voc."[|\
+"Gm"[b4g4] [b2g2][b2g2] | [b4g4] [a2f2][g2e2] |\
+"A7"[g8e8] "inst."| .[g2e2].[^f2^d2] .[g2e2].[^g2e2] "^voc."||\
+"Dm"[a4f4] [a2f2][a2f2] | [a4f4] [g2e2][f2d2] |\
+[a4f4] [g2e2][f2d2] | [f3d3][ge] [a2f2]z2 ||
+"D voc."|:\
+"Gm"[b2g2] [b4g4] [bg][bg] | "A7"[b3g3][af] [g2e2]z2 |\
+"Dm"[a2f2] [a4f4] [af][af] | "Bb"[a3f3][ge] [f2d2]z2 |\
+"Gm"[g4e4] [fd][ec][f2d2] | [e4c4] [dB][cA][d2B2] |\
+"A"[c8A8] "inst."[|]y|[1 "A"ABcd efga :|\
+[2 "A"z2ef edcB | A!segno!z |]

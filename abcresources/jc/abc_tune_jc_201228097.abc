@@ -1,0 +1,56 @@
+X: 11071
+T: the CELEBRATED SPANISH CACHUCHA DANCE
+C:
+%R: cachucha, waltz
+N: This is version 1, for ABC software that understands voice overlays.
+N: Used "<>" for cresc/diminuendo symbols; none of my ABC software has a way to draw it right.
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.107
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+Q: "Allegretto"
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+[|\
+[g6-B6] | g2 {a}gfga & !f!B2z2!p!z2 |\
+[b2G2][g2B2][d2D2] | {ed^c}[d2G2][e2B2][B2D2] |\
+(d6 & A2c2D2 | c2) {b}a(^gab) & A2c2D2 |\
+c'2a2f2 & A2c2D2 | {ed^c}[d2B2][e2c2][=c2A2] |
+%
+d4c2 & B2D2A2 | B2 {a}gfga & G4 !f!z2 |\
+[b2c2][g2B2][d2D2]  | {ed^c}[d2G2][e2B2][B2D2] |\
+(d6 & A2c2D2 | c2) {b}a(^gab) & A2c2D2 |\
+c'2a2f2 & A2c2D2 | {ed^c}[d2B2][e2c2][=c2A2] |\
+[B2G2][dB][ec][dB][cA] |
+%
+[B2G2].[B2G2].!p![A2F2] | [c2E2]"^>"[B4D4] |\
+.[G2B,2].[B2G2].[c2A2] | [d2B2]"^>"[e3c3][dB] |\
+[A2F2].[A2F2].[^G2^E2] | [B2G2]"^>"[A4F4] |\
+.[A2F2].[B2G2].[c2A2] | [d2B2]"^>"[e3c3][dB] |\
+[B2G2][B2G2]!f![A2F2] |
+%
+[c2E2]"^>"[B4D4] | [G2B,2][B2G2][c2A2] |\
+[d2B2]"^>"[e3c3][dB] | [A2F2][A2F2][^G2^E2] |\
+[B2G2]"^>"[A4F4] | [A2F2][B2G2][c2A2] |\
+[d2B2]"^>"[e3c3][dB] | [G2G2][g2B2][g2B2] | [g6B6] H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% V: 2
+% [|\
+% B6 | !f!d2z2!p!z2 | G2B2D2 | G2B2D2 |\
+% A2c2D2 | A2c2D2 | A2c2D2 | B2c2A2 |
+% B2D2A2 | G4!f!z2 | c2B2D2 | G2B2D2 |\
+% A2c2D2 | A2c2D2 | A2c2D2 | B2c2A2 | G2BcBA |
+% G2.G2!p!.F2 | E2"^>"D4 | .B,2.G2.A2 | B2"^>"c3B |\
+% F2.F2.^E2 | G2"^>"F4 | .F2.G2.A2 | B2"^>"c3B | G2G2!f!F2 |
+% E2"^>"D4 | B,2G2A2 | B2"^>"c3B | F2F2^E2 |\
+% G2"^>"F4 | F2G2A2 | B2"^>"c3B | G2B2B2 | B6 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+[|\
+G2B2d2 | !f!g2z2!p!z2 | g6 | "^<>"g6 | f6 | f6 | d6 | "^<>"d6 |
+G2B2d2 | g4!f!z2 | g6 | g6 | f6 | f6 | d6 | d6 | g4 d2 |
+G4!p!z2 | G2g2g2 | G2g2g2 | G2g2g2 | d2d'2d'2 | d2d'2d'2 | D2d2d2 | D2d2d2 | G2g2g2 |
+G2g2g2 | G2g2g2 | G2g2g2 | d2d'2d'2 | d2d'2d'2 | D2d2d2 | D2d2d2 | g2d2B2 | G6 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

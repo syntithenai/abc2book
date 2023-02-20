@@ -1,0 +1,25 @@
+X: 3031
+T: Lady Madelina Sinclairs Strathspey
+N: Yes, the title is missing an apostrophe.
+%R: strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.3 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+f |\
+eAc>A c/d/e Tf2 | eA {f}ed/c/ {c}B2Bf |\
+eAcA c/d/e Tf2 | eA TcB {B}A2A :|\
+f/g/ |\
+a>eTf>e f/g/a {ga}b2 | a/g/f/e/ a>c {c}B2Bg |
+a>eTf>e (3fga (3gab | a/g/f/e/ f/g/a/e/ Ta2 ef/g/ ||\
+afge fdec | d<bc<a {c}B2BA |\
+c/d/e Tf2 c/d/e Ta2 | A<ATc>B {B}A2A |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | a2a2 a2a2 | a2a2 c2c2 | a2a2 a2a2 | e2e2 A2A :|z | a2a2 d2e2 |
+c2A2 e2A2 | a2A2 d2e2 | c2d2 c2A2 || f2e2 d2c2 | B2A2 e2E2 | A2d2 A2c2 | e2E2 A2A |]

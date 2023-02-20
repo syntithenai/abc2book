@@ -1,0 +1,27 @@
+X: 352
+T: Miss Moodie's Hornpipe
+C: by Wm Christie
+R: hornpipe, reel
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c." p.35 #2
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Eb
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+B,2 |\
+E2E2 EGFA | GBe2- ~e2fe | (dc).B.A (GF)(AG) | (BA).G.F (ED)(FD) ||\
+E2E2 EGFA | GBe2- ~e2fe | (dc).B.=A (Bd).c.A | B2d2B2 ::
+(Bc/d/) |\
+eBeg bagf | (ed)(gf) (ed).c.=B | c=Bcd ecdB | ({d}c>=B)cd ~c2cd ||\
+egba gfed | egB2- ~BcdB | eBcA GBAF | E2G2E2 :|
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | e2E2e2d2 | e2E2e2z2 | a2f2 d2e2 | f2d2 B4 || e2E2e2d2 | e2E2 e2=A2 | B4 f2F2 | B2F2 B,2 ::
+z2 | e'4 b4 | g2=b2 c'2e2 | c4 g2G2 | c2G2 E2z2 || e4 b4 | g4 e2f2 | g2a2b2B2 | e2B2 E2 :|
+% = = = = = = = = = =

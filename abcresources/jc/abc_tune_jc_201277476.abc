@@ -1,0 +1,13 @@
+X:257
+T:Fourpence Halfpenny Farthing
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=120
+N:Originally in Gm
+%%MIDI program 57     Trombone
+%%MIDI bassprog 58    Tuba
+%%MIDI chordprog 69   English Horn
+M:6/8
+L:1/8
+K:Am
+"C"c2e ece | "G"B2d dBd | "C"c2e ece | "/"g3 c'3 | "Am"c2e ece | "G"B2d dBG | "F"A/B/cA "G"B/c/dB | "Am"A3 c3 :|
+|: "C"g2a gec | "/"c'2a gec | "F"f2a "C"gec | "G"B3 d3 | "C"E2G GEG | "Am"c2e "G"dBG | "F"A/B/cA "G"B/c/dB | "Am"A3 c3 :|

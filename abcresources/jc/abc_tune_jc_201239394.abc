@@ -1,0 +1,19 @@
+X: 3272
+T: Miss Weymes of Weymes   a Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.27 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Very Slow"
+K: Eb	% ending on Cm
+% - - - - - - - - - -
+V: 1 staves=2
+B, |\
+E2 {d}e>c B>GTFG | TE>F (E/F/G/).F/ EC~CB, | E2 {d}e>c B>GFG | TE>F {EF}G>F ~ECC :| (E//F//G/) | TA>BAc TG>AGB | {G}F>EFG {G}c2Tc>d |
+e>gc>e B>eG>e | TE>F {EF}GF ECC (E//F//G/) || TA>BAc TG>AGB | {G}F>EFG {G}c2Tc>d | Te>gc>e B>gG>e | TE>F {EF}G>F ECC |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | e3a ge [d2b2] | e2gG z[ea][ea][eg] | [e3g2]a ge[d2b2] | c'c gG cGC :| z | f2d2 e2E2 | B3g c2c'a |
+g2[e2a2] g2e2 | g2G2 c2cz || f2d2 e2E2 | d3e c2c'a | g2[e2a2] g2ed | c2gG cGC |]

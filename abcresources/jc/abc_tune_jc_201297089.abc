@@ -1,0 +1,29 @@
+X: 901
+T: Kinnegad Slashers   #2
+T: ouailteoiri.de ceann-na-gaod.
+T: Land of Sweet Erin
+T: Powers of Whiskey
+T: Bannocks of Barley Meal
+%S: s:3 b:24(8+8+8)
+B: O'Neill's 1850 #901
+O: F.O'Neill
+Z: Tom Keays (htkeays@mailbox.syr.edu)
+N: Compacted via repeats and multiple endings [JC]
+N: Also, removing "styling" (slurs, snaps, etc.) increases clarity of structure.
+%abc 1.6
+M: 6/8
+R: jig
+L: 1/8
+K: D
+"^A"|: A |:\
+d>ed dAF |1 A>BA ABc \
+        :|2 E<ee e2f \
+        :|3 ABA Aag | {g}fef dBA | B<dd d2 :|
+"^B"|: A |:\
+d>fa afd |1 c>de ecA \
+        :|2 f<aa a2A \
+        :|3 c>de eag | {g}fef dBA | B<dd d2 :|
+"^C"|: (3A/2B/2c/2 |:\
+dAF dAF |1 A>BA ABc \
+       :|2 E<ee e2f \
+       :|3 A>BA Aag | {g}f>ef dBA | B<dd d2 :|

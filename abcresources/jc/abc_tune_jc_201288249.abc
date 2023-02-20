@@ -1,0 +1,15 @@
+X: 909
+T: Huish the Cat   #2
+T: Hush the Cat
+T: Dance Light, For My Heart Lies Under Your Feet
+R: jig
+%S: s:2 b:12(6+6)
+B: O'Neill's 1850 #909
+Z: Tom Keays (htkeays@mailbox.syr.edu)
+N: Compacted via repeats and multiple endings [JC]
+%abc 1.6
+M: 6/8
+L: 1/8
+K: Gmix
+"^A"|: G>AG c2e | d<dA c2e |[1,3 G>AG c2d | ecA A2c :|[2,4 g>fe f2d | ecA (A2{BA}G) :|
+"^B"|: gfe  f2d | edc  f2d |[1,3 gfe  f2d | ecA A2G :|[2,4 G>AG f2d | ecA (A2{BA}G) :|

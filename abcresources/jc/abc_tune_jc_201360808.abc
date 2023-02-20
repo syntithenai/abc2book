@@ -1,0 +1,15 @@
+X:1
+T:Vödäspisn
+R:polska Boda
+C:efter Röjås Erik Andersson
+M:3/4
+L:1/16
+Q:1/4=130
+K:Am
+|:  ("Am"A3^c) e6 ^c2-| "Dm"d3^f (e3^c) (A3B-| "E"c2(dc B3)(^G E3)G\
+|   "Am"A4 (A3B) c3B  |("A"A3^c) e6 ^c2-| "Dm"d3^f (e3^c) (A3B)-| "E"c2(dc B3)(^G E3)G\
+|   "Am"A4 A8 :|
+K:D
+|:   "D"a4 f4 f4-| {g}f2(ef g3)(f e3)g|"G"b4 g4 (g4-| {a}g3(f a3)(g f3)e\
+|    "D"a4 f4 f4-| {g}f2(ef g3)(f e3)d|"A"(c3d) e3(g b3)g| (e3c) "D"d8 :||
+

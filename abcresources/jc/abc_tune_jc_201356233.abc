@@ -1,0 +1,52 @@
+X: 1
+T:Blue Juniata
+C:Mrs M D Sullivan
+M:2/4
+L:1/8
+Q:1/4=80
+K:D
+V:1 clef="Treble"
+|"@mf"[A2D2][FD][D]
+w:1Wild roved an
+w:2Gay was the
+|[EC][A,][(A,]-[DA,]
+w:In-dian girl,_
+w:moun-tain song Of
+|[D3/2A,3/2][D/2A,/2][DA,][EC]
+w:Bright_ Al-fa-
+w:bright_ Al-fa-
+|[FD][A2D2][z|[A2D2][FD][D]
+w:ra-ta, Where sweep the
+w:ra-ta, Where sweep the
+|[EC][CA,][A,][A,]|(B,D)[CA,][EC]
+w:wa-ters of the blue_ Ju-ni-
+w:wa-ters of the blue_ Ju-ni-
+|[EC][D2] z|[AD][AD][BD][AD]
+w:a-ta, Swift_ as an
+w:a-ta, Strong_ and true
+|[AD][FD][D][D]|[E3/2C3/2][E/2C/2][EC][EC]
+w:an-te-lope,_ Thro' the for-est
+w:my ar-rows are, In my paint-ed
+|[FD][A2D2]z|[d3/2F3/2][d/2F/2][AF][BD]
+w:go-ing, Loose_ were her
+w:quiv-er, Swift_ goes my
+|[AD][FD][DA,][DA,]
+w:jet-ty locks, In
+w:light ca-noe, In
+|[B,G,][DB,][CA,][EC]|[EC][D2]z||
+w:wa-vy tress-es flow-ing.
+w:down the rap-id riv-er.
+V:2 clef="Bass"
+|[F,2D,2][A,D,][F,D,]|[G,A,,][G,A,,][G,A,,][F,D,]
+|[F,3/2D,3/2][F,/2D,/2][F,D,][A,A,,]
+|[A,D,][F,D,]z|[F,2D,2][A,D,][F,D,]
+|[A,A,,][E,A,,][F,D,][F,D,]|[G,2G,,2][E,A,,][G,A,,]
+|[G,D,][F,2D,2]z|[F,D,][F,D,][G,D,][F,D,]
+|[F,D,][A,D,][F,D,][F,D,]
+|[A,3/2A,,3/2][A,/2A,,/2][A,A,,][A,A,,]
+|[A,D,][F,2D,2]z
+|[A,3/2D,3/2][A,/2D,/2][A,D,][G,D,]
+|[F,D,][A,D,][F,D,][F,D,]
+|[D,G,,][G,G,,][E,A,,][G,A,,]
+|[G,D,][F,2D,2]z||
+

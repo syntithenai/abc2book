@@ -1,0 +1,37 @@
+
+X: 1
+T: Daj\vcovo Horo #2   [A]
+O:
+S: handwritten copy of unknown origin
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+Q: 2/8 2/8 2/8 3/8
+L: 1/8
+K: A
+"A"|:\
+"A"ABcd e2 edc | "E7"d2d2 "A"cB cBA |\
+"A"ABcd e2 edc | "E7"d2 (3(dcB) "A"c2 c3 |\
+"A"ABcd e2 edc | "E7"d2d2 "A"cB cBA |
+"E7"GAB2 BA cBA | "A"A4- A2- A3 :|\
+"B"|:\
+"D"dcde "A"c2 cBA | "E7"B2BA "A"AE A3 |\
+"D"dcde "A"c2 cBA | "A"ABcd e2 edc |
+"E7"d2d2 "A"cB cBA | "E7"GAB2 BA cBA |\
+"A"A4- A2- A3 :|\
+"C"|:\
+"A"e2ed c2 e2c | "E7"B2BA "A"AE A2E |
+"D"dcde "A"c2 cBA | "A"e2ed c2 e2c |\
+"E7"B2BA "A"AE A2E | "A"A4- A2- A3 |\
+"D"dcde "A"c2 cBA | "E7"B2BA "A"AE A2E |
+"D"dcde "A"c2 cBA |\
+"A"ABcd e2 edc | "E7"d2d2 "A"cB cBA |\
+"E7"GAB2 BA cBA | "A"A4- A2- A3 :|
+[K:^c^d^f]\
+"D"\
+|::: "A"decAde c2A :::|\
+|::: "A"degfde c2A :::|\
+|::: "A"decAde c2A :::|
+
+%%sep 1 0 500
+%%sep 1 0 500
+

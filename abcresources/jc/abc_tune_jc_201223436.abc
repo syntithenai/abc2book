@@ -1,0 +1,22 @@
+X: 071
+T: Nic Harrisons delight
+%R: slip-jig
+M: 9/8
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.7 #1
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+N: The B pickup note makes the rhythm not quite work between the strains.
+K: D
+B |\
+AFD dcd Bcd | egf efd cdB |\
+AFD dcd efg | afd cBc d3 :|
+|:\
+afd dcd afd | ecA AcA ecA |\
+afd bge afd | Bgf edc d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Whole Figure with the top Couple lead down
+%% the middle up again and Allemand
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

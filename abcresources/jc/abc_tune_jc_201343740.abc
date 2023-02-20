@@ -1,0 +1,31 @@
+X:727
+T:The Temple
+C:Jeremiah Clarke
+M:2/2
+L:1/8
+S:Henry Playford, 1701
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=90
+N:Unless you're an authenticity fanatic I recommend that you stick to the other tune,
+N:Trumpet Voluntary, which is certainly what people will expect.
+K:D
+%%MIDI program 7
+%%MIDI bassprog 7
+%%MIDI chordprog 44
+%%MIDI gchord GihiIghg
+P:A1
+[| "D"d4 "A"e4 | "D"f3g f2 "(A)"e2 | "D"d3ee3d | "A"e2A2 "A7"F2A2 |\
+"D"d4 "A"e4 | "D"f3gf2 "(A)"e2 | "D"de "G"de "A7"e3d | "D"d8 |
+P:B
+"D"f4 "E7"^g4 | "A"a3b a2g2 | "D"f2d2d2A2 | "D"d2AGF2A2 |\
+"D"f4 "E7"^g4 | "A"a3b a2g2 | "D"f2d2 "G"d2gf | "A"e8 |
+K:D
+P:A2
+"D"d4 "A"e4 | "D"f3g f2 "(A)"e2 | "D"d3ee3d | "A"e2A2 "A7"F2A2 |\
+"D"d4 "A"e4 | "D"f3gf2 "(A)"e2 | "D"de "G"de "A7"e3d | "D"d8 |
+P:C
+"D"A2FGA2d2 | "D"A2FGA2d2 | "D"A2FGA2d2 | "A"c8 |\
+"A"e2cde2 "D"a2 | "A"e2cde2 "D"a2 | "A"e2dc "E7"B3A | "A"A4- "A7"A4 |
+P:A3
+"D"d4 "A"e4 | "D"f3g f2 "(A)"e2 | "D"d3ee3d | "A"e2A2 "A7"F2A2 |\
+"D"d4 "A"e4 | "D"f3gf2 "(A)"e2 | "D"de "G"de "A7"e3d | "D"d8 |

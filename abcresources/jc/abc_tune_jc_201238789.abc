@@ -1,0 +1,29 @@
+X: 31323
+T: COTILLION No. 25. BATTLE OF NEW ORLEANS tune 3
+T: the RETREAT
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.132 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+fcA |\
+F2A c2f | f2e ef^f | gec cdB | B2A fcA |\
+F2A c2f | f2e ef^f | gab cde | f3 H|]
+fed |\
+c2A fed | c2A fed | (c/=B/c/d/e/f/) (g/f/e/d/c/_B/) | B2A fed |\
+c2A fed | c2A fed | cdc BAG | "^D.C."F3 |]
+c2c |\
+fac' fac' | egc' egc' | dgb dgb | ^cea cea |\
+Bdg Bdg | Acf Acf | Bdg bge | "^D.C."f3 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

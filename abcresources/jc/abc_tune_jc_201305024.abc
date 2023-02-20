@@ -1,0 +1,66 @@
+
+X: 1
+T: MacArthur Road #1  [E]
+C: Dave Richardson
+M: C|
+L: 1/8
+Z: John Chambers <jc:trillian.mit.edu> from handwritten MS (by Barbara McOwen?)
+K: E
+ec \
+| "E"BG~G2 Bcef | g2-ge "(E7)"fece | "A"f2ge fece | "F#m"aege "B7"fece |
+| "E"BG~G2 Bcef | g2-ge "(E7)"fece | "A"f2ge "F#m"f[gc]ec | "B7"Bcef "E"e2 :|
+|: ga \
+| "E"be~e2 bec'e | be~e2 "E7"fece | "A"f2ge fece | "F#m"aege "B7"fece |
+|1 "E"be~e2 bec'e | be~e2 "E7"fece | "A"f2ge "F#m"f[gc]ec | "B7"Bcef "E"e2 :|
+|2 "E"BG~G2 Bcef | g2-ge "E7"fece | "A"f2ge "F#m"f[gc]ec | "B7"Bcef "E"e2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: MacArthur Road #2   [E]
+C: Dave Richardson
+M: C|
+L: 1/8
+Z: John Chambers <jc:trillian.mit.edu> from handwritten MS (by Barbara McOwen?)
+K: E
+c "A"|\
+"E"BG~G2 Bcef | g3e "E7"fece |\
+"A"f2ge fece | "F#m"aege "B7"fece |\
+"E"BG~G2 Bcef | g3e "E7"fece |
+"A"f2ge "F#m"fcec | "B7"Bcef "E"e3 :| z "B"|\
+"E"be~e2 bec'e | be~e2 "E7"fece |\
+"A"f2ge fece | "F#m"aege "B7"fece |
+"E"be~e2 bec'e | bege "E7"fece |\
+"A"f2ge "F#m"fcec | "B7"Bcef "E"e3z ||\
+"E"be~e2 bec'e | be~e2 "E7"fece |
+"A"f2ge fece | "F#m"aege "B7"fece |\
+"E"BG~G2 Bcef | g3e "E7"fece |\
+"A"f2ge "F#m"fcec | "B7"Bcef "E"e3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: MacArthur Road #3  [E]
+C: Dave Richardson
+R: reel
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: E
+%%continueall 0
+ec |\
+"E"BG (3.G.G.G Bcef  | (3.g.g.g ge fece |\
+"F#m"(3.f.f.f fg fece | gefg "A"fece |\
+"E"BG (3.G.G.G Bcef  |
+(3.g.g.g ge fece |\
+"F#m"(3.f.f.f fg fecB |1 "A"ceef "E"e2 :|2 "A"ceef "E"e4 |[|\
+"E"be (3.e.e.e bec'e |
+be (3.e.e.e fece |\
+"F#m"f2ff fece | fege "B7"fefg |\
+"E"be (3.e.e.e bec'e | be (3.e.e.e fece |
+"F#m"aAge fecA | "B7"Bcef "E"e2 |[| ga |\
+"E"be (3.e.e.e bec'e | be (3.e.e.e fece |\
+"F#m"f2ff fece |
+fege "B7"fecA |\
+"E"B4 Bcef | g3g- gfeg |\
+"F#m"aAge fecA | "B7"Bcef "E"e2 |]

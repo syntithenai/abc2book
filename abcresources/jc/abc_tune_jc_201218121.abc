@@ -1,0 +1,21 @@
+X: 4
+T: MANCHESTER
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.2
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(3ABc |\
+d>cd>A F>Ad>f | e>dc>B A>ce>g |\
+f>ga>f b>ge>c | d>cd>f e>c (3ABc |
+d>cd>A F>Ad>f | e>dc>B A>ce>g |\
+f>ga>f b>ge>c | d2f2 d2 :|
+|: f>g |\
+a>ga>f d>fa>f | b>ab>g e>fg>e |\
+a>ga>f b>ge>c | d>cd>f e>c (3(ABc) |
+d>cd>A F>Ad>f | e>dc>B A>ce>g |\
+f>ga>f b>ge>c | d2f2 d2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

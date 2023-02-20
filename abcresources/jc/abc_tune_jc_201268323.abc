@@ -1,0 +1,15 @@
+X: 543
+T: Devil Take the Wars
+R: march, reel, air
+%S: s:3 b:18(6+6+6)
+B: O'Neill's 1850 #543
+O: F.O'Neill
+Z: Dave Wooldridge
+N: line wrapping fixed [jc]
+Q: "Animated"
+M: C
+L: 1/8
+K: D
+[| d2 (d>f) (fe)(dc) | (dA) (Bc/d/) (BA).G.F | FAAd d3 e | (fg/a/) gf (f2 e)z || d2 (d>f) (fedc) | (dA B)(c/d/) (BAGF) |
+| (FA)(Ad) (df)(a>g) | f2 Te2 {dge}d2z |]| d | .f.d.f.a .f.d z d | .e.c.e.a ec z e | f2 f>d e2 e>c | d>e (f/e/d/c/) B3c ||
+| A>BAF A3 d | A>BAF A2 d>c | (Be)ef e3 f | (gf)(ed) (dc)(BA) | A>BAF A2 a>g | f2 Te2 {dge}d2z |]

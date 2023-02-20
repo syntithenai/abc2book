@@ -1,0 +1,22 @@
+X: 2
+T: Reel du Faubourg
+O: Acadian
+R: Reel
+B: Danse ce soir!
+D: 1930 Isidore Soucy 1930 78-RPM recording
+N: The parts may be played in either order.
+M: C|
+L: 1/8
+K: D
+AG |:\
+"D" FAdf a2AG | FAdf "D#dim"a3A | "Em"Acef "A#dim"gece | "A"ABcA "A7/G"~B2 AG |
+"D/F#"FAdf a2 AG | FAdf "B7"a3A | "Em"Acef g{f}e ce |[1 "A7"dBAF "D"DBAG :|[2 "A7"d2zd "D7"efga ||
+K:G
+[|\
+"G"b3 b bgfa | gg g2-gdBG | DGBd "G#dim"gfeg | "Am"fccc cB A2 |
+"Am"a3a "[A+/C#]"abga | "D"ff f4 ed | "D/F#"~f2ed "A#dim"fedf | "G/B"edBe "Am"dBG2 |
+[|\
+"G"b3 b"Am" bgfa | "G/B"gg(g2 g)dBG | "G"DGBd "A#dim"gfeg | "Am"fedf eAce |
+a3a a2g2 | "D"fefa f2~e2 | ~d2 ed ^cdef |["cont" "G"gfga g2 ||\
+["Trans" "G"g2z2zg eg |
+% text 08/10/2009

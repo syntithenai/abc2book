@@ -1,0 +1,61 @@
+X: 1
+T: the Wedding Ring   [Bb]
+%R: reel
+M: 2/4
+L: 1/16
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.14 #1
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: "Bb"BFDF BdcB | "F7"cAFA cedc | "Bb"dbfd "Eb"g2fe | "Bb"d2cB "F7"A2GF |
+   "Bb"BFDF BdcB | "F7"cAFA cedc "I"| "Bb"dbfd "Eb"g2fe | "F7"dcBA "Bb"B4  :|
+|: "Bb"BcBA BcBA | Bcde "F/a"f2F2 | "Gm"GAG^F GAG^F | GABc "D7"d2D2 |
+   "Eb"EFED EFED | EFGA "Bb/d"B2B,2 | "Cm"C2g2 "F7"fdec | "Bb"B2F2 [B4B,4] :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Right hands across Left hands back again .|. cross over &
+%% back to back :|. lead thro' the bottom the same thro' the top
+%% & cast off .|: lead out sides :|:
+%%endtext
+
+%%sep 1 1 500
+X: 2
+T: the Wedding Ring   [A]
+%R: reel
+M: 2/4
+L: 1/16
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.14 #1
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: "A"AECE AcBA | "E7"BGEG BdcB | "A"caec "D"f2ed | "A"c2BA "E7"G2FE |
+   "A"AECE AcBA | "E7"BGEG BdcB "I"| "A"caec "D"f2ed | "E7"cBAG "A"A4  :|
+|: "A"ABAG ABAG | ABcd "E/g#"e2E2 | "F#m"FGF^E FGF^E | FGAB "C#7"c2C2 |
+   "D"DEDC DEDC | DEFG "A/c#"A2A,2 | "Bm"B,2f2 "E7"ecdB | "A"A2E2 [A4A,4] :|
+% - - - - - - - - Dance description - - - - - - - -
+% %begintext align
+% % Right hands across Left hands back again .|. cross over &
+% % back to back :|. lead thro' the bottom the same thro' the top
+% % & cast off .|: lead out sides :|:
+% %endtext
+
+%%sep 1 1 500
+X: 3
+T: the Wedding Ring   [G]
+%R: reel
+M: 2/4
+L: 1/16
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.14 #1
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: "G"GDB,D GBAG | "D7"AFDF AcBA | "G"BgdB "C"e2dc | "G"B2AG "D7"F2ED |
+   "G"GDB,D GBAG | "D7"AFDF AcBA "I"| "G"BgdB "C"e2dc | "D7"BAGF "G"G4  :|
+|: "G"GAGF GAGF | GABc "D/f#"d2D2 | "Em"EFE^D EFE^D | EFGA "B7"B2B,2 |
+   "C"CDCB, CDCB, | CDEF "G/b"G2G,2 | "Am"A,2e2 "D7"dBcA | "G"G2D2 [G4G,4] :|
+% - - - - - - - - Dance description - - - - - - - -
+% %begintext align
+% % Right hands across Left hands back again .|. cross over &
+% % back to back :|. lead thro' the bottom the same thro' the top
+% % & cast off .|: lead out sides :|:
+% %endtext

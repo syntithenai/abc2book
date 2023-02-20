@@ -1,0 +1,28 @@
+X: 85
+T: Capt. Higgins
+T: Captain Higgins
+C: Carollan
+%R: jig
+B: "The Hibernian Muse" p.53 #1
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. LXXXV.
+M: 6/8
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+c3 A2e | c2B dBG | cea cea | Bdg Bdg |\
+e3 c2e | f2e dcB | cBA dB^G | A3 A3 |]
+[|\
+ece ece | gcg gcg | ada ada | {b}c'3 b3 |\
+e'(c'/d'/e') d'bd' | e'(c'/d'/e') d'bd' | c'ba ^geg | [a3c3] [a3c3] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+a3 A3 | e3 e3 | a3 A3 | g3 g3 |\
+c'3 c3 | d2c BAG | A2c d2e | aec A3 |]
+[|\
+c3 c3 | e3 e3 | f3 f3 | ac'a ^gfe |\
+c'3 b3 | c'3 b3 | a2d e2E | A3 A3 |]

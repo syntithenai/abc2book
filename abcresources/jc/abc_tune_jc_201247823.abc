@@ -1,0 +1,26 @@
+X:1
+T: Arrival from Holland
+N:
+C:
+S: Play  3  times
+A:
+O:
+R:
+M:6/8
+K:D
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 23 notes)
+K:D
+M:6/8
+L:1/16
+d2 |d4 e2 f4 g2 a6 b6 a3 g f2 e4 f2 g6 f6 |f3 e d2 c3 d e2 A6A4 d2
+%W: A2
+% voice 1 (1 lines, 22 notes)
+d4 e2 f4 g2 a6 b6 |a3 g f2 e4 f2 g6 f6 f3 e d2 c3 d e2 A6A4 e2 |
+%W: B1
+% voice 1 (1 lines, 36 notes)
+e3 f e2 c4 d2 e6e4 e2 f3 ^g a2 b3 a g2 a6a4 a2 |a3 g a2 f3 e d2 g4 a2 b3 a g2 a3 g f2 e4 d2 d6d4 e2 |
+%W: B2
+% voice 1 (1 lines, 35 notes)
+e3 f e2 c4 d2 e6e4 e2 f3 ^g a2 b3 a g2 a6a4 a2 |a3 g a2 f3 e d2 g4 a2 b3 a g2 a3 g f2 e4 d2 d6d4 ||

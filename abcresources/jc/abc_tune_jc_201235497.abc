@@ -1,0 +1,29 @@
+X: 21183
+T: Cotillion (From the Opera of La Somnambula) (tune 3)
+C:
+%R: polka, march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.118 #3 (and top 2 staffs of p.119)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Version ` for ABC software that doesn't understand the !^dim...! annotations.
+%U: Q=!diminuendo(!
+%U: q=!diminuendo)!
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+[|\
+G2(GA) B2G2 | e2d2d2z2 | (cd)cB A2d2 | (B4 G2)z2 |\
+G2(GA) B2G2 | (e2d2)d2z2 | ^c2cd e2f2 | d4 z2 H|]
+[A2D2][AD][AD] [A2D2][B2D2] | [d2D2][c2D2] [c4D4] | B2Bc "^dim..."d2e2 | e2[A2D2] [A4D4] |\
+[A2D2][AD][AD] [A2D2][B2D2] | [d2D2][c2D2] [c4D4] | _B2BA G2^c2 | d4 "^D.C."z4 |]
+G2!p!GA B2G2 | e2d2d2z2 | cdcB A2d2 | B4 G2z2 |\
+!f!G2DD B2GG | d3B g3d | d2cB c2A2 | G4 "^D.C."z4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Grand chain,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

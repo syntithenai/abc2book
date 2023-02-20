@@ -1,0 +1,29 @@
+X:637
+T:Rufty Tufty
+C:John Playford, 1651
+M:2/2
+L:1/4
+Q:1/2=120
+%%MIDI ratio 3 1
+K:G
+P:A
+"D"d2 de | "Bm"f2 ef | "Em"gg "A7"f>e | "D"d4 | "Bm"d2 de | "D"f2 ef | "G"gg "A7"f>e | "D"d3e/f/ |
+P:B
+"C"gf "G/B"ed | "D/A"dc "Em"B>c | "G"dd "Am"cB | "D7"A2 "G"Ge/f/ | "C"gf "G/B"ed | "D/A"dc "Em"B>c | "G"dd "Am"cB | "D7"A2 "G"G2 |
+P:C
+|: "G"B>c dd | "C"ec "G"d2 | "Em"B>c dd | "Am"ec "D7"dB/c/ | "G"dd "C"cB | "D7"A2 "G"G2 :|
+N:Replace by blank line and X field
+T:Rufty Tufty - counter-melody
+C:Colin Hume
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=120
+K:G
+P:A
+"D"F>G AA | "Bm"B/^c/d cd | "Em"B/^c/d "A7"A>G | "D"F>A B/^c/d/e/ | "Bm"f>g fe | "D"d>A d2 | "G"B/c/d "A7"^cA | "D"d>A d2 |
+P:B
+"C"c2 "G"B2 | "D"A2 "Em"Ge/f/ | "G"gf "Am"ed | "D7"dc "G"B2 | "C"c2 "G"B2 | "D"A2 "Em"Ge/f/ | "G"gf "Am"ed | "D7"dc "G"B2 |
+P:C
+"G"G4- | "C"G2- "G"G2 | "Em"G>A BB | "Am"cA "D7"FD | "G"G2 "C"E2 | "D7"FE/F/ "G"G2 |
+"G"G/F/G/A/ B/A/G/F/ | "C"E/D/E/F/ "G"G2 | "Em"E/F/G/A/ B/A/G/B/ | "Am"c/B/A/G/ "D7"FD | "G"Gg "C"e/f/g/e/ | "D7"!turn!fe/f/ "G"g2 |]

@@ -1,0 +1,16 @@
+X:414
+T:Iles de la Madeleine
+R:Waltz
+M:3/4
+%%printtempo 0
+Q:140
+K:A
+E Ac fe| "A"c4 BA|G4 FE| F2C4|zE Ac fe| "A"c4 BA| "Adim"G4 F2| "Bm"D6-|
+"E"DF Bc df| "Bm"b4 ab|"Bm/A" a3f ga| "E/G#"g2 f4-| "E"f2 Bc de| "E"g4 fg| "E+"a3f ga|
+"E"c4-cd| "A"cE Ac fe| c3c BA| "(E+)" G3G FE|"A" F2 C4- |CE Ac fe| "A7"a4 AB|
+"A7" c2B2A2| "D"B6-| BF Bc df| "D" b3c cB| "(Dm)"c3d cB| "A"c2B2A2| "F#m"e3c ea| "Bm"f3d fa|
+"E"g3e gb| "A"a6-|a4 a2|| [K:D] "D"f4 A2|d4 a2| f3a fA| d4 cB|A2 d3f|
+"D"b2a3d| "A"c3d cB| A4 b2| "A"g4A2| "(em7)"c4 b2| "A"g3b gA| "(Em7)"c3d cB| "A" A2 c3 e|
+"A+"a2^g2=g2 |"D"f2d2B2| "A" A4 a2| "D"f4 A2| "Asus4" d4a2| "D"f3a fA| "Asus4" d3A FE| "D7"D3 C DE|
+"D7"F2G3A|"G"B6- |B4 d2|B4 G2| "Em"F3d cd|"D" A4 F2| "Bm"D3 A ^GA|"Em"B3 G FG|
+"A"c3 A ^GA| "D"d6| d|]

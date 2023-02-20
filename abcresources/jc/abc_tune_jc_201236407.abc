@@ -1,0 +1,25 @@
+X: 2203
+T: the Dutchess of Athol's Delight
+%R: air, jig
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.20 #3 (and top 4 staffs of p.21)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat symbol; not fixed.
+M: 6/8
+L: 1/16
+Q: "Slow"
+K: A
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 8-bar lines, for compactness and proofreading.
+V: 1 staves=2
+TcB |\
+A2E2C2 TA,2C2E2 | A2E2A2 c2edcB | A2E2C2 TA,2FEDC | B,2B2B2 TB4TcB ||\
+A2E2C2 TA,2C2E2 | A2E2A2 c2dcBA | E3FA2 B2A2B2 | c2A2A2 A4 :|
+|: Tfg |\
+a2e2c2 (fe)dcBA | a2e2c2 (fe)dcBA | TBABcde (fe)dcBA | F2B2B2 B4Tcd ||\
+e2c2A2 a2f2d2 | e2a2f2 {f}e2dcBA | TE3FA2 TB2A2B2 | c2A2A2 A4 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | A6 A6 | c6 A6 | A6 A6 | B6 B6 || A6 A6 | c6 A6 |
+e6 E6 | A4a2 A4 :||: z2 | a6 a6 | a6 a6 | g4a2 A4c2 |
+d4^d2 e6 || a6 a6 | a6 a6 | a4A2 e4E2 | A4a2 A4 |]

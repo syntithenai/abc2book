@@ -1,0 +1,45 @@
+X: 1
+A:Thomas Tallis
+T:Thomas Tallis' Sixth Psalm Tune
+M:none
+L:1/4
+Q:1/4=130
+K:F majof
+%
+V:1 clef=treble
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+V:4 clef=bass+16 middle=D,%+
+%
+%%MIDI program 1	79 ocarina
+%%MIDI program 2	74 recorder
+%%MIDI program 3	71 clarinet
+%%MIDI program 4	60 frenchrn
+%
+% Squeeze things together a bit, to get the whole tune to fit on one page.
+%%sysstaffsep    22.0pt
+%%systemsep      50.0pt
+%
+[V:1] F2  F    F  | F3           F  | G   G  A2   | A   G2     F   F  E  | F2   z
+[V:2] A,2 B,   B, | A,> (B,C)   (D  | D)  G, C2   | C   C>  (A,B,) C  C	 | C2   z
+w:    Ex-pend, O   Lord, my*     plaint*  of word   in grief that* I do    make.
+[V:3] F,2 D,   D, | C,2    C,   (F, | F,) E, F,2  | C, _E,2    F,  G, G, | F,2  z
+[V:4] F,2 B,,  B,,| F,,>(G,,A,,) B,,| G,,2   F,,2 | F,, C,2    D,  C, C, | F,,2 z
+%
+[V:1] F  |  G   G  G2  |  G  G2   B  | A2    A      (G|  G)  F  F    =E     | F2   z
+[V:2] C  | _E   E  E2  | _E  E2   E  | F2   (C/D/) (_E| _E)  C  D    (C/B,/)| A,2  z
+w:    My   mus-ing mind  re-count most kind; give*   ear*   for thine own*   sake.
+[V:3] F, |  B,  B, B,2 |  B, B,2  B, | C2    F,     (B,| B,) A, B,    G,    | F,2  z
+[V:4] F, | _E,  E, E,2 | _E, E,2  G, | F,2   F,    (_E,|_E,) F, B,,   C,    | F,,2 z
+%
+[V:1] F  | D   F   E2  | z F   D   F  | E2   E  (E |E)  G   F   F  | E2  z
+[V:2] C  | B,  C   C2  | z C   B,  C  | C2   C  (C |C)  D   C   C  | C2  z
+w:    O   hark my groan,   my cry-ing  moan; my  king*  my God thou art.
+[V:3] A, | F,  A,  G,2 | z A,  F,  A, | G,2  G, (G,|G,) B,  A,  A, | G,2 z
+[V:4] F,,| B,, F,, C,2 | z F,, B,, F,,| C,2  C, (C,|C,) G,, A,, F,,| C,2 z
+%
+[V:1] F  | D   F   E2  | z F   D   E   | F2   F  (A |  A/) (G/F)     F  =E  | F4   ||
+[V:2] C  | B,  C   C2  | z C   B,>  G, | C2   C (_E | _E/) (D/C/B,/) C   C  | C4   ||
+w:   Let   me not stray   from thee a-   way. To thee*      I**     pray in heart.
+[V:3] A, | F,  A,  G,2 | z A,  F,  B,  | A,2  F, (C |  C/) (B,/A,)   G,  G, | F,4  ||
+[V:4] F,,| B,, F,, C,2 | z F,, B,, G,, | F,,2 F,  C,|(_E,      F,)   C,  C, | F,,4 ||

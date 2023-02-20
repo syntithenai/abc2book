@@ -1,0 +1,26 @@
+X:1
+T: The Lass of Petty's Mill
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:A
+I:speed 210
+%W: A1
+% voice 1 (1 lines, 42 notes)
+K:A
+M:4/4
+L:1/16
+e2 d2 |c4 A4 c4 e4 |a8 e6 a2 |f2 g2 a2 f2 e2 c2 B2 A2 |B6 c2 B4 e2 d2 |c2 d2 e2 c2 A4 e4 |a8 e6 e2 |f2 g2 a2 f2 g2 a2 b2 g2 |a12 e2 d2 |
+%W: A2
+% voice 1 (1 lines, 40 notes)
+c4 A4 c4 e4 |a8 e6 a2 |f2 g2 a2 f2 e2 c2 B2 A2 |B6 c2 B4 e2 d2 |c2 d2 e2 c2 A4 e4 |a8 e6 e2 |f2 g2 a2 f2 g2 a2 b2 g2 |a12 c'2 d'2 |
+%W: B1
+% voice 1 (1 lines, 49 notes)
+c'2 b2 a2 g2 a2 f2 g2 e2 |a8 e4 f2 g2 |a2 g2 f2 e2 f2 e2 d2 c2 |B6 c2 B4 c'2 d'2 |e'2 c'2 d'2 b2 c'2 a2 b2 g2 |a8 e6 d2 |c2 e2 d2 f2 e2 a2 g a b g |a12 c'2 d'2 |
+%W: B2
+% voice 1 (1 lines, 47 notes)
+c'2 b2 a2 g2 a2 f2 g2 e2 |a8 e4 f2 g2 |a2 g2 f2 e2 f2 e2 d2 c2 |B6 c2 B4 c'2 d'2 |e'2 c'2 d'2 b2 c'2 a2 b2 g2 |a8 e6 d2 |c2 e2 d2 f2 e2 a2 g a b g |a12 ||

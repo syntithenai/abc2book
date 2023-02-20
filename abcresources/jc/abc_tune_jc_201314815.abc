@@ -1,0 +1,16 @@
+X: 834
+T: the Mullingar Races
+R: hornpipe
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #834
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0834/oneill-1001-0834-1.abc
+M: 2/4
+L: 1/16
+K: G
+"^A"|: D2 \
+| GABG ABcA | defe dcBA | BcBG ABAG | FGAB cAFD ||
+| GABG ABcA | defd dcBA | B2d2 cAGF | D(G{A}GF) G2 :|
+"^B"|: (3def \
+| g2eg f2ed | gage f2(ed) | defg abag | f2dd (de)dc ||
+| B2BG AFD2 | BdBG ABcA | defd cAGF | D(G{A}GF) G2 :|

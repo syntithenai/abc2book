@@ -1,0 +1,23 @@
+X: 11242
+T: Alloway House
+T: Aloway House
+C: James Oswald
+%R: air, waltz, minuet
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.24 #2
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"cB |\
+A2 E2 AB | {B}c4 TB>A | G2 (dB)(AB) | G4 (cB) |\
+A2 E2 (AB) | c4 d2 | e2 (ge)(de) | c4 (c/d/e) |\
+f4 (Te>d) | e3 dcd | (ed)(cA)(GE) |
+G4 (cB) |\
+A2 a2 g2 | e3 d (c/d/e) | Tc2 A2 (AB) | A4 :: eg |\
+a>bageg | a4 c'2 | (ge)(de)(ga) | g4 (eg) |\
+a3 gac' | A4 B2 |
+c3 edf | e4 (c/d/e) |\
+f2 (3(agf) (3(agf) | e3 dcd | (e>c)(d>A)(c>E) | G4 (cB) |\
+A2 a2 g2 | e3 d (c/d/e) | c2 A2 (AB) | A4 :|

@@ -1,0 +1,62 @@
+% anonymous.abc -*- abc -*-
+%
+% Songs for choir, author unknown.
+%
+% $Id: anonymous.abc,v 1.2 2004/01/21 15:25:46 bert Exp $
+%
+
+X:1
+T:O come all ye faithful
+T:Adeste fideles
+C:Unknown (prob. 18th C), arr. David Willcocks
+Z:Bert Van Vreckem <bertvv@advalvas.be>
+M:4/4
+L:1/4
+%%staves {(1 2) (3 4)}
+K:G
+%
+% 1st system
+%
+V:1 clef=treble
+G | G2 DG | A2 D2 | BA Bc | B2 AG |
+w: Oh come, all ye faith-ful, Joy-ful and tri-um-phant, O
+V:2 clef=treble
+%%jsastem=dn
+D | D2 DD | E2 E2 | DD DE | D2 DB, |
+V:3 clef=bass
+b | b2 bb | c'2 a2 | ga gg | g2 fg |
+V:4 clef=bass
+%%jsastem=dn
+g | g2 gg | g2 f2 | gf gc | d2 de |
+V:1
+G2 DG | A2 D2 | BA Bc | B2 AG |
+%D | G2 FE | FG AB | F2 ED | D3 D |
+%w: come ye, O come_ ye to Beth-_le-hem
+%V:2
+%D2 DB, | ( B,^C ) DC | D2 DD | ( D2 ^C3/2) D/ | D3 z |
+%V:3
+%g2 aa | ( ag ) fd | ( a2 g3/2 ) f/ | f3 z |
+%V:4
+%d2 de | e2 eA | ( dB ) FG | ( A2 A3/2 ) d/ | 3 z |
+
+%d2 cB | c2 B2 | AB GA | F2 DG |
+%w: Come and be-hold him Born the King of An-gels: O
+%GF GA | G2 DB | BA Bc | B2 AB |
+%w: come let us a-dore him, O come let us a-dore him, O
+%cB AG | F2 ( Gc ) | ( B2 A3/2 ) G/ | G4 ||
+%w: come, let us a-dore him_ Christ_ the Lord!
+%V:2 clef=treble
+%D2 DB, | ( B,^C ) DC | D2 DD | ( D2 ^C3/2) D/ | D3 z |
+%D ( E/F/ G) | ( GF ) G2 | DD EE | D2 D z |
+%z4 | z2 zD | DD DD | D2 DG |
+%FG D ( D/^C/ ) | D2 ( DE ) | ( D2 D3/2 ) B,/ | B4 ||
+%V:3 clef=bass
+%G,2 A,A, | ( A,G, ) F,D, | ( A,2 G,3/2 ) F,/ | F,3 z |
+%B,2 CD | C2 D2 | DG, B,C | A,2 F, z |
+%z4 | z2 zG, | G,F, G,A, | G,2 F, D |
+%DD A,A, | A,2 G,2 | ( G,2 F,3/2 ) G,/ | G,4 ||
+%V:4 clef=bass
+%D,2 D,E, | E,2 E,A,, | ( D,B,, ) F,,G,, | ( A,,2 A,,3/2 ) D,/ | D,3 z |
+%B,2 A,G, | A,2 G,2 | F,G, E,C, | D,2 Dz |
+%z4 | z4 | z4 | z2 z G, |
+%A,G, F,E, | ( D,C, ) ( B,,C, ) | (D,2 D,3/2 ) G,,/ | G,,4 ||

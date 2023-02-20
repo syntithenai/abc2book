@@ -1,0 +1,28 @@
+X: 1
+T: Angels We Have Heard on High
+P: piffero primo c0001
+O: French traditional
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+V: 1
+V: 2
+%%score (1 2)
+% - - - - - - - - - -
+V: 1 staves=2
+[|\
+B2B2 B2d2 | d3c B4 | B2A2 B2d2 | B3A G4 |\
+B2B2 B2d2 | d3c B4 | B2A2 B2d2 | B3A G4 ||\
+d4 edcB | c4 dcBA |
+B4 cBAG | A3D D4 | G2A2 B2c2 | B4 A4 ||\
+d4 edcB | c4 dcBA | B4 cBAG | A3D D4 | G2A2 B2c2 | B4 A4 | G8 |]
+% - - - - - - - - - -
+V: 2 
+[|\
+G8 | G2F2 G4 | G8 | F4 D4 | G2F2 G4 | F4 G4 | G2G2 G4 | G2F2 D4 ||
+G2BA G4 | G2AG F4 | F2GF E4 | x8 | D6 E2 | D2 G4 F2 ||
+G2BA G4 | G2AG F4 | F2GF E4 | x8 | D6 E2 | D2 G4 F2 | D8 |]
+%% - - - - - - - - - -

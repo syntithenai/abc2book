@@ -1,0 +1,18 @@
+X: 12082
+T: the Banks of Sligoe
+C: James Oswald
+%R: air, waltz
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.8 #2
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+|: "_Slow"\
+d2(D>E)(F>G) | {FG}A4d2 | {B}A2(G<F)(E<D) | e3fg2 |\
+f2D2(B/c/)d | {B}A2(G<F)(E<D) | (B>cd)AGF | (TE>D)E4 |
+(e>f)(gf)(ed) | {c}TB4A2 | (BAB)cd2 | D3ED2 ::\
+d2(D>E)(F>G) | A2(G<F)(E<D) | e2(E>F)(G>A) | B2(A<G)(F<E) |
+g6 | f6 | e2(gf)(ed) | {c2}TB4A2 |\
+(BA)(Bc)(de) | (fg)a4 | (B<A)(G<F)(E<D) | D3df2 :|

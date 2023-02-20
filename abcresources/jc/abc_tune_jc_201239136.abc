@@ -1,0 +1,37 @@
+X: 32161
+T: WIESBADEN POLKA
+R: polka
+B: K\"ohler's Violin Repository, v.3, 1885 p.316 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Fixed missing count in bar 8.
+N: The 2nd phrase has 17 bars.
+%: No composer is listed.
+%: Why does the 4th part have a "key change" from F to F?
+%: At the bottom is "(To be Continued.)"; what does this mean?
+M: 2/4
+L: 1/16
+U: S=!//!
+K: C
+|:\
+vefd2 G2d2 | dec2 G2c2 | def2 fga2 | gag2 (.e2.e2) |\
+efd2 G2d2 | dec2 G2c2 | agf2 fed2 | c2e2c4 :|
+|: vc4 (gabc') | d'2b2g2b2 | c'4 (efga) | (g2f2) (d'c'ba) |\
+g4 (gabc') | d'2b2g2b2 | c'4 (^fgac') | b2bb (.b2.b2) |
+b2b2b2b2 | efd2 G2d2 | dec2 G2c2 | def2 fga2 |\
+gag2 (.e2.e2) | efd2 G2d2 | dec2 G2c2 | agf2 fed2 | c2c'c' c'4 |]
+K: F
+|:\
+vc4 f2ed | c2(dc) a2f2 | c4 f2ed | c2(dc) a2f2 |\
+a2ab c'2c'd' | e'2 f'4 e'd' | c'2 d'4 c'b | (ab)ga f4 :|
+K: F
+|:\
+vfgf_e c2e2 | dfb2- bagf | agf_e c2e2 | dfb2- bagf |\
+agf_e d=efd | c2(de) fgab | c'2c'2c'2b2 | (ab)c'a f4 "^D.C.":|
+K: C
+"^Coda"vefd2 G2d2 | dec2 G2c2 | def2 fga2 | gag2 (.e2.e2) |\
+efd2 G2d2 | dec2 G2c2 | agf2 fed2 | ceg^f a2g2 |
+def^f ag=fd | ceg^f a2g2 | def^f ag=fd | S[c'8e8] | S[c'8e8] |\
+S[c'8e8] | S[c'8e8] | [c'4e4]z4 | [c'4e4]z4 | [c'4e4]v"^Finale."C4 |]
+% Tremolo notation works with abcm2ps.
+% %text (To be Continued.)

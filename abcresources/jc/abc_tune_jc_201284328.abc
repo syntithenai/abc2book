@@ -1,0 +1,19 @@
+X:302
+T:Hands Across the Water
+C:Colin Hume, 2014
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=96
+H:For Rosemary Lach, Ann Schau and The Dancehall Players.
+%%MIDI ratio 3 1
+%%MIDI gchord c2cc
+%%MIDI program 74
+%%MIDI chordprog 73
+K:D
+P:A
+|: "D"Ad A>G | "Bm"F/G/A AG/F/ | "Em"EB G>F | "A7"E/F/G GF/E/ |\
+"D"Dd d>c | "G"BG- G>F |1 "Em"G/A/B B2 | "A7"C/D/E EF/G/ :|2 "Em"E/F/G "A7"E>D | "D"D4 ||
+P:B
+|: "A7"ce ed/c/ | "D"dA- AF | "G"GB BA/G/ | "D"AD- DE/F/ |\
+"Em"GB "D"Ad | "A"e>d cA |1 "Em"B/A/G G>F | "A"E3 A/B/ :|2 "Em"B/A/G GF/G/ | "A7"E2 "D"D2 |]

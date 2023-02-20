@@ -1,0 +1,37 @@
+X: 12301
+T: Sour Plums
+%R: air
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.30 (plus 2 staffs on p.31)
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: This tune uses flats to cancel the sharp in the key signature; transcribed as naturals.
+M: C
+L: 1/16
+K: G
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"G3A |\
+B6 c2 B4 g2(fe) | {e}d2B2{B}A2G2 A6B2 |\
+G6B2 (TB2A2B2)d2 | e2(g2e2d2) TB4d4 |\
+e2g2{e}d2B2 d3ed2A2 | B2d2g2B2 TA4G2E2 |
+(D2E2G2)A2 (B2d2g2)G2 | B4(TA3G) G6 :: d2 |\
+(e3f)(g3a) g4G4 | g4d3g Te6d2 |\
+B4(d3e) (=f3a)(g3f) | Te6d2 d6g2 |
+(e3^f)(g3a) g4G4 | (gfga) g2d2 e4(Td3c) |\
+(B2c2d2)e2 =f2d2g2f2 | (Te2d2e2)g2 Td6d2 |\
+(e2d2e2f2) {f}g4G3A | B2d2g2d2 e4(Td3c) |
+(TB3A)B4 d2B2d4 | Te3de4 =f6a2 |\
+Tg2e2g4 (edBd)e4 | Td2B2d4 (TB3A)B4 |\
+g2ba gaeg (d2e2g2)B2 | TA6G2 G6 :|
+|: E2 |\
+D2E2G2A2 B2A2B2d2 | e2g2{e}d2B2 A2B2A2G2 |\
+(D3E)(G3A) (TB2A2B2)d2 | e2g2e2d2 TB4g4 |\
+(eg)(de) B2e2 (de)(Bd) A2d2 | (Bg)(de) (Bd)(GB) TA6GE |
+(D2E2G2)A2 B2d2g2B2 | TA6G2 G6 :: d2 |\
+e3fg3a gfga g2G2 | g2b2Ta2g2 Te4d3c |\
+B2c2d2e2 (=fefg fagf) | Te3de2g2 {e}d6d2 |
+(e3^f)(g3a) (gfg)a (gfg)G | g2d2g2=f2 {f}Te6d2 |\
+B4(d2e2) =f2F2 (fag)f | (ede)g (edB)e d6d2 |\
+e2d2 (egf)a g4G3A | B2d2g2d2 e4(Td3c) |
+(BAB)c B4 (dBd)e d4 | (ede=f) e4 =f6a2 |\
+(gede) g4 (edBd) e4 | (dBAB) d4 (TB3A)B4 |\
+g2(ba) (ga)(eg) (d2e2g2)B2 | TA6G2 G6 :|

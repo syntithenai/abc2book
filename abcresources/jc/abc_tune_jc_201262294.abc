@@ -1,0 +1,40 @@
+X: 1
+T: Ciao, Ciao, Bambina   [D]
+T: Piove
+C: Modugno-Verdi
+M: C|
+L: 1/4
+F: http://www.youtube.com/watch?v=ygiHfNMwpdI (Domenico Mudugno)
+F: http://www.youtube.com/watch?v=8t3Ru6EaF-Q (Domenico Mudugno)
+F: http://www.youtube.com/watch?v=vQFUv2M6LRg (Carla Codevilla, Enzo-Trio, Dalida)
+K: D
+%%continueall yes
+A2 | B2 c2 | "Em"B2 B2 | zG FE | G2 G2 | "A7"zA Bc | "D"A2 A2 | zF ED | F4 |
+w: Ciao, ciao, bam-bi-na, un bacio~ an-co-ra,  E poi per sem-pre ti per-de-r\`o.
+zF ED | "D(Bm)"F2 F2 | zA GF | "F#m"A2 A2 | zA Bd | "B7"c2 B2 | "E7"z^G AB | "A"c4 |
+w: Co-me una fia-ba, l'a-mo-re pas-sa,  C'e-ra una vol-ta poi~ non~ c'\`e pi\`u.
+"A7"zA Bc | "Em"B2 B2 | zG FE | G2 G2 | "A7"zA Bc/-c/ | "D"A2 A2 | zF ED | F4 |
+w: Co-s'\`e~ che tre-ma sul~ tuo vi-si-no?  \`E piog-gia o pian-to? Dim-mi co-s'\`e
+zF ED | "D(Bm)"F2 F2 | zA GF | "F#m"A2 A2 | zA BA | "E7"B2 B2 | "A7"zc de/-e/ | "D"d4 | z2 |]
+w: Vor-rei tro-va-re pa-ro-le nuo-ve,  Ma pio-ve, pio-ve sul nos-tro a-mor.
+%
+%:Verse:
+%:     Mille violini suonati dal vento        Tutti i colori dell'arcobaleno
+%:     Vanno a fermare una pioggia d'argento  Ma piove, piove sul nostro amor
+%:Spoken:
+%:     Ciao, bambina!  Ti voglio bene da morire!  Ciao! Ciao!
+%:Final refrain:
+%:     Ciao, ciao, bambina, non ti voltare   Non posso dirti rimani ancor
+%:     Vorrei trovare parole nuove           Ma piove, piove sul nostro amor
+%:    
+%W:Translation:
+W:    Bye, bye baby, one more kiss, and then I'll lose you forever.
+W:    Like a fairy tale love goes by. Once upon a time it was here, then it isn't any more.
+W:    What's trembling on your little face?  Is it rain or tears?  Tell me what it is.
+W:    I'd like to find new words.  But it's raining, it's raining on our love.
+%: 
+%:    But it's raining, it's raining on our love   A thousand violins, played by the wind
+%:    All the rainbow's colours   Are going to stop a silver rain
+%:    Bye, bye, baby, don't turn back. I can't tell you to stay longer.
+%:    But it's raining, it's raining on our love   Goodbye, baby!
+%:    I love you so much that   I could die!   Bye!   Bye!

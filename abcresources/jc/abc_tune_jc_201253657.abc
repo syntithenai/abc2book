@@ -1,0 +1,15 @@
+X:63
+T:Bloomsbury Market
+C:John Walsh, 1740
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=96
+%%MIDI gchord fcHcfcIc
+M:4/4
+L:1/8
+K:G
+P:A
+G | "G"dBAG G2D2 | "/"DEDB, D3D | "G"DGGF "C"E2G2 | "Am"c>dcB "D"A3B |
+"C"cege "G"dBd2 | "G"GBdB "Am"AGE2 | "C"e3d "G"e/f/gGB | "Am"cB"D"AG "G"G3 :|
+P:B
+|: d | "Em"g2ga/b/ g3e | "G"gedB "D"A3G | "Em"EGGA "G"B2AG | "C"EGGA "Em"B2AG |
+"G"d3e dedB | "Am"ABcd "C"e3d | "Am"e3d ef"G"gB | "Am"cB"D"AG "G"G3 :|

@@ -1,0 +1,26 @@
+X: 20243
+T: JAMIE GAY
+C: Mr. Berg.
+Q: "Moderate."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.24 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+%%slurgraces yes
+%%graceslurs yes
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(A>G) |\
+F2A>B c3c | f2(g>f) f3c |\
+(dc)(fe) (dc)(f>A) | {A2}G4 z2(A>G) |\
+F2(A>B) c3c | (f>g)(a>b) {a}g3f |\
+(eg) (f/e/d/c/) e2d2 | c6 :|
+|: G2 |\
+(c>d)(e>f) g3e | (fd)(e^c) d3=c |\
+(dc)(BA) (f>g)({fg}a>A) | {A2}G4 z2A>G |\
+F2A>B c3c | f2 (f/g/a/f/) Hg2 (a>g) |\
+(fc) (dc/B/) A2G2 | F6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,23 @@
+X: 3024
+T: the JASSES O' STEWARTON
+Q:"Reel."
+R: Reel.
+%R:reel
+B: James Kerr "Merry Melodies" v.3 p.5 #24
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+g !segno!|\
+fde=c (d/c/B/c/) d2 | FDDF A3g |\
+fde=c (d/c/B/c/) d2 | E=CCE G3 ::\
+=c |\
+(B=c/d/) (DF) AFDc | (B=c/d/) DF (A3c) |
+(B=c/d/) (DF) AFDc | E=CCE G3 :|\
+=c |\
+BGAG BGAG | FDDF A3=c |\
+BGAG AB=cA | GE=CE G3 :|
+|: e |\
+defg afdf | afdf (f/g/a) (gf) |\
+[1 defg afdf | ge=ce g2(fd) :|\
+[2 defg abaf | ge=ce gbag !segno!|]

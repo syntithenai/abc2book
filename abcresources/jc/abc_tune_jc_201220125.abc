@@ -1,0 +1,30 @@
+X: 031
+T: Granos March
+%R: march
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: John Treat - "Gamut for the Fifes", 1779, p.2 #1
+F: https://archive.org/details/GamutFortheFifes
+N: Bar 2 is missing a note in voice 1; the last d was added to fit the 2nd voice.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+|:\
+f4 Te4 | d>dd>d d2A2 | a4 Tg4 | f>ff>f f2d2 |\
+f>ff>a e>ee>a | d>dd>f e2A2 | (3(ded) (3(efe) (3(fgf) (3(gag) |\
+(3(aba) (3(gag) (3(fgf) (3(efe) |
+d>dd>d d4 ::\
+(3fgf) (3(fgf) (3(efe) (3(efe) | (3(gag) (3(gag) g4 |\
+f>ff>a e>ee>a | d>dd>f e2A2 | (3(fgf) (3(fgf) (3(efe) (3(efe) |
+(3(gag) (3(gag) (3(fgf) (3(fgf) |\
+Ta8- | Ta8 | (3(aba) (3(gag) (3(fgf) (3(efe) | d>dd>d d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+|:\
+d4 A4 | F>FF>F F2D2 | f4 Te4 | d>dd>d d2[A2F2] |\
+d>dd>f A>FA>d | D>FA>d A2 F2  | F2A2 (3(ded) (3(efe) |
+(3(fgf) (3(efe) d2A2 | F>FF>F F4 :: d2A2 F2A2 | (3(efe) (3(efe) d4 | d>dd>d A>FA>d |
+D>FA>B A2F2 | d2A2 F2A2 | (3(efe) (3(efe) (3(ded) (3(ded) |
+(3(fgf) (3(efe) (3(ded) A2 | (3(fgf) (3(efe) d2A2 | (3(fgf) (3(efe) d2A2 | F>FF>F F4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

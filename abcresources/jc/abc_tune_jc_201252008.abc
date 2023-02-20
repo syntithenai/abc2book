@@ -1,0 +1,23 @@
+X: 1
+T: Bessie's Waltz
+R: waltz
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+N: There are references to a "Bessie's Waltz" labelled "1997 Philip Blackburn
+N: and Helen Blackburn", but I don't know whether it's the same tune as this one.
+N: There was also a "Bessie's Waltz" in the 1901 English opera "Merrie England",
+N: written by Edward German and Basil Hood.
+M: 3/4
+L: 1/8
+K: Am
+cd \
+| "Am"e3 c A2 | e4 e2 | "G"d B3 G2 | "F"c4 c2 \
+|  "G"B3 A G2 | "Am"A E3 E2 | "Dm"D2 E2 F2 | "E7"E4 ||
+cd \
+| "Am"e3 c A2 | a4 a2 | "G7" g a3 f2 | "C"e3 d c2 \
+| "Dm"f2 d2 A2 | "E7"E2 ^G2 B2 | "Am" A3 B A^G | "bina"A4 :|
+AB \
+| "F"c3 B A2 | "C"G E3 G2 | "Dm"F2 D2 F2 | "E7"E4 AB \
+| "F"c3 B A2 | "C"G E3 G2 | "F"A2 B2 c2 | "G7"d4 ||
+cd \
+| "C"e2 a2 g2 | "Am"e2 c2 A2 | "G"d2 B2 G2 | "F"c4 c2 \
+| "G"B3 G B2 | "Am"A2 G2 E2 | "Dm"D2 E2 F2 | "E7"E4 "g.F."|]

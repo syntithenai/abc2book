@@ -1,0 +1,19 @@
+X: 1
+T: Bat' an Tailleir
+T: the Tailer's Stick or the Shepherd's Crook
+C: trad
+O: Hebrides, Scotland
+%S: %S: s:2 b:8(8+8)
+%D:
+R: strathspey
+S: Fiddle Hell Online 2022-4-10 handout for Alasdair White workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Amix
+"^A"|:\
+A<A c>A B<A G2 | A<A c>c A<A c>c |\
+d<B c>A B>A G>f | e>d c<B B<A A2 :|
+"^B"|:\
+e<f a>c B>A G2 | e<f a>e f<d a>g |\
+f<e a>c B>A G>f | e>d c<B B<A A2 :|

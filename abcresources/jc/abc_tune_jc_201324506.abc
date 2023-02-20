@@ -1,0 +1,26 @@
+X: 666
+T: Planxty Mrs. O'Conor   #2
+T: pleraca mai\.gisdreas ni con\.co\.bair
+R: jig
+%S: s:6 b:24(4+4+4+4+4+4+4+4+4)
+C: O'Carolan
+B: O'Neill's 1850 #666
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Compacted via repeatsfor the B, D and F parts. [JC]
+Q: "Spirited"
+M: 6/8
+L: 1/8
+K: G
+"^A"[|]z | G2G FED | E2F  G2A | B2G c2A | B2G c2 ||
+"^B"|: A | Bcd EFG | ABG  FED | EFG AFD | G3  G2 :|
+"^C"[| z | d2d def | g3   g3  | B2B Bcd | e3  e2 ||
+"^D"|: z | dcB c2e | d^cd D2D | EFG AFD | G3  G2 :|
+"^E"[| z | BGE EGE | AFD  DFD | EFG ABG | F3  D2 ||
+"^F"|: z | ded dBG | efe efHg | dcB AGF | G3  G2 :|
+%%begintext align
+%% The fermata in the last line is optional;
+%% O'Neill has it in only the 2nd F.
+%% It's often only used the very last time.
+%% Also, different repeat patterns are common,
+%% mostly either no repeats or ABAB CDCD EFEF.
+%%endtext

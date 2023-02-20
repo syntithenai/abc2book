@@ -1,0 +1,16 @@
+X: 655
+T: Miss McLeod's Reel
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #655
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0655/oneill-1001-0655-1.abc
+M: C|
+L: 1/8
+K: G
+"^A"[|] BA \
+|  G2BG DGBG | B2BA BcBA | G2BG DGBG | A2AG AcBA \
+|| G2BG DGBG | B2BA B2d2 | e3f edef | gedB AcBA |]
+"^B"\
+[| G2gf edeg | B2BA BcBA | G2gf edeg | a2ag ac'ba \
+|| g2gf edeg | BcBA B2d2 | edcB cdef | gedB A2 |]

@@ -1,0 +1,54 @@
+X: 0
+T: Thady You Gander
+P: Play each tune AAABB
+%level: 1
+K: C
+
+
+X: 1
+P: There's Nae Luck Aboot the Hoose
+O: trad Scotland, England
+R: hornpipe
+B: RSCDS __-19(a)
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Johnson's Museum 1788, adapted from earlier tune "Up and war a' Willie" published by Oswald 1750.
+M: 4/4
+L: 1/8
+K: G
+(3def \
+| "G"g>e d>B "C"c>d e>f | "G"g>e d>B "D7"A3 (3def \
+| "G"g>e d>B "C"c>d e>g | "D7"d>c B>A "G"G2 :|
+|: G>A \
+| "G"B2 B>G "C"c2 c>A | "G"B2 B>G "D7"A2 G>A \
+| "G"B2 B>G "C"c>d e>g | "D7"d>c B>A "G"G3 :|
+
+
+
+X: 2
+P: Kafoozalum  (Katie Bairdie)
+O: England, Wales, Scotland
+R: hornpipe
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+|: "D"a2  a>g f>g a2 | "A7"e>f g>f    e>f g2 \
+|  "D"a2  a>g f>g a2 |     d>e f>d "A7"e2 "D"d2 :|
+|: "D"f>d A>d f>d f2 | "A7"g>e c>e    g>e g2 \
+|  "D"f>d A>d f>d f2 |     d>e f>d "A7"e2 "D"d2 :|
+
+
+X: 3
+P: Keel Row
+O: trad Scotland
+R: hornpipe
+M: 4/4
+L: 1/8
+K: G
+|: "D7"d>c \
+| "G"B2 G>B "Am"c2 A>c | "G"B2 G>B "D7"A>F D>A \
+| "G"B2 G>B "Am"c2 A>c | "D7"B>G A>F "G"G2 :|
+|: "D7"d>c \
+| "G"B<d d>g "Am"e2 d>c | "G"B2 G>B "D7"A>F D>A \
+| "G"B<d d>g "Am"e2 d>c | "D7"B>G A>F "G"G2 :|
+

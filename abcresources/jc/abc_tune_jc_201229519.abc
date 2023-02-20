@@ -1,0 +1,42 @@
+X: 124
+T: Lift Up, O Little Children
+T: (Easter Carol.)
+%R: air, waltz, jig
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The chorus has a tall right-brace after the initial word(s); ABC has no notation for this.
+M: 6/8
+L: 1/8
+K: F
+%%vocalspace 1.3cm
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[CC] | [F2A,2][EG,] [F2A,2][GC] | [A3F3] [A2F2][BG] | [c2A2][BG] [A2F2][GE] | [F3-F3-] [F2F2] ||
+w: 1.~Lift up, O lit-tle chil-dren,    Your voi-ces clear and sweet,*
+w: 2.~Lift up, O ten-der lil-lies,     Your white-ness to the sun;*
+w: 3.~Ring, all he bells, in wel-come. Your chimes of joy a-gain!*
+V: 2 clef=bass middle=d
+z | z6 | z6 | z6 | z3 z2 ||
+%
+[V:1] [CC] | [D2D2][CC] [D2D2][EE] | [F3F3] [F2F2][GE] | [A2F2][GE] [A2F2][BG] | [c3A3] [c2A2] ||
+w: And sing the bless-ed sto-ry    Of Christ, the Lord of glo-ry,
+w: The earth is not our pris-on,   Since Christ Him-self hath ris-en,
+w: Ring out the night of sad-ness, Ring in the morn of glad-ness,
+[V:2] c | d2c d2e | f3 f2c | f2c f2f | f3 f2 ||
+%
+[V:1] [cA] | [c2G2][cG] [=B2F2][BF] | [c3-E3-] [c2E2][cE] | [e2G2][dF] [c2E2][=BD] | [c3-E3-] [c2E2] ||
+w: And wor-ship at his feet,*      And wor-ship at his feet!*
+w: The life of ev-'re one,*        The life of ev-'ry one.*
+w: For death no more shall reign,* For death no more shall reign.*
+[V:2] f | e2e d2d | c3- c2c | c2f g2g | c3- c2 ||
+%
+[V:1] [cG] "^Chorus."| [c2A2][BG] [A2F2][dB] | [c3A3] [A2F2][AC] | [A2C2][GB,] [F2A,2][BD] | [A3C3] [F2A,2] ||
+w: 1\-2.~Oh, sing the bles-ed sto-ry! The Lord of life and glo-ry
+w:~~~~3.~Then | | | | |
+[V:2] c | f2f f2f | f3 f2f | f2f f2f | f3 f2 ||
+%
+[V:1] [CC] | [D2D2][EE] [F2F2][GG] | [A3-A3-] [A2A2][cA] | [f2A2][cA] [B2G2][GE] | [F3-F3-] [F2F2] |]
+w: Is ris-en~\-\- as He said,* Is ris-en from the dead!*
+[V:2] c | d2e f2g | a3- a2f | f2f c2c | f3- f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

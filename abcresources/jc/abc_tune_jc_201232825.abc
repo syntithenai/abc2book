@@ -1,0 +1,18 @@
+X:99017
+T:Miss Betty Boyle
+P:We're a' noddin'
+C:Traditional
+R:Reel (8x32)
+B:RSCDS Gr-17
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:G
+V:1
+GA|"G"[B4D4] A2G2|"D"A2A2 BAGA|"G"[B4D4] [A2C2][G2B,2]|"D7"BAGF "G"G2 GA|
+   "G"[B4D4] A2G2|"D"A2A2 BAGA|"G"[B4D4] [A2C2][G2B,2]|"D7"BAGF "G"G2||
+dc|"G"B2Bc d2ge|d2d2d2 Bc|d2d2 "C"edcB|"Am"cB"A7"AG "D"F2 dc|
+%%staves (1 2)
+[V:1] "G"B2Bc d2"C"ge|"G"d2d2d2 Bc|"G7"d2d2 "E7"edcB|"Am"cBAG "D7"[A2F2C2]|]
+%V:2
+%[V:2]    x8          |   x8       |    B2A2    ^G4  |    E4       x2      |]

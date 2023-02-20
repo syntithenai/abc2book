@@ -1,0 +1,41 @@
+X: 20531
+T: RONDO Allegretto
+C: Devienne
+B: "Man of Feeling", Gaetano Brandi, ed. v.2 p.53-55
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% In voice 1, we use 4/8-bar lines, which you can modify as you wish.
+V: 1
+e !segno!|\
+!p! e3 {g/}fed | g3- g.e.c | (AB).c (de).f | (e3 d2)g |\
+g3 {a/}gfe | {e/}d^cd {g/}fef | (ag).f (ed).c | .B(GA Bcd) |
+!f!e3 {g/}fed | g3- g.e.c | (AB).c (de).f | (e3 d2)g |\
+g3 (abc') | g3 c'ge | (dag) (fe).d | c2e "Fine"c2 |]
+g |\
+g3 (^fag) | g2e cec | ("_Fz"^fgg) ("_Fz"fag) | g2e c2c |\
+("_sF"c'a).^f (dc).A | (Bd).g (bd').b | (c'a).^f (dc).B | (Bd).g b2d |
+ecg ^fda | gdb a^fc' | (bd').g {a/}g^fg | aaa a2z |\
+(d^fg) afc | (Bd').c' .b.a.g | (d^fg) afc | (Bd').c' .b.a.g |
+e.c'a ^fd'b | ge'c' ad'c' | bd'b gbg | ege ceE |\
+ D3 Ta3{ga} | g2z z2!p!d | c'3- c'a^f | (g2b) d2d |
+ c'3- c'a^f | g2z z2(b/a/) | (gd'c') (b=f'e') | (d'c'b) "_Da Capo al Fine"(agf) !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% In voice 2, we preserve the oroginal line breaks
+V: 2
+z !segno!|!p! c3 d3 | ecG E3 | F3 FED | G2G G2F |
+E6 | F3 A3 | F3 F3 | G2z z2z | !f!c3 d3 | ecG E3 |
+F3 FED | (^FG)G (Gg=f) | ece f3 | ecG E2E | F2E (FGG) | E2G "Fine"E2 |] z |
+% p.54
+F6 | E6 | =F6 | EGc e2z | ^F6 |
+G6 | ^F6 | G3 GAB | c3 A3 | B3 ^F3 |
+G2B BAG | D2z d(c/B/A/G/) | ^F6 | G3 .d.c.B | ^F6 |
+% p.55
+G3 .d.c.B | cAc dBd | ece ^fdf | g2z B2z | c2z c2z |
+DDD DDD | GBd GBd | ^FAd FAd | GBd GBd | ^FAd FAd |
+GBA Gdc | B=fe ddc | B6 !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center -

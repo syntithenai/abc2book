@@ -1,0 +1,74 @@
+
+X: 1
+T: Kalamatian\'os 2 [G]
+O: Greece
+R: kalamatianos
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: G
+|::: "G"d2g fedc | B2c d2{ed}cB | "D7"A2B c2{dc} BA |1,3 "G"GAB c^cd2 :|2,4 "G"G2D G2z2 :|
+|::: "G"d2d "D7"f2"(C)"e2 | "G"d>cB/c/ d4 :::| \
+|::: "D7"dcB A2B2 | c2d "G"B>A G2 :::|
+
+
+X: 1
+T: Kalamatian\'os 2 [A]
+O: Greece
+R: kalamatianos
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: A
+|::: "A"e2a gfed | c2d e2{fe}dc | "E7"B2c d2{ed} cB |1,3 "A"ABc d^de2 :|2,4 "A"A2E A2z2 :|
+|::: "A"e2e "E7"g2"(D)"f2 | "A"e>dc/d/ e4 :::| \
+|::: "E7"edc B2c2 | d2e "A"c>B A2 :::|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Samiotissa
+T: Girl from Samos
+O: Greece
+R: kalamatianos
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: The lower line should be considered the melody.
+N: The instrumental interlude here is a "generic" interlude used in much Greek music.
+M: 7/8
+L: 1/8
+K: G
+z[ge][fd][ec] \
+| "D7"[d2B][dB] [cA][BG] [cA][dB] | "G"[B2G][cA] [dB][ge][fd][ec] \
+| "D7"[d2B][dB] [cA][BG] [cA][dB] |1 "G"[B3G] :|2 "G"[B3G] z2 ||
+|: [D2G] \
+| "G"[G2B][FA] [G2B] [A2c] | [B2d][Ac] [G4B] \
+| "C"[ce][ce][ce] [ce][Bd] [Ac][GB] |1 "G"[B3d] z2 :|2 "G"[B3d] z2 [Bd][ce] ||
+|: "D7"[df][df][df] "C"[eg][df] [ce][Bd] \
+| "D7"[A2c][ce] "G"[Bd][Ac] [GB][Ac] \
+| [B2d][Bd] "D7"[Ac][GB] [Ac][Bd] \
+|1 "G"[G2B][Ac] [B2d][c2e] :|2 "G"[G3B] |]
+
+
+X: 1
+T: Samiotissa
+T: Girl from Samos
+O: Greece
+R: kalamatianos
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: The lower line should be considered the melody.
+N: The instrumental interlude here is a "generic" interlude used in much Greek music.
+M: 7/8
+L: 1/8
+K: A
+z[af][ge][fd] \
+| "E7"[e2c][ec] [dB][cA] [dB][ec] | "A"[c2A][dB] [ec][af][ge][fd] \
+| "E7"[e2c][ec] [dB][cA] [dB][ec] |1 "A"[c3A] :|2 "A"[c3A] z2 ||
+|: [E2A] \
+| "A"[A2c][GB] [A2c] [B2d] | [c2e][Bd] [A4c] \
+| "D"[df][df][df] [df][ce] [Bd][Ac] |1 "A"[c3e] z2 :|2 "A"[c3e] z2 [ce][df] ||
+|: "E7"[eg][eg][eg] "D"[fa][eg] [df][ce] \
+| "E7"[B2d][df] "A"[ce][Bd] [Ac][Bd] \
+| [c2e][ce] "E7"[Bd][Ac] [Bd][ce] \
+|1 "A"[A2c][Bd] [c2e][d2f] :|2 "A"[A3c] |]

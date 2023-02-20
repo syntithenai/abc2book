@@ -1,0 +1,37 @@
+X: 1
+T: the Bleeding Heart
+P: Longways for &c.
+%R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.88
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (53)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: 6/4
+L: 1/4
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B |\
+cBA ceB | cBA ^GBE | ABc BcA | B>A^G/F/ E2B |\
+edc def | edc  BdG | cde dcB | G>cB/d/  c2 :|
+|: B |\
+GFE CEC | FED B,EB, | ABc  BcA | B>A^G/F/ E2B |\
+cec BdB | cec  BdB  | ceA ^GEG | A>EC/B,/ A,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+e |\
+a3  zze | a3  e2d | cBA def | e3 ^g2e |\
+cBA B3  | cBA G2B | ABc g3  | G3  c2 :|
+|: g |\
+edc zze | dcB G2f | f3  def | e3 ^G3 |\
+A3 ^G3  | A3 ^G3  | A3  e3  | A3  zz :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1st Cu. turn & Back to Back & lead thro' the 3d Cu. .|
+%% then lead up to the Top and turn :|
+%% then 1st & 2d Cu. take Hands across and dance round and turn single .|
+%% then Right & Left the Tune out :|
+%%endtext

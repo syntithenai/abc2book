@@ -1,0 +1,27 @@
+X: 3033
+T: Mr Muir Mackenzie's Favourite
+C: by Mr Sharpe of Hoddom
+%R: air, march, reel
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.3 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow"
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 6-bar lines, for compactness and proofreading.
+V: 1 staves=2
+f |\
+{c}d2TA>G {G}FD DE/F/ | TG>FED CA,TBc |\
+Td>e {e}d{c}B AFAB | A<FTE>G FDD :|\
+f/g/ |\
+Ta>bag Tfefd | Tg>fed {d}cBcA |
+Ta>bag Tfefd | Tg>ea>f d2 Tdf/g/ ||\
+Ta>bag fdef | gfed cABc |\
+Td>e {g}f{e}d Te>f {a}g{f}e | (f>a) Tc>e Td2 D |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | D2d2 D2d2 | efg^g a2=g2 | f2[d2g2] fdeg | fd aA dA D :| z |
+d2d'2 d2d'2 | efg^g a2=g2 | f3e d2b2 | g2aA dAD2 || dd'dd' dd'dd' |
+efg^g a2=ge | dd'z2 Aaz2 | d2aA dAD |]

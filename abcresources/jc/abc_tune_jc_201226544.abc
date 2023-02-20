@@ -1,0 +1,41 @@
+X: 1031
+T: la Terza
+%R: reel, waltz, jig
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1810, No. 10 p.3 #1
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances5
+M: 2/4
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+(e !segno!|\
+cAce | .a2)(ae | .c2)(ce | .B2)(Bc) | (Acec | .a2)ae | ceBe | A3 :| e | (ed).B.d | (dc).B.A | GeBe | Aece |
+(ed).B.d | (dc).B.A | .[B2G2].g2 | a3e | (ed).B.d | (dc).B.A | GeBe | Aece | Bgdg | caea | b2(.b.a | .g.f.e.d |]
+[M:6/8] "^Waltz time"c2)A {c}BAG | A2c Bed | c2A {c}BAG | A3 a "^8va _ _ _"ed | c2A {c}BAG | A2c Bed | c2A {c}BAG | A3 a2 |]
+"^loco"~e |\
+f2f (fe^d | .e2)e e2c | d2d (dcB | .c2)c c2~e | f2f (fe^d | .e2)e e2c | d2e c2d | B3 B2 |]
+e |\
+(dBG EFG | A2)c e2c | d2g e2a | ("_>"g2f .e2)e | (dBG EFG | A2)c e2c | d2g e2a | (.g.f.e d.c.B) !segno!|] HA4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=D
+z !segno!|\
+Aece | Aece | Aece | Gede | Aece | Aece | Ae[GE]e | [c2A2] z :| z | (E2G2 | A2c2 | e2d2 c2)A2 | G2E2 |
+A2c2 | e2("_>"[d2B2E2] | [c2A2])z2 | (E2G2 | A2c2 | e2d2 | c2A2) | (e4 | A4 | G2B2 | e2G2 |]\
+[M:6/8] "_Dolce"A)ce Ade | Ace GBe |
+Ace Ade | Ace Ace | Ace Ade | Ace GBe | Ace Ade | Ace A2 |]\
+[cA] |\
+[d2A2][dA] [d2A2][^BA] | [c2A2][cA] [c2A2][eA] | [f2A2][fA] [f2A2][gA] | [a2A2][aA] [a2A2][cA] | [d2A2][dA] [d2A2][^BA] |
+[c2A2][cA] [c2A2][eA] | [e2G2][eG] [e2A2][eA] | (EGB e2) |] z |\
+EBd EBd | Ace Ace | Ade Ace | Adf Ace | EBd EBd | Ace Ace | Ade Ace | E3- [e3G3E3] !segno!|] H[c4A4] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands four round back again
+%% down the middle up again
+%% Hands 3 on the Ladys side
+%% the same on the Gentlemans
+%% Allmand and set it out
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

@@ -1,0 +1,36 @@
+X: 0522
+T: Miss Ray, or Shaddie.
+%R: jig
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1808, No. 5 p.2 #2
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances5
+%%slurgraces 1
+%%graceslurs 1
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+c |\
+{fg}a2g ({g}fed) | c2A F2G | A>BA (AGF) | EGz z2c |\
+{fg}a2g ({g}fed) | c2A F2G | A>BA ({A}GFG) | A<Fz z2 H|]
+z |\
+("_>"b2g) ("_>"a2f) | (eg).g g2c | ("_>"b2g) ("_>"a2f) | ([a3f3] [g2e2])c |\
+b2g a2f | efg a=bc' | gea fdg | (.e.c.d .e.f.g) !segno!:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=D
+z |\
+FAc FBd | FAc FAc | FAc =B,DG | CEG CEG |\
+FAc FBd | FAc FAc | FAc EBc | FAc !fine!F2 H|]
+z |\
+[c3E3] [c3F3] | [c3-C3-] [c2C2]z | [c3E3] [c3F3] | CFA c2z |\
+[c3E3] [c3F3] | [c3C3] ("_dim. . ."F3 | E2)"^fz"^c d2"^fz"=B | C3 "^Da Capo."C,3 !segno!:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hand across and back again,
+%% down the middle up again
+%% and right and left.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

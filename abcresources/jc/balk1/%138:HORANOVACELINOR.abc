@@ -1,0 +1,26 @@
+X: 138
+T: Hora Novacelinor
+O: Romania
+M: 2/4
+L: 1/8
+Q: 1/4=300
+P:ABBCCDD
+K: Gdor
+%%MIDI gchord fzfz
+P:A
+|:  "C" c4-       |c4      |"G" cB BA |G2 d2   |\
+    "C" Bc3       |Bc3     |"G" cB BA |G2 G2   |
+    "C" c4        |c4      |"G" cB BA |G2 d2   |\
+    "C" Bc3       |Bc3     |"G" cB BA |G2 G2   :|
+P:B
+|:  "G" Bcd2      |fed2    |Bcd2      |G2z2    |
+    [1 Bcd2       |fed2    |Bcd2      |G2z2    :|\
+    [2 Bcd2       |cdB2    |cdB2      |G4      |
+P:C
+    "Am" F2 (3ABA |"G" G2F2|"Am" A4   |"G" G2c2|\
+    "Bb" B2 (3ABA |"G" G2F2|"Am" A4   |"G" G2c2|
+    "Am" F2 (3ABA |"G" G2F2|"Am" A4   |"G" G2c2|\
+    "Bb" B2 (3ABA |"G" G2F2|"Am" A4   |"G" G2c2|
+P:D
+    "C" F2A/B/A/G/|A2G2    |F2A/B/A/G/|A2G2    |\
+    F2A/B/A/G/    |A2G2    |F2A/B/A/G/|A2G2    |

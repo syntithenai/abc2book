@@ -1,0 +1,26 @@
+X:1
+T: Hortonia
+N:
+C:Tune is "Squire Parsons" by O'Carolan
+S: Play  4  times
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 44 notes)
+K:G
+M:4/4
+L:1/16
+G8 D4 G2 A2 |B2 A2 B2 c2 B4 G4 |d4 d4 d4 e2 f2 |g2 e2 a2 g2 f4 d4 |b8 a4 g2 f2 |g2 e2 f2 g2 a2 ^c2 d2 e2 |f2 g2 f2 g2 f2 a2 g2 f2 |e6 d2 d8 |
+%W: A2
+% voice 1 (1 lines, 44 notes)
+G8 D4 G2 A2 |B2 A2 B2 c2 B4 G4 |d4 d4 d4 e2 f2 |g2 e2 a2 g2 f4 d4 |b8 a4 g2 f2 |g2 e2 f2 g2 a2 ^c2 d2 e2 |f2 g2 f2 g2 f2 a2 g2 f2 |e6 d2 d8 |
+%W: B1
+% voice 1 (1 lines, 41 notes)
+a8 f8 |e2 g2 f2 e2 ^d4 B4 |b2 f2 g2 a2 b2 a2 g2 f2 |f8 e4 B2 c2 |d4 d4 d4 c2 B2 |c4 c4 c4 B2 A2 |B2 A2 G2 A2 B2 c2 d2 B2 |A6 G2 G8 |
+%W: B2
+% voice 1 (1 lines, 41 notes)
+a8 f8 |e2 g2 f2 e2 ^d4 B4 |b2 f2 g2 a2 b2 a2 g2 f2 |f8 e4 B2 c2 |d4 d4 d4 c2 B2 |c4 c4 c4 B2 A2 |B2 A2 G2 A2 B2 c2 d2 B2 |A6 G2 G8 ||

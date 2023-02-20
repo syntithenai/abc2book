@@ -1,0 +1,83 @@
+
+X: 1
+T: Juuret Suomessa    [Dm]
+T: Roots in Finland
+C: Jukka Kuoppam\"aki
+Z: 1998 John Chambers <jc:trillian.mit.edu>
+N: Written by Finnish folk singer Jukka Kuoppam\"aki for the 1992 celebration of
+N: Finland's 75 years of independance. As a ballad, it it sung without repeats;
+N: as a waltz, it's probably better with the traditional repeats. Also, you should
+N: be prepared to play it in other keys, such as Dm, Em and Gm.
+M: 3/4
+L: 1/4
+K: Dm
+ A,/A,/ \
+| "Dm"FED | F2A,/A,/ | FED | "A7"E2A,/A,/ | "Bb"DCB, | "C7"EFG | "F"FG^G | "A7"A2A/A/ |
+| "Gm"BGF | "C7"EFG | "F"AFE | "Dm"D2D/E/ | "Bb"FDF | "Gm"GFG | "A7"A3- | A2 :|
+|: A/A/ \
+| "Bb"dcB | "C7"GA>B | "F"A3- | "Dm"A2A/A/ | "Gm"BGF | "A7"EF>G | "Dm"F3- | F2D |
+| "Gm"BGF | "C7"EFG | "F"AcB | "Dm"A2F | "Gm"GAB | "A7"AFE | "Dm"D3- D2 :|
+
+%%sep 1 1 500
+
+X: 2
+T: Juuret Suomessa    [Gm]
+T: Roots in Finland
+C: Jukka Kuoppam\"aki
+Z: 1998 John Chambers <jc:trillian.mit.edu>
+N: Written by Finnish folk singer Jukka Kuoppam\"aki for the 1992 celebration of
+N: Finland's 75 years of independance. As a ballad, it it sung without repeats;
+N: as a waltz, it's probably better with the traditional repeats. Also, you should
+N: be prepared to play it in other keys, such as Dm, Em and Gm.
+M: 3/4
+L: 1/4
+K: Gm
+ D/D/ \
+| "Gm"BAG | B2D/D/ | BAG | "D7"A2D/D/ | "Eb"GFE | "F7"ABc | "Bb"Bc^c | "D7"d2d/d/ |
+| "Cm"ecB | "F7"ABc | "Bb"dBA | "Gm"G2G/A/ | "Eb"BGB | "Cm"cBc | "D7"d3- | d2 :|
+|: d/d/ \
+| "Eb"gfe | "F7"cd>e | "Bb"d3- | "Gm"d2d/d/ | "Cm"ecB | "D7"AB>c | "Gm"B3- | B2G |
+| "Cm"ecB | "F7"ABc | "Bb"dfe | "Gm"d2B | "Cm"cde | "D7"dBA | "Gm"G3- G2 :|
+
+%%sep 1 1 500
+
+X: 3
+T: Juuret Suomessa    [Em]
+T: Roots in Finland
+C: Jukka Kuoppam\"aki
+Z: 1998 John Chambers <jc:trillian.mit.edu>
+N: Written by Finnish folk singer Jukka Kuoppam\"aki for the 1992 celebration of
+N: Finland's 75 years of independance. As a ballad, it it sung without repeats;
+N: as a waltz, it's probably better with the traditional repeats. Also, you should
+N: be prepared to play it in other keys, such as Dm, Em and Gm.
+M: 3/4
+L: 1/4
+K: Em
+ B,/B,/ \
+| "Em"GFE | G2B,/B,/ | GFE | "B7"F2B,/B,/ | "C"EDC | "D7"FGA | "G"GA^A | "B7"B2B/B/ |
+| "Am"cAG | "D7"FGA | "G"BGF | "Em"E2E/F/ | "C"GEG | "Am"AGA | "B7"B3- | B2 :|
+|: B/B/ \
+| "C"edc | "D7"AB>c | "G"B3- | "Em"B2B/B/ | "Am"cAG | "B7"FG>A | "Em"G3- | G2E |
+| "Am"cAG | "D7"FGA | "G"Bdc | "Em"B2G | "Am"ABc | "B7"BGF | "Em"E3- E2 :|
+
+%%sep 1 1 500
+
+X: 4
+T: Juuret Suomessa    [Am]
+T: Roots in Finland
+C: Jukka Kuoppam\"aki
+Z: 1998 John Chambers <jc:trillian.mit.edu>
+N: Written by Finnish folk singer Jukka Kuoppam\"aki for the 1992 celebration of
+N: Finland's 75 years of independance. As a ballad, it it sung without repeats;
+N: as a waltz, it's probably better with the traditional repeats. Also, you should
+N: be prepared to play it in other keys, such as Dm, Em and Gm.
+M: 3/4
+L: 1/4
+K: Am
+ E/E/ \
+| "Am"cBA | c2E/E/ | cBA | "E7"B2E/E/ | "F"AGF | "G7"Bcd | "C"cd^d | "E7"e2e/e/ |
+| "Dm"fdc | "G7"Bcd | "C"ecB | "Am"A2A/B/ | "F"cAc | "Dm"dcd | "E7"e3- | e2 :|
+|: e/e/ \
+| "F"agf | "G7"de>f | "C"e3- | "Am"e2e/e/ | "Dm"fdc | "E7"Bc>d | "Am"c3- | c2A |
+| "Dm"fdc | "G7"Bcd | "C"egf | "Am"e2c | "Dm"def | "E7"ecB | "Am"A3- A2 :|
+

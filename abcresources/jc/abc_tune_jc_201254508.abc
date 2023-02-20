@@ -1,0 +1,16 @@
+X: 980
+T: Bonaparte's Retreat
+R: hornpipe, march; long dance, set dance
+%S: s:4 b:28(8+8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #980
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0980/oneill-1001-0980-1.abc
+%m: Tn3 = n(3n/o/n/ m/n/
+M: C
+L: 1/8
+K: D
+"^A"[|] (DC) \
+| A,DD(E FE)DC | DEGA Tc3d | edc(B cA)BG | AGF(E FD)EC || A,DD(E FE)DC | DEGA c(Bcd) | e(dcA) GECD |
+| E2D2 D2 "^B":: (AB) | cBc(B cd)cA | d(cde) dfed | cBc(d cA)BG | AGF(E FD)EC || cBc(B cd)cA | d(cde) defg |
+| afg(e fd)ec | Adce d2(de) || fef(g fe)df | edd(f ed)cA | dfe(d cA)BG | AGF(E FD)EC "^A"|| A,DD(E FE)DC |
+| DEGA Tc3d | edc(B cA)BG | AGF(E FD)EC || A,DD(E FE)DC | DEGA c(Bcd) | e(dcA) GECD | E2D2 D2 :|

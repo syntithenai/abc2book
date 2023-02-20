@@ -1,0 +1,18 @@
+X: 323
+T: the Deception
+T: an cluaineora\.cd
+R: air, jig
+%S: s:3 b:16(8+8+8)
+B: O'Neill's 1850 #323
+O: J.O'Neill
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+Q: "Slow with feeling"
+M: 6/8
+L: 1/8
+K: D
+"^A"[|] (A/G/) | ("^>"FED) ("^>"A,CE) | D3- D2E | ("^>"F3/G/A/B/) cAc | d3- d2 \
+"^B"||  e | (cBA) (GED) | C3- C2(D/E/) | FED A,CE | D3- D2 |]
+"^C1"|| A | ("^>"d2e) (f2e) | (dA2-) A2B | "^>"c3 (G2F) | (EC2-) C2 \
+"^C2"|| A | ("^>"d2e) (f2e) | (dA2-) A2F | (G2F) (.D2.D) | D3 D2 |]
+"^D"|| (D/E/) | ("^>"F3/E/F/A/) cAc | ("^>"d3/e/f/e/) d2(d/e/) | .f.e.d .c.A.c | d3- d2 \
+"^B"|| f | (cAF) (GFD) | C3- C2(D/E/) | FED A,CE | D3- D2 |]

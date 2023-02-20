@@ -1,0 +1,24 @@
+X: 32762
+T: MISS BAIGRIE -- Strathspey
+C: By Robert Baillie
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.276 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+N: The repeat notation for parts 2 and 3 doesn't make sense.
+N: Bar 6 has a funny use of ties.
+N: The 4th part is mssing its 2nd ending.
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: D
+(GF2E) !segno! |:\
+(.D3.d)(d3c) (c2B2)(B2A2) | (.a3.f)(d3f) e3de2f2 |\
+(.D3.d)(d3c) (.c3.B) (BcdB) | (.A3.F)(E3F) DD3 D2A,2 :|
+|\
+(B,3D)(A,3D) (B,3D)(A,3F) | (.E3.F)(G3B) (.A3.F) ((GF)ED) |\
+(B,3D)(A,3D) (B,3D)(G3B) |[1 (.A3.F)(D3F) DD3D2A,2 :|[2 (.A3.F)(E3F) DD3D2f2 |]
+|:\
+(.[a3d3F3].b)(a3f) (.d3.e)(f3d) | (g3b)(f3a) e3def3 |\
+(.a3.b)(a3f) (.d3.e)(f3d) |[1 (.e3.d)(e3f) dd3d2f2 :|[2 e3d(e2f2) dd3d3B |]
+|: (BA3)(.A3.F) (G2F2)(E2D2) | (FABc) (d3F) (F2E2)(E2d2) |\
+(BA3)(.A3.F) (G2F2)(.E3.D) |[1 (D3B,)A,3B, DD3D3d :|

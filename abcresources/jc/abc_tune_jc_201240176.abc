@@ -1,0 +1,27 @@
+X: 372
+T: the Last pint Ale
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.37 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Added missing natural in bar 2 of the bass voice.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+D2DF E2Ec | (B/c/d) AF (G/F/E/D/ =C)E |\
+D2DF E2Ec | B/c/d AF A2-A2 :|
+|:\
+defd gfed | (B/c/d) AF (G/F/E/D/ =C)E |\
+defd gfed | B/c/d AF A2 A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d2d2 A2A2 | d2d2 =c2c2 |\
+d2d2 A2A2 | d2A2 D2D2 :|
+|:\
+d2d2 d2d2 | d2d2 =c2c2 |\
+d2d2 d2d2 | g2a2 d2d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

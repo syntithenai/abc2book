@@ -1,0 +1,30 @@
+X: 1
+T: Opera
+T: the Ape's Dance
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.87 "I 2"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: It's not obvious why the B in bar 12 has a flat sign. Perhaps to prevent musicians playing a B natural, since it looks like a cadence on C minor.
+M: 6/4
+L: 1/4
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B | B3 cF2 | B3- B2d/c/ | B2e/d/ cF2 | B3- B2f | d2g f2b | af2 b2a | gaf gc2 | f3- f2 |]
+f | f2d f2B | fdB f2d | gfd eGc | _B3 c2f | dBb a2g | fdg f2d | (e/d/)cA fd2 | c3 B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the Presence, Lead up all forward and back .| That again :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First man and 2. wo. change places, then 1. man and 2. wo. and 1 wo. and 2. man, take hands and
+%% walk round till you have just changed places, then fall back, then all four cross over in each other's
+%% places, then take hands and do the same thing again, and at the second crossing, the men take hands
+%% with your own and put back, then right-hands to your own, and left to the other wo. then 1 man go
+%% down behind the 2. wo. and the 1. wo. in the middle, the man up in the middle, and the wo. up 
+%% behind the man, then set to each other and cast off: So to the bottom.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

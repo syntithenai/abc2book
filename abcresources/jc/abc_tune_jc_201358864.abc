@@ -1,0 +1,94 @@
+
+X: 1
+T: New Australian Tunes
+K:
+
+%%sep 1 1 500
+
+X: 2
+T: Annie Shaw's tune
+O: from Sally Sloane
+R: waltz
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: https://sallysloane.wordpress.com/tunes/annie-shaws-tune/
+N: The source copy has a final repeat symbol, but no matching begin-repeat symbol.
+M: 3/4
+L: 1/8
+K: D
+|: "D"f6- | f2 e2 zd | A6 | z2 d2 f2 | a3za2 | a2 b3f | a6 | "A7"g6 |
+[1 "Em"B6- | B2 e2 f2 | "D"A6- | A2 (3ege d2 | "A"c2 e2 d2 | c2 B2 A2 | "Em"B6 | "A"A6 :|
+[2 "Em"B6- | B2 g2 f2 | "D"A6- | A2 e2 d2 | "A"c2 B2 A2 | "Em"B4 c2 | "D"d6- | d4 ze |]
+|| "D"f2 ff f2 | "A"e2 a4 | "D"f2 ff f2 | "A"e2 a4 | "D"f3 f f2 | "A7"g4 e2 | "D"d6 | "A7"c2 B2 A2 |
+|  "D"f2 ff f2 | "A"e2 a4 | "D"f2 zfff | "A7"e2 b4 | "D"a2 f2 g2 | f4 e2 | d6- | d4 (3BcB |
+|| "D"A6 | "Em"B6 | "A7"c2 B2 c2 | "D"d6 | "A7"g6 | "D"f6 | "A7"e2 B3 d | c4 (3BcB |
+|  "D"A6 | "Em"B6 | "A7"c2 B2 c2 | "D"d4 f2 | "A"e4 e2 | "Em"B4 A2 | "A7"(c2 B2 c2) | "D"d6 |]
+
+%%sep 1 1 500
+
+X: 3
+T: Sally Sloan's Jig    [C]
+C: from Sally Sloan's lilting
+O: Australia
+S: https://sallysloane.wordpress.com/tunes/sally-sloanes-jig/
+R: jig
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+G |:\
+AGE c2G | AGE ABc | AGE c2G | Add d2G |\
+AGE c2G | AGE ABc | Add cAG | EDD D2G :|
+|:\
+Add Acc | Add cAG | Add Acc | dcA G3 |\
+Add Acc | Add cAG | cAG FGA | GED D2G :|
+
+%%sep 1 1 500
+
+X: 4
+T: Sally Sloan's Jig    [G]
+C: from Sally Sloan's lilting
+O: Australia
+S: https://sallysloane.wordpress.com/tunes/sally-sloanes-jig/
+R: jig
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+d |:\
+edB g2d | edB efg | edB g2d | eaa a2d |\
+edB g2d | edB efg | eaa ged | BAA A2d :|
+|:\
+eaa egg | eaa ged | eaa egg | age d3 |\
+eaa egg | eaa ged | ged cde | dBA A2d :|
+
+%%sep 1 1 500
+
+X: 5
+T: Sally Sloane's polka    [D]
+R: polka
+S: tradtunes 2018-2-9 from Ian Hayden ianhayden:hotmail.com
+M: 2/4
+L: 1/8
+K: D
+A/2G/2 |\
+"D"FA d2 | ed "G"B>A | "D"BA GF | "A"E3 A/2G/2 |\
+"D"FA dA/2d/2 | ed "G"B>A | "D"BA "A"G>E | "D"D3 :|
+|: A/2A/2 |\
+"A"AG GB/2B/2 | "D"BA A>F | "A"AG E>G | "D"F2-FA/2A/2 |\
+"A"AG GB/2B/2 | "D"BA A>F | "A"A/2d/2c/2B/2 A/2G/2F/2E/2 | "D"D3 :|
+
+%%sep 1 1 500
+
+X: 6
+T: Sally Sloane's polka    (G)
+R: polka
+S: tradtunes 2018-2-9 from Ian Hayden ianhayden:hotmail.com
+M: 2/4
+L: 1/8
+K: G
+d/2c/2 |\
+"G"Bd g2 | ag "C"e>d | "G"ed cB | "D"A3 d/2c/2 |\
+"G"Bd gd/2g/2 | ag "C"e>d | "G"ed "D"c>A | "G"G3 :|
+|: d/2d/2 |\
+"D"dc ce/2e/2 | "G"ed d>B | "D"dc A>c | "G"B2-Bd/2d/2 |\
+"D"dc ce/2e/2 | "G"ed d>B | "D"d/2g/2f/2e/2 d/2c/2B/2A/2 | "G"G3 :|

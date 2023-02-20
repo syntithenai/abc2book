@@ -1,0 +1,32 @@
+X: 1
+T:St. Patrick's Day in the Morning
+M:6/8
+L:1/8
+Q:80
+C:Traditional Irish
+S:March 6/8
+K:HP
+|: A|
+{Gdc}d3/2e/2d{gdG}d3/2f/2g|
+a2{GdG}a{g}a3/2f/2d|
+{g}e2{GdG}e{g}f3/2d/2A|  !
+{g}B3/2c/2B{gBd}B2A|
+{Gdc}d3/2e/2d{gdG}d3/2f/2g|
+a2{GdG}a{g}a3/2f/2d|  !
+{g}e2{GdG}e{g}f3/2d/2A|
+{g}B2c{Gdc}d2:|
+{g}A3/2B/2c{Gdc}d{e}B|  !
+{gcd}c2{e}A{gBd}B3|
+{g}A3/2B/2c{Gdc}d3/2e/2d|
+{gcd}c3/2{g}B/2{d}A{gBd}B3|  !
+{g}A3/2B/2c{Gdc}d3/2e/2d|
+{gcd}c3/2{g}B/2{d}A{gBd}B2c|
+{Gdc}d3/2e/2d{gdG}d3/2f/2g|  !
+a2{GdG}a{g}a3/2f/2d|
+{g}e2{GdG}e{g}f3/2d/2A|
+{g}B3/2c/2B{gBd}B2A|  !
+{Gdc}d3/2e/2d{gdG}d3/2f/2g|
+a2{GdG}a{g}a3/2f/2d|
+{g}e2{GdG}e{g}f3/2d/2A|  !
+{g}B2c{Gdc}d2|]
+

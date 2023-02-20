@@ -1,0 +1,20 @@
+X: 893
+T: O'Donovan's hornpipe   #2
+R: hornpipe
+%S: s:2 b:16(5+5)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #893
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0893/oneill-1001-0893-1.abc
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play (A1A2)x2 + (BA2)x2
+M: C
+L: 1/8
+K: D
+"^A"[|] (3(DEF) \
+|: G(FGB) AFDc | d(cdf) ecA \
+[1,3 f | gfe(g (3faf) df | (3efe (3dcB (3ABA (3GFE :|\
+[2,4 g | (3faf (df) (3gbg (ec) |
+| d(f (3edc "^fine"d2) "^B":: (3(ABc) \
+| d(cdf) afdf | afb(f af)df \
+| (3(gbg) (eg) (3(faf) (df) | (3efe (3dcB (3ABA (3GF"^->A2"E |] y

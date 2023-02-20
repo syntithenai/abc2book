@@ -1,0 +1,25 @@
+X: 112
+T: De Doi Din Banat
+O: Romania
+S: Mihai and Alexandru David, Gypsy Camp Vol. 1
+M: 2/4
+L: 1/8
+Q: 1/4=300
+K: GDor
+%%MIDI gchord fzzz
+|:"F"c2de |f2fe   |"Gm"d2dc|"Eb"B2BA |\
+  "F"A2A2 |F2A2   |"Gm"B2Bc|B4       |
+  "F"c2de |"F"fefg|fedc    |"Gm"B2BA |\
+  GCBA    |GCBA   |GCBA    |G4       :|
+|:"F"A2AF |F2A2   |AFAc    |"Gm"B3C  |\
+  "F"A2AG |F2A2   |f_edc   |"Gm"BAA2 |
+  "F"A2AF |F2A2   |AFAc    |"Gm"B3C  |\
+  GCBA    |GCBA   |GCBA    |G4       :|
+Q: 1/4=250
+K: F
+|:"F"z2f2 |c2c2   |"Gm"BAG2|B2"F"c2  |\
+  z2f2    |c2c2   |"Gm"BAGF|"Am"EGF2 :|
+|:"Am"EFG2|GFG2   |GFGA    |G4       |\
+  "F"FGAB |c3B    |A2AF    |"Gm"GGG2 |
+  "Am"EFG2|GFG2   |GFGA    |G4       |\
+  "F"c3B  |A2AF   |"Gm"G2GF|GFGA     |"F"F4 :|

@@ -1,0 +1,29 @@
+X: 31223
+T: COTILLION No. 20. BEETHOVEN SETT tune 3
+C:
+%R: reel, march
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.122 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+GG |\
+G2EE E2(cB) | cBcd c2GG | G2EE E2d^c | d^cde d2 GG |\
+G2EE E2cB | cBcd e2 ef | gagf efed | c2e2c2 H|]
+ef |\
+(ga)g^f g2g=f | (ef)ed c2de | (fg)fe f2fe | ded^c d2ef |\
+gag^f g2g=f | efed c2cd | (fg)fe dcBd | c2e2"^D.C."c2 |]
+G2 |\
+(_A4 G2)GG | ^F2G2d2G2 | (_A4 G2)GG | ^F2G2e2G2 |\
+(_A4 G2)GG | ^F2G2d2GG | ^F2G2f2B2 | c6 "^D.C."y |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple forward and back,
+%% lady cross over,
+%% forward three,
+%% two ladies cross over.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,91 @@
+
+X: 1
+T: Masters In This Hall   [Em]
+T: The Female Saylor
+T: Marche pour les Matelots
+C: Marin Marais 1706
+N: Composed for the opera Alcyone of 1706.
+N: Feuillet/Playford 1706
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Playford Ball
+B: Recu\"eil de Contredances (Feuillet)
+B: Barnes
+M: 6/8
+L: 1/8
+K: Em
+|: "Em"E2B "B7"B2A  | "Em"G3 "Am"A3 |  "Em"B2A "B7"G2F  | "Em"G2F "B7"E2^D \
+|  "Em"E2B "B7"B2A  | "Em"G3 "Am"A3 |  "B7"B2A     G2F  | "Em"E6 :|
+|: "Em"g2f "B7"e2^d | "Em"e3     B3 |  "Em"g2f "B7"e2^d | "Em"e3 "E7"B2=d \
+|  "Am"c2A "B7"B2F  | "Em"G2E   G2A |1 "B7"B2B     ^d2d | "Em"e3 "B7"f3 :|2 "B7"B2B G2F | "Em"E6 |]
+
+%%sep 1 1 500
+
+
+X: 2
+T: Masters In This Hall   [Am]
+T: The Female Saylor
+T: Marche pour les Matelots
+C: Marin Marais 1706
+N: Composed for the opera Alcyone of 1706.
+N: Feuillet/Playford 1706
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Playford Ball
+B: Recu\"eil de Contredances (Feuillet)
+B: Barnes
+M: 6/8
+L: 1/8
+K: Am
+|: "Am"A2e "E7"e2d  | "Am"c3 "Dm"d3 | "E7"e2d     c2B  | "Am"c2B "E7"A2^G \
+|  "Am"A2e "E7"e2d  | "Am"c3 "Dm"d3 | "E7"e2d     c2B  | "Am"A6 :|
+|: "Am"c'2b "E7"a2^g | "Am"a3     e3 | "Am"c'2b "E7"a2^g | "Am"a3 "(A7)"e2=g \
+|  "Dm"f2d "E7"e2B  | "Am"c2A   c2d |1"E7"e2e    ^g2g  | "Am"a3 "E7"b3 :|2 "E7"e2e c2B | "Am"A6 |]
+
+%%sep 1 1 500
+
+
+X: 3
+T: Masters In This Hall   [Dm]
+T: The Female Saylor
+T: Marche pour les Matelots
+C: Marin Marais 1706
+N: Composed for the opera Alcyone of 1706.
+N: Feuillet/Playford 1706
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Playford Ball
+B: Recu\"eil de Contredances (Feuillet)
+B: Barnes
+M: 6/8
+L: 1/8
+K: Dm
+"A"|:\
+"Dm"D2A "A7"A2G  | "Dm"F3 "Gm"G3 |  "Dm"A2G "A7"F2E  | "Dm"F2E "A7"D2^C |\
+"Dm"D2A "A7"A2G  | "Dm"F3 "Gm"G3 |  "A7"A2G     F2E  | "Dm"D6 :|
+"B"|:\
+"Dm"f2e "A7"d2^c | "Dm"d3     A3 |  "Dm"f2e "A7"d2^c | "Dm"d3 "D7"A2=c |\
+"Gm"B2G "A7"A2E  | "Dm"F2D   F2G |1 "A7"A2A     ^c2c | "Dm"d3 "A7"e3 :|2 "A7"A2A F2E | "Dm"D6 |]
+
+%%sep 1 1 500
+
+
+X: 4
+T: Masters In This Hall   [Gm]
+T: The Female Saylor
+T: Marche pour les Matelots
+C: Marin Marais 1706
+N: Composed for the opera Alcyone of 1706.
+N: Feuillet/Playford 1706
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Playford Ball
+B: Recu\"eil de Contredances (Feuillet)
+B: Barnes
+M: 6/8
+L: 1/8
+K: Gm
+|: "Gm"G2d "D7"d2c  | "Gm"B3 "Cm"c3 | "D7"d2c     B2A  | "Gm"B2A "D7"G2^F \
+|  "Gm"G2d "D7"d2c  | "Gm"B3 "Cm"c3 | "D7"d2c     B2A  | "Gm"G6 :|
+|: "Gm"b2a "D7"g2^f | "Gm"g3     d3 | "Gm"b2a "D7"g2^f | "Gm"g3 "(G7)"d2=f \
+|  "Cm"e2c "D7"d2A  | "Gm"B2G   B2c |1"D7"d2d    ^f2f  | "Gm"g3 "D7"a3 :|2 "D7"d2d B2A | "Gm"G6 |]

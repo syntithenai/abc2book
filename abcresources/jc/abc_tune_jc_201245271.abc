@@ -1,0 +1,38 @@
+X:1
+%%Copyright 1918, Broadway Music Corporation, New York
+T:After you've gone
+M:4/4
+L:1/8
+C:Creamer & Layton
+Q:1/4=240
+%%staves (chords melody)
+K:Bb
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"Ebmaj7"x4 x4 | "Ebm6"x4 x4 | "Bbmaj7"x4 "( Eb7 )"x4 | "Dm7"x4 "G7"x4 ||
+V:melody
+GBcd-d4 | zcdc dc3 | DFGA-A4 | zGAG AG3 ||
+w:Af-ter you've gone,* and left me cry-ing, af-ter you've gone,* there's no de-ny-ing,
+P:B
+V:chords
+"C7"x4 x4 | "F7"x4 x4 | "Bb6"x4 x4 | "Bb7"x4 x4 ||
+V:melody
+Gd2d-d4 | Gc2c-c4 | zFGF AFGF | BD2F-F4 ||
+w:you'll feel blue,* you'll feel sad,* you'll miss the best-est gal you've ev-er had.*
+P:A
+V:chords
+"Ebmaj7"x4 x4 | "Ebm6"x4 x4 | "Bbmaj7"x4 "( Eb7 )"x4 | "Dm7"x4 "G7"x4 ||
+V:melody
+GBcd-d4 | zcdc dc3 | DFGA-A4 | zGAG AG3 ||
+w:There'll come a time,* now don't for-get it, there'll come a time,* when you'll re-gret it.
+P:C
+V:chords
+"Cm7"x4 "G7"x4 | "Cm7"x4 "Ab7"x4 | "Bb6"x4 "Am7b5"x2"D7"x2 | "Gm7"x4 "C7"x2"C#dim7"x2 |
+"Dm7"x4 "G7"x4 | "Cm7"x4 "F7"x4 | "Bb6"x4 x4 | "( Fm7"x4 "Bb7 )"x4 |]
+V:melody
+e4d4 | c^FGd-d2c2 | z^cdB =c=BcA | _B^CDA-A2G2 |
+w:Oh! Babe, think what you're do-*ing, you know my love for you will drive me to ru-* in,
+FGBd-d4 | zEFA c2d2 | dB-B6- | Bz z6 |]
+w:af-ter you've gone,* af-ter you've gone a-way.***

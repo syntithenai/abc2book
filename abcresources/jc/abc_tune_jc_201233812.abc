@@ -1,0 +1,31 @@
+X: 20122
+T: JACKY TAR.*
+R: Hornpipe.
+%R: hornpipe, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.12 #1 (and p.13 #1)
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Em
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(EF) |\
+GFGE g3(f/e/) | (dB)GB c3(B/A/) |\
+G2(FE) (D>E)(FA) | d2A2 A2(BA) |\
+GFGE g3f/e/ | (dB)(GB) c3(B/A/) |\
+{A}G2(FE) (^DE)(FA) | G2E2 E2 |]
+B2 |\
+e2e2 (efge) | d2B2 B3^c |\
+(d^c)(de) faef | d2A2 A2(Bd) |\
+(ed)(ef) {a}g3f/e/ | (dB)(GB) {d}c3(B/A/) |\
+{A}G2(FE) (^DE)(FA) | G2E2E2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% * The old name of this melody is the "Cuckoo's Nest."
+%% Sir Robert Ayton's song, as altered by Burns,
+%% "I do confess that thou art fair," is set to
+%% this tune in Johnson's Musical Museum.
+%%endtext
+%%sep 1 1 300

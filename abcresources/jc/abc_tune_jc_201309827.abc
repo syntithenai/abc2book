@@ -1,0 +1,30 @@
+X: 1
+T: the Miller of Mansfield
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #21 (11)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd Strain has 10 bars.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+G>AG B>AG | dBG A2D | G>AG B>AG | dBG A2F/G/ |\
+AFG AFG | AFG A2d/^c/ | d^cB AGF | GEA D2 :|
+|: D |\
+F>GA AFD | ABc B2B | edc BAG | AFB E2E |\
+^GBE AcA | FDF G2G/A/ | BAG dBG | dBG D2G/F/ |\
+GFE DcB | AGF G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+%% The 1st Cu. foot it twice and cross over and half figure up
+%% .| foot it again and half figure with the 3d Cu. :| The 1st
+%% Man foots it to the 3d Wo. and his Partner at the same
+%% Time to the 2d Man then the 1st Man swings with the 2d
+%% Wo. and his Partner with the 3d Man at the same TIme .|
+%% then clap Hands twice and foot it twice and lead thro
+%% the 3d Cu. and cast up :|
+%%endtext
+%%sep 1 8 500

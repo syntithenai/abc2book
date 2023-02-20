@@ -1,0 +1,23 @@
+X: 687
+T: Jenny's Welcome to Charley   #2
+R: reel
+%S: s:7 b:29(5+3x(4x2)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #687
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0687/oneill-1001-0687-1.abc
+%m: Tn = (3n/o/n/
+N: Compacted via repeat with multiple endings [JC]
+M: C|
+L: 1/8
+K: Dmix
+"^A"\
+|: D3B AGEF | GEcE dEcE | D2(dc) AGEG | (3(ABA) (AG) [1 EFGE :[2 (TED)D2 |]
+"^B"\
+[| d3e     dcAB | cAdB cAGB | Addc (Tdcd)B | cAGE (TED)D2 ||
+|| (Tdcd)e dcAB | cAdB cAGE | D2(3(EFG) AddB | cAGE TEDD2 |]
+"^C"\
+[| eaag (Tage)f | geaf gedg | eaag (Taga)a | agea e2d2 ||
+|| eaag   agef  | geaf gedB | A2(3(Bcd) e2dB | cAGE TEDD2 |]
+"^D"\
+[| dfec dfed | cAAB c2(AG) | Ad{e}dc (Tdcd)d | eaag e2d2 ||
+|| dcdc dfed | cAAB cdcA | GAcd (3(efe) de | cAGc (3(ABA) "_D.C."GE |]

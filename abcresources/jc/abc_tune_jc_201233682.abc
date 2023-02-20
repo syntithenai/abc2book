@@ -1,0 +1,36 @@
+X: 20071
+T: the ROSE THAT ALL ARE PRAISING
+C:
+%R: jig, waltz, air
+B: Elias Howe "The Musician's Companion" 1843 p.7 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Final notes shortened to fix the rhythm of repeats.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+A |\
+A2G G2F | F3 G3 | ABA GFA | G3- G2G |\
+A2G G2F | F3 G2G | ABA {A}GFG | F3- F2 |]
+G |\
+A2A ABc | G2G GFG | A2A ABc | cG2 HG2^G |\
+A2G GF2 | F3 G3 | A B> A H(A>G) (F/G/) | F3 F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+F |\
+F2E E2F | F3 E3 | FGF EDF | E3- E2E |\
+F2E E2F | C3 E2E | FGF {F}ECF | [F3-C3-] [F2C2] |]
+E |\
+F2F FGA | E2E EDE | F2F FGA | AE2 HE2E |\
+F2E EC2 | C3 E3 | F G> F HF>E F | F3 F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+f |\
+f2c c2f | f3 c3 | f3 c3 | c3 c3 |\
+f2c c2f | f3 c3 | f3 c3 | f3- f2 |]
+c |\
+f3 f3 | c3 c3 | f3 f3 | d3 c3 |\
+f3 d3 | c3 c3 | f3 f3 | c3 f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

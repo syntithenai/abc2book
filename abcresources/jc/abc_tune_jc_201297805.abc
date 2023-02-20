@@ -1,0 +1,21 @@
+X: 1
+T: Kolomeike
+C: trad. arr. Shana Aisenberg
+R: khusidl
+S: Fiddle Hell Online 2022-4-2 handout for Shana Aisenberg workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+%%slurgraces yes
+%%graceslurs yes
+M: 2/4
+L: 1/16
+K: Dm
+"^A"|:\
+"Dm"A,DFA (^GA)FA | (^GA)FA {GA}GFED | A,DFA (^GA)FG | A4 d4 |
+"Dm"A,DFA (^GA)FA | (^GA)FA {GA}GFED | FE(GF) "A"EDEF | "Dm"D8 :|
+"^B"|:\
+"Gm"D2 G4 (G^F) | G2 G4 (G^F) | G2G4 G2 | G2F2 "Dm"{G}A4 |
+(^GAG)F EDEF | D2DA, D2D2 | (^GAG)F "A"EDEF |[1 "Dm"D8 :|[2 "Dm"D6 A2 |
+"^C"|:\
+"Dm"d6 (^ce) | d6 (^ce) | d4 d4 | d4 d4 |
+(dc)(cB) B-A(Ad) | (dc)(cB) B-A(Ad) | (dc)(cB) B-AA^G | {^GA}G2F2 A4 |
+D2(GF) ({EF}ED)EF | D2DA, D2D2 | D2(GF) "A"({EF}ED)(EF) |[1 "Dm"D6 A2 :|[2 "Dm"D8 |]

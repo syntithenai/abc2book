@@ -1,0 +1,32 @@
+X: 023
+T: CROWHILLOCK.
+C: ARCHd DUFF
+R: Strathspey
+B: Glen Collection p.2 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: A
+%
+V: 1
+E2 |\
+A3BA2a2 e2c2c2e2 | E3FE2c2 dcBA G2B2 |\
+A3BA2a2 ec3c2e2 | dcBA G3B AAA2 A2 :|
+f2 |\
+a3ba2e2 c3de2c2 | d3ed2c2 B3cd2B2 |\
+a3ba2e2 c3de2c2 | dcBA G2B2 AAA2 A2f2 |
+a3ba2e2 c3de2c2 | d3ed2c2 B3cd2B2 |\
+AE3cA3 ec3ac3 | dcBA G3B AAA2 A2 |]
+%
+V: 2
+z2 |\
+A4[c'4a4e4] [c'4a4e4][c'4a4e4] | [c'4a4e4][c'4a4e4] [b4g4e4][d'4b4e4] |\
+A4[c'4a4e4] [c'4a4e4][c'4a4e4] | [b4g4e4][d'4b4e4] A4 [c'2a2e2] :|
+z2 |\
+A4[c'4a4e4] [c'4a4e4][c'4a4e4] | [b4g4e4][b4g4e4] [d'4g4e4][b4g4e4] |\
+A4[c'4a4e4] [c'4a4e4][c'4a4e4] | e4[d'4b4e4] A4[c'4a4e4] |
+A4[c'4a4e4] [c'4a4e4][c'4a4e4] | [b4g4e4][b4g4e4] [g4e4][b4g4e4] |\
+A4[a4e4] [c'4a4e4][a4e4] | e4 [d'4b4e4] [c'4a4e4][a2A2] |]

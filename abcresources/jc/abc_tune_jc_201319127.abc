@@ -1,0 +1,26 @@
+X:1
+T: Oil the Locks
+N:
+C:Claudio Buchwald
+S:Play  3  times
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 35 notes)
+K:Am
+M:4/4
+L:1/16
+e2 d2 |c4 e4 B4 e4 |A4 e4 G8 |A2 B2 c4 B8 |A2 B2 c4 B4 e2 d2 |c4 e4 B4 e4 |A4 e4 G4 c2 B2 |A4 c4 ^F4 B4 |E12 e2 d2 |
+%W: A2
+% voice 1 (1 lines, 32 notes)
+c4 e4 B4 e4 |A4 e4 G8 |A2 B2 c4 B8 |A2 B2 c4 B4 e2 d2 |c4 e4 B4 e4 |A4 e4 G4 c2 B2 |A4 c4 ^F4 B4 |E12 E4 |
+%W: B
+% voice 1 (1 lines, 29 notes)
+F2 G2 A4 G4 F4 |E4 C8 E4 |F2 G2 A4 A2 B2 c4 |d12 e4 |f4 d4 B4 d4 |^G4 B4 E4 D4 |C4 A4 E4 ^G4 |A16 |
+%W: C
+% voice 1 (1 lines, 21 notes)
+c8 d8 |e6 d2 c4 B4 |A4 B4 ^F2 ^G2 A2 B2 |^G4 E8 e2 d2 |c4 e4 E4 ^G4 |A12 ||

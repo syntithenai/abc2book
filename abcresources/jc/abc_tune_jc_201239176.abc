@@ -1,0 +1,20 @@
+X: 3222
+T: the Maids of Isla.   a Strathspey.
+%R: strathspey
+N: This is version 2, for ABC software that understands voice overlays.
+N: The abc1 version is probably better notation for when double stops are really just chords.
+N: This abc2 version merely duplicates the stem directions used for notes in chords.
+B: Niel Gow & Sons "Complete Repository" v.3 p.22 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+c |\
+A<A e>c e>f ec | A<A e>c Tfec2 | A<A e>c e>f {f}e>c | x6 B & Tf>g a>f e<c G :| e | Ta>b af e>f ec | ~a>b af e<f c2 |
+~a>b af e>f ec | Tf>g af e<c B>e || ~a>b af e>f ec | a>baf e<fc2 | ab fa ef c>e | x6 B & Tf>g af ec G |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | a2a2 a2a2 | x4 d'2c'2 & a2a2 a2a2 | a2a2 a2c'2 | d'2d'2 e'2e :| z | a2a2 a2a2 | a2a2 a2a2 |
+a2a2 a2c'2 | d'2d'2 e'2e2 || a2a2 a2a2 | a2a2 a2a2 | c'2d'2 c'2a2 | d'2d'2 e'2e |]

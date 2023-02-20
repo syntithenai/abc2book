@@ -1,0 +1,19 @@
+X: 8501
+T: Erev Tov
+O: Israel
+C: Sato Hacohen 1977
+F: https://www.youtube.com/watch?v=hBJwv76xc5I
+M: 2/4
+L: 1/8
+K: C
+Q: 1/4=150
+%%MIDI program 40 violin
+%%MIDI bassprog 24 Acoustic Guitar
+%%MIDI gchord zf
+"C"E>=F G>_A   |"Dm"G>=F _A/G/F|"C"E>C E>C        |C4         ::
+L: 1/16
+%%MIDI gchord zf
+"C"C2 z2 D2E2  |"F"z4 F2G2    |"G"_A2G2 "C" F2E2 |^C2G2 z4    |\
+"C"C2 z2 D2E2  |"F"z4 F2G2    |"G"_A2G2 "C" F2E2 | _D2C2 z4  ::
+"F"F4 _A4-     |A2 z2 "G"G2F2 |"C" E2F2 G2_A2    |"G" G4 z4   |\
+"C"E4 G4-      |G2 z2 G2F2    | E2F2 G2_A2       |"F" F4 z4  :|

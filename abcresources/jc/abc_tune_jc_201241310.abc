@@ -1,0 +1,25 @@
+X: 4313
+T: Johnny Grot's House
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+N: Bar 8 was missing its dot; added to fix the rhythm.
+M: 2/4
+L: 1/8
+K: F
+%
+V: 1
+c | f/f/f fa | f/f/f fa | f>gfA | G3A | F/F/F FA | F/F/F Ff | c>dcA F3 :|
+|: A/B/ | c>dcA | c/c/c cf | d>dca | {a}g3 (f/g/) | a/a/a ad | g/g/g gc | f/f/f AG | F3 |]
+%
+V: 2 clef=bass middle=d
+z | f4- f4 | f2d2 | e2c2 | f4- | f4 | f2c'2 | f3 :|
+|: z | a2zf | a2zf | a2zf | e2c2 | f2z2 | e2z2 | AB cC | F3 |]
+%%begintext align
+The 1st Man foot it to his Partner and turn the 2d Wo. and stop in the 2d Man's Place,
+and the 2d Man turn the 1st Wo. at the same time the 1st Man was turning the 2d Wo. and
+stop in the 1st Man's Place.  Then the 2d Man foots it to the 1st Wo. and turns his own
+Partner and stops in his own Place, and the 1st Man turns his Partner at the same time
+and stops in his own Place.  First and 2d Cu. lead downwards abreast and hands
+half round, then lead up abreast and cast into the 2d Cu.s Place.
+%%endtext

@@ -1,0 +1,23 @@
+X: 1798
+T: the Garden of Daisies - 2nd Setting
+T: gort na noininea.d
+R: hornpipe, reel, "long dance"
+%S: s:4 b:26(6+7+6+7)
+O: Tuohy
+S: O'Neill's "Music of Ireland" 1850 #1798
+N: Notation for last 2 notes of the first ending of the first part don't account for the
+N: 2 note lead-in. Endings 1 and 2 in second part seem to be reversed.
+B: O'Neill's 1850 #1798
+Z: Robert Thorpe (thorpe@skep.com)
+Z: ABCMUS 1.0
+M: C|
+L: 1/8
+K: D
+(fg) !segno!\
+|: a2(af) gbag | fefa gfef | dcde fdec | dedc AGFG |
+| ABcA dcAG | FEFG ABcA | dcdf edce |1 d2dd defg :|2 d2dd d2 |]
+|: A2 \
+| dcde fefg | a2(af) defg | a2(af) ggag | f2(fe) defg |
+| a2(af) gbag | fefa gfef | dcde fdec | dedc A2 (fg) |
+| a2(af) gbag | fefa gfef | dcde fdec | dedc AGFG |
+| ABcA dcAG | FEFG ABcA | dcdf edce |1 d2dd d2 :|2 d2dd def!segno!g |]

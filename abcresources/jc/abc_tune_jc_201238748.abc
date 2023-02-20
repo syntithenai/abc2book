@@ -1,0 +1,30 @@
+X: 31261
+T: COTILLION No. 22. PILGRIM tune 1
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.126 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+B/c/ |\
+d2d e2d | B2B d2B | A2A AGA | A3 G2 B/c/ |\
+d2d e2d | B2B d2B | A2A AGA | G3 G2 H|]
+g |\
+fef def | g3 d2e | c2d B2c | A^ce D2 g |\
+fef def | g3 ged | ^c2c cBc | dfd "^D.C."d2 |]
+B |\
+d3 g3 | fef B2B | c2A F2B | GFG D2 B |\
+e3 g3 | fef B2B | c2A F2B | E3- "^D.C."E2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right and left 4,
+%% balance 4,
+%% ladies chain,
+%% promenade 4.
+%% Sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

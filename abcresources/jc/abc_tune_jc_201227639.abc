@@ -1,0 +1,25 @@
+X: 10901
+T: THE MARQUIS OF HUNTLY -- Strathspey (Variations)
+R: strathspey
+B: K\"ohler's Violin Repository, v.1, 1885 p.90 #1
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Added triplet notation to the 2-note "triplets" in bars 23, 24.
+M: C|
+L: 1/8
+K: Gm
+[|\
+vD<G(G>F) (D<G)G2 | (F>G)AB c/B/A/G/ F>A |\
+D<G(G>F) (D<G)Ge | f>c d/c/B/A/ {A}G2G2 |
+D<G(G>F) (D<G)(G>A) | (F>G)AB c/B/A/G/ FA |\
+D<G(G>F) (D<G)Gg | f>c d/c/B/A/ {A}G2G2 |]
+v(.g>.a)(bg) afgd | fdcf (.A>.F)(cA) |\
+(.g>.a)(bg) a^fgd | (3gab (3ag^f g2(g>a) |
+g>a(bg) afgd | fdcf (.A>.F)(cA) |\
+d<G(G>F) (D<G)G>g | f>c d/c/B/A/ {A}G2G2 |]
+|: v(3DGG (3G^FG (3DGB (3GBd | (3AFA (3cAc (3afd (3AcA |\
+(3DGB (3GBd (3gdg (3bag | (3fad (3cBA (3BGG G2 :| ud |
+(3gbg (3dgd (3gdg (3bag | (3faf (3cde (3fcf (3agf |\
+((3:2:2g2a) (3bag (3fba (3fdb | (3fdf (3Bdc (3BGG ((3:2:2.G2.d) |
+(3gbg (3dgb (3ag^f (3gdg | (3faf (3cfc (3Acf (3cAF |\
+(3DGB (3dBG (3DGB (3dgb | (3agf (3cfA (3B"_Segue Reel."GG "^D.C."G2 |]

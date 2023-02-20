@@ -1,0 +1,18 @@
+X: 249
+T: Kraljevo Kolo
+O: Serbia
+F: http://www.youtube.com/watch?v=v4ZVYhZ5XpU
+M: 2/4
+L: 1/16
+K: Fmin octave=-1
+Q: 1/4=96
+%%MIDI program 20 Reed Organ
+%%MIDI chordprog 58 Tuba
+%%MIDI bassprog 58 Tuba
+%%MIDI chordvol 56
+%%MIDI bassvol 84
+|:"Eb"B4 =ABcB|"Ab"A4- AG_AB| "Eb".G2.E2 "Fm" F2z2|\
+"Eb"B4 =ABcB|"Ab"A4- AG_AB|"Eb".G2.E2 "Fm" F2z2::
+"Eb"B2cd edcB |"Ab"A3G AGAB|"Eb".G2.E2"Fm" F2z2|\
+"Eb"B2cd edcB |"Ab"A3G AGAB|"Eb".G2.E2 "Fm" F2z2:|\
+"Bbm"B4 G4|EF3 EF3|

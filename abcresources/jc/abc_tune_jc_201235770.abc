@@ -1,0 +1,33 @@
+X: 21363
+T: HURRICANE SETT (tune 3)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.136 #3 (and 1st staff on p.137)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+a/f/ |\
+daf daf | eag eag | fac' d'^c'd' e'e'e' e'gf |\
+daf daf | eag eag | fad' ^c'bc' d'd'd' d'2 H|]
+f3 d3 | eee e2z | e3 c3 | ddd d2z |\
+f3 d3 | eee e2z | e3 c3 | ddd d2"^D.C."z |]
+f/g/ |\
+a3 afg | [aA][d'd]d' [d'd][^c'c][d'd] | fed cBA | g3 gef |\
+g3 gef | gba gfe | ddd "^D.C."d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple forward and back,
+%% lady cross over,
+%% forward three,
+%% two ladies cross over,
+%% forward again with the other gentleman,
+%% swing partners to place,
+%% balance four,
+%% next couple forward, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

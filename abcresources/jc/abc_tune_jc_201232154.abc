@@ -1,0 +1,96 @@
+X: 1661
+T: COL. WINCHESTER'S QUICK-STEP
+C: Adam Kurek
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.166-167
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: 2nd phrase has initial repeat but no final repeat.  Final repeat added.
+N: 4th phrase has final repeat but no initial repeat.  Initial repeat added.
+N: There's a strange ">f" annotation in bars 57, 58.  I've transcribed it as text above the notes in V:2.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+U: P=!crescendo(!
+U: p=!crescendo)!
+M: 2/4
+L: 1/16
+K: Bb
+% -------------------------
+V: 1
+K: C
+|: "Bb BUGLE"\
+"_>"e2z2 "_>"c2z2 | !//!G4 "_>"A3G | e2z2 c2z2 | !p!!//!G4 A3G |\
+f4- fedc | (Bddf) a2zg | "_>"g6 f2 | e G^FG PA_Bpcd |\
+!f!e2z2 c2z2 | !p!!//!G4 "_>"A3G |
+!f!e2z2 c2z2 | !//!G4 "_>"A3G |\
+f4- f .G.B.d | cegc' egce | fadf .B.d.G.B | c2e2c2z2 :|\
+|:\
+!p!B4!trem1!^G4 | B4!trem1!^G4 | c4!trem1!A4 | c4!trem1!A4 |
+^F4!trem1!A4 | B4!trem1!G4 | c4!trem1!A4 | B2B2B2z2 :|\
+|:\
+!p!e2ed e2f2 | g2gg g2a2 | f2fe f2g2 | e4 c2cd |\
+e2ed e2f2 |
+% Page 167
+g2gf g2a2 | f2fe f2g2 | e2g2e2z2 :|\
+|:\
+!f!!/!A8 | A6 A2 | a2c'2b2a2 | g2z2 g3g |\
+c'4 .e3.f | g6 a2 | f2fe f2g2 | e2z2 g3g |
+c'4 e3f | g6 a2 | f2fe f2d2 | c2c'2c'2z2 :|\
+|:\
+!p!B2B2B2B2 | !f!A2 ^f2f2z2 | !p!A2A2A2A2 | !f!B2B2B2z2 |\
+!p!B2B2B2B2 | !f!A2 ^f2f2z2 |
+d2Ped p^cde^f | g2(=f2e2d2) |\
+"_fp"!//!.e4 e2f2 | !//!g4 g2a2 | !//!f4 f2a2 | (g4e2) !ff!c'>c' |\
+c'2g>e c'2a>f | c'2g>e c'2a>f | g2ec f2dB | c2c'2c'2z2 :|
+% -------------------------
+V: 2
+|: "Bb BUGLE OR POST HORN"\
+G2z2 G2z2 | !//!E4 "_>"F3E | G2z2 G2z2 | !p!!//!E4 F3E |\
+d4- dcBA | (GB)(Bd) f3e | "_>"e6 d2 | c2z2 z4 |\
+!f!G2z2 G2z2 | !p!!//!E4 "_>"F3E |
+!f!G2z2 G2z2 | !//!E4 "_>"F3E |\
+B4!trem1!d4 | E2G2 c2e2 | d2B2 G2F2 | E2G2E2z2 :|\
+|:\
+!p!d4- d.c.B.A | ^G2G^F GEFG | {B}A^GAB {c}cBcd | "^>"e6(3.d.c.B |
+A>G^FE D2 {^c}d2 | B2 {^c}d2 G2 {^f}g2 | f2.^f.e d=cBA | G2 g2g2z2 :|\
+|:\
+!p!c2cB c2d2 | d2dd e2f2 | d2dc d2e2 | c2 G2G2G2 |\
+c2cB c2d2 |
+% Page 167
+e2ed e2f2 | d2dc d2e2 | c2e2c2z2 :|\
+|:\
+!f!!/!f8 | f6 f2 | f2a2g2f2 | e2z2 e3e |\
+e4 c3d | e6 f2 | !p!d2dc d2e2 | c2z2 e3e |
+!f!e4 c3d | e6 f2 | d2dc d2B2 | c2e2e2z2 :|\
+|:\
+!p!DGBG d2BG | !f!^F2A2A2z2 | !p!D^FAF d2cA | !f!G2 g2g2z2 |\
+!p!DGBG d2BG | !f!^F2A2A2z2 |
+^F2PF2 pA2A2 | B2 d2c2B2 |\
+"_fp"!//!c4 c2d2 | !//!e4 e2f2 | !//!d4 d2f2 | (e4 c2)z2 |\
+"^>f"e2z2 "^>"a2z2 | "^>f"e2z2 "^>"a2z2 | e2c2 d2B2 | G2 e2e2z2 :|
+% -------------------------
+V: 3 clef=bass middle=d
+K: Bb
+|: "OPHICLEIDE"\
+b2z2 b2z2 |  b4!trem1!f4 | b2z2 b2z2 | !p!b4!trem1!f4 |\
+a4!trem1!f4 | c'4!trem1!f4 | b2f2b2f2 | b2z2z4 |\
+!f!b2z2 b2z2 | !p!b4!trem1!f4 |
+!f!b2z2 b2z2 | !p!b4!trem1!f4 |\
+c'4!trem1!f4 | b4!trem1!f4 | a4!trem1!f4 | b2f2B2z2 :|\
+|:\
+!p!^f4!trem1!d4 | ^f4!trem1!d4 | g4!trem1!d4 | g2d2g2z2 |
+g4!trem1!c4 | f4!trem1!c4 | g4!trem1!c4 |f2 F2F2z2 :|\
+|:\
+!p!B2 b2b2b2 | B2 b2b2b2 | !/!f8 |  B2 !/!b6 |\
+B2 !/!b6 |
+% Page 167
+B2 !/!b6 | !/!f8 | b2f2B2z2 :|\
+|:\
+!f!e4!trem1!B4 | E2 !/!e6 | e8 | B2z2 B2z2 |\
+!/!B8 | B8 | !p!f8 | G2 !/!b6 |
+!f!!/!B8 | B8 | f8 | B2B2B2z2 :|\
+|:\
+!p!F2 !/!f6 | !f!c2c2c2z2 | !p!!/!c8 | !f!F2 f2f2z2 |\
+!p!F2 !/!f6 | !f!A2A2A2z2 |
+!/!c8 | f2c'2b2=a2 |\
+b4!trem1!f4 | b4!trem1!f4 | a4!trem1!f4 | b2f2b2z2 |
+B2z2 b2z2 | B2z2 b2z2 | f2z2 f2z2 | b2 B2B2z2 :|

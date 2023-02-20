@@ -1,0 +1,23 @@
+X: 1
+T: the Marine Joke
+R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: The Gentleman's Magazine v.20, June 1750, p.275
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+ded e2d | c2B ABc | F2B A2e | dec B3 :: edB d2e | f2F F3 |
+cBA c2d | e2F F2e | d2F c2F | BcB AGF | A2e dec | B3- B3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+B3 gab | e2d cde | d3 e2g | f2F B3 :: f6 | d6 |
+f6 | a3 d2c' | b3 a3 | g3 f2d | e2c f2F | B3- B3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% 1st couple set and cast off one couple, the same back again ; 1st and 2d couple
+%% set, and turn single, cross, and right hand and left quite round.
+%%endtext

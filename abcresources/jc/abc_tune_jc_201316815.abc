@@ -1,0 +1,24 @@
+X: 1
+T: New Paths (harmonized low)
+C: David A. Kaynor, May 2021
+%D:2021
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+%
+V: 1 staves=2
+|: eg \
+| "A"a2ag"D" f2ed | "A"c2ec "E7"dBAG | "Bm"FAED "A/C#"CEAB | "D"cAdc "E" B2eg |
+| "A"a2ag"D" f2ed | "A"c2ec "E7"dBGE | "Bm"DFED "A/C#" CEAB | "E7"cABG "A" A2 :|
+|: AB \
+| "A"c2cA EAAB | c2cA EAAB | "F#m"cAFA cAFA | "Bm" dBfe "E" e2fg |
+| "A"a2ag "D"f2ed | "A"c2ec "E"dBGE | "Bm"DFED"A/C#" CEAB | "E7"cABG "A"A2 :|
+%
+V: 2
+|: ce \
+| e2ee d2AA | A2cA BGFE | DFB,B,  A,CEG | AFBA G2Be |
+| e2ee d2AA | A2cA BGEB, | B,DB,B, A,CEE | GEGE [E2C2] :|
+|: EG \
+| A2AE CEEG | A2AE CEEvG | AFCF AFCF | BFdB [B2G2]de |
+| e2ee d2AA | A2cA BGEB, | B,DB,B, A,CEG | GEGE[E2C2] :|

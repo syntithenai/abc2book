@@ -1,0 +1,13 @@
+X: 916
+T: the Ranting Rake
+R: jig
+%S: s:3 b:16(4+4+4+4)
+B: O'Neill's 1850 #916
+Z: Tom Keays (htkeays@mailbox.syr.edu)
+%abc 1.6
+M: 6/8
+L: 1/8
+K: G
+"^A"|: B/A/ |: G>AG G2g | dBd dBd | ege dBd |[1,3 ABA ABA :|[2,4 G>AG G2 :|
+"^B"|: G/B/ | d3 e3 |   d>ed dBG | cdc BdB | AGA BGE ||
+       y4   | d3 B3 | {B}AGA Bge | dBd gdB | G>AG G2 :|

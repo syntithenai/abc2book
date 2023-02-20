@@ -1,0 +1,280 @@
+X: 0481
+T: TREMONT QUADRILLES
+C: Composed by C. F. Bauer
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.48-52
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+V: 1 nm="VIOLINO PRIMO"
+V: 2 nm="SECONDO"
+V: 3 nm="BASSO" clef=bass middle=d
+M: 2/4
+L: 1/16
+K: D
+% ===========================================================================
+% NOTE: This unusual order of the P: and V:1 parts is a temporary  kludge  to
+% get  around  a bug in abcm2ps, which messes up initial M: and K: symbols if
+% the P: lines are first.  When the bug is fixed, we can reverse the order of
+% the V:1 and P: lines.
+V: 1
+P: 1
+%"^p48s1v1"
+zdcB |\
+A2cd e2A2 | f2d2 zefg | a2e2g2f2 | fed2 zdcB |\
+A2cd e2A2 | f2d2 zdef | gfga ^ab=ag | fedc d2z2 H|]
+%"^p48s2v1"
+e6 dc | cdBc A2BA | ^GAFG EGBd | caec A2Bc |\
+df^ga cega | Bd^ef Ac^d"^(\=)"e | "^(#)"GB^de E"^(#)"GcB | "_D.C."A4 |]
+%"^p48s3v1"
+[K:G]\
+g2fg b2ag | fgb2 d4 | e2cB A2e2 | defg d2f2 |\
+g2fg b2ag | fgbg e4 | d2fg b3a | "_D.C."g4 |]
+% -------------------------
+V: 2
+%"^p48s1v2"
+z4 |\
+z2[E2C2] z2[E2C2] | z2[F2D2] z2[F2D2] | z2[E2C2] z2[E2C2] | z2[F2D2] z2[F2D2] |\
+z2[G2A,2] z2[E2C2] | z2[F2D2] z2[F2D2] | z2[G2A,2] z2[E2C2] | D2[G2A,2] [F2A,2]z2 H|]
+%"^p48s2v2"
+c6 BA | A2^G2A2C2 | E2A,2^G,2[E2D2] | [E2C2][E2C2][E2C2][E2C2] |\
+A2F2 A2E2 | F2D2E2C2 | B,2E2[E2D2][E2D2] | "_D.C."[E4C4] |]
+%"^p48s3v2"
+[K:G]
+G,DB,D G,DB,D  | G,DB,D G,DB,D  | A,DCD FDCD | G,DB,D B,DA,D |\
+G,DB,D G,DB,D  | G,DB,D [G4_B,4] | =B,GDG FDCD | "_D.C."[D4B,4] |]
+% -------------------------
+V: 3
+%"^p48s1v3"
+z4 |\
+A2z2 A2z2 | d2z2 d2z2 | A2z2 A2z2 | d2z2 d2z2 |\
+c2z2 A2z2 | d2z2 A2z2 | c2z2 z2A2 | d2A2d2z2 H|]
+%"^p48s2v3"
+A2ce a4 | e2d2c2A2 | B2^d2e2e2 | a2A2a2a2 |\
+f2d2e2c2 | d2B2c2A2 | e2^g2b2e2 | "_D.C."a2A2 |]
+%"^p48s3v3"
+[K:G]
+g4 g4 | g4 g4 | f4 d4 | g4 G4 |\
+g4 g4 | g2B2 ^c4 | d4 d2d2 | G4 |]
+%%begintext fill
+%% Right and left four ---
+%% Balancez, turn partners ---
+%% Ladies chain ---
+%% Promenade half round ---
+%% Half right and left.
+%%endtext
+% ===========================================================================
+V: 1
+M: 2/4
+L: 1/16
+K: D
+K: A
+P: 2
+[|\
+%"^p49s1v1"
+c2f2e2^d2 | e2ac' e2c2 | e2fe B2cB | A2GF EGBd |\
+c2f2e2^e2 | fb d'4 c'a | c'aec ^de=dB | (B4 A2) H|]
+%"^p49s2v1"
+|: c>d |\
+e>^d=d>c B>AG>F | E>GA>B c>Bc>d | e>^de>^e f>ef>g | a>ga>f e>dc>d |\
+e>^d=d>c B>AG>F | E>Ac>e a2g>f | e>ec>A B>^Bc>=B | (B3c/B/ A2) :|
+% -------------------------
+V: 2
+M: 2/4
+L: 1/16
+K: D
+K: A
+[|\
+%"^p49s1v2"
+A2d2c2^B2 | c2A2c2A2 | A2A2 F2F2 | ^D2[D2A,2][E2G,2]G2 |\
+A2d2 c4 | d2 f4 f2 | ec AE FEB,D | (D4 C2) H|]
+%"^p49s2v2"
+|: A>B |\
+c>^B=B>A G>FE>D | C>EF>G A>GA>B | c>^Bc>c d>cd>B | c>Bc>d c>BA>B |\
+c>^B=B>A G>FE>D | C2E>A c2e>d | c>AE>C D>^DE>=D | (D3E/D/ C2) :|
+% -------------------------
+V: 3
+M: 2/4
+L: 1/16
+K: D
+K: A
+[|\
+%"^p49s1v3"
+a8 | a2a2a2A2 | c2c2 d2^d2 | f2B2 e2E2 |\
+A8 | d2d2d2d2 | e4 e2e2 | a2e2 A2 H|]
+%"^p49s2v3"
+|: a2 |\
+e2e2e2e2 | a2e2 c2A2 | a2A2 d2e2 | a2a2 A2A2 |\
+e2e2e2e2 | a2e2 c2A2 | e2e2 E2E2 | A2a2A2 :|
+%%begintext fill
+%% Forward two, cross over. ---
+%% Chasses de chassez, cross over to place. ---
+%% Balancez, turn partners.
+%%endtext
+% ===========================================================================
+V: 1
+M: 6/8
+L: 1/8
+K: D
+P: 3
+%"^p50s1v1"
+dcd | e2B efe | dfa gab | ag/f/e/d/ cdf |^d2e aba |\
+e'2a aba | g2e efe | a2e efe | d3 H|]
+%"^p50s2v1"
+f2f |\
+a2g g2f | f2e e2d | d2c Bdc | A3 g2g |\
+b2a a2g | g2f f2f | ^efa d'c'e | f3- f2f |
+%"^p50s3v1"
+ged cBA | dfb a3 | egb a3 | b/a/^g/a/b/c'/ d'2f |\
+ged cBA | dfb a3 | fbd' c'(c'/d'/)(b/c'/) | "_D.C."a3 |]
+% -------------------------
+V: 2
+M: 6/8
+L: 1/8
+K: D
+%"^p50s1v2"
+FEF |\
+G2G GAG | FDF EFG | FAF EFA | GAc [cG][cG][cG] |\
+[cG][cG][cG] [cG][cG][cG] | [cG][cG][cG] [cG][cG][cG] | [cG][cG][cG] [AG][AG][AG] | [A3F3] H|]
+%"^p50s2v2"
+d2d |\
+f2e e2d | d2c c2B | B2A ^GFE | C3 e2e |\
+g2f f2e | e2d d2c | cAc ^E^GB | A3- A2A |
+%"^p50s3v2"
+EGF EDC | [A3F3] FGA | E3 EFG | [A2G2][AG] [A2F2]D |\
+EGF EDC | [A3F3] dAF | Bdf e(e/f/)(d/e/) | "_D.C."[c3E3] |]
+% -------------------------
+V: 3
+M: 6/8
+L: 1/8
+K: D
+%"^p50s1v3"
+d3 |\
+ccc ccc | ddd ccc | ddd ddd | aaa aaa |\
+aaa aaa | aaa aaa | aaa aaa | d3 H|]
+%"^p50s2v3"
+d3 |\
+c3 d3 | a3 f3 | e3 e3 | A3 A3 |\
+d3 c3 | d3 f3 | c3 c3 | f3- f2d |
+%"^p50s3v3"
+c3 A3 | d3 def | c3 cde | A2A d2d |\
+c3 A3 | d3 fdA | d3 e2e | "_D.C."A3 |]
+%%begintext fill
+%% First two forward and back. ---
+%% Right hand between the side couples, forward and back. ---
+%% Turn partners to places. ---
+%% All chassez across.
+%%endtext
+%sep 5 200 5
+% ===========================================================================
+V: 1
+M: 2/4
+L: 1/16
+K: A
+P: 4
+[|\
+%"^p51s1v1"
+e2{g}a2c2{^d}e2 | A2AB c2A2 | e2dc B2f2 | e2c2A2z2 |\
+{^d}e2{g}a2{^B}c2{d}e2 | A2AB c2A2 | e2dc B2cB | A2A2A2z2 H|]
+%"^p51s2v1"
+c4 A2c2 | f4 e4 | c4 A2c2 | f4 e4 |\
+(e2G2)(G2e2) | (e2G2)(G2e2) | =f6 e2 | E4 z4 |
+%"^p51s3v1"
+c4 A2c2 | f4 e4 | c4 A2c2 | f4 e4 |\
+(e2G2)(G2e2) | (e2G2)(G2e2) | =f6 e2 | A4 "_D.C."z4 |]
+% -------------------------
+V: 2
+M: 2/4
+L: 1/16
+K: A
+[|\
+%"^p51s1v2"
+z2[E2C2] z2[E2C2] | z2[E2C2] z2[E2C2] | z2[E2D2] z2[E2D2] | z2[E2C2] z2[E2C2] |\
+A,ECE A,ECE | A,ECE A,ECE | G,EB,E G,EB,E | A,ECE A,2z2 H|]
+%"^p51s2v2"
+z2[E2C2] z2[E2C2] | z2[E2C2] z2[E2C2] | z2[E2C2] z2[E2C2] | z2[E2C2] z2[E2C2] |\
+z2[D2B,2] z2[D2B,2] | z2[D2B,2] z2[D2B,2] | z2[D2G,2] z2[D2G,2] | z2[D2G,2] z2[D2G,2] |
+%"^p51s3v2"
+z2[E2C2] z2[E2C2] | z2[E2C2] z2[E2C2] | z2[E2C2] z2[E2C2] | z2[E2C2] z2[E2C2] |\
+z2[D2B,2] z2[D2B,2] | z2[D2B,2] z2[D2B,2] | z2[D2G,2] z2[D2G,2] | [E4C4] "_D.C."z4 |]
+% -------------------------
+V: 3
+M: 2/4
+L: 1/16
+K: A
+[|\
+%"^p51s1v3"
+A2z2 A2z2 | A2z2 a2z2 | g2z2 e2z2 | a2z2 A2z2 |\
+A2a2A2a2 | A2a2A2a2 | e2e2e2e2 | A2A2A2z2 H|]
+%"^p51s2v3"
+A2z2 A2z2 | A2z2 A2z2 | A2z2 A2z2 | A2z2 A2z2 |\
+e2z2 e2z2 | e2z2 e2z2 | e2z2 e2z2 | e2z2 e2z2 |
+%"^p51s3v3"
+A2z2 A2z2 | A2z2 A2z2 | A2z2 A2z2 | A2z2 A2z2 |\
+e2z2 e2z2 | e2z2 e2z2 | e2z2 e2z2 | A4 "_D.C."z4 |]
+%%begintext fill
+%% Four ladies right hand across, left hand back, right hand to partners. ---
+%% Balancez, turn partners. ---
+%% All promenade round. (Gentlemen the same.)
+%% Ladies half grand chain, promenade half round.
+%% Ladies half grand chain again, promenade to place. ---
+%% All chassez across de chassez.
+%%endtext
+% ===========================================================================
+V: 1
+M: 6/8
+L: 1/8
+K: D
+P: 5
+[|\
+%"^p52s1v1"
+d2A d2f | d2A d2f | eAc ece | ged cBA |\
+d2A d2f | d2A d2f | eBe gBc | d3- d2 H|]
+%"^p52s2v1"
+[K:G] d |\
+g3- gfe | d2B e2d | d2A e2d | cAB G2d |\
+g3- gfg | A2A e2e | dcB AcB | G3- "_D.C."G2 |]
+%"^p52s3v1"
+[K:A]A | A2c e2c | dcd f^ga | fec A2c | cB^G EFG |\
+A2c e2c | Bcd e2e/d/ | cfe efg | a3- "_D.C."a2 |]
+% -------------------------
+V: 2
+M: 6/8
+L: 1/8
+K: D
+[|\
+%"^p52s1v2"
+[FA,][FA,][FA,] [FA,][FA,][FA,] | [FA,][FA,][FA,] [FA,][FA,][FA,] |\
+[GA,][GA,][GA,] [GA,][GA,][GA,] | [GA,][GA,][GA,] [GA,][GA,][GA,] |\
+[FA,][FA,][FA,] [FA,][FA,][FA,] | [FA,][FA,][FA,] [FA,][FA,][FA,] |\
+[GB,][GB,][GB,] [GA,][GA,][GA,] | [F3-A,3-] [F2A,2] H|]
+%"^p52s2v2"
+[K:G] z |\
+B,DG B,DG | B,DG B,DG | A,CD A,CD | A,CD B,DG |\
+B,DG B,DG | CEA CEA | B,DG CDF | [D3-B,3-] "_D.C."[D2B,2] |]
+%"^p52s3v2"
+[K:A]z |\
+C2C A,2E | F2D D2F | DCE CEA | AGE B,A,B, |\
+C2A, A2E | F2F EDB, | A,DC [E2D2][ED] | [E3-C3-] "_D.C."[E2C2] |]
+% -------------------------
+V: 3
+M: 6/8
+L: 1/8
+K: D
+[|\
+%"^p52s1v3"
+d2z d2z | d2z d2z | A2z a2z | A2z a2z |\
+D2z d2z | d2z d2z | A2z a2z | d3 d2 H|]
+%"^p52s2v3"
+[K:G] z |\
+g2z g2z | g2z g2z | f2z f2z | d2z g2z |\
+g2z G2z | c2z c2z | d2z d2z | g3- "_D.C."g2 |]
+%"^p52s3v3"
+[K:A]z |\
+A2e c2A | d2f a2d' | a2z A2z | c2b d'c'b |\
+a2e c2A | dcB ^ABd | e2z e2z | A3 "_D.C."A2 |]
+%%begintext fill
+%% First 2 right hand across, left hand back between side couples ---
+%% Forward 6, turn part. to places. ---
+%% All turn corners, turn part. to places. ---
+%% First four 1-2 promenade, 1-2 right and left to places.
+%%endtext
+%%sep 5 5 3

@@ -1,0 +1,26 @@
+X: 21331
+T: POLKA QUADRILLES. No. 4.--la Pastorelle.
+%R: polka
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.133 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Rest added to end of 1st strain, to fix the rhythm.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 !segno!|\
+D2(GF) (GA)B2 | E2(A^G) ABc2 |\
+F2e2 (ed)c2 | D2d2 (dc)B2 |\
+d2(gf) (ga)b2 | e2(a^g) (ab)c'2 |\
+e'2f2 (f^efa) | g2(gf) g2z2 H|]
+(dB)b2 (cA)a2 | gfga b2d2 |\
+(dB)b2 (cA)a2 | g2gg g2z2 |\
+(dB)b2 (cA)a2 | gfga b2d2 |\
+dgfe dcBA | G2F2!segno!G2 "D.C."z2 |]
+K:=f
+.g2.e'2.d'2.c'2 | .b2.a2.g2.e2 |\
+.c'2.e2.f2.d2 | a2(g^f) g2e2 |\
+.g2.e'2.d'2.c'2 | b2.a2.g2.e2 |\
+c'2e2 d'3b | c'2c'2c'2 "^D.C."z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

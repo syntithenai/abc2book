@@ -1,0 +1,26 @@
+X: 20331
+T: MY HEART'S IN THE HIGHLANDS.
+O: Gaelic air.
+Q: "Moderate."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.33 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+d2 (d>f)(e>d) | B2 B2 d2 | A3d (B>A) | F3 E D2 |\
+E2 F2 d2 | {B}A3 G (FE) | D2 d2 (d>e) | d4 (d>e) |\
+(f>e)(fg)(fe) | d3 c B2 |
+A3 d (BA) | {G}F3 E (F/E/D) |\
+E2 F2 d2 | (A>B)(F>A)E>F | D2 d2 (d>e) | d4 |] A2 |\
+(de) f2 (fg/a/) | f3 e (f/e/d) | B2 A2 B2 | b3 a f2 |\
+(abag)(fe) |
+(fgfe)(dc) | B2 e2 (e3/f//g//) | e3 d B2 |\
+(dc)(de)(fg) | {fg}a3 b a2 | (ba)(gf)(ed) | d3 f (ed) |\
+B3 A (Bd) | (A>B)(F>A)(E>F) | D2 d2 (d>e) | d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

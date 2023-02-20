@@ -1,0 +1,15 @@
+X: 624
+T: the Morning Dream   #2
+T: aisling na maidn
+R: air
+%S: s:3 b:14(6+4+4)
+Q: "Moderate"
+B: O'Neill's 1850 #624
+Z: John Walsh (walsh@math.ubc.ca)
+N: Compacted via repeats and multiple endings [JC]
+M: 3/4
+L: 1/8
+K: G
+"^A"[|] (de>d) | (d2 B)(gfe) | (d2 G2) (G>A) | B2 [1 (dBAG) | A2 z :|[2 (cB) ({B}A>G) | G2 z |]
+"^B"|| (gfe) | (d2 B).G.A.B | (c>d e2) (ge) | d2 (ed)(BG) | A2 z |]
+"^C"[| (gfe) | (d>B G)(cBA) | B>G E2 G>A | (Bd) ({d}c>B) ({B}AG) | G2 z |]

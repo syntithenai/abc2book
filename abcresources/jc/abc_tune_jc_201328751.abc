@@ -1,0 +1,24 @@
+X:1
+T:The Recruits  "1998.3"
+M:3/4
+L:1/8
+Q:80
+C:Charlie Glendinning, 1982
+S:March
+K:HP
+|: {g}B3/2c/2{gde}dA{e}G2 | \
+{g}A3/2B/2{GdG}cd{gef}e2 | \
+{g}B3/2c/2{gde}dA{e}Gd |
+{gcd}c3/2B{g}A{d}c{e}B2 | \
+{g}f3/2B/2{G}Ba{f}g{a}e | \
+{g}f3/2B/2{G}Bd{gcd}ce |
+{g}f3/2B/2{G}Ba{f}g{a}e | \
+{gcd}c3/2B{g}A{d}c{e}B2 :: \
+M:3/4 {g}B{G}B/2d/2-{g}d/2c/2{e}A{g}G2 |
+M:C| {g}AB/2{GdG}c/2-c/2d/2{g}e | \
+M:3/4 {g}B{G}B/2d/2-{g}d/2c/2{e}A{g}Gd | \
+M:C| {gcd}cB/2{g}A/2-A/2{d}c/2{e}B ::
+M:3/4 {g}fg/2{a}f/2-f/2e/2{g}d{gef}ea | \
+de/2{gde}d/2-d/2c/2B{gcd}cf | \
+{g}B{G}B/2d/2-{g}d/2c/2{e}A{g}Gd |
+M:C| {gcd}cB/2{g}A/2-A/2{d}c/2{e}B :|

@@ -1,0 +1,367 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 40
+B: RSCDS Book 40
+K:
+%%center Book40/4000-Title.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 4001
+T: A Reel for Jeannie
+P: Angus Grant's Reel
+C:Douglas Keir
+R:Reel (4x32)
+B:RSCDS 40-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:D
+|:A2|"D"d3A F2D2|"G"G2B2 "D/F#"A4|"D"dcdB "D/F#"ABAF|"Em"G2E2 "A7"E2 A2|
+     "D"d3A F2D2|"G"G2B2 "D/F#"A4|"G"BcdB "A7"ABAG|"D"F2"G"D2 "D"D2:|
+|:AG|"D"F2D2 "D/F#"A2D2|"G"B2G2 "D/F#"A2F2|\
+                                 "Em"G2B2 "D/F#"ABAF|"Em/G"G2E2 "A7"E2 AG|
+     "D"F2D2 "D/F#"A2D2|"G"B2d2 "D/F#"A2F2|"Em"G2B2 "A7"ABAG|"D"F2"G"D2 "D"D2:|
+%%center Book40/4001-Reel_for_Jeannie-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 4002
+T: The Cutty Sark
+P: Thrums March
+C:Traditional
+R:Jig (8x32)
+B:RSCDS 40-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+|:D|"G"GDG BAG|"C"ECE "D7"D2c|"G"BAG "G/B"dBG|"D"FAA "D7/F#"ABc|\
+    "G"BAB "Em"GFG|"C"ECE "D7"D2c|
+                                  "G"BAG "D7"FGA|"Cm/G"AGG "G"G2:|\
+  d|"G"Bcd g2d|"C"ece "D7"d2c|"G"BAG "G/B"dBG|"D"FAA "D7/F#"A2c|
+    "G"Bcd g2d|"C"ece "D7"d2c|"G"BAG "D7"FGA|"Cm/G"AGG "G"G2d|\
+    "G"Bcd g2d|"C"ece "D7"d2c|
+                              "G"BAG "G/B"dBG|"D"FAA "D7/F#"ABc|\
+    "G"BAB "Em"GFG|"C"ECE "D7"D2c|"G"BAG "D7"FGA|"Cm/G"AGG "G"G2:|
+%%center Book40/4002-Cutty_Sark-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 4003
+T: Nice to See You
+P: Miss Rona McLachlan
+C:Webster Craig
+R:Reel (nx32)
+B:RSCDS 40-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:G
+|:d2|"G"g2g2 "G7/B"d2cB|"C"e2e2 "D7"c2A2|"G"G2Bd "A7"g2ag|"D"f2d2 "D/F#"d2ef|
+   "G"g2g2 "G7/B"d2cB|"C"e2e2 "D7"c2A2|"Am/C"G2FG "D7"A2Bc|"G"B2"C/G"G2"G"G2:|
+|:d2|"G"B2d2 "G/B"g2gf|"C"e2g2 "D"d3B|"G"G2Bd "A7"g2ag|"D"f2d2 "D/F#"d2B2|
+   "C"c2de "D7"A2Bc|"G"B2dg "Em"d2B2|"Am/C"G2FG "D7"A2Bc|"G"B2"C/G"G2"G"G2:|
+%%center Book40/4003-Nice_to_See_You-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 4004
+T: Forth Bridge Jig
+P: Forth Bridge Jig
+C:Fred Arbuckle
+R:Jig (4x32)
+B:RSCDS 40-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+B|"G"GBd "C"egg|"Am"edB "D7"ABA|"G"GBd "C"egg|"Am"edB "D7"A2 B|\
+  "G"GBd "C"egg|
+                "Am"edB "D7"ABA|"G/B"dBd "C"ege|"D7"dBA "G"G3||\
+  "G"gde BdG|gde BdG|
+                     gde "Em"BdG|"A7"AB^c "D7"d3|\
+  "C"ecG "Am"gec|"G/B"edB "G"dBA|"Em"GBd "C"egg|"D7"edB G3||
+  "G"G[d^c][d^c] D[d^c][d^c]|G[d^c][d^c] D[d^c][d^c]|\
+                                              "G"GBd "C"egg|"Am"edB "D7"A2 B|\
+  "G"G[d^c][d^c] D[d^c][d^c]|
+                             G[d^c][d^c] D[d^c][d^c]|\
+                                              "G"GBd "C"egg|"Am"edB "D7"G3||\
+  "G"gde BdG|gde BdG|
+                     gde "Em"BdG|"A7"AB^c "D7"d3|\
+  "C"ecG "Eo"gfe|"G/B"edB "D7"dBA|"G"GBd "C"egg|"D7"edB "G"G2|]
+%%center Book40/4004-Forth_Bridge_Jig-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 4005
+T: 12 Coates Crescent
+P: The Glendale Strathspey
+C:Roddy Matthews
+R:Strathspey (4x32)
+B:RSCDS 40-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:G
+G|"G"G>A B>A G2 D>G|"C"E<C C>G "G"D<B, B,>D|\
+  "G"G>A "B7/D#"B>A "Em"G2 "G/B"d>B|"D"A<D F>A "D7/F#"c2 B>A|
+  "G"G>A B>A G2 D>G|"C"E<C C>G "G"D<B, B,>D|\
+  "G"(3GAB "D7/F#"(3ABc "Em"(3Bcd "C"d>c|"G/D"B>G "D7"F<A "G"G2-G||
+d|"G"g>f e>d "C"(3efg "D7"d>c|"G"B>c d>c B<G G2|\
+  "D"a>g f>e (3fga a>g|"D/A"f>d "A7"e<^c "D7"d2 (3def|
+  "G"g>f e>d "C"(3efg "D7"d>c|"G"B>c d>c B<G G>F|\
+  "Am/C"(3EAc (3ecA "G"(3DGB (3dBG|"D7"A<D F>A "G"G2-G|]
+%%center Book40/4005-12_Coates_Crescent-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 4006
+T: EH3 7AF
+P: The Pentland Jig
+C:Bobby Crowe
+R:Jig (8x32)
+B:RSCDS 40-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:D
+F/G/|"D"A3 "A7"AFG|"D7/F#"A2f f2e|"G"dce dcB|"D/F#"A2F "D7"F2A|\
+     "G"B2G G2B|
+                "D/F#"A2F F2A|"E7"^G2B "E7/G#"EGB|"A"cBA "A7/C#"GFG|\
+     "D"A2 A "A7"AFG|"D7/F#"A2f f2e|
+                                    "G"dce dcB|"D/F#"A2F "D7/F#"F2A|\
+     "G"B2G dcB|"D"Adf "B7/D#"a2A|"Em"BGd "A7"cAe|"D"d3 d2||
+"F#7"F|"Bm"B2B "Bm/D"B2F|"Bm"Bcd "E7/G#"dcB|"A"A2A "A/E"A2E|"A/C#"ABc "A"cBA|\
+     "G"B2G G2B|
+                "D/F#"A2F F2A|"E7"^G2B "E7/G#"EGB|"A"cBA "A7/C#"GFG|\
+     "D"A3 "A7"AFG|"D7/F#"A2f f2e|
+                                  "G"dce dcB|"D/F#"A2F "D7"F2A|\
+     "G"B2G dcB|"D"Adf "B7/D#"a2A|"Em"BGd "A7"cAe|"D"d3 d2|]
+%%center Book40/4006-EH3_7AF-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 4007
+T: Rabbie's Reel
+P: The Harbour
+C:Bert Murray
+R:Reel (4x32)
+B:RSCDS 40-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:D
+|:A2|"D"d2d2 fedc|d2d2 "A7"A2Bc|"D"dcde "Bm7"fagf|"Em"f2e2 "A7"egfe|
+     "D"d2d2 "A7/C#"fedc|"G/B"dcdB "D/A"A2dc|\
+                           "G"BGBd "A7"ceag|"D"f2"G"[d2B2G2]"D"[d2A2F2]:|
+|:fg|"D"a2af "D/F#"d2af|"Em/G"b2bg "A"e2fg|"D"abaf "Bm7"dfaf|"Em"g2e2 "A7"e2fg|
+     "D/F#"agfe "D/A"dcBA|"G"B2dB "D/F#"A2dc|\
+                           "Em"BGBd "A7"ceag|"D"f2"G"[d2B2G2]"D"[d2A2F2]:|
+%%center Book40/4007-Rabbies_Reel-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 4008
+T: Airyhall Delight
+P: Home to Bon Accord
+C:John Mason
+R:Jig (4x32)
+B:RSCDS 40-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:A
+E|"A"A2A "E7"B>AG|"A"A3 "A/E"A2c|"A"e2e "D#o"f>e^d|"A"e3 "A+/C#"e2^e|\
+  "D"f2a "Bm"d2f|
+                 "A/C#"e2a "A"c2e|"Bm"d2c "B7/D#"B2A|"E7"G>FE "E7/G#"D>CB,|\
+  "A"A,2A, "E7"B,>A,G,|"A"A,3 "A/E"A,2C|"A"E2E "D#o"F>E^D|
+                                                         "A"E3 "A+/C#"E2^E|\
+  "D"F2A "D/F#"d>fa|"A"E2A "A/C#"c>ea|"E7"g>fe "E7/G#"d>cB|"A"A3 "E7"e3||
+  "A"a3 a>ba|"E"g>ag "D"f>gf|"A/C#"e2c "A"c2=c|"A/C#"c2E "F#m"A2c|\
+  "Bm"e2d "E7/G#"d2c|
+                     "E7"d2E "E7/G#"G2B|"A"f2e "Co"^d2f|"E7/G#"e2e "E7"f2g|\
+  "A"a3 a>ba|"E7"g>ag "D"f>gf|"A/C#"e2c "A"c2=c|
+                                                "A/C#"c2E "F#m"A2c|\
+  "Bm"e2d "E7/G#"d2c|"E7"d2E "E7/G#"G2B|"A"A3 "E7"c3|"A"A3-A2|]
+%%center Book40/4008-Airyhall_Delight-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 4009
+T: The Royal Deeside Railway
+P: On the Fiddle
+C:Joseph Hornsby
+R:Reel (8x32)
+B:RSCDS 40-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:A
+|:cd|"A"e2 ef "A/C#"ecBA|"A"ceef "A/C#"e2 cB|\
+     "F#m"cffg "F#m/C#"fecB|"F#m"cffg f2 "E7/G#"ed|
+     "A"ceef "A/E"ecBA|"A"ceef "A7/C#"e2 cA|"D"defd "A"caec|"E7"dBGE A2:|
+|:cB|"A"AccB "A/C#"A2 cd|"A"ceed c2 BA|"E7"GBBA G2 gf|feed "A"c2 cd|
+     "A"eccB "F#m"A2 ag|"D"fdAf "E7"e2 fg|"A"aecA "E7"fdBG|"A"A2 cB A2:|
+%%center Book40/4009-Royal_Deeside_Railway-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 4010
+T: Simon's Dance
+P: Salute to Glen Grant
+C:Eddie Edmond
+R:Reel (1x128) See original book for complete arrangement
+B:RSCDS 40-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:D
+FE|"D"D2dc d2AG|"A7"FGAF "D"D3F|"Em"E2ef gfed|"A"c2AB "A7/C#"AGFE|\
+   "D"D2dc "D7/F#"d2Ad|
+                       "G"Bfed "A"c2BA|"G"BGed "A7"cdef|"D"f2d2d2||FE|\
+   "D"D2dc d2AG|"A7"FGAF "D"D2DC|
+                                 "Em"B,2 ef gfed|"A"c2AB "A7/C#"AGFE|\
+   "D"D2dc "D7/F#"d2Ad|"G"Bfed "A"c2BA|"G"BGed "A7"cdef|"D"f2d2d2||
+fg|"D"a2dc d2dc|"G"BcdB G2B2|"D"A2de "Bm"fagf|"Em"edcB "A7"A2fg|\
+   "D"a2dc d2dc|
+                "G"BcdB G2B2|"D/A"A2dB "A7"cdeg|"D"f2d2d2||fg|\
+   "D"a2dc d2dc|"G"BcdB G2fg|
+                             "D/F#"a2Aa "Bm"gfed|"Em"cdec "A7"AGFE|\
+   "D"D2dc "D7/F#"d2Ad|"G"Bfed "A"c2BA|"G"BGed "A7"cdef|"D"f2d2d2|]
+%%center Book40/4010-Simons_Dance-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 40011
+T: Angus Grant's Reel
+C: Douglas Keir
+R: reel
+B: RSCDS 40-1
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: D
+A2 \
+| "D"d3A F2D2 | "G"G2B2 "D"A4 | "D"dcdB     ABAF | "Em"G2E2 "A7"E2A2 \
+| "D"d3A F2D2 | "G"G2B2 "D"A4 | "G"BcdB "A7"ABAG | "D"F2"G"D2 "D"D2 :|
+|: AG \
+| "D"F2D2 A2D2 | "G"B2G2 "D"A2F2 | "Em"G2B2  "D"ABAF | "Em"G2E2 "A7"E2AG \
+| "D"F2D2 A2D2 | "G"B2d2 "D"A2F2 | "Em"G2B2 "A7"ABAG | "D"F2"G"D2 "D"D2 :|
+%%center Book40/40011-Angus_Grants_Reel-1.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 40091
+T: On the Fiddle
+C: Joseph Hornsby
+B: RSCDS 40-9
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: A
+cd \
+| "A"e2ef ecBA | ceef "(E)"e2cB | "F#m"cffg fecB | cffg f2"E7"ed |
+| "A"ceef ecBA | ceef e2cA | "D"defd "A"caec | "E7"dBGE "A"A2 :|
+|: cB \
+| "A"AccB A2cd | ceed c2BA | "E7"GBBA G2gf | feed "A"c2cd |
+| "A"eccB "(F#m)"A2ag | "D"fdAf "E7"e2fg | "A"aecA "E7"fdBG | "A"A2cB A2 :|
+%%center Book40/40091-On_the_Fiddle-1.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 40092
+T: Angus Grant's Reel
+C: Douglas Keir
+R: reel
+B: RSCDS 40-1
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A2 \
+| "D"d3A F2D2 | "G"G2B2 "D"A4 | "D"dcdB     ABAF | "Em"G2E2 "A7"E2A2 \
+| "D"d3A F2D2 | "G"G2B2 "D"A4 | "G"BcdB "A7"ABAG | "D"F2"G"D2 "D"D2 :|
+|: AG \
+| "D"F2D2 A2D2 | "G"B2G2 "D"A2F2 | "Em"G2B2  "D"ABAF | "Em"G2E2 "A7"E2AG \
+| "D"F2D2 A2D2 | "G"B2d2 "D"A2F2 | "Em"G2B2 "A7"ABAG | "D"F2"G"D2 "D"D2 :|
+%%center Book40/AngusGrantsR_D-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 40093
+T: Angus Grant's Reel
+C: Douglas Keir
+R: reel
+B: RSCDS 40-1
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A2 \
+| "D"d3A F2D2 | "G"G2B2 "D"A4 | "D"dcdB     ABAF | "Em"G2E2 "A7"E2A2 \
+| "D"d3A F2D2 | "G"G2B2 "D"A4 | "G"BcdB "A7"ABAG | "D"F2"G"D2 "D"D2 :|
+|: AG \
+| "D"F2D2 A2D2 | "G"B2G2 "D"A2F2 | "Em"G2B2  "D"ABAF | "Em"G2E2 "A7"E2AG \
+| "D"F2D2 A2D2 | "G"B2d2 "D"A2F2 | "Em"G2B2 "A7"ABAG | "D"F2"G"D2 "D"D2 :|
+%%center Book40/AngusGrantsR_D_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 40094
+T: On the Fiddle
+C: Joseph Hornsby
+B: RSCDS 40-9
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+cd \
+| "A"e2ef ecBA | ceef "(E)"e2cB | "F#m"cffg fecB | cffg f2"E7"ed |
+| "A"ceef ecBA | ceef e2cA | "D"defd "A"caec | "E7"dBGE "A"A2 :|
+|: cB \
+| "A"AccB A2cd | ceed c2BA | "E7"GBBA G2gf | feed "A"c2cd |
+| "A"eccB "(F#m)"A2ag | "D"fdAf "E7"e2fg | "A"aecA "E7"fdBG | "A"A2cB A2 :|
+%%center Book40/OnTheFiddle_A-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 40095
+T: On the Fiddle
+C: Joseph Hornsby
+B: RSCDS 40-9
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+cd \
+| "A"e2ef ecBA | ceef "(E)"e2cB | "F#m"cffg fecB | cffg f2"E7"ed |
+| "A"ceef ecBA | ceef e2cA | "D"defd "A"caec | "E7"dBGE "A"A2 :|
+|: cB \
+| "A"AccB A2cd | ceed c2BA | "E7"GBBA G2gf | feed "A"c2cd |
+| "A"eccB "(F#m)"A2ag | "D"fdAf "E7"e2fg | "A"aecA "E7"fdBG | "A"A2cB A2 :|
+%%center Book40/OnTheFiddle_A_JC.abc

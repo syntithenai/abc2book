@@ -1,0 +1,24 @@
+X: 20464
+T: CAROLAN'S CONCERTO
+C: Turlough O'Carolan
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.46 #4
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Initial rest added to 2nd strain to fix the rhythm.
+N: This version was slightly "regularized" to 32 bars, by lengthening some of the final notes.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(3(A2B2c2) |\
+d2dd d2cB | ABGA F2A2 | E2A2D2A2 | Bcde dcBA |\
+d2a2 fgaf | efgf fgaf | gabg fdfa | gfed dcBA |
+BdBd gBgB | AdAd fAfA | GBGB efed | c2Bc A3G |\
+FGAF EFGE | FGAF GABG | B2d2 fedc | d6 :|
+z2 |\
+d2b2 agfe | d2a2c2a2 | B2gB ABcd | ecBA d2df |\
+edcB caaa | Bggg Afff | edcB caaa | bgbg afaf |
+edcB cABG | AFGE DAFA | DAFA GEBE | GEBE FAdc |\
+BAGF EFGA | Bcde A2d2 | f2e2d2c2 | d6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

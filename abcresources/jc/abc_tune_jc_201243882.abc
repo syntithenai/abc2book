@@ -1,0 +1,12 @@
+X:933
+T:Ten Pound Note
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 93
+M:2/4
+L:1/16
+Q:1/4=100
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(GA)|B2GA B2GB|dcBc A2FG|A2FG A2dc|BGAF G2::dc|
+BcBA G2gf|efed cdcB|ABAF DFAc|BGAF G2:|

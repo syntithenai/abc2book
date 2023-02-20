@@ -1,0 +1,18 @@
+X: 138023
+T: the BOTTLE OF PUNCH
+Q: "Irish Jig."
+R: Jig.
+%R: jig
+B: James Kerr "Merry Melodies" v.1 p.38 s.0 #23
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: D
+|:\
+v{A,B,C}D2vD AFD | EDE GFE | vD2vd AFD | EDE FDB, |\
+vD2vd AFD EDE FGA | BdB AFD | EDE FDB, :|
+|:\
+dfd cec | BdB ABc | dcd efg | faf ecA |\
+dfd cec | BdB ABc | dcB AFD | EDE FDB, :|

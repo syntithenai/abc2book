@@ -1,0 +1,30 @@
+X: 20813
+T: YOUNG PHILANDER
+O: Old Scottish melody.
+Q: "Moderate."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.81 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gmix
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+D>EG2 d3B | (cBA)G A3G |\
+E2G2 (d>c)(B>A) | G3A {GA}B2D2 |\
+E2G2 d3B | (ed)(cB) A3B |\
+(G>BA)c (B>de)d | (cB)(A>G) B2HD |]
+D |\
+E3G D2E2 | F>EFG {FG}A2(GF) |\
+(E2 E/^F/)G D2E2 | (G>AB)A {GA}B2D2 |\
+(E>DE)G (E>GD)E | (F>EF)G A2(G^F) |\
+(G>BA)c (B>de)d | (cB)(A>G) {GA}B2D |]
+d |\
+e2 (e/^f/)g d2e2 | (f>ef)g {fg}a2(gf) |\
+(e>de)g (e>gd)e | (g>^fg)a g2d2 |\
+(e>de)g {f}e2(dB) | d2(de) f2(e>d) |\
+(e>g^f)e (dc)(BA) | G3A {GA}B2D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

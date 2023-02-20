@@ -1,0 +1,25 @@
+X: 20422
+T: MISS SHARPE'S FANCY
+C: Mr. Sharpe of Hoddam.
+Q: "With spirit."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.42 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f |\
+{c}d2A AFA | {GA}B2A AFA | {Bc}d2A FGA | ECA, A,2 B/c/ |\
+d2A AFA | {GA}B2A ABc | dgf eac | d3 d2 :|
+f/g/ |\
+afd dfa | gec ceg | fed {e}dcd |ecA A2f/g/ |\
+afd dfa | gec ceg | fad egc | {c}d3 d2 ||
+(f/g/) |\
+afd dfa | gec ceg | fed {e}dcd | ecA A2G |\
+FAd FAd | GBd GBd | Agf eac | {c}d3 D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

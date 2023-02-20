@@ -1,0 +1,25 @@
+X: 1
+T: Ain't Life Grand
+C: Marcia Landa \2512018
+R: slip-jig
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Em
+P: Play twice
+|:\
+"Em"E2B A2B "Bm"d2B | "Em"E2B A2"D"B F3 | "C"E2B A2B "D"d2e |\
+[1 "D"def e2"Em"d B3 :|[2 "D"fed ^c2=c "Bm"B3 ||[K:=f]
+K: Am
+|: "Am"c3 cBA "G"B2E | "F"c3 cBA "E"B2z |\
+[1 "Am"c3 cBA "G"B2E | "F"EGA G2"E"D E3 :|\
+[2 "Am"A3 ABc "G"B2G | "F"cBA "G"B2G "Am"A3 |]
+P: Play once
+K: F#m
+|:\
+"F#m"F2c B2c "C#m"e2c | "F#m"F2c B2c "E"G3 | "D"F2c B2c "E"e2f |\
+[1 "E"efg f2e "F#m"c3 :|[2 "E"gfe ^d2=d "C#m"c3 ||[K:=f]
+K: Bm
+|: "Bm"d3 dcB "A"c2F | "G"d3 dcB "F#"c2z |\
+[1 "Bm"d3 dcB "A"c2F | "G"FAB A2"F#"E F3 :|\
+[2 "F#m"FAB "A"ABc "Bm"Bce | "F#m"fec "G"dcA "Bm"B"^choke"z2 |]

@@ -1,0 +1,33 @@
+
+%%playtempo 130
+%%auquality 15
+
+X:1
+T: Fairfield Fancy    % -----
+C: Trad.   %haha
+S: Square dance tape
+M: 2/4
+K:Am
+P:Intro
+V:Melody
+ME2>.E2 .A2.A2 | .c2.c2 Me4 | edef edcB | A2E2 {Ec}+E2c2a2+ EE |
+P:Main
+V:Melody
+|: "Am"EAA^G A2 AB | c2e2 f2e2 | "G"DGGF G2 GA | B2d2 e2d2|
+"Am"EAA^G A2 AB | cBAc edce | "C"gage "Am"dcAc |1 ec"G"dB "Am"A2 EE :|2ec"G"dB "Am"A2 ee|
+|:   "Am"ea^gb a2 ab | c'aba c'aba | "G"dgfa g2 ga | bgag bgag |
+"Am"ea^gb a2 ab | c'aba c'aba | "C"gage "Am"dcAc |1 ec"G"dB "Am"A2 ee :|2 ec"G"dB "Am"A2 EE|
+V:Harmony
+L:1/4
+|: (A,C | EA) | (GD | B,G,) | (A, C | E A) | c/G/ A/E/- |1 E/D/ C :|2  E/D/ C |
+|: A2-  | A z  | G2- | G z  |A2-   | A z  | c/G/ A/E/- |1 E/D/ C :|2 E/D/ C |
+V:Melody
+|: "Am"EAA^G A2 AB | c2e2 f2e2 | "G"DGGF G2 GA | B2d2 e2d2|
+"Am"EAA^G A2 AB | cBAc edce | "C"gage "Am"dcAc |1 ec"G"dB "Am"A2 EE :|2ec"G"dB "Am"A2 ee|
+|:   "Am"ea^gb a2 ab | c'aba c'aba | "G"dgfa g2 ga | bgag bgag |
+   "Am"ea^gb a2 ab | c'aba c'aba | "C"gage "Am"dcAc |1 ec"G"dB "Am"A2 ee :|2 ec"G"dB "Am"A2E2|\
+   {Ec}+E8c2a2+ |]
+V:Harmony
+L:1/4
+|: A z |  (A/c/ d/c/ | B) z | (G/B/ c/B/ | A) z | A c | e/e/ A |1 (E A) :|2 (E A) |
+|: (Ac | ea) | (gd | BG) | (Ac | ea) | (ge |1 cA) :|2 cA)- |A2 |]

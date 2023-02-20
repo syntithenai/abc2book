@@ -3,7 +3,7 @@ import Header from './components/Header'
 import HomePage from './pages/HomePage'
 import BooksPage from './pages/BooksPage'
 import PrintPage from './pages/PrintPage'
-import PianoPage from './pages/PianoPage'
+import PianoPage from './pages/PianoPage'  
 import TunerPage from './pages/TunerPage'
 import DownloadPlaylistPage from './pages/DownloadPlaylistPage'
 import MetronomePage from './pages/MetronomePage'
@@ -240,9 +240,9 @@ function App(props) {
     //setTunesInner(t)
     //console.log('loaded tunes',t)
     if (!textSearchIndex || !textSearchIndex.tokens) {
-        console.log('load index')
+        //console.log('load index')
       loadTextSearchIndex(textSearchIndex) 
-      console.log('load index d',textSearchIndex)
+      //console.log('load index d',textSearchIndex)
       //.then(function(loadedIndex) {setTextSearchIndex(loadedIndex)})
     }
     buildTunesHash()
@@ -331,7 +331,7 @@ function App(props) {
                   <Routes>
                     <Route  path={``}   element={<BooksPage   tunes={tunes} tunebook={tunebook}   forceRefresh={forceRefresh} tunesHash={tunesHash}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist}  scrollOffset={scrollOffset} setScrollOffset={setScrollOffset} token={token} user={user} setTagFilter={setTagFilter} setFilter={setFilter} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} />}  />
                     
-                     <Route  path={`books`}   element={<BooksPage  tunes={tunes} tunebook={tunebook}   forceRefresh={forceRefresh} tunesHash={tunesHash}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist}  scrollOffset={scrollOffset} setScrollOffset={setScrollOffset} token={token}  user={user} setTagFilter={setTagFilter} setFilter={setFilter}/>} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} />
+                     <Route  path={`books`}   element={<BooksPage  tunes={tunes} tunebook={tunebook}   forceRefresh={forceRefresh} tunesHash={tunesHash}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist}  scrollOffset={scrollOffset} setScrollOffset={setScrollOffset} token={token}  user={user} setTagFilter={setTagFilter} setFilter={setFilter} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} />} />
                     
                     <Route  path={`help`}   element={<HelpPage  tunebook={tunebook}    />}  />
                     <Route  path={`settings`}   element={<SettingsPage  tunebook={tunebook} token={token}  googleDocumentId={googleDocumentId} />}  />
@@ -370,11 +370,11 @@ function App(props) {
                         index 
                         element={<MusicPage googleDocumentId={googleDocumentId} token={token} importResults={importResults} setImportResults={setImportResults} setCurrentTune={setCurrentTune} tunes={tunes}  tunesHash={props.tunesHash}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}  mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist} scrollOffset={scrollOffset} setScrollOffset={setScrollOffset} abcPlaylist={abcPlaylist} setAbcPlaylist={setAbcPlaylist} filter={filter} setFilter={setFilter}  groupBy={groupBy} setGroupBy={setGroupBy} tagFilter={tagFilter} setTagFilter={setTagFilter} selected={selected} setSelected={setSelected} lastSelected={lastSelected} setLastSelected={setLastSelected} selectedCount={selectedCount} setSelectedCount={setSelectedCount} filtered={filtered} setFiltered={setFiltered} grouped={grouped} setGrouped={setGrouped}  tuneStatus={tuneStatus} setTuneStatus={setTuneStatus} listHash={listHash} setListHash={setListHash} startWaiting={startWaiting} stopWaiting={stopWaiting} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} showPreviewInList={showPreviewInList} setShowPreviewInList={setShowPreviewInList} />}
                       />
-                      <Route  path={`:tuneId`} element={<MusicSingle  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}  token={token}  googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist} abcPlaylist={abcPlaylist} setAbcPlaylist={setAbcPlaylist}  />} />
+                      <Route  path={`:tuneId`} element={<MusicSingle  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}  token={token}  user={user} googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist} abcPlaylist={abcPlaylist} setAbcPlaylist={setAbcPlaylist}  />} />
                       
-                      <Route  path={`:tuneId/:playState`} element={<MusicSingle  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}  token={token}  googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist}  abcPlaylist={abcPlaylist} setAbcPlaylist={setAbcPlaylist} />} />
+                      <Route  path={`:tuneId/:playState`} element={<MusicSingle  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}  token={token} user={user} googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist}  abcPlaylist={abcPlaylist} setAbcPlaylist={setAbcPlaylist} />} />
                       
-                      <Route  path={`:tuneId/:playState/:mediaLinkNumber`} element={<MusicSingle  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}  token={token}  googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist}  abcPlaylist={abcPlaylist} setAbcPlaylist={setAbcPlaylist}  />} />
+                      <Route  path={`:tuneId/:playState/:mediaLinkNumber`} element={<MusicSingle  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}  token={token} user={user} googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist}  abcPlaylist={abcPlaylist} setAbcPlaylist={setAbcPlaylist}  />} />
                       
                     </Route>  
                     

@@ -1,0 +1,18 @@
+X: 20022
+T: SHE'S FAIR & FAUSE
+Q: "Slow"
+%R: jig, air
+B: "Edinburgh Repository of Music" v.2 p.2 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+%%slurgraces
+%%graceslurs
+(c/d/) |\
+e>fe {f}d2c | B>cA {A}^G2E | A>Bc d<B^G | A3- A2(c/d/) |\
+e>fe {e}d2c | B>cA {A}^G2E | A>Bc d<B^G | A3- A3 :|
+|: (c/d/) |\
+e2c' {c'}b2a | gea g2e | cdB gfe | dec B2G |\
+c>Bc d>cd | e2A {A}^G2E | A^G(3(A/B/c/) d<B^G | A3-A2 :|

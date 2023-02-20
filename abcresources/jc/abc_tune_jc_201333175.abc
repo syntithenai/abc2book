@@ -1,0 +1,14 @@
+X: 56
+T: Sailing Back of Whiddy   #1
+R: air, hornpipe
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #56
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+Q: "With expression"
+O: J.O'Neill
+M: C
+L: 1/8
+K: C
+[| C>DE>F G>E C2 | E>FG>c d>c B<G | e>dc>B A>G c2 | C>DE>F G>F E<D |
+|  C>DE>F G>E C2 | E>FG>c d>c B<G | e>dc>B A>G c2 | C>DE>F G>E D<C ||
+|| C>D E<G D>F E<C | E<F G<c d>c B<G | e>d c>B AG Hc>c | C>D E>G D>F E<C |]

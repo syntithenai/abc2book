@@ -1,0 +1,333 @@
+% %center Hymns
+
+
+X: 1
+T: Abide With Me v.1
+P: piffero primo a0148
+O: traditional Welsh
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/hymnsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: G
+|:\
+B2 BA | G2 d2 | ed dc  | B4 |\
+B2 cd | e2 d2 | cA B^c | d4 |
+B2 BA | G2 d2 | dc cB  | A4 |\
+A2 Bc | BA Gc | B2 A2  | G4 :|
+
+
+X: 2
+T: Abide With Me v.2
+P: piffero secondo a0149
+O: Dan Moylan
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/hymnsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: G
+|:\
+GG, DC | EG, B,D | CD EF | GG, DG, |\
+GF ED | CG, DG, | AF GE | D4 |
+GG, DC | EG, B,D | B,E FD | FE DC |\
+CF DE | GD EE | DG, CD | B,4 :|
+
+
+X: 3
+T: Ash Grove v.1
+P: piffero primo b0054
+O: safd
+%R: waltz
+F: http://ancients.sudburymuster.org/mus/col/pdf/hymnsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+D2 |\
+G2B2d2 | B2G2G2 | A2cBAG | F2D2D2 |\
+G2BAGF | E2C2E2 | D2G2F2 | G4 :: Bc |\
+d2Bcde | d2c2B2 | c2ABcd | c2B2A2 |
+B2GABc | B2A2G2 | A2d2^c2 | d4 D2 |\
+G2B2d2 | B2G2G2 | A2cBAG | F2D2D2 |\
+G2BAGF | E2C2E2 | D2G2F2 | G4 :|
+
+
+X: 4
+T: Ash Grove v.2
+P: piffero secondo a0210
+O: Greg Bacon
+%R: waltz
+F: http://ancients.sudburymuster.org/mus/col/pdf/hymnsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+z2 |\
+B4B2 | d4d2 | cde2fe | d2A2c2 |\
+B2d2B2 | c4B2 | A2B2dc | B4 :: z2 |\
+f2gabc' | b2a2g2 | g2f2e2 | d4e2 |
+d4d2 | g2f2e2 | d2f2ag | fed2c2 |\
+B4B2 | d4d2 | cde2fe | d2A2c2 |\
+B2d2B2 | c4B2 | A2B2dc | B4 :|
+%%text May be played an octave higher.
+
+
+X: 5
+T: Ash Grove v.3
+P: piffero terzo a0211
+O: Greg Bacon
+%R: waltz
+F: http://ancients.sudburymuster.org/mus/col/pdf/hymnsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+z2 |\
+G4D2 | G2B2AG | F2G2A2 | DEFGA2 |\
+G3FE2 | G4E2 | F4A2 | G4 :: z2 |\
+dcBAG2 | GABcd2 | c3BA2 | A3Bc2 |
+BAG2F2 | G2A2B2 | F2D2E2 | F3GA2 |\
+G4D2 | G2B2AG | F2G2A2 | DEFGA2 |\
+G3FE2 | G4E2 | F4A2 | G4 :|
+%%text May be played an octave higher.
+
+
+X: 6
+T: Amazing Grace v.1
+P: piffero primo a0137
+O: John Newton
+%R: air, waltz
+F: http://ancients.sudburymuster.org/mus/col/pdf/hymnsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+A2 |\
+d4(3fed | f4e2 | d4B2 | A4A2 |\
+d4(3fed | f4ef | a6 | z4f2 |
+a3faf | d4A2 | B3ddB | A4A2 |\
+d4(3fed | f4e2 | d6 | z6 :|
+
+
+X: 7
+T: Amazing Grace v.2
+P: piffero secondo a0147
+O: John Newton
+%R: air, waltz
+F: http://ancients.sudburymuster.org/mus/col/pdf/hymnsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+F2 |\
+F2D2A2 | A2D2G2 | F2D2G2 | F2D2F2 |\
+F2D2A2 | A2D2GA | F6 | z4A2 |
+F2D2F2 | F2D2F2 | G2D2D2 | F2D2F2 |\
+F2D2A2 | A2D2G2 | F6 | z4 :|
+
+
+X: 8
+T: Battle Hymn of the Republic v.1
+P: piffero primo b0065
+O: safd 092
+%R: march
+F: http://ancients.sudburymuster.org/mus/acn/pdf/fyf03F.pdf
+F: http://ancients.sudburymuster.org/mus/col/pdf/hymnsF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A |\
+A2A A2G | F2A d2e | f2f f2e | d3 d2c |\
+B2B B2c | d2c d2B | A2B A2F | A3 A2A ||
+A2A A2G | F2A d2e | f2f f2e | d3 "^>"d3 |\
+"^>"e3 "^>"e3 | "^>"d3 "^>"c3 | d6- | d3 z3 ||\
+A3- A2G | F2A d2e | (f6 | d6) |
+B3- B2c | d2c d2B | (A6 | F6) ||\
+A3- A2G | F2A d2e | (f6 | d3) d3 |\
+"^>"e3 "^>"e3 | "^>"d3 "^>"c3 | d6- | d3 z2 :|
+
+
+X: 9
+T: Battle Hymn of the Republic v.2
+P: piffero secondo a0153
+O: safd 092
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/hymnsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+F |\
+F2F F2E | D2E F2G | A2A A2G | F3 F2F |\
+G2G G2A | B2A B2G | F2G F2D | F3 F2F |
+F2F F2E | D2E F2G | A2A A2G | F3 "^>"F3 |\
+"^>"G3 "^>"G3 | "^>"F3 "^>"E3 | F6- | F3 z3 |\
+F3- F2E | D2E F2G | (A6 | F6) |
+G3- G2A | B2A B2G | (F6 | D6) |\
+F3- F2E | D2E F2G | (A6 | F3) F3 |\
+"^>"G3 "^>"G3 | "^>"F3 "^>"E3 | F6- | F3 z2 :|
+
+
+X: 10
+T: Chester v.1
+P: piffero primo a0151
+O: safd 004
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/hymnsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+|:\
+d2 ef | g2 e2 | eg fe | d4 |\
+d2 dd | de d/c/B | cB AG | A4 |
+d2 ee | d2 ef | gd ef | g4 |\
+g>f ed | e/d/c/B/ Ad | Gc BA | G4 :|
+
+
+X: 11
+T: Chester v.2
+P: piffero secondo a0152
+O: Dan Moylan
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/hymnsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+|:\
+BG cd | B2 c2 | cG AG | B4 |\
+BG BG | Bc B/c/d | FG AB | c4 |
+BG cG | BG cd | B2 c2 | B4 |\
+B2 c2 | c/d/e/d/ ff | BF GA | B4 :|
+
+
+X: 12
+T: Morning Has Broken v.1
+P: piffero primo a0135
+O: traditional Irish
+%R: air, slip-jig
+F: http://ancients.sudburymuster.org/mus/col/pdf/hymnsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: D
+|:\
+DFA d3 e3 | cBA B3 A3 | DEF A3 B3 | AGD E6 |\
+AFA d3 B3 | AFD D3 E3 | FEF A3 B3 | EFE D6 :|
+
+
+X: 13
+T: Morning Has Broken v.2
+P: piffero secondo a0146
+O: Dan Moylan
+%R: air, slip-jig
+F: http://ancients.sudburymuster.org/mus/col/pdf/hymnsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: D
+|:\
+FAF F3 G3 | ABc d3 c3 | FGA F3 G3 | FDF G6 |\
+FAF F3 G3 | FAF F3 G3 | AGA F3 G3 | GAG F6 :|
+
+
+X: 14
+T: Nearer My God to Thee
+P: piffero primo a0215
+O: safd
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: G
+V: 1
+V: 2
+%%score (1 2)
+% - - - - - - - - - -
+V: 1 staves=2
+z |\
+B2 AG | G>E E2 | D2 GB | A3   z | B2 AG | G>E E2 | DG FA | G3 z |
+d2 ed | d>B d2 | d2 ed | d>B A2 | B2 AG | G>E E2 | DG FA | G3 :|
+% - - - - - - - - - -
+V: 2
+z |\
+G2 FE | E>C C2 | B,2 DG | F3   z | G2 FE | E>C C2 | B,D DD | D3 z |
+B2 cB | B>G B2 | B2  cB | A>G F2 | G2 FE | E>C C2 | B,D DD | D3 :|
+%% - - - - - - - - - -
+
+
+X: 15
+T: Rock of Ages
+P: piffero primo a0214
+O: safd
+%R: air
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+V: 1
+V: 2
+%%score (1 2)
+% - - - - - - - - - -
+V: 1 staves=2
+A>B |\
+A2 F2 d>B | A4 de | f3 edc | d4 c>d |\
+e3 ecA | d4 c>d |
+                  e3 ecA | d4 A>B |\
+ A2 F2 d>B | A4 de | f3 edc | d4 :|
+% - - - - - - - - - -
+V: 2
+F>G |\
+F2 D2 A>G | F4 FG | A3 AAG | A4 A>A |\
+c3 cAE | F4 G>A |
+                  c3 cAE | F4 F>G |\
+F2 D2 A>G | F4 FG | A3 AAG | A4 :|
+%% - - - - - - - - - -
+
+
+X: 16
+T: Sailor's Hymn v.1
+P: piffero primo a0687
+O: safd
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/hymnsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: D
+D |\
+F>F AA | BB AA |\
+de cA | A^G AE |\
+G>G FF | A>A ^Gc |
+A^G FB | A^G FF |\
+F>F GG | ^G>G AA |\
+AB AF | E>D D :|
+
+
+X: 17
+T: Sailor's Hymn v.2
+P: piffero primo a0688
+O: safd
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/hymnsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: D
+D |\
+D>D FF | GG FA |\
+A^G AE/F/ | EE EC |\
+E>E DD | F>F E^G |
+F^E FG | F^E FC |\
+=C>C B,D | D>D CE |\
+FE FD | C>D D :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

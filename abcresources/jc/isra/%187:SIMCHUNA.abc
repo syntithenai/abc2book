@@ -1,0 +1,20 @@
+X: 187
+T: Simchu Na
+C: Metitiahu Shelem 1970
+O: Israel
+I: taught by Moshe Eskayo
+F: http://www.youtube.com/watch?v=cEOkE7aB3Yk
+F: http://www.youtube.com/watch?v=qdR0_LTVIwo
+M: 2/4
+L: 1/8
+Q: 1/4=160
+K: C
+%%MIDI drum dd 47 47
+%%MIDI drumon
+   "D"dAz2     |dAz2        |d2d2       |d2d2         |\
+|:"Am"AA2A     |AAA2        |"Am"Ac"G"BG|"Dm"A2z2     :|
+|:"Dm"Ad2d     |ddd2        |Ad2d       |efd2         :|\
+  "G"g2f2      |e2d2        |gd3-       | d2d2        |
+  "C"e2c2      |c2c2        |e2"G"d2    |"F#"^c_B"A"A2| "G"_BGG2|\
+  "D"^FG"Am"A2 |"D"_BG"Em"G2|
+  "D"^FG"Dm"A2 |"D"dAz2     |dAz2       |d2d2         |d2d2     |

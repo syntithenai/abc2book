@@ -1,0 +1,47 @@
+X: 1
+T: Syrtos: Psaropoula
+R: syrtos
+O: Greece
+M: 2/4
+L: 1/16
+K: C
+[cE][dF][eG] "A"\
+| "F"[f3A3][fA] [f2A2][f2A2] \
+| "Dm"[fA][eG][fA][gB] [fA][eG][d2F2] \
+| "C"[e3G3][eG] [e2G2][e2G2] \
+| "Am"[eG][dF][eG][fA] [eG][dF][c2E2] \
+| "Dm"[d3F3][dF] [d2F2][d2F2] |
+| "G7"[dF][eG][dF][cE] [dF][cE][d2F2] \
+| "G7"[gB][^fA][gB][ac] [gB][=fA][eG][dF] \
+| "C"[cE][BD][cE][dF] [eG][fA][gB][fA] \
+| "G7"[e2G2][dF][cE] [BD][cE][dF][BD] \
+| "C"[c8E8] |]
+"B"\
+[| "C"[c3E3][cE] [c2E2][d2F2] \
+| [e3G3][eG] [eG][dF][c2E2] \
+| "G7"[d4F4] [B2D2]{A}[G2B,2] \
+| "C"[c8E8] |
+w: 1.~Kse-ki-na mia psa-ro-pou-*la ap-to yia-lo,
+w: 2.~E-hi me-sa pa-li-ka-*ria ap-to yia-lo,
+w: 3.~Yia ha-ra sas pa-li-ka-*ria ke-sto yia-lo.
+| "G7"[d4F4] [B2D2]{A}[G2B,2] \
+| "C"[c4E4] [d2F2][e2G2] "C"|| "F"[f3A3][fA] [f2A2][f2A2] \
+| "Dm"[fA][eG][fA][gB] [fA][eG][d2F2] |
+w: ap-to  yia-lo.** Kse-ki-na mia psa-*ro-*pou-*la
+w: ap-to  yia-lo.** E-hi me-sa pa-*li-*ka-*ria
+w: ke-sto yia-lo.** Yia ha-ra sas pa-*li-*ka-*ria
+| "C"[e3G3][eG] [e2G2][e2G2] \
+| "Am"[eG][dF][eG][fA] [eG][dF][c2E2] \
+| "Dm"[d3F3][dF] [d2F2][d2F2] \
+| "G7"[d2F2][dF][eG] [dF][^cE][d2F2] |
+w: ap tin id-ra ti* mik-*rou-*la ke pi-ge-ni yia sfoun-*ga-*ria
+w: pou you-ta-ne yia* sfoun-*ga-*ria yiou-sel ke o-mor-fia* ko-ral-lia
+w: nas mas fe-re-te* sfoun-*ga-*ria yiou-sel ke o-mor-fia* ko-ral-lia
+| "G7"[eG][fA][gB][fA] [e2G2][d2F2] \
+| "C"[cE][BD][cE][dF] [eG][fA][gB][fA] \
+| "G7"[e2G2][e2G2] [dF][cE][d2F2] \
+|["1-N" "C"[c4E4] z \
+:|["last" "C".[c2E2] "G7".[G2F2] "C".[c2E2]z2 |]
+w:  o-_lo_ yia-_lo_______  o-lo yia-__lo.  | lo.
+w: ap-_to_ yia-_lo_______ ap-to yia-__lo.  | lo.
+w: ap-_to_ yia-_lo_______ ap-to yia-__lo.  | lo.

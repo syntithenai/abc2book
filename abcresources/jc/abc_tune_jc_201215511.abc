@@ -1,0 +1,36 @@
+X: 17
+T: Abe Schwartz's Famous Sher
+O: Abe Schwartz 1923
+B: Henry Sapoznik "The Compleat Klezmer" p.70 (parts A-D)
+D: Kapelye "Future and Past" (Flying Fish 249)
+M: 2/4
+L: 1/16
+K: Dm
+|:"Dm" dddd d2A2 | ffff f2d2 |\
+   f2g2 "Gm"abgb | "Dm"a6 ag  |
+  "Dm"fafa fagf | "A7"egeg egfe |\
+  "Dm"defg "Gm"afge | "A7"fde^c "Dm"d4 :|
+|:"Dm"Afed "A7"^cdef | ^gafe "Dm"d4 |\
+  "Gm"dbag "D7"^fgab | ^c'd'ba "Gm"g4  |
+  "Gm"gd'bg "F"fc'af | "Edim"ebge "Dm"dafd |\
+  "A7"A^ceg Tf3e |1 "Dm"e2d6 :|
+|:"F"f8 | f8 | f4 f4 | f4 f4  |\
+  "F"cfed "C7"cdcB | "F"AcBA "C7"GBAG |
+  "F"FA,CF ACFA | cBAG G2{AG}F2  |\
+  "F"FA,CF ACFA | cBAG G2{AG}F2 |
+  "Bb"BdcB "F"AcBA | "C7"GBAG "F"FAGF  |\
+  "C7"ECEG BABG |1 "F"F4 zFAc  :|2 "F"F8 |]
+|:"Dm"a4 f2a2 | "A7"gfef "Dm"d4 | "Dm"d^cde "A7"fefg | "Dm"a4 d'4 |
+  "Dm"a4 f2a2 | "A7"gfef "Dm"d4 | "Dm"afge fde^c |1 "Dm"d^cde fefg :|2 "Dm"d8 |
+[K:D exp _B^g]\
+|:"Dm"d6 ef | ga3- a2gf | gagf edef |1,3 g3f feed :|2,4 d8 :|
+|:"Dm"A2dA d2d2 | d2fd f2f2 | gagf edef |1,3 gagf eddc :|2,4 d8 :|
+|:a4 z4 | a4 z4 |\
+  a4 a4 | a2a2 a2a2- |\
+  a2c'b agaf | gagf a2a2 |
+  z2c'b agaf | gagf a2a2 |\
+  gagf edef |  gagf edef |\
+  gagf edef | d8 :|
+[K:D exp ^f_B_e]\
+|:"D"d4- dc=Bc | ced2 d2d2 | "F"c=ffc cffc | c=ffe "Cm"eddc |
+  "D"d4- dc=Bc | ced2 d2de | fgag "Cm"f3e | "D"ef d6 :|

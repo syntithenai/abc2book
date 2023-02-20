@@ -1,0 +1,20 @@
+X: 1
+T: Gaudete! Gaudete!
+O: first published in Piae Cantiones, 1581
+%S:1581
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+%%continueall
+"^Refrain"|:\
+"Am"A2A2 "Em"G2AB |[M:6/8] "C"c2c B2A |
+w: Gau-de-te! Gau-de-te! Christ-us est
+[M:2/4] "G"G2 G2 |[M:4/4] G2A2 "Em"B3A |
+w: na-tus ex Ma-ri-a
+[M:6/8] G2A "G"B2A |[M:3/4] GA "Am"A2 z2 :|
+w: vir-gi-ne, gau-de-*te!
+"^Verse"[|[M:4/4] "Am"AA GA cB A2 | "Dm"AF "Em"EF "Dm"D2 D2 |
+w: Tem-pus ad-est gra-ti-ae, hoc quod op-ta-ba-mus;
+"Dm"DD FD FG "Am"A2 | cA "G"Bc "F"A2 A2 |]
+w: car-mi-na lae-ti-ti-ae de-vo-te red-da-mus.

@@ -1,0 +1,26 @@
+X:1
+T: Dance for Joy
+N:
+C:Tune is "Well House"
+S:Play  3  times
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 28 notes)
+K:Am
+M:4/4
+L:1/16
+A4 c4 c4 e4 |c8 A8 |c4 e4 e4 ^g4 |a8 A4 a2 b2 |c'4 b2 a2 g4 e4 |f8 d6 B2 |c4 A4 c4 d4 |e8 E8 |
+%W: A2
+% voice 1 (1 lines, 28 notes)
+A4 c4 c4 e4 |c8 A8 |c4 e4 e4 ^g4 |a8 A4 a2 b2 |c'4 b2 a2 g4 e4 |f8 d6 B2 |c4 A4 c4 d4 |e8 E8 |
+%W: B1
+% voice 1 (1 lines, 28 notes)
+e4 g4 ^f4 a4 |g8 G8 |A2 B2 c4 B2 c2 A4 |^G8 E8 |e4 a4 a4 b4 |c'8 b6 a2 |^g2 a2 b4 e4 g4 |a8 A8 |
+%W: B2
+% voice 1 (1 lines, 28 notes)
+e4 g4 ^f4 a4 |g8 G8 |A2 B2 c4 B2 c2 A4 |^G8 E8 |e4 a4 a4 b4 |c'8 b6 a2 |^g2 a2 b4 e4 g4 |a8 A8 ||

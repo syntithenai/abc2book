@@ -1,0 +1,20 @@
+X: 146130
+T: the NEWCASTLE
+Q: "Hornpipe."
+R: Hornpipe.
+%R: hornpipe
+B: James Kerr "Merry Melodies" v.1 p.46 s.1 #30
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: This tune does have 2 initial repeat symbols, but the 1st is just a column of 4 dots.
+M: C
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: Bb
+|: (3(ucBA) |:\
+vB2B,2 (3dcB (3AGF | E2 g4 vf>ue |\
+vd>vfuB>ud c>eA>c |[1,3 B>ba>g f>ed>c :|[2,4 B2b2B,2 :|
+|: (3(CB,G,) |\
+B,>DF>B d>fb>a | (ag)({a}g^f) g2 \
+[1,3 B,2 | A,>CF>A c>fa>g | (gf)({g}f=e) f2 :|\
+[2,4 b2 | a>gf>e d>cB>A | c2B2B2 :|

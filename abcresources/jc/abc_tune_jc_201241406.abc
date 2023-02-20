@@ -1,0 +1,20 @@
+X: 4342
+T: Ca' the Wethers to the Hill
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.4 p.34 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+c |\
+Aa-a>g Tfeac | Aa-ac TB>cdB | Aa-ag feac | dfec TB2A :| d | cAec A/A/A Te2 | dfec TBcdB |
+cAec A/A/A Te2 | dfec TB2Ad || cAec A/A/A Te2 | dfec TB>cdB | Aaga faea | dfec TB2A |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | a2a2 b2b2 | a2a2 a2c2 | d2e2 e2A :| z | a2a2 a2c'2 | d'2c'2 b2b2 |
+a2a2 a2c2 | d2e2 e2A2 || a2a2 a2c'2 | d'2c'2 b2b2 | a2a2 a2c2 | d2e2 e2A |]

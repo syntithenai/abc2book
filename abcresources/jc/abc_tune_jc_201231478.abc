@@ -1,0 +1,27 @@
+X: 152
+T: MISS BARBARA CUNNINGHAM
+C: R. MACKINTOSH
+R: Strathspey
+B: Glen Collection p.15 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: G
+V: 1
+B2 |\
+G3g dB3 Gd3 BG3 | (E2FG A3)G F(D3 D3B) | G3g dB3 Gd3 BG3 | E2c2 BAGF [G4B,4] G,2 :|
+ga |\
+bg3 dg3 eg3 dB3 | ca3 Bg3 a2(A2 A2ga) | bg3 dg3 eg3 dB3 | ea3 df3 g4 G2ga |
+bg3 af3 ge3 fd3 | ec3 dB3 a(A3 A3B) | G3D BG3 dB3 gc3 | Bd3 D3F [G4B,4] G,2 |]
+V: 2
+z2 |\
+G4 [b4g4d4] [b4g4d4] [b4g4d4] | [a4c4] [a4^c4] [a4d4] [f4d4] |\
+[g4G4] [b4g4d4] [b4g4d4] [g4d4] | [a4c4] [f4d4] [g4d4G4] [d2G2] :|
+z2 |\
+g4 [b4g4] [c'4g4] [b4g4] | [d'4f4] [d'4g4] [d'4f4] [d'4f4] |\
+g4 [b4g4] [c'4g4] [b4g4] | [c'4d4] [c'4d4] [b4g4] [b4g4] |
+[d'4g4] [d'4d4] [b4e4] [b4B4] | [g4c4] [g4G4] F4 [f4d4] |\
+[g4G4] [d'4g4] [b4g4] [c'4g4e4] | g4 [c'4a4d4] [g4d4] [d2B2G2] |]

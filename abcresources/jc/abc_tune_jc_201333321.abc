@@ -1,0 +1,18 @@
+X: 1
+T: the Sailor's Wife
+R: jig
+O: J.Johnson 1748
+B: J.Johnson Choice Collection Vol 4, 1748
+B: BSFC Session Tune Book 2016 p.53
+B: RSCDS 18-6
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The Bb chords are from Barbara McOwen's transcripton.
+M: 6/8
+L: 1/8
+K: Dm
+"^A"[|] E |\
+"Dm"DEF "A7"E2D | "Dm"d2e f2g | "Dm"agf "C7"edc | "F"AcA "C"GEC ||\
+"Dm"DEF "A7"E2D | "Dm"d2e "Bb"f2g | "A7"agf ed^c | "D"d3 d2 |]
+"^B"|: e |\
+"F"fga fga | "F"fga agf | "C"ecg ecg | ecg "A(m)7"gfe ||\
+"Dm"fga agf | "C"efg gfe | "Bb"def "A7"ed^c | "D"d3 d2 |]

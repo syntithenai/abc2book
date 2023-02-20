@@ -1,0 +1,20 @@
+X: 68
+T: Cotillon
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.32 #68
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+!segno!d2d |\
+dcd ecA | A3 gfb | ad'a agf | e2A d2d |\
+dcd ecA | Bef gab | afd gec | !fine!Hd3 :|
+|: ABA |\
+A2d c2B | A^GA fdA | GFG ecG | FED ABA |\
+A2d c2d | ecA gfe | fd'a agf | e3 !segno!|]
+fdB |\
+B2d' c'd'b | {g}^a3 bfd | efg cfe | dcB fdB |\
+B2d' c'd'b | T^a3 b=a^g | c'ba Tgaf |^e^dc c'af |
+dcB d'b^g | ^e^dc def | cc'a ^gf^e | f3 a2a |\
+a2d' c'2b | {b}a2g {g}f2e | fag fed | cBA !segno!|]

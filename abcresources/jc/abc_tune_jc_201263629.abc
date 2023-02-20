@@ -1,0 +1,20 @@
+X: 41
+T: Torna a Surriento / Come Back to Sorrento  (Ernesto de Curtis \251 1902)
+M: 3/4
+L: 1/8
+K: Dm
+% %%vskip .1cm
+P: A
+yy"Dm"DE FG AF |    A2 A4 |"Gm"GA BG BG |"Dm"d2 d4     |\
+ "Bb"de fe de |"Dm"A2 A4 |"A7"GA GF EF |"Dm"D4    z2 :|
+K:D
+P: B
+yy "D"dc  AB cA |"Em"B2 B4 |"A7"cB AB  cA | "D"B2 B4 |\
+     FG  AF ED |"Em"G2 G4 |"A7"AB cB  Ac | "D"F6    |
+yy "D"dc  AB cA |"Em"B2 B4 |"A7"ed cd  ec |"Bb"d2 d4 |\
+ "Gm"de =fe de |"Dm"A2 A4 |"A7"GA G=F EF |"Dm"D4 z2 ||
+%%text Play parts A (with repeat) and B (without repeat) again, then finish with C part (below).
+P: C
+ yy"D"de  c3  B |"Em"  d6       |"A7"zc  de cB | "D"A2 A4 |\
+"Gm"G2 _B2 d2 |"Dm"(=f3 e) d2 |"A7"ze ^c3  d |"Dm"d4 z2 |]
+% %%stretchlast

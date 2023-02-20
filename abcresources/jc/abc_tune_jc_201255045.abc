@@ -1,0 +1,405 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 41
+B: RSCDS Book 41
+N: This booklet had only 10 dances.
+K:
+%%center Book41/4100-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4101
+T: Pelorus Jack
+P: Christian Catto
+C:Allan Kindness
+R:Jig (8x32)
+B:RSCDS 41-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:F
+c|"F"ABc d2c|a2g f3|ABc "F/A"f2e|"Bb"d3 "(D7/A)"d3|\
+  [1 "Gm"G^FG BAB|g2f e2d|
+                          "C"c=Bc "C7/E"d2c|"F"A3 A2:|\
+  [2 "Go"f2f "C7"gfe|"F/A"f2c "Dm"A3|"C7/G"c2c "C7"BAG|"F"F3 F2||
+d|"Dm"A2d "Dm/F"d^cd|"A7"f2e "Dm"d3|A2f "A7"efe|"Dm"d3 d3|\
+  "C"G2c "C/E"c=Bc|"G7"e2d c3|
+                              "G"g^fg "G7"=fed|"C"cdc "C7"BAG|\
+  "F"ABc d2c|a2g f3|ABc "F/A"f2e|"Bb"d3 d3|
+  "Go"f2f "C7"gfe|"F/A"f2c "Dm"A3|"C7/G"c2c "C7"BAG|"F"F3 F2|]
+%%center Book41/4101-Pelorus_Jack-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4102
+T: Culla Bay
+P: The Macaulays of Benbecula
+C:Frank Reid
+R:Strathspey (4x32)
+B:RSCDS 41-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:D
+A2|"D"d>b a<d f2 f>e|"Bm"d>f d<F "F#m"A2 F>A|\
+   "G"B>c (3dcB "D"A>f d<A|"E7"B2 e2 e2 "A7"f>e|
+   "D"d>b a<d f2 f>e|"Bm"d>f d<F "F#m"A2 F>A|\
+   "G"B>c (3dcB "D"A>f d<A|"Em"B2 "Gm"d2 "D"d2||
+"D"e>d|"A"c>B c<d "A7"e2 A2|"D"A<a f>e "D7"f2 (3fed|\
+   "G"g>f g<b "F#m"a>f "Bm"d<A|"E7"B2 e2 "A7"e2 f>e|
+   "D"d>b a<d f2 f>e|"Bm"d>f d<F "F#m"A2 F>A|\
+   "G"B>c "A7"(3ecB "D"A>f d<A|"Em"B2 "Gm"d2 "D"d2:|
+%%center Book41/4102-Culla_Bay-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4103
+T: The Dancers' Wedding
+P: Charlie's Wedding
+C:Dr. B. E. Thomson
+R:Reel (8x32)
+B:RSCDS 41-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:A
+%
+c/d/|"A"eccd eAca|"D"fdde f3e|"Bm"dBBc dBcd|"Bm/D"fedc e3 c/d/|
+     "A"eccd "A7/E"eAca|"D/F#"aAde "D"f3e|"Bm"Bcde "E7"edcB|"A"A4 A3||\
+   e|"A"ceeA "A7/E"cAeA|"D"dffA dAfA|
+                                     "D"faaf "F#m"afec|"Bm"BABc "E7"e3 d|\
+     "A"ceeA "A7/E"cAeA|"D"dffA dAfA|"Bm"Bcde "E7"edcB|"A"A4 A3||
+   e|"A"AcBA cABc|ABcA "Bm/D"B2 dc|"Bm"BdcB dBcd|"E7/G#"edcB "A"c2 ec|\
+     "A"AcBA cABc|
+                  "A7"ABce "D"f3e|"Bm"Bcde "E7"edcB|"A"A4 A3||\
+   e|"A"afea ceac|eace a=gfe|"G"=gBdg BdgB|
+                                           d=gBA Bcde|\
+     "A"afea ceac|eace a=gfe|"Bm"Bcde "E7"edcB|"A"A4 A3|]
+%%center Book41/4103-Dancers_Wedding-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4104
+T: Connie's Jig
+P: Connie's Jig
+C:Muriel A. Johnstone
+R:Jig (8x48) ABCABC
+B:RSCDS 41-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:D
+A|"D"f2 f- faf|"G"gdB GBd|"D"A3 "Bm"f2d|"E7"efd "A7"cBA|\
+  "D"f2 f- faf|"G"gdB GBd|
+                          "D/F#"Aag "Bm"fed|"A7"ABc "D7"def||\
+  "G"g2 g- gdB|gdB "D"AGF|"A/C#"E2 E "A7"GFE|"D"FAd "D7/F#"def|
+  "G"g2 g- gdB|"D"gdA "Bm"FGA|"Em"Egf "A7"e<ac|"D"d>ed "D7/F#"def||\
+  "G"g2 g- gdB|gdB "D"AGF|
+                          "A/C#"E2 E- "A7"EDC|"D"DFA "D7/F#"d2A|\
+  "G"BgB "A"cac|"Bm"Bba "A7/C#"gfe|"D"f<aA "G"bag|"A7"fge d2|]
+%%center Book41/4104-Connies_Jig-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4105
+T: Mrs Peggy Dykes
+C: Muriel Johnstone
+O: RSCDS 41-5
+B: RSCDS 41-5
+R: strathspey
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: C
+A2 |\
+"C"Gc3 ce3 "F"f3e "G7"d2ef | "C"e3d ce3 "F"AG3 "G7"G3F |\
+"C"E3G ce3 "F"d3e f3g | "Dm"ad3 d3e "G7"f4- f2g2 |
+"C"Gc3 ce3 "F"f3e "G7"d2ef | "C"e3d  ce3 "F"AG3 "G7"G3F |\
+"C"E3G c3d "Am"e2de "(F)"fedc | "Dm"Ac3 "G7"e3d "C"c4- c3B ||
+"Am"cC3 Cc3 "G7"B3G d3B | "C"cC3 EG3 "E/C7"c3d eg3 |\
+"F"ad3 d3e "Dm"f3e d3c | "Am"eA3 A3G "G7"G4- G3B |
+"C"cC3 Cc3 "G7"B3A G3d | "Am"ec3 c3d "C7"e3f g3G |\
+"F"A3B c3d "C"e2de "(F)"fedc | "Dm"Ac3 "G7"e3d "C"c6 |]
+%%center Book41/4105-MrsPeggyDykes-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4105
+T: Peggy's Strathspey
+P: Mrs. Peggy Dykes
+C:Muriel A. Johnstone
+R:Strathspey (8x32)
+B:RSCDS 41-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:C
+A|"C"G<c c<e "F"f>e "G7"de/f/|"C"e>d c<e "F"A<G "G7"G>F|\
+  "C"E>G c<e "Dm/F"d>e f>g|"Dm"a<d d>e "G7"f2-fg|
+  "C"G<c c<e "F"f>e "G7"de/f/|"C"e>d c<e "F"A<G "G7"G>F|\
+  "C"E>G c>d "Am"ed/e/ "F"f/e/d/c/|"Dm"A<c "G7"e>d "C"c2-c3/2||
+B/|"C"c<C C>c "G7"B>G d>B|"C"c<C E<G "C7/E"c>d e<g|\
+  "Dm/F"a<d d>e "Dm"f>e d>c|"Am"e<A "F"A>G "G7"G2-G>B|
+  "C"c<C C>c "G7"B>A G>d|"Am"e<c "F"c>d "C7"e>f g>G|\
+  "F"A>B c>d "C"ed/e/ "F"f/e/d/c/|"Dm"A<c "G7"e>d "C"c2-c|]
+%%center Book41/4105-Peggys_Strathspey-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4106
+T: The Music Will Tell You
+P: John C. Douglas
+C:Ian Thow
+R:Reel (4x32)
+B:RSCDS 41-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/4
+K:A
+e|"A"a>afe|Acce|a/a/a/a/ fe|"E7"dBBd|\
+  g>gfe|
+        Bdde|"E7"g/g/g/g/ "F#m"a "E7/G#"g|fece|\
+  "A"a>afe|AccB|
+                A/A/A/A/ "A7/C#"eA|"D"gffg|\
+  a>agf|"E7"edBA|G/G/G/G/ "F#m"c "E7/G#"B|"A"A2A2||
+  "D"F>FdF|"A"E/E/E/E/cA|"E7"GedB|"A"A/A/A/A/fe|\
+  "D"F>FdF|
+           "A"E/E/E/E/cA|"B7"B>c^dB|"E"e4|\
+  "D"F>FdF|"A"E/E/E/E/cA|
+                         "E7"GedB|"A"A/A/A/A/fe|\
+  "A"ea"D"gf|"E7"e>dBG|E/E/E/E/ "F#m"c "E7/G#"B|"A"A2A|]
+%%center Book41/4106-Music_Will_Tell_You-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4107
+T: The Milltimber Jig
+P: The Milltimber Jig
+C:Ian Crichton
+R:Jig (8x32)
+B:RSCDS 41-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:D
+|:A|"D"AFD A,DF|Adf aAa|"Em"gfe "E7/G#"dcB|"A"ABA "A7/C#"GFE|
+    "D"AFD A,DF|Adf "D/F#"aAa|"Em"gfe "A7"cAa|"D"fdd d2:|
+|:e|"D"f2e fga|"Em"gfg gef|gfe "E7/G#"dcB|"A"AaA "A7/C#"a2g|
+    "D"f2e fga|"Em"gfg gef|gfe "A7"cAa|"D"fdd d2:|
+%%center Book41/4107-Milltimber_Jig_AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4108
+T: S-Locomotion
+P: Forbes Morrison
+C:J. Scott Skinner
+R:Strathspey (4x32)
+B:RSCDS 41-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:A
+|:d|"A"c<A E>D C>E "A/C#"A,>C|"Bm/D"D2 B>A "E7"(3Gfe (3dcB|\
+    "A"c<A E>D C>E "A/C#"A,>C|
+                              "Bm/D"(3DFB "E"(3GEG "F#m"(3Afe "E7/G#"dcB|\
+    "A"c<A E>D C>E "A/C#"A,>C|"Bm/D"D2 B>A "E7"(3Gfe (3dcB|
+    "A"c<A E>D C>E "A/C#"A,>C|"Bm/D"(3DFB "E"(3GEG "A"A2 A||\
+  g|"F#m"a>f "E"g>e "D"f<d "A/C#"e>c|
+                                     "Bm"d>B "A"c>A "E7"(3Bcd (3efg|\
+    "F#m"a>f "C#m/E"g>e "D"f<d "A/C#"e>A|"E7/B"(3Bgf "E7"(3dcB "A"A2 A>g|
+    "F#m"(3afa "E"(3geg "D"(3fdf "A/C#"(3ece|"Bm"(3dBd "A"(3cAc "E7"(3Bcd (3efg|
+    "A"(3aga (3efg (3aed "A/C#"(3cBA|1"E7"(3Gfe (3dcB "A"A2 A:|2"E7"(3GFE (3DCB, "A"A,2 A,|]
+%%center Book41/4108-S_Locomotion-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4109
+T: The Blackwater Reel
+P: Miss Alison O'Connor
+C:David R. Cunningham
+R:Reel (8x32)
+B:RSCDS 41-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:A
+|:AB|"A"cA,CE "A/C#"Acea|"D"fedf "A/C#"e2dc|\
+     "D"dafd "A/C#"caec|"Bm"dBcA "E7"B2 AB|
+     "A"cA,CE "A/C#"Acea|"D"fedf "A/C#"e2dc|\
+     "D"dafd "A/C#"caec|"E7"dBGB "A"A2:|
+|:ag|"D"fAdf "D#o"bagf|"A/E"eAcf "A/C#"e2dc|\
+     "E"BEGB "E7/G#"edcB|"A"ce"B"^df "A/C#"e2 ag|
+     "D"fAdf "D#o"bagf|"A/E"ecAF "A/C#"E2 ^DE|\
+     "Bm"FAGF "E7"GedB|"A"c2 "D"A2 "A"A2:|
+%%center Book41/4109-Blackwater_Reel-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4110
+T: The Roselath Cross
+P: The Roselath Cross
+C:Kerrell Garner
+R:Jig (8x32)
+B:RSCDS 41-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+D|"G"G2B F2B|E2B D2d|"G/B"G>dB "D7"AGA|"G"B3-B2 B|
+  "Am"c2e B2d|"Am/C"A2c "A7"G2B|"D"FDF "A7"AGE|"D"D3-D2||\
+D|"G"G2B F2B|E2B D2d|
+                     "G/B"D>GB "D7"AGA|"G"B3-B2 B|\
+  "Am/C"A2e "G/B"B2e|"Am"c2d ece|"G/D"d2B "D7"dcA|"G"G3-G2||
+B|"Em"E2B "B7"^D2B|"Em"E2B "Em/G"B,2E|"Am"C>EC EDC|"Em"B,3-B,2 B,|
+  "Bm"D2F "F#7"[^C2^A,2]F|"Bm"[D2B,2]E "Bm/D"FDB|"D/A"A2F "A7"AGE|"D"D3-D2||\
+D|"G"G2B F2B|E>GB D2B|
+                      "G/B"G>dB "D7"{B}AGA|"G"B3-B2 B|\
+  "Am/C"A2e "E7/B"B2e|"Am"c>de "D7"fga|"C"ged "D7"cBA|"G"G3-G2|]
+%%center Book41/4110-Roselath_Cross-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 41011
+T: Christian Catto
+C: Allan Kindness
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 41-1
+M: 6/8
+L: 1/8
+%--------------------
+K: F
+c \
+| "F"ABc d2c | "(C7)"a2g "F"f3 | "F"ABc f2e | "Bb"d3 "D7"d3 \
+| "Gm"G^FG BAB | "Gm"g2f "(G7)"e2d | "C"c=Bc "C7"d2c | "F"A3 A2 ||
+c \
+| "F"ABc d2c | "(C7)"a2g "F"f3 | "F"ABc f2e | "Bb"d3 d2e \
+| "Gm"f2f "C7"gfe | "F"f2c "Dm"A3 | "C7"c2{d}c BAG | "F"F3 F2 |]
+"(A7)"A \
+| "Dm"A2d d^cd | "A7"f2e "Dm"d3 | "Dm"A2f "A7"efe | "Dm"d3 d3 \
+| "C"G2c c=Bc | "G7"e2d "C"c3 | "G"g^fg "G7"=fed | "C7"cdc BAG |
+y \
+| "F"FAc d2c | "(C7)"a2g "F"f3 | "F"ABc f2e | "Bb"d3 "(F/a)"d2e \
+| "Gm"f2f "C7"gfe | "F"f2c "Dm"A3 | "C7"c2{d}c BAG | "F"F3 F2 |]
+%%center Book41/41011-Christian_Catto-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 41051
+T: Mrs Peggy Dykes
+C: Muriel Johnstone
+O: RSCDS 41-5
+B: RSCDS 41-5
+R: strathspey
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+%--------------------
+K: C
+A2 |\
+"C"Gc3 ce3 "F"f3e "G7"d2ef | "C"e3d ce3 "F"AG3 "G7"G3F |\
+"C"E3G ce3 "F"d3e f3g | "Dm"ad3 d3e "G7"f4- f2g2 |
+"C"Gc3 ce3 "F"f3e "G7"d2ef | "C"e3d  ce3 "F"AG3 "G7"G3F |\
+"C"E3G c3d "Am"e2de "(F)"fedc | "Dm"Ac3 "G7"e3d "C"c4- c3B ||
+"Am"cC3 Cc3 "G7"B3G d3B | "C"cC3 EG3 "E/C7"c3d eg3 |\
+"F"ad3 d3e "Dm"f3e d3c | "Am"eA3 A3G "G7"G4- G3B |
+"C"cC3 Cc3 "G7"B3A G3d | "Am"ec3 c3d "C7"e3f g3G |\
+"F"A3B c3d "C"e2de "(F)"fedc | "Dm"Ac3 "G7"e3d "C"c6 |]
+%%center Book41/41051-Mrs_Peggy_Dykes-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 41051
+T: Mrs Peggy Dykes
+C: Muriel Johnstone
+O: RSCDS 41-5
+B: RSCDS 41-5
+R: strathspey
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+%--------------------
+K: C
+A2 |\
+"C"Gc3 ce3 "F"f3e "G7"d2ef | "C"e3d ce3 "F"AG3 "G7"G3F |\
+"C"E3G ce3 "Dm"d3e f3g | "Dm"ad3 d3e "G7"f4- f2g2 |
+"C"Gc3 ce3 "F"f3e "G7"d2ef | "C"e3d  ce3 "F"AG3 "G7"G3F |\
+"C"E3G c3d "Am"e2de "F"fedc | "Dm"Ac3 "G7"e3d "C"c4- c3B ||
+"C"cC3 Cc3 "G7"B3G d3B | "C"cC3 EG3 c3d eg3 |\
+"Dm"ad3 d3e "Dm"f3e d3c | "Am"eA3 "F"A3G "G7"G4- G3B |
+"C"cC3 Cc3 "G7"B3A G3d | "Am"ec3 "F"c3d "C7"e3f g3G |\
+"F"A3B c3d "C"e2de "F"fedc | "Dm"Ac3 "G7"e3d "C"c6 |]
+%%center Book41/41051-Mrs_Peggy_Dykes-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Christian Catto  [F]
+C: Allan Kindness
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 41-1
+M: 6/8
+L: 1/8
+K: F
+c \
+| "F"ABc d2c | "(C7)"a2g "F"f3 | "F"ABc f2e | "Bb"d3 "D7"d3 \
+| "Gm"G^FG BAB | "Gm"g2f "(G7)"e2d | "C"c=Bc "C7"d2c | "F"A3 A2 ||
+c \
+| "F"ABc d2c | "(C7)"a2g "F"f3 | "F"ABc f2e | "Bb"d3 d2e \
+| "Gm"f2f "C7"gfe | "F"f2c "Dm"A3 | "C7"c2{d}c BAG | "F"F3 F2 |]
+"(A7)"A \
+| "Dm"A2d d^cd | "A7"f2e "Dm"d3 | "Dm"A2f "A7"efe | "Dm"d3 d3 \
+| "C"G2c c=Bc | "G7"e2d "C"c3 | "G"g^fg "G7"=fed | "C7"cdc BAG |
+y \
+| "F"FAc d2c | "(C7)"a2g "F"f3 | "F"ABc f2e | "Bb"d3 "(F/a)"d2e \
+| "Gm"f2f "C7"gfe | "F"f2c "Dm"A3 | "C7"c2{d}c BAG | "F"F3 F2 |]
+%%center Book41/ChristianCatto_F-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Roselath Cross
+C: Kerrell Garner
+B: RSCDS 41-__
+R: jig
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K:G
+D \
+| "G"G2B "D"F2B | "Em"E2B "G"D2d | "G"G>dB "D7"AGA | "G"B3- B2B \
+| "C"c2e "G"B2d | "Am"A2c "A7"G2B | "D"FDF "A7"AGE | "D"D3- D2 ||
+D \
+| "G"G2B "D"F2B | "Em"E2B "G"D2d | "G"D>GB "D7"AGA | "G"B3- B2B \
+| "C"A2e "G"B2e | "Am"c2d ece | "G"d2B "D7"dcA | "G"G3- G2 |]
+B \
+| "Em"E2B "B7"^D2B | "Em"E2B B,2E | "Am"C>EC EDC | "Em"B,3- B,2B, \
+| "Bm"D2F "F#7"^C2F | "Bm"D2E FDB | "D"A2F "A7"AGE | "D"D3- D2 ||
+D \
+| "G"G2B "D"F2B | "Em"E>GB "G"D2B | "G"G>dB "D7"{B}AGA | "G"B3- B2B \
+| "C"A2e "E7"B2e | "Am"c>de fga | "C"ged "D7"cBA | "G"G3- G2 |]
+%%center Book41/Roselath_Cross_G-JC.abc

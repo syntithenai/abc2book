@@ -1,0 +1,32 @@
+X: 133
+T: MISS MARIANE OLIPHANT (Rossie)
+C: R. MACKINTOSH
+R: Strathspey
+B: Glen Collection p.13 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: G
+%
+V: 1
+D2 |\
+G,3B, D2=F2 E2C2 (C3B,/C/) | D3F A3c B2G2 (B3F/G/) |\
+G,3B, D=F3 E2C2 ce3 | {e}d2cB {d}c2BA [G4B,4] [G2B,2] :|
+ga |\
+b3g g2b2 ad3 fa3 | g2f2 agfe f2(B2 B2cd) |\
+c3e gc3 B3d gB3 | A2e2 d2F2 G4 G,2ga |
+(bag2) (gab2) ad3 fa3 | g3f agfe f(B3 B3d) |\
+c3c' ac3 B3d gB3 | ca3 d3f g4 g2 |]
+%
+V: 2
+z2 |\
+G4[=f4d4] c4[g4e4] | d4[c'4a4] g4 [d'4b4] |\
+G4[=f4d4] c4[g4e4] | [g4d4][f4d4] [g4d4G4][g2d2G2] :|
+z2 |\
+g4[d'4b4] d4[c'4a4] | e4[b4g4] B4[b4f4d4] |\
+[g4e4][g4e4] [g4d4][g4d4] | [f4d4][a4d4] [b4g4]G4 |
+g4[d'4b4] d4[c'4a4] | e4[b4g4] B4[b4f4d4] |\
+[g4e4][g4e4] [g4d4][g4d4] | [f4d4][c'4d4] [b4g4][g2d2G2] |]

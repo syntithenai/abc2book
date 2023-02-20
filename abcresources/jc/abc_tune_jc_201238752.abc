@@ -1,0 +1,33 @@
+X: 31271
+T: COTILLION No. 22. PILGRIM tune 4
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.127 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Oddly, the key signature is repeated for the 3rd strain, but not the 2nd.
+N: Perhaps the 3rd strain should be in the key of D?
+N: Rest added as "pickup" to 3rd strain to fix the rhythm.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+G2B2 BAGA | B2e2 efge | d2B2 A2GA | BcBA GFED |\
+G2B2 BAGA | B2e2 efge | d2B2 A2GA | B2G2G2 H|]
+ef |\
+g3a gfed | g2g2 a2ga | b2b2 a2ga | b2ba gfed |\
+efga gfed | g2g2 a2ga | b2b2 a2ga | b2g2"^D.C."g2 |]
+z2 |\
+B2B2 BcBA | G2E2 E4 | A2A2 ABAG | F2D2 D4 |\
+d2c2 d2A2 | BABc d2AG | F2D2 E2DE | F2D2"^D.C."D2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple promenade round,
+%% 2d, 3d and 4th the same,
+%% form lines lengthwise the hall,
+%% all march,
+%% all balance and change sides.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

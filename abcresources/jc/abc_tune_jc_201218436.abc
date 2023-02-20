@@ -1,0 +1,19 @@
+X: 01051
+T: HI LOW HORNPIPE
+C: Bob McQuillen Sept'74
+B: Bob's Note Book 1 #51
+R: hornpipe
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+B>A \
+| G>Bd>c B>AG>A | B>dg>d e2e>f | g>ab>g e>fg>e | d>BA>G A2B>A |
+| G>Bd>c B>AG>A | B>dg>d e2e>f | g>ab>g e>gd>g | f>ga>f g2 :|
+|: B>c \
+| d>ed>B e2g>e | d>ed>B e2B>c | d>ed>B e2g2 | a>ga>b a2g>a |
+| b>ab>g e>fg>e | d>ed>B A2G>A | B>AB>d e2g2 | a>ge>d e2 :|
+%%begintext align
+%% For Steve, a good lad,
+%% and Tom Low, his dad.
+%%endtext

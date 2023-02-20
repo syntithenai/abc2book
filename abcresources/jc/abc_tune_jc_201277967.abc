@@ -1,0 +1,26 @@
+X:1
+T: The Friar and the Nun
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 210
+%W:
+% voice 1 (1 lines, 12 notes)
+K:D
+M:4/4
+L:1/16
+d4 d4 d4 d4 |d12 d4 |e4 e4 c4 d4 |e12 g4 |
+%W:
+% voice 1 (1 lines, 13 notes)
+f4 d4 d4 d4 |d4 d8 d4 |c4 A4 A4 B4 |=c12 c4 |
+%W:
+% voice 1 (1 lines, 14 notes)
+B4 G4 G4 A4 |B6 c2 d4 d4 |A4 A4 F4 G4 |A12 =c4 |
+%W:
+% voice 1 (1 lines, 14 notes)
+B4 G4 G4 A4 |B6 c2 d4 d4 |c4 d4 e6 d2 |d12 z4 ||

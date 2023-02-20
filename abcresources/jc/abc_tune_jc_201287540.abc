@@ -1,0 +1,20 @@
+X:1
+T: Hoop't Petticoat
+N:
+C:
+S:Play 4 times
+A:
+O:
+R:
+M:6/8
+K:D
+I:speed 150
+%W:
+% voice 1 (1 lines, 15 notes)
+K:D
+M:6/8
+L:1/16
+D2 |D4 E2 F4 G2 A6 D4 d2 c4 B2 c4 d2 e6 A4 f2 |
+%W:
+% voice 1 (1 lines, 14 notes)
+g4 f2 e4 d2 c4 B2 A4 E2 D4 d2 e4 c2 d6 D4 ||

@@ -1,0 +1,19 @@
+X: 21672
+T: LADDIE LIE NEAR ME
+Q: "Slow."
+%R: air, waltz
+N: This is version 2, for ABC software that understands oddly-placed ornaments.
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.167 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A2 d2 ^c2 | d3 e (de/f/) | A2 (d>e) ^c2 {e}| d3 e {de}f2 |\
+(dc)(BA)(GF) | F3 G (AG) | F2 (ED)(E^C) | D3 E D2 :|
+|:\
+F3 G F2 | G3 A G2 | A2 d2 ^c2 | d3 e (de/f/) |\
+(dc)(BA)(GF) | F3 G (AG) | F2 (ED)(E^C) | D3 E D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

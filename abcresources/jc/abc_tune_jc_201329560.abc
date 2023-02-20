@@ -1,0 +1,17 @@
+X:1
+T:Reel des ti-minous
+R:reel
+M:C|
+L:1/8
+K:G
+%%textfont Times-Roman 14
+%%text Cut final half-note short and play pickups on transition.
+$RestoreTextFont
+def|:"G"g2B2 d2 G2|B2D2 G3B|"D"A2FA DFAF| GABc ddef|
+"G"g2B2 d2 G2|B2D2 G3B|"D"A2FA DFAF|1GBAF "G"G def:|\
+[2GBAF "G"G2 A2|]
+|:"G"BdBA GFGB|ed^ce d2B2|"Am7"ABAG FDFA|"D"d^cde d2cd|
+"G"BdBA "G7/B"G2gf|"C"edef "Am"e2d2| "D"d2fe dcBA|1 GgdB "D"G2 A2:|\
+[2 GgdB "D"G4 |]
+%%scale .5
+%%text 4/28/12

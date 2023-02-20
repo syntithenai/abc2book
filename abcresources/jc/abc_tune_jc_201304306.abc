@@ -1,0 +1,21 @@
+X: 1840
+T: a Lovely Lass to a Friar Came   #2
+R: march
+%S: s:4 b:40(8+8+8+8)
+B: O'Neill's 1850 #1840
+Z: Bob Safranek, rjs@gsp.org
+M: 2/4
+L: 1/16
+K: D
+"^A"|: ((3def) |\
+.g2.f2.e2.d2 | ({f}ed)(ef) d2(ef) | .g2.f2.e2.d2 |  e4 d2 :|\
+"^B"[|]z2 | defg a2a2 | b2a2 a4 | b2a2 a2gf | g4 f2 z2 |
+| a4 d4 | {f}edef d2ef | .g2.f2.e2.d2 | e4 d2\
+"^C" |: z2 |\
+.G2.F2.E2.D2 | .E2.E2 D2EF | .G2.F2.D2.E2 | TE4 D2 :|
+"^D"\
+|| z2 | DEFG A2A2 | B2A2 A2 z2 | B2A2 A2GF | G4 F2 z2 |\
+| A2A2 D4 | EDEF D2EF | .G2.F2.E2.D2 | TE4 D2 ||
+"^E"\
+|| ((3def) | gafg efdf | {f}edef defa | gafg efdf | e4 d2 ((3DEF) |\
+| GAFG EFDE | EDEF DEFD | GAFG EFDE | TE4 D2 |]

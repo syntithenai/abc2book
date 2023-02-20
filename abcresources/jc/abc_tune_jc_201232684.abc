@@ -1,0 +1,390 @@
+%abc
+%%abc-alias none
+%%abc-creator ABCexplorer 1.6.1 [26/07/2017]
+
+%%begintext
+%% Randall 1776.abc
+%% Twenty Four Country Dances for the Year 1776
+%% with proper Tunes and Directions to each Dance
+%% [as the]y are Perform'd at Court & all Polite Assembly's
+%% [arrange]d for the Violin German Flute or Hautboy
+%% London. Printed for Wm. Randall Successor to the late Mr Walsh
+%% in Catharine Street in The Strand.
+%% - - - - - - - - - -
+%% Transcribed by Steve Mansfield April 2015
+%% for the Village Music Project
+%% 26-7-2017 definite articles
+%%endtext
+
+X:1
+T:Tit for Tat. WR1776.01
+B:Wm.Randall CDs 1776
+Z:vmp.Steve Mansfield 2015
+M:C
+L:1/8
+W:Cast off & turn your Part: cast off again & turn your Part
+W:lead up to the top cast off right and left at the top
+W:set corners and turn lead out sides
+Q:2/4=90
+K:Bb
+bfdB fdBF | dBFD BFDB, | C2cd e2 d2 | {d}c4 BAGF |
+bfdB fdBF | dBFD BFDB, | C2e2 dcBA | B2B2 B4 :|
+|: B,DFB dBAB | CEGc ec=Bc | defg fgab | GABc BAGF |
+dBAB ec=Bc | defg fgab | fgec BdcA | B2B2 B4 :|
+
+X:2
+T:Comic Miror. WR1776.02
+B:Wm.Randall CDs 1776
+Z:vmp.Steve Mansfield 2015
+M:2/4
+L:1/8
+W:Hands across & back again lead down 2 Cu. up again
+W:cast off hands across at bott: left hands across at top
+W:lead thro' the bottom & thro' the top cast off
+Q:1/4=100
+K:D
+af2d | ge2g | fdBe | dcBA |
+af2a | ge2g | fdBc | d2D2 :|
+|: afd=c | BGFG | Eg2e | dcBA |
+af2d | ce2G | Fd ce | d2D2 :|
+
+X:3
+T:Kiss Her Again. WR1776.03
+B:Wm.Randall CDs 1776
+Z:vmp.Steve Mansfield 2015
+M:6/8
+L:1/8
+W:Cast off 1 Cu. hands 4 round with the top Cu. cast off
+W:another Cu. & hands 4 lead  up to the top
+W:cast off right & left
+Q:3/8=90
+K:D
+DFA TAGA | DGB TBAB | Ace gec | dAG FED |
+DFA AGA | DGB BAB | Agf edc | d3 D3 :|
+|: ecA gec | dfa agf | efg B2d | c3 A3 |
+ecA gec | dfa agf | e/f/gf edc | d3 D3 :|
+
+X:4
+T:St Alban's Assembly. WR1776.04
+B:Wm.Randall CDs 1776
+Z:vmp.Steve Mansfield 2015
+M:6/8
+L:1/8
+W:Foot it to your Part: & turn the 2 Gent: foot it & turn
+W: & the lady's turn all at the same time gallop down 1 Cu.
+W:up again cast off and turn your Partner
+N:Third word of title partly illegible in scan of Mss, but seems to be Assembly
+Q:3/8=90
+K:F
+f2a gec | d2f cBA | BAB AGF | E3 C3 |
+f2a gec | d2f cBA | GBA GFE | F3 F3 :|
+|: FAc cAF | EGc c=Bc | def gab | e3 c3 |
+f2a gec | d2f cBA | GBA GFE | F3 F3 :|
+
+X:5
+T:Dove. WR1776.05, The
+B:Wm.Randall CDs 1776
+Z:vmp.Steve Mansfield 2015
+M:6/8
+L:1/8
+W:Turn right hands cast off 1 Cu. turn left hands
+W:cast off again lead up to the top cast off right and left
+Q:3/8=90
+K:G
+g3 bgd | e3 gdc | Bdc BAG | A2G FED |
+gdc Bd=F | E2g gfe | ded cBA | G3 G,3 :|
+|: GBd =FEF | EGc efg | ded cBA | BAG FED |
+C2g gfe | ded cBA | BAG FEF | G3 G,3 :|
+
+X:6
+T:Toy. WR1776.06, The
+B:Wm.Randall CDs 1776
+Z:vmp.Steve Mansfield 2015
+M:2/4
+L:1/8
+W:Cast off two Cu. cast up again cross over two Cu. lead up
+W:to the top cast off all Allemande with your Partner to the right
+W:then to the left lead out sides and turn
+Q:3/8=90
+K:C
+c2 ge | d2 af | edcB | c2 G2 |
+c2 ge | d2 c'a | bga^f | g2 G2 :|
+|: g2 ec | a2 fd | gefA | {c}B2 AG |
+cg2 e | ca2 f | ecdB | c2 C2 :|
+
+X:7
+T:Simple Maid. WR1776.07, The
+B:Wm.Randall CDs 1776
+Z:vmp.Steve Mansfield 2015
+M:2/4
+L:1/8
+W:Cast off 1 Cu. & Allemande with your Part: cast
+W:off again & Allemande lead up to the top cast off
+W:turn your Partner foot it three & three turning outwards
+W:turn round & turn your Part: the same join hands 6 round
+W:and back again
+N:NB Uses the abc standard v2.1 Voice overlay syntax (section 7.4)
+N:which is marked as volatile in the standard so may not be supported
+N:in future versions of the standard
+Q:2/4=60
+K:G
+"NB" G/F/G/A/ G=F &G,4- | G,2 z2&E2 AB | cAGF | G/F/G/A/ GG |
+"NB" G2 G/A/G/=F/ &G,4- | G,2 z2&E2 AB | cAGF | G2 G,2 :|
+|: d2 gd | cfaf | gdcB | AFED |
+G/F/G/A/ GA | B/A/B/c/ dg | dBcA | G2 G,2 :|
+
+X:8
+T:Jack's Maggot. WR1776.08
+B:Wm.Randall CDs 1776
+Z:vmp.Steve Mansfield 2015
+M:C
+L:1/8
+W:Foot it all 4 & change places same back again
+W:cross over 2 Cu. lead up to the top cast off hands 6 round
+W:& back again lead out sides & turn
+Q:2/4=60
+K:C
+c/c/c ge c/c/c af | edcB c2C2 | c/c/c ge c/c/c af | eg^fa g2G2 :|
+G/G/G cG A/A/A fd | cd/e/ fe d2G2 | c/c/c ge d/d/d af | edcB c2C2 :|
+
+X:9
+T:Rambler. WR1776.09, The
+B:Wm.Randall CDs 1776
+Z:vmp.Steve Mansfield 2015
+M:6/8
+L:1/8
+W:Cast off 1 Cu. & turn the 3d Lady cast off & turn
+W:the 3d Gebt: hands 6 round right and left at top
+Q:3/8=90
+K:A
+aga edc | def Bcd | cBc FGA | GFG E3 |
+aga edc | def edc | dcB ABG | A3 A,3 :|
+|: Ace =gfg | fed def | edc dFB | G3 E3 |
+aga edc | def edc | dcB EAG | A3 A,3 :|
+
+X:10
+T:Grove House. WR1776.10, The
+B:Wm.Randall CDs 1776
+Z:vmp.Steve Mansfield 2015
+M:2/4
+L:1/8
+W:Hands 3 round with the 2d Lady then with the 2d Gent:
+W:cast off 2 Cu. lead up to the top cast off
+Q:2/4=75
+K:Bb
+B,2 DF | Bdfd | ecBA | BFDB, |
+B2 DF | Bdfd | ecBA | B2 B,2 :|
+|: b2 fd | gedc | dfGc | BAGF |
+B,2 DF | Bdfb | GecA | B2 B,2 :|
+
+X:11
+T:Fancy Dress. WR1776.11, The
+B:Wm.Randall CDs 1776
+Z:vmp.Steve Mansfield 2015
+M:6/8
+L:1/8
+W:Cast off 1 Cu. hands 4 round at bott: cast up & hands 4 at top
+W:lead down 1 Cu. up again cast off right & left at top
+Q:3/8=90
+K:Bb
+B,DF Bdf | bfe dcB | bag fed | edc cBA |
+B,DF Bdf | bag fed | cde FGA | B3 B,3 :|
+|: fdB AcF | Ggf fed | cde dcB | cdB AGF |
+fdB Ac_E | DFB dfe | dcB cBA | B3 B,3 :|
+
+X:12
+T:Election. WR1776.12, The
+B:Wm.Randall CDs 1776
+Z:vmp.Steve Mansfield 2015
+M:C
+L:1/4
+W:Turn your Part: round with your right hand
+W:cast off turn round with your left hand
+W:cast off another Cu. lead up to the top [...]
+N:Final two words of dance illegible on scan of Mss
+Q:2/4=100
+K:D
+D2 FA | df af | ge dc | df Ad |
+D2 FA | df af | ec Ac | d2 D2 :|
+A2 ce | ge fd | ge fd | ec BA |
+d2 af | dc A=c | Bg ec | d2 D2 :|
+
+X:13
+T:I've Thought On't. WR1776.13
+B:Wm.Randall CDs 1776
+Z:vmp.Steve Mansfield 2015
+M:6/8
+L:1/8
+W:Right hands across & back again cross over 2 Cu. lead up
+W:to the top cast off hands six round & back again hands four
+W:round at bott: right hands & left at top
+Q:3/8=90
+K:G
+GFG ABc | Bdc BAG | e2g d2g | BAG FED |
+GFG ABc | Bcd efg | fed ed^c | d3 D3 :|
+|: def gdB | cfa ABc | Bcd EFG | F3 D3 |
+def gfe | dcB ABc | BAG AGF | G3 G,3 :|
+
+X:14
+T:Jump About. WR1776.14
+B:Wm.Randall CDs 1776
+Z:vmp.Steve Mansfield 2015
+M:C
+L:1/8
+W:Foot it all 4 & change places the same back again
+W:cross over half figure right and left at top
+Q:2/4=75
+K:A
+aecA dBGE | FdcB AGFE | FGAB c^def | gfe^d e2E2 :|
+|: EGBd cAec | dBFB AGFE | cAdB cdef | ecdB A2A,2 :|
+
+X:15
+T:Rout Night. WR1776.15, The
+B:Wm.Randall CDs 1776
+Z:vmp.Steve Mansfield 2015
+M:6/8
+L:1/8
+W:Turn your Part: with your right hand cast off turn with
+W:your left hand cast off again cross over to the top
+W:lead down 1 Cu. up again cast off
+Q:3/8=90
+K:A
+A2e c2a | fed cBA | Bcd cBA | GAB E3 |
+A2e c2a | gfe ^dcB | cag fe^d | e3 E3 :|
+|: Ace aga | fed dcB | cde dcB | cBA GFE |
+FGA Bcd | cde fga | efe dcB | A3 A,3 :|
+
+X:16
+T:Traveller. WR1776.16, The
+B:Wm.Randall CDs 1776
+Z:vmp.Steve Mansfield 2015
+M:C
+L:1/8
+W:Cast off 1 Cu. hands 3 round at top with the Lady
+W:then the same with the Gent: lead thro' the
+W:bott: cast up right & left at top
+Q:2/4=75
+K:G
+gbdg egce | dBAG GFED | Ec Be dcBA | Bge^c d2D2 :|
+|: dfgB cfaf | gdcB AFED | Ec Be dbBd | cAGF G2G,2 :|
+
+X:17
+T:Golden Key. WR1776.17, The
+B:Wm.Randall CDs 1776
+Z:vmp.Steve Mansfield 2015
+M:C
+L:1/8
+W:Cast off 2 Cu. lead up to the top cast off hands four round
+W:at top then hands four round at bottom
+Q:2/4=75
+K:Bb
+Bdfd efce | dfdB cAGF | GB =eg fedc | bgf=e f2F2 :|
+|: Acec Bdfd | efge dcBA | Bbag gfed | dcBA B2B,2 :|
+
+X:18
+T:Happy Fair One. WR1776.18, The
+B:Wm.Randall CDs 1776
+Z:vmp.Steve Mansfield 2015
+M:2/4
+L:1/8
+W:Cast off and turn the 3d Lady cast off and turn the 3d Gent:
+W:foot all 3 Cu. & turn your Part.s foot it & turn your Partners
+Q:2/4=75
+K:C
+cegd | egag | fedc | dBAG |
+AcfA | Bdgf | edcB | c2 C2 :|
+|: gece | fgag | fdfA | {c}B2 AG |
+EGcG | Acfa | gcdB | c2 C2 :|
+
+X:19
+T:Last Farewell. WR1776.19, The
+B:Wm.Randall CDs 1776
+Z:vmp.Steve Mansfield 2015
+M:2/4
+L:1/8
+W:Cast off 2 Cu. lead up to the top cast off
+W:hands six round and back again
+Q:2/4=60
+K:Bb
+BB2 B/d/ | ff2 g/a/ | bgge | eccA |
+BB2B/d/ | ff2g/a/ | bgf=e | f2 F2 :|
+|: ff2 d/f/ | ge2 d/e/ | ec2 d/e/ | f/e/d/c/ B/A/G/F/ |
+Eg2 f/e/ | df2 e/d/ | ecBA | B2 B,2 :|
+
+X:20
+T:Pretty Governor. WR1776.20, The
+B:Wm.Randall CDs 1776
+Z:vmp.Steve Mansfield 2015
+M:9/8
+L:1/8
+W:Foot it all & turn your Part.s foot it again &
+W:turn your Part.s lead thro' the bottom
+W:cast up thro' the top cast off
+Q:3/8=110
+K:F
+f3 afd gec | fed cBA G3 | f3 agf gec | dfe dc=B c3 :|
+|: c=Bc ABc cd_e | d=ef gaf edc | f3 agf gec | dBA GFE F3 :|
+
+X:21
+T:Lord Cathcarts Fancy. WR1776.21
+B:Wm.Randall CDs 1776
+Z:vmp.Steve Mansfield 2015
+M:6/8
+L:1/8
+W:Cast off 1 Cu. lead thro' the top cast off cast off another Cu.
+W:lead thro' and cast off hands six round lead up to the top cast off
+Q:3/8=110
+K:F
+F3 GAB | ABc def | gab agf | gaf edc |
+F3 GAB | ABc def | edc dc=B | c3 C3 :|
+|: c3 def | gfe dc=B | cdc cBA | A3 G3 |
+FcA A_ee | dff egg | fdB ABG | F3 F3 :|
+
+X:22
+T:Now or Never. WR1776.22
+B:Wm.Randall CDs 1776
+Z:vmp.Steve Mansfield 2015
+M:2/4
+L:1/8
+W:Foot it all 4 & hands round foot it again & hands back again
+W:lead down two Cu. up again cast off
+Q:2/4=60
+K:D
+dA2 G/F/ | GB2 A/G/ | FdBe | dcBA |
+df2 e/d/ | ce2 d/c/ | dBA^G | A2 A,2 :|
+|: A,A2c | eg2e | f>gad | dcBA |
+af2d | cA2G | Fd{f}e{d}c | d2 D2 :|
+
+X:23
+T:Sing and Be Merry. WR1776.23
+B:Wm.Randall CDs 1776
+Z:vmp.Steve Mansfield 2015
+M:2/4
+L:1/8
+W:Cast off 1 Cu. lead thro' the bott: cast up lead thro' the top
+W:cast off foot it corners & turn hands three top & bottom then
+W:the Gent: at top and the Lady at bottom foot it to your Partner
+W:and turn right & left at top
+Q:2/4=60
+K:D
+d/c/d/e/ df | a2gf | gedc | d/c/d/e/ dA |
+d/c/d/e/ df | a2gf | gedc | d2 D2 :|
+|: A/G/A/B/ AA | B/A/B/c/ Bd | efge | e/f/d/e/ cA |
+d/c/d/e/ f/e/f/g/ | a/g/f/e/ d/c/B/A/ | BgAc | d2 D2 :|
+
+X:24
+T:Rebels Put To Flight. WR1776.24, The
+B:Wm.Randall CDs 1776
+Z:vmp.Steve Mansfield 2015
+M:2/4
+L:1/8
+W:Three Cu. foot it to their Part.s & 6 round the same again
+W:cross over 2 Cu. lead up to the top cast off
+Q:2/4=60
+K:G
+g2 dc | BdBG | ABcA | GFED |
+g/f/g/a/ bd | ^cege | fdA^c | d2 D2 :|
+|: df/g/ af | dg/a/ bd | cBAG | GFED |
+g/f/g/a/ bd | cedc | BAGF | G2 G,2 :|
+
+

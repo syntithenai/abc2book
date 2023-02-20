@@ -1,0 +1,33 @@
+X: 13
+T: SHORT AND SWEET
+C: from The Gordian Knot Untyed by Henry Purcell
+M: 6/4
+L: 1/4
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Thomas Bray's Country Dances 1699 p.32
+N: Duple minor longways
+N: The header says "AA B", but the B part has repeats. The dance is 24 bars, so AA BB is correct.
+N: The actual melody, Lilliburlero, is in the bass line.
+P: AA BB ad lib.
+Q: 3/4=88 "smoothly"
+K: G
+%----------------------------------------
+% V:1 arranged to give fewer, longer staff lines.
+V: 1
+"A"|:\
+gde dGg | ga/g/f e2", "a |\
+a/g/fb adg | g2f g3 "B"::\
+dBd BdB | AdA GdF |
+GAB cBA | GAB cBA |\
+B2c def | gfe d=fe |\
+c2B c/B/AG | G2F G3 :|
+%----------------------------------------
+V: 2
+|: B,2B, D2D | C2C E2", "E | D2D DEF | CB,A, B,2D :|
+|: B,2A, B,2D | D2D D2D | D2G EDF | GFG EDC |
+   B,2E D3 | B,2E G3 | GFG AED | CB,A, B,3 :|
+%----------------------------------------
+V: 3 clef=bass middle=d
+|: "G"G2G B2B | "Am"A>BA c3 | "Bm"B/c/d"G"G "Am"c2"G"B | "Am"A2"D"D "G"G3 :|
+|: "G"g2"D"f "G"g2d | "Dm"=f2f "Em"e2"D"d | "Em"e"D"^f"G"g g2"D"d | "Em"e"D"d"G"B "Am"A3 |
+   "E"ed"C"c "G"Bcd | "Em"ed"C"c "G"Bcd | "C"e"D"d"G"G "Am"c2"G"B | "Am"A2"D"D "G"G3 :|

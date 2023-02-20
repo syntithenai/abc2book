@@ -1,0 +1,2672 @@
+
+X: 0
+T: A Select Collection of Airs, Jigs, Marches and Reels
+C: Publisher: N. Stewart
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: N. Stewart "A Select Collection of Airs, Jigs, Marches and Reels" ca. 1784
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+K:
+%%center A
+%%center Select Collection
+%%center of
+%%center SCOTS ENGLISH IRISH
+%%center And
+%%center Foreign Airs Jiggs & Marches
+%%center With some of the Newst & most Fashionable REELS &c.
+%%center _____ Adapted for the _____
+%%center GERMAN FLUTE VIOLIN & FIFE
+%%center Vol 1.
+%%center EDINBURGH Printed & Sold by N. STEWART at his Musical Circulating Library Parliament Square
+%%sep 5 1 500
+%%sep 1 5 500
+%%begintext align
+%% Transcription notes:
+%% Each tune is in a file with a name of the form NNN_Title.abc,
+%% where NNN is the 2-digit page number, Title is the tune's title with underscores
+%% for spaces, K is the key, B is the number of bars in one playing of the tune,
+%% and S is the number of staffs in the transcription.
+%%endtext
+%%begintext align
+%% The staffs have sometimes been reformatted to fit A4/US-letter pages, usually with
+%% a multiple of 4 bars per staff to go with a relatively small scale for proofreading.
+%% You should reformat the staffs to match your needs.
+%%endtext
+%%begintext align
+%% A few tunes use voice overlays (2 voices on one staff) that much ABC software can't handle.
+%% Two versions of these are provided: a NNN-Title-V1.abc file that's arranged to work with
+%% such software, and a NNN=Title-V2.abc file that contains the voice overlays.
+%% This is also used for the cases of "chord" appogiaturas and some other features
+%% that aren't widely implemented yet.
+%% The '-' vs '=' after the page number is to make it easier for makefiles to tell them apart.
+%%endtext
+
+%%slurgraces 0
+%%graceslurs 0
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: King of Prussia's Hornpipe
+%R: hornpipe, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.1 #1
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - -
+|:\
+d2d2 fedc | d2d2 d2A2 | BdcB (AG).F.E | D2D2 D4 |\
+d2d2 fedc | (df) a4 ^gf | ea^gf (ed).c.B | A2A2 A4 :|
+|:\
+(Ac)(ec) (Ad)(fd) | (Ae)(ge) (Af)(af) | (Gd)(ba) (gfed) | Tc2 A4 GF |\
+G2b2 E2g2 | F2a2 D2f2 | ebag (fe).d.c | d2D2 D4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+T: Le Fontainbleau
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.1 #2
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - -
+d |\
+B2G A2d | B2G A2d | B>cB A>GA | G2G G2d |\
+B2G A2d | B2G A2d | B>cB A>GA | G2G G2 :: d |\
+g2g f2f |
+e2e d2d | c2c B2B | A>GA G2d |\
+g2g f2f | e2e d2d | c2c B2B | A>GA G2 :: d |\
+B2B Bed | ^c2c c2a |
+geg fdf | e2e e2a |\
+f2d e2a | f2d e2a | fgf e>de | d2d d2a |\
+f2d e2a | f2d e2a | fgf e>de |
+d2d d2 :: d |\
+!p!dBd cAc | BGB A2d | dBd cAc | BGB A2d |\
+!f!g2G GAG | G2G G2G | AcB AGF | G2G G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 003
+T: Love in a Village
+%R: reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.2 #3
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - -
+B |\
+GGGG (B/c/d) (BG) | GGGG (F/G/A) (FD) |\
+GGGG (B/c/d) (BG) | (c/d/e) (A/B/c) BGG :|
+|: f |\
+gggd (B/c/d) (BG) | gggB (A/B/c) (A=F) |\
+Gggd (B/c/d) (BG) | (c/d/e) (A/B/c) BGG :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 004
+T: Lillie Bulairie
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.2 #4
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+D |\
+G>AG TB2B | A>BA c3 |\
+(B/c/d)G c2B | {B}A>GF G2 :: d |\
+g2f g2d | =f>gf {f}e2d |
+de^f gfe | {e}dcB A2d |\
+edc Bcd | edc Bcd | (e/f/g)G (c2B) | {B}A>GF G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 5
+T: Polystons Hornpipe
+%R: triple hornpipe
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.2,3 #5
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The grace note in bar 9 (c) was probably a typo; fixed.
+M: 3/2
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+|:\
+f4 (egfe) d4 | f2a2 e2g2 {g}f2(ed) |\
+c2e2 B2d2 c2e2 | A2 d4 f2 {f}Te2d2 ::\
+f2a2 g2b2 f2a2 | e2g2 {g}f2(ed) c2e2 |
+B2A2 G2F2 (EGFE) | A2 d4 f2 {f}Te2d2 ::\
+d'2f2 e2d'2 {d'}c'2ba | d'2f2 (gf)(ed) c2e2 |\
+d2A2 e2A2 (egfe) | d2 D4 F2 TE2D2 :|
+|:\
+d'agf efge fgab | agfe dfed cdef |\
+gfed cdcB (AG).F.E | D2 d4 f2 {f}Te2d2 :|
+|:\
+(f/d/A3) (f/d/A3) (f/d/A3) | {d}Tc2 e4 f2 (gfed) |\
+(cd)(Bc) (AB)(GA) (FG)(EF) | D2 d4 f2 {f}e2d2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 6
+T: Harlequin Tune
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.3 #6
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+B/c/ |\
+dBd efg | dBG G2B/c/ | dBd ecB | AFD D2 B/c/ |\
+dBd gab | afd def | geg fdf | ed^c d2 :|
+|: f/g/ |\
+afd gdB | ecA dBG | gfe dcB | AFD D2 B/c/ |\
+dBd efg | dBG GAB | cac BgB | AGF G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 7
+T: Air Harlequin Ranger
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.3 #7
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+|:\
+d2d a2a | Tfef d3 | D2D E2F | G2A F>ED |\
+d2d a2a | Tfef d3 | D2D E2F | G2A D3 :|
+|:\
+d2d a2a | d'c'b a3 | A2A g2g | b>ag {g}f3 |\
+G2G e2e | g>fe d2d' | d2b a>gf | Te3 d3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8
+T: La Rosetta
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.4 #8
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D |\
+G2G GBg | G2G G2G | A2A ABc | B2G G2D |\
+G2G GBg | G2G G2G | AcB AGF | G2G G2 :|
+|: d |\
+g2g aga | b2g g2d | ded dcB | A2D D2d |\
+g2g aga | b2g g2e | dcB AGF | G2G G2 :|
+|: b | !p!\
+bab c'2b | aga b2a | gfg a2g | f2B B2b |\
+bab c'2b | aga b2a | gfe fe^d | e2e e2 :|
+|: g |\
+g2d ded | b2g g2d | ded dcB | AFD D2d |\
+g2d ded | b2g g2e | dBd cBA | G2G G2 :|
+|: d |\
+AGA B2d | AGA B2d | dcB A2G | F2D D2d |\
+AGA B2d | AGA B2d | dcB AGF | G2G G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 9
+T: Earl Cornwallise's March
+%R: march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.5 #9
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+D2 |\
+G2G>G G2d>c | B2b>a g2d2 |\
+e3(f/g/) edcB | A2A>A A2D2 |\
+G2G>G G2d>c | B2b>a g2a2 |\
+bgec B2TA2 |
+G2G>G G2 :: d'c' |\
+b>aga b2(d>c) | B>cd>e d2(gf) |\
+(fe)(c'b) (ba)(ag) | gfef d2zd |\
+e>fec (c'>ba)>c |
+d>edB (b>ag)d |\
+(gf)(ba) gfgd | edcB A2 (ab/c'/) |\
+bgfa d2AB/c/ | BGFA D2 (ab/c'/) |\
+bgec B2TA2 | G2G>G G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10
+T: Scots Measure
+%R: reel, scots measure
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.5 #10
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+D2 |\
+F2A2 B2d2 | e2f2 a3b | a2(ba) (ba).f.e | {de}f2 e4 D2 |\
+F2A2 B2d2 | e2f2 {bc'}d'3b | (ab).a.f Te3d | {de}f2 d4 :|
+|: a2 |\
+g2a2 (bc')d'2 | (ab)(af) Te3d | (fd)(fa) (ba).f.d |{de}f2 e4 d2 |\
+B2d2 F2A2 | B2d2 {bc'}d'3b | (ab).a.f Te3d | {de}f2 d4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11
+T: Colonel Tarleton's Quick March
+%R: march, jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.6 #11
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+f/g/ |\
+a>ba agf | bc'd' a2^a | bgf efd | d3 c2 f/g/ |\
+a>ba agf | b>c'd' a2^a | bge afd | fge d2 :|
+|: c/d/ |\
+e2c A2f/g/ | a2f d2b/c'/ | d'c'b e'2d' | c'>d'b a2^a |\
+b2g egb | a2f dfa | b>c'd' agf | {fg}a>gf e2 f/g/ |
+a>ba agf | bc'd' a2^a | bgf efd | d3 c2 f/g/ |\
+a>ba agf | bc'd' a2^a | bge afd | fge d2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 12
+T: Air in Queen Mab
+%R: air, jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.6,7 #12
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+|:\
+a3 {g}f>ed | (fb)b b2d' |\
+(af).a (ge).g | (fdf) {f}e3 |\
+a3 {g}f>ed | (fb)b b2d' |
+aff gea | fdd d3 ::\
+(fa2) Te3 | (fa2) Te3 |\
+(fa).a ^gbd' | c'aa a2(b/c'/ |\
+d'2)(a/f/ b2)(g/e/ |
+a2)(f/d/ g2)(e/c/ |\
+d2)b a2b | (ag).f {f}e2A |\
+d3 {f}e>de | (fd').d' d'2b |\
+aff gea | fdd d3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 13
+T: Colonel Webster's March
+%R: march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.7 #13
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: C
+G4 |\
+c4c3c c4(e3d/c/) | d4d3d d4e2f2 |\
+f2e2a2g2 f4e4 | d2c2B2A2 G2f2e2d2 |\
+c4c3c c4(e3d/c/) | d4d3d d4e2f2 |
+(fe).d.c (ba).g.f e4Td4 | c4c3c c4 :: e2f2 |\
+g4g3g g4^g4 | a4(aba^g) a4d2e2 |\
+f4f3f f4^f4 | g4(gag^f) g4=f4 |\
+e4e3e e2c2e2g2 |
+d4d3d d2G2d2f2 |\
+(f2e2)(a2g2) f4e4 | d2c2B2A2 G2f2e2d2 |\
+c4c3c c4(e2dc) | d4d3d d4e2f2 |\
+(fe).d.c (ba).g.f e4Td4 | c4c3c c4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 14
+T: The Tempest
+%R: reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.7 #14
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|:\
+GABc dBec | dBec dcBA |\
+GABc dBgb | agfe d2d2 :|
+|:\
+dfaf dgbg | eac'b agfe |\
+dBec dBec | dcBA G2G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 15
+T: The Edin.r Defensive Band's March
+%R: march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.8 #15
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+e>d |\
+c2G>F E2e>f | g>agf fedc |\
+e>gc'b a>gfe | (Td>c)de d2e>d |\
+!f!c>dcB !f!A>BAG | F>GFE D2 c'g |
+(ab/c'/) (b/a/).g/.f/ e2Td2 | c2c>c c2 :: e>f |\
+g>eg>e c'3b | a>gfe d2(d>e) |\
+f>df>d g>ag>f | e>fed c2(c'>b) |
+a^gab c'ba^g | a2a>a a2g>f |\
+!f!e>fed !f!c>dcB | !f!A>BAG F2(c'>g) |\
+(ab/c'/) (b/a/).g/.f/ e2Td2 | c2c>c c2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 16
+T: Quick Step
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.8,9 #16
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+G |\
+ceg gec | abc' bag | abc' gec | dec BAG |\
+ceg gec | abc' bag | c'ba gc'e | (ef).d c2 :: c |\
+dBG GBd |
+(de).f Te2d | ece geg | (c'b).a Ta2g |\
+abc' gec | dec BAG | ceg gec | abc' bag |\
+c'ba gc'e | (ef).d c2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 17
+T: Miss Chalmer's Gigg
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.9 #17
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+|:\
+G2G- GAB | c2c- cde | ded dcB | {B}A2(G F)ED |\
+G2G- GAB | c2c- cde | ded cBA | G3 [G3G,3] :|
+|:\
+ded dcB | a2c A2B | cdc cBA | g2B G2D |\
+E2F G2A | Bcd G2D | EcB AGF | G3 [G3G,3] :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 18
+T: Miss Dundas's Gigg
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.9 #18
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+(f/g/) |\
+afd (Tdcd) | e2e- efg | aba agf | Te2d- dgb |\
+afd (Tdcd) | e2e- efg | afd (Te>de) | d3- d2 :|
+|: (f/g/) |\
+afd afd | bg^d ege | gec gec | afd dfd |\
+afd afd | bge c'af | d'fd (Te>de) | d3- d2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 19
+T: Paddie's Resource
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.10 #19
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+e |\
+(c>dc) GEG | (cd).c a2g | agf edc | dAA (A2B) |\
+(c>dc) GEG | (cd).c a2g | gab c'gf | ecc c2 :|
+|: c |\
+Gce edc | GBd dBG | Gce edc | (ef).e {e}d2c |\
+ceg c'ba | (ge).c {e}Td2c | edc Gcd | ecc c2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 20
+T: Gavot by Mr Maclean
+%R: govotte, march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.10 #20
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+|:\
+G2A2 B2c2 | d6 e2 | d2cB c2BA | B2AG A2D2 |\
+G2A2 B2c2 | d6 e2 | d2cB c2B2 | {B2}A8 :|
+|:\
+A2FG A2B2 | c6 c2 | B2GF GABc | d6 d2 |\
+e2c2 G2e2 | d2ef g2c2 | B4 TA4 | G8 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21
+T: Italian Peasants
+%R: march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.10,11 #21
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+GABc |\
+d2d2 d2d2 | e2d2 g2d2 | e2d2 g2d2 | Tc2B2 GABc |\
+d2d2 d2d2 | e2d2 g2d2 | c2BA GABc | d4 :|
+|: defg |\
+a2d2 b2d2 | Td2^c2 a2=c2 | Tc2B2 g2B2 | TB2A2 DEFG |\
+A2D2 B2D2 | c2D2 d2D2 | g2fe dcBA | G4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 22
+T: Hornpipe by Mr Festing
+%R: triple hornpipe
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.11 #22
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 3/2
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+|:\
+(df)(eg) f2 d4 AF | G2B2 (gf)(ed) (dc)(BA) |\
+(Bg)(ed) (ca)(fe) (df)(gf) | (ec)(dB) (AF)(GE) (FA)(Bc) |
+(df)(eg) f2 d4 AF | G2B2 (gf)(ed) (dc)(BA) |\
+(Bg)(ed) (ca)(fe) (db)(ag) | (fa)(fd) (Adce) d4 :|
+|:\
+(fa)(fd) {f}e2(dc) {e}d2(cB) | (ce)(cA) (dc)(BA) {A}^G2(FE) |\
+(Fd)(BA) (^GB)(ed) (ce)(ae) | (fd)(ec) (dB)(A^G) A2(Bc) |
+(df)(eg) f2 d4 AF | G2B2 (gf)(ed) (dc)(BA) |\
+(Bg)(ed) (ca)(fe) (db)(ag) | (fa)(fd) (Adce) d4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 23
+T: Trip to Gunning Hill Wells
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.11 #23
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A |\
+dfa dfa | dcd ecA | dfa efg | fdd d2 ::\
+f/g/ |\
+aba gag | fdf ecA | aba geg | fdd d2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 24
+T: March of the 17 Reg.t
+%R: march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.12 #24
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|:\
+G2D>G B2G>B | d2B>d g4 |\
+e2g>e d2g>d | d>cB>A B2G2 |\
+e2g>e d2g>d | d>cB>A B2G2 |
+(B/c/B/c/).d.d {e}d2c>B | A2d>e d4 |\
+(B/c/d/c/).d.d {e}d2c>B | A2A>A A2g2 |\
+(gf).e.d (fe).d.^c | d2d>d d4 :|
+|:\
+(A/B/A/B/).c.c {d}c2BA | (B/c/B/c/).d.d {e}d2cB |\
+(A/B/A/B/).c.c {d}c2BA | {c}B2A>A A4 |\
+(d/e/d/c/) (B/c/B/A/) G2G2 | d>=fe>d {d}e4 |
+(e/^f/e/d/) (^c/d/c/B/) A2A2 | e>gf>e {e}f4 |\
+g2d>d d2g2 | d2B>B B2(3(def) |\
+g>gf>e d>cB>A | G2G>G G4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 25
+T: Rigadoon
+%R: rigadoon, march, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.12 #24
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+(Tfe) |\
+d2D2 dfed | e2E2 egfe |\
+fefd bagf | {f2}e6 ::\
+a2 | b2G2 bd'c'b |
+a2F2 ac'ba |\
+g2E2 gbag | fdef gabc' |\
+d'fed A2Tc2 | d6 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 26
+T: Hornpipe
+%R: triple hornpipe
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.13 #26
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The bowings in bars 2,3 should probably be the same.
+M: 3/2
+L: 1/8
+K: D
+|:\
+(def).d bg(Tfe) .a(Tfed) | cdef e2B2 cdec |\
+(def).d .b(Tgfe) .a(fed) | Adce .d(TBAG) F2D2 :|
+|:\
+(d'c'd').a bagf efge | (=c'bc').a bagf efge |\
+(d'c'd').a bagf gfed | Adce .d(TBAG) F2D2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 27
+T: Lady Townsend's Fette de Camp
+%R: reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.13 #27
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|:\
+BdBG cecA | fafd g2G2 |\
+BdBG cecA | (BA).G.F G4 ::\
+d3ge2g2 | fgaf g2G2 |
+d2g2e2g2 | (fg).a.f g4 ::\
+BABc d2e2 | f2g2f2e2 |\
+BgdB cdec | (BA).G.F G4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 28
+T: La Scimballe
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.13 #28
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D |\
+G2F G2A | B2A B2c |\
+ded cBA | G2G G2 ::\
+d |\
+[g3B3D3]z z2d | [g3B3D3]z z2d |
+[g3B3D3]d Tc2B | ADD D2D |\
+G2F G2A | B2A B2c |\
+ded cBA | G2G G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 29
+T: Las Chasse de la Garde
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.14 #29
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The two "D.C." symbols are written on the staff. This seems to just duplicate the segno symbols.
+N: The last note of bar 7 is hidden in the page fold; transcribed to match bar 3.
+N: The last strain has only 7 bars.
+M: 6/8
+L: 1/8
+K: D
+!segno!A |\
+AAA FDd | dfd cAa | a2a fdd | dcd e2A |\
+AAA FDd | dfd cAa | a2a fdd |
+fge "_Fine"Hd2 :|\
+A |\
+A2=c BGB | BdB AFA | A2A GEG | GBG F2A |\
+A2=c BGB |
+BdB AFA | ABc def | g2f e2 !segno!|] "^D.C."y6 [| F |\
+FFF F2B | dcB cFc |
+edc dBf | faf gee | ege fdd | dfd efg | d2c B2 !segno!|] "^D.C."y6
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 30
+T: The Tast
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.14,15 #30
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|:\
+d>ed dAd | fdf afa | d'c'b agf | e>fe ecA |\
+d>ed dAd | fdf afa | d'c'b afd | gec d3 :|
+|:\
+a>ba afd | a>ba afd | FAd fad' | afd ecA |\
+def gab | ad'c' d'af | bge afd | Adc d3 :|
+|:\
+FAd GBd | ceg fad' | a>ba afd | e>fe ecA |\
+FAd GBd | ceg fad' | a>ba afd | gec d3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 31
+T: La Rose
+%R: reel, shottish
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.15 #31
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|:\
+dcde d2f2 | e2f2g2f2 |\
+e2d2c2d2 | edcB A2G2 |\
+F2d2c2d2 | e2f2g2e2 |\
+f2d2A2c2 | d4 D4 :|
+|:\
+A2FD B2GE | A2FD B2GE |\
+F2d2c2d2 | edcB A2G2 |\
+F2d2G2e2 | A2f2B2g2 |\
+f2d2 cdec | d4 D4 :|
+|:\
+b2GA B2G2 | a2FG A2F2 |\
+E2ef gfed | cdec A2G2 |\
+F2ab a2F2 | G2b2E2g2 |\
+f2d2 cdec | d4 D4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 32
+T: The Flying Fish
+%R: reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.15 #32
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|:\
+g2ba g2d2 | Bdgb ac'af |\
+g2(ba) g2d2 | (ac').a.f g4 ::\
+dBdB ecec | AGFD GBdB |\
+dBdB ecec | (AG).F.D G4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 33
+T: West's Hornpipe
+N: Also called Fisher's Hornpipe.
+%R: hornpipe, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.16 #33
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|:\
+gdBd cedc | BdBd cedc |\
+BGBG cAcA | BGBG .A(FTED) |\
+gdBd cedc |
+BdBd cedc |\
+Bgec' (ba).g.f | g2g2 g2z2 ::\
+afdf afc'a | bgdg bgd'b |
+afdf afc'a | (bg).f.e d4 |\
+ecGc ecge | dBGB dBgd |\
+ecge (dc).B.A  | G2G2 G2z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 34
+T: La' Foes Allemande
+%R: march, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.16 #34
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+%%slurgraces 1
+%%graceslurs 1
+A2 |\
+d4 e4 | (fgfg a2).g2 |\
+f4 {a}g2fe | dcde d2A2 |\
+d4 e4 | (fgfg a2).g2 |\
+f4 {a}g2fe | d6 :|
+|: d2 |\
+f2fg f2e2 | d2de d2A2 |\
+B4 Tc4 | dcde d2d2 |\
+f2fg f2e2 | d2de d2A2 |\
+B4 Tc4 | d6 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 34
+T: Rigadoon by Philpot
+%R: jig, rigadoon
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.16,17 #35
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A |\
+d3 Te3 | fed agf |\
+efd cBe | {B}A3- A2 ::\
+A |\
+dAd de=c | {c}B3- B2B |\
+eBe efd | {d}c3- c2 (a/g/) |\
+fed Adc | {c}d3- d2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 36
+T: Gigg by Mr Arne
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.17 #36
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|:\
+d2d dfd | ecA (c/d/e).c |\
+d2d- dfd | ecA d2 ::\
+aad (b2g) | (a2f) (g2e) |\
+ffd gge | adc d3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 37
+T: Callam Phiter
+%R: reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.17 #37
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Ador
+a |\
+ge e/e/e g2ga | ge e/e/e (dB)Ba |\
+ge e/e/e g2ga | ge e/e/e A2A :|
+|: B |\
+GB B/B/B (dB)Ba | ge e/e/e (dB)Bd |\
+GB B/B/B (dB)Ba | ge e/e/e A2A :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 38
+T: Les Bois
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.17 #38
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+GGG |\
+d2d e2f | g2d gag |\
+fgf efe | d3 :: def |\
+g2d d2c | B2B BcB |
+AGA BcB | TA2G def |\
+g2d d2c | B3 d2B |\
+c2B AGF | G3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39
+T: Mr Aldrige's Highland Laddie
+N: The index lacks the "Mr" in the title, but has the apostrophe that's missing in the tune.
+%R: reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.18 #39
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+f |\
+ABde {g}f2(ed) | geef geef |\
+ABde fbag | fdde fdd :|
+|: d' |\
+babd' {b}a2(gf) | geef geed' |\
+babd' {b}a2(fe) | fdde fdd :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 40
+T: La Ruggieni
+N: Spelled "Ruggiene" in the index.
+%R: Rmarch, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.18,19 #40
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The end of bar 9 is obscured; it should perhaps be b2g2 as in bar 13.
+M: 2/4
+L: 1/16
+K: G
+%%slurgraces 1
+%%graceslurs 1
+|:\
+G4 A2c2 | {c}B4 c2e2 | d2c'2f2a2 | gfga g2g2 |\
+G2BG A2c2 | B2dB c2e2 | dc'ba g2f2 | g4 g4 ::\
+b2ga b4 |
+c'2ab c'2a2 | b2ga b2g2 | {g}f2d2 d4 |\
+b2(ga) b2g2 | c'2b2a2g2 | {g}f2d2 egfa | g4 g4 ::\
+f2ag f2d2 | g2ba g2e2 | f2a2^c2e2 |
+d^cde d2d2 |\
+!p!(b2g2).g2.b2 | (a2f2).f2.a2 | !f!g2e2d2^c2 | d4 d4 ::\
+d4 c2B2 | {cd}e4 d2c2 | B2A2G2F2 | GFGA G2G2 |
+.d2(d2c2B2) | .e2(e2d2c2) | B2A2G2F2 | G4 G4 ::\
+(G2B2).d2.g2 | (B2d2).g2.b2 | a2c'2f2a2 | gfga g2g2 |\
+(G2B2).d2.g2 | (B2d2).g2.b2 |
+a2g2f2e2 | d4 d4 ::\
+d4 c2B2 | {cd}e4 d2c2 | B2A2G2F2 | GFGA G2G2 |\
+.d2(d2c2B2) | .e2(e2d2c2) | B2A2G2F2 | G4 G4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 41
+T: Air by Mr Handel
+%R: march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.19 #41
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A2 |\
+d2f2 Te2d2 | a4 f4 |\
+b2a2 g2f2 | Tg2 f4 :: a2 |\
+b2g2 e2fg | a2f2 d2ef |
+g2f2 e2d2 | edef e2(fg) |\
+a2fg a2gf | g2ef g2fe |\
+fede Te3d | d6 :|
+
+%%slurgraces 0
+%%graceslurs 0
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 42
+T: Goud a Goupens
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.19 #42
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+c/d/ |\
+ege c2e | c2e dBG | c2A- Adc | TB3 B2 c/d/ |\
+ege c2e | c2e dBG | c2(A {c}B)A^G | A3 A2 :|
+^f/g/ |\
+a2e g2d | e2g dBG | c2A Adc | TB3 B2 ^f/g/ |\
+a2e g2d | e2g dBG | c2A {c}BA^G | A3 A2 ||
+^f/g/ |\
+a2e g2d | e2g dBG | c2A Adc | TB3 B2 ^f/g/ |\
+ag^f gfe | dge dBG | c2(A {c}B)A^G | A3 A2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 43
+T: The King's March
+%R: march, reel
+N: This is version 1, for ABC software that doesn't understand trailing grace notes.
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.20 #43
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The first strain has 9 bars.
+M: 2/4
+L: 1/16
+K: D
+%%slurgraces 1
+%%graceslurs 1
+A2 |\
+A2(Bc) d2d2 | (d4 c2)ef |\
+g2fe {g}f2ed | c2d2- defg |\
+a2(ba) g2f2 | {ga}b3a gfed |\
+g2fe f2d2 | d2eB Tc3d | d6 :|
+|: f2 |\
+e2d2c2a2 | g2f2e2d2 |\
+Tc2d2 z2a2 | g2f2e2d2 |\
+Tc2d2 z2b2 | {a}^g2(fe) a4- |\
+a2bf T^g3f/g/ | a6 d2 |
+c2B2c2A2 | d2{fg}a2g2f2 |\
+gaba gfed | a2A2 z2a2 |\
+b2(Tgf) g2g2 | g2e2 f2dA |\
+(Bcde) Tc3d | d6 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 44
+T: La Provencale
+N: The cedille is missing on the '\,c'.
+%R: march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.20 #44
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/4
+K: D
+A |\
+Ad dc | BA Bc | d/c/d/e/ dA |\
+Ad dc | BA Bc | d3 :: d |\
+ef gf | ed cd | ef gf | eA Ad |
+cd e/d/c/B/ | cA Ad | cd e/d/c/B/ | A2 e2 |\
+Te>d ef | g2 f2 | ed ec | d/c/d/e/ de |\
+ed ef | g2 f2 | ed ec | d3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 45
+T: Kelso Lasses
+%R: slip-jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.21 #45
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+f |\
+g2d BGB BGB | g2(d B)GB TA2f |\
+g2d BGB BGB | cAc BGB A2 :|
+|: G |\
+Bcd dec (dB).G | (B/A/B/c/d) edB TA2G |\
+Bcd dec (dB).G | cAc BGB A2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 46
+T: Air in Harlequin Ranger
+%R: Rmarch, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.21 #46
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+|:\
+d'4 (a<f) f2 | g2 b>d' {b2}a4 |\
+(g<f) f2 (Te<d) d2 | (ba)(gf) {f2}e4 |\
+d'4 (a<f) f2 | g2 b>d' {b2}a4 |\
+(g<f) f2 (Te<d) b2 | (a<f) (Te>f) d4 :|
+|:\
+f4 (Te<d) d2 | (d'c')(ba) b3 c' |\
+(d'<a) f2 (b<g) e2 | (af)(df) {f2}e4 |\
+d'4 (a<f) f2 | g2 b>d' {b2}a4 |\
+(g<f) f2 (Te<d) b2 | (a<f) (Te>f) {e2}d4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 47
+T: Gigg
+%R: slip-jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.21 #47
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: D
+A |\
+d>ef fdf ece | dBd Tc3 A2 F |\
+G>AB BGB (B/A/B/c/d) | Adc d3 D2 :|
+|: F/G/ |\
+A>BA AFD G>AB | BeB Tc3 A2 e/f/ |\
+g>af edc Bgf | edc d3 D2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 48
+T: La Mignonette Francoise
+N: The cedille is missing on the '\,c'.
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.22 #48
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain's pickup note is missing its flag; fixed.
+M: 6/8
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+G |\
+B2B- B>AG | d2d d2g | d2b d2c | TB2A G2G |\
+B2B- B>AG | d2d d2g | fed Ad^c | d3- d2 :|
+|: d |\
+a2d (c'2b) | {b}a2g f2g | a2d c'2b | (Tag).f g2d |\
+ec'e cec | dbd BdB | c2A TG2F | G3- G2 :|
+|: B |\
+B3 AGA | G2G G2d | d3 cBc | B2B B2g |\
+{a}g2f {g}f2e | {f}e2d {e}d2c | (B>c).d Tc2B | A2A A2 :|
+|: d |\
+=f2f- fdB | c2c c2e | g2g- ge^c | d2d d2b |\
+c'2b Ta2g | c'2b Ta2g | ec'b agf | g2g g2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 49
+T: Air in Fortunatus
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.22,23 #49
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+a |\
+{g}f>ed d'c'b | (af)d TA2(G | F)Ad (f/g/a).f | eee e2a |\
+{g}f>ed d'c'b | (af)d TA2(G | F)Ad gfe | .d.d.d d2 :|
+|: e |\
+cea gfe | dfa d'c'b | afa (b/c'/d').c' | .b.b.b Tb2c' |\
+d'af (b/c'/d').b | afd B2(d | A)FA gfe | .d.d.d d2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 50
+T: Vauntine
+%R: march, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.23 #50
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+|:\
+dABc | dc/B/ A2 | Bgec | dA FD |\
+dABc | dc/B/ A2 | Bgec | d2 D2 ::\
+f2af | e2ge |
+face | dA FD |\
+f2af | e2ge | face | d2 d2 ::\
+A(G/F/) GB | (B2 A).A |\
+cABc | d/c/d/e/ dd |\
+A2(GF) GB | (B2 A).A |
+BABc | d2 d2 ::\
+(c//d//e3/) df | egce |\
+dfeg | Tg2 f2 |\
+(c//d//e3/) df | egce |\
+Bg f/e/d/c/ | d2 D2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 51
+T: The London Camp
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.23 #51
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A |\
+def gea | fdf ecA |\
+def gea | fdd d2 ::\
+f/g/ |\
+aaf gge | ffd ecA |
+fga agf | eee e2f/g/ |\
+aaf gge | ffd ecA |\
+def gea | fdd d2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 52
+T: Le Doux Portraite
+%R: march, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.24 #52
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+%%slurgraces 1
+%%graceslurs 1
+|:\
+G4 D2B2 | {B}A4 D2c2 | B2A2G2F2 | GFGA G2D2 |\
+G4 D2B2 | {B}A4 D2c2 | {c/}B2AG {B/}A2GF | G4 G4 :|\
+|:\
+d4 (g2d2) | Te4 d4 | A2B2c2B2 | AGAB A2A2 |
+d4 (g2d2) | Te4 d4 | A2B2 {d/}c2(Bc) | {B}A4 A4 |\
+G4 D2B2 | {B}A4 D2c2 | B2A2G2F2 | GFGA G2D2 |\
+G4 D2B2 | {B}A4 D2c2 | {c/}B2AG {B/}A2GF | G4 G4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 53
+T: Whip her and Gird her
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.24,25 #53
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|:\
+G>AG GB/c/d/B/ | G>AG (TB2A) | G>AG GB/c/d/B/ | A=FA (c2A) |\
+G>AG GB/c/d/B/ | GAB gdB | cgc BgB | A=FA (c2A) :|
+|:\
+g3 def | gfe dcB | (g/f/e/f/g) de=f | A=FA (c2A) |\
+g3 def | gfe dcB | cgc BgB | A=FA (c2A) :|
+|:\
+BGG ADD | BGG (B/c/d/c/B/A/) | BGG ADD | AFA (c2A) |\
+BGG ADD | BGB gdB | cgc BgB | A=FA (c2A) :|
+|:\
+gdB gdB | GAB (d2B) | gdB gdB | A=FA (c2A) |\
+gdB gdB | GAB gdB | cgc BgB | A=FA (c2A) :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 54
+T: Le Moulin de Sanois
+%R: march, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.25 #54
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|:\
+a4 f2d2 | A4 c2d2 | B2g2e2c2 | dcde d2d2 |\
+a4 f2d2 | A4 c2d2 | B2g2e2c2 | d4 d4 ::\
+F2F2G2A2 | G2A2 (B4 |
+A2)g2e2c2 | dcde d2d2 |\
+F2F2G2A2 | G2A2 (B4 | A2)g2e2c2 | d4 d4 ::\
+(fd3) (af3) | (ec3) A4 | (BG3) (dB3) | (AF3) D4 |
+(fd3) (af3) | (ec3) (Ac3) | B2d2 cBA^G | A4 A4 ::\
+A4 F2d2 | B4 G2d2 | c2e2A2c2 | dcde d2f2 |\
+A4 F2d2 | B4 G2g2 |
+f2e2d2c2 | d4 H"_Fine."d4 :| [K:=f=c][K:Dm]\
+|:\
+(f4 e2).d2 | (d4 ^c2).d2| e2g2f2e2 | d^cde d2d2 |\
+(f4 e2).d2 | (d4 ^c2).d2| e2g2f2e2 | d4 d4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 55
+T: The Raged Sailor
+N: Should that be "Ragged"?
+%R: jig	% also works as a slip-jig, if you rearrange the bar lines.
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.26 #55
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+B |\
+GAB gfe | dBG ABd | e2A A2B |\
+GAB gfe | dBG ABd |TB2G G2 :|
+|: g |\
+ece dBd | ece dBd | c2A A2g |\
+ece dBd | gfe dAc |TB2G G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 56
+T: La Reni
+%R: march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.26 #56
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|:\
+d'4 a4 | f2af d2A2 |\
+B2B2 c2c2 | d2A2 F2D2 |\
+d'4 a4 | f2af d2A2 |\
+B2ge cdec | d4 d4 :|
+|:\
+AGAB ABcA | dcde defg |\
+a2fd d'2fd | edef e2e2 |\
+AGAB ABcA | dcde defg |\
+a2fd d'2fd | e4 e4 |
+d'4 a4 | f2af d2A2 |\
+B2B2 c2c2 | d2A2 F2D2 |\
+d'4 a4 | f2af d2A2 |\
+B2ge cdec | d4 d4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 57
+T: We're a forsaken for want o' Siller
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.26,27 #57
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gmix
+|:\
+(B/c/d).f Te2d | (B/c/d).B (A/B/c).A | c2e- ecA |\
+(B/c/d).f Te2d | (B/c/d).B (A/B/c).A | Gge dBG :|
+|:\
+(B/c/d).B c2g | B2g A2g | c2e- ecA |\
+(B/c/d).B ccg | BBg AAg | Gge (dB).G :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 58
+T: O'er the Muir to Kettie
+N: The "Muir" in the title looks a lot like "Meir"; in the index, it's "moor".
+%R: reel, march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.27 #58
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+FE |\
+D3A ABAF | A2d2 d3A |\
+Bcde {g}f2(ed) | e2 E4 FE |\
+D3A ABAF | A2d2 d3A |\
+BcdB edce | d2D4 :|
+|: de |\
+fedB ABdA | B2d2 d3F |\
+GAB=c BAGF | E2 e4 ag |\
+fedf edce | dcBA BAGF |\
+EFGE AGFE | D2 d4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 59
+T: Kick the Rogue's out
+N: The title does contain that apostrophe.
+%R: slip-jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.27 #59
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: D
+|:\
+F>GA D2B AFD | F>GA D2A TB2A |\
+F>GA D2B AFD | GFE EFA TB2A :|
+|:\
+d3 D2B AFD | (d/c/B/c/)d D2g Tf2e |\
+def efd cBA | dcB AFA TB2A :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 60
+T: Love and Honour
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.28 #60
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+(A//B//c/ |\
+d2)A FDF | Adc Bcd | efg Bcd | cec ABc |\
+d2A FDF | Adc Bcd | efg ABc | d3 D2 :|
+|: d'//c'//b//c'// |\
+d'2a fdf | ad'a fdf | abc' be'd' | Tc'3 a2d' |\
+f'd'b d'f'b | e'c'a bd'f | ge'g ed'c' | d'3 d2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 61
+T: The Pantheon
+%R: jig, march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.28,29 #61
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|:\
+d2d d2c | B2B B2A | G2(G A)GA | B2B B2c |\
+d2d d2c | B2B B2A | G2G AGA | [B3G3] [B3G3] :|
+|:\
+b2b bag | a2d def | g2g gfe | f2B Bcd |\
+e2(e e)dc | d2G GAB | cdc BcB | A3 A3 :|
+|:\
+B3 AGA | BcB AGA | BcB AGA | BcB A3 |\
+a2a a2g | f2f f2e | d2d ede | d3- d2 (G//A//B//c//) |
+d2d d2c | B2B B2A | G2(G A)GA | B2B B2c |\
+d2d d2c | {c}B2B B2A | G2G AGA | G3- G3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 62
+T: A Trip up Stairs
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.29 #62
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/16
+K: G
+c2 |\
+(Bcd2).B2 G4g2 | (fga2).f2 d4c2 | (Bcd2).B2 (ABc2).A2 | (FGA2).F2 D4c2 |\
+(Bcd2).B2 G4g2 | (fga2).g2 a4g2 | f2e2d2 A2d2^c2 | d6- d4 :|
+|: B2 |\
+(c2d2c2) e2d2c2 | (B2c2B2) d2c2B2 | A2B2c2 B2A2G2 | (FGA2).F2 D4c2 |\
+(Bcd2).B2 G4g2 | (fga2).f2 g4c2 | B2A2G2 D2G2F2 | G6 G4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 63
+T: The Souters of Selkirk
+%R: slip-jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.29 #63
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/16
+K: G
+|:\
+(Bcd2)d2 (efg2)e2 (d2B2)G2 | (Bcd2)d2 (efg2)e2 Tf4A2 |\
+(Bcd2)d2 (efg2)e2 (d2B2)G2 | c3de2 d2B2g2 Tf4A2 :|
+|:\
+g2G2B2 g2(agfe) d2B2G2 | g2d2B2 g2d2B2 a2(fgaf) |\
+g2(efge) d2(BcdB) G2(BcdB) | c2e2c2 d2B2g2 Tf4A2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 64
+T: Cotillon
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.30 #64
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+d2d |\
+dfe d2d | dcB AGF | EAG TFEF | D3 d2d |\
+dfe d2d | df^g acd | cBA EA^G | A3 :|
+|: a2a |\
+aAB =cBA | B3 b2b | bBc dcB | c3 AAA |\
+dAd fdf | a3 efg | fed Adc | d3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 65
+T: La Hier Au Soir
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.30 #65
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+d |\
+d2c c2B | TB2A G2A | (Bc)d {d}Tc2B | A2A A2d |\
+d2c c2B | TB2A G2A | (Bc)d {d}Tc2B | A3- A2 :|
+|: (B/c/) |\
+d2d d(gb) | c2c c(fa) | B2B BcB | A2A ABc |\
+d2d d(gb) | c2c c(fa) | BcB AGA | G3- G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 66
+T: Cotillon
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.30,31 #66
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain has initial repeat but no final repeat; not fixed.
+%%slurgraces 1
+%%graceslurs 1
+M: 6/8
+L: 1/8
+K: D
+|:\
+d2d e2e | c2(c d3) | f2f g2g | e2e f2f |\
+d2d e2e | c2c d3 | edc TB2A | {c}BA^G | A3 :|
+|:\
+a2a f2f | e2^d e2E | g2g e2e | d2c d2D |\
+a2a bab | c'bc' d'2d | agf {f}e2d | edc d3 :|
+|:\
+DDD FFF | AAA d2A | d2e fed | g2f e3 |\
+DDD FFF | AAA d2A | d2e d2c | {c}BA^G A2A |
+a2a f2f | e2^d e2E | g2g e2e | d2c d2D |\
+a2a bab | c'bc' d'2d | (ag)f {f}e2d | {f}edc d3 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 67
+T: Cotillon
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.31 #67
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+!segno!G2G- |\
+GcB Bed | d3 gfe | dcB Adc | BAG G2G- |\
+GcB Bed | d3 gfe | dcB AGF | !fine!HG3 :|
+A2A |\
+ABc BAG | G3 B2B | Bcd cBA | A3 d2g |\
+fed d2g | fed d2d- | dBA GFE | D3 !segno!|]
+g2b |\
+agf ed^c | d3 =c2e | dcB Adc | BAG g2(b |\
+a)gf ed^c | d3 gfe | agf ed^c | d3 !segno!|]
+B2c |\
+d2d def | g3 gfe | dcB Adc | BAG B2c |\
+d2d def | g3 bag | fed Ad^c | d3 !segno!|]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 68
+T: Cotillon
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.32 #68
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+!segno!d2d |\
+dcd ecA | A3 gfb | ad'a agf | e2A d2d |\
+dcd ecA | Bef gab | afd gec | !fine!Hd3 :|
+|: ABA |\
+A2d c2B | A^GA fdA | GFG ecG | FED ABA |\
+A2d c2d | ecA gfe | fd'a agf | e3 !segno!|]
+fdB |\
+B2d' c'd'b | {g}^a3 bfd | efg cfe | dcB fdB |\
+B2d' c'd'b | T^a3 b=a^g | c'ba Tgaf |^e^dc c'af |
+dcB d'b^g | ^e^dc def | cc'a ^gf^e | f3 a2a |\
+a2d' c'2b | {b}a2g {g}f2e | fag fed | cBA !segno!|]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 69
+T: La Pendress
+%R: reel, march
+N: This is version 1, for ABC software that doesn't understand grace notes with length.
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.32,33 #69
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%%slurgraces 1
+%%graceslurs 1
+K: Am
+edcB |\
+A2a2 ^g2a2 | (f2e2) f2ed | {f}e2dc {e}d2cB | {d}c2A2 edcB |\
+A2a2 ^g2a2 | b4 c'2ba | g2^fe gfe^d | e4 :|
+|: gfed |\
+c2 (3(c'ba) g2(Ta3/g//a//) | (a2g2) agfe | d2c2 Bdce | d2G2 gfed |\
+c2 (3(c'ba) g2(Ta3/g//a//) | (a2g2) agfe | d2c2 {e}d2cB | c4 edef |
+e4 dcde | d4 c2BA | ^G2f2 dcBA | ^G2E2 edcB |\
+A2a2 ^g2(Ta3/g//a//) | e4 f2ed | c2BA cBA^G | A4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 70
+T: Allemande
+%R: reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.33 #70
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+f2 |\
+egec d2f2 | egec d2A2 |\
+B2A2B2c2 | dcde d2f2 |\
+egec d2f2 | egec d2A2 |\
+B2A2B2c2 | d6 :|
+|: g2 |\
+fafd fafd | gbgb d2zg |\
+fafd fafd | edcB A2zg |\
+fafd fafd | gbgb e2zg |\
+fafd egec | d6 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 71
+T: The Humours of Dublin
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.34 #71
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gmix
+|:\
+gdc TB2G | dBG (A/B/c)A | gdc TB2G | cAF (A/B/c)A |\
+gdc TB2G | (b/c'/d')b c'2a | gfe f2d | cAF (A/B/c)A :|
+|:\
+Tb2g gbg | gbg (a/b/c')a | Tb2g gbg | c'af (a/b/c')a |\
+Tb2g gbg | ece dcB | cec BdB | cAF (A/B/c)A :|
+|:\
+GBG TB2G | GBG (A/B/c)A | GBG TB2G | cAF (A/B/c)A |\
+GBG TB2G | (b/c'/d')b c'2a | gfe f2(d | c)AF (A/B/c)A :|
+|:\
+Tb2g gbc' | d'bg (a/b/c')a | Tb2g gab | c'af (a/b/c')a |\
+Tb2g gbg | ege dcB | cde fed | cAF (A/B/c)A :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 72
+T: Les Capacins Maidons
+%R: march, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.35 #72
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+g2d2 |\
+B2G2 AGAB | G4 AGAB | c2B2 ABcA | B2G2 g2d2 |\
+B2G2 AGAB | G4 AGAB | c2B2 AGAB | G4 :|
+|: B2c2 |\
+TB2A2 B2c2 | TB2A2 B2c2 | TB2A2 B2^c2 | d4 B2=c2 |\
+TB2A2 B2c2 | TB2A2 B2c2 | TB2A2 B2^c2 | d4 g2d2 |
+B2G2 AGAB | G4 AGAB | c2B2 ABcA | B2G2 g2d2 |\
+B2G2 AGAB | G4 AGAB | c2B2 AGAB | G4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 73
+T: Les Drapeaux
+%R: march, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.35 #73
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has 18 (10+8) bars.
+M: C
+L: 1/8
+K: G
+B2c2 |\
+d4 cBAB | G4 c2B2 | A2GF G2A2 | B2G2 B2c2 |\
+d4 cBAB | G4 c2B2 | A2G2 BAGF | G4 :|
+|: g2f2 |\
+e2^d2 e2f2 | B4 e2^d2 | e2f2 g2ag | f2e2 g2f2 |\
+e2^d2 e2f2 | B4 e2^d2 | e2f2 g2ag | f2e2 g2d2 | B2G2 g2d2 |
+B2G2 B2c2 | d4 cBAB | G4 c2B2 | A2GF G2A2 |\
+B2G2 B2c2 | d4 cBAB | G4 c2B2 | A2G2 BAGF | G4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 74
+T: Miss Garricks Allemande
+%R: reel, march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.36 #74
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+%%slurgraces 1
+%%graceslurs 1
+K: C
+|:\
+c'4 g2f2 | (e/f/g3) c2e2 | (d/e/f3) B2d2 | cBcd c2c2 |\
+c'4 g2f2 | (e/f/g3) c2e2 | (d/e/f3) (edcB) | c4 c4 :|\
+|:\
+G2d2B2d2 | G2e2c2e2 |
+G2 (f4 e2) | .d2.c2.B2.A2 |\
+G2d2 B2dB | G2e2 c2ec | G2f2 edcB | c4 c4 :|\
+|:\
+G6 A2 | G2F2E2F2 | G6 A2 | G2F2E2F2 |
+G2A2B2c2 | d2e2f2g2 | {f}e2ge {e}f2dB | c4 c4 :|\
+|:\
+g4 f2e2 | {g}f2{f}e2 {e}d4 | f4 {f}e2d2 | {f}e2c2 c4 |\
+g2ef e2g2 | {g}f2de {e}d2f2 |
+{f}e2ge {e}f2dB | c4 c4 :|\
+|:\
+e4 fedc | g2g2 agfe | a4 b4 | c'bc'd' c'2c'2 |\
+e4 fedc | g2g2 agfe |
+a2c'a b2d'2 | c'4 c'4 :|\
+|:\
+a4 g2f2 | e2f2g2e2 | d2e2f2d2 | cBcd c2c2 |\
+a4 g2f2 | {f}e2f2 {f}g2ec | {e}d2e2 {e}f2dB | c4 c4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 75
+T: La Soirre du Vauxhall
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.37 #75
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+g |\
+dcB cBA | G2G G2D | GFG ABc | TB2A G2g |\
+dcB cBA | G2G G2g | fed ed^c | d2d d2 :|
+|: d |\
+A2A ABc | B2B B2d | edc BAG | FGA D2d |\
+A2A ABc | B2B Bgf | edc BcA | G2G G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 76
+T: La point de Jour
+%R: march, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.37 #76
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+|:\
+GDBG | dBge | dcBA | {c}BA/B/ GD |\
+GDBG | dBge | dcBA | G2G2 ::\
+bgaf | gefd | ^cdef | e/d/c/B/ AA |
+dAfd afd'b | agfe | d2d2 |\
+GDBG | dBge | dcBA | {c}BA/B/ GD |\
+GDBG | dBge | dcBA | G2G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 77
+T: Cotillon
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.37 #77
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+A |\
+cdc BA^G | A2A A2f | edc Bed | cBc A2A |\
+cdc BA^G | A2A A2g | f2e d^cd | e3- e2 :|
+|: e |\
+g2d d2f | e2c c2e | edc TB2A | ^GAB E2e |\
+g2d d2f | e2c c2e | edc BA^G | A2A A2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 78
+T: La Piere Fritoisse
+%R: reel, polka
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.38 #78
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+|:\
+d2B2 BcdB | c2A2 A4 | B2G2 GABc | d2D2 D4 |\
+d2B2 BcdB | c2A2 A2c2 | {c}B2AG FGAF | G4 G4 :|
+|:\
+DEFG A2A2 | A2A2 A4 | AGAB AGAB | AGAB A4 |\
+GFGA B2B2 | B2B2 B4 | BABc BABc | BABc B4 |
+d2B2 BcdB | c2A2 A4 | B2G2 GABc | d2D2 D4 |\
+d2B2 BcdB | c2A2 A2c2 | {c}B2AG FGAF | G4 G4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 79
+T: La Dragonne
+%R: reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.38 #79
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|:\
+DEFG A2A2 | d2^cB AGFE |\
+DEFG A2A2 | d4 A4 ::\
+c2BA TB2AG | A2GF G2AB |
+c2BA B2AG | TA4 G4 ::\
+G2B2B2E2 | F2G2 AGAB |\
+A2B2B2E2 | F2GA {B}TA4 | G4 z4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 80
+T: La Nonime
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.39 #80
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|:\
+d2e fgf | efd e2A | d2e fgf | edc d3 ::\
+f2g aba | gfe f2c | f2g aba | gfe f3 |
+a2f fef | g2f ede | f2e dcd | ede A3 |\
+d2e fgf | efd e2A | d2e fgf | edc d3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 81
+T: La Neuvenne
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.39 #81
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|:\
+B2B TA2G | c2c TB2A | d2d dcB | AGA TB2G |\
+B2B TA2G | c2c TB2A | d2d dcB | AGF G3 :|
+|:\
+d2d gBc | d2d gBc | d2d g2f | e2d ^c2 A |\
+f2f fed | g2g gfe | a2a agf | ed^c d3 |
+B2B TA2G | c2c TB2A | d2d dcB | AGA TB2G |\
+B2B TA2G | c2c TB2A | d2d dcB | AGF G3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 82
+T: The Head Dress
+%R: march, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.40 #82
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|:\
+d4 cBAG | BAGF G2D2 | G2D2 A2D2 | BdcB A2D2 |\
+d4 cBAG | BAGF G2D2 | GFGA Bcde | dcBA G4 :|
+|:\
+GFGA BABc | d2d2 d4 | e2fg a2g2 | fed^c d4 |\
+d2cB c2de | {g}f2ed g2d2 | e2dc BdcB | A2GF GABc |
+d4 cBAG | BAGF G2D2 | G2D2 A2D2 | BdcB A2D2 |\
+d4 cBAG | BAGF G2D2 | GFGA Bcde | dcBA G4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 83
+T: La Bavaroize
+%R: march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.40 #83
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/2	% The book has just "2"
+L: 1/8
+K: Am
+e2 |\
+e4 a4 | e3d c2B2 | A2B2 c2d2 | edef e2e2 |\
+e4 a4 | e3d c2B2 | A2B2 c2d2 | e6 :|
+|: g2 |\
+g4 c'4 | g3f e2g2 | f2e2 d2c2 | dcde d2Bc |\
+d4 d4 | d3c d2e2 | f2e2 Td4 | c6 cd |
+e4 e4 | e3d e2f2 | e2d2 c2B2 | A^GAB ABcd |\
+e4 e4 | e3d e2a2 | ^g2a2 b2g2 | a6 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 85
+T: Les Pitites Faveur
+N: Yes, it should be "Petites".
+%R: march, polka
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.41 #84
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/2	% The book has just "2".
+L: 1/8
+K: Am
+EA^GA |\
+c2B2 e4 | dcBA e4 | dcBA ^G2A2 | B4 EA^GA | c2B2 e4 | dcBA e4 | dcBA cBA^G |
+ABcd e4 | dcBA cBA^G | A4 :: cBAG | c2G2 F4 | E4 cBAG | F2E2 D2c2 | d4 cDEF |
+G2G2 GABc | d2d2 g4 | fedc edcB | c4 EA^GA | c2c2 e4 | dcBA e4 | dcBA ^G2A2 |
+B4 EA^GA | c2B2 e4 | dcBA e4 | dcBA cBA^G | ABcd e4 | dcBA cBA^G | A4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 85
+T: Lencienne Dauphine
+N: The title is missing an apostrophe.
+%R: march, polka
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.41 #85
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/2	% The book has just "2"
+L: 1/8
+K: G
+g2 |\
+g2d2 d2B2 | B2G2 G2D2 | G4 A4 | BABc B2g2 |\
+g2d2 d2B2 | B2G2 G2D2 | G4 A4 | B6 :|
+|: B2 |\
+d2g2 g2e2 | e2a2 a2g2 | f4 g4 | agfe d2a2 |\
+a2ba g2ag | f2ef d2g2 | a4 Tf4 | g6 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 86
+T: Le Tambourin de Chartre
+%R: march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.42 #86
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: Last note of bar 13 illegible; transcribed as D to match bar 28.
+N: Last note of bar 27 illegible; transcribed as G to match bars 3, 11.
+M: 2/2	% The book has just "2".
+L: 1/8
+K: G
+GA |\
+B4 B2AB | c4 TB4 | A4 G4 | D6 D2 |\
+EDEF E2D2 | EDEF E2D2 | c4 B4 | A6 GA |\
+B4 B2AB | c4 TB4 |
+A4 G4 | D6 D2 |\
+EDEF E2D2 | EDEF E2c2 | B4 TA4 | G6 :: d2 |\
+c2B2 A2G2 | AGAB A2d2 | Tc2B2 TA2G2 | TA4 A2d2 |
+Tc2B2 A2G2 | AGAB A2d2 | Tc2B2A2G2 | A4 A2GA |\
+B4 B2AB | c4 TB4 | A4 G4 | D6 D2 |\
+EDEF E2D2 | EDEF E2D2 |
+c4 B4 | A6 GA |\
+B4 B2AB | c4 TB4 | A4 G4 | D6 D2 |\
+EDEF E2D2 | EDEF E2c2 | B4TA4 | G6 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 87
+T: La Racrocheuse
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.42 #87
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+d |\
+Bcd Bcd | G2G G2c |\
+BAG AGF | GDB G2d |\
+Bcd Bcd | G2G G2c |\
+BAG AGF | G2G G2 :|
+|: D |\
+GFG AGA | B2G G2A |\
+BAB cBc | d3- d2d |\
+dcB ABG | A3- A2D |\
+GFG AGA |
+BAB cBc |\
+dcB ABG | A2D D2c |\
+BAG AGF | G2G G2c |\
+BAG AGF | G2G G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 88
+T: Les Bergirs
+%R: march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.43 #88
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/2	% The book has just "2".
+L: 1/4
+K: G
+GG |\
+BB/c/ dd | TBA cB | TAG TFE | D2 GG/A/ | BB/c/ dd | TBA cB | AG AF | G2 ::
+dd | ed ef | gf/e/ dd | ed ef | g2 dd | ed cB | AG AB | c2 B2 | A2 GG/A/ |
+BB/c/ dd | TBA cB | TAG TFE | D2 GG/A/ | BB/c/ dd | TBA cB | AG AF | G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 89
+T: Les Plaisirs de le Societe
+%R: march, polka
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.43 #89
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|:\
+G2GA B2G2 | d2B2g2e2 |\
+d2c2B2A2 | B2AB G2D2 |\
+G2GA B2G2 | d2B2g2e2 |\
+d2c2B2A2 | G4 G4 ::\
+D2DE F2G2 | A2D2c2B2 |\
+A2D2c2B2 | A2AB AGFE |
+D2DE F2G2 | A2D2c2B2 |\
+A2D2c2B2 | A4 A4 |\
+G2GA B2G2 | d2B2g2e2 |\
+d2c2B2A2 | B2AB G2D2 |\
+G2GA B2G2 | d2B2g2e2 |\
+d2c2B2A2 | G4 G4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 90
+T: La Gigue Anglaise
+%R: reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.44 #90
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4	% The book has just "2".
+L: 1/8
+K: D
+|:\
+d2 AB | GAFD | d2cd | gfe2 |\
+d2AB | GAFD | d2cA | B^G A2 ::\
+defg |afg2 | fef2 | edcA |
+defg | afg2 | fedc | d2d2 ::\
+f2fd | g2ge | f2fd | e2e2 |\
+f2fd | g2gb | agfe | d2d2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 91
+T: La Toute Travers
+%R: reel, march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.44 #91
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+GABc |\
+d4 c2B2 | A2G2 c2B2 | A2G2 F2E2 | D4 GABc | d4 c2B2 | A2G2 c2B2 | A2G2 A2F2 | G4 :: B2G2 | A2d2 c2B2 | A2G2 B2G2 |
+A2d2 c2B2 | A4 GABc | d4 c2B2 | A2G2 c2B2 | A2G2 F2E2 | D4 GABc | d4 c2B2 | A2G2 c2B2 | A2G2 A2F2 | G4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 92
+T: La Camergo
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.44,45 #92
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+c2d |\
+e2e ede | c2c cBc | def edc | B2B Bcd |\
+e2e ede | c2c def | edc BA^G | A3 :|
+|: EAB |\
+c3 cBc | d3 dcd | efe edc | B3 BAB |\
+c3 cBc | d3 dcd | efe ecd | efe ecd |
+e2e ede | c2c cBc | def edc | B3 Bcd |\
+e2e ede | c2c def | edc BA^G | A3 :|
+|: Ac'b |\
+a^ga bc'b | a^ga bc'b | abc' ba^g | ^f3 fef |\
+g2g g^fg | a2a aga | bc'b ^f^ga | ^g2g acd |
+e2e ede | c2c cBc | def edc | B2B Bcd |\
+e2e ede | c2c def | edc BA^G | A3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 93
+T: La Nonime
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.45 #93
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+A2B |\
+cdc BcA | B2E A2B | cdc BA^G | A3 :: c2d | efe dcB | c2G c2d | efe dcB | c3 e2c |
+cBc d2c | BAB c2B | A^GA BAB | E3 A2B | cdc BcA | B2E A2B | cdc BA^G | A3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 94
+T: Madelon Friquet
+%R: march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.46 #94
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/2	% The book has just "2".
+N: The 2nd strain has 14 bars.
+L: 1/8
+K: Am
+|: A2B2 |\
+c2A2 c2d2 | e4 e2dc | B2c2 d2B2 | c2A2 A2B2 |\
+c2A2 c2d2 | e4 e2dc | B2A2 B2^G2 | A4 :|\
+|: e2ef |\
+g2g2 g2g2 | g4 g2fe |
+d2e2 f2d2 | e2c2 edef |\
+e4 d4 | c4 A2B2 | c2A2 c2d2 | e4  e2dc |\
+B2c2 d2B2 | c2A2 A2B2 | c2A2 c2d2 | e4 e2dc |\
+B2A2 B2^G2 | A4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 95
+T: La Foire de brie
+%R: reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.46 #95
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|: DEFD |\
+G2G2G2G2 | D4 GDGB | AGAB cBcA | B2G2 DEFD |\
+G2G2G2G2 | D4 dcBA | GFGA B2A2 | G4 :|
+|: GABc |\
+dcdf edef | g4 bagb | agfa gfeg | f2d2 GABc |\
+dcdf edef | g4 bagf | e2d2 ^cdec | d4
+DEFD |\
+G2G2G2G2 | D4 GDGB | AGAB cBcA | B2G2 DEFD |\
+G2G2G2G2 | D4 dcBA | GFGA B2A2 | G4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 96
+T: Les Soairs
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.47 #96
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+g2g |\
+g2G ABc | B2A d2d | dcB AGA | B2G g2g |\
+g2G ABc | B2A d2d | dcB AGF | G3 :|
+|: d2d |\
+gfe a2d | ^c2A a2a | agf efd | ^c2A a2a |\
+Bgf ed^c | d3 def | gBc dcB | eAB cBA |
+dcB ABG | F2D | g2g | g2G ABc | B2A d2d |\
+dcB AGA | B2G g2g | g2G ABc | B2A d2d |\
+dcB AGF | G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 97
+T: Le Diable an lair
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.47 #97
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+G2G |\
+d2d dcd | BAG g2g | f2g aga | d3 G2G |\
+d2d dcd | BAG g2g | f2f aga | d3 :|
+|: A2 B |\
+c2B ABG | F2D GFG | AGA BcB | A3 A2B |\
+c2B ABG | F2D gfe | dcB AGF | G3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 98
+T: Les Corceaux
+%R: march, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.48 #98
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+DEFG |\
+A2A2 A2A2 | A2d2 e2f2 | g2e2 fefg | f2f2 DEFG |\
+A2A2 A2A2 | A2B2 c2d2 | F4  TE4   | D4 :|
+|: ABcd |\
+e2e2 e2e2 | e2d2 e2a2 | g4  f4 | e4 DEFG |\
+A2A2 A2A2 | A2B2 c2d2 | F4 TE4 | D4 :|
+|: gfe^d |\
+e4 gfe^d | e2A2B2c2 | d2G2 F2 E2 | F2D2 gfe^d |\
+e4 gfe^d | e2A2B2c2 | d2G2 F2 E2 | D4 :|
+|: F2G2 |\
+A4 B2A2 | G2F2 E2F2 | G4 A2G2 | F2E2 D2E2 |\
+F4 GFED | E4   GFED | E2G2 F2E2 | D4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 99
+T: La Pelite Paysanne
+%R: march, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.48 #99
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%%slurgraces 1
+%%graceslurs 1
+K: G
+g2 |\
+f2e2 f2g2 | f2e2 e2f2 | g4 e4 | d^cde d2g2 |\
+f2e2 f2g2 | f2e2 e2f2 | g4 {f}Te4 | d6 :|
+|: d2 |\
+d2cB {d}cBA | B2G2 G2d2 | c4 B4 | AGAB A2d2 |\
+d2cB {d}cBA | B2G2 G2d2 | B4 TA4 | G6 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 100
+T: La Brancas
+%R: march, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.49 #100
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Am
+E2 |\
+A2c2B2d2 | c4 B2cd | e2A2B2^G2 | A^GAB A2D2 |\
+A2c2B2d2 | c4 B2cd | e2A2B2^G2 | A6 :|
+|: cd |\
+e2e2d2^c2 | d4 z2Bc | d2d2c2B2 | c4 z2Bc |\
+d2d2c2B2 | c4 B2A2 | B4 ^G4 | A6 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 101
+T: The Nosegay
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.49 #101
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+c |\
+(B/c/d).d (e/f/g).e | dBd cBA | Ace dFA | GFE D2c |\
+(B/c/d)d (e/f/g)e | dBd cBA | Ace dFA | GGG G2 :|
+|: d |\
+ece fdf | gfe dcB | Ace dFA | GFE D2d |\
+ece fdf | gfe dcB | Ace dFA | GGG G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 102
+T: Miss G___ Wheem
+%R: march, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.49 #102
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The 1st (16-bar) has a double thick bar line in the middle, but a repeat only at the end.
+M: 2/4
+L: 1/16
+K: D
+|:\
+d4 (fe).d.c | d2A2 A2(ef) | g2f2e2d2 | {d}c2Bc A4 |\
+d4 (fe).d.c | d2A2 A2(fg) | a2g2f2e2 | d4 D4 |]|\
+A6 df | (a4 f2)z2 | A6 ce | (g4 e2)z2 |
+d2c2d2B2 | B2A2B2F2 | G2B2 AGFE | D4 D4 ::\
+a2z2 f2z2 | d2z2 A2z2 | B2g2e2c2 | (dc).d.e d4 |\
+a2z2 f2z2 | d2z2 A2z2 | B2g2e2c2 | d4 D4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 103
+T: Cotillon Francoise
+%R: march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.50 #103
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Am
+|:\
+ce/d/ cB | Aa^ga | edcB | cB/c/ AE |\
+ce/d/ cB | Aa^ga | edcd | e2 e2 :|
+|:\
+cc/d/ ef | gf/e/ dc | BB/c/ de | fe/d/ cB |\
+Aa^ga | Aa^ga | fe/d/ cB | A2 A2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 104
+T: La Genoisse
+%R: reel, march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.50 #104
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Am
+A2c2 |\
+e4 dcBA | ^G2E2 A2GA | B2cA d2c2 | {c}B4 A2c2 |\
+e4 dcBA | ^G2E2 a^g^fe | ^d2e^f g2f2 | e4 :: c3e |\
+g4 c'bag | a2g2 c'bag |
+=fedc e2d2 | c4 A2c2 |\
+e4 dcBA | ^G2E2 A2GA | B2cA d2c2 | B4 A2c2 |\
+e4 dcBA | ^G2E2 ag=fe | dcBA c2B2 | A4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 105
+T: Cotillon
+%R: reel, march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.50,51 #105
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+g2g2 |\
+gdef g2g2 | g4 GABc | d2ed cBAG | F2D2 g2g2 |\
+gdef g2g2 | g4 gfed | ^c2de f2e2 | d4 :|
+|: D2A2 |\
+c4 cABG | F2D2 DEFG | AGAB c2B2 | A4 D2A2 |\
+c4 cABG | F2D2 gfed | cBAG B2A2 | G4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 106
+T: La Villette
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.51 #106
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+BcB |\
+A2G B2c | d2g B2c | ded dcB | A2G BcB |\
+A2G B2c | d2g B2c | ded dcB | A3 :|
+|: ABA |\
+AGF GFE | FED ABA | AGF TE2D | D3 AGA |\
+BAB cdc | BcB cdc |
+BcB ABG | d3 DEF |\
+DEF DEF | G3 EFG | EFG EFG | A3 c2B |\
+A2G AGF | G3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 107
+T: La Blanchiffeu
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.51 #107
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|:\
+f2a gfe | d2d Te2d | f2a gfe | ddd d3 ::\
+DED F2A | DED F2A | FGF A2d | FGF A2c |
+d2f d2f | ecA A3 | B2d B2d | cAF F3 |\
+G2G F2F | EFE d2e | fdd d2A | Bdd d3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 108
+T: Quick March of the South Fencibles
+%R: march, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.52 #108
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|:\
+d4 (de).f.d | e2c2 A4 | B4 (Bc).d.B | A2G2 F4 |\
+G2A2B2c2 | d2e2f2g2 | f2e2d2c2 | d4 d4 :|
+|:\
+f2fg a2f2 | e2ef g4 | d2de f2d2 | (cd).e.c A4 |\
+d2de c2cd | B2Bc A4 | B2g2f2e2 | d4 d4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 109
+T: La Suze
+%R: polka, march, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.52 #109
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 2/4
+L: 1/16
+%%slurgraces 1
+%%graceslurs 1
+K: D
+|:\
+G2B2 B2AG | A2c2 c2BA | B2d2 d2cB | A4 D4 |\
+G2B2 B2AG | A2c2 c2BA | B2d2 D2F2 | G4 G4 ::\
+G4 B2c2 | d4 d2ef |
+g2d2B2G2 | c4 TA4 |\
+G4 B2c2 | d4 d2ef | g2d2B2G2 | c4 TA4 |\
+g2(Td2c2B2) | g2(d2Tc2B2) | g2(d2Tc2B2) | c4 {B}A4 |\
+g2(d2c2B2) |
+g2(d2Tc2B2) | c2(A2TG2F2) | G4 G4 |\
+g2(d2Tc2B2) | g2(d2Tc2B2) | g2(d2Tc2B2) | c4 {B}A4 |\
+g2(d2Tc2B2) | g2(d2Tc2B2) | c2(A2TG2F2) | G4 G4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 110
+T: Les Delices du Vauxhall
+N: The book has "Les delices", with no accents.
+%R: march, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.52,53 #110
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The repeat and segno symbols are inconsistent and ambiguous; not fixed.
+N: The intended repeat pattern may be AABA CCDC, but use whatever works for your dancers.
+M: 2/4
+L: 1/8
+K: G
+|:\
+G2GB | (TAG)G2 | B2Bd | (TcB)B2 |\
+d(b/g/) d(c'/a/) |d(b/g/) db | c'agf | g2g2 :|
+|:\
+bg e(f/g/) | agfd | e2^c2 | d(d/e/) dd |\
+bg e(f/g/) | af e(f/g/) | ged^c | d=cBA !segno!|]
+!segno![|\
+ d2(cB) | .B(dcB) | e2(dc) | .c(edc) |\
+.d(dcB) | .B(dcB) | cAGF | G2G2 :|
+|:\
+D(d/e/) dc | B(g/a/) gg | D(d/e/) dc | B(g/a/) gd |\
+ec'Tc'2 | dbTb2 | c(a/g/) ag | fede !segno! |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 111
+T: La Chantilly
+%R: march, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.53 #111
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|:\
+D2F2A2d2 | ({d}Tc3B/c/) A4 |\
+A2c2e2g2 | ({g}Tf3e/f/) d4 |\
+f2f2g2g2 | e2e2f2f2 |\
+d2d2e2e2 | c2c2 d2z2 ::\
+e4 (dcBA) | e2e2c2A2 |
+a4 (gfed) | a2a2f2d2 |\
+f2f2g2g2 | e2e2f2f2 | d2d2e2e2 | c2c2 d4 ::\
+d4 f2a2 | a4 g2f2 |\
+g2e2d2c2 | (dc)(de) d2A2 |\
+d4 f2a2 | a4 g2f2 |
+g2e2d2c2 | {c}d4 d4 ::\
+A2A2 (TA3G/A/) | B2B2 B4 |\
+c2e2 gedc | d2d2 d4 |\
+d4 f2a2 | a4 g2f2 |\
+g2e2d2c2 | d4 d4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 112
+T: Les Fe'tes de' Tempe
+N: The use of apostrophes in the title is a bit odd.
+%R: reel, march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.54 #112
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain has an initial repeat but no final repeat; not fixed.
+M: 2/4
+L: 1/8
+K: D
+!segno!|:\
+(d2 f2) | aa af/a/ | gg ge/g/ | fd' af |\
+d2 f2 | aa af/a/ | gb/g/ ec | d2 d2 ::\
+A2 c2 | ee ed/c/ | dffd |
+ceec |\
+Bd dc/B/ | cfed | cBA^G | ADcB !segno!::\
+!p!(AG)(FA) | G2 G2 |\
+(GF)(EG) | F2 F2 |\
+FA !f!dc | egfa |
+d'agf | edcB |\
+!p!(AG)(FA) | G2 G2 | (GF)(EG) | F2 F2 |\
+FA !f!dc | egfa | gb/g/ ec | d2 d2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 113
+T: Le Rencontre
+%R: reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.54 #113
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+%%slurgraces 1
+%%graceslurs 1
+K: D
+|:\
+dfaf dfaf | d2c2d2A2 |\
+dfaf (df).a.f | d2c2d4 ::\
+Acec Acec | (6:4:6ABcdef g4 |\
+(fg).a.b {b}a2gf | (ge).f.d {d}c2BA |
+Acec Acec | (6:4:6ABcdef g4 |\
+(fg).a.b {b}a2gf | Te4 d4 ::\
+(DE).F.G A2GF | E2D2A2A2 |\
+DEFG A2GF | E2D2 A4 :|
+|:\
+A2d2c2B2 | c2d2e2f2 |\
+gfed gfed | cdec d2A2 |\
+A2d2c2B2 | c2d2e2f2 |\
+gfed cdec | d4 D4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 114
+T: March
+%R: march, shottish
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.55 #114
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+%%slurgraces 1
+%%graceslurs 1
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - -
+A2 |\
+d2d>d d2e2 | (f>e)(f>g) f2a2 |\
+{ga}b2a2 Tg2f2 | (e>d)(e>f) e2A2 |\
+d2d>d d2e2 |
+(f>e)(f>g) f2a>b |\
+{b}a2(g>f) {f}Te3d | d6 :: (f>g) |\
+a2a>g (a>g)(f>e) | (d>c)(d>e) d2(g>a) |
+b2b>b (b>a)(g>f) | e2e>e e2A2 |\
+d2d>d d2e2 | (f>e)(f>g) f2(a>b) |\
+{b}a2(g>f) {d}Te3d | d6 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 115
+T: Dutchess of Gordon's Reel.   Strathspey.
+N: It is called both "Reel" and "Strathspey" in the book.
+%R: strathspey
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.55 #115
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - -
+B |\
+A<DA>F A<DD>d | A<DA>F E<GG<B |\
+A<DA>d B>dA>B | A<FA>g f<dd :|
+f |\
+d<AF<A D<Ad>B | A<DA>F E<ee<f |\
+d<AF<A E<AD>f | d<BA>F A<dd<f |
+d<AF<A D<Ad>B | A<DA>F E>gTf>e |\
+f<ae<f d>BA>F | A<Bd>e | f<dd |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 116
+T: Lord Loudon's March
+%R: march, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.56 #116
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - -
+|:\
+gfga g2b2 | a2gf g4 | d2cB e2d2 | Tc4 B4 |\
+GABc d4 | defg a4 | a2gf bagf | Te4 d4 :|
+|:\
+agab a4 | b2b2 b4 | e2ab c'bag | Tf4 e4 |\
+edcB c4 | dcBA B4 | gfed c'bag | Tf4 g4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 117
+T: Count Sax's March
+%R: march, reel
+N: This is version 1, for ABC software that doesn't understand grace notes with length.
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.56 #117
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%%slurgraces 1
+%%graceslurs 1
+K: G
+% - - - - - - - - - -
+Bc |\
+d4 e4 | dcBc d2g2 |\
+G4 TA4 | BAGF G2d2 |\
+edcd e2g2 | dcBc d2g2 |\
+c4 TB3c | {B}A6 :|
+|: fg |\
+a4 d4 | ^c4 d2fg |\
+a4 d4 | ^cdec A2A2 |\
+d2(d/e/f) e2(e/f/g) | f2(f/g/a) g2(g/a/b) |\
+a2d2 {f}e2d^c | {c}d6 g2 |
+edcd e2g2 | dcBc d2g2 |\
+c4 TB4 | AGFE D2D2 |\
+G2(G/A/B) A2(A/B/c) | B2(B/c/d) c2(c/d/e) |\
+d2G2 {B}A2GF | {G}G3 :|

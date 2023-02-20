@@ -1,0 +1,28 @@
+X: 18
+T: Money in both Pockets
+%R: jig
+B: Name "Kauntze's Collection of the most favorite Dances, Reels, Waltzes, &c."
+F: http://imslp.org/wiki/Kauntze%27s_Collection_of_Dances,_Reels,_Waltzes_etc._%28Various%29
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+d2F TFEF | ABA AGF | d2F TFEF | ABA gfe |\
+d2F TFEF | ABA AGF | EFE EFA | BcB B2 :|
+|: (A/B//c//) |\
+dfa afd | ceg ecA | dfa afd | (g3 f2)a |\
+agf bag | agf ede | fdB AFA | BcB B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+D2d D2d | D2d D2d | D2d D2d | A2a A2a | D2d D2d |
+D2d D2d | A2a A2a | A2a A2 :||: z | d'2d d'2d | a2A a2A | d2D d2D |
+A2a d2d' | f2d g2e | f2d g2g | d2g f2d | g2g g2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    1st Lady set to the 2d Gent: and turn the 3d 1st Gent: do the same Lead down, up
+%% again. Cast off 1 Cu: hands 6 round and back again.
+%%endtext

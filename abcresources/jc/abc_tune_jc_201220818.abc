@@ -1,0 +1,20 @@
+X: 04058
+T: McCLATCHY'S JIG
+C: Bob McQuillen 10 July 78
+B: Bob's Note Book 04 #58
+R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Added flag to 2nd strain's pickup B note.
+M: 6/8
+L: 1/8
+K: G
+E \
+| DGG GBG | GAG GED | dgg gdB | edB A2E |\
+| DGG GBG | GAG GED | dge dBA | BGG G2 :|
+|: B \
+| dge dBG | GAB AFD | dge dBd | edd d2B |\
+| dge dBG | GAB AFD | gde dGB | AGG G2 :|
+%%begintext align
+%% For the wonderful Debby, with
+%% love from an ardent admirer.
+%%endtext

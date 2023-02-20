@@ -1,0 +1,32 @@
+X: 1
+T: Jingle Bells [G]
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+[| "G"D2B A2G \
+| D3- DB,C \
+| D2B A2G \
+| "C"E6 \
+| "Am"E2c B2A \
+| "D7"F6 \
+| d2d c2A \
+| "G"B6 ||
+|| "G"D2B A2G \
+| D3- DB,C \
+| D2B A2G \
+| "C"E6 \
+| "Am"E2c B2A \
+| "G"d2d d2d \
+| "D7"e2d c2A \
+| "G"G3 d3 |]
+|: "G"B2B B3 \
+| B2B B3 \
+| B2d G2A \
+| "G7"B6 \
+| "C"c2c c2c \
+| "G"c2B B2B \
+|1 "A7"B2A A2B \
+| "D7"A3 d3 \
+:|2 "D7"d2d c2A \
+| "G"G6 |]

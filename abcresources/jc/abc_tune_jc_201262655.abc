@@ -1,0 +1,7 @@
+X: 1
+T: TEST: French Violin Clef
+M: 3/4
+L: 1/8
+K: C clef=treble m=d
+[| CDE FGA | Bcd efg |]
+w: C D E F G A B c d e f g

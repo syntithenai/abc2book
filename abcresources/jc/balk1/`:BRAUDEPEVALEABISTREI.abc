@@ -1,0 +1,33 @@
+X: 60
+T: Brau de pe Valea Bistrei
+O: Romania
+F: http://www.youtube.com/watch?v=SUnRsi8CrIY
+M: 7/8
+K: Dm
+Q:1/4=192
+P:A
+V:1 name=contrabass
+%%MIDI program 43
+%MIDI control 7 72
+c3 B2B2 |A3 G4   |c3 F2F2 |E3 C4|
+F3 EFGA |G3 FEC2 |D2C D4  |d7   |
+c2B B2B2|A2G G2G2|c3 F2F2 |E3 C4|
+F3 EFGA |G3 FEC2 |D2C DCDC|D7   |
+V:2 name="french horn"
+%%MIDI program 60
+%MIDI program 7 72
+c3 B2B2 |A3 G4   |c3 F2F2 |E3 C4|
+F3 EFGA |G3 FEC2 |D2C D4  |d7   |
+c2B B2B2|A2G G2G2|c3 F2F2 |E3 C4|
+F3 EFGA |G3 FEC2 |D2C DCDC|D7   |
+P:B
+V:1
+x7      |x7      |x7      |x7   |\
+x7      |x7      |x7      |x7   |
+x7      |x7      |x7      |x7   |\
+x7      |x7      |x7      |x7   |
+V:2
+G3 A4   |A3 G4   |c3 F4   |E3 C4|\
+G2A B4- |B3 B2A2 |G2A A4- |A7   |
+G3 A4   |A3 G4   |c3 F4   |E3 C4|\
+F2E FGAF|G2F E2C2|D7      |D7   |

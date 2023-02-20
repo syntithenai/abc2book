@@ -1,0 +1,30 @@
+X: 7
+T: Minuet
+C: Michael Dabney
+R: minuet
+B: Michael Dabney "Twelve Minuets and Twelve Dances" p.4 #1
+S: http://imslp.org/wiki/12_Minuets_and_12_Dances_(Dabney,_Michael)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Bar 14 has two odd "long dash" marks above the notes; it's not obvious what this means.
+M: 3/4
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces mostly 4- or 8-bar staffs.
+V: 1
+|:\
+[B2D2] B,>CDE | F>GAF B2 | GedcBA | {A2}B6 |\
+E2 g4 |  (gf)(ed)(cB) | ABcded | d2 [c4F4] :|
+|:\
+[A3F3] GAB | c>Bc>de>d | gfedcB | ABcA F2 |\
+GEGBeG | FDFBdF | Ggfedc | {c2}[B6D6] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+|:\
+"Bb"B6 | "(F)"z2 "F"f2 "Bb"d2 | "Eb"e2 "F"f2 F2 | "Bb"B2 BcdB |\
+"Eb"g4 e2 | "Bb/d"d2 "Cm"c2 "Bb"B2 | "F"f2 z2 "Bb"B2 | "Bb"f2 "F"F4 :|
+|:\
+"F"f2 f2 f2 | "F"f4 z2 | "Eb"z2 e2 "Cm"c2 | "F"f2 z2 f2 |\
+"Eb"e2 e2 e2 | "Bb"d2 d2 d2 | "Eb"e2 "Bb"f2 "F"F2 | "Bb"G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

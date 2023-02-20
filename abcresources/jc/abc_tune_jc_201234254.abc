@@ -1,0 +1,47 @@
+X: 20382
+T: TOLL, TOLL THE KNELL.
+T: FROM THE OPERA OF "MAHMOUD."
+C: Stephen Storace.
+Q: "Very slow."
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.38 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+d4 B3G | A4 z4 |\
+A4 G3F | E4 z4 |\
+E3EF2G2 | A3(B/c/) d2e2 |\
+f4 {f}e3d | d4 z4 |\
+c3d{c}B3A | A4 ec3 |\
+f2e2d3c | {c2}B8 |\
+B^A3 B3c | d3e {^g}f2(ed) |\
+(c4 {c}B4) | A4 Hz4 |
+d4 B3G | A4 z4 |\
+A4 F3E | D4 z4 |\
+D3DF2A2 | d3e Hf2 (e/d/c/B/) |\
+(A4 {A}G3)F | F4 (3(B2c2d2) |\
+(F4 E3)D | D4 z4 |]|\
+d3dA2B2 | F4 z4 |
+A3A GF3 | {F}E4 z4 |\
+E3EF2^G2 | A2zB c2{e}d2 |\
+c4 {c}B4 | A4 Hz4 |\
+A2B2 {d}=c2BA | e4 e3e |\
+=f3ed3=c | {c}B4 z2 |\
+A2B2 {d}^c2BA | d4 z2 |\
+d3=cB2A2 | ^G2=f2e2d2 |\
+=c4 {c}B4 | A4 Hz4 |
+d4 B3G | A4 z4 |\
+A4 F3E | D4 z4 |\
+D3DF2A2 | d3e f2(e/d/c/B/) |\
+A4 {A}G3F | F4 z4 |\
+d3cd2B2 | A2F2A2z2 |\
+f3f (ge)(dc) | Hd3e Hf2(e/d/c/B/) |\
+(A4 G3)F | F4 (3(B2c2d2) |\
+F4 E3D | D4 z4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

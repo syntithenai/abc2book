@@ -1,0 +1,25 @@
+X: 10100
+T: SHANNAHAN'S JIG
+C: Bob McQuillen 13 April 93
+B: Bob's Note Book 10 #100
+%R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: "Ending" bracket added to last 2 bars to make the endings clearer.
+M: 6/8
+L: 1/8
+K: G
+D3 \
+| G2G FGA | G2E D2d | B2B ABc | B2A G2B | d2d gfe | d2d gfe | ded dcB | BAG ABA |
+| G2G FGA | G2E D2d | BAG ABc | B2A G2B | d2d gfe | d2d gfe | dcB AGF | G3 ||
+|| B3 \
+| A2G ABc | B2A G2B | A2G ABA | G2B d2d | e2e d2d | efg d2c | BGB d2c | B3 A2G |
+| A2G ABc | B2A G2B | A2G ABA | G2B d2d | e2e dBd | efg d2B |[" " ABc DEF | G3 |]\
+["last time"ABc def | g3 |]
+%%begintext align
+%% Deanna Stiles was
+%% the driving force behind a band called the Bob-o-links, and
+%% I guess you could say that Bob Shannahan was a driving force
+%% too, because, you see, he was the piano player, and you know
+%% how _they_ are - well, anyway here is a tune for you, Bob, with
+%% very best wishes always from Bob McQ.
+%%endtext

@@ -1,0 +1,29 @@
+X: 3123
+T: Peggy Bawn
+O: Old
+%R: air, waltz
+N: This is version 2, for ABC software that understands voice overlays.
+N: The overlays are rather pointless, and the ABC1 version is easier to read.
+B: Niel Gow & Sons "Complete Repository" v.3 p.12 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: "Slow with expres.n"
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+(A/B/c) |\
+d2 (fd) (ec) | d>B G2 AF | D2 (FA) (Bc) | [d4A4F4] (A/B/c) ||\
+d2 (fd) (ec) | d>B G2 AF | D2 (FA) (Bc) | [d4A4F4] |: "^_"~d>e |
+"_sf"f2 "^p"~f2 g>e | x4 cd & (fd) B2 A2 | "_cres."e2 [e2A2] f>d | (Td2 c2) "^p"(A/B/c) ||\
+d2 f>d "_sf"ec | d>B G2 "^p"(A>F) | D2 (FA) (Bc) | [d4A4F4] :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+x4 g2 & [d4f4a4] A2 | f2 a2 a2 & B2 c2 d2 | f2 df ge | d2 d'2 z2 ||\
+[d4f4a4] A2 | (B2 c2) d2 | f2 d2 ge | d2 D2 |: z2 |
+"_sf"[d2D2] \
+[K: clef=treble]\
+"^p"D2 [A2C2] | DF G2 GF | E2 C2 D>F | A2 A,2 \
+[K: clef=bass middle=d] "^p"g2 ||\
+f2 d2 A^A | (B2 c2) "^p"d2 | f2 (df) (ga) | d2 d'2 :|

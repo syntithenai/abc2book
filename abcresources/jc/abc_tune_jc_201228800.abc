@@ -1,0 +1,32 @@
+X: 1162
+T: Bog an Lochan, or Athole Cummers.   a Strathspey.
+%R: strathspey, air
+B: Niel Gow & Sons "Complete Repository" v.1 p.16 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: Initial repeat added to fix the rhythm of the repeat.
+M: C
+L: 1/8
+K: Em
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+F !segno!|:\
+E/E/E TE2 E>FB>F | E/E/E TE2 F>DA>F | E/E/E TE2 E>FB>A |1 B<d A>B F>DAF :|2 B<d A>d F>DD>d |]| B<ETB>A GEE<e |
+B<ETB>A TFDD<d | B<ETB>A Td>ef>e | d/^c/B/A/ {c}d>A TFDD<d || B<EB>A {A}GEE<e | B<ETB>A TA>DDd | B<ETB>A Td>e {de}f>e |
+d/^c/B/A/ {c}d>A TFDD<f |]| !p!e/e/e ~e2 e>fb>f | e/e/e e2 Tf>da>f | e/e/e e2 e>fbf | .g.e.b.e df/g/ af || gebe gebe |
+gebe df/g/ af | geb>B d>e {de}f>e | d/^c/B/A/ {c}d>A F>DD<d |]| !f!B<ETB>A GEE<e | B<ETB>A TFDD<d | B<ETB>A Td>ef>e |
+d/^c/B/A/ {c}d>A FDD<d || B<ETB>A {A}GEE<e | B<ETB>A TF>Dd>d | B<ETB>A ~d>e {de}fe | d/^c/B/A/ B/c/d/A/ TF>DAF !segno!|]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z !segno!|:\
+e2e2 e2e2 | e2e2 d2d2 | e2e2 e2f2 |1 g2a2 d2d2 :|2 g2a2 d2d2 |]| e2e2 e2e2 |
+e2e2 d2d2 | e2e2 f2g2 | a2A2 d2d2 || e2e2 e2e2 | e2e2 d2d2 | e2e2 f2g2 |
+a2A2 d2d2 |]|!p!\
+[e2e'2][e2e'2] [e2e'2][e2e'2] | [e2e'2][e2e'2] [d2d'2][d2d'2] |\
+[e2e'2][e2e'2] [e2e'2][e2e'2] | [e2e'2][e2e'2] [d2d'2][d2d'2] || [e2e'2][e2e'2] [e2e'2][e2e'2] |
+[e2e'2][e2e'2] [d2d'2][d2d'2] | e'2e2 f2g2 | a2A2 d2d2 |]| [E2e2][E2e2] [E2e2][E2e2] |\
+[E2e2][E2e2] [D2d2][D2d2] | [E2e2][E2e2] [F2f2][G2g2] |
+[A2a2][A,2A2] [D2d2][D2d2] ||\
+[E2e2][E2e2] [E2e2][E2e2] | [E2e2][E2e2] [D2d2][D2d2] |\
+[E2e2][E2e2] [F2f2][G2g2] | [A2a2][A,2A2] [D2d2][D2d2] !segno!|]

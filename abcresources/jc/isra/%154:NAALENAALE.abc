@@ -1,0 +1,26 @@
+X: 154
+T:Naale Naale
+C: Avihu Medina 1986
+O:Israel
+F: http://www.youtube.com/watch?v=pUSjLkJEn1U
+F: http://www.youtube.com/watch?v=faKzSzPDVn0
+F: http://www.youtube.com/watch?v=JepNcAmCk3s
+F: http://www.youtube.com/watch?v=irQBRAC2bvw
+M:2/4
+L:1/8
+K:Em
+Q: 1/4=160
+%%MIDI program 43 Contrabass
+%%MIDI drum dzdz 43 48 70 40
+%%MIDI drumon
+e2B2|e2B2 |def2 |e/2f/2e de|d2c2|B2c2|d2e2|
+dedc|BAB2 |:EB2B|cBcd      |B4  |EA2A|BABc|A4|
+DG2G|G=FFE|AG=FE|E4        :|
+z2EF|G2G2 |G2FE |AAAF      |\
+G2FE|F3E  |D2F2 |E4-       |E4  |
+z2EF|G2G2 |G2FE |AAAF      |\
+G2FE|F3E  |D2A2 |G4-       |G3G |
+ABBc|dc3  |BAAG |GA3       |\
+G4  |A2B2 |A4-  |A3G       |
+ABBc|dc3  |BAAG |GA3       |\
+G4  |=F4  |E4-  |E4        |

@@ -1,0 +1,40 @@
+X: 1
+T: Vieni sul mar [D]
+O: trad Italy
+R: waltz
+Z: 1999 Chambers <jc:trillian.mit.edu>
+S: Enrico Caruso recording
+M: 3/4
+L: 1/4
+K: D
+%%continueall
+% %indent 200
+% - - - - - - - - - -
+%z"Intro"[|] CD | "G"EB,2 | "A7"zDE | "D"FF2 | zFG | "A7"BA^G | AEF | "D"Dz"A7"A | "D"d |]
+% - - - - - - - - - -
+"^verse"[|]zDE | "D"FBA | "A7"FDE | "D"FD2 | zDE | FGA | "G"BcB | "A7"E3 |
+w:1.~Deh! ti des-ta fan-ciul-la, la lu-na span-de~un rag-gio s'i ca-ro sul mar,
+w:2.~Ad-dio dun-que, ri-po-sa,~e do-ma-ni quan-do l'al-ba~a sve-gliar-ti ver-r\`a,
+w:3.~Da quel gior-no che t'ho co-no-sciu-to o fan-ciul-la di ques-to mio cuor,
+%
+zDE | "D"FBA | "A7"FDE | "D"FD2 | zDE | "Bm"`FBA | "A7"EGF | "D"D3 ||
+w: vie-ni me-co t'as-pet-ta la bru-na fi-da bar-ca del tuo ma-ri-nar.
+w: so-pra li-di lon-ta-ni lon-ta-ni l'in-fe-li-ce no-cchie-ro sa-r\`a.
+w: sp-eme~e pa-ce per te ho per-du-to per-ch\'e t'a-mo d'un im-men-so~a~mor.
+%
+zDE | "Bm"FBc | dcB | "F7"B^A2 | z^AA | "Bm"BBc | "Em"de=f | "F7"^f3 |
+w: Ma tu dor-mi,~e non pen-si al~tuo fi-do, ma non dor-me chi vi-ve d'a-mor;
+w: Ma tu dor-mi,~e non pen-si al~tuo fi-do, ma non dor-me chi vi-ve d'a-mor;
+w: Fra le bel-le tu sei la pi\`u bel-la, fra le ro-se tu sei la pi\`u fin:
+%
+z"(A7)"FE | "D"DFA | ddc | "G"cB2 | zFG | "A7"ABA | GFE | "D"D3 | z3 
+w: io la not-te~a te vo-lo sul li-do ed il gior-no~a te vo-lo nel cor!
+w: io la not-te~a te vo-lo sul li-do ed il gior-no~a te vo-lo nel cor!
+w: tu del cie-lo sei bril-lan-te stel-la, ed in ter-ra sei bel-t\`a di-vin!
+% - - - - - - - - - -
+"^chorus"\
+|: "D"F3 | "A7"EDE | "D"D3- | D3 | "G"d3 | BGB | "D"A3- | A3 |
+w: Vie-ni_ sul mar_ vie-ni a vo-gar,_
+%
+"G"dBd | "F#m"cAc | "Em"BGB | "D"A3 | "D"F3 | "A7"EDE | "D"D3 | z3 :|% z3 |]
+w: sen-*ti-ra-i l'eb-brez - - za del tuo ma-ri-nar!

@@ -1,0 +1,24 @@
+X: 7
+T: Bean Flower
+%R: reel
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.4 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The last 8 bars are a repeat of the first strain (AABA form).
+M: 2/4
+L: 1/16
+K:
+|:\
+A2AB AFED | A2d2 d2cB | A2AB AFdF | EDEF E2FG |\
+A2AB AFED | A2d2 d2cB | A2Ad edef | d2d2 d4 :|
+f2fd afdf | e2ec aece | d2Bd cAec | c2B2 z2Bc |\
+dcde dfed | cBcd cef^g | a2Af edcB | B2A2 z2FG |
+A2AB AFED | A2d2 d2cB | A2AB AFdF | EDEF E2FG |\
+A2AB AFED | A2d2 d2cB | A2Ad edef | d2D2D2 |]
+%%begintext align
+%%   First Cu. lead dwn the middle the 2d and 3d
+%% following Lady off to their places & Gentlemen
+%% to theirs .| Cross over two Cu. lead up to the top
+%% Cast off :| lead thro' the bottom then thro' the
+%% top Allmand and Right and Left at top :|.
+%%endtext

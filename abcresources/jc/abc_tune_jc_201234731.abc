@@ -1,0 +1,16 @@
+X: 20741
+T: SUL MARGINE DUN RIO
+Q: "Andante con espress:"
+%R: reel
+B: "Edinburgh Repository of Music" v.2 p.74 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+c2 |\
+f2a>g f2a2 | (c'3b)g2 g2 | (ac')(bg) (gf)(fe) | ("_>"g4 f2)c2 |\
+f2a>g f2a2 | (c'=b_ba) g2zb | (ac')(ba) (gf)(fe) | ("_>"g4 f2) :|
+|: c2 |\
+g4 (fedc) | (a4 f2)c2 | b4 ({a}agab) | a4 g2c2 |\
+f2a>g (fad'c') | (c'=b_ba) g2zb | (ac').b.g (gf)(fe) | g4 f2 H|]

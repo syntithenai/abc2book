@@ -1,0 +1,18 @@
+X: 3029
+T: INVERARAY
+C: Carl Volti
+Q:"Strathspey."
+R: Strathspey.
+%R:strathspey
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: James Kerr "Merry Melodies" v.3 p.6 #29
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|:\
+vA<ud vd>ue vf>veud>uB | A<d d<f e>d e<f |\
+A<d d>e f>ed>A | B<d A>G (F<D) [1 D2 :|[2 D>f |]
+|:\
+a>fd>A B<d A<F | a>fd>A (B<d)e2 |\
+a>fd>A B<d A<F | B<d A>G (F<D) [1 D>f :|[2 D2 |]

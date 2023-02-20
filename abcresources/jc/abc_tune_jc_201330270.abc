@@ -1,0 +1,46 @@
+X:616
+T:The Ridicule
+C:Skillern & Challoner, c.1808
+F:https://ia601002.us.archive.org/26/items/SkillernChallonerCountryDances5/Skillern%26ChallonerCountryDances_5.pdf
+L:1/8
+M:6/8
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+% Draw 8va
+%%postscript /octava{  % usage: len x y octava
+%%postscript exch -10 add exch 2 copy
+%%postscript M 0 10 RM /Times-Roman 16 selectfont (8) show
+%%postscript /Times-Roman 12 selectfont (va) show
+%%postscript M 0 6 RL currentpoint stroke M
+%%postscript [6] 0 setdash 30 add 0 RL currentpoint stroke M
+%%postscript [] 0 setdash 0 -6 RL stroke}!
+% Start/stop 8va
+%%deco 8( 5 - 24 0 0
+%%deco 8) 5 octava 24 0 0
+Q:3/8=110
+K:F
+P:A
+% I tried using !>(!  and  !>)! but the tune faded out when played!
+V:1
+%%MIDI program 68     Oboe
+|: !8(! (.C.C.C) | F2(F A2)(A | !sfz! c3) (BAG) | F2F A2c | G3 CDE |\
+F2(F A2)(A | !sfz! c3) (BAG) | F2F A2A | !8)! F3 :|
+V:2 bass octave=-2
+%%MIDI program 6      Harpsichord
+%%MIDI chordprog 73   Flute
+%%MIDI chordvol 50
+%%MIDI gchord c3c3
+|: z3 | "F"fac' fac' | "C/E"egc' egc' | "F"fac' fac' | "C/E"egc' "C7"cgb |\
+"F"fac' fac' | "C/E"egc' egc' | "F"fac' fac' | f3 :|
+P:B
+V:1
+|: "^loco" f2e | {e}d^cd e2c | d2A f2e | {e}d^cd f2a | e3 f2e |\
+{e}d^cd e2c | d2A a2g | {g}fef e2^c | d3 =c2c |
+V:2
+|: z3 | "Dm"[dfa]3 "Dsus"[dga]3 | "Dm"[dfa]3 z3 | "Dm"[dfa]3 [dfa]3 | "A/C#"[^cea]3 z3 |\
+"Dm"[dfa]3 "Dsus"[dga]3 | "Dm"[dfa]3 "A/C#"[^cea]3 | "A/C#"[^cea]3 "A7"[Aeg]3 | "Dm"[df]3 "C/E"egc' |
+V:1
+cAf cAf | dBa bgf | egb gec | f2a c2c |\
+cAf cAf | dBa bgf | edc cde | f3 :|
+V:2
+"F"fac' fac' | "Bb/F"fbd' fbd' | "Fsus"fbc' fbc' | "F"fac' fac' |\
+"F"fac' fac' | "Bb/F"fbd' fbd' | "Fsus"fbc' fbc' | "F"[fa]3 :|

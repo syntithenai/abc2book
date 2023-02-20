@@ -1,0 +1,92 @@
+
+X: 1
+T: JOHNNIE FAA   [Bb] WH 1844
+O: Old Scottish melody.
+Q: "Very slow."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.92 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+"Bb"F2(FG)  "Gm"B3A | ("Eb"{A}G>F)(GB) "F7"{c}c3d |\
+"Bb(Dm)"F3G "Gm"(Bd)(cB) | "Eb"{A}G4 "F7"F3F ||\
+"Bb"F2(FG)  "Gm"B3A |
+               ("Eb"{A}G>F)(GB) "F7"{d}c3d |\
+"Bb"F3G  "Gm"(Bd)(cB) | "Eb"{A}G4 "F7"F3 |: d |\
+"F7"c2(cd) "Bb"f3g  | "F7"(f<d)(c>d) "Bb"B3d |
+"F7"{d}c3d "Bb(Gm)"f3e | "Bb(Gm)"{e}d4 "F7"c3d ||\
+"F7"c2(cd) "Bb"f3g  | "F7"(f>d)(c>B) "Bb"B3c/d/ |\
+"Bb(Dm)"F3G "Gm"(Bd)(cB)  | "Eb"{A}G4 "F7"F3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: JOHNNIE FAA   [C] WH 1844
+O: Old Scottish melody.
+Q: "Very slow."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.92 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+"C"G2(GA)  "Am"c3B | "F"({B}A>G)(Ac) "G7"{d}d3e |\
+"C(Em)"G3A "Am"(ce)(dc) | "F"{B}A4 "G7"G3G ||\
+"C"G2(GA) "Am"c3B |
+               "F"({B}A>G)(Ac) "G7"{e}d3e |\
+"C"G3A "Am"(ce)(dc) |  "F"{B}A4 "G7"G3 |: e |\
+"G"d2(de)  "C"g3a  | "G7"(g<e)(d>e) "C"c3e |
+"G7"{e}d3e "C(Am)"g3f  | "C(Am)"{f}e4 "G7"d3e ||\
+"G7"d2(de) "C"g3a  | "G7"(g>e)(d>c) "C"c3d/e/ |\
+"C(Em)"G3A "Am"(ce)(dc) |  "F"{B}A4 "G7"G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: JOHNNIE FAA   [C]
+O: Old Scottish melody.
+Q: "Slow."
+%Q: "Very slow."
+%R: air, strathspey
+%B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.92 #1
+S: image from Darlene Wigton 2019-4-3
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 clef=treble staves=2
+[|\
+G2G>A c3e | TA>GA>c {d}d4 | G2G>A c3e     | TA4{GA} G4 ||\
+G2G>A c3e |
+            TAGAc   {c}d4 | G2G>A c>eTd>c | TA4{AG} G4 |:\
+(d2de) g3a | (ge)(Tdc) c4 |
+                            d2de g3a | Te4 {de}d4 ||\
+d2d>e  g3a | (ge)(Tdc) c4 | G2G>A c>eTd>c | A4{GA} G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+"C"c'2"G"b2 "Am"a2e2 | "F"f3A "G7"G2gf | "Em"e2g2 "Am"a2e2 | "F"f4 "C"c4 ||\
+"C"c'2"G"b2 "Am"a2e2 | "F"f3A "G7"G2gf | "Em"e2g2 "Am"a2e2 | "F"f4 "G"g4 \
+|:\
+"G7"g2f2 "C"ede"(F)"f | "G"g2G2 "C"c4 | "G7"g2f2 "Em"e2B2 | "C"cdef "G"g4 ||\
+"G7"g2f2 "C"e2c2 | "G"B2"C"c2 "G7"G2gf | "Em"e2g2 "Am"a2e2 | "F"f4 "C"c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text Si repete la seconda parte

@@ -1,0 +1,50 @@
+
+X: 1
+T: Die Gedanken sind frei
+M: 3/4
+L: 1/8
+K: F
+c2 | "F"f2 f2 af | c4 c2 | "C7"B2 G2 c2 | "F"A2 F2 c2 |
+w: 1.~Die~Ge-dan-ken sind* frei, wer kann sie er-ra-ten?   Sie
+w: 2.~Ich denk was ich* will,  und was mich be-gl\"uc-ket, Doch
+w: 3.~Und sperrt man mich* ein in fin-ste-ren Ker-ker,     das
+w: 4.~Drum will ich auf* immer den Sor-gen ent-sag-en      und
+    | "F"f2 f2 af | c4 c2 | "C7"B2 G2 c2 | "F"A2 F2 f2 |
+w: 1.~flieh-en vor-*bei     wie n\"acht-li-che Schat-ten. Kein
+w: 2.~al-les in der Still   und wie es sich schic-ket.    Mein
+w: 3.~al-les sind* rein     ver-geb-li-che Wer-ke;        denn
+w: 4.~will mich auf* nimmer mit Gril-len mehr pla-gen.    Man
+    | "C7"e2 g2 c2 | "F"f2 a2 f2 | "C7"e2 g2 c2 | "F"f2 a2 f2 |
+w: 1.~Mensch kann sie wis-sen, kein J\"a-ger er-schies-sen. Es
+w: 2.~Wunsch und Be-geh-ren    kann nie-mand ver-weh-ren.   Es
+w: 3.~mei-ne Ge-dan-ken        zer-reis-sen die Schran-ken  und
+w: 4.~kann ja im Her-zen       stets la-chen und scher-zen  und
+    | "Bb"d2 d2 fd | "F"c4 ca | "C7"ag f2 e2 | "F"f4 |]
+w: 1.~blei-bet da-*bei:  Die Ge-dan-*ken sind frei.
+w: 2.~blei-bet da-*bei:  Die Ge-dan-*ken sind frei.
+w: 3.~Mau-ern ent-*zwei: Die Ge-dan-*ken sind frei.
+w: 4.~den-ken da-*bei:   Die Ge-dan-*ken sind frei.
+
+%%sep 1 1 500
+
+X: 1
+T: Die Gedanken sind frei
+M: 3/4
+L: 1/8
+K: G
+d2 | "G"g2 g2 bg |    d4    d2 | "D7"c2 A2 d2 | "G"B2 G2 d2 \
+   | "G"g2 g2 bg |    d4    d2 | "D7"c2 A2 d2 | "G"B2 G2 g2 |
+   |"D7"f2 a2 d2 | "G"g2 b2 g2 | "D7"f2 a2 d2 | "G"g2 b2 g2 \
+   | "C"e2 e2 ge | "G"d4    db | "D7"ba g2 f2 | "G"g4      |]
+
+%%sep 1 1 500
+
+X: 1
+T: Die Gedanken sind frei
+M: 3/4
+L: 1/8
+K: A
+e2 | "A"a2 a2 c'a |    e4     e2 | "E7"d2  B2 e2 | "A"c2 A2  e2 \
+   | "A"a2 a2 c'a |    e4     e2 | "E7"d2  B2 e2 | "A"c2 A2  a2 |
+   |"E7"g2 b2 e2  | "A"a2 c'2 a2 | "E7"g2  b2 e2 | "A"a2 c'2 a2 \
+   | "D"f2 f2 af  | "A"e4     ec'| "E7"c'b a2 g2 | "A"a4       |]

@@ -1,0 +1,23 @@
+X: 4301
+T: Miss Hope's Strathspey
+%R: strathspey, air
+B: Niel Gow & Sons "Complete Repository" v.4 p.30 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+~D |\
+[GB,]<[GB,] G>B {B}A>GEB | c<c ~c>e edBg | d<B B>G c>AB>G | A<ETD>F [G3B,3] :| (d//e//f/) | Tg2d>g Bgdg | g<g {ga}b>g {f}e3f |
+(3gab (3bgf (3efg (3dcB | (3cde (3def (3gdc (3BAG || g<g d>g B>gd>g | g<g {ga}b>g {f}e3f | (3gab (3agf (3efg (3dcB | A<ETE>F G3 |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z |
+g2g2 d2c2 | A2B2 cfg2 | g2g2 f2g2 | c2d2 G3 :| [c'b] |\
+[d'2b2]g2 G2g2 | b2g2 c'2c'2 |
+b2d'2 c'2b2 | c'2d'2 g4 |\
+[d'2b2g2][d'2b2g2] [d'2b2g2][d'2b2g2] | [d'2b2g2][d'2b2g2] [e'2c'2g2][e'2c'2g2] |\
+[b2B2][d'2d2] [c'2c2][b2B2] | [c2C2][c2D2] [G3G,3] |]

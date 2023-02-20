@@ -1,0 +1,27 @@
+X: 1
+T: Walley Honey
+P: Longways for as many as will
+%R: slip-jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.36
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.1 #2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Beginning and ending lengths adjusted to correct rhythms.
+M: 9/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+   z | cGG G2G cAA | cGG G2G c3 | cGG G2G cAA | B2c d/e/fd c2 :|
+|: e | de/f/g G2c AFe | de/f/g G2G f2e | de/f/g G2c AFc | B2c d/e/fd c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z  | c'3 g3 f3 | e2f g2G c3 | c'3 b3 a3 | g2a f2g c2 :|
+|: c' | b2g e2a f2c | B2g e2c d2c | B2g e2a f2e | d2c g2G c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man sets to the 2d Wo. and turns her .|
+%% 1st Wo. does the same with the 2d Man :|
+%% the 1st and 2d Men lead out, 1st and 2d We. do the same at the same Time and then turn your Partner .|
+%% the 1st and 2d Cu. right and left half round.
+%%endtext

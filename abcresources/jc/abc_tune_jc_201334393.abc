@@ -1,0 +1,76 @@
+%%center Scarlet Regiment + Dream Quickstep
+%D: 111112
+%S: scarletd.mix
+
+
+X: 0
+T: The Scarlet Regiment  v.1
+P: piffero primo a0674
+O: Bill Krug
+F: http://ancients.sudburymuster.org/mus/med/pdf/scarletdC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+A>A |\
+d3 c/d/ e>c | d2 A2 dc | B2 gf ed | Tf2 ez A>A |\
+d3 c/d/ e>f | g2 B2 fe | dc BA f>e | e2 dz :|
+|: A>A |\
+e3 d/e/ fd | e2 A2 de | fe/f/ gf ed | Tf2 ez A>A |\
+d3 c/d/ ef | g2 B2 ef | dc BA f>e | e2 dz :|
+
+
+X: 1
+T: The Scarlet Regiment  v.2
+P: piffero secondo a0676
+O: Bill Krug
+F: http://ancients.sudburymuster.org/mus/med/pdf/scarletdC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+G>G |\
+F3 E/F/ G>E | F2 F2 FF | G2 EF GG | A2 GZ G>G |\
+F3 E/F/ GA | B2 G2 A>G | FE DC A>G | G2 Fz :|
+|: z2 |\
+za/a/ a2 z2 | za/a/ a2 FG | AG/F/ EF G^G | A2 Gz GG |\
+F3 E/F/ GA | B2 G2 A>G | FE DC A>G | G2 Fz :|
+
+
+X: 2
+T: The Scarlet Regiment  v.3
+P: piffero terzo a0677
+O: Bill Krug
+F: http://ancients.sudburymuster.org/mus/med/pdf/scarletdC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+C>C |\
+D3 C/D/ E>C | D2 D2 DD | D2 ED CB, | C2 Cz C>C |\
+D3 C/D/ EF | G2 D2 F>E | DE FG F>E | E2 Dz :|
+|: z2 |\
+zA/A/ A2 z2 | zA/A/ A2 DE | DC/D/ ED CB, | C2 Cz CC |\
+D3 C/D/ EF | G2 D2 F>E | DE FG F>E | E2 Dz :|
+
+
+X: 3
+T: Dream Quickstep
+P: piffero primo a0675
+O: trad.
+F: http://ancients.sudburymuster.org/mus/med/pdf/scarletdC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+d2 |\
+gfgd B2BA | GFGB D2DG | GDGB A2Ac | BGBc d2ef |\
+gfgd BcBA |
+GFGB D2DG | GDGB ADFA | G2B2 G2 :: D2 |\
+GDGB A2Ac | BGBc d2ef |
+gfgg agfe | ddcd e2f2 |\
+gfgd B2BA | GFGB D2DG | GDGB ADFA | G2GF G2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

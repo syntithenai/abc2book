@@ -1,0 +1,16 @@
+X: 378
+T: Paloc Tancok
+O: Hungary
+W: transcribed by Debra Jones
+M: 4/4
+L: 1/8
+K: G octave=-1 clef=treble-8
+[EA]2 [EA][Fd] [Gc][BF] [EA]2|[EA][FB] [Gc][Ad] [Gc][FB] [EA][DG]|
+[EA]2 [EA][Fd] [Gc][BF] [EA]2|[EA][FB] [Gc][Ad] [Gc][FB] [EA]2|
+K: G clef=treble
+%%MIDI gchord c2z2c2z2
+"Am"A A3 D D3|"C"C3 D E D3|"Am" A,2 A,D CB, A,2|[EA][Fd] [Gc][Ad] [Gc][FB] [EA]2|
+EE3 AA3|"G"GA3 BA3|"E" E2 Ec GF E2|[Be][^cf] [dg][ea] [dg][cf] [dg][Ad]|:
+"Am"EE3 A2A2|"G"G A3 BA3|"C"E2 EF GF EF|"Am"G G3 F2E2|
+"C"C2D2E2D2|"D"A,2 A,D CB, A,2|[1[EA][FB] [Gc][Ad] [Be][ea] [dg][Ad]:|\
+[2 [EA][Ad] [Gc][FB] "Am" [EA]4|

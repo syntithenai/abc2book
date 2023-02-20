@@ -1,0 +1,34 @@
+X: 13332
+T: MISS BRISTOW'S CELEBRATED PAS SEUL
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.13 p.33 #2
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout not changed to fit our page size:
+V: 1 clef=treble middle=B
+[|\
+A>GA>G A>ce>c | A>GA>G A>df>d |\
+f>ec>e e>dB>d | d>cA>c B>EF>G | A>GA>G A>ce>c |
+A>GA>G A>df>d | f>ec>e e>dB>G | A>GA>G A2z2 H|]\
+[| e>^de>d e>=dc>B | A>Bc>d e>fg>a | g>ab>a g>fe>d |
+c>BA>G A>Bc>d | e>^de>d e>=dc>B | A>Bc>d e>fg>a |\
+a>gf>e g>fe>^d | e^de>f e>=dc>"D.C."B |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+[|\
+[A2A8]a2a2a2 | [A2A8]a2a2a2 |\
+[A2A4]a2[G2G4]g2 | [A2A4]a2e2z2 | [A2A8]a2a2a2 |
+[A2A8]a2a2a2 | [A2A4]a2[E2E4]e2 | A2a2A2z2 H|][|\
+E2e2E2e2 | A2a2A2a2 | E2e2E2e2 |
+A2a2A2z2 | E2e2E2e2 | A2a2A2a2 |\
+B2b2B2b2 | E2e2E2"D.C."z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change sides, back again, down the mid: up again, & Allemand.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

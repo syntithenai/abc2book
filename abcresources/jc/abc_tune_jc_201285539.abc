@@ -1,0 +1,44 @@
+
+X: 1
+T: Heidenr\"oslein
+C: music: Heinrich Werner (1800-1833)
+C: words: Wolfgang Goethe
+O: Germany
+%R: air, waltz
+S: http://www0.cpdl.org/wiki/images/1/12/Ws-wern-hei.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+[| A2 A c>B A | G2 G G3 | A2 A Bc d | d3 c3 |
+w: Sah ein Knab'* ein R\"os-lein steh'n. R\"os-lein auf* der Hei-den,
+w: Kna-be sprach:* "ich bre-che dich, R\"os-lein auf* der Hei-den,
+w: Und der wil-*de Kna-be brach 'sR\"os-lein auf* der Hei-den,
+%
+   c2 B A2 A | A2 G F3 | F2 F FG A | B2 A G3 |
+w: war so jung und mor-gen sch\"on, lief er schnell* es nah zu seh'n
+w: R\"os-lein sprach: "ich ste-che dich, dass du e-*wig denkst an mich,
+w: R\"os-lein wehr-te sich und stach, half ihr doch* kein Weh und Ach,
+%
+   A2 A c>B A | A3 G3 | A2 c d2 d |
+w: war's mit vie-*len Freu-den. R\"os-lein, R\"os-lein,
+w: und ich will'*  nicht lei-den."
+w: musst' es e-*ben lei-den.
+%
+   cd e f3 | f2 d c2 A | G>AG F3 |]
+w: R\"os-*lein rot, R\"os-lein auf der hei-** den.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+[| F2 F A>G F | E2 E E3 | F2 F FA B | B3 A3 |
+   E2 G F2 D | C2 E D3 | D2 D CE F | G2 F E3 |
+   F2 F F>E F | F3 E3 | F2 F F2 F |
+   EG B A3 | d2 B A2 F | (F2 E) F3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+[| f2 f f2 f | c'2 c c3 | f2 f d'c' b | f3 f3 |
+   c2 c f2 f | a2 a d3 | b2 b ag f | e2 f c'3 |
+   f2 f a>g f | c'3 c3 | f2 a b2 b |
+   c'2 c' d'3 | b2 b c'2 c' | (b2 c') f3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

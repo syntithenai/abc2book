@@ -1,0 +1,22 @@
+X: 032
+T: Bread and Cheese
+S: MS of Walter Rainstorp 1747++ 
+S: https://brbl-dl.library.yale.edu/vufind/Record/3444369
+F: https://brbl-dl.library.yale.edu/pdfgen/exportPDF.php?bibid=2057949&solrid=3444369
+%R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4	% MS has 3/4, but that's wrong
+L: 1/8
+K: G
+g |\
+fddd | d2c2 | BGGG | Bd-dg |\
+fddd | e2d2 | aAAA | ce2 :|
+|: g |\
+(3(fgf) (3(efe) | (3(fgf) (3(efe) | gG2A | Bd2g  |\
+(3(fgf) (3(efe) | (3(fgf) ef | aA2B | ce2 :|
+%%begintext align
+%% 1.t Cu. Lead down thro' the 3.d Cu. |
+%% 2.d Cu. follow immediately, cast up to the Top, all four hands round :|
+%% Cross over figure in .|
+%% Right and Left
+%%endtext

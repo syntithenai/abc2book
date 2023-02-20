@@ -1,0 +1,13 @@
+X:2
+T:A-minor Polkka
+M:2/4
+L:1/16
+Q:1/4=120
+R:polka
+K:Am
+|: c | "Am" e2ef edcB | A2Ac A2 Ac | "E" B2E2 E^GB2 | "Am" cBA^G ABcd | !
+e2ef edcB | A2Ac A2 Ac | "E" B2E2 E^GB2 | "Am" cBA2 A3 :| !
+|: B | "Am" .c2 .E2 "E7" .B2 .E2 | "Am" ABcB "E7" .E2 B2 |
+"Am" .c2 .E2 "E7" .B2 .E2 | "Am" ABcB "E7" .E2 B2 | !
+"Am" .c2 .E2 "E7" .B2 .E2 | "Am" A2ce a2a2 |
+"E7" ^gbg^f e2fg | "Am" a2a2 a2 z :||

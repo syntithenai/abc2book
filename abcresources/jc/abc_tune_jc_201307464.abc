@@ -1,0 +1,29 @@
+X: 1
+T: Marriage-Hater
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.183 "R 2"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat added to satisfy the dance instructions.
+M: 6/4
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+G3AB2 (cA3)B2 | A4G2 ^F6 | (GA)B2G2 (AB)c2B2 | (AD3)^F2 G4 :|\
+|: A2 |\
+B3cd2 (dB3)d2 | (cA3)c2 B4A2 | (Bc)d2B2 (de)f2d2 | B4A2 B6 |
+def2d2 f3ed2 | (cA3)c2 B4A2 | (BG3)B2 A4G2 | ^F2G2A2 D6 |\
+D=EF2F2 GAB2B2 | A4G2 f6 | d3cB2 (cA3)B2 | A4G2 g6 |\
+f3ed2 (gd3)(cB) | A4G2 G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man set to his Partner, then the two men turn asides, the two we. doing the like at the same
+%% time :| The 1. cu. cross over into the 2. cu. place, and all four turn S. then all four hands half round,
+%% then 1. cu. set to his Partner, and cast off into the 2. cu. place .|
+%% [DMDfD]
+%%endtext
+%%sep 1 1 300
+%%text Note: The first Strain is to be played twice, and the second but once.
+%%sep 1 8 500

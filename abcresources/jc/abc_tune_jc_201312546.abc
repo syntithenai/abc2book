@@ -1,0 +1,13 @@
+X: 1
+T: Monferrina   [G,D]
+N: "Monfer(r)ina" is just another name for a north-Italian jig/giga/tarentella.
+O: Italy
+R: jig
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+"D7"DEF !segno!|:\
+"G"GFG BGB | d2d ded | "D7"fed cBA | "G"B2G "D7"DEF | "G"GFG BGB | d2d ded |
+"D7"fed cBA |1 "G"G2G DEF :|2 G3 |] [K:D] |:"A7"A2A | "D"A2A ABA | "A7"GFE "D"F2D | "D"A2A ABA |
+"A7"ABc "D"dFG | "D"A2A ABA | "A7"GFE "D"F2D | "D"ABA "A7"GFE |1 "D"D3 :|[2 "D7"[DD3]ED =CB,A, !segno!|]

@@ -1,0 +1,98 @@
+
+X: 1
+T: Trava Trava  [G]
+C: Greece
+Z: 2006 John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: C
+L: 1/8
+R: Hasapikos
+K: G
+[| "G"[^c^A][dB] [dB][dB] [B2G] [D2G] \
+|     [^c^A][dB] [dB][dB] [B2G] [D2G] \
+|     [^c^A][dB] [dB][=c=A] "D7"[BG][cA] [BG][AF] \
+|  "G"[G2D] [DG][AF] [BG][cA] [d2B] |
+|     [^c^A][dB] [dB][dB] [B2G] [D2G] \
+|     [^c^A][dB] [dB][dB] [B2G] [D2G] \
+|     [dB][ec] [dB][cA] "D7"[cA][dB] [BG][AF] \
+|  "G"[G2G] "D7"[D2D] "G"[G2G] z2 |]
+[| "G"[dB][^c^A] [dB][e=c] [=fd][ec] [dB][^c^A] \
+|     [dB][^c^A] [dB][e=c] [=fd][ec] [dB][^c^A] \
+|     [dB][^c^A] [dB][e=c] [=fd][ec] [d2B] \
+| "F#"[^c4^A] "G"[d4B] |
+|  "G"[dB][^c^A] [dB][e=c] [=fd][ec] [dB][^c^A] \
+|     [dB][^c^A] [dB][e=c] [=fd][ec] "->Coda"[dB][=fd] \
+| "D7"[=fd][ec] [dB][BG] [cA][BG] [AF][BD] \
+| "G"[G2G] "D7"[D2D] "G"[G2G] z2 |]
+[| "G"[^A2F] [B2G] [A2F] [B2G] \
+|     [^c2^A] [d6B] \
+|     [e2^c] [=f2d] [e2=c] [d2B] \
+|     [c2A] [B6G] \
+|     [e2^c] [=f2d] [e2=c] [d2B] \
+|     [^c2^A] [d6B] |
+|     [g2e] [=f2d] [e2c] [d2B] \
+|     [c2A] [B6G] | \
+|     [e2^c] [=f2d] [e2=c] [d2B] \
+|     [^c^A][e=c] [d3B] [dB][ec][=fd] \
+|     [g2e] [=f2d] [e2c] [d2B] \
+|     [c2A] [B3G] [cA][dB][ec] |
+| "G7"[=f8-d-] \
+|     [=f6d] [ge][fd] \
+|  "C"[e8-c-] \
+|     [e8c] \
+|  "G"([d8-B-] \
+|     [d8B]) |] \
+y8"Coda"\
+[|"D7"[d2d] [dd][dd] [e2^c] [f2=c] \
+| "G"[gB]z "D7"[dd]z "G"[gG]z z2 |]
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: Trava Trava  [A]
+C: Greece
+Z: 2006 John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: C
+L: 1/8
+R: Hasapikos
+K: A
+[| "A"[^d^B][ec] [ec][ec] [c2A] [E2A] \
+|     [^d^B][ec] [ec][ec] [c2A] [E2A] \
+|     [^d^B][ec] [ec][=d=B] "E7"[cA][dB] [cA][BG] \
+|  "A"[A2E] [EA][BG] [cA][dB] [e2c] |
+|     [^d^B][ec] [ec][ec] [c2A] [E2A] \
+|     [^d^B][ec] [ec][ec] [c2A] [E2A] \
+|     [ec][fd] [ec][dB] "E7"[dB][ec] [cA][BG] \
+|  "A"[A2A] "E7"[E2E] "A"[A2A] z2 |]
+[| "A"[ec][^d^B] [ec][f=d] [=ge][fd] [ec][^d^B] \
+|     [ec][^d^B] [ec][f=d] [=ge][fd] [ec][^d^B] \
+|     [ec][^d^B] [ec][f=d] [=ge][fd] [e2c] \
+| "G#"[^d4^B] "A"[e4c] |
+|  "A"[ec][^d^B] [ec][f=d] [=ge][fd] [ec][^d^B] \
+|     [ec][^d^B] [ec][f=d] [=ge][fd] "->Coda"[ec][=ge] \
+| "E7"[=ge][fd] [ec][cA] [dB][cA] [BG][cE] \
+| "A"[A2A] "E7"[E2E] "A"[A2A] z2 |]
+[| "A"[^B2G] [c2A] [B2G] [c2A] \
+|     [^d2^B] [e6c] \
+|     [f2^d] [=g2e] [f2=d] [e2c] \
+|     [d2B] [c6A] \
+|     [f2^d] [=g2e] [f2=d] [e2c] \
+|     [^d2^B] [e6c] |
+|     [a2f] [=g2e] [f2d] [e2c] \
+|     [d2B] [c6A] | \
+|     [f2^d] [=g2e] [f2=d] [e2c] \
+|     [^d^B][f=d] [e3c] [ec][fd][=ge] \
+|     [a2f] [=g2e] [f2d] [e2c] \
+|     [d2B] [c3A] [dB][ec][fd] |
+| "A7"[=g8-e8-] \
+|     [=g6e6] [af][ge] \
+|  "D"[f8-d8-] \
+|     [f8d8] \
+|  "A"[e8-c8-] \
+|     [e8c8] |] \
+y8"Coda"\
+[|"E7"[e2e] [ee][ee] [f2^d] [g2=d] \
+| "A"[ac]z "E7"[ee]z "A"[aA]z z2 |]
+

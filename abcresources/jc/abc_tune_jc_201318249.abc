@@ -1,0 +1,64 @@
+X:1
+T:Prayer of St. Margaret Mary Alacoque
+T:"O Heart of Love"
+C:John Stainer (1840-1901)
+C:arr C.M. Scott
+M:3/4
+L: 1/8
+K:
+%%staves [(1 2) 3]
+V:1 clef=G name="Soprano I"  sname="S I"
+V:2 clef=G name="Soprano II" sname="S II"
+V:3 clef=G name="Alto"           sname="A"
+K:C
+V:1
+E6|E2D3D|(G6|G4)z2|w6|G2^F3F|(B6|
+w:
+V:2
+x6|x6|(E6|E4)z2|x6|x6|x6|
+w:
+V:3
+C6|C2B,3B,|(C4D2|B,2C2)z2|x6|x6|x6|
+w:
+%
+
+V:1
+notes
+w:
+V:2
+notes
+w:
+V:3
+notes
+w:
+%
+V:1
+notes
+w:
+V:2
+notes
+w:
+V:3
+notes
+w:
+%
+V:1
+notes
+w:
+V:2
+notes
+w:
+V:3
+notes
+w:
+%
+V:1
+notes
+w:
+V:2
+notes
+w:
+V:3
+notes
+w:
+%

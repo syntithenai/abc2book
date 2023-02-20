@@ -1,0 +1,34 @@
+X: 10913
+T: COTILLION No. 11. tune 5
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.91 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c2 |\
+a2a2 f2f2 | cdcB A2c2 | B2G2 g2f2 | (f4 e2)c2 |\
+a2a2 f2f2 | cdcB A2c2 | B2b2 b2g2 | (g4 f2) H|]
+a2 |\
+(gagf) (efed) | cdc=B c2c'2 | =b2_b2 b2g2 | a4 g3a |\
+(gagf) (efed) | cdc=B c2c'2 | =b2d'2 g2b2 | (d'4 "^D.C."c'2) |]
+A2 |\
+d2fe d2fe | d4 A4 | e2gf e2gf | e4 A4 |\
+b2b2 b4 | a2a2 a4 | a2g2 g2f2 | f4 e4 |]
+d2fe d2fe | d4 A4 | e2gf e2gf | e4 A4 |\
+b2a2 g4 | a2g2 f4 | e2b2a2^c2 | d4- "^D.C."d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies all forward and back,
+%% gentlemen the same,
+%% all balance and turn partners,
+%% all chassa across partners,
+%% chassa back,
+%% grand chain,
+%% promenade 8.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

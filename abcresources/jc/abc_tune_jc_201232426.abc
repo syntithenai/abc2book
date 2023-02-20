@@ -1,0 +1,36 @@
+X:1710
+T:The Perthshire Highlanders
+%
+P:The Perthshire Highlanders
+C:Traditional?
+R:Strathspey (8x32)
+B:RSCDS 17-10(I)
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:D
+D|"D"A>B A>F D>F A>d|"Bm"D/E/F/G/ A>F "Em"B>E G>B|\
+  "D"A>B A<F "G"B>d "A7"c>e|"D"f>d "A7"e/f/g/e/ "D"f<d d>B|
+  "D"A>B A>F "Bm"D/E/F/G/ A/B/c/d/|"D"D>F A>F "G"B/A/G/F/ "A"E>B|\
+  "D"A>B A>F "G"G>B "D"A<d|"G"B>d "A7"c<e "D"f<d d||
+f|"D"a>f d>f "G"d/e/f/g/ "D"a>f|"A7"g>e "D"f<d "Em"e>d B>g|\
+  "D"a>f d>f "G"d>e "D"f<d|"Em"B>d "A7"c>e "D"d<D D>f|
+  "D"a>f d>f "G"d>e f<d|"Em"B>d "D"A<F "G"B>E G<B|\
+  "D"F>D F<A "G"B>G B<d|"A7"d/c/B/A/ B/d/c/e/ "D"f<d d|]
+%
+P: Glengary
+C: Capt.S.Fraser of Knockie
+R: strathspey
+B: RSCDS 17-10(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+|: A \
+| "A"E<C C>B, A,>C E>C | E<C C>c "D"B>A F>A \
+| "A"E<C C>B, "F#m"A,>C E>C | "D"c>B A>F "A"E<C "E7"B, :|
+|| A \
+| "A"C>E A>E "D"F>E "A"A>E | "A"C>E A>E "D"F>E "E7"C>E \
+| "A"C>E A>E "D"F>E "A"A>E | "F#m"c>B A>F "A"E<C "E7"B,>E |
+| "A"C>E A>E "D"F>E "A"A>E | "A"C>E Ac e<c "E7"d>B \
+| "A"c<a e>c "E7"d>B "A"c>A | "E7"B>G "F#m"A>F "A"E>C "E7"B, |]

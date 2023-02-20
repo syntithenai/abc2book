@@ -1,0 +1,22 @@
+X: 20492
+T: HUNTING THE HARE
+O: Irish air.
+Q: "With spirit."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.49 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+d2D FGA | Bcd edc | d2D FGA | Bdc d3 |\
+d2D FGA | Bge cBc | ddD FGA | Bdc d3 |]
+fed fed | fed fed | ecd ecd | (e/f/g)f e3 |\
+d2D FGA | Bed cBc | d2D FGA | Bdc d3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The comic song of the "Calais Packet" is sung to the above air.
+%%endtext
+%%sep 1 1 300

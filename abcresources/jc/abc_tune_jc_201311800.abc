@@ -1,0 +1,26 @@
+X: 1
+T: Miss Stewart of Grantully's Strathspey
+C: Niel Gow
+R: strathspey
+N: Gow 156; Skye p.7 (as a reel); BSCS I-50, III-22; Hunter #143; Carlin #291
+S: BSFC Session Tune Book p.18
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+z |\\
+"A"A<A c>A c/d/e {d}c2 |\
+"G"B<=G B>=c d/c/B/A/ G<B |\
+"A"A<A c>A c/d/e c2 |\
+"D"A<a "E"e<f "A"c>A A :|
+g |\
+"A"a>e a>e a/g/f/e/ a>e |\
+"G"=g>d g>d B<G G>^g |\
+"A"a>e a>e a/g/f/e/ a>e |\
+"D"f>e "E"ae "A"c>A A |]
+g |\
+"A"a>e a>e a/g/f/e/ a>e |\
+"G"=g>d g>d B<G G>B |\
+"A"A<A c>A c/d/e c2 |\
+"D"A<a "E"e<f "A"c>A A |]
+

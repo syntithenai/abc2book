@@ -1,0 +1,127 @@
+X:992
+T:Weighing from Land
+T:"One of the Dead's Lament" (Piobaireachd Society alternate title)
+C:anon.
+O:Scotland
+S:Kilberry Book of Ceol Mor
+N:example of BarFly's macro system
+R:Lament
+Z:Jack Campin April 2000
+F:http://abc.musicaviva.com/tunes/scotland/weighing-from-land-220400.abc
+%Posted Apr 22 2000 at ABC-users by Jack Campin as an example of
+%extremely long P: fields. This tune uses the BarFly ornament macro
+%system. See below for a version playable with other ABC programs.
+V:1 Program 1 109 %Bagpipe
+m: ~n = (3{g}n//{d}n//{e}n//
+m: Ne2 = e>{GdGeAfA}e
+m: Me = {eAfA}e
+P:AAB ABB AB CCD CDD CD EEF EFF EF GGH GHH GH IIJ IJJ IJ KKL KLL KL MMN MNN MN OOP OPP OP
+M:6/8
+L:1/16
+Q:1/8=80
+K:HP
+P:A
+"ground"
+e{g}e3G2 {d}B2{g}A4|e{g}e3B2 d2{g}A4||\
+P:B
+e{g}e3B2 {d}B2{g}A4|e{g}e3B2 d2{g}A4||
+P:C
+"thumb variation"
+e{g}e3G2 {d}B2{g}A4|ae3B2 d2{g}A4||\
+P:D
+e{g}e3B2 {d}B2{g}A4|ae3B2 d2{g}A4||
+P:E
+"variation 1"
+e{g}G3 {d}B{g}A3|e{g}B3 d{g}A3||\
+P:F
+e{g}A3 {d}B{g}A3|e{g}B3 d{g}A3||
+P:G
+"variation 1 doubling"
+e{g}G3 {d}B{g}A3|e{g}A3 d{g}A3||\
+P:H
+e{g}A3 {d}B{g}A3|e{g}A3 d{g}A3||
+P:I
+"taorluath"
+~Ae3 ~G{d}B3|~Ae3 ~Bd3||\
+P:J
+~Ae3 ~A{d}B3|~Ae3 ~Bd3||
+P:K
+"taorluath doubling"
+~Ae3 ~G{d}B3|~Ae3 ~Ad3||\
+P:L
+~Ae3 ~A{d}B3|~Ae3 ~Ad3||
+P:M
+"crunluath"
+Ne4 {g}G2{d}BMe|Ne4 {g}B2dMe||\
+P:N
+Ne4 {g}A2{d}BMe|Ne4 {g}B2dMe||
+P:O
+"crunluath doubling"
+Ne4 {g}G2{d}BMe|Ne4 {g}A2dMe||\
+P:P
+Ne4 {g}A2{d}BMe|Ne4 {g}A2dMe|]
+
+
+X:10
+T:Weighing from Land
+Z:Jack Campin April 2000
+N:macros  expanded
+T:"One of the Dead's Lament" (Piobaireachd Society alternate title)
+S:Kilberry Book of Ceol Mor
+M:6/8
+L:1/8
+Q:1/8=80
+P:AAB ABB AB CCD CDD CD EEF EFF EF GGH GHH GH IIJ IJJ IJ KKL KLL KL MMN MNN
+MN OOP OPP OP
+K:HP
+P:A
+"ground"
+e<{g}eG {d}B{g}A2|e<{g}eB d{g}A2||\
+P:B
+e<{g}eB {d}B{g}A2|e<{g}eB d{g}A2||
+P:C
+"thumb variation"
+e<{g}eG {d}B{g}A2|a<eB d{g}A2||\
+P:D
+e<{g}eB {d}B{g}A2|a<eB d{g}A2||
+P:E
+"variation 1"
+e<{g}G {d}B<{g}A|e<{g}B d<{g}A||\
+P:F
+e<{g}A {d}B<{g}A|e<{g}B d<{g}A||
+P:G
+"variation 1 doubling"
+e<{g}G {d}B<{g}A|e<{g}A d<{g}A||\
+P:H
+e<{g}A {d}B<{g}A|e<{g}A d<{g}A||
+P:I
+"taorluath"
+(3{g}A//{d}A//{e}A//<e (3{g}G//{d}G//{e}G//<{d}B|\
+(3{g}A//{d}A//{e}A//<e (3{g}B//{d}B//{e}B//<d||\
+P:J
+(3{g}A//{d}A//{e}A//<e (3{g}A//{d}A//{e}A//<{d}B|\
+(3{g}A//{d}A//{e}A//<e (3{g}B//{d}B//{e}B//<d||
+P:K
+"taorluath doubling"
+(3{g}A//{d}A//{e}A//<e (3{g}G//{d}G//{e}G//<{d}B|\
+(3{g}A//{d}A//{e}A//<e (3{g}A//{d}A//{e}A//<d||\
+P:L
+(3{g}A//{d}A//{e}A//<e (3{g}A//{d}A//{e}A//<{d}B|\
+(3{g}A//{d}A//{e}A//<e (3{g}A//{d}A//{e}A//<d||
+P:M
+"crunluath"
+e>{GdGeAfA}e {g}G{d}B/{eAfA}e/|e>{GdGeAfA}e {g}Bd/{eAfA}e/||\
+P:N
+e>{GdGeAfA}e {g}A{d}B/{eAfA}e/|e>{GdGeAfA}e {g}Bd/{eAfA}e/||
+P:O
+"crunluath doubling"
+e>{GdGeAfA}e {g}G{d}B/{eAfA}e/|e>{GdGeAfA}e {g}Ad/{eAfA}e/||\
+P:P
+e>{GdGeAfA}e {g}A{d}B/{eAfA}e/|e>{GdGeAfA}e {g}Ad/{eAfA}e/|]
+%
+%Posted Apr 22 2000 at ABC-users by Phil Taylor.
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

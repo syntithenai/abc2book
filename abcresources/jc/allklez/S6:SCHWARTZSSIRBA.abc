@@ -1,0 +1,15 @@
+X: 536
+T:Schwartz's Sirba
+O:klezmer
+M:2/4
+L:1/8
+F:http://jc.tzo.net/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc	 2010-11-22 23:36:28 UT
+K:Am
+V:1
+"Am" a4 |a4 |a2 a2 |a2 a2
+|:"Am" _b/a/g/^f/ g/^f/g/a/ |_b/a/g/^f/ _e/d/c/B/ |c(c c/)A/B/c/ |Aa Aa |
+"Am" _b/a/g/^f/ "Am/g" g/^f/g/a/ |"D/f#" _b/a/g/^f/ "Dm/f" _e/d/c/B/ |"E" c(c c/)A/B/c/ |"Am" A2 A2 :| |:
+"Am" c3/2 c/c/A/B/ c/|A/B/c/ d/e/d/c/ B/|c3/2 c/c/A/B/ c/|Aa Aa |
+"Am" c3/2 c/c/A/B/ c/|"D/f#" A/B/c/ d/"Dm/f" e/d/c/ B/|"E" c(c c/)A/B/c/ |"Am" A2 AA :| |:
+"C" c3 G|e/d/ c/B/c g|c3 G|e/d/ c/B/c2 |
+"Cm" (c'4 |c'2) c'/^f/g/a/ |_b/a/g/^f/ _e/d/c/B/ |c/d/B/c/ "Am" A2 :|

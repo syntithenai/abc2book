@@ -1,0 +1,28 @@
+X: 1
+T: Soulton Jigg
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #18 (28)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats adjusted to match the dance instruction.
+M: 6/8
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+:|\
+g2g gdB | gdB A3 | B>cd efg | aeg f>e d/c/ |\
+Bdg Bdg | Bdg f2g | a>ba/g/ fdg | g2f g3 :|
+BAG BAG | Bdd d2^d | eBe eg(f/e/) | ^d3- d2f |\
+gfe bBe/f/ | gfe b^de | e>fg f2e | e3- e2e/f/ |
+g>fe dcB | ABG FAD | G>AB B>AG | d3- d2d |\
+e>fg dcB | c>de e>f g/a/ | fga gaf | g3- g3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st strain is to be play'd twice and the last but once over.
+%%   The 1st Cu. sett and cast off then clap Hands and turn Sides
+%% the 2d Cu. do the same :| 1st Man change Places with the 2d
+%% Wo. and the 1st Wo. with the 2d Man then all four sett and
+%% turn single then right hands and left half round then sett
+%% and cast off .|
+%%endtext
+%%sep 1 8 500

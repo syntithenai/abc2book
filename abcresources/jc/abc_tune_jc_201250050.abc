@@ -1,0 +1,16 @@
+X: 1
+T: Banks of Spey
+M: C
+L: 1/8
+R: air
+N: "Slow"
+S: McGibbon - Scots Tunes, book III, p.74  (1762)
+Z: AK/Fiddler's Companion
+K: D
+%%slurgraces 1
+D2 \
+| "D"F2 A2 "(Bm)"d3 f  | "A7"(e<c) T(BA) "G"d3 B | "D"A<F (d<B) "Bm"(A<F) T(E>D) |
+| "Em"{D}E4 "A7"z2 f>g | "D"af df "A7"ge Ag | "Bm"f2 (g/f/e/d/) "F#m"{d}c2 T(BA) |
+| "G"Bc d(e/4f/4g/) "A7"(fe) (dc) | "D"{c}d6 :: f>g | "A7"({f}e3 d) (ce) (ac) |
+| "F#7"(dc) (B^A) "Bm"B3 F | "Bm"Bc (de/4f/4g/) "F#(m)"(fe) (dc) | "Bm"{c}B4 "G"z2 (B/c/d) |
+| "D"(A<F) (E<D) (d3 e/f/) | "D"(A<F) (E<D) "G"d3 B | "D"(A<F) "G"(d<B) "A7"(A<F) (E>F) | "D"D6 :|

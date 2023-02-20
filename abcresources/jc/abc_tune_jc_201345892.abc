@@ -1,0 +1,20 @@
+X:1
+T: Touch and Take
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:A
+I:speed 150
+%W:
+% voice 1 (1 lines, 17 notes)
+K:A
+M:6/8
+L:1/16
+A3 B c2 d4 A2 d4 e2 f3 e d2 e3 f g2 a4 g2 f6 e6 |
+%W:
+% voice 1 (1 lines, 16 notes)
+c4 A2 F4 B2 G4 E2 e4 c2 d3 e f2 e3 d c2 B6 A6 ||

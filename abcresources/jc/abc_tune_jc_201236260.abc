@@ -1,0 +1,29 @@
+X: 2183
+T: Niel Gow's Lament for the Death of his Brother
+C: Niel Gow
+%R: air, jig
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.18 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slow"
+K: Em
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 8-bar lines.
+V: 1 staves=2
+TE/D/ |\
+B,EE TEDE | TFEF {F}d2B | AFA dB/^c/d/B/ | AFD D2 TE/D/ ||\
+B,EE TEDE | TFEF He2B | TB>AG TA>GF | BGE TE2 :|
+(3(B/^c/^d/) |\
+eBe/f/ {ef}g>fe | def Tg2f/e/ | {^cde}d>^cB AFd/B/ | AFD D2 (3(B/^c/^d/) ||\
+eBe/f/ {ef}gfe | def Tg2f/e/ | {^cde}d>^cB AFA | BGE TE2 ||
+(3(B/^c/^d/) |\
+eBe/f/ {ef}gfe | def Tg2f/e/ | {^cde}d>^cB AFd/B/ | AFD D2TE/D/ ||\
+B,EE TEDE | TFEF He2 d | TB>AG TA>GF | BGE TE2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | e3 e3 | e3 f2g | d3 f2g | f3 d2z || e3 e3 | f3 Hg2a | b3 B3 | e3 E2 :|
+z | e3 e3 | bc'a b2e |f2g dfg | d'3 d2z || e3 e3 | b2a g3 | g3 a3 |
+g3 e2 || z |\
+e3 e3 | bc'a b2g | f2g dfg | d'3 d2z | e3 e3 | f3 Hg2a | b3 B3 | e3 e2 |]

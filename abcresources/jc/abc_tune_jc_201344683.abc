@@ -1,0 +1,24 @@
+X: 1
+T: Tico Tico
+M: 4/4
+L: 1/8
+F: http://www.thesession.org/tunes/display/4357
+R: tango
+K: Am
+E^DE "A"|\
+"Am"F2EA2 E^DE | "E7"F2EB2 E^DE | FEdB ^GED_D | "Am"C3^G A^G=G^F | 
+"Dm"F2Ad2 FAd | "Am"E2Ac2 EA^A | "B7"~B3c BA^GA | "E"B3B2 E=E=E | 
+"Am"F2EA2 E^DE | "E7"F2EB2 E^DE | FEdB ^GED_D | "Am"C3^G A^G=G^F | 
+"Dm"FAdF AdFA | "Am"EAcE Ac(3E^GB | "E"eEef edcB | "Am"A3 A2 :| 
+K:C
+EF^F "B"|\
+"C"G2^FG2 ^FG^G | "Dm"A2F3 EF^F | "G7"GB,DG B,DB=B | "C"A2E3 ccE | 
+cEcE BEBE | "Dm"A2F3 =B,=B,D | "G7"B2FA2 EF^F | "C"G2E3 =E=EF | 
+GCEG CEG^G | "Dm"ADFA DcB/=B/A | "G7"GB,DG B,DG^G | "C"AE~E2 EGcB | 
+"F"A^GAB "F#dim"dcBc | "C/G"ef^fg "A"ag=fe | "Dm"dcBA "G"GFED | "C"C3 C2 :| 
+K:A
+Ace "C"|\
+"A"aAce gAce | fAce fecA | aAce gAce | "Bm7"fFBd fdBF | 
+aFBd gFBd | "E9"fFBd fdBF | aFBd gFBd | "A"fAce fecA | 
+aAce gAce | fAce fecA | "F#"~f3=g fedc | "Bm"fedc "A/C"BAG=G | 
+"D"F=G^GA "Edim"BAGA | "A/E"cd=e=e "F#"fedc | "Bm"BAGF "E"EDCB, | "A"A,3 A,2 :| 

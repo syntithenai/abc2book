@@ -1,0 +1,30 @@
+X: 30932
+T: COTILLION No. 8. WINTHROP HALL SETT tune 5
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.93 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Strain 3 is missing a pickup, and bars 1, 5 have 10 16th-notes. Fixed by adding the triplet notation and initial rest.
+M: 2/4
+L: 1/16
+K: Em	% and G in the 3rd strain
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+b>b |\
+b3g ee^de | f3d B>Bc>d | e>de>f g>ba>g | f2f2 f2b>b |\
+b3g e>e^d>e | f3d B>Bc>d | e2g2 fc'af | e2e2 e2 H|]
+f>g |\
+ab c'4 ba | gfe3 gfe | ^d>BB>B B2cd | eBgf e2f>g |\
+ab c'4 ba | gfe3 gfe | ^dBBB B2dd | e2g2 "^D.C."e2 |]
+z2 |\
+G,2g2 (3bag (3fed | d>ce2 (3fdc (3BAG | FAed cdAd | c4 B2z2 |\
+G,2g2 (3bag (3fed | d>ce2 (3edc (3BAG | F>Ae>d cdFA | G2B2"^D.C."G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple forward and back,
+%% cross over,
+%% cross back,
+%% balance, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

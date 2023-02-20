@@ -1,0 +1,54 @@
+X: 1
+T:The Five Lamps
+M:6/8
+L:1/8
+Q:80
+C:Composed by Joe Maguire
+S:March
+K:HP
+|: {g}A|
+{Gdc}d2{c}d{g}f3/2e/2d|
+{gcd}c2e{A}e2A|  !
+{gcd}c2{G}c{gef}e3/2c/2{d}A|
+{Gdc}d2f{e}f2{g}A|
+{Gdc}d2{c}d{g}f3/2e/2d|  !
+{gcd}c2e{A}e2g|
+{a}A3/2{d}c/2e{a}g3/2e/2{g}c|
+{Gdc}d3{gdc}d2:| |:  !
+{e}A|
+{gfg}f2{e}fa3/2f/2d|
+{g}A3/2d/2f{ag}a3|
+{f}g2e{g}c3/2e/2{A}e|  !
+{g}A3/2{d}ce{gf}g2e|1
+{gfg}f2{e}fa3/2f/2d|
+{g}A3/2d/2f{ag}a3|  !
+A3/2{d}c/2e{a}g3/2e/2{g}c|
+{Gdc}d3{gdc}d2:|2
+{Gdc}d3/2f/2d{g}A3/2d/2f|  !
+a3/2f/2d{g}A3|
+{g}A2{GdG}e{a}g3/2e/2{g}c|
+{Gdc}d3{gdc}d2:| |:  !
+{e}A|
+{Gdc}d2{c}d{g}f3/2e/2d|
+{gcd}c2a{f}g3|
+{a}c3/2e/2{A}e{gef}e3/2c/2{d}A|  !
+{Gdc}d2a{fg}f2a|
+{Gdc}d2{c}d{g}f3/2e/2d|
+{gcd}c2a{f}g3|  !
+{a}A3/2{d}c/2e{a}g3/2e/2{g}c|
+{Gdc}d3{gdc}d2:| |:
+{gf}g|  !
+{ag}a3/2g/2a{fg}f3/2d/2{c}d|
+{g}A3/2d/2fa3/2e/2f|
+{gf}g3/2{a}f/2g{a}e3/2c/2{G}c|1  !
+{g}A{d}c/2e{gf}g3/2{a}f/2g|
+{ag}a3/2g/2a{fg}f3/2d/2{c}d|
+{g}A3/2d/2f{ag}a3|  !
+A3/2{d}c/2e{a}g3/2e/2{g}c|
+{Gdc}d3{gdc}d2:|2
+{g}A3/2{d}c/2e{a}g3/2f/2{g}e|  !
+{Gdc}d3/2f/2d{g}A3/2d/2f|
+a3/2f/2d{g}A3|
+{g}A2{GdG}e{a}g3/2e/2{g}c|  !
+{Gdc}d3{gdc}d2:|
+

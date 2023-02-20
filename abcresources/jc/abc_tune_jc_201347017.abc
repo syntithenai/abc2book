@@ -1,0 +1,30 @@
+X: 1
+T: Tumas I cannot
+T: Tom Trusty
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (135)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+N: The first strain has 4 bars, and the second has 10 bars.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+F2G A2F | BcA d2c/B/ |\
+AGF E2D | Dd2- d2 :|\
+|: d |\
+c2d e2c | d>ec B2A |
+c2d e2E | G>AF E2D |\
+c2d e2c | d>ec B2A |\
+AGF E2D | DdD DdB |\
+AGF E2D | Dd2 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. cast off .| Then cast up again :| Cross over
+%% and go the figure thro the 2d Cu. .| Then lead thro
+%% the 3d Cu. and cast up and turn Hands :|
+%%endtext
+%%sep 1 8 500

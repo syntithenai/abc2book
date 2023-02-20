@@ -1,0 +1,26 @@
+X: 1
+T: Every Lad his Lass
+%R: reel, march
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (175)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B2 |\
+e4 f4 | g2(fe) ^d2B2 | A2F2 G2E2 | B6 :|\
+|: d2 |\
+B4 d4 | g2e2 ^c2A2 | ^c4 e4 | a2(fe) ^d2B2 |\
+e2g2 B2^d2 | e6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. set and cast off .| The 2d Cu. do the same
+%% :| The 1st Man and 2d Wo meet and give a little
+%% Jump the 2d Man and 1st Wo. do the same and turn
+%% single all four .| The 1st Cu. cross and figure in 
+%% between the 3d Cu. into the 2d Cu. Place :|
+%%endtext
+%%sep 1 8 500

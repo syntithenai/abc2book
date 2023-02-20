@@ -1,0 +1,30 @@
+X: 21162
+T: Hark 'tis a voice from the Tomb
+%R: air, waltz
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.116 #2 (and p.117)
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+P: Plaintive
+K: Em
+%%slurgraces yes
+%%graceslurs yes
+"_Slow"E2 |\
+G2 B2 e>f | g2 G2 A2 | B4 g2 |\
+(fe) B3 g | (fe) B2 T^d2 | e4 G>A |\
+B2 B2 (e/f/g) | fB B2 e2 | (e2 ^d2) B2 |
+(EF)(GA) (B^c) | d3 ^c B^A | B4 :: d2 |\
+(c2 B2) A2 | (d2 g2) f2 | B4 d2 |\
+(ed) d2 c2 | (BG) {B}A2 {G}F2 | G4 g2 |
+(fe) B3 g | (fe) ^d2 e2 | Ha4 (gf) |\
+(g2 ^d2) e2 | (B2 G2) E2 | A4 (fg/a/) |\
+(g2 e2) B2 | (AG) G2 TF2 | E4 :: e2 |
+(dB) B2 e2 | (dB) (AG) A(B/c/) | (B2 b2) a2 |\
+(g/f/)e B2 (ba) | (g/f/)e B2 (Tg>f) | e4 G>A |\
+B2 B2 (b/a/)g | (a/g/)f (g/f/)e (c'/a/)f | (e2 ^d)^c B2 |
+E3 F (G/A/B/^c/) | d3 ^c B^A | B4 :: (d>=c) |\
+(c>B)(B>A)(A>G) | g2 (bg)(fe) | B4 e>f |\
+g>a (3bag (3ege | (d<B)(d<B) TA>G | G4 g2 |
+(3fge B2 g2 | (3fge (^de)(fg) | Ha4 (3gaf |\
+(3gbe (^d>e)(e>f) | B2 (3ABG (3FGE | A4 (f3/g//a//) |\
+(3gfe B2 (f3/g//a//) | (3gfe G2 TF2 | E4 :|

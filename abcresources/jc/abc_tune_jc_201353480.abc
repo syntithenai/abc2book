@@ -1,0 +1,17 @@
+X: 1
+T: the Wonder (Ballyoran)
+C: Sean Ryan
+R: hornpipe
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+Bc "A"\
+| "G"dB cA "D7"BG AF | "G"G2 GF GA Bc | dg ~g2    bg dB | "Am"cA BG "D7"A2 Bc |\
+| "G"dB cA  BG (3AGF | "G"G2 GF GA Bc | dg ~g2 "D7"fg af | "G"g2 "D7"gf "G"g2 :|
+|: Bc "B"\
+| "G"dg ~g2 bg ~g2 | dg fg  ed BG | "D7"FG AB cB ce | "A7"ag fe "D7"d2 Bc |\
+| "G"dg ~g2 bg ~g2 | dg ~g2 ed BG | "D7"FG AB cA DF | "G"AG "D7"GF "G"G2 :|
+|: dc "C"\
+| "G"BD GB dg fg | "C"ec ~c2 Gc eg | "D7"fd ~d2 fg af | "G"dg ~g2 bg dc |\
+| "G"BD GB dg fg | "C"ec ~c2 Gc eg | "D7"fd ~d2 fg (3agf | "G"g2 "D7"gf "G"g2 :|

@@ -1,0 +1,31 @@
+X: 3172
+T: Miss Chalmers Jigg
+C: by Nath: Gow.
+%R: jig
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.17 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The only segno symbols are at the very beginning.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 12-bar lines.
+V: 1 staves=2
+B !segno!|\
+AFD DED | EFE TE2B | AFD DED | AFD Bcd ||\
+AFD DED | EFE E2d | Tc3 {Bc}dcB | AFD D2 :|\
+(f/g/) |\
+afd ded | efe efg | afd ded | fga {b}agf ||
+gbg faf | efe efg | afd gec | {c}Td3 D2 f/g/ ||\
+afd ded | efe efg | afd ded | Tfga {b}agf ||\
+(g/a/b).g (f/g/a).f | efe efg | afd gec | dBG AFd |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z !segno!|\
+d3 d3 | A3 A3 | d3 d3 | d3 g3 ||\
+f3 d3 | A3 A3 | g3 a3 | d3 d2 :|\
+z | d'3 d'3 | a3 a3 | d'3 d'3 |
+d'3 d'3 || c'3 d'3 | a3 a3 | d'3 a3 | d3 d3 ||\
+d'3 d'3 | a3 a3 | d'3 d'3 | d'3 d'3 ||\
+c'3 d'3 | a3 A3 | d3 a3 | b3 [d3f3] |]

@@ -1,0 +1,35 @@
+X: 11041
+T: When placid Night diffuses o'er the Plain
+C: Mazzinghi
+Q: "Larghetto"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.104-105
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+%%continueall
+%%graceslurs 0
+A4 (cB) (AG) | c4 z2f2 |
+w: When pla-*cid* Night dif-
+e2 c2 B2 d2 | c4 z4 | G4 {A/}(GF) (GB) |
+w: fu-ses o'er the Plain  Her si-*lent*
+A2 F2 z4 | G2 G2 {A/}(GF) (GA) | F4 z4 |
+w: Sha-dows and her dew-*y* rain
+A4 G2 G2 | B6 A2 | d2 c2 E2 F2 |
+w: when the spent Bird of sad-ness sinks to
+G4 z4 | G4 (GF) (EF) | {F}E4 z2 c2 | c3 d (cB) (AB) |
+w: rest  And all* is* calm ex-cept the Lo-*vers*
+% p.105
+{B}A4 z4 | d4 =B2 G2 | c4 z2 A2 | G3 c (ed) (c=B) |
+w: breast  And all is calm ex-cept the Lo-*vers*
+c4 z4 | A4 (c_B) (AG) | c2 A2 z4 & x4 z2 f2 |
+w: breast  With fon-*der* fer-vour
+e2 c2 B2 d2 | c4 z4 | G4 (GF) (GB) |
+w: more ex-press-ive woe  The faith-*ful*
+A4 z2 F2 | G2 G2 {A/}(GF) (GA) | F4 z4 | (f2e2) d2 ^c2 |
+w: tones of tend-rest Pas-*sion* flow  The* faith-ful
+Hd6 =c2 | c2 A2 {A/}(GF) (GA) | F4 z4 & x4 A4 | F4 |]
+w: tones of tend-rest Pas-*sion* flow.
+%
+%%center -

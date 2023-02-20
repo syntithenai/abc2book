@@ -1,0 +1,32 @@
+X: 10971
+T: O say bonny Lass will you lye in a Barrack
+Q: "Andante"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.97-99
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+%%continueall
+[V:1]!segno!cA | G2 A2 c2 | (c3  f e2) | (d2 c2) d2 |
+w: O* say bon-ny Lass will you lye in a
+[V:2]       z2 | E2 F2 A2 |  G2 G2 c2  | (A2 G2) B2 |
+[V:1] (e2 c2) A2 | G2 A2 c2 | c2 (gf) (ed) | c3 d (ed) |
+w: Bar-rack and mar-ry a Sol-dier* and* car-ry his*
+[V:2] (c2 G2) F2 | E2 F2 A2 | G2 (ed) (cG) | E3 F (GF) |
+[V:1] (c2 A2) G2 | (f3 g) f2 | e2 d2 c2 | d2 d2 d2 |
+w: wal-let O say wou'd you leave baith your | Mi-ther and
+[V:2] (E2 F2) E2 | (A3 B) A2 | G2 F2 E2 | A2 A2 A2 |
+[V:1] (d2 e2) g2 | (c'3 b) a2 | (aHg) (gf) (ed) | c3 e (ed) | (c2 A2) G2 |
+w: Dad-dy and fol-low the Camp* with* your* | Sol-*dier* Lad-dy O
+[V:2] (B2 c2) e2 | (e3  g) f2 | (fHe) (AG) (FE) | E3 F (GF) | (E2 F2) E2 |
+[V:1] (f3 g f2) | e2 d2 c2 | d2 d2 d2 | (d2 e2) g2 | c'3 b a2 |
+w: say wou'd you leave baith your | Mi-ther and Dad-dy and fol-low the
+[V:2] (A3 B A2) | G2 F2 E2 | A2 A2 A2 | (B2 c2) e2 | e3  g f2 |
+[V:1] aHg (fe) (dc) | c3 d ed | d3 ][ g2 a2 b2 | c'2 b2 a2 |
+w: Camp* with* your* Sol-dier Lad-*dy
+[V:2] fHe (AG) (FE) | E3 F GF | E3 ][ z2 z4    | e4     f2 |
+[V:1] (agfed)c | c3 (de)d | c2 C2 "_Da Capo"|]
+[V:2] (fe) (AGFE) | E3 FGF | E2 C2 |]
+%
+%%center -

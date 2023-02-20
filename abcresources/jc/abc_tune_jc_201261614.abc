@@ -1,0 +1,15 @@
+X:124
+T:Chess
+C:Colin Hume, 2004
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=112
+%%MIDI chordname 7sus 0 5 7 10
+K:D
+P:A
+|: "D"F2 "/"F3/ E/4D/4 | "Em7"E2 "/"E2 | "A7sus"G2 "A7"G3/ F/4E/4 | "D"F2 "/"F2 |\
+"G"B2 "/"B3/ A/4G/4 | "F#m"A2 "/"A2 | "Em"Bc "/"dB | "A7"c2 "/"c2 :|
+P:B
+|: "D"f2 "/"f3/ e/4d/4 | "F#m/C#"f2 "/"f3/ e/4f/4 | "G/B"gf "/"ed | "A7"b2 "/"a2 |\
+"Bm"f2 "/"f3/ e/4d/4 | "A"e2 "/"e3/ d/4c/4 | "G"Bc "/"dB | "A7"AG "/"FE :|

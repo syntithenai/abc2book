@@ -1,0 +1,26 @@
+X: 1
+T: Sonate IV
+T: (TWV 41:C 2)
+M:C
+L:1/8
+K: C
+V:1
+"Cantabile"g | c'g e(d/c/) dG c2-|cd/e/ ff fe z a | (a/^f/)g z c' (c'/a/)b z (c'/d'//e'//) |
+d'^f g (b/c'//d'//) c'e f(a/b//c'//) | b/a/ g2 a/^f/ g>a "+"a>g | g2 z d' g'd' ba/g/ | c'c z _b ag/f/ gf/e/ |
+fF z a d'a ^f(e/d/) | gG z "="f e(d/c/) fe | "+"ed z g a f2 (e/d/) | b g2 (f/e/) (c'/b/) c'2 f' |
+e'd'/c'/ d'c'/b/ c'c z (f/g//a//) | gB c(e/f//g//) fA B(d/e//f//) | e/d/c2 d/B/ c>d "+"d>c | c2 z2 z4 |]
+V:2
+L:1/4
+K:C bass
+z/ | c c' b e | f g c c' | b a g c |
+w: * * ~6 ~6    | ~6 ~7 ~5 ~6  | ~7~6 ~7~6# ~5 ~5~6
+w: * * * * | ~5 * ~4~3 * | * * ~4~3 *
+B e A d | G c B/G/d/D/ | G b/a/ g "="f | e c f _b |
+w: ~7 ~7 ~7 ~7 | * ~3~4# ~6 * # * | * ~6 ~6# * ~4 | ~6 * * ~6
+w: * * * # | * ~~2 * * * * | * * * * 2 | * * * *
+a f d c' | b g c' b/c'/ | g e f d | g e a A/B/ |
+w:~6 * * ~4# | ~6 ~7 * ~6 * | ~6~5 ~6 * * | * * * *  ~6
+w: * * * * | * * * ~5 * | ~4~3 * * * | * * * * ~5
+c g e f | e a d g | c f e/c/g/G/ | c z z2 |]
+w: * * ~6 ~5~6 | ~7 ~7 ~7 ~7 | * ~3~4 ~6
+w: * * * * | * * * * | * .~2

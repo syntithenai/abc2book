@@ -1,0 +1,20 @@
+X: 55
+T: t Smidje  (32-bar version)
+O: medieval Flemish
+F: http://www.youtube.com/watch?v=sZS8sCdx-Xg
+F: http://www.youtube.com/watch?v=hz5RtnyBEEU
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dm
+Q: 1/4=172
+%%MIDI program 65 % Alto Sax
+%%MIDI chordprog 24 % Acoustic Guitar
+%%MIDI bassprog 26 % Electric Guitar (jazz)
+   d2e            |\
+   "Dm"f2f "C"e2c | "Dm"d2A d2e | "Dm"f2f "C"e2c | "Dm"d3 d2e  |\
+   "Dm"f2f "C"e2c | "Dm"d2A d2e | "Dm"f2f "C"e2c | "Dm"d3      :|
+|: d2e            |\
+   "Bb"f6         | "C"g3- g2g  | "F"a3 a3       | "Dm"a2a a2g |\
+   "Bb"f3 f2a     | "C"g3- g2e  | "A7"f3 e3      | "Dm"d3      :|

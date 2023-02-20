@@ -1,0 +1,23 @@
+X: 1311
+T: Lady Harriot Hope.   a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.1 p.31 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+A |\
+FAcf {d2}c2 (~BA) | Tf2 (a/g/f) gGGA |\
+FAcf {d}c2 (TBA) | B>Gc>A F/F/F F :| c |\
+fcfg (f/g/a) Tgf | e>cg>c a>cg>c |
+fcfg (f/g/a) Tg>f | cfeg f/f/f Tf>g ||\
+fcfg (f/g/a) Tgf | (Tg>fg).a baga |\
+fd~cB {B}A2 f>d | c>AB>G F/F/F F |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | f2f2 f2f2 | f2f2 g2g2 | f2f2 f2f2 | b2c'2 f2f :| z | f2f2 f2f2 | c2e2 f2e2 |
+f2f2 f2f2 | c'2c2 f2f2 || f2f2 f2f2 | c2c2 e2c2 | f2f2 f2b2 | c'2c2 f2f |]

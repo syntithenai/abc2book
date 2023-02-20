@@ -1,0 +1,47 @@
+
+X: 1
+T: The Kerry Dancing
+O: Trad
+R: jig, air
+Z: John Chambers <jc@trillian.mit.edu>
+L: 1/8
+M: 6/8
+K: F
+%%staffsep 30
+[| "F"F2G A>GF | "Bb"B2d "F"c2A | "Dm"f2A A>GF | "G(m)"G2D "C"E3 |
+w: Oh the days of the Ker-ry danc-ing, Oh the ring of the pi-per's tune,
+| "F"F2G A>GF | "Bb"B2d "F"c2A | "Dm"f2A A>GF | "C7"G2F "F"F3 |
+w: Oh for one of those hours of glad-ness, Gone a-las, like our youth, too soon.
+| "C"c2d c2d | "F"c2d c2d | "C"c2d e>dc | "D7"d2A "G7"=B3 |
+w: Boys and girls be-gan to gath-er In the glen of a sum-mer night,
+| "C"c2d c2d | "F"c2d "(Fm)"c2d | "C"c2d ege | "G7"d2c "C"c3 |
+w: And the Ker-ry pi-pers tun-ing Made us dance with a wild de-light.
+| "Bb"f2d _B>cd | "Am"e2c A>Bc | "Gm"d2D B2A | "C7"{A}G3- G3 |
+w: Oh, to think of it, oh, to dream of it Fill my heard with tears.
+| "F"F2G A>GF | "Bb"B2d "F"c2A | "Dm"f2A A>GF | "G(m)"G2D "C"E3 |
+w: Oh the days of the Ker-ry danc-ing, Oh the ring of the pi-per's tune,
+| "F"F2G A>GF | "Bb"B2d "F"c2A |1 "Dm"f2A A>GF | "C7"G2F "F"F3 |]
+w: Oh the days of the Ker-ry danc-ing, Gone a-las, with our youth, too soon.
+:|2 "F"f2A "Dm"A>Bc | "G7"d3"C7"e3 | "F"{egf}Hf6 |] y6 y6 y6 y6
+w: Gone a-las, with our youth, too soon.
+
+%%sep 5 5 1
+
+
+X: 1
+T: The Kerry Dancing
+O: Trad
+R: jig, air
+Z: John Chambers <jc@trillian.mit.edu>
+L: 1/8
+M: 6/8
+K: G
+%%staffsep 35
+[|"G"G2A B>AG | "C"c2e "G"d2B | "Em"g2B B>AG | "A(m)"A2E "D"F3 \
+| "G"G2A B>AG | "C"c2e "G"d2B | "Em"g2B B>AG | "D7"A2G "G"G3 |
+| "D"d2e d2e | "G"d2e d2e | "D"d2e f>ed | "E7"e2B "A7"^c3 \
+| "D"d2e d2e | "G"d2e "(Gm)"d2e | "D"d2e faf | "A7"e2d "D"d3 |
+| "C"g2e =c>de | "Bm"f2d B>cd | "Am"e2E c2B | "D7"{B}A3- A3 \
+| "G"G2A B>AG | "C"c2e "G"d2B | "Em"g2B B>AG | "A(m)"A2E "D"F3 |
+| "G"G2A B>AG | "C"c2e "G"d2B |1 "Em"g2B B>AG | "D7"A2G "G"G3 \
+:|2 "G"g2B "Em"B>cd | "A7"e3"D7"f3 | "G"{fag}Hg6 |]

@@ -1,0 +1,32 @@
+X: 20972
+T: BUNKER HILL SETT (tune 5)
+C:
+%R: jig
+N: The page has 2/4 ad the meter, but it's obviously 6/8.
+B: Elias Howe "The Musician's Companion" 1843 p.97 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+c |\
+f2f f2f | fef c2c | dBd cAc | BAG F2C |\
+f2f f2f | fef c2c | dBd cAc | BGE F2 H|]
+cdc FAc | cdc CFA | cdc fed | cdc AFC |\
+cdc A2F | cdc A2F | dcB AGF | (G3 "^D.C."F2) |]
+A2A A2A | cBA G2G | BAG BAG | FGA C2C |\
+A2A A2A | cBA G2G | BAG BAG | F2[AF] "^D.C."F2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% swing half round in the centre,
+%% swing six round that couple,
+%% balance four with partners,
+%% ladies chain,
+%% promenade four
+%% next two, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

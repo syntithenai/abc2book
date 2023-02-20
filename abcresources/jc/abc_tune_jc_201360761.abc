@@ -1,0 +1,67 @@
+% abc2ps format for US letter pages:
+%%scale         0.70
+%%pageheight    28cm
+%%staffwidth    18.6cm
+%%topmargin     0.1cm
+%%botmargin     0.1cm
+%%leftmargin    1.9cm
+%%topspace      0.0cm
+%%titlespace    0.0cm
+%%subtitlespace 0.0cm
+%%composerspace 0.0cm
+%%musicspace    0.2cm
+%%partsspace    0.2cm
+%%staffsep      45
+%%lineskipfac   1.1
+%%maxshrink     1.0
+%%titlefont     Helvetica-Bold 16
+%%subtitlefont  Helvetica-Bold 14
+%%partsfont     Helvetica-Bold 12
+%%wordsfont     Times-Roman    15
+%%vocalfont     Times-Bold     16
+%%gchordfont    Helvetica-Bold 18
+X:1
+T:Vacant Chair
+C:Melody: George F Root (1820-1895);Words: Henry Washburn
+M:C
+L:1/8
+Q:1/8=120
+K:D
+|"@VERSES"[DA,D,][EA,D,]|"D"[F4A,4D,4] [FA,D,][DA,D,] [EA,D,][FA,D,]|[EA,D,][DA,D,]-[D4A,4D,4] [DA,D,][DA,D,]
+w:1.We shall meet, but _we shall miss him. _There will
+w:2.At our fire-side, _sad and lone-ly, _Of-ten
+w:3.True, they tell us _wreaths of glo-ry _ev-er
+|"G"[D4B,4G,4]-[DB,G,][EB,G,] [DB,G,][B,G,]|"D"[A,4F,4] z2 [A,F,][A,F,]
+w:be one _va-cant chair; We shall
+w:will the _bo-som swell, At re-
+w:more will _deck his brow, But this
+|[D4A,4F,4]-[DA,F,][A,F,] [DA,D,][EA,D,]|[FA,D,][FA,D,]-[F4A,4D,4] [DA,D,][DA,D,]
+w:lin-_ger to ca-ress him _while we
+w:mem-_brance of the sto-ry. _How our
+w:soothes _the an-guish on-ly _sweep-ing
+|"Em7"[E4B,4D,4]-[EB,D,][EB,D,] [FB,D,][FB,D,]|"A7"[E4A,4E,4] z2 [DA,E,][FA,D,]
+w:breathe _our ev-'ning pray'r; When a
+w:no-_ble Wil-lie fell; How he
+w:o'er _our heart-strings now. Sleep to-
+|"D"[F4A,4D,4]-[FA,D,][DA,D,] [EA,D,][FA,D,]|[EA,D,][DA,D,]-[D4A,4D,4] [DA,D,][DA,D,]
+w:year _a-go we gath-ered _joy was
+w:strove _to bear our ban-ner _through the
+w:day, _oh ear-ly fal-len, _In thy
+|"G"[D4B,4G,4]-[DB,G,][EB,G,] [DB,G,][B,G,]|"D"[A,4F,4] z2 [A,F,][A,F,]
+w:in _his mild blue eyes, but a
+w:thick-_est of the fight, and up-
+w:green _and nar-row bed, Dir-ges
+|[D4A,4F,4]-[DA,F,][A,F,] [DA,F,][EA,F,]|[FA,D,][FA,D,]-[F4A,4D,4] [DA,D,][EA,D,]
+w:gold-_en chord is sev-ered _and our
+w:hold _our coun-try's hon-or, _in the
+w:from _the pine and cy-press, _min-gle
+|[F4A,4D,4]-[FA,D,]D "A7"[EA,E,][EA,E,]|"D"[D4A,4F,4] z2
+w:hopes _in ru-in lie.
+w:strength _of man-hood's might.
+w:with _the tears we shed.
+|"@CHORUS"[EA,D,][FA,D,]|"G"[G2B,2D,2] [G4B,4D,4] [DB,G,][EB,G,]|"D"[F2A,2D,2] [F4A,4D,4] [FA,D,][GA,D,]|[A4A,4D,4][AA,D,][FA,D,] [EA,D,][DA,D,]
+w:We shall meet, but we shall miss him. There will be _one va-cant
+|"A"[E4A,4E,4] z2 [FA,E,][GA,E,]|"D"[A4A,4D,4]-[AA,D,][FA,D,] [EA,D,][DA,D,]
+w:chair. We shall lin-_ger to ca-
+|"G"[B,2G,2] [D4B,4G,4] [DB,G,][EB,G,]|"D"[F4A,4D,4]-[FA,D,][DA,D,] "A"[EA,E,][EA,E,]|"D"[D4A,4F,4]-[D2A,2F,2]|
+w:ress him, when we breathe _our ev-'ning pray'r.

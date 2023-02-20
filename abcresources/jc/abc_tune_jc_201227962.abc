@@ -1,0 +1,20 @@
+X: 110203
+T: LADY ANN HOPE
+Q: "Strathspey."
+R:  Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.1 p.10 s.2 #3
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: G
+uD |\
+G<G vG>uB vA>uG E2 | c<c vc>ue vd>uc B<g |\
+B<B vB>uG vc>vAuB>uG | vE>uA G/F/E/D/ {D}G2-G :|\
+ud |\
+g2 d>g B>g d>f | g2 b>g e2 e>f |
+(3gab (3agf (3efg (3dcB | (3cde (3def (3ged (3cBA |\
+G<g d>g B>g d>f | g<g b>g e2 (e>f) |\
+(3gab (3agf (3gfe (3dcB | (3cde (3def g2 (g<b) |]

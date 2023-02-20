@@ -1,0 +1,16 @@
+X: 171	% 46
+T: Blacksmiths Quadrille
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.17 #1
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The C notes in the last few bars should probably be natural, too. The 2nd strain is in G major.
+M: 6/8
+L: 1/8
+K: D
+V: 1 name="46"
+|: "^Lively"\
+[AF][AF][AF] [BG][BG][BG] | [AF][AF][AF] f2(f/g/) | [ac][ac][ac] [ec][ec][ec] | [ac][ac][ac] [f3d3] |\
+[AF][AF][AF] [BG][BG][BG] | [AF][AF][AF] f(fg) | [ac][ac][ac] e(fe) | [d3F3] [dF](ef) :|
+|:\
+g3- g(fe) | d3- d(=cB) | (AG=c) (ABc) | f2e d2(e/f/) |\
+g3- g(fe) | d3- d(cB) | ABc def |1 g3-g(ef) :|2 Mg3 Mg3 |]

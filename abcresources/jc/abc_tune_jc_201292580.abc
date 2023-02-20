@@ -1,0 +1,34 @@
+X:1
+T: Jenny Pluck Pears
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:Am
+I:speed 112
+%W:         A
+% voice 1 (1 lines, 20 notes)
+K:Am
+M:6/8
+L:1/16
+A4 A2 B3 c d2 c3 B A2 G4 E2 A4 A2 B3 c d2 c3 B A2 G4 E2 |
+%W:
+% voice 1 (1 lines, 17 notes)
+e4 e2 d4 B2 c3 B A2 G4 E2 ^F3 G A2 G3 F G2 A6 A6 |
+%W:
+% voice 1 (1 lines, 20 notes)
+A4 A2 B3 c d2 c3 B A2 G4 E2 A4 A2 B3 c d2 c3 B A2 G4 E2 |
+%W:
+% voice 1 (1 lines, 17 notes)
+e4 e2 d4 B2 c3 B A2 G4 E2 ^F3 G A2 G3 F G2 A6 A6 |
+%W:         B
+% voice 1 (1 lines, 10 notes)
+M:3/4
+L:1/16
+A4 e4 d4 |c8 B4 |A4 e4 d4 |c8 B4 |
+%W:
+% voice 1 (1 lines, 10 notes)
+A4 e4 d4 |c6 B2 A4 |G6 ^F2 G4 |A12 ||

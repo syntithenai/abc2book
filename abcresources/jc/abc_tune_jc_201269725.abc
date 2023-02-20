@@ -1,0 +1,15 @@
+X: 45
+T: Down by the River Side   #2
+R: air, waltz
+%S: s:2 b:18(10+8)
+B: "O'Neill's 1850 #45"
+Q: "Slow"
+O: F.O'Neill
+Z: Norbert Paap, norbertp@bdu.uva.nl
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+M: 3/4
+L: 1/4
+K: G
+"^A"[|]d/c/ | BGG | FGA | BGB | c2(B/c/) | dgg | de=f |[1 AFA | c2 :|[2 AGG | "^fine"G2 |]
+"^B"[| B/c/ | dgf | gag | =fde | =fzd | gfd | cdc | dBG | "^->A2"F2 |]

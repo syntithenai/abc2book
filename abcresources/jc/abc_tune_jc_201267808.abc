@@ -1,0 +1,80 @@
+
+X: 1
+T: De'il take the Wars    [C]
+P: Longways for as many as will
+O: John Walsh, London ca.1740
+%R: reel
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.113 #164 (226)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.219 "U 2"
+S: https://archive.org/details/dancingmasterord00play/page/218 [2018-12-7]
+N: DMDfD has "a Scots air" and "same name" to the right of the title. The two tunes differ slightly in bar 15.
+N: The dance seems to have the 1st cu. lead thro' the 1st cu. in the last phrase.
+M: C|
+L: 1/8
+Q: 1/4=100
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"^A"[|\
+"C"c2 (c/d/)e "G"d3 c | "C"cG "F"(A/B/)c "C"G2 E2 |\
+"C"(EG) (Gc) (cd) (de) | "F"(fe)(dc) "G7"d4 ||\
+"C"c2 (c/d/)e "G"d3c | "C"cG "F"(A/B/)c "C"G2 E2 |
+"C"(EG) (Gc) (cd) (de) | "G7"(g/f/)e (d>c) "C"c4 "^B"|[|\
+"C"e2 (e/f/)g ec ec | "G"B2 (B/c/)d dB dB |\
+"Am"e2 ec "G"d2 dB | "F"c2 (d/c/)(B/A/) "G7"A3 G |
+"C"E2 G2 (G/A/)G cG | "C"EG (G/A/)G G3 G |\
+"Dm"A2 B>c d3 c | "F(Dm)"d>e dc "G7"B3 A "^I"|\
+"C"G2 (GE) G2 (cd) | "G7"(fe) (d>c) "C"c4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. cast off below the 2d Cu. and lead thro' the 3d Cu. and cast up
+%% into the 2d Cu. Place, the 2d Cu. being in the 1st Cu. Place, do the same. .|
+%% The 1st Cu. cross over below the 2d Cu. and go the Figure of 8, then
+%% lead thro' the 3d Cu. and cast up into the 2d Cu. Place, then lead thro' the
+%% 1st Cu. and cast off into the 2d Cu. Place, and turn your Partner. :|
+%% [CCDM1]
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2
+T: De'il take the Wars   [D]
+P: Longways for as many as will
+O: John Walsh, London ca.1740
+%R: reel
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.113 #164 (226)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.219 "U 2"
+S: https://archive.org/details/dancingmasterord00play/page/218 [2018-12-7]
+N: DMDfD has "a Scots air" and "same name" to the right of the title. The two tunes differ slightly in bar 15.
+N: The dance seems to have the 1st cu. lead thro' the 1st cu. in the last phrase.
+M: C|
+L: 1/8
+Q: 1/4=100
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"^A"[|\
+"D"d2 (d/e/)f "A"e3 d | "D"dA "G"(B/c/)d "D"A2 F2 |\
+"D"(FA) (Ad) (de) (ef) | "G"(gf)(ed) "A7"e4 ||\
+"D"d2 (d/e/)f "A"e3d | "D"dA "G"(B/c/)d "D"A2 F2 |
+"D"(FA) (Ad) (de) (ef) | "A7"(a/g/)f (e>d) "D"d4 "^B"|[|\
+"D"f2 (f/g/)a fd fd | "A"c2 (c/d/)e ec ec |\
+"Bm"f2 fd "A"e2 ec | "G"d2 (e/d/)(c/B/) "A7"B3 A |
+"D"F2 A2 (A/B/)A dA | "D"FA (A/B/)A A3 A |\
+"Em"B2 c>d e3 d | "G"e>f ed "A7"c3 B "^I"|\
+"D"A2 (AF) A2 (de) | "A7"(gf) (e>d) "D"d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. cast off below the 2d Cu. and lead thro' the 3d Cu. and cast up
+%% into the 2d Cu. Place, the 2d Cu. being in the 1st Cu. Place, do the same. .|
+%% The 1st Cu. cross over below the 2d Cu. and go the Figure of 8, then
+%% lead thro' the 3d Cu. and cast up into the 2d Cu. Place, then lead thro' the
+%% 1st Cu. and cast off into the 2d Cu. Place, and turn your Partner. :|
+%% [CCDM1]
+%%endtext
+

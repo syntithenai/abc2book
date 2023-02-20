@@ -1,0 +1,34 @@
+X: 1
+T: SUZUKI polka
+T: Tilegnet Karl-Erik Holter
+C: Erling Maribo
+S: handwritten MS of unknown origin
+N: The first 4 bars are marked "8va - - -"
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+G2 \
+|: "C"EF^FG AGFG | e2cc c2c2 \
+| EF^FG A3E | "G7"G2FF F2F2 \
+| D^DEF GFEF | c2BB B2B2 \
+| DEFG B3F | "C"A2GG G2G2 |
+| "C"EF^FG AGFG | e2cc c2c2 \
+| "A7"A3^c egfe | "Dm"f2d2 A4 \
+| "F"A3B cBcd | "C"e2c2 "A7"A3G \
+| "D7"^FAce "G7"=FGBd | "C"c2c2 c2z2 :|
+K: G
+|: "D7"dcAF DFAc | "G"((3BcB) GB dBGB \
+| "D7"((3ABA) FA cAFA |1,3 "G7"GFGA B^ABc \
+:|2,4 "G7"G2G2 G2"d.C."z2 :|
+P: Trio
+K: F
+|: C2 \
+| "F"F4- FEFG | "F7"A4- AGFE \
+| "Bb"G3F EGFD | "F"((3DED) C2 C2D_D \
+| "C7"C2G2 G2D_D | "F"C2[A2F2] [A4F4] \
+| "G7"G^FGA =BGAB | "C7"[c2B2E2]"/B"[c2B2E2] "/A"[c2B2E2]"/G"C2 |
+| "F"F4- FEFG | "F7"A4- AGFE \
+| "Bb"G3F EGFD | "F"((3DED) C2 C3C \
+| "Bb"D^CDE FEFG | "F"A2F2 "D7"D3C \
+| "G7"=B,DFA "C7"GFEG | "F"F2F2F2 "d.C. al fine"y:|

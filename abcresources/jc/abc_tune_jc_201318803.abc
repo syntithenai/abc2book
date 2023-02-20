@@ -1,0 +1,16 @@
+X: 1
+T: Odessa Bulgar #1   [low]
+C: Abe Schwartz 1922
+O: klezmer
+N: as played by Mimi Rabson and David Garris, without ornamentation
+R: bulgar
+S: Fiddle Hell Online 2021-5-26
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Ddor
+"^A"[|] A,DF || "Dm"A2^G2 A2B2 | c2B2 A^GF2 | ^G/B/A AA AGFG | "A7"ABA^G FEFG || "Dm"A2^G2 A2B2 |
+c2B2 A^GF2 | "A7"EF A/^G/F G2A2 | "Dm"D3A A/^G/F "^->"F2!coda! | "Am"EDEF ^GA F/E/D | "Dm"D3F/E/ [1 D :|2 D2z2 ||
+"=B"|: Dddd dddd | "E7"d>c Bd "Am"cBAc | "E7"BA^GB "Am"AGF2 || "A7"EF A/^G/F G2A2 | "Dm"D3A A/^G/F F2 |
+"A7"EDEF ^GA F/E/D | "Dm"D3F/E/ D2z2 :| "^C"|: "Dm"DD2A A/^G/F F2 | "A7"EDEF ^GA F/E/D | "Dm"DD2A A/^G/F F2 |
+"A7"EDEF [1 "Dm"D2A,2 :| [2 "Dm"D"^d.C."y |] y!coda!| "A7"TA8- | A/A/^G/A/ +B/=B/c/^c/ | "Dm"d2z2 "A7"A2z2 | "Dm"D8 |]

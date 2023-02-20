@@ -1,0 +1,35 @@
+X: 11
+T: a Case Apart
+C: Muriel Johnstone
+B: Roy Goldring "14 Social Dances"
+P: Tune for "My Jo"
+R: strathspey
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Changed typo g note to a in bar 9.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A,2 |\
+"D"D2 FD "G"B,>D "D/F#"A,<D | "Em"C>D EF "A7"G2 FE |\
+"D"D2 FD "G"B,>D "D/F#"A,B | "D"A>B dF "D7/F#"A2 GF |
+"Em"G>F "A7/C#"G<e "D"F>E "Bm"F<d | "Em"E>F G/F/E/D/ "A7"C>D E>F |\
+"D"A,2 F<D "G"B,>D G<B | "A7"A>B d<c "D"d2- d ||
+de |\
+"D"f<a "A7"e<f "D/F#"d2 Ad | "Em"c>d ef "A7"g2 fe |\
+"Bm"d>c "G"B<d "D/F#"A>G "D"F<A | "Em"G<B, "E7"F>D "A7"E3 A, |
+"D"D2 A,F "G"B,>D G<B | "A7"A>B d<c "Bm"d2 de |\
+"D"f<a "A"e<f "Bm"d<f "G" B<d | "A7"A>B d<c "D"d2- d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+[d2D2] [a2f2] [g2G2] [f2F2] | [e2E2] [b2g2] [A2A,2] [c'2a2g2] |\
+[d2D2] [a2f2] [g2G2] [f2F2] | D2 [d'2a2f2] F2 [d'2=c'2f2] |
+[e2E2] [c2C2] [d2D2] [B2B,2] | [G2G,2] [b2g2e2] [A2A,2] [c'2a2g2] |\
+D2 [a2f2] [G2G,2] [b2g2d2] | [A2A,2] [c'2a2g2] D2 [f'd'a] ||
+z2 |\
+[d'2d2] [a2A2] [f2F2] [f'2d'2a2] | [e2E2] [b2g2e2] [A2A,2] [c'2a2g2] |\
+[b2B2] [g2G2] [f2F2] [d2D2] | [e2E2] [b2^g2e2] [A2A,2] [c'a=g]z |
+D2 [f2d2] [G2G,2] [b2g2] | [A2A,2] [e'2c'2a2g2] [B2B,2] [f'2d'2b2] |\
+[d'2d2] [a2A2] [b2B2] [g2G2] | A2 [e'2c'2a2g2] D2 [f'd'a] :|

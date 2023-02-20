@@ -1,0 +1,14 @@
+X: 1458
+T: the Lightning Flash
+R: reel
+%S: s:3 b:16(5+5+6)
+O: McFadden
+B: O'Neill's 1850 #1458
+Z: Bob Safranek, rjs@gsp.org
+Z: Ornament (~) is a turn.
+M: C|
+L: 1/8
+K: G
+"^A"[|] (dc) | BG{A}GB AFDE | FEFG Adgd | BG{A}GB AGFA | ((3Bcd) cA G2 || dc | BG{A}GB AFDE |
+| FEFG ((3ABc) de | ~f2fd ecAc | BGAF G2 "^B"|[| (Bc) | dgga bgaf | dcde fdcA |
+| dgga bgag | fdcA G2 || (Bc) | dgga bgaf | dcde fefg | abag fgag | fdcA G2 |]

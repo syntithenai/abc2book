@@ -1,0 +1,19 @@
+X: 10032
+T: DUKE OF PERTH'S REEL
+R: reel, march
+B: "Edinburgh Repository of Music" v.1 p.3 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: Except for the articulation, bars 5-8 and 9-12 are identical.
+M: C
+L: 1/8
+K: G
+B |\
+(G/A/B/c/) dB gBdB | gBdB a(AA.B) |\
+(G/A/B/c/ dB) gBdB | c>ATd>c BGG :|\
+|: f |\
+Tg>age abaf | g(ag)e beef |
+Tg>age abaf | gdec BGGf |\
+(Tg>ag).e abaf (gag).e beef |\
+Tg>age abaf | gdec BGG |]

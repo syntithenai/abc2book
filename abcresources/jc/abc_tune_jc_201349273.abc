@@ -1,0 +1,28 @@
+X: 201
+T:Vidinsko Horo
+O:Bulgaria
+S:Yves Moreau
+M:2/4
+L:1/8
+Q: 1/4=240
+P:AABBCDE
+K:Gm
+P:A
+%%MIDI gchord czzz
+|:  "c" c2 BA   |"g" G^F GA |"c" A2 G^F  |"g" ^FD FG  |\
+    "c" G2 ^FD  |"g" CD  EG |"c" G2 ^FD  |"g"  CD EG  :|
+P:B
+|:  "c" G2 ^FD  |"g" CD EG  | "c"  G2 ^FD|"g" CD EG   |\
+    "c"  G2 ^FD |"g" CD EG  | "c"  G2 ^FD|"g" CD EG   :|
+P:C
+    "d" F2  DD  |"a" D2 A2  |"d" F2  DD  |"a"D2 A2    |\
+    "d" F2  DD  |"a" D2 A2  |"d" F2  DD  |"a"D2 A2    |
+P:D
+    "d"ADDD     |"a"DDDD    |"d" ^FDDD   |"a"DDDD     |\
+    "d"ADDD     |"a"DDDD    |"d" ^FDDD   |"a"DDDD     |
+    "g" C4-     |"bb"C4-    |"g" C4-     |"b" C4      |\
+    "g" C4-     |"bb"C4-    |"g" C4-     |"b" C4      |
+P:E
+    "c" CD E^F  |"g" AC ^FC |"c" ^FG2C   |"g"EC^FC    |\
+    "c" CD E^F  |"g" AC ^FC |"c" ^FG2C   |"g"EC^FC    |
+

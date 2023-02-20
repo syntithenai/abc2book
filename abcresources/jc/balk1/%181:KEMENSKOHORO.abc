@@ -1,0 +1,25 @@
+X: 181
+T: Kemensko Horo
+O: Bulgaria
+M: 4/4
+L: 1/8
+P:ABBCCDDEEEE
+K: Em
+%%MIDI drum dzdz 35 35
+%%MIDI program 22
+%%MIDI drumon
+Q:1/4=210
+P:A
+|:G,2 DC D2 DE|DCCD C2B,2|DCCB, A,2 B,C| B,2 B,A, B,2 B,2:|
+P:B
+%%MIDI drum dzdz 45 43
+|:CDCD CB, A,2| B,CB,C B,A, G,2|A,2 G,F, E,2 F,G,|A,4 A,4:|
+P:C
+K: Bm
+|:A,2 CDCB,CA,|EEED CB,CA,|EEDC CB,CA,|CB,B,A, A,4:|
+P:D
+Q:1/4=220
+%%MIDI drum dzdz 35 35
+|:G,2 A,B, B,2 B,G,|B,2 B,G, B,2 B,G,| A,2 ED C2 B,C|B,2 A,2 A,2 z2:|
+P:E
+|:A,2 ED C2 B,D|C2 B,2 A,2 z2:|

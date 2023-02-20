@@ -1,0 +1,27 @@
+X: 1352
+T: Flee over the Water
+%R: reel
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.35 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+af |\
+e2A2 (dc)BA | e2A2 (dc)BA |\
+G2B2-B2af | e2A2 (dc)BA |\
+a2A2 dcBA | E2A2-A2 :| c2 |\
+e2fg (ag)fe | (fe)dc (dc)BA |\
+G2B2-B2cd |
+e2fg agfe |\
+(fe)dc (dc)BA | E2A2-A2cd ||\
+e2fg (ag)fe | (fe)dc (dc)BA |\
+G2B2-B2cd | e2fg (ag)fe |\
+(fedc) a2E2 | E2A2-A2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | a4 a4 | a4 a4 | e4 e4 | a4 a4 | a4 a4 | e4 A2 :| z2 | a4 a4 a4 a4 |
+e4 e4 | a4 a4 | a4 a4 | e4 A4 || a4 a4 | a4 a4 | e4 e4 | a4 a4 | a4 a4 | d4 A2 |]
+

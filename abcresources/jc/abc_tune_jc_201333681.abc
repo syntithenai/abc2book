@@ -1,0 +1,29 @@
+X: 1
+T: Sally's Fancy
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (150)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/8
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+cBA ceB | cBA ^GBE | ABc B2A | B2^G E3 |\
+edc def | edc BdG | cde dcB | c2c c3 :|
+|:\
+GFE CGC | GFE CGC | ABc B2A | B2^G E3 |\
+cec BdB | cec BdB | ceA ^GEG | A2A A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The two 1st Men whole figure round their Partners then
+%% the 1st Man lead his Partner thro the 2d Cu. .| The two
+%% first We. figure round the Men and the 1st Wo. lead her
+%% Partner thro :| The 1st Man set to the 2d Wo. and turn
+%% single the 1st Wo. set to the 2d Man then 1st Cu. cast
+%% off .| The 1st Man takes his Partner by both Hands and
+%% draws her quite round the 3d Cu. and round the 2d Cu. :|
+%%endtext
+%%sep 1 8 500

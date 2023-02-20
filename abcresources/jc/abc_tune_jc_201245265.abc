@@ -1,0 +1,21 @@
+X: 1471
+T: After the Sun Goes Down   #2
+R: reel
+%S: s:2 b:14(7+7)
+B: O'Neill's 1850 #1471
+O: J.O'Neill
+Z: Bob Safranek, rjs@gsp.org
+N: Ornaments (~) are turns.
+M: C|
+L: 1/8
+K: G
+"^A"\
+|: G2(BG) DGBG | egfa gedB |\
+[1 G2(BG) DGBG | AcBA G(E~E2) :|\
+[2 ((3efg) ((3fga) gedB | AcBA GEE2 \
+"^B"\
+|] gfeg fedB | 
+|  gfga bede \
+|  gfeg fedB | AcBA G(E~E2) \
+|| gfeg feeg | gfga beeg \
+|  bgaf gedB | AcBA GEE2 |]

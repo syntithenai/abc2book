@@ -1,0 +1,15 @@
+X: 251
+T: Kriva Kruska
+O: Serbia
+F: http://www.youtube.com/watch?v=lJJmn1EFYIM
+M: 4/4
+L: 1/8
+K: Gm
+Q: 1/4=240
+%%MIDI program 23 Tango Accordian
+%%MIDI bassprog 24 Acoustic Bass
+%%MIDI chordprog 24 Acoustic Guitar (nylon)
+%%MIDI bassvol 60
+%%MIDI chordvol 32
+|:"F"F2 GA c2 B2|"Gm"BAGA B2 z2|BAGA B2z2|BAGA G2z2|
+ "F" G2 z2 A2 z2|"Gm"BAGA B2 z2|BAGA c2B2|BAGA G2z2:|

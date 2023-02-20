@@ -1,0 +1,1189 @@
+
+X: 1
+T: The Auld Fiddler
+M:C
+L:1/8
+C:Billy McGuire
+S:Arr G Blair
+Z: Steve Mansfield <Steve:lesession.co.uk> tradtunes 2001-04-17
+R:Reel
+K:A
+eg \
+| a2 ed cdBc | ABcd eaga | beee c'eee | d'ec'e befg |
+| a2 ed cdBc | ABcd eaga | beee _e=ede | ceBe A2 :|
+|: GA \
+| BEEE BEcE | dEeE dEcE | BEEE BEcE | dBGB A2 GA |
+| BEEE cEEE | dEeE dEcE | BEEE _E=EDE | CEB,E A,2 GA |
+| BEEE BEcE | dEeE dEcE | BEEE BEcE | dBGB A2 GA |
+| BEEE cEEE | dEeE fEgE |1 aeee _e=ede | ceBe A2 :|2 aeee _e=e_e=e | _e=efg a2 |]
+
+%%sep 1 1 500
+
+X: 2
+T: Babes in the Wood  #1
+R: reel, polka
+Z: 2009 John Chambers <jc:trillian.mit.edu> (2014: Mike Briggs' chords added)
+S: Printed MS of unknown origin
+M: 2/4
+L: 1/16
+K: A
+|:"A"A3c ecAc | "A"e2a2 "(D)"g2f2 | "A"e3c ecAc | "E7"B2d2 c2B2 \
+| "A"A3c ecAc | "A"e2a2 "(D)"g2f2 | "A"e3c a2c2 | "E7"B4 "A"A4 :|
+|:"E"E3G BGEG | "E7"B2d2 c2B2 | "A"A3c ecAc | "A"e2a2 "(D)"g2f2 \
+| "A"e3c "D"a3f | "A"e2ec "F#m"a3f | "A"e3c a2c2 | "E7"B4 "A"A4 :|
+
+%%sep 1 1 500
+
+X: 3
+T: Big Red
+T: the Philadelphia Reel
+N:Philippe says he named the tune after an old fiddle of his.
+M:C|
+L:1/8
+%Q:220
+C:Philippe Varlet
+R:Reel
+K:A
+A,B, | CF~F2 {d}BAFA | ceef ecAc | B/2B/2B fB {d}cBfB |  B/2B/2B fB {d}cBAE
+| FA{d}cA {d}BAFA | cAef ecAc | B/2B/2B fB {d}cAec | {d}BAGE F2 :||:
+AB | cf~f2 defa | ec{d}cB A3 B | ceef ecAB | cB{d}BA GBEB |
+cf~f2 defa | ec{d}cB A3 B | ceag fecA | {d}BAGE F2 :||
+
+%%sep 1 1 500
+
+X: 4
+T: Gillespie's Reel
+T: The Donegal Traveller
+T: The Drunken Tinker
+T: The Boreen Reel
+R:Reel
+D:Hugh Gillespie (a 78)
+D:Finbarr Dwyer
+Z:Adrian Scahill
+M:4/4
+L:1/8
+K:A
+A2EA CAEA | A3e GABG | (3ABA EA CABc | dfed ceBe |\
+A2ED CEB,E | A,2eA GABG | (3ABA EA cABc | dfed ceA2 ||\
+(3efe ^df ecAc | efec dcdB | eAA2 fAA2 | efed cAA2 |\
+(3efe ^df ecAc | efec dcBc | (3ded ce dcBA | Gfed ceBe |]
+
+%%sep 1 1 500
+
+X: 5
+T: Buck Moran's
+S:Paddy O'Sullivan (fiddle), north Kerry
+Z:Deirdre Sullivan & Paul de Grae <sullgrae:IOL.IE>
+R:reel
+M:4/4
+L:1/8
+K:A
+AF | EFAB cB ~B2 | cBAc BcAF | EFAB c2 cf | ecBc A2 AF |
+EFAB cB ~B2 | cBAc BcAF | EFAB c2 cf | ecBc A2 AB ||
+ceec d2 fe | ceec BAFA | ceec d2 fd | ecBc A3 B |
+c2 ec Ac e2 | (3ccc ec BcAB | cefg a2 af | ecAc ~B2 AF |]
+
+%%sep 1 1 500
+
+X: 6
+T: the Celtic Society's Quickstep
+Z:Jerome S. Colburn <jscolbur:prairienet.ORG> and Paul de Grae <sullgrae:IOL.IE>
+B:Kerr's 3rd, c.1885
+D:John Cunningham Fair Warning" (Green Linnet 1983)
+M:4/4
+K:AMix
+e2 \
+| A2 AA c2 BA | c2 e2 e2 a2 | A2 AA c2 BA | dcBA GABG \
+| A2 AA c2 BA | c2 e2 e2 g2 | B2 AB GABd | e2 A2 A2 :|
+|: e2 \
+| a2  e2 c2 BA | c2 e2 e2 ^g2 | a2 e2 c2 BA | g2 B2 B2 g2 \
+| a2  e2 c2 BA | c2 e2 e2  g2 | B2 AB GA Bd | e2 A2 A2 e2 |
+| a2  e2 c2 BA | c2 e2 e2 ^g2 | a2 e2 c2 BA | g2 B2 B2 g2 \
+| a2 ^gf g2 fe | f2 ed e2  dc | B2 AB GA Bd | e2 A2 A2 |]
+
+%%sep 1 1 500
+
+X: 7
+T: Cottage In the Grove, The
+D:Arty McGlynn & Nollaig Casey
+N:Mistakenly called "Lad O'Byrnes" on the CD
+Z:Nigel Gatherer irtrad-l 9000-08-27
+M:4/4
+L:1/8
+K: A
+A3 B AE (3EEE | GABd (3efg ed | e a2 f gfdB | BcBA BGEG | ABAG AE (3EEE |
+GABd (3efg ed | e a2 f gfed | BcBG A3 z::a3 b agef | gedc Bd G2 | (3efg fa gedB |
+BcBAz BG E2 | aaab agef | gedB G3 B | AAAc (3efg dg |1 edcB cAeg :|2 edcB cA A2 |]
+
+%%sep 1 1 500
+
+X: 8
+T: Twilight in Portroe
+T: the Dawn
+C: Sean Ryan
+R: reel
+D: De Dannan: Mist Covered Mountain.
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: "A"A,2CE "D"D2FD | "E7"E2GB "A"A3c | "D"d2fd "A"edcA \
+|1,3 "Bm"~B3c "E7"BAFE :|2,4 "E7"B2AB "A"cAA2 :|
+|: "A"c2ec fcec | "A"A2Ac "E7"BAFD | "A"E2EF "F#m"ABcA \
+|1,3 "Bm"defg "E7"aefe :|2,4 "D"df"E7"ed "A"cAA2 :|
+
+%%sep 1 1 500
+
+X: 9
+T: the Derry Reel
+O: Sharon Shannon?
+D: Sharon Shannon "Sharon Shannon"
+B: Portland Collection v.2 p.50
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+AB |\
+"A"c3B ABcA | "E7"B2cB AFEF | "A"ABce a2ge | "D"f{g}aec "E7"B2AB | "A"c3B ABcA |
+"E7"B2cB AFEF |1 "A"ABce fecA | "E7"BAGB "A"A2 :|2 "A"ABce fece | "E7"fefg "A"a2 ||
+|: ag |\
+"F#m"f3e ceag | "E"geBe geag | "F#m"f3e ceag | "E"gfeg "F#m"f2fg | "A"aecB ABcA |
+"E7"B2cB AFEF |1 "A"ABce fece | "E7"fefg "A"a2 :|2 "A"ABce fecA | "E7"BAGB "A"A2 |]
+
+%%sep 1 1 500
+
+X: 10
+T: the Derry Reel
+R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: Printed source of unknown origin from RJ practice
+M: C|
+L: 1/8
+K: A
+AB |\
+"A"c3B ABcA | "E"B2cB AFEF | "A"ABce a2ge | "D"(3fga ec "E"B2AB | "A"c3B ABcA |
+"E"B2cB AFEF |1 "A"ABce fecA | "E"BAGB "A"A2 :|2 "A"ABce fece | "E"fefg "A"a2 ||
+|: ag |\
+"F#m"f3e ceag | "E"geBe geag | "F#m"f3e ceag | "E"gfeg "F#m"f2fg | "A"aecB ABcA |
+"E"B2cB AFEF |1 "A"ABce fece | "E"fefg "A"a2 :|2 "A"ABce fecA | "E"BAGB "A"A2 |]
+
+%%sep 1 1 500
+
+X: 11
+T: Gillespie's Reel
+T: The Donegal Traveller
+T: The Drunken Tinker
+T: The Boreen Reel
+R:Reel
+D:Hugh Gillespie (a 78)
+D:Finbarr Dwyer
+Z:Adrian Scahill
+M:4/4
+L:1/8
+K:A
+A2EA CAEA | A3e GABG | (3ABA EA CABc | dfed ceBe |\
+A2ED CEB,E | A,2eA GABG | (3ABA EA cABc | dfed ceA2 ||\
+(3efe ^df ecAc | efec dcdB | eAA2 fAA2 | efed cAA2 |\
+(3efe ^df ecAc | efec dcBc | (3ded ce dcBA | Gfed ceBe |]
+
+%%sep 1 1 500
+
+X: 12
+T: Drowsy Maggie (Liz Carroll's 3-part version)
+S: Liz Carroll, A Friend Indeed B 4b
+R: reel
+M: C|
+L: 1/8
+K: EDor
+|: "Em"E2BE dEBE | E2BE "D"AFDF | "Em"E2BE dEBE | BABc "D"dAFD :|
+|| "D"d2fd "A7"c2ec | "D"defg afge | "D"d2fd "A7"c2ec | "G"BABc "D"dAFA |
+|  "D"d2fd "A7"c2ec | "D"defg afge | afge "A"fdec | "G"BABc "D"dAFD |]
+K:A
+|| dBfB dBfB | A2 eA fAeA | dBfB dBfB | defg aecf |
+|  dBfB dBfB | A2 eA fAeA | EGBe aece | d2 ce dAFD |]
+
+%%sep 1 1 500
+
+X: 13
+T: Gillespie's Reel
+T: The Donegal Traveller
+T: The Drunken Tinker
+T: The Boreen Reel
+R:Reel
+D:Hugh Gillespie (a 78)
+D:Finbarr Dwyer
+Z:Adrian Scahill
+M:4/4
+L:1/8
+K:A
+A2EA CAEA | A3e GABG | (3ABA EA CABc | dfed ceBe |\
+A2ED CEB,E | A,2eA GABG | (3ABA EA cABc | dfed ceA2 ||\
+(3efe ^df ecAc | efec dcdB | eAA2 fAA2 | efed cAA2 |\
+(3efe ^df ecAc | efec dcBc | (3ded ce dcBA | Gfed ceBe |]
+
+%%sep 1 1 500
+
+X: 14
+T: Geaghan's Fancy
+T: Eileen O'Callaghan's
+T: Paddy Canny's
+R:reel
+S:Buttons & Bows, 'Gracenotes'
+Z:Nigel Gatherer <gatherer:argonet.co.uk> irtrad-l  2000-05-09
+M:4/4
+L:1/8
+K:A
+|: A2 cA EAcB | ABce dBGB | A2 cA EAce | efge dBGB | A2 cA EAcB |
+| ABce dBGB | Ac c/c/c ecAc | efge dBGB :: eaag a2 ga | beee begf |
+| eaag a2 gf | efge dBGB | eaag a2 ga | b2 ba bagf | eaaa c'aag | efge dBGB :|
+
+%%sep 1 1 500
+
+X: 15
+T: Farewell to Cailroe
+B:Music from Ireland 4, Bulmer & Sharpley
+Z:Paul de Grae <sullgrae:IOL.IE> irtrad-l 2000-04-11
+S:Sean McGuire
+M:4/4
+L:1/8
+R:reel
+K:A
+EG|A2 EC DCDE|CA,CE A2 (3Bcd|e^def eAcA|BGAF GEFD|
+EFGE AGEc|(3ded ce d2 cd|efed BA ~A2|BEGB A2::E2|
+A2 ec dcdB|cABG AGED|B,CDB, EDEF|GEBG AGEG|
+A2 EA CAEA|FdBA GEFG|A2 ec dcdB|GABG A2:|
+
+%%sep 1 1 500
+
+X: 16
+T: Fly-Fishing Reel, The
+M:4/4
+L:1/8
+C:Jackie Daly
+D:Many's the Wild Night
+Z:Naka Ishii
+S:Naka J Ishii <nishii:LIBRARY.UMASS.EDU> irtrad-l 1996-11-15
+K:A
+   AGEC D2CD | EA,A,B, CEEC | DCDE D2CD | EAAc BecB |
+   AGEC D2CD | EA,A,B, CEEC | DCDE D2CD | EAAG A3 B :|
+|: c2ec Acec | =Gcec   dFF2 | DEFA dAFA | GBef edcB |
+   c2ec Acec | =Gcec   dFF2 | DEFA dAFA | GBAG A3B :|
+
+%%sep 1 1 500
+
+X: 17
+T: Gan ainm
+R:Reel
+M:4/4
+L:1/8
+K:A
+cEE2 c2Bc|AFFE FAEA|F3E FGAB|cBAB cffe|\
+cEE2 c2Bc|AFFE FAEA|F3E FGAB|cABG A4:||\
+aefe c2Bc|AFEF ABce|f2ba fbaf|ecAB cAce|\
+aefe c2Bc|AFEF ABce|f2ba fbaf|ecBc A4:||
+
+%%sep 1 1 500
+
+X: 18
+T: Gan Ainm
+R:reel
+S: Nigel Gatherer <gatherer:argonet.co.uk> scots-l 2002-11-4
+Z:Larry Sanger from a tape of a tape of a tape...of John Doherty.
+Z:A few variations are not notated here.  John used lots of double
+Z:in appropriate places in measures 1 and 5 of the first part, as
+Z:you can easily imagine if you've heard John Doherty do this.
+M:4/4
+K:A
+E2|:A2cA EACE|A2ce aeca|fddf edcd|Bcdf efga|
+A/A/A cA EACE|A2ce aeca|fddf edce|1 dBGB A2E2:|2 dBGB A2fg||
+|:aAgA fAec|defg aeca|fddf ecce|dBBc defg|
+aAgA fAec|defg aeca|fddf edce|1 dBGB A2fg:|2 dBGB A2E2||
+
+%%sep 1 1 500
+
+X: 19
+T: Gan Ainm
+T: Colonel Rodney?
+R:reel
+S: Nigel Gatherer <gatherer:argonet.co.uk> scots-l 2002-11-4
+Z:Larry Sanger from a tape of a tape of a tape...of John Doherty.
+Z:In this performance John varied the tune remarkably little, but
+Z:played just 2.5 times.
+M:4/4
+K:A
+d|:cA A/A/A eAcd|eaga fedc|dB B/B/B fBde|fefg afed|
+cA A/A/A eAcd|eaga fedc|defg abaf|1 e/f/g ae cAAd:|2 e/f/g ae cAAf||
+|:e/f/e ce Aece|aAgA fe^de|f/g/f ^df Bfdf|bBaB gBf^d|
+e/f/e ce Aece|aAgA fAec|dcde fgaf|1 e/f/g ae cAAf:|2 e/f/g ae cAAd||
+
+%%sep 1 1 500
+
+X: 20
+T: Geaghan's Fancy
+T: Eileen O'Callaghan's
+T: Paddy Canny's
+R:reel
+S:Buttons & Bows, 'Gracenotes'
+Z:Nigel Gatherer <gatherer:argonet.co.uk> irtrad-l  2000-05-09
+M:4/4
+L:1/8
+K:A
+|: A2 cA EAcB | ABce dBGB | A2 cA EAce | efge dBGB | A2 cA EAcB |
+| ABce dBGB | Ac c/c/c ecAc | efge dBGB :: eaag a2 ga | beee begf |
+| eaag a2 gf | efge dBGB | eaag a2 ga | b2 ba bagf | eaaa c'aag | efge dBGB :|
+
+%%sep 1 1 500
+
+X: 21
+T: Gillespie's Reel
+T: The Donegal Traveller
+T: The Drunken Tinker
+T: The Boreen Reel
+R:Reel
+D:Hugh Gillespie (a 78)
+D:Finbarr Dwyer
+Z:Adrian Scahill
+M:4/4
+L:1/8
+K:A
+A2EA CAEA | A3e GABG | (3ABA EA CABc | dfed ceBe |\
+A2ED CEB,E | A,2eA GABG | (3ABA EA cABc | dfed ceA2 ||\
+(3efe ^df ecAc | efec dcdB | eAA2 fAA2 | efed cAA2 |\
+(3efe ^df ecAc | efec dcBc | (3ded ce dcBA | Gfed ceBe |]
+
+%%sep 1 1 500
+
+X: 22
+T: The High Reel
+M: 4/4
+L: 1/8
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+K: AMix
+|: "A"a2 fa ecAB | c{B}A eA fAeA | a2 fa ecAc | "G"Bcdc BGG2 |
+|  "A"a2 fa ecAB | cdef "G"g2 fg | "D"afge fdec | "G"Bcdc BG G2 :|
+|: "A"c{B}A eA fAeA | c{B}A af ecA2 | c{B}A eA fAeA | "G"Bcdc BGG2 |
+|  "A"c{B}A eA fAed | cdef "G"g2 fg | "D"afge fdec | "G"Bcdc BG G2 :|
+
+%%sep 1 1 500
+
+X: 23
+T: The High Reel
+M:4/4
+L:1/8
+K:AMix
+|:"A"a2fa ecAB | (3cBA eA fAeA | a2fa ecAc | "G"Bcdc BGGA |
+| "A"a2fa ecAB | cdef "G"g2fg | "A"afge fdec | "G"Bcdc BGG2 :|
+|:"A"(3cBA eA fAeA | (3cBA af ecAB | (3cBA eA fAec | "G"Bcdc BGGB |
+| "A"(3cBA eA fAed | cdef "G"g2fg | "A"afge fdec | "G"Bcdc BGG2 :|
+
+%%sep 1 1 500
+
+X: 24
+T: Upstairs in a Tent
+T: In and Out the Harbour
+T: Jenny Tie Your Bonnet
+R:reel
+B:O'Neill "Music of Ireland" #1245
+B:O'Neill "The Dance Music of Ireland"
+D:Michael Tubridy: The Eagle's Whistle
+Z:id:hn-reel-345
+Z:transcribed by henrik.norbeck:mailbox.swipnet.se
+M:C|
+L:1/8
+K:Amix
+|: ~A3g fdec |   AGA=c BG~G2 | ~A3g fdef |1 ~g3d BGGB  :|2 ~g3d BG~G2 ||
+|: faaf gfed | (3cBA eA fAeA | faaf gfef |1 ~g3d BG~G2 :|2 ~g3d BGGB  |]
+
+%%sep 1 1 500
+
+X: 25
+T: Upstairs in a Tent
+T: In and Out the Harbour
+T: Jenny Tie Your Bonnet
+R:reel
+B:O'Neill "Music of Ireland" #1245
+B:O'Neill "The Dance Music of Ireland"
+D:Michael Tubridy: The Eagle's Whistle
+Z:id:hn-reel-345
+Z:transcribed by henrik.norbeck:mailbox.swipnet.se
+M:C|
+L:1/8
+K:Amix
+|: ~A3g fdec |   AGA=c BG~G2 | ~A3g fdef |1 ~g3d BGGB  :|2 ~g3d BG~G2 ||
+|: faaf gfed | (3cBA eA fAeA | faaf gfef |1 ~g3d BG~G2 :|2 ~g3d BGGB  |]
+
+%%sep 1 1 500
+
+X: 26
+T: John Byrth's Reel
+N:Learned from Paddy O'Brien and Martin Hayes on videotape made by
+N:Peter D. at The Plough and the Stars 25th Anniversary Concert,
+N:San Francisco
+N:Larry Sanger says "It's an old Kilfenora reel."
+S:San Diego Session Workshop 2000-11-09
+Z:Transcribed by John M. O'Hara
+Z:Posted by Paddy O'Brien <hartobrien:uswest.net> irtrad-l 2000-11-18
+M:C|
+K:A
+cd |: efed cAAB | cded cAAc | efed cdef | gfge dBcd |
+efed cAAB | cAeA cAAc | efed cdef | gfge dBGB |]
+K:CLydian
+~c2ec gcec | ~c2ec dBGB | ~c2ec gcea | afge dBGB |
+~c2ec gcec | ~c2ec dBGB | cdef ~g2eg | afge d2 |]
+
+%%sep 1 1 500
+
+X: 27
+T: Kit O'Connor's
+S:irtrad-l 2001-4-24
+R:reel
+S:Tommy Peoples
+D:The Iron Man, Shanachie 7904
+Z:Philippe Varlet
+M:C|
+L:1/8
+Q:220
+K:A
+~E3 F ABcd | eA{d}cA {d}BAFA | ~E3 F ABcA | BF (3FFF BFAF |
+~E2 CE A,2 CE | dc{d}cA {d}BAFE | CE~E2 Acfc |1 ecBc +A3A3+ F :|2 ecBc +A3A3+ f ||
+eAcA EAcf | eAcA {Bc}BAFA | ec (3ccc ecac | ecAc Bcdf |
+ec~c2 acfc | ecAc {Bc}BAFA | af{a}fe ~f2 af | eAcA BcAf |
+eAcA EAcf | eAcA {Bc}BAFA | ec (3ccc ac (3ccc | ecAc Bcdf |
+ec~c2 cafc | ecAc {Bc}BAFA | aAgA fAaf | eAcA BcAF ||
+
+%%sep 1 1 500
+
+X: 28
+T: Kit O'Connor's Reel.
+L:1/8
+M:C|
+S:Mulvihill - 1st Collection (114)
+Z:Andrew Kuntz <AIKUNTZ:AOL.COM> irtrad-l 2000-08-14
+K:A
+E2 EG A2 (3cBA | eA (3cBA BAFA | E2 EG A2 dB | AF {G}(3FEF dFAF |
+(3EFE CE A,2 CE | c2 BA BAGE | CE {F}(3EDE Ac {d}dBc | BABc A3 || f |
+eA (3cBA EAdf | eA (3cBA BAFf | ec {d}cBc ac {d}cBc | dB{c}BA Bcdf |
+ec (3cBc ac (3cBc | dBBA Bcde | af{g}fe fgaf | ecAc (3BcB AF | E2 |]
+
+%%sep 1 1 500
+
+X: 29
+T: My Love is Fair and Handsome
+T: Kit O'Connor's?
+M:4/4
+L:1/8
+C:Paddy Killoran
+S:Bobby Casey
+R:reel
+D:Casey in the Cowhouse
+Z:Naka Ishii <n_ishii:YAHOO.COM> irtrad-l  2000-12-03
+K:A
+~E2EF ABcA | eAcA BF~F2 | ~E2EF ABcA | BF~F2 BFAF |
+E2CE A,2CE | d2cA BF~F2 | CE~E2 Ac~c2 | ~B2Bc ABcd |
+e2 (3cBA EA (3cBA | eAcA BFFc | ec (3ccc Ac (3ccc | ecAc ~B2Bc |
+ec~c2 ac~c2 | ecAc BAFe | af=ge fg{a}gf | edcA BGAF ||
+~E2EF ABcA | eAcA BF~F2 | ~E2EF ABcA | BF~F2 | BFAF |
+E2CE A,2CE | d2cA BF~F2 | CE~E2 Ac~c2 | ~B2Bc A2 (3Bcd |
+e2 (3cBA EA (3cBA | eAcA BFFc | ec (3ccc Acec | ecAc ~B2Bc |
+ec~c2 ac~c2 | ecAc BAFe | af=ge fg{a}gf | edcA BFAF ||
+~E2EF ABcA | eAcA BF~F2 | ~E2EF ABcA | BF~F2 BFAF |
+~E2EF ABcA | eAcA BF~F2 | ~E2EF ABcA | BAGB A4 |]
+
+%%sep 1 1 500
+
+X: 30
+T: Kit O'Connor's Reel (Damp in the Attic's version)
+M:4/4
+L:1/8
+S:Damp in the Attic
+R:reel
+Z:Naka Ishii <n_ishii:YAHOO.COM> irtrad-l 2000-10-25
+K:A
+E3F ABcd | eA~A2 BFAF | E3F ABcB | AF~F2 dFAF |
+E2CE A,ECE | dBcA BAFE | CE~E2 BAf2 |1 ecBc ABAF :|2 ecBc ABcf |
+| eA~A2 EAaf | eA~A2 BAFA | ec~c2 acec | dBcA Bcdf |
+ec~c2 acec | dBcA BAFA | a2ge fgaf |1 e2cA Bcdf :|2 eAcA BFAF ||
+
+%%sep 1 1 500
+
+X: 31
+T: Kit O'Connor's Reel (Tommy Peoples' version)
+M:4/4
+L:1/8
+S:T Peoples
+R:reel
+D:The Iron Man
+Z:Naka Ishii <n_ishii:YAHOO.COM> irtrad-l 2000-10-25
+K:A
+E3F ABcd | eAcA BAFA | E3F ABcA | BF~F2 BFAF |
+E2CE A,2CE | dccA BAFE | CE~E2 Acfc |1 ecBc A3F :|2 ecBc A3f |
+| eAcA EAcf | eAcA BAFA | ec~c2 ecac | ec~c2 Bcdf |
+ec~c2 acfc | ecAc BAFA | affe f2af |1 eAcA BcAf :|2 eAcA BcAF ||
+
+%%sep 1 1 500
+
+X: 32
+T: Kit O'Connor's Reel.
+S:irtrad-l 2001-4-24
+N: KIT O'CONNOR'S REEL. Irish, Reel. A Major. Standard. AB.   Mulvihil  (1st
+N: Collection), 1986; No. 114, pg. 30. Shanachie 79044, Tommy Peoples - "The
+N: Iron Man." Damp in the Attic (4th track, last tune of set).
+L:1/8
+M:C|
+S:Mulvihill - 1st Collection (114)
+K:A
+E2 EG A2 (3cBA|eA (3cBA BAFA|E2 EG A2 dB|AF {G}(3FEF dFAF|
+(3EFE CE A,2 CE|c2 BA BAGE|CE {F}(3EDE Ac {d}dBc|BABc A3||f|
+eA (3cBA EAdf|eA (3cBA BAFf|ec {d}cBc ac {d}cBc|dB{c}BA Bcdf|
+ec (3cBc ac (3cBc|dBBA Bcde|af{g}fe fgaf|ecAc (3BcB AF|E2||
+
+%%sep 1 1 500
+
+X: 33
+T: Linen Cap, The
+M:4/4
+L:1/8
+S:O'Neill's Music of Ireland
+R:Reel
+K:A
+g | a2 ed cdec | Bcde fBBg | a2 ed cdec | dfed cAAg |!
+a2 ed cdec | Bcde fefg | agae faec | dfed cA A2 || !
+B | cAEA cdec | Bcde fBBB | cAEA cdec | dfed cAAB |
+cAEA cdec |Bcde fefg | agae faec | dfed cA A2 ||
+
+%%sep 1 1 500
+
+X: 34
+T: Loftus Jones
+O:Ireland
+M:C|
+Z:Richard Robinson <abclist:beulah.demon.co.UK>
+I:speed 400
+C:Turlough o'Carolan
+K:A
+a4 g2f2|   e2d2 cde2| dcBA A2z2| cdcB A2B2|\
+cde2 def2| e2dc dcBA| GAGF E2z2| ABAG F2d2|
+edec dcdB| A2E2 F2G2| A2F2 G2A2| B2G2 A2B2|\
+c2A2 B2c2| d4   e2z2| dcBA GAB2| A2ED C2E2| A4 A2z2 :|
+|:\
+e2G2 A2F2| G2E2 F2G2| A2B2 G2c2| F4 G4|\
+c2c2 B4|   ABcd c2B2| ABcd edcB| A2G2 F4|
+CFAF CFAF| EGEG EGEG| FAFA FAFA| GBGB GBGB|
+AcAc AcAc| AcAc AcAc| fga2 g4|   f4  f2g2|\
+aAaA gAgA| fAfA eAeA|
+dBdB cAcA| BAGF EFG2|\
+A2ED C2E2| BAGF E2e2| dcBA GABG| A4 A2z2 :|
+
+%%sep 1 1 500
+
+X: 35
+T: Lucy Farr's Barndance  [A]
+F:http://archive.folx.org/tune/barndance/lucy-farrs-barndance-1658
+S:Handwritten MS from Paul Milde
+M:4/4
+L:1/8
+K:A
+|:\
+"A"A2-A2 A2-A2 | ABcA F2 E2 | c2-c2 c2-c2 | cdec "E7"B3B |\
+"A"cdec A2-A2 | ABcA F2E2 | EFAB ceec | "E7"B2 A2 "A"A4 :|
+|:\
+"A"cdec A2-A2 | ABcA F2 E2 | EFAB ceec | c2 B2 "E7"B3B |\
+"A"cdec A2-A2 | ABcA F2 E2 | EFAB ceec | "E7"B2 A2 "A"A4 :|
+
+%%sep 1 1 500
+
+X: 36
+T: Tinker's Horse, The
+T: MacPherson's Rant
+D:Wick S.C.D., The Sound of the North (1970)
+O:Scotland
+Z:Nigel Gatherer
+L:1/8
+M:4/4
+K:A
+EF|AAAE c2 BA|BABc B2 cd|eefe c2 BA|F4 Ed cd|
+eefe c2 BA|BABc B2 EF|AABc B2 AF|E4 E2:|
+cd|eefe c2 BA|BABc B2 cd|eefe c2 BA|F4 Ed cd|
+eefe c2 BA|BABc B2 EF|AABc B2 AF|E4 E2:|
+
+%%sep 1 1 500
+
+X: 37
+T: Maggie Pickie
+S:Paul O'Shaughnessy
+Z:Juergen.Gier:post.rwth-aachen.de
+M:C|
+L:1/8
+K:A
+AE~E2 ABc2|BAcA BAFB|AE~E2 ABcB|1Aaec BAcB:|2Aaec (3BeB A2|]\
+agfe fec2|dBcA BAF2|agfe feca|ABcA (3BeB A2|\
+agfe fec2|dBcA BAFB|AE~E2 ABcB|Aaec BAcB|]
+
+%%sep 1 1 500
+
+X: 38
+T: Dillon's Fancy
+T: the Mug of Brown Ale
+M:C|
+L:1/8
+R:Reel
+B:O'Neill's 1272
+B:Levey V.1
+N:Collected by Dillon
+N:Traveler/singer Margaret Barry claimed that her grandfather,
+N:Antrim piper Robert Thompson, composed the tune.
+N:Often ended on a major chord.
+Z:Transcribed by Trish O'Neil
+K:A
+| EAAc eA (3cBA | ceae (3fga ed \
+|1 cdef edcA | (3Bcd cA BF {G}(3FEF :|2 cefg agaf | edcB Aceg ||
+{b}aece {b}aece | agbg aece | {b}aece {b}aecA | BABc defg |
+{b}aece {b}aece | agbg aece | (A/2B/2c/2d/2 e/2f/2g) agaf | edcB ABAF |]
+
+%%sep 1 1 500
+
+X: 39
+T: Music in the Glen
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: Roaring Jelly collection
+M: C|
+L: 1/8
+K: A
+G \
+| "A"A2cA "E7"FAED | "A"CEAc BABc | "D"d2fd "A"c2ec | "Bm"dBcA "E7"BAFE |
+| "A"AcBA "D"FA"E7"ED | "A"CEAc BABc | "D"defg "(A)"agaf | "E7"ecBc "A"A3 :|
+|: B \
+| "A"cAeA "D"fA"(E7)"ed | "A"cAec "E7"dBGB | "A"cAeA "D"fefg | "A"aecA "E7"BAFA |
+| "A"cAeA "D"fefg | "A"a2ga "E7"bgeg | "A"a2ga "(F#m)"faec | "Bm"dBcA "E7"BAF :|
+
+%%sep 1 1 500
+
+X: 40
+T: Dillon's Fancy
+T: the Mug of Brown Ale
+M:C|
+L:1/8
+R:Reel
+B:O'Neill's 1272
+B:Levey V.1
+N:Collected by Dillon
+N:Traveler/singer Margaret Barry claimed that her grandfather,
+N:Antrim piper Robert Thompson, composed the tune.
+N:Often ended on a major chord.
+Z:Transcribed by Trish O'Neil
+K:A
+| EAAc eA (3cBA | ceae (3fga ed \
+|1 cdef edcA | (3Bcd cA BF {G}(3FEF :|2 cefg agaf | edcB Aceg ||
+{b}aece {b}aece | agbg aece | {b}aece {b}aecA | BABc defg |
+{b}aece {b}aece | agbg aece | (A/2B/2c/2d/2 e/2f/2g) agaf | edcB ABAF |]
+
+%%sep 1 1 500
+
+X: 41
+T: Geaghan's Fancy
+T: Eileen O'Callaghan's
+T: Paddy Canny's
+R:reel
+S:Buttons & Bows, 'Gracenotes'
+Z:Nigel Gatherer <gatherer:argonet.co.uk> irtrad-l  2000-05-09
+M:4/4
+L:1/8
+K:A
+|: A2 cA EAcB | ABce dBGB | A2 cA EAce | efge dBGB | A2 cA EAcB |
+| ABce dBGB | Ac c/c/c ecAc | efge dBGB :: eaag a2 ga | beee begf |
+| eaag a2 gf | efge dBGB | eaag a2 ga | b2 ba bagf | eaaa c'aag | efge dBGB :|
+
+%%sep 1 1 500
+
+X: 42
+T: Paddy Fahy's reel (number 3)
+C:Paddy Fahy
+M:4/4
+L:1/8
+K:A
+AGED B,CDB, | E2B,E GEBG | AGEF GABc | ~d2cB AcBG |
+AGED B,CDB, | E2B,E GEBG | AGEF GABA | GEDB, A,2(3EFG :||:
+A2 ce dcBG | AGED B,CDB, | EA~A2 EAce | dcBG EAA2 |
+EAce ~d2BG | AGEF =GFGA | Bded Bcdf |edBG A3 z:||
+
+%%sep 1 1 500
+
+X: 43
+T: Paddy Fahy's reel (number 9)
+C:Paddy Fahy
+M:4/4
+L:1/8
+K:A
+ EB,EB GEBG | EBGB AFDF | EB,EB GEBG | EDB,C DCDB, |
+ EB~B2 AB~B2 | eBGB AFDF | EB,EB GEBG | EDB,C DEFA :||:
+ Be~e2 BeGe | dcdB ADFA | ~B2ed BAFE | FDB,C DEFA |
+ Be~e2 BeGe | dcdB AFDF | EB,EF =GFGA | (3Bcd ec dBAF :||
+
+%%sep 1 1 500
+
+X: 44
+T: Paddy Ryan's Dream
+S:Paul O'Shaughnessy
+Z:Juergen.Gier:post.rwth-aachen.de
+M:C|
+L:1/8
+K:A
+ed|cA~A2 cAB=G|E=GDB, =CEDB,|=CA,A,=G, A,B,CD|~E2AE GBed|\
+cA~A2 cAB=G|E=GDB, =CEDB,|=CA,A,=G, A,B,CD|EAGB A2::fg|\
+agae ceAf|=gfgd BFGB|Aaae ceAc|B=GED CEAa|\
+agae ceAf|=gfgd BFGB|cBcd edcB|Aagb ae:|
+
+%%sep 1 1 500
+
+X: 45
+T: Paddy Taylor's Reel #1
+R:reel
+D:Fintan Vallely
+Z:id:hn-reel-396
+M:C|
+K:Amix
+(3cBA eA (3cBA eA|(3cBA eA dBGA|Be~e2 d2ed|BG~G2 BcdB:|
+~A2ce ~a3f|gfed ea~a2|~A2Bd eg~g2|dG~G2 BcdB|
+~A2ce ~a3f|gfed eaag|~f3d ~e3d|BG~G2 BcdB||
+"variations"
+(3cBA eA (3cBA eA|cAed BGGA|Be~e2 d2ed|BGGA BcdB|
+cA~A2 fAeA|~A2eA dBGA|Be~e2 d2ed|BGGA BcdB||
+cAcd eaaf|gfed ea~a2|ABcd efge|dBGA BcdB|
+cAcd eaaf|gfed efge|~f3d ~e3d|BGGA BcdB||
+
+%%sep 1 1 500
+
+X: 46
+T: Peggy Whiffle's -- Reel
+R:reel
+B:Ryan's Mammoth Collection
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:C|
+L:1/8
+K:A
+  GF \
+| (3EFE CE    Acec | fcec BcA2 |(3EFE CE Aceg | afec BcA2 |
+| (3EFE CE    Acec | dBcA BAFA | E2(3EFG Aceg | afec A2  :|
+|:(3efg \
+| {b}agab     aece | ecac eace | {b}agab aece |  gbeg befg |
+| {b}agae (3fga ec | dBcA BAFA | E2(3EFG Aceg |1 afec A2  :|
+
+%%sep 1 1 500
+
+X: 47
+T: Peter Street
+T: Timour the Tartar
+T: Blanchard Races
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: "Rinnci na h-\'Eireann" Elizabeth Burchenal, ed. G.Schirmer (1925) p.18
+M: 2/4
+L: 1/16
+%Q: 1/4=112
+K: A
+|: "A"A2((3cBA) eA((3cBA) | eAaA "D"gAfA | "A"eA((3cBA) eAfA | "E7"BEcE    dEBE |
+   "A"A2((3cBA) eA((3cBA) | eAaA "D"gAfA | "A"efec      eaec | "E7"BABc "A"A4  :|
+|: "E"E2((3GFE) BE((3GFE) |    BEdE    cEBE | "A"A2((3cBA) eA((3cBA) |     eAaA "D"gAfA  |
+   "A"edec   "D"agaf      | "A"edec "D"agaf | "A"ecag      fedc      | "E7"BAGF    EFGE :|
+
+%%sep 1 1 500
+
+X: 48
+T: Pigeon on the Gate
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Amix
+af \
+|: "A"eA~A2  ABcd |   eA~A2 "D"a2af | "A"eA~A2   ABcd |    efge "G"d2cd :|
+| "A"eaaf "G"gfed | "A"eaaf "G"g2fg | "A"eaaf "G"gfed | "A"efge "G"d2cd |
+| "A"eaaf "G"gfed | "A"eaaf "G"g2fg | "D"afge    fdec | "G"dB~B2   g2y2 |]
+
+%%sep 1 1 500
+
+X: 49
+T: the Reconciliation Reel
+T: the Olive Branch Hornpipe
+T: Humphrey's Reel
+T: Crannciuil Umfrei
+O: Ryans 1883
+R: reel
+D: Matt Molloy & Sean Keane: Contentment is Wealth.
+B: O'Neill's 1850 (hornpipe)
+B: Ryan’s "Mammoth Collection", 1883, titled “The Olive Branch”
+Z: id:hn-reel-95
+M: C|
+L: 1/8
+K: A
+|: "A"A2 c{B}A eAfA | eAfA "E7"ecBc | "A"A2 c{B}A eAfA | "(Bm)"ecBc "E7"AFEF |
+|  "A"A2 c{B}A eAfA | eAfA "E7"ecBc | "A"ABAF EAcf | "E7"ecBc "A"A4 :|
+|: "A"A2{B}ce a2-af | "E7"efed cdcB | "A"A2{B}ce a3g | "Bm"fbba "E7"gbeg |
+|  "A"agae f{g}aec | "Bm"dBcA "E7"BAFG | "A"ABAF EAcf | "E7"ecBc "A"A4 :|
+
+%%sep 1 1 500
+
+X: 50
+T: the Reconciliation #2
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: printed page of unknown origin from Concord Slow Scottish Session collection
+R: reel
+M: C|
+L: 1/8
+K: A
+e2 |\
+"A"A2cA eAfA | "A"eAfA ecBc | "A"A2cA eAfA | "Bm"ecBc "D"AFEF |
+"A"A2cA eAfA | "A"eAfA ecBc | "A"ABAF Ec"D"df | "E7"ecBc "A"A4  :|
+|: cB |\
+"A"A2ce a2af | "A"efed cdcB | "A"A2ce a2ag | "B7"fbba "E7"gbeg |
+"A"agae faec | "D"dBcA "E7"BAFG | "A"ABAF Ec"D"df | "E7"ecBc "A"A4  :|
+
+%%sep 1 1 500
+
+X: 51
+T: Reconciliation
+O: arr. Elke Baker
+R: reel
+S: printed copy from Potomac Valley Scottish Fiddle Club, in Concord Slow Scottish Session collection
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+E2 |\
+"A"A2 c/B/A eAfA | "A"eAfA "E"ecBc |\
+"A"A2 c/B/A eAfA | "D"ecBc "E"AFEF |\
+"A"A2 c/B/A eAfA |
+"A"eAfA ecBc |\
+"A"ABAF "D"Ecdf | "E"ecBc "A"A2 :|\
+|: cB |\
+"A"ABce a3f | "D"efed "E"cdBc |
+"A"ABce a2ag | "D"fbba "E"gefg |\
+"A"agae f/g/a ec | "Bm"dBcA BAFG |\
+"A"ABAF "D"Ecdf | "E"ecBc "A"A2 :|
+
+%%sep 1 1 500
+
+X: 52
+T: the reel of Sceach\'og v.2
+C: Paul Brady
+N: Written by Joun Brady, flute player from Offaly , Ireland in the late 1970s.
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Portland Coll. v.2 p.181
+N: learned from Rodney Miller at Fiddle Tunes, who got it from L\'unasa.
+M: C|
+L: 1/8
+K: A
+|:\
+"A"A2ce a2ba | "F#m"f3a fece | "D"{e}f3e "A"cBAF | "Bm"EFAB "E7"cBAF |
+"A"E3F ABce | "D"f3a fece | "D"{e}f2ec "A"d{c}BcA | "E7"BAGB "A"cAA2 :|
+|:\
+"A"A2ce fece | "D"fA~A3 "A"fAeA | "D"fA~A2 "A"fAef | "D"aefa "E7"eAce |
+"F#m"{e}f3e cBAF | "C#m"E3F ABce | "D"{e}f2ec "A"d{c}BcA | "E7"BAGB "A"cAA2 :|
+
+%%sep 1 1 500
+
+X: 53
+T: Return to Camden Town
+R: Reel
+L: 1/8
+Q: 228
+M: C
+S: Mulvihill - 1st Collection (224)
+Z: Anthony Buffery <anthony.buffery:RRC.CO.UK> irtrad-l 2000-08-14
+N: Anthony writes:
+N: I have made enquiries among the older North London musicians and there  seems
+N: to  be  a  consensus  opinion  that the tune was first recorded by Joe Burke,
+N: after a trip to Camden in about 1960; and that the composer was Bobby  Casey.
+N: There  are  no  written  documents,  just  the  memories of old men, which is
+N: probably the best you will get.
+K: A Minor
+E2 DE CA, (3A,G,A, | EDCD EGAB | cBcd edeg | aged cABG | E2 DE CA, (3A,G,A, |
+EDCD EGAB | cBcd edeg |1 aged cA A2 :|2 aged cAAB ||
+|:c2 gc acgc | c2 gc BAGB | cBcd edeg | aged cAAB | c2 gc acgc |
+c2 gc BAGB | A^GAB cdea | gedB cABG :|
+
+%%sep 1 1 500
+
+X: 54
+T: Scots Mary
+T: Mary o' the Wisp
+T: the Fintown Reel
+N: Third part not always played
+Z: Bernard Chenery <B.Chenery:utas.edu.au>
+Z: Merged with other versions by John Chambers <jc:trillian.mit.edu> 2009-11-02
+M: 4/4
+L: 1/8
+K: ADor
+  AB \
+| cE~E2 cded | cE ~E2 G2 AB | cE~E2 cded |cdBc A3B |
+| cEEE cded | cE ~E2 G2 AB |cBcd eged | cdBc A2 :|
+K: AMix
+|: ef \
+| gaag e=fed | cdef ~g2 fg |eaag e=fed | cdBc A2 ef |
+| gaag e=fed | cdef ~g2 fg |(3agf ge fded | cdBc A2 :|
+|: AB \
+| cded cded |=cE~E2 FGAB |cded cded |=cAGB A2AB \
+| cded cded |=cE~E2 FGAB |cdea fded |=cAGB A2 :|
+
+%%sep 1 1 500
+
+X: 55
+T: Siobhan O'Donnell's
+M:2/2
+L:1/8
+R:reel
+Z:Rob Greenway
+S:Rob Greenway <robgreenway:yahoo.com> IrishTradAccord 2005-4-29
+K:A
+ABce a3e|~f3a fece|f2fe cBAF|EFAB cBAF|
+E2EA ~c3e|~f3a fece|f2ec dBcA|BcAB cAAB:|
+|:ABce fece|fA~A2 fAeA|fA~A2 fAeA|aefa eAce|
+~f3e cBAF|~E3F ABce|f2ec dBcA|BcAB cAAB:|
+
+%%sep 1 1 500
+
+X: 56
+T: Six Hundred Miles Away From Rosslare
+R:reel
+C:Dominiek Croymans
+S:Dominiek Croymans <dominiek.croymans:SKYNET.BE> irtrad-l 2001-11-1
+M:4/4
+L:1/8
+K:C
+ae~e2 aage|ae~e2 ddcd|eA~A2 ccBA|GABc de^fg|ae~e2 aage|ae~e2 ddcd|eA~A2 c
+cBA|GABG ~A3A:||
+ABcd eA~A2|GABc dG~G2|ABcd eage|dcBA GABG|ABcd eA~A2|GABc dG~G2|~F2FG
+~A2AB|cBAG A4:||
+K:A
+ae~e2 aafe|ae~e2 ddcd|eA~A2 ccBA|GABc defg|ae~e2 aafe|ae~e2 ddcd|eA
+~A2 ccBA|GABG A4:||
+ABcd eA~A2|GABc dG~G2|ABcd eafe|dcBA GABG|ABcd eA~A2|GABc dG~G2|~F2FG
+~A2AB|cBAG A4:||
+
+%%sep 1 1 500
+
+X: 57
+T: Speed the Plough
+C: John Morehead
+Z: John Chambers <jc:trillian.mit.edu>
+N: From around 1800
+N: Skye, p.5
+N: Caledonian Companion, p.37
+N: Allan's p.3 #6
+N: Harp and Claymore, p.96 (with variations by J.S.Skinner)
+N: Hardie p.37
+N: SFT p.7
+N: Litten p.23
+N: Skye  p.5
+N: Kennedy V.1 p.16
+N: Allan's p.3
+N: Phillips p.44 from Topic 12T280
+N: J.S.Skinner(?)
+D: Bill Hardie on "The Fiddler's Companion" tape
+M: C|
+L: 1/8
+K: A
+|: E \
+| "A"~A2Ac efec | eaec efec | "D"dfdB "A"cecA | "Bm"dcBA "E7"GABc |
+| "A"~A2Ac efec | eaec efec | "D"decd "Bm"BcAB | "E7"FAGB "A"A3 :|
+|: g \
+| "A"a2(3bag aAce | aAgA fAeA | "D"dfdB "A"cecA | "Bm"dcBA "E7"GABd |
+| "A"(3cBA eA "D"fA"A"eA | "D"fgaf "A"ecAc | "D"decd BcAB | "E7"FAGB "A"A3 :|
+
+%%sep 1 1 500
+
+X: 58
+T: Speed the Plough
+C: John Morehead
+Z: John Chambers <jc:trillian.mit.edu>
+O: c.1800
+N: Skye, p.5
+N: Caledonian Companion, p.37
+N: Allan's p.3 #6
+N: Harp and Claymore, p.96 (with variations by J.S.Skinner)
+N: Hardie p.37
+N: SFT p.7
+N: Litten p.23
+N: Skye  p.5
+N: Kennedy V.1 p.16
+N: Allan's p.3
+N: Phillips p.44 from Topic 12T280
+N: J.S.Skinner(?)
+D: Bill Hardie on "The Fiddler's Companion" tape
+M: C|
+L: 1/8
+K: A
+E \
+| "A"~A2Ac efec | eaec efec | "D"dfdB "A"cecA | "Bm"dcBA "E7"GABc || "A"~A2Ac efec |
+eaec efec | "D"decd "Bm"BcAB | "E7"FAGB "A"A3 :: g | "A"a2(3bag aAce | aAgA fAeA |
+"D"dfdB "A"cecA | "Bm"dcBA "E7"GABd || "A"(3cBA eA "(D)"fA"A"eA | "D"fgaf "A"ecAc | "D"decd "Bm"BcAB | "E7"FAGB "A"A3 :|
+
+%%sep 1 1 500
+
+X: 59
+T: Sporting Paddy
+S:Played by Burke, Cooney & Corcoran on Radio Scotland, 1995
+Z:Nigel Gatherer <gatherer:argonet.co.uk> irtrad-l 2001-8-23
+M:4/4
+L:1/8
+K:A dorian
+EA (3AAA GABG|EAAB GEDF|EAAB GABd|edge dBAG|EA (3AAA GABG|EAAB GEDF|
+EAAB GABd|edge d3||e|ge (3eee gede|ge (3eee a2 ba|ge (3eee gedg|
+efge d3 e|ge (3eee gede|ge (3eee a2 ga|(3bag af gedg|efge dBAG|]
+
+%%sep 1 1 500
+
+X: 60
+T: Sweeney's Buttermilk
+C: Brendan McGlinchey
+R: Reel
+S: Tony Sullivan
+H:
+N:
+D: Sully's Fancy
+Z: Adrian Scahill
+M: 4/4
+L: 1/8
+K: A
+FBB2 FBBA | (3Bcd cA BEE2 | FBB2 ABce | afec Baga |
+f2ea fecf | ec (3B^Bc =BAFE | FBB2 ABce | afec B3A :|
+FBdc BFF2 | EAcB AEE2 | FBdB ceab | afec cddc |
+Bcde fBB2 | afec ABce | f2bf afea | afec B3A :|
+
+%%sep 1 1 500
+
+X: 61
+T: Timour the Tartar
+T: Peter Street
+T: Blanchard Races
+N:
+N: H&C p.111; Skye p.6; Hunter 257 (a 6-part arrangement); in O'Neill's p.119;
+N: BSFC I-63, III-20, VIII-4; Kennedy p.17; Phillips p.49 from Topic 12T280;
+N: J.S.Skinner(?); Gathering of Clans p.47; Nelson Collection p.9; Allan's p.19
+D: Winston Scotty Fitzgerald on Celtic 44, Fiddlers Five CD 1
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+   E2 \
+| "A"A2 (3cBA eA (3cBA | eAaA gAfA | eA (3cBA eA (3cBA | "E7"BEdE cEBE |
+| "A"A2 (3cBA eA (3cBA | eAaA gAfA | efec eaec | "E7"BABc "A"A2 :|
+|: (3AGF \
+| "E7"E2 (3GFE BE (3GFE | BEdE cEBE | "A"A2 (3cBA eA (3cBA | eAaA gAfA |
+| "A"efec "D"agaf | "A"efec "D"agaf | "A"ecag "D"fedc | "E7"BABc "A"A2 :|
+
+%%sep 1 1 500
+
+X: 62
+T: Tinker's Horse, The
+T: MacPherson's Rant
+D:Wick S.C.D., The Sound of the North (1970)
+O:Scotland
+Z:Nigel Gatherer
+L:1/8
+M:4/4
+K:A
+EF|AAAE c2 BA|BABc B2 cd|eefe c2 BA|F4 Ed cd|
+eefe c2 BA|BABc B2 EF|AABc B2 AF|E4 E2:|
+cd|eefe c2 BA|BABc B2 cd|eefe c2 BA|F4 Ed cd|
+eefe c2 BA|BABc B2 EF|AABc B2 AF|E4 E2:|
+
+%%sep 1 1 500
+
+X: 63
+T: Turning of the Tide
+C: Maire Bhreathnach
+S: Bernie Waugh
+F: http://www.math.dartmouth.edu/~doyle/docs/waugh/w2.abc
+R: Reel
+M: 4/4
+L: 1/8
+K: A minor
+AB |:\
+"Am"c2Bc AGED | "C"CDEF GBBB | "F"~c2Bc AGEF | "G"GEDB, "Am"A,2AB |
+"Am"cABc AGED | "C"CDEF GABc | "G"dBB/B/B cBG^F |1 "D"GEDB, A,2AB :|2 "D7"GEDB, A,4 ||
+K:A
+|:\
+"A"c2Bc ABcd | eAce "Em"=gedf | "A"ea~ag a=gef | "G"=gedB ~BAAB |
+"A"~c2Bc ABce | eAce =gfga | "Em"ba=gb agef | "G"=gedB BAAB :|
+
+%%sep 1 1 500
+
+X: 64
+T: the Turnpike Reel
+T: Lardner's Reel
+T: the Halfway House
+Z: Philippe Varlet <philvar@EROLS.COM> irtrad-l 2000-03-09
+D: Mairead Ni Mhaonaigh and Frankie Kennedy on "Ceol Aduaidh" as "Tommy Peoples'"
+M: C
+L: 1/8
+K: A Major
+A2cA B2AF|E3F ABce|a2ge faec|cBBA B2cB|
+A2cA B2AF|E3F ABce|a2ge faec|BABc A4:|
+E2GE BEGE|A2cA eAcA|B2^dB fBdB|e2ge bege|
+agae faec|defg a2fg|a2ge faec|BABc A4:|
+
+%%sep 1 1 500
+
+X: 65
+T: Twilight in Portroe
+T: the Dawn
+C: Sean Ryan
+R: reel
+D: De Dannan: Mist Covered Mountain.
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: "A"A,2CE "D"D2FD | "E7"E2GB "A"A3c | "D"d2fd "A"edcA \
+|1,3 "Bm"~B3c "E7"BAFE :|2,4 "E7"B2AB "A"cAA2 :|
+|: "A"c2ec fcec | "A"A2Ac "E7"BAFD | "A"E2EF "F#m"ABcA \
+|1,3 "Bm"defg "E7"aefe :|2,4 "D"df"E7"ed "A"cAA2 :|
+
+%%sep 1 1 500
+
+X: 66
+T: Upstairs in a Tent
+T: In and Out the Harbour
+T: Jenny Tie Your Bonnet
+R:reel
+B:O'Neill "Music of Ireland" #1245
+B:O'Neill "The Dance Music of Ireland"
+D:Michael Tubridy: The Eagle's Whistle
+Z:id:hn-reel-345
+Z:transcribed by henrik.norbeck:mailbox.swipnet.se
+M:C|
+L:1/8
+K:Amix
+|: ~A3g fdec |   AGA=c BG~G2 | ~A3g fdef |1 ~g3d BGGB  :|2 ~g3d BG~G2 ||
+|: faaf gfed | (3cBA eA fAeA | faaf gfef |1 ~g3d BG~G2 :|2 ~g3d BGGB  |]
+
+%%sep 1 1 500
+
+X: 67
+T: Where's the Cat
+M:6/8
+L:1/8
+Z:id:dc-slide-34
+K:A
+"A"EFE A2E| "D"F2E "Bm"A2E| "A"EFE A2c| "Bm"B2A "D"F2E|
+"A"EFE A2E| "D"F2E A2e| "A"cec "Bm"d2c| B2A "D"F2E:|
+"A"cBc e2c| "Bm"BAF d2c| "A"cBc e2c| "Bm"B2A F2E|
+"A"cBc e2c| "Bm"BAF "D"d2a| faf "A"e2c| "Bm"B2A "D"F2E:|!
+
+%%sep 1 1 500
+
+X: 68
+T: Wing Commander Donald McKenzie's
+M:2/2
+L:1/8
+C:Phil Cunningham
+R:reel
+K:A
+cE~E2 cEBE|AFFE FAEA|~F3E FGAB|cBAB cffe|
+cE~E2 cEBE|AFFE FAEA|~F3E FGAB|1 cABG ~A3B:|2 cABG ABce||
+|:aefe c2Bc|AFEF ABce|faba fbaf|ecAB cBce|
+aefe c2Bc|AFEF ABce|faba fbaf|1 ecBc ABce:|2 ecBc ~A3B||

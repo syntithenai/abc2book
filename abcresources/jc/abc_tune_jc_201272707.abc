@@ -1,0 +1,73 @@
+
+X: 1
+T: Eleno Mome (Elenino Horo)
+O: Bulgaria
+M: 7/8
+L: 1/8
+Z: 1998 by John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+P: C instruments
+K: C
+"A"\
+|: "G7"G2 AB c/B/AG | B2 Bd c/B/AG | G2 AB c/B/AG | B2 Bd c/B/AG |
+| "G7"G2 {A}BA GF/E/D | "C"E2- E2 "F"cBA | "G7"G2 {A}BA GF/E/D | "C"E2- E2 {GAB}McMcz |
+| "F"cc BA "G7"GF/E/D | "C"E2- E2 "F"cBA | "G7"G2 {A}BA GF/E/D | "C"E2- E2 {GAB}McMcz :|
+"B"\
+|: "C"E2 FE ^D/E/FE | G2 AG ^F/G/AG | E2 FE ^D/E/FE | "G7"~G2 ^F/G/A/B/ "C"ccz :|
+"C"\
+|: "C"G/^F/G/A/ G/F/G/A/ GE2 | "G7"GG FF "C"E/F/Gz | G/^F/G/A/ G/F/G/A/ GE2 | "G7"GG FF "C"EEz :|
+K: G
+"D"\
+[| "G"B2 cB "D7"BAA | "G"G2 GD G/A/B2 | B2 cB "D7"BAA | "G"G2 GD GGz |
+"D'"\
+| "G"[B2d2] [ce][Bd] "D7"[Bd][Ac][Ac] | "G"[G2B2] [GB][DG] [G/B][A/c][B2d2] \
+| [B2d2] [ce][Bd] "D7"[Bd][Ac][Ac] | "G"[G2B2] [GB][DG] [GB][GB]z |]
+K: C
+"E"\
+[| "G7"GA _BA GF/E/D | "C"E2- E2 "F"cBA | "G7"GA BA GF/E/D | "C"E2- E2 {GAB}McMcz |
+| "F"cc BA "G7"GF/E/D | "C"E2- E2 "F"cBA | "G7"G2 {A}BA GF/E/D | "C"E2- HE2 {GAB}McMcz |]
+
+%%newpage
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Cal's Eleno Mome Solo
+T: FGHIJK
+O:Bulgaria
+%Q:1/4=135
+M:7/8
+L:1/8
+P: FGHIJK
+K:C
+%%MIDI channel 1
+%%MIDI program 1 21
+%%MIDI beat 75 65 50 1
+%%MIDI chordprog 21
+%%MIDI chordvol 40
+%%MIDI bassprog 58
+%%MIDI gchord fcfcfc2
+P: F
+|: "G"G2 AB "C"c/B/AG | "G"B2 Bd c/B/AG | G2 AB "C"c/B/AG | "G"B2 Bd c/B/AG |
+    "G"G2 BA GF/E/D | "C"E2-E2 "F"cBA | "G"G2 BA GF/E/D | "C"E2-E2 McMcz |
+ "F"cc BA "G"GF/E/D | "C"E2-E2 "F"cBA | "G"G2 BA GF/E/D | "C"E2-E2 McMcz :|
+P: G
+|: "C"E2 FE ^D/E/FE | G2 AG c/B/AG | E2 FE ^D/E/FE | "G"G2 ^F/G/A/B/ "C"ccz :|
+P: H
+ "C"G/^F/G/A/ G/F/G/A/ GE2 | "G"GG FF "C"E/F/Gz | G/^F/G/A/ G/F/G/A/ GE2 | "G"GG FF "C"EEz |
+K:D
+ "D"A/^G/A/B/ A/G/A/B/ AF2 | "A"AA GG "D"F/G/Az | A/^G/A/B/ A/G/A/B/ AF2 | "A"AA GG "D"FFz |
+P: I
+K:G
+|: "G"G>D G>D G/A/B2 | B/d/c/B/ "C"A/c/B/A/ "G"G/F/ E>D |\
+      G>D G>D G/A/B2 | B/d/c/B/ "C"A/c/B/A/ "G"G G2 :|
+P: J
+|: "G"d/c/B/A/ B>G A/G/ B>G | d/c/B/A/ B>G AG2 |\
+      d/c/B/A/ B>G A/G/ B>G | d/c/B/A/ B>G AG2 :|
+T: All
+P: K
+K:C
+%%MIDI channel 1
+%%MIDI program 1 56
+  "G"GA _BA GF/E/D | "C"E2-E2 "F"cBA | "G"G2 BA GF/E/D | "C"E2-E2 McMcz |
+"F"cc BA "G"GF/E/D | "C"E2-E2 "F"cBA | "G"G2 BA GF/E/D | "C"E2-E2-E3 ||

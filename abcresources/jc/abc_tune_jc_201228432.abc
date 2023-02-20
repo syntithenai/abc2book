@@ -1,0 +1,25 @@
+X: 11282
+T: THOU SOFT FLOWING AVON
+C: Dr. Arne.
+Q: "Slow."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.128 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+c4BA | d2c2E2 | F2B2A2 | {A}G4e2 |\
+f2a2g2 | f2c2A2 | d2G2(cB) | {B}A4c2 |\
+f4d2 | e4(gc) |
+{e}d2c2=B2 | c4c2 |\
+g3fe2 | a2g2f2 | (e>g)(c<e)(G<B) | A2z2c2 |\
+f3ed2 | g2f2e2 | adfed^c |
+d2z2zd |\
+c3BA2 | d2c2_e2 | d3=ef2 | e2z2c2 |\
+a3g f3/g//a// | g2B2 (Acf) | ({e}dc/B/) A2G2 | F4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

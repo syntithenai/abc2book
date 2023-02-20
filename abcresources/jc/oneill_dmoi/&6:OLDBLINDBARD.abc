@@ -1,0 +1,16 @@
+X:266
+T:The Old Blind Bard
+B:O'Neill's 266
+N:"Brilliant"
+N:"Collected by J.O'Neill"
+Z:1997 by John Chambers <jc@trillian.mit.edu>
+N:Typo: The note values are obviously wrong in bar 6; (b2a2) should be (ba).
+M:2/4
+L:1/16
+K:Em
+(BA) \
+| (GABc) .d2(cd) | (edcd) .B2(ba) | {a}g2(fe) B2^d2 | e6 (BA) |
+| (GABc) .d2(cd) | (edcd) .B2(b2a2) | (gfed) B2^d2 | e6 ||
+|| b2 \
+| b3a .g2(fg) | (agfe) .d2(ef) | .g2(fg) (ef)(ga) | b2B2 .B2(BA) |
+| (GABc) .d2(cd) | (edcd) .B2(ba) | (gfed) B2^d2 | e6 ||

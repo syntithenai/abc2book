@@ -1,0 +1,23 @@
+X:1
+T: Jacqueline's Waltz
+I:
+C: W-17
+C: Tom Anderson  1980
+M: 3/4
+Z:
+R: waltz
+K: A
+AB| "A"c4 Bc| "E"d4 cd| "A"e2 c2 B2| A4 Bc| \
+    "D"d2 c2 d2| "A"e2 c2 A2| "E"B6-| B4 AB|
+    "A"c4 Bc| "E"d4 cd| "A"e2 c2 A2| "D"a4 gf| \
+    "A"e2 c2 A2| "E"d2 c2 B2| "A"A6-| A4:|
+\
+fg| "A"a3e c2| "D"f2 d2 B2| "A"e3c B2| A4 Bc| \
+    "D"d2 c2 d2| "A"e2 c2 A2| "E"B6-| B4 fg|
+    "A"a3e c2| "D"f2 d2 B2| "A"e2 f2 g2| "D"a4 c2| \
+    "Bm"d2 c2 d2| "E"e2 c2 B2| "A"A6-| A4 fg|
+    "A"a3e c2| "D"f2 d2 B2| "A"e2 c2 B2| A4 Bc| \
+    "D"d4 ef| "A"e2 c2 A2| "E"B6-| B4 AB|
+    "A"c4 Bc| "E"d4 cd| "A"e2 c2 A2| "D"a4 gf| \
+    "A"e2 c2 A2| "E"d2 c2 B2| "A"A6-| A4|]
+%

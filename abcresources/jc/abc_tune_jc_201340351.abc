@@ -1,0 +1,40 @@
+X: 1
+T: St. James's Bason
+P: Longways for as many as will
+%R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.32
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+N: In bar 13, the original has gfg, unlike bar 9 which has geg.
+M: 6/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+C2C DEF | G2c B2A | A2A Bcd | e2a ^g2e |\
+C2C DEF | G2c B2G | cBA GEG | A/B/cE TD2C :|
+|:\
+cg2 geg | B2c dBG | cg2 gfg | c2a ^g2e |\
+cg2 gfg | B2c dBG | A/B/cA GEG | A/B/cE TD2C :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+c3 g3 | b2a g3 | f3 d3 | c2A e3 |\
+c3 e3 | b2a g3 | e2f e2c | f2d g2c :|
+|:\
+e3 c3 | g3 G3 | e3 c3 | A3 e3 |\
+e3 c3 | g3 G3 | f3 c3 | f2d g2c :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center A double Dance
+%%begintext align
+%% The 1st Cu. gallop down the middle and up to the Top and cast off .|
+%% the 2d Cu. do the same :|
+%% the 1st Man turn the 3d Wo. and 1st Wo. the 2d Man and turn Partners .|
+%% the 1st Man turn the 2d Wo. and 1st Wo. 3d Man and turn Partners :#:
+%% the 1st Man and 2d Wo. foot it and turn .|
+%% 1st Wo. and 2d Man do the same :|
+%% the 1st Cu. cross over and figure in .|
+%% then right and left.
+%%endtext

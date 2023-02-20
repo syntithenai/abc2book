@@ -1,0 +1,19 @@
+X: 20481
+T: JOCKEY TO THE FAIR
+Q: "Lively"
+%R: jig
+B: "Edinburgh Repository of Music" v.2 p.48 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 6/8
+L: 1/8
+K: G
+D |\
+G2A B2c | d2g d2c | (Bd).G (GF).G | (A/B/c).B A2d |\
+(d^c).d (ef).g | (fa).f {f}e2g | (fe).d (Ad).^c | d3- d2 :: d |\
+(af).d (af).d | c2c B2c |
+(dg).d (dg).d | c2c B2B |\
+e2f g2f | e2f B2e | (e^d).e B2A | G2F E2F |\
+G2G G2B | d3 g3 | (dB).G A2B | E2F G2A |\
+B2g (Bc).A | G3- G2 |]

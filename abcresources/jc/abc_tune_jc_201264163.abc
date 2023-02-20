@@ -1,0 +1,66 @@
+
+X: 1
+T: Constancy (F)
+T: the Ton
+O: 1788
+B: Hendrickson's "John Griffiths Dancing Master (1788)"
+R: march
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+%Q: 1/4=108
+K: F
+[| "F"F2 AF | "C"FE DC | "F"F2 AF | "C"c4 |\
+"Gm"B2 GB | "F"A2 FA | "G(m)7"G2 AF | "C"FE DC |
+y2"F"F2 AF | "C"FE DC | "F"F2 AF | "C"c4 |\
+"C"G2 "F"AF | "C"G2 "F"AF | "C"E2 "G7"D2 | "C"C4 |]
+[| "F"c2 Ac | "C7"B2 GB | "F"A2 FA | "C7"G2 C2 |\
+"F"FA cf | "Bb"f2 df | "G7"gf ed | "C"c4 |
+y"F"c2 Ac | "C7"B2 GB | "F(Dm)"A2 FA | "C7"[GG]E [CC]B, "I"|\
+"F"A,C FA | "Bb"DB AG | "F"AF "C7"GE | "F"F4 |]
+
+%%sep 2 1 500
+
+X: 1
+T: Constancy (G)
+T: the Ton
+O: 1788
+B: Hendrickson's "John Griffiths Dancing Master (1788)"
+R: march
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+%Q: 1/4=108
+K: G
+[| "G"G2 BG | "D"GF ED | "G"G2 BG | "D"d4 |\
+"Am"c2 Ac | "G"B2 GB | "A(m)7"A2 BG | "D"GF ED |
+y2"G"G2 BG | "D"GF ED | "G"G2 BG | "D"d4 |\
+"D"A2 "G"BG | "D"A2 "G"BG | "D"F2 "A7"E2 | "D"D4 |]
+[| "G"d2 Bd | "D7(Am)"c2 Ac | "G(Em)"B2 GB | "D7"A2 D2 |\
+"G"GB dg | "C"g2 eg | "A7"ag fe | "D"d4 |
+y"G"d2 Bd | "D7(Am)"c2 Ac | "G(Em)"B2 GB | "D7"[AA]F [DD]C "I"|\
+"G"B,D GB | "C"Ec BA | "G"BG "D7"AF | "G"G4 |]
+
+%%sep 2 1 500
+
+X: 1
+T: Constancy [A]
+T: the Ton
+O: 1788
+B: Hendrickson "John Griffiths Dancing Master (1788)"
+R: march
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+%Q: 1/4=108
+K: A
+[|\
+"A"A2 cA | "E"AG FE | "A"A2 cA | "E"e4 |\
+"Bm"d2 Bd | "A"c2 Ac | "B(m)7"B2 cA | "E"AG FE |
+y2 "A"A2 cA | "E"AG FE | "A"A2 cA | "E"e4 |\
+"E"B2 "A"cA | "E"B2 "A"cA | "E"G2 "B7"F2 | "E"E4 |]
+[|\
+"A"e2 ce | "E7"d2 Bd | "A"c2 Ac | "E7"B2 E2 |\
+"A"Ac ea | "D"a2 fa | "B7"ba gf | "E"e4 |
+y "A"e2 ce | "E7"d2 Bd | "A(F#m)"c2 Ac | "E7"[BB]G [EE]D "I"|\
+"A"CE Ac | "D"Fd cB | "A"cA "E7"BG | "A"A4 |]

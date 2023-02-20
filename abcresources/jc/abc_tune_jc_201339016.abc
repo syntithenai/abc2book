@@ -1,0 +1,71 @@
+
+X: 1
+T: the Soldier's Joy
+T: the King's Head Reel
+R: reel
+O: Joshua Campbell 1778
+B: Joshua Campbell's Collection 1778
+B: RSCDS 2-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: The earlier name of this tune was "The King's Head Reel"
+M: C|
+L: 1/8
+K: D
+FG \
+| "D"AFDF AFDF | "D"A2d2 d2cB | "D"AFDF AFDF | "A7"G2E2 E2FG | "D"AFDF AFDF |
+| "D"A2d2 d2de | "D"fafd "A7"egec | "D"d2f2 d2 :: de | "D"f2fd fagf | "A7"e2ec egfe |
+| "D"f2fd fagf | "A7"edcB A2g2 | "D"f2fd fagf | "A7"e2ec egfe | "D"fafd "A7"egec | "D"d2f2 d2 :|
+
+%%sep 2 1 500
+
+X: 2
+T: Soldiers Joy.
+M: C|
+L: 1/8
+O: Aird 1778
+%Q: 1/2=104
+I: :: ::
+Z: Jack Campin * www.campin.me.uk * 2009
+K: D
+FG | "D"AFDF AFDF | A2d2- d2cB | AFDF AFDF | "A7"G2E2-E2 ||
+FG | "D"AFDF AFDF | A2d2- d2fg | afdf "A7"gece | "D"d2d2-d2 :|
+e2 | "D"fefg fagf | "A7"edcd efge | "D"fefg fagf | "A7"edcB A2 ||
+A2 | "D"fefg fagf | "A7"edcd efge | "D"afdf "A7"gece | "D"d2d2- d2 :|
+
+%%sep 2 1 500
+
+X: 3
+T: the KING'S HEAD
+T: Soldier's Joy
+O: Sarah Armstrong 1943
+B: Sam Bayard, "Hill Country Tunes" 1944 #21
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 5 1943.
+N: This is the other name of Soldier's Joy, found in many old collections.
+R: reel
+M: 4/4
+L: 1/8
+Z:AK/Fiddler's Companion
+K:D
+B2 |\
+A2 FG [DA]FDF | [D2A2][D2d2][D2d2] cB | A2 FG [DA]FDF | {F}GFED E2 FG | A FG [DA]FDF |
+[D2A2][D2d2][D2d2]e2 | f2 af egfe | d2 [d2f2]d2 || de | f2 de f2 af | e2 cd e2g2 |
+f2 de fgaf | edcB A4 | f2 de f2 af | e2 cd e2 g2 | f2 af egfe | d2 [d2f2] d2 |]
+
+%%sep 2 1 500
+
+X: 4
+T: Soldier's Joy (jig)
+R: jig
+B: Joshua Campbell's Collection 1778
+N: 2006 Jiggified by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+FG \
+| "D"AFD AFD | A2d "(A7)"dcB | "D"AFD AFD | "A7"G2E EFG \
+| "D"AFD AFD | A2d "(A7)"d2e | "D"fad "A7"egc | "D"d2[fd] d :|
+|: de \
+| "D"fAd faf | "A7"eAc ege | "D"fAd faf | "A7"e2c Ade \
+| "D"fAd faf | "A7"eAc ege | "D"fad "A7"egc | "D"d2[fd] d :|
+%%text Cilla Adams/Borden asked me to play "any good jig, like Soldier's Joy" for a dance, so I did ... [J.C.]
+

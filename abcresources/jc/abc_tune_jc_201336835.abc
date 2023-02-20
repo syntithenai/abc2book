@@ -1,0 +1,38 @@
+X: 1
+T: Short's Garden
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.129
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the dance instructions.
+M: 6/4
+L: 1/4
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g |\
+f>ed (ec)f | d2B B2d |\
+c>BA (BG)c | A2F F2 :|\
+|: c |\
+c>BA Bcd | f>dc d=ef |
+g>ag =e>fg | af2- f2d |\
+eg2- g2f/e/ | df2- f2=e/f/ |\
+g>fg a>ga | b2b b2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First man stand on the wo. side, and the wo. on the man's, then the 1. man cast off and go on the out-side of the 2. wo.
+%% while the 1. wo. goes down the in-side of the 2. wo. and the 2. cu. slip up into the 1. cu. place, then the 1. wo. go up
+%% on the out-side of the 2. man, and the 1. man on the out-side of the 2. wo. into their own places. This to the first Strain
+%% played twice.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. man stand in the 1. wo. place, then the 1. man and 2. wo. cross and go the Figure between the 1. wo. and 2.
+%% man till they come to their places again, then the 1. man and wo. take hands and change into the 2. wo. place while the
+%% other two do over the same, then each cu. change over with his own, and the 1. man and 1. wo. cast off into the 2. cu.
+%% place, while the 2. man goes below the 1. man, and go the Figure between the 2. wo. and 1. man into their own places
+%% again, then the man set to the 1. wo. and jogg with his right elbow and foot, then with his left elbow and foot, and
+%% change places; the other cu. do the like Figure over. This to the second Strain played twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

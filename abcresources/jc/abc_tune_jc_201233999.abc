@@ -1,0 +1,29 @@
+X: 201
+T: the Linden Tree
+C: music: Franz Schubert
+C: words: Wilhelm Muller
+%R: waltz
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Fixed rhythm in bar 6 by making 3rd beat a triplet, as in bar 17.
+M: 3/4
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[BG] | [B3G3] [GE] [GE] [GE] | [G2E2] [E2E2] z[EE] | [F3D3] [GE] [AF] [FD] | [G4E4] z[BG] |
+w: Be-side the rip-pling stream-let There stands a lin-den tree, Where
+w: And if to-day I wan-der In oth-er lands a-far, I
+%
+[B3G3] [GE] [GE] [GE] | [G2E2] [E2E2] z[EE] | [F3D3] [GE] (3([BG][AF]) [FD] | [E4E4] z[EE] |
+w: dream-ing in its shad-ow My hours were sweet* and free; Its
+w: close my eyes and pon-der Be-neath the ev-*'ning star, And
+%
+[F3D3] [FD] [FD] [FD] | ([GE]>[AF]) [B2G2] z[BG] | [c3A3] [BG] [GE] [EE] | [F4D4] z[FD] | [F3E3] [FE] [FD] [FD] |
+w: bark is cut with let-*ters From ma-ny fan-cies made; In joy and sor-row
+w: bear those bran-ches mur-*mur, As if they called to me: "Come back and rest, com-
+%
+([GE]>[AF]) [B2G2] z[BG] | ([e2G3]B) [GE] [AF] [FD] | [B4E4] z[BA] | ([e2G3]B) [GE] (3([BD2]A [FD]) | E4 z |]
+w: ev-*er I sought* its grate-ful shade, I sought* its grate-*ful shade.
+w: pan-*ion, Be-neath* the lin-den tree! Be-neath* the lin-*den tree!"
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,23 @@
+X: 1
+T: Ups and downs
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.11
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: GBdg | f2e2 | dBAG | F/G/A/F/ D2 | GBdg | f2e2 | fdA^c | d4 :|
+|: GgTg2 | FfTf2 | egfd | ^c/d/e/c/ A/G/F/E/ | DGBd | gbdB | cAGF | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: g2b2 | d'2c'2 | b2g2 | d'dd'c' | b2g2 | d'2^c'a | d'2a2 | d'2d2 :|
+|: g2G2 | d2D2 | ^c2df | aA^cA | dBGB | g2G2 | c2d2 | g2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off two Cu. .|
+%% Lead up to the top and Cast off :|
+%% Hands round four with the Third Cu. .|.
+%% Right and Left at top :|:
+%%endtext

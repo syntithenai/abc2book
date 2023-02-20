@@ -1,0 +1,32 @@
+X: 1
+T: Wedding Dress Song
+C: trad.
+O: Peggy Seeger
+%D:
+S: Fiddle Hell Online 2022-4-10 handout for Enion Pelta-Tiller workshop (singing + fiddle)
+R: song, march
+N: The handout also has sample chords rhythmic symbols for the note heads (not transcribed here).
+N: The lyrics were a bit messed up; words overlapped and didn't align with notes.
+N: A few split/tied note changes and some w: markup got the words to align pretty well.
+N: It's not clear why the entire song has repeat signs at both ends.
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+%%continueall
+% - - - - - - - - - -
+|: "Am"z4 E2E2 | "G"D2B,A, G,4 | "G"A,3B, G,3-G,2 || "G"(B,B,)B,2 (B,A,)G,2 |
+w: 1.~Well my lil Do-ney gal don't you guess* Bet-ter be mak-in your
+w: 2.~Well it's al-rea-dy made trimmed in green* Pret-ti-est dress* you've
+w: 3.~Well it's al-rea-dy made trimmed in red*  Stiched*  and sewed* with~a
+w: 4.~Well it's al-rea-dy made trimmed in brown*  Stiched*  a-round* with~a
+w: 5.~Well it's al-rea-dy made trimmed in white*  Gon-na be mar-ried on~a
+w: 6.~Well she wouldn't* say yes~and~she wouldn't say no* All* she'd do* is
+%
+"G"B,2D2 "Am"A,4 || "Am"A,-A,-A,2 B,4 | A,-A,-A,2 "T"G,4- |[M:2/4] G,4 || [M:4/4] "Em"(B,B,)B,2 (B,A,)G,2 | "G"B,2D2 "Am"A,4 :|
+w: wed-ding dress Wed-ding* dress wed-ding* dress_ Bet-ter be mak-ing your wed-ding dress.
+w: ev-er seen E-ver* seen ev-er* seen_ Pret-ti-est dress* you've ev-er seen.
+w: gol-den thread Gol-*den thread gol-*den thread* Stitched* and sewed* with~a gol-den thread.
+w: gol-den crown Gol-*den crown gol-*den crown* Stitched* a-round* with~a gol-den crown.
+w: Satur-day night Sa-tur-day night Sa-tur-day night* Gon-na be mar-ried on~a Satur-day night.
+w: sit and sew Sit* and sew sit* and sew* All* she'd do* is sit and sew.

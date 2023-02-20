@@ -1,0 +1,68 @@
+X: 1
+T: A la Mode de France.
+P: Longways for as many as will
+%R: reel, march
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.116 #173 (231)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.52
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: AKA "Nonesuch", which is usually in D minor.
+M: C|
+L: 1/4
+K: Dmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+a |\
+af ga | f>e da | af ga | f3 :: a |\
+eA de | f>e df | eA de | f3 f |\
+eA de | f>e ca | af ga | f3 :|
+% - - - - - - - - - - Dance description: - - - - - - - - - -
+%%begintext align
+%% Lead up a D. and back, this again :| Sett and turn single. This again :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First Cu. meet, take both Hands and fall in between the 2d Cu. each of
+%% you turn your Faces toward them and put them back, you meet the two
+%% Men and We. all four fall back and turn your We. So to all
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Sides all to the Right and Left and turn S. This again .| Then fall all into one
+%% File, each Wo. behind her own Man :| thus, M W M W M W M W Then Arms all
+%% with your own by the Right and Left and remain in the same Figure, then
+%% Men fall off to the right Hand, and We. to the left, fall back into the same
+%% Figure; then Men to the Left and We. to the Right, and back again into the
+%% same Figure; then the 1st Man fall into his 1st Place, and his Wo. the like,
+%% so the rest, one after another; then the 1st Man take his Wo. by the Hand,
+%% his left Hand to the 2d Wo. his Right to the 3d Wo. and so forward, his
+%% Wo. doing the like on the other Side until you all meet atain in
+%% your Place.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% Lead up all a D. and back, this again :| Set and turn S. This again :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First cu. meet, take both hands and fall in between the 2. cu each of you turn your faces toward them
+%% and put them back, you meet the two men and we. all four vall back and turn your we. So to all.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Sides all to the right and left and turn S. This again .| Then fall all into one File, each wo. behind
+%% her own man: thus, M W M W M W M W. Then arms all with your own by the right and left and
+%% remain in the same Figure, then men fall off to the right-hand, and we. to the left, fal back into the
+%% same Figure, then men to the left and we. to the right, and back again into the same Figure, then the
+%% 1. man fall into his 1. place, and his wo. the like, so the rest one after another, then the 1. man take
+%% his wo. by the hand, his left-hand to the 2. wo. the right to the 3. wo. and so forward, his wo. doing
+%% the like on the other side until you all meet again in your places.
+%% [DMDfD]
+%%endtext
+%%sep 1 1 500
+%%begintext center
+%% The "M W ..." notation refers to the funny "Sun and Moon" symbols at the upper right,
+%% to show the men's and women's positions at the start and in other diagrams of figures.
+%%endtext
+%%sep 1 8 500

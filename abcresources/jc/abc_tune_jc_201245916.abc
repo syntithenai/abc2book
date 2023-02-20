@@ -1,0 +1,14 @@
+X: 1
+T: Alice [A]
+T: Siciliano
+C: G.Ph.Telemann (TWV 51)
+N: from Concerto for oboe d'amore and strings in A
+N: chords by Graham Christian
+M: 3/4
+L: 1/8
+K: A
+"A"|: AB | "A"c3 d e2 | "D"d3 c "E"B2 | "A"c4 A2 | A4 :|
+"B1"[|] "D"f2 | "A"e6- | e2 "D"fg af | "A"e6- | e2 "D"fg aA | "Bm"d3 e d2 | d4 d2 |
+| "E"b4 g2 | e4 "Edim7"d2 | "A"c3 B "D"d2 | "A"c3 d "E"B2 | "A"A6- | A4 |]
+"B2"[|] c2 | "E"B6- | B2 "C#m"c^d ec | "E"B6- | B2 c^d eE | "F#m"A3 B A2 |
+"F#m/e"A4 A2 | "B/d#"c6 | "B"B4 A2 | "C#m"G3 F A2 | "B/d#"G3 A F2 | "E"E6- | "E7"E4 "d.C."|]

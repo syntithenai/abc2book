@@ -1,0 +1,28 @@
+X:1
+T:Cercle circassien
+G:Kazimodal
+R:Cercle circassien
+C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+Q:C3=140
+P:(AB)2AC
+M:6/8
+S:M\'ethode de Yann Dour, t. 1
+K:Am
+P:A
+%%MIDI gchord fzzczz
+%%MIDI chordprog 0
+%%MIDI bassprog 0
+%%MIDI program 0
+|: "Am"E2 A "C"A2 G | "Am"E2 E "G"DB,D | "F"E2 A A2 B | "Dm"cAc "Em"BGB |
+	"Am"E2 A "C"A2 G | "Am"E2 E "G"DB,D |\
+	 "F"EAB "Dm"cdc | "Em"BcB "Am"A3 :|
+P:B
+|: "C"e2 e efe | "D"dcB A2 B | "F"cAA ABc | "G"dBB "Em"Bcd |
+	"C"e2 e efe | "D"dcB A2 B | "F"cdc "G"BcB | "Am"A2 A A3 :|
+%%text 1: Am au saz
+P:C
+|: "C"e2 e efe | "D"dcB A2 B | "F"cAA ABc | "G"dBB "Em"Bcd |
+	"C"e2 e efe | "D"dcB A2 B | "F"cdc "G"BcB |1 "Am"A2 A A3 :|2\
+	"Am"A3 \
+K:Bm
+	"Bm"B2 c

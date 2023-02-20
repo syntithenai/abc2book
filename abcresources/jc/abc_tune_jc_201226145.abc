@@ -1,0 +1,35 @@
+X: 10111
+T: QUICK MARCH IN THE DEMOLITION OF CASTINE
+C:
+%R: march, jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.11 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+G |\
+c2c c2d | e2c cde | f2e d2c | BdB GAB |\
+c2c c2d | e2c cde | f2e dcB | c2c c2 |]
+g |\
+d2d d2e | fef d2g | e2e e2f | g3- g2g |\
+afa geg | fdf edc | def Adc | BAB GA"D.C."B |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+G |\
+E2E E2F | G2E E2E | A2G F2E | D2D B,CD |\
+E2E E2F | G2E E2E | A2G FED | E2E E2 |]
+G |\
+B2B B2c | dcd B2B | c2c c2d | e3- e2e |\
+f2c c2c | G2G G2G | A3 A2A | G3 F3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z |\
+c2c c2c | c2c c2c | d2e f2^f | g2g g2G |\
+c2c c2c | c2c c2c | d2e f^fg | c2c c2 |]
+z |\
+g2g g2g | g2g g2g | c2c c2c | c3- c2c |\
+faf ege | dfd cde | f3 f2^f | g3 G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,17 @@
+X: 20322
+T: LASS GIN YE LO'E ME
+Q: "Moderato"
+%R: jig
+B: "Edinburgh Repository of Music" v.2 p.32 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added dots to late note in strain, to fix the rhythm.
+M: 6/8
+L: 1/8
+K: D
+|:\
+F2A A2d | B>dA B3 | A>Bd d2e | f2g Ha2A |\
+F2A A2d | B>dA B>dg | fba {a}gfe | d>BA A3 :|
+|:\
+({g}Tf>ef) g2g | ({b}Taga) b3 | B>ee e>fg | {g}f>ed c>BA |\
+(F>G)A A2d | (B>d)A (B>d)g | fba ({a}g>fe) | d>BA A2 :|

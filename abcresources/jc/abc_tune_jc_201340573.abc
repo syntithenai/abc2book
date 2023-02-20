@@ -1,0 +1,125 @@
+
+X: 1
+T: The Star of the County Down [Am]
+O: Ireland, Scotland 1726
+R: air, march
+N: Also played in waltz time
+N: This is also the tune for an older song, "My Love Nell"
+B: Loesberg "Folksongs & Ballads Popular in Ireland"
+M: C
+L: 1/8
+K: Am
+EG |\
+"Am"A2A2 A2GA | "C"c2c2 "G"d2cd | "Am"e2dc A2E2 | "Em"G6 EG |\
+"Am"A2A2 A2GA | "C"c2c2 "G"d2cd | "Am"e2dc "Em"A2G2 | "Am"A6 :|
+|: ef |\
+"C"g2e2 e2dc | "G"d2d2 d2cd | "Am"e2dc A2A2 | "Em"G6 EG |\
+"Am"A2A2 "(F)"A2GA | "C"c2c2 "G"d2cd | "Am"e2dc "Em"A2G2 | "Am"A6 :|
+
+%%vskip 3pt
+
+
+X: 1
+T: The Star of the County Down [Em]
+O: Ireland, Scotland 1726
+R: air, march
+N: Also played in waltz time
+N: This is also the tune for an older song, "My Love Nell"
+B: Loesberg "Folksongs & Ballads Popular in Ireland"
+M: C
+L: 1/8
+K: Em
+B,D |\
+"Em"E2E2 E2DE | "G"G2G2 "D"A2GA | "Em"B2AG E2B,2 | "Bm"D6 B,D |\
+"Em"E2E2 E2DE | "G"G2G2 "D"A2GA | "Em"B2AG "Bm"E2D2 | "Em"E6 :|
+|: Bc |\
+"G"d2B2 B2AG | "D"A2A2 A2GA | "Em"B2AG E2E2 | "Bm"D6 B,D |\
+"Em"E2E2 "(C)"E2DE | "G"G2G2 "D"A2GA | "Em"B2AG "Bm"E2D2 | "Em"E6 :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: The Star of the County Down waltz [Am]
+O: Trad
+R: waltz
+N: Also in 2/4 as a ballad.
+N: There is a County Down in both Ireland and Scotland, and both claim this tune.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+EG \
+|: "Am"A4 A2 | "F"A3 G A2 | "C"c4 c2 | "G"d4 cd | "Am"e3 d c2 |\
+[1 "Am"A3 G E2 | "Em"G6- | G2 c2 B2 :|\
+[2 "Dm"A4 A2 | "Am"A6- | A4 |]\
+ce | "C"g4 e2 |
+    e3 d c2 |  "G"d4   d2 |  d4 cd |\
+"Am"e3 d c2 |     A3 G E2 | "Em"G6- | G2 c2 B2 ||\
+"Am"A4   A2 |  "F"A3 G A2 | "C"c4 c2 | "G"d4 cd |\
+"Am"e3 d c2 | "Dm"A4   A2 | "Am"A6- | A4 |]
+
+%%vskip 3pt
+
+
+X: 1
+T: The Star of the County Down waltz [Em]
+O: Trad
+R: waltz
+N: Also in 2/4 as a ballad.
+N: There is a County Down in both Ireland and Scotland, and both claim this tune.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Em
+B,2D2 \
+|: "Em"E4 E2 | "C"E3 D E2 | "G"G4 G2 | "D"A4 GA | "Em"B3 A G2 |\
+[1 "Em"E3 D B,2 | "Bm"D6- | D2 G2 F2 :|\
+[2 "Am"E4 E2 | "Em"E6- | E2 |]\
+G2B2 | "G"d4 B2 |
+    B3 A G2 | "D"A4   A2  |  A4 GA |\
+"Em"B3 A G2 |    E3 D B,2 | "Bm"D6- | D2 G2 F2 ||\
+"Em"E4   E2 | "C"E3 D E2  | "G"G4 G2 | "D"A4 GA |\
+"Em"B3 A G2 | "Am"E4  E2  | "Em"E6- | E2 |]
+
+%%sep 1 1 500
+
+
+X: 1
+T: The Star of the County Down jig [Am]
+O: Trad. Ireland, Scotland)
+R: jig
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+EG "A"|\
+"Am"A2A AGA | "C"c2c "G"dcd | "Am"edc A>GE | "G"G3 zcB |\
+"Am"A2A AGA | "C"c2c "G"dcd | "Am"edc "Em"A2G | "Am"A3 z |]
+ef "B1"|\
+"C"g2e edc | "G"d2d dcd | "Am"edc A2A | "Em"G3 zcB |\
+"Am"A2A AGA | "C"c2c "G"dcd | "Am"edc "Em"A2G | "Am"A3 z |]
+ef "B2"|\
+"C"gag gec | "G"dcd "C"ecd | "Am"edc AGE | "Em"G3 zEG |\
+"Am"AcA "(F)"AGA | "C"cBc "G"dcd | "Am"edc "Em"A2G | "Am"A3 z |]
+
+%%vskip 3pt
+
+
+X: 1
+T: The Star of the County Down jig [Em]
+O: Trad. Ireland, Scotland
+R: jig
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+B,D "A"|\
+"Em"E2E EDE | "G"G2G "D"AGA | "Em"BAG E>DB, | "Bm"D3 zGF |\
+"Em"E2E EDE | "G"G2G "D"AGA | "Em"BAG "Bm"E2D | "Em"E3 z |]
+Bc "B1"|\
+"G"d2B BAG | "D"A2A AGA | "Em"BAG E2E | "Bm"D3 zGF |\
+"Em"E2E EDE | "G"G2G "D"AGA | "Em"BAG "Bm"E2D | "Em"E3 z |]
+Bc "B2"|\
+"G"ded dBG | "D"AGA "G"BGA | "Em"BAG EDB, | "Bm"D3 zB,D |\
+"Em"EGE "(C)"EDE | "G"GFG "D"AGA | "Em"BAG "Bm"E2D | "Em"E3 z |]

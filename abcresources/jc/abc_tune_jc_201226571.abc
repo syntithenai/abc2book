@@ -1,0 +1,23 @@
+X: 10332
+T: PERSIAN DANCE
+%T: Galopede
+%R: reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.33 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+dc |\
+B2Bc A2AB | G2G2G2 AB | {d}cBcd edcB | A2A2A2 dc |\
+BdcB AcBA | G2G2G2 AB | cBAG FGAF | G2B2G2 :|
+|: dc |\
+B2gf e2ed | dcBc A2dc | B2gf edcB | A2A2A2 dc |\
+B2gf edcB | dcBc A2dc | BdcB AcBA | G2G2G2 :|
+|: Bc |\
+d2d2d2g2 | d2d2d2g2 | d2d2 edcB | dcBc A2Bc |\
+d2d2d2g2 | d2d2d2g2 | edcB dcBA | G2[B2G2]G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

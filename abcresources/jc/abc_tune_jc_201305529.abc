@@ -1,0 +1,25 @@
+X: 1
+T: Madsb\/ol Polka nr. 1
+T: Hurrapolka
+O: e. Svend Madsb\/ol, Thy
+R: polka
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Online sheet-music copy via google; no real URL
+M: 2/4
+L: 1/16
+P: (AABBACC)xN+AA
+K: D	% and A and G
+"^A"\
+|:"D"fgfe f2d2 | a2d2 f2d2 | "A"e2ef g2g2 | "D"fefg a2a2 |\
+| "D"fgfe f2d2 | a2d2 f2d2 | "A"e2ef g2fe | "D"d2f2 "^Fine"d4 :|
+K: A
+"^B"\
+|:"A"cde2  cde2 | f2e2 e^de2 | "E"b2e2 e^de2 | "A"c'2a2 aga2 |\
+| "A"cde2  cde2 | f2e2 e^de2 | "E"b2e2 e2fg | "A"a2a2 a2 "_D.C.":|
+P: Trio
+K: G
+"^C"\
+|:"G".b4 "D".a4 | "G"g2g2 B4 | g2g2 "D"f2f2 | "C"e2c2 cBc2 |\
+| "D".a4 "Am".g4 | "D"f2f2 A4 | f2f2 e2e2 | "G"d2B2 BAB2 |
+| "G".b4 "D".a4 | "G"g2g2 B4 | g2g2 "D"f2=f2 | "Am"e2a2 a4 |\
+|"Am"{b}.c'2a2 a^ga2 | "G"b2g2 gfg2 | "D"a2f2 fef2 | "G"g2b2 g4 :|

@@ -1,0 +1,37 @@
+X:1
+T: Paris Hilton - Stars Are Blind
+M: 4/4
+L: 1/8
+Q:1/4=102
+K: D
+V:1
+%%MIDI program 2
+|D,z D,3/2zD,/2D,/2D,/2 D,E,|F,2 F,z3/2F,/2F,/2F,/2 A,F,|G,2 G,3/2zG,/2G,/2G,/2 B,G,|
+A,2 A,3/2zA,/2A,/2A,/2 E,A,|D2 D,3/2zD,/2D,/2D,/2 FE,|C2 F,z C/2F,/2F,/2F,/2 A,F,|G,B, G,3/2zG,/2G,/2G,/2 F,G,|
+A,3/2A,/2 A,A, D/2A,/2A,/2A,/2 E,A,|D2 D,3/2zD,/2D,/2D,/2 FE,|C2 F,z C/2F,/2F,/2F,/2 A,F,|G,B, G,3/2B,G,/2G,/2G,/2 F,G,|
+A,2 A,A, D/2A,/2A,/2A,/2 E,A,|D,A D,/2FED,/2D,/2D,/2 ED|F,D EF3/2F,/2F,/2F,/2 A,F,|G,A G,/2FEG,/2D/2G,/2 ED|
+(3FED E2- E/2A,/2A,/2A,/2 E,A,|D,A D,F E/2D/2D,/2D,/2 D,/2D/2E,/2E/2|F,D EF3/2F,/2F,/2F,/2 A,F,|G,A G,F E/2G,/2D/2G,/2 ED|
+(3FED E2- E/2A,/2A,/2A,/2 DC|C/2DD/2 G,3/2zG,/2G,/2G,/2 FG,|A,2 A,z3/2A,/2D/2A,/2 CA,|D,E/2E/2 E(3EED,D/2D,/2 CD|
+F,E/2E/2 E(3EEF,D/2F,/2 A,F,|G,E/2E/2 E(3EEG,D/2G,/2 CD|F3/2E/2 A,D F/2A,/2A,/2A,/2 E,A,|D,E/2E/2 EE E/2D,/2D/2D,/2 CD|
+F,E/2E/2 E/2E/2E E/2F,/2F/2F,/2 A,/2E/2F,|G,E/2E/2 EE E/2G,/2D/2G,/2 CD|F3/2D/2 A,D F/2A,/2A,/2A,/2 E,D|C2 D2- D/2G,/2G,/2G,/2 B,G,|
+F3/2D/2 A,D F/2A,/2A,/2D/2 E,A,|D2 D,3/2zD,/2D,/2D,/2 D,E,|C2 F,z3/2F,/2F,/2F,/2 A,F,|B,2 G,3/2zG,/2G,/2G,/2 DG,|
+A,2 A,3/2zA,/2A,/2A,/2 E,A,|D2 D,3/2zD,/2D,/2D,/2 D,E,|F,2 F,z C/2F,/2F,/2F,/2 A,F,|G,B, G,3/2zG,/2B,/2G,/2 F,G,|
+A,3/2A,/2 A,A, D/2A,/2A,/2A,/2 E,A,|D2 D,3/2zD,/2D,/2D,/2 D,E,|F,2 F,z C/2F,/2F,/2F,/2 A,F,|G,B, G,3/2zG,/2G,/2G,/2 A,G,|
+D3/2A,/2 A,A, D/2A,/2A,/2A,/2 E,A,|D,A D,/2F/2F/2ED,/2D,/2D,/2 ED|F,D EF3/2F,/2F,/2F,/2 A,F,|G,A G,F E/2G,/2D/2G,/2 ED|
+FE/2D/2 E2- E/2A,/2A,/2A,/2 DC|CD/2D/2 G,3/2zG,/2G,/2G,/2 FG,|E2 A,z3/2A,/2A,/2A,/2 E,A,|D,E/2E/2 EE/2ED,/2D/2D,/2 CD|
+F,E/2E/2 EE/2EF,/2D/2F,/2 A,F,|G,E/2E/2 E(3EEG,D/2G,/2 CD|F3/2E/2 A,D F/2A,/2A,/2A,/2 E,D|D,E/2E/2 EE E/2D,/2D/2D,/2 CD|
+F,E/2E/2 E/2E/2E E/2F,/2F/2F,/2 A,/2E/2F,|G,E/2E/2 EE E/2G,/2D/2G,/2 CD|F3/2D/2 A,D F/2A,/2A,/2A,/2 E,D|C2 D2- D/2G,/2G,/2G,/2 B,G,|
+F3/2D/2 A,D F/2A,/2A,/2D/2 E,A,|D2 D,3/2zD,/2D,/2D,/2 ^G,D,|D,z D,D B/2D,/2D,/2A/2 ^G,D,|F,A F2- F/2F,/2F,/2F,/2 A,E,|
+F,2 F,D F/2F,/2F,/2F,/2 A,F,|=G,2 G,/2F/2D3/2G,/2G,/2G,/2 A,D,|G,2 G,2 B/2G,/2G,/2A/2 A,G|F,A F,3/2zF,/2F,/2F,/2 A,E,|
+F,2 F,C F/2F,/2F,/2F,/2 A,F,|G,2 G,/2E/2F D/2G,/2G,/2G,/2 B,G,|E2 A,3/2zA,/2A/2A,/2 E,A,/2z/2|zE/2E/2 EE/2E3/2D CD|
+zE/2E/2 EE/2E3/2D C3/2z/2|zE/2E/2 EE/2E3/2D CD|(3F2E2D2 F3/2E3/2D|zE/2E/2 EE ED CD|
+zE/2E/2 E/2E/2E EF3/2Ez/2|zE/2E/2 EE ED CD|(3F2D2D2 F3/2E3/2D|C2 D2- D/2D,/2D,/2D,/2 D,E,|
+F,2 F,z F/2F,/2F,/2G/2 A,F,|c2 AF3/2G,/2G,/2G,/2 F,G,|F3/2D/2 A,D F/2A,/2A,/2A,/2 E,D|F3/2D/2 D,D F/2D,/2D,/2E/2 D,D|
+E2 F,z3/2F,/2F,/2F,/2 FF,|G,2 G,3/2zG,/2G,/2G,/2 F,G,|F3/2D/2 A,D F/2A,/2A,/2A,/2 E,D|D,E/2E/2 E(3EED,D/2D,/2 CD|
+F,2 F,z3/2F,/2F,/2F,/2 A,F,|G,E/2E/2 E(3EEG,D/2G,/2 CG,|A,2 A,3/2zA,/2A,/2A,/2 E,A,|D,E/2E/2 E(3EED,D/2D,/2 CD|
+F,2 F,z3/2F,/2F,/2F,/2 A,F,|G,E/2E/2 E(3EEG,D/2G,/2 CG,|A,2 A,z3/2A,/2A,/2A,/2 E,A,|D,z D,3/2zD,/2D,/2D,/2 D,E,|
+F,2 F,z3/2F,/2F,/2F,/2 A,F,|G,2 G,3/2zG,/2G,/2G,/2 F,G,|A,2 A,3/2zA,/2A,/2A,/2 E,A,|D,z D,3/2zD,/2D,/2D,/2 D,E,|
+F,2 F,z3/2F,/2F,/2F,/2 A,F,|G,2 G,3/2zG,/2G,/2G,/2 F,G,|A,2 A,z3/2A,/2A,/2A,/2 E,A,|D,3/2z4zD,3/2|
+D,3/2z6z/2|z6 =c2|
+something I converted from the keymaps posted here (http://forums.lotro.com/showthread.php?t=32036):
+still working on it.

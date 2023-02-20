@@ -1,0 +1,19 @@
+X: 1272
+T: Colonel Wemyss Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.27 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat symbol; not fixed. (Play it as you like.)
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - -
+V: 1 staves=2
+(e/f/ |\
+g)>ce>c d<G{c}TB2 | F<cE<c d<DD(e/f/ | g)<ce<c d<G{c}TB2 | c<GA<F E<TCC :: F | E<GC<E c<GTF>E | F<cE<c d<D-D>F |
+E<GC<E c<GA<F | c<GA<F E<CTC>F || E<GC<E c<GTF>E | F<cE<c d<D-D>F | E<GC<E e<cd<B | c<GA<F E<TCC |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | c2c2 c2c2 | d2c2 g2G2 | c2c2 c2c2 | g2G2 c2c :: z | c2c2 c2c2 | d2c2 G2G2 |
+c2c2 c2c2 | g2G2 c2c2 || c2c2 c2c2 | d2c2 g2G2 | c2c2 c2c2 | g2G2 c2c |]

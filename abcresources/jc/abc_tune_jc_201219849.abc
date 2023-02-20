@@ -1,0 +1,29 @@
+X: 2
+T: the Young Quaker
+%R: jig
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.1 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+{AB}c |\
+(cB).A (AG).F | (FE).E E2{AB}c |\
+(cB).A ({B}AG).A | (c3 B2){AB}c |\
+(cB).A (AG).F | (FE).E E2A |
+(AG).G (GA).B | (B3 A2) :|\
+|: e |\
+({f}e^de) fga | (ecA) (Ace) |\
+({f}e^de) (fga) | (e3 c2)e |
+[1 ({f}e^de) (fga) | (ec).A ({B}AGA) |\
+(AG).G (GAB) | (B3 A2) :|\
+[2 ({f}ed).d ({e}dc).c | (BcA) (GFE) |\
+(ABc) (dBe) | (c3 A2) |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Lead down the mid: up again & Allemande, swing
+%% corners, and foot it outsides.
+%%endtext

@@ -1,0 +1,17 @@
+X: 650
+T: the Maids of Mitchellstown
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #650
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0650/oneill-1001-0650-1.abc
+%m: Tn = (3n/o/n/
+M: C|
+L: 1/8
+K: Dmix
+"^A"\
+[| D2(AG) EFGE | ABGE cAGE | D2AG EFGB | ABGE CEGE \
+|| D2(AG) EFGE | ABGE cAGE | D2(AG) EFGB | AcGE (TED)D2 H |]
+"^B"\
+[| DEGA c2(AG) | Adde f2(ed) | cAGE FEFG | AFGE (TED)Dz \
+|| DEGA c2(AG) | Adde f2(ed) | cAGE FEFG | AddB cAGE |]

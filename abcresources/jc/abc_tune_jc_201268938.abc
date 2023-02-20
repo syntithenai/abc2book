@@ -1,0 +1,26 @@
+X:1
+T: Doctor Fauster's Tumblers
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 31 notes)
+K:D
+M:4/4
+L:1/16
+d4 |d4 A4 d4 e4 |f4 d4 f4 g4 |a8 g4 f4 |e2 d2 e2 f2 e4 A4 |d4 A4 d4 e4 |f4 e4 f4 g4 |a8 g4 f4 |e12 d4 |
+%W: A2
+% voice 1 (1 lines, 30 notes)
+d4 A4 d4 e4 |f4 d4 f4 g4 |a8 g4 f4 |e2 d2 e2 f2 e4 A4 |d4 A4 d4 e4 |f4 e4 f4 g4 |a8 g4 f4 |e12 A4 |
+%W: B1
+% voice 1 (1 lines, 35 notes)
+A4 G2 A2 F4 A4 |A4 G2 A2 F4 A4 |d4 c4 B4 e4 |c4 B2 c2 A4 a4 |a4 g2 a2 f4 f4 |f4 e2 f2 d4 d4 |F4 d4 E4 c4 |d12 A4 |
+%W: B2
+% voice 1 (1 lines, 34 notes)
+A4 G2 A2 F4 A4 |A4 G2 A2 F4 A4 |d4 c4 B4 e4 |c4 B2 c2 A4 a4 |a4 g2 a2 f4 f4 |f4 e2 f2 d4 d4 |F4 d4 E4 c4 |d12 ||

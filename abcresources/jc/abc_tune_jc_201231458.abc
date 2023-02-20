@@ -1,0 +1,29 @@
+X: 15262
+T: Bonny Susie
+C: James Oswald
+%R: air, waltz, minuet
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.5 p.26 #2 (and top 2 staff of p.27)
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"FG |\
+A3B AF | {FG}A2 D2 (d/c/B) | {B}A3 F d>F | {F2}E4 F>G |\
+(A<F)(A<F) (TE>D) | {DE}F2 A2 B2 | d2 a<f Te>d | d4 :: (fg) |\
+a2 (gf) (ga/b/) |
+a2 (gf)(ed) | g2 (ba)(gf) | {f2}e4 fg |\
+a2 gfga | b2 (af)(e>d) | (Bb)(ag)(fe) | d4 (fg) |\
+(af)(ed)(ef) | (dB)(AF)(ED) | (EF) (dB) (AF) |
+{F2}E4 AG |\
+{G}F3 AGB | A2 a2 g2 | (f<a) (f<d) (e<c) | d4 :: FG |\
+(AF) d2 TB2 | (AF) d2 TB2 | A2 (Bd) (bg) | {f2}e4 (de) |\
+(f/e/d) B2 d2 | (B/A/F) E2 (F/A/d) |
+{B}A2 (GF) (TE>D) | D4 :: (fg) |\
+a3 (g/f/) ga | {ga}b2 a2 A>d | TB2 A2 (b/a/g) |\
+{f2}e4 (fg) | a3 f Te>d | d3 e (f/e/d) | e>b a2 g>a |
+{g}f4 d>e |\
+(fa) (fd) (A=c) | (Bd) (AF)(ED) | (GF)(BA)(dF) | {F2}E4 A>G |\
+(FA)(FD)(GB) | A2 (3afa (3geg | (f<a) (f<d) (e<c) | {c2}d4 :|

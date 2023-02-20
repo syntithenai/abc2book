@@ -1,0 +1,30 @@
+X: 1
+T: Cottey House
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.324
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+d3 f2g | afb gea | fdg ecf | dBe c2A |\
+d3 f2g | afb geg | aBc dB2 | A3- A2 |]\
+A |\
+d2d B2B | ede c2c |
+fef ^ABc | c2B B2f |\
+bab g2e | aga f2f | gfg cBc | aga dcd |\
+bed cAG | (FA2) (GB2) | (Ad2) (Be2) | (Ad)c d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. cast off and cross over into the 2. cu. place, the 1. man and 2. wo. lead to the wall, 1. wo.
+%% and 2. man do the same at the same time .| The 2. cu. do the same as the first :| The 1. and 2. cu. turn
+%% back to back and clap hands, then face about and clap hands again, Right-hands across half round, all 4
+%% turn single, the 1. cu. go half a Figure of Eight through the 2. cu. all hands abreast to the top and back
+%% again, the 1. cu. lead between the 2. cu. all a-breast down, the 1. cu. change places the while they lead
+%% down, and all four clap hands twice, and turn their Partners half a turn into their places.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

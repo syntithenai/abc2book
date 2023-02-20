@@ -1,0 +1,30 @@
+X: 93
+T: Cujes Mala
+O: Serbia
+Z: Deborah Jones
+M: 2/4
+L: 1/8
+Q: 1/4=120
+K: G
+%%MIDI program 66
+%%MIDI chordprog 68
+%%MIDI bassprog 25
+%%MIDI chordvol 100
+%%MIDI bassvol 80
+|:"G"[^A^c][Bd] z [Bd]|[^A^c][Bd] z [Bd]     |\
+  [^A^c][Bd] [=ce][Bd]|"D7" [A2c2]"G"[G2B2]  |
+  [B2d2] [ce][d=f]    |"C" [c2e2] "G" [B2d2] |\
+  "D7" [A4c4]         | "G" [G4B4]           |\
+  [D2G2] [FA][GB]     |"A7" [Ac][GB] [FA][EG]|
+  "D" [F4A4]          |[F4d4]                |\
+  "G"[D2G2] [FA][GB]  | "A7"[Ac][GB] [FA][EG]|\
+  "D"[F4A4]           |[F4A4]                :|
+K: D
+|:"D"[^e^g][fa] z [fa]|[^e^g][fa] z [fa]     |\
+  [^e^g][fa] [=gb][fa]|"A7" [e2g2]"D"[d2f2]  |
+  [f2a2] [gb][a=c']   |"G" [g2b2] "D" [f2a2] |\
+  "A7" [e4g4]         |"D" [d4f4]            |\
+  [A2d2] [ce][df]     |"E7" [eg][df] [ce][Bd]|
+  "A" [c4e4]          |[c4a4]                |\
+  "D"[A2d2] [ce][df]  |"E7"[eg][df] [ce][Bd] |\
+  "A"[A4e4]           |[A4e4]                :|

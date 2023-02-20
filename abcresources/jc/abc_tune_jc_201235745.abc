@@ -1,0 +1,19 @@
+X: 21343
+T: LORD BLANTYRE'S STRATHSPEY
+R: strathspey
+B: K\"ohler's Violin Repository, v.2, 1885 p.134 #3
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The first phrase has an extra 1/8 in the last bar.  Fixed by shortening the pickup to phrase 2 to match phrase 3.
+M: C|
+L: 1/16
+K: A
+ue4 |\
+(cde2) (A3e) ce3 a4 | (fd3) =g4 (BG3)G3B |\
+(cde2) (A3e) ce3(af3) |  (=g3d)B3e cA3A3 :|
+ue |\
+(cde2) a4 .a.g.f.e a4 | (Bd3) =g4 (B2G2)G2B2 |\
+(cde2) a4 (gb3) a4 | (e3a)(g3b) aA3A3 ||
+e |\
+(cde3) a4 .a.g.f.e a4 | (Bd3) =g4 (B2G2)G2B2 |\
+(c3e) (d3f) (e3g) (f3a) | (ge3) (a3e) "^Segue Reel."(c2A2)A2 "_D.C."|]

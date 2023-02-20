@@ -1,0 +1,57 @@
+X: 1
+T: Martin and Donna's jig
+C: Nicholas Williams
+R: jig
+S: Paul Lizotte's "Joy of Sets" collection
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+|:\
+"F"CDF GFG | Acd cAF | "Fsus4"GBA GFG-| GBA GFD |\
+"F"CDF GFG | Acd cAF | "Fsus4"GBA GFG | ABA G3 :|
+"Dm"d3 def | "C"edc Gce | "Bb"dcB AFG-| "C"GBA GBc |\
+"Dm"d3 def | "C"edc Gce | "Bb"dcB AGF | ABA Gcd |
+"C"e3 efg | "Dm"fed def | "C"edc cde | "Bb"dcB Bcd |\
+"C"e3 efg | "Dm"fed def | "C"edc BAG | ABA GFD |]
+
+%%sep 1 1 500
+
+X: 1
+T: The Swift
+C: Nicholas Williams
+R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bm
+|:\
+"Bm"BAB ~f3 | gfe fed | BAB f2f |\
+"Em7"ede "F#m7"f3 | "Bm"BAB ~f3 | gfe fed |
+[1 "G"cgf "F#m"Bfe | "Em7"Aed "A"Gdc :|\
+[2 "G"cgf B2B | "A"cBA "Bm"B3 \
+|:\
+"Bm"~B3 fga | gfe "A"A3 | cBc cde |
+efg "Bm"fdB | "A"A2A cde | edc "G"G3 |\
+[1 dcB "F#m"~F3 | Fcf fcF :|\
+[2 dcB "F#m"~F3 | "A"cBA "Bm"B3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Jig du Dimanche apr\`es-midi
+C: Nicholas Williams
+R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|:\
+"A"ABc ecB | ABG AEE | "D"FAd ded | "A"cBA "E"B3 |\
+"A"ABc ecB | ABG AEE | "D"DAd "A"cBA | "E"BAG "A"A3 :|
+"A"cde aba | agf "D"d3 | Bcd "Bm7"fef | fga "E"fee |\
+"A"cde aba | agf "D"d3 | Bcd "A"cBA | "E"BAG "A"A3 ||
+"A"cde aba | agf "D"d3 | Bcd "Bm7"f2f | fga "E"fee |\
+"A"ABc "E/g#"abg | "D/f#"fge "A/e"dec | "D"Bcd "A/e"cBA | "E"BAG "A"A3 |]
+
+%%sep 1 1 500

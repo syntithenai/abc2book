@@ -1,0 +1,28 @@
+X: 1
+T: the Braes of Tullymet. a Strathspey.
+R: strathspey
+S: Fiddle Hell Online 2020-11-05 Se\'an Heel Slow Airs Workshop
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The [f4D4] chord in bar 8 should probably be [f4F4] or [d4D4].
+N: "[M]ay be played Slow when not danced."
+M: C|
+L: 1/16
+K: Gm
+% - - - - - - - - - -
+V: 1 staves=2
+c2 |\
+.Ad3Td3c (Td3cd.f3) | AF3c3F dF3c3B |\
+.Ad3Td3c (Td3cd.f3) | Tf3.d {d}c2BA {A}G4 G2 :: d2 |\
+~g3dgb3 ~g3dgb3 | ~f3cfa3 ~f3cfa3 |
+~g3dgb3 ~g3dgb3 | Tf3d {d}c2A2 G4 G3d |\
+~g3dgb3 d2ga b2g2 | ~f3cf2a2 | c2fg aga^f |\
+g2d2Td3=e Tf3g {fg}a3g | (f2df) (dc).B.A {A}G4 [G2G,2] |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |
+[d4D4][d4D4] [g4G4][g4G4] | [f4F4][f4A4] [f4B4][f4A4] |\
+[d4D4][d4D4] [g4G4][g4G4] | d'4[d4D4] [g4G4][g2G2] :: z2 |\
+[g4G4][g4G4] [g4G4][g4G4] | [f4F4][f4F4] [f4F4][f4F4] |\
+[g4G4][g4G4] [g4G4][g4G4] | [d'4d4][f4D4] [g4G4][g4G4] |\
+[g4G4][g4G4] [g4G4][g4G4] | [f4F4][f4F4] [f4F4][d4D4] |\
+[g4G4][a4A4] [b4B4] [c'4c4] | [d'4d4][d4D4] [g4G4][g2G2] |]

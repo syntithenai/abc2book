@@ -1,0 +1,42 @@
+X: 14
+T: The Yager Horn
+R: march, reel
+M: 2/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 
+a2 | a3ff3d | (d3A).A2.A2 | d2f2e2g2 | (fefg) f2a2 | a3ff3d | (d3A).A2.A2 | d3f egec | d4 D2 :|
+|: d2 |\
+[d4D4].A3.f | [d4D4].A3.f | .d2.f2.A2.f2 | [d4D4] (A/B/c/d/ e/f/g/a/) |\ 
+a3ff3d | d3AA2A2 | d3f egec | d4 D2 :|
+|: D2 |\
+D4A3D | D4A3D | D2A2F2A2 | D4 (A/B/c/d/ e/f/g/a/) |\
+a3ff3d | d3AA2A2 | d3f egec | d4 D2 :|
+|: D2 |\
+D4A3D | D4A3D | D2A2F2A2 | D4A3A | B3dc3e | d3ba2g2 | f3d fedc | d4 D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: z2 |\
+d'4d4 | d'2d2f2a2 | d4a4 | d'2a2f2a2 |\
+d'4d4 | d'2d2f2a2 | f2d2a2A2 | d2A2D2 :|
+|: z2 |\
+[d'6a6f6d6]z2 | [d'6a6f6d6]z2 | [d'4d4][a4A4] | d4D4 |\
+d'4d4 | d'2d2f2a2 | f2d2a2A2 | d2A2D2 :|
+|: z2 |\
+d4a4 | d'4a4 | d2a2f2a2 | f2d2f2a2 |\
+d'4d4 | d'2d2f2a2 | f2d2a2A2 | d2A2D2 :|
+|: z2 |\
+d4a4 | d'4a4 | d2a2f2a2 | f2d2f2d2 |\
+[g4G4][a4A4] | [b4B4] [c'4c4] | [d'4d4] [a4A4] | d2A2D2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands 3. round with 2d Lady. same with the 2d Gen.t -- set 3. & 3.
+%% top & bottom & turn your opposite Partners. set 3 & 3 sides &
+%% turn opposite partners -- Hands 6 round & back again --
+%%endtext

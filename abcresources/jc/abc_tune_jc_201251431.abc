@@ -1,0 +1,28 @@
+X: 1
+T: Behind the Bush in the Garden
+R: jig
+S: Printed page of unknown origin.
+S: https://thesession.org/tunes/1888 (V:1 only)
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Ador
+V: 1 staves=2
+B |\
+c2A AGE | c2A AGE | G2A G2E | GAG GEG |\
+c2d e2a | g2e d2e |
+c2A BAG | A3 A2 :: B |\
+c2B c2d | eag e2d | c2B c2d | e2G G2B |\
+[1 c2B c2d |
+eag e2d | c2A BAG | A3 A2 :|\
+[2 c2d e2a | g2e d2e | c2A BAG | A3 A2 |]
+V: 2
+B |\
+ABA AGE | GFE EDE | B,2C D2E | C3 C3 |\
+EFF GAc | dBG FED |
+EDC DCB, | A,3 C2 :: B |\
+A2G EAB | ccB GAB | cAG E3 | C2E [G2B,2][dG] |\
+[1 A2G  EAB |
+ccB G2F | EDC DCB, | A,3 C2 :|\
+[2 [e2E2][dD] [c2C2][AA,] | [BB,][dD][gG] [fF][eE][fF] |\
+[eE][dD][cC] [dD][cC][BB,] | [A3A,3] [c2C2] |]

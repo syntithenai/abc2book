@@ -1,0 +1,18 @@
+X: 1
+T: Lochnagar Reel
+R: reel
+B: Kerr's Violin #2
+Z: John Chambers <jc:trillian.mit.edu>
+R: Originally a strathspey
+M: 4/4
+L: 1/8
+K: D
+AF \
+| "D"D2DF A2AB | "D"defe eddB | "D"ABdB "Bm"AFFD \
+|1,3 "Em"EDEF "A7"E2 :|2,4 "A7"EDEF "D"D2 :|
+A2 \
+| "D"d2fe eddA | "G"B2dB "D"BAFG \
+| "D"AFED "(Bm)"DddB | "Em"AFED "A7"E2 |]
+fg \
+| "D"agfe fdde | "G"fedB "A7"A2 FG \
+| "D"A2BA "(Bm)"A2ag | "A7"f2ed "D"d2 |]

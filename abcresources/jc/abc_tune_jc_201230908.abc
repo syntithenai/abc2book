@@ -1,0 +1,38 @@
+X: 14311
+T: the Lads of Leith
+%R: jig
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.4 p.31
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gm
+%%slurgraces 1
+%%graceslurs 1
+(B/c/) |\
+ded Tc2B | ABG T^F2D | GAB cA^F | G3- G2 :: (B/c/) |\
+d2b a2g | fdg f3 | BcB fed | cdB TA2F |\
+BAB cBc |
+d2G T^F2D | GAB cA^F | G3- G2 :: (B/c/) |\
+d(B/c/)d Tc2B | (A/B/c)G ^FAD | (G/A/B)G Ad^F | G3- G2 :: B/c/ |\
+dBb fdb | Ta2g fdB |
+(A/B/c)A fed | cde TA2f |\
+(B/c/d)B (c/d/e)c | d2g T^f2g | edc Bd^F | G3- G2 :: (B/c/) |\
+(dB/c/d/)B/ dBf | cA/(B/c/A/) cAf |
+BGd ^FDF | G3- G2 :: (B/c/) |\
+dB/(c/d/B/) fdb | fdg fdB | c(A/B/c/A/) F(A/B/c/A/) | fcA cAF |\
+B2G c2A | dBG ^FAD |
+(G/A/B/c/)d ^FDF | G3- G2 :: (B/c/) |\
+(dB)B dbb | (cA)A caa | gdc BD^F | G3- G2 :: (B/c/) |\
+dfb Ta2g | {g}f2e {e}d2g | {g}f2e dcB |
+Ace ^F2D |\
+GBD AcD | BdD cec | dgB AD^F | G3- G2 :|\
+[M:3/4]|: "_Slow"\
+G(B/c/) d(=e/^f/) g(a/g/) | T^f3 =e d2 |\
+(B/e/)d (A/d/)c (G/c/)B | TB3 A G2 |
+B(B/c/) d(d/e/) f(e/d/) | gg/a/ ba/g/ ( f/g/)f |\
+(e/f/)e (d/e/)d (c/d/)c | TB3 A B2 :: (d/e/)f (d/e/)f (e/d/c/B/) |\
+(A/B/)c (A/B/)c (d/c/B/A/) |
+(G/A/)B (G/A/)B (c/B/A/G/) | TF3 E D2 |\
+(G/D/)G B/G/B c/A/c | (d/B/)d (f/d/)f (g/=e/)g |\
+(a/^f/)a (b/^f/g/d/) (e/c/d/A/) | TA3 G G2 :| 

@@ -1,0 +1,27 @@
+X: 11351
+T: ARIA
+C: Rossini.
+Q: "Moderate."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.135 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F2 |\
+F4 A2{Bc}B2 F2z2 d2z2 | B2z2 g2z2 f8- |\
+f4 (c3d e4) G3A | c4- cBdB F4 z4 |\
+F4 A2{Bc}B2 F2z2 d2z2 | B2z2 g2z2 f8- |\
+f4 (c3d e4) G3A | (c8 B4) |]
+d4 |\
+d8 {dc}B4 {GA}G4 | A6 ^F2 D4 d4 |\
+d8 (edcB) (cBAG) | A12 A4 |\
+(c2B2A2B2) (d2c2=B2c2) | e2(d2^c2)d2 f2e2G2=c2 |\
+(d3c B8) c4 | (^c8 d4) F4 |
+(cBAB) (ABAB) (dc=Bc) (BcBc) | (edcd efga) (c'bag fedc) |\
+g(fed cBAG) (fedc BAG)F | cBAG FEDC B,4 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

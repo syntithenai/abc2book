@@ -1,0 +1,58 @@
+X: 1012
+T: Gillie Callum da pheithein
+%R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.1 #2 (and all of p.2)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The strains have been labelled to help make sense of it all during proofreading.
+M: C
+L: 1/16
+K: Amix
+% = = = = = = = = = =
+% Voice 1 reformatted for 8 6-bar lines.
+V: 1 staves=2
+"^A"|:\
+AA3c2A2 cde2 (.BG3) | AA3c2A2 cde2 (.c2.A2) |\
+BE3 B3e cde2 (.B2.G2) | A2A2 cde2 .d2.B2 e4 :|\
+"^B"|:\
+AA3ce3 g4 (.BG3) | AA3c2e2 Ta3a bagf |
+Tg3g agfe dg3BG3 | AA3 cde2 d2B2 e4 :|\
+"^C"|:\
+eA3cA3 d3G BcdB | eA3cA3 a3A cdec |\
+eA3cA3 d3G BcdB | eA3ce3 d2B2 e4 :|
+"^D"|:\
+AA3ce3 g2G2 BcdB | AA3ce3 a3A cdec |\
+a3A cdec g3G BcdB | AA3ce3 d2B2 e4 :|\
+"^E"|:\
+.E2(A2c2)(e2 d2)(c2B2)(^G2 | E2)(A2c2)(e2 c2)(A2c2)(e2 |
+c2)(A2c2)(e2 d2)(c2B2)(^G2 | E2)(A2c2).e2 d2B2 e4 :|\
+"^F"|:\
+.E2(A2c2)(e2 g2)(d2B2)(^G2 | E2)(A2c2)(e2 a2)(e2c2)(e2 |\
+a2)(e2c2)(e2 g2)(d2B2)(^G2 | A2)(c2e2).c2 d2B2e4 :|
+"^G"|:\
+AAAA c3A dddd B3^G | AAAA c3A eeee c3A |\
+eeee c3A dddd B3^G | AAAA ce3 d2B2 e4 :|\
+"^H"|: AAAA c3A gggg B3G | AAAA c3A aaaa c3A |
+aaaa c3A gggg B3G | AAAA ce3 d2B2 e4 :|\
+"^I"|: eA3cA3 G2(Bc d2)B2 | eA3cA3 A2(cd e2)c2 |\
+eA3cA3 G2(Bc d2)B2 | eA3ce3 d2B2 e4 :|
+"^J"|:\
+AA3ce3 gd3BG3 | AA3ce3 ae3ce3 |\
+ae3ce3 gd3BG3 | Ac3ec3 d2B2 e4 :|\
+"^K"|: Ae3ce3 d4 BG3 | Ae3ce3 Ae3ce3 |
+BE3Ee3 d4 (.B2.G2) | Ae3ce3 d2B2 e4 :|\
+"^L"|:\
+Aa3ca3 g4 (.B.G3) | Aa3ca3 Aa3ca3 |\
+(gagf) (egfe) (deg).d BG3 | ATc3ea3 d2B2 e4 :|
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+"A^"|:\
+A4A4 A4G4 | a4a4 a8 | e4e4 e4g4 | c'4a4 e4c4 :| "^B"|: A4A4 G4G4 |
+A4A4 c4d4 | B4=c4 B4G4 | A4A4 e4c4 :| "^C"|: A4A4 B4G4 | A4A4 A8 |
+A4A4 B4G4 | A4A4 e4A4 :| "^D"|: A4A4 B4G4 | A4A4 A8 | A8 B4G4 | A4A4 e4c4 :| "^E"|:
+A8 B4e4 | A8 A8 | A8 B4e4 | A8 e4c4 :| "^F"|: A4A4 B4e4 | A4A4 A8 | A8
+B4e4 | A4A4 e4c4 :| "^G"|: A4A4 B4e4 | A4A4 A4A4 | A8 B4E4 | A4 A4
+e4 c4 :| "^H"|: A4A4 B4g4 | A4A4 c4A4 | A4A4 B4G4 | A4A4 e4 c4 :| "^I"|: A8
+G4B4 | A8 A4A4 | A8 G4B4 | A4A4 e4c4 :| "^J"|: A4A4 B4G4 | A4A4 A8 | A8 B4G4 |
+A4A4 e4c4 :| "^K"|: A4A4 B4G4 | A8 A8 | B4A4 G4G4 | A4A4 c4c4 :| "^L"|: A4A4 B4G4 | A8
+A8 | B4=c4 B4G4 | A4A4 e4 c4 :|

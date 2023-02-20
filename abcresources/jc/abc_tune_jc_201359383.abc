@@ -1,0 +1,45 @@
+X: 1
+A:Thomas Tallis
+T:Thomas Tallis' First Psalm Tune
+M:none
+L:1/4
+Q:1/4=130
+K:D Dorian
+%
+V:1 clef=treble
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+V:4 clef=bass+16 middle=D,%+
+%
+%%MIDI program 1	79 ocarina
+%%MIDI program 2	74 recorder
+%%MIDI program 3	71 clarinet
+%%MIDI program 4	60 frenchrn
+%
+% Squeeze things together a bit, to get the whole tune to fit on one page.
+%%sysstaffsep    22.0pt
+%%systemsep      50.0pt
+%
+[V:1] D   D    D  ^C2   D  | F2     E  E2   E  | E2   A   A   ^G2 | A2   z |
+[V:2] A,  A,   A,  A,2  G, | D2     B, C2   C  | B,> (CD) E2   E  | E2   z |
+w:   Man blest no doubt who walk'th not out in  wick- ed men's af-  fairs,
+[V:3] D,  F,   F,  E,2  D, | A,2    G, A,2  E, | G,2  A,  B,2  B, | A,2  z |
+[V:4] D,  D,   D,  A,,2 D, | D,2    E, A,,2 A,,| E,2  F,  E,2  E, | A,,2 z |
+%
+[V:1] A     A     A   G2  G  | F> (ED) ^C2   D  | E2    E   D2  ^C  | D2  z |
+[V:2] E     E     E   E2  B, | C   A,2  A,2  A, | B,2   C   A,2  A, | A,2 z |
+w:   and stand'th no  day in  sin-ner's way, nor sit'th in scorn-er's chairs;
+[V:3] C     C     C   B,2 G, | A,  F,2  E,2  F, | G,2   E,  F, E,2  | D,2 z |
+[V:4] A,,   A,,   A,, E,3    | A,, D,D, A,,2 D, | G,,2  C,  D, A,,2 | D,2 z |
+%
+[V:1] F   F    F  F2   F |  F2  E    F2     F | c2  c G>    (FD)| G2  z |
+[V:2] D   D    D  D2   D |  D   C2   C2     C | C> (DE) (CD)  D | E2  z |
+w:   but hath his will in God's law still, this law to* love* a-  right;
+[V:3] A,  A,   A, A,2  A,| _B,  G,2  F,2    F,| A,2 G,   C2   B,| C2  z |
+[V:4] D,  D,   D, D,2  D,| _B,, A,,2 F,,2   F,| F,2 A,,  E, D,2 | C,2 z |
+%
+[V:1] A   A   A  _B2   A | (G>F) F  E2    G | F2    E     D2   ^C  | D4  ||
+[V:2] F   F   F   F2   F |  D2  _B, C2    C | D2    D     A,2   A, | A,4 ||
+w:   and will him use, on   it   to muse, to keep   it   day   and  night.
+[V:3] C   C   C   D2   C | _B,2  F,  G,2  E,| A,2   G,    F,  E,2  | D,4 ||
+[V:4] F,  F,  F, _B,,2 F,| _B,,  D,2 C,2  C,| A,,>(B,,C,) F,, A,,2 | D,4 ||

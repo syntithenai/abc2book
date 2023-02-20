@@ -1,0 +1,44 @@
+X: 3064
+T: Miss Clementina Loughnan's    Strathspey
+C: by Nath.Gow
+%R: air, strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.6 #4 (and top 6 staves on p.7)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+Q: "Slow"
+K: F
+% - - - - - - - - - -
+% Voice 1 (slightly) reformatted for 4 12-bar lines.
+V: 1 staves=2
+A/B/ |\
+Tc2 f>d | {d}cB/A/ cd/e/ | {e}f>d cA | {A}[G2E2] [GE]A/B/ |\
+Tc2 f>d | {d}cB/A/ ca/g/ | TfdTcA | {A}[F2C2A,2][FCA,] :| c/B/ |\
+TA>B cc | dBBd | {d}c{B}A fA | {A}[G2E2][GE]c/B/ |
+TA>B cc | dBdg | (eg)ce | f2 {ef}Fc/B/ ||\
+TA>B cc | dBBd | ca/g/ fA | {A}[G2E2] [GE]c/B/ |\
+Acf_e | dBgb | (b/a/g/)f/ (c/f/)(e/g/) | Tf2 {ef}F |]
+|: !f!c/B/ |\
+A[FA,][FA,][FA,] | T[FA,]>[GC][AF]>[BG] | cc {d}cB/A/ | ([AF][GE]) Gc/B/ |\
+AFFA | (Bd) (GB) | (Ac) (EG) | T[F2C2A,2] [FCA,] :| c |\
+f2 {b}gf/g/ | {fg}a>g fd | {d}cB/A/ fa | {b}[g2e2] T[ge]a |
+Tf>a {b}gf/g/ | {fg}a>g fd | {d}cB/A/ {A}fA | [F2C2A,2] [FCA,]c ||\
+f2{a}gf/g/ | {fg}a>gfc | BgAf | TG>ABd |\
+(ca)Ac | dfBb | {b}ag/f/ c/f/e/g/ | Tf2 {ef}F |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+Ff ab | [f2a2] ab | ab af | c'g c2 |\
+afab | a2[f2a2] | abc'c | fc F :|\
+z | FfFf | Bb Bb | a2 fa |
+c'g c2 | f2 [f2a2] | [f2b2] B2 | c2 c'2 | fc F2 ||\
+Ff af | Bb d'b | ab af | c'g c2 |\
+f2 a2 | b2 B2 | c2 c'2 | fd F |]
+|: !f!z |\
+F/f/c/f/ F/f/c/f/ | F/f/c/f/ F/f/c/f/ | fa bB | cc' c2 |\
+f3 _e | d2 B2 | c2 C2 | Ff F :|\
+z | af c'c | fedB | A2 Ff | cc' c2 |
+af c'c | Ff ab | c'2 c2 | fc F2 ||\
+af c'c | Ff af | gefF | c2 C2 |\
+a2f2 | b2B2 | c2c'2 | fcF |]

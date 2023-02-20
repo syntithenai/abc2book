@@ -1,0 +1,64 @@
+%%center Waukin + Miss Drummond +  Major Molle set
+
+
+X: 1
+T: the Waukin' o' the Fauld
+R: strathspey
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+B: BSFC Tune Book XXXV
+B: BSFC Session Tune Book 2016 p.12 #1
+M: C
+L: 1/16
+K: Ador
+G2 \
+| "Am"EA3 A3B A4 g3e | "G"d3B AG3 "C"E4 D3E \
+| "G"G3A B3A GE3 DE3 | "G"G3A B3A "Em"G3E DG3 |
+| "Am"EA3 A3B A4 G3A | "G"B3A Gd3 "C"e4 "D7"g3a \
+| "G"b3a g3e d2ef g3B | "Em"A3G EG3 "Am"A3 |]
+B2 \
+| "Am"Aa3 a3b "D"a4 g3a | "G"b4 a3g "C"e4 d3e \
+| "G"g3a gb3 G3A BG3 | "G"gfga gb3 "Em"G3A BG3 |
+| "Am"Aa3 a3b "D"a4 g3f | "Em"e3d eg3 "Am"a4 "D7"g3a \
+| "G"(3b2a2g2 (3a2g2e2 d2ef g3B | "Em"A3G EG3 "Am"A3 |]
+
+
+X: 2
+T: Miss Sarah Drummond of Perth
+%T: Calum Crubach
+R: strathspey
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS from Barbara McOwen in Concord Slow Scottish Session collection
+C: Niel Gow
+N: Gow p.144; Hunter 68; Scots Guard 177; Skye p.115; OTDT p.77; BSFC I-49, V-8; Allan's p.12
+M: C
+L: 1/8
+K: ADor
+a |\
+"Am"A<A e>d B<(d e2) | "G"d<g B<g d<g B>G |\
+"Am"A<A e>d "G"B<d e>g | "Em"a<e {a}g>B "Am"A2A :|
+g |\
+"Am"a<a e>a c<a e>f | "G"g<g d>g B<g d>g |\
+"Am"a<a e>a c<a e>g | "Em"a<e {a}g>B "Am"A2(A> ||
+g) |\
+"Am"a<a e>a "D7"c<a e>f | "G"g<g d>g "Em"B<g d>g |\
+"Am"a<a e<a "G"g<b e>g | "Em"a<e {a}g>B "Am"A2A |]
+
+
+X: 3
+T: Major Molle's reel
+C: Andrew Gow
+R: reel
+S: page from Concord Slow Scottish Session collection
+B: The Athole Collection
+M: C|
+L: 1/8
+K: Ador
+B |\
+"Am"Aeed cBAG | "Am"Aeed "Em"c2cB |\
+"Am"Aeef "(D7)"gfge | "G"dBGB "E(m)"edc :|
+B |\
+"Am"AE E/E/E cABG | "Am"AE E/E/E "Em"c2Bc |\
+"Am"AE E/E/E "D7"cABc | "G"BGGB "E(m)"edc |]
+B |\
+"Am"AE E/E/E cABG | "Am"AE E/E/E "Em"c2Bc |\
+"Am"Aeef "(D7)"gfge | "G"dBGB "E(m)"edc |]

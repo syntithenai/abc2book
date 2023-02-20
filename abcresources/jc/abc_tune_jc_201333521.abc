@@ -1,0 +1,31 @@
+X: 1
+T: Saintis Hussars
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.2:4
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+G2g f2e | d3 GGG | A2A A2B | A2d AFD |\
+E2G G,2G | E2G G,2b | a2g def | g3- g3 :|
+|:\
+d2D dcB | A3 DDD | G2A B2G | cdB ABc |\
+d2D d2D | d2D d2g | dcB AGF | G3- G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g2e d2c | B3 B3 | c3 A3 | d3 D3 |\
+c3 G3 | c3 B3 | c3 d3 | g3 G3 :|
+|:\
+d3 bag | f3 d3 | e2f g2e | abg fdc |\
+B3 G3 | B3 c3 | d3 D3 | G3- G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Man turns the 2d Wo. with his Right hand, then turns his own Partner with his Left hand .|
+%% their Partners does the same :|
+%% 1st Cu. Gallops down the middle, Gallop up again and cast off .|
+%% 1st and 2d Cu. Right & Left quite round.
+%%endtext

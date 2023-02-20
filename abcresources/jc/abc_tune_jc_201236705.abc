@@ -1,0 +1,29 @@
+X: 22
+T: The Brandewine
+R: march
+M: 2/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 
+|: B2dB | cFF2 | c2ec | dBB2 | B2dB | eF Ff | G>edc | B2B2 :|
+|: (D>F)(BF) | (EG)(BG) | D>FBF | EDCB, | D>FBF | EGBG | F>edc | [B2D2][B2D2] :|
+|: B2dB | ((3AcA) F2 | f2gf | {f}e2d2 | B2dB | ((3AcA) Ff | bfbf | b2z2 :| 
+|: (B/A/B/c/) .B.B | B>cd2 | (d/c/d/e/) .d.d | d>ef2 | F4 | G4 | e>cAF | [B4D4] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: b2B2 | f2F2 | a2f2 | b2B2 | [b2B2] [b2B2] | bBcd | e2f2 | b2B2 :|
+|: B2d2 | e2g2 | B2d2 | F2B2 | B2d2 | e2e2 | f2F2 | B2B2 :|
+|: B2dB | f2F2 | a2f2 | b2B2 | B2dB | f3f | bfbf | bfBz :|
+|: BbBb | BbBb | BbBb | BbBb | BcdB | efge | f2F2 | B4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% 1st Gentleman sets to the 2d Lady and turn the 3d, the 1st Lady
+%% the same: lead down the middle, up again, cast off and Allemande
+%% right and left.
+%%endtext

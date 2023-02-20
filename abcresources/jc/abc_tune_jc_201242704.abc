@@ -1,0 +1,16 @@
+X:661
+T:Downshire
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 66
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+AG|F2DD D2D2|D2F2A2d2|c2AA A2A2|A2c2 e2g2|fdMd2 edcd|B2g2 g2fg|efgf efed|
+cded cBAG|F2DD D2DD|DFAd DFAd|c2AA A2AA|Aceg Aceg|fAdf edcd|B2g2 g2fg|
+efge d2c2|(e4 d2)::A2|f2ff f2f2|fefg agfg|e2ee e2e2|edef gfed|
+fgfe dcBA|^GABG A2ec|dece BeAe|^GeAe Bece|dece BeAe|^GeAe Bece|
+dFAd fAdf|a2ab agfe|dFAd fAdf|a2ab agfe|Md2fe dcBA|^GAdB A=GFE|F2DD D2DD|
+DFAd DFAd|c2AA A2A2|Aceg Aceg|fAdf edcd|B2g2 g2fg|efge d2c2|(e4 d2):|

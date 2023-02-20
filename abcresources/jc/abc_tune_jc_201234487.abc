@@ -1,0 +1,28 @@
+X: 2054
+T: New la Duchess
+%R: _
+B: Henry Playford "Apollo's Banquet", London 1687 (5th Edition)
+F: https://archive.org/details/apollosbanquetco01rugg
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The rhythms between strains are a bit odd.
+M: 3/2
+L: 1/8
+K: Gm
+% - - - - - - - - - -
+g2 |\
+g6 a2f3e | d6 c2c3d |\
+B3AB2 AGe3d | c3de2 d2g3a |\
+b6 =e2e3f | ^c2g4 f=e=e3d |
+[1 d6 d4 :|[2 d4 |] !segno!d2 |\
+d2c2d2 =B2B2c2 | ABcdec d2d2 :: g2 |\
+=e2^f2g2 | ^f4 g4 a3(g/a/) |\
+b2ag^f2 g2a2^f2 | g6 :: [M:C|] d2 |
+g2a2 b2ag | a2 d4 c2 |\
+c2d2 A2Bc | B2 G4 :: "_Slow."d2 |\
+d2e2 c3c | c4 f3e |\
+dcBc c3B | B4 zfga |\
+b4 zabg |
+a2 a4 d2 |\
+g2e2 ^e^fg2 | ^f6 |[M:3/2]\
+!segno!g2d3f e2e3f | g2=B3B c2A3B | AG^F3F GAA3G | G2 |] G8- G3 |]
+% - - - - - - - - - -

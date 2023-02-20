@@ -1,0 +1,39 @@
+X: 32781
+T: DUET FOR TWO VIOLINS
+C: By Robert Baillie
+P: Violin Primo
+Q: "Allo. M." 1/4=120
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.278 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: This part lacked the Vln2 key change to D at bar 21, but has c naturals thereafter.  K:D inserted in bar 21.
+N: The ending spot isn't indicated, but only bar 20 makes sense.
+U: P=!crescendo(!
+U: p=!crescendo)!
+M: C
+L: 1/8
+K: G
+[|\
+!ff!vb4 ud'3ub | g4 ub3ug | (d^c).d.e (fe).f.g | (a^g).a.b c'2 !segno![|\
+ba | g2g2 a2a2 | b6 (c'b) | a2a2 (d'c')(.b.a) | g4 uc'2uc'2 |
+(ba).g.f (ed).c.B | A4 (GFGB) | (cB).A.G (Fe).d.c |\
+B6 (ag) | .g(gfg) .a(a^ga) | b6 (c'b) |
+.a(a^ga) (d'c')(.b.a) | g4 uc'2uc'2 | (ba).g.f (ed).c.B |\
+A4 (GFGB) | (cB).A.G F2[BD][AD] | [G2G,2][g2B2] [gB] !fine!|]
+K: D
+!f!uABc |\
+[d4D4] u[d3D3]u[dD] | ([d2D2]ed) (dc)BA | (fga^g) (ba=gf) |\
+([f2A2][gA][fA] [e2A2])(ugf) | !p!e2ba g2fe | d2ag f2ed |
+c2cd (cB).A^G | ([^G4B,4] [FA,])P(.A.Bp.c) | !f![d4D4] u[d3D3]u[dD] |\
+([d2D2]ed) (dc)BA | (fga^g) (ba=gf) | ([f2A2][gA][fA] [e2A2])(ugf) |
+!p!e2ba g2fe | d2ag f2A^A | (Bd).c.B uAzuc2 |\
+(e4 d2)z2 | vf2(.c>.d) c2g2 | f2uB>uc B2z2 |
+e2uB>uc B2=f2 | e2uA>B A2(A!ff!B) | "^fz"([=c4F4] [cF])>vBuA>uB |\
+"^fz"[^c4E4-] [cE]>vAuB>uc | (.[dE]>.c)(.B>.A) (.^G>.B)(.e>.d) | c2(.[aA]>.[aA]) [aA](ABc) |
+!f![d4D4] u[d3D3]u[dD] | ([d2D2]ed) (dc)_BA | (fga^g) (ba=gf) |\
+([f2A2][gA][fA] [e2A2]) (ugf) | !p!e2ba g2fe | d2ag f2ed |
+c2cd (cB)A^G | ([^G4B,4] P[FA,])(.Ap.B.c) | !f![d4D4] u[d3D3]u[dD] |\
+([d2D2]ed) (dc)BA | (fga^g) (ba=gf) | ([f2A2][gA][fA] [e2A2])(gf) |
+!p!e2ba g2fe | d2ag f2A^A | (Bd).c.B uAzuc2 | d2fd c2ec |\
+d2fd c2ec | (dc).d.e (fe).f.g | (a^g).a.b =c'2 !segno!"_D.C."|]

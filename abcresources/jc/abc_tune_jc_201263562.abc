@@ -1,0 +1,32 @@
+X:143
+T:Come Dance and Sing
+C:Traditional English
+N:For the dance "The Rifleman"
+Q:1/2=112
+M:2/2
+L:1/8
+K:D
+P:A
+|: ((3ABc) | "D"d2cd "A7"e2de | "D"f2d2 "/"dedc | "Em"B2e2 "E7"efed | "A7"c2A2 "/"A2((3ABc) |\
+| "D"d2cd "A7"e2de | "D"f2d2 dedc | "Em"B2e2 "A7"dcBc | "D"d2D2 D2 :|
+P:B
+|: AG | "D"F2A2 "A7"ABAG | "D"F2A2 "A7"A3G | "D"F2A2 "Bm"d2f2 | "Em"edcB "A7"A2AG |\
+| "D"F2A2 "A7"ABAG | "D"F2A2 "A7"A2Bc | "Bm"d2d2 fefg | "A7"a2A2 A2 :|
+N:Replace by blank line and X field
+T:Galopede
+C:Traditional English
+N:Also used for "The Rifleman"
+L:1/8
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=112
+M:2/2
+K:G
+P:A
+dc | "G"B2Bc "D7"A2AB | "G"G2G2 G2AB | "C"cBcd "Am"edcB | "D7"A2A2 A2dc |\
+"G"B2Bc "D"A2AB | "Em"G2G2 G2AB | "Am"cBAG "D7"FGAF | "G"G2G2 G2 :|
+P:B
+dc | "G"B2gf "C"e2e2 | "G"dcBc "D7"A2dc | "G"B2gf "C"edcB | "D7"A2A2 A2dc |\
+"G"B2gf "C"e2e2 | "G"dcBc "D7"A2dc | "G"BdcB "D7"AcBA | "G"G2G2 G2 ||
+P:C
+Bc | "G"d2d2 d2g2 | "/"d2d2 d2g2 | "G"d2d2 "C"edcB | "D7"A2A2 A2Bc |\
+"G"d2d2 d2g2 | "/"d2d2 d2g2 | "C"edcB "D7"dcBA | "G"G2G2 G2 |]

@@ -1,0 +1,12 @@
+X: 1
+T: TEST of inline V:
+%%staffwidth 150
+K: Am
+[V:1] CDEF GABc |
+w:  C D E F  G A B c |
+[V:2] CDEF GABc |
+w:  C D E F  G A B c |
+[V:1] cBAG FEDC |]
+w:  c B A G  F E D C |]
+[V:2] cBAG FEDC |]
+w:  c B A G  F E D C |]

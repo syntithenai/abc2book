@@ -1,0 +1,48 @@
+
+X: 1
+T: Kalamatianos 1
+O: Greece
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: C
+zG,2"^A" \
+| "C"C3/D/E/^F/ G^F G2 | GAB c2 BA \
+| G2A _BG AF | E^DE FE GE \
+| "C"C3/D/E/^F/ G^F G2 | BAB dc BA |
+| G2A _BG AF | E^DE HC :| \
+[K:Ddor]\
+"^B"|: zB,C \
+| "Dm"D2D DA GF | "C"EDE FD EC \
+| "Dm"DCB, "(C)"A,G, B,C | "Dm"D2D DA GF |
+| "C"EDE FG EC | "Dm"D2 z2:| \
+[K:_B_e^F] \
+"^C"|: zD2 \
+| "D"{A}GFG A2 A2 | {c}BAG FE D2 \
+| {A}GFG AB cd | {d}c>BA/G/ FE D2 |
+| "Cm"E2E EA GF | EDC AG FE \
+| "D"D2D DC DE | F2F FA GF \
+| "Cm"EDC AG FE | "D"D2 z2:|
+K:DDor
+"^D"|: A^AB \
+| "C"cBd {d}c_B AG | "Dm"F2G "C"ED EC \
+| EDE FG EC | "Dm"DEF GA ^AB \
+| "C"cBd {d}c_B AG |
+| "Dm"F2G "C"ED EC | EDE FG EC \
+| "Dm"D2 z2:| \
+[K:=B_e^F] \
+"^E"|: AGF \
+| "Cm"EDC B,C DE | FGA FE DE |
+| "D"F2F FA GF | "Cm"EDC B,C DE \
+| FGA FD EC | "D"D2 z2:| \
+[K:Dm] \
+"^F"|: CDE \
+| "Dm"F2E FG FE | FGA "C"F2 E2 |
+| CDE FD EC | "Dm"DEF "C"GC DE \
+| "Dm"FGE FG FE | FGA "C"F2 E2 \
+| CDE FD EC | "Dm"D2 z2:| \
+[K:=B_e^F] \
+"^E"|: AGF |
+| "Cm"EDC B,C DE | FGA FE DE \
+| "D"F2F FA GF | "Cm"EDC B,C DE \
+| FGA FD EC | "D"D2 z2:|

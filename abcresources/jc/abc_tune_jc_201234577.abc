@@ -1,0 +1,23 @@
+X: 20611
+T: the Vows of endless Love
+%R: air
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.61 #3
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Missing dots added to a few notes, to fix the rhythm.
+N: The {g} in bar 6 should be {g2} (1/8th note), but available software turns that into a 1/4 note.
+N: Bar 10 is missing a 1/32nd note; not fixed.
+M: C
+L: 1/16
+K: G
+%%slurgraces 1
+%%graceslurs 1
+"_Tender"G3A |\
+(B2A2)(c2B2) (d2c2)(B2A2) | (G2B2)(d2g2) Tg6(fe) |\
+(d2B2) (TA2G2) F2G2 {f}e2(dc) | {B4}A8 z4 G3A |\
+(B2A2)(c2B2) (d2c2)(B2A2) |
+(G2B2)d2(g2 {g}f6)g2 |\
+{fg}a6 g2 (f/e/d3) (e/d/)c3 | {c4}d12 :: a4 |\
+(g2f2)(e2d2) {ga}b6 a2 | g6(b/a/) (g/f/e/d/c/B/c/) {c2}HB6 g2 |
+(d2B2)(A2G2) (F2G2) {f}e2(d/c/) | {B4}A8 z4 G3A |\
+(B2A2)(c2B2) (d2c2)(B2A2) | (G2B2)(d2=f2) {f}He4 z2^f2 |\
+(ge3) (d3e) (d/c/)B3 (A/G/)F3 | {F4}G12 :|

@@ -1,0 +1,26 @@
+X:1
+T:Macpherson's Rant  "rpband"
+M:C
+L:1/8
+Q:80
+C:Declan Masterson
+S:4/4 march
+K:HP
+[| A | \
+{Gdc}d2{gdc}de{Gdc}d2{g}e3/2f/2 | \
+{gf}g3/2f/2{gef}ed{gef}e2{g}f3/2g/2 | \
+{ag}a2-af{gf}gf{gef}ed |
+{g}B4{GdG}B3a | \
+{g}a2-af{gf}gf{gef}ed | \
+{gfg}f2{g}e2{A}e2{g}A3/2B/2 |
+{Gdc}d2-df{gef}e2{g}dB | \
+{g}A4{GAG}A2|] |]
+{g}f3/2g/2 |
+{ag}a2-af{gf}gf{gef}ed | \
+{gfg}f2{g}e2{A}e2{g}f3/2g/2 | \
+{ag}a2-af{gf}gf{gef}ed |
+{g}B4{GdG}B3a | \
+{ag}a2-af{gf}gf{gef}ed | \
+{gfg}f2{g}e2{A}e2{g}A3/2B/2 |
+{Gdc}d2-df{gef}e2{g}dB | \
+{g}A4{GAG}A3|]

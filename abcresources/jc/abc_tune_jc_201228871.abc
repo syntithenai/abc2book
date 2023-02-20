@@ -1,0 +1,27 @@
+X: 11713
+T: WALTZ
+C: J. W. Wilms, Berlin.
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.171 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: Am
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+{B}A^G |\
+A2E2 {d}cB | c2A2c2 | B2(efed) | c2B2 {B}A^G |\
+A2E2 (cd/c/) | B2e2=G2 | (B{d}cBAG^F) | E4 :|
+|: {=f}e^d |\
+e2^G2A2 | c2B2 {f}e^d | e2(B2A2) | (e2d2) {cd}cB |\
+c2A2 (ef/e/) | c2a2e2 | e{g}fedcB | "^Fin."A4 H:|
+K: A
+AB "Majore."|\
+c2c2c2 | c2B2c2 | (d4c2) | B2e2 AB |\
+c2c2c2 | c4c2 | c2edcB | A4 :|
+|: c2 |\
+B2e2e2 | (^df)e2 (ge) | b2g2e2 | ^d(fef=de) |\
+c2c2c2 | c4c2 | e2(edcB) | "^D.C."A4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

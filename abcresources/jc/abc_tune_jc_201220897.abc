@@ -1,0 +1,29 @@
+X: 40
+T: Irish Air
+O: "In Love in a Camp"
+%R: jig
+B: "The Hibernian Muse" p.24 #2 - 25 #1
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. XL.
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+e |\
+A>BA A2c | A>BA A2F | G>AG B2B | G3[g2e2B2]B |\
+B>cB B2^A | B>cB B2B | c2f f>g^e | f3 [a2c2]a |
+e>fe e2c | e3 [a2c2]c | c>dc c2c | F3 [a2f2c2]G |\
+AGF BAG | cBA fed | cBA G2c | F3 z2G |
+A>BA A2c | A>BA A2F | G>AG B2B | E3 [g2e2B2]B |\
+cBA dcB | edc agf | edc B2e | A3 [a2e2c2] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+A2z a2z | A2z a2z | g2z b2z | e3 e'2z |\
+d'2z d2z | d'2z d2z | a2f c'2c | f3 F2z |
+c'3 c'2a | c'3 z2z | c'3 c3 | f3 F2z |\
+f2z g2z | a2z d'c'b | agf c'2c | fcA F2z |
+A2z a2z | A2z a2z | g2z b2z | e3 e'2z |\
+a2z b2z | c'2z f'e'd' | c'ba e'2e | aec A2 |]

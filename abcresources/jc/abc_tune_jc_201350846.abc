@@ -1,0 +1,114 @@
+X:1 % number
+T:The Wavering Planet % title
+C:Giles Farnaby % composer
+O:Transcribed from Noteworthy Composer format by Myscha Aiken % origin.
+M:C % meter
+L:1/4 % length of shortest note
+Q: % tempo
+V:1 name="Cantus"
+V:2 name="Altus"
+V:3 name="Tenor"
+V:4 name="Bassus" clef=bass
+K:C % key
+%1=2==============3===================4=================5================
+V:1 % voice 1
+d4 | d/c/B/A/ G g | g/f/e/d/ c/B/A/G/ | ^F/E/ D G B-|B A/G/ A G |
+w:The wav-er-ing pla-net, the wav-er-ing plan-et, the wa-ver-ing plan-et, the wav--er-ing plan-et
+V:2
+z4 | d2 d/c/ B/A/ | G g e/d/ c/B/ | A/G/ ^F/E/ D d | e c/B/ c/d/ e |
+w:The wav-er-ing plan-et, the wav-er-ing plan-et, the wav-er-ing plan-et, wav-er-ing plan-et
+V:3
+z4 | z G2 G/F/ | E/D/ C2 C | D>C B,2 | C3 C |
+w:The wav-er-ing plan-et, the wav-er-ing plan-et
+V:4
+z4 | z4 | z4 | z4 | z4 |
+%
+%
+%============7============8==========9============10==========11
+V:1
+^F G2 F | G e/f/ g d | e c B c | z B e d | d ^c d B |
+w:most un-sta-ble, God-dess of the wa-ters flow-ing, of the wa-ters, flow-ing that
+V:2
+d B/c/ d A | B c2 B | c A ^G A-|A G A A | A A A G |
+w:most un--sta--ble, God-dess of the wa-ters-- flow-ing wa-ters, flow-ing that
+V:3
+D G, D D | z G E/F/ G | C>D E A, | E2 E F | E2 ^F D |
+w:most un-sta-ble, God-dess-- of the wa-ters, flow-ing wa-ters flow-ing that
+V:4
+D, D B,/C/ D | G, C, z2 | z2 E, E | C/D/ E ^C D | A,2 D, G, |
+w:God-dess of-- the wa-ters, God-dess of the wa-ters flow-ing that
+%
+%
+%==========12============13=========14=====15=========16
+V:1
+c>c B c-|c B A A | B2 z _B | _B4-|_B2 _B2 |
+w:bears a sway in_ each thing grow-ing, and makes_ my
+V:2
+A>G G G | ^F G2 F | G2 z d | d4 | f4 |
+w:bears a sway in each thing grow-ing, and makes my
+V:3
+F>E D E | A, B,/C/ D2 | D2 z G | F4 | D4 |
+w:bears a sway in each thing-- grow-ing, and makes my
+V:4
+F,>C, G, C, | D, D, D,2 | G,2 z G, | _B,4-|_B,2 _B,2 |
+w:bears a sway in each thing grow-ing and makes my
+%
+%
+%======17===========18========19========================20================21
+V:1
+c3 _B | A G A2 | A4 |: A>B c/d/ e-|e d/c/ B2 |
+w:La-dy var-i-a-ble, oft I seek to un-der---mind
+V:2
+f3 e/d/ | ^c d2 c | d2 D>E |:[L:1/8] FG A3 BcB//A// |[L:1/4] ^G A2 G |
+w:La-dy* var-i-a-ble, oft I seek to un-der-mind_____
+V:3
+A3 G/F/ | E D E2 | ^F2 z D-|:[L:1/8] DE FG A3 G/F/ |[L:1/4] E2 E2 |
+w:La-dy* var-i-a-ble, oft_ I seek to un-der--mind her
+V:4
+F,3 G, | A, _B, A,2 | D,4 |: z4 | z4 |
+w:La-dy var-i-a-ble,
+%
+%
+%===========22=====================23===============24============25======================26
+V:1
+A2 E>^F |[L:1/8] GA B3 cdc/B/ |[L:1/4] A G A2 | B2 z2 |[L:1/8] z4 z2 cd |
+w:her, oft I seek to un-der-mind_____ her Oft I
+V:2
+A2 z2 | [L:1/8] z8 | [L:1/4] z4 | z D>E F/G/ |[L:1/8] A3 B c3 B/A/ |
+w:her, oft I seek to un-der-mind her_
+V:3
+A,>B, C/D/ E-|[L:1/8] EF G3 F/E/DE |[L:1/4] ^F G2 F | G2 z A,-|[L:1/8] A,B, CD E3 F |
+w:oft I seek to un-der-mind________ her oft_ I seek to un-der-
+V:4
+z A,>B, C/D/ |[L:1/8] E3 D/C/ B,3 D |[L:1/4] D4 | G,2 D,>E |[L:1/8] F,G, A,3 B, C2-|
+w:oft I seek to un-der----mind her, oft I seek to un-der-mind
+%
+%
+%=================27===============28========29===========30=============31
+V:1
+ef g3 f/e/ d2 |[L:1/4] e f e2 | ^f2 z2 | z d>^c d | e f d e |
+w:seek to un-der---mind__ her, yet I know not where, not where,
+V:2
+GABc dc/B/AB |[L:1/4] ^c d2 c | d2 z2 | A>^G A F | E A>^G A |
+w:oft I seek to un-der--mind____ her, yet I know not where, yet I know
+V:3
+G3 F/E/ DEFG |[L:1/4] A F A2 | D2 F>E | F D E D-|D/ ^C/ D B, C |
+w:mind her,_ oft I seek to un-der-mind her, yet I know not where, yet_ I know not where
+V:4
+CB,/A,/G,A, B,C D2 |[L:1/4] A,4 | z2 D>^C | D B, A, D, | A, D, D>^C |
+w:________ her, yet I know not where to find her, yet I
+%
+%
+%=======32============33============34===========35=========]
+V:1
+A>^G A F | E d>^c d | e f e e |[1 d4 :|[2 d4 |]
+w:yet I know not where, yet I know not where to find her, her.
+V:2
+F z2 d-|d/ ^c/ d e f | e d2 ^c |[1 d2 D>E :|[2 d4 |]
+w:not, yet_ I know not where for to find her, oft I her.
+V:3
+z D>^C D | E F E D-|D/ ^C/ D A>G |[1 ^F2 z D :|[2 ^F4 |]
+w:yet I know not where, I know_ not where to find her, oft her.
+V:4
+D B, A,2 | A,4 | A,4 |[1 D,4 :|[2 D,4 |]
+w:know not where to find her, her.

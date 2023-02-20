@@ -1,0 +1,25 @@
+X:1004
+T: Yolanda
+O: Cuba
+F: http://www.youtube.com/watch?v=yVTtrViTXvU
+M: 4/4
+L: 1/8
+K: G
+Q: 1/4=160
+V:1
+%%MIDI program 56 % trumpet
+%%MIDI beat 118 108 98 4
+|:B,CDE FG3 |B,CB,C B,B,.E2|z6F2     |B,C B,CB,Ez2::
+V:2
+%%MIDI program 24 % Acoustic Guitar
+%%MIDI beat 90 80 80
+K:G clef=bass
+|:G,2z6     |z2B,2G,2,E,2  |F,2z6    |z2B,2G,2E,2::
+V:1
+  zBBB BGGG | BGGG.A2.F2   |zAAA AFFF| AFFF.G2.E2::
+V:2
+  B,2z6     |z4A,2F,2      |A,2z6    |z2B,2G,2E,2::
+V:1
+  EG2Ez4    |EGGB BFz2     |FA2F z4  |FAAB BEz2   :|
+V:2
+  E2z6      |z4a,2F,2      |A,2z6    |z2B,2G,2E,2 :|

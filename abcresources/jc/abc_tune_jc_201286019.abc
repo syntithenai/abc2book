@@ -1,0 +1,14 @@
+X:1
+T:Hewlett
+R:Waltz
+C:Turlough O'Carolan
+M:3/4
+L:1/8
+%%printtempo 0
+Q:160
+K:D
+AF \
+|: "D"D2 DE FG | "A"(AB) c2 A2 | "Bm"d2 f2 fg | "G"{fg}fe d3B |"D"A2 F2 F2 |
+"G"{A}G3B AG |"D"(AF) D2 D2 |1 D4 ((3A,B,C) :|2 D6 || "D"{AB}A2 D2 AB | {AB}A2 D2 AB | A2 d2 d2 |
+"Bm"{de}dc BA GF |"Em"G2 G,2 (GA) | {GA}G2 G,2 (GA) | "A"G3(BA)(G | "D"AF) D3(E/F/ |FE F2) G2 |
+"A"(AB) c2 A2 | "Bm"(fe) (fg) (ag) | "G"(fe) (d3B |"D"A2) F2 F2 | "G"{A}G3B AG | "D"AF D2 D2 | "D"D4|]

@@ -1,0 +1,15 @@
+X: 865
+T: Byrne's Hornpipe #2
+R: hornpipe
+%S: s:2 b:10(5+5)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #865
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0865/oneill-1001-0865-1.abc
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play (A1A2)x2 + (BA2)x2
+M: C|
+L: 1/8
+K: D
+"^A"[|] (A>G) | F>EF>G A>FD>c | d>Bc>d e>cA>g |[1,3 f>dg>e f>de>c | (3(dcB) c>d e>c :|[2,4 (3(faf) d>f (3(ege) c>e |
+| d>fe>c d2 "^B":: (c>d) | e>cA>c e>fg>e | a>fd>f b>ge>g | a>fd>f g>ea>f | (3(gfe) f>d e>"^->A2"c |]

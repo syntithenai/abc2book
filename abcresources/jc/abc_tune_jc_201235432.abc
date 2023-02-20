@@ -1,0 +1,49 @@
+X: 21141
+T: DUET FROM THE "GOLDEN PIPPIN."
+C: Monsignier.
+%R: march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.114 (and p.115)
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces a compact 5-staff layout for proofreading.
+V: 1 staves=2
+[|\
+G2zg  GBAc | B3g B3c | {e}d2(cB) (dc)(BA) | {c}B2{A}G2 z4 |\
+z8 | z8 | z8 | z4 z2d2 |\
+{e}d2cB cBAG | A4 z4 | z8 | z4 z2a2 |
+c'2a2 z2bg | f2d2 z2a2 | a>gfe d2c2 | c2B2 z2g2 |\
+b2g2 z2ge | ^c2A2 z2A2 | ^cdef g2f2 | f2e2 z2zA |\
+d2fd ^c2ec | d2fd A2zA | d2fd ^c2ec | d2fd A2zA |
+d2e2 f2g2 | a6 bg | f2d2 (fe)(d^c) | d4 z2zA |\
+d2e2 f2g2 | a6 bg | f2d2 fed^c | d4 z4 |\
+d3e d2d2 | Bcd2 z2g2 | "p.115" d3e d3c | {c2}B4 z4 |
+z8 | z8 | z8 | z4 z2d2 |\
+=f2d2 z2ec | B2G2 z2d2 | d>cBA G2=F2 | =F2E2 z2e2 |\
+g2e2 z2ge | ^c2A2 z2A2 | ^cdef g2gg | g2f2 z2zd |
+g2bg f2af | g2bg d2zd | g2bg f2af | g2bg d2zd |\
+g2a2 b2d2 | e4 z2ac' | b2g2 (ba)(gf) | g4 z2zd |\
+g2a2 b2d2 | e6 ac' | b2g2 (ba)(gf) | g4 a4 |
+b4 c'4 | g4 a4 | b4 c'4 | g4 a2c'2 |\
+b2g2 f2d2 | g4 a2c'2 | b2g2 (ba)(gf) | g2g2 g2g2 | g6 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout (10 staffs with 6-8 bars per staff).
+V: 2
+[|\
+z8 | z8 | z8 | z8 | g3a g2f2 | e2d2 z2d2 | e3f e2d2 |
+c2B2 z4 | z8 | z4 z2d2 | {d}d2cB cBAG | d4 z4 | z2dd d2d2 | z2dd ddfa |
+d2d2 z2dd | g2g2 z4 | z2ee e2e2 | z2AA AA^ce | A2A2 z2dd | a2a2 z4 |
+a4 a4 | a4 a2ze | f2af e2ge | f2af ^c2zg | f2e2 d2e2 | f6 ge |
+d2F2 G2A2 | d4 z2zg | f2e2 d2e2 | f6 ge | d2F2 G2A2 | d4 z4 | z8 | z8 |
+"p.115"\
+z8 | z8 | g3a g2g2 | fed2 z2dd | d2(ed) c2B2 | A4 z4 | z2GG G2G2 | z2GG GGBd |
+G2G2 z2GG | c2c2 z4 | z2AA A2A2 | z2AA AA^ce | A2A2 z2ee | e2d2 z4 |
+d4 d4 | d4 d2zB | B2dB A2cA | B2dB G2zc | B2A2 G2B2 | c4 z2fd | g2B2 c2d2 |
+G4 z2zB | B2A2 G2B2 | c6 fd | g2B2 c2d2 | B4 c4 | d4 e4 | B4 c4 | d4 e4 | B4 f2d2 |
+g2G2 d2B2 | B4 f2d2 | g2B2 c2d2 | G2G2 G2G2 | G6 z2 |] 
+% - - - - - - - - - - - - - - - - - - - - - - - - -

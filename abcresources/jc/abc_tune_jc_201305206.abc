@@ -1,0 +1,23 @@
+X: 1
+T: MacNamara's Band   [C]
+O: American version
+%C: words: John J. Stamford
+C: music: Shamus O'Connor
+S: https://digital.library.temple.edu/digital/collection/p15037coll1/id/3489
+R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 6/8
+K: C
+%"^Intro"[|] CDE |\
+%"F"F6- | F2A c2A | "Gm"G6 | d3 "G#dim"e2d | "C7/G"c2c "F#dim"c2c | "C7/G"c2B "/C"A2G | "F"F6- | F3 ||
+"^Vocal"|: g2-g |\
+"C"e2e e2e | e2e e2e | e2e d2c | G3- G2e | "G7"f2f f2f | "C"g2g "Am"c2d |1,3 "D7"e2e d2c | "G7"d3 \
+                                                                       :|2,4 "D7"e2e "G7"d2d | "C"c3 |]
+%"^Chorus"|: c2-c |\
+%"F"A-AA A-AA | A-AA A-AA | A-AA G2F | C3- C2A | "C7"B2B B2B | "F"c2c "Dm"F2G |1 "G7"A2A G2F | "D7"G3 \
+                                                                       :|2 "D7"e2e "G7"d2d | "C"c3 ||
+"Instr."[|\
+GAB | "C"c6- | c2e g2e | "G7"d6 | d2B GA^A | B6- | B2d g2f | "C"e6- | e2c 
+"^Intro."[|]\
+GAB | "C"c6- | c2e g2e | "Dm"d6 | a3 "Adim"b2a | "G7"g2g "Gdim"g2g | "G7"g2f e2d | "C"c6- | c3 |]

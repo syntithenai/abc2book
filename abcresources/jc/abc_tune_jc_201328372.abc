@@ -1,0 +1,12 @@
+X: 1
+T: Randy Miller's Tour of Scotland
+S: Bernie Waugh
+F: http://www.math.dartmouth.edu/~doyle/docs/waugh/w2.abc 2012-10-19
+R: Reel
+M: 4/4
+L: 1/8
+K: D
+   z | "D(Bm)"DB,A,B, D2EA | FAEF "Bm"DB,~B,2 | "D"DB,A,B, DFFE | "G"DB,B,D "A"B,A,A, :|
+|: B | "Bm(G)"BAAd BdAd | "G"fdef dB~B2 | "Bm"BAAd BdAd | "G"faec "(A)"d3B :|
+|: e | "D(maj7)"fa~a2 fbeg | defd BAAe | "F#m"fa~a2 ba~a2 | fbaf efde |
+     | "G(maj7)"fa~a2 fbeg | defd BAFA | "A(9)"BAFB AFAd | "(D)"fa"(A7)"ef "D"d3 :|

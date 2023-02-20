@@ -1,0 +1,17 @@
+X: 30333
+T: SOMERS WALTZ
+C:
+%R: waltz
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.33 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Rest added to last measure to fix the rhythm, and match the 1st strain's ending.
+M: 3/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+EGc | BdF | EGc | c2B | cGE | EDE | FGF | [E2C2]z :|\
+GcG | FAF | EGE | E2D | GcG | FAF | EGE | D2"^D.C."z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

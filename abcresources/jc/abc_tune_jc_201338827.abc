@@ -1,0 +1,19 @@
+X:678
+T:Snowflake Waltz
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=120
+%%MIDI chordname dim 0 3 6 9
+%%MIDI beat 100 95 80
+C:Mary Brock, 2007
+M:3/4
+L:1/8
+%%MIDI program 4
+%%MIDI chordprog 54
+%%MIDI bassprog 54
+K:C
+P:A
+[| "C"G4G2 | "C"G4EG | "Bb/Ab"F4F2 | "Bb/Ab"F4DF | "C"G4G2 | "C"G4EG | "Bb/Ab"F4F2 | "Bb/Ab"F4DF |
+"C"G4G2 | "Am"c4C2 | "Bb/Ab"G3F GF | "G7"E3D B,D | "C"CG-G4 | "Em"B,G-G4 | "Dm7"A,G-G4 | "G7"G,G-G4 |
+P:B
+|: "C"EFG2E2 | "Bb/Ab"Fd c_AFD | "Am"EFG2E2 | "Bb/Ab"Dc _AF DF |\
+"C"EDC2E2 | "D/F#"D3C A,C | "Fdim"D3C ^G,C | "Em"G,A,B,2 "G7"D2 :|

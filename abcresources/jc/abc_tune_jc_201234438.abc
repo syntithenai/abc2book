@@ -1,0 +1,18 @@
+X: 20512
+T: WALTZ.     in Der Freisch\"utz
+R: waltz
+B: "Edinburgh Repository of Music" v.2 p.51 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+(Adf |\
+"_>"baf)(Adf | baf)(Adf | age)(Ace | "_>"gfd)(Adf |\
+"_>"baf)(Adf | "_>"baf)(Adf | age)(Ace | d3 |]
+(eac' |\
+"_>"f'e'c')(eac' | "_>"f'e'c')(eac' | "_>"e'd'b) (e^gb | "_>"d'c'a) (eac' |\
+"_>"f'e'c')(eac' |"_>"f'e'c')(eac' | "_>"e'd'b)(e^gb | a3) |]
+(Adf |\
+"_>"baf)(Adf | "_>"baf)(Adf | "_>"age)(Ace | "_>"gfd)(Adf |\
+"_>"baf)(Adf | ")>"baf)(Adf | "_>"age)(Ace | d3) |]

@@ -1,0 +1,30 @@
+X: 053
+T: PERTH-SHIRE HUNT
+C: By MISS STIRLING OF ARDOCH
+R: Reel
+B: Glen Collection p.5 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Added missing flag to pickup to 2nd part.
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: A
+%
+V: 1
+F |\
+E2CE A,ECE | A,ECE FB,B,F | E2CE A,AcA | ceBd cAA :|
+e |\
+(c/B/A) eA fAeA | (c/B/A) ec fBBe | (c/B/A) eA fAeA | E>FAB cAAe |
+(c/B/A) eA fAeA | (c/B/A) ec fBBe | ceAc dfB>c | EFAB cA[AC] |]
+%
+V: 2
+z |\
+A2[a2e2] [e2c2][a2e2] | [e2c2][a2e2] [g2e2][g2e2] |\
+A2[a2e2] [e2c2][a2e2] | [a2e2][g2e2] [a2A2][c'ae] :|
+z |\
+A2[c'2a2e2] [c'2a2e2][c'2a2e2] | [c'2a2e2][c'2a2e2] [b2g2e2][b2g2e2] |\
+A2[c'2a2e2] [c'2a2e2][c'2a2e2] | [c'2a2e2][c'2a2e2] [c'2a2e2][c'2a2e2] |
+A2[c'2a2e2] [c'2a2e2][c'2a2e2] | [c'2a2e2][c'2a2e2] [b2g2e2][b2g2e2] |\
+a2[e'2c'2] d2[b2f2] | e2[d'2b2] [c'2a2][aeA] |]

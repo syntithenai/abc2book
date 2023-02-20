@@ -1,0 +1,30 @@
+X: 363
+T: Mr MACDONALD OF STAFFA
+T: known as Niel Gow's wife
+C: D. Mc LAREN
+R: Strathspey
+B: Glen Collection p.36 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Gm
+%
+V: 1
+d |\
+B<GG>B A>FD>d | B<GG>A B>AB<g | B<GG>B A>FD>d | B<Bc>A FBB :|
+d/c/ |\
+B<Bd>B f>Bd>B | F<FAF/A/ c>FA<c | B<BdB f>Bd<f | g<g{ga}b>g d<gg>b |
+f<dd>f e<cc>e | d>BG>c B>AB<F | G/G/G B/B/B c/c/c d>c | B>G {B}AG/^F/ DGG |]
+%
+V: 2
+z |\
+G2[g2d2] d2[a2f2] | G2[g2d2] [g2d2][g2d2] |\
+G2[g2d2] d2[a2f2] | [b2g2][a2f2] B2[d'bf] :|
+z |\
+B2[b2f2] d2[b2f2] | F2[f2c2] A2[f2c2] |\
+B2[b2f2] d2[b2f2] | G2[g2d2] [g2d2][g2d2] |
+b2[f'2d'2] f2[c'2a2] | g2g2 d2d2 |\
+e2[b2g2] [b2g2][a2^f2] | d2[c'2a2] [b2g2][gdBG] |]

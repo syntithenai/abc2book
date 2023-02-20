@@ -1,0 +1,26 @@
+X: 21312
+T: ITALIAN SETT (tune 5)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.131 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+A |\
+dcd e2f | d2f a3 | (ag).e (gf).d | fed cBA |\
+(dc).d e2f | d2f a3 | (ag).e ABc | d3- d2 H:|
+c/d/ |\
+e2e dcB | ABc def | g2B fed | cde A2d |\
+efe dcB | ABc def | gag fed | a3- "^D.C."a2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies all balance to the right,
+%% all promenade,
+%% gentlemen the same
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

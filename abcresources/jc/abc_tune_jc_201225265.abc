@@ -1,0 +1,34 @@
+X: 09263
+T: CARACTACUS
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.9 p.6 #3
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 1 clef=treble middle=B
+|:\
+[d3B3] dBd | G2[BG] [c2A2][ec] | [d3B3] dBd | [A2F2][BG] [c2A2]e |\
+[d3B3] dBd | G2[BG] [c2A2][ec] | gfe dcB | [A2F2][BG] [c2A2]e :|
+|:\
+gbg dBd | gbg dBd | gbg dcB | [A2F2][BG] [c2A2]e |\
+gbg a2c' | bag fed | gfe dcB | [A2F2][BG] [c2A2]e :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+|:\
+G3 g3 | G3 g3 |  G3 g3 | d3- d2z |\
+G3 g3 | G3 g3 |  G3 g3 | d3- d2z :|
+|:\
+G3 g3 | G3 g3 |  G3 g3 | d3- d2z |\
+g3 d3 | G3 g3 |  G3 g3 | d3- d2z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & change sides, back again,
+%% down the mid: up again,
+%% and Allemande.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

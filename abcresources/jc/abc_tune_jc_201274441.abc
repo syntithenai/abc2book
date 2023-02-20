@@ -1,0 +1,26 @@
+X:1
+T: Familiar Quotations
+N:
+C:Tune is "Lillehammer Waltz" by J Jensen
+S:
+A:
+O:
+R:
+M:3/4
+K:Am
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 24 notes)
+K:Am
+M:3/4
+L:1/16
+e6 c2 A2 f2 |e6 c2 A2 a2 |g4 e4 c4 |d12 |c6 A2 F2 d2 |c6 A2 F2 f2 |e4 c4 A4 |B12 |
+%W: A2
+% voice 1 (1 lines, 22 notes)
+A6 B2 c2 e2 |A6 B2 c2 e2 |a4 c6 d2 |e12 |f4 A4 B4 |c4 d4 ^d4 |e6 c2 B4 |A12 |
+%W: B1
+% voice 1 (1 lines, 26 notes)
+e6 ^c2 A2 f2 |e12 |g6 f2 e2 d2 |f4 d8 |e4 B4 f4 |e4 c2 B2 A2 c2 |B4 ^F2 ^G2 A2 B2 |^G4 E8 |
+%W: B2
+% voice 1 (1 lines, 22 notes)
+A6 B2 c2 e2 |A6 B2 c2 e2 |a4 c6 d2 |e12 |f4 A4 B4 |c4 d4 ^d4 |e6 c2 B4 |A12 ||

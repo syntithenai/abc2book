@@ -1,0 +1,36 @@
+X: 20081
+T: the MAID OF SELMA
+O: "From "Johnson's Musical Museum."
+Q: "Very slow."
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.8 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: B
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+Bc |\
+d2(dc) | (cB)(GF) | F2GB | c2(Bc) |\
+{Bc}d2(dc) | (cB)(GF) | F2(GB) | B2zd |\
+f3e | {e}d2cB | {B}c2zf | (ed)(cB) |\
+A2G>F | F2z2 | zFFG | B3c |\
+(Bc/d/) c2 | zFFG |
+B2cd | edcB |\
+G4 | F2FG | (Bc/d/) c>B | B3d edcB |\
+f2ff | g2gf | {e}d2dc | B2(cd) |\
+e2d2 | f2(fe) | {e}d2(c>B) | A2(G>F) |\
+F2z2 | d2dc | (cB)(GF) | F2G>B |
+B2cz | (Bc/d/) d>c | (c>B)(G>F) | F2G>B |\
+HB2zB | B2Bc | d3d | e2ee |\
+{e}d2cB | G2c>c | B2F2 | z2FF |\
+f2fe | {e}d3c |
+B2cd | e3e |\
+{e}d2cB | B2cz | zFFG | B2Bc |\
+{e}d2cB | B2cz | {Bc}d2dc | (cB)(GF) |\
+F2(GB) | B2z2 | {Bc}d2dc | (cB)(GF) |\
+F2(GB) | B4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

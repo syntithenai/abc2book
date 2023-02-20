@@ -1,0 +1,33 @@
+X: 31072
+T: COTILLION No. 15. WARREN SETT tune 5
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.107 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+dc |\
+B2B2 BcAB | G>AB>c d>ef>g | e2a2f2d2 | gfga g2 dc |\
+B2B2 BcAB | G2G2 GFGA | Bedc BAGF | G2B2G2 H|]
+cB |\
+A2A2 ABcd | e2a2e2c2 | a2ec a2ec | A2A2A2 ^GA |\
+B2B2 e2c2 | d2d2f2d2 | d2d2 ^c2=c2 | B4 "^D.C."G2 |]
+K: Gm
+B2 |\
+B3A A3G | ^F6 D2 | d3c c3B | B6 A2 |\
+e2ed c2c2 | d2dB A2A2 | B2d2 ^F2A2 | G4 "^D.C."G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 lead to right,
+%% chassa out,
+%% form lines,
+%% ladies forward and back,
+%% gents the same,
+%% ladies chain across the hall,
+%% all forward and back, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

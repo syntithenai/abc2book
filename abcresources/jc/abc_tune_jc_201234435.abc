@@ -1,0 +1,21 @@
+X: 20511
+T: Saw ye a Lassie of fifteen Years
+%R: jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.51 #1
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The Dmix key signature is odd, since all the c notes are sharped.
+M: 6/8
+L: 1/8
+K: Dmix
+"_Brisk"A |\
+FGA ABA | d2A A2G | FGA ABA | e2E E2A |\
+FGA ABA | d2A e2A | fed Ad^c | d2D D2 :|
+|: a |\
+fed fed | e2A A2g | fed fed | g2f e2(a/g/) |\
+fed fed | gfe gfe | fed Ad^c | d2D D2 :|
+|: A |\
+TF2A BAA | dAA eAA | F2A BAA | dAA eEE |\
+TF2A BAA | dAA eAA | Bgf ed^c | d2D D2 :|
+|: a/g/ |\
+fdf fdf | e^cA Aag | fef def | gfe eag |\
+fed gfe | agf bag | fed Ad^c | d2D D2 :|

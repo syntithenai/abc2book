@@ -1,0 +1,12 @@
+X:17
+T:Tecumseh
+M:6/8
+Q:1/8=300
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+F|E2F G2A|B2e dBG|A2B c2A|B2G FED|E2F G2A|B2e dBG|A2B c2A|BGE E2::
+d|e2f g2e|fag fed|e2f g2e|fdB B2d|e2f g2e|fag fed|e2B c2A|BGE E2:|

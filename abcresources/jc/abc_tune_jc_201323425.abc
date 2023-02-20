@@ -1,0 +1,57 @@
+
+X: 1
+T: Pete's Breakdown
+T: Peas Breakdown; Peace River Breakdown
+C: Ernest Couvrette
+% \'Emilien Emmanuel (Pete) Couture (1902-1977), St-Boniface, Winipeg
+F: https://www.thursdaycontra.com/~spuds/tunes/reels/PeasBreakdown.abc
+F: https://www.thursdaycontra.com/~spuds/tunes/reels/PeasBreakdown.png
+F: https://tunearch.org/wiki/Peas_Breakdown
+S: Michael Pavan, RJ mailing 20200207
+W: From the playing of Gaston Bernard
+M: C
+L: 1/8
+K: Bm
+|: \
+"Bm"b2 a2 f2 e2 | d2 B2 B2 Bd | "F#m"cAFA fedc | "Bm"Bcde "F#m"f3 f |
+"Bm"b2 a2 (3fbf e2 | dBBB B2 Bd | "F#m"cAFA fedc | "Bm"BdcA B2 z2 :|
+K: D
+"A7" FE |: \
+"D"DDA,D FEDF | ADFA dced | "A7"cGGG GBAG | "D"FDDD "A7"D2 (3FGF |
+"D"DDA,D FEDF | ADFA dfed | "G"cGGG "Em"GBAG | \
+[1 "A7"FDEC "D"D2 "A7"(3EFE :|[2 "A7"FDEC "D"D2 z2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Pete's Breakdown II [in C]
+T: Peas Breakdown; Peace River Breakdown
+C: \`Emilien "Pete" Couture
+% \'Emilien Emmanuel (Pete) Couture (1902-1977), St-Boniface, Winipeg
+F: https://www.thursdaycontra.com/~spuds/tunes/reels/PetesBreakdown2.abc
+F: https://www.thursdaycontra.com/~spuds/tunes/reels/PetesBreakdown2.pdf
+S: Michael Pavan, RJ mailing 20200207
+M: C|
+L: 1/8
+K: Am
+|: "Am"a2 g2 e2 d2 | c2 cB ABcA | "E"B2 AB edcB | "Am"ABcd e2 e2 |
+|  "Am"a2 g2 e2 d2 | c2 cB ABcA | "E"B2 AB edcB | "Am"Aaec A4 :|
+K: C
+|: "C"C2 G,C E2 CE | G2 EG cedc | "G"B2 F2 FAGF | "C"E2 C2 C4 |
+|  "C"C2 G,C E2 CE | G2 EG cedc | "G"B2 F2 FAGF | "C"E2 C2 C4 :|
+W: Simplified version from the 1953 recording by Don Messer and his Islanders.
+W: https://youtu.be/S8IbdpRxyRo
+
+%%sep 1 1 500
+
+X: 1
+T: Peas Breakdown
+T: Pete's Breakdown; Peace River Breakdown
+R: reel
+N: handwritten MS of unknown origin (2005)
+M: C|
+L: 1/8
+K: Bm
+|: "Bm"b2a2 f2e2 | "Bm"d2B2 B2Bd | "F#m"cAFA fedc | "Bm"Bcde "F#m"f3f || "Bm"b2a2 (3fbf e2 | "Bm"dBBB B2Bd |
+| "F#m"cAFA fedc | "Bm"Bd"A"cA "Bm"B2z2 :: FE | "D"D2A,D FEDF | "D"ADFA dced | "A7"cGGG GBAG |
+| "D"FDDD "A7"DGFE || "D"D2A,D FEDF | ADFA dfed | "A7"cGGG GBAG | FDEC "D"D2 :|

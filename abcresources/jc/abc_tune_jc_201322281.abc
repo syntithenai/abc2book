@@ -1,0 +1,31 @@
+X: 1
+T: Parham Place
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #5 (19)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat.
+N: The first note (e) in bars 7 and 17 seem to have a # drawn above, but this doesn't make much sense.
+M: C
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2 |\
+g2b2 g2b2 g2fe d2d2 | (efg)e (fga)f g4 z2d2 |\
+g2ba g2ba g2fe d2cB | cBcA d2D2 G6 :|\
+|: e2 |\
+d2 g4 d2 Tc3B c2dc | (Bcd2) c2A2 B2 A4 d2 |
+"^#"e3f e2f2 g2(fe) d4 | G(AB2) A2G2 F2 G4 d2 |\
+(ef)g2 (fg)a2 g2 b4 g2 | f4 Te4 d4 z2B2 |\
+(cde2) d2c2 (Bcd2) c2B2 | (cde2) d2c2 (Bcd2) c2B2 |
+Tc3d e2f2 g2fe d2c2 | B4 TA4 G4 z2d2 |\
+g2 b4 d2e2 g4 B2 | e2e2 (fga)c B4 z2B2 |\
+"^#"e3f e2fe d2g2- gfed | cBAG D2F2 G6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. cast off below the 2d Cu. and clap hands and turn sides .|
+%% The 2d Cu. do the same :| then the 1st Cu. go the whole figure and foot it
+%% then right hands and left and turn Partners then the 1st Cu. set their
+%% hands on their sides and foot it and cast off below the second Couple
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,26 @@
+X:1
+T:Castle & Keys
+M:C|
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+|: {g}e3/4d/4 | \
+{gcd}ce{g}B3/2c/2 | \
+{g}A3/2B/2{gcd}c{e}A |
+{gBd}Bf{gfg}fe/2c/2 | \
+{gcd}c{g}B{GdGe}B{g}e3/4d/4 | \
+{gcd}ce{g}Bc/2 |
+{g}A3/2B/2{gcd}c{e}A | \
+{gBd}Bf{gef}eG | \
+{gBd}B{e}A{GAG}A ::
+e | \
+{ag}a3/2e/2{gcd}c{e}A | \
+{ag}a3/2e/2{gcd}ce | \
+{g}fg/2a/2{ef}ec |
+{gcd}c{g}B{GdGe}Be | \
+{ag}a3/2e/2{gcd}ce | \
+{g}A3/4B/4{g}c3/4d/4{gef}e3/2c/2 |
+{Gdc}df{gef}eG | \
+{gBd}B{e}A{GAG}A :|

@@ -1,0 +1,40 @@
+X: 12021
+T: Lovely Nancy by Mr Oswald
+%R: air
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.2-3
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: G
+"_Slow"TB3A |\
+G4 G4 (G3A/B/) | {B}A4 A4 (A3B/c/) | {c}B4 (ge3) (dB3) | {B2}A8 (TB3A) |\
+G4 G4 (dB3) | {B}A4 A4 (ge3) | (d3e) (dB3) (A3B) | G8 :|
+|: B3c |\
+d4 d4 ge3 | {e2}d8 B3c | d4 dB3 g3B | {B4}A8 TB3A |\
+{A}G4 G4 (dB3) | {B}A4 A4 (c3d/e/) | d3e (dB3) A3B | G8 :| |]
+%
+|: B3A |\
+(3G2B2d2 g4 (3G2B2d2 | (3A2c2e2 a4 (3A2c2e2 | (3(d2g2b2) (3(a2g2f2) (3e2g2B2 | {B2}A8 (TB3A) |\
+(3G2B2d2 g4 (3d2g2b2 | (3a2g2f2 g4 (3e2c2e2 | (3d2g2e2 (3d2B2G2 (3c2A2F2 | G8 :|
+|: (B3c) |\
+d4 (3d2e2f2 (3g2a2b2 | (3d2e2c2 B4 c4 | (3d2b2a2 (3g2f2e2 (3d2g2B2 | {B2}A8 (B3c) |\
+d4 (3(g2a2b2) (3(c'2b2a2) | (3(b2a2g2) e4 g4 | (3d2B2G2 B4 cA3 | G8 :|
+|: (TB3A) |\
+G4 (3(G2A2B2) (3(d2B2G2) | A4 (3(A2B2c2) (3(B2d2g2) | Ted3Tdc3TcB3 | {B2}A8 (B3A) |\
+G4 (3(G2A2B2) (3(d2B2G2) | A4 (3(A2B2c2) (3(B2d2g2) | (3(e2c2A2) (3(d2B2G2) (3(c2A2F2) | G8 :|
+|: B3c |\
+d4 (3(d2e2f2) (3(g2f2e2) | d4 (3(d2B2c2) (3(d2B2c2) | (3(d2e2f2) (3(g2e2c2) (3(d2B2G2) | {B2}A8 (TB3A) |\
+G4 (3(G2A2B2) (3(d2B2G2) | A4 (3(A2B2c2) (3(B2g2e2) | (d3e) (dB3) (TA3B) | G8 :|
+|: TB3A |\
+G2B2d2g2 G2b2 | A2c2e2a2 A2c'2 | b2g2a2e2g2B2 | {B2}A8 B3A |\
+G2B2d2g2 G2b2 | A2c2e2a2 A2c'2 | b2g2 B4 (cA3) | G8 :|
+|: (B2c2) |\
+d2g2d2a2d2b2 | d2c'2d2d'2d2c'2 | (b2a2)(g2d2)(c2B2) | {B2}A8 (B2A2) |\
+G2d2G2e2A2f2 | B2g2c2a2d2g2 | (e2c2) B4 (cA3) | G8 :|
+|: (TB3A) |\
+G2G2- GBdg bgdB | A2A2- Acfa c'afc | (Bd)g2 (ec)g2 (dB)g2 | {B2}TA8 (TB3A) |\
+G2G2- GBdg bgdB |
+A2A2- Acfa c'afc | (Bg)e2 (dB)G2 cAF2 | G8 :: (B3c) |\
+d2d2- defg afd'2 | d2d2 defg (af)d'2 |
+(b2g2)(a2e2)(g2B2) | {B2}A8 (B3c) |\
+d2g2 dgb2 d2c'2 | d2d'2 "_Part 2d"(.c'.b.a.g .f.e.d.c) | (Bd)g2 B4 (cA3) | G8 :|

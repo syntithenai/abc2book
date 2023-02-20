@@ -1,0 +1,20 @@
+X:071
+T:Fraser Patrick's Reel
+C:Stan Watts
+R:polka, reel
+Z:2010 John Chambers <jc:trillian.mit.edu>
+N:The tied notes are half notes in the original, but more polka-like if split into two quarters.
+B:RSCDS Leaflet 7
+B:RSCDS "Originally Ours" 2005
+M:C|
+L:1/8
+K:F
+AG \
+| "F"F2AG F2A2 | "F"c2c2 c4 | "F"c=Bcd c_BAF | "C7"EFGA B4 \
+| "C7"C2EG B2c2 | "C7"e2e2 e4 | "C7"edcB AGFE | "F"FGAB c4 |
+| "F"F2AG F2A2 | "F"c2c2 c4 | "F"c=Bcd cdef | "Gm"g2d2 d4 \
+| "Gm"g2g2 gfed | "F"c2c2 c4 | "Gm"G^FGA "C7"Bcde | "F"f2-f2 f4 |]
+[| "F"a4 f4 | "F"c2cd c4 | "F"FGAG FGAF | "Bb"d2-d2 d4 \
+| "Gm"g4 d4 | "Gm"B2Bc B4 | "C7"EFGA Bcdc | "F"A2-A2 A4 |
+| "F"a4 f4 | "F"c2cd c4 | "F"FGAG FGAF | "Bb"d2-d2 d4 \
+| "Gm"g^fga g=fed | "F"c=Bcd c4 | "Gm"G^FGA "C7"Bcde | "F"f2-f2 f2 |]

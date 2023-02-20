@@ -1,0 +1,26 @@
+X: 012
+T: Lady Mary Ramsey
+%R: strathspey
+M: C|
+L: 1/16
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.1 #2
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+N: Rhythm fixed by adding an initial rest and fixing the E/E/EE2 ornaments.
+K: D
+z2 |\
+D6d2 AF3F3B | AF3B3G AF3Fd3 |\
+D6 B2 AF3FA3 | BD3A3F EEE2E2 :|
+de |\
+f2d2df3 e2c2ce3 | d2B2Bd3 A2F2F2de |\
+f2d2df3 e2c2cA3 | B2d2A2F2 EEE2E2 ||
+de |\
+f2d2df3 e2c2ce3 | d2B2Bd3 A2F2FA3 |\
+df3ce3 Bd3AB3 | Fd3A3F EEE2E2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast of two couple up again lead down the
+%% middle up again sett and turn corners lead
+%% out sides with your partner
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

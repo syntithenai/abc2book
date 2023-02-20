@@ -1,0 +1,21 @@
+X: 2021
+T: Why
+O: Zambia
+N: Also Israeli dance choreographed by Dudu Barzilay
+F: https://www.youtube.com/watch?v=hMyqqwdGJDo
+F: https://www.youtube.com/watch?v=8opfXaBA2A8
+M: 2/4
+L: 1/8
+P: ABCCB
+K: D
+%%MIDI program 24 Acoustic Guitar
+P:A
+L:1/8
+G4      | F2zF    |EEDE      |FD3    |A,GGG|FFFF|EEDC|DB,3 :|
+P:B
+z2DD    | D>CB,D  |A,D/D/D2  |C>C B,C| D2DD|
+D>CB,D  |A,D/D/D2 |C>C B,C   |D4     |
+P:C
+L:1/16
+z2B2A2G2|GGGG GGGG| FFFF FFFF|E4 D2E2|F4z4 |
+z2B2A2G2|G2G2 G2G2| F2F2 F2F2|E4 D2C2|B,4z4|

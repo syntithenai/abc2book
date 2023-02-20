@@ -1,0 +1,55 @@
+X: 1
+T: A Happy New Year
+C: ?
+B: Hodder and Stoughton, "THE STORY OF THE JUBILEE SINGERS; WITH THEIR SONGS" London 1875 No.92 p.213
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+V: 1 clef=treble middle=B
+V: 2 clef=bass   middle=d
+V: 1
+[CC] [CC] |\
+[F2C2] [A2F2] [A2F2] | [G4E4] [CC] [CC] |\
+[G2E2] [B2G2] [B2G2] | [A4F4] [FF] [FF] |
+w: What a hap-py new year, What a hap-py new year, What a
+V: 2
+[af] [af] |\
+[a2f2] [c'2f2] [c'2f2] | [c'4c4] [c'c] [c'c] |\
+[c'2c2] [c'2c2] [c'2c2] | [c'4f4] [af] [af] |
+%
+V: 1
+[A2F2] [cA]<[AF] [AF] [AF] | [B2G2] [dB]<[BG] [BG] [BG] |\
+[A2F2] [B2G2] [G2E2] | "Fine"[F4F4] :|
+w: hap-py,* what a hap-py,* what a hap-py new year.
+V: 2
+[c'2f2] [c'2f2] [c'f] [c'f] | [d'2B2] [d'2B2] [d'B] [d'B] |\
+[c'2c2] [c'2c2] [b2c2] | [a4f4] :|
+% ==================================
+V: 1
+[C2C2] |\
+[F2C2] [A2F2] [A2F2] | [G4E4] [C2C2] |\
+[G2E2] [B2G2] [B2G2] | [A4F4] [F2F2] |
+w: 1.~I'm run-ning thro' grace To that hap-py place; Thro'
+V: 2
+[a2f2] |\
+[a2f2] [c'2f2] [c'2f2] | [c'4c4] [c'2c2] |\
+[c'2c2] [c'2c2] [c'2c2] | [c'4f4] [a2f2] |
+%
+V: 1
+[A2F2] [cA]<[AF] [A2F2] | [B2G2] [dB]<[BG] [B2G2] |\
+[A2F2] [B2G2] [G2E2] | "D.C."[F4F4] |]
+w: grace I'm* de-ter-min'd* To see my Lord's face.
+V: 2
+[c'2f2] [c'2f2] [c'2f2] | [d'2B2] [d'2B2] [d'2B2] |\
+[c'2c2] [c'2c2] [b2c2] | [a4f4] |]
+%
+W: 2.One thing I do find,
+W:   I'll keep it in my mind,
+W:   He won't live in glory
+W:   And leave me behind.
+W:
+W: 3.O sinner, believe
+W:   Christ will you receive,
+W:   For all things are ready,
+W:   And you stand in need.

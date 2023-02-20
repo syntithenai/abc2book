@@ -1,0 +1,38 @@
+X:1
+T: Nowton Park
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 120
+%W: A1
+% voice 1 (1 lines, 37 notes)
+K:D
+M:4/4
+L:1/16
+A2 |D6 F E D2 F E D2 d2 |D6 F E D2 F E D2 d2 |e2 g2 e2 c2 d e d c d2 A2 |F2 A2 F2 D2 A2 B G F2 G E |
+%W:
+% voice 1 (1 lines, 32 notes)
+D6 F E D2 F E D2 d2 |D6 F E D2 F E D2 a2 |g2 e2 c2 e2 d e d c d2 f2 |e c3 B ^G3 A6 A2 |
+%W: A2
+% voice 1 (1 lines, 36 notes)
+D6 F E D2 F E D2 d2 |D6 F E D2 F E D2 d2 |e2 g2 e2 c2 d e d c d2 A2 |F2 A2 F2 D2 A2 B G F2 G E |
+%W:
+% voice 1 (1 lines, 32 notes)
+D6 F E D2 F E D2 d2 |D6 F E D2 F E D2 a2 |g2 e2 c2 e2 d e d c d2 f2 |e c3 B ^G3 A6 A2 |
+%W: B1
+% voice 1 (1 lines, 42 notes)
+d c d e f e f g a2 f2 d2 =c2 |B d3 F A3 G2 B A G2 B2 |e ^d e f g f g a b2 g2 e2 =d2 |c e3 d B3 A2 c B A2 A2 |
+%W:
+% voice 1 (1 lines, 37 notes)
+d c d e f d e f g2 e2 a2 g2 |f2 d2 c2 d2 e4 c2 A2 |d c d e f d e f g2 e2 a2 g2 |f2 d2 A2 c2 d6 A2 |
+%W: B2
+% voice 1 (1 lines, 42 notes)
+d c d e f e f g a2 f2 d2 =c2 |B d3 F A3 G2 B A G2 B2 |e ^d e f g f g a b2 g2 e2 =d2 |c e3 d B3 A2 c B A2 A2 |
+%W:
+% voice 1 (1 lines, 36 notes)
+d c d e f d e f g2 e2 a2 g2 |f2 d2 c2 d2 e4 c2 A2 |d c d e f d e f g2 e2 a2 g2 |f2 d2 A2 c2 d6 ||

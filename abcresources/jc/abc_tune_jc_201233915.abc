@@ -1,0 +1,40 @@
+X: 20161
+T: SEDWICK'S MARCH
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" 1843 p.16 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added missing dot to first note (F) in bar 9, voice 2.
+N: Is the final low G in the bass voice correct?
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+G>G |\
+c3e e>cg>e | d2d>d d2z2 | B3d g3f | e2e>e e2z2 |\
+g2z2 g2z2 | (g2d2) (d2g2) | ^f2g2 g2f2 | g2g>g g2 :|
+|: G>G |\
+A3B B3d | dcBA G2z2 | f2e2 d2c2 | d2d>d d2z2 |\
+c3d e3^f | g2g>g g2z2 | .[g2e2].[f2d2] .[e2c2].[d2B2] | [c2E2]z2 z2c2 |\
+B2z2 z2d2 | c2z2 z2d2 | c2z2 g2e2 | c2c>c c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+E3F G>Ee>c | B2B>B B2z2 | G3B e3d | c2c>c c2z2 |\
+B2z2 B2z2 | B2z2 (B2d2) | A2B2 B2A2 | B2B>B B2 :|
+|: z2 |\
+F3G G3B | BAGD B,2z2 | d2c2 B2A2 | B2B>B B2z2 |\
+E3F G3A | B2B>B B2z2 | B2B>B B2z2 | E2z2 z2E2 |\
+D2z2 z2F2 | E2z2 z2F2 | E2z2 e2c2 | E2E>E E2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+c2c2 c2c2 | G2G>G G2z2 | g2g2 g2g2 | c2c>c c2z2 |\
+g2z2 g2z2 | g2z2 g4 | d2g2 g2d2 | G2G>G G2 :|
+|: z2 |\
+f3g g3g | g2g2 g2z2 | g2g2 g2g2 | G2G>G G2z2 |\
+c3G c3A | G2G>G G2z2 | G2G2 G2G2 | c2z2 z2c2 |\
+G2z2 z2G2 | c2z2 z2G2 | c2z2 g2G2 | c2c>c G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,21 @@
+X: 2362
+T: the Marquis of Huntlys Highland Fling  (a Strathspey)
+C: by the late Mr Geo. Jenkins
+%R: strathspey
+B: Niel Gow & Sons "Complete Repository" v.2 p.36 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+A |\
+d<df>d g>ef>d | B<Be>B c>AA>c |\
+d<df>d g>ef>d | B>e (d/c/B/A/) d2D :|
+|: B |\
+A>D F/E/D A>Bd>f | g>ef>d {f}e>dB>d |\
+A>D (F/E/D)  A>Bd>b | a>fTe>f d2D :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z | d2d2 A2d2 | G2^G2 A2A2 | d2d2 c2d2 | G2A2 d2d :|
+|: z | D2d2 d2d2 | c2d2  a2g2 | f2d2 d2g2 | a2A2 d2d :|

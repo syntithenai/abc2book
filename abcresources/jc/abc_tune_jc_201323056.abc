@@ -1,0 +1,23 @@
+X: 1
+T: Pelimannipoika
+O: Sov: J. Soini
+N: Tune for Kaustisten Katrilli
+S: printed copy of unknown origin
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Suggestion: use 3 unlike instruments, playing a different part each time.
+N: Fiddle + flute (or clarinet) + mandolin works well.
+P: 3x
+M: 2/4
+L: 1/16
+K: G
+[V:1] [| d2d2 c2BB | BBAA A2B2 | cccc B2A2 | [AF]AGG G2B2 |
+[V:2] [| B2B2 A2GG | FFFF F2F2 | AAAA F2F2 | AAGG G2G2 |
+[V:3] [| G2G2 G2GG | DDDD D2D2 | DDDD D2D2 | GGGG G2G2 |
+%
+[V:1] d2d2 c2BB | BBAA A2B2 | c2c2 B2BA | G4 G4 |
+[V:2] B2B2 A2GG | FFFF F2F2 | A2A2 F2FF | G4 G4 |
+[V:3] G2G2 G2GG | DDDD D2D2 | D2D2 D2DD | G4 G4 |
+%
+[V:1] D2D2 FFA2 | c2cc B2A2 | c2c2 BBA2 | G4 G4 |]
+[V:2] D2D2 FFA2 | D2D2 FFA2 | D2D2 FFF2 | G4 G4 |]
+[V:3]    z8     |    z8     | D2D2 FFA2 | G4 G4 |]

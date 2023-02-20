@@ -1,0 +1,17 @@
+X: 770
+T: Get Up Early
+R: jig
+O: F.O'Neill
+B: O'Neill's 1850 "Music of Ireland" #770
+Z: Transcribed by Stephen Foy (shf@access.digex.net)
+N: Note that all the e notes are natural, so K:Gdor would be better.
+%%abc 1.6
+M: 6/8
+K: Gm
+D \
+| D2G {A}G^FG | A2d d2=e | f2d cBA | {A}B2G AFD |\
+| D2G {A}G^FG | A2d d2=e | f2d {d}cA^F | G3 G2 :: g \
+| g2d g2d | g2b a2g |
+| f2d f2d | f2d {d}cAF |\
+|[1 g2d g2d | g2b a2g | {e}f2d cA^F | G3 G2 :|\
+ [2 g2d g2a | b2g a2g | f2d {d}cA^F | G3 G2 |]

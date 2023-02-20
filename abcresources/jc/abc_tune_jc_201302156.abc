@@ -1,0 +1,30 @@
+X: 1
+T: Liljano Mome
+O: Bulgaria
+R: lesnoto
+F: http://balkanarama.com/liljano.htm
+F: http://www.youtube.com/watch?v=Ua2Lw854_S0
+F: http://www.youtube.com/watch?v=T91CYbrmUE8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: Bm
+"^instr:"\
+|: "Bm"[fa][eg][df] [fa][eg] [d2f2] | "Em"[e3-g3-] [e4g4] |\
+   "A7"[eg][fa][gb] [gb][fa] [fa][eg] | "D"[f3-a3-] [f4a4] |
+   "Bm"[fa][eg][df] [fa][eg] [d2f2] | "Em"[e3-g3-] [e2g2] [eg][df] |\
+   "F#7"[ce]z[fa] [fa][eg] [df][ce] |1 "Bm"[B3d3] [Bd][ce] [df][eg] :|2 "Bm"[B3-d3-] [Bd]z z2 ||
+"^vocal:"
+[| "Bm"B,FF F2 F2 | "Em"G2F (E>F ED) | "A"CEE E2 E2 | "D"F2E (D>E DC) |
+   "Bm"B,DD D2 D2 | "Em"E2D (C>D CB,) | "F#7"^A,2B, C2 D2 | "Em"GGF "F#7"F4 |
+   "Bm"[B,D][FA][FA] [F2A2][F2A2] | "Em"[G2B2][FA] ([EG]>[FA] [EG][DF]) |\
+   "A"[CE][EG][EG] "A7"[E2G2] [E2G2] | "D"[F2A2][EG] "F#7"([DF]>[EG] [DF][CE]) |
+   "Bm"[B,D][DF][DF] [D2F2] [D2F2] | "Em"[E2G2][DF] ([CE]>[DF] [CE][B,D]) |\
+   "F#7"[^A,2C2][B,D] [C2E2] [E2G2] | [DF][C2E2] "Bm"[B,4D4] |]
+%
+% Ivan Djakov's 2nd verse:
+%   Не е излязла Лиляна,
+%   най е излязла майка й,
+%   люти си клетви колнеше
+%   и на Георги думаше.
+

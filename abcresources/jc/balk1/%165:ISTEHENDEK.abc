@@ -1,0 +1,21 @@
+X: 165
+T: Iste Hendek
+O: Turkey
+Z: Deborah Jones
+F: http://www.youtube.com/watch?v=HtxBrfHDz90
+F: http://www.youtube.com/watch?v=jzTR79vz_vE
+F: http://www.youtube.com/watch?v=0fRuvnSGPqc
+F: http://www.youtube.com/watch?v=PUwgPcyEBAM
+M: 4/4
+L: 1/8
+Q: 1/4 =160
+K: Am
+%%MIDI gchord fzfz
+%%MIDI bassprog 115 Woodblock
+%%MIDI program 22 harmonica
+  "Am"z2 AA dB c2|(BA3) A4         |z2 AA dB c2    |(BA3) A4         |
+  z2 AA dB c2    | (cB2) A (dB) c2 | z2 Bc (dB) c2 | (BA3) A4        |
+|:z2 AA dB c2    | BA3 A4          | z2 AA dB c2   | BA3 A4          |
+  z2 AA dB c2    | B B2A d2 c2     | z2 Bc dB c2   | BA3 A4          :|
+|:"C" zc2 d e2e2 |"Dm"z e2 f e2d2  |z d2 d d2 dc   |"Am" z d2 e d2 c2|
+  "C" zc2c dB c2 |"Dm" z c2 d c2 B2|"Em" z A2B B2B2|"Am" B2 c2 B A3  :|

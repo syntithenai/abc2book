@@ -1,0 +1,796 @@
+
+X: 0
+T: I'll Tell My Ma   [G,wW]
+O: Trad Ireland
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/4
+K: G
+D/ | "G"DG B>B | "(C)"cB "G"B>B | "D7"BA A>B | "G"AG G z/G/ |
+w: I'll tell my ma when I go home the boys won't leave the girls a-lone. They
+| "G"DG BB/B/ | "(C)"cB "G"B>B | "D7"BA A>B | "G"AG Gz |
+w: pulled my hair and they stole my comb, well that's al-right till I go home.
+| "G"dd dB | "Am"cc cA | "G"B>B BG | "D7"AF ED |
+w: She is hand-some, she is pret-ty, she's the belle of Bel-fast Ci-ty.
+| "G"dd dB | "C"cc c2 | "G"BG/G/ "D7"AB | "G"AG G z/ |]
+w: She is court-ing one two three, please won't you tell me who is she?
+%
+W:Albert Mooney says he loves her,
+W:All the boys are fighting for her.
+W:They knock at the door and they ring at the bell,
+W:Saying "Oh my true love are you well?"
+W:Out she comes, as white as snow,
+W:Ring on her fingers and bells on her toes.
+W:Old Johnny Murray says she'll die
+W:If she doesn't get the fellow with the roving eye.
+W:
+W:Let the wind and the rain and the hail blow high,
+W:And the snow com tumbling from the sky.
+W:She's as nice as apple pie,
+W:She'll get her own lad by and by.
+W:When she get a lad of her own,
+W:She won't tell her ma when she goes home.
+W:Let them all come as they will,
+W:For it's Albert Mooney she loves still.
+
+%%sep 5 5 1
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 1
+T: I'll Tell My Ma   [D]
+O: Trad Ireland
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/4
+K: D
+A/ \
+| "D"Ad f>f   | "(G)"gf "D"f>f | "A7"fe e>f | "D"ed dz/d/ |
+| "D"Ad ff/f/ | "(G)"gf "D"f>f | "A7"fe e>f | "D"ed dz |
+| "D"aa af | "Em"gg ge | "D"f>f       fd | "A7"ec BA   |
+| "D"aa af |  "G"gg g2 | "D"fd/d/ "A7"ef |  "D"ed dz/ |]
+
+%%newpage
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2
+T: Jambalaya
+C: Hank Williams (1952)
+R: song
+D: "Jambalaya (On the Bayou)" (B-side: "Window Shopping") by Hank Williams With His Drifting Cowboys, July 19, 1952
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: C
+% %continueall
+EG | "C"A2 EG | A2 GE | "G7"G D3 | z2
+w: 1.~Jum-ba-laya, craw-fish pie, fil-let gum-bo,
+w: 2.~Good-bye, Joe, me gotta go, me oh my oh.
+w: 3.~Thi-bay-daux, Fon-tain-eaux, place is buzz-in'
+w: 4.~Set-tle down, far from town, buy a pi-rogue.
+%
+GG | B2 BB | AG A>G | "C"G E3 | z2
+w: 'cause to-night I'm gonna see my cher-a mi-o.
+w: Me gotta-go pole the pi-rogue down the bay-ou.
+w: Kin-folk come~to see Y-vonne* by the doz-en.
+w: Gon-na catch~me all the craw-fish in the ba-you.
+%
+cc | c>c AG | c2 AG | "G7"GD3 | z2
+w: Pick gui-tar,* fill fruit jar and be gay-o.
+w: My Y-vonne, the sweet-est one, me oh my oh.
+w: Dress in style and go hog wild, me oh my oh.
+w: Save my mon'* buy Y-vonne what she need oh.
+%
+G/G/G | B-B/B/ AG | A2 G>E | "C"D C3 | z2 |]
+w: Son of a gun, gon-na have big fun on the bay-ou.
+w: Son of a gun,* we'll have big fun on the bay-ou.
+w: Son of a gun,* we'll have big fun on the bay-ou.
+w: Son of a gun, gon-na have big fun on the ba-you.
+%
+% First verse is the chorus.
+%%text Ending: Repeat last line.
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 3
+T: The Drunken Sailor   [Dm]
+C: Trad (song)
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Ddor
+[| "Dm"A2AA A2AA | A2D2 F2A2 | "C"G2GG G2GG | G2C2 E2G2 \
+|  "Dm"A2AA A2AA | A2B2 c2d2 | "Am"c2A2 G2E2 | "Dm"D4 D4 |]
+[| "Dm"A4 A4 | A2D2 F2A2 | "C"G4 G4 | G2C2 E2G2 \
+|  "Dm"A4 A4 | A2B2 c2d2 | "Am"c2A2 G2E2 | "Dm"D4 D4 |]
+
+% %sep 5 5 400
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 4
+T: Blue Bayou (not transcribed yet)
+C:
+O:
+R:
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N:
+M:
+L: 1/8
+K:
+% %sep 5 5 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 5
+T: The Rambling Rover
+C: Andy M. Stewart (1952-2015), Scotland
+R: song
+D: Silly Wizard
+D: The Dubliners
+Z: id:hn-song-107 modified by John Chambers
+M: 6/8
+L: 1/8
+%Q: 3/8=100
+K: C
+%%continueall
+%%vocalspace     0.90cm
+% = = = = = = = = = =
+"^Chorus:"[|]
+G,2A, | "C"C2C "G"D2D | "C"D2C- C2G | G2E G2A | A2G- G
+w: There are so-ber men and plen-ty,* and drunk-ards bare-ly twen-ty,
+%
+EG | "F"A2A c2B | "C"A2G E2C | "Dm"DDE D2C | "F"A,3 ||
+w: There are men of o-ver nine-ty that have ne-ver yet kissed a girl.
+%
+"G"G,2A, | "C"C2C D2D | D2C- C2G | G2E G2A | A2G- G
+w: But give me a ramb-lin' ro-ver,* frae Ork-ney down to Do-ver.
+%
+EG | "F"A2A c2B | "C"A2G E2C | "Dm"DED "G7"C2B, | "C"C3 |]|
+w: We will roam the coun-try o-ver and to-geth-er we'll face the world.
+% = = = = = = = = = =
+"^Verse: "[|]
+G, | "C"C-CC "G"D2D | "C"D2C- C2E | G2E G2A | A2G- G
+w: 1.~There's ma-ny that feign en-joy-ment* from mer-ci-less em-ploy-ment,
+w: 2.~I~have roamed* through all the na-tions, taken de-light in all cre-a-tion,*
+w: 3.~If~you're bent* with ar-thi-ri-tis,* your bowels have got co-li-tis,*
+%
+EG | "F"A-AA c2B | "C"A2G E2C | "Dm"DDE D2C | "F"A,3 ||
+w: Their am-bi-tion was this de-ploy-ment from the minu-te they left the school.
+w: I've en-joyed* a wee sen-sa-tion where the com-pa-ny it was kind.
+w: You have gal-lop-ing bal-li-ci-tus, and you're think-in' it's time you died,
+%
+"G"G,2A, | "C"C2C "G"D2D | "C"D2C- CGG | G2E G2A | A2G- G
+w: And they save and scrape and pon-der,* while the rest go out and squan-der,*
+w: But when part-ing was no plea-sure,** I've drunk a-no-ther mea-sure*
+w: If you've been a man of ac-tion,* though you're ly-ing there in trac-tion,*
+%
+EG | "F"A2A c2B | "C"A2G E2C | "Dm"DED "G7"C2B, | "C"C3 |]
+w: See the world and rove and wan-der and they're hap-pi-er as a rule.
+w: To the good friends that we trea-sure, for they al-ways are on our mind.
+w: You may gain some sa-tis-fac-tion think-in', "Je-sus, at least I tried!"
+% = = = = = = = = = =
+
+% %sep 5 5 400
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 6
+T: Ballad of the MTA (not transcribed yet)
+C:
+O:
+R:
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N:
+M:
+L: 1/8
+K:
+% %sep 5 5 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 7
+T: I'll Fly Away
+C: music: Albert E. Brumley
+R: hymn
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/4
+K: D
+%%continueall 0
+"^Verse"[|\
+"D"[f2d2] [d2A2] | [A2F2] [d2A2] | [fd][ec] [fd][ge] | [f2d2] [e2c2] | "G"[d4-B4-G4-] | [d2B2G2] [BG][BG] | "D"[A4F4] | z4 ||
+w: 1.~Some glad morn-ing  when this life is o-ver I'll_ fly a-way
+w: 2.~When the shad-ows of this life have grown*  I'll_ fly a-way
+w: 3.~Oh how glad and hap-py  when we meet*       I'll_ fly a-way
+w: 4.~Just a few more wear-y days and then*       I'll_ fly a-way
+%
+"D"[f2d2] [d2A2] | [A2F2] [d2A2] | [fd][ec] [fd][ge] | [f4d4] | [f4-d4A4] | "A7"[f2c2A2] [ecA][ecG] | "D"[d4A4F2] | z4 |]
+w: 1.~To a home on God's ce-les-tial shore     I'll_ fly a-way.
+w: 2.~Like a bird from pri-son bars have flown I'll_ fly a-way.
+w: 3.~No more cold iron shack-les on my feet   I'll_ fly a-way
+w: 4.~To a land where joys shall ne-ver end    I'll_ fly a-way
+%
+"=Chorus"[| \
+"D"[a4-f4-d4-] | [a2f2d2] [fd][fd] | [a2f2][f2d2] | [e2c2] [d2A2] | "G"[d4-G4-] | [d2G2] [BG][BG] | "D"[A4F4] | z4 ||
+w: I'll_ fly a-way oh glo-ry         I'll_ fly a-way.
+%
+"^(intro)"||\
+"D"[A2F2] "G"[B2G2] | "D"[d2A2] [dA][ec] | [fd][ec] [fd][ge] | [f4d4] | [f4-d4A4-] | "A7"[f2c2A2] [ecA][ecG] | "D"[d4A4F4D4] | z4 |]
+w: When I die ha-le-lu-jah by and by I'll_ fly a-way.
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 8
+T: The Wild Rover [G,w]
+O: Ireland
+R: waltz
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: Printed page of unknown origin, via the Merry Minstrels (Lexington MA USA)
+M: 3/4
+L: 1/4
+K: G
+% %continueall 0
+% - - - - - - - - - - - - -
+|: D | "G"G> A G | E D B | B< A B | "C"c3- | c2
+w: 1.~I've been a wild ro-ver for ma-ny's the year*
+w: But now I'm re-turn-ing with gold in great store*
+w: 2.~I~went in-to an ale-house I used to fre-quent
+w: I asked her for cre-dit, she an-swered me nay,
+w: 3.~I~then took from my pock-et ten so-ve-reigns bright
+w: She said I'd have whis-key and wines of the best
+w: 4.~I'll~go home to my pa-rents, con-fess what I've done,
+w: And when they've ca-ressed me as oft' times be-fore
+% - - - - - - - - - - - - -
+B/c/ | "G"d B d | "D7"c A F | D B A | [1 "G"G3- | G2 :|[2 "G *"G3- | G
+w: 1.~and I've spent all me mo-ney on whis-key and beer.*
+w: and I ne-ver will play the wild ro-ver no** more.*
+w: 2.~and I told the land-la-dy me mo-ney was spent.*
+w: such a cus-tom as yours I can have a-ny** day.
+w: 3.~and the land-la-dy's eyes o-pened wide with de-light.
+w: and the words that she told me were on-ly in** jest.
+w: 4.~and I'll ask them to par-don their pro-di-gal son.
+w: then I ne-ver will play the wild ro-ver no** more.
+% - - - - - - - - - - - - -
+F G | "D" A3 | A3 | "D7"F D2 | k.Dk.Ek.F | "G"k.G BB | B< A B | "C"c3- | c
+w: And it's no, nay, ne-ver, (clap clap clap clap) no, nay, ne-ver, no more*
+% - - - - - - - - - - - - -
+B c | "G"d3- | d B G | "C"F E2- | E2 E | "G"D B2- | "D7"B2 A | "G"G3 | z3 |]
+w: will I play* the wild ro-ver.* No ne-ver,* no more.
+%%text * This measure is often omitted.
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 9
+T: The Yellow Rose of Texas   [G]
+S:Digital Tradition
+M:4/4
+L:1/4
+K:G
+P: High:
+d/c/ | "G"B d d>d | e d2 (d/c/) | B d g>a | b3 || b | b d d>b |
+"D"b a2 g | f g a b | a3 |[| (d/c/) | "G"B d d>d | e d2 d/c/ |
+B d g a | b3 || d/-d/ | d c' c'>c' | "G"c' b2 a | g d b>a | g3 |]
+P: Low:
+D/C/ | "G"B, D D>D | E D2 (D/C/) | B, D G>A | B3 || B | B D D>B |
+"D"B A2 G | F G A B | A3 |[| (D/C/) | "G"B, D D>D | E D2 D/C/ |
+B, D G A | B3 || D/-D/ | D c c>c | "G"c B2 A | G D B>A | G3 |]
+%
+W:There's a yellow rose in Texas that I am going to see,
+W:No other soldier knows her, no soldier only me;
+W:She cried so when I left her, it like to broke my heart
+W:And if I ever find her, we never more will part.
+W:
+W:Cho: She's the sweetest rose of color this soldier ever knew,
+W:     Her eyes are bright like diamonds, they sparkle like the dew
+W:     You may talk about your dearest May and sing of Rosa Lee,
+W:     But the Yellow Rose of Texas is the only girl for me.
+W:
+W:When  the  Rio Grande is flowing, and the starry skies are bright
+W:She walks along the river in the quiet summer night
+W:She thinks if I remember, when we parted long ago,
+W:I promised to come back again and not to leave her so
+W:
+W:Oh, now I'm going to find her, for my heart is full of woe
+W:And we'll sing the song together, that we sang so long ago
+W:We'll play the banjo gaily, and we'll sing the songs of yore,
+W:And the Yellow Rose of Texas shall be mine forevermore.
+
+%%newpage
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 10
+T: The Star of the County Down march  [Em]
+O: Ireland, Scotland 1726
+R: air, march
+N: Also played in waltz time
+N: This is also the tune for an older song, "My Love Nell"
+B: Loesberg "Folksongs & Ballads Popular in Ireland"
+M: C
+L: 1/8
+K: Em
+"^A"[|] B,D | "Em"E2E2 "C"E2DE | "G"G2G2 "D"A2GA | "Em"B2AG [1 E2B,2 | "Bm"D6 :|[2 "D"E2D2 | "Em"E6 |]
+"^B"[|] Bc  | "G"d2B2 B2AG | "D"A2A2 A2GA | "Em"B2AG E2E2 | "Bm"D6 ||
+"^A"[|] B,D | "Em"E2E2 "C"E2DE | "G"G2G2 "D"A2GA | "Em"B2AG "D"E2D2 | "Em"E6 |]
+
+% %sep 1 1 500
+
+% X: 1
+% T: The Star of the County Down march  [Am]
+% O: Ireland, Scotland 1726
+% R: air, march
+% N: Also played in waltz time
+% N: This is also the tune for an older song, "My Love Nell"
+% B: Loesberg "Folksongs & Ballads Popular in Ireland"
+% M: C
+% L: 1/8
+% K: Am
+% EG | "Am"A2A2 "F"A2GA | "C"c2c2 "G"d2cd | "Am"e2dc [1 A2E2 | "Em"G6 :|2 "G"A2G2 | "Am"A6 |]
+% ef | "C"g2e2 e2dc | "G"d2d2 d2cd | "Am"e2dc A2A2 | "Em"G6 ||
+% EG | "Am"A2A2 "F"A2GA | "C"c2c2 "G"d2cd | "Am"e2dc "G"A2G2 | "Am"A6 |]
+
+% %sep 1 0 500
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 11
+T: The Star of the County Down waltz  [Em]
+O: Trad
+R: waltz
+N: Also in 2/4 as a ballad.
+N: There is a County Down in both Ireland and Scotland, and both claim this tune.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Em
+B,D \
+|: "Em"E4 E2 | "C"E3 D E2 | "G"G4 G2 | "D"A4 GA | "Em"B3 A G2 |\
+[1 "Em"E3 D B,2 | "Bm"D6- | D2 G2 F2 :|\
+[2 "Am"E4 E2 | "Em"E6- | E4 |]
+GB |\
+"G"d4 B2 | B3 A G2 | "D"A4 A2 | A4 GA |\
+"G"B3 A G2 | "Em"E3 D B,2 | "Bm"D6- | D2 G2 F2 ||
+"Em"E4 E2 | "C"E3 D E2 | "G"G4 G2 | "D"A4 GA |\
+"Em"B3 A G2 | "Am"E4 E2 | "Em"E6- | E4 |]
+
+% %sep 1 1 500
+
+% X: 1
+% T: The Star of the County Down waltz  [Am]
+% O: Trad
+% R: waltz
+% N: Also in 2/4 as a ballad.
+% N: There is a County Down in both Ireland and Scotland, and both claim this tune.
+% Z: 1997 by John Chambers <jc:trillian.mit.edu>
+% M: 3/4
+% L: 1/8
+% K: Am
+% EG \
+% |: "Am"A4 A2 | "F"A3 G A2 | "C"c4 c2 | "G"d4 cd | "Am"e3 d c2 |\
+% [1 "Am"A3 G E2 | "Em"G6- | G2 c2 B2 :|\
+% [2 "Dm"A4 A2 | "Am"A6- | A4 |]
+% ce |\
+% "C"g4 e2 | e3 d c2 | "G"d4 d2 | d4 cd |\
+% "C"e3 d c2 | "Am"A3 G E2 | "Em"G6- | G2 c2 B2 ||
+% "Am"A4 A2 | "F"A3 G A2 | "C"c4 c2 | "G"d4 cd |\
+% "Am"e3 d c2 | "Dm"A4 A2 | "Am"A6- | A4 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 12
+T: Scotland the Brave    [D]
+R: march
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: Handout at Concord Slow Scottish jam session 2018-11-30
+N: Lyrics from the singing of Tom and Marie Teven.
+M: 2/4
+L: 1/8
+K: D
+%%continueall yes
+"Verse"[|\
+"D"D2 D>E | FD FA | d2 d>c | dA FD | "G"G2 B>G | "D"FA FD | "A7"E2 A>B | AG FE ||
+w: 1.~Hark where the night is fall-ing.  Hark hear the pipes a call-ing Loud-ly and proud-ly call-ing down thru the glen.***
+w: 2.~High in the mist-y moun-tains, Out by the pur-ple high-lands, Brave are the hearts that beat be-neath Scot-tish skies.***
+w: 3.~Far-off in sun-lit pla-ces, Sad are the Scot-tish fa-ces, Yearn-ing to feel the kiss of sweet Scot-tish rain.***
+"D"D2 D>E | FD FA | d2 d>c | dA FD | "G"G2 B>G | "D"FA FD | "A7"E2 D>C | "D"D2 cd
+w: There where the hills are sleep-ing, Now feel the blood a leap-ing, High as the spi-rits of the old high-land men.**
+w: Wild are the winds to meet you.  Staunch are the friends that greet you.  Kind as the love that shines from fair maid-ens eyes.**
+w: Where tro-pic skies are beam-ing, Love sets the heart a'-dream-ing, Long-ing and dream-ing for the home-land a-gain!**
+"Chorus"[|\
+"A7"e2 e>e | ec A2 | "D"d2 f>e | "G"dB "D"A2 | "Bm"d2 d>d | "F#m"c2 d>c | "E7"Bd cB | "A7"A GFE ||
+w: Tower-ing in gal-lant fame, Scot-land my moun-tain hame, High may your proud stan-dards glo-ri-ous-ly wave.***
+"D"D2 D>E | FD FA | d2 d>c | dA FD | "G"G2 B>G | "D"FA FD | "A7"E2 D>C | "D"D3 z |]
+w: Land of my high en-dea-vor, Land of the shin-ing ri-ver, Land of my heart for-ev-er, Scot-land the Brave.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 13
+T: Scotland the Brave
+R: march
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: Handout at Concord Slow Scottish jam session 2018-11-30
+N: Lyrics from the singing of Tom and Marie Teven.
+M: 2/4
+L: 1/8
+K: G
+"Verse"[|\
+"G"G2 G>A | BG Bd | g2 g>f | gd BG | "C"c2 e>c | "G"Bd BG | "D7"A2 d>e | dc BA |
+"G"G2 G>A | BG Bd | g2 g>f | gd BG | "C"c2 e>c | "G"Bd BG | "D7"A2 G>F | "G"G2 fg |]
+"Chorus"[|\
+"D7"a2 a>a | af d2 | "G"g2 b>a | "C"ge "G"d2 | "Em"g2 g>g | "Bm"f2 g>f | "A7"eg fe | "D7"dc BA |
+"G"G2 G>A | BG Bd | g2 g>f | gd BG | "C"c2 e>c | "G"Bd BG | "D7"A2 G>F | "G"G3 z |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 14
+T: Whiskey You're the Devil    [C]
+C: Jerry Barrington 1873
+O: Ireland
+M: C
+L: 1/16
+Z: 2019 John Chambers <jc@trillian.mit.edu>
+K: C
+G2 | "C"C2C2C2D2 E2G2G2G2 | "Dm"A2D2D2E2 "G7"F2G2A2G2 |
+w:Oh now, brave boys, we'll run for march, and not to Por-tu-gal or Spain, the
+| "F"c2d2c2A2 "C"A2G2G2E2 | "D7"D2D2D2E2 "G7"D2B,2A,2G,2 |]
+w:drums are beat-ing, ban-ners fly, the devil at home we'll find to-night, Oh
+"Chorus"\
+[| "C"C4E3D C6GE | CCCC CDEF G6 GE |
+w:Love, fare thee well, with me ti-ther-ee-i doo-dle-um-a day, with me
+| "Dm"DDDD DEFG A4 "G7"z2G2 | "F"c2d2c2A2 "C"A2G2"F"c2A2 |
+w:ti-ther-ee-i doo-dle-um-a day, My right-fol to-ra-lad-die o, there's
+| "C"G2E2 "G7"D3E "C"C4 z4 || "C"C2C2 C3D E2G4G2 | "F"A2G2A2B2 c4 |
+w:whis-ky in the jar. Whis-ky you're the dev-il, you're lead-ing me a-stray,
+| "F"c3d c2A2 "C"A2G4E2 | "D7"D3D D2E2 "G7"D6 G2 | "C"C2C2C2D2 E2G2G2G2 |
+w:o-ver hills and moun-tains and to A-me-ri-cay. You're strong-er, sweet-er, de-cent-er, you're
+| "F"A2G2A2B2 c4c2B2 | "C"A2G2 "F"[c3F3]B "C"A2G2 "Am"E2C | "Dm"D4-"G7"D4 "C"C6 |]
+w:spunk-i-er than tay, Oh,_ whis-ky you're my dar-ling drunk or so-*ber.
+%
+W:Oh the French are fighting boldly,
+W:Men are dying hot and cowardly,
+W:Give every man his flask of powder,
+W:His firelock on his shoulder.
+W:     Chorus
+W:Says the mother, "Do not wrong me,
+W:Don't take my daughter from me,
+W:For if you do I shall torment you,
+W:And after that my ghost will haunt you."
+W:     Chorus
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 15
+T: The Minstrel Boy   [D]
+C: melody: trad. Irish
+C: lyrics: Thomas Moore (3rd verse source unknown)
+%O: (American Civil War)
+R: march
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+% %continueall
+A | "D"D3 E | GF ED | F2 A2 | "Bm"d2 cd | "G"B2 A2 | "D"F>G AF | "A7"E4 | "D"D3 ||
+w: 1.~The Min-strel boy* to the war is gone, In the ranks of death* you will find him.
+A | "D"D3 E | GF ED | F2 A2 | "Bm"d2 cd | "G"B2 A2 | "D"F>G AF | "A7"E4 | "D"D3 z |]
+w: His fath-er's sword* he hath gird-ed on, And his wild harp slung* be-*hind him.
+   "Bm"d2 c2 | B2 cd | "A"c3 B | A3 A | "Bm"B3 F | F3 F | "G"B2 "A7"c2 | "D"d2 ||
+w: "Land of Song!" cried the war-rior bard, "Tho' all the world be-tray* thee,
+FE | "D"D3 E | GF ED | F2 A2 | "Bm"d2 cd | "G"B2 A2 | "D"F>G AF | "A7"E4 | "D"D3 ||
+w: One* sword at least* thy* right shall guard, One* faith-ful harp* shall* praise thee!"
+%
+W:2.
+W: The Minstrel fell! But the foeman's chain
+W: Could not bring that proud soul under.
+W: The harp he lov'd ne'er spoke again,
+W: For he tore its chords asunder;
+W: And said "No chains shall sully thee,
+W: Thou soul of love and brav'ry!
+W: Thy songs were made for the pure and free;
+W: They shall never sound in slavery!
+W:3.
+W: The minstrel boy will return one day,
+W: When we hear the news, we will cheer it.
+W: The minstrel boy will return we pray,
+W: Torn in body, perhaps, but not in spirit.
+W: Then may he play his harp in peace,
+W: In a world such as Heaven intended,
+W: For every quarrel of Man must cease,
+W: And every battle shall be ended.
+
+%%sep 2 1 500
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 16
+T: The Minstrel Boy (low)   [C]
+R: march
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+P: AA BA
+K: C
+"^A"[|] G !segno!||\
+"C"C3 D | FE DC | E2 "(G)"G2 | "(Am)"c2 Bc |\
+"F"A2 G2 | "C"E>F GE | "G7"D4 | "C  fine"C3 :|
+"^B"[|] E ||\
+"Am"c2 B2 | A2 Bc | "G"B3 A | G3 G |\
+"Am"A3 E | E3 E | "F"A2 "G7"B2 | "C"c2 E!segno!D |]
+
+% %sep 5 5 400
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 17
+T: King of the Road (not transcribed yet)
+C:
+O:
+R:
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N:
+M:
+L: 1/8
+K:
+% %sep 5 5 400
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 18
+T: It's a Long Way to Tipperary   [G]
+%R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+S: printed image from Darlene Wigton 2019-3-2
+L: 1/8
+M: C
+K: G
+%%continueall 1
+D | "G"BB Bc BB AG | "C"AB AG "Am"E3 G | "D"AA AB "D7"AG ED | "G"GG GG "D"D2 z2 |
+w: * 1.~Up to migh-ty Lon-don came an I-rish man one day,* As the streets are paved with gold, sure ev'-ry one was gay.
+w: * 2.~Pad-dy wrote a let-ter to his I-rish Mol-ly-O, Saying "Should you not re-ceive* it,* write and let me know!"
+w: * 3.~Mol-ly wrote a neat re-ply to I-rish Pad-dy-O, Saying "Mike Ma-lon-ey wants to mar-ry me!** and so,
+    "G"BB Bc "Em"BB AG | "C"AB AG "Am"E2 G-G | "D"AA AB "D7"AG ED | "G"GG "C"GE "G"G2
+w: Sing-ing songs of Pic-ca-dil-ly, Strand and Lei-cester Square,* Till Pad-dy got ex-cit-ed, then he shout-ed to them there:
+w: "If I make mis-takes in spell-ing, Mol-ly Dear," said he.* "Re-mem-ber it's the pen that's bad, don't lay the blame on me!"
+w: Leave the Strand and Pic-ca-dil-ly or you'll be to blame.* For love has fair-ly drove me sil-ly, hop-ing you're the same!"
+"^Chorus"[| \
+B,C | "G"D2 D2 zDEF | G2 B4 BA | "C"G2 E4 G2 | "G"D4- "D"D2 B,C |
+w: It's a long way to Tip-per-ar-y, it's a long way to go.* It's a
+    "G"D2 D2 zDEF | "Em"G2 B4 FG | "A"A2 E2 "A7"F2 G2 | "D"A4- "D7"A4 |
+w: long way to Tip-per-ar-y to the sweet-est girl I know.*
+    "G"D2 D2 zDEF | G2B2- B4 | "C"c2 G2 G2 A2 | "B"B4- B2 GA |
+w: Good-by, to Pic-ca-dil-ly,* fare-well Lei-cester Square!* It's a
+    "G"B2 B2 BG AG | "C"E4 "G"D2 (GA) | "A7"B2 G2- "D7"G2 A2 | "G"G6 z |]
+w: long, long way to Tip-per-ar-y, But* my heart's* right there.
+
+%%sep 1 1 500
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 19
+T: It's a Long Way to Tipperary   [G]
+%R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+S: printed image from Darlene Wigton 2019-3-2
+L: 1/8
+M: C
+K: G
+%%continueall 0
+D |\
+"G"BB Bc BB AG | "C"AB AG "Am"E3 (G |\
+"D"A)A AB "D7"AG ED | "G"GG GG "D"D2 z2 ||\
+"G"BB Bc "Em"BB AG | "C"AB AG "Am"E2 G-G |
+"D"AA AB "D7"AG ED | "G"GG "C"GE "G"G2 |]\
+"^Chorus"[| B,C |\
+"G"D2 D2 zDEF | G2 B4 BA |\
+"C"G2 E4 G2 | "G"D4- "D"D2 B,C ||\
+"G"D2 D2 zDEF | "Em"G2 B4 FG |
+"A"A2 E2 "A7"F2 G2 | "D"A4- "D7"A4 ||\
+"G"D2 D2 zDEF | G2B2- B4 |\
+"C"c2 G2 G2 A2 | "B"B4- B2 GA ||\
+"G"B2 B2 BG AG | "C"E4 "G"D2 (GA) |\
+"A7"B2 G2- "D7"G2 A2 | "G"G6 z |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 20
+T: Wild Mountain Thyme   [D,w]
+C: trad.
+R: air, waltz
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+S: Clare Hurley's handout for the Belmont Porchfest has all the notes the same as this, but a few different chords.
+M: 3/4
+L: 1/8
+K: D
+% %continueall
+% = = = = = = = = = =
+"^Verse:"\
+DB, | "D"A,2B, "G"D2D | "D"DD2 zFA | "G"B2-B B2A | "D"FA2 zFA |
+w: 1.~O the sum-mer time is com-ing, and the trees are sweet-ly bloom-ing, and the
+w: 2.~I will build my love a tow-er near yon pure_ crys-tal foun-tain, and_
+w: 3.~If my true love, she were gone,_ I would sure-ly find an-oth-er, where the
+     "G"B2-B "D/F#"A2F | "Em"(ED2) zEF | "G"G2F E2D | B,D2 |]
+w: 1.~wild_ moun-tain thyme_ grows a-round the bloom-ing heath-er.
+w: 2.~on it I will pile_ all the flow-ers of the moun-tain.
+w: 3.~wild_ moun-tain thyme_ grows a-round the bloom-ing heath-er.
+% = = = = = = = = = =
+"Chorus:"\
+ zDB, | "D"(A,2B,) "G"DD2 | "D"D3 zFA | "G"B3 B2A | "D"FA2 zFA | "G"B3 "D/F#"A2F |
+w: Will ye go,_ las-sie, go? And we'll all go to-geth-er to pluck wild moun-tain
+%
+"Em"(ED2) zEF | "G"G2F E2D | B,D2 "^Intro:"zDB, | "D"(A,2B,) "G"DD2 | "D"D3 z |]
+w: thyme_ all a- round the bloom-ing heath-er. Will ye go_ las-sie, go?
+% = = = = = = = = = =
+% %begintext
+% %    Singers take lead
+% % 1st time: Voices + Darlene on guitar
+% % 2nd: add bass
+% % 3rd: add flute
+% % 4th: repeat 1st verse, flute drops out
+% %    Repeat chorus a second time, voices only
+% %endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 21
+T: Whiskey In The Jar    [C]
+I: 067 2
+R: Reel
+Z: Carl Allison
+B: Joe Buchanan's Scottish Tome - Page 067.2
+L: 1/4
+M: 4/4
+K: C
+E |\
+"C"G>G GA | "C"G E2 G | "Am"A>A AB | "Am"A E2 G | "F"A>A AB | "F"c<c BA |
+"C"GG cB |1 A E2 :|2 "C"AG EC |] "G"D>D DE | "G"D4 | z "C"E E3/ D/ |
+"C"E<F "C7"G2 | z "F"A A3/ G/ | "F"A<B cA | "C"EE "G7"DD | "C"C3 |] z4 | z4 ||
+
+%%sep 1 1 500
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 22
+T: Whiskey In The Jar    [D]
+I: 067 2
+R: Reel
+Z: Carl Allison
+B: Joe Buchanan's Scottish Tome - Page 067.2
+L: 1/4
+M: 4/4
+K: D
+F |\
+"D"A>A AB | "D"A F2 A | "Bm"B>B Bc | "Bm"B F2 A | "G"B>B Bc | "G"d<d cB |
+"D"AA dc |1 B F2 :|2 "D"BA FD |] "A"E>E EF | "A"E4 | z "D"F F3/ E/ |
+"D"F<G "D7"A2 | z "G"B B3/ A/ | "G"B<c dB | "D"FF "A7"EE | "D"D3 |] z4 | z4 ||
+
+%%sep 1 1 500
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23
+T: Whiskey In The Jar    [G]
+I: 067 2
+R: Reel
+Z: Carl Allison
+B: Joe Buchanan's Scottish Tome - Page 067.2
+L: 1/4
+M: 4/4
+K: G
+B |\
+"G"d>d de | "G"d B2 d | "Em"e>e ef | "Em"e B2 d | "C"e>e ef | "C"g<g fe |
+"G"dd gf |1 e B2 :|2 "G"ed BG |] "D"A>A AB | "D"A4 | z "G"B B3/ A/ |
+"G"B<c "G7"d2 | z "C"e e3/ d/ | "C"e<f ge | "G"BB "D7"AA | "G"G3 |] z4 | z4 ||
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 24
+T: Kalamatian\'os: Samiotissa
+T: Girl from Samos
+O:Greece
+R:kalamatianos
+Z:John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N:The lower line should be considered the melody.
+N:The instrumental interlude here is a "generic" interlude used in much Greek music.
+W:Girl from Samos, when I get to Samos, I'll throw roses on the shore, roses on the sand.
+W:And in the boat in which you go, golden sails I'll put, golden oars, so I can take you.
+W:Girl from Samos with the black olives and the black eyes, you've broken my heart into 42 pieces.
+W:Samiotissa, passion doesn't need begging. There are other orange trees that give oranges.
+M:7/8
+L:1/8
+K:G
+P: Instr:
+|: z[ge][fd][ec] | "D7"[d2B][dB] [cA][BG] [cA][dB] | "G"[B2G][cA] [dB][ge][fd][ec] \
+| "D7"[d2B][dB] [cA][BG] [cA][dB] | "G"[B3G] :|
+P: Vocal:
+|: [D2G] | "G"[G2B][FA] [G2B] [A2c] | [B2d][Ac] [G4B] | "C"[ce][ce][ce] [ce][Bd] [Ac][GB] | "G"[B3d] z2 :|
+w: 1.~Sa-mio-tis-sa, Sa-mio-tis-sa, po-te tha pos ti Sa-*mo,
+w: 2.~Ke me tin var-ka pu tha pas khri-sa pa-nia tha va-*lo,
+w: 3.~Sa-mio-tis-sa, mi tis e-lyes ke me ta mav-ra ma-*tia
+w: 4.~Sa-mio-tis-sa, o e-ro-tas, den the-li pa-ra-ka-*lia
+|: "D7"[df][df][df] "C"[eg][df] [ce][Bd] | "D7"[A2c][ce] "G"[Bd][Ac] [GB][Ac] |
+w: ro-dha pa ri-kso sto yia-lo, Sa-mio-tis-sa, trian-
+w: ma-la-ma te-nya ta ku-pia Sa-mio-tis-sa, ya
+w: mu 'ka-nes tin kar-dhu-la mu, Sa-mio-tis-sa, sa-
+w: E-khi ky'a-la por-to-kya-lies, Sa-mio-tis-sa, pu
+| [B2d][Bd] "D7"[Ac][GB] [Ac][Bd] |1 "G"[G2B][Ac] [B2d][c2e] :|2 "G"[G3B] z2 |]
+w: da-fi-la stin a-*mo.___ \-mo.
+w: har-tho, na se pa-*no.___ \-no.
+w: \-ran-da-dhyo ko-ma-*tya.___ \-tya.
+w: ka-noun por-to-ka-*lia.___ \-lia.
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 25
+T: Ripple   [G,w]
+C: music: Jerry Garcia
+C: words: Robert Hunter
+R: air
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+%%continueall
+"G"z8 | "D"z8 | "C"z8 | "Am"z4 "G"z4 [| "G"z2B,>B, B,2C2 |: D2 z6 | z2GG (3(B2A2)B2 | "C"G4 E4 |
+w: If my words did glow with the gold* of sun-shine
+w: | | | | | hand if your cup* be emp-ty,
+z4 E2E2 | G4 z2 A2 | G2z2 (D2E2) | G2z2 {D}E4 | "G"D2B,>B, C2^C2 |
+w: and my tunes were played on the harp un-strung, Would you hear my
+w: if your cup is full, may it be a-gain. Let* it be
+D4 z4 | z2G2 (3(B2A2B2) | "C"G4 E4 |
+w: voice come through* the mu-sic?
+w: known there is* a foun-tain
+z8 | "G"B2B2 B2c2 | "D"A4 z4 | "C"E2G2 G2A2 |
+w: Would you hold it near, as it were your
+w: that ~ was not made by the hands of
+G2 B,>B, B,2C2 || D4 z4 | z2G2 (3(B2A2B2) |
+w: own? It's a hand-me-down, the thoughts* are
+w: men. There* is a road, no sim-*ple
+"C"G4 E4 | z6 E2 | G4 z2 A2 | G2E2 E2E2 |
+w: bro-ken; per-haps they're bet-ter**
+w: high-way be-tween the dawn* and the
+G4 E4 | "G"D2B,2 B,2C2 | D2 z6 | z2G2 (3(B2A2B2) | "C"(G4 E2)z2 | z8 | "G"B2z2 B2c2 | "D"A2 z6 |
+w: left un-sung. ~ I don't know, don't real-*ly care.* Let there be songs
+w: dark of night. And if you go, no one* may fol-low, That path is for
+"C"z2E2 G2A2 | "G"G8 | "F#"z4 "G7"z4 | "Am"A4 G4 | A2 G4 A2 | "D7"(F2E2) D4 | z4 E2F2 | "G"G2A2 G2D2 |
+w: to fill the air. Rip-ple in* still wa-*ter; when there is no peb-ble
+w: your steps a-lone.
+"C"E2 z4 G2 | "A"G4 F4 |[1 "D"D2B,2 C2^C2 :||2 "D"D2z2 B,2 C2 | "G"D4 z4 | z2G2 (3(B2A2)B2 |
+w: tossed, nor wind to blow. Reach out your | blow. You who choose to lead* must
+"C"G4 E4 | z6 E2 | G2 z4 A2 | G2z2 E4 | G4 E4 | "G"D2 B,2 C2^C2 | D4 z4 |
+w: fol-low, but if you fall, you fall a-lone. If you should stand,
+z2G2 (3(B2A2)B2 | "C"G4 E4 | z8 | "G"BB3 B2c2 | "D"A4 z4 | "C"E2G2 G2A2 |
+w: then who's* to guide you? If I knew the way I would take you
+"G"G2 B,>B,B,2C2 | D2z6 | z2G2 (3(B2A2)B2 | "C"G4 E2z2 | z4 zE (3EFG- | G2 z4 A2 | G2z3 G A2 | G4 E3D- |
+w: home. La dee da da da, la da* da da da, da da da da,* da da, da da da da da,
+D2B,2 B,2C2 | D2 z | z2G2 (3(B2A2)B2 | "C"G4 E2z2 | z4 | B4 B2c2 | "D"A2 z6 | "C"EG3 G2A2 | "G"HG4 |]
+w: ~ La da da da, la da* da da da, La da da da, la da da da da.
+%%text Basic version; play with fluid rhythm and lots of anticipation.
+

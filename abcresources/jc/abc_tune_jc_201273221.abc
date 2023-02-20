@@ -1,0 +1,20 @@
+X: 1
+T: Epstein Medley
+S: printed MS of unknown origin
+N: Has "SCORE" and "6" in upper corners
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+%
+P: Epstein #1
+M: 4/4
+L: 1/8
+K: =B_e_A
+z "A"| "G"zB2B cBcd | zB2B cBAG | zB2B cBcd | "Fm"B2 A/G/A [1 "G"B3 :|[2 "G"G3 ||
+G "B"| "G"B2c2 d2ed | "Cm"c4 zcBc | d2c2 B2A2 | "G"GB- B2 z2 z |
+G    | "G"B2c2 d2ed | "Cm"c4 "Fm"f4 | fedc dcBA | "G"G4- G2 z |]
+%
+P: Epstein #2
+M: 4/4
+L: 1/8
+K: =B_e_A
+"A"[| "G"dccB dccB | dccB BAAG | G2GB- BcBA |1 B8 :|2 G8 ||
+"B"|| "G"d4 d4 | "Cm"eded dccB | dccB BAAG | "G"G2GB- BcBA |1 B8 :|2 G8 |]

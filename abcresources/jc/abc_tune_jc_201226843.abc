@@ -1,0 +1,17 @@
+X: 10481
+T: JUDY O' FLANIGAN
+Q: "Moderato"
+%R: jig
+B: "Edinburgh Repository of Music" v.1 p.48 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 6/8
+L: 1/8
+K: A
+|: !segno!\
+A3 c3 | BAB cAF | E>FA A2f | {f}edc B2A |\
+A3 c3 | BAB cAF | EFA A2f | edc B2A :|
+|:\
+c>de ef=g | fed cBA | cde efa | Tg3 a2A |\
+Ace agf | edc B2A | AEF AEF | Adc {c}B2A !segno!|]

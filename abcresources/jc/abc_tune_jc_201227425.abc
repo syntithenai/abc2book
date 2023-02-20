@@ -1,0 +1,38 @@
+X: 1078
+T: Ward's Pill
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+N: The bass A in bar 2 should probably be G or B.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+G2d BGd | BGd BGd | F2A AEA | EAE TF2D |\
+G2d BGd | BGd BGd | E/F/GE F/G/AF | G3 G,3 :|
+|:\
+G/A/BG BGB | F/G/AF AFA | E/F/GE BGB | EAG F2D |\
+G/A/BG E3 | F/G/AF D3 | E/F/GE F/G/AF | G3 G,3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g3 z2z | A3 z2z | d3 A3 | ^c3 d2=c |\
+B3 G3 | g3 G3 | c3 d3 | G3 z2z :|
+|:\
+G3 z2z | B3 z2z | ^c3 z2z | A3 d2c |\
+B3 cBA | d2c BAG | c3 d3 | G3 z2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. foot it and cast off one Cu. and turn .|
+Foot it and cast up again and turn, cross over and half figure with the 3d Cu. :|.
+Right and Left quite round with the 2d Cu. :|:
+Foot it at Corners and turn .||
+Foot it at the other Corners and turn your Partner :||
+The Man heys with the 3d Cu. and the Wo. hands round with the 2d Cu. at the same Time, and foot it to your Partner :||
+The Man hands round with the 2d Cu. and the Wo. with the 3d and turn your Partners.
+%%endtext

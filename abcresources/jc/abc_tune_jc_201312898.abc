@@ -1,0 +1,29 @@
+X: 1
+T: the More the merrier
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.198
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat added to satisfy the "first Strain played twice" instruction.
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+GA |\
+B2AG ^F2D2 | ^F2(A2 A2)AB |\
+c2A2 d2^F2 | G6 :|\
+A2 |\
+B3c dcde | c2 A4 F2 |\
+B3c dcde | f2 d4 cd |\
+e2d2 c2B2 | ABAG ^F2D2 |\
+G2AB A2G2 | G6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%    The 1. cu. take hands and turn down between the 2. cu. and then cast up at the same time; the 2.
+%% cu. do the like.  This ends the first Strain played twice.
+%%    The 1. cu. cross over below the 2. cu. and go the Figure through, then all four meet and lead up, then
+%% hands a-breast, then lead through and cast off.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

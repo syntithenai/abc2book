@@ -1,0 +1,38 @@
+X: 1018
+T: New Way of Wooing
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 is in 4/8-bar staff lines:
+V: 1
+|:\
+F2 A4 de | f4 e2d2 | B4 A2F2 | E4- E4 |\
+F2 A4 de | f4 e2d2 | Bcd2 A2F2 | D8 :|
+|:\
+F2A2 BcdB | F2A2 BcdB | F2A2 BcdB | e2E2 E2E2 |\
+F2A2 BcdB | F2A2 BcdB | F2A2 BcdB | d2D2 D4 |
+F2A2 BcdB | F2A2 BcdB | F2A2 BcdB | e2E2 E2fg |\
+a2gf g2fe | f2ed c2BA | Bcd2 A2F2 | D4- D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks:
+V: 2 clef=bass middle=d
+|: d'2d2 f2a2 | d'4 a2f2 | g2e2 f2d2 | A8 |\
+d'2d2 f2a2 | d'4 a2f2 | e2g2 a2A2 | d8 :|\
+|: d2f2 g2G2 | d2f2 g2G2 | d2f2 g2G2 | e2d2 c2A2 |\
+d2f2
+g2G2 | d2f2 g2G2 | d2f2 g2G2 | d8 |\
+d2f2 g2G2 | d2f2 g2G2 | d2f2 g2G2 | e2d2 c2A2 |\
+d2f2 e2A2 | d2g2 a2f2 | g2fg a2A2 | d8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. cast off and lead through the 3d .|
+1st Cu. cast off again and lead up to the top :|
+the 1st and 2d Cu. foots it. then clap hands.
+foot it again. clap as before. 1st Cu. cast off.
+%%endtext

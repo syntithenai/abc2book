@@ -1,0 +1,103 @@
+X:1
+T:Seek and destroy
+Q:1/4=141
+M:3/4
+L:1/8
+K:G
+A,A,d/2^d/2 =d2A,|A/2^A/2=A2 A,=FE|GEc AA,A,|d/2^d/2=d2 A,A/2^A/2=A-|
+AA,=F EGE|cAA, A,d/2^d/2=d-|dA,A/2^A/2 =A2A,|=FEG EcA|
+A,A,d/2^d/2 =d2A,|A/2^A/2=A2 A,=FE|GEc AA,A,|d/2^d/2=d2 A,A/2^A/2=A-|
+AA,=F EGE|cAA, A,d/2^d/2=d-|dA,A/2^A/2 =A2A,|=FEG EcA|
+A,A,d/2^d/2 =d2A,|A/2^A/2=A2 A,=FE|GEc AA,A,|d/2^d/2=d2 A,A/2^A/2=A-|
+AA,=F EGE|cA3/2^d/2 e/2=dBd/2-|d/2B^A=AGE,E,/2-|E,/2E,E,DEDE/2-|
+E/2E,E,E,E,D/2E/2D/2-|D/2B,A,E,E,E,E,/2-|E,/2DEDEE,E,/2-|E,/2E,E,D/2 E/2DB,A,/2-|
+A,/2E,E,E,E,DE/2-|E/2DEE,E,E,E,/2-|E,/2D/2E/2DB,A,E,E,/2-|E,/2E,E,DEDE/2-|
+E/2E,E,E,E,D/2E/2D/2-|D/2B,A,E,E,E,E,/2-|E,/2DEDEE,E,/2-|E,/2E,E,D/2 E/2DB,A,/2-|
+A,/2E,E,E,E,DE/2-|E/2DEE,E,E,E,/2-|E,/2D/2E/2DB,A,E,E,/2-|E,/2E,E,DEDE/2-|
+E/2E,E,E,E,D/2E/2D/2-|D/2B,A,E,E,E,E,/2-|E,/2DEDEE,E,/2-|E,/2E,E,D/2 E/2DB,A,/2-|
+A,/2E,E,E,E,E,E,/2-|E,/2E,E,E,E,E,E,/2-|E,/2B,^A,GEE,E,/2-|E,/2E,E,E,E,E,E,/2-|
+E,/2E,E,E,E,B,^A,/2-|^A,/2GEE,E,E,E,/2-|E,/2E,E,E,E,E,E,/2-|E,/2E,E,B,^A,GE/2-|
+E/2E,E,E,E,E,E,/2-|E,/2E,E,E,E,E,E,/2-|E,/2B,^A,GEE,E,/2-|E,/2E,E,E,E,E,E,/2-|
+E,/2E,E,E,E,B,^A,/2-|^A,/2GEE,E,E,E,/2-|E,/2E,E,E,E,E,E,/2-|E,/2E,E,B,^A,GE/2-|
+E/2E,E,E,E,E,E,/2-|E,/2E,E,E,E,E,E,/2-|E,/2B,^A,GEE,E,/2-|E,/2E,E,E,E,E,E,/2-|
+E,/2E,E,E,E,B,^A,/2-|^A,/2GE=A,A,A,A,/2-|A,/2CDC2A,A,/2-|A,/2A,A,DCA,3/2-|
+A,/2A,A,A,A,CD/2-|D/2C2c/2 d/2cA^G/2-|^G/2=GE^D=DA,A,/2-|A,/2A,A,CDC3/2-|
+C/2A,A,A,A,DC/2-|C/2A,2A,A,A,A,/2-|A,/2CDC2ed/2-|d/2BdB^A=AG/2-|
+G/2edBdB^A/2-|^A/2=AGG3-G/2-|G4-G/2^F3/2-|F2-F/2=F3-=F/2-|
+=F/2E,E,E,E,E,E,/2-|E,/2E,E,E,E,E,E,/2-|E,/2B,^A,GEG3/2-|G6-|
+G/2^F4=F3/2-|=F2-=F/2E,E,E,E,/2-|E,/2E,E,E,E,E,E,/2-|E,/2E,E,B,^A,GE/2-|
+E/2G4-G3/2-|G2-G/2^F3-F/2-|F/2=F4E,E,/2-|E,/2E,E,E,E,E,E,/2-|
+E,/2E,E,E,E,B,^A,/2-|^A,/2GEG3-G/2-|G4-G/2^F3/2-|F2-F/2=F3-=F/2-|
+=F/2E,E,E,E,DE/2-|E/2DEE,E,E,E,/2-|E,/2D/2E/2DB,=A,E,E,/2-|E,/2E,E,DEDE/2-|
+E/2E,E,E,E,D/2E/2D/2-|D/2B,A,E,E,E,E,/2-|E,/2DEDEE,E,/2-|E,/2E,E,D/2 E/2DB,A,/2-|
+A,/2E,E,E,E,DE/2-|E/2DEE,E,E,E,/2-|E,/2D/2E/2DB,A,E,E,/2-|E,/2E,E,E,E,E,E,/2-|
+E,/2E,E,E,E,B,^A,/2-|^A,/2GEE,E,E,E,/2-|E,/2E,E,E,E,E,E,/2-|E,/2E,E,B,^A,GE/2-|
+E/2E,E,E,E,E,E,/2-|E,/2E,E,E,E,E,E,/2-|E,/2B,^A,GEE,E,/2-|E,/2E,E,E,E,E,E,/2-|
+E,/2E,E,E,E,B,^A,/2-|^A,/2GEE,E,E,E,/2-|E,/2E,E,E,E,E,E,/2-|E,/2E,E,B,^A,GE/2-|
+E/2E,E,E,E,E,E,/2-|E,/2E,E,E,E,E,E,/2-|E,/2B,^A,GEE,E,/2-|E,/2E,E,E,E,E,E,/2-|
+E,/2E,E,E,E,B,^A,/2-|^A,/2GEE,E,E,E,/2-|E,/2E,E,E,E,E,E,/2-|E,/2E,E,B,^A,GE/2-|
+E/2=A,A,A,A,CD/2-|D/2C2A,A,A,A,/2-|A,/2DCA,2A,A,/2-|A,/2A,A,CDC3/2-|
+C/2c/2d/2cA^G=GE/2-|E/2^D=DA,A,A,A,/2-|A,/2CDC2A,A,/2-|A,/2A,A,DCA,3/2-|
+A,/2A,A,A,A,CD/2-|D/2C2edBd/2-|d/2B^A=AGed/2-|d/2BdB^A=AG/2-|
+G/2G4-G3/2-|G2-G/2^F3-F/2-|F/2=F4E,E,/2-|E,/2E,E,E,E,E,E,/2-|
+E,/2E,E,E,E,B,^A,/2-|^A,/2GEG3-G/2-|G4-G/2^F3/2-|F2-F/2=F3-=F/2-|
+=F/2E,E,E,E,E,E,/2-|E,/2E,E,E,E,E,E,/2-|E,/2B,^A,GEG3/2-|G6-|
+G/2^F4=F3/2-|=F2-=F/2E,E,E,E,/2-|E,/2E,E,E,E,E,E,/2-|E,/2E,E,B,^A,GE/2-|
+E/2G4-G3/2-|G2-G/2^F3-F/2-|F/2=F4E3/2-|E6-|
+E6-|E3/2z4z/2|z6|z6|
+z6|z3 G=A,A,|AA,A, AA,G|A,A,A A,A,A|
+A,^FA, A,AA,|A,AA, CB,A,|=FED CB,G|A,A,A A,A,A|
+A,GA, A,AA,|A,AA, ^FA,A,|AA,A, AA,C|B,A,=F EDC|
+B,GA, A,AA,|A,AA, GA,A,|AA,A, AA,^F|A,A,A A,A,A|
+A,CB, A,=FE|DCB, GA,A,|AA,A, AA,G|A,A,A A,A,A|
+A,^FA, A,AA,|A,AA, CB,A,|=FED CB,G-|G6-|
+G^F4=F-|=F3 E,E,E,|E,E,E, E,E,E,|E,E,E, B,^A,G|
+EG4-G-|G3 ^F3-|F=F4E,|E,E,E, E,E,E,|
+E,E,E, E,E,B,|^A,GE G3-|G4-G^F-|F3 =F3-|
+=FE,E, E,E,E,|E,E,E, E,E,E,|E,B,^A, GEG-|G6-|
+G^F4=F-|=F3 DE,E,|EE,E, EE,D|E,E,E E,E,E|
+E,^CE, E,EE,|E,EE, G,F,E,|=CB,=A, G,F,D|E,E,E E,E,E|
+E,DE, E,EE,|E,EE, ^CE,E,|EE,E, EE,G,|F,E,=C B,A,G,|
+F,DE, E,EE,|E,EE, DE,E,|EE,E, EE,^C|E,E,E E,E,E|
+E,G,F, E,=CB,|A,G,F, DE,E,|EE,E, EE,D|E,E,E E,E,E|
+E,^CE, E,EE,|E,EE, G,F,E,|=CB,A, G,F,G,|F,E,C B,A,G,|
+F,A,4-A,-|A,6-|A,4-A,A,|A,3/2^d/2=d2A,A/2^A/2|
+=A2A, =FEG|EcA A,A,d/2^d/2|=d2A, A/2^A/2=A2|A,=FE GEc|
+AA,A,3/2^d/2=d2|A,A/2^A/2=A2A,=F|EGE cAA,|A,d/2^d/2=d2A,A/2^A/2|
+=A2A, =FEG|EcA A,A,d/2^d/2|=d2A, A/2^A/2=A2|A,=FE GEc|
+AA,A, d/2^d/2=d2|A,A/2^A/2=A2A,=F|EGE cAA,|A,d/2^d/2=d2A,A/2^A/2|
+=A2A, =FEG|EcA A,A,d/2^d/2|=d2A, A/2^A/2=A2|A,=FE GEc|
+Aed BdB|^A=AG E,E,E,|E,DE DEE,|E,E,E, D/2E/2DB,|
+A,E,E, E,E,D|EDE E,E,E,|E,D/2E/2D B,A,E,|E,E,E, DED|
+EE,E, E,E,D/2E/2|DB,A, E,E,E,|E,DE DEE,|E,E,E, D/2E/2DB,|
+A,E,E, E,E,E,|E,E,E, E,E,E,|E,B,^A, GEE,|E,E,E, E,E,E,|
+E,E,E, E,E,B,|^A,GE E,E,E,|E,E,E, E,E,E,|E,E,E, B,^A,G|
+EE,E, E,E,E,|E,E,E, E,E,E,|E,B,^A, GEE,|E,E,E, E,E,E,|
+E,E,E, E,E,B,|^A,GE E,E,E,|E,E,E, E,E,E,|E,E,E, B,^A,G|
+EE,E, E,E,E,|E,E,E, E,E,E,|E,B,^A, GEE,|E,E,E, E,E,E,|
+E,E,E, E,E,B,|^A,GE =A,A,A,|A,CD C2A,|A,A,A, DCA,-|
+A,A,A, A,A,C|DC2 c/2d/2cA|^G=GE ^D=DA,|A,A,A, CDC-|
+CA,A, A,A,D|CA,2 A,A,A,|A,CD C2e|dBd B^A=A|
+Ged BdB|^A=AG G3-|G4-G^F-|F3 =F3-|
+=FE,E, E,E,E,|E,E,E, E,E,E,|E,B,^A, GEG-|G6-|
+G^F4=F-|=F3 E,E,E,|E,E,E, E,E,E,|E,E,E, B,^A,G|
+EG4-G-|G3 ^F3-|F=F4E,|E,E,E, E,E,E,|
+E,E,E, E,E,B,|^A,GE G3-|G4-G^F-|F3 =F3-|
+=FE,E, E,E,E,|E,E,E, E,E,E,|E,E,E, E,G^F|E,E,F =FE,E,|
+=FEE, E,E,E,|E,E,G ^FE,E,|FDE, E,DE|E,E,E, E,E,E,|
+GFE, E,F=F|E,E,=F EE,E,|E,E,E, E,G^F|E,E,F DE,E,|
+DEE, E,E,E,|E,E,G FE,E,|F=FE, E,=FE|E,E,E, E,E,E,|
+G^FE, E,FD|E,E,D EE,E,|E,E,E, E,GF|E,E,F =FE,E,|
+=FEE, E,E,E,|E,E,G ^FE,E,|FDE, E,DE|E,E,E, E,E,z|
+E,E,E, G,E,E,|=A,E,E, G,E,E,|A,E,E, ^A,=A,E,|E,G,E, E,A,E,|
+E,G,E, E,A,E,|E,^A,=A, E,E,G,|E,E,A, E,E,G,|E,E,A, E,E,^A,|
+=A,E,E, G,E,E,|A,E,E, G,E,E,|A,E,E, ^A,=A,E,|E,G,E, E,A,E,|
+E,G,E, E,A,E,|E,^A,=A, E,E,G,|E,E,A, E,E,G,|E,E,A, E,E,^A,|
+=A,E,E, G,E,E,|A,E,E, G,E,E,|A,E,E, ^A,=A,E,|E,G,E, E,A,E,|
+E,G,E, E,A,E,|E,^A,=A, edB|dB^A =AGe|dBd B^A=A|
+Ged BdB|^A=AG E,E,E,|E,E
+-----------------------------------------------------------------------------
+bramman110-08-2007, 03:57 PMcud someone plz do the ' Kryptonite song ' by 3 doors down
+-----------------------------------------------------------------------------
+MP-Finne07-03-2008, 05:13 PM[QUOTE=Alubob]Hotel California give this rendition about 5/10 its bit ropey in places
+best on lute

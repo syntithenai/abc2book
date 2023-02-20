@@ -1,0 +1,28 @@
+X: 4337
+T: The Woodcutters
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/8
+L: 1/8
+K: D
+%
+V: 1
+a |\
+a/g/ff fad | e>fe e2a | f>gf Te>de | dAF D2a |\
+a/g/ff fad | e>fe eae | fd'b T^g>fg | aec A2 :|
+|: e |\
+e/d/cc ceA | dAF D2a | a/g/ff fad | gdB G2b |\
+b/a/gg afd | e/f/gg g2a | f>gf Te>de | dAF D2 |]
+%
+V: 2 clef=bass middle=d
+z |\
+d3 f3 | g3 a3 | d'3 a3 | d3- d2z |\
+d3 f3 | g3 a3 | d3 e3 | A3- A2 :|
+|: z |\
+a3 g3 | f3- f2z | d'3 =c'3 | b3- b2z |\
+g3 f3 | e3 c3 | d3 A3 | D3- D2 |]
+%%begintext align
+Hey contrary sides, then on your own :|
+First Cu. cast off and turn, Right and Left with the 2d Cu. :|
+%%endtext

@@ -1,0 +1,33 @@
+X: 20903
+T: CINDERELLA SETT (tune 3)
+C:
+N: Version 2 for software that understands voice overlays.
+N: The initial rest in strain 2 is a bit odd.
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.90 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+(cf) |\
+a2ag fefd | c6 (ef) | .g2.g2 .c'2.c'2 | a4 f2g[a_e] |\
+babc' d'4 & d3c BABd | a^gab c'4 & c3B A^GAc | g^fga b2ge | g4 f2 H|]
+ef & z2 |\
+g6 ab | c'6 ba | g6 ag | fefa c2ef |\
+g6 ab | c'6 ba | g6 ag | g^fag "^D.C."=f2 |]
+G2 |\
+A4 A2B2 | c4 c2c2 | c2B2B2B2 | B2A2A2G2 |\
+A4 A2B2 | c4 c2c2 | c2B2B2B2 | A4 "^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% back to back,
+%% balance four,
+%% all chassa across and back,
+%% all balance to partners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,43 @@
+X: 1
+T: Irish Ground
+P: Longways for as many as will
+%R: triple hornpipe, slip-jig
+B: "The Dancing-Master" printed by John Walsh, London
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.21 #45
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.244
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Fixed rhythmic problems at phrase boundaries.
+N: The tunes are identical except for the g/e note in bar 2; CCDM1 has g, while DMDfD has e.
+M: 9/4
+L: 1/4
+K: F clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+z |\
+f3 f3 c3 | f3 f3 [g3e3] |\
+f3 f3 B3 | c3 c3 f2 :|\
+[K:F clef=treble]\
+c |\
+A>Bc (d<c)f e2c | A>Bc (d<c)f g2c |
+A>Bc (d<c)f d2a | bag g2f f2 |]\
+e |\
+dcB AGF GAB | AGF DEF G2B |\
+ABc cd_e def | edc f>ge f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First all four Hands half round and turn single, then quite
+%% round and turn single, to the Bass play'd twice. The 1st Cu. lead
+%% between the 3d Cu. and up again, and cast off, then sett and
+%% cast up, and cross over below the 3d Cu. and lead up the Middle,
+%% then cast off and turn your Partner.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First all 4. hands half round, and turn single, then quite round, and turn single to the Bass played
+%% twice; the 1. cu. lead below the 3. cu. and up again, and cast off, then set and cast up, and cross over
+%% below the 3. cu. and lead up the middle, then cast off, and turn your partner.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

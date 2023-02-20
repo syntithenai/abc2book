@@ -1,0 +1,18 @@
+X: 643
+T: Julia Delaney
+R: reel
+%S: s:2 b:13(6+7)
+%S: s:3 b:13(4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #643
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0643/oneill-1001-0643-1.abc
+%m: Tn = (3n/o/n/
+M: C|
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+"^A"|:\
+dcAG (3(EFG) DE | G2 {B}AG (EG)G2 | dcAG (3(EFG) DG |[1 Addc defe :|[2 Addc d2d2 "^B"|] cdef g2fg |
+| agef g2(ed) | cdef g2(AG) | Addc dfed || cdef g2fg |\
+(3(agf) ef g2(fg) | (3(agf) (3(gfe) (fd) (ec) | d2Tdc defe |]

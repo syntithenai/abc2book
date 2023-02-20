@@ -1,0 +1,16 @@
+X: 1
+T: Barbara McOwen's Strathspey
+C: Muriel A Johnstone
+R: Strathspey
+%Q: 128
+M: 4/4
+L: 1/16
+K: Am
+[|"Am"EA3 A4 "G"B3A GB3 | "Am"EA3 A3B c3d ea3 \
+|  "G"g3e dg3 Bg3 G3d | "E7"e3A edcB "Am"A4 A3G |
+| "Am"EA3 A3c "G"BcBA G3B | "Am"EA3 A3B c3d e3g \
+|  "D"^fd3 "C"g3e "G"dg3 G3B | "E7"e3A edcB "Am"A4 A4 |]
+[| "G"g2^fg a3g "Am"eA3 A4 | "G"G3A B3A GD3 EG3 \
+| "Am"A4 A3B c3B c3d | "E7"e4 de3 "Am"cA3 A4 |
+|  "G"g2^fg a3g "Am"eA3 A4 | "G"G3A GABA GD3 EG3 \
+| "Am"Aa3 ea3 "G"dg3 Bd3 | "E7"e3A edcB "Am"A4 A4 |]

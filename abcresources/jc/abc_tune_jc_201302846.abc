@@ -1,0 +1,18 @@
+X: 121
+T: Little Yellow Road   #2
+R: jig
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #121
+O: F.O'Neill
+Z: 1997 henrik.norbeck@mailbox.swipnet.se
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2 CD
+Q: "Animated"
+M: 6/8
+L: 1/8
+K: G
+"^A"[|] D |: .G.G.G (GA)>.F | .G.G.G (ABc) | ({e}dcB) [1 ({d}cAG) | F3 (DEF) :|[2 {d}cAF | G3 G2 |]
+"^B"[| d | .d.d.d (edB) | .c.c.c (dcA) | .B.B.B (BAG) | F3 (DE"^->A2"F) |]
+"^C"[| B | .d.d.d (d/f/e/d/c/B/) | .c.c.c (c/e/d/c/B/A/) | .B.B.B (B/d/c/B/A/G/) | (FAF) (DEF) |]
+"^D"[| (G/F/E/F/G/A/) (B/A/G/F/G/A/) | (G/F/E/F/G/A/) B2 d | {e}dcB {d}cAF | G3 G2 |]

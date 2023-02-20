@@ -1,0 +1,16 @@
+X: 711
+T: I'm Waiting For You
+R: reel
+%S: s:3 b:16(5+6+5)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #711
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0711/oneill-1001-0711-1.abc
+M: C|
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+"^A"[|]\
+D2 | G2dG BGdG | AGFG ABcA | BAGF GABc | de=fd cA^FA || B(>G (3{A}GFG) BGAG |
+| FGAB cBcA | BdGB cBAG | FDEF G2 "^B"|[| (Bd) | (3(gag) (fd) edBG | FDAD BDAD | E2(EF) GFGA |
+|  (3(Bcd) ce d2 || (Bd) | (3(gag) (fd) edBG | (3(FED) (AD)  BDAD | G2 (FE) DGBd | cDEF G2 |]

@@ -1,0 +1,21 @@
+X: 2371
+T: the Auld Stewart's back again.  a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.2 p.37 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+(=c |\
+B)GAG TF>GA=c | BGAF BEE=c |\
+BGAF TF>GAg | fdec dDD :| g |\
+Tf>gaf gabg | Tf>gaf beeg |
+(fga).f (ga).b.g | fdec dDD g |\
+Tf>gaf gabg | Tf>gaf beeg |\
+fgaf gabg | faef dDD |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | d2d2 d2f2 | g2d2 e2e2 | d2d2 d2a2 | d'2a2 d2d :| z | d2d2 e2c2 | d2d2 e2e2 |
+d2d'2 e'2c'2 | d'2a2 d2dz | d2d2 e2c2 | d2d2 e2c'2 | d'2d'2 e'2c'2 | d'2a2 d2d |]

@@ -1,0 +1,27 @@
+X: 1
+T: Dobrudjanska R\ueka
+O: Bulgaria
+M: 2/4
+L: 1/16
+K: D
+"Intro"\
+|| "D"GAA2 ~A4 | GAA2 AG~A2 | GAA2 ~A4 | GAA2 AG~A2 ||
+"A"\
+|: "D"GA~A2 AG~F2 | GAAD ~A2GA | "G"~B2GB "D"AG~F2 | GAAD A2z2 :|
+"B"\
+|: "G"~B2GB "D"~A2GF | "A7"EFED "D"~D2~A2 | "G"~B2GB "D"AG~F2 | "A7"EFED "D"~D2z2 :|
+"C"\
+|: "A7"CD~E2 "D"GE~F2 | "A7"EFED "D"~D2~A2 | "A7"CD~E2 "D"GE~F2 |1 "A7"EFED "D"~D3A, :|2 "A7"EFED "D"~D2z2 ||
+"D"\
+|: "Em"CE~B,2 DE~E2 | "A7"EGFE "D"~D3A, | "G"CA,~B,2 "Em"DE~E2 |1 "A7"EDFE "D"~D3A, :|2 "A7"EDFE "D"~D2"fine"z2 ||
+"E"\
+|: "A"GAAA eddc | "D"~A2BA "A"~A2~E2 | "Am"GAAA =cEBA |1 "Dm"~A2BA "Am"A3E :|2 "Dm"~A2BA "Am"A2z2 ||
+"F"\
+[K: G]\
+|: "G"GAGA cd~B2 | GAcd ~B2cd | "D"~A2GA "G"cd~B2 | "D"GAcd "G"B4 :|
+"G"\
+[K: AMix]\
+|: "A"deee de~c2 | "D"~A2BA "A"~A2~E2 | GAAA "D"dB~c2 |1 "E"~A2BA "A"~A2AE :|2 "E"A2BA "A"A2z2  ||
+"H"\
+[K: ADor]\
+|: "Am"GAAA cEBA | "Em"AGBA "Am"AGFE | GAAA cEBA |1,3 "Em"AGBA "Am"A2AE :|2,4 "Em"AGBA "Am"A2z2 :]

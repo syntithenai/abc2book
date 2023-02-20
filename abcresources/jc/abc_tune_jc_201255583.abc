@@ -1,0 +1,58 @@
+X: 1
+T: Bouzer Castle
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.118 #172 (236)
+B: "The Dancing-Master: Containind Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.102
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+C |\
+E2G (GE)G | A2c cAc | E2G (GE)C | D3 G,3 |\
+E2G (GE)G | A2c (cA)c | (ec)e (dB)G | c3 C3 |]
+c |\
+e2g (ge)g | B2d (dB)d | E2G (GE)C | D3 G,3 |\
+E2G (GE)G | A2c (cA)c | (ec)e (dB)G | c3 C3 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Honour to the Presence, then to yr we. lead up forward and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then the 1st Man cast off into the 2d Wo. Place, and 2d Wo. into the 1st Man's
+%% Place, and the 2d Man do the same in the 1st Wo. Place; then the 1st Cu. being
+%% in the 2d Cu. Place, go the Figure of 8, and the 2d Cu. being in the 1st Cu.
+%% Place do the same; then Hands round and turn S.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then the We. take right Hands, and the Men right Hands, and change Places
+%% then change Places with your own, the 2d Cu. being in the 1st Cu. Place
+%% cast off, the other lead up in the Middle, and cast off into the 2d Cu. Place
+%% and meet, then cast off into their own Places again, and so lead down
+%% into the 2d Place.  Do this to the End.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% Honour to the Presence, then to your we. Lead up all forward and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then the 1. man cast off into the 2. wo. place, and 2. wo. into the 1. man's place, and the 2. man do
+%% the same into the 1. wo. place, then the 1. cu. being in the 2. cu. place, go the Figure of 8. and the 2.
+%% cu. being in the 1. cu. place do the same, then hands round and turn S.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then the we. take right-hands, and the men right-hands, and change places, then change places with
+%% your own, the 2. cu. being in the 1. cu. place cast off, the other lead up in the middle, and cast off
+%% into the 2. cu. place and meet, then cast off into their own places again, and so lead down into the
+%% 2. place.  Do this to the end.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,46 @@
+
+X: 1
+T: Piet-My-Vrou
+T: Red-chested cuckoo
+C: Wouter Joubert
+S: Wouter on the strathspey list 2022-12-1
+P: For Jan and Christelle who got engaged on 19 November 2022
+N: Jan is Wouter's son.
+R: march
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/4
+K: Gm
+% = = = = = = = = = =
+V: 1 staves=2
+D |\
+"Gm"GD GA | BA GA | "Gm/Bb"GB "D7"Bc | "Gm"d2 "D7/A"d2 |\
+"G"gd gf | "Cm"ed c^c | "D7"de d^c | d2 d2 |
+"D7".c.B A2 | "Gm".B.A G2 | "A7"AG ^FE | "D"D2 D2 |\
+"Gm"GD "D7"GA | "Gm"GB "D7"Bc | "Gm"de "D7"d^f | "Gm"g2 g2 |]
+[|\
+"Gm".B.A G2 | .B.A G2 | BG Bc | d2 d2 |\
+"Gm".B.A G2 | .B.A G2 | "D"DC B,A, | "Gm"G,2 G,2 |
+"Gm".B.A G2 | .B.A G2 | BG Bc | d2 d2 |\
+"G"gd gf | "Cm"ed c^c | "D7"de d^F | "Gm"G2- G |]
+% = = = = = = = = = =
+V: 2 clef=bass middle=d
+z |\
+[g4d4G4] | [d'4b4g4] | [g2B2] [c'2^f2d2] | [d'2b2g2] [d'2c'2a2] |\
+Gd g=B | cg c'e | da c'a | da c'a |
+da c'^f | Gd gB | A=e g^c | da c'^f |\
+[dG][gB] [ad][c'^f] | [d'g]b [ad][c'^f2] | [dG][gB] [ad][c'^f] | [d'g4]c' ba |]
+[|\
+[d'g4]c' ba | [d'g4]c' ba | [gd'4]a ba | [gd'4]a ba |\
+[d'g4]c' ba | [d'g3]c' bz | d2 D2 | [dG4]c BA |
+[dG4]c BA | [dG4]c BA | [Gd4]A BA | [Gd4]A BA |\
+Gd g=B | cg c'e | da c'2 | [d'g3]c' b |]
+%%begintext align
+%% Wouter wrote: Springtime in the southern hemisphere and on Saturday my son got engaged :-)
+%% By now you might know that I react to happenings around me with music and
+%% as I sat down in front of the piano, a Piet-My-Vrou (or Red-chested cuckoo)
+%% was repeatedly calling in the tree just outside the room. Its merry call
+%% became the core around which I composed a tune in honour of the engaged
+%% couple.
+%% 
+%%endtext

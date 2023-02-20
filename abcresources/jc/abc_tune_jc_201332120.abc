@@ -1,0 +1,46 @@
+
+X: 1
+T: Royal Albert  [F]
+T: Prince of Wales Contre Dance
+T: the Sicilian Dance
+B: Barnes I p.111
+O: ca.1820
+M: 6/8
+L: 1/8
+K: F
+C \
+| "F"F>GF A>GF | "F"{A}c2c "C7"c2B | "F"A>cf "Bb"c2B | "C7"A>BG "F"F2C \
+| "F"F>GF A>GF | "F"{A}cc2 c2f | "C"e>fe "G7"dc=B | "C"{d}c2c c2 |]
+e/f/ \
+| "C7"g2c b2a | "C7"gfe "F"{g}fef | "C7"g2c b2a | "C7"gfe "F"f2c \
+| "Bb"dbb "F"caa | "Gm"Bgg "F"Aff | "Gm"BAG "C7"c2E | "F"{G}F2F F2 |]
+|: G \
+| "F"A2-A "C7"G>FG | "F"G>FF F3 | "F"c2-c "C7"B>AB | "F"B>AA A2f \
+| "Dm"f2e "C"e2d | "Bb"d2c "C7"c2B | "F"A>Bc c>BA | "C7"{A}G2G G2 :|
+c \
+| "F"f2f fcA | "C"{d}c2c "C7"ceg | "C7"b2b bge | "F"{g}f2f f2c \
+| "Bb"dbb "F"caa | "Gm"Bgg "F"Aff | "Gm"BAG "C7"c2E | "F"{G}F2F F2 |]
+
+%%sep 2 1 500
+
+X: 2
+T: Royal Albert  [G]
+T: Prince of Wales Contre Dance
+T: the Sicilian Dance
+B: Barnes I p.111
+O: ca.1820
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G>AG B>AG | "G"{B}d2d "D7"d2c | "G"B>dg "C"d2c | "D7"B>cA "G"G2D \
+| "G"G>AG B>AG | "G"{B}dd2 d2g | "D"f>gf "A7"ed^c | "D"{e}d2d d2 |]
+f/g/ \
+| "D7"a2d c'2b | "D7"agf "G"{a}gfg | "D7"a2d c'2b | "D7"agf "G"g2d \
+| "C"ec'c' "G"dbb | "Am"caa "G"Bgg | "Am"cBA "D7"d2F | "G"{A}G2G G2 |]
+|: A \
+| "G"B2-B "D7"A>GA | "G"A>GG G3 | "G"d2-d "D7"c>Bc | "G"c>BB B2g \
+| "Em"g2f "D"f2e | "C"e2d "D7"d2c | "G"B>cd d>cB | "D7"{B}A2A A2 :|
+d \
+| "G"g2g gdB | "D"{e}d2d "D7"dfa | "D7"c'2c' c'af | "G"{a}g2g g2d \
+| "C"ec'c' "G"dbb | "Am"caa "G"Bgg | "Am"cBA "D7"d2F | "G"{A}G2G G2 |]

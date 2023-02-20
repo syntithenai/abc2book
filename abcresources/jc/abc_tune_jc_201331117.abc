@@ -1,0 +1,22 @@
+X: 1784
+T: Rodney's Glory
+T: gloire ui rodnaig
+R: reel, "long dance"
+%S: s:5 b:20(4+4+4+4+4)
+B: O'Neill's "Music of Ireland" #1784
+O: F.O'Neill
+Z: Robert Thorpe (thorpe@skep.com)
+Z: ABCMUS 1.0
+M: 2/4
+L: 1/16
+%Q: 120
+%%slurgraces yes
+%%graceslurs yes
+K: A
+(ed) \
+| c2(Bc) ABcA | BGEF G2(cd) | efed cdef | {a}gfge dfed |
+| c2(Bc) ABcA | BGEF G2(ed) | | c2(BA) GABG | A4 A2 :|
+|: d2 \
+| eaab aged | efed c3A | g2fg agec | dcAF G2G2 |
+| AGAB cBcd | edee a2(ab) | aged cdef | gfge dfed |
+| (3(cdc) (3(BcB) ABcA | BGEF G2(ed) | c2(BA) GABG | A4 A2 :|

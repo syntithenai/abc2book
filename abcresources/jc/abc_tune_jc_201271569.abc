@@ -1,0 +1,16 @@
+X: 450
+T: Sardana
+O: Spain
+M: 2/4
+L: 1/8
+K: C
+Q:1/4=108
+%%MIDI program 65 Alto Sax
+%%MIDI bassprog 32 Acoustic Bass
+%%MIDI gchord f2z2z4
+%%MIDI gchordbars 2
+"C"z2EG|A3G|EGcd|e4-|e2 EG|AG EG|cB cA|"G7"B4-|B2 FG|
+   "C" A3G|FGde|"F7"f4-|f2 "G7"Bc|d3B  |AG fd|"C"e4-|e2 EG|
+    A3G|FGde|"F7"f4-|f2 "G7"cB|_B3A |"C"^GA_BA|"F"F4-|F2 ^FG|
+    "C"A3G|^F2AG|E4-|E2 ^FG|A3"G"G|A2B2|"C"c4-|c4|
+|:"C"zAGA|"G"BAGA|BAGA|"C"cAGA|cAGA|"G"BAGA|BAGA|"C"cAGA|cAGA|cz3:|

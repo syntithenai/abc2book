@@ -1,0 +1,29 @@
+X: 1
+T: St. Brides
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (193)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E2 |\
+A2ed c2A2 | c2e2 e2fg | a2g2 f2e2 | dcBc dcBc |\
+A2ed c2A2 | c2e2 e2fg | a2g2 f3e | e6 :|
+|: e2 |\
+fefg agfe | fedc B2cd | e2fe dcBA | G6 E2 |\
+A2cA F2dB | G2ec A2ag | fedc B3A | A6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. go the Hey with the 2d and 3d Cu. and cast
+%% off into the 2d Cu. Place then Hands quite round with
+%% the 3d Cu. and cast up to the Top :| The 1st Cu. cross
+%% the Inside of the 2d Cu. and below the 3d Cu. then
+%% cross up to the 2d Cu. Place then the 1st Man change
+%% Places with the 2d Wo. and 1st Wo. with the 2d Man
+%% then Hands :|
+%%endtext
+%%sep 1 8 500

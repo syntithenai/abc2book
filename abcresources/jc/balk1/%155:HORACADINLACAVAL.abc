@@ -1,0 +1,33 @@
+X: 155
+T:Hora ca din la caval
+R:hora
+O:Romanian
+Z:Transcribed by Henrik Norbeck.
+F: http://www.youtube.com/watch?v=Maj0XurEIIo
+F: http://www.youtube.com/watch?v=4gLImTK5A1A
+M:C                    |
+F:http://jc.tzo.net/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ho/Hora_ca_din_la_caval_1.abc
+K:Ador ^d
+Q:1/4 = 160
+%%MIDI channel 1
+%%MIDI chordprog 21 % Accordian
+%%MIDI bassprog 24 % Acoustic Guitar (nylon)
+%%MIDI program 73 % Flute
+%%MIDI beat 97 87  77 4
+%%MIDI ratio 2 1
+%%MIDI chordvol 60
+%%MIDI bassvol 77
+  "Am"e2d2 "Am/E"e2d2    |"Am"cAc2 "D#dim"d3c     |\
+  "E"e2d2 "E/G#"cAc2     |"Am"deec "Am/E"e4       |
+  [1 "Am"e2d2 "Am7/G"e2d2|"F#m7b5"cAc2 "D#dim"d3c |\
+  "E"e2d2 "E/G#"ceec     |"Am"A4 A4               :|
+  [2 "Am"ABcd "Am7/G"e2d2|"F#m7b5"cAc2 "D#dim"d3c |\
+  "E"e2d2 "E/G#"ceec     |"Am"A4 A4               ||
+|:"Am"ABcd "Am/E"e2d2    |"Am"cAc2 "D#dim"d3c     |\
+  "E"e2d2 "E/G#"cAc2     |"Am"deec "Am/E"e4       |
+  "Am"ABcd "Am7/G"e2d2   |"F#m7b5"cAc2 "D#dim"d3c |\
+  "E"e2d2 "E/G#"ceec     |"Am"A4 A4               :|
+|:"C"efgf "C/G"aggf      |"C"feed "D#dim"dddc     |\
+  "E"e2d2 "E/G#"cAc2     |"Am"deec "Am/E"e4       |
+  "Am"a2a2-"Am7/G"a2g2   |"F#m7b5"fefe "D#dim"dddc|\
+  "E"e2d2 "E/G#"ceec     |"Am"A4 A4               :|

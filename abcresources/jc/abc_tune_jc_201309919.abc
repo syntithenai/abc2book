@@ -1,0 +1,16 @@
+X: 627
+T: the Mills are Grinding
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #627
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0627/oneill-1001-0627-1.abc
+M: C|
+L: 1/8
+K: G
+"^A"[|\
+GFGA B2(Bc) | ded^c (dg)g2 | =FEFG A2(Bc) | dedc (BG)G z ||\
+GFGA B2(Bc) | ded^c (dg)ga | (bg)af (gd)de | (=fd)cA (BG)G z |]
+"^B"[|\
+gfga g2(ga) | bgag fdde | =fefg f2(ce) | dcBA (BG)G z ||\
+gfga g2(ga) | bgag (fd)dg | (bg)af (gd)de | (=fd)cA (BG)G z |]

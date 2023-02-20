@@ -1,0 +1,19 @@
+X: 10263
+T: QUADRILLE
+%R: reel, march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.26 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Eb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B2 |\
+{d}e2e2 efge | B4 G2{d}e2 | edcB =ABcd | e2{f}g2B2B2 |\
+{d}e2e2 efg=e | f6 e2 | defd cdec | B2{^c}d2B2 :|
+|: B2 |\
+{=e}f2f2 fagf | fede B2B2 | f=efe fgaf | fede B2B2 |\
+e2B2 edcd | e2B2 defg | e2e2 fgaf | e2{f}g2e2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

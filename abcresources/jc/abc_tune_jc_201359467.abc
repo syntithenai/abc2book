@@ -1,0 +1,2955 @@
+http://music.gordfisch.net/montrealsession/assets/abc/quebec.abc
+
+X:1
+T:Reel St Marc
+Z:robin.beech@mcgill.ca
+R:reel
+S:Laurence Beaudry
+M:4/4
+L:1/8
+K:Am
+c2Ac BABc | defg fedc | c2Ac BAEG | ABcd edcB |
+c2Ac BABc | defg fedc | cBAc BAEG | Aaec A2 :| 
+c2ec fcec | dedc Bcde | d2gd bdgd | ag^fa gedB |
+c2ec fcec | dedc Bcde | fedc BAGF | EGAB c4 :|
+
+X:2
+T:Reel de Mattawa
+C:Richard Forest
+M:4/4
+L:1/8
+R:reel
+K:Edor
+|:B2 | ABeB gBeB | ABeB gBeB | ddfd gdfd | Adfd gdfd |
+ABeB gBeB | ABeB gBeB | f2fg fedc | Bc d2 e2 :|
+|:ef | gefd ecdB | ABAF D2FD | EFGA B2ef | gfed A2ef |
+gefd ecdB | ABAF D2FD | EFGA B2AG | FAGF E2 :|
+
+X:3
+T:La chaise noire
+C:Gilles Vigneault
+Z:robin.beech@mcgill.ca
+R:reel
+M:4/4
+L:1/8
+K:Gmin
+G^FGA B2GB | AGF=E D4 | G^FGA B2BB | BABc B2A2 |
+G^FGA B2GB | AGF=E D4 | GABc dedc | BGAF G4 |
+Bcde f2ff | f=efg f2_e2 | edce dcBd | cBAG F4 |
+Bcde f2ff | f=efg f2_e2 | edce dcBd | cBAF G4 |:
+K:G
+B2BB BGAB | c2cc cABc | d2dd edcB | AGFE D4 |
+B2BB BGAB | c2cc cABc | d2dd gedc | BGAF G4 :|
+
+X:4
+T:Reel de Montebello
+C:Richard Forest
+S:Laurence Beaudry
+Z:robin.beech@mcgill.ca
+R:reel
+M:4/4
+L:1/8
+K:Amin
+|: EABc ecBA | FABc ecBA | GABc dBGB | edBA GEED |
+EABc ecBA | FABc ecBA | GABc dBGE |1 EDEG A3A :|2 EDEG A2ce |:
+aece gecA | GABc dcBd | gddf ddgd | edef e2ce |
+aece gecA | GABc dcBd | gedg edBd |1 cBcd cAce :|2 cBcd cBAG || E8 |]
+
+X:5
+T:Reel B\'eatrice
+M:4/4
+L:1/8
+R:reel
+K:Amin
+A,B, |: C2 A,C ECCE | AEED E2 AB | c2Ac ecce | aeed e2ab |
+c'bag fedc | Bdd^c d4 | e^def e=dcB |1 cdBc A2A,B, :|2 cdBc A3a |:
+a2 ^ga bf (3fff | fe^de a4 | e2ef edcB| cdBc A2 a2 |
+a2^ga bf (3fff | fe^de a4 | e2ef edcB |1 cdBc A2a2 :|2 cdBc A2G2 |:
+K:C
+c2G2 cGce | c2G2 cGce | d2B2G2dB | cc'ba gfed |
+c2G2 cGce | c2G2 cGce | d2B2 G2dB | c2cB c4 :|
+
+X:6
+T:La belle Catherine
+N:From the repertoire of "Pitou Boudreault"
+P:AAABBAAACC
+M:4/4
+L:1/8
+K:D
+P:A
+D2FA dfed | c2Ac B2GB | A3A FAdf | g2f2 ecd2  ||
+P:B
+fa2a fdef gb2b | fa2a fdef | gbfa ecd2 ||
+P:C
+DFAF DFAF | DGBG DGBG |1 DFAF DFAF | A,CEC A,CEC :|2 ABAG FAdf | g2f2 ecd2 |]
+
+X:7
+T:Reel des vacanciers
+C:Yvon Cuillerier
+Z:robin.beech@mcgill.ca
+R:reel
+M:2/4
+L:1/16
+K:Dm
+DE | F2EF DFED | A,DFA dAFD | EC=B,C G,B,CD | Ec=Bd c_BGE | 
+F2EF DFED | A,DFA dAFD | ECC=B, CDEF | GEFE "Fine" D2 ::
+A^c | dfag fdAF | dAFd AFDF | BFDB FDBF | EA,^CE A=B^cA |
+dfag fdAF | dAFd AFDF | BFDB AFDF | EA,"D.C. al Fine"^CE F2 :|
+
+X:8
+T:Reel des lilas
+C:Gilles Vigneault
+Z:robin.beech@mcgill.ca
+R:reel
+M:4/4
+L:1/16
+K:G
+B2BB BABd | c2B2 D4 | B2BB BABc | BABc e2d2 | 
+cBcd c4 | BABc B4 | AGAB AGFE | DAAA A4 |
+B2BB BABd | c2B2 D4 | B2BB BABc | BABc e2d2 |
+cdcB E4 | BcBG D4 | fgfe dcBA | BGGG G4 |:
+B2E2 EFGA | B2E2 EFGE | F2D2 DEFG | AGAB A4 |
+B2E2 EFGA | B2E2 EFGE | DEFG AcBA | Beee e4 |
+B2E2 EFGA | B2E2 EFGE | F2D2 DEFG | AGAB A4 |
+B2E2 EFGA | B2E2 EFGE | DEFG AcBA | Beee edef ||
+gfed BGGG | EGGG DGGG | EGGG DGAB | cBAG Adef |
+gfed BGGG | EGGG DGGG | EFGA Bgfe | Bdef g4 | 
+gfed BGGG | EGGG DGGG | EGGG DGAB | cBAG Adef | 
+gfed BGGG | EGGG DGGG | EFGA BGFE | DCB,A, G,4 ||
+
+X:9
+T:Reel d'Alison
+C:Gilles Vigneault
+Z:robin.beech@mcgill.ca
+R:reel
+M:2/4
+L:1/8
+K:D
+zA AA |: FA AA | Dd dd | Bd dd | A2 AA | GB AG | FA GF | ED CB, | A,A AA |
+FA AA | Dd dd | Bd dd | A2 dd | Bc de | fd cB |1 Ag fe | dA AA :|2 Ag fe | d2 de ||
+fF FF | Fd dd | ce dc | B2 cd | eE EE | EF ^GA | B^G AB | c2 de |
+fF FF | Fd dd | ce dc | B2 BB | AB BB | ^GB BB | =GB AG | F4- | F4 ||
+
+X:10
+T:Reel de traversier
+C:Gilles Vigneault
+Z:robin.beech@mcgill.ca
+R:reel
+M:4/4
+L:1/8
+K:D
+ABc |: d2d2 dAFA | B2=c2 BGGF | EAAG FABc | defd ecde |
+f2f2 fagf | e2B2 BdcB | AcBA GBAG |1 F2D2 DABc :|2 F2D2 D4 |:
+DEFG ADFA | DFAD FADF | ADFA EF^GA | BE^GB EGBE |
+^GBcd edcB | ADFA DFAD | FADF EFGA | Bcde fedc | d4 :|
+
+X:11
+T:Reel de b\'eris
+C:Gilles Vigneault
+Z:robin.beech@mcgill.ca
+R:reel
+M:2/4
+L:1/8
+K:A
+E2 | AG AB | AE CE | FE F=G | F2 DE | FE FG | AF GA | BA Bc | B2E2 | 
+cB cd | cA Bc | dc de | dc BA | AG AB | cA GF | EC DB, | A,2 E2 |: 
+A,E EE | A,E EE | DF FF | DF ED | CE FG | AB AG | AB c^d | e2E2 | 
+A,E EE | A,E EE | DF FF | DF ED | CE FG | Ac de | fd BG | A2E2 :|
+
+X:12
+T:Reel des citrouilles
+C:Gilles Vigneault
+Z:robin.beech@mcgill.ca
+R:reel
+M:4/4
+L:1/8
+K:Gmin
+D2 |: G^FGA BABc | d^cd=e f2d2 | gfgb agfg | agf=e d3d |
+edce dcBd | cBAc B2cB |1 AG^FG D2ed | cBAB GDE^F :|2 AG^FG DdcB | AG^FA G2dc |:
+K:G
+BdAd GdBG | cBAc BGBd | cBAc BdBG | AFGE D2dc |
+BdAd GdBG | cBAc BGAB | cdef gedc |1 BGAF G2dc :|2  BGAF G2D2 |]
+
+X:13
+T:Margaretsville Reel
+C:Yvon Cuillerier
+Z:robin.beech@mcgill.ca
+R:reel
+M:2/4
+L:1/16
+K:Gm
+|: d2 | dcBA BG^FG | BdcA BGAB | cBAG AF=EF | CFAB cA^FD |
+dcBA BG^FG | BdcA BGAB | c=Bce dc_BA | cBAB G2 ::
+d2 | g^fgd BGBd | g^fga g=f=eg | fafc AGFG | Acfg afcf |
+g^fgd BGBd | g^fga g=f=eg | f=efc AFAc | BAG^F G2 :|
+
+X:14
+T:Reel de l'Outaouais
+C:Jean-Francois Beaulieu
+Z:robin.beech@mcgill.ca
+R:reel
+M:2/4
+L:1/16
+K:D
+d2fd adce | dfec dAFA | B2dB fBdB | fafd BdAF |
+G2BG dGFA | GABA d2Bd | efga b2fe |1 fdec d2FA :|2 fdeA d2gf |:
+eBGB e2GB | eBGB f2e^c | dAFA D2FA | dAFA e2gf |
+eBGB E2GB | eBGB f2ef | afga f2Bd |1 fgaf g2gf :|2 fgaf g2GA |:
+B3c dfBA | BfBA B2dc | d3e fadc | dadc d2dc | 
+B3c dfBA | BfBA Bcdf | edBd e2cB |1 Adec d2dc :|2 Adec dz3|:
+BGdG BGdB | fgAB G3BA | GEBE GEBG | deFG E2Ad |
+fdad fdad | ^cdef d2FG | A3d fedB |1 ADFA G2EF :|2 ADFA gz3 :|
+
+X:15
+T:Reel du lendemain
+C:Gilles Vigneault
+Z:robin.beech@mcgill.ca
+S:Gilles Vigneault: 14 Reels and one Waltz
+R:reel
+M:4/4
+L:1/8
+K:Gmin
+FE |:  DF Bd f2ed | ce dc Bd cB | Ac BA Gc dc | BG GG G2FE | 
+DF Bd ff ed | ce dc Bd cB | Ac BA Gb ag |1 fe dc B2FE :|2 fe dc B2Bc |:
+d2f2B2cd | edcB c2Bc | d2G2G2AB | cBAG F2Bc |
+d2f2B2cd | edcB c2BD | EFGA B2BF |1 GBAcB2Bc :|2 GBAc B2FE |]
+
+X:16
+T:Reel Chicoutimi
+Z:robin.beech@mcgill.ca
+S:Laurence Beaudry
+R:reel
+M:4/4
+L:1/8
+K:A
+f | eccc eccf | eccc B3f | eccc ecaf | ecBc A3 :| 
+E | AcBc AEEE | AcBc A3E | AEAB c2f2 | ecBc A3 :|
+
+X:17
+T:Reel du nord
+Z:robin.beech@mcgill.ca
+S:Laurence Beaudry
+R:reel
+M:4/4
+L:1/8
+K:Bmin
+FBBB FBBB | FBdB c4 | FBBB FBBB | fedc B4 |
+FBBB FBBB | FBdB c4 | FBBB FBBB | fedc B4 :|
+Acec Acec | dcdf a4 | Acec Acec | defd A4 |
+Acec Acec | dcdf aaa2 | Acec Acec | dfec d4 :|
+
+X:18
+T:Reel de Siamois
+C:Andr\'e Marchand
+Z:robin.beech@mcgill.ca
+S:Tuq: Nicolas Williams, Greg Brown, Yann Falquet
+R:reel
+M:4/4
+L:1/8
+K:G
+dBcB GAB2 | B2AG A3D | DEED EFGA | BAGB AFDB   |
+dBcB GAB2 | B2AG A3D | DEFG ABBA |1 BGAF G3B :|2 BGAF G3A |:
+ BGG/G/G FGAG | BGG/G/G FGAB | cAA/A/A GDA/A/A | cAA/A/A BAGA |
+BGG/G/G FGAG | BGAG FEDB | c2cB GABG |1 EGFA D2DG :|2 EGFA D4 |]
+
+X:19
+T:Plan 9
+C:Yann Falquet
+Z:robin.beech@mcgill.ca
+S:Tuq - Nicolas Williams, Greg Brown, Yann Falquet
+R:reel
+M:4/4
+L:1/8
+K:G
+G,3B, A,G,A,C | B,A,B,C D2EF | G3B AGEF | GDED B,B,A,B, |
+G,3B, A,G,A,C | B,A,B,C D2EF | GCCB, C3E |1 DCDE FDB,A, :|2 DCDE FGAB |:
+cEED E3c | BGGF G4 | AGFG AGFE | DGFE DGAB |
+cEED E3c | BGGF G3B | AGFG AGAc | B2AF G4 :|
+
+X:20
+T:Little Jimmy Stephen
+C:Greg Brown
+Z:robin.beech@mcgill.ca
+S:Tuq: Nicolas Williams, Greg Brown, Yann Falquet
+R:reel
+M:4/4
+L:1/8
+K:Dmin
+D3D- DEFE | DCDE DCA,C | D3D- DEFD | A3A- ABA2 ::
+defe dcAc | e3e- efe2 | defe dcAd | cAGE EDD2 :: 
+DA,A,F ECCE | DEFE D2DF | ECGC ACGC | ECGC FCEF |
+DA,A,D DB,B,D | GCCD cDDc | dDDc- cd/c/AG | EDCA, D4 :|
+
+X:21
+T:Aim\'ee Gagnon
+Z:robin.beech@mcgill.ca
+R:reel
+M:4/4
+L:1/8
+K:G
+B,DGA BGDC | B,DGA BAAG | FGAB cAFD | GABG D2DC |
+B,DGA BGDC | B,DGA BAAG | FGAB cAFD |1 GBAF G2DC :|2 GBAF G2Bd |:
+g2g2 Bdgd | Bcde dBAG | FGAB cAFA | GABc d2Bd |
+g2g2 Bdgd | Bcde dBAG | FGAB cAFA | GBAF G2 Bd :|
+
+X:22
+T:Reel du carrefour
+C:Yvon Cuillerier
+N:Â©Yvon Cuillerier, all rights reserved
+Z:robin.beech@mcgill.ca
+R:reel
+M:2/4
+L:1/16
+K:C
+AB | c2ce dcBG | ABcA GFEG | FEFA GECE | DFAc BGAB |
+c2ce | dcBG | ABcA GFEG | FEFA GECE | DCB,D C2 ::
+gf | egce gceg | facf acfa | gecg ecgc | BdgB dgag |
+egce gceg | facf acfa | gece dBGB | cBdB c2 :|
+
+X:23
+T:Reel au ralenti
+C:Andr\'e Brunet
+Z:robin.beech@mcgill.ca
+S:Brunet et Beaudry
+M:4/4
+L:1/8
+K:F
+f2cf dcBG | cAAA BAGB | A3A CFAF | GFEF Gcde | 
+f2cf dcBd | cAAA BAGB | A3c dcBA |1 GFEF G/F/EFG :|2 GFEF G/F/EF^F |:
+G3G GABc | AFAF DFCA | GFEF GABc | AFEF FEF^F |
+G3G GABc | AFAF DFCA | GFEF GABc |1 dfeg fdcA :|2 dfeg fcde |]
+
+X:24
+T:Histoire de mon coq
+C:Yvon Mimeault
+Z:robin.beech@mcgill.ca
+S:Brunet et Beaudry
+M:4/4
+L:1/8
+K:G
+DFGA BGBG | DFAF EDDB, | G,B,DG BGAB | cBAG EADA |
+DFGA BGBG | DFAF EDDB, | G,B,DG BddB | cAA2 G2BG ::
+DFGA B2AB | eBAB .g2.e2 | zFGA B2AB | .g2.e2 AGEG |
+GFGA B2AB | eBAB .g2.e2 | zFGA Bgge | dBcA G2BG :|
+
+X:25
+T:Marche des \'el\`eves
+C:Richard Forest
+Z:robin.beech@mcgill.ca
+R:march
+M:6/8
+L:1/8
+K:D
+FBB BAB | def gfe | fdB BAB | FBF EDE | FBB BAB | def gfe |
+fdB BAB | cBA B3 :: efg fed | efg afd | efg fed |
+BdB FBD | efg fed | efg afd | efg fed | cdc B3 :|
+
+X:26
+T:Reel de Mont Marie
+C:Wendy Hayden
+Z:robin.beech@mcgill.ca
+R:reel
+M:4/4
+L:1/8
+K:D
+Adcd Adf&gt;f | gfed cBA2 | Adcd Adf&gt;f | af g/f/e d4 ::
+aa/a/ ba a/b/a/f/d2 | e&gt;d cB AGFE | aa/a/ ba a/b/a/f/ d2 | e&gt;ABc d2 d2 :|
+
+X:27
+T:Reel Ti-M\'e
+C:Marcel Messervier
+Z:robin.beech@mcgill.ca
+R:reel
+M:4/4
+L:1/8
+K:D
+fg | afbf afde | f2 e2 dBAG | FAdA FAdf | e2 B2 B2 ef | gfga gfed |
+ccce c2 B2 | AB (3cBA gfga | baga f2 fg | afbf afde | f2 e2 dBAG | FAdA FAdf |
+e2 B2 B2 ef | gfga gfed | ccce c2 B2 | AB (3cBA gecc |1 dfaf d2 :|2 dBAF D2 |:
+E2 | D2 FA dAFA | G2 BdgdBd | AAeA AfAA | gAAA fece |
+D2 FA dAFA | G2 Bd gdBd | AAeA AfAA | gece d2 :|
+
+X:28
+T:Reel Saint Jean
+M:4/4
+L:1/8
+K:D
+fe |: dBB2 FBdB | fBdf bfed | cAA2 EAce | cAce Affe |
+fBB2 FBdB | dBdf BdcB | ABcd efec |1 dBcA B2fe :|2 dBcA B2A2 |:
+d2dc defg | a2ab afdf | d'2d'b afde | feed dcBA |
+d2dc defg | a2ab afdf | d'2db afde | f2e2 d2A2 :|
+
+X:29
+T:Galope de la Malbaie
+M:4/4
+L:1/8
+K:D
+DFAd f2df | egec dBAG | FAFA GBGB | FAFA EGFE |
+DFAd f2df | egec dBAG | FAFA GBGB | Acec d2z2 :|
+Acef gfge | defg a2a2 | Acef gfgb | afge fdcB |
+Acef gfge | defg afge | fdec dBAG | FABc d2z2 :|
+
+X:30
+T:L\'evis Beaulieu
+M:4/4
+L:1/8
+K:A
+ed |: c2AA AcBA | FBAF E3A | BABc d2B2 | AAAc efed |
+c2AA AcBA | FBAF E3A | BABc dBed |1 c2A2 A2ed :|2 c2A2 A2ce |:
+a2ab a=ged | cAce a2ef | =g2ga ged=c | B=GBd =g2 (3efg |
+a2ab a=ged | cAce a2ee | efec dBed |1 c2A2A2 ce :|2 c2A2 A4 |]
+
+X:31
+T:Gigue du P\`ere Mathias
+M:4/4
+L:1/8
+K:D
+de |: fddd B/c/BAG | FAFA EEde | fddd B/c/BAG |1 FABc d2de :|2 FABc d2zB |: 
+AFFF AFdB | AFFA EEdB | AFFF AFdB |1AFEF D2zB :|2 AFEF D2AA |: 
+Acec B/c/BAA | Acec B/c/BAA | Acec B/c/BAA | BABc d2AA :|
+
+X:32
+T:Reel de Port Joli
+M:4/4
+L:1/8
+K:D
+d2e2 |: fdec dAFA | GABG E2ed | c2B2 Acec | defd A2de |
+fdec dAFA | GABG E2ed | c2B2 Aceg | fdec d2AG ::
+FAdA FAdA | GBAG B2AG | FAdA FAdf | eedf e2AG |
+FAdA FAdA | GBAG B2AG | FAdf gece | dfec d4 :|
+
+X:33
+T:The Woodchopper's Breakdown
+T:The Woodchopper's Reel
+T:Reel de la soupe aux pois
+C:Ned Landry
+N:Title and composer info, thanks to Sue Ward, niece to Ned Landry
+S:repertoire d'Isidore Soucy
+M:4/4
+L:1/8
+K:D
+fg |: afdB AGFE | DFAd f2ef | gece AGA2 | a^gab a2f=g |
+afdB AGFE | DFAdf2ef | gece Acec |1 dfec d2fg :|2 gece d2AF |:
+DFAd B2AF | DFAd B2AF | A,CEA ceaf | gfed cBAF |
+DFAd B2AF | DFAd B2AF | A,CEA ceaf | gecA d4 :|
+
+X:34
+T:Reel de l'amiti\'e
+M:4/4
+L:1/8
+K:D
+B |: d2e2 f2ff | fedf BAFA | d2e2 ffdf | agfa g3c |
+e2f2 g2ga | gfe2 c3c | cAce aaga | baga fafB | 
+ d2e2 f2ff | fedf BAFA | d2e2 ffdf | agfa g3c |
+e2f2 g2ga | gfe2 c3c | cAce abaf | gece d3B ::
+D2F2 A2FA | dBAd BBAA | ABcd e2ce | fedf e3F |
+D2F2 A2FA | dBAd BBAA | ABcd edeg | fgec d3F :|
+
+X:35
+T:Ti-Jean Morin
+M:4/4
+L:1/8
+K:D
+dAd | fdcd edAd | fdcd cdAd | fdcd efed | cABc ddAd |
+fdcd edAd | fdcd cdAd | fdcd efed | cABc d2AF ||
+EAAA B2AG | FDFD E2AG | FAAA B2AA |cABc d2AF |
+EAAA B2AG | FDFD E2AG | FAAA B2AA | cABc ddAd ||
+
+X:36
+T:Gigue du D\'emon
+M:4/4
+L:1/8
+K:D
+F2Bc dcB2 | F2Bc def2 | F2Bc dcB2 | fgfe dcdd |
+F2Bc dcB2 | F2Bc def2 | F2Bc dcB2 | fgfe dcB2 ::
+fgaf bfa2 | ABcA BcBA | fgaf bfa2 | ABcA Bcde |
+fgaf bfa2 | ABcA BcBA | fgaf bfa2 | ABcA fed2 :|
+
+X:37
+T:Quatres fer en l'air
+M:4/4
+L:1/8
+K:D
+EFAB cBAc | BAFB AFEF | DFAc d2dd | cdec dcBA | 
+EFAB cBAc | BAFB AFEF | DFAc d2dd | cdec d4:|
+FAdf a2aa | bagf ecec | d2c2 B2AF | GBAG FDFA |
+d3 f a2aa | bagf ece2 | gage fgfd |1 efed cBAG :|2 efed cBAF |]
+
+X:38
+T:Reel des cinq jumelles
+M:4/4
+L:1/8
+K:D
+Adfd gdfd | Adfd edBd | Adfd gdfd |1 efed cBce :|2 efed cBfg ::
+afbf afde | fded Bdfg | afbf afde |1 fdec d2fg :|2 fdec d4 ::
+K:G
+B2AG B2AG | B2AG EFGA | B2AG B2AG |1 FDEF G3G :|2 FDEF G4 |:
+K:D
+F2Ac fcAF | G2Bd g3A | Acef gece | defg afdA |
+F2Ac fcAF | G2Bd g3A | Acef gece |1 dfec d2AG :|2 dfec d2fg |:
+a2fd adfa | gg=ce gceg | a2fd adfa | gece defg |
+a2fd adfa | gg=ce gceg | a2fd adfa |1 gece defg :|2 gece d4 |]
+
+X:39
+T:Gigue de madame Saint Germain
+M:4/4
+L:1/8
+K:D
+A2AG F2AF | EFGF EFGB | ABAG FGAF | EFGE FDDF |
+A2AG F2AF | EFGF EFGB | ABAG FGAF |1 EFGE FDDF :|2 EFGE FDde |:
+fdAd fdef | gece gfeg | fdAd fdef | gbag fdde |
+fdAd fdef | gece gfeg | fdAd fdef |1 gbag fdde :| gbag fddB |]
+
+X:40
+T:Reel \`a quatre d'Antonio Gautier
+M:4/4
+L:1/8
+K:G
+gage dBGA | B2AG BG B2 | gage dBGA | B2AF G2D2 ::
+ABce dBGA | B2AG BGB2 | ABce dBGA | B2AF G2D2 :|
+
+X:41
+T:Reel du semeur
+M:4/4
+L:1/8
+K:D
+FG |: ABAG F2A2 | f4 d4 | ABAG F2A2 | f4 d4 |
+e2-ef g2fe | dcde fafd | cBcd egec |1 d2f2 d3A :|2 d2f2 d2df |:
+a2g2 e3f | g2f2 d3e | f2e2 B2c2 | dcde fefg |
+a2g2 e3f | g2f2 d3c | B2g2 e2c2 |1d2dc d3f :|2 dBAF D4 |]
+
+X:42
+T:Reel Saint Paul
+M:4/4
+L:1/8
+K:A
+d |: c2ec A2a2 | fgaf dfed | cdec A2Bc | dBBA B3d |
+c2ec A2a2 | fgaf dfed | cdec A2Bc |1 dBGB A3d :|2 dBGB A3c |:
+d2Ad f2ed | ceAc e2dc | BABc d2cB | ABcd e3c |
+d2Ad f2ed | ceAc e2dc | BABc d2cB |1 Aaec A3c :|2 Aaec A4 |]
+
+X:43
+T:Reel de Valleyfield
+M:4/4
+L:1/8
+K:D
+DFAF DFAF | EGAG EGAG | DFAF DFAd | fedf e2AF |
+DFAF DFAF | EGAG EGAG | DFAF DFAd |1 fedc d2AF :|2 feBc d2fd |:
+Adfd Adfa | gfed e2B2 | ABcd edeg | fdec d2fd |
+Adfd Adfa | gfed e2B2 | ABcd efeg | fedc d2fd :|
+
+X:44
+T:H\'ema
+C:Christophe Comte
+M:4/4
+L:1/8
+K:D
+BFBc dedB | GDGA B2Bc | dAde f2ed |1 e3d cABd :|2 e3d cBc2 ||
+GDGA B2-Bc | dAde f3A | AEAB cBcd | edce dcBG |
+GDGA BABc | dAde f2ed | e4 | d3B- B3c | d3B- B3c |]
+
+X:45
+T:Reel de Caribou
+C:Andy D\'ejarlis
+M:4/4
+L:1/8
+K:D
+B2ED EFGA | B2ED EFGE | D2FD DADD | BDDA DDFD |
+B2ED EFGA | Bdef g2fg | afge fdec |1 dBAF EdcA :|2 dBAF E4 |:
+Be2B efed | Bdef edBd | Ad2A d3e | fedf edBA |
+Be2B efed | Bdef g2fg | afge fdec | dBAF E4 :|
+
+X:46
+T:Reel de Caribou
+M:4/4
+L:1/8
+K:D
+DFAd B2AG | FABc dcd2 | DFAd B2AF | BAFD E2E2 |
+DFAd B2AG | FABc dcde | fefa gfed |1 cABc d2d2 :|2 cABc defg |: 
+a2af dfga | g2ec Acef | gece afdf | bgec d2ef |
+a2af dfga | g2ec Acef | gece afdf | bgec d2ef :|
+
+X:47
+T:Saint Ligori
+C:Jean Duval
+M:4/4
+L:1/8
+K:G
+c :| BEGE cEGE | BEGE cFFc | BEGE cEGE | FGAG FDDc |
+BEGE cEGE | BEGE cFFc | BEGE cEdE | eedB e3c ::
+eedB eedB | ABcB AFF2 | eedB eedB | Aege faa2 |
+eedB ddcA | BBGE AAFD | EFGE cEdE | eedB e2e2 :|
+
+X:48
+T:Gigue du Diamant Bleu
+M:4/4
+L:1/8
+K:D
+ag | fded fdef | gbaf e2ag | fded fdef | gbaf d2ag |
+fded fdef | gbaf e2ag | fded fdef | gbaf d2Ad ||
+fded fded | BdAd BdAd | fded fded | cABc d2Ad |
+fded fded | BdAd BdAd | fded fded | cABc d2 (3ABc ||
+dcdA fAfA | gAgA fAfA | dcdA fAfA | eABc d2(3ABc |
+dcdA fAfA | gAgA fAfA | dcdA fAfA | eABc d4 |]
+
+X:49
+T:Reel Mimeault
+M:4/4
+L:1/8
+K:D
+DEFG Addc | BBAF AddA | FDFG Acde | fdeg  fdd2 ::
+dfed B2BA | Bcdf eAA2 | dfed B2BA | Bcde fdd2 :|
+
+X:50
+T:La petite galope de Jules Verret
+M:4/4
+L:1/8
+K:D
+A2d2 ffdf | abaf gage | AAc2 eece | b2a2 abaf |
+A2d2 ffdf | agaf gage | AAc2 eece |1 b2a2 d4 :|2 b2a2 d3A |:
+dfe2 d2AA | FAAF Adf2 | d2BB GBBG | Bdg2 e2ce |
+AAA2 a2g2 |1 a2b2 a2fA :|2 a2b2 c2d2 |]
+
+X:51
+T:Reel Africain
+C:Jean Paul Loyer
+M:4/4
+L:1/8
+K:D
+|: D3F A2FA | BABc ded2 | D3F A2FA | BAGF EGFE |
+D3F A2FA | BABc ded2 | D3F A2GF | EGFE D4 ::
+d2fd Adfd | Adfd edcA | B2BA BAGB | Afed cABc |
+d2fd Adfd | Adfd edcA | B2BA BdcB | Afec d4 :|
+
+X:52
+T:Quadrille de Rivi\`ere du Loup
+M:4/4
+L:1/8
+K:D
+AB |: A2G2 F2A2 | f4 f2ef | g2fg fed2 | B4 BAGA |
+G2F2G2A2 | e4 efed | c2AB cBA2 |1 F4 FGAB :|2 d4- d3A |:
+defg a2aa | a^gab afde | fed2 B4 | BABc B2BB |
+Bdef g2gg | gfga geAB | cBA2 F4 | FEFG F3A :|
+
+X:53
+T:Reel de Saint Sim\'eon
+M:4/4
+L:1/8
+K:D
+a2fd Adfd | a^gab aaga | g2ec Acef | gfga ggfg |
+a2fd Adfd | a^gab aaga | g2ec Acef | gfef d4 ::
+A2f2 fAdf | dGBd g3g | A2e2 eAce | defg a3a |
+A2f2 fAdf | dGBd g3g | A2e2 eece | dfec d3d ::
+gab afde | fdfd addf | efga bagf | gege ggga |
+fgab afde | fdfd addc | BBBc Acef | gfef d4 :|
+
+X:54
+T:Reel du r\'epertoire d'Isidore Soucy
+M:4/4
+L:1/8
+K:D
+|: defg afde | f2fg f2e2 | defg afdf | eece d3A ::
+B2B2 g2B2 | AffA f2ed | cdef gece |1 defd A3A :|2 dfec d3B |:
+b2Bb- bBb2 | a4 a2d2 | cdef gece |1 defg a2B2 :|2 dfec d4 |]
+
+X:55
+T:La Guenille
+M:4/4
+L:1/8
+K:D
+|: Adde fdfd | cdef gece | Adde fdfd | cdec d2A2 :|
+a2ag f2ed | cdef gecA | abag f2ed |1 cdec defg :|2 cdec d2A2 |:
+g2eg f2df | edcB Acef |1 g2eg f2df | edcA d2A2 :|2 g2gf fagf | egfe d4 |]
+
+X:56
+T:Galope de Jules Verret
+M:4/4
+L:1/8
+K:D
+A2d2 ffdf | abaf gage | A2c2 eece | b2a2 aba2 |
+A2d2 ffdf | abaf gage | A2c2 eece |1 b2a2 d3A :|2 b2a2 dAdf |:
+e2d2 AAFA | DFAd f2d2 | BBGB EGBd | 
+g2e2 cAAA | A2a2 ^g2a2 |1 b2a2 f2dc | dAdf :|2 b2c2 d3A |]
+
+X:57
+T:Reel du Faubourg
+C:Jos Bouchard
+M:4/4
+L:1/8
+K:D
+AG |: FAdf afdA | FAdf afdf | Acef gece | dfec dcBA |
+FAdf afdA | FAdf afdf | Acef gece |1 dfec dBAG :|2 dddd dBBB  ||
+B3b b2aB | BgBB gdBG | DGBd g3g | fafd =cAAA | 
+a3a gage | f2f fgfe | dfed cdef | (3gfedB BdBg |
+gb2b baaa | g2gB BgBB | G2Bd g2gg | fafd =cAAA |
+aAAa AAgA | AfAA fgfe | dfed cdef | gagg g2AA |]
+
+X:58
+T:Reel du Patineur
+M:4/4
+L:1/8
+K:A
+E |: fedc BcdB | cABG A3E | EAGA BcdB | cBAc BGE2 |
+fedc BcdB | cABG A3E | EAGA BcdB |1 cABG A2E2 :|2 cABG A2e2 |:
+ecAc ecfc | ecAc ecfc | ecAc ecBA | GABc d2cd |
+ecAc ecfc | ecAc eAce | agfe dcBA |1 GABc d2e2 :|2 GABG A4 |]
+
+X:59
+T:Partie de Quadrille
+C:Jos Buchard
+M:4/4
+L:1/8
+K:D
+A2 Bf afdf | Adfa fafa | egga gece | Aceg ageg |
+A2Bf afdf | Adfa a3a | ^gaba =gece |1 d2d2 d4 :|2 d2d2 d3A/B/ |:
+K:A
+cece BeBe | Acec a3a | gaba gefg | aAgf efde |
+cece BeBe | Acec a3a | gaba gefg |1 afec A2ed :|2 abag fgfe |]
+
+X:60
+T:Reel de Ch\^ateauguay
+C:Joseph Allard
+M:4/4
+L:1/8
+K:G
+dg |: b2bg a2af | gfgb d3g | fdAB c3e | dBGA B2dg |
+b2bg a2af | gfgb d3g | fdAB cdef |1 g2b2 g2dg :|2 g2b2 gfgB |:
+G3B d2gf | efge d3g | fdAB cBce | dBGA B2BA |
+G2GB d2gf | efge d3g | fdAB cdef | g2b2 g2BA :|
+
+X:61
+T:Reel de la tuque bleue
+Z:robin.beech@mcgill.ca
+S:The Virtual Gramaphone, Library of Canada: Joseph Allard
+R:reel
+M:4/4
+L:1/8
+K:F
+f2cf fagf | eceg bgge | f2cf fagf | edcB AFF2 |
+f2cf fagf | eceg bgge | f2cf fagf | edcB AFF2 ::
+AFcF dFGA | BGdG BGGB | AFcF AFGA | BdcB AFF2 |
+AFcF dFGA | BGdG BGGB | Acde fdcB | AcGB AFF2 :|
+
+X:62
+T:Valse Suzanne
+C:Laurence Beaudry
+N:Â©Laurence Beaudry, AoÃ»t 2009
+Z:robin.beech@mcgill.ca
+N:Avec tout mon amiti\'e, Laurence
+M:3/4
+L:1/4
+K:D
+A,&gt;DF | AFB | AFB | AFD | A,&gt;DF | AFB | ABA | G3 | 
+E&gt;FG | BGG | cGG | BGG | E&gt;FG | BGB | dcB  F3 |
+A,&gt;DF | AFB | AFd | AFD | A,&gt;DF | A2d | dc=c | B3 |
+G&gt;Bd | gdB | F&gt;Ad | fdA | E&gt;Ac | eca | gfe | d3 ||
+f&gt;gf | afd | AFd | AFA | f&gt;gf | afb | faf | g3 |
+E&gt;FG | BGG | cGG | BGF | E&gt;FG | edc | BAB | F3 |
+f&gt;gf | afb | faf | afd | Adf | a2b | =c'&gt;d'c' | b3 |
+G,B,D | GBd | cBe | B2A | E&gt;FG | Bcd | edc | d3 |]
+
+X:63
+T:The Lucky Trapper
+C:Andy Dejarlis
+S:Doug Creighton
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+R:reel
+K:G
+D2 | G2BG DGBG | DGBG cGBG | A2AF DFAF | DFAc BGAF |
+G2BG DGBG | cGBG ABAG | FGAB cdef | gfga g2 ::
+d2 | g2ga gfed | eaab a2ag | f2d2 dedc | BGAF GABd |
+g2ga gfed | eaab a2ag | fgaf bfaf | gfga g2 :|
+
+X:64
+T:Reel Eug\`ene
+M:4/4
+L:1/8
+R:reel
+K:Bmin
+B2Bc dcB2 | e2ef gece | f2fg fede | fbbf bfdc |
+B2Bc dcB2 | e2ef gece | f2fg fedc |1 B4 F4 :|2 B4 A4 |:
+f2fe d2dB | AAdf b2f2 | a2ag e2c2 | Aceg f2e2|
+f2fe d2dB | AAdf b2f2 | a2ag egec |1 dfec d3e :|2 dfec d4 |]
+
+X:65
+T:Le M\'ecanicien
+C:Richard Forest
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+d3d dcde | f2d2 A2F2 | E3E EDEF | E2cB A2B2 | c3c cBcd | c2A2 B2c2 | d3d dcde | f2e2 d2c2 |
+d3d dcde | f2d2 A2F2 | E3E EDEF | E2cB A2B2 | c3c cBcd | c2A2 B2c2 | d2cB AGFE |1 D4-DABc :|2 D8 |:
+F2Bd fedB F2Bd fedB | G2Bd gfed | G2Bd gfed | c2eg bage c2eg bage | d3d dcde | f2e2 d2c2 |
+F2Bd fedB F2Bd fedB | G2Bd gfed | G2Bd gfed | c2eg bage c2eg bage | d3d dcde | f2e2 d2c2 |]
+
+X:66
+T:Bonjour, comment \,ca va?
+C:Calvin Volrath
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:G
+BcBA | G2B2 D2B2 | GABc dBGB | ABcA F2A2 | DFAB cedc | 
+BcBA | G2B2 D2B2 | GABc d3B | ABcd e2dc |1 BGAF G4 :|2 BGAF G3c |:
+BGBd | g2fg efdf | c3B AFAc | fdec dBcA | B4 BABc |
+d2de dBGB | A3A ABcd |1 e3c BGBc | d3c :|2 e2dc BGAF | G4 |]
+
+X:67
+T:Reel de Montmagny
+M:4/4
+L:1/8
+K:D
+f e2d2 |: BBGB dBBd | BBGB dBGB | AAFA dFAd | Fddf e2d2 |
+ccAe acea | a2g2 f2e2 |1 ffdf affa | ffdf e2d2  :|2 d3A BcBA | d3f e2d2 ||
+g2g2 ggdg | gdgg f2e2 | f2df fdfg | ffdf a2f2 |
+eece ecef | eece a2g2 | ffdf fdfg | ffdf e2d2 |
+ggdg gdga | ggdg f2e2 | ffdf fdfg | ffdf a2f2 |
+eece ecef | eceg f2e2 | d3A BcBA | d4 |]
+
+X:68
+T:Reel du pendu
+M:4/4
+L:1/8
+R:reel
+K:G
+DEGA B2B2 | BcBA B2B2 | DEGA B2B2 | ABAF G2G2 ::
+A/2A/2AA2 A/2A/2AA2 | A/2A/2AB2 c2B2 | A/2A/2AB2 c2B2 | A2F2 G4 ::
+DB,CD ECDE | DCB,G, A,2A,2 | DB,CD ECDE | DCB,A, G,2G,2 ::
+z4 B2B2 | BcBA Bz3 | z4 B2B2 | ABAF Gz3 :|
+
+X:69
+T:Son of a Bear
+C:Louis Beaudoin
+S:Donna Hebert: In Full Bloom
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:A
+ac'ea c'eac' | bd'eb d'ebd' | eac'e ac'ec' | befg aeee |
+ac'ea c'eac' | bd'eb d'ebd' | eac'e ac'ec' | befg a2ee |
+ac'ea c'eac' | bd'eb d'ebd' | eac'e ac'ec' | befg aedc |:
+B3B- BAGB | Aceg a2ea | fedf edce | dBcA BAGF |
+EB2B BAGB | Aceg a2ea | fedf edce |1 defg aecB :|2 defg aeee |]
+
+X:70
+T:reel des Oignons
+S:Gino Lavoie, La Grande Rencontre 2010
+M:4/4
+L:1/8
+K:D
+D3E FGFE | D2dc Bcd2 | E3F GAGF | E2ed cde2 |
+D3E FGFE | D2dc Bcd2 | efed cBAG |1 FABc dcd2 :|2 FABc d2Bc |:
+d2Ad FdAF | dedc B2cd | e2ce AecA | efed cABc |
+d2Ad FdAF | dedc B2cd | efed cBAG |1 FABc d2Bc :|2 FABc dcd2 |]
+
+X:71
+T:La marche de l'ouverture
+C:Gino Lavoie
+S:Gino Lavoie, La Grande Rencontre 2010
+M:4/4
+L:1/4
+K:D
+A/de |: ff/f/ gf | e&gt;Acd | e/e/c/e/ fe | d&gt;AFA | dd/d/ ed |1 
+c&gt;dcB | AcBA | F&gt;Ade :|2 B3 d | c&gt;ABc | d&gt;edc |: 
+B&gt;dcB | A&gt;dcd | ecde | f&gt;dcd | 
+B&gt;dcB | A&gt;dcd | eABc |1 d&gt;edc :|1 d&gt;Ade |]
+
+X:72
+T:Gigue de M. Blanchette
+C:M. Blanchette
+S:Carmen GuÃˆrard
+M:4/4
+L:1/8
+K:D
+Addd cdeg | fdfa gfed | Addd cdeg | fdec d4 |
+Addd cdeg | fdfa gfed | Addd cdeg | fdec d4 ||
+faaa gbag | fdfa gfed | faaa gbag | fdec d4 |
+faaa gbag | fdfa gfed | faaa gbag | fdec d4 ||
+aafa ggeg | ffdf ecBA | aafa ggeg | fdec d2Ad |
+aafa ggeg | ffdf ecBA | aafa ggeg | fdec d4 |]
+
+X:
+T:Le petit soulier rouge
+C:Laurence Beaudry
+N:Â©Laurence Beaudry
+M:6/8
+L:1/8
+K:G
+EFE G2B | AFD A,DF | GBd e2c | gfe d3 |
+ece fdf | baf g3 | ecB A2G | F6 |
+EGF EGB | AFD A,DF | GBd e2g | fga d3 |
+ ece baf | dBd gfd | cdc BAF | G6 |:
+B,EG FEF | CEG FEF | A,DF AFd | cBA B2G | EGB e2c | 
+AcB cBA |1 DFA dcB | AGF B2G :|2 DFA dcB | AGF E3 |]
+
+X:
+T:Reel du Diable est aux vaches
+C:Laurence Beaudry
+N:Â©Laurence Beaudry, Reproduced with permission
+R:reel
+M:4/4
+L:1/8
+K:Gmin
+"intro" G,2B,D GDB,D | C2EG cGEG | ^F2AF BFAF |1 d^FAF BFAF :|2 BAG^F G4 ||:
+G2BG cGBG | ^FAcA dcAB | G2BG cGBG | ^FDCD B,DA,D | G2BG cGBG | 
+^FAde dcBc |1 dBcA BG^FG | AG^FG A3F :|2 dBcA BG^FA | GDB,D [G,G]4 ::
+G,3G F2DB, | C3 D EDCD | B,CDB, CDEC | DA^FA DCB,A, | G,3G F2DB, |
+C3D EDCD | B,CDB, CDEC |1 DCB,A, G,3A, :|2 DCB,A, G,4 |:
+K:Dmin
+d2fd gdfd | ^cege agef | d2fd gdfd | ^cAGA FAEA | d2fd gdfd | 
+^ceab agfg |1 afge fd^cd | ed^cd e3c :|2 afge fd^ce | dAFA D4 |:
+D3d c2 | AF G3 A BAGA | FGAF GABG | Ae^ce AGFE | D3d c2AF |
+G3A BAGA | FGAF GABG |1 AGFE D3E :|2 AGFE D3A |: 
+d2fd gdfd | ^cege agef | d2fd gdfd | ^cAGA FAEA |d2fd gdfd | 
+^ceab agfg |1 afge fd^cd | ed^cd e3c :|2 afge fd^ce |dAFA D4|]
+K:Gmin
+"Finir avec l'intro" G,2B,D GDB,D | C2EG cGEG | ^F2AF BFAF |1 d^FAF BFAF :|2 BAG^F G4 ||:
+
+X:75
+T:Le Releveur
+C:Richard Forest
+M:4/4
+L:1/8
+K:D
+fgfd Bcde| fgfd e4 | ABcd efec | defg a4 |
+fgfd Bcde | fgfd e3B | ABcd efec | d2cd B4 :|
+D2F/E/D EFGE | FAdf a3f | gbeg fedf | edcB AGFE |
+D2F/E/D EFGE | FAdf a3f | gbeg fedf | edce d4 :|
+
+X:
+T:St-Laurent du Fleuve
+C:Laurence Beaudry
+N:Â©Laurence Beaudry
+N:AoÃ»t 2010
+M:4/4
+L:1/8
+K:Amix
+A2ce a=gfe | =gfed ea^ga | A2ce a=gfe | gfed ecBc | A2ce a=gfe | 
+=gfed ea^ga | G2Bd gfed |1 edcd e4 :|2 edcB A4 |:
+G2Bd gfed | FAdA fedB | EFGE cBAG | FDA,D FABA |  
+G2Bd gfed | FAdA fedA | EFGE CEcB | AGFE D4 :|
+
+X:77
+T:Reel de St Esprit
+S:Carmen Gu\'erard
+M:4/4
+L:1/8
+K:D
+A |: ddcB AGFE | DFFD FFDF | CEEC EECE | DFFD FAFA |
+ddcB AGFE | DFFD FFDF | CEEC EECE | DdAF D3f :|
+ecAc eece | ddfd addf | ecAc eece | dfec dAdf |
+ecAc eece | ddfd addf | ecAc eece | dfec d3A :|
+
+X:78
+T:St-Etienne
+M:4/4
+L:1/8
+R:reel
+K:Dmaj
+f3f fgfe | dedc (3BcB A2 | e3e efed | cBAG FAde |
+f3f fgfe | dedc (3BcB AA | efed cBAG |1 FABc d4 :|2 FABc d2AG |:
+FdAF dBAG | FdAF dfed | ceAc eAce | ABcA (3BcBAG |
+FdAF dBAG | FdAF dfed | ceAc eAce | dfec d2AG :|
+
+X:79
+T:Reel des vieux gar\,cons
+S:Carmen G\'erard
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+dDDd dDDd | c2B2 E3F | G2E2 c2Bc | B2A2 F4 |
+dDDd dDDd | c2B2 E3F | G2E2 c2Bc |1 e2d2 d4 :|2 e2d2 d2FG |:
+A2F2 d2FG | A2G2 E3F | G2E2 c2Bc | B2A2 F3G |
+A2F2 d2FG | A2G2 E3F | G2E2 c2Bc |1 e2d2 d2FG :|2 e2d2 d4 |]
+
+X:80
+T:Kenneth Murphy
+C:Eric Favreau
+R:reel
+M:4/4
+L:1/8
+K:G
+B3B edBA | dBAF BAFA | B4 edBA | B2ef gfed |
+B3B edBA | dBAF BAFA | EFGA B2ef |1 gfed e4 :|2 gfed e3f |:
+gfeg fedf | eB(3BBB dBAF | EB,(3B,B,B, EFGA | B2ef gfed |
+eB(3BBB egfe | fdec dBAF | EFGA B2ef | gfed e3f :|
+
+X:
+T:Vendredi Trad
+C:Laurence Beaudry
+N:Â©Laurence Beaudry
+N:Pour Normand B\'elanger
+N:Le moussaillon
+M:2/4
+L:1/8
+K:A
+e&gt;d |: cA EA/c/ | ed Bf/g/ | fd g/a/g/f/ | bg e&gt;d |
+cA EA/c/ | ed Bg/a/ |1 gb fa | e/f/g/f/ e/d/c/B/ :|2 ga fg | e/d/c/B/ A2 |:
+FF F/G/A/B/ | GE cd/e/ | fd BA | GB E2 | 
+df B/c/d/B/ | ce A&gt;c | fd BA | G/A/B/G/ E2 |
+FF F/G/A/B/ | GE cd/e/ | fd BA | GB E2 | 
+df B/c/d/B/ | ce A&gt;c | B/c/d/B/ GE | A2 e&gt;d |]
+
+X:82
+T:Le voyage d'Eric St-Pierre
+C:Eric St-Pierre
+S:Fanny Montpetit et Marie-Pierre Lecault
+M:4/4
+L:1/16
+K:D
+AB(3cBA e&gt;e AB(3cBA g&gt;g | agea gedg edBA GABG |
+AB(3cBA e&gt;e AB(3cBA g&gt;g | agea gedB GABG A4 ::
+A2EA ABcA BAGB AGEF | G2DG GFG2 DGGF G2FG | 
+A2EA ABcA BAGB AGEF | Gbag efge dBGA BAA2 ::
+AB(3cBA dcBc AB(3cBA FAEA |123 AB(3cBA dcBf edca gedc :|4 AB(3cBA dcBf edca gecd |:
+eaae a&gt;a abag e2f2 | g&gt;g fgba gage edcd | 
+eaae a&gt;a abag e2f2 | gbag efge dBGA BAA2 :|
+
+X:83
+T:Reel Arthur
+C:Marcel Messervier
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:A
+E2 |: A2Ac B2A2 | ABcA eABc | d2fd c2ec | BABc B2E2
+A2Ac B2A2 | ABcA eABc | d2fd c2ec |1 BABc  A2E2 :|2 BABc A2cd |: 
+ecAc e2dc | fdAd f2ed | ceAc e2Bc | dBBA B2cd | 
+ecAc e2de | fdAd f2ed | ceAc BABc |1 Afec A2cd :|2 Afec A2E2 |]
+
+X:84
+T:reel de Beloeil
+C:Edouard Picard
+S:Laurence Beaudry
+M:4/4
+L:1/16
+K:D
+D3D DFEG FDDD F2DF | AdcB AGFE DFAd BGEC | 
+D3D DFEG FDDD F2DF |1 AdcB AGFE DdAF D2C2 :|2 AdcB AGFE DdAF D2G2 |:
+Fddd Fddd Gddd Gddd | Aeee Aeec dfed cBAG | 
+Fddd Fddd Gddd Gddd |1 Aeee Aeec dfec dBAG :|2 Aeee Aeec dfec d4 |]
+
+X:85
+T:Hommage \`a Ga\'etan Roy
+C:Daniel Poirier
+S:Laurence Beaudry
+M:6/8
+L:1/8
+K:D
+ag |: f2f dfa | g2g B3 | ABA GFE | FDB, A,ag | 
+f2f dfa | g2g B3 | Ace Ace |1 d3 dag :|2 d3 dcd |:
+K:A
+e2a g2f | e2c A2e | dcd B2f | e^de cc=d | 
+e2a g2f | e2c A2a | gag efg |1 aec Acd :|2 a3 =g3 |]
+
+X:86
+T:Berceuse pour Hannah
+C:Richard Forest
+M:3/4
+L:1/4
+K:D
+DE |: F&gt;ED | GFE | A3 | F2D | d3 | c2B | A3 | FGA | B&gt;AG | c&gt;BA | 
+dcd | ed&gt;B | A&gt;FD |1 E&gt;DE | F&gt;ED | (3E/F/E/ DE :|2 E&gt;FE | D3-D3/2 z/c/d/ |:
+ecA | E3/2 z/B/c/ | dBG | E3/2 z/A/B/ | caf | (3g/a/g/ ed | e3- | e3/2 z/c/d/ | e (3c/d/c/ A | 
+E3/2 z/B/c/ | dBG | E3/2 z/A/B/ | c (3B/c/B/ A | GFG | A3- |1 A3/2 cd/ :|2 ADE |]
+
+X:87
+T:Le printemps
+C:Andr\'e Brunet
+S:Les Fr\`eres Brunet CD
+M:4/4
+L:1/8
+K:D
+D2FD EDFA | dfec dBAF | D2FA defd | gece fdd2 |
+B3B ABAF | GFEG FDFA | dcdf edcA | Bcde fdd2 ::
+B3B BcdB | A2EA CAA,A | B3B BcdB | c2ec fcec |
+B2FB BcdB | A2EA CAA,A | B3d ABAF | GFEG FDD2 :|
+
+X:88
+T:La F\'ee des dents
+C:Andr\'e Brunet
+M:6/8
+L:1/8
+K:G
+B2D- DGA | Bdc BAG | BcE- EFG | FAG FED | 
+B3 DGA | Bdc Bgf | egd- dcB | AGF G3 ::
+e3- edB | ced cBc | dGB- BAG | Bdc BAG |
+e2c efg | afd- dcB | ced cBA | AGF G3 :|
+
+X:89
+T:Fleur de mandragore
+C:Michel Bordeleau
+Z:robin.beech@mcgill.ca
+S:Alexie Chartrand
+M:4/4
+L:1/8
+K:A
+EGAG EAB2 | Aced cAA2 | EGAG EAB2 | BABd cAA2 |
+EGAG EAB2 | Aced cAA2 | EGAG EAB2 | BABd cAAA :| Aceg |:
+a3a a2ga | b2a2g2ec | dged cABc | defg agfe |
+a3a a2ga | b2a2 g2ec | dged cABc | dcBc BAA2 :|
+
+X:90
+T:Hommage \`a Jos Bouchard
+C:Philippe Bruneau
+S:Philippe Bruneau - Musique traditionnelle pour accord\'eon diatonique
+Z:robin.beech@mcgill.ca
+M:6/8
+L:1/8
+K:D
+|: S F3 FGB | A3 ABc | dcd edB | A2A FAd | 
+c2c Ace | g2g Ace | c'ba gfe | fed cBA | 
+F3 FGB | A3 ABc | dcd edB | A2A FAd | 
+c2c Ace | g2g Ace | O c'ba gfe |1 dAF D2G :|2 dAF D2c |:
+ddd dcd | BFF F2c | ddd dcB | cFF F3 |
+eee ede | cFF FFF | fFF eFF | dFF cFF |
+ddd dcd | BFF F2c | ddd dcB | cFF F3 |
+eee ede | cFF FFF | fgf edc |1 BFD B2c :|2 B2A-A2 "D.S" F//A//F//A// |] O c'ba gfe | [F3A3d3] "FINE" [F3A3d3] |]
+
+X:91
+T:Hommage \`a Doroth\'ee
+C:Philippe Bruneau
+S:Philippe Bruneau - Musique traditionnelle pour accord\'eon diatonique
+Z:robin.beech@mcgill.ca
+M:9/8
+L:1/8
+K:D
+F3 | BBB B2c d2B | c2f F2f F2f | BBB B2c d2B | c2f F2f F2f |
+BBB B2c d2B | c2e A2c e2g | f6- f2f | f2g f2e d2c | BBB B2c dcB |
+c2fF2fF2f | BBB B2c d2B | c2f F2f F2f | BBB B2c (2dB | (2ce (2Ac e2g |
+f6- f3 | f6 B3 | eee (2ef (2ge | f2b B2b B2b | eee e2f g2e | f2b B2b B2b |
+eee e2f g2e | (2fa (2df (2ad' | b6- b2 b | b2d' b2a (2gf | eee e2f g2e |
+f2b B2b B2b | eee e2f g2e | f2b B2b B2b | eee e2f g2e | (2fa (2df (2ad' |
+b6-b3- | b3 a3 g3 | f3- f2a a3- | a3 g3 f3 | e3- e2g g3- | g3 f3 e3 |
+c3- c2c' c'3- | c'2b b3 g3 | f6- f2f | (2fg (2fe (2dc | BBB B2c d2B |
+c2f F2f F2f | BBB B2c d2B | c2f F2f F2f | BBB B2c d2B | c2f F2e d2c |
+BcB (2FB (2df | (2bb bz2 z2f |: b3 d'3-d'2b | f6- f2d | e2 g2 ege |
+c2 (4ecec | F3 c3 e3 | g3 f3- f2e | ddd (2dc (2Bc | (2dc B/c/BF (2Bf |
+b3 d'-d'2b | f6- f2d | e3 g3 ege | c6 (4ecec | F3 c3 e3 |
+ege dfd (2cc | BcB (2FB (2df | (2bb b3 z2[Ff] :|
+
+X:92
+T:Reel du g\^ateaux aux bannanes
+M:2/4
+L:1/16
+K:C
+|: (3ccc Gc eece | \
+M:3/4 
+agea gedg ecAB | \
+M:2/4
+(3ccc Gc e2ce | 
+f2fe fagf |1,2 \
+M:3/4
+egfe dedg ecAB :|3 egfe dcdg ecc2 |: 
+M:2/4
+egge g3g | gagf ecc2 | eaag a2ea | abag ecc2 | egge g3g |
+gagf ecce | agea gedg |1 ecAB c2Gc :|2 ecAB cGAB |]
+
+X:93
+T:Nuit Sauvage
+C:Michel Bordeleau
+Z:robin.beech@mcgill.ca
+M:2/4
+L:1/16
+K:Dmin
+d3c | =BdA^F GD=B,D | fefa g2ga | (3bag af gedg | edcA dcdc | 
+=BdA^F GD=B,D | fefa g2ga | (3bag af gedg |1 edcA d3c :|2 edcA d3e |:
+fefa gecd | edcA GcAF | D2fa gecd | eddc d2de | 
+fefa gecd | edcA GcAF | D2fa gecd |1 eddc d2e :|2 eddc d3A |:
+B2fB BgBB | afdf edcA | B2fB BgBB | afdf [c3e3]A |
+B2fB BgBB | afdf edcA | aeab aedg |1 edcA d2dA :|2 edcA d3c :|
+
+X:94
+T:Sheepskin and Beeswax
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:Ador
+EAAA BAGB | A2Aa gfef | gefd efed | Beed BAAG | 
+EAAA BAGB | A2Aa gfef | gefd efed | BAGB A2A2 ::
+e2a2 a2ga | bagf e2ef | gefd efed | Beed BAAG | 
+e2a2 a2ga | bagf e2ef | gefd efed | BAGB A2A2 :|
+
+X:95
+T:Gigue du Plateau Mont-Royal
+C:Jean-Claude B\'elanger
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+|: cFAc fdBF | cFce dFBd | cFAc BFBd | cdcB c3d |
+cFAc fdBf | cFce dFBd | cFAc Bdcc | CdcA F3d ::
+cFFc dFFd | cFFc BFFB | cFFc dccB | cCCc cCCc | 
+cFFc dFFd | cFFc BFFB | cFFc dccB | AccA AFF2 ::
+cAAc dBBd | ecce fdaf | eaae caac | BeeE Eeed |
+cAAc dBBd | ecce fdaf | eaae caac |1 Beec Aeed :|2 Beec A3d :|
+
+X:96
+T:Le Vir\'ee dans Villeray
+C:Jean-Claude B\'elanger
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:A
+ACEA cEAc | dFBd cAce | faaf eaae | fddf e2zE |
+ACEA cEAc | dFBd cAce | faaf edcA | BfdB A2ze ::
+dBBd cAAc | dBBd cEEc | BDDB ACCA | BEEB A2ze |
+dBBd cAAc | dBBd caae | fbaf ecde | dfdB A2ze :|
+
+X:97
+T:Reel du Verre-Bouteille
+C:Jean-Claude B\'elanger
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:A
+e3d ceBe | AEAc e2ed | cAce a2a=g | faea dcBA |
+e3 d ceBe | AEAc e2dc | BEBc dBed | ceBe A4 ::
+a3a aba=g | fdfa fAdf | e3e efed | cAce cAce |
+a3a aba=g | fdfa fAdf | e3e efed | ceBe A4 :|
+
+X:98
+T:Hommage \`a St\'ephane Landry
+C:Philippe Bruneau
+Z:robin.beech@mcgill.ca
+M:2/4
+L:1/16
+K:Bm
+|: F2BB B2BB | BFBd c3c | F2cc c2cc | cFce d3d | cdef gece | 
+Bcde fdBc |1 dedB cdec | fgeg dfcf | :|2 dedB cdcF | BBdf b3b |:
+bfdf Bdfb | bfdf Bdfb | bfdf Bcde | f4- f3f | efge c3c |
+defd BFBc |1 dedB cdec | (3faf (3ege (3 dfd (3 cec :|2 dedB cdcF | BBdf b3b :|
+
+X:99
+T:Hommage \`a monsieur Lecourt
+M:2/4
+L:1/16
+K:G
+DFGA B2GB | A2F2 G2GB | d2g2 dBGA | BGAB AGEG |
+DFGA BBGB | A2F2 G2GB | d2g2 dBGA |1 BGAF G2EE :|2 BGAF G3B |:
+d2BG dBGA | BGAG EDD2 | DFGA B2ge | dBGA BAAB |
+d2BG dBGA | BGAG EDD2 | DFGA B2ge |1 dBAF G2GB :| dBAF G4 |]
+
+X:100
+T:Marche au camp
+O:Quebec
+C:Jean-Paul Loyer
+Z:Philippe Murphy 17-02-2006
+M:6/8
+L:1/8
+R:jig
+K:G
+Bcd BGG | DGA BGA | Bcd BGG | DGF E3 |
+EFG DGF | EFG BGG | DGA BAB | dBG A3 |
+Bcd BGG | DGA BGA | Bcd BGG | DGF E3 |
+EFG DGF | EFG BGG | DGA BAB | cAF G3 ::
+A3 ABc | A3 ABc | B3 BAB | dBA GAB |
+A3 ABc | A3 ABc | Bcd gdB | ABA G3 :|
+
+X:101
+T:Gigue de Salon
+C:Pascal Gemme
+Z:robin.beech@mcgill.ca
+M:6/8
+L:1/8
+K:A
+EAB c2e | d2e cBA | BcA B2A | B2A GFE | EAB c2e | d2e cBA | BcA BAF |1
+EAG A2F :|2 EAG Acd |:e3 cBA | efe cBA | BcA B2A | B2A GFE |1 e3 cBA |
+efe cBA | BcA BAF | EAG Acd :|2 EAB c2e | d2e cBA | BcA BAF | EAG A2F |]
+
+X:102
+T:Gigue de l'\'egouttage
+C:Nicolas Williams
+Z:robin.beech@mcgill.ca
+M:6/8
+L:1/8
+K:G
+d2G GFG | BAB d2g | efg dfg | edB ABc | d2G GFG | BAB d2g | efg dcA |1 AGF G2B :|2
+AGF GBd |: e3 dBG | ABA GBd | e3 dfg | edB ABc | dBG GFG | BAB d2g | efg dcA | AGF GBd :|
+
+X:103
+T:La Marche Printani\`ere
+C:Richard Forest
+Z:robin.beech@mcgill.ca
+R:jig
+M:6/8
+L:1/8
+K:D
+A |: f2B gag | f2d Aed | cec Ace | dfb a2A |
+f2B gag | f2d Aed | cec ABc |1 dAF D2A :|2 dAF D3 |:
+DFA dAF | EAc ecA | dfe dcB | A (3Bcd ecA |
+DFA dAF | EAc ecA | GBA GFE | DFA d2A :|
+
+X:104
+T:Marche pour Anne-Marie
+C:Richard Forest
+Z:robin.beech@mcgill.ca
+R:jig
+M:6/8
+L:1/8
+K:Dm
+A |: dfa fdA | BAB FAB | cag agf | gfe fef |
+dfa fdA | BAB FAB | cag fed |1 cfe f2A :|2 cfe f2g |:
+afc Acf | gec Gce | fef agf | ecA ABc | 
+dcB def | cAc fag | fed A=B^c |1 d3 dfg :|2 d3 d2 |]
+
+X:105
+T:Le Galant
+C:Richard Forest
+Z:robin.beech@mcgill.ca
+R:jig
+M:6/8
+L:1/8
+K:C
+gg |: g2f e2d | c3 cBc | d3 d^cd | ede cef |
+g2f e2d | c3 cBc | d2g GAB |1 c3 cgg :|2 c3 B3 |: 
+AEE CEE | AGA cBA | B3 BAB | efe dcB | 
+c2A d2B | e2c fed | cBA ^GAB | A3 AcB :|
+
+X:106
+T:La Grande gigue simple
+Z:robin.beech@mcgill.ca
+R:brandy
+S:Donald Farmer
+M:3/4
+L:1/16
+K:D
+A,DDE FDCD EGFD | A,DDE FDDB AGFD | A,DDE FDCD EGFD |
+A,DDE FDDB AGFD | A,DDE FDCD EGFD | A,DDE FDDB AGFA |
+dfed cABc eece | dfed cAdB AAFA | dfed cABc eece |
+defd gdfd ecAc | dfed cABc eece | dfed cAdB AAFA |
+dfed cABc eece | defe gdfd ecAc | defd gdfd ecAc |
+defg afdf ecAc | defg afdf ecAc | defg afdB AGFD |]
+
+X:107
+T:Gigue a Trois
+C:Olivier Demers
+Z:robin.beech@mcgill.ca
+S:Le Vent du Nord: Les Amants Du Saint-Laurent
+R:jig
+M:6/8
+L:1/8
+K:G
+D2G BAG | FAA cEF |GBd e2d | D2G BAG | FAA cEF |1 GBd GBd :|2 GdB G2B ||
+d2B c2A | B2G E3 | DGG GFG | BAG AFD |d2Bc2A | B2G E3 | DGG GBd | cAF G2B |
+d2c- c2 B- | B2 GE3 | DGG GFG | BAG AFD |d2B c2A | B2G E3 | DGG GBd | cAF G2A ||
+B2A G2e | dBG DGB | cBc DFA | BAG FED | B2A G2g | dBG DGB | cAF DEF | GDB, G,3:|
+
+X:108
+T:Maison de Glace
+M:6/8
+L:1/8
+R:jig
+K:D
+D3 DEF | A3 AFA | B3 Bcd | cBA GFE |
+D3 DEF | A3 AFA |1 B3 BAG | F3 E3 :|2 B3 Bcd | c6 |:
+B3 Bcd | B3 Bcd | fed edc | dcA dcA |
+B3 Bcd | B3 Bcd | fed edc |1 Adc d2A :|2 Adc dAF |]
+
+X:109
+T:La Galop de Malbaie
+R:reel
+M:4/4
+L:1/8
+K:D
+DFAd f2df | egec dBAG | FAFA GBGB | FAFA EGFE |
+DFAd f2 df | egec dBAG | FAFA GBGB | Acec d2 z2 ::
+Acef gf ge | defg a2 a2 | Acef gfgb | afge fd cB |
+Acef gfge | defg afge | fdec dBAG | FABc d2 z2 :|
+
+X:110
+T:Le Gadeliderot
+C:Jean Duval
+Z:robin.beech@mcgill.ca
+N:Finish with part A
+M:4/4
+L:1/8
+R:reel
+K:D
+DFAd BGBG | ABAG FDD2 | EDEF GFGA | BAGF EGFE | 
+DFAd BGBG | ABAG F2(3ABc | defg edcB |1 cdef d4 :|2 cdef d3e |: 
+fdAe fdAf | edef gece | fdAe fdAf | edcB A3A | 
+Bdgd ceae | dfbf g2 fe | defg edcB |1 cdef d3e :|2 cdef d4 || 
+cBcd edef | gfed e3d | cBcd edef | edcB c3d | 
+cBcd edef | gfga e3d | cBcd edef | edcB AGFE |]
+
+X:111
+T:le P'tit bal \`a l'huile
+C:Marcel Messervier
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+DEFG AAFA | BAFA ddDD | CDEF GECE | DFBF ABAF |
+DEFG AAFA | BAFA ddDD | CDEF GECE |1 DFEC D4 :|2 DFEC D2 zd || dedc |:
+B2GB dGBd | G2d2 c2B2 | A2FA dFAd | A2F2 E2D2 | 
+C2AA CAAC | AAGG F2E2 | DDdA BAFD | A3d dedc | 
+B2GB dGBd | G2d2 c2B2 | A2FA dFAd |1 A2F2 E2D2 | C2AA CAAC | AAGGF2E2 | D2EF GABc |
+d2z f fedc :|2 A3f e2d2 | cAAA cAce | a2g2 f2e2 | dAAA BAFA | d4 |]
+
+X:112
+T:le P'tit bal \`a l'huile
+C:Marcel Messervier
+S:Gaston Nolet - SPTDQ 2012
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+DEFG AAFA | BAFA ddDD | CDEF GECE | DFBF AdAF |
+DEFG AAFA | BAFA ddDD | CDEF GECE |1 DFEC D4 :|2 DFEC D2 zd || dedc |:
+B2GB dGBd | G2d2 c2B2 | A2FA dFAd | A2F2 E2D2 | 
+C2AA CAAC | AAGG F2E2 | D3F AGED | AAFA dedc | 
+B2GB dGBd | G2d2 c2B2 | A2FA dFAd | AaAa e2d2| c2aa caac | a3g f2e2 | d2EF GABc |1
+d2z f fedc :|2 d4 |]
+
+X:113
+T:Set am\'ericain
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+(3ABc |: dAFA DAFA | EAFA DABc | dAFA DAFA | eedf eABc | 
+dAFA DAFA | EAFA DABc | dcdf edBc |1 dfec d2 (3ABc :|2 dfec d2c2 |:
+BABc dcde | fefg fedc | BABc dcBA | GFGA G2F2 |
+BABc dcde | fefg fedc | BABc dcBA |1 Bbfd B3F :|2 Bbfd B2 (3ABc |]
+
+X:114
+T:Reel St-Joseph
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+d2fd cdec | defd A2dc | B2gf edcB | AaaA aABc |
+d2fd cdec | defd A2dc | B2gf edcB |1 Afec d3A :|2 Afec d2Ad |:
+fdfa fdfa | aggf g3f | edcB Aceg | baag a3g |
+fdfa fdfa | aggf g3f | edcB Aceg |1 fdec d2ag :|2 fdec d3A |]
+
+X:115
+T:le reel des Menteries
+C:Normand Miron
+S:le Bruit Court Dans la Ville CD
+M:4/4
+L:1/8
+K:D
+A,DDA, D2DD | CDEF GECE | A,DDA, D2DD | CDEF GECE | 
+A,DDA, D2DD | CDEF GECE | D2FA dAFD |1 EDCE D4 :|2 EDCE DDAF |:
+d3d dfed | cABc BAFA | dcBA FADF | EDCD EABc |
+d3d dfed | cABc BAFA | dcBA FADF |1 EDCD EABc :|2 EDCE D4 |]
+
+X:116
+T:Turlutte acadienne
+S:Bryn Wilkin
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:G
+GFG |: A2A2 d2cA | B2G2- GBAG | FGAB A2GE | F2D2- DGFG |
+ A2A2 d2cA | B2G2- GBAG |1 FGAA B2G2- | GGFG :|2 FGAA B2G2 |:
+d2ce d2cA | B2G2- G=fef | d2cA B2G2- | GBAG FGAB | A2GE F2D2- | D4 |
+d2ce d2cA | B2G2- G=fef | d2cA B2G2- | GGFG |]
+
+X:117
+T:Reel des accord\'eonistes
+C:Loreno Picard
+S:Donna HÃˆbert, In Full Bloom
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:Amix
+A3f edcB | ABAG FDEF | G2F2 ECEG | ABAG FDFG |
+A3f edcB | ABAG FDEF | GFEF GABc |1 dedc d2FG :|2 dedc d2dc |:
+B2GB d2cB | BAFA DDEF | GECE A,CEC | DEFG Adc=c |
+B2GB d2cB | BAFA ddcd | efec dBAG |1 FABc d2dc :|2 FABc d2 (3GAB |:
+dBGd BGdA | FdAF d2cd | e2d2 c2B2 | ABAG FDBc |
+dBGd BGdA | FdAF d2cd | efec dBAG |1 FABc d2Bc :|2 FABc d2FG |]
+
+X:118
+T:Violon gu\'erisseur
+C:Pascale Gemme
+Z:robin.beech@mcgill.ca
+M:6/8
+L:1/8
+K:Dmaj
+DAA |: F2D EDC | B,CA, B,CD | EGG F2D | DAA F2D |
+EDC B,CA, | B,CD FGE |1 D3- DAA :|2 D3 ABc |:
+d3 dcB | ABA F2D | B3 BAG | E3 EFG |
+F3 FGA | Adc B2A | fdf gec  | BGA- Adc |
+d3 dcB | ABA F2D | B3 BAG | E3 EFG |
+F3 FGA | AGF FED | B,CD FEC | D3 DED |:
+B,3 G3 | FCD E2D | B,CD FEC | DED C2A, |
+B,3 G3 | FCD E2D | B,CD FEC |1 DED DED :|2 DED DAA |]
+
+X:119
+T:Reel de Drummondville
+Z:robin.beech@mcgill.ca
+S:Laurence Beaudry
+M:4/4
+L:1/8
+K:G
+B,DG,D B,DG,D | CDEF GBAG | FADA FADA | GABc dBAG | 
+B,DG,D B,DG,D | CDEF GBAG | FADA FADA |1 GBAF G4 :|2 GBAF G2Bc |: 
+dgga gBdg | bgdg ecAG | FGAB cAFA | fedf edBc |
+dgga gBdg | bgdg ecAG |1 FGAB cAFA | GBAF G2Bc :|2 FGAB AGFE |  DCB,A, G,4 |]
+
+X:120
+T:Danse de campagne
+S:Laurence Beaudry
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+d3dd2A2 | BcdB AFDF | e3e e2d2 | cdef ecBA |
+d3dd2A2 | BcdB AFDF | GFEG FEDF | EDCE D4 :|
+DEFG AAFA | BcdB A4 | BcdB AFDF | EDCD E4 |
+DEFG AAFA | BcdB A4 | BcdB AFDF | EDCE D4 :|
+
+X:121
+T:reel des Esquimaux
+N:repertoire d'Isidore Soucy
+S:Laurence Beaudry
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:G
+GFGA GEDC | B,G,A,C B,G,G,G, | B,DGB cBAG | FGAB A(3DEF | 
+GFGA GEDC | B,G,A,C B,G,G,G, | B,DGB cBAG |1 FDEF G(3DEF :|2 FDEF GABc |:
+d&gt;e dcBd | g&gt;a gedc | BGBd cBAG | FGAB A2Bc | d&gt;e dcBd | gfga gedc | BGBd cBAG |1 FDEF GABc :|2 FDEF GDEF |]
+
+X:
+T:Galope Carmen
+C:Laurence Beaudry
+N:Â© Laurence Beaudry, Reproduced with permission
+Z:robin.beech@mcgill.ca
+R:reel
+N:January, 2008
+M:2/4
+L:1/8
+K:C
+cdcA G2E2 | C2D2 E3G | CEGc e2g2 | fedc BcdB | AGGA Bcde | 
+f3a gafg |1 efde cdeB | A3G E2G2 :|2 efde ceBd | c3G E2A2 :|
+G^FGA GEGc | A^GAB A2dc | BGBd fdAB | cage agec |
+G^FGA GCEG | A^GAB A2FA |1 BABc BGBe | cBcd c3A :|2 BcBA G2ba | gfAB [A4E4] ||
+
+X:
+T:Les Bohemes
+C:Laurence Beaudry
+N:Â© Laurence Beaudry, Reproduced with permission
+Z:robin.beech@mcgill.ca
+R:reel
+M:4/4
+L:1/8
+K:Dmin
+A,DDF EA,DF | ECEG FDEC | B,DFD EGcB | Aage cAFD |
+A,DDF ECEG | FDFA GEGc | Afge cAFD | GBAG FDD2 :|
+fdAF GBAG | FAdA BGEG | FAdf ege^c |
+abge agfe | dAFA GBAG | FAdA BGEG |1
+FAdA Bdgd | ^cea^g a3g :|2 FAdA GBdB | A^cef d4 |]
+
+X:
+T:L'Etoile Filante
+C:Laurence Beaudry
+N:Â© Laurence Beaudry, Reproduced with permission
+Z:robin.beech@mcgill.ca
+R:reel
+M:4/4
+L:1/8
+K:Amin
+ABcd eece | aged ecAE | ABcd eece | agec d2Bc |
+dcBc BGBc | dcBc defe | dcBc dcde |1 fgfe dcBc :|2 cdBc A2ce |:
+a2ed cAEA | cAFA dBgd | a2 ed ceAc | Bdga baa^g |
+a2ed cAEA | dB GF (3EFG FA | GBdg afdc |1 BgBB aBbB :|2 BaBB ge [c2E2] |]
+
+X:
+T:L'Intention
+C:Laurence Beaudry
+N:Â© Laurence Beaudry, Reproduced with permission
+Z:robin.beech@mcgill.ca
+R:reel
+M:4/4
+L:1/8
+K:G
+GBdg ecAG | FAdA BGDB, | CEGc BGDB, | ecag fdcA | 
+GBdg ecAG | FAdA BGDB, |1 CEGc B,DGB | AGFE DEFD :|2 
+CEGc B,DGB | AGFA G4 |: Bcdc BGAB | cedf gdBG | 
+cecA Bdgf | ecAG FADA | Bdgf ecag | fdab gdBG |1
+cdec ABcA | FGFE D4 :|2 ceac Bdgd | fdef [g4B4] |]
+
+X:
+T:Reflexion du 9e Croissant
+C:Laurence Beaudry
+N:Â© Laurence Beaudry, Reproduced with permission
+Z:robin.beech@mcgill.ca
+R:reel
+M:4/4
+L:1/8
+K:G
+B,2 DG E2AG | FdcA BGDB, | C2 EG FDFA | GBde dBGD |
+B,2DG E2AG | FdcA BGDB, | CEGE DFAF |1 dcBA BGDC :|2 GBAF[G4C4] |: 
+gfed B2ef | gfed cA ~A2 | FAdf edAF |GBdg bgdB | 
+ggfe B2ef | gfed cA ~A2 | FAdf ecAF | GBdB cdef
+ggfe B2ef | gfed cA ~A2 | FAdf edAF |GBdB bagf | 
+ggfe B2ef | gfed cA ~A2 | FAdA FADA | GDB,D G,4 |]
+
+X:
+T:Scudderie des bois
+C:Laurence Beaudry
+N:Â© Laurence Beaudry, Reproduced with permission
+Z:robin.beech@mcgill.ca
+R:reel
+M:4/4
+L:1/8
+K:A
+cecB ABcA | defd agfe | ceae ceA2 | GBdB =gfed |
+cAFA EAFA | dfaf dafd | ceae =gfed | cdB=G A4 ::
+EAAc BAcA | BAcA BecA | FBBd cBdB | cBdf ecBA |
+EAAc BAcA | BAFA EAFA |1 =GBdB Acec | =GBdf ecBA :|2
+GBdB Acec | dfaf gfed ||
+cecB ABcA | defd agfe | ceae ceA2 | GBdB =gfed |
+cAFA EAFA | dfaf dafd | ceae =gfed | cdB=G A4 |]
+
+X:
+T:St Bruno en Musique
+C:Laurence Beaudry
+N:Â© Laurence Beaudry, Reproduced with permission
+Z:robin.beech@mcgill.ca
+R:reel
+P:AABAABAC
+M:4/4
+L:1/8
+K:G
+P:A
+DGBG cBAG | AFFA DEFD | GEEG c3e| dcBG AFD2 |
+GABG cBAG | AFFA dAFD | CEGE F3A | dcAF G4 ||
+P:B
+cBAG FdcB | AGFG AFD2 | cBAB cedf | gdBG A3B | 
+cBAG FdcB | AGFG AFD2 | GBDC B,DGB | AGFG A4 ||
+P:C
+cBAG FdcB | AGFG AFD2 | cBAB cBAG | FGFED3B | 
+cBAG FdcB | AGFG AFD2 | GBdg ecag | fdcA [G4B,4] |]
+
+X:129
+T:reel de Jos Cormier
+Z:robin.beech@mcgill.ca
+R:reel
+M:4/4
+L:1/8
+K:D
+fed | c2 (3BcB Aced | cAce faef | ggfa gdef | gedB GABd |
+c2 (3BcB Aced | cAce faef | gedB GABd | cAGB A ::
+z2B | ABcd eaec | ABcd ecBA | GABc dedB | GABc dBGB |
+ABcd eaea | geag edef | gedB GABd | cAAG a ::
+z2b | AAaA AgAA | fAAe- edef | ggfa gdef | gedB GABG |
+AAaA AgAA | fAAe- edef | gedB GABd | cAGB a :|
+
+X:130
+T:reel de l'Obstineux
+C:Jean Duval
+R:reel
+M:4/4
+L:1/8
+Z:robin.beech@mcgill.ca
+R:reel
+K:D
+DFAF GFEF | D2 DE DFAc | dcec dcBA | BABc B2 (3ABc |
+d2 de fdAF | GFEF GABG | AGFA GFEF |1 D2 DE D2 z2 :|2 D2 DE D2 (3ABc |:
+d2 dc dBFB | GFEF GABc | d2 dc dBFB | dgfe dcec |
+d2 dc dBFB | GFEF GABG | AGFA GFEF | D2 DE D2 (3ABc :|
+
+X:131
+T:reel de Sherbrooke
+Z:robin.beech@mcgill.ca
+R:reel
+M:4/4
+L:1/8
+K:G
+g2fe dcBA | GBDG B2AG | FADF A3/c/BA | GBDG B3G |
+g2fe dcBA | GBDG B2AG | FGAB cdef | g2 g2 g4 :|
+K:D
+|: A2FA d2Ad | ffdf a4 | a2 g2 e2 c2 | b2 a2 f2 d2 |
+A2FA d2Ad | ffdf a4 | a2 g2 e2 c2 | d4 d4 :|
+
+X:132
+T:reel de Tadoussac
+C:Joseph Allard
+R:reel
+M:4/4
+L:1/8
+Z:abc by Bruce Osborne - bosborne@kos.net
+K:G
+GA|B2B2 cBce|d2dc BGBd|cBcA FDFA|eddc BGDG|
+B2B2 cBce|d2dc BGBd|cBcA FDFA|G2GF G2::
+Bd|gagf ecge|d2dc BGBd|cBcA FDFA|eddc BGBd|
+gagf ecge|d2dc BGBd|cBcA FDFA|G2GF G2:|
+
+X:133
+T:La Petite Souris
+C:Robin Beech
+Z:robin.beech@mcgill.ca
+R:reel
+M:4/4
+L:1/8
+K:F
+|: FGAB cdcf | Bagf fedc | Bdgf fefg | agfe dccc |
+FGAB cdef | gabg fecc | Bdgf fefg | aggf fedc ::
+ABcd caag | gffg fedc | Bdgf fedc | dfba abag |
+ABcd caag | gffg fedc |  dfba abag |1 bagf edcB :|2 bgec BAAG |]
+
+X:
+T:La Sorciere Heureuse
+C:Laurence Beaudry
+N:Â© Laurence Beaudry, Reproduced with permission
+Z:robin.beech@mcgill.ca
+R:reel
+M:4/4
+L:1/8
+K:G
+|: DGBe d3c | BGAG BGFG | DGBe dcBc | dgfg d4 |
+ecce dBBd | cAag fdcA | DGBe dcBc | BGAF [B,4G4] ::
+FDA,D CDFD | GDB,D EDB,D | ADFA dcBA | BcAB G3B |
+ecBc agfe | fd^cd bgec | dBBd c3A |1 BGFG A3G :|2 BGAF [B,4G4] |]
+
+X:135
+T:Le Chat Noir
+Z:robin.beech@mcgill.ca
+R:reel
+S:Andr\'e Brunet &amp; Eric Beaudry
+M:4/4
+L:1/8
+K:Gm
+DGGF GABc | AFcF dFcF | DGGF GABc | ABcB A3F |
+DGGF GABc | AFcF dFcF | DGGA  dcBA |1 cBAB G3G :|2 cBAB G3^f |:
+gdBG DGBd | ff=eg fcAc | dBBA BAGB | A/B/A^FA D3^f |
+gdBG DGBd | ff=eg fccd | ecdB cABc |1 dcBA G3^f :| dcBA G3G |]
+
+X:136
+T:La valse des jouets
+C:Michel Faubert
+Z:robin.beech@mcgill.ca
+M:3/4
+L:1/8
+K:D
+ |: f&gt;e f&gt;g f&gt;e | d&gt;B A&gt;F D2 | f&gt;e f&gt;g f&gt;e | d&gt;B A&gt;F D2 |
+e&gt;d e&gt;f e&gt;d | c2 c&gt;d c&gt;B | A&gt;E A&gt;B c&gt;A | d&gt;B A&gt;F D2 |
+f&gt;e f&gt;g f&gt;e | d&gt;B A&gt;F D2 | f&gt;e f&gt;g f&gt;e | d&gt;B A&gt;F D2 |
+e&gt;d e&gt;f e&gt;d | c2 c&gt;d c&gt;B | A&gt;B A&gt;G F&gt;E |1 D6 :|2 D4 d&gt;c |:
+d&gt;A F&gt;A G&gt;A | B3d d&gt;B | c&gt;A B&gt;c d&gt;e | f3f d&gt;f | 
+b&gt;f d&gt;f g&gt;f | g3 e e&gt;d | c&gt;A c&gt;e a&gt;g | f2d2c2 | 
+B&gt;F F&gt;F B&gt;F | G3e e&gt;d | c&gt;B A&gt;G F&gt;E | F4 F2 | 
+G&gt;F G&gt;A B&gt;c | d&gt;e f3f | g&gt;e c&gt;A B&gt;c |1 d4 d&gt;c :|2 d6 |]
+
+X:
+T:Shannon et Vicky
+C:Laurence Beaudry
+N:Â© Laurence Beaudry, Reproduced with Permission
+Z:robin.beech@mcgill.ca
+R:waltz
+M:3/4
+L:1/4
+K:G
+D2 |: B&gt;AG | A&gt;cA | B&gt;dB | cde | B&gt;AG | dBG | EGB | FED |
+B&gt;AG | A&gt;cA | B&gt;dB | cec | deg | dBG | FAd |1 G3 :|2 G2- G/g/ |:
+fdA | afd | efg | c3 | Bdg | bag | f/g/af | d2c |
+ecG | ceg | dBg | dBd | cAc | BGB | dfa | g3 :|
+
+X:
+T:L'Aile Brise
+C:Laurence Beaudry
+N:Â© Laurence Beaudry, Reproduced with Permission
+Z:robin.beech@mcgill.ca
+R:waltz
+M:3/4
+L:1/8
+K:Bmin
+|: B3cd2 | F3dc2 | d2B2F2 |1 g3f3 | e3fg2 | c3de2 | _B3GF2 | E2c2d2 :|2
+a4g2 | e2gf2 | d3ef2 | c3ed2 | B6 |: G2B2d2 | F2d2F2 | E2A2c2 | 
+d2f2d2 | G2B2d2 | F2A2d2 | c2a2g2 | f4=c2 | B2g2B2 | _B2 a2g2 | _B2g2B2 | 
+A2g2f2 |1 ^G2B2E2 | e2E2d2 | c2B2A2 | [B6^G6] :|2 ^G2B2e2 | f2d2B2 | ^G2E2c2 | A6  |]
+
+X:139
+T:Valse Saint Jean
+C:Patrick Bouffard
+M:3/4
+K:D
+A3 G F2 |A2 G2 F2 |GA B4 |B2 GA GF |G3 F E2 |G2 F2 E2 |FG A4 |A2 AB A^G |
+A3 G F2 |A2 G2 F2 |GA B4 |c2 d2 B2 |A3 G F2 |A2 G2 E2 |1D6 |D6 :|2 D6 |D2 AB A^G |:
+A2 AB A^G |A2 AB A^G |A^G AB AG |G2 GA GF |G2 GA GF |G2 GA GF |
+GF GA Bc |B2 AB A^G |A2 AB A^G |A2 AB A^G |A^G AB AG |
+G2 GA GF |G2 GA GF |G2 GA GF |GF GA Bc |1d2 AB A^G :|2d6 |]
+
+X:140
+T:La Valse Laurencienne
+R:Waltz
+C:Steve Jones
+N:August 1996
+N:Tribute to Ms Laurence Beaudry
+Z:Stephen Jones
+M:3/4
+L:1/8
+K:Bm
+fdBfed | fdBfed | gfefga | g3 f e2 |
+fdBfed | fdBfed | edcdef | gBfBeB |
+fdBfed | fdBfed | gfefga | gBfBeB |
+fdBfed | ecAecA | B3d cd | B6 ||
+F3d cd | F3d cd | G3d cd | G3d cd |
+F3d cd | F3d cd | edcdef | gBfBeB |
+F3d cd | F3d cd | G3d cd | G3d B/c/d |
+fdBfed | ecAecA | B3d cd | B4 F2 ||
+B3c d/e/f | b2 a3 f | g3a ge | fd B3 A |
+Bcdefa | b4 cd | efed B/c/d | c4 F2 |
+B3c d/e/f | bBaBfB | g3a ge | fd BA B/c/d |
+fdBfed | ecAecA | B3d cd | B6 ||
+
+X:141
+T:Valse des Bois
+C:Richard Forest
+M:3/4
+L:1/4
+Z:Transcribed to abc by Mary Lou Knack
+R:waltz
+K:Em
+B,| E&gt;DE| F&gt;EF| GAG| FED| E3| DB,D| E3-| E2 :|
+G/A/| B3| BcB| AFD| DEF| G3| GAG| F3-| FGA|B3| BcB| AFD| DEF|
+GFE| FED| E3-| EGA|B3| BcB| Add| dcB| G3| GAG|
+F3-| FGA|BAB| cde| BAG| AGF| G2G| FED| E3-| E2 |]
+
+X:142
+T:Valse d'Hiver
+C:Danielle Martineau
+L:1/8
+M:3/4
+K:D
+Bc |: d2 dc de | f2 fe df | a2 af df | e3d ef |
+ge Ge ge | fd Fd fd | cB G2 (3EGE |  F4 Bc |
+d2 dc de | f2 fe df | ad' af df | e3d ef |
+ge Ge ge | f2 bc'd'b |  c'b gf cd |1 (B4B)c :|2 B4 E2 ||
+E2 AB cd | ec BA Bc | de fa df | e3f ec |
+de fd Bd| cA cf af | Bf af Bf | e4 E2 |
+E2 AB cd | ec BA Bc| de fa df | e3f ec |
+de fd Bd | cA cf ac | dc BA FE | F4 E2 |
+E2 AB cd | ec BA Bc | de fa df | e3f ec |
+de fd Bd | cA cf af | Bf af Bf | ef ed cB |
+A3B cd | ec BA Bc| de fa df | e3f ec |
+de fd Bd | cA cf ac | dc BA FE |F6 ||
+
+X:143
+T:La Complainte du Folkloriste
+C:Philippe Bruneau
+M:6/8
+L:1/8
+Z:robin.beech@mcgill.ca
+R:waltz
+K:D
+B |: e&gt;fg f&gt;ga | g3/d/B/A/ G2 F | E&gt;FG A&gt;GA | B3-B z B ::g3 e2 g | f3 d2 f |
+e&gt;fg fed | e2 B z c | d3 A2 d | e&gt;fg f&gt;ga | g&gt;fe f&gt;ed | e3-e z e :|
+
+X:144
+T:reel de Vieux moulin
+S:Doug Creighton - NESI 2011
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+A3d B3d | c&gt;dec defd | A3d B3d |1 c&gt;dec d4 :|2 c&gt;dec d2 |:
+(3ABc | d2fd adfd | c2ec fcec | d2fd adfd | efec A2AB |
+AFDF Adcd | BGDG BdcB | Acef gece |1 dfec d2 :| dfec d4 |]
+
+X:145
+T:Galope du repertoire de Gaston Nolet
+S:Gaston Nolet - SPTDQ 09/2011
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+FG |: ABAF D2FG | ABAF D2FG | A2B2 d3B | [G6c6] EF |
+GAGE C2EF | GAGE C2EG | d2c2 B2A2 | F6FG |
+ABAF D2FG | ABAF D2FG | Addd e2d2 | B4- BBGB |
+edcB edcB | dAAA dAAB | c2AB cdec |1 dBAF D2FG :|2 d4- dAAA |:
+f2(3FAd fedB | AaAa A2FG | ABcd fdAB | c4- cAAA |
+g3g fage | c4- cAAA | cAce cBAG | FFAF DFAd |
+f2(3FAd fedB | AaAa A2FG | ABcd e2d2 | B6BB |
+b3b bagb | a4- aAAA | gAce gece |1 dfec dAAA :| dBAF D2FG |]
+
+X:146
+T:Hommage \`a Jimmy de Genova
+C:Philippe Bruneau
+Z:robin.beech@mcgill.ca
+S:Sylvain Rondeau
+M:3/4
+L:1/8
+K:Edor
+|:f2df Bd | F2-FF Bd | fF Bd gd | fd df Bd | f2 df Bd | F2- FF Bd | fF Bd gf | ge ee Be |
+g2 eg Be | G2-GG Be | gG Be ae | ge eg Be | g2 eg Be | G2- GF cd | e2 ce dc |1 dB BG GF :|2 dB BF FF |: 
+cF FF ce | dF FF Bd | cF FF cF | Bc de fF | cF FF ce | dF FF Bd | cF ce dc | .Bz .[Bb]z z2 ::
+f2 df Bd | f2- fF GF | ff df Bd | f2- fF GF | ff df GF | ff df GF | ff df Bd | g4- gf | 
+gg eg Be | g2- gF GF | gg eg Be | g2- gF GF | gg eg GF | gg eg GF | ee ce dc | dB BG GF ::
+cF FF ce | dF FF Bd | cF FF cF | Bc de fF | cF FF ce | dF FF Bd | cF ce dc | .Bz .[Bb]z z2 ::
+f2  df Bd | F2- FF Bc | dF Bc dB | ce Fc Fc | e2- ed ce | F2- FF cd | e2 ce dc |1 dB BG GF :|2 d2 B2 B2 |:
+g2 eg eg | f2 df df | e2 ce ce | Bc de fd |g2eg eg | f2 df df | eF ce dc | .Bz .[Bb]z z2 :|
+
+X:147
+T:Les Patins de Pauline
+C:Andr\'e Marchand
+D:La Bottine Souriante : "Chic &amp; Swell"
+Z:Philippe Murphy 2007-03-15
+M:6/8
+L:1/8
+R:jig
+K:G
+|: GAB GED | GAB GED | FGF E2D | FDF E2D |
+GAB GED | GAB GED | FGF EFE | DEF G2D ::
+GAB GDB, | CDE DB,G, | ECA, B,A,A, | ECB, A,2D |
+GAB GDB, | CDE DB,G, | ECA, B,A,A, | DEF G2D :|
+
+X:148
+T:Hommage \`a Edmond Parizeau
+C:Marcel Messervier
+Z:robin.beech@mcgill.ca
+S:NESI 2011
+M:4/4
+L:1/8
+K:A
+A ABcd | eAAe AAeA | AAeA f2ed | ceAB cAeA |
+ceAc dedc | B3B BABc |1 B3e efed | c2B2 AcBA | E3 :|2 
+e2d2 c2B2 | Afed cdBc | A2c2 B2A2 |:
+a4 f4 | d3A d2f2 | e3e efec | A2c2B2A2 | B2BB BABc | 
+e2d2 c2B2 |1 cBAc ecef | e2c2 B2A2 :|2 Afed cABc | A3 |]
+
+X:149
+T:Old French
+S:Mathieu Gallant
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+(3ABc | d2c2 B2AF |  DFAd f2ed | cdef gece | defd A2(3ABc |
+d2c2 B2AF | DFAd f2ed | cdef gece | dfec d2 ::
+cd | efed c2B2 | AEAc e2dc | BGBd gfed | cAce a2cd |
+efed c2B2 | AEAc e2dc | BGBd gfed | cdBc A2 :|
+
+X:150
+T:Reel du temple
+C:Rosaire Laplante
+S:Gaston Nolet
+Z:robin.beech@mcgill.ca
+M:2/4
+L:1/16
+K:D
+fg |: a3a aba2 | fff2- fdef | g2fg gage | B4- B2cB | A3A cAce | 
+aaa2- afdf |1 aafa gfeg | fdcd BdAd :|2 aac'b agec | ddfa d'BAG |:
+FFdF FeFF | ddcd edcA | GGdG GeGG | ddcd edcB | AAeA AfAA | 
+gAfA Aece | dcdf edce |1 dfec dBAG :| dfec d2 |]
+
+X:151
+T:La grande travers\'ee
+M:2/4
+L:1/16
+K:D
+A A2G2 |: F3d dcde | d2A2F2A2 | G3d dcde | d2B2G2B2 | 
+A3e edef | e2c2 B2A2 |1 d2(3FAd fedc | B2A2 {B}A2G2 :|2 d2AA BAFA | d6ed |:
+cecA EAce | d2B2 B4 | EBBB ddBd | ffed c2ed | 
+cecA EAce | d2B2 B4 | EBBB ddBd | fece a2ed :|
+
+X:152
+T:La valse des cerfs-volants
+C:Mario Loiselle
+Z:robin.beech@mcgill.ca
+M:3/4
+L:1/8
+K:Bmin
+|: f2- fg fd | e2c2d2 | B2d2a2 | c2a2b2 | f2- fg fd | B2c2d2 | B2c2d2 | B2a2- ag | g2f2c2 ::
+Bc dB fd | b2 a2- ab | bf f2- fa | ac c2- cd | Bc dB fd | b2 a2- ab | bc'd'2- d'f | fe B2- Bf | fe c2- cd :|
+
+X:153
+T:Hommage \`a Yvan Brault
+S:Gaston Nolet, SPTDQ 2011
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:A
+Ac |: e3e efed | cece c3B | AAEA B2c2 | d2BB B2E2 |
+d3d dedc | BeBe B3E | BBEB A2B2 | cAFA EEAc |
+e3e efed | cece c3B | AAEA B2c2 | dFAd f4 |
+f3f fedf | efec efec | dfdf cfBf |1 AAce a2Ac :|2 AAce a2AB |:
+c3e f2e2 | cecB AEAB | c3e f2e2 | dedc BEBc | 
+d3e f2e2 | dedc B3E | eeEe eEee | edcB cAEA |
+c3e f2e2 | cecB AEAB | c3e f2e2 | dedc BEBc | 
+d3e f2e2 | dedc B3E | eeEe eEee |1 edcB A2AB :|2 edcB A2Ac |]
+
+X:154
+T:Hommage \`a Guy Thomas
+S:Gaston Nolet SPTDQ 2011
+Z:robin.beech@mcgill.ca
+C:Philippe Bruneau
+M:3/2
+L:1/16
+K:D
+FAAA ABAF EADA | FAAA ABAF dBAG | FAAA ABAF EADA | FAAA ABAF dBAG ::
+Adfd gfed baAa | Adfd gfgb abaf | Adfd gfed BdAd | fAdf gfgb abaf ::
+FAAA ABAF EADA | FAAA ABAF dBAG | FAAA ABAF EADA | FAAA ABAF dBAG ::
+Adfd gfed baAa | Adfd gfgb abaf | Adfd gfed BdAd | fAdf gfgb abaf ::
+e2ce Acea fadf | e2ce AceA BdAd | e2ce Acea fadf |1 e2ce AceA dfaf :|2 e2ce Acec d4 |:
+fddd dedc BAFA | fddd cdef gfed | fddd dedc BAFA | fddd cdef gfed :|
+
+X:155
+T:Marche Philippe Bruneau
+C:Philippe Bruneau
+Z:robin.beech@mcgill.ca
+M:6/8
+L:1/8
+K:D
+dfd cfc | BBB B2A | dfd cfc | BBB B2A | ege ded | ccc c2B | AAA ABc |1 dcB AFA :|2 d3- d2A |:
+F3- FAd | f3- f2d | e2d c2d | g3- g2f | eee e2d | ccc c2B | AAA ABc |1 dcB ABA :|2 d6 :| 
+
+X:156
+T:Issoudun
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:A
+e efge | a2gf eagf | edcd efge | a2gf eagf | edcA BAGB | A3 ::
+B c2c2 | B3B BABc | dcBA c2c2 | B3c BAGB | AEEA EFAE c2c2 |
+B3B BABc | dcBA c2c2 | B3c BAGB | AEEA EFAE c2c2 |
+B3B BABc | dcBA c2c2 | B3cBAGB | A3 |]
+
+X:157
+T:Reel des \'Eboulements
+S:Donna H\'ebert - Flowers In Bloom
+Z:robin.beech@mcgill.ca
+M:2/4
+L:1/16
+K:A
+(3efg |: a2(3AAA cAec | Bcde fefg | a2(3AAA ceAf- | fAgA a2(3efg |
+a2(3AAA cAec | Bcde fefg | a2ge f2ec |1 dfec A2(3efg :|2 dfec A2ed |:
+cAAA ce2c | Bcde f2ed | cAAA ce2A | fAgA afed | 
+cAAA ce2c | Bcde f2fg | a2ge f2ec |1 dfec A2ed :|2 dfec A4 |:
+cAAA cAAA | cAAA cAAA | Bcde f2ec | e8 | cAAA cAAA | cAAA cAAA | Bcde fefg | a2ge f2ec | dfec A4 ::
+AAAc- cAAA | GABc dBBB | GBEB GBEB | GBBB A4 |
+AAAc- cAAA | GABc defg | a2ge f2ec |1 dfec A4 :|2 dfec Aefg |]
+
+X:158
+T:La grande gigue simple
+Z:robin.beech@mcgill.ca
+S:Carmen Gu\'erard - Gigue du plateau
+M:3/4
+L:1/16
+K:D
+A,DDE FDED EGFD | A,DDE FDEB AGFD | A,DDE FDED EGFD |1 A,DDE FDEB AGFD  :|2 
+A,DDE FDEB AGFA || dfed cABc efec | dfed cAdB AGFA | dfed cABc efec | 
+dfdf gefd ecAc | dfed cABc efec | dfdf gefd ecAc | dfdf gefd efec | 
+dfdf gefd ecAc | defg afdf ecAc | defg afdB AGFD |]
+
+X:159
+T:Reel du Tricentenaire
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+DDFA BAFA | dcdf edAF | G2BG F2AF | EDEF GFED | 
+DDFA BAFA | dcdf edAF | G2BG FAdf |1 ecAc d4 :|2 edcA d3a |:
+fafd Adfd | Bdef g3f |  eece Acec | defg a2aa |
+fafd Adfd | Bdef g3f | eece agec |1 dfec d2aa :|2 dfec dBAF |]
+
+X:160
+T:Valse-clog Lacroix
+Z:robin.beech@mcgill.ca
+S:Danse ce soir - Laurie Hart and Greg Sandell
+M:3/4
+L:1/8
+K:D
+AA Bc  | d2- dc d2 | e2- ed e2 | f2 a2 f2 | e2 d2 e2 | 
+f2 d'2 b2 | a2- af d2 | e2 ef ed | c2 B2 A2 | d2- dc d2 | 
+e2 d2- de | f2 a2 f2 | e2 d2- de | f2 d'2 b2 | a2 f2 d2 | eb ge Bc | d2 ::
+AA Bc | dc de fg | a2 f2 (3dfa | d'z c'2 b2 | a2- ab af | 
+g2 ga ge | f2 fg fd | e2 efed | c2 B2 A2 | dc de fg | 
+a2 f2 (3dfa | d'z c'2 b2 | a2- ab af | g2 ga ge | f2 fg fd | eb ge BA | d2 :|
+
+X:161
+T:La grande gigue simple
+Z:robin.beech@mcgill.ca
+S:Vices et Versa 28/12/2011 Alexei Chartrand
+M:3/4
+L:1/16
+K:D
+A,DDE FDED EGFD | A,DDE FDEB AGFD | A,DDE FDED EGFD |1 A,DDE FDEB AGFD  :|2 A,DDE FDEB AGFA |: 
+dfed cABc efec | dfed cAdB AGFA | dfed cABc efec | dfdf gefd ecAc :| 
+dfdf gefd ecAc | defg afdf ecAc | defg afdf ecAc | defg afdB AGFD |]
+
+X:162
+T:Le bonhomme et la bonne femme
+M:2/4
+L:1/16
+K:D
+FG |: ABAF DFAF | GAGF E2cd | efec Acec | dedB A2FG |
+ABAF DFAF | GFGF E2cd | efec Acec | dfec d2FG ::
+AddA d2cB | AccA c2EF | GBBG B2AG | FGAB A2FG |
+AddA d2cB | AccA c2EF | GBBG B2AG | FDEC D2F&lt;G :|
+
+X:163
+T:Reel du Bonhomme
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+e3c A2ec | efec A2ef | e2d2 c2B2 | B2A2 A4 ::
+A3A B2AG | FAdf a3f | g3e cABc | dAdf bafd |
+A3A B2AG | FAdf a3f | g3e cABc | dfec d4 :: 
+d2c2 B2A2 | F3F F2ED | CEA,C EGFE | DFA,D F2Bc | 
+d2c2 B2A2 | F3F F2ED | CEA,C EGFE | DDFA d4 :|
+
+X:164
+T:Reel des Chantiers
+N:r\'epertoire de Joseph Allard
+M:2/4
+L:1/16
+Z:Bruce Osborne - bosborne@kos.net
+K:D
+FG | Adcd Adcd | ecde fdB2 | g2f2 ecAc | edcB AGFG |
+     Adcd Adcd | ecde fdB2 | g2f2 ecAc | e2d2 d2 ::
+FG | ABAG FDFA | BABc d2dB | AFdB AFDF | G2E2 E2FG |
+     ABAG FDFA | BABc d2cd | efed cABc | d2f2 d2 :|
+
+X:165
+T:Reel du goglu
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+fg | afge dfed | cdec ABAG | FAdf gfed | cdec A2fg|
+     afge dfed | cdec ABAG | FAdf gecd | edde d2 ::
+cd | eAAA Adfd | eAAA Adfd | gfeg fedf | edcB AGFE |
+     DFAc d2cB | Acee a2aa | bgef gecd  |edde  d2:|
+
+X:166
+T:Ronfleuse Gobeil
+M:4/4
+L:1/8
+K:D
+a2fd Adfa  | gece fddf | a2fd Adfa |1 gece d3f :|2 gece d3B |:
+A2f2 fef2 | B2g2 gfg2 | A3c eece | dcde fafd | 
+A3f fef2 | B2g2  gfg2 | A3c ecAc |1 e2d2 d2B2 :|2 e2d2 d3e |:
+fa2b afde | fdad fdd2 | efga bgef | 
+gebe gfe2 | faab afde | fdad ffd2 | fBBA BcdB | AFEF D4 :|
+
+X:167
+T:Reel Beaulieu
+M:2/4
+L:1/16
+R:Reel
+S:Pascal Gemme
+K:Amix
+ed |:c2B2 AcBA | FBAF E2EA | BABc dBB2 | ABcd efed |
+c2B2 AcBA | FBAF E2EA | BABc dBB2 |1 Acec Afed :|2 Acec A4 |:
+a3b afed | cAce a2ef | g2ga gedB | GGBd g2fg |
+a2ab afed | cAce a2ee | efec dcBd |1 cA(3AAA A2fg :|2 cA(3AAA A2ed |]
+
+X:168
+T:6/8 de Petit Sarny
+C:Eric Favreau
+Z:robin.beech@mcgill.ca
+R:jig
+M:6/8
+L:1/8
+K:Emin
+B3 Bcd | B3 BAG | EFG AGA | BGE D3 | B3 Bcd | B3 BAG | EFG AGA |1
+BGG G3 :|2 BGG GBc |: dBd gdB | AGA BGE | DBB Dcc | DBB ABc | dBd gdB |
+AGA BGE |1 Dgf edB | AGF G3 :|2 DB,D EDE | FEF G3 || Bc |: dBd g2f |
+ece gdc | Bdg gfg | a4 Bc | dBd g2f | ece gdc |  Bdg fef |1 g4 Bc :|2 g6 |]
+
+X:169
+T:Hommage aux musiciens traditionnels
+C:Marcel Messervier
+Z:robin.beech@mcgill.ca
+S:Gaston Nolet: SPTDQ 2012
+M:4/4
+L:1/8
+K:D
+Ad | f3f e2f2 | AAA2- AGFE | D2F2 B2F2 | AGFA G3g | 
+g3g f2g2 | c4- ccB2 | AAAB c2e2 | b2Bb a2Ad |
+f3f e2f2 | AAAB AGFE | D2F2 B2F2 | AGFA G3g |
+g3g f2e2 | aaa2- afef | gage B2c2 | ddfa (3ded :: 
+Ac | e3e efed | c2a2 e3e | dedc (3BcBAB | cABc (3decBA |
+e3e efed | c2a2 e3e | dedc B2cB | AAce a2Ac :|
+
+X:170
+T:Reel du r\'eprtoire des fr\`eres Pigeon
+Z:robin.beech@mcgill.ca
+S:Laurence Beaudry - SPTDQ
+Z:220
+M:2/4
+L:1/16
+K:D
+f3gf2e2 | d2c2 B2F2 \
+|: Bcdc B2F2 | Bcdc B2F2 | B3c d2B2 | c2f2 c2f2 | 
+Bcdc B2F2 | Bcdc B2F2 | f3g f2e2 |1 d2c2 B2F2 :|2 d2c2 B2B2 |:
+A3a a2f2 | d6B2| Affa f2d2 | A3A ABAF | G3e e2e2 | e3e eAce |1
+a2g2 c2BA | f2d2 c2B2 :|2 a3g B2c2 | dfec d2F2 |]
+
+X:171
+T:Hommage \`a Philippe Bruneau
+C:Lorenzo Picard
+Z:robin.beech@mcgill.ca
+S:Laurence Beaudry - SPTDQ
+M:2/4
+L:1/16
+K:D
+dAFA GBAG | FAEA DDFA | dfed cBAG | FDEG FDFA |
+dAFA GBAG | FAEA DDFA | dfed cBAG |1 FABc d3c :|2 FABc d3B |:
+AAFA dFAd | fedf a3B | AAFA dFAd | c4 B4 | E2F2 G2A2 | c3c c2B2 |
+A2cB AGFE | Dddd B2AF | AAFA dFAd | fedf a3B |
+AAFA dFAd | c4B4 | E2F2G2A2 | c3c c2B2 | A2cB AGFE | DDFA d4 :|
+
+X:172
+T:r\'epertoire Francine Desjardins
+Z:robin.beech@mcgill.ca
+S:Laurence Beaudry - SPTDQ
+M:6/8
+L:1/8
+K:D
+D2D FED | AFD dAF | D2D FED | CA,C GFE |
+D2D FED | AFD d2d | Bcd AFD | GEC D3 ::
+d3Bcd | ced cBA | dcd Bcd | edc d3 |
+dcB AGF | BAG FED | Bcd AFD | GEC D3 :|
+
+X:173
+T:le 125ieme de Sainte Louise
+S:Gaston Nolet - SPTDQ 2012
+Z:robin.beech@mcgill.ca
+K:G
+D |: DEGA BdBA | G2g2 G3B | ABAF DFAF | GABG ddBd |
+DEGA BdBA | G2g2 G3B | ABAF DFAF |1 GGBd g3D :|2 GGBd g3f |:
+edef gage | dedB GABG | ABAF DFAF GABG ddBd |
+edef gage | dedB GABG | ABAF DFAF |1 GGBd g3f :|2 GGBd g3D |]
+
+X:174
+T:Reel des quatre patates
+C:Richard Forest
+Z:robin.beech@mcgill.ca
+S:Domino - Pris au jeu
+M:4/4
+L:1/8
+K:D
+DFAD FADF | EDEF GFED | CEA,C EA,CE | DFAF BFAF | 
+DFAD FADF | EDEF GFED | CEA,C EA,CE | DFAF d4 ::
+DFAd B2ed | cage fdAF | DFAd B2e2 | c2e2 cdeF | 
+DFAd B2ed | cage fdAF | DFAd B2ed | cABc d4 :|
+
+X:175
+T:Gigue de paroissiens
+Z:robin.beech@mcgill.ca
+S:mustrad
+M:6/8
+L:1/8
+K:D
+A | AFA dfa | agf efg | fdf fed | cee ecA | 
+AFA dfa | agf efg | afd gec |  edc d2 ::
+D | DFA dcB | ABG  FAF | DFA DFA | A,CE A,CE | 
+DFA dcB | ABG FAd | fef gec | edc d2 :| 
+
+X:176
+T:Quadrilles des Montagnards Laurentiens
+S:David Boulanger - Vices et Versa
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+f2f&gt;f ff2A | Bcde dcBA | g2g&gt;g gg2A | Bcde dcBA | 
+f2f&gt;f ff2A | Bcdc e2B2 | e&gt;dcB BAa&gt;f | gecA d/f/e/c/d2 ::
+e/e/c/e/ ac e3c/d/ | cBBB/c/ BAAe/f/ | e/e/c/e/ ac e3c/d/ | cBBB/c/ BAAe/f/ | 
+e/e/c/e/ ac e3c/d/ | cBBB/c/ BAAe/f/ | e/e/c/e/ ac e3c/d/ | cBBB/c/ | BAA&gt;A B/c/d/e/ |]
+
+X:177
+T:Galope du lac St-Charles
+Z:robin.beech@mcgill.ca
+S:Domino - pris au jeu
+M:4/4
+L:1/8
+K:D
+d2Ad f3e | dfba aafd | ceAc eece | defg affe |
+d2Ad f3e | dfba aafd | ceAc eAce |1 dfec dffe :|2 dfec dz2A |:
+B2c2 d3d | baaa f2ed | ceAc e2ec | defg afdA | 
+B2c2 d3d | baaa f2ed | ceAc e2ce |1 dfec dz2A :|2 dfec d2B2 |:
+Adf2 f2f2 | f2ba aafd | Aee2 e2e2 | e2ba aafd  |
+Adf2 f2f2 | f2ba aafd | Aee2 e2e2 | dfec d2B2 :|
+
+X:178
+T:reel Robin
+Z:robin.beech@mcgill.ca
+S:Veronique Plasse et Jean Desrochers Vices et Versa
+M:4/4
+L:1/8
+K:A
+E2F2 G2 |: A3c B2A2 | c3c BAFG | A3c B2A2 | c4 cBcd | e3f edcd | 
+B3B BAGA |1 B2d2 d2c2 | c3c BAFG :|2 B2d2 c2B2 | A3a faea |:
+faea faea | b3b fbeb | fbeb afef | e3f afdf | e3f ecAc |
+B3c BAGA |1 B2d2 d2c2 | c3a faea :|2 B2d2 c2B2 | A2E2F2G2 |]
+
+X:179
+T:reel du Combat
+C:Marc Maziade
+Z:robin.beech@mcgill.ca
+S:Qu\'ebec Folklore vol XXXI, no 1, Janvier-F\'evrier 2012
+L:1/16
+M:2/4
+K:Ddor
+D2DF EFAG | FEDF EGEC | D2DF EFGA | BcBG AFEF |
+D2DF EFAG | FEDF EGEC | D2F EFGA |1 BcBG [A2e2][A2e2] :|2 BcBG A2Ac |:
+d2dg fedf | edce dABc | A2dg fedf | ecAc efec | d2dg fedf |1 edce dABc | A2dg fedf | ecAc d2d2 :|2 edce dABd | cBAc BAGB | AGFA GFEF |]
+
+X:180
+T:Le brandy
+C:Phillipe Bruneau
+Z:robin.beech@mcgill.ca
+S:Gaston Nolet - SPTDQ 2012
+M:4/4
+L:1/8
+K:D
+dAcA dAFG AAFA | dedc BGEF GABc | dAcA dAFG AAFA |1  dedc BGEF GABc :|2 dedc BGEF GBAF |: 
+DFFD AFDF GBAF | DFFD CDEF GBAF | DFFD AFDF GBAF |1 DFFD CDEF GBAF :|2 DFFD CDEF GABc |: 
+d2de dAFA GBAc | dAFA G2EF GAFA | dAFA dAFA GBAc | dAFA eAEF GAFA | 
+dAFA dAFA GBAc | ddcd BGEF GAFA | dAFA dAFA GBAc | dAFA eBBc dBec | 
+(3cecAc eABc dBec | (3cecAc BABc dBec |(3cecAc eABc dBec | (3cecAc BcEF GEAF ||
+AFDF ADEF GBAF | AFDF EDEF GBAF | AFDF ADEF GBAF | AFDF EDEF GBAF |:
+DFFD AFDF GBAF | DFFD CDEF GBAF | DFFD AFDF GBAF |1 DFFD CDEF GBAF :|2 DFFD CDEF GABc |: 
+
+X:181
+T:Gigue de Terrebonne
+C:Alfred Montmarquette
+S:Laurence Beaudry
+Z:robin.beech@mcgill.ca
+M:2/4
+L:1/16
+K:D
+d2cd BAFA | d2cd eABc | d2cd BAFA | GBAG FDDA |
+d2cd BAFA | d2cd eABc | d2cd BAFA |1 fdec d3A :|2 fdec d3e |:
+f2fa gfed | fdfd Bcde | f2fa gfed | cdeg fdde |
+f2fa gfed | fdfd Bcde | f2fa gfed |1 cABc d3e :| cABc d3A |] 
+
+X:182
+T:La galope de Baie St-Paul
+S:Laurence Beaudry
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+DEFG A2FA | d2F2 A4 | f2ed c2A2 | BABc B2A2|
+DEFG A2FA | d2F2 A4 | f2ed c2A2 | BABc d4 ::
+Acde f2ed | e2f2 g4 | BABc B2AG | FGAB A4 |
+Acde f2ed | e2f2 g4 | BABc B2A2 | BABc d4 :|
+
+X:183
+T:Reel Sainte Louise
+S:Laurence Beaudry
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+f4 edeg | fafd Adfd | eece Acec | dcde fdAd | 
+f4 edeg | fafd Adfd | eece Acec |1 dfec d2Ad :|2 dfec d2ef |:
+gbge Aceg | fafd Adfd | eece Acec | dcde f2ef |
+gbge Aceg | fafd Adfd | eece Acec | dfec d2ef :|
+
+X:184
+T:Reel Andr\'e Alain
+S:Laurence Beaudry
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+DFAF DGBG | Aceg fdAF | DFAF DGBG | DFAF E2E2 |
+DFAF DGBG | Aceg fddf  | g2f2 edeg | fdd2 ::
+efgf edcd | efea aaa2 | efg2 f2ed | egf2 d2d2 :|
+
+X:185
+T:Gigue Andr\'e Alain
+S:Laurence Beaudry
+Z:robin.beech@mcgill.ca
+M:6/8
+L:1/8
+K:D
+DFA DFA | dcB B2A | DFA DFA | GFG E2E |
+DFA DFA | dcB B2A | Ace Ace |gfe d3 ::
+fef def | gfg efg | afd edc | B2A A2e |
+fef def | gfg efg | afd edc |1 ABc d2e :|2 ABc d3 |]
+
+X:186
+T:Le quadrille Beauharnois
+T:La gigue du touriste
+S:Laurence Beaudry
+Z:robin.beech@mcgill.ca
+M:6/8
+L:1/8
+K:C
+e |:gec cBc | dBG G2F | AFG ABc | edc d2g |
+gec cBc | dBG G2F | EFG ABc | dcB c2e ::
+gec c2a | age c2e | gec cBc | dBG G2g |
+gec c2a | age c2e | gec BAB | c3c'2e :|
+
+X:187
+T:Gigue des capuchons
+S:Laurence Beaudry
+Z:robin.beech@mcgill.ca
+M:6/8
+L:1/8
+K:D
+faa afa| gfe d2e | faf ede |1 fdf efg :|2 fdd d2F |:
+A3 G3 | FAd fed | cBc edc |1 dfe dcB :|2 dfe d3 |]
+
+X:188
+T:Hommage \`a Philippe Bruneau
+C:Gilles Lozier
+S:Laurence Beaudry
+Z:robin.beech@mcgill.ca
+M:3/4
+L:1/8
+K:G
+GB dB eB | d2- dB GA | B2- BA (3BAG | ED D4 | E2 g2- ge | d2- dB GA | 
+B2- Be dB | BA A2- AD | GB dB eB | d2- dB GA | B2- BA (3BAG | ED D4 | 
+EG ce ga | bg d2- dB | cA D2A2 |1 G2- GD DG :|2 G4- GA |:
+Be ed ec | B2- BA (3GAB | Ac BA BG | E4 (3CDC | B,B B2A2 | B,A A2G2 |
+E2 G2- GA | B2- Bc BA | Be ed ec | B2- BA (3GAB | Ac BA BG | E4 F2 |
+GB dg ba | g2 e2- ec |1 B2- BB cB | e4- eA:|2 B2- BB cB | e4- eD |]
+
+X:189
+T:Reel de Bellechasse
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+d2fd cdec | defd A2dc | B2gf edcB | AaaA aABc | 
+d2fd cdec | defd A2dc | B2gf edcB | Afec d2 (3ABc ::
+f2fg fedc | BggB ggAc | e2ef edcB | AaaA a2Ad | 
+f2fg fedc | BggB g2Ac | e2ef edcB | Afec d2Ad :|
+
+X:190
+T:Valse Bernadette
+S:Gaston Nolet - SPTDQ 2012
+Z:robin.beech@mcgill.ca
+N:Still need to check the first part of the B
+M:3/4
+L:1/8
+K:D
+F2G2 |: A2AF AB | A2F2G2 | A2AF AB | A2F2E2 | D2 CD FA | d2B2d2 | c2-cB AF | G2E2F2 | 
+G2 GF GA | G2 E2F2 | G2 GF GA | G2- GG EC | A,C EF GA | cB AG FE | B4 cB| A2F2G2 | 
+A2AF AB | A2F2G2 | A2 AF AB | A2 F2 E2 | D2CD FA | d2 cd ed | B2 GB DG |
+B2-B GB | e4fe | e2d2B2 | A2FA df | a2A2-AB | c2B2-BA | ag fg Bc | d2AdFA |1 D2F2G2 :|2 D4GB |:
+d4B2 | e4B2 | d2Bd GB | d2 Bd ef | g4g2 | e2g2-ge | f6 | f6 |
+e4ee | e2f2g2 | f4f2 | f4e2 | d4d2 | d2e2f2 | e4B2| d6 | 
+d4 B2 | e4 B2 | d2Bd GB | dd Bd ef | g6 | g2fg ag | e6 | e2- ed ef | 
+g6 | g2 fg ag | d2 Bd gb | d'b gd' bg | a2- ab ag | f2 ed ef | ge dG Bd |1 g2B2 GB :|1 g2F2G2 |]
+
+X:191
+T:La grande gigue simple
+Z:robin.beech@mcgill.ca
+S:Gaston Nolet - SPTDQ 2012
+M:3/4
+L:1/16
+K:D
+A,DDE FDED EGFD | A,DDE FDEB AGFD | A,DDE FDED EGFD |1 A,DDE FDEB AGFD  :|2 
+A,DDE FDEB AGFA || dfed ceAc e2ec | dfed cedB BAFA | dfed ceAc e2ec | defg afdB AAFA |
+dfed ceAc e2ec | dfed cedB BAFA | dfed ceAc e2ec | defg afdf gfec | 
+defg afdf gfec | defg afdf gfec | defg afdf gfec | defg afdB AGFD |]
+
+X:192
+T:Reel de Louis Gagnon
+S:Gaston Nolet - SPTDQ 2012
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:G 
+G2Bd g2fg | agfa gedB | G2Bd gedB | ABAF DFAF |
+G2Bd g2fg | agfa gedB | GABd gedB |1 ABAF GDEF :|2 ABAF G3D:
+DEGA BGAF | GAB^c dedB | GBge dBGA | BGAB AFDF |
+DEGA BGAF | GAB^c dedB | GBge dBGA |1 BGAF G3D :|2 BGAF GDEF |]
+
+X:193
+T:Hommage \`a Pitou Boudreault
+S:Gaston Nolet - SPTDQ
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+FDDD DDEF | GEEE E2EF | GECE A,CEC | DFAB AFDE |
+FDDD DDEF | GEEE E2EF | GECE A,CEF |1 GABc d2DE :|2 GABc d2zc |: 
+dedc BcdB | ABAF GFEG | FDDD A,DDD | FGAF GECE |
+dedc BcdB | ABAF GFEG | FDDD A,DDD | FGAF ECA,C ::
+dcdf edeg | fefa gfga | aDDD A,DDD | fafd gecA | 
+dcdf edeg | fefa gfga | aDDD A,DDD | fafd gecA ::
+afeF DFA,D | afeF DFA,D |  afeF DFA,D | af df ecBA | 
+afeF DFA,D | afeF DFA,D |  afeF DFA,D | af df ecBA :| 
+
+X:194
+T:Un air trompeur
+C:Richard Forest
+S:Gaston Nolet - SPTDQ 2012
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+AdAd FEDF | EDFA d2cd | eAgA fAgA | edAF G2FG | 
+AdAd FEDF | EDFA d2cd | eAgA fAgA | ecAc d2FG ::
+Bcde dBGB | cdef ecAc | Bcde dBGB | cAFA DFAd |
+Bcde dBGB | cdef ecAc | Bcde dBGB | AFDF G4 :| 
+
+X:195
+T:Reel Anne Marie
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:A
+A3A c2Ac | eaga f2ec | degf edcB | Adfd ede2 |
+A3A c2Ac | eaga f2ec | degf edcB | AcBG A4 ::
+B3B BcB2 | AAce g2fg | afgd fgf2 | fedf e2cA |
+B3B BcB2 | AAce g2fg | afgd fgf2 | fedf e2cA :| 
+
+X:196
+T:Marche de Thomas Pomerleau 1
+Z:robin.beech@mcgill.ca
+S:T\^ete de violon
+M:2/4
+L:1/4
+K:D
+(3D/E/F/ | GA | FD | ED/C/ | DE/F/ | GA | GB | G/A/B/G/ | D (3D/E/F/ |
+GA | FD | ED/C/ | DE/F/ | GA | GB | G2- | G ::
+(3G/A/B/ | =c&gt;c | BB | BA/G/ | AA/B/ | AD | GA | BA/G/ | AA/B/ |
+=c&gt;c | BB | BA/G/ | AA/B/ | AD | GB | G2 | G :|
+
+X:197
+T:Reel Iroquois
+S:Gaston Nolet - SPTDQ 2012
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+FDDD FDAF | GEEE GEed | cBAG FABc | dcde f2AG |
+FDDD FDAF | GEEE GEed | cBAG FABc |1 dfec d2AG :|2 dfec d3F |:
+F3G A2f2 | ddde d2cB | A2d2 dcde | d2cB c2B2 |
+AAAB c2d2 | e4- ea2a |1 a3g BBgg | (3fff (3dfd (3cdc B2 :|2 a3g B2c2 | dcde d2AG |]
+
+X:198
+T:Le pommeau 1
+C:Alex deGrosbois-Garand
+S:Genticorum - Bibornoise
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:A
+c3B BAGB | AEEE EGAB | cBAc BAGB | AGE2EGAB |
+c3B BAGB | AEEE EGAB | d2Bd cBAc | BGA2 EABc ::
+d3d cBAc | BFFF FABc | dcBd cBAc | BAB2- BABc |
+d3d cBAc | BFFF FABc | dcBd cBAc | BGA2 EABc :|
+
+X:199
+T:Golden Colorado
+C:Becky Tracy
+S:La Grande Rencontre 2012
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+DFAc | d3d- ddfd | cdec d2A2 | B3B- BBdB | AFDF E2DE | 
+DFAc | d3d- ddfd | cdec d2A2 | B3B- BBdB |1 AFEF D3E :|2 AFEF D3F |:
+M:3/4
+AFDF E2EF EFDF | AFDF G2EF D3F | AFDF E2EF EFDF | AFDF G2EF D3F |
+AFDF E2EF EFDF | AFDF E2EF D3F | AFDF E2EF EFDF | AFDF G2EF D3F |]
+
+X:200
+T:Reel des p'tits-minous
+S:Marcel Messervier
+Z:robin.beech@mcgill.ca
+M:2/4
+L:1/16
+K:G
+def |: g2B2d2G2 | B2D2 G3B | A2FA DFAF | GABG ddef |
+g2B2d2G2 | B2D2 G3B | A2FA DFAF |1 GBAF Gdef :|2 GBAF G2A2 |:
+B2BA G2B2 | dcde d2B2 | ABAG FDFA | dcde d2B2 |
+B2BA G2gf | edef e4 | d2fe ddBA | GGBd g2g2 :|
+
+X:201
+T:Unknown
+S:Yann Falquet
+Z:robin.beech@mcgill.ca
+R:reel
+M:4/4
+L:1/8
+K:D
+D2FD EDFD | A,DFD GDFD | E2CE A,ECE | A,CEG FDEC |
+D2FD EDFD | A,DFD GDFD | E2CE A,CEF | GABc d2dc |1 dBAF :|2 dAFA |:
+d3d dcBA | e3e efed | cAAA ABAG | FDEG FDDD |
+d3d dcBA | e3e efed | c2ec fcec |1 dfec dAFA :|2 dfec dBAF |]
+
+X:202
+T:Reel \`a Jules Verret
+S:Yann Falquet
+Z:robin.beech@mcgill.ca
+R:reel
+M:4/4
+L:1/8
+K:D
+fdAd fdAd | gdBd gdBd | Adfd ceec | defd A3B | AFAd |
+fdAd fdAd | gdBd gdBd | Adfd ceec |1 dfec d3B | AFAd :|2 dfec d3B |:
+ea2a g2f2 | ea2f ecAc | ea2a g2fg | afge fdcd |
+ea2a g2f2 | ea2f ecAc | ea2a g2fg | afge fdcd |
+ea2a g2f2 | ea2f ecAc | ea2a g2fg | afge fdcd |]
+
+X:203
+T:Reel A Polo
+C:Richard Forest
+Z:Etienne Laurin
+M:4/4
+L:1/8
+R:reel
+K:D
+|: BEE2 DEAE | FGFE DEFA | B3c dcBA | GBAG F2GA |
+   BEE2 DEAE | FGFE DEFA | B3c dcBA | BcdB edcd :|
+K:A
+|: eAce Acea | fecA E2Bc | dBeB dBBd | cBAc B2cd|
+   eAce Acea | fecA E2Bc | dBe2 efec |1 dBGB A2cd :|2 dBGB A2dc |]
+
+X:204
+T:le Tourment
+C:Jean-Paul Loyer
+S:Marc-Antoine B\'erube
+Z:robin.beech@mcgill.ca
+M:6/8
+L:1/8
+K:G
+E3 EFG | DGF GAB | d2d- dcB | cBA BAG |
+E3 EFG | DGF GAB | dcB cBA |1 DGF G2F :|2 DGF G3 |:
+GFG AGA | Bdc BAG | E2c cBc | d3 def | g3 d3 |
+e3 B3 | cBA BAG |1 AGF DEF :|2 AGF G2F |]
+
+X:205
+T:Valse Westphalia
+S:repertoire de Andy Dejarlis
+L:1/4
+M:3/4
+K:Dmaj
+A, | D2E | F2B | A3- | A2A, | D2E | F2G | E3- | E2D | C2E | G2d | c3- | c2 (3B/c/B/ | Ac (3B/c/B/ | AGE |1 F3- | F2 :|2 D3- | D3 |:
+d3 | c3 | Bc&gt;d | F3 | F E&gt;D | FED | G3- | G3 | B3- | B3 | Bcd | c2 (3B/c/B/ | Ac (3B/c/B/ | AGE |1 F3- | F3 :|2 D3- | D3 |]
+
+X:206
+T:6/8 Andr\'e \`a Toto
+S:Marie-Pierre Lecault au Vices et Versa 2013
+Z:robin.beech@mcgill.ca
+M:6/8
+L:1/8
+K:D
+fef d2B | AFA DFA | fed g2f | ecd e2a |
+fef d2B | AFA DFA | Bcd eag |1 fdc d2g :|2 fdc d2e |:
+fga fga | fga afd | efg efg |\ 
+M:9/8
+efg fef d2e | 
+M:6/8
+fga fga | fga afd |\
+M:9/8
+efg aba a2g :|
+
+X:207
+T:L'alambis
+S:Entreloup
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+e3e- eede | f2ef edcd | B2de d2Bd | g2f2 efed |
+e3e- eede | f2ef edcd | g2f2 efed |1 BAGB A4 :|2 BAGB A3B |:
+BAGB | d3e dBAB | G3B BAGB | d3e dBAG | A3B BAGB |
+d3e dBAB | G3B BAGB | g2f2 efed | BAGB A3B :|
+
+X:208
+T:La gigue du sans travail
+N:Source: Isidore Soucy
+Z:Patrice Boucher
+M:4/4
+L:1/8
+K:D
+de |: fdAF DFAF | DFBF A2ef | gfed cAce | b2a2 a2de |
+fdAF DFAF | DFBF A2ef | gfed cABc |1 dfec dcde :|2 dfec d2de |:
+f2f2 g2g2 | a4 a2fa | gfed cAce | b2a2 a2de | 
+f2f2 g2g2 | a4 a2fa | gfed cAce |1 dfec d2de :|2 dfec dcde |]
+
+X:209
+T:Valse du coq
+N:r\'epertoire de Joseph Allard
+S:Laurence Beaudry
+Z:robin.beech@mcgill.ca
+M:3/4
+L:1/8
+K:D
+A |:d3c de | f2d2 FG| A2B2F2 | A2GFE2 | e3d e2f2|
+gf ed cB |1 A2B2G2 | G2F2- FA :|2 A2B2c2 | d6 |:
+fgf2d2 | fgf2d2 | fga2g2 | f2e4 | efe2c2 | 
+efe2c2 | efg2f2 |1 e2f4 :|2 e2d4 :|
+
+X:210
+T:Gigue des patriotes
+C:Christine Fortin
+Z:Laurence Beaudry
+M:6/8
+L:1/8
+K:Em
+EGB e2e | gfd e2B | cBA G2A | Bee Bee |
+EGB e2e | gfd e2B | cBA G2F | E6 ::
+ABc BAG | FGA Bee | ABc BAG | FBB FBB |
+ABc BAG | FGA B2e | g2f e2d | e3 e3 :|
+
+X:211
+T:l'Air mignonne
+C:Simon Riopel
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:A
+c3e cBAB | c3e cBAc | F3A EEAc | BAGB AEAB |
+c3e cBAB | c3e cBAc | F3A EEAc | BAGB AAce ::
+f3a fece | f3a fecA | F3A EEAc | BAGB AAce |
+f3a fece | f3a fecA | F3A EEAc | BAGB AEAB :|
+
+X:212
+T:reel d'Ariane
+C:Julien Despr\'es
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:Dmix
+DAAG ABcA | d3e fdfa | gedc A3B | cAAd A2cA |1 GEGA D2z2 :|2 GEGA D2de |:
+fddg eefd | cAAB c3A | GEEc- cBAG | Adde f2de | 
+fddg eefd | cAAG c3A | GEEc- cBAG |1 Adde d2de :|2 Adde d2z2 |]
+
+X:213
+T:Valse des b\'eb\'es
+S:Laurence Beaudry
+Z:robin.beech@mcgill.ca
+M:3/4
+L:1/4
+K:D
+F3 | G2B | Af&gt;f | fdA | Ge&gt;e | ecA | Fd&gt;d | dAG |
+F3 | G2B | Af&gt;f | fdA | Ge&gt;e | B2c | df/a/f/ |1 d3 :|2 d2- d/a/ |:
+b3/a/f/d/ | A3/d/B/d/ | c2-c/a/ | b3/a/g/e/ | B3/c/B/A/ | f2- f/a/ |
+b3/a/f/d/ | A3/d/B/d/ | c2-c/a/ | b2a | gBc | d3/c/d/e/ |1 d2- d/a/ :|2 d3 |]
+
+X:214
+T:Valse de l'amiti\'e
+S:Laurence Beaudry
+Z:robin.beech@mcgill.ca
+M:3/4
+L:1/8
+K:D
+A&gt;d | f&gt;f f&gt;d A&gt;d | f&gt;f f&gt;d A&gt;d | a3- a&gt;f d&gt;f | e3 ABc |
+e&gt;e e&gt;A B&gt;c | e&gt;e e&gt;d e&gt;f | g2 f2 e2 |1 f3 dAd :|2 d6 |:
+
+X:
+T:Pordic
+C:Laurence Beaudry
+M:4/4
+L:1/8
+K:D
+dcdc B2F2 | dcde f4 | gfed c2b2 | abag f2e2 | 
+dcdc B2F2 | dcde f4 | gfed c2A2 |1 B4- B3c :|2 B4- B2GD |:
+E3F GFEA | D3E FED2 | CDEF G2B2 | edcB A4 |
+E3F GFEA | D3E FED2 | CDED C2A,2 |1 B,4 C2D2 :|2 B,8 |]
+
+X:216
+T:Reel de tante C\'ecile
+C:Jacques Joubert
+M:2/4
+L:1/16
+K:G
+(3DEF |: G2d2c2B2 | A4- A2B2 | dcBd cBAc | BAGB A2(3DEF |
+G2d2c2B2 | A4 -A2B2 | dcBd cBAG |1 FGAB G2(3DEF :|2 FGAB G2d2 |:
+g3f efge | d4- d2B2 | cBAc BAGB | AGFG A2d2 |
+g3f efge | d4- d2(3efg | dcBd cBAG | FGAB G2d2 :|
+
+X:217
+T:Hommage \`a Gilles Laprise
+C:Philippe Bruneau
+M:2/4
+L:1/16
+K:D
+a3a gfeg | fefg afdf | edef gecA | defg agfg |
+a3a gfeg | fefg afdf | edef gecA |1 dfec d2fg :|2 dfec d2AA |:
+Afed B3B | Bgfe a2aa | Afed cAce | ageg fafd | 
+Afed B3B | Bgfe a2aa | Afed cAce |1 agec d2dd :|2 agec d4 |]
+
+X:218
+T:repertoire les Fr\`eres Pigeon
+Z:robin.beech@mcgill.ca
+M:2/4
+L:1/16
+K:D
+Bcdc B2F2 | Bcdc B2F2 | B3c d3B | c2f2 c2f2 | Bcdc B2F2 | 
+Bcdc B2F2 | f3g f2e2 |1 d2c2 B2F2 :|2 d2c2 B2B2 |:
+A3a a2f2 | d6B2 | Affa f2d2 | A3A ABAF | G3e e2e2 | 
+e3e eAce |1 a2g2 c2BA | f2d2 c2B2 :|2 a3g B2c2 | dfec d2F2 :|
+
+X:219
+T:Reel Antoinette
+M:2/4
+L:1/16
+K:D
+A2f2 ffdf | Affd f2df | a3a afaa | bagf e2c2 | 
+A2g2 ggeg | Agge g2eg | a3a ageg | fgfe d3A | 
+A2f2 ffdf | Affd f2df | a3' afaa | b4 z2a2 | 
+gbbg b2ag | faaf a2A | Acef gece | dBAF D4 ::
+f3f d2ff | bbfb a3a | f2af d2f2 | aafa g2 zf |
+g3g f2e2 | c6b2 | a2aa ggeg | fgfe d2Ad | 
+f3f d2f2 | bbfb a3z | d3d cdcA | B6B2z2 | 
+g3g g2fe | dffd f3A | Acef gece | dBAF D4 :|
+
+X:220
+T:Forcalquier
+C:Mario Loiselle
+Z:robin.beech@mcgill.ca
+M:3/4
+L:1/8
+K:D
+zA, DE FA | FE DE FA | dc BA GF | ED B,4 |
+zA, DE FA | FE DE FA | dc BA GA | A6 ::
+zB, CD BA | C6 | zD EF dc | B2 A4 |
+zB, CD BA | D6 |1 zA GF GA | E6 :|2 zd cB ce A6 |]
+
+X:221
+T:Tune
+S:Yves Lambert Irish Melody, youtube
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+dafd caec | AfdA FdAF | GBdg fAdf | edcB AABc
+dafd caec | AfdA FdAF | GBdg fAce | d2ce dABc ::
+fdad d'afd | ecac c'aec | BGBd gfed | edcB ABce |
+dafd caec | AfdA FdAF | GBdg fAce | d2ce dABc :|
+
+X:222
+T:Le ruisseau francais
+C:Andr\'e Brunet
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:D
+de | f2d2e2d | cdec A2Bc | d2B2G2d2 | cdec A2de |
+f2a2e3d | cdec A2dc | B3d cdeg |1 fdec d2 :|2 fdec d2 |:
+(3DEF | GFGA B2Bd | cABc d2ef | g2e2 efed | cdec A2ag | 
+fgaf g2gf | efge afdc | Bged cage | fdecd2 :|
+
+X:223
+T:Reel St Antoine
+M:4/4
+L:1/8
+K:A
+a3a aece | a3a aece | agfe dcBA | GABc defg |
+a3a aece | a3a aece | agfe dcBA | GABG A4 ::
+c3c- cAce | dcBA GABc | d3d- dcdf | edcB AGAB |
+c3c- cAce | dcBA GABc | defg afed | cABG A4 :|
+
+X:224
+T:Le poteau blanc
+M:2/2
+L:1/8
+K:A
+AcBA c2cB | Aaga (3fgf e2 | AcBA c2BA | GBEB GBE2 | 
+AcBA c2cB | Aaga (3fgf ec | eagf edcB |1 Aaec A2E2 :|2 A2a2 A4 |:
+ABcd e2cA | Bcde f2ed | cefg a2gf | 
+eagf edcB |1 Aaga fdBG A2E2 :|2 A2a2 A2E2 |]
+
+X:225
+T:Reel de la Sauvagine
+C:Michel Bordeleau
+M:4/4
+L:1/8
+Z:robin.beech@mcgill.ca
+N:Play ABABAB CDCDCD
+K:A
+E2AE F2F2 | EFAB c3c | dcBd cBAc | BEef ecBA | 
+E2AE F2F2 | EFAB c3c | dcBd cBAc | ecAB A4 ::
+a2fa g2eg | f2df ecAc | d2df ecAc | dcBA B4 | 
+a2fa g2eg | f2df ecAc | d2df ecAc | dcBc BAA2 ::
+c2Ac c2Ac | c2Ac dcAc | B2GB B2GB B2GB | efec B2AB |
+c2Ac c2Ac | c2Ac dcAc | B2GB B2GB | efec B2AB ::
+f3f- fefd | a3a- afec | f3f- fecf | e2ef ecBA |
+f3f- fefd | a2a2 b2a2 | b2a2 f2ec | dfec BA3 ::
+B2GB EBGB | EBGB cdcA | B2GB EBGB | efec B2Ac |
+B2GB EBGB | EBGB cdcA | B2GB EBGB | efec B2Ac :| HB2 |]
+
+X:226
+T:The Woolen Cap
+C:Greg Brown
+S:CD "T\:uq" Greg Brown, Yann Falquet &amp; Nicolas Williams
+M:4/4
+L:1/8
+K:Edor
+B2A2G2F2 | EFGA B3c | d2c2B2AG | FGAB A3A | 
+B2A2G2F2 | EFGA B3c | d2c2B2AG | FGAB A3A ::
+AB2A B2B2 | AB2A B2B2 | Bc2B c2c2 | Bc2B c2c2 | 
+cd2c d2d2 | cd2c d2d2 | cdef ecBA |1 cdef ecBA :|2 gfeg fedc |]
+
+X:227
+T:6/8 Bourassa
+M:6/8
+L:1/8
+K:G
+BAB cBc | dgf edc | BAG DGB | cBc AFD |
+BAB cBc | dgf edc | BAG DGB |1 cAF G2D :|2 cAF G2F |:
+GEE EFE | CEE GFE | DA,D FDF | AFA dAF |
+GEE EFE | CEE GFE | DFA dAF |1 GEE E2F :|2 GEE E2D |]
+
+X:228
+T:Marche du qu\^eteux Pomerleau
+Z:robin.beech@mcgill.ca
+M:2/4
+L:1/8
+K:G
+(3D/E/F/ |: GA FD | ED/C/ DE/F/ | GA GB | G/A/B/G/ D (3D/E/F/ | 
+GA FD | ED/C/ D (3D/E/F/ | GA GB |1 G3 (3D/E/F/ :|2 G3 A/B/ |:
+cc BB | BA/G/ F/G/A/B/ | A (3D/E/F/ GA | BA/G/ AA/B/ | 
+cc BB | BA/G/ F/G/A/B/ | A (3D/E/F/ GB |1 G3A/B/ :|2 G/A/B/G/ D (3D/E/F/ |] 
+
+X:229
+T:Reel \`a C\'edulie
+C:Louis Pitou Boudreault
+Z:gabie.letourneau@hotmail.ca 
+M:4/4 
+L:1/8 
+R:reel 
+K:F
+cB |:AF (3FFF AFAF | CFAF GABc | ddBd cBAc | BAGB AFcB | 
+AF (3FFF CFAF | GABc ddBd | cBAc Bdgf |1 ecde f2cB :|2 [M:2/4] ecde ||
+[M:4/4] |:f2cf Afcf | Afag fedc | dg (3ggg dgeg | dgeg fedc | de f2 (3ccc Ac | 
+agfe dcBA |1 GABc dfeg :|2GABc dfeg | [M:2/4] f2cB |]
+
+X:230
+T:Louis Cyr
+M:4/4
+L:1/8
+C:Jean-Claude Mirandette
+K:G
+G,2G,B, D2B,D | EDEF G2GA | BAGB AGFD | EDEF FEB,D |
+G,2G,B, D2B,D | EDEF G2GA | BAGB AGFD |1 EDEF G2DB,  :|2 EDEF G2GA |:
+BAGB A2GA | BAGB A2AB | cBAc B2AB | cABG A2GA |
+BAGB A2GA | BAGB AGFD | E3E- EFF2 | F2E2 E2GA :|
+
+X:231
+T:Gigue du sucre
+M:6/8
+L:1/8
+K:G
+D2G D2G | DGA B3 | cBc ABc |e2d B2G| D2G D2G | DGA B3 | cBc DEF | GBA G3 ::
+g3 f3 | ece d3 | cBc ABc | e2d B2d| g3 fgf | efe d3 | cBc DEF | GBA G3 :|
+
+X:241
+T:Reel des Bretelles
+T:Reel de Longueuil
+S:Repertoire d'Isidore Soucy
+Z:robin.beech@mcgill.ca
+M:4/4
+L:1/8
+K:A
+a2A2 A2cA | D2A2 Acec | d2B2 B2BA | GABc defg |
+a2A2 A2cA | D2A2 Acec | defg afed | cABG A4 ::
+A,2A2 C2A2 | A,2Ac BAGF | E2e2 G2e2 | E2eg fecB |
+A,2A2 C2A2 | A,2Ac BAGF | E2e2 G2e2 | edcB A4 :|
+

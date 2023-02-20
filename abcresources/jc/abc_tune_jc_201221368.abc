@@ -1,0 +1,12 @@
+X:47
+T:Jefferson and Liberty
+M:6/8
+Q:1/8=300
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+!f! B/c/|d2B B^AB|F2B Bcd|c2A Acd|ecA ABc|d2B BAB|F2B B2f|fed cBc|F2B B2::
+!ff!d|B2c d2e|f2g a3|f2g a2f|ecA A2F|B2c d2e|fga b3|fed cBc|F2B B2:|

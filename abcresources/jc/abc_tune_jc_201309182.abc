@@ -1,0 +1,28 @@
+X: 1
+T: the Merry Christmas
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 3rd part has a begin-repeat but no end-repeat.
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/5/50/IMSLP98359-PMLP202128-walsh_caledonian_country_dance_vol2.1.pdf p.45 #305
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:45 #305
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: c2 ((3cde) d2B2 | ABcA B2F2 | c2 ((3cde) d2B2 | ABcA B4 :|
+|: B,2B,2 C2C2 | FGFE D2B,2 | c2 ((3cde) d2B2 | ABcA B4 :|
+|: bagf edcB | ABcA B2F2 | c2 ((3cde) d2B2 | ABcA B4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: z4 b4 | f4 d4 | e4 g4 | f4 B4 :|
+|: B2B2 c2c2 | dedc B4 | z4 b4 | f4 B4 :|
+|: d4 e4 | f4 d'4 | a4 b4 | f4 B4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Man turns the 2d Wo. with his Right hand .|
+%% Their Partner does the same :|
+%% First Cu. cast off and turn .|
+%% First Cu. leads thro' the 3d Cu. and foot it :|
+%% First and 2d Cu. Right and Left quite round.
+%%endtext

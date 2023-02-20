@@ -1,0 +1,52 @@
+%%scale 1.203
+X:1
+T:Auld Lang Syne (Modern Version)
+C:Traditional
+O:Scotland
+M:4/4
+L:1/8
+K:D
+V:1 name="Melody" clef=treble
+|A,2|:"D""^Verses"D3 D D2 F2|"A"E3 D E2 F2
+w:1Should auld ac-quain-tance be for-got, and
+w:2We two hae run a-bout the braes, and
+w:3We two hae paid-elt in the burn, frae
+w:4And here's a hand, my trus-ty fiere, and
+w:5And sure-ly ye'll be your pint-stoup, and
+|"D"D3 D F2 A2|"G"B6 B2
+w:nev-er brought to mind? Should
+w:pu'd the go-wans fine, We've
+w:morn-in sun till dine, But
+w:gis a hand o' thine, We'll
+w:sure-ly I'll be mine, We'll
+|"D"A3 F F2 D2|"A"E3 D E2 F2
+w:auld ac-quain-tance be for-got, In
+w:wan-dered mony a wea-ry foot, sin'
+w:seas be-tween us braid hae roared, sin'
+w:tak' a richt gude wil-lie waught, For
+w:take a cup of kind-ness yet, for
+|"G"D3 B, B,2 A,2|"D"D6||
+w:days of auld lang syne?
+w:auld_ lang_ syne.
+w:auld_ lang_ syne.
+w:auld_ lang_ syne.
+w:sake of auld lang syne.
+V:2 name="Harmony" clef=treble
+|a2|:a,3 a, a,2 d2|c3 d c2 c2
+|A3 A d2 d2|d6 d2
+|d3 d d2 d2|c3 d c2 d2
+|B3 G G2 G2|F6||
+V:1 name="Melody" clef=treble
+|"^Refrain - FASTER last time"B2|"D"A3 F F2 D2|"A"E3 D E2 B2
+w:For auld_ lang_ syne my dear for
+|"D"A3 F F2 A2|"G"B6 B2
+w:auld_ lang_ syne. We'll
+|"D"A3 F F2 D2|"A"E3 D E2 F2
+w:tak' a cup o' kind-ness yet for
+|"G"D3 B, B,2 A,2|"D"D6||
+w:auld_ lang_ syne.
+V:2 name="Harmony" clef=treble
+|d2|d4 d4|c3 B c2 g2
+|f3 d d4|d6 d2
+|d3 d d2 A2|A3 A A2 ^A2
+|B3 F G4|F6||

@@ -1,0 +1,24 @@
+X: 1
+T:Gaelforce Wind "CYMRU"
+M:6/8
+L:1/8
+%Q:80
+C:R Mathieson
+S:.../corneymusers/orig/GAELFORC.ABC
+R:Jig
+K:HP
+|: |\
+afd {g}Gdf | g{a}fg {a}B{G}Bd | {g}cea gec | {gde}dcd {gfg}f2d |\
+afd {g}Adf | g{a}fg {g}c{G}Bd | {g}ca{g}a gec | {g}Gd{c}d {gde}d3 :|
+|: G |\
+{g}da{g}a {g}afd | {g}cea G2c | {g}Bdg {a}gdB | {g}GaB aca |\
+da{g}a    {g}afd | {g}cea A2c | {g}Bdg {a}adB | {g}AaB aca :|
+|: e |\
+fe{g}f afd    | G{g}Bg{g} B2{G}B | {gef}ece g{a}B{d}c | {g}daf {gf}g2e |\
+afd {g}AB{G}A | gdB {g}G2d | {g}ca{g}a gec | {g}Ad{g}d {gde}d2 :|
+A |\
+{g}da{g}a {g}afd | {g}cad aea | Bdg {a}gdB | {g}Gac aca |\
+da{g}a {g}afd | {g}cea A2d2 | {g}ca{g}a gec | {g}Ad{c}d {gde}d2e |
+%
+{g}fa{g}a {g}afd | {g}ca{g}a fad | {g}cad aea | fa{g}a {g}afd |\
+{g}fa{g}a {g}afd | {g}cea A2d | {g}ca{g}a gec | {g}Ad{c}d {gde}d2 |]

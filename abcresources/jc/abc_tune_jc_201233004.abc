@@ -1,0 +1,28 @@
+X: 181
+T: THE TWEEDDALE CLUB
+C: NATH. GOW
+R: Strathspey
+B: Glen Collection p.18 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: C
+%
+V: 1
+c |\
+G<Ec>G A>GEc | G<EcE dDDc |[1 GEcG A>BcA GeEc D2C :|[2 GEcG A>Bca | gcfe d2c ||
+|: e/f/ |\
+gcg>e cgeg | ada>f d>ef>a |[1 gcge cgeg | (3faf (3ege d2c :|[2 geaf ecBG | AcEc TD2C |]
+%
+V: 2
+z |\
+c2[c'2g2] [c'2e2][c'2g2] | c2[c'2g2] G2[b2g2] |\
+[1 c2[g2e2] F2[f2c2] | [e2c2] [g2c2] [f2G2][ec] :|\
+[2 c2[g2e2] f2[c'2a2] | [e'2c'2g2][e'2c'2g2] [f'2d'2g2][e'c'] ||
+|: z |\
+c2[c'2g2] e2[c'2g2] | f2[f'2c'2] g2[d'2b2] |\
+[1 c2[c'2g2] e2[c'2g2] | [c'2f2][c'2g2] [b2g2][c'c] :|\
+[2 e2f2 g2G2 | [f2c2][g2c2] [f2G2][ec] |]

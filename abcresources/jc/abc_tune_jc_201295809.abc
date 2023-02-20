@@ -1,0 +1,68 @@
+
+X: 1
+T: Kate Dalrymple  #1   [A]
+T: Jinglin' Johnnie
+S: Atholl
+C: Trad
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: page from Concord Slow Scottish Session collection, handwritten by Barbara McOwen
+L: 1/8
+M: C|
+R: Reel
+K: A
+cB\
+|: "A"A2Ac "E7"B2Bc |  "A"A2Ac "E7"B2Bc | "A"A2ag "D"fedc | "E7"B2e2 "A"c2A2 :|
+[| "A"e2ef     edcd |  "A"e2a2     e2cd | "A"e2ef    edcd |  "A"e2a2    e2c2 |
+|  "D"d2fd  "A"c2ec | "Bm"B2Bc "E7"edcB | "A"A2ag "D"fedc | "E7"B2e2 "A"c2A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Kate Dalrymple  #1   [G]
+T: Jinglin' Johnnie
+S: Atholl
+C: Trad
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: page from Concord Slow Scottish Session collection, handwritten by Barbara McOwen
+L: 1/8
+M: C|
+R: Reel
+K: G
+BA\
+|: "G"G2GB "D7"A2AB |  "G"G2GB "D7"A2AB | "G"G2gf "C"edcB | "D7"A2d2 "G"B2G2 :|
+[| "G"d2de     dcBc |  "G"d2g2     d2Bc | "G"d2de    dcBc |  "G"d2g2    d2B2 |
+|  "C"c2ec  "G"B2dB | "Am"A2AB "D7"dcBA | "G"G2gf "C"edcB | "D7"A2d2 "G"B2G2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Kate Dalrymple  #2   [G]
+T: Jinglin' Johnnie
+S: Atholl
+C: Trad
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+%
+L: 1/8
+M: C|
+R: Reel
+K: G
+%
+|: "G"G2GB "D7"A2AB |  "G"G2GB "D7"A2AB | "G"G2gf "C"edcB | "D7"A2d2 "G"B2G2 :|
+[| "G"d2de     dcBc |  "G"d2g2     d2Bc | "G"d2de    dcBc |  "G"d2gf    edcB |
+|  "C"c2ec  "G"B2dB | "Am"A2AB "D7"c2BA | "G"G2gf "C"edcB | "D7"A2d2 "G"B2G2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Kate Dalrymple #2   [A]
+T: Jinglin' Johnnie
+S: Atholl
+C: Trad
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: C|
+R: Reel
+K: A
+|: "A"A2Ac "E7"B2Bc |  "A"A2Ac "E7"B2Bc | "A"A2ag "D"fedc | "E7"B2e2 "A"c2A2 :|
+[| "A"e2ef     edcd |  "A"e2a2     e2cd | "A"e2ef    edcd |  "A"e2ag    fedc |
+|  "D"d2fd  "A"c2ec | "Bm"B2Bc "E7"d2cB | "A"A2ag "D"fedc | "E7"B2e2 "A"c2A2 |]

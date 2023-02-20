@@ -1,0 +1,92 @@
+
+X: 1
+T: Valle Pogonishte   [Cm]
+O: Albania
+R: pogonishte
+P: I AA BC A BC
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: http://www.folkloretanznoten.de/VallePogonishte.pdf
+M: 4/4
+L: 1/8
+K: Cm
+% =  =  =  =  =  =  =  =  =  =
+"I"|\
+"Cm"C2 B,2 G,2 B,2 | C2 B,2 G,2 B,2 | C2 B,2 G,2 B,2 | C2 B,2 .C2 z2 ||
+"A"[|\
+"Cm"G,B, G,B, C2 CB, | "Bb"D2DC "Cm"CB, A,B, | G,B, G,B, C2 CB, | "Bb"D2 DC "Eb"E4 |
+"Fm"EF FF FE DC | "Gm"ED3- D4 | z2 DE DC CB, | "Cm"DC- C6 | z8 ||
+% - - - - -
+"B"|:\
+"Cm"z2 FG GG3 | "Bb"A2 B2 "Cm"(AG) G2 | "Ab"z2 EE EE3 | "Bb"(DE) (FE) "Cm"F2 (ED) |
+w: 1.~Sa here n\"e g\"e-zi-me mbli-*dhen nje-re-zi-a kur* fes-*toj-n\"e,
+w:    Hi-dhe val-len me nga-da-*l\"e, sy ze-za por-si* nje* ngja-l\"e,*
+"Gm"z2 DD DD3 |1 "Ab "EE3 "Bb"F2 F2 | "Cm"(A2 G2) G4- | G4 z4 :|2 "Ab"EE3 "Bb"F2 (FG) | "Cm"(EC3) C4- | C4 z4 ||
+w: 1.~po-go-nish-ten valle pre-fe-roj-*n\"e.*
+w:    kur ti lot cu-| | | | dit-(e) nj\"e me-*hal-*le.*
+% - - - - -
+"C"|:\
+"Cm"[GG][BG] [GG][BG] [cG] ([c2G2] [BG]) | "Bb"[dB] ([d2B2] [cG]) "Cm"[c4G4] |\
+"Cm"[GG][BG] [GG][BG] [cG] ([c2G2] [BG]) | "Bb"[dB] ([d2B2] [cc]) "Eb"[e4c4] |
+w: Dri-dhe tun-de sha-min* me lez-*et, si nje za-ne~e bu-kur* po me* ngjet,
+% - - - - -
+z "Fm"{e}f2 e d2 cc | "Gm"(e3d) (d3c | "Bb"B)z cd c3B | "Cm"d2 (dc- c4) :|["coda" G,B, G,B, .Cz z2 |]
+w: e bu-kur esh-te vall-*ja,** kur- ker-cen sor-kadh-ja.
+% =  =  =  =  =  =  =  =  =  =
+%%sep 2 2 300
+W:1.Sa here n\"e g\"ezime mblidhen njerezia kur festojn\"e, pogonishten valle preferojn\"e,
+W:hidhe vallen me ngadal\"e, sy zeza porsi nje ngjal\"e, kur ti lot cudit nj\"e mehalle.
+W:
+W:Refrain:
+W:    Dridhe tunde shamin me lezet, si nje zane e bukur po me ngjet,
+W:    E bukur eshte vallja, kur kercen sorkadhja.
+W:
+W:2.Valle e bukur dore per dore nusja por si lule bor\"e pogonishtja valle shekullor\"e,
+W:pogonishte valle e bukur e k\"ercen gjithe shqiperia nje tradite eshte kjo nga Cameria.
+% =  =  =  =  =  =  =  =  =  =
+
+%%sep 1 1 500
+
+X: 1
+T: Valle Pogonishte   [Dm]
+O: Albania
+R: pogonishte
+P: I AA BC A BC
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: http://www.folkloretanznoten.de/VallePogonishte.pdf
+M: 4/4
+L: 1/8
+K: Dm
+% =  =  =  =  =  =  =  =  =  =
+"I"|\
+"Dm"D2 C2 A,2 C2 | D2 C2 A,2 C2 | D2 C2 A,2 C2 | D2 C2 .D2 z2 ||
+"A"[|\
+"Dm"A,C A,C D2 DC | "C"E2ED "Dm"DC B,C | A,C A,C D2 DC | "C"E2 ED "F"F4 |
+"Gm"FG GG GF ED | "Am"FE3- E4 | z2 EF ED DC | "Dm"ED- D6 | z8 ||
+% - - - - -
+"B"|:\
+"Dm"z2 GA AA3 | "C"B2 c2 "Dm"(BA) A2 | "Bb"z2 FF FF3 | "C"(EF) (GF) "Dm"G2 (FE) |
+w: 1.~Sa here n\"e g\"e-zi-me mbli-*dhen nje-re-zi-a kur* fes-*toj-n\"e,
+w:    Hi-dhe val-len me nga-da-*l\"e, sy ze-za por-si* nje* ngja-l\"e,*
+"Cm"z2 EE EE3 |1 "Bb"FF3 "C"G2 G2 | "Dm"(B2 A2) A4- | A4 z4 :|2 "Bb"FF3 "C"G2 (GA) | "Dm"(FD3) D4- | D4 z4 ||
+w: 1.~po-go-nish-ten valle pre-fe-roj-*n\"e.*
+w:    kur ti lot cu-| | | | dit-(e) nj\"e me-*hal-*le.*
+% - - - - -
+"D"|:\
+"Dm"[AA][cA] [AA][cA] [dA] ([d2A2] [cA]) | "C"[ec] ([e2c2] [dA]) "Dm"[d4A4] |\
+"Dm"[AA][cA] [AA][cA] [dA] ([d2A2] [cA]) | "C"[ec] ([e2c2] [dd]) "F"[f4d4] |
+w: Dri-dhe tun-de sha-min* me lez-*et, si nje za-ne~e bu-kur* po me* ngjet,
+% - - - - -
+z "Gm"{f}g2 f e2 dd | "Am"(f3e) (e3d | "C"c)z de d3c | "Dm"e2 (ed- d4) :|["coda" A,C A,C .Dz z2 |]
+w: e bu-kur esh-te vall-*ja,** kur- ker-cen sor-kadh-ja.
+% =  =  =  =  =  =  =  =  =  =
+%%sep 2 2 300
+W:1.Sa here n\"e g\"ezime mblidhen njerezia kur festojn\"e, pogonishten valle preferojn\"e,
+W:hidhe vallen me ngadal\"e, sy zeza porsi nje ngjal\"e, kur ti lot cudit nj\"e mehalle.
+W:
+W:Refrain:
+W:    Dridhe tunde shamin me lezet, si nje zane e bukur po me ngjet,
+W:    E bukur eshte vallja, kur kercen sorkadhja.
+W:
+W:2.Valle e bukur dore per dore nusja por si lule bor\"e pogonishtja valle shekullor\"e,
+W:pogonishte valle e bukur e k\"ercen gjithe shqiperia nje tradite eshte kjo nga Cameria.
+% =  =  =  =  =  =  =  =  =  =

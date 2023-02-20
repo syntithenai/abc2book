@@ -1,0 +1,683 @@
+
+%%pagesize 28.00cm
+%%printtempo no
+
+X:1
+T:Billy Budd
+C:Roy Watrous, 1981
+M:2/4
+L:1/16
+Q:1/4=90
+K:A
+%%MIDI program 72
+%%MIDI transpose 8
+ec|A2A2 cecA|defg a2gf|eaec dfdB|cecA B2ec|A2A2 cecA|
+defg a2gf|eaec fdB=G|A2A2A2::cd|ecfc ecfc|ecaf e2cd|eaec dfdB|
+cecA B2cd|ecfc ecfc|ecaf e2cd|eaec fdB=G|A2A2A2:|]
+
+X:2
+T:Billy Bones
+C:Roy Watrous, 1976
+M:2/4
+L:1/16
+Q:1/4=90
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+A2|d2dc defd|efec A2A2|B2ba gfed|cdef egfe|d2dc defd|
+efec A2A2|B2ba gfed|cABc d2::fg|afdf afba|gece geag|fdAd fdgf|
+ecAc egfe|d2dc defd|efec A2A2|B2ba gfed|cABc d2:|]
+
+X:3
+T:Clapboard Hill
+C:Roy Watrous, 1968
+S:The Watrous Book, 1992
+M:6/8
+L:1/8
+Q:1/8=270
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A|ABA FAf|edB A2A|AFA faf|fed e2f|g2b gfe|fga f2d|
+efe dcB|A3-A2::A|TF2A Tf2d|Bcd A2A|TF2A Tf2a|fed e2f|
+g2b gfe|fga f2d|efe dcB|A3-A2::[K:A]c/d/|e>fe ecA|f2f fga|
+e>fe ecA|FAc B2c|A2A cBA|d2e f2a|e>fe cBA|efg a2:|]
+
+X:4
+T:Crown Point
+C:Roy Watrous, 1952
+S:The Watrous Book, 1992
+M:2/4
+L:1/16
+Q:1/4=90
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A2|d2d2 f2a2|gfed c2A2|d2de f2f2|edcB A2A2|d2f2 TA2e2|
+g2TA2 f2a2|gfed cABc|d2f2d2::z2|c2cd e2A2|e2ef g2A2|
+fa2f d2f2|edcB A2A2|d2f2 TA2e2|g2TA2 f2a2|gfed cABc|d2f2d2:|]
+
+X:5
+T:Drums and Guns
+C:Roy Watrous, 1947
+S:The Watrous Book, 1992
+M:2/4
+L:1/16
+Q:1/4=90
+K:Bm
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+F2|BFdF BFdF|Bcde f2de|fbag fede|f2fg fedc|BFdF BFdF|
+Bcde f2de|fbag fede|f2f2B2::z2|a2fg a2gf|Te3f g2ef|gAfA eAfA|
+gagf efdc|BFdF BFdF|Bcde f2de|fbag fede|f2f2B2:|
+
+X:6
+T:Drunken Bass Drummer
+C:Roy Watrous, 1959
+S:The Watrous Book, 1992
+M:2/4
+L:1/16
+Q:1/4=90
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A2|d2f2 e2g2|fa2f d4|cBcd e2A2|defg a2A2|dz2f ez fg|
+fgaf d2ef|gAfA eABc|d2f2 d2::dc|B2 Tf6|gAfA e2cd|eAeA fAaA|
+gagf efdc|Bz2c dz ef|gAfA e2fg afeg fedc|B6 fb:|]
+
+X:7
+T:Friggin' in the Riggin'
+C:Roy Watrous, 1952
+S:The Watrous Book, 1992
+M:6/8
+L:1/8
+Q:1/8=270
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+d|G2B dBG|efg a2b|gfe dBc|dgB A2B|G2B dBG|
+efg a2b|gfe dBc|daf g2::g|f2f fed|gbg d2g|
+faf ege|dfe dcA|G2B dBG|efg a2b|gfe dBc|daf g2:|]
+
+X:8
+T:Ike Bradley's Drum
+C:Roy Watrous, 1970
+S:The Watrous Book, 1992
+M:6/8
+L:1/8
+Q:1/8=270
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+.g2z g3|efg d3|GBd dBd|eag fef|.g2b g3|
+efg d3|GBd eag|fef g3::b2b g2g|efg d3|
+GBd dBd|efg a3|b2b Tg3|efg d3|GBd eag|fef g3:|]
+
+X:9
+T:The Black Pearl
+C:Roy Watrous, 1965
+S:The Watrous Book, 1992
+M:2/4
+L:1/16
+Q:1/4=90
+K:Bm
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+F2|B2f2 d2B2|f2B2 d2(3(dcB|A2)a2 e2c2|Aaec Aafd|B2f2 d2B2|f2B2 d2Tf2|
+efga gece|d2B2 B2::F2|BfdB fdBf|dBfd B2B2|Aaec aeca|
+ecde fedc|BFBd fFBd|fFBd f2f2|efga gece|d2B2 B2:|
+
+X:10
+T:Valley Forge
+C:Roy Watrous, 1948
+S:The Watrous Book, 1992
+M:C
+L:1/8
+Q:1/4=90
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A2|B4-Bg/f/ e/d/c/B/|A4 {ABA}FA df|Bb/a/ g/f/e/d/|c/d/e/f/ gc|d6:|
+cd|e2 e>e e2 A/c/e/g/|f2-fe d2 (3dfd|B2 c/d/e/f/ ge cB|A4-Aa/g/ f/e/d/c/|
+B4-Bg/f/ e/d/c/B/|A4 {ABA}FA df|Bb/a/ g/f/e/d/ c/d/e/f/ gc|d6 z2|]
+
+X:11
+T:Monmouth
+C:Roy Watrous, 1951
+S:The Watrous Book, 1992
+M:2/4
+L:1/16
+Q:1/4=90
+K:A
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+ec|A2a2 g2a2|baga e2c2|agaf ecAc|dcBA F2E2|A2a2 g2a2|baga e2c2|
+agaf ecAc|e2g2 a2::cd|ecAc ecAe|fdBf edA2|agaf ecAc|
+dcBA F2cd|ecAc ecAe|fdBf ecA2|agaf ecAc|e2g2 a2:|]
+
+X:12
+T:The Road Around the River
+C:Roy Watrous, 1984
+S:The Watrous Book, 1992
+M:2/4
+L:1/16
+Q:1/4=90
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+FG|A2FG A2Tf2|edcd e2fg|a2b2 a2gf|edcB AGFG|A2FG A2Tf2|
+edcd e2fg|abaf gecA|dfec d2::cd|e2A2 A2ag|fgef d2fg|
+abaf gfed|edcB AGFG|A2FG A2Tf2|edcd e2fg|abaf gecA|dfec d2:|]
+
+X:13
+T:McGowan's Motor Car
+C:Roy Watrous, 1979
+S:The Watrous Book, 1992
+M:2/4
+L:1/16
+Q:1/4=90
+K:A
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+ed|ceA2 A2cB|ABcd e2dc|dfB2 B2BA|GABc dfed|ceA2 A2cB|
+ABcd e2dc|dfBd ceAc|BdGB A2::cd|e2a2 a2gf|eaec d2Bc|
+dfdB cecA|BABc d2cd|e2a2 a2gf|eaec d2Bc|dfBd ceAc|
+BdGB A2::z2|{B}c2{B}c2 {B}c2{B}c2|fa2f agfe|{B}c2{B}c2 fa2f|agfe f4|
+a2a2 a2gf|eaec d2Bc|dfBd ceAc|BdGB A2:|]
+
+X:14
+T:Muster
+C:Roy Watrous
+S:The Watrous Book, 1992
+M:2/4
+L:1/16
+Q:1/4=90
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+d2|.g2gb agfe|(de)fg B2GA|B2Te2 dBGA|BGAB E2D2|G2gb agfe|
+defg B2GA|B2Te2 dBGA|.B2!tenuto!f2 .g2::B2|e3f g2f2|Te2B2 TB2E2|TE2B2 Te2b2|
+agfg e2:|[K:D]fe|d3e .d2A2|Bgfe d2cd|e3f .e2c2|Aagf e2de|fz g f ze dz|
+B2ef g2fg|a2A2 bagf|egfe d2:|]
+
+X:15
+T:Where E'er You Go
+C:Roy Watrous, 1986
+S:The Watrous Book, 1992
+M:3/4
+L:1/4
+Q:1/4=120
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A,|D2D|EFG|FA2-|A2D|GAB|A2E|F3-|F2A|B2B|
+c2B/c/|d2A|F2D|B2A|G2F|E3-|E2A,|D2D|EFG|FA2-|A2D|
+GAB|A2E|F3-|F2A|B2B|c2B/c/|d2A|B2G|FAA|GEC|D3-|D2z:|]
+W:The grass is green in the meadow
+W:The birds singing in the trees
+W:The rippling stream, like a young man's dream
+W:Flows gently to the sea.
+W:But you have gone from our valley
+W:My heart is so sad and low
+W:But where you are, whether near or far
+W:I'll love you wher e'er you go
+
+X:16
+T:Pretty Grace
+C:Roy Watrous, 1987
+S:The Watrous Book, 1992
+M:6/8
+L:1/8
+Q:1/8=270
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A|DFA EGB|Adf e2f|afd gec|def A2A|DFA EGB|
+Adf e2f|afd gec|dfe d2::z|b3 a3|gfe f2g|afd gec|def A3|
+b3 a3|gfe f2g|afd gec|dfe d2::z|Tf3 efe|def A2f|
+aAg fAe|def A2e|Tf3 efe|def A2f|afd gec|dfe d2:|]
+
+X:17
+T:Fog Bound
+C:Roy Watrous, 1987
+S:The Watrous Book, 1992
+M:2/4
+L:1/16
+Q:1/4=90
+K:A
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+cd|e2ef edcd|eagf e2Bc|dfdB cecA|BAGF E2cd|e2ef edcd|
+eagf e2Bc|dfed cBAG|A2A2 A2::e2|a2ag aece|=gfgd B2TA2|=GBd=g Acea|
+gagf e2Bc|dcde fazf|efec A2c2|dfed cBAG|A2A2 A2:|]
+
+X:18
+T:Trenton
+C:Roy Watrous, 1948
+S:The Watrous Book, 1992
+M:2/4
+L:1/16
+Q:1/4=90
+K:Bm
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+F2|TB3c dcde|fefg f2de|Tf3g fedc|BcdB c2F2|TB3c dcde|
+fefg f2ed|cafa eace|d2B2 B2::fg|afdf gecA|dcde f2dc|
+Bfcf dfcf|BcdB F2fg|afdf gecA|dcde f2ed|cafa eace|d2B2 B2:|]
+
+X:19
+T:The Village Idiot
+C:Roy Watrous, 1968
+C:(revised 1992)
+S:The Watrous Book, 1992
+M:6/8
+L:1/8
+Q:1/8=270
+K:Bm
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+B2Tf B2Tf|Bcd edc|B2 b/b/ bag|fga gfe|Tf2F Tf2F|Bdf b2f|
+efa gfe|Tf2F B3::Tf2F B>fb|Tf2F B>fb|eAf gAa|gAf eAd|
+Tf2F B>db|Tf2F B>db|eAf gAa|Tf2F B3::b2 b/b/ bag|fga gfe|
+f>ga g>fe|fed c2F|B2 b/b/ bag|fga gfe|Tf2F Tf2F|Bdf b3:|]
+
+X:20
+T:The Happy Fifer
+C:Roy Watrous, 1988
+S:The Watrous Book, 1992
+M:2/4
+L:1/16
+Q:1/4=90
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|:FG|A2fe d2cB|Aagf e2fg|azAg zfez|defd AGFG|
+A2fe d2cB|Aagf e2fg|abaf gecA|d6::ef|gAfA eAfA|gAfA e2fg|
+azAg zfez|defd AGFG|A2fe d2cB|Aagf e2fg|abaf gecA|d6:|
+
+X:21
+T:Skirmish at Little Harbor
+C:Roy Watrous, 1976
+S:The Watrous Book, 1992
+M:2/4
+L:1/16
+Q:1/4=90
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+FG|A2F2 A2f2|edcB A2FG|A2F2 Aagf|e4-e2fg|a2b2 a2gf|edcB A2fg|
+a2A2 gfe2|d6::FG|A2d2 Tf2gf|edcd e2fg|a2A2 bagf|edcB AGFG|
+A2d2 Tf2gf|edcd e2fg|a2A2 gfe2|d6::cd|e2A2 A2ag|fgef d2fe|
+dAeA fAgA|a4-a2fg|a2b2 a2gf|edcB A2fg|a2A2 gfe2|d6:|]
+
+X:22
+T:West Winds
+C:Roy Watrous, 1978
+S:The Watrous Book, 1992
+M:3/4
+L:1/4
+Q:1/4=120
+K:C
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+E/F/|G>AG|FED|CDE|A,2G,|C>B,C|EGc|AGE|D2E/F/|
+G>AG|FED|CDE|A,2G,|CEG|DFA|G>B,D|C2E|DFA|GBd|
+c>BA|G2E|ABc|cGE|A>GE|D2E|G>AG|FED|CDE|A,2G,|
+CEG|DFA|G>B,D|C3|]
+W:To the sea, to the sea, where the tides gently falling
+W:West away, west away, carry me home
+W:I must follow the voice of my love softly calling
+W:Blow ye winds westerly, westerly blow
+W:I followed my star to all lands near and far,
+W:West away, west away, carry me home
+W:To the land of the sun where the sweet waters flow
+W:Blow ye winds westerly, westerly blow
+W:
+W:I'll soon bid farewell to this land I know well
+W:West away, West away, carry me home
+W:For the nights are so cold and the days they grow old
+W:Blow ye winds westerly, westerly blow
+W:My days have grown weary, yet your love is near me
+W:West away, west away, carry me home
+W:To the green hills that bore me where she's waiting for me
+W:Blow ye winds westerly, westerly blow
+
+X:23
+T:Concord Bridge
+C:Roy Watrous, 1951
+S:The Watrous Book, 1992
+M:6/8
+L:1/8
+Q:1/8=270
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+z|A2A B2A|F3 Afe|d2A Bcd|e3 d2e|f2d g2e|afd bge|
+fed B2d|A3-A2::f|afd DFA|dAf daf|bge EGB|
+Acd e2d|Tf2d Bcd|e2g b2g|afd B2d|A3-A2:|]
+
+X:24
+T:Will O' the Wisp
+C:Roy Watrous
+S:The Watrous Book, 1992
+M:6/8
+L:1/8
+Q:1/8=270
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A|d2f afd|gab B2d|cea ABc|dfe cBA|d2f afd|gab B2d|
+ega Afe|d3-d2::A|TF2A dfd|eAe gfe|TD2A cde|dfe d2A|
+TF2TA Td2Tf|efg b2b|afd Afe|d3-d2::d|cAd eAf|gAf e2d|
+cea ABc|dAF D2d|cAd eAf|gAf e2d|cba gec|d3-d2:|]
+
+X:25
+T:Gargle Hooch
+C:Roy Watrous
+S:The Watrous Book, 1992
+M:6/8
+L:1/8
+Q:1/8=270
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+{DEF}G2B dBd|ege dBd|G2B dBd|egB A3|{DEF}G2B dBd|ege dga|
+.bz2 g3|dgf g3::z|f2f fga|gba ged|e2e dBc|dgB A3|
+{DEF}G2B dBd|ege dga|.bz2 g3|dgf g2:|g|fdg adb|gfe d2B|
+dgB dgB|dgB A3|{DEF}G2B dBd|ege dga|.bz2 g3|dgf g2:|]
+
+X:26
+T:The Jolly Brig 'Brigitta'
+C:Roy Watrous, 1986
+S:The Watrous Book, 1992
+M:2/4
+L:1/16
+Q:1/4=90
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A2AB AGFG|AFfe d3c|B2Bc BAGA|BGgf e2fg|aAgA fAeA|
+def2 A2A2|B2gf edce|d8::b2b2 a2fa|gfed cBAG|
+FAdf gfed|cdef e4|b2b2 a2fa|gfed cBAG|FAdf gece|d8:|]
+
+X:27
+T:Farewell New England Shores
+C:Roy Watrous, 1981
+S:The Watrous Book, 1992
+M:3/4
+L:1/4
+Q:1/4=120
+K:Bm
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+F|B2f|e2d|c>BA|B2F|Bdf|a^ge|f3-|ffa|
+b2b|a>gf|e2c|A2F|B2f|ecA|B3-B2z|]
+
+X:28
+T:Mace in the Face
+C:Roy Watrous1974
+S:The Watrous Book, 1992
+M:6/8
+L:1/8
+Q:1/8=270
+K:Edor
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+{FE}DFA EGB|Acd e2f|edc Bcd|AFD E2F|DFA EGB|
+Acd e2f|edc BAF|E3-E2::d|cAd eAf|gAf eAd|
+cde faf|e3 (A3{GFE}|D)FA EGB|Acd e2f|edc BAF|E3-E2:|]
+
+X:29
+T:The Wilderness
+C:Roy Watrous, 1972
+S:The Watrous Book, 1992
+M:2/4
+L:1/16
+Q:1/4=90
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+z2|{ABc}d2d2 d2cd|egfe d2cd|e2e2 eagf|edcB Agfe|d2d2 d2cd|egfe d2ef|
+gbag fedc|(3efg!beambr1!fe d2::cd|e2A2 a3g|fgef d2ef|g2B2 bagf|
+edcB Agfe|d2d2 d2cd|egfe d2ef|gbag fedc|(3efg!beambr1!fe d2:|]
+
+X:30
+T:Patriots
+C:Roy Watrous, 1950
+S:The Watrous Book, 1992
+M:2/4
+L:1/16
+Q:1/4=90
+K:Bm
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+Tf2B2 Bcde|Tf2B2 Bcdf|e2ef edcB|ABcd e2de|Tf2B2 Bcde|
+f2ga b2ag|fbag fede|Tf2B2 B4::b2bb b2ag|fefg afdA|a2aa a2gf|
+edcd e2de|Tf2B2 Bcde|f2ga b2ag|fbag fede|Tf2B2 B4:|]
+
+X:31
+T:The Captains Daughter
+T:(originally called "Germantown")
+C:Roy Watrous, 1959
+S:The Watrous Book, 1992
+M:6/8
+L:1/8
+Q:1/8=270
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+{DEF}G2B dBG|cde d2d|g2g efg|dBG AFD|G2B dBG|
+cde d2d|gbg afe|def g2::d|g2g b2a|gfe d2B|dgB dgd|
+BAG A3|{DEF}G2B dBG|cde d2d|gbg afe|def g2:|]
+
+X:32
+T:A Kippet Lee in a Loppin Lor
+C:Roy Watrous, 1989
+S:The Watrous Book, 1992
+M:2/4
+L:1/16
+Q:1/4=90
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+{DEF}G2ba g2fg|agfe d3d|GBdg GBdg|egdB A2D2|G2ba g2fg|
+agfe d3d|egdB egdB|dcAB G4::e2e2 e2fg|fedf edBd|e2e2 e2fg|
+fafd e3d|b2ba g2fg|agfe d3d|egdB egdB|egfa g4:|]
+
+X:33
+T:Fifer's Hornpipe
+C:Roy Watrous, 1990
+S:The Watrous Book, 1992
+M:2/4
+L:1/16
+Q:1/4=90
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A2|d2d2 d2cd|egfe d2ef|gbag fedf|edcB Agfe|d2d2 d2cd|
+egfe d2ef|gbag fedc|d2d2 d2::z2|b2gb a2fa|gfed e2fe|dAeA fAgA|
+agfe dcBA|d2d2 d2cd|egfe d2ef|gbag fedc|d2d2 d2:|]
+
+X:34
+T:Goin' Ashore
+C:Roy Watrous, 1990
+S:The Watrous Book, 1992
+M:2/4
+L:1/16
+Q:1/4=90
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(D2|{EF}G2)GF GABA|GABc d4|e2gg B2gg|AcBA GFED|G2GF GABA|
+GABc d4|e2gg B2gg|AcBA G2::z2|{def}g2gg e2gg|d2gg B2gg|A2A2 AcBA|
+GABc d4|{def}g2gg e2gg|d2gg B2gg|A2A2 AcBA|GDFA G2:|]
+
+X:35
+T:Bloody Shiloh
+C:Roy Watrous, 1991
+S:The Watrous Book, 1992
+M:6/8
+L:1/8
+Q:1/8=270
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+{DEF}!p!.G2G (B^AB)|ABA G3|!f!def gdB|!diminuendo(!ABA FED|!diminuendo)!!p!.G2G (B^AB)|ABA G3|
+!f!def gdB|ABA G2::z|!f!g2g b2a|gfe d2B|def gdB|!diminuendo(!ABA FED|
+!diminuendo)!!p!.G2G (B^AB)|ABA G3|!f!def gdB|ABA G2::d|!ff!(gfg) (e^de)|(gfg) d2d|
+(gfg) gdB|!diminuendo(!ABA FED|!diminuendo)!!p!.G2G (B^AB)|ABA G3|!f!def gdB|ABA G2:|]
+
+X:36
+T:Newport Lasses
+C:Roy Watrous, 1967
+S:The Watrous Book, 1992
+M:6/8
+L:1/8
+Q:1/8=270
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+.A2A {B}AFG|Afe d2c|.B2B {c}BGA|Bgf e2f|afd gec|
+def A2A|Bgf edc|d6::.f2f faf|.e2e ege|.d2d dfd|
+Bcd A3|f2f fga|e2e efg|afd gec|d6:|]
+
+X:37
+T:Privateer
+C:Roy Watrous, 1959
+S:The Watrous Book, 1992
+M:2/4
+L:1/16
+Q:1/4=90
+K:Emin
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+BA|G2E2 E2D2|EFGA B2GA|B2e2 efg2|fedf e2::B2|
+e2ef g2eg|f2df edB2|B2e2 efg2|fedf e2:|]
+
+X:38
+T:Soldiers of France
+C:Roy Watrous, 1960
+S:The Watrous Book, 1992
+M:2/4
+L:1/16
+Q:1/4=90
+K:A
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(e^d|e2)A2 c2BA|c2e2 fga2|e2ag a2f2|efec B2(e^d|e2)A2 c2BA|c2e2 fga2|
+e2ag afed|c2A2 A2::cB|Acec Acec|Acec f2e2|Acec Acec|
+fecA B2cB|Acec Acec|Acec f2e2|agaf efed|c2A2 A2:|
+
+X:39
+T:Clam Digger's Jig
+C:Roy Watrous, 1991
+S:The Watrous Book, 1992
+M:6/8
+L:1/8
+Q:1/8=270
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A|dAf ecA|dfd a2a|bgb afd|Agf e2A|dAf ecA|
+dfd a2a|bgb afd|Afe d2::e|Tf3 efe|dcB A3|b2b {b}afd|
+Agf e3|Tf3 efe|dcB A2a|bgb afd|Afe d2:|]
+
+X:40
+T:The Annie J Hornpipe
+C:Roy Watrous, 1992
+S:The Watrous Book, 1992
+M:2/4
+L:1/16
+Q:1/4=90
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+AG|F2A2 d2df|edcB A2AG|FAdf gfed|e2b2 a2AG|F2A2 d2df|
+edcB A2ef|gbag fedc|d2d2 d2::cd|edef e2ef|gfgb a2fg|aAgA fAeA|
+dfed cBAG|F2A2 d2df|edcB A2ef|gbag fedc|d2d2 d2:|]
+
+X:41
+T:The "Wasp" and the "Frolic"
+C:Roy Watrous, 1992
+S:The Watrous Book, 1992
+M:6/8
+L:1/8
+Q:1/8=270
+K:Amix
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A2A AFA|B2A Bcd|fgf efe|d2B Bcd|A2A AFA|
+B2A Bcd|fgf edB|A6::f2f fga|e2e efg|fga efg|
+fed Bcd|A2A AFA|B2A Bcd|fgf edB|A6:|]
+
+X:42
+T:Freddy the Flasher
+C:Roy Watrous, 1992
+S:The Watrous Book, 1992
+M:2/4
+L:1/16
+Q:1/4=70
+K:Bmin
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+BFBd f2f2|efed cBA2|BFBd fdf2|fa^ge f2fa|b2b2 afa2|
+eged cBA2|BFBd f2Tf2|edcA B4::b2b2 a2a2|efed cBA2|BFBf dBdf|
+gfeg f4|gfe2 fed2|cedc BAF2|BFBd f2Tf2|edcA B4:|]
+
+X:43
+T:The Charter Oak Brigade
+C:Roy Watrous, 1992
+S:The Watrous Book, 1992
+M:2/4
+L:1/16
+Q:1/4=90
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+{ABc}d2f2 a2f2|g2b2 B2d2|cdef gbag|fefg a2Tf2|d2f2 a2f2|
+g2b2 B2d2|cdef gbag|Tf2d2 d4||e2ef g2e2|f2fg a2f2|edef gbag|
+f2fg a4|e2ef g2e2|f2fg a2f2|edef gbag|f2fe d4||a4-a2f2|
+d4-d2f2|edef gbag|f2fg a4|a4-a2f2|d4-d2f2|edef gbag|
+f2fe d4||{gf}eAfA edcd|eAfA edcd|edef gagf|edcB A4|
+{gf}eAfA edcd|eAfA edcd|edef gbag|f2fe d4|]

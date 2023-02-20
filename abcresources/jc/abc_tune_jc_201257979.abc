@@ -1,0 +1,46 @@
+X: 1
+T: Bury Fair
+P: Longways for as many as will
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.103 #145 (205)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p. 207 "T 2"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Nearly-illegible left edge verified with http://deriv.nls.uk/dcn30/8975/89753707.30.jpg
+N: Repeats added to satisfy the "Each Strain twice" instruction.  The numbers above pickup notes are in both books.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"^1"d2 | c2A2 A2F2 | G4 "^*)"[D3C3]d | c2A2 A2GF | F4 F2 \
+:: "^2"f2 | c2f2 e2f2 | g2G2 G2f2 | c2f2 efge | f6 :|
+|: "^3"c2 | dcBA BAGF | GFED C2c2 | dcBA BAGF | !fine!F4 \
+:: "^4"f2 | c2f2 e2f2 | g2G2 G2f2 | c2f2 efge | f6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text *) DMDfD has D here; CCDM1 has C.
+%%center Each Strain twice and end with the third Strain.
+%%begintext align
+%% 1st Man cast off and fall between the 3d Cu. and all three Hands
+%% abreast; the 1st Wo. cast off and fall between the 2d Cu. and sett to
+%% one another Face to Face; the 1st Man and 3d Cu. take all three Hands
+%% and go half round and back again, the 1st Wo. and 2d Cu. do the same;
+%% The 1st Man and 3d Cu. go the Hey, the 1st Wo. and 2d Cu. do the same;
+%% Then the 1st Man take his Partner by the Hand in the 2d Cu. Place, and
+%% lead her thro' the 3d Cu. and cast up into the 2d Cu. Place, then lead
+%% thro' the other Cu. and cast off into the 2d Cu. Place.
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text: Play each Strain twice, and end with the thirs Strain.
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1. man cast off and fall between the 3. cu. and all three hands a-breast; the 1. wo. cast off and
+%% fall between the cu. and set to one another face to face; The 1. man and 3. cu. take all three hands
+%% and go half round and back again, the 1. wo. and 2. cu. do the same. The 1. man and 3. cu. go the
+%% Hey, the 1. wo. and 2. cu. do the same; then the 1. man take his Partner by the hand in the 2. cu.
+%% place, and lead her through the 3. cu. and cast up into the 2. cu. place, then lead through the other cu.
+%% and cast off into the 2. cu. place.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

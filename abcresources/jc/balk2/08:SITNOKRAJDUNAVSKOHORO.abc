@@ -1,0 +1,14 @@
+X: 308
+T:Sitno Krajdunavsko Horo
+O:Bulgaria
+M:2/4
+L:1/8
+Q:1/4=240
+K:C
+%%MIDI gchord z2f2
+|:"G"B,CDE|"C"F2E2|D2C2 |G4   |"G"B,CDE|"C"F2E2|D2C2   |C4    :|
+K:Cm
+|:"C"FGG2 |GFE2   |EFG2 |EDC2 |CDEF    |G2E2   |"G"E2D2|"C"C4 :|
+|:"C"CDEF |G2E2   |D2C2 |G4   |CDEF    |G2E2   |D2C2   |C4    :|
+|:"C"F2G2 |F2G2   |F2E2 |"G"D4|"C"F2G2 |F2G2   |F2E2   |"G"D4 :|
+|:"C"FGG2 |G4     |cB=AG|G2G2 |FGG2    |G4     |cB=AG  |G2G2  :|

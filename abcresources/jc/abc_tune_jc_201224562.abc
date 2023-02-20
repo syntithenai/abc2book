@@ -1,0 +1,35 @@
+X: 84
+T: Irish Cry
+%R: _
+B: "The Hibernian Muse" p._
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain has initial repeat but no final repeat; not fixed.
+P: No. LXXXIV.
+M: 3/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+"Slow" a2|\
+(a>fe>f) (a/b/c') | d'4 e'2 | c'>d'c'>ba>g | (6:4:6(e/f/g/a/b/a/) b3b |\
+c'>d'c'>ba>f | (6:4:6(e/f/g/a/b/a/) Ta3a | (b>c')b>af>a | {f}e3dd2 :|
+"Jigg"\
+d2d dfd | dfd fga | d2d dfd | cde ecA |\
+d2d dfd | dfd abc' | d'c'b agf | efd cBA :|\
+|: fga aba |
+aba agf | gab bc'b | bc'b bag | fga abc' | d'c'b abc' |\
+d'c'b abc' | d'c'b abc' | d'c'b agf | efd ecA |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+"Slow"z2 |\
+d2 a2 g2 | f2 d2 g2 | a2 A2 z2 | z2 G2 g2 |\
+a2 A2 z2 | z2 F2 f2 | g2 f2 d2 | a2 A2 d2 :|
+"Jigg"\
+d3 d3 | d3 d3 | d3 d3 | a3 a3 |\
+f3 f3 | f3 e3 | d3 d3 |
+a3 A3 :|\
+|:\
+d3 d3 | d3 d3 | G3 g3 |\
+d3 d3 | d3 d3 | d3 d3 |
+d3 d3 | d3 d3 | d3 f3 | a3 A3 |]

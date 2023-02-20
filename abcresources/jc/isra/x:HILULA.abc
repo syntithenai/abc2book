@@ -1,0 +1,31 @@
+X: 78
+T: Hilula
+C: Uri Cohen
+O: Israel
+F: http://www.youtube.com/watch?v=Zz_PRDmTXO8
+M: 2/8
+L: 1/16
+Q: 1/4=120
+K: F
+%%MIDI drum dz 35
+%%MIDI drumon
+P:A
+  bz  |fgag           |fgaf      |g/a/g/a/g/a/g/a/ |\
+  fgab| a2fg          |g/a/g/a/fg|azg/a/g/z/       |
+  fgab|gf/g/a/g/f/g/  |af/g/a/g/z|a2z2             |\
+  azab|agc'z          |z4        |
+P:B
+  defg|agaz           |gzgz      |e/f/g/f/g/f/e/z/ |\
+  defg|agaz           |gfgz      |f/g/fz2          |
+  defg|agaz           |gzgz      |e/f/g/f/g/f/e/z/ |\
+  a2az|z4             |a/za/ba   |c'z3             |
+P:C
+  fgab|afga           |gfga      |a/f/g/g/z2       |\
+  fgab|afga           |gfga      |a/f/g/g/z2       |
+  fgab|afga           |gfga      |a/f/g/g/z2       |\
+  a2az|z4             |a/za/ba   |c'z3             |
+P:D
+|:c2cz|z4             |g/f/z3    |defg             |\
+  c2cz|z4             |g/f/z3    |defg             |
+  c2cz|z4             |g/f/z3    |defg             |\
+  a2az|z4             |a/za/ba   |c'z3             :|

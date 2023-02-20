@@ -1,0 +1,46 @@
+
+X: 1
+T: Deck the Halls    [D]
+R: march, reel
+M: 4/4
+L: 1/8
+K: D
+|:  "D"A3G "(A)"F2E2 | "(Bm)"D2E2   F2D2 | "A7"EFGE  "D"F3E  | "A7"D2C2 "D"D2 :|
+[| "A7"E3F      G2E2 |  "D"  F3G "A"A2E2 | "D"F^GA2 "Bm"Bcd2 | "E7"c2B2  "A"A4 ||
+||  "D"A3G "(A)"F2E2 | "(Bm)"D2E2   F2D2 | "G"BBBB   "D"A3G  | "A7"F2E2  "D"D2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Deck the Halls    [G]
+R: march, reel
+M: 4/4
+L: 1/8
+K: G
+|:  "G"d3c "(D)"B2A2 | "(Em)"G2A2   B2G2 | "D7"ABcA  "G"B3A  | "D7"G2F2 "G"G2 :|
+[| "D7"A3B      c2A2 |  "G"  B3c "D"d2A2 | "G"B^cd2 "Em"efg2 | "A7"f2e2 "D"d4 ||
+||  "G"d3c "(D)"B2A2 | "(Em)"G2A2   B2G2 | "C"eeee   "G"d3c  | "D7"B2A2 "G"G2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Deck the Halls    [C]
+R: march, reel
+M: 4/4
+L: 1/8
+K: C
+|:  "C"G3F "(G)"E2D2 | "(Am)"C2D2   E2C2 | "G7"DEFD  "C"E3D  | "G7"C2B,2 "C"C2 :|
+[| "G7"D3E      F2D2 |  "C"  E3F "G"G2D2 | "C"E^FG2 "Am"ABc2 | "D7"B2A2  "G"G4 ||
+||  "C"G3F "(G)"E2D2 | "(Am)"C2D2   E2C2 | "F"AAAA   "C"G3F  | "G7"E2D2  "C"C2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Deck the Halls   [F]
+R: march, reel
+M: 4/4
+L: 1/8
+K: F
+|:  "F"c3B "(C)"A2G2 | "(Dm)"F2G2   A2F2 | "C7"GABG  "F"A3G  | "C7"F2E2 "F"F2 :|
+[| "C7"G3A      B2G2 |  "F"  A3B "C"c2G2 | "F"A=Bc2 "Dm"def2 | "G7"e2d2 "C"c4 ||
+||  "F"c3B "(C)"A2G2 | "(Dm)"F2G2   A2F2 | "Bb"dddd   "F"c3B | "C7"A2G2 "F"F2 |]

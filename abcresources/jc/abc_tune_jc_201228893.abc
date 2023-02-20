@@ -1,0 +1,18 @@
+X: 1173
+T: Mr Minzies of Culdare's Reel
+%R: reel
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.17 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dmix
+% - - - - - - - - - -
+V: 1 staves=2
+A |\
+FDAF BGAF | (Ec)(Gc) ECCA | FDAF BGAF | (Fd)(Ad) FDD :| g | (f/g/a) da fdaf | (e/f/g) cg ecge |
+(f/g/a) da fdad | (B/c/d) Ad FD-Dg || (f/g/a) da fdaf | (e/f/g) cg ec ge | afge fdec | (d/c/B/c/ d).A FD-D |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d2d2 d2d2 | c2c2 c2c2 | d2d2 d2d2 | d2A2 d2d :| z | d'2d'2 d'2d'2 | c'2c'2 c'2c'2 |
+d'2d'2 d'2f2 | g2a2 d2d2 || d'2d'2 d'2d'2 | c'2c'2 c'2c'2 | d2e2 f2g2 | a2A2 d2-d |]

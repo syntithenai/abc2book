@@ -1,0 +1,40 @@
+X:1
+T:Sheila Mackay
+M:6/8
+L:1/8
+Q:80
+C:P.M. Reay Mackay, C.D.
+S:March
+K:HP
+|: f | \
+{g}B2{GdGe}B{Gdc}d3/2e3/2 | \
+{g}f3{ag}a3 | \
+A2B2{GdG}c2{e}B |
+{g}c/2f3/2{e}f{gef}e3/2c/2{G}A{g}B2{GdGe}B{Gdc}d3/2e3/2 | \
+{g}f3{ag}a3 | \
+{Gdc}d3/2f/2ac/2e3/2a |
+{fg}f3/2e/2c{gBd}B2 :: \
+f | \
+{g}B3/2d/2f{g}f3/2d/2{e}B | \
+{g}A3/2{d}c/2e{gef}e3/2c/2{G}A |
+{g}B/2d3/2f{g}f3/2d/2{e}B | \
+a3/2g/2f{gef}e3/2c/2{G}A|1 {g}B3/2d/2f{g}f3/2d/2{e}B | \
+{g}A3/2{d}c/2e{gcd}c3/2B/2{G}A |
+{Gdc}d3/2f/2ac/2e3/2a | \
+{fg}f3/2e/2c{gBd}B2 :: \
+f |
+{g}B2{GdGe}B{gde}d3/2c/2{G}c | \
+{g}B/2d3/2{e}c{gcd}c3/2B/2{G}B | \
+{g}A2{GdGe}A{gcd}c3/2B/2{G}B |
+{g}A/2{d}c3/2{e}B{g}B2{GdGe}A{g}B2{GdGe}B{gcd}c3/2B/2{G}A | \
+{gde}d3/2c/2B{gef}e3/2d/2c | \
+{Gdc}d3/2f/2ac/2e3/2a |
+{fg}f3/2e/2c{gBd}B2 :: \
+A | \
+{Gdc}d3/2e/2f{g}e3/2f/2g | \
+f/2{g}d3/2fa3/2f/2{g}d |
+{gcd}c2e{Gdc}d3/2e/2f | \
+e/2{g}A3/2e{g}A3/2e/2{g}c|1 {Gdc}d3/2e/2f{g}e3/2f/2g | \
+f/2{g}d3/2fa3/2f/2{g}e |
+{Gdc}d3/2f/2ac/2e3/2a | \
+{fg}f3/2e/2c{gBd}B2 :|

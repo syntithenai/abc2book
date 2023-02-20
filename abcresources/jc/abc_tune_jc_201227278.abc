@@ -1,0 +1,33 @@
+X: 10703
+T: COTILLION No. 2. tune 3
+C:
+%R: reel
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.70 #3 (and p.71 *1)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added missing barline after the pickup notes to strain 2.
+N: The "D.C." at the end was missing; transcribed it anyway.
+N: The B naturals in bars 18, 19 don't make sense; transcribed anyway.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(f>a) |\
+"^>"d6 (f>a) | "^>"d4- d>AA>A | ("^>"f3e/d/) ("^>"f3e/d/) | ("^>"fed)z z2F>A |\
+"^>"D6 F>A | "^>"D4 D>Ad>f | a2f>d e>de>f | d2f2d2 H|]
+F>G |\
+!p!A>^GA>B A2d2 | f4 d2d2 | e>^de>f e>=dc>e | [dd2]>cd>e [ff/]c/[dd/]B/ A2F>G |\
+A>^GA>B A2d2 | !f!f4 !p!d2f2 | (3(gfe) (3(dcB) (3(ABA) (3(GFE) | (3(DFA) (3(DFA) "^D.C."f2 |]
+!p!D>E |\
+F>GE>F D2d2 | ^c>d=Bc A2A>B | ^c>d=B>c d>fa>g | f>ge>f d2d>d |\
+!f![ec]A[ge]A cA[ge]A | [fd]A[af]A [fd]A[af]A | eAag fedc | d>dA>F "^D.C."D2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across partners and back,
+%% all balance to partners,
+%% grand chain,
+%% promenade 8.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

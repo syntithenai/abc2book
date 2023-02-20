@@ -1,0 +1,19 @@
+X: 20993
+T: ENGEL WALZER
+C: Strauss.
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.99 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Should the G in bar 11 be F?
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d^c=c |\
+BDGDGD | GDFed^c | =cDFDFD | ADGgfe |\
+edBDGD | GDFcBA | GFEDEF | G3 |]
+gfe |\
+^decgfe | edBDGD | edcDGD | edBgfg |\
+^decgfe | edBDGD | edcDFD | G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,29 @@
+X: 362
+T: the Bonny Banks of Ugie.   a Strathspey
+C: by Wm Christie
+R: strathspey
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c."
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+D2 |\
+B,B3-TB3F {F}D4D3B, | Cc3-~c3(d cB).A.G (FE).D.C |\
+B,B3-TB3F {F}D4D2f2 | .e.d.c.B F3D {D}B,4B,2 :|\
+f2 |\
+{e}d3B (ba).g.f (ed).c.B fB3 | cg3-Tg3a bc3gc3 |
+~f3B (ba).g.f (ed).c.B fB3 | cF3 {Bc}d3B ~c4c2f2 ||\
+{e}d3B (ba).g.f (ed).c.B fB3 | cg3-~g3a bc3gc3 |\
+fB3 dF3 cF3 BD3 | GE3 {D}B3D {D}B,4B,2 |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | B4d4 B4B4 | f4f4 c4A4 | B4d4 B4B4 | e4f4 B4B2 :| z2 | b4b4 b4d'4 | c'4e4
+c4e4 | d4b4 b4b4 | a4b4 f4f4 || b4b4 b4d'4 | c'4e4 c4e4 | d4B4 A4B4 | E4F4 B4[B2B,2] |]
+% = = = = = = = = = =

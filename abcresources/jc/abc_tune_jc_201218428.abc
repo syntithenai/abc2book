@@ -1,0 +1,17 @@
+X: 01047
+T: GIDGET'S JIG
+C: Bob McQuillen Jan'76
+B: Bob's Note Book 1 #47
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+E \
+| ABc BAF | EAA BAB | cde fga | ecA B2E |\
+| ABc BAF | EAA BAB | cde fga | c2B A2 :|
+|: e \
+| fef fga | ecA A2F | EAc BAB | cff f2e |\
+| fef fga | ecA BAF | EAc BAB | cAA A2 :|
+%%begintext align
+%%endtext

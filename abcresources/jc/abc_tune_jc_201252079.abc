@@ -1,0 +1,28 @@
+X: 1
+T: Better Day Better Deed
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (105)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+a2b |\
+agf efg | fed ABc | def gaf | e3 a2b |\
+agf efg | fed Adc | def edc | d3 :|
+|: D2G |\
+FED GAB | AFD D2G | FED def | e3 E2G |\
+FED GAB | AGF GAB | ABc dec | d3 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1st Man go with in-side of the 2d Man, then go
+%% round about him, and stand below the 3d Man .| then the
+%% 2d Wo. do the same :| the 1st Cu. being below the 3d Cu.
+%% cross over above the 3d Cu. and so above the 2d Cu. into
+%% their own Places .| the 1st Man take Hands with his
+%% Partner, and lead down the 2d Cu. then lead up again
+%% into your own places and cast off :|
+%%endtext
+%%sep 1 8 500

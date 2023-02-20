@@ -1,0 +1,23 @@
+X: 180
+T: Slieve Gallen
+R: air
+%S: s:6 b:24(4+4+4+4+4+4)
+B: O'Neill's 1850 #180
+Z: 1997 henrik.norbeck@mailbox.swipnet.se
+Q: "Slow with feeling"
+M: 3/4
+L: 1/8
+K: Gm
+D>^F \
+| G2 (G/4A/4B3/2) (A>B) | G4 (G/4A/4B3/2) \
+| (F<D) C>B, G,2 | B,2 (D/C/B,/C/) D z |
+| (.B.c.d.e) T(c>B) | (.A.B.c.d) T(B>A) \
+| (.G.A.B.c) T(A>B) | G2 (G>A) G z ||
+| (.B.c.d.e) (dc/B/) | (.A.B.c.d) (cB/A/) \
+| (.G.A.B.c) (A>G) | (G>^F) D2 G(G/A/) |
+| (.B.A.G.F) ({=E}FD) | .C(B,/A,/) (B,/C/).D (G,/A,/)(B,/C/) \
+| (DG/) z/ (^FA/) z/ (GB/) z/ | (A>G) G2- GA |
+| B z z2 (e/c/d/B/) | ~A z z2 (d/B/c/A/) \
+| "#"~G z z2 (c/A/B/G/) | T(A>^F) D2- D (3=F/G/A/ |
+| (.B.A.G.F.D.C) | (CB,/A,/) (B,/C/)(D/G,/) A,B,/C/ \
+| (DG) (^F/G/A/) z/ (G/A/B/) z/ | (A>G) G2- HG |]

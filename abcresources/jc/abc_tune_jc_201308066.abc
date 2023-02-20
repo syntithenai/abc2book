@@ -1,0 +1,57 @@
+
+X: 1
+T: Maud Millar - 1st setting
+R: reel
+S: https://thesession.org/tunes/1177
+N: Chords and simplification by John Chambers 2019
+M: 4/4
+L: 1/8
+K: Em
+{f}gf |\
+"G"edBA "(D)"GBDE | "G"G2BG dGBd |\
+"G"eBdB "D"A2GA | "Em"Beed e2 :|
+ge |\
+"G"dega bgg2 | "D"agef "G"gfge |\
+"G"dega bgg2 | "D"aged "G"ga ||
+ge |\
+"G"dega bgg2 | "D"agef "G"g3a |\
+"G"bgaf "D(Bm)"gfed | "Em"Beed "(D7)"e |]
+
+%%sep 1 1 500
+
+X: 2
+T: Maud Millar - 2nd setting
+R: reel
+S: https://thesession.org/tunes/1177
+M: 4/4
+L: 1/8
+K: Em
+gf | edBA GEDE | G2BG dGBd | e2dB A2GA | Beed ef :|
+ge | dega bgg2 | agef g3e | dega bgg2 | aged ea ||
+ge | dega bgg2 | agef g3a | bgaf gfed | Beed e2 |]
+
+%%sep 1 1 500
+
+X: 3
+T: Maud Millar - 3rd setting
+R: reel
+S: https://thesession.org/tunes/1177
+M: 4/4
+L: 1/8
+K: Em
+gf |edBA GEDE | G2(3BAG DGBd | eBdB A2GA | Beed ef :|
+ge | dega bgg2 | agef gfge | dega bgg2 | aged ea ||
+ge | dega bgg2 | agef gfga | bgaf gfed | Beed [Be][df]gf |]
+
+%%sep 1 1 500
+
+X: 4
+T: Maud Millar - 4th setting
+R: reel
+S: https://thesession.org/tunes/1177
+M: 4/4
+L: 1/8
+K: Em
+gf | edBA GBDE | G2BG dGBd | eBdB A2GA |1 Beed ef :|2 Beed ~e2 ||
+ge | dggf g3~b | agef g2ed | Bdeg bagb | aged ea ||
+ge | d~g3 agbg | agef ~g3a | bgaf gfed | Beed efgf |]

@@ -1,0 +1,17 @@
+X: 288
+T:Metounicanka
+O:Serbia
+F: http://www.youtube.com/watch?v=MxeaDbfR4uI
+M:2/4
+L:1/8
+Q:1/4=192
+K:C
+%%MIDI gchord fzzz
+%%MIDI drum  zzdz 44
+%%MIDI drumon
+|:"C"  G,2E2|G,2D2|G,2C2     |CB,CA,   |\
+  G,2E2     |G,2D2|G,2C2     |C4       :|
+|:"C"C2E2   |G2E2 |"G"D2C2   |"C"CB,CA,|\
+  C2E2      |G2E2 |"G"D2"C"C2|"C"C4    :|
+|:"C"G2G2   |GFFE |GFFE      |EDC2     |\
+  GFFE      |GFFE |DCCB,     |C4       :|

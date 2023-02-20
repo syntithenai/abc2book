@@ -1,0 +1,36 @@
+X: 11301
+T: VIRGINIA QUICK STEP
+C: B. A. Burditt.
+N: This is version 1, for ABC software that doesn't understand crescendo/diminuendo symbols.
+%R: quick-step, polka, march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.130 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: !ff!\
+ccc2 fff2 | .a2.c2 a4 | .g2.c2 g4 | .a2.c2 a4 |\
+aaa2 eee2 | g2 f4 ed | cfa2 ceg2 | f2 f4 z2 !f!:: \
+(a2gf) (f2ed) | (dc=Bc) c2A2 | (cBAB) B2G2 | .A2.d2 c4 |
+(a2gf) (f2ed) | dc=Bc c2A2 | Gcec =B2d2 |[1 d4 c2z2 :|[2 d4 c2 |]\
+"^Lucy Long."fg |\
+a2a2f2f2 | e2g2 z2a2 | b2b2d2e2 | f4 z2fg |\
+a2a2f2f2 | e2g2 z2a2 | b2b2d2e2 | f4 !f!z2fg |
+a2a2f2f2 | e2g2 z2a2 | b2b2d2e2 | f4 z2fg |\
+a2a2f2f2 | e2g2 z2a2 | b2b2d2e2 | f2ff f2f2 |\
+a2aa a2a2 | b2bb b2b2 | =b8 | ("_>"c'2_ba) ("_>"c'2ba) |
+("_>"b2ag) ("_>"b2ag) | ("_>"a2gf) ("_>"a2gf) |\
+.g2.a2.b2.=b2 | ("_>"c'2_ba) ("_>"c'2ba) |\
+("_>"b2ag) ("_>"b2ag) | f2 a4 g2 !p!|[| "^Ole Dan Tucker."\
+f2ff f2f2 | f2f2f2c2 | f2ff g2a2 | c2c2d2c2 |
+f2ff f2f2 | f2f2f2c2 | f2ff g2a2 | c2c2d2f2 \
+!f!|: "^Git out de way."\
+a2aa a4 | g2f2d2f2 | g2gg g4 | c2c2d2f2 |\
+a2aa a4 | g2f2d2f2 | g3ga2c2 | c2c2d2f2 :|
+!ff![|\
+a4 .b2.a2 | (f2ef gfef) | g4 .a2.g2 | f2g2^g2a2 |\
+c'4 d'2c'2 | (a2^ga baga) | b4 .c'2.b2 |\
+.a.c'.a.f c2e2 | .f.c'.a.f c2e2 | f4 f2f2 | f4 z4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

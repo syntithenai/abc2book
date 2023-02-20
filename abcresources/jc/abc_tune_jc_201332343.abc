@@ -1,0 +1,192 @@
+X: 1
+T: R\'ugu\vo
+T: If
+C: melody: T\'ai Zh\`ao-M\'ei
+C: lyrics: Sh\=i B\`i-W\'u
+%T: Rúguǒ
+%T: 如果
+%C: melody: T\'ai Zh\`ao-M\'ei (邰肇玫)
+%C: lyrics: Sh\=i B\`i-W\'u (施碧梧)
+%C: melody: Tái Zhào-Méi (邰肇玫)
+%C: lyrics: Shī Bì-Wú (施碧梧)
+D: Vienna Teng
+D: T\'ai Zh\`ao-M\'ei (邰肇玫)
+%N: I found a claim online that the lyrics were written by Sou Bi-Wu (施碧梧).
+N: This is an 18-bar version, as it is commonly sung.  The original song uses the
+N: extra 2-bar delayed ending every time, plus assorted interludes between verses.
+N: When used with dancing, the endings can be shortened to gie 16 bars, with no damage to the tune.
+D: Vienna Teng
+D: Tai2 Zhao4-Mei2
+K: A
+[| "A"CE3- EE2E | "D"FA3- A2z2 | "A"EE2F E2C2 | "E7"B,6 z2 |
+w: 1.~R\'u gu\vo* n\vi sh\`i zh\=ao l\`u,* w\vo yu\`an sh\`i n\`a xi\vao c\vao
+w: 2.~R\'u gu\vo* n\vi sh\`i n\`a h\vai,* w\vo yu\`an sh\`i n\`a sh\=a t\=an
+|  "A"CE3- EE2E | "D"FA3 F2zF | "A"E3C "E7"B,3A, | "A"A,6 z2 |
+w: 1.~R\'u gu\vo* n\vi sh\`i n\`a pi\`an y\'un, w\vo yu\`an sh\`i n\`a xi\vao y\vu
+w: 2.~R\'u gu\vo* n\vi sh\`i n\`a zh\`en y\=an, w\vo yu\`an sh\`i n\`a q\=ing f\=eng
+|  "A"A3A A2B2 | "A"c4 E4 | "D"FA2A A2(GA) | "E7"B6 z2 |
+w: 1.~Zh\=ong r\`i y\vu n\vi xi\'ang w\=ei~y\=i, y\'u sh\`i w\vo ji\=ang zh\=i* dao
+w: 2.~Y\vong yu\van y\vu n\vi ch\'an mi\'an, y\'u sh\`i w\vo ji\=ang zh\=i* dao
+|  "A"cc2d c2B2 | "D"zA2B A2{G}F2 | "A"z2 E4 E2 | "E7"c2 B4 (AG) |
+w: 1.~D\=ang w\vo b\`an zhe n\vi, sh\vou zhe n\vi sh\'i Hu\`i sh\`i du\=o mo q\vi*
+w: 2.~D\=ang w\vo b\`an zhe n\vi, sh\vou zhe n\vi sh\'i Hu\`i sh\`i du\=o mo ti\'an*
+| "A"A8- | A4 z4 |]
+w: 1.~l\`i
+w: 2.~m\`i
+%
+%W:如果你是朝露 我愿是那小草
+%W:如果你是那片云 我愿是那小雨
+%W:终日与你相偎依 于是我将知道
+%W:当我伴着你 守着你时 会是多么绮丽
+%W:%
+%W:如果你是那海 我愿是那沙滩
+%W:如果你是那阵烟 我愿是那轻风
+%W:永远与你缠绵 于是我将知道
+%W:当我伴着你 守着你时 会是多么甜蜜
+%
+W:If you're the morning dew, I'd wish to be the tiny blade of grass.
+W:If you're the cloud, I'd wish to be the tiny rain drop.
+W:Being with you all day long, then I would know,
+W:The time when I'm next to you, waiting for you,
+W:How beautiful it would be.
+W:
+W:If you're the sea, I'd wish to be the sandy beach.
+W:If you're the puff of smoke, I'd wish to be the light wind.
+W:Finally embracing with you, then I would know,
+W:The time when I'm next to you, waiting for you,
+W:How Sweet it would be.
+
+%%sep 5 1 500
+
+X: 2
+T: R\'ugu\vo
+T: If
+C: melody: T\'ai Zh\`ao-M\'ei
+%T: Rúguǒ
+%T: 如果
+%C: melody: Tái Zhào-Méi (邰肇玫)
+%C: lyrics: Shī Bì-Wú (施碧梧)
+D: Vienna Teng
+D: T\'ai Zh\`ao-M\'ei (邰肇玫)
+K: A
+%%staffsep 45
+[| "A"CE3- EE2E | "D"FA3- A2z2 | "A"EE2F E2C2 | "E7"B,6 z2 \
+|  "A"CE3- EE2E | "D"FA3  F2zF | "A"E3C "E7"B,3A, | "A"A,6 z2 |
+|  "A"A3A  A2B2 |    c4   E4    | "D"FA2A "(F#m)"A2(GA) | "E7"B6 z2 \
+|  "A"cc2d c2B2 | "D"zA2B A2{G}F2 | "A"z2 E4 E2 | "E7"c2 B4 (AG) | "A"A8- | A4 z4 |]
+%
+%W:如果你是朝露 我愿是那小草
+%W:如果你是那片云 我愿是那小雨
+%W:终日与你相偎依 于是我将知道
+%W:当我伴着你 守着你时 会是多么绮丽
+%W:%
+%W:如果你是那海 我愿是那沙滩
+%W:如果你是那阵烟 我愿是那轻风
+%W:永远与你缠绵 于是我将知道
+%W:当我伴着你 守着你时 会是多么甜蜜
+
+
+%%sep 5 1 500
+
+X: 3
+T: R\'ugu\vo
+T: If
+C: melody: T\'ai Zh\`ao-M\'ei
+%T: Rúguǒ
+%T: 如果
+%C: melody: Tái Zhào-Méi (邰肇玫)
+%C: lyrics: Shī Bì-Wú (施碧梧)
+D: Vienna Teng
+D: T\'ai Zh\`ao-M\'ei (邰肇玫)
+K: D
+%%staffsep 45
+[| "D"FA3- AA2A | "G"Bd3- d2z2 | "D"AA2B A2F2 | "A7"E6 z2 \
+|  "D"FA3- AA2A | "G"Bd3  B2zB | "D"A3F "A7"E3D | "D"D6 z2 |
+|  "D"d3d  d2e2 |    f4   A4    | "G"Bd2d "(Bm)"d2(cd) | "A7"e6 z2 \
+|  "D"ff2g f2e2 | "G"zd2e d2{c}B2 | "D"z2 A4 A2 | "A7"f2 e4 (dc) | "D"d8- | d8 |]
+%
+%W:如果你是朝露 我愿是那小草
+%W:如果你是那片云 我愿是那小雨
+%W:终日与你相偎依 于是我将知道
+%W:当我伴着你 守着你时 会是多么绮丽
+%W:%
+%W:如果你是那海 我愿是那沙滩
+%W:如果你是那阵烟 我愿是那轻风
+%W:永远与你缠绵 于是我将知道
+%W:当我伴着你 守着你时 会是多么甜蜜
+
+
+%%sep 5 1 500
+
+X: 4
+T: R\'ugu\vo
+T: If [16-bar form]
+C: melody: T\'ai Zh\`ao-M\'ei
+%T: Rúguǒ
+%T: 如果
+%C: melody: Tái Zhào-Méi (邰肇玫)
+%C: lyrics: Shī Bì-Wú (施碧梧)
+D: Vienna Teng
+D: T\'ai Zh\`ao-M\'ei (邰肇玫)
+N: This is a 16-bar version, arranged for 16- and 32-bar dances. The song
+N: stretches the last 2 bars to 4, plus assorted interludes between verses.
+M: C
+L: 1/8
+K: D
+%%staffsep 40
+[|"D"FA3- A2FA | "G"Bd3- d2z2 | "D"AA2B     A2F2   | "A7"E6 z2 \
+| "D"FA3- A2FA | "G"Bd3  B2zB | "D"A3F  "A7"E3D    |  "D"D6 z2 ||
+||"D"d3d  d2e2 |    f4   A4   | "G"Bd2d "E7"d2(cd) | "A7"e6 z2 \
+| "D"ff2g f2e2 | "G"zd2e d2B2 | "D"A3A  "A7"fe(dc) |  "D"d6 z2 |]
+%
+%W:如果你是朝露    我愿是那小草
+%W:如果你是那片云  我愿是那小雨
+%W:终日与你相偎依  于是我将知道
+%W:当我伴着你  守着你时  会是多么绮丽
+%W:
+%W:如果你是那海    我愿是那沙滩
+%W:如果你是那阵烟  我愿是那轻风
+%W:永远与你缠绵    于是我将知道
+%W:当我伴着你  守着你时  会是多么甜蜜
+
+
+%%sep 5 1 500
+
+X: 5
+T: R\'ugu\vo
+T: If
+C: melody: T\'ai Zh\`ao-M\'ei
+%T: Rúguǒ
+%T: 如果
+%C: melody: Tái Zhào-Méi (邰肇玫)
+%C: lyrics: Shī Bì-Wú (施碧梧)
+D: Vienna Teng
+D: T\'ai Zh\`ao-M\'ei (邰肇玫)
+N: This is a 32-bar version, arranged for 32-bar dances. The original song
+N: stretches the last 2 bars to 4, plus assorted interludes between verses.
+M: C
+L: 1/8
+K: G
+%%staffsep 45
+|:"G"B,D3- D2DD  | "C"EG3- G2z2 | "G"DD2E D2B,2 | "D7"A,6 z2 \
+| "G"B,D3- D2B,D | "C"EG3  E2zE | "G"D3B, "D7"A,3G, | "G"G,6 z2 ||
+||"G"G3G  G2A2 |    B4   D4    | "C"EG2G "(A7)"G2(FG) | "D7"A6 z2 \
+| "G"BB2c B2A2 | "C"zG2A G2E2 | "G"D3D "D7"BA(GF) | "G"G6 z2 :|
+%
+%W:如果你是朝露    我愿是那小草
+%W:如果你是那片云  我愿是那小雨
+%W:终日与你相偎依  于是我将知道
+%W:当我伴着你  守着你时  会是多么绮丽
+%W:%
+%W:如果你是那海    我愿是那沙滩
+%W:如果你是那阵烟  我愿是那轻风
+%W:永远与你缠绵    于是我将知道
+%W:当我伴着你  守着你时  会是多么甜蜜
+
+
+%%sep 5 1 500
+
+X: 6
+T:
+C: Test: \=a\'a\va\`a \=e\'e\ve\`e \=i\'i\vi\`i \=o\'o\vo\`o \=u\'u\vu\`u
+K:

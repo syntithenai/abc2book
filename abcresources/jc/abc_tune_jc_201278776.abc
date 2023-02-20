@@ -1,0 +1,23 @@
+X: 784
+T: the Gaelic Revival
+R: reel
+%S: s:8 b:32(4+4+4+4+4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #784
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0784/oneill-1001-0784-1.abc
+%m: Tn = (3n/o/n/
+M: C|
+L: 1/8
+K: A
+"^A"[|]\
+   c | d(FE2) DFAF | dTF-F2 AFDc | BA(=GF) EFGA | B(ABc) dfec ||
+|| dTF-F2 ATF-F2 | DFAc dc(de) | f(edc) Bc (3(dcB) | (AF)(dF) FEE |]
+"^B"\
+[| d | cAeA E(AcA) | c(Bce) f(edc)| dBfB (GA)Bc | d(cdf) gfed ||
+|| cAEA cAeA | c(Bce) f(efg) | agf(e fe)d(c | df)e(d cA) A |]
+"^C"\
+[| d | cBA(c BAF)A | d(TFF2 A)FDd | cBA(c BA)FA | B(EEF) =GABd ||
+|| cBA(c BA)FA | DFAB A(Bde) | f(edc) Bc (3(dcB) | (AF)(dF) FEE |]
+"^D"\
+[| d | cAEA e(Ace) | fga(f ed)ce | d(BGB) f(Bde) | f(efg) afed ||
+|| cA (3AAA eA (3AAA | fAa(A cd)ea | f(ede) fg (3(agf) | (ec)dB cA A |]

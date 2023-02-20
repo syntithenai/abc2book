@@ -1,0 +1,14 @@
+X: 2012
+T: Triantafullia
+T: Poluguros
+O: Greece
+M: 7/8
+L: 1/8
+K: Ador
+Q: 1/4=160
+%%MIDI gchord f3c2c2
+%%MIDI program 110  % fiddle
+"Am"c2c c2e2|"Bm"d2cB2A2|"Am"A2G "D"F2G2|"Am"A3-A2z2::
+%%MIDI program 52 % choir
+A3 A2A2|e7|"Bm"d2c B2c2|"D"d3"Am"A2z2|
+"Am"c2c c2e2|"D"d2c"Bm"B2A2|"Am"A2G "D"F2G2|"Am"A3-A2z2:|

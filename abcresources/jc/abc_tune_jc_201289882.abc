@@ -1,0 +1,38 @@
+X: 1
+T: Igraj Mome
+O: Macedonia
+M: 9/8
+L: 1/16
+K: G
+%%slurgraces 1
+%%indent 60
+% - - - - - - - - - - - - - - - - - - - -
+V: 1 name="C Clarinet" sname="Ccl." staves=2
+|: {A}G2G2 ~A2B2 ~c2cA B2~B2BA \
+| {A}G2G2 ~A2B2 ~c2cA ~B2B4 \
+| G2G2 G2~A2 B2c2 ~d2d2d2 \
+| {ed}.e2c2 ~BBB2 ~AAAG G6 :|
+|: F,2G,2 ~A,2A,2 ~B,2B,G, A,2~A,2A,G, \
+| F,2G,2 ~A,2A,2 ~B,2B,G, A,6 \
+| {B,A,}B,2B,2 B,2~C2 D2E2 ~F2F4 \
+| {GF}.G2E2 ~D2DB, ~C2CA, B,6 :|
+|: {D}C4 {F}E4 .D2~D2.C2 C2G,2 \
+| {CB,}.C2C2 ~E2E2 .D2~D2.C2 C4 \
+| C2CB, ~A,2A,2 B,2~C2 ~D2D4 \
+|[1 {ED}.E2C2 ~B,2B,2 ~A,2A,2 G,2A,2B,2 \
+:|[2 {ED}.F2C2 ~B,2B,2 ~A,2A,2 G,6 |]
+% - - - - - - - - - - - - - - - - - - - -
+V: 2 name="Accordion"  sname="acc."
+|: "G"{c}B2B2 ~c2d2 "C"~e2ec "G"d2~d2dc \
+| "G"{c}B2B2 ~c2d2 "C"~e2ec "G"~d2d4 \
+| "G"{c}B2B2 B2~c2 d2e2 "D"~f2f2f2 \
+| "D7"{gf}.g2e2 ~ddd2 ~cccB "G"B6 :|
+|:"Am"F2G2 ~A2A2 ~B2BG A2~A2AG \
+| "Am"F2G2 ~A2A2 ~B2BG A6 \
+| "G"{B,A,}B,2B,2 B,2~C2 D2E2 "D"~F2F4 \
+| "D7"{GF}.G2E2 ~D2DB, ~C2CA, "G"B,6 :|
+|: "C"{d}c4 {f}e4 .d2~d2.c2 c2G2 \
+| "C"{cB}.c2c2 ~e2e2 .d2~d2.c2 c4 \
+| "D7"c2cB ~A2A2 B2~c2 ~d2d4 \
+|[1 "D7"{ed}.e2c2 ~B2B2 ~A2A2 "G"G2A2B2
+:|[2 {ed}"D7".f2c2 ~B2B2 ~A2A2 "G"G6 |]

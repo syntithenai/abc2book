@@ -1,0 +1,50 @@
+% BSFC Session Tune Book 2016 p.65
+% Grand + MissGordon Set
+% Grand Etang
+% Miss Gordon of Park
+
+
+X: 1
+T: Grand Etang
+C: Howie MacDonald, SOCAN
+R: march, strathspey
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: PDF image from Lance Ramshaw labelled 2009-07-26
+D: Howie MacDonald, A Few Tunes, LP, 1987
+M: C
+L: 1/8
+K: G
+%%slurgraces
+EF |\
+"Em"G3 E "D"F>E D>F | "Em"E>G, B,<E {DEF}G2 G/A/B |\
+"C"c>B A<c "C"B>A G>B | "D"A>D D/D/D "Bm"E>D E<F |
+"Em"G3 E "D"F>E D>F | "Em"E>B, B,<E {DEF}G2 G/A/B |\
+"C"c>B A<c "Bm"B>F D<B, | "Em"E4 E2 :|
+|: zF |\
+"Em"E>e e/e/e E>d d/d/d | "Em"E>e d<B "Bm"d2 A>G |\
+"D"F>D D/D/D "A"E>D E<F | "D"E<D d>B "Bm"A>F D>F |
+"Em"E>e e/e/e E>d d/d/d | "Em"E>e d<B "Bm"{Bc}d2 A>G |\
+"D"F>E D>d "Bm"B>G A<F | "Em"E4 E2 :|
+
+%%sep 1 1 500
+
+X: 2
+T: Miss Gordon of Park    [F]
+C: William Marshall
+R: jig
+B: BSFC Session Tune Book 2016 p.65
+S: Handwritten MS by Barbara McOwen
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+"A"[|] G |\
+"F"F2F cAF | "F7"FGF "Bb"d3 | "F"cAF F2A | "C"GEC "C7"CDE |\
+"F"F2F cAF | "F"FGF "Dm"a2a | "C"ga"F"f "G7"efd | "Csus"cdB "C7"ABG |
+"F"F2F cAF | "F7"FGF "Bb"d3 | "F"cAF "Dm"F2A | "Gm7"GEC "C7"CDE |\
+"F"F2F cAF | "F"FGF "Dm"a2a | "C"ga"F"f "G7"efd | "C"c3 "C7"c2 |]
+"B"[|] c |\
+"C"c2c "C7"gec | "F"cdc c2a | "C7"b2g "F"a2f | "G7"g2f "C"edc |\
+"C"c2c "C7"gec | "F"cdc "Bb"b3 | "F"agf "C7"cde | "F"f3 f2c |
+"C"c2c "C7"gec | "F"cdc c2a | "C7"b2g "F"a2f | "G7"g2f "C"edc |\
+"F"f3 "F7"cAc | "Bb"d3 "Gm7"B2d | "F"cBA "C7"GFE | "F"F3 F2

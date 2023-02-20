@@ -1,0 +1,114 @@
+% Note: any double "aa"s in the text of this file
+% should be read as the nordic " 'a'-with-a-
+% circle-on-top"
+
+X:1
+T:Springleik i C (#1)     % name
+C:e. Thorvald Tronsgrd, Folldal (1892 - 1986)     % composer
+N:Springleik fr. Folldal     % info
+Q:1/4=120     %Tempo
+M:3/4     %Meter
+L:1/8     %
+K:C
+ue |{e}f>e d<e {e}f>a | (3gab a/g/f e>(g | f>)(e d<)e {g}f>d | g>(e f)d/f/ e/(c/e) |
+{e}f>e d<e {e}f>a |(3gab a/g/f e>(g  |f)d/f/ e/(c/e) {c}d>B |G/A/B u{B}c3 :|
+|:ue |{e}f2 (d<e) c>e | d/e/f (f<e) (e<a) | ge/g/ f/(d/f) (3e(ce) |"-----3-----" {c}d2 (dg) g>e |
+{e}f2 (d<e) c>e | d/e/f (f<e) (e<a) | fd/f/ e/(c/e) {c}d>B | G/A/B u{B}c3  :|
+W:
+W: * the first 5 notes of meas. 2 & 6 are equal in length, and fast.
+W:
+W:Taught by Marit Larsen Westling, 2/19/05;  transcr. by Sarah Kirton, 2/21/05;
+W: Scandia Festival, Petaluma CA
+W:
+W:Most of the 16ths & dotted 8ths on the second beats were more like triplets - i.e. 1/3 + 2/3.
+W:So the rhythm was softer than what's written here by a little bit.  But most of the
+W:rhythms were very angular.
+W:
+W:She referred to all of the (1/8 + 1/16 + 1/16) beats as "triplets."   But her transcriptions
+W:from Mendocino summer '04 show these rhythms as above, which is close to how she plays
+W:these.
+
+X:2
+T:Springleik i C og "G" (#2)     % name
+C:e. Tormod Steren, Folldal     % composer
+N:Springleik fr. Folldal     % info
+Q:1/4=120     %Tempo
+M:3/4     %Meter
+L:1/8     %
+K:C
+G3/2F/ (E<C) (E>G) | {E}FD/F/ (E<C) E>G | (c>B c<)d e2 | {f}ge/g/ ^f/(d/f)"M" e>c | {Bc}B2 {F}G4 |
+G3/2F/ (E<C) (E>G) | {E}FD/F/ (E<C) E>G | (c>B c<)d e2 | {f}ge/g/ ^f/(d/f) {f}g>e |c/d/B {B}c4 :|
+K:G
+|:([dD]>f g<)a {a}b>(a | g>)f g/a/g "M"f>(d | c>)(B c<)d e>(f|g)e/g/ f/(d/f) e>c |{Bc}B2 {F}[G4G,4] |
+([dD]>f g)<a b>(a | g>)f g/a/g "M"f>(d |c>)(B c<)d e>(f|g)e/g/ f/(d/f) {f}g>e |c/d/B {B}c4 :|
+W:
+W: M = mordant, i.e. a one finger-flick trill.
+W:
+W:Taught by Marit Larsen Westling, 2/19/05;  transcr. by Sarah Kirton, 2/21/05;
+W: Scandia Festival, Petaluma CA
+W:
+W:Most of the 16ths & dotted 8ths on the second beats were more like triplets - i.e. 1/3 + 2/3.
+W:So the rhythm was softer than what's written here by a little bit.  But most of the
+W:rhythms were very angular.
+W:
+W:She referred to all of the (1/8 + 1/16 + 1/16) beats as "triplets."   But her transcriptions
+W:from Mendocino summer '04 show these rhythms as above, which is close to how she plays
+W:these.
+
+X:1
+T:Springleik e. Melvin Tronsgaard (#3)     % name
+C:e. Melvin Tronsgaard (1912 - 1972)     % composer
+N:Springleik fr. Folldal     % info
+Q:1/4=120     %Tempo
+M:3/4     %Meter
+L:1/8     %
+K:G
+uD |[G2G,2] "m"B2 {B}d2 |((3ec-c) (3ef-f {f}g2 |e>(d B)c A>(d |"*" B)G/B/ (3A(FA) {F}(3G-GD |
+{D}G2 (GB) {B}d2 |((3ec-c) (3ef-f {f}g2 |e>d Bc A/(d/B) |[1{F}G2 uG3 :|[2{F}G2 uG4 :|
+|:"m"vg>(b (3a-a)g/f/ {f}g2 | e>(a (3f-f) e/f/{f}g2 |{f}e>(d (3B)c-c A>(d|"*"B)G/B/ (3A(FA) {F}(3G-G D |
+u{f}g>(b (3a-a)g/f/ {f}g2 | e>(a (3f-f) e/f/{f}g2 |{f}e>(d B)c A/(d/B) |[1{F}G2 uG4 :|[2 {F}G2 G3 |]
+W:
+W:All the uneven triplets in this tune were played somewhere between triplets (1/3 +2/3)
+W:    & (1/16 + 1/8(dotted) ) in rhythm.
+W: * The triplets in these measures were between a true triplet &( 1/16 + 1/16 + 1/8).
+W: It was not as "angular" a rhythm as in the other tunes.
+W:
+W: m = inverted mordant - i.e. a one-finger-flick downward "drill".
+W:Taught by Marit Larsen Westling, 2/20/05; transcr. by Sarah Kirton, 2/22/05
+W:Scandia Festival, Petaluma CA
+W:
+W:Most of the 16ths & dotted 8ths on the second beats were more like triplets - i.e. 1/3 + 2/3.
+W:So the rhythm was softer than what's written here by a little bit.
+W:But most of the rhythms were very angular.
+W:
+W:She referred to all of the (1/8 + 1/16 + 1/16) beats as "triplets."  But her transcriptions
+W:from Mendocino summer '04 show these	rhythms as above, which is close to how
+W:she plays these.
+
+
+
+X:4
+T:Springleik e. Tormod Saeteren #2 (#4)     % name
+C:e. Tormod Saeteren, Folldal (1919 - 1989)     % composer
+N:Springleik fr. Folldal     % info
+Q:1/4=120     %Tempo
+M:3/4     %Meter
+L:1/8     %
+K:G
+(g2{ag} f<)d e>f |{f}g2 (b/g/b) a>g |(g>f) e<d e>f |{f}g2 {g}[a4A4] |
+(g2{ag} f<)d e>f |{f}g2 (b/g/b) a>g |(g>f) e<d e>f |{f}g2  {F}[G4G,4] :|
+|:(c>B A<)B c>(d | e>)(f g)e {c}d>B | c>e B<c A>B |G/A/F {F}A4 |
+(c>B A<)B c>(d | e>)(f g)e {c}d>B | c>e B<c A>B | G/A/F {F}[G4G,4] :|]
+W:
+W:Taught by Marit Larsen Westling, 2/20/05; transcr. by Sarah Kirton, 2/22/05
+W:Scandia Festival, Petaluma CA
+W:
+W:Most of the 16ths & dotted 8ths on the second beats were more like triplets - i.e. 1/3 + 2/3.
+W:So the rhythm was softer than what's written here by a little bit.
+W:But most of the rhythms were very angular.
+W:
+W:She referred to all of the (1/8 + 1/16 + 1/16) beats as "triplets."  But her transcriptions
+W:from Mendocino summer '04 show these	rhythms as above, which is close to how
+W:she plays these.
+
+

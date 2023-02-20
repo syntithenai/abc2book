@@ -1,0 +1,31 @@
+X: 05
+T: The Fair Emigrant __ or Mrs Dawsons delight
+C: (Hon. C.G.)
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: f2a a>gf | e>fd Tc2A | f2a {b}a>gf | f>ge d3 :|
+|: aAa a>gf | {b}a>gf c>BA | aAa b>ag | f>gA d3 :|
+|: (A2c) (d2e) | {a}g>fe d2A | (A2c) (d2e) | f>^ga d3 :|
+|: B,B,B, DDD | {fg}a>fd e>fd | B,B,B, DDD | {g}f>ge d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: d3 d3 | a3 A3 | d3 d3 | a2A d3 :|
+|: cde f>ed | f2d a2A | def g>fe | a2A D3 :|
+|: Aag f2g | c2A d3 | Aag f2g | a2A d3 :|
+|: z6 | "Vio:"f2d [a2A2]z | z6 "Vio:"a2A d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First Lady foot it & turn the 2d Gen: -- First Gen: Ditto with the
+%% 2d Lady -- Gallop down two Cu: & foot it -- go up one Cu: -- & turn
+%% -- foot it & half turn with the right hand -- Ditto with the left hand
+%% -- foot it 6 in hand -- go the compleat round to the Right --
+%%endtext

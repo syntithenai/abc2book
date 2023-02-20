@@ -1,0 +1,18 @@
+X: 358
+T: the Groves of Dromore   #2
+R: air, waltz
+%S: s:2 b:15(9+6)
+B: O'Neill's 1850 #358
+O: J.O'Neill.
+Z: Chris Falt, cfalt@trytel.com
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+N: 3/6-bar phrases
+Q: "Tenderly."
+M: 3/4
+L: 1/8
+K: G
+"^A"[|] dc | B2 d2 cA | G2 AG FD/E/ | F2 G2 GA |\
+[1 B2 c2de | =f2 d2 B2 | c4 :|[2 B2 d2 ((3cAG) | A2 G2 G2 | "^fine"G4 |]
+"^B"[| GA | B2 c2 de | =f2 gf ec | d3 cBG | B2 c2 de | =f3 dcB | "^->A2"c4 |]

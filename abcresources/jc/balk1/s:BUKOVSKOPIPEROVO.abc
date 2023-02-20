@@ -1,0 +1,27 @@
+X: 73
+T: Bukovsko piperovo
+O: Macedonia
+W: borrowing from Martin Junghans/Jutta Weber-Karn transcription
+W: http://www.folkloretanznoten.de/
+M: 13/16
+L: 1/16
+Q: 1/4=96
+K: Am
+%%MIDI program 20 Reed Organ
+A,B,^CD (3EFD E2  (3A^GA E2 E|\
+A,B,^CD (3EFD E2  (3D^C_B, A,2 A,::
+A,B,^CD (3EFD E2  (3D^C_B, A,2 A,|\
+A,B,^CD (3EFD E2  (3D^C_B, A,2 A,::
+M: 18/16
+L: 1/16
+K:C
+%%MIDI beatstring fp3mp2fp5mp3
+%%MIDI program 71 Clarinet
+C2cG cGe e2dce2c dcgc|[1gagfe2d dcged2c:|[2 gagfe2d cz3::
+gagfe2d dcfed2c dcgc|[1gagfe2d dcfed2c dcgc:|[2dcfed2c cz3::
+CDD2 DCD E3D CB,G, A,B,CD|[1CDD2 DCD E3D CB,G, A,A,A,2:|[2CDD2 DCD E3D CB,G, Az3::
+efga a2g gfag fed eeec|efga a2g gfag fec eeec|
+efga a2g gfag fed eeec|efec e2d dced adB cz2z::
+ez fge2d dced ABcd|egeg e2d dced cBG AAAG|
+ez fge2d dced ABcd|egeg e2d dced cBG Azz2::
+efg_a gfg e2e_d fed cdef|[1_aggf fe_d eGfg e2_d c_Bcz:|[2_aggf fe_d eGfg e2_d c2z2:|

@@ -1,0 +1,17 @@
+X: 1
+T: Bodavalsen
+O: Trad Sweden
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Em
+V: 1 staves=2
+|:"Em"B3 cBA | B3 cBA | B4 e2 | B3 Bef | g4 g2 | "D"f4 e2 | "Bm"f3g f2 | "B7"B6 ||
+|  "C"e4 e2 | "D"d3 cBc | "Bm"B4 A2 | "Em"G3 FEF | G3A G2 | "D"F3G F2 | "Em"E6- | E6 :|
+|: "C"e4 e2 | g3 f e2 | "G"d6 | B6 | "D7"A3 B c2 | c2 B2 A2 | "G"B4 c2 | d6 ||
+|  "C"e4 e2 | g3 f e2 | "G"d6 | B6 | "D7"A3 B c2 | D2 E2 F2 | "G"G3 AGF | G6 :|
+V: 2
+|:G3 AGF | G3 AGF | G4 B2 | G4 GA | B4 B2 | d4 z2 | d3e d2 |^d6 ||
+| c4 c2 | B3 AGF | G4 F2 | E3 DGA | B3c B2 | A3B A2 | G6- | G6 :|
+|:c4 c2 | e3d c2 | B6 | G6 | F3G A2 | A2 G2 F2 | G4 A2 | B6 ||
+| c4 c2 | e3d c2 | B6 | G6 | F3G A2 | [d2D2] [_d2_D2] [c2C2] | [B3B,3] [cC][BB,][AA,] | [B6B,6] :|

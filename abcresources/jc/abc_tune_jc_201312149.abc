@@ -1,0 +1,28 @@
+X: 1
+T: Mock Match
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.231 "X 2"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.  [The second "change" is spelled "chonge"; fixed.]
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+fe |\
+f2F2 A2c2 | d6 c2 | defd efgf | e3d c2fe |\
+f2F2 A2c2 | d6 c2 | defd | efge | f6 :|
+|: ag |\
+a2f2 g2a2 | b6 a2 | bagf efef | gfed c2ag |\
+a2f2 g2a2 | b6 a2 | gfed c2e2 | f6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center East strain twice.
+%%begintext align
+%% First, Figure single, and right-hands and left, then Figure single with the next cu. and right-hand and
+%% left, then cast up 1. cu and change the man into the wo. place, then cast up a top and change again .|
+%% Then you will be in your own places, then right-hand and left till you come below, then lead through
+%% the first cu. then you will come right
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

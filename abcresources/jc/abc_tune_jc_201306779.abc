@@ -1,0 +1,60 @@
+
+X: 1
+T: Maple Leaf Rag    [F]
+C: Scott Joplin (1899)
+R: rag
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+P: AABBACC
+K: F
+"A"|: "(C7)"z2 |\
+"F"zFcF Ac2F | "C7"cEGc- c4 | "F"zFcF Ac2F | "C7"cEGc- c4 |\
+"Db"zF_A_d "C"zc2c | "Db"zF_A_d "C"zc3 |
+"n.c."(F_Acf) (_Acf_a) | (cf_ac') (f_ac'f') |\
+"Fdim"f2f2 f2ff- | "F"fcdA cd-d2 | "Db"FG_AF "F"G=A2F | "C7"AF.G2 "F".F2z2 |
+"Fdim"f2f2 f2ff- | "F"fcdA cd-d2 | "Db"FG_AF "F"G=A2F | "C7"AF.G2 "F".F2 \
+"B":: z2 |\
+"C7"zec'e g=b2e | _bega- acgc |
+"F"zAfA cd2c | "F"fAcd- dAd2 |\
+"C7"zceG Bd2c | eGBd- dBd | "F"zAfA cd2c | fAcd- dAd2 |
+"C7"z!f!ec'e g=b2e | "C7"_bega- acgc | "F"z!mf!AfA cd2c | "F"f2[f2A2] "E7"[e2^G2]"Eb"[_e2=G2]|\
+"D"zD^FA dAFD | "Gm"zDGB d2B2 |
+"G7"A2zA- "C7"AG3 | "F"zFAc "F"f2z2 \
+"C"::\
+"Bb".f2.d2 .f2.d2 | f2ga- agfd | "F"cd2A- A4 | "F"zcdA cd2A |
+"C7"cd2G- G4 | "C7"zBdG Bd2A |  "F"AcdA cd2A- | "F"AcdA cd2c |\
+"Bb".f2.d2 .f2.d2 | "Bb"f2ga- agfd |
+"F"f2d2 cf2A- | AcdA cd2F- |\
+"Bb"FGF2 "G7/B"F2GF- | "F/C"FGAF "Dm"GA2F- | "G7"FGAF- "C7"FG3 |1 "F"F2c2 "F7"c2c2 :|2 "F".f2z2 .[f2A2] |]
+
+%%sep 1 1 500
+
+X: 1
+T: Maple Leaf Rag    [G]
+C: Scott Joplin (1899)
+R: rag
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+P: AABBACC
+K: G
+"n"|: "(D7)"z2 |\
+"G"zGdG Bd2G | "D7"dFAd- d4 | "G"zGdG Bd2G | "D7"dFAd- d4 |\
+"Eb"zG_B_e "D"zd2d | "Eb"zG_B_e "D"zd3 |
+"n.d."(G_Bdg) (_Bdg_b) | (dg_bd') (g_bd'g') |\
+"Gdim"g2g2 g2gg- | "G"gdeB de-e2 | "Eb"GA_BG "G"A=B2G | "D7"BG.A2 "G".G2z2 |
+"Gdim"g2g2 g2gg- | "G"gdeB de-e2 | "Eb"GA_BG "G"A=B2G | "D7"BG.A2 "G".G2 \
+"B":: z2 |\
+"D7"zfd'f a=c'2f | =c'fab- bdad |
+"G"zBgB de2d | "G"gBde- eBe2 |\
+"D7"zdfA ce2d | fAce- ece | "G"zBgB de2d | gBde- eBe2 |
+"D7"z!g!fd'f a=c'2f | "D7"=c'fab- bdad | "G"z!mg!BgB de2d | "G"g2[g2B2] "F7"[f2^A2]"F"[=f2=A2]|\
+"E"zE^GB eBGE | "Am"zEAc e2c2 |
+"A7"B2zB- "D7"BA3 | "G"zGBd "G"g2z2 \
+"C"::\
+"C".g2.e2 .g2.e2 | g2ab- bage | "G"de2B- B4 | "G"zdeB de2B |
+"D7"de2A- A4 | "D7"zceA ce2B |  "G"BdeB de2B- | "G"BdeB de2d |\
+"C".g2.e2 .g2.e2 | "C"g2ab- bage |
+"G"g2e2 dg2B- | BdeB de2G- |\
+"C"GAG2 "A7/c"G2AG- | "G/D"GABG "Em"AB2G- | "A7"GABG- "D7"GA3 |1 "G"G2d2 "G7"d2d2 :|2 "G".g2z2 .[g2B2] |]

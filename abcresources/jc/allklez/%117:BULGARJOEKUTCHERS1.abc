@@ -1,0 +1,20 @@
+X: 117
+T: Bulgar: Joe Kutcher's #1
+C: Joe Kutcher (Kammen 9#13)
+Z: John Chambers <jc:trillian.mit.edu>
+N: (1) The original had several more bars of Cm here.
+B: Kammen 9 #13
+R: Bulgar
+M: 2/4
+L: 1/8
+K: Dphr
+|:D^FG \
+| "D"A4-    | AA "Gm"B/A/G        | "D"B A3-  | A^F  "Cm"{A}G/F/E \
+|  "D"G ^F3- | "D"^FD "Cm"{F}E/D/C | "D"DE ^FG | AB ^cd            |
+|  "D"A4-    | Ac "Gm"B/A/G        | "D"B A3-  | A^F  "Cm"{A}G/F/E \
+|  "D"G ^F3- | ^FD "Cm"{F}E/D/C    | "D"D4-    | D :|
+|:"D7"D[BD][AC] \
+| "Gm"[G4-B,4-]     | [GB,][BD] [AC][GB,]      | "D7"[AC] [^F3-A,3-] | [^FA,]D [BD][AC] \
+|  "Gm"[G3B,3] d    | "A7"^c/d/=e/d/ ^c/B/A/G/ | "(D)"A4-          | "D7"AD [BD][AC]  |
+|  "Gm"G^F "(F)"GA | "(Eb)"BA "(D)"B=B        | "Cm"[c4E4]         | [c2E2] [c2E2] \
+|  "D"cA "Gm"B/A/G | "D"A^F "Cm"G/F/E         | "D"^FD "Cm"E/D/C  | "D"D  :|

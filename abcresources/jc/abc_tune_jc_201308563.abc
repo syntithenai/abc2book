@@ -1,0 +1,45 @@
+X: 1
+T: McLean of Pennycross
+C: P.M. William Ross
+R: march, strathspey
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+S: http://www.thisoldtractor.com/guzzi007/Celtic/IMG_0354.pdf
+M: 2/4
+L: 1/16
+K: A
+(e>d) |\
+({cd}c>B)(A<a) c<ec<A | (c<e{g}a>e) {fg}f2e>c |\
+(.A>.B)(c<a) (c<f){gf}e>(c | d)>cB<A {Bc}B2(e>d) |
+y4 |\
+({cd}c>B)(c<a) c<ec<A | (c<e)({g}a>e) {fg}f2(e>c) |\
+(.A>.B)(c<a) (c<e)(d>B) | {d}c2A2 {AB}A2 :|
+(c>d) |\
+e>(cA>c) {c}a2(f<a) | ({fg}f>e)(d<f) {f}e2(c<e) |\
+(.A>.B)(c<a) (c<f){gf}e>(c | d)>cB<A B2(c>d) |
+y4 |\
+e>(cA)<c {c}a2(f<a) | ({fg}f>d)({c}.d>.f) e2(c<e) |\
+(.A>.B)(c<a) c<ed>(B | {c}c2)A2 A2 |]
+(c>d) |\
+e>(cA>c) {c}a2(f<a) | (f>e)(d<f) {f}e2(c<e) |\
+(.A>.B)(c<a) c<f{gf}e>(c | d)>(cB<A) B2(e>d) |
+y4 |\
+({cd}c>B)(A<a) c<ec<A | (c<e)(a>e) {fg}f2(.e>.c) |\
+(A>B)(c<a) (c<e)(d>B) | {d}c2A2 {AB}A2 |]
+|: e2 |\
+(3(AAA) (c<A) (.e>.A)({d}c>B) | (.A>A)(A<a) {fg}f2(.e>.c) |\
+(.A>.B)(c<a) (c<f){gf}e>(c | d)>(cB<A) B2a2 |
+y4 |\
+(3(AAA) cA (.e>.A)({d}c>B) | (.A>.A)(A<a) {fg}f2(e>c) |\
+(.A>.B)(c<a) (c<e)d>(B | {d}c2)A2 {AB}A2 :|
+f>g |\
+{g}a>(ga)>(e f<a)({a}.e>.c) | (3(eee) (a>e) {fg}f2(.e>.c) |\
+(.A>.B)(c<a) (c<f){gf}e(c | d)>(cB<A) B2(f>g) |
+y4 |\
+{g}a>(ga)>(e f<a)({a}.e>.c) | (3(eee) (a>e) {fg}f2(.e>.c) |\
+(.A>.B)(c<a) (c<e)d>(B | {d}c2)A2 {AB}A2 ||
+(f>g) |\
+{g}a>(ga)>(e f<a)({a}.e>.c) | (3(eee) (a>e) {fg}f2(.e>.c) |\
+(.A>.B)(c<a) (c<f){gf}e>(c | d)>(cB<A) B2 {g}a2 |
+y4 |\
+(3(AAA) (c<A) ({fg}f>e)(f<a) | (c<e)(a>e) {fg}f2(e>c) |\
+(A>B)(c<a) (c<e)d>(B | {d}c2)A2 H[A2E2] |]

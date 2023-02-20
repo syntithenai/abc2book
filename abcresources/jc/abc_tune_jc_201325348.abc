@@ -1,0 +1,14 @@
+X: 1
+T: Polska efter B\aatsman D\"ack
+C: Trad.
+R: bond-polska, hambo
+S: http://www.nyckelharpa.org/archive/written-music/american-allspel-list/ 2022/10/2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+Q: 1/4=108
+K: G
+"^A"|:\
+(D3G) (BG3) D3G | B4 B6 (B2 | c3B) (AG3) F3G | A4 A8 ||
+(D3F) (AD3) F3A | c4 c6 (c2 | d3c) (BA3) G3A | B4 B8 "^B":: e4 (e3d) c3e |
+d4 (de)dc B3d | (c3B) (AG3) F3A | [1,3 G4 (3(B2G2B2) d3d :|[2,4 G4 G8 :|

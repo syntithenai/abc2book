@@ -1,0 +1,20 @@
+X: 53
+T: Sandansko Oro
+T: Strand\vzansko Horo
+O: Bulgaria
+S: Hamish Small ??
+R: Horo
+P: ABABC
+N: 9+13
+M: 22/8
+K: Bm
+"^A"\
+|:  B2 f2 e2 f3  | e2 ed f2 e3  | dc cB \
+|1  Bc d2 dc e2d | dc cB c2 B3  | Bc de \
+:|2 Bc d2 dc e2d | dc cB c2 B3  | B2 B2 ||
+"^B"\
+|:  Bc d2 ec e2e | dc cd de e2g | ed cB|\
+    Bc d2 dc e2d | dc cB c2 B3  | B2 B2 :|
+"^C"\
+|:  de f2 fe e2d | de fg ag f2e | de ed|\
+    de f2 fe e2d | de fg fe ded | dd d2:|

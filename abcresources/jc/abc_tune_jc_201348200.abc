@@ -1,0 +1,25 @@
+X:1
+T:Up to the Line
+M:12/8
+L:1/8
+Q:80
+C:Michael Grey & Bruce Gandy
+S:March
+K:HP
+[| {g}f2{e}f{g}e3/2c/2{d}A{Gdc}d2{c}d{g}c3/2B/2{d}A | \
+{g}B2d{g}B/2d3/2{e}A{GdG}B3-B2d | \
+{gef}e2{A}e{g}e3/2f/2d{gcd}c2e{g}B/2{d}c3/2{e}B |
+{GdG}c3{Gdc}d3{gef}e2ag3/2e/2{g}c | \
+{g}f2{e}fa3/2f/2{g}d{g}B2f{a}g3/2e/2{g}c | \
+{Gdc}d2f{g}B/2d3/2{e}B{G}A3{GAG}A2d |
+{g}B3/2{d}G/2{e}G{g}G3/2B/2d{g}c2{GdGe}A{g}A3/2{d}c/2e | \
+{gf}g2{AGAG}A{g}e/2f3/2{g}e{Gdc}d3-d2|] [ | \
+{gf}g |
+a2{AGAG}Aa3/2f/2{g}dg3/2{a}B/2{G}Bg3/2e/2{g}c | \
+{Gdc}d2f{g}B/2d3/2{e}B{G}A3-A2f | \
+{a}g2{GdG}g{a}B/2d3/2g{afg}f3/2d/2{e}B{G}A3/2d/2f |
+{g}e2{AGAG}A{g}f2{AGAG}A{gef}e3{A}e3/2f/2g | \
+a2{AGAG}Aa3/2f/2{g}dg3/2{a}B/2{G}Bg3/2e/2{g}c | \
+{Gdc}d2f{g}B/2d3/2{e}B{G}A3{GAG}A2d |
+{g}B3/2{d}G/2{e}G{g}G3/2B/2d{g}c2{GdGe}A{g}A3/2{d}c/2e | \
+{gf}g2{AGAG}A{g}e/2f3/2{g}e{Gdc}d3{gdc}d3|]

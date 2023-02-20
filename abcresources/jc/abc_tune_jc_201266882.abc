@@ -1,0 +1,24 @@
+X: 1
+T: Dann
+C: Mike Briggs 1997
+N: Written in honor of Dann Willett, longtime member of the Madison (Wisconsin) Scottish dance group.
+N: Mike wrote: Dann and Jean Willett were longtime members of the Madison group.  After a lifetime of
+N: square  dancing  they  took  up  SCD in their 60s.  Dann passed away 2 years ago [2009], Jean last
+N: February [2011], both in their late 80s at the time. The tunes ["Dann" and "Jean"] were written as
+N: change  tunes  for  Pelorus  Jack.   I was aiming for something resembling the rinky-dink carousel
+N: character of Christian Catto, and I think I succeeded.
+R: jig
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+f \
+| "C"g3 efg | "C"c3 G3 | "F"ABc d2c | "C"G6 \
+| "F"ABc cBA | "C"G3 e3 |"D"d^cd e2^f | "G"g3- g2 ||
+e \
+| "C"g3 efg | "C"c3 G3 | "F"ABc d2c | "C"G6 \
+| "F"A2B "D7/f#"c2d | "C"e2g "A7/c#"a2g | "D7"edc "G7"g2e | "C"c6 |]
+[| "E7"E3 ^F2^G | "Am"A3 c3 | "Am"cBA "E7"B2^G | "Am"A6 \
+| "F"A3 c2A | "C"G3 E3 | "D"D^CD "D7"E2F | "G"G6 ||
+| "E7"E3 ^F2^G | "Am"A3 c3 | "Am"cBA "E7"B2^G | "Am"A6 \
+| "F"A3 c2A | "C"G3 e3 | "Dm"edc "G7"g2e | "C"c3- c2 |]

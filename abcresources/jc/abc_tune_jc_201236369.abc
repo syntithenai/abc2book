@@ -1,0 +1,26 @@
+X: 21
+T: STARRY NIGHT IN SHETLAND
+S: Ian Williamson, Cullivoe
+R: waltz
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The first 4 bars of the 2nd part have fingering notation that can't be represented in ABC.
+M: 3/4
+L: 1/8
+K: D
+uA2 |\
+vf4d2 | A2(uB2A2) | (vG4.G2) | (uc4B2) |\
+(vA4.c2) | (ue4.A2) | f6 | (uf4A2) |
+f4d2 | A2(B2A2) | (G4.G2) | (c4B2) |\
+A2c2ef | g2B2c2 | ud6 | vd4 :|
+|: (uef) |\
+(g2B2g2) | (g2B2g2) | (f2A2f2) | (f2A2f2) |\
+f2d2f2 | a2g2f2 | e6 | e2d2e2 |
+f4d2 | A2(B2A2) | (G4.G2) | (c4B2) |\
+A2c2ef | g2B2c2 | ud6 | vB4 :|
+%%begintext align
+Naebody kent very much aboot waltzes until efter da turn o' da
+century whan day cam into Shetland frae da Sooth.  Dey spread
+very quickly an are still popular today.  We dinna ken wha
+composed dis een bit it cam frae da North Isles.
+%%endtext

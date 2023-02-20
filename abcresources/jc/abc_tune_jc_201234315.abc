@@ -1,0 +1,26 @@
+X: 20421
+T: the CELEBRATED SWISS WALTZ.  Les Rans des Vaches.
+Q: "Adagio"
+R: waltz
+B: "Edinburgh Repository of Music" v.2 p.42 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: G
+%%slurgraces
+%%graceslurs
+[| !p!\
+(G2B2c2) | ("_>"d4B2) | (c4d2) | ("_>"B4G2) |\
+(G2B2c2) | ("_>"d4B2) | "_>"c4c2 | HB4z2 |\
+HG6 | HD4z2 |
+(d4B2) | c4A2 |\
+G4(AB) | (G4g2) | (d4B2) | ({d}c4B2) |\
+G4(AB) | {A}G6 "^Vivace."|][|!mf! G2B2G2 | {B}A4G2 |
+G2(B2G2) | {B}A4G2 | B4G2 | {B}A4G2 |\
+G2A2G2 | (A4G2) | (B4G2) | {B}A4G2 |\
+(G2A2G2) | {B}A4G2 |
+B4G2 | {B}A4G2 |\
+HD6 "^Adagio."|][| (d3cB2) | {d}c4B2 | G4(AB) |\
+{A}G4g2 | (d4B2) | {d}c4B2 | G4(AB) |\
+G6 |]

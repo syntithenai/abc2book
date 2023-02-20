@@ -1,0 +1,32 @@
+X: 14
+T: the Broken Fiddle
+%R: waltz
+B: "Le Sylphe, Twenty Four Country Dances with Figures for the Year 1818", Button & Whitaker, p.7 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1818
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 3/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+gf |\
+eg^fgc'e | g3Gce | dag3f | ee'c'2(gf) |\
+eg^fgc'e | g3Gce | dag3B | c2z2 :|
+|: dc |\
+Bfd3B | cge2dc | dd'bgfd | egag^f=f |\
+eg^fgc'e | g3Gce | dag3B | c2z2 :|[K:F]
+|: AB |\
+c2c=Bc2 | c2d2e2 | {g}f2fef2 | {g}^f2fef2 |\
+{a}g2g^fg2 | {b}a2a^ga2 | c'2e2e2 | f2z2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center WALTZ FIGURE        (Each strain repeated)
+%%begintext align
+%% The 1st Lady meets & turns 2d Gent: 1st Gent: the 2d Lady |: promenade
+%% a la waltz |: swing with right hands round 2d Cu: & turn your partner |: .
+%%endtext
+%%center COUNTRY DANCE FIGURE        (Each strain repeated)
+%%begintext align
+%% Whole figure at top |: cross over one Cu: & half figure
+%% round the bottom Cu: |: & lead outsides |: .
+%%endtext
+%%sep 1 1 450

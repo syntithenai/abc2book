@@ -1,0 +1,16 @@
+X: 235
+T: More Cica Rece da me Zeni
+O: Bulgaria
+M: 5/8
+L: 1/8
+Q: 1/4=192
+K: Em
+%%MIDI gchord fzzfz
+%%MIDI program 64
+%%MIDI bassprog 32
+|:"E" E/B,/G2FE|"B"FD  E3|"E"E/B,/G2FE|"B"FDEB,2   |
+  "E"E/B,/G2FE |"B"FG AB2|AG  GFE     |"E"FDE3     :|
+  "G"  GG2A2   |B2B3     |B2B3        |A2G3        |
+  "A"  GF2G2   |A2E3     |"E"E2E3     |E2E3        |
+|:"D" D2D3     |"E"E2E3  |E2E3        |"G"FG2G2    |
+  "G" zGA"A"BA |TG2F3    |A2E3        |"E"E2E3     :|

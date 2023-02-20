@@ -1,0 +1,26 @@
+X:130		% (115 in ed.1)
+T:Bantry Bay Boys % (#115 ed.1?)
+R: jig
+%S: s:2 b:16(8+8)
+%S: s:4 b:16(4+4+4+4)
+M:6/8
+L:1/8
+S:Riley's Country Dances for 1798
+K:C
+% - - - - - - - - - -
+V: 1 staves=2
+c/2d/2 |\
+ecA AcA | ecA A2 f | dBG GBG | dBG Bcd ||\
+ecA AcA | ecA c2 d | e2 a g2 e | dBG A2 :|
+|: B |\
+c>dc cBA | GEG GAB | c>dc cBA | e3 B2 B ||\
+c>dc cBA | GEG GAB | e2 a g2 e | dBG A2 :||
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+[A3a3] [e3a3c'3] | c3 [e2c'2]z | [G3g3] [g3b3d'3] | B3 [g3b3d'3] ||\
+[A3a3] [e3a3c'3] | c3 [e2a2c'2]z | [E3e3] [e3g3b3] | [G3g3] [a2c'2e'2] :| 
+|: z |\
+[A3a3] [e3a3c'3] | c3 [e3c'3] | A3 [a3c'3e'3] | [E3e3] [e2g2b2]z ||\
+[A3a3] [e3a3c'3] | c3 [e3c'3] | [E3e3] [e3g3b3] | [G3g3] [a2c'2e'2] :|

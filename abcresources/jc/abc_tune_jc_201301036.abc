@@ -1,0 +1,37 @@
+%%staffsep 45
+
+X:1
+T:Le Laride
+T:Tri Martelod
+O:trad Brittany
+D:Alan Stivel, \`a l'olympia, Fontana 6399 008
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+L:1/8
+M:2/4
+K:Dm
+ GFE \
+| "Dm"D2 D2 | "C"C2 FE | "Bb"D2 DC/B,/ | "Am"A,=B, CA, \
+| "Dm"D2 D2 | "C"C2 FE | "Bb"DD "Am"CC | "Dm"D ","A,A,A, |
+| "Dm"D2 D2 | "C"C2 FE | "Bb"D2 DC/B,/ | "Am"A,=B, CA, \
+| "Dm"D2 D2 | "C"C2 FE |[M:3/4] "Bb"DD "Am"C2 "Dm"HD |[| A,  |[M:2/4] DCDE |
+|  "F"F2 EF | "G"GF ED | "Bb"F2 "C"E2  | "Dm"DC DE     \
+|  "F"F2 EF | "G"GF ED | "Bb"F2 "C"E |]
+
+%%sep 2 2 200
+
+X:2
+T:Le Laride
+T:Tri Martelod
+O:trad Brittany
+D:Alan Stivel, \`a l'olympia, Fontana 6399 008
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+L:1/8
+M:2/4
+K:Dm
+ A, \
+| "Dm"DCDE  | "F"F2 EF | "G"GF ED      | "Bb"F2 "C"E2  \
+| "Dm"DC DE | "F"F2 EF | "G"GF ED      | "Bb"F2 "C"E |[| GFE |
+| "Dm"D2 D2 | "C"C2 FE | "Bb"D2 DC/B,/ | "Am"A,=B, CA, \
+| "Dm"D2 D2 | "C"C2 FE | "Bb"DD "Am"CC | "Dm"D  A,A,A, |
+| "Dm"D2 D2 | "C"C2 FE | "Bb"D2 DC/B,/ | "Am"A,=B, CA, \
+| "Dm"D2 D2 | "C"C2 FE | "Bb"DD "Am"C2 | "Dm"HD |]

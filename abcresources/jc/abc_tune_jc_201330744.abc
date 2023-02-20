@@ -1,0 +1,19 @@
+X: 1
+T: Roaring Jelly
+T: Smash the Windows
+O: trad
+R: jig
+B: Kerr's Caledonian; Kennedy v.1, Cole
+B: Nathaniel Gow, Complete Repository Part 3, 1806 p.34
+N: In O'Neill's as a reel (#1382)
+N: This is a very simple version; most have more notes.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+"^A"[|] A \
+| "D"DED F2A | d2f "A7"ecA | "G"G2B "D"F2A | "A7"E2F GFE \
+| "D"DED F2A | d2f "A7"ecA | "G"Bgf "A7"edc | "D"d3- d2 :|
+"^B"|: a \
+| "D"a2f f2d | A2f agf | "A7"g2e e2c | A2f gfe \
+| "D"f2{e}d "Em"g2{f}e | "D"a2{g}f "G"b2{a}g | "D"f2{e}d "A7"e2{d}c | "D"d3- d2 :|

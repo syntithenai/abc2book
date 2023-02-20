@@ -1,0 +1,23 @@
+X: 022
+T: Newyears Day
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Abraham Mackintosh "A Collection of Strathspeys, Reels, Jigs &c.", Newcastle, after 1797, p.2
+F: http://imslp.info/files/imglnks/usimg/a/a8/IMSLP80796-PMLP164326-Abraham_Mackintosh_coll.pdf
+K: F
+V: 1
+A |\
+FGF fgf | fFF F2G | F2f fga | gGG G2A |\
+FGF fgf | c2b a2g | fed cAf | cAF F2 :|
+|: A/B/ |\
+cdc ABA | cdc A2B | cde fga | gGG G2A |\
+cdc ABA | c2b a2g | fed cAf | cAF F2 :|
+V: 2 clef=bass middle=d
+z |\
+f3 f3 | f3 f3 | f3 a2f | c'3 c2z |
+f3 f3 | a2g f2e | d2B c2z | f3 F2 :|
+|: z |\
+f3 F3 | f3 F3 | c'2b a2f | c'3 c2z |
+f3 F3 | a2g f2e | d2B c3 | f3 F2 :|

@@ -1,0 +1,15 @@
+X: 98
+T: Cahirciveen   #2
+B: O'Neill's 1850 #98
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+Q: "Slow with expression"
+O: F.O'Neill
+N: Compacted by using labels and play order [JC]
+N: Compacted via repeats and multiple endings [JC]
+N: Slurs and ornaments merged in the 3 A phrases to allow for repeats.
+P: Play AA BA
+M: 6/8
+L: 1/8
+K: G
+"^A"|: D !segno!| G>AG (FGA) | B>AG AD>E | FED (TCB,C) | DG{B}A "^fine"G2 :|
+"^B"[| (B/c/) | dBd cBA | GAG F<D (B/c/) | dBd cBA | (TGFG) B2!segno!A |]

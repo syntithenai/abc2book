@@ -1,0 +1,43 @@
+X: 36
+T: Mc Dermot Roe
+T: McDermot Roe
+C: Carolan
+%R: jig
+B: "The Hibernian Muse" p.22
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. XXXVI.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c |\
+{B}AFF Acc | f2F fed |\
+(e/f/g) c dcB | Acc {e}f2g |\
+ab/a/g ab/a/g | {g}fdd d2e/f/ |\
+gcg ga/g/f |
+{f}ec/d/e {e}f2c |\
+{B}AFF c(A/B/c/A/) | F(A/B/c/A/) F2f |\
+{f}ecc d(B/c/d/B/) | (c/B/A/B/c/)A/ G>AG |\
+FAf fFf | gcg afa |
+{b}agf {f}ece | fFF F3 |]\
+GCC GCC | A(F/G/A/F/) BGG |\
+(A/B/c)c (d/e/f)f | (e/f/g)g {f}ece |\
+fc'b (a/b/c'/b/a/g/) |
+fcf fcf |\
+b(g/a/b/g/) f(d/e/f/d/) | (Bc/d/)g {f}ece |\
+{e}f2F fed | {d}c2A BAG |\
+(A/B/c)c (fg/f/)e | f3- f3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+f3 f3 | a3 b3 | c'3 bag | f3 f2z |\
+f3 c3 | d3 D2z | e3 e2f |
+c3 A3 |\
+F3 f3 | d3 d3 | c'2c b2B | a2f c'2c |\
+f3 a3 | e3 f3 |
+a2b c'2c | f3 F3 |]\
+c3 e3 | f3 c3 | f3 b3 | c'3 c3 | f2g f2g |
+a3 A3 | b3 B3 | b3 b3 | a3 b3 | a2f g2c |\
+f2a c'2c | fcA F3 |]

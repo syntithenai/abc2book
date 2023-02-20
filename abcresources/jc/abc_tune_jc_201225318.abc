@@ -1,0 +1,35 @@
+X: 0931
+T: Flora McDonald
+%R: strathspey
+N: This is version 1, for ABC software that doesn't understand voice overlays or diminuendo symbols.
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1809, No. 9 p.3 #1
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances9
+M: C
+L: 1/8
+K: Edor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+|:"^8va  _  _  _"\
+E2E>G BEEF | E2E>F dFDF |\
+E2E>F EFGA | (B/c/d) A>d FDDF :|
+|:"^loco"\
+Eee>^d eEEF | Eee>c dDDF |\
+Eee>d Bcde | (f/g/a) e>f dDAF :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=D
+|:\
+EBGB EBGB | CAGA DAFA |\
+EBGB EBGB | FAFA DAFA :|
+|:\
+([G2E2][A2F2] [B2G2])z2 | [G2E2] A2 [F2D2] A2 |\
+[G2E2][A2F2] G2FE | D2 "_dim..."([G2C2A,2] [F2D2])z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change sides, back again,
+%% down the middle, up again,
+%% and turn your partner.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

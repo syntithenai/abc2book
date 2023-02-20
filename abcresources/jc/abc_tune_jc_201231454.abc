@@ -1,0 +1,20 @@
+X: 15252
+T: My love is Lost to me
+C: James Oswald
+%R: reel
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.5 p.25 #2
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The rhythms aren't quite right between strains; not fixed.
+N: The repeat signs and double bars don't match modern usage; it's not clear what is to be repeated.
+M: C
+L: 1/8
+K: Am
+%%slurgraces 1
+%%graceslurs 1
+"_Mod.ly Quick"AB |\
+c2(BA) E2(AB) | c2(BA) e2(dc) | B2g2 G3A | (Bc)(dB) E2(F^G) | A3B cBcd | edeg a3g | e2(dc) (fe)(dc) |
+{c2}B4 A2 :: (ab) | c'2c'b Ta3^g | (a^g)(ab) e3^f | (=ga)(ba) (g<e)(g<e) | (dc)(BA) G2(AB) | c2(BA) d2(cB) |
+edeg a3g | e2(dc) (fe)(dc) | TB4 A3 |[| E | (A^G)(BA) (cB)(dc) | (ed)(cB) A2(dc) | BdGd BGdG | (ga)bd (cB)(A^G) |
+AEBE cEdE | (ed)(cB) A2(Bc) | (Bc)(dB) (fe)(dc) | TB4 A3 |]| e | a2(c'b) a2(ge) | (dc)(de) A2(e^f) |
+(ga)(ba) ge (d/e/g) | (dBA)B G2(ab) | c'2ba (c'b)(a^g) | (abc')e db (d/c/B) | ceac Bbe^g | {g2}a4 A :|

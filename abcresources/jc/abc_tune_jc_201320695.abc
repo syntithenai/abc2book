@@ -1,0 +1,47 @@
+X: 1
+T: Our Gang (G\aang Gl\aat)
+C: Paul Milde 2010
+C: 2nd violin: Brian Mokler 2010
+R: ganglat, march
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+V: 1
+d2 \
+| gfga b2g2 | d4 B2G2 \
+| c2Bc e2c2 | A6 G2 \
+| F3G A2B2 | c2A2 F2D2 \
+| GFGA B2c2 | d2B2 G2d2 |
+| gfga b2a2 | g2d2 B2d2 \
+| e3d c2B2 | A6 G2 \
+| F3G A2B2 | c2A2 F2A2 \
+| G3G FGAF | G6 :|
+|: B2 \
+| d2ed B2ed | B2G2 A2G2 \
+| g2ag e2ge | d6 B2 \
+| c3d e2c2 | BABc d3B \
+| c2A2 FGAF | G2A2 B2c2 |
+| d2ed B2ed | B2G2 A2G2 \
+| g2ag e2ge | d6 B2 \
+| cBcd e2c2 | BABc d3B \
+| c2A2 FGAF | G6 :|
+V: 2
+d2 \
+| "G"BABc d2B2 | G4 D2G2 \
+| "Am"A4 C2E2 | "D7"F6 B,2 \
+| D3E F2G2 | A2F2 D2F2 \
+| "G"B,A,B,C D2E2 | B2G2 D2B2 |
+| "G"GFED B,2D2 | D2B,2 G,2B,2 \
+| "Am"c3A E2D2 | "D7"F6 D2 \
+| D3E F2G2 | A2F2 D2F2 \
+| "G"B,3D "D7"DEFD | "G"B,6 :|
+|: G2 \
+| "G"B2cB G2ED | B,2G,2 D2B,2 \
+| G2AG "C"c2ec | "D7"F6 D2 \
+| "C"E3F G2E2 | "G"DCDE G3D \
+| "D7"A2F2 DEFD | "G"B,2D2 G2A2 |
+| B2cB G2ED | B,2G,2 D2B,2 \
+| "G"G2AG "C"c2ec | "D7"F6 D2 \
+| "C"GFED E2G2 | "G"DCDE G3D \
+| "D7"A2F2 DEFD | "G"B,6 :|

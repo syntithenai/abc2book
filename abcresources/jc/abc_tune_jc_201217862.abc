@@ -1,0 +1,21 @@
+%%slurgraces 0
+%%writehistory 1
+
+X: 0000
+T: A Composite Music Volume
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: From an image at archive.org, taken from a copy in the Nation Library of Scotland, donated
+N: by Lady Dorothea Ruggles-Brise, formerly in the collection of John Glen (1833-1904)
+K:
+%%text Small note before the first title page:
+%%center THE GLEN COLLECTION
+%%center OF SCOTTISH MUSIC
+%%begintext align
+Presented by Lady Dorothea Ruggles-Brise to the national library of Scotland,
+in memory of her brother, Major Lord George Stewart Murray, Black Watch,
+killed in action in France in 1914.
+28th January 1927.
+%%endtext
+
+%%writehistory 0

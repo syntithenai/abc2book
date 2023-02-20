@@ -1,0 +1,24 @@
+X: 445
+T: Zensko Za Raka
+O: Macedonia
+F: http://www.youtube.com/watch?v=koFJp0HJs1E
+F: http://www.youtube.com/watch?v=GQnQ6GxyX04
+M: 4/8
+L: 1/8
+K: Cdor
+Q:1/4=160
+%%MIDI drum dd 35 35 60 40
+%%MIDI drumon
+%%MIDI program 23
+cdcB |c2cd |ezed   |e2d2   |e4-   |e2f2 |g_agf  |e2d2|
+cdcB |cGcd |efed   |e2ed   |e4-   |e2f2 |g_agf  |e3d |
+eeed |cccB |dddc   |B2AB   |c4-   |c2f2 |cBAB   |c4  |
+eeed |cccB |dddc   |B2AB   |cBc2- |c2f2 |cBAB   |c4  |
+CDCB,|C2CD |EzED   |E2D2   |E4-   |E2F2 |G_AGF  |E2D2|
+CDCB,|CG,CD|EFED   |E2ED   |E4-   |E2F2 |G_AGF  |E3D |
+EEED |CCCB,|DDDC   |B,2A,B,|C4-   |C2F2 |CB,A,B,|C4  |
+EEED |CCCB,|DDDC   |B,2A,B,|CB,C2-|C2F2 |CB,A,B,|C4  |
+G_ABc|B_AGF|EDCE   |DDD2   |DEDC  |EDCB,|CzDz   |EzFz|
+G_ABc|B_AGF|EDCE   |DDD2   |DEDC  |EDCB,|CB,A,B,|C2z2|
+EDCE |DCB,D|CB,A,B,|CCC2   |EDCE  |DCB,D|CDEF-  |F2z2|
+EDCE |DCB,D|CB,A,B,|CCC2   |EDCE  |DCB,D|C4     |z4  |

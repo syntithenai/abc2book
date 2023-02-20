@@ -1,0 +1,41 @@
+X: 08243
+T: the TRIUMPH
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.8 p.24 #3
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The rhythms aren't correct at strain boundaries.
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+g |\
+dBBG | cAAF | Ggfe | (e2d)g |\
+dBBG | cAAF | G2A2 | G3 :|\
+|:\
+A2c2 | B2d2 | A2c2 | B2d2 |
+AAAc | BBBg | B2A2 | G4 :|\
+|:\
+B2Bd | dcBA | A2Ac | c2B2 |\
+BBcd | efge | dcBA | G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z |\
+G2g2 | A2a2 | b2c'2 | [c'2g4] b2 |\
+[b2g2][b2g2] | [c'2a2][c'2a2] | [b2g2][a2d2] | [b2g2][bg] :|
+|:\
+dfaf | dgbg | dfaf | dgbg |\
+dfaf | dgbg | d2f2 | g2G2 :|
+|:\
+gd'bd' | ad'c'd' | fd'ad' | gd'bd' |\
+gd'bd' | cgeg | d2f2 | g2G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across, back again,
+%% down the mid: up again,
+%% Right and left, and Swing Corners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

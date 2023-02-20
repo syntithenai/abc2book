@@ -1,0 +1,30 @@
+X: 391
+T: LORD DOWN
+C: M. McDonald 4th Coll.
+R: Strathspey
+B: Glen Collection p.39 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Added missing dot in bar 9.
+M: C
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Gm
+%
+V: 1
+g |\
+G<G d>B d<G G>f | F<F c>A c<F F>g | G<G d>B d<G G>g | f<d {d}c>A {A}G2 G :|
+d |\
+g>a b>g d>g b>g | f>g a>f c>f a>f | g>a  b>g d<g A<f | A<F c>A {A}G2 Gd |
+g>a {ga}b>g d>g b>g | f>g {fg}a>f c>f a>f | G>A B>c d<g bg | f<d {d}c>A G2 G |]
+%
+V: 2
+z |\
+G2[g2d2] B2[g2d2] | f2[a2f2] A2[f2c2] |\
+G2[g2d2] B2[g2d2] | f2[a2f2] [b2g2][bg] :|
+z |\
+g2[g'2d'2] b2[g'2d'2] | f2[c'2a2] a2[f'2c'2] |\
+g2[g'2d'2] b2[f'2d'2] | f2[a2f2] [b2g2][b2g2] |
+g2[g'2d'2] b2[g'2d'2] | f2[c'2a2] a2[f'2c'2] |\
+b2g2 d2G2 | d2[a2f2] [b2g2][bg] |]

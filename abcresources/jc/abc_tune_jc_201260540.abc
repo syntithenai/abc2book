@@ -1,0 +1,20 @@
+X: 473
+T: Castle Donovan   #2
+N: Irish title: caislean ui .donna.bain
+R: waltz, air
+%S: s:2 b:32(8+8+8+8)
+R: air, waltz
+B: O'Neill's 1850 #473
+O: F.O'Neill
+Z: henrik.norbeck@mailbox.swipnet.se
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+Q: "Moderate"
+M: 3/4
+L: 1/8
+K: Gm
+G>F "^A"|: D2 G2 G>A | B2 cB G>A | B2 c2 3d=e^f | g4 ag |\
+[1 f2 d2 cA | B2 A2G2 | F6- | F4 GF :|[2 f2 d2 c2 | B2 G2 {B}A2 | G6| G2 "^fine"z2 |]
+"^B"|| Bc| d2 g2 af| g2 d2 dc| B2 c2 d=e| f4 dc| B2 G2 GA | B3cdc | B2 G2 G2 | F4 "^->A2"DC |]
+%%text Play with the 2-note beats "dotted", as in the 2nd bar.

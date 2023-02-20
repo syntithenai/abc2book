@@ -1,0 +1,20 @@
+X: 1
+T: Clark's Hornpipe
+P: piffero primo a0496
+O: Harry L Clark
+%R: hornpipe, shottish
+F: http://ancients.sudburymuster.org/mus/sng/pdf/clarksC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: B
+F |\
+{c}B>^AB>c d>cd>e | f>=f^f>g f>ed>e |\
+(3fgf (3efe (3ded (3cdc | B>cd>B (3cdc F>F |\
+{c}B>^AB>c d>cd>e |
+f>=f^f>g f>ed>e |\
+(3fgf (3efe (3ded (3cdc | B>gf>d | Bz2 :: a |\
+(3aba (3^gab a>=gf>e | d>cd>e f>F^A>c |
+(3fgf (3efg f>ed>c | B>^AB>c d>ef>g |\
+(3aba (3^gab a>=gf>e | d>cd>e f>ed>e |\
+(3fgf (3efe | (3ded (3cdc | B>gf>d Bz2 :|

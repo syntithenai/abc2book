@@ -1,0 +1,83 @@
+
+X: 1
+T: Ersko Kolo  [D]
+O: Croatia
+Z: 1999 John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/Intl/
+M: 2/4
+L: 1/8
+K: D
+P: Slow
+|: "D"[d2A] {e}[fd][dA] | {e}[fd][dA] {e}[fd][dA] | "A7"[e/c][f/d][ge] [ge][ge] | [ge][ge] [g/e][f/d][ec] |\
+|  "D"[d2A] {e}[fd][dA] | {e}[fd][dA] {e}[fd][dA] | "E7"[c/A][d/A][ec] [eB][eB] | "A"[eA]z [aA]z :|
+P: Fast
+|: "D"[d/A][e/c][fd] [fd][fd] | [f2d] [ec][dA] | "A7"[e/c][f/d][ge] [ge][ge] | [ge][ge] [g/e][f/d][ec] |\
+|  "D"[d/A][e/c][fd] [fd][fd] | [f2d] [ec][dA] | "E7"[c/A][d/B][ec] [eB][eB] | "A"[eA]z [aA]z :|
+
+%%sep 5 1 500
+%%sep 1 5 500
+
+
+X: 1
+T: Ersko Kolo  [G]
+O: Croatia
+Z: 1999 John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/Intl/
+M: 2/4
+L: 1/8
+K: G
+P: Slow
+|: "G"[G2D] {A}[BG][GD] | {A}[BG][GD] {A}[BG][GD] | "D7"[A/F][B/G][cA] [cA][cA] | [cA][cA] [c/A][B/G][AF] |\
+|  "G"[G2D] {A}[BG][GD] | {A}[BG][GD] {A}[BG][GD] | "A7"[F/D][G/D][AF] [AE][AE] | "D"[AD]z [dD]z :|
+P: Fast
+|: "G"[G/D][A/F][BG] [BG][BG] | [B2G] [AF][GD] | "D7"[A/F][B/G][cA] [cA][cA] | [cA][cA] [c/A][B/G][AF] |\
+|  "G"[G/D][A/F][BG] [BG][BG] | [B2G] [AF][GD] | "A7"[F/D][G/E][AF] [AE][AE] | "D"[AD]z [dD]z :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 0
+T: Fati\vse Kolo
+K:
+
+
+X: 1
+P: Fati\vse Kolo (in F)
+O: Srbija
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+%: 2+3+2+2
+M: 9/16
+L: 1/16
+K: F
+|: "C"C2 "F"A2A A2A2 | "C"GA BAG GA "F"F2 :| \
+|: "C"c2 cBA "A7"GA "Dm"FE | DE "Gm"F2G "A7"E2 "Dm"D2 :|
+|: "C"C2 "F"AGF "C"cB "F"AF | "C"C2 "F"AGF "C"cB "F"A2 \
+|  "C"C2 "F"AGF "C"cB "F"AF | "Gm"GF GAG "A7"FE "Dm"D2 :|
+
+
+X: 2
+P: Fati\vse Kolo (in G)
+O: Srbija
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+%: 2+3+2+2
+M: 9/16
+L: 1/16
+K: G
+|: "D"D2 "G"B2B B2B2 | "D"AB cBA AB "G"G2 :| \
+|: "D"d2 dcB "B7"AB "Em"GF | EF "Am"G2A "B7"F2 "Em"E2 :|
+|: "D"D2 "G"BAG "D"dc "G"BG | "D"D2 "G"BAG "D"dc "G"B2 \
+|  "D"D2 "G"BAG "D"dc "G"BG | "Am"AG ABA "B7"GF "Em"E2 :|
+
+
+X: 3
+P: Fati\vse Kolo (in A)
+O: Srbija
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+%: 2+3+2+2
+M: 9/16
+L: 1/16
+K: A
+|: "E"E2 "A"c2c c2c2 | "E"Bc dcB Bc "A"A2 :| \
+|: "E"e2 edc "C7"Bc "F#m"AG | FG "Bm"A2B "C7"G2 "F#m"F2 :|
+|: "E"E2 "A"cBA "E"ed "A"cA | "E"E2 "A"cBA "E"ed "A"c2 \
+|  "E"E2 "A"cBA "E"ed "A"cA | "Bm"BA BcB "C7"AG "F#m"F2 :|
+

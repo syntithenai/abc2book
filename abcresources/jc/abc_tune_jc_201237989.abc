@@ -1,0 +1,28 @@
+X: 30062
+T: SWITZER SONG OF HOME
+C:
+%R: march, song
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.6 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+|:\
+B3 B B B c B | BA A4 z2 |\
+A3 G F G A B  | G4 z2 [B2D2] |\
+e3 d c B A G | Fc c4 c2 |\
+B3 c B B c d | e3 d/e/ fe dc |\
+B3 c B B A F | E4 z4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+e3 e e e d e | B2 B4 z2 |\
+B3 B B B B B | e4 z2 BA |\
+G3 B A G d e | af d4 d2 |\
+e3 e e e B B | e6 A2 |\
+B3 B B B B B  | e4 z4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

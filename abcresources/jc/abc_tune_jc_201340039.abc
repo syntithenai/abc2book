@@ -1,0 +1,73 @@
+X: 1
+T: Spring Garden
+P: Longways for eight
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.149 #199 (297)
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.34
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The dance is formatted as two columns; ## used to indicate the second the column.
+M: 6/4
+L: 1/4
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+A2A c2c | e>ed a3 | A3 ^c3 | d>ed ^cA2 |][| f2f g>fe | fa2 g2e |
+f2f g>fe | fa2 g2c | fga g>fe | ded f>ga | A3 ^c3 | d>ed ^cA2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up forward and back .| that again :|
+%% ##
+%% Four to one End, and four to the other, Hands
+%% half round and fall back from one another, and
+%% change Places, Men in the Middle, and the Ends
+%% with their own .| This again :| Then all again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Men change Back to Back, and We. the like,
+%% change each with his own .| That again :|
+%% ##
+%% Cast off at both Ends, the 2d follow the 1st, and the
+%% 3d the 4d sett to them, then meet and change Places
+%% with them .| First and 2d lead down, the other up
+%% and change Places .| All this again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Lead to the Wall forward and back .| Turn
+%% off and change each with his own :|
+%% ##
+%% First and last Cu. mett, and the 2d and 3d fall
+%% back, the Men Arm in the Middle and the Ends
+%% with their own .| This again :| Then all again.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% Lead up forward and back .| That again :|
+%% ##
+%% Four to one end and four to the other, hands half round and fall
+%% back from one another, and change places, men in the middle,
+%% and the ends with their own .| This aain :| Then all again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Men change back to back, and wo.
+%% the like, change each with his own .| That again :|
+%% ##
+%% Cast off at both ends, the 2. follow the 1. and the 3. the 4. set
+%% to them you meet and change places with them .| 1. and 2.
+%% lead down, the other up, and change places :| All this again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Lead to the Wall forward and back .|
+%% Turn off, and change each with his own :|
+%% ##
+%% First and last cu. meet, and the 2. and 3. fall back, the men
+%% arm in the middle and the ends with their own .| This
+%% again :| Then all again.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

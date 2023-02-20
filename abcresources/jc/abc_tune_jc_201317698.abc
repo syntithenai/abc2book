@@ -1,0 +1,1885 @@
+% Edited somewhat by John Chambers, to fix a few things that my collection
+% of assorted ABC software can't handle.  The main problem was the many %%
+% lines that sometimes produce strange results, especially the odd margins.
+% There were also such things as slurs and bowings inside chords, missing
+% begin-repeat symbols, etc.
+%   -- John Chambers (2015-9-13)
+
+X:0
+T:The Northern Roots Tune Book
+F:http://northernroots.org/tunes/NorthernRoots.abc
+K:
+
+X:1
+% %NRChange 2008-02-24
+T: 30 Year, The
+C: Roger Tallroth
+M: 6/8
+L: 1/8
+Q: 1/8=320
+R: Jig
+K: Gmaj
+D |: "C"EDE "D"FEF | "G"GBG D2D | "C"EcB AGE | "D"FG(G A)A/F/D |
+"C"EDE "D"FEF | "G"GBG D2D | "C"EcB AGE \
+|1 "D"(FG)"G"G- G zD :|2 "D"(FG)"G"G- G zG ||
+|: "G"gfg "D"agf | "G"{f}g2~g d2d | "C"{d}egf edc | "Am"{c}BAG "D"A3 |
+"G"gfg "D"agf | "G"{f}g2~g d2d | "C"egf ~edB- | "Em"Bgf ~edB |
+"C"cBA "Em"{A}B2B | "C"ced "Em"~BAB | cBc "Am"eag \
+|1 "D"{g}(fg)"G"g- g zg :|2 "D"(fg)"G"g- gz D||
+
+X:2
+T:\AA Jenta \aa ja
+R:Hambo-polska
+O:Sweden
+M:3/4
+L:1/8
+K:G
+%P:A
+|: "G"B2 A>B G2 | B2 A>B G2 | "D7"A2 A>G F>G | A>G F>E D2 |
+  "G"B2 A>B G2 | B2 A>B G2 | "D7"A2 A>G F>G | A2 "G"G4 :|
+%P:B
+|: "G"G>B d2 d2 | "C"c>d e>d c>B | "D7"A>B c2 c2 | "G"B>c d>c B>A |
+"Em"G>A B2 B2 | "Am"A>B c>B A>G | "D7"F>G A>D E>F | A2 "G"G4 :|
+
+X:3
+T:Amerikatur 2
+O:Norway
+A:Sor Tr\ondelag, R\oros
+C:Traditional
+L:1/8
+M:3/4
+Q:1/4=145
+R:R\oros Pols
+K:D
+% %rightmargin 11.5cm
+"Intro"|\
+"A7"A>B cd e>c | "G"d2 d2-d3/
+% %rightmargin 2.78cm
+%P:A
+g/ |: "D"f>e d>c d>f | "G"g2 B7/ B/ | "A7"A>B cd e>c | "D"d>c d>e f>g |
+"D"f>e d>c d>f | "G"g2 B7/ B/ | "A7"A>B cd e>c | "G"d2 d4 :|
+%P:B
+|: "D7"D>F FD F>F | "G"DG GF G>B | "A7"A>B cd e>c | "D"d>c de f>f |
+ "D7"D>F FD F>F | "G"DG GF G>B | "A7"A>B cd e>c | "G"d2 d4 :|
+
+X:4
+% %NRChange 2010-04-19
+T: Annas Visa
+C: Leif G\"oras
+O: Sweden
+R: Waltz
+M: 3/4
+L: 1/4
+K: A
+Q: 1/4=140
+%P:A
+[V:1] c |"A" E2 E |"E" E E3/ D/ |"A" C E A | c2 A/G/ |"D" F B c |"Bm" d3/ c/ B/A/ |"E" A G3/ F/ | F E
+[V:2] E | C2 A, | G, G,3/ B,/ | A, C E | A2 F/E/ | D D C | B,3/ C/ D/F/ | F E3/ A,/ | A, G,
+[V:1] c |"A" E2 E |"E" E E3/ D/ |"A" C E A | c d e |"D" d F3/ A/ |"E7" G A B |"A" (A3 | A2) :|
+[V:2] E | C2 A, | G, G,3/ B,/ | A, C E | A, A =G | F D3/ B,/ | B, C D | ( C3 | C2) :|
+%P:B
+[V:1] E/E/ |"A" E/c/  c E/E/ | E/A/  A/c/ c/e/ |"D"  e d3/ c/ |"Bm" c B3/ A/ |"E" A G3/ F/ |
+[V:2] E/D/ |C/E/ A E/D/ | C/E/ E/A/ A/c/ | c/d/ F3/ E/ | E/F/ D3/ C/ | C/D/ B,3/ A,/ |
+[V:1] "E7"F E d |"D" d2 c |"A"c2  c/d/ | e E A |"A7" c d e |"D" f d c |
+[V:2] A, G, F | F2 A | A2 A/B/ | c C E | A B c | d F E |
+[V:1] "Bm"B c d |"A" c E3/ A/ |"E7" G A B |"A" (A3 | A2) :|
+[V:2] D E F | E C3/ C/ | B, C D | (C3 | C2 ) :|
+
+X:5
+T:B\"ol-Olle
+R:schottis
+H:efter Tros Olof Olsson
+A:Dalarna
+O:Sweden
+Z:id:hn-schottis-30
+M:C|
+F:http://www.norbeck.nu/abc/s/hnsch0.abc	 2004-11-13 03:51:54 UT
+K:Bm
+%P:A
+"Bm"Bcde f2f2|{fg}f2ed B4|"F#m"cdcA c2c2|"Bm"Bcdc B4|
+"Bm"Bcde f2f2|{fg}f2ed B4|"F#m"cdcA c2c2|"Bm"Bcdc B4:|
+%P:B
+K:D
+|:"D"A2fe d2AF|"G"G2G2 GBed|"A"c2c2 cAfe|"D"d2d2 d4|
+"D"A2fe d2AF|"G"G2G2 GBed|"A"c2c2 cAfe|"D"d2d2 d4:|
+
+X:6
+% %NRChange 2014-04-14
+T:Brudmarsch
+T:Cajsa's Gangl\"at
+O:Sweden
+C:Eft: Anders Stenberg Lillh\"ardal
+M:2/4
+L:1/8
+Q:1/4=80
+R:March/Gangl\"at
+K:G
+%P:A
+D |"G"Bc/B/ "D7"AB/A/|"C"GB "D"d3/c/|"G"Bc/B/ "D7"AB/A/|"C"GB "D"D2|
+"G"Bc/B/ "D7"AB/A/|"C"GB "D"d3/c/|"G"Bc/B/ "D7"AB/A/|"G"G2 z:|
+%P:B
+|:d|"Em"gg "Am"a3/f/|"D7"dd d3/c/|"G"Bc/B/ "D7"AB/A/|"C"GB "D"D3/ d/|
+"Em"gg "Am"a3/f/|"D7"dd d3/c/|"G"Bc/B/ "D7"AB/A/|"G"G2z:|
+
+X:7
+% %NRChange 2008-02-24
+T: Dacie's House
+C: Tom Moore
+R:Waltz
+O:USA
+M: 3/4
+L: 1/8
+K: Gmaj
+"G"B,4 "D"C2 | "G"D6 | "C"EG3 "D"F2 | "G"G4 A2 | B3 cd2 | "C"c4 B2 | "D7"A3 GA2 |
+"Em"B4G2 | "G"B,4 "D"C2 | D6 | "C"EG3 "D"F2 | "G"G4 A2 | B3 dB2 | "D"A4 G2 | "C"E(GG4 | G4) A2 |
+"G"B4 c2 | d6 | "Bm"d2 B2 A2 | "Em"G4 G2 | "Am"c4 B2 | "D"A3 GA2 | "G"B4 G2 | "C" E4 G2 | "D"D4 C2 |
+"G"B,2 D4 | "C"E2 G2 "D"A2 | "G"B4 c2 | d3 c "D"B2 | "C"A4 G2 | E (G G4) | "G"G6 ||
+
+X:8
+T:Dansen P\aa M\aakeskjaer
+O:Norway
+A:Tekst av E. Almquist
+C:Melodi av G. Wahlberg
+L:1/4
+M:3/4
+Q:1/4=170
+R:Waltz
+K:G
+% %rightmargin 11.5cm
+"Intro"\
+G | "G"B2 A | G2 z
+% %rightmargin 2.78cm
+%P:Verse
+G |: "G"D G A | B A G | "C"A2 G | E2 G | "D7"F2 c | B2 A | "G"B3 | G3 |
+"G"D G A | B A G | "C"A2 G | E2 G | "D7"F2 c | B2 A | "G"G3- | G z2 :|
+%P:Chorus
+"G"B A B | c2 B | "Am"A3 | E3 | "D7"A G A | B2 A | "G"G3 | D3 |
+"G"G F G | A G E | "D7"G z F | F3 | A A3/ A/2 | A B c | "G"c z B | B3 |
+"G"B B B | B c B | "Am"A3 | E3 | "D7"A A A | A B A | "G"G3 | D3 |
+"G"G F G | A G F | "Am"E A B | "C"c B A | "G"B3 | "D7"A3 | "G"G3- | G z2 |]
+% %multicol start
+% %rightmargin 11.5cm
+W:1. Dansen den gaar uptaa Maakeskjaer i lyse somer netter
+W:guttene svinger den de har kjaer i nattens friske vind! Det
+W:blaaser saa herlig fra havet der, det skvulper og det skvetter!
+W:Badet i lsligger Maakeskjaer i ildog maaneskinn!
+W:
+W:2. Blodet blir heftig og dansen vill og alles \oyne blanke;
+W:skyggene flakker og baalets ild til tramp og trekkspillaat!
+W:Langt klinger lokkende dans og spil og stjeler hver en tanke:
+W:Maakeskjaer stevener hver ungdom til i blomsters mykket baat.
+W:
+W:3. Trekkspillet laater den hele natt til leken og til dansen!
+W:Maanen den blekner og gaar for latt til ro blant fjer ne traer.
+W:Ungdommen stanser og ser betatt mot sol skinnet og glansen,
+W:takker for gledene de har hatt i natt paa Maakeskjaer:
+W:
+% %multicol new
+% %leftmargin 11.5cm
+W:Chorus:
+W:Smaab\olger kruser sj\oen,
+W:blinker som s\olv om \oen,
+W:trekkspillet laater fra baatene,
+W:allting for hekses av laatene!
+W:\Oynene straaler og kinnen
+W:blusser saa varmt imot vinden.
+W:Aldri for glemmer jeg nettene der
+W:uptaa Maaeskjaer!
+% %multicol end
+
+X:9
+T:Den 99-an'
+C:etter Charles Karlsen
+C:arr. for torader
+O: Norway
+L:1/8
+M:2/4
+Q:1/8=230
+R:Pariser
+K:D
+% %staffsep 0.62cm
+% %rightmargin 11.5cm
+"Intro"\
+[V:1]cd ef | gA Bc | d2 d2
+[V:2] x4 | x4 | x4
+% %rightmargin 2.78cm
+% %staves 1 2
+%P:A
+[V:1]|: "D"DF DF | A2 A2 | Ad Ad | f2 f2 | [1 "A"g>f ed | cB A2 |
+[V:2]|: D2 FA | d2 d2 | D2 FA | d2 d2 |[1 e>f gf | e2 c2 |
+[V:1]"A"EF GA | "G"G2 "D"F2 :|[2 "A"g>f ed | cd ef | gA Bc | "D"d2 d2 :|
+[V:2]GA Bc | AA AF :|[2 e>f gf | ed cc | AA AG | F2 F2 :|
+%P:B
+[V:1]|: "G"g>a gf | e2 B2 | "D"f>g fe | d2 A2 |[1 "A"e>f ed | cB A2 |
+[V:2]|: b>c' ba | g2 g2 | a>b ag | f2 f2 |[1 g>a gf | e2 c2 |
+[V:1]"A"EF GA | "G"G2 "D"F2 :|[2 "A"e>f ed | cd ef | gA Bc | "D"d2 d2 :|
+[V:2]GA Bc | A2 A2 :|[2 g>a gf | ed cc | AA Bc | A2 A2 :|
+
+X:10
+% %NRChange 2013-05-03
+T:Den Toppede H\one fra Vensyssel
+T:The Crested Hen
+O:Denmark
+R:Jig
+M:6/8
+K:A
+E|: E2A A2A |ABc dcB |A2A A2A |AGA BGE |\
+E2A A2A |ABc d2d |cBA GFG |[1 B3 A2 E :|[2 B3 Ace |
+|: a3 A3 |cBc dcd |f3 B3 |cBc dcd |\
+efg a2a |fdf a2a |gfe ^def |[1 e3 efg :|[2 e3 e2z |
+|: a3 a3 |a2e c2A |a3 a2a |gab gab |\
+a3 a3 |a2e c2A |f2e d2G |[1 B3 Ace :|[2 B3 A2 |]
+
+X:11
+T:Eikerril
+O:Norway
+A:
+C:etter Henrik Gjellesvik
+L:1/16
+M:2/4
+Q:1/8=180
+R:Reel, Turdans
+K:F
+% %rightmargin 11.5cm
+"Intro"|\
+"C7"c4BA BGEG | "F".F2A2 F2 z2
+% %rightmargin 2.78cm
+%P:A
+|: "F".C2C2 .A2A2 | "Bb"GABc d2c2 | "C7"c2BA B2G2 | GBAG "F"A2F2 |
+"F".C2C2 .A2A2 | "Bb"GABc d2c2 | "C7"c2BA BGEG | "F".F2A2 F2 z2 :|
+%P:B
+|: "C".G2G2 .c2c2 | e2ce g2g2 | "G7"g2fe d2d2 | dfed "C"c2ec |
+"C".G2G2 .c2c2 | e2ce g2g2 | "G7"g2fe d2d2 | dfed "C"c4 :|
+%P:C
+|: "F"f4 c3B | A2cA F2F2 | "C7"G2BG E3G | "F"F2FA c4 |
+ "F"f4 c3B | A2cA F2F2 | "C7"G2BG E3G | "F".F2F2 F4 :|
+
+X:12
+T:Eklundapolska n. 3 (Slang Polska)
+A:Uppland
+C:e Viksta-Lasse
+L:1/16
+M:3/4
+Q:100
+O:Sweden
+R:Polska
+Z:Richard Robinson <URL:http://www.leeds.ac.uk/music/Info/RRTuneBk/contact.html>
+K:G
+(vg2|\
+g2)(gb) b2g2 d2B2|(vcB)cd (eg)ec A3(vc|\
+~B2)AB (cd)cA (Bc)(BG)|(vAd3) {c}[D6d6] (vg2|
+g2)(gb) b2g2 d2B2| (ucB)cd (eg)ec A3(uc|\
+~B2)AB (cd)cA (Bc)(BG)| (u~AB)AF {F}u[G6G,6]:|
+(v[A2D2] |\
+[B3D3])(B ~c3)(c ~B3)B|\
+(vAd3) {c}[D6d6] (v[A2D2]|\
+[D3B3])([BD] [D3c3])([cD] [D3B3])[DB]|\
+(vAB)AF uD6 (v[D2B2]|
+[B3D3])([BD] [D3~c3])([cD] [D3~B3])[DB]|\
+(vAd3) {c}[D6d6] (v[F2G,2]|\
+[G,2G2])AB (cd)cA (Bc)(BG)| (vAB)AF {F}u[G6G,6]||
+(v[E2B2]|\
+BE)(BE) (cE)(cE) (BE)[E2~B2]|\
+([DA]d3) {c}[D6d6] (v[E2B2]|\
+BE)(BE) (cE)(cE) (BE)~B2| (vAB)AF uD6 (v[E2B2]|
+BE)(BE) (cE)(cE) (BE)~B2|\
+(Ad3) {c}[D6d6] v[F2G,2]|\
+[G,2G2]AB (cd)cA (Bc)(BG)|(vA~B)AF {F}[G,6G6]|]
+
+X:13
+% %NRChange 2008-02-24
+T:Eleanor's Processional
+C:Mark Heiman
+O:USA
+M:4/4
+L:1/4
+Q:1/4=120
+K:D
+%P:A
+"D"F/G/ "D7"A A2 | "G"G/A/ B "Em"B d | "A"c>d e A | "G"G2 "D"F2 |
+"D"F/G/ "D7"A A2 | "G"G/A/ B "Em"B d | "A"c>d "A7"e B/c/ |[1 "D"d2 d A :|[2 "D"d2 d|]
+%P:B
+e |"D"f/g/ a "A"e/f/ g | "Bm"~f/e/ d "G"B d/B/ |[1 "D"A d "Bm"d e |"Em"f/g/a "A"e :|[2 "D"A d "A7"d c | "D (G)"d3 :|
+
+X:14
+T:Emma
+T:Vals fr\aan Finland
+C:Trad.
+O:Finland
+R:Waltz
+Z:Bart Brashers, bart.brashers@nyckelharpa.org
+M:3/4
+L:1/4
+Q:1/4=180
+K:Am
+%P:A
+A,/C/ |: "Am"E>E E | C A, A,/C/ | E>E E | C A, A,/C/ | "Em"B,2 B,/C/ |
+D C B, | "Am"A,>B, C/D/ | E2 A,/C/ | E>E E | C A, C | E>E E |
+C A, C | "Em"B,2 B,/C/ | D C B, | "Am"A,>B, C/B,/ |[1 A,2 A,/C/ :|2 A, C E |]
+%P:B
+|: "Dm"A>A A | A G F | "Am"E>E E    | E D C | "Em"B,2 B,/C/ | D C B, |
+"Am"A,>B, C/D/ | E2 C/E/ | "Dm"A>A A | A G F | "Am"E>D E/F/ | E D C |
+"Em"B,2 B,/C/ | D C B, | "Am"A,>B, C/B,/ |[1 A, C E :|2 A,2 |]
+
+X:15
+T:Femspring
+C:Trad. Denmark
+O:Denmark
+S:Folkets Hus Nodesamling - http://www.folketshus.dk/spillefolk/noder.html
+M:5/8
+L:1/8
+Q:1/4=85
+K:Gm
+G/F/ G/B/ A A/F/ D |G/F/ G/B/ c c/B/ A ::
+d d/c/ A/c/ c/B/ G/A/ |{A} B B/A/ F/A/ G/^F/ D |
+d d/c/ A/c/ c/B/ G/A/ |{A} B B/c/ A/F/ G G :|
+
+X:16
+T:Finn Jenta
+R:Waltz Bakmes
+O:Norway
+O:USA
+M:3/4
+Z:Richard Robinson <URL:http://www.leeds.ac.uk/music/Info/RRTuneBk/contact.html>
+F: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000957.abc
+K:GDor
+%P:A
+"(D)"D^F |\
+"Gm"G2 G<^F G>A | {A}B2 BA B>c | \
+c<d dc d>e | "Dm"f2 fe gf |
+d2 dc Ac | "Gm"B2 {c}BA G2 |"D"^FG A2 F2 |1 D4 :|2 ^F<(G G2) :|
+%P:B
+|:\
+Bc |\
+"G"[D2d2] c2B2 | "Dm"[F4A4] AB | \
+"C"c2 (3BcB A2 | "G"[B,3G3] ^F GA |
+"Gm"[D2B2] A2 ^F2 | "D"D2A2 ^F2 \
+|1 "G"G2 d2 ^c2 | "D"^c<(d d2) d2 :|2 "G"G3G G2 |[B,2G2]:|
+
+X:17
+% %NRChange 2008-02-24
+T:Fire Skilling
+C:etter Per Kronen
+O:Norway
+L:1/16
+M:2/4
+Q:1/8=180
+R:Reinlender=Stabberinglender
+K:A
+% %staffsep 0.62cm
+% %rightmargin 11.5cm
+"Intro"|\
+"A"Aced cBAc| "E"BAGB "A"A4
+% %rightmargin 2.78cm
+% %staves 1 2
+%P:A
+|: "A"efed c2cd | "B7"B2B^d "E"e4 | efed c2cd | "E"B2BG "A"A4 :|
+%P:B
+|: "A"Aced c2A2 | Aced c2A2 | Aced cBAc |[1 "E"BAGB "A"A2E2 :| [2 "E"BAGB "A"A4 |
+K:D
+%P:A
+|: "D"ABAG F2FG | "E7"E2E^G "A"A4 | ABAG F2FG | "A"E2EC "D"D4 :|
+%P:B
+|: "D"DFAG F2D2 | DFAG F2D2 | DFAG FEDF |[1 "A"EDCE "D"D2A,2 :| [2 "A"EDCE "D"D4 |
+
+X:18
+% %NRChange 2010-12-20
+T:Fredrick's G\aangl\aat
+N:ASI Lag Midwinter Fest 2006 practice CD, Track 2
+Z:Transcribed by Jim Phillips, Feb 2006
+R:G\aangl\aat
+M:2/4
+L:1/8
+Q:1/4=90
+K:G
+%P:A
+D |: "G"G2 G/F/G/A/ | GD B,D | G>F GA | B3 B | "C"c>c cc |[1 "G"B>A GB |
+"A7"A>G FE | "D"DD ~E/D/E/F/ :|[2 "G"B>d BG | "D7"A{AB}c BA | "G"GG AB |]
+%P:B
+|:"C"[ec]>[ec] [e/c/][d/B/][e/c/][=f/d/] | [ec][cG] [GE][ec] | "G"[dB]>[ec] [dB][cG] | [B3G3D3] ~[GE] | "D"[FD]>[GE] [AF][BG] | "D7"[cA][ec] [dB][cA] |
+[1 "G"[BG]>[cA] [dB][ec] | "G7" [=f3d3] [fd] :|[2 "G"[BG]>D "^ad lib."[B/E/][c/D/][B/E/][A/F/] | [B3G3] D |]
+%P:A2
+|:"G"[BG]>[BG] [B/G/][A/F/][B/G/][c/A/] | [BG][GD] [DB,][GD] | [BG]>[AF] [BG][cA] | [d3B3] [dB] | "C"[ec]>[ge] [ge][ge] | "G"[dB]>[cA] [BG][dB] |
+[1 "A7"[e^cA]>[BG]  [AF][GE] | "D"[FD][FD] [GE][AF] :|[2 "D7"[cA][ec] [dB][cA] | [BG][BG] [cA][dB] |]
+%P:B2
+|:"C"[ec]>[ec] [e/c/][d/B/][e/c/][=f/d/] | [ec][cG] [GE][ec] | "G"[dB]>[ec] [dB][cG] | [B3G3D3] ~[GE] | "D"[FD]>[GE] [AF][BG] | "D7"[cA][ec] [dB][cA] |
+[1 "G"[BG]>[cA] [dB][ec] | "G7" [=f3d3] [fd] :|[2 "G"[BG]>D "^ad lib."[B/E/][c/D/][B/E/][A/F/] | [B3G3] D |]
+
+X:19
+% %NRChange 2008-02-24
+T:Funen March
+R:March
+O:Denmark
+M:4/4
+Q:1/4=160
+B:Rasmus Storm
+Z:Richard Robinson <URL:http://www.leeds.ac.uk/music/Info/RRTuneBk/contact.html>
+F: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a9c.abc
+N: Funen (or Fyn) is the island where the city of Odense is located, between the
+N: Jutland (Jylland) Peninsula and Zealand (Sjaelland), the island where Copenhagen
+N: is located.
+K:D
+%P:A
+FG|\
+"D"A2A2 A2Bc|d6 A2|"G"B2d2 "D"A2d2|"A"G2AG "D"F2A2|"G"Bdcd "D"Adcd|
+"A"A2G2 "D"F2d2|"A"c2cd e2ef|g6 fe| "D"f2ed "A"c3d|"D"d6:|
+%P:B
+de|"D"f2f2 f2ed|"A"e2f^g a2Bc|d2d2 "Bm"d2cB|c2"F#m"f2 e2dc|
+"G"B2B2 Bcd2|"D"A2AG F2A2|"G"B2B2 Bcd2|"D"A2AG F2A2|
+"G"B2d2 "D"A2d2|"A"A2GA "D"F2A2|"G"Bdcd "D"Adcd|"A"A2GA "D"F2d2|
+"A"c2cd e2ef|g6 fe|"D"f2ed "A"c3d|"D"d6:|
+
+X:20
+T:G\"ardebyl\aaten
+O:Sweden
+R:G\aangl\aat
+Z:John Chambers <jc@trillian.mit.edu>
+A:Allemanns Marsj Mixer
+Q:1/4=80
+R:Ganglat
+L:1/16
+F:http://jc.tzo.net:1742/~jc/music/abc/march/GardebyG_2.abc
+K:D
+% %rightmargin 11.5cm
+"Intro"[|]\
+"D"d2fd "A"Acec | "D"d6
+% %rightmargin 2.78cm
+%P:A
+|: FG \
+| "D"ABAF ABAF | A2"D7"fe d2c2 | "G"BdBG BdBG | "Em"B2gf e2d2 |
+"A7"c3d c2B2 | A2g2 f2e2 |1,3 "D"d2de f2fg | "(A7)"a6 :|2,4 "D"d2fd "A7"Acec | "D"d6 :|
+%P:B
+|: fg | "D"a4 fdfa | b2a2 "D7"g2f2 | "G"g3e B3e | "Em"g2f2 e2d2 |
+"A7"c3d c2B2 | A2g2 f2e2 |1,3 "D"d2de f2fg | "(A7)"a6 :|2,4 "D"d2fd "A7"Acec | "D"d6 :|
+
+X:21
+T:G\aangl\aat fr\aan \"Appelbo
+C:efter \"Artbergs Kalle
+O:Sweden
+A:Dalarna
+R:Snoa, G\aangl\aat
+Z:John Chambers <jc@trillian.mit.edu>
+N:modified by Bob Wyttenbach to match Buffalo Gap tunebook
+M:2/4
+L:1/16
+Q:1/4=90
+K:G
+%P:A
+uD2 | "G"G2(GD) G2B2 | d6(Bc) | d2(dB) d2(de) | "Am"c2(cB) A2(AB) |
+ "D7"c2(cd) e2(dc) | "G"(Bc)(BA) G2(FG) | "D7"(AB)(AF) D2(EF) | "G"G6 :|
+%P:B
+(uBd) | "G"g2g2 g2(fe) | "D7"f2f2 f2(gf) | "C"e2e2 (eg)(fe) | e2(d^c) "G"d2(=cB) |
+ "D7"c2(cB) A2(GA) | "G"(Bc)(BA) G2(FG) | "D7"(AB)(AF) D2(EF) | "G"G6 :|
+
+X:22
+T: G\aangl\aat fr\aan Vigelsj\"o av Sten Blomstr\"om (Swedish Walking Tune)
+O:Sweden
+C:Sten Blomstr\"om
+R:G\aangl\aat
+M: 2/4
+L: 1/16
+Q:80
+K: G
+%P:A
+"G"B4 "D7"A2GF | "G"G2G2 D4 | B4 "D7"AGAc | "G"B2B2 "D7"A4 \
+| "G"d2-d2 G2AB |
+ "C"c2c2 "G"B4 | "D7"ABAG FDEF |1 "G"G4- G4 :|2 "G"G2B2 c2d2 |]
+%P:B
+ "C"e3d cBcd \
+| e2g2 f2e2 | "G"d3c BABc | d2f2 e2d2 |
+ "D7"c3B AGFG \
+| A2-A2 D4 |1 "D7"cBA2 cBA2 \
+| "G"B2e2 d4 :|2 "D7"AGFG AFED | "G"G4- G4 |]
+
+X:23
+T:G\aangl\aat fran Mockfj\"ard (Frisells g\aangl\aat)
+R:G\aangl\aat
+O:Sweden
+M:4/4
+L:1/8
+C:Anders Frisell
+A:Dalarna
+Q:80
+Z:Richard Robinson <URL:http://www.leeds.ac.uk/music/Info/RRTuneBk/contact.html>
+F: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000952.abc
+F:http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000952.abc	 2004-11-13 03:47:44 UT
+K:D
+%P:A
+F/G/ |:\
+"D"A>B "A"AG {FG}"D"FD FF/G/ | A/B/A/F/ Ad "D"f3e/f/ |
+"G"gb/g/ "D"fa/f/ "A"ef/e/ "D"df/d/ |1 \
+"A"ce/c/ "E"E/^G/B/G/ "A"A3F/=G/ :|2 \
+"A"ca A/c/e/c/ "D"d3 :|
+%P:B
+|: e/f/ |\
+"G"g>a g/f/g/a/ bg dB | "D"A>g f/e/f/g/ a3 (3g/a/g/ |
+"A"fe e/^d/e/f/ ge cA | "D"df/d/ "A"ce/c/ "G"Bd/B/ "D"Ae/f/ |
+"G"g>a g/f/g/a/ bg dB | "D"A>g f/e/f/g/ a3 (3g/a/g/ |
+"A"fe e/^d/e/f/ ge cA |"D" da "A"A/c/e/c/ "D"d3 :|
+
+X:24
+T:Gamal Reinlender
+O:Norway
+A:
+C:Traditional
+L:1/16
+M:2/4
+Q:1/8=160
+R:Reinlender/Turdans
+K:D
+% %rightmargin 11.5cm
+"Intro"|\
+"Em"G>FE>F "A7"G>EC>E | "D".D2D2 D4 ||
+% %rightmargin 2.78cm
+%P:A
+[K:Dm]|: "Dm"D>EF>G A2A2 | "Gm"A>BG>B "Dm"A2F2 | "Gm"F>EG>E "Dm"F2D>F
+[1"A7"E>D^C>E "Dm"D4 :|[2"A7"E>D^C>E "Dm"D2^fe ||
+%P:B
+[K:D]"D"d2d2 "E7"d2ed | "A7"c2A2 A4 | "Em"G>FE>F "E7"G>AB>c | "A7"c2A2 A2a>g |
+"D"f2d2 "E7"d2e>d | "A7"c2A2 A4 | "Em"G>FE>F "A7"G>EC>E | "D".D2D2 D4 ||
+%P:C
+[K:Dm]"Dm".d2d2 "Gm"c3B | "Dm"A^GAB AFDE | .F2F2 "Gm"GABG | "A7".A2A2 =B2^c2 |
+"Dm".d2d2 "Gm"c3B | "Dm"A^GAB AFDE | F2F2 "A7"ED^CE | "Dm".D2D2 D4 |]
+
+X:25
+T:Gr\aatvalsen
+C:Ale M\"oller
+O:Sweden
+R:Waltz
+Z:copied by Bob Wyttenbach from Buffalo Gap Scandi Week 2000 tunebook
+N:transcribed 6/89 by Andrea Hoag (her notes say harmony by Per Gudmundson)
+M:3/4
+L:1/8
+%Q:1/4=160
+K:G
+%P:A
+V:1
+FG|"D"A4A2|A4A2|A3GF2|D4GA|"G"B4d2|"C"c4B2|"D"A6-|
+V:2
+DE|F3G ((3FED)|F3G ((3FED)|F3ED2|A,4B,D|G4{A}B2|A4G2|F3ED2|
+V:1
+A3FGA|"G"B4d2|"C"c4B2|"D"A3GF2|D3FAB|A4AB|"C"A3GF2|[1"D"[D6F6]|D4:|[2"D"[D6F6]||
+V:2
+[A,4D4]B,D|G4{A}B2|A4G2|F3ED2|[A,6D6]|"*"[C3E3](D CB,)|[C3E3][B,E](CD)|[1D6|D4:|[2D6||
+%P:B
+V:1
+F2G2A2|"G"B4B2|B3AG2|"C"c4B2|"D"A3FGA|"G"B4d2|"C"e4d2|"D"A6-|
+V:2
+D2E2F2|[G4G,4]G2|[G3G,3]FD2|[E4G,4]G2|([A,3D3][A,D]) B,D|G4{A}B2|c4B2|F3ED2|
+V:1
+A3FGA|"G"B4d2|"C"c4B2|"D"A3GF2|D3AAB|A4AB|"C"A3GF2|[1"D"[D6F6]:|[2"D"[D4F4]||
+V:2
+[A,6D6]|G4{A}B2|A4G2|F3ED2|[A,6D6]|[C3E3](D CB,)|([C3E3]B,CD)|[1D6:|[2D4||
+W:*harmony may be an octave higher here
+
+X:26
+% %NRChange 2010-02-05
+T:Hamburger fr Dalsland
+O:Sweden
+M:2/4
+L:1/8
+Q:100
+K:DMix
+Ad c>B|Ad f2|fe/f/ ge|ed/e/ f/d/A|\
+Ad c>B|Ad f2|fe/f/ ge/g/|fd d3/2:|
+|: e/ |\
+fa g>f|ed f2|fe/f/ gf/g/|ba a>g|\
+f>a g>f|ed f2|fe/f/ ge/g/|fd d3/2:|
+
+X:27
+T:Hils Fra Meg Der Hjemme
+C:av Elith Worsing
+O:Swedish-American
+R:Waltz
+L:1/4
+M:3/4
+K:C
+% %rightmargin 11.5cm
+"Intro"|\
+"G7"G2 G | A2 B | ("C"c3 | c3)
+% %rightmargin 2.78cm
+%P:Verse
+|: "C"G2 A | "G7"G-G A | "C"G2 F | E3 | "F"c2 d | "C"c2 d | "F"c2 B | A3 |
+w:I den stil-*le tau-se natt St\aar jeg her ved ski-pets ratt,
+w:Un-der him-mel-ens h\oy-e tak  H\or-es fjer-ne ving-es-lag,
+[1 "F"c2 A | G-G F | "C"E2 F | G3- | G2 G | "Dm" F2 E | ("G7"D3 | D3) :|
+w:un-der him-mel-ens stjern-e-vell, Ene og for-latt.
+[2 "F"A2 B | c2 d | "C"e2 c | G2 E | "Dm" G2 F | "G7" E2 D | ("C"C3 | C3 ) ||
+w:Fu-gle-trek-ket at-ter gar Mot nord, mot ly-se v\aar.
+%P:Chorus
+"C"c2 c | B2 B | "F"A3 | "Dm"F3 | "G7"B2 B | A2 A | ("C"G3 | G3) |
+w:Hils fra meg der hjem-me, Hils min far og mor,
+"A7"A2 A | G2 G | "Dm"F3 | D3 | "G7"G2 G | F2 F | ("C"E3 | E3) |
+w:Hils de gr\on-ne li-er Og den blan-ke fjord
+"C"c2 c | e2 e | "F"d3 | A3 | "G7"B2 B | "E7"d2 d | ("Am"c3 | c3 ) |
+w:Hvis jeg had-de vin-ger Fl\oy jeg hjem med deg
+"C"c2 c | G2 G | "F" B3 | "Dm"A3 | "G7"G2 G | A2 B | ("C"c3 | c3) |]
+w:Til de ly-se net-ter, Hils dem! Hils fra meg!
+
+X:28
+T:Hu Hei! Kor er det vel friskt og lett
+O:Norway
+A:Sunnfjord, Sogn og Fjordane
+C:Musikk: Traditional, Tekst: Kristofer Janson
+L:1/8
+M:3/4
+Q:1/4=150
+R:Waltz
+K:Am
+% %rightmargin 11.5cm
+"Intro"|\
+"Am"A2 A2 "E7"^G>E | "Am"A2 A2 z
+% %rightmargin 2.78cm
+"Vocal"[|\
+E | "Am"A>B c2 B>A | "E7"B>^G E2 G>E | "Am"A2 A2 ^G>E | A2 A2 z E |
+"Am"A>B c2 B>A | "E7"B>^G E2 G>E | "Am"A2 A2 "E7"^G>E | "Am"A2 A2 z B |
+"C"c>B c2 e>e | "G7"e>d B3 d | "Am"c>B A>B c>A | "E7"B>^G E2 G>E | "Am"A2 A2 "E7"^G>E | "Am"A2 A2 z |]
+"Instr."\
+B | "C"c>B c2 e>e | "G7"e>d B3 d | "Am"c>B A>B c>A | "E7"B>^G E2 G>E | "Am"A2 A2 "E7"^G>E | "Am"A2 A2 z2 |]
+W:Hu hei! kor er det vel friskt og lett
+W:upp aa fjellet, upp aa fjellet!
+W:Her leikar vinden i kaate sprett
+W:upp aa fjellet, upp aa fjellet!
+W:og foten dansar og augat loer,
+W:og hjartat kveikjande hugnad foer
+W:upp aa fjellet, upp aa fjellet!
+W:
+W:Kom upp! kom upp fraa den tronge dal
+W:upp aa fjellet, upp aa fjellet!
+W:Her bloes ein blaaster so frisk og sval
+W:upp aa fjellet, upp aa fjellet!
+W:og lidi skin utav blomar full,
+W:og soli drys alt sit fagre gull
+W:upp aa fjellet, upp aa fjellet!
+W:
+W:I dalen starvar du tung og heit,
+W:kom paa fjellet, kom paa fjellet!
+W:Kor fint her er, ikkje nokon veit -
+W:her paa fjellet, her paa fjellet!
+W:Ditt auga flyg yver nut og tind,
+W:det er, som flyg det i himlen inn
+W:upp fraa fjellet, upp fraa fjellet.
+W:
+W:Og naar so soli til kvila gjeng
+W:attum fjellet, attum fjellet,
+W:daa reida skuggarne upp si seng
+W:attmed fjellet, attmed fjellet.
+W:Daa gidrar alt i ein straalestraum,
+W:og hjartat sveiper seg inn i draum
+W:upp aa fjellet, upp aa fjellet!
+
+X:29
+T:I Bryllaupsgarden, pols
+C:etter Vidar Lande
+L:1/8
+M:3/4
+O:Norway
+A:Sor Tr\ondelag, R\oros
+R:R\oros Pols
+Z:Carol Turner
+Q:1/4=145
+K:D
+% %rightmargin 11.5cm
+[V:1]"Intro"c2 e>c A>c | d2 d4 ||
+[V:2]A2 (A>E) C>E | D2 D4 ||
+% %rightmargin 2.78cm
+%P:A
+[V:1] A/ |: "D"F2 (A>F) D>(F | "Em"G2) (B>G) E2 | "A7"c2 (e>c) A>(c  |1 "D"d2) (f>d) "A7"A>G :|2 "D"d2 d4 :|
+[V:2] z/ |: D2 (F>D) A,>(D | E2) (E>C) G,B, | E2 (E>C) E>(G |1 F2) (F>A) G>E :|2 F2 F4 :|
+%P:B
+[V:1] |:"D"f2 (f<d) f>(a | "Em"g2) (g<f) e>(d |1 "A7"c2) (e<c) e>(g | "D"f2) (f<e) d2 :|2 "A7"c2 (e<c) ((3AB)c | "D"d2 d4 :|
+[V:2] |: d2 (d>A) F>(A | B2) (B>G) E>(G |1 A2) (A>E) G>(C | D2) (D>F) A>c :|2 A2 (A>E) C>E | D2 D4 :|
+
+X:30
+T:Ingemunddansen
+C:Olav Christer Rosseb\oo
+S:Vidar Skrede
+M:2/4
+L:1/8
+Q:1/4=120
+K:G
+%P:A
+[V:1](D G)A |:"G"B2 d2 | "C"[E3c3] (B|"D"A)(D F)A | "G"[GB]D GA | B2 d2 |
+[V:2](G, B,)A, |:G,2 (B,D) | [E3G,3] (E | D) A,2 (C | B,)(G, B,)A, | G,A, B,D |
+[V:1]"C"[E3c3] (B | "D"A)(D F)A | "G"[GB]D "D"FA | "G"[G2B2] [G2(G,2] |[1 [G,)G] (D G)A :|]
+[V:2][E3G,3] (e | D) A,2 (C | B,)(G, A,)C | [D2B,2] [D2(B,2] |[1 [B,)D](G, B,)A, :|]
+%P:B
+[V:1][2 [G,3G3] (D |: "C"E)(E/D/ E)("D"F | "G"G)(B A)(D | "C"E)(E/D/ E)("D"F | "G"G)(G D) (D |
+[V:2][2 [D3B,3] (B, |: [CE]) [C2E2] ([EC] | B,)(G, A,)(B, | [CE]) [C2E2] ([EC] | B,)(A, G,) (B, |
+[V:1]"C"E)(E/D/ E)("D"F | "G"G)(B "D"A) (A/c/ | "G"B)(G "D"A)F/A/ | "G"[G2B2] ([G2G,2] |[1 [G,3G3]) D :|[2 [G,3G3] z |]
+[V:2][CE]) [C2E2] ([EC] | B,)(G, A,)(C | B,)(G, A,)(C | [B,2D2]) ([D2B,2] |[1 [B,3D3]) B, :|[2 [B,3D3] z|]
+
+X:31
+% %NRChange 2013-05-06
+T:Ingers Brudvals
+C:Pelle Svensson
+R:Vals
+O:Sweden
+D:Peter Puma Hedlund - Vägen
+M:3/4
+L:1/8
+K:D
+%P:A
+A,2 |: D4 F2 | A4 d2 | B3 G B2 | A4 F2 | D3 E F2 |
+G3 F ED | C3 E C2 | A,4 A,2 | D4 F2 | A4 d2 | B3 G B2 |
+A4 F2 | D3 E F2 | G3 F ED | C3 E C2 |[1 D4 A,2 :|[2 D4 A2 |]
+%P:B
+|: f3 e d2 | f3 e d2 | e4 c2 | A3 B c2 | d3 c B2 | d3 c B2 |
+c4 A2 | F4 F2 | G3 A B2 | A2 c2 e2 | d2 f2 a2 | g2 b2 g2 |
+f3 e d2 | c2 B2 c2 | d3 d d2 |[1 d4 A2 :|[2 d6 |]
+
+X:32
+T:Johan p\aa Snippen
+T:Shottish "Simple Gifts"
+T:Renki-jussi sottiisi
+C:Traditional
+O:Denmark
+R:shottish
+Z:John Chambers <jc@trillian.mit.edu>
+M:4/4
+L:1/8
+K:D
+%P:A
+|: "D"d2 de f2 fg | a2 ag f4 | "A7"e2 ef g2 fe | "D"d2 cB "(A7)"A4 |
+  "D"d2 de f2 fg | a2 ag f4 | "A7"e2 ef gg fe | "D"d2 [f2d2] d4 :|
+%P:B
+|: "G"d2 gb d2 gb | d2 gd b4 | "D"d2 fa d2 fa | d2 fd a4 |
+ "A7"A2 ce A2 ce | g2 gf e4 | A2 ce Ag fe |1 "D"f2 fe d4 :|2 "D"d2 [f2d2] d4 |]
+
+X:33
+T:Josefins dopvals
+T:Josefin's baptism waltz
+O:Sweden
+M:3/4
+L:1/4
+C:Roger Tallroth
+N:Josefin is Roger's niece.
+D:V\"asen, "Spirit"
+D:Dervish, "At the End of the Day"
+R:Waltz
+Z:John Chambers <jc@trillian.mit.edu>
+F:http://trillian.mit.edu/~jc/music/abc/mirror/wosikae:sbcglobal.net/Josefins_dopvals_1.abc
+K:G
+%P:A
+|: z"D7"D \
+| "G"DGA | Bdc | BAG | D2E | "C"C>CC \
+|1,3 EGF | "Am"E3 | "D7"D3 \
+:|2,4 "C"[EC]FG | "D7"A3- | A :|
+%P:B
+|: Bc | "G"dBd | g2f | "C"e3 | "G/B"d3 | \
+"Am"ced | cGA | "G"B>cB | "D7"ABc | "G"dBd | g2f |
+"C"e3 | "G/B"d3 | "Am"ced | cBA | "G"B>cB | "D7"ABc | \
+"Em"BAG | ""F2G | "C"G3 | C>DC | "G"B,DG | "D7"FEF | "G"G3- | G :|
+
+X:34
+T: Justin Otter Schottische
+C:John Krumm
+R: Schottische
+M:4/4
+Q:1/4=150
+Z:SG
+F:http://www.thursdaycontra.com/users/spuds/tunes/couple/JustinOtter.abc
+K:D
+(3ABc ||"D"d>c d>cd2A2|"G"B2d2g3g|"D"f>g a>f g>f e>d|"E7"e>f e>d "A7"e>A B>c|
+"D"d>c d>cd2A2|"G"B2d2g3g|"D"f>g a>f "A7"g>A B>c|"D"d2f2"Fine"d2:|
+c2|"Bm"B4 F4|B>c d>B F4|B2 c2 d2 e2|"F#7"f3g f>e d>c|
+"Bm"B4 F4|B>c d>B F4|"Em"G4 E2G2|"F#7"F2 F>G F>E D>C|
+"Bm"B,2B2 F4|B>c d>B F4|B2c2d2e2|"F#7"f2f>g f>e d>c|
+"Bm"B4 F4|B>c d>B F4|"A7"A3^GA3G|A2 ^A2 "D.S. al Fine"B2 c2||
+
+X:35
+T:Karis Pers Polska (Hambo)
+R:Hambo
+O:Sweden
+Z:Bob Wyttenbach  8/5/02, from Fiddles & Feet 2002 tunebook
+M:3/4
+L:1/8
+%Q:1/4=132
+K:D %clef=bass middle=d
+%P:A
+"D"{F}A2(uA>B) A>G|(G>F) (F>D) F>A|d2(d>e) d>c|"G"(c>B)B4|
+"A"e2(e>f)  e>d|(d>c) (c>A) c>e|"A7"a2(a>b) a>g|"D"(g>f)f4|
+{F}A2(A>B) A>G|(G>F) (F>D) F>A|d2(d>e) d>c|"G"(c>B)B4|
+"A"e2(e>f)  e>d|(d>c) (c>A) c>e|"A7"a2(a>g) f>e|[1"D"d2d4:|[2"D"d2d7/2||
+%P:B
+(f/|"G"g>f) (e>d) e>g|"D"(f>e) (d>c) d>f|"A"(e>d) (c>A) B>c|"D"(d>e) (f<g) a>f|
+"G"(g>f) (e>d) e>g|"D"(f>e) (d>c) d>f|"A"(e>d) (c>A) B>c|[1"D"d2d7/2:|[2"D"d2d4:|
+
+X:36
+T: Karjalan Katjuusa
+C: Blanter Matvej Isaakovich
+Z:Glenn Lee
+O: Finland / Karelia
+M: 2/4
+L: 1/8
+Q:1/4=120
+K: Am
+%P:A
+|: "Am"A A2 B | c2 A>A | Ac  BA | "E7"B^G E2 |
+B B2 c | d2 B>B | Bd cB |"Am"A4 :|
+%P:B
+|:"Am"e2 a2 | "G"g2 a2 | z "Dm"f ed | "Am"e2 A2 | z "Dm"d cB | "Am"c2 A>A | "E7"Bd cB | "Am"A4:|
+%P:C
+K:A
+"A"c3 d | e3 c | ef ga |"E7"a2 g2 | B3 c | d3 e |
+gf ed | "A"c4 | c3 d | e3 c | ef ga | "E7"a2 g2 |
+B3 c | d3 e | fe fg | [Acea][A/cea][A/cea] [A2cea] |]
+
+X:37
+% %NRChange 2010-02-05
+T:Katherine's Mysterious Tune
+L:1/8
+Q:1/8=150
+M:4/4
+Z:mheiman@northernroots.org
+K: DDor
+%P:A
+A/^c/ | d3/^c/ de f2 f2 | e/f/e/d/ ^c/d/e/^c/ A2 A
+e/g/ | f3/e/ fg a2 a2 | g/a/g/e/ f/g/f/d/ e2 e :|
+%P: B
+e/g/ | f3/e/ fg a2 a2 | g/a/g/e/ c/B/c/e/  g f/g/ a3/g/ |
+fd d3/f/ e/f/e/^c/ A^c | ed ^c/d/e/^c/ d2 d :|
+
+X:38
+T:Klappdans fr\aa Henning
+S:Nordahl Grieg Leikarring og Spelemannslag
+R:Turdans
+O:Norway
+L:1/8
+Q:1/4=100
+M:2/4
+K:G
+% %rightmargin 11.5cm
+"Intro"| "G"db af | gg g2
+% %rightmargin 2.78cm
+%P:A
+|:\
+"G"BB/c/ B/A/B/c/ | dd/e/d2 | db "D7"a2 | ca "G"g2 |
+"G"BB/c/ B/A/B/c/ | dd/e/d2 | db "D7"af | gg g2 :|
+%P:B
+|:\
+"G"Kb2 Kg2 | dd d2 | Kb2 Kg2 | dd d2 |
+"C"c'c' c'd'/c'/ | bb b z | aa g/f/e/f/ | gg g2 :|
+
+X:39
+T:L\"ordags valsen
+T:Saturday waltz
+C:Anselm Johansson
+O:Sweden
+R:Waltz
+Z:1998 by John Chambers <jc@trillian.mit.edu>
+M:3/4
+L:1/8
+K:G
+%P:A
+|: D2 \
+| "G"G3 DB,D | G2 A2 B2 | "Am"A3 EAB | c3 BAG \
+| "D7"F3 DFA | c2 B2 A2 | "G"B3 AGE | D4 D2 |
+ "G"G3 DB,D | G2 A2 B2 | "Am"A3 EAB | c3 BAG \
+| "D7"F2 D2 F2 | A2 B2 A2 | "G"G3 G G2 | HG2 :|
+%P:B
+|: G2 \
+| "C"E3 CEG | A2 G2 E2 | "G"D3 B,DG | B3 BAG \
+| "D7"F2 D3 F | A2 d2 c2 | "G"B3 AGE | D4 G2 |
+ "C"E3 CEG | A2 G2 E2 | "G"D3 B,DG | B3 BAG \
+| "D7"F3 DFA | c2 B2 A2 | "G"G3 G G2 | G2 :|
+%P:C
+|: D2 \
+| "G"DG BD GB | DG BD GB | DG c2 B2 | "D7"A3 A A2 |
+DF AD FA | DF AD FA | DF B2 A2 | "G"G3 G G2 |
+"G"DG BD GB | DG BD GB | "Am"EA cE Ac | EA cE Ac |
+"D7"d2 e3 d | c2 E2 F2 | "G"G3 G G2 | G2 :|
+
+X: 40
+% %NRChange 2011-12-05
+T: la Bastrange
+O: Qu\'ebec
+R: Reel
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+Q: 160
+|: "D"f2ff f2gf \
+| "A7"e2c2 "D"d4 \
+| "A7"c2d2 efec \
+| "D"d2e2 f2d2 \
+| "D"f2ff f2gf |
+| "A7"e2c2 "D"d4 \
+| "G"g2f2 efed \
+| "A7"B2c2 "D"d4 \
+:: "D"d2fd adfd \
+| "C"=c2ec gcec \
+| "D"d2fd adfa |
+| "A7"bgec dcBA \
+| "D"d2fd adfd \
+| "C"=c2ecgcec \
+| "D"d2fd adfa \
+| "A7"bgec "D"d4 :|
+
+X:41
+T: Laurdagskveld P\aa Vona (Brad #2)
+C: av Leiv Vonen
+S: Nordahl Grieg Spelemannslag
+O: Norway
+A: Sogn og Fjordane, Sunnfjord
+R:Reinlender
+M: 2/4
+L: 1/8
+Q:1/4=80
+K: G
+% %rightmargin 11.5cm
+"Intro"|\
+"D7"A/F/D/F/ A/c/A/F/ | "G"GG G
+% %rightmargin 2.78cm
+%P:A
+B/d/ |: "G"gg dd | Bd/B/ G2 | DD/G/ B>c | "D7"BA A2 |
+aa ff | dd A2 | DD/F/ A>B |[1 "G"AG GB/d/ :|[2 "G"AG G2 |]
+%P:B
+|:"G"B/G/D/B/ B>c | "D7"BA A2 | A/F/D/F/ A>B | "G"AG G2 |
+"G"B/G/D/B/ B>c | "D7"BA A2 | A/F/D/F/ A/c/A/F/ |[1 "G"GG G2 :|[2 "G"GG G |]
+
+X:42
+T:Liberty
+M:4/4
+L:1/8
+Q:1/4=200
+C:Traditional
+R:Reel
+K:D
+%P:A
+ag|:"D"f2A2f2A2|fefg fedf|"G"g2B2g2B2|gfga gfed|
+"D"f2 A2 f2 A2|fefg fedf|"G"gfed "A"cABc|[1"D"d2 dd d2 ag:|[2"D"d2 dd d4||
+%P:B
+"D"FGAB AGFG|ABde fed2| FGAB AG (3FGF|"A"E2 EFG2A2|
+"D"FGAB AGFG|ABde fedf|"G"gfed "A"cABc|"D"defe d2 z2|]
+
+X:43
+T:Livet i Finnskogarna
+T:Life in the Finnish Woods
+C:Karl Jularbo (1893-1966)
+O:Sweden
+Z:1997 by John Chambers <jc@trillian.mit.edu>
+R:waltz
+M:3/4
+L:1/8
+F:http://jc.tzo.net:1742/~jc/music/abc/Scand/Vals06.abc	 2004-11-16 04:26:50 UT
+K:G %Transposed from D
+%P:A
+CB,A, | "G"G,3B,DG | B3GDB, | "C"C3EGc | "Am"e6 | "D7"d3cAF |
+D3FAc | "G"B3GDB, | G,3CB,A, | "G"G,3B,DG | B3GDB, | "C"C3EGc |
+"Am"e6 | "D7"d3cAF | D3cAF | "G"G3 G G2 | "fine"G3 :|
+%P:B
+B,DG | "G"B3BB2 | "G7"c2B2A2 | "C"G4E2 | "G"D4d2 | "D7"d3cAF |
+D3FAc | "G"B3GDB, | G,3B,DG | "G"B3BB2 | "G7"c2B2A2 | "C"G4E2 |
+"G"D4d2 | "D7"d3cAF | D3cAF | "G"G3 G G2 | G3 :|
+%P:C
+[K:C]"G7"G^F=F | "C"E3EE2 | E2D2C2 | "G7"B,4G2 | F6 | G3GG2 | F2E2D2 | "C"c2B2A2 | "G7"GAGFED |
+ "C"E3EE2 | E2D2C2 | "G7"B,4G2 | F6 | G3GG2 | F2E2D2 | "C"C3CC2 | C3 :|
+
+X:44
+T: Lyckomarschen
+C: Thore H\"ardelin
+M: 2/4
+R: March
+Q:1/8=140
+Z: Enligt: Mart Hallek
+K: C
+%P:A
+[V:1](G2 | "C" c2)ce "G"d2df | "C" (ed)cB "Am"(A2G2) | "C"c3e "G"d2ef | "C"g6 (G2|"C"c2)ce \
+"G"d2df | "C" (ed)cB "Am"(A2G2) | "C"c3c "G"(Bc)dB |"C"c6 :|
+[V:2](E2|G2)Gc B2GB | (cB)AG E4 | G3G B4 |c6 (E2|G2)Gc B2GB |(cB)AG E4 |G3G (GA)BG |E6 :|
+%P:B
+[V:1]ef| g2e2 "F"a3g | f2e2 "G"d3e | "F"f2d2"G"(g2f2) | "C"e6 ef | g2e2 "F"a3g | (fe)dc "G"(B2A2) | "C"G3c "G"(Bc)dB | "C"c6  :|]
+[V:2]cd| e2c2 f3e | c2c2 B3G | A2A2 d4 |c6 cd | e2c2 f3e | (dc)BA G4 | E3G (GA)BG | E6 :|
+
+X:45
+% %NRChange 2010-02-05
+T:March of St Timothy
+O:England
+C:Judi Morningstar, 1992
+D:"Michigan Spring" from the Detroit Country Dancers
+R: March
+M:2/4
+L:1/4
+Q:90
+K:G
+"G"B3/4c/4 d/2B/2|"D"A3/4B/4 c/2A/2|"Em"G3/4A/4 B/2G/2|"Bm"G/2F/2 E/2D/2|\
+"C"E3/4F/4 G/2E/2|"G"D/2G/2 B/2d/2| [1"Am"c3/4B/4 A/2G/2|"D7"F/2A/2 D/2c/2:|
+[2"Am"c/4B/4A/2 "D7"F/2A/2|"G"G3/2d/4d/4||"D7"c/2d/2 A/2c/2|F/2A/2 D/2d/4d/4|\
+"G"B/2d/2 G/2B/2|D/2G/2 B,/2d/4d/4|
+"D7"c/2d/2 A/2c/2|F/2A/2 D/2d/4d/4|"G"B/2D/2 E/2F/2|G/2A/2 B/2d/4d/4|\
+"D7"c/2d/2 A/2c/2|F/2A/2 D/2d/4d/4|
+"G"B/2d/2 G/2B/2|"G"D/2G/2 B,/2G/2|"Em"E3/4F/4 "A7"G/2E/2|"G"D/2G/2 B/2d/2|\
+"Am"c/4B/4A/2 "D7"F/2A/2|"G"G2||
+
+X:46
+% %NRChange 2008-02-24
+T: Marche a Queteux Pomerleau
+C: attr Henri Landry
+R:March
+M: 2/4
+Q: 1/4=80
+L: 1/8
+K: Gmaj
+%P: A
+D |: "G"GA/G/ "D"FD | "C"ED/C/ "G"DD | GA GB | G/A/B/G/ "D"DD |
+"G"GA/G/ "D"FD | "C"ED/C/ "G"DD |GD GB |[1 G2 G3/D/ :|[2 G2 GA/B/ |]
+%P:B
+"C"c2 "G"B2 | "D"BA/G/ A2 | "G"GD GA | BA/G/ "D"AA/B/ | "C"cz "G"B2 |"D"BA/G/ A3/A/ |
+"G"GD GB |[1 G2 GA/B/ :|[2G/A/B/G/ "D"DD |]
+
+X:47
+% %NRChange 2014-04-14
+T:Masurka
+C:etter Svein P. Eikeland
+R:Mazurka
+Z:From Geitungen - Langt Ute
+M:3/4
+L:1/8
+K:Em
+%P:A
+"Em"f>e e2B2 | "G"d>^c B2B2 | "D"d>^c B>A G>F|E>G B2B2|
+"Em"f>e e2B2 | "G"d>^c B2B2 | "D"d>^c B>A G>F|E2 E4 :|
+%P:B
+"A (G)"G2 B>G B2 |"G"E>G B>G B2|"D"D>F A>G G>F|D>F A2A2|
+"G"G2 B>G B2|"Em" E>G B>G B2 |"D"D>F A>G G>F|D2 D4 :|
+
+X:48
+T:Metsakukkia
+T:Woodland Flowers
+M:3/4
+L:1/8
+O:Finland
+Z:1998 by John Chambers <jc@trillian.mit.edu>
+Q:1/4=160
+F:http://home.insightbb.com/~otter256/dance/10thstreet.abc
+K:Am
+%P:A
+"Am"E2 A2 B2 | c2 B2 A2 | e6- | e6 | E2 A2 B2 | c2 B2 A2 | "Dm"f6- | f6 | d2 e2 f2 | f2 e2 d2 |
+"Am"e4 c2 | A6 | "E" E2 ^D2 E2|c4 B2|1"Am" A6-|A4 E2 :|2 A6|A z a2 ^g |]
+%P:B
+"G"g3 g g2 | g2 a2 f2 | "C"e4 e2 | e2 f2 e2 \
+| "Dm"d3 d d2 | d2 e2 d2 | "Am"c4 c2 |
+c2 d2 ^d2 | "Am"e2 z2 ee | e2 d2 c2 | "B"B6- | B4 E2 | "E"E2 ^D2 E2 |
+c4 B2 |[1 "Am"A6- | A z a2 ^g2 :|[2 A6- | A2 z2 a^g |]
+%P:C
+"Am"a2 z2 ~e^d | e2  z2 ~cB | c2 A2 ^G2 | A2 c2 e2 | "Dm"f4 e2 | d2 f2 a2 | "Am"e6- | e4 E2 |
+ "E"E2 ^G2 A2 | B4 E2 | "Am"E2 A2 B2 | c4 E2 |\
+ "E"E2 ^D2 E2 | c4 B2 |[1 "Am"A6- | A z  a2^g2 :|[2 "Am" A6- | A4 |]
+
+X:49
+T:Minnesota valsen
+R:Waltz
+O:Scand-American
+Z:John Chambers <jc@trillian.mit.edu>
+M:3/4
+L:1/8
+K:G
+%P:A
+D2 \
+|: "G"G2 BG Bd | G2 BG Bc | d2 ed cB | "D7"A6 | D2 FD FA | D2 FD FA | d2 dc BA | "G"G6 :|
+%P:B
+ "G"G2 BG Bd | g6 | ag fg ag | "C"e6 | "D7"DF AF Ad | f3 gfe | d3 edc | "G"B3 cBA |
+ "G"G2 BG Bd | g6 | ag fg ag | "C"e6 | "D7"DF AF Ad | f3 gfe | "D7"de dc BA | "G"G6 |]
+
+X:50
+% %NRChange 2008-02-24
+T: Montague Processional, The
+C: David Kaynor
+M: 4/4
+Q: 1/4=150
+L: 1/8
+K: D
+%P:A
+"D"D3FA2Bc | d6 ef | "G"g3fe2d2 | "Em"B6 ef | "G"g2fe "A"a3 g|
+"D"f2d2"G"g2ag | "D"fafd "A7"egec |[1 "D"d2 AG "A7"FEDC :|[2"D"d6 fg |]
+%P:B
+"D"a3g"Ay"f2ec | "D"d6ef | "G"g3fe2d2 | "Em"B6ef | "G"g2fe"A"a3g |"D"f2d2"G"g2ag |
+ "D"fafd "A7"egec |[1 "D"d4 "A7"defg :|[2 "D"d8 |]
+
+X:51
+% %NRChange 2008-02-24
+T: Napoleon
+M: 4/4
+Q: 1/4=70
+L: 1/8
+R: Bridal March
+O: Swedish/Finnish
+K: D
+%P:A
+[V:1] A |: "G"f2-fe/d/ "D"cd ec | "G"d2 "C"d>d "G"d>e f/e/f/g/ |
+[V:2] z |: d2-dc/B/ AB AG | F2 G>E F>A d/c/d/e/ |
+[V:1]"Bm" a2-af "Am"gf/g/ "D"a>g | "Em"f2 d>d d>f "C"g/f/e/d/ | "D"c>d cB "D7"cd  ec |
+[V:2] f2-fA BA/B/ c>B | A2 F>F F>A B/A/G/F/ | E>F ED EF GE |
+[V:1] "G"d2 f2 "G7"a3 f | "C"gb "Am"ge "D7"d2 c/d//c//B/c/| "G"d2 "C"d>d "G"d3 A:|
+[V:2] F2 A2 d3 ^B | Bd BG F2 E/F//E//D/E/ | F2 G>E F4:|
+%P:B
+[V:1] "G"d>e f/e/f/g/ "Bm"a3 a | "C"ab c'd' "G"a3 f |
+[V:2] F>c d/c/d/e/ f3 f | fg ab f3 A |
+[V:1] "Am"g2 a>g "Bm"f/g/4f/4e/f/ gf| "C"e2 g>e "D"dc Bc | "G"d>e f/e/f/g/ "Bm"a3 a |
+[V:2] B2 c>B A/B//A//G/A/ BA | G2 B>G FE GE | F>c d/c/d/e/ f3 f |
+[V:1] "C"ab c'd' "G"a3 f| "C"gb "Am"ge "D"d2 c/d//c//B/c/| "G"d2 "C"d>d "G"d3 "D"A|
+[V:2] fg ab f2 d^B | Bd BG F2 E/F//E//D/E/ | F2 G>E F4 |
+[V:1] "G"d>e f/e/f/g/ "Bm"a3 a | "C"ab c'd' "G"a3 f | "Am"g2 a>g "Bm"f/g/4f/4e/f/ gf|
+[V:2] F>c d/c/d/e/ f3 f | fg ab f3 A | B2 c>B A/B//A//G/A/ BA |
+[V:1] "C"e2 g>e "D"dc Bc | "G"d>e f/e/f/g/ "Bm"a3 a | "C"ab c'd' "G"a3 f |
+[V:2] G2 B>G FE GE | F>c d/c/d/e/ f3 f |  fg ab f2 d^B |
+[V:1] "C"gb "Am"ge d2 "D"c/d/4c/4"D7"B/c/| "G"d2 "C"d>d "G"d4 |]
+[V:2]  Bd BG F2 E/F//E//D/E/ | F2 G>E F4 |]
+
+X:52
+% %NRChange 2008-05-19
+T: Napoleon (3 parts)
+M: 4/4
+Q: 1/4=70
+L: 1/8
+R: Bridal March
+O: Swedish/Finnish
+K: G %Transposed from D
+V: 1 clef=treble
+V: 2 clef=treble
+V: 3 clef=bass middle=D,,
+%%sysstaffsep 30
+%P:A
+[V:1] D |: B2-BA/G/ FG AF | G2 G>G G>A B/A/B/c/ |
+[V:2] z |: G2-GF/E/ DE DC | B,2 C>A, B,>D G/F/G/A/ |
+[V:3] z |: "G"G,,4 "D"D,,4 | "G  C"G,,4 "G"G,,2 A,,,2 |
+[V:1] d2-dB cB/c/ d>c | B2 G>G G>B c/B/A/G/ | F>G FE FG  AF |
+[V:2] B2-BD ED/E/ F>E | D2 B,>B, B,>D E/D/C/B,/ | A,>B, A,G, A,B, CA, |
+[V:3] B,,,4 "Am"C,,2 "D"D,,2 |"G"B,,,4 "C"C,,2 E,,2 | "D"D,,3 E,, F,,4 |
+[V:1] G2 B2 d3 B | ce cA G2 F/G//F//E/F/| G2 G>G G3 D:|
+[V:2] B,2 D2 G3 ^E | EG EC B,2 A,/B,//A,//G,/A,/ | B,2 C>A, B,4:|
+[V:3]  "G"G,,2 A,,,2 "G7"B,,,4| "C"C,,2 "Am"A,,,2 "G"D,,2 "D"D,,2 | "G"G,,4 G,,3 D,, :|
+%P:B
+[V:1] G>A B/A/B/c/ d3 d | de fg d3 B |
+[V:2] B,>F G/F/G/A/ B3 B | Bc de B3 D |
+[V:3] "G"G,,2A,,,2 B,,,4 | "C"C,,4 "G"B,,,3 D,, |
+[V:1] c2 d>c B/c/4B/4A/B/ cB| A2 c>A GF EF | G>A B/A/B/c/ d3 d |
+[V:2] E2 F>E D/E//D//C/D/ ED | C2 E>C B,A, CA, | B,>F G/F/G/A/ B3 B |
+[V:3] "Am" E,,2 "D"F,,2 "G" G,,2-G,,/D,,/G,, | "Am"A,,,4 "D"D,,3 F,, | "G"G,,2 A,,,2 B,,,4 |
+[V:1] de fg d3 B| ce cA G2 F/G//F//E/F/| G2 G>G G3 D|
+[V:2] Bc de B2 G^E | EG EC B,2 A,/B,//A,//G,/A,/ | B,2 C>A, B,4 |
+[V:3] "C"C,,4 "G"B,,,4 | "Am  C"A,,,4 "G"D,,2 "D"D,,2 | "G"G,,4 G,,3 F,, |
+[V:1] G>A B/A/B/c/ d3 d | de fg d3 B | c2 d>c B/c/4B/4A/B/ cB|
+[V:2] B,>F G/F/G/A/ B3 B | Bc de B3 D | E2 F>E D/E//D//C/D/ ED |
+[V:3] "Em"E,,4 "Bm"D,,4 | "C"C,,4 "G"B,,,3 E,, | "Am"A,,,2 "D"F,,2 "G"G,,4 |
+[V:1] A2 c>A GF EF | G>A B/A/B/c/ d3 d | de fg d3 B |
+[V:2] C2 E>C B,A, CA, | B,>F G/F/G/A/ B3 B |  Bc de B2 G^E |
+[V:3]"Am"A,,,4 "D"D,,3 F,, | "G"G,,2 A,,,2 B,,,4 | "C"C,,4 "G"B,,,4 |
+[V:1] ce cA G2 F/G/4F/4E/F/| G2 G>G G4 |]
+[V:2]  EG EC B,2 A,/B,//A,//G,/A,/ | B,2 C>A, B,4 |]
+[V:3]  "Am  C"A,,,4 "G"D,,2 "D"D,,2 | "G"G,,4 G,,4 |]
+
+X:53
+T:Nidelven
+A:Oscar Hodde
+C:Christian Christensen og Kjell Rian
+O:Norway
+Q:150
+M:3/4
+L:1/4
+Z:mheiman@northernroots.org
+% %vocalfont Times-Roman 12
+K:D
+%P:Verse
+"D"FFF | "D7"AAA | "G"GD"Gm6"E | "D"F3 | A,D "Ddim"B, | "A7"CDE | "D" D3- | D2 z |
+w:Langt i det fjer-ne bak fjel-le-ne bl\aa, Lig-ger et sted jeg har kj\aer.
+"D"FFF | "D7"AAA | "G"GD3/"Gm6"E/ | "D"F3 | A,D "Ddim"B, | "A7"CDE | "D" D3- | D2 z ||
+w:Dit mi-ne tan-ker og dr\om-mer vil g\aa, All-tid du er meg s\aa n\aer.
+%P:Refrain
+"D"FDE | F"D7"G3/F/ | "A7"FE3/^D/ | E3 | EFG | F2 E | "D"DF2- | F3 |
+w: Nid-el-ven, stil-le og vak-ker du er, Her hvor jeg g\aar og dr\om-mer.
+"D"FDE | F"D7"G3/F/ | "A7"FE3/^D/ | E3 | EFG | F2 E | "D"ED2- | D2 D
+w:Dr\om-mer om deg som jeg had-de s\aa kj\aer, Nu er det ba-re min-ner_  Den
+"G"B2A | GAB | "D"AA3/G/ | F3 | AGF | "Cdim"AGF | "Em"FE3/^D/ | "A7"E3 |
+w: gam-le by-bro er lyk-kens por-tal, Sam-men vi sei-ler i stjer-ne-ko-rall.
+"D"FDE | F"D7"G3/F/ | "A7"FE3/^D/ | E3 | EFG | F2 E | "D"ED2- | D2 z |]
+w: Nid-el-ven, stil-le og vak-ker du er, Her hvor jeg g\aar og dr\om-mer.
+
+X:54
+T:Norsk Reinl\"ander
+R:reinl\"ander
+H:Se \"aven #11
+A:Norge
+O:Norway
+Z:hn-schottis-7
+M:C|
+K:Dm
+%P:A
+"Dm"DEFG A2A2|"G"A=BG=B "Dm"A2F2|FE"Gm"GE "Dm"F2DF|"Gm"ED"A"^CE "Dm"D2A,2|
+"Dm"DEFG A2A2|"G"A=BG=B "Dm"A2F2|FE"Gm"GE "Dm"F2DF|1 "Gm"ED"A"^CE "Dm"D4 :|2 "Gm"ED"A"^CE "Dm"D2ag:|
+[K:D]
+%P:B
+"D"f2d2 dfed|"A"c2A2 A3F|"G"GFEF GABd|"A"c2A2 A2ag|
+"D"f2d2 dfed|"A"c2A2 A3F|"G"GFEF "A"GECE|1 "D"D2F2 D2ag:|2 "D"D2F2 D4:|
+[K:Dm]
+%P:C
+"Dm"d2d2 "C"c3B|"Dm"AGAB AFDE|F2F2 "Gm"GABG|"A"ABAG A=B^cA|
+"Dm"d2d2 "C"c3B|"Dm"AGAB AFDE|F2F2 "C"EDCE|"Dm"D2D2 D4:|
+
+X:55
+T:Orevalsen
+R:Waltz
+O:Sweden
+Z:1998 by John Chambers <jc@trillian.mit.edu>
+M:3/4
+L:1/8
+Q:1/4=150
+K:G
+%P:A
+CB,A, \
+|: "G"G,2 B,2 C2 | D3 EDC | B,2 D2 G2 | B3 BdB \
+| "C"c2 E2 G2 | "D7"F3 ABA | "G"G2 F2 E2 | DE DC B,A, |
+ "G"G,2 B,2 C2 | D3 EDC | B,2 D2 G2 | B3 BdB \
+| "C"c2 E2 G2 | "D7"F3 DEF | "G"G3 AGF | G6 :|
+%P:B
+|: "C"e2 c2 e2 | g3 gfe | "G"d2 B2 G2 | DE DC B,2 \
+| "D7"AB c2 A2 | F4 c2 | "G"Bc d2 c2 | Bc BA G2 |
+ "C"e2 c2 e2 | g3 gfe | "G"d2 B2 G2 | DE DC B,2 \
+| "D7"AB c2 A2 | "D7"F3 DEF | "G"G3 AGF | G6 :|
+
+X:56
+% %NRChange 2010-02-05
+T: Ostindiens velkomet
+T: Welcome to the East India
+R: s\onderhoning
+Z: John Chambers <jc@trillian.mit.edu>
+O: Danmark
+D: "Sand p\aa gulvet"
+M: 2/4
+L: 1/16
+Q: 100
+F:http://jc.tzo.net/~jc/music/abc/Denmark/OstindiensVelkomet.abc
+K: G
+D2 \
+| "G"G2G2 B2dB | G4 A2B2 | "Am"c3B A2G2 | "D7"GFAF D2D2 \
+| "G"G2G2 B2dB | G4 A2B2 | "Am"c3A "D7"FGAF | "G"G6 :|
+|: AB \
+| "Am"c3c "D7"B2A2 | "G"GABc d4 | G3G "A7"F2G2 | "D"AFDF A4 \
+| AFDF A4 | DEFG A2AG | F2FD "A7"E2E2 | D4 d3B |
+| "G"G3G F2D2 | "C"E4- E2AB | "Am"c3c "Em"B2G2 | "D7"A4- A2Bc | "G"d2d2 d2e2 \
+| "Am"c2cB "D7"A2Bc | "G"d3d d2e2 | "Am"c2cB "D7"A2c2 \
+| "G"B2AG "D7"A2GF | "G"G6 :|
+
+X:57
+T:Polska efter Byss-Kalle
+O:Uppland
+R:Slängpolska
+M:3/4
+L:1/16
+S:From the playing of Elin Skoglund on www.youtube.com/watch?v=WCTBNqQuksU
+Z:Stephan "Stoney" Steiner
+Z:adapted from the transcription of Nils L on www.folkwiki.se/Musik/196
+K:G
+"G"d2>B2 G2G2 (BG)(Bd) | "D7"A2(AB) "G"G2G2 (BG)Bd | "C"(cB)ce "G"~d2Bd "D7"(~cB)AG | (FG)AB (AG)FE D2GB |
+"G"d2>B2 G2G2 (BG)(Bd) | "D7"A2(AB) "G"G2G2 (BG)Bd | "C"(cB)ce "G"~d2Bd "D7"(~cB)AG | (FG)AB A2BA "G"G4 :|
+|: "G"d2d2 d2ef "C"g2g2 | g2fe "G"d2ef g2B2 | "C"(cB)ce "G"~d2Bd "D7"(~cB)AG | (FG)AB (AG)FE D4 |
+"G"d2d2 d2ef "C"g2g2 |g2fe "G"d2ef g2B2 | "C"(cB)ce "G"~d2Bd "D7"(~cB)AG | (FG)AB A2BA "G"G4 :|
+
+X:58
+T:Polska efter Hult Linrodt
+Z:Glenn Lee
+R:Polska
+L:1/8
+M:2/4
+Q:80
+K:G
+%P:A
+"G"BB G2 | B2 B/d/c/B/ | "D"AA "G"B2 | BG "Em"E>F | "C"GF ED | E4 "(4x)":|
+%P:B
+"G"dd/B/ GB/G/ | "D"FA/F/ "G"G>F | GA B/ z/ B/c/ | dd/B/ GB/G/ |
+"D"FA/F/ "Em"GF | E3 B/c/ | "G"dd/B/ GB/G/ | "D"FA/F/ "G"G>F |GA B z |
+"C"E>F GF | ED (E2 | E4):|
+
+X:59
+% %NRChange 2008-02-24
+T:Polska till Stockholms Spelmanslaget (Canoe Trip)
+C:(eller m\"ojligen Kanotresan?)
+O:USA
+M:3/4
+L:1/8
+R:Polska
+Q:1/8=200
+K:D
+%P:A
+"(A)"AB/c/ "D"dc BA | GF "G"EF GE | E>F "A"GE/G/ FD/F/ |\
+[1 EA A4 :|[2 "G"EC "D"D4 :|
+%P:B
+"D"vf2 df af | "A"e/f/e/d/ ce A2 | "G"B2 GB dB |[1 "A"A/B/A/^G/ uA4 :|[2 "A"(Avc) ea ua2 :|
+
+X:60
+T:Redwing (Union Maid)
+R:polka
+Z:John Chambers <jc@trillian.mit.edu>
+N:Forms of this tune are found throughout the British Isles and
+N:Scandinavia, and many sets of words have been written to it.
+M:2/4
+L:1/8
+K:G
+%P:A
+D \
+|: "G"G>D GB | d3 B | "C"ce ge | "G"d3 B |  "Am"cc/B/ "D7"Ac |
+"G"BB/A/ "Em"GB |[1 "A7"AG FG | "D7"AF ED :|[2 "A7"AG "D7"FA | "G"G2 ||
+%P:B
+gf \
+|: "C"e2 c2 | eg fe | "G"d2 B2- | Bd ed | "D7"d2 A2- |
+[1 Ad ed | "G"d2 B2- | Bg f=f :|[2 Ac BA | "G"G4- | G2 z2 |]
+
+X:61
+T:Reinlender etter Ringnesen
+O:Norway
+A:Gudbrandsdal, Oppland
+C:etter Ola Ringneset
+L:1/16
+M:2/4
+Q:1/8=150
+R:Reinlender
+K:D
+% %rightmargin 11.5cm
+"Intro"\
+[V:1] | "A7"g>fe<d cABc | "D".d2d2 d2
+[V:2] | "A7"g>fe<d cABc | "D".d2d2 d2
+% %rightmargin 2.78cm
+% %staves 1 2
+%P:A
+[V:1] A2 |: "D"D>FE<D A2A2 | D>FE<D f2f2 | "A7"g>fe<d cBA2 | cBAG "D"FED2 |
+[V:2] z2 |: D2A2 F2D2 | F2A2 A3d | c2e2 e2c2 | A2ec d3f |
+[V:1] "D"D>FE<D A2A2 | D>FE<D f2f2 | "A7"g>fe<d cABc | "D".d2.d2 d2 z2 :|
+[V:2] a2a<f d2d2 | A2A<F D2D2 | E2A2 G2E2 | .A2.F2 D2 z2 :|
+%P:B
+[V:1] e>f |: "G".g2B2 B>gf<e | "D".f2A2 A>fe<d | "A7"c2EF GABc | "D"d2D2 F2ef |
+[V:2] z2 |: .B2G2 B3G | .A2F2 A3F | .E2C2 E3E | F2A2 A3d |
+[V:1] "G".g2B2 B>gf<e | "D".f2A2 A>fe<d | "A7"c2EF GABc | "D".d2.d2 d2 z2 :|
+[V:2] .d2g2 g2d<B | .A2d2 d2c<B | A3A E2G2 | .F2D2 D2 z2 :|
+
+X:62
+T:Ringlender efter Nille Henningsg\aard (Brad #1)
+A:R\oros (Brekken)
+O:Norway
+R:Reinlender=Ringlender
+M:4/4
+L:1/8
+Q:1/4=130
+F:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ri/Ringl_nder_efter_Nille_Henningsg_rd_Brekken_1.abc
+K:D
+%P:A
+A>df>e e>df2|A>df>e e>df2|f>ee>f g>ece|d>cd>f a2a2|
+A>df>e e>df2|A>df>e e>df2|f>ee>f g>ece|[1d>edc d4:|[2d>edc d3
+%P:B
+(f |] g2)g2 g>fe2|f2f2 f>ed2|c>def g>ece|d>efg a2a2|
+g2g2 g>fe2|f2f2 f>ed2|c>def g>ece|d>edc d4:|]
+
+X:63
+% %NRChange 2008-10-25
+T:Rosenberg's Polska
+M:3/4
+L:1/8
+Q:1/8=200
+R:polska
+O:Sweden
+A:S\"odermanland (S\"ormland)
+Z:Jim Phillips
+N:As taught by Christer \"Oden at the Nisswa-Sta:mman fiddle workshops 6/9/06
+K:Dm
+%P:A
+[V:1]G>G G,G D^F | G>G G,G D^F | G>A cB AG | ^F>G A/B/A/F/ DE/F/ |
+[V:2]B,>D G,D G,A, | B,>D G,D G,A, | B,>D AG ^F~E | D>E ^F/G/F/D/ A,G,/A,/ |
+[V:1]G>G G,G D^F | G>G G,G D^F | G>A cB AA/G/ | ^F/G/A/F/ G4 :||
+[V:2]B,>D G,D G,A, | B,>D G,D G,A, | B,>D AG ^F~E |D [CD] [B,4D4] :||
+%P:B
+[V:1]g>g ^fg dd/c/ | B~B A/B/A/^F/ G2 | [G,D]>g ^fg dd/c/ | B/c/B/G/ A/B/A/^F/ G2 |
+[V:2]d>d c{c}d BB/A/ | GG/D/ ~^F/E/D/C/ B,2 | [G,D]>d c{c}d BB/A/ | GD ^F/E/D/C/ B,2 |
+[V:1]D/E/^F/G/ A>c BB/G/ | A/B/A/^F/ G4 :||
+[V:2]A,/C/D/E/ ^F>F GG/D/ | ^F/E/D/C/ G,4 :||
+
+X:64
+T:Rugen
+O:Norway
+C:Traditional
+L:1/16
+M:2/4
+Q:1/8=160
+R:Turdans
+K:F
+% %rightmargin 11.5cm
+"Intro"|\
+"C"G>AB>G E>CD>E | "F".F2F2 F2 z2
+% %rightmargin 2.78cm
+%P:A
+[| "F".F2F2 .F2F2 | "C7"E>FG>E C4 | .G2G2 .G2G2 | "F"A>Bc>A F2>F2 |
+%P:B
+|: "Bb"B>cd>B G2>B2 | "F"A>Bc>A F2>A2 | "C7"G>AB>G E>CD>E |
+[1 "F"F2A>B c2c2 :|[2"F".F2F2 F2 z2 |]
+
+X:65
+% %NRChange 2014-04-14
+T:Sackpipl\aat
+C:etter Carl Wahlstrom
+M:4/4
+L:1/8
+K:D
+%P:A
+[V:1]DE|:~=F2 EF D2 EF|G2 FG E2 FG|A2 ~BA GFEF|{DE}D2D2A,2 DE |
+[V:2]DE|:~D2 CD A,2 D=F|~E2 DE C2 DE|F2 GF EDCE|D2D2A,2 DE |
+[V:1]~=F2EF D2 EF | ~G2 FG ~E2 FG| A2 ~BA GFEF|[1D6 DE :|[2D6 DF |]
+[V:2]~D2 CD A,2 D=F|~E2 DE C2 DE|F2 GF EDCE|[1D6 DE :|[2D6 DE |]
+%P:B
+[V:1]|:A2 FA =cBGB | {=c}BA=ce {^c}d2 d=c|A2 FA =cBGB |{=c}BAAG FEFG|
+[V:2]|:F3F AGEG |GFA=c A2 AG | F2 DF AGEG | GFFE DCDE |
+[V:1]{F}A2 FA =cBGB | {=c}BA=ce {^c}d2 d=c|A2 ~BA GFEF|[1D6 DF :|[2D6|]
+[V:2]F2 DF AGEG | GFA=c A3G|F2 GF EDCB,|[1A,6 DE :|[2 A,6 |]
+
+X:66
+% %NRChange 2011-12-05
+T:Satumaa
+C:Unto Mononen 1952
+O:Finland
+Z:John Chambers
+R:Tango
+M:4/4
+L:1/4
+Q:1/4=160
+K:Am
+"Am"e>f e"Dm"d| "Am"c>d c"E7"B | \
+"Am"A>B A"A7"G | "Dm"F3 z| \
+"E7"E>^F ^GE |"Am"A>B cA |\
+"Dm"d>e "G7"fd | "C"e2- "E7"e2 |
+"Am"e>f e"Dm"d | "Am"c>d c"E7"B| \
+"Am"A>B A"A7"G | "Dm"F3 z| \
+"E7"E>^F ^GE | "Am"A>B c"Dm"d| \
+"Am"e>c "E7"BE | "Am"A3 "E7"E ||
+"Am"E>A Ac | c>e ec | \
+"Dm"e>d d"B7"c | "E"B3 E |\
+"E7"E>^G GB | B>d "Dm"df| \
+"E7"f>e ed | "Am"c3 E |
+"Am"E>A Ac | c>e eg |\
+"Gm"g>f "A7"fe | "Dm"d3 A |\
+"Dm"A>d df | "Am"e>c cA |\
+"Dm"d>c "E7"cB | "Am"HA2 "E7"{ABcd}e2 |]
+
+X:67
+T:Savitaipaleen polkka
+T:Ievan polkka
+R:polka
+D:Kevin Burke: Up Close
+O:South Karelia
+Z:id:hn-polka-41
+M:2/4
+L:1/8
+K:Bm
+%P:A
+|: "Bm"B>B Bc | dB Bd | "F#7"cA Ac | "Bm"d/c/B/A/ BF |
+B>B Bc | dB B2 | "F#7"ef/e/ dc | "Bm"B2 B2 :|
+%P:B
+|: "Bm"f>d df | "F#7"ec cd | ef/e/ dc | "Bm"Bc de |
+f>d df | "F#7"ec cd | ef/e/ dc | "Bm"B2 B2 :|
+
+X:68
+T:Schottis fr\aan Bylberg
+R:Schottis
+S:Andra L\aatboken
+O:Sweden
+A:Dalarna
+M:2/4
+L:1/8
+Q:1/4=140
+F:http://skandia-folkdance.org/spelmanslag/Blyberg.abc
+K:D
+%P:A
+[V:1]"D"vD>FAF D>FAF | "G"G>ABA G2 G2 |
+[V:2]vA,>DFD A,>DFD | B,>DGD [B,2D2] [B,2D2] |
+[V:1]"A"A>cec A>cec |[1 "D"d>efe d2 d2 :|[2 "d"d2 dc d4 :|
+[V:2] E>AcA E>AcA |[1 F>AdA [F2A2] [F2A2] :|[2 F2 FE [F4A4] :|
+%P:B
+[V:1]"D"vA2 f2 f>edc | "G"B2 g2 g>fed |
+[V:2]vF2 d2 d>cBA | G2 B2 B>dcB |
+[V:1][1 "A"c2 a2 a2 ^ga | "D"b>afd A4 :|[2c2 a2 a>gec | "D"d2 dc d4 :|
+[V:2][1 A2 c2 c2 ec | d>cdA F4 :|[2 A2 c2 c>ecA | F2 FE F4 :|
+
+X:69
+T:Schottisch fr\aan Idre II
+C:efter Storbo-J\"ons
+O:Sweden
+R:Schottisch
+B:Musik till Svenska Folkdanser, Ingvar Norman, 1971, p.39
+N:Sometimes played with the entire 2nd part in D minor.
+M:4/4
+L:1/8
+Q:1/4=150
+F:http://jc.tzo.net:1742/~jc/music/abc/Scand/shot/Shot_Idre2_D.abc	 2004-11-09 00:26:36 UT
+K: D
+%P:A
+|: "D"D2 FA d2 d2 | D2 FA de dc | "A7"ef ec A2 Bc |1,3 "D"d2 cB "A7"AG FE :|2,4 "D"d2 d2 d4 :|
+%P:B
+|: "D"a2 a2 "A7"g2 eg | "D"f2 d2 "A7"e4 | "Dm"=f2 ag Tf2 ed |1,3 "A7"cd ed c2 A2 :|2,4 "A7"cd ec "D(m)"d4 :|
+
+X:70
+% %NRChange 2010-02-05
+T:Schottische fr\aan Havero
+M:2/2
+L:1/8
+Q:180
+O:Swedish
+R:Schottisch
+S:Blowzabella
+K:Dm
+%P:A
+"Dm"D2 DE FGFE|D2 A2 "Am"A4|"Dm"d^cde f2 f2|"Am"efe^c A2 A2|!
+"Dm"D2 DE FGFE|D2 A2 "Am"A4|"Dm"d^cde f2 f2|"Am"e2 e^c "Dm"d4:|!
+%P:B
+"Dm"a2 a^g "Am"a2 a2|"Dm"fgfe f2 f2|"Am"e2 e^c A2 A2|"Dm"FGFE F2 D2|!
+"Dm"a2 a^g "Am"a2 a2|"Dm"fgfe f2 f2|"Am"e2 e^c Acec|"Dm"d2 d2 d4:|!
+
+X:71
+T:Seksmannsril
+O:Norway
+C:Traditional
+L:1/16
+M:2/4
+Q:1/8=200
+R:Reel/Turdans
+K:D
+% %rightmargin 11.5cm
+"Intro"|\
+"D"fagf "A"egfe |"D".d2d2 d2
+% %rightmargin 2.78cm
+%P:A
+FG |: "D"AFDF AFDF | A2d2 d2cB | AFDF AFDF | "A"G2E2 E2FG|
+"D"AFDF AFDF | A2d2 d2de | fagf "A"egfe | "D".d2d2 d2 z2 :|
+%P:B
+a2 |: "D"fdAd fagf | "A"ecAc egfe | "D"fdAd fagf | "A"edcB A2de |
+"D"fdAd fagf | "A"ecAc egfe | "D"fagf "A"egfe | "D".d2d2 d2 z2 :|
+|: "D"a2fd "G"B2ec | "A"A2AG "D"F4 | "A"E2FG A2Bc |[1 "D"d2ec d4 :|[2 "D".d2d2 d2 z2 |]
+
+X:72
+% %NRChange 2008-02-24
+T:Sist i \oykt'n
+M:3/4
+L:1/4
+Q:160
+S:Hallingdal Kraftlag
+C:Jostein S\orb\oen
+O:Norway
+R:Waltz
+F:http://members.yline.com/~zeiler1/abc/czskan.abc
+K:C
+%P:A
+E|"C"E>DC|"Dm"FED|"G"GAB|"Am"c3|\
+"F"FAc|"D"d2c|"G"BG>G|GAB|
+"C"c~GE|"F"c~BA|"G"G2F|"Am"E2E|\
+"Dm"D>EF|"G"G,A,B,|\
+"C"C>CC|C2:|
+%P:B
+G|"C"Ge/d/ c/B/|"F"Af/e/ d/c/|"G"Bcd|"C"c3|\
+"F"f~cA|FA>A|"G"~BG>G|GAB|
+"C"ce/d/ c/B/|"F"Af/e/ d/c/|"G"Bcd|\
+"Am"c3|"F"A>Bc|"G"dcB|"C"c>cc|c2:|
+%P:C
+L:1/8
+e2|"C"ge ce ge|"G"gd Bd gd|"Am"ec Ac ec|"F"ec Ac ec| "G"B3cd2|
+dc B2 Bd| "C"c2cd e2|"G"e>d cd ec|"C"ge ce ge|"G"gd Bd gd|
+"A"ec Ac ec|"F"ec Ac ec| "G"B2Bcd2|dc B2Bd|"C"c2cd eg|c'4:|
+
+X:73
+T:Sjoankans Vals
+T:Sea Duck's Waltz
+R:Waltz
+C:Olav Johansson
+M:3/4
+L:1/8
+Q:1/4=140
+K:D
+%P:A
+"D"F2 FE FA | "G"G2 GF GB | "D"A2 AB AF | D4 F2 |
+"A"E2 ED EG | "D"F2 DF DE | "A"z2 ED CE | "D"D4 E2 :|
+%P:B
+"D"F3 E DC |D2 F2 A2 | "G"G3 F Gd | "A"cA E4 | "G"G3 F Gd | "A"c4 Ac |
+e4 dc |[1 "D"d2 AG FE :|[2 "D"d6|]
+
+X:74
+T:Sluskasl\aatten
+O:Norway
+C:Trad., Lars Berge, Suldal
+M:2/2
+L:1/8
+K:D
+%P:A
+A |: "D"dAFA d2 d2 | dfed "A"c2 c2 | ceEF "Em"GBEF | "G"GABB "A"A2 A2 |
+"D"AdFA d2 d2 | dfed "A"c2 c2 | "Em"ceEF "A7"GABc |[1 "D"d2 d2 d3 A :|[2"D"d2 d2 d3 c |]
+%P:B
+|: "G"B2 B2 g2 g2 | "D"f2 df (af)df | "A7"feef gece | "D"d2 df A3 (A|"G"B2) B2 "Em"g2 g2 |
+"D"f2 df "Bm"(af)df | "Em" feef "A7"geBc |[1"D"d2 d2 d3 c :|[2"D"d2 d2 d3 z |]
+
+X:75
+T:Smed-Jens vals
+C:Annar Gjelten 1995
+O:Norway
+M:3/4
+L:1/8
+Q:1/4=150
+R:Waltz
+F:http://jc.tzo.net:1742/~jc/music/abc/Scand/vals/SmedJensV.abc	 2004-11-09 00:28:46 UT
+K:D
+%P:A
+A2 | "D"f4 {f}a2 | d4 (3fgf | "A7"e2 d2 e2 | "D"f3 edc | "G"B2 G2 B2 |
+[1 "D"A4 AB | "A"A2 E2 G2 | "D"F3 E D2 :|2 "D"A4 Ad | "A7"c2 Ac ec | "D"{c}d4 :|
+%P:B
+|: FG | "D"A2 F3 G | A2 fe dc | "G"B2 G2 A2 | "Em"B2 ed cB | "A7"A3 GFG |
+[1 A2 E2 G2 | "D"F3 EFE | D4 :|2 "A7"A2 B2 c2 | "D"d3 edc | d4 :|
+
+X:76
+T:Sommarvalsen
+C:Ale M\"oller
+O:Sweden
+R:Waltz
+M:3/4
+L:1/4
+Q:1/4=120
+K:G
+%P:A
+dc|"G"B>AG|"D"A2F|"Em"G3|"C"E>FE|"G"DGA|
+"C"c2B|"Am"(3B/c/B/ AG|"D7"Adc|"G"B>AG|"D"A2F|
+"Em"G3|"C"E>FE|"G"DEG|"D7"G2F|"G"G3-|G:|
+%P:B
+|:FG|"D"A>AA|AFD|"C"c3|"G"B>A G|"Am"EA/B/c|
+"Bm"d>c B/A/|"C"GFG|"D"A BA|"Em"G>AG|"D"F>GF|
+"C"E>FE|"G"DGA|B>AG|"D7"A/d/-dF|"G"G3-|G:|
+
+X:77
+T: Sommerhambo
+C: Mogens Jul Christensen
+F: http://www.folketshus.dk/cgi-bin/visnode.cgi?ha-sommer
+R:Hambo
+O:Denmark
+M:3/4
+L:1/8
+Q:1/4=120
+K:G
+%P:A
+[V:1]"G"B2 B>c "D7"A>B | "G"G2 G>D B,>C | "D7"D>E F>G A>B | c2 c4 |
+[V:2]G2 G>A F>G | D2 D>B, G,2 | A,>C D>E F>G | A>G F>E F>A |
+[V:1]f2 f>g f>e |d2 d>c A2 | D>E F>G A>c| "Am"c2 "G"B4 |
+[V:2]d2 d>e d>c | c>B A>G F2 | A,>C D>E F>A | e2 d4 |
+[V:1]B2 B>c "D7"A>B | "G"G2 G>D B,>C | "D7"D>E F>G A>G |"D7"F2 "C"E4 |
+[V:2]G2 G>A F>G | D2 D>B, G,2 | A,>C D>E F>D | A,2 C4 |
+[V:1]c2 c>B A>c |"G"B2 B>G D2 |  "D7"D>E F>G A>F | "G"G2 G4 :|
+[V:2]E2 E>D C>E | G2 G>D B,2 | A>G F>E D>C | [B,2D2] [B,4D4] :|
+%P:B
+[V:1]|:"G"B>c d>c B>A | "D7"A2 "G"G4 | G>A B>A G>F | "Am"F2 E4 | E2 A2 c2 |
+[V:2]|:G>A B>A G>F | F2 [B,4D4] | B,>C D>C B,>A, | A,2 C4 | C2 E2 A2 |
+[V:1]"G"D2 G2 B2 |[1 "D7"c>A F>G A>c | c2 "G"B4 :|[2 "D7"D>E F>G A>F | "G"[G,2G2]  [G,4G4] :|
+[V:2]B,2 D2 G2 |[1 A>F D>E F>A | A2 G4 :|[2 A,>C D>E F>D | [G,2D2] [G,4D4] :|
+W:F\olgende vers synges p\aa 1. gennemspilning af 2. reprisen:
+W:
+W:Se hvor herligt solen skinner
+W:alle folk f\aar r\ode kinder,
+W:n\aar til en hambo de glade sig i dansen svinger.
+W:H\or musikken, hvor den klinger,
+W:det er li'som man f\aar vinger.
+W:Livsgl¾den breder sig p\aa en herlig sommerdag.
+
+X:78
+% %NRChange 2013-05-03
+T:Steffan-Rock
+O:Denmark
+M:4/4
+L:1/8
+Q:1/4=100
+K:Gmaj
+%P:A
+|:gb/2g/2 gd gb/2g/2 gd | de dc c2B2 | gb/2g/2 gd gb/2g/2 gd | ec AFG2 [GG,]2:|
+%P:B
+|:GA/B/ cB B2 A2 | de/f/ ge e2d2| GA/B/ cB B2 A2 | ec AFG2 [GG,]2:|
+
+X:79
+T:Styggen p\aa L\aaven
+C:anon.
+O:Norway
+R:Reinlender
+A:Nord Trondelag
+C:Ringlender i Hilmartrad. e. O. Okas\aas
+M:2/4
+L:1/8
+Q:1/4=160
+K:G
+% %rightmargin 11.5cm
+"Intro"\
+[V:1] | f2 f>e d>c B>A | G2 G2 G2 z2 |:
+[V:2] | d2 d2  c2  c2  | B2 B2 B2 z2 |:
+% %rightmargin 2.78cm
+% %staves 1 2
+%P:A
+[V:1]"G"D2 G>B d2 d2|"D7"c>B A>B c2 c2|"D7"D2 F>A c2 c2|"G"B>A G>A B2 B2|
+[V:2]D2 D>G B2B2 | A>G F>G A2 A2 | D2 D>F A2 F2 | G>D B,>D G2 G2|
+[V:1]"G"D2 G>B d2 d2|"D7"c>B A>B c2 c2|"D7"d2 f>e d>c B>A|"G"G2 G2 G2 z2:|
+[V:2]D2 D>G B2B2 | A>G F>G A2 A2 | F2 A2 F2 A2 | G2 G2 G4 :|
+%P:B
+[V:1]|:"G"D2 B2 DB DB|"D7"B2 A2 A>^G A2|"D7"A>B c2 c2 B>A|"G"A>G B>d g4|
+[V:2]|:B2 d2 Bd Bd | d2 c2 c>B c2 | c>d e2 e2 d>c | c>B B>A G4|
+[V:1]"G"D2 B2 DB DB|"D7"B2 A2 A>^G A2|"D7"d2 f>e d>c B>A|"G"G2 G2 G2 z2:|
+[V:2]B2 d2 Bd Bd | d2 c2 c>B c2 | d2 d2 c2 c2 | B2 B2 B2 z2:|
+
+X:80
+T:Svensk Annas Vals (Svenskarnasvalsen)
+O: Sweden
+R: Waltz
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+Q:150
+L: 1/4
+F:http://trillian.mit.edu/~jc/music/abc/Contra/waltz/SvenskAnnasV.abc	 2004-08-25 03:00:46 UT
+K: D
+%P:A
+[V:1] F/G/ | "D"A f> e | "G"d c B | "D"A F G | A2 F/G/ \
+| "D"A f> e | d c d | "E"e>fe/d/ | "A7"c2 F/G/ |
+[V:2] D/E/ | F A> e | B A G | F D E | F2 D/E/ \
+| F A> e | B A A | ^G>fe/d/ | =G2 D/E/ |
+[V:1] "D"A f> e | "G"d c B | "D"A F G | A2 A \
+| "G"B g f | "A7"e d c | "D"d> ed/c/ | d2 :|
+[V:2] F A> e | B A G | F D E | F2 F \
+| G B A | G F E | F> GF/E/ | F2 :|
+%P:B
+[V:1] F/G/ | "D"A2 f | A> FG/A/ | "G"B2 g | "Em"B2 A/B/ \
+| "A7"c E> F | G> FG/A/ | B A G | "D"[A2F2] F/G/ |
+[V:2] D/E/ | F2 A | F> DE/F/ | G2 B | [G2E2] F/G/ \
+| A C> D | E> DE/F/ | G F E | D2 D/E/ |
+[V:1] "D"A2 f | A> FG/A/ | "G"B2 g | "Em"B2 B/d/ \
+| "A7"c> dc/B/ | A f e | "D"d> ed/c/ | d2 :|
+[V:2] F2 A | F> DE/F/ | G2 B | [G2E2] G/B/ \
+| A> BA/G/ | F A G | F> GF/E/ | F2 :|
+
+X:81
+T:Time Will End
+M:2/4
+L:1/8
+C:Jeremiah McLane
+Z:Arr by Glenn Lee
+Q:1/4=110
+K:G
+%P:A
+"G"G2 gf | "Em"e3 d | "C"ed Bd | "D"A2 GA | "G"B2 AG | "C"EG DE | GA cB |
+"D"A2 GF | "Em"G2 gf | "C"e3 d | ed Bd | "D"A2 GA | "G"B2 AG |
+[1 "C"EG DE | "D"GA BA | "G"G2 (3DEF :|[2 "D"FG FE | "C"DC B,C | "D"DE FG |]
+%P:B
+"Em"E3 D | "C"E3 D | "D"EF GA | "G"BA GF | "Em"E3 D | "C"EF GA | "D"A4- | AB AG |
+[1 "C"E3 D | "Em"E3 D | "D"EF GA | "G"BG gf | "C"(3efg dB | "D"AG BA | "G"G3 A | BA GF :|
+[2 "Em"E2 DE | "G"GA BG | "C"ed cB | "D"AG FD | "C"EF GA | "D"BA GF | "G"G4 |]
+
+X:82
+% %NRChange 2010-02-05
+T: V\"ank\"arin Polska
+C: Andy May
+O: Finnish
+M: 3/2
+L: 1/8
+Q: 200
+R: Polska
+K: A
+a4 e2 d2 cd e2|=g3 e f2 d2 B2 ed|c2 A2 f2 ed e2 c2|B2 e2 f2 ef g2 fg|
+a4 e2 d2 cd e2|=g3 e f2 d2 B2 ed|c2 A2 f2 ed e2 c2|B2 AG A8:|
+|:F2 A2 A2 e2 d2 c2|B3 c BAGF G2 E2|F2 A2 A2 e2 d2 c2|B2 A2 G2 F2 E4|
+F2 A2 A2 e2 d2 c2|B2 e2 f2 ef g2 fg|a4 f2 ed e2 c2|1 B2 AG A4 A2 G2:|2 B2 AG A8||
+
+X:83
+% %NRChange 2011-01-17
+T:Vidar's Vals
+C:Vidar Skrede
+R:Waltz
+M:3/4
+L:1/8
+Q:1/4=120
+K:G
+%P:A
+|:v"G"[D2G,2] B[DG,] {Bd/c/}d2 | "G/B"[D2G,2] B[DG,] d2 | "C"~(cB) (Ac) eg | "D"~(gf) (ge) dd |
+ "G"[D2G,2] B[DG,] d2 | "G/B"[D2G,2] B[DG,] d2 | "C"(cB) (AD) "D"[FA,][FA,] |[1 "G" {GF}[G4G,4] ([GG,]E) :|[2 "G"[G4G,4] (GA) |
+%P:B
+|:"G"[B2D2G,2] ba g2 | "Bm"[f4B4] [f2B2] | "C"[g4c4] [a2c2] | [c4E4] ~([cE]B) | "Am"{G}A2 A(G A)B |
+"C"{cB}c2 (cA) ce | g2 ~(ge) [cE][cE] |"D" {dc}[d3D3] (c BA) |
+"G"[B2DG,2] ba g2 | "Bm"[f4B4] [f2B2] | "C"[g4c4] [a2c2] | [c4E4] ~([cE]B) | "Am"{G}A2 A(G A)B |
+"C"{cB}c2 (cD) "D"[FA,][FA,] | "G"[G2G,2] [AG][GG,] ([AG]B) |[1 [G4G,4] (GA) :|[2 G4 (GE) |]
+
+X:84
+T:Villiruusu (The Wild Rose)
+T:Inarin J\"arvi (Lake Inari)
+R:Waltz
+O:Finland
+Z:1997 by John Chambers <jc@trillian.mit.edu>
+M:3/4
+L:1/4
+F:http://trillian.mit.edu/~jc/music/abc/Finland/waltz/Villiruusu_2.abc	 2004-09-08 04:02:12 UT
+K: Dm
+%P:A
+|: A | "Dm"d2d | "A7"e2f | "Dm"d3 | A2d | "Gm"e2f | g2f | "A7"e3- | e2a ||
+"Dm"a2f | d2f | "Gm"f3 | "Gm"G2B | "A7"A2A | e2^c | "Dm"d3- | d2 :|
+%P:B
+|: a | "A7"a2g | "Dm"f2f | "Gm"g2f | "A7"e2e | "Dm"f2e | "Dm"d2d | "A7"e2^c | A2A ||
+"Dm"d2d | f2d | "Gm"d3 | G2B | "A7"A2A | Ae^c | "Dm"d3- | d2 :|
+
+X:85
+% %NRChange 2008-02-24
+T: Vintervals
+C: Michael Sommer 2004
+R:Waltz
+M: 3/4
+Q: 1/4=150
+L: 1/4
+K: F
+%P:A
+[V:1]"F"Ffe | "Bb"d>ef | "C"c2B | "F"A3/F/ G/A/ | "Gm"B>cd | "F/a"cAF | "G7/h"FEF |"C7"G3 |
+[V:2]F2A | B>cd | E2G | F2E/F/ | G>AB | AFC | =B,2D | E3 |
+[V:1]"F"Ffe | "Bb"d>ef | "C"c2"A7/c#"B | "Dm"A3/F/ "/c"G/A/ | "Gm"B>cd | "C"efg | "F"f>f"(Bb/c)"f | "F"f2z :|
+[V:2]F2A | B>cd | E2G | F>DE/F/ | G>AB | c2B | A>AB | A2z :|
+%P:B
+[V:1]"Dm"agf | "Am"e>fg | "Bb"d>ef | "F"c2A | "Gm"B>cd | "F/a"Acf | "G7"fef | "C7"g3 |
+[V:2]fed | c>de | B2d | A2 F | G>AB | F2A | =B3 | B3 |
+[V:1]"Fmaj7"agf | "F/a"e>fg | "Bb"d>ef | "F"c2A | "Gm"B>cd | "C7"efg | "F"f>f "(Bb/c)"f | "F"f2z :|
+[V:2]{A}e2d | cAc | B2d | A2F | G>AB | c2B | A>AB | A2z :|
+
+X:86
+T:Wednesday Polka
+Q:1/4=100
+M:4/4
+R:Polka
+Z:mheiman@northernroots.org
+K:Em
+%P:A
+E2 E2 ccB2 | AG F G/A/ B/c/B A F |
+E2 E2 ccB2 | AG FA G2 G2 :|
+%P:B
+G/A/B/c/ dB ce dB | cB A G/A/ B/c/B A2 |
+G/A/B/c/ dB ce dB | cB A G/A/ G2 G2 :|
+
+X:87
+T: Willafjord Reel
+O: Shetland
+M: 4/4
+L: 1/8
+Q:1/4=160
+R: reel
+Z: Les LaCroix (Les.LaCroix@carleton.edu)
+K: Dmaj
+%P:A
+FG| "D"A2F A- ADFA | "G"B2GB- BDGB | "D"A2FA- ADFA | "A"EFGA GFED |
+"D"A2FA- ADFA | "G"B2GB- BDGB | "A"ABcd efge | f2d2 d2:|
+%P:B
+de | "D"f2d f- ffd fd | "G"gfaf gfed | "D"f2d f- fd fd | "A"eaca Aage |
+"D"f2d f- fd fd | "G"gfaf gfed | "A"ABcd efge | f2d2 d2 :|
+
+X:88
+% %NRChange 2014-02-05
+T: Jim's Vals
+D: Fully Rigged: Aly Bain & Ale Moller
+M: 3/4
+R: Waltz
+Q:1/4=150
+K: A
+%P: A
+E2 |: A2>B2c2 | d2>c2B2 | c2>B2A2 | F2G2A2 |
+E2e2d2 | c2>B2 A2 |[1 ^def2d2 | e4E2 :|[2 !trill!B2>A2G2 | A4 :|
+%P: B
+cd |: e4A2 | f2>g2a2 | e2>c2A2 | B2e2d2 |
+c2F2FG | A2c2FG | A2B2G2 | E4 E2 |
+A2>B2c2 | d2>c2B2 |[1 c2>B2A2 | F2G2A2 |
+ E2e2d2 | c2>B2 A2 | !trill!B2>A2G2 | A4 cd :|
+[2 c2e2a2 | f2e2d2 | c2F2FG | A2c2FG | A2B2G2 | A4 |]

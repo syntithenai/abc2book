@@ -1,0 +1,53 @@
+X: 30241
+T: NEWBURY QUICKSTEP
+C:
+%R: quickstep, jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.24 #1 (and p.25 #1)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+!p!D |\
+B2B B2B | d2B d2B | B2B B2B | d2B cBA |\
+G2G G2G | c2c ege | d2c BAG | A2d d2D |
+"^cresc."\
+B2B B2B | B2d g2b | A2A A2A | A2B cBA |\
+G2G cde | d2B cBA | GBd gdB | G2z z2 :|
+|: A |!f!\
+d2d ^cBc | d2d d2^d | e2e ^d^cd | e2e e2^e |\
+f2f ^e^de | f2f g2=e | dfa AB^c | d2f d2 :|
+|: d |\
+b2a g2a | b2c' d'c'b | a2g f2g | a2b c'ba |\
+b2a g2a | b2c' d'c'b | afd def | g2b g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+!p!D |\
+G2G G2G | B2G B2G | G2G G2G | B2G AGF |\
+E2E E2E | E2E G2G | B2A G2G | F2F F2D |
+"^cresc."\
+G2G G2G | G2B D2G | F2F F2F | F2G AGF |\
+G2G G2G | B2G AGF | G2z G2z | G2z z2 :|
+|: A |!f!\
+F2F G2G | A2G F2A | G2G A2A | B2A G2B |\
+^A2A B2B | ^A2B B2G | F2F G2G | F2A F2 :|
+|: d |\
+d2c B2A | G2A BAG | c2B A2G | F2G AGF |\
+d2c B2A | G2A BAG | FAd d^c=c | B2d B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z |\
+g2g g2g | g2g g2g | e2e e2e | d2d d2d |\
+e2e e2e | c2c c2c | g2g e2e | d2d d2z |
+g2g g2g | g2g g2g | d2d d2d | d2d d2d |\
+e2e c2c | d2d d2d | gdB GBd | g2z z2 :|
+|: z |\
+d2d e2e | f2e d2f | e2e f2f | g2f e2g |\
+f2f g2g | d2b e2g | a2a A2A | d2d d2 :|
+|: z |\
+GBd gbd' | g2g G2G | DFA dfa | d2d d2d |\
+GBd gbd' | g2g G2G | DFA dfa | g2g g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

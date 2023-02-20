@@ -1,0 +1,53 @@
+X: 10681
+T: When off in Curricle we go
+T: from Turnpike Gate, A comic opera in two acts, 1799
+C: William Reeve
+Q: "Moderato"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.68-69
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Cm
+%%continueall
+G2 | c2 c2 d2 g2 | e2 c2 c2 d2 | e2 (de) c2 e2 |
+w: When off in Cur-ri-cle we go mind I'm a* dash-ing
+d2 =B2 G2 zG | c2 c2 d2 g2 | e2 c2 c2 "^Joe"d2 |
+w: Buck friend Joe my well match'd Nags both Black and Roan like
+e2 e2 f2 b2 | g2 e2 e4 | "^Crack"g2 g f e2 z"^Joe"e |
+w: most Bucks Nags are not your own Paid for I vow A-
+f2 f e d2 z"^Crack"d | e2 e d c2 d2 | e e f2 d2 G "^Joe"G |
+w: vast pri-thee how In pa-per at Six Month's Cre-dit or near-ly No
+A2 "^Crack"(G^F) G2 G2 | A2 G ^F G2 G2 | g2 g g g2 g g |
+w: Cash oh!* no that's mal a-pro-pos we Bucks pay in pa-per and
+g2 g2 g2 g2 | g2 g a g f e d | c2 d2 e2 f2 | "^Both"g2 g a g f e d |
+w: that is mere-ly Fal lal la ral lal lal lal lal lal lal lal Fal lal lal lal lal lal lal
+e2 c2 c2 zg | c'e'd'c' =bd'gb | c'e'd'c' =bd'gd' | c'2ga gfed | e2c2c2 |]
+w: lal lal la
+%
+N: The text in verses 2 and 3 should be aligned, but this is difficult with most fonts.
+W: 2. 
+W: Crack _ _ _ When mounted I in stile to be 
+W: \t \t \t \t \t \t Should sport behind in Livery 
+W: \t \t \t \t \t \t Two Footmen in fine cloaths array'd
+W: Joe - - - - For which the Taylor ne'er was paid 
+W: Crack _ _ _ We Men of Ton 
+W: Joe _ _ _ _ Have ways of your own 
+W: Crack _ _ _ Plead priv'ledge to lead our Tradesmen a dance Sir 
+W: \t mimicking \t John John when they call
+W: _ _ _ _ _ _ Let them wait in the Hall 
+W: Joe _ _ _ _ And two hours after send them for answer. Fal lal la &c.
+W: 
+W: 3.
+W: Joe _ _ _ _ If this be Ton friend Crack d'ye see 
+W: \t \t \t \t \t We're better from such Lumber free 
+W: \t \t \t \t \t No debts for Coaches we can owe 
+W: Crack _ _ _ Because no one will trust us Joe 
+W: Joe _ _ _ _ Then I say still 
+W: \t \t \t \t \t That no man his Bill 
+W: Crack _ _ _ To us for a Carriage with Justice can bring in 
+W: Jor _ _ _ _ Then mount never mind 
+W: Crack _ _ _ Leave old care behind 
+W: Jor _ _ _ _ Or should he o'ertake us we'll fall a singing. Fal lal la &c.
+%
+%%center -

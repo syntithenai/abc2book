@@ -1,0 +1,27 @@
+X: 1
+T: the Bucket
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #10 (6)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+Bcd dBG | G2B cde | ecA A2c |\
+Bcd dBG | c2B ABA | AFD D2 :|
+|: c |\
+B2E EFE | EFE B2E | EFG AFD |\
+B2G EGE | EFE FGA | AFD D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1st Cu. go the whole figure thro the 3d Cu. .|
+%% the 2d Cu. do the same :|
+%% the 1st Cu. figure on the contrary sides meet in the middle and turn Partners quite round .|
+%% then lead to the Wall, sides, and the 1st Cu. slip the 2d Cu. below them, then set two steps and cast off :|
+%%endtext
+%%sep 1 8 500

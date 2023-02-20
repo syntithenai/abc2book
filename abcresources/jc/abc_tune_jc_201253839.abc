@@ -1,0 +1,112 @@
+
+X: 0
+T: BLUE HILLS STANDPIECE
+%C: 101122
+K:
+
+%%textfont Times-Italic 12
+
+
+X: 1
+T: The Yew Tree - 4/4
+P: piffero primo a0834
+O: traditional
+%R: reel, march
+F: http://ancients.sudburymuster.org/mus/sng/pdf/yewtreeC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Ador
+AG |\
+Aeed e2de | cABG A2AB | cAce dBdg | e4 e2AG |\
+Aeed e2de | cABG A2AB |
+cAdc BAGE | A6 AA |]\
+dBdf gfed | ezAG E3A | d2 (3Bcd edge | d4 d2 (3Bcd |\
+e^deg e2=dB |
+dedB G4 | cdcA BAGE | A2e^d e=d (3BAG |\
+d4- d4- | d2zc BAGE | A4- A4- | A2z2 z2 |]
+
+
+X: 2
+T: The Boys of Blue Hill
+P: piffero b0082
+O:
+%R: reel
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/bluehillF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+d2 |\
+BAFA DAFA | BA (3(Bcd) e2de | fa (3(agf) egfe | d(fe)d B2d2 | BAFA DAFA |
+BA (3(Bcd) e2de | fa (3(agf) egfe | d2f2 d2 :: e2 | agfg a2gf | efga b2ag |
+fagf egfe | dfed B2d2 | BAFA DAFA | BA (3(Bcd) e2de | fa (3(agf) egfe | d2f2 d2 :|
+
+%%center (before the after drum bridge)
+
+
+X: 3
+T: After the Battle of Aughrim
+P: piffero primo b0083
+O: traditional Irish
+%R: march, reel
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/bluehillF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Ador
+AG |\
+E2A2 ABcd | e2d2 c2AA | {Bc}BBG2 {A}GFGA | BGAG E2D2 |\
+E2A2 A2 (3Bcd | e2ed e2ag | e2d2 BedB |1 A4 A2 :|2 A6 ||
+|: e2 |\
+a2ag e2 (3efg | abag e2 (3efg | a2{b}af g2{a}ge | dedB G4 |\
+abag e2 (3efg | abag e2d2 | B2e2 d2B2 | A6 :|
+
+
+X: 4
+T: The Lilting Banshee
+P: piffero primo b0084
+O: traditional Irish
+%R: jig
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/bluehillF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Amix
+z |\
+EAA EAA | BAB G2A | Bee edB | def gfg |\
+eAA eAA | BAB G2A | Bee edB | BAA A2 :|
+| z |\
+eaa age | dBA G2A | Bee edB | def gfg |\
+eaa age | dBA G2A | Bee edB | BAA A2 :|
+
+%%center (way after the after drum bridge)
+
+
+X: 5
+T: Old Grey Cat v.1
+P: piffero primo b0085
+O: Ruthie Dornfeld
+%R: jig
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/bluehillF.pdf
+F: http://ancients.sudburymuster.org/mus/sng/pdf/oldgreycatC0.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Edor
+Bd |\
+e2e2 E3F | GFGA BABc | d2d2 D3E | FAdB AFED |\
+e2e2 E3F | GFGA BABc | dcBA BAGF | DE2F E2 ||
+Bd |\
+e2e2 E3F | GABA BABc | d2d2 D3E | FAdB AFED |\
+edBG EDEF | GFGA BABc | dcBA BAGF | E2EE E2 ||
+GA |\
+B2e2 e3d | Bdef gfed | Ad3 d3B | ABdf edBd |\
+e2B2 g2B2 | a2B2 b3a | gfed BA^d2 | e4 e2 ||
+GA |\
+B2e2 g3d | Bdef gfed | A2d2 f3B | ABdf edBd |\
+EGBe GBdg | Acea B^dfb | (3agf ed B2^d2 | e4 ez |]
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

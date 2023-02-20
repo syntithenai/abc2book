@@ -1,0 +1,238 @@
+X: 11191
+T: HERO'S QUICKSTEP
+C:
+%R: quickstep, march
+N: This is version 2, for ABC software that understands voice overlays, cresc/diminuendo symbols, etc.
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.119-123
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+N: The Fife, Trumpet and Cornopeon have no (i.e., C) keysig in the book; they only make sense for an Ab instrument.
+N: In bar 32, the instrument names above the staves are mysteriously rearranged.
+N: In bars 33-40, voice 2 splits into two voices (the lower, not transcribed here, is just F notes on the off-beats).
+N: The final chord has the notes in the bottom two staves interchanged; fixed.
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: 2/4
+L: 1/16
+K: Ab
+%%indent 90
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="Fife in Ab" sname="Fife" staves=4
+K: none
+"[p.119]"\
+[| !f!\
+c6 .d2 | .e2.f2.g2.a2 |\
+g4 z4 | "_fz"g6 (3(fed) |\
+c4 (agfe) | d4 z4 |
+%
+g6 (3(fed) | c4 z4 |\
+"Ad lib."z2 ({a}g2^f2g2) | [c'6c4] g2 |\
+(e2c2a2g2) | (g6 ^f2 |\
+=f2)({g}f2e2f2) | d'6 (d'c') |
+%
+"[p.120]"|\
+(c'b)(ba) (ag)(gf) | g3f e2z2 |\
+z2 !f!({a}g2^f2g2) | (c'6 ba) |\
+(b6 a^g) | (a6 ^g2) |:\
+!p!(=g2^fg e'2d'2) | c'2(^fg a2g2) |
+%
+(=f2^cd a2)g2 | (e2Bc) .c.d.e.^f |\
+.g2(^fg e'2d'2) | c'2(^fg a2g2) |\
+(=f2^cd a2)g2 | c4 z4 ::\
+!f!a6 .^g2 | .a2.b2.c'2.d'2 |
+%
+"[p.121]"\
+e'4 z4 | "Ad lib."e8 |\
+(a2g2) g3d | (f2e2) e3c |\
+(e2d2) (df).e.d | (cB).c.e  .g2.g2 |\
+(a2g2) g3d | (f2e2) e3c |
+%
+(e2d2) (de).e.d | c4 c'4 |\
+(a2g2) g3d | (f2e2) e3c |\
+(e2d2) (df).e.d | (cB).c.e .g2.g2 |\
+(a2g2) g3d | (f2e2) e3c |
+%
+"p.122"\
+(e2d2) (df).e.d | c6 z2 :|\
+z4 "_>fz"b4 | z4 b4 |\
+"^Ad. lib."e6 (f2 | ^f2g2a2g2) |\
+(g6 pa2 | b2Pc'2d'2^d'2) |
+%
+e'6 (Qd'2 | c'2qb2)a2g2 |\
+!p!(gfd2) b4 | (gfd2) b4 |\
+!p!(e6 f2 | ^f2g2a2)g2 |\
+g2(a2b2pc'2 | ^c'2Pd'2e'2)d'2 |
+"p.123"\
+(d'8 | c'6) "ad lib"z2 ::!p!\
+eee2 f2e2 | (e2d2) d4 |\
+ddd2 e2d2 | (d2c2) c4 |\
+eee2 f2e2 | (e2d2) d4 |\
+ddd2 e2d2 | d2z2 c'4 |
+%
+"^8va . . . ."\
+eee2 f2e2 | (e2d2) d4 |\
+ddd2 e2d2 | (d2c2) c4 |\
+eee2 f2e2 | (e2d2) d4 |\
+ddd2 e2d2 | c4 z2b2 |\
+.c'2.b2.c'2.b2 | c'4 z3e' |\
+e'4 z3c | c8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 name="Bugle in Bb" sname="Bugle"
+K: Bb
+[| !f!\
+B6 .c2 | .d2.e2.f2.g2 |\
+f4 z4 | "_fz"f6 (3(edc) |\
+B4 (gfed) | c4 z4 |
+"_fz"f6 (3(edc) | B4 z4 |\
+!p!z2 ({a}f2=e2f2) | b6 f2 |\
+(d2B2g2f2) | (f6 =e2 |\
+_e2)({f}e2d2e2) | c'6 (c'b) |
+(ba)(ag) (gf)(fe) | f3e d2z2 |\
+z2 !f!({a}f2=e2f2) | (b6 ag) |\
+(a6 g^f) | (g6 ^f2) |:\
+!p!(=f2[=e=E][fF] [d'2d2][c'2c2]) | [b2B2](=ef g2f2) |
+(_e2=Bc g2)f2 | (d2AB) .c.d.e.=e |\
+(f2[=e=E][fF] [d'2d2][c'2c2]) | [b2B2](=ef g2f2) |\
+(_e2=Bc g2)f2 | B4 z4 ::\
+"(8va Ad lib."G6 ^F2 | .G2.A2.B2.c2 |
+d4 z4 | "Cornopean"d8 |\
+!p!(g2f2) f3c & z2F2 z2F2 | e2d2 d3B & z2F2 z2F2 |\
+(d2c2) (ce).d.c & z2F2 z2F2 | (BA).B.d .f2.f2 & z2F2 z2F2 |\
+(g2f2) g3c & z2F2 z2F2 | (e2d2) d3B & z2F2 z2F2 |
+(d2c2) (ce).d.c | B4 "^fz"b4 & F4 x4 |\
+(g2f2) f3c | (e2d2) d3B |\
+(d2c2) (ce).d.c | (BA).B.d .f2.f2 |\
+(g2f2) f3c | (f2e2) e3B |
+(d2c2) (ce).d.c | B6 z2 :|\
+!p!(fe).c2 "_fz"a4 | (fe).c2 a4 |\
+!p!(d6 e2 | =e2f2g2f2) |\
+("^8va ad lib."F6 pG2 | A2PB2c2^c2) |
+(d6 Qc2 | B2qA2G2) F2 |\
+!p!(fec2) "^fz"a4 | (fec2) a4 |\
+!p!(d6 e2 | =e2f2)g2f2 |\
+"^8va ad lib."(F2G2A2pB2 | =B2Pc2d2)c2 |
+(Qc8 | qB6) z2 ::\
+ddd2 e2d2 | (d2c2) c4 |\
+ccc2 d2c2 | (c2B2) B4 |\
+ddd2 e2d2 | (d2c2) c4 |\
+ccc2 d2c2 | B2"^fz"z2 b4 |\
+!f!\
+fff2 g2f2 | (f2e2) e4 |\
+eee2 f2e2 | (e2d2) d4 |\
+fff2 g2f2 | (f2e2) e4 |\
+eee2 f2e2 | d4 !ff!z2a2 |\
+.b2.a2.b2.a2 | b4 z3b |\
+b4 z3B | B8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 name="Trumpet in Ab\nCornopeon in Bb" sname="Trpt\nCorn"
+K: none
+[| !f!\
+c6 .d2 & c6 .d2 | .e2.f2.g2.a2 |\
+g4 x4 & g4 z4 | "_fz"(B8 & (F8 |\
+c4) (^c4 & E4) (G4  | d4) z4 & F4) x4 |
+%
+[B8F8] | [c2E2][GE][GE] [G2E2][G2E2] |\
+[G2E2][G2E2] [G2E2][G2E2] | z2[G2E2][G2E2][G2E2] |\
+z2[G2E2][G2E2][G2E2] | z2[G2F2][G2F2][G2F2] |\
+z2[G2F2][G2F2][G2F2] | z2[G2F2][G2F2][G2F2] |
+%
+z2[G2F2][G2F2][G2F2] | z2[G2E2][G2E2][G2E2] |\
+!f![G4E4] z4 | [c2A2][c2A2][c2A2]z2 |\
+[d2^G2][d2G2][d2G2]z2 | [c2A2][c2A2][c2A2]z2 |:\
+z2[G2F2] z2[G2F2] | z2[G2E2] z2[G2E2] |
+%
+z2[G2D2] z2[G2D2] | [G2E2]z2 z4 |\
+z2[G2F2] z2[G2F2] | z2[G2E2] z2[G2E2] |\
+z2[G2F2] z2[G2F2] | [G2E2][G2E2][G2E2]z2 ::\
+!f!A6 G2 & A6 x2 | .A2.B2.c2.d2 |
+%
+e4 z4 & e4 x4 | "^Bugle""_fz>Trumpet"[B8^G8] |\
+(a2g2) g3d & z2[G2D2] z2[G2D2] | (f2e2) e3c & z2[G2E2] z2[G2E2] |\
+(e2d2) .d.f(ed) & z2[G2F2] z2[G2F2] | (cB).c.e g2g2 & z2[G2E2] z2[G2E2] |\
+(a2g2) g3d & z2[G2D2] z2[G2D2]  | (f2e2) e3c & z2[G2E2] z2[G2E2] |
+%
+e2d2 (ef).e.d & z2[G2F2] z2[G2F2] | B4 e4 & [G4E4] G4 |\
+z2[G2D2] z2[G2D2] | z2[G2E2] z2[G2E2] |\
+z2[G2F2] z2[G2F2] | z2[G2E2] z2[G2E2] |\
+z2[G2D2] z2[G2D2] | z2[G2E2] z2[G2E2] |
+%
+z2[G2F2] z2[G2F2] | [G2E2][G2E2][G2E2]z2 :|\
+!p!d2z2 "_fz"[f4D4] | !p![d2G2]z2 "_fz"[f4D4] |\
+!p!([E6C6] [F2D2] | [^F2^D2][G2E2][A2=F2][G2E2]) |\
+([G6B,6] p[A2C2] | [B2D2]P[c2E2][d2F2][^d2^F2]) |
+%
+([e6G6] Q[d2F2] | [c2E2]q[B2G2][A2F2])[G2E2] |\
+!p![d2G2]z2 "_fz"[f4D4] | [d2G2]z2 [f4D4] |\
+!p!([E6C6] [F2D2] | [^F2^D2][G2E2])[A2F2][G2E2] |\
+([G2B,2][A2C2][B2D2]p[c2E2] | [^c2E2][d2F2]P[e2G2][d2F]) |
+%
+(Q[d8F8] | q[c6E6]) z2 ::!p!\
+[eG][eG][e2G2] [f2A2][e2G2] | [e2G2][d2F2] [d4F4] |
+[dF][dF][d2F2] [e2G2][d2F2] | [d2F2][c2E2] [c4E4] |\
+[eG][eG][e2G2] [f2A2][e2G2] | [e2G2][d2F2] [d4F4] |\
+[dF][dF][d2F2] [e2G2][d2F2] | [c2E2]"_fz"z2 [e4G4] |
+%
+[eG][eG][e2G2] [f2A2][e2G2] | ([e2G2][d2F2]) [d4F4] |\
+[dF][dF][d2F2] [e2G2][d2F2] | ([d2F2][c2E2]) [c4E4] |\
+[eG][eG][e2G2] [f2A2][e2G2] | [e2G2][d2F2] [d4F4] |\
+[dF][dF][d2F2] [e2G2][d2F2] | [c4E4] !ff!z2.[f2A2] |\
+.[e2c2].[f2d2].[e2c2][f2d2] | [e4c4] z3[eG] |\
+[e4G4] z3[GE] | [G8E8] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 4 name="Trombone\nOphicleide" sname="Bass" clef=bass middle=d
+K: Ab
+[| !f!\
+[a6A6] .[b2B2] | .[c'2c2].d'2.e'2.f'2 |\
+e'4 z4 | (b8 & (E8 |\
+a4) "_fz"(c'4 & A4) (F4 | b4) z4 & F4) z4 |
+%
+[b8E8] | !p!a2aa a2a2 & A2A2c2c2 |\
+a2a2 a2a2 & A4 z4 | z2a2a2a2 & A4 z4 |\
+z2a2a2a2 & A4 z4 | z2b2b2b2 & e4 z4 |\
+z2b2b2b2 & e4 z4 | z2g2g2g2 & E4 z4 |
+%
+z2 g2 g2 g2 & E4 z4 | z2 a2a2a2 & A2z2 a2z2 |\
+[a4A4] z4 | !f![c'2F2][c'2F2][c'2F2]z2 |\
+[c'2c2][c'2c2][c'2c2]z2 | [d'2d2][d'2d2][d'2d2]z2 |:\
+z2b2 z2g2 & [e2E2]z2 [e2E2]z2 | z2a2 z2a2 & A2z2 A2z2 |
+%
+z2g2 z2g2 & [e2E2]z2 [e2E2]z2 | [a2A2]z2 z4 |\
+z2b2 z2g2 & [e2E2]z2 [e2E2]z2 | z2a2 z2a2 & A2z2 A2z2 |\
+z2g2 z2g2 & E2z2 E2z2 | [a2A2][a2A2][a2A2]z2 ::\
+[f6F6] .[=e2=E2] | .[f2F2].[g2G2].[a2A2].[b2B2] |
+%
+[c'4c4] z4 | [c'8c8] |!p!\
+z2g2 z2g2 & [e2E2]z2 [e2E2]z2 | z2a2 z2a2 & A2z2 A2z2 |\
+z2g2 z2g2 & [e2E2]z2 [e2E2]z2 | z2a2 z2a2 & A2z2 A2z2 |\
+z2g2 z2g2 & [e2E2]z2 [e2E2]z2 | z2a2 z2a2 & A2z2 A2z2 |
+%
+z2g2 z2g2 & [e2E2]z2 [e2E2]z2 | [a4A4] "_fz"[a4A4] |\
+z2g2 z2g2 & [e2E2]z2 [e2E2]z2 | z2a2 z2a2 & A2z2 A2z2 |\
+z2g2 z2g2 & [e2E2]z2 [e2E2]z2 | z2a2 z2a2 & A2z2 A2z2 |\
+z2g2 z2g2 & [e2E2]z2 [e2E2]z2 | z2a2 z2a2 & A2z2 A2z2 |
+%
+z2g2 z2g2 & [e2E2]z2 [e2E2]z2 | [a2A2][a2A2][a2A2]z2 :|\
+!p![g2e2]z2 "_fz"[e4E4] | !p![g2e2]z2 !f![e4E4] |\
+!p![a8-A8-] | [a8A8] |\
+[e8-E8-] | [e8E8] |
+%
+[a8-A8-] | [a8A8] |\
+[g2e2]z2 [e4E4] | [g2e2]z2 [e4E4] |\
+[a8-A8-] | [a8A8] |\
+[e8-E8-] | [e8E8] |
+%
+z2c2d2e2 & E8 | [a2A2][a2A2][a2A2]z2 ::\
+aaa2 a2a2 & A2z2 A2z2 | e4 a4 & E4 G2d2 |\
+eee2 e2e2 & e2z2 e2z2 | a4 a4 & A4 e2c2 |\
+aaa2 a2a2 & A2z2 A2z2 | e4 g4 & E4 G2B2 |\
+eee2 e2e2 & e2z2 e2z2 | [a2A2]"^fz"z2 [a4A4] |
+%
+aaa2 a2a2 & A2z2 A2z2 | e4 e4 & E4 G2B2 |\
+eee2 e2e2 & e2z2 e2z2 | a4 a4 & A4 e2c2 |\
+aaa2 a2a2 & A2z2 A2z2 | e4 g4 & E4 G2B2 |\
+eee2 e2e2 & e2z2 e2z2 | [a4A4] z2.[e2E2] |\
+.[a2A2].[e2E2].[a2A2].[e2E2] | [a4A4] z3[c'a] |\
+[c'4a4] z3[aA] | [a8A8] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

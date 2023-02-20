@@ -1,0 +1,27 @@
+X: 1
+T: Carpenters Maggot
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.258
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+D>ED FAA | d3 f3 | e>fe eBd | c3 A2a |\
+b>ag (f/g/a)c | dBe c2A | B/c/dB c/d/eA | B/c/dB c/d/eA |
+a3 f>gf | gcd eBc | d3 D3 |][| fdd g>ab |\
+a(b/a/) (g/f/) g2a | (ge)d BB/c/d | cac Bag | a3 A3 | fdd caa |
+ecc Bgg | dBB Aff | Gee Fdd | Edc d2F |\
+G>AB AG/F/E/D/ | C/D/EA, a3 | f>gf eBc | d3 D3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. cross over below the 2. cu. the man cast up again and go quite round into the 2. wo. place,
+% his Partner following him .| The 2. cu. do the same :| All four hands half round, and turn S. the 1.
+%% man turn the 2. wo. into the 1. man's place .| The other cu. do the same, then right and left till you
+%% come below the 2. cu. :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

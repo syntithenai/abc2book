@@ -1,0 +1,40 @@
+X:1
+%
+%%tabrhstyle    modern
+%%tabfontsize   13
+%%tabfontscale  1.1
+%%tabflagspace  3pt
+%
+T:Fortune Angloise
+C:N. Vallet, 1616
+L:1/4
+M:C|
+K:frenchtab
+%
+[,,dca2] [,,d,a1] '[,a,,,a] | \
+    [,bdca1] > .,d ':,b1 '[,a,,,a] | \
+    [,,d,a1] [a,,,d] [,d,,,d] '[,b,,a] | \
+    X[,a,c2] ,,,,,a |\
+	[,,d,a/] .,,c :,,d .,a :,,d .,b [,a,,,a] .,d | \
+    [,b,,a/] ,,,,c ,,,,d ,,,,a [,a,c] .,,d :,a .,,c |
+%
+[,,d,a1] :b/ .a [,d{a}] .,b :,a .,,d | \
+    [,acc2] ,,,,,a |\
+	[ab,,d2] [ab,,d1] .[ab] | [ab,,d/] .,a :,b .,d :a1 [,d,,c] | \
+    [a,,c/] .c :d1 [c,,,c] [a,,,d] |\
+    [,db,,d2] .[,db] | \
+    [,db,,d1] :a/ .c [da,,,a1] .[ca] |
+%
+[a,,,d/] .,d :a .b ':a1 [,d,a/] .,b |\
+	'[,a,c1] [,,d,d] [,a,a/] .,,d [,,cc1] | \
+    [,,dca2] {,,,a} | \
+    [a,,,d/] .d :a .b :d ,,,,d ,,,,a ,,,,c |\
+	,,,,d/ .a :,b .,d :a ,,,,c ,,,,d ,,,a | \
+    ,,,c/ .,d :a .c :d {a} ,,,,,a ,,,,,c |
+%
+,,,,,d/ .,d :,a .,b :,d ,,,,,d ,,,,,c ,,,,,a |\
+	{a}/ .,d :a .c :d ,,,,,d [c,,,a] ,,,,c | \
+    [a,,,d/] ,,,,c ,,,,d ,,,a ,,,c1 [,d,,a/] .,b | \
+    '[,a,,,a1] [,,d{,a}] [,a{a}/]>.,,d/ '[,,c,,a1] | \
+    [,,dca2] {,,,a} |]
+

@@ -1,0 +1,22 @@
+X: 624
+T: the Dublin Reel
+R: reel
+%S: s:3 b:21(7+7+7)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #624
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0624/oneill-1001-0624-1.abc
+%m: Tn3 = n(3n/o/n/ m/n/
+M: C|
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+"^A"[| dF (3({G}FEF) dfec | dF (3{G}(FEF) AFEF \
+| dF (3({G}FEF) dfed |[1 cABG AFEA :|[2 cABc ABcd \
+"^B"[| e2 (3(cBA) EAcf | (3(efe) cA BF ((3{G}FEF) |
+| e2 (3(cBA) EAcA | (3(Bcd) cA BF (3({G}FEF) |\
+| e2 (3(cBA) ecfc | eAcA BF (3({G}FEF) \
+| d3c dfed | cABG AFEA "^C"|[| Td3c dAFA |
+| dcdB AFEA | d2(dc) dfed | cABc AFEA |\
+| Td3c dAFA | dcdB AFEA \
+| {e}dcdf e2(ae) | fdBc dfec |]

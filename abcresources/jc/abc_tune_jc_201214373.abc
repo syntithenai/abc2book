@@ -1,0 +1,18 @@
+X: 148
+T: Margaret's Waltz
+N: page 48
+N: heptatonic
+C: Pat Shaw
+N: Composed for Margaret Grant when she was retiring from the EFDSS.
+R: waltz
+M: 3/4
+L: 1/8
+K: A
+c2 \
+| "A"E3 FAB | "F#m"c4 c2 | "D"BA F2 A2 | "E7"B4 c2 \
+| "A"E3 FAB | "F#m"c3 d e2 | "E7"c4 B2 | "A"A4 :|
+cd \
+| "E"e3 fge | "F#m"a4 a2 | "D"fe d2 f2 | "E7"e3 dcB \
+| "F#m"A3 Bcd | "C#m"e4 c2 | "D"BA F2 A2 | "E7"B4  cd
+| "A"e3 fge | "F#m"a3g f2 |"Bm"e2d2c2|"E7"B4 c2|\
+"A"E3 FAB|"F#m"c3d e2|"E7"c4B2|A4|

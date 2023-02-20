@@ -1,0 +1,17 @@
+X: 83
+T: la Bavaroize
+%R: march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.40 #83
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/2	% The book has just "2"
+L: 1/8
+K: Am
+e2 |\
+e4 a4 | e3d c2B2 | A2B2 c2d2 | edef e2e2 |\
+e4 a4 | e3d c2B2 | A2B2 c2d2 | e6 :|
+|: g2 |\
+g4 c'4 | g3f e2g2 | f2e2 d2c2 | dcde d2Bc |\
+d4 d4 | d3c d2e2 | f2e2 Td4 | c6 cd |
+e4 e4 | e3d e2f2 | e2d2 c2B2 | A^GAB ABcd |\
+e4 e4 | e3d e2a2 | ^g2a2 b2g2 | a6 :|

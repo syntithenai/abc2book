@@ -1,0 +1,34 @@
+X: 4282
+T: Craig Ellachie Bridge.   a Strathspey.
+C: by Mr Marshall
+%R: strathspey, air
+B: Niel Gow & Sons "Complete Repository" v.4 p.28 #2 (and top staff of p.29)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: Should the 2nd f note in the next-to-last bar be a g note?
+M: C
+L: 1/16
+K: D
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+A,2 |:\
+DD3 ~F3A dcBA F3D | E=C3 c3E G4 (~G2AB) | A3DF3D dcBA F2D2 | Ee3 c3A d4 ~d2f2 :|\
+dd3 f3a d2a2f2a2 | =cg3e3f g4- Tg2ab |
+ad3f3d a2d2f2b2 | a3df2d2 (3f2g2a2 {g}Tf4 || dd3 f3a d3af3a | gfed =c3e g4 ~g2ag |\
+fa3ef3 df3Bd3 | AF3d3F A4A2 |]|
+Bc |\
+.d.c.B.A .G.F.E.D dcBA GFED | E=C3 c3E G4 ~G2FE | DEFG ABcd DEFG ABcd | Dd3Fd3 (B2A2)(G2F2) ||
+Dd3 Ed3 Fd3 Dd3 | =C2c2c3E G4 ~G2FE | Dd3 Ee3 Ff3 Gg3 | A3g (fe)dc d4 ~d2f2 |]|\
+dd3 f3a f2a2f2a2 | =cg3e3f g4- Tg2ab |
+ad3fd3 a2d2f2b2 | a3ef2d2 (3f2g2a2 {g}Tf4 ||\
+dd3 f3a d3af3a | (gfed) =c3e g4 ~g2ag | fa3 ef3 df3 Bd3 | Af3 d3F A4 A2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z2 |:\
+d4d4 d4d4 | =c4c4 c4c4 | d4d4 d4d4 | g4a4 d4d4 :| d'4d'4 d'4d'4 |
+=c'4c'4 c'4c'4 | d'4d'4 d'4d'4 | d'4d'4 d'4d'4 || d'4d'4 d'4d'4 | =c'4c'4 c'4c'2^c'2 |
+d'4c'4 b4g4 | f4a4 f4d2 |]| z2 | D4d4 D4d4 | =C4c4 C4c4 | D4d4
+D4d4 | D4d4 D8 || d4c4 d4 f4 | e4=c4 c4^c4 | d4c4 d4e4 |
+f3g a2A2 d4 D4 |]| d'4d'4 d'4d'4 | c'4c'4 c'4c'4 | d'4d'4 d'4d'4 | d'4d'4 d'4d'4 ||
+d'4d'4 d'4d'4 | =c'4c'4 c'4c'2^c'2 | d'4c'4 b4g4 | f4a4 d4d2 |]

@@ -1,0 +1,55 @@
+
+X: 1
+T: Na srce mi le\vzi    [D]
+O: Makedonija
+R: devetorka
+N: Words combined from Esma Redjepova & Enver Rasimov, plus v.4 from Jasmina Mukaetova (& Tom Pixton)
+N: There are a lot of recordings, with much variation in the instrumental interludes.
+N: This version is mostly from the MKDmuzika (Redjepova & Rasimov) recording.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: D
+|:"D"[AF][dB] [cA][BG] [AF][BG] [A2F2][FD] | "A7"[AF][G/E/][A/F/] [G/E/][F/D/][EC] "D"[FD][GE] "(A7)"[AF][BG][AF] \
+| "D"[AF][dB] [cA][BG] [AF][BG] [A2F2][FD] | "A7"[AF][G/E/][A/F/] [G/E/][F/D/][EC] "D"[F2D2] [FD]z2 :|
+[|"D"[A2F2] [A2F2] "G"[B2G2] "D"[A3F3] | "A7"[A2F2] [G2E2] [FD][EC] "D"[F2D2][GE] | "D"[A2F2] [A2F2] "G"[B2G2] "D"[A3F3] | "A7"[GE][AF] [GE][FD] "D"[F2-D2-] [F3D3] |
+w: 1.~Na sr-ce mi le-\vzi, mi-la ma-mo, na sr-ce mi le-___\vzi.
+w: 2.~Ne me bi-lo zmi-ja, mi-la ma-mo, ne mi bi-lo zmi-___ja.
+w: 3.~Sev-di-ni-te o-\vci, mi-la ma-mo, sev-di-ni-te o-___\vci.
+w: 4.~Sev-di-ni-te ve-gi, mi-la ma-mo, sev-di-ni-te ve-___gi.
+w: 5.~Sev-di-na-ta sna-ga, mi-la ma-mo, sev-di-na-ta sna-ga.
+|:"G"[B2G2] [BG][BG] [B2G2] [BG][AF][GE] | "A"[A2F2] [B2G2] [cA][BG] "D"[A2F2][FD] | "A7"[G2E2] [A2F2] [B2G2] "D"[A3F3] | "A7"[GE][AF] [GE][FD] "D"[F2-D2-] [F3D3] :|
+w: 1.~Aj na sr-ce mi__ le-\vzi, mi-la ma-mo, ed-na lju-ta zmi-___ja.
+w: 2.~Aj ne mi bi-lo__ zmi-ja, mi-la ma-mo, tuk' je ka-ra sev-___da.
+w: 3.~Aj sev-di-ni-te__ o-\vci, mi-la ma-mo, cr-ni \vce-re-\vso-___vi.
+w: 4.~Aj sev-di-ni-te__ ve-gi, mi-la ma-mo, mor-ski pi-ja-vi-___ci.
+w: 5.~Aj sev-di-na-ta__ sna-ga, mi-la ma-mo, ten-ka em vi-so-___ka.
+%
+W: 1. On my heart lies, dear mother, a poisonous snake.
+W: 2. It wasn't a snake, but a love unrequited.
+W: 3. This love's eyes are like black cherries.
+W: 4. This love's eyebrows are like sea leeches.
+W: 5. This love's body is a tall sylph.
+F: http://www.youtube.com/watch?v=4Fl_oRBSiOs Esma Redjepova & Enver Rasimov
+F: http://www.youtube.com/watch?v=vLwWMddrl4Q Petranka Kostadinova
+F: http://www.youtube.com/watch?v=mZopXH5Ju_c Jasmina Mukaetova
+F: http://www.youtube.com/watch?v=OHPgA_6lD5I Orkestar Maestral Bitola
+
+%%sep 1 1 500
+
+X: 1
+T: Na srce mi le\vzi    [A]
+O: Makedonija
+R: devetorka
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: A
+|:"A"[ec][af] [ge][fd] [ec][fd] [e2c2][cA] \
+| "E7"[ec][d/B/][e/c/] [d/B/][c/A/][BG] "A"[cA][dB] "(E7)"[ec][fd][ec] \
+| "A"[ec][af] [ge][fd] [ec][fd] [e2c2][cA] \
+| "E7"[ec][d/B/][e/c/] [d/B/][c/A/][BG] "A"[c2A2] [cA]z2 :|
+[|"A"[e2c2] [e2c2] "D"[f2d2] "A"[e3c3] | "E7"[e2c2] [d2B2] [cA][BG] "A"[c2A2][dB] \
+| "A"[e2c2] [e2c2] "D"[f2d2] "A"[e3c3] | "E7"[dB][ec] [dB][cA] "A"[c2-A2-] [c3A3] |
+|:"D"[f2d2] [fd][fd] [f2d2] [fd][ec][dB] | "E"[e2c2] [f2d2] [ge][fd] "A"[e2c2][cA] \
+| "E7"[d2B2] [e2c2] [f2d2] "A"[e3c3] | "E7"[dB][ec] [dB][cA] "A"[c2-A2-] [c3A3] :|

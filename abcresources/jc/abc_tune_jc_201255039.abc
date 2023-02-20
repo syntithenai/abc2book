@@ -1,0 +1,1020 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 36
+B: RSCDS Book 36
+K:
+%%center Book36/3600-Title.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 3601
+T: Portnacraig
+P: The Brown Trout
+C:Muriel A. Johnstone
+R:Reel (8x32)
+B:RSCDS 36-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:D
+(3ABc|:"D"d2 "G"B2 "D"AFED|"A"CDEF E2A2|"Bm"d2cd "E7"Bfed|"A"c2A2A2 (3ABc|
+       "D"d2 "G"B2 "D"AFED|"A"CDEF E2A2|"Bm"f2da "A"gecA|"D"d2f2d2 de|
+[1 "D"fdd2 Add2|"G"Bdd2 "A7"cdeg|"D"fdd2 Add2|"A7"gecA "D"d2 de|
+   "D"fdd2 Add2|"G"Bdd2 "A"cdeg|"D"fdd2 "Em"bged|"A7"cABc "D"d2 (3ABc:|
+[2 "D"fdd2 Add2|"G"Bdd2 "A7"cdeg|"D"fdd2 Add2|"A7"gecA "D"d3 e|
+   "Bm"d2b2 "D"afed|"A"cdef e2A2|"G"B2ef "A7"gecA|"D"d2f2d2|]
+%%center Book36/3601-Portnacraig-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 3602
+T: The Road to Mallaig
+P: Canty Jeanie Munro
+C:J. Scott Skinner
+B:RSCDS 36-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Strathspey (4x32)
+M:C
+L:1/8
+K:Bb
+%
+F|"Bb"d>c B<F "Eb"G<B "Bb"F<B|"Bb"d>c B<F "Eb"G<B "F"A<f|\
+       "Bb"d>c B<F "Eb"G<B "Bb"F<B|"F7"A/B/c f/g/a "Bb"b<B B>F|
+  "Bb"d>c B<F "Eb"G<B "Bb"F<B|"Bb"d>c B<F "Eb"G<B "F"A<f|\
+       "Bb"d>c B<F "Eb"G<B "Bb"F<B|"F7"A/B/c f/g/a "Bb"b<B B||
+a|"Bb"(3bfd (3BFD "Eb"E>F G>E|"Bb"D<F "Gm"B>G "F"A<c c>a|\
+       "Bb"(3bfd (3BFD "Eb"E>F G>B|"F7"A/B/c f/g/a "Bb"b<B B>a|
+  "Bb"b/f/d B/F/D "Eb"E>F G>E|"Bb"D<F "Gm"B>G "F7"A<c c>f|\
+       "Bb"d>c B<F "Eb"G/B/e g/a/b|"F7"(3agf (3ecf "Bb"d<B B|]
+%%center Book36/3602-Road_to_Mallaig-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 3603
+T: Quarries' Jig
+P: Mrs Muir McKenzie's Fancy
+C:Mr Sharp of Hoddam (Malcolm MacDonald's Coll.)
+B:RSCDS 36-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Jig (8x32)
+M:6/8
+L:1/8
+K:A
+"A"Ace ece|"D"fdf "A"ece|"D"f>ga "A"edc|"B7"BcA "E"GFE|\
+"A"Ace ece|"D"fdf "A"ece|
+                         "D"f>ga "A"ecA|"E7"B3 "A"A3:|\
+"A"a3 ecA|"D"f3 "A"ecA|"A"a3 ecA|"E"GAB BGE|
+"A"a3 ecA|"D"f3 fga|"A"efg "F#m"aec|"E7"B3 "A"A3|\
+"A"a3 ecA|"D"f3 "A"ecA|
+                       "A"a3 ecA|"B7"FGA "E"BGE|\
+"F#m"agf "A"efg|"D"agf "A"edc|"Bm"dbd "A"cac|"E7"B3 "A"A3|]
+%%center Book36/3603-Quarries_Jig-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 3604
+T: Gang the Same Gate
+P: Mrs Dalzell
+C:Nathaniel Gow
+B:RSCDS 36-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Strathspey (8x32)
+M:C
+L:1/8
+K:Eb
+c|"Eb"B<G F>E E2 {EF}G>E|E/F/G [FB,]>E "Ab"[C3C3] c|\
+  "Eb"B<G "Fm"[FC]>E "Eb"{EF}G "Cm"e>E|"Bb7"[G2B,2] F>E "Eb"[E3G,3] c|
+  "Eb"B<G "Fm"F>E E2 {EF}G>E|E/F/G [FB,]>E "Ab"[C3C3] c|\
+  "Eb"B<G "Fm"[FC]>E "Eb"{EF}G "Cm"e>E|"Bb7"[G2B,2] F>E "Eb"[E3G,3]||
+B|"Eb"[eG]>[fB] [ge][ge] [g2e2] [fB][eG]|ga/g/ g/f/e/d/ "Ab"c3 B/4c/4d/|\
+  "Eb"e>f ge "Ab"c2 a>g|"Bb"f>e d/e/f/g/ "Eb"e3 B/4c/4d/|
+  "Cm"e2 GA/B/ "Ab"c2 "Bb7"FG/A/|"Eb"B<G F>E "Ab"C2 c|\
+  "Eb"B<G "Fm"[FC]>E "Eb"{EF}G "Cm"e>E|"Bb7"[G2B,2] F>E "Eb"[E3G,3]|]
+%%center Book36/3604-Gang_the_Same_Gate-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 3605
+T: The Whistling Wind
+P: Three Times Three
+C:Trad. (Kerr's Coll.)
+B:RSCDS 36-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Reel (8x32)
+M:C
+L:1/8
+K:F
+c2|"F"f2 f2 "Bb"defd|"C7"cdcB "F"A2 F2|f2 f2 "Bb"d2 ef|"G"gagf "C7"ecde|
+"F"f2 f2 "Bb"defd|"C7"cdcB "F"A2 F2|"Bb"defd "C7"efge|"F"f2 a2 f2 z2||
+"F"a2 a2 "Dm"f2 ga|"Gm"gagf "C"e2 c2|"F"a2 a2 "Dm"f2 ga|"Gm"bag^f "C"gedc|
+"F"a2 a2 "Dm"f2 ga|"G7"gagf "C7"e2 c2|"Bb"defd "C7"efge|"F"f2 a2 f2|]
+%%center Book36/3605-Whistling_Wind-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 3606
+T: The Argyll Ludging
+P: The Argyll Ludging
+C:Miss L. P. Shearer (Stirlingshire Branch)
+B:RSCDS 36-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Strathspey (8x32)
+M:C
+L:1/8
+K:F
+C|"F"F<A A>F "Gm"G>A "C7"B<G|"F"A<c "Bb"f>d "C7"c>A G2|\
+  "F"(3FGA A>F "Gm"G>A B<G|"C7"c>f e>g "F"f<F F>C|
+  "F"F<A A>F "Gm"G>A "C7"B<G|"F"A<c "Bb"f>d "C7"c>A G2|\
+  "F"(3FGA A>F "Gm"G>A B<G|"C7"c>f e>g "F"f<F F||
+z/c/|"F"(3fed (3cde f>d c<A|"Bb"f>d "F"c>A "Gm"d<G "C7"G2|\
+     "F"F<A A>F "Gm"G>A B<G|"C7"c>f e>g "F"f<F F>c|
+     "F"(3fed "C"(3cde "Dm"f>d "F"c<A|"Bb"f>d "F"c>A "Gm"d<G "C7"G2|\
+     "F"(3FGA (3AGF "Gm"G>A B<G|"C7"c>f e>g "F"f<F F|]
+%%center Book36/3606-Argyll_Ludging-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 3607
+T: Anniversary Reel
+P: Country Lasses
+C:Trad. (Kerr's Coll.)
+B:RSCDS 36-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Reel (4x32)
+M:C
+L:1/8
+K:Bb
+F|"Bb"B2df bfdf|"Eb"gabg "Bb"fdBd|"Eb"efge "Bb"defd|"C"cdcB "F"AFGA|
+  "Bb"B2df bfdf|"Eb"gabg "Bb"fdBd|"Eb"efge "Bb"defd|"F7"cBcd "Bb"B2-B||
+f|"Bb"b2ba bfdf|b2ba bfdf|"Eb"efge "Bb"defd|"C7"cdcB "F"Accf|
+  "Gm"b2ba "Bb"bfdf|"Eb"b2ba "Bb"bfdf|"Cm"efge "Bb"defd|"F7"cBcd "Bb"B2-B|]
+%%center Book36/3607-Anniversary_Reel-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 3608
+T: The Gilly Flower
+P: Opera Dance
+C:Wm. Nisbet
+B:RSCDS 36-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Jig (8x32)
+M:6/8
+L:1/8
+K:D
+(3A,B,C|"D"D2 D F2 A|d2 D DEF|"Em"EFD "A"CB,A,|"Em"EFD "A"CB,A,|\
+  "D"D2 D F2 A|d2 D DEF|"Em"B,GF "A"EDC|
+                                        "D"D3 D2||\
+F/G/|"D"AFA "G"BAB|"A7"GFG "D"AGA|"Em"EB,E GFE|"E7"EFD "A"CB,A,|\
+     "D"AFA "G"BAB|"Em"GFG "D"AFD|
+                                  "Em"B,GF "A"EDC|"D"D3 D2||\
+(3A/B/c/|"D"d2 d "F#m"f2 a|"Bm"d'2 d "D"def|"Em"efd "A"cBA|"E7"efd "A"cBA|\
+         "D"d2 d "F#m"f2 a|
+                           "Bm"d'2 d "D"def|"Em"egf "A7"edc|"D"d3 d2||\
+f/g/|"D"a^ga "B7"bab|"Em"gfg "D"a^ga|"Em"eBe gfg|
+                                                 "E7"efd "A7"cBA|\
+     "D"a^ga "B7"bab|"Em"gfg "D"afd|"Em"Bgf "A7"edc|"D"d3 d2|]
+%%center Book36/3608-Gilly_Flower-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36031
+T: Quarries' Jig
+T: Mrs Muir McKenzie's Fancie
+C: Mr Sharp of Hoddom
+R: jig
+B: RSCDS 36-3
+B: Malcolm MacDonald's "A Second Collection of Strathspey Reels" p.12 (1789)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+|: "A"Ace ece | "D"fdf "A"ece | "D"fga "A"edc | "B7"BcA "E7"GFE \
+ | "A"Ace ece | "D"fdf "A"ece | "D"fga "A"ecA | "E7"B3 "A"A3 :|
+[| "A"a3 ecA | "D"f3 "A"ecA | "A"a3 ecA | "E7"GAB BGE \
+ | "A"a3 ecA | "D"f3 fga | "E"efg "A"aec | "E7"B3 "A"A3 |]
+[| "A"a3 ecA | "D"f3 "A"ecA | "A"a3 "F#m"ecA | "B7"FGA "E"BGE \
+ | "F#m"agf "E"efg | "D"agf "A"edc | "Bm"dbd "A"cac | "E7"B3 "A"A3 |]
+%%center Book36/36031-Quarries_Jig-1.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36032
+T: Quarries' Jig (Mrs Muir McKenzie's Fancie)
+C: Mr Sharp of Hoddom
+R: jig
+B: RSCDS 36-3
+B: Malcolm MacDonald's "A Second Collection of Strathspey Reels" p.12 (1789)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+|: "A"Ace ece | "D"fdf "A"ece | "D"fga "A"edc | "B7"BcA "E7"GFE \
+ | "A"Ace ece | "D"fdf "A"ece | "D"fga "A"ecA | "E7"B3 "A"A3 :|
+[| "A"a3 ecA | "D"f3 "A"ecA | "A"a3 ecA | "E7"GAB BGE \
+ | "A"a3 ecA | "D"f3 fga | "E"efg "A"aec | "E7"B3 "A"A3 |]
+[| "A"a3 ecA | "D"f3 "A"ecA | "A"a3 "F#m"ecA | "B7"FGA "E"BGE \
+ | "F#m"agf "E"efg | "D"agf "A"edc | "Bm"dbd "A"cac | "E7"B3 "A"A3 |]
+%%textfont Times-Roman 10
+%%text Arranged by John Chambers
+%%center Book36/36031-Quarries_Jig_Mrs_Muir_McKenzies_Fancie-1.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36033
+T: Quarries' Jig (Mrs Muir McKenzie's Fancie)
+C: Mr Sharp of Hoddom
+R: jig
+B: RSCDS 36-3
+B: Malcolm MacDonald's "A Second Collection of Strathspey Reels" p.12 (1789)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+|: "A"Ace ece | "D"fdf "A"ece | "D"fga "A"edc | "B7"BcA "E7"GFE \
+ | "A"Ace ece | "D"fdf "A"ece | "D"fga "A"ecA | "E7"B3 "A"A3 :|
+[| "A"a3 ecA | "D"f3 "A"ecA | "A"a3 ecA | "E7"GAB BGE \
+ | "A"a3 ecA | "D"f3 fga | "E"efg "A"aec | "E7"B3 "A"A3 |]
+[| "A"a3 ecA | "D"f3 "A"ecA | "A"a3 "F#m"ecA | "B7"FGA "E"BGE \
+ | "F#m"agf "E"efg | "D"agf "A"edc | "Bm"dbd "A"cac | "E7"B3 "A"A3 |]
+%%center Book36/36031-Quarries_Jig_Mrs_Muir_McKenzies_Fancie-2.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36034
+T: Gang the Same Gate
+P: Mrs Dalzell
+C:Nathaniel Gow
+B:RSCDS 36-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Strathspey (8x32)
+M:C
+L:1/8
+K:Eb
+c|"Eb"B<G F>E E2 {EF}G>E|E/F/G [FB,]>E "Ab"[C3C3] c|\
+  "Eb"B<G "Fm"[FC]>E "Eb"{EF}G "Cm"e>E|"Bb7"[G2B,2] F>E "Eb"[E3G,3] c|
+  "Eb"B<G "Fm"F>E E2 {EF}G>E|E/F/G [FB,]>E "Ab"[C3C3] c|\
+  "Eb"B<G "Fm"[FC]>E "Eb"{EF}G "Cm"e>E|"Bb7"[G2B,2] F>E "Eb"[E3G,3]||
+B|"Eb"[eG]>[fB] [ge][ge] [g2e2] [fB][eG]|ga/g/ g/f/e/d/ "Ab"c3 B/4c/4d/|\
+  "Eb"e>f ge "Ab"c2 a>g|"Bb"f>e d/e/f/g/ "Eb"e3 B/4c/4d/|
+  "Cm"e2 GA/B/ "Ab"c2 "Bb7"FG/A/|"Eb"B<G F>E "Ab"C2 c|\
+  "Eb"B<G "Fm"[FC]>E "Eb"{EF}G "Cm"e>E|"Bb7"[G2B,2] F>E "Eb"[E3G,3]|]
+%%center Book36/36041-Gang_the_Same_Gate-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36035
+T: Gang the Same Gate
+P: Mrs Dalzell
+C:Nathaniel Gow
+B:RSCDS 36-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Strathspey (8x32)
+M:C
+L:1/8
+K:Eb
+c|"Eb"B<G F>E E2 {EF}G>E|E/F/G [FB,]>E "Ab"[C3C3] c|\
+  "Eb"B<G "Fm"[FC]>E "Eb"{EF}G "Cm"e>E|"Bb7"[G2B,2] F>E "Eb"[E3G,3] c|
+  "Eb"B<G "Fm"F>E E2 {EF}G>E|E/F/G [FB,]>E "Ab"[C3C3] c|\
+  "Eb"B<G "Fm"[FC]>E "Eb"{EF}G "Cm"e>E|"Bb7"[G2B,2] F>E "Eb"[E3G,3]||
+B|"Eb"[eG]>[fB] [ge][ge] [g2e2] [fB][eG]|ga/g/ g/f/e/d/ "Ab"c3 B/4c/4d/|\
+  "Eb"e>f ge "Ab"c2 a>g|"Bb"f>e d/e/f/g/ "Eb"e3 B/4c/4d/|
+  "Cm"e2 GA/B/ "Ab"c2 "Bb7"FG/A/|"Eb"B<G F>E "Ab"C2 c|\
+  "Eb"B<G "Fm"[FC]>E "Eb"{EF}G "Cm"e>E|"Bb7"[G2B,2] F>E "Eb"[E3G,3]|]
+%%center Book36/36041-Gang_the_Same_Gate_AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36041
+T: Mrs Dalzell
+C: Nathaniel Gow
+R: strathspey
+B: RSCDS __-4, Carlin #177
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: D
+B \
+| "D"A<F TE>D D2 {DE}F>D | D/E/F TE>D "G"B,3 B \
+| "D"A<F TE>D "Bm"{DE}F2 d>D | "Em"F2 "A7"TE>D "D"D3 :|
+A \
+| "D"[dF]>[eA] [fd][fd] [f2d2] [eA][dF] | fg/f/ f/e/d/c/ "G"{c}B3 A//B//c/ \
+| "D"d>e fd "G"TB2 g>f | "A7"{f}e>d c/d/e/f/ "D"d3 ||
+A/4B/4c/ \
+| "Bm"d2 FG/A/ "G"B2 "A7"EF/G/ | "D"A<F TE>D "G"{D}B,3 B \
+| "D"A<F TE>D "Bm"{DE}F2 d>D | "Em"{DE}F2 "A7"TE>D "D"D3 |]
+%%center Book36/36041-Mrs_Dalzell-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36042
+T: Mrs. Dalzell
+C: Nathaniel Gow, arr. T. Traub 5-17-2000
+R: Strathspey
+M: 4/4
+%--------------------
+K: Eb
+L: 1/8
+|: c|"Eb"B<GF>E E2 G>E|"Eb"E/F/G F>E "Ab"C3 c|"Eb"B<G"Fm"F>E "Cm"G2 e>E|"Eb"G2 "Bb7"F>E "Eb"E3 :|
+B|"Eb"e>f gg g2 fe|"Eb"ga/g/ g/f/e/d/ "Ab"c3 d|"Eb"e>f ge "Ab"c2 a>g|"Bb7"f>e d/e/f/g/ "Eb"e3 B|
+"Cm"e2 GA/B/ "Ab"c2 "Bb"FG/A/|"Eb"B<GF>E "Ab"C3 c|"Eb"B<GF>E "Cm"G2 e>E|"Ab"G2 "Bb"F>E "Eb"E3 |]
+%%center Book36/36041-Mrs_Dalzell-TT.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36051
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 2002 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection (in F)
+M: C|
+L: 1/8
+%--------------------
+K: D
+| "D"d2d2  "G"BcdB | "A7"ABAG  "D"F2D2 | "D"d2d2  "G"B2cd | "E7"efed  "A7"cABc |
+| "D"d2d2  "G"BcdB | "A7"ABAG "Bm"F2D2 | "G"BcdB "A7"cdec |  "D"d2f2      d2z2 ||
+||"D"f2f2 "Bm"d2ef | "Em"efed  "A"c2A2 | "D"f2f2 "Bm"d2ef | "Em"gfe^d "A"ecBA |
+| "D"f2f2 "Bm"d2ef | "E7"efed  "A"c2A2 | "G"BcdB "A7"cdec |  "D"d2f2      d2z2 |]
+%%center Book36/36051-Three_Times_Three-1.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36052
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 2002 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection (in F)
+M: C|
+L: 1/8
+%--------------------
+K: E
+| "E"e2e2 "Ab"cdec |  "B7"BcBA  "E"G2E2 |  "E"e2e2 "Ab"c2de | "F#7"fgfe "B7"dBcd \
+| "E"e2e2 "Ab"cdec |  "B7"BcBA "Cm"G2E2 | "Ab"cdec "B7"defd |   "E"e2g2     e2z2 ||
+||"E"g2g2 "Cm"e2fg | "F#m"fgfe  "B"d2B2 |  "E"g2g2 "Cm"e2fg | "F#m"agf=e "B"fdcB \
+| "E"g2g2 "Cm"e2fg | "F#7"fgfe  "B"d2B2 | "Ab"cdec "B7"defd |   "E"e2g2     e2z2 |]
+%%center Book36/36051-Three_Times_Three-11.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36053
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 2002 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection (in F)
+M: C|
+L: 1/8
+%--------------------
+K: G
+| "G"g2g2  "C"efge | "D7"dedc  "G"B2G2 | "G"g2g2  "C"e2fg | "A7"abag  "D7"fdef \
+| "G"g2g2  "C"efge | "D7"dedc "Em"B2G2 | "C"efge "D7"fgaf |  "G"g2b2      g2z2 ||
+||"G"b2b2 "Em"g2ab | "Am"abag  "D"f2d2 | "G"b2b2 "Em"g2ab | "Am"c'ba^g "D"afed \
+| "G"b2b2 "Em"g2ab | "A7"abag  "D"f2d2 | "C"efge "D7"fgaf |  "G"g2b2      g2z2 |]
+%%center Book36/36051-Three_Times_Three-12.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36054
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection
+M: C|
+L: 1/8
+%--------------------
+K: F
+| "F"f2f2 "Bb"defd | "C7"cdcB  "F"A2F2 |  "F"f2f2 "Bb"d2ef | "G7"gagf "C7"ecde \
+| "F"f2f2 "Bb"defd | "C7"cdcB "Dm"A2F2 | "Bb"defd "C7"efge |  "F"f2a2     f2z2 ||
+||"F"a2a2 "Dm"f2ga | "Gm"gagf  "C"e2c2 |  "F"a2a2 "Dm"f2ga | "Gm"bag^f "C"gedc \
+| "F"a2a2 "Dm"f2ga | "G7"gagf  "C"e2c2 | "Bb"defd "C7"efge |  "F"f2a2     f2z2 |]
+%%center Book36/36051-Three_Times_Three-14.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36055
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection
+M:2/4
+L:1/16
+%--------------------
+K: F
+|:"F"f2f2 "Bb"defd | "C7"cdcB "F"A2F2 |  "F"f2f2 "Bb"d2ef | "G7"gagf "C7"ecde \
+| "F"f2f2 "Bb"defd | "C7"cdcB "F"A2F2 | "Bb"defd "C7"efge |  "F"f2a2     f2z2 :|
+|:"F"a2a2 "Dm"f2ga | "Gm"gagf "C"e2c2 |  "F"a2a2 "Dm"f2ga | "Gm"bag^f "C"gedc \
+| "F"a2a2 "Dm"f2ga | "G7"gagf "C"e2c2 | "Bb"defd "C7"efge |  "F"f2a2     f2z2 :|
+%%center Book36/36051-Three_Times_Three-2.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36056
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection
+M: 2/4
+L: 1/16
+%--------------------
+K: F
+|:"F"f2f2 "Bb"defd | "C7"cdcB "F"A2F2 |  "F"f2f2 "Bb"d2ef | "G7"gagf "C7"ecde \
+| "F"f2f2 "Bb"defd | "C7"cdcB "F"A2F2 | "Bb"defd "C7"efge |  "F"f2a2     f2z2 :|
+|:"F"a2a2 "Dm"f2ga | "Gm"gagf "C"e2c2 |  "F"a2a2 "Dm"f2ga | "Gm"bag^f "C"gedc \
+| "F"a2a2 "Dm"f2ga | "G7"gagf "C"e2c2 | "Bb"defd "C7"efge |  "F"f2a2     f2z2 :|
+%%center Book36/36051-Three_Times_Three-3.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36057
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection
+M: 2/4
+L: 1/16
+%--------------------
+K: F
+[|"F"f2f2 "Bb"defd | "C7"cdcB  "F"A2F2 |  "F"f2f2 "Bb"d2ef | "G7"gagf "C7"ecde \
+| "F"f2f2 "Bb"defd | "C7"cdcB  "F"A2F2 | "Bb"defd "C7"efge |  "F"f2a2     f2z2 |]
+[|"F"a2a2 "Dm"f2ga | "Gm"gagf  "C"e2c2 |  "F"a2a2 "Dm"f2ga | "Gm"bag^f "C"gedc \
+| "F"a2a2 "Dm"f2ga | "G7"gagf  "C"e2c2 | "Bb"defd "C7"efge |  "F"f2a2     f2z2 |]
+%%center Book36/36051-Three_Times_Three-4.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36058
+T: Mrs. Dalzell
+C: Nathaniel Gow, arr. T. Traub 5-17-2000
+R: Strathspey
+M: 4/4
+%--------------------
+K: Eb
+L: 1/8
+|: c|"Eb"B<GF>E E2 G>E|"Eb"E/F/G F>E "Ab"C3 c|"Eb"B<G"Fm"F>E "Cm"G2 e>E|"Eb"G2 "Bb7"F>E "Eb"E3 :|
+B|"Eb"e>f gg g2 fe|"Eb"ga/g/ g/f/e/d/ "Ab"c3 d|"Eb"e>f ge "Ab"c2 a>g|"Bb7"f>e d/e/f/g/ "Eb"e3 B|
+"Cm"e2 GA/B/ "Ab"c2 "Bb"FG/A/|"Eb"B<GF>E "Ab"C3 c|"Eb"B<GF>E "Cm"G2 e>E|"Ab"G2 "Bb"F>E "Eb"E3 |]
+%%center Book36/Mrs_Dalzell.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36059
+T: Quarries' Jig
+T: Mrs Muir McKenzie's Fancie
+C: Mr Sharp of Hoddom
+O: 1789
+R: jig
+B: Malcolm MacDonald's "A Second Collection of Strathspey Reels" p.12 (1789)
+B: RSCDS 36-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: "A"Ace ece | "D"fdf "A"ece | "D"fga "A"edc | "B7"BcA "E7"GFE \
+ | "A"Ace ece | "D"fdf "A"ece | "D"fga "A"ecA | "E7"B3 "A"A3 :|
+[| "A"a3 ecA | "D"f3 "A"ecA | "A"a3 ecA | "E7"GAB BGE \
+ | "A"a3 ecA | "D"f3 fga | "E"efg "A"aec | "E7"B3 "A"A3 |]
+[| "A"a3 ecA | "D"f3 "A"ecA | "A"a3 "F#m"ecA | "B7"FGA "E"BGE \
+ | "F#m"agf "E"efg | "D"agf "A"edc | "Bm"dbd "A"cac | "E7"B3 "A"A3 |]
+%%center Book36/QuarriesJ-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36060
+T: Quarries' Jig
+T: Mrs Muir McKenzie's Fancie
+C: Mr Sharp of Hoddom
+O: 1789
+R: jig
+B: Malcolm MacDonald's "A Second Collection of Strathspey Reels" p.12 (1789)
+B: RSCDS 36-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: "A"Ace ece | "D"fdf "A"ece | "D"fga "A"edc | "B7"BcA "E7"GFE \
+ | "A"Ace ece | "D"fdf "A"ece | "D"fga "A"ecA | "E7"B3 "A"A3 :|
+[| "A"a3 ecA | "D"f3 "A"ecA | "A"a3 ecA | "E7"GAB BGE \
+ | "A"a3 ecA | "D"f3 fga | "E"efg "A"aec | "E7"B3 "A"A3 |]
+[| "A"a3 ecA | "D"f3 "A"ecA | "A"a3 "F#m"ecA | "B7"FGA "E"BGE \
+ | "F#m"agf "E"efg | "D"agf "A"edc | "Bm"dbd "A"cac | "E7"B3 "A"A3 |]
+%%center Book36/QuarriesJ_2-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36061
+T: Quarries' Jig
+T: Mrs Muir McKenzie's Fancie
+C: Mr Sharp of Hoddom
+O: 1789
+R: jig
+B: Malcolm MacDonald's "A Second Collection of Strathspey Reels" p.12 (1789)
+B: RSCDS 36-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: "A"Ace ece | "D"fdf "A"ece | "D"fga "A"edc | "B7"BcA "E7"GFE \
+ | "A"Ace ece | "D"fdf "A"ece | "D"fga "A"ecA | "E7"B3 "A"A3 :|
+[| "A"a3 ecA | "D"f3 "A"ecA | "A"a3 ecA | "E7"GAB BGE \
+ | "A"a3 ecA | "D"f3 fga | "E"efg "A"aec | "E7"B3 "A"A3 |]
+[| "A"a3 ecA | "D"f3 "A"ecA | "A"a3 "F#m"ecA | "B7"FGA "E"BGE \
+ | "F#m"agf "E"efg | "D"agf "A"edc | "Bm"dbd "A"cac | "E7"B3 "A"A3 |]
+%%center Book36/QuarriesJ_A-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36062
+T: Quarries' Jig
+T: Mrs Muir McKenzie's Fancie
+C: Mr Sharp of Hoddom
+O: 1789
+R: jig
+B: Malcolm MacDonald's "A Second Collection of Strathspey Reels" p.12 (1789)
+B: RSCDS 36-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: "A"Ace ece | "D"fdf "A"ece | "D"fga "A"edc | "B7"BcA "E7"GFE \
+ | "A"Ace ece | "D"fdf "A"ece | "D"fga "A"ecA | "E7"B3 "A"A3 :|
+[| "A"a3 ecA | "D"f3 "A"ecA | "A"a3 ecA | "E7"GAB BGE \
+ | "A"a3 ecA | "D"f3 fga | "E"efg "A"aec | "E7"B3 "A"A3 |]
+[| "A"a3 ecA | "D"f3 "A"ecA | "A"a3 "F#m"ecA | "B7"FGA "E"BGE \
+ | "F#m"agf "E"efg | "D"agf "A"edc | "Bm"dbd "A"cac | "E7"B3 "A"A3 |]
+%%center Book36/QuarriesJ_A_2-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36063
+T: Quarries' Jig
+T: Mrs Muir McKenzie's Fancie
+C: Mr Sharp of Hoddom
+O: 1789
+R: jig
+B: Malcolm MacDonald's "A Second Collection of Strathspey Reels" p.12 (1789)
+B: RSCDS 36-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: "A"Ace ece | "D"fdf "A"ece | "D"fga "A"edc | "B7"BcA "E7"GFE \
+ | "A"Ace ece | "D"fdf "A"ece | "D"fga "A"ecA | "E7"B3 "A"A3 :|
+[| "A"a3 ecA | "D"f3 "A"ecA | "A"a3 ecA | "E7"GAB BGE \
+ | "A"a3 ecA | "D"f3 fga | "E"efg "A"aec | "E7"B3 "A"A3 |]
+[| "A"a3 ecA | "D"f3 "A"ecA | "A"a3 "F#m"ecA | "B7"FGA "E"BGE \
+ | "F#m"agf "E"efg | "D"agf "A"edc | "Bm"dbd "A"cac | "E7"B3 "A"A3 |]
+%%center Book36/QuarriesJ_A_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36064
+T: Quarries' Jig
+T: Mrs Muir McKenzie's Fancie
+C: Mr Sharp of Hoddom
+O: 1789
+R: jig
+B: Malcolm MacDonald's "A Second Collection of Strathspey Reels" p.12 (1789)
+B: RSCDS 36-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: "A"Ace ece | "D"fdf "A"ece | "D"fga "A"edc | "B7"BcA "E7"GFE \
+ | "A"Ace ece | "D"fdf "A"ece | "D"fga "A"ecA | "E7"B3 "A"A3 :|
+[| "A"a3 ecA | "D"f3 "A"ecA | "A"a3 ecA | "E7"GAB BGE \
+ | "A"a3 ecA | "D"f3 fga | "E"efg "A"aec | "E7"B3 "A"A3 |]
+[| "A"a3 ecA | "D"f3 "A"ecA | "A"a3 "F#m"ecA | "B7"FGA "E"BGE \
+ | "F#m"agf "E"efg | "D"agf "A"edc | "Bm"dbd "A"cac | "E7"B3 "A"A3 |]
+%%center Book36/QuarriesJ_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36065
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection
+M: C|
+L: 1/8
+K: F
+[|"F"f2f2 "Bb"defd | "C7"cdcB  "F"A2F2 |  "F"f2f2 "Bb"d2ef | "G7"gagf "C7"ecde \
+| "F"f2f2 "Bb"defd | "C7"cdcB "Dm"A2F2 | "Bb"defd "C7"efge |  "F"f2a2     f2z2 |]
+[|"F"a2a2 "Dm"f2ga | "Gm"gagf  "C"e2c2 |  "F"a2a2 "Dm"f2ga | "Gm"bag^f "C"gedc \
+| "F"a2a2 "Dm"f2ga | "G7"gagf  "C"e2c2 | "Bb"defd "C7"efge |  "F"f2a2     f2z2 |]
+%%center Book36/ThreeTimesThree-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36066
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection
+M: C|
+L: 1/8
+K: F
+[|"F"f2f2 "Bb"defd | "C7"cdcB  "F"A2F2 |  "F"f2f2 "Bb"d2ef | "G7"gagf "C7"ecde \
+| "F"f2f2 "Bb"defd | "C7"cdcB "Dm"A2F2 | "Bb"defd "C7"efge |  "F"f2a2     f2z2 |]
+[|"F"a2a2 "Dm"f2ga | "Gm"gagf  "C"e2c2 |  "F"a2a2 "Dm"f2ga | "Gm"bag^f "C"gedc \
+| "F"a2a2 "Dm"f2ga | "G7"gagf  "C"e2c2 | "Bb"defd "C7"efge |  "F"f2a2     f2z2 |]
+%%center Book36/ThreeTimesThree_2-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36067
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 2002 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection (in F)
+M: C|
+L: 1/8
+K: D
+[|"D"d2d2  "G"BcdB | "A7"ABAG  "D"F2D2 | "D"d2d2  "G"B2cd | "E7"efed  "A7"cABc |
+| "D"d2d2  "G"BcdB | "A7"ABAG "Bm"F2D2 | "G"BcdB "A7"cdec |  "D"d2f2      d2z2 |]
+[|"D"f2f2 "Bm"d2ef | "Em"efed  "A"c2A2 | "D"f2f2 "Bm"d2ef | "Em"gfe^d "A"ecBA |
+| "D"f2f2 "Bm"d2ef | "E7"efed  "A"c2A2 | "G"BcdB "A7"cdec |  "D"d2f2      d2z2 |]
+%%center Book36/ThreeTimesThree_D4-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36068
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 2002 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection (in F)
+M: C|
+L: 1/8
+K: D
+[|"D"d2d2  "G"BcdB | "A7"ABAG  "D"F2D2 | "D"d2d2  "G"B2cd | "E7"efed  "A7"cABc |
+| "D"d2d2  "G"BcdB | "A7"ABAG "Bm"F2D2 | "G"BcdB "A7"cdec |  "D"d2f2      d2z2 |]
+[|"D"f2f2 "Bm"d2ef | "Em"efed  "A"c2A2 | "D"f2f2 "Bm"d2ef | "Em"gfe^d "A"ecBA |
+| "D"f2f2 "Bm"d2ef | "E7"efed  "A"c2A2 | "G"BcdB "A7"cdec |  "D"d2f2      d2z2 |]
+%%center Book36/ThreeTimesThree_D4_2-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36069
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 2002 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection (in F)
+M: C|
+L: 1/8
+K: D
+[|"D"d2d2  "G"BcdB | "A7"ABAG  "D"F2D2 | "D"d2d2  "G"B2cd | "E7"efed  "A7"cABc |
+| "D"d2d2  "G"BcdB | "A7"ABAG "Bm"F2D2 | "G"BcdB "A7"cdec |  "D"d2f2      d2z2 |]
+[|"D"f2f2 "Bm"d2ef | "Em"efed  "A"c2A2 | "D"f2f2 "Bm"d2ef | "Em"gfe^d "A"ecBA |
+| "D"f2f2 "Bm"d2ef | "E7"efed  "A"c2A2 | "G"BcdB "A7"cdec |  "D"d2f2      d2z2 |]
+%%center Book36/ThreeTimesThree_D4_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36070
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 2002 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection (in F)
+M: C|
+L: 1/8
+K: E
+[|"E"e2e2 "Ab"cdec |  "B7"BcBA  "E"G2E2 |  "E"e2e2 "Ab"c2de | "F#7"fgfe "B7"dBcd \
+| "E"e2e2 "Ab"cdec |  "B7"BcBA "Cm"G2E2 | "Ab"cdec "B7"defd |   "E"e2g2     e2z2 |]
+[|"E"g2g2 "Cm"e2fg | "F#m"fgfe  "B"d2B2 |  "E"g2g2 "Cm"e2fg | "F#m"agf=e "B"fdcB \
+| "E"g2g2 "Cm"e2fg | "F#7"fgfe  "B"d2B2 | "Ab"cdec "B7"defd |   "E"e2g2     e2z2 |]
+%%center Book36/ThreeTimesThree_E-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36071
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 2002 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection (in F)
+M: C|
+L: 1/8
+K: E
+[|"E"e2e2 "Ab"cdec |  "B7"BcBA  "E"G2E2 |  "E"e2e2 "Ab"c2de | "F#7"fgfe "B7"dBcd \
+| "E"e2e2 "Ab"cdec |  "B7"BcBA "Cm"G2E2 | "Ab"cdec "B7"defd |   "E"e2g2     e2z2 |]
+[|"E"g2g2 "Cm"e2fg | "F#m"fgfe  "B"d2B2 |  "E"g2g2 "Cm"e2fg | "F#m"agf=e "B"fdcB \
+| "E"g2g2 "Cm"e2fg | "F#7"fgfe  "B"d2B2 | "Ab"cdec "B7"defd |   "E"e2g2     e2z2 |]
+%%center Book36/ThreeTimesThree_E_2-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36072
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 2002 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection (in F)
+M: C|
+L: 1/8
+K: E
+[|"E"e2e2 "Ab"cdec |  "B7"BcBA  "E"G2E2 |  "E"e2e2 "Ab"c2de | "F#7"fgfe "B7"dBcd \
+| "E"e2e2 "Ab"cdec |  "B7"BcBA "Cm"G2E2 | "Ab"cdec "B7"defd |   "E"e2g2     e2z2 |]
+[|"E"g2g2 "Cm"e2fg | "F#m"fgfe  "B"d2B2 |  "E"g2g2 "Cm"e2fg | "F#m"agf=e "B"fdcB \
+| "E"g2g2 "Cm"e2fg | "F#7"fgfe  "B"d2B2 | "Ab"cdec "B7"defd |   "E"e2g2     e2z2 |]
+%%center Book36/ThreeTimesThree_E_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36073
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection
+M: 2/4
+L: 1/16
+K: F
+|:"F"f2f2 "Bb"defd | "C7"cdcB "F"A2F2 |  "F"f2f2 "Bb"d2ef | "G7"gagf "C7"ecde \
+| "F"f2f2 "Bb"defd | "C7"cdcB "F"A2F2 | "Bb"defd "C7"efge |  "F"f2a2     f2z2 :|
+|:"F"a2a2 "Dm"f2ga | "Gm"gagf "C"e2c2 |  "F"a2a2 "Dm"f2ga | "Gm"bag^f "C"gedc \
+| "F"a2a2 "Dm"f2ga | "G7"gagf "C"e2c2 | "Bb"defd "C7"efge |  "F"f2a2     f2z2 :|
+%%center Book36/ThreeTimesThree_F-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36074
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection
+M: 2/4
+L: 1/16
+K: F
+[|"F"f2f2 "Bb"defd | "C7"cdcB  "F"A2F2 |  "F"f2f2 "Bb"d2ef | "G7"gagf "C7"ecde \
+| "F"f2f2 "Bb"defd | "C7"cdcB  "F"A2F2 | "Bb"defd "C7"efge |  "F"f2a2     f2z2 |]
+[|"F"a2a2 "Dm"f2ga | "Gm"gagf  "C"e2c2 |  "F"a2a2 "Dm"f2ga | "Gm"bag^f "C"gedc \
+| "F"a2a2 "Dm"f2ga | "G7"gagf  "C"e2c2 | "Bb"defd "C7"efge |  "F"f2a2     f2z2 |]
+%%center Book36/ThreeTimesThree_F16-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36075
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection
+M: 2/4
+L: 1/16
+K: F
+[|"F"f2f2 "Bb"defd | "C7"cdcB  "F"A2F2 |  "F"f2f2 "Bb"d2ef | "G7"gagf "C7"ecde \
+| "F"f2f2 "Bb"defd | "C7"cdcB  "F"A2F2 | "Bb"defd "C7"efge |  "F"f2a2     f2z2 |]
+[|"F"a2a2 "Dm"f2ga | "Gm"gagf  "C"e2c2 |  "F"a2a2 "Dm"f2ga | "Gm"bag^f "C"gedc \
+| "F"a2a2 "Dm"f2ga | "G7"gagf  "C"e2c2 | "Bb"defd "C7"efge |  "F"f2a2     f2z2 |]
+%%center Book36/ThreeTimesThree_F16_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36076
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection
+M: 2/4
+L: 1/16
+K: F
+|:"F"f2f2 "Bb"defd | "C7"cdcB "F"A2F2 |  "F"f2f2 "Bb"d2ef | "G7"gagf "C7"ecde \
+| "F"f2f2 "Bb"defd | "C7"cdcB "F"A2F2 | "Bb"defd "C7"efge |  "F"f2a2     f2z2 :|
+|:"F"a2a2 "Dm"f2ga | "Gm"gagf "C"e2c2 |  "F"a2a2 "Dm"f2ga | "Gm"bag^f "C"gedc \
+| "F"a2a2 "Dm"f2ga | "G7"gagf "C"e2c2 | "Bb"defd "C7"efge |  "F"f2a2     f2z2 :|
+%%center Book36/ThreeTimesThree_F_2-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36077
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection
+M: 2/4
+L: 1/16
+K: F
+|:"F"f2f2 "Bb"defd | "C7"cdcB "F"A2F2 |  "F"f2f2 "Bb"d2ef | "G7"gagf "C7"ecde \
+| "F"f2f2 "Bb"defd | "C7"cdcB "F"A2F2 | "Bb"defd "C7"efge |  "F"f2a2     f2z2 :|
+|:"F"a2a2 "Dm"f2ga | "Gm"gagf "C"e2c2 |  "F"a2a2 "Dm"f2ga | "Gm"bag^f "C"gedc \
+| "F"a2a2 "Dm"f2ga | "G7"gagf "C"e2c2 | "Bb"defd "C7"efge |  "F"f2a2     f2z2 :|
+%%center Book36/ThreeTimesThree_F_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36078
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 2002 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection (in F)
+M: C|
+L: 1/8
+K: G
+[|"G"g2g2  "C"efge | "D7"dedc  "G"B2G2 | "G"g2g2  "C"e2fg | "A7"abag  "D7"fdef \
+| "G"g2g2  "C"efge | "D7"dedc "Em"B2G2 | "C"efge "D7"fgaf |  "G"g2b2      g2z2 |]
+[|"G"b2b2 "Em"g2ab | "Am"abag  "D"f2d2 | "G"b2b2 "Em"g2ab | "Am"c'ba^g "D"afed \
+| "G"b2b2 "Em"g2ab | "A7"abag  "D"f2d2 | "C"efge "D7"fgaf |  "G"g2b2      g2z2 |]
+%%center Book36/ThreeTimesThree_G-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36079
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 2002 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection (in F)
+M: C|
+L: 1/8
+K: G
+[|"G"g2g2  "C"efge | "D7"dedc  "G"B2G2 | "G"g2g2  "C"e2fg | "A7"abag  "D7"fdef \
+| "G"g2g2  "C"efge | "D7"dedc "Em"B2G2 | "C"efge "D7"fgaf |  "G"g2b2      g2z2 |]
+[|"G"b2b2 "Em"g2ab | "Am"abag  "D"f2d2 | "G"b2b2 "Em"g2ab | "Am"c'ba^g "D"afed \
+| "G"b2b2 "Em"g2ab | "A7"abag  "D"f2d2 | "C"efge "D7"fgaf |  "G"g2b2      g2z2 |]
+%%center Book36/ThreeTimesThree_G2-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36080
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 2002 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection (in F)
+M: C|
+L: 1/8
+K: G
+[|"G"g2g2  "C"efge | "D7"dedc  "G"B2G2 | "G"g2g2  "C"e2fg | "A7"abag  "D7"fdef \
+| "G"g2g2  "C"efge | "D7"dedc "Em"B2G2 | "C"efge "D7"fgaf |  "G"g2b2      g2z2 |]
+[|"G"b2b2 "Em"g2ab | "Am"abag  "D"f2d2 | "G"b2b2 "Em"g2ab | "Am"c'ba^g "D"afed \
+| "G"b2b2 "Em"g2ab | "A7"abag  "D"f2d2 | "C"efge "D7"fgaf |  "G"g2b2      g2z2 |]
+%%center Book36/ThreeTimesThree_G2_2-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36081
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 2002 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection (in F)
+M: C|
+L: 1/8
+K: G
+[|"G"g2g2  "C"efge | "D7"dedc  "G"B2G2 | "G"g2g2  "C"e2fg | "A7"abag  "D7"fdef \
+| "G"g2g2  "C"efge | "D7"dedc "Em"B2G2 | "C"efge "D7"fgaf |  "G"g2b2      g2z2 |]
+[|"G"b2b2 "Em"g2ab | "Am"abag  "D"f2d2 | "G"b2b2 "Em"g2ab | "Am"c'ba^g "D"afed \
+| "G"b2b2 "Em"g2ab | "A7"abag  "D"f2d2 | "C"efge "D7"fgaf |  "G"g2b2      g2z2 |]
+%%center Book36/ThreeTimesThree_G2_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36082
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 2002 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection (in F)
+M: C|
+L: 1/8
+K: G
+[|"G"g2g2  "C"efge | "D7"dedc  "G"B2G2 | "G"g2g2  "C"e2fg | "A7"abag  "D7"fdef \
+| "G"g2g2  "C"efge | "D7"dedc "Em"B2G2 | "C"efge "D7"fgaf |  "G"g2b2      g2z2 |]
+[|"G"b2b2 "Em"g2ab | "Am"abag  "D"f2d2 | "G"b2b2 "Em"g2ab | "Am"c'ba^g "D"afed \
+| "G"b2b2 "Em"g2ab | "A7"abag  "D"f2d2 | "C"efge "D7"fgaf |  "G"g2b2      g2z2 |]
+%%center Book36/ThreeTimesThree_G_2-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36083
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 2002 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection (in F)
+M: C|
+L: 1/8
+K: G
+[|"G"g2g2  "C"efge | "D7"dedc  "G"B2G2 | "G"g2g2  "C"e2fg | "A7"abag  "D7"fdef \
+| "G"g2g2  "C"efge | "D7"dedc "Em"B2G2 | "C"efge "D7"fgaf |  "G"g2b2      g2z2 |]
+[|"G"b2b2 "Em"g2ab | "Am"abag  "D"f2d2 | "G"b2b2 "Em"g2ab | "Am"c'ba^g "D"afed \
+| "G"b2b2 "Em"g2ab | "A7"abag  "D"f2d2 | "C"efge "D7"fgaf |  "G"g2b2      g2z2 |]
+%%center Book36/ThreeTimesThree_G_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36084
+T: Three Times Three
+O: Trad
+R: reel
+B: RSCDS 36-5
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection
+M: C|
+L: 1/8
+K: F
+[|"F"f2f2 "Bb"defd | "C7"cdcB  "F"A2F2 |  "F"f2f2 "Bb"d2ef | "G7"gagf "C7"ecde \
+| "F"f2f2 "Bb"defd | "C7"cdcB "Dm"A2F2 | "Bb"defd "C7"efge |  "F"f2a2     f2z2 |]
+[|"F"a2a2 "Dm"f2ga | "Gm"gagf  "C"e2c2 |  "F"a2a2 "Dm"f2ga | "Gm"bag^f "C"gedc \
+| "F"a2a2 "Dm"f2ga | "G7"gagf  "C"e2c2 | "Bb"defd "C7"efge |  "F"f2a2     f2z2 |]
+%%center Book36/ThreeTimesThree_JC.abc

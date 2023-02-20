@@ -1,0 +1,86 @@
+
+X: 1
+T: Chicken Dance [C]
+C: Werner Thomas (Swiss)
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: C
+"C"z2 |:\
+!f!GG AA EE | "C"Gz !p!GG AA EE |\
+Gz !f!GG AA cc | "G7"Bz !p!B2A2G2 |\
+Fz !f!FF GG DD |
+"G7"Fz !p!FF GG DD |\
+[1 Fz !f!GG AA B2 | "C"Az !p!A2G2F2 | Ez :|\
+[2 "G7"F2 G2A2B2 | "C"c6 z2 |]\
+z G2_G2F2 | "C"E6 G2 |\
+e6 d2 | d4 c4 |
+z2 G2_G2F2 | E6 G2 |\
+d6 c2 | "G7"B6 z2 |\
+z2 G2G2_G2 | "G7"F6 G2 |\
+d6 c2 | c4 B4 |\
+z2 d2d2c2 | c4 B4 |\
+z2 B2c2d2 | "C"c6 z2 |]
+
+
+X: 1
+T: Chicken Dance [D]
+C: Werner Thomas (Swiss)
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: D
+"D"z2 |:\
+!f!AA BB FF | "D"Az !p!AA BB FF |\
+Az !f!AA BB dd | "A7"cz !p!c2B2A2 |\
+Gz !f!GG AA EE |
+"A7"Gz !p!GG AA EE |\
+[1 Gz !f!AA BB c2 | "D"Bz !p!B2A2G2 | Fz :|\
+[2 "A7"G2 A2B2c2 | "D"d6 z2 |]\
+z A2_A2G2 | "D"F6 A2 |\
+f6 e2 | e4 d4 |
+z2 A2_A2G2 | F6 A2 |\
+e6 d2 | "A7"c6 z2 |\
+z2 A2A2_A2 | "A7"G6 A2 |\
+e6 d2 | d4 c4 |\
+z2 e2e2d2 | d4 c4 |\
+z2 c2d2e2 | "D"d6 z2 |]
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Childgrove (Dm)
+S: Playford 1701
+R: reel
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+B: Karpeles & Schofield p.22,52; Playford Ball; Raven p.23; Barlow #426
+L: 1/8
+N: Sometimes played in dorian rather than minor.
+K: Dm
+|: A \
+| "Dm"Ad de | f2 ed | "Gm"gf ed | "Am"e>d c/B/A \
+| "Dm"Ad de | f2 ea | "Gm"g>f "A7"e/f/e/d/ | "Dm"d3 :|
+|: f/g/ \
+| "F"af fa | "C"ge eg | "Dm"fd d/e/f/d/ | "Am"eA Af/g/ \
+| "F"a>g f/g/a/f/ | "C"g>f e/f/g/e/ | "Dm"fe/d/ "A7"ed/^c/ | "Dm"d3 :|
+
+
+X: 1
+T: Childgrove (Em)
+S: Playford 1701
+R: reel
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+B: Karpeles & Schofield p.22,52; Playford Ball; Raven p.23; Barlow #426
+L: 1/8
+N: Sometimes played in dorian rather than minor.
+K: Em
+|: B \
+| "Em"Be ef | g2 fe | "Am"ag fe | "Bm"f>e d/c/B \
+| "Em"Be ef | g2 fb | "Am"a>g "B7"f/g/f/e/ | "Em"e3 :|
+|: g/a/ \
+| "G"bg gb | "D"af fa | "Em"ge e/f/g/e/ | "Bm"fB Bg/a/ \
+| "G"b>a g/a/b/g/ | "D"a>g f/g/a/f/ | "Em"gf/e/ "B7"fe/^d/ | "Em"e3 :|

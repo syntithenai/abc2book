@@ -1,0 +1,24 @@
+X:688
+T:Spanish Dance
+C:Ashover Book, c. 1764
+M:2/4
+L:1/16
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%MIDI program 68     Oboe
+%%MIDI chordprog 45   Pizzicato Strings
+%%MIDI bassprog 32    Acoustic Bass
+Q:1/4=55
+%%MIDI gchord fcfcfcfc
+K:D
+P:A
+|: "D"DAFA "G"DBGB | "Bm"D2ef "A7"gff[Ae] |\
+"D"DAFA "G"Defg | "D/A"fe"A7"dc "D"{c} d4 :|
+P:B
+|: "A7"ecAg "D"fdAa | "A7"ecAg "D"[df]2 "A"[Ae]A |\
+"D"afdA "G"BcdG | "D/A"F2 "A7"E2 "D"D4 :|
+P:C
+|: "A"ABcd dcBA | "Em"efgf "A7"f2e2 |\
+"Bm"f3f "E"e^GA[Bd] | "A"cB"E7"A^G "A"{G}A4 :|
+P:D
+|: "A"e3c "D"A2d2 | "G"BAGF "A"{F}E4 |\
+"Em"Begf "A"ec"G"dg | "D/A"fe"A7"dc "D"{c}d4 :|

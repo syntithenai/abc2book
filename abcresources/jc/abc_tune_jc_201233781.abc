@@ -1,0 +1,20 @@
+X: 2011
+T: Hei Tuti Teti
+%R: air, strathspey
+N: This is version 1, for ABC software that doesn't implement the crescendo symbols or voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.2 p.1 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "VERY SLOW WITH EXPR.n"
+K: Bb
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+F2 F>D (F2 B)z | {A}G2 GF .G(ABc) | {Bc}d2 c>B ~B>cd>c | (B<G) ~G>F F4 :| d2 ~d>c (d2 .f)z | c2 ~c>B c2 (de) |
+(f<d) ~c>B B>c {Bc}d>c | (B<G) ~G>F F4 | d2 d>c (d2 .f)z | c2 cB ~c>d(eg) | (f<d) c>B B>c {c}Hd>c | (B<G) ~G>F F4 |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+B2b2 (B2d)z | e2 ed efga | b2f2 df ba | [g2e2] [eB2]d [d4B4] :| B2df (b2.d')z | F2Ac f2bc' |
+[d2b2][c2f2] d>f ba | [g2e2][b2e2] [b4d4] | B2df (b2.d')z | F2f2 abc'e' | [d'2b2][c'2f2] df Hb>a | [g2e2][b2e2] [b4d4] |]

@@ -1,0 +1,19 @@
+X: 1
+T: Oyster River Hornpipe
+O: attr. James Bryan
+R: hornpipe
+S: https://www.mne.psu.edu/lamancusa/tunes/OysterRiverHP.pdf 2022-7-23
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Slightly edited to shorten the alternate endings.
+M: C|
+L: 1/8
+K: G
+(3DEF "^A"|:\
+"G"G2B2 BAGA | "Em"B2e2 efge | "G"d2B2 "D"A2GA | "G"BcBA "D"GFED ||
+"G"G2B2 BAGA | "Em"B2e2 efge | "G"dedB "D"ABAc | "G"B2G2 [1 G2DE :|[2 G2ef ||
+"^B"|:\
+"G"g2ga gfed | g2g2 "D"a2ga | "Em"b2b2 "Am"a2ga | "G"b2ba gfed ||
+"Em"efga "G"gfed | g2g2 "Am"a2ga | "G"b2b2 "D"a2 | "G"b2g2 [1 g2ef :|[2 "G"g4 ||
+"^C"|:\
+"G"B2B2 BcBA | "Em"G2E2 E2EG | "D"A2A2 ABAG | F2D2 D4 ||
+"D"d2^c2 d2A2 | "G"BABc d2AG | "D"F2AF "A"E2DE | "D"F2D2 [1 D3A :|2 "D"D4 |]

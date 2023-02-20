@@ -1,0 +1,21 @@
+X: 21501
+T: the BANKS OF TWEED
+C: Hook.
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.150 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A>F |\
+D2 F2 A2 | d3 c B2 | A>B A2 G2 | {G}F4 A>A |\
+(d<f) (e<d) (c>B) | (A>B) (A<c) (d<B) | (A>B) (A<F) E>F | {F}E4 F>G |
+A2 A2 (3(Bcd) | d2 c2 (e>c) | A2 (B>A) (d>F) | {F}E4 F>D |\
+A2 A2 (3(cBA) | d4 c>A | (B<g) (f<e) (d<c) | {c}d4 (3(dcB) |
+A2 A2 (3(BAG) | F2 F2 (3(GFE) | D2 F2 (A>d) | (d2 c2) A>A |\
+d2 (f<d) (f<d) | B2 A2 d2 | (e>f) (g<f) (e<d) | (c2 B2) A>G |
+F3 F A2 | d2 (A>c) (d<B) | A2 (G>F) (ED) | {D}E4 F>G |\
+A2 (d<f) (a<f) | d2 (A>c) (d<B) | (A>B) A<F E<F | D4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

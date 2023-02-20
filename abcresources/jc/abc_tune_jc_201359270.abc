@@ -1,0 +1,32 @@
+%%scale 1.3
+%%barsperstaff 4
+X:1
+T:Let There Be Peace On Earth
+T:(Let It Begin With Me)
+C:Sy Miller and Jill Jackson
+M:3/4
+L:1/4
+K:D
+%%staves{RH1}
+V:RH1 clef=treble
+|"D"D3|"Bm"D2 C|"G"D2 E|"A7"F2 G
+w:1~Let there be peace on earth and
+w:2~Let peace be-gin with me, Let
+|"D"A D "G"B|"D"A2 D|"Em"E3-|"A7"E3|"D"F3|F2 F
+w:let it be-gin with me;_ Let there be
+w:this be the mo-ment now._ With ev-'ry
+|"C#7"^G2 A|B2 d|"F#m"c A B|"C#7"c2 d|"A7"c3-|c2 A
+w:peace on earth, The peace that was meant to be._ With
+w:step I take, Let this be my sol-emn vow;_ To
+|1 "Bm"d3|B2 d|"F#m"c A2-|A3|"G"B2 B|"A7"A2 G
+w:God as our Fa-ther,_ Broth-ers all are
+|"D"A3-|A3|"Bm7"A2 F|"E7"^G A B|"A"c E2-|E2 E
+w:we._ Let me walk with my broth-er_ in
+|"Bm"d2 d|"E7"c2 B|"A7"A3-|A3:|
+w:per-fect har-mo-ny._
+|2 "D"d2 d|d c d
+w:take each mo-ment and
+|"D+"d2 d|d c d|"G"d2 d|"Gdim"c2 "G"d|"E"e3-|"Gm"e3|"D"d3
+w:live each mo-ment in peace e-ter-nal-ly._ Let
+|"F#"c2 e|"G"d2 B|"D"A2 A|"G"B "F#"c "Bm"d|"Em"e2 d|"D"d3-|d2||
+w:there be peace on earth and let it be-gin with me._

@@ -1,0 +1,25 @@
+X: 2052
+T: Mrs Donaldson's    Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.5 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+V: 1 staves=2
+D |\
+B,2 TB>F B>c {Bc}d>c | B<GF>D TC>B,CD |\
+B,2 TB>F B>c {Bc}d>c | B>GTF>D B,/B,/B, B, :|\
+d |\
+Tf>gfd TB>cdB | (3ege (3dfd Tc>Bcd |
+Tf>gfd TB>c{Bc}d>c | B<GTF>D B,/B,/B, B,d ||\
+(Tf>gf).d (TB>cd)B | eg/e/ df/d/ Tc>Bcd |\
+B<Fd<B f<db>g |f<dTc>d B/B/B B |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | B2B2 d2B2 | e2B2 f2F2 | B2B2 d2B2 | e2f2 B2B :| z | b2b2 b2b2 | a2b2 f2F2 |
+b2b2 b2b2 | e2f2 B2B2 || b2b2 b2b2 | a2b2 f2F2 | B2B2 B2B2 | f2F2 B2B |]

@@ -1,0 +1,14 @@
+X:1
+T:When We Go Down To Washington
+B:CCDB
+B:based on American Veteran Fifer #101
+M:2/4
+L:1/8
+Q:1/8=220
+%% the 'm:' is a macro definition (Barfly) for a trill notation - T is a trill.
+m: Tn = n/4o/4n/4o/4
+K:D
+|: f/e/|dB Bc/B/|FB B>d|cA A/B/c/d/|e2 f>e|
+dB Bc/B/|FB B>d|cf f/e/d/c/|B3 :|
+|: f/g/|af/g/ af|bg/a/ bg|ag/f/ Ted/e/|f3 f/e/|
+dB Bc/B/|FB B>d|cf f/e/d/c/|B3 :|

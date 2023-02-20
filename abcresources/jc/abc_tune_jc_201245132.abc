@@ -1,0 +1,41 @@
+
+X: 1
+T: Adir Hu   [Dfr]
+T: Mighty is He
+C: Shlomo Carlebach
+R: freylach
+M: 4/4
+L: 1/8
+Z: John Chambers <jc:trillian.mit.edu>
+K: _B_e^F	% D freygish
+"A"|: "D"FG AB A4 | FG AB A2 A2 | FG AB "Cm"cc2 B | AG FE "D"D4 :|
+"B"|: "D"D2 A2 A4 | "Cm"AG BA "Gm"G3 G |1 "Eb"G2 A2 F2 G2 | "D"A6 z2 :|2 "Eb"G2 A2 F2 E2 | "D"D6 d>c ||
+"C"|: "D"d6 d>c | "Bb"d6 zd |1 "Cm"e2 d2 c2 B2 | "D"A6 d>c :|2 "Cm"e2 d2 c2 B2 | "D"A6 z2 ||
+"B"|: "D"D2 A2 A4 | "Cm"AG BA "Gm"G3 G |1 "Eb"G2 A2 F2 G2 | "D"A6 z2 :|2 "Eb"G2 A2 F2 E2 | "D"D6 z2 |]
+
+
+X: 2
+T: Adir Hu   [Efr]
+T: Mighty is He
+C: Shlomo Carlebach
+R: freylach
+Z: John Chambers <jc:trillian.mit.edu>
+K: ^G	% E freygish
+"^A"|: "E"GA Bc B4 | GA Bc B2 B2 | GA Bc "Dm"dd2 c | BA GF "E"E4 :|
+"^B"|: "E"E2 B2 B4 | "Dm"BA cB "Am"A3 A |1 "F"A2 B2 G2 A2 | "E"B6 z2 :|2 "F"A2 B2 G2 F2 | "E"E6 e>d ||
+"^C"|: "E"e6 e>d | "C"e6 ze |1 "Dm"f2 e2 d2 c2 | "E"B6 e>d :|2 "Dm"f2 e2 d2 c2 | "E"B6 z2 ||
+"^B"|: "E"E2 B2 B4 | "Dm"BA cB "Am"A3 A |1 "F"A2 B2 G2 A2 | "E"B6 z2 :|2 "F"A2 B2 G2 F2 | "E"E6 z2 |]
+
+
+X: 3
+T: Adir Hu   [Bfr]
+T: Mighty is He
+C: Shlomo Carlebach
+R: freylach
+Z: John Chambers <jc:trillian.mit.edu>
+K: ^d^f	% B freygish
+"^A"|: "B"de fg f4 | de fg f2 f2 | de fg "Am"aa2 g | fe dc "B"B4 :|
+"^B"|: "B"B2 f2 f4 | "Am"fe gf "Em"e3 e |1 "C"e2 f2 d2 e2 | "B"f6 z2 :|2 "C"e2 f2 d2 c2 | "B"B6 b>a ||
+"^C"|: "B"b6 b>a | "G"b6 zb |1 "Am"c'2 b2 a2 g2 | "B"f6 b>a :|2 "Am"c'2 b2 a2 g2 | "B"f6 z2 ||
+"^B"|: "B"B2 f2 f4 | "Am"fe gf "Em"e3 e |1 "C"e2 f2 d2 e2 | "B"f6 z2 :|2 "C"e2 f2 d2 c2 | "B"B6 z2 |]
+

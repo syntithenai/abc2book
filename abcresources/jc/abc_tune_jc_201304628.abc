@@ -1,0 +1,22 @@
+X: 2
+T: Lynn Stanhope Waltz
+C: Beverly Woods 2018
+%D:2018
+R: waltz
+S: Shana Aisenberg: Fiddle Hell Online Jam #30 2020-7-22
+Z: John Chambers <jc:trillian.mit.edu> 2021-9-6 (2nd voice)
+M: 3/4
+L: 1/8
+K: G
+% = = = = = = = = = =
+V: 1 staves=2
+[| "G"G>D G>A B2 | "Em"B>G B>c d2 | "Am"e3 d B2 | "D"A6 || "G"G>D G>A  B>G |"Em"B>G B>c dg | "Am"e2 d2 "D"B>A | "G"G6 ||
+|| "G"G>D G>A B2 | "Em"B>G B>c d2 | "Am"e2 a2 g>d | "D"d6 || "C" e2 g4 | "G"B2 d4 | "Am"e>c c>B "D"A>F | "G"G6 |]
+[| "Em"g2 "Bm"d4 | "C"e2 "Em"B4 | "Am"c3 d Bc | "D"A6 || "Em"g2 "B"d4 | "C"e2 "G"B4 | "Am"c>B A>G "D"FD | "G"G6 ||
+|| "Em"g2 "Bm"d4 | "C"e2 "Em"B4 | "Am"c3 d Bc | "D"A6 || "G"G>D G>A BG | "Em"B>G B>c dg | "Am"e2 d2 "D"BA | "G"G6 |]
+% = = = = = = = = = =
+V: 2 clef=bass middle=d
+[| G6    | E6    | A6 | D6 || G6    | E6    | A4 D2 | G6 ||
+|| G6    | E6    | A6 | D6 || G6    | c6    | A6    | G6 |]
+[| e2 B4 | c2 E4 | A6 | D6 || e2 B4 | c2 G4 | A4 D2 | G6 ||
+|| e2 B4 | c2 E4 | A6 | D6 || G6    | E6    | A4 D2 | G6 |]

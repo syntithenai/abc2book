@@ -1,0 +1,17 @@
+X: 322	% 89
+T: Come Along John
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.32 #2
+R: reel, march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Last note shortened from quarter to 8th note, to fix the rhythm of repeats.
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="89"
+D2 |:\
+G3GA2d2 | BdAd BG2D |\
+G3G A2d2 | BGAF G3D :|\
+e4 {f}e4 | fedf edBA |
+dd3 fe2d | BGAF G2d2 |\
+e4 {f}e4 | gfeg fedB |\
+de3 fe2d | BGAF G2 |]

@@ -1,0 +1,23 @@
+X: 07103
+T: SAM'S JIG
+C: Bob McQuillen 19 Feb 89
+B: Bob's Note Book 7 #103
+%R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D	% and A
+F2G \
+| A2B A2G | F3  A2d | B2A B2A | G2A Bcd | A2B A2G | F3  A2A | B2A G2F | E3 F2G |
+| A2B A2G | F3  A2d | B2A B2A | G2A B2c | dfe d2A | Bcd A2G | FED E2C | D3 ||
+K: A
+E2D \
+| C2E AED | C2E AGA | Bcd dcB | c2d ecA | d2e fed | c2d e2c | def ecA | G2F E2D |
+| C2E AED | C2E AGA | Bcd dcB | c2d ecA | d2e fed | cde fga | edc BAG | A3 |]
+%%begintext align
+%% Laurie Indenbaum and
+%% Andy Toepfer (of Applejack fame) From Saxton's River,
+%% Ut., have the cutest little boy named Sam, and
+%% perhaps some day he'll dance to his own tune while
+%% his folks play the music!
+%%endtext

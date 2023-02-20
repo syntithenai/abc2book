@@ -1,0 +1,18 @@
+X:166
+T:The Dance of the Lakes
+C:Jeremiah Clarke, 1680
+N:For the dance by Fried de Metz Herman, 1993.
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=112
+M:2/2
+L:1/8
+K:C
+%%MIDI program 73     Flute
+%%MIDI chordprog 24   Acoustic Guitar (nylon)
+%%MIDI bassprog 32    Acoustic Bass
+P:A
+|: G2 | "C"c2G2 "G"A2GF | "C"E2C2 zBcd | "C"e2de "Dm"Adcd | "G"B2G2 zGAB |\
+"C"c2G_B "F"Acde | "Dm"f2Ad "G"Bdef | "C"gB "F"cd "G7"d3c | "C"c4 z2 :|
+P:B
+|: e2 | "E7"B2c2 "Am"AcBA | "E7"^G2B2 Eedc | "Dm"BcBc "E7"c2BA | "Am"A4 "G"zAGF |\
+"C"E2G2 cedc | "G"B2d2 gagf | "C"eg "F"cd "G"d3c | "C"c6 :|

@@ -1,0 +1,25 @@
+X:888
+T:John Huband's Dancing Fingers
+C:Joe Buchanan's Scottish Tome - Page 447.0
+I:447 0
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:D
+W:Play: A twice, B twice, A once, C twice, A once to finish
+%%vskip 0
+ABc | "D"d2 d "A"cde | "D"f2 e "D7"d2 c | "G"Bcd edB | "D"A3 "D7"Adc |
+"G"BGB dcB | "D"ABA FAF | "E"E2 e e2 d | "A"cBA "A7"GFE |
+"D"d2 d "A"cde | "D"f2 e "D7"d2 c | "G"Bcd edB | "D"A3 Adc |
+"G"BGB dcB | "D"ABA FAF | "Em"EFG F2 E | "D"D3 D2 :|
+[K:G] F2 | "G"G3- G2 B | "G"d3- d2 ^d | "C"e2 d "D"cde | "G"d3- d2 ^d |
+"C"e2 d "D"cde | "G"d2 B G2 B | "A"ABA GFE | "D"D3- DEF |
+"G"G3- G2 B | "G"d3- d2 ^d | "C"e2 d "D"cde | "G"d3- d2 ^d |
+"C"e2 d "D"cde | "G"d2 B "Em"G2 B | "Am"ABc "D"B2 A | "G"G3 G :|
+[K:C] G | "C"C3 C2 E | "C"G3 G2 ^G | "F"AFA cBA | "C"G3 G2 G |
+"F"AFA cBA | "C"GAG EGE | "D"D2 d d2 c | "G"BAG FED |
+"C"C3 C2 E | "C"G3 G2 ^G | "F"AFA cBA | "C"G3 GcB |
+"F"AFA cBA | "C"GAG EGE |1 "Dm"DEF "G"E2 D | "C"C3 C2 :|
+%%leftmargin 345 cm
+|[2 "Dm"DEF AB | "C"c3 ABc |]

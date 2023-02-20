@@ -1,0 +1,53 @@
+HTTP/1.1 200 OK
+Date: Tue, 03 Feb 2009 22:40:17 GMT
+Server: Apache/2.2.4 (Ubuntu)
+Last-Modified: Thu, 26 Oct 2006 21:49:12 GMT
+ETag: "6a413a-765-c6240600"
+Accept-Ranges: bytes
+Content-Length: 1893
+Connection: close
+Content-Type: text/plain
+
+%%scale 0.98
+%%barsperstaff 6
+X:1
+T:Dogwood Dulcimer Association Fall Festival - 2006
+M:4/4
+L:1/4
+K:D
+P:CLINCH 3X; LIGHT 2X; FLY 2X; LIGHT 1X
+|:"D""^CLINCH 3X"d B A F|E/2F/2 E D z|d B A F|"A"A3 z
+|"D"d B A F|E/2F/2 E D D/2E/2|F F "A"E/2F/2 E|"D"D4:||
+|:"D"D D/2E/2 F/2D/2D/2E/2|F A F E|D D/2E/2 F/2E/2 D|z "C"!emphasis!=C !emphasis!=C z
+|"D"D D/2E/2 F/2E/2D/2E/2|F A F E|F F "A"E/2F/2 E|"D"D4:||
+M:4/4
+L:1/4
+K:D
+|"^LIGHT 2X now; 1X later"A,|:"D""^VERSES"A, A,2 B,|D2 D D|A, A,2 B,|D4|"G"E D2 B,
+w:1~I wan-dered so aim-less_ life filled with sin; I would-n't
+w:2 Just like a blind man, I wan-dered a-long; Wor-ries and
+|D2 D2|E D2 B,|"D"A,4|A, A,2 B,|D2 D B,|
+w:let my dear Sav-ior in. Then Je-sus came like a
+w:fears I claimed for my own. Then like the blind man that
+|A, A, A, B,|D4|A3 B|(A2 F/2 E3/2)|"A7"F F2 E|"D"D4||
+w:stran-ger in the night. Praise the Lord!__ I saw the light.
+w:God gave back his sight. Praise the Lord!__ I saw the light.
+|"^CHORUS"F F2 E|(F E D2)|F F2 E|(F E D2)|"G"E D3
+w:I saw the light.__ I saw the light.__ No more
+|D2 D2|E D3|"D"(D B, A,2)|A, A,2 B,|D2 D D
+w:dark-ness, No more night.__ Now I'm so hap-py, no
+|F F2 E|(F E D2)|A2 B2|(A2 F/2 D3/2)|"A7"F F2 E|"D"D3||
+w:sor-row in sight;__ Praise the Lord!__ I saw the light!
+M:4/4
+L:1/4
+K:D
+|"D""^FLY 2X; return"F "^VERSES"D A, D|F/2E/2F/2G/2 "D7"F2|"G"D3 B,/2B,/2|"D"A,4
+w:1.Some bright mor-ning when this life is o'er, I'll fly a-way.
+w:2.When dark sha-dows of this life have grown, I'll fly a-way.
+|F D A, D|F/2E/2F/2G/2 F2|F3 "A7"E/2E/2|"D"D4
+w:To a land on God's ce-les-tial shore, I'll fly a-way.
+w:Like a bird, from pri-son bars has flown, I'll fly a-way.
+|"^CHORUS"A3 F/2A/2|A F "D7"E D|"G"D3 B,/2B,/2|"D"A,4
+w:I'll fly a-way, oh Glor-y, I'll fly a-way.
+|A, B, D D/2E/2|F/2E/2F/2G/2 F2|F3 "A7"E/2E/2|"D"D4||
+w:When I die hal-le-lu-jah, by and by, I'll fly a-way.

@@ -1,0 +1,16 @@
+X: 10192
+T: Air - Presto
+C: Gaetano Brandi
+Q: "Presto"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.19
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+[V:1] |: !f!.g4g2g2 | g6e2 | (f2g2a2g2) | {f}(f4.e4) | .g4g2g2 | g6e2 | {e/}(d2c2d2e2) | c4z4 :|
+[V:2] |: EGcG EGcG | E6c2 | (d2e2f2e2) | {e}(d4.c4) | EGcG EGcG | E4c4 | {G/}(F2E2F2G2) | E4z4 :|
+[V:1] |: !p!(f2d2)(g2f2) | !f!.e2.g2.c'4 | !p!(f2d2)(g2f2) | !f!.e2.g2.c'4 | (c'2b2a2g2) | g6e2 | {e/}(d2c2d2e2) | c4z4 :|
+[V:2] |: G2G4G2 | .c2.e2.e4 | G2G4G2 | .c2.e2 .e4 | (a2g2f2e2) | e4c4 | {G/}F2E2F2G2 | E4z4 :|
+%
+%%center -

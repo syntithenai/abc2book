@@ -1,0 +1,26 @@
+X:1
+T: Merrilly we dance and sing
+N:
+C:
+S:alias  The Fillip
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 160
+%W: A
+% voice 1 (1 lines, 28 notes)
+K:D
+M:4/4
+L:1/16
+A4/3 B4/3 c4/3 |d4 A2 f2 f2 e2 d4 |e4 B2 g2 g2 f2 e4 |a4 f2 d2 d2 e2 f4 |e2 f2 d2 c2 c2 B2 A4 |
+%W:
+% voice 1 (1 lines, 22 notes)
+d4 A2 f2 f2 e2 d4 |e4 B2 g2 g2 f2 e4 |a4 f2 d2 d2 e2 f4 |e2 d2 c4 d4 |
+%W: B
+% voice 1 (1 lines, 31 notes)
+d2 e2 |=f4 _e2 =c2 c2 d2 e2 g2 |=f4 d2 _B2 B2 d2 f2 g2 |=f4 _d2 _A2 A2 d2 f2 _a2 |g2 =f2 _e2 f2 f2 e2 =d2 e2 |
+%W:
+% voice 1 (1 lines, 25 notes)
+=f4 d2 _B2 B2 =c2 d2 =e2 |^f4 d2 A2 A2 d2 f2 a2 |b2 a2 g2 a2 a2 g2 f4 |g2 f2 e4 d4 |

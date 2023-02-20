@@ -1,0 +1,79 @@
+%%center Frog in the Well + Grannie Will Your Dog Bite
+%D: 090613
+%S: http://ancients.sudburymuster.org/mus/index.htm
+
+
+X: 0
+T: Frog in the Well v.1
+P: piffero primo a0044
+O: safd 007
+%R: polka, march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/matthewsF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+A2 |\
+d2d2 d2A2 | B2A2 A4 | d2d2 dcde | f2e2 e2A2 |\
+d2d2 d2A2 | B2A2 A4 | d2d2 ecde | f2d2 d2 :|
+|: z2 |\
+f2a2 a4 | f2a2 a4 | g3e f3d | e2e2 dcBA |\
+d2A2 BAFA | d2A2 BAFA | d2d2 ecde | f2d2 d2 :|
+
+
+X: 1
+T: Frog in the Well v.2
+P: piffero secondo a0045
+O: Dan Moylan
+%R: polka, march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/matthewsF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+D2 |\
+F2F2 A2F2 | G2F2 C4 | F2F2 DEFG | A2G2 G2C2 |\
+F2F2 A2F2 | G2F2 C4 | F2F2 CEFG | A2F2 F2 :|
+|: z2 |\
+d2F2 D4 | d2F2 D4 | E3C D3B, | C2E2 DEFG |\
+D2A2 DFAd | D2A2 DFAd | F2F2 CEFG | A2F2 F2 :|
+
+
+X: 2
+T: Granny Will Your Dog Bite  v.1
+P: piffero primo a0047
+O: safd 054
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/matthewsF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+A2 |\
+d3A F2A2 | G2B2 F2A2 | dcdA F2A2 | B2c2 d3d |\
+d3A F2A2 | G2B2 F2A2 | dcdA F2A2 | B2c2 d2 :|
+|: z2 |\
+dcde f2a2 | g2f2 e2c2 | dcde f2a2 | g2f2 e2fg |\
+abaf g2e2 | f2d2 e2f2 | dcdA F2A2 | B2c2 d2 :|
+
+
+X: 3
+T: Granny Will Your Dog Bite  v.2
+P: piffero secondo a0048
+O: Dan Moylan
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/matthewsF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+z2 |\
+F2F2 A2F2 | E4 D4 | F2A2 D2F2 | G2E2 F4 |\
+F2F2 A2F2 | E4 D4 | F2A2 D2F2 | G2E2 F2 :|
+|: z2 |\
+FEFG A2F2 | E2D2 C2D2 | FEFG A2F2 | E2D2 C4 |\
+FGFD E2C2 | D2F2 G2A2 | FEFG A2F2 | G2E2 F2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

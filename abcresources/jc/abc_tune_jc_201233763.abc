@@ -1,0 +1,21 @@
+X: 20102
+T: the CRIMSON MORN BIDS HENCE THE NIGHT.
+C: From "The Duenna."
+Q: "Moderate."
+%R: air, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.10 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: E
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E |\
+e2(dc) B2c2 | (BA)(GF) E3B |\
+^A2B2 (cg2)f | (fe)(dc) B3f |\
+(ed)(cB) e3d | (cB)(AG) F2B2 |\
+G<Ee2 {d}c2c2 | A<Ff2 {e}d3B |\
+e2f2 (g/f/a/g/ b)e | B2d2 e2z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

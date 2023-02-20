@@ -1,0 +1,18 @@
+X: 10221
+T: PORT A RHODICH -- Strathspey
+R: strathspey
+B: K\"ohler's Violin Repository, v.1, 1885 p.22 #1
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Spaces added to break long beams for readability.
+M: C
+L: 1/16
+K: A
+ue2 !segno!|\
+ AA3 (e3B) (A3B) A2a2 | AA3 (e3c) (d3c) B2e2 | AA3 (e3B) (cA3) e2d2 | cA3 (e3c) (d3c) B2e2 !segno!:|
+vcA3 (a3g) (a3A) A2e2 | cA3 (a3f) (=g3B) Be3 | cA3 (a3g) (a3A) a3e | (fa3) (e=g3) d3c Be3 |
+ cA3 (a3g) (a3A) A2e2 | cA3 (a3f) (=g3B) Be3 | cA3 (a3g) (a3A) a3e | (fga2) (ef=g2) d3c Be3 ||
+vdcBA A,2A2 c2A2 Ae3 | dcBA A,2e2 d2B2 Be3 | dcBA A,2e2 dcBA A,2e2 dcBA A,2e2 | dcBA A,2e2 d2B2 Be3 |
+dcBA A,2e2 c2A2 Ae3 | dcBA A,2e2 d2B2 Be3 | dcBA A,2A2 A,2(AB) c2A2 | A,2(AB) c2A2 d3c Be3 ||
+vcA3 (a3g) (a3A) A2e2 | cA3 (a3f) (=g3B) Be3 | cA3 (a3g) (a3A) a2e2 | (fa3) (eg3) d3c Be3 |
+ cA3 (a3g) (a3A) A3e | (cA3) (a3f) (=g3B) Be3 | cA3 (a3g) (a3A) a3e | (fga2) (ef=g2) d3c Be3 "_D.C."!segno!|]

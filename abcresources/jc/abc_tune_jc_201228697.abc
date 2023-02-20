@@ -1,0 +1,21 @@
+X: 115102
+T: the STEWARTS RANT
+Q: "Reel."
+R:  Reel.
+%R: reel
+B: James Kerr "Merry Melodies" v.1 p.15 s.1 #2
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The 3-note groups in the 1st strain have triplet marks, but this makes no sense.
+M: C
+L: 1/8
+K: A
+ue |\
+(c/d/e) (f/g/a) e2(ce) | dBfB bBfB |\
+(c/d/e) (f/g/a) e2(ce) | dBge a2(Ae) |\
+(c/d/e) (f/g/a) e2(ce) | dBfB bBfB |\
+cefa efce | defg a2A |]
+ue |\
+vc>uA A/A/A (cA)cA | B>E E/E/E (BE)Bd |\
+c>A A/A/A (cA)cA | B>E E/E/E e2Ae |\
+cAeA fAeA | GEBE GABd |\
+cAeA aA!2!b!0!A | !3!c'ad'c Tb2a |]

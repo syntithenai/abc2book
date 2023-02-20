@@ -1,0 +1,52 @@
+X: 009
+T: Friendship Source of Joy
+C: music: Ignatius Sancho 1769
+C: words: "by a young Lady"
+%R: song, march
+B: "A Collection of New Songs", 1769
+S: https://brycchancarey.com/sancho/music.htm
+S: https://brycchancarey.com/sancho/joy.jpg
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+Q: "Allegro"
+K: D
+V: 1 brace=2
+V: 2 clef=bass middle=d
+%%continueall no	% Format to fit the page+scale
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] A | (Ad)(dA) | (Bd)(dB) | (AF)(ED) | E3 G | (FA)(dc) | (Bd)(eg) | (fd)(ec) | d3
+[V:2] z | f2"_6"f2 | g2G2 | "_6"F2 "_6"B2 | A2 "_6"c2 | d2 "_6"f2 | g2e2 | "_6\n4"a2"_5\n3"A2 | dd'af |
+%
+[V:1] A "2"| (Ad) (dA) | (Bd) (dB) | (AF) (ED) | E2 zA | (Ad)(dB) | e2 A f | (ed) (cB) | c3 A | (Ad) (dB) "3"|
+w: When love* that* source* of* pleas-*ing* pains, tri-um-*phant* in* the bo-*som* reigns, tri-um-*phant*
+[V:2]  d2 "_6"f2 | g2 G2 | "_6"F2 "_6"B2 | A2 a2 | f2 d2 | "_6"c3 d | "_6\n4"e2 "_5\n#"e2 | Acea | "_6"f2 d2 |
+%
+[V:1] e2 A d | (cB) (A^G) | A3 e | (ea)(ae) | (fa)(af) | (ec)(dB) | A3 e | (eg) (ge) | f3 f "4"|
+w: in* the bo-*som* reigns,* | | | | ~ our cares* in-* crease then
+[V:2] "_6"c3d | "_6\n4"e2 "_5\n#"E2 | Aeab | "_6"c'2a2 | d2d'2 | "_6\n4"e'2 "_#"e2 | Aea2 | "_6"c'2a2 | d'2b2 |
+%
+[V:1] (fe) (dc) | d2 zd | (df) (fd) | e2 ze | (ed) (cB) | c2 zA | (AB/=c/) (cA) | B2 zB | (Bc/d/) (dB) "5"|
+w: fare-*well* peace, our Cares* in-*crease then fare-*well* peace, our Cares** in-*crease then fare-**well*
+[V:2] f4 | BcBA | ^G4 | A2c2 | e2e2 | abag | "_6"f2d2 | gagf | e2^g2 |
+%
+[V:1] c2 ze | fafc & f2zc | dfdB & d2zB | (AF) (GE) | F2 ze | fafc & f2zc | dfdB & d2zB | AF GE | DAd=c "6"|
+w: peace yet still,** yet still** we hug* our* chain, yet still,** yet still** we hug* our* chain.***
+[V:2] Aabc' | d2a2 | b2g2 | "_6\n4"a2 "_5\n3"A2 | dfac' | d'2a2 | b2g2 | "_6\n4"a2 "_5\n3"a2 | d2f2 |
+%
+[V:1] (BG)(ed) | (cA)(fe) | (dg)(gf) | e2ze | fafc | dfdB | AF {A}GF/E/ | D3 |]
+[V:2] g2e2 | a2f2 | b2"_6\n"c'd' | A"_3"a"_3"b"_3"c' | d'2za | bd'bg | "_6\n4"a2 "_5\n3"A2 | dA D |]
+%
+W:2. Not so is friendships gentle sway,
+W:   Mild and serene as dawning day;
+W:   . Parent of smiles,
+W:   . Our grief beguiles,
+W:   And drives each care away.
+W:
+W:3. Let friendship then our thoughts employ,
+W:   For charming friendship ne'er can cloy;
+W:   . Cupid no more
+W:   . Weel the adore
+W:   Friendships the source of Joy.
+W:

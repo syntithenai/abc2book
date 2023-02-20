@@ -1,0 +1,15 @@
+X: 10141
+T: HORNPIPE
+R: hornpipe
+B: K\"ohler's Violin Repository, v.1, 1885 p.14 #1
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+(g>a) |\
+b>gd>B G2(a>g) | f>ec>A F2(f>e) | e>dc>A F>DE>F | G>AB>c
+d2(g>a) | b>gd>B G2(a>g) | f>ec>A F2(f>e) | e>dc>A F>DE>F | G2B2G2 :|
+|: (a^g) |\
+=g>ec>A ^G>AB>^c | d>ef>g ^g>ab>a | a>ge>^c A>gf>e | d>^cd>e
+d2(f>a) | g>e^c>A ^G>AB>c | d>ef>g ^g>ab>a | a>ge>^c A>gf>e | d2f2d2 :|

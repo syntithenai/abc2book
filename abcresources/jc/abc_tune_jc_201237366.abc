@@ -1,0 +1,23 @@
+X: 25
+T: the Queen of Hearts
+R: jig
+M: 6/4
+L: 1/4
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Andrew Shaw "Mr Kynaston's Famous Dance" p.25
+P: Play AABB x 4
+K: A
+%
+"A"|:\
+"A"A2A A2a | "E"g2f "A"e2a | "D"g2f "E"efg | "D"fac "E"B2c |\
+"B"B2A G2A | "E"B3 Bdc | "B"B2A G2A | "E"B3- B2c |
+"Bm"d2d def | "E"dfe "A"c2B | "A"c2c cde | "D"(fe)d/c/ "E"Bcd |\
+"A"e2z "E/G#"G2z | "D"F2G Adc | "Bm"BAG F2E | "E"E3- E2E :|
+"B"|:\
+"E"B2B "B"BcA | "E"G3- G2B | "A"e2e "E"e>fe/d/ | "A"c3- c2c |\
+"F#m"f2g agf | "C#"^e2c "F#m"f2g | agf "C#"cf^e | "F#m"f3- "E"f2g |
+"A"a2a a>ba/g/ | "D"f2f f2e | "D"dfd "A"cec | "E"B3- B2c |\
+"B"B2A G2A | "E"B3- B2c/d/ | "B"B2A G2A | "E"B3- B2c |
+"D"dfd "A"cec | "E"Bag "D"fbf | "Bm"edc "E"B2A | "A"A3- A2 :|\
+y6 y6 y6 y6 y6 y6 y6 y6 
+y6 y6 y6 y6 y6 y6 y6 "B Bars 5-8"[|] y6 y6 | "D"f2g agf | "A"e2c "D"f2g | "D"agf "E"cfe | "D"f3- f2g |

@@ -1,0 +1,19 @@
+X: 103104
+T: INVER LASSES
+Q:"Reel."
+R: Reel.
+%R:reel
+B: James Kerr "Merry Melodies" v.1 p.3 s.1 #4
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: Added flag to last note to fix the rhythm.
+M: C
+L: 1/8
+K: A
+|: uf |\
+e2cA d2df | e2(cA) dBBa |\
+e2cA d2fd | edcB cA A :|\
+g |\
+a2ec d2fd | a2(ec) fBBg |
+a2ec d2fd | edcB cAAg |\
+a2ec d2fd | a2(ec) fBBg |\
+afec defa | edcB cA A |]

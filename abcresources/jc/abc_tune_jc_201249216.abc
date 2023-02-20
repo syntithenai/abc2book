@@ -1,0 +1,42 @@
+X: 1
+T:Brest St. Marc  "NOTE - The following bars are in 7/8 time - 18,19,20
+M:6/8
+L:1/8
+Q:80
+C:
+S:6/8 and 7/8 Jig
+K:HP
+|: e|
+{g}B{d}B{e}B{g}fB{g}B|
+{g}eB{g}B{g}dBA|
+{g}B{d}B{e}B{g}fgf|  !
+{g}edB{g}ABd| |
+{g}B{d}B{e}B{g}fB{g}B|
+{g}eB{g}B{g}def|  !
+{a}gfe{g}fed|
+{g}edB|1 ABd|2 ABA:| |:
+afd{g}edB|  !
+{g}ABd{gcd}c3|
+{g}B{d}c{e}c{g}B{d}c{e}c|
+{g}dcB{g}c{d}c{e}c| |  !
+afd{g}edB|
+{g}ABd{g}c{d}c{e}c|
+{g}B/2c/2dB{g}cAa|  !
+gec{Gdc}d3:| |:
+{g}B{d}B{e}B{g}fB{g}B|
+{g}eB{g}B{g}dB{g}BA|  !
+{g}B{d}B{e}B{g}fg{a}gf|
+{g}ed{g}dB{g}ABd| |
+{g}B{d}B{e}B{g}fB{g}B|  !
+{g}eB{g}B{g}def|
+gf{g}fe{g}fed|
+ed{g}dB|1 {g}ABd|2 ABA:| |:  !
+afd{g}ed{g}dB|
+{g}ABd{gcd}c3|
+{g}Bc{d}c{e}c{g}B{d}c{e}c|  !
+{g}dc{g}cB{g}c{d}c{e}c| |
+afd{g}ed{g}dB|
+{g}ABd{g}c{d}c{e}c|  !
+{g}B/2c/2dB{g}cAa|
+gec{Gdc}d3:|
+

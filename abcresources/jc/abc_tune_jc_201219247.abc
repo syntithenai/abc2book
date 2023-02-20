@@ -1,0 +1,33 @@
+X: 21
+T: Jolly Old St. Nicholas
+%R: air, march
+B: "The Everyday Song Book", 1927
+N: This is version 2, for ABC software that understands voice overlays.
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: Fixed 2 typos: "Jahn-ny" -> "John-ny" and "San-to" -> "San-ta".
+M: 2/4
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - -
+V: 1
+[| [cA] [cA] [cA] [cA] | [BG] [BG] [B2G2] | [AF] [AF] [AF] [AF] | [c4^E4] | [FF] [FD] [FD] [FD] |
+w: 1.~Jol-ly old Saint Nich-o-las,        Lean your ear this way! Don't you tell a
+w: 2.~When the clock is strik-ing twelve, When I'm fast a-sleep,  Down the chim-ney,
+w: 3.~John-ny wants a pair of skates;     Su-sy wants a dolly;    Nel-ly wants a
+%
+   [EC] [EC] [A2C2] | [BD] [AC] [BE] [cA] [B4G4] | [cA] [cA] [cA] [cA] | [BG] [BG] [B2G2] |
+w: sin-gle soul     What I'm going to say;       Christ-mas Eve is com-ing soon;
+w: broad and black, With your pack you'll creep; All the stock-ings you will find
+w: sto-ry book;     She thinks dolls are folly;  As for me, my lit-tle brain
+%
+   [AF] [AF] [AF] [AF] | [c4^E4] | F [FD] [FD] [FD] | [EC] [EC] [A2C2] | [BD] [AC] [BD] [cE] | [A4C4] |]
+w: Now, you dear old man, Whis-per what you'll bring to me; Tell me if you can.
+w: Hang-ing in a row;     Mine will be the short-est one,   You'll be sure to know.
+w: Is-n't ver-y bright;   Choose for me, Old San-ta Claus,  What you think is right.
+% - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[| zea2 & A4 | zbe'2 & e4 | zac'2 & f4 | zgc'2 & c4 | zfa2 & d4 |
+   zce2 & A4 | zee2 & E4 | zBe2 & E4 | zea2 & A4 | zbe'2 & e4 |
+   zac'2 & f4 | zgc'2 & c4 | zfa2 & d4 | zce2 & A4 | [d2f2] [eg] [ee] | [A4e4] |]
+% - - - - - - - - - - - - - - -

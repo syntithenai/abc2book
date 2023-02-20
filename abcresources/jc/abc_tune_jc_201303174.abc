@@ -1,0 +1,17 @@
+X: 1
+T: Lochnagar
+B: Kerr's Violin #2
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+R: shottish, strathspey
+M: 4/4
+L: 1/8
+K: D
+A>F \
+| "D"D2 D>F A2 A>B | "D"d>e f>e e<d d>B | "D"A>B d>B "Bm"A<F F>D \
+|1 "Em"E>D E>F "A7"E2 :|2 "A7"E>D E>F "D"D2 |]
+yA2 \
+| "D"d2 f>e e<d d>A | "G"B2 d>B "D"A<F F>G \
+| "D"A<F {F}E>D "Bm"D<d d>B | "Em"A<F F>D "A7"E2 |]
+f>g \
+| "D"a>g f/e/d/c/ e<d d>A | "G"Bg/f/ e/d/c/B/ "A7"A2 F>G \
+| "D"A2 B>A "Bm"(3ABd a>g | "A7"f2 e>d "D"d2 |]

@@ -1,0 +1,26 @@
+X:1
+T: Good Man of Antwerp
+N:
+C:by Martha Stokely
+S:tune is "Spring Sprightly" (adapted)
+A:
+O:
+R:
+M:4/4
+K:Em
+I:speed 120
+%W: A
+% voice 1 (1 lines, 25 notes)
+K:Em
+M:4/4
+L:1/16
+e2 d2 e4 B4 e2 d2 |d2 c2 B2 A2 B4 B4 |e2 d2 g4 f4 a2 g2 |g2 f2 e2 d2 e4 e2 f2 |
+%W:
+% voice 1 (1 lines, 26 notes)
+g2 a2 b2 g2 a4 a2 g2 |g2 f2 g2 a2 b4 a4 |g2 a2 b4 b2 a2 g2 f2 |e2 d2 g2 f2 e4 e4 |
+%W: B
+% voice 1 (1 lines, 24 notes)
+B2 B2 B4 B4 B2 c2 |d2 B2 A2 G2 F4 A4 |B4 B4 B2 c2 d2 c2 |B2 A2 G2 F2 G4 G4 |
+%W:
+% voice 1 (1 lines, 23 notes)
+B2 B2 B4 B2 d2 c2 B2 |A2 G2 F2 E2 F4 D4 |B4 B4 e4 g2 f2 |f2 e2 f4 e4 e4 ||

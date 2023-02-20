@@ -1,0 +1,17 @@
+X: 1796
+T: the Jockey at the Fair
+T: an ria\.manai\.ge ag an aona\.c
+R: hornpipe, reel, "long dance"
+%S: s:6 b:22(4+4+4+4+4+2)
+S: 1796 O'Neill's Music of Ireland
+B: O'Neill's 1850 #1796
+O: J.O;Neill
+Z: Robert Thorpe (thorpe@skep.com)
+Z: ABCMUS 1.0
+M: 6/8
+L: 1/8
+K: G
+%%indent 130
+D | G2A B2c | d2g d2c | BdG GFG | cBc A2c || d^cd efg | a2f d2g |
+| fed AB^c | (d3- d2) :: (f/g/) | afd afd | c2c B2d | dgd dgd | c2c B2d || e2f gfe | d2c B2d |
+| edc B2A | B2G E2F || G2G GBd | e2f g2e | dBG A2B | E2F G2A || B2g B2A | (G3- G2) :|

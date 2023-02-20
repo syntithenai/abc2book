@@ -1,0 +1,25 @@
+X: 048
+T: Cox's Museum
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.24 #48
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: The rhythm between the strains isn't right; not fixed.  (The "Da Capo" implies an AABA pattern.)
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2f2 f2(ed) | e2g2 g2(fe) |\
+f2a2 a2(gf) | edcB A3A |\
+d2f2 f2(ed) | e2g2 g2(fe) |
+f2a2 A2c2 | d6- d2 :|\
+|: a2 |\
+a2(gf) efga | f4 a4 |\
+a2(gf) efga | f4 A4 "Da Capo"y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across back again cross over 1
+%% Cu. foot it Right & Left at top
+%%endtext

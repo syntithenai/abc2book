@@ -1,0 +1,16 @@
+X: 477
+T: Vecheren Tanz
+O: Gypsy
+M: 4/4
+L: 1/8
+Q:1/4=180
+K: Gm
+%%MIDI program 23
+P:A
+|:gzfz=ez_dz|c2ccc2c2 |_d2BBB2B2 |_d2ccc2c2 |
+  gzfz=ez_dz|c2ccc2c2 |_d2BBB2B2 |_d2ccc2c2 :|
+P:B
+  _d2BBB2B2 |_d2ccc2c2|:g_agag2f2| c2ccc2c2 |_d2BBB2B2|_d2ccc2c2 :|
+P:C
+|:g_agag2f2 | c2ccc2c2|Bc_dBd2cB |c2c2c2c2  |
+  g_agag2f2 | c2ccc2c2|Bc_dBd2cB |c2c2c2c2   :|

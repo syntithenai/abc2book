@@ -1,0 +1,16 @@
+X: 689
+T: Planxty Wilkinson
+T: pleraca uilginson
+R: jig
+%S: s:3 b:16(5+5+6)
+C: O'Carolan
+B: O'Neill's 1850 #689
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+Q: "Spirited"
+N: Bar 12 clearly has incorrect note values; fixed by changing the 4-note run to 32nd notes.
+M: 6/8
+L: 1/8
+K: Gm
+(G/F/) | DGG Bcd/=e/ | f2F FAc | (Td2c) (TB2A) | (TG2F) DCC || DGG Bcd/=e/ |
+| fed cBA | BAG (^F>GA/c/) | B2G G2 |[| (A/G/) | Fff fa/g/f/d/ | cAG F>GA |
+| Gg^f gab | g>f=e/f/ d2 || (d//=e//^f//g//) | a2F FAc | fed cBA | BAG (^F>GA/c/) | B2G G2 |]

@@ -1,0 +1,25 @@
+X: 3251
+T: Callan Shiargblas   an old Highland Tune
+%R: air, march
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.25 #1 (top 2 staves continued from p.25)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "Slow"
+K: F
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+(ag) |\
+f2F2 {B}A2GF E2G2-G2 (ag) | f2F2A2c2 f4 {g}f2ed |\
+c2F2 {B}A2GF E2G2-G2A2 | D2EF C2DE {E}F4F2 :| c2 |\
+Tf3g a2f2 {g}f2ed c2c2 | Tf3g (ag).a.b {b}Tg4 c3c |
+(fe).f.g (fg)ab a2!f!d2d2a2 | g2c2 (efg)e {e}Tf4 f2c2 ||\
+Tf3g {fg}a3f {g}f2ed c2c2 | Tf3g (ag)ab {a}Tg4 c3c |\
+Tf>efg (fg)ab (ag)fe (de)fa | g2c2 (efg)e {e}Tf4 f2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |\
+F4f4 c4C4 | F4 f2e2 d2D2 d2cB | A4F4 c4C4 | B4c2C2 F2f2F2 :| z2 | F2f2F2f2 c4e2c2 | f2e2 f2B2 c2c'2 c4 |
+F2f2 f2f2 z2!f!B2B4 | c4C4 F2f2 F4 || F2f2 F2f2 c2c'2 c2e2 | f2c2 f2B2 c2c'2 c4 | F2f2 F2f2 | c2c'2 B2b2| c'4c4 f2c2F2 |]

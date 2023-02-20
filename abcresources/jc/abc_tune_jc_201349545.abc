@@ -1,0 +1,43 @@
+X: 1
+T: Volverton Hall
+T: Wolverton Hall
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.106 #147 (211)
+N: Dance verified with version at http://deriv.nls.uk/dcn30/8975/89752795.30.jpg, where it's called "Wolverton Hall"
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.131
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f |\
+f2c A>GF | Bd2- d>cB | A>Bc A>GF | G2g e>dc |\
+f2c A>GF | Bd2 Ac2 | B>AG G2F | F3- F2 |]
+f/g/ |\
+a>ba g2c | f3 fcf | dBd c>BA | Gg2 g2a | b>ag a2d |\
+g>a g/f/ e>dc | f2g g2f | f3- f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu meet, then fall back and change Places, then the 2d Cu. lead up
+%% into the 1st Cu. Place, then fall back and change Places; the 1st Man being
+%% in the 2d Wo. Place, and the 1st Wo. in the 2d Man's Place, they all four
+%% take hands and turn round 'till each Cu. come into their own Places
+%% again; then 1st and 2d We. take Hands and lead between the two Men
+%% into their Places, and Hands half round, then cast off, the rest doing
+%% the same in like Manner
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man and 1. wo. neet, then fall back and change places, then the 2. man and 2. wo. lead up
+%% into the 1. cu. places, then fall back and change places; the 1. man then being in the 2. wo. place,
+%% and 1. wo. in the 2. man's place, they all four take hands and turn round till each cu. come into
+%% their own places again; then 1. and 2. we. take hands and lead between the two men into their
+%% places, and hands half round, then cast off, the rest doing the same in like manner.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

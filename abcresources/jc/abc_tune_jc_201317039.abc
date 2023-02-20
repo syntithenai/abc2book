@@ -1,0 +1,25 @@
+X: 1
+T: News from Tripoly
+P: Longways for as many as will
+%R: triple hornpipe, minuet
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.334
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/2
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+Bcd2 B2f2 d2B2 | def2 d2g2 f4 | f2 b4 d2 c2B2 | e2G2 cdcB A2F2 |\
+Bcd2 B2f2 d2B2 | def2 d2g2 f4 | f2 b4 a2 bagf | =e2f2 g2=e2 f4 |]
+[|\
+fga2 f2a2 g2f2 | fg_a2 f2_a2 g4 | efg2 e2g2 f2(ed) | c2(cd) edcB c2F2 |\
+ABc2 cAF2 e4 | def2 fdB2 g4 | fga2 af ga bagf | edcB AB cA B4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man cast off, the 2. wo. cast up, then go the Figure of 8 through the other two .| The 2. man
+%% cast off, the 1. wo. cast up and go the Figure as before :| All four hands a-cross and back again, then
+%% Right and Left .| Then lead through the 3. cu. and through the 2. cu. and turn your Partner :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

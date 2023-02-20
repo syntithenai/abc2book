@@ -1,0 +1,21 @@
+X: 2090
+T: WILLIE DUNCAN
+C:
+Q: "Strathspey."
+R: Strathspey.
+%R: strathspey
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+N: This is version 2, for ABC software that understands voice overlays.
+B: James Kerr "Merry Melodies" v.2 p.12 #0090
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The rhythm is incorrect for repeats; not fixed.
+M: C
+L: 1/16
+K: C
+E2 |\
+vCC3C3uG (EC3) E4 | (Dd3) (d3c) (Ad3) (d3f) |\
+ve3vcud3uB vc3vA G4 | (ABc2) (G3E) (Gc3) (ce3) :|
+|:\
+vcc3 c3ua vg3vc e4 | dd3a3d f3d fa3 |\
+x8 "^2nd"d3e c3e & vg3vaue3uf "_1st"d3B c4 |\
+(ABc2) (G3E) (Gc3) (ce3) :|

@@ -1,0 +1,31 @@
+X: 3081
+T: the Miller of Dee
+O:  Very Old.    Adapted for the Harp.
+%R: air, jig
+N: This is version 2, for ABC software that understands diminuendo symbols.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: Niel Gow & Sons "Complete Repository" v.3 p.8 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: Missing :| at end of 1st part; they occur on the other endings, so it was added here.
+N: The bass in 2nd part, bars 1&2 was printed on the treble staff; moved to the bass staff here.
+M: 6/8
+L: 1/8
+Q: "Slow with Expr.n"
+K: Cm
+% - - - - - - - - - -
+V: 1 staves=2
+G |\
+{E}c2c {c}B2G | e2e d2f | (fe).c (ed).=B | [c3G3E3] z2 G |\
+~c>dc {c}T=B>=AG | Te>fe d2g/f/ | {f}e>dc {e}d>c=B| [c3-G3E3] [c2G2E2] :|
+|: !p!e/f/ |\
+g2g g2e | f2f f2d | !f!e>Qdc f2e | qH[e3c3] {fe}H[d2=B2]G |\
+!p!~c>dc {c}T=B>=AG | ~e>fe Hd2 "_sf"g/f/ | Q{f}e>dc {e}d>c=B | q[c3-G3E3] [c2GE2] :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+{CEG}c2c G3 | c2c' b3 | c'2a f2g | ceg c'2z |\
+{ceg}c'3 g3 | c'3 g2=b | c'2a f2g | ceg c'2 :|
+|: z |\
+[g'2e'2][g'e'] [g'3e'3] | [f'2e'2][f'e'] [f'2d'2][=B=B,] | !f!c>Qde f2^f | qHg3 HG2z |\
+!p!{CEG}c2c g3 | c'2c' H[g2b2]"_sf"=B | Qc2A F2G | qCEG c2 :|

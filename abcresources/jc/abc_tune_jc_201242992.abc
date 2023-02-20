@@ -1,0 +1,16 @@
+X:731
+T:Major Riley's
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 73
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+z2|d4-(3dAF (3DFA|d2d2e2f2|e4-(3eBG EGB|e2 E2F2G2|F2AG F2A2|dAfe dcBA|
+^GABc d2G2|A4 z2::z2|A4 {B}A^GAB|c2MA2d2MA2|e2MA2f2MA2|=gfed cAGE|
+D4 {E}DCDE|F2MD2G2MD2|A2MD2B2MD2|=c4 zedc|B4 {c}BAB^c|d4 {e}dcdB|
+AdFB AGEC|D4 z2::[K:G]D2|G4 B>(FG)>E|D4-D>FA>d|A4 =c(^GA)F|D4 D=GFA|
+(G>B) (A/G/F/E/) D>GF>A|G<B (A/G/F/E/) D>GF>A|G>AB>c d2F2|G4 z2::BA|A2AB (cB)(cB)|
+c4 z2Bd|c2Bd c2Bd|c2D2 EGFA|G4 B>FG>E|D4-D>GB>d|e>dc>A F>A (3DEF|G4z2:|

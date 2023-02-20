@@ -1,0 +1,25 @@
+X: 1
+T:Valentine
+M:6/8
+C:
+S:Holy Gr'Ale
+N:as danced by Mayfield Morris \& Sword
+A:Ascott-under-Wychwood
+O:English
+R:Jig
+%:
+%:
+%P:A.(AB$^3$)$^3$.(AC$^3$).A
+P:A.(AB3)3.(AC3).A
+K:G
+I:speed 300
+P:A
+d       | g>fe ede | e>dc cBc       | dBg  dBG  | FAA A2 \
+d       | g>fe ede | e>dc cBc       | dBG  DAF  | GGG G2 ||\
+P:B
+B/2c/2  | d>ed dBd | BGG  G2 A/2B/2 | c>Ac BAG  | FAA A2 \
+B/2c/2  | d>ed dBd | BGG  G2 d      | e>fg d2 c | BGG G2 ||\
+P:C
+B/2c/2  | d>ed dBd | BGG  G2 A/2B/2 |\
+(2cA c3 | (2BA G3  | (2FG (2AB      | A3-A z    \
+B/2c/2  | d>ed dBd | BGG  G2 d      | e>fg d2 c | BGG G2 ||

@@ -1,0 +1,14 @@
+X: 922
+T: the Fancy Fair
+R: hornpipe
+%S: s:3 b:16(5+5+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #922
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0922/oneill-1001-0922-1.abc
+M: 2/4
+L: 1/8
+K: G
+"^A"[|]\
+d>c | (3Bcd c>A B>GA>F | G>BA>F G2(3def | g>ba>f g>ed>B | c>BA>B c>ed>c || B>dc>A B>GA>F | G2 (f<b) (f<b) a>g |
+| (3fag (3fed (3egf (3edc | d>fe>^c d2 "^B":: d>c | (3Bcd g>a b>gd>B | A2(f<a) (f<a) d>c |  (3Bcd g>a b>gd>B |
+| G2(e<g) (e<g) (3def || (3gag (3fed (3gag (3fed | (3gag (3fed d>cB>A | (3Bcd (3gfe d>cB>A | G>BA>F G2 :|

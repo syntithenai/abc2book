@@ -1,0 +1,1699 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 27
+B: RSCDS Book 27
+K:
+%%center Book27/2700-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2701
+T: Miss Murray of Lintrose
+P: Miss Murray of Lintrose
+C:John Bowie of Perth (1784)
+R:Reel (8x32)
+B:RSCDS 27-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:A
+|:e2|"A"c2cB A2E2|"D"F4 "E7"E2d2|"A"c2A2 "E7"B2AG|"A"ABcd e2ed|
+     "A"c2cB A2E2|"D"F4 "E7"E2d2|"A"c2A2 "E7"GABG|"A"A4-A2:|
+|:A2|"A"A2e2 e2de|"D"f2d2 d2cd|"E7"E2d2 d2cd|"A"e2c2 c2BA|
+     "A"A2c2 "D"F2d2|"A"c4 "Bm"B2d2|"E7"c2A2 GABG|"A"A4-A2:|
+%%center Book27/2701-Miss_Murray_of_Lintrose-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2702
+T: Nineteenth of December
+P: Nineteenth of December
+C:Caledonian Country Dances 1754
+R:Jig (8x32)
+B:RSCDS 27-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:A
+e|"A"c2c "A/G#"cBA|"F#m"c2c "E"cBA|"A"Ace aec|"E7"B3-Bed|\
+  "A"c2c "A/G#"cBA|"F#m"edc "E"cBA|
+                                   "A"Ace "F#m"a2a|"E7"bag "A"a2:|\
+B|"A"A2a g2a|c2B A2E|"D"FGA "Bm"d2c|"E"B3-B2 e|
+  "A"e2c efg|"F#m"a2a a2g|"D"f2e "A"c2e|"Bm"f3 "E"e3|\
+  "A"e2c efg|"F#m"a2a a2g|
+                          "D"f2e "A"c2e|"Bm"f3 "E"e>ef/g/|\
+  "A"a2c e2f|c2B A2E|"Bm"FGA "E7"B2 G|"A"A3-A2|]
+%%center Book27/2702-Nineteenth_of_December-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2703
+T: Duchess of York
+P: Lady Stormont's Strathspey
+C:Duncan McKercher
+R:Strathspey (8x32)
+B:RSCDS 27-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:A
+%
+E|"A"A2 A>B "F#m"c>B A>c|"Bm"f>e d>c|"E7"d/c/B/A/ G>B|\
+  "A"A>A A>B "F#m"c>d "A"e>c|"Bm"FB "D7"A/G/F/E/ "A"A2-A E|
+  "A"A2 A>B "F#m"c>B A>c|"Bm"f>e d>c|"E7"d/c/B/A/ G>B|\
+  "A"A,>C E>A "D"((3dfd) "A"((3cec)|"E7"d/c/B/A/ G>B "A"A2 A||
+e|"A"A<A a>e "F#m"c>B A>c|"Bm"f>e d>c "E7"d/c/B/A/ G>B|\
+  "A"A<A a>e c>d e>c|"E7"F>B "E7"A/G/F/E/ "A"A2 A>G|
+  "A"A<A a>e "F#m"c>B A>c|"Bm"f>e d>c "E7"d/c/B/A/ G>B|\
+  "A"((3Ace) ((3aec) "E7"((3fdB) "A"((3ecA)|"E7"d/c/B/A/ G>B "A"A2-A|]
+%%center Book27/2703-Duchess_of_York-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2704
+T: Burns' Hornpipe
+P: Glasgow Hornpipe
+C:Trad.
+R:Reel (4x32)
+B:RSCDS 27-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:G
+BA|"G"GDB,D G2GB|"D"AGAB "D7"c2BA|"G"Ggfg "Em"edcB|"D"c2A2 "D7"A2 BA|
+   "G"GDB,D G2GB|"Am"AGAB "D7"c2BA|"G"Gged "D7"cBAG|"G"B2G2 G2||
+Bc|"G"dgfg edcB|"C"cBce "G/B"dcBA|"G"Ggfg edcB|"D"c2A2 "D7"A2Bc|
+   "G"dBcd "Am"ecde|"D7"fdef "Em"g2fe|"D7"dgfe dcBA|"G"B2G2 G2|]
+%%center Book27/2704-Burns_Hornpipe-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2705
+T: Tayport Beauty
+P: Miss Rose's Fancy
+C:C. MacNab
+R:Jig (8x32)
+B:RSCDS 27-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:A
+E|"A"A2 A ABc|"E"B2 B "E7"Bcd|"A"cea ecA|"E"BcA "E7"GFE|\
+  "A"A2 A ABc|"E7"B2 B Bcd|
+                           "A"cea ecA|"E7"dBG "A"A2:|\
+e|"A"ece "A7/G#"ece|"F#m"efg "A/E"a2 e|"D"fga "A/C#"ecA|"B7"BcB "E"GFE|
+  "A"ece "A7/G#"ece|"F#m"efg "A/E"a>gf|"A"efd "E7"cdB|"A"A3 Acd|\
+  "A"ece ece|efg a2 e|
+                      "D"fda "A"ecA|"B7"BcA "E7"GFE|\
+  "A"a>ga efg|"D"agf "A"cec|"Bm"fdf "A"ecA|"E7"dBG "A"A2|]
+%%center Book27/2705-Tayport_Beauty-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2706
+T: Sally's Fancy
+P: Mrs McLeod of Geastow
+C:Athole Coll.
+R:Strathspey (8x32)
+B:RSCDS 27-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:F
+c/B/|"F"A>F c>F A<c cB/c/|"Gm"d>c B>A "C7"B<G G>B|\
+  "F"A>F c>F A2 c2|"Bb"d>g "C7"cd/e/ "F"f2 f c/B/|
+  "F"A>F c>F A<c cB/c/|"Gm"d>c B>A "C7"B<G G>B|\
+  "F"A>F c>F A2 c2|"Bb"d>g "C7"cd/e/ "F"f2 f||
+g|"F"a>f e>f c>f e>f|"Gm"d<g g>f "C7"e>g c>b|\
+  "F"a>f e>f c>f e>f|"Gm"d>g "C7"cd/e/ "F"f2- f2|
+  "F"c'/a/g/f/ e>f "Bb"d>b "F"c>a|"Gm"B>g "F"A>f "C7"d/c/B/A/ G>B|\
+  "F"A>F c>A "Bb"B/c/d/e/ "Gm"f>g|"F"a>f "C7"e/f/g/e/ "F"f2- f|]
+%%center Book27/2706-Sallys_Fancy-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2707
+T: Round Reel of Eight
+P: Mrs. Anderson's Reel
+C:Robert Mackintosh
+R:Reel (1x88)
+B:RSCDS 27-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:G
+d|"G"g2dc BGdB|"Am"cBAG "D7"FD Df|"G"g2dc BGdB|"Am"ce"D7"dc "G"BGGd|
+  "G"g2dc BGdB|"Am"cBAG "D7"FD Df|"G"g2dc BGdB|"Am"ce"D7"dc "G"BGG||
+c|"G"BGdB "Am"cAec|"G"BgdB "D7"cAAc|"G"BGdB "Am"cAec|"D7"BdAc "G"BGGc|
+  "G"BGdB "Am"cAec|"G"BgdB "D7"cAAc|"G"Bdgb "Am"ceag|"D7"fdef "G"gGG|]
+%%center Book27/2707-Round_Reel_of_Eight-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2708
+T: The Reel of Five
+P: Lord of the Isles
+C:Kerr's Collection
+R:Medley (1x64)
+B:RSCDS 27-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:G
+|:d|"G"g<g d>B G2 G>F|"Am"E<A A>G "D7"F<D D>d|\
+    "G"g<g d>B G2 G>F|"Am"E>A "D7"G/F/E/D/ "G"G2-G:|
+|:B|"G"d>B g>f e>d c>B|"Am"c>A a>g "D7"f<d d>f|\
+    "G"g<g d>B "C"c>d "G"B>G|"Am"E>A "D7"G/F/E/D/ "G"G2-G:|
+P: Miss Caroline Thomson's Reel
+C:Alexander Leburn
+K:C
+|:e|"C"c2ec "G"d2fd|"C"c2ec "G7"dBGB|"C"c2ec "F"cefa|"G7"gfed "C"c2 c:|
+e/f/|"C"gecg "F"afdf|"Am"ecAc "G"BGGf|"C"gecg "F"afdf|"G7"gfed "C"c2 ce/f/|
+     "C"gecg "F"afdf|"Am"ecAc "G"BGGf|\
+                         "G/B"fd "C"ec "G/D"dB GB|"F"Ac"G"Bd "C"c2 c|]
+%%center Book27/2708-Reel_of_Five-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2709
+T: Seann Triubhas Willichan
+P: My Dearie
+C:James Johnstone 1771
+R:Strathspey (8x32)
+B:RSCDS 27-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:G
+BA|"G"G2 D2 "C"DE"G"GB,|"G"D3 E D2 GA|"G"BAGF "Em"EFED|"Am"E2 A2 "D"A2 B2|
+   "G"D3 E G3 B|"Am"AGAB "Bm"d3 e|"G"d2 cB "C"cBAG|"C"E2 G2 "G"G2||
+Bc|"G"d3 e degB|"Am"AGAB "Bm"d2 "D"Bd|"Em"e>fgf "Bm"edBd|"Am"e4-"D7"e2 f2|
+   "G"g2 dc "Em"B2 AG|"Am"A>GAB "Bm"d2 e2|"G"d>egB "C"cBAG|"C"E2 G2 "G"G2|]
+%%center Book27/2709-Seann_Triubhas_Willichan-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2710
+T: La Flora
+P: Miss Jane Douglas
+C:Robert Mackintosh 1796
+R:Jig (8x32)
+B:RSCDS 27-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+|:d/c/|"G"B3 GAB|"Am"A3 EFG|"D"FEF "D7/C"DEF|"G/B"GAB "D7/A"ABc|\
+       "G"BAB GAB|"C"A3 EFG|
+                            "D"FGA "D7"DEF|"G"G3 G2:|\
+B|"G"G2 g gdB|"D7"ABc "G"GAB|"A7"A3 aba|"D"fga "D7"def|
+  "G"G2 g gdB|Bcd "Am"efg|"G"dcB "D7"AGF|"G"G3 G2 B|\
+  "G"G2 g gdB|"Em"Bcd "G/B"GAB|
+                               "Am"A2 a aba|"D"fga "D7/C#"def|\
+  "G/B"gab "D"afd|"Em"efg "Bm"fdB|"Am"edc "D7"BcA|"G"G3 G2|]
+%%center Book27/2710-La_Flora-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2711
+T: Miss Nellie Wemyss
+P: A Scots Measure
+C:Oswald
+R:Reel (8x32)
+B:RSCDS 27-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:G
+dB|"G"G3A B2AG|"C"A2e2 e3g|"G"d3B dBAG|"Am"ABAG "C"E2"D7"DE|
+   "G"G3A B2AG|"C"A2e2 e3f|"G"gaba gedB|"G"d2g2 g2||
+gf|"C"e3d efga|"G"b3a g2G2|"Am"A3B ABcd|"D"e2A2 "D7"A2dc|
+   "G"BABG gedB|"C"ABAG E2GE|"G"D3d "D7"ABcd|"G"B2"D"AG "G"G2|]
+%%center Book27/2711-Miss_Nellie_Wemyss-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2712
+T: Auld Lang Syne
+P: James O. Forbes of Corse
+C:P. Milne
+R:Strathspey (8x32)
+B:RSCDS 27-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+%
+G|"D"F>A D>F "Em"G>B "Am"E>G|"D"F<A B>c "Bm"d3 c|\
+  "G"B>d "D/F#"A>d "Em"G>d "D"F>d|"Em"E<e e>d "A7"c/d/c/B/ A/B/A/G/|
+  "D"F>A D>F "Em"G>B "Am"E>G|"D"F<A f>e "Bm"d3 c|\
+  "G"B>d "D/F#"A>d "Em"G>d "D"F>G|"A"F>D E>C "D"D2- D||
+g|"D"f/g/a/g/ f<d "G"B>d g>b|"D"A<d f>a "A7"A<c e>g|\
+  "D"f/g/a/g/ "D7"f>d "G"B<dg>b|"D"a<d "A7"f>e "D"d2 d>g|
+  "D"f/g/a/g/ f>d "G"B>d g>b|"D"A<d f>a "A7"A>c e>g|\
+  "D"(3fed "A7"(3cde "Bm"(3dAG "D"(3FGA|"Em"(3Bcd "A7"(3cde "D"f<d d|]
+%%center Book27/2712-Auld_Lang_Syne-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 27011
+T: Miss Murray of Lintrose
+R: march
+S: John Bowie of Perth, 1784
+B: RSCDS 27-1
+M: 2/4
+L: 1/16
+%--------------------
+K: A
+   ed \
+| "A"c2cB A2E2 | "D"F4 "E7"E2d2 | "A"c2A2 "E7"B2AG | "A"ABcd "E7"e2ed \
+| "A"c2cB A2E2 | "D"F4 "E7"E2d2 | "A"c2A2 "E7"GABG | "A"A4 z2 :|
+|: cB \
+| "A"A2e2 e2de | "D"f2d2 d2cd | "E7"E2d2 d2cd | "A"e2c2 c2BA \
+| E2c2 "D"F2d2 | "A"c4 "E7"B2d2 | "A"c2A2 "E7"GABG | "A"A4 z2 :|
+%%center Book27/27011-Miss_Murray_of_Lintrose-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 27021
+T: The Nineteenth of December
+R: jig
+B: RSCDS 27-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Caledonian Country Dances 1754
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+ e \
+|: "A"c2c cBA | c2c cBA | Ace aec | "E7"B3- Bed \
+|  "A"c2c cBA | edc cBA | Ace "F#m"a2a | "E7"bag "A"a3 :|
+|| "A"A2a g2a | c2B A2E | "D"FGA "Bm"d2c | "E7"B3- B2e \
+|  "A"e2c efg | "F#m"a2a a2g | "D"f2e "A"c2e | "Bm"f3 "E7"e3 |
+|  "A"e2c efg | "F#m"a2a a2g | "D"f2e "A"c2e | "Bm"f3 "E7"e>ef/g/ \
+|  "A"a2c e2f | c2B A2E | "Bm"FGA "E7"B2G | "A"A3- A3 |]
+%%center Book27/27021-Nineteenth_of_December-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 27031
+T: Lady Storment's Strathspey
+C: Duncan MacKercher
+R: strathspey
+B: RSCDS 27-3
+M: C
+L: 1/8
+%--------------------
+K: A
+E \
+| "A"A2 A>B "F#m"c>B A>c \
+| "Bm"f>e d>c "E7"d/c/B/A/ G>B \
+| "A"A>A A>B "F#m"c>d e>c \
+| "Bm"F>B "E7"A/G/F/E/ "A"A3 ||
+E \
+| "A"A2 A>B "F#m"c>B A>c \
+| "Bm"f>e d>c "E7"d/c/B/A/ G>B \
+| "A"A,>C E>A "D"(3dfd "A"cec \
+| "E7"d/c/B/A/ G>B "A"A3 |]
+e \
+| "A"A<A a>e "F#m"c>B A>c \
+| "Bm"f>e d>c "E7"d/c/B/A/ G>B \
+| "A"A<A a>e c>d e>c \
+| "Bm"F>B "E7"A/G/F/E/ "A"A3 ||
+e \
+| "A"A<A a>e "F#m"c>B A>c \
+| "Bm"f>e d>c "E7"d/c/B/A/ G>B \
+| "A"((3Ace) ((3aec) "D"((3fdB) "A/C#"((3ecA) \
+| "Bm"d/c/B/A/ "E7"G>B "A"A3 |]
+%%center Book27/27031-Lady_Storments_Strathspey-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 27041
+T: Glasgow Hornpipe
+R: reel
+B: RSCDS 27-4
+O: Hill Manuscript (Aberdeen) 1841
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: G
+BA \
+| "G"GDB,D "(Em)"G2GB | "Am"AGAB "D7"c2BA | "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2BA |
+| "G"GDB,D "(Em)"G2GB | "Am"AGAB "D7"c2BA | "G"Gged "D7"cBAG | "G"B2G2 G2 :|
+|: Bc \
+| "G"dgfg "Em"edcB | "Am"cBce "D7"dcBA | "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2Bc |
+| "G"dBcd "C"ecde | "D7"fdef "Em"g2fe | "D7"dgfe dcBA | "G"B2G2 G2 :|
+%%center Book27/27041-Glasgow_Hornpipe-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 27041
+T: Glasgow Hornpipe
+R: reel
+B: RSCDS 27-4
+O: Hill Manuscript (Aberdeen) 1841
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: G
+BA | "G"GDB,D "(Em)"G2GB | "Am"AGAB "D7"c2BA \
+| "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2BA | "G"GDB,D "(Em)"G2GB |
+| "Am"AGAB "D7"c2BA | "G"Gged "D7"cBAG | "G"B2G2 G2 :: Bc \
+| "G"dgfg "Em"edcB | "Am"cBce "D7"dcBA |
+| "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2Bc | "G"dBcd "C"ecde \
+| "D7"fdef "Em"g2fe | "D7"dgfe dcBA | "G"B2G2 G2 :|
+%%center Book27/27041-Glasgow_Hornpipe-10.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 27041
+T: Glasgow Hornpipe
+R: reel
+B: RSCDS 27-4
+O: Hill Manuscript (Aberdeen) 1841
+Z: 2006 by John Chambers <jc:trillian.mit.edu>
+S: handwritten MS possibly from Ed Pearlman
+M: C|
+L: 1/8
+%--------------------
+K: Bb
+dc \
+| "Bb"BFDF "(Gm)"B2Bd | "Cm"cBcd "F7"e2dc | "Bb"Bbab "Gm"gfed | "Cm"e2c2 "F7"c2dc |
+| "Bb"BFDF "(Gm)"B2Bd | "Cm"cBcd "F7"e2dc | "Bb"Bbgf "F7"edcB | "Bb"d2B2 B2 :|
+|: de \
+| "Bb"fbab "Gm"gfed | "Cm"edeg "F7"fedc | "Bb"Bbab "Gm"gfed | "Cm"e2c2 "F7"c2de |
+| "Bb"fdef "Eb"gefg | "F7"afga "Gm"b2ag | "Bb"fbag "F7"fedc | "Bb"d2B2 B2 :|
+%%center Book27/27041-Glasgow_Hornpipe-6.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 27051
+T: Miss Rose's Fancy
+C: C.MacNab
+R: jig
+B: RSCDS 27-5
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+|: E \
+| "A"A2A ABc | "E7"B2B Bcd | "A"cea ecA | "E7"BcA GFE \
+| "A"A2A ABc | "E7"B2B Bcd | "A"cea ecA | "E7"dBG "A"A2 :|
+|| e \
+| "A"ece "/G"ece | "/F"efg "A"a2e | "D"fga "A"ecA | "B7"BcA GFE \
+| "A"ece "/G"ece | "/F"efg "A"a>gf | efd "E7"cdB | "A"A3 Acd |
+| "A"ece ece | efg a2e | "D"fda "A"ecA | "B7"BcA GFE \
+| "A"a>ga efg | "D"agf "A"ece | "Bm"fdf "A"ecA | "E7"dBG "A"A2 |]
+%%center Book27/27051-Miss_Roses_Fancy-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 27051
+N: Round Reel of Eight
+N: 88R set 4C (RSCDS Book 27 - 5 x 16 + 8)
+T: Mrs. Anderson's Reel
+C: by Robert Mackintosh
+C: arr. T. Traub 6-26-2007
+L: 1/8
+M: 4/4
+R: Reel
+%--------------------
+K: G
+|: d|"G"g2 dc BGdB|"C"cBAG "D"FDDf|"G"g2 dg BGdB|"D"cedc "G"BG G :|
+c|"G"BGdB "Am"cAec|"G"BgdB "D"cAAc|"G"BGdB "Am"cAec|"D"BdAc "G"BGGc|
+"G"BGdB "Am"cAec|"G"BgdB "D"cAAc|"G"Bdgb "C"ceag|"D"fdef "G"gG G |]
+%%center Book27/27051-Mrs_Andersons_Reel.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 27061
+T: Mrs. McLeod of Geaston
+O: Athole Collection
+R: strathspey
+B: RSCDS 27-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+%--------------------
+K: F
+|| c/B/ \
+| "F"A>F c>F A<c cB/c/ | "Gm"d>c B>A "C7"B<G G>B \
+| "F"A>F c>F A2 c2 | "Bb"d>g "C7"cd/e/ "F"f2 f :|
+|| g \
+| "F"a>f e>f c>f e>f | "Gm"d<g g>f "C7"e>g c>b \
+| "F"a>f e>f c>f e>f | "Gm"d>g "C7"cd/e/ "F"f2- f2 |
+| "F"c'/a/g/f/ e>f "Bb"d>b "F"c>a | "Gm"B>g "F"A>f "C7"d/c/B/A/ G>B \
+| "F"A>F c>A "Bb"B/c/d/e/ "Gm"f>g | "F"a>f "C7"e/f/g/e/ "F"f2- f |]
+%%center Book27/27061-Mrs_McLeod_of_Geaston-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 27071
+T: Mrs. Anderson's Reel
+C: Robert Mackintosh
+R: reel
+B: RSCDS 27-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: G
+d | "G"g2dc     BGdB | "Am"cBAG "D7"FDDf | "G"g2dc     BGdB | "Am"ce"D7"dc "G"BGG :|
+c | "G"BGdB "Am"cAec |  "G"BgdB "D7"cAAc | "G"BGdB "Am"cAec | "D7"BdAc     "G"BGG ||
+c | "G"BGdB "Am"cAec |  "G"BgdB "D7"cAAc | "G"Bdgb "Am"ceag | "D7"fdef     "G"gGG |]
+%%center Book27/27071-Mrs_Andersons_Reel-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 27081
+T: John McAlpin
+T: 8x32S3
+O: Hugh Foss
+B: The Galloway Album
+N: Original tune: John M(a)cAlpin(e)
+R: strathspey
+%--------------------
+K:
+P: John M(a)cAlpin(e)
+O: trad Scotland
+R: strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+N: All four variants of the name are seen in various publications.
+N: The tune dates to at least 1884 (Athole Coll.), and may be much older.
+N: It is well-known in Scotland and Ireland as a march, song, polka and strathspey.
+M: 4/4
+L: 1/8
+K: A
+|: A/B/ \
+| "A"c2 c>B "D"A-<F F>A | "A"E>F A>B "E7"c-<B BA/B/ \
+| "A"c2 c>B "D"A-<F F>A | "A"E>A e>c "E7"B2 "A"A :|
+|: d \
+| "A"c-<e e>f        e>f a>f |       e-<c c>a  e-<c "E7"B2 \
+| "A"c-<e e>f "(F#m)"e>f a>f | "(Bm)"e-<c c>A "E7"B2 "A"A :|
+P: Lochnagar Strathspey
+B: Kerr's Violin #2
+Z: John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: 4/4
+L: 1/8
+K: D
+A>F \
+| "D"D2 D>F A2 A>B | "D"d>e f>e e-<d d>B | "D"A>B d>B "Bm"A-<F F>D \
+|1 "Em"E>D E-<F "A7"E2 :|2 "A7"E>D E-<F "D"D2 |]
+yA2 \
+| "D"d2 f>e e-<d d>A | "G"B2 d>B "D"B-<A F>G \
+| "D"A-<F E>D "Bm"D-<d d>B | "Em"A-<F F>D "A7"E2 |]
+f>g \
+| "D"a>g f>e f-<d d>e | "G"f>e d>B "A7"A2 F>G \
+| "D"A2 B>A "Bm"A2 a>g | "Em"f2 "A7"e>d "D"d2 |]
+%
+P: Lord of the Isles
+R: strathspey
+B: RSCDS 27-8(a)
+O: Kerr's Collection
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+   d \
+| "G"g<g d>B "Em"G2 G>F | "Am"E<A A>G "D7"F<D D>d \
+| "G"g<g d>B "Em"G2 G>F | "Am"E>A "D7"G/F/E/D/ "G"G2- G :|
+|: B \
+| "G"d>B g>f "Em"e>d c>B | "Am"c<A a>g "D7"f<d d>f \
+| "G"g<g d>B "C"c>d "G"B>G | "Am"E>A "D7"G/F/E/D/ "G"G2- G :|
+%
+P: The Banks of Spey
+C: William Marshall
+N: Caledonian Companion p.88.
+N: Wm. Marshall p.48; Hardie p.88; SFT p.3; BSFC II-21
+N: played by Ed Pearlman on BH 4A; Dancing Strings tape Siegal/Payne
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: ADor
+E | "Am"{E}[A2A] A>B A>B c>e | "G"d<c B->A ~G3 E \
+  | "Am"[A2A] A>B A>B c>d | "C"e<c d->e "G"~g4 |
+y | "Am"a>g e-<c d<e g-<a | "Em"e-<g g>B "G"~G3 B \
+  | "Am"A-<E A>B "(F)"c>d e-<g | "Dm"e-<d "E7"c>B "Am"A3 |]
+c | "Am"A-<E A>c A-<E A>c | "G"B>c d>{c}B {A}~G3 B \
+  | "Am"A-<E A>c A-<E c>d | "C"e>c d-<e "G"~g4 |
+y | "Am"a>g e-<c d<e g-<a | "Em"e-<g g>B "G"~G3 B \
+  | "Am"A-<E A>B "(F)"c>d e-<g | "Dm"e-<d "E7"c>B "Am"A3 |]
+%%center Book27/27081-John_McAlpin.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 27081
+T: Lord of the Isles
+R: strathspey
+B: RSCDS 27-8(a)
+O: Kerr's Collection
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: G
+   d \
+| "G"g<g d>B "Em"G2 G>F | "Am"E<A A>G "D7"F<D D>d \
+| "G"g<g d>B "Em"G2 G>F | "Am"E>A "D7"G/F/E/D/ "G"G2- G :|
+|: B \
+| "G"d>B g>f "Em"e>d c>B | "Am"c<A a>g "D7"f<d d>f \
+| "G"g<g d>B "C"c>d "G"B>G | "Am"E>A "D7"G/F/E/D/ "G"G2- G :|
+%%center Book27/27081-Lord_of_the_Isles-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 27082
+T: Miss Caroline Thomson's Reel
+C: Alexander Lebrune
+R: reel
+B: RSCDS 27-8(b)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K:C
+|: e | "C"c2ec "G7"d2fd | "C"c2ec "G7"dBGB | "C"c2ec "F"cefa | "G7"gfed "C"c2c :|
+e/f/ | "C"gecg "F"afdf | "Am"ecAc "G7"BGGf | "C"gecg "F"afdf | "G7"gfed "C"c2c |
+e/f/ | "C"gecg "F"afdf | "Am"ecAc "G7"BGGe | fd"C"ec "G7"dBGB | "F"Ac"G7"Bd "C"c2c |]
+%%center Book27/27082-Miss_Caroline_Thomsons_Reel-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+N: Seann Truibhas Willichan
+N: 8x32S 2C (RSCDS Book 27 dance 9)
+T: My Dearie
+C: James Johnstone 1771
+C: arr. T. Traub 12-24-98
+R: Reel
+M: 4/4
+K: G
+L: 1/8
+BA |\
+"G"G2 D2 "D"D>EGB, | "G"D3 E D2 GA |\
+"G"BAGF "Em"E>FED | "Am"E2 A2 "D"A2 B2 |\
+"G"D3 E "Em"G3 B |
+"Am"A>GAB "Bm"d3 e |\
+"G"d2 c>B "C"cB"Am"AG | "C"E2 G2 "G"G2 "D7"Bc ||\
+"G"d3 e "Em"degB |\
+"Am"AGAB "Bm"d2 Bd |
+"Em"e>fgf edBd | "C"e6 "D"f2 |\
+"G"g2 dc"Em"B2 AG | "Am"A>GAB "Bm"d3e |\
+"G"d>e"Em"gB "Am"cB"D"AG | "C"E2 G2 "G"G2 |]
+%%center Book27/27091-My_Dearie.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 27101
+T: Miss Jane Douglas
+C: Robert Mackintosh 1796
+R: jig
+B: RSCDS 27-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+d/c/ \
+| "G"B3 GAB | "Am"A3 EFG | "D7"FEF DEF | "G"GAB "D7"ABc \
+| "G"B3 GAB | "Am"A3 EFG | "D7"FEF DEF | "G"G3 G2 :|
+B \
+| "G"G2g gdB | "D7"ABc "G"GAB | "A7"A3 aba | "D"fga "D7"def \
+| "G"G2g gdB | Bcd "C"efg | "G"dcB "D7"AGF | "G"G3 G2 ||
+B \
+| "G"G2g gdB | "Em"Bcd GAB | "Am"A2a aba | "D"fga "D7"def \
+| "G"gab "D"afd | "Em"efg "Bm"fdB | "Am"edc "D7"BcA | "G"G3- G2 |]
+%%center Book27/27101-Miss_Jane_Douglas-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 27101
+T: Miss Jane Douglas
+R: jig
+B: RSCDS 27-10
+C: Robert Mackintosh, 1796
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+|: d/c/ \
+| "G"B3 GAB | "Am"A3 EFG | "D7"FEF DEF | "G"GAB "D7"ABc \
+| "G"B3 GAB | "Am"A3 EFG | "D7"FEF DEF | "G"G3 G2 :|
+|| B \
+| "G"G2g gdB | "D7"ABc "G"GAB | "A7"A3 aba | "D"fga "D7"def \
+| "G"G2g gdB | Bcd "C"efg | "G"dcB "D7"AGF | "G"G3 G2 ||
+|| B \
+| "G"G2g gdB | "Em"Bcd GAB | "Am"A2a aba | "D"fga "D7"def \
+| "G"gab "D"afd | "Em"efg "Bm"fdB | "Am"edc "D7"BcA | "G"G3- G2 |]
+%%center Book27/27101-Miss_Jane_Douglas.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 27111
+T: Miss Nellie Wemyss
+R: Scots measure
+B: RSCDS 27-11
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+dB | "G"G3A B2AG | "C"A2e2 e3g | "G"d3B dBAG | "Am"ABAG "C"E2"D7"DE | "G"G3A B2AG |
+| "C"A2e2 e3f | "G"gaba gedB | "G"d2g2 g2 || gf | "C"e3d efga | "G"b3ag2G2 |
+| "Am"A3B ABcd | e2A2 "D7"A2dc | "G"BABG gedB | "C"ABAG E2GE | "G"D3d "D7"ABcd | "G"B2"D"AG "G"G2 |]
+%%center Book27/27111-A_Scots_Measure-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 27121
+T: James O. Forbes of Corse
+C: P.Milne
+B: RSCDS 27-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: D
+G \
+| "D"F>A D>F "Em"G>B "Am"E>G | "D"F<A B>c "Bm"d3 c \
+| "G"B>d "D"A>d "Em"G>d "D"F>d | "Em"E<e e>d "A7"c/d/c/B/ A/B/A/G/ |
+| "D"F>A D>F "Em"G>B "Am"E>G | "D"F<A f>e "Bm"d2 c \
+| "G"B>d "D"A>d "Em"G>d "D"F>G | "A7"F>D E>C "D"D2- D ||
+|| g \
+| "D"f/g/a/g/ f<d "G"B>d g>b | "D"A<d f>a "A7"A<c e>g \
+| "D"f/g/a/g/ "D7"f>d "G"B<d g>b | "D"a<d "A7"f>e "D"d2 d>g |
+| "D"f/g/a/g/ f>d "G"B>d g>b | "D"A<d f>a "A7"A<c e>g \
+| "D"(3fed "A7"(3cde "Bm"(3dAG "D"(3FGA | "Em"(3Bcd "A7"(3cde "D"f<d d |]
+%%center Book27/27121-James_O_Forbes_of_Corse-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 27121
+T: James O. Forbes of Corse
+C: P.Milne
+B: RSCDS 27-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: D
+G \
+| "D"F<A D>F "Em"G<B E>G | "F#m"F<A B>c "G"d3 c \
+| "G"B>d "D"A>d "G"G>d "D"F>d | "Em"E<e e>d "A7"c/d/c/B/ A/B/A/G/ |
+| "D"F<A D>F "Em"G<B "Am"E>G | "F#m"F<A f>e "G"d3 c \
+| "G"B>d "D"A>d "G"G>d "D"F>G | "A7"F>D E>C "D"D2- D ||
+g \
+| "D"f/g/a/g/ f>d "G"B<d g>b | "D"A<d f>a "A7"A<c e>g \
+| "D"f/g/a/g/ "D7"f>d "G"B<d g>b | "D"a<d "A7"f>e "D"d2 d>g |
+| "D"f/g/a/g/ f>d "G"B<d g>b | "D"A<d f>a "A7"A<c e>g \
+| "D"(3fed "A7"(3cde "Bm"(3dAG "D"(3FGA | "Em"(3Bcd "A7"(3cde "D"f<d d |]
+%%center Book27/27121-James_O_Forbes_of_Corse-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mrs. Anderson's Reel
+C: Robert Mackintosh
+R: reel
+B: RSCDS 27-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+d | "G"g2dc     BGdB | "Am"cBAG "D7"FDDf | "G"g2dc     BGdB | "Am"ce"D7"dc "G"BGG :|
+c | "G"BGdB "Am"cAec |  "G"BgdB "D7"cAAc | "G"BGdB "Am"cAec | "D7"BdAc     "G"BGG ||
+c | "G"BGdB "Am"cAec |  "G"BgdB "D7"cAAc | "G"Bdgb "Am"ceag | "D7"fdef     "G"gGG |]
+%%center Book27/AndersonsR-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mrs. Anderson's Reel
+C: Robert Mackintosh
+R: reel
+B: RSCDS 27-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+d | "G"g2dc     BGdB | "Am"cBAG "D7"FDDf | "G"g2dc     BGdB | "Am"ce"D7"dc "G"BGG :|
+c | "G"BGdB "Am"cAec |  "G"BgdB "D7"cAAc | "G"BGdB "Am"cAec | "D7"BdAc     "G"BGG ||
+c | "G"BGdB "Am"cAec |  "G"BgdB "D7"cAAc | "G"Bdgb "Am"ceag | "D7"fdef     "G"gGG |]
+%%center Book27/AndersonsR_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mrs. Anderson's Reel
+C: Robert Mackintosh
+R: reel
+B: RSCDS 27-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+d | "G"g2dc     BGdB | "Am"cBAG "D7"FDDf | "G"g2dc     BGdB | "Am"ce"D7"dc "G"BGG :|
+c | "G"BGdB "Am"cAec |  "G"BgdB "D7"cAAc | "G"BGdB "Am"cAec | "D7"BdAc     "G"BGG ||
+c | "G"BGdB "Am"cAec |  "G"BgdB "D7"cAAc | "G"Bdgb "Am"ceag | "D7"fdef     "G"gGG |]
+%%center Book27/AndersonsR_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: James O. Forbes of Corse
+C: P.Milne
+B: RSCDS 27-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+G \
+| "D"F>A D>F "Em"G>B "Am"E>G | "D"F<A B>c "Bm"d3 c \
+| "G"B>d "D"A>d "Em"G>d "D"F>d | "Em"E<e e>d "A7"c/d/c/B/ A/B/A/G/ |
+| "D"F>A D>F "Em"G>B "Am"E>G | "D"F<A f>e "Bm"d2 c \
+| "G"B>d "D"A>d "Em"G>d "D"F>G | "A7"F>D E>C "D"D2- D ||
+|| g \
+| "D"f/g/a/g/ f<d "G"B>d g>b | "D"A<d f>a "A7"A<c e>g \
+| "D"f/g/a/g/ "D7"f>d "G"B<d g>b | "D"a<d "A7"f>e "D"d2 d>g |
+| "D"f/g/a/g/ f>d "G"B>d g>b | "D"A<d f>a "A7"A<c e>g \
+| "D"(3fed "A7"(3cde "Bm"(3dAG "D"(3FGA | "Em"(3Bcd "A7"(3cde "D"f<d d |]
+%%center Book27/AuldLangSyneS-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: James O. Forbes of Corse
+C: P.Milne
+B: RSCDS 27-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+G \
+| "D"F>A D>F "Em"G>B "Am"E>G | "D"F<A B>c "Bm"d3 c \
+| "G"B>d "D"A>d "Em"G>d "D"F>d | "Em"E<e e>d "A7"c/d/c/B/ A/B/A/G/ |
+| "D"F>A D>F "Em"G>B "Am"E>G | "D"F<A f>e "Bm"d2 c \
+| "G"B>d "D"A>d "Em"G>d "D"F>G | "A7"F>D E>C "D"D2- D ||
+|| g \
+| "D"f/g/a/g/ f<d "G"B>d g>b | "D"A<d f>a "A7"A<c e>g \
+| "D"f/g/a/g/ "D7"f>d "G"B<d g>b | "D"a<d "A7"f>e "D"d2 d>g |
+| "D"f/g/a/g/ f>d "G"B>d g>b | "D"A<d f>a "A7"A<c e>g \
+| "D"(3fed "A7"(3cde "Bm"(3dAG "D"(3FGA | "Em"(3Bcd "A7"(3cde "D"f<d d |]
+%%center Book27/AuldLangSyneS_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: James O. Forbes of Corse
+C: P.Milne
+B: RSCDS 27-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+G \
+| "D"F>A D>F "Em"G>B "Am"E>G | "D"F<A B>c "Bm"d3 c \
+| "G"B>d "D"A>d "Em"G>d "D"F>d | "Em"E<e e>d "A7"c/d/c/B/ A/B/A/G/ |
+| "D"F>A D>F "Em"G>B "Am"E>G | "D"F<A f>e "Bm"d2 c \
+| "G"B>d "D"A>d "Em"G>d "D"F>G | "A7"F>D E>C "D"D2- D ||
+|| g \
+| "D"f/g/a/g/ f<d "G"B>d g>b | "D"A<d f>a "A7"A<c e>g \
+| "D"f/g/a/g/ "D7"f>d "G"B<d g>b | "D"a<d "A7"f>e "D"d2 d>g |
+| "D"f/g/a/g/ f>d "G"B>d g>b | "D"A<d f>a "A7"A<c e>g \
+| "D"(3fed "A7"(3cde "Bm"(3dAG "D"(3FGA | "Em"(3Bcd "A7"(3cde "D"f<d d |]
+%%center Book27/AuldLangSyneS_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Caroline Thomson's Reel
+C: Alexander Lebrune
+R: reel
+B: RSCDS 27-8(b)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K:C
+|: e | "C"c2ec "G7"d2fd | "C"c2ec "G7"dBGB | "C"c2ec "F"cefa | "G7"gfed "C"c2c :|
+e/f/ | "C"gecg "F"afdf | "Am"ecAc "G7"BGGf | "C"gecg "F"afdf | "G7"gfed "C"c2c |
+e/f/ | "C"gecg "F"afdf | "Am"ecAc "G7"BGGe | fd"C"ec "G7"dBGB | "F"Ac"G7"Bd "C"c2c |]
+%%center Book27/CarolineThomsonsR-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Caroline Thomson's Reel
+C: Alexander Lebrune
+R: reel
+B: RSCDS 27-8(b)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K:C
+|: e | "C"c2ec "G7"d2fd | "C"c2ec "G7"dBGB | "C"c2ec "F"cefa | "G7"gfed "C"c2c :|
+e/f/ | "C"gecg "F"afdf | "Am"ecAc "G7"BGGf | "C"gecg "F"afdf | "G7"gfed "C"c2c |
+e/f/ | "C"gecg "F"afdf | "Am"ecAc "G7"BGGe | fd"C"ec "G7"dBGB | "F"Ac"G7"Bd "C"c2c |]
+%%center Book27/CarolineThomsonsR_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Caroline Thomson's Reel
+C: Alexander Lebrune
+R: reel
+B: RSCDS 27-8(b)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K:C
+|: e | "C"c2ec "G7"d2fd | "C"c2ec "G7"dBGB | "C"c2ec "F"cefa | "G7"gfed "C"c2c :|
+e/f/ | "C"gecg "F"afdf | "Am"ecAc "G7"BGGf | "C"gecg "F"afdf | "G7"gfed "C"c2c |
+e/f/ | "C"gecg "F"afdf | "Am"ecAc "G7"BGGe | fd"C"ec "G7"dBGB | "F"Ac"G7"Bd "C"c2c |]
+%%center Book27/CarolineThomsonsR_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Glasgow Hornpipe
+R: reel
+B: RSCDS 27-4
+O: 1841
+S: Hill Manuscript (Aberdeen) 1841
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+BA \
+| "G"GDB,D "(Em)"G2GB | "Am"AGAB "D7"c2BA | "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2BA |
+| "G"GDB,D "(Em)"G2GB | "Am"AGAB "D7"c2BA | "G"Gged "D7"cBAG | "G"B2G2 G2 :|
+|: Bc \
+| "G"dgfg "Em"edcB | "Am"cBce "D7"dcBA | "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2Bc |
+| "G"dBcd "C"ecde | "D7"fdef "Em"g2fe | "D7"dgfe dcBA | "G"B2G2 G2 :|
+%%center Book27/GlasgowH-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Glasgow Hornpipe
+R: reel
+B: RSCDS 27-4
+O: 1841
+S: Hill Manuscript (Aberdeen) 1841
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+BA \
+| "G"GDB,D "(Em)"G2GB | "Am"AGAB "D7"c2BA | "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2BA |
+| "G"GDB,D "(Em)"G2GB | "Am"AGAB "D7"c2BA | "G"Gged "D7"cBAG | "G"B2G2 G2 :|
+|: Bc \
+| "G"dgfg "Em"edcB | "Am"cBce "D7"dcBA | "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2Bc |
+| "G"dBcd "C"ecde | "D7"fdef "Em"g2fe | "D7"dgfe dcBA | "G"B2G2 G2 :|
+%%center Book27/GlasgowH_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Glasgow Hornpipe
+R: reel
+B: RSCDS 27-4
+O: 1841
+S: Hill Manuscript (Aberdeen) 1841
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+BA \
+| "G"GDB,D "(Em)"G2GB | "Am"AGAB "D7"c2BA | "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2BA |
+| "G"GDB,D "(Em)"G2GB | "Am"AGAB "D7"c2BA | "G"Gged "D7"cBAG | "G"B2G2 G2 :|
+|: Bc \
+| "G"dgfg "Em"edcB | "Am"cBce "D7"dcBA | "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2Bc |
+| "G"dBcd "C"ecde | "D7"fdef "Em"g2fe | "D7"dgfe dcBA | "G"B2G2 G2 :|
+%%center Book27/GlasgowH_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Glasgow Hornpipe
+R: reel
+B: RSCDS 27-4
+O: 1841
+S: Hill Manuscript (Aberdeen) 1841
+Z: 2006 by John Chambers <jc:trillian.mit.edu>
+S: handwritten MS possibly from Ed Pearlman
+M: C|
+L: 1/8
+K: Bb
+dc \
+| "Bb"BFDF "(Gm)"B2Bd | "Cm"cBcd "F7"e2dc | "Bb"Bbab "Gm"gfed | "Cm"e2c2 "F7"c2dc |
+| "Bb"BFDF "(Gm)"B2Bd | "Cm"cBcd "F7"e2dc | "Bb"Bbgf "F7"edcB | "Bb"d2B2 B2 :|
+|: de \
+| "Bb"fbab "Gm"gfed | "Cm"edeg "F7"fedc | "Bb"Bbab "Gm"gfed | "Cm"e2c2 "F7"c2de |
+| "Bb"fdef "Eb"gefg | "F7"afga "Gm"b2ag | "Bb"fbag "F7"fedc | "Bb"d2B2 B2 :|
+%%center Book27/GlasgowHornpipe_Bb-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Glasgow Hornpipe
+R: reel
+B: RSCDS 27-4
+O: 1841
+S: Hill Manuscript (Aberdeen) 1841
+Z: 2006 by John Chambers <jc:trillian.mit.edu>
+S: handwritten MS possibly from Ed Pearlman
+M: C|
+L: 1/8
+K: Bb
+dc \
+| "Bb"BFDF "(Gm)"B2Bd | "Cm"cBcd "F7"e2dc | "Bb"Bbab "Gm"gfed | "Cm"e2c2 "F7"c2dc |
+| "Bb"BFDF "(Gm)"B2Bd | "Cm"cBcd "F7"e2dc | "Bb"Bbgf "F7"edcB | "Bb"d2B2 B2 :|
+|: de \
+| "Bb"fbab "Gm"gfed | "Cm"edeg "F7"fedc | "Bb"Bbab "Gm"gfed | "Cm"e2c2 "F7"c2de |
+| "Bb"fdef "Eb"gefg | "F7"afga "Gm"b2ag | "Bb"fbag "F7"fedc | "Bb"d2B2 B2 :|
+%%center Book27/GlasgowHornpipe_Bb_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Glasgow Hornpipe
+R: reel
+B: RSCDS 27-4
+O: 1841
+S: Hill Manuscript (Aberdeen) 1841
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+BA \
+| "G"GDB,D "(Em)"G2GB | "Am"AGAB "D7"c2BA | "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2BA |
+| "G"GDB,D "(Em)"G2GB | "Am"AGAB "D7"c2BA | "G"Gged "D7"cBAG | "G"B2G2 G2 :|
+|: Bc \
+| "G"dgfg "Em"edcB | "Am"cBce "D7"dcBA | "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2Bc |
+| "G"dBcd "C"ecde | "D7"fdef "Em"g2fe | "D7"dgfe dcBA | "G"B2G2 G2 :|
+%%center Book27/GlasgowHornpipe_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Glasgow Hornpipe
+R: reel
+B: RSCDS 27-4
+O: 1841
+S: Hill Manuscript (Aberdeen) 1841
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+BA \
+| "G"GDB,D "(Em)"G2GB | "Am"AGAB "D7"c2BA | "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2BA |
+| "G"GDB,D "(Em)"G2GB | "Am"AGAB "D7"c2BA | "G"Gged "D7"cBAG | "G"B2G2 G2 :|
+|: Bc \
+| "G"dgfg "Em"edcB | "Am"cBce "D7"dcBA | "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2Bc |
+| "G"dBcd "C"ecde | "D7"fdef "Em"g2fe | "D7"dgfe dcBA | "G"B2G2 G2 :|
+%%center Book27/GlasgowHornpipe_G_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Glasgow Hornpipe
+R: reel
+B: RSCDS 27-4
+O: 1841
+S: Hill Manuscript (Aberdeen) 1841
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+BA \
+| "G"GDB,D "(Em)"G2GB | "Am"AGAB "D7"c2BA | "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2BA |
+| "G"GDB,D "(Em)"G2GB | "Am"AGAB "D7"c2BA | "G"Gged "D7"cBAG | "G"B2G2 G2 :|
+|: Bc \
+| "G"dgfg "Em"edcB | "Am"cBce "D7"dcBA | "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2Bc |
+| "G"dBcd "C"ecde | "D7"fdef "Em"g2fe | "D7"dgfe dcBA | "G"B2G2 G2 :|
+%%center Book27/GlasgowHornpipe_G_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Glasgow Hornpipe
+R: reel
+B: RSCDS 27-4
+O: 1841
+S: Hill Manuscript (Aberdeen) 1841
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+BA \
+| "G"GDB,D "(Em)"G2GB | "Am"AGAB "D7"c2BA | "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2BA |
+| "G"GDB,D "(Em)"G2GB | "Am"AGAB "D7"c2BA | "G"Gged "D7"cBAG | "G"B2G2 G2 :|
+|: Bc \
+| "G"dgfg "Em"edcB | "Am"cBce "D7"dcBA | "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2Bc |
+| "G"dBcd "C"ecde | "D7"fdef "Em"g2fe | "D7"dgfe dcBA | "G"B2G2 G2 :|
+%%center Book27/GlasgowHp_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Glasgow Hornpipe
+R: reel
+B: RSCDS 27-4
+O: 1841
+S: Hill Manuscript (Aberdeen) 1841
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+BA | "G"GDB,D "(Em)"G2GB | "Am"AGAB "D7"c2BA \
+| "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2BA | "G"GDB,D "(Em)"G2GB |
+| "Am"AGAB "D7"c2BA | "G"Gged "D7"cBAG | "G"B2G2 G2 :: Bc \
+| "G"dgfg "Em"edcB | "Am"cBce "D7"dcBA |
+| "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2Bc | "G"dBcd "C"ecde \
+| "D7"fdef "Em"g2fe | "D7"dgfe dcBA | "G"B2G2 G2 :|
+%%center Book27/GlasgowHp_G3-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Glasgow Hornpipe
+R: reel
+B: RSCDS 27-4
+O: 1841
+S: Hill Manuscript (Aberdeen) 1841
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+BA | "G"GDB,D "(Em)"G2GB | "Am"AGAB "D7"c2BA \
+| "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2BA | "G"GDB,D "(Em)"G2GB |
+| "Am"AGAB "D7"c2BA | "G"Gged "D7"cBAG | "G"B2G2 G2 :: Bc \
+| "G"dgfg "Em"edcB | "Am"cBce "D7"dcBA |
+| "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2Bc | "G"dBcd "C"ecde \
+| "D7"fdef "Em"g2fe | "D7"dgfe dcBA | "G"B2G2 G2 :|
+%%center Book27/GlasgowHp_G3_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Glasgow Hornpipe
+R: reel
+B: RSCDS 27-4
+O: 1841
+S: Hill Manuscript (Aberdeen) 1841
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+BA \
+| "G"GDB,D "(Em)"G2GB | "Am"AGAB "D7"c2BA | "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2BA |
+| "G"GDB,D "(Em)"G2GB | "Am"AGAB "D7"c2BA | "G"Gged "D7"cBAG | "G"B2G2 G2 :|
+|: Bc \
+| "G"dgfg "Em"edcB | "Am"cBce "D7"dcBA | "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2Bc |
+| "G"dBcd "C"ecde | "D7"fdef "Em"g2fe | "D7"dgfe dcBA | "G"B2G2 G2 :|
+%%center Book27/GlasgowHp_G_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Glasgow Hornpipe
+R: reel
+B: RSCDS 27-4
+O: 1841
+S: Hill Manuscript (Aberdeen) 1841
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+BA \
+| "G"GDB,D "(Em)"G2GB | "Am"AGAB "D7"c2BA | "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2BA |
+| "G"GDB,D "(Em)"G2GB | "Am"AGAB "D7"c2BA | "G"Gged "D7"cBAG | "G"B2G2 G2 :|
+|: Bc \
+| "G"dgfg "Em"edcB | "Am"cBce "D7"dcBA | "G"Ggfg "Em"edcB | "Am"c2A2 "D7"A2Bc |
+| "G"dBcd "C"ecde | "D7"fdef "Em"g2fe | "D7"dgfe dcBA | "G"B2G2 G2 :|
+%%center Book27/GlasgowHp_G_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: James O. Forbes of Corse
+C: P.Milne
+B: RSCDS 27-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+G \
+| "D"F<A D>F "Em"G<B E>G | "F#m"F<A B>c "G"d3 c \
+| "G"B>d "D"A>d "G"G>d "D"F>d | "Em"E<e e>d "A7"c/d/c/B/ A/B/A/G/ |
+| "D"F<A D>F "Em"G<B "Am"E>G | "F#m"F<A f>e "G"d3 c \
+| "G"B>d "D"A>d "G"G>d "D"F>G | "A7"F>D E>C "D"D2- D ||
+g \
+| "D"f/g/a/g/ f>d "G"B<d g>b | "D"A<d f>a "A7"A<c e>g \
+| "D"f/g/a/g/ "D7"f>d "G"B<d g>b | "D"a<d "A7"f>e "D"d2 d>g |
+| "D"f/g/a/g/ f>d "G"B<d g>b | "D"A<d f>a "A7"A<c e>g \
+| "D"(3fed "A7"(3cde "Bm"(3dAG "D"(3FGA | "Em"(3Bcd "A7"(3cde "D"f<d d |]
+
+%%center Book27/JamesOForbesOfCorse-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: James O. Forbes of Corse
+C: P.Milne
+B: RSCDS 27-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+G \
+| "D"F<A D>F "Em"G<B E>G | "F#m"F<A B>c "G"d3 c \
+| "G"B>d "D"A>d "G"G>d "D"F>d | "Em"E<e e>d "A7"c/d/c/B/ A/B/A/G/ |
+| "D"F<A D>F "Em"G<B "Am"E>G | "F#m"F<A f>e "G"d3 c \
+| "G"B>d "D"A>d "G"G>d "D"F>G | "A7"F>D E>C "D"D2- D ||
+g \
+| "D"f/g/a/g/ f>d "G"B<d g>b | "D"A<d f>a "A7"A<c e>g \
+| "D"f/g/a/g/ "D7"f>d "G"B<d g>b | "D"a<d "A7"f>e "D"d2 d>g |
+| "D"f/g/a/g/ f>d "G"B<d g>b | "D"A<d f>a "A7"A<c e>g \
+| "D"(3fed "A7"(3cde "Bm"(3dAG "D"(3FGA | "Em"(3Bcd "A7"(3cde "D"f<d d |]
+
+%%center Book27/JamesOForbesOfCorse_2-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: James O. Forbes of Corse
+C: P.Milne
+B: RSCDS 27-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+G \
+| "D"F<A D>F "Em"G<B E>G | "F#m"F<A B>c "G"d3 c \
+| "G"B>d "D"A>d "G"G>d "D"F>d | "Em"E<e e>d "A7"c/d/c/B/ A/B/A/G/ |
+| "D"F<A D>F "Em"G<B "Am"E>G | "F#m"F<A f>e "G"d3 c \
+| "G"B>d "D"A>d "G"G>d "D"F>G | "A7"F>D E>C "D"D2- D ||
+g \
+| "D"f/g/a/g/ f>d "G"B<d g>b | "D"A<d f>a "A7"A<c e>g \
+| "D"f/g/a/g/ "D7"f>d "G"B<d g>b | "D"a<d "A7"f>e "D"d2 d>g |
+| "D"f/g/a/g/ f>d "G"B<d g>b | "D"A<d f>a "A7"A<c e>g \
+| "D"(3fed "A7"(3cde "Bm"(3dAG "D"(3FGA | "Em"(3Bcd "A7"(3cde "D"f<d d |]
+
+%%center Book27/JamesOForbesOfCorse_JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Jane Douglas
+C: Robert Mackintosh 1796
+R: jig
+B: RSCDS 27-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+K: G
+d/c/ \
+| "G"B3 GAB | "Am"A3 EFG | "D7"FEF DEF | "G"GAB "D7"ABc \
+| "G"B3 GAB | "Am"A3 EFG | "D7"FEF DEF | "G"G3 G2 :|
+B \
+| "G"G2g gdB | "D7"ABc "G"GAB | "A7"A3 aba | "D"fga "D7"def \
+| "G"G2g gdB | Bcd "C"efg | "G"dcB "D7"AGF | "G"G3 G2 ||
+B \
+| "G"G2g gdB | "Em"Bcd GAB | "Am"A2a aba | "D"fga "D7"def \
+| "G"gab "D"afd | "Em"efg "Bm"fdB | "Am"edc "D7"BcA | "G"G3- G2 |]
+
+%%center Book27/JaneDouglas-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Jane Douglas
+C: Robert Mackintosh 1796
+R: jig
+B: RSCDS 27-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+K: G
+d/c/ \
+| "G"B3 GAB | "Am"A3 EFG | "D7"FEF DEF | "G"GAB "D7"ABc \
+| "G"B3 GAB | "Am"A3 EFG | "D7"FEF DEF | "G"G3 G2 :|
+B \
+| "G"G2g gdB | "D7"ABc "G"GAB | "A7"A3 aba | "D"fga "D7"def \
+| "G"G2g gdB | Bcd "C"efg | "G"dcB "D7"AGF | "G"G3 G2 ||
+B \
+| "G"G2g gdB | "Em"Bcd GAB | "Am"A2a aba | "D"fga "D7"def \
+| "G"gab "D"afd | "Em"efg "Bm"fdB | "Am"edc "D7"BcA | "G"G3- G2 |]
+
+%%center Book27/JaneDouglas_2-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Jane Douglas
+C: Robert Mackintosh 1796
+R: jig
+B: RSCDS 27-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+K: G
+d/c/ \
+| "G"B3 GAB | "Am"A3 EFG | "D7"FEF DEF | "G"GAB "D7"ABc \
+| "G"B3 GAB | "Am"A3 EFG | "D7"FEF DEF | "G"G3 G2 :|
+B \
+| "G"G2g gdB | "D7"ABc "G"GAB | "A7"A3 aba | "D"fga "D7"def \
+| "G"G2g gdB | Bcd "C"efg | "G"dcB "D7"AGF | "G"G3 G2 ||
+B \
+| "G"G2g gdB | "Em"Bcd GAB | "Am"A2a aba | "D"fga "D7"def \
+| "G"gab "D"afd | "Em"efg "Bm"fdB | "Am"edc "D7"BcA | "G"G3- G2 |]
+
+%%center Book27/JaneDouglas_JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lady Storment's Strathspey
+C: Duncan MacKercher
+R: strathspey
+B: RSCDS 27-3
+M: C
+L: 1/8
+K: A
+E \
+| "A"A2 A>B "F#m"c>B A>c \
+| "Bm"f>e d>c "E7"d/c/B/A/ G>B \
+| "A"A>A A>B "F#m"c>d e>c \
+| "Bm"F>B "E7"A/G/F/E/ "A"A3 ||
+E \
+| "A"A2 A>B "F#m"c>B A>c \
+| "Bm"f>e d>c "E7"d/c/B/A/ G>B \
+| "A"A,>C E>A "D"(3dfd "A"cec \
+| "E7"d/c/B/A/ G>B "A"A3 |]
+e \
+| "A"A<A a>e "F#m"c>B A>c \
+| "Bm"f>e d>c "E7"d/c/B/A/ G>B \
+| "A"A<A a>e c>d e>c \
+| "Bm"F>B "E7"A/G/F/E/ "A"A3 ||
+e \
+| "A"A<A a>e "F#m"c>B A>c \
+| "Bm"f>e d>c "E7"d/c/B/A/ G>B \
+| "A"((3Ace) ((3aec) "D"((3fdB) "A/C#"((3ecA) \
+| "Bm"d/c/B/A/ "E7"G>B "A"A3 |]
+%%center Book27/LadyStormentsStr_A.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lord of the Isles
+R: strathspey
+B: RSCDS 27-8(a)
+O: Kerr's Collection
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+   d \
+| "G"g<g d>B "Em"G2 G>F | "Am"E<A A>G "D7"F<D D>d \
+| "G"g<g d>B "Em"G2 G>F | "Am"E>A "D7"G/F/E/D/ "G"G2- G :|
+|: B \
+| "G"d>B g>f "Em"e>d c>B | "Am"c<A a>g "D7"f<d d>f \
+| "G"g<g d>B "C"c>d "G"B>G | "Am"E>A "D7"G/F/E/D/ "G"G2- G :|
+%%center Book27/LordOfTheIsles-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lord of the Isles
+R: strathspey
+B: RSCDS 27-8(a)
+O: Kerr's Collection
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+   d \
+| "G"g<g d>B "Em"G2 G>F | "Am"E<A A>G "D7"F<D D>d \
+| "G"g<g d>B "Em"G2 G>F | "Am"E>A "D7"G/F/E/D/ "G"G2- G :|
+|: B \
+| "G"d>B g>f "Em"e>d c>B | "Am"c<A a>g "D7"f<d d>f \
+| "G"g<g d>B "C"c>d "G"B>G | "Am"E>A "D7"G/F/E/D/ "G"G2- G :|
+%%center Book27/LordOfTheIsles_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lord of the Isles
+R: strathspey
+B: RSCDS 27-8(a)
+O: Kerr's Collection
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+   d \
+| "G"g<g d>B "Em"G2 G>F | "Am"E<A A>G "D7"F<D D>d \
+| "G"g<g d>B "Em"G2 G>F | "Am"E>A "D7"G/F/E/D/ "G"G2- G :|
+|: B \
+| "G"d>B g>f "Em"e>d c>B | "Am"c<A a>g "D7"f<d d>f \
+| "G"g<g d>B "C"c>d "G"B>G | "Am"E>A "D7"G/F/E/D/ "G"G2- G :|
+%%center Book27/LordOfTheIsles_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mrs. McLeod of Geaston
+O: Athole Collection
+R: strathspey
+B: RSCDS 27-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F
+|| c/B/ \
+| "F"A>F c>F A<c cB/c/ | "Gm"d>c B>A "C7"B<G G>B \
+| "F"A>F c>F A2 c2 | "Bb"d>g "C7"cd/e/ "F"f2 f :|
+|| g \
+| "F"a>f e>f c>f e>f | "Gm"d<g g>f "C7"e>g c>b \
+| "F"a>f e>f c>f e>f | "Gm"d>g "C7"cd/e/ "F"f2- f2 |
+| "F"c'/a/g/f/ e>f "Bb"d>b "F"c>a | "Gm"B>g "F"A>f "C7"d/c/B/A/ G>B \
+| "F"A>F c>A "Bb"B/c/d/e/ "Gm"f>g | "F"a>f "C7"e/f/g/e/ "F"f2- f |]
+
+%%center Book27/McLeodOfGeaston-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mrs. McLeod of Geaston
+O: Athole Collection
+R: strathspey
+B: RSCDS 27-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F
+|| c/B/ \
+| "F"A>F c>F A<c cB/c/ | "Gm"d>c B>A "C7"B<G G>B \
+| "F"A>F c>F A2 c2 | "Bb"d>g "C7"cd/e/ "F"f2 f :|
+|| g \
+| "F"a>f e>f c>f e>f | "Gm"d<g g>f "C7"e>g c>b \
+| "F"a>f e>f c>f e>f | "Gm"d>g "C7"cd/e/ "F"f2- f2 |
+| "F"c'/a/g/f/ e>f "Bb"d>b "F"c>a | "Gm"B>g "F"A>f "C7"d/c/B/A/ G>B \
+| "F"A>F c>A "Bb"B/c/d/e/ "Gm"f>g | "F"a>f "C7"e/f/g/e/ "F"f2- f |]
+
+%%center Book27/McLeodOfGeaston_2-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mrs. McLeod of Geaston
+O: Athole Collection
+R: strathspey
+B: RSCDS 27-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F
+|| c/B/ \
+| "F"A>F c>F A<c cB/c/ | "Gm"d>c B>A "C7"B<G G>B \
+| "F"A>F c>F A2 c2 | "Bb"d>g "C7"cd/e/ "F"f2 f :|
+|| g \
+| "F"a>f e>f c>f e>f | "Gm"d<g g>f "C7"e>g c>b \
+| "F"a>f e>f c>f e>f | "Gm"d>g "C7"cd/e/ "F"f2- f2 |
+| "F"c'/a/g/f/ e>f "Bb"d>b "F"c>a | "Gm"B>g "F"A>f "C7"d/c/B/A/ G>B \
+| "F"A>F c>A "Bb"B/c/d/e/ "Gm"f>g | "F"a>f "C7"e/f/g/e/ "F"f2- f |]
+
+%%center Book27/McLeodOfGeaston_JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Murray of Lintrose
+R: march
+S: John Bowie of Perth, 1784
+B: RSCDS 27-1
+M: 2/4
+L: 1/16
+K: A
+   ed \
+| "A"c2cB A2E2 | "D"F4 "E7"E2d2 | "A"c2A2 "E7"B2AG | "A"ABcd "E7"e2ed \
+| "A"c2cB A2E2 | "D"F4 "E7"E2d2 | "A"c2A2 "E7"GABG | "A"A4 z2 :|
+|: cB \
+| "A"A2e2 e2de | "D"f2d2 d2cd | "E7"E2d2 d2cd | "A"e2c2 c2BA \
+| E2c2 "D"F2d2 | "A"c4 "E7"B2d2 | "A"c2A2 "E7"GABG | "A"A4 z2 :|
+%%center Book27/MissMurrayOfLintrose_A.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Rose's Fancy
+C: C.MacNab
+R: jig
+B: RSCDS 27-5 (Tayport Beauty)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: E \
+| "A"A2A ABc | "E7"B2B Bcd | "A"cea ecA | "E7"BcA GFE \
+| "A"A2A ABc | "E7"B2B Bcd | "A"cea ecA | "E7"dBG "A"A2 :|
+|| e \
+| "A"ece "/G"ece | "/F"efg "A"a2e | "D"fga "A"ecA | "B7"BcA GFE \
+| "A"ece "/G"ece | "/F"efg "A"a>gf | efd "E7"cdB | "A"A3 Acd |
+| "A"ece ece | efg a2e | "D"fda "A"ecA | "B7"BcA GFE \
+| "A"a>ga efg | "D"agf "A"ece | "Bm"fdf "A"ecA | "E7"dBG "A"A2 |]
+%%center Book27/MissRosesFancy-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Rose's Fancy
+C: C.MacNab
+R: jig
+B: RSCDS 27-5 (Tayport Beauty)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: E \
+| "A"A2A ABc | "E7"B2B Bcd | "A"cea ecA | "E7"BcA GFE \
+| "A"A2A ABc | "E7"B2B Bcd | "A"cea ecA | "E7"dBG "A"A2 :|
+|| e \
+| "A"ece "/G"ece | "/F"efg "A"a2e | "D"fga "A"ecA | "B7"BcA GFE \
+| "A"ece "/G"ece | "/F"efg "A"a>gf | efd "E7"cdB | "A"A3 Acd |
+| "A"ece ece | efg a2e | "D"fda "A"ecA | "B7"BcA GFE \
+| "A"a>ga efg | "D"agf "A"ece | "Bm"fdf "A"ecA | "E7"dBG "A"A2 |]
+%%center Book27/MissRosesFancy_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Rose's Fancy
+C: C.MacNab
+R: jig
+B: RSCDS 27-5 (Tayport Beauty)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: E \
+| "A"A2A ABc | "E7"B2B Bcd | "A"cea ecA | "E7"BcA GFE \
+| "A"A2A ABc | "E7"B2B Bcd | "A"cea ecA | "E7"dBG "A"A2 :|
+|| e \
+| "A"ece "/G"ece | "/F"efg "A"a2e | "D"fga "A"ecA | "B7"BcA GFE \
+| "A"ece "/G"ece | "/F"efg "A"a>gf | efd "E7"cdB | "A"A3 Acd |
+| "A"ece ece | efg a2e | "D"fda "A"ecA | "B7"BcA GFE \
+| "A"a>ga efg | "D"agf "A"ece | "Bm"fdf "A"ecA | "E7"dBG "A"A2 |]
+%%center Book27/MissRosesFancy_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mrs. Anderson's Reel
+C: Robert Mackintosh
+R: reel
+B: RSCDS 27-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+d | "G"g2dc     BGdB | "Am"cBAG "D7"FDDf | "G"g2dc     BGdB | "Am"ce"D7"dc "G"BGG :|
+c | "G"BGdB "Am"cAec |  "G"BgdB "D7"cAAc | "G"BGdB "Am"cAec | "D7"BdAc     "G"BGG ||
+c | "G"BGdB "Am"cAec |  "G"BgdB "D7"cAAc | "G"Bdgb "Am"ceag | "D7"fdef     "G"gGG |]
+%%center Book27/MrsAndersonsR-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mrs. Anderson's Reel
+C: Robert Mackintosh
+R: reel
+B: RSCDS 27-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+d | "G"g2dc     BGdB | "Am"cBAG "D7"FDDf | "G"g2dc     BGdB | "Am"ce"D7"dc "G"BGG :|
+c | "G"BGdB "Am"cAec |  "G"BgdB "D7"cAAc | "G"BGdB "Am"cAec | "D7"BdAc     "G"BGG ||
+c | "G"BGdB "Am"cAec |  "G"BgdB "D7"cAAc | "G"Bdgb "Am"ceag | "D7"fdef     "G"gGG |]
+%%center Book27/MrsAndersonsR_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mrs. Anderson's Reel
+C: Robert Mackintosh
+R: reel
+B: RSCDS 27-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+d | "G"g2dc     BGdB | "Am"cBAG "D7"FDDf | "G"g2dc     BGdB | "Am"ce"D7"dc "G"BGG :|
+c | "G"BGdB "Am"cAec |  "G"BgdB "D7"cAAc | "G"BGdB "Am"cAec | "D7"BdAc     "G"BGG ||
+c | "G"BGdB "Am"cAec |  "G"BgdB "D7"cAAc | "G"Bdgb "Am"ceag | "D7"fdef     "G"gGG |]
+%%center Book27/MrsAndersonsR_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Nineteenth of December
+R: jig
+B: RSCDS 27-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Caledonian Country Dances 1754
+M: 6/8
+L: 1/8
+K: A
+ e \
+|: "A"c2c cBA | "(F#m)"c2c cBA | "A"Ace aec | "Bm"B3- "E7"Bed \
+|  "A"c2c cBA | edc cBA | Ace "F#m"a2a | "E7"bag "A"a3 :|
+|| "A"A2a g2a | "(F#m)"c2B A2E | "D"FGA "Bm"d2c | "E7"B3- B2e \
+|  "A"e2c "(E)"efg | "F#m"a2a a2g | "D"f2e "A"c2e | "Bm"f3 "E7"e3 |
+|  "A"e2c efg | "F#m"a2a a2g | "D"f2e "A"c2e | "Bm"f3 "E7"e>ef/g/ \
+|  "A"a2c "(E)"e2f | "F#m"c2B A2E | "Bm"FGA "E7"B2G | "A"A3- A3 |]
+%%center Book27/NineteenthOfDecemberJ-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Nineteenth of December
+R: jig
+B: RSCDS 27-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Caledonian Country Dances 1754
+M: 6/8
+L: 1/8
+K: A
+ e \
+|: "A"c2c cBA | "(F#m)"c2c cBA | "A"Ace aec | "Bm"B3- "E7"Bed \
+|  "A"c2c cBA | edc cBA | Ace "F#m"a2a | "E7"bag "A"a3 :|
+|| "A"A2a g2a | "(F#m)"c2B A2E | "D"FGA "Bm"d2c | "E7"B3- B2e \
+|  "A"e2c "(E)"efg | "F#m"a2a a2g | "D"f2e "A"c2e | "Bm"f3 "E7"e3 |
+|  "A"e2c efg | "F#m"a2a a2g | "D"f2e "A"c2e | "Bm"f3 "E7"e>ef/g/ \
+|  "A"a2c "(E)"e2f | "F#m"c2B A2E | "Bm"FGA "E7"B2G | "A"A3- A3 |]
+%%center Book27/NineteenthOfDecemberJ_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Nineteenth of December
+R: jig
+B: RSCDS 27-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Caledonian Country Dances 1754
+M: 6/8
+L: 1/8
+K: A
+ e \
+|: "A"c2c cBA | "(F#m)"c2c cBA | "A"Ace aec | "Bm"B3- "E7"Bed \
+|  "A"c2c cBA | edc cBA | Ace "F#m"a2a | "E7"bag "A"a3 :|
+|| "A"A2a g2a | "(F#m)"c2B A2E | "D"FGA "Bm"d2c | "E7"B3- B2e \
+|  "A"e2c "(E)"efg | "F#m"a2a a2g | "D"f2e "A"c2e | "Bm"f3 "E7"e3 |
+|  "A"e2c efg | "F#m"a2a a2g | "D"f2e "A"c2e | "Bm"f3 "E7"e>ef/g/ \
+|  "A"a2c "(E)"e2f | "F#m"c2B A2E | "Bm"FGA "E7"B2G | "A"A3- A3 |]
+%%center Book27/NineteenthOfDecemberJ_JC.abc

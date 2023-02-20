@@ -1,0 +1,29 @@
+X: 6
+T: the Merry Councellor
+%R: reel
+B: Kitty Bridges "Collection of Country Dances 1745" p.6
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-bridges1745
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The tune has no time signature.
+N: Bar 6 has 5 8th notes in the first beamed group; not fixed.
+N: The word "to" occurs twice in succession in the dance.
+M: none
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Bc |\
+dBGg e2dB | caaB A2Bc |\
+dBGg e2dB | gddB G2 :|\
+|: Bc |\
+d>ed>B d>edB | gb-bag a2Bc |
+d>ed>B gdcB | edcB A2Bc |\
+dBGg e2dB | caaB A2Bc |\
+dBGg e2dB | gddB G2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center The Merry Councellor
+%%begintext align
+%%   Set across and turn, Then set to
+%% to your Part.r and cast off one Coup.l and
+%% Right and left with the top Coup.l, Then
+%% set and cast round Corners.
+%%endtext

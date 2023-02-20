@@ -1,0 +1,31 @@
+X: 101
+T: Pinkie House
+%R: air
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.10 #1
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Q: "slow"
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1
+D>E |\
+TF>E (F/G/A) {G}F2(TE>D) | (A>F)(A>B) A2(d>c) | TB>A (B/c/d) {B}A>FTE>D | E6 D>E |
+TF>E (F/G/A) {G}F2(TE>D) | A>FA>B A2d>c | TB>AB>d (d/e/f) (e>d) | d3e d2 :|
+|: c>d |\
+e>de>f Te2d>e | (f/e/d) (c/d/B) T^A2B>c | d>cd>e {d}c3B | B3c B2(B/c/d) |
+A>FTE>D F>A (B/c/d) | (A/G/F) TE>D B,2f>{g}e | Td>cd>G {F}E3D | D6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+z2 |\
+d3"6"c d2zd | "6"f>df>g "6"f2F2 | G2zg "6"f3"6"b | "4"a2"3"ab ag"6"f"6"e |\
+d3c
+d2zd | "6"f>df>g "6"f2F2 | G2g2 "6;4"a2"5;3"A2 | d2A2D2 :|\
+|: z2 |\
+A3d "6"c2zA | d2"6"e2 "#"f>e"6"d>"6"c |
+B3e "4"f2"#"F2 | B2F2 B2z2 |\
+d2z2 d2g2 | "6"f2zF G2"6 5;4 3"A2 | B2"6"f>g "4"a2"3"A2 | d2A2 D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

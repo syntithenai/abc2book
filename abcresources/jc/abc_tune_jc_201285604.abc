@@ -1,0 +1,40 @@
+X:16
+T:Heilini Soitteli Medley
+M:2/4
+L:1/16
+Q:1/4=80
+C:arr. Eira Mattsson (Washington DC Finlandia Foundation) ~1976
+S:Heilii Soitteli, Kiunkas Se Joki, Hyvaa Ilta, Mansikka, Minun Kultani
+R:jenkka
+P:HS,KSJ,HI,M,MK
+N:1. Heilini Soitteli
+2. Kiunkas Se Joki
+3. Hyvaa Iltaa & Mansikka (Em)
+4. Mansikka (Am)
+5. Minun Kultani
+K:Cm
+P:HS
+|: "Cm" e2cc ccGG | e2cc c2GG | "Fm" A2FF F2A2 | "Cm" G4 "G7" G4 :| !
+|: "Fm" A2FF F2AA | "Cm" G2G2 c2"G7"d2 |[1 "Cdim" edce "G7" d2=B2 |
+"Cm" c4c4 :|[2 "D7" edc=B "G7" d2B2 | "Cm" c4 "" ^c4 || !
+K:Dm
+P:KSJ
+|: "Dm" A2BB AAGG | F2E2 F2DF | A2FA "Gm" c2d2 | "A7" A4 A4 :| !
+|: "Dm" A2Bd "Gm" c2B2 | "Dm" AAAB "A7" A2GG |
+"Dm" FFAA "A7" F2E2 |[1 "Dm" D4 D4 :|[2 "Dm" D4 "" ^D4 || !
+K:Em
+P:HI
+|: "Em" BBBB e2B2 | BBBc B2E2 | "Am" AAAA A2GA | "B7" B2GF "Em" E4 :| !
+|: "Em" B2e2 B2A2 | GAGF E2B,2 | E2FF "B7" G2F2 |
+[1 "Em" EFGA "B7" B2B,2 :|[2 "Em" E4 "" ^E4 || !
+K:Am
+P:M
+|: "Am" e2a2 e2d2 | cdcB A2E2 | A2B2 c2B2 | "E7" ABcd e2E2 | !
+"Am" e2a2 e2d2 | cdcB A2EE | A2BB "E7" c2B2 |
+[1 "Am" A4 A4 :|[2 "Am" A4 "" ^A4 || !
+K:Bm
+P:MK
+|: "Bm" d2d2 "F#7" c2cc | "Bm" B2B2 "Em" c4 |
+"F#7" F2F2 ^G2^A2 | "Bm" B4 "F#7" c4 :| !
+|: "D" f4 "A7" e2ec | "Bm" d2d2 "Em" c4 |
+"F#7" F2F2 ^G2^A2 |[1 "Bm" B4 "F#7" c4 :|[2 "Bm" B4 B4 ||

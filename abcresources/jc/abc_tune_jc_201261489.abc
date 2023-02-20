@@ -1,0 +1,46 @@
+X: 1
+T: Chearily and Merrily
+P: Longways for as many as will
+%R: waltz
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.25 "D"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: CCDM1 has a different tune and dance by the same name.
+N: The actual time signature is "3i".
+N: The dance directions are in two columns; ## is used to separate the columns.
+M: 3/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[| cB A2 F2 | GA G2 E2 | F4   F2 | a4 g2 | g2 e2 c2 | de d2 G2 | c3 e de | c6 |]
+[| c2 de f2 | d2 c2 A2 | G3 A Bc | d4 c2 | c2 A2 F2 | GA G2 C2 | F3 A GA | F6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up a D. forward and back .| That again.
+%% ##
+%% Set and turn S .| That again :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 2. man and 3. wo. change places, the 3. man and 2. wo. change :|
+%% the first four and last four hands and go round.
+%% ##
+%% Then change as before, and hands round as before :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Sides all .| That again :|
+%% First and last cu. meet your own, while the other four go back, first and last
+%% cu. meet while the 2. slip up, and the 3. down .| First and last cu. hands and
+%% go round while the other turn their own :|
+%% ##
+%% Set and turn S. That again :|
+%% Then do the same again ?|
+%%
+%% Arms all .| That again :|
+%% Men hands and go round .| We. as much :|
+%% Set and turn S .| That again :|
+%% Men the S. Hay, while they we. do as much :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

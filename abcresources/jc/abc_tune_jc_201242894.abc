@@ -1,0 +1,18 @@
+X: 370
+T:Happy Acres Two-Step
+N: page 132
+N: heptatonic
+M:2/4
+L:1/16
+K:D
+A2 d2f2|:"D"a4a2^ga|b2a2 f2d2|F6A2|"G"dcBA GFED|\
+"A"C3D E2F2|G4F2G2|"D"{Bc}B2 A4^G2|A2A2 "A7"d2f2|
+"D"a4a2^ga|b2a2 f2d2|F6A2|"G"dcBA GFED|\
+"A"C3D E2F2|G2A2B2c2|"D"d4 "G"d3d|1"D"d2A2 "A7"d2f2:|2"D"d4 c2>d2|
+K:A
+|:"A"((3efg)a2 c2A2|E3F E2D2|C2E2 A2c2|e4 B2{cB}A2|\
+"E"G3A B2c2|d4c2d2|"A"f2e4d2|c4 c3d|
+"A"((3efg)a2 c2A2|E3F E2D2|C2E2 A2c2|e4 B2 {cB}A2|\
+"E"G3A B2c2|d2e2 f2g2|"A"a4 "D"a3a|1"A"a4"E7"c3d:|2"A"a2A2 d2f2||
+%%scale 0.8
+%%newpage

@@ -1,0 +1,19 @@
+X: 1
+T:The Wheatley Processional
+M:4/4
+C:
+S:Bacon (MDT)
+N:
+A:Wheatley
+O:English
+R:Reel
+%P:A.(AB)$^{\infty}$
+P:A.(AB)8
+K:G
+I:speed 400
+P:A
+e2  | d2 B2 A3 E | E2 E2 D3 D | G2 B2 A2 G2 | A4 e4 |\
+      d2 B2 A3 G | A2 E2 D3 D | G2 B2 A2 G2 | d4 G2 ||\
+P:B
+z B | B2 d2 g3 e | d2 B2 A3 G | B2 d2 g3 d  | e4 g3 \
+  e | d2 B2 A3 E | E2 E2 D3 D | G2 B2 A2 G2 | d4 G2 ||

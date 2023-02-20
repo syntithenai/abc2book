@@ -1,0 +1,39 @@
+
+X: 1
+T: Swinging on a Gate   [G]
+B: NEFR *87
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: "G"gedB G2AB | "Am"cABG AGEG | "G"DGBd g2g2 | "D7"fgag fdef || "G"gedB G2AB |
+"C"cABG AGEG | "Am"cABG AGEG | "D7"DGGF "G"G4 :: "G"gfga bagf | "Em"gfed B2AG |
+"Am"EAAB cBAG | EAAB "D7"cdef || "G"gfga bagf | "Em"gfed edBd | "Am"cABG AGEG | "D7"DGGF "G"G4 :|
+
+%%sep 1 1 500
+
+X: 2
+T: Lady Anne Montgomery
+R: reel
+M: C|
+L: 1/8
+K: D
+A |\
+"D"FADA FADA | FAdA "G"BAdA | "D"FADF "Em"EDEF | "A"DB,A,B, "D"D3E | "D"FADA FADA |
+FAdA "G"BABc | "D"dBAF "Em"E3F | "A"DB,A,B, "D"D3 :: e | "D"f3f fede | fedB ABde |
+f2fe "Bm"fede | "Em"fgaf "A"efde | "D"f3f fede | fedB ABde | "G"fded "Em"BdAd | "A"egfe "D"d3 :|
+
+%%sep 1 1 500
+
+X: 3
+T: John Stenson's #2   [A]
+R:reel
+D:Mark Simos, Ashokan '85, also similar in The Portland Collection
+S:Portland Collection v.1
+M:C|
+K:A
+cB |\
+"A"ABcA "E"B2cB | "A"ABcA "E"BAFE | "A"ABcA "E"B2ef | "A"e2cA "E"BAFE || "A"ABcA "E"B2cB | "A"ABcA "E"BAFE |
+"D"d2dc dfed | "E"cdBc "A"A2 :: ef | "A"e2cd e2cd | edcA "E"BAFE | "A"e2cd edcA |
+"E"B2Bc BAFE || "A"e2cd edcd | edcA "E"BABc | "Bm"d2dc dfed | "E"cdBc "A"A2 |]
+

@@ -1,0 +1,23 @@
+X: 181
+T: la Maison de la Reine.          F.
+C: Ignatius Sancho 1775
+%R: reel
+B: "Minuets Cotillons & Country Dances", 1775 p.18 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: f2cA GFGA | FGAB c2f2 | f2cA f2cA | GFGA G4 | f2cA GFGA | FGAB cfcA | defd cAfd | cBAG F4 :|
+[V:2] |: f4 c4 | f4 c2F2 | f4 F2A2 | c4 C4 | f4 c4 | f4 F2A2 | B4 A2F2 | c4 F4 :|
+[V:1] |: f2cA fgag | fcBA GABc | defd gfga | bagf {f}e4 | a2fd b2ge | bgaf gedc | defd cBcf | cBAG F4 :|
+[V:2] |: f4 F4 | f4 c4 | B4 G4 | F2f2 c4 | f4 g4 | c2f2 c4 | B4 A2F2 | A2c2 f4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% All Ballance and go round, back again, The four Gentlemen turn each others Partners,
+%% Chassee all Eight turn your Partners into their Places, Chassee all 8 again & turn your Partners.
+%%endtext

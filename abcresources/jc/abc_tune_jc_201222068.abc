@@ -1,0 +1,27 @@
+X: 54
+T: Lochail's March
+%R: jig, march
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.22
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|:\
+TdBB e>fg | TdBB TB2G | TdBB ~e>fg | dBG A2G |\
+TdBB {f}e/d/e/f/g | TdBB TBAG | A3 c>de | dBG TA2G :|
+|:\
+TdBB eBB | TdBB TB2G | TdBB eBB | dBG TA2G |\
+TdBB TeBB | TeBB TB>AG | A3 {d}c/B/d/e/f | dBG TA2G :|
+|:\
+(B//c//d3/)G (c//d//e3/)G | (B//c//d3/)G TB2G | (B//c//d3/)G (c//d//e3/)G | dBG TA2G |\
+(B//c//d3/)G (c//d//e3/)G | (d<B)g TB2G | A3 c<de | dBG TA2G :|
+|:\
+GTB2 GB2 | GTB2 TB2G | GTB2 GTB2 | G/B/gB TA2G |\
+GTB2 GB2 | GTB2 TB2G | A3 c/B/c/d/e | dBG TA2G :|
+|:\
+Td3 Te3 | Td3 TB2G | Td3 Te3 | TdBG TA2G |\
+Td3 Tf3 | dgB BAG | A2B c/B/c/d/e | dBG TA2G :|
+|:\
+gdd gee | gdd TB2G | gdd gee | dBG TA2G |\
+gdd gee | gdd B>AG | A3 efg | e/d/c/B/A/G/ A2G :|

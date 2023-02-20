@@ -1,0 +1,7 @@
+X: 1
+T: TEST: 2/4 3/4 none meters
+M: 2/4
+M: 3/4
+%M: none
+K: C
+[| CDEF GABc | BAG FED | C4 |]

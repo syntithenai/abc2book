@@ -1,0 +1,24 @@
+X: 4111
+T: Johnnny Faa.   the Gypsie Laddie.
+%R: air, march
+N: This is version 2, for ABC software that understands voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.4 p.11 #2 (with top 2 staves continued from p.10)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "SLOW"
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+E2~EF A2(c/B/A/G/) | {G}FEFA [B3G3][cA] | E2EF .A(cBA) | TF3E [E4C4] :: B2Bc e3f | ecTBA A>B (A/B/c) |
+B2TB>c e2f>e | (d2c2) B2A2 | B2TB>c e2f>e | (dc)(BA) AB {AB}Hc2 | E2~EF .A(cBA) | TF3E [E4C4] :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+a2a2 a2A2 & c2cd c2x2 | dcd[B^d] efga |\
+a4 .c(ABc) & c3d x4 | (defg) a4 ::\
+[g3e'3][ae'] [a2c'2e'2][a2d'2f'2] | c'a ga cea2 |
+[g3e'3][ae'3] [c'2e'2]d'>c' | x4 [g2d'2][a2c'2] & [g2b2e'2][a2e'2] e4 |\
+[g3e'3][ae'] c'2d'>c' | f'e'd'c' c'g Ha2 |\
+a4 .c(ABc) & c3d x4 | (defg) a4 :|

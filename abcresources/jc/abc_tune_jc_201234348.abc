@@ -1,0 +1,20 @@
+X: 20442
+T: the CANADIAN BOAT SONG
+Q: "Moderato"
+%R: jig
+B: "Edinburgh Repository of Music" v.2 p.44 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: It's not clear why this tune uses both "dim:" and standard diminuendo symbols, sometimes both.
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: 6/8
+L: 1/8
+K: G
+[|\
+QddqB d2B | d2B A2A | (GBA) B>cd | e2d B2A |\
+GBA ("_cres:"B>cd) | e2(d/B/) "_dim:"d2z | QddqB d2B | (edB) A2A |
+fdA d2e | f2"_dim:"Te d2z | QddqB "_>"d2B | "_sf"d2B A2A |\
+G<BA B>cd | "_dim:"e2d Bz !f!F | G<BA B>cd | !f!e2(d/B/) "_Dim:"d2z |]

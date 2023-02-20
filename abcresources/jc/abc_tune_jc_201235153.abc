@@ -1,0 +1,33 @@
+X: 210
+T: Willy will you ere return
+T: Uilleachan an thig u choaidh
+R: air, strathspey
+N: This is version 1, for ABC software that doesn't understand crescendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.96 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow accented Strathspey Style"
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+f |:\
+!p!{d}c>AF<d F<F {AB}c>A | {d}c<AF>G A<c {^c}d2 |\
+!f!{d}c>AF<d c<F {AB}c>B | !pp!{F}A>GF>G A<c {^c}d2 :|\
+!p!c<Af>d {d}c>AB<G | "_cres"A<f{f}e<d {d}^c<A {^c}d2 |
+!p!c<Af>d {d}c>AB<G | !pp!{F}A>GF>G A<c {^c}d2 ||\
+!p!c<Af>d {d}c>AB<G | "_cres"A<f{f}e<a {d}^c>A {^c}d2 |\
+!f!c<A {c}a>g f>d{d}c>B | !pp!{F}A>GF>G Ac {^c}d2 |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |:\
+[f2c'2][f2d'2] [f2c'2][f2c'2] | [f2c'2][f2c'2] [f2c'2][f2d'2] |\
+[f2c'2][f2d'2] [f2c'2][f2c'2] | [f2c'2][f2c'2] [f2c'2][f2d'2] :|\
+[f2c'2][f2c'2] [f2c'2][e2c'2] | f2g2 a2d2 |
+[f2c'2][f2b2]  [f2c'2][e2c'2] | [f2c'2][f2c'2] [f2c'2][f2d'2] ||\
+[f2c'2][f2d'2] [f2c'2][e2c'2] | f2g2 a2d2 |\
+[f2c'2][f2c'2] [f2d'2][f2c'2] | [f2c'2][f2c'2] [f2c'2][f2d'2] |]
+% = = = = = = = = = =

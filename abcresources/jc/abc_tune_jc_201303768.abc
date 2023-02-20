@@ -1,0 +1,29 @@
+X: 1
+T: Lord Hereford's Delight
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (188)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+F>ED F>GA/B/ | A>GF/E/ D>EF    | ECA, A,2F | ECA, A,2A |\
+F>ED F>GA/B/ | A>GF/E/ D>EF/G/ | ECA, A,2C | D3-  D2 :|
+|: f |\
+e>d c/d/  e2a | e>f e/d/ c2c | d>cB B2A | A3- A2a |\
+a/g/f/e/d dfa | Bcd      cde | AGF  Edc | d3  D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% First Cu. clap hands and cast off then lead thro the 3d
+%% Cu. and cast up into the 2d Cu. Place then clap Hands
+%% and cast up and turn :| 1st Cu. slip down the Middle and fall
+%% back then the 1st Man take Hands with the 2d and 3d Men
+%% the 1st Wo. the same with the 2d and 3d Wo. then all
+%% change Places and then sett and change to your proper
+%% places :|
+%%endtext
+%%sep 1 8 500

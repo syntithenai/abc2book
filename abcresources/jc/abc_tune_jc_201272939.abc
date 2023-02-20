@@ -1,0 +1,37 @@
+
+X: 1
+T: the Emperor Of The Moon  [Gm]
+C: Anon.
+O: Playford 1690
+%C: attr. Richard Motley
+M: 4/4
+L: 1/4
+%Q: 1/2=110
+S: Playford, Dancing Master,8th Ed,1690.
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+H: The play by the same name, by Aphra Behn, was first published in 1687.
+K: Gm
+|: "Gm"Gd Gd | Gd BA/B/ | Gg Gg | Gg f=e/f/ |
+|  "Bb"Bf Bf | Bg "F"AG/F/ | "Gm"GA/B/ "F"cB/A/ | "D7"A2 "Gm"G2 :|
+|: "Gm"Gg Gg | Gg Gg | Bb Bb | Bb Bb |
+|  "Dm"df df | df dc/B/ | "Cm"cc/d/ dg | "D7"^f2 "Gm"g2 :|
+
+
+%%sep 5 1 500
+
+X: 2
+T: the Emperor Of The Moon  (Dm)
+C: Anon.
+O: Playford 1690
+%C: attr. Richard Motley
+M: 4/4
+L: 1/4
+%Q: 1/2=110
+S: Playford, Dancing Master,8th Ed,1690.
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+H: The play by the same name, by Aphra Behn, was first published in 1687.
+K: Dm
+|: "Dm"DA DA | DA FE/F/ | Dd Dd | Dd c=B/c/ |
+|  "F"Fc Fc | Fd "C"ED/C/ | "Dm"DE/F/ "C"GF/E/ | "A7"E2 "Dm"D2 :|
+|: "Dm"Dd Dd | Dd Dd | Ff Ff | Ff Ff |
+|  "Am"Ac Ac | Ac AG/F/ | "Gm"GG/A/ Ad | "A7"^c2 "Dm"d2 :|

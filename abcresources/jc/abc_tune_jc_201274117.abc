@@ -1,0 +1,15 @@
+X:1
+T: Fair Jenny's Jig
+C: Peter Barnes
+%%printtempo 0
+Q:160
+R: jig
+M: 6/8
+L: 1/8
+K:D
+A \
+| "D"f3 fgf | "A7"ecA ecA | "G"Bcd "A7"ecA | "G"Bcd "A7"efg |
+"D"f3 fgf | "A7"ecA ecA | "G"Bcd "A7"e2A | ABc "D"d2 :|
+|: A \
+| "G"B3 B=cB | GBB B=cB | "D"ADD dDD | cDD =cDD |
+"G"B3 B=cB | GBB B=cB | "A7"AEA ABc | "D"dAF D2 :|

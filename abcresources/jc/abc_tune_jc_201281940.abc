@@ -1,0 +1,18 @@
+X: 710
+T: Good Morning to Your Night Cap
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #710
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0710/oneill-1001-0710-1.abc
+M: C|
+L: 1/8
+K: Am
+%%slurgraces 1
+%%graceslurs 1
+"^A"\
+[| A2(Ac) BGGB | cBcd (3(e^fg) (dB) | A2(Ac) BGGB | cABG (3(E^FG) D2 ||
+|| A2(Ac) BGGB | cBcd (3(e^fg) (dB) | A2(Ac) BGGB | cABG (EA)A2 |]
+"^B"\
+[| efec dedB | cBcd eaag | (3(e^fg) (ec) dedB | cABG (3(E^FG) D2 ||
+|| e2(ec) dedB | {d}cBcd e^f{a}ge | aged (3(e^fg) dB | cABG (EA)A2 |]

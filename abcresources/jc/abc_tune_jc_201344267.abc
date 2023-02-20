@@ -1,0 +1,21 @@
+X:187
+T: Tho' Prudence May Press Me (Duett XII)
+N: O'Farrell's Pocket Companion v.2 (Sky ed. p.96)
+M: 3/4
+L: 1/8
+R: waltz
+Q: 200
+V: 1 %%MIDI program 1 73 volume=70 % flute
+V: 2 %%MIDI program 1 40 % fiddle
+K: G
+[V:1] d| d2 B2 c2| de e2 ze| dc B2 A2| dB G2 zd|
+[V:2] A| B2 G2 A2| Bc c2 zc| BA G2 F2| BG G2 zB|
+%
+[V:1] d2 B2 c2| de e2 zd| gf ed cB| B2 A2 z2 ||
+[V:2] B2 G2 A2| Bc c2 zB| Bd cB AG| G2 F2 z2 ||
+%
+[V:1] A2 (3cBA (3cBA| B2 c2 d>A |A2 (3cBA (3cBA |B2 c2 d>d|
+[V:2] F2 (3AGF (3AGF| G2 A2 B>F |F2 (3AGF (3AGF |(3GFG (3AGA Bz|
+%
+[V:1] d2 B2 c2 |dg fa gd |ed/c/ B2 A2 | A2 G2 z2 ||
+[V:2] B2 G2 A2 |BB Ac BB |cB/A/ G2 F2 | F2 G2 z2 ||

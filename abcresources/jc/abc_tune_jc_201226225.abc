@@ -1,0 +1,32 @@
+X: 1015
+T: Bessy Bell
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+FGA ABc | B>AB G2G | FGA A>BA | f3 g2f/g/ |\
+aAA ABc | BAG g2f/g/ | agf ed^c | d3 f2 :|
+|: f/g/ |\
+afd faf | e^ce efg | afd d>ed | f3 Tg2f/g/ |\
+afd faf | e^ce efg | agf ed^c | d3 f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d3 D3 | g3 G3 | d3 zzd | dAF D2d |\
+d3 D3 | g2d B2G | f2d a2A | dAF D2 :|
+|: z |\
+d'3 d3 | a3 A3 | d2f a2f | d3 e2c |\
+d2f a2d | a3 A3 | fed a2A | dAF D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+Two first Cu. fall back and cross over, and so back again to their Places :|
+cross over and figure in .|
+lead thro' the 3d Cu. cast up and turn hands.
+%%endtext

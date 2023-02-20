@@ -1,0 +1,38 @@
+%!abctab2ps -notab
+%
+%%topmargin      2.20cm
+%%topspace       -0.40cm
+%%sysstaffsep   28pt
+%%systemsep     90pt
+%%stretchlast   yes
+%%vocalfont     Times-Roman 16.0
+%
+X:1
+%
+%%barnumbers    0
+%%indent        2cm
+%
+T:title
+C:composer
+L:1/4
+M:C
+K:C
+%
+V:S clef=treble  name=Superius bracket=4
+%%MIDI program 52  % 53. Choir Aahs
+V:A clef=treble  name=Altus
+%%MIDI program 52  % 53. Choir Aahs
+V:T clef=treble8 name=Tenor  octave=-1
+%%MIDI program 52  % 53. Choir Aahs
+V:B clef=bass    name=Bassus octave=-2
+%%MIDI program 52  % 53. Choir Aahs
+%
+[V:S]
+w: 
+[V:A]
+w:
+[V:T]
+w:
+[V:B]
+w:
+%

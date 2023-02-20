@@ -1,0 +1,24 @@
+X: 10243
+T: SAY MY HEART WHY WILDLY BEATING
+C: C. M. von Weber
+Q: "Slow and tenderly."
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.24 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B2B2 |\
+{d}c2B2A2G2 | F2E2 (D2EF) | G2B2 d3B | A2z2 B2B2 |\
+{d}c2B2 e2d2 | d2 c4 BA | G2G2 {B}A2F2 | HG4 z4 |\
+D4 z2({F}ED) | (D2 G4) D2 | c6 ({dc}BA) | (c2 B4) z2 |\
+D4 z2({F}ED) | (D2 G4) D2 |
+(D2 c4) (Bd/c/) | (HB2{AcB}HA2) B2B2 |\
+{d}c2B2 {B}A2G2 | F2E2 D2(EF) | G2B2 (e2dB) |  A2z2 B2B2 |\
+{d}c2B2 {B}A2G2 | F2E2 (D2EF) | G2B2 (d4 | de) (de) (dc)(AB) |\
+G2B2 (d4 | de) (de) (dc)(A{c}B) | G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,19 @@
+X: 97
+T: Sleep On My Kathleen Dear   #2
+B: O'Neill's 1850 #97
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+R: air
+%S: s:2 b:16(4+4+4+4)
+N: Compacted via repeats and multiple endings [JC]
+N: The A part has some ties and slurs dropped, to make the 4x repeat possible. See version #1 for the original.
+N: Also, the book has the grace notes only the 1st time, but that's for the player to decide.
+N: Some ABC software has problems with the 4x repeat. Adding the "A" and "B" labels partly fixed this.
+Q: "Slow"
+M: C
+L: 1/8
+K: G
+"^A"|::: G2 \
+| c2-cd  (cB) (AG) | G2(B/A/B/d/) e2 {a}g{f}e | (d<B) (AG) (ED) (EG) | G4 z2y :::|"^B"|: ze \
+| (=f>e) (fg) (fe) (dB) | d2(eg) g3=f |
+| (fe) (ge) (ed) (ge) | (dB) (c/B/A/G/) ED ze |\
+| (=f>e) (fg) e2g2 | G2Bd e2{a}g{f}e | d<B AG [1 (ED) (EG) | G6 :| [2 ({F}Ec/B/) c/B/A/G/ | G6 |]

@@ -1,0 +1,14 @@
+X: 1
+T: Ample Forth
+O: Wales arr. Andy Reiner / Rustic Roots
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 10/4
+L: 1/8
+K: Am
+|: E2 |\
+"Am"A^GAB cdec BAB=G AB "Em"G2 E2E2 |\
+"Am"A^GAB cdec "Em"BAB=G AB "Am"A4 :|
+M: 9/4
+|: e2 |\
+"Am"agfedc B2g2B2 e4e2 |\
+"Am"agfedc BAB2c2 A4 :|

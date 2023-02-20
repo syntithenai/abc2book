@@ -1,0 +1,32 @@
+X: 175
+T: die Goldene Khasene
+T: the Golden Wedding
+R: bulgar
+Z: John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/8
+K: DDor
+DFA \
+"^A"\
+|: "Dm"d2Ad- | dA/d/ c/B/A | dA3- | A2 (3cBA \
+| (3^GAB (3cBA | (3A^GF (3FED | ^GA3- | AD FA
+| "Dm"d2Ad- | dc "D7"BA | "Gm"dG3 | _B3 A \
+| "Dm"(3^GAB (3cBA | "A"(3A^GF (3FED | "Dm"D4- |1 DD FA :|2 "G"DD GB ||
+"^B"\
+|| "G"d4- | d_d c=B | "Gm"{^ce}d2 dd- | d4 \
+| ~ed ~ed | ~ed ~ed | f4- | f4
+| "Gm"ed d^c | ^c_B BA | "A"^c4- | c3 A \
+| A_B ^cd | ^c_B/c/ B/A/G | "Dm"A4- | A^G/A/ ^A/B/c/^c/
+"^A"\
+| "Dm"d2Ad- | dA/d/ c/B/A | dA3- | A2 (3cBA \
+| (3^GAB (3cBA | (3A^GF (3FED | ^GA3- | AD FA
+| "Dm"d2Ad- | dc "D7"BA | "Gm"dG3 | _B3 A \
+| "Dm"(3^GAB (3cBA | "A"(3A^GF (3FED | "Dm"D4- | D4 || [K:Dm]
+"^C"\
+|: "Dm"DF/F/ FF | ~ED FA | ~^GF GF | ^GF ED \
+| "A7"^CE A,C | EG FE |1"Dm"DE FG | A4 :|2 "Dm"D4- | D2 "D7"d2
+"^D"\
+|: "Gm"B4- | B2 d2 | "Dm"A4- | AA GF \
+| "A7"E3 F | GE FG | "Dm"A4- | A2 "D7"d2
+| "Gm"B4- | B2 d2 | "Dm"A4- | AA GF \
+| "A"EF ^GA | A/^G/F/G/ F/E/D |1 "D"D4- | DD GA :|2 "Dm"D4- | D4 |]

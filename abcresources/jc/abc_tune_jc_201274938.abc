@@ -1,0 +1,19 @@
+X: 63
+T: Farmer Hayes
+R: air, waltz, jig
+%S: s:4 b:32(8+8+8+8)
+B: O'Neill's 1850 #63
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+Q: "Slow"
+O: F.O'Neill
+M: 6/8
+L: 1/8
+K: D
+(D/E/) | (FEF) D2d  | (A2G) E2E | D2D (DCD) | G2{AG}E C2 \
+(D/E/) | (FEF) D2d  | (A2G) E2D | EFE  D2D  | D3- D2 ||
+(D/E/) | (FEF) D2d  | (A2G) E2E | D2D (DCD) | G2E C2 \
+(d/c/) |  A2A (ABA) | G2E   C2D | EFE  D2D  | D3- D2 |]
+|| C | D2E F2G | A2A (ABc) | d2c BAG | A2F D2 \
+   C | D2E F2G | A2A (ABc) | d2c BAG | A3 ||
+(ABc)  |  d2c   B2d  | c2B A2G | (FEF) (DFA) | G2E HC2 \
+(D/E/) | (FEF) (DFA) | G2E C2D | (EFE)  D2D  | D3- D2 |]

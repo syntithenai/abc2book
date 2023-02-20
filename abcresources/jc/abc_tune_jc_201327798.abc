@@ -1,0 +1,54 @@
+%abcjoin: renum=1 Xlast=0 Xnext=1 [OPT='R']
+X: 1
+T: the Silver Spire
+M: 4/4
+L: 1/8
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: "100 Essential Irish Session Tunes" 1995 Dave Mallinson, ed.
+R: Reel
+K: D
+A, |\
+"D"D2FE DFAc | "D"dcde fdAF | "G"GABG "D"FADF | "Em"(3GFE FD "A7"CEA,C | "D"D2FE DFAc |
+"D"dcde fdAF | "G"GABG "D"FADF | "A7"EA,CE "D"D3 :: A, | "A"A,B,CD  EFGE | "D"FDEF GABc |
+"Bm"dcBA Bcde | "E7"fdgf "A7"e3A | "D"defd "A"cdec | "G"BcdB "D"AFDF | "G"GABG "D"FADF | "A7"EA,CE "D"D3 :|
+
+%%sep 1 1 500
+X: 2
+T: the Silver Spire
+M: 4/4
+L: 1/8
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+R: Reel
+K: D
+A,2 |\
+"D"D2FE DFAc | "D"dcde fdAF | "G"G2BG "D"F2DF | "Em"GEFD "A7"ECA,C | "D"D2FE DFAc |
+"D"dcde fdAF | "G"G2BG "D"FEDF | "A7"EA,CE "D"D2 :: CB, | "A"A,B,CD  EFGE | "D"FDEF GABc |
+"Bm"dcBA Bcde | "E7"fdgf "A7"ecAc | "D"d2fd "A"c2ec | "G"BcdB "D"AFDF | "G"G2BG "D"FEDF | "A7"EA,CE "D"D2 :|
+
+%%sep 1 1 500
+X: 3
+T: the Silver Spire
+M: 4/4
+L: 1/8
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+R: Reel
+K: D
+|:\
+"D"D2FE DFAc | "D"d2de fdAF | "G"G2BG "D"F2AF | "Em"GEFD "A7"ECB,A, | "D"D2FE DFAc |
+"D"d2de fdAF | "G"G2BG "D"F2DF | "A7"EDCE "D"D4 ::"A"A,B,CD EFGE | "D"FDEF GABc |
+"Bm"dcBA Bcde | "E7"~f2gf "A7"e3c | "D"d2fd "A"c2ec | "G"BcdB "D"AFDF | "G"G2BG "D"F2DF | "A7"EDCE "D"D4 :|
+
+%%sep 1 1 500
+X: 4
+T: the Silver Spire
+S: the Roaring Jelly collection
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+|:\
+"D"D2FE DEFA | dcde fdAF | "G"G2BG "D"F2AF | "Em"EFGE "A"DCB,A, |
+"D"D2FE DEFA | dcde fdAF | "G"G2BG "D"FEDF | "A"EDCE "D"D4 :|
+|:\
+"A"A,B,CD EFGE | "D"FDEF GABc | "G"dBBA "Bm/F#"Bcde | "Em"f2gf "A"e3c |
+"D"d2fd "A"c2ec | "G"BcdB "D"AFDF | "G"G2BG "D"FEDF | "A"EDCE "D"D4 :|

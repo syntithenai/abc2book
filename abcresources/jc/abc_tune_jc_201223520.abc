@@ -1,0 +1,41 @@
+X: 07200
+T: The Little Old Log Cabin in the Lane
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: march, reel
+M: 2/4
+L: 1/8
+%%continueall
+K: F
+V: 1 clef=treble
+(F/A/) |\
+"F"[c2A2] [cA]>[dB] | [cA]A GF | "Bb"G<F F>D | "F"C2 "Dm"F"C7"[GE] |
+w: All* join hands and cir-cle to the left a-round the hall, To the
+"F"[AF][AF] "A7"[A^C][AC] | "Dm"[AD]<[AD] "G7"[GD]>[FD] | "C7"[G4-E4-] | [G2E2] F[AF] |
+w: Lit-tle Old Log Cab-in in the Lane._ You are
+"F"[c2A2] [cA]>[dB] | ([cA]A) GF | "Bb"G<F FD | "F"C2 "Dm"F"C7"[GE] |
+w: all go-ing wrong.** Go back the oth-er way, To the
+"F"[AF]<[cA] AF | "C7"G<B A>G | "F"F4- | F2 [GE][A_E] |
+w: Lit-tle Old Log Cab-in in the Lane._ Pla-ces
+|: "Bb"[BD][BD] [BD]>[BD] | [BD] [d2F2] [dB] | "F"[dF][cF] [cF]>[AF] | [c3A3] A |
+w: 1.~all and bal-ance all* and ev-'ry-bod-y swing, To~the
+w: 2.~First by the right hand* and next one by the left, To~the
+"F"FF FF | [AF]<[cA] [cA]>[AF] | "C"[G4-E4-] | [G2E2] ([AF][BG]) |
+w: Lit-tle Old Log Cab-in in the Lane._ The_
+w: Lit-tle Old Log Cab-in in the Lane._ And_
+"F"[cA][cA] [cA]>[dB] | [cA]A GF | "Bb"G<F FD | "F"C2 "Dm"F"C7"[GE] |
+w: left hand on your corn-er, and your part-ner by your right, And you
+w: when you meet your pern-ner you* make your home-ward flight, To the
+"F"[AF]<[cA] AF | "C7"G<B A>G | "F"F4- |1 F2 [GE][A_E] :|2 F2 |]
+w: grand right and left* half a-round_
+w: Lit-tle Old Log Cab-in in the Lane._ 
+%
+V: 2  clef=bass middle=d
+z | f[c'a] c[c'a] | f[c'a] c[c'a] | B[d'bf] d[d'bf] | f[af] [ad][bc] |
+f[c'a] e[ag] | d[af] G[=bgf] | c[_bge] eg | [bec]z f2 |
+f[c'a] c[c'a] | f[c'a] f[c'a] | B[d'bf] d[bf] | f[af] [ad][bc] |
+f[c'a] f[c'a] | e[c'g] c[c'ge] | f[c'a] c[c'af] | [c'2a2f2] [f2F2] |
+|: B[bf] d[bf] | B[d'bf] d[bf] | f[c'a] c[c'a] | f[c'a] c[c'a] |
+f[c'a] c[c'a] | f[c'a] f[c'a] | [c'c]>[d'd] [e'e][d'd] | [c'c]b ag |
+f[c'a] c[c'a] | f[c'a] f[c'a] | B[d'bf] d[d'bf] | f[af] [ad][bc] |
+f[c'a] c[c'a] | e[c'g] c[c'ge] | ff cA |1 [f2F2] f2 :|2 [f2F2] |]

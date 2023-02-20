@@ -1,0 +1,19 @@
+X: 1
+T: the Warlock's Strathspey
+C: Robert Lowe [19th C]
+S: Taught by Alasdair Fraser Fiddle Hell 2022
+R: strathspey
+B: J.Holland Book
+D: Bill Lamey (on a 78)
+Z: 2022 John Chambers <jc:trillian.mit.edu> (plus Jerry's chords 2020-2-17)
+N: Note extra beat when repeating; not fixed.
+M: C
+L: 1/8
+K: Em
+e2 \
+|:"Em"B<E "(B7)"G>F "Em"E2 (3EFG | "D"A>B A<F D2 (3DEF \
+| "Em"G>E "(D)"F>D "Em(C)"E<e e>f | "(Em)"g>e "D"(3fed "Em"e3 [1 d :|2 B ||
+| "Em"(3efg B>g e<B g>e | "D"(3fga d>a f<d a>f \
+| "Em"(3efg B>g "(G)"e<B g>e | "D(Bm)"d>B A<F "Em"E2 E>B ||
+| "Em"(3efg B>g e<B g>e | "D"(3fga d>a f<d a>f \
+| "Em"e>g f>e "D"d>B A>F | "(Bm)"G<B "D"A>F "Em"E2 E2 |]

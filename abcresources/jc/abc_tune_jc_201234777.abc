@@ -1,0 +1,20 @@
+X: 20774
+T: LORD RONALD, OR LORD RANDALL.
+O: Old Scottish ballad air
+Q: "Very slow."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.77 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G>A |\
+B2 B2 Bd | ({c}B2 A2) Bd | e2 e2 dB | {B}A4 Bd |\
+e3 d BG | DE G2 GA | B2 (cB)(A>G) | G4 G>A |\
+B2 B2 Bd | {c}B2 A2 Bd | e2 d2 dB | {B}A4 Bd |\
+e3 d BG | D2 G2 GA | B2 {c}B2 A>G | G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

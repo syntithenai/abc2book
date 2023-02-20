@@ -1,0 +1,25 @@
+X: 11803
+T: TARRY WOO
+O: Scottish air.
+Q: "Moderate."
+%R: air, march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.180 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+G3A B2(AG) | (E>DEG) {G2}A4 |\
+G3A B2(AB) | (cB)(AG) (B>c)d2 |\
+G3A B2(AG) | (E>D) EG {G2}A4 |\
+G3A B2(GB) | (cB)(AG) (B>c) d2 |]
+e2(ge) d2(ed) | B2(gB) {B2}A4 |\
+e2(ge) d3e | g>a (ba) g4 |\
+e2(ge) d2(ed) | (cB) (gB) A3B |\
+(G>ABc) (d>edc) | B2(AG) (B>c)d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

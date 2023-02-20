@@ -1,0 +1,16 @@
+X: 352	% 99
+T: Old Joe Clark
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.35 #2
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Added flag to last notes in bar 8, to fix the rhythm.
+M: 2/4
+L: 1/8
+K: A
+V: 1 name="99"
+E |\
+[A2E2] [A2E2] | ed [c2E2] | Ac B^G | E2- EE |\
+[A2E2] [A2E2] | ed [c2E2] | Ac BE | [A2-E2-][AE] ||
+E |\
+[e2c2] [ec]>f | =gfe>d | ef=gf | e2- eA |\
+e2 e>f | gfe>c | Ac BE | A3 |]

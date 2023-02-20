@@ -1,0 +1,28 @@
+X: 1
+T: Kick the World before me
+P: Longways for &c.
+%R: slip-jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.61
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (44)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The versions of the tune and dance in CCDTB and CCDM2 are identical, even the capitalization.
+M: 9/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+e | =f2d ecA Acd | =f2d gec d2e | =f2d ecA Acd | =f/g/a=f ecA d2 :|
+|: e | =f/g/a=f ged cde | =f/g/a=f ged e/f/ge | =f/g/a=f gec cde | =f2d ecA d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+a | d3 A3 c3 | d3 e3 f2e | d3 A3 c3 | d3 a3 d2 :|
+|: A | d3 e3 f2e | d3 e2f c3 | d3 e3 f2e | d3 a3 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+%% The 1st Man turn the 2d Wo. then stand Back to Back and kick out their Legs .|
+%% The other two do the same :|
+%% Then the 1st Man leads his Partner thro' the 2d Cu. and up again and cast off and turn .|
+%% then Right and Left quite round and turn .|
+%%endtext

@@ -1,0 +1,23 @@
+X: 185
+T: Epstein Bulgar (v.1)
+R: bulgar, freylach
+Z: John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+S: Ben Pasamanick
+M: 4/4
+L: 1/8
+K: Dm
+(5A/B/A/^G/A/ \
+| "Dm"B2 A2 G2 (3{G}FEF | "A7"E4 zA,=CE \
+| G3 ^G (3AGF (3{G}FED | "Dm"EF3- FB/A/ ^GA |
+| "Dm"f>f "A"e>e "Dm"d>d "D7"c>c | "Gm"B>B "A"A>A "Gm"G3 ^G \
+| "A7"^GA2=G (3AGF F/E/D/=C/ | "Dm"D4 z :|
+|: (5A/B/A/^G/A/ \
+| "A"=c4 z(5A/B/A/^G/A/ | "Dm"d4 zA,=CE \
+| "A7"G3 ^G (3AGF (3{G}FED | "Dm"EF3- FABA |
+| "A"=c4 z(5A/B/A/^G/A/ | "Dm"d3A AB/A/ GF \
+| "A"EC =C^G (3AGF {G}F/E/D/=C/ | "Dm"D4 z :| [K:D]
+|: ABA \
+| "D"dz zF Az zG | F/G/A/G/ FE DA _AG \
+| F>A BA dF AD | FA, DE FG/F/ ED | "A7"E>F GA FG/F/ ED |
+| "D"^GA3- A3A | FA f=f e_e dc \
+| =cB _BA G{AG}F ED | "A7"E>F GB A{BA}G F{GF}E | "D"D4 z :|

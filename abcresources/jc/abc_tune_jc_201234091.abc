@@ -1,0 +1,22 @@
+X: 2025
+T: CUT AND DRY
+R: Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.2 p.6 #25
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Added beam in bar 8 to fix the rhythm.
+M: C
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: A
+[|\
+vc>vBuA>ue c<Ae<=g | B>=Gd>B G/G/G TB2 |\
+c>BA>e c<Ae<=g | d>B=g>B A/A/A Te2 |\
+vc>vBuA>ue c<Ae>=g |
+B>=Gd>B G/G/G TB2 |\
+c>BA>e c<Ae<=g | d>B=g>B A/A/A Te2 |\
+{d}vc>vBuA>ug a>ba>=g | e>=gd>B =G/G/G TB2 |
+vc>vBuA>ug a>ba>=g | e>d {ef}=g>B A/A/A Te2 |\
+c>BA>g a>ba>e | =g<b e<g B<=G d<B |\
+c<A vd>uB e<c va>u=g | ve>vdu=g>uB A/A/A Te2 |]

@@ -1,0 +1,24 @@
+X:32
+T:Roaring Waters
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Cirran Tourish
+S:Altan - The Blue Idol
+R:jig
+K:Dmix
+T:A Part
+"D"{G}FDD "C"E3|"D"DEF GAB|ABc ded|{d}cAF "G"GAG|
+"D"{G}FDD "C"E3|"D"DEF GAB|ABc "G"dcA|"C"GED "D"D3:|
+T:B Part
+"D"{G}FDD A3|(3ABc B AGF|"G"GAG GFG|"D"ABA FED|
+"D"{G}FDD ADD|(3ABc A d2B|"G"cdc BAG|1 "A"BAA A2G:|2 "A"BAA AGF||
+T:C Part
+"G"G3 GFG|"A"ABB AFD|"D"DED AFD|"C"EFE "D"DEF|
+"G"G3 GFG|ABB AFD|"D"DED AFD|1 "C"EFE "D"DEF:|2 "C"EFE "D"D2 B||
+T:D Part
+"C"cdc BAG|"A"BAA A2G|"D"FDD "G"GEE|"D"FGA BAB|
+"C"cdc BAG|BAA A2G|"D"FDD ADD|1 DEF "G"G2 B:|2 DEF "G"G2 (3ABc||
+T:E Part
+"D"d^cd AFA|"C"cde "D"d2 e|"D"fAA "G"gAA|"D"age "C"cde|
+"D"d^cd AFA|cde d2 B|"C"cBc EFG|1 "D"FGA "G"B2 (3ABc:|2 "G"FGA BAG||

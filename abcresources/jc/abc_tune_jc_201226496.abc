@@ -1,0 +1,23 @@
+X: 102
+T: le Douze de Decembre.          F.
+C: Ignatius Sancho 1775
+%R: march, reel
+B: "Minuets Cotillons & Country Dances", 1775 p.10 #2 (and top of p.11)
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: e2g2 g2c2 | dcBA G2G2 | ABcA BcdB | c2g2 g4 | e2g2 g2c2 | dcBA G2G2 | ABcA BcdB | c2c2 c4 :|
+[V:2] |: c4 e4 | g4 e2c2 | f4 d2g2 | e2c2 e2g2 | c'4 c2e2 | g4 e2c2 | f4 d2g2 | c2g2 c'4 :|
+[V:1] |: e2g2 g2c2 | f2a2 a4 | e2g2 g2c2 | dcde f4 | e2g2 g2c2 | f2a2 a2d2 | e2c2 BcdB | c2c2 c4 :|
+[V:2] |: c4 e4 | f4 F2f2 | e4 c2e2 | g4 agab | c'4 c4 | a4 f4 | g4 G4 | c2G2 C4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% All Ballance and hands round, Back again, The 1st four Allmande, the other four Chassee at
+%% the same time: the other four do the same, the first four Chassee at the same time.
+%%endtext

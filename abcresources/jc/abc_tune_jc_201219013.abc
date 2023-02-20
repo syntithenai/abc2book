@@ -1,0 +1,29 @@
+X:0201
+T:La Temp\^ete (The Tempest)
+P:La Temp\^ete
+C:Aird's Collection 1788-1803
+R:Reel (nx48) AABBC
+B:RSCDS 2-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:C
+V:1
+%%staves (1 2)
+[V:1] |:"C"[c2E2]>G2 (5:4GAG^FG|e2c2 c4|"G7"d2G2 A2B2|"C"c2e2 g4|\
+[V:1]   "C"[c2E2]>G2 TG4|"Am"e2c2 c4|"G7"d2G2 A2B2|"C"[c2E2]z2[c2E2]z2:|
+[V:1] |:"C"g3ee2c2|"G"d2B2 G4|"C"g3ee2c2|"G"d2B2 G4|\
+[V:1]   "C"[c2E2]>G2 TG4|"C"e2c2 c4|"G7"d2G2 A2B2|"C"c2z2 c2z2:|
+[V:1]   "C"c2>e2 g2e2|"F"a2f2 "C"g2e2|"G7"f2d2 "C"e2c2|"G"dcBA G4|\
+[V:1]   "C"c2>e2 g2e2|"F"a2f2 "C"g2e2|"G7"f2d2 "C"e2c2|"G7"d2B2 c4||
+[V:1]   "C"g2>e2e2c2|"G"d2B2 G4|"C"g2>e2e2c2|"G"d2B2 G4|\
+[V:1]   "C"c2>e2 g2e2|"F"a2f2 "C"g2e2|"G7"f2d2 "C"e2c2|"G7"d2B2 c4|]
+%V:2
+%[V:2] |:   x8                  |x8     |    x8       |   x8     |\
+%[V:2]      x8           |    x8     |    x8       |   x8              :|
+%[V:2] |:   G8     |   G8     |   G8       |   G8     |\
+%[V:2]      x8           |   x8     |    x8       |   x8       :|
+%[V:2]      x4    G4  |   A4      G4  |    F4      E4  |   x8     |\
+%[V:2]      x4    G4  |   A4      G4  |    F4      E4  |    F4   E4||
+%[V:2]      G8       |   G8     |   G8       |   G8     |\
+%[V:2]      x4    G4  |   A4      G4  |    F4      E4  |    F4   E4|]

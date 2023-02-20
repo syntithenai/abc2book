@@ -1,0 +1,31 @@
+
+X: 1
+T: Moldavskaya Hora
+D: Konsonans Retro "a Podolian Affair"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+   "D7"z2 "A"| "G"D^CD2 B^AB2 | D^CD2 B^ABc | "D7"dccB  BAAG |  "G"GABc d^cd2 |
+y4           | "G"D^CD2 B^AB2 | D^DEF GABc  | "D7"dBcA  BGAF |  "G"G6     :|
+|: "E7"z2 "B"| "Am"AGFG A4    | AGFG  A4    | "B7"BAAG  GAFG | "Em"EFGA B6 |
+y4           | "Am"AGFG A4    | AGFG  A4    | "B7"BAAG  GAFG | "Em"E6     :|
+|:    B,2 "C"| "Em"E2z2 z2B,2 | E2F2  G2A2  | "Gm"A_BBA AGGF | "Gm"G4 z2A2 |
+y4           | "Gm"A_BBA "E7/G#"AGGF | "Am"G2 A4 G2 | "B7"BAGF GAFG | "Em"E6 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Moldavskaya Hora
+D: Konsonans Retro "a Podolian Affair"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+"E7"z2 "A" | "A"E^DE2 c^Bc2 | E^DE2 c^Bcd | "E7"eddc cBBA | "A"ABcd e^de2 |
+y4         | "A"E^DE2 c^Bc2 | E=F^FG ABcd | "E7"ecdB cABG | "A"A6 :|
+|: "F7"z2 "B" | "Bm"BAGA B4 | BAGA B4 | "C#7"cBBA ABGA | "F#m"FGAB c4 |
+y4         | "Bm"BAGA B4 | BAGA B4 | "C#7"cBBA ABGA | "F#m"F6 :|
+|: "C#7"C2 "C" | "F#m"F2z2 z2C2 | F2G2 A2B2 | "Am"B=ccB BAAG | "Am"A4 z2B2 |
+y4         | "Am"B=ccB "F7/A#"BAAG | "Bm"A2 B4 A2 | "C#7"cBAG ABGA | "F#m"F6 :|

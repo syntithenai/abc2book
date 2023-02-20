@@ -1,0 +1,31 @@
+X: 20782
+T: HARRISON SETT (tune 2)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.78 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="2"
+G,2 |\
+C2CD E2EF | G2E2 c4 | A2AB cBcA | G4 E2G,2 |\
+C2CD E2EF | G2E2 c4 | B2Bc dcdB | c2e2c2 H|]
+d2de gfed | e2e2 c4 | B2Bc dcdB | c2e2 G4 |\
+d2de gfed | e2e2 c4 | B2Bc dcdB | c2e2"^D.C."c2 |]
+d2de fefd | e2e2 c4 | B2Bc dcdB | c2e2 G4 |\
+d2de fefd | e2e2 c4 | dedc BcBA | G^FAG FEF"^D.C."D |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back.
+%% -- Cross over.
+%% -- Chasse de chasse.
+%% -- Cross back.
+%% -- Ladies chain.
+%% -- Promenade four.
+%% -- Next two, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

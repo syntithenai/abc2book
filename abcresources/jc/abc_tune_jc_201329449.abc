@@ -1,0 +1,16 @@
+X:1
+T:Reel de Pointe-au-Pic (basic-Play this if the above has too many notes!)
+C:
+R:Reel
+M:C|
+L:1/8
+K:C
+g eg|\
+"C"d2c2 B2A2|GG G2-Ggec|d2c2 "C#dim"cBAc|"Dm"BBB2-B fde|"Dm"c2B2 AcAc|
+"G"BB B2-Bz2g|aggg "G7"agec|"C"GG G2zgec|"C"d2c2 B2A2|GG G2-Ggec|
+"C"dz c2 "C7/Bb"cdcB |"F"A2 z2 "C#dim"A3B|"Dm"c2 Bc "G/B"d2 cd|"C"eceg "Am"a3 e|"D7"g2f2- "G7"fdAB|"C"ccc2-"E7"c2 B2||
+"Am"A2 AB cBcd|"Am/G#"eaae a2-ag|"Am/G"e2a2 abag|"Am/F#"e2a2 ageA|"G"G3A B3d|
+gg g2-gGBd|"Em"gg g2-gGBd|g^fga "E7"gedB|"Am"A3B c3d|"Am/G#"eaae a2-ag|"Am/G"eaag abag|
+"Am/F#"eaaga2 zA|"Cdim/Eb"c3c-c2z^f|"C"g^fga "Am7"gecd|"D7"egec "G7"dedB|"C"ccc2-c|]
+%%textfont Times-Roman 7
+%%text 8/10/2009

@@ -1,0 +1,27 @@
+X: 262
+T: LADY CHARLOTTE CAMPBELL
+C: R. MACKINTOSH
+R: Reel
+B: Glen Collection p.26 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: A
+V: 1
+F |\
+B3f dBfd | edcB AFcA | B2bf dBfB | AFec dBB :|
+d |\
+f2(db) g2(Ee) | c2(Aa) f2(Dd) | B2(Gg) edcB | AFec dBBf |
+dBba gfed | cAag fedc | BGgf edcB | AFec dBB |]
+V: 2
+z |\
+B2[b2d2] [b2f2][b2d2] | [a2f2][a2f2] [c'2f2][c'2f2] |\
+B2[b2d2] [b2f2][b2d2] | [c'2f2][a2f2] [b2B2][bB] :|
+z |\
+d2[b2f2] e2[b2g2] | f2[c'2a2] B2[b2f2] |\
+e2[b2g2] [a2c2][b2d2] | [c'2f2][a2f2] [b2B2][b2B2] |
+d2[b2f2] e2[b2g2] | f2[c'2a2] B2[b2f2] |\
+e2[b2g2] c2e2 | f2[a2f2] [b2f2B2][bfdB] |]

@@ -1,0 +1,91 @@
+X: 1
+T: Mari\vcensko pravo horo   [A]
+O: Bulgaria
+M: 12/16
+L:  1/16
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: Based on recording, plus transcriptions by Bill Tomczak and Tom Pixton.
+P: 2x(ABCD,EFG)+ABCD
+K: ^c_B
+"A"\
+|: "A"Aee e2d "Gm"dcB "A"A3 \
+|  "A"c2d e2e "Gm"gfd "A"e3 \
+|  "A"Aee e2d "Gm"dcB "A"A3 \
+|  "A"GAA A2B "Gm"dcB "A"A3 :|
+"B"\
+|: "A"GAA A2B "Gm"dcB "A"c3 \
+|     cde "Dm"f2e dfd "A"e3 \
+|    ef^f gdf "Gm"g3 =fed \
+| "Gm"ced dcB "A"AAE A3 :|
+"C"\
+|: "A"ef^f gdf "Gm"g3 =fed \
+|  gba adf fed dcB \
+| "A"ef^f gdf "Gm"g3 fed \
+| "Gm"ced dcB "A"AAE A3 :|
+"D"\
+|: "A"GAA ABB "Gm"BzB B2A \
+|  "A"GAA "Gm"AEG AEG "A"A3 \
+|  "A"GAA ABB "Gm"BzB B2A \
+|  "A"GAA "Gm"AEG "A"A2E "fine"Az2 :| [K:C]
+"E"\
+|: "G"G3 g3 gfe d^cB \
+|  d^cd edc B^AB GdG \
+|  deg efG e3 d^cB \
+|  d^cd edc B^AB G3 :|
+"F"\
+|: "G"deg efG e3 d^cB \
+|  d^cd edc B^AB GdG \
+|  deg efG e3 d^cB \
+|  d^cd edc B^AB G3 :|
+"G"\
+|: "C"c2e "G"d2e "C"c2e "G"d2e \
+|  "C"c2e "G"d2B "C"c2B "G"B2G \
+|  "C"c2e "G"d2e "C"c2e "G"d2e \
+| "C"c2e "G"d2B "C"c2B "G"B2G :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2
+T: Mari\vcensko pravo horo   [B]
+O: Bulgaria
+M: 12/16
+L:  1/16
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: Based on recording, plus transcriptions by Bill Tomczak and Tom Pixton.
+P: 2x(ABCD,EFG)+ABCD
+K: ^d^f=c
+"A"\
+|: "B"Bff f2e "Am"edc "B"B3 \
+|  "B"d2e f2f "Am"age "B"f3 \
+|  "B"Bff f2e "Am"edc "B"B3 \
+|  "B"ABB B2c "Am"edc "B"B3 :|
+"B"\
+|: "B"ABB B2c "Am"edc "B"d3 \
+|     def "Em"g2f ege "B"f3 \
+|    fg^g aeg "Am"a3 =gfe \
+| "Am"dfe edc "B"BBF B3 :|
+"C"\
+|: "B"fg^g aeg "Am"a3 =gfe \
+|  ac'b beg gfe edc \
+| "B"fg^g aeg "Am"a3 =gfe \
+| "Am"dfe edc "B"BBF B3 :|
+"D"\
+|: "B"ABB Bcc "Am"czc c2B \
+|  "B"ABB "Am"BFA BFA "B"B3 \
+|  "B"ABB Bcc "Am"czc c2B \
+|  "B"ABB "Am"BFA "B"B2F "fine"Bz2 :| [K:D]
+"E"\
+|: "A"A3 a3 agf e^dc \
+|  e^de fed c^Bc AeA \
+|  efa fgA f3 e^dc \
+|  e^de fed c^Bc A3 :|
+"F"\
+|: "A"efa fgA f3 e^dc \
+|  e^de fed c^Bc AeA \
+|  efa fgA f3 e^dc \
+|  e^de fed c^Bc A3 :|
+"G"\
+|: "D"d2f "A"e2f "D"d2f "A"e2f \
+|  "D"d2f "A"e2c "D"d2c "A"c2A \
+|  "D"d2f "A"e2f "D"d2f "A"e2f \
+| "D"d2f "A"e2c "D"d2c "A"c2A :|

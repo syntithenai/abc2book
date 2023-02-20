@@ -1,0 +1,43 @@
+
+X: 1
+T: Bunjeva\vcko Moma\vcko Kolo    [D]
+O: Croatia, Serbia
+R: kolo
+M: 2/4
+L: 1/16
+K: D
+|:\
+"G"[b4g4] "D"[af][bg][af][ge] | [fd][ec][fd][ge] [a2f2][a2f2] |\
+"G"[b2g2][b2g2] "D"[af][bg][af][ge] | [fd][ec][fd][ge] "A"[e2c2][e2c2] :|
+|:\
+"D"[d2A2][ec][fd] "A"[g2e2][gc][ac] | "D"[f2d2][fd][ge] "A"[a2c2][a2e2] |\
+"D"[d2A2][ec][fd] "A"[g2e2][gc][ac] | "D"[fd][ec][fd][ge] "A"[e2c2][e2c2] :|
+|:\
+"D"[d2F2][d2F2] "A"[e2G2][eG][fA] | "D"[d2F2][d2F2] "A"[e2G2][eG][fA] |\
+"D"[d2F2][d2F2] "A"[e2G2][eG][fA] | "D"[d2F2][d2F2] "A"[A2E2][A2E2] :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Bunjeva\vcko Moma\vcko Kolo    [G]
+O: Croatia, Serbia
+R: kolo
+M: 2/4
+L: 1/16
+K: G
+|:\
+"C"[e4c4] "G"[dB][ec][dB][cA] | [BG][AF][BG][cA] [d2B2][d2B2] |\
+"C"[e2c2][e2c2] "G"[dB][ec][dB][cA] | [BG][AF][BG][cA] "D"[A2F2][A2F2] :|
+w: Ja cu-*ra,* ti* di-*voj-ka, sva-di-mo* se* o-*ko* mom-ka.
+|:\
+"G"[G2D2][AF][BG] "D"[c2A2][cF][dF] | "G"[B2G2][BG][cA] "D"[d2F2][d2A2] |\
+"G"[G2D2][AF][BG] "D"[c2A2][cF][dF] | "G"[BG][AF][BG][cA] "D"[A2F2][A2F2] :|
+w: Zu-bi* su mu* od bi-*se-ra u-sta* sla-\da* od* \vse-*\'ce-ra.
+|:\
+"G"[G2B,2][G2B,2] "D"[A2C2][AC][BD] | "G"[G2B,2][G2B,2] "D"[A2C2][AC][BD] |\
+"G"[G2B,2][G2B,2] "D"[A2C2][AC][BD] | "G"[G2B,2][G2B,2] "D"[D2A,2][D2A,2] :|
+w: Aj-de di-ko* pa me pro-si,* pa me svo-joj* ku-\vci no-si.
+%
+W: Ko j'bi \davo igr'o s tobom  Kad se riva\vs livom nogom.
+W: Ayde diko, pa me prosi.      Pa me svojoj ku\vci nosi.

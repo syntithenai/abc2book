@@ -1,0 +1,29 @@
+X: 1
+T: Recruiting Officer
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #6/4 (1/4)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the "Each strain twice" instruction.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+d>ef ecA | d3  A2F | G>AB AFD | E3 A,2A |\
+d>ef gec | dfB A2G | FdF  Edc | d3 D2 :|
+|: e |\
+f>ga ecA | g3  f3  | B>cd efd | c3 A2a/g/ |\
+fdc  BgB | AfB A2G | FdF  Edc | d3 D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man cast off and turn the 2d Wo. quite round the
+%% 1st Wo. at the same Time follows him below the 2d Man
+%% and turns him quite round .| Then figure thro the 3d Cu.
+%% and cast up to the Top :| The 1st Cu. cast off and take with
+%% the 3d Cu. and go half round .| All set and turn single
+%% then Hands back again which brings the 1st Cu. into the
+%% 2d Cu. Place proper :|
+%%endtext
+%%sep 1 8 500

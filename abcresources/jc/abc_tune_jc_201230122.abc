@@ -1,0 +1,35 @@
+X: 132
+T: Lady Nelly Wemyss's Reel
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.13 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B |\
+Tc2e- e(f/^g/a) | cAc Te2d |\
+Tc2e- e(e/f/=g) | BGB d2B |\
+Tc2e- ef^g | a^gf edc |\
+dfd cac | BGB d2 :|
+|: (f/^g/ |\
+a)cA ecA | acA ef^g |\
+acA ecA | BGB d2(f/^g/ |\
+a)cA ecA | a^gf edc |\
+dfd cac | BGB d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a3 a3 | a3 a3 |\
+a3 a3 | g3 g3 |\
+a3 a3 | a3 a3 |\
+a3 a3 |
+g3 g2 :|\
+|: z |\
+a3 a3 | a3 a3 |\
+a3 a3 | g3 g3 |\
+a3 a3 | a3 a3 |\
+a3 a3 | g3 g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

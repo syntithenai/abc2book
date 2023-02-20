@@ -1,0 +1,31 @@
+X:249
+T:The Fifth Dimension
+%%MIDI gchord GcHcGcIcGc
+C:Colin Hume, 1990
+L:1/4
+M:5/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=86
+N:This is a difficult tune to play, but please trust me and play the chords (and preferably
+N:the bass notes) I have written, rather than assuming I didn't really mean them!
+K:G
+P:A
+|: "G"dc/B/ "/"AG "C"E3/F/ "/"GA "D"F2 | "Em"G3/A/ "/"BG "Am"AA/B/ "/"ce "D"d2 |\
+"G"dB/c/ "/"dG "C"ec/d/ "/"e/d/c/B/ "D"A2 |
+"Em"BG/A/ "/"BG "Am"cA/B/ "/"c/B/A/G/ "D"F2 | "C"E3/F/ "/"GA "G/D"Bd "D7"c/B/A "G"G2 :|
+P:B
+"Bm"d2 "Dm/A"B2 "E7/G#"e3/d/ "E7"cB "Am"c2 |\
+K:F
+"Am"c2 "Cm/G"A2 "D7/F#"d3/c/ "D7"BA "Gm"B2 |
+"Gm"B2 "Bbm/F"G2 "C7/E"c3/B/ "C7"AG "F"AB/c/ |\
+"Bb"d3/c/ "Bb/A"d/e/f "Gm"dB "F"cA "/"FC | "Bb"D3/C/ "/"D/E/F "F/C"CF "C7"FE "F"F2 |
+P:C
+"Am"c2 "Cm/G"A2 "D7/F#"d3/c/ "D7"BA "Gm"BA/B/ | "F"cA "F/A"f2 "Bb"dB "G7/B"gf "C"ec |\
+"Bb"dB "F"cA "Dm"FE/F/ "C"GC "F"A2 |
+"Gm"B2 "Bbm/F"G2 "C7/E"g3/f/ "C7"ed "A7"^c=B/c/ |\
+K:G
+"D"dA "Bm"f2 "Em"eB "A7"^cA "D"d2 |
+P:D
+"D"AD- "/"DE/F/ "Em"GF "/"ED "A7"E2 | "D"AD- "/"DE/F/ "Em"GF "D7"GA "G"B2 |\
+"Em"BG- "/"GA/B/ "A7"^cA "/"Bc "D7"d2 |
+"G"dc/B/ "G/B"AG "C"E3/F/ "A7/C#"GA "D"F3/G/ | "B7/D#"AB "Em"GB "Am"cE "D7"A3/G/ "G"G2 |]

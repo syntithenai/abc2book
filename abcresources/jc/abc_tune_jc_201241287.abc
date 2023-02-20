@@ -1,0 +1,27 @@
+X: 4306
+T: Honey suckles Frolick
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/8
+L: 1/8
+K: F
+%
+V: 1
+F |\
+ABc cde | fef cde | def {c}B3 | {B}A3 z2F |\
+ABc cde | fef egf | edc ag=B | c3 c2 :|
+|: c |\
+fef gfe | fag fag | fag fcA | G3 z2F |\
+ABc cde | fge fge | fge fcA | F3 F2 |]
+%
+V: 2 clef=bass middle=d
+z |\
+f3 g3 | a3 f3 | b3 g3 | f3 F3 | f3 g3 | a2=b c'3 | c'3 g3 | c'3 c2 :||: z |
+f3 g3 | a3 b3 | a3 f3 | c'3 c3 | f3 g3 | a2b a2b | a2b c'2c | f3 F2 |]
+%%begintext align
+Cross over down one Cu. and turn hands, then down the next Cu. the same way
+and turn hands, the Wo. turns the upper Man with one hand, her Partner w.th
+the other, the Man does the like at the same time, only at the last Dancers
+turn with both hands.
+%%endtext

@@ -1,0 +1,29 @@
+X: 1
+T:Valentine
+M:6/8
+C:
+S:Bacon (From E. Spring (RD))
+H:from Steve Allen's Morris Library, C part transcribed by Alex Boster <boster@acm.org>
+N:
+A:Bledington
+O:English
+R:Jig
+P:A(AB$^3$)$^2$(AC$^3$)$^2$A
+%P:A.(AB3)2.(AC3)2.A
+L:1/8
+K:G
+I:speed 300
+P:A
+d|gfe  ede|edc  cBc|dBg  dBG|FAA A2 \
+d|gfe  ede|edc  cBc|dBG  DAF|GGG G2||\
+P:B
+B/2c/2|ded  dBd|BGG  G2 A/2B/2|cAc  BGB|FAA A2 \
+B/2c/2|ded  dBd|BGG  G2 d|(3efg e dBd|BGG G2||
+P:C
+B/2c/2|ded  dBd|BGG  G2 A/2B/2|\
+M:4/4
+L:1/4
+cA c2|BG B2|FA A2|
+M:6/8
+L:1/8
+A4-A B/2c/2|ded  dBd|BGG  G2 d|(3efg e dBd|BGG G2||

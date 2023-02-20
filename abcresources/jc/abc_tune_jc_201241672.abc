@@ -1,0 +1,35 @@
+X: 453
+T: MISS GRANT
+C: D. Mc LAREN
+R: Strathspey
+B: Glen Collection p.45 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Is the bass e2 in bar 2 a typo?
+M: C
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Em
+%
+V: 1
+d |\
+B>G E/E/E (E>G) BG | {B}A>F D/D/D (D>E) F<A |\
+[1 B>G E/E/E EG B>G | A<F F>A BEE :|\
+[2 G<B A<c B<G A<F | G<B A>F GEE ||
+f |\
+e>f g>f e<b g<e | f>e d>a f<d d>f |\
+e>f g>f e<b g<e | f>e d>f e<E E>f |
+g>f e<b B<b g<e | f>e d<a A<a f<d |\
+E<G F<A G<B A<c | B>G B/A/G/F/ GEE |]
+%
+V: 2
+z |\
+e2[b2g2] B2[b2g2] | e2[a2f2] A2[a2f2] |\
+[1 e2[b2g2] B2[b2g2] | d2^d2 e2E :|\
+[2 e2^d2 e2A2 | B2^d2 e2[bge] ||
+z |\
+e2[e'2b2] g2[e'2b2] | d2[d'2a2] A2a2 |\
+e2[e'2b2] g2[e'2b2] | d2B2 e2[b2g2e2] |
+e2[e'2b2] g2[e'2b2] | d2[a2f2] d2[a2f2] |\
+e2^d2 e2A2 | B2^d2 e2[bge] |]

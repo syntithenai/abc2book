@@ -1,0 +1,405 @@
+
+X: 0
+T:
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", London 1766
+K:
+%%center Twenty Four COUNTRY DANCES for the year 1766
+%%center With proper Tunes & Directions to each Dance, as they are Perform'd
+%%center at Court, Bath, Tunbridge, and all Publick Assembly's ~~
+%%center ----------------------
+%%center Printed for IOHN IOHNSON, in Cheapside, London
+%%center ----------------------
+
+%%sep 5 1 500
+
+
+%%sep 5 1 500
+
+X: 01
+T: The Duke of Edinburgh's Delight
+R: reel
+M: 2/4
+L:  1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.73 London 1766
+K: G
+|: gbag fagf | egfe d2D2 | cedc BdcB | AcBA G2G,2 :|
+|: GABA GABA | GABG c2C2 | ABcB ABcB | ABcA d2D2 |
+   egfg bgfg | dgfa g2G2 | egfg bgfg | dgea g2G2 :|
+
+
+%%sep 5 1 500
+
+X: 02
+T: The Golden Farmer
+R: reel
+M: C
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.73 London 1766
+K: F
+|: fgaf g2c2 gabg a2f2 | dfed cfed cBAG F4 :|
+|: fcaf gec2 babg afc2 | dfed cfed cBAG F4 :|
+|: fcfc gcgc bcbc acfc | dfed cfed cBAG F4 :|
+
+
+%%sep 5 1 500
+
+X: 03
+T: Simon Pure
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.74 London 1766
+K: Bm
+F | Bcd cdB | gfe fdB | gfe fbd | c3 F2A |\
+ded afd | bgb afd | bcd Afe | d3 D2 :|
+|: fg |\
+afb e^de | e^de Bba | gfe {g}fe^d | e3 Efg |\
+f>ed/c/ Bgf | e>dc/B/ ^Afe | dcB FB^A | B3 B,2 :|
+
+
+%%sep 5 1 500
+
+X: 04
+T: Success to Trace
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.74 London 1766
+K: Em
+E | BcB (Be)B | ABA (A^d)e | (GB)g fe^d | e(g/f/e/^d/) e2((3D/E/F/) |
+(GA)G Ged | (FA)A ABc | Bdg d(b/a/g/f/) | g(d/c/B/A/) G2 :||: A |
+(B/c/d)d d2c | (Bg)g g2f | (e^d)e gfe | B(f/e/^d/^c/) B2e |
+(c/B/A)a a2f | (^d/^c/B)b b2(B/A/) | (GB)e Fe^d | e(B/A/G/F/) E2 :|
+
+
+%%sep 5 1 500
+
+X: 05
+T: News from the Hague
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.75 London 1766
+K: A
+|: cec (Ac)A | dfd BdB | edc BcA | GAB E3 |
+   cec (Ac)A | dfd BdB | (c^d)e Be^d | e3 E3 :|
+|: ece (Ac)e | fdf (Ad)f | edc BcA | GAB E3  |
+   ece (Ac)e | fdf (Ad)f | eca Eag | a3  A3 :|
+
+
+%%sep 5 1 500
+
+X: 06
+T: The Weaver's Rant
+R: reel
+M: 2/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.75 London 1766
+K: F
+F2 |\
+cdcB AcBA | GBAG FEFG | Acde fcBA | GFED C2AB |
+cdcB Agfe | dedc =Bagf | ec=Bc afed | c2 C4 :|
+|: cd |\
+_efed cdcB | ABAG ^F_edc | Bbag dg^fa | g2 G4 dc |
+BAGF E2cd | cBAG Afef | Bgfg C2e2 | f2 F4 :|
+
+
+%%sep 5 1 500
+
+X: 07
+T: Fye for Shame
+R: reel
+M: C
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.76 London 1766
+K: E
+|: ge2g fd2f | ec2e cB3 | bg2b af2a | gefd e4 :|
+|: cA2c BG2B | AF2A GE3 | ge2g fd2f | cbf^a b4 |
+y/ BE2d cA2c | fc2f dB3 | bg2b af2a | gefd e4 :|
+
+
+%%sep 5 1 500
+
+X: 08
+T: The Capricious Lovers
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.76 London 1766
+K: D
+A |\
+ded ded | ABA AFE | DED Dgf | Tf3 e2e |\
+ecd Aef | ecd Ace | a^ga Ba^g | a3 A2 :|
+|: e |\
+cec ABc | dfd Bcd | ege faf | f3 e2A |\
+BcB ged | cdc a2f | efd Adc | d3 D2 :|
+
+
+%%sep 5 1 500
+
+X: 09
+T: Match me now if you can
+R: reel
+M: C|
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.77 London 1766
+N: Should the first note in bar 4 be g?
+K: C
+|: cdef  gedc | GABc  dBAG | cdef gedc | fefd c2C2 :|
+|: gfed ^cAag | fedc  BGgB | cdef gedc | gefd c2C2 :|
+|: gec_B AGF2 | a^fdc BAG2 | cdef gedc | gefd c2C2 :|
+
+
+%%sep 5 1 500
+
+X: 10
+T: Mum for that
+R: reel
+M: C
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.77 London 1766
+K: Gm
+|: BGBG dDdD BGBG dDdD | Bgca ^fdgB Agd^f g2G2 :|
+|: gbag ^f2d2 (g/a/b)ag ^f2d2 | Bgca ^fdgB Agd^f g2G2 :|
+|: BDGD AD^FD GABc d2D2 | Bgca ^fdgB Agd^f g2G2 :|
+
+
+%%sep 5 1 500
+
+X: 11
+T: The Knife Grinder
+R: reel
+M: C
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.78 London 1766
+K: D
+|: defe d2A2 | gfgf e2A2 | fedc d2B2 | AGFE D4  :|
+|: dcde dcde | dcde d2A2 | edef edef | edef e2A2 |
+   gfga gfga | gfga g2A2 | fefg fefg | fefg f2A2 |
+   defe d2A2 | gfgf e2A2 | fedc d2B2 | AGFE D4  :|
+
+
+%%sep 5 1 500
+
+X: 12
+T: Sawny's Return
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.78 London 1766
+K: A
+|: A2c c2e | ede cBA | A2c c2e | e^de E3 |\
+   A2c c2e | ede cBA | a2g fge | B2^d e3 :|
+|: a2e cBA |=g2e cBA | fga ega | edc {c}[B3E3] |\
+   cBc AGF | dBA GFE | a2e fdc | BAG A3 :|
+
+
+%%sep 5 1 500
+
+X: 13
+T: Johnny shake Hands
+R: slipjig
+M: 9/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.79 London 1766
+K: G
+|: gdB GBd C3 | gdB dBG E3 | gdB GBd C3 | bgb afa g3 :|
+|: bgd gdB C3 | bgd BGD E3 | bgd gdB C3 | bgb afa g3 :|
+|: G,B,D GBd c3 | G,B,D Bdg e3 | G,B,D GBd c3 | bgb afa g3 :|
+
+
+%%sep 5 1 500
+
+X: 14
+T: Daphne's Choice
+R: reel
+M: C
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.79 London 1766
+K: Am
+|: (ec).B.A (^GB)e2 (ac).B.A (^GB)e2 |  fdec   dB(^Ge) cAB^G A2A,2 :|
+|: (ge)dc   (Bd)g2 (c'e).d.c  (Bd)g2 |  afge     fdBg  ecdB  c2C2  |
+   (gf).e.d (^ce)a2 (fe).d.c  (Bd)g2 | (ec).B.A ^GBEd  caB^g a2A2 :|
+
+
+%%sep 5 1 500
+
+X: 15
+T: The Queens little Mare
+R: reel
+M: C
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.80 London 1766
+K: Cm
+|: gedc  fdc=B cdef g2G2 | gedc BcBA GFED   E4 :|
+|: gbfb  gbfb  gbfb g2e2 | egdg egdg fedc =B2A2 |
+   cG=BG cG=BG cdef g2G2 | agfe dAGF EDC=B, C4 :|
+
+
+%%sep 5 1 500
+
+X: 16
+T: The Christ'ning
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.80 London 1766
+K: G
+|: dcB ABG | cde def | gdb gdf | gdB GBd | gbf egB | AeG FED | ge^c dgf | Te3 d3 :|
+|: de=f edc | BcA ^G=fe | dec BE^G | Ace a2g | fge ^dbf | g>fe/d/ ^ca=c | Bdg Dgf | gdB G3 :|
+
+
+%%sep 5 1 500
+
+X: 17
+T: Prince William Henry's Birth Day
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.81 London 1766
+K: F
+|: fga efg | def edc | def edc | BAG F3 :||: ABc GAB | ABc C3  |
+   fcA geB | ABc C3  | faf dfd | gbg ece | fed cBA | GFE F3 :|
+
+
+%%sep 5 1 500
+
+X: 18
+T: Be merry and Wise
+R: reel
+M: C|
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.81 London 1766
+K: F
+   c | BAGF c2BA | Bcde f2af | gecA B2AG | BbAa G3 :|
+|: B | Aceg f3a  | gecA B2B2 | Aceg f3d  | cBAG F3 :|
+
+
+%%sep 5 1 500
+
+X: 19
+T: Rosy Joan
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.82 London 1766
+K: G
+|: G2D G,GA | BdB AFD | G2D G,GA | BgB [A3D3] | G2D G,GA | BdB g2d |
+cAd BGe | DGF G3 :||: BGB ADd | BGB ADd | BGd AFd | Ed^c [d3D3] :||: G2D G,GA |
+BdB AFD | G2D G,GA | BgB [A3D3] | G2D G,GA | BdB g2d | cAd BGe | DGF G3 :|
+
+
+%%sep 5 1 500
+
+X: 20
+T: Follow me Home
+R: reel
+M: C|
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.82 London 1766
+K: Bb
+F2 |\
+BABc BdcB | cBAG FBAB | GFED CBAc | BFDF B,2((3def) |
+gdcB AcAF | EcGE CdcB | AcAF CGB=e | f2 F4 :|
+|: AB |\
+cdcB ABAG | FEDC B,BAc | Bdce dcBA | GCB,A, G,BAB |
+FdcB Agfe | dbag fedc | dBFB cAFA | B2 B,4 :|
+
+
+%%sep 5 1 500
+
+X: 21
+T: The Prince of Brunswick's Reel
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.83 London 1766
+N: The only repeat symbol was :||: in bar 8.  Rewriting it as :| makes the tune 32 bars.
+N: If you instead place a :| repeat at the end, you get a good 48-bar jig, played AABCBC.
+K: G
+D |\
+G2G GDG | A2D DGA | BcB AGF | G2G G2D |\
+G2G GDG | A2D DGA | BcB AGF | G3- G2 :|
+B/c/ |\
+d2d dgd | c2c cAB | c2c cec | B2B BGA |\
+B2B BdB | G2G GAB | AGF ED^C | D3- D2 ||
+D |\
+G2G GDG | A2D DGA | BcB AGF | G2G G2D |\
+G2G GDG | A2D DGA | BcB AGF | G3- G2 |]
+B |\
+e2e e^de | ^d^cB B2B | d2d d^cd | ^cBA A2A |\
+cBc cBc | B^AB B"*)"AG | e2c Be^d | e2E E2 ||
+D |\
+G2G GDG | A2D DGA | BcB AGF | G2G G2D |\
+G2G GDG | A2D DGA | BcB AGF | G3- G2 |]
+W: *) Should probably be A natural.
+
+
+%%sep 5 1 500
+
+X: 22
+T: The Main of Honour
+R: march
+M: C|
+L: 1/4
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.83 London 1766
+K: C
+|: ca ac | Bg gB | ca ac | B2 G2 | ca ac | Bg gB | Ag d^f | g2 G2 :|
+|: ^Ge e^G | Ae e=G | ^Fd d^F | Gd d=F | Ec cE | Ff fD | Ec GB | c2 C2 :|
+
+
+%%sep 5 1 500
+
+X: 23
+T: Twa bonny We
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.84 London 1766
+K: Dm
+|: DFA d3 | FAd f3 | afa geg | fdf e^cA |
+   DFA d3 | FAd f3 | agf ed^c | dAF D3 :|
+|: FAc f3 | Adf a3 | ABc cBA | GAF EDC |
+   FAc f3 | A^ce a3 | fdf ed^c dAF D3 :|
+
+
+%%sep 5 1 500
+
+X: 24
+T: Strike home and away
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.84 London 1766
+K: G
+%%indent 370
+|: GAB AFD   | ABc BGE   | cde dcB | AGF G3 :|
+|: efg fed   | cde dcB   | ABc BAG | ecB [A3D3] |\
+   GAB AFD   | ABc BGE   | cde dcB | AGF G3 :|
+|: efe e^d=d | ded d^c=c | cdc cBA | GFE B3 |\
+   GAB AFD   | ABc BGE   | cde dcB | AGF G3 :|

@@ -1,0 +1,17 @@
+X: 211
+T: Corn Planter
+%R: reel
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: John Treat - "Gamut for the Fifes", 1779, p.21 #1
+F: https://archive.org/details/GamutFortheFifes
+M: 2/4
+L: 1/16
+K: G	% Actually 2 sharps, but that's clearly wrong.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+GFGA BAGF | G2d2 B2G2 | g2d2 edcB | G2d2 B2G2 |\
+GFGA BAGF | G2d2 B2G2 | g2fe fafd | fed^c d4 :|
+|:\
+dcBA G2 (3(DEF) | EGDF G2E2 | edcB G2 (3(EFG) | FAEG F2D2 |\
+G2DG B2GB | d2Bd g2ga | gfed cBAG | D2GF G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,14 @@
+X: 1
+T: Lady Be Good
+C: George Gershwin (1924)
+R: song
+S: Fiddle Hell Online 2022-4-3 handout for Ellen Carlson's chord analysis workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+|:\
+"G6 (G,B,D,E)"d4 c2B2 | "C9 (C,E,G,D)"d4 d4 | "G6"(3d2B2G2 D4- | "G6"D4 e4 | "D7 (D,F#,A,C)"(3d2c2A2 D4- |
+"D7"D4 B4 | "G"G8- |1 "D7"GDEF GABc :|2 "G7"GDEF GABc |] "C9"e4 d2c2 | "C#dim (C#,E,G,Bflat)"e4 e2e2 y|
+"G6"e4 d4- | "G6"d8 | "A9 (A,C#,E.B)"B4 B2B2 | "A9"B4 B2e2 | "D7"B4 A4- | "D7"A2B2 c2^c2 || "G6"d4 c2B2 |
+"C6"d4 d4 | "G6"(3d2B2G2 D4- | "G6"D4 e4 | "D7"(3d2c2A2 D4- | "D7"D4 B4 | "G6" G8- | "G6"G4 |]

@@ -1,0 +1,32 @@
+X:51
+T:Sailor Waltz Medley
+M:3/4
+L:1/4
+Q:1/4=160
+S:Vanha Merimies Muistelee, Heijallerii, Musta Rudolf
+R:waltz
+P:VMM,H,MR
+K:G
+P:VMM
+"D7" D/2B,/2C/2 | "G" D2 D | G2 A | B (G2 | G) z A/2A/2 |
+A G>B, | D2 E | "D7" (F3 | F) z D/2D/2 | c B A | E F>D | !
+"G" G3 | D2 ^D | "C" ECE | "D7" A2 B | (A3 | A) z/2 D/2B,/2C/2 |
+"G" D D D | G G>A | B (G2 | G) z G/2G/2 | !
+"C" c c c | G2 A | "G" (B3 | B) z/2 B/2B/2B/2 | "Am" A E F |
+A G E | "G" D B, D | G B G | "D7" A3 | E2 F | "G" (G3 | G) z/2 | !
+P:H
+B/2B/2B/2 | "G" A G E | D E>B, | D E>D | "D7" F3 |
+D D>F | A3 | "G" B B>A | G2 B | "G" A G E | D E>B, | !
+D E>D | "D7" F3 | D D>F | A2 B | "G" (G3 | G) z G |
+"C" E E E | c c c | "G" B B B | G2 B | !
+"D7" A A A | E F A | "G" G G E | D2 ^D | "C" E E<E | c3 |
+"G" d d>c | B3 | "D7" D D>F | A2 B | "G" (G3 | G) z/2 | !
+P:MR
+"D7" D/2C/2D/2 |  "G" G G G | G A>G | G3 | D2 D |
+G G G | B A>G | "D7" (A3 | A) z D | !
+c B>A | c B>A | c3 | D2 D |
+c B>A | c B>A | "G" (B3 | B) z G | !
+|: "C" c c c | e d>c | c3 | G2 A |
+"G" B A>G | B A>G | (B3 | B) z B | "D7" A E>A | !
+A B>A | "G" G3 | D2 G | "D7" A D>F |
+[1 A B>A | "G" G3 | G) z G :|[2 A B>D | "G" (G3 | G) z z ||

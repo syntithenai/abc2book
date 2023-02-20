@@ -1,0 +1,16 @@
+X:288
+T:Gone for a Burton
+C:John Ritchie
+L:1/8
+M:3/4
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=112
+%%MIDI ratio 3 1
+K:G
+D2 | "G"Bcd2B2 | "C"c2d2e2 | "D7"ABc2A2 | "G"B2c2d2 | "Em"GAB2G2 | "Am"A2B2c2 | "G"d2c2B2 | "D7"A6 |
+"G"Bc de dB | "C"cB cd e2 | "D7"AG AB cA | "G"BA Bc d2 |\
+"Em"GF GA BG | "Am"AG AB c2 | "D7"D2E2F2 | "G"G6 |
+"G"B2>^c2d2 | "D"AGF4 | "Em"GF GA "A7"BG | "D"FGA4 | "G"B2>^c2d2 | "D"A2d2f2 | "A7"g2f2e2 | "D"d4c2 |
+"G"BA Bc dB | "C"cB cde2 | "D"AG AB cA | "Bm"BA Bcd2 |\
+"Em"gf ed cB | "Am"ed cB AG | "D7"c2B2A2 | "G"G6 |]

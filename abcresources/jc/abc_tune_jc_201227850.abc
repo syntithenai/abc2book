@@ -1,0 +1,21 @@
+X: 10
+T: Millers Wedding
+%R: jig
+B: "Twenty Four Country Dances for the Year 1782", Thomas Skillern, ed. p.5 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1782#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+B2c |\
+dcB gfe | d3 B2c | dcB gfe | d3 d2d |\
+B2B e2d | ^c3 d2f | egf ed^c | d3 :|
+|: d2d |\
+c2c B2B | A3 d2d | c2c B2B | A3 GBG |\
+AcA BdB | c3 e2e | dcB cBA | G3 :|
+%%begintext align
+%%   Turn Your partner with the right hand
+%% Turn with the Left hand .| Lead down
+%% two Cu. up again and cast off :| Set
+%% 3 and 3 top and bottom :|. hands 6 round
+%%endtext

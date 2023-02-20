@@ -1,0 +1,15 @@
+X: 134
+T: the Mountain High   #2
+R: air
+%S: s:2 b:9(5+4)
+B: O'Neill's 1850 #134
+Z: 1997 henrik.norbeck@mailbox.swipnet.se
+Q: "Slow and distinctly"
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A2A2 BA2
+M: 2/4
+L: 1/8
+K: G
+d "^A"|: dB  c(A/G/) | (E<A) (G>E) | (D>E) [1 (.G(A/B/)) | c3 e :|[2 (.G.G) | "^fine"G3 |]
+"^B"[|  D | (.G.G) ((G/>A/) (B/c/)) | d2 (.e(d/c/)) | (BA) (.G(A/B/)) | c3 "^->A2"e |]

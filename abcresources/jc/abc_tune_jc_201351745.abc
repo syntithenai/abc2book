@@ -1,0 +1,23 @@
+X:181
+T: When I Think of My Love ("duett VII")
+N: O'Farrell's Pocket Companion v.2 (Sky ed. p.92)
+M: 2/4
+L: 1/8
+R: polka
+Q: 240
+V: 1 %%MIDI program 1 73 volume=70 % flute
+V: 2 %%MIDI program 1 40 % fiddle
+K: G
+[V:1] D|G2 GG|d2 dd|g2 gg|gf fd|ef ge|{e}d2 Bd|
+[V:2] z|z2 z2|B2 BB|B2 GA|BA AB|cd ec|B2    GB|
+%
+[V:1] dc BA| G3 :|d|^c2 cc|^cg ec|d2 AA|A2 fg|
+[V:2] BA GF| G3 :|z|AE AE |AB ^cA|F2 DF|D2 de|
+%
+[V:1] a2 f>a|g2 e>g|f2 d/f/a/f/ |f2    e2|d2 Bc|d2 Bc|
+[V:2] f2 df |e2 ce |d2 c/d/f/d/ |d/c/d A2|B2 GA|B2 GA|
+%
+[V:1] d2 ef|Hg3 e |d2 BG|AB cA |GB AF| G3 :|
+[V:2] B2 cA|HB3 c |B2 GB|D2 AF |Bd DA| B3 :|
+%
+%%%%%

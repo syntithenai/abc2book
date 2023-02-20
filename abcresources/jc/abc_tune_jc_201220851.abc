@@ -1,0 +1,24 @@
+X: 04077
+T: PYNE-MACELROY'S WEDDING MARCH
+C: Bob McQuillen 1 July 1979
+B: Bob's Note Book 04 #77
+R: march
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The "alternate endings" notation here is a bit odd.
+M: C
+L: 1/8
+K: D
+fe \
+| d2A2 defg | a2A2 A2FA | B2cd gfed | f4 e2fe \
+| d2A2 defg | a2A2 A2FA | B2cd e2f2 | d6 :|
+|: fg \
+| a2a2 a2f2 | b4 a2fe | d2ef gfed |[1 f2e2 e2fg \
+|[2 edcB A2fg |] a2a2 a2f2 | b4 a2fe | d2gf e3d | d6 :|
+%%begintext align
+%% July 1st 1979 will long be
+%% remembered by Sharon Pyne
+%% and Kevin MacElroy!
+%% With love & Best
+%% Wishes always to you
+%% both.
+%%endtext

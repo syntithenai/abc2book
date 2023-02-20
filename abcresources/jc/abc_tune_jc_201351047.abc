@@ -1,0 +1,45 @@
+
+X: 1
+T: Wedding in Crown Heights   [D]
+%T: Purim Nign (Purim tune)
+R: freilach, bulgar
+M: C
+L: 1/8
+K: _B_e^F % D freygish/hejaz
+"A"|:\
+"D"DBAG FFFz | "D"FGFE DDDz | "D"FF2F "Gm"GG2B |\
+[1 "Cm"AGFG "D"A2z2 :|[2 "Cm"AGFE "D"D2 z ||
+"B"|: D |\
+"G"G2A2 =B>AGD | "G"G2A2 =B>AGD | "Gm"G2A2 B2d2 |\
+[1 "A"^c2B2 "(D)"A2z :|[2 "A"^c2B2 "(D)"A2 z2 ||
+"C"|:\
+"Cm"Ac2c c2c2 | cBBA AGGF |\
+"D"FA2A A2A2 | AGGF FEED | "D"FF2F "Gm"GG2B |\
+[1 "Cm"AGFG "D"A2 z2 :|[2 "Cm"AGFE "D"D2z2 ||
+"D"|:\
+"D"FF2F "Gm"GG2B | "Cm"AGFG "D"A2z2 |\
+"D"FF2F "Gm"GG2B | "Cm"AGFE "D"D2z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Wedding in Crown Heights   [A]
+T: Purim Nign (Purim tune)
+R: freilach, bulgar
+M: C
+L: 1/8
+K: _B^c % A freygish/hejaz
+"A"|:\
+"A"Afed cccz | "A"cdcB AAAz | "A"cc2c "Dm"dd2f |\
+[1 "Gm"edcd "A"e2z2 :|[2 "Gm"edcB "A"A2 z ||
+"B"|: A |\
+"D"d2e2 ^f>edA | "D"d2e2 ^f>edA | "Dm"d2e2 =f2a2 |\
+[1 "E"^g2f2 "(A)"e2z :|[2 "E"^g2f2 "(A)"e2 z2 ||
+"C"|:\
+"Gm"eg2g g2g2 | gffe eddc |\
+"A"ce2e e2e2 | eddc cBBA | "A"cc2c "Dm"dd2f |\
+[1 "Gm"edcd "A"e2 z2 :|[2 "Gm"edcB "A"A2z2 ||
+"D"|:\
+"A"cc2c "Dm"dd2f | "Gm"edcd "A"e2z2 |\
+"A"cc2c "Dm"dd2f | "Gm"edcB "A"A2z2 :|

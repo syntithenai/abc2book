@@ -1,0 +1,24 @@
+X: 14
+T: the Vienna Waltz
+%R: waltz
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.7 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+(GABcde) | (d2B2G2) | (E2G2).G2 | (D2G2F2) |\
+(GABcde) | (d2B2).g2 | (f2a2f2) | g4 :|
+|: (gf) |\
+e2e2e2 | (e2f2).d2 | (d2^c2).c2 | (dfbagf) |\
+e2e2e2 | (e2f2).d2 | (d2e2).^c2 | d4 :|
+|: (Bc) |\
+.d2({a}gf).g2 | .e2({a}gf).g2 | d2(edcB) | (B2A2) (Bc) |\
+.d2({a}gf).g2 | .e2({a}gf).g2 | (dcB2A2) | G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st & 2d Cu: set & change sides, back again, down
+%% the mid: up again, Allemande, & swing corners.
+%%endtext

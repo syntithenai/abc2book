@@ -1,0 +1,23 @@
+X: 20721
+T: le Garcon Volage
+O: Quadrille
+Q: "Allegro."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.72 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Initial rests added to 2nd, 3rd strains to fix the rhythm.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B |\
+GdB GdB | Adc Adc | Bdg gfg | aaa a2B |\
+GdB GdB | Adc Adc | Bdg agf | ggg g2 H|]\
+z |\
+b3 g3 | aaa a2z | a3 f3 | ggg g2z |
+b3 g3 | aaa a2z | a3 f3 | ggg "^D.C."g2 |]\
+z |\
+d3 cBc | d3 cBc | d2d g2b | bag fed |\
+c3 BAB | c3 BAB | ced cBA | G2B "^D.C."G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

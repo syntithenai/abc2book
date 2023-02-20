@@ -1,0 +1,24 @@
+X: 10046
+T: JOAN'S WALTZ
+C: Bob McQuillen 10 April 93
+B: Bob's Note Book 10 #46
+%R: waltz
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+fe \
+| "D"d>cd | "Bm"AFA | "G6"d>ef | "A7"a2f/e/ | "D"d>Bd | "Bm"Ade | "G6"fe>d | "A7"B2A |\
+| "D"d>cd | "Bm"AFA | "G6"def | "F#m"a2f/a/ | "G"baf | "Bm"def | "G6 A7"e3 | "D"d :|
+|: FA \
+| "G"B>AF | "F#m"AFA | "G"Bd>e | "D"d2f/e/ | "Bm"d>BA | "G7"B<de | fa>f | "A7"e2d/e/ |\
+| "D"fd>f | "G"e>fe | "D"dBA | "G"B>dB | "D"Adf | "G"agf | "A7"e3 | "D"d :|
+%%begintext align
+%% This tune is written
+%% with a gread deal of pleasure for Joan Spence,
+%% who is the lovely wife of super dance enthusiast
+%% Ernie Spence. It's always so nice to see her when
+%% she comes with Ernie up to the Peterborough Dance.
+%% Come again soon, Joan. (I know it'a a long way from
+%% Reading!)
+%%endtext

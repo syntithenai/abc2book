@@ -1,0 +1,17 @@
+X: 1
+T: Lady MacKenzie of Coul  [AABBC]
+C: Nathaniel Gow
+R: march (originally strathspey)
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+EF \
+| "C"G3A G2c2 | "F"A2F2 F2d2 | "G7"B2G2 G2B2 | "C"cdef "G7"g4 \
+| "C"G3A G2c2 | "F"A2F2 F2c2 | "G7"BcdB G2B2 | "C"c4 c2 :|
+|: f2 \
+| "C"e2g2 g4 | "F"{fg}a2f2 "G7"d2f2 | "C"e2g2 "Am"c2e2 | "Dm"dcBA "G7"G2f2 \
+| "C"e2g2 g4 | "F"{fg}a2f2 "Dm"d2f2 | "C"e2g2 "G7"BcdB | "C"c4 c2 :|
+y2 f2 \
+| "C"e2g2 g4 | "F"{fg}a2f2 "G7"d2f2 | "C"e2g2 "Am"c2e2 | "Dm"dcBA "G7"G2AB \
+| "C"c4 G2E2 | "F"F2A2 "Dm"D2f2 | "C"e2dc "G7"d2cB | "C"c4 c2 |]

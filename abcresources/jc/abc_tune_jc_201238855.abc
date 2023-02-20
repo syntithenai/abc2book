@@ -1,0 +1,31 @@
+X: 31441
+T: COTILLION No. 31. PANTHEON SETT tune 1
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.144 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B2 |\
+GBAG FDEF | GBAG FDEF | GFAG BAcB | AGFE D2EF |\
+GBAG FDEF | GBAG FDEF | Ggfe dcBA | G2G2G2 H|]
+Bc |\
+dBed c2AB | cAdc B2GA | BGcB AGFG | Ad^cd D2Bc |\
+dBed c2AB | cAdc B2GE | Eedc BAGF | G2G2"^D.C."G2 |]
+K: Gm
+dc |\
+B2{c}d2A2{c}d2 | G2{c}d2F2{c}d2 | E2c2 c2Bc | d2D2 D2dc |\
+B2{c}d2A2{c}d2 | G2{c}d2F2{c}d2 | E2c2 c2Bc | d2d2"^D.C."d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right and left 4,
+%% balance 4,
+%% ladies chain,
+%% promenade 4.
+%% Sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

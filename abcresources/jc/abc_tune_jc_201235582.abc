@@ -1,0 +1,28 @@
+X: 21233
+T: MASSASOIT SETT (tune 6)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.123 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The pickup notes for strains 2 and 3 overlap with the last bar of strain 1, but don't clash.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="6"
+E2 |\
+[c2A2] (3(AAA) c2A2 | f2e2 e4 | dedc B2e2 | c2A2A2E2 |\
+A2 (3(AAA) c2A2 | f2e2 e4 | a2 (3(ccc) e2c2 | (3(AAA) A2cea2 H|]\
+E2 |\
+B2 (3(BBB) B2c2 | d2c2 c4 | c2d2e2f2 | f2B2 B2E2 |
+B2 (3(BBB) B2c2 | d2c2 c4 | A2a2f2^d2 | e4 "^D.C."e2 |]\
+E2 |\
+D2 (3(DDD) F2D2 | F2A2 A4 | A2F2F2D2 | D2A,2 A,4 |\
+D2 (3(DDD) F2D2 | F2A2 A4 | A2a2f2^d2 | [e4A4] "^D.C."[e2A2] |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% (No dance description for this tune)
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

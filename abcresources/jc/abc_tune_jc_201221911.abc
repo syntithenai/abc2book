@@ -1,0 +1,23 @@
+X: 052
+T: 8000, Flats from France
+%R: jig
+B: Thompson's Twenty four Country Dances (for the Year 1804) p.5 #2
+S: http://folkopedia.efdss.org/images/2/28/Thompson24_1804.PDF  2014-8-2
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Added "pickup" rest to 2nd strain to fix the rhythm.
+M: 6/8
+L: 1/8
+K: C
+G |\
+c2c cBc | d2B G2G | d2d def | g2e c2c |\
+c'2c' c'ba | c'2c' c'ba | gag fed | c3 Hc2 :|
+|: z |\
+GAG f2d | e2c BdB | GAG f2d | e2c B2G |\
+GAG f2d | e2c BdB | GAG f2d | e2c Hg2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first Cu: set to the sec.d Lady and turn
+%% set to the sec.d Gent: and turn, Cross over one
+%% Couple & turn Right and left.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

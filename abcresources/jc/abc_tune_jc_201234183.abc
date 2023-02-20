@@ -1,0 +1,40 @@
+X: 20321
+T: POLONAISE
+C: J. Kuffner.
+%R: 3/4
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.32 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Missing 1/16 note in bar 24; added A to match bar 23.
+N: The long 2nd strain has 31 bars, with slightly irregular phrasing.
+M: 3/4
+L: 1/16
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A6 (Bc d2)e2 | (^e4 f2)z2 z4 |\
+f6 =e2 {e}dcdB | (^G4 A2)z2 z4 |\
+(A6 g2f2e2) | ({e}dcde f2)(A2d2f2) |\
+e4 ea^gf edB^G | (B8 A4) :|
+|:\
+A2AA A2A2c2d2 | e2f2 g2ge cA=GE |\
+DFAd (f4 efge) | (d8 c4) |\
+A2AA A2A2c2d2 | e2f2 g2ge cAGE |\
+DFAd (f4 edcB) | A4 z2(e2^d2e2) |
+(f6 e2) (e=dcB) | (ABcd) e2(e2^d2e2) |\
+(f6 e2) e=dcB | A4 z2(A^G ABcd) |\
+e4 z2cB (cdef) | g4 z2(.g2.g2.g2) |\
+(g3e/c/) Az (.g2.g2.g2) | g3e/c/ Az (.g2.g2.g2) |
+g6 e2 cAGE | HC12 |\
+(A6 Bc) d2e2 | ^e4 f2z2 z4 |\
+(f6 =e2) {e}dcdB | (^G4 A2)z2 z4 | (A6 g2f2e2) |\
+({e}dcde f2)(A2d2f2) | a6 f2 {f}edef |
+d2(3(DFA) d2(3(FAd) f2(3(Adf) | (g>f)(e>d) (c>B)(A>G) (F>E)(D>C) |\
+D2(3(DFA) d2(3(FAd) f2(3(Adf) | (g>f)(e>d) (c>B)(A>G) (F>E)(D>C) |\
+D2(3(DFA) d2(3(DFA) d2(3(DFA) | d3D "^Fin."D4 z4 H:| [K:=c]
+K: G
+(d6 b2a2g2) | ^g4 a4 z4 | a2(ag) f2(fe) d2(dc) | (cBed d2)B2c2^c2 |\
+d3^c d2B2=c2d2 | e2g4(ag) .f.e.d.c | B2c2^c2d2 d=cAF | A8 "^D.C."G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

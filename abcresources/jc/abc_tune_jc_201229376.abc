@@ -1,0 +1,14 @@
+X: 12271
+T: Barbara Allan
+%R: air, march
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.27 (bottom 3 staves; top 9 continued from p.26)
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Em
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"B2 |\
+e2(ef) {ef}g2(fe) | (de)(fg) {fg}a2(gf) |\
+e3f (gf)(ed) | B2 e4 :: d2 | B2d2 A2(BA) |\
+G3A B2(ed) | B3A G3A | B2 e4 :|

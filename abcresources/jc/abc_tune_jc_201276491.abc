@@ -1,0 +1,36 @@
+
+X: 1
+T: Flatbush Waltz [Dm]
+C: Andy Statman
+D: Flatbush Waltz; Rounder 00116 (1980)
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: simplified version
+L: 1/8
+M: 3/4
+R: Waltz
+S: Frets Magazine, Dec 1980
+K: Dm
+[| "Dm"A2 Ad AG | F2 D2 D2 | A2 Ad AF | "Gm"G3 B AG \
+| "Dm(Ff)"FE FG AF | "Gm"GD G2 G2 | "Dm"F3 G "Eb"_EF |1 "Dm"DD, F,A, DF :|2 "Dm"D6 ||
+|: "Dm"f4 ed | "A"eA, ^CE A^c | "Bb"d2 c2 B2 | "F"A6 | "Gm"B2 A2 G2 |\
+[1 "Dm"A2 d2 e2 | f3 e fg | "A7"e6 :|\
+[2 "Dm"A2 D2 G2 | F3 G "Eb"_EF | D3 |]
+
+
+X: 2
+T: Flatbush Waltz [Em]
+C: Andy Statman
+D: Flatbush Waltz; Rounder 00116 (1980)
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: simplified version
+L: 1/8
+M: 3/4
+R: Waltz
+S: Frets Magazine, Dec 1980
+K: Em
+[| "Em"B2 Be BA | G2 E2 E2 | B2 Be BG | "Am"A3 c BA \
+| "Em(G)"GF GA BG | "Am"AE A2 A2 | "Em"G3 A "F"=FG |1 "Em"EE, G,B, EG :|2 "Em"E6 ||
+|: "Em"g4 fe | "B"fB, ^DF B^d | "C"e2 d2 c2 | "G"B6 | "Am"c2 B2 A2 |\
+[1 "Em"B2 e2 f2 | g3 f ga | "B7"f6 :|\
+[2 "Em"B2 E2 A2 | G3 A "F"=FG | E3 |]
+

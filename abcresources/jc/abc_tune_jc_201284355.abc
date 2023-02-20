@@ -1,0 +1,15 @@
+X: 907
+T: the Handsome Plowboy   #2
+R: hornpipe
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #907
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0907/oneill-1001-0907-1.abc
+M: 2/4
+L: 1/16
+K: A
+"^A"[|] E2 \
+|: A2A2 AcBA | G2B2 BdcB |[1,3 A2A2 Acea | gfed cBAG :|[2,4 Acea gfed | c2A2 A2 :| 
+"^B"\
+|: (3(efg) | aece aece | afdf afdf | bgeg bgeg | agfe dcBA ||
+y6         | ceAe ceAe | dfBf dfBf | cegf edBG | A2A2 A2 :| 

@@ -1,0 +1,52 @@
+
+X: 1
+T: Blue-Bell Polka
+T: Siamsa Beirte
+C: Frank Stanley
+N: Often misattributed to Jimmy Shand
+R: shottish, hornpipe
+B: Kerr's "Merry Melodies" v.1 p.51 (1875?) (no credits)
+D: Jimmy Shand
+D: James Brown, "Little Pet (Caledonian Polka)" 1911
+D: James Morrison, Columbia, 1935
+D: Mickey Carton, Copley, in the 1950s
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+P: (A B A C)xN A
+K: G
+(3Bdg \
+"A"|: "G"b2b2 "C"gfge | "G"d2d2 B2G2 |1,3 "D7"FGAB c2e2 | "G"ed^cd B2 (3Bdg \
+                                    :|2,4 "D7"FGAB cdef | "G"g2g2 "fine"g2z2 :|
+K: D
+"B"|: "D"A2A2 FAdf | a2a2 f3f |1,3 "A7"a2^ga =g2e2 | "D"b2a2 ^g2a2 \
+                             :|2,4 "A7"a2_a2  g2e2 | "D"d2f2 "^d.C."d2z2 :|
+K: C
+"C"|: "C"e2e2 efg2 | e2e2 efg2 |1,3 "G7"f2f2 fdB2 | fefg fdB2 \
+                              :|2,4 "G7"f2f2 fdBd | "C"c2c2 c2z2 :|
+
+
+X: 1
+T: Blue-Bell Polka
+T: Siamsa Beirte
+C: Frank Stanley
+N: Often misattributed to Jimmy Shand
+R: shottish, hornpipe
+B: Kerr's "Merry Melodies" v.1 p.51 (1875?) (no credits)
+D: Jimmy Shand
+D: James Brown, "Little Pet (Caledonian Polka)" 1911
+D: James Morrison, Columbia, 1935
+D: Mickey Carton, Copley, in the 1950s
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+P: (AA BB A CC)xN A
+K: G
+"A"|: {Bdg}"G"b2b2 "C"gfge | "G"d2d2 B2G2 | "D7"FGAB c2e2 | "G"ed^cd B2 (3Bdg |
+"Intro:"y3 "G"b2b2 "C"gfge | "G"d2d2 B2G2 | "D7"FGAB cdef | "G"g2g2 "fine"g2z2 :|
+K: D
+"B"|: "D"A2A2 FAdf | a2a2 f3f | "A7"a2^ga =g2e2 | "D"b2a^g a4 |
+   y  "D"A2A2 FAdf | a2a2 f3f | "A7"a2^ga =g2ce | "D"d2f2 "^d.C."d2z2 :|
+K: C
+"C"|: "C"e2e2 efg2 | e2e2 efg2 | "G7"f2fg fdB2 | fefg fdB2 |
+   y  "C"e2e2 efg2 | e2e2 efg2 | "G7"f2fg fdBd | "C"c2e2 c2z2 :|

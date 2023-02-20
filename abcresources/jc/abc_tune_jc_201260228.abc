@@ -1,0 +1,26 @@
+X:1
+T: The Carillon at Sneek
+N:
+C:
+S:Play 4 times
+A:
+O:
+R:
+M:3/4
+K:D
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 18 notes)
+K:D
+M:3/4
+L:1/16
+A4 |F4 D4 d4 |B4 G4 A4 |F4 D4 d4 |B4 G4 A4 |F4 G4 A4 |D8 A4 |
+%W: A2
+% voice 1 (1 lines, 17 notes)
+F4 D4 d4 |B4 G4 A4 |F4 D4 d4 |B4 G4 A4 |F4 G4 A4 |D8 A4 |
+%W: B1
+% voice 1 (1 lines, 23 notes)
+F4 D4 d4 |B4 G4 d4 |B4 G4 e4 |c4 A4 a4 |f4 d4 e4 |c4 A4 d4 |e4 e6 d2 |d8 A4 |
+%W: B2
+% voice 1 (1 lines, 22 notes)
+F4 D4 d4 |B4 G4 d4 |B4 G4 e4 |c4 A4 a4 |f4 d4 e4 |c4 A4 d4 |e4 e6 d2 |d8 ||

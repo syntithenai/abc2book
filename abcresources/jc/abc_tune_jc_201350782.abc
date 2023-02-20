@@ -1,0 +1,33 @@
+X:1
+T: The Waters of Holland
+N:
+C:2nd tune is "Die Winter ist Vergangen"
+S:Paly  1 2 1
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 200
+%W: 1
+% voice 1 (1 lines, 27 notes)
+K:Am
+M:4/4
+L:1/16
+E4 |A4 B4 c4 d4 |e8 e4 g4 |^f4 e4 e4 ^d4 |e12 E4 |A4 B4 c4 d4 |e8 e4 g4 |^f4 e4 e4 ^d4 |e12 e4 |
+%W:
+% voice 1 (1 lines, 31 notes)
+c8 c4 e4 |d8 d6 B2 |c4 B4 A4 c4 |d8 B8 |A2 G2 A2 B2 c4 B4 |A2 B2 c2 d2 e6 e2 |d4 c4 B4 A4 |B8 A4 e4 |
+%W:
+% voice 1 (1 lines, 30 notes)
+c8 c4 e4 |d8 d6 B2 |c4 B4 A4 c4 |d8 B8 |A2 G2 A2 B2 c4 B4 |A2 B2 c2 d2 e6 e2 |d4 c4 B4 A4 |B8 A4 ||
+%W: 2
+% voice 1 (1 lines, 28 notes)
+K:G
+D4 |G4 G4 A4 d4 |B8 B4 c4 |A4 G4 A4 F4 |G12 D4 |G4 G4 A4 d4 |B8 B4 c4 |A4 G4 A4 F4 |G12 G2 A2 |
+%W:
+% voice 1 (1 lines, 29 notes)
+B4 B4 B4 A2 B2 |c8 c4 c4 |B4 G4 A4 c2 B2 |A12 D4 |G4 G4 A4 d4 |B8 B4 c4 |A4 G4 A4 F4 |G12 G2 A2 |
+%W:
+% voice 1 (1 lines, 27 notes)
+B4 B4 B4 A2 B2 |c8 c4 c4 |B4 G4 A4 c2 B2 |A12 D4 |G4 G4 A4 d4 |B8 B4 c4 |A4 G4 A4 F4 |G12 ||

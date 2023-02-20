@@ -1,0 +1,14 @@
+X:1
+T: Log Yard
+R: hornpipe
+C: Rick Gagne
+N: 1997 on tenor banjo
+M: 4/4
+Q: 1/4=160
+K: G
+gf | "G"gd~d2 "Am"cedB | "C"cedc "G"BGFG | "Am"cD~D2 "C"c2cA |\
+"G"BdcB "D"ABcd |
+"G"gd~d2 "Am"cedB | "C"cedc "G"BGFG | "D"cD~D2 d2dc | "Bm"BdcA "C"g2 :|
+BG | "D"AD~D2 "Am"c2cA | "Bm"BdcA "G"BGFG | "D"AD~D2 "C"d2dc |\
+"Bm"BdcA "C"G2BA |
+"D"AD~D2 "Am"c2cA | "Bm"BdcA "G"BGFG | "D"AD~D2 d2dc | "Bm"BdcA "G5"G2 :|

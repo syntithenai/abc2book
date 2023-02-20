@@ -1,0 +1,23 @@
+X: 4262
+T: Miss Stewart of Fasnacloich's Reel
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.4 p.26 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - -
+% Voice 1 may be formatted for compactness and or other layouts.
+V: 1 staves=2
+e |\
+A<A ec {f}e2ec | (f/g/a) ec fBBa | A<A ec {f}e2ce | {g}a>f ec eAA :: g | a2a>e Tfece |
+a2ae fBBg | a2ae Tf>ece | (f/g/a) ec eAA :: e | A<A eA fAeA | aAec fBBa | A<A eA fAAa |
+(f/g/a) ec eAA :: (e//f//g/) | aece fece | aece fBBg | aece fece | (f/g/a) ec eAA :|
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2c'2 | d'2c'2 b2b2 | a2a2 a2c'2 | d'2e'2 a2a :: z | a2a2 a2a2 |
+a2a2 b2b2 | a2a2 a2c'2 | d'2e'2 a2a :: z | a2c'2 d'2c'2 | a2a2 b2b2 | a2c'2 d'2c'2 |
+d'2 e'2 a2a :: z | [a2A2][a2A2] [a2A2][a2A2] | [a2A2][a2A2] [b2B2][b2B2] |\
+[a2A2][a2A2] [a2A2][a2A2] | [d'2d2][e'2e2] [a2A2][aA] |]

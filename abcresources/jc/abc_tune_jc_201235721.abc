@@ -1,0 +1,22 @@
+X: 2132
+T: Mr Hamilton of Pencaitland's    Strathspey
+%R: strathspey, air
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.13 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "Slow"
+K: C
+% - - - - - - - - - -
+V: 1 staves=2
+TE>D |\
+C2c2 (dc).B.A (AG).F.E [c4E4] | C2c2 Tc2BA B2d2d3e | !f!(f3e)d2c2 {c}B4 A2G2 | (ABc)B (dc)BA G2c2c2 :|
+ed |\
+c3g (efga) g2c2 (agfe) | Tf2ag (fe).d.c TB2d2 d2ed | Tc3dTe3f g2e2f2a2 | g2e2 (fe).d.c G2c2 c2ed |
+c2g2 (efga) g2c2 (agfe) | Tf2ag (fe)dc B2d2 d2gf | {f}Te3d{d}Tc3A G2.E2.F2.G2 | (AB).c.B (dc).B.A G2[c2E2][c2E2] |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | c4c'4 c4c'4 | c4c'4 g4G4 | !f!B4c4 g6e2 | f4g2G2 c4[c2C2] :|
+z2 | c'4c'4 c'4c'4 | b4c'4 g4G2z2 | e3Bc3d e2c2d2f2 | c4g2G2 c4c2z2 |
+c'4c'4 c'4c'4 | b4c'4 g4G4 | c'3ba3f e2c2d2e2 | f4g2G2 c4c2 |]

@@ -1,0 +1,51 @@
+%%indent 60pt
+%%leftmargin 1.8cm
+%%voicefont  Times-Roman 12
+%%titlefont Times-Roman 24
+%%subtitlefont Times-Roman 18
+%%composerfont Times-Roman 12
+%%staffwidth 18.0cm
+%%scale 0.60
+%%musicspace 0.5cm
+%%tempofont Times-Roman
+%%topspace 0
+%%titlespace 0.2cm
+%%composerspace 0
+%%musicspace 0
+X:1
+T: TEST: CONCERTO No. 5
+T: TEST: First page only
+C: Johann Sebastian Bach
+C: BWV 1050
+M: C|
+Q:"Allegro"
+L: 1/8
+K: D
+V:1 clef=treble name="Flauto traverso"     sname="Fl."
+V:2 clef=treble name="Violino\\principale" short="Vl. pr."  spc=+5
+V:3 clef=treble name="Violino\\in ripieno" sname="Vl." stv=4 brk=4
+V:4 clef=alto   name="Viola\\in ripieno"   short="Vla."
+V:5 clef=bass   name="Violoncello"         sname="Vc."
+V:6 clef=bass   name="Violone"             short="Vne."     spc=+5
+V:7 clef=treble name="Cembalo\\concertato" sname="C." brc=2 stv=2 spc=-5
+V:8 clef=bass
+%
+[V:1]
+   z8 | z8 | z8 |
+[V:2]
+   [L:1/16] DDFF AAdd cdcB AGFE| DDFF AAdd e2A2 z2e2|ffee ggff bbaa ccdd|
+[V:3] [L:1/16] DDFF AAdd cdcB AGFE| DDFF AAdd e2A2 z2e2|ffee ggff bbaa ccdd|
+[V:4] f2 zf edec|dAdf cdec|dad'c' d'dgf|
+[V:5] d2 zd abc'a | fefd abc'a| d'c'ba gfed|
+[V:6] d2 zd abc'a | fefd abc'a| d'c'ba gfed|
+[V:7] [D2FAd] x2 x4| x8 | x8|
+[V:8] [d2f2a2] zd abc'a| fefd abc'a| d'c'ba gfed|
+%
+[V:1] z8 | z8 | z8 |
+[V:2] GGFF BBAA CCDD A,A,GG| FEFD EEA,A, DEFG ABcA | ddcc eedd ggff bbaa|
+[V:3] GGFF BBAA CCDD A,A,GG| FEFD EEA,A, DEFG ABcA | ddcc eedd ggff bbaa|
+[V:4] eddd gfeA| AdBc d/e/f/g/ a/b/c'/a/|d'fba cdec|
+[V:5] cdGF EDCc|dBGA B/c/d/e/ f/g/a/f/ | bagf edcA|
+[V:6] cdgf edcA|dBGA B/c/d/e/ f/g/a/f/ | bagf edcA|
+[V:7] x8 | x8 | x8 |
+[V:8] cdgf edcA|dBGA B/c/d/e/ f/g/a/f/ | bagf edcA|

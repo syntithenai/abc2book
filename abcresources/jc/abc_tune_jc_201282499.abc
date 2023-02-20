@@ -1,0 +1,86 @@
+
+X: 1
+T: Graovsko Horo   [A]
+O: Bulgaria
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+P: AB ABC ABC A
+Q: 3/16 2/16 1/16 2/16
+K: _B^f^c^	% A hijaz
+"A"\
+|: "A"AcBA AEFG | "A"AEFG ~A2AE | "A"~c2BA "(Gm)"AEFG |\
+[1,3 "A"~A2AE ~A2AE :|[2,4 "A"~A2AE A2z2 :|
+w: ~
+"B"\
+|:\
+"A"de3 ed~c2 | cEAB "A"c2cE |\
+[1,3 "A"ed~c2 cEAB | "A"~c2cE ~c2cE :|\
+[2,4 "A"ed~c2 "Gm"cB~A2 | "A"AEFG A2z2 :| [K:=B=c]
+w: ~
+%Q: 1/8 1/8 1/8 1/8
+K: Dmix
+"C"\
+|:\
+"D"FGAB ~c2cB | "G"ABBG "D"~A2AE | "D"~c2cB "G"ABBG |\
+[1,3 "D"~A2AE ^cddE :|[2,4 "D"~A2Ad A2z2 :|
+w: D*** | G*** Am | D** G | D | D
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Graovsko Horo   [G]
+O: Bulgaria
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+P: AB ABC ABC A
+Q: 3/16 2/16 1/16 2/16
+K: _A	% G hijaz
+"A"
+|: "G"GBAG GDEF | "G"GDEF ~G2GD | "G"~B2AG GDEF |\
+[1,3 "G"~G2GD ~G2GD :|[2,4 "G"~G2GD G2z2 :|
+w: ~
+"B"
+|: "G"cd3 dc~B2 | "(Fm)"BDGA "G"B2BD |\
+[1,3 "G"dc~B2 "(Fm)"BDGA | "G"~B2BD ~B2BD :|\
+[2,4 "G"dc~B2 "Fm"BA~G2 | "G"GDEF G2z2 :| [K:=A_B]
+w: ~
+%Q: 1/8 1/8 1/8 1/8
+K: Gdor
+"C"
+|:\
+"Gm"EFGA ~B2BA | "F"GAAF "Gm"~G2GD | "Gm"~B2BA "F"GAAF |\
+[1,3 "Gm"~G2GD =BccD :|[2,4 "Gm"~G2Gc G2z2 :|
+w: (C)*** Gm
+
+%%sep 1 1 500
+
+
+X: 1
+T: Graovsko Horo   [B]
+O: Bulgaria
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+P: AB ABC ABC A
+Q: 3/16 2/16 1/16 2/16
+K: ^f=c^g^d	% B hijaz
+"A"
+|: "B"BdcB BFGA | "B"BFGA ~B2BF | "B"~d2cB BFGA |\
+[1,3 "B"~B2BF ~B2BF :|[2,4 "B"~B2BF B2z2 :|
+w: ~
+"B"
+|: "B"ef3 fe~d2 | "(Am)"dFBc "B"d2dF |\
+[1,3 "B"fe~d2 "(Am)"dFBc | "B"~d2dF ~d2dF :|\
+[2,4 "B"fe~d2 "Am"dc~B2 | "B"BFGA B2z2 :| [K:^c=d]
+w: ~
+%Q: 1/8 1/8 1/8 1/8
+K: Bdor
+"C"
+|:\
+"Bm"GABc ~d2dc | "A"BccA "Bm"~B2BF | "Bm"~d2dc "A"BccA |\
+[1,3 "Bm"~B2BF ^deeF :|[2,4 "Bm"~B2Be B2z2 :|
+w: (E)*** Bm

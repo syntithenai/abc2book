@@ -1,0 +1,33 @@
+X: 20882
+T: LOWELL SETT (tune 2)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.88 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="2"
+f/g/ |\
+a2g f2F | A2c f2e | g2f ede | (cde) f2g/a/ |\
+a2g f2F | A2c f2e | g2f (ede) | f3 z2 H|]
+c/c/ |\
+c2e/e/ e2g/g/ | (g3 e2)c/c/ | c2f/f/ f2a/a/ | (a3 f2)c/c/ |\
+c2e/e/ e2g/g/ | (g3 e2)c/c/ | (f3 a2)g | f3 "^D.C."z2 |]
+K: C
+c/d/ |\
+e2d e2d | e2g/g/ gfe | d2c d2c | d2f/f/ fed |\
+e2d e2d | e2g/g/ gfe | d2c d2e | c3 "^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% ladies chain,
+%% promenade four.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

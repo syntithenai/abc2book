@@ -1,0 +1,23 @@
+X: 10434
+T: BLOW, BLOW THOU WINTER WIND.
+T: Sung in "As You Like It."
+C: Dr. Arne.
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.43 #4
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: B
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f2 |\
+{e}d2(cB) g2B2 | {B}A6 B2 | (cd ec) F2e2 | {e}d6 c2 |\
+B2B2 B2B2 | =e2e2 f2B2 | (A4 G3)F | F6 |]\
+f2 |\
+f2G2 =B2d2 | (f3g/_a/ g2)f2 | {f}e2(dc) {e}d2(c=B) |
+(cd e4) (dc) | {e}d2(cB) {f}e2(dc) | (f4 g2B2) |\
+A2B2 e2d2 | d2c2 z2f2 | {e}d2(cB) f2_A2 | G2g2 (f<d) (e<c) |\
+B4 c4 | (Bbag) (fe)(dc) | (d<B) (g<e) (d<f) (A<c) | B6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

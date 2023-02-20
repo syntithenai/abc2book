@@ -1,0 +1,50 @@
+
+X: 1
+T: Vrni se Vrni
+O: Makedonija
+Z: John Chambers <jc@trillian.mit.edu>
+N: Handwritten MS labelled "CRH" (Cal Howard?)
+M: 2/4
+L: 1/16
+K: Bb
+%"inst"
+|: "Bb"BccB ABcA | "Gm"ABBA GABG | "Dm"~A2AG FGAF | "F7"~G2FE "Bb"DEF2 |
+| "Cm"C2 ~F4 E2 | "F7"~D3C CB,CD | "Bb"B,2z2 FEDC |1 B,z DE FGAB :|2 "B,b"~B,2B,F, B,2z2 ||
+%"vocal"
+[| "Bb"[B,2F,2] [D4B,4] [E2C2] | [F4D4] [F4D4] \
+| "Eb"[G2E2] [G4E4] [G2E2] | "Bb"[F2D2][=E2^C2] [F4D4] \
+| [F2D2] [G4E4] [A2E2] | [B4D4] [c4F4] |
+w: 1.~Vr-ni se vr-ni li-be Ma-ri-*\vce, ne i-di ti so
+w: 2.~Jas kje se sto-ram \vsa-re-no pi-*le, go-ra kje pre-le-
+w: 3.~Vr-ni se vr-ni li-be Ma-ri-*\vce, ne i-di ti so
+w: 4.~Kje se pret-vo-ram vo ri-ba mren-*ka, re-ka kje pre-pli-
+| "Bb"[B8-D8-] | [B6D6] z2 \
+|: "Eb"[B2G2] [c4G4] [B2G2] | [A4E4] [G4E4] | "Bb"[F2D2] [F4D4] [E2C2] | [D4B,4] [C2F,2][B,2F,2] |
+w: men'._ Aj pred nas i-ma nai-ga-sta go-ra,_
+w: tam,_ i pak so te-be li-be kje doj-dam,_
+w: men'._ Aj pred nas ima dal-bo-ka re-ka,_
+w: vam,_ i pak so te-be li-be kje doj-dam,_
+| "F7"[C2A,2] [F4C4] [E2C2] | [D4A,4] [C4A,4] |1 "Bb"[B,8B,8]- | [B,6B,6] z2 :|2 "Bb"B,4 FEDC | ~B,2B,F, B,2z2 |]
+w: ne mo\vz' da pre-min-\vse._ \-\vse.
+w: i tvo-ja kje bi-dam._ \-dam.
+w: ne mo\vz' da pro-pli-ra\vs._ \-ra\vs.
+w: i tvo-ja kje bi-dam._ \-dam.
+
+%%sep 1 1 500
+
+X: 1
+T: Vrni se Vrni
+O: Makedonija
+Z: John Chambers <jc@trillian.mit.edu>
+N: Handwritten MS labelled "CRH" (Cal Howard?)
+M: 2/4
+L: 1/16
+K: C
+"^inst"\
+|: "C"cddc BcdB | "Am"BccB ABcA | "Em"~B2BA GABG | "G7"~A2GF "C"EFG2 |
+| "Dm"D2 ~G4 F2 | "G7"~E3D DCDE | "C"C2z2 GFED |1 Cz EF GABc :|2 "C"~C2CG, C2z2 ||
+"^vocal"\
+[| "C"[C2G,2] [E4C4] [F2D2] | [G4E4] [G4E4] | "F"[A2F2] [A4F4] [A2F2] | "C"[G2E2][=F2^D2] [G4E4] \
+| [G2E2] [A4F4] [B2F2] | [c4E4] [d4G4] | "C"[c8-E8-] | [c6E6] z2 ||
+|: "F"[c2A2] [d4A4] [c2A2] | [B4F4] [A4F4] | "C"[G2E2] [G4E4] [F2D2] | [E4C4] [D2G,2][C2G,2] \
+| "G7"[D2B,2] [G4D4] [F2D2] | [E4B,4] [D4B,4] |1 "C"[C8C8]- | [C6C6] z2 :|2 "C"C4 GFED | ~C2CG, C2z2 |]

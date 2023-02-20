@@ -1,0 +1,16 @@
+X: 155
+T: the Brown Haired Boy   #2
+R: air, waltz
+%S: s:2 b:10(6+4)
+B: O'Neill's 1850 #155
+O: F.O'Neill
+Z: 1997 henrik.norbeck@mailbox.swipnet.se
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+Q: "Moderate"
+M: 3/4
+L: 1/8
+K: G
+"^A"[|] (G>A) | B2 d2 ef | (~g3 a b2) |1 d2 (edcB) | (B2 A2) :|2 (d>e) (d>B) (A>B) | "^fine"G4 |]
+"^B"[| (g>a) | b2 (c'ba>g) | (f>g) (af)(ed) | (e>f) (gd)(cB) | (B2 "^->A2"A2) |]

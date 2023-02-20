@@ -1,0 +1,39 @@
+X: 16
+T: the Heredetary Prince
+R: march, reel
+M: 2/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 
+A2 |\
+.d2.d2.d2.d2 | .d2.d2.d2.d2 | .e2.e2(e2g2) | (fgaf) d3A |\
+d2d2d2d2 | d2d2d2d2 | e3g (fedc) | d6 :|
+|: a2 |\
+a3dd3f | [f4A4D4]e2a2 | b3ee3g | g4f2A2 |\
+d2d2d2d2 | d2d2d2d2 | e3g (fedc) | d6 :|
+|: A2 |\
+(F3G).A2.A2 | (F3G).A2.A2 | B2B2B2c2 | (c4d2)A2 |\
+(F3G).A2.A2 | (F3G).A2.A2 | .B2.B2 (AGFE) | D6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+A2 |\
+d'2c'2b2a2 | g2f2e2d2 | c4A4 | d4D2a2 |\
+d'2c'2b2a2 | g2f2e2d2 | c4A4 | d4D2 :|
+|: z2 |\
+f4d4 | a4A2f2 | g4a4 | d'4d2a2 |\
+d'2c'2b2a2 | g2f2e2d2 | G4A4 | d4D2 :|
+|: z2 |\
+D2d2D2d2 | D2d2D2d2 | [g4G4][a4A4] | d2A2F2A2 |\
+D2d2D2d2 | D2d2D2d2 | G2g2a2A2 | d2A2D2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands across . quite round . Hands 4 round back again -- lead
+%% down the middle . up again & cast off -- swing partners -- swing
+%% corners --
+%%endtext

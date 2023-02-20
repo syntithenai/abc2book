@@ -1,0 +1,18 @@
+X: 12
+T: Farmer's Quadrille
+M: 6/8
+L: 1/8
+Q: 1/4=180
+K: G
+%%MIDI gchord fzzfzz
+%%MIDI program 23
+%%MIDI bassprog 32
+  [G,6B,6D6]    |z6              |\
+  "d"D3 "g"GFG  |"d"BAG "b"B2d   |"d"d2c Bdg      |d2c "b"B2A        |
+  "g"G3 GFG     | BAG "b"B2d     | "d"d2g fgf     |"g"ed^c d2F/G/    |
+  "a"A3 "c"c2B  |"d"AGF "g"G2F/G/|"a" A3 "c"c2B   |"f#"AGF "g"G3     |
+  "e"Ecc "b" DBB|"c"CAA "b"B,3   |"c"CB,A, "d"D2F,|"f#"A,G,F, "g" G,3|
+|:"b"B3 "a" A3  |"d"AGF "g"G3    |"d"d3 "c"c3     |"a"cBA "b"B2g     |
+  "g"g2f "f#"f2e|"e"e2d "b"dBB   |"d"Bcd dcB      |"a"A6             :|
+| "g"G6         |"d" B,ED DD2    |"c"c6           |"f#"F,AG "g"GG2   |
+  "e"E2c "d"D2B |"c"C2A "b"B,2G  |"a"CB,A, "d"D2F |A,G,F,"g" G,3     |

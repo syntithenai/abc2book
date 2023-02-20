@@ -1,0 +1,39 @@
+X: 21291
+T: WESTMINSTER SETT (tune 4)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.129 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Version 1 for ABC software that can't draw 2 voices on a staff.
+N: The 3rd strain has two harmonizing voices.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+A2 |\
+f2{g}fe f2{g}fe | f2a2 d2de | f2e2 d2c2 | B2c2 d2A2 |\
+f2{g}fe f2{g}fe | f2a2 d2de | f2e2 d2c2 | B2c2 d2 H|]
+c2 |\
+B2g2 A2f2 | G2e2 F2d2 | f2e2 d2c2 | B2c2 d2c2 |\
+B2g2 A2f2 | G2e2 F2d2 | f2e2 d2c2 | B2c2 "^D.C."d2 |]
+P:
+V: 1 staves=2
+A2de f4 | f2Ad f4 | f2df a4 | a2ge d2c2 |\
+A2cd e4 | e2Ac e4 | e2ag f2e2 | e4 "^D.C."d2 |]
+V: 2
+F2D2 F2F2 | F2D2 F2D2 | F2D2 F2D2 | E2C2 E2C2 |\
+E2C2 E2C2 | E2C2 E2C2 | E2C2 E2C2 | G4 "^D.C."d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First four lead to the right,
+%% chassa out and form lines across the hall,
+%% all right and left,
+%% all chain across the hall,
+%% forward and back,
+%% swing to place with partners,
+%% sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

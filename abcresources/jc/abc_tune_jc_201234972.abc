@@ -1,0 +1,31 @@
+X: 20923
+T: COLUMBIAN SETT (tune 3)
+C:
+%R: reel, march
+B: Elias Howe "The Musician's Companion" 1843 p.92 #3 (and top staff of p.93)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Initial rest added to fix the rhythms between strains.
+N: The dance description seems incomplete; part of it may be on p.93, at the start of the next tune's dance.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+z2 |\
+F4 C2A2 | F4 C2A2 | B2GE C2DE | FEFG ABAG |\
+F4 C2A2 | F4 C2A2 | B2GE C2DE | F2F2F2 H|]
+c2 |\
+f4 agfe | d2g2 b4 | bagf edcB | ABcB A2F2 |\
+f4 agfe | d2g2 b4 | bagf efge | f2f2"^D.C."f2 |]
+A2 |\
+d2fe defg | a2a2b2a2 | b2a2 bag | efgf e2c2 |\
+d2fe defg | a2a2b2a2 | b2a2 agfe | f2f2"^D.C."f2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% grand right and left,
+%% all balance,
+%% turn partners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

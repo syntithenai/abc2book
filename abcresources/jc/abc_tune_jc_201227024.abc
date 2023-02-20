@@ -1,0 +1,27 @@
+X: 10581
+T: CONSTITUTION HORNPIPE
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.158 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+(3(cde) |\
+f2f2 fcaf | g2g2 gcbg | agfe dcba | gfga gcde |\
+f2f2 fcaf | g2g2 gcbg | agfe dbge | f2f2f2 :|
+|: c2 |\
+Acfc afcA | Bdfd bfdB | cege bgeg | fagf edcB |\
+Acfc afcA | Bdfd bfdf | cege bgeg | f2f2f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+f2c2 f2c2 | e2c2 e2c2 | f2c'2a2f2 | d2d2d2z2 |\
+f2c2 f2c2 | e2c2 e2c2 | f2a2b2c'2 | f2f2f2 :|
+|: z2 |\
+f2f2 f2f2 | B2B2 B2B2 | e2c2 e2c2 | f2a2 c'4 |\
+f2f2 f2f2 | B2B2 B2B2 | e2c2 e2c2 | f2f2f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

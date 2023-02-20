@@ -1,0 +1,26 @@
+X: 10441
+T: SLAN GUN T'HIG MO RUN A NALL.
+T: "Well may my true love arrive."
+O: Gaelic air.
+Q: "Slow with expression."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.44 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Dot added to last note, to fix the rhythm of repeats.
+N: Bar 6 has only 3 beats; not fixed.
+M: C
+L: 1/16
+K: Eb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B,2 |\
+E3GB3B, C3EE3d | {d}e3cB2B,2 D2F2F3G |\
+E3GB3B, C2E2A2Hc2 | BG3 F4 E6 :|\
+(B/c/d) |\
+{d}e3f{e}d3e c=Bcd e2zg | agfe d(cde f2)(B/c/d) |
+{d}e3f{e}d3e (cBc)(d/e/) (fe)(dc) | (cB)AG (BA)GF E2G2E2 B/c/d |\
+{d}e3f{e}d3e c=Bcd e3f | a3gf3e d3ef2g2 |\
+eg3Ac3 G3AHB3c | e3cBG3 E6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

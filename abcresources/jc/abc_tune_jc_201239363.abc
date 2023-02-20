@@ -1,0 +1,19 @@
+X: 32641
+T: THE VIENNA POLKA
+R: polka
+B: K\"ohler's Violin Repository, v.3, 1885 p.264 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Bar 9: changed first a to 8th note, as in bar 12.
+M: 2/4
+L: 1/16
+K: G
+(uBc) |\
+d2B2g2B2 | d2{d}cB ceA2 | c2A2a2c2 | e2{e}d^c dgB2 |\
+d2B2g2B2 | d2{d}cB ceA2 | c2A2a2f2 | {a}gfga g2 :|
+|: (ufg) |\
+a2 (.A4 .e2) | de d4 b2 | cd c4 a2 | Bc B4 g2 |\
+a2 (.A4 .e2) | de d4 b2 | cdc2- c2a2 | g2b2g2 "^D.C.":|
+|: ud2 |\
+defg abc'd' | {c'd'}c'2b2 d'c'b2 | {bc'}b2a2 c'ba2 | {ab}a2g2 bag2 |\
+(de)fg abc'd' | {c'd'}c'2b2 d'c'b2 | {bc'}b2a2 c'ba2 | g2g2g2 "^D.C.":|

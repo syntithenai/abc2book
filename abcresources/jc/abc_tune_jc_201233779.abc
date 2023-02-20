@@ -1,0 +1,26 @@
+X: 2011
+T: the Caledonian Hunts Delight.   A favorite Air
+%R: air, jig
+N: This is version 1, for ABC software that doesn't understand trailing grace notes.
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.1 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slow"
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+RA, |:\
+D3 TE2D/E/ | F>GF {F}EDE | {DE}F>ED DB,A, | TA,>B,D E>GF/E/ |\
+D3 (TE2D/E/) | F>GF {F}EDE | {DE}FE>D DB,A, | A,B,D D3 ::
+A2TB AFD | A2TB AFD | AFD AFD | [BDG,]>AF E>GF/E/ |\
+D3 (TE2D/E/) | F>GF {F}EDE | {DE}F>ED DB,A, | TA,B,D D3 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |:\
+d3 A3 | d2d a2A | d3 g3 | f>ed A3 |\
+d3 a3 | d2d a2A | d3 g3 |
+f3 d3 :: (df).g f2d | (df).g d3 | d3 d3 | g>fd A3 |\
+f>ed cBA | d2d a2A | d3 g3 | a2A d3 :|
+

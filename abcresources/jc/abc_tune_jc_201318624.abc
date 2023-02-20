@@ -1,0 +1,15 @@
+X: 281
+T: O White Maive   #2
+R: air, waltz
+%S: s:1 b:9
+B: O'Neill's 1850 #281
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1B BA2
+Q: "Very slow"
+M: 3/4
+L: 1/8
+K: Gm
+"^A"[|] d>c  | (B>AG>AB>c) | d4 (c>B) | c4 (B>A) |[1 "^->B"G4 |][2 (.G2 .G2) Hz|]\
+"^B"|: (d>c) | (B>AG>AB>c) | d4 (b>a) | g3/2 (f/ e>d) | c2 "^->A2"z2 :|

@@ -1,0 +1,37 @@
+X: 16
+T:Avraham Avinu
+C:Avihu Medina 1993
+O:Israel
+M:4/4
+L:1/8
+K:F#phr  octave=-1
+V:1
+%%MIDI program 32
+zccd ed/c/BA|BBBA c2B2|\
+zccd ed/c/BA|BBBA B2B2|
+zccd e2c2|BBBA c2B2|\
+zAAG A2B2|cBBA B4|
+zAAG A2G2|B2B2 G2F2|\
+zEFG A2G2|B2B2 F4::
+AGFE F4|AGFE F4|\
+A4 B2c2|B4- B4|
+AGFE F4|AGFE F4|\
+A4 G2G2|F4- F4:|
+V:3 name=drum clef=perc stafflines=4
+K: none
+L:1/8
+%%MIDI channel 10
+%%MIDI drummap ^c 48 % Hi Mid Tom
+%%MIDI drummap ^A 54 % Tambourine
+%%MIDI drummap ^F 60 % Hi Bongo
+%%MIDI control 7 40
+^A^c2^F^c2^c2 |[^A^c]^c2^c [^c^A]2^c2  |
+[^A^c]^c2^c [^c^A]2^c2  |[^c^A]^c^c^c ^c4  |
+[^c^A]^c2^c [^c^F]2[^c^A]2  |[^c^A]^c2^c [^c^F]2[^c^A]2  |
+^c[^c^F]2^c [^c^A]2[^c^A]2  |^c[^c^F]2^c [^c^A]2[^c^A]2  |
+[^A^c]^c2^c [^c^A]2^c2  |[^A^c]^c2^c [^c^A]2^c2  |
+[^A^c]^c2^c [^c^A]2^c2  |[^c^A]^c^c^c ^c4  |
+[^A^c]^c2^c [^c^A]2^c2  |^A^c2^F^c2^c2 |
+^A^c2^F^c2^c2 |^A^c2^F^c2^c2 |
+^A^c2^F^c2^c2 |^A^c2^F^c2^c2 |
+^A^c2^F^c2^c2 |^A^c2^F^c2^c2 :|

@@ -1,0 +1,29 @@
+X: 21161
+T: the DARK PHANTOM
+T: Arranged as a solo or duet.
+O: Irish air.
+Q: "Slowly and tenderly."
+%R: air, waltz
+N: This is version 1, for ABC software that doesn't understand diminuendo/crescendo notation.
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for a single small-scale staff.
+V: 1 staves=2
+GA !p!|\
+"dim."B4 (ed) | "cres."d4 B>d | "dim."(e2 d2) B2 | d2 d2 "_cres."(ef) |\
+"dim."g4 (fe) | "_>"d2 B2 !p!e>f | "_>"d2 B2 !pp!e>f | d2 B2 !mf!(GA) |\
+B2 "cres."d2 (ef) | "_>"g2 g2 (fe) | (dc) (BA) (GA) | "cres."B2 !f!e2 (de) |\
+"_>"g2 f2 e2 | "_>"d2 B2 !p!(cB) | A2 "cres."G2 Bd | !f!e2 g2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original 2-staff layout.
+V: 2
+GF |\
+G4 c2 | B4 G>B | (c2 B2) G2 | (B2 d2) ^c=c |\
+(B2 e2 dc) | B2 G2 c2 | B2 G2 c2 | B2 G2 (GF) |
+G2 B2 c2 | B2 e2 (dc) | (BA) (GF) (GF) | G2 G2 FG |\
+B2 d2 c2 | B2 G2 G2 | F2 G2 GB | c2 B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

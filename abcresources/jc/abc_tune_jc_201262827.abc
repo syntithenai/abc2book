@@ -1,0 +1,16 @@
+X: 1558
+T: the Cloone Hornpipe   #2
+T: crannciuil cluain.
+R: hornpipe
+%S: s:3 b:14(5+5+4)
+O: Early
+B: O'Neill's 1850 #1558
+N: The G in bar 4 might be an A.
+Z:
+M: 2/4
+L: 1/16
+K: G
+B>c "^A"|:\
+d>de>d B2c>A | ~G>GA>F G2 [1,3 B>c | d>gf>g e>dc>d | e>cA>F G>FE>D :|[2,4 d>c | (3(BdB) G>B (3(AcA) F>A |
+| G2G>F G2 "^B":: (B>c) | d>gf>g e>dc>d |  e>de>f g2b>g | e>dc>B A>GF>G | A2D2 D2(3 ||
+| (DEF) | G>BA>c (3(BdB) G>B | (3(cec) A>c (3(gbg) d>c | (3(BdB) G>B (3(AcA) F>A | G2G>F G2 :|

@@ -1,0 +1,36 @@
+X: 20911
+T: CINDERELLA SETT (tune 4)
+C:
+N: Version 1, for ABC software that doesn't understand voice overlays.
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.91 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain is missing its fermata at the end; not fixed.
+N: Initial rest added to 3rd strain, to fix the rhythm.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+(c/f/) |\
+acg f2(c/f/) | acg f2(c/f/) | g2g (gfg) | a3 f2(c/f/) |\
+acg f2(c/f/) | acg f2(c/f/) | g2g gfg | f3 f2 |]
+c |\
+f3 a2c | g3 f3 | fac eg[ec] | fac eg[ec] |\
+f3 a2c | g3 f3 | (ede) cde | f f/c/a/g/ "^D.C."f2 |]
+z |\
+[c'2c2]z g3 | a2z f2z | [eB2]d[eB] [cB2]d[eB] | A2c c2z |\
+[c'2c2]z g2z | a2z f2z | ede cde | f2a "^D.C."f2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across,
+%% all promenade,
+%% all chain,
+%% all promenade,
+%% first four right and left,
+%% balance,
+%% sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

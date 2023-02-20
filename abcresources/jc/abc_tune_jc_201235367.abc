@@ -1,0 +1,36 @@
+X: 21102
+T: AMERICAN SETT (tune 2)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.110 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+N: Version 2 for ABC software that understands !...endo*! annotation.
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="2"
+F |\
+B3 d3 | f3- fdB | c2c cAF | B3 f=ef |\
+d2d _ede | f3 f=ef | d2d cBc | B3 z H|]
+Bdf |\
+b2b bag | f3 fcd | ecd ecf | d3 Bdf |\
+b2b bag | =efg cde | f3 agf | =efg cA"^D.C."B |]
+!pp!c3 ({c}BAB) | Q.c(fq=e) Q.d(dqc) |\
+Q.B(BqA) Q.G(gqf) | Q=e(gqe) Q.c(dqB) |\
+Q.A(fq=e) Q.d(gqf) | ({ef}Qg2q=e) ({fg}Qa2qf) |\
+{ga}Qb2qg Q=efqg | fgf _ed"^D.C."c |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% ladies chain,
+%% promenade four.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

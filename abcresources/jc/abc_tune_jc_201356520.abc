@@ -1,0 +1,28 @@
+%%scale 1.21
+%%barsperstaff 4
+X:1
+T:Cabin in Caroline - #181
+C:Lester Flatt & Earl Scruggs
+M:4/4
+L:1/4
+K:G
+%%staves{RH1}
+V:RH1 clef=treble name=melody
+|G/2-G/2|"G"G G B c|d3 B/2-B/2|"C"A G E G|"G"D3 G/2G/2
+w:v1~There's a cab-in in the pines, in the hills of Car-o-line, and a
+w:v2~I'm_ pack-_ing my grip for_ that_ long lost trip,__
+w:v3~And_ when it's late at night and the moon is shin-in' bright, and the
+|G G G A|B G F G|"D"A4-|A2 z B/2B/2|"G"B B c B|d3 B/2-B/2
+w:blue-eyed girl is wait-ing there for me._ I'll be go-ing back some day, from_
+w:back_ to the hills of Car-o-line._ Oh to see that blue eyed girl, she's the
+w:whip-or-wil is call-in' from the hills_ And I'll tell her all my love, be-_
+|"C"A G E G|"G"D3 D/2D/2|G G B B|"D"A G F A|"G"G3 z||
+w:her I'll nev-er stray, and the cab-in in the hills of Car-o-line.
+w:sweet-est in the world, and the ca-bin in the hills of Car-o-line.
+w:neath the stars a-bove, I_ love her now and~I know I al-ways will.
+|z3 d/2d/2|"C"c/2 c3/2 c c|d/2 d3/2 d3/2 d/2|"G"(B G-)G2-|G2 z B/2A/2
+w:ch~Oh the cab-in in the sha-dow of the pine.___ And a
+|G G G A|B B A G|"D"A4-|A2 z B|"G"B B c ^c|d3 B/2B/2
+w:blue eyed girl way down in Car-o-line._ Some day she'll be my wife and we'll
+|"C"A G E G|"G"D3 "^TAG"D/2D/2|G G B B|"D"A G F A|"G"G4-|G z3||
+w:live a hap-py life, in the cab-in in the hills of Car-o-line._

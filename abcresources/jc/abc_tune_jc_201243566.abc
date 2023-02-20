@@ -1,0 +1,26 @@
+X: 832
+T: Campbells are coming Oho
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.83 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+G |\
+B2e dBG | A2A TA2G | B2e dBG | B2B TB2A |\
+B2e dBG | ABA gab | geg dBG | B2B TB2 :|
+|: d |\
+g2g gab | ded Td2B | g2g gab | e2e Te2d |\
+def gfe | dBd gab | geg dBG | B2B TB2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g3 g3 | a3 a3 | g3 g3 | g3 g3 |\
+g3 g3 | d3 d3 | c3 d3 | G3 G2 :|
+|: z |\
+g3 g3 | g3 g3 | g3 g3 | c3 c3 |\
+d3 c3 | B3 G3 | c3 d3 | G3 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

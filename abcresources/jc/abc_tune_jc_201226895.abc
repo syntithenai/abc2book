@@ -1,0 +1,36 @@
+X: 10501
+T: FISHER'S HORNPIPE
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.50 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Fixed the rhythms by moving the final rests to the beginning.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+z2 |\
+fcAc BdcB | AcAc BdcB | AFAF BGBG | AFAF G4 |\
+fcAc BdcB | AcAc BdcB | ABcd efge | .f2.f2.f2 :|
+|: ef |\
+gece gebg | afcf afba | gece geba | gfed c2 Bc |\
+dBFB dBfd | cAFA cAfc | dfed | cBAG | F2F2F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+A2FA GBAG | FAFA GBAG | FCFC GDGD | FCFC E4 |\
+FAFA GBAG | FAFA GBAG | FGAB GABG | A2A2A2 :|
+|: cd |\
+ecGc ecge | fcAc fcgf | ecGc ecdc | BAcB A2z2 |\
+FDDF F2DF | FCCF F2CF | FdcB AGFE | F2F2F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=D
+z2 |\
+F4 E4 | F4 E4 | F2F2 B2B2 | c2c2 C4 |\
+F4 E4 | F4 B4 | c2c2 C2C2 | .F2.F2.F2 :|
+|: z2 |\
+C2c2C2c2 | C2c2 C2c2 | C2c2 C2c2 | F2F2F2z2 |\
+B2B2B2B2 | A2A2A2A2 | B2B2 c2c2 | F2F2F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

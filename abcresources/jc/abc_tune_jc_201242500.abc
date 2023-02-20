@@ -1,0 +1,31 @@
+X: 5
+T: Major Mc Niel's Strathspey
+C: by J.Boick.
+%R: strathspey
+B: "Tom Thumb a Favorite Dance with Three New Strathspeys and a Reel", R.RobertPurdie, ed. p.2 #3
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=118869468
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+FE |\
+D3FB3F GE3E3e | d3fd3B Tc3Bc3d |\
+D3FB3F GE3E3e | {e}d2cB {d}c2BA B4B2 :|
+e2 |\
+d2f2Tf3d e3dTc2e2 | Td3fd2B2 {B}TA3GF2B2 |\
+{Bc}d3c TB2F2 e3dc2e2 | d3ff2d2 .e.d.c.B .A.G.F.E |
+D3FB3F GE3E3e | d3fTd3B c3Bc3d |\
+D3FB3F G3E e3c | d3Bc3A B4B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+B4B4 e4c4 | B4B4 f4f4 |\
+B4d4 e4c4 | f4F4 B4B2 :|\
+z2 |\
+B4B4 c4c4 | B4d4 f4f4 |
+B4d4 c4c4 | B4B4 c4f4 |\
+B4d4 e4c4 | d4d4 f4f4 |\
+B4B4 e4c4 | f4F4 B4B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

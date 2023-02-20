@@ -1,0 +1,32 @@
+X: 48
+T: la Fourlane Venetienne
+T: la Barcariuole
+%R: jig, tarantella
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #48
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+A ABc |\
+d2d g2f | e2a dcd | Bgf edc | d2A, A,B,C |\
+D2D G2F | E2A DCD | B,GF EDC | D2 |]
+d (f/g/a).a |\
+(g/a/b).b (e/f/g).g | (f/g/a).a def | Bgf edc | d2D (F/G/A).A |\
+(G/A/B).B (E/F/G).G | (F/G/A).A (D/E/F).F | B,GF EDC | D2 |]
+f fff & A AAA |\
+ggg eee & AAA AAA | fff eee & AAA FFF | egf edc & B2x x3 | d2f A/f/A/f/A/f/ |\
+A/g/A/g/A/g/ A/e/A/e/A/e/ | A/f/A/f/A/f/ F/d/F/d/F/d/ | Bgf edc | d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z d'3 | b3 g3 | a3 f3 | g3 a3 | d3 d3 |
+B3 G3 | A3 F3 | G3 A3 | d2 |] a d'3 | g3 a3 |
+d3 f3 | g3 a3 | d3 d'3 | g3 a3 | d3 f3 |
+g3 a3 | d2 |] z d'3 | c'3 c'3 | d'3 d3 | g3 a3 |
+d3 d'3 | c'3 c'3 | d'3 d3 | g3 a3 | d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400

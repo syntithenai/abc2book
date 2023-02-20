@@ -1,0 +1,25 @@
+X: 1
+T: \AA Jenta \aa ja   [G]
+R: hambo-polska
+M: 3/4
+L: 1/8
+K: G
+|: "G"B2 A>B G2 | B2 A>B G2 | "D7"A2 A>G F>G | A>G F>E D2 \
+|  "G"B2 A>B G2 | B2 A>B G2 | "D7"A2 A>G F>G | A2 "G"G4 :|
+|: "G"G>B d2 d2 | "C"c>d e>d c>B | "D7"A>B c2 c2 | "G"B>c d>c B>A \
+| "Em"G>A B2 B2 | "Am"A>B c>B A>G | "D7"F>G A>D E>F | A2 "G"G4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: \AA Jenta \aa ja   [D]
+R: hambo-polska
+M: 3/4
+L: 1/8
+K: D
+|: "D"f2 e>f d2 | f2 e>f d2 | "A7"e2 e>d c>d | e>d c>B A2 \
+|  "D"f2 e>f d2 | f2 e>f d2 | "A7"e2 e>d c>d | e2 "D"d4 :|
+|: "D"d>f a2 a2 | "G"g>a b>a g>f | "A7"e>f g2 g2 | "D"f>g a>g f>e \
+| "Bm"d>e f2 f2 | "Em"e>f g>f e>d | "A7"c>d e>A B>c | e2 "D"d4 :|
+
+%%sep 1 1 500

@@ -1,0 +1,17 @@
+X: 4172
+T: Ossian's Hall    a Reel
+%R: reel
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.17 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+e c<Ae>c f>de=c | B>=G .B/.=c/.d Tg2Be | c<Ae>c f>ded | Tc>A .c/.d/.e a2e :| f/^g/ | aecA ce=gd | B=G B/=c/d Tg2B^g |
+aecA ceae | cAec ~a2(ea) || ceae fdec | dB=GB dgBd | cedf ecdB | Tc>A .c/.d/.e ~a2e |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | a2a2 a2a2 | =g2g2 g2^g2 | a2a2 a2a2 | a2e2 A2A :| z | a2a2 a2a2 | =g2g2 g2e2 |
+a2a2 a2a2 | e2e2 A2A2 || a2a2 a2a2 | =g2g2 g2^g2 | a2d2 c2B2 | A2E2 A2A |]

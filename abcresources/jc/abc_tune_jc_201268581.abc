@@ -1,0 +1,25 @@
+X: 1
+T: Dick's Maggot
+P: Longways for as many as will
+%R: triple hornpipe, minuet
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.332
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+g2 d4 B4 A2 | Bcd2 ABc2 B4 |\
+g2 d4 B4 A2 | Bcd2 G2F2 G4 |][|\
+f2 a4 f4 d2 | gab2 efg2 f4 |
+f2 a4 f4 d2 | def2 AB^c2 d4 |\
+Bcd2 Bcd2 e4 | efg2 efg2 f4 |\
+g2 d4 B4 c2 | A4- A4 G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. cross over, and the 2. cu. casts off .| Then change places across .| Then cast up in your own
+%% places, and back to back, then Right and Left and turn .|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

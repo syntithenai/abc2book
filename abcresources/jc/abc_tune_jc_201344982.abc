@@ -1,0 +1,12 @@
+X: 1148
+T: Tipperary Hills   #2
+R: slipjig
+%S: s:1 b:8
+O: Carey
+B: O'Neill's 1850 Music of Ireland #1148
+Z: Stephen Foy (shf@access.digex.net)
+%: abc 1.6
+M: 9/8
+K: D
+"^A"|: F2A AFA AFA |1,3 G2B BGB BGB :|2,4 d2B AFD (E2{FE}D) \
+"^B":: d2B AFD DFA |1,3 Bcd efg f2e :|2,4 Bcd AFD (E2{FE}D) :|

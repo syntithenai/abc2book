@@ -1,0 +1,29 @@
+X: 1
+T: the Duke of Gloucester's March
+P: Longways for as many as will
+%R: march, reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.254
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F2 |\
+B4 (Bc) (dB) | c4 F2 f2 |\
+d2 (cB) c2 (BA) | B2 (cB) A2 (GF) |\
+(Bc) d2 (ed) (cB) | f6 |]
+f2 |\
+c4 c3d | e4 d4 |\
+d2 d2 (cB) (AG) | d6 cd |\
+e2 (dc) d2 (cB) | f2c2 F2c2 |\
+f2 (ed) (ed) (cB) | B6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. hands half round, lead through and cast up, the 1. man turns the 2. man,  we. the same;
+%% Then all four change sides, then right-hands a-cross and goes round, the 1. cu. goes between the 3. cu.
+%% and cast up, the other following at the same time, then lead down all a-breast, the 1. cu. being between,
+%% fall back and cast off.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,18 @@
+X: 1032
+T: a Theater Tune.
+%R: jig
+B: Henry Playford "Apollo's Banquet", London 1687 (5th Edition)
+F: https://archive.org/details/apollosbanquetco01rugg
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The fermata at the end of strain 1 is fainter than the final fermata, and may be written in.
+M: 6/4
+L: 1/4
+K: Cdor
+% - - - - - - - - - -
+d |\
+e3 d2f | c>dc =Bcd | e3 d2g | g2^f g2d |\
+e>fe d2e | c>dc =Bcd | e3 d2c | c2=B Hc2 :|
+|: g |\
+_a3 g>ab | fba g>fe | f2f f>ed | efg B>AG |\
+_A3 G>AB | F>B_A G>FG | A=Bc =Bc2 | c2=B Hc2 |]
+% - - - - - - - - - -

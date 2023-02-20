@@ -1,0 +1,21 @@
+X: 178
+T: Hora Lautareasca din Dolj
+M: 2/4
+L: 1/8
+K: Cm
+%%MIDI gchord fzcz
+P:A
+%%MIDI chordprog 25 Acoustic Guitar (steel)
+%%MIDI bassprog 45 Pizzicato Strings
+%%MIDI chordvol 32
+%%MIDI bassvol 84
+%%MIDI program 68 oboe
+"Cm"z4|"Gm" z4|"Cm"z4|"Gm" z4|:\
+"Cm"z2 (3CEG|"Gm"c2  Bc|"Cm"AB GA|"Gm"FG G2|
+"Cm"CEB2|"Bb"AAGG|"Cm"FFEE|"G"EF G2|
+"Cm"z2 (3CEG|"Gm"c2 Bc|"Cm"AB GA|"Gm"FG G2|
+"Cm"(3GA=A B2|"Bb"A2 G2|"Cm"F2 EF|"Gm"^CE =C2:|
+P:B
+%%MIDI program 71 clarinet
+|:"Bb"B,A,B,C|"Fm"_DCD=E|"Bb"FG=E2-|"Cm"E2z2|
+"Bb"z=EFG|"Cm"BBAA|"Bb"GGFF|"Fm"=EF_DF|"Cm"C2z2:|

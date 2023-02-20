@@ -1,0 +1,17 @@
+X: 304
+T: Take Hence the Bowl   #2
+T: tog ua\`dso an cupan
+R: air, march
+%S: s:3 b:16(4+4+4)
+B: O'Neill's 1850 #304
+O: Mrs.Cantwell
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: Compacted by using labels and play order [JC]
+P: Play AB CB
+Q: "Moderate"
+M: C
+L: 1/8
+K: G
+"^A"[| d2c>B (B2A)B | d3c A2z2 |  c2cc   (c2B)c | e2 d2 z4 |]
+"^B"[| d2cB  (B2A)G | A3B c2d2 | (G2B)>G (d2c)A | G4-G2 "^fine"z2 |]
+"^C"[| A2AA  (A2B^c)|^cd3 z2d2 | (e2d)^c B(A2G) | G2 F2 "^->B"z4 |]

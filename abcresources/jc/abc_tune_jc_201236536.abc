@@ -1,0 +1,24 @@
+X: 2232
+T: the Haddington Assembly Jigg
+%R: jig
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.23 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 10-bar lines, for compactness and proofreading.
+V: 1 staves=2
+B/c/ |\
+dBG G2B | dBG G2B | ecA ABA | (Tf2e/f/) g3 ||\
+dBG TG2B | AFD d2c | (B/c/d)B cAF | G3 G2 :: d |\
+Tg2a bge | Tf2g afd |
+(ef/g/e) dBG | ABG F>ED ||\
+[1 Tg2a bge | Tf2g afd | (e/f/g).e (f/g/a).f | g3 g2 :|\
+[2 (G/A/B).A A2c | (B/c/d).B Tc2e | dcB AGF | G3 G2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | g3 g3 | g3 g3 | c'3 a3 | d'3 b3 || g3 G3 | d3 f3 |
+g3 d3 | G3 G2 :: z | g3 G3 | d3 D3 | c3 B2G | d3 D3 ||[1 g3 G3 |
+d3 d3 | c3 d3 | g3 G2 :|[2 g3 f3 | g3 c3 | d3 D3 | G3 G2 |]

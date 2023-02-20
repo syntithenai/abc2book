@@ -1,0 +1,82 @@
+X: 11501
+T: RORY O'MOORE
+O: Arranged by A. F. Knight
+%R: jig
+N: This is version 2, for ABC software that understands notation voice overlays, diminuendo, and tremolo.
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.150-151
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 sname="EbBgl" name="Eb Bugle" staves=8
+K: G
+e |\
+dGG BGG | eGG G2[ge] | dcB BAG | FAA aBc |\
+dGG BGG | dGG edc | bcd def | gGG G2 :|
+|: g |!f!\
+gfe eBB | cBA G2F | EFG GAB | Bed def |\
+gfe eBB | cBA G2F | EFG GAB | Bed "^D.C."d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 sname="BbBgl" name="Bb Bugle"
+K: C
+z | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z3 z2 :|
+|: z |!f!\
+zee zee | zee e2z | zBc Bde | cfe e2z |\
+zee zee | d2d e2z | zBc cde | cfe "^D.C."e2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 sname="BbPHn" name="Bb Post Horn"
+K: C
+a |!f!\
+gcc ecc | gcc c2a | gfe edc | Bdd def |\
+gcc ecc | gcc agf | efg gab | c'cc c2 :|
+|: c' |!f!\
+c'ba aee | fed c2B | ABc cde | eag gab |\
+c'ba aee | fed c2B | ABc cde | cag "^D.C."g2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 4 sname="BbCrn" name="Bb Cornopeon"
+K:
+z |\
+EEE EEE | EEE E2z | edc cBA | GBB Bcd |\
+cBE !/!E3 | EEE cBA | cde Bcd | cEE E2 :|
+|: z |!f!\
+zcc zcc | d2d c2z | ABc cde | cfe e2z |\
+zcc zcc | B2B c2z | ABc cde cfe "^D.C."e2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 5 sname="TTbn" name="Tenor Trombone" clef=bass middle=D
+K: Bb
+z | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z3 z2 :|
+|: B |!f!\
+BAG Gdd | edc B2A | GAB Bcd | dgf f2z |\
+BAG Gdd | edc B2A | GAB Bcd | dgf "^D.C."f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 6 sname="BTbn" name="Bass Trombone" % clef=bass middle=d
+K: Bb
+z |\
+B2z B2z | B2z B2z | B2z g2z | f2z f2z |\
+B2z b2z | b2z e2z | f2z f2z | bfd B2 :|
+|: z |!f!\
+G3 c3 | c3 B3 | gfe dcB | Bed f2z |\
+Qqg3 Qqg3 | g2z g2z | gfe dcB | Bed "^D.C."f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 7 sname="Oph1" name="1st Ophecleide" % clef=bass middle=d
+K: Bb
+z |\
+zbb zbb | zbb zbb | zbb zbb | a2a a2z |\
+Bbb Bbb | Bbb g2z | f2z a2z | bbb b2 :|
+|: z |!f!\
+g3 c'3 | c'3 b2z | gfe dcB Bdc f2z |\
+Qqg3 Qqg3 | G2z g2z | gfe dcB Bed "^D.C."f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 8 sname="Oph2" name="2nd Ophecleide" clef=bass middle=d
+K: Bb
+z |\
+B2z B2z | B2z b2z | B2z B2z | G2f f2z |\
+B2z B2z | B2z E2z | F2z F2z | B2B B2 :|
+|: z |!f!\
+G3 c3 | c3 B2z | gfe dcB | Bed f2z |\
+G3 G3 | G2z G2z | gfe dcB Bed "^D.C."f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

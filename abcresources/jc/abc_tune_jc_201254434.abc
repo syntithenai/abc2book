@@ -1,0 +1,16 @@
+X: 1
+T: Bolt the Door   [Am]
+T: Jack's Health
+O: 1686
+M: 6/8
+L: 1/8
+K: Am
+g2f \
+| "Am"ecA A2B | "Em"G2E E2B | "Am"c2A "G"B2G | "Am"A2B "E(m)"c2d \
+| "Am"ecA A2B | "Em"G2E E2B | "Am"c2A "G"B2G | "Am"A3 :|
+A2B \
+| "C"cBA "(G)"G2d | "C"e3 "G"d2B | "Am"c2A "G"B2G | "Am"A2B "E(m)"c2d \
+| "Am"ecA A2d | "C"e3 "G"d2B | "F"c2A B2A | "G"G3 |]
+g2e \
+| "G"dBG G2d | "C"e3 "G"d2B | "Am"c2A "G"B2G | "Am"A2B "E(m)"c2d \
+| "Am"ecA A2d | e2a a2^f | "G"g2e d2B | "Am"A3 |]

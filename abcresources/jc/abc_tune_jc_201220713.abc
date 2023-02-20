@@ -1,0 +1,36 @@
+X: 3
+T: the New Tyrolese Waltz
+%R: waltz
+B: "Le Sylphe, Twenty Four Country Dances with Figures for the Year 1818", Button & Whitaker, p.2 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1818
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 3/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ef |\
+gecc'af | (ag)g3g | fdBGAB | (cBcdef) |\
+gecc'af | (ag)g3g | (gabc'd'b) | c'4 :|
+|: (eg) |\
+(gf)d3f | (fe)c3e | dafdcB | (cdefga) |\
+(gf)d3f | (fe)c3e | (ed)(df)(dB) | c4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center WALTZ FIGURE        (Each strain repeated)
+%%begintext align
+%% The 3 Ladies & 3 Gent: set to each other |: swing with
+%% right hands round 2d Cu: then with left |: .
+%%endtext
+%%center COUNTRY DANCE FIGURE     (Each strain repeated)
+%%begintext align
+%% Set & hands across quite round with 2d Cu: set & back |:
+%% down the mid: up again & turn your partner |: .
+%%endtext
+%%sep 1 1 450
+%%begintext align
+%% The Waltzes in this & in ``BUTTON & WHITAKER'S'' & ``THOMPSON'S'' Collection
+%% will be found more useful to the Dancer than those published in any other,
+%% as they are not only adapted for Waltzing, but having proper figures set to them,
+%% may be danced as Country Dances, & likewise for Country Dance Waltzes,
+%% or Waltz Country Dances.
+%%endtext

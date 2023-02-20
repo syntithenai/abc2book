@@ -1,0 +1,19 @@
+X: 10594
+T: AMERICAN HORNPIPE
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.59 #4
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Changed initial 2 pickup notes to 1/8-notes to fix the rhythm of repeats.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(FG) |\
+ABAG FAGB | ABcA dAFA | GABA GFED | CDEF GEFD |\
+ABAG FAGB | ABcA dAFA | dfeg fdec | d2d2 d2 :|
+|: A2 |\
+dcde f2f2 | edef dAFA | dcde fgaf | edef e2A2 |\
+dcde f2gf | edef dAFA | BdAF GBAF | Egec d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

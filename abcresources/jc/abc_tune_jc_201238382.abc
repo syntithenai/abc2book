@@ -1,0 +1,24 @@
+X: 30682
+T: LADY BARTLETT'S WHIM
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.68 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The rhythms at the strains' boundaries are mostly wrong; not fixed.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(3(DEF) |\
+G2G2 BdcB | ABcA GFED | G2GD ECB,A, | G,2cB AG (3(DEF) |\
+G2G2 BdBG | ABcA GFED | G2GD ECB,G, | G,c BA G2G2 :|
+|:\
+B2B2 cBAG | Bdgf gdBG | A2AF AcAF | GGDD CB,A,B, |\
+B2B2 cBAG | Bdgf gdBG | A2A2 FGAF | G2G2G2 :|
+|:\
+B2d2 dgfg | agfe edcB | c2e2 ddcB | ABcd cBAG |\
+B2d2 dgfg | agfe edcB | cdef edcB | dcBA G2G2 |
+G2D2 G2D2 | GBcA GFED | G2D2 G2D2 | GEDC B,A,B,G, |\
+G2D2 G2D2 | GBcA GFED | G2D2 GDB,A, | B,2D2 G,2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

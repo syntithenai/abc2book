@@ -1,0 +1,26 @@
+X:1
+T:Madame Bonaparte
+M:C|
+L:1/8
+Q:80
+C:Arr. by  T. Tully
+S:Hornpipe
+K:HP
+|: {gef}e3/4d/4 | \
+{gcd}c{G}c3/4B/4{g}c3/4e/4{g}c3/4A/4 | \
+{Gdc}d{c}d3/4c/4{g}d3/4e/4{gde}d3/4B/4 |
+{G}A{gcd}c3/4e/4a3/4g/4a3/4f/4 | \
+{gef}e{A}e3/4f/4{g}e3/4d/4{gcd}c3/4B/4{gcd}c{G}c3/4B/4{g}c3/4e/4{g}c3/4A
+/4 | \
+{Gdc}d{c}d3/4c/4{g}d3/4f/4a3/4f/4 |
+{gef}((3e3/4c/4{g}A/2B/2c/2){gde}d3/4B/4{g}G3/4{d}B/4 | \
+{g}A{GAG}A3/4{d}B/4{G}A :: \
+{gcd}c3/4B/4 |
+{G}A{gcd}c3/4e/4a3/4g/4a3/4f/4 | \
+{gef}e{A}e3/4f/4{g}e3/4d/4{gcd}c3/4B/4 | \
+{G}A{gcd}c3/4e/4a3/4g/4a3/4f/4 |
+{gef}e{A}e3/4f/4{g}e3/4d/4{gcd}c3/4B/4{gcd}c{G}c3/4B/4{g}c3/4d/4{gef}e3/
+4c/4 | \
+{Gdc}d{c}d3/4c/4{g}d3/4f/4a3/4f/4 | \
+{gef}((3e3/4c/4{g}A/2B/2c/2){gde}d3/4B/4{g}G3/4{d}B/4 |
+{g}A{GAG}A3/4{d}B/4{G}A :|

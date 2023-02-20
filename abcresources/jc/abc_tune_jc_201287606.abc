@@ -1,0 +1,24 @@
+X:1
+T:Hoppvals i D og A
+R:hoppvals
+Z:StorBrekkingen Track 21
+Z:(see Nyhus #86 - Jon Viken)
+P:AABBCCA
+M:2/4
+L:1/8
+K:D
+|: "D"F3/2F/4F/4 "D/A"(FD) | "G"G3/2B/4B/4 "G/D"(BB)
+|  "A"A3/2c/4c/4 "A/E"(ec) | "D"d3/2e/4e/4 "D/A"(fd)
+|  "D"F3/2F/4F/4 "D/A"(FD) | "G"G3/2B/4B/4 "G/D"(BB)
+|  "A"A3/2c/4c/4 "A/E"(ec) | "D"d2- "D/A"dA :|
+|: "D"f3/2e/4e/4 "D/A"(dB) | "D"B3/2A/4A/4 "D/A"(AF)
+|  "G"G3/2G/4G/4 "G/D"(GB) | "D"BA "D/A"Ad
+|  "D"f3/2e/4e/4 "D/A"(dB) | "D"B3/2A/4A/4 "D/A"(Ad)
+|  "A/E"c3/2c/4c/4 "A"(Bc)
+|[1 "D"d2- "D/A"dA :|  "D"d2- "D/A"d (c/2d/2) |
+K:A
+|: "A"e>f "A/E"ed | "A"c3/2A/4A/4 "A/E"(Ac)
+| "E/B"B3/2G/4G/4 "E"(GB) | "A"(cA) "A/E"(A/B/c/d/)
+|  "A"e>f "A/E"ed | "A"c3/2A/4A/4 "A/E"(Ac)
+| "E/B"B3/2G/4G/4 "E"(GB)
+|1 "A"A2- "A/E"Ac :|2 "A"Az "A"=G2 ||

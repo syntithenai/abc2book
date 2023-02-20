@@ -1,0 +1,19 @@
+X: 121
+T: Miss Barbara Campbell's Jigg
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.12#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: G
+V: 1
+|: d3  B2G | ~E3 EFG | cBA GFE |  DED DBc \
+|  dgf edc | Bcd ecA | BGF EFG |1 ABc AFD :|2 DEF GAB |
+|: cBc dBG | EcB AFD | GFG EAc |  BAG FGA \
+|  Bcd ecA | def gdB | ecA dBG |1 DEF GAB :|2 DEFGBc |]
+V: 2 clef=bass middle=d
+|: g3  b3 | c'3  c3 | A3  ^c3 |  d3 [d3D3] \
+|  G3  g3 | G3   c3 | G3 c2^c |1 d3 f3 :|2 d3 z3 |
+|: G2A B3 | c2^c d3 | e3   c3 | ^c3 d3 \
+|  g3 c'3 | g3   b3 | c'3  g3 |1 d3 z3 :|2 d3 z3 |]

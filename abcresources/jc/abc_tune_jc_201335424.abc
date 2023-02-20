@@ -1,0 +1,5 @@
+X: 2
+T: TEST: Segno 2
+%%staffwidth 300
+K: C
+ED !segno![| CDE FGA | Bcd efg | abc' c'3 "dal"y0!segno!|]

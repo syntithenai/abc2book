@@ -1,0 +1,45 @@
+X: 1
+T: a Perfect Ten [D]
+C: Jonathan Jensen (2002)
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A2 \
+| "D"d4 d2ef | "A"edcB "D"A2d2 \
+| "Bm"F^GA2 "E7"B2G2 | "A"A6 B2 |
+| "C"=c4 c2de | "G"d=cBA "C"G2c2 \
+| "Am"EFG2 "D7"A2F2 | "G"G4 G3F \
+| "Em"EFG2 "A7"F2E2 | "D"D6 :|
+|: E2 \
+| "D"F4 "Em"G3F | "A"EFG2 "F#m"A3G \
+| "Bm"F^GA2 "E7"B2G2 | "A"A6 A2 |
+| "D"d4 "G"e3d | "A"cde2 "F#7"f3e \
+| "Bm"def2 "Em"g2e2 | "A"c2BA "D"d2F2 \
+| "Em"EFG2 "A7"F2E2 | "D"D6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: a Perfect Ten [C]
+C: Jonathan Jensen (2002)
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+G2 \
+| "C"c4 c2de | "G"dcBA "C"G2c2 \
+| "Am"E^FG2 "D7"A2F2 | "G"G6 A2 |
+| "Bb"_B4 B2cd | "F"c_BAG "Bb"F2B2 \
+| "Gm"DEF2 "C7"G2E2 | "F"F4 F3E \
+| "Dm"DEF2 "G7"E2D2 | "C"C6 :|
+|: D2 \
+| "C"E4 "Dm"F3E | "G"DEF2 "Em"G3F \
+| "Am"E^FG2 "D7"A2F2 | "G"G6 G2 |
+| "C"c4 "F"d3c | "G"Bcd2 "E7"e3d \
+| "Am"cde2 "Dm"f2d2 | "G"B2AG "C"c2E2 \
+| "Dm"DEF2 "G7"E2D2 | "C"C6 :|
+
+%%sep 1 1 500

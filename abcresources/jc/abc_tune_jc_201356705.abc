@@ -1,0 +1,20 @@
+     %!HARMONY ABC @
+     %Harmony/Melody File to ABC Vers 2.9.9 April 1998-March 2004
+     %Written by Guillion Bros. on a Chris Walshaw format
+     %Please e-mail us your comments and bugs reports : didier@myriad-online.com
+     %Wednesday, December 27, 2006 14:05:13
+
+
+X:1     %Music
+T:Cuckoo's Nest     %Tune name
+C:     %Tune composer
+N:Filkins Tradition (Approximate-- Butterworth supposed that bars 5-8 made up the "A" part)%Tune infos
+Q:1/4=120     %Tempo
+V:1     %
+     %!STAVE 0 'Piano 1' @
+     %!INSTR 'Piano 1 [Ch1]' 0 0 @
+M:4/4     %Meter
+L:1/8     %
+K:G
+B3/2c/ B3/2A/ G2 g2 |g=f ed c2 cc |BA G=F GA cB-|BG2 G4 |B3/2c/ d2 =fe |d3/2c/ BA G4 |c2 c3/2d/ c2 =fe |dB dB G2 G3/2A/ |B3/2c/ B3/2A/ G2 g2 |g=f ed c2 cc |BA G=F GA cB-|BG2 G4 |]
+     %End of file

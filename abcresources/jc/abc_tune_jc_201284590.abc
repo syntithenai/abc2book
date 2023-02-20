@@ -1,0 +1,34 @@
+X: 1
+T: the Happy Marriage
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.195 "S 2"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat added to satisfy the "first Strain played twice" instruction. Note the ":S:" (segno) for a repeat of the last 4 bars.
+M: 6/4
+L: 1/4
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+a |\
+f>ed ^c>de | f3 e>fg |\
+a>ba (fd)g | e3 f3 |\
+g>ab a>gf | e>f e/d/ ^c>de |
+c>BA A>B^G | A3- A2 :|\
+e |\
+e>fe ^c>de | A>d^c d2a |
+b2a g>fe | d>ef e2f |\
+(ge)c f2g |
+            (af)B b2a |\
+(ge)c f>ge | f3- f2"^:S:"g |\
+af/g/a ge/f/g | fd/e/f e^ce |\
+a>gf f>ed | d3- d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man cast off below the 2. man, go back to back with the 1. wo. and stand in the 2. man's place; then 1. wo. cast off
+%% below the 2. wo. go back to back with the 1. man, and stand in the 2. wo. place. This to the first Strain played twice. All four
+%% right-hands a-cross half round, then left-hands back again, which brings the 1. cu. into the 2. cu. place; then the Figure of 8.
+%% through the 1. cu. which brings them into the 2. cu. place.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

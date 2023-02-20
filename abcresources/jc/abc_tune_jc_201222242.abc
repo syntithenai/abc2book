@@ -1,0 +1,31 @@
+X: 57
+T: Madm Maxwell
+T: Madame Maxwell
+C: Carolan
+%R: march, reel
+B: "The Hibernian Muse" p.35 #2
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. LVII.
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+d2(e<d) (d<B)G2 | B2d2 d2g2 | fga2 gab2 | abc'2 {c'}b2a2 |\
+g2d2 {c}B2{A}G2 | c2e2e2g2 | {f}f2d2 a2{g}f2 | g4 g4 |]
+[|\
+d'2g2 d'2g2 | c'2e'2 e'2d'c' | b2g2 d'2c'b | {d'}c'2a2 a2c'2 |\
+bc'd'2 c'd'e'2 | d'2c'2 b2a2 | g2e2 a2g2 | f4 {e}d4 |
+g4 (gfed) | B2G2 B2d2 | fga2 {b}a2g2 | f2d2 d2(ef) |\
+(gfed) (edcB) | c2e2 e2d2 | (edcB) cBTAG | G4 G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+g4 g4 | g4 g4 | d2c2 B2G2 | F2D2 d4 |\
+G4 g4 | d4 c4 | d4 D4 | G4 G4 |]
+g4 G4 | e4 c4 | g4 G4 | d4 d4 |\
+g2f2 e2c2 | B2c2 d4 | e4 c4 | d4 d'2c'2 |
+b2g2 b2d'2 | g6 f2 | d4 c4 | d4 c4 |\
+B2G2 c2d2 | e2c2 c2f2 | g2G2 d2D2 | G2g2 G4 |]

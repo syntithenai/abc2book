@@ -1,0 +1,60 @@
+X: 1
+T: Inventio 11
+T: BWV 782
+C: Johann Sebastian Bach
+Z: 2004 John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/16
+V: 1 clef=treble staves=2 brace=2
+V: 2 clef=bass   middle=d
+K: Gm
+V: 1
+[| zD=E^F   GABG     AGFE      DcBA     \
+|  GF=ED    CBAG     dcBd      cBAc     \
+|  BAGA     Bcd=e    =f2d2     z2d2     |
+|  _edcd    e2=e2    fede      f2^f2    \
+|  g2dc     d_e=fd   edcB      Agfe     \
+|  dcd=e    fgaf     gfed      ^cbag    |
+|  f4-      fgab     ^cd=ed    c2=c2    \
+|  =Bcdc    B2_B2    A2d4      ^c2      \
+|  A2f4     e2       A2a4      g2-      |
+|  g2f=e    fde^c    d3e       e3d      \
+|  d2=cB    ABcA     BAGF      =EdcB    \
+|  AGA=B    c4-      cABc      d4-      |
+|  dG=A=B   cdec     dcBA      Gfed     \
+|  c_B_AG   Fedc     gfeg      fedf     \
+|  edcd     efg_a    =B2d2     z2F2     |
+|  E2c2     D2=B2    cGcd      e4-      \
+|  ecde     f4-      f2ed      g3f      \
+|  edcB     AG^FA    ED=EF     GABG     |
+|  AG_F=E   DcBA     G=FED     CBAG     \
+|  dcBd     cBAc     BAGB      AG^FA    \
+|  GABc     d=e^fg   afga      d4-      |
+|  dc_ed    cBAc     ^FABA     G=FEG    \
+|  ^CGAB    DAG^F    G8        |] \
+   x8 x8 x8 x8 x8 x8 x8
+V: 2
+[| G4       z2g2     ^fgag     f2=f2    \
+|  =efgf    e2_e2    d2g4      ^f2      \
+|  gd=e^f   gabg     ag=fe     dc'ba    |
+|  gf_ed    cbag     d'c'bd'   c'bac'   \
+|  baga     bc'd'b   c'2e2     f2F2     \
+|  B2b2     a2d'2    b2g2      a2A2     |
+|  DA=B^c   d=efd    edcB      Agfe     \
+|  dc=BA    Gf=ed    agfa      gfeg     \
+|  f=edf    ed^ce    defd      gabg     |
+|  ^c'a=bc' d'fga    _b=efg    a2A2     \
+|  d4       zd=ef    gabg      c'2c2    \
+|  f2_ed    efge     fedc      =B_agf   |
+|  edcd     efg_a    =B2G2     z2G2     \
+|  _AGFG    A2=A2    _BAGA     B2=B2    \
+|  cGA=B    cdec     dcB=A     Gfed     |
+|  c_B_AG   FEFG     CBef      g_a_bg   \
+|  _agfe    dc'ba    gfg=a     bc'd'b   \
+|  cbag     ^fe'd'c' b4-       bc'd'_e' |
+|  ^fgag    f2=f2    =efgf     e2_e2    \
+|  d2g4     ^f2      d2b4      a2       \
+|  d2d'4    c'2-     c'_e'd'c' bagb     |
+|  e4-      edce     A2d2-     d2c2     \
+|  B2AG     d2D2     G8        |] \
+   x8 x8 x8 x8 x8 x8 x8

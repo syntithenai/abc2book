@@ -1,0 +1,46 @@
+X: 193
+T: God Rest You Merry, Gentlemen.
+C: Traditional.
+O: English.
+%R:
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: Em
+V:1
+V:2 
+V:3 clef=bass middle=d
+V:4 clef=bass middle=d
+%%score (1 2) (3 4)
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1]!f!E | EB BA  | (GF)  ED  | EF  GA |  B3 :|
+[V:2]   E | EG F^D | (E=D) CB, | E^D EE | ^D3 :|
+w: 1.~God rest you mer-ry, gen-tle-men,    Let noth-ing you dis-may,
+w:    Re-mem-ber Christ, our Sav-*ior,     Was born on Christ-mas Day,
+w: 2.~Now to the Lord sing prais-*es,      All you with-in this place,
+w:    And with true love and broth-er-hood Each oth-er now em-brace,
+[V:3]   e | ge  fb | b-b  gg | gb be | f3 :|
+[V:4]   e | ee ^dB | (eB) cG | cB ec | G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1]  B | cA Bc | (de)  BA  | GE  FG | A2 |
+[V:2]  E | ED DG | (=FE) D^D | E^C DE | F2 |
+w: To save us all from Sa-tan's pow'r   When we were gone a-stray;
+w: This ho-ly tide of Christ-*mas       All oth-er doth de-face;
+[V:3] ^g | aa gg | (gg)  gf  | gg ad' | (d'c') |
+[V:4]  e | af ge | (Bc)  GB  | ee dB  |  d2    |
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Chorus.
+[V:1]!ff!(GA) | B2 cB | (BA) GF  | E2 G/  F/   E |
+[V:2]    (GD) | D2 ED | (GF) E^D | E2 B,/ B,/ ^C |
+w: O_ ti-dings of com-*fort and joy, com-fort and
+[V:3] (ba) | g2 gg | (d'c') bb | g2 g/ g/ g |
+[V:4] (ef) | g2 cg | (GA)   BB | e2 e/ e/ e  |
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] A2 (GA) | (Bc) de | (BA) GF  | E3 |]
+[V:2] D2 (EF) |  G2  GG | (GF) E^D | E3 |]
+w: joy, O_ ti-dings of com-*fort and joy!
+[V:3] (fa) (d'c') | (bg) d'c' | (d'c') bb | g3 |]
+[V:4] (dc) (BA)   | (Ge) Bc   | (GA)   BB | e3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

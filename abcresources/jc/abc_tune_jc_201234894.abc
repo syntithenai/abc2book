@@ -1,0 +1,32 @@
+X: 20864
+T: HAMILTON SETT (tune 4)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.86 #4 (and 2 top staffs of p.87)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain has only 7 bars.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+c |\
+f2e d2c | c3 A2A | B2d c2B | A3 z2c |\
+a2g fed | c3 A2c | d2g fed | f3 z2 H|]
+c |\
+B2G E2C | F2A c2c | =Bcd c_BA | c2A F2c |\
+B2G E2C | F2A c2f | d2c c2E | G3 "^D.C."F2 |]
+F/G/ |\
+A3 G2F | D3 C2z | D2E F2G | ABA G2z |\
+A3 G2F | DFA GFE | (G3 "^D.C."F2) |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across and back,
+%% all balance partners and turn,
+%% -- ladies forward and back,
+%% gentlemen the same,
+%% all balance and turn.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

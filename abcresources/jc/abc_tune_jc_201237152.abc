@@ -1,0 +1,42 @@
+X: 2445
+T: SCHOTTISCHE
+C: Carl Volti
+R: shottish
+N: This is version 2, for ABC software that understands crescendo symbols.
+U: p=!crescendo(!
+U: P=!crescendo)!
+B: Kerr's v.2 p.51 #445
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+!f!(3(d^cd) |\
+b2g2 d2B2 | A>Bc>d e4 |\
+f2e2 c2A2 | G>AB>c d2 (3(d^cd) |\
+b2g2 d2B2 | A>Bc>d e4 |\
+f>gf>e d>cB>A | G2[g2B2] [g2B2] H:|
+!f!g2 |\
+fefa e2f2 | e2d2- dGBe |\
+d2c2- cDFd | c2 B4 g2 |\
+fefa e2f2 | e2d2- dGBe |\
+[1 d^cBc feBc | d2f2d2 :|\
+[2 d2c2- cDBA | G2[g2B2] "_D.C."[g2B2] ||
+P: TRIO
+K: C
+|: !p!G>c |\
+e2e2 e>de>f | (a4 g)>ga>g |\
+g2d2- d>fe>d | e2c2- (3cGA (3Bcd |\
+e2e2 e>de>f | (a4 g)>ga>g |\
+g2d2- d>fe>d | c2e2c2 :|
+!p!c>d |\
+e2e2 f3e | d>^cd>e c2 p(c>B) |\
+(A>B)(B>c) (c>d)(d>e) | P(e3d/c/ B2)c>d |\
+e2e2 f3e | d>^cd>e c2c>B |\
+(A>B)(B>c) (c>d)(d>e) | e2e'2e'2 |]
+%
+W: Repeat 1st part of TRIO then D.C. to beginning.
+%
+% %begintext align
+% % Repeat 1st part of TRIO then D.C. to beginning.
+% %endtext
+%%sep 5 1 5

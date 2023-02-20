@@ -1,0 +1,30 @@
+X: 1
+T: Old Harry
+%R: march, reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (147)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The actual time signature is just "2".
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 2/2
+L: 1/4
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+BG dA | BA/G/ ^FA |\
+GB Ac | Bd g2 :|\
+|:\
+g>a ba | ba/g/ ^fd |\
+gd ed | c2 B2 |\
+BdBd | ec =eg |\
+^fa dg | g>^f g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The first Couple clap Hands and cast off .| Then the
+%% second Couple do the same :| Then cast off and turn your
+%% Partner with inside below the third Couple then cast
+%% up above the third Couple and Hands round with the
+%% second Couple :|
+%%endtext
+%%sep 1 8 500

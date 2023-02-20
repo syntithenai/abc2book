@@ -1,0 +1,19 @@
+X: 231	% 62
+T: Oxford Minuette
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.23 #1
+R: shottish
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/16
+K: G
+V: 1 name="62"
+"^Moderate and stately"
+((3ABc \
+| d3)BA3B G4D4 | E3GF3A G8 | E3GF3A G4B4 | A3EF3G A6 (3(ABc \
+| d3)BA3B G4 D4 | E3GF3A G8 |
+| c3cB3A d3BG3A | B4A4 G3 (3(DEF \
+|:[M:2/4] "^Two-step rhythm"\
+G2)A2B2d2 | e2d2 ddBc | d2c2 ccAA | e2d2 d3 (3(DEF |
+| G2)A2B2d2 | e2d2 d4 |\
+[1 ([f3d3]e) ([f3d3]e) | d2d2 d3 (3(DEF :|\
+[2 ([f3d3]e) d2(ef) | [g2B2][g2B2] [g2B2] |]

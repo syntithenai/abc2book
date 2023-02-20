@@ -1,0 +1,18 @@
+X: 1
+T: Mr. Michie [Variation]
+C: Angus Fitchet
+R: march
+B: Hugh Foss, "The ANGUS FITCHET Album" 1954
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: F
+C2 \
+| "F"FEFG ABAB cdcA f2d2 | "F"cdcA fcAF "C7"E2G2 G2A2 \
+| "Bb"k[FD]EFD "F"kCFEF "Bb"kB,D^CD "Gm"G,2d2 | "F"c2A2 "C7"BGEc "F"A2F2 F2 :|
+c2 \
+| "F"fcAc afcA FAcF "Bb"FBdf | "F"cdcA fcAF "C7"E2G2 G2c2 \
+| "F"fcAc afcA FAcF "Bb"FBdf | "F"cdcA "C7"BGEc "F"A2F2 F2 |]
+c2 \
+| "F"afcA FAcf "Bb"fdBF DFBd | "F"cdcA fcAF "C7"E2G2 G2A2 \
+| "F"{E}F4 C2F2 "Bb"B,2D2 "Gm"G,2d2 | "F"c2A2 "C7"BGEc "F"A2F2 F2 |]

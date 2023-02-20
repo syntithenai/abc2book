@@ -1,0 +1,39 @@
+X: 1
+T: (the) Fidler's Morris
+N: "Scots air" handwritten right of title in DMDfD.
+N: "Watson's Scots measure" and "O Gin Ye were dead Guidman" handwritten after tune.
+N: Robert Burns used this tune for his song 'There was a lad born in Kyle'.
+P: Longways for as many as will
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.67 #98
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Deleted an extra "and" in the dance instructions.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+DE |\
+F2F2 c2F2 | B2 G4 DE | F2F2 c2F2 | A2f2 c3c |\
+defd AB cA | dc BA G2DE | F2f2 c3B | A2 F4 |]
+de |\
+fefg fgaf | gfga gage | fefg fgaf | gfed cdec |\
+defd AB cA | dc BA G2 DE | F2f2 c3B | A2 F4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. cast off below the 2d Cu. sett and cast up,
+%% and cross over; then cast off below the 3d Cu. set and
+%% cast up and cross over; then lead up to the Top, cast off,
+%% and turn your Partner, then go the double Figure, and
+%% right and left quite round.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first couple cast off below the second couple, set and cast up and cross over; then cast off below
+%% the 3d. couple, set and cast up and cross over; then lead up to the top and cast off and turn your
+%% Partner, then go the double Figure, and right and left quite round.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

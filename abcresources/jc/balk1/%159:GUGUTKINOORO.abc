@@ -1,0 +1,14 @@
+X: 159
+T: Gugutkino Oro
+O: Macedonia
+F: http://www.youtube.com/watch?v=PgAIgdLvJ2A
+F: http://www.youtube.com/watch?v=HAfGJD8VwgE
+M: 7/8
+L: 1/8
+Q: 1/4=150
+K: Dphr ^F
+%%MIDI program 71 Clarinet
+%%MIDI drum d3d2d2 63 62 35 80 60 60
+%%MIDI drumon
+|:G3 G2G2|A3 G2E2|F2E D2C2|E3 E4|F2E D2C2|D3 D4::
+C3 C2D2|E3 E2F2|F2E D2C2|G3 A2G2|F2E D2C2|D3 D4:|

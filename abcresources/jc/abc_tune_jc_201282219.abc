@@ -1,0 +1,6 @@
+X:1
+T:TEST: Grace note after note
+M:none
+%%staffwidth 300
+K:C
+| G{A} |

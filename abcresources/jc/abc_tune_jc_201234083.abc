@@ -1,0 +1,37 @@
+X: 20251
+T: HARDWICK'S MARCH
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" 1843 p.25 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: All 3 voices have the final "D.C.", but only voice 1 has a "Fine"; not fixed.
+N: Voice 3 really does have 2+2+4 beaming in bar 7, unlike the other voices.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+a>g |\
+f2f>f f2f2 | f3a d'agf | e2e>e e2e2 | e3f gbag |\
+f2f>f f2f2 | f3a d'agf | gbag fedc | d2d>d "^Fine"d2 :|
+|: a>a |\
+a2a>a a2a>a | f2d2 a2f2 | edcd efga | a2a>a a2a>a |\
+a2 z4 a>a | a2 z4 a>a | aa/a/ aa ^gg/g/ gg | a2a>a "^D.C."a2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+d2d>d d2d2 | d3f baed | c2c>c c2c2 | c3d egfe |\
+d2d>d d2d2 | d3f bfed | egfe AGFG | F2F>F F2 :|
+|: f>f |\
+f2f>f f2f>f | [d2A2][A2F2] f2d2 | GFEF cdef | f2f>f f2f>f |\
+f2 z4 f>f | f2 z4 f>f | ff/f/ ff BB/B/ BB | c2c>c "^D.C."c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+d2d>d d2d2 | d3d dddd | A2A>A A2A2 | A3A AAAA |\
+d2d>d d2d2 | d3d dddd | GG GG AAAA | d2d>d d2 :|
+|: z2 |\
+d2d>d d2d>d | d2d2 d2d2 | AAAA AAAA | d2d>d d2d>d |\
+d2 z4 z2 | d2 z4 z2 | dd/d/ dd ee/e/ ee | A2A>A "^D.C."A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

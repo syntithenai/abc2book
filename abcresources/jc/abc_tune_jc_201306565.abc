@@ -1,0 +1,17 @@
+X: 244
+T: the Man With the Red Cloak   #2
+R: air, jig
+%S: s:4 b:32(8+8+8+8)
+B: O'Neill's 1850 #244
+O: J.O'Neill
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A B C A
+Q: "With spirit"
+M: 6/8
+L: 1/8
+K: C
+"^A"|: G2G G2G | GFA G3 |1 c2c cBc | (^c3 d2)A :|2 d2d ded | c2-c "^fine"y|]
+"^B"|: GAB | c2c cdc | c2B Bc^c | d2d ded |1 e2z :|2 c2z |]
+"^C"|: z2 G | f3 def | e3 c2c | BBB BAB | c3  :|"^->A"z3

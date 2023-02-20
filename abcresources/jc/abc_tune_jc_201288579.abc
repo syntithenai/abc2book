@@ -1,0 +1,18 @@
+X: 221
+T: the Humors of the Joyce Country
+R: air, waltz
+%S: s:3 b:16(8+8+8)
+B: O'Neill's 185 #221
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Both endings have a long trill over the entire note.
+Q: "With spirit"
+M: 3/4
+L: 1/8
+K: G
+(Bd) \
+| e4 (e/f/g) | d4 (BA) | G2 G2 DE | G2 G2 DE \
+| (GAGEDE) | G2 G2 (DG) | A2 A2 GA | B2 B2 AG |
+| (AGABAG) | E2 D2 (BA) | TG6- | G4 |]| (Bd) \
+| e4 (e/f/.g) | d4 (de) | (gagede) | (gagede) |
+| (gagede) | g2 g2 (eg) | a2 a2 ga |b2 b2 ag \
+| (agabag) | e2 d2 (g/a/b) | Tg6- | g4 |]

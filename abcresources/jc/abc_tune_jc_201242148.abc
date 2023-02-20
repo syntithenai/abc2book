@@ -1,0 +1,26 @@
+X:1
+T:The 51st Highland Division
+M:C
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+{gef}e3/2c/2 | \
+{g}A2{GdGe}A3/2B/2{gcd}c{e}B{gcd}ce | \
+{ag}a3/2g/2{fg}fe{gfg}f2{g}ef3/4g/2| |
+{ag}a3/2g/2{fg}fe{gfg}faA3/2B/2 | \
+{GdG}cf{gef}e3/2c/2{gBd}B2{gef}e3/2c/2 | | \
+{g}A2{GdGe}A3/2B/2{gcd}c{e}B{gcd}ce |
+{ag}a3/2g/2{fg}fe{gfg}f2{g}ef3/4g/2 | | \
+{ag}a3/2g/2{fg}fe{gfg}fa{cd}c{e}B | \
+{gcd}c2{e}A2{GAG}A2|]
+{gcd}ce | \
+{g}f2{GdG}fa{ef}e2{gcd}ce | \
+{ag}a3/2g/2{a}fe{gfg}f2{g}e{g}f3/4g/2| |
+{ag}a3/2g/2{fg}fe{gfg}faA3/2B/2 | \
+{GdG}cf{gef}e3/2c/2{gBd}B2{gef}e3/2c/2 | | \
+{g}A2{GdGe}A3/2B/2{gcd}c{e}B{gcd}ce |
+{ag}a3/2g/2{fg}fe{gfg}f2{g}ef3/4g/2 | | \
+{ag}a3/2g/2{fg}fe{gfg}fa{cd}c{e}B | \
+{gcd}c2{e}A2{GAG}A2|]

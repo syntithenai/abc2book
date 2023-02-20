@@ -1,0 +1,19 @@
+X: 1271
+T: the Tree In the Wood
+O: English Folk Song
+%R: air
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+V:1 nm=SA
+%V:2 
+%V:3 clef=bass middle=d
+%V:4 clef=bass middle=d
+% %score {(1 2) (3 4)}
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] D | DE [FD][GE] A2 A2 & x4 [F2D2] [F2D2] | [B2G2D2] [B2G2D2] [A3F3D3]F | DE [FD][GE] [A2F2D2] [A2F2D2] |1 BB B2 A2 & [G2D2] [G2D2] [F2D2]
+w: 1.~All in* a* % wood there grew a tree, The fin-*est* tree you ev-er did see
+% - - - - - - - - - - - - - - - - - - - - - - - - -

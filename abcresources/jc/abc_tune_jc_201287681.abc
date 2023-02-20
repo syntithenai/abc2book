@@ -1,0 +1,94 @@
+
+X: 1
+T: Hora Veche   [Gm]
+%T: P\^in\ua c\^ind nu te iubeam ?
+O: Romania
+Z: from a 2012 transcription by Patrick Yacono
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+S: https://www.youtube.com/watch?v=NHw_XWn0k4I
+S: https://www.youtube.com/watch?v=bQK4ZpL1mDs
+M: 6/16
+L: 1/16
+K: Gm
+D- "D7"DGA |\
+"Gm"AB2 ~B2A | "Cm"=Bc2 "A7/c#"~c2_B | "D7"~B2A A3- | ~A2D ^FG2 |\
+"Cm"G~A2 A2~G | ~^F3 EDE | "Gm"D6- | "D7"D2D GB2 |
+"Gm"^cd2 ~d2=c | "G7"de2 ~e2d | "Cm"{^f}g2z c3- | "(Am)"c2c d2e |\
+"D7"dBd ~c2B | "/e"BGB "/f#"A^FA | "Gm"G6- | G2  :|
+|: d- d^cd |\
+"Gm"B6- | B2d- ~d^cd | "D7"A6- | A3 z3 |\
+[A2^F2][BG] [cA][d2B2] | "Cm"~[e2c2][dB] [cA][e2c2] | "Gm"[d6B6]- | "D7"[d2A2]d- de^f |
+"Gm"{^f}g6- | "G7"gdf ee=B | "Cm"=Bc2- c3 | "(Am)"{d}e6 |\
+"D7"dBd cAc | "/e"BGB "/f#"A^FA |1 "Gm"G6- | Gz :|2 "Gm"G2z "D7"d2z | "Gm"g2 |]
+
+
+X: 1
+T: Hora Veche   (Am)
+%T: P\^in\ua c\^ind nu te iubeam ?
+O: Romania
+Z: from a 2012 transcription by Patrick Yacono
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+S: https://www.youtube.com/watch?v=NHw_XWn0k4I
+S: https://www.youtube.com/watch?v=bQK4ZpL1mDs
+M: 6/16
+L: 1/16
+K: Am
+E- "E7"EAB |\
+"Am"Bc2 ~c2B | "Dm"^cd2 "B7/d#"~d2=c | "E7"~c2B B3- | ~B2E ^GA2 |\
+"Dm"A~B2 B2~A | ~^G3 FEF | "Am"E6- | "E7"E2E Ac2 |
+"Am"^de2 ~e2=d | "A7"ef2 ~f2e | "Dm"{^g}a2z d3- | "(Bm)"d2d e2f |\
+"E7"ece ~d2c | "/f#"cAc "/g#"B^GB | "Am"A6- | A2  :|
+|: e- e^de |\
+"Am"c6- | c2e- ~e^de | "E7"B6- | B3 z3 |\
+[B2^G2][cA] [dB][e2c2] | "Dm"~[f2d2][ec] [dB][f2d2] | "Am"[e6c6]- | "E7"[e2B2]e- ef^g |
+"Am"{^g}a6- | "A7"aeg ff^c | "Dm"^cd2- d3 | "(Bm)"{e}f6 |\
+"E7"ece dBd | "/f#"cAc "/g#"B^GB |["1-n" "Am"A6- | Az :|["fine" "Am"Az2 "E7"ez2 | "Am"az |]
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Hora Veche   [Dm]
+%T: P\^in\ua c\^ind nu te iubeam ?
+O: Romania
+Z: from a 2012 transcription by Patrick Yacono
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+S: https://www.youtube.com/watch?v=NHw_XWn0k4I
+S: https://www.youtube.com/watch?v=bQK4ZpL1mDs
+M: 6/16
+L: 1/16
+K: Dm
+A,- "A7"A,DE |\
+"Dm"EF2 ~F2E | "Gm"^FG2 "E7/G#"~G2=F | "A7"~F2E E3- | ~E2A, ^CD2 |\
+"Gm"D~E2 E2~D | ~^C3 B,A,B, | "Dm"A,6- | "A7"A,2A, DF2 |
+"Dm"^GA2 ~A2=G | "D7"AB2 ~B2A | "Gm"{^c}d2z G3- | "(Em)"G2G A2B |\
+"A7"AFA ~G2F | "/B"FDF "/c#"E^CE | "Dm"D6- | D2  :|
+|: A- A^GA |\
+"Dm"F6- | F2A- ~A^GA | "A7"E6- | E3 z3 |\
+[E2^C2][FD] [GE][A2F2] | "Gm"~[B2G2][AF] [GE][B2G2] | "Dm"[A6F6]- | "A7"[A2E2]A- AB^c |
+"Dm"{^c}d6- | "D7"dAc BB^F | "Gm"^FG2- G3 | "(Em)"{A}B6 |\
+"A7"AFA GEG | "/b"FDF "/c#"E^CE |1 "Dm"D6- | Dz :|2 "Dm"D2z "A7"A2z | "Dm"d2 |]
+
+
+X: 1
+T: Hora Veche   (Em)
+%T: P\^in\ua c\^ind nu te iubeam ?
+O: Romania
+Z: from a 2012 transcription by Patrick Yacono
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+S: https://www.youtube.com/watch?v=NHw_XWn0k4I
+S: https://www.youtube.com/watch?v=bQK4ZpL1mDs
+M: 6/16
+L: 1/16
+K: Em
+B,- "B7"B,EF |\
+"Em"FG2 ~G2F | "Am"^GA2 "F#7/A#"~A2=G | "B7"~G2F F3- | ~F2B, ^DE2 |\
+"Am"E~F2 F2~E | ~^D3 CB,C | "Em"B,6- | "B7"B,2B, EG2 |
+"Em"^AB2 ~B2=A | "E7"Bc2 ~c2B | "Am"{^d}e2z A3- | "(F#m)"A2A B2c |\
+"B7"BGB ~A2G | "/c#"GEG "/d#"F^DF | "Em"E6- | E2  :|
+|: B- B^AB |\
+"Em"G6- | G2B- ~B^AB | "B7"F6- | F3 z3 |\
+[F2^D2][GE] [AF][B2G2] | "Am"~[c2A2][BG] [AF][c2A2] | "Em"[B6G6]- | "B7"[B2F2]B- Bc^d |
+"Em"{^d}e6- | "E7"eBd cc^G | "Am"^GA2- A3 | "(F#m)"{B}c6 |\
+"B7"BGB AFA | "/c#"GEG "/d#"F^DF |1 "Em"E6- | Ez :|2 "Em"E2z "B7"B2z | "Em"e2 |]

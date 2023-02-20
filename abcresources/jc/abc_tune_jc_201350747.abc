@@ -1,0 +1,24 @@
+X: 1
+T: the Water is Wide
+C: trad
+O: England
+%: attr. "Mrs. Cox, of High Ham" by Cecil Sharp
+R: air, lament
+S: Fiddle Hell Online 2021-11-5
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: This is really the tune twice, in different octaves.
+M: C
+L: 1/8
+K: G
+z2d2 g2a2 ||\
+"G"b8 | "C"z2a2 g2e2 | "G"d8 | z2d2 g2^f2 |\
+"Em"g8 | "C"z2a2 b2c'2 | "D7"a8 ||
+z2a2 b2c'2 ||\
+"Bm"d'8 | "C"z2c'b a2g2 | "G"b8 | "C"z2a2 g2e2 |\
+"G"d4 | "C"z2d2 g2^f2 | "G"g8 |]
+z2D2 G2A2 ||\
+"G"B8 | "C"z2A2 G2E2 | "G"D8 | z2D2 G2^F2 |\
+"Em"G8 | "C"z2A2 B2c2 | "D7"A8 ||
+z2A2 B2c2 ||\
+"Bm"d8 | "C"z2cB A2G2 | "D7"B8 | "C"z2A2 G2E2 |\
+"G"D8 | z2D2 G2^F2 | "G"G8 |]

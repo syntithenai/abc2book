@@ -1,0 +1,15 @@
+X: 1
+T: Bonaparte Crossing the Rhine
+%C: R-130 [RJ collection]
+O: 1837
+S: Sheet music published 1837 by Geo Willig, Philadelphia, as "Caledonian March"
+N: Attributed to "A Professor" by Geo Willig
+Z: 2021 John Chambers <jc:trillian.mit.edu> 
+R: march
+P: Play A1A2 BA2
+M: C
+L: 1/8
+K: D
+"^A"[|] FG | "D"A>BAF A2de | f>efa d2dc | "G"B>cdB [1 "D"AFED | "A"E2EF E2 :|[2 "D"AF"A"EF | "D"D2D>E "^fine"D2 |]
+"^B"[|  de | "D"f>efg a3A | "G"B>ABc "D"d3A | "G"B>cdB "D"AFDF | "A"E2E>F E2"^->A2"y |]
+%%text Played both as 16- and 32-bar tune.

@@ -1,0 +1,14 @@
+X: 1
+T: the Glen Tromie Strathspey
+C: William Marshall
+Z: John Chambers <jc:trillian.mit.edu>
+N: Marshall's v.1, p.45
+M: 4/4
+L: 1/16
+K: C
+ef | "C"g-c3 "(G7)"e3d "C"c6 ef | (gc3) a3c "G7"Bd3 d2ef \
+   | "C"g-c3 "(G7)"e3d "Am"c4- cBAG | "F"ABcA "G7"BcdB "C"G2c2 c2 :|
+GF | "C"E3c G2c2 E2c2 G2c2 | "Am"e3d cdec "G7"d2D2 D2GF \
+   | "C"E3c G2c2 E2g2 e2c2 | "F"A3f "G7"d2B2 "C"e2c2 c2 |]
+GF | "C"E3c G2c2 E2c2 G2c2 | "D7"e3d cdec "G7"d2D2 D2GF \
+   | "C"E3G c2E2 "Dm"F2A2 d2f2 | "G7"efga gfed "C"e2c2 c2 |]

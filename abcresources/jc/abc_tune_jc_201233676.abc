@@ -1,0 +1,33 @@
+X: 2006
+T: No sure
+R: jig
+B: John Walsh "Caledonian Country Dances"
+S: http://petrucci.mus.auth.gr/imglnks/usimg/5/50/IMSLP98359-PMLP202128-walsh_caledonian_country_dance_vol2.1.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: 2nd part has 14 bars.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 is reformatted by phrase boundaries.
+V: 1
+|:\
+Bdb {d}Tc2B | Aca TB2A | BDG BdD | BDG BdD |\
+Bdb Tc2B | Aca TB2A | Bdg Ad^c | dAF D3 :|
+|:\
+ADd TB3 | ADc TB3 | efg Be^d | eBG E3 |\
+ADc TB3 | dBb Tc3 | (B/c/dG) (A/B/cG) | FAF D3 |
+(B/c/dG) (A/B/cG) | FAF DAc | Bdb dcB | Aca cBA | BGE DGF | GDB, G,3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|: g3 zzg | f3 zzf | g3 G3 | g3 G3 | g3 a3 | f2d g2d | g3
+a3 | d6 :||: f3 g3 | f3 g3 | c3 B3 | E2e g2e | f3 gdB | G2g afd |
+g3 c3 | d3 fdf | g3 c3 | d3 f3 | g3 G3 | A3 f3 | g2c d2D | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Man Sets to the 2d Wo. and turn her .|
+the 1st Wo. does the same :|
+Cross over two Cu. lead up to the top, foot it and cast off .|.
+Hands round four with the 3d Cu. Right hand and Left with the 2d Cu. :|:
+%%endtext

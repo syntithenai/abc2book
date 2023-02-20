@@ -1,0 +1,35 @@
+%%scale 1.2
+%%barsperstaff 4
+X:1
+T:Where The Soul Never Dies
+T:Canaan's Land
+C:William M Golden
+M:4/4
+L:1/4
+K:D
+%%staves {RH1}
+V:RH1 clef=treble
+|D/2E/2|"D"F E D F|A "G"B "D"A "G"B3/4A/4|"D"F3 D3/4E/4|"A7"E3 D/2E/2
+w:1~To_ Ca-naan's land I'm on my way, where the soul nev-er dies; my_
+w:2~A_ rose is bloom-ing there for me, where the soul nev-er dies, and_
+w:3~A_ love light beams a-cross the foam, where the soul nev-er dies; It_
+w:4~My_ life will end in death-less sleep, where the soul nev-er dies; and_
+w:5~I'm_ on my way to that bright land, where the soul nev-er dies; where_
+|"D"F E D F|A "G"B "D"A "G"B3/4A1/4|"D"F3 "A7"E3/4E/4|"D"D3||
+w:dark-est night will turn to day, where the soul nev-er dies.
+w:I shall spend e-ter-ni-ty, where the soul nev-er dies.
+w:shines to light the shores of home, where the soul nev-er dies.
+w:ev-er-last-ing joys I'll reap, where the soul nev-er dies.
+w:there will be no part-ing hand, and the soul nev-er dies.
+%%STAFF CHANGE ALL
+%%staves {RH2 RH3}
+V:RH2 clef=treble
+|D|"D"F3 "G"B|"D"A3 "D"D|F3 "E7"D|"A7"E3 "D"D
+w:No sad fare-wells, no tear-dimmed eyes, where
+|"D"F3 "G"B|"D"A3 "G"B3/4A/4|"D"F3 "A7"E3/4E/4|"D"D3||
+w:all is love, and the soul nev-er dies.
+V:RH3 clef=treble
+|C|"D"D D D "G"D|"D"D "A7"C/2E/2 "D"D A,|"D"D E D "E7"B,|"A7"C3 "D"A,
+w:Dear friends there'll be no sad fare-_ wells there'll be no tear-dimmed eyes, where
+|"D"D D D "G"D|"D"D "A7"C "D"D "G"D3/4C/4|"D"D "E7"D "D"D "A7"C3/4C/4|"D"A,3||
+w:all is peace and joy and love, and the soul of man nev-er dies.

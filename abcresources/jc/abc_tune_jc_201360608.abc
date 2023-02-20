@@ -1,0 +1,178 @@
+X:1055
+T:Variations on a Tyrolienne
+T:(trombone transcription)
+T:Introduction
+C:Joseph Jean Baptiste Laurent Arban
+B:From "Method for the Cornet"
+Z:Transcribed by Laura Conrad - http://www.world.std.com/~lconrad/
+F:http://abc.musicaviva.com/tunes/arban-joseph-jean-baptiste-laur/tyrolienne-trb.abc
+%%partsfont Helvetica 12
+M:9/8
+L:1/8
+K:F bass
+%1
+"Andante moderato" f6 ea^c | e3 d2 z Adf | a3-afd bge | d3 ^c2 z z2 z |
+%2
+f5 f ^f3 | {ef}g2 d b3-b2 a | a^gd f3 ^G3 | A3-A2 z z2 z | c3-cag f{gf}e/f/b/a/ |
+%3
+^f3 g3 b3/4a//g3/4f//e3/4d// | d2 c c3 {dc=B}c/e/g/b/d'/c' | b3 a3 z2 z | c {d/c/}=B/c/d/c/ f/c/a/f/"rall."c'-c'/b/a/g/f/e/ |
+%4
+^c-c//d//e//d// a//b//c'//b// ^f//g//a//g// d//e//d//^c// d//e//f//^f// g//f//e//f// g/a/b/=b/ | (3c'c'~^c' (3Hd'/=c'/=b/ (3_b/a/g/ (3f/e/d/ {d}(3~cHa>g | f3 |]
+
+X:2
+T:
+T:Theme
+M:3/4
+L:1/8
+K:Bb bass
+%1
+"Andante"z2 f > e df d'3-c' | b-d f3 b | acefac' | bd f3-e |
+%2
+df d'3-c' | bd f3 b | acefac' | b4 z d' | c'b g3 =e | fa c'3 c' | d'c'bc=eg |
+%3
+fa f'3d' | c'b g3 =e | fa c'3 c' | d'c'bc=eg | f4 f>_e | df d'3 c' | bd f3 b |
+%4
+acefac' | bdf3 e | df d'3 c' | bdf3 b | ac'e'fac' | b4 |]
+
+X:3
+T:
+T:Variation I.
+M:3/4
+L:1/8
+K:Bb bass
+%1
+f>e | (3d-fb d'>b (3abg | (3f=eg (3fdB F>B | (3Ace a2 (3c'ce |
+%2
+(3dfb d'2 f>e | (3dfb d'>b (3abg | (3f=eg (3fdB F>B | (3Ace (3fac' (3e'ac' |
+%3
+b4 || d'2 | {d}(3c'bg =ece g>e | f~a c' > c' | (3d'c'b (3gc=e g>e |
+%4
+(3fac' f' > d' | {d}(3c'bg (3=ece g>e | f~a  c'3  c' | (3d'c'b gc=e g>e |
+%5
+f4 f>_e | (3dfb d'>b (3 abg | (3f=eg (3fdB F>B | (3Ace a2 (3c'ce |
+%6
+(3dfb | d'2 f>e | (3dfb "(1)"d'3 b2 (3abg | (3f=eg (3fdB F>B | (3Ace (3fac' (3e'ac' | b4 |]
+N: sic.  In other words, this one measure is in 4/4 instead of 3/4, but not notated that way.
+
+X:4
+T:
+T:Variation II.
+M:3/4
+L:1/8
+K:Bb bass
+%1
+L:1/16
+f3 e | dfd'c' bddf bd'g'f' | =e'f'f'^c' c'd'd'a abbf |
+effa affc' c'ffa | bfde fd'ec' dbfe | dfd'c' bddf bd'g'f'
+=e'f'f'^c' c'd'd'a abbf | effa affc' c'ffa | abfd B4 || d'3c' |  c'=e' gb =e4 d'3c' |
+c'f'ac' f4 a3 c' | c'=eed' d'eec' c'3b | af'f'a ac'c'f d'3c' | c'=e'gb =e4 d'3c' |
+c'f'ac' f4 a3c' | c'=eed' d'eed' {c'd'}"rall."c'3e | f8 "Tempo I"f3 _e | dfd'c' bddf bd'g'f' |
+=e'f'f'^c' c'd'd'a abbf | effa affc' c'ffa | bfde fd'ec' dbfe |
+dfd'c' bddf bd'g'f' | =e'f'f'^c' c'd'd'a abbf | effa affc' c'ffa | abfd B4 |]
+
+X:5
+T:
+T:Variation III.
+M:3/4
+L:1/16
+K:Bb bass
+%1
+f3e | dBd fdf bfb d'ff c'ff | bd'c'bag fbagfe dfedcB |
+w:l1p238
+%2
+Afffff efffff aff c'ff | bab d'^c'd' f'=e'_e' d'=c'b agf f=e_e | dBd fdf bdf bfb d'ff c'ff |
+w:l2p238
+%3
+bd'c'bag fbagfe dfedcB | Aff fff eff fff aff c'ff | bff d'ff b2 z2 ||
+w:l3p238
+%4
+d'3c' | c'c'c' c'f' =e'e'e' e'>g b4 | aaa af' c'c'c' c'>f a4 | d'd'd' d'g bbb b=e ggg gc |
+w:l4p238
+%5
+f^fg _a=ab =bc'^c' d'e'=e' f'3d' | c'c'c' c'f' =e'e'e' e'>g b4 | aaa af' c'c'c' c'>f a4 |
+w:l5p238
+%6
+d'd'd' d'g bbb b=e ggg "rall."gc' | f8 "tempo I"f3_e || dBd fdf bdf bfb d'ff c'ff |
+w:l6p238
+%7
+bd'c'bag fbagfe dfedcB | Afffff efffff aff c'ff |
+w:l7p238
+%8
+bab d'^c'd' f'=e'_e' d'=c'b agf f=e_e | dBd fdf bdf bfb d'ff c'ff |
+w:l8p238
+%9
+bd'c' bag fba gfe dfe dcB | Afffff efffff aff c'ff | bff d'ff b2 z2 |]
+w:l9p238
+
+X:6
+T:
+T:Variation IV.
+M:3/4
+L:1/16
+%%MIDI transpose -24
+K:Bb bass
+%1
+z4 | Bdfbd'f' d'bfdfd Bdfbd'f' | Bdfbd'f' d'bfdfd Bdfbd'f' |
+w:l
+%2
+e'f'e'd'e'd' c'e'c'bc'b abagfe | dBdfbd' f'd'bfdB Ffffff |
+w:2
+%3
+Bdfbd'f' d'bfdfd Bdfbd'f' | Bdfbd'f' d'bfdfd Bdfbd'f' |
+w:3
+%4
+e'f'e'd'e'd' c'd'c'bc'b agfedc | Bdfbd'f' B4 || z4 | =eee ggg bbb c'c'c' =e'e'e' g'g'g'|
+w:4
+%5
+f'2 c'c'c' aff fff aaa c'c'c' | bc'c'c'c'c' gc'c'c'c'c' =ec'c'c'c'c' |
+w:5
+%6
+fc'c'c'c'c' afffff aaa fff | =eee ggg bbb c'c'c' =e'e'e' g'g'g' |
+w:6
+%7
+f'2 c'c'c' aff fff aaa c'c'c' | bc'c'c'c'c' gc'c'c'c'c' =ec'c'c'c'c' |
+w:7
+%8
+faaaaaf4 z4 | Bdfbd'f' d'bfdfd Bdfbd'f' | Bdfbd'f' d'bfdfd Bdfbd'f' |
+w:8
+%9
+e'f'e'd'e'd' c'd'c'bc'b abagfe | dBdfbd' f'd'bfdB Ffffff | Bdfbd'f' d'bfdfd Bdfbd'f' |
+w:9
+%10
+Bdfbd'f' d'bfdfd Bdfbd'f' | e'f'e'd'e'd' c'd'c'bc'b agfedc | Bdfbd'f' B4 z4 |]
+w:10
+
+X:7
+T:
+T:Rondo
+M:2/4
+L:1/16
+K:Bb bass
+%1
+"Allegro"f3e | d2f2d'2c'2 | .b2.d2 f4 | g2f2.c2.a2 | c'2b2f3e | d2f2d'2c'2 | b2d2 f4 | c2e2f2a2 |
+w:l1p239
+%2
+b4 z2 d'2 | c'2b2g2=e2 | f2a2 c'4 | d'2c'2b2g2 | d'2c'2a2f2| c'2b2g2=e2|f2a2 c'4 | {d'/c'/}=b2c'2_b2=e2 | f4 z4 | z16 |
+w:l2p239
+%3
+z4 fgfe | dfbd' c'bac' | bd'g'f' e'd'c'b | afac' bfbd' | c'f'c'a fgfe | dfbd' c'bac' |
+w:l3p239
+%4
+bd'g'f' e'd'c'b | c'd'e'c' baga | b4 z2 d'2 | e'g'f'e' d'f'e'd' | c'e'd'c' bd'c'b  |afac bfbd' |
+w:l4p239
+%5
+c'2fg abc'd' | e'g'f'e' d'f'e'd' | c'e'd'c' bd'c'b | gc'e'c' baga | bfff d'fff | c'f=ef gfaf |
+w:l5p239
+%6
+bfff gfff | =ef_ef dfcf | Bfff d'fff | e'f=ef gfaf | bfff gfff | =ef_ef dfcf |
+w:l6p239
+%7
+B2df bdfb | d'dfb d'fbd' | f'd'bf d'bfd | bfdB bfdB | F2ff ffff |
+w:l7p239
+%8
+ffff ffff | b2ff ffff | ffff ffff | b4 z2 c'2 | d'2c'2d'2c'2 | d'4 z4 | f'4 z4 | B8 |]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

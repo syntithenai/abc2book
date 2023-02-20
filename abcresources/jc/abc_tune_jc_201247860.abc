@@ -1,0 +1,20 @@
+X:405
+T:Arthur Bignold of Lochrosque
+C:Joe Buchanan's Scottish Tome - Page 362.0
+I:362 0
+C:John MacCall
+R:March
+Z:Carl Allison
+L:1/16
+M:2/4
+K:A =G
+a>f | "A"{f}e2>A2 {d}c2>B2 | "A"A>ca>f e>A{d}c2 | "G"{c}d2G2 {Bd}B2A2 | "G"G>Bg>e "Em"{c}d2c>d |
+"A"{f}e2>A2 {d}c2>B2 | "A"A>ca>f e>A{d}c2 | "A"{c}e2>c2 "G"(B<d)G>B | "A"A4 A2 :|
+c>d | "A"{f}e2a2 {d}c2a2 | "A"A>ca>f e>A{d}c2 | "G"{c}d2g2 {B2d2}B2g2 | "G"G>Bg>e "Em"{c}d2c>d |
+"A"{f}e2a2 {d}c2a2 | "A"A>ca>f e>A{d}c2 | "A"{c}e2c2 "G"B<dG>B | "A"A4 {A}A2 :|
+e2 | "A"A2A>c e<A{d}c2 | "A"A>ca>f {f}e2d>B | "G"G>GG>B d>G{c}B2 | "G"G>Bg>e "Em"{c}d2c>B |
+"A"A>AA>c e<A{d}c2 | "A"A>ca>f e>Ac2 | "A"e2>c2 "G"B<dG>B | "A"A4 {A}A2 :|
+c>d | "A"(e<a)ca A2A>c | "A"e>dc>d e>Ac2 | "G"(d<g)Bg G>GG>B | "G"d>c(B<e) "Em"d>GB2 |
+"A"(e<a)ca A>AA>c | "A"e>dc>d e>A{d}c2 | "A"{c}e2>c2 "G"(B<d)G>B | "A"A4 {A}A2 c>d |
+"A"(e<a)ca A2A>c | "A"e>dc>d e>Ac2 | "G"d<gBg G>GG>B | "G"d>cB<e "Em"d>GB2 |
+"A"A>Bc>d c<eA>c | "D"d<fc<e "A"e>A{d}c2 | "A"{c}e2>c2 "G"B<dG>B | "A"A4 A2 |]

@@ -1,0 +1,54 @@
+%%text RJ Set 140 NEFFA 2018
+
+
+X: 1
+T: Aim\'e Gagnon
+M: C|
+L: 1/8
+R: reel
+N: with transition for RJ set 98.
+K: G
+DC |\
+"G"B,DGA B2DC | B,DGA "G#dim"B2AG |\
+"Am7"FGAB cAFA | "D"GABc "D7"d2DC |\
+"G"B,DGA B2DC | B,DGA "G#dim"B2AG |
+"Am7"FGAB cAFA | "D7"GBAF "G"G2 :: Bd |\
+"G"gddg ddgd | Bcde "G#dim"dBAG |\
+"Am7"FGAB cAFA | "D"GABc "D7"d2Bd |
+"G"gddg ddgd | Bcde "G#dim"dBAG |\
+["cont." "Am7"FGAB cAFA | "D7"GBAF "G"G2 :|\
+|["trans." "Am7"FGAB "D7"cAFA | "G".G2z2z2AG |
+
+
+X: 2
+T: Woodbridge Breakdown
+C: Andy De Jarlis
+K: A
+M: C|
+|:\
+"A"EGAB cA A2 | efedc2 A2 | "G"EF=GA BG G2 | Bdde dBcA |\
+"A"EGAB cA A2 |
+                efedc2 ef | "G"=gefd efed | "A"c2 "E7"BG "A"A4 ::\
+"A"ea- aa abaf | ea- aa abaf |
+                               "Em"edef =g2gf | "G"=gedB =GABd |\
+"A"ea- aa abaf | ea- aa a2ef | "G"=gefd  efed | "A"c2 "E7"BG "A"A4 :|
+
+
+X: 3
+T: Caribou
+C: Andy DeJarlis
+R: reel
+M: C|
+K: Edor
+|:\
+"Em"B2ED EFGA | B2ED EFGE |\
+"D"D2FD  DADD | BDDA DDFD ||\
+"Em"E2ED EFGA |
+                Bdef g2fg |\
+"C"afge "D"efec | "D"dBAF \
+[1 "Em"EdcA  :|[2 "Em"E4  |:\
+"Em"Be2B efed | Bdef edBd |
+"D"Ad2A d3e   | fedf edBA ||\
+"Em"Be2B efed | Bdef g2fg |\
+"C"afge "D"efec | dBAF "Em"E4 :|
+

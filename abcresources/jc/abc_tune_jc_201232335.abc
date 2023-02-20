@@ -1,0 +1,44 @@
+X: 16
+T: Cotillon XVI.     la La borde.
+%R: reel
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #16
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 1st and 3rd segnos have just a column of 4 dots; the intended repeat pattern isn't obvious.
+N: The double bars and repeats here are a guess at the correct ABC notation for this music.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+d2 |\
+(gd) d4 e2 | (e2.d2) z2e2 | (dB)(.d.d) (cA)(.c.c) | {c}B6 A2 |\
+(Bd)(ed) (gd)(bd) | (Ac)(dc) (fc)(ac) | (Bd)(ed) (gf)(ed) | T^c2Bc A2 |]
+!segno!|: a2 |\
+(a^g) g4 =g2 | (gf) f4 a2 | (aB)(ge) d2T^c2 | {c}d6 !segno!:|\
+|: A2 |\
+(dA)(fA) (eA)(gA) | (fA)(aA) (gf)(ed) | (^cA)(eA) (fA)(gA) | {g}f6 !segno!:|
+d2 |\
+(gd) d4 e2 | (e2.d2) z2e2 | (dB)(.d.d) (cA)(.c.c) | {c}B6 d2 |\
+(ec)(ef) (gd)(cB) | (cA)(cd) (ec)(BA) | (BG)(ec) (BA)(GF) | {F2}G6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z2 |\
+z2g2G2g2 | g2G2g4 | z2b2a2f2 | g2d2 G2f2 |\
+g4 b2g2 | f4 d2f2 | g4 b2g2 |
+a2e2 A2 |]!segno!|: z2 |\
+e4 ^c4 | d4 f4 | g2e2 a2A2 | d6 !segno!:|\
+|: z2 |\
+z2d'2^c'2a2 | d2d'2b2g2 |
+a2^c'2d'2e'2 | d'3e' d'2 !segno!:| c'2 |\
+b2g2G2g2 | g2g2g4 | z2b2a2f2 | g2d2 G2b2 |\
+c'4 b2g2 | a4 f4 | g2c2d2D2 | G6 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round: four Couple turn each others Partners: Chasse\`e all Eight, turn their
+%% Partners into their Places, then Chasse\`e again by all Eight: turn their Partners
+%% again into their Places.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.

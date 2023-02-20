@@ -1,0 +1,39 @@
+X:1
+T: Rural Sports
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:A
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 25 notes)
+K:A
+M:4/4
+L:1/16
+A4 c8 e4|e4 a8 A4 |E4 G8 B4|B4 d8 c2 B2 |A4 c8 e4|e4 a8 b4 |g4 f2 e2 B4 ^d4 |e16 |
+%W: A2
+% voice 1 (1 lines, 25 notes)
+A4 c8 e4|e4 a8 A4 |E4 G8 B4|B4 d8 c2 B2 |A4 c8 e4|e4 a8 b4 |g4 f2 e2 B4 ^d4 |e16 |
+%W: B1
+% voice 1 (1 lines, 30 notes)
+E4 G8 B4|B4 d8 c2 B2 |c4 A4 =g4 e4 |f2 g2 a8 g2 f2 |e4 c4 a4 c4 |B2 c2 d4 g4 b4 |c4 B2 A2 B8 |A16 |
+%W: B2
+% voice 1 (1 lines, 30 notes)
+E4 G8 B4|B4 d8 c2 B2 |c4 A4 =g4 e4 |f2 g2 a8 g2 f2 |e4 c4 a4 c4 |B2 c2 d4 g4 b4 |c4 B2 A2 B8 |A16 |
+%W: C1
+% voice 1 (1 lines, 38 notes)
+K:a
+e2 d2 e2 f2 e4 d4 |c4 B4 A4 ^G4 |A4 A2 B2 c4 A4 |e4 E4 E8 |g2 f2 g2 a2 g4 f4 |e4 f2 g2 a4 f4 |e4 d2 c2 d4 c2 B2 |c4 C4 C8 |
+%W: C2
+% voice 1 (1 lines, 38 notes)
+e2 d2 e2 f2 e4 d4 |c4 B4 A4 ^G4 |A4 A2 B2 c4 A4 |e4 E4 E8 |g2 f2 g2 a2 g4 f4 |e4 f2 g2 a4 f4 |e4 d2 c2 d4 c2 B2 |c4 C4 C8 |
+%W: D1
+% voice 1 (1 lines, 35 notes)
+g2 f2 g2 a2 g4 f4 |e4 d2 ^c2 d4 D4 |f2 e2 f2 g2 f4 e4 |d4 c2 B2 c4 C4 |e2 d2 e2 f2 e4 d4 |c4 e4 ^g4 b4 |c8 B8 |A16 |
+%W: D2
+% voice 1 (1 lines, 35 notes)
+g2 f2 g2 a2 g4 f4 |e4 d2 ^c2 d4 D4 |f2 e2 f2 g2 f4 e4 |d4 c2 B2 c4 C4 |e2 d2 e2 f2 e4 d4 |c4 e4 ^g4 b4 |c8 B8 |A16 ||

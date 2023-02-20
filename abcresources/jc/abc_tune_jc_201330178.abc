@@ -1,0 +1,23 @@
+X: 1
+T: Richard Snary
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (42)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B3 (dcB) | g2e Td2c | B3 (dcB) | c2F c2F |\
+B3 (dcB) | g2e Td2c | (def) c2f | d3 B3 :|
+|:\
+B3 dcB | b2B b2B | d3 (dcB) | c2F c2F |\
+B3 (dcB) | g2e def | (bfe) (dcB) | Tc3 B3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu. cross over figure in and Right
+%% hand and Left then foot it cast down and
+%% turn hands foot it cast up and turn hands
+%%endtext
+%%sep 1 8 500

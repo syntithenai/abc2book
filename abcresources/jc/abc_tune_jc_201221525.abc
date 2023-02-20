@@ -1,0 +1,29 @@
+X: 4
+T: Go to the Devil and shake your self
+%R: jig
+B: Name "Kauntze's Collection of the most favorite Dances, Reels, Waltzes, &c."
+F: http://imslp.org/wiki/Kauntze%27s_Collection_of_Dances,_Reels,_Waltzes_etc._%28Various%29
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+Gcc cBA | GAG GEG | Gcc c2d | ecA A2G |\
+Gcc cBA | GAG GEG | cec dfd | ecc c3 :|
+|:\
+gec cBc | AFF F2z | afd dcd | BGG G2z |\
+Gcc cBA | GAG GAB | cec dfd | ecc c3 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+c3 f3 | e3 c3 | e3 g3 | c3 f3 | c3 f3 |
+e3 c3 | e3 g3 | c'3 c3 :|\
+|: c3 c3 | f3 f3 | d3 d3 |
+g3 g3 | c3 f3 | e3 c3 | e3 g3 | c'3 c3 H:|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The first Gent. set to the 2d Lady, and turn the 1st Lady. set to the 2d Gent.
+%% and turn, lead down the middle, up again, Allemand.
+%%endtext

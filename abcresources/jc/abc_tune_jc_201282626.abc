@@ -1,0 +1,66 @@
+X:1
+T:The Greatest Adventure (The Ballad of The Hobbit)
+S:The Hobbit: Piano Solo with Words
+C:Maury Laws (Music), Jules Bass (Lyrics), Mark Nevin (Arranger)
+Z:Curulinde Celeblammen, Landroval Server, LOTRO
+M:4/4
+L:1/16
+K:F
+Q:1/4=155
+
+N:Verse 1
+C4|+mp+[C,8A,8F8]+mf+F4E4|+mp+[D,4A,4F4]+mf+A8F4|+mp+[F,8B,8G8]+mf+B6A2|G12F4|
++mp+[C,8B,8E8]+mf+E4+mp+[D,4F4]+mf+|+mp+[E4G4]+mf+G4C,4E4|+mp+[C,8A,8F8]+mf+F4+mp+[E,4G4]|[F,12A,12]+mf+C4|+mp+[C,8A,8F8]+mf+F4E4|
++mp+[D,4A,4F4]+mf+A8F4|+mp+[F,8B,8G8]+mp+B6A2|G12F4|+mp+[C,8B,8E8]+mf+E4+mp+[D,4F4]|[E,8G8][C,4G4]+mf+B4|
++mp+[F,8A8][E,4B4]+mf+G4|+mp+[C,28A,28F28]+mf+C4|
+
+N:Verse 2
++mp+[C,8A,8F8]+mf+F4E4|+mp+[D,4A,4F4]+mf+A8F4|+mp+[F,8B,8G8]+mf+B6A2|G12F4|
++mp+[C,8B,8E8]+mf+E4+mp+[D,4F4]+mf+|+mp+[E4G4]+mf+G4C,4E4|+mp+[C,8A,8F8]+mf+F4+mp+[E,4G4]|[F,12A,12]+mf+C4|+mp+[C,8A,8F8]+mf+F4E4|
++mp+[D,4A,4F4]+mf+A8F4|+mp+[F,8B,8G8]+mp+B6A2|G12F4|+mp+[C,8B,8E8]+mf+E4+mp+[D,4F4]|[E,8G8][C,4G4]+mf+B4|
++mp+[F,8A8][E,4B4]+mf+G4|+mp+[C,28A,28F28]+mf+F4|
+
+N:Bridge
++mp+[_E,8_A,8c8]+mf+c4c4|+mp+[_E,4G,4B4]+mf+B8_E4|+mp+[_E,4_A,4c4]+mf+c8_e4|+mp+[_E,12G,12B12]+mf+_E4|+mp+[_E,8_A,8c8]+mf+c4c4|
++mp+[_E,4G4B4]+mf+B8G4|+mp+[F,4B,4D4F4]+mf+B8_A4|+mp+[_E12C12G12]+mf+_E4|+mp+[_E,4_A,4c4]+mf+c8c4|+mp+[G,4B4]B4_E,4_E4|
++mp+[_A,4c4]+mf+c4_E,4_e4|+mp+[G,4B4]+mf+_E,8_E4|+mp+[_A,4c4]+mf+c4_E,4c4|+mp+[G,4B4]+mf+B4_E,4G4|+mp+[D,4F4]+mf+B4B,4F4|
++mp+[C,16=E,16G,16G16]|[C,12C12]C4|
+
+N:D.S.
++mp+[C,8A,8F8]+mf+F4E4|+mp+[D,4A,4F4]+mf+A8F4|+mp+[F,8B,8G8]+mf+B6A2|G12F4|
++mp+[C,8B,8E8]+mf+E4+mp+[D,4F4]+mf+|+mp+[E4G4]+mf+G4C,4E4|+mp+[C,8A,8F8]+mf+F4+mp+[E,4G4]|[F,12A,12]+mf+C4|+mp+[C,8A,8F8]+mf+F4E4|
++mp+[D,4A,4F4]+mf+A8F4|+mp+[F,8B,8G8]+mp+B6A2|G12F4|+mp+[C,8B,8E8]+mf+E4+mp+[D,4F4]|[E,8G8][C,4G4]+mf+B4|
++mp+[F,8A8][E,4B4]+mf+G4|
+
+N:Coda
++mp+[C,28A,28F28]+mf+C4|+mp+[C,8A,8F8]+mf+F4F4|
++mp+[D,4A,4F4]+mf+A8F4|+mp+[F,8B,8G8]+mf+C,8|+mp+[D,8B,8F8][C,8E8]|[C,8A,8F8][D,8B,8][C,8A,8f8]+mf+F,4|
+
+W:Verse 1
+W:# The greatest adventure is what lies ahead, #
+W:# today and tomorrow are yet to be said. #
+W:# The chances the changes are all yours to make. #
+W:# The mold of your life is in your hands to break. #
+
+W:Verse 2
+W:# The greatest adventure is there if you're bold, #
+w:# let go of the moment that life makes you hold. #
+W:# To measure the meaning can make you delay. #
+W:# It's time you stopped thinkin' and wastin' the day. #
+
+W:Bridge
+W:# The man who's a dreamer and never takes leave, #
+W:# who speaks of a world that is just make believe, #
+W:# will never know passion, will never know pain, #
+W:# who sits by the window will one day see rain. #
+
+W:D.S.
+W:# The greatest adventure is what lies ahead, #
+W:# today and tomorrow are yet to be said. #
+W:# The chances the changes are all yours to make. #
+W:# The mold of your life is in your hands to break. #
+
+W:Coda
+W:# The greatest adventure is what lies ahead. #
+
+%end of song%

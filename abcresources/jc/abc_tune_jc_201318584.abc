@@ -1,0 +1,28 @@
+X: 1
+T: O Mother Roger
+P: Longways for as many as will
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.32 #56
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The dances are identical except for trivial spelling and punctuation differences.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+c2 c2 d2 e2 | f2 g2 e2 (dc) | f2 f2 d2 g2 | e2 (dc) g4 |\
+e2 ee a2 a2 | d2 d2 g2 g2 | c2 (BA) d2 (cB) | (cB) (AG) G4 |]
+d2 d2 B2 (AG) | f2 f2 "1."[e4d4] | (fe) (dc) (cd) e2 | (dc) (BA) A4 |\
+f2 f2 (fg) a2 | (gf) (ed) ^c4 | a2 f2 (fg) a2 | (gf) (ed) d3 e |
+f2 e2 d2 e2 | (dc) (BA) B3 c | A2 B2 c2 d2 | e2 d>c c3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text 1. CCDM1 has e; DMDfD has d; both sound OK (but imply different chords, C vs. G7).
+%%begintext align
+%% The two Men take Hands and lead thro' between the two
+%% We. and come into their own Places and turn, the two
+%% We. doing the same; then the 1st Cu. clap Hands, and
+%% then clap Sides, the We. clapping Hands at the same Time.
+%% then cast off, and go the Figure through, 'till they come
+%% into the 2d Cu. Place.
+%%endtext

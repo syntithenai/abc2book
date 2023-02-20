@@ -1,0 +1,19 @@
+X: 10593
+T: THE MARCHIONESS OF HUNTLEY'S STRATHSPEY
+C: by Marshall
+R: strathspey
+B: K\"ohler's Violin Repository, v.1, 1885 p.59 #3
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: There were naturals over the last Fs in bars 1, 3 and 15, and the 2nd c in bar 14.
+N: It's not clear what these naturals applied to, perhaps the lower notes in the turns.
+M: C|
+L: 1/16
+K: Bb
+|:\
+(v.B,3.D)(F3D) (EG3) ~F4 | (G3c) (.c3.d) (ed)cB (AG)FE |\
+(.D3.E)(F3D) (EG3) ~F4 | (.G3.c) (BA)GF B4 B,4 :|
+(vdf3) (.B3.f) (.d3.f) (ed)cB | (.A3.c)(.F3.c) A2c2F2e2 |\
+(df3) (.B3.f) (.d3.f) (ed)cB | .A.B.c.d .B.A.G.F B4 (.B,3.e) |
+(df3) (.B3.f) (df)ga (.b3.B) | A2c2~c2d2 edcB AGFE |\
+(.D3.E)(F2D2) (EG3) ~F4 | (.G3.c) (BA)GF "^D.C."B4 "^Segue Reel."B,4 |]

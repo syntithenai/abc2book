@@ -1,0 +1,36 @@
+X: 1
+T: Czar of Muscovy
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.290-291 "C c 2"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+%K: Fm
+K:_e_B_d_F_G % but this makes little sense.
+N: Others have interpreted this tune as in F minor, which makes musical sense.
+N: Walsh's accidentals are copied here exactly. Sharps are used to cancel flats, unlike modern notation.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+AF2 f2F | A2B cBA | GE2 e2E | G2A BAG |\
+AF2 f2F | A2(B cB)A | e3 g2e | gab a2g |\
+af2 a2g | fe"^#"d efg | B^G2 g2^d |
+efg c^de | B^G2 d2F | EGc Dc^B |\
+(c3 C2D | "_1"^EGc B>AG | c3 C2) "_2"||\
+g3 c2g | aga d^ef | ^e3 c2c |
+GAB cBc | ^A3 F2c | fef c^de | d3 B2f |\
+bab fga | g3 efg | aAB B2A | A3 A2g |\
+aca gcg | fcf ^ecg |
+aca gcg | fcf ^ec^e | fcf gcg | aca gc^e |\
+fcf gcg | aca gcB | Acf Gf^e | f3- f3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first and second cu. fall back and turn single, all 4. set again and the two men lead through the two
+%% women and turn twice, all 4. fall back and set, and turn single; then all 4. fall back again, then the we.
+%% do the same; the first man and woman take hands and set to the second man and turn single, set again
+%% and all 3. go the Hey once; then take hands again and set to the 2d. woman. and turn single, set again
+%% and go the Hey into their own places, and slip down the middle into the second couples places.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

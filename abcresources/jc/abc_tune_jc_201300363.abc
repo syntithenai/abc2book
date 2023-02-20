@@ -1,0 +1,21 @@
+X: 1
+T: Laoidh an t-Slanuighear
+T: Laoidh an t'Slanuidhfear
+T: Hymn to the Saviour
+B: Capt. Simon Fraser "The Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" 1816
+N: Slightly simplified for strathspey use by John Chambers
+M: C
+L: 1/16
+K: G
+DEF2 \
+| "G"G3A B3A "C"G2E2 "D7"D3F | "G"GB3 "D7"A4 "G"{GA}G4 z2Bc \
+| "G"d2ef g3a g3d B2d2 | "Em"B3A "B7"B2^d2 "Em"{d}e4 ||
+z2Bc \
+| "G"d2ef g3a "C"g3f e2fg | "G"d2B2 "G7"A2G2 "C"E4 "D7"EDEF \
+| "G"G3D E2G2 "C"e4 g4 | "G"dB3 "D7"A4 "G"{GA}G4 |]
+G2AB \
+| "A"c3d e2^c2 "D7"d2D2 D2e2 | "D7"dB3 A4 "G"{GA}G4 d2ef \
+| "G"g3a b2a2 g3d B2d2 | "Em"B3A "B7"B2^d2 "Em"{d}e4 ||
+gfga \
+| "G"b3a g2f2 "C"g3f e2fg | "G7"d2B2 A2G2 "C"E4 "D7"D2EF \
+| "G"G3D E2G2 "C"e4 g4 | "G"dB3 "D7"A4 "G"{GA}G4 |]

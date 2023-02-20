@@ -1,0 +1,29 @@
+X: 1383
+T: the Old Country Bumpkin
+%R: jig
+N: This is version 2, for ABC software that implements trailing grace notes
+B: Niel Gow & Sons "Complete Repository" v.1 p.38 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+|:\
+c3 TB3 {AB}| ABG FED | GAG BAB | GAG BAB ||\
+c3 TB3 {AB}| A>BG Tfef | g2d edc |
+B3 {AB}GAB ::\
+c>de/f/ gdB | ABG TF2D | G2c (B/c/d).B | G2c (B/c/d).B ||\
+GAB gdB | A>BA Tfef |
+g2d edc | B3 {AB}G2B ::\
+cAc BGB | ABG {G}FED | GDG BAB | GDG BAB |
+|[1 cAc BGB | ABA Tfef | g2d edc | TB3 {AB}GAB :|\
+ [2 cac BgB | Aag Tfef | gab efg | Bcd GAB |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+|:\
+[f3d3] [g3d3] | d3 d3 | G3 g3 | G3 g3 || [f3d3] [g3d3] | [d'3d3] [c'3d3] | b3 c'3 | g3 g3 :: G3 g3 |
+d3 d3 | g3 g3 | g3 g3 || G3 g3 | d3 [=c'3d3] | b3 c'3 | g3 g3 :: f3 g3 | d3 c3 | B3 G3 |
+B3 G3 |[1 f3 g3 | d3 [=c'3d3] | b3 c'3 | g3 g3 :|[2 f3 g3 | d3 [=c'3d3] | b3 c'3 | d'3 g3 |]

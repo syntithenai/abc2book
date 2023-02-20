@@ -1,0 +1,31 @@
+X: 4122
+T: the HEATHERY BREEZE
+R: Reel.
+%R: reel
+B: James Kerr "Merry Melodies" v.4 p.15 #122
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The repeat pattern for strains labelled "1st" and "2nd" isn't clear.
+M: C|
+L: 1/8
+K: G
+(GF) |\
+(DG)(BG) dGBG | (DF)(AF) dFAF |\
+(DG)(BG) dGBG |[1 BdcA (BG) :|[2 BdcA G2 ||\
+(ef) |\
+g2(gf) gbag | =f2(fe) fag^f |\
+g2(gf) gbag | fdcA G2(ef) |
+g/g/g (gf) gbag | =f/f/f (fe) fag^f |\
+g/g/g (gf) gbag | fdcA G2 ||\
+(GF) !segno!|:\
+DGB,G DGB,G | DFCF A,FCF |\
+DGB,G DGB,G |
+[1 (Bd) (3(cBA) (3(BAG) (3(AGF :|[2 BdcA G2 ||\
+"^1st"(ef) |\
+gdga (3(gab) (ag) | =fcfg (3(fga) (gf) |\
+gdga (3(gab) (ag) | ^fdcA G2(ef) |\
+gdga (3(gab) (ag) |
+=fcfg (3(fga) (g^f) |\
+gbag fagf | edcB AGFE !segno!||\
+"^2nd"d2 |\
+(dg)(bg) d'gbg | (df)(af) d'faf |\
+dgbg d'gbg |[1 bd'c'a bgaf :|[2 bd'c'a g2 |]

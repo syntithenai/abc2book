@@ -1,0 +1,37 @@
+X:1
+T:St. Bernard's Waltz
+N:attr Doug Swallow (1937)
+M:3/4
+L:1/4
+Q:100
+C:Ward & Swallow
+S:Tim Willets <tlw@redowa.co.uk> tradtunes 2004-1-23
+P:Play Intro-A-A-B-C
+K:C
+"C".[c/2G/2E/C/2] .[c/2-c2G/2-G2E/2-E2C/2-C2] \
+| "C"C,[CEG][CEG] | "C"G,[CEG][CEG] | "C"C,[CEG][CEG] | "C"G,[CEG][CEG] ||
+|:"C"e3 | c3 | Gz"Eaug".^G | "Am".AzG \
+| "C"e3 | "Edim"g3 | "Dm"f3- | f2G |
+| f3 | d3 | "G7"B3 | "Dm"A3 \
+| "G7"GBd | "G"g"D7"^f"G7"=f | "C"e"F7"_e"C"=e | "G7"dBG |
+| "C"e3 | c3 | Gz"Eaug".^G | "Am".AzG \
+| "C"E3 | G2^G | "F"A3- | ABc |
+| "C"c"G"B"F"A | "C"c"G"B"C"G | Gce | ggf \
+| e3 | "G"d3 | "C"c.G.A | "G".B"C".c"G".d :|
+[|"C"e2g | "G"d2g | "C"c"(knock)"zz | "(knock)"z2z \
+| "C"G2A | "G"F2G | "C"E3 | GAB |
+| c3 | "F"cBA | "G7"G2F | "G"D3 \
+| G2F | D3 | "Am"A2"Cdim"G | "G7".G"Dm".A"G".B |
+| "C"e2g | "G"d2g | "C"czz | z2z \
+| "C"c3 | c2B | "F7"A3 | "G7"G"E+"^G"F"A |
+| "C"c3 | "F"B2A | "C"G2c | EGc \
+| e2e | "G"fed | "C"c.G"D7".A | "G".B"C".c"G".d |]
+[|"C"e3 | c3 | Gz"Eaug".^G | "Am".AzG \
+| "C"e3 | "Edim"g3 | "Dm"f3- | f2G |
+| f3 | d3 | "G7"B3 | "Dm"A3 \
+| "G7"GBd | "G"g"D7"^f"G7"=f | "C"e"F7"_e"C"=e | "G7"dBG |
+| "C"e3 | c3 | Gz"E+ ".^G | "Am".AzG \
+| "C"E3 | G2^G | "F"A3- | ABc |
+| "C"c"G"B"F"A | "C"c"G"B"C"G | Gce | ggf \
+| e3 | "G"d3 | "C"c3 | "Fm6".d"Am".e"F".f \
+| "C".[G3g3] | "C".Czz |]

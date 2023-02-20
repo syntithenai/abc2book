@@ -1,0 +1,26 @@
+X: 11592
+T: BACCHUS AND MARS
+C: Dr. Arne.
+Q: "Not too fast."
+%R: air, march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.159 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F2 |\
+B4B,2D2 (F2B2) d3f | (f2e2)d2c2 d2B2 z2(ef) |\
+g4 e2B2 G2E2-E2g2 | (g2f2)e2d2 d2c2 z2F2 |\
+c3c f4 d2c2 z2c2 | d4 B2A2 {A}G4 c2c2 |
+(cBAB c2)c2 c2d2 z2B2 | (BAGA) B2B2 (B2c2) z2A2 |\
+(AGFG) (AB)(cd) (c2a2) (gf)(=ed) | (c2A2)B2G2 F4 z2 |]\
+F2 |\
+(f3e)d2c2 (c2=B2)c2d2 | (e2d2)c2B2 ({c2}B2A2)B2c2 |
+d3B B4 e4 c3c | (f3g/f/) e2d2 d2c2 z2(de) |\
+(fd) B4 g2(fd) B4 (de) | (fd) B4 g2 Hg2Hf2 z2 z(3(f/g/a/) |\
+b3d (e3d/e/) f4 B3B | (E3D/E/) F2F2 B2B2 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

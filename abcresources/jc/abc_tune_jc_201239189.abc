@@ -1,0 +1,40 @@
+X: 32261
+T: STARLIGHT SCHOTTISCHE
+C: By James Francis, Edinburgh, 1884
+R: shottish
+B: K\"ohler's Violin Repository, v.3, 1885 p.226 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The beaming is odd in the 3rd bar of the Trio.
+N: The two endings of the Trio are identical.
+M: C
+L: 1/8
+K: D
+!segno!(!f!(3ua/b/c'/) |\
+d'2d'2 d'2c'>b | a>fd>f (b2a2) |\
+!p!b2b2 b>=c'b>a | g>fe>d (c2A) ((3a/b/)c'/ |\
+d'2d'2 d'2c'>b | a>fd>f (b2a2) |
+(b>=c')b>a g>fe>d | c>AB>c d2z2 :|\
+[K:A]\
+|: !ff!ve4- e>(c'b>a) | (g2^e>vf) (g2f2) |\
+!p!(e<d')(d'<c') (.b>.^a) bz | (e<c')(c'>b) (.a>.g) !ff!az |
+e4- e>(c'b>a) | (g2^e)>vf (g2f2) |\
+!p!(e<d')(d'<c') (b>^a)b>c' |[1 a2(a2 a)(cd^d) :|[2 a2a2 a2z2 [|\
+[K:D]\
+!ff!((3ua/b/c'/) |\
+d'2d'2 d'2c'>b | a>fd>f (b2a2) |
+(.b2.b2) b>=c'b>a | g>fe>d (c2A) ((3a/b/)c'/ |\
+d'2d'2 d'2c'>b | a>fd>f (b2a2) |\
+(.b>.c')b>a g>fe>d | c>AB>c d2z2 H|]
+K: G
+P: Trio
+|: !p!(B4 ^A)>(Bc>B) | (d4 ^c)>(de>f) |\
+g2 (b>a)(g>f) e>^d | f>e^d>e A2z2 |\
+(vA4 ^G)>(AB>A) | (c4 B)>(cd>e) |\
+(f>g)a>g f>ed>c | (^A4 B2)z2 |
+vB4- B>(B^c>^d) | (e>f) (g4 ^A2) |\
+=A4- A>(AB>^c) | (d>e) (f4 d2) |\
+(e>d)^c>d f>ac'>e' | e'>d'b>g d2(b2 |\
+b>a)f>d c2(b2 | a>g)d>B (.G2.d2) |
+(e>d)^c>d f>ac'>e'- | e'>d'b>g e2^c'2 |\
+((3d'c'b (3agf (3ed^d (3ecA) |[1 G2[g2B2] [g2B2]z2 :|[2 G2[g2B2] "_D.C. Fine."[g2B2]z2 !segno!|]

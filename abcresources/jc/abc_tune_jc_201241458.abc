@@ -1,0 +1,36 @@
+X: 4361
+T: Mr George Grant's   Strathspey
+C: by Nath. Gow
+%R: strathspey
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.36 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: There is only one d sharp; the key can be changed to Emix, all the natural signs erased, and the one ^d added.
+N: This tune works equally well in Edor.
+M: C
+L: 1/16
+K: E
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+B2 !segno!|\
+G3E B3G A2=D2 FGAF | G3EA3F B3GBe3 |\
+G2E2B2G2 A2=D2 FGAF | G3EA3F B3Gc3A ||\
+d2B2e2E2 A2=D2 FGAF |
+G2E2A2F2 B2G2B2e2 | G2E2B2G2 A2=D2 FGAF |\
+G2E2 B2G2 e2B2e2a2 |]|\
+g3e gabg a2=d2 fgag | g3e gaba g2e2a2c'2 | g3e gabg a2=d2 fgaf |
+g3e a3f b2e2g2b2 ||\
+g3e gabg a2=d2 fgaf | g3e gaba gfed cBAG |\
+(3A2c2A2 (3G2B2G2 A3=D FGAF | (3z2E2e2 (3z2G2g2 (3z2B2b2 (3z2e2e'2 !segno!|]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |\
+[e4E4] [e4E4] [=d4=D4][d4D4] | [e4E4][B4B,4] [e4E4][e4E4] |\
+[e4E4][e4E4] [=d4=D4][d4D4] | [e4E4][f4F4] [g4G4][a4A4] ||\
+[b4B4][c'4c4] [=d'4=d4]d4 |
+[e4E4][B4B,4] [e4E4][e4E4] | [e4E4][e4E4] [=d4=D4][d4D4] | [e4E4][B4B,4] [e4E4][e4E4] |]|\
+[e'4e4][e'4e4] [=d'4=d4][d'4d4] | [e'4e4][e'4e4] [e'4e4][e'4e4] |\
+[e'4e4][e'4e4] [=d'4=d4][d'4d4] |
+[e'4e4][f'4f4] [g'4g4][e'4e4] || [e'4e4][e'4e4] [=d'4=d4][d'4d4] | [e'4e4][e'4e4] [e'4e4]z4 |\
+[f4F4][e4E4] [=d4=D4][d4D4] | [e4E4][g4G4] [b4B4][e'4e4] !segno!|]

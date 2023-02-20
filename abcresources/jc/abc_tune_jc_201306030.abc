@@ -1,0 +1,32 @@
+X:1
+T: The Maiden's Blush
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 165
+%W: A
+% voice 1 (1 lines, 23 notes)
+K:G
+M:6/8
+L:1/16
+d2 |g2 a2 b2 a2 b2 g2 f3 e d2 g4 B2 c2 d2 e2 d2 e2 f2 g4 d2 B2 G2 g2 |
+%W:
+% voice 1 (1 lines, 22 notes)
+g2 a2 b2 a2 b2 g2 f3 e d2 g4 B2 c2 d2 e2 d2 e2 f2 g4 d2 B2 G2 g2 |
+%W: B1
+% voice 1 (1 lines, 24 notes)
+g2 a2 b2 a2 b2 c'2 d'2 b2 g2 a2 f2 d2 g2 a2 b2 a2 b2 c'2 d'2 b2 g2 a2 f2 d2 |
+%W:
+% voice 1 (1 lines, 19 notes)
+b2 d'4 b2 d'4 b2 d'4 b2 d'4 d2 e2 f2 d2 e2 f2 g4 d2 B2 G2 g2 |
+%W: B2
+% voice 1 (1 lines, 24 notes)
+g2 a2 b2 a2 b2 c'2 d'2 b2 g2 a2 f2 d2 g2 a2 b2 a2 b2 c'2 d'2 b2 g2 a2 f2 d2 |
+%W:
+% voice 1 (1 lines, 18 notes)
+b2 d'4 b2 d'4 b2 d'4 b2 d'4 d2 e2 f2 d2 e2 f2 g4 d2 B2 G2 ||

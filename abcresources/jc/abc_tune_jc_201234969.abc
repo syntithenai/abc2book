@@ -1,0 +1,26 @@
+X: 20922
+T: the MAID'S COMPLAINT
+C: James Oswald.
+O: Old Scottish air.
+Q: "Slow."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.92 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Cm
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G4 |\
+c6 =B2 (c3B)(c3d) | e4 (E2F2) E4 (e3d) |\
+c4 {cd}e4 (B4 cB)(AG) | {G2}F8 z4 E3F |\
+(G3FE3)F G4 (e3d) | (c2B2)(c2e2) B6 B2 |\
+(c2d2 e4) (f2ga) (gf)(ed) | e12 :|
+|: (d3e) |\
+(f2B2)(g3f) f6 (ed) | (e2d2)(e2f2) g6 B2 |\
+(G2F2G2)c2 (e2d2)(c2=B2) | {B2}c12 (c3d/e/) |\
+B4 (cB)(AG) F4 (d2e2) |(f2e2)(d2c2) G4 (E2F2) |\
+G4 (c3e) (e2d2)(c2=B2) | c12 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

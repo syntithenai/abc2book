@@ -1,0 +1,34 @@
+X: 1
+T: Devla, Devla, Devla
+O: Czech
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+S: Susan Worland, 2010-6-23 workshop at Peacuddy's Cafe, Melrose MA USA
+N: Possible arrangement: 2x through whole page, then back to verse, faster,
+N: then chorus, and coda -- improvise over the chords
+M: 4/4
+L: 1/8
+K: Gm
+|: "Cm"z[ec] [ec][ec] [f2d2] [e2c2] | "Cm"z[ec] [ec][fd] [ge][fd] [ec][fd] \
+| "Cm"ze ed e2 f2 | "G"d8 \
+| "Cm"ze ee f2 e2 | ze ef gf ef |
+| "D"z2 (3aaa z2 (3^fff | z2 (3eee c4 :|\
+| "Gm"yz8 | "Gm"yz8 \
+"verse"\
+[| "Gm"B6 GG | B4 G4 \
+| "Gm"z2 GG AG GE | "Cm"E8 \
+| "Cm" z2CC EE GB | "D"A8 |
+| "D"z2 AA d2 c2 | "D7"e4- ed cB \
+| "D"c4 ^FG AF | "Gm"G3 D E=E F^F \
+| "Gm"G2 BA B2 G2 | z2 GG A2 G2 \
+| "Gm"z2 GG AG GE | "Cm"E8 |
+| "Cm"z2 ee ee ee | "D"de de de de \
+| "D"d6 AA | dc d6 \
+| "D" z2AB c2 A2 | "Gm"G8 \
+| "tacit"zG^FG A=Bcd |
+"chorus"\
+|: "Cm"ee ee e2 e2 | EE EE E2 E2 \
+| "Cm"(3e2 f2 e2 f2 e2 | "Gm"d8 \
+| "Cm"ee ee e2 e2 | EE EE E2 E2 \
+| "D"de de d2 e2 | d8 :|
+"coda"[| "D"A8 "D"B8 "Gm"G8 |]
+

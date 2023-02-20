@@ -1,0 +1,19 @@
+X: 23
+T:Be'er Basadeh
+C:Oded Zamir
+O:Israel
+F: http://www.youtube.com/watch?v=YlzzeT8o2vQ
+F: http://www.youtube.com/watch?v=9FbALm3EBsM
+M:2/4
+L:1/8
+Q:1/4=180
+K:Fdor
+%%MIDI program 1
+%%MIDI drum dd3 44 32
+%%MIDI drumon
+|:"Fm"FEF2     |FEF2    |FEFG     |AGA2        |\
+  FEF2         |FGAG    |FEF2     |F4          :|
+  ABc2         |c2F2    |GA"Eb"B2-|B4          |\
+  "Fm"AGAG     |FE"Eb"G2|"Fm"A2F2-|F4          |
+  GA"Eb"B2     |B2B2    |"Fm"c2A2 |"Eb"G2"Fm"F2|\
+  "Eb"E2"Fm"F2-|F4      |

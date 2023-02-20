@@ -1,0 +1,34 @@
+X: 1
+T: Charley Stuart
+O: 1817
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+|:  A | "C"GE  DC |  "F"F3  A | "C"GE  DC | "G7"D3  A | "C"GE  DC | "F"FG Ac | "C"GE "G7"cE  | "C"C3  :|
+|:: e | "C"c>d ec | "G7"fe dB | "C"c>d ec | "G7"dB AG | "C"c>d ec | "F"fe df | "D"eg "G7"d>e | "D"c3 ::|
+
+%%sep 1 1 500
+X: 1
+T: Charley Stuart
+O: 1817
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+|:  B | "D"AF  ED |  "G"G3  B | "D"AF  ED | "A7"E3  B | "D"AF  ED | "G"GA Bd | "D"AF "A7"dF  | "D"D3  :|
+|:: f | "D"d>e fd | "A7"gf ec | "D"d>e fd | "A7"ec BA | "D"d>e fd | "G"gf eg | "D"fa "A7"e>f | "D"d3 ::|
+
+%%sep 1 1 500
+X: 0
+M:none
+K:C clef=none
+x4
+x4
+x4
+x4
+x4
+x4
+x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4

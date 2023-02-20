@@ -1,0 +1,26 @@
+X: 21872
+T: MARTHA Valse 3.
+C: Composed by W.C. Paton
+R: waltz
+%Q: "Tempo di Valse."
+B: K\"ohler's Violin Repository, v.2, 1885 p.187 #2
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+"_>"vF2(A,C.F.A | "^>"c6) !segno!|:\
+(vA4B2) | c6 | (F4G2) | F6 |\
+(f4e2) | d6 | (e4d2) | c6 |\
+(A4B2) | c6 | (F4G2) | F6 |\
+(B4A2) | A6- | A2(B2A2) | G6 |
+(A4B2) | c6 | (F4G2) | F6 |\
+(f4e2) | d6 | (e4d2) | ^c6 |\
+d6 | (e4f2) | (c4A2) | (F4G2) |\
+A6 | G6 | F6- | F2z2z2 :|
+|:\
+!ff!"_>"vf6 | "_>"c6 | "_>"_d6 | "_>"_A6 |\
+(B4c2) | G6 | (B2_A2G2) | (F2_A2c2) |\
+"_>"f6 | "_>"c6 | "_>"_d6 | "_>"_A6 |\
+(B4"_>"c2) | E6 |[1 F6- | F2(_A2c2) :|\
+[2 (F2cB_AG) | "_D.C. to segno"[F2_A,2]z2z2 !segno!"_Fine."|]

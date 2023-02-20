@@ -1,0 +1,29 @@
+X: 1
+T: Robin and Kate
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (73)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: 6/4
+L: 1/4
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+cAc BeG | A2F F2d | c>BA GEG | A2A, A,2 :|
+|: E/D/ |\
+CA,E EAE | F2D D2F/E/ | DB,F FBF | G2E E2d | c>BA GEG | A2A, A,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% First Man take his Partner by the right Hand and lead
+%% her round into his own Place quick, then take Hands with
+%% the 2d Man and go Hands round all three to the Right,
+%% the 1st Cu. falling into their own Places .| The 1st Wo. do
+%% the same with the 1st Man only turning all three to the
+%% Left :| The 1st Man take his Partner by the right Hand
+%% leading her round the 2d Man thro the 2d Cu. and round
+%% the 2d Wo. into the 2d Cu. Place .| Then cast up and
+%% down again and turn your Partner :|
+%%endtext
+%%sep 1 8 500

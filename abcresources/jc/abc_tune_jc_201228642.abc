@@ -1,0 +1,22 @@
+X: 11451
+T: the MORGAN RATTLER
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.145 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: There's an initial repeat symbol, but no others; not fixed.
+M: 6/8
+L: 1/8
+K: D
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B !segno!|:\
+AGF EFG | (F/G/A)F D2B | AGF EFA | TB2A Bcd |\
+{B}AGF EFG | F/G/AF D2f/g/ | afd ecA | B2A Bcd H|]
+Td2e fdB | Tc2d ecA | Td2e fed | Tf2e fga |\
+Td2e fed | cea ecA | afd ecA | B2A Bcd |]
+FGF {G}FED | EFE E2D | FGF FED | TBcB Bcd |\
+FGF {G}FED | EFE TE2f/g/ | afd ecA | TB2A Bcd |]
+.D2z/d/ {e}dcd | .E2z/e/ efg | .D2z/d/ {e}dcd | TB2A Bcd |\
+.D2z/d/ {e}dcd | .E2z/e/ efg | agf edc | TB2A Bcd !segno! |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

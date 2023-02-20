@@ -1,0 +1,26 @@
+X:1
+T: Melancholy Martin
+N:
+C:
+S:
+A:
+O:
+R:
+M:9/8
+K:D
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 26 notes)
+K:D
+M:9/8
+L:1/16
+d4 d2 e2 f2 d2 c2 B2 A2 d4 d2 e4 e2 a6 d4 d2 e2 f2 d2 c2 B2 A2 B4 B2 c4 A2 d6 |
+%W: A2
+% voice 1 (1 lines, 26 notes)
+d4 d2 e2 f2 d2 c2 B2 A2 d4 d2 e4 e2 a6 d4 d2 e2 f2 d2 c2 B2 A2 B4 B2 c4 A2 d6 |
+%W: B1
+% voice 1 (1 lines, 28 notes)
+d2 c2 B2 A2 G2 F2 G2 A2 B c d4 A2 c4 d2 e6 d4 d2 e2 f2 d2 c2 B2 A2 B4 B2 c4 A2 d6 |
+%W: B2
+% voice 1 (1 lines, 28 notes)
+d2 c2 B2 A2 G2 F2 G2 A2 B c d4 A2 c4 d2 e6 d4 d2 e2 f2 d2 c2 B2 A2 B4 B2 c4 A2 d6 ||

@@ -1,0 +1,24 @@
+X: 1263
+T: John Roy Stewart.   a Strathspey.
+%R: strathspey, air
+B: Niel Gow & Sons "Complete Repository" v.1 p.26 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F	% ending on Dm
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+f |\
+{d}c>BAG F<GA2 | c>FA>F c>FA<f |\
+{d}c>B{B}A>G TF>GAF | Ddd>c d2-d :|\
+f |\
+Tc>dTf>g afga | f>d (d/c/).B/.A/ fcc<f |
+Tc>dTf>g afga | caTg>f ~d3f ||\
+~c>d~f>g {fg}a>fga | fc (d/c/).B/.A/ fccf/g/ |\
+a>fg>d Tf>cd<f | AdTd>c d2-d |] 
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | f2f2 f2f2 | f2f2 f2f2 | f2f2 f2f2 | d2A2 D2D :| z | f2f2 f2f2 | f2f2 f2f2 |
+f2f2 f2e2 | d2A2 d2D2 || f2f2 f2f2 | a2b2 f2f2 | f2b2 a2b2 | a2A2 [d2D2][dD] |]

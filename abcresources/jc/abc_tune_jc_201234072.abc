@@ -1,0 +1,22 @@
+X: 20241
+T: SAXON DANCE
+Q: "Mod.o"
+%R: reel, polka
+B: "Edinburgh Repository of Music" v.2 p.24
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+(Ad) |\
+f2(df) (ba).g.f | e2({f}e^d) e2f2 | (a2g2).e2.d2 | (g2f2) d2(Ad) |\
+f2(df) (ba).g.f | e2({f}e^d) e2f2 | g2e2 (cd).e.c | d2f2d2 :|
+|: e2 |\
+a2e2 a2(c'b) | (a^g).f.e ~e2f^g | (a^g)(ba) (c'b)(d'c') | {c'}b6 e2 |\
+a2e2 a2(c'b) | (a^g)(fe) ~e2(fg) | aec'a ^gd'bg | a6 :|
+a2 |\
+g2f2e2^d2 | e2^d2e2g2 | f2e2d2e2 | (f4 d2)a2 |\
+g2f2e2^d2 | e2^d2e2g2 | f2a2.g2.e2 | ({e}dcde) d2a2 |
+g2f2e2^d2 | e2^d2e2g2 | f2e2d2e2 | (f4 d2)a2 |\
+g2f2e2^d2 | e2^d2e2g2 | (f2a2).g2.e2 | ({e}dcde) d2 |]
+

@@ -1,0 +1,49 @@
+X:1006
+T:Lady Robert Kerr's Strathspey
+C:Nigel Gow Jnr
+O:Scotland
+S:Collection of compositions by Niel Gow Jnr \
+pub posthumously by Nathaniel Gow, 1837
+N:for the pianoforte, harp, violin and violoncello
+R:Strathspey
+Z:Jack Campin, April 2000
+F:http://abc.musicaviva.com/tunes/gow-jnr-nigel/lady-robert-kerrs.abc
+%Posted Apr 27th 2000 at abcusers by Jack Campin as an example of an
+%original use of BarFly's ornament macros. The O in front of the bass
+%notes means that they are to be doubled one octave down.
+V:2 bass
+m: On  = [nn,]
+m: On/ = [n/n,/]
+M:C|
+L:1/8
+K:G Minor
+V:1
+"Slowly"
+B/c/|d<Gd>B  G>d (c/B/).A/.G/|A>fF>f             c>F   (A/B/c/).A/|\
+     d<GTd>B G>d (c/B/).A/.G/|cd/e/ (d/c/).B/.A/ G2 "#"~GB/c/     |
+V:2 [L:1/4]*z/  |OG, OG, OG,  OG,        |OF,    OF,         OF,    OF,       |\
+     OG, OG, OG,  OG,        |OC,    OD,         OG,    OG,       |
+V:1 [L:1/8]
+     d<Gd>B  G>d (c/B/).A/.G/|A>fF>f             c>F    A/B/c/A/  |\
+     d<GTd>B G>d (c/B/).A/.G/|cd/e/ (d/c/).B/.A/ G2     G        ||
+V:2 [L:1/4]
+     OG, OG, OG,  OG,        |OF,    OF,         OF,    OF,       |\
+     OG, OG, OG,  OG,        |OC,    OD,         OG,    OG,/     ||
+V:1 [L:1/8]
+d|"#"~ga/b/ (b/a/).g/.^f/ gddg  |f>cdf        c/B/A/G/ F>d  |\
+  "#"~ga/b/ (b/a/).g/.^f/ gddg  |f>c d/c/B/A/ dGGd          |
+V:2 [L:1/4]
+z/|   OG,    D,           OG,OG,|OA, OB,      OF,      OF,  |\
+      OG,    D,           OG,OG,|OC, OD,      OG,      OG,  |
+V:1 [L:1/8]
+  "#"~ga/b/ (b/a/).g/.^f/ gddg  |f>cdf        c/B/A/G/ F>A  |\
+      G>B    A/B/c/A/     B>dc>e|d>B d/c/B/A/ dGG          |]
+V:2 [L:1/4]
+      OG,    D,           OG,OG,|OA, OB,      OF,      OF,  |\
+      OG,    D,           OG,OC,|OD, OD,      OG,      OG,/|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+
+

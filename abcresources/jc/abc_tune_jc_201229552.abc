@@ -1,0 +1,17 @@
+X: 1253
+T: Merrily, Merrily
+T: (Round)
+%R: song, round, jig
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Eb
+%%continueall 0
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+"^1"[| EEE EEE | G2F E2z "^2"| GGG GGG | B2A G2z |
+w: Mer-ri-ly, mer-ri-ly, greet the morn; Cheer-i-ly, cheer-i-ly sound the horn.
+"^3"| e2e/e/ eB2 | e2d e2c "^4"| B2c B2e | G2B B2z |]
+w: Hark! to the ech-oes, hear them play O'er hill and dale, far, far, a-way.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

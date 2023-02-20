@@ -1,0 +1,55 @@
+
+X: 1
+T: Los Machetes  [G,C]
+O: Mexico
+R: polka
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+"D7"[d2A2F2] [d2A2F2] | [d2A2F2] z !segno!\
+|: [ge] |\
+"D7"[fd][ge] [fd][ec] | "G"[d2B2] [BG][dB] |\
+"D7"[cA][BG] [cA][ec] | "G"[d2B2] [BG][ge] |\
+"D7"[fd][ge] [fd][ec] | "G"[d2B2] [BG][dB] |\
+"D7"[cA][BG] [cA][AF] | "G"[G2G2] !fine!z :|
+|: z |\
+"G"[BG][dB] [dB][dB] | "C"[cA][ec] [e2c2] |\
+"D7"[dF][fA] [ac][fA] | "G"[gB][bd] [b2d2] |\
+"G"[BG][dB] [dB][dB] | "C"[cA][ec] [e2c2] |\
+"D7"[dF][fA] [ac][fA] | "G"[gB][gB] [gB] :|[K:=f]
+K: C
+|: z |\
+"C"[e/c/][f/d/][ge] [e/c/][f/d/][ge] | [e/c/][f/d/][ge] [e/c/][f/d/][ge] |\
+"G7"[dB][ec] [fd][ge] | "F"[a2f2] "G"[g2e2] |\
+"C"[e/c/][f/d/][ge] [e/c/][f/d/][ge] | [e/c/][f/d/][ge] [e/c/][f/d/][ge] |\
+"G7"[dB][fA] [eG][dF] | "C"[c2E2] [cE] !segno!:|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2
+T: Los Machetes  [A,D]
+O: Mexico
+R: polka
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+"E7"[e2B2G2] [e2B2G2] | [e2B2G2] z !segno!\
+|: [af] |\
+"E7"[ge][af] [ge][fd] | "A"[e2c2] [cA][ec] |\
+"E7"[dB][cA] [dB][fd] | "A"[e2c2] [cA][af] |\
+"E7"[ge][af] [ge][fd] | "A"[e2c2] [cA][ec] |\
+"E7"[dB][cA] [dB][BG] | "A"[A2A2] !fine!z :|
+|: z |\
+"A"[cA][ec] [ec][ec] | "D"[dB][fd] [f2d2] |\
+"E7"[eG][gB] [bd][gB] | "A"[ac][c'e] [c'2e2] |\
+"A"[cA][ec] [ec][ec] | "D"[dB][fd] [f2d2] |\
+"E7"[eG][gB] [bd][gB] | "A"[ac][ac] [ac] :|[K:=g]
+K: D
+|: z |\
+"D"[f/d/][g/e/][af] [f/d/][g/e/][af] | [f/d/][g/e/][af] [f/d/][g/e/][af] |\
+"A7"[ec][fd] [ge][af] | "G"[b2g2] "A"[a2f2] |\
+"D"[f/d/][g/e/][af] [f/d/][g/e/][af] | [f/d/][g/e/][af] [f/d/][g/e/][af] |\
+"A7"[ec][gB] [fA][eG] | "D"[d2F2] [dF] !segno!:|

@@ -1,0 +1,37 @@
+X: 1
+T: the Nameless Lassie
+C: William Marshall
+R: air
+Q: "Slow Air"
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: page from Concord Slow Scottish Session collection
+N: "SRSNH 12/92  4.13" at top
+N: "J.Tappan" at lower right
+N: Harmony by Stacey Tappan
+M: C
+L: 1/8
+K: G
+%%indent 40
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+"^A"[|] D2 |\
+"G"G3F "C"E2"G"D2 | "C"E2F2 "G"G2"D7"A2 |\
+"G"B2G2 "C"c3B | "D7"B4 A2D2 ||\
+"G"G3F "C"E2"G"D2 | "C"E2F2 "G"G2"D7"dc |
+"G"B3c "D7"A3G | "G"G6 "^B":|| G2 |\
+"G"d3G G2G2 | "C"e2"G"d2 "Am"c2"G"B2 |\
+"C"c2"G"B2 "Am"A2"C"G2 | "D"F2A2 Hd2D2 ||\
+"G"G3F "C"E2"G"D2 |
+"C"E2F2 "G"G2"D7"A2 |\
+"G"B2G2 "C"c3B | "D7"B4 A2G2 ||\
+"G"d3G G2G2 | "C"e2"G"d2 "Am"c2"G"B2 |\
+"D7"A2E2 F3D | "G"DG- G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+DC |\
+B,3D C2B,2 | C2A,2 B,2D2 | G2B,D G3G | G4 F2DC |\
+B,3D C2B,2 | C2A,2 B,2DF | G2D2 D2DC | B,6 :||
+G2 |\
+B2c2 d2B2 | c2B2 A2G2 | EFG2 E2C2 | D2E2 HF2DC ||\
+B,3D C2B,2 | C2A,2 B,2D2 | G2B,D G3G |
+G4 F2DG || B3c d2B2 | c2B2 A2G2 | EFG2 A3B | B6 |]

@@ -1,0 +1,15 @@
+X:6
+T:World Turned Upside Down
+M:2/4
+Q:1/4=100
+L:1/16
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A2A2   d2d2|efga f2 ef|g2B2 c2f2|e2>d2 A4|\
+A2A2   d2d2|efga f2 ef|g2B2 c2f2|e2>d2 d4::
+e2 cd  e2A2|edef e2A2|edef e2 dc|B2>A2 A4|\
+a2 ag f2 ed|efga f2 ef|g2B2 c2f2|e2>d2 d4:|

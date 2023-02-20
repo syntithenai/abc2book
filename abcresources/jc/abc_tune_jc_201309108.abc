@@ -1,0 +1,26 @@
+X:1
+T: Merrily we dance and sing
+N:
+C:
+S:adapted
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 160
+%W: A1
+% voice 1 (1 lines, 25 notes)
+K:D
+M:4/4
+L:1/16
+|d4 A2 f2f2 e2 d4 |e4 B2 g2g2 f2 e4 |a4 f2 d2d2 e2 f4 |e2 f2 d2 c2c2 B2 A4 |
+%W: A2
+% voice 1 (1 lines, 22 notes)
+d4 A2 f2f2 e2 d4 |e4 B2 g2g2 f2 e4 |a4 f2 d2d2 e2 f4 |e2 d2 c4 d6
+%W: B1
+% voice 1 (1 lines, 27 notes)
+d4 |=c2 A2A2 B2 c2 e2 d4 |B2 G2G2 B2 d2 e2 d4 |=c2 A2A2 B2 c2 e2 d2 c2 |B4 c2 B2 A4
+%W: B2
+% voice 1 (1 lines, 24 notes)
+d4 |B2 G2G2 A2 B2 c2 d4 |B2 F2F2 B2 d2 f2 g2 f2 |e4 f2 e2 d4 e2 d2 |c4 d6 ||

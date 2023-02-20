@@ -1,0 +1,44 @@
+X: 64
+T: Ciganytanc
+O: Hungary
+S: Andor Czompo, Hungarian Folk Dance Music, AC Publications
+M: 2/4
+L: 1/8
+K: Gm
+%%MIDI chordprog 0
+%%MIDI bassprog 25
+%%MIDI program 40
+P:A
+Q:1/4=160
+  c2 c2     |c2 c2   |c2 c2    | B4          |d2 d2|d2 c2|\
+  G3 A      |B/A/B z2|c3 B     |A/G/A z2     |
+  G3 A      |B/A/B z2|c3 B     |A/G/A z2     |
+P:B
+Q:1/4=120
+  "Gm" z4   |  z4    | z4      |  z4         |\
+|:"Gm"d2 B2 |GG DD   |"Cm"c2 c2|c2 c2        |
+  "Gm" d2 B2|GG cB   |"Cm"A2 A2|A2 A2        |\
+  "Gm"BA GG |GB AF   |G2 "Cm"A2|"Gm"B2"Cm" c2|
+  "Gm" BA GG|GB AF   |G2 G2    |G4           :|
+P:C
+M:6/8
+L:1/8
+K:CMix
+%%MIDI gchordoff
+%%MIDI program 71
+  CCC3E     |GGG3A   |BAG3F    |EGC4         |\
+  FFF3A     |ccc3A   |GGG3A    |GGG4         |
+  GGc4      |EEG4    |AAG3F    |EGC4         |\
+  DDE3D     |FFE3D   |CCC3D    |CCC4         |
+P:D
+K:Fm
+M:4/4
+L:1/8
+Q:1/4=240
+%%MIDI program 40
+  A2A2G2F2  |F2C2C4  |A2A2G2F2 |G2E2E4       |\
+  A2A6      |B2B6    |c4  c4   |c4  c4       |
+  c2e2 d2c2 |dcB2 B4 |B2d2 c2B2|cBA2 A4      |\
+  A2A6      |B2G6    |F4  G4   |A4  B4       |
+  c2e2 d2c2 |dcB2 B4 |B2d2 c2B2|cBA2 A4      |\
+  A2A6      |B2G6    |F4  F4   |F4  F4       |

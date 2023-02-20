@@ -1,0 +1,19 @@
+X: 1
+T: Goldenshteyn Tune 3    (A)
+R: freilach
+S: copy of printed tune of unknown orogin
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M:4/4
+K: none
+|:\
+"A"E2 AA AA AA | T_B2 A2 B2 ^c2 |\
+^cd dc c_B BA | "A"A_B ^c3 B AG |\
+"A"E2 AA AA AA | T_B2 A2 B2 ^c2 |
+"Gm"^cd dc c_B BA |1 A8 :|2 A2 A2 B2 ^c2 \
+|:\
+"Dm"d8 | d4- d^cd^d |\
+"A"Te2 d2 T^c2 _B2 |
+T^c2 _B2 BA AG |\
+"Gm"G4- G^c d^d | Te2 d2 ^c2 _B2 |\
+T^c2 _B2 BA AG |1 "A"A2 A2 B2 ^c2 :|2 "A"A8 |]

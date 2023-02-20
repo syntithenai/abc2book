@@ -1,0 +1,32 @@
+X:1
+T: The Parting Lovers
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 35 notes)
+K:G
+M:6/8
+L:1/16
+G4 B2 A4 c2 B4 d2 c4 e2 d2 e2 f2 g2 f2 e2 d2 c2 B2 A2 G2 F2 |G4 B2 A4 c2 B4 d2 c4 e2 d2 c2 B2 A2 G2 F2 G12 |
+%W: A2
+% voice 1 (1 lines, 35 notes)
+G4 B2 A4 c2 B4 d2 c4 e2 d2 e2 f2 g2 f2 e2 d2 c2 B2 A2 G2 F2 |G4 B2 A4 c2 B4 d2 c4 e2 d2 c2 B2 A2 G2 F2 G12 |
+%W: B1
+% voice 1 (1 lines, 36 notes)
+g4 e2 f4 d2 g4 e2 f4 d2 g2 f2 e2 a2 g2 f2 e2 f2 d2 ^c2 B2 A2 |g4 e2 f4 d2 g4 e2 f4 d2 e2 g2 f2 e2 d2 ^c2 d6 d6 |
+%W:
+% voice 1 (1 lines, 35 notes)
+G4 B2 A4 c2 B4 d2 c4 e2 d2 e2 f2 g2 f2 e2 d2 c2 B2 A2 G2 F2 |G4 B2 A4 c2 B4 d2 c4 e2 d2 c2 B2 A2 G2 F2 G12 |
+%W: B2
+% voice 1 (1 lines, 36 notes)
+g4 e2 f4 d2 g4 e2 f4 d2 g2 f2 e2 a2 g2 f2 e2 f2 d2 ^c2 B2 A2 |g4 e2 f4 d2 g4 e2 f4 d2 e2 g2 f2 e2 d2 ^c2 d6 d6 |
+%W:
+% voice 1 (1 lines, 35 notes)
+G4 B2 A4 c2 B4 d2 c4 e2 d2 e2 f2 g2 f2 e2 d2 c2 B2 A2 G2 F2 |G4 B2 A4 c2 B4 d2 c4 e2 d2 c2 B2 A2 G2 F2 G12 ||

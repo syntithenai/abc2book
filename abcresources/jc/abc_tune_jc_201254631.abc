@@ -1,0 +1,20 @@
+X:69
+T:The Bonnie Lass of Bon Accord
+T:The Belle of Bon Accord
+C:James Scott Skinner
+N:John Drewry also specified this for "The Belle of Bon Accord" but most bands don't use it.
+M:4/4
+L:1/8
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=120
+%%MIDI program 22
+%%MIDI bassprog 33
+K:A
+P:A
+|: "E7"E2 | "A"A3B "E7"c3B | "A"A2 A,2 "/"C2 E2 | "A"A>G A<f "F#m"e>c B<A | "Bm"B4- "E7"B2 c>B |
+"A"A3B "E7"c3B | "A"A2 C2 "A7"E2 =G2 | "D"F>D F<A "E7"G>E G<B | "A"A2- "D"A2- "A"A2 :|
+P:B
+(3efg | "A"a3c "D"d2 f2 | "A"e2A2 "D"a2 gf | "A"e2 A2 "F#m"f>e dc | "Bm"B4- "E7"B2 (3efg |
+"A"a3c "D"d2 f2 | "A"e2 A2 "D"a2 "A7"=G2 | "D"F>D F<A "E7"G>E G<B | "A"A2- "D"A2- "A"A2 ||
+(3efg | "A"a3c "D"d2 f2 | "A"e2A2 "D"a2 gf | "A"e2 A2 "F#7"f>e dc | "B7"B4- "E7"B2c2 |
+"A"A,CEA "E7/G#"c3B | "F#m"A2 C2 "A7/E"E2 =G2 | "D"F>D F<A "E7"G>E G<B | "A"A2- "D"A2- "A"A2 |]

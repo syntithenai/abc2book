@@ -1,0 +1,14 @@
+X: 918
+T: Back of the Haggard
+R: hornpipe
+%S: s:4 b:32(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" #918
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0918/oneill-1001-0918-1.abc
+M: 2/4
+L: 1/16
+K: D
+"^A"[|] (3ABc | dfdf ecAc | dcdB AFDF | GFGB Afed | c2A2 A2 ||
+| (Bc) | d>A (3AAA e>A (3AAA | fefg afdc | BdcB AGFE | D2D2D2 :|
+"^B"|: (3ABc | dcdA FADF | .B(GFG) .B(GFG) | gefd ecdB | cdec dcBc ||
+|| A>d (3ddd c>e (3eee | d>f (3fff e>g (3ggg | fafd egec | d2d2d2 :|

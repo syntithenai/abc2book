@@ -1,0 +1,21 @@
+X: 21352
+T: MY WIFE SHE'S TA'EN THE GEE -- Strathspey (Old)
+R: strathspey
+B: K\"ohler's Violin Repository, v.2, 1885 p.135 #2
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Added dot to first D in bar 6.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: C|
+L: 1/16
+K: C
+uA2 |\
+c(QG3qG3E) cG3(G3A) | (_B3D)D3E F6 (A=B) |\
+c(QG3qG3B) cG3(G3F) | (E3D) .C.D.E.F G6 A2 |
+(._B3.c)(d2c2) (.B3.c)(B2G2) | FD3(_B3D) F6 A=B |\
+(c3A)(d3B) (c3_B)(A2F2) | (Gc3) (E3F) G6 |] uG2 |
+(Gc3) (E3F) (.G3.A) AGF=E | D_B3 (D3=E) F6 EF |\
+(Gc3) (E3F) (G3A) (G2AF) | (Ec3) (E3F) G6 A2 |
+(._B3.c)(d3c) (.B3.c)(B3G) | FD3 (_B3D) F6 A=B |\
+(c3A)(d3B) (c3_B)(A3G) | (GA3) "^Segue Reel."(E3F) G4 "_D.C."|]

@@ -1,0 +1,15 @@
+X:312
+T:Hatfield House
+M:9/8
+L:1/8
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+N:For the dance by Charles Bolton - Playford gives the tune only.
+N:There is another tune of this name: a polka from Lancashire, 1823.
+Q:3/8=120
+C:John Playford, 1687
+%%MIDI ratio 3 1
+K:Dm
+P:A
+|: "Dm"d2a "A"gfe "Dm"f3 | "C"e2f "Bb"def "A"e^cA | "Dm"d2a "Gm"g2a"C"b3 | "F"a>gf "C"gec "F"f3 :|
+P:B
+|: "F"f2a "C"e2f "Gm"g3 | "Dm"f>ef "Gm"d>ef "A"e2A | "Dm"f2a "C"e2f "Gm"g>ab | "Dm"a>gf "A"e2d "Dm"d3 :|

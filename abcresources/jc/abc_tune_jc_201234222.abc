@@ -1,0 +1,25 @@
+X: 20352
+T: ZITTI, ZITTI, PIANO, PIANO
+C: Rossini
+Q: "Allegretto"
+%R: march
+B: "Edinburgh Repository of Music" v.2 p.35 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added flags in bar 15 to go with the dotted notes, to match bar 2.
+M: 2/4
+L: 1/16
+K: G
+gg |\
+.d2.B2.c2.e2 | d>cB>A G2(AB) |\
+.c.B.A.G | (d^c).d.e .d2gg |\
+.d.B.c.e | (dc).B.A G2B2 |\
+A2(Bc) d2F2 | G6 (dB) |
+g2dB g2dB | g2dB g2dB |\
+(gf).e.d (cB).A.G | (d^c).d.e (d=c).B.A |\
+^G2(=f2e2d2) | .c2(c'2b2a2) |\
+(g^f).e.d (cB).A.G | d4 z2"^8vo ad lib. _  _ "gg |
+.d.B.c.e | (d>c).B>.A. G2(AB) |\
+.c2.B2.A2.G2 | (d^c).d.e d2gg |\
+.d2.B2.c2.e2 | (d^c)(d^d) (ef).g.e |\
+.d(gf)(e d)(cB)(A | G2)B2G2 |]

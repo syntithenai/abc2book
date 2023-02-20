@@ -1,0 +1,32 @@
+X:1
+T: Mr. Merrill's Maggot
+N:
+C:tune is "Westminster Hall"
+S:
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 43 notes)
+K:Am
+M:4/4
+L:1/16
+c4 e2 d2 c2 d2 e4 |f2 e2 d2 c2 B4 e4 |A4 B2 c2 d2 c2 B2 A2 |^G8 E4 B4 |c4 e2 d2 c2 d2 e4 |f2 e2 d2 c2 B2 e2 d2 e2 |A2 c2 B2 c2 E4 ^G4 |A16 |
+%W: A2
+% voice 1 (1 lines, 43 notes)
+c4 e2 d2 c2 d2 e4 |f2 e2 d2 c2 B4 e4 |A4 B2 c2 d2 c2 B2 A2 |^G8 E4 B4 |c4 e2 d2 c2 d2 e4 |f2 e2 d2 c2 B2 e2 d2 e2 |A2 c2 B2 c2 E4 ^G4 |A16 |
+%W: B1
+% voice 1 (1 lines, 30 notes)
+c6 d2 e2 d2 e2 f2 |g12 g4 |g4 a2 g2 f4 e4 |d12 e4 |f4 e4 d4 c4 |B4 b4 a4 c'4 |a2 g2 f2 e2 d6 c2 |c16 |
+%W: B2
+% voice 1 (1 lines, 30 notes)
+c6 d2 e2 d2 e2 f2 |g12 g4 |g4 a2 g2 f4 e4 |d12 e4 |f4 e4 d4 c4 |B4 b4 a4 c'4 |a2 g2 f2 e2 d6 c2 |c16 |
+%W: C
+% voice 1 (1 lines, 15 notes)
+e8 e6 d2 |^c12 c4 |d4 ^c4 d4 e4 |f12 e4 |d4 c4 B4 A4 |
+%W:
+% voice 1 (1 lines, 16 notes)
+^G12 A4 |^G4 A4 E4 c4 |B4 d4 ^G4 e4 |a4 c2 d2 B6 A2 |A16 |||

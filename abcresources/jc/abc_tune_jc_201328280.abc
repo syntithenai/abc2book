@@ -1,0 +1,16 @@
+X: 777
+T: the Rambler in Cork
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #777
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0777/oneill-1001-0777-1.abc
+M: C
+L: 1/8
+K: Em
+"^A"\
+[| G2(BG) FGAc | B2(BA) BEEF | G2(BG) FAB^c | dBAG FDEF \
+|| G2(BG) FGAc | B2(BA) BEEF | G2(BG) FAB^c | dBAc BEHE2 |]
+"^B"\
+[| g2(fg) edBA | G2(GA) Bdef | g2(fg) edB^c | dBAG FDDf \
+|| g2(fg) edBA | G2(GA) Bdef | gfed efge | dBAG FDE"_D.C."F |]

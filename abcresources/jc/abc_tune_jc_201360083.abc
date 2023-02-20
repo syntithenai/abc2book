@@ -1,0 +1,25 @@
+%!abctab2ps -k 0 -notab
+%
+%%gchordfont     ZapfChancery-MediumItalic 14.0
+%%topmargin      1.50cm
+%%toppace        -0.40cm
+%%systemsep      60.0pt
+%
+X:1
+%
+%%indent         1.5cm
+%
+T:title
+C:composer
+M:C
+L:1/4
+K:C
+%
+V:F clef=treble name=Flauto space=+10pt bracket=2
+%%MIDI program 73  % 74. Flute
+V:B clef=bass   name=Basso  octave=-2
+%%MIDI program 24  % 25. Acoustic Guitar (nylon)
+%
+[V:F]
+[V:B]
+%

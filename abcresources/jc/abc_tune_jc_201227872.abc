@@ -1,0 +1,38 @@
+X: 10
+T: Cotillon X.     la Sage Femme.
+%R: march, reel
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #10
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+A2e2f2d2 | c2(cA) B2E2 | A2e2f2d2 | Tc4 B4 |\
+A2e2f2d2 | c2cA B2E2 | F2d2 cBAG | A4 A,4 :|\
+|:\
+A2(cd) e2E2 | (FA)(GB) A4 | B2c2 {d}d2(cB) | Tc4 B4 |
+A2(cd) e2E2 | (FA)(GB) A4 | (B^d)(fa) (gf)(ed) | e4 E4 |\
+A2e2f2d2 | c2(cA) B2E2 | A2e2f2d2 | Tc4 B4 |\
+A2e2f2d2 | c2(cA) B2E2 | F2d2 cBAG | A4 A,4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+a2c'2d'2b2 | a4 e4 | A4 d4 | e4 E4 |\
+a2c'2d'2b2 | a4 e4 | d4 e4 | a4 A4 :|
+|:\
+a6 c2 | d2e2 f4 | g2a2b2e2 | a4 e4 |\
+a6 c2 | d2e2 f4 | ^d4 B4 | e4 E4 |
+a2c'2d'2b2 | a4 e4 | A4 d4 | e4 E4 |\
+a2c'2d'2b2 | a4 e4 | d4 e4 | a4 A4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round.  All four Couple their Partners by their hands & by turning go all
+%% round to their own Places; all four Couple by crossing change Places by Chassee
+%% and Rigadoon Step; return to their Places by the same manner.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.

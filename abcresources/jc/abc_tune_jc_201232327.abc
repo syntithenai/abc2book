@@ -1,0 +1,33 @@
+X: 16
+T: We'll a to Kelso go
+%R: jig
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.105 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+D |\
+F>GA f>gf | Te>dc f2c | d/e/f(d c)AF | GAG B>cd |\
+F>GA f>ga | Tg>ec f2c | (d/e/f)d cAF | TA3 f2 :|
+|: f/(g/ |\
+a)fa geg | fdf cAF | (B/A/B/c/d/e/ f)cA | G>AG (B/A/B/c/d) |\
+F>GA f>gf | gec f2c | (d/e/f)d cAF | TA3 f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+f3 f3 | c'3 a3 | b3 a3 | g3 c3 |\
+f3 f3 | e3 d2A | B3 c3 | F3 F2 :|\
+|: z |\
+f3 c3 | d3 A3  | G3 a2f | g3 c3 |\
+f3 f3 | e3 d2A | B3 c3  | F3 F2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Half right and left .|
+%% the same back :|
+%% four hand a cross and back again .|:
+%% lead through the bottom and cast up, right and left at Top :|:
+%%endtext
+%%sep 2 2 400

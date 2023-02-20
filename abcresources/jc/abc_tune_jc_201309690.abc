@@ -1,0 +1,10 @@
+X: 1
+T: the Mill Mill O
+M: 4/4
+L: 1/8
+S: http://home.usit.net/~bhooper/SCOT5.ABC
+R: air
+K: D
+d>e | "D"f2 A>B A3 d | "G"B>A B<d "A"e2 d>e | "D"f2 A2 "G"g>f ed | "A"B3 c "D"d2 :|
+zA | "D"d>e fg a3 a | "G"g>f e<d "A"e2 A2 | "D"d>e fg "A"a3 g | "D"f3 g "A"a2 |]
+zA | "D"d>e fg a3 a | "G"b>a gf "A"e2 d>e | "D"f3 a "G"gf ed | "A"B3 c "D"d2 |]

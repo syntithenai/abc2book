@@ -1,0 +1,19 @@
+X: 1
+T: (Have a) Holly Jolly Christmas   [C]
+C: Johnny Marks, 1962
+S: http://gulfweb.net:34043/~rlwalker/abc/christmas/haveaholly.abc 2009-11-30
+L: 1/4
+M: 4/4
+%Q: 1/4=80
+K: C
+%%continueall 1
+E/G/ |\
+"C"cc BB | A E2 E/G/ | AA GG | "G"B,4 |\
+BB B>A | "G7"GG G>E | "G7"GG FG | "C"E2 z"G7"E/G/ ||\
+"C"cc BB | A E2 E/G/ | AA GG | "G7"B,4 |\
+"G7"BB B>A | GG G>E | "G7"GG FD | "C"C4 |:\
+"Am"c2 A>c | "Em"BG G2 | "F"AF FA | "C"G4 |\
+"Dm"F2 D>F | "Am"EA A2 | "D"DD "D7"E^F | "G"G2 z"G7"E/G/ ||\
+"C"cc BB | A E2 E/G/ | AA GG | "G7"B,4 "^I"|\
+"G7"BB B/A/G/F/ | "C"E G "Am"Gc |[1 "D7"dA- A"G7"B | "C"c3 :|\
+["fine" "D7"d2 A2- | A2 "G7"B2 | "C"c4- | c3 |]

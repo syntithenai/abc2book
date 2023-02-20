@@ -1,0 +1,37 @@
+X: 511
+T: Baron Stuben's March
+%R: march
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+B: John Treat - "Gamut for the Fifes", 1779, p.51 - p.52 #1
+F: https://archive.org/details/GamutFortheFifes
+N: Voice 1's bar 2 is obviously entirely wrong (and the notes are actually half length, giving a 2-beat bar).
+N: Bar 11: Large smudge over voice 2's middle notes and beams; what's here is a reasonable guess.
+N: Bar 12: The last beat is missing but seems to start with A. Some other versions online have (3ABc so I used it.
+M: 4/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+(3ABc |\
+d2 d d d2 de/f/ | f2 ee e2 af/d/ |\
+c2 cd ed cB | AG FE D2 de |\
+f2 ff f2 (3afd |
+e2 ee e2 af/d/ |\
+c2 cd ed cB | A2 AA A2 :: d/e/f/g/ |\
+a2 aa ba gf | g/a/g/f/ efec A/c/e/f/ |
+g2 gg ag fe | f/g/f/d/ A/B/A/F/ D2 "?"(3ABc |\
+dd AA ff dd | gg ee aa ff |\
+db ag f2 e2 | d2 dd d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+A2ce A2ce | d2 cc c2 z2 | A2 AB cB AG | FD AA d2 Ac | d2 dd d2 (3fdB | c2 cc c2 z2 |
+A2 AB cB AG | F2 FF F2 :: z2 | f2 ff gf ed | ed ce d/c/B/A/ AB/c/ | d2 cd fedA | df ec de F2 |
+FF z2 dd AA | ee z2 ff dd | Ad fd d2 c2 | d2 dd d2 :| 
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+d2 dd d2 g2 | f2 ee A2 z2 | c2 d2 e2 e2 | A2 d2 a2 a2 | f2 z2 f2 d2 | d2 z2 e2 A2 |
+c2 d2 e2 e2 | A2 AA A2 :: z2 | A2 A2 d2 d2 | z2 z2 AA d2 | g2 g2 A2 e2 | z2 z2 aa d2 |
+d2 A2 z2 d2 | d2 e2 A2 d2 | d2 a2 f2 e2 | d2 d2 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

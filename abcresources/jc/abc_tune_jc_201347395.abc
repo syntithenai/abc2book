@@ -1,0 +1,32 @@
+X:1
+T: The Twitcher
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:Em
+I:speed 165
+%W: A1
+% voice 1 (1 lines, 27 notes)
+K:Em
+M:6/8
+L:1/16
+B2 |e3 f e2 ^d4 d2 e3 f e2 B2 e2 f2 g3 a g2 d2 e2 f2 g6g4 d2 |g2 f2 g2 a2 g2 a2
+%W:
+% voice 1 (1 lines, 25 notes)
+b2 a2 g2 f2 g2 a2 g2 f2 e2 f2 e2 ^d2 e3 f e2 B3 c ^d2 |c3 B A2 g3 e6e4 B2
+%W: A2
+% voice 1 (1 lines, 26 notes)
+e3 f e2 ^d4 d2 e3 f e2 B2 e2 f2 g3 |a g2 d2 e2 f2 g6g4 d2 g2 f2 g2 a2 g2 a2
+%W:
+% voice 1 (1 lines, 25 notes)
+b2 a2 g2 f2 g2 a2 g2 f2 |e2 f2 e2 ^d2 e3 f e2 B3 c ^d2 c3 B A2 g3 e6e4 B2
+%W: A3
+% voice 1 (1 lines, 26 notes)
+e3 f e2 ^d4 |d2 e3 f e2 B2 e2 f2 g3 a g2 d2 e2 f2 g6g4 d2 g2 f2 g2 a2 g2 |a2
+%W:
+% voice 1 (1 lines, 24 notes)
+b2 a2 g2 f2 g2 a2 g2 f2 e2 f2 e2 ^d2 e3 f e2 B3 c ^d2 c3 B A2 g3 e6|e4 ||

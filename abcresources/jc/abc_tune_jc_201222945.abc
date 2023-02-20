@@ -1,0 +1,32 @@
+X: 66
+T: Edgeworth Bumpkins
+T: Longways for as many as will.
+%R: march
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.33
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2 |\
+B3A G2B2 | A2GF G2g2 | f2ed e2dc | B2 G4 B2 |\
+A2GF G2B2 | A2GF GABc | c2 c4 B2 | A6 :|
+|: d2 |\
+e2dc Bcd2 | G2AB c4 | cde2 A2e2 | abc'2 f4 |\
+g2 f4 e2- | e2 d4 c2- | c2Bc A2GF | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice. A double Dance.
+%%begintext align
+%% The Cu. hey on contrary sides .| then hey on their
+%% own sides :| The 1st Cu. cast of & turn corners and
+%% Partners .| The 1st Cu. go the whole figure, the Wo. at top
+%% & the Man at bottom :| then the Man at top & the Wo. at
+%% bottom .| Then the Wo. goes round the 2d Man & the Man
+%% round the 3d Wo :| then meet in the middle half figure &
+%% turn .| then the Wo. go round the 2d Wo. & the Man
+%% the 3d Man and turn in the 2d Cu. Place
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

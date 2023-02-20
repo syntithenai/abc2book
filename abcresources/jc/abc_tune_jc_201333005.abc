@@ -1,0 +1,32 @@
+X: 1
+T: S\'agmi soga l\'avlla
+T: Saami National Anthem
+C: music: Arne S\/orli 1906
+C: words: Isak Saba 1906
+F: https://en.wikipedia.org/wiki/Sami_national_anthem
+N: The poem was approved in 1986 at the the 13th S\'agmi Conference in \AAre, Sweden.
+N: The music was approved in 1992 at the 15th S\'ami Conference in Helsinki, Finland.
+L: 1/8
+M: 6/8
+K: G
+%%indent 80
+V: 1
+|:\
+[D2B,2][DB,] [E2C2]D | [G2D2]G [A2F2][AF] |\
+[B2G2][BG] [cG-][BG][AF] | [G2D2][ED] [E2C2]D :|
+[d2D2][dG] [dF-][cF][BG] | [c2A2][BG] [B2G2][AF] |\
+[d2A2][dA] [dG][cG][BG] | [c2G2][BG] [B2G2][AF] |\
+D2[DB,] [E2C2]D |
+[G2D2]G [A2F2][AF] |\
+[B2G2][BG] [cG][BG][AE] | [G2D2][ED] [E2C2]D |\
+[d2D2][dG] [cG][BG][AD] | [G2D2][EC] [D3B,3] |]
+V: 2 clef=bass middle=D
+|:\
+G2G [A2F2][AF] | [B2G2][cE] [c2D2][dD] |\
+[d2G2][eE] [e2C2][cC] | [B2D2][BG] [A2G2][AF] :|
+[B2G2][BG] A2[dG] | [d2F2][dG] [d2D2][dD] |\
+[c2F2][cF] [B2G2][dG] | [e2C2][eC] [d2D2][cD] |\
+[B2G2]G [A2F2][AF] |
+[B2G2][cE] [c2D2][dD] |\
+[d2G2][eE] [e2C2][cC] | [B2D2][BG] [A2G2][AF] |\
+[B2G2][dB,] [eC][cC][cC] | [B2D2][FD] [G3G,3] |]

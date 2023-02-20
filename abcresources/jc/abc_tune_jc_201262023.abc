@@ -1,0 +1,816 @@
+X: 1
+T:Jordan's Reel
+M:4/4
+L:1/8
+C:Peter Dawson
+R:Reel
+K:Bb
+fe|dBAB FBDF|B,FDF BcdB|Gccd ecge|cecA FAcA|!
+BFDF B,FDF|GEB,E G,B,EG|FcAF ecAc|Bbfd B2:|!
+K:f
+AB|(3cdc ^Bd cAFA|cfAc fcaf|dbfd cafc|Bgec BcAB|!
+(3cdc ^Bd cAFA|cfAc fcaf|dbfd cafc|Bgec f2:|!
+
+X: 2
+T:Reel de L'Enfant
+M:2/4
+L:1/16
+C:Trad.
+S:The Schryer Triplets
+R:Reel
+K:G
+d|gfgb afdg|ecdc BGBd|gfgb afdf|egfa g2d2|!
+gfgb afdg|ecdc BGBd|bgaf gedB|ceAc BGG2||!
+|GDB,D DGBG|cGBG AGAB|GDB,D DGBG|ceAc BGG2|!
+GDB,D DGBG|cGBG AGAB|GDB,D DGBG|ceAc BGG2||!
+
+X: 3
+T:Reel Du Goglu
+M:4/4
+L:1/8
+C:Trad.
+S:Arr. Chris Ricker
+R:Reel
+K:D
+fg|afge dfed|(3cd^d ec ABAG|FAdf gfed|(3cd^d ec A2fg|!
+afge dfed|(3cd^d ec ABAG|FAdf gecd|ed (3ddd d2:|!
+ cd|eA (3AAA Adfd|eA (3AAA Adfd|gfeg fedf|edcB AGFE|!
+DFAc d2cB|Ace^g a2^ga|(3bb^g af gecd|ed (3ddd d2:|!
+
+X: 4
+T:Madame Renaud
+M:4/4
+L:1/8
+C:Trad.
+R:Reel
+K:G
+|:"G"G2 BG dGBG|DGBd g2fg|"Am"A2 (3cBA eAcA|"D7"ABcd efge|!
+"G"G2BG dGBG|DGBd g2fg|"Am"afge fdec|1"D7"ABcd efge:|2"D7"ABcd edBd||!
+"G"g2fg dgBg|dgba gfed|"Am"ea^ga ea^ga|"D7"ecag fedf|!
+"G"g2fg dgBg|dgba gfeg|"Am"afge fdec|1"D7"ABcd edBd:|2"D7"ABcd efge||!
+
+X: 5
+T:Cotillion á Huit
+M:6/8
+L:1/8
+C:Trad.
+R:Jig
+K:G
+D|GBd gdB|{d}cBc edc|GBd gdB|cAF F2D|!
+GBd gdB|c2 e dBd|(3gag e dBG|cAF G2:|!
+f|g2 d edc|BGB dfa|g2 d edc|BcA A2 f|!
+g2 d edc|BGB dfa|(3gag e dBG|cAF G2:|
+
+X: 6
+T:Double Clog
+M:4/4
+L:1/8
+C:Trad.
+S:Arr. C Ricker
+R:Reel
+K:Bb
+F>A|:B2dB fBAB|gBaB bBAB|FBAB Gc=Bc|AecA BFDF|!
+B2 dB fBAB|gBaB bBAB|FBAB Gc=Bc|AecA BFGA:|!
+|:B2 dB fBAB|bagf =egfd|B2dB fdBd|(3cde Ac BFDF|!
+B2 dB fBAB|bagf =egfd|B2 dB fdBd|(3cde Ac BFGA:|
+
+X: 7
+T:Allens Reel
+M:4/4
+L:1/8
+C:Web Acheson
+R:Reel
+K:A
+c2 B2|:Aceg aece|Adfa ecA2|EGBe Acea|Bdfb e2 (3efg|!
+afdf ecAc|dBGB AFDF|EGBe Acea|gedB A2z2:|!
+|:B2GB eeBe|ggeg bgeg|fBdf afdf|fedc BAGA|!
+BBGB eeBe|ggeg bgeg|fBdf afdf|1efe^d e2z2:|2efe^d edcB||
+
+X: 8
+T:Archie Menzie's
+M:4/4
+L:1/8
+C:John Lowe
+R:Reel
+K:F
+FE|:~F CF AFEF|Acde fcA^F|G2DG BGDG|(3Bcd ef gdBG|!
+~F CF AFCF|Acde fcAF|BdGB AcFA|GECE F2 FE:|!
+fe|:ffcf afef|cfag fed^f|g2 dg bg^fg|dgba gfed|!
+f2 cf afef|cfag fedc|BdGB AcFA|GECE F2 fe:||
+
+X: 9
+T:Blind Man's Reel
+M:4/4
+L:1/8
+C:Trad.
+S:Dawson Girdwood
+R:Reel
+K:D
+A2zG|:FD (3DDD EDB,G,|A,DFA BAFD|CEGB cBAG|FAde fdAG|!
+F2 (3DDD EDB,G,|A,DFA BAFD|CEGB cBAG|1FdAF D2 AG:|2FdAF D2 de||!
+|:fdAc dAFA|(3BBA ^GB edcB|Acde fdgf|ecdf ecfe|!
+fdAc dAFA|(3BBA ^GB edcB|Afed cABc|1d2 dc d3 e:|2dedc d2 AG||
+
+X: 10
+T:Big John McNeil
+M:4/4
+L:1/8
+C:Trad.
+R:Reel
+K:A
+A2|:A,2 CE FECE|AECE FECE|A,2 CE FECE|FAGF EDCB,|!
+A,2 CE FECE|AECE FECE|A,CB,D CEDF|1EGBd (3cBA A2:|2EGBd (3cBA cd||!
+|:eAfA eAcd|eAfA e2 (3agf|eAfA eAce|dece B2 cd|!
+eAfA eAcd|eAfA e2 fg|agfe fedc|1defg a2 cd:|2defg a2 A2||
+
+X: 11
+T:Raemona's Waltz
+M:3/4
+R:Waltz
+C:Brian Hebert
+N:C Ricker's Old Teacher.
+K:G
+dc (3BcB G>E||D2 B3 D|_E2 B3 _E|=E2B3d|c2 B2A2|G2E3G|F2GA3|
+  D6  |D3B,C^C|D2B3D|_E2B3_E|=E2B3d|c2B2A2|G2E3G|F2GA3|
+  G6  |G3D (3EFE|D2B3D|_E2B3_E|=E2B3d|c2B2A2|G2E3G|F2GA3|
+  D6  |D3B,C^C|D2B3d|_e2B3E|=E2B3d|ed Bd BA|G
+E3G|F2GA3|  G6  |G3def||
+|:g6|f2dB3|c3d (3efg|d  |e3f (3gfe|de dc B2|A2 ^C2 (3efe|d3 d ef|
+  g|f2dB3|c3 d (3efg|d4 dB|c3c2c|c2B2F2|1  G6  |G3 d ef:|2 g6  |G3 B,
+C^C|
+
+X: 12
+T:Angus Campbell
+M:4/4
+L:1/8
+C:Scott Skinner
+R:Reel
+K:A
+E2|:A2 cA EAce|a2 ga faec|dcBd cBAc|BABc BAGB|!
+A2 cA EAce|a2 ga faec|dcBd cBAc|1BAGB A2 (3EFG:|2BAGB A2 (3efg||!
+|:a2ea caed|(3cBA ce aece|ebgb ebgb|gefg agfe|!
+a2 ea caed|(3cBA ce aecA|defe ceaf|1ecdB A2 (3efg:|2ecdB A2 (3EFG||
+
+X: 13
+T:Reel du Printemps
+M:4/4
+L:1/8
+C:Trad.
+S:Yvon Cuillerier
+R:Reel
+K:A
+eg|:a2AA cAec|Bcde fefg|a2AA cAeA|fAgA a2eg|!
+a2AA cAec|Bcde fefg|afge fdec|1dfec A2eg:|2dfec A2ed||!
+|:cAEA Acec|Bcde f2ed|cAEA Acec|dfec dBBd|!
+cAEA Acec|Bcde fefg|afge fdec|1dfec A2ed:|2dfec A2||!
+
+X: 14
+T:Donegal Reel
+M:4/4
+L:1/8
+C:Trad.
+R:Reel
+K:D
+A,C|:D2DE FEFA|dAFA BFAF|E2EF GFGA|BGAF EGFE|D2DE FEFA|!
+dAFA dfag|fgec dcdB|1AFGE D2 (3A,B,C:|2(3ABc ec d2 (3ABc||!
+|:defg fdAd|fdAd f2ed|cBce gfed|cdef g2 (4fgfe|!
+defg afdf|afdf abag|fgef dcdB|AFGE D2 Ac:||
+
+X: 15
+T:Reel de Chateauguay
+M:2/4
+L:1/16
+C:Trad.
+S:Yvon Cuillerier
+R:Reel
+K:g
+dg|:b2bg a2af|ggbg d2dg|fdAB cBce|dBGA B2dg|!
+b2bg a2af|ggbg d2dg|fdAB cdef|1g2b2 g2dg:|2g2b2 g2BA||!
+G2GB d2g2|efge d2dg|fdAB cBce|dBGA B2BA|!
+G2GB d2g2|efge d2dg|fdAB cdef|1g2b2 g2BA:|2g2b2 g2z2||
+
+X: 16
+T:Reel Indien
+M:2/4
+L:1/16
+C:Trad.
+R:Reel
+K:G
+Bc|:d2fd   B2dB|G2BG   D2DF|A2AB  cBcA|GFGA BABc|!
+d2fd   B2dB|G2BG   D2DF|A2AB  cAFA|1G2B2   G2Bc:|2G2B2 G2GB||!
+K:C
+c2Gc   e2ce|g6    gf|eceg fedc|BGAB cBAG|!
+c2Gc   e2ce|g6    gf|eceg fedc|1BGAB  c2GB:|2BGAB  c2 z2||!
+
+X: 17
+T:Dowd's Favorite
+M:4/4
+L:1/8
+C:Trad.
+S:As Played By Andy McGann
+R:Reel
+K:Gm
+G2|:DGGA BABG|D ~F3 CFAF|DGGA BABd|(3cBA fc AG G2|!
+DGGA BABG|D ~F2 dFcF|DGGA BABd|(3cBA fc AGGA:|!
+|:B2 (3dcB FBdB|FBdB cAFA|B2 (3dcB fBdB|cAFA BG G2|!
+(3Bcd Bd fBdc|(3Bcd Bd cAFA|GB (3ABc Bbag|fdcA BG G2:|!
+|:gd (3ddd g2 ag|fc (3ccc fgaf|gd (3ddd gbag|fdcA BGBd|!
+(3gag fa g2 ag|(3fgf =eg fdcA|GB (3ABc Bbag|fdcA BG G2:|!
+
+X: 18
+T:Sam Cormier Reel
+M:2/4
+L:1/16
+C:Denis Lanctót
+R:Reel
+K:E
+GF|E2B,E CEB,E|GBeB AGFG|EG (3GGG Begf|eccB ceBG|!
+E2B,E CEB,E|GBeB AGFG|EGcG BG (3GGG|FEFG E2:||!
+a2|:geBA GBeg|fB~B2 fBBa|gfec B2GB|ceBG F2 Fa|!
+geBA GBeg|fB~B2 fBBg|agfe f2ec|1Bcef geea:|2Bcef geeF||!
+
+X: 19
+T:The High Level
+M:2/4
+L:1/16
+Q:100
+C:James Hill
+S:Scott Skinner
+R:Hornpipe
+B:The Scottish Violinist
+K:Bb
+dc|BdFB DFBd|fbdf Bdc=B|ceAc FCFB|AFAc ecAc|!
+BdFB DFBd|fbdf BdcB|GABc d=efc|AFAc B2:||!
+cB|Afcf Afcf|AFAc fcAc|dfBf dfBf|dBdf bfdf|!
+=egcg =egcg|=ec=eg bg=eg|fcaf gb=eg|1f=efg fd:|2f=efg f_edc||!
+
+X: 20
+T:Don Messer's Breakdown
+M:2/4
+L:1/16
+Q:100
+R:Reel
+K:C
+GF|ECEG c2ea|g2ea gece|dcde fdBd|cBcA G2GF|!
+ECEG c2ea|g2ea gece|dcde fdBd|cBcd c2:|!
+GF|E2G2c2e2|g4 g4|{efg}a2g2f2e2|dedc BcBA|!
+G2FG BGBd|g4 g4|{efg}a2g2 fdBd|cBcd c2:|
+
+X: 21
+T:Reel de la Tuque Bleue
+M:2/4
+L:1/16
+C:Trad.
+S:Dawson Girdwood
+R:Reel
+K:F
+e|"F"f2 cf a2 gf|"C7"eceg bgeg|"F"f2 cf fagf|"C7"edcB "F"AFFe|"F"f2 cf f
+agf|!
+"C7"eceg bgeg|1"F"f2 cf fagf|"C7"edcB "F"AFFe:|2"F"f2 cf fagf|"C7"edcB "
+F"AFFc||!
+|"F"AFcF AFGA|"Gm"BGdG BGGB|"F"AFcF AFGA|"C7"B2 cB "F"AFFc|"F"AFcF AFGA|
+!
+"Gm"BG d2 B2 cB|1"F"Acde fdcB|"C7"AFGD "F"F3c:|2"F"Acde fdcB|"C7"AFGD "F
+"F2 e2||!
+
+X: 22
+T:Golden Eagle Hornpipe
+M:4/4
+L:1/8
+C:Trad.
+S:Arr. Mark O'Connor
+K:G
+BA|GB,DG BDGB|dGBd gbag|(4fgfe d_d cAFD|GBAG FDBA|!
+GB,DG BDGB|dGBd gbag|(4fgfe d_d cAFD|GBAF G2:|!
+b^a|bf^df bagf|e^def ^gefg|a^c (3ef^g aba=g|fdec d2 (3gab|!
+c'2 ge d_efa|(3gagf ag bgag|fcBc ecAF|G2 (4GAGF G2:|!
+
+X: 23
+T:Killavail Fancy
+M:4/4
+L:1/8
+C:Trad.
+S:Arr. Barra MacNeils
+R:Reel
+K:G
+|DGBG A2 BA|G ~E3 cEGE|DGBG A2 BA|GEED EFGA|!
+B2 dB A2 BA|G ~E3 cEGE|DGBG A2 BA|GEED EG G2||!
+GABd e2 ge|dBBA dBAB|GABd e2 ge|dBAG EG G2|!
+GABd e2 ge|dBBA dega|bgag egde|gedB AGEG||!
+
+X: 24
+T:Pigeon on the Gate
+M:4/4
+L:1/8
+C:Trad.
+S:Jerry Holland
+R:Reel
+K:Gm
+c|:dG (3GGG {e}dcAc|d2 de dcAB|cF (3FFF cFAB|c2 cf dcBc|!
+dG (3GGG {e}dcAc|d2 de dcAG|FAcf afga|fdcA GABc:||!
+dg (3ggg fagf|dgga bgaf|dcde fgfd|cA f2 fgaf|!
+dg (3ggg fagf|dgga bgaf|dcde fgfd|1cAFA GABc:|2cAFA G2 G||!
+
+
+X: 25
+T:Peter Feeney's Dream
+M:2/4
+L:1/16
+C:Joe Derrane
+S:Jean Carignan
+R:Reel
+K:DMaj
+|:dedc BAFE|DEFD EA, ~A,2|DFAG FAdc|Bfed cgfe|!
+dedc BAFE|DEFD EA, ~A,2|DEFA dBAG|(3FGF (3EFE D3 c:|!
+"tr"dcde fdfa|d'dd'c' bA a2|A2 (3cBA eA (3cBA|EAce agfe|!
+"tr"dcde fdfa|d'dd'c' bA a2|AB (3ccd ef (3ggf|1agfe d2Ac:|2agfe d2 (3ABc
+||!
+|"variation of first part"(3ded (3cdc (3BcB (3ABA|(3GAG (3FGF EA,CE|DFAG
+FAdc|Bfed cgfe|!
+dedc BAFE|DEFD EA, ~A,2|DEFA dBAG|(3FGF (3EFE D3 c||!
+
+X: 26
+T:Reel Béatrice
+M:2/4
+L:1/16
+Q:100
+C:Trad.
+S:Arr. Chris Ricker
+R:Reel
+K:Am
+A,3B,|:C2A,C EA,CE|AEEC E2AB|ccAc eAce|ae (3eee aeab|!
+c'bag fedc|Bdd^c d4|e^def e=dcB|1A3 A, A,3 B,:|2A3 A, A,2 z2||!
+|:a2 fa bf (3fff|fe^de ae (3eee|e^def e=ddB|cdcB A2 a2|!
+aafa bf (3fff|fe^de ae (3eee|e^def e=dcB|1A2 z A, A,3 z:|2A2 z4 G>B||!
+|:cG (3GGG EGce|cG (3GGG EGce|dB (3BBB GBdB|cc'ba gfed|!
+cG (3GGG EGce|cG (3GGG EGce|dB (3BBB GBdB|1cBcd c2 GB:|2cBcd c2 z2||!
+
+X: 27
+T:Judy's Reel
+M:4/4
+L:1/8
+C:Trad.
+S:Arr. Chris Ricker
+R:Reel
+K:D
+DE|FAAB AFED|FAAB Acde|fBBA Bcde|fBBA BcdA|!
+FAAB AFED|FAAB Acde|fBBA BcdB|1AFEF D2:|2AFEF D3g||!
+fgab afde|fdad bdad|efga bgef|(3gfe be gfeg|!
+fgaf bfaf|defd efde|fBBA BcdB|1AFEF D2 g2:|2AFEF D2||!
+
+X: 28
+T:Mr. Gordon of Hallhead
+M:4/4
+L:1/8
+C:Wm Marshall
+S:Arr. Barra MacNeils
+R:Strathspey
+D:"The Traditional Album"
+K:G
+|:G>D B,>D G/2F/2E/2D/2 B,>D|G2 BG A2 (3ABA|G>DB,D G/2F/2E/2F/2 Gg|dB c
+/2B/2A
+/2G/2 DG G2:||!
+d|:g/2f/2g/2a/2 g2 g/2f/2g/2a/2 g2|e/2f/2g/2a/2 b/2a/2g/2f/2 ea ag/2f/2|
+g<b e<g d<g B<G|!
+|1cA c/2B/2A/2G/2 DG G2:|2cd c/2B/2A/2G/2 DG G2||
+
+X: 29
+T:Don Side
+M:4/4
+L:1/8
+C:Trad.
+S:Barra MacNeils
+R:Strathspey
+K:G
+E|:D<GB>G A>GE<A|D<GB>G A>GB<d|c>AB<G A>GE<e|d<g B<A B<G G2:||!
+f|:g<dg>B A>GE<f|g<d g<d g<d ga|b/2a/2g/2f/2 g<B AGE>e|d<g B>A B<G G2:||
+!
+f|:(3ggg b>g a>ge<g|(3ggg bg dgbg|a>gb<g a>ge<g|d<g BA B<G G2:||!
+(3DEF|:G>D B,<D E<A, A,2|{DEF}G>DB,<D G,>DB,<D|C<E B,D A,2 A,D|!
+|1G/2F/2E/2D/2 GD B,<G, G,2:|2G/2F/2E/2D/2 C/2B,/2A,/2B,/2 >G,2 G,2||
+
+X: 30
+T:The Red Coat
+M:4/4
+L:1/8
+C:Trad.
+S:Arr. Barra MacNeils
+R:Reel
+K:G
+d2|:BABd (3eee g2|DGBA BGGA|BABd (3eee g2|afgB (3AAA Ad:||!
+g|bgaf gdeg|1DGBA BGGg|bgaf gaba|gedB (3AAA A2:||!
+|2DGBA BGGA|BABd (3eee g2|afgB (3AAA A2||!
+
+X: 31
+T:The Peerie Werrie
+M:4/4
+L:1/8
+C:Trad.
+S:Arr. Barra MacNeils
+R:Reel
+K:G
+c|:BGGD G3c|BGBd gdec|BGGD G3 B|A=FAB c2 BA:||!
+|:BddB dedc|1Bdef gfed|BddB dedB|A=FAB c2 BA:|!
+|2Bdef g2 de|gbeg dgBd|A=FAB c BA||
+
+X: 32
+T:Killavil Fancy
+M:4/4
+L:1/8
+C:Trad.
+S:Arr. Barra MacNeils
+R:Reel
+K:G
+||DGBG A2 BA|G ~E3 cEGE|DGBG A2 BA|GEED EFGA|!
+|B2 dB A2 BA|G ~E3 cEGE|DGBG A2 BA|GEED EG G2||!
+||GABd e2 ge|dEEA dBAB|GABd e2 ge|dBAG EG G2|!
+|GABd e2 ge|dBBA dega|bgag egde|gedB AGEG||!
+
+X: 33
+T:Paddy On The Turnpike
+M:4/4
+L:1/8
+C:Trad.
+S:Arr. Barra MacNeils
+R:Reel
+K:G
+G=F|:DGGF G3 c|BGdG eGdG|A=FFE F2 Fc|A=FcF dFcF|!
+AGGF G3 A|_BAGA _Bcde|=fg=fd cA=FA|_BGA=F G2 GF:||!
+A|:dggf g2 dg|bgdg bgde|c=ffe f2 cf|a=fcf afcf|!
+dggf g2 ga|_bga=f gdde|=fgfd cA=FA|_BGA=F G3 A:||!
+
+X: 34
+T:Betty Lou's Reel
+M:4/4
+L:1/8
+C:Donald Angus Beaton
+S:Arr. The Rankin Family
+R:Reel
+K:D
+|:f2 Bc defe|ceaf efAb|(3fff Bc defe|1cAac (3BBB B2:|2ceac B2 BA||!
+|:FBBc d2 cB|ceaf ecBA|FBBc d2 cB|1cAac (3BBB BA:|2ceac (3BBB B2||!
+
+% Output from ABC2Win  Version 2.0 New on 2/4/96
+
+
+X: 35
+T: The Saint Lawrence Jig
+O: Qu\'ebec
+R: jig
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M: 6/8
+L: 1/8
+K: D
+A |: "D"A>BA FAd | f2d A2d | "A7"c2B G2B | "D"B2A "(A7)"F2G \
+| "D"A>BA FAd | f2d A2d | "A7"c>ec ABc | "D"d3- dz2 :|
+f/g/ \
+|: "G"a2g B2g | "D"g2f A2d | "A7"c>de ABc | "D"d>cB A2f/g/ \
+| "G"a2g B2g | "D"g2f A2d | "A7"d2c cBc | "D"d3- dz2 :|
+
+X: 36
+T: Pays de Haut
+T: The High Country
+R: reel
+Z: 1997 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/
+M: C|
+L: 1/8
+K: D
+|: fg \
+| "D"afaf d2ef |  "A7"gege c2ef | gfed cABc |1 "D"defg a2 :|2 "D"df"A7"ec "D"d2 :|
+|: AG \
+| "D"FAdA FAdA | "G"GBdB GBdB | "A7"ABcd efec |1 "D"defg a2 :|2 "D"df"A7"ec "D"d2 :|
+
+X: 37
+T: The Old Man and Old Woman
+O: Don Messer
+R: reel
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M: C|
+L: 1/8
+K: G
+|: Bc \
+| "G"dedB GBdB | "D7"cdcB A2g2 | fgfe dfaf |1 "G"gage d2 :|2 "G"gfga g2 :|
+|: Bc \
+| "G"dg2g g2Bc | "D7"df2f f2AB |1 "C"ce2e e2dB | "G"GABc d2 :|2  "C"ce2e e2dc | "G"BG"D7"AF "G"G2 :|
+
+X: 38
+T: Mouth of the Tobique
+R: reel
+Z: 1997 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/
+N: < Donna Hinds < Graham Townsend < Don Messer
+M: C|
+L: 1/8
+K: G
+|: (3DEF | "G"GFGA Bded | BdBG DGBG | "D7"AGFE DFAc |1 "G"BdBG "D7"D2 :|2 "G"BG2G G2 :|
+|: ef | "G"gfga gfeg | "D7"fdAd fagf | "C"ecAF "D7"DFAc |1 "G"BGBc "D7"d2 :|2 "G"BG2G G2 :|
+
+
+X: 39
+T: Reel des Jeunes Mari\'es
+R: reel
+Z: 1997 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/
+M: C|
+L: 1/8
+K: D
+|: "D"D2F[AD] FAde | fafd A2ef | "A7"gfed cABc |1 "D"dcde fdAF :|2 "D"df"A7"ec "D"d2z2 :|
+fg \
+|: "D"a2fd Adfa | "A7"g2ec Acef | g2ec Aceg |1 "D"fedf "A7"eAdf :|2 "D"fd"A7"ec "D"d2z2 :|
+
+X: 40
+T: la Grandeuse
+O: Randy Miller
+R: reel
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: D
+|: A,2 \
+| "D"D2FE DEFA | dcde fdAF | "G"G2BG "D"F2AF |1 "Em"EFGE "A7"DCB,A, :|2 "A7"ECA,C "D"D2 :|
+|: CB, \
+| "A7"A,B,CD EFGF | EDEF GABc | "D"dcdB ABde | fagf "A7"e2A2 |
+| "D"d2fd "A7"c2ec | "G"BcdB "D"AFDF | "G"G2BG "D"F2AF | "A7"ECA,C "D"D2 :|
+
+X: 41
+T: Golden Wedding Reel
+T: Richibucto Reel
+O: Jerry Robichaud
+R: reel
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M: C|
+L: 1/8
+K: G
+|: Bc \
+| "G"d2BG DGBd | gedB GABd | "F"~c2A=F cFAB | cdcA =F2Bc |
+| "G"d2BG DGBd | gedB G2ef | "C"gfge "G"dBge | "D7"dBAF "G"G2 :|
+|: ef \
+| "C" gfga gecg | ecgc e{f}gcg | "D7"daab afda | fdad fdef |
+| "C" gfga gecg | ecgc e{f}gcg | "D7"afge dBge | dBAB "G"G2 :|
+
+X:42
+T:Gasp\'e Reel
+O:French Canadian
+M:C|
+L:1/8
+K:D
+|: "D"f2ef e2dB | AFA2 B2A2 | "A7"g2fg fecA |1 BABc ~B2A2 :|2 "A7"B2c2 "D"d4 :|
+|: "A7"e2f2 g2fe | "D"f2g2 a4 | "A7"e2f2 gecA |1 "(G)"BABc "A7"~B2A2 :|2 "A7"B2c2 "D"d4 :|
+
+X: 43
+T: Frenchie's Reel
+O: Trad
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M: C|
+L: 1/8
+E: lw 400
+K: Bb
+|: FE \
+| "Bb"DFBc d2FE | DFBc d2cB | "F7"AFcF eFcF | AFcF e2FE |
+| "Bb"DFBc d2FE | DFBc d2cB | "F7"AFcF eFcF | "Bb"BABc B2 :|
+|: FE \
+| "Bb"~D2BD FBDF | BDFB- BDFB | "Eb"~E2BE GBEG | "(Cm)"BEGB- BEGB |
+| "F7"~F2cF AcFA | eFAd- dFcF | "Bb"BABd "F7"cBAc | "Bb"BABc B2 :|
+
+X: 44
+T: Frenchie's Reel
+O: Trad
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M: C|
+L: 1/8
+E: lw 400
+K: G
+|: DC \
+| "G"B,DGA B2DC | B,DGA B2AG | "D7"FDAD cDAD | FDAD c2DC |
+| "G"B,DGA B2DC | B,DGA B2AG | "D7"FDAD cDAD | "G"GFGA G2 :|
+|: DC \
+| "G"~B,2GB, DGB,D | GB,DG- GB,DG | "C"~C2GC EGCE | "(Am)"GCEG- GCEG |
+| "D7"~D2AD FADF | cDFB- BDAD | "G"GFGB "D7"AGFA | "G"GFGA G2 :|
+
+X: 45
+T: Frenchie's Reel
+O: Trad
+Z: John Chambers <jc@eddie.mit.edu>
+M: C|
+L: 1/8
+E: lw 400
+K: D
+|: AG \
+| "D"FAde f2AG | FAde f2ed | "A7"cAeA gAeA | cAeA g2AG |
+| "D"FAde f2AG | FAde f2ed | "A7"cAeA gAeA | "D"dcde d2 :|
+|: AG \
+| "D"~F2dF AdFA | dFAd- dFAd | "G"~G2dG BdGB | "(em)"dGBd- dGBd |
+| "A7"~A2eA ceAc | gAcf- fAeA | "D"dcdf "A7"edce | "D"dcde d2 :|
+
+X: 46
+T: Don Tremain's Reel
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+R: reel
+M: C|
+L: 1/8
+K: D
+|: FG || "D"ABAG FADF | "G"GFGA BcdB | "A7"Aceg fcec | "D"dAFB "A7"A2FG |
+| "D"ABAG FADF | "G"GFGA BcdB | "A7"Aceg fcec | "D"d6 :|
+|: ef || "G"gage "D"fgfd | "A7"efec "D"dAef | "G"gage "D"fgfd | "A7"ea2b a2 ef |
+| "G"gage "D"fgfd | "A7"efec "D"dAFD | "G"G2 EG "D"FEDF | "A7"EDCE "D"D2 :|
+
+
+X: 47
+T: Danse de chez nous
+O: Philippe Bruneau
+R: jig
+Z: 1997 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/
+M: 6/8
+L: 1/8
+K:  G
+d \
+|: "G"g2B d2G | B3- B2G | DEF GAB | "Am"c3- c2d | "D7"e2A c2G | F3- F2d | fed  cBA |1 "G"B3- B2 :|2 "G"G6 ||
+|: "G"DGB d2B | e2B dBG | DGB d2B | e2B "D7"cAF | DFA c2A | d2A cAF | DFA cBA |1 "G"G3{Be}d3 :|2 "G"G3{Bd}g3 |]
+
+X: 48
+T: la Belle Catherine
+O: Qu\'ebec
+R: reel
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: C
+|: "C"EGce dcc2 | EGce dcc2 | "G7"Bcde fefg |1 ag^fg "C"ecc2 :|2 "G7"aged "C"c2z2 :|
+|: "C"eg~g2 gagf | eg~g2 "F"[a4f4] | "G"~g2^fg bagf |1 ag^fg ecc2 :|2 "G7"aged "C"c2z2 :|
+
+X: 49
+T: Reel BÈatrice
+R: reel
+O: Jos Bouchard
+B:
+D: La Bottine Souriante "Je Voudrais Changer D'Chapeau"
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+N: Well-known in New England, and many variants exist.
+N: (Did Jos Bouchard write this tune?)
+M: C|
+L: 1/8
+K: Am
+A,B, \
+|: "Am"CB,A,C E2CE | A2EA EGAB \
+| cBAc e2ce | aeea egab |
+| c'bag fedc | "Dm"BddB d4 \
+| "E7"e^def e=dcB | "Am"AA,A,A, A,2z2 :|
+|: "Dm"a2^ga bff2 | "Am"fe^de a4 \
+| "E7"e2^de f2e=d | "Am"cdcB cBA2 |
+| "Dm"a2^ga bff2 | "Am"fe^de a4 \
+| "E7"e^def e=dcB |1 "Am"AA,A,A, A,2z2 :|2 "Am"A2z2 "G7"G2AB ||
+|: "C"c2Gc EGce | c2Gc EGce \
+| "G7"d2Bd GBdB |1 "C"c2ba "(G7)"gfed :|2 "C"ce"G7"dB "C"c2z2 :|
+
+X: 50
+T: Reel BÈatrice
+R: reel
+O: Jos Bouchard
+B:
+D: La Bottine Souriante "Je Voudrais Changer D'Chapeau"
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+N: Well-known in New England, and many variants exist.
+N: (Did Jos Bouchard write this tune?)
+M: C|
+L: 1/8
+K:BAEO %Transposed from AM
+B,C \
+|: "Bm"DCB,D F2DF | B2FB FABc \
+| dcBd f2df | bffb fabc' |
+| d'c'ba gfed | "Em"ceec e4 \
+| "F#7"f=f^fg fedc | "Bm"BB,B,B, B,2z2 :|
+|: "Em"b2^ab c'gg2 | "Bm"gf=f^f b4 \
+| "F#7"f2=f^f g2fe | "Bm"dedc dcB2 |
+| "Em"b2^ab c'gg2 | "Bm"gf=f^f b4 \
+| "F#7"f=f^fg fedc |1 "Bm"BB,B,B, B,2z2 :|2 "Bm"B2z2 "A7"A2Bc ||
+|: "D"d2Ad FAdf | d2Ad FAdf \
+| "A7"e2ce Acec |1 "D"d2c'b "(G7)"agfe :|2 "D"df"A7"ec "D"d2z2 :|
+
+
+X: 51
+T: la Bastrange
+O: Qu\'ebec
+R: reel
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/
+M: C|
+L: 1/8
+K: D
+|: "D"f2ff f2gf \
+| "A7"e2c2 "D"d4 \
+| "A7"c2d2 efec \
+| "D"d2e2 f2d2 \
+| "D"f2ff f2gf |
+| "A7"e2c2 "D"d4 \
+| "G"g2f2 efed \
+| "A7"B2c2 "D"d4 \
+:: "D"d2fd adfd \
+| "C"=c2ec gcec \
+| "D"d2fd adfa |
+| "A7"bgec dcBA \
+| "D"d2fd adfd \
+| "C"=c2ecgcec \
+| "D"d2fd adfa \
+| "A7"bgec "D"d4 :|
+
+X: 52
+T:Reel Béatrice
+M:2/4
+L:1/16
+C:Trad.
+S:Arr. Chris Ricker
+R:Reel
+K:D %Transposed from AM
+B,3C|:D2B,D FB,DF|BFFD F2Bc|ddBd fBdf|bf (3fff bfbc'|
+d'c'ba gfed|cee^d e4|f=f^fg fedc|1B3 B, B,3 C:|2B3 B, B,2 z2||
+|:b2 gb c'g (3ggg|gf=f^f bf (3fff|f=f^fg feec|dedc B2 b2|
+bbgb c'g (3ggg|gf=f^f bf (3fff|f=f^fg fedc|1B2 z B, B,3 z:|2B2 z4 A>c||
+|:dA (3AAA FAdf|dA (3AAA FAdf|ec (3ccc Acec|dd'c'b agfe|
+dA (3AAA FAdf|dA (3AAA FAdf|ec (3ccc Acec|1dcde d2 Ac:|2dcde d2 z2||
+
+X:53
+T:La valse des jouets
+C:Michel Faubert
+I:Quebec
+Q:1/4=126
+M:3/4     %Meter
+K:D
+f |:fe fg fe |dB AF Df |fe fg fe |
+dB AF De |ed ef ed |c3 d cB |AE AB (3cBA
+|1dB AF Df :|2d2 dA (3ABc
+|:dA FA GA |B3 G Bd |
+cA Bc de |f3 f df |bf df bf |g2 e2 d2 |
+cA ce ag |f2 d2 c2 |BF FF BF |G2 e2 d2 |
+cB AG FE |F4 F2 |GF GA Bc |de f3 f |
+ge ce BA |1d4 (3ABc :|2d6 |]
+
+X:54
+T:Valse des iles de la madeleine
+C:
+I:Buttons and Bows
+Q:1/4=157
+K:A
+M:3/4
+z E Ac fe |c3 B/c/ BA |G3 F/G/ FE |F2 C4 |
+z E Ac fe |c3 B/c/ BA |G3 F/G/ F2 |D6 |
+z F Bc df |b4 ab |a3 f ga |g3/4a/g3/4 f4 |
+z _B =Bc de |g3 f/g/ fg |a3 f ga |c6 |
+z E Ac fe |c3 B/c/ BA |G3 F/G/ FE |F2 C4 |
+z E Ac fe |a4 AB |c2 B3 A |B4 z c |
+BF Bc df |b4 cB |c4 cB |c2 B/c/B A2 |
+e3 c ea |f3 d f3/4g/a3/4 |g3 e gb |a6 |
+z4 a2 |f4 A2 |d4 a2 |f3 a fA |
+d4 d3/4c/B3/4 |A2 d3 f |b2 a3 d |c3 d cB |
+A4 b2 |=g4 A2 |c4 b2 |=g3 b gA |
+c4 d3/4c/B3/4 |A2 c3 e |a2 g2 =g2 |f2 d2 B2 |
+A4 a2 |f4 A2 |d4 a2 |f3 a fA |
+d3 A FE |D3 C DE |F2 =G3 A |B4 z c |
+B4 d2 |B4 =G2 |E3 d cd |A4 F2 |
+D3 A GA |B3 =G FG |c3 A GA |d6 |]
+
+X:55
+T:Valse à Jessie
+C:Marcel Messervier
+O:Québec
+D:Trian 1
+Q:1/4=170
+P:IABACDABACE
+K:D
+M:3/4
+P:I
+A AG
+P:A
+|:F2 DF AF|G2 EG BG|AD FA de|
+fd Ad FA |GF Gg ed|1 c3 A Ac|ed ce dB|
+A2 AB AG :|2 c3 B BA|ag fg Bc||
+P:B
+d3 A AG
+P:C
+|:dA de fg|af df Ad|FA df (3agf|g2 e3 e|
+e4 ef|g2 e2 c2|A2 c2 e2|b2 a3 g|
+f2 fe fg|af df Ad|FA df (3agf|g2 e3 e|
+e4 ef|1 g2 e2 d2 |c2 B2 (3ABc |ag fg Bc:|2
+g2 e2 d2|c2 B2 (3ABc|dB AG FE||
+P:D
+D2 A3 G|
+P:E
+D6|
+
+X:56
+T:Gigue de Terrebonne
+R:reel quebecois
+C:Alfred Montmarquette
+M:C|
+L:1/16
+Q:1/4=100
+P:ABAC
+K:D
+P:A
+d2cd BAFA d2cd e2(3ABc|d2cd BAFA GBAG FDDA|
+d2cd BAFA d2cd e2(3ABc|1d2cd BAFA GBAG FDDA
+:|2d2cd BAFA GABc d2(3Ade||
+|:f2fa gfed fefd Bcde|fefa gfed cdeg fdde|
+fefa gfed fefd Bcde|
+|1fefa gfed cABc d2(3Ade:|
+|2fefa gfed cABc||
+P:B
+d2A2||
+P:C
+d4||

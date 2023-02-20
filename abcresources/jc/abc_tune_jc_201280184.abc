@@ -1,0 +1,54 @@
+%%center George M Medley
+%D: 121012
+%S: georgem.mix
+
+
+X: 0
+T: Give My Regards to Broadway
+P: piffero primo a0523a
+O: Geo M Cohan
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/clemC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+z2 |\
+AB2c d2e2 | d4 c3A | BBBB c2c2 | A8      | AB2c  d2B2 | c2d2  ecBA  | d2B2 c2d2 | e4- ezz2 |
+AB2c d2e2 | d4 c3A | BBBB c2c2 | A4- A3z | f^d2B g2f2 | e2^d2 e=ded | f3d  d2e2 | d4- d2  :|
+
+
+X: 1
+T: The Yankee Doodle Boy
+P: piffero primo a0525a
+O: Geo M Cohan
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/clemC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+z2 |\
+f3e edcd | e4 B3e | e3f ecBA | d4- d3f | f2f2 ^defa | g2f2 e2z2 | fe2d Bd2f  | e4- ez2e |
+f3e edcd | e4 B3e | e3f ecBA | d4- d3z | ddef  dfeA | ddef d2A2 | Be2B c>dec | d4- d2  :|
+
+
+X: 2
+T: You're a Grand Old Flag
+P: piffero primo a0868
+O: Geo M Cohan
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/clemC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+af |\
+d2d2 d2BA | de2c d2BA | d2BA d2BA | c4- c2AB |\
+c2d2 e3A | d2e2 f3d | ef2d ef2d | e4- ez af |
+d2d2 d2BA | de2c d2c=c | B^d2f B2f2 | e4- ez AA |\
+d3c d2f2 | e3^d e2cA | Bd2B d2c2 |1 d2z2z2 :|2 d4- d2 |]
+
+%%sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

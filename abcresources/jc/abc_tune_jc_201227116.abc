@@ -1,0 +1,23 @@
+X: 1061
+T: RORY O'MOORE
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.106 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: Added missing 1/8 rest as initial pickup.
+M: 6/8
+L: 1/8
+K: F
+z |\
+f3 f3 | fef agf | ede gfe | d3 d3 |\
+d^cd fed | cde efg | f3 z2z | f3 z2 ||
+|: A |\
+AGG GBB | BAA Acc | cBB Bdd | dcc cde |\
+f3 f3 | fef agf | ede gfe | f3 z2 :|
+|: d |\
+cFF GFF | cFF F2d | cBA AGF | EGG GAB |\
+cFF GFF | cFF d2c/B/ | ABc cde | fFF F2 :|
+|: f |\
+fed dAA | BAG F2E | DEF FGA | Adc c2e |\
+fed dAA | BAG F2E | DEF FGA | Adc c2d |
+cFF GFF | cFF F2d | cBA AGF | EGG GAB |\
+cFF GFF | cFF d2c/B/ | ABc cde | fFF F2 :|

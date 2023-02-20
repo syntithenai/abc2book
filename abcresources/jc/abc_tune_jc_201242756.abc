@@ -1,0 +1,27 @@
+X: 681
+T: Barley Cakes
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.68 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Added missing dot to last bass note.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+TB2G (B/c/d)B | A2F (A/B/c)A | TB2G (B/c/d)B | d3 g3 |\
+TB2G (B/c/d)B | A2F (A/B/c)A | dcB cBA | G3 G,3 :|
+|:\
+gag fgf | e2d TB3 | gag f2g | a3 d3 |\
+c2a B2g | A2G FED | GAB AGF | G3 G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g3 g3 | d3 f3 | g3 g3 | g2d B2G |\
+g3 g3 | d3 f3 | g3 d3 | gdB G3 :|
+|:\
+b3 a3 | g3 g3 | g3 g3 | c'd'c' bc'b |\
+a3 g3 | d3 d3 | g3 d3 | gdB G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

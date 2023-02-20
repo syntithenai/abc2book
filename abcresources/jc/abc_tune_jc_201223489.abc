@@ -1,0 +1,28 @@
+X: 72
+T: Gentle Winds of Evening!
+O: German
+Q: "Moderato. dolce."
+%R: air, march
+N: This is version 2, for ABC software that understands crescendo/diminuendo symbols.
+% dim/cres..endo symbols:
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[| E E G G | F2 D2 | C D E F | D3 z |
+w: 1.~Gen-tle winds of even-ing,   Whis-per through the bow'rs,
+w: 2.~Friend-ly moon, be shin-ing  Through the peace-ful hours,
+w: 3.~Night-in-gales, be sing-ing  With your sweet-est pow'rs,
+%
+pF FP E QE | qA2 G2 | G F E D | C3 z |]
+w: Whis-per peace and qui-et  To my pret-ty flow'rs!
+w: Send-ing qui-et slum-ber   To my pret-ty flow'rs!
+w: And good night be tell-ing To my pret-ty flow'rs!
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

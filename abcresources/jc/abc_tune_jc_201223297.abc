@@ -1,0 +1,22 @@
+X: 07097
+T: the POPCORN JIG
+C: Bob McQuillen 27 Ma4 89
+B: Bob's Note Book 7 #97
+%R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+c2d \
+| ecA def | ecA F2A | EFA ABc | B3 c2d |\
+| ecA def | ecA F2d | cec BAG | A3 :|
+|: c2d \
+| ece aec | def e2e | aec ABc | B3 c2B |\
+| AFF AEE | FAF Eaf | ecA BcB | A3 :|
+%%begintext align
+%% For Cyd Smith of
+%% Seattle, WA., who lives at Dina & Frank Blade's, and
+%% who could not possibly survive the trials and tribulations
+%% of this earthly experience without her daily ingestion [of]
+%% seven (7) quarts of popcorn.
+%%endtext

@@ -1,0 +1,22 @@
+X: 10903
+T: BOLERO.
+T: From the Opera of "Masaniello."
+C: Auber.
+Q: "Allegro."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.90 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A !segno!|:\
+Aff- fed | Abb- baf | fgg- gBc | (d/c/d/e/)f A2A |\
+Aff- fed | Abb- baf | fgg- gBc | d3 z H:|
+cd |\
+(fe)B Bcd | (fe)c A{c}BA | Ade fed | cBA a(cd) |\
+(fe)B Bcd | fec A{c}BA | Ade fed | (ag)e cBA !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

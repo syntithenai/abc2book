@@ -1,0 +1,14 @@
+X: 1
+T: Barbour's Cordial
+C: Keith Murphy (Black Isle Music III)
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dm
+"^A"
+|: "Dm"D2A, DEF | "A7"GFE "Dm"DFA |  "Bb"d2d dcA | "Am"c3 cAc ||  "Bb"dfe dcA |\
+| "F"cAG F3 |[1 "Gm"B2d "(F)"c2A | "C"G3 GFE :|[2 "Gm"GBA "A7"GFE | "Dm"D3 "(A7)"DAe |]
+"^B"
+|: "Dm"f2d "(Am)"ecA | "Dm"f2d "(Am)"ecA |  "Dm"f2d "(Am)"edc | "Dm"A3 ABc || "Bb"d2B "Am(F)"c2A |\
+"Gm"B2G "F"A2F |[1 "Gm"G2B "(Dm)"AGF | "A7"E3 EAe :|[2 "Gm"GBA "A7"GFE | "Dm"HD2A, "(A7)"DFE |]

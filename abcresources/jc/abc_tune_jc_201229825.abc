@@ -1,0 +1,32 @@
+X: 12
+T: Denis Murphy
+O: Traditional
+B: Roy Goldring "14 Social Dances"
+P: Tune for "Side By Side"
+R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Last ending has "last 8 bars from !segno!" above the repeat bracket.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B |:\
+"D"A2D FED | "D"F2A "D/F#"A2f |\
+"Em"g2e "D"f2d | "Em/G"e2d "A7"Bcd |
+"D"A2D FED | "D"F2A "D/F#"A2f |\
+"Em"g2f "A7"efe | "D"d3 d2 ||
+!segno!A |\
+"D/F#"d2"A7/E"e "D"f3 | "A7/C#"g2e "D"f3 |\
+"Em"gfe "D"f2d | "Em/G"e2d "A7"B2A |
+"D/F#"d2"A7/E"e "D"f3 | "A7/C#"g2e "D"f2g |\
+"D/F#"a2f "A7"efe |1 "D"d3 "G"dcB :|2 "D"d3 !Fine!d2 !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |:\
+d2a A2a | d2a f2d' | e2[e'b] d2[d'a] | g2[e'b] a2[g'c'] |
+d2a A2a | d2a f2d' | [e'3b3e3] [g'3c'3a3] | [f'3d'3] [f'2d'2] ||
+z |\
+[d'2f2][c'e] [d'3a3d3] | c2[c'ag] d2[d'a] | e2[e'b] d2[d'a] | g2b a2[g'c'] |
+[d'2f2][c'e] [d'3a3d3] | c2a d2e |\
+[d'3f3] [g'3c'3a3] |1 [f'3d'3] [f'2d'2]z :|2 [f'3d'3] !Fine![f'2d'2] !segno!|]

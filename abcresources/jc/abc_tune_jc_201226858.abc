@@ -1,0 +1,27 @@
+X: 10491
+T: Duettino
+C:
+Q: "Andante"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.49
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 is arranged with 4/8-bar lines.
+V: 1
+d2d2 |\
+(edef) {a/}(g2fe) | (e2d2) (gdBG) | A2B2 {d/}c2Bc | (c2B2) d2d2 |\
+(edef) {a/}(g2fe) | (e2d2) (gdBG) | A2B2 {d/}c2BA | G4 :|
+|: (g3f) |\
+(e3d) (c3B) | .c2.A2 (a3g) | (f3e) (d3c) | (c2B2) d2d2 |\
+(edef) {a/}(g2fe) | (e2d2) (gdBG) | A2B2 {d/}c2BA | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff/line breaks in the MS.
+V: 2
+B2B2 | (cBcd) {f/}(e2dc) | (c2B2)  B2G2  | F2G2 {B/}A2GA | (A2G2) B2B2 |
+(cBcd) {f/}(e2dc) | (c2B2)  B2G2  | F2G2 {B/}A2GF | G4 :||: (e3d) | (c3B) (A3^G) |
+.A2.A2 (f3e) | (d3c) (B3A) | (A2G2) B2B2 | (cBcd) {f/}(e2dc) | (c2B2)  B2G2  | F2G2 {B/}A2GF | G4 :|
+%
+%%center -

@@ -1,0 +1,24 @@
+X:1
+T:Cullen Bay - Seconds  "CCPB Sep-1995"
+M:C
+L:1/8
+Q:80
+C:Ian Duncan - Shotts
+S:March
+K:HP
+[| {g}c3/2d/2{gef}e{g}c{Gdc}d{g}e3/4d/4{gcd}c4 | \
+{g}A3/2B/2{gcd}c{g}A{GdG}B{g}c/4d3/4{gcd}c4 | \
+{Gdc}df{gcd}c{e}A{GdG}B{g}c3/4B/4{G}A4 |
+{g}c3/2d/2{gef}e{g}c{Gdc}d{g}e3/4d/4{gcd}c4|] [ | \
+{g}fc{gcd}c{g}A/4c3/4{Gdc}d/2c/4A3/4{gcd}c4 | \
+{g}fc{gcd}c{g}A/4c3/4{Gdc}d/2c/4A3/4{gGd}G4 |
+{g}fc{gcd}c{g}A/4c3/4{Gdc}d/2c/4A3/4{gcd}c4 | \
+{g}c3/2d/2{gef}e{g}c{Gdc}d{g}e3/4d/4{gcd}c4|] [ | \
+{gef}e{g}c{GdG}c{g}d/4e3/4{gfg}fe/4d3/4{gef}e4 |
+{gcd}c{e}A{GAG}A{g}B/4c3/4{gBd}B{g}c/4d3/4{gcd}c4 | \
+{Gdc}df{gcd}c{e}A{GdG}B{g}c3/4B/4{G}A4 | \
+{g}c3/2d/2{gef}e{g}c{Gdc}d{g}e3/4d/4{gcd}c4|] [ |
+{gcd}c{g}A/4c3/4{gfg}fc{gde}dc/4A3/4{gcd}c4 | \
+{gef}e{g}c{GdG}c{g}d/4e3/4{gcd}cB/4A3/4{gGd}G4 | \
+{gcd}c{g}A/4c3/4{g}df{g}d3/4c/4{g}B3/4d/4{gcd}c4 |
+{g}c3/2d/2{gef}e{g}c{Gdc}d{g}e3/4d/4{gcd}c4|]

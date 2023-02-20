@@ -1,0 +1,38 @@
+X:1
+T: The Old Mill
+N:
+C:Brian Jenkins
+S:
+A:
+O:
+R:
+M:3/2
+K:G
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 29 notes)
+K:G
+M:3/2
+L:1/16
+B4 B2 |c2 d4 |B4 B2 |c2 d4 |G4 G2 |A2 B4 |G4 G2 |A2 B4 |E4 E2 |F2 G4 |G2 F2 G2 |A2 B2 c2 |A12 |G4 F8 |
+%W:
+% voice 1 (1 lines, 26 notes)
+B4 B2 |c2 d4 |B4 B2 |c2 d4 |G4 G2 |A2 B4 |c4 d4 |B4 E4 |D2 E2 F4 |A4 B4 |G4 D12 |d4 d4 |d4
+%W: A2
+% voice 1 (1 lines, 29 notes)
+B4 |B2 c2 d4 |B4 B2 |c2 d4 |G4 G2 |A2 B4 |G4 G2 |A2 B4 |E4 E2 |F2 G4 |G2 F2 G2 |A2 B2 c2 |A12 |G4 F8 |
+%W:
+% voice 1 (1 lines, 29 notes)
+B4 B2 |c2 d4 |B4 B2 |c2 d4 |G4 G2 |A2 B4 |c4 d4 |B4 E3 |c e2 g2 f2 |e2 d2 c2 |B2 A2 G2 |F2 G16 |G8 |
+%W: B1
+% voice 1 (1 lines, 21 notes)
+e4 B4|B4 e4 |e2 d2 c2 |B2 c4 |A4A16 |d4 A8 |d4 d2 |c2 B2 A2 |B4 G4|G16 |
+%W:
+% voice 1 (1 lines, 20 notes)
+B4 F8 |B4 G4 |F4 G4 |E8 |E2 F2 G4 |B4 A4 |A2 ^G2 A4 |A4 B4 |c4 A16 |A8 |
+%W: B2
+% voice 1 (1 lines, 29 notes)
+B4 B2 |c2 d4 |B4 B2 |c2 d4 |G4 G2 |A2 B4 |G4 G2 |A2 B4 |E4 E2 |F2 G4 |G2 F2 G2 |A2 B2 c2 |A12 |G4 F8 |
+%W:
+% voice 1 (1 lines, 29 notes)
+B4 B2 |c2 d4 |B4 B2 |c2 d4 |G4 G2 |A2 B4 |c4 d4 |B4 E3 |c e2 g2 f2 |e2 d2 c2 |B2 A2 G2 |F2 G16 |G8 ||

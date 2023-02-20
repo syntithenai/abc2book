@@ -1,0 +1,14 @@
+X: 214
+T: the Black Lettered List   #2
+R: air
+%S: s:3 b:14(6+4+4)
+B: O'Neill's 1850 #214
+Q: "Animated"
+O: J.O'Neill
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+"^A"[|] D/D/ | GDB B>AG | ADc  c>BA | d>BG [1 G>AB | (A>GF/E/) D2 :|[2 DEF | GDB G2 |]
+"^B1"[| B    | BFd d>cB | ABc  cBA  | G>AB BAG | (A>GF/E/) D2 ||
+"^B2"|| D    | GDB BAG  | c>de e>dc | B>dG GAF | GDB G2 |]

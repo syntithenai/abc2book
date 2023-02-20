@@ -1,0 +1,25 @@
+X: 8
+T: Shuter's Hornpipe
+C: Traditional
+O: Kohler's Violin Repository
+B: Roy Goldring "14 Social Dances"
+P: Tune for "Mary Erskine"
+R: hornpipe, reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+"G"G2G2 GABc | "G"dcBA GABG | "Am"A2A2 A2ed | "Am"cBAG "D7"FAFD |
+"G"G2G2 GABc | "Em7"dcBA "G/D"B2g2 | "D/A"fafd "A7"ege^c | "D"d2"G"d2 "D"d2z2 ||
+"D/F#"A2A2 "D"A2Bc | "D/F#"dBAG "D7"FAFD | "G"d2d2 "D"d2ef | "Em"gedc "G7/D"BdBG |
+"C"e2c2 c2ge | "G/B"d2B2 "Em"B2g2 | "Am"ecec "D7"BAGF | "G"G2B2 G2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g2[d'2b2] d2[b2g2] | G2d2 b2G2 | A2e2 c'2e2 | A2a2 d2[c'2f2] |
+g2d'2 f2d'2 | e2b2 d2b2 | a4 A4 | [a2f2d2][b2g2d2] [a2f2d2]z2 ||
+f2d'2 d2d'2 | f2d'2 d2c'2 | g2d'2 f2d'2 | e2g2 d2[b2g2=f2] |
+c2g2 e'2z2 | B2g2 e2b2 | A2[c'2a2] d2[c'2f2] | [G2G6]d2 b2z2 :|

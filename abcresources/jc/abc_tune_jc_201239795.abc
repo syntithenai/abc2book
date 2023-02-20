@@ -1,0 +1,21 @@
+X: 341	% 94
+T: Cackling Hen
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.32 #1
+R: reel, march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Poorly positioned notes in bar 11 could be the same as bars 9,13,15.
+N: Strains 1,2 have final repeats but no initial repeats; strain 3 has both repeats. Not fixed.
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="94"
+[|\
+dg2e ddBc | [dF][dF][dF]e d4 |\
+dg2e ddBc | dBAB G4 :|\
+d2G2 AAGA | d2G2 A4 |\
+d2G2 AAGA | dBAB G4 :|
+|:\
+[B2G2][B2G2][B2G2][B2G2] | dg2e d4 |\
+[c2A2][c2A2][c2A2][c2A2] | dBAB G4 |\
+[B2G2][B2G2][B2G2][B2G2] | Bg2e a3e |\
+[B2G2][B2G2][B2G2][B2G2] | dBAB G4 :|

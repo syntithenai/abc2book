@@ -1,0 +1,27 @@
+X: 1
+T: \vSevcovsk\'y  [C]
+T: the Cobbler
+O: Czech
+R: polka
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 2/4
+L: 1/16
+K: C
+%%indent 300
+"^^Intro:"y\
+| "C"c4 G4 | "Am"A4 E4 \
+| "Dm"F2D2 "G7"GFED | "C".C4 .C4 |
+"A"\
+|: "C"E3G G2G2 | c2G2 E2G2 \
+| "Dm"G2F2 D2F2 | "G7"A4 G4 \
+|  "C"E3G G2G2 | c2G2 E2G2 \
+| "G7"G2F2 D2B,2 | D4 "C"C4 :|
+"B"\
+[| "C"G3G G2G2 | c2 z2 z4 \
+|"G7"G3G "C"G2G2 | E2 z2 z4 \
+| "C"c4 G4 | "Am"A4 E4 \
+| "Dm"F3B "G7"B2B2 | "C"c2B2 "G7"A2G2 |
+| "C"c4 G4 | "Am"A4 E4 \
+| "Dm"F3B "G7"B2B2 | "C"c2 z2 z4 |]\
+y8 y8 y8 y8 y8 y8 y8 y8

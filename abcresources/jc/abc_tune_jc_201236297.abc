@@ -1,0 +1,22 @@
+X: 2191
+T: the White Cockade.   Strathspey Time.
+%R: strathspey, air
+B: Niel Gow & Sons "Complete Repository" v.2 p.19 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 8-bar lines, for compactness and proofreading.
+V: 1 staves=2
+G/A/ |\
+BB {c}B.A/.G/ | BBBg | dB c/B/A/G/ | FA AG/A/ |\
+.B.B c/B/A/G/ | ABTga | {b}ag/f/ e/f/g/e/ | dBB :|
+|: B/c/ |\
+dB gB | dd~d>e | {e}d{c}Bgf/g/ | aAAG/A/ |\
+(B.B) (c/B/)A/G/ | ABg>a | {b}ag/f/ {a}g.f/.e/ | dBB :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | G2g2 | g2g2 | G2g2 | d2d2 | G2g2 | d2ef | g2d2 | G2G :||: z |
+g2G2 | B2c2 | B2G2 | D2d2 | G2g2 | d2ef | g2d2 | G2G |]

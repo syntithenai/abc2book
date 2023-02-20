@@ -1,0 +1,40 @@
+X:1
+T:Miss Maureen Lee
+M:C
+L:1/8
+Q:80
+C:R. MacNeil
+S:March
+K:HP
+[| f | \
+{gAGAG}A2{Gdc}d3/2e/2{g}f3{gf}g | \
+{a}fae3/2f/2{gf}g3e | \
+{g}A3/2B/2{GdG}c3/2d/2{gef}e3f |
+{gf}gad3/2e/2{gfg}f3a{gAGAG}A2{Gdc}d3/2e/2{g}f3{gf}g | \
+{a}fae3/2f/2{gf}g3e | \
+{g}A3/2B/2{GdG}c3/2d/2{gef}e3f |
+{gf}ga{cd}ce{Gdc}d3|] [ | \
+{g}A | \
+{Gdc}d3/2e/2{g}fg{ag}a3A | \
+{Gdc}da{fg}fd{gf}g3e |
+{g}c3/2d/2{g}e3/2f/2{gf}g3c | \
+{gef}ed{gdc}da{fg}f3{AGAG}A{Gdc}d3/2e/2{g}fg{ag}a3A | \
+{Gdc}da{fg}fd{gf}g3e |
+{g}A3/2B/2{GdG}c3/2d/2{gef}e3f | \
+{gf}ga{cd}ce{Gdc}d3|] [ | \
+f |
+{gAGAG}A2{Gdc}d2{GBG}A3d | \
+{g}d/2{e}A3/2{g}fa{f}g3e | \
+{gAGAG}A2{gef}e3/2c/2{g}A3{d}c |
+{gef}ed{gdc}da{fg}f3a{gAGAG}A2{Gdc}d2{GBG}A3d | \
+{g}d/2{e}A3/2{g}fa{f}g3e | \
+{g}A3/2B/2{GdG}c3/2d/2{gef}e3f |
+{gf}ga{cd}ce{Gdc}d3|] [ | \
+{e}A | \
+{ag}a3/2g/2{a}fa{fg}fd{ag}ad | \
+{g}d/2{e}A3/2{g}fa{f}g3e |
+{g}c3/2d/2{g}e3/2f/2{gf}ga{cd}ce | \
+{gef}ed{gdc}da{fg}f3{AGAG}A{ag}a3/2g/2{a}fa{fg}fd{ag}ad | \
+{g}d/2{e}A3/2{g}fa{f}g3e |
+{g}A3/2B/2{GdG}c3/2d/2{gef}e3f | \
+{gf}ga{cd}ce{Gdc}d3|]

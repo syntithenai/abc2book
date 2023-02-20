@@ -1,0 +1,30 @@
+X: 21162
+T: BARCAROLE SETT (tune 2)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.116 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has only 7 bars.
+N: The key signature should probably be D major.
+M: 2/4
+L: 1/16
+K: Dmix
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="2"
+B,2 |\
+DDDD D2F2 | EDEF D4 | FFFF F2A2 | GFGA F4 |\
+A2BA A2dB | A2BA A2F2 | G2E2 D2C2 | D4 D2 H|]
+fg |\
+a2bg e2ef | gage efed | cdcB A2fg | a2bg e2ef |\
+gage d2ef | gfed cdec | d4 "^D.C."d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back.
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance partners and turn.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,15 @@
+X: 1
+T: Rory MacLeod
+R: jig
+M: 6/8
+L: 1/8
+%Q: 3/8=130
+K: Amix
+   e | "A"c2A cee | "A"fee "D"faa |   "A"c2A cee | "F#m"fcc "E7"cBB \
+     | "A"c2A cee | "A"fee "D"faa | "F#m"fcc "E7"ecB | "A"cAA A2 :|
+|: e | "A"Aee fee | "A"aee fee | "A"cee fee | "A"aee "(E7)"eff \
+     | "A"Aee fee | "A"aee fee | "F#m"fcc "E7"ecB | "A"cAA A2 :|
+|: a | "A"Acc "D"cdd | "A"dcc "E7"c2B | "A"Acc "D"cdd | "A"dcc "E7"cBB \
+     | "A"Acc "D"cdd | "A"dcc c2A | "F#m"fcc "E7"ecB | "A"cAA A2 :|
+|: g | "D"faa a2f | "A"fee e2c | "E7"cBB cff | "A"fee ecc \
+     | "D"faa a2f | "A"fee e2c | "F#m"fcc "E7"ecB | "A"cAA A2 :|

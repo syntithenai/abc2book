@@ -1,0 +1,23 @@
+X: 053
+T: Go to the D.... and shake yourself
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Abraham Mackintosh "A Collection of Strathspeys, Reels, Jigs &c.", Newcastle, after 1797, p.5
+F: http://imslp.info/files/imglnks/usimg/a/a8/IMSLP80796-PMLP164326-Abraham_Mackintosh_coll.pdf
+K: C
+V: 1
+G |\
+Gcc cBA | G>AG GEG | Ecc dcd | ecA A2G |\
+Gcc cBA | G>AG GEG | cec dgf | ecc c2 :|
+|: e/f/ |\
+gec cBc | AFF F2f/g/ | afd ded | BGG G2G |\
+Gcc cBA | G>AG GEG | cec dgf | ecc c2 :|
+V: 2 clef=bass middle=d
+z |\
+c3 e2f | e3 c3 | c3 g3 | c3 f3 |\
+e3 e2f | e3 c3 | e3 g3 | c'3 c2 :|
+|: z |\
+c3 e3 | f3 f3 | d3 d3 | g3 g2f |\
+e3 e2f | e3 c3 | e3 g3 | c'3 c2 :|

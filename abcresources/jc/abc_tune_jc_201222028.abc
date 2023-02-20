@@ -1,0 +1,34 @@
+X: 0542
+T: Sir Richard Strachan, or the Wapping Assembly.
+%R: hornpipe, reel
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+%N: This is version 2, for ABC software that understands most ABC 2.* features.
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1808, No. 5 p.4 #2
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances5
+M: 2/4
+L: 1/16
+K: Bb
+%%sysstaffsep 35
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+B>cd>e f2b2 | g2b2f3e | {e}d>cd>e f>ed>c | {c}B>AB>d c>AF2 |
+B>cd>e f2b2 | g2b2f3e | d>cd>e f>ed>c | B2d2 B4 |[| e>dc>B A2F2 | e>dc>B A2F2 |
+e>dc>B A>Bc>d | e>dc>B A>cf>A | B>cd>e f2b2 | g2b2f3e | {e}d>cd>e f>ed>c | B2d2 B4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[K:clef=treble] B,FDF B,FDF | B,GEG B,FDF | B,FDF B,FDF |\
+[K:clef=bass middle=d] =ec'gc' fc'ac' |
+[K:clef=treble] bf'd'f' bf'd'f' | bg'e'g' bf'd'f' | bf'd'f' af'e'f' | bf'd'f' b4 |[|\
+[K:clef=bass middle=d]\
+[f2a2c'2][f2b2d'2] [f4c'4e'4] | [f2a2c'2][f2b2d'2] [f4c'4e'4] |
+[f2a2c'2][f2b2d'2] [f2c'2e'2][f2b2d'2] | [f2a2c'2][f2b2d'2] [f4c'4e'4] |\
+[K:clef=treble] B,FDF B,FDF | B,GEG B,FDF | B,FDF A,FEF | B,FDF B,4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Half right and left back again,
+%% down the middle up again,
+%% and Pousette.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

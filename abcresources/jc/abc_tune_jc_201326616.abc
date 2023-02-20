@@ -1,0 +1,17 @@
+X: 192
+T: the Proposal
+R: air
+%S: s:3 b:16(5+5+6)
+Q: "Slow with expression"
+B: O'Neill's 1850 #192
+O: F.O'Neill
+Z: 1997 henrik.norbeck@mailbox.swipnet.se
+M: C
+L: 1/8
+K: F
+ fe  | (d{ed}c A>)G (FGAB) | (c{dc}=B) (cd) c2 (fe) | (d{ed}^c) A>G (FGA).G | (A<d) (d{ed}c) d2 ||\
+ fe  | (d{ed}c A>)G (FGAB) |
+                           | (c{dc}=B) (cd) c2 (fg) | (a{ba}f g) Hz/ e/ (f{gf}d e) Hz/ c/ | (A<d) (d{ed}^c) d2 H|]|\
+ de  | (f{gf}e) d z/ e/ (fagf) | (e{fe}d c) z/ d/ (efge) |
+                                                         | (f{gf}e) d z/ e/ (fagf) | (e{fe}d) (^ce) d2 ||\
+(de) | ({g}fe)de .f(agf) | ({f}ed)^cd .e(gfe) | .f(agf) e(gfe) | T(d^c)(de) "D.C."f2 |]

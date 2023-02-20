@@ -1,0 +1,54 @@
+X: 0
+T: Humahus
+K:
+% - - - - -
+P: Humahus    [C]
+O: trad. Karelia
+%R: polka
+S: http://rsc.anu.edu.au/~pdc/revontulet_dots/music/Humahus.html
+N: Harmony by John Chambers (2018)
+M: 4/4
+L: 1/8
+K: C
+|:\
+"C"[ec][ec]"F"[fc][af] "C"[g2e2]-"G"[gd][fd] |\
+"C"[ec][ec]"F"[fc][af] "C"[g2e2]-"G"[gd][fd] |\
+"C"[ec][ec]"F"[fc][g/e/][f/d/] "C"[ec][ec]"G"[f/d/][e/c/][dB] |\
+"C"[ec][ec]"F"[fd][g/e/][f/d/] "C"[ec][ec]"G"[f/d/][e/c/][dB] "I"|\
+"C"[e2c2G2]"F"[f2c2A2] "C"[e2c2G2]"G"[g2d2B2] :|
+% - - - - -
+P: Humahus    [G]
+O: trad. Karelia
+%R: polka
+S: http://rsc.anu.edu.au/~pdc/revontulet_dots/music/Humahus.html
+M: 4/4
+L: 1/8
+K: G
+|:\
+"G"[BG][BG]"C"[cG][ec] "G"[d2B2]-"D"[dA][cA] |\
+"G"[BG][BG]"C"[cG][ec] "G"[d2B2]-"D"[dA][cA] |\
+"G"[BG][BG]"C"[cG][d/B/][c/A/] "G"[BG][BG]"D"[c/A/][B/G/][AF] |\
+"G"[BG][BG]"C"[cA][d/B/][c/A/] "G"[BG][BG]"D"[c/A/][B/G/][AF] "I"|\
+"G"[B2G2D2]"C"[c2G2E2] "G"[B2G2D2]"D"[d2A2F2] :|
+% - - - - -
+P: Humahus    [D]
+O: trad. Karelia
+%R: polka
+S: http://rsc.anu.edu.au/~pdc/revontulet_dots/music/Humahus.html
+M: 4/4
+L: 1/8
+K: D
+|: "D"ff"G"gb "D"a2-"A"ag | "D"ff"G"gb "D"a2-"A"ag |\
+"D"ff"G"ga/g/ "D"ff"A"g/f/e | "D"ff"G"ga/g/ "D"ff"A"g/f/e |\
+"D"[f2d2A2]"G"[g2d2B2] "D"[f2d2A2]"A"[a2e2c2] :|
+% - - - - -
+P: Humahus    [A]
+O: trad. Karelia
+%R: polka
+S: http://rsc.anu.edu.au/~pdc/revontulet_dots/music/Humahus.html
+M: 4/4
+L: 1/8
+K: A
+|: "A"cc"D"df "A"e2-"E"ed | "A"cc"D"df "A"e2-"E"ed |\
+"A"cc"D"de/d/ "A"cc"E"d/c/B | "A"cc"D"de/d/ "A"cc"E"d/c/B |\
+"A"[c2A2E2]"D"[d2A2F2] "A"[c2A2E2]"E"[e2B2G2] :|

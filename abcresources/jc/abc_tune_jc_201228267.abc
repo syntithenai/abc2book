@@ -1,0 +1,21 @@
+X: 11153
+T: BOHEMIAN AIR
+Q: "Allegro."
+%R: air, march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.115 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Both strains have final repeats but no initial repeats; fixed.
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d/e/ |\
+fedc | B^ABc | defg | a>bag |\
+fedc | Bcde | fdec | d3 ::\
+c/d/ |\
+edcB | A3 c/e/ | gefd | e3 c/d/ |
+edcB | A/^G/A/B/ c/d/e/f/ | gefd | e3 =f |\
+^fedc | B^ABc | defg | a>bag |\
+fedc | Bcde | fdec | d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

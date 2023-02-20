@@ -1,0 +1,11 @@
+X: 1
+T: Chilili [Am/C]
+O: Bolivia
+%: Recording is 8 times through, repeating C 4x at end, then repeat C fading to end.
+%: On recording, B and C are sung on 4th, 5th and 8th times; otherwise instrumental.
+M: 2/4
+L: 1/16
+K: Am
+"A"[| "Am"AAAA A2A2 |     A2A2   A2A2 | "Am"AAAA A2A2 |    A2A2   A2A2 |]
+"B"|:  "F"a2 a4  g2 |  "C"e4     d4   |     e2e2 e4   |    g2g2     e4 :|
+"C"|: "Dm"d2d2 d2c2 | "Am"A4 "Em"G4   | "Am"A2A2 A4   | "C"c2c2 "Am"A4 :|

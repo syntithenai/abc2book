@@ -1,0 +1,20 @@
+X: 34
+T:Biserka
+C:Serbia
+S:Aman-Folkraft
+F: http://www.youtube.com/watch?v=BoAsVKtJNls
+F: http://www.youtube.com/watch?v=xm0lPSTMNDA
+F: http://www.youtube.com/watch?v=UvvdeRSE5KY
+M:3/4
+L:1/8
+Q:1/4=192
+K:GMin
+%%MIDI gchord fzczcz
+|:"Gm"G4g2 |G4g2        |"Bb"d4d2       |"Gm"^c2B2A2|
+  G4g2     |G4g2        |"Eb"c2d2e2     |"Bb"d6     |
+  "Gm"G4g2 |G4g2        |"Bb"d4d2       |"Cm"^c2B2A2|
+  c2>B2 cd |"Bb"B2>A2 Bc|"Adim"A2>G2 AB |"Gm"G6     :|
+|:"Bb"d6       |"Bb"f4 ed    |"Eb""c"c3d ef  |"Bb"d6     |
+  d4 d2    |g3f ed "Cm" |"c"c3d ef      |"Gm"d6     |
+  d3G AB   |d3G AB      |d4 d2          |"Cm"^c3B AG|
+  c3B cd   |"Bb"B3A Bc  |"Dm"A3G AB      |"Gm"G6     :|

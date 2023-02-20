@@ -1,0 +1,24 @@
+X: 10
+T: the Ring
+%R: jig
+B: "Twenty Four Country Dances for the Year 1780", Thomas Skillern, ed. p.5 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1780#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gdor
+|:\
+d2G B/A/B/c/d | cFA cFA |\
+d2G B/A/B/c/d | cfd c2A :|\
+|:\
+G2g gdg | fdf cAF |
+G2g gdg | fdf g2a |\
+bag fed | cAf cAF |\
+d2G B/A/B/c/d | cfd c2A :|
+%%begintext align
+%%   Cast of two Cu. Cast up
+%% again Lead down the middle
+%% up again and Cast off Sett
+%% corners and turn Lead
+%% outsides.
+%%endtext

@@ -1,0 +1,25 @@
+X:8
+T:Sleigh Ride
+R:polka
+Z:Tom Ritter <rittertj:comcast.net> 2016-12-23 [via email]
+M:2/4
+L:1/8
+Q:1/4=100
+K:C
+"^<Chorus:>"
+.g .g.g | "C" ga "Am" g/e/c | "Dm" de "G" d/c/A | "C" G2- "Am" G2- | "Dm" GA "G" Bd | 
+"C" g>a "Am" g/e/d/c/ | "Dm" d>e "G" d/c/A | "C" c2- c2- | "C#dim" c.g "G7".g.g | 
+"C" ga "Am" g/e/c | "Dm" dd/e/ "G" d/c/A | "C" G2- "Am" G2- | "Dm" GG/A/ "G" B/c/d/e/ | 
+"C" g>a "Am" g/e/d/c/ | "Dm" d>e "G" d/c/A | "F" c- "C" c2- "F" c- | "C" c2 z |] 
+% - - - - - - - - - - - - - - - - - - - -
+"^<Verse:>"
+[| ^C | "F#m" A^C/D/ AC/D/ | "B7" AB ^G2- | "E" ^GA G/E/^C | "C#7" ^F4 | 
+"F#m" ^F^G F/D/B,/D/ | "B7" ^FA ^GB | "E"  E4- | E3 B,/C/ | 
+"Am7" GB,/C/ GB,/C/ | "D7"  GA ^F2- | "G" ^FG F/D/B, | "Em"  E4 | 
+"Dm" DG D/C/G, | CD/G/ D/C/G, | "G7" CE/G/ cG | C3 z |] 
+% - - - - - - - - - - - - - - - - - - - -
+"^<Bridge:>"
+|: "Cmaj7".d.d .d.d | .d.d .d.d | "C6" dg zc | B3 G/A/ | 
+"Em7" .B.B .B.B | .B.B .B.B | "Am7" Be zB | A3 E/F/ | 
+"C" G/F/E "C7" EG | "F" Fc "Dm" BA | "G" Gf "G7" ed | 
+[1 "Am" c3 B/A/ | "E" B/A/^G GA | "F#m" Ba "B7" ^g^f | "E" e2 B2 | "Dm" gd "G" G2 :| 

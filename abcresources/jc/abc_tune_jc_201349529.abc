@@ -1,0 +1,323 @@
+X:1
+T:Bang Upp
+C:William Docker's MS
+N:Almost identical to verion in John Clare's MS (with only one "p")
+M:6/8
+L:1/8
+Z:abc2nwc
+K:D
+A|d2d f2f|a2a f2d|g2e f2d|cde ABc|
+d2d f2f|a2a f2d|g2e f2d|cBA d2:|
+|:A|F2A E2A|F2A d2c|B2d A2d|G2e cBA|
+F2A E2A|F2A d2c|Bcd ABc|d3-d2:|
+|:A|f2e d2c|B2A G2F|G2A B2e|dcB A2A|
+f2e d2c|B2A G2F|G2B A2F|GFE D2:|
+
+
+X:2
+T:The Curly-headed Ploughboy
+C:Trad
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+|:d3c|B2d2G2B2|E4D2G2|FG AB c2B2|B4A2dc|
+B2d2G2B2|E4D2G2|FG AB c2A2|G4:|
+|:
+K:D
+z2d2|c2c2cA Bc|d2d2d2d2|c2c2cA Bc|de fe d2d2|
+c2c2cA Bc|d2A2B2G2|F2A2G2E2|D4:|
+
+
+X:3
+T:Davy (Davy) Knick - Knack
+C:Traditional
+N:From the Fiddler's Tune Book: 124. Davy-Davy Knick-Knack
+Q:1/4=80
+M:2/4
+L:1/16
+Z:abc2nwc
+K:G
+D2|GFGA B2B2|GFGA B2B2|dcBc A2A2|dcBc A2A2|
+GFGA B2B2|GFGA B2B2|dcBc AcBA|G2B2 G2:|
+|:(Bc)|d3c B2d2|g2g2 d2 z2|dcBc A2A2|dcBc A2A2|
+d3c B2d2|g2g2 d2 z2|dcBc AcBA|G2B2 G2:|
+
+
+X:4
+T:Dingle Regatta
+M:6/8
+L:1/8
+Z:abc2nwc
+K:G
+d^cd e2d|B^AB d2B|A3A^GA|B2A G2B|
+d^cd e2d|B^AB d2B|A3ABA|G3G3:|
+|:d3def|g3gfg|a3aga|b2a gfe|
+d3def|g3gfg|a2g f2e|def g3:|
+|:gbg dgd|BdB G3|ABc F2D|G2B d3|
+gbg dgd|BdB G3|ABc F2D|G3G3:|
+
+
+X:5
+T:Double Lead Through
+Q:1/4=180
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+g4d3B|G2G2GABG|E2E2F2F2|G3A B2d2|
+g4d3B|G2G2GABG|E2E2F2F2|G4G4||
+A3d ^c2d2|A3d ^c2d2|A2d2e2e2|f8|
+A3d ^c2d2|A3d ^c2d2|A2g2f2e2|d2c2B2A2|
+G2G2GABG|A2A2ABcA|Bc d2cd e2|e2d2d2ef|
+g2g2gf e2|d2d2dc B2|A3B c2d2|egfe dcBA|
+G2G2GABG|A2A2ABcA|Bc d2cd e2|e2d2d2ef|
+g2g2gf e2|d2d2dc B2|A3B c2d2|e2f2g4|]
+
+
+X:6
+T:Down With the French
+M:6/8
+L:1/8
+Z:abc2nwc
+K:C
+G2E G2E|C2C CDE|FDE FDE|F2D B,A,G,|
+G2E G2E|C2C CDE|F2D B,G,B,|C3-C3:|
+|:D2D EDC|B,2A, G,2G,|C2C ECE|G2E C2C|
+D2D EDC|B,2A, G,2G,|A,B,C DCB,|C3C3:|
+|:g2e g2e|c2c cde|fde fde|f2d BAG|
+g2e g2e|c2c cde|f2d BGB|c3-c3:|
+|:d2d edc|B2A G2G|c2c ece|g2e c2c|
+d2d edc|B2A G2G|ABc dcB|c3c3:|
+
+
+X:7
+T:Garryowen
+M:6/8
+L:1/8
+Z:abc2nwc
+K:D
+(dc)|BAG FED|FGF Fdc|BAG FED|EFE Edc|
+BAG FED|FGF F2A|ABc dAF|(E3E):|
+|:(FG)|A2F A2F|A2A Adc|B2G B2G|B2B B2c|
+d2e f2e|dcB A2A|ABc dAF|(E3E):|
+
+
+X:8
+T:Grandfather's Dance
+C:Trad
+M:4/4
+L:1/8
+Z:abc2nwc
+K:D
+|:F2A2B2c2|dc de f2a2|g2f2e2d2|c2B2A2G2|
+F2A2B2c2|dc de f2a2|g2f2e2Bc|d2f2d4:|
+|:e2A2e2A2|g2f2e2A2|g2f2e2d2|c2B2A2G2|
+F2A2B2c2|dc de f2a2|g2f2e2Bc|d2f2d4:|
+
+
+X:9
+T:Grandmother's Dance
+C:Trad
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+|:D2|GF GA BA GA|B2G2G3F|E2A2E2F2|G2DE D2D2|
+GF GA BA GA|B2G2G3F|E2A2E2F2|G4G2:|
+A2|:B2d2d3c|B2d2d3c|B2d2B2G2|A2FE D2D2|
+B2d2d3c|B2d2d2B2|[1G3A B2c2|d4c4:|[2G2B2E2F2|G4G2
+
+X:10
+T:Hunt the Squirrel
+C:Sussex Archaeological Soc MS
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+"March"G2d2d2e2|d4B4|G2AB A2G2|G2AB A2G2|
+G2d2d2e2|d4B4|G2AB A2G2|G8:|
+|:c2d2e2de|c2d2e2de|c2d2e2f2|g6fe|
+d2B2d2B2|d2B2d4|G2AB A2G2|G8:|
+|:[M:6/8]"Jig"G2d d2e|d3B3|GAB A2G|GAB A2G|
+G2d d2e|d3B3|GAB A2G|G3-G3:|
+|:c2d ede|c2d ede|c2d e2f|g3-g fe|
+d2B d2B|d2B d3|GAB A2G|G3-G3:|
+
+
+X:11
+T:Litchfield Tattoo
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+z2BB|B2AA A2cc|c2BB B2GG|G2F2G2A2|B6BB|
+B2AA A2cc|c2BB B2c2|de dc B2A2|G4:|
+B2c2|d3e d2B2|c3d c2A2|B3c B2G2|A6AB|
+c2Ac B2G2|A6AB|c2Ac B2G2|A6Bc|
+d3e d2B2|c3d c2A2|B3c B2G2|A6AB|
+c2Ac B2G2|A6AB|c2Ac B2G2|A6|]
+
+
+X:12
+T:Over the Hills & Far Away
+C:Traditional
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+D2|GABA GABA|G2E2E2D2|GABA GABG|c2A2A2D2|
+GABA GABA|G2E2c4|E2DC D2B2|c2A2A2:|
+|:Bc|d3c B3A|G2E2E2Bc|d2dc B2AB|c2A2A2Bc|
+de dc Bc BA|G2E2c4|E2DC D2B2|c2A2A2:|
+
+
+X:13
+T:Oyster Girl
+M:6/8
+L:1/8
+Z:abc2nwc
+K:G
+B2c|ded B2G|A2F DEF|G2G BAB|d2c ABc|
+ded Bdg|f2e c2e|d2B cBA|G3:|
+G2A|Bcd Bcd|e2c e2c|ABc ABc|d2B d2B|
+G2G GFG|A2A A2G|F3E3|D3-D3|
+Bcd Bcd|e2c e2c|ABc ABc|d2B d2B|
+ded Bdg|f2e c2e|d2B cBA|G3|]
+
+
+X:14
+T:Paddy Carrey
+M:6/8
+L:1/8
+Z:abc2nwc
+K:G
+D|:D2G GFG|B2G GFG|E2A A2B|cAG FED|
+D2G GFG|B2G G2z|FED DEF|GAB A2G:|
+|:G2B c2e|d2e dBG|G2B c2e|dBG A2z|
+G2B c2e|d2e dBG|G3BAG|[1FDF G2z:|[2FDF G2B
+|:c2A A2A|B2G G2G|F2G A2B|c2A F2D|
+c2A A2A|B2G G2z|FED DEF|GAB A2G:|
+
+
+X:15
+T:The Spaniard
+M:6/8
+L:1/8
+Z:abc2nwc
+K:G
+|:G3D3|B3G3|B2B c2A|B3G3|
+d3c3|B3A3|G2G A2F|G3G3:|
+|:b3bag|a2f g2e|d3dcB|c2A B2G|
+b3bag|a2f g2e|d3dcB|c2A G3:|
+
+
+X:16
+T:Speed the Plough
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+GABc dedB|dedB dedB|c2ec B2dB|ABcB A4|
+GABc dedB|dedB dedB|c2ec B2dB|A2A2G4:|
+|:g3g g2g2|g2fe d2B2|c2ec B2dB|ABcB A4|
+g3g g2g2|g2fe d2B2|c2ec B2dB|A2A2G4:|
+
+
+X:17
+T:Sussex Bonny Breast Knot
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+dc|B2G2G2AB|cBAG F2D2|G2B2A2c2|B2d2d2dc|
+B2G2G2AB|cBAG F2D2|G2B2A2dc|B2G2G2:|
+|:Bc|d3e d3e|dcBA G2G2|AGAB cBcd|e2A2A2Bc|
+d3e d3e|dcBA G2G2|A2A2D2EF|G4G2:|
+
+
+X:18
+T:The Sweets of May
+C:Trad
+M:6/8
+L:1/8
+Z:abc2nwc
+K:G
+|:d2c|B2B ABA|GAG G2A|B2B GAB|c3d2c|
+BcB ABA|GAG GAB|c2A FEF|G3:|
+|:z3|A2A A2G|E2F G2B|A2B c2d|e2d c2B|
+ABA A2G|E2F G2B|c2A B2G|A3:|
+|:B2c|d z2d3|DED D3|c z2c3|DED DEF|
+G2D G2A|B2G B2c|d2d cBA|G3:|
+
+
+X:19
+T:Uncle's Jig
+C:Trad
+M:6/8
+L:1/8
+Z:abc2nwc
+K:G
+B2c|:ddd dcB|ddd d2d|g2g f2e|d3dcB|
+c2e edc|B2d G2B|A2B cBA|[1GAG FBc:|[2G3G3
+|:
+K:D
+A2d c2e|d2f a2f|e2f gfe|d2f A3|
+A2d c2e|d2f a2f|e2f gfe|[1d3d3:|[2d3|]
+
+
+X:20
+T:Untitled Polka ("Welch's 4-part")
+C:Welch MS
+Q:1/4=80
+M:2/4
+L:1/16
+Z:abc2nwc
+K:G
+|:dedc BcBA|G2G2 G2AB|c2A2 A2A2|c2A2 A2A2|
+dedc BcBA|G2G2 G2AB|c2A2 G2F2|G6z2:|
+|:A2AB c2A2|Bcde d4|A2AB c2A2|Bcde d4|
+e2g2 c2e2|d2g2 B2d2|c2A2 G2F2|G4G4:|
+|:d3e d2c2|B6c2|d2g2 f2e2|e2d2 d4|
+d3e d2c2|B6c2|d2c2 A2F2|G4G4:|
+|:A2AB c2A2|Bcde d4|A2AB c2A2|Bcde d4|
+e2g2 c2e2|d2g2 B2d2|c2A2 G2F2|G4G4:|
+
+
+X:21
+T:Winster Gallop
+M:2/4
+L:1/16
+Z:abc2nwc
+K:G
+"intro"G2BB G2B2|G2B2 d4|A3c B2 A2|G4G4
+|:G2BB G2B2|G2B2 d4|A2cc B2A2|G2B2 d4|
+c2e2 f2e2|d2B2 d4|A3c B2A2|G4G4:|
+|:g2f2 e2d2|g2f2 e2d2|g2ff e2d2|c2B2 A4|
+f2e2 d4|f2e2 d4|d4A3c|B2G2 G4:|
+
+
+X:22
+T:Woodland Revels
+C:Trad?
+N:"Australian? learnt from Graeme Smith"
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+E3c B4|E3c B4|c2c2e2c2|B8|
+E3c B4|E3c B4|A2B2c2^c2|d4D4|
+E3c B4|E3c B4|c2c2e2c2|B8|
+c2c2B4|c2c2B4|Bc BA G2F2|E4D4||
+G3e d4|G3e d4|B2B2c2B2|A2e2e4|
+A3B c4|A3B c4|c2c2B2A2|G2e2d4|
+B3c d4|B3c d4|B2B2c2B2|A2e2e4|
+e2c2e2c2|d2B2d2B2|dc BA GF GA|B2d2g2fe||
+K:D
+d2d4cd|e2d2B2G2|E G2E G2A2|B8|
+d2d4cd|e2d2B2G2|E A2E A2B2|A2F2E2D2|
+d2d4cd|e2d2B2G2|E G2E G2A2|B4G4|
+E2e4fe|d2B2A2G2|E4F4|G8|]
+
+
+

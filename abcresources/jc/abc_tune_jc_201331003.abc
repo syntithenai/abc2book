@@ -1,0 +1,13 @@
+X:340
+T:Rockingham Castle. (p)1695.PLFD.340
+M:3/4
+L:1/4
+Q:3/4=60
+S:Playford, Dancing Master,9th Ed,1695.
+O:England
+H:1695.
+Z:Chris Partington.
+K:F
+z/4A/4B/4c/4|(d<A)d|(^c<A)f|(g<e)f|(e<^c)e|(d<=B)d|
+(^c<A)f|(e3|e2):||:z/4e/4f/4g/4|a3|g3|f>gf|(e<^c)e|
+d<=Bd|^c2d|e^c>=B|A>ef/g/|a<df|e2d|(d3|d2):|

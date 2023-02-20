@@ -1,0 +1,19 @@
+X:2008
+T:Miss Ogilvie's Fancy
+P:Miss Ogilvie's Fancy
+C:Traditional?
+R:Strathspey (8x32)
+B:RSCDS 20-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:Bb
+% %scl 0.84
+"Bb"[BFD]>c[BF]b "Eb"[g/G/]f/e/d/ "Cm"[e/G/]d/c/B/|"F"A/B/c/B/ AF Fc c2|\
+"Bb"[BF]>cBb "Cm"[g/G/]f/e/d/ [e/G/]d/c/B/|"F"A/B/c/B/ AF "Eb"GB "Bb"[B2F2D2]|
+"Bb"[BFD]>c[BF]b "Eb"[g/G/]f/e/d/ "Cm"[e/G/]d/c/B/|"F"A/B/c/B/ AF Fc c2|\
+"Bb"[BF]>cBb "Cm"[g/G/]f/e/d/ [e/G/]d/c/B/|"F"A/B/c/B/ AF "Eb"GB "Bb"[B2F2D2]||
+"Bb"D>FBF "Cm"Ge"Bb"Fd|"Cm"E>F G/F/E/D/ "F"[CA,]c c2|\
+"Bb"D>FBF "Cm"Ge"Bb"Fd|"Cm"E>G "F"[F/B,/]E/D/C/ "Bb"B,B B2|
+"Bb"D>FBF "Cm"Ge"Bb"Fd|"Cm"Eg"Bb"Df "F"Cc c2|\
+"Bb"[BFD]>dfb "Cm"[g/G/]f/e/d/ [e/G/]d/c/B/|"F"A/B/c/B/ AF "Eb"GB "Bb"[B2D2]|]

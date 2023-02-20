@@ -1,0 +1,23 @@
+X:811
+T:Young Phyllis of Wakefield
+C:John Young, Dancing Master, 1728
+L:1/8
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=112
+N:The original B-music was the same as the A-music except the last two bars, so that has
+N:been modified by someone.  The C-music was written by somebone else, to fit
+N:Tom Cook's adaptation of the dance which is 4 couples longways: 4 x 48 bars.
+K:G
+P:A
+|: G2 | "G"d2B2 "C"cded | "G"d4 "/"g4 | "G/B"d2cd "C"edcB | "D7"A4 "/"d4 |\
+"Em"B2AG "D"A2GF | "C"EFG2 "D7"c2d2 | "G"B2g2 "D7"cBAG | "G"G4- "/"G2 :|
+P:B
+|: d2 | "C"e2g2 "G"d2g2 | "D7"c2d2 "Em"B2G2 | "C"E2c2 "Em"B2AG | "G/D"B4 "D"A4 |\
+"G"B2AG "D"A2GF | "C"EFG2 "Am"c2d2 | "G"B2AG "D7"FGAF | "G"G6 :|
+K:Gm
+P:C
+[| d2 | "Gm"g2a2 "/"babg | "D7"a4 "/"d4 | "Cm"c2B2 "A7"ABAG | "D7"d4- "/"d2d2 |\
+"Gm7"d2de "Bb"d2df | "Dm"f2gf "Bb7"b2B2 | "Eb"B2cB "Gm"B2d2 | "D7"d4- "/"d2d2 |
+"Gm"g2a2 "/"babg | "D7"a4 "/"d4 | "Cm"c2B2 "D7"ABAG | "Bb"d4- "G7"d2d2 |\
+"Cm"c2fe "Bb"d2gf | "A7"=e2ag "D"^f2ga | "Gm"d2c2 "D7"BAG^F | "Gm"G4- "/"G2 |]

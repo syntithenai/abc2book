@@ -1,0 +1,29 @@
+X: 20581
+T: Rory Dalls Port
+%R: jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.58
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The slurs over dotted triplets are actually squiggles in the book; it's not clear what this meant.
+M: 6/8
+L: 1/8
+K: G
+|: "_Slow"\
+G>AB TB2g | d>cB TA2B | G>AB TB2g | [dD]>[cC][BB,] T[A2A,2][GG,] ::\
+g>ab d2B | g>ab (c2A) | g>ab e>fg | [dD]>[cC][BB,] T[A2A,2][GG,] ::
+(G/A/B/c/d) Bgb | (A/B/c/d/e) cac' | (G/A/B/c/d) Bgb |[dD]>[cC][BB,] T[A2A,2][GG,] ::\
+g2(3(b/a/g/) ([d2D2][BB,]) | g2(3(b/a/g/) ([c2C2][AA,]) | g2(3(b/a/g/) E>FG |
+Te>dB TA2G ::\
+[B2G2][BG] [c2E2][cE] | [B2G2][BG] [A2D2][AD] | [B2G2][BG] [c2E2]e | {e}Td>cB TA2G ::\
+[g2B2][gB] [e2c2][ec] | [a2^c2][ac] [f2d2][fd] | [g2B2][gB] [ec]>[fd][ge] |
+[dD]>[cC][BB,] T[A2A,2][GG,] ::\
+(G/<B/)TB2 (g/<d/)TB2 | (G/<B/) TB2 (g/<B/)TA2 | (G/<B/)TB2 (g/<d/)TB2 | [dD]>[cC][BB,] T[A2A,2][GG,] ::\
+(b/<g/) (dB) (b/<g/) (ec) | (b/<g/) (dB) (b/<g/) (cA) |
+(b/<g/) (dB) (b/<g/) (eg) | [dD]>[cC][BB,] T[A2A,2][GG,] ::\
+(B/G/)(B/G/)(c/A/) (B/G/)(c/A/) (d/g/) | (B/G/)(B/G/)(c/A/)  (B/G/)(B/G/)(A/F/) | (B/G/)(B/G/)(c/A/) (B/G/)(c/A/) (d/g/) |
+[dD]<[cC][BB,] T[A2A,2][GG,] ::\
+(b/g/)(b/g/)(d/B/) (b/g/)(b/g/)(e/c/) | (b/g/)(b/g/)(d/B/) (b/g/)(b/g/)(c/A/) |\
+(b/g/)(b/g/)(d/B/) (b/g/)(b/g/)(e/g/) | [dD]>[cC][BB,] T[A2A,2][GG,] ::
+(.[BG].[BG].[BG]) (.[cE].[cE].[cE]) | (.[BG].[BG].[BG]) (.[AD].[AD].[AD]) | (.[BG].[BG].[BG]) [c2E2]e | Td>cB TA2G ::\
+(.[gB].[gB].[gB]) (.[ec].[ec].[ec]) | [a^c][ac][ac] [fd][fd][fd] | [gB][gB][gB] [ec]>[fd][ge] | [dD]>[cC][BB,] T[A2A,2][GG,] ::
+(b2g) (c'2a) | (b2g) (a2d) | (b2g) (c'2a) | d'>c'b Ta2g ::\
+B2(g/<e/) c2(a/<f/) | d2(b/<g/) e>fg | (B2G) (c2A) | [dD]>[cC][BB,] T[A2A,2][GG,] :|

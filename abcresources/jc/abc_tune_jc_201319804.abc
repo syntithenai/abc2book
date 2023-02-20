@@ -1,0 +1,27 @@
+X:1019
+%%scale .68
+%%stretchlast 1
+T:Old St. Pauls
+C:Joe Buchanan's Scottish Tome - Page 612.0
+I:612 0
+Z:Carl Allison
+R:Waltz
+L:1/4
+M:3/4
+K:D
+|:S "D"F3- | F ^E F | B3 | A2 D | "Ddim"d3- | d c B | "D"A3 | F3 |
+"A7"A3- | A E ^E | "D"F3 | "Bm"D3 | E3 "E7" | d3 | "A7"c3 "A7" | c B A |
+"D"F3- | F ^E F | B3 | A2 D | "Ddim"d3 | d c B | "D"A3 "D" | F3 |
+"A7"A3- | A E ^E | "D"F3 | "Bm"D3 | "E7"B,3 "A7" | C2 D | "D"D3 "D" | D3 :|
+[Af]2 [df] "D" | [cf]2 [Bf] | "A7"[Bg]3 | [Ag]3 | "D"[Af]2 [df] | [cf]2 [Bf] | "A7"[Bg]3 | [Ag]3 |
+a3 | "D"f/d/A/ {c}B3/2 | A "A7"g2 | e/c/A/ {c}B3/2 | A [Bg]2 | [Bg] [Af]2 | [Ge] "D"[Fd]2 | "D"d3 :|
+F3- | F ^E F | B3 | A2 D | "Ddim"d3 | d c B | "D"A3 | F3 |
+"A7"A3- | A E ^E | "D"F3 "Bm"D3 | E3 "E7"d3 | "A7"c3 | c B A |
+"D"F3- | F ^E F | B3 | A2 D | "Ddim"d3 | d c B | "D"A3 | F3 |
+"A7"A3- | A E ^E | "D"F3 | "Bm"D3 | "E7"B,3 "A7"C2 D | "D"D3 "D"D3 :|
+[K:G]|: "G"D ^C D | (A2 G) | "D7"G3 | "D7"F3 | "D7"D ^C D | (B2 A) | "G"A3 | "G"G3  |
+d ^c d | (g2 B) | "Am"B3 | A3 |1 "A7"A ^c g | (f2 e) | "D7"e3 | "D7"d3 :|
+%%leftmargin 277 cm
+[2 "D"e3 | F3 | "G"G3- | G3 S |]
+%%leftmargin 2cm
+W:Errata: Changed metre to 6/8 rather than 3/4 and added bars accordingly.

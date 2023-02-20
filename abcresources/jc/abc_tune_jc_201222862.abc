@@ -1,0 +1,38 @@
+X: 64
+T: Dangling of the Irish Bearns
+%R: waltz
+B: "The Hibernian Muse" p.40 -41 #1
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. LXIV.
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+d3cB2 | A2F2A2 | G2B2d2 | G4e2 |\
+(GABcd)e | A2F2A2 | (GABG) gd | {c2}TB4e2 |\
+(dedcB)g | A2F2A2 | (GABG)B2 | ABcAc2 |\
+GABGB2 | ABcAc2 |
+g2b2d'2 | d'4 {c'}ba |\
+(gabc')d'2 | fgabc'2 | efgabc' | b4a2 |\
+(bagabg) | agfgaf | d'c'd'c'd'e' | d'c'bc'd'2 |\
+c'd'e'd'c'b | c'bagf2 |
+Tg3fe2 | d3cB2 |\
+c3dc2 | A2F2A2 | G2d2B2 | G2g2e2 |\
+G2d2B2 | A2F2A2 | G2d2B2 | g2d2e2 |\
+d2c2B2 | A2F2A2 | g2d2G2 | g2d2B2 |\
+g2d2A2 |
+gfTedB2 | gfTedA2 | gfTedG2 |\
+(gf)(gf)(ga) | (gf)(ed)(cB) | A2d2d2 | Td4c2 |\
+d2(cB)(AG) | F2A2A2 | B2d2d2 | {e2}d4c2 |\
+B3Bcd | A2F2A2 | G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+g6 | g6 | g6 | g6 | g6 | g6 | g6 | g6 | g6 | f2d2f2 | g2G2g2 |
+f2F2f2 | g2G2g2 | f2F2f2 | g6 | g2b2d'2 | g6 | g6 | g6 | g6 | g6 |
+g6 | g6 | g6 | abc'bag | agfed2 | g6 | b3ag2 | a6 | d6 | g6 | g6 |
+g6 | g6 | g6 | g6 | g6 | g6 | g6 | g6 | g6 | g6 | g6 | g6 |
+g6 | g6 | d6 | d2f2a2 | g6 | d6 | g2b2b2 | {c'2}b4a2 | g2f2e2 | d6 | G4 |]

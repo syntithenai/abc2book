@@ -1,0 +1,50 @@
+%%text RJ Set 001
+
+
+X: 1
+T: Westfork Girls
+I: Westfork Girls	R-31	D	reel
+M: C|
+R: reel
+K: D
+|:\
+"D"fgfe d2ef | "G"g2g2 B4 | "A"efed c2A2 | ABAG "D"F2D2 |\
+"D"fgfe d2ef | "G"g2g2 B4 | "A"efed c2A2 | ABc2 "D"d4 :|
+|:\
+"D"ABAG F2A2 | d2d2 F3A | "A"G2F2 E3F | G2F2 E4 |\
+"A"efed cABc | "D"d2A2 F2A2 | d2d2 "A"efg2 | "D"f2d2 d4 :|
+
+
+X: 2
+T: Planxty George Brabazon
+C: Turlough O'Carolan
+K: G
+ge |\
+"G"d2G2 cBAG | d2G2 cBAG |\
+"Am"e2A2 ABcd | e2A2 "D7"ABcd |\
+"G"edcB "C"g2fe |
+"G"edcB cBAG |\
+BAGE "D"DEGA | "G"B2G2 G2 :: ga |\
+"G"b2gb "B"a2fa | "Em"g2eg edcB |
+"Am"e2A2 ABcd | "D7"e2A2 A2ga |\
+"G"b2gb "B"a2fa | "Em"g2eg edcB |\
+"Am"cBAG "D7"DEGA | "G"B2G2 G2 :|
+
+
+X: 3
+T: Swinging on a Gate
+I: Swinging on a Gate	R-35	G	reel
+M: C|
+R: reel
+K: G
+|:\
+"G"gedB G2AB | "Am"cABG AGEG |\
+"G"DGBd g2g2 | "D"fgag fdef |\
+"G"gedB G2AB |
+"Am"cABG AGEG |\
+"C"cABG "Am"AGEG | "D"DGGF "G"G2d2 ::\
+"G"gfga bagf | "Em"gfed B2AG |
+"Am"EAAB cBAG | EAAB "D"cdef |\
+"G"gfga bagf | "Em"gfed edBd |\
+"Am"cABG "C"AGEG | "D"DGGA "G"G4 :|
+

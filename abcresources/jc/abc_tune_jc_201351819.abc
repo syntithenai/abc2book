@@ -1,0 +1,26 @@
+X:1
+T: When Laura Smiles
+N:
+C:Tune is: by Philip Rosseter, 1601
+S:
+A:
+O:
+R:
+M:3/4
+K:G
+I:speed 112
+%W: A1
+% voice 1 (1 lines, 21 notes)
+K:G
+M:3/4
+L:1/16
+d4 B4 e4 |d2 c2 B2 A2 G4 |A2 B2 c4 B4 |A2 G2 F2 E2 D4 |G4 A4 A4 |G12 |
+%W: A2
+% voice 1 (1 lines, 21 notes)
+d4 B4 e4 |d2 c2 B2 A2 G4 |A2 B2 c4 B4 |A2 G2 F2 E2 D4 |G4 A4 A4 |G12 |
+%W: B
+% voice 1 (1 lines, 13 notes)
+A8 c4 |B8 A4 |^G8 A4|A4 B4 B4 |c8 A4 |B8 ^c4 |
+%W:
+% voice 1 (1 lines, 14 notes)
+d8 d4 |A8 B4 |c8 c4 |G8 A4 |B12 |A2 G2 A4 A4 |G12 ||

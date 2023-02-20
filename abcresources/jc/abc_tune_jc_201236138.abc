@@ -1,0 +1,21 @@
+X: 21694
+T: the BELLEISLE MARCH
+N: AKA "the Monk's March"
+%R: march, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.169 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Bar 8 is missing a beat; fixed by doubling the length of the 3rd beat, as in many other version.
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+G2 G>B A2 A>c | B2 g>e {e}d3 c |\
+B2 (3(dBG) A2 (3(cAF) | G2 G>G G2 ::\
+c2 |\
+d>edc B2B2 | c>dcB A2A2 |
+d>edc B>GB>d | ce (3(dcB) A3D |\
+G2 G>B A2 A>c | B2 g>e {e}d3 c |\
+B2 (3(dBG) A2 (3(cAF) | G2 G>G G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,17 @@
+X: 315
+T: John White   #2
+T: Sean Ban
+R: air, waltz
+%S: s:2 b:16(5+4)
+B: O'Neill's 1850 #315
+O: Mrs.Cantwell
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+Q: "With expression"
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+M: 3/4
+L: 1/8
+K: A
+"^A"[|] (EG) | A2c2A2 | (GAcded) | dcA2 [1 (EG) | G4 :|[2 A2 | "^fine"A4 |]
+"^B"[|  (cd) | efg2f2 |  e2c2d2  | e2A2(EG) | "^->A2"G4 |]

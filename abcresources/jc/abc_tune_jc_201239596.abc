@@ -1,0 +1,27 @@
+X: 332
+T: Balendaloch's Dream
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.33 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Removed dot from last e in last bar; might be a random speck.
+M: C
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+e |\
+Tc2(.A.c) (ef/g/ a)f | g2(.g.B) GBde |\
+Tc2(.A.c) (ef/g/ a)f | gefd e2A :|
+|: e |\
+a2(.e.a) cA af | g2(.d.g) BG dB |\
+cedf egfa | (a/g/f/e/) (.f.d) e2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | a2a2 a2a :|
+|: z |\
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | a2a2 a2a :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,28 @@
+X: 31303
+T: COTILLION No. 24. EXTRAVAGANT SETT tune 3
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.130 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+aa |\
+(ab).g.g | (ga).f.f | efga | g2aa |\
+(ab) .g.g | (ga) .f.f | efga | f2 H|]
+dc |\
+c2 de | f2 ga | babg | a2 cc | c2 de | f2 ga | c'bge | f2 "^D.C."y |]
+cc |\
+c2 AA | A2 FF | E4 | F2 cc |\
+c2 de | f2 ga | c'bge | f2 "^D.C."y |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 right and left,
+%% balance,
+%% swing round.
+%% Sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

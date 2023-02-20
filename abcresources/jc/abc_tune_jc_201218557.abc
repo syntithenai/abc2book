@@ -1,0 +1,23 @@
+X: 011
+T: Honble Miss Elliot's Strathspey
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.1#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/16
+K: F
+V: 1
+C2 |\
+F3GA2B2 c2A2 {A2}~F4 | ~G3A (BA).G.F E2C2C2E2 |\
+~F3G A2Bc D3E (Fd).c.B | (AcdB) GdcB A2F2F2 :|
+c2 |\
+~fefg a2c2 ~B2d2 g3f | efgc BAGF E2C2 C2c2 |\
+~fefa c2A2 ~d3(e/f/) {e}c2A2 | ~B2cd ~G2cB A2F2 F2c2 |
+~fefg a2c2 ~B2d2 g3f | efcA {^c}dBGF E2C2 C2=cB |\
+A3c f2B2 ~G2AB Hc2B2 | AfcB GdcB | A2F2 F2 |]
+%
+V: 2 clef=bass middle=d
+z2 | f4F4 A4F4 | G6=B2 c2G2C2z2 | f4F4 B4b4 | f2b2c'2c2 f2c2F2 :|
+z2 | f4 [a4f4] [b4f4] =b4 | c'4 b2=b2 c'2g2 c2z2 | f4F4 B4A4 | B4c4 f2c2 F2z2 |
+f2F2 f2_e2 [d4B4] B4 | F2A2 B2=B2 c2C2 c_BAG | F4B4 c4H[a2f2]z2 | f2b2 c'2c2 f2c2 F2 |]

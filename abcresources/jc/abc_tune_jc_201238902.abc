@@ -1,0 +1,28 @@
+X: 3153
+T: Lady Shaftsbury's    Strathspey
+C: by Nath:Gow
+%R: strathspey
+N: This is version 2, for ABC software that understands voice overlays.
+N: Actually, writing the harmonies with 2-note chords works about as well.
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.15 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+Q: "Slow"
+K: Eb
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 12-bar lines.
+V: 1 staves=2
+G/F/ |\
+EB,G,B, | TE>FGc | BGTF>E | DFFG/F/ ||\
+.E.B,.G,.B, | TE>FGc | BGTF>G | [E3G,3] :|\
+!p!B |\
+(ed).c.B | {d}e2E>c | BGTF>E | DFFB ||
+(ed).c.B | {d}e2E>c | BGTF>G | [E3G,3] B ||\
+(ed)cB | (TB/=A/B/).c/ (Td/c/d/).e/ | !f!fFFF & zDDD | TF>GAc & DEFx |\
+!p!TB>cBG | {G}TFEFG | (E/F/G/F/) EB, | [E3G,3] |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | E2 e2 | g2 ea | g2 x2 & e2 a=a | b2 B2 || e2 Ee | g2 ea | ge bB | eB E :| !p!z | c'bag | e2 ga | gea=a |
+bf B2 || c'bag | g2 ea | b2B2 | eB E2 || cBAG | E2 z2 | !f!zbbb | agfd | !p!e2 ge | b2 B2 | e2 B2 | EeE |]

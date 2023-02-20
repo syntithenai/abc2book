@@ -1,0 +1,20 @@
+X: 1
+T: Black Ice
+C: David A Kaynor 2015
+%D:2015
+B: David A. Kaynor "Living Music and Dance" 2021
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+Q: "Air"
+K: Gm
+% = = = = = = = = = =
+|:\
+"Gm"d8 | d4 d4 | "Cm"A2c2 B2A2 | "Gm"d4 d4 |
+"Cm"c4 c4 | "Dm"D4 A4 | "Eb"E4 E2C2 | "Dm"A8 ||
+"Gm"d8 | d4 B2D2 | "F"C4 C4 | "Eb"E6 C2 |
+"Dm"A4 A2d2 | "Gm"d2B2 D4 | "Cm"C4 E4 |[1 "Dm"A8 :|[2 "Dm"A4- "D"A2d2 ||[K:G]
+"D"f4 "G"g4 | "D"f4 | "G"g4 | "C"gag2 g2e2 | "D"d2c2 "G"B4 |
+"Am"AEE2 E2A,C | "Bm"B,2D2 D4 | "C"C4 G,CD2 | "D"F2A2 A4 ||
+"D"f4 "G"g4 | "D"f4 "G"g4 | abg2 "C"g2e2 | "D"d2c2 "G"B4 |
+"D"ADFA dfAd | "D"FADA, "Eb"_B,4 | "Cm"_E2c2 "Dm"A3D | "Gm"G8  |][K:Gm]

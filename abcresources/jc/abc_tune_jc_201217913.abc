@@ -1,0 +1,83 @@
+%%text RJ Set 000 Waltzes (Sept 2020)
+
+
+X: 1
+T: JOYCE R'S WALTZ
+T: Joyce Rossbach's Waltz
+C: Bob McQuillen 23 June 05
+%:2005
+R: waltz
+S: handwritten page from Jan Jones 2020-8-14 for RJ session
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+GA \
+| "G"B2 BA Bc | "G"BA G2 BA | "C"G3  F E2 | "G"D6    | "G"d2 dB de |"Em"d2 B2 cd | "Am"e2 ed ce | "D7"d4 dc |
+| "G"B2 BA Bc | "G"dB G2 GF | "C"E2 EF GA | "G"G2 D4 | "C"E2 EG ce | "G"dB G2 DD | "D7"E2 G2 F2 | "G"G4 :|
+|: Bd \
+| "C"e3 ef g2 | "G"d2 B2 d2 |"D7"c3 d c2 | "G"B4    cd | "C"e3 f g2 |"Em"d2 B2 d2 | "Am"e3       f g2 |"D7"a4 gf |
+| "C"e3  f g2 |"Bm"f2 d2 B2 | "C"c3 d e2 | "G"d2 B2 G2 | "C"E3 F G2 | "G"D2 c2 B2 | "D7"(3(ABA) G2 F2 | "G"G4 :|
+%%begintext align
+%% For Joyce Rossbach - with thanks for so many Kindnesses
+%% over so many happy years -
+%% Love, Bob McQuillen
+%%endtext
+%%begintext align
+%% Originally from South Carolina, Joyce is a Traditional Dance caller, Sword Dancer, and plays Hammered
+%% Dulcimer. She has called for many dances, especially around New York state when she lived there, before
+%% becoming Director of the Augusta Heritage Center at Davis & Elkins College, Elkins WV from 2008-2013.
+%% https://www.johnrossbach.com/JoyceRossbach.html
+%%endtext
+
+
+X: 2
+T: Joyce Rossbach's Waltz
+T: Joyce R'S waltz
+C: Bob McQuillen 23 June 05
+%D:2005
+R: waltz
+S: handwritten page from Jan Jones 2020-8-14 for RJ session
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+GA \
+| "G"B2-BA Bc | BA G2 BA | "C"G3  F E2 | "D7"D6   | "G"d2-dB de | "/B"d2 B2 cd | "Am"e2-ed     ce | "D7"d4 dc |
+| "G"B2-BA Bc | dB G2-GF | "C"E2-EF GA | "G"G2 D4 | "C"E2-EG ce | "G"dB G2 D-D |  "C"E2 G2 "D7"F2 | "G"G4    :|
+|: Bd \
+| "C"e2-ef g2 |"G/B"d2 B2 d2 | "Am"c3 d "D7"c2 | "G"B4    cd | "C"e3 f g2 |"G/B"d2 B2 d2 | "Am"e3      f g2 |"D7"a4 gf |
+| "C"e3  f g2 | "Bm"f2 d2 B2 | "Am"c3 d     e2 | "G"d2 B2 G2 | "C"E3 F G2 |  "G"D2 c2 B2 | "D7"A2{BA} G2 F2 | "G"G4   :|
+%%begintext align
+%% For Joyce Rossbach - with thanks for so many Kindnesses
+%% over so many happy years -
+%% Love, Bob McQuillen
+%%endtext
+
+
+X: 3
+T: Ruth's Waltz   [C]
+C: by Anne Duston
+R: waltz
+S: http://www.theportlandcollection.com/wp-content/uploads/2012/05/Ruths-Waltz.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+G cd |\
+"C"e2 d2 c2 | "F"A2 G2 F2 | "C"E2 G4- | G3 G cd |\
+"C"e2 d2 c2 | "F"F3 z dc | "Dm"d6- | "G7"d3 G cd ||
+"C"e2 d2 c2 | "F"F4 cd | "C"e2 d2 c2 | "Am"E4 cd |\
+"Dm"e2 d2 c2 | "G7"G2 d2 cB | "C"c6- |1 "C"c3 :|2 "C"c4 ||
+|: GF |\
+"C"E2 G2 c2 | "F"A4 GF | "C"E2 G2 c2 | "G"d4 GF |\
+"C"E2 G2 c2 | "F"f4 e2 | "Dm"d6- | "G7"d4 GF ||
+"C"E2 G2 c2 | "F"A4 GF | "C"E2 G2 c2 | "F"gf z2 A2 |\
+"Dm"G2 f2 e2 | "G7"d4 cB | "C"c4- "F"c2- |1 "C"c4 :|2 c3 |]
+%%begintext align
+%% Anne Duston of Portland composed this waltz in memory of her aunt.
+%% She says of it:
+%% I composed Ruth's Waltz the day we learned that my husband's beloved aunt had passed away.
+%% The tune is reminiscent of her cheeriness, and her love of music and dance.
+%%endtext
+

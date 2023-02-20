@@ -1,0 +1,29 @@
+X:1
+T: Abbysses / Abbesses
+N:
+C:
+S:adapted from "Slow French Waltz"
+A:
+O:
+R:
+M:3/4
+K:D
+I:speed 120
+%W:
+% voice 1 (1 lines, 20 notes)
+K:D
+M:3/4
+L:1/16
+a2 g2 |f6 a2 e2 f2 |d4 A4 d2 f2 |e4 A4 e2 g2 |f2 e2 d2 c2 d2 e2 |
+%W:
+% voice 1 (1 lines, 15 notes)
+f6 a2 e2 f2 |d4 A4 d2 f2 |e2 a2 ^g2 a2 =g2 e2 |d8 |
+%W:
+% voice 1 (1 lines, 21 notes)
+f2 e2 |d2 c2 B2 A2 B2 c2 |d4 A4 f2 e2 |d2 c2 B2 A2 B2 c2 |d8 f2 a2 |
+%W:
+% voice 1 (1 lines, 24 notes)
+g2 f2 g2 a2 b2 g2 |f2 e2 f2 g2 a2 f2 |e2 a2 ^g2 a2 =g2 e2 |f2 e2 d2 e2 f2 a2 |
+%W:
+% voice 1 (1 lines, 19 notes)
+g2 f2 g2 a2 b2 g2 |f2 e2 f2 g2 a2 f2 |e2 a2 ^g2 a2 =g2 e2 |d8 ||

@@ -1,0 +1,14 @@
+X:51
+T:Forth Brig Reel, The
+C:W. Blyth
+R:Reel
+M:C
+%%printtempo 0
+Q:180
+K:D
+uA,|\
+"D"{/C}D2 (FD) ADFD|A,DFA "Bm"Bdcd|"A7"A,/A,/A, (CE) AECE|"E7"EDCB "A7"AGFE|
+"D"D2 (FD) ADFD|A,DFA "Bm"BcdF|"G"GFGA "E7"BcdB|"A7"AGFE "D"D2-D||
+(a|\
+"D"^ga)fd AFD(=g |"D" fa)fd AFD(f|"Em"gf)ge "A7"cAce|"Em" gfed "A7"cde(f|
+"G"ga)fg efde|"A7"cdBc ABGA|"G"GFGA "E7"Bcd(e| "D"fg)"A"ef "D"d2-d|]

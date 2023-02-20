@@ -1,0 +1,27 @@
+X: 1
+T: Johny Too
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (64)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/4
+L: 1/4
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+A>GF (A/B/c)A | (B/c/d)B c2c | f>ed (e/f/g)e | fFF F2 :|\
+|: c |\
+fga gab | a>gf e>fg |
+f>ef dgf | ecc c2c |\
+def c2f | B2f A2f | G>gf e>de | fFF F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The two first Men change Places with the two Women,
+%% the 1st Couple cast off and change Places again, then the
+%% 2d Couple cast off :| Hands half round, then clap Hands
+%% with your Partners and turn all four single, then lead up
+%% abreast and cast off :|
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,74 @@
+
+X: 0
+T: Ma Na'avu
+K:
+
+
+X: 1
+L: 1/8
+P: Ma Na'avu    [Dm]
+O: Israel
+C: J.Spivak
+%level: 1
+B: V. Pasternak: Great Songs of Israel
+Z: John Chambers <jc:trillian.mit.edu>
+S: from transcriptions by Terry Traub and Seymour Shlien
+M: C|
+%Q: 1/2=60
+K: Ddor
+|: "Dm"d2ag a3f | "Gm"g2a2 "Dm"f2ed | "C"(ef)g2 "Bb"f2(ed) |1 "Am"(e2"Dm"f4) "A7"e2 :|2 "Am"(c2"Dm"d4) ||
+w: Ma na-'a-vu al he har-im ra-g'-le* ha-me-va-*ser* | \-ser*
+|: cB | "Am"(c2d2) "G"(B3G) | "Am"(cB)c2 "Dm"d2cB | "Am"(c2d2) "G"B3G | "Am"(cB A4) |]
+w: Ma she-mi-*a* ye-*shu-a ma she-mi-*a sha-lom**
+
+
+X: 2
+L: 1/8
+P: Ma Na'avu    [Am]
+O: Israel
+C: J.Spivak
+%level: 1
+B: V. Pasternak: Great Songs of Israel
+Z: John Chambers <jc:trillian.mit.edu>
+S: from transcriptions by Terry Traub and Seymour Shlien
+M: C|
+%Q: 1/2=60
+K: Ador
+|: "Am"A2ed e3c | "Dm"d2e2 "Am"c2BA | "G"(Bc)d2 "F"c2(BA) |1 "Em"(B2"Am"c4) "E7"B2 :|2 "Em"(G2"Am"A4) ||
+|: GF | "Em"(G2A2) "D"(F3D) | "Em"(GF)G2 "Am"A2GF | "Em"(G2A2) "D"F3D | "Em"(GF E4) |]
+
+
+X: 3
+L: 1/8
+P: Ma Navu    [Em]
+O: Israel
+C: J.Spivak
+%level: 1
+B: V. Pasternak: Great Songs of Israel
+Z: John Chambers <jc@trillian.mit.edu>
+S: from transcriptions by Terry Traub and Seymour Shlien
+M: C|
+%Q: 1/2=60
+K: Edor
+|: "Em"E2BA B3G | "Am"A2B2 "Em"G2FE | "D"(FG)A2 "C"G2(FE) |1 "Bm"(F2"Em"G4) "B7"F2 :|2 "Bm"(D2"Em"E4) ||
+|: DC | "Bm"(D2E2) "A"(C3A,) | "Bm"(DC)D2 "Em"E2DC | "Bm"(D2E2) "A"C3A, | "Bm"(DC B,4) |]
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Le Ma\^itre de la Maison
+Z: John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+%level: 1
+L:1/8
+M:2/4
+K:Dm
+P: in Dm:
+   D || "Dm"AA AG | A2 F2 | A2 GF | "A7"E3 D | "Dm"AA AG | A2 F2 | A2 GF | "A7"E3 ||
+E/E/ || "Dm"DF "A7"EE/E/ | "Dm"DF "A7"EE/E/ | "Dm"DF "A7"EE/E/ | "Dm"DF "A7"EE/E/ | "Dm"D2 F2 | "A7"G2 [A2E] | "Dm"D3 |]
+%%sep 2 2 200
+P: in Am:
+K:Am
+   A || "Am"ee ed | e2 c2 | e2 dc | "E7"B3 A | "Am"ee ed | e2 c2 | e2 dc | "E7"B3 ||
+B/B/ || "Am"Ac "E7"BB/B/ | "Am"Ac "E7"BB/B/ | "Am"Ac "E7"BB/B/ | "Am"Ac "E7"BB/B/ | "Am"A2 c2 | "E7"d2 [e2B] | "Am"A3 |]

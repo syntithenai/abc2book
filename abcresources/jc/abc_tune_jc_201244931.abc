@@ -1,0 +1,46 @@
+X: 1
+T: Acano mlada nevesto  [Ahjz]
+T: Acana young bride
+O: Macedonia
+N: Introduced by Atanas Kolarovski
+S: R.B.Iverson
+M: 11/16
+L: 1/16
+K: ^c_B
+"^vocal:"\
+|: "Dm"A3  a2a2 g2f2 | "A"~e2d "Gm"~d2cd "A"e2-e2 :|
+w: 1.~A-ca-no mla-da ne-*ve-**sto (2)
+w: 2.~Mi po-mi-nu-vat es-*na-**fi (2)
+w: 3.~O-ni te te-be za-*ka-**chat (2)
+w: 4.~De gi-di Sto-jan bu-*da-**lo
+w:    za to-a gaj-le ne* be-**ri
+|: "Dm"d2d gffe eddc | "A"~c2B "Gm"~B2AB "A"~c2BA |
+w: Shto* ves-*den* stoj-*ish* na* por-**ta
+w: Es-*na-*fi,* mla-*di* be-*kja-**ri
+w: So* o-*ko* ti* na-*mag-*nu-**vat
+w: A-*ko* ti* sto-*jam* na* por-**ta
+|  "Dm"d2d gffe eddc | "A"~c2B "Gm"~BcBA "A"A2A2 :|
+w: Ne li te* te-*be* sra-*mo-*****ta
+w: En* ti-*ja* chap-*kan* le-*ba-***ri
+w: So* gla-*va* ti* za-*vr-*tu-***vat
+w: Jas* te-*be* te* pre-*ce-*ku-***vam
+"^instr:"\
+|: "A"ABG ABcd efed | efg "Gm"fefd "A"eAaA \
+|  "A"ABG ABcd efed | cde "Gm"dcBA "A"A2-A2 :|
+
+%%sep 1 1 500
+
+X: 2
+T: Acano mlada nevesto  [Bhjz]
+O: Macedonia
+N: Introduced by Atanas Kolarovski
+S: R.B.Iverson
+M: 11/16
+L: 1/16
+K: =c^f^d
+"^vocal:"\
+|: "Em"B3  b2b2 a2g2 | "B"~f2e "Am"~e2de "B"f2-f2 :: "Em"e2e aggf feed |
+| "B"~d2c "Am"~c2Bc "B"~d2cB | "Em"e2e aggf feed | "B"~d2c "Am"~cdcB "B"B2B2 :|
+"^instr:"\
+|: "B"BcA Bcde fgfe | fga "Am"gfge "B"fBbB \
+|  "B"BcA Bcde fgfe | def "Am"edcB "B"B2-B2 :|

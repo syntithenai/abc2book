@@ -1,0 +1,14 @@
+X:1
+T:Captain Nemo
+C:Contra Dan's version, from Mike Head
+R:jig
+M:6/8
+L:1/8
+K:F
+V:2 clef=alto middle=C
+"Dm" D,2F, A,2A, | "Gm" DCB, "Dm" A,2A, | "Gm" G,A,G, "Dm" F,G,F, | "A7" E,D,E, "Dm" F,2D, |
+"Dm" D,2F, A,2A, | "Gm" DCB, "Dm" A,2A, | "Gm" G,A,G, "Dm" F,G,F, | "A7" E,F,E, "Dm" D,3 :|
+"Dm" A,3 F,3 | "Dm" F,E,F, "Gm" G,3 | "Dm" F,2G, A,G,F, | "A7" G,A,F, E,2D, |
+"Dm" A,3 F,3 | "Dm" F,E,F, "Gm" G,3 | "Dm" F,G,B, A,2F, | "A7" E,F,E, "Dm" D,3 |
+"D" D3 A,3 | "G" G,^F,G, "D" A,3 | A,B,G, A,B,G, | "Eb" A,B,A, "D" ^F,3 |
+"D" D3 A,3 | "G" G,^F,G, "D" A,3 | A,B,G, A,B,G, | "A7" A,B,^C "D" D3 |]

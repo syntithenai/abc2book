@@ -1,0 +1,179 @@
+X:1
+T:IX. What if I never speede,
+C: John Dowland
+S: Laura Conrad <lconrad@laymusic.org> abcusers 2002-1-8
+O: From The Third and Last Booke of Songs or Aires.
+O: Newly composed to sing to the Lute, Orpharion, or viols,
+O: and a dialogue for a base and meane Lute with five voices to sing thereto.
+%%MIDI nobarlines
+M:C
+L:1/4
+Q:1/2=120
+K:A min
+V:1 name="Cantus"
+%%MIDI nobarlines
+L:1/4
+K:A min
+%A section
+|:e e/ e/ c d e3
+w:1.~What if I ne- ver speede,
+w:   or shall I change my love,
+w:2.~Oft have I dreamed of joy,
+w:  Oft have I left my hope,
+d/ c/ | d e > d c B3
+w:Shall I straight yeeld to dis- paire,
+w:for I find power to de- part,
+w:yet I ne- ver felt the sweete,
+w:as a wrethc by fate for- lorne.
+c | d e f d e3
+w:And still on so- row feede
+w:and in my rea- son prove
+w:But tir- ed with an- noy
+w:But Love aimes at one scope,
+d/ c/ B A B B A4 :|
+w:That _ can no losse re- paire.
+w:I _ can com- mand my hart.
+w:my _ griefs each oth- er greete.
+w:And _ loft wil stil re- turne:
+%
+%B section
+|:B ^G A c B/ A/ ^G/ F/ E
+w:1.~But if she will pit- tie my  de- sire,
+w:2.~He that once loves with a true de- sire
+e > d d2 ^c | d2
+w:And my love re- quite,
+w:ne- ver can de- part,
+z d e > d c c | d > c B B c
+w:then e- ver shall shee live my deare de- light.
+w:for Cu- pid is the king of e- very hart.
+%
+%C section
+z A z | B z G z A/ B/ c/ d/ e d/ c/ | B B
+w:Come, come, come, while I have a heart to de- sire thee.
+z c z A z | B z G A/ B/ c/ d/ e d/ c/ B2 A4 :|
+w:Come, come, come, for ei- ther I will love or ad- mire thee.
+V:2 name="Altus"
+%%MIDI nobarlines
+L:1/4
+K:A min
+%A section
+c c/ B/ A B c3 1
+w:1.~What if I ne- ver speede,
+w:   or shall I change my love,
+w:2.~Oft have I dreamed of joy,
+w:  Oft have I left my hope,
+B/ A/  B c > B A ^G3
+w:Shall I straight yeeld to dis- paire,
+w:for I find power to de- part,
+w:yet I ne- ver felt the sweete,
+w:as a wretch by fate for- lorne.
+A A G A G G3
+w:And still on so- row feede
+w:and in my rea- son prove
+w:But tir- ed with an- noy
+w:But Love aimes at one scope,
+G/ E/ E C/ D B,/E ^C4 :|
+w:That _ can no losse _ re- paire.
+w:I _ can com- mand _ my hart.
+w:my _ griefs each oth- * er greete.
+w:And _ loft wil stil _ re- turne:
+%
+%B section
+|:^G/ G/ E/ E/ E A ^G/ c/ B/ A/ ^G/ ^F/ E
+w:1.~But if she will  pit- tie, pit- tie, pit- tie my  de- sire,
+w:2.~He that once loves with a true. a true, a true de- sire
+A A A > G ^F
+w:And my love re- quite,
+w:ne- ver can de- part,
+^F G/ G/ G z E F/ F/ F z ^F ^G2
+w:then e- ver shall shee live my deare de- light.
+w:for Cu- pid is the king of e- very hart.
+%
+%C section
+z A z ^F z G z E/ D/ C/ B,/ A,2A > A ^G A
+w:Come, come, come,  while I have a heart to de- sire thee.
+z ^F z G z E z E/ D/ C/ B,/ A, A > A ^G A4 :|
+w:Come, come, for ei- ther I will love or ad- mire thee.
+V:3 name="Tenor"
+%%MIDI nobarlines
+L:1/4
+K:A min
+%A section
+|:A A/2 G/2 F F G3
+w:1.~What if I ne- ver speede,
+w:or shall I change my love,
+w:2.~Oft have I dreamed of joy,
+w:Oft have I left my hope,
+G/2 E/2 G G E E E3
+w:Shall I straight yeeld to dis- paire,
+w:for I find power to de- part,
+w:yet I ne- ver felt the sweete,
+w:as a wrethe by fate for- lorne.
+E D/2 C/2 C2 B, C3
+w:And still on so- row feede
+w:and in my rea- son prove
+w:But tir- ed with an- noy
+w:But Love aimes at one scope,
+B,/2 A,/2 ^G, A, A, ^G, A,4 :|
+w:That _ can no losse re- paire.
+w:I _ can com- mand my hart.
+w:my _ griefs each oth- er greete.
+w:And _ loft wil stil re- turne:
+%
+%B section
+|:E/2 E/2 B,/2 B,/2 C E E > A, B,
+w:1.~But if she will pit- tie my  de- sire,
+w:2.~He that once loves with a true de- sire
+B/2 B/2 D ^F E > E D
+w:And my love, my love, re- quite,
+w:ne- ver can, ver can, de- part,
+D B,/2 B,/2 B, z G, A,/2 A,/2 A, z A, E2
+w:then e- ver shall shee live my deare de- light.
+w:for Cu- pid is the king of e- very hart.
+z E z D z D z C > D E/2 D/2 C B,/2 A,/2 E > D ^C
+w:Come, come, come, while I have a heart to de- sire _ thee.
+z D "(1)"z D z C z C/2 D/2 E/2 D/2 C B,/2 A,/2 E2 ^C4 :|
+w:Come, come,  for ei- ther I will love or ad- mire thee.
+V:4 name="Bassus"
+%%MIDI nobarlines
+L:1/4
+K:A min bass
+%%MIDI transpose -24
+%A section
+a a/ e/ f d c3
+w:1.~What if I ne- ver speede,
+w:   or shall I change my love,
+w:2.~Oft have I dreamed of joy,
+w:  Oft have I left my hope,
+g/ a/ g e a A e3
+w:Shall I straight yeeld to dis- paire,
+w:for I find power to de- part,
+w:yet I ne- ver felt the sweete,
+w:as a wrethc by fate for- lorne.
+a/ g/ f e d g c3
+w:And _ still on so- row feede
+w:and _ in my rea- son prove
+w:But _ tir- ed with an- noy
+w:But _ Love aimes at one scope,
+G/ A/ e f e e A4 :|
+w:That _ can no losse re- paire.
+w:I _ can com- mand my hart.
+w:my _ griefs each oth- er greete.
+w:And _ loft wil stil re- turne:
+%
+%B section
+|:e/ e/ e/ e/ c/ c/ A/ A/ e3
+w:1.~But if she will pit- tie my  de- sire,
+w:2.~He that once loves with a true de- sire
+e/ e/ ^f > g a A
+w:And my love _ re- quite,
+w:ne- ver can _ de- part,
+z d g/ g/ g z c f/ f/f z d e2
+w:then e- ver shall shee live my deare de- light.
+w:for Cu- pid is the king of e- very hart.
+%
+%C section
+z A z d z G z c/ c/ A > B c d/ d/ e2 A
+w:Come, come, come,  while I have a heart to de- sire thee.
+z d z G z c z A/ A/ A/ B/ c d/ d/ e2 A4 :|
+w:Come,  come, for ei- ther I will love or ad- mire thee.

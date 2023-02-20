@@ -1,0 +1,26 @@
+X: 147
+T:Matzliach Moshiach
+T:Matzlichim
+O:Israel
+C:Shlomo Kalish 2009
+F: http://www.youtube.com/watch?v=j53OLwD3GFY
+F: http://www.youtube.com/watch?v=giEJfI1qkec
+F: http://www.youtube.com/watch?v=HTZZqoBEaZ4
+M:2/4
+L:1/8
+K:Am
+Q:1/4=144
+%%MIDI program 71
+%%MIDI bassprog 45
+%%MIDI chordprog 117
+%%MIDI gchord fgfg
+%%MIDI bassvol 75
+%%MIDI chordvol 90
+  E       |:"Am"A2A2|A3E    |"Dm"F2F2|"Em"E3E|\
+  "Am"A2A2|A3E      |"F"F2F2|"Em"E4  |
+  "Am"A2A2|c3A      |c2e2   |"Dm"d3A |\
+  d2c2    |"Em"B2A2 |B2c2   |"Am"A4::
+  "Am"z2A2|c2Bc     |d2A2   |c4      |\
+  z2A2    |c2Bc     |d2A2   |c4      |
+|:z2c2    |e2e2     |e3c    |e2e2    |\
+  e4      |d2f2     |e2d2   |[1c4    :|[2 A4 |

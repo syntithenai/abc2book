@@ -1,0 +1,33 @@
+X: 1
+T: Jenny come tye my Cravat
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master" printed by John Walsh, London
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.12 #24
+Z: 2012-2013 John Chambers <jc:trillian.mit.edu>
+N: The rhythms at the phrase boundaries are incorrect.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+(FD)A A2A | GEF G2G | (FD)F A2A | (f/g/a)f d3 |]
+e |\
+f/g/af g>fe | (dB)g f2e | f/g/af g>fe | cAc d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man turn the 2d Wo. and the 1st Wo. turn the 2d Man,
+%% then cross over below the 2d Cu. then below the 3d Cu. and
+%% Lead thro' both Cu. and cast off.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then We. fall back, and the Men follow them, and turn S. then
+%% Men fall back, and the We. follow them and turn S.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Clap Hands, side, then all four turn S. then clap Hands with
+%% your own Partner and so cast off.
+%%endtext
+%%sep 1 8 500

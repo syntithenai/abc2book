@@ -1,0 +1,26 @@
+X: 59
+T: Sheen sheesh igus Souse lum
+%R: march, reel
+B: "The Hibernian Muse" p.37 #1
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. LIX.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+d2 |\
+g3a (ga)b2 | g2d2 d2g2 | e3d (efgf) | Te4 d4 |\
+g3a (ga)b2 | d3e d2B2 | (dB)(de) (de)(Bd) | {B2}A4 G2 |]
+c2 |\
+B3A B2c2 | d3e d2g2 | e3d (efgf) | Te4 d3(e/f/) |\
+g2d2 (cBAG) | (edcB) A2Bc | d3e d2{c}B2 | TA4 G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+G2g2 G2g2 | B2b2 B2b2 | c2c'2 c2b2 | c'2c2 f4 |\
+G2g2 G2g2 | G2g2 G2g2 | b3c' b2g2 | d'2d2 g2 |]
+z2 |\
+g2G2 g2a2 | b2g2 b2g2 | c'2c2 c'2b2 | c'2c2 g2z2 |\
+g2f2 g2B2 | c2c2 d2GA | B3c B2G2 | c2d2 G2 |]

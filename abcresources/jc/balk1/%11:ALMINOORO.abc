@@ -1,0 +1,20 @@
+X: 11
+T: Almino Oro
+O: Macedonia
+F: http://www.youtube.com/watch?v=6sg-46CA8FY
+F: http://www.youtube.com/watch?v=K-qnLvnxh_E
+M: 7/8
+L: 1/8
+K: F#phr
+Q: 1/4=132
+%%MIDI program 20 % Reed Organ
+%%MIDI bassprog 117 % Melodic Tom
+%%MIDI chordprog 117 % Melodic Tom
+%%MIDI gchord Hz2fz3
+"F#m"AGF EFGA|GFE FEA2|"Em"ABB BABc|BAG "F#m"A4    |\
+"F#m"AGF EFGA|GFE FEA2|"Em"E2F A4  |GFE "F#m"F4    |:
+F2F F2G2     |A2A B2A2|F2F F2G2    |"Em"BAB "F#m"A4|\
+AGA G2F2     |A2A c2B2|A2A "Em"GAG2|"F#m"F7        :|
+AGA G2F2     |A2A c2B2|A2A "Em"GAG2|"F#m"F7        |\
+A3 GFGA      |F7      |B3 ABc2     |A7             |\
+A3 GFGA      |F7      |A3 "Em"GFGA |F7             |

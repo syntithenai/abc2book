@@ -1,0 +1,26 @@
+X:1
+T: My Lady's Courant
+N:
+C:
+S:Tune is "Waltham Abbey"
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 35 notes)
+K:G
+M:4/4
+L:1/16
+g4 a4 b4 a2 b2 |c'2 b2 a2 g2 f4 d4 |e4 c4 A4 d4 |B4 G4 d8 |g4 a4 b4 a2 b2 |c'2 b2 a2 g2 f4 d4 |e4 c4 A4 d4 |B4 G12 |
+%W: A2
+% voice 1 (1 lines, 35 notes)
+g4 a4 b4 a2 b2 |c'2 b2 a2 g2 f4 d4 |e4 c4 A4 d4 |B4 G4 d8 |g4 a4 b4 a2 b2 |c'2 b2 a2 g2 f4 d4 |e4 c4 A4 d4 |B4 G12 |
+%W: B1
+% voice 1 (1 lines, 40 notes)
+A4 F4 A2 F2 A2 F2 |d4 A4 B4 G4 |e4 c4 e2 c2 e2 c2 |a4 e4 f4 d4 |b4 a2 g2 a4 g2 f2 |e2 f2 g2 a2 f4 d4 |e2 d2 c2 B2 A4 d4 |B4 G12 |
+%W: B2
+% voice 1 (1 lines, 40 notes)
+A4 F4 A2 F2 A2 F2 |d4 A4 B4 G4 |e4 c4 e2 c2 e2 c2 |a4 e4 f4 d4 |b4 a2 g2 a4 g2 f2 |e2 f2 g2 a2 f4 d4 |e2 d2 c2 B2 A4 d4 |B4 G12 ||

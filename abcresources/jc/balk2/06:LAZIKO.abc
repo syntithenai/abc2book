@@ -1,0 +1,31 @@
+X: 306
+T: Laziko
+C: Greece
+F: http://www.youtube.com/watch?v=SSkIl9dszzY
+F: http://www.youtube.com/watch?v=0KH_ZjJ1044
+M: 7/8
+L: 1/8
+Q: 1/4=192
+K: Am clef=treble
+%%MIDI program 24
+|:CG,C DE G,E|E2F E2 DC|\
+DG,D ED CD|D2C B,C B,C|\
+DG,D ED CD|D2C B,C B,C|
+G,A,z A,z A,/D,/A,|G,A,z A,z A,/D,/A,:|\
+K:F
+c2B cB AG|AzA zA2z|\
+c2B cB AG|AzA zA2z|
+c2B cB AG|c2B cB AG|\
+c2B cB AG|AzA zA2z|\
+C2B, CB,3|A,zA, zA,2G,|
+CzC zB,2z|A,zA, zA,2z|\
+c2B cB AG|AzA zA2z|\
+C2D2 E2C|D2CB, A,2G,|
+C2B,C B,3|A,zA,z A,2G,|\
+C2D2 E2C|D2CB, ,A,2G,|\
+C2B,CB,3|A,zA,zA,2G,|
+K:Bm
+ede d2^cA|czez e2z|\
+ede d2^cA|czez e2z|\
+ede d2^cA|ede d2^cA|\
+ede d2^cA|cze ze2z|

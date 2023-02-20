@@ -1,0 +1,20 @@
+X: 20032
+T: BLUE BONNET'S OVER THE BORDER
+Q: "Allegro"
+%R: jig
+B: "Edinburgh Repository of Music" v.2 p.3 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Except for which notes are dotted, the 2nd and 3rd strains are identical.
+M: 6/8
+L: 1/8
+K: D
+%%slurgraces
+%%graceslurs
+|:\
+D2D DFA | dfe dBA | d<BB Bfa | baf {f}e2d |\
+D2D DFA | dfe dBA | B>dB A<FA | G<dF TE2D :|
+d>fa afd | baf {f}e2d | df.a bc'.d' | def e2d |\
+dfa afd | b>af {f}e2d | B>dB A<FA | F<dF TE2D |
+d>fa afd | b>af {f}e2d | df.a bc'.d' | def e2d |\
+dfa afd | baf {f}e2d | B>dB A<FA | F<dF TE2D |]

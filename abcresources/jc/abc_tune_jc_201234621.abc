@@ -1,0 +1,22 @@
+X: 20631
+T: YE SONS OF FREEDOM
+T: (la Marseillaise)
+Q: "Pomposo"
+%R: march
+B: "Edinburgh Repository of Music" v.2 p.63
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Changed 1/2-note G to 1/4 note in bar __ to fix the rhythm.
+M: C
+L: 1/8
+K: A
+"_F."z/E/E>E |\
+A2A2 B2B2 | e3c A2A>G | F2d2 d2B>G | A2z2 zz/A/A>B |\
+c2c2 c2(d>c) | c>BB2 zBBc | d2d2 d2(e>d) | c2c2 zeee |
+e2(cA) e2(cA) | E4 z>EE>E | B2B2 d2B>G | (A>G)A2 z>A=G>G |\
+F2A2 A2G>A | {c2}B4 z2B2 | =c2c2 Bcdc | {c2}B2z2 z3B |
+=c3B AcBA | (AG)G2 z2e2 | e4- eB=cA | B4 z2ze2 |\
+e4- eBcA | B2(3EEE E2E2 | A6 A2 | c8 |
+d4 e2f2 | B4 z2f2 | e4- e>cd>B | A2A>A A2E2 |\
+A6 A2 | c8 | d4 e2f2 | B4 z2f2 |\
+e4- e>cd>B | A4 z |]

@@ -1,0 +1,32 @@
+X: 74
+T:Zwiefacher Schubkarrn
+O:Germany
+M:3/4
+L:1/8
+Q:1/4=180
+K:G
+%%MIDI program 71
+%%MIDI chordprog 74
+%%MIDI bassprog 57
+%%MIDI bassvol 110
+%%MIDI chordvol 90
+|: "D"fgab a2       | fgab a2         |\
+   [M:2/4]"G"g2 e2  |"D"f2 d2         |
+   [M:3/4]"D"fgab a2| fgab a2         |\
+   [M:2/4]"G"g2 e2  |"D"d2z2          :|
+|: [M:2/4] "G"b2 b2 |"D"a2 a2         |\
+   "G"g2 g2         |[1"D"f2 f2       :|\
+   [2"D" f2 z2      |:"G" b2 b2       |\
+   "D"a2 a2         |[1"G" g2 g2      |
+   "D"f2 f2         :|[2 "D"^c'2 bc'  |\
+   "D"d'2 z2        |:"D"FGAB A2      |\
+   FGAB A2          |[M:2/4]"G"G2 E2  |\
+   "D"F2 D2         |[M:3/4]"D"FGAB A2|
+   FGAB A2          |[M:2/4]"G"G2 E2  |\
+   "D"D2z2          :|\
+ |:[M:2/4] "G"B2 B2 |"D"A2 A2         |\
+   "G"G2 G2         |[1"D"F2 F2       :|
+   [2"D" F2 z2      |:"G" B2 B2       |\
+   "D"A2 A2         |[1"G" G2 G2      |\
+   "D"F2 F2         :|[2 "D"^c2 Bc    |\
+   "D"d2 z2         |

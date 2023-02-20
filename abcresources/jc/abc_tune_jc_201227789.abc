@@ -1,0 +1,40 @@
+X: 10991
+T: the HUNTER'S CHORUS
+T: From the Opera of "Der Freyschutz."
+C: Weber
+%R: march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.99 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+c4 cdef | g4 e2e2 | d2g2d2g2 | efed c2G2 |\
+c4 cdef | g4 e2e2 | d2cd e2d2 | c6 |]\
+G2 |\
+c4 cdef | g4 e2e2 | d2g2d2g2 | efed c2G2 |\
+c4 cdef | g4 e2e2 |
+d2g2b2a2 | g4 z2G2 |\
+c4 cdef | g4 e2e2 | d2g2d2g2 | efed c2G2 |\
+c4 cdef | g4 e2e2 | d2g2b2a2 | g4 z2d2 |\
+e4 e2e2 | c4 c2c2 | f4 f2f2 | d4 d2d2 |\
+e4 e2e2 | c4 c2c2 |
+f4 f2f2 | d4 z2G2 |\
+e4 e2e2 | f4 e2e2 | d4 edcd | e4 c2c2 |\
+e4 e2e2 | f4 e2e2 | d2cd e2d2 | c4 z2GG |\
+G2GG G2GG | G2GG G2GG | c4 G2e2 | c4 G2e2 |
+{g}f2d2 {g}f2d2 | {g}f2d2 {g}f2d2 | c4 G2e2 | c4 G2e2 |\
+{g}f2d2 {g}f2d2 | {g}f2d2 {g}f2d2 | e2ce "_>"g4 | e2ce "_>"g4 |\
+e2cc c2e2 | Hd8 | c4 G2e2 | c4 G2e2 |\
+{g}f2d2 {g}f2d2 | {g}f2d2 {g}f2d2 |
+c4 G2e2 | c4 G2e2 |\
+{g}f2d2 {g}f2d2 | {g}f2d2 {g}f2d2 | e2ce "_>"g4 | e2ce "_>"g4 |\
+e2cc c2cc | c6 gg | g2ee e2c'c' | c'2gg g2e'e' |
+e'4 d'c'ba | g4 e2gg | g2ee e2c'c' | c'2gg g2e'e' |\
+e'4 d'>c'b>d' | c'>bc'>^c' d'>bg>b | c'>bc'>^c' d'>bg>b | c'2c'c' c'2e'2 |\
+c'6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

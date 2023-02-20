@@ -1,0 +1,52 @@
+X: 1
+T: Johnny Cock thy Beaver
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.146 #197 (291)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.126
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Handwritten in DMDfD after title: "a Scots air".
+N: Repeats added to match the DMDfD instructions.
+M: 6/4
+L: 1/4
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+c2F A>GF | GAG B2D | c2F A>GA | Ffc ABc |\
+dcd fcA | GAG B2d | c2F A2G | (Ff)c A2F :|
+|:\
+(Ff)c A/B/cA | (Gg)d B2G | (Ff)c A/B/cA | (Ff)c A>Bc |\
+B/A/ B/c/d/e/ f>FA | GAG B2f | c2B A2G | (Ff)c A2F :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Man and 2d Wo. take left Hands and turn quite round into their Places again,
+%% the 2d Wo. cast up above the 1st Wo. and go round below the 2d Man, while the 2d Man
+%% slips up into the 1st Man's Place, and the 1st Man at the same Time casts off into the
+%% 2d Man's Place, and 2d Wo. cast up into the 1st Wo. Pace, while the 1st Wo. slips
+%% into the 2d Wo. Place, the other Cu. do the same Figure over :| First and 2d Men
+%% lead between the 1st and 2d We and go the Figure, which brings the 1st Man into
+%% the 2d Man's Place, and the 2d Man into the 1st Man's Place; then each Cu. as they
+%% now stand change Places with their own, and the two We. being now on the
+%% Men's Side, lead thro' the two Men and go the Figure, and each Cu. take Hands
+%% and turn their own 'till they come into their Places again, the other Cu.
+%% do the same Figure over :|
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% First man and 2. wo. take left-hands and turn quite round into their places again, and the 2. wo. cast up above the 1. wo.
+%% and go round below the 2. man while the 2. man slips up into the 1. man's place, and the 1. man at the same time casts
+%% off into the 2. man's place, and 2. wo. cast up into the 1. wo. place, while the 1. wo. slips into the 2. wo. place; The other
+%% cu. do the same Figure over. This to the first Strain twice.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First and 2. men lead between the 1. and 2. we. and go the Figure, which brings the 1. man into the 2. man's place, and
+%% the 2. man into the 1. man's place; then each cu. as they now stand change places with their own, and the two we. being
+%% now on the men's side,lead through the two men and go the figure, and each cu. take hands and turn their own till they
+%% come into their places again; the other cu. do the same Figure over. This to the second Strain twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

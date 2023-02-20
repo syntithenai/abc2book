@@ -1,0 +1,30 @@
+X: 3093
+T: Put the Gown upon the Bishop
+O: Very Old.
+%R: strathspey
+B: Niel Gow & Sons "Complete Repository" v.3 p.9 #3
+N: This is version 2, for ABC software that understands voice overlays and diminuendo symbols.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slowish"
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+(DE)(GA) ~G3B | A3B (BA)(GE) | (DE)(GA) ~G3A | (GAB).A (G2D2) |\
+c3d (TB>AB)d | (efg)B [A2F2] !p!ef | Q({a}g2fe dcBA) | ~G3A B2.D2q :|
+|:\
+(de)(ga) g3b | a3b {b}a2ge | (de)(ga) Tg3a | (gab).a g2d2 |\
+.e(gfg) .d(gfg) | (Bd)(gB) H[A2F2] !p!ef | Q({a}g2fe dcBA) | ~G3A ({A}B2D2)q :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+N: The book switches to treble clef for the high bass notes (g'-c') in the last 2 bars of each part.
+|:\
+G2Bc B2G2 | d2D2 d2ec | B3A G2d2 | g2d2 G4 |\
+e2f2 g2b2 | c'2e'2 d'2!p!g'f' | Q(e'2d'c' bagf) | g2d2 G4q :|
+|:
+d'4 x4 & b3c' b2g2 | d'2d2 d'2e'd' | bc' ba g2d'2 | g2g'2 b4 |\
+[g4c'4] [g4b4] | g2bg {d}Hd'2 !p!g'f' | Q(e'2d'c' bagf) | g2d2 G4q :|

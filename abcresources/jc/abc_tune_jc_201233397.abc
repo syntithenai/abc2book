@@ -1,0 +1,30 @@
+X: 196
+T: the Jovial Clowns
+T: Longways &c.
+%R: reel
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.98
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A2d2 c2d2 | edcB A4 | d3A B2GF | E2A2 F4 |\
+e2ed c2B2 | ABcd e4 | fedc dcBA | E2^G2 A4 :|
+|:\
+e2ed c4 | E2A>G F4 | B3c dcBc | F2B^A B4 |\
+A2AG F4 | d2dA B4 | def2 B2e2 | A2c2 d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st Cu. go the whole Figure thro the 3d Cu .|
+%% the 2d Cu. do the same :| The 1st Cu. figure 
+%% contrary sides, meet in the middle, and turn
+%% Partners quite round. Then lead to the Wall sides,
+%% the 1st Cu. slip the 2d Cu. below 'em, sett two
+%% steps and cast off :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

@@ -1,0 +1,36 @@
+X: 4348
+T: The Plod
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+%
+V: 1
+|:\
+(defg) ad3 | (ec3) d4 |\
+(AF3) d4 | (AF3) E4 |\
+DEFG A2A2 | (dA3) f4 |\
+(ec3) dB3 | A6 z2 :|\
+|:\
+(ABcd) (eA3) | (dA3) (fa3) |
+(FA3) D=c3 | BG3 G4 |\
+GABc d2ef | g2fe f2ed |\
+(ec3) (Ac3) | dD3 D4 |\
+(BG3) (Fd3) | (BG3) A4 |\
+df3 AF3 | d2D2 D4 :|
+%
+V: 2 clef=bass middle=d
+|:\
+d4d4 | d4d4 | d4d4 | a4A4 |\
+d4d4 | d4d4 | e4E4 | A6 z2 :|
+|:\
+a4a4 | f4d4 | d4f4 | g4G4 |\
+g4g4 | g4g4 | a4A4 | d4d4 |\
+d4d4 | d4d4 | a4A4 | d4d4 :|
+%%begintext align
+The 1st Man foot it to the 2d Wo. and cast off .|.
+the 1st Wo. foot it to the 2d Man and cast off .||.
+Hands Six round, then lead thro' the 2d Cu. .|.
+Right and Left at top and foot it to your Partner :|:
+%%endtext

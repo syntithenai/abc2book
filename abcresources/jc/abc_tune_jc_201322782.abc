@@ -1,0 +1,18 @@
+X:572
+T:Peace be with you
+T:Rigadoon Royal
+C:1700's
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=100
+M:2/2
+%%MIDI program 68     Oboe
+%%MIDI chordprog 46   Orchestral Harp
+%%MIDI gchord cc
+L:1/4
+K:C
+P:A
+|: e | "Am"AB cd | "Am"e2 "F"a2 | "C"ge "Dm"fe | "G"d2 "Am"ce |
+"Am"AB cd | "Am"ea "C"ge | "Dm"fe d3/c/4d/4 | "E"e3 :|
+P:B
+|: e/f/ | "G"gd de | "F"f2 "C"e2 | "Dm"f/e/d/c/ B/c/A/B/ | "E"^G3A/B/ |
+"Am"cd ef | "Am"eA "Dm"a2 | "Am"ed/c/ "E"d/c/B/c/ | "Am"A3 :|

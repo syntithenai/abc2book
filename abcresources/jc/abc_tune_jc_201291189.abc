@@ -1,0 +1,41 @@
+
+X: 1
+T: I\,tele    (C)
+O: Romania
+Z: 1999 John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/16
+K: C
+G2 \
+|: "C"^fgec ~d2dc | dcec ~d2dc | ^fgec ~d2dc |[1,3 dcec ~dcG2 \
+                                            :|[2,4 "G7"dedB "C"c2z2 :|
+|: "Fm"ef2f f_edc | =ef2f f_edc |[1,3 =ef2f f_edc | "G"^fgag f_edc \
+                               :|[2,4 "G"^fgag f_edB | "C"cG"G7"AB "C"c2z2 :|
+
+
+X: 1
+T: I\,tele    [D]
+O: Romania
+Z: 1999 John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/16
+K: D
+A2 \
+|: "D"^gafd ~e2ed | edfd ~e2ed | ^gafd ~e2ed |[1,3 edfd ~edA2 \
+                                            :|[2,4 "A7"efec "D"d2z2 :|
+|: "Gm"^fg2g g=fed | ^fg2g g=fed |[1,3 ^fg2g g=fed | "A"^gaba g=fed \
+                                :|[2,4 "A"^gaba g=fec | "D"dA"A7"Bc "D"d2z2 :|
+
+
+X: 1
+T: I\,tele    (E)
+O: Romania
+Z: 1999John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/16
+K: E
+B2 \
+|: "E"^abge ~f2fe | fege ~f2fe | ^abge ~f2fe |[1,3 fege ~feB2 \
+                                            :|[2,4 "B7"fgfd "E"e2z2 :|
+|: "Am"^ga2a a=gfe | ^ga2a a=gfe |[1,3 ^ga2a a=gfe | "B"^abc'b a=gfe \
+                                :|[2,4 "B"^abc'b a=gfd | "E"eB"B7"cd "E"e2z2 :|

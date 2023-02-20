@@ -1,0 +1,27 @@
+X: 1
+T: Deep Elem Blues
+C:
+R: song, march
+S: Fiddle Hell Online 2022-4-3 handout for Ellen Carlson's chord analysis workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+z2 d2e2 |\
+"G"g2g2 =f2e2 | de3 d2e2 | g2g2 =f2e2 | d4 d2e2 | "G"g2g2 =f2e2 | de3- e2d2 | d2d2 c2_B2 | G8 |
+"C"c6 e2 | e2 g6 | gg3 g2g2 | =f4 AB3 | "G"G8 | z8 | z8 | z8 |
+"D7"f6 a2 | f2=f2 d4 | dd3 d2d2 | d4 AB3 | "G"G8 | z8 | z8 | z8 |]
+
+X: 2
+T: Deep Elem Blues - Basic chord tones only
+C:
+R: song, march
+S: Fiddle Hell Online 2022-4-3 handout for Ellen Carlson's chord analysis workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+z2 d2e2 |\
+"G"g2g2 g2g2 | dd3 d2d2 | g2g2 g2g2 | d4 d2d2 | "G"g2g2 g2g2 | dd3- d2d2 | d2d2 d2B2 | G8 |
+"C"c6 c2 | e2 g6 | gg3 g2g2 | e4 GA3 | "G"G8 | z8 | z8 | z8 |
+"D7"f6 a2 | f2=f2 d4 | dd3 d2d2 | d4 AA3 | "G"G8 | z8 | z8 | z8 |]

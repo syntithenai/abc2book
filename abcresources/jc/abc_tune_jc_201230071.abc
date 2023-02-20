@@ -1,0 +1,17 @@
+X: 132024
+T: LADY OF THE LAKE
+Q: "Scotch Jig."
+R: Jig.
+%R: jig
+B: James Kerr "Merry Melodies" v.1 p.32 s.0 #24
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat and final "D.C.", but no final repeat. Final repeat added.
+M: 6/8
+L: 1/8
+K: G
+|: uc !segno!|\
+BcA uG2uD | TvE2vD uG2uc | BcA G2B | Add d2c |\
+BcA G2D | TE2D G2c | BcA Bce | d2F G2 H:|
+|: uA |\
+B>cB TB2uA | vB2vc def | g2f e2d | dcB A2G |\
+B>cB TB2A | B2c def | g2e a2g | fge de"_D.C."c :|

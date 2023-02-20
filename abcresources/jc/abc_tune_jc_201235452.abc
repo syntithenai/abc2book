@@ -1,0 +1,25 @@
+X: 21153
+T: GAMBLER'S SETT (tune 6)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.115 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="6"
+Bc |\
+d2g2e2g2 | dedc B2d2 | c2c2 B2B2 | A6 Bc |\
+d2g2e2g2 | dedc B2d2 | e2a2 gfef | g4 z2 H|]
+|: d2 |\
+g2z2 f2z2 | g2z2 e2z2 | d2d2 c2B2 | B2G2 z2d2 |\
+gabg fgaf | gdba gfed | cBAG F2d2 | G4 z2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All balance to the right,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

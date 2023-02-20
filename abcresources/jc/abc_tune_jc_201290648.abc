@@ -1,0 +1,35 @@
+X: 1
+T: Ioy after Sorrow
+T: Joy after Sorrow
+%R: minuet, waltz
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (161)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.  The time signature is just "3".
+M: 3/4
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c2 |\
+B2A2^G2 | A2ABcd | e2ABcd | e2A2c2 |\
+B2A2^G2 | A2ABcd | e2fedc | B4 :|\
+|: gg |\
+g2f2e2 | f4ff | f2e2d2 | e4ee |
+e2d2^c2 | (de)(fe)(dc) | (Bc)(dc)(BA) | ^G2E2dd |\
+d2c2B2 | c4ee | e2d2^c2 | d4ee |\
+f2e2d2 | e2(AB)(cd) | e2E2^G2 | A4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% First Man go down the Middle below the 3d Wo. the 1st Wo.
+%% slip outside to meet her Partner and turn single .| the
+%% 1st Wo. slip up the Middle to the Top, her Partner slip
+%% outside the Men, both turn single .| First Cu. set go the Hey
+%% sides with the 2d and 3d Cu .| The 1st Man take the 2d Wo.
+%% by her left Hand lead her to the 3d Cu. and turn single
+%% figure between the 1st Wo. and 2d Man and turn .| Then
+%% 1st Cu. take Hands with the 2d Wo. and go round till you
+%% are improper in the 2d Cu. Place, cross up the Middle
+%% to your Place, fall back one Step and cast off :|
+%%endtext
+%%sep 1 8 500

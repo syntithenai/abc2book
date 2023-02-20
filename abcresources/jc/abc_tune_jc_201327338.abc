@@ -1,0 +1,11 @@
+X:601
+T:Quem Pastores
+N:For the dance "Shepherd's Delight" by Hilary Herbert.
+L:1/4
+M:3/4
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=116
+K:G
+[| "G"G2 B | "G"d2 B | "C"cde | "D"d2 A | "G"Bcd | "Am"cBA | "C"G2 E | "D7"F2 D |\
+"G"B2 c | d2 e | "D"d2 "B7/D#"A | "Em"B2 G | "Am"c2 c | "Em"BA G | "C"GE "D7"F | "G"G3 |]

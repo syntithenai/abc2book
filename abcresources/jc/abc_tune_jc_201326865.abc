@@ -1,0 +1,18 @@
+X:602
+T:Put on thy Smock a Monday
+M:6/8
+L:1/8
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=120
+C:A- music: John Playford, 1670
+C:B-music: Colin Hume, 2018
+%%MIDI ratio 3 1
+K:C
+%%textfont Times-Roman-Bold 20
+%%center Play AABBB x 3
+P:A
+|: c | "C"c2G E2G | "G"d3- d2G | "C"c2B "C/B"c2d | "Am"e3- e2e |\
+"Dm"d>ef "C"e>dc | "G"d2B G>AB | "C"c2G E2G | "/"c3- c2 :|
+P:B
+|: d | "G"d2B G2B | "/"d3- d2 c/d/ | "Am"e2c A2c | "/"e3- e2 d/e/ |\
+"Dm"f2e d2c | "G7"B>cd G2G | "F"A>Bc "G7"B>cd | "C"c3- c2 :|

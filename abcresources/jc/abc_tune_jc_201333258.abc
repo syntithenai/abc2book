@@ -1,0 +1,17 @@
+X: 681
+T: the Sailor's Cravat
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #681
+Z: Frank Nordberg - http://www.musicaviva.om
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0681/oneill-1001-0681-1.abc
+%m: Mn = (3n/o/n/
+M: C|
+L: 1/8
+K: D
+"^A"\
+[| d2(fe) dcBd | ABFB ADFA | d2(fe) dcAd | AFDF (~GE)Ez \
+|| d2(fe) dcBd | ABFB ADFA | d2(fe) dcBd | AFEG FDD2 |]
+"^B"\
+[| AddA BAFA | defd (Be)ez | AddA BcdB | AFGE FDD2 \
+|| AddA BAFA | defd (Be)ez | AddA Bgfe | dBAG FDD2 |]

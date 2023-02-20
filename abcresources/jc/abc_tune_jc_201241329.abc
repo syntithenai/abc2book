@@ -1,0 +1,29 @@
+X: 431
+T: MISS ERSKINE OF TORRY
+C: J. WALKER
+R: Strathspey
+B: Glen Collection p.43 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Am
+%
+V: 1
+B |\
+c<A A>B c<A A>c | B<d d>c BG GB | c>A d>B e>c d>B | e/d/c/B/ e>B cAA :|
+^g |\
+a>e e>d c>A A>c | B>g dg BG G^g | a>e e>d c>A a>g | f/e/d/c/ B/c/d/B/ cA A^g |
+a>e e>d c>A A>c | B>g dg BG GB | (3ABc (3Bcd (3cde (3def | e>a ^g>b aAA |]
+%
+V: 2
+z |\
+a2[e'2c'2] e2[e'2c'2] | g2[d'2b2] d2[d'2b2] |\
+a2^g2 a2f2 | e2[^g2e2] [a2A2][aecA] :|
+z |\
+a2[e'2c'2] e2[e'2c'2] | g2[d'2b2] d2[d'2b2] |\
+a2[e'2c'2] e2[e'2c'2] | d2[^g2e2] [a2A2][a2A2] |
+a2[e'2c'2] e2[e'2c'2] | g2[d'2b2] d2[d'2b2] |\
+[e'2c'2][f'2d'2] [e'2c'2][d'2b2] | c'2e2 [a2A2][aecA] |]

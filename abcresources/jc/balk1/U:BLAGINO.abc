@@ -1,0 +1,29 @@
+X: 55
+T: Blagino
+O: Macedonia
+F: http://www.youtube.com/watch?v=ytozxaR1V-U
+M: 8/8
+L: 1/8
+P:AAB
+Q:1/4=160
+K: G
+%%MIDI program 21 Accordian
+P:A
+| Dz TD2C B,A,G, |\
+M:10/8
+A,B,CD B,A,G,B, CD|
+M:8/8
+ Dz TD2C B,A,G, |\
+M:10/8
+A,B,CD B,A,G,G, G,2|
+P:B
+M:8/8
+zd g2f g2a |\
+M:10/8
+g=fed d^ced d2 |
+M:12/8
+Bcd2 e=fed Bcd2|\
+M:10/8
+[1A2B cBA Bcd2:|\
+M:10/8
+[2A2B cBA G2z2|

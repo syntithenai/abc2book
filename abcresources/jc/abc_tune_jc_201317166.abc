@@ -1,0 +1,19 @@
+X:527
+T:The Night Crossing
+%%MIDI gchord czcc
+M:2/2
+L:1/4
+C:John New, 2006
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%MIDI chordprog 46
+Q:1/2=80
+K:Em
+P:A
+|: "Em"e B-B G | "Am"ABc2 | "Em"e B-B e | "D"f/g/a/g/ f2 |\
+"C"e B-B G | "F"ABcz | "Bm"BE-ED | "Em"E4 :|
+P:B
+| "Em"Be-eg | "D"f g/a/ gf | "C"e f/g/ a/g/f/e/ | "G"d "D"c "G"B/z/ c/d/ |\
+"C"e z/c/ "G/B"d z/B/ | "Am"cA "Em"BG | "B"FB "F#"[Bd] [^A^c] | !fermata! "B"B4 |
+P:C
+| "Em"Be-eg | "D"[Af] g/a/ gf | "G"[db]gdg | "D"a/g/f/e/ "B"[^df]2 |\
+"C"[eg][ce]-[ce] d/e/ | "F"[c=f][Ac]-[Ac]A | "Bm"BE-ED | "Em"E4 |]

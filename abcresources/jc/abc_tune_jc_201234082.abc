@@ -1,0 +1,41 @@
+X: 2024
+T: the Original Highland Laddie
+T: the Quick Step of the Galland 42d Regiment
+%R: quick-step, polka
+B: Niel Gow & Sons "Complete Repository" v.2 p.2 #4 (and top of p.3)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: "SLOWISH"
+K: A
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+E2 |\
+A3B(.c2.c2) | d2B2~c4 | c2B2B2 AB | c2B2B2 AF |\
+A3B (.c2.c2) | d2B2 ~c3B | A2F2~F2 EF | A2F2~F2 :|
+|: e2 |\
+(f2.a2) (e2.f2) | (dc).B.A {AB}c4 | c2B2B2 AB | c2B2 B3e |\
+f2a2 e2a2 | (dc)BA c3B | A2F2~F2 EF | A2F2~F2 :|\
+|: e2 |\
+Ta3b (.c'2.c'2) |
+d'2b2 c'4 | c'2b2~b2 ab | c'2b2~b2 af |\
+Ta3b(.c'2.c'2) | d'2b2 c'3b | a2f2~f2 ef | a2f2~f2 :|
+|: ag |\
+.f2.a2 e2a2 | (dc).B.A {AB}c4 | c2B2~B2 AB | c2B2 ~B3e |\
+f2a2 e2f2 | (dc).B.A c3B | A2F2~F2 EF | A2F2~F2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z2 |\
+A2e2 A2e2 | G2e2 A2e2 | E2e2 E2e2 | E2e2 E2d2 |\
+c2e2 A2e2 | G2e2 A2G2 | F2f2 F4 | D2d2D2 :|
+|: c'2 |\
+d'2.a2 c'2.a2 | e'2a2 e'2a2 | e2e'2 e4 | e2e'2 e3c |\
+d2A2c2A2 | a2A2 a3g | f2F2 F4 | D2d2D2 :|
+|: z2 |\
+ae'c'e' ae'c'e' | ge'be' ae'c'e' | ee'be' ee'be' | ee'be' ee'be' |\
+ae'c'e' ae'c'e' | ge'be' ae'ge' | fc'ac' f4 | dafa d2 :|
+|: z2 |\
+d'2b2 c'2a2 | e'2a2 e'2a2 | e2e'2 e4 | e2e'2 e4 |\
+d'2a2 c'2a2 | e'2a2 a3g | f2F2 F4 | D2d2D2 :|

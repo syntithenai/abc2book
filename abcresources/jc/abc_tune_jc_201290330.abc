@@ -1,0 +1,48 @@
+X:1
+T:Ina Morrison  "arr 9/96 G. Bottoni for BMSPB"
+M:C|
+L:1/8
+Q:80
+C:David Ross
+S:March
+K:HP
+a[ | \
+e{A}e3/4f/4{g}e3/4d/4{g}c3/4d/4 | \
+{gef}e3/4c/4a3/4e/4{gcd}ce | \
+{Gdc}d{g}d3/4e/4{g}d3/4c/4{g}B3/4c/4 |
+{Gdc}d3/4f/4{g}e3/4d/4{gcd}c{g}A3/4{d}c/4 | \
+{g}e{A}e3/4f/4{g}e3/4d/4{g}c3/4d/4 | \
+{gef}e3/4c/4a3/4e/4{gcd}ce |
+{Gdc}d{g}B3/4c/4{Gdc}d3/4B/4{g}f3/4e/4 | \
+{gcd}c{e}A{GAG}A :| \
+{g}c3/4d/4[ |
+{g}eA/2{gAGAG}A/2{ag}ac3/4d/4 | \
+{g}eA/2{gAGAG}A/2{gcd}c{g}B3/4c/4 | \
+{Gdc}d3/4G/4{g}G/4{d}G3/4{g}B3/4{d}G/4{e}G3/4B/4 |
+{Gdc}d3/4G/4{g}f3/4e/4{gcd}c{g}c3/4d/4 | \
+{g}eA/2{gAGAG}A/2{ag}ac3/4d/4 | \
+{g}eA/2{gAGAG}A/2{gcd}c{g}B3/4c/4 |
+{Gdc}d3/4G/4{g}G/4{d}G3/4{dc}d3/4B/4{g}f3/4e/4 | \
+{gcd}c{e}A{GAG}A :| \
+a |
+c/4e3/4{A}e3/4f/4{g}e3/4A/4{g}c/4{d}A3/4 | \
+{g}c/4e3/4a3/4e/4{g}f3/4e/4{g}c/4{d}A3/4 | \
+{g}B/4d3/4{c}d3/4g/4{a}B/4d3/4{g}B/4{d}G3/4 |
+{g}B/4d3/4{a}g3/4d/4{gef}((3e3/4d/4B/4c/4d/4) | \
+c/4e3/4{A}e3/4f/4{g}e3/4A/4{g}c/4{d}A3/4 | \
+{g}c/4e3/4a3/4e/4{g}f3/4e/4{g}c/4{d}A3/4 |
+{Gdc}d{g}B3/4c/4{Gdc}d3/4B/4{g}f3/4e/4 | \
+{gcd}c{e}A{GAG}A|]
+{g}f3/4g/4 |
+a3/4g/4a3/4e/4{g}f3/4e/4{g}c/4e3/4 | \
+a3/4g/4a3/4e/4{g}((3f3/4e/4{g}c/2d/2e/2) | \
+{a}g3/4f/4{a}g3/4d/4{g}e3/4d/4{g}B/4d3/4 |
+{a}g3/4f/4{a}g3/4d/4{g}((3e3/4d/4{g}B/2c/2d/2) | \
+a3/4g/4a3/4e/4{g}f3/4e/4{g}c/4e3/4|1
+a3/4g/4a3/4e/4{g}fe/4{gcd}c3/4 |
+{Gdc}d{g}B3/4c/4{Gdc}d3/4B/4{g}f3/4e/4 | \
+{gcd}c{e}A{GAG}A|]
+a3/4g/4a3/4e/4{g}f3/4e/4{g}c/4e3/4:|2
+{g}A3/2{d}c/2a3/2e/2{g}fe/4{gcd}c3/4 | \
+{Gdc}d{g}B3/4c/4{Gdc}d3/4B/4{g}f3/4e/4 | \
+{gcd}c{e}A{GAG}A|]

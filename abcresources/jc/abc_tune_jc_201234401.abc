@@ -1,0 +1,23 @@
+X: 2048
+T: MISS JENNY GUTHRIE
+C:
+Q: "Strathspey."
+R: Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.2 p.8 #48
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+%%slurgraces yes
+%%graceslurs yes
+K: A
+[|\
+{cB}vA4 uA,3uC EEE2 (E3c) | ve3uf (fe)dc (dc)BA F3B |\
+{cB}A4 A,3C EEE2 E3c | ve3va (ufe)dc e6 c2 |\
+{cB}vA4 uA,3C EEE2 (E3c) |
+ve3uf (fe)dc (dc)BA F3B |\
+vAuE3vC3uE vB,3uEvA,uc3 | (dc)BA uB3uc AAA2 A4 |]|\
+{gf}e4 (fedc) ec3ac3 | vB3vc (dcBA) F6 uc2 |
+{gf}e4 (fedc) ec3ac3 | (vdc)BA uB3uc A4 (A3c) |\
+ve3ua fedc vd3uf edcB | vc3ue dcBA BcBA FB3 |\
+AE3 CA,3 ec3ac3 | B3c dcBA {cB}A4 A,4 |]

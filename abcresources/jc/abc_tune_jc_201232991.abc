@@ -1,0 +1,26 @@
+X: 181
+T: A Lament for Lord Ballenden
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.18#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Pathetically Slow"
+R: slow air
+M: 3/4
+L: 1/8
+K: A
+V: 1
+E |\
+(A>B) ~c2 BA | F>A E3 F | A>B ~c2 BA | {d}c>B B2 AF |\
+A>B ~c2 BA | FA E3 C | D>F E3 C | {C}~B,A, A,3 :|
+E |\
+A>B ~c2 BA | (FE) ~f2 e2 | f>e ~e2 cA | c>B B3 E |\
+A>B ~c2 BA | F>A E3 C | D>F E3 C | {C}B,>A, A,3 ||
+E |\
+A>B ~c2 BA | FE {D}f2 e2 | f>e e2 cA | c>B TB2 ce |\
+f>c e2 AB | ~c>A {A}B3 F | ~A>F F2 EC | {C}~B,>A, A,3 |]
+V: 2 clef=bass middle=d
+z | A2 a2 [e2c2] | d2 c2 z2 | A2 a2 [f2^d2] | e2 E2 z2 |\
+    A2 a2 [e2c2] | d2 c2 A2 | d2 e2 E2 | A2 A,3 :|
+z | A2 a2 g2 | z2 d'2 c'2 | a2 c3 ^d | e2 E2 z2 |\
+    A2 a2 [e2c2] | d2 c2 A2 | d2 e2 E2 | A2 A,2 z ||
+z | A2 a2 g2 | z2 d'2 c'2 | a2 c3 ^d | e2 E2 z2 |\
+    d'2 c'2 cB | A2 e2 Ez | A2 d2 A2 | E2 A,3 |]

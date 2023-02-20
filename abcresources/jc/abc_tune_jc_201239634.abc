@@ -1,0 +1,56 @@
+X: 3342
+T: the Celebrated German Minuet
+C: With Variations by the late Mr Nisbet of Dirleton & Jo.Shaw Stewart Esq.r
+%S: s:7 b:56(11+12+8+7+7+7+4)
+%R: minuet
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.34 #2 (and top 4 staffs of p.35)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The tune has "Da Capo al signo" + fermata after the final bar line, which makes
+N: no sense, since there are only the 2 segnos, at the first and last bar lines).
+N: The part labelled "P. Arpeggio" has final repeat but no matching initial repeat symbol;
+N: the missing repeat symbol was added at the "P.Arpeggio" label.
+N: But you can repeat the parts however works for your group.
+M: 3/4
+L: 1/16
+K: D
+%%continueall	% To solve problems with overly-dense notes in the book.
+% - - - - - - - - - -
+V: 1 staves=2
+A,4 !segno!|!p!\
+[F8D8] [E4C4] | [D4B,4] [G4A,4] [F4A,4] | E3FG2E2F2D2 | (F2E2)(D2C2)(B,2A,2) |
+[F8D8] [E4C4] | [D4B,4] [G4A,4] [F4A,4] | (E2G2)(F2B2)A2C2 | "_Fine."{C}D8 :|
+A4 | (d3c)(d2e2)(f2d2) | (f2e2)(d2c2)(B2A2) | (TB2^A2B2)c2d2B2 | (d2c2)(B2A2)(G2F2) |
+TG3FG2A2B2G2 | (B2A2)(G2F2)(E2D2) | TE3FG2E2F2D2 | (F2E2)(D2C2)(B,2A,2) |
+!p![F8D8] [E4C4] | [D4B,4] [G4A,4] [F4A,4] | TE3FG2E2F2D2 | (F2E2)(D2C2)(B,2A,2) |
+[F8D8] [E4C4] | [D4B,4] [G4A,4] [F4A,4] | (E2G2)(F2B2)A2C2 | {C}D8 |: A,4 |
+A,2[F2D2][F2D2][F2D2] [E2C2][E2C2] | [D2B,2][D2B,2][G2A,2][G2A,2][F2A,2][F2A,3] |\
+TE3F {A}G2FE (FD)(A>F) | (F2E2)(D2C2)(B,2A,2) |
+TA,2[FD](.[FD] .[FD].[FD].[FD].[FD] .[EC].[EC].[EC].[EC]) |\
+(.[DB,].[DB,].[DB,].[DB,] .[GA,].[GA,].[GA,].[GA,] .[FA,].[FA,].[FA,].[FA,]) | !p!(E2G2)(F2B2)A2C2 | {C}D8 :| A4 |
+(de)dc (de)fd (gf)ed | (ef)(de) (cd)(Bc) ^A4 | (Bc).B.A (Bc).d.c (ed).c.B | (cd)(Bc) (AB)(GA) F4 |
+(GA)GF (GA)BA (cB)AG | (AB)(GA) (FG)(EF) D4 | (TED)(EF) (GA)(EG) (FA)(DF) | (F2E2)(D2C2)(B,2A,2) |:
+"P. Arpeggio" \
+(DF)(AF) (DF)(AF) (CE)(AE) | (B,D)GD (B,D)GD (A,D)FD | (TEDE).F (GA)(EA) (FA)(DA) | (FA)(EA) (DA)(CA) (B,G)(A,C) |
+.D(FAB) .A(FTED) (CE)(AC) | [D4B,4] [G4A,4] [F4A,4] | (E2G2)(F2B2)(A2C2) | {C2}D8 :| A4 |
+(de).d.c (de).f.e (gf).e.d | (ef)(de) (cd)(Bc) (^AB).c.A | (Bc).B.^A (Bc).d.c (ed).c.B | (cd)(Bc)(AB)(GA) (FG).A.F |
+(GA).G.F (GA).B.A (cB).A.G | (AB).G.e (Fd).E.c (DE).F.D | (TEFE).F (Ge)EG (Fd)DF | (Fd)(Ec) (DB)(CA) (B,G).A,.C !segno!|]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z4!segno!|!p!\
+d3f a4 A4 | B4 c4 d4 | A6 c2 d2f2 | a4 A4 z4 |\
+d3f a4 A4 | B4 c4 d4 | g4 a4 A4 | "_Fine"d4 D4 :|\
+z4 | d6 e2f2^g2 | a4 A4 z4 | B6 c2d2e2 |
+f4 F4 z4 |\
+G6 A2B2c2 | d4 D4 z4 | A4 c4 d4 | a4 A4 z4 |\
+!p!d3f a4 A4 | B4 c4 d4 | e4 c4 d4 | a4 A4 z4 |\
+d3f a4 A4 | B4 c4 d4 | g4 a4 A4 |
+d4 D4 |: z4 |\
+d4 a4 A4 | B4 c4 d4 | e4 c4 d4 | a4 A4 z4 | d4 a4 F4 | B4 c4 d4 | !p!g4 a4 A4 |
+d4 D4 :| z4 |\
+d6 e2f2^g2 | a4 A4 F^AcA | B6 c2d2e2 | f4 F4 DFAF | C6 A2B2c2 | d4 D4 fafd |
+e4 c2A2 d2D2 | A4 a4 A4 |: "_P.Arpeggio"\
+[d8f8] [c4e4] | [B4d4] g4 f4 | e6 c2d2D2 | A4 a4 A4 | [d8f8] [c4e4] |
+B4 c4 d4 | g2e2 a4 A4 | d4 D4 :| z4 | d3c d2e2 f2^g2 | a4 A4 F4 | B3^A B2c2 d2e2 | f4 F4 D4 |
+E6 A2 B2c2 | d4 D4 f4 | e4 c2A2 d2D2 | A6 A2B2c2 !segno!|]
+% - - - - - - - - - -

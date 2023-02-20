@@ -1,0 +1,20 @@
+X: 8
+T: Walcot Place
+%R: reel
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.4 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Rhythic mismatch at strain boundaries fixed by adding an initial rest to the 2nd strain.
+M: C|
+L: 1/16
+K: A
+E2 |\
+ABcd e2e2 fdaf e4 | dfBd ceAc BdGB A2 :: z2 | e3cd3B c3AB2E2 |
+e3cd3B cAec B2E2 | ABcd e2e2 fdaf e2c2 | dfBd ceAc BdEG A2 :|
+%%begintext align
+%%   First and 2d Gent: lead thro'
+%% first & 2d Lady .| 1st & 2d Lady
+%% lead thro' the 1st & 2d Gent: :| Cross
+%% over 1 Cu. figure thro' top :|. 1st & 2d Cu.
+%% Chassee & back Right & left at top :|:
+%%endtext

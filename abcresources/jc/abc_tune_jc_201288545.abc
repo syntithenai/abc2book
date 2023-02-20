@@ -1,0 +1,16 @@
+X: 776
+T: the Humors of Scarriff
+R: reel
+%S: s:2 b:12(6+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #776
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0776/oneill-1001-0776-1.abc
+%m: Tn = (3n/o/n/
+M: C
+L: 1/8
+K: Ddor
+%%slurgraces yes
+%%graceslurs yes
+"^A"\
+|: (Add)(e f2)e(d | cA)Gc AcGc | (Add)(e f2)e(d | cA)GE ({F}ED)D2 "^B":| ecgc acgc | ecgc e(a- (3{b}aga) |
+| ecgc acec | edcd eTd-d2 || ecgc acgc | ecgc e(a (3aga) | ea2a (ge)d(B | cA)GE ({F}ED)D2 |]

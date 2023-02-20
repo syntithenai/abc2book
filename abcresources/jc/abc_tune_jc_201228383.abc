@@ -1,0 +1,25 @@
+X: 1122
+T: the Countess of Eglinton's Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.12 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 6-bar lines.
+V: 1 staves=2
+E |\
+D/E/F (.[FA,].[FA,]) F>ED>F | A>dTA>F E/E/E TE>F |\
+D/E/F (.[FA,].[FA,]) TF>ED>F | A>B{AB}d>B A<FF :: g |\
+f>ae>f d>fBd | A<F{F}d>B A<F E>Tg |
+f>ae>f d>fBd | A<F{F}B>d A<F TF>g ||\
+f>ae>f d>fBd | A<F{F}d>B A<F TE>F |\
+D/E/F (.[FA,].[FA,]) TF>ED<F | A>B{AB}d>B A<FTF |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d2d2 d2d2 | d2d2 A2A2 | d2d2 d2d2 | A2A2 d2d :: z | d'2a2 b2g2 |
+f2d2 A2A2 | d'2a2 b2g2 | a2A2 d2d2 || d2d2 d2g2 | f2d2 A2A2 | d2d2 d2d2 | a2A2 d2d |]

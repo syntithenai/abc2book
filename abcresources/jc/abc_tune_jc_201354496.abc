@@ -1,0 +1,15 @@
+X: 1
+T: the Yellow Jig
+C: Andrew VanNorstrand
+R: jig
+%S: s:2 B:32 b:17(8+9)
+R: jig
+S: Fiddle Hell Online 2021-05-31
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: cde edc | Bcd dcB   | ABA  GFG |  AGF E3 |\
+|  cde edc | Bcd dcB   | ABA  FED |  E3- E3 :|
+|: E3  E2F | E2D B,2A, | D3   DEF |  ABA FED |\
+|  E3  E2F | E2D B,2A, | B,CD EDC |1 D3 DEF :|2 D3- D3 |]

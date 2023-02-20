@@ -1,0 +1,19 @@
+X: 227
+T: Jiana de la Tilisca
+O: Romania
+M: 2/4
+L: 1/8
+K: Am
+Q: 1/4=180
+%%MIDI program 48 % String Ensemble 1
+%%MIDI gchord fzcz
+"D"D2D2   |"C"GFED     |"Em"E3D |"Bm"DCB,A,|\
+"D"D2D2   |"C"GFED     |"Em"E4  |"D"D4     |
+"D"D2D2   |"C"GFED     |"Em"E3D |"Am"DCB,A,|\
+"Am"A,B,C2|"Bm"B,A,B,G,|"Am"A,4 |z4::
+K:Ador
+%%MIDI program 71 % Clarinet
+"Am"EFGz  |A4          |A4      |A4        |\
+"G"BAGF   |GABG        |[1"Am"A4|E2z2      :|[2"Am"A4-|A4|:
+GAA2      |"G"GFED     |"Am"GAA2|"G"GFED   |\
+"C"CDED   |"Am"CB,A,G, |[1"Dm"D4|z4        :|[2"Am"A,4|z4|

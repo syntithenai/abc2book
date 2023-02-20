@@ -1,0 +1,23 @@
+X: 1
+T: Lord Alex.r Gordon's Strathspey
+C: by Mr Marshall
+R: strathspey
+S: Fiddle Hell Online 2020-11-05 Se\'an Heel Slow Airs Workshop
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+c |\
+A,A-Ac/d/ eATc2 | e>e (f/e/).d/c/ dBTB>c |\
+A,A-Ac/d/ eAce | (3fga (3efd cAA :| E |\
+CE-EF/G/ AE{D}A2 | FBB>c dcTB>A |
+(3cde (3fga Tf>eTd>c | (3Bcd (3efd cAA2 |\
+CE-EF/G/ AE{E}A2 | FB-Bc d>cTBA |\
+(3cde (3fga (3efd (3cBA | (3Bcd (3efd cAA |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+A2A2 A2A2 | c2A2 e2E2 | A2a2 A2c2 | d2e2 A2A :| z | A2A2 A2c2 | d3c B2e2 |
+a2d2 d2d2 | e2E2 A2A2 | A2A2 A2c2 | d3c B2e2 | a2d2 c2A2 | e2E2 A2A |]

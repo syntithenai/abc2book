@@ -1,0 +1,44 @@
+X: 10713
+T: COTILLION No. 2. tune 5
+C:
+%R: jig
+%N: This is version 2, for ABC software that understands diminuendo notation.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.71 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!p!A |\
+(A3 F2)A | (A3 F2)F | E2E EFE | DFD A,2A |\
+!f!(A3 F2)A | A2d d2f | f2f {f}ede | dAF D2 H|]
+!pp!d |\
+Q(ce)qA Q(ce)qA | Q(df)qA Q(df)qA |\
+Q(ce)qA Q(ce)qA | dec d2d |\
+Q(ce)qA Q(ce)qA | Q(df)qA Q(df)qA |\
+Q(ce)qA Q(ce)qA | dec d2 |]
+!f!A |\
+ABc def | age c2A !p!| Q(ce)qA Q(ce)qA | dec d2A |\
+!f!ABc def | age c2A | Q(ce)qA Q(ce)qA | dec "^D.C."d2 |]
+|: A |\
+ded AFA | dfd ege | ded AFA | dec d2 :|\
+a | aga afd | cea d2=c | Bbb Aaa | gec "^D.C."d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 lead to the right,
+%% chassa out,
+%% form lines across the hall,
+%% ladies forward and back,
+%% swing to place with partners,
+%% first 2 forward and back,
+%% back to back,
+%% balance 4,
+%% and turn partners,
+%% same 4 repeat,
+%% then side.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

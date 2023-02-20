@@ -1,0 +1,26 @@
+X: 1
+T: You Raise Me Up
+C: music: Rolf L\/ovland
+C: words: Brendan Graham 2001
+N: The tune is a variant of the Londonderry Air, aka Danny Boy.
+D: Secret Garden "Once in a Red Moon" 2001
+R: air
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+%%continueall
+C CF |\
+"F"A2 zF "Bb"GF FD | "F"CF3 zF FA | "F"c2 zF "Bb"dc "F"cA | "Gm"G4 "C7"zc de |
+w: When I am down and oh, my soul so wea-ry; when trou-bles come and my heart bur-den'd be; then I am
+w: There is no life, no life with-out its hun-ger. Each rest-less heart beats so im-per-fect-ly. But when you
+%
+"Dm"f3 e "C7"ed cB | "F"c2 A2 "Dm"zC "C7"cB | "F"A2 zA "C7"AG FE | "F"F4 "C7"zc de |
+w: still and wait here in the si-lence un-til you come and sit a-while with me. You raise me
+w: come and I am filled with won-der, some-times I think I glimpse e-ter-ni-ty.
+%
+"Dm"f3 e "C7"ed cB | "F"cA F2 "C7"zc gf | "Dm"f3 e "Bb"ed cB | "F"c4 "C7"z2 ce |
+w: up so I can stand on moun-*tains. You raise me up to walk on stor-my seas. I am
+%
+"F"f3 e "Bb"ed cB | "F"c2 f2 "C7"zd cB | "F"A2 zc "C7"AG FE | "F"F4 z |]
+w: strong when I am on your shoul-ders. You raise me up to more than I can be.

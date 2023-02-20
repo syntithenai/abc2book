@@ -1,0 +1,22 @@
+X: 1303
+T: Sir John Stewart of Grandtully's Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.30 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: F
+% - - - - - - - - - -
+V: 1 staves=2
+c2 |\
+A2F2F2c2 ABcA F2c2 | f2c2 ABcA B2G2-G3c |\
+A2F2F2c2 ABcA F2c2 | Tf4 (agfe f2)F2F2 :| c2 |\
+f4 (agfe) f2d2e2c2 | (efg2) (fga2) g2d2-d3e |
+f4 (agf2) g2d2e2c2 | f2(d2Tc3B) A2F2-F3c ||\
+f4 (agfe) f2d2e2c2 | (efg2) (fga2) g2d2-d3g |\
+(agf2) (gfd2) (fdc2) (dcB2) | (ABcA) (GAB).G A2F2F2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | f4f4 f4f4 | f4f4 g4g4 | f4f4 f4f4 | c'4c4 f4f2 :| z2 | f4f4 f4f4 | f4f4 g4g4 |
+f4f4 f4f4 | c'4c4 f4f4 || f4f4 f4f4 | f4f4 g4g4 | f4g4 a4b4 | c'4c4 f4f2 |]

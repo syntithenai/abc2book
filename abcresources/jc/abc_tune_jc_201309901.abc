@@ -1,0 +1,14 @@
+X:470
+T:Millison's Jig
+C:John Playford, 1651
+M:6/8
+L:1/8
+%%stretchstaff 0
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=112
+K:DDor
+P:A
+|:a | "Dm"a>gf e2d | "C"c2d e2a | "Dm"a>gf e2d | "C"c3 "Dm"d2 :|
+P:B
+|:A | "Am"AcA AcA | AcA c2c | "Dm"dfd dfd | dfd f2f |\
+"C"ege ege | ege g2a | "Dm"a>gf e2d | "A7"^c3 "Dm"d2 :|

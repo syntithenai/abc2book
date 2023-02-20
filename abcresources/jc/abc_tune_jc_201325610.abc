@@ -1,0 +1,16 @@
+X: 1
+T: Polska till Fred
+C: Agneta Wiberg
+R: Senpolska, hambo, polska
+S: http://www.nyckelharpa.org/archive/written-music/american-allspel-list/ 2022/10/_
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: 1/4=84
+K: G
+"^A"|:\
+(D>G) (B>A) G>F | (E>D) E2 E>E | (E>G) (cB) A>G | (F<E) D4 |
+(D>G) (B>A) G>F | (E>D) E2 E>E | (E>G) (cB) A>G |[1 (F<A) G4 :|[2 (F<A) G3 (B ||
+"^B"|:\
+d>B) (G>B) d>B | (c>A) (F>A) c>A | B>G D<G B>G | (A<F) D3 (B |
+d>B) (G>B) d>B | (c>A) (F>A) c>A | B>G E<G c>B | (A<F) G4 :|

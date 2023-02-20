@@ -1,0 +1,23 @@
+X: 1
+T: The Queen's Jigg
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.260
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+d2e (fd)f | g3 f2(f//g//a/) | (fg)f e2d | e3 A2A | d2e (fd)f | g3 f2(f//g//a/) |
+(fg)f e2d | d3- d2 |][| a | (ab)a g2f | g3 f2(f//g//a) | (fg)f e2d | e3 A2a | (ab)a g2f |
+g3 f2(f//g//a/) | (fg)f e2d | d3- d2 :]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First man side to the 2. wo. set and turn S. .| Second man do the same :| The 1. man change with
+%% the 2. wo. and the 2. man with the 1. wo. then change with your own Partners .| Hands a-cross all
+%% four quite round, and turn S :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

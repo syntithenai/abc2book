@@ -1,0 +1,20 @@
+X: 2303
+T: Go to Berwick Johnny.   Jig Time.
+%R: jig
+B: Niel Gow & Sons "Complete Repository" v.2 p.30 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 3/2	% unusual "jig" time
+L: 1/8
+K: F
+% - - - - - - - - - -
+% Voice 1 may be reformatted.
+V: 1 staves=2
+|:\
+c2F2 F2c2 dcBA | c2F2 F2c2 A2f2 |  c2F2 F2c2 dcBA | B2G2 G2A2 B2d2 :| Tf3g f2F2 ABcA | Tf3g f2F2 A2c2 |
+Tf3g f2F2 ABcA | Tg3a g2G2 B2d2 || Tf3g f2F2 ABcA | Tf3g f2F2 A2c2  | Tf3g fgag agfe | d2g2 g2G2 B2d2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+f4 f4 f4 | f4 f4 f4 |  f4 f4 f4 | g4 e4 c4 :| f4 f4 f4 | f4 f4 f4 |
+f4 f4 f4 | g4 e4 c4 || f4 f4 f4 | f4 f4 f4  | f4 f4 f4 | g4 e4 c4 |]

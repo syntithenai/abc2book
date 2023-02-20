@@ -1,0 +1,26 @@
+X:1
+T: Broom, the Bonny, Bonny Broom
+N:
+C:
+S:Play 3 times
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 34 notes)
+K:G
+M:4/4
+L:1/16
+d6 e2 d6 e2 |d2 c2 B2 A2 G8 |g4 g2 a2 b2 a2 g2 f2 |e12 f4 |g6 a2 b4 a2 b2 |g4 G2 A2 B4 A2 G2 |A4 A4 e6 c2 |A16 |
+%W: A2
+% voice 1 (1 lines, 34 notes)
+d6 e2 d6 e2 |d2 c2 B2 A2 G8 |g4 g2 a2 b2 a2 g2 f2 |e12 f4 |g6 a2 b4 a2 b2 |g4 G2 A2 B4 A2 G2 |A4 A4 e6 c2 |A16 |
+%W: B1
+% voice 1 (1 lines, 32 notes)
+B6 A2 G6 F2 |G2 A2 B2 c2 d8 |g6 f2 e2 f2 g2 a2 |b12 a4 |g6 a2 b4 a2 b2 |g4 G4 B4 A2 G2 |A4 A4 e6 c2 |A16 |
+%W: B2
+% voice 1 (1 lines, 32 notes)
+B6 A2 G6 F2 |G2 A2 B2 c2 d8 |g6 f2 e2 f2 g2 a2 |b12 a4 |g6 a2 b4 a2 b2 |g4 G4 B4 A2 G2 |A4 A4 e6 c2 |A16 ||

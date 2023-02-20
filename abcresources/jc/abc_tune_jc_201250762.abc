@@ -1,0 +1,32 @@
+X:5
+T:La mourisque
+T:(Basse dansse 5)
+C:Tielman Susato
+S:Tielman Susato: Danserye (1551)
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+S:Jack Campin <jc@purr.demon.co.uk> abcusers 2001-9-4
+%This is a temporary version - please don't redistribute yet
+N:adapted by Jack Campin to regularize the layout for vertical reading, use more
+N:reasonable clefs, and to employ instruments that sound better on a small Mac
+V:1 Program 1 68 alto % oboe
+V:2 Program 1 68 alto % oboe
+V:3 Program 1 70 bass % bassoon
+V:4 Program 1 57 bass % trombone
+R:Basse dance
+M:4/2
+L:1/2
+Q:1/2=210
+K:C
+V:1 E/ F/  G G G |G3  F |E  C  C  D |B,2  G,2 |E/ F/  G  G G |G3  F |E  C  C     D  |G,2 G,2:|
+V:2 C/ A,/ C C C |C3  A,|C  A, A, A,|G,2  B,2 |C/ A,/ C  C C |C3  A,|C  A, A,    B, |C2  C2 :|
+V:3 G,/F,/ E,E,E,|E,3 F,|C, E, E, F,|D,2  D,G,|G,/F,/ E, E,E,|E,3 F,|C,>D, E,/C,/G, |E,2 E,2:|
+V:4 C,/D,/ C,C,C,|C,3 D,|A,,A,,A,,D,|G,,2 G,,2|C,/D,/ C, C,C,|C,3 D,|A,,A,,A,,   G,,|C,2 C,2:|
+%
+V:1 z E  E C  |C  D  E C  |F D  E C |C  D  B,2 |G, E  E C  |C  D  E C  |F D  E C |C  D  G,2:|
+V:2 z E, G,A, |A, E, G,C, |A,B, C C,|E, D, D,2 |D, E, E,A, |A, D, G,C, |A,B, C G,|A, G, E,2:|
+V:3 z G, E,E, |F, F, E,A, |F,G, E,E,|A, F, G,2 |G, G, E,E, |F, F, E,A, |F,G, E,E,|E, D, C,2:|
+V:4 z C, C,A,,|A,,B,,C,A,,|D,G,,C,C,|A,,D, G,,2|G,,C, C,A,,|A,,B,,C,A,,|D,G,,C,C,|A,,B,,C,2:|
+%
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.

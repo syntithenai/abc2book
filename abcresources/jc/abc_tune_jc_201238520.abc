@@ -1,0 +1,18 @@
+X: 3093
+T: the STILLY NIGHT
+Q:"Strathspey."
+R: Strathspey.
+%R:strathspey
+B: James Kerr "Merry Melodies" v.3 p.12 #93
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed.
+%%slurgraces yes
+%%graceslurs yes
+M: C
+L: 1/16
+K: A
+|:\
+vc4 (c3B) AF3 FA3 | E3EA3c (Bcd2) c4 |\
+c4 (c3B) AF3 FA3 | EE3 e3c {c}B4 A4 ::\
+E3AA3c B3AA3A | BA3 d3c {c}B4 A4 |\
+E3AA3A B3AA3A | e3cc3A (Bcd2) c4 :|

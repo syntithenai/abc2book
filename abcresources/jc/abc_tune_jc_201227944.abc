@@ -1,0 +1,25 @@
+X: 11013
+T: COTILLION No. 16. tune 5
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.101 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!f!d2 |\
+(^c2 d4) B2 | (^A2 B4) G2 | (3(FAc) e4 (d^c) | (d4 B2) d2 |\
+(^cd) g4 B2 | (^AB) d4 G2 | (3(FAc) e2- edcA | G6 H|: !p! d2 |
+^c>de>d c>de>d | d3BG3d | ^c>de>d f>ed>=c | (c4 B2) d2 |\
+(defg) g2B2 | (Bc^cd) d2G2 | (fedc) (BdcA) | (A4 "^D.C."G2) :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies all balance to the right,
+%% all promenade,
+%% gentlemen all balance to the right,
+%% all promenade.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,5 @@
+%%staffwidth 250
+X:1
+T:TEST: K:C clef=alto middle=C
+K: C clef=alto middle=C
+| C,D,E,F, G,A,B,C | CDEF GABc |

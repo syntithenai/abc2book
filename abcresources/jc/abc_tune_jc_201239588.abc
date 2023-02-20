@@ -1,0 +1,22 @@
+X: 3322
+T: GILSLAND'S HORNPIPE
+R: Hornpipe.
+%R: hornpipe, reel
+B: James Kerr "Merry Melodies" v.3 p.35 #322
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+(FG) !segno![|\
+A2A2 A2(FA) | BcdB A2(FG) |\
+AFAF AFAF | GABG E2(FG) |\
+A2A2 A2(FA) | BcdB A2d2 |\
+cdef gedc |[1 dAFA DEFG :|\
+[2 d2d2d2 |: (de) |\
+f2f2 f2(ef) |
+gfed cBAG |\
+FAdf edcd | efgf e2(de) |\
+fdfd fdfa |[1 gfed cBAG |\
+FAdf gedc | d2d2d2 :|\
+[2 bgec dcBA | FAdf gedc |\
+dAFA DEFG !segno!|]

@@ -1,0 +1,6 @@
+X: 1
+T: 1 bar
+%%staffwidth 150
+%%scale .90
+K: C
+| ABc def |

@@ -1,0 +1,8 @@
+X:2
+T:Avoiding commas and apostrophes
+L:1/8
+M:NONE
+% This displays the same note expressed in different ways but plays
+% the note scattered over several octaves
+K:
+B[K: middle=b]b[K: middle=B,]B,[K: middle=b']b'[K: middle=B,,]B,,[K:middle=b'']b''[K: middle=B]B

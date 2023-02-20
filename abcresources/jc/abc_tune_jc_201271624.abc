@@ -1,0 +1,16 @@
+X: 455
+T: Le Maitre de la Maison
+O: France
+F: http://www.youtube.com/watch?v=rIyugiKt0S0
+F: http://www.youtube.com/watch?v=RyPpOWPEsKk
+F: http://www.youtube.com/watch?v=yWkobsHDIGo
+M: 4/4
+L: 1/8
+K: Em
+Q:1/4=120
+%%MIDI program 65 Alto Sax
+%%MIDI bassprog 32 Acoustic Bass
+%%MIDI gchord fzzz
+"Em"G2 B2 F2 B2|E8|:
+"Em"B2 BA B2 G2|B2 AG F4|BB BA B2 G2|B2 AG F4|
+EG F2 EG F2|EG F2 EG F2|"Bm"EF G2 B2 FE|"Em"E8:|

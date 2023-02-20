@@ -1,0 +1,26 @@
+X: 7
+T: Mrs Whitbread's Waltz
+%R: waltz
+B: "Twenty Four Country Dances with Figures for the Year 1810", Button & Whitaker, p.4 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1810
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+c4e2 | g4e2 | c2{d}cBce | d2B2G2 |\
+cBcdef | g4e2 | d2{e}dcde | c4z2 :|\
+|:\
+d2B2G2 | g4^f2 | e2a2g2 | g^fedef |
+g2{a}g^fg2 | e2{a}g^fg2 | dedcBA | G4z2 :|\
+|:\
+fgf2d2 | efe2c2 | A2d2c2 | cBAGAB |\
+cBcdef | g4e2 | d2{e}dcde | c4z2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%  The 1st Lady set to the Gent: and turn round
+%% with both hands the 1st Gent: do the same lead
+%% down the middle up again :|: foot it and
+%% swing corners. :|
+%%endtext

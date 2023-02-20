@@ -1,0 +1,28 @@
+X: 1
+T:Rakish Paddy
+R:reel
+H:The tune comes from the Scottish tune "Cabar Feidh" (The Deer's Antlers).
+H:It is related to "The Copperplate", #308.
+H:These are two different four-part versions.
+H:See also #53 (2-part version), #647 (Donegal version)
+Z:id:hn-reel-54
+M:C|
+K:Dmix
+"Version 1:"
+|:c3B c2AB|cBAG EG~G2|Add^c defe|dcAG FGAB|
+c3B c2AB|cAAG EFGE|DEFG ABcA|1 dcAG FGAB:|2 dcAG FDD2||
+|:eg~g2 ag~g2|eg~g2 edBd|ea~a2 bgag|eaag edBd|
+eg~g2 ag~g2|egge defg|afge fde^c|1 dcAG FDD2:|2 dcAG FGAB||
+|:c2gc acgc|c2gc ecAc|d2ad bdad|d2ad ed (3Bcd|
+c2gc acgc|efge defg|afge fde^c|1 dcAG FGAB:|2 dcAG FDD2||
+|:eg~g2 ec~c2|eg~g2 ed (3Bcd|eaag ed~d2|edad ed (3Bcd|
+eg~g2 ec~c2|efge defg|afge fde^c|1 dcAG FDD2:|2 dcAG FGAB||
+"Version 2:"
+|:c3B cBAB|cBcG EG~G2|Add^c de=fe|dcAG FGAB|
+c2cB cBAB|cAG=F EDCE|DE=FG ABcA|1 dcAG FGAB:|2 dcAG FAdf||
+|:g2fa g2fa|eg~g2 ec~c2|eaag abag|e2ag ed~d2|
+egge afge|fage defg|afge f2fe|1 dcAG FAdf:|2 dcAG FAdB||
+|:c2gc acgc|c2gc acgc|d2ad bdad|d2ad bdad|
+c2gc acgc|fage defg|afge f2fe|1 dcAG FAdB:|2 dcAG FAdf||
+|:g2fg ec~c2|egfg ec~c2|ea^ga ed~d2|ea^ga ed~d2|
+egge afge|fage defg|afge f2fe|1 dcAG FAdf:|2 dcAG FGAB||

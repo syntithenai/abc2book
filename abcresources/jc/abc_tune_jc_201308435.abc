@@ -1,0 +1,16 @@
+X: 1778
+T: McElligott's Fancy   #2
+R: hornpipe, reel
+%S: s:2 b:10(5+5)
+O: McElligott
+B: O'Neill's 1850 #1778
+R: Hornpipe
+Z: Bob Safranek, rjs@gsp.org
+N: Compacted by using labels and play order [JC]
+P: Play (A1A2)x2+(BA2)x2
+M: C|
+L: 1/8
+K: D
+"^A"[| F>G | A>FA>d B>GB>d | A>FA>d f2e>d | c>eg>f e>dc>d | (3efe (3dcB A2 |]
+"^B"[| F>G | A>FA>d B>GB>d | A>FA>d f2e>d | c>eg>f e>dc>e | d2f2 d2 |]
+"^C"[| e>f | g>fg>e c>AB>c | d>cd>e f2e>f | g>fg>e c>AB>c | (3dfe (3dcB A2 |]

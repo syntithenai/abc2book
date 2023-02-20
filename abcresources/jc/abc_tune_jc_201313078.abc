@@ -1,0 +1,16 @@
+X: 1
+T: Morpeth Rant 1
+O: Trad
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: There are two common versions of this tune, with different second parts.
+N: Barnes
+M: C|
+L: 1/8
+K: D
+A2 "A"\
+| "D"d2AG FDFA | "G"BGBd "A7"cAce |\
+"D"f2fd "G"gfed |1 "A7"c2e2 e2 :|2 "A7"A2d2 "D"d2 |]
+A2 "B"\
+|: "D"dfaf dfaf | "G"gfef "(Em)"g2ef | "A7"gfed \
+[1 cdeg | "D"fefg f2fe :|\
+[2 caag | "D"f2d2 d2 |]

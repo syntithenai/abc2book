@@ -1,0 +1,38 @@
+X:1
+T: Flixton House
+N:
+C:Brian Wedgbury
+S:
+A:
+O:
+R:
+M:3/2
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 21 notes)
+K:G
+M:3/2
+L:1/16
+g6 |g2 g4 |f4 e4 |d4 e6 |e2 e4 |d4 c4 |B4 A4 |B4 c4 |e4 d4 |c4 B12 |c4 A8 |
+%W:
+% voice 1 (1 lines, 16 notes)
+G8 |B8 |c8 |d8 |g8 |f8 |e4 d4 |^c4 B4 |c4 A4 |d12 |d4 e4 |f4
+%W: A2
+% voice 1 (1 lines, 21 notes)
+g6 |g2 g4 |f4 e4 |d4 e6 |e2 e4 |d4 c4 |B4 A4 |B4 c4 |e4 d4 |c4 B12 |c4 A8 |
+%W:
+% voice 1 (1 lines, 14 notes)
+G8 |B8 |c8 |d8 |g8 |f8 |e4 d4 |c4 B4 |A4 B4 |G12|G12 |
+%W: B1
+% voice 1 (1 lines, 12 notes)
+e8 |c8 |c8 |c4 d4 |e16 |d8 |B8 |B8 |B4 c4 |d16 |
+%W:
+% voice 1 (1 lines, 15 notes)
+c8 |A8 |A8 |A12 |B4 c8 |B4 d4 |g4 d4 |e4 c4 |B12 |c4 A8 |
+%W: B2
+% voice 1 (1 lines, 16 notes)
+G8 |B8 |c8 |d12 |c4 B4 |G4 g6 |g2 g4 |f4 e4 |d4 d12 |c4 B8 |
+%W:
+% voice 1 (1 lines, 18 notes)
+A4 B4 |c4 d4 |c8 |B4 c4 |d4 e4 |d8 |A4 B4 |c4 e4 |d4 f4 |g12|g12 ||

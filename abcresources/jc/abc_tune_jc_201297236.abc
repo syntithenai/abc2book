@@ -1,0 +1,14 @@
+X: 720
+T: Kiss the Bride
+R: reel
+%S: s:3 b:13(5+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #720
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0720/oneill-1001-0720-1.abc
+M: C|
+L: 1/8
+K: G
+"^A"[|]\
+D2 | GBAG FGAc | BGBd g2(dg) | ecAG FGAc |[1 BGAF GFED :|[2 BGAF G2 |]
+"^B"[| d2 | g2fg a2ga | bagf g2(dg) | ecAG FGAc | BGAF GFED ||
+|| g2fg a2ga | bagf g2(dg) | ecAG FGAc | BGAF G2 |]

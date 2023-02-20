@@ -1,0 +1,19 @@
+X: 1
+T:Cook in the Kitchen, The
+R:jig
+N:Tommy Peoples playes a quarter tone between F and F# in bars 2 and 6
+D:Tommy Peoples: Traditional Irish Music Played on the Fiddle
+Z:id:hn-jig-138
+M:6/8
+K:G
+DGG GAG|=FDE F2D|DGG G^FG|AdB cAG|
+DGG GAG|=FDE F2d|cAG ^FGA|1 AG^F G2E:|2 AG^F G2A||
+~B3 BAG|ABA AGF|~G3 GFG|Add cAG|~B3 BAG|ABA A2d|cAG FGA|1 BGG G2A:|2 BGG G2B||
+d2e f2g|a2g fed|cAG FGA|BGB cAG|d2e f2g|a2g fed|cAG FGA|1 BGG G3:|2 BGG G2E||
+"Version 2"
+DGG GAG|=FDE ~F3|DGG G^FG|AdB cAF|
+~G3 GAG|=FDE ~F2d|cAG ^FGA|1 BG^F G2E:|2 BG^F G2A||
+~B3 BAG|ABA AGF|~G3 GFG|AdB cAG|~B3 BAG|A2D AdB|cAG FGA|1 BGF G2A:|2 BGF G2B||
+d2e f2g|agf ged|cAG FGA|BGB cAG|Bde f2g|agf ged|cAG FGA|1 BGF G3:|2 BGF G2E||
+"Version of 1st part"
+DGG GAG|FDE FED|DGG GFG|Add cAG|DGG GAG|FDE F2d|cAG FGA|1 BGG G2E:|2 BGG G2A||

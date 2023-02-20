@@ -1,0 +1,26 @@
+X:1
+T: Seven for the Seven Stars in the Sky
+N:
+C:Tune is "Dorothee" (Dutch c. 1770)
+S:
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 41 notes)
+K:D
+M:4/4
+L:1/16
+A4 |A4 d4 d4 e4 |f2 e2 f2 g2 f4 d4 |d4 a4 a4 b4 |a2 b2 a2 g2 f4 d4 |d4 b4 b4 a4 |^g2 a2 b2 g2 e4 e4 |f2 ^g2 a2 f2 g2 a2 b2 g2 |a12 A4 |
+%W: A2
+% voice 1 (1 lines, 40 notes)
+A4 d4 d4 e4 |f2 e2 f2 g2 f4 d4 |d4 a4 a4 b4 |a2 b2 a2 g2 f4 d4 |d4 b4 b4 a4 |^g2 a2 b2 g2 e4 e4 |f2 ^g2 a2 f2 g2 a2 b2 g2 |a12 a4 |
+%W: B1
+% voice 1 (1 lines, 33 notes)
+b8 b4 a2 g2 |a8 a4 g2 f2 |e4 f4 g2 f2 e2 d2 |c4 A4 e4 e4 |e8 f4 d4 |g8 f4 f2 g2 |a4 f4 g2 f2 e2 f2 |d12 a4 |
+%W: B2
+% voice 1 (1 lines, 32 notes)
+b8 b4 a2 g2 |a8 a4 g2 f2 |e4 f4 g2 f2 e2 d2 |c4 A4 e4 e4 |e8 f4 d4 |g8 f4 f2 g2 |a4 f4 g2 f2 e2 f2 |d12 ||

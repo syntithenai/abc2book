@@ -1,0 +1,16 @@
+X: 377
+T: Sira
+O: Bulgaria
+M: 4/4
+L: 1/8
+Q: 1/4=180
+K: Am
+%%MIDI program 72
+%%MIDI bassprog 45
+%%MIDI chordprog 45
+  AcBG A4      |AcBG A4  |AcBG A4      |A2G2 A4     |
+|:"Am"A4 ABcd  |B2cd cBA2|"E"e2f2 edce |"Am"c2B2A4  :|
+|:"Am"A4 ABcd  |B2cd cBA2|"E"e2f2 edce |"Am"c2B2A4  :|
+|:"Am"e2f2 edce|c2B2 Ace2|"E"^GAB2 B2ed|"Am"c2B2 A4 :|
+|:"Am"e2f2 edce|c2B2 Ace2|"E"^GAB2 B2ed|"Am"c2B2 A4 :|
+|:"Am"AcBG A4  |AcBG A4  |AcBG A4      |A2G2 A4     :|

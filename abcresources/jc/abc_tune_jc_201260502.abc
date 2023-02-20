@@ -1,0 +1,24 @@
+X:107
+T:Cast Away Waltz
+C:Colin Hume, 2009
+L:1/4
+M:3/4
+%%MIDI beat 100 95 80
+%%MIDI program 50
+%%MIDI chordprog 46   Orchestral Harp
+%%MIDI bassvol 0
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=120
+H:For the dance by Alan Winston
+K:C
+V:1
+[| "C"Gc2 | "F"Ac2 | "Dm"f/e/ d/c/ B/c/ | "G"d2e/f/ | "Am"ec "Am/G"e/f/ | "Am/F#"ec3/A/ | "C/G"Gce | "G7"d/c/B3/A/ |
+"C"Gc2 | "F"Ac2 | "Dm"f/e/ d/c/ B/c/ | "G"d2e/f/ | "Am"ece/f/ | "G"gd3/e/ | "F"fA/B/ "G"c/d/ | "C"c2G ||
+"Dm"D/C/DE | "G"F2F | "Em"E/D/EF | "A7"G2G | "D"ABc | "D7"ABc | "G"Bcd | "G7"Bcd |
+"C"[ce]/[df]/[eg][eg] | "F"[eg][df][ce] | "Am/F#"[ce][Bd][Ac] | "G"[Ac][GB]3/[FA]/ | "C"[EG][Gc]2 | "F"[FA][Ac][ca] | "G7"[Bg][DB]/[Ec]/ [Fd]/[Ge]/ | "C"[Ec]3 |]
+V:2 bass octave=-2
+%%MIDI program 46
+[| c3 | f2e | d3 | G3 | A2G | ^F3 | G3 | GAB |
+c3 | f2e | d3 | G3 | A3 | B2G | F2G | c3 ||
+d3 | G3 | e3 | A3 | d2e | ^f3 | g2=f | e2d |
+c3 | F3 | ^F3 | G3 | c3 | f3 | g2G | c3 |]

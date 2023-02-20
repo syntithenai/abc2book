@@ -1,0 +1,28 @@
+X: 1
+T: Beaux Stratagem
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (180)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+cB |\
+A2E2 E2A2 | ^G4 A3B | cdcB ABcd | edcB AcBc |\
+A2E2 E2A2 | ^G4 A3B | cdcd (e3c/d/) | e6 :|
+|: ed |\
+cBcd efef | g2G2 G2gf | edcB ABcA | e2E2 E2(3(efg) |\
+a2d2 cBcd | eBcA ^G2e2 | dcBA E2^G2 | A6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1st Cu. slip on the Outside below the 2d Cu. .|
+%% Then figure thro the 3d Cu. the 2d Cu. do the
+%% same :| Fall back Sides and change Places with your
+%% Partners .| The 1st Cu. figure thro the 2d Cu.
+%% and turn down the Middle into the 2d Cu. Place :|
+%%endtext
+%%sep 1 8 500

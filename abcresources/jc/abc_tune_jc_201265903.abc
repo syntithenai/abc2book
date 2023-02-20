@@ -1,0 +1,14 @@
+X: 396
+T: Curse the Laws That Gave Me Cause   #2
+R: air, march
+%S: s:2 b:10(6+4)
+B: O'Neill's 1850 #396
+N: The last note of each section is a half note (should be dotted.) [Fixed. JC]
+O: Hartnett
+Z: Chris Falt, cfalt@trytel.com
+Q: "Moderate."
+M: C
+L: 1/8
+K: Am
+"^A"[|] E2 | A2AB cA^GA | cde^f g2 [1 ed | c2cA GEDE | G4 z2 :|[2 e^c | d3=c A2A2 | "^fine"A6 |]
+"^B"[| e^f | g2ed cdef  | e2a^g a2b=g | e2dB A2GE | "^->A2"G6 |]

@@ -1,0 +1,464 @@
+
+X: 4700
+T: Scottish Country Dances
+T: RSCDS Book 47
+B: RSCDS Book 47
+K:
+%%center Book47/4700-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Royal Scottish Country Dance Society
+C: William Clement (Aug 1967)
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 47-1
+M: 6/8
+L: 1/8
+K: D
+   A \
+| "D"f>ga     f>ed |  "G"B<GB "Em"g3 | "A"A>ce e>cA |  A>ce "D"f3 \
+| "D"f>ga     f>ed |  "G"B<GB "Em"g3 | "A"A>ce a>ec | "D"d3    d2 :|
+|: A \
+| "D"f>ed     d>cB |  "G"B<GB     B3 | "A"A>cc c>BA |  A>ce "D"f3 \
+| "D"f>ed     d>cB |  "G"B<GB     B3 | "A"A>ce a>ec | "D"d3    d2 :|
+|: A \
+| "D"f>ga "Bm"d>cB | "Em"e>fg  "A"c3 | "A"A>ce e>cA |  A>ce "D"f3 \
+| "D"f>ga "Bm"d>cB | "Em"e>fg  "A"c3 | "A"A>ce a>ec | "D"d3    d2 :|
+|: A \
+| "D"d>ed     d>cB |  "G"B<GB "Em"B3 | "A"A>cc c>BA |  A>ce "D"f3 \
+| "D"d>ed     d>cB |  "G"B<GB "Em"B3 | "A"A>ce a>ec | "D"d3    d2 :|
+%%center Book47/4701-RoyalScottishCountryDanceSociety_D.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Earl Grey
+R: strathspey
+O: traditional
+B: RSCDS 47-2
+B: The Athole Collection, 1884
+Z: 2014 by John Chambers <jc:trillian.mit.edu>
+N: Tune for Jill's Medley
+N: Tune for Linnea's Strathspey
+M: C
+L: 1/8
+K: A
+E !segno!|\
+"A"A>B A>E "D"F>A "A"E>c | "Bm"d>B d/c/B/A/ "E7"G<B B>c |\
+"A"A>B A>E "D"F>A "A"E>c | "Bm"(3def "E7"(3efg "A"a<A A :|
+g |\
+"A"a>A g>A "D"f>A "A"e>c | "Bm"d>B d/c/B/A/ "E7"G<B B>g |\
+"A"a>A g>A "D"f>A "A"e>c | "Bm"(3def "E7"(3efg "A"a<A A> ||
+g |\
+"A"(3afa "E"(3geg "D"(3fdf "A"(3ece | "Bm"d>B d/c/B/A/ "E7"G<B B>c |\
+"A"A>B A>E "D"F>A "A"E>c | "Bm"(3def "E7"(3efg [1 "A"(3aed "E7"(3cd!d.S.!B :|[2 "A"a<A A |]
+%%center Book47/4702-Earl_Grey_2-A-16-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Daniel's Reel   [D]
+C: Bob Shakespeare
+B: RSCDS 47-3
+N: Tune for Flight to Melbourne
+R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A2 |\
+"D"D2FA "A7"GECE | "D"DEFD "G"B,2DB, | "D"A,2DF AFDF | "A7"E2AB AGFE |
+"D"D2FA "A7"GECE | "Bm"DEFD "G"B,2DB, | "D"A,DFA "A7"GEAG | "(D)"FA,"A7"CE "D"D2 :|
+|: FG |\
+"D"A2FA "Bm"dAFA | "Em"GAGF "(E7)"E2cB | "A"A2AB "A7"AGEC | "D"DCDE "A7"F2FG |
+"D"A2FA "Bm"dAFA | "Em"GAGF "(E7)"E2CB, | "D"A,DFA "A7"GEAG | "(D)"FA,"A7"CE "D"D2 :|
+%%center Book47/4703-Daniels_Reel-D-32-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: RSCDS at 90
+C: George Meikle
+R: strathspey
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 47-4
+M: C
+L: 1/8
+K: F
+c>B |\
+"F"A>F c>A f>c A>c | "Bb"d>B "F"c>A "Gm"G<G "C7"G>B |\
+"F"A>F c>A "Bb"d>e f>g | "Dm"a>f "C7"g<e "F"f2 ||
+c>B |\
+"F"A>F c>A f>c A>c | "Bb"(3dcB "F"(3cBA "Gm"G<G "C7"G>B |\
+"F"(3ABc c>f "Bb"(3Bcd d>b | "Dm"a>f "C"g>e "F"f2 |]
+f>g |\
+"F"a>f g>e "F7"f>d c>A | "Bb"(3Bcd "F"(3cBA "Gm"G2 "C7"f>g |\
+"F"a>f g>e "Dm"f>d c>A | "Dm"d<f "C"e>g "F"f2 ||
+f>g |\
+"F"a>f "C"g>e "Dm"f>d "Am"c>A | "Bb"(3Bcd "F"(3cBA "Gm"G2 "C7"G>B |\
+"F"(3ABc c>f "Bb"(3Bcd d>b | "Dm"a>f "C7"g>e "F"f2 :|
+%%center Book47/4704-RSCDS_at_90-F-16-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Frasers of Oban
+C: Drummond Cook
+B: RSCDS 47-5
+N: Tune for Vintage Simon
+R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+F |\
+"Bb"B>cd B2F | D>EF F2B | d2B f2d | "Eb"b>ag "Bb"fed |\
+"Cm"c>de c2G | E>FG "(G7)"G2c | "Cm"e2c "C7"g2B | "F7"A>Bc FGA ||
+"Bb"B>cd B2F | D>EF F2B | d2B f2d | "Eb"b>ag "Bb"fed |\
+"Cm"e>fg "F7"cde | "Bb"def "Gm"B2d | "Cm"c>de "F7"FGA | "Bb"B3 B2 |]
+F |\
+"Bb"D3 B,2D | F>DF B3 | D>FB BAB | "Eb"G>FE "Bb"DCB, |\
+"Cm"E3 C2E | G>EG "(G7)"c2d | "Cm"e>dc "C7"dcB | "F7"AGF EDC ||
+"Bb"D3 B,2D | F>DF B3 | D>FB BAB | d>cB "Bb"Bcd |\
+"Eb"e>fg "Cm"cde | "Bb"def "Gm"B2d | "Cm"c>de "F7"FGA | "Bb"B3 B2 |]
+%%center Book47/4705-Frasers_of_Oban-Bb-32-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The One o'Clock Canon
+C: Ian Brockbank
+N: Tune for dance by the same name.
+B: RSCDS 47-6
+R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd g in bar 9 lacked its natural, but clearly needs one.
+M: C|
+L: 1/8
+K: A
+   G2 "A"|\
+"D"AFDF "A"AGAc | "E"BAGB "A"A2Bc | "D"dcdf "A"ecAc | "E"BAGF E2FG |
+   y4 \
+"D"AFDA "E"BGEB | "A"cAce a2ga | "D"fa"A"ea "E"BdcB | "A"c2"D"A2 "A"A2 :|
+|: fg "B"|\
+"A"agae "A7"=gecA | "D"fdAf "A"e2fg | "D"aA"A"gA "D"fA"A"eA | "E"Bfec B2cd |
+   y4 \
+"A"eAGA "D"fAGA | "E"gefg "F#m"a2ga | "D"fa"A"ea "E7"BdcB | "A"c2"D"A2 "A"A2 :|
+|: cB "C"|\
+"A"c2e2 a2e2 | "D"fdAf "A"e2fg | "D"abaf "A"ecAc | "E"BdcA B2cd |
+   y4 \
+"A"eAGA "D"fAGA | "E"gefg "F#m"a2ga | "D"fa"A"ea "E7"BdcB | "A"c2"D"A2 "A"A2 :|
+|: ag "D"|\
+"A"abab "D"afdA | "D"fdAf "A"e2fg | "D"aA"A"gA "D"fA"A"eA | "E"Bfec B2cd |
+   y4 \
+"A"efec "D"fgfd | "E"gefg "F#m"a2ga | "D"fa"A"ea "E"BdcB | "A"c2"D"A2 "A"A2 :|
+%%center Book47/4706-One_oClock_Canon-A-64-8.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Howard's Strathspey
+C: Traditional
+O: Joseph Lowe Collection
+B: RSCDS 47-7
+N: Tune for Memories of Mary Ann
+R: strathspey
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+A |\
+"A"E<A c>A "E7"G<B B>c | "A"E<A c>e "D"(3fga "A"(3edc |\
+"Bm"(3def "A"(3edc "E7"d<B B>g | "A"a>f "E7"e<c "A"e<a a :|
+e |\
+"A"a>e f/e/d/c/ "E7"d<B B>g | "A"a>e f/e/d/c/ e<a e>c |\
+"D"(3def "A"(3edc "Bm"d<B "E7"B>g | "A"a>f "E7"e<c "A"e>a a ||
+e |\
+"A"a>e f/e/d/c/ "E7"d<B B>g | "A"(3agf "E7"(3gfe "Bm"(3fed "A"(3edc |\
+"D"(3def "A"(3edc "Bm"d<B "E7"B>g | "A"a>f "E7"e<c "A"e<a a |]
+
+%%center Book47/4707-Howards_Strathspey-A-16-3.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Welcome to Ayr
+C: Colin Dewar
+R: jig
+B: RSCDS 47-8
+N: Tune for dance by the same name
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A |\
+"D"d2A "A7"FAF | "D"DFA BAF | "G"GBG "D"FDA | "Em"GFG "A7"EAc |\
+"D"d2A "A7"FAF | "D"DFA BAF | "G"GAB "A7"cAe | "D"d3 d2 :|
+|: A |\
+"G"Bcd "Em"GAB | "D"Acd "B7"FGA | "Em"G2E "A7"CDE | "D"D2F "D7"Adc |\
+"G"Bcd "Em"GAB | "D"Acd "B7"FGA | "Em"GAB "A7"cAe | "D"d3 d2 :|
+%%center Book47/4708-Welcome_to_Ayr-D-32-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: McLarin's Reel
+C: Traditional
+B: RSCDS 47-9
+N: Tune for The Kissing Bridge
+R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+A |\
+"Am"EAAB cBAc | "G"Bgdg BGGB | "Am"EAAB cBca | "Em7"gedB "Am"cAAc |
+"Am"EAAB cBAc | "G"Bgdg BGGB | "Am"EAAB cBca | "Em7"gedB "Am"cA A :|
+|: ^g |\
+"Am"a2a^g aee^f | "G"=g2g^f gdd^g | "Am"a2a^g aee^f | "Em7"=gedB "Am"cAA^g |
+"Am"a^gag aee^f | "G"g^fgf gddg | "Am"edeg abag | "Em7"egdB "Am"cA A :|
+%%center Book47/4709-McLarins_Reel-D-32-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Wednesday Night Strathspey   [Eb]
+C: Gerard Buchanan
+R: strathspey
+B: RSCDS 47-10
+N: Tune for It Wisnae Me
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Eb
+B |\
+"Eb"G<E E>E "Ab"A<c c>A | "Eb"G<B G>E "Bb"F2 A2 |\
+"Eb"G<B B>G "Ab"A<c c>A | "Eb"G<B "Bb7"A>F "Eb"E3 ||
+B |\
+"Eb"G<E E>E "Ab"A<c c>A | "Eb"G<B G>E "Bb"F2 A2 |\
+"Eb"(3GAB B>G "Ab"(3ABc c>A | "Eb"B<G "Bb7"F>G "Eb"E3 |]
+B |\
+"Eb"e<e d<B "Ab"c<c B<G | "Eb"B<G F>E "Bb"F2 A2 |\
+"Eb"(3GFE E>G "Ab"(3ABc c>e | "Bb"d<d c>d "Eb"e3 ||
+B |\
+"Eb"G<B e>B "Ab"c<e "Eb"B<G | "Eb"BG "F7"A/G/F/E/ "Bb"D<F F>A |\
+"Eb"B<G G<B "Ab"A<c "F7"c<e | "Bb"B<G F>G "Eb"E3 |]
+%%center Book47/4710-Wednesday_Night_Strathspey-Eb-16-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Jean's reel
+C: Bobby MacLeod
+R: Reel
+N: Tune for Glastonbury Tor
+B: RSCDS 47-11
+M: 4/4
+K: F
+"A"[|] A2 |\
+"F"F2FG AFAc | "F"fA (3AAA "Dm"dAcA | "Gm"GFGA GFD2 | "Gm"GBAG "C7"FEDC |
+"F"F2FG AFAc | "F"fgaf "Bb"gfdf | "F"c2Ac "Dm"fdcA | "C7"GFEG "F"F2 ||
+"B"[|] Ac |\
+"F"fAcf AcfA | "F"cfAc fAcf | "C7"eccg ecgc | "F"fefg "C7"acfg |
+"F"afge "Dm"fedc | "Bb"defe "F"dcAc | "Bb"d2cA "F"fdcA | "C7"GFEG "F"F2 |]
+"C"[|] FG |\
+"F"ACCA CCAC | "F"FACF ACFA | "C7"ECCG ECGC | "C7"cC=Bc _BGEG |
+"F"ACCA CCAC | "F"FACF ACFA | "C7"GCEG cC=Bc | "C7"BGEG "F"F2 ||
+"B"[|] Ac |\
+"F"fAcf AcfA | "F"cfAc fAcf | "C7"eccg ecgc | "F"fefg "C7"acfg |
+"F"afge "Dm"fedc | "Bb"defe "F"dcAc | "Bb"d2cA "F"fdcA | "C7"GFEG "F"F2 |]
+%%center Book47/4711-Jeans_Reel-F-32-8.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Campbell of Sadell's Strathspey   [Bb]
+C: Robert Mackintosh (1796)
+R: strathspey
+B: RSCDS 47-12
+B: Robert Macintosh's 3rd Collection, 1796
+N: Tune for The Mentor
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Bb
+dc |\
+"Bb"Bd3 d3c "Gm"B2A2 B4 | "Cm"G2ed c3B "F7"AF3 F3c |\
+"Bb"d3e "D7"d3c "Gm"B3A "Bb"B3F | "Eb"GE3 "F7"C3F "Bb"D2B,2 B,2 :|
+Bc |\
+"Bb"dB3 "Cm"ge3 "F7"c2de "Bb"f4 | "Gm"B3G "Cm"edcB "F"AF3 "Bb"F3B |\
+"Eb"GE3 cE3 "F7"F2GA "Bb"B4 | "Cm"E2FG "F7"F3E "Bb"D2B,2 B,2 |]
+Bc |\
+"Bb"dB3 "Cm"ge3 "F7"cA3 "Bb"fd3 | "Gm"BG3 "C7"c3B "F"AF3 "Bb"F3B |\
+"Eb"GE3 ge3 "F7"f2A2 "Bb"BF3 | "Eb"G3E "F7"C3F "Bb"DB,3 B,2 |]
+%%center Book47/4712-Miss_Campbell_of_Sadells_Strathspey-Bb-16-4.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 221
+T: Earl Grey
+R:strathspey
+B:The Athole Collection, 1884
+M:C
+L:1/8
+K:A
+E |\
+A>BA>E F>AE>c | d>B d/c/B/A/ G<BB>c |\
+A>BA>E F>AE>c | (3def (3efg a<AA :|
+g |\
+a>Ag>A f>Ae>c | d>B d/c/B/A/ G<BB>g |\
+a>Ag>A f>Ae>c | (3def (3efg a<AA>g |
+(3afa (3geg (3fdf (3ece | d>B d/c/B/A/ G<BB>c |\
+A>BA>E F>AE>c | (3def (3efg (3aed (3cdB |]
+%%center Book47/Earl_Grey_0-A-16-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Earl Grey
+R: strathspey
+O: Traditional
+B: Athole
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Tune for Jill's Medley
+N: Tune for Linnea's Strathspey
+M: C
+L: 1/8
+K: A
+E \
+|: "A"A>B A>E "D"F>A "A"E>c | "Bm"d>B d/c/B/A/ "E7"G<B B>c \
+|  "A"A>B A>E "D"F>A "A"E>c | "Bm"(3def "E7"(3efg "A"(3aed "E7"(3cdB ||
+|  "A"A>B A>E "D"F>A "A"E>c | "Bm"d>B d/c/B/A/ "E7"G<B B>c \
+|  "A"A>B A>E "D"F>A "A"E>c | "Bm"(3def "E7"(3efg "A"a<A A |]
+g- \
+|  "A"a>A g>A "D"f>A "A"e>A | "Bm"d>B d/c/B/A/ "E7"G<B B>g- \
+|  "A"a>A g>A "D"f>A "A"e>A | "Bm"(3def "E7"(3efg "A"a<A A>g- ||
+|  "D"(3afa "E"(3geg "D"(3fdf "A"(3ece | "Bm"d>B d/c/B/A/ "E7"G<B B>c \
+|  "A"A>B A>E "D"F>A "A"E>c |1 "Bm"(3def "E7"(3efg "A"(3aed "E7"(3cd!d.C.!B :|
+|2 "Bm"(3def "E7"(3efg "A"a<A A |] y8 y8 y8 y8 y8 y8 y8 y8 y8 y8
+%%center Book47/Earl_Grey_1-A-16-5.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Campbell of Sadell's Strathspey   (C)
+C: Robert Mackintosh (1796)
+R: strathspey
+B: RSCDS 47-12
+B: Robert Macintosh's 3rd Collection, 1796
+N: Tune for The Mentor
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: C
+ed |\
+"C"ce3 e3d "Am"c2B2 c4 | "Dm"A2fe d3c "G7"BG3 G3d |\
+"C"e3f "E7"e3d "Am"c3B "C"c3G | "F"AF3 "G7"D3G "C"E2C2 C2 :|
+cd |\
+"C"ec3 "Dm"af3 "G7"d2ef "C"g4 | "Am"c3A "Dm"fedc "G"BG3 "C"G3c |\
+"F"AF3 dF3 "G7"G2AB "C"c3E | "Dm"F2GA "G7"G3F "C"E2C2 C2 |]
+cd |\
+"C"ec3 "Dm"af3 "G7"dB3 "C"ge3 | "Am"cA3 "D7"d3c "G"BG3 "C"G3c |\
+"F"AF3 af3 "G7"g2B2 "C"cG3 | "F"A3F "G7"D3G "C"EC3 C2 |]
+%%center Book47/Miss_Campbell_of_Sadells_Strathspey-C-16-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The One o'Clock Canon
+C: Ian Brockbank
+N: Tune for dance by the same name.
+B: RSCDS 47-6
+R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Should the 2nd g in bar 9 be natural?
+M: C|
+L: 1/8
+K: A
+"A"[|] G2 |\
+"D"AFDF "A"AGAc | "E7"BAGB "A"A2Bc | "D"dcdf "A"ecAc | "E7"BAGF E2FG |
+"D"AFDA "E7"BGEB | "A"cAce a2ga | "D"fa"A"ea "E7"BdcB | "A"c2"D"A2 "A"A2 :|
+"B"|: fg |\
+"A"agae "A7"gecA | "D"fdAf "A"e2fg | "D"aA"A"gA "D"fA"A"eA | "E"Bfec "E7"B2cd |
+"A"eAGA "D"fAGA | "E"gefg "F#m"a2ga | "D"fa"A"ea "E7"BdcB | "A"c2"D"A2 "A"A2 :|
+"C"|: cB |\
+"A"c2e2 a2e2 | "D"fdAf "A"e2fg | "D"abaf "A"ecAc | "E"BdcA "E7"B2cd |
+"A"eAGA "D"fAGA | "E"gefg "F#m"a2ga | "D"fa"A"ea "E7"BdcB | "A"c2"D"A2 "A"A2 :|
+"D"|: ag |\
+"A"abab "D"afdA | "D"fdAf "A"e2fg | "D"aA"A"gA "D"fA"A"eA | "E"Bfec "E7"B2cd |
+"A"efec "D"fgfd | "E"gefg "F#m"a2ga | "D"fa"A"ea "E7"BdcB | "A"c2"D"A2 "A"A2 :|
+%%center Book47/One_oClock_Canon-A-64-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Royal Scottish Country Dance Society
+C: Willian Clement (Aug 1967)
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: email from Atsukoclement:aol.com 2009-1-29
+N: Bill's wife Atsuko wrote: John Wilkinson made up a dance called 'Bill Clement MBE' (32 bar Jig x 8) to mark Bill's
+N: award.  John started to dance with Bill with Gowrie Group in Perth.  The tune is 'The Royal Scottish Country Dance
+N: Society', a 64 bar jig which was composed by Bill some years ago, when he was the piper to the Society.
+M: 6/8
+L: 1/8
+K: Hp
+   A | "D"{g}f>ga       {fg}f>ed | "G"{g}B<{d}G{e}B      {gf}g3 | "A"{a}A>{d}ce    {gef}e>{g}c{d}A | {g}A>{d}ce "D"{gfg}f3  |
+  y4 | "D"{g}f>ga       {fg}f>ed | "G"{g}B<{d}G{e}B      {gf}g3 | "A"{a}A>{d}ce      a>ec          | "D"{Gdc}d3    {gdc}d2 :|
+|: A | "D"{gfg}f>ed    {gde}d>cB | "G"{g}B<{d}G{d}B     {gBG}B3 | "A"{g}A>{d}c{A}c {gcd}c>{g}B{d}A | {g}A>{d}ce "D"{gfg}f3  |
+  y4 | "D"{gfg}f>ed    {gde}d>cB | "G"{g}B<{d}G{d}B "Em"{gBG}B3 | "A"{a}A>{d}ce      a>ec          | "D"{Gdc}d3    {gdc}d2 :|
+|: A | "D"{g}f>ga  "Bm"{Gdc}d>cB |"Em"{g}e>fg         "A"{cd}c3 | "A"{a}A>{d}ce    {gef}e>{g}c{d}A | {g}A>{d}ce "D"{gfg}f3  |
+  y4 | "D"{g}f>ga  "Bm"{Gdc}d>cB |"Em"{g}e>fg         "A"{cd}c3 | "A"{a}A>{d}ce      a>ec          | "D"{Gdc}d3    {gdc}d2 :|
+|: A | "D"{Gdc}d>e{g}d {gde}d>cB | "G"{g}B<{d}G{d}B     {gBG}B3 | "A"{g}A>{d}c{A}c {gcd}c>{g}B{d}A | {g}A>{d}ce "D"{gfg}f3  |
+  y4 | "D"{Gdc}d>e{g}d {gde}d>cB | "G"{g}B<{d}G{d}B "Em"{gBG}B3 | "A"{a}A>{d}ce      a>ec          | "D"{Gdc}d3    {gdc}d2 :|
+%%center Book47/RoyalScottishCountryDanceSociety_Hp.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Wednesday Night Strathspey   (F)
+C: Gerard Buchanan
+R: strathspey
+B: RSCDS 47-10
+N: Tune for It Wisnae Me
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+c |\
+"F"A<F F>F "Bb"B<d d>B | "F"A<c A>F "C7"G2 B2 |\
+"F"A<c c>A "Bb"B<d d>B | "F"A<c "C7"B>G "F"F3 ||
+c |\
+"F"A<F F>F "Bb"B<d d>B | "F"A<c "(Dm)"A>F "Gm"G2 "C7"B2 |\
+"F"(3ABc c>A "Bb"(3Bcd d>B | "F"c<A "C7"G>A "F"F3 |]
+c |\
+"F"f<f "C"e<c "Bb"d<d "F"c<A | "(Dm)"c<A "Gm"G>F "C7"G2 B2 |\
+"F"(3AGF F>A "Bb"(3Bcd d>f | "C7"e<e d>e "F"f3 ||
+c |\
+"F"A<c f>c "Bb"d<f "F"c<A | "(G)"cA "G7"B/A/G/F/ "C"E<G "C7"G>B |\
+"F"c<A A<c "Bb"B<d "G7"d<f | "C7"c<A G>A "F"F3 |]
+%%center Book47/Wednesday_Night_Strathspey-F-16-4.abc

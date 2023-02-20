@@ -1,0 +1,33 @@
+X: 20871
+T: HAMILTON SETT (tune 5)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.87 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Rest added as pickup to 2nd strain, to fix the rhythm.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+fg |\
+a4 g2e2 | f2A2 d2c2 | B2AG c2B2 | A2Bc defg |\
+a4 g2e2 | f2de f2d2 | c2a2 g2e2 | f4 z2 H|]
+z2 |\
+e2g2 a2g2 | f2de f2d2 | e2cd e2c2 | d2=Bc d2g2 |\
+e2g2 a2g2 | f2de f2d2 | e2ce d2=B2 | c4 "^D.C."z2 |]
+c2 |\
+c2f2 e2f2 | e2f2 a2f2 | g2c2 e2c2 | c'2c2 e2c2 |\
+c2f2 e2f2 | e2f2 a2f2 | g2cf e2c2 | f4 "^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% back to back,
+%% ladies cross hands round and back,
+%% give the other hands to partners and balance eight,
+%% and turn,
+%% next two, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,31 @@
+X:27
+T: Rawhide
+C: Bill Monroe
+S: MandoZine TablEdit Archives
+Z: TablEdited by Mike Stangeland for MandoZine
+L: 1/8
+Q: 560
+M: 4/4
+K: C
+ z2 C2 E2 F2 | {B^F}"C"[cGG,][cGG,] [cGG,][c2G2G,2][cGG,] [c2G2G,2] |{B^F} [cGG,][cGG,] [cGG,][c2G2G,2][cGG,] [c2G2G,2] |
+ {B^F}[cGG,][cGG,] [cGG,][c2G2G,2]D [EC]C | "C7"[E2_B,2] [E_B,][E_B,] [E_B,][E_B,] [E_B,]G, |
+ "F"[FA,][FA,] [FA,][F2A,2][FA,] [FA,][FA,] | [FA,][FA,] [FA,][F2A,2][FA,] [FA,]G, |
+ "C"C2 CD EG GA | cB cB AG FD | "F"[F2A,2] [FA,][FA,] [F2A,2] [F2A,2] | Gc cc cc cA |
+ "C"C2 CD EG3 | cB cB AG ED | "G"[D2G,2] [DG,][DG,] [DB,][DG,] zD | FE FE DB, A,B, |
+ "C"C2 [c2E2G,2] [cEG,][cEG,] [cEG,][cEG,] | [cEG,][cEG,] [c2E2G,2] [cEG,][cEG,] [c2E2G,2] |
+ "C"[cGG,][cGG,] z[cGG,] z[cGG,] [c2G2G,2] | [cG][cG] [cG][cG] z[cG] [c2G2] |
+ [cG][cG] [cG][cG] z[cG] [c2G2] | [c2G2] [c2G2] [cG][cG] [c2G2] |
+ "F"[AFC][AFC] z[AFC] z[AFC] [AFC][AFC] | [AFC][AFC] z[AFC] [AFC][AFC] [A2F2C2] |
+ "C"[cEG,][cEG,] z[cEG,] [c2E2G,2] [cEG,][cEG,] | [c2E2G,2] [cEG,][cEG,] [cEG,][cEG,] [c2E2G,2] |
+ "F"[F2A,2] [FA,][FA,] [F2A,2] [F2A,2] | Gc cc cc cA | "C"C2 C2 EG GA | cB cB AG ED |
+ "G"[D2G,2] [DG,][DG,] [D2B,2] D2 | FE FE DB, A,B, |
+ "C"C2 [c2E2G,2] [cEG,][cEG,] [cEG,][cEG,] | [cEG,][cEG,] [c2E2G,2] [cEG,][cEG,] [c2E2G,2] |
+ "E"[EB,][EB,] [EB,][EB,] [EB,][EB,] [E2B,2] | [B^F][B^G] [B^G][eB] [e2B2] [e2B2] | g^g ^g^g ^gb ^g^f | e8 |
+ "A"[e^c]a aa aa a2 | ^c'a ba ea ae | ^c'=c' c'a ae e^d | c^c A=c ^cA B^c |
+ "D"d2 [^f2d2] [^f2d2] [^f2d2] | f^f d=f ^fd d^f | a^g =gf ^fd =f^f | d[^fd] [^fd][^fd] [^fd][^fd] [^f2d2] |
+ "G"G,4 D4 | B4 g4 | ga gf ef ef | dd dd dc Bd |
+ "C"c8 | [c'g][c'g] [c'g][c'g] [c'g][c'g] [c'g][c'g] | [c'e][c'g] [c'g][c'g] [c'g][c'g] [c'g][c'g] |
+ [c'2g2] [c'g][c'g] c'c' ec | "C7"[e2_B2] [e_B][e_B] [e_B][e_B] [e_B][e_B] |
+ "F"FF FA Ac cf | fa ac' c'c' c'e' | "C"c'2 c'e' c'2 c'e' | c'g f^d ec cc |
+ "F"Af ff ff ff | ac' c'c' c'c' c'e' | "C"c'2 c'e' c'2 c'e' | c'g f^d ec cB |
+ "G"B[gB] [gB][gB] [gB][gB] [gB]_b | bg g^f ^f^d ^de | "C"c2 G^F =FD Ec |

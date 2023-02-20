@@ -1,0 +1,18 @@
+X: 1626
+T: the Fair Maidens
+R: hornpipe, reel
+%S: s:4 b:16(4+4+4+4)
+B: O'Neills 1852 #1626
+O: F.O'Neill
+Z: Nick Terhorst, nickte@microsoft.com
+M: C|
+L: 1/8
+K: G
+"^A1"[|]\
+  D2 | GDGA BGBd | gfed cBAG | ABcd ecAG | FGAF D2 ||
+"^A2"\
+| DF | GDGA BGBd | gfed cBAG | ABcd edAF | G2~GFG2 :|
+"^B"\
+|:FG | ADFD ADFD | cABG A2 GA | BDGD BDGD | dBcA B2 ||
+"^A3"\
+| A2 | GDGA BGBd | gfed cBAG | ABcd edAF | G2~GFG2 :|

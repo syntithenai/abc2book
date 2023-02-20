@@ -1,0 +1,14 @@
+X: 133	% 34
+T: la Varsouvienne
+T: or My New Shoes
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.13 #3
+R: mazurka, varsouvienne
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4	% The book has 4/4, but that's obviously wrong.
+L: 1/8
+Q: "(Moderate Don't drag)"
+K: D
+V: 1 name="34"
+A>d | "^^"f>g "^^"f2 A>d | "^^"f>g "^^"f2 "_V"A>d | "^^"ff "^^"g2 "^^"f2 | "^^"e4 A>c | "^^"e>f "^^"e2 A>c |
+"^^"e>f "^^"e2 "_V"A>c | MeMe Mf2 Me2 | "^^"d3 ("_V"ABc) || Md2 Mc2 MB2 | "^^"A4 "^^"e>f | "^^"g2 "^^"f2 "^^"e2 | 
+"^^"a3 ("_V"ABc) | Md2 Mc2 MB2 | "_V"A4 (MeMf) | "^^"g2 MB2 Mc2 | "^^"d4 |]

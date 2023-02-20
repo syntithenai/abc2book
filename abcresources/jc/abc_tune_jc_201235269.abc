@@ -1,0 +1,26 @@
+X: 21061
+T: Kennet's Dream [scordatura]
+%R: air, waltz, jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.106 #1
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The book has A,EA^c scordatura tuning, and the tune uses two-voice notation.
+N: This transcription is as in the book, for ABC version 2 software.
+M: 3/4
+L: 1/8
+K: none
+%%continueall 1
+[^c2A2E2A,2] \
+|:"_Slow"\
+e4 x2 & ^c4 B2 | A2 E2 D2 | D2 E2 A2 | TB4 (AB) & D4 x2 | e4 x2 & ^c4 B2 | {B}A2 E2 D2 |
+D2 E2 (AB) | A6 :: e4 g2 & A4 A2 | g4 x2 & A4 a2 | g2 e2 A2 | TB2 A2 B2| e4 g2 & ^c4 A2 | g4 x2 & A4 a2 |
+g2 e2 A2 | B4 (AB) & D4 x2 | e4 g2 & ^c4 A2 | g4 x2 & A4 a2 | g2 e2 A2 | TB2 A2 B2 | e4 x2 & ^c4 B2 | A2 E2 D2 |
+D2 E2 AB | A4 :: "_Brisk" [M:6/8] e2B AED | DEA TBAB | ^c2B AED |
+DEA A3 :: e2g g2a | geA TBAB | e2x x3 & ^c2g g2a | x3 B3 & geA D3 |
+e2g g2a | geA TBAB | e2x x3 & ^c2B AED | DEA A3 ::
+eee eee & AAA AAA | BBB BBB & ^FFF FFF | A2G, B,DA| BA^F A3 ::
+gAg aAa | gfe TB2A | gAg aAa | x3 B3 & gfe D3 |
+g(e/f/g/e/) a(f/g/a/f/) | gfe TBAB | e2x x3 & ^c2G, B,DA | dB^F [A3G,3]:|
+%%begintext align
+%% The book has A,EA^c scordatura tuning; transcribed here as in the book.
+%% This tune has two voices, transcribed here with ABC 2.0 voice overlays.
+%%endtext

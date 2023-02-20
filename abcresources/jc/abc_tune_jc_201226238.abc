@@ -1,0 +1,19 @@
+X: 10162
+T: PRUSSIAN MARCH
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.16 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: In bar 15, the last notes (ef) have nonsensical lengths; fix in the obvious way.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D4 F4 | A4 z2cd/e/ | d>cB>A G>FE>D | A2A,>A, A,2f>e |\
+d2d2 d2g>f | e2e2 e2a>g | f2f2 e>de>f | d2d2 d2 :|
+|:\
+a2a2 (ba)(gf) | e4 a4 | d2c2 B2d2 | A2A>A A2f>e |\
+d2d2 d2g>f | e2e2 e2a>g | f2f2 e>de>f  d2d2 d2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

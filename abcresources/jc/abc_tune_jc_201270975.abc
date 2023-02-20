@@ -1,0 +1,19 @@
+X: 1
+T: the Duke of Perth
+B: RSCDS 1-8
+R: march
+N: Robert Bremner's Collection, 1757
+N: SFT p.5
+N: Allan's p.14
+S: printed page in Concord Slow Scottish Session collection labelled "original" at upper left
+Z: John Chambers <jc:trillian.mit.edu>
+N: Corrected "stumble" of repeats by changing pickup notes to quarter notes, to match the rest of the tune.
+M: C|
+L: 1/4
+K: G
+   B |\
+"G"G/A/B/c/ dB | "G"gB dB | "G"gB dB | "Am"aA "D7"AB/A/ |\
+"G"G/A/B/c/ dB | "G"gB dB | "Am"cA "D7"d>c | "G"BG G :|
+|: f |\
+"Em"g>a ge | "D"a>b af | "Em"g>a ge | "Em"be ef |\
+"Em"g>a "Am"ge | "D"a>b af | "C"g>e "D7"dc | "G"BG G :|

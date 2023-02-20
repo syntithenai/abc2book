@@ -1,0 +1,28 @@
+X: 21134
+T: WHIPPLE'S SETT (tune 5)
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.113 #4
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Version 2 for ABC software that implements tremolos.
+N: A version of Hull's Victory
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+c2 |\
+fcfa fcfg | (agfe) f2(AB | c2)cd c2B2 | A4!trem2!G4 F2cd |\
+(fcfa) (fcfa) | g2g2g2 (ag) | (fedc =BcdB) | c2c2c2 H|]
+c2 |\
+(fefg agfe) | d2B2B2 ef | (gfga bagf) | e2c2c2 de |\
+(fcfa) (fcfa) | (gcgb) (gcgb) | (ag).f.a (gf).e.g | f2f2"^D.C."f2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple lead to the right,
+%% balance and swing to place,
+%% balance to partners,
+%% all promenade to SEATS.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,30 @@
+X: 1
+T: a Pint of Derby
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (143)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+N: Corrected missing dot at the of 1st strain.
+M: 6/4
+L: 1/4
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+g2a bag | a2d d2g | fdB ced | cAB ^F>ED |\
+G2A BAG | c2d edc | dgB A2G | G3- G3 :|
+|:\
+A2B c>dc | d2=e f2g |fd2 c2B | B3- B2d |\
+Bf2 dg2 | =ea2 ^f2d | cB2 A2G | G3- G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man take his Partner by the left Hand and cast off
+%% and lead her thro the 2d Cu. then the 2d Wo. and fall into
+%% the 2d Cu. Place | Then the 2d Cu. do the same :| Then the
+%% 1st Man and 2d Wo. sett and turn single the 2d Man and 1st
+%% Wo. turn Hands at the same Time then the two Men and
+%% two We. Back to Back  Then all four lead down abreast
+%% then up again then the 1st Cu. cast off and turn Hands :|
+%%endtext
+%%sep 1 8 500

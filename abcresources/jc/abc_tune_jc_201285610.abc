@@ -1,0 +1,13 @@
+X: 1
+T: Heilsberger Dreieck (Em G F)
+M: C|
+L: 1/8
+K: Edor
+|: "Em"E4 G4 | "A"A4 "Em"BAGF | E2B2 B3c | "Bm"d2B2 B2cd \
+| "Em"e2 e4 f2- | f2g3 fga | b2g2 f2e2 |1 "Bm"d2 B4 A2 :|2 "Bm"f2d2 "D7"B2=c ||
+K:G
+|: "G"d2B2 "D7"c2A2 | "G"B2G2 G3G | G2G2 B2d2 | "C"g4 "G"d4 \
+| "Am"ABc2 "Em"B2e2- | e2d2 "Am"cde2 | "G"d2 g4 f2 |1 "C"e2e2 "D7"d3e :|2 "C"e2e2 "C7"d^cde ||
+K:F
+|: "F"f4 c4 | A2Bc "Bb"d4- | d2c2 B2A2 | "C7"G2AB c4- \
+| c2B2 A2G2 | "F"F4 "Bb"d3c | B2A2 "C7"G2F2 |1 EFG2 z2c2 :|2 EFG2 "F"F2z2 |]

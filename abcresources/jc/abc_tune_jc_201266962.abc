@@ -1,0 +1,94 @@
+X:3
+T:Da\~ns leon
+G:Kazimodal
+R:Da\~ns leon
+C:Traditionnel, arrangement http://kazimodal.trad.org
+S:Tonio\`u Breizh-Izel 1388 (Pleiber-Krist)
+M:4/4
+L:1/8
+Q:C2=112
+P:C2
+K:Dm
+P:C
+%%MIDI gchordoff
+V:1
+K:Dm
+%%MIDI program 52
+|:\
+M:4/4
+"Dm"Ad "C"(c>d) cB "Bb"({AB}A)G |\
+M:5/4
+	Ad "Gm"({cB}c)>d cB "Am"({AB}A4) :|\
+M:4/4
+"Dm"FG "F"A>G AB "C"AG |\
+M:5/4
+	"Gm"EF G>A "Am"FE "Bb"D4 |
+M:4/4
+	"Dm"DE "F"F2 "Gm"G2 "Am"A>G |\
+M:5/4
+	({AB}A)d "Bb"d2 "C"c2 "Dm"d4 |\
+M:4/4
+	"Dm"({FE}D)E F2 "C"(GF/2G/2) "F"A>A |\
+M:5/4
+	({AB}A)d "Gm"d2 "Am"(ed/2)c/2 "Bb"d4 ||
+V:2
+K:Dm
+%%MIDI program 54
+|:\
+M:4/4
+dg (f>g) fe ({de}d)c |\
+M:5/4
+dg ({fe}f)>g fe ({de}d4) :|\
+M:4/4
+Bc d>c de dc |\
+M:5/4
+AB c>d BA G4 |
+M:4/4
+GA B2 c2 d>c |\
+M:5/4
+({de}d)g g2 f2 g4 |\
+M:4/4
+({BA}G)A B2 (cB/2c/2) d>d |\
+M:5/4
+({de}d)g g2 (ag/2)f/2 g4 ||
+V:3
+K:Dm
+%%MIDI program 54
+|:\
+M:4/4
+DB (A>B) AG ({FG}F)E |\
+M:5/4
+FB ({AG}A)>B AG ({DE}D4) :|\
+M:4/4
+B,E F>E FG FE |\
+M:5/4
+CD E>F DC B,4 |
+M:4/4
+B,C D2 E2 F>E |\
+M:5/4
+({FG}F)B B2 A2 B4 |\
+M:4/4
+({DC}B,)C D2 (ED/2E/2) F>F |\
+M:5/4
+({FG}F)B B2 (cB/2)A/2 G4 ||
+V:4
+K:Dm
+%%MIDI program 53
+|:\
+M:4/4
+EA (G>A) GF ED |\
+M:5/4
+EA G>A GF E4 :|\
+M:4/4
+DE F>E FG FE |\
+M:5/4
+CD E>F DC B,4 |
+M:4/4
+A,B, C2 D2 E>D |\
+M:5/4
+EA B2 G2 [F4A4] |\
+M:4/4
+A,B, C2 (DD/2E/2) F>F |\
+M:5/4
+FF B2 (AG/2)A/2 B4 ||
+%%text 2: entr\'ee basse continue

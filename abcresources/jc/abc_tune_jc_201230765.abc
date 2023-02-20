@@ -1,0 +1,29 @@
+X: 14102
+T: ZORA'S MARCH
+C: Bob McQuillen 1 May'09('10)
+B: Bob's Note Book 14 #102
+%R: march
+%D:2009
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: This tune is more readable as M:2/4 L:1/16 than the oriinal M:C L:1/4.
+M: 2/4
+L: 1/16
+K: D
+FG \
+| AA2B A2de | fd2B A2FA | BB2d c2B2 | A4- A2FG \
+| AA2B A2de | f2e2 d2Bc | dd2B d2f2 | e4- e2FG |
+| AA2B A2de | f>gfe eddc | B2d2 c2e2 | d4- d2dc \
+| BB2c dcde | f2dB A2FA | Bd2d d2e2 | d4- d2 ||
+fg \
+| a2a2 bafe | d>edB BAFA | Bd2d f2e2 | d4- d2dc \
+| BB2d edcB | BAdf a2ag | f2d2 Bdgf | e4- e2ef |
+| g>agf e2de | f>gfe edfa | b2a2 g2f2 | e4- e2dB \
+| A>FAd BAdf | a>fef dBdB | Af2g f2e2 | d4- d2 |]
+%%begintext align
+%% More recently,
+%% Zora Blade, of the Seattle Blades, has been involved with
+%% Circus Smurkus, and now she's headed for the \'Ecole
+%% National du Cirque du Canada. Of course, she'll eventually
+%% need a tune so she can march into the Ring in the Big
+%% Top, so here it is, Z-Z! With much love from Bob.
+%%endtext

@@ -1,0 +1,25 @@
+X: 11583
+T: MR. J. HARKIN'S WALTZ
+C: Copyright.
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.158 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Both strains have final repeat but no initial repeat; fixed.
+M: 3/4
+L: 1/8
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F/B/ |\
+d6 | B3 A/B/ c2 | d6 | gfdBF2 |\
+c6 | B3 A/B/ c2 | edgfec | bagfdB |\
+d6 | B3 A/B/ c2 | d6 | gfdBF2 |\
+(f=eg)f_ec | bagfec | (f=eg)f_eA | B6 :|
+|:\
+!p!(f6 | =e2)f2g2 | (a6 | f2)c2A2 |\
+(f6 | =e2)f2g2 | a6 | (f2=e2_e2) |\
+!f!d6 | TB3 A/B/ c2 | d6 | gfdBF2 |\
+(f=eg)f_ed | bagfec | (f=eg)f_ec | {A2}B6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

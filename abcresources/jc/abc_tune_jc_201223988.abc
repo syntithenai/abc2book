@@ -1,0 +1,34 @@
+X: 7
+T: Miss Maule's Strathspey
+C: Robert Mackintosh
+B: Roy Goldring "14 Social Dances"
+P: Tune for "the Grants' New Rant"
+R: strathspey
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+E |\
+"A"c2  A<E "D"F<A "A/C#"E<C | "A"c2 A>E "Bm/D"F<B "E7"B>d |\
+"A"c>B A<E "D"F<A "A/C#"E<C | "Bm"D<F "E7"E>G "A"A/A/A AE |
+"A"c2  A<E "D"F<A "A/C#"E<C | "A"c2 A>E "Bm/D"F<B "E7"B>d |\
+"A"c>B A<E "D"F<A "A/C#"E<C | "Bm"D<F "E7"E>G "A"A/A/A A ||
+e |\
+"A"c<e a<e "D"f>a "E7"e>d | "A"c<e a>c "E7"d<B B>d |\
+"A"c<e a<e "D"f>a "A/C#"e<c | "Bm"d<f "E7"e>d "A"c<A A>e |
+"A"c<e a>e "D"f<a "E7"e>d | "A"c<e "F#m"a<c "Bm/D"d<B "E7"Bc/d/ |\
+"A"c<e "Bm"d<f "A/C#"e<a "E"g<b | "D/F#"a<f "E7/G#"e>d "A"c<A A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+A,2 [c'2a2e2] [a2d2] [a2c2] | A,2 [c'2a2e2] [d2D2] [e2E2] |\
+A,2 [c'2a2e2] [a2d2] [a2c2] | [b2B2] [d'2g2e2] A2 [c'2a2] |
+A,2 [c'2a2e2] [a2d2] [a2c2] | A,2 [c'2a2e2] [d2D2] [e2E2] |\
+A,2 [c'2a2e2] [a2d2] [a2c2] | [b2B2] [d'2g2e2] A2 [c'a] ||
+z |\
+A,2 [c'2a2e2] [a2d2] [d'2e2] | A2 [c'2a2e2] E2 [d'2g2e2] |\
+A,2 [c'2a2e2] [a2d2] [a2c2] | [b2B2] [d'2e2] A2 [c'2a2] |
+A,2 [c'2a2e2] [a2d2] [a2c2] | A2 [c'2a2f2] [b2f2d2] [d'2g2e2] |\
+[a2A2] [b2B2] [c'2c2] [e'2e2] | [d'2f2] [e'2g2] [e'2c'2a2] A :|

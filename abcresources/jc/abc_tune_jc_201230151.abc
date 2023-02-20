@@ -1,0 +1,39 @@
+X: 1331
+T: the Duke of Atholes Delight
+N: The tune is really just the 6-bar phrase, with 9 variations.
+%R: air, strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.33 #1 (and allof p.34)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+%%continueall	% To simplify formatting for your window/screen size.
+% - - - - - - - - - -
+V: 1 staves=2
+"^A"[|] B2 | G3DG2B2 {B}A4G2E2 | G3DG2B2 G3DG2B2 | c3AB3G {B}A4G2E2 | G3DG2B2 d2e2g2d2 | efg2 fga2 {B}A4G2E2 | GABc dcBA 
+G4G,2 "^B":: d2 | g3dg2b2 Ta4g2e2 | g2d2g2b2 g2d2g2b2 | g2d2g2b2 Ta4g2e2 | g2d2e2g2 d2e2g2d2 | efg2 fga2 {B}A4G2E2 | GABc dcBA G4G,2 "^C"::
+B2 | G2D2 GABc | {B}A3G E2A2 | G2D2B2D2 d2D2B2D2 | (G2B2g2).B2 A2D2 FGAF | G2D2E2C2 D2G2B,2G,2 | C2A2B,2G2 A,2A2 FGAF | GABc dcBA
+G4G,2 "^D":: ef | gfed B3g agfe f3a | bagf g2d2 e2b2g2d2 | e2b2g2d2 A2a2 fgaf | g2b2d2B2 c2a2c2A2 | B2g2B2G2 A2d2F2D2 |
+GABc dcBA G4G,2 "^E":: Bc | dcBA GABG {B}A3G E2Bc | dcBA GABc  d2G2 BdBG | cecA BdBG  A2D2 FGAF |
+G2Bd F2Ad E2Ac D2GB | (CE).A.C (B,D).G.B, A,2A2 FGAF | GABc dcBA G4G,2 "^F":: ef | gfed B3g agfe f2a2 | bagf g2d2 
+e2b2g2d2 | e2b2g2d2 A2a2 fgaf | g2b2 BcdB c2a2 ABcA | B2g2 GABG A2d2F2D2 | GABc dcBA G4G,2 "^G":: Bc | dcBA GABG 
+ABAG E2A2 | GDEF GABc d2G2 BdBG | cecA BdBG A2D2 FGAF | GBeG FAdF EGcE DGBD | CEAC B,DGB, A,2A2 FGAF |
+GABc dcBA G4G,2 "^H":: ef | gfed BcdB Aaeg fgaf | gdBd gbge fafd efge | dBgB GBdB Aaeg fgaf |
+gbge fafd egec dgdB | cecA BdBG A2D2 FGAF | GABc dcBA G4G,2 "^I":: Bc | d2G2d2B2 A2d2F2D2 | G2B2A2c2 d2G2B2d2 |
+c2a2B2g2 A2D2F2A2 | G2D2E2C2 D2G2B,2G,2 | C2A2B,2G2 A,2A2 FGAF | GABc dcBA G4G,2 "^J":: ef | g2B2g2B2 A2a2 fgaf | g2B2g2B2 agfe g2B2 |
+d2B2g2B2 A2a2 fgaf | g2b2d2B2 c2a2c2A2 | B2g2B2G2 A2d2F2D2 | GABc dcBA G4G,2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+"^A"[|] z2 | G4G4 d4e2c2 | B4G4 B4G4 | F4G4 d4e2c2 | B4G4 g4b4 | c'4a4 d'4c'4 | b2g2d'2d2
+g4G2 "^B":: z2 | g4G4 d4e2c2 | B4G4 G8 | G4g4 d4e2c2 | B4c4 g4b4 | c'4a4 d'4c'4 | b2g2d'2d2 g4G2 "^C"::
+z2 | G4G4 d4c4 | B4G4G8 | G4B2G2 d6c2 | B4c4 B4G4 | c4B4 A4d2c'2 | b2g2d'2d2
+g4G2 "^C":: z2 | g4g4 d4d4 | g4g4 c'4b4 | c'4b4 c'4d'4 | b4g4 a4f4 | g4G2B2 d4d2f2 |
+g4d'2d2 g4G2 "^D":: z2 | G4G4 d4c2A2 | G4G4 B4G4 | F4G4 d6c2 |
+B4d4 c4B4 | c4B2G2 d6c2 | B2G2 d2d2 g4G2 "^E":: z2 | g4g4 f4d4 | g4g4
+c'4b4 | c'4b4 d'4d4 | g4g4 f4d4 | g4G4 d4d2f2 | g4 d'2d2 g4G2 "^F":: z2 | g4g4
+d4c4 | B4G4 B4G4 | F4G4 d4d4 | c4d4 c4B4 | c4B2G2 d6c2 |
+B2G2d2d2 g4G2 "^G":: z2 | g4g4 d'2^c'2=c'4 | b4g4 d4c4 | B4G4 e2^c2 d2=c2 |
+B2c2d4 e2^f2g4 | f4g4 d6c2 | B2G2d2d2 g4G2 "^H":: z2 | g4g4 f4d4 | g4d4 g4g4 |
+f4g4 f4d4 | B4c4 B4G4 | e2f2 g2b2 d'6c'2 | b2g2d'2d2 g4G2 "^I":: z2 | g4g4 f4d4 | B4G4 d2c2B2G2 |
+G4g4 f4d4 | g8 f8 | g6b2 d'4d2c2 | B2G2 d2D2 g4 G2 :|

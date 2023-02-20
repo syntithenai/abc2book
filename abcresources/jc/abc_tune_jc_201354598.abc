@@ -1,0 +1,55 @@
+
+X: 1
+T: Yerushalayim shel zahav
+T: Jerusalem of gold
+C: Naomi Shemer
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+F: http://www.cs.wustl.edu/~cytron/music/ysz.pdf
+M: 3/4
+L: 1/8
+K: Dm
+A |\
+"Dm"AA AD DA | "Gm"A2 G3 G | "A7"GB A2 G2 | "D"^F4 zA |
+w: 1.~A-vir ha-rim tsa-lul ka-ya-yin, ve-rey-ach o-ra-nim nis-
+w: 2.~Cha-zar-nu el bo-rot ha-ma-yim, la-shuk ve-la-ki-kar sho-
+w: 3.~Ach be-vo-'i ha-yom la-shir lach ve-lach lik-shor k'ta-rim ka-
+"D(m)"AA AA BA | "Gm"A2 GB AG | "Dm"F4 "A7"E2 | "Dm"D4 zA |
+w: sa be-ru-ach ha-'ar-ba-yim, im kol pa-'a-mo-nim. Uv'-
+w: far ko-reh be-har ha-ba-yit ba-'ir ha-'a-ti-kah. Uv'-
+w: ton-ti mi-tse-'ir ba-na-'ich u-me ach-ron~ha-m'shore-rim. Ki
+"Dm"AA AD DA | "Gm"A2 G3 G | "A7"GB A2 G2 | "D"^F4 zA |
+w: tar-de-mat i-lan va-'e-ven, shvu-ya ba-cha-lo-ma, ha-
+w: me-'a-rot a-sher ba-se-lah al-fei shma-shot zor-chot na-
+w: shmech tso-rev et has-fa-ta-yim ke-ne-shi-kat sa-raf im
+"D(m)"AA AA BA | "Gm"A2 GB AG | "Dm"F4 "A7"E2 | "Dm"D6- | D2 z||
+w: ir a-sher ba-dad yo-she-vet, u-ve-li-ba cho-ma.
+w: shuv ne-red el Yam Ha-me-lach b'-de-rech Ye-ri-cho.
+w: esh-ka-chech Ye-ru-sha-la-yim a-sher ku-lah za-hav.
+|: D DD |\
+"Gm"G2 G2 "C"GG | "F"F3 F FF | "Gm"B2 B2 "C7"BB | "F"A2 zA "F7"AA |
+w: Ye-ru-sha-la-yim shel za-hav, ve-shel ne-ho-shet ve-shel or, ha-lo le-
+"Bb"d4 "E7"ed | "Am"c2 A2 "Gm"G2 | "Dm"F4 "C7(A7)"E2 |1 "F"F2 z :|2 "Dm"D6- | D2 z2 z |]
+w: khol shi-*ra-yikh A-ni ki-nor. \-nor.
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: Yerushalayim shel zahav
+T: Jerusalem of gold
+C: Naomi Shemer
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+F: http://www.cs.wustl.edu/~cytron/music/ysz.pdf
+M: 3/4
+L: 1/8
+K: Em
+B |\
+"Em"BB BE EB | "Am"B2 A3 A | "B7"Ac B2 A2 | "E"^G4 zB |\
+"E(m)"BB BB cB | "Am"B2 Ac BA | "Em"G4 "B7"F2 | "Em"E4 zB |
+"Em"BB BE EB | "Am"B2 A3 A | "B7"Ac B2 A2 | "E"^G4 zB |\
+"E(m)"BB BB cB | "Am"B2 Ac BA | "Em"G4 "B7"F2 | "Em"E6- | E2 z||
+|: E EE |\
+"Am"A2 A2 "D"AA | "G"G3 G GG | "Am"c2 c2 "D7"cc | "G"B2 zB "G7"BB |\
+"C"e4 "F7"fe | "Bm"d2 B2 "Am"A2 | "Em"G4 "D7(B7)"F2 |1 "G"G2 z :|2 "Em"E6- | E2 z2 z |]

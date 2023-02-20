@@ -1,0 +1,22 @@
+X: 79
+T: Cacak from Padez
+T: Jaws Cacak
+F: http://www.youtube.com/watch?v=-zRpzqh5cbM
+M: 6/16
+L: 1/16
+K: G
+Q: 1/4=120
+%%MIDI program 57 % Trombone
+%%MIDI gchord fzzfzz
+"G"B,3 C3|B,3 C3|B,3 B,B,2|B,B,2-B,3|\
+B,3 C3|B,3 C3|B,3 B,B,2|B,B,2-B,3::
+G,6-|G,6::\
+G3,Bcd|G3,Bcd|G3,Bcd|G3,Bcd|\
+G3,Bcd|G3,Bcd|G3,Bcd|G3,Bcd::
+K:Gm
+"F"FGA ABc|ABc ABc|FGA ABc|ABc GF/G/z |\
+FGA ABc|ABc ABc|FGA ABc|ABc "Gm"G3 ::
+"Bb"d6|def d3|def def|d3 d3|\
+d6|def d3|def def|d3 d3::
+"F"c2zc2z|BAG A3|ABc FGA|ABc Az2|\
+c2zc2z|BAG A3|ABc FGA|"Adim"ABc Az2:|

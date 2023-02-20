@@ -1,0 +1,45 @@
+X: 1
+T:10th Bat crossing Rhine  "rpband"
+M:6/8
+L:1/8
+Q:80
+C:
+S:6/8 March
+K:HP
+|: {g}A|
+{Gdc}d3/2f/2{g}A{Gdc}d2f|
+{g}f3/2g/2a{fg}f3/2e/2d|  !
+{g}c2{GdG}e{g}A3/2{d}c/2e|
+{g}e3/2f/2g{afg}f3/2e/2d|
+{gdc}d3/2f/2{g}A{Gdc}d2f|  !
+{g}f3/2g/2a{fg}f3/2e/2d|
+{g}c2{GdG}e{g}A3/2{d}c/2e|
+{Gdc}d3{gdc}d2:| |:  !
+{gf}g|
+{ag}a2f{Gdc}d2f|
+{g}f/2a3/2f{gfg}f3/2e/2d|  !
+{g}c2{GdG}e{g}A3/2{d}c/2e|
+{g}e3/2f/2g{afg}f3/2e/2d|
+{ag}a2f{Gdc}d2f|  !
+{g}f/2a3/2f{gfg}f3/2e/2d|
+{g}c2{GdG}e{g}A3/2{d}c/2e|
+{Gdc}d3{gdc}d2:| |:  !
+{g}A|
+{Gdc}d3{g}A3/2d/2f|
+{g}f/2a3/2f{gfg}f3/2e/2d|
+{gcd}c3{g}A3/2{d}c/2e|  !
+{g}e3/2f/2g{afg}f3/2e/2d|
+{gdc}d3{g}A3/2d/2f|
+{g}f/2a3/2f{gfg}f3/2e/2d|  !
+{g}c2{GdG}e{g}A3/2{d}c/2e|
+{Gdc}d3{gdc}d2:| |:
+{gf}g|  !
+a2{GdG}aA3/2d/2f|
+{g}f/2a3/2f{gfg}f3/2e/2d|
+{g}c2{GdG}e{g}A3/2{d}c/2e|  !
+{g}e3/2f/2g{afg}f3/2e/2d|
+a2{GdG}aA3/2d/2f|
+{g}f/2a3/2f{gfg}f3/2e/2d|  !
+{g}c2{GdG}e{g}A3/2{d}c/2e|
+{Gdc}d3{gdc}d2:|
+

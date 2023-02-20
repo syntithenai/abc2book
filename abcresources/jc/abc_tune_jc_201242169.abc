@@ -1,0 +1,12 @@
+X:521
+T:Merry Men (Home from the Grave)
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 52
+M:6/8
+L:1/8
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+D|GAB BAB|GBd def|gfe edB|BAA A2B|GAB BAB|GBd def|
+gfe edB|dBG G2::d|gfg efg|ab^g afd|egf edB|
+GAA A2B|GAB BAB|GBd def|gfe edB|dBG G2:|

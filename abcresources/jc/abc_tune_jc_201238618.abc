@@ -1,0 +1,31 @@
+X: 31032
+T: COTILLION No. 13. ST. LAWRENCE SETT tune 4
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.103 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has no "D.C." at its end.
+N: The 2nd strain should probably be entirely in D major; there are missing sharps before some c notes.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+G2G GFG | D3 DEF | G2G GFG | Ad^c d2 dB |\
+G2G GFG | D3 DEF | GDB, CA,D | G,3 G,2 H|]
+A/G/ |\
+FAd Td>cd | A>^ce Te>de | Ade fed | ^cdB A2 A/G/ |\
+FAd d>^cd | A>^ce e>de | fed edc | e3 d2 |]
+B/c/ |\
+d2d B2B | g2g d3 | c2c B2B | AFG ABc |\
+d2d B2B | g2g d2B | cAG FEF | A3 "^D.C."G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% back to back,
+%% balance and turn.
+%% Next 2, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

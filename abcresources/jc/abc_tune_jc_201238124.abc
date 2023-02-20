@@ -1,0 +1,25 @@
+X: 30262
+T: WEBER'S LAST WALTZ
+C:
+%R: waltz
+N: This is version 2, for ABC software that understands diminuendo symbols and (some) complex repeat notations.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.26 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The repeat notation is bizarre, and transcribed as-is. Most ABC software won't understand it, either.
+N: bar 11 has a note missing; a G added to agree with the original in the (US) LoC collection.
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(dg) |\
+(gf) (fe) (ce) | (ed) dD GB | (QBAq) (QBAq) (QBAq) | (GB) (Bd) (df) |\
+(gf) (fe) (ce) | (ed) dD GB | (QBAq)(QBAq)(QBAq) | G2z2 !fine!:|\
+(DE) :| CA^CADA :|
+|: (DG)(BG)(BG) :|: (CA^CADA) :| EG B3 A | G2^F2=F2 |: [K:=f][K:C]\
+E3 E (FE/F/) | A2G2c2 | Qedq Qedq Qedq |\
+[1 (Qceq) (Qceq) (Qceq) :|[2 c2 "^D.C."z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

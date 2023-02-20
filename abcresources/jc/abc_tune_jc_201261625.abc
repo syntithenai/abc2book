@@ -1,0 +1,35 @@
+X:1
+T: Chester Ladies
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 34 notes)
+K:D
+M:4/4
+L:1/16
+a2 g2 |f2 g2 f2 e2 d2 f2 e2 d2 |c6 B2 A4 d2 c2 |B4 A2 G2 F4 A4 |D12 A2 G2 |F2 A2 F2 A2 d4 A4 |B8B2 c2 B2 A2 |
+%W:
+% voice 1 (1 lines, 32 notes)
+G4 B4 e4 B4 |c12 d2 e2 |f2 e2 d2 f2 e2 d2 c2 e2 |f2 e2 d2 f2 e2 g2 f2 g2 |a2 ^g2 a2 c2 B6 A2 |A12 a2 g2 |
+%W: A2
+% voice 1 (1 lines, 32 notes)
+f2 g2 f2 e2 d2 f2 e2 d2 |c6 B2 A4 d2 c2 |B4 A2 G2 F4 A4 |D12 A2 G2 |F2 A2 F2 A2 d4 A4 |B8B2 c2 B2 A2 |
+%W:
+% voice 1 (1 lines, 31 notes)
+G4 B4 e4 B4 |c12 d2 e2 |f2 e2 d2 f2 e2 d2 c2 e2 |f2 e2 d2 f2 e2 g2 f2 g2 |a2 ^g2 a2 c2 B6 A2 |A12 A4 |
+%W: B
+% voice 1 (1 lines, 33 notes)
+d4 d4 d2 e2 d2 c2 |B12 c2 d2 |c4 d4 e2 d2 c2 B2 |^A12 f4 |g2 f2 e2 g2 f2 e2 d2 f2 |g2 f2 e2 g2 f2 e2 d2 f2 |
+%W:
+% voice 1 (1 lines, 26 notes)
+g2 f2 e2 d2 c6 B2 |B12 c2 d2 |e4 e4 e2 f2 e2 d2 |c12 e4 |a4 a4 a2 b2 a2 g2 |f12 g2 a2 |
+%W:
+% voice 1 (1 lines, 50 notes)
+b2 a2 g2 b2 a2 g2 f2 a2 |b2 a2 g2 b2 a2 g2 f2 a2 |b2 a2 g2 f2 e6 d2 |d8d2 F2 G2 A2 |B2 A2 G2 B2 A2 G2 F2 A2 |B2 A2 G2 B2 A2 c2 B2 c2 |d2 c2 d2 A2 E6 D2 |D12 ||

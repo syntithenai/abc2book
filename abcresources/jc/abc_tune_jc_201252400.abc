@@ -1,0 +1,18 @@
+X: 1465
+T: Bill Clancy's Delight
+N: Variant of tune 704 (O'Neill's 1001) "Pretty Peggy"
+R: reel
+%S: s:2 b:16(8+8)
+O: J.O'Neill
+B: O'Neill's 1850 #1465
+Z: Bob Safranek, rjs@gsp.org
+M: C|
+L: 1/8
+K: D
+"^A"\
+[| d2fd AFDF | d2fd egfe | d2fd AFDF | GEFD EDB,A, |\
+|  d2fd AFDF | d2fd egfe | d2fd AFDF | dfeg fdd2 |]
+"^B"\
+[| ((3FED) (AD) BDAD | ((3FED) (AD) CEEG | ((3FED) (AD) BDAD | GEFD A,DD |\
+| G \
+|  ((3FED) (AD) BDAD | ((3FED) (AD) CEEG | FAdf ecdB | Agfe fdd2 |]

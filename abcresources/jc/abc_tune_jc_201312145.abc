@@ -1,0 +1,32 @@
+X:1
+T: Mock Hobby Horse
+N:25 October 1998
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 180
+%W:
+% voice 1 (1 lines, 22 notes)
+K:G
+M:6/8
+L:1/16
+d2 |B3 A B2 E2 F2 G2 A4 A2 A4 d c B3 A B2 D2 E2 F2 G4 G2 G4 d2 |
+%W:
+% voice 1 (1 lines, 22 notes)
+B3 A B2 E2 F2 G2 A4 A2 A4 d c B3 A B2 D2 E2 F2 G4 G2 G4 G =F |
+%W:
+% voice 1 (1 lines, 20 notes)
+E4 E2 E3 D C2 C4 c2 c3 B A2 B2 c2 d2 d4 ^c2 d4 d2 d3 c B2 |
+%W:
+% voice 1 (1 lines, 21 notes)
+A2 c4 B3 A G2 E2 A4 F3 E D2 d2 B2 c2 A3 G F2 G4 G2 G4 G =F |
+%W:
+% voice 1 (1 lines, 20 notes)
+E4 E2 E3 D C2 C4 c2 c3 B A2 B2 c2 d2 d4 ^c2 d4 d2 d3 c B2 |
+%W:
+% voice 1 (1 lines, 19 notes)
+A2 c4 B3 A G2 E2 A4 F3 E D2 d2 B2 c2 A3 G F2 G4 G2 G4 ||

@@ -1,0 +1,24 @@
+X: 1
+T: the Montague Processional
+C: David Kaynor
+O: arr. David Kaynor and Tim Ball
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+S: Session handout 2021-8-20
+M: C|
+L: 1/8
+K: D
+% = = = = = = = = = =
+V: 1 staves=2
+|: "D"D3F "(A7)"A2Bc | "D"d6 ef | "G"g3f "(D/F#)"e2d2 | "Em"B6 ef || "Em"g2fe "A7"a3g |
+| "D"f2d2 "G"g2ag | "D"fafd "A7"egec |1 "D"d2AG "A7/C#"FEDC :|2 "D"d6 ||
+|: "A7"fg \
+| "D"a3g "(A7)"f2ec | "D"d6 ef | "Em"g3f "(D7/F#)"e2d2 | "Em"B6 ef || "Em"g2fe "A7"a3g |
+| "D"f2d2 "G"g2ag | "D"fafd "A7"egec |1 "D"d6 :|2 H"D"d2AG "A7"FE"d.C."DC |][|!Coda![|] "D"D8 |]
+% = = = = = = = = = =
+V: 2
+|: A,3D F2(GA) | A6 cd | d3d B2B2 | G6 cd || e2dc e3e |
+|  d2A2 B2e2 | df dA cecA |1 [A2F2]FE A,CB,A, :|2 [A6F6] ||
+|: ce \
+| f3e d2cA | [A6F6] cd | d3d B2B2 | G6 cd || e2dc e3e |
+| d2A2 B2e2 | dfdA cecA |1 [A6F6] :|2 [A2F2]FE A,C"d.C."B,A, |][|!Coda![|] A,8 |]

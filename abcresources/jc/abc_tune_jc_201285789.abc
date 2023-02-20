@@ -1,0 +1,26 @@
+X:1
+T: Henry's Hornpipe
+N:
+C:
+S:
+A:
+O:
+R:
+M:3/2
+K:Dm
+I:speed 200
+%W: A
+% voice 1 (1 lines, 28 notes)
+K:Dm
+M:3/2
+L:1/16
+a4 d8 |e2 f2 g2 |f2 e2 d2 |e4 A8 |=B2 ^c2 d2 |c2 B2 A2 |d4 ^c2 |d2 e4 |A4 f4 |d4 g4 |d4 ^g4 |e4 a8 |
+%W:
+% voice 1 (1 lines, 30 notes)
+a4 d8 |e2 f2 g2 |f2 e2 d2 |e4 A8 |=B2 ^c2 d2 |c2 B2 A2 |d4 ^c2 |d2 e4 |A4 f4 |g2 a2 b2 |a2 g2 f2 |e8 |d8 |
+%W: B
+% voice 1 (1 lines, 29 notes)
+c4 f8 |a2 g2 f2 |e2 d2 c2 |B4 G8 |d4 c4 |B4 A2 |B2 c4 |B2 c2 d4 |c2 d2 e2 |f2 g2 a2 |b4 a4 |g4 f8 |
+%W:
+% voice 1 (1 lines, 27 notes)
+f2 g2 a4 |g4 f4 |e4 A4 |d2 e2 f4 |e4 d4 |^c8 |d4 c2 |d2 e4 |A4 f4 |g2 a2 b2 |a2 g2 f2 |e8 |d8 ||

@@ -1,0 +1,32 @@
+X: 1
+T: Fiddle Faddle    [G]
+%P: Longways for as many as will
+%R: reel
+B: John Walsh "Caledonian Country Dances with a Thorough Bass" p.3
+B: John Walsh "Caledonian Country Dances 3d Edition" p.6-7
+S: 1: http://javanese.imslp.info/files/imglnks/usimg/4/41/IMSLP74348-PMLP149069-Johnson_caledonian_country_dances.pdf p.3
+S: 3: CCD3  http://petrucci.mus.auth.gr/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.6-7
+Z: 2013, 2017 John Chambers <jc:trillian.mit.edu>
+N: This is a close relative of the Tail Toddle Reel (see Aird v.2 1785).
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: G/G/G BG c2 GE | G/G/G BG A2 FD | G/G/G BG cA BG | A/B/c B/c/d A2 FD :|
+|: c2 GE Ec GE | c2 GE DAFD | c2 GE EC GE | A/B/c/A/ B/c/d/B/ A2 FD :|
+|: G/G/G BG cA BG | G/G/G BG ADFD | G/G/G BG cA BG | A/B/c/A/ B/c/d/B/ A2 FD :|
+|: c2 Ec Ec GE | c2 E/c/B/c/ DA FE/D/ | c2 Ec Ec GE | A/B/c/A/ B/c/d/B/ A2 FD :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: "G"g2z2 "C"c2z2 | "G"g2z2 "D"f2z2 | "G"g2z2 "C"f2"G"g2 | "Am"f2"G"g2 "D"d2D2 :|
+|: "C"e2z2 c2z2 | "C"c2z2 "D7"d2z2 | "C"c2z2 c2z2 | "Am"f2"G"g2 "D"d2D2 :|
+|: "G"g2z2 "D"f2"G"g2 | "G"g2z2 "D"f2d2 | "G"g2z2 "C"f2"G"g2 | "Am"f2"G"g2 "D"d2D2 :|
+|: "C"e2z2 c2z2 | "C"c2z2 "D"d2z2 | "C"c2z2 c2z2 | "D"f2"G"g2 "D"d2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. foots it and casts off .| Then foot it again, and the Man casts off, and the Wo
+%% casts up :| figure contrary Sides :| figure on your own Sides :| foot it Corners and turn .:|
+%% foot it the other Corners and turn :.| Hay contrary Sides :#: foot it to your Partner & turn it out.
+%%endtext
+% %sep 1 8 500

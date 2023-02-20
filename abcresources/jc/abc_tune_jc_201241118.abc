@@ -1,0 +1,20 @@
+X: 4243
+T: Mr Compton of Carham-Hall's Reel
+C: by A.Givan of Kelso
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.4 p.24 #3 (and top staff of p.25)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+E |\
+A2cA ecac | A2cA BFFB | A2cA ecae | (fg/a/) ed cAA :| (e/f//g//) | aece dfce | aece fBBg |
+aece dfce | (fg/a/) ed cAAg || aece dfce | aece fBBc | AEFG ABcd | cedB cAA |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | a2a2 b2b2 | a2a2 a2c'2 | d'2e'2 a2a :| z | a2a2 g2a2 | a2a2 b2b2 |
+a2a2 d'2c'2 | d'2e'2 a2a2 || a2a2 d'2c'2 | a2a2 b2e2 | c2d2 c2B2 | A2e2 A2A |]

@@ -1,0 +1,37 @@
+
+X: 1
+T: Mayim
+T: Water
+O: Israel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: Dm
+|: D/E/ \
+|  "Dm"DE F/E/D | FG A>G | "F"FA cB | AG "A7"AA/A/ \
+|  "Dm"DE F/E/D | FG A2 | "Bb"dd "F"cc | "Am"Ac "Dm"d2 ||
+|| "Dm"dd dd | "Bb"dd dd | "F"zc cc | "Am"Ac "Dm"d2 \
+|  "Dm"dd dd | "Bb"dd dd | "F"zc cc | AG A2 || "C7"c2 c2 | c2 c2 ||
+|| "F"cc "C7"B/A/G | "F"cc "C7"B/A/G | "F"FG A>A | GF "C7"c2 \
+|  "F"cc "C7"B/A/G | "F"cc "C7"B/A/G | "A7"AA "Dm"F/E/D | "A7"FE "Dm"D2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mayim  [Am]
+T: Water
+O: Israel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: Am
+|: A/B/ \
+| "Am"AB c/B/A | cd e>d | "C"ce gf | ed "E7"ee/e/ |
+| "Am"AB c/B/A | cd e2 | "F"aa "C"gg | "Em"eg "Am"a2 ||
+||"Am"aa aa | "F"aa aa | "C"zg gg | "Em"eg "Am"a2 |
+| "Am"aa aa | "F"aa aa | "C"zg gg | ed e2 || "G7"g2 g2 | g2 g2 ||
+||"G7"gg f/e/d | "G7"gg f/e/d | "C"cd e>e | dc "G7"g2 |
+| "G7"gg f/e/d | "G7"gg f/e/d | "E7"ee "Am"c/B/A | "E7"cB "Am"A2 :|
+"Coda" \
+|| "Am"a2a2 | za "G"gg | "Am"a2a2 | za "G"gg | "Am"a2a2- | a4 |]

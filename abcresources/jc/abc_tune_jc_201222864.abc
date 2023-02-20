@@ -1,0 +1,19 @@
+X: 64
+T: Dumfries_House
+%R: jig
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.27 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D |\
+G3 G2g | dBG GAB | cGE EFG | AFD DEF |\
+G3 G2g | dBG GAB | cEA TF>EF | gdc BAG |
+G3 G2g | dBG GAB | cde dcB | AFD DEF |\
+G3 G2g | dBG GAB | cEA FEF | G3 G2 |]
+d |\
+dBd dBd | gag (Tf2e) | dBd {e}dcB | AFD D2d |\
+dBd dBd | gag f2e | dcB AGF | gdc BAG |
+dBd dBd | gag f2e | dBd {e}dcB | AFD D3 |\
+dBd ece | fdf gfe | dcB Agf | gdB G2 |]

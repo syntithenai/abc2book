@@ -1,0 +1,32 @@
+X: 04
+T: Lady Egremont's Waltz
+%R: waltz
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.2 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 3/8
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+d2 |\
+Bc d2g2 | Bc d2g2 | fgabc'a | b2g2 d2 |\
+Bc d2g2 | Bc d2g2 | fgabc'a | g4 :|
+|: d2 |\
+c'b a2c'2 | ba g2b2 | agfgab | g2d2 d2 |\
+c'b a2c'2 | ba g2b2 | agfgab | g4 :|
+|: Bc |\
+d2B2g2 | e2c2A2 | F2d2c2 | c2B2 Bc |\
+d2B2g2 | e2c2A2 | F2dcBA | G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Each strain repeated)
+%%begintext align
+%% Hands 3 round on the Ladies side hands 3 round on the Gents: side |:
+%% cross over one Cu: half figure round the bottom Cu: |: the Lady
+%% whole figures round the bottom Cu: & the Gent: round the top |: .
+%%endtext
+%%center OR THUS
+%%begintext align
+%% Swing with right hands round the 2d Cu: then with the left |: hands six
+%% round & back |: & set & half right & left with the 3d Cu: |: .
+%%endtext

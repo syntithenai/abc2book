@@ -1,0 +1,52 @@
+X:1
+T:JOHN MACDONALD OF GLENCOE  "glencoe.bmw"
+M:C|
+L:1/8
+Q:80
+C:WM. LAWRIE
+S:MARCH
+K:HP
+{gef}e/2d/2 | \
+{g}c/4e3/4{g}A{GAG}A{ag}a | \
+c/4{d}A3/4{d}c/4e3/4{gfg}f{g}e3/4d/4 |
+{gcd}c{gef}e{AGAG}A{GdG}c | \
+{g}B/4{d}G3/4{g}B3/4c/4{Gdc}d{gef}e/2d/2 | \
+{g}c/4e3/4{g}A{GAG}A{ag}a |
+c/4{d}A3/4{d}c/4e3/4{gfg}f{gef}e3/4d/4 | \
+{g}c{GdG}e3/4A/4{gcd}c3/4B/4{gde}d3/4G/4 | \
+{gBd}B{e}A{GAG}A :|
+{g}c3/4d/4 | \
+{gef}e{AGAG}A{ag}ag3/4f/4 | \
+{gef}e{AGAG}A{gcd}c{gef}e |
+{Gdc}d{g}f3/4d/4{g}c/4{d}A3/4{gef}e3/4c/4 | \
+{g}B/4{d}G3/4{g}B3/4c/4{Gdc}d{g}c3/4d/4|1
+{gef}e{g}A3/4{d}c/4{ag}ag3/4f/4 |
+{gef}e{AGAG}A{gcd}c{Gdc}d | \
+{g}c{GdG}g3/4A/4{gcd}c3/4B/4{gde}d3/4G/4 | \
+{gBd}B{e}A{GAG}A:|2
+{gef}e{ag}a{cGdG}c{gef}e | \
+{g}A3/2{GdGe}A/2{gcd}c3/2{Gdc}d/2 | \
+{g}c{GdG}e3/4A/4{gcd}c3/4B/4{gde}d/2G/4 |
+{gBd}B{e}A{GAG}A|]
+{gef}e/2d/2 | \
+{gcd}c{e}A3/4{d}c/4{g}c/4e3/4{g}A3/4{d}c/4 |
+{Gdc}d{g}f/4a3/4{ef}e{g}c/2{d}A/2 | \
+{g}c/4e3/4{g}A3/4{d}c/4{gcd}c{e}A3/4{d}c/4 | \
+{gBd}B{e}G3/4{d}B/4{g}c/4e3/4{gde}d/2B/2 |
+{gcd}c{e}A3/4{d}c/4{g}c/4e3/4{g}A3/4{d}c/4 | \
+{Gdc}d{g}f/4a3/4{ef}e{g}c/2{d}A/2 | \
+{g}c{GdG}e3/4A/4{gcd}c3/4B/4{gde}d3/4G/4 |
+{gBd}B{e}A{GAG}A :| \
+{g}c3/4d/4 | \
+{gef}e{ag}a{g}ag3/4f/4 |
+{gef}e{GAG}A{gcd}c{gef}e | \
+{Gdc}d{g}f3/4d/4{g}c/4{d}A3/4{gef}e3/4c/4 | \
+{g}B/4{d}G3/4{g}B3/4c/4|1 {Gdc}d{g}c3/4d/4|2 {gef}e/2c/2|1
+{gef}e{ag}a{g}ag3/4f/4 | \
+{gef}e{GAG}A{gcd}c{Gdc}d | \
+{g}c{GdG}e3/4A/4{gcd}c3/4B/4{gde}d3/4G/4 |
+{gBd}B{e}A{GAG}A:|2
+{gde}d3/4c/4{g}B3/4{d}c/4{g}A3/4B/4{GdG}c3/4d/4 | \
+{gef}e3/4A/4{d}c/4e3/4{gfg}f{gef}e3/4d/4 |
+{g}c{GdG}e3/4A/4{gcd}c3/4B/4{gde}d3/4G/4 | \
+{gBd}B{e}A{GAG}A|]

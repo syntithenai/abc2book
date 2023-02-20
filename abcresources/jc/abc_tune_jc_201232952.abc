@@ -1,0 +1,30 @@
+X:1812
+T:The Axum Reel
+%
+P:Lord Elgin's Fancy
+C:Beauties of Gow
+R:Strathspey (nx32)
+B:RSCDS 18-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:G
+f |\
+"G"g>d B<G "C"c<e "G"d2 | "G"g>d B<G "Am"E>A "D"F<D |\
+"G"g>d B<G "C"c<e "G"d2 | "Em"B>g "Am"e>a "D"f<d "G"g :|
+f |\
+"Em"e>e g>e b>g e>B | G<G "B"B>A "Em"G>B G>E |\
+"Em"e<e g>e "B"^d>f B>a | "E7"g>e "B7"B>^d e>f "D"f2 |
+"G"g>d B<G "C"c<e "G"d2 | "G"g>d B<G "Am"E<A "D"F>D |\
+"G"g>d B<G "C"c<e "G"d2 | "Am"e>a "D"g/f/e/f/ "G"g2 g |]
+%
+P:General Campbell
+C:Robert Macintosh
+R:Strathspey
+Z:Bruce Shawyer
+K:A
+M:4/4
+L:1/16
+E2 | A4 c3A FA3 E3C | E3e dcBA c3B B3c | d3f c3e B3A GE3 | F3d B3G A3B A2 :|
+e2 | a3e c3A B3A GE3 | A3a e3c ABcd e3c | d3g c3a B3A G3E | A3d c3B cA3 A2 |
+e2 | a3e c3A B3A G3E | ABcd e3c A3a e3c | d3b c3a B3c d3f | e3a b3g a4 a2 |]

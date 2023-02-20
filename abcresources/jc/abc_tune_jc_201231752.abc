@@ -1,0 +1,28 @@
+X: 15
+T: Capt. Flash
+%R: slip-jig
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: The 2nd strain does have 5 bars.
+M: 9/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+|: a3 A2c B2A | agf edc B3 | AaA AAA BAG | Aag fe^d e3 :|
+|: e3 E2d (Tc2B) | ced cBA G3 |\
+   ecA ABA g2a | ecA ABA f2a | edc dcB A3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|: A3 A3 e3 | a3 A3 e3 | A3 A3 e3 | a3 "4 #"b3 e3 :|\
+|: z2z "6"g3 "6;4 5"e3 | a3 A3 e3 |
+"6"c3 A3 e3 | "6"c3 A3 d3 | "6"c3 "7"e3 A3 |]
+%%begintext align
+%% First Man sets to the 2d Wo. and cross over one Couple with his Partner: Hands across half
+%% Round lead thro' the 2d Couple and cast up to Top set & turn; Haands a cross half Round
+%% and turn ||
+%%endtext

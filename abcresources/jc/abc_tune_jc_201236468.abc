@@ -1,0 +1,25 @@
+X: 2213
+T: Gowd in Goupins.   a Jig.
+%R: jig
+B: Niel Gow & Sons "Complete Repository" v.2 p.21 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C	% mixed with Am and G
+% - - - - - - - - - -
+% Voice 1 staff break moved for more evenly-spaced notes.
+V: 1 staves=2
+f |\
+.e/.f/.g.e c2e | ~c2e dBG | c2A (B/c/d)c | {c}TB3 B2f |\
+e/f/ge c2e | ~c2e dBG | cBA BA^G | A3 A2 :: g |\
+a2e g2d | (e/^f/g).e dBG |
+c2A (B/c/d).c | {c}TB3 B2g |\
+[1 a2e g2d | (e/^f/g).e dBG | cBA BA^G | A3 A2 :|\
+[2 ag^f gfe | dgd dBG | cBA BA^G | A3 A2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+% A few missing dots added to get correct measure lengths.
+V: 2 clef=bass middle=d
+z |
+c3 c'3 | c3 g3 | a3 ^f3 | g3 G3 | c3 c'3 | c3 g3 | a3 e3 | A3 A2 :: z | a3 b3 |
+c'3 g3 | a3 ^f3 | g3 G2z |[1 a3 b3 | c'3 g3 | a3 e3 | A3 A2 :|[2 A3 B3 | c3 d3 | e3 E3 | A3 A2 |]

@@ -1,0 +1,17 @@
+X: 49
+T: Air in Fortunatus
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.22,23 #49
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+a |\
+{g}f>ed d'c'b | (af)d TA2(G | F)Ad (f/g/a).f | eee e2a |\
+{g}f>ed d'c'b | (af)d TA2(G | F)Ad gfe | .d.d.d d2 :|
+|: e |\
+cea gfe | dfa d'c'b | afa (b/c'/d').c' | .b.b.b Tb2c' |\
+d'af (b/c'/d').b | afd B2(d | A)FA gfe | .d.d.d d2 :|

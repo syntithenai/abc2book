@@ -1,0 +1,23 @@
+X: 2
+T: Sir William Curtis's Jigg
+%R: slip-jig
+B: "Twenty Four Country Dances with Figures for the Year 1810", Button & Whitaker, p.1 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1810
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+ded B2c dBG | ABc B2G AFD |\
+ded cBc dBG | AcB AGF G3 :|
+|:\
+ded Bcd efg | dBg dBG AFD |\
+ded Bcd efg | ded cBA G2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Cast off one Cu: and hands 4 round with
+%% the 3d Cu: up again & hands 4 round with the
+%% 2d Cu: :| cross over 2 Cu: lead up to the top
+%% and cast off :|: turn corners lead outsides :|:
+%%endtext

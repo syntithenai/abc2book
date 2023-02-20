@@ -1,0 +1,18 @@
+X: 20435
+T: YOUNG WILLIAM WAS A SEAMAN TRUE
+Q: "Moderate."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.43 #5
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Fixed the invalid rhythms in bars 5, 11 in the obvious way. (The first beats had length 5/32.)
+M: 3/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+z4 z2a2 f3d | A4 z2F2 G3A | (A2d2) z2d2 d3f | b4 (a2g2) f3e |\
+(d3e/d/ c2)e2 e2d2 | (c6 d2) (B3A) | A4 z3f g3a | bez2 z4 f3g |
+a4 z3a g3f | e4 z3g B3e | (d3e/d/) Hc3A B3c | d4 z3d e3f |\
+g4 z3e f3g | Ha2zd f3g e4 | d8 z4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

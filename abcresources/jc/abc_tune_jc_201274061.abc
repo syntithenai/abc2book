@@ -1,0 +1,30 @@
+X: 1
+T: Fair Jenny's Jig
+C: Peter Barnes
+R: jig
+N: Q: 3/8=120
+M: 6/8
+L: 1/8
+Z: Contributed 2018-05-24 18:50:35 by Ross sharp11@gmail.com
+K: D
+"(A)"A |\
+"D"f2f fgf | "A"ecA ecA | "G"Bcd "A"ecA | "G/B"Bcd "A/C#"efg |
+"D"f2f fgf | "A"ecA ecA | "G"Bcd "A"ecA | "A7"ABc "D"d2     :|
+|:"(D7)"=c |\
+"G"B2B B=cB | G2B B=cB  | "D"ADD dDD    | cDD =cDD  |
+"G"B2B B=cB | G2B B=cB  | "A"A2A "A7"ABc|"D"dAF D2 :|
+w: v5
+|x|x|x|x|"/G"B2 "/A"c2 "/B"d2 | "/C#"e2 "/D"^f2 "/E"g2 |
+
+X: 1
+T: Quince Dillon's High D Tune
+R: reel
+M: 4/4
+N: Q: 1/2=120
+L: 1/8
+K: D
+FE| "D"D2D2 FDFA| dcde "G"dcB2| "A"A2A2 c2e2| a2a2 "D"d'2FE|
+    "D"D2D2 FDFA| dcde "G"dcB2| "A"ABAG FDEF| "D"D4 z2 :|
+ag|: "D"fd2e d2A2| defg agf2| "C"e=c2d "Am"cAGA| "A"=cd"D"ef "G"gage|
+     "D"fd2e d2A2| defg aba2| "A"ABcd egfe|1 "D"d2a2 a3g:|2 "D"d4 z2 |]
+w: v1

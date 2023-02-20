@@ -1,0 +1,34 @@
+X: 10792
+T: COTILLION No. 6. tune 4
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.79 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added dot to the B in bar 8 to fix the rhythm.
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+B3 Bcd | c3 cde | (df).B (ce).A | BFE DCB, |\
+B3 Bcd | c3 cde | (df).B (ce).A | B3 z2 H|]
+d/e/ |\
+f3 f3 | f3 fga | bfe dcB | AcB AGF |\
+f3 f3 | f3 fga | bfe dcB | f3 fge |]
+d3 cBc | B3 Bcd | e3 dcd | c3 cde |\
+(f2.d) (g2.e) | (f2.d) (g2.e) | fgf fed | (d3 c).B.c |]
+d3 cBc | B2B Bcd | e2e dcd | c2c cde |\
+(f2.d) (g2.e) | (f2.d) (g2.e) | ded cBA | Bgf ed"^D.C."c |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple lead to the right and balance,
+%% swing round with the couple you balance,
+%% lead to the next and balance,
+%% and so on till you come to your place,
+%% balance your partner and turn,
+%% promenade 4,
+%% other couples the same.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

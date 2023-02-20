@@ -1,0 +1,75 @@
+
+X: 1
+T: \,Cobankat    [Cm]
+O: Albania
+A: Kor\,ca, Albania
+Z: Birgitt Karlson
+M: 4/4
+L: 1/8
+%Q:1/4=120
+Q: 3/8 1/8 2/8 2/8
+S: Seymour Shlien; modified to match recording by John Chambers.
+S: http://www.folkloretanznoten.de/Cobankat1.pdf
+K: Cdor
+%%continueall
+z8 |z8 \
+"^Instr."[|\
+"Cm"z GGc cB BG | G4 GF E2 |\
+z G Gc cB BG | cB GF E4 |\
+"C"=EF "F"GA A2 A2 |
+Ac cA AG AG | "Cm"G4-GF EC |\
+CG Gc cB BG | cB GF E2 EC |\
+C8- | C8 |]
+%
+"^Vocal"|:\
+"Cm"{F}G4 G4 | C4 C2 =EF | G4 C4 |\
+"F"F2 GA [F2A2] [F2A2] | "Gm"[D3A3] G D4 | "Cm"C8 :|
+"F"F2 GA [F2A2] [F2A2] | [F2A2] [F2A2] [F2A2] [F2A2] |\
+"Dm"[D3A3]G D4 | "Cm"C4 z4 |\
+"F"F2 GA [F2A2] [F2A2] | [F2A2] [F2A2] [F2A2] [F2A2] |
+"Dm"[D3A3][GD] D4 | "Cm"C2[F2A2] [F2A2][F2A2] |\
+"Dm"[F4A4] D4 | "Cm"C2[F2c2] [Fc]A [F2A2] |\
+"Dm"[F3A3]G D4 | "Cm"C8- | C8 |]
+%
+"^Coda"|:\
+"F"=EFGA A2A2 | A4 Ac{A}GF | "Dm"G4 {c}GF{D}DC |1 "Cm"C8 :|
+[2 C2cc "F"cAGF | "Cm"G4 GFDC | C2dc "F"dc(3(AGF) | "Cm"G3c GFDC | C8 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: \,Cobankat    [Dm]
+O: Albania
+A: Kor\,ca, Albania
+Z: Birgitt Karlson
+M: 4/4
+L: 1/8
+%Q:1/4=120
+Q: 3/8 1/8 2/8 2/8
+S: Seymour Shlien; modified to match recording by John Chambers.
+S: http://www.folkloretanznoten.de/Cobankat1.pdf
+K: Ddor
+%%continueall
+z8 |z8 \
+"^Instr."[|\
+"Dm"z AAd dc cA | A4 AG F2 |\
+z A Ad dc cA | dc AG F4 |\
+"D"^FG "G"AB B2 B2 |
+Bd dB BA BA | "Dm"A4-AG FD |\
+DA Ad dc cA | dc AG F2 FD |\
+D8- | D8 |]
+%
+"^Vocal"|:\
+"Dm"{G}A4 A4 | D4 D2 ^FG | A4 D4 |\
+"G"G2 AB [G2B2] [G2B2] | "Am"[E3B3] A E4 | "Dm"D8 :|
+"G"G2 AB [G2B2] [G2B2] | [G2B2] [G2B2] [G2B2] [G2B2] |\
+"Em"[E3B3]A E4 | "Dm"D4 z4 |\
+"G"G2 AB [G2B2] [G2B2] | [G2B2] [G2B2] [G2B2] [G2B2] |
+"Em"[E3B3][AE] E4 | "Dm"D2[G2B2] [G2B2][G2B2] |\
+"Em"[G4B4] E4 | "Dm"D2[G2d2] [Gd]B [G2B2] |\
+"Em"[G3B3]A E4 | "Dm"D8- | D8 |]
+%
+"^Coda"|:\
+"G"^FGAB B2B2 | B4 Bd{B}AG | "Em"A4 {d}AG{E}ED |1 "Dm"D8 :|
+[2 D2dd "G"dBAG | "Dm"A4 AGED | D2ed "G"ed(3(BAG) | "Dm"A3d AGED | D8 |]

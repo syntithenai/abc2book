@@ -1,0 +1,1007 @@
+%abc
+%%%%
+%
+%               Musiques anciennes
+%
+%
+%
+%
+% Les airs sont au format ABC (http://www.gre.ac.uk/~c.walshaw/abc/).
+% Quelques logiciels recommandés pour interpréter ce format de fichier :
+%    AbcMus1.1b  http://home1.swipnet.se/~w-11382/abcmus/ (pour l'écoute)
+%    Abc2win     http://www.c7r.com/abc/ (pour la visualisation des notes)
+%    Abcm2ps     http://moinejf.free.fr/ (pour le format postscript)
+%
+%% © Copyright (c) Eric Forgeot <eric.forgeot@caramail.com>
+%                  - http://anamnese.fr.st
+%    Autre copyright pour les autres auteurs respectifs.
+%
+% Le "copyright" signifie seulement qu'il n'est pas permis
+% d'utiliser mon travail de transcription pour imprimer des partitions
+% ou des livres destinés à la commercialisation. La restriction est
+% uniquement pour ce cas.
+% Ces titres sont libres pour toute utilisation personnelle exclusivement.
+% Ce travail ne me rapporte rien financièrement.
+%
+%
+% Dernière mise à jour : 06/01/02
+% http://anamnese.online.fr/abc/
+%
+%
+%%%%
+
+%%textfont Times-Roman-Bold 15
+%%vskip 0.5cm
+%%center
+%%textfont Times-Roman 12
+%%vskip 0.5cm
+%%center Musiques anciennes
+%%center
+%%vskip 0.5cm
+%%center Transcriptions par
+%%center eric.forgeot@caramail.com
+%%center http://anamnese.fr.st
+%%vskip 0.5cm
+%%textfont Times-Roman 10
+%%text Version : janvier 2002
+%%sep
+%%vskip 0.5cm
+%%titlespace 0.5cm
+%%% wordsfont %%
+%%Page
+
+
+
+% Musique Ancienne
+X:1
+T:- - - Moyen Âge - - -
+
+
+X:2
+T:L'autrier m'en aloie
+C:Anonyme (médiéval)
+N:jouer en boucle, avec ornementations
+D:Alla Francesca - Richard Coeur de Lion
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:5/4
+L:1/8
+Q:1/8=130
+K:A
+(3B-Bf (3e-ef (6e/d/c/-c/B/-B/ (3AAB c2 |\
+(3B-Bf (3e-ef (6e/d/c/-c/B/-B/ (3ABc B2 :|
+(3BBB  (3c-cd (6e/d/c/-c/B/-B/ (3AAB c2 |
+M:4/4
+L:1/8
+(3Acd  (3ecB (6A/-A/-A/-A/B/c/ B2 |
+M:5/4
+L:1/8
+(3BBB  (3c-cd (6e/d/c/-c/B/-B/ (3AAB B2 |
+(3BBA  (3B-Bc (6e/d/c/-c/B/-B/ (3ABc B2 |]
+
+X:3
+T:médiéval1
+C:Anonyme ?
+N:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:4/4
+L:1/8
+Q:1/4=120
+K:Eb
+dc B2c2d2 | cB cd e4 | de f2d2 ed | cd ed c4 |
+dc B2cBcd | cd cd e4 | de fgf2 ed | cd ed c3z|
+gf e2f2g2 | ab ag f3z| fe d2e2 fg | f2 ef g2 (3def |
+g2 e2f2gz | %...
+
+X:4
+T:Quem a omagen
+C:Alphonse X de Castille (1221-1284)
+N:
+D:Xéremia - Ensemble Médiéval
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:4/4
+L:1/8
+Q:1/4=60
+K:A
+Bf f>e d d/e/f B | Bf f>e dc/B/ d2 |\
+Bf f>e d d/e/f B | Bf f>e d/c/B/A/ B2 |
+ fg e>f ga/g/ fe | ff/=g/ f>e de f2 |\
+ fg e>f ga/g/ fe | ff/=g/ f>e d/c/B/A/ B2 |]
+
+X:5
+T:Amoroso
+C:
+S:http://sca.uwaterloo.ca/~praetzel/Joy-J-book/Amoroso.htm
+N:
+D:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:4/4
+L:1/8
+Q:1/4=130
+K:C
+DEFE D2 EF | GAGF E2 D2 | DEFE D2 AG | FD E2 D4 :|
+|: A2 A2 G2 c2 | A2 A2 G2 AB | c2 ed cA B2 | A4 :|
+|: dd cB/A/ A2 AB | c3 B/A/ G2 AB | c2 ed cA B2 A4 :|
+|: A2 A2 G2 c2 | A2 A2 G2 G2 | A2 A2 GE F2 | E2 E2 E2 F2 |
+FEFG AG/F/ E2 | E2E2 G/4G/4G/4G/4 F>G | A2 A2 A2 AG | F3 D F2 E2 | D4 :|
+
+X:6
+T:- - - Renaissance - - -
+
+
+X:7
+T:Qui veut chasser une migraine
+T:Chanson à boire
+C:Gabriel Bataille (~1575 - 1630)
+B:
+O:France
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+Z:transcription paroles tirées de http://perso.infonie.fr/xrouchon/
+M:4/4
+L:1/8
+Q:1/4=135
+K:G
+V:1
+%%staves [1 2 3]
+G2 G>G A2-A>B | B2 (A>B) A2G2 | G2 A>B E2G2 | F2-F>E E2 z2 ::
+B2A>G F2-F>G | A>G F>E ^D4 | E>E E>E E2 ^D2 |
+E>F G>A F2 z2 | G>G G>G A2B2 | F>G F>E E2 z2 :|
+V:2
+B2 B>c d2-d>e | e2 ^c2d2B2 | c2d>eA2c2 | B2-B>A B2 z2 ::
+e2e2 d2d>B | d2A>A B2A2 | G2A2c2B2 |
+G>B e>d B2 z2 | B2-B>d e2e2 | B>c B>A B2 z2 :|
+V:3
+K:G bass
+%%MIDI transpose -24
+e'2e'>e' d'2-d'>b | e'2a2 d'2g2 | c'2 a>g a2e2 | b2 b>b e2 z2 ::
+e'2c'2b2 b>g | d'2d'>c'b2b2 | e'2a2e2b2 |
+ e'>d' e'>ab2z2 | e'2-e'>d' c'2b2 | b>b e'>e' e2 z2 :|
+W:Qui veut chasser une migraine
+W:N'a qu'à boire toujours du bon
+W:Et maintenir la table pleine
+W:De cervelas et de jambon
+W:
+W:   L'eau ne fait rien que pourrir le poumon
+W:   Boute, boute, boute, boute compagnon,
+W:   Vide-nous ce verr' et nous le remplirons
+W:   L'eau ne fait rien que pourrir le poumon
+W:   Goûte, goûte, goûte, goûte compagnon
+W:   Vide-nous ce verr' et nous le remplirons
+
+X:8
+T:Qui veut chasser une migraine (suite)
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:4/4
+L:1/8
+Q:1/4=135
+K:G
+%%staves [(5 4) (6 7) 8] %%(retirer cette ligne pour avoir la partition sur 4 parties)
+V:4
+G2 G>G A2-A>B | B2 (A>B) A2G2 | G2 A>B E2G2 | F2-F>E E2 z2 ::
+B2A>G F2-F>G | A>G F>E ^D4 | E>E E>E E2 ^D2 |
+E>F G>A F2 z2 | G>G G>G A2B2 | F>G F>E E2 z2 :|
+V:5
+B2 e>d e2-e>e | d2 (^c>e) d2d2 |c2 e>B A2e2 | B2-B>B e2z2 ::
+e2d>B d2-d>e | f>e d>^c B4 | e>e e>e e2 f2 |
+e>d e>d B2 z2 | e>d B>d e2e2 | B>A B>d e2 z2 :|
+V:6
+B2 z2 z>B B>B | A2 z2 z>A A>A | c2 z2 z>c c>c | B2B2B2z2 ::
+B2 z2 B2 B>B | A2 z2 A2 A>A | B2 z2 B2 B>B |
+B2 z2 A2 A>A | B2 z2 d2 d>d | A2 A2 B2 z2 :|
+V:7
+E2 z2 z>E E>E | E2 z2 z>E E>E | E2 z2 z>E E>E | F2F2E2z2 ::
+E2 z2 F2 F>F | F2 z2 F2 F>F | E2 z2 F2 F>F |
+E2 z2 F2 F>F | E2 z2 E2 E>E | F2F2E2z2 :|
+V:8
+K:G bass
+%%MIDI transpose -24
+e2 z2 z>e e>e | e2 z2 z>e e>e | e2 z2 z>e e>e | b2b2e2z2 :|
+e2 z2 b2 b>b | b2 z2 b2 b>b | e2 z2 b2 b>b |
+e2 z2 b2 b>b | e2 z2 e2 e>e | b2b2e2 z2 :|
+W:Le vin goutté par ce bon père
+W:Qui s'en rendit si bon garçon
+W:Nous fait discourir tout sans grammaire
+W:Et nous rend savant sans leçon
+W:
+W:   L'eau ne fait rien que pourrir le poumon...
+W:
+W:Loth, buvant dans une taverne
+W:De ses filles enfla le sein
+W:Montrant qu'un sirop de taverne
+W:Passe celui d'un médecin
+W:
+W:   L'eau ne fait rien que pourrir le poumon...
+W:
+W:Buvons donc tous à la bonne heure
+W:Pour nous émouvoir le rognon
+W:Et que celui d'entre nous meurre
+W:Qui dédira son compagnon
+W:
+W:   L'eau ne fait rien que pourrir le poumon...
+
+X:9
+T:Bransle gay III*
+C:Gervaise
+B:Troisième livre de danceries (1557)
+O:France
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:6/4
+L:1/4
+Q:1/4=195
+K:C
+V:1
+GGd2 | e2dc B A | G2G G d2 | e2 d/e/ f/e/d/c/B/A/ | G2 :|
+K:F
+GG d2 | B2 B c>A B/c/ | d2 GG d2 |
+B2 B c>ABc | d2 GGd2 | B2 d
+V:2
+%%MIDI transpose -12
+K:C
+dd g2| g2 gg f2 | d2 dd g2 | g2 ggf2 | d2 :|
+K:F
+bb a2 | g2 gf e2 | d2 bb a2 |
+V:3
+%%MIDI transpose -12
+K:C
+BBB2 | c2Bed2| B2BBB2 | c2Bed2 | B2 :|
+K:F
+ddd2 | d2 d c2 c | f2 dd d2 |
+V:4
+K:C
+%%MIDI transpose -12
+G,G,G,2 | C,2G,C,D,2 | G,,2G,G,G,2 | C,2G,C,D,2 | G,,2 :|
+K:F
+
+X:10
+T:Bransle des lavandières
+R:Bransle
+S:Thoinot Arbeau
+B:Orchesographie (1588)
+O:France
+A:Champaigne
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:4/4
+L:1/8
+Q:1/4=125
+K:C
+|: A>A AA GG c2 | dc BA A^G A2 :|\
+|: Ae ce dc BA :|
+|: AA G2 A2 B2 | B>B Bc dc BA |\
+ AA G2 A2 B2 | dc B A A^G A2 :|
+
+X:11
+T:Bransle des pois
+R:Bransle
+C:Trad.
+S:Thoinot Arbeau
+B:Orchesographie (1588)
+O:France
+A:Champaigne
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=120
+K:C
+ c2 cd | e2 ee | fe dd | e2 A2 |\
+c>B cd | e2 ee | fe dd | e2 A2
+Q:1/4=80
+|: AB G2 | AB cA | AB cd | cB A2 :|
+
+X:12
+T:Bransle de la torche
+R:bransle
+C:Trad.
+S:Thoinot Arbeau
+B:Orchesographie (1588)
+O:France
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:C|
+L:1/2
+Q:1/2=220
+K:F
+|: GABBA3 AGBAG ^F2^F2 GABBA3 cBA/ G/ AA G2G2 :|
+
+X:13
+T:Allemande
+R:
+C:Tielman Susato
+H:
+N:1
+B:
+O:Flandres
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:C
+L:1/8
+Q:1/4=110
+K:C
+V:1
+(cd)ef g3 c' | bg a2 f4 | (cd)ef g3 c' | bg a2 f3 f |
+a2 b2 c'3 b | a2 (gf) e3c | e2 a2 g3 c | e2 a2 g3 f |
+ed/c/ (B/A/)B c3 c | e2 a2 g3 c | e2 a2 g3 f | ed/c/ (B/c/)d/B/ c4 :|
+V:2
+c2 cd e2>e2 | B2 d2 B4 | c2>d2 e2>e2 | B2d2 B2>d2 | ff g2 c2 c2-|cA B2 c2>c2 |
+c2c2 c3c | c2c2 c2>c2 | B2G2 G3 C | c2c2 c3c |c2c2 c3c | B2 G2 G4 :|
+
+X:14
+T:Allemande
+R:
+C:Tielman Susato
+H:
+N:2 (petit livre) / 6
+B:
+O:Flandres
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:C
+L:1/4
+Q:1/4=110
+K:C
+V:1
+ zcga | gfed | ccd/e/f | ede2 | cc ga | gfed | ccde/f/ |
+(g/f/)e/d/e2 | zcef | edc2 | ABc2 | ABc2 | zcef | edc2 | ABc2 | ABc2 :|]
+V:2
+%%MIDI transpose -12
+ zGGc | cccA | AEBc | cAA2 | GGcc | cccA | AEBc-|
+c/c/c/A/ c2 | zAcc | cAAG | cBAG | cBA2 | zAcc | cAAG | cBAG | cGG2 :|]
+
+X:15
+T:Ronde
+R:
+C:Tielman Susato
+H:
+N:17
+B:
+O:Flandres
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:C
+L:1/8
+Q:1/4=110
+K:F
+F2 c2 ABcd | cBAG A2 F2 | F2 c2 ABcd | cBAG F4 ::
+F2 FG ABcA | B4G4 | F2F2E2E2 | F2E2D2C2 |
+C2 G2 G2B2 | A2G2F2B2 | A2G2F2 GF | (ED)FE F4 :|]
+
+X:16
+T:Ronde - Warum - Pour quoy
+R:
+C:Tielman Susato
+H:
+N:14
+B:
+O:Flandres
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:C
+L:1/4
+Q:1/4=110
+K:F
+daa>a | gafd | g>a g/f/e/d/ | (^c/=B/)^c d2 ::
+
+X:17
+T:Pavane - Mille ducas
+R:
+C:Tielman Susato
+H:
+N:8
+B:
+O:Flandres
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:C|
+L:1/4
+Q:1/4=110
+K:C
+ddee | ffge | eefe | dd^c2 | ddee | ffge | eefe |
+eefe/d/| ^c/B/^c d2  |e>e f/g/a/g/ | (f/e/)d c>d | eef2 | ede2 | ccd=B |
+cABc| d2f2 | ed2 ^c| d2=cc| d=BcA| Bcd2 | f2 ed-|d ^c d2 :|]
+
+X:18
+T:Pavane - Mille regretz
+R:
+C:Tielman Susato
+H:
+N:p6/pl : p42
+B:
+O:Flandres
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:C|
+L:1/4
+Q:1/4=125
+K:C
+V:1
+E4 | A2A2 | G3 F/E/ | DCD2 | Cccc | B2A>B | c>BA2 | ^G2 z2 ::
+V:2
+B4 | A2d2 | B3A | BcA2 | c>def | g2f2 | ee>cd | e2 z2 ::
+V:3
+e4 | c2f2 | c3d/c/ | Befd | e3 c | dec2 |ABcA | B2 z2 ::
+V:4
+
+X:19
+T:Pavane - Pass e medio
+R:Pavane
+C:Tielman Susato
+H:
+N:10
+N:p47 (autre volume)
+B:
+O:Flandres
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:C
+L:1/4
+Q:1/4=110
+K:C
+%%staves 1 (2 3) %%(retirer cette ligne pour avoir la partition sur 4 parties)
+V:1
+f3 e | d f2 e/d/ | e>d e/f/e/d/ | e3e | d>c d/e/ d | dfed | ^c>B c/d/c/B/ | ^c3 d/e/ |
+f3 e | d f2 e/d/ | e>d e/f/e/d/ | e/f/g/f/ ed | ^c/d/e/c/ d =B |\
+  ^c/A/ d3/2 c/4=B/4 d/c/ | d3d | d2 d2 :|]
+V:2
+D3 E | FGAB | c3 c | c4 | A2 AA | _B A2 G | A3 A | A4 |
+D3 E | FGAB | c4 | c2 c/B/A/G/ | A2 D2 | AGA2 | ^F3 F | ^F4 :|]
+V:3
+A3G | FDF2 | G>F G/A/G/F/ | G3 G | F D/E/ F/G/F/E/ | F2 GD | E>D E/F/E/D/ | E3 A |
+A3G | FDF2 | G>F G/A/G | G3 F | EA FG | EDE2 | D3 D | D2D2 :|]
+V:4
+%%MIDI transpose -12
+D4 | D4 | C4 | C4 | D4 | D2 C _B, | A,3 A, | A,4 |
+D4 | D4 | C4 | C3D | A,2 _B, G,| A, B, A,2 | D3 D | D4 :|]
+
+X:20
+T:Gaillarde - Mille ducas
+R:
+C:Tielman Susato
+H:
+N:13
+B:
+O:Flandres
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:3/2
+L:1/4
+Q:1/4=120
+K:C
+V:1
+zddd e2 | e fff g2 | e e>f g/e/ f2 | e dc/B/ ^c d2  ::
+zeee f>g | a/g/ fed c2 | d eee f2 | ee2de2 ::
+V:2
+zAAAc2 | cdddB2 | cccBdc | cAA2 A2 ::
+V:3
+%%MIDI transpose -12
+zFFF G2 | AAAB G2 | AAAGA2 | GFE2D2 ::
+V:4
+K:C bass
+%%MIDI transpose -12
+zDDDC2 | A,DDDE2 | A,A,/B,/ (C/D/) EDA, | CDA,2D2 ::
+
+X:21
+T:Ronde - Mille ducas en vostre bource
+R:
+C:Tielman Susato
+H:
+N:19
+B:
+O:Flandres
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:C
+L:1/8
+Q:1/4=110
+K:F
+G2 GG A2A2 | B2B2c2A2 | A2A2B2 AG | (FE)G^F G4 :: A2 AA AGAB |
+(cB)AG F4 | (DE)FG AF B2 | (AG) BA B4 ::
+
+X:22
+T:Ronde - Mon Amy
+R:
+C:Tielman Susato
+H:
+N:16
+B:
+O:Flandres
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:C
+L:1/4
+Q:1/4=110
+K:C
+%%staves 1 (2 3 4)
+V:1
+DDAA | c B/A/ BA | c>B AG | A>G FE :: (A/G/)A/B/ c>B | AGFD |
+G>E FD | (A/G/)F/E/ F2 :: "/.../"x
+V:2
+%%MIDI transpose -12
+dd f/e/ f/g/ | a-a/g/4f/4 ga | cg f/d/e | e>d c2 :: c/B/ c/d/ e>d | ee d/e/f/e/ |
+de>d d-|d ^c d2 ::
+V:3
+%%MIDI transpose -12
+A2 dd | ccec | e>d c/A/B | c>B AA :: AAEA | c>B A2 | E>E "??"z F | E2F2 ::
+V:4
+%%MIDI transpose -12
+D2 DD | A,2 EF | C2 FE | A,A, A,2 :: F3/2 (E/4D/4) C A,-|A,/B,/ C D D |
+G,C D2 | A,2 D2 ::
+
+X:23
+T:Ronde VII - Il estoit une fillette
+R:
+C:Tielman Susato
+H:
+N:16
+B:p.36 n°22 Heft1
+O:Flandres
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:C
+L:1/4
+Q:1/4=110
+K:F
+%%staves 1 (2 3 4)
+V:1
+B>A BA G>F G D  G/F/G/D/ G F G A D2 ::
+D D/E/ F G G ^F G2 =F F/G/A B B A B2 ::
+V:2
+%%MIDI transpose -12
+f>fff d>ddd _e>f_ed d/_e/cB2 ::
+
+X:24
+T:Basse danse - Entre du Fol
+R:
+C:Tielman Susato
+H:
+N:22
+B:
+O:Flandres
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:C
+L:1/8
+Q:1/4=110
+K:F
+(GF)FA G2G2 |(FE)FG F2F2 | G2 AB cBAG | A4 z4 |
+(AG)AB ABcd | c2 B2 A2 G2| (FG)AG (FE)G^F | G4 z4 |
+(AG)AB A2A2 | A4 z2 A2 | B
+
+X:25
+T:Basse danse - Danse du Roy
+R:
+C:Tielman Susato
+H:
+N:23
+B:
+O:Flandres
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:C|
+L:1/4
+Q:1/4=110
+K:F
+(c/B/)c/d/ c B | AGFE | D2 DD | D2 C/D/E/F/ | G2 GG |
+(G/A/)B/A/ G/F/E/D/ | E2 E E | E2E2 |
+
+X:26
+T:The King of Denmarks Galiard (11)
+R:Gaillarde
+C:Iohn (John) Dowland
+H:
+N:
+B:
+O:Angleterre - England
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:3/4
+L:1/4
+Q:1/4=120
+K:F
+%%staves 1 {(2 3) (4 5)}
+V:1
+AAA | A G/^F/E/G/ | ^F E/D/E | D3 | AdA | A G/^F/E/G/ |
+^F E/D/E | D3 | cfc | c>B A/G/ | F/A/G>G | F3 |
+f/c/ cc | c>B A/>G/ | F/A/ G>G | F3 | A/>c/ =B/>d/ ^c/>e/ | d>A F/A/ |
+G/F/E/D/ E | D3 | A/>c/ =B/>d/ ^c/>e/ | dfD | F/>G/ A/D/ E | HD3 :|
+V:2
+[A,D][A,2D2] | [A,3D3] | DD^C | D3 | [A,D][A,2D2] | [A,3D3] |
+DD^C | D3 | AA2 | A>GF-|F/ F F/ E | F3 |
+AA2 | A>GF-|F/ F F/ E | F3 | F/A/ G/G/4F/4 E/A/-|A/F/4E/4 F/F/ D/F/ |
+E/D/ -D/^C/4=B,/4 C | D3 | F/F/ G/G/ A/A/4G/4 | A/F/4E/4 D/D/ F/>G/ | A/F/- F/4E/4D/- D/^C/ | HD3 :|
+V:3
+K:F treble
+^F,3 | ^F,3 | A,A,A, | A,A,/G,/^F | ^F,3 | ^F,3 |
+A,A,A, | A,A,2 | =FF2 | F2 | F2 C-|C C-C/B,/ | A,3 |
+FF2 | F2C-|C C-C/B,/ | A,3 | F/F/ D E/E/ | FDD |
+B,
+V:4
+K:F bass
+%%MIDI transpose -12
+dd2 | d3 | xA2 | dD2 | dd2 |
+V:5
+K:F bass
+%%MIDI transpose -12
+DD2 | D3 | D/d/e/^f/g/e/ | ^f/g/ D2 |
+
+X:27
+T:The Earle of Essex Galiard (12)
+R:Gaillarde
+C:Iohn (John) Dowland
+H:
+N:
+B:
+O:Angleterre - England
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:3/4
+L:1/4
+Q:1/4=120
+K:F
+%%staves 1 {(2 3) (4 5)}
+V:1
+G/>A/ B/G/ g | f>_e d | dcB | A3 | fd/_ec/ | d>c B/A/4B/4 |
+c/B/A/G/A | G3 :||: d2d | d3/2 de/ | f>d B/c/ | d>c d/e/ |
+fd/_ec/ d>f_e | dg2 | ^f3 :||: d2d | d2d | e2e |
+e2e | d2d | d2d | =B/>c/ d/e/ c/d/ |1 =BHA2 :|2 =BHA2 |]
+V:2
+GG/>A/ B/c/ | d>cB | BAG | z^F-/F/G F | | AB/ c/>B/A/ | B>AG |
+V:3
+K:F treble
+
+B,
+V:4
+K:F bass
+%%MIDI transpose -12
+
+V:5
+K:F bass
+%%MIDI transpose -12
+X:28
+T:Sir Iohn Souch his Galiard (13)
+R:Gaillarde
+C:Iohn (John) Dowland
+H:
+N:
+B:
+O:Angleterre - England
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:3/4
+L:1/4
+Q:1/4=120
+K:C
+%%staves 1 {(2 3)(4 5)}
+V:1
+cBA | ^G>A B | cA2 | ^G3 | edc | B2 G/c/-|c/ BA ^G/ | A3  :||:
+GA G/>F/ | E/>D/ E/F/ G | c2 B | c3 | ABc | d2c | BA2 | ^G3 :||:
+z/e/ c/ ed/ | z/ c/ A/ cB/ | c>B A | ^G2 z | z/ d/ B/G/ c/A/ | B2A | ^G>AB | HA3 :|
+V:2
+EEE | E2 E | E-E/E/D | z/^G/-GG | =GGG | G D/D/ E/>F/ | GE-E/E/ | z/A/-AA :||:
+V:3
+A,B,C | B,B,z | ED/B,/4C/4D | z/E/-E E | C D/F/E | D/>C/ B,/D/C | D/D/-D/C/ B, | z/^C/-CC :||:
+V:4
+K:C bass
+%%MIDI transpose -12
+ee>^f | ^g/a/ e/=f/=g |
+V:5
+K:C bass
+%%MIDI transpose -12
+A^GA | e e-e |
+
+X:29
+T:- - - Baroque et classique - - -
+
+
+X:30
+T:Branle
+R:
+C:Tielman Susato
+H:
+N:26
+B:
+O:Flandres
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=110
+K:C
+%%staves 1 (2 3)
+V:1
+c>de d>ef | c>de d3 :: e>de c>de | f2 e d3 :|]
+V:2
+%%MIDI transpose -12
+[G2e2] [ce] [B2g2] [Af] | [A2e2][ce] [G3d3] ::
+ [C2c2] [Cc] [F2a2] [Eg] | [D2f2] [Cg] [B,3g3] :|]
+V:3
+%%MIDI transpose -12
+C>B,C G,2 D | A,>B,C G,3 :: g>fg cAB | dAc B3 :|]
+
+X:31
+T:Menuett (1)
+R:Menuet
+C:Louis de Caix d'Hervelois
+H:17ème siècle
+N:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:3/4
+L:1/8
+Q:1/4=120
+K:C
+"Am"A2 e4 | c2A2e2 |"Dm" fedc BA |"E7" ^G4 E2|\
+"Am" A^GAc "G"Bd | "C"cBce "G7"df | "Am" e2d2c2 | "E7"BABcBc | !
+"Am"A2 e4 | c2A2e2 |"Dm" fedc BA |"E7" ^G4 E2|\
+"Am" A^GAc "G"Bd | "C"cBce "G7"df | "C" ed/-c/ B3 A | "Am"A6 "Fine":|!
+ "C" c2g4 | e2c2g2 | "F" agfe dc | "G"B4G2 |\
+ "C" cBce "G"df | "C" edeg "F"fa |"C"g2f2e2 | "G"d3 c BG |!
+ "C" c2g4 | e2c2g2 | "F" agfe dc | "G"B4G2 |\
+ "C" gfeg ce | "F" AGAB cd  |"C"ef "G"d3 c | "C"c3 dcB "Da Capo al Fine":|!
+
+X:32
+T:Menuett (2)
+R:Menuet
+C:J.P. Krieger
+H:1652-1732
+N:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:3/4
+L:1/4
+Q:1/4=120
+K:C
+"Am" ecA | "Dm" f3 | "G" dBG | "C" e3 |\
+"F" A>c "Dm"B/A/ | "E7"^G E "Am"e | "Dm"d/c/ "E7"B>A | "Am"A3 :|! %% Fine%
+"Am"c d>e | "Dm" A3 | "G"Bc>d | "C" G3 |\
+"Am"ABc | "G" BG g | f/e/ d>c | "C" c3 | !
+|: "Am" A3 | "Dm"de>f | "G" g3 | "C" cd>e |\
+"F" fc"Dm"d | "E7"e2 "Am"c | "Dm"d"E7"eE |"Am"A3|!
+a2g | "Dm"fed | "G"g2f | "C"edc |\
+"Am"fga|"G"g>fe|fgG |[1 "C"c>d cB :|[2 "C" c3 |] %% Da Capo al Fine
+
+X:33
+T:Bourrée
+R:
+C:Johann Krieger
+H:1651-1735
+N:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:C
+L:1/8
+Q:1/4=120
+K:C
+V:1
+ed | c2 A2 d2f2 | e2 dc B2 ed | c2 BA (~^G3A) | A6 ::
+V:2
+%%MIDI transpose -12
+z2 | z2 gfe2d2 | e2 ^f2 ^g2 e2 | a2 d2 e4 | a4 A2 ::
+
+X:34
+T:Rigaudon de la Paix
+R:
+C:Feuillet
+H:
+N:/musdi/073/03
+B:
+O:France
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:4/4
+L:1/4
+Q:1/4=125
+K:G
+G | d2 e d/c/ | d2 B A/B/ | cBAG | A/G/A/B/ AG |
+    d2 e d/c/ | d2 B A/B/ | cBAG |1 A3 G :|2 A3 g |
+  fefg | a2b2 | efga | f dd g | fefg | a2b2 | eaf>g | g3 ||"/.../"
+
+X:35
+T:Gigue de Roland
+T:Gigue a deux
+R:
+C:Feuillet
+H:
+N:/musdi/073/10
+B:
+O:France
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:6/4
+L:1/4
+Q:1/4=110
+K:C
+A/d | ^c>B A f>e d | a3 g2 a | f2 ed>e f | ^c3d2 A | _B2 A A>_BG |
+A>B c d>e f | e>f g f>e f | e>f g f>e f | e3-e3/2 |
+A/ d | c>BA f>e d | a3 g2 a | f2 ed>e f | ^c3d2 A | _B2 A A>_BG |
+A>B c d>e f | e>f g f>e f | e>f g f>e f | e3-e3/2 |
+a/g | f>ed _b>a _b | g3 c>_ba | g>a ff>g e | f3-f A/B | c3 c>d c |
+B3 B>c d | e3e>d e | ^ca a>g f | _b>ag e>f d | ^c>d e A>B c | d>efe>d ^c | d2 d3/2 |
+
+X:36
+T:La bergère
+R:menuet
+C:Feuillet
+H:
+N:/musdi/070/40
+B:Feuillet - Recueil de Contredances mises en Chorégraphie (1706)
+O:France
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:6/4
+L:1/4
+Q:1/4=160
+K:C
+d>e d ^c2 d |  e2f f2e | f>ga d2e | e3d3 ::
+c'>_bag2f | e2f f2e | f>ga d2e | e3d3 :|
+
+X:37
+T:Le Gratie d'Amore
+R:
+C:Negri
+H:
+N:/musdi/0121/132
+B:
+O:France
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:C
+L:1/4
+Q:1/4=110
+K:F
+B/ c/ ddcB A>G FF GAB G A2 F B/ c/ ddcB A2 c B/ A/ G FF E F2 ::
+
+X:38
+T:Vaudeville
+R:Vaudeville
+C:anonyme
+H:
+N:baroque 1, p 2
+B:
+O:France
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:2
+L:1/4
+Q:1/4=110
+K:C
+Ae | e3 d | cBA^G| A2!+!B2 | cBAe | e3d | cBA^G |
+A2!+!B2 | c2 :|| Bc | d3c | BeAc | !+!B3A | ^GEAe | e3d |
+cBcd | e2 !+!B2 | A2 |]
+
+X:39
+T:Cotillon
+R:Cotillon
+C:anonyme
+H:
+N:2, p 2
+B:
+O:France
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:2
+L:1/4
+Q:1/4=120
+K:C
+cc | gf/e/fg | !+!edf/e/f/e/ | dcd!+!B | c2 :|| cB/c/ |
+dGc B/c/ | !+!d2 f/e/d/c/ | B/A/B/c/ dd | G2 cc | gf/e/f g |
+!+!edf/e/f/e/ | !+!dcd!+!B | c2 |]
+
+X:40
+T:Rondeau
+R:Rondeau
+C:anonyme
+H:
+N:5, p 3
+B:
+O:France
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/4
+Q:1/4=120
+K:C
+!segno!cc/ | ee/gg/ | !+!ed/fe/ | d/>e/c/ !+!BA/ | G3/ cc/ |
+ee/gg/ | ed/ e/>f/g/ | g/>f/e/ !+!dc/ | c3/ !fine! :|| ee/ | gg/aa/ |
+g3/aa/ | ga/gf/ | !+!ed/ee/ | e/>f/e/dc/ | g3/ !D.S.! |]
+
+X:41
+T:Rigaudon
+R:Rigaudon
+C:anonyme
+H:
+N:11, p 5
+B:
+O:France
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:C|
+L:1/4
+Q:1/2=140
+K:Bb
+d | d2 g2 | d>c BA | GABc | d/c/d/e/ dd |
+    d2 g2 | d>c BA | GABc | d3 || f | f2 b2 | f>e df | ed~cB |
+c/B/c/d/ cF | c2c2 | c>Bcd | e2~c2 | B3d | d2d2 |
+d>cde | dcBA | G/^F/G/A/ Gd | d>cd=e | ^fgaf | d3 |]
+
+X:42
+T:Menuet
+R:Menuet
+C:anonyme
+H:
+N:2, p 7
+B:
+O:France
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:2
+L:1/4
+Q:1/4=110
+K:C
+!+!e2f | g/f/e/f/g | agf | !+!ed/e/c | g/e/g/e/g/e/ | f/d/f/d/f/d/ |
+e/f/g | f/e/ | !+!d3 :||
+
+X:43
+T:Premier Divertissement - Jupiter modérément
+R:
+C:Forqueray
+H:
+N:
+B:
+O:France
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:C
+L:1/8
+Q:1/4=147
+K:Db treble
+K:Bbm treble
+V:1
+EDC |: B,DCD FDCB, | =A,F,=A,C FEDC | DB,DF BdcB | =AB=AG FGFE |
+DFBd  fedc | EGBe gfed | cB=AG  Fcfc | dedc BEDC |
+B,DCD FDCB, | =A,F,=A,C FEDC | DB,DF BdcB | =AB=AG FGFE |
+DFBd  fedc | EGBe gfed | cB=AG  FEDC | DEDC B,EDC |
+V:2
+K:Bbm bass
+%%MIDI transpose -12
+z3  |: B4 d2e2     | f4        b2f2 | B4    d2e2 | f2 F2 =Agfe |
+d4
+
+z3  | B,4  D2E2   | F4        B2F2 | B,4   D2E2 | F2 F,2 =A,GFE |
+D4
+
+
+X:44
+T:Comment suige de vostre cueur
+R:
+C:
+S:http://base.kb.dk/ows-img/kbimages/hsk/amour/AMOUR001.jpg
+H:
+N:http://www.kb.dk/elib/mss/amour/chanson-en.htm
+B:Thott 291 8º, Chansons d'Amour, 15ème s.
+O:France
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:3/1
+L:1/2
+Q:1/2=110
+K:C
+V:1
+%%MIDI channel 2
+%%MIDI program 60       % General MIDI french horn
+%%MIDI transpose 0
+%%MIDI control 7 125 %volume
+%%MIDI control 10 100 %pan
+%%freegchord 1
+d2d2c2 df2 e/d/ e2 f3/ e/4 d/4 c2 d2 e3/2 d/4 c/4 BA3/ B/c/d/e f3/ d/ d2 "#"cd3f2 |
+ed2cdA>G FE2D2 z
+V:2
+%%MIDI channel 2
+%%MIDI program 69       % General MIDI english horn
+%%MIDI transpose 0
+%%MIDI control 7 125 %volume
+%%MIDI control 10 30 %pan
+K:C alto
+D2D2C2DF2E/D/E2 D3C2D2 EF2 E/D/C2D3/E/F3/ E/4D/4 CD2FE2D4
+V:3
+%%MIDI channel 3
+%%MIDI program 70       % General MIDI bassoon
+%%MIDI transpose -24
+%%MIDI control 7 125 %volume
+%%MIDI control 10 65 %pan
+%%freegchord 1
+DG3/F/E/D/E2D4 A2B3/c/dc/B/A3
+

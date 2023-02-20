@@ -1,0 +1,16 @@
+X: 130025
+T: the PIPES REEL
+R: Reel.
+%R: reel
+B: James Kerr "Merry Melodies" v.1 p.30 s.0 #25
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|:\
+DFAd f2(ed) | cdef (ge)e2 |\
+DFAd f2(ed) | cdea (fd)d2 :|\
+f2fa (gf)ed | cdef (ge)e2 |
+f2fd (gf)ed | cdea (fd)d2 |\
+f2fa (gf)ed | cdef (ge)e2 |\
+f2fd g2ge | abag (fd)d2 |]

@@ -1,0 +1,86 @@
+%%text RJ Set 080
+
+
+X: 1
+T: Marche Duvernay
+I: RJ J-78
+M: 6/8
+K: D
+|: "D"f2 f f2 f | fed dcB | A2 A A2 A | "D"Add "D#dim"ded ||\
+"Em7"c2 c c2 c |[1 "A"cfe gba | "D"f2 f f2 f | fAB "A7"cBA :|
+[2 "A7"caa age | "D"dAB "A7"cBA | d2 A "D#dim"A2 B ||\
+|: "Em7"cBA cBA | "A7"cBA GFE | "A7"DFA dFB | A2 A "D#dim"A2 d ||
+"Em7"cBA cBA | "A7"cBA GFE |[1 "D"DFA d2 F | A3 "D#dim"d3 :|\
+[2 "D"DFA dAF | DAB "A7"cB"^d.C."A :|\
+["trans." DAB "A7"cBA |  D3 "A7"A3 |]
+
+
+X: 2
+T: Marche des Trois Rivi\`eres
+I: RJ R-160
+M: C|
+K: D
+A |\
+"D"A3f e2d2 | (A4 A)B1/2 cB1/2 |\
+A3f e2d2 | (A4 A)B1/2 cB1/2 ||\
+"Em"A3B c2d2 | "A"e6 aa |\
+[1 "Em"a2e2 "A7"a2e2 | "D"(f4 "A"f3) :|
+[2 "A"a2g2 B2c2 | "D"ddAF "F#"D2 \
+|: FF |\
+"Bm"F2B2 B2FF | F2B2 B2FF |\
+F2B2 B2F2 | "Em"A2G2 G2AA ||
+"A"A2c2 c2AA | "A"A2c2 c3 \
+[1 E | "A"E3d "A/G"d2c2 | "F#m"B2c2 "/A"A2 :|\
+[2 B | "A"B2A2 G2E2 | "D"DDFA d3 :|\
+["trans." B | "A"B2A2 G2E2 | "D"D2 |]
+
+%%text Note -- A quarter note in last tune takes as long as an eighth in the next!
+
+
+X: 3
+T: Marche du Mont Saint-Louis [in D]
+I: RJ R-124
+M: C
+R: march
+K: D
+ABc |\
+"D"d2 "A7"e2 "D"f2 "A7"e2 | "D"d4- dA"A"Bc | "D"d>cBA "D#m"BAGF | "A"F2E2- EABc ||\
+"Em7"e2f2 "A7"g>fed |
+"Em7"c4- "A7"caaa | "Em7"a2g2 "Aaug"B>c"A"BA | "D"d4- "A"dab>a |[|\
+"D"a4- af"A7"e>d | "D"A4- "A"AF/G/ A/A/B/c/ |
+"D/F#"dd/B/ "Fdim"dd/B/ "D/F#"dd/B/ "Fdim"d/e/d/B/ | "Em"c4- "A7"cab>f ||\
+"Em7"a4- "A7"age>c | "Em7"A4- "A"AA/A/AA | "Em7"B2g2 "A7"B>cBA | "D"d4- d |]
+
+
+X: 4
+T: Marche du Mont Saint-Louis [in G]
+I: RJ R-124, transposed
+M: C
+R: march
+K: G
+DEF |\
+"G"G2 "D7"A2 "G"B2 "D7"A2 | "G"G4- GD"D"EF | "G"G>FED "G#m"EDCB, | "D"B,2A,2- A,DEF |\
+"Am7"A2B2 "D7"c>BAG |
+"Am7"F4- "D7"Fddd | "Am7"d2c2 "Daug"E>F"D"ED | "G"G4- "D"Gde>d |[|\
+"G"d4- dB"D7"A>G | "G"D4- "D"DB,/C/ D/D/E/F/ |
+"G/B"GG/E/ "Bbdim"GG/E/ "G/B"GG/E/ "Bbdim"G/A/G/E/ | "Am"F4- "D7"Fde>B |\
+"Am7"d4- "D7"dcA>F | "Am7"D4- "D"DD/D/DD | "Am7"E2c2 "D7"E>FED | "G"G4- G |]
+
+
+X: 5
+T: Marche des Marchands des Fruits
+I: RJ R-161
+M: C
+R: march
+K: C
+g/ ga |\
+"C"g>e ef e>c cc | dc "C#dim"Bc "Dm"f>f fg |\
+"Dm"f>d de d>g ga | "G7"ba gf "C"e> ||
+g "G7"ga |\
+"C"g>e ef e>c cc | dc "C7"Bc "F"a2 f>a |\
+"F"a2 "Dm"f>a "C"g2 "Am"e>g | "Dm7"ag "G7"fd "C"c |]
+|: G "(G7)"ce |\
+"C"g2 g>a g/e/c/e/ ga | g2 e>e ee "C#dim"fe |\
+"Dm7"d2 d>d "G"df ed | "C"c/G/c/e/ "G7"ag "C"c |]
+% text 04/30/05
+

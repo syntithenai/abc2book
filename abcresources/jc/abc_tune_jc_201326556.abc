@@ -1,0 +1,33 @@
+
+X: 1
+T: Princess of Wales Waltz % JGi.137
+M:3/4
+L:1/4
+%Q:3/8=60
+O:Joshua Gibbons MS, 1823, Tealby, Lincolnshire
+R:waltz
+A:Tealby,Lincolnshire ca.1823
+Z:VMP/R.Greig, 2009
+K:C
+|: Gge | c2e | d/e/f/e/d/c/ | B/c/d/c/B/A/ | Gge | c2e | d/e/f/d/c/B/ | c2z :|
+|: dd/c/B/A/ | GG/A/B/c/ | dd/e/ f/g/ | agf | egg | gfe | fdB | c2z :|
+|: eef | gee | fdd | ecc | eef | gee | fdB | c2z :|
+|: EGG | Gcc | cec | gec | Acf | Gce | dcB | c3 :|
+
+
+%%sep 5 1 500
+
+X: 2
+T: Princess of Wales Waltz % JGi.137
+M:3/4
+L:1/4
+%Q:3/8=60
+O:Joshua Gibbons MS, 1823, Tealby, Lincolnshire
+R:waltz
+A:Tealby,Lincolnshire ca.1823
+Z:VMP/R.Greig, 2009
+K:D
+|: Aaf | d2f | e/f/g/f/e/d/ | c/d/e/d/c/B/ | Aaf | d2f | e/f/g/e/d/c/ | d2z :|
+|: ee/d/c/B/ | AA/B/c/d/ | ee/f/ g/a/ | bag | faa | agf | gec | d2z :|
+|: ffg | aff | gee | fdd | ffg | aff | gec | d2z :|
+|: FAA | Add | dfd | afd | Bdg | Adf | edc | d3 :|

@@ -1,0 +1,21 @@
+X: 1
+T: Dalafiolen, vals
+C: Sven Nyhus
+B: Sven's hand-written tune book.
+N: This is Sven's version, with all the ornaments.
+N: I changed the key signature of the A part to dorian.
+N: 25/3-74.
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: ADor
+%%slurgraces 1
+|: ue2 \
+| "D"{fe}f2 (fa) fd | ("Am"{d}e2 {cd}c2) A2 | "E7"{BA}B2 (Bd) B^G | "Am"{^G}A4 (AB) |
+| ("Am"{cB}c2 e2) e2 | "F"{a^g}a4 a2 | "C"{ga}g2 (ge) "D"fd | "E7"{e}e4 "A7"e2 | ("D"{fe}f2 a2) a2 | (A2 d2) {g}f2 |
+|  "Am"{d}e2 (ef) ec | A4 (uAB) | ("Am"{cB}c2 e2) A2 | "E7"{BA}B2 (Bd) B^G | "Am"A3 A A2 | A4 :|
+K: A
+|: ("E7"uAB) \
+| "A"{cd}c2 (cB) ce | A3 (uF{EF}EC) | (A,C) (EA) ce | ("E7"{ef}e3 d) B2 | {GA}G2 (GF) GB |
+| E4 (GB) | {^d}e2 (e^d) ef | "E7"{^d}e4 =d2 | "A"{cd}c2 (cB) ce | ("A7"{=gf}g3 f) e2 |
+| "D"{dc}d2 (df) a=g | "Bm"{f=g}f3 (ud{cd}cB) | "A"{B}e3 (cAF) | "E7"{F}E2 (GE) GB | "A"A3A A2 | A4 :|

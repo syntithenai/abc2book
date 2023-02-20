@@ -1,0 +1,30 @@
+X: 03
+T: the Whigs of Fife
+%R: reel
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.98 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The fermata in bar 3 is mysterious, and is actually placed between the f and g notes.
+M: C
+L: 1/8
+K: Ddor	% or maybe F with no Bb in the key signature.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+f |\
+cF F/F/F (AG)GA | cF F/F/F Hf>gag |\
+fF F/F/F (AG)GA | FDEC D3 :|
+|: (e |\
+f)ccf gdd(e | f)ccd (f/e/f/g/ a)(g |\
+f)ccf gdde | (f/g/a) (Tg>e) d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z | f2f2 g2g2 | f2f2 f2f2 | f2f2 g2g2 | f2e2 d2d :|
+|: z | f2f2 g2g2 | f2f2 f2f2 | f2f2 g2g2 | a2A2 d2d :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The first Cu: Hey contray sides .|
+%% then on your own sides :|
+%% lead down two Couple foot it .|.
+%% lead up to the Top and cast off :|:
+%%endtext
+%%sep 2 2 400

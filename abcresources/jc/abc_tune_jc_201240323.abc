@@ -1,0 +1,66 @@
+X: 38
+T: le Plaisir des Dames.
+%R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #38
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+E2 |\
+AGAB AcBd | {d}cBcd cedf |\
+e2{g}fe dcBA | GABG E2(3(EFG) |\
+AGAB AcBd |
+{d}cBcd cedf |\
+eagf gef^d | {d}e6 :||: (cd) |\
+edef eedc | dcB^A B2Bc |
+dcde ddcB | cBAG A2e2 |\
+fAdf eAce | fAdf eAce |\
+fedc BABG | {G}A6 :| [K:Am]
+"Mineur"cd |\
+edef ea (3(^gab) | d2de dfed |\
+(3(ced) (3(cBA) (3(Bdc) (3(BA^G) | (3(AED) (3(CDE) A,2cd |\
+edef ea (3(^gab) |
+d2de dfed |\
+(3(ced) (3(cBA) (3(Bdc) (3(BA^G) | {G}A6 |] ec |\
+{c}B2cA {A}^G2ec | {c}B2cA {A}^G2ec |
+f3e dcBA | (3(^GAB) (3(GAB) E2cd |\
+edef ea (3(^gab) | d2de dfed |\
+(3(ced) (3(cBA) (3(Bdc) (3(BA^G) | {G}A6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z2 | a2A2 c2e2 | a4 A2d2 | c4 d4 | e4 E4 | a2A2 c2e2 |
+a4 A2d2 | c2a2b2B2 | e2B2E2 :||: z2 | z2c'2f2^a2 | b2f2 B4 |
+z2b2e2g2 | a2e2 A2c2 | d4 c2A2 | d4 c2A2 | d2B2 e2E2 | A2a2A2 :| [K:Am]
+"Mineur"z2 |\
+a2A2 c2e2 | B2b2^g2e2 | a2c2d2e2 | a4 A4 | a2A2 c2e2 |
+B2b2^g2e2 | a2c2d2e2 | a2e2A2 |] a2 | ^g2a2e2a2 | ^g2a2e2a2 | d2e2f2d2 |
+e4 E4 | a2A2 c2e2 | B2b2^g2e2 | a2c2d2e2 | a2e2A2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Le Plaisir des Dames.
+%%begintext align
+%%   Le Grand Rond - - - - 2/1
+%%endtext
+%%begintext align
+%%   Every Gentleman goes behind Partner
+%% and Allemande with each Lady until he gets
+%% Round to his own place - - 2/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   Each Gentleman gives his Left hand to his
+%% Partner, and his Right hand to the Lady on his
+%% Left; All Rigaudon and go half Round in that
+%% Position - - - - 1/1
+%%endtext
+%%begintext align
+%%   The Gentlemen Quit hands, turn and Chass\'e
+%% on the outside to the Right, while the Ladies
+%% Chass\'ee inside on the Left to their own places - 1/2
+%%endtext
+%%sep 1 1 400

@@ -1,0 +1,19 @@
+X: 2192
+T: If I had a bonny Lass little sleep wou'd sair.   a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.2 p.19 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+d |\
+BGdG TB>cd=f | A=FcF {_B}A2FA | BGd.G TB>cdg | BGcA G3 :| f | ~g>agd g>agd | =f>gfc {B}A2FA |
+~gagd gagd | B>dgd TB2Gd || ~gagd gagd | =fgfc {_B}A2FA | BGcA dBge | dcBA G3 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+g2g2 g2g2 | =f2f2 f2f2 | g2g2 g2g2 | d2d2 G2G :| z | g2g2 g2g2 | =f2f2 f2f2 |
+g2g2 g2g2 | g2g2 G2G2 || g2g2 g2g2 | =f2f2 f2f2 | g2f2 g2c2 | d2d2 G2G |]

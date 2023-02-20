@@ -1,0 +1,46 @@
+X: 4027
+T: the DEVIL'S DREAM
+R: Reel.
+%R: reel
+B: James Kerr "Merry Melodies" v.4 p.06 #27
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+%%slurgraces yes
+%%graceslurs yes
+(3(efg) |\
+{b}agae {b}agae | fgag fedc |\
+dfBf dfBf | defg agfe |\
+eaga caga | Aaga fedc |
+defg afed | {cd} c2A2A2 :|\
+(ed) |\
+ceAe ceAe | ceag fedc |\
+dfBf dfBf | defg afed |
+ceAe ceAe | ceag fedc |\
+defg afed | {cd}c2A2A2 |]\
+(ed) |\
+(3cec A>d (3cec A>d | ceagfedc |
+(3dfd B2 (3dfd B2 | defg afed |\
+(3cec A>d (3cec A>d | ceag fedc |\
+defg afed | (3(cdc) (3(BcB) A2 |]
+e>d |\
+c>AE>A c>AE>A | c>AE>A f>ed>c |\
+d>BF>B d>BF>B | d>BF>B b>fe>d |\
+c>AE>A c>AE>A | c>AE>A f>ed>c |
+d>ef>g a>fe>d | (3(cdc) (3(BcB) A2 |]\
+(3(efg) |\
+a>ec>e a>ec>e | a>ec>e a>gf>e |\
+b>fd>f b>fd>f | b>fd>f b>ag>f |
+a>ec>e a>ec>e | a>ec>e f>ed>c |\
+d>ef>g a>fe>d | c>AB>G | A2 |]\
+e2 |\
+eac'a eac'a | eac'a eac'a |
+ebd'b ebd'b | ebd'b ebd'b |\
+eac'a eac'a | eac'a eac'e |\
+defg afed | cABG A2 |]
+e>d |\
+(3(cBA) (eA) fAgA | aAgA fAeA |\
+(3(dcB) (fB) gBaB | bBaB gBfB |\
+(3(cBA) (eA) fAgA | (aA) (3(fga) fedc |\
+defg "_rit."afed | c2[e2B2] [a2A2] |]

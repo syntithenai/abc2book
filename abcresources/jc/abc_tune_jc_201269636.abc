@@ -1,0 +1,133 @@
+
+X: 1
+T: Down the Burn Davie   [G]
+P: Longways for as many as will.  [Play ABB]
+O: John Walsh c.1731
+%R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.7
+S: 3: CCD3  http://javanese.imslp.info/files/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.10
+Z: 2013 John Chambers <jc:trillian.mit.edu> (chords 2014)
+N: 2nd part has initial repeat, no final repeat; fixed.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+G |\
+"G"D3E "(D7)"(GE)(GA) | "G"{c}B2(AG) G2ga | "G"(ba)(ge) "Em"(ge)(dB) | "Am"d2(AB) "D7"TA3d |
+y4 |\
+"G"(dB)(AG) "(D7)"(DE)(GA) | "G"{c}B2AG g3d "I"| "(C)"(ef)(gd) "G"(ga)(bd) | "D7"(cB)(AG) "G"TG3 |]
+|: b/a/ |\
+"G"g3a "(D7)"(ba)(ge) | "G"(dB)(de) g3G | "C"(AB)(ge) "G"(dB)(AG) | "Am"c2Bc "D7"A3e |
+y4 |\
+"G"(dB)(AG) "(D7)"(DE)(GA) | "G"{c}B2AG g3d | "C"(ef)(gd) "G"(ga)(bd) | "D7"cBAG "G"G3 :| %[b2D2]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%V: 2 clef=bass middle=d
+%z |\
+%gabc' b3a | g2d2 B2d2 | G2z2 B2d2 | f2g2 dedc |\
+%B2c2 dcBA | G2A2 BABG | c2B2 A2G2 | A2d2 G3  |]
+%|: z |\
+%gGBd g2c2 | B2zc GABG | c2B2 A4   | afgc dedc |\
+%B2c2 dcBA | G2A2 BABG | c2B2 A2G2 | A2d2 G3  :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up all and back .|
+%% that again, the 1st Man moves to the 2d Wo. salute her, turn her about, and fall into their own Places,
+%% the 1st Wo. and 2d Man do the same :|
+%% The 1st Man and 2d Wo. go Back to Back, and fall into their own Places,
+%% the 1st Wo. and 2d Man do as much :|
+%% The two Men clap Hands, and the two We. then turn all round single,
+%% then clap Hands with your own, and cast off into the 2d Cu. Place :|
+%% Do this to the last.
+%%endtext
+
+%%sep 1 1 500
+
+X: 1
+T: Down the Burn Davie   (F)
+P: Longways for as many as will.  [Play ABB]
+O: Walsh c.1731
+%R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.7
+S: 3: CCD3  http://javanese.imslp.info/files/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.10
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: 2nd part has initial repeat, no final repeat.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F |\
+"F"C3D "(C7)"(FD)(FG) | "F"{B}A2(GF) F2fg | "F"(ag)(fd) "Dm"(fd)(cA) | "Gm"c2(GA) "C7"TG3c |
+y4 |\
+"F"(cA)(GF) "(C7)"(CD)(FG) | "F"{B}A2GF f3c "I"| "(Bb)"(de)(fc) "F"(fg)(ac) | "C7"(BA)(GF) "F"TF3 |]
+|: a/g/ |\
+"F"f3g "(C7)"(ag)(fd) | "F"(cA)(cd) f3F | "Bb"(GA)(fd) "F"(cA)(GF) | "Gm"B2AB "C7"G3d |
+y4 |\
+"F"(cA)(GF) "(C7)"(CD)(FG) | "F"{B}A2GF f3c | "Bb"(de)(fc) "F"(fg)(ac) | "C7"BAGF "F"F3 :| %[a2C2]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%V: 2 clef=bass middle=d
+%z |\
+%gabc' b3a | g2d2 B2d2 | G2z2 B2d2 | f2g2 dedc |\
+%B2c2 dcBA | G2A2 BABG | c2B2 A2G2 | A2d2 G3  |]
+%|: z |\
+%gGBd g2c2 | B2zc GABG | c2B2 A4   | afgc dedc |\
+%B2c2 dcBA | G2A2 BABG | c2B2 A2G2 | A2d2 G3  :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %begintext align
+% % Lead up all and back .|
+% % that again, the 1st Man moves to the 2d Wo. salute her, turn her about, and fall into their own Places,
+% % the 1st Wo. and 2d Man do the same :|
+% % The 1st Mand and 2d Wo. go Back to Back, and fall into their own Places,
+% % the 1st Wo. and 2d Man do as much :|
+% % The two Men clap Hands, and the two We. then turn all round single,
+% % then clap Hands with your own, and cast off into the 2d Cu. Place :|
+% % Do this to the last.
+% %endtext
+
+%%sep 1 1 500
+
+X: 1
+T: Down the Burn Davie   (D)
+P: Longways for as many as will.  [Play ABB]
+O: Walsh c.1731
+%R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.7
+S: 3: CCD3  http://javanese.imslp.info/files/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.10
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: 2nd part has initial repeat, no final repeat.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+D |\
+"D"A,3B, "(A7)"(DB,)(DE) | "D"{G}F2(ED) D2de | "D"(fe)(dB) "Bm"(dB)(AF) | "Em"A2(EF) "A7"TE3A |
+y4 |\
+"D"(AF)(ED) "(A7)"(A,B,)(DE) | "D"{G}F2ED d3A "I"| "(G)"(Bc)(dA) "D"(de)(fA) | "A7"(GF)(ED) "D"TD3 |]
+|: f/e/ |\
+"D"d3e "(A7)"(fe)(dB) | "D"(AF)(AB) d3D | "G"(EF)(dB) "D"(AF)(ED) | "Em"G2FG "A7"E3B |
+y4 |\
+"D"(AF)(ED) "(A7)"(A,B,)(DE) | "D"{G}F2ED d3A | "G"(Bc)(dA) "D"(de)(fA) | "A7"GFED "D"D3 :| %[f2A,2]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%V: 2 clef=bass middle=d
+%z |\
+%gabc' b3a | g2d2 B2d2 | G2z2 B2d2 | f2g2 dedc |\
+%B2c2 dcBA | G2A2 BABG | c2B2 A2G2 | A2d2 G3  |]
+%|: z |\
+%gGBd g2c2 | B2zc GABG | c2B2 A4   | afgc dedc |\
+%B2c2 dcBA | G2A2 BABG | c2B2 A2G2 | A2d2 G3  :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %begintext align
+% % Lead up all and back .|
+% % that again, the 1st Man moves to the 2d Wo. salute her, turn her about, and fall into their own Places,
+% % the 1st Wo. and 2d Man do the same :|
+% % The 1st Mand and 2d Wo. go Back to Back, and fall into their own Places,
+% % the 1st Wo. and 2d Man do as much :|
+% % The two Men clap Hands, and the two We. then turn all round single,
+% % then clap Hands with your own, and cast off into the 2d Cu. Place :|
+% % Do this to the last.
+% %endtext

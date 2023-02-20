@@ -1,0 +1,42 @@
+X: 0922
+T: Lord Cochrane
+%R: jig
+N: This is version 1, for ABC software that doesn't understand voice overlays or crescendo/diminuendo symbols.
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1809, No. 9 p.2 #2
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances9
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+F |\
+~B>cd (cGA) | B2c def | gfe dcB | (Ac).f F2A |\
+~B>cd (cGA) | B2c def | gfe dcB | (Af)A B2 |]
+"N.C."d |\
+(cd=B ce)g | ("_>"=ef).d B3 | (cd=B cde | fga) b2({c}B/A/) |\
+GcB Adc | Bed cfe | dba gd=e | ("^cres."fgd "^dim."f_ec) |
+"^8va  _  _  _"\
+~B>cd (cGA) | B2c def | gfe dcB | (Ac).f (F2A) |\
+~B>cd  cGA  | B2c def | gfe dcB | (Af)A B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=D
+z |
+([D3B,3-] [E3B,3-] | [D3B,3])B,3 | E3 =E3 | F3- F2z |\
+([d3B3-] [e3B3-] | [d3B3]) [B3B3] | e3 [=e3G3] | ("_>"[_e3c3F3] [d2B2]) |]
+z |\
+Aef Aef | Bdf Bdf | Aef Aef | Bdf B2z |\
+E3 F3 | G3 A3 | B3 ([B3G3C3] | [A3F3]) z2z |
+"^Harp solo"\
+Bdf Bef | Bdf Bdf | EGc EGc | Fce Fce |\
+Bdf Bef | Bdf Bdf | EGc EGc | ("_>"[e3c3F3] [d2B2]) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands three on the Ladies side,
+%% the same on the Gentlemans,
+%% down the middle, up again,
+%% and Pousette.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

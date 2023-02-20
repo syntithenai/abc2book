@@ -1,0 +1,30 @@
+X: 21100
+T: Stormont's Ghost [standard tuning]
+%R: air, jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.110 #1
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The book has A,EA^c scordatura tuning, and the tune uses two-voice notation.
+N: This transcription is converted to "standard" tuning, with multiple voices for ABC version 2 software.
+M: C
+L: 1/8
+K: A
+%%continueall
+"_Slow"cB |\
+A2E2 A,2cB & x6 AE | A2A2 dcBA | [B6E6] cB | A2E2 A,2cB & x6 AE |\
+c2c2 edcB | [A6E6A,6] :: cd | e3f (ef)(ef) & A3A A2 A2 | e3f x4 & A3A ecBA |
+B6 x2 & E6 cd | e3f (ef)(ef) & A3A A2A2 | e2 x6 & A2dc (BA)(Bc) | [A6E6] & A,6 :: cB |\
+AECE A,CEA | c2c2 dcTBA | B6 x2 & E6 cB | AECE A,CEA |
+c2dc TBABc | [A6E6] & A,6 :: cd | ec AE ec AE | e2dc dcTBA |\
+B6 x2 & E6 cd | ec AE ec AE | Ffed cABc | [A6E6] & A,6 :|
+|: [M:6/8] "_Brisk"e |\
+cAE A,2A | cAc B2e | cAc BGE | FAA A2 :: e |\
+cAe cAe | cAc B2e | cAe cAc | BEE E2e |
+cAe cAe | cAc B2e | cAc BGE | FAA A2 :: A, |\
+CEE EAA | ceA Bfe | cBA FAE | FAA A2 :|
+|: f |\
+ecA BAB | ceA B2f | edc BcA | BEE E2f |\
+ecA EAB | ceA Bfe | cBA FAE | FAA A2 :|
+%%begintext align
+%% The book has A,EA^c scordatura tuning; transcribed here for standard A,DGe tuning.
+%% The tunes has two voices, transcribed here with ABC 2.0 voice overlays.
+%%endtext

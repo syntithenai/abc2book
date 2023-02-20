@@ -1,0 +1,22 @@
+X: 4371
+T: McFarlane's Rant
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.1 p.37 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+g |\
+f>A A/A/A {f}e>dBd | f>A A/A/A Te2 de |\
+f>A A/A/A {f}e>dBf | aefd {f}e2d :|
+e |\
+(fd)(fd) eBBg | (fd)(fd) {=f}Te2de |\
+(fd)(fd) eBBf | aefd {f}e2d |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+c | d'4 a2g2 | f2d2 a3c' | d'4 a2g2 | c2d2 A2D :| z |\
+[d'2f2][d'2f2] [e'2g2][e'2g2] | [f'2d'2a2][f'2d'2a2] [g'2e'2a2][f'2d'2a2] |\
+[d'2f2][d'2f2] [e'2g2][^d'2^f2] | c'2d'2 a2d |]

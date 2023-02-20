@@ -1,0 +1,23 @@
+X: 11341
+T: NEW LANGOLEE
+O: Irish air.
+Q: "Slow."
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.134 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+F>GA B>cd | e>gf edc | dBG FGB | d>ec B2F |\
+FGA Bcd | egf edc | dBG FGB | d>ec B2 :|
+|: e |\
+def f2f | g>fe fdB | def gab | B>cB BGF |\
+ege dfd | c>Bc dBG | BAG Ffe | d>ec B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The song, "The Banks of the Dee," is sung to the above air.
+%%endtext
+%%sep 1 1 300

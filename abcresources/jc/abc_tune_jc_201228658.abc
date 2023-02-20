@@ -1,0 +1,74 @@
+X: 11481
+T: MISS LUCY LONG
+O: Arranged by A. F. Knight
+%R: march
+N: This is version 2, for ABC software that doesn't understand tremolo notation.
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.148-149
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Eb
+%%indent 100
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 sname="EbBgl" name="Eb Bugle" staves=8
+K: C
+!p!z |\
+z4 | z4 | z4 | z4 | z4 | z4 | z4 | z2 z!f!(c/d/) |
+ee cc | Bd ze | ff AB | c2 z(c/d/) |\
+ee cc | Bd ze | ff AB | c2 z H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 sname="BbBgl" name="Bb Bugle"
+K: F
+!p!A/B/ |\
+cccc | ce cf | dd BB | AcB (A/B/) |\
+AA cc | ce cf | dd de | f2 z!f!(f/g/) |
+aa ff | eg za | bb de | f2 z(f/g/) |\
+aa ff | eg za | bb de | f2 z H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 sname="BbPHn" name="Bb Post Horn"
+K: F
+!p!(f/g/) |\
+aa ff | eg za | bb de | f2 z(f/g/) |\
+aa ff | eg za | bb de | f2 z!f!z |
+fcfc | gcgc | ecgc | fffz |\
+fcfc | gcgc | ecgc | f2z H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 4 sname="BbCrn" name="Bb Cornopeon"
+K: F
+!p!z |\
+AAAA | BBBB | GG BB | AAAA |\
+AAAA | AAAA | GG BB | A2 !f!z2 |
+cccc | cccc | cccc | AcAz |\
+AcAc | BcBc | B2cB | A2z H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 5 sname="TTbn" name="Tenor Trombone" clef=bass middle=D
+K: Eb
+!p!z | z4 | z4 | z4 | z4 | z4 | z4 | z4 | !f!z4 |
+eeee | dddd | ffff | eeez |\
+eeee | dddd | BB dd | e2 z H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 6 sname="BTbn" name="Bass Trombone" clef=bass middle=d
+K: Eb
+!p!z |\
+ez ez | Bz Bz | Bz Bz | e2 z2 |\
+ez ez | Bz Bz | Bz Bz | eB!f!Ez |
+e2 e2 | BBBB | BBBB | egez |\
+eeee | BBBB | BBBB | e2z H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 7 sname="Oph1" name="1st Ophecleide" clef=bass middle=d
+K: Eb
+!p!z |\
+gz gz | az az | fz az | gz gz |\
+gz gz | az az | fz az | gg!f!gz |
+gggg | aaaa | fa fa | gggg |\
+gggg | aaaa | ff aa | g3 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 8 sname="Oph2" name="2nd Ophecleide" clef=bass middle=d
+K: Eb
+!p!z |\
+Ez ez | Bz bz | Bz Bz | Ez Ez |\
+Ez ez | Bz Bz | Bz Bz | EE!f!Ez |
+eeee | BBBB | BBBB | eeee |\
+eeee | BBBB | BBBB | e2z H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

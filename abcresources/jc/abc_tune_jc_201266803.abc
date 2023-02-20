@@ -1,0 +1,21 @@
+X:171
+T:Dancing with Sharon
+C:Colin Hume, 1995
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=96
+%%MIDI chordname 7sus 0 5 7 10
+%%MIDI program 71     Clarinet
+%%MIDI chordprog 48   String Ensemble 1
+%%MIDI gchord bb
+%%MIDI bassprog 48    String Ensemble 1
+H:For Sharon Green
+K:C
+P:A
+|: "C"G,C EG | "Em"B3c | "F/D"A4 | "G7sus"G2- "G7"G2 | "C"G,C EG | "Em"B3c | "Bb"d4- | "Bb/A"d4 |
+"Gm"d_B AG | "C7"c3c | "Dm"cA GF | "Gm"_B3B | "D7"_BA G^F | "D7"A3G | "G"G4- | "G7"G4 :|
+P:B
+|: "C"EG cG | "Dm"A2 F2 | "G7"FB A>G | "C"E4 |\
+"Em"GB ed | "Am"c2 "Am/G"A2 | "D7/F#"AB ce | "G"dB "G7"AG |
+"C"EG cG | "Dm"A2 F2 | "G7"Fd c>B | "Am"c2 de | "F"fA cd | "Em"eG Bc | "Dm"dF AB | "C"c4 :|

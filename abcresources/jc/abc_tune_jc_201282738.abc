@@ -1,0 +1,26 @@
+X: 1
+T: the Green Apple Quickstep (Harmonized Low, Mostly)
+C: David A. Kaynor 1980
+%D:1980
+R: quickstep
+S: Fiddle Hell Online 2020-11-05
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+"D"Bc |\
+"G"d2d>e dBGD | "C"E>G "D7"DC "G"B,GG2 | "Am"A2A>B cABc | "D"d>^c de d=cBA |
+"G"G>F GA Bdd2 | "C"e>d ef g2ga | "G"b>a gd "C"ceg>e | "G"dg"D"af "G"g2 |]
+gf |\
+"C"e>^d ef g>f ge | "D"d>e dB "G"d2gf | "C"e>f ge "G"dBGE | "D"D2 "A"F>E "D"DCB,A, |
+"G"G,>B, DB, "C"C>E GE | "D"D>F AF "Em"G2GF | "C"E>G ce "D"d>f ga | "G"b2 "D"a2 "G"g2 |]
+% - - - - - - - - - -
+V: 2
+GA |\
+B2 B>c BGDB, | C2 A,A, G,B, B,2 | C2 E>G AEGA | A>A AA AAGF |
+D>D DF GBB2 | c>G cd e2ef | g>d dB Gce>c | Bdfd d2 |]
+dd |\
+c>B cd e>d ec | A>B AD G2ed | c>d ec BGDB, | A,2 A>G FEDC |\
+B,>G, B,G, G,>C EC | A,>D FD E2ED | C>E Gc | B>d df | g2 f2 d2 |]

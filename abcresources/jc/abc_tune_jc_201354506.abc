@@ -1,0 +1,18 @@
+X: 1832
+T: Yellow John - 1st Setting
+R: jig
+%S: s:3 b:24(8+8+8)
+B: O'Neill's 1850 #1832
+Z: Bob Safranek, rjs@gsp.org
+M: 6/8
+L: 1/8
+K: D
+D \
+| DFA AFA | BGB A2   F   | DFA AFA | B2c d2D |\
+| DFA AFA | BGB A2(B/c/) | dfd ecA | B2c d2  |]
+e \
+| fdf ece | dcB A2(d/e/) | fdf ecA | B2c d2e |\
+| fdf ece | dcB A2   F   | DFA AFA | B2c d2  |]
+z \
+| d3  c3  | BcB A2   z   | DFA AFA | B2c d3   |\
+| dBd cAc | BGB A2(B/c/) | def ecA | B2c d2  |]

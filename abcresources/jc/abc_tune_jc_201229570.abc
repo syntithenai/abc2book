@@ -1,0 +1,17 @@
+X: 125
+T: Earl of Balcarras's March
+%R: march, reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.49 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Fixed missing "pickup" to 2nd strain with initial rest.
+N: Bars 9,12,14 are missing an 8th note somewhere; fixed with added dots.
+M: C
+L: 1/8
+K: G
+(B/d/) |\
+g2d>d d2(cd/c/) | B2B>B B3d | dgBd d>cc>B | A2A>A A2z(B/d/) |\
+g2d>d d2(cd/c/) | B2B>B B2zd | d>g B>d B2A2 | G2G>G G3 :|
+|: z |\
+A2A>A A3B | GBd(g b3)(g/b/) | d'bgd d>BB>G | A2A>A A3A |\
+B.D.D.D c.D.D.D | d.D.D.D He3d | Bedc B2A2 | G2G>G G3 :|

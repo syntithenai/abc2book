@@ -1,0 +1,25 @@
+X: 1
+T:Drum Major David Breese
+M:12/8
+L:1/8
+Q:80
+C:P/M John Recknagel, 1/90
+S:March
+K:HP
+{g}c3/2e/2{A}e{Gdc}d3/2c/2B{g}A3{GAG}A2B|
+{g}c3/2e/2{A}e{Gdc}d3/2e/2f{gef}e3{A}e2c|
+{Gdc}d3/2e/2f{g}B3/2c/2d{g}c/2e3/2c{g}A2{d}c|  !
+{g}B3/2{d}G/2{e}G{g}G/2d3/2c{gBd}B3{e}G2B|
+{g}c3/2e/2{A}e{Gdc}d3/2c/2B{g}A3{GAG}A2B|
+{g}c3/2e/2{A}e{Gdc}d3/2e/2f{gef}e3{A}e2c|  !
+{Gdc}d3/2e/2f{g}f/2a3/2{g}ae3/2f/2e{g}c/2e3/2{A}e|
+{gcd}c2e{Gdc}d3/2G/2B{G}A3{GAG}A2B|]
+c2{GdGe}c{g}c/2e3/2c{g}A2{GdGe}A{g}A3/2B/2c|  !
+{Gdc}d3/2{g}d/2{c}d{g}d/2f3/2d{g}e3/2A/2c{gBd}B2{G}A|
+{Gdc}d/2{g}d3/2{c}d{g}f3/2e/2d{g}c/2e3/2c{G}A3|
+{g}B3/2{d}G/2{e}G{g}G/2d3/2c{gBd}B3{e}G2{d}B|  !
+c2{GdGe}c{g}c/2e3/2c{g}A2{GdGe}A{g}A3/2B/2c|
+{Gdc}d3/2{g}d/2{c}d{g}d/2f3/2d{g}e3/2A/2c{gBd}B2{G}A|
+{Gdc}d3/2e/2f{g}f/2a3/2{g}ae3/2f/2e{g}c/2e3/2{A}e|  !
+{gcd}c2e{Gdc}d3/2G/2B{G}A3{GAG}A3|]
+

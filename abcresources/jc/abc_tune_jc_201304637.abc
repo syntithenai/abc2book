@@ -1,0 +1,755 @@
+I:abc-charset utf-8
+%%titlefont Times-Bold 24
+%%subtitlefont Times-Bold 18
+%%gchordfont Times-Bold 14
+%%composerfont Times-Italic 16
+%%notationfont Times-Bold 16
+%%annotationfont Times-Bold 16
+%%textfont Times-Italic 16
+%%partsfont Times-Bold 14
+%%printtempo 0
+%%printparts 1
+%%partsbox 1
+%%bstemdown 1
+%%withxrefs 1
+%%pageheight 11in
+%%%staffsep .01
+%%topspace .25in
+%%botspace .25in
+%%notespacingfactor 1
+%%stretchlast 0
+%%titleformat  T, R-1 C1
+%%scale .685
+%%footer "Slow Airs\n$P0.		$P1."
+%%newpage 517
+
+X:0
+%%%footer "Section D"
+%%withxrefs 0
+%%lineskipfac 8
+%%textfont Times-Bold 48
+%%begintext center
+%%Slow Airs
+%%endtext
+%%titlefont Times-Bold 1
+I:0
+T:_Slow Airs_
+M:1/1
+K:C
+%%newpage
+
+X:751
+T:Lord MacDonald of The Isles
+C:Joe Buchanan's Scottish Tome - Page 295.0
+I:295 0
+Z:Carl Allison
+R:Slow Air
+L:1/8
+M:6/8
+K:A=g
+g/f/ | "A"eAA "D"fed | "A"eAA "E a"a2 f | "A"eAA "E a/D"fed | "G"BGG "D g"Ggf |
+"A"eAA "D"fed | "A"eAA "E a"aef | "G"gag "D g"f2 e | "G"dBG "G"G2 :|
+B | "A"A2 "E a"a aea | "A"aea "E a"aec | "A"A2 a "E a"aef | "G"gGd "D g"BAG |
+"A"A2 "E a"a aea | "A"aea "E a"aef | "G"gag "D g"f2 e | "G"dBG"G" G2 :|
+g/f/ | "A"eAA "D"fAA | "A"aAA "E a"eAA | "A"efg "D7"fed | "G"BGG "D g"Ggf |
+"A"eAA "G"BAG | "A"Aag "E a"e2 f | "G"gag "D g"f2 e | "G"dBG "G"G2 :|
+B | "A"A2 "E a"a aec | "A"e "E a"fg aec | "A"A2 a "E a"aef | "G"g2 G "D g"BAG |
+"A"Aaa "E a"ged | "A"eag "E a"e2 f | "G"gag "D g"f2 e | "G"dBG "G"G2 :|
+
+X:752
+T:Margaret Ann Robertson
+C:Joe Buchanan's Scottish Tome - Page 489.0
+I:489 0
+Z:Carl Allison
+C:Frank Jameson
+R:Slow Air
+L:1/8
+M:3/4
+K:A
+"A"A,4 E2 | "A7"C4 A,2 | "D"D2> F2 A2 | "A"E6 | 
+"A"c4 BA | "F#m"{E}c4 A2 | "Bm"B2 G2 E2 | "E7"D2 C2 B,2 | 
+"A"A,4 E2 | "A7"C4 A,2 | "D"D2> F2 A2 | "A"E6 | 
+"A"c4 BA | "B7"{E}c4 {Bc}B2 | "A"{G}A6 | "A"{G}A6 :| 
+cd | "A"e4 A2 | "F#m"{g}a4 A2 | "C#m"{f}g4 A2 | "D"{g}f2 "E7"e2 cd | 
+"A"e4 A2 | "F#m"{fg}a4 c2 | "B7"B6 | "E7"e4 cd | 
+"A"e4 A2 | "F#m"{g}a4 A2 | "D"f2 g2 a2 | "A"e2> c2 A2 | 
+"A"A,2 C2 E2 | "F#m"A2 c2 e2 | "E7"d2 c2 {Bc}B2 | "A"A4 cd | 
+"A"e4 A2 | "F#m"{g}a4 A2 | "C#m"{d}g4 A2 | "D"{g}f2 e2 cd | 
+"A"e4 A2 | "F#m"{fg}a4 c2 | "B7"B6 | "E7"(e4"@-66,25glissando" A2) | 
+"A"A,4 E2 | "A7"C4 A,2 | "D"D2> F2 A2 | "A"E6 | 
+"A"c4 BA | "B7"{E}c4 "E7"{Bc}B2 | "A"{g}A6 | "A"{g}A4 |] 
+
+X:753
+T:Tuireadh Iain Ruaidh
+C:Joe Buchanan's Scottish Tome - Page 490.0
+I:490 0
+Z:Carl Allison
+R:Slow Air
+Z:Carl Allison
+C:AKA Iain Ruaridh's Lament
+L:1/8
+M:6/8
+K:A
+"A"e2 e A2 A | "F#m"(c>fe) "D"f3 | "A"e2 e A2 A | "A"(cec) "E7"B3 | 
+"A"e2 e A2 A | "F#m"(c>fe) "D"f3 | "A"e2 e A2 A | "A"(cec) "E7"B2 A | 
+"A"(e2 A) "F#m"(afe) | "D"f2 f "A"e2 e | "A"(e2 A) (a>fe) | "D"(fec) "E7"B3 | 
+"A"e2 e A2 A | "F#m"(c>fe) "D"f3 | "A"e2 e A2 A | "A"(cec) "E7"B2 A |] 
+
+X:754
+T:Isle of Mull
+C:Joe Buchanan's Scottish Tome - Page 490.2
+I:490 2
+Z:Carl Allison
+R:Slow Air
+L:1/8
+M:3/4
+K:G
+D>E | A2 A>G E>D | D4 E>G | A2 A2 B>B | A2 G2 d>c |
+B2 A>G B>A | G2 B,2 D2 | E2 A>G E>D | D4 D>E| 
+A>G E>D | D4 E>G | A2 A2 B>B | A2 G2 d>c |
+B2 A>G B>A | G2 B,2 D2 | E2 A>G E>D | D4 |] 
+
+X:755
+T:Coilsfield House 
+C:Joe Buchanan's Scottish Tome - Page 499.1
+I:499 1
+Z:Jo Wegstein
+R:Slow Air
+L:1/8
+M:4/4
+K:Gmaj
+(GA) | B2 D2 G2 B,2 | G,6(AB) | (c2> A2) (B2 G2) | (F2 A2) D2> c2 |
+(cB).A.G (GF).E.D | G4 E2 C2 | B,2 G2 A,2 F2 | G2> G,2 G,2 :|
+(d2> B2) d2 B2 | (cd) e2> A2 (B/c/) | d2 G2 F2 G2 | (AG).F.E D2 (Bc) |
+(d2> e2) d2 B2 | (cd) e2 (ef) g2 | (gag) (fd).e.f | g4G2 (ga) |
+b2 g2 d2 B2 | (cd) e2 A2 (Bc) | d2 G2 F2 G2 | (AG).F.E D2 c2 |
+(BG).D.B, C2> (D/E/) | A,6 (DC) | B,2 G2 A,2 F2 | G3 G,2 G,2 |]
+
+X:756
+T:Tha Mitinn Leis A Ghaol
+C:Joe Buchanan's Scottish Tome - Page 508.0
+I:508 0
+C:AKA The Languor of Love
+Z:Carl Allison
+R:Slow Air
+L:1/8
+M:C
+K:D
+"^Slow and tender"D2 FA [Fd]4 | (c2 d2) "_cres"[GB]4 | A2 (Bc) d3 e | \
+!diminuendo(!d2> !diminuendo)!c2 !diminuendo(!(B2 !diminuendo)!A2) z |
+!f!!turn!F2> F2 G2 g2 | {d}f3 e !fermata!d2 z D | !turn!F3 G {FG}A3 F2 | \
+!diminuendo(!(G2 F2) (E2 !diminuendo)!D2) |
+!p!D2 FA d4 | (c2 d2) [GB]4 | A2 (Bc) d3 e | \
+!diminuendo(!d2> !diminuendo)!c2 !diminuendo(!(B2 !diminuendo)!A2) z |
+!f!!turn!F2> F2 G2 g2 | {d}f3 e !fermata!d2 z D | !turn!F3 G {FG}A3 F2 | \
+!diminuendo(!(G2 F2) (E2 !diminuendo)!D2) |
+!p!{d}f2> e2 "_cres"d3 f | (c2 d2) [GB]4 | {d}f2 f2 | \
+!diminuendo(!d2> !diminuendo)!c2 !diminuendo(!(B2 !diminuendo)!A2) z |
+!f!!turn!F2> G2 A2 (ag) | f3 e !fermata!d2 z D | !turn!F3 G {FG}A3 F2 | \
+!diminuendo(!(G2 F2) (E2 !diminuendo)!D2) |
+!f!{d}f2> e2 d2> f2 | (c2 d2) [GB]4 | f2> e2 d4 | c (c>de/) d2 D z | 
+!p!!turn!F2> G2 A2 g2 | "_titord"((3fga) ((3gfe) !fermata!d4 ({DEFGABc}) | \
+!f!d2> B2 A3 F | !diminuendo(!(G2 F2) (E2 !diminuendo)!D2) |]
+
+X:757
+T:Isle of Mull 
+C:Joe Buchanan's Scottish Tome - Page 509.2
+I:509 2
+Z:Carl Allison
+R:Slow Air
+L:1/8
+M:3/4
+K:G
+D>E | G2 A>G E>D | D4 E>G | A2 A2 B>B | A2 G2 d>c |
+B2 A>G B>A | G2 B,2 D2 | E2 A>G E>D | D4 D>E |
+B2 A>G B>A | G4 E>G | A2 A>d B>B | A2 G2 d>c |
+B2 A>G B>A | G2 B,2 D2 | E2 A>G E>D | D8 |]
+
+X:758
+T:Leaving Vaternish 
+C:Joe Buchanan's Scottish Tome - Page 525.2
+I:525 2
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:C
+G | "C"C2 E | "C"G2 E | "G7"D2 D | "C"C2 E | "C"G2 G | "Am"c2 c | "F"F3 | "G7"G2 A |
+"C"c2 A | "G"G2 G | "Am"C2 D | "C"E2 F | "C"G2 G | "Bb"F2 D | "C"D C2 | "C"C2 A |
+"C"c2 c | "F"A2 G | "C"C2 D | "Am"E3 | "C"F2 G | "Bb"_B2 G | "G"A G2 | "G7"G3 |
+"C"c2 c | "Bb"_B A | "C"G C2 | "F"F3 | "C"E G2 | "Bb"F2 D | "C"D C2 | "C"C2 :|
+
+X:759
+T:Castle In The Glen 
+C:Joe Buchanan's Scottish Tome - Page 526.1
+I:526 1
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:4/4
+K:Eb
+"Eb"G F E | "Eb"G F E | "Ab"c2 c | "Eb"B2 E | "Eb"G2 G | "Bb7"A G F | "Eb"E3- | "Eb"E3 |
+"Eb"e2 e | "Eb"e f e | "Cm"e3 | "Cm"G2 A | "Eb"B> c d | "Ab"e d c | "Eb"B3- | "Eb"B3 |
+"Eb"G F E | "Eb"G2 B | "Cm"e3 | "Cm"e2 G | "Eb"B> c d | "Ab"e d c | "Eb"B3- | "Bb7"B3 |
+"Eb"G F E | "Cm"G F E | "Ab"c2 c | "Eb"B2 E | "Cm"G2 G | "Bb7"A G F | "Eb"E3- | "Eb"E3 :|
+
+X:760
+T:Fear A'Bhata #1 
+C:Joe Buchanan's Scottish Tome - Page 526.2
+I:526 2
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:F
+"C7" C2 D | "F"F3 | "F"F2 c | "Am"A> G F | "C"E3 | "C"G3 | "Dm"A2 D | D3 |
+D2 F | E2 D | C3 | A,3 | "F7"A,2 C | "Bb"D3 | "Bb"D3 | "F"C2 D |
+"F" F3 | "C"G2 A | "Gm"d2 c | "Am"A3 | "Gm"G2 F | "A7"F2 E | "Dm"D3- | "Dm"D2 |
+
+X:761
+T:Nighean Donn A Chuitein Riomhaich 
+C:Joe Buchanan's Scottish Tome - Page 527.1
+I:527 1
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:C
+G, | C3 | C2 E | G2 A | c3 | A2 G | G2 E | D2 E | A2 G |
+C3 | C2 E | G2 A | c2 G | A2 E | D2 D | C3 |
+c2 c | c2 e | d2 c | c3 | E3 F | G2 G | =B2 A | A2 G |
+G2 e | e2 c | d2 c | c2 G | A2 E | G2 E | D2 D | C3 |]
+
+X:762
+T:Dvanag An T-seoladair 
+C:Joe Buchanan's Scottish Tome - Page 527.2
+I:527 2
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:F
+C | F2 F | F2 c | d2 d | c2 c | B A G | A2 c | D2 D | C2 D |
+F2 G | F2 D | C2 D | F2 A | c2 c | d c B | A F2 | F3 |]
+
+X:763
+T:Nan Robh Mise 
+C:Joe Buchanan's Scottish Tome - Page 527.3
+I:527 3
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:C
+G, | C2 E | G3 | G2 c | c2 A | G3 | G3 | C2 E | G3 |
+G2 A | G2 E | D3- | D3 | C2 E | G3 | G3 | G2 e | d2 c |
+c3 | C2 C | C2 D | E3 | E2 G | D2 E | C3- | C3 |]
+
+X:764
+T:Fear A'Bhata #2 
+C:Joe Buchanan's Scottish Tome - Page 528.1
+I:528 1
+Z:Carl Allison
+R:Slow Air
+L:1/8
+M:3/4
+K:G
+(E>F) | "Em"G2 "G"(Gd) | (B/A/G) | "D"F2 A2 | "Bm"(B>E) | "Em"D2  (EG) | "Bm"(F>E) | D2 B,2 | (B,E) |
+"G" E2 E2 | "D"(DE) | "Em"G2 "A"(AB) | "Em"(e>d) | B2 "D"(AG) | "Bm"(G>F) | "Em"E3 | E :|
+
+X:765
+T:Sine Bhan 
+C:Joe Buchanan's Scottish Tome - Page 528.2
+I:528 2
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:D
+"D"D2 D | "D7"E2 F | "G"B2 A | "D"A3 | "Bm"F2 E | F A2 | "Em7"A2 F | "A7"E3 |
+"D"D2 D | "D7"E2 F | "G"B2 A | "D"D3 | "Bm"D2 D | "Em7"F2 F | "A7"E3 | "D"D3 |
+"C"D2 D | "D7"E2 F | "G"d2 B | "D"B A2 | "Bm"d2 B | B A2 | "Em7"d2 F | "A7"E3 |
+"D"D2 D | "D7"E2 F | "G"d2 B | "D"B A2 | "Bm"D2 D | "Em7"F2 F | "A7"E3 | "D"D3 |
+
+X:766
+T:Lovely Stornoway 
+C:Joe Buchanan's Scottish Tome - Page 528.3
+I:528 3
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:D
+D2 B | A2 D | d2 c | B3 | d2 B | A2 D | F2 E | E3 |
+D2 B | A2 D | d2 c | B2 A | A d2 | F2 E | D2- | D :|
+
+X:767
+T:Waters of Kylesku, The 
+C:Joe Buchanan's Scottish Tome - Page 528.4
+I:528 4
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:D
+A | "D"F2 E | "Bm"D2 F | "D"A2 A | "D7"F2 A | "G"d2 d | "A"c2 B | "D"A3- | A2 F |
+"D"A2 A | "G"B2 A | "D"A2 F | "Bm"D2 F | "D"A2 A | "Em"G2 F | "A7"E3- | E2 A |
+"D"F2 E | "Bm"D2 F | "D"A2 A | "D7"F2 A | "G"d2 d | "A"c2 B | "D"A3- | A2 F |
+"D"A2 A | "G"B2 c | "Bm"d2 B | "D"A2 G | "D"F A2 | "A7"F2 E | "D"D3- | D2 |
+W:Errata: Added the "Bm", "D", "D", "A7" and "D" chords in last line.
+
+X:768
+T:An Ataireacho Ard
+C:Joe Buchanan's Scottish Tome - Page 529.1
+I:529 1
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:G
+D | "G"B, D G | (B2 A) | "C"G2 E | (E G) E | "G"D2 D | "G"G A B | "C"(c2 d) | "Am"c2 B |
+"Em"(G E) G | "D"A2 D | "G"B, D G | (B2 A) | "C"G2 E | (G E) G | "G"D2 D | "G"(D G) B |
+"Bm"d2 E | "Am"c2 E | "D7"D E D | "G"D2 |]
+
+X:769
+T:Mo Run Geal Dilers (my Faithful Fond One) 
+C:Joe Buchanan's Scottish Tome - Page 529.2
+I:529 2
+Z:Carl Allison
+C:AKA My Faithful fond One
+R:Slow Air
+L:1/4
+M:3/4
+K:D
+D | "D"(F2 A) | "Bm"d3 | "Em"(e2 d) | "A"(c2 B) | "D"(A3 | F2) D | "F#m"(F2 A) | "Bm"d3 |
+"Em"(e2 d) | "A"(c2 A )| "G"B3- | B2 c | "D"d2 A | "Bm"F3 | "F#m"(A2 F) | "Em"(E2 D) |
+"A"E3 | "D"F2 A | "Ddim"(d2 B) | "D"A3 | "Bm"(F2 D) | "A7"E2 F | "D"D3 | D2 |]
+
+X:770
+T:Morag of Dunvegan 
+C:Joe Buchanan's Scottish Tome - Page 529.3
+I:529 3
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:D
+"D"F2 F | "Bm"(F E) D | "D"(F A2) | A3 | "G"d2 d | "G"(d c) d | (B2 A) | "D"A3 |
+F2 F | "Bm"(F E) F | "G"(B2 A) | "D"A3 | "G"(B2 d) | (B A F) | "A7"E3 | "D"D3 |
+"G"d3 | (d2 B) | "D"(A2 D) | D3 | F2 F | (F E) F | "G"(B2 A) | "D"A3 |
+"G"d3 | (d2 B) | "D"(A2 D) | "Bm"(D2 E) | "D"F2 F | (A2 F) | "A7"E3 | "D"D3 |]
+
+X:771
+T:Mo Nighean Dhonn Bhoidheach 
+C:Joe Buchanan's Scottish Tome - Page 529.4
+I:529 4
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:G
+"G"(D2 G) | (B2 D) | "D7"(B2 A) | "G"G3 | "D7"(A2 B) | "G"(d2 e) | "A7"(B A) G | "D7"A2 A |
+"G"(d2 G) | "Am"(c2 e) | "D7"(d2 c) | "Em"(B2 G) | "G"(D2 B) | (G2 D) | "C"E2 G | "G"G3 |
+
+X:772
+T:An Cluinn Thu Mi Mo Nighean Donn
+C:Joe Buchanan's Scottish Tome - Page 531.1
+I:531 1
+Z:Carl Allison
+C:Iain McCall
+R:Slow Air
+L:1/8
+M:3/4
+K:D
+A,D E | "D"{D}F2>E2 FA  | "G"{A}B2>c2 dB | "D"{B}B2>F2 AF | "A7"{F}E2>A,2 DE |
+"D"{D}F2>A2 Bc | "G"d2 B2 | "D"{B}A2>B2 AG | "A7"{F}E>D "D"D4- |
+D3 d2 dc | "G"B2>d2 cB | "D"A2>A2 BA | "Bm"d2>F2 "Em"FE | 
+B,>A, DE | "D"{D}F2>A2 Bc | "G"d4 B2 | "D"A2>B2 AF | 
+"A7"{F}E>D "D"D4- | D2 |]
+
+X:773
+T:Tha M' Eudail Is Maighear's Mo Graidh
+C:Joe Buchanan's Scottish Tome - Page 531.2
+I:531 2
+Z:Carl Allison
+R:Slow Air
+L:1/8
+M:3/4
+K:G
+E>F | "Em"{F}G2 A G2 | "Bm"(E2 D4) | "D"(D4 F2) | "F#m"(A2>B2 AF) | "Em"(E4 "Bm"D2) | "Em"E6 | E4 EF |
+"Em"{F}G2>A2 G2 | "Bm"{G}F2>E2 F2 | "Bm"(E2 D4) | "D"D4 DF | "F#m"A2>(B2 AF) | "Em"(E4 "Bm"D2) | "Em"E6 | E4 (EF) |
+G2>A2 B2 | d2 B2 A2 | "Em"B6 | "Bm"B4 (EF) | "C"G2>A2 G2 | "D"{G}F2>E2 F2 | "Bm"(E2 D4) | "D"(D4 d2) | 
+"Em"B2>E2 F2 | {F}E2>D2 B,2 | "D"D6 | "Bm"D4 EF | "Bm"{D}B2>A2 F2 | "Em"(E4 "Bm"D2) | "Em"E6 | E4 |]
+
+X:774
+T:Farewell To Skye
+C:Joe Buchanan's Scottish Tome - Page 531.3
+I:531 3
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:4/4
+K:A
+E | "A"E2 E | "D"F2 E | "A"E3- | "E7"E2 E | "A"E2c | "E7"e2 d | "A"c3- | c3 |
+"C#7"(c2 B) | "F#m"A2 c | "C#m"E3 | "F#m"A3 | "Bm"B2 c | "E7"B2 A | "A"A3- | A2 |]
+
+X:775
+T:Loch Leven #1
+C:Joe Buchanan's Scottish Tome - Page 532.1
+I:532 1
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:G
+D | "G"(D>E G) | "Bm"(B>A B) | "Am"(A>G E) | "G"G2 d | "C"(e>d e) | "G"(d>B G) | "D7"A3 | "G"(B2 d) |
+"C"(e>d e) | "G"(d>B G) | "C"(A G) E | "G"G A | "G"(B d B) | "D7"(A B A) | "G"G3 | "G"G2 :|
+
+X:776
+T:Waters of Kylesku
+C:Joe Buchanan's Scottish Tome - Page 532.2
+I:532 2
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:D
+A | "D"(F2 E) | "Bm"(D2 F) | "D"A2 A | "D7"(F2 A) | "G"(d2 B) | "A"(c2 B) | "D"A3- | A2 F |
+"D"A2 A | "G"(B2 A) | "D"(A2 F) | "Bm"(D2 F) | "D"A2 A | "Em"(G2 F) | "A7"E3- | E2 A |
+"D"(F2 E) | "Bm"(D2 F) | "D"A2 A | "D7"(F2 A) | "G"d2 d | "A"(c2 B) | "D"A3- | A2 F |
+"D"A2 A | "G"(B2 c) | "Em"(d2 B) | "D"(A2 G) | "D"(F A2) | "D"(F2 "A7"E) | "D"D3- | D2 :|
+
+X:777
+T:Cailin Mo Run Sa
+C:Joe Buchanan's Scottish Tome - Page 532.3
+I:532 3
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:G
+"G"(D G) A | "G"B3 | "D7"(A2 B) | "C"(A G) E | "G"D3- | D2 B | "C"(c d) e | "G"d3 |
+"Bm"(B2 A) | "Em"(G E) G | "D7"A3- | "D"A2 d | "G"(d e) d | "G"B3 | "D"(A2 G) | "C"(A G) E |
+"G"D3- | "D7"D2 B | "C"(c d) e | "G"d3 | "Em"(B2 G) | "D7"(A G) E | "G"G3- | G2 :|
+
+X:778
+T:Rothesay Bay
+C:Joe Buchanan's Scottish Tome - Page 533.1
+I:533 1
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:D
+(FG) | "D"A3 | "A"A2 A | "D"(A2 (d) | "D"d) (D E) | "D"F3 | "A"(F2 E) | "D"(F A2) | "D"(A F E) |
+"G"D3 | "G"(C2 D) | "G"B3 | "D"(A2 F) | "D"D2 D | "E"(F2 E) | "A"E3- | "A"A (F G) |
+"D"A3 | "A"A2 A | "D"A d2- | "D"d (D E) | "D"F3 | "A"(F2 E) | "D"(F A2) | "D"(A F D) |
+"G"(E2 F) | "G"(G2 A) | "G"(B2 c) | "G"(d c B) | "D"(A2 d) | "A"(F2 E) | "D"D3- | "D"D2 :|
+
+X:779
+T:Queen Maries
+C:Joe Buchanan's Scottish Tome - Page 533.2
+I:533 2
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:D
+D/E/ | "D"(F2 E) | "D"(D F A) | "G"B3 | "D"(A2 D) | "D"F2 F | "B"(A2 F)| "E"E3- | "A"E2  A |
+"D"d2 d | "F#"c2 A | "G"B2 A | "D"(D2 E) | "D"F A F | "A"E F E | "D"D3- | "D"D2 :|
+
+X:780
+T:Auld Hoose, The
+C:Joe Buchanan's Scottish Tome - Page 534.2
+I:534 2
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:G
+G/A/ | "G"G3 | "G"(A2 "G7"G) | "C"(A2 "C"G) | "C"(E2 G) | "G"(D2 E)  | "G"(G2 B) | "A"A3- | "D"A "D7"(G A)|
+"G"B3 | "G"(A2 G) | "C"(A2 G) | "C"(E2 G) | "G"(D2 B) | "D"(B2 "D7"A) | "G"G3- | "G"G2 A |
+"D"A2 "D7"A | "G"(B2 "G7"d) | "C"e2 e | "C"(d2 B) | "G"(d2 B) | "A"(A2 "A7"G) | "A"A3- | "D"A "D7"G A |
+"G"B2 B | "G"(A2 G) | "C"(A2 G) | "C"(E2 G) | "G"(D2 B) | "D"(B2 "D7"A) | "G"G3- | "G"G2 :|
+
+X:781
+T:Sound The Pibroch
+C:Joe Buchanan's Scottish Tome - Page 534.3
+I:534 3
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:G
+"G"(B2 A)| "G"(A2 "G7"G)| "C"(G2 E)| "G"(D2 D)| "G"(B2 A)| "A"(A2 "Am"G)| "A"(G2 "Am"E)| "D"(D2 "D7"D)|
+"G"(G2 G)| "E"(G2 "Em"G)| "G"(B "G7"d2)| "C"(e2 "C"e)| "G"d e | "E"d "Em"B | "D"A3 | "G"G3 |
+"G"(D G2)| "D"(G2 A)| "G"(B2 A) | "D"(G "G"D2)| "A"(E "Am"A2)| "E"(A2 "Am"B)| "A"(c2 "Am"B)| "D"(A "D"E2)|
+"G"(D G2)| "E"(G2 "Em"G)| "G"(B d2)| "C"e3 | "G"(d2 e)| "E"(d "Em"B2)| "D"A3"D7" | "G"G3 :|
+
+X:782
+T:Leaving Barra
+C:Joe Buchanan's Scottish Tome - Page 535.1
+I:535 1
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:G
+(B/c/) |(d2 e)|(d2 c)|(B2 A)|(G2 A)|(B d2)|(G2 E)| D3- | D2 D |
+(G2 A)|(B2 c)| e |(d2 e)|(d2 B)|(G2 B)|(d2 B)| A3- | A (B c) |
+(d2 e)|(d2 c)|(B2 A)|(G2 A)|(B d2)|G2  E | D3- | D (B c) |
+(d2 d)|(c2 B)|(A2 G)|(E2 G)|(d2 B)|(B2 A)| G3- | G2 :|
+
+X:783
+T:In Praise of Uist
+C:Joe Buchanan's Scottish Tome - Page 535.2
+I:535 2
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:A
+E | A2 (B/A/) | c2 E | (F<A) F | E2 E | A2 A/A/ | c2 (B/A/) | c2 (B/B/) | B2 (c/d/) |
+e2 (f/e/) | c2 E | (F<A) F | E2 (c/d/) | e2 E | (c2 B) | A2 A | A2 :|
+
+X:784
+T:Leaving Stornoway
+C:Joe Buchanan's Scottish Tome - Page 535.3
+I:535 3
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:A
+(e2 B) | (c2 A) | F3 | (E2 A) | (B2 B) | (B2 c) | B3- | B2 E | 
+(A2 B) | (c2 f) | e3 | (c2 E) | (A2 c) | (e2 f) | e3- | e2 c | 
+(d2 e) | (f2 e) | e3 | (c2 e) | (f2 A) | (F A2) | B3 (Bcd) | 
+d<f e | (c2 A) | F3 | (E2 A) | (B2 A) | (c2 B) | A3- | A2 : | 
+
+X:785
+T:Tiree Bridal Song
+C:Joe Buchanan's Scottish Tome - Page 536.1
+I:536 1
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:D
+D | (F2 G) | (A2 A) | (G F E) | (D2 D) | (F2 G) | A (B c) | d3 | A2 =c |
+(B d2) | (A2 G) | F2 (E/>D/) | (G2 B) | (A A2) | (=C2 E) | D3- | D2 |
+F (F G) | A3 | (G F E) | D3 | F (F G) | A (B c) | d3 | A2 =c |
+(B d2) | (A2 G) | F2 (E/>D/) | (G2 B) | (A2 A) | (=C2 E) | D3- | D2 :|
+
+X:786
+T:Farewell To Skye #2
+C:Joe Buchanan's Scottish Tome - Page 536.2
+I:536 2
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:A
+E2  E | (F2 E) | E3 | (E2 E) | (E2 c) | (e2 d) | c3- | c3 |
+(c2 B) | (A2 C) | E3 | A3 | (B2 c) | (B2 A) | A3- | A3 |
+E2 E | (F2 E) | E3 | E3 | (E2 c) | (e2 d) | c3- | (c2 c) |
+(c2 B) | (A2 C) | E3 | A3 | (B2 c) | (B2 A) | A3- | A3 :|
+
+X:787
+T:Highland Cradle Song
+C:Joe Buchanan's Scottish Tome - Page 537.1
+I:537 1
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:A
+E | "A"E> A B | c2 d | (c3 | "E7"B3) | E G> A | B2 c | "A"B A F | E2 E |
+E A>B | c2 d | c3 | "E7"B2 e | "E7"e E G | c2 B | "A"A>c c/B/ | A2 e |
+"Bm"e d2 | F2 "Ddim"d | "A"d c2 | E2 c | "Bm"c B2 | "Bm"D2 B | "D"B A>F | "A"E2 e | 
+"Bm"e d2 | F2 "Ddim"d | "A"d c2 | E2 c | "E7"c B>c | "Bm"d F G | "A"A>B c/B/ | A3 :|
+
+X:788
+T:Mist Covered Mountains #2, The
+C:Joe Buchanan's Scottish Tome - Page 537.2
+I:537 2
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:C
+"Am"A3 | A3 | c> A B | "Em"A G E | "G"G3 | G3 | "G"B> A B | "Em"A G E | 
+"Am"c3 | "G"d3 | "C"e> ^f g | "G"B> A G | "Am"A> B e | "Dm"d c B | "Am"A3- | A3 |
+A> A A | A2 A | e> "Am"A B | "Em"A G E | "G"G> G G | "G"G2 G | B> A B | "Em"A G E | 
+"Am"c> c c | "G"d2 d | "C"e ^f g | "G"B> A G | "Am"A> B e | "Dm"d c B | "Am"A3- | A3 :|
+
+X:789
+T:Mary of The Witching Eyes
+C:Joe Buchanan's Scottish Tome - Page 537.3
+I:537 3
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:A
+"E7"E2 E | c3 | c2 B | "A"A3 | "A"c2 d | e3 | "E7"B2 A | "A"B c2 | 
+"A7"E2 E | "D"F2 "A"E | "D"F2 A | "Bdim"B2 d | "A"c2 c | "Bm"B2 "A"A | "Bm"F3 | "A"A3 | 
+"A"E2 E | "E7"c2 B | "F#m"A3 | "E7"B2 c | e2 d | c2 B | "A"A2 G | "D"F2 "A"E | 
+"A"A2 G | "D"F2 "A"E | "D"E2 F | "Bm"A2 "Bdim"d | "A"c2 c | "Bm"B2 A | F3 | "A"A3 :|
+
+X:790
+T:An Ataireachd Ard #2
+C:Joe Buchanan's Scottish Tome - Page 538.1
+I:538 1
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:G
+D | "G"B, D G | "G7"(B2 A) | "C"G2 E | (E G) E | "G"D2 D | "G"GAB | "C"(c d) | "Am"c2 B |
+"Em"(G E) G | "D"A2 D | "G"B, D G | (B2 A) | "C"B2 E | "C"G2 E | (E G) E | "G"D2 D | "G"(D G) B |
+"Bm"d2 E | "Am"c2 E | "D7"(D E) D | "G"D2 :|
+
+X:791
+T:Mo Nighean Dhonn Bhoidheach #2
+C:Joe Buchanan's Scottish Tome - Page 538.2
+I:538 2
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:G
+"G"(D2 G) | (B2 D) | "D7"(B2 G) | "G"G3 | "D7"(A2 B) | "G"(d2 e) | "A7"(B A) G | "D7"A2 A |
+"G"(d2 G) | "Am"(c2 e) | "D7"(d2 c) | "Em"(B2 G) | "G"(D2 B) | (G2 D) | "C"E G2 | "G"G3 :|
+
+X:792
+T:Rowan Tree, The
+C:Joe Buchanan's Scottish Tome - Page 538.3
+I:538 3
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:D
+D E | "D"F2 F | F2 E | "D"F A2 | "D7"A2 d | "G"B2 A | B2 d | "G"B A2 | A2 "A7"(D/E/) |
+"D"F2 F | "A7"F2 E | "D7"F A2 | "G"AB2  | "D"A2 F | "A7"E2 D | "D"D3 | D2 A |
+"D"A2 d | "Bm"d2 c | "G"c2 B | B2 d | "D"A2 A | "Bm"B ((3A/G/F/) | "E7"F2 E | "A7"D2 E |
+"D"F2 F | "A7"F2 E | "D7"F A2 | "G"B2 A | "D"A2 F | "A7"E2 D | "Bm" D3 | D2 :|
+
+X:793
+T:Mingulay Boat Song, The
+C:Joe Buchanan's Scottish Tome - Page 538.4
+I:538 4
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:D
+A,/>B,/| D D d/>A/ | F F A/>F/ | E E/>D/ ((3F/E/D/) | B, D A,/>B,/ | D D d/>A/ | F F A/>F/ | E/D/ B,/F/ F/>E/ D2 F/>E/ | 
+D D {F}((3E/D/E/) | F A, A,/>B,/ | D D {F}((3E/D/E/) F E F/>E/ | D D {F}((3E/D/E/) F A, A,/>B,/ | D A,/>F/ E/>F/ | D3 :| 
+
+X:794
+T:Balaich An Iasgaich 
+C:Joe Buchanan's Scottish Tome - Page 539.2
+I:539 2
+Z:Carl Allison
+S:http://www.celticlyricscorner.net/mackenziefiona/balaich.htm
+R:Slow Air
+L:1/4
+M:3/4
+K:A
+"A"A>A A | "F#m"c B A | "D"A>A A | "A"(F2 E) | "D"d>d d | "A"c B A | "A/C#"c e e | "D"(f2 e) |
+"A"f>e e | "F#7/Bb"e d c | "Bm"d e f | "E7"(e2 d) | "C#m"c e d | "E7"(c2 B) | "D"A3 | "A"A3 |]
+"A"A>A A | "F#m"c B A | "D"A>A A | "A"(F2 E) | "D"d>d d | "A"c B c | "A/C#"e>e e | "D"(f2 e) |
+"A"f>e e | "F#7/Bb"e d c | "Bm"d e f | "E7"(e2 d) | "C#m"c e d | "E7"(c2 B) | "D"A3 | "A"A3 |]
+
+X:795
+T:Mairi Mhin Meall-shuileach
+C:Joe Buchanan's Scottish Tome - Page 539.3
+I:539 3
+Z:Carl Allison
+H:AKA Mary of the Beautiful Eyes
+R:Slow Air
+L:1/4
+M:3/4
+K:G
+"G"D2 D | "G"B3 | "D"(B2 A) | "G"G3 | "G"B c | "Bm"d3 | "Am"A2 G | "D7"(A B2) |
+"G"D D2 | "C"E2 D | "C"(E G2) | "D7"(A2 c) | "G"B B2 | "D7"A2 G | "C"(E2 G) | "G"G3 :|
+
+X:796
+T:Birlinn Ghoraion Chròbnan
+C:Joe Buchanan's Scottish Tome - Page 539.4
+I:539 4
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:D
+"D"D3 | "D"D2 E | "D"F2 F | "D"F3 | "D"d2 d | "G"d c d | "Em"B A2 | "A7"A3 |
+"D"D3 | "Bm"D2 E | "F#m"F2 F | "D7"F2 A  | "G"B2 B | "D"A F2 | "A7"E3 | "D"D3 :|
+
+X:797
+T:Mist Covered Mountains #3, The
+C:Joe Buchanan's Scottish Tome - Page 541.2
+I:541 2
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:C
+"Am"A3 | "Am"A3 | "C"e>A B | "Em"(A G E) | "G"G3 | "G"G3 | "Bm"B>A B | "Am"(A G E) | 
+"Am"c3 | "G"d3 | "C"e>^f g | "Em"(B A G) | "Am"A>B e | "G"(d c B) | "Am"A3- | "Am"A3 | 
+"Am"e3 | "Am"e3 | "G"d>e g | "Am"e>d B | "G"G2 G | "Bm"(d2 B) | "Am"(e2 e) | "Bm"(d c B) | 
+"Am"A3 | c3 | "G"d>e g | "Em"B>A G | "Am"A>B e | "G"(d c B) | "Am"A3- | "Am"A3 :| 
+
+X:798
+T:Filoro #3
+C:Joe Buchanan's Scottish Tome - Page 545.2
+I:545 2
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:F
+A | "F"c3 | "C7"A2 G | "Dm"F3 | "F"A2 B | "G"C2 C | "F"D C "Bb"D | "F"F2 A |
+"F"c3 | "C7"A2 G | "Dm"F3 | "F"A2 A | "F"C2 C | "F"D C "Bb"D | "F"F3 | "F"F2 "C7"C |
+"Dm"F2 F | "Bb"B2 c | "Bb"d2 d | "F"c2 d | "F"c2 c | "C7"A G "Dm"F | "Gm"B3 | "F"c2 "Fdim"d |
+"F"A c2 | "C7"A2 G | "Dm"F3 | "F"A2 B | "F"C2 C | "F"D C "Bb"D | "F"F3 | "F"F2 |]
+
+X:799
+T:Hazel Villa
+C:Joe Buchanan's Scottish Tome - Page 575.0
+I:575 0
+C:Dr. Louis MacKenzie
+Z:Carl Allison
+R:Slow Air
+L:1/4
+M:3/4
+K:E
+G/A/ | "" "E"B3- | "E"B c B | "E"G3- | "E7"G F E | "A"C3 | "A"E2 F | "A"E/ F3/2 F | "A"E2 C |
+"E"B,3 | "E"E2 F | "E"G/ (E3/2 E) | "E"B2 G | "F#7"F3- | "F#7"F3- | "B7"F3- |  "B7"F G A |
+"E"B3- | "E"B c B | "E"G3- | "E7"G F E | "A"C3 | "A"E2 F | "A"E/ (F3/2 F) | "A"E2 C |
+"E"B,/ (E3/2 E) | "E"E2 B, | "B7"D2 B, | D/ (F3/2 F) | "E"E3- | "A"E3- | "E"E3- | "E7"E F G |
+"A"A3 | "A"A2 B | "A"c3- | "A"c B A | "E"G < E- E | "C#m"G2 A | "G#7"B3- | B "D7"G A |
+"E"B3- | "G#m"B c B | "C#m"G E2 | "C#7"A2 G | "F#7"F3- | "F#7"F3- | "B7"F3- | F "B7"G A |
+"E"B3- | "E"B c B | "E"G3- | G "E7"F E | "A"C3 | "A"E2 F | "A"E<F- F | "A"E C |
+"E"B,<E- E | "E"E2 B, | "B7"D2 B, | "B7"D<F- F | "E"E3- | "A"E3- | "E"E3- | "E"E |]
+W:Errata: Omitted alternate chords.
+
+X:800
+T:Lass o' Rothiemay, The
+C:Joe Buchanan's Scottish Tome - Page 576.0
+I:576 0
+Z:Carl Allison
+C:Dr. Louis MacKenzie
+R:Slow Air
+L:1/4
+M:3/4
+K:G
+B/A/ | "G"G3 | "D7"(D2 E) | "G"(D B,2) | "Bm"(D2 G) | "Em"B3 | "Bm"(d2 e) | "C"(e/(g/ g2)) | (g2 e) |
+"G"d3 | (B d) | "Bm"D3 | "Em"(B2 G) | "Am"A3 | "Am7"(A, B,) | "Am"C3 | "D7"(B,2 C) |
+"G"D3 | "D7"(E2 D) | "G"D/G/- G2 | "D7"(B2 d) | "C"e3 | (e2 f) | "A7"g3 | (g>f e) |
+"G"d3 | (B2 d) | "D"D3 | "D7"(B2 d) | "Am"(c2 D) | "D7"(F2 D) | "G"(D/(G/ G2))- | G (F G) |
+"D"A3 | (B2 A) | (F D2)- | D2 D | "G"G3 | "Bm"(B2 d) | "C"(e/(g/ g2))- | g2 e |
+"G"d3 | (B2 d) | "Bm"D3 | "Em"(B2 G) | "Am"A3 | "Am7"(A,2 B,) | "Am"C3 | "D7"(B,2 C) |
+"G"D3 | "D7"(E2 D) | "G"(D/(G/ G2)) | "G7"(B2 d) | "C"e3 | (e2 f) | "A7"g3 | (g>f e) |
+"G"d3 | (B2 d) | "D"D3 | "D7"(B2 d) | "Am"(c2 D) | "D7"(F2 D) | "G"(D/(G/ G2)) | G2 |]

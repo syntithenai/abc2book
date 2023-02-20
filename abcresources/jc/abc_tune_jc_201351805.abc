@@ -1,0 +1,28 @@
+X:1
+T:When Irish Eyes Are Smiling    [A]
+C:Music by Ernest R. Ball
+%C:Lyrics by Chauncey Olcott and George Graff Jr.
+%%staffsep 30
+M:3/4
+L:1/4
+K:A
+c/d/ \
+| "A"e a f | e2 c/d/ | e a f | e c B \
+|    A B c | c B A |"E7"e3- | e2 B/c/ |
+|"E7"d c B | d c B | "A"A B c |"F#7"e ^d c \
+|"B7"B c^d | f g B | "E"e3- |"E7"e2 ||
+|| c/d/ \
+| "A"e a f | e c d | e a f | e c B \
+|    A B c |"A7"c B A | "D"f3- | f2 f/g/ |
+|"B7"a f g | a g f | "E"g e f | g f e \
+|"B7"B c^d | f2 g | "E"e3- |"E7"e2 |]
+[| e \
+| "A"c2 c | "(E7)"B2 A | "A"c e2- | e c A \
+| "D"d2 f | a2 f | "A"e3- | e2 f/g/ |
+| "D"a2 g | a2 g | "A"f e2 | d2 c \
+|"B7"f2 B | B2 c | "E"B3- | "E7"B2 ||
+|| e \
+| "A"c2 c | "(E7)"B2 A | "A"c e2- | e c A \
+| "D"d2 f | a2 f | "A"e3- | e f g |
+| "D"a2 g | "B7"b2 a | "A"c'3 | "F#7"e ^d e \
+|"B7"fg a | "E7"b2 a | "A"a3- | a2 |]

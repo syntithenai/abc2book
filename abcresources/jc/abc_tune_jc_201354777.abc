@@ -1,0 +1,34 @@
+
+X: 1
+T: Yos'l Yos'l [Dm]
+M: 2/4
+L: 1/8
+K: Dm
+A,DF \
+| "Dm"A2 "Gm"B2 | "Dm"AA "A7"GF | "Dm"B A3 | zA,DF \
+| "Dm"A2 "Gm"B2 | "Dm"AG BA | "A7(Gm)"G4 | "A7"zA,^CE |
+| "A7"G2 A2 | "(Gm)"GG FE | "A7"G G3 | zA,^CE \
+| "A7"G2 A2 | GF AG | "Dm"F4 | zA,DF |
+| "Dm"A2 "Gm"B2 | "Dm"AA "A7"GF | "Dm"B A3 | zA,DF \
+| "Dm"A2 d2 | "D7"cB dc | "Gm"B4- | B2 Bc |
+| "Gm"dd dd | d2 cB | "Dm"AA AA | A2 GF \
+[| "(A7)"A2 E2 | "A7"GG FE | "Dm"D4- | D |]
+%%text The last 8 bars are often repeated, giving 40 bars; this is a 32-bar contradance version.
+
+%%sep 1 1 500
+
+X: 2
+T: Yos'l Yos'l [Em]
+M: 2/4
+L: 1/8
+K: Em
+B,EG \
+| "Em"B2 "Am"c2 | "Em"BB "B7"AG | "Em"c B3 | zB,EG \
+| "Em"B2 "Am"c2 | "Em"BA cB | "B7(Am)"A4 | "B7"zB,^DF |
+| "B7"A2 B2 | "(Am)"AA GF | "B7"A A3 | zB,^DF \
+| "B7"A2 B2 | AG BA | "Em"G4 | zB,EG |
+| "Em"B2 "Am"c2 | "Em"BB "B7"AG | "Em"c B3 | zB,EG \
+| "Em"B2 e2 | "E7"dc ed | "Am"c4- | c2 cd |
+| "Am"ee ee | e2 dc | "Em"BB BB | B2 AG \
+| "(B7)"B2 F2 | "B7"AA GF | "Em"E4- | E |]
+%%text The last 8 bars are often repeated, giving 40 bars; this is a 32-bar contradance version.

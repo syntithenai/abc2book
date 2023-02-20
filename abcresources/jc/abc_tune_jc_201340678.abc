@@ -1,0 +1,22 @@
+X: 1
+T: the Star of the County Down    [Dm]
+O: Trad
+R: waltz
+N: Also in 2/4 as a ballad.
+N: There is a County Down in both Ireland and Scotland, and both claim this tune.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+Ac \
+| "Dm"d4 d2 | "B"d3 c d2 | "F"f4 f2 | "C"g4 fg \
+| "F"a3 g f2 | "Dm"d3 c A2 | "Am"c6- | c2 ||
+f2 e2 \
+| "Dm"d4 d2 | "B"d3 c d2 | "F"f4 f2 | "C"g4 fg \
+| "Dm"a3 g f2 | "Gm"d4 d2 | "Dm"d6- | d4 ||
+a2 \
+| "F"c'4 a2 | a3 g f2 | "C"g4 g2 | g4 fg \
+| "F"a3 g f2 | "Dm"d3 c A2 | "Am"c6- | c2 ||
+f2 e2 \
+| "Dm"d4 d2 | "B"d3 c d2 | "F"f4 f2 | "C"g4 fg \
+| "Dm"a3 g f2 | "Gm"d4 d2 | "Dm"d6- | d4 |]

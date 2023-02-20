@@ -1,0 +1,29 @@
+X: 20861
+T: Voi che sapete
+T: (You who know)
+C: Mozart
+O: Le Nozze di Figaro
+N: The title is mostly off-image, but it can be found in the index.
+Q: "Andante"
+%R: air
+B: "Edinburgh Repository of Music" v.2 p.86 - p. 87 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+[|"_P."\
+(g4 d2)d2 | (a4 d4) | b4 g>ab>c' | b4 a2z2 |\
+b4 c'2^c'2 | d'3b g4 | (a4 _b2=b2) | c'2fg (abc'^c') |\
+("_Fz"d'2b)z ("_Fz"d'2b)z | (a2c')z (a2c')z | "_P."g4 f>ga>b | g2b2g2z2 H|]
+"_dol:"a4 a2a2 | (b^c'd')b a4 | e3fg2a2 | {g}f4 z4 |\
+b4 ^c'2c'2 | d'3b g4 | f3b (a2^g2) | a4 z4 |\
+a4 (a2d'2) | (^c'2a2) g4 | (f4 d2)g2 | {f}e4 z4 |
+a4 (ab)(^c'd') | (d'^c'ba) g4 | (=f4 e2d2) | a4 z4 |\
+"_PP"a4 a2a2 | c'4 _b4 | (_b2g2) (e2_B2) | A4 z4 |\
+(=c'2a)z (c'2a)z | g2_bz g2bz | =f4 {a}g3f | =f2a2f2z2 |
+a4 a2a2 | a=bc'b a4 | (c'4 b2)a2 | e8 |\
+(c'4 b2^a2) | b4 g4 | (f4 b2b2) | e4 z"_P"ggg |\
+(ag)g2 zggg | e4 zaaa | (baa2) zaaa | f4 zbbb |
+(c'bb2) b2bb | g2g2 c'2c'2 | (c'3{d'c'bc'}d' b4) | (_b4 a2g2) |\
+d8 |] ">D.C."y8 y8 y8 y8 y8 y8 y8 y8

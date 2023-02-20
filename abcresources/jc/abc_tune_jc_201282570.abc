@@ -1,0 +1,32 @@
+X:292
+T:Gray's Inn Mask
+C:John Playford, 1651
+M:4/4
+L:1/4
+N:Notes from the 1st edition, 1651.  Chords by Colin Hume.
+N:There are many other versions.  Repeats and tempi are conjectural!
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%MIDI ratio 3 1
+Q:1/2=100
+K:C
+P:A
+|: "^SLOW" "G"BB/c/dB | "Dm"fFF2 | "F"FF/G/ "Dm"AF | "G"BB2B |\
+"Dm"D>D "C"E>E | "Dm"F/G/A/G/ F>F | "G"G/A/B/c/ "Dm"dc | "G"B4 :|
+Q:1/2=120
+P:B
+|: "^FAST!" "G"B/c/d/e/ "Dm"ff | "C"ed c2 | "G"BB AG | "Dm"F4 :|
+Q:1/2=110
+P:C
+|: "^SLOWISH" "F"AF c2 | "G"dB d2 | "C"c>d e2 | "G"d4 :|
+Q:1/2=90
+P:D
+"^SLOW - NO REPEAT!" "G"d2 cB | "Dm"A4 | "Dm"f2 ed | "C"c4 ||
+Q:1/2=120
+P:E
+|: "^FAST" "G"dd dB | "Dm"de ff | "C"gg fe |1 "G"d4 :|2 "G"d3 ||
+M:6/8
+L:1/8
+Q:3/8=120
+P:F
+|:B | "G"B>cd d>ef | "Dm"F3 F2F | "F"F>GA A>Bc | "C"E3 E2E |\
+"C"E>FG "G"G>AB | "Dm"D3 B2c | "G"d>e f/e/ "Dm"dc2 | "G"B3 B2 :|

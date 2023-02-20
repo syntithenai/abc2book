@@ -1,0 +1,25 @@
+X: 341
+T: MISS GORDON OF GIGHT
+C: I. COOPER
+R: Reel
+B: Glen Collection p.34 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Cm
+%
+V: 1
+|: (G,C)(EG) cgec | BdBG FDB,D | CEGE DFBG | TFDB,D C/C/CC2 :|
+egbg (ag)(fe) | defg fdBf | egbg (ag)(fe) dBfd c/c/cc2 |
+egbg (ag)(fe) | defg fdBf | (Tgf)(ed) (cd)(ec) | (BG)(TFD) (EC)C2 |]
+%
+V: 2
+|: c2[b2e2] [g2e2][g2e2] | [b2d2][b2d2] [b2B2][f2B2] |\
+[e2c2][e2c2] [b2d2][b2d2] | [b2B2][f2B2] [e2c2][g2e2c2] :|
+e2[e'2b2] [d'2b2][d'2b2] | B2[d'2b2] [d'2b2][d'2b2] |\
+e2[e'2b2] [d'2b2][d'2b2] | b2B2 c2[g2e2] |
+e2[e'2b2] [d'2b2][d'2b2] | B2[d'2b2] [d'2b2][d'2b2] |\
+e'2g2 a2a2 | g2G2 [g2c2][g2e2c2] |]

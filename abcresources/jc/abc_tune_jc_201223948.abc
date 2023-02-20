@@ -1,0 +1,37 @@
+X: 79
+T: Mrs Nugent
+C: Carolan
+%R: reel
+B: "The Hibernian Muse" p.49 #1
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. LXXIX.
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+d2a2 (f<e)g2 | gfed ^c2A2 |\
+B2(Bc) A2(Ad) | c2(ce) d2(df) |\
+(edef) g2e2 | (fefg) a2f2 |\
+bagf {f}e2d2 | c2f2 (ef)g2 |\
+(fef).c (fef).c |
+(dcBA) (cBAG) |\
+(FA)(FA) d2d2 | (EG)(EG) c2c2 |\
+(DF)(DF) A2A2 | [gG][fF][eE][dD] T[c2C2][A2A,2] |\
+F2c2 E2c2 | A2d2 G2d2 |\
+TB2A2 TG2F2 | EFTED D4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+d4 ^c2A2 | d4 A2a2 |\
+g2e2 f2d2 | e2c2 g2G2 |\
+c4 c'2b2 | a2g2 f2a2 |\
+g2b2 c'2b2 | a2f2 a2A2 |\
+f4 A4 |
+B2d2 e2c2 |\
+f2F2 (df)(df) | c'2c2 (fa)(fa) |\
+d2D2 (fa)(fa) | b2B2 f2F2 |\
+a4 g4 | f4 e4 |\
+f4 e2d2 | a2A2 d4 |]

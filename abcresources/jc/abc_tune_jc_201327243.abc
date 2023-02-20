@@ -1,0 +1,57 @@
+X:605
+T:The Queen of Moravia (2 parts)
+C:Colin Hume, 2011
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=116
+%%MIDI chordname dim 0 3 6 9
+% Draw 8va
+%%postscript /octava{  % usage: len x y octava
+%%postscript exch -10 add exch 2 copy
+%%postscript M 0 10 RM /Times-Roman 16 selectfont (8) show
+%%postscript /Times-Roman 12 selectfont (va) show
+%%postscript M 0 6 RL currentpoint stroke M
+%%postscript [6] 0 setdash 30 add 0 RL currentpoint stroke M
+%%postscript [] 0 setdash 0 -6 RL stroke}!
+% Start/stop 8va
+%% deco 8( 5 - 24 0 0
+%% deco 8) 5 octava 24 0 0
+H:For Vicky Bursa
+K:C
+P:A
+V:1 Violin 1
+%%MIDI program 41
+%%MIDI chordprog 50
+%%MIDI bassprog 44
+I:octave=1
+|: !8(!"C"E/F/G "/"GA | "C"G2 "/"cG | "C"GF "/"ED | "C"E2 "/"E2 |\
+"Am"C/D/E "/"EF | "Am"E2 "/"GE | "C"ED "E7"CB, | "Am"A,2 !8)!"/"A,2 :|
+V:2 Violin 2
+%%MIDI program 41
+I:octave=1
+|: !8(!C/D/E EF | E2 GE | ED CB, | C2 C2 |\
+A,/B,/C CD | C2 EC | CB, A,^G, | A,2 !8)!A,2 :|
+P:B
+V:1
+K:C octave=0
+|: "G"B/c/d "/"dd | "C"e "G"d-dd | "C"e "G"d-dd | "Dm"f "Am"e-e2 |\
+"G"B/c/d "/"dd | "Am"c/d/e "/"ee | "Em"ge "/"ed | "Am"c2 "/"A2 :|
+V:2
+K:C octave=0
+|: G/A/B BB | c B-BB | c B-BB | d c-c2 |\
+G/A/B BB | A/B/c cc | eB GB | A2 E2 :|
+P:C
+V:1
+|: "G"BB- "/"Bc | "G"d2 "/"cd | "Am"e2 "/"d3/ e/4d/4 | "Am"cA- "/"A2 |\
+"Dm"df "/"ed | "Am/E"ce "/"dc | "E7"Bd "/"cB | "Am"A2 "/"A2 :|
+V:2
+|: GG- GA | B2 AB | c2 B2 | AE- E2 |\
+Ad cB | Ac BA | ^GB AG | A2 A2 :|
+P:D
+V:1
+|: "C"ee- "/"ed | "C"e2 "/"c2 | "G7"df "/"ed | "C"e2 "/"c2 |\
+"F"A/B/c "/"cd | "Am"e2 "/"dc | "Dm"BA "G7"cB | "C"c2 "/"c2 :|
+V:2
+|: cc- cB | c2 G2 | Bd cB | c2 G2 |\
+F/G/A AB | c2 BA | FD GF | E2 E2 :|

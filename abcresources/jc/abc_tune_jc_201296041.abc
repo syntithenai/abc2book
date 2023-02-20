@@ -1,0 +1,32 @@
+X: 1
+T: (Keep on the) Sunny Side of life
+O: as sung by the Carter Family
+%D:
+R: song
+S: Fiddle Hell Online 2022-4-4 handout for Carter Family workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+%%vocalspace 30pt
+%%continueall 1
+"^Verse:"[|]\
+DE | "G"G2AB "D"AGEG | "G"D6 Bc |
+w: 1.~There's a dark and a troub-led side of life. There's a
+d2d>e dBGB | "D"A6 AB | "D7"c2AA d2dc |
+w: bright and a sun-ny side_ too. Though we meet with the dark-ness and
+"G"(B3A) G3B | "D"AAAG F2EF | "G"G6 z2 |]
+w: strife,__ the sun-ny side we al-so may view.
+"^Chorus:"\
+[| "G"d2dd dBG2 | "C"EGGG "G"GED2 | G2GA BBAG |
+w: Keep on the sun-ny side, always on the sun-ny side. Keep on the sun-ny side of
+"D"A6 dd | "G"eddc B2AG | "C"AGGE G2GA |
+w: life. It will help us ev'-ry day, it will brigh-en all our way, if we
+"G"B2"C"cc "G"BB"D"AA | "G"G6 z2 |]
+w: keep on the sun-ny side of life.
+%
+W:2. Though the storm and it's fury broke today, Crushing hopes that we cherish so dear.
+W: Clouds and storm will in time pass away The sun again will shine bright and clear.
+W:
+W:3. Let us treat with a song of hope each day, Though the moment be cloudy or fair.
+W: Let us trust in our Saviour always To keep everyone in His care.

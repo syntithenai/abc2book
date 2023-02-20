@@ -1,0 +1,1019 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 42
+B: RSCDS Book 42
+K:
+%%center Book42/4200-Title.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 42011
+T: The Langford Ceilidh
+C: Hugh Ferguson
+B: RSCDS 42-1
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: D
+ag \
+| "D"f2d2 d2ef | "G"gfed "A7"c2ag | "D"f2d2 "Bm"d2ef | "E7"edcB "A7"A2ag | "D"f2ed "Em"e2fg |
+| "F#m"aAgA "Bm"f2ed | "A"eAfA "A7"gece | "D"d4 d2 :: cd | "A"e2A2 "A7"c2de | "D"d2F2 A2dc |
+| "G"B2dB "D/F#"Adfa | "Em"e4 "A7"e2fg | "D"agfe "A7"fAeA | "F#m"fAeA "Bm"d2cd | "A"eAfA "A7"gece | "D"d4 d2 :|
+%%center Book42/42011-Langford_Ceilidh-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 42031
+T: Lady Charlotte Murray
+C: Niel Gow
+B: RSCDS 42-3
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: D
+A/G/ \
+| "D"F2D DFA | dAF AFD | "C"E/=F/GE =CEG | =cGE =CEG \
+| "D"F2D DFD | dAF AFD | "C"G=cG "A7"EFG | "D"AFD D2 :|
+"A7"a/g/ \
+| "D"f2d dfd | afd "G7"de=f | "C"e2=c cec | ge=c "A7"efg \
+| "D"f2d "(Bm)"dfd | "D"afd "A7"efg | "D"fdf "A7"ece | "D"dAF D2 |]
+"A7"a/g/ \
+| "D"f2d dfd | afd "G7"de=f | "C"e2=c cec | ge=c "A7"efg \
+| "D"afa "A7"geg | "Bm"fdf "A7"edc | "D"Adc "A7"cBc | "D"dAF D2 |]
+%%center Book42/42031-Lady_Charlotte_Murray-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 42031
+T: Lady Charlotte Murray
+C: Niel Gow
+B: RSCDS 42-3
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: D
+A/G/ \
+| "D"F2D DFA | dAF AFD | "C"E/=F/GE =CEG | =cGE =CEG \
+| "D"F2D DFD | dAF AFD | "C"G=cG "A7"EFG | "D"AFD D2 :|
+"A7"a/g/ \
+| "D"f2d dfd | afd "G7"de=f | "C"e2=c cec | ge=c "A7"efg \
+| "D"f2d "(Bm)"dfd | "D"afd "A7"efg | "Bm"fdf "A7"ece | "D"dAF D2 ||
+"A7"a/g/ \
+| "D"f2d dfd | afd "G7"de=f | "C"e2=c cec | ge=c "A7"efg \
+| "D"afa "A7"geg | "Bm"fdf "A7"edc | "D"Adc "A7"cBc | "D"dAF D2 |]
+%%center Book42/42031-Lady_Charlotte_Murray-11.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 42041
+T: Jack's Delight
+O: Trad
+B: RSCDS 42-4
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: D
+|: A2 \
+| "D"d2d2 "A7"cecA | "D"d2fd A2ef | "Em"g2gf "E7"e2ed | "A"cecB "A7"ABcA || "D"d2d2 "A7"cecA |
+| "D"d2fd A2ef | "Em"gfge "A7"cABc | "D"d2f2 d2"A7"AG |]| "D"FAFA dAFA | "Em"AGFG E3F | GBGB "E7"edcd |
+| "A"cA"E"B^G "A7"A2AG || "D"FAFA dAFA | "G"GBGB "Em"dBGB | "A7"Aced cABc | "D"d2"A"f2 "D"d2 |]
+%%center Book42/42041-Jacks_Delight-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 42051
+T: May Yarker's Strathspey
+C: Muriel Johnstone
+R: strathspey
+B: RSCDS 42-5
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+%--------------------
+K: G
+DC \
+| "G"B,3D B3G "C"c3A "G/B"d3B | "A7"ee3 a3g "D7"fd3 d3f \
+| "G"g3d B3G "C"ce3 "G"d3D | "A7"EE3 A3G "D7"FGFE DEDC |
+y3 \
+| "G"B,3D B3G "C"c3A "G/B"d3B | "A7"ee3 a3g "D7"fd3 d2ef \
+| "G"g3B "C"ce3 "G"d3G "Am"Ec3 | "D7"B3D BAGF "G"G4-G2 |]
+ga \
+|"G"b3g "D"fa3 "G/B"g3d gfed | "Am"ca3 "G"Bg3 "D7"A2GA B3A \
+| "C"G3F EG3 "G"(3D2d2c2 (3B2c2d2 | "A7"eA3 A3G "D7"(3F2G2A2 A2ga |
+y3 \
+| "G"b3g "D"fa3 "G/B"g3d gfed | "Am"ca3 "G"Bg3 "D7"A2GA "B7"B3A \
+| "Em"GB3 g3f "Am"ed3 d3c | "D7"B3D BAGF "G"G4-G2 |]
+%%center Book42/42051-May_Yarkers_Strathspey-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 42061
+T: Lady Helen's Jig
+C: Michael Philp
+B: RSCDS 42-6
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+|: E \
+| "A"A2e "E7"dcB | "A"A3 E2A | "D"FGA "A"EAc | "Bm"edc "E7"Bcd | "A"c/d/ec "E7"dcB |
+| "F#m"A3 "(A)"E2A | "D"FGA "E7"G/A/BG | "A"A3- Az :: "E"G | "F#m"F2C "C#7"CFG | "F#m"A3 "B7"F2A | "E"G2F EFG |
+| "A"ABc "E7"Bcd | "A"cde "E7"dcB | "F#m"A3 "(A)"E2A | "D"FGA "E7"G/A/BG | "A"A3- Az :|
+%%center Book42/42061-Lady_Helens_Jig-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 42071
+T: Own Tune
+R:Reel
+C:Richard Adams
+S:RSCDS 42-7 Dance: Ways in New Hall
+M:4/4
+L:1/8
+%--------------------
+K:G
+D2 |\
+"G" G3 B         d2 B2 | "D"  cA     FA        c2 dc | "G" B2 G2 D2 B2 | "Am" cB AG "D7" F2 D2  |
+"G" G3 B "G#dim" d2 B2 | "Am7" cA     FA "D" c2 dc | "G" Bd BG "D/F#" AcAF | "G"  G4 G2        :|
+d2 |\
+"G" g3 a "Em" b2 ag | "D/F#"  a2 f2 "D7" d2 ef | "G"    g3 a  "A7/C#" b2ag | "Am/C"  a4 "D7"     a2      d2 |
+"G" g3 a "Em" b2 ag | "D"     a2 f2 "Bm" d2 d2 | "Am"   ef ga "D7"    f2d2 | "C/G"   g4 "G"      g2 "D7" d2 |
+"G" g3 a "Em" b2 ag | "A7/C#" ag fe "D"  d2 ef | "G"    g2 Bd "Am"    cBAG | "D  A7" A4 "D/F#"   A2 "Bm" D2 |
+"C" EF GA "D" FG AB | "Am"    cB AG "D"  F2 D2 | "Am/C" EF GA "D7"    F2D2 | "G"     G4          G2         |]
+%%center Book42/42071-Own_Tune.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 42071
+T: Ways in New Hall
+C: Richard Adams
+B: RSCDS 42-7
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: G
+|: D2 \
+| "G"G3B d2B2 | "D7"cAFA c2dc | "G"B2G2 D2B2 | "Am"cBAG "D7"F2D2 \
+| "G"G3B "E7"d2B2 | "Am"cAFA "D7"c2dc | "G"BdBG "D7"AcAF | "G"G2-"C"G2-"G"G2 :|
+"D7"d2 \
+| "G"g3a "Em"b2ag | "D7"a2f2 d2ef | "G"g3a "A7"b2ag | "D7"a4 a2d2 \
+|  "G"g3a "Em"b2ag | "D7"a2f2 "Bm"d2d2 | "Am"efga "D7"f2d2 | "C"g4 "G"g2 ||
+"D7"d2 \
+| "G"g3a "Em"b2ag | "A7"agfe "D"d2ef | "G"g2Bd "Am"cBAG | "D"A4 A2D2 \
+| "C"EFGA "D"FGAB | "Am"cBAG "D"F2D2 | "C"EFGA "D7"F2D2 | "G"G2-"C"G2-"G"G2 |]
+%%center Book42/42071-Ways_in_New_Hall-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 42081
+T: The Cotter Hoose
+C: Bert Murray, Aberdeen
+R: strathspey
+B: RSCDS 42-8
+M: C
+L: 1/8
+%--------------------
+K: F
+C2 \
+|:"F"A,<F F>G A<c f2 | "Gm"D<G "G7"G>F "C7"E<C C>B, \
+| "F"A,<F F>G "Dm"A<c f2 | "Gm"(3dcB "G7"(3AGF "C7"(3EDC (3B,A,G, |
+| "F"A,<F F>G A<c f2 | "Gm"D<G "G7"G>F "C7"E<C C>E \
+| "F"F>A "C/E"(3GAB "F"A>c "Bb"(3Bcd | "F"c>f "C7"e>g "F"a<f f2 ||
+||"F"A<c c>B "Am"A<c c>e | "Dm"f>c A>F "D7"A<c c>A \
+| "Gm"B<d d>c B<d d>f | "C"(3gfe "G7"(3fed "C7"(3edc (3BAG |
+| "F"A<c c>B "Am"A<c c>e | "Dm"f>c A>F "D7"A<c c>A \
+| "Gm"B>d "C7"(3GAB "F"A>c "Bb"f>d | "C7"c>A G>c "F"A<F F2 :|
+%%center Book42/42081-Cotter_Hoose-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 42081
+T: The Cotter Hoose
+C: Bert Murray, Aberdeen
+R: strathspey
+B: RSCDS 42-8
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: F
+C2 \
+|:"F"A,<F F>G A<c f2 | "Gm"D<G "G7"G>F "C7"E<C C>B, \
+| "F"A,<F F>G "Dm"A<c f2 | "Gm"(3dcB "G7"(3AGF "C7"(3EDC (3B,A,G, |
+| "F"A,<F F>G A<c f2 | "Gm"D<G "G7"G>F "C7"E<C C>E \
+| "F"F>A "C/E"(3GAB "F"A>c "Bb"(3Bcd | "F"c>f "C7"e>g "F"a<f f2 ||
+||"F"A<c c>B "Am"A<c c>e | "Dm"f>c A>F "D7"A<c c>A \
+| "Gm"B<d d>c B<d d>f | "C"(3gfe "G7"(3fed "C7"(3edc (3BAG |
+| "F"A<c c>B "Am"A<c c>e | "Dm"f>c A>F "D7"A<c c>A \
+| "Gm"B>d "C7"(3GAB "F"A>c "Bb"f>d | "C7"c>A G>c "F"A<F F2 :|
+%%center Book42/42081-Cotter_Hoose.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 42091
+T: Janet's Reel
+C: John Davidson (Perth)
+B: RSCDS 42-9
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: A
+E2 \
+| "A"c2cB A2AG | "D"FEFA "E7"E2ED \
+|1,3 "A"CEAc "F#m"ecBA | "B7"c2B2 "E7"B2 \
+:|2,4 "A"CEAc "E7"dBed | "A"c2A2 A2 :|
+|: E2 \
+| "A"A2AE CA,CE | "D"FDFA "A"ECEA \
+|1,3 "D"FDFA "A"ECEA |"E7"G2B2 B2 \
+:|2,4 "E7"GBEG BGeB | "A"c2A2 A2 :|
+y2e2 \
+| "A"aecA ECA,E | "D"DCDF "A"ECEA \
+|1 "D"DCDF "A"ECEA |"E7"G2B2 B2 \
+:|2 "E7"GBEG BGed | "A"c2A2 A2 |]
+%%center Book42/42091-Janets_Reel-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 42101
+T: Allana Creighton
+C: Allan Kindness
+R: jig
+B: RSCDS 42-10
+M: 6/8
+L: 1/8
+%--------------------
+K: F
+C \
+| "F"A2A A^GA | G2F "(C7)"C3 | "F"A^GA "D7"B2A | "Gm"D3 "G7"D3 \
+| "C7"E^DE G2B | e3 d3 | c=Bc d2c | "F"A3 A2 ||
+C \
+| "F"A2A A^GA | G2F "(C7)"C3 | "F"A^GA "D7"B2A | "Gm"D3 "G7"D3 \
+| "C7"E^DE G2B | e3 d3 | cdc CDE | "F"F3 F2 ||
+G \
+| "F"F2f fef | e2d "(C7)"c3 | "F"c=Bc "D7"A2c | "Gm"B3 B2A \
+| "G7"G2g g^fg | "C"f2e e2d | "C7"c=Bc d2c | "F"A3 A2 ||
+G \
+| "F"F2f fef | e2d "(C7)"c3 | "F"fef e2_e | "Bb"d3 d2e \
+| "Bb"fef "E/G#"e2d | "Am"c3 "D7"A3 | "Gm"c=Bc "C7"CDE | "F"F3 F2 |]
+%%center Book42/42101-Allana_Creighton-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Allana Creighton
+C: Allan Kindness
+R: jig
+B: RSCDS 42-10
+M: 6/8
+L: 1/8
+K: F
+C \
+| "F"A2A A^GA | G2F "(C7)"C3 | "F"A^GA "D7"B2A | "Gm"D3 "G7"D3 \
+| "C7"E^DE G2B | e3 d3 | c=Bc d2c | "F"A3 A2 ||
+C \
+| "F"A2A A^GA | G2F "(C7)"C3 | "F"A^GA "D7"B2A | "Gm"D3 "G7"D3 \
+| "C7"E^DE G2B | e3 d3 | cdc CDE | "F"F3 F2 ||
+G \
+| "F"F2f fef | e2d "(C7)"c3 | "F"c=Bc "D7"A2c | "Gm"B3 B2A \
+| "G7"G2g g^fg | "C"f2e e2d | "C7"c=Bc d2c | "F"A3 A2 ||
+G \
+| "F"F2f fef | e2d "(C7)"c3 | "F"fef e2_e | "Bb"d3 d2e \
+| "Bb"fef "E/G#"e2d | "Am"c3 "D7"A3 | "Gm"c=Bc "C7"CDE | "F"F3 F2 |]
+%%center Book42/AllanaCreighton_F.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 332
+T: The Cotter Hoose
+C: Bert Murray, Aberdeen
+R: strathspey
+B: RSCDS 42-8
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+C2 \
+|:"F"A,<F F>G A<c f2 | "Gm"D<G "G7"G>F "C7"E<C C>B, \
+| "F"A,<F F>G "Dm"A<c f2 | "Gm"(3dcB "G7"(3AGF "C7"(3EDC (3B,A,G, |
+| "F"A,<F F>G A<c f2 | "Gm"D<G "G7"G>F "C7"E<C C>E \
+| "F"F>A "C/E"(3GAB "F"A>c "Bb"(3Bcd | "F"c>f "C7"e>g "F"a<f f2 ||
+||"F"A<c c>B "Am"A<c c>e | "Dm"f>c A>F "D7"A<c c>A \
+| "Gm"B<d d>c B<d d>f | "C"(3gfe "G7"(3fed "C7"(3edc (3BAG |
+| "F"A<c c>B "Am"A<c c>e | "Dm"f>c A>F "D7"A<c c>A \
+| "Gm"B>d "C7"(3GAB "F"A>c "Bb"f>d | "C7"c>A G>c "F"A<F F2 :|
+%%center Book42/CotterHoose_F.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Jack's Delight
+O: Trad
+B: RSCDS 42-4
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: A2 \
+| "D"d2d2 "A7"cecA | "D"d2fd A2ef | "Em"g2gf "E7"e2ed | "A"cecB "A7"ABcA || "D"d2d2 "A7"cecA |
+| "D"d2fd A2ef | "Em"gfge "A7"cABc | "D"d2f2 d2"A7"AG |]| "D"FAFA dAFA | "Em"AGFG E3F | GBGB "E7"edcd |
+| "A"cA"E"B^G "A7"A2AG || "D"FAFA dAFA | "G"GBGB "Em"dBGB | "A7"Aced cABc | "D"d2"A"f2 "D"d2 |]
+%%center Book42/JacksDelight_D-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Jack's Delight
+O: Trad
+B: RSCDS 42-4
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: A2 \
+| "D"d2d2 "A7"cecA | "D"d2fd A2ef | "Em"g2gf "E7"e2ed | "A"cecB "A7"ABcA || "D"d2d2 "A7"cecA |
+| "D"d2fd A2ef | "Em"gfge "A7"cABc | "D"d2f2 d2"A7"AG |]| "D"FAFA dAFA | "Em"AGFG E3F | GBGB "E7"edcd |
+| "A"cA"E"B^G "A7"A2AG || "D"FAFA dAFA | "G"GBGB "Em"dBGB | "A7"Aced cABc | "D"d2"A"f2 "D"d2 |]
+%%center Book42/JacksDelight_D_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Jack's Delight
+O: Trad
+B: RSCDS 42-4
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: A2 \
+| "D"d2d2 "A7"cecA | "D"d2fd A2ef | "Em"g2gf "E7"e2ed | "A"cecB "A7"ABcA || "D"d2d2 "A7"cecA |
+| "D"d2fd A2ef | "Em"gfge "A7"cABc | "D"d2f2 d2"A7"AG |]| "D"FAFA dAFA | "Em"AGFG E3F | GBGB "E7"edcd |
+| "A"cA"E"B^G "A7"A2AG || "D"FAFA dAFA | "G"GBGB "Em"dBGB | "A7"Aced cABc | "D"d2"A"f2 "D"d2 |]
+%%center Book42/JacksDelight_D_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Janet's Reel
+C: John Davidson (Perth)
+B: RSCDS 42-9
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+E2 \
+| "A"c2cB A2AG | "D"FEFA "E7"E2ED \
+|1,3 "A"CEAc "F#m"ecBA | "B7"c2B2 "E7"B2 \
+:|2,4 "A"CEAc "E7"dBed | "A"c2A2 A2 :|
+|: E2 \
+| "A"A2AE CA,CE | "D"FDFA "A"ECEA \
+|1,3 "D"FDFA "A"ECEA |"E7"G2B2 B2 \
+:|2,4 "E7"GBEG BGeB | "A"c2A2 A2 :|
+y2e2 \
+| "A"aecA ECA,E | "D"DCDF "A"ECEA \
+|1 "D"DCDF "A"ECEA |"E7"G2B2 B2 \
+:|2 "E7"GBEG BGed | "A"c2A2 A2 |]
+%%center Book42/JanetsReel_A-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Janet's Reel
+C: John Davidson (Perth)
+B: RSCDS 42-9
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+E2 \
+| "A"c2cB A2AG | "D"FEFA "E7"E2ED \
+|1,3 "A"CEAc "F#m"ecBA | "B7"c2B2 "E7"B2 \
+:|2,4 "A"CEAc "E7"dBed | "A"c2A2 A2 :|
+|: E2 \
+| "A"A2AE CA,CE | "D"FDFA "A"ECEA \
+|1,3 "D"FDFA "A"ECEA |"E7"G2B2 B2 \
+:|2,4 "E7"GBEG BGeB | "A"c2A2 A2 :|
+y2e2 \
+| "A"aecA ECA,E | "D"DCDF "A"ECEA \
+|1 "D"DCDF "A"ECEA |"E7"G2B2 B2 \
+:|2 "E7"GBEG BGed | "A"c2A2 A2 |]
+%%center Book42/JanetsReel_A_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Janet's Reel
+C: John Davidson (Perth)
+B: RSCDS 42-9
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+E2 \
+| "A"c2cB A2AG | "D"FEFA "E7"E2ED \
+|1,3 "A"CEAc "F#m"ecBA | "B7"c2B2 "E7"B2 \
+:|2,4 "A"CEAc "E7"dBed | "A"c2A2 A2 :|
+|: E2 \
+| "A"A2AE CA,CE | "D"FDFA "A"ECEA \
+|1,3 "D"FDFA "A"ECEA |"E7"G2B2 B2 \
+:|2,4 "E7"GBEG BGeB | "A"c2A2 A2 :|
+y2e2 \
+| "A"aecA ECA,E | "D"DCDF "A"ECEA \
+|1 "D"DCDF "A"ECEA |"E7"G2B2 B2 \
+:|2 "E7"GBEG BGed | "A"c2A2 A2 |]
+%%center Book42/JanetsReel_A_AABBC-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Janet's Reel
+C: John Davidson (Perth)
+B: RSCDS 42-9
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+E2 \
+| "A"c2cB A2AG | "D"FEFA "E7"E2ED \
+|1,3 "A"CEAc "F#m"ecBA | "B7"c2B2 "E7"B2 \
+:|2,4 "A"CEAc "E7"dBed | "A"c2A2 A2 :|
+|: E2 \
+| "A"A2AE CA,CE | "D"FDFA "A"ECEA \
+|1,3 "D"FDFA "A"ECEA |"E7"G2B2 B2 \
+:|2,4 "E7"GBEG BGeB | "A"c2A2 A2 :|
+y2e2 \
+| "A"aecA ECA,E | "D"DCDF "A"ECEA \
+|1 "D"DCDF "A"ECEA |"E7"G2B2 B2 \
+:|2 "E7"GBEG BGed | "A"c2A2 A2 |]
+%%center Book42/JanetsReel_A_AABBC_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Janet's Reel
+C: John Davidson (Perth)
+B: RSCDS 42-9
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+E2 \
+| "A"c2cB A2AG | "D"FEFA "E7"E2ED \
+|1,3 "A"CEAc "F#m"ecBA | "B7"c2B2 "E7"B2 \
+:|2,4 "A"CEAc "E7"dBed | "A"c2A2 A2 :|
+|: E2 \
+| "A"A2AE CA,CE | "D"FDFA "A"ECEA \
+|1,3 "D"FDFA "A"ECEA |"E7"G2B2 B2 \
+:|2,4 "E7"GBEG BGeB | "A"c2A2 A2 :|
+y2e2 \
+| "A"aecA ECA,E | "D"DCDF "A"ECEA \
+|1 "D"DCDF "A"ECEA |"E7"G2B2 B2 \
+:|2 "E7"GBEG BGed | "A"c2A2 A2 |]
+%%center Book42/JanetsReel_A_AABBC_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Janet's Reel
+C: John Davidson (Perth)
+B: RSCDS 42-9
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+E2 \
+| "A"c2cB A2AG | "D"FEFA "E7"E2ED \
+|1,3 "A"CEAc "F#m"ecBA | "B7"c2B2 "E7"B2 \
+:|2,4 "A"CEAc "E7"dBed | "A"c2A2 A2 :|
+|: E2 \
+| "A"A2AE CA,CE | "D"FDFA "A"ECEA \
+|1,3 "D"FDFA "A"ECEA |"E7"G2B2 B2 \
+:|2,4 "E7"GBEG BGeB | "A"c2A2 A2 :|
+y2e2 \
+| "A"aecA ECA,E | "D"DCDF "A"ECEA \
+|1 "D"DCDF "A"ECEA |"E7"G2B2 B2 \
+:|2 "E7"GBEG BGed | "A"c2A2 A2 |]
+%%center Book42/JanetsReel_A_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lady Charlotte Murray
+C: Niel Gow
+B: RSCDS 42-3
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A/G/ \
+| "D"F2D DFA | dAF AFD | "C"E{=F}GE =CEG | =cGE =CEG \
+| "D"F2D DFD | dAF AFD | "C"G=cG "A7"EFG | "D"AFD D2 :|
+"A7"a/g/ \
+| "D"f2d dfd | afd "G7"de=f | "C"e2=c cec | ge=c "A7"efg \
+| "D"f2d "(Bm)"dfd | "D"afd "A7"efg | "D"fdf "A7"ece | "D"dAF D2 |]
+"A7"a/g/ \
+| "D"f2d dfd | afd "G7"de=f | "C"e2=c cec | ge=c "A7"efg \
+| "D"afa "A7"geg | "Bm"fdf "A7"edc | "D"Adc "A7"cBc | "D"dAF D2 |]
+%%center Book42/LadyCharlotteMurray1_D-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lady Charlotte Murray
+C: Niel Gow
+B: RSCDS 42-3
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A/G/ \
+| "D"F2D DFA | dAF AFD | "C"E{=F}GE =CEG | =cGE =CEG \
+| "D"F2D DFD | dAF AFD | "C"G=cG "A7"EFG | "D"AFD D2 :|
+"A7"a/g/ \
+| "D"f2d dfd | afd "G7"de=f | "C"e2=c cec | ge=c "A7"efg \
+| "D"f2d "(Bm)"dfd | "D"afd "A7"efg | "D"fdf "A7"ece | "D"dAF D2 |]
+"A7"a/g/ \
+| "D"f2d dfd | afd "G7"de=f | "C"e2=c cec | ge=c "A7"efg \
+| "D"afa "A7"geg | "Bm"fdf "A7"edc | "D"Adc "A7"cBc | "D"dAF D2 |]
+%%center Book42/LadyCharlotteMurray1_D_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lady Charlotte Murray
+C: Niel Gow
+B: RSCDS 42-3
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A/G/ \
+| "D"F2D DFA | dAF AFD | "C"E{=F}GE =CEG | =cGE =CEG \
+| "D"F2D DFD | dAF AFD | "C"G=cG "A7"EFG | "D"AFD D2 :|
+"A7"a/g/ \
+| "D"f2d dfd | afd "G7"de=f | "C"e2=c cec | ge=c "A7"efg \
+| "D"f2d "(Bm)"dfd | "D"afd "A7"efg | "D"fdf "A7"ece | "D"dAF D2 |]
+"A7"a/g/ \
+| "D"f2d dfd | afd "G7"de=f | "C"e2=c cec | ge=c "A7"efg \
+| "D"afa "A7"geg | "Bm"fdf "A7"edc | "D"Adc "A7"cBc | "D"dAF D2 |]
+%%center Book42/LadyCharlotteMurray1_D_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lady Charlotte Murray
+C: Niel Gow
+B: RSCDS 42-3
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A/G/ \
+| "D"F2D DFA | dAF AFD | "C"E{=F}GE =CEG | =cGE =CEG \
+| "D"F2D DFD | dAF AFD | "C"G=cG "A7"EFG | "D"AFD D2 :|
+"A7"a/g/ \
+| "D"f2d dfd | afd "G7"de=f | "C"e2=c cec | ge=c "A7"efg \
+| "D"f2d "(Bm)"dfd | "D"afd "A7"efg | "D"fdf "A7"ece | "D"dAF D2 |]
+"A7"a/g/ \
+| "D"f2d dfd | afd "G7"de=f | "C"e2=c cec | ge=c "A7"efg \
+| "D"afa "A7"geg | "Bm"fdf "A7"edc | "D"Adc "A7"cBc | "D"dAF D2 |]
+%%center Book42/LadyCharlotteMurray_D-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lady Charlotte Murray
+C: Niel Gow
+B: RSCDS 42-3
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A/G/ \
+| "D"F2D DFA | dAF AFD | "C"E{=F}GE =CEG | =cGE =CEG \
+| "D"F2D DFD | dAF AFD | "C"G=cG "A7"EFG | "D"AFD D2 :|
+"A7"a/g/ \
+| "D"f2d dfd | afd "G7"de=f | "C"e2=c cec | ge=c "A7"efg \
+| "D"f2d "(Bm)"dfd | "D"afd "A7"efg | "D"fdf "A7"ece | "D"dAF D2 |]
+"A7"a/g/ \
+| "D"f2d dfd | afd "G7"de=f | "C"e2=c cec | ge=c "A7"efg \
+| "D"afa "A7"geg | "Bm"fdf "A7"edc | "D"Adc "A7"cBc | "D"dAF D2 |]
+%%center Book42/LadyCharlotteMurray_D_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lady Charlotte Murray
+C: Niel Gow
+B: RSCDS 42-3
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A/G/ \
+| "D"F2D DFA | dAF AFD | "C"E{=F}GE =CEG | =cGE =CEG \
+| "D"F2D DFD | dAF AFD | "C"G=cG "A7"EFG | "D"AFD D2 :|
+"A7"a/g/ \
+| "D"f2d dfd | afd "G7"de=f | "C"e2=c cec | ge=c "A7"efg \
+| "D"f2d "(Bm)"dfd | "D"afd "A7"efg | "D"fdf "A7"ece | "D"dAF D2 |]
+"A7"a/g/ \
+| "D"f2d dfd | afd "G7"de=f | "C"e2=c cec | ge=c "A7"efg \
+| "D"afa "A7"geg | "Bm"fdf "A7"edc | "D"Adc "A7"cBc | "D"dAF D2 |]
+%%center Book42/LadyCharlotteMurray_D_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lady Helen's Jig
+C: Michael Philp
+B: RSCDS 42-6
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: E \
+| "A"A2e "E7"dcB | "A"A3 E2A | "D"FGA "A"EAc | "Bm"edc "E7"Bcd | "A"c/d/ec "E7"dcB |
+| "F#m"A3 "(A)"E2A | "D"FGA "E7"G/A/BG | "A"A3- Az :: "E"G | "F#m"F2C "C#7"CFG | "F#m"A3 "B7"F2A | "E"G2F EFG |
+| "A"ABc "E7"Bcd | "A"cde "E7"dcB | "F#m"A3 "(A)"E2A | "D"FGA "E7"G/A/BG | "A"A3- Az :|
+%%center Book42/LadyHelensJig_A-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lady Helen's Jig
+C: Michael Philp
+B: RSCDS 42-6
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: E \
+| "A"A2e "E7"dcB | "A"A3 E2A | "D"FGA "A"EAc | "Bm"edc "E7"Bcd | "A"c/d/ec "E7"dcB |
+| "F#m"A3 "(A)"E2A | "D"FGA "E7"G/A/BG | "A"A3- Az :: "E"G | "F#m"F2C "C#7"CFG | "F#m"A3 "B7"F2A | "E"G2F EFG |
+| "A"ABc "E7"Bcd | "A"cde "E7"dcB | "F#m"A3 "(A)"E2A | "D"FGA "E7"G/A/BG | "A"A3- Az :|
+%%center Book42/LadyHelensJig_A_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lady Helen's Jig
+C: Michael Philp
+B: RSCDS 42-6
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: E \
+| "A"A2e "E7"dcB | "A"A3 E2A | "D"FGA "A"EAc | "Bm"edc "E7"Bcd | "A"c/d/ec "E7"dcB |
+| "F#m"A3 "(A)"E2A | "D"FGA "E7"G/A/BG | "A"A3- Az :: "E"G | "F#m"F2C "C#7"CFG | "F#m"A3 "B7"F2A | "E"G2F EFG |
+| "A"ABc "E7"Bcd | "A"cde "E7"dcB | "F#m"A3 "(A)"E2A | "D"FGA "E7"G/A/BG | "A"A3- Az :|
+%%center Book42/LadyHelensJig_A_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Langford Ceilidh
+C: Hugh Ferguson
+B: RSCDS 42-1
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+ag \
+| "D"f2d2 d2ef | "G"gfed "A7"c2ag | "D"f2d2 "Bm"d2ef | "E7"edcB "A7"A2ag | "D"f2ed "Em"e2fg |
+| "F#m"aAgA "Bm"f2ed | "A"eAfA "A7"gece | "D"d4 d2 :: cd | "A"e2A2 "A7"c2de | "D"d2F2 A2dc |
+| "G"B2dB "D/F#"Adfa | "Em"e4 "A7"e2fg | "D"agfe "A7"fAeA | "F#m"fAeA "Bm"d2cd | "A"eAfA "A7"gece | "D"d4 d2 :|
+%%center Book42/LangfordCeilidh_D-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Langford Ceilidh
+C: Hugh Ferguson
+B: RSCDS 42-1
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+ag \
+| "D"f2d2 d2ef | "G"gfed "A7"c2ag | "D"f2d2 "Bm"d2ef | "E7"edcB "A7"A2ag | "D"f2ed "Em"e2fg |
+| "F#m"aAgA "Bm"f2ed | "A"eAfA "A7"gece | "D"d4 d2 :: cd | "A"e2A2 "A7"c2de | "D"d2F2 A2dc |
+| "G"B2dB "D/F#"Adfa | "Em"e4 "A7"e2fg | "D"agfe "A7"fAeA | "F#m"fAeA "Bm"d2cd | "A"eAfA "A7"gece | "D"d4 d2 :|
+%%center Book42/LangfordCeilidh_D_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Langford Ceilidh
+C: Hugh Ferguson
+B: RSCDS 42-1
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+ag \
+| "D"f2d2 d2ef | "G"gfed "A7"c2ag | "D"f2d2 "Bm"d2ef | "E7"edcB "A7"A2ag | "D"f2ed "Em"e2fg |
+| "F#m"aAgA "Bm"f2ed | "A"eAfA "A7"gece | "D"d4 d2 :: cd | "A"e2A2 "A7"c2de | "D"d2F2 A2dc |
+| "G"B2dB "D/F#"Adfa | "Em"e4 "A7"e2fg | "D"agfe "A7"fAeA | "F#m"fAeA "Bm"d2cd | "A"eAfA "A7"gece | "D"d4 d2 :|
+%%center Book42/LangfordCeilidh_D_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: May Yarker's Strathspey
+C: Muriel Johnstone
+R: strathspey
+B: RSCDS 42-5
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+DC \
+| "G"B,3D B3G "C"c3A "G/B"d3B | "A7"ee3 a3g "D7"fd3 d3f \
+| "G"g3d B3G "C"ce3 "G"d3D | "A7"EE3 A3G "D7"FGFE DEDC |
+y3 \
+| "G"B,3D B3G "C"c3A "G/B"d3B | "A7"ee3 a3g "D7"fd3 d2ef \
+| "G"g3B "C"ce3 "G"d3G "Am"Ec3 | "D7"B3D BAGF "G"G4-G2 |]
+ga \
+|"G"b3g "D"fa3 "G/B"g3d gfed | "Am"ca3 "G"Bg3 "D7"A2GA B3A \
+| "C"G3F EG3 "G"(3D2d2c2 (3B2c2d2 | "A7"eA3 A3G "D7"(3F2G2A2 A2ga |
+y3 \
+| "G"b3g "D"fa3 "G/B"g3d gfed | "Am"ca3 "G"Bg3 "D7"A2GA "B7"B3A \
+| "Em"GB3 g3f "Am"ed3 d3c | "D7"B3D BAGF "G"G4-G2 |]
+%%center Book42/MayYarkersStr_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: May Yarker's Strathspey
+C: Muriel Johnstone
+R: strathspey
+B: RSCDS 42-5
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+DC \
+| "G"B,3D B3G "C"c3A "G/B"d3B | "A7"ee3 a3g "D7"fd3 d3f \
+| "G"g3d B3G "C"ce3 "G"d3D | "A7"EE3 A3G "D7"FGFE DEDC |
+y3 \
+| "G"B,3D B3G "C"c3A "G/B"d3B | "A7"ee3 a3g "D7"fd3 d2ef \
+| "G"g3B "C"ce3 "G"d3G "Am"Ec3 | "D7"B3D BAGF "G"G4-G2 |]
+ga \
+|"G"b3g "D"fa3 "G/B"g3d gfed | "Am"ca3 "G"Bg3 "D7"A2GA B3A \
+| "C"G3F EG3 "G"(3D2d2c2 (3B2c2d2 | "A7"eA3 A3G "D7"(3F2G2A2 A2ga |
+y3 \
+| "G"b3g "D"fa3 "G/B"g3d gfed | "Am"ca3 "G"Bg3 "D7"A2GA "B7"B3A \
+| "Em"GB3 g3f "Am"ed3 d3c | "D7"B3D BAGF "G"G4-G2 |]
+%%center Book42/MayYarkersStr_G_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: May Yarker's Strathspey
+C: Muriel Johnstone
+R: strathspey
+B: RSCDS 42-5
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+DC \
+| "G"B,3D B3G "C"c3A "G/B"d3B | "A7"ee3 a3g "D7"fd3 d3f \
+| "G"g3d B3G "C"ce3 "G"d3D | "A7"EE3 A3G "D7"FGFE DEDC |
+y3 \
+| "G"B,3D B3G "C"c3A "G/B"d3B | "A7"ee3 a3g "D7"fd3 d2ef \
+| "G"g3B "C"ce3 "G"d3G "Am"Ec3 | "D7"B3D BAGF "G"G4-G2 |]
+ga \
+|"G"b3g "D"fa3 "G/B"g3d gfed | "Am"ca3 "G"Bg3 "D7"A2GA B3A \
+| "C"G3F EG3 "G"(3D2d2c2 (3B2c2d2 | "A7"eA3 A3G "D7"(3F2G2A2 A2ga |
+y3 \
+| "G"b3g "D"fa3 "G/B"g3d gfed | "Am"ca3 "G"Bg3 "D7"A2GA "B7"B3A \
+| "Em"GB3 g3f "Am"ed3 d3c | "D7"B3D BAGF "G"G4-G2 |]
+%%center Book42/MayYarkersStr_G_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: May Yarker's Strathspey
+C: Muriel Johnstone
+R: strathspey
+B: RSCDS 42-5
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+DC \
+| "G"B,3D B3G "C"c3A "G/B"d3B | "A7"ee3 a3g "D7"fd3 d3f \
+| "G"g3d B3G "C"ce3 "G"d3D | "A7"EE3 A3G "D7"FGFE DEDC |
+y3 \
+| "G"B,3D B3G "C"c3A "G/B"d3B | "A7"ee3 a3g "D7"fd3 d2ef \
+| "G"g3B "C"ce3 "G"d3G "Am"Ec3 | "D7"B3D BAGF "G"G4-G2 |]
+ga \
+|"G"b3g "D"fa3 "G/B"g3d gfed | "Am"ca3 "G"Bg3 "D7"A2GA B3A \
+| "C"G3F EG3 "G"(3D2d2c2 (3B2c2d2 | "A7"eA3 A3G "D7"(3F2G2A2 A2ga |
+y3 \
+| "G"b3g "D"fa3 "G/B"g3d gfed | "Am"ca3 "G"Bg3 "D7"A2GA "B7"B3A \
+| "Em"GB3 g3f "Am"ed3 d3c | "D7"B3D BAGF "G"G4-G2 |]
+%%center Book42/MayYarkersStrathspey_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: May Yarker's Strathspey
+C: Muriel Johnstone
+R: strathspey
+B: RSCDS 42-5
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+DC \
+| "G"B,3D B3G "C"c3A "G/B"d3B | "A7"ee3 a3g "D7"fd3 d3f \
+| "G"g3d B3G "C"ce3 "G"d3D | "A7"EE3 A3G "D7"FGFE DEDC |
+y3 \
+| "G"B,3D B3G "C"c3A "G/B"d3B | "A7"ee3 a3g "D7"fd3 d2ef \
+| "G"g3B "C"ce3 "G"d3G "Am"Ec3 | "D7"B3D BAGF "G"G4-G2 |]
+ga \
+|"G"b3g "D"fa3 "G/B"g3d gfed | "Am"ca3 "G"Bg3 "D7"A2GA B3A \
+| "C"G3F EG3 "G"(3D2d2c2 (3B2c2d2 | "A7"eA3 A3G "D7"(3F2G2A2 A2ga |
+y3 \
+| "G"b3g "D"fa3 "G/B"g3d gfed | "Am"ca3 "G"Bg3 "D7"A2GA "B7"B3A \
+| "Em"GB3 g3f "Am"ed3 d3c | "D7"B3D BAGF "G"G4-G2 |]
+%%center Book42/MayYarkersStrathspey_G_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: May Yarker's Strathspey
+C: Muriel Johnstone
+R: strathspey
+B: RSCDS 42-5
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+DC \
+| "G"B,3D B3G "C"c3A "G/B"d3B | "A7"ee3 a3g "D7"fd3 d3f \
+| "G"g3d B3G "C"ce3 "G"d3D | "A7"EE3 A3G "D7"FGFE DEDC |
+y3 \
+| "G"B,3D B3G "C"c3A "G/B"d3B | "A7"ee3 a3g "D7"fd3 d2ef \
+| "G"g3B "C"ce3 "G"d3G "Am"Ec3 | "D7"B3D BAGF "G"G4-G2 |]
+ga \
+|"G"b3g "D"fa3 "G/B"g3d gfed | "Am"ca3 "G"Bg3 "D7"A2GA B3A \
+| "C"G3F EG3 "G"(3D2d2c2 (3B2c2d2 | "A7"eA3 A3G "D7"(3F2G2A2 A2ga |
+y3 \
+| "G"b3g "D"fa3 "G/B"g3d gfed | "Am"ca3 "G"Bg3 "D7"A2GA "B7"B3A \
+| "Em"GB3 g3f "Am"ed3 d3c | "D7"B3D BAGF "G"G4-G2 |]
+%%center Book42/MayYarkersStrathspey_G_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Ways in New Hall
+C: Richard Adams
+B: RSCDS 42-7
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: D2 \
+| "G"G3B d2B2 | "D7"cAFA c2dc | "G"B2G2 D2B2 | "Am"cBAG "D7"F2D2 \
+| "G"G3B "E7"d2B2 | "Am"cAFA "D7"c2dc | "G"BdBG "D7"AcAF | "G"G2-"C"G2-"G"G2 :|
+"D7"d2 \
+| "G"g3a "Em"b2ag | "D7"a2f2 d2ef | "G"g3a "A7"b2ag | "D7"a4 a2d2 \
+|  "G"g3a "Em"b2ag | "D7"a2f2 "Bm"d2d2 | "Am"efga "D7"f2d2 | "C"g4 "G"g2 ||
+"D7"d2 \
+| "G"g3a "Em"b2ag | "A7"agfe "D"d2ef | "G"g2Bd "Am"cBAG | "D"A4 A2D2 \
+| "C"EFGA "D"FGAB | "Am"cBAG "D"F2D2 | "C"EFGA "D7"F2D2 | "G"G2-"C"G2-"G"G2 |]
+%%center Book42/WaysInNewHall_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Ways in New Hall
+C: Richard Adams
+B: RSCDS 42-7
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: D2 \
+| "G"G3B d2B2 | "D7"cAFA c2dc | "G"B2G2 D2B2 | "Am"cBAG "D7"F2D2 \
+| "G"G3B "E7"d2B2 | "Am"cAFA "D7"c2dc | "G"BdBG "D7"AcAF | "G"G2-"C"G2-"G"G2 :|
+"D7"d2 \
+| "G"g3a "Em"b2ag | "D7"a2f2 d2ef | "G"g3a "A7"b2ag | "D7"a4 a2d2 \
+|  "G"g3a "Em"b2ag | "D7"a2f2 "Bm"d2d2 | "Am"efga "D7"f2d2 | "C"g4 "G"g2 ||
+"D7"d2 \
+| "G"g3a "Em"b2ag | "A7"agfe "D"d2ef | "G"g2Bd "Am"cBAG | "D"A4 A2D2 \
+| "C"EFGA "D"FGAB | "Am"cBAG "D"F2D2 | "C"EFGA "D7"F2D2 | "G"G2-"C"G2-"G"G2 |]
+%%center Book42/WaysInNewHall_G_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Ways in New Hall
+C: Richard Adams
+B: RSCDS 42-7
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: D2 \
+| "G"G3B d2B2 | "D7"cAFA c2dc | "G"B2G2 D2B2 | "Am"cBAG "D7"F2D2 \
+| "G"G3B "E7"d2B2 | "Am"cAFA "D7"c2dc | "G"BdBG "D7"AcAF | "G"G2-"C"G2-"G"G2 :|
+"D7"d2 \
+| "G"g3a "Em"b2ag | "D7"a2f2 d2ef | "G"g3a "A7"b2ag | "D7"a4 a2d2 \
+|  "G"g3a "Em"b2ag | "D7"a2f2 "Bm"d2d2 | "Am"efga "D7"f2d2 | "C"g4 "G"g2 ||
+"D7"d2 \
+| "G"g3a "Em"b2ag | "A7"agfe "D"d2ef | "G"g2Bd "Am"cBAG | "D"A4 A2D2 \
+| "C"EFGA "D"FGAB | "Am"cBAG "D"F2D2 | "C"EFGA "D7"F2D2 | "G"G2-"C"G2-"G"G2 |]
+%%center Book42/WaysInNewHall_G_JC.abc

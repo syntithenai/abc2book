@@ -1,0 +1,18 @@
+X: 484
+T: Zikino Kolo
+O: Serbia
+F: http://www.youtube.com/watch?v=IruuPSbc_bM
+F: http://www.youtube.com/watch?v=7R4uw7zuBAc
+M: 3/4
+L: 1/8
+Q: 1/4=180
+K: G
+%%MIDI drum d2d2d2 37 35 35 70 50 50
+%%MIDI drumon
+|:GB d2 d2|de d^cd2|de d=cBA|BABA G2 :|
+K:Dm
+|:A2F2F2  |FEDEF2  |A2F2F2  |FE D4   |
+  A2F2F2  |FEDEFD  |E4A2    |E6      :|
+K:Em
+|: EF G2G2 |G2F2z2  |EF G2G2 |G2F2z2  |
+  EF G2G2 |G2F2z2  |E4A2    |E6      :|

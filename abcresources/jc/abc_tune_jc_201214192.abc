@@ -1,0 +1,22 @@
+X: 143
+T: Crossing to Ireland
+N: page 47
+N: heptatonic
+R: waltz
+M: 3/4
+L: 1/8
+K: Emin
+EF \
+|: "Em"G2 E2 ED | B,2 E3  F | G2 EF G2 |     B3 BAG \
+|  "D"F2 D2 D2 | A,2 D2 D2 | F2 D2 D2 | "Bm"A3 AGF
+| "Em"G2 E2 ED | B,2 E3  F | G2 EF G2 |     B4 A2 \
+|  "G"G3 AB^c | "D"d2 ^c2 B2 | "B7"A2 G2 F2 |[1 "Em"E4 EF:|[2"Em" E3 eef|
+| "Em"g2 e2 e2 | B2 e3 B | G2 E2 E2 | E3 bag \
+|  "D"f2 d2 d2 | A2 d3 A | F2 D2 D2 | D3 agf\
+| "Em"g2 e2 e2 | B2 e3 B | G2 E2 g2 |
+ "Bm"f4 e2 |  "G"G3   AB^c | "D"d2 ^c2 B2 | "B7"A2 G2 F2 |\
+ "Em"E4 ef | "Em"g2 e2 e2 | B2 e2 e2 | E2 G2 B2 | ef gb ag \
+|  "D"f2 d2 d2 | A2 d3 A |
+ D2 F2 A2 | "Bm"de fg af | "Em"g3  f e2 | "B7"f3 e ^d2 |\
+ "Em"e3 d B2 | "D"A3 G F2 |  "G"G3   AB^c |\
+ "D"d2 ^c2 B2 | "B7"A2 G2 F2 | "Em"E6 |]

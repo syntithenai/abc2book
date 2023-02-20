@@ -1,0 +1,91 @@
+X: 1
+T: Kitchen Girl
+N:Chords added by J. Evans (yes, the major E chord is intentional!).
+F:Found in http://www.ars-nova.com/swusermanual/abc.htm 2007-9-10
+N:Note the incorrect keys.
+C:Trad.
+L:1/8
+K:D
+            [c4a4] [B4g4] | "A"efed c2cd |    e2f2 "G"gaba | "E"g2e2 e2fg \
+| "no chord"[c4a4] [B4g4] | "A"efed cdef | "G"g2d2    efed | "A"c2A2 A4 :|
+K:G
+|: "Amin"ABcA "G"BAGB | "Amin"ABAG EDEG | A2AB    c2d2 |    e3f edcB \
+|        ABcA "G"BAGB | "Amin"ABAG EGAB | cBAc "G"BAG2 | "Amin"A4 A4 :|
+
+%%sep 1 1 500
+X: 2
+T: Kitchen Girl
+R: reel
+M: C|
+L: 1/8
+K: Amix
+|:"A"{eg}[a4c4] "G"[g4B4] | "A"efed c2cd |    ecef    gaba | "Em"g2e2 e2(3efg |
+| "A"agaf       "G"gagg   | "A"efed cdef | "G"g2d2 "E"efed |  "A"c2A2 A2z2 :|
+K: Ador
+|:"Am"AB=cA "G"BAGB | "Am"ABAG EDEG | "Am"A2AB    c2d2 | "E"e3f e2A2- |
+| "Am"ABcA  "G"BAGB | "Am"ABAG EGAB | "Am"c2A2 "G"BAG2 | "A"A3B A2z2 :|
+
+%%sep 1 1 500
+X: 3
+T: Kitchen Girl
+N:Chords added by J. Evans (yes, the major E chord is intentional!).
+F:Found in http://www.ars-nova.com/swusermanual/abc.htm 2007-9-10
+N:Note the incorrect keys.
+C:Trad.
+L:1/8
+K:D
+            [c4a4] [B4g4] | "A"efed c2cd |    e2f2 "G"gaba | "E"g2e2 e2fg \
+| "no chord"[c4a4] [B4g4] | "A"efed cdef | "G"g2d2    efed | "A"c2A2 A4 :|
+K:G
+|: "Amin"ABcA "G"BAGB | "Amin"ABAG EDEG | A2AB    c2d2 |    e3f edcB \
+|        ABcA "G"BAGB | "Amin"ABAG EGAB | cBAc "G"BAG2 | "Amin"A4 A4 :|
+
+%%sep 1 1 500
+X: 38
+T: Kitchen Girl
+A:New England
+S:Sessions
+D:David Bromberg
+N:Note minor second part - actually in Aminor
+R:Reel
+M:4/4
+L:1/8
+K:AMix
+"A"([a2c2][a2c2])"G"([g2B2][g2B2])| "A"(ef)ed c2 cd | (ec)ef (ga)ba | "E"g2e2e2 eg |
+"A"(ab)af "G"(ga)gd | "A"(ef)ed (cd)ef |"G"g2 d2 "E"efed  |1 "A"c2 A2 A2 (ef):|2 "A"c2A2A2 (A[DB]) ||
+"Am"[=c4E4]"G"[B4D4]  | "Am"(AB)AG (ED)EG | A2 AB =c2 d2 | "Em"e3 (=f e2) [A2A2] |
+"Am"[AA]B=cA "G"(BA)GB | "Am"(AB)AG (EG)AB | =cBAc "G"(BA) (GB) |1 "Am"A3 (BA2) [A2A2] :|2 "Am"A3 (B[A4A4]) ||
+
+%%sep 1 1 500
+X: 39
+T: Kitchen Girl
+C:Trad.
+K:Amix
+|: a4 g4 | efed c2cd | e2f2 gaba | g2e2 e2fg | a4 g4 | efed cdef | g2d2 efed | c2A2 A4 :|
+K:Am
+|: ABcA BAGB | ABAG EDEG | A2AB c2d2 | e3f edcB | ABcA BAGB | ABAG EGAB | cBAc BAG2 | A4 A4 :|
+
+%%sep 1 1 500
+X: 40
+T: the Kitchen Girl
+R:Reel
+O:USA
+M:4/4
+K:AMix
+|: a4 g4 | efed c2cd |1 e2f2 gaba | g2e2 e2AA :|2 e2A2 efed | c2A2 A4 :|
+K:Am
+|: c4 B4 | ABAG E2EG | A2B2 c2d2 | e3f edcB | c4B4 | ABAG E2EE | cBAc BAG2 | A8 :|
+
+%%sep 1 1 500
+X: 41
+T: Kitchen Girl
+S:via PR
+M:4/4
+L:1/4
+K:Amix
+|:\
+"A"[a2c2]"G"[g2B2] | "A"e/f/e/d/ cc/d/ | "A"e/c/e/f/ "G"g/a/b/a/ | "E"^ge ee/=g/ |
+"A"a/b/a/f/ "G"g/a/g/f/ | "A"e/f/e/d/ c/d/e/f/ | "G"gd "E"e/f/e/d/ | "A"cA A2 :|
+|:\
+"Am"=cc/A/ "G"B/A/G/B/ | "Am"A/B/A/G/ E/D/E/G/ | "Am"A/G/A/B/ "C"=c/B/c/d/ | "Em"ee/g/ e/d/B/A/ |
+"Am"=cc/A/ "G"B/A/G/B/ | "Am"A/B/A/G/ E/D/E/G/ | "Am"=c/B/A/c/ "G"B/A/G/B/ | "Am"A3/B/ A2 :|

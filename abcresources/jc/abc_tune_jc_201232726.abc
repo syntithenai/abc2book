@@ -1,0 +1,264 @@
+
+X: 0
+T: 24 Favourite Dances for the Year 1784
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Thomas Straight "Twenty Four Country Dances for the Year 1784", London 1784
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1784
+N: As of August 2014, only the last 4 pages of this collection were available at www.vwml.org.
+N: This booklet uses the following icons in the dance descriptions (rotated 1/4 turn to be typable):
+N:   .|.  First  time first  strain.
+N:   :|.  Second time first  strain.
+N:   .|:  First  time second strain.
+N:   :|:  Second time second strain.
+K:
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center 24 Favourite DANCES for the Year 1784
+%%center With proper Directions to each Dance,
+%%center as they are perform'd at Court, Bath,
+%%center and all publick Assemblies
+%%center -----------------------------------
+%%center London Printed for T.Straight No.138 St Martins Lane near
+%%center Charing Cross.
+%%begintext align
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%% Transcription notes:
+%% The tunes are numbered (below the clef and time signature); their number (01-24)
+%% is used in the file name to preserve the publication order.
+%% Some abbreviations use small superscript letters with a dot underneath.
+%% The dots are ignored for will-known abbreviations, and the letters typed as-is.
+%% For unusual abbreviations, the dots may be transcribed.
+%% Some abbreviations end with ":", which is usually transcribed.
+%% Original staff breaks are ignored; the ABC is formatted to have 2 or 4 bars per line,
+%% which are joined into staffs to look good at a small scale.
+%% Dances are transcribed with the original line breaks, which isn't significant.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 1 500
+%%sep 1 2 500
+%%text In August 2014, pages 1-8 of this collection were missing, so only 9-12 are transcribed here.
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 17
+T: Jack in the Box
+P: P.9 #1
+%R: jig
+B: "Twenty Four Favourite Dances for the Year 1784", Thomas Straight, ed. p.9 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1784
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D3 A>BA | d2A (F/G/A)F | D2A d>ed | a2g (f/g/a)f |\
+e2e A>BA | d2A (F/G/A)F | D2d afd | ege d3 :|
+|:\
+A3 d>ed | a>ba f>gf | b3 gag | fed e3 |\
+A2A d>ed | a>ba f>gf | afd gec | dAF D3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Foot it and half right and left .|. the same back
+%% again :|. cross over one Cu: and turn .|: Right hands
+%% and left :|:
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 18
+T: The Arcadian Nuptials
+P: P.9 #2
+%R: slip-jig
+B: "Twenty Four Favourite Dances for the Year 1784", Thomas Straight, ed. p.9 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1784
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+F3 AFA cAc | F3 dBd G3 |\
+F3 AFA cAc | def gfe f3 :|\
+|:\
+a3 afd afd | efg gec gec |
+a3 afd gec | def gfe f3 :|\
+|:\
+cAF cAF Acf | dBG dBG Bdg |\
+cAF cAF Acf | cBA GFE F3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st Cu: turn right hands & cast off one Cu: .|. turn
+%% with your left hands the Man cast off & the Wo: cast up
+%% :|. foot it 3 at top & bottom .|: foot it 3 contrary sides
+%% :|: hands four at bottom .|:. Right and left at top :|:.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 19
+T: A Trip to Bengall
+P: P.10 #1
+%R: march, reel
+B: "Twenty Four Favourite Dances for the Year 1784", Thomas Straight, ed. p.10 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1784
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+gdBG | c>AB2 | gdBG | AFG2 |\
+gdBG | FAc2 | Bed^c | d4 :|
+|:\
+dcBd | ecTc2 | cBAc | dBTB2 |\
+BGg2 | dBg2 | ecBA | G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st Man Sets to the second Wo: and turns
+%% her .|. The 1st Wo: Set to the second Man and
+%% turns :|. the 1st Cu: cross over and half Figure .|:
+%% Foot and right hand and left :|:
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 20
+T: Garricks Rout
+P: P.10 #2
+%R: march, reel
+B: "Twenty Four Favourite Dances for the Year 1784", Thomas Straight, ed. p.10 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1784#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+c2eg | fedc | BGAB | Tc3d |\
+ecac | dBgB | A2T^f2 | g4 :|
+|:\
+gfeg | afTf2 | fedf | geTe2 |\
+edcd | cagf | e2Td2 | c4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st Cu cast down two Cu: and Foot it .|. and cast
+%% up to the top and Foot it :|. Cast back and hands
+%% round with the third Cu: .|: Right hands and left :|:
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 21
+T: The Prince of Brunswick
+P: P.11 #1
+%R: jig
+B: "Twenty Four Favourite Dances for the Year 1784", Thomas Straight, ed. p.11 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1784#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(gd)B (GA)G | (cBA) (BGD) |\
+(gd)B (GA)B | (cBA) B3 :|\
+|:\
+(def) (gbg) | (fa)f (e^c)A |
+(def) (gbg) | (faf) g3 :|\
+|:\
+gdB ecA | (Bc)A B2G |\
+(gd)B (ec)A | BdD G3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The first Man set and turn the 2d Wo: .|. the
+%% first Wo: sets and turn the 2d Man :|. cross
+%% over one Cu: .|: foot it lead up and cast back :|:
+%% foot it and back to back .|:. right Hands and
+%% left :|:.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 22
+T: Miss Piggots Whim
+P: P.11 #2
+%R: hornpipe, reel
+B: "Twenty Four Favourite Dances for the Year 1784", Thomas Straight, ed. p.11 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1784#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+g>GG>G | G2e2 | d>B A>G | TA4 |\
+g>GG>G | TG2b2 | a>gf>e | Td4 :|
+|:\
+d>BB>B | ecTc2 | c>AA>A | dBTg2 |\
+(GD)TB2 | ADTc2 | BdFA | G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The first Cu: cast back and lead thro the 3d
+%% Cu: .|. cast up to the top and lead thro the 2d
+%% Cu :|. cross over Foot it .|: right Hand and
+%% left :|:
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23
+T: The Romps, or The Merry Girls of Scarborough
+P: P.12 #1
+%R: hornpipe, reel
+B: "Twenty Four Favourite Dances for the Year 1784", Thomas Straight, ed. p.12 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1784#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d>dB>B | g3e | d>BA>G | A4 |\
+d>dB>B | g3b | a>gf>e | d4 :|
+|:\
+d>dB>B | e4 | c>cA>A | d4 |\
+B>Gg2 | d>Bg2 | e>cB>A | G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The first Man sets to the 2d Wo: foot it and turns
+%% her .|. the first Wo: sets to the 2d Man and turns him
+%% :|. all four Hand round .|: right Hands and left :|:
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 24
+T: Miss Willmot's Maggot
+P: P.12 #2
+%R: march, reel
+B: "Twenty Four Favourite Dances for the Year 1784", Thomas Straight, ed. p.12 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1784#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d>Bg2 | d>Bg2 | d>Bc>A | BGG2 |\
+dBg2 | dBg2 | fa A^c | d4 :|
+|:\
+dBe2 | cAd2 | BGcB | AFD2 |\
+dBg2 | dBg2 | ecBA | G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hand a cross .|. and back again :|. cross over back
+%% to back .|: foot it right Hand and left :|:
+%%endtext

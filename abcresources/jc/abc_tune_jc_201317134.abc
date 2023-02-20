@@ -1,0 +1,19 @@
+X: 1
+T: Niel Gow's Second Wife
+%C: Niel Gow	% Is this known?
+M: C
+L: 1/8
+R: Strathspey
+B: Peter Milne "Middleton's Selection of Strathspeys, Reels &c. for the Violin" 1870, p.33
+S: https://tunearch.org/wiki/Niel_Gow%27s_Second_Wife_(1) % 2022-6-3
+Z: AK/Fiddler's Companion
+K: Gm
+d |\
+"Gm"B<G G>B "F"A<F F>A | "Gm"B<G G>A B>A B<g |\
+"Gm"B<G G>B "F"A<F F>A | "Bb"B>B "(F)"d/c/B/A/ "Bb"F<BB :|
+d |\
+"Bb"B<B (d>B) (f>B) d>B | "F"F<F (A>F) (c>F) A>F |\
+"Bb"B<B (d>B) (f>B) d>B | "Gm"g>g b/a/g/f/ d<gg ||
+a |\
+"Bb"f<d d>f "F"e<c c<e | "Gm"d<B B<d "F"c>B A>G |\
+"Gm"G<G B<B "F"c<c "D7"d<d | "Gm"(B>G) "D7"(B/A/)G/^F/ "Gm"D<GG |]

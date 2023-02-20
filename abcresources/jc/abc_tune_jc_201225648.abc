@@ -1,0 +1,60 @@
+%%text RJ Set 099
+
+
+X: 1
+T: Humours of Trim
+M: 6/8
+L: 1/8
+R: jig
+K: D
+|:\
+"D"F2D DED | D2d "A"cAG | "D"F2D DED | "Em7"ABA "A"GFE |\
+"D"FEF DED | D2d "A"cAG | "D"FAF "G"GBG | "A"ABA GFE :|
+|:\
+"D"D2d cAd | cAd "A"cAG | "D"F2d cAG | FAF "A"GFE |\
+"D"D2d "A"cde | "D"fed "A"cAG | "D"FAF "G"GBG | "A"ABA GFE :|
+%%text Transition: Melody plays last line; backup plays the first D chord and drops out.
+
+
+X: 2
+T: Seanamhac Tube Station
+C: John Carty
+M: 6/8
+L: 1/8
+R: jig
+K: Gdor
+"Gm"~G3 GFD | GAc ~d3 | "Gm"dcA "F"cAF | "Gm"GFD "F"CDF |\
+"Gm"~G3 GFD | GAc ~d3 | dcA "F"cAF |1 "Gm"~G3 "F"ABA :|2 "Gm"~G3 "F"GAc ||
+"Gm"~d3 dcA | "F"~c3 cAc | "Gm"dcA "F"cAF | "Gm"GFD "F"CDF |\
+"Gm"~d3 dcA | "F"~c3 fcf | "Gm"dcA "F"cAF | "G"~G3 "F"GAc ||
+"Gm"~d3 dcA | "F" ~c3 cAc | "Gm"dcA "F"cAF | "Gm"GFD "F"CDF |\
+"Gm"GFD GFD | GFD "F"dcA | "Gm"dcA "F"dcA |["cont""Gm"~G3 "F"ABA |] ["trans""Gm"Gz2z3 ||
+
+
+X: 3
+T: Sean Ryan's (traditional)
+M: 6/8
+L: 1/8
+R: jig
+K: Ador
+|:"Am"~c3 "G"BAG | "Am"AGE "G"DB,G, | "Am"~A,3 EDB, | "G"DEG AGE |\
+| "Am"cBA "G"BAG | "Am"AGE "G"DB,G, | "Am"A,2 E "Em"EDE | "G"DB,G, "Am"A,2 B :|
+|:"Am"cBA ~a3 | bag edB | "G"GBd gfg | GBd cBA |\
+| "Am"cBc "G"dcd | "Am"ede "G"gab | "Am"age "G"dBG | "Em"EFG "Am"A2 B :|
+%%text Transition: Don't play that last B pickup note.
+
+
+X: 4
+T: The Spotted Dog
+C: John McEvoy (2001 or earlier)
+%D:2001
+M: 6/8
+L: 1/8
+R: jig
+K: A
+| "A"EAA ABc | "D"BAF "A"AFE |"Bm"FBB      Bce | "D"faf "E"ecA |\
+| "A"EAA ABc | "D"BAF "A"Ace | "D"f2a   "A"e2a | "E"ABc "A"B2A :|
+|:"A"cee ece | "D"fec "A"ecA | "A"eaf "F#m"ecA |"Bm"EFA "E"B2A |\
+| "A"cee ece | "D"fec "A"e2a | "D"f2a   "A"e2a | "E"ABc "A"B2A :|
+%%text Ending: Tack on an A-chord after last measure.
+

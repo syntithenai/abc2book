@@ -1,0 +1,31 @@
+X: 4042
+T: Long Life to Step Mothers
+C: By Nath. Gow
+%R: march, air
+N: This is version 1, for ABC software that doesn't understand diminuendo symbols.
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.4 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: One of the {^g} grace notes is missing its sharp; not fixed. ;-)
+M: 2/4
+L: 1/16
+Q: "Slow"
+K: D
+% - - - - - - - - - -
+V: 1 staves=2 clef=treble
+|:\
+{A,}D2{A,}D2 {A,}D2{A,}D2 | B,E TE>C (DF) TFA |\
+{A,}D2{A,}D2 {A,}D2{A,}D2 | B,E TE>C [D4A,4F,4] :|\
+{^g}a2{^g}a2 fdTd>c | Bee>d (cA)df |
+{^g}a2{g}a2 fdTd>c | (Be)e>c {d}d2D2 ||\
+{^g}a2{^g}a2 fdTd>c | B(e/f/) (g/f/).e/.d/ (cA)df |\
+"_dim."(af).d.A "_dim."(fd).A.F | "_dim."(BG)(EC) {c}D4 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+[f2F2][f2F2] [f2F2][f2F2] | [g2G2][a2A2] [f2F2][d2D2] |\
+[f2F2][f2F2] [f2F2][f2F2] | [g2G2][a2A2] [d4D4] :|\
+d2d'2d2f2 | g2^g2 a4 |
+d2d'2 d2f2 | g2a2 d4 ||\
+d2d'2 d2f2 | g2e2 a4 |\
+"_dim."D2d2 "_dim."D2F2 | "_dim."G2A2 D4 |]

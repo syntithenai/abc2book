@@ -1,0 +1,34 @@
+X: 1
+T: Westmorland
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.97 "K"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the dance instructions.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d/c/ |\
+B>AG F>ED | E>FG F2G | A>Bc B>cd | e>fg f>ef |\
+g2g gdB | c2B A>B c/d/ | (BG)B AFD | G3- G2 :|
+|: g/a/ |\
+b>ag a>gf | g>fe d>ef | g>fe deB | A3 d3 |\
+B>AB GgB | c2B A>B c/d | (BG)B AFD | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First man and 2. wo. take right-hands and turn half round, while the 2. wo. pass round, the 1. wo.
+%% into her place, the 1. man also go round the 2. man and pass into his place, then 1. man and 2. wo.
+%% take left-hands and turn half round into their own places again, and the 2. man and 1. wo. do the
+%% like.  This to the first Strain played twice.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. man cast off on the out-side of the man, and come up round the 1. wo. into the 2. wo. place,
+%% while the 2. wo. casts up and goes above the 1. wo. and below the 2. man into the 1. man's place, then
+%% the 2. we. change sides, and the two men also change sides at the same time, then the 1. wo. and 2.
+%% man do the same as the other did.  This to the second Strain played twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

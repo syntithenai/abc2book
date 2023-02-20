@@ -1,0 +1,27 @@
+X: 21132
+T: WHIPPLE'S SETT (tune 3)
+N: A version of Fisher's Hornpipe.
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.113 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+[|\
+fcAc BdcB | AcAc BdcB | AFAF GEGE | AFAF G2c2 |\
+fcAc BdcB | AcAc BcdB | ABcd efge | f2[a2f2]f2 H|]
+ef |\
+gece gebg | afcf afba | gece geba | gfed c2 Bc |\
+dBFB dBfd | cAFA cAfc | dfed cBAG | F2F2"^D.C."F2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All balance to partners,
+%% balance to corners,
+%% balance to partners again,
+%% all allamand.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,27 @@
+X: 3091
+T: Mr Marshall's Comp.s to Niel Gow
+T: Mr Marshall's Compliments to Niel Gow
+%R: strathspey
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.3 p.9 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "Slowish"
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+z2 |\
+[A3A,3]c A2E2 A2c2 [A4E4C4] | (ABcB) A2E2 F2B2 [B4G4] |\
+{AB}c3B A2E2 Af3e3d | (cd)(ef) (ed)(cB) c2A2 A2 :|
+(fg) |\
+a2c2e2c2 a2c2e3e | (ag)(fe) (fe)(dc) (BA)(GA) B2fg |\
+a2c2e2c2 a2c2e3e | (fe)(dc) (Bc)(de) c2A2 A2 ||
+fg |\
+a2c2e2c2 a2c2e2e2 | (ag)(fe) (fe)(dc) (BA)(GA) B3c |\
+A3c A2E2 F2c2 Hd3f | (fe)(dc) (Bc)(de) c2A2 A2 |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 | A4a4 A4a4 | A4c4 d2B2 e4 | [e3A8]d c4 d4 A2B2 | A4 e2E2 A4 A2 :|
+z2 | a4a4 a4a4 | [a4c'4] [a4e'4] e'4 e2z2 | a4 a4 a4 a4 | d4 e2E2 A4 A2 ||
+z2 | a4a4 a4a4 | [a4c'4] [a4d'4] e'4 e2z2 | A4 c4 d2c2 TB3G | A4 e2E2 A4 A2 |]

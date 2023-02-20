@@ -1,0 +1,21 @@
+X: 122
+T: Hajd Na Levo
+O: Croatia
+Z: Deborah Jones
+M: 2/4
+L: 1/8
+Q: 1/4=120
+K: D
+%%MIDI program 43
+%%MIDI chordprog 32
+%%MIDI bassprog 35
+%%MIDI chordvol 80
+%%MIDI bassvol 80
+  "D" [A,2F2A2] [AG][AF]      |"A" [A3E3][AD]          |\
+  "D" [A,FA][A,FA] [A,G][A,F] |"A" [A,3E3][A,D]\
+|:"D"[A,A][A,A][A,A][A,A]     |"A7"[A,A][A,G][A,G][A,G]|
+  "D"[A,F][A,F] [A,G][A,F]    |"A" [A2E2] [A2E2]       ::\
+  "A7"[A,2F2A2] [A,2E2G2]     |[A,EG][A,DF][A,2C2E2]   |\
+  "D"[A,2F2A2] [A,2D2F2]      |[A,DF][A,C^E] [A,2D2F2] ::
+  "A7"[A,EG][A,EG][A,EG][A,FA]|"D" [ADF][ADF][ADF][ADF]|\
+  "A7"[A,E][A,E][A,E][A,E]    |[1"D"[A,2D2F2][A,2D2F2]   :|[2 [A,2D2][A,2D2]|

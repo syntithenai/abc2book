@@ -1,0 +1,2332 @@
+X: 0
+T: 100 Popular Hornpipes, Reels, Jigs and Country Dances
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880
+F: http://www.loc.gov/item/sm1880.09124/
+F: http://URL
+K:
+%%center 100
+%%center POPULAR
+%%center HORNPIPES,
+%%center Reels, Jigs and Country Dances
+%%center for the
+%%center VIOLIN
+%%sep 2 2 200
+%%center BOSTON
+%%center Published by JEAN WHITE,
+%%center 226 WASHINGTON STREET.
+%%sep 2 2 400
+%%begintext align
+%% Transcription notes:
+%% The tunes' numbers (001-100) are used in the file names to preserve the publication order.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1
+T: The COLOSSEUM
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.1
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The triplet in bar 7 is above the d; it's not obvious what this means.
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+E2 |\
+A2A2 A>cB>d | c2c2 c>ed>f | e>ag>f e>dc>B | A>ce>^d f>e=d>B |
+A2A2 A>cB>d | c2c2 c>ed>f | e>ag>f e>{efe}dc>{dcB}B | A2[a2c2] A2 :|
+|: e2 |\
+c>eA>e c>eA>e | d>fB>f d>fB>f | c>eA>e c>eA>e | B>AG>F E>fe>d |
+c>eA>e c>eA>e | d>fB>f d>fB>f | A>ag>f e>dc>B | A2[a2c2] A2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2
+T: The OLYMPIC
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.1
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+d>e |\
+{f}f>=ef>g f>_ed>c | d>cd>e d>cB>A |\
+B>AB>c B>df>d | c>Bc>d c>de>f |
+g>^fg>a g>=fe>d | e>de>f e>dc>B |\
+A>gf>e d>cB>A | c2B2 B2H:|
+|: {d}c>B |\
+(A<f)Tf2 (a<f)Tf2 | d>fg>a b>ag>a |\
+b>ag>f a>gf>=e | (3fag (3fed c2 {d}c>B |
+(A<f)Tf2 (a<f)Tf2 | d>fg>a b>ag>a |\
+b>ag>f a>gf>=e | {g}f>=ef>g f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3
+T: LORD RAGLAN
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p._
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+c2e>c A2f>d | B>cd>B c2e>g |\
+g>f^c>d f>e=c>e | e>df>d c>BA>G |
+c>de>c d>ef>d | e>fg>e f>ga>b |\
+c'>ga>f (3(egc') d>f | [e2c2][c2E2] [c2E2] :|
+|: e>f |\
+g>^fg>e c'2e>=f | (3gfe (3fed c2d>e |\
+f>ga>g f>ed>c | (3ded (3cBA G3G |
+(3ABc (3Bcd (3cde (3def | (3efg (3fga g2a>b |\
+c'>ga>f (3(egc') d>f | ec (3dcB c2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 4
+T: MANCHESTER
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.2
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(3ABc |\
+d>cd>A F>Ad>f | e>dc>B A>ce>g |\
+f>ga>f b>ge>c | d>cd>f e>c (3ABc |
+d>cd>A F>Ad>f | e>dc>B A>ce>g |\
+f>ga>f b>ge>c | d2f2 d2 :|
+|: f>g |\
+a>ga>f d>fa>f | b>ab>g e>fg>e |\
+a>ga>f b>ge>c | d>cd>f e>c (3(ABc) |
+d>cd>A F>Ad>f | e>dc>B A>ce>g |\
+f>ga>f b>ge>c | d2f2 d2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 5
+T: The STAR
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.3
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+D>E |\
+F>Bd>c B>AG>F | E>Gc>d e>dc>B |\
+A>ca>g (3fgf (3efe | (3ded (3cdc B>AG>F |
+D>Fd>c B>AG>F | E>Gc>d e>dc>B |\
+A>ca>g (3fgf (3edc | B2b2 B2 :|
+|: (3fga |\
+"^>"[b2d2] D>F B>df>b | "^>"[g2B2] E>G B>eg>b |\
+"^>"[f2A2] C>E A>ce>f | "^>"[d2F2] B,>D F>Bd>f |
+"^>"[b2d2] D>F B>df>b | "^>"[g2B2] E>G B>eg>b |\
+"^>"[ac]>gf>=e _e>Ad>c | B2b2 B2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 6
+T: The FIREFLY
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.3
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(3FGA |\
+B>AB>c B>dc>B | A>BG>A F>GE>F |\
+D>FB>F G>[eE]e>d | (3cdc (3BAG F2 (3FGA |
+B>AB>c B>dc>B | A>BG>A F>GE>F |\
+D>FB>d d>cB>A | c2B2 B2 :|
+|: F>E |\
+(3DFB d2 (3Bdf b2 | b3a g>fe>d |\
+e>de>f e>dc>B | A>cB>G  F2F>E |
+(3DFB d2 (3Bdf b2 | b3a g>fe>d |\
+e>dc>B A>fg>a | b2B2 B2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 7
+T: LONDON BRIDGE
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.4
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: E
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+c>d |\
+e2B>G E2G>B | e2g>e f2a>f | g>ed>e c>de>f | g>ea>f e>dc>B |
+e2B>G E2G>B | e2g>e f2a>f | g>ed>e c>ed>f | g2[e2B2] [e2B2] :|
+|: e>f |\
+g>ed>e c>eB>e | A>eG>e F>GE>G | A>GA>B c>de>f | g>ea>f e>dc>B |
+c>fa>f B>eg>e | A>cf>A G>Be>B | a>gf>e B>ed>f | g2[e2B2] [e2B2] H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 8
+T: The CHARLES ATTWOOD
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.4
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(3(EFG) |\
+A>GB>A c>Bd>c | e>df>e d>cB>A |\
+F>AG>B A>cB>d | (3(cBA) d>c B2 (3(EFG) |
+A>GB>A c>Bd>c | e>df>e d>cB>A |\
+F>AG>B A>cB>d | c>AB>G A2 :|
+|: (3(efg) |\
+a2 ((3c'ba) g>af>g | e>fd>e c>dB>c |\
+A>EC>E A>cB>d | (3(cBA) d>c B2 (3(efg) |
+a2 (3(c'ba) g>af>g | e>fd>e c>dB>c |\
+A>EC>E A>cB>d | c>AB>G A2 H:|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 9
+T: BLANCHLAND RACES
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.4
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A2 (3cBA e>Ac>A | e>Aa>A g>Af>A | e>A (3cBA e>A (3cBA | B>Ec>E d>EB>E |
+A2 (3cBA e>Ac>A | e>Aa>A g>Af>A | e>fe>c e>ae>c | B>AB>c A2z2 H:|
+E2 (3GFE G>E (3FED | B>Ed>E c>EB>E | A2 (3cBA e>Ac>A | e>Aa>A g>Af>A |
+e>A (3cBA a>Af>A | e>A (3cBA a>Af>A | e>cf>e d>cB>A | G>AB>A G>E"_D.C."F>G |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 10
+T: The NAVVIE
+%R: harnpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.5
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+B>c |\
+d>gf>e d>cB>A | G>BD>G B2A>G |\
+F>AD>F A2G>F | G>DE>F G>AB>c |
+d>gf>e d>cB>A | G>BD>G B2A>G |\
+F>gf>e d>cB>A | G2B2 G2 :|
+|: A>G |\
+F>AD>F A2G>F | G>BD>G B2A>G |\
+F>AD>F A2G>F | G>DE>F G>AB>c |
+d>gf>e d>cB>A | G>BD>G B2A>G |\
+F>gf>e d>cB>A | G2B2 G2 H|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 11
+T: The FLOWERS OF EDINBURGH
+%R: reel, hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.5
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(3(GFE) |\
+D2DE G2GA | BGBd cBAG | FGEF DEFG | AFdF E2 (3(GFE) |
+D2 (3(DEF) G2GA | BGBd efge | dcBA BAGA | B2G2 G2 :|
+|: (3(def) |\
+gfga gbag | fefg fagf | edef gfed | B2ef e2 (3(gfe) |
+dBGB d2cB | cdef g2fe | dcBA BAGA | B2G2 G2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 12
+T: SPEED THE PLOUGH
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.5
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+E2 |\
+(3AAA A>c e>fe>c | e>ae>c e>fe>c |\
+d>ed>B c>dc>A | F>Bd>B A>GF>E |
+(3AAA A>c e>fe>c | e>ae>c e>fe>c |\
+d>ed>B c>dc>A | F>AG>B A2 :|
+|: (3efg |\
+a>ga>b a>ec>e | a>ba>g f>ed>c |\
+d>ef>d c>de>c | B>AB>c B>ef>g |
+a>ga>b a>ec>e | a>ga>f e>cA>c |\
+d>ec>d B>cA>B | F>AG>B A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 13
+T: NEWSHAM GRANGE
+%R: reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.6
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+BdBG AcAF | GBAG FEDC |\
+B,DGB, A,2AB | cBAG GFED |
+BdBG AcAF | GBAG FEDC |\
+B,DGB, A,2B,C | DGGG G2z2 H:|
+|:\
+BBAA ccB2 | dedg fag2 |\
+BBAA ccB2 | dedg fag2 |
+bGGb agf2 | gEEg fed2 |\
+eCCe dB,B,d | cBAG FA "_D.C."DG :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 14
+T: LOCOMOTIVE
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.6
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+c>d |\
+e>dc>B c>GE>G | e>dc>B c>GE>G |\
+A>cf>e d>cB>c | (3dec (3BcA G>Bc>d |
+e>dc>B c>GE>G | e>dc>B A>cf>a |\
+a>g^f>g =f>dg>f | e2c2 c2 :|
+|: B>c |\
+d>cB>c d2g2 | e>dc>d e2g2 |\
+f>ef>g a>gf>e | (3ded (3cBA (3GAG (3FED |
+C>EG>c e>ge>c | f>ef>g a2g>f |\
+(3egf (3edc (3Bag (3fed | e2[c2E2] [c2E2] H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 15
+T: MILLICENT'S FAVORITE
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.7
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+a>g |\
+f>ad>f A>dF>A | D>FA>d f2e>f |\
+g>be>g c>eA>F | G>AB>G E2a>g |
+f>ad>f A>dF>A | D>FA>d f2e>f |\
+g>bg>e c>AB>c | d2f2 d2 :|
+|: D2 |\
+G>FG>A B>cd>e | f3e d>cd>B |\
+A2f2 f>Af>A | G2e2 e>Ge>F |
+G>FG>A B>cd>e | f3e d>cd>B |\
+A>fe>d c>AB>c | d2f2 d2 :|
+|: a>g |\
+(3fgf (3efe (3ded (3cdc | (3BcB (3ABA G2b>a |\
+(3gag (3fgf (3efe (3ded | (3cdc (3BcB A2a>g |
+(3fgf (3efe (3ded (3cdc | (3BcB (3ABA (3GAG (3FGF |\
+E>ge>d c>AB>c | [d2F2][f2A2] [d2F2] H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 16
+T: BRISTOL
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.7
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(3efg |\
+a>ec>e A>ce>a | f>dB>c A2B>c |\
+d>ef>e d>cB>A | G>AF>G E2 (3efg |
+a>ec>e A>ce>a | f>dB>c A2B>c |\
+d>fe>d c>BA>G | B2A2 A2 :|
+|: e>d |\
+c>eA>ec>eA>e | d>fB>f d>fB>f |\
+c>eA>e c>eA>e | G>BE>B G>BE>B |
+c>eA>e c>eA>e | d>fB>f d>fB>f |\
+e>ag>f e>dc>B | A2c2 A2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 17
+T: HILL, NEWCASTLE
+C: James Hill
+N: The title is confusing; it's usually called the Newcastle Hornpipe, and was composed by James Hill.
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.8
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+{c}B>A |\
+B2 B,2 (3dcB (3AGF | E2g2 g2f>e |\
+d>fB>d c>eA>c | B>ba>g f>ed>c |
+B2 B,2 (3dcB (3AGF | E2g2 g2f>e |\
+d>fB>d c>eA>c | {c}BABc B2 :|
+|: DC |\
+B,>DF>B d>fb>a | {a}g>^fg>a g2 C>B, |\
+A,>CF>A c>fa>g | f>=ef>g f2 D>C |
+B,>DF>B d>fb>a | g>^fg>a g>de>=e |\
+{g}f>ef>g f>ec>A | {c}B>AB>c B2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 18
+T: LIVERPOOL
+%R: _
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.8
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A>G |\
+F>DF>A d>fa>f | g>fe>d d>cB>A |\
+G>BG>B F>AF>A | E>FG>A G>FE>D |
+F>DF>A d>fa>f | g>fe>d d>cB>A |\
+f>ga>f b>ge>c | d2d2 d2 :|
+|: (3ABc |\
+d>fd>f c>ec>e | B>cd>e d>cB>A |\
+G>BG>B F>AF>A | E>FG>A G>FE>D |
+F>DF>A d>fa>f | g>fe>d d>cB>A |\
+f>ga>f b>ge>c | d2d2 d2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 19
+T: The CLIFF
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.8
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+F>E |\
+D>FA>F D>GB>G | A>Fd>A f>dA>F |\
+G>Bd>g F>Ad>f | (3efd (3cdB (3ABG (3FGE |
+D>FA>F D>GB>G | A>Fd>A f>dA>F |\
+G>Be>g (3fed (3edc | d2f2 d2 :|
+|: c>d |\
+e>A^G>A f>AG>A | g>ef>d e>A^G>A|\
+g>ef>d e>cd>f | (3efd (3cdB (3ABG (3FGE |
+D>FA>F D>GB>G | A>Fd>A f>dA>F |\
+G>Be>g (3fed (3edc | d2f2 d2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20
+T: WASHINGTON
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.9
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B>cd>e .f(BAB) | g>Ba>B .b(BAB) | G>BF>B E>BD>B | B>ec>A B>AG>F |
+B>cd>e .f(BAB) | g>Ba>B .b(BAB) | G>BF>B E>BD>B | G>ec>A B2z2 :|
+|:\
+.f(BAB) .g(BAB) | g>fg>a b>ag>f | b>ag>f e>dc>B | c>ec>A B>AG>F |
+B>cd>e .f(BAB) | g>Ba>B .b(BAB) | G>BF>B E>BD>B | G>ec>A B2z2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 21
+T: HARVEST HOME
+%R: hornpipe, reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.9
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+AF |\
+DAFA DAFA | defe dcBA | eAfA gAfA | edcB AGFE |
+DAFA DAFA | defe dcBA | dAFA fgec | d2d2 d2 :|
+|: cd |\
+eAAA fAAA | eAAA fAAA | eAfA gAfA | edcB AGFE |
+DAFA DAFA | defe dcBA | dAFA fgec | d2d2 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22
+T: The RIBBLE
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.9
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+B>c |\
+d>^cd>f g>e=c>A | G>FG>B D2E>F | G>FG>A B>AB>c | d>^cd>g A2B>=c |
+d>^cd>f g>e=c>A | G>FG>B D2E>F | G>ed>c B>AG>F | G2B2 G2 :|
+|: F>G |\
+A>GA>B c>Bc>d | e>de>f g2g>f | e>dc>B c>BA>G | F2D2 D2 B>c |
+d>^cd>f g>e=c>A | G>FG>B D2E>F | G>ed>c B>AG>F | G2B2 G2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 23
+T: BIG BEN
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.10
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+F2 |\
+B2(FB) (3dcB (3AGF | E2g2 g2f>e | d>fd>B c>ec>A | B2 (3dfb A2 (3ceg |
+B2(FB) (3dcB (3AGF | E2g2 g2f>e | (3dba (3gfe (3ded (3cBA | B2d2 B2 :|
+|: F2 |\
+B>df>b (b>a) (b>a) | g>^fg>f g2c>B | A>Bc>d e>gf>e | d>^cd>c d2d>=c |
+B>df>b (b>a) (b>a) | F>Ac>e g2f>e | (3dfd B>d (3cec A>c | B2b2 B2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 24
+T: MOURBON'S
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.10
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+c>B |\
+A>cf>A G>Be>G | F>G (3ABc E3C | D>EF>D C>DE>C | B>dG>B A>GF>E |
+A>cf>A G>Be>G | F>G (3ABc E3C | D>FA>d c>BA>G | B2A2 A2 :|
+|: (3cBA |\
+c>Ae>A f>A (3cBA | c>Ae>A f>A (3cBA | c>Ae>A f>Ag>A | (3fga g>f e3B |
+c>ea>c B>df>B | A>G (3ABc E3C | D>FA>d c>BA>G | B2A2 A2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 25
+T: The MERRY SHERWOOD RANGERS
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.10
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+F>G |\
+A>^GA>B A2d>e | f>gf>e d2A2 | B>cd>B A>BA>F | G2E2 E2F>G |
+A>^GA>B A2d>e | f>gf>e d2A2 | B>cd>B A>BA>G | F2D2 D2 :|
+|: g2 |\
+f>ef>g a>fd>g | f>ef>g a>fd>f | g>ab>g f>ga>f | e^de>f e2F>G |
+A>^GA>B A2d>e | f>gf>e d2A2 | B>cd>B A>BA>G | F2D2 D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 26
+T: The WONDER
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.11
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(3FGA |\
+B>fd>B A>ec>A | B>cd>B F2B>A |\
+G>Bc>d e>dc>B | A>cf>e (3agf (3edc |
+B>fd>B A>ec>A | B>cd>B F2B>A |\
+G>gf>e d>cB>A | c2B2 B2 :|
+|: (3dcB |\
+A>cf>=e f>dc>B | A>cf>=e f>ag>f |\
+=e>fg>a b>ge>g | f>=ef>g f2f>_e |
+d>ed>c B>dg2 | c>dc>B A>cf2 |\
+g>ba>g f>ed>c | B2d2 B2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 27
+T: The LEVIATHAN
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.11
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+B>A |\
+B2B,2 d2 (3dcB | G2g2 g2f>e |\
+(3def B2 (3cde A2 | (3BAB (3dcB (3AGF (3EDC |
+B,2B2 d2 (3dcB | G2g2 g2f>e |\
+(3def B2 (3cde A2 | B2b2 B2 :|
+|: c>B |\
+A>f T(3f=ef a>f T(3fef | b>f T(3f=ef e>dc>B |\
+A>f T(3f=ef g>fe>d | e2c2 c3F |
+D>B T(3BAB G>B T(3BAB | F>B (3BAB G2F>E |\
+(3DFB (3dfb (3agf (3edc | B2b2 B2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 28
+T: The HARLEQUIN
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.12
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+F>E |\
+D>FB,>B A>cF>e | d>fB>b a>fe>c |\
+d>AB>^F G>ge>c | A>fG>=e (3f_ec (3AFE |
+(3DFB, (3EGB (3AcF (3Bdf | G>Bc>d f>^fg>=E |\
+(3Ff=e (3fdB (3F_ed (3ecA | (3BdD (3EGA, B,2 :|
+|: c>B |\
+c>Fe>c B>Fd>B | g>ed>g f>dB>f |\
+e>dc>=B c>Gc>_B | A>f=e>g f2 (3fba |
+(3bfe (3dcB (3gec (3fdB | (3ecA (3FAc (3dBb (3fdB |\
+(3Ggf (3edc (3BAG (3FGA | B2 (3dfb B2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 29
+T: FREE TRADE
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.12
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(3BAB c>A BFDF | (3Bcd c>B cAFA |\
+(3cde d>c dBGB | edcB AFGA |
+(3BAB c>A BFDF | (3Bcd c>B cAFA |\
+(3cde d>c dfBd | ceAc B2B,2 :|
+|:\
+(3dcd f>d efge | (3dcd f>d ecAF |\
+(3f=ef g>e fabg | afg=e f2 (3FGA |
+(3BAB c>A BFDF | (3Bcd c>B cAFA |\
+(3cde d>c dfBd | ceAc B2B,2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 30
+T: The COQUETTE
+%R: hornpipe, reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.13
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2D2 F>GA2 | A,2(ed) (cB)A2 |\
+defd BcdB | BAGF F2E2 |
+d2D2 F>GA2 | A,2(ed) (cB)A2 |\
+defd BcdB | AGFE D2d2 :|
+|:\
+(D/F/)A2 A2A3 | (G/B/)B2 B2B3 |\
+defd BcdB | BAGF F2E2 |
+(D/F/)A2 A2A3 | (G/B/)B2 B2B3 |\
+defd BcdB | AGFE D4 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 31
+T: PRINCE ALBERT
+%R: hornpipe, reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.13
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+c3d (3efe (3dcB | Aaga fedc |\
+fdcd ecac | BcdB AGFE |
+c3d (3efe (3dcB | Aaga fedc |\
+defd BdBG | A2 (3Ace a2 :|
+|: A2 |\
+e3g bgec | defg aedc |\
+fefg aedc | BcdB AGFE |
+c3d (3efe (3dcB | Aaga fedc |\
+fdBd EdBG | A2 (3CEA A2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 32
+T: The ROYAL OAK
+%R: hornpipe, reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.14
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+fe |\
+d2B2 B2 (3dcA | B2F2 FABA |\
+GFED C2G2 | D2 (3B,DF B2fe |
+d2B2 B2bf | g=ec2 e2cB |\
+(3AcB (3AGF (3GBA (3GF=E | F2 (3FAc f2 :|
+|: f>_e |\
+dBAB FBAB | GEDE CEDE |\
+cded cBAB | AF=EF cF=EF |
+fBAB gBAB | gBaB bBAB |\
+Ggec dBcA | B2d2 B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 33
+T: The BARLEY MOW
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.14
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+F2 |\
+B>AB>d c>ec>A | (3BAB d>B G2F2 |\
+{c}B>AB>d g>fd>B | {d}c>=Bc>d c2F2 |
+{c}B>AB>d c>ec>A | (3BAB d>B G2F>E |\
+D>FB>d c>ec>A | B2b2 B2 :|
+|: f2 |\
+{a}g>^fg>a b2b2 | (3BAB d>B G2F2 |\
+B>AB>d g>fd>B | {d}c>=Bc>d c2f2 |
+{a}g>^fg>a b2b2 | (3BAB d>B G2F>E |\
+(3DFB (3dcB (3Agf (3edc | B2d2 B2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 34
+T: The DEVONSHIRE
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.15
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+e>c |\
+c>Bc>d c>ae>c | B>AB>c B>ed>B |\
+c>ea>c' e'>c'b>a | b>ag>f e>dc>B |
+c>Bc>d c>ae>c | B>AB>c B>ed>B |\
+c>eA>c B>fe>g | a2A2 A2 :|
+|: b>a |\
+g>ab>c' d'>g T(3gfg | a>bc'>d' e'>c' T(3c'bc' |\
+d'>b T(3bab c'>a T(3aga | b2e'2 e'2e>d |
+c>Bc>d e>ag>a | f>dB>A G>Be>d |\
+c>a T(3aga f>dB>G | A2a2 A2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 35
+T: The RECRUIT
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.15
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+F>G |\
+A3B A>FD>F | A>Fd>B A>FD>F |\
+G>BG>E F>AF>D | E2 (3EEE E2 A>G |
+F>DF>A d2e>f | e>dc>B A2e>d |\
+c>ec>A B>dB>^G | A2 (3AAA A2 :|
+|: c>d |\
+e3f e>cA>c | e>ca>f e>cA>c |\
+d>fd>B c>ec>A | B2 (3BBB B2 (3ABc |
+d3B A>FD>F | G>AB>c d2c>B |\
+A2G>F E>GF>E | D2 (3ddd d2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 36
+T: BONNIE ANNIE
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.16
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G>AB>c d>BA>G | g>fg>e d2B>c |\
+B>dB>G c>ec>A | B>dB>G G>FE>D |
+G>AB>c d>BA>G | g>fg>e d2B>c |\
+B>dB>G c>ec>A | G2 (3FGA G4 :|
+|:\
+d>ef>g f>af>d | g>bg>e f>af>d |\
+d>ef>g a>fe>d | B>dB>G F>AF>D |
+B>dB>G c>ec>A | c>af>d g>bg>e |\
+d>gf>e d>cB>A | G2 (3FGA G4 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 37
+T: The STEAM BOAT
+%R: hornpipe,reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.16
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+d2 |\
+g2b>g d2g>d | BcdB G2AB |\
+cded cBAG | FGEF D2d2 |
+g2b>g d2g>d | BcdB G2AB |\
+cedc BAGF | A2G2 G2 :|
+|: Bc |\
+dBdB gdgd | ecec aeae |\
+fdfd gdgd | fgaf defd |
+g2b>g d2g>d | BcdB G2AB |\
+cedc BAGF | A2G2 G2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 38
+T: The BREWER'S HORSE
+%R: hornpipe, reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.17
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+BFdB fdbf | geGc BAGF |\
+GEDE CEGB | efgc BAGF |
+BFdB fdbf | geGc BAGF |\
+GEDE CA,B,2 | ecBA B2b2 :|
+|:\
+DB,FD BFdB | efgc BAGF |\
+GBec Acfb | (3aba (3gf=e f2 (3d_ef |
+gede fcAB | GBec BAGF |\
+GEDE CA,B,2 | ecBA B2b2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 39
+T: The HEN AND CHICKENS
+%R: hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.17
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B>FD>F EFCE | DFcd cAFD |\
+EGcE DFBd | (3edc (3dcB (3BcB A2 |
+BFDF EFCE | DFBd cAFD |\
+Egfe dABG | (3FGF (3DcA B2B,2 :|
+|:\
+fdcB fdcB | b2ab ^f2g2 |\
+gfed cBcd | eefg (3BcB A2 |
+BFDF EFCE | DFBd cAFD |\
+Egfe dABG | (3FGE (3DEC B,2B2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 40
+T: The PARLIAMENT HOUSE
+%R: hornpipe, reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.18
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+DC |\
+B,DFB dFED | CEAc eGFE |\
+DB,FD BFdB | A>Bc2 c2DC |
+B,DFB dFED | CEGc eGFE |\
+DFEG Fgfe | d2 {c}B>A B2 :|
+|: g>a |\
+bfdf Bdfb | fdBd bfdB |\
+ecge dBfd | e2 {d}c>B c2 (3edc |
+BGFE DFBd | cAGF EGce |\
+(3gab Bd cAFe | d2 {c}B>A B2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 41
+T: CORBY CASTLE
+%R: hornpipe, reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.18
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+dfdf ecAc | dBGB AFDA |\
+GBAc Bged | edcB A2dc |
+d2AA e2cc | gefd aABc |\
+BdGB AGFE | F2D2 D2 :|
+|: A2 |\
+dAdA FAFD | BGDG BGdB |\
+gefd ecdB | c2ed cBAG |
+F2dd G2ee | A2ff B2gg |\
+afdf Bgec | d2f2 d2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 42
+T: WATERLOO
+%R: hornpipe, reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.19
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+cd |\
+eagf efed | cdcB A2Bc |\
+defe dcBA | GABc B2cd |
+eagf efed | cdcB A2Bc |\
+defd cBAG | B2A2 A2 :|
+|: ED |\
+CEAc ecec | defd B2Bc |\
+defe dcBA | GABA GFED |
+CEAc ecec | fdge a2gf |\
+eagf (3efe (3dcB | c2A2 A2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 43
+T: JEMMY BANKS
+%R: hornpipe, reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.19
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+C |\
+"^>"[F3A,3]G FGAB | cfag fedc |\
+Tfefd cAFA | B2G2 G3C |
+"^>"[F3A,3]G FGAB | cfag fedc |\
+defg afcB | A2F2 F2 :|
+|: AG |\
+FAcf afcf | dcBA B3A |\
+GBdg bgeg | gfed c3a |
+bagf geca | bagf geca |\
+bagf ebge | [f2A2][a2c2] [f2A2] H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 44
+T: PRIDE OF THE NORTH
+%R: hornpipe, reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.20
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+F2 |\
+BFDF BdcB | A2c2 c2fe | .d(BAB) .f(BAB) | A2F2 F2BA |
+BFDF EGCE | B,DFB fdbf | gecA FAce | d2B2 B2 :|
+|: fe |\
+dfba gfed | e2cd c3d | ecTc2 dBTB2 | cBAG F2BA |
+GEBG FDBF | GEBG FDBF | GABc decA | B2d2 B2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 45
+T: DURHAM
+%R: hornpipe, reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.20
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: E
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ga |\
+bgaf egfe | defd BcBA | GBeB cAfe |
+defd B2ga | bgaf egfe | defd BcBA | GBdB cafd | e2e2 e2 :|
+|: de |\
+fBTB2 fBaf | gBTB2 gBbg | fagf edc^B | [c2^E2][c2E2] [c2E2]=BA |
+GBeB cAfe | dBge fcaf | gbeg fadf | e2e2 e2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 46
+T: The HOAXIM GOOSE
+%R: hornpipe, reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.20
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+BABc dBAB | dBfB gBfB |\
+Bdce dfef | gecB BAGF |
+BABc dBAB | dBfB gBfB |\
+Bdce dfef | gecA B2z2 :|
+|: =e |\
+f=efg fgaf | babg gfed |\
+efg^f gecB | Acfc BAGF |
+babf g^fge | f=efd _edec |\
+dBec fdge | dcBA B2z2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 47
+T: DAVY CRABBE
+%R: reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.21
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+c2c2c2 ec | {^f}g2{f}g2 ag=fe |\
+f2d2d2 gf | efge c3G |\
+c2c2 ecec | {^f}g2{f}g2 ag=fe |
+ecfd ecdB | c2B2c2 :|\
+|: GF |\
+EGce gege | FAcf a2GF |\
+EGce geag | fedc BAGF |
+EGce gege | FAcf a2gf |\
+egfe dcBd | c2e2c2 :|\
+|: dc |\
+Bg^fg ecge | fgaf d2dc |
+Bg^fg =fdfa | gfed c2G2 |\
+c2ce d2df | e2eg f3a |\
+gece fdBd | c2e2c2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 48
+T: The BRAES OF BUSBIE
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.21
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+D3GG3A B3AG3F | C3FF3G A3c BAGF |\
+G3AB3c d3cB3d | cBAG F3A B3GG3A |
+B3cd3B f3Bd3B | A3cf3d c3AF3A |\
+B3cd3B f3Bd3B | c3AF3A BG3G2 :|
+|: d2 |\
+g4 d3g d3gb3g | f4c3f c3fa3f |\
+g4d3g d3cB3d | c3AF3A BG3G3A |
+B3dG3B G3Bd3B | A3cF3A F3Ac3A |\
+G3Bd3g f3dB3d | c3AF3A BG3G2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 49
+T: ALEC MC. BAIN
+%R: hornpipe, strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.22
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+(3Bcd G>d B>Gd>G | (3ABc F>c A>Fc>F |\
+(3Bcd G>d B>Gd>G | (3ABc D>^F G>AB>A |
+(3Bcd G>d B>Gd>G | (3ABc F>c A>Fc>F |\
+(3Bcd G>d B>Gd>G | (3ABc D>^F G2 :|
+|: A2 |\
+B3f (3BBB f>d | c>dc>B A>Bc>A |\
+G>gg>a b>ag>^f | (3gab a>^f g2g>a |
+(3gab f>d B>df>d | c>dc>B A>Bc>A |\
+G>gg>a g>=Bc>e | d>cB>A G2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 50
+T: SWAN'S
+%R: reel, hornpipe
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.22
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+dc |\
+BGBd BGBd | gfge dBAG |\
+ecdB cABG | F2AB A2dc |
+BGBd BGBd | gfge dBAG |\
+ecdB cABG | D2G2 G2 :|
+|: dc |\
+Bgdg Bgdg | dgba gfed |\
+^cafa cafa | ^cfag fed=c |
+BgdB cecA | BdBG FAFD |\
+GFGE DFGA | B2G2 G2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 51
+T: HOLYROOD PALACE
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.23
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strains has an initial repeat, but no final repeat; not fixed.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+D2-D>B (A<F F)>B | A<FB<G A<FA<d |\
+D2-D>B A<FF>A | (3Bcd (3AGF E2-E<e |
+D2-D>B A<FF>B | A<FB<F A<FA<d |\
+D2-D>B A<FF>A | (3Bcd (3AGF E2-(E<g) |]
+|:\
+f<dd>f e<cc>e | d<BB>d A<FF>g |\
+f<dd>f e<cc>A | (3Bcd (3AGF E2-(E<g) |
+f<dd>f e<cc>e | d<BB>d A<FF>D |\
+(3EFG (3FGA (3GAB (3ABc | (3dcB (3AGF E2-(E<e) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 52
+T: MONEY MUSK
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.23
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+%N: The triplets in the 2nd strain are missing their '3's; fixed.
+%N: The unusual part of this setting is playing each strain first with dotted notes, then with triplets.
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+f |\
+e>Ac>A e>Ad>f | e>Ac>A B>cd>f |\
+e>Ac>A c>de>a | f>dB>e c<AA>f |
+(3ecA (3cBA (3ecA (3def | (3ecA (3cBA (3B=c^c (3def |\
+(3ecA (3cBA (3cde (3fga | (3fdc (3Bed (3cec A :|
+|: e |\
+a>ec>a A>ae>a | a>ec>a d>aB>g |\
+a>ec>a A>ae>a | f>dB>e c>AA>e |
+(3aed (3cea (3Aca (3cea | (3aed (3cea (3dfb (3Beg |\
+(3aed (3cea (3Aca (3cea | (3fdc (3Bed c<A A H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 53
+T: TULLOCHGORUM
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.24
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Moved grace notes at end of bar 15 to next note, for ABC software that doesn't handle trailing grace notes.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+d/c/ |\
+B>Gd>B c>=FA>c | B>Gd>G B>cd<g |\
+B>Gd>G c>=FA>B | G>gd>e c2B>A |
+G>gd>e =f>=FA>B | G>gd>g B>gd>g |\
+G>gd>e =f>=FA>B | G>gd>g B>gd>g |
+B>gd>e =f>=FA>B | d>gd>e =f>ga>g |\
+=f>ef>d c<AA>d | {ef}g>dg>b g3 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 54
+T: DRUMMOND OF PERTH
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.24
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: This should be written in K:Amix, since all the c's are sharp.
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: Bar 8 is missing a beat; fixed to match bar 12.
+M: C|
+L: 1/8
+K: Ador
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+a |\
+A<Ae>d B>de2 | d>gB>g d>gB>G |\
+A<Ae>d B>de>^g | a>eg>B {B}A3 :|
+|: ^g |\
+a2 e<a ^c<a e>f | g2 d<g B<g d>^g |\
+a2 e<a ^c<a e>f | (g/f/).e/.f/ g>B {B}A3^g |
+a2 e<a ^c<a e>f | g<g d<g B<g d>^g |\
+a<a e<a g<b e>f | (g/f/).e/.f/ g>B {B}A3 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 55
+T: LADY DUNCAN'S
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.24
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+B2 |\
+A3Bc3f d3cd3f | c3fA3f Gg3g3a |\
+A3Bc3f B3cd3g | {f}e2dc d3e gf3 f2 :|
+c2 |\
+f3g f3c f3af3c | d3gg3f eg3 g2ag |\
+f3af3c f3Bf3A | B3Gc3B AF3F3c |
+fg3 f3c  f3af3c | d3gg3f eg3 g2ag |\
+fga2 gab2 agf2 gfe2 | f2ed cBAG AF3F2 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 56
+T: FORSHAM'S
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.25
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+F3AD3A FA3 DEF2 | G3CE3G C3G EFG2 |\
+A3DF3A F3A D3g | f3d e2d^c dD3D2 :|
+f2 |\
+a3df3a d3af3a | g3ce3g c3g e2fg |\
+a3df3a d3af3a | g3a g2fe fd3 d2fg |
+a3df3a d3af3a | g3ce3g c3g e2fg |\
+a3fg3e f3de3^c | d2^cB AGFE AD3D2 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 57
+T: ROTHERMURCUS RANT
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.25
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+E3DE3C EG3 G4 | c3GA3G c3GA3c |\
+E3DE3C DG3G3c | A3cG3c [EC][D3B,3][D2B,2] :|
+f2 |\
+e3gg3a g3ag3d | e3aa3b a3ba3g |\
+e3gd3e c3de3c | A3ag3f ed3d3g |
+f3ed3c d3ea4 | g3ee3d c4 A2eg |\
+a3eg3d {f}e4d3c | A3cG3c [EC][D3B,3][D2B,2] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 58
+T: HURRY'S FAVORITE
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.25
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+e2 |\
+c3Ae3A c3ee3f | g3de3g d3gB3g |\
+a3eg3d e3cd3e | f3de3^g aA3 A2 :|
+B2 |\
+Tc4 g3c a3cg3c | f3de3c Bcd2 G3B |\
+Tc4 g3c a3cg3c | f3de3^g aA3A3B |
+Tc4 g3c a3cg3c | f3de3c B3cd3e |\
+c3Ad3B e3cf3d | e3a ^gabg aA3 A2 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 59
+T: BRAES OF MARR
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.26
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+F<AA>B d>ef>e | d<BB>A d<BB>A |\
+F<AA>B d>ef>e | e<fa>f e2d :|
+g |\
+f<aa>d f>da>d | g<bb>e g>eb>e |\
+f<aa>d f>da>d | g>bf>a Te2d>g |
+f<aa>d f>da>d | g<bb>e g>eb>e |\
+f<ae>f d>eB>d | A>d F>d E2 D H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 60
+T: LOTHIANS
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.26
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+F3GA3d B3dA3d | Gd3F3d BE3E3G | F3GA3d Bd3A3d | B3AB3c dD3D2 :|
+ag |\
+f3ad3a fd3a3d | ce3A3e c3eA2 ag | fa3d3a fd3a3d | B3AB3c dD3D2 ag |
+f3ad3a fd3a3d | ce3A3c c3eA2 ag | fd3g3e a3fb3g | f3ae3f dD3D2 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 61
+T: MADAME FREDERICK'S
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.26
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A,3B,C3D E3FE3C | A,3CE3C A,A3A3c |\
+A,3B,C3D E3FE3C | B,2Bc dcBA GB3B3c |
+A,3B,C3D E3FE3C | A,3CE3C A,2A4cd |\
+e3cA3E F3df3e | d3cB3A GB3B3c :|
+|:\
+A3Ac3A e3Ac3A | E3Ac3A fedc B3c |\
+A3Ac3A e3Ac3A | F3G FEDC B,2B4c2 |
+A3Ac3A e3Ac3A | E3Ac3e fedc B3c |\
+A3BA3E F3GF3D | E3DC3B, A,4 z4 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 62
+T: MARQUIS OF HUNTLEY'S
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.27
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: There should be an 8th-note initial pickup to fix the rhythm at repeats.
+M: C|
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A,6 C2 (3E2E2E2 E3F | A3B ABcB BA3A3c |\
+A,6 C2 (3E2E2E2 E3A | B3c dcBA AF3F3A |
+A,6 C2 (3E2E2E2 E3F | A3B ABcB BA3A3c |\
+d3ed3f fedc a3c | B3c dcBA AF3F2 :|
+|: f2 |\
+fedc a3cb3c a4 | fedc a3g f3ed3c |\
+B3bb3f bagf b4 | B3bb3a a3gf3e |
+f2ed a3c b3c a4 | fedc a3g f3ed3c |\
+dcde fefg agfe fedc | BABc dcBA AF3FA3 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 63
+T: DELVIN SIDE
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.27
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: Edor
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+Ee3 dcBA BE3 B3A | Ee3 dcBA dD3 A3F |\
+Ee3 dcBA BE3E3g | fgaf efge dD3 BAGF :|
+|:\
+dE3BE3 dE3 BAGF | dE3BE3 dD3 BAGF |\
+dE3BE3 dE3E3g | fgaf efge dD3 BAGF |
+dE3BE3 dE3 BAGF | dE3BE3 dD3 BAGF |\
+dE3BE3 dE3E3g | fa3ef3 dD3 A3F :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 64
+T: The HIGHLAND WATCH
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.28
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+B2 |\
+GE3E3F G3EE3c | GE3E3B, D6 D>B |\
+GE3E3F G3EE3F | G3AB3G E6 F2 |
+G3AB3A B3AG3A | B3AG3B, D4 D2GF |\
+EG3G3A B3AG3e | dB3A3F E4 E2 :|
+|: ef |\
+ge3e3f g3ee3b | g3e dcBA d4 d2ef |\
+ge3e3f g3e e2Bd | e3B^d3F E4 E3F |
+G3AB3d B3AG3A | B3AG3B, D4 D2GF |\
+E3FG3A B3AG3e | d3BA3F E4 E2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 65
+T: DUKE OF ARGYLE
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.28
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+AB |\
+c3Fd3F c3FB3d | c3F (3A2G2F2 EG3G2 AB |\
+c3Fd3F c3FB3d | (3F2G2A2 (3G2A2B2 AF3F2 :|
+ag |\
+fgag f3c d3ff3g | fgag f3d eg3g3a |\
+fgag f3c d3fc3A | (3B2c2d2 G2A2B2 AF3F2 ag |
+fgag f3c d3ff3g | fgag f3d eg3g3a |\
+a3bg3a f3gd3f | (3B2c2d2 (3G2A2B2 AF3F2 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 66
+T: LADY DURHAM'S
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.29
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+G3Gg3g g3dB3G | GG3G2GB E6 (3EFG |\
+D3DD3E F3GA3B | c3AB3G BAGF E3A |
+G3G g3g g3dB3G | GG3G2GB E6 (3EFG |\
+D3DD3E F3GA3B | (3c2d2e2 d3F G6 :|
+|: Bc |\
+d3dd3g d3dd2Bc | d3dd3g d6 Bc |\
+d3db3a g3fe3d | c3BA3G F3EF3D |
+G3Gg3g gbaf gdBG | GG3G2GB E6 (3EFG |\
+D3DD3E F3GA3B | (3c2d2e2 d3F G6 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 67
+T: ROY'S WIFE
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.29
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+f2 !segno!|\
+ec3c3B c3Bcf3 | ec2c2A B3ABf3 |\
+ec3B3A a3bc'3b | bagf fedc B3AB"^D.S."c3 :|
+|:\
+e2fg a2c'2 babc' a3e | e2fg a2c2 B3ABc3 |\
+e2fg a2c'2 c'bd'c' b2ab | c'3ba3c B3ABc3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 68
+T: CAMERONIAN RANT
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.29
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The meaning of both the Segno and the D.S at the end isn't obvious.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+f !segno!|\
+c>F (3FFF c>FA>F | c>F (3FFF c2A>c |\
+B>G (3GGG B>GA>G | BG (3GGG Tc2 A H:|
+G |\
+F>ff>g f>dc>A | F>ff>g f>dc>A |\
+G>gg>a g>fe>d | g>fg>a g>fe>d |
+F>ff>g f>dc>A | F>Ac>f {f}e2c>f |\
+(3efg d>f (3efg d>e | f>ag>a f>cd>"_D.S."f !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 69
+T: GRAHAM CLARK'S
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.30
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+f |\
+d2A>f d2A>F | E>ee>d c<AB>c |\
+d>fe>f d>eB>d | A>BA>F A<dd :|
+f/g/ |\
+a>fd>f (3dfg a>f | b>ge>g (3ega b>g |\
+a>fdf/g/ a>fd>A | B>gf>e f<ddf/g/ |
+a>fd>f df/g/ a>f | b>ge>g eg/a/ b>g |\
+f>ae>f d>eB>d | A>BA>F A<dd H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 70
+T: LADY MAC DONALD'S
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.30
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(3(c//d//e//) |\
+f>cA>B c>dc>A | f>c (3cBA G>gg>a | f>cA>B c>dc>A | (3cBA G>A F<ff>a :|
+c>ff>a c>ff>a | g>ba>f e<gg>a | c>ff>c d>^fg>a | b>ag>a f<f (3fed |
+c>ff>a c>ff>a | b>g (3agf e<g (3gfe | f<ac>f d<bB>d | c>BA>G A<FF>c H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 71
+T: MISS INNES
+%R: reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.30
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+EB, E/E/E {d}e2B<d | FDFd FDDF | EB, E/E/E {d}e2Bd | FDTdF E/E/E E2 :|
+ebge Bge^d  | eB~dA FDDF | ebge bege | Bgf^d e/e/e e>f |
+ebge bege | FA~dA FDDF | EB, E/E/E {d}e2 Bd | FDTdF E/E/E E2 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 72
+T: GREARSON'S
+%R: reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.31
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+F2FA cAcf | F2FA BGGA |\
+F2FA cAcf | defg af f :|
+f/g/ |\
+affc Accf | affd eggb |\
+affc Accf | defg aff \
+f/g/ |
+affc Accf | affd eggb |\
+afge fdcA | BGcB AFF H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 73
+T: JARNOVICK'S
+%R: reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.31
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+f>cc2 f>cc2 | defg e>cc2 |\
+dfcf BfAf | GdcB A>FFz :|
+aagf e>gc'2 | ffed c>ea2 |\
+ddcB Acfa | bgaf e>gg2 |
+f>cc2 f>cc2 | defg e>cc2 |\
+dfcf BfAf | GdcB A>FF2 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 74
+T: MAXWELL'S
+%R: reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.31
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+g2ba g2fe | abag fd de/f/ |\
+gfe2 d2cB | cAdc BGGd |
+gbab gafg | eaag fd de/f/ |\
+gbfa egd=f | ecAd BG G H|]
+B/c/ |\
+dBdg dg dB/c/ | dBGB cA AB/c/ |\
+dBGB dgdB | cABG FA AB/c/ |
+dBdg dg dB/c/ | dBGB cA AB/c/ |\
+dgfe dbag | faef def"_D.C."d |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 75
+T: PROUD'S
+%R: reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.32
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+c2 |\
+Bcdc BGgd | BcdB A=FcA |\
+Bcdc BGge | dBcA G2 :|
+|: c2 |\
+BGBd A=FAc | BGBd gedc |\
+BGBd A=FAc | (3Bcd (3cBA G2 :|
+|:\
+c2 |\
+(3Bcd dd ddgb | (3ABc cc ccfa |\
+(3Bcd dd ddgb | (3agf (3gfe d2 :|
+|: c2 |\
+(3Bcd BG (3ABc AF | GABc dgdc |\
+(3Bcd BG (3ABc AF | GcBA G2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 76
+T: AUBONE SURTEES
+%R: reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.32
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+D2FD CDB,D | A,DFA {A}G2FE |\
+DAFd Afda | gefd {d}c2BA |
+d2df ecaA | B2dB Adfa |\
+gbfa gbag | fedc d2 :|
+|: g2 |\
+fdaf ecBA | dBfd cAGF |\
+BGdB Adfa | gefd {d}c2BA |
+d2df ecaA | B2dB AdFA |\
+G2BG FAGB | AGFE D2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 77
+T: COUNTESS OF LAUDERDALE'S
+%R: reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.32
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+e |\
+a2ec fdec | (bB)(Bc) edcB |\
+[AA](AGA) (FA)(EA) | BcdB c2(AE) |
+A2EC FDEC | B,B2c dcdB |\
+AcBd cedf | edcB c2A :|
+|: E |\
+A2(AE) FEAE | A2AE ABcB |\
+[AA](AGA) (FA)(EA) | BcdB c2(AE) |
+A2(AE) FEAE | A2Ag edcB |\
+AaBa cada | (3fga ed c2A H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 78
+T: TOM THUMB
+%R: reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.33
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+C2EA cecA | B2dB GBGE |\
+A2E=G FDCB, | CEcB A2A,2 :|
+|:\
+c2cA c2cA | cAec A2Ac |\
+B2BG B2BG | EFED C2A,2 :|
+|:\
+ceee e2ee | fagf fedc |\
+defd ecBA | Gfed {d}c2A2 :|
+|:\
+A2EC A2EC | AB/c/ BA AGFE |\
+EAGF FEDC | D2E2 A,4 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 79
+T: BRANDLING'S
+%R: reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.33
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+e |\
+cA A/A/A eAcA | eagf fedc |\
+dB B/B/B fBdB | fefg bagf |
+eA A/A/A aAcA | efga fedc |\
+defg abaf | ecaf e2A :|
+|: f |\
+eAcA cecA | aAgA fAeA |\
+fBdB dfdB | bBaB gBfB |
+eAcA aAcA | efga fedc |\
+defg abaf | ecaf e2A H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 80
+T: PERTHSHIRE HUNT
+%R: reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.33
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+E2CE A,ECE | A,ECE FB,B,F |\
+E2CE A,ECE | ceBd cAA :|
+|: e |\
+c/B/A eA fAeA | c/B/A eA fBBd |\
+c/B/A eA fAeA | EFAB cAAc |
+c/B/A eA fAeA | c/B/A eA fBBd |\
+ceAc dfBd | EFAB cAA H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 81
+T: PADDY WHACK
+%R: jig
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.34
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+g>BB B>AG | (Ee)e (Ff)f | g>BB B>AG | e>ag f>ed |\
+g>BB B>AG | (Ee)e (Ff)f | (g>b)b b>ag | f>ef g2z :|
+G>Bd g>fg | e>dc B>cA | G>Bd g>fg | e>af g2g/a/ |\
+b>gb a>fd | g>eg f>dB | c>de A>Bc | E>AG F>ED |
+G>Bd g>fg | e>dc B>cA | G>Bd g>fg | e>af g2g/a/ |\
+b>gb a>fd | g>eg f>dB | c>de A>Bc | E>AF G2z H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 82
+T: FANCY IRISH JIG
+%R: jig
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.34
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+DFA =c2A | def gag | fed cBA | GFG AFD |\
+DFA =c2A | def gag | fed dcB | Add d2 :|
+|: A |\
+dfa dfa | dfa agf | ceg ceg | ceg gfe |\
+fef gfg | aga bag | fed dcB | Add d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 83
+T: BIDDY THE DARLING
+%R: jig
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.35
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D2F A2d | f2d A2F | G2B e2d | cBA GFE |\
+D2F A2d | f2d A2F | Ged cBc | d3- d2z :|
+|:\
+A2c e2c | A2d f2d | A2e g2e | fed cBA |\
+d2A e2A | f2A g2A | fed cBc | d3- d2z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 84
+T: RATTLING ROARING WILLIE
+%R: jig
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.35
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+f |\
+ecA ABA cef | =gfg B^GB d2f |\
+ecA ABA ceg | aga cAc e2f/g/ |\
+agf ecA cef |
+=gfg B^GB d2B |\
+ABA c2A cea | cAc BGB A2 :|\
+|: f |\
+ecA acA ecA | B=GB ^gdB d2e |\
+ecA acA ecA |
+{b}agf ecA efg |\
+agf ecA cef | {a}=gfg B^GB d2B |\
+ABA c2A cea | cAc BGB A2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 85
+T: The BONNETS O' BLUE
+%R: jig
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.35
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+dcd fga | ABA ABc | dfb afd | e3- e2A |\
+dcd fga | ABA A2b | agf edc | d3- d2 H:|
+e/d/ |\
+cde efe | A3- A2e/d/ | cde ef^g | a3- a2=g |\
+f2e d2c | B2c d2e | fgf edc | B3- B2 :|
+A |\
+dd/d/d faf | d3- d2A | dfb agf | e3- e2f |\
+gfg abc' | d'3 d'c'b | aba gfe | d3- "_D.C."d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 86
+T: The LADY OF THE LAKE
+%R: jig
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.36
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+BcA G2D | E2D G2c | BcA G2B | Add d2c |\
+BcA G2D | E2D G2c | BcA Bce | d2F G2z H:|
+A |\
+BcB B2A | B2c def | g2f e2d | dcB A2G |\
+BcB B2A | B2c def | g2e a2g | fge de"_D.C."c |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 87
+T: MORGIANA IN IRELAND
+%R: jig
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.36
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2G c2c | dcd e2A | G2G c2d | e2f ecA |\
+G2G c2c | dcd e2a | agf efd | c2d ecA :|
+|:\
+g2g gfe | a2b c'3 | gag gfe | a2b c'ge |\
+gag gfe | aba abc' | gaf efd | c2d ecA :|
+|:\
+cBc e<gz | ded f<az | cdc e2f | e2f ecA |\
+cdc e<gz | f<az e<gz | a<c'z e<gz | c2d ecA H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 88
+T: MARY THE MAID
+%R: jig
+N: aka Bun Your Eye, the Braw Young Man, There Came a Young Man
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.37
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+E |\
+ABA c2d | edc B2A | GAG B2c | dge dcB |\
+ABA c2d | edc Bcd | e2A AB^G | A3- A2 :|
+|: B |\
+(c>de/f/) g2a | gec gec | G>AB/c/ d2e | dge dBG |\
+(c>de/f/) g2a | gec de^g | a2A AB^G | A3- A2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 89
+T: The DRAGOON
+%R: jig
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.37
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+D !segno!|:\
+GAG Gge dBG | BAA ABd e2g |\
+G2G Gge dBG | ABc BAG E2 H:|
+d |\
+g2g gag fed | e2e efg a2b |\
+g2g bag fed | e/f/ge dBG A2d |
+g2g gag fed | e2e egb a2g |\
+gab abg fed | gfe dBG A2"_D.C."B!segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 90
+T: BARNEY BRALLAGHAN
+%R: jig
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.37
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+F2A ABA ABA | F2A ABA d2f |\
+F2A ABA ABA | E2e e2d cBA :|
+|:\
+f2a f2a fed | f2a f2a f2d |\
+f2a f2a fed | e2e efd cBA :|
+|:\
+f3 a3 d3 | e2f ged cBA |\
+f3 e3 d3 | B2B A2G FED H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 091
+T: The TRIUMPH
+%R: reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.38
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Added initial "pickup" rest to 2nd strain to fix the rhythm.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ge |\
+dBBG cAAF | Ggfg efge |\
+dBBG cAAF | G2B2G2 :|
+|: z2 |\
+A3cB2d2 | A3cB2d2 |\
+A3cB2d2 | dcBA G2 :|
+|: B2 |\
+BABc BdcB | AGAB AcBA |\
+GABc defg | dcBA G2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 92
+T: HASTE TO THE WEDDING
+%R: jig
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.38
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+AFA Aaf | ede fdB | AFA AdF | EFE E2A |\
+AFA Aaf | ede fdB | AFA faf | ddd d2 :|
+|: f/g/ |\
+afa afa | bgb bgb | afa agf | efe e2f/g/ |\
+a3 f3 | ede fdB | AFA faf | ded d2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 93
+T: SIR ROGER DE COVERLEY
+%R: jig
+N: This is actually a slipjig, with incorrect bar lines.
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.29
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2G G2g | dBG A2A | ABG FED |\
+G2G G2g | def g2G | A2G FED :|
+|:\
+dBd ece | d2B EFG | A2G FED |\
+dBd ece | def g2G | A2G FED :|
+|:\
+dcB cBA | BAG EFG | A2G FED |\
+dcB cBA | BAG EFG | A2F G2z H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 94
+T: The SARABAND
+%R: saraband, waltz
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.39
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: "Tempo di Valse."
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(GF) |\
+(EG)(Gc)c2 | (EG)(Gc)c2 |\
+(Bd)(df)(fa) | (ag)(fg)(ec) |\
+(EG)(Gc)c2 | (EG)(Gc)c2 |\
+(Bd)(df)(ag) | c4 :|
+|: (dc) |\
+(Bd)(df)(fa) | (ag)(fg)(ec) |\
+(cB)(dB)(GB) | (cd)(ec)(Gc) |\
+(Bd)(df)(fa) | (ag)(fg)(ec) |\
+(cB)(dB)(GB) | c4 :|
+Q: "Presto."
+|: G2 |\
+.G2.f2.d2 | .G2.e2.c2 |\
+.F2.d2.B2 | .c.B.c.d.e2 |\
+.G2.f2.d2 | .G2.e2.c2 |\
+.F2.d2.B2 | c4 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 95
+T: HOKEY POKEY
+%R: jig
+N: This tune is often labelled "Circassian Circle"; both are generic dance names, not real tune names.
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.39
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+b2a g2f | g2ed2B | {d}cBc ABc | B2c d2d |\
+e2c g2e | d2B g2g | fga def | [g2B2]z [g2B2] :|
+|: g/a/ |\
+b2b b2a | b2b b2g | b2b c'2b | a2a a2f |\
+g2g g2g | g2g g2f | gfg a2g | f2e d2 :|
+|: d |\
+g2g gfe | def g2d | g2g gfe | def g2g |\
+a2a aga | a2a abc' |d'2d def | [g2B2]z [g2B2] H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 96
+T: CORN RIGS
+%R: reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.39
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+dcde f2ed | cBcd e2A2 | dcde f2ed | e2a2a2 A2 |\
+dcde f2ed | cBcd e2A2 | BcdB edcB | A2d2d2 :|
+|: A2 |\
+d2a2f2a2 | bagf e2A2 | d2a2 f2a2 | d2a2a2 A2 |\
+d2a2f2a2 | bagf e2A2 | BcdB edcB | A2d2d2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 97
+T: DASHING WHITE SERJEANT
+%R: reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.39
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The double bar at the start of the 2nd strain is a bit odd.
+N: The "f" symbols are positioned before the chords; ABC can sorta handle this.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+D2D2 DEFG | A2A2A2 fe | d2B2A2F2 | B2E2E2 FE |\
+D2D2 DEFG | A2A2A2 f2 | e2d2c2B2 | A2A2A2 :|
+|] A2 |\
+A2AB c2cd | e2ec A4 | B2Bc d2de | f2fd B4 |\
+c2c2 d2d2 | e2e2 f2f2 | g6f2 | edcB AGFE |
+D2d2 dcde | d2A2 A4 | B2e2 edef | e2B2 B4 |\
+A2d2 dcde | f2d2 dcde | "_f"y"^>"[f4A4] "_f"y"^>"[a4c4] | "_f"y"^>"[d6F6] H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 98
+T: BARBARY BELL
+%R: jig
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.40
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+G>AG GBc | d>ed dBG | A>GA BGD | E>FE E2D |\
+G>AG GBc | d>ed dBG | A>GA BGD | E2F G2 :|
+|: d |\
+d>ef gag | f>ed edB | d>ef gag | f>ed e2d |\
+d>ef gdB | c>de dBG | A>GA BGD | E2F G2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 99
+T: The KEEL ROW
+%R: reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.40
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+dc |\
+B2GB c2Ac | B2GB AFDc |\
+B2GB c2Ac | BGAF Gedc |
+B2GB c2Ac | B2GB AFDc |\
+B2GB c2Ac | BGAF G2 :|
+|: dc |\
+Bddg e2dc | B2GB AFDc |\
+Bddg e2dc | BGAF GBdc |
+Bddg e2dc | B2GB AFDc |\
+Bddg fedc | BGAF G2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 100
+T: BUY A BROOM
+%R: waltz
+N: aka "Ach du lieber Augustine", "Did You Ever See a Lassie", etc.
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.40
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: "Tempo di Valse."
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+a2abag | f2d2d2 | e2A2A2 | f2d2d2 |\
+a2abag | f2d2d2 | e2A2A2 | d6 :|
+|:\
+e2A2A2 | f2d2d2 | e2A2A2 | f2d2d2 |\
+a2abag | f2d2d2 | e2A2A2 | d6 :|
+Q: "Presto."
+M: 2/4
+L: 1/16
+|:\
+abag fdef | gfed cAfg |\
+abag fddc | B2c2 d4 :|
+|:\
+fdge fdef | gfed cAAg |\
+fdge fddc | B2c2 d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

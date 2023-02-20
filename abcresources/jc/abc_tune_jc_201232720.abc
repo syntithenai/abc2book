@@ -1,0 +1,327 @@
+X: 0
+T: Twenty Four Country Dances for the Year 1782
+N: Publisher: Samuel, Ann & Peter Thompson, London, 1782
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1782
+K:
+%%center With proper Tunes & Directions to each Dance as they
+%%center are Perform'd at Court, Bath, & all Publick Assemblys
+%%center -------------------- L O N D O N -------------------
+%%center Printed for Sam.l Ann & Peter Thompson No.75, St Pauls Church Yard
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 145
+T: La Bagatelle
+%R: jig
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1782", London 1782, p.73 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1782
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+def efd | cdB A2A |\
+Bcd A2d | dec d2 :: F |\
+FEF G2G | GFG A2A |
+ABc dcB | AGF E2F |\
+FEF G2G | GFG A2A |\
+Bcd A2d | dec d2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st Cu: set to the 2d Lady .|. then to the 2d
+%% Gent: :|. lead down the middle up again and cast
+%% of .|: Allmand with the right and left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 146
+T: Allemande La Grande
+%R: reel
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1782", London 1782, p.73 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1782
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+f2ag f2c2 | Acfa gbge |\
+f2ag f2c2 | gbge f4 ::\
+cAcA dBdB | AGFE FAcA |\
+cAcA dBdB | AGFE F4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right hands across .|. left hands back
+%% again :|. lead down the middle .|: up again
+%% and cast of :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 147
+T: La Beaut\`e
+%R: reel
+N: Yeah, it it should be an accent aigu, not grave.
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1782", London 1782, p.74 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1782
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: C|
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+edcB A2a2 f4 e4 | d2c2B2A2 BAGF E4 |\
+edcB A2a2 fedc B2a2 | g2fe B2^d2 e4 E4 :|
+|:\
+BAGF E2c2 d4 c4 | d2c2B2A2 BAGF E4 |\
+A3BA3B c2d2e2E2 | F2dB A2G2 A4- A4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Cast of two Cu: and up again .|. cross over
+%% 2 Cu: lead thro the top and cast of :|. set
+%% Corners and turn .|: lead outsides
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 148
+T: The Tempest
+%R: reel
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1782", London 1782, p.74 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1782
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+N: The phrase icons are especially weird:  The 2nd has two lines; the 3rd has no dots, just one line.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+FGAB cAdB | cAdB cBAG |\
+FGAB cAfa | gfed c2c2 :|
+|:\
+cege cfaf | dgba gfed |\
+cAdB cAdB | cBAG F2F2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right hands across quite round .|. left
+%% hands back again :||.  cross over one Cu:
+%% | Right and Left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 149
+T: Robinson Cruso
+%R: jig
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1782", London 1782, p.75 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1782
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+d2d {d}cBc | d3 def | {a}gfg e2a | ({g}Tf3 e2)A |\
+B2B Bcd | AFD D2d | Bgf edc | d3- d2 :: "(1)"A |
+(AG)F (CE)G | A2F D2F | AG"(2)"E CEG | A2F D2A |\
+BGD ddd | AFD Ddd | ABA AGF | (F3 E2)A |
+d2d {d}cBc | d3 def | {a}gfg e2a | ({g}Tf3 e2)A |\
+B2B Bcd | AFD D2d | Bgf edc | d3 D2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+W: 1. Bars 9-16 have descant at the octave labelled "G.Fl." (German Flute)"; with "Viol." below the notated line.
+W: 2. Bar 11: The 1st E has f in the flute descant, as in bar 9.  One of the two has to be wrong.
+%%begintext align
+%% First Gent.n set to the 2d Lady & turn .|. 1st Lady set to
+%% the 2d Gent: & turns :|. lead down two Cu: up again & cast
+%% of right & left at top .|: lead out sides :|:.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 150
+T: La Galatea
+%R: jig
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1782", London 1782, p.75 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1782
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 6/8
+L: 1/8
+K: E
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+!f!e2e ege | B2b bge | c2a afd | ege Bcd |\
+   e2e ege | d2b bge | c2a afd | e3- e3 :|
+!p!.B.G.G .A.F.F | Eee dff | egg gfe | daf dfd |\
+   .B.G.G .A.F.F | Eee dff | egg gfe | bfd B3 |
+!f!e2e ege | B2b bge | c2a afd | ege Bcd |\
+   e2e ege | B2b bge | c2a afd | e3 E3 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Turn your Part.r half round with the right Hand, back
+%% again with the Left .|. lead down the middle up again &
+%% cast of :|. All.d with your Part.r .|. right & left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 151
+T: La Bienfacile
+%R: reel, march
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1782", London 1782, p.76 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1782
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+N: The 2nd strain has initial repeat but no final repeat; not fixed. The dance implies not to repeat it.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+g2d2d2d2 | B3cd2d2 | g2bg d2c2 | B3cd2d2 |\
+c2ce B2Bd | A2AB {c}B2AG | F2G2 {B}A2GF | G4 G,4 :|
+|:\
+g3ab2b2 | e3fg2g2 | gfba gfed | ^cdec A4 |\
+gfga babg | fefg agaf | fege d2^c2 | d3e dcBA |
+g2d2d2d2 | B3cd2d2 | g2bg d2c2 | B3cd2d2 |\
+c2ce B2Bd | A2Ac {c}B2AG | F2G2 {B}A2GF | G4 G4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First and 2 Cu: change sides back again .|.
+%% lead down the middle up again and cast of
+%% :|. hands across and back again Allemand
+%% with your Partner .|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 152
+T: Away to the Camp
+%R: jig
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1782", London 1782, p.76 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1782
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+cdc ege | faf d2f | ege B2c | dcd G2G |\
+cdc ege | faf d2f | ege fdB | c3- c2 :|
+|: e |\
+e3  dcd | efe dcd | egc B2c | dcd G2e |\
+e3  dcd | efe dcd | ege fdB | c3- c2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 3 Ladies Promenade round the 3
+%% Gent.n .|. the 3 Gent.n round the 3 Ladies
+%% :|. lead down the middle up again and
+%% cast of .|: Allemand with your Partner :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 153
+T: La Galliard
+%R: jig
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1782", London 1782, p.77 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1782
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 6/8
+L: 1/8
+K: E
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G/A/ |\
+B2B BAG | cAF FGA | BGE EDE | [fF][dD][BB,] [B2B,2] G/A/ |\
+B2B BAG | cAF FGA | BGE FEF | E3 E2 :|
+|: e/f/ |\
+gbg e2B | cec B3 | fga bag | gff f2e/f/ |\
+gbg e2B | cec B3 | cag fed | e3 E2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First & 2d Cu: la Paussett .|. 1st 2d & 3d Cu: Promanade
+%% round with their Partners :|. lead down the
+%% middle up again and cast of .|: Allmand with your
+%% Partner :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 154
+T: The Spanish Spy
+%R: reel
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1782", London 1782, p.77 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1782
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+e2 |\
+A3A (3(ABc) BA | BABc B2e2 |\
+A3A (3(ABc) BA | E2A2A2 :|\
+|: e2 |\
+ABcd efec | afec afec |
+ABcd efec | BABc B2e2 |\
+ABcd efec | afec afec |\
+F4 E2AB | c2A2A2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First Gent.n turn the 2d Lady .|. the 1st Lady
+%% turn the 2d Gent: :|. cross over one Cu: lead
+%% thro top & cast of .|: right & left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 155
+T: Lady Abbintons Allemand
+%R: reel
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1782", London 1782, p.78 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1782
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d4 e2f2 | g2fg e4 | {d}c2BA B2c2 | d2df A4 |\
+d4 e2f2 | g2fg e4 | {d}c2BA B2c2 | d4- d4 :|
+|:\
+a2f2 fgaf | g2e2 e4 | f2ef g2f2 | edcB A4 |\
+a2f2 fgaf | g2e2 e4 | {d}c2BA B2c2 | d4- d4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st & 2d Cu: set and change sides, set
+%% and back again .|. Hands across and back
+%% again :|. lead down the middle up again &
+%% cast of .|: then Allemand with your right
+%% hand then left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 156
+T: The Noon Herald
+%R: reel
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1782", London 1782, p.78 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1782
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+.A(aga) ecAc | dBGA BGE2 |\
+.A(aga) (ecAc) | dBGE A2A2 :|
+|:\
+ecAc dBGB | cAGA B2GE |\
+ecAc dBGB | efge a2A2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Cast of 2 Cu: up again .|. lead down the
+%% middle up again and cast of :|. set Corners
+%% .|: and lead out sides :|:
+%%endtext
+

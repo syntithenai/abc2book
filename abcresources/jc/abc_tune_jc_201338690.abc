@@ -1,0 +1,30 @@
+X: 1
+T: Smithy Hill   [Dm]
+C: Brian Jenkins
+R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+B: Barnes I p.120
+M: 6/8
+L: 1/8
+K: Dm
+A |\
+"Dm"f2e d>AF | c2B A>FD | "E"E3- E2D | "A7"E3- E2A |\
+"Dm"f2g f>ed | "F"c2d c>AF | "Bb"G3- G2A | "C"G3- G2A |
+"Dm(F)"F2F F2d | "F"c2A F2F | "C(Gm)"G2G G2d | "F"c2A F2A |\
+"Dm"f2e d>cB | A2F D2D |1 "E"E3- E2D | "A7"E3- E2 :|2 "E"E3- "A7"E2F | "Dm"D3- D2 |]
+
+%%sep 1 1 500
+X: 1
+T: Smithy Hill   (Em)
+C: Brian Jenkins
+R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+B: Barnes I p.120
+M: 6/8
+L: 1/8
+K: Em
+B |\
+"Em"g2f e>BG | d2c B>GE | "F#"F3- F2E | "B7"F3- F2B |\
+"Em"g2a g>fe | "G"d2e d>BG | "C"A3- A2B | "D"A3- A2B |
+"Em(G)"G2G G2e | "G"d2B G2G | "D(Am)"A2A A2e | "G"d2B G2B |\
+"Em"g2f e>dc | B2G E2E |1 "F#"F3- F2E | "B7"F3- F2 :|2 "F#"F3- "B7"F2G | "Em"E3- E2 |]

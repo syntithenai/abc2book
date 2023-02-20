@@ -1,0 +1,20 @@
+X:298
+T:Hackney Minuet
+C:Wright, c. 1740
+L:1/4
+M:3/4
+%%MIDI gchord czc
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=130
+%%MIDI chordname dim 0 3 6 9
+K:A
+P:A
+|: "A"c/d/ec | "Bm"dB "C#m"c | "D"AB "E7"G | "A"A/G/A/B/A/B/ |\
+"F#7"c/d/ec | "Bm"dB "C#m"c | "F#m"A "E7"BG | "A"A3 :|
+P:B
+"A"c/B/A/B/c/d/ | "A7"e2 e | "D"fed | "A"eca |\
+"C#m"e "D"f/e/d | "A"ec "Bm"d | "C#m"e "D"f/e/d/c/ | "E7"B3 |
+P:C
+"A"c/d/ec | "Bm"dB "C#m"c | "D"AB "E7"G | "A"A/G/A/B/A/B/ |\
+"F#m"c/d/ec | "A7"ec "Adim"a | "A"cd/c/ "E7"B/c/ | "A"A3 |]

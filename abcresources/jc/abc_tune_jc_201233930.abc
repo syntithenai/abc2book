@@ -1,0 +1,22 @@
+X: 20171
+T: DEIL TAK THE WARS
+Q: "And.te"
+%R: _
+B: "Edinburgh Repository of Music" v.2 p.17 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Both strains have an extra 1/4-note in the pickup (or an unnecessary dot on the last note); not fixed.
+M: 2/4
+L: 1/8
+K: C
+G2 |\
+c2 c>e | d3 B | cG (AB/c/) | (AG) (FE) |\
+(EG) (Gc) | c3 d | (ef/g/) (fe) | {e}d3 z |\
+~c2 c>e | {e}d3 B | cG (AB/c/) | (AG) (FE) |
+(EG) (Gc) | c2 g>f | e2 Td2{cd}y | {d}c3 :|\
+e2 |\
+eceg | (ec) zd | dB dg | (dB) ze |\
+e2 ec | d2 dB | c>d (e/d/)(c/B/) | {B}A2 zc |
+G>A GE | G2 zc | G>A GE | G2 zG |\
+Ad de | d3 e | (fe) (dc) | B3 A/A/ |\
+G>A GE | G2 (g>f) | e2 Td2{cd}y | c3 H|]

@@ -1,0 +1,1013 @@
+X: 0
+T: XXIV New Cotillons or French Dances
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+K:
+%%sep 5 5 500
+%%center XXIV
+%%center NEW COTILLONS,
+%%center OR FRENCH DANCES;
+%%center As Perform'd at Court and all Polite Assemblies
+%%center For the Harpsicord, Violin, German Flute, or Hautboy.
+%%center with proper Directions to each
+%%sep 5 5 500
+%%center LONDON. Printed by J: Longman & Co. at the Harp & Crown, No. 26, CHEAPSIDE.
+%%sep 3 3 400
+%%begintext
+%%    Changes of the following COTILLONS.
+%%
+%% 1st Turn your Partner with both hands.
+%% 2d. Four Ladies hands across.
+%% 3d. Four Gentlemen hands across.
+%% 4th Four Ladies hands round.
+%% 5th Four Gentlemen hands round.
+%% 6th L' Allemande.
+%% 7th La Chaine.
+%% 8th La Prominade.
+%% 9th All round.
+%%
+%% N.B. The principle Figure of every Dance to be repeated between each Change.
+%%endtext
+%%center -------------------------------------------------------
+%%begintext align
+%% Transcription notes:
+%% The tunes are are numbered; their count (01-24)
+%% is used in the file name to preserve the publication order.
+%%endtext
+%%sep 4 2 400
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1
+T: Cotillon I.    la Pantomime.
+%R: reel, march
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #1
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+G2g2 G4 | (AB)(cA) B2G2 | G2g2 G4 | (AB)(cA) B4 |\
+g2f2 e2d2 | (^cd)(ec) A4 | (B^c)(dB) (cd)(ec) | d2d2 d4 :|
+|:\
+d2d'2 d4 | (ed)(cB) c2A2 | c2c'2 c4 | (dc)(BA) B4 |\
+g2f2 e2^d2 | (eg)(fe) ^d2B2 | (eB)(cA) G2TF2 | E2E2 E4 |
+B2g2 G4 | (AB)(cA) B2G2 | G2g2 G4 | (AB)(cA) B4 |\
+e2d2 c2B2 | (cd)(ef) g2c'2 | (ba)(gb) (ag)(fa) | g4 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+g4 b4 | d'2d2 G4 | g4 b4 | d'2d2 G4 |\
+g6 e2 | a6 f2 | g4 a4 | d'2d2 d4 :|
+|:\
+b4 ^g2e2 | a2e2 A4 | a4 f2d2 | g2d2 G4 |\
+e6 f2 | g2a2 b2a2 | g2a2 b2B2 | e2E2 E4 |
+g4 b4 | d'2d2 G4 | g4 b4 | d'2d2 g4 |\
+c'2b2 a2g2 | a4 b2c'2 | d'4 d4 | g2G2 G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   All round: four lead up, fall back, Ballance, four round: the other four do
+%% the same: Every Gentleman turn his Partner into her Place.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2
+T: Cotillon II.     la Comme're.
+%R: jig
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #2
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The page actually has M:C, but the music is 6/8 time.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+d |\
+(a>b)a (af)d | (ec)A A2G | (FAd) (fdA) | (GBe) (geB) |\
+(Acf) (afc) | B(ba) (^ge)a | (fd)b (^ge)a | ab^g a2 :|
+|: a |\
+(afe) (^df)B | (agf) g2g | (ged) (ceA) | (gfe) f2a |\
+a(AG) F2a | g(GF) E2g | f(FE D)(ba) | (gfe) d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z |\
+d3 f3 | a3 c'3 | d'3 d3 | e3 e'3 | f3 F3 | d2d' e'2c' |
+d'2b e'2c' | c'2e' a2 :||: z | z2a b3 | ^d'3 e'2z | z2g a3 | c'3 d'3 |
+f2e d2f | e2d c2e | d2e f2g | a2A d2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round: four lead up, during which, the other four go the Chasse\`e in the
+%% Corners: the other four lead up & the first four go the Chasse\`e in the Corners;
+%% Every Gentleman turn his Partner into her Place.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 03
+T: Cotillon III.     la Timide.
+%R: march, reel
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #3
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain has a repeat in the bass but not in the treble voice; V:1 repeat added.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+b4 |\
+B4 g4 | G4 e4 | c2A2F2D2 | G4 b4 |\
+B4 g4 | G4 e4 | ^c2e2A2c2 | d4 :|
+|: d2d2 |\
+c2D2B2B2 | A4 d2d2 | (cdcB) A2d2 | B4 d2d2 |\
+c2D2B2B2 | A4 B2g2 | (ecBA) G2F2 | G4 :|
+|: GbGb |\
+e2c2 ADdc | B4 GgGg | e2c2 ADdc | B4 GgGg |\
+e2c2 AaAa | f4 gdcB | ecBA G2F2 | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z4 |\
+g4 G4 | B4 c4 | d4 f4 | g4 z4 |\
+g4 G4 | B4 g4 | a4 A4 | d4 :|\
+|: z4 |
+f4 g4 | d4 z4 | f4 d4 | g4 z4 |\
+f4 g4 | d4 g4 | c4 d4 | G4 :|
+|: B4 |\
+c4 d4 | G4 B4 | c4 d4 | G4 B4 |\
+c4 ^c4 | d4 B4 | c4 d4 | G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    Ballance& Rigadoon step, then all round & do the same in all changes,
+%% then the 2 first Couple faces the two 2d Couple & fall back & change Places, the two
+%% 2d Couple do the same, the four Ladies make a cross in the Centre & takes the Gentleman
+%% by the right Hand, all 4 Couple half round, Rigadoon step, the 4 Gentleman changes
+%% Places with the Ladies & make a cross, & goes a whole round into their own Places.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 4
+T: Cotillon IV.     le Diable Boiteux.
+%R: reel
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #4
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+(FA)(GB) A2F2 | (Ac)(Bd) c2A2 | (cf)eg f2a2 | c'2a2Ta2g2 |\
+(FA)(GB) A2F2 | (Ac)(Bd) c2A2 | (cd)(ef) (gf)(ed) | e2Td2 c4 :|
+|:\
+(c'b)(ag) ^f2g2 | a2d2 g4 | (ba)(gf) e2f2 | g2c2 f4 |\
+(ag)(fe) d2^c2 | (df)(eg) f2e2 | (de)(fg) (ag)(fe) | f2Te2 d4 |
+(FA)(GB) A2F2 | (Ac)(Bd) c2A2 | (cf)(eg) f2a2 | c'2a2Ta2g2 |\
+(FA)(GB) A2F2 | (Ac)(Bd) c2A2 | (df)(eg) (fd)(cB) | A2TG2 F4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+f6 F2 | f6 F2 | f6 F2 | c2C2 C4 | f6 F2 | f6 F2 | f4 d2ef |
+g2G2 c4 :||: z2c'2d'2b2 | c'2d'2 g4 | z2b2c'2a2 | b2c'2 f4 | z2g2a2g2 | f2e2d2A2 | D4 defg |
+a2A2 d4 | f6 F2 | f6 F2 | f6 F2 | c2C2 C4 | f6 F2 | f6 F2 | b2g2a2b2 | c'2c2 f4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round: Each turn his Partner, Ballance, turn each others Partners: Ballance
+%% a Rigadoon Step: Every Gentleman turn his Partner into her Place.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 5
+T: Cotillon V.     la Sorciere.
+%R: jig
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #5
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+BBB A3 | GGG F3 | BBB (Ad)G | (FG)E D3 |\
+fff e2A | ddd c2F | BBB AdG | (FG)E D3 :|
+|:\
+fff e3 | (d/e/f)d (ec)A | BBB A3 | (B/c/d)B (AF)D |\
+GGG F3 | (G/A/B)G (Ad)c | (B/c/d)B (c/d/e)c | d3 D3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+g3 f3 | e3 d3 | g3 f2g | a2A d3 |\
+d'3 c'3 | b3 a3 | g3 f2g | a2A d3 :|
+|:\
+d'3 c'3 | d'3 a2f | g3 f3 | g3 f3 |\
+e3 d3 | e3 f3 | g3 a3 | d'3 d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All round: Chasse\`e a quatre, threaten with one Finger, clap hands three
+%% times, hands round four; the same by the other four: Eery [sic] Gentleman turn
+%% his Partner into her Place.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 6
+T: Cotillon VI.     le Biberon.
+%R: reel
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #6
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+G2(Tgf g2)G2 | e4 d4 | (cd)(ed) (cd)(Bc) | (AB)(GA) F2D2 |\
+G2(Tgf g2)G2 | c4 B4 | (AB)(cA) (BA)(GF) | G4 G,4 :|
+|:\
+dgfg dgBd | cede ceAc | Bded cBAG | FGEF D4 |\
+dgfg dgBd | cede ceAc | Bgec BAGF | G4 G,4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+g6 b2 | c'4 b4 | a6 g2 | f2e2 d4 | g6 b2 | a4 g4 | c'4 d'2d2 |
+g4 G4 :||: g4 b2g2 | c'4 a2f2 | g4 b2c'2 | d'2a2 d4 |
+g4 b2g2 | c'4 a2f2 | g2c'2d'2d2 | g4 G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round: Right hands & Left four, four lead up, turn their Ladies once round
+%% into their Places, the other four do the same: Every Gentleman turn his Partner.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 7
+T: Cotillon VII.     le Cocu.
+%R: march, reel
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #7
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+d2f2 Tf4 | (dc)(ec) d2B2 | d2f2 g2f2 | (ef)(ed) c2F2 |\
+d2f2 Tf4 | (ed)(ec) d2B2 | c2f2 d2b2 | (ag)(f=e) f4 :|\
+|:\
+f2_a2 d2f2 | edc=B c2C2 |
+e2g2 c2e2 | dcBA B4 |\
+d2f2 g2f2 | c2e2 f2e2 | B2d2 e2d2 | cBAG F4 |\
+d2f2 Tf4 | edec d2B2 | G2g2 E2e2 | dcBA B4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+B2b2 d'2b2 | c'2a2 b2B2 | b2d'2 e'2d'2 | c'2b2 a2f2 | B2b2 d'2b2 | c'2a2 b2B2 | a2f2 b2g2 |
+c'2c2 f4 :||: z4 f2d2 | g2G2 c4 | z4 e2c2 | f2F2 B4 | b2d'2 e'2d'2 | a2c'2 d'2c'2 |
+g2b2 c'2b2 | d2e2 f4 | B2b2 d'2b2 | c'2a2 b2B2 | e4 c4 | f2F2 B4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round: Chasse\`e a quatre, threaten with the right Hand and beat with the
+%% Foot at the same time, the same with the Left Hand, and beat again with the foot
+%% four hands across: the other four do the same: Every Gentleman turn his Partner
+%% into her Place.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 8
+T: Cotillon VIII.     la Diligence.
+%R: jig
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #8
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+[|\
+[f2A2D2]f (fe)d | TcBc d3 | (Bc)d (AF)D | (AG)F {F}E3 |\
+[f2A2D2]f (fe)d | TcBc d3 | (ec)A (fd)B | (T^GF)G A3 |]
+|:\
+(aA)a (gA)g | (fA)f (ec)A | (aA)a (gA)g | (fA)f e3 |\
+[f2A2D2]f (fe)d | (TcB)c d3 | (Bc)d (AF)D | (GF)E D3 :|\
+[K:=f=c][K:Dm]
+[|\
+d2d def | (e^c)A A3 | BAG FED | A2A A3 |\
+d2d (de)f | e2e (ef)g | (fb)a (gf)e | dAF D3 |]\
+[K:=B][K:D]
+|:\
+[f2A2D2]f (fe)d | TcBc d3 | (Bc)d (AF)D | (AG)F {F}E3 |\
+[f2A2D2]f (fe)d | (TcB)c d3 | (Bcd) (AFD) | (GFE) D3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+[|\
+d'2d d'2d | a2A d3 | g2g f2f | e2d a2A |\
+d'2d d'2d | a2A d3 | c2c d2d e2E A3 |]\
+|: a3 e'3 |
+d'3 c'3 | a3 e'3 | d'3 c'3 |\
+d'2d d'2d | a2A d3 | g2g f2g | a2A d3 :| [K:=f=c][K:Dm]
+[|\
+d3 d'3 | ^c'3 a3 | bag fed |
+a2a a3 |\
+d3 d'3 | ^c'3 a3 | d'2f gaA | d3 D3 |] [K:=B][K:D]
+|:\
+d'2d d'2d | a2A d3 | g2g f2f | e2d a2A |\
+d'2d d'2d | a2A d3 | g2g f2g | a2A d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round, the queu de Chasse\`e by the first four: the same by the second four, the
+%% first four lead up, change their Ladies & turn to the other four: then clap hands 3 times
+%% and beat 3 times with their feet, then turn their Partners into their Places: the other
+%% four do the same: Le Promenade. Every Gentleman turns his Partner into her Place.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 9
+T: Cotillon IX.     la Culotte.
+%R: reel
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #9
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+f2(af) (cA)(GF) | (GA)(BA) (GE)(DC) |\
+F2(ag) (fe)(dc) | (dg)(bg) {f2}e4 |\
+f2(af) (cA)(GF) | (GA)(BA) (GE)(DC) |
+f2(ag) (fe)(dc) | (ed)(c=B) c4 :|\
+|:\
+e2(gb) (af)(ed) | (eg)(A^c) d2D2 |\
+d2(fa) (ge)(dc) | (df)(G=B) c2C2 |\
+f2(af) (cA)(GF) |
+(GA)(BA) (GE)(DC) |\
+F2(ag) (fe)(dc) | (dg)(bg) {f3}e4 |\
+f2(af) (cA)(GF) | (GA)(BA) (GE)(DC) |\
+(FA)(Bc) (dg)(ab) | (ag)(fe) {e2}f4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+f6 a2 | b2g2 c'4 | a4 f2a2 | b2g2 c'4 | f6 a2 | b2g2 c'4 | a2f2 d2e2 |
+f2g2 c4 :||: ^c4 d2f2 | g2a2 d4 | =B4 c2e2 | f2g2 c2c'b | a4 f2a2 | b2g2 c'4 |
+a4 f2a2 | b2g2 c'4 | f6 a2 | b2g2 c'4 | a2f2 b2g2 | c'2c2 f4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round; Chasse\`e a quatre, threaten with the right hand, & beat with the foot
+%% at the same time, the same with the left hand, and beat again with foot: four
+%% hands across: the other four do the same: Every Gentleman turn his Partner in
+%% to her Place.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 10
+T: Cotillon X.     la Sage Femme.
+%R: march, reel
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #10
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+A2e2f2d2 | c2(cA) B2E2 | A2e2f2d2 | Tc4 B4 |\
+A2e2f2d2 | c2cA B2E2 | F2d2 cBAG | A4 A,4 :|\
+|:\
+A2(cd) e2E2 | (FA)(GB) A4 | B2c2 {d}d2(cB) | Tc4 B4 |
+A2(cd) e2E2 | (FA)(GB) A4 | (B^d)(fa) (gf)(ed) | e4 E4 |\
+A2e2f2d2 | c2(cA) B2E2 | A2e2f2d2 | Tc4 B4 |\
+A2e2f2d2 | c2(cA) B2E2 | F2d2 cBAG | A4 A,4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+a2c'2d'2b2 | a4 e4 | A4 d4 | e4 E4 |\
+a2c'2d'2b2 | a4 e4 | d4 e4 | a4 A4 :|
+|:\
+a6 c2 | d2e2 f4 | g2a2b2e2 | a4 e4 |\
+a6 c2 | d2e2 f4 | ^d4 B4 | e4 E4 |
+a2c'2d'2b2 | a4 e4 | A4 d4 | e4 E4 |\
+a2c'2d'2b2 | a4 e4 | d4 e4 | a4 A4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round.  All four Couple their Partners by their hands & by turning go all
+%% round to their own Places; all four Couple by crossing change Places by Chassee
+%% and Rigadoon Step; return to their Places by the same manner.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 11
+T: Cotillon XI.     l' Indiscrette.
+%R: march, reel
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #11
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+E2 |\
+A2c2 B2d2 | c4 e4 | fedc dcBA | ^GAG^F E2E2 |\
+A2c2 B2d2 | c4 a4 | {a}g2fe gfed | c6 :|
+|: e2 |\
+e2A2 e2A2 | defe f2d2 | d2G2 d2G2 | cded e2e2 |\
+d2c2 B2A2 | ^G4 f4 | {f}e2dc edcB | A6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z2 |\
+a4 e4 | A4 c4 | d6 ^d2 | e4 E4 | a4 e4 | A4 f4 |
+e2f2 g2G2 | c6 :||: z2 | a4 ^c'4 | d'4 d4 | g4 b4 | c'4 c4 |
+d6 ^d2 | e4 =d4 | c2d2 e2E2 | A6 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round: first four turn the other four: change Places, L'Allemande, turn to
+%% the other four again, the other four do the same: Every Gentleman turn his Partner
+%% into her Place.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 12
+T: Cotillon XII.    le Rou\"et \`a filer.
+%R: reel
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #12
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+(FA)(df) (af)(ed) | (ce)(cA) {A}G2(FE) |\
+(FA)(df) (af)(ed) | (ba)(Ac) d2D2 :|\
+|:\
+d(f/g/) (af) (bg)(ec) | d(f/g/) (af) (ec)(BA) |
+d(f/g/) (af) (bg)(eb) | (ag)(fe) d2D2 :|\
+|:\
+(FA)(FA) (GB)(GB) | (Ec)(Ec) d(f/g/) aA |\
+(FA)(FA) (GB)(GB) |
+(Ec)(Ec) d2D2 :|\
+|:\
+(fd) (f/g/a) (ec) (e/f/g) | (fd) (f/g/a) (ge)(cA) |\
+(fd) (f/g/a) (ec) (e/f/g) | (fd)(Ac) d2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+d4 f2g2 | a4 A2c2 | d4 f2g2 | a2A2 d4 :||: d2f2 g2a2 |
+d2f2 a2c2 | d2f2 g3e | a2A2 d4 :||: D2d2 G2g2 | A2a2 d2f2 | D2d2
+G2g2 | A2a2 d4 :||: d2d'2 c'2a2 | d'2d2 A4 | d2d'2 c'2a2 | d'2a2 d4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round: first four turn the other four: change places, L' Allemande, turn to
+%% the other four again, the other four do the same: Every Gentlman [sic] turn his Partner
+%% into her Place.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 13
+T: Cotillon XIII.     la Blanchisseuse.
+%R: jig
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #13
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+(fef) (cAF) | (fef) (cAF) | (fga) (gab) | (agf) (gec) |\
+(fef) (cAF) | (fef) (cAF) | (fga) (gfe) | (dc=B) c3 :|
+|:\
+(c=Bc) (GEC) | (c=Bc) (GEC) | (gfe) (dcB) | (AGF) F3 |\
+(d^cd) (AFD) | (d^cd) (AFD) | (def) (efd) | (^c=BA) A3 |
+(fef) (cAF) | (fef) (cAF) | (fga) (gab) | (agf) (gec) |\
+(fef) (cAF) | (fef) (cAF) | (fga) (gba) | (gfe) f3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+f3 F3 | f3 F3 | f3 e3 | f3 c2B |\
+A3 F3 | f3 F3 | f2d e2f | g2G c3 :|
+|:\
+c'3 c3 | c'3 c3 | e3 c3 | f3 F3 |\
+d'3 d3 | d'3 d3 | f3 g3 | a3 A3 |
+f3 F3 | f3 F3 | f3 e3 | f3 c2B |\
+A3 F3 | f3 F3 | a2f b2g | c'2c f3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round: the first Couple lead up and make a whole round in the Centre: mean time
+%% the second Couple Chassee to the Corners, & then Chasse\`e to the middle: change Ladies lead
+%% up & make a round in the Centre: the first Cu. Chasse\`e at right & left side, & then another Chass\`e to
+%% the Corner: Every one falls into their own Places by Chasse\`e: the 4 Ladies turn under the Arm of their Partner.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 14
+T: Cotillon XIV.     le Charlatan.abc
+%R: march, polka
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #14
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+fda2 | fda2 | fage | dAFD |\
+afc'2 | afc'2 | afce | fcAF :|\
+|:\
+cF_e2 | dBAB | dGf2 | ec=Bc |
+eAa2 | eAa2 | =BdcB | A3^c |\
+dAf2 | e^c=BA | eAg2 | {g}f3g |\
+add'2 | add'2 | egfe | dAFD :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+d'2^c'a | d'2^c'a | d'2a2 | d4 | f2ec | f2ec | f2c2 | F4 :|
+|:\
+a2f2 | b2B2 | =b2g2 | c'2c2 | A4 | c4 | d2e2 | a3g | f2d2 |
+a4 | ^c4 | d3e | f4 | d4 | g2a2 | d4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All round: four Couple turn each other's Partners: Chasse\`e all Eight, turn
+%% their Partners into their Places, then Chasse\`e again by all Eight: then turn their
+%% Partners again into their Places.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 15
+T: Cotillon XV.     Allemande.
+%R: waltz
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #15
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+.D2(F2A2) | (dcde)d2 | .A2(d2f2) | edcBA2 |\
+.D2(F2A2) | (dcde)d2 | (BdcB)(A^G) | A6 :|\
+.A2(c2e2) | .A2(d2f2) | .A2(e2g2) | (fefg)f2 |
+.g2(e2c2) | .f2(d2B2) | (cedc)(B^A) | B6 |\
+.D2(F2A2) | dcded2 | .A2(d2f2) | (edcB)A2 |\
+.B2(B2g2) | .A2(A2f2) | (Bgfe)(dc) | d6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+d4D2 | d4D2 | d4D2 | a4A2 | d4D2 | d4D2 | d2e2E2 | A6 :| a4A2 |
+a4A2 | a4A2 | d6 | e4E2 | d4 D2 | e2f2F2 | B6 | d4D2 | d4D2 | d4D2 |
+a4f2 | g4e2 | f4d2 | g2a2A2 | d6 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    The 4 Gentlemen gives their right Hand to the next Lady & turns her under the Arm
+%% in making a whole round & then returns to their Partners & turn them with their left
+%% hand, in making a whole round all 4 Couple lead up to the middle & all take hands, the
+%% 4 Gentlemen turns under their Partners left Arm & faces to the Wall still holding hands
+%% then make a whole round the Gentlemen turning every fourth part of the round.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 16
+T: Cotillon XVI.     la La borde.
+%R: reel
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #16
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 1st and 3rd segnos have just a column of 4 dots; the intended repeat pattern isn't obvious.
+N: The double bars and repeats here are a guess at the correct ABC notation for this music.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+d2 |\
+(gd) d4 e2 | (e2.d2) z2e2 | (dB)(.d.d) (cA)(.c.c) | {c}B6 A2 |\
+(Bd)(ed) (gd)(bd) | (Ac)(dc) (fc)(ac) | (Bd)(ed) (gf)(ed) | T^c2Bc A2 |]
+!segno!|: a2 |\
+(a^g) g4 =g2 | (gf) f4 a2 | (aB)(ge) d2T^c2 | {c}d6 !segno!:|\
+|: A2 |\
+(dA)(fA) (eA)(gA) | (fA)(aA) (gf)(ed) | (^cA)(eA) (fA)(gA) | {g}f6 !segno!:|
+d2 |\
+(gd) d4 e2 | (e2.d2) z2e2 | (dB)(.d.d) (cA)(.c.c) | {c}B6 d2 |\
+(ec)(ef) (gd)(cB) | (cA)(cd) (ec)(BA) | (BG)(ec) (BA)(GF) | {F2}G6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z2 |\
+z2g2G2g2 | g2G2g4 | z2b2a2f2 | g2d2 G2f2 |\
+g4 b2g2 | f4 d2f2 | g4 b2g2 |
+a2e2 A2 |]!segno!|: z2 |\
+e4 ^c4 | d4 f4 | g2e2 a2A2 | d6 !segno!:|\
+|: z2 |\
+z2d'2^c'2a2 | d2d'2b2g2 |
+a2^c'2d'2e'2 | d'3e' d'2 !segno!:| c'2 |\
+b2g2G2g2 | g2g2g4 | z2b2a2f2 | g2d2 G2b2 |\
+c'4 b2g2 | a4 f4 | g2c2d2D2 | G6 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round: four Couple turn each others Partners: Chasse\`e all Eight, turn their
+%% Partners into their Places, then Chasse\`e again by all Eight: turn their Partners
+%% again into their Places.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 17
+T: Cotillon XVII.     l' Esperance.
+%R: jig
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #17
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+c2c |\
+c2e A2B | c3 c2c | c2e A2B | c3 e2e |\
+edc de^f | g2G c2c | cBA Bcd | e2E A2A |\
+AGF GAB | c2C D2a |
+g2f efd | c3 :|\
+e2c |\
+b2_B B2B | _B2A ^f2d | a2c c2c | c2B e2c |\
+gfe d2B | fed e2c | gfe dBG | G3 |]
+!segno!|: c2c |\
+c2e A2B | c2c c2c | c2e A2B | c3 a2d |\
+g2f efd | c3 afd | gaf efd | c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+c'2c' |\
+c'2c f2g | c3 c'2c' | c'2c f2g | c3 c'2c' |\
+c'2c' c'2c' | b2b a2a | a2a a2a | g2g f2f |\
+f2f f2f | e2e f2f |
+e2f g2G | c3 :| c3 |\
+e2e e2e | f2F d3 | ^f2f f2f | g2G g2G |\
+g2G g2G | g2G g2G | g2G g2G | G3 |]\
+!segno!|: c'2c' |
+c'2c f2g | c3 c'2c' | c'2c f2g | c3 f2f |\
+e2f g2G | cde f2f | e2f g2G | c3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round: the queu de Chasse\`e by the first 4: the same by the 2d four, the first
+%% 4 lead up, change their Ladies and turn to the other four: then clap hands 3 times and
+%% beat 3 times with their feet: then turn their Partners into their Places : the other 4 do
+%% the same: Le Promenade. Every Gentleman turn his Partner into her Place.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 18
+T: Cotillon XVII.     le Soldat.
+%R: reel, march
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #18
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+f2c2A2F2 | defd c2F2 | f2c2 A2F2 | EFGE C4 |\
+f2c2 A2F2 | defd c2F2 | .G(cde) .A(def) | (ed)(c=B) c4 :|\
+|:\
+(e2^c2) (A2G2) | (FA)(d^c) d2D2 |
+(d2=B2) (G2F2) | (EG)(c=B) c2C2 |\
+e2c2 =B2A2 | ^GA=Bc d2f2 | eagf eagf | edc=B A4 |\
+f2c2 A2F2 | defd c2F2 | dgab cfga | agfe f4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+f6 a2 | b4 a4 | f6 F2 | c4 C4 | f6 a2 | b4 a4 | e2c2
+f2d2 | g2G2 c4 :||: a4 ^c'4 | d'2a2 d4 | g4 =b4 | c'2g2 c4 | c4 d4 |
+e6 ^g2 | a4 c2d2 | e2E2 A4 | f6 a2 | b4 a4 | b2g2 a2f2 | b2c'2 f4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round: four lead up, turn your own hands one over the other: Clap with one
+%% hand, the Right hand on the Breast: the Left hand the same: Clap hands turn seperately
+%% each into their own places: the other four do the same: Every Gentleman turn
+%% his Partner.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 19
+T: Cotillon XIX.     le Filou.
+%R: reel, march
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #19
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+[g4B4D4] a2f2 | [g4B4D4] a2f2 | (ga)(bc') (ba)(gf) | g2d2 B2G2 |\
+[g4B4D4] a2f2 | [g4B4D4] a2f2 | (gb)(ag) (fe)(d^c) | d8 :|
+|:\
+d2d2 (d2c2) | c2c2 (c2B2) | B2B2 A2B2 | AGFE D4 |\
+d2d2 (^c2d2) | e2f2 g4 | (fb)(ag) (fe)(d^c) | d4 defd |
+[g4B4D4] a2f2 | [g4B4D4] a2f2 | (ga)(bc') (ba)(gf) | g2d2 B2G2 |\
+[g4B4D4] a2f2 | [g4B4D4] a2f2 | (ge)(dc) (BA)(GF) | G8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+g4 d'2d2 | g4 d'2d2 | g4 d'2d2 | g4 G4 |\
+g4 d'2d2 | g4 d'2d2 | g2e2 a2A2 | dAFA D4 :|
+|:\
+ef^ge a2A2 | defd g2G2 | g4 f2g2 | a2A2 d4 |\
+f4 e2d2 | ^c2d2 e2A2 | d2g2 a2A2 | d4 z4 | g4
+d'2d2 | g4 d'2d2 | g4 d'2d2 | g4 G4 |\
+g4 d'2d2 | g4 d'2d2 | g2c'2 d'2d2 | gdBd G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round: The two first Couple lead up Rigadoon step the Gentleman leads the
+%% Lady by a half round & comes facing the second Couple claps hands with the second
+%% Couple five times the Lady leads the Gentleman to his Place & turns under his Arm
+%% the second Couple do the same.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20
+T: Cotillon XX.     l' Amiti\'e.
+%R: march, reel
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #20
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+defg | a2A2 b2c2 | d4 (dcBA) | (dcBA) (Bd)(ce) | d2D2 defg | a2A2 B2c2 | d4 b4 |
+(^ge)(ad) c2TB2 | A4 :||: (Ac)(ec) | (Ad)(fd) g2g2 | g2f2 bagf | gfed (ed)(cd) | B3c defg | a2A2 B2c2 |
+d4 (AF)(ED) | B2B2 (AF)(ED) | B3c defg | a2A2 B2c2 | d3e (fd)(ge) | (af)(bg) f2Te2 | d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z4 | z2a2 b2c'2 | d'4 f4 | d4 g2a2 | d4 z4 | z2a2 b2c'2 | d'4 zbc'd' |
+e'2c'd' e'2e2 | a4 :||: a4 | A4 a4 | d4 B4 | d4 e2f2 | B4 z4 | z2a2 b2c'2 |
+d'4 f4 | g4 f4 | g4 z4 | z2a2 b2c'2 | d'2a2 d2e2 | f2g2 a2A2 | d4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round: the first Couple lead up, a Rigadoon Step, the Gentleman leads the Lady
+%% by a half round and comes facing the Second Couple and claps hands five times, the
+%% Lady leads the Gentleman to his Place and turns under his Arm: the Second Couple
+%% do the same.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 21
+T: Cotillon XXI.     la Chasse.
+%R: jig, march
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #21
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+[GB,][GB,][GB,] [G3B,3] | [AD][AD][AD] [A3D3] | BBB dcB | [AD][AD][AD] [A3D3] |\
+[GB,][GB,][GB,] [G3B,3] | [AD][AD][AD] [A3D3] | Bgf ed^c | dAF D3 :|
+|:\
+ddd dbd | dcB c3 | ccc cac | cBA B3 |\
+eee eBG | fff f^dB | eag fe^d | eBG E3 |
+[GB,][GB,][GB,] [G3B,3] | [AD][AD][AD] [A3D3] | BBB dcB | [AD][AD][AD] [A3D3] |\
+BBB Bcd | AAA ABc | Bed cBA | GGG G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+G3 g3 | f3 d3 | g3 bag | d'3 d3 |\
+G3 g3 | f3 d3 | g3 a3 | d3 D3 :|
+|:\
+z2z ^g3 | e3 a3 | z2z f3 | d3 g3 |\
+z2z e3 | ^d3 B3 | e2g a2b | e3 E3 |
+G3 g3 | f3 d3 | g3 bag | d'3 d3 |\
+G3 g3 | f3 d3 | g2b c'2d' | g3 G3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round: the first Couple lead up & make a whole round in the Center: mean time the
+%% 2d Couple Chassee to the Corners, & then Chasse\`e to the middle: change Ladies, lead up & make
+%% a round in the Centre: the first Cu. Chasse\`e at Right & Left side, and then another Chasse\`e to
+%% the Corner every one falls into their own Places by Chasse\`e: the 4 Ladies turn under the Arm of their Partner.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22
+T: Cotillon XXII.     l' Espagnol.
+%R: reel, march
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #22
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+d2d2 d4 | (eg)(fa) g2d2 | e2e2 e4 | (ag)(fe) {e}d4 |\
+d2d2 d4 | (eg)(fa) g2e2 | (d2c2)(B2A2) | G2G2 G4 :|\
+|:\
+(g2f2)(e2^d2) | (eg)(fa) g2e2 | (g2f2)(e2d2) | (d4 ^c4) |
+(f2e2)(d2^c2) | (Bd)(ce) d2g2 | (f2e2)(d2^c2) | B2B2 B4 |\
+d2d2 d4 | (eg)(fa) g2d2 | e2e2 e4 | (ag)(fe) {e}d4 |\
+d2d2 d4 | (eg)(fa) g2e2 | (d2c2)(B2A2) | G2G2 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+g2g2 g4 | g2g2 g4 | g2g2 g4 | g2g2 g4 |\
+g2g2 g4 | g2g2g2c'2 | d'4 d4 | g2g2 g4 :|
+|:\
+z4 b4 | e'2b2 e4 | z4 g4 | a4 A4 |\
+^a4 f4 | b2f2 B2e2 | f4 F4 | B2B2 B4 |
+g2g2 g4 | g2g2 g4 | g2g2 g4 | g2g2 g4 |\
+g2g2 g4 | g2g2g2c'2 | d'4 d4 | g2g2 g4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round: all four Couple take their Partners by their hands and by turning go
+%% all round to their own Places: all four Couple by crossing change Places: by Chasse\`e and
+%% Rigadoon Step return to their Places.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 23
+T: Cotillon XXIII.     l' Ecolier.
+%R: reel
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #23
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+b2(dB) A2F2 | (GE)(DC) D2B,2 |\
+b2(dB) A2F2 | (GB)(Ac) B4 :|\
+B2(gf) =e2C2 | D2(ba) {a}g4 |\
+(af)(bg) (af)(bg) | (ag)(f=e) {e}f4 |\
+b2(dB) A2F2 | (GE)(DC) D2B,2 |
+b2dB A2F2 | GBAc B4 |:\
+d2BG ECCC | c2AF DB,B,B, |\
+BAG^F Ggfe | dcBA G4 |\
+b2dB A2F2 | GEDC D2B,2 |\
+b2dB A2F2 | GBAc B4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+b3e f2d2 | e2f2 B4 | d3e f2d2 | e2f2 B4 :| g2b2c'2c2 | d2B2 c4 | a2g2 f3b |
+c'2c2 f3e | d3ef2d2 | e2f2 B4 | d3ef2d2 | e2f2 B4 |: g2b2c'2c2 | f2a2b2B2 |
+c2d2 e2c2 | d2D2 G4 | B3e f2d2 | e2f2 B4 | d3e f2d2 | e2f2 B4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All round: Each turn his Partner, Ballance, turn each others Partners: Ballance
+%% a Rigadoon Step: Every Gentleman turn his Partner into her Place.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 24
+T: Cotillon XXIV.     le Cavalier.
+%R: reel, march
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #24
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has only 7 bars.
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+d2g2 (Te2d2) | c2B2 A2D2 | d2B2 (eg)(fa) | g2B2 (TB2A2) |\
+d2g2 (Te2d2) | c2B2 A2D2 | (Bd)(^ce) (dB)(AG) | F2TE2 D4 :|
+|:\
+d2c2 (TB2A2) | ^G2A2 B2E2 | c2B2 (TA2G2) | F2G2 A2D2 |\
+(GB)(Ac) (Bd)(ce) | (dg)(fa) (ge)(dc) | B2TA2 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+g4 c'2b2 | a2g2 f2d2 | b2g2 c'2a2 | b2g2 d'2d2 |\
+g4 c'2b2 | a2g2 f2d2 | g4 f2g2 | a2A2 d4 :|
+|:\
+z4 d4 | e6 ^g2 | a6 c2 | d6 f2 |\
+g2f2 g2a2 | b2a2 b2c'2 | d'2d2 g4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   This Dance is with five Gentleman and four Ladies; one Gentleman stands always in
+%% the middle. NB. The Gentleman in the middle may be left out.
+%%endtext
+%%begintext align
+%%   All round: then each Gentleman takes his Partner before him at the 4 corners
+%% the Ladies facing the Gentleman in the middle, the 4 Ladies beckon with their
+%% Finger after Chasse & change Places, the Ladies always coming before the Gentlemen,
+%% all 4 Couple advance to the Gentleman in the middle & clap hands, then all return back,
+%% the Ladies beckon again and Chasse to their own Places, then advance again to the
+%% middle clap hands and fall back in their own Places, all 4 Couple gives their Partner
+%% their right hand & turns her, then the left and doe the same, then the Gentlemen
+%% do the same figure only this difference the Gentlemen Chasse contrary sides.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.

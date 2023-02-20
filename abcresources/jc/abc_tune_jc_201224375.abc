@@ -1,0 +1,36 @@
+X: 08241
+T: PANDEAN DANCE  in TEKELI
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.8 p.24 #1
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has final repeat symbol but no initial repeat; not fixed.
+N: (The first and last bar lines have 4-dot "repeat" symbols, but the 1st strain ends with a 2-dot repeat symbol.)
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 1 clef=treble middle=B
+A |:\
+d2d {e}dcd | B2B Bed | cBA ABc | d2f a2A |\
+d2d {e}dcd | B2B Bed | cBA ABc | dAF "Fine"D2 H:|
+f |\
+g2e efe | c2A ABA | a2a aba | f2d d2A |\
+{e}dcd {f}ede | {g}fef {a}gfg | aba agf | ([f3d3] [e2c2]) "D.C."A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z |:\
+dfa dfa | dgb dgb | ega ega | dfa d2z |\
+dfa dfa | dgb dgb | ega ega | dfa "D.C."d2 H:|
+z |\
+cga ega | ega ega | dfa dfa | dfa d2z |\
+[d3d'3] [c3c'3] | [=c3=c'3] [B3b3] | fgf fg^g | a^ga A2"D.C"z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across, back again,
+%% down the mid: up again,
+%% turn Corners and lead outsides.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

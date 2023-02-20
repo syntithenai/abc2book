@@ -1,0 +1,14 @@
+X: 588
+T: Tipperary   #2
+T: tiobra\.d-arainn
+R: jig, air
+:n: Command not found.
+B: O'Neill's 1850 #588
+O: F.O'Neill
+Z: John B. Walsh (walsh@math.ubc.ca)
+Q: "Lively"
+M: 6/8
+K: G
+"^A"[|] D | G>AG d>ed | G>AG F>ED | G>FG [1 E>FG | A>BG E2 :|[2 A>B{d}c | BAF G2 "^B"|: B | B>cB e>fe |
+| d>cB A2A | A>Bc [1 c>BA | BGA B2 :|[2 BAB | GEF E2 "^C"[| D/D/ | G>AG d>ed | G>AG F>ED |
+| G>FG EFG | ABG F>ED || GBd gde | dcB AHe2 | d>ed GAB | cAF G2 |]

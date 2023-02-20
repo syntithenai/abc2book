@@ -1,0 +1,18 @@
+X: 10342
+T: COL: ROBERTSON'S STRATHSPEY
+R: strathspey
+B: "Edinburgh Repository of Music" v.1 p.34 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The final E in the 1st strain was a 1/4 note; changed to fix the rhythm.
+N: The 2nd strain has a final repeat but no initial repeat; not fixed.
+M: C
+L: 1/16
+K: Em
+|:\
+{B,F}B4 TB3A B3EE3F | A3d (BAGF) (DEFG) A3d |\
+B4 TB2A2 B3de3f | d3B dBAF {F}E4 E4 :|
+e3fe2d2 BABd e4 | d3ed2B2 AFAB d2f2 |\
+e3fe2d2 (edef) g3e | d3B dBAF | E4 E2d2 |
+e3fe2d2 BABd e4 | d3ed2B2 (AFAB) d2f2 |\
+g3ef3d e3Bd3A | d3A BAGF B4 E4 :|

@@ -1,0 +1,35 @@
+X: 2
+T: Sleep, Baby, Sleep.
+C: Arr. by J. S. Fearis.
+%R: jig, waltz
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Sostenuto."
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+[A3F3] [GE2]A [GE] | [F3-C3-] [F2C2] [CC] | [A2F2] [AF] ([GE-] [AE]) [GE] | [F3-C3-] [F2C2] [CC] | [cF]> [cF] [cG] ([cA] [BG]) [AF] |
+w: 1.~Sleep, ba-*by, sleep,*  Thy fa-ther watches* his sheep;* Thy moth-er is shak-ing the
+w: 2.~Sleep, ba-*by, sleep,*  The large stars are* the sheep;* The lit-*tle stars are the
+w: 3.~Sleep, ba-*by, sleep,*  Thy Sav-ior loves* His sheep;*    He is* the Lamb* of
+%
+[d2F2] [dF] [c2F2] [A/-F/-] [A/F/] | [B2E2] [B/-E/-] [B/E/] [BG][AF] [GE] | [A2F2] [cA] [c3A3] | [A3F3] [GE2]A [GE] | [F3-C3] [F2C2]z |]
+w: dream-land tree, And* down falls a lit-*tle dream on thee;   Sleep, ba-*by, sleep.*
+w: lambs, I guess,  And the bright moon* is* the shep-herd-ess; Sleep, ba-*by, sleep.*
+w: God on high,     Who* for our* sakes* came down to die;      Sleep, ba-*by, sleep.*
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=D
+[|\
+[c3F3] [BC2]c [BC] |  [A3-F3-] [A2F2][AF] | [c2F2][cF] ([BC-] [cC]) [BC] | [A3-F3-] [A2F2][AF] | [AF]>[AF] [BF] [c-F-] [cF] [cF] |
+[B2B2][BB] [c2A2][c/-F/-] [c/F/] | [c2G2][c/-G/-] [c/G/] [c2C2][cC] | [c2F2][cF] [c2-F2][cA] | [c3c3] [BC-]c [BC] | [A3-F3-] [A2F2]z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text Arrangement copyright 1911, by the Cable Company.
+%
+%%sep 5 2 300
+%%text I verily think, and am not ashamed to say that next to divinity no art is comparable to music.--Selected.
+%%sep 2 5 300

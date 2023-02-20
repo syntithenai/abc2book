@@ -1,0 +1,21 @@
+X: 1
+T: Caroline's Polka
+C: George Meikle
+R: polka
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: PDF file from Janis Dairiki 2009-2-13
+M: C|
+L: 1/8
+K: D
+(3ABc \
+| "D"d2A2 A^GA^A | "G"B2G2 "Em"G3B | "A7"A2E2 E^DEG | "D"F2D2 "A7"DABc \
+| "D"d2A2 A^GA^A | "G"B2G2 "Em"G3B | "A7"AAAA ABAG | "D"F2D2 D3B |] [K:=c]
+K: G
+[|"G"DBBB "G7"DBBB | "C"Eccc "Am"Eccc | "D"Fddc "D7"cBBA | "G"AGGF "D7"FEE_E \
+| "G"DBBB "G7"DBBB | "C"Eccc "Am"Eccc | "D"Fddc "D7"cBBA | "G"B2G2 "A7"G3A |][K:D]
+[|"D"A4 FDFA | "G"B2B2 "A7"A3G | "D"FAAA "Bm"DFFA | "Em"G2F2 "A7"E3A \
+| "D"A4 FDFA | "G"B2B2 "A7"A3G | "Bm"DDDE "F#m"FAGF | "Em"E2"A7"E2 "D"D3"A7"A |][K:Dm]
+[|"Dm"A4 FDFA | "Gm"B2B2 "A7"A3G | "Dm"FAAA DFFA | "Gm"G2F2 "A7"E3A \
+| "Dm"A4 FDFA | "Gm"B2B2 "A7"A3G | "Bb"DDDE "F"FAGF | "A7"E4 "Dm"DA=B^c |][K:D]
+[|"D"d2A2 A^GA^A | "G"B2G2 "Em"G3B | "A7"A2E2 E^DEG | "D"F2D2 "A7"DABc \
+| "D"d2A2 A^GA^A | "G"B2G2 "Em"G3B | "A7"AAAA ABcA | "D"d2"G"[d2G2] "D"[d2F2] |]

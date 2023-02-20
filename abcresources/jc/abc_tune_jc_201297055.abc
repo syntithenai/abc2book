@@ -1,0 +1,26 @@
+X:1
+T: Kingsail
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 28 notes)
+K:Am
+M:4/4
+L:1/16
+c8 B4 A4 |A2 B2 c4 E8 |E2 F2 G8 B2 c2 |d4 B4 G4 B4 |c8 B4 A4 |e8 E8 |E4 e4 e4 d2 c2 |B8 A8 |
+%W: A2
+% voice 1 (1 lines, 28 notes)
+c8 B4 A4 |A2 B2 c4 E8 |E2 F2 G8 B2 c2 |d4 B4 G4 B4 |c8 B4 A4 |e8 E8 |E4 e4 e4 d2 c2 |B8 A8 |
+%W: B1
+% voice 1 (1 lines, 31 notes)
+c6 d2 e4 f4 |g6 a2 g4 f4 |e4 d2 c2 g4 d4 |B4 G4 G8 |c6 d2 e4 f2 g2 |a6 b2 a4 e4 |a8 e6 d2 |c6 B2 A8 |
+%W: B2
+% voice 1 (1 lines, 30 notes)
+c6 d2 e4 f4 |g6 a2 g4 f4 |e4 d2 c2 g4 d4 |B4 G4 G8 |c6 d2 e4 f2 g2 |a6 b2 a4 e4 |a8 e8 |c6 B2 A8 ||

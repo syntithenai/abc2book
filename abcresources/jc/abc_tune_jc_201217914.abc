@@ -1,0 +1,73 @@
+%%text RJ Set Winchell's Weedwalker
+
+
+X: 1
+T: Winchell's Falls [basic tune]
+C: Noah VanNorstrand
+S: Audrey Knuth @ Roaring Jelly zoom session 2020-10-13
+S: Tunes 'N Stuff with Audrey Knuth
+S: https://drive.google.com/drive/folders/1yXGhj24P9IU-sNyqHq_582DajPWJPEqj
+N: Simplified to show the basic tune clearly.
+R: reel
+D: https://www.youtube.com/watch?v=Z3J0DkfXVX0
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+z2EF |\
+"A"ABcd ecBA | "D"F2A3 BAF | "A"E2A3 BAE | "D"F2A3 BAF |\
+"A"E2c2 cBAE | "D"F2A3 BAF | "A"EFAc "E"BAGB | "A"A4 :|
+|: ABce |\
+"E"B3c B2AB | "A"c2 e6 | "D"fa3 abaf | "A"e2c3 BA2 |\
+"E"B3c B2AB | "F#m"c2e2 cBAF | "A"EFAc "E"BAGB | "A"A4 :|
+
+
+X: 2
+T: Winchell's Falls
+C: Noah VanNorstrand
+S: Taught by Audrey Knuth @ Roaring Jelly zoom session 2020-10-13. Bowings and slurs are hers.
+S: Tunes 'N Stuff with Audrey Knuth
+S: https://drive.google.com/drive/folders/1yXGhj24P9IU-sNyqHq_582DajPWJPEqj
+R: reel
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+D: https://www.youtube.com/watch?v=Z3J0DkfXVX0
+M: C|
+L: 1/8
+K: A
+EF |\
+"A"vAB cd e(uc BA) | "D"vF2 (uA2- AB) AF | "A"vE2 (uA2- AB) AE | "D"vF2 (uA2- AB) AF |\
+"A"vE2 c2 c(uB AE) | "D"vF2 (uA2- AB) AF | "A"EF A(uc "E"BA) GB |[1 "A"vA4- uA2 :|
+[2 "A"vA4 |: (uAB) ce |\
+"E"vB3 (c B2) AB | "A"c2 e6 | ("D"vfa2) (ua- ab) af | "A"e2 (uc2- cB A2) |\
+"E"vB3 (c B2) AB | "F#m"c2 e2 cB AF | "A"EF A(uc "E"BA) GB |1 "A"A4 :|2 "A"A6 |]
+
+
+X: 3
+T: Weedwalker
+C: Andrew VanNorstrand
+O: The Great Bear Trio
+R: march, reel
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: Tunes 'N Stuff with Audrey Knuth
+S: https://drive.google.com/drive/folders/1yXGhj24P9IU-sNyqHq_582DajPWJPEqj
+S: https://www.youtube.com/watch?v=Z3J0DkfXVX0, by-ear at Roaring Jelly practice 2017-9-12.
+D: https://www.youtube.com/watch?v=Z3J0DkfXVX0
+M: C|
+L: 1/8
+K: D
+|:\
+"D"{e}vf4 {e}f3(f  | e2)d2 B2A2 | "G"{A}B3(c d2)dc | BAF2 "A7"A4 |\
+"D"{e}vf4 {e}f3(vf | e2)d2 B2A2 | "G"{A}B3(c d2)dB | "A7"AFE2 "D"D4 :|
+|:\
+"G"{A}vB4 {A}B3(B | "D"A2)F2 E2D2 | "G"{A}B4 {A}B3(B | "D"A2)F2 A4 |\
+"G"{A}uB2 {A}vB3(B AB) | "D"A2F2 E2D2 | "*1."y "A7"{D}E4 {D}E4 | "*2."y "D"D4 "*3."(uDE)FA :|
+%
+"Variants:"\
+y2 y8 | "*1."E2EF GFE2 |\
+y4    | "*2."D2 {c}d4 c2 :|\
+y8 y8 y8 y8 y8
+%%text *3. Connecting run not always played.
+% %text https://www.youtube.com/watch?v=Z3J0DkfXVX0
+
+% set: Winchell's Falls + Weedwalker
+%%text https://www.youtube.com/watch?v=Z3J0DkfXVX0

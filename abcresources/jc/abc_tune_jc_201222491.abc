@@ -1,0 +1,20 @@
+X: 06032
+T: IT'S C-C-COLD OUT!
+C: Bob McQuillen 31 Dec 81
+B: Bob's Note Book 6 #32
+%R: jig
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+e \
+| cBc Ace | aee a2e | cBc ecA | BAB c2e |\
+| cBc Ace | aee aee | faf ecA | EAB cA :|
+|: e \
+| afa bae | ecA B2e | faf ecA | BAF F2A |\
+| EAA FAA | EFA F2E | Aea ecA | BAA A2 :|
+%%begintext align
+%% 4 above 0 this morning!
+%% But it'll get colder than
+%% this later on. UG!
+%%endtext

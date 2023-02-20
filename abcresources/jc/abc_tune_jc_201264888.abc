@@ -1,0 +1,28 @@
+X: 1
+T: the Country Garden
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (72)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+g2gf e2dc | c2c2 B3c | d2G2 c2(BA) | A4 G4 :|\
+|:\
+gfge a2gf | gfge  a2gf | gfge a2gf | e4 d4 |\
+g2gf e2d2 | c2c2 B3c | d2G2 c2BA | A4 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% First Man go the Hey with the 1st and 2d Wo. .| Then take
+%% hands across and turn :| Then 1st Cu. whole figure Sides
+%% with the 2d and 3d Cu. .| Then sett sides with the 2d Cu.
+%% 1st and 2d Men take their Partners by the right Hand,
+%% then each clap their hand on their left side the next
+%% their Heart, then 1st Cu. turn down the Middle into the
+%% 2d Cu. Places proper :|
+%%endtext
+%%sep 1 8 500

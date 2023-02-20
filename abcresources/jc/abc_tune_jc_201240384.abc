@@ -1,0 +1,29 @@
+X: 392
+T: THE NEW BRIDGE DUMFRIES
+C: J. ANDERSON
+R: Reel
+B: Glen Collection p.39 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Gm
+%
+V: 1
+D |\
+G2(BG) dGBG | F2(AF) cFAF | GABc dGBG | AFcA A2G :|
+g |\
+(bg).d.B (Gd).g.b | (af)cA (Fc).f.a | (bg).d.B (Gd).g.b | agfa b(g2a) |
+bgdB GDB,G, | fcAG FCA,F | GDBG dBgB | cAFA A2G |]
+%
+V: 2
+z |\
+G2[g2d2] B2[g2d2] | f2[c'2f2] A2[f2c2] |\
+G2[g2d2] B2[g2d2] | F2[a2f2] [b2g2][bg] :|
+z |\
+G2[g2d2] B2[g2d2] | F2[a2f2] [c'2f2][a2f2] |\
+G2[g2d2] B2[g2d2] | d2[c'2a2] [b2g2][b2g2] |
+G2[g2d2] B2[g2d2] | F2[f2c2] A2c2 |\
+G2[g2d2] [b2d2][g2d2] | d2[c'2a2] [b2g2][bg] |]

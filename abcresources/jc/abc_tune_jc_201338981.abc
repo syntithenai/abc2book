@@ -1,0 +1,45 @@
+X: 1
+T: a Soldier and a Sailor
+T: a Soldier and a Sailer
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.116 #174 (232)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.199 "S 4"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the dance instructions.
+M: 6/4
+L: 1/4
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+(DF)B (Bc)d | B3 F2A | Bcd def | d3 B2c |\
+def fed | g3 G2A | Bcd dcB | f3 F2G |
+ABc c2A | F3- F2G | ABc c2=e | f3- f2 ::\
+c |\
+c>dc c2d | e3- e2f | g>_ag f2e | d3- d2e |
+f>gf e2d | c3 def | gfe dcB | A3 F2f |\
+gab a2b | b3- b2c | d>ef c2B | B3- B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. lead between the 2d Cu. then cast up and go the Figure, then
+%% meet their own Partner a Change, Sides, and cast off into the 2d Cu. Place .|
+%% The 2d Cu. do the same :| The 1st Man turn the 1st Wo. with the right
+%% Hand and go into their own Places, the 2d Cu. do the same; then clap
+%% Hands with their Partners, and the 1st Cu. cast off .| Take Hands
+%% with your Partners, and draw aside Back to Back 'till you come into
+%% your own Places again; then lead thro' and cast off :|
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. lead between the 2. then cast up and go the Figure, then meet their own Partner a Change, sides and cast off
+%% into the 2. cu. place; the 2. cu. do the same. This so the first Strain twice. The 1. man turn the 2. wo. with the right-hand
+%% and go into their own places; the 2. cu. do the same, then clap hands with their Partners, and the 1. cu. cast off. This to
+%% the second Strain once. Take hands with your Partners, and draw aside back to back till you come into your own places again;
+%% then lead through, and cast off.  This to the second Strain twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

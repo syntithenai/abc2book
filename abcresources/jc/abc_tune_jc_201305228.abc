@@ -1,0 +1,29 @@
+X: 1
+T: MacPherson's Rant
+T: MacPherson's Lament
+T: Below the Gallows Tree
+R: air
+C: James MacPherson, 1700
+N:
+N: Composed and played by James MacPherson, a robber and fiddler, shortly before he was
+N: hanged on 16 November 1700. He reportedly played the tune at the scaffold. There is a
+N: myth that he destroyed the fiddle so that nobody else could ever play it again. The
+N: truth seems to be that he offerred his fiddle to anyone in the crowd. There were no
+N: takers, possibly from fear of being considered his friend, so he smashed the fiddle
+N: and threw the pieces at the crowd. Part of the story is that the local authorities,
+N: fearing the arrival of a reprieve, advanced the clock so as to speed up his execution.
+N: The fiddle's remains are in the MacPherson Clan museum at Newtonmore. The
+N: published versions of this tune vary widely, not surprisingly for a song air.
+B: Hunter #10;  Harp & Claymore p.149;  Hardie p.115, BSFC I-15.
+Z: 1998 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D2 || "G"~G3A G2B2 | "D7"{B}A-GA-B A2E-F | "G"G3A B2A-G | "C"E4- "D7"E2D2 |
+w: Fare-well, ye dun-geons dark* and* strong,~ the* wretch-'s des-ti-*ny.*  Mac-
+   |  "G"~G3A B2AG | "D7"{B}A-GA-B A2B-A | "G"G3{c}B "C"A-GE2 | "D7"D6 Bc ||
+w: Pher-son's life will* not* be* long on* yon-der gal-*lows tree. Sae
+   || "G"{c}d3B "Em"c-BA-G | "Am"B2A2 "D7"~A2B-c | "G"d3d c-BA-G | "C"{G}E6 e2 |
+w: rant-ing-ly,* sae* wan-ton-ly, sae* daunt-ing-ly* gaed* he; He
+   |  "G"{c}d3B "Em"c-BA-G | "Am"B2A2 "D7"~A2D-E | "G"G3B "C"A-GE2 | "D7"D6 |]
+w: play'd a tune* and* danc'd~~ it round~~ be-* low the gal-* lows tree.

@@ -1,0 +1,44 @@
+X: 1
+T: Whitney's Farewell
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.89 #128 (178)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.163 "P 4"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The right edge is rather illegible, and I've done some guessing.
+N: A few illegible parts corrected by comparison with http://deriv.nls.uk/dcn30/8975/89753179.30.jpg
+N: The dance descriptions seem identical except for trivial differences in spelling and punctuation.
+M: 6/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F2 |\
+F4G2 A2B3(A/B/) | c6 F4f2 | e4d2 e2f3(e/f/) | g6- g4a2 |\
+g4a2 g4a2 | b4a2 g4f2 | g2e2f2 d4c2 | c6- c4 |]
+a2 |\
+g2a2f2 e2f2d2 | c2d2B2 A2B2G2 | F2G2A2 F2G2A2 | B6- B4c2 |\
+d4c2 d4c2 | d4c2 d4c2 | d2e2f2 f4e2 | f6- f4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man turn the 2d Wo. with his right Hand, and then turn his own
+%% Partner with his Left; then 1st Wo. turn the 2d Man with her right
+%% Hand, and her Partner with her Left .| the 1st Cu. lead thro' the 2d Cu.
+%% and cast up, the 2d Cu. lead thro' the 1st Cu. and cast off, the two
+%% Men take Hands and fall back, the two We. do the like at the same
+%% Time then all four meet and clap Hands with your Partners, and
+%% then the 1st Cu. cast off.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man turn the 2. wo. with his right-hand, and then turn his own Partner with his left; then 1.
+%% wo. turn the 2. man with her right-hand, and then turn her own Partner with her left .| The 1. cu.
+%% lead through the 2. cu. and cast up, the 2. cu. lead through the 1. cu. and cast off, the two men take
+%% hands and fall back, the two we. do the like at the same time, then all four meet and clap hands with
+%% your Partners, and then the 1. cu. cast off.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

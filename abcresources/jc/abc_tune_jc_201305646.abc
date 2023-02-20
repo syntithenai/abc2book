@@ -1,0 +1,19 @@
+X: 1
+T: Maggie's Reel
+C: Tom Anderson
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: Barbara McOwen SRS 8.4 (New Hampshire Strathspey & Reel Society collection)
+M: C|
+L: 1/8
+K: D
+%%continueall 1
+FE \
+| "D"DFAB AFED | "D"d3A BABd | "D"ABdA "Bm"BAFD | "Em"B,EEF "A7"EGFE \
+| "D"DFAB AFED | "D"defd "D7"BAFA | "G"dd2A BAFD | B,DDE "D"D2 :|
+Ac \
+| "D"defd "A7"ca^ga | "D"fdAF "G"BGFG | "D"Adcd "Bm"fdcd | Beef "A7"e2Ac \
+| "D"defd "A7"ecAF | "G"GABG "D"AdFD | "G"GABG "A7"ABcA | "D"dd2c d2 |]
+Ac \
+| "D"defd "A7"ca^ga | "D"fdAF "G"BGFG | "D"Adcd "Bm"fdcd | Beef "A7"e2FE \
+| "D"DFAB AFED | "D"defd "D7"BAFA | "G"dd2A BAFD | B,DDE "D"D2 |]

@@ -1,0 +1,47 @@
+
+X: 3
+T: Veselinovo Horo 3
+O: Bulgaria (Moesia)
+S: transcription by Patrick Yacono (2015)
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+F: https://www.youtube.com/watch?v=Y9JWo-ssdqQ
+F: https://www.youtube.com/watch?v=uvt2uRdQkmM
+N: Veselinovo is a small mountain town in east-central Bulgaria.
+L: 1/8
+M: 6/8
+P: ABAB CDD .. AB
+K: Dm
+%%staffsep 45
+"A"|:\
+"Dm"~d2z ~A2A | Add dzf |\
+~e2d "(D7)"dcB | "Gm"cBA !G2G |\
+G~B2 ~G2G | G~B2 Bzd |\
+"(C7)"!c2B BAG | "(F)"AGF "A7"GFE |
+"Dm"A,~D2 DA,D | [E^C][FD]z [FD][E^C][FD] |\
+[AF][GE][FD] [FD][E^C][DB,] | "A"[^CA,]z[DB,] ~[E2^C2][EC] |\
+[E^C][FD][GE] [AF]z[BG] | [^cA][dB][e^c] [ge][fd][e^c] |\
+[fd][e^c][dB] [ec][dB][^cA] | "Dm"~[d2F2]A [dF]z2 :|
+"B"|:\
+"Dm"([ge][a2f2]-) [a3f3]- | [a6f6] |\
+[bg][af][ge] [ge][fd][e^c] | "A7"[e^c]z[fd] ~[g2e2]A |\
+([^f^d][g2e2]-) [g3e3]- | [g6e6] |\
+[1,3 "(Dm)"[af][ge][fd] "A7"[ge][fd][e^c] | "Dm"[fd]z[ge] ~[a2f2]A :|
+[2 "A7"[bg][af][ge] [fd][e^c][dB] | [^cA][BG][AF] [GE][FD][EC] :|\
+[4 "Dm"[af][ge][fd] "A7"[ge][fd][e^c] | "Dm"~[f2d2]A "^fine"dz2 :|\
+"C"|:\
+"Dm"ABc "/A"~d2z | "D/F#"~c2z "Gm"~B2z |\
+"/D"~A2z "/G"BAG | "A7"FED ^CB,A, |
+EFG AzB | BAG "(Dm)"FED |\
+"A7"~F2z FED | ~E2^C "Dm"~D2z ||\
+"D(m)"ABc ~d2z | "D7"~dz_e ~edc |\
+"Gm"~B2z BAG | "(A)"BAG FED |
+"A"EFG AzB | BAG FED |\
+"A"~F2z FED |[1 "A7"~E2^C Dz2 :|[2 "A7"~E2^C "Dm"DEF \
+"D"|:\
+"Gm"[BG][BG][BG] [GD][BG][BG] | [BG][GD][BG] [BG][AF][GE] |
+"Dm"[AF][AF][AF] [FD][AF][FD] | [AF][FD][AF] [AF][GE][FD] |\
+"A7"[GE][GE][GE] [GE][AF][BG] | [^cA]z[e^c] [dB][cA][BG] |\
+"Dm"[AF][GE][FD] "A7"[GE][FD][E^C] |1,3 "Dm"[FD]z[GE] "D7"[A^F]z[cA] :|\
+[2,4"Dm"[FD][FD][DA,] [FD]zz :|
+%%text The 2nd B may be played an octave lower.
+%%text Many rests may be a lower "drone" (root or 5th) note.

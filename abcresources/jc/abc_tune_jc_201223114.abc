@@ -1,0 +1,22 @@
+X: 6
+T: Old Sheepface
+%C: Mr. Gray
+%R: reel
+B: Mr. Gray "24 Country Dances for the Year 1805" p.3 #2
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The "Do" in the dance directions has to 'o' elevated, with a dot underneath, so it's an abbreviation for something.
+M: C
+L: 1/8
+K: A
+|:\
+.e(cBA) F/F/F F2 | .d(BAG) A/A/A A2 |\
+(ecA).a .g(bge) | faf^d e2E2 :|
+|:\
+ecde dBcd | cecA GBGE |\
+FDBA GBed | cBAG A/A/A A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & half right & left, D.o back again, down the
+%% mid: up again, right & left at top.
+%%endtext

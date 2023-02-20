@@ -1,0 +1,32 @@
+X: 1058
+T: a Trip to Short's
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+D |\
+G2A BAG | d2c Bcd | e2E d2D | cAD B2c |\
+dcB edc | fed gfe | d^cd AGA | D3- D2 |]
+d |\
+dcB cBA | e2E E2B | cde EFG | ABc F2A |\
+d2c Bcd | efg f2e | gdg A2G | G3- G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | G3 g3 | f3 g3 | c3 B2G | F3 G2A |\
+B3 c3 | d3 e3 | a2b a2A | d3- d2 |]
+z |\
+G3 A2B | c3 ^G3 | A3- A2B | c2A d2e |\
+f3 g3 | c2A d2c | B2e d2D | G3- G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. gallop down the Middle and up to the top and cast off & turn .|
+then the 2d Cu. do the same :|
+then the 1st Cu. cross over and half figure & turn .|
+then Right Hands and Left.
+%%endtext

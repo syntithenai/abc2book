@@ -1,0 +1,47 @@
+%%text RJ Set 029 Jigs
+
+
+X: 1
+T: Money in Both Pockets
+N: RJ	J-9	D	jig
+M: 6/8
+R: jig
+K: D
+A |\
+"D"d2F "A"FEF | "D"DFA AFD | d2F "A"FEF | "D"D2f fef ||\
+"D"d2F "A"FEF | "D"DFA AFD | "Em"EFE EFG | "A"BBB B2 :|
+|: A |\
+"D"dfa afd | "A"cea ecA | "D"dfa afd | "G"g3 fga ||\
+"G"bag "D"agf | "A"ede "D"fdB | ABA AFA | "G"BBB B2 :|
+
+
+X: 2
+T: Cow-Boy's Jig, the
+I: RJ J-19 G jig
+M: 6/8
+R: jig
+K: G
+B/A/ |\
+"G"GDE G2A | Bgf gdB | "C"ABc "G"BGA | "Am"BcA "D"BGE |\
+"G"GDE G2A | Bgf gdB | "Am"ABc "D"BcA | "G"BGG G2 :|
+|: B/d/ |\
+"C"e2e e2e | egf edB | "Bm"d2d d2d | dge dBG |\
+"C"c2d e2d | "G"gdB "D7"A2d | "G"BGA "D7"BcA | "G"BGG G2 :|
+
+
+X: 3
+T: Morrison's Jig
+I: RJ J-26 E Dor jig
+M: 6/8
+R: jig
+K: Edor
+|:\
+"Em"E3 BEB | EBE "D"AFD | "Em"E3 BEB | "D"dcB AGF |\
+"Em"E3 BEB | EBE "D"AFD | "G"G2G FGA | "D"dAG FED :|
+[|\
+"Em"Bee fee | aee "D"fed | "Em"Bee fee | "D"fag fed |\
+"Em"Bee fee | bee "D"fed | edc d2A | "B7"BAG F3 |]
+[|\
+"Em"Bee fee | aee "D"fed | "Em"Bee fee | "D"faf def |\
+"G"g2g gfe | def g2d | "D"edc d2A | "B7"BAG F3 |] "Em"HE4 |]
+

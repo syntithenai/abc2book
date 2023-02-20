@@ -1,0 +1,18 @@
+X:160
+T:Cupid's Garden (Maggot Pie)
+L:1/4
+M:3/2
+%%MIDI gchord fcHcfc
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=110
+K:G
+P:A
+|: "G"d2 "/"G2- "C"GA | "D7"D2- "/"DB/c/ "G"dg | "Am"ea- "A7/C#"ag "D7"fd | "G"g2 "/"B2- "Bm"Bd | "Em"G2- "/"GA/B/ "Am"cB | "D7"Ad- "/"dc "G"BG :|
+P:B
+|: "C"e2 "G"d2 "Am"c2 | "G"B2- "/"Bf "C"ge | "G"d2 "Am"c2 "G"B2 | "D"A2- "/"AF "D7"DE/F/ |\
+M:2/2
+"G"GF/G/ "Em"EF/G/ | "Am"AG/A/ "D7"FG/A/ | "G"BA/B/ "Em"GA/B/ | "Am"cB "D"Ad |
+M:3/2
+%%MIDI gchord fcHcfc
+"Em"g2 "D"f2 "C"e2 | "D"d2- "/"da "C"bg | "Am"ea- "/"ag "D7"fd | "G"B2- "D7"Bd "G"g2 :|

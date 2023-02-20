@@ -1,0 +1,24 @@
+X: 20174
+T: the BRAES OF LOCHEIL
+Q: "Very slow."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.17 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The repeat notation is completely confused in this tune; semi-fixed in a simple way.
+M: 3/4
+L: 1/8
+K: Am
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |:\
+E4 ^G2 | A4 c>d | {c2}e4 c2 | d2 e2 g2 |\
+{f2}e4 G2 | A4 c2 |\
+[1 {Bc}d4 (cB) | {B2}e4 A2 :|\
+[2 {Bc}d4 c2 | B2 e2 |]
+|: B>A |\
+G E3 ^G2 | A4 ce | a3 e g2 | d4 f2 |\
+[1 {f2}e4 d>c | B2 e2 A2 | G E3 ^G2 | A4 :|\
+[4 e4 d>B | c2 e2 Ha3 | B e3 ^G2 | {B2}A4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

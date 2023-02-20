@@ -1,0 +1,29 @@
+X: 1
+T: Essex Building
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.120 #180 (240)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g |\
+e>dc dcB | c2c c>de | c2c c>de | d2d d2g |\
+e>dc dcB | c2c c>ef | ^fdg g>a^f | g3- g2 |]
+d |\
+B>AG B>AG | d2d d>ef | e>dc e>dc | f2f f>ga |\
+dec c>dB | c3- c2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu. double Hands and turn down the Middle to the 2d proper, and
+%% then all four turn S. then all four Hands abreast, (the 1st Man on the
+%% Outside left, and the 1st Wo. on the Outside right of the 2d Cu.) and
+%% lead to the Presence, then the 1st Cu. double Hands and turn to the 2d
+%% proper, then the 1st Cu. single Hands and lead up, and cast off to the 2d
+%% proper, then all four sett their Backs, and take Hands and turn, 'till
+%% the 1st Cu. is 2d proper.
+%% [CCDM1]
+%%endtext
+%%sep 1 8 500

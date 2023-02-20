@@ -1,0 +1,32 @@
+X:1
+T: Little Nightingale
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 21 notes)
+K:G
+M:4/4
+L:1/16
+d4 |d4 g4 f4 e4 |d8 B4 c2 d2 |e4 d4 c4 B4 |A8 B8 |c4 B4 A6 G2 |G12 d4 |
+%W: A2
+% voice 1 (1 lines, 21 notes)
+d4 g4 f4 e4 |d8 B4 c2 d2 |e4 d4 c4 B4 |A8 B8 |c4 B4 A6 G2 |G12 A2 B2 |
+%W: B1
+% voice 1 (1 lines, 18 notes)
+c4 c4 c6 B2 |c12 c4 |d4 e4 =f4 g4 |e8 d4 e2 d2 |c4 B4 F4 B4 |
+%W:
+% voice 1 (1 lines, 19 notes)
+c8 B8 |A4 d4 c4 B4 |A4 F4 G4 A4 |B2 A2 B2 c2 A6 G2 |G12 A2 B2 |
+%W: B2
+% voice 1 (1 lines, 18 notes)
+c4 c4 c6 B2 |c12 c4 |d4 e4 =f4 g4 |e8 d4 e2 d2 |c4 B4 F4 B4 |
+%W:
+% voice 1 (1 lines, 17 notes)
+c8 B8 |A4 d4 c4 B4 |A4 F4 G4 A4 |B2 A2 B2 c2 A6 G2 |G12 ||

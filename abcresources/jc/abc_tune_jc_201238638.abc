@@ -1,0 +1,27 @@
+X: 31062
+T: COTILLION No. 15. WARREN SETT tune 2
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.106 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8	% Actually, there is no time signature in this tune
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+B |\
+d^cd B2G | F2A c2e | e2d d2c | c3 B3 |\
+d^cd B2G | F2A B/c/d/e/f/g/ | gfe dcB | A3 G2 H|]
+e/f/ |\
+gfg dcB | e2e g2g | dcB ABd | ddd dcd |\
+gfg dcB | e2e g2g | dcB AGF | GGG "^D.C."G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

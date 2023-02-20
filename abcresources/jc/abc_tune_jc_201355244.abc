@@ -1,0 +1,26 @@
+X:1
+T: Zealand
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 165
+%W: A1
+% voice 1 (1 lines, 35 notes)
+K:G
+M:6/8
+L:1/16
+G2 |G4 d2 d4 e2 d6 B2 A2 B2 c2 d2 B2 A2 G2 F2 G6 G4 G2 |A4 B2 c2 A2 d2 B6 A4 f2 g2 a2 g2 e2 d2 ^c2 d6d4 G2 |
+%W: A2
+% voice 1 (1 lines, 33 notes)
+G4 d2 d4 e2 d6 B2 A2 B2 c2 d2 B2 A2 G2 F2 G6 G4 G2 |A4 B2 c2 A2 d2 B6 A4 f2 g2 a2 g2 e2 d2 ^c2 d6d4
+%W: B1
+% voice 1 (1 lines, 37 notes)
+g2 |f2 g2 e4 f2 g6 B2 A2 B2 c2 B2 c2 B2 c2 d2 e6 d4 e f g2 |f2 g2 B2 c2 d2 G4 G2 A4 B2 d2 c2 B2 A2 G2 F2 G6G4
+%W: B2
+% voice 1 (1 lines, 37 notes)
+g2 f2 |g2 e4 f2 g6 B2 A2 B2 c2 B2 c2 B2 c2 d2 e6 d4 e f g2 f2 |g2 B2 c2 d2 G4 G2 A4 B2 d2 c2 B2 A2 G2 F2 G6G4 ||

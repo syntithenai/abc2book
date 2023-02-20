@@ -1,0 +1,24 @@
+X: 31403
+T: COTILLION No. 32. ISLE OF SHOALS' SETT tune 3
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.140 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The D.C. at the end of strain 1 is a bid odd. Perhaps it should be a fermata?
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+g4 c'geg | gfaf d4 | fedc BcdB | dcec GGce |\
+g4 c'geg | gfaf d4 | fedc BcdB | c2c2 "^D.C."c4 |]
+gc~c2 ec~c2 | fadf ecc2 | gcc2 Gcc2 | dfed c2c2 ::\
+GEFD  ECEG | FAdf ecc2 | GEFD EGce | df ed d2c2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 right and left,
+%% balance and swing round.
+%% Next 2 right and left, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

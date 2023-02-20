@@ -1,0 +1,30 @@
+X: 30841
+T: COTILLION No. 4. COQUETTE SETT tune 1
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.84 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Strain 3 has only 7 bars.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+f>a |\
+f3de3c | (ec).d.B A2FG | A2fe d2fe | (fa).g.f .e2(fa) |\
+f3de3c | (dc).d.B A2FG | A2f2 edef | d2f2d2 H:|
+cd |\
+e2c2A2a2 | f2d2A2f2 | efed cdcB | (AB).A.G .F2(cd) |\
+e2c2A2a2 | f2d2A2f2 | (ef).g.e dcBA | (e4 "^D.C."d2) |]
+cd |\
+(ef).e.d (cd).c.B | (AB).A.G (FG).F.E | .D.E.F.G .A.B.c.d | edcB .A.G.F.E |\
+(ef).e.d (cd).c.B | (AB).A.G (FG).F.E | DEFG AB"^D.C."cd |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 right and left,
+%% balance 4,
+%% ladies chain,
+%% promenade 4.
+%% Side couples the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

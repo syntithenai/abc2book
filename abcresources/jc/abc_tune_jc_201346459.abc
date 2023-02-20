@@ -1,0 +1,26 @@
+X:1
+T: Trip to Highgate
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 150
+%W:           A1
+% voice 1 (1 lines, 36 notes)
+K:G
+M:6/8
+L:1/16
+G2 |G4 B2 B4 d2 d4 g2 g4 d2 e2 d2 c2 B2 A2 G2 F2 G2 A2 A4 G2 |G4 B2 B4 d2 d4 g2 g4 d2 e2 d2 c2 B4 A2 G6G4 G2 |
+%W:         A2
+% voice 1 (1 lines, 35 notes)
+G4 B2 B4 d2 d4 g2 g4 d2 e2 d2 c2 B2 A2 G2 F2 G2 A2 A4 G2 |G4 B2 B4 d2 d4 g2 g4 d2 e2 d2 c2 B4 A2 G6G4 d2 |
+%W:         B1
+% voice 1 (1 lines, 35 notes)
+d4 D2 D4 c2 c4 C2 C4 c2 B4 A2 G2 F2 G2 A2 D2 D2 D4 d2 |d4 D2 D4 c2 c4 C2 C4 c2 B2 A2 G2 A2 G2 F2 G6G4 d2 |
+%W:         B2
+% voice 1 (1 lines, 34 notes)
+d4 D2 D4 c2 c4 C2 C4 c2 B4 A2 G2 F2 G2 A2 D2 D2 D4 d2 |d4 D2 D4 c2 c4 C2 C4 c2 B2 A2 G2 A2 G2 F2 G6G4 ||

@@ -1,0 +1,16 @@
+X: 796
+T: Kitty in the Lane
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #796
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0796/oneill-1001-0796-1.abc
+M: C|
+L: 1/8
+K: Dmix
+"^A"\
+[| dcA(B cB)cA | GEDE c2(Bc) | dcA(B cB)c(A | GE)cE (ED)D2 ||
+|| dcA(B cB)cA | GEDE c2(Bc) | dc(AB cd)e(d | cA)GE (ED)D2 |]
+"^B"\
+[| Add(g f2)ed | cde(f gf)gA | Add(g fg)ed | cde(g fd)dc ||
+|| Add(g f2)ed | cde(f g2)fg | afg(e fd)e(d | cA)GE (ED)D2 |]

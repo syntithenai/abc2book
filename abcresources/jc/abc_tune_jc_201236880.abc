@@ -1,0 +1,17 @@
+X: 2343
+T: I winna gae do bed, untill I'm Married.   a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.2 p.34 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+g | (f/g/a) A>B ABd.F | TE>DEF {F}B3g | (f/g/a) A>B ABdF | E>DEF [A3D3] :| e | f2fd g2ge | f2fd TB2de |
+f2fd g2ge | (f/g/a) e>f d3e || f2fd g2ge | f2fd B2de | (.f.f) fd (.g.g) ge | (f/g/a) ef d3 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d2d2 d2d2 | e2f2 g2g2 | f2d2 d2d2 | A2A2 d3 :| z | d2d2 e2c2 | d2f2 g2G2 |
+d2d2 e2c2 | d2A2 D2d2 || d2d2 e2c2 | d2f2 g2G2 | d2d2 e2c2 | d2A2 D2D |]

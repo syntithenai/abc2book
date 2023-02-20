@@ -1,0 +1,24 @@
+X:1
+T:Castle Dangerous  "St. Ann's Version"
+M:3/4
+L:1/8
+Q:80
+C:James Haugh
+S:Retreat
+K:HP
+|1 {Gdc}|2 {gde}d3/2e/2{gfg}f2{ag}a2 | \
+{fg}fd{g}G2{d}B2 | \
+{gde}d2{GBG}A2{Gdc}d2 |
+{g}fa{ef}e4 | \
+{Gdc}d3/2e/2{gfg}f2{ag}a2 | \
+{fg}fd{g}G2{d}B2 |
+{gde}d2{GBG}A2{gfg}f2 | \
+{gf}g{a}c{Gdc}d2{gdG}d2 :: \
+{g}f3/2g/2{ag}a2{fg}fa |
+{fg}fd{g}G2{d}B2 | \
+{gde}d2{GBG}A2{Gdc}d2 | \
+{g}fa{ef}e4 |
+{g}f3/2g/2{ag}a2{fg}fa | \
+{fg}fd{g}G2{d}B2 | \
+{gde}d2{GBG}A2{gfg}f2 |
+{gf}g{a}c{Gdc}d2{gdG}d2 :|

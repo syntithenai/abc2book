@@ -1,0 +1,20 @@
+X: 10503
+T: the MAID OF SNOWDOUN
+Q: "Not too fast."
+%R: air, hornpipe, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.50 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Added missing flag to d in bar 8 to fix the rhythm.
+M: 2/4
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+B>cd>e | d>cB>A | G>FG>A | B2zF |\
+d>Bc>A B>GA>c | c>BA>G | F2zF |\
+e>dc>=B | c>=Bc>d |
+e>dc>_B | A2 zF |\
+B>dA>c | G>BF>D | E>GF>A | B2zB |\
+A>GF>B | A>GF>D | E>GF>A | B2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

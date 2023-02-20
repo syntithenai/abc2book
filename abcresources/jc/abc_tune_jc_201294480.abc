@@ -1,0 +1,24 @@
+X: 697
+T: the Jolly Seven   #3
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #697
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0697/oneill-1001-0697-1.abc
+N: Compacted via repeats and multiple endings [JC]
+N: This version is based on both parts having identical bars 1,3,5 and also identical bars 2,5.
+N: There are two different ways the compacting may be done in this tune; see the #2 version for the other.
+%m: Tn2 = (3n/o/n/ m/n/
+M: C|
+L: 1/8
+K: Am
+%%slurgraces 1
+%%graceslurs 1
+"^A"\
+|:: Tc2(ec) gcec |[1,3 Tc2(ec) dBGB \
+                :|[2 af{a}ge   dBGB \
+                :| cBAG ABcd | eaed cAA2 |]
+"^B"\
+|:: ceAe ceAe |[1,3 ceAe dBGB \
+            :|[2 af{a}ge dBGB \
+            :| cBAG ABcd | eaed cAA2 |]

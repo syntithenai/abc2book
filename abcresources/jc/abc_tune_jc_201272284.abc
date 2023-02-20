@@ -1,0 +1,26 @@
+X: 1
+T: Ed Kellogg's Quickstep
+S: From: Martial Music for the Fife
+O: Fifi 1: American Veteran Fifer 1905
+O: Fife 2: DonaldHeminitz 2005
+%R: quickstep, march
+S: http://ancients.sudburymuster.org/mus/sng/pdf/kelloggC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+% Voice 1 arranged for compactness:
+V: 1 staves=2
+[|\
+FA A2 | Bd d2 |  fd ef | dB B/c/d | FA A2 | Bd d2 |\
+fd ef | d2 d2 || FA A2 | Bdd2 | fd ef | dB B/c/d |\
+FA A2 |
+        Bd d2 |  fd ef | d2 d2 |: fa a2 | fad2 |\
+fd ef | dB B/c/d | FA A2 | Bd d2 | fd ef | d2 d2 :|
+% Voice 2 preserves original staff layout:
+V: 2
+|:\
+FA A2 | Bd d2 | fd ef | dB B/c/d | FA A2 | Bd d2 |
+fd ef | d2 d2 || DF F2 | GE F2 | AF GB | FD/A,/ D/E/F |
+DF F2 | GEF2 | AF GA/G/ | F2 F2 |: D/A,/A A/G/F/E/ | D/A,/A A/G/F/E/ |
+DF GA | FD/A,/ D/E/F | DF F2 | GE F2 | AF GA/G/ | F2 F2 :|

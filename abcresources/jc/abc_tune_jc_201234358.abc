@@ -1,0 +1,27 @@
+X: 2044
+T: the Blue Ribbon Scotish Measure
+%R: march, reel, Scots measure
+B: Niel Gow & Sons "Complete Repository" v.2 p.4 #4 (and top 2 staves of p.5)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has 3 16th-notes as the pickup; transcribed to match the (c/d/e) in bar 10. 
+M: C
+L: 1/8
+Q: "SLOWISH"
+K: F
+% - - - - - - - - - -
+V: 1 staves=2
+cB |\
+A2F2 F2GA | {A}c2G2 G2cB | A2G>F F2ag | Tf4 c2fg ||\
+(ag)fd (fd)cA | {A}d2G2 G2cB | BAGF a2ga | Tf4 f2 :|
+|: (c/d/e) |\
+(fe).d.c defg | {fg}a2g2 g2(c/d/e) | (fe).d.c defc | {B2}A4 Tf3g ||\
+(ag).f.e (fd).c.A | {A}d2G2 G2cB | (BA)GF {F}a2ga | Tf4 f2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |\
+F2f2 F2z2 | C2c2 C2z2 | F2f2 F2z2 | FAcf F2z2 ||\
+a2b2 a2f2 | b2=b2 c'2z2 | a2b2 c'2c2 | f4 F2 :|
+|: z2 |\
+[a4f8] b2ab | c'4 c2z2 | [f4A4] [f4B4] | FAcf F2z2 ||\
+a2b2 a2f2 | b2=b2 c'2z2 | a2_b2 c'2c2 | f4 F2 :|

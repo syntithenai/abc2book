@@ -1,0 +1,28 @@
+X: 1212
+T: the Highland man kiss'd his Mother.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.1 p.21 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: In V:1 bar 10 the G is missing its dot; fixed it by making it G>.B (unlike bar 2).
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+[|!p!\
+cg-Tge gcge | cg-Tge dBGB | cg-ge gcge | a>fg>e dBGB || cgge gcge | cg-Tge dBGB |
+cgTge gcge | a>fg>e dBGB |[|!f!  ceAe ceAe | ceAe (d/c/B/A/ G)>.B | ceAe ceAg |
+a>fg>e dBGB ||!f! ceAe ceAe | ceAe (d/c/B/A/ G).B | ceAe ceAg | a>fg>e dBGB |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+[|!p!\
+c'2c'2 c'2c'2 | c'2c'2 g2g2 |\
+c'2c'2 c'2e2 | f2e2 g2G2 ||\
+c'2c'2 c'2c'2 | c'2c'2 g2g2 |
+c'2c'2 c'2e2 | f2e2 g2G2 |[|\
+[a2A2][a2A2] [a2A2][a2A2] | [a2A2][a2A2] [g2G2][g2G2] |\
+[a2A2][a2A2] [a2A2][a2A2] | [f2F2][e2E2] [g2G2][g2G2] ||
+[a2A2][a2A2] [a2A2][a2A2] | [a2A2][a2A2] [g2G2][g2G2] |\
+[a2A2][a2A2] [a2A2][a2A2] | [f2F2][e2E2] [g2G2][g2G2] |]

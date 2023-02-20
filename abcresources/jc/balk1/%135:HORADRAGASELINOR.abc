@@ -1,0 +1,131 @@
+X: 135
+T: Hora Dragaselinor
+M: 2/4
+L: 1/16
+Q:1/4=144
+K:G % 1 sharps
+V:1
+%%MIDI program 110
+Ax ex dx cx                    | \
+c2 B2 c4                       | \
+Ax ex dx cx                    | \
+c2 B2 c4                       |
+Ax ex dx cx                    | \
+c2 B2 c4                       | \
+d2 c2 c2 B2                    | \
+cd B2 A4                       |
+Ax ex dx cx                    | \
+c2 B2 c4                       | \
+Ax ex dx cx                    | \
+c2 B2 c4                       |
+Ax ex dx cx                    | \
+c2 B2 c4                       | \
+d2 c2 c2 B2                    | \
+cd B2 A4                       |
+x2
+% B
+%%MIDI program 66
+Bc dx3                         | \
+dx Bc d2 d/2c/2d/2c/2          | \
+x2 Bc dx3                      | \
+dx Bc d2 d/2c/2d/2c/2          |
+x2 Bc dx3                      | \
+dx Bc d2 d/2c/2d/2c/2          | \
+xB cd c2 B2                    | \
+cd B2 G2 x2                    |
+x2 Bc dx3                      | \
+dx Bc d2 d/2c/2d/2c/2          | \
+x2 Bc dx3                      | \
+dx Bc d2 d/2c/2d/2c/2          |
+x2 Bc dx3                      | \
+dx Bc d2 d/2c/2d/2c/2          | \
+xB cd c2 B2                    | \
+cd B2 G2 x2                    |
+% C
+c8                             | \
+cd B2 G2 G2                    | \
+c8                             | \
+cd B2 G2 G2                    |
+c8                             | \
+cd B2 G2 G2                    | \
+c8                             | \
+cd B2 G4                       |
+c8                             | \
+cd B2 G2 G2                    | \
+c8                             | \
+cd B2 G2 G2                    |
+c8                             | \
+cd B2 G2 G2                    | \
+c8                             | \
+cd B2 G4                       |
+x
+% D
+B cB d/2c/2d/2c/2 d/2c/2d/2c/2 | \
+xB cB d/2c/2d/2c/2 d/2c/2d/2c/2| \
+xB cB d/2c/2d/2c/2 d/2c/2d/2c/2| \
+cd B2 G2 x2                    |
+xB cB d/2c/2d/2c/2 d/2c/2d/2c/2| \
+xB cB d/2c/2d/2c/2 d/2c/2d/2c/2| \
+xB cB d/2c/2d/2c/2 d/2c/2d/2c/2| \
+cd B2 G2
+V:2
+%%MIDI program 32
+A,,2 x2 A,,2 x2                | \
+E,,2 x2 E,,2 x2                | \
+A,,2 x2 A,,2 x2                | \
+E,,2 x2 E,,2 x2                |
+A,,2 x2 A,,2 x2                | \
+=F,,2 x2 =F,,2 x2              | \
+G,,2 x2 G,,2 x2                | \
+A,,2 x2 A,,2 x2                |
+A,,2 x2 A,,2 x2                | \
+E,,2 x2 E,,2 x2                | \
+A,,2 x2 A,,2 x2                | \
+E,,2 x2 E,,2 x2                |
+A,,2 x2 A,,2 x2                | \
+=F,,2 x2 =F,,2 x2              | \
+G,,2 x2 G,,2 x2                | \
+A,,2 x2 A,,2 x2                |
+% B
+G,,2 x2 G,,2 x2                | \
+D,,2 x2 D,,2 x2                | \
+G,,2 x2 G,,2 x2                | \
+D,,2 x2 D,,2 x2                |
+G,,2 x2 G,,2 x2                | \
+D,,2 x2 D,,2 x2                | \
+=F,,2 x2 =F,,2 x2              | \
+G,,2 x2 G,,2 x2                |
+G,,2 x2 G,,2 x2                | \
+D,,2 x2 D,,2 x2                | \
+G,,2 x2 G,,2 x2                | \
+D,,2 x2 D,,2 x2                |
+G,,2 x2 G,,2 x2                | \
+D,,2 x2 D,,2 x2                | \
+=F,,2 x2 =F,,2 x2              | \
+G,,2 x2 G,,2 x2                |
+% C
+C,,2 x2 C,,2 x2                | \
+G,,2 x2 G,,2 x2                | \
+C,,2 x2 C,,2 x2                | \
+G,,2 x2 G,,2 x2                |
+C,,2 x2 C,,2 x2                | \
+G,,2 x2 G,,2 x2                | \
+C,,2 x2 C,,2 x2                | \
+G,,2 x2 G,,2 x2                |
+C,,2 x2 C,,2 x2                | \
+G,,2 x2 G,,2 x2                | \
+C,,2 x2 C,,2 x2                | \
+G,,2 x2 G,,2 x2                |
+C,,2 x2 C,,2 x2                | \
+G,,2 x2 G,,2 x2                | \
+C,,2 x2 C,,2 x2                | \
+G,,2 x2 G,,2 x2                |
+% D
+C,,2 x2 C,,2 x2                | \
+G,,2 x2 G,,2 x2                | \
+C,,2 x2 C,,2 x2                | \
+G,,2 x2 G,,2 x2                |
+C,,2 x2 C,,2 x2                | \
+G,,2 x2 G,,2 x2                | \
+C,,2 x2 C,,2 x2                | \
+G,,2 x2 G,,2

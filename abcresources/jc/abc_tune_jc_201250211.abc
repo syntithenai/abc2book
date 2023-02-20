@@ -1,0 +1,40 @@
+X: 1
+T: Banks of the Ohio
+C: trad.
+R: song, march
+S: Fiddle Hell Online 2020-11-05 handout for Neil Rossi's workshop
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Simple song tune with a couple of variations
+M: 4/4
+L: 1/8
+K: D
+%%continueall 0
+% - - - - - - - - - -
+P: Vocal
+|: "D"z2D2 D2E2 | F8 - | F2D2 C2D2 | "A"E8- | E2E2 E2F2 | G8- | G2AA A2G2 | "D"F4- | F2
+w: V1:~I asked my love* to take a walk,_ to take a walk_ just a lit-tle way,_
+w: Cho:~And on-ly say_ that you'll be mine,_ and in our home_ you'll* hap-py be._
+%
+   F2 F2A2 | A8- | A2FF E2D2 | "G"G8- | G2D2 D2E2 | "D"F8- | "A"F2GG F2E2 | "D"D8- | D2z2 z4 :|
+w: and as we  walked_ a-*long we'd talk_ a-bout our com-*ing* wed-ding day.*
+w: _ Down be- side_ where the wat-ers flow,_ down by the Banks_ of the O-hi-o.*
+% - - - - - - - - - -
+%%text Fill out the melody line with chords.
+|: .[A2D2] .[A2D2].[A2E2] | [A8-F8-] | [A2F2]D2 C2D2 | [A8-E8-] | [A2E2][A2E2] [A2E2][A2F2] |\
+    [A8-G8-] | [A2G2]AA A2[A2G2] | [A8-F8-] | [A2F2]F2 F2A2 |
+    A8- | A2[A2F2] [A2E2][A2D2] | [B8-G8-] | [B2G2][A2D2] [A2D2][A2E2] |\
+	[A8-F8- | [A2F2][AG][AG] [A2F2][A2E2] | [F8-D8-] | [F2D2] :|
+% - - - - - - - - - -
+%%begintext align
+%% Now break the quarter and half notes into eighths to give it some movement,
+%% trying to keep the melody note in the same place within the measures.
+%% Add a little syncopation to it to make it bounce a little.
+%% The stacatto in the first and other measures is done close to the frog
+%% with a downbow.
+%%endtext
+|: .[A2D2] .[A2D2].[A2E2] |\
+    [A4F4] ([AF][AG])[AF][AE] | [A2F2]D2 C2D2 | ([AE][AF])[AE][AD] [A4-E4-] | [A2E2][A2E2] [A2E2][A2F2] |\
+    ([AG][AF])[AE][AF] [A4-G4-] | [A2G2]AB AG(EG) | [A8-F8-] | [A2F2].[A2F2] .[A2F2].[A2G2] |
+	[d8-A8-] | [d2A2] (3.[AF].[AF].[AF] [A2E2][A2D2] | [B8-G8-] | [B2G2](G,A, B,D)EG |\
+	([AF][AE]) [A6-F6-] | [A2F2] (3.[AG].[AG].[AG] [A2F2][A2E2] | [F8-D8-] | [F2D2] :|
+% - - - - - - - - - -

@@ -1,0 +1,21 @@
+X: 324
+T:Orlovka
+O:Serbia
+N: Ansambl Arhaika
+F: http://www.youtube.com/watch?v=cVwNiXeyshs
+M:2/4
+L:1/8
+K:Gmaj
+%%MIDI program 79 Ocarina
+|:\
+%%MIDI drum dddd 47 41 47 41 50 30 40 30
+%%MIDI drumon
+(3fdf(3agf|(3e-edd2|\
+(3fdf(3agf|(3e-edd2|\
+(3fdf(3agf|(3e-edd2|\
+(3fdf(3agf|(3e-edd2|
+%%MIDI drum dddz 47 41 47  50 30 40
+d/2f/2d/2f/2 e2|d/2f/2d/2f/2 e2|\
+d/2f/2d/2f/2 e2|e2 e2|\
+g/2b/2g/2b/2 a2|g/2b/2g/2b/2 a2|\
+g/2b/2g/2b/2 a2|a2 a2:|

@@ -1,0 +1,16 @@
+X: 1390
+T: the Wexford Lasses
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #1390
+O: McFadden
+Z: "Transcribed by Bob Safranek, rjs@gsp.org"
+M: C|
+L: 1/8
+K: D
+"^A"[|] ((3ABc) !segno!\
+|    TdcdA ((3Bcd) AF | DFAg fdec | TdBdA BdAF | GBAG FDDA ||
+|| {e}dcdA ((3Bcd) AF | DFAg fdec | defd cdec | dBAG FDHD |]
+"B"\
+[| g | fdde fgaf | gfga bgeg | fdde fgaf | gbag fdd || 
+|| g | fdde fgaf | gfga bgeg | fgaf ((3gag) bg | faeg fde!segno!c |]

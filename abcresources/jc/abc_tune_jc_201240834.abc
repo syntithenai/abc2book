@@ -1,0 +1,38 @@
+X: 4123
+T: Hoop her and gird her
+%R: jig
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.12 #3 (plus top 4 staves on p.13)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for easier proofreading.
+V: 1 staves=2
+|:\
+G2G .B/.c/.d.B | GBG TB2A | GBG GB/c/d/B/ | A=FA c2A ||\
+[G3B,3] [GB,]B/c/d/B/ | G>AB gdB | c<ac B<gB | A=FA c2A :|
+|:\
+Tg3 def | gfe dBG | Tg3 de=f | A=FA c2A ||\
+g3 def | gfe dcB | c<ac B<gB | A=FA c2A :|
+|:\
+BGG ADD | BGG ABc | BGG ADD | A=FA ABc ||\
+BGG ADD | GAB gdB | c<ac B<gB | A=FA c2A :|
+|:\
+gdB gdB | G>AB d2B | gdB gdB | A=FA c2A ||\
+gdB gdB | G>AB gdB | c<ac B<gB | A=FA c2A :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+[g3G3] [g3G3] | [g3G3] [g3G3] | [g3G3] [g3G3] | [=f3=F3] [f3F3] ||\
+[g3G3] [g3G3] | [g3G3] [g3G3] | [a3A3] [g3G3] | [=f3=F3] [f3F3] :|\
+|:\
+[g3G3] [g3G3] | [g3G3] [g3G3] | [g3G3] [g3G3] | [=f3=F3] [f3F3] ||\
+[g3G3] [g3G3] | [g3G3] [g3G3] | [a3A3] [g3G3] | [=f3=F3] [f3F3] :|\
+|: [g3G3] [d3D3] |
+[g3G3] [f3F3] | [g3G3] [d3D3] | [=f3=F3] [f3F3] ||\
+[g3G3] [d3D3] | [g3G3] [g3G3] | [a3A3] [g3G3] | [=f3=F3] [f3F3] :|\
+|: [g3G3] [g3G3] |
+[g3G3] [g3G3] | [g3G3] [g3G3] | [=f3=F3] [f3F3] ||\
+[g3G3] [g3G3] | [g3G3] [g3G3] | [a3A3] [g3G3] | [=f3=F3] [f3F3] :|

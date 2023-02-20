@@ -1,0 +1,35 @@
+X: 1
+T: Temple Change
+P: Longways for as many as will
+%R: ?
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.101 #139 (201)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.232
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F2 |\
+A4f2 dc BAGF | E2G2G2 G4B2 | A2c2f2 d2g2e2 | d4c2 c4 |] g2 |\
+agfedc fedcBA | BcdcBA G4B2 |
+A2c2f2 d2g2a2 | bagfed d4c2 |\
+f2g2a2 g2a2b2 | a2bagf gfedc2 | f2edcB A2f2A2 | G2g2e2 f4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% All four Hands half round and turn single .| Then Hands half round
+%% again to the same :| The 1st Man and 2d Wo. change Places, the 1st Wo.
+%% and 2d Man do the same; then all four Hands half round, then the 1st
+%% Cu. cast off, the 2s proper.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%    All four hands half round and turn single :| Then hands half round again to the same .|
+%% The 1. man and 2. woman change places, the 1. woman and 2 man do the same; then all four
+%% hands half round, then 1. couple cast off, the 2. proper.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

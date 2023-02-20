@@ -1,0 +1,14 @@
+X:1
+%%topspace .5cm
+T: Black Nag, The
+C: J-12
+M: 6/8
+Z:
+R: jig
+% %staffwidth 12cm
+K: Bm
+F| "Bm"BAB "A"cBc| "D"dcd "Em"ede| "F#m"fed cBc| "Bm"B3 B2 :|
+|:\
+B| "F#m"cAF cAF| cdc cde| "Bm"fdB fdB| fgf fed|
+   "F#m"cAF c2c| cdc cde| "D"fed "A"cBc| "Bm"B3 B2 :|
+%

@@ -1,0 +1,83 @@
+
+X: 1
+T: C'\'e la Luna Mezzo Mare   [G]
+O: Sicilian folk tune
+R: jig, tarantella
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+S: https://www.youtube.com/watch?v=n9FMvfvkBro [Lou Monte]
+S: https://www.youtube.com/watch?v=Pflp9MdhXSM [Patrizio Buanne]
+S: https://www.youtube.com/watch?v=yb2KwewOBEA [Dean Martin]
+S: https://www.youtube.com/watch?v=onr3Kn7UUgE [Toni di Marti]
+M: 6/8
+L: 1/8
+K: G
+%
+P: Intro/Bridge:
+[|\
+"G"B3 "(D7)"A3 | "G"G3 E2D | G2F E2D | "D7"F6 |\
+A3 G3 | F3 F2E | D2D E2F | "G"G3 z3 |]
+%
+P: Chorus/Verse:
+|:\
+"G"z3 "vamp..."z3 | z3 z3 | z3 z3 | z3 B2B |\
+"G"G2G "(D7)"A2A ||["Nx" "G"G2G "(D7)"A2A || "G"G2F E2D | "D7"D3 A,3- |
+"D7"A,3 "vamp..."z3 | z3 z3 | z3 c2c |\
+"D7"A2A A2G | F2F F2E | D2D E2F | "G"G3 z3 :|
+%
+P: Coda:
+%  "G"B3 "(D7)"A3 | "G"G3- G2B | "G7"c2B A2B |  "C"c3 z3 |: 	% Common version
+[| "G"B3 "(D7)"A3 | "G"G3  E2D |     G2F E2D | "D7"F3 z3 |:\	% Louis Tancredo's version
+["3x" "C"ccc  d2c | "G"B2B G2G | "D7"A2A G2F |  "G"G3 z3 :|
+%
+W:Re-occuring Chorus:
+W:     C'e 'la luna mezz'u mare.  Mamma mia m'a maritare.
+W:     Figlia mia a cu te dare?  Mamma mia pensace tu.
+W:          There is a moon is in the middle of the sea.  Oh mother I must get married.
+W:          Oh my daughter who will we get for you? Mother I leave it up to you.
+W:Repeating Bridge:
+W:     La lariula pesce fritt'e baccala (or Oh Mama, la la la la la la).
+W:     Uei cumpa no calamare c'eggi'accatta.
+W:          La lariula (meaningless scat), fried fish and cod.
+W:          Oh godfather, I will buy him a squid.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+T: (C'\'e la) Luna Mezzo Mare   [D]
+O: Sicilian folk tune
+R: jig, tarantella
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+S: https://www.youtube.com/watch?v=n9FMvfvkBro [Lou Monte]
+S: https://www.youtube.com/watch?v=Pflp9MdhXSM [Patrizio Buanne]
+S: https://www.youtube.com/watch?v=yb2KwewOBEA [Dean Martin]
+S: https://www.youtube.com/watch?v=onr3Kn7UUgE [Toni di Marti]
+M: 6/8
+L: 1/8
+K: D
+%
+P: Intro/Bridge:
+[|\
+"D"f3 "(A7)"e3 | "D"d3 B2A | d2c B2A | "A7"c6 |\
+e3 d3 | c3 c2B | A2A B2c | "D"d3 z3 |]
+%
+P: Chorus/Verse:
+|:\
+z3 z3 | z3 z3 | z3 z3 | z3 f2f |\
+"D"d2d "(A7)"e2e ||["Nx" "D"d2d "(A7)"e2e || "D"d2c B2A | "A7"A3 E3- |
+E3 z3 | z3 z3 | z3 g2g |\
+"A7"e2e e2d | c2c c2B | A2A B2c | "D"d3 z3 :|
+%
+P: Coda:
+[|\
+"D"f3 "(A7)"e3 | "D"d3 z2f | "D7"g2f e2f | "G"g3 z3 |:\
+["Nx" "G"g2g a2g | "D"f2f d2d | "A7"e2e d2c | "D"d3 z3 :|
+
+%X: 0
+%K:
+%%begintext align
+%% The "vamp" sections of rests go until the singer comes in.
+%% "Nx" means the singer will sing it N times, but you don't know N.
+%% The Coda may be sung after every chorus, or only the last time.
+%% Singers are often very loose with the melody.
+%%endtext

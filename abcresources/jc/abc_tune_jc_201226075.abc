@@ -1,0 +1,20 @@
+X: 10094
+T: POLWART ON THE GREEN
+Q: "Slow."
+%R: air, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.9 #4
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(AG) |\
+F3E (DE)(FG) | A4 d3e | f3e (de)(fd) | e2 E4 (AG) |\
+F3E (DE)(FG) | A4 a3g | f3e (de)(fe) | d2D2 D2 :|
+|: (ag) |\
+(fg)(a>b) {g}a2(gf) | (ef)(g>a) {a}g2(fe) | d3e (fd)(gf) | e2 E4 (AG) |\
+F3E (DE)(FG) | A4 a3g | f3e (de)(fe) | d2D2 D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

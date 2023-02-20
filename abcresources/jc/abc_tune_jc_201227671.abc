@@ -1,0 +1,33 @@
+X: 1091
+T: SEMINARY QUICK-STEP
+C: C. E. Bennett
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.109 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: The repeat notation is strange.  I've tried to replicate it, but may not have succeeded.
+N: The rhythm isn't quite correct for all part boundaries.
+U: T=!/!	% tremolo
+M: 6/8
+L: 1/8
+K: F
+c |\
+f2z c2z | d2c A2z | AAA A2A | F2G A2c |\
+f2z c2z | d2c A2z | D2E F2G | TA3 A2 :|\
+Tg3 a2g | f3 z2 ]
+c |\
+cdc c2A | A2A A2B | BcB B2G | G2G G2c |\
+cdc c2A | A2A A2d | c2c c2d | c2A AB :| c |
+f3 c3 | A3 c3 | G2A G2^F | G3 z2 |: ^G |\
+A2z Adc | G2A B2c | cAc F2c | cAc F2^F |\
+G2z GBA | Fdc A2d |
+dBd f2d | dBd F2 :| A |\
+A2G A2G | A2B c2c | f3 fed | d3 z2A |\
+B2A B2A | B2c d2c | c3 cde | f3 z2 :|
+f/g/ |\
+Ta6 | a3- a2A | d2e f2A | d2e f2e/f/ |\
+Tg6 | bag bag | Ta6 | c'ba c'ba |\
+Tg6 | g3- g2f | e6 | f3 z2 H:|
+K: Bb
+F |\
+dcB c2F | dcB c2F | FBd cAF | FBd cAF |\
+d2d c2c | B2B F2F | FBd cAF | B3 "^da Capo"z2 :|

@@ -1,0 +1,35 @@
+X: 20121
+T: ST. CLAIR'S MARCH
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" 1843 p.12 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+G>A |\
+BGBd g2f>e | d2d>d Td2(cB) | [AF][BG][cA][dB] [ec][dB][cA][BG] | [A2F2D2][AFD]>[AFD] [A2F2D2]G>A |\
+BGBd Tg2f>e | d2d>d Td2c2 | (3(BAB) (3(cBA) G2F2 | G2G>G G2 :|
+|: G>A |\
+BGBG BdcB | AFAF AcBA | BG[dB]B gdcTB | A2A>A A2G>A |\
+BGBd g2fe | d2d>d Td2c2 | (3(Bcd) (3(edc) B2A2 | G2G>G G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+GDGB e2d>c | B2B>B B2AG | FGAB cBAG | F2F>F F2z2 |\
+GDGB e2d>c | B2B>B B2A2 | (3(GFG) (3(AGF) D2C2 | B,2B,>B, B,2 :|
+|: z2 |\
+GDGD GBAG | FDFD FAGF | GDGB eBAG | F2F>F F2z2 |\
+GDGB e2dc | B2B>B B2A2 | (3(GAB) (3(cBA) G2F2 | G2G>G G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+g2g2 g4 | g2g>g g2z2 | [a4d4] [a4d4] | d2d2 d2z2 |\
+g2g2 g4 | g2g2 g2g2 | B2c2 d2D2 | g2g>g g2 :|
+|: z2 |\
+g2z2 g2z2 | d2z2 d2z2 | g2g2 g4 | d2d2 d2z2 |\
+g2g2 g2z2 | g2g2 g2z2 | B2c2 d2D2 | G2G>G G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

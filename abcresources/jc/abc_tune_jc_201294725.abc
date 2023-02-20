@@ -1,0 +1,15 @@
+X: 230
+T: the Joys of Summer   #2
+R: air, march
+%S: s:1 b:16(8+8)
+B: O'Neill's 230
+O: J.O'Neill
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Compacted by using labels and play order [JC]
+P: Play AA BA
+Q: "Moderate"
+M: C
+L: 1/8
+K: Bb
+"^A"|: F2 !segno!| B3A G2AB | c3B A2F2 | G4 A4 | B4 z2 :|\
+"^B"[|]d2 | e2d2 e2f2 | g2f2 e2zd | e2d2 c2B2 | d2c2 B2!segno!A2 |]

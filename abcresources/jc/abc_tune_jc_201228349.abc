@@ -1,0 +1,28 @@
+X: 11202
+T: HOME, SWEET HOME
+O: Sicilian air.
+Q: "Moderate."
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.120 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: All 3 strains have final repeat but no itial repeat; fixed.
+N: The rhythms of repeats aren't quite right; fixed with the initial rest in strain 3.
+M: 6/8
+L: 1/8
+K: G
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+B2c c2d | d3 B2d | {d}c2B c2A | B3 z2G |\
+B2c c2d | d3 B2d | {d}c2B c2A | G3 z2 ::\
+d |\
+g2f fed | d3 B3d |
+{d}c2B c2A | B3 z2d |\
+g2f fed | d3 B2d | {d}c2B c2A | G3 z2 ::\
+z |\
+d3 ded | c3 A2z | G2z A2z | B2z z2d |\
+g2f fed | d3 B2d | {d}c2B c2A | G3 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

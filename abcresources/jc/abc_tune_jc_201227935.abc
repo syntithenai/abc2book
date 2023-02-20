@@ -1,0 +1,24 @@
+X: 11011
+T: BRALEY'S BIRTHDAY
+C: Bob McQuillen 22 Oct 96
+B: Bob's Note Book 11 #11
+%R: reel
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The B sharp is clearly a musical joke; the notes are obviously a D7 chord.
+M: C
+L: 1/8
+K: D
+AB \
+| dABA FDFA | dfed cAdf | gfed egfe | defg a2AB |
+| dABA FDFA | dfed cAgf | efed ceag | f2d2 d2  :|
+|: fe \
+| dfaf gfed  | cea2 afdc | Bdga gfed | efec A2AG |
+| FAdf afd^B | Bega g2ed | cAdf eAag | f2d2 d2  :|
+%%begintext align
+%% Don Braley
+%% is a great fiddler who lives over in East
+%% Concord, and he's got a birthday coming up the
+%% 1st of November. Besides that, he's a real good friend,
+%% so doesn't that make him rate a tune? I think so!
+%% Happy Birthday, Don!
+%%endtext

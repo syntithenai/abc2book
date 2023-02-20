@@ -1,0 +1,18 @@
+X: 32601
+T: NEIL GOW'S RECOVERY STRATHSPEY
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.260 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The final B, notes are dotted, but the pickups are 8th notes. Fixed by removing the dots.
+M: C|
+L: 1/16
+K: Bb
+uE2 |\
+(DEF2) (F3d) (dc)BA B4 | (GAB2) (F3D) EC3C3E |\
+(DEF2) F3d (dc)BA (B3F) | (GAB2) (F3{GF}E) DB,3B,2 :|
+uf2 |\
+(d3f)(B3f) dB3B3_a | (g3e)(f3d) ec3c3f |\
+(d3f)(B3f) dB3B3_a |(g3e)(f3e) dB3B3f |
+(d3f)(B3f) dB3B3_a | (ge3)(f3d) ec3c3e |\
+df3(cd3) (Be3)d3c | BG3(F3E) "_Segue Reel."(DB,3)B,2 "^D.C."|]

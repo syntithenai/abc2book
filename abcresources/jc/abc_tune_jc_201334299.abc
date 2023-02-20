@@ -1,0 +1,122 @@
+% Sharp Scales: G, D, A, E, B, F#, C#
+% Flat Scales: F, Bb, Eb, Ab, Db, Gb, Cb
+
+X: 1
+T:01. C Major
+N:0 sharps/flats
+M:4/4
+L:1/4
+K:C
+C D E F | G A B c | c d e f | g a b c' || C E G c | c e g c' |]
+
+X: 2
+T:02. G Major
+N:1 sharp - F#
+M:4/4
+L:1/4
+K:G
+G A B c | d e f g || G B d g |]
+
+X: 3
+T:03. D Major
+N:2 sharps - F#, C#
+M:4/4
+L:1/4
+K:D
+D E F G | A B c d || D F A d |]
+
+X: 4
+T:04. A Major
+N:3 sharps - F#, C#, G#
+M:4/4
+L:1/4
+K:A
+A B c d | e f g a || A c e a |]
+
+X: 5
+T:05. E Major
+N:4 sharps - F#, C#, G#, D#
+M:4/4
+L:1/4
+K:E
+E F G A | B c d e || E G B e |]
+
+X: 6
+T:06. B Major
+N:5 sharps - F#, C#, G#, D#, A#
+M:4/4
+L:1/4
+K:B
+B c d e | f g a b || B d f b |]
+
+X: 7
+T:07. F# Major
+N:6 sharps - F#, C#, G#, D#, A#, E#
+M:4/4
+L:1/4
+K:F#
+F G A B | c d e f || F A c f |]
+
+X: 8
+T:08. C# Major
+N:7 sharps - F#, C#, G#, D#, A#, E#, B#
+M:4/4
+L:1/4
+K:C#
+C D E F | G A B c || C E G c |]
+
+X: 9
+T:09. F Major
+N:1 flat - Bb
+M:4/4
+L:1/4
+K:F
+F G A B | c d e f || F A c f |]
+
+X: 10
+T:10. Bb Major
+N:2 flats - Bb, Eb
+M:4/4
+L:1/4
+K:Bb
+B c d e | f g a b || B d f b |]
+
+X: 11
+T:11. Eb Major
+N:3 flats - Bb, Eb, Ab
+M:4/4
+L:1/4
+K:Eb
+E F G A | B c d e || E G B e |]
+
+X: 12
+T:12. Ab Major
+N:4 flats - Bb, Eb, Ab, Db
+M:4/4
+L:1/4
+K:Ab
+A B c d | e f g a || A c e a |]
+
+X: 13
+T:13. Db Major
+N:5 flats - Bb, Eb, Ab, Db, Gb
+M:4/4
+L:1/4
+K:Db
+D E F G | A B c d || D F A d |]
+
+X: 14
+T:14. Gb Major
+N:6 flats - Bb, Eb, Ab, Db, Gb, Cb
+M:4/4
+L:1/4
+K:Gb
+G A B c | d e f g || G B d g |]
+
+X: 15
+T:15. Cb Major
+N:7 flats - Bb, Eb, Ab, Db, Gb, Cb, Fb
+M:4/4
+L:1/4
+K:Cb
+C D E F | G A B c || C E G c |]

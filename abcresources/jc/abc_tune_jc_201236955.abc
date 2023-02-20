@@ -1,0 +1,28 @@
+X: 2384
+T: Good Night and Joy be wi' ye a' 
+%R: reel, march
+B: Niel Gow & Sons "Complete Repository" v.2 p.38 #4
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "SLOWISH"
+K: C	% and Am
+% - - - - - - - - - -
+% Voice 1 formatted for regularity.
+V: 1 staves=2
+ed |\
+c2~c2 G3c | A2A2 a3g |\
+(eg).a.g egag | e2c2 c2 :| ze |\
+{e}dcde {e}d2cA | GAcd {cd}e2dc |
+~dcde ~fefg | {fg}a2d2 d3e ||\
+f>efg {fg}a2gf | edef {ef}g2fe |\
+(de).f.a (g<e)d>e | c2[A2E2C2] [A2E2C2] |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z2 |\
+c2c'2 c2e2 | f2F2 f2e2 | c2z2 c2z2 | c2e>g c'2 :| z2 |\
+[g4G4] [f4F4] | [e2E2][d2D2] [c4C4] |
+[B3B,3][cC] [d3D3][eE] | [f2F2][a2A2] [g2G2]z2 ||\
+[d2D2][e2E2] [f2F2][b2B2] | [c'2c2][d'2d2] [e'2e2][c'2c2] |\
+[d'4d4] e'2e2 | a2e2 A2 |]

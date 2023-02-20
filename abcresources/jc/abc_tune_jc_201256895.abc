@@ -1,0 +1,49 @@
+X: 1
+T: Britain's Glory   [D]
+O: Playford 1710
+S: Tom Roby 2015-2-25
+R: slow jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+Q: "Cantabile"
+M: 6/4
+L: 1/4
+K: D
+D |\
+"D"DEF "G"G2B | "D"AFA d3 | "D"f>gf "G"e2d | "Em"efe "A"cBA |
+"D"DEF "G"G2B | "D"AFA d3 | "D"f>gf "E7"e2d | "A"e3- "A7"e2 :: f/g/ |
+"D"a2A "Bm"d2c | "G"B2g "A"e>dc | "D"d2c "Bm"B2A | "Em"G2e "A7"c>BA |
+"D"f>ga/b/ "G"g2f | "Em(A7)"e>fg/a/ "A7(D)"f2e | "G"d>ef/g/ "A7"e2d | "D"d3- d2 :|
+
+%%sep 1 1 500
+X: 1
+T: Britain's Glory   (C)
+O: Playford 1710
+S: Tom Roby 2015-2-25
+R: slow jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+Q: "Cantabile"
+M: 6/4
+L: 1/4
+K: C
+C |\
+"C"CDE "F"F2A | "C"GEG c3 | "C"e>fe "F"d2c | "Dm"ded "G"BAG |
+"C"CDE "F"F2A | "C"GEG c3 | "C"e>fe "D7"d2c | "G"d3- "G7"d2 :: e/f/ |
+"C"g2G "Am"c2B | "F"A2f "G"d>cB | "C"c2B "Am"A2G | "Dm"F2d "G7"B>AG |
+"C"e>fg/a/ "F"f2e | "Dm(G7)"d>ef/g/ "G7(C)"e2d | "F"c>de/f/ "G7"d2c | "C"c3- c2 :|
+
+%%sep 1 1 500
+X: 1
+T: Britain's Glory   (Bb)
+O: Playford 1710
+S: Tom Roby 2015-2-25
+R: slow jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+Q: "Cantabile"
+M: 6/4
+L: 1/4
+K: Bb
+B, |\
+"Bb"B,CD "Eb"E2G | "Bb"FDF B3 | "Bb"d>ed "Eb"c2B | "Cm"cdc "F"AGF |
+"Bb"B,CD "Eb"E2G | "Bb"FDF B3 | "Bb"d>ed "C7"c2B | "F"c3- "F7"c2 :: d/e/ |
+"Bb"f2F "Gm"B2A | "Eb"G2e "F"c>BA | "Bb"B2A "Gm"G2F | "Cm"E2c "F7"A>GF |
+"Bb"d>ef/g/ "Eb"e2d | "Cm(F7)"c>de/f/ "F7(Bb)"d2c | "Eb"B>cd/e/ "F7"c2B | "Bb"B3- B2 :|

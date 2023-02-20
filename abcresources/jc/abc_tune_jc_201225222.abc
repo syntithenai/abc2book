@@ -1,0 +1,26 @@
+X: 091
+T: Short Apron
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.9 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F	% Each strain ends in Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+f |\
+cAA fAA | aAA cGG | cAA fAA | aAc d2f |\
+cAA fAA | aAA cGG | AGF fga | gec d2 :|
+|: c |\
+Acd cAF | (A/B/c)A cGc | A(B/c/d) cAF | f>(gf/e/) d2c |\
+Acd cAF | (A/B/c)A cGc | AGF f>ga ge^c d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a3 a3 | a3 g3 | a3 a3 | a3 a3 |\
+a3 a3 | a3 g3 | f3 f3 | e3 d2 :|
+|: z |\
+f3 f3 | c3 c3 | f3 f3 | d3 d3 |\
+f3 f3 | f3 g3 | f3 f3 | e3 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

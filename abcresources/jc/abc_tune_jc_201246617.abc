@@ -1,0 +1,32 @@
+X:16
+T:The Amherst Assembly
+C:Colin Hume, 1996
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=110
+%%MIDI chordname dim 0 3 6 9
+K:G
+%%textfont Times-Roman-Bold 20
+%%center Play 3 x ABCD, then AZ.
+P:A
+"G"G2 "D/F#"d>c | "Em"B2- "Em/D"BD | "C"EF Gc | "G/D"B2 "D"A2 |\
+"G"G2 "D7/F#"B>A | "Em"G2- "Em/D"GD | "C"CB, "Am"A,G, | "D"D2- "D7"D2 |
+P:B
+"G"G2 "D/F#"d>c | "Em"B2- "Em/D"BA | "C"G2 "E7/B"e>d | "Am"c2- "Am/G"cB |\
+"D/F#"A2 "D"d>c | "Em"BA "G/D"GD | "C"E<G "D"G>F | "G"G3 [K:D] [M:6/8] ||
+P:C
+L:1/8
+Q:3/8=110
+P:C
+AG | "D"F2D A2D | "GG"BAG "A"ABc | "Bm"d2F "/"FGA | "G"B3 "A"A3 |\
+"Bm"d2d "A"cBA | "G"B2B "D/F#"AGF | "Em"GAG "D"FED | "A/C#"E3 "A7"zFG |
+P:D
+"D"A2A "/"FED | "A"E2F "/"G2A | "G"B2c "/"dcB | "A"c2d "/"e2f |\
+"G"gba "Em"gfe | "G#dim"dcB "D/A"A2B | "A"cBA "A7"GFE | "D"D3 "D7"D3 [K:G] |
+L:1/4
+M:2/2
+Q:1/2=110
+P:Z
+"G"G2 "D/F#"d>c | "Em"B2- "Em/D"BA | "C"G2 "E7/B"e>d | "Am"c2- "Am/G"cB | "D/F#"A2 "D"a>g | "D"fe "D7"dc |
+"G"B<d "C"e>c | "D"d>A "Em"B<G | "D"A2 "/"d>c | "Em"BA "G"GD | "C"E<G "D7"B>A | "G"G4 |]

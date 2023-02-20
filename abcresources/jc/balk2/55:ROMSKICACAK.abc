@@ -1,0 +1,18 @@
+X: 355
+T:Romski Cacak
+O:Bulgaria
+M:6/8
+L:1/8
+Q:1/4=300
+P:AABBCCBBDD
+K:G
+P:A
+  Az2       |:A2B cz2 |c2B Bz2     |B2A Az2    |A2G Gz2    |\
+  [1 G2F AGA|Az2 Az2  :| [2 G2F AGF|Fz2    z3  |
+P:B
+|:DF2 DAA   | DAA GFE | FGA GFE    | [1 F2G A3 :| [2 F2G F3|
+P:C
+|:dd2 AA2   |B2zB2z   |A2zGFE      | [1 F2G A3 :| [2 F2G F3|
+P:D
+|:dde d3    |ed^c Bc2 |Acc Acc     |ecB c2A    |\
+  A^GG FED  |DB,C DEB,| AB,B A^GG  |FFF EBE    :|

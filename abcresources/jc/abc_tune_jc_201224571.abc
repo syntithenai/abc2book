@@ -1,0 +1,117 @@
+%%text RJ Set 084 The Great Cape Breton Set!
+
+
+X: 1
+T: Miss Susan Cooper
+C: Ronnie Cooper
+I: RJ R-96
+R: reel
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: (3ABc |\
+"D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde "Bm"fa^ga | "Em"=g2fd "A7"eAce ||\
+"D"dfed "G"B2dB |
+"D"A2FA DAFA | "D"ABde fafd | "A7"eAce "D"d2 :: dc |\
+"Bm"Bcde fBBc | def^g "E7"a2gf |
+"A"eAce a2^ga | "Em"=g2fd "A7"eAce ||\
+"D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde fafd | "A7"eAce "D"d2 :|
+
+
+X: 2
+T: Culburnie Cottage
+C: Alasdair Fraser
+I: RJ R-166
+N: (Ask permission)
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: fe | "D"d2AF DFAF | "G"GDGA "Em"B2cB | "D"Aa^ga =gfed | "A7"ceAc egfe | "D"d2AF DFAF |
+| "G"GDGA "Em"B2cB | "D"Aa^ga "A7"=gecA | "D"d4 d2 :: fg | "D"a2fa "A7"gece | "D"dAFA d2cd |
+| "A7"ecAc eAce | "D"fdba "A7"agfg | "D"a2fa "A7"gece | "Bm"dAFA "G"d2cd | "A7"ea^ga =gecA | "D"d4 d2 :|
+
+
+X: 3
+T: Rannie MacLellan's Reel
+C: Brenda Stubbert
+R:reel
+S:http://www.cranfordpub.com
+D:In Jig Time,1994; Fiddler's Choice, Jerry Holland; Natalie MacMaster Live
+B:Brenda Stubbert's Collection
+L:1/8
+M:C|
+K:D
+|: fe |\
+"D"dBAd BAFD | "Em"E2 FE "G"DB,B,D |\
+"D"A,B,DE F2 ED | "Em"EBBA "A"B3 c ||\
+"D"defe dBAF |
+               "Em"E2 FE "G"DB,B,D |\
+"D"A,B,DE F2 dB | "A"AFEF "D"D2 :: FG |\
+"D"Addc d2 cA | "Em"Beed e2 de |
+"D"f2 af egfe | "G"dBAd "A"FEEF ||\
+"D"Dddc d2 cA | "Em"Beed e2 de |\
+"D"f2 af "G"egfe | "A"dBAF "D"D2 :|
+
+
+X: 4
+T: Brenda Stubbert's
+C: Jerry Holland
+I: RJ R-121 A Dor reel
+M: C|
+R: Reel
+K: ADor
+"^A"[|] B |\
+"Am"A/A/A BA GAAB | A/A/A B[dA] edd \
+[1,3 e | "G"G/G/G BA BGGB | "F"c2BA "G"BGG :|\
+[2,4 a | "G"gedB GABd | e2dB "Am"eAA :|
+"^B"|:: B |\
+"Am"A/A/A a2 A/A/A g2 | Aage age \
+[1,3 g | "G"G/G/G BA BGGB | "F"c2BA "G"BGG :|\
+[2   a | "G"gedB GABd | e2dB "Am"eAA :|
+"^B4"[|]\
+[4   B | "Am"A/A/A BA GAAB | A/A/A B[dA] edda \
+       | "G"gedB GABd | e2dB "Am"eAA |]
+%%text Occasionally play the B part down an octave.
+
+
+X: 5
+T: Frank's
+C: John McCusker
+I: RJ R-168
+M: C|
+L: 1/8
+R: reel
+K: A
+"^A"[| "A"AcBA "D"F2AF | "A"EFAB cABc | "D"d3f "A"ecAe |\
+[1 "D"faec "E7"(3Bcd cB :|[2 "E7"BAGB "A"A2 (3EFG ||
+"^B"[| "A"AcBA "D"F2AF | "A"EFAB cABc |\
+[1 "Bm"d2df "A/C#"ecAe | "D"faec "E7"(3Bcd cB :|\
+[2 "D"df (3fff "A"ecAc | "E7"BAGB "A"Aefg |]
+"^C"[| "A"aAAg AAfA | ef-fe cABc |\
+[1 "Bm7"d3f "A/C#"ecAc | "D"Bcde "E7"fe (3efg :|\
+[2 "D"df (3fff "A"ecAc | "E7"BAGB "A"Aefg :|
+[3 "Bm7"d3f "A/C#"eAce | "D"faec "E7"(3Bcd cB "^A2"[|\
+"A"AcBA "D"F3A | "A/C#"EFAB "A"cABc |\
+"D"d3f "A"ecAc | "E7"BAGB "A"A4 |]
+
+
+X: 6
+T: Hull's reel
+C: John Morris Rankin
+I: RJ R-169
+M: C|
+L: 1/8
+R: reel
+K: E
+ec |:\
+"E"BE "..."E2 B2 Ac | "E"BE "..."E2 "A"cBce |\
+[1,3 "E"BE "..."E2 B2 AB | "A"cBce "B7"fefg :|\
+[2,4 "F#m"fgfe c2Bc | "A"efec "B7"Bc :|
+|: ef |\
+"E"gB "..."B2 "E/B"g2fg | "A"fc "..."c2 c2Bc |\
+[1,3  "F#m"fc "..."c2 c2Bc | "B7"eB "..."B2 Bc :|\
+[2,4 "F#m"fgfe c2Bc | "A"efec "B7"Bc :|\
+["Fine" e[cf] | "E"[B2e2g2] |]
+

@@ -1,0 +1,26 @@
+X:1
+T: Reverie
+N:
+C:Brian Jenkins
+S: Play 4 times
+A:
+O:
+R:
+M:4/4
+K:A
+I:speed 200
+%W:
+% voice 1 (1 lines, 24 notes)
+K:A
+M:4/4
+L:1/16
+B12 c4 |E12 c4 |B4 B4 B4 c4 |E12 E4 |F4 G4 A4 B4 |c6 d2 e4 c4 |B4 A4 F4 c4 |B12 c4 |
+%W:
+% voice 1 (1 lines, 25 notes)
+B12 c4 |E12 c4 |B4 B4 B4 c4 |e8 f4 g4 |a6 f2 d4 f4 |e6 c2 A4 d4 |c6 E2 F4 c4 |A12 a4 |
+%W:
+% voice 1 (1 lines, 20 notes)
+g12 a4 |f12 a4 |=g4 g4 g4 a4 |f12 f4 |e12 f4 |d12 d4 |c6 B2 A4 c4 |B12 c4 |
+%W:
+% voice 1 (1 lines, 25 notes)
+B12 c4 |E12 c4 |B4 B4 B4 c4 |e8 f4 g4 |a6 A2 A4 f4 |e6 A2 A4 d4 |c6 E2 F4 c4 |A12 z4 ||

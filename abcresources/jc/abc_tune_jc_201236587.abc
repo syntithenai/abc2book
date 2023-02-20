@@ -1,0 +1,24 @@
+X: 2253
+T: Mrs Mosman's Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.25 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+F |\
+Dd2F A>dF>d | Dd2F {F}E2TE>F | Dd2F AdFD | C<A,TB,>C D2DE ||\
+Dd2F A>dF>d | Dd2F {F}E2TE>F | Dd2F A>dFA | TB>ABc {c}d2d |]
+g |\
+Tf>eda f<da>d | Tf>edf [e2A2][eA]g | Tf>eda f<da>A | TB>ABc {c}d2dg ||\
+Tf>eda f<da>d | Tf>edf {f}[e2A][eA]f/g/ | a>fg>e f>de>c | {e}d>BAF D2D |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d2d2 d2d2 | d2d2 a2A2 | d2d2 f2d2 | A2g2 f2dz ||\
+d2d2 d2d2 | d2d2 a2A2 | d2d2 f2d2 | g2a2 d2d |]
+z |\
+d'2d'2 d'2d'2 | d'2d'2 c'2a2 | d'2d'2 d'2a2 | g2a2 d2d2 ||\
+d'2d'2 d'2d'2 | d'2d'2 c'2a2 | d2e2 f2g2 | a2A2 d2d |]

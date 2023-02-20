@@ -1,0 +1,13 @@
+X: 1
+T: Wiegenlied Jig
+T: Brahms' Lullaby
+R: jig
+C: Johannes Brahms (Op.49 No.4 1868)
+M: 6/8
+L: 1/8
+K: G
+B2B \
+|   "G"d3 B2B |  "G"d3 B2d |  "C"g3      f2e | "D7"e2d   A2B \
+|"(Am)"c3 A2B | "D7"c3 A2c | "D7"f2e     d2f | "G"g3 "G7"G2G |
+|  "C"g3  e2c |  "G"d3 B2G | "Am"c3  "D7"d2e | "G"Bd2    G2G \
+|  "C"g3  e2c |  "G"d3 B2G | "Am"cdc "D7"B2A | "G"G3 |]

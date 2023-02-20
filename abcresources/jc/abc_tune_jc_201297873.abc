@@ -1,0 +1,61 @@
+
+X: 1
+T: Se Rasplakal Star Bel Dedo
+%C: Aleksandar Sarievski?
+R: kopanica
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+D: "ayde Mori" Muammer Ketenco\uglu, Brenna MacCrimmon, Sumru A\ugiry\"ur\"uyen, Cevdet Erek
+D: https://www.youtube.com/watch?v=Cp7hHOI6b5Q
+N: Various recordings have different instrument parts for CDEF, or none at all.
+L: 1/8
+M: 11/8
+P: AB AB AB CDEF AB
+K: _E^F	% D hijaz
+P: Instr.
+"A"|:\
+"D"~D2CB, A,B,C ~D2DA, | D2GF "Cm"EDC "D"~D2DA, |\
+   ~D2CB, A,B,C ~D2DA, | DA,FA, "Cm"EDC "D"~D2Dz :|
+P: Vocal.
+"B"|: "D"C2D2 (D2E) "Gm"(FG3) | "Cm"GAGF E3 "D"F3z ::|
+w: 1.~Se Ras-pla-*kal* star* bel* de-do,
+w: 2.~Go do-gle-*da* ba-*ba* Ne-da,
+w: 3.~Mol-\vci de-*do* ne* mi* pla-\vci,
+w: 4.~Se nas-me-*al* star* bel* de-do,
+%
+|: "Cm"G2F2 (ED2) E4 | "D"F2EF "Cm"(ED2) "D"D3z |]
+w: 1.~\vSto os-to-*rel e po-*bel-*el.
+w:      ne bil ve-*\'ke az lu-*be-*nje.
+w: 2.~i na de-*do tiv-ko* du-*ma:
+w: 3.~ne-li beb-*me ni-e-* mla-*di,
+w:    se lju-bev-*me se gr-*lev-*me?
+%: 4. си прегрнал баба Неда,
+w: 4.~si pre-gr-*nal ba-ba* Ne-*da,
+w:    si ja bak-*nal ba-ba* Ne-*da.
+%
+P: Instr.
+"C"[|] "D"A4-A3-A4 | D4-D3-D4 |:\
+"D"c_BAG ~A2D FGAD | c_BAG ~A2D FGAD |\
+"D"c_BAG ~A2D FGAD | FAGF "Cm"EDC "D"~D2Dz :|
+"D"|:\
+"Cm"(B,C)CG, CG,A GFEA | GFED (DE)C "D"~D2DA, |\
+"Cm"(B,C)CG, CG,A GFEA | GFED (DE)C "D"~D2Dz :|
+"E"[|] "(G)"d4-d3-d4 | "G"G4-G3-G4 |:\
+"G"dcBA ~B2G "D"~A2AG | "G"dcBA ~B2G "D"~A2AG |\
+"G"dcBA ~B2G "D"~A2AG | "Gm"GA_BG (AB)G "D"~A2Az :|
+"F"|:\
+"Gm"(A_B)BB B2d ^cBAG | "Cm"(FG)GG G2_B AGFE |\
+"Cm"(DE)EE E2A GFEA | "Cm"GFED (DE)C "D"~D2Dz :|
+%%text https://www.youtube.com/watch?v=Cp7hHOI6b5Q
+%
+% Lyrics from http://pesna.org/song.php?id=14 :
+%W: 1. Расплакал се стар бел дедо, (x2)
+%W:    што остарел и побелел.
+%W:    не бил веќе за љубење.
+%W: 2. Го догледа баба Неда, (x2)
+%W:    и на дедо тивко дума: (x2)
+%W: 3. - Молчи, дедо, не ми плачи, (x2)
+%W:    нели бевме ние млади,
+%W:    се љубевме, се грлевме?
+%W: 4. Се насмеал стар бел дедо, (x2)
+%W:    си прегрнал баба Неда,
+%W:    си ја бакнал баба Неда.

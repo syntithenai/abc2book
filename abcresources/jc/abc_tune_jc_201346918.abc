@@ -1,0 +1,66 @@
+
+X: 1
+T: Tsu der Khupe Geyn tune 3   [Cm]
+O: Joel Rubin Jewish Music Ensemble
+%P: C minor, C freygish
+S: email from Steve Rauch
+D: Beregovski's Khasene
+Z: 2020 Steve Rauch
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Cm
+"^A"|:\
+"Cm"CG, CG, | CD E2 | "G"DC DE | "Cm"^FG E/D/C |\
+"Cm"CG, CG, | CD E2 | "G"DC DE | "Cm"C4 :|\
+"^B"[|\
+"Fm"FF/F/ GA | GF3 | "Eb"E>E FG |
+F E3 |\
+"Cm"C>C DE | "Fm"F3 E | "G"(3G^FE (3EDC | "Cm"(3DEF (3EDC ||\
+"Fm"F2 GA | GF3 | "Eb"EE FG | F E3 |\
+"Cm"CC DE | "Fm"F3 E |
+"G"(3G^FE (3EDC | "Cm"C4 |]\
+[K:_B=E_A_D] "^C"|:\
+"C"c4- | c4- | cC DE | FG AB ||\
+"Fm"cB dc | "Bbm"BA cB | "Fm"AG BA | "C"GF AG ||\
+"Bbm" FE GF |
+AG BA | "C"G3 F | ED C2 :|"^D"|:\
+"C"E2 E2- | EC DE | "Fm"F2 F2- | FF GA |\
+"Bbm"BA GF | EF GA | "C"G3 F | ED C2 |
+"C"E2 E2- | EC DE | "Fm"F2 F2- | FF GA |\
+[1 "Bbm"BA GF | EF ED | "C"C4- | C2 z2 :|\
+[2 "Bbm"(3BGB (3AGF | (3EFG (3FED | "C"C4- | C2 z2 |]
+
+
+X: 2
+T: Tsu der Khupe Geyn tune 3   [Dm]
+O: Joel Rubin Jewish Music Ensemble
+%P: C minor, C freygish
+S: email from Steve Rauch
+D: Beregovski's Khasene
+Z: 2020 Steve Rauch
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Dm
+"^A"|:\
+"Dm"DA, DA, | DE F2 | "A"ED EF | "Dm"^GA F/E/D |\
+"Dm"DA, DA, | DE F2 | "A"ED EF | "Dm"D4 :|\
+"^B"[|\
+"Gm"GG/G/ AB | AG3 | "F"F>F GA |
+G F3 |\
+"Dm"D>D EF | "Gm"G3 F | "A"(3A^GF (3FED | "Dm"(3EFG (3FED ||\
+"Gm"G2 AB | AG3 | "F"FF GA | G F3 |\
+"Dm"DD EF | "Gm"G3 F |
+"A"(3A^GF (3FED | "Dm"D4 |]\
+[K:B_e^F] "^C"|:\
+"D"d4- | d4- | dD EF | GA Bc ||\
+"Gm"dc ed | "Cm"cB dc | "Gm"BA cB | "D"AG BA ||\
+"Cm" GF AG |
+BA cB | "D"A3 G | FE D2 :|"=D"|:\
+"D"F2 F2- | FD EF | "Gm"G2 G2- | GG AB |\
+"Cm"cB AG | FG AB | "D"A3 G | FE D2 |
+"D"F2 F2- | FD EF | "Gm"G2 G2- | GG AB |\
+[1 "Cm"cB AG | FG FE | "D"D4- | D2 z2 :|\
+[2 "Cm"(3cAc (3BAG | (3FGA (3GFE | "D"D4- | D2 z2 |]
+

@@ -1,0 +1,27 @@
+X: 11361
+T: CARRACK'S RANT
+Q: "Strathspey."
+%R: strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.136 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Added flag to last note of 1st strain, to fix the rhythm.
+M: C
+L: 1/16
+K: D
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2 |\
+D6 F2 AAA2 TA3F | A3Bd3A FFF2 F3D |\
+TE4 E3F BBB2 TB3A | d3fTe3d BBB2 (3(B2c2d2) |\
+D6F2 AAA2 (TA3F) | A3B{AB}d3A FFF2 F3D |
+TG3BG3B F3AF3A | TE3DE2F2 BBB2 B2 |]\
+e2 |\
+(Td4 d3)f ddd2 d3A | TB3A{c}d3A FFF2 F3D |\
+~e6 f2 eee2 e3f |
+{ef}g3fe2d2 BBB2 B3e |\
+Td4- d3f ddd2 d3A | TB3A{c}d3A F2FF TF3D |\
+TG3BG3B F3AF3A | TE3DE2F2 BBB2 B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

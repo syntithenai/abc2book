@@ -1,0 +1,36 @@
+X: 1
+T:Queen Elizabeth's March
+M:6/8
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+|: e|
+{g}A3/2{d}c/2e{ag}a2e|
+{gfg}f2a{ef}e3/2{g}c/2{d}A|
+{g}A3/2{d}c/2ea3/2e/2{g}c|  !
+{g}B/2{d}G3/2{d}B{gde}d3/2c/2B|
+{g}A3/2{d}c/2e{ag}a2e|
+{gfg}f2a{ef}e3/2{g}c/2{d}A|  !
+{g}B/2{d}G3/2{d}B{GdG}f2e|
+{g}c2{GdGe}A{GAG}A2:| |:
+e|  !
+{ag}a2e{gcd}c2e|
+{g}f/2a3/2f{gef}e3/2c/2{d}A|
+{ag}a2e{gcd}c2e|  !
+{g}B/2{d}G3/2{d}B{gde}d3/2c/2B|1
+{ag}a2e{gcd}c2e|
+{g}f/2a3/2f{gef}e3/2c/2{d}A|  !
+{g}B/2{d}G3/2{d}B{GdG}f2e|
+{g}c2{GdGe}A{GAG}A2:| [|
+e|  !
+{ag}a2e{gcd}c2e|
+{g}f/2a3/2f{gef}e3/2c/2{d}A|
+{ag}a2e{gcd}c2e|  !
+{g}B/2{d}G3/2{d}B{gde}d3/2c/2B:|2
+{g}A3/2{d}c/2e{g}A3/2d/2f|
+{g}c/2e3/2a{ef}e3/2c/2{d}A|  !
+{g}B/2{d}G3/2{d}B{GdG}f2e|
+{g}c2{GdGe}A{GAG}A2|]
+

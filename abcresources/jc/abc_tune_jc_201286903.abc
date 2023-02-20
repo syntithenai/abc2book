@@ -1,0 +1,32 @@
+X: 1
+T: Hobb's Wedding: A Kissing-Dance in the Country Wake
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.208
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat added to satisfy the "first Strain played twice" instruction.
+M: 6/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+c2g e>dc | a>gf e>ag | ^f>ed g>a^f | g3- g2 :|\
+|: d |\
+B2c (B/c/d)G | g2e c2e | f>ga (ge)c | f3- f2g |\
+a2g a2g | a2g a2g | e>dc dB2 | c3- c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. cast off half way, the 2. cu. cross over at the same time, then lead up and turn from each other, the man
+%% to the right, and the wo. to the left.  This to the first Strain played once.  Then meet the 1. cu. the wo. the man and the man
+%% the wo. then the 1. man turn the 2. wo. left-hands round, the 2. man doing the same with the 1. wo. till they come
+%% all on a row with their left shoulders to each other, the men with their faces down, and the we. with theirs up. First
+%% Strain twice.  Then pass by till you come to a Spuare, [sic] the the men with their faces down, and the we. with theirs up, then all
+%% turn S. to the left-hand with their faces to each other; then right and left three times, the 1. man beginning with the 2.
+%% wo. and the 2. man with the 1. wo.  This to the second Strain played once.  The 1. man pulls the 2. wo. back, and the 2. man
+%% puts the 1. wo. from him till the 2. cu. comes back to back, each man kissing the contrary wo. then the 1. cu. cast off, the
+%% man to the left-hand and the wo. to the right, the 2. cu. casting up both to the right hand till they come in their proper
+%% places.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,25 @@
+X: 16
+T: Graziella Mazurka
+O: Italy
+M: 3/4
+L: 1/16
+Q: 1/4=120
+K:F#m octave=1
+%%MIDI program 73
+%%MIDI bassvol 70
+%%MIDI chordprog 25
+%%MIDI bassprog 1
+%%MIDI chordvol 70
+  "F#m"f=f^f^g a2f2 c2A2|"Bm" B^AB^c d2B2 z4   |\
+  "C#"cBcd cBcd cBA^G   |"F#m" ABcA F4 z4      |
+  "F#m"cAFA cAFA cAFA   |"Bm" BcBA G4 z4       |\
+  "Bm" BAGA BAGA BAGA   | BdcB ABcA F4         |
+  "F#" f=f^f^g a2f2 c2A2|"Bm" B^AB^c d2B2 z4   |\
+  "C#"cBcd cBcd cBA^G   | "F#m"ABcA F4 z4      |
+  "B/D" BABc dcde f^efg |"C#m" agab c'bag f^edc|\
+  "F#m" dcBc dcBc agf2  |z12                   |
+|:"F#m"fz3 Bcde fgag    |agfg f/g/f/g/g2e4     |\
+  "A"dz3 FGAB cdfe      |"C#m"dec/d/c/d/ d4 c4 |
+  "C#m"cz3 FGAB dced    |"F#m"Bz3 FGAB cBdc    |\
+  [1"Bm"BAcB dced c4    |"C#m"c4 z8            :|\
+  [2"Bm"Gz3 c^Bag c^BAg |"F#m"f4z4F4           |

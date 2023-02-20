@@ -1,0 +1,22 @@
+X: 1
+T: Willie Murray
+C:
+N: reel, hornpipe
+R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+F: http://www.rspba.org/documents/map/WillieMurray.pdf (with bagpipe ornaments deleted, chords added)
+M: C|
+L: 1/8
+K: HP
+[|\
+{Gdc}d2 {e}B>c {g}d>B{G}B>c | {Gdc}d2 {g}B>c {g}d>B{g}f>e |\
+{Gdc}d2 {e}B>c {g}d>B{G}B>d | {g}c2 {GdGe}A>B {g}c>d{g}e>c |
+|\
+{Gdc}d2 {e}B>c {g}d>B{G}B>c | {g}d>B{G}B>c {g}d>B{g}f>e |\
+{Gdc}d2 {e}B>c {g}d>B{G}B>d | {g}c2 {GdGe}A>B {g}c>d{g}e>c |]
+[|\
+{Gdc}d>ag<a {fg}f>da>d | {g}f>d{c}d>e {g}f>ga>f |\
+{Gdc}d>ag<a {fg}f>da>d | {g}c2 {GdGe}A>B {g}c>d{g}e>c |
+|\
+{Gdc}d>ag<a {fg}f>da>d | {g}f>d{c}d>e {g}f>ga>f |\
+{a}g>e{g}f>c {g}e>c{ag}a2 | c2 {GdGe}A>B {g}c>d{g}e2 |]

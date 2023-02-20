@@ -1,0 +1,45 @@
+%%center Bonaparte Crossing + 3 Li'l Drummers
+%X: 0
+%T: Bonaparte Crossing + 3 Li'l Drummers medley
+%C: 081104
+%K:
+
+
+X: 1
+T: Bonaparte Crossing the Rhine
+P: piffero primo a0724
+O: John Ciaglia
+%R: reel
+S: http://ancients.sudburymuster.org/mus/med/pdf/bonaparteC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/16
+K: Am
+E2FG |\
+A3Bc2B2 A2G2E2G2 | ABcd edc2 B2z2e2fg | a2g2e2d2 c2A2G2E2 | G4 G3A G2z2E2FG |\
+A3Bc2B2 A2G2E2G2 |
+ABcd edc2 B2z2e2fg | a2g2e2d2 c2A2G2E2 | A4 A3B A4 :: e2fg |\
+a2g2efg2 a2z2e2fg | a2g2edc2 B2z2e2fg |
+a2g2e2d2 c2A2G2E2 | G4 G3A G2z2E2FG |\
+A3Bc2B2 A2G2E2G2 | ABcd edc2 B2z2e2fg | a2g2e2d2 | c2A2G2E2 | A4 A3B | A4 :|
+
+
+X: 2
+T: Three Little Drummers
+P: piffero primo a0723
+O: John Ciaglia
+%R: jig
+S: http://ancients.sudburymuster.org/mus/med/pdf/bonaparteC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Ador
+(A//B//c//d//) |\
+eAA eAA | (B/c/B/A/B) GBd | eAA eAA | {e}def (g/a/g/f/g) | eAA eAA | (B/c/B/A/B) G2d |
+def gdB | {c}BAA A2 :: z | eaa eaa | dgg dgg | eaa eaa | {e}def (g/a/g/f/g) |
+eaa eaa | dgg d2d | {e}def gdB | {c}BAA A2 :: z | eaa a^ga | bab ged |
+{ef}eaa a^ga | {e}def (g/a/g/f/g) | eaa {b}a^ga | bab ged | {e}def ~gdB | (B/c/B/A/B) A2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

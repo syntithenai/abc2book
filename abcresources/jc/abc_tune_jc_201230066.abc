@@ -1,0 +1,18 @@
+X: 132020
+T: WHA'LL BE KING BUT CHARLIE
+Q: "Scotch Jig."
+R: Jig.
+%R: jig
+B: James Kerr "Merry Melodies" v.1 p.32 s.0 #20
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+N: The alternate measures in the 2nd strain shouldn't end with a thick bar line, but abc2ps won't do it.
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+uA | vd2vc ud2ue | f2g f2e | d2c d2e | f3 ABc |\
+      c2e  f2b | a2f e2f | d2B BAF | B3 B2 |]
+%: uc|vd2vB BAF | d2B BAF | "^2"[fd2]e[dB] [eB][dA][BF] | A3 ABc |
+|: uc|vd2vB BAF | d2B BAF |[1 d2B BAF |[2 fed edB |] A3 ABc |\
+      d2e  f2b | a2f e2f | d2B BAF | B3 B2 :|
+%: | | | | ~1

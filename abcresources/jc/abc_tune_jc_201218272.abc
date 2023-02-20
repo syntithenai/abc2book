@@ -1,0 +1,51 @@
+%%text RJ Set 008 Jigs
+
+
+X: 1
+T: The Hundred Pipers
+N: RJ J-6 A jig
+M: 6/8
+R: jig
+K: A
+A/B/ |\
+"A"c2E EFE | "D"F2A A2f | "A"e2c cBA | "E"B2B B2A/B/ |\
+"A"c2E EFE | "D"F2A A2f | "A"e2c "E"BcB | "A"A2A A2 :|
+|: c/d/ |\
+"A"e2e ece | "D"f2a a2f | "A"e2c cBA | "E"B2B B2c/d/ |\
+"A"efe ece | "D"f2a a2f | "A"e2c "E"BcB | "A"A2A A2 :|
+% text Roaring Jelly  J-6
+
+
+X: 2
+T: Mr. Charles Graham's Welcome Home
+C: Wm. Gow
+N: RJ J-41 A Dor jig
+M: 6/8
+R: jig
+K: Ador
+A/G/ |\
+"Am"EAA A2G | BAA A2B | "G"d2e dBg | BGG G2A/G/ |\
+"Am"EAA A2G | BAA A2B | "G"d2e dBg | "Am"BAA A2 :|
+e |\
+"Am"a>^ga a2e | a>^ga a2e | "G"=g>bg e>ge | dBG G2e |\
+"Am"a>^ga a2e | a>^ga a2e | "G"=g>bg e>ge | d>BA "Am"A2 ||
+e |\
+"Am"a>^ga a2e | a>^ga a2e | "G"=g>bg e>ge | dBG G2A/G/ |\
+"Am"EAA A2G | BAA A2B | "G"d2e dBg | "Am"BAA A2 |]
+
+
+X: 3
+T: Fair Jenny's Jig
+C: Peter Barnes 1977
+N: RJ J-18 D jig
+M: 6/8
+R: jig
+K: D
+A |\
+"D"f3 fgf | "A"ecA ecA | "G"Bcd "A"ecA | "G"Bcd "A"e2A |\
+"D"f3 fed | "A"ecA ecA | "G"Bcd "A"e2A | ABc "D"d2 :|
+|: A |\
+"G"B3 B=cB | GBB B=cB | "D"ADD dDD | ^cDD "D7"=cDD |\
+"G"B3 B=cB | GBB B=cB | "A"AEA "A7"AB^c | "D"dAF D2 :|
+% %text 08/29/98
+

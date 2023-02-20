@@ -1,0 +1,17 @@
+X: 725
+T: the Smoky House   #2
+R: reel
+%S: s:3 b:14(6+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #725
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0725/oneill-1001-0725-1.abc
+N: Compacted via repeats and multiple endings [JC]
+N: Changed keysig to A dorian and dropped the sharps.
+M: C|
+L: 1/8
+K: Ador
+"^A"[|]\
+   AB | cAeA cAeA | BGGA BcdB |[1 cAeA cAeA | dBGB A2 :|[2 cBAB cdef | gedB A2 |]
+"^B"\
+[| ab | c'bag agef | gedc BGGb | c'bag aged | (3(efg) ab a2 ||
+|| ab | c'baf gbaf | gedc BGG2 | ABcd edef | gedB A2 |]

@@ -1,0 +1,28 @@
+X: 4232
+T: Lady Binning's Strathspey
+%R: strathspey, air
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.4 p.23 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+(A/B/c) TB>A c<e c2 | {e}d>c {c}B>A G<B E2 |\
+(A/B/c) TB>A c<e c2 |1 (A/G/F/E/ F)>G {G}A2 A,2 :|2 a/g/f/e/ Tf>g {g}a3 |]
+(e//f//g/) |\
+a>eTf>e a>A d/c/.B/.A/ | G>BE>B G>B Ef/g/ |\
+a>eTf>e a>A (d/c/)B/A/ | (3(GAB) EF/G/ A2 A ||
+(e//f//g/) |\
+a>eTf>e a>ATc>A | G>BE>B G>BE>B |\
+A>cB>d cedf | (a/g/f/e/) Tf>g a3z |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+|:\
+A2a2 A2e2 | f2^d2 e2E2 | A2a2 A4 |1 c2 dB c3z :|2c2 dB c2A |]
+z | [a2c2][a2d2] [a2c2][a2A2] | e2[d'2e2] [d'2e2][d'2e2] | [c'2a2][d'2a2] [c'2a2]a2 | e2e2 A2a || z |
+[a2c2][a2d2] [a2c2][a2A2] | e2e2 e2d'2 | c'2g2 a2d2 | e2E2 A2az |]
+N: The high d' and c' notes in the bass bars 7,8 are small in the book.

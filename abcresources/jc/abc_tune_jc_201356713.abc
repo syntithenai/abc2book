@@ -1,0 +1,49 @@
+X:16981
+T:Bockington's Pound
+C:Francis Cutting, arr. Frank Nordberg
+O:England
+R:Jig?
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/cutting-francis/cutf-bockington/cutf-bockington-gtr2.abc
+V:1 Program 1 24 up %Classical guitar
+V:2 Program 1 24 merge down %Classical guitar
+m: ~n2 = n/o/n
+m: ~n6 = n/o/(3n/o/n/-n4
+M:3/4
+L:1/8
+Q:3/4=75
+K:Ddor -8va % Fdor with capo on third fret
+V:1
+"^Capo III"d3e[d2f2]|e2~^c2A2|d3e[d2f2]|e2~^c2A2|
+V:2
+[D4A4][D2A2]|A,6|[D4A4][D2A2]|A,6|
+%
+V:1
+a3_ba2|g2e2c2|d2f2[^c2e2]|[A6d6]:|
+V:2
+F4F2|C4E2|[D4A4][A,2A2]|D2D4:|
+%
+V:1
+|:a2c'2~b2|~a6|a2c'2~b2|~a6|
+V:2
+|:A,4E,2|A,6|A,4E,2|A,6|
+%
+V:1
+abc'2~b2|abc'a~b2|~abc'd'~b2|~a6:|
+V:2
+A,4E,2|A,4E,2|A,4E,2|A,6:|
+%
+V:1
+|:a3_ba2|g2e2c2|d3e[d2f2]|e2_d2A2|
+V:2
+|:F4F2|C4E2|[D4A4][D2A2]|A,6|
+%
+V:1
+a3bc'2|b2g2e2|z2d2[A2^c2]|[^F6A6d6]:|
+V:2
+F4A2|E3^FG2|A4A,2|D2D4:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

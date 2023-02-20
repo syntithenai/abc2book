@@ -1,0 +1,19 @@
+X: 2261
+T: Cut & Dry,   a Strathspey.
+%R: strathspey
+B: Niel Gow & Sons "Complete Repository" v.2 p.26 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+Tc>BAe cAe=g | B=Gd>B G/G/G TB2 | Tc>BAe cAe=g | dB=g>B A/A/A Te2 :| c>BAg aba=g | e=gdB G/G/G TB2 |
+Tc>BAg aba=g | Te>d=g>B  A/A/A e2 || c>BAg a>bae | =gaeg BGdB | c<Ae>c d<Ba>=g | Te>d=g>B A/A/A Te2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+a2a2 a2a2 | =g2g2 g2g2 | a2a2 a2a2 | e2e2 A2A2 :| a2a2 a2b2 | =c'2d'2 =g2g2 |
+a2a2 a2c'2 | e'2e2 a2a2 || a2a2 a2a2 | b2=c'2 =g2g2 | a2a2 b2c'2 | e'2e2 a2a2 |]

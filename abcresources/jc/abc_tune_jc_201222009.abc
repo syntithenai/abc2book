@@ -1,0 +1,19 @@
+X: 53
+T: TULLOCHGORUM
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.24
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Moved grace notes at end of bar 15 to next note, for ABC software that doesn't handle trailing grace notes.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+d/c/ |\
+B>Gd>B c>=FA>c | B>Gd>G B>cd<g |\
+B>Gd>G c>=FA>B | G>gd>e c2B>A |
+G>gd>e =f>=FA>B | G>gd>g B>gd>g |\
+G>gd>e =f>=FA>B | G>gd>g B>gd>g |
+B>gd>e =f>=FA>B | d>gd>e =f>ga>g |\
+=f>ef>d c<AA>d | {ef}g>dg>b g3 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

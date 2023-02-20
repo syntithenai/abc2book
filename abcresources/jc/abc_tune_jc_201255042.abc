@@ -1,0 +1,1737 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 39
+B: RSCDS Book 39
+K:
+%%center Book39/3900-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3901
+T: Swiss Lassie
+P: Brumley Brae
+C:William McPherson
+R:Reel (8x32)
+B:RSCDS 39-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:D
+A2|"D"d2 cd AFDd|cdAF DFAF|"Em"E2 EF GFED|CEGB =cA"A7"^cA|
+   "D"d2 cd AFDd|cdAF DFAF|"Em"Begf "E7"edcB|"A7"AGFE "D"D2||
+a2|"D"^gafd Aa^ga|fdAa ^gafd|"Em"eBBe bagf|"E7"edcB "A7"A^ABc|
+   "D"d2 cd AFDd|cdAF DFAF|"G"B,DDB, "A7"A,CEG|"D"F2 "G"D2 "D"D2|]
+%%center Book39/3901-Swiss_Lassie-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3902
+T: Joie de Vivre
+P: Andersons
+C:Carol Cook
+R:Jig (8x32)
+B:RSCDS 39-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:C
+|:"C"c2 e "G7"dcB|"C"cGE "C7"CEG|"F"AGF "C"GFE|"Dm"DEF "G7"GAB|
+  "C"cde "G7"dcB|"C"cGE CEG|"F"A<fe "G7"d<gB|1 "C"c3 c2 G:|2 "C"c3 cef||
+|:"C"gec "F"afc|"C"gec cde|"Dm"fed "D7"edc|"G"dBG "G7"GAB|
+  "C"cde "G7"dcB|"C"cGE CEG|"F"A<fe "G7"d<gB|1 "C"c3 ce"G7"f:|2 "C"c3 c3|]
+%%center Book39/3902-Joie_de_Vivre-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3903
+T: The New Virginia Reel
+P: Virginia Reel
+C:Muriel A. Johnstone
+R:Reel (3x32) See original book for complete arrangement.
+B:RSCDS 39-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:G
+|:d2|"G"G2Bd g2d2|"D"bagf "G"g2d2|"C"ecge "G"dBgd|"Am"cBAG "D7"AcBA|
+     "G"G2Bd g2d2|"D"bagf "G"g3f|"C"eceg "D7"fdfa|"G"g2b2g2||
+  f2|"G"g2dB GdBG|"Am"cBAG "D"A2f2|"G"g2GA BG"Em"dc|"D"B2A2A3 d|
+     "C"ecge "G"dBgd|"Am"cBAG "D"GFED|"C"ECEG "D7"FDFA|"G"G2B2G2:|
+%%center Book39/3903-New_Virginia_Reel-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3904
+T: Cape Town Wedding
+P: Mr Dolph Morris' Strathspey
+C:Pete Kier
+R:Strathspey (8x32)
+B:RSCDS 39-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:F
+c>B|"F"A2 A>G "Dm"F>G A<F|"Gm"B>A G>F "C7"E<c d>e|\
+    "F"f>e d>c "Bb"d>c B>A|"Gm"B>A G>F "C7"G2 c>B|
+    "F"A2 A>G "Dm"F>G A<F|"Gm"D<B G>F "C7"E>c d>e|\
+    "F"f>e d>c "Bb"B<D F<B|"C7"A>C E<G "F"[F2A,2]||
+c2|"F"A<c c>A "Gm"B>c d>B|"C7"G<B B>G "F"A>B c>A|\
+   "Dm"F<A A>F "Gm"G>A B>G|"C7"c<C "b"C>C "a"c<C "g"C>c|
+   "F"A<c c>A "Gm"B>c d>B|"C7"G<B B>G "F"A>B c>A|\
+   "Dm"f2 f2 "Bb"e>d c>B|"C7"A>C E<G "F"[F2A,2]|]
+%%center Book39/3904-Cape_Town_Wedding-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3905
+T: The Immigrant Lass
+P: Willie Wilson of Beith
+C:Bobby Crowe
+R:Jig (4x32)
+B:RSCDS 39-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:D
+|:F/E/|"D"D2 d d2 f|"Em"e2 d "A7"c/d/ec|"D"d2 A "D7"FGA|"Em"Bcd "A7"efg|\
+     "D"f2 d dcd|"Em"e2 d "A"cBA|
+                                 "Em"BGe "A7"cBc|"D"d3 D2:|\
+e|"D"f2 d def|"Em"e2 d "A"cBA|"G"B2 G DGB|"A7"A2 G "D7"FED|
+  "G"B2 G GAB|"D"FAd "Bm"f2 d|"E"B2 e "E7"e2 d|"A7"cBA GFE|\
+  "D"D2 d def|"Em"e2 d "A7"c/d/ec|
+                                  "Bm"d2 B "G"DGB|"A7"A2 G "D7"FED|\
+  "G"BGB dcB|"D"Adf "B7"a2 A|"Em"BGe "A7"cBc|"D"d3 d2|]
+%%center Book39/3905-Immigrant_Lass-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3906
+T: Le Moulin Rouge
+P: Christine McWilliam
+C:Drummond Cook
+R:Reel (1x64)
+B:RSCDS 39-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:G
+|:D2|"G"G2Bd edBd|gfga gfed|"C"e2fg "G"d2Bd|"Am"cBAG "D7"GFED|\
+     "G"G2Bd edBd|
+                  "A7"efga "D7"gfef|"Em"g2G2 "Am"AB"D7"cd|"G"B2"C"G2"G"G2:|\
+  AG|"D"F2DF A2dc|"G"B2GB d2gf|
+                               "A7"e2^cd efga|"D"f2d2d2 ef|\
+     "Em"g2ag "Bm"f2gf|"C"egfe "G"d2cB|"A"e2E2 "A7"A2AG|"D"FG"A7"EF "D"D2 AG|
+     "D"F2DF A2dc|"G"B2GB d2gf|\
+                               "A7"e2^cd efga|"D"f2d2d2 ef|
+     "Em"g2ag "Bm"f2gf|"C"egfe "G"d2ef|"Em"g2G2 "Am"AB"D7"cd|"G"B2"C"G2 "G"G2|]
+P: Alan Grant
+|:FE|"D"D2FG A2FA|d2Ad fedc|"G"B2dB "D"Adfa|"Em"gfed "A7"cAGE|\
+     "D"D2FG A2FA|
+                  d2Ad fedc|"Em"B2eg "A7"fdec|"D"d2"G"D2 "D"D2:|\
+ag|"D"f2ed "A"e2cA|"Bm"d2ef "F#m"c2BA|
+                                      "G"BdcB "D"A2FA|"E7"Eeed "A7"cAag|\
+   "D"f2ed "A"e2cA|"Bm"d2ef "F#m"c2BA|"G"Bbag "A7"fdec|"D"d2"G"D2 "D"D2 ag|
+   "D"f2ed "A"e2cA|"Bm"d2ef "F#m"c2BA|"G"BdcB "D"AFDF|"E7"Eeed "A7"cAGE|
+   "D"D2FG A2FA|d2Ad fedc|"Em"B2eg "A7"fdec|"D"d2"G"D2 "D"D2|]
+%%center Book39/3906-Le_Moulin_Rouge-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3907
+T: The Duke and Duchess of Edinburgh
+P: The Duke and Duchess of Edinburgh
+C:John Robertson
+B:RSCDS 39-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Reel (8x40) ABABC
+M:C|
+L:1/8
+K:A
+E|:"A"AGAB AGFE|AEAc e2 dc|"E7"dcBd "A"cBAc|"Bm"BcdB "E"AGFE|
+   "A"AGAB AGFE|AEAc e2 dc|"E7"dcBd "A"cBAc|"Bm"Bcd^d "E"e^efg||\
+   "A"a2-ag agfe|
+                 "D"fdAf "A"e2 ce|"D"fedf "A"e2 ac|"B"dcBA "E7"AGFE|\
+   "A"AGAB ABcd|e2 fa "A7"e2 Ae|
+                                "D"fdfg "A"aecA|"E7"cBAG "A"A2-Ae:|\
+   "A"a2-ag agfe|"D"fdAf "A"e2 ce|fedf "A"e2 ac|
+                                                "B"dcBA "E7"AGFE|\
+   "A"AGAB ABcd|e2 fa "A7"e2 Ae|"D"fdfg "A"afec|"E7"efge "A"a2- a|]
+%%center Book39/3907-Duke_and_Duchess_of_Edinburgh-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3908
+T: The Robertson Rant
+P: Struan Robertson's Rant
+C:Traditional
+B:RSCDS 39-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Strathspey (1x80) See original book for complete arrangement
+M:C
+L:1/8
+K:Em
+e|"Em"E<E G>A B>A B<d|"D"D<D F>E D/E/F/G/ A<F|\
+          "Em"E<E G>A B>A B<e|"Bm"d>B d>F "Em"E<E E||
+g|"Em"e>f g>e b>e g>e|"D"f>e d>f a/g/f/e/ d<f|\
+          "Em"e>f g>e b>e g>e|"(Bm)"d>B "A"A>F "Em"E<E E||
+F|"Em"G>B E>B G>B E>B|"D"F>A D>A F>A D>A|\
+          "Em"G>B E>B G>B E>g|"D"f>d a>f e2||
+e>f|"Em"g<b e<b g<b e<b|"D"f<a d<a f<a d<a|\
+          "Em"g<b e<b "D"f<a e<f|"Bm"d/^c/B/A/ d>F "Em"E<E E|]
+%%center Book39/3908-Robertson_Rant-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3909
+T: Prince Charles of Edinburgh
+P: Prince Charles of Edinburgh
+C:John Robertson
+B:RSCDS 39-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Reel (1x160) ABABC - See original book for complete arrangement
+M:C|
+L:1/8
+K:D
+|:A2|"D"D2dc dBAF|"E"E2 ed "A"cABc|"D"d2 DC DFAd|"A7"ce2f "D"d2 Ac|\
+     "D"d2de dAFA|
+                  "Em"GABc "A"defg|"D"aAde fABd|"A"ce2c "D"d2||\
+fa|"D"d2af dAFD|CDFA d2fd|
+                          "G"efga "Em"gf"E7"ed|"A"cdec "A7"AGFE|\
+   "D"D2dc dAFA|"Em"GABc "A"defg|"D"afdf "G"edcB|
+                                                 "A"Aefe "D"d2:|\
+fa|"D"d2af dAFD|CDFA d2fd|"G"efga "Em"gf"E7"ed|"A"cdec "A7"AGFE|
+   "D"D2dc dAFA|"Em"GABc "A"defg|"D"afdf "G"edcB|"A"Aefe "D"d2|]
+%%center Book39/3909-Prince_Charles_of_Edinburgh-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39011
+T: Brumley Brae
+C: W.McPherson
+R: reel
+B: RSCDS 39-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+%--------------------
+K: D
+|: A2 \
+| "D"d2cd AFDd | cdAF DFAF | "Em"E2EF GFED | CEGB "A7"=cA^cA |
+| "D"d2cd AFDd | cdAF DFAF | "Em"Begf "E7"edcB | "A7"AGFE "D"D2 ||
+|| a2 \
+| "D"^gafd Aaga | fdAa ^gafd | "Em"eBBe bagf | "E7"edcB "A7"A^ABc |
+| "D"d2cd AFDd | cdAF DFAF | "G"B,DDB, "A7"A,CEG | "D"F2"G"D2 "D"D2 |]
+%%center Book39/39011-Brumley_Brae-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39012
+T: Brumley Brae
+C: William McPherson
+R: reel
+B: RSCDS 39-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+%--------------------
+K: D
+   A2 \
+| "D"d2cd AFDd | cdAF DFAF | "Em"E2EF GFED | CEGB "A7"=cA^cA |
+   y2 \
+| "D"d2cd AFDd | cdAF DFAF | "Em"Begf "E7"edcB | "A7"AGFE "D"D2 :|
+|: a2 \
+| "D"^gafd Aaga | fdAa ^gafd | "Em"eBBe bagf | "E7"edcB "A7"A^ABc |
+   y2 \
+| "D"d2cd AFDd | cdAF DFAF | "G"GB,DB, "A7"A,CEG | "D"F2"G"D2 "D"D2 :|
+%%center Book39/39011-Brumley_Brae-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39013
+T: Brumley Brae
+C: William McPherson
+R: reel
+B: RSCDS 39-1
+B: The Scots Fiddle, J Murray Neil (Moffat 1991)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+%--------------------
+K: D
+A2 \
+| "D"d2cd AFDd | cdAF DFAF | "Em"E2EF GFED | CEGB "A7"=cA^cA |
+| "D"d2cd AFDd | cdAF DFAF | "Em"Begf "E7"edcB | "A7"AGFE "D"D2 ||
+|| a2 \
+| "D"^gafd Aaga | fdAa ^gafd | "Em"eBBe bagf | "E7"edcB "A7"A^ABc |
+| "D"d2cd AFDd | cdAF DFAF | "G"GB,DB, "A7"A,CEG | "D"F2"G"D2 "D"D2 |]
+%%center Book39/39011-Brumley_Brae-5.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39014
+T: Brumley Brae, The
+C:William MacPherson (1919-1974)
+B:RSCDS 39-1 (16-bar version with a few diffent notes)
+B:The Scots Fiddle, J Murray Neil (Moffat 1991)
+Z:Nigel Gatherer <gatherer:argonet.co.uk>
+M:4/4
+L:1/8
+%--------------------
+K:D
+A2 | d2 cd AFDd | cdAF DFAF | E2 EF GFED | CEGB =cA^cA | d2 cd AFDd |
+| cdAF DFAF | Begf edcB | AGFE D2 :: a2 | ^gafd Aa^ga | fdAa ^gafd |
+| eBBe bagf | edcB A^ABc | d2 cd AFDd | cdAF DFAF | G,B,DB, A,CEG | F2 D2 D2 :|
+%%center Book39/39011-Brumley_Brae_The-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39015
+T: Brumley Brae, The
+C:William MacPherson (1919-1974)
+B:RSCDS 39-1 (16-bar version with a few diffent notes)
+B:The Scots Fiddle, J Murray Neil (Moffat 1991)
+Z:Nigel Gatherer <gatherer:argonet.co.uk>
+M:4/4
+L:1/8
+%--------------------
+K:D
+A2 | d2 cd AFDd | cdAF DFAF | E2 EF GFED | CEGB =cA^cA | d2 cd AFDd |
+| cdAF DFAF | Begf edcB | AGFE D2 :: a2 | ^gafd Aa^ga | fdAa ^gafd |
+| eBBe bagf | edcB A^ABc | d2 cd AFDd | cdAF DFAF | G,B,DB, A,CEG | F2 D2 D2 :|
+%%center Book39/39011-Brumley_Brae_The-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39031
+T: The New Virginia Reel
+C: Muriel Johnstone
+R: reel
+B: RSCDS 39-3(a)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+%--------------------
+K: G
+|: d2 \
+| "G"G2Bd g2d2 | "D"bagf "G"g2d2 | "C"ecge "G"dBgd | "Am"cBAG "D7"AcBA |
+| "G"G2Bd g2d2 | "D"bagf "G"g3=f | "C"eceg "D7"fdfa | "G"g2b2 g2 :|
+|: f2 \
+| "G"g2dB GdBG | "Am"cBAG "D"A2f2 | "G"g2GA BGdc | "D"B2A2 A3 d |
+| "C"ecge "G"dBgd | "Am"cBAG "D"GFED | "C"ECEG "D7"FDFA | "G"G2B2 G2 :|
+%%center Book39/39031-New_Virginia_Reel-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39041
+T: Mr Dolph Morris' Strathspey
+C: Pete Kier
+R: strathspey
+B: RSCDS 39-4
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: F
+c>B \
+| "F"A2 A>G "Dm"F>G A>F | "Gm"B>A G>F "C7"E<c d>e \
+| "F"f>e d>c "Bb"d>c B>A | "Gm"B>A G>F "C7"E2 c>B |
+| "F"A2 A>G "Dm"F>G A>F | "Gm"B<B G>F "C7"E<c d>e \
+| "F"f>e d>c "Bb"d<D F<B | "C7"A>C E<G "F"[F2A,2] |]
+c2 \
+| "F"A<c c>A "Gm"B>c d>B | "C7"G<B B>G "F"A>B c>A \
+| "Dm"F<A A>F "Gm"G>A B>G | "C"c<C C>C c<C C>c |
+| "F"A<c c>A "Gm"B>c d>B | "C7"G<B B>G "F"A>B c>A \
+| "Dm"f2 f2 "Bb"e>d c>B | "C7"A>C E<G "F"F2 |]
+%%center Book39/39041-Mr_Dolph_Morris_Strathspey-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39071
+T: Dunnottar Castle
+C: John Robertson
+B: RSCDS 39-7(I)
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: A
+E2 \
+"A"\
+|: "A"AGAB AGFE | "A"AEAc e2dc \
+|  "D"dcBd "A"cBAc | "Bm"BcdB "E7"AGFE \
+|| "A"AGAB AGFE | "A"AEAc e2dc |
+|  "D"dcBd "A"cBAc | "Bm"Bcd^d "E7"e^efg \
+"B"\
+|[|"A"a2ag agfe | "D"fdAf "A"e2ce \
+|  "D"fedf "A"e2ac | "B(m)"dcBA "E7"AGFE |
+|  "A"AGAB ABcd | "A"e2fa "A7"e2Ae \
+|1 "D"fdfg "A"aecA | "E7"cBAG "A"A2e2 \
+:|2"D"fdfg "A"afec | "E7"efge "A"a2 |]
+%%center Book39/39071-Dunnottar_Castle-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39072
+T: Dunnottar Castle
+C: John Robertson
+N: 40-bar version for the dance "The Duke and Duchess of Edinburgh"
+B: RSCDS 39-7(I)
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: A
+|: E \
+|| "A"AGAB AGFE | AEAc e2dc | "E7"dcBd "A"cBAc | "Bm"BcdB "E7"AGFE |
+|  "A"AGAB AGFE | AEAc e2dc | "E7"dcBd "A"cBAc | "Bm"Bcd^d "E7"e^efg ||
+|| "A"a2-ag agfe | "D"fdAf "A"e2ce | "D"fedf "A"e2ac | "B7"dcBA "E7"AGFE |
+|  "A"AGAB ABcd | e2fa "A7"e2Ae | "D"fdfg "A"aecA | "E7"cBAG "A"A2-A :|
+e \
+| "A"a2-ag agfe | "D"fdAf "A"e2ce | "D"fedf "A"e2ac | "B7"dcBA "E7"AGFE |
+|  "A"AGAB ABcd | e2fa "A7"e2Ae | "D"fdfg "A"afec | "E7"efge "A"a2-a |]
+%%center Book39/39071-Dunnottar_Castle-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39073
+T: Dunnottar Castle
+C: John Robertson
+B: RSCDS 39-7(I)
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: A
+E2 \
+|: "A"AGAB AGFE | "A"AEAc e2dc \
+| "E7"dcBd "A"cBAc | "Bm"BcdB "E7"AGFE \
+|| "A"AGAB AGFE | "A"AEAc e2dc |
+| "E7"dcBd "A"cBAc | "Bm"Bcd^d "E7"e^efg \
+::"A"a2ag agfe | "D"fdAf "A"e2ce \
+|  "D"fedf "A"e2ac | "B(m)"dcBA "E7"AGFE |
+|  "A"AGAB ABcd | "A"e2fa "A7"e2Ae \
+|1 "D"fdfg "A"aecA | "E7"cBAG "A"A2e2 \
+:|2"D"fdfg "A"afec | "E7"efge "A"a2 |]
+%%center Book39/39071-Dunnottar_Castle-7.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39074
+T: Birkhall
+B: RSCDS 39-7(II)
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: D
+|: A2 \
+| "D"d2fd A2dA | "D"FAFD     A2FA | "G"B2dB "D"A2d2 | "E7"e3f  "A7"e2A2 || "D"defd A2dA |
+| "D"FAFD A2FA | "G"Bcde "A7"fAe2 | "D"d4  d2 :: fg |  "D"a3b      a2f2 |     dfA2 d2ef | "Em"g3a g2e2 |
+|"A7"ceA2 e2fg ||"D"a3b      a2f2 | "D"dfA2    d2ef | "Em"gage "A7"A2Bc |  "D"d2d2 d2 :|
+%%center Book39/39072-Birkhall-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39075
+T: Birkhall
+N: 40-bar version for the dance "The Duke and Duchess of Edinburgh"
+B: RSCDS 39-7(II)
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: D
+|: \
+A2 | "D"d2fd A2dA | FAFD A2FA |  "G"B2dB  "D"A2d2 | "E7"e3f "A7"e2 ||
+A2 | "D"defd A2dA | FAFD A2FA |  "G"Bcde "A7"fAe2 |  "D"d4      d2 |]
+fg | "D"a3b  a2f2 | dfA2 d2ef | "A7"g3a      g2e2 |     ceA2    e2 ||
+fg | "D"a3b  a2f2 | dfA2 d2ef | "A7"gage     A2Bc |  "D"ddd2    d2 :|
+A2 | "D"a3b  a2f2 | dfA2 d2ef | "A7"g3a      g2e2 |     ceA2    e2 ||
+fg | "D"a3b  a2f2 | dfA2 d2ef | "A7"gage     A2Bc |  "D"d2d2    d2 |]
+%%center Book39/39072-Birkhall-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39081
+T: Robertson's Hornpipe
+B: RSCDS 39-8
+Z: John Chambers <jc:trillian.mit.edu>
+R: hornpipe, reel
+B: Kerr (Merry Melodies) v.2 #334 p.37 c.1880
+B: Stewart-Robertson (The Athole Collection) p.300 1884
+M: C|
+L: 1/8
+%--------------------
+K: Bb
+   bf | "Bb"d2B2 B2dB | "F"cAF2 F2BA | "Eb"GFED  "F7"EGFE | "Bb"D2B,2 B,2 ||
+y  bf | "Bb"d2B2 B2bf | "C7"g2=e2 c2BA | Bcd=e fage | "F"f2F2 F2 :|
+|: fe | "Bb"dB ~B2 dB ~B2 | "Eb"GE ~E2 GE ~E2 | "Cm"cdeg "(C7)"fdcB | "F"A2F2 F2 ||
+y  de | "Bb"fBAB "Eb"gBAB | "Bb"bBAB "Gm"fBAB | "Cm"Ggfe "F7"dcBA | "Bb"B2d2 B2 :|
+%%center Book39/39081-Robertsons_Hornpipe-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39082
+T: Robertson's Hornpipe
+B: RSCDS 39-8
+Z: John Chambers <jc@trillian.mit.edu>
+R: hornpipe, reel
+M: C|
+L: 1/8
+%--------------------
+K: Bb
+|: bf | "Bb"d2B2 B2dB | "F"cAF2 F2BA | "Eb"GFED  "F7"EGFE | "Bb"D2B,2 B,2bf |
+| "Bb"d2B2 B2bf | "C7"g2=e2 c2BA | Bcd=e fage | "F"f2F2 F2 :|
+|: fe | "Bb"dB ~B2 dB ~B2 | "Eb"GE ~E2 GE ~E2 | "Cm"cdeg "(C7)"fdcB | "F"A2F2 F2de |
+| "Bb"fBAB "Eb"gBAB | "Bb"bBAB "Gm"fBAB | "Cm"Ggfe "F7"dcBA | "Bb"B2d2 B2 :|
+%%center Book39/39081-Robertsons_Hornpipe-5.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39083
+T: Robertson's Hornpipe
+O:england
+B:RSCDS 39-8
+R:hornpipe, reel
+M:C|
+L:1/8
+K:Bb
+|: bf | "Bb"d2B2 B2dB | "F"cAF2 F2BA | "Eb"GFED  "F7"EGFE | "Bb"D2B,2 B,2bf |
+| "Bb"d2B2 B2bf | "C7"g2=e2 c2BA | Bcd=e fage | "F"f2F2 F2 :|
+|: fe | "Bb"dB ~B2 dB ~B2 | "Eb"GE ~E2 GE ~E2 | "Cm"cdeg "(C7)"fdcB | "F"A2F2 F2de |
+| "Bb"fBAB "Eb"gBAB | "Bb"bBAB "Gm"fBAB | "Cm"Ggfe "F7"dcBA | "Bb"B2d2 B2 :|
+%%center Book39/39081-Robertsons_Hornpipe.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39084
+T: Struan Robertson's Rant
+O: Trad
+R: strathspey
+B: RSCDS 39-8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: EDor
+e \
+|: "Em"E<E G>A B>A B<d | "D"D<D F>E D/E/F/G/ A<F \
+| "Em"E<E G>A B>A B<e | "D"d>B d>F "Em"E<E E :|
+|: g \
+| "Em"e>f g>e b>e g>e | "D"f>e d>f a/g/f/e/ d<f \
+| "Em"e>f g>e b>e g>e | "D"d>B A>F "Em"E<E E :|
+|: F \
+| "Em"G>B E>B G<B E>G | "D"F>A D>A F<A D>A \
+| "Em"G>B E>B G<B E>g | "D"f>d a>f "Em" e2 e :|
+|: f \
+| "Em"g<b e>b g>e b>g | "D"f<a d>a f<a d>a \
+| "Em"g<b e>g "D"f<a d>e | "Bm"d/c/B/A/ d>F "Em"E<E E :|
+%%center Book39/39081-Struan_Robertsons_Rant-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39091
+T: Prince Charles of Edinburgh
+C: John Robertson
+O: RSCDS 39-9
+B: RSCDS 39-9(I)
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: D
+   A2 \
+| "D"D2dc dBAF | "E7"E2ed "A"cABc | "D"d2DC DFAd | "A"ce2f "D"d2Ac |
+| "D"d2de dAFA | "Em"GABc "A"defg | "D"aAde fABd | "A"ce2c "D"d2 :|
+|: fa \
+| "D"d2af dAFD | CDFA d2fd | "G"efga "E7"gfed | "A"cdec AGFE |
+| "D"D2dc dAFA | "Em"GABc "A"defg | "D"afdf "G"edcB | "A"Aefe "D"d2 :|
+%%center Book39/39091-Prince_Charles_of_Edinburgh-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39092
+T: Prince Charles of Edinburgh
+C: John Robertson
+R: reel
+B: RSCDS 39-9(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: D
+|| A2 \
+| "D"D2dc dBAF | "E7"E2ed "A"cABc | "D"d2DC DFAd | "A"ce2f "D"d2Ac |
+| "D"d2de dAFA | "Em"GABc "A"defg | "D"aAde fABd | "A"ce2c "D"d2 ||
+|| fa \
+| "D"d2af dAFD | CDFA d2fd | "G"efga "E7"gfed | "A"cdec AGFE |
+| "D"D2dc dAFA | "Em"GABc "A"defg | "D"afdf "G"edcB | "A"Aefe "D"d2 |]
+%%center Book39/39091-Prince_Charles_of_Edinburgh-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39093
+T: Prince Charles of Edinburgh
+C: John Robertson
+O: RSCDS 39-9
+B: RSCDS 39-9(I)
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: D
+A2 \
+| "D"D2dc "Bm"dBAF | "Em"E2ed "A"cABc | "D"d2DC DFAd | "A"ceef "D"d2Ac | "D"d2de "Bm"dAFA |
+| "Em"GABc "A"defg | "D"aAde "Bm"fABd | "A7"ceec "D"d2 |]| fa | "D"d2af dAFD | CDFA d2fd |
+| "Em"efga gfed | "A"cdec AGFE | "D"D2dc "Bm"dAFA | "Em"GABc "A"defg | "D"afdf "Em"edcB | "A"Aeef "D"d2 |]
+%%center Book39/39091-Prince_Charles_of_Edinburgh-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39094
+T: Prince Charles of Edinburgh
+C: John Robertson
+O: RSCDS 39-9
+B: RSCDS 39-9(I)
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: D
+A2 \
+| "D"D2dc "(Bm)"dBAF | "E(m)"E2ed "A"cABc | "D"d2DC DFAd | "A"ceef "D"d2Ac | "D"d2de "(Bm)"dAFA |
+| "Em"GABc "A"defg | "D"aAde "(Bm)"fABd | "A7"ceec "D"d2 :: fa | "D"d2af dAFD | CDFA d2fd |
+| "Em"efga gfed | "A"cdec AGFE | "D"D2dc "(Bm)"dAFA | "Em"GABc "A"defg | "D"afdf "G"edcB | "A"Aeef "D"d2 :|
+%%center Book39/39091-Prince_Charles_of_Edinburgh-5.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39095
+T: Clarence House
+C: John Robertson
+R: reel
+B: RSCDS 39-9(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: G
+|| (3def \
+| "G"g2gd BdGd | g2gd "F"cAA2 | "G"g2gd Bdgd | "C"eg"D"fa "G"bgg2 |
+| "G"{f}g2ed BdGd | gede "F"cAA2 | "G"{f}g2gB "Am"ceag | "D7"fadf "G"g2 ||
+|| ga \
+| "G"b2bg "D7"fadf | "G"g2bg "F"=f2z2 | "G"b2bg "D7"fedc | "G"Bg"D7"Af "G"g2df |
+| "G"gabg "D7"fedf | "G"gabd' "F"c'a=f2 | "G"g2bg "D7"fadc | "D7"BdAf "G"g2 |]
+%%center Book39/39092-Clarence_House-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39096
+T: Birkhall
+B: RSCDS 39-7(II)
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: A2 \
+| "D"d2fd A2dA | "D"FAFD     A2FA | "G"B2dB "D"A2d2 | "E7"e3f  "A7"e2A2 || "D"defd A2dA |
+| "D"FAFD A2FA | "G"Bcde "A7"fAe2 | "D"d4  d2 :: fg |  "D"a3b      a2f2 |     dfA2 d2ef | "Em"g3a g2e2 |
+|"A7"ceA2 e2fg ||"D"a3b      a2f2 | "D"dfA2    d2ef | "Em"gage "A7"A2Bc |  "D"d2d2 d2 :|
+%%center Book39/Birkhall_D-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39097
+T: Birkhall
+N: 40-bar version for the dance "The Duke and Duchess of Edinburgh"
+B: RSCDS 39-7(II)
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: \
+A2 | "D"d2fd A2dA | FAFD A2FA |  "G"B2dB  "D"A2d2 | "E7"e3f "A7"e2 ||
+A2 | "D"defd A2dA | FAFD A2FA |  "G"Bcde "A7"fAe2 |  "D"d4      d2 |]
+fg | "D"a3b  a2f2 | dfA2 d2ef | "A7"g3a      g2e2 |     ceA2    e2 ||
+fg | "D"a3b  a2f2 | dfA2 d2ef | "A7"gage     A2Bc |  "D"ddd2    d2 :|
+A2 | "D"a3b  a2f2 | dfA2 d2ef | "A7"g3a      g2e2 |     ceA2    e2 ||
+fg | "D"a3b  a2f2 | dfA2 d2ef | "A7"gage     A2Bc |  "D"d2d2    d2 |]
+%%center Book39/Birkhall_D40-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39098
+T: Birkhall
+N: 40-bar version for the dance "The Duke and Duchess of Edinburgh"
+B: RSCDS 39-7(II)
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: \
+A2 | "D"d2fd A2dA | FAFD A2FA |  "G"B2dB  "D"A2d2 | "E7"e3f "A7"e2 ||
+A2 | "D"defd A2dA | FAFD A2FA |  "G"Bcde "A7"fAe2 |  "D"d4      d2 |]
+fg | "D"a3b  a2f2 | dfA2 d2ef | "A7"g3a      g2e2 |     ceA2    e2 ||
+fg | "D"a3b  a2f2 | dfA2 d2ef | "A7"gage     A2Bc |  "D"ddd2    d2 :|
+A2 | "D"a3b  a2f2 | dfA2 d2ef | "A7"g3a      g2e2 |     ceA2    e2 ||
+fg | "D"a3b  a2f2 | dfA2 d2ef | "A7"gage     A2Bc |  "D"d2d2    d2 |]
+%%center Book39/Birkhall_D40_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39099
+T: Birkhall
+N: 40-bar version for the dance "The Duke and Duchess of Edinburgh"
+B: RSCDS 39-7(II)
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: \
+A2 | "D"d2fd A2dA | FAFD A2FA |  "G"B2dB  "D"A2d2 | "E7"e3f "A7"e2 ||
+A2 | "D"defd A2dA | FAFD A2FA |  "G"Bcde "A7"fAe2 |  "D"d4      d2 |]
+fg | "D"a3b  a2f2 | dfA2 d2ef | "A7"g3a      g2e2 |     ceA2    e2 ||
+fg | "D"a3b  a2f2 | dfA2 d2ef | "A7"gage     A2Bc |  "D"ddd2    d2 :|
+A2 | "D"a3b  a2f2 | dfA2 d2ef | "A7"g3a      g2e2 |     ceA2    e2 ||
+fg | "D"a3b  a2f2 | dfA2 d2ef | "A7"gage     A2Bc |  "D"d2d2    d2 |]
+%%center Book39/Birkhall_D40_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39100
+T: Birkhall
+B: RSCDS 39-7(II)
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: A2 \
+| "D"d2fd A2dA | "D"FAFD     A2FA | "G"B2dB "D"A2d2 | "E7"e3f  "A7"e2A2 || "D"defd A2dA |
+| "D"FAFD A2FA | "G"Bcde "A7"fAe2 | "D"d4  d2 :: fg |  "D"a3b      a2f2 |     dfA2 d2ef | "Em"g3a g2e2 |
+|"A7"ceA2 e2fg ||"D"a3b      a2f2 | "D"dfA2    d2ef | "Em"gage "A7"A2Bc |  "D"d2d2 d2 :|
+%%center Book39/Birkhall_D_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39101
+T: Birkhall
+N: 40-bar version for the dance "The Duke and Duchess of Edinburgh"
+B: RSCDS 39-7(II)
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: \
+A2 | "D"d2fd A2dA | FAFD A2FA |  "G"B2dB  "D"A2d2 | "E7"e3f "A7"e2 ||
+A2 | "D"defd A2dA | FAFD A2FA |  "G"Bcde "A7"fAe2 |  "D"d4      d2 |]
+fg | "D"a3b  a2f2 | dfA2 d2ef | "A7"g3a      g2e2 |     ceA2    e2 ||
+fg | "D"a3b  a2f2 | dfA2 d2ef | "A7"gage     A2Bc |  "D"ddd2    d2 :|
+A2 | "D"a3b  a2f2 | dfA2 d2ef | "A7"g3a      g2e2 |     ceA2    e2 ||
+fg | "D"a3b  a2f2 | dfA2 d2ef | "A7"gage     A2Bc |  "D"d2d2    d2 |]
+%%center Book39/Birkhall_D_ABABB-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39102
+T: Birkhall
+N: 40-bar version for the dance "The Duke and Duchess of Edinburgh"
+B: RSCDS 39-7(II)
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: \
+A2 | "D"d2fd A2dA | FAFD A2FA |  "G"B2dB  "D"A2d2 | "E7"e3f "A7"e2 ||
+A2 | "D"defd A2dA | FAFD A2FA |  "G"Bcde "A7"fAe2 |  "D"d4      d2 |]
+fg | "D"a3b  a2f2 | dfA2 d2ef | "A7"g3a      g2e2 |     ceA2    e2 ||
+fg | "D"a3b  a2f2 | dfA2 d2ef | "A7"gage     A2Bc |  "D"ddd2    d2 :|
+A2 | "D"a3b  a2f2 | dfA2 d2ef | "A7"g3a      g2e2 |     ceA2    e2 ||
+fg | "D"a3b  a2f2 | dfA2 d2ef | "A7"gage     A2Bc |  "D"d2d2    d2 |]
+%%center Book39/Birkhall_D_ABABB_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39103
+T: Birkhall
+N: 40-bar version for the dance "The Duke and Duchess of Edinburgh"
+B: RSCDS 39-7(II)
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: \
+A2 | "D"d2fd A2dA | FAFD A2FA |  "G"B2dB  "D"A2d2 | "E7"e3f "A7"e2 ||
+A2 | "D"defd A2dA | FAFD A2FA |  "G"Bcde "A7"fAe2 |  "D"d4      d2 |]
+fg | "D"a3b  a2f2 | dfA2 d2ef | "A7"g3a      g2e2 |     ceA2    e2 ||
+fg | "D"a3b  a2f2 | dfA2 d2ef | "A7"gage     A2Bc |  "D"ddd2    d2 :|
+A2 | "D"a3b  a2f2 | dfA2 d2ef | "A7"g3a      g2e2 |     ceA2    e2 ||
+fg | "D"a3b  a2f2 | dfA2 d2ef | "A7"gage     A2Bc |  "D"d2d2    d2 |]
+%%center Book39/Birkhall_D_ABABB_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39104
+T: Birkhall
+B: RSCDS 39-7(II)
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: A2 \
+| "D"d2fd A2dA | "D"FAFD     A2FA | "G"B2dB "D"A2d2 | "E7"e3f  "A7"e2A2 || "D"defd A2dA |
+| "D"FAFD A2FA | "G"Bcde "A7"fAe2 | "D"d4  d2 :: fg |  "D"a3b      a2f2 |     dfA2 d2ef | "Em"g3a g2e2 |
+|"A7"ceA2 e2fg ||"D"a3b      a2f2 | "D"dfA2    d2ef | "Em"gage "A7"A2Bc |  "D"d2d2 d2 :|
+%%center Book39/Birkhall_D_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39105
+T: Brumley Brae
+C: William McPherson
+R: reel
+B: RSCDS 39-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+   A2 \
+| "D"d2cd AFDd | cdAF DFAF | "Em"E2EF GFED | "A7"CEGB =cA^cA |
+   y2 \
+| "D"d2cd AFDd | cdAF DFAF | "Em"Begf "E7"edcB | "A7"AGFE "D"D2 :|
+|: a2 \
+| "D"^gafd Aaga | fdAa ^gafd | "Em"eBBe bagf | "E7"edcB "A7"A^ABc |
+   y2 \
+| "D"d2cd AFDd | cdAF DFAF | "G"GB,DB, "A7"A,CEG | "D"F2"G"D2 "D"D2 :|
+%%center Book39/BrumleyBrae-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39106
+T: Brumley Brae, The
+C:William MacPherson (1919-1974)
+B:RSCDS 39-1 (16-bar version with a few diffent notes)
+B:The Scots Fiddle, J Murray Neil (Moffat 1991)
+Z:Nigel Gatherer <gatherer:argonet.co.uk>
+M:4/4
+L:1/8
+K:D
+A2 | d2 cd AFDd | cdAF DFAF | E2 EF GFED | CEGB =cA^cA | d2 cd AFDd |
+| cdAF DFAF | Begf edcB | AGFE D2 :: a2 | ^gafd Aa^ga | fdAa ^gafd |
+| eBBe bagf | edcB A^ABc | d2 cd AFDd | cdAF DFAF | G,B,DB, A,CEG | F2 D2 D2 :|
+%%center Book39/BrumleyBraeThe_1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39107
+T: Brumley Brae
+C: William McPherson
+R: reel
+B: RSCDS 39-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+   A2 \
+| "D"d2cd AFDd | cdAF DFAF | "Em"E2EF GFED | "A7"CEGB =cA^cA |
+   y2 \
+| "D"d2cd AFDd | cdAF DFAF | "Em"Begf "E7"edcB | "A7"AGFE "D"D2 :|
+|: a2 \
+| "D"^gafd Aaga | fdAa ^gafd | "Em"eBBe bagf | "E7"edcB "A7"A^ABc |
+   y2 \
+| "D"d2cd AFDd | cdAF DFAF | "G"GB,DB, "A7"A,CEG | "D"F2"G"D2 "D"D2 :|
+%%center Book39/BrumleyBrae_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39108
+T: Brumley Brae
+C: William McPherson
+R: reel
+B: RSCDS 39-1
+B: The Scots Fiddle, J Murray Neil (Moffat 1991)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+A2 \
+| "D"d2cd AFDd | cdAF DFAF | "Em"E2EF GFED | CEGB "A7"=cA^cA |
+| "D"d2cd AFDd | cdAF DFAF | "Em"Begf "E7"edcB | "A7"AGFE "D"D2 ||
+|| a2 \
+| "D"^gafd Aaga | fdAa ^gafd | "Em"eBBe bagf | "E7"edcB "A7"A^ABc |
+| "D"d2cd AFDd | cdAF DFAF | "G"GB,DB, "A7"A,CEG | "D"F2"G"D2 "D"D2 |]
+%%center Book39/BrumleyBrae_D16-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39109
+T: Brumley Brae
+C: William McPherson
+R: reel
+B: RSCDS 39-1
+B: The Scots Fiddle, J Murray Neil (Moffat 1991)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+A2 \
+| "D"d2cd AFDd | cdAF DFAF | "Em"E2EF GFED | CEGB "A7"=cA^cA |
+| "D"d2cd AFDd | cdAF DFAF | "Em"Begf "E7"edcB | "A7"AGFE "D"D2 ||
+|| a2 \
+| "D"^gafd Aaga | fdAa ^gafd | "Em"eBBe bagf | "E7"edcB "A7"A^ABc |
+| "D"d2cd AFDd | cdAF DFAF | "G"GB,DB, "A7"A,CEG | "D"F2"G"D2 "D"D2 |]
+%%center Book39/BrumleyBrae_D16_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39110
+T: Brumley Brae
+C: William McPherson
+R: reel
+B: RSCDS 39-1
+B: The Scots Fiddle, J Murray Neil (Moffat 1991)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+A2 \
+| "D"d2cd AFDd | cdAF DFAF | "Em"E2EF GFED | CEGB "A7"=cA^cA |
+| "D"d2cd AFDd | cdAF DFAF | "Em"Begf "E7"edcB | "A7"AGFE "D"D2 ||
+|| a2 \
+| "D"^gafd Aaga | fdAa ^gafd | "Em"eBBe bagf | "E7"edcB "A7"A^ABc |
+| "D"d2cd AFDd | cdAF DFAF | "G"GB,DB, "A7"A,CEG | "D"F2"G"D2 "D"D2 |]
+%%center Book39/BrumleyBrae_D16_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39111
+T: Brumley Brae
+C: William McPherson
+R: reel
+B: RSCDS 39-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+   A2 \
+| "D"d2cd AFDd | cdAF DFAF | "Em"E2EF GFED | "A7"CEGB =cA^cA |
+   y2 \
+| "D"d2cd AFDd | cdAF DFAF | "Em"Begf "E7"edcB | "A7"AGFE "D"D2 :|
+|: a2 \
+| "D"^gafd Aaga | fdAa ^gafd | "Em"eBBe bagf | "E7"edcB "A7"A^ABc |
+   y2 \
+| "D"d2cd AFDd | cdAF DFAF | "G"GB,DB, "A7"A,CEG | "D"F2"G"D2 "D"D2 :|
+%%center Book39/BrumleyBrae_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39112
+T: Clarence House
+C: John Robertson
+R: reel
+B: RSCDS 39-9(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|| (3def \
+| "G"g2gd BdGd | g2gd "F"cAA2 | "G"g2gd Bdgd | "C"eg"D"fa "G"bgg2 |
+| "G"{f}g2ed BdGd | gede "F"cAA2 | "G"{f}g2gB "Am"ceag | "D7"fadf "G"g2 ||
+|| ga \
+| "G"b2bg "D7"fadf | "G"g2bg "F"=f2z2 | "G"b2bg "D7"fedc | "G"Bg"D7"Af "G"g2df |
+| "G"gabg "D7"fedf | "G"gabd' "F"c'a=f2 | "G"g2bg "D7"fadc | "D7"BdAf "G"g2 |]
+%%center Book39/ClarenceHouse-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39113
+T: Clarence House
+C: John Robertson
+R: reel
+B: RSCDS 39-9(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|| (3def \
+| "G"g2gd BdGd | g2gd "F"cAA2 | "G"g2gd Bdgd | "C"eg"D"fa "G"bgg2 |
+| "G"{f}g2ed BdGd | gede "F"cAA2 | "G"{f}g2gB "Am"ceag | "D7"fadf "G"g2 ||
+|| ga \
+| "G"b2bg "D7"fadf | "G"g2bg "F"=f2z2 | "G"b2bg "D7"fedc | "G"Bg"D7"Af "G"g2df |
+| "G"gabg "D7"fedf | "G"gabd' "F"c'a=f2 | "G"g2bg "D7"fadc | "D7"BdAf "G"g2 |]
+%%center Book39/ClarenceHouse_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39114
+T: Clarence House
+C: John Robertson
+R: reel
+B: RSCDS 39-9(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|| (3def \
+| "G"g2gd BdGd | g2gd "F"cAA2 | "G"g2gd Bdgd | "C"eg"D"fa "G"bgg2 |
+| "G"{f}g2ed BdGd | gede "F"cAA2 | "G"{f}g2gB "Am"ceag | "D7"fadf "G"g2 ||
+|| ga \
+| "G"b2bg "D7"fadf | "G"g2bg "F"=f2z2 | "G"b2bg "D7"fedc | "G"Bg"D7"Af "G"g2df |
+| "G"gabg "D7"fedf | "G"gabd' "F"c'a=f2 | "G"g2bg "D7"fadc | "D7"BdAf "G"g2 |]
+%%center Book39/ClarenceHouse_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39115
+T: Dunnottar Castle
+C: John Robertson
+B: RSCDS 39-7(I)
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+E2 \
+"A"\
+|: "A"AGAB AGFE | "A"AEAc e2dc \
+|  "D"dcBd "A"cBAc | "Bm"BcdB "E7"AGFE \
+|| "A"AGAB AGFE | "A"AEAc e2dc |
+|  "D"dcBd "A"cBAc | "Bm"Bcd^d "E7"e^efg \
+"B"\
+|[|"A"a2ag agfe | "D"fdAf "A"e2ce \
+|  "D"fedf "A"e2ac | "B(m)"dcBA "E7"AGFE |
+|  "A"AGAB ABcd | "A"e2fa "A7"e2Ae \
+|1 "D"fdfg "A"aecA | "E7"cBAG "A"A2e2 \
+:|2"D"fdfg "A"afec | "E7"efge "A"a2 |]
+%%center Book39/DunnotarCastleR_A-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39116
+T: Dunnottar Castle
+C: John Robertson
+N: 40-bar version for the dance "The Duke and Duchess of Edinburgh"
+B: RSCDS 39-7(I)
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: E \
+|| "A"AGAB AGFE | AEAc e2dc | "E7"dcBd "A"cBAc | "Bm"BcdB "E7"AGFE |
+|  "A"AGAB AGFE | AEAc e2dc | "E7"dcBd "A"cBAc | "Bm"Bcd^d "E7"e^efg ||
+|| "A"a2-ag agfe | "D"fdAf "A"e2ce | "D"fedf "A"e2ac | "B7"dcBA "E7"AGFE |
+|  "A"AGAB ABcd | e2fa "A7"e2Ae | "D"fdfg "A"aecA | "E7"cBAG "A"A2-A :|
+e \
+| "A"a2-ag agfe | "D"fdAf "A"e2ce | "D"fedf "A"e2ac | "B7"dcBA "E7"AGFE |
+|  "A"AGAB ABcd | e2fa "A7"e2Ae | "D"fdfg "A"afec | "E7"efge "A"a2-a |]
+%%center Book39/DunnotarCastleR_A40-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39117
+T: Dunnottar Castle
+C: John Robertson
+N: 40-bar version for the dance "The Duke and Duchess of Edinburgh"
+B: RSCDS 39-7(I)
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: E \
+|| "A"AGAB AGFE | AEAc e2dc | "E7"dcBd "A"cBAc | "Bm"BcdB "E7"AGFE |
+|  "A"AGAB AGFE | AEAc e2dc | "E7"dcBd "A"cBAc | "Bm"Bcd^d "E7"e^efg ||
+|| "A"a2-ag agfe | "D"fdAf "A"e2ce | "D"fedf "A"e2ac | "B7"dcBA "E7"AGFE |
+|  "A"AGAB ABcd | e2fa "A7"e2Ae | "D"fdfg "A"aecA | "E7"cBAG "A"A2-A :|
+e \
+| "A"a2-ag agfe | "D"fdAf "A"e2ce | "D"fedf "A"e2ac | "B7"dcBA "E7"AGFE |
+|  "A"AGAB ABcd | e2fa "A7"e2Ae | "D"fdfg "A"afec | "E7"efge "A"a2-a |]
+%%center Book39/DunnotarCastleR_A40_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39118
+T: Dunnottar Castle
+C: John Robertson
+N: 40-bar version for the dance "The Duke and Duchess of Edinburgh"
+B: RSCDS 39-7(I)
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: E \
+|| "A"AGAB AGFE | AEAc e2dc | "E7"dcBd "A"cBAc | "Bm"BcdB "E7"AGFE |
+|  "A"AGAB AGFE | AEAc e2dc | "E7"dcBd "A"cBAc | "Bm"Bcd^d "E7"e^efg ||
+|| "A"a2-ag agfe | "D"fdAf "A"e2ce | "D"fedf "A"e2ac | "B7"dcBA "E7"AGFE |
+|  "A"AGAB ABcd | e2fa "A7"e2Ae | "D"fdfg "A"aecA | "E7"cBAG "A"A2-A :|
+e \
+| "A"a2-ag agfe | "D"fdAf "A"e2ce | "D"fedf "A"e2ac | "B7"dcBA "E7"AGFE |
+|  "A"AGAB ABcd | e2fa "A7"e2Ae | "D"fdfg "A"afec | "E7"efge "A"a2-a |]
+%%center Book39/DunnotarCastleR_A40_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39119
+T: Dunnottar Castle
+C: John Robertson
+B: RSCDS 39-7(I)
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+E2 \
+"A"\
+|: "A"AGAB AGFE | "A"AEAc e2dc \
+|  "D"dcBd "A"cBAc | "Bm"BcdB "E7"AGFE \
+|| "A"AGAB AGFE | "A"AEAc e2dc |
+|  "D"dcBd "A"cBAc | "Bm"Bcd^d "E7"e^efg \
+"B"\
+|[|"A"a2ag agfe | "D"fdAf "A"e2ce \
+|  "D"fedf "A"e2ac | "B(m)"dcBA "E7"AGFE |
+|  "A"AGAB ABcd | "A"e2fa "A7"e2Ae \
+|1 "D"fdfg "A"aecA | "E7"cBAG "A"A2e2 \
+:|2"D"fdfg "A"afec | "E7"efge "A"a2 |]
+%%center Book39/DunnotarCastleR_A_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39120
+T: Dunnottar Castle
+C: John Robertson
+N: 40-bar version for the dance "The Duke and Duchess of Edinburgh"
+B: RSCDS 39-7(I)
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: E \
+|| "A"AGAB AGFE | AEAc e2dc | "E7"dcBd "A"cBAc | "Bm"BcdB "E7"AGFE |
+|  "A"AGAB AGFE | AEAc e2dc | "E7"dcBd "A"cBAc | "Bm"Bcd^d "E7"e^efg ||
+|| "A"a2-ag agfe | "D"fdAf "A"e2ce | "D"fedf "A"e2ac | "B7"dcBA "E7"AGFE |
+|  "A"AGAB ABcd | e2fa "A7"e2Ae | "D"fdfg "A"aecA | "E7"cBAG "A"A2-A :|
+e \
+| "A"a2-ag agfe | "D"fdAf "A"e2ce | "D"fedf "A"e2ac | "B7"dcBA "E7"AGFE |
+|  "A"AGAB ABcd | e2fa "A7"e2Ae | "D"fdfg "A"afec | "E7"efge "A"a2-a |]
+%%center Book39/DunnotarCastleR_A_ABABC-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39121
+T: Dunnottar Castle
+C: John Robertson
+N: 40-bar version for the dance "The Duke and Duchess of Edinburgh"
+B: RSCDS 39-7(I)
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: E \
+|| "A"AGAB AGFE | AEAc e2dc | "E7"dcBd "A"cBAc | "Bm"BcdB "E7"AGFE |
+|  "A"AGAB AGFE | AEAc e2dc | "E7"dcBd "A"cBAc | "Bm"Bcd^d "E7"e^efg ||
+|| "A"a2-ag agfe | "D"fdAf "A"e2ce | "D"fedf "A"e2ac | "B7"dcBA "E7"AGFE |
+|  "A"AGAB ABcd | e2fa "A7"e2Ae | "D"fdfg "A"aecA | "E7"cBAG "A"A2-A :|
+e \
+| "A"a2-ag agfe | "D"fdAf "A"e2ce | "D"fedf "A"e2ac | "B7"dcBA "E7"AGFE |
+|  "A"AGAB ABcd | e2fa "A7"e2Ae | "D"fdfg "A"afec | "E7"efge "A"a2-a |]
+%%center Book39/DunnotarCastleR_A_ABABC_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39122
+T: Dunnottar Castle
+C: John Robertson
+N: 40-bar version for the dance "The Duke and Duchess of Edinburgh"
+B: RSCDS 39-7(I)
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: E \
+|| "A"AGAB AGFE | AEAc e2dc | "E7"dcBd "A"cBAc | "Bm"BcdB "E7"AGFE |
+|  "A"AGAB AGFE | AEAc e2dc | "E7"dcBd "A"cBAc | "Bm"Bcd^d "E7"e^efg ||
+|| "A"a2-ag agfe | "D"fdAf "A"e2ce | "D"fedf "A"e2ac | "B7"dcBA "E7"AGFE |
+|  "A"AGAB ABcd | e2fa "A7"e2Ae | "D"fdfg "A"aecA | "E7"cBAG "A"A2-A :|
+e \
+| "A"a2-ag agfe | "D"fdAf "A"e2ce | "D"fedf "A"e2ac | "B7"dcBA "E7"AGFE |
+|  "A"AGAB ABcd | e2fa "A7"e2Ae | "D"fdfg "A"afec | "E7"efge "A"a2-a |]
+%%center Book39/DunnotarCastleR_A_ABABC_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39123
+T: Dunnottar Castle
+C: John Robertson
+B: RSCDS 39-7(I)
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+E2 \
+"A"\
+|: "A"AGAB AGFE | "A"AEAc e2dc \
+|  "D"dcBd "A"cBAc | "Bm"BcdB "E7"AGFE \
+|| "A"AGAB AGFE | "A"AEAc e2dc |
+|  "D"dcBd "A"cBAc | "Bm"Bcd^d "E7"e^efg \
+"B"\
+|[|"A"a2ag agfe | "D"fdAf "A"e2ce \
+|  "D"fedf "A"e2ac | "B(m)"dcBA "E7"AGFE |
+|  "A"AGAB ABcd | "A"e2fa "A7"e2Ae \
+|1 "D"fdfg "A"aecA | "E7"cBAG "A"A2e2 \
+:|2"D"fdfg "A"afec | "E7"efge "A"a2 |]
+%%center Book39/DunnotarCastleR_A_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39124
+T: Mr Dolph Morris' Strathspey
+C: Pete Kier
+R: strathspey
+B: RSCDS 39-4
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+c>B \
+| "F"A2 A>G "Dm"F>G A>F | "Gm"B>A G>F "C7"E<c d>e \
+| "F"f>e d>c "Bb"d>c B>A | "Gm"B>A G>F "C7"E2 c>B |
+| "F"A2 A>G "Dm"F>G A>F | "Gm"B<B G>F "C7"E<c d>e \
+| "F"f>e d>c "Bb"d<D F<B | "C7"A>C E<G "F"[F2A,2] |]
+c2 \
+| "F"A<c c>A "Gm"B>c d>B | "C7"G<B B>G "F"A>B c>A \
+| "Dm"F<A A>F "Gm"G>A B>G | "C"c<C C>C c<C C>c |
+| "F"A<c c>A "Gm"B>c d>B | "C7"G<B B>G "F"A>B c>A \
+| "Dm"f2 f2 "Bb"e>d c>B | "C7"A>C E<G "F"F2 |]
+%%center Book39/MrDolphMorrisStrathspey_F-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39125
+T: Mr Dolph Morris' Strathspey
+C: Pete Kier
+R: strathspey
+B: RSCDS 39-4
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+c>B \
+| "F"A2 A>G "Dm"F>G A>F | "Gm"B>A G>F "C7"E<c d>e \
+| "F"f>e d>c "Bb"d>c B>A | "Gm"B>A G>F "C7"E2 c>B |
+| "F"A2 A>G "Dm"F>G A>F | "Gm"B<B G>F "C7"E<c d>e \
+| "F"f>e d>c "Bb"d<D F<B | "C7"A>C E<G "F"[F2A,2] |]
+c2 \
+| "F"A<c c>A "Gm"B>c d>B | "C7"G<B B>G "F"A>B c>A \
+| "Dm"F<A A>F "Gm"G>A B>G | "C"c<C C>C c<C C>c |
+| "F"A<c c>A "Gm"B>c d>B | "C7"G<B B>G "F"A>B c>A \
+| "Dm"f2 f2 "Bb"e>d c>B | "C7"A>C E<G "F"F2 |]
+%%center Book39/MrDolphMorrisStrathspey_F_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39126
+T: The New Virginia Reel
+C: Muriel Johnstone
+R: reel
+B: RSCDS 39-3(a)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+|: d2 \
+| "G"G2Bd g2d2 | "D"bagf "G"g2d2 | "C"ecge "G"dBgd | "Am"cBAG "D7"AcBA |
+| "G"G2Bd g2d2 | "D"bagf "G"g3=f | "C"eceg "D7"fdfa | "G"g2b2 g2 :|
+|: f2 \
+| "G"g2dB GdBG | "Am"cBAG "D"A2f2 | "G"g2GA BGdc | "D"B2A2 A3 d |
+| "C"ecge "G"dBgd | "Am"cBAG "D"GFED | "C"ECEG "D7"FDFA | "G"G2B2 G2 :|
+
+%%center Book39/NewVirginiaR-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39127
+T: The New Virginia Reel
+C: Muriel Johnstone
+R: reel
+B: RSCDS 39-3(a)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+|: d2 \
+| "G"G2Bd g2d2 | "D"bagf "G"g2d2 | "C"ecge "G"dBgd | "Am"cBAG "D7"AcBA |
+| "G"G2Bd g2d2 | "D"bagf "G"g3=f | "C"eceg "D7"fdfa | "G"g2b2 g2 :|
+|: f2 \
+| "G"g2dB GdBG | "Am"cBAG "D"A2f2 | "G"g2GA BGdc | "D"B2A2 A3 d |
+| "C"ecge "G"dBgd | "Am"cBAG "D"GFED | "C"ECEG "D7"FDFA | "G"G2B2 G2 :|
+
+%%center Book39/NewVirginiaR_2-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39128
+T: The New Virginia Reel
+C: Muriel Johnstone
+R: reel
+B: RSCDS 39-3(a)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+|: d2 \
+| "G"G2Bd g2d2 | "D"bagf "G"g2d2 | "C"ecge "G"dBgd | "Am"cBAG "D7"AcBA |
+| "G"G2Bd g2d2 | "D"bagf "G"g3=f | "C"eceg "D7"fdfa | "G"g2b2 g2 :|
+|: f2 \
+| "G"g2dB GdBG | "Am"cBAG "D"A2f2 | "G"g2GA BGdc | "D"B2A2 A3 d |
+| "C"ecge "G"dBgd | "Am"cBAG "D"GFED | "C"ECEG "D7"FDFA | "G"G2B2 G2 :|
+
+%%center Book39/NewVirginiaR_JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39129
+T: Prince Charles of Edinburgh
+C: John Robertson
+O: RSCDS 39-9
+B: RSCDS 39-9(I)
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+   A2 \
+| "D"D2dc dBAF | "E7"E2ed "A"cABc | "D"d2DC DFAd | "A"ce2f "D"d2Ac |
+| "D"d2de dAFA | "Em"GABc "A"defg | "D"aAde fABd | "A"ce2c "D"d2 :|
+|: fa \
+| "D"d2af dAFD | CDFA d2fd | "G"efga "E7"gfed | "A"cdec AGFE |
+| "D"D2dc dAFA | "Em"GABc "A"defg | "D"afdf "G"edcB | "A"Aefe "D"d2 :|
+%%center Book39/PrinceCharlesOfEdinburghR-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39130
+T: Prince Charles of Edinburgh
+C: John Robertson
+O: RSCDS 39-9
+B: RSCDS 39-9(I)
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+   A2 \
+| "D"D2dc dBAF | "E7"E2ed "A"cABc | "D"d2DC DFAd | "A"ce2f "D"d2Ac |
+| "D"d2de dAFA | "Em"GABc "A"defg | "D"aAde fABd | "A"ce2c "D"d2 :|
+|: fa \
+| "D"d2af dAFD | CDFA d2fd | "G"efga "E7"gfed | "A"cdec AGFE |
+| "D"D2dc dAFA | "Em"GABc "A"defg | "D"afdf "G"edcB | "A"Aefe "D"d2 :|
+%%center Book39/PrinceCharlesOfEdinburghR_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39131
+T: Prince Charles of Edinburgh
+C: John Robertson
+R: reel
+B: RSCDS 39-9(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|| A2 \
+| "D"D2dc dBAF | "E7"E2ed "A"cABc | "D"d2DC DFAd | "A"ce2f "D"d2Ac |
+| "D"d2de dAFA | "Em"GABc "A"defg | "D"aAde fABd | "A"ce2c "D"d2 ||
+|| fa \
+| "D"d2af dAFD | CDFA d2fd | "G"efga "E7"gfed | "A"cdec AGFE |
+| "D"D2dc dAFA | "Em"GABc "A"defg | "D"afdf "G"edcB | "A"Aefe "D"d2 |]
+%%center Book39/PrinceCharlesOfEdinburghR_D16-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39132
+T: Prince Charles of Edinburgh
+C: John Robertson
+R: reel
+B: RSCDS 39-9(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|| A2 \
+| "D"D2dc dBAF | "E7"E2ed "A"cABc | "D"d2DC DFAd | "A"ce2f "D"d2Ac |
+| "D"d2de dAFA | "Em"GABc "A"defg | "D"aAde fABd | "A"ce2c "D"d2 ||
+|| fa \
+| "D"d2af dAFD | CDFA d2fd | "G"efga "E7"gfed | "A"cdec AGFE |
+| "D"D2dc dAFA | "Em"GABc "A"defg | "D"afdf "G"edcB | "A"Aefe "D"d2 |]
+%%center Book39/PrinceCharlesOfEdinburghR_D16_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39133
+T: Prince Charles of Edinburgh
+C: John Robertson
+O: RSCDS 39-9
+B: RSCDS 39-9(I)
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A2 \
+| "D"D2dc "(Bm)"dBAF | "E(m)"E2ed "A"cABc | "D"d2DC DFAd | "A"ceef "D"d2Ac | "D"d2de "(Bm)"dAFA |
+| "Em"GABc "A"defg | "D"aAde "(Bm)"fABd | "A7"ceec "D"d2 :: fa | "D"d2af dAFD | CDFA d2fd |
+| "Em"efga gfed | "A"cdec AGFE | "D"D2dc "(Bm)"dAFA | "Em"GABc "A"defg | "D"afdf "G"edcB | "A"Aeef "D"d2 :|
+%%center Book39/PrinceCharlesOfEdinburghR_D3-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39134
+T: Prince Charles of Edinburgh
+C: John Robertson
+O: RSCDS 39-9
+B: RSCDS 39-9(I)
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A2 \
+| "D"D2dc "Bm"dBAF | "Em"E2ed "A"cABc | "D"d2DC DFAd | "A"ceef "D"d2Ac | "D"d2de "Bm"dAFA |
+| "Em"GABc "A"defg | "D"aAde "Bm"fABd | "A7"ceec "D"d2 |]| fa | "D"d2af dAFD | CDFA d2fd |
+| "Em"efga gfed | "A"cdec AGFE | "D"D2dc "Bm"dAFA | "Em"GABc "A"defg | "D"afdf "Em"edcB | "A"Aeef "D"d2 |]
+%%center Book39/PrinceCharlesOfEdinburghR_D3_16-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39135
+T: Prince Charles of Edinburgh
+C: John Robertson
+O: RSCDS 39-9
+B: RSCDS 39-9(I)
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A2 \
+| "D"D2dc "Bm"dBAF | "Em"E2ed "A"cABc | "D"d2DC DFAd | "A"ceef "D"d2Ac | "D"d2de "Bm"dAFA |
+| "Em"GABc "A"defg | "D"aAde "Bm"fABd | "A7"ceec "D"d2 |]| fa | "D"d2af dAFD | CDFA d2fd |
+| "Em"efga gfed | "A"cdec AGFE | "D"D2dc "Bm"dAFA | "Em"GABc "A"defg | "D"afdf "Em"edcB | "A"Aeef "D"d2 |]
+%%center Book39/PrinceCharlesOfEdinburghR_D3_16_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39136
+T: Prince Charles of Edinburgh
+C: John Robertson
+O: RSCDS 39-9
+B: RSCDS 39-9(I)
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A2 \
+| "D"D2dc "(Bm)"dBAF | "E(m)"E2ed "A"cABc | "D"d2DC DFAd | "A"ceef "D"d2Ac | "D"d2de "(Bm)"dAFA |
+| "Em"GABc "A"defg | "D"aAde "(Bm)"fABd | "A7"ceec "D"d2 :: fa | "D"d2af dAFD | CDFA d2fd |
+| "Em"efga gfed | "A"cdec AGFE | "D"D2dc "(Bm)"dAFA | "Em"GABc "A"defg | "D"afdf "G"edcB | "A"Aeef "D"d2 :|
+%%center Book39/PrinceCharlesOfEdinburghR_D3_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39137
+T: Prince Charles of Edinburgh
+C: John Robertson
+O: RSCDS 39-9
+B: RSCDS 39-9(I)
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+   A2 \
+| "D"D2dc dBAF | "E7"E2ed "A"cABc | "D"d2DC DFAd | "A"ce2f "D"d2Ac |
+| "D"d2de dAFA | "Em"GABc "A"defg | "D"aAde fABd | "A"ce2c "D"d2 :|
+|: fa \
+| "D"d2af dAFD | CDFA d2fd | "G"efga "E7"gfed | "A"cdec AGFE |
+| "D"D2dc dAFA | "Em"GABc "A"defg | "D"afdf "G"edcB | "A"Aefe "D"d2 :|
+%%center Book39/PrinceCharlesOfEdinburghR_JC.abc
+
+% Special medley for 80-bar Robertson Rant:
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39138
+P: Struan Robertson's Rant
+O: Trad
+R: strathspey
+M: C
+L: 1/8
+K: EDor
+|: e \
+| "Em"E-<E G>A B>A B-<d | "D"D-<D F>E D/E/F/G/ A-<F \
+| "Em"E-<E G>A B>A B-<e | "D"d>B d>F "Em"E-<E E :|
+|: g \
+| "Em"e>f g>e b>e g>e | "D"f>e d>f a/g/f/e/ d-<f \
+| "Em"e>f g>e b>e g>e | "D"d>B A>F "Em"E-<E E :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39139
+P: Highland Whisky (twice)
+C: Neil Gow
+N: BSFC III-21 and III-45 and IV-10
+N: OTDT p.76
+B: RSCDS 2-5(b)
+N: Scots Guards 297
+N: Skye p.26
+N: 2nd measure of B part has F#, G or G# in various versions.
+Z: 1997 by John Chambers -<jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+|: E \
+| "A"A-<A A2 A>B c-<e | "Bm"B-<B B>c "E7"d>e f-<a \
+| "A"A-<A A2 A>B c>d |   ef/g/ a>c "E7"B2 "A"A> :|
+|| e \
+| "A"(3cBA e>A "D"f>A "A"e>A | "G"=G-<B B>A "E7"^G-<B B>e \
+| "A"(3cBA e>A "D"f>A "A"e>A |   ef/g/ a>c "E7"B2 "A"A> ||
+|| e \
+| "A"d/c/B/A/ e>A "D"f>A "A"e>A | "G"=G-<B B>A "E7"^G-<B B>e \
+| "A"A-<c "E7"B>d "A"c-<e "D"d>f | "A"ef/g/ a>c "E7"B2 "A"A |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39140
+T: Struan Robertson's Rant
+O: Trad
+R: strathspey
+Z: 1997 by John Chambers -<jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: EDor
+|: e \
+| "Em"E-<E G>A B>A B-<d | "D"D-<D F>E D/E/F/G/ A-<F \
+| "Em"E-<E G>A B>A B-<e | "D"d>B d>F "Em"E-<E E :|
+|: g \
+| "Em"e>f g>e b>e g>e | "D"f>e d>f a/g/f/e/ d-<f \
+| "Em"e>f g>e b>e g>e | "D"d>B A>F "Em"E-<E E :|
+|: F \
+| "Em"G>B E>B G-<B E>G | "D"F>A D>A F-<A D>A \
+| "Em"G>B E>B G-<B E>g | "D"f>d a>f "Em" e2- e :|
+|: f \
+| "Em"g-<b e>b g>e b>g | "D"f-<a d>a f-<a d>a \
+| "Em"g-<b e>g "D"f-<a d>e | "Bm"d/c/B/A/ d>F "Em"E-<E E :|
+
+%%center Book39/RobertsonRant-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39141
+T: Robertson's Hornpipe
+N: Tune for the 8x32H3 dance West's Hornpipe
+B: RSCDS 39-8
+B: RSCDS "Five Traditional Scottish Country Dances for 1965"
+R: hornpipe, reel
+B: Kerr (Merry Melodies) v.2 #334 p.37 c.1880
+B: Stewart-Robertson (The Athole Collection) p.300 1884
+Z: 2001 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+   bf | "Bb"d2B2 B2dB | "F"cAF2 F2BA | "Eb"GFED  "F7"EGFE | "Bb"D2B,2 B,2 ||
+y  bf | "Bb"d2B2 B2bf | "C7"g2=e2 c2BA | Bcd=e fage | "F"f2F2 F2 :|
+|: fe | "Bb"dB ~B2 dB ~B2 | "Eb"GE ~E2 GE ~E2 | "Cm"cdeg "(C7)"fdcB | "F"A2F2 F2 ||
+y  de | "Bb"fBAB "Eb"gBAB | "Bb"bBAB "Gm"fBAB | "Cm"Ggfe "F7"dcBA | "Bb"B2d2 B2 :|
+%%center Book39/RobertsonsH-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39142
+T: Robertson's Hornpipe
+N: Tune for the 8x32H3 dance West's Hornpipe
+B: RSCDS 39-8
+B: RSCDS "Five Traditional Scottish Country Dances for 1965"
+R: hornpipe, reel
+B: Kerr (Merry Melodies) v.2 #334 p.37 c.1880
+B: Stewart-Robertson (The Athole Collection) p.300 1884
+Z: 2001 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+   bf | "Bb"d2B2 B2dB | "F"cAF2 F2BA | "Eb"GFED  "F7"EGFE | "Bb"D2B,2 B,2 ||
+y  bf | "Bb"d2B2 B2bf | "C7"g2=e2 c2BA | Bcd=e fage | "F"f2F2 F2 :|
+|: fe | "Bb"dB ~B2 dB ~B2 | "Eb"GE ~E2 GE ~E2 | "Cm"cdeg "(C7)"fdcB | "F"A2F2 F2 ||
+y  de | "Bb"fBAB "Eb"gBAB | "Bb"bBAB "Gm"fBAB | "Cm"Ggfe "F7"dcBA | "Bb"B2d2 B2 :|
+%%center Book39/RobertsonsH_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39143
+T: Robertson's Hornpipe
+B: RSCDS Five for 1965
+R: reel
+B: Kerr's v.2 p.37 #334
+Z: T. Traub 9-22-97, revised by John Chambers
+M: 4/4
+L: 1/8
+K: Bb
+bf |\
+"Bb"d2B2 B2dB | "F"cAF2 F2BA | "Eb"GFED "F"EGFE | "Bb"D2B,2 B,2bf | "Bb"d2B2 B2bf |
+"C"g2=e2 c2BA | "C7"Bcd=e fage | "F"f2F2 F2 :: fe | "Bb"dBAB "Bb7"dBAB | "Eb"GEDE "Eb/D"GEDE |
+"Cm"cdeg "Eb"fecB | "F"A2F2 F2de | "Bb"fBAB "Eb"gBAB | "Bb"bBAB "Gm"fBAB | "Eb"Ggfe "F"dcBA | "Bb"B2B,2 B,2 :|
+%%center Book39/Robertsons_Hornpipe-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39144
+T: Struan Robertson's Rant
+O: Trad
+R: strathspey
+B: RSCDS 39-8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: EDor
+e \
+|: "Em"E<E G>A B>A B<d | "D"D<D F>E D/E/F/G/ A<F \
+| "Em"E<E G>A B>A B<e | "D"d>B d>F "Em"E<E E :|
+|: g \
+| "Em"e>f g>e b>e g>e | "D"f>e d>f a/g/f/e/ d<f \
+| "Em"e>f g>e b>e g>e | "D"d>B A>F "Em"E<E E :|
+|: F \
+| "Em"G>B E>B G<B E>G | "D"F>A D>A F<A D>A \
+| "Em"G>B E>B G<B E>g | "D"f>d a>f "Em" e2 e :|
+|: f \
+| "Em"g<b e>b g>e b>g | "D"f<a d>a f<a d>a \
+| "Em"g<b e>g "D"f<a d>e | "Bm"d/c/B/A/ d>F "Em"E<E E :|
+%%center Book39/StruanRobertsonsRant-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 39145
+T: Struan Robertson's Rant
+O: Trad
+R: strathspey
+B: RSCDS 39-8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: EDor
+e \
+|: "Em"E<E G>A B>A B<d | "D"D<D F>E D/E/F/G/ A<F \
+| "Em"E<E G>A B>A B<e | "D"d>B d>F "Em"E<E E :|
+|: g \
+| "Em"e>f g>e b>e g>e | "D"f>e d>f a/g/f/e/ d<f \
+| "Em"e>f g>e b>e g>e | "D"d>B A>F "Em"E<E E :|
+|: F \
+| "Em"G>B E>B G<B E>G | "D"F>A D>A F<A D>A \
+| "Em"G>B E>B G<B E>g | "D"f>d a>f "Em" e2 e :|
+|: f \
+| "Em"g<b e>b g>e b>g | "D"f<a d>a f<a d>a \
+| "Em"g<b e>g "D"f<a d>e | "Bm"d/c/B/A/ d>F "Em"E<E E :|
+%%center Book39/StruanRobertsonsRant_JC.abc

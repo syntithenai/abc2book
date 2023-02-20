@@ -1,0 +1,36 @@
+X: 503
+T: Sher 5 (Russian)
+O: Harry Kandel 1917
+B: Mel Bay Klezmer Collection
+N: "Harry Kandel - Russian Sher" Global Village 128
+M: 2/4
+L: 1/16
+K: Gm
+P:A
+|:"Gm"G2g2 ~d2c2 | ~c2 B4 ~A2 | G2g2 ~d2c2 | ~c2 B4 G2 \
+| "Bb"f3g _agfg | _agfe d2c2 | "D7"BcdB c2BA | "Gm"G8 :|
+P:B
+|:"Gm"g4- g2d2 | g4- g2d2 | g3d g3d | g3d g4 \
+| {a}b2b2 ~a2g2 | {a}b2b2 ~a2g2 | d'4 ~c'2b2 |  abc'b ~a2g2 |
+| {a}b2b2 ~a2g2 | "Cm"^fgag ~f2e2 | "D7"d^cde d=cBA |1 "Gm"G3A Bc (3de^f :|2 "Gm"G8 \
+P:C
+|:"Bb"B4 c4 | d2 B4 B2 |
+| "Eb"e3d e2g2 | "Bb"g2 {f}f6 \
+| f3g _agfg | _agfe ~d2cB \
+| "D7"BcdB c2BA |1 "Gm"G2AB cdeg :|2 "Gm"G8 |]
+P:D
+|:"Gm"g4- gf=ef | g6 d2 \
+| gdgd b2ag | .g4 z4 \
+| "Bb"fggf fggf | bagf edcB \
+| "D7"BccB BAAG | "Gm"G8 :|
+P:E
+|:"Cm"c'ggc' c'bba | "Bb"bffb baag | "F7"gabc' baga | "Bb"b8 \
+| "Cm"c'ggc' c'bba | "Bb"bffb baag |
+| "D7"gabc' baag | "Gm"g8 :| \
+P:F
+|:"Gm"g4- gd^cd | "Gm"g4- gd^cd \
+| gd^cd gd^cd | gd^cd g4 |
+| "Bb"fg_ag fedc | "Cm"cfcf c4 \
+| "B(F7)"BcdB "F7"c2BA | "Bb"B4 kb2z2 \
+| "Bb"fg_ag fedc | "Cm"cfcf c4 |
+| "D7"dccB BAAG | "Gm"G8 :| \

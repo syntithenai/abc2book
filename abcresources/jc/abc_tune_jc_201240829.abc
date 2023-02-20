@@ -1,0 +1,25 @@
+X: 4121
+T: Aitken Drum
+%R: air
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.12 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slowish"
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+G>A |\
+([B4G4] [B2G2])A[BG] | ([c4E4][c2E2]) BA | (B4 d2)BG | {B}TA>GAB A2G>A ||\
+([B4G4] [B2G2])AB | ([c4E4][c2E2]) BA | (B2.d2) (A2.B2) | {F}[G4D4B,4] [G2D2B,2] :|
+|: GA |\
+B2B2- B2{B}A>G | E2"_sf"E2- E2GE | {F}D2"_sf"D2- D2EG | {B}AGAB A2GA ||\
+{A}B2"_sf"B2- B2AG | E2"_sf"E2- E2GE | .D2D2 (DE)(GB) | {B}TA4 G2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |\
+G2A2 B2G2 | c2d2 e2f2 | z2g2 G4 | d4 D4 | G2A2 B2z2 | c2d2 e2f2 | g4 d4 | G2g2 G2 :|
+|: z2 |\
+[GG8]g Gg Bg Bg | [cG8]g"_sf"cg cgcg | [BG8]g"_sf"Bg BgGg | cBAG G2z2 ||\
+[GG8]g"_sf"Gg BgBg | [cG8]g"_sf"cg cgcg | [BG8]gBg (Bc).B.G | d2D2 G2 :|

@@ -1,0 +1,82 @@
+
+X: 1
+T: the Heights Of Cassino   [D]
+C: by P/M Dan MacRae
+R: jig
+S: BSFC Tune Book XXX-15
+B: BSFC Session Tune Book 2016 p.58
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dmix
+%%staffsep 38
+"A"[|]e \
+| "D"A>AA   "G"B<de |"D"f2a     f>ed \
+|"Em"e>ee      e2d  |"A"e<fe "G"d>BG \
+| "D"A>AA   "G"B<de |"D"f2a     f>ed \
+| "D"f>AA  "A7"e<fe |"D"d3      d2 :|
+"B"|: f/g/ \
+|  "D"a>fe     f3   |   f2a     f>ed \
+| "Em"e>ee     e2d  |"A"e<fe "G"d>BG \
+[1 "D"a>fd     f3   |"D"f2a     f>ed \
+|  "D"f>AA "A7"e<fe |"D"d3      d2 :|
+[2 "D"A>AA  "A"B<de |"D"f2a     f>ed \
+|  "D"f>AA "A7"e<fe |"D"d3      d2 :|\
+"C"|: f \
+|  "D"A>AA  "G"B>AG | "D"A>AA    f3 \
+|  "D"f2a      f>ed |"A7"e<fe "G"d>BG |
+|  "D"A>AA  "G"B>AG | "D"A>AA    f3 \
+|  "D"f>AA "A7"e<fe | "D"d3      d2 :|\
+"D"|: f/g/ |\
+|  "D"a>fe     d>ef | "D"A>AA    f3 \
+|  "D"f2a      f>ed |"A7"e<fe "G"d>BG |
+[1 "D"a>fe     d>ef | "D"A>AA    f3 \
+|  "D"f>AA "A7"e<fe | "D"d3      d2 :|\
+[2 "D"A>AA  "G"B>AG | "D"A>AA    f3 \
+|  "D"f>AA "A7"e<fe | "D"d3      d2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Heights of Cassino   [A]
+S: As played by Iain MacInnes (Smalltalk)
+Z: Nigel Gatherer scots-l 2004-11-6
+M: 6/8
+L: 1/8
+K: Amix
+B/c/ | E>EE E<FA | c2e  c>BA | B>BB B2A | B<cB A>FD |\
+       E>EE E<FA | c2e  c>BA | c2E  c2B | A3-  A2  :|
+c/d/ | e>cA c3   | c2e  c>BA | B>BB B2A | B<cB A>FD |\
+       e>cA c3   | c2e  c>BA | c2E  c2B | A3-  A2
+c/d/ | e>cA c3   | c2e  c>BA | B>BB B2A | B<cB A>FD |\
+       E>EE E<FA | c2e  c>BA | c2E  c2B | A3-  A2  |]
+z    | E3   F>ED | E>EE c3   | c2e c>BA | B<cB A>FD |\
+       E3   F>ED | E>EE c3   | c2E  c2B | A3-  A2  :|
+c/d/ | e>cA A>Bc | E>EE c3   | c2e c>BA | B<cB A>FD |\
+       e>cA A>Bc | E>EE c3   | c2E  c2B | A3-  A2
+c/d/ | e>cA A>Bc | E>EE c3   | c2e c>BA | B<cB A>FD |\
+       E3   F>ED | E>EE c3   | c2E  c2B | A3-  A2  |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Heights Of Cassino   [D]
+M: 6/8
+L: 1/8
+R: jig
+K: Dmix
+|: f \
+| A>AA (B<de) | (f2a) f>ed | e>fe (e2d) | (e<fe) d>BG \
+| A>AA (B<de) | (f2a) f>ed | f>AA (e<fe) | d3 d2 :|
+|: (f/>g/) \
+| a>fd f3 | (f2a) f>ed | e>fe e2 d | (e<fe) d>BG \
+| a>fd f3 | (f2a) f>ed | f>AA (e<fe) | d3 d2 :|
+|: f \
+| A2 A B>AG | A>AA f3 | (f2a) f>ed | (e<fe) d>BG \
+| A2 A B>AG | A>AA f3 | f>AA (e<fe) | d3 d2 :|
+(f/>g/) \
+| a>fe d>ef | A>AA f3 | (f2a) f>ed | (e<fe) d>BG \
+| a>fe d>ef | A>AA f3 | f>AA (e<fe) | d3 d2 ||
+(f/>g/) \
+| a>fe d>ef | A>AA f3 | (f2a) f>ed | (e<fe) d>BG \
+| (A2 A) B>AG | A>AA f3 | f>AA (e<fe) | d3 d2 |]

@@ -1,0 +1,26 @@
+X: 1
+T: My Own Home waltz
+C: trad.
+R: waltz, (slow pipe) march
+%D:1784
+S: Fiddle Hell Online 2021-11-04 Rodney Miller jam session
+S: printed page of unknown origin
+S: Patrick McDonald collection of 1784 with title "Posadh peathar In bhain"
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: Added missing G naturals in endings, to match the G major chords.
+M: 3/4
+L: 1/8
+K: A
+"^A"|: ed \
+|  "A"c3 B A2 | A2 c2 e2 | "D"a2 g2 f2 | "A"e4 d2 |\
+[1 "A"c3 B cB | "F#m"A2 B2 c2 | "Bm"d3 c d2 | "E"B4 :|
+|[2 "A"c3 A c2 | "G"B2 =G2 B2 | "A"A3 B A2 | A4 |]\
+"^B"[|] E2 \
+|  "A"A3 B c2 | c3 B c2 | e3 d c2 | c4 e2 |
+| "E7"d3 c d2 | B2 c2 d2 | "A"e2 c2 A2 | A2 c2 e2 |\
+|  "D"f3 d f2 | a2 g2 f2 | "A"e2 c2 A2 | "D"a4 d2 |
+|  "A"c3 A c2 | "G"B3 =G B2 | "A"A3 B A2 | A4 \
+"^C"|: e2 \
+|   "D"a3 g f2 | "A"e2 c2 e2 | "D"a3 g f2 | "A"e4 d2 |
+|[1 "A"c3 B cB | A2 B2 c2 | "E7"d3 c dc | B4 :|\
+ [2 "A"c3 A c2 | "G"B3 =G B2 | "A"A3 B cB | A4 |]

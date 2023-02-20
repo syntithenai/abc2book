@@ -1,0 +1,25 @@
+X: 20821
+T: Sawney's Pipe
+%R: air, reel
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.82 #1
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: There are no c notes, so this might actually be in D major, depending on the scale of Sawney's instrument.
+M: C
+L: 1/8
+K: Dmix
+|: "_Slow"\
+F2A2 a3g | (gf)(ed) TB3A |\
+F2A2 (gf)(ed) | B2d2 Hz4 |\
+(AF)(AB) d2(ef) | (af)(Ted) B3A |\
+FA Bb afTed | B2d2 Hz4 |\
+(de)(fg) a3(g/f/) |
+(gf)(ed) {d}e3A |\
+d2(ef) (gf)(ed) | {ga}b2 a2 Hz4 |\
+(g2f)a {a}b3a | gfTed B3A |\
+TF2A2 (gf)(ed) | B2d2 Hz4 ::\
+[M:9/8] "_Brisk"\
+(f/g/a)d ddd Tf2e |
+(f/g/a)d ddd Tb2a |\
+(f/g/a)d ddd TB2d | baf baf Te2d ::\
+d'3 afa b2a | d'3 afa g2e |\
+d'3 afa e2f | dAB dgf Te2d :|

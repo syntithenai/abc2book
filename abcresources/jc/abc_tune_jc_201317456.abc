@@ -1,0 +1,24 @@
+X: 1
+T: Noch a Glezel Vein   [Dm]
+N: "Another glass of wine"
+T: In a Rumanisher Shenk
+N: "In a Rumanian tavern"
+O: from Dave Tarras
+R: horra
+M: 3/8
+L: 1/16
+K: Dm
+"A"|:\
+"Dm"D3F Ad | F3A df | A3d fa | T^gf3 Ted |\
+^g{=b}a3 (3c'=ba | ^g3f (3fed | {^g}a4 a2 | d'6 |
+"Dm"D3F Ad | F3A df | A3d fa | T^gf3 Ted |\
+"Dm"^g{=b}a3 (3c'=ba | "G7"^g3f (3fed | "Dm"{^g}a3d ef | a^gf2 (3fed |
+"Dm"d3A "A7"fe |[1 "Dm"d2 z2 A,2 :|[2 "Dm"d3(^c/d/ ^d/e/f/^f/) "B"|: "Gm"^f2{a}g2g2 |\
+g4 {fg}fe | "Dm"e2{g}f2f2- | f4 Te>d | "A7"{^df}e4 e2 |
+e3A B^c | "Dm"d3e f2g2 | a^gf2 (3fed | "Gm"^f2{a}g2d'2 |\
+g4 {fg}fe | "Dm"e2 ({g}f2 a2) | f4 {fg}(3fed | "Am"{^df}e4 e2 |
+{e}a3A B^c | "Dm"d3f af |[1 d3(^c/d/ ^d/e/f/^f/) :|[2 "Dm"d4 "A7"A2 "C"|:\
+"Dm"d3f fe | "A7"e3g gf | "Dm"f3a ag | "Gm"g3b ba |
+"Dm"a3^g gf | "A7"f3e ed | "Dm"^ga3- a2 | Td'6 |\
+"Dm"d3f fe | "A7"e3g gf | "Dm"f3a ag | "Gm"g3b ba |
+"Dm"a3^g gf |[1 "A7"f3e ed | "Dm"d2 zdAF | D2 z2 "A7"A2 :|[2 "A7"f3e a^c | "Dm"d2 zd'af | d4 z2|]

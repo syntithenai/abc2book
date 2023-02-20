@@ -1,0 +1,85 @@
+
+X: 1
+%T: 花
+T: Hana
+T: Flower
+%C: 詞,曲, 喜納晶吉
+C: Lyrics, music by Kina Shoukichi
+N: Translation by Mink
+F: http://www.uighurbiz.net/bbs/viewthread.php?tid=176586 2010-3-23
+F: http://www.youtube.com/watch?v=-2k1xfFxOk8
+F: http://www.youtube.com/watch?v=fyVKAn2Y1n0
+F: http://www.youtube.com/watch?v=y34Lneyp5yA
+M: 2/4
+L: 1/8
+K: C
+[| "C"z2G,G, G,2A,2 | "Am"z2CD E2C2 | "Dm"DEDC "G7"A,2B,2 | "C"C4 z4 \
+|  "G"z2G2 G2A2 | "Am"c3c c2G2 | "F"AcAG E2DE | "G7"G4 z4 |
+|  "C"z2G,G, G,2A,2 | "Am"C3D E2C2 | "F"D2E2 c2A2 | "G7"G4 E2G2 \
+|  "C"zEEF E2{D}D2 | "Dm"zDDE D2{C}C2 | "G7"B,B,B,B, B,CD2 | "C"C8 ||
+|: "G"z2GG G2A2 | "Am"c8 | "F"zccd c2A2 | "G7"G4 E2G2 \
+|  "Am"zEEF E2{D}D2 | "Dm"zDDE D2{C}C2 | "G7"zB,B,B, B,CD2 | "C"C4 :|
+%
+%W:川は流れて どこどこ行くの 人も流れて どこどこ行くの
+%W:そんな流れが つくころには 花として 花として 咲かせてあげたい
+%W:泣きなさい 笑いなさい いつの日か いつの日か 花を咲かそうよ
+%
+W:kawa wa nagarete dokodoko yuku no hito mo nagarete dokodoko yuku no
+W:sonna nagare ga tsuku koro ni wa hana to shite hana to shite sakasete agetai
+W:nakinasai, warainasai, itsu no hika itsu no hika hana wo sakasou yo
+W:
+W:The river flows and goes far. People also flow and go far.
+W:When that flow arrives, I want to make flowers bloom as flowers.
+W:Cry. Laugh. One day, let's make the flowers bloom.
+W:
+%W:涙流れて どこどこ行くの 愛も流れて どこどこ行くの
+%W:そんな流れを この胸に 花として 花として むかえてあげたい
+%W:泣きなさい 笑いなさい いつの日か いつの日か 花を咲かそうよ
+%W:
+W:namida nagarete doko doko yuku no ai mo nagarete doko doko yuku no
+W:sonna nagare wo kono uchi ni hana to shite hana to shite mukaete agetai
+W:nakinasai, warainasai, itsu no hika itsu no hika hana wo sakasou yo
+W:
+W:Tears flow and go far. Love also flows and goes far.
+W:I want to take that flow in my heart and welcome it with flowers.
+W:Cry. Laugh. One day, let's make the flowers bloom.
+W:
+%W:花は花として笑いもできる 人は人として涙も流す
+%W:それが自然の歌なのさ 心の中に 心の中に 花を咲かそうよ
+%W:泣きなさい笑いなさい いついつまでもいついつまでも 花をつかもうよ
+%W:
+W:hana wa hana to shite warai mo dekiru hito wa hito to shite namida mo nagasu
+W:sore ga shizen no uta nano sa kokoro no naka ni kokoro no naka ni hana wo sakasou yo
+W:nakinasai, warainasai, itsu itsu mademo, itsu itsu mademo hana wo tsukamouyo
+W:
+W:Flowers can laugh as flowers. People can cry as people.
+W:That is a song of nature. In our hearts, in our hearts, let's make the flowers bloom.
+W:Cry. Laugh. One day, as long as you like, let us catch flowers.
+W:
+%W:泣きなさい 笑いなさい いつの日か いつの日か 花を咲かそうよ
+W:nakinasai, warainasai, itsu no hika itsu no hika hana wo sakasou yo
+W:Cry. Laugh. One day, let's make the flowers bloom.
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2
+%T: 花
+T: Hana
+T: Flower
+%C: 詞,曲, 喜納晶吉
+C: Lyrics, music by Kina Shoukichi
+O: Okinawa
+F: http://www.uighurbiz.net/bbs/viewthread.php?tid=176586 2010-3-23
+F: http://www.youtube.com/watch?v=-2k1xfFxOk8
+F: http://www.youtube.com/watch?v=fyVKAn2Y1n0
+F: http://www.youtube.com/watch?v=y34Lneyp5yA
+M: 2/4
+L: 1/8
+K: G
+[| "G"z2DD D2E2 | "Em"z2GA B2G2 | "Am"ABAG "D7"E2F2 | "G"G4 z4 \
+|  "D"z2d2 d2e2 | "Em"g3g g2d2 | "C"eged B2AB | "D7"d4 z4 |
+|  "G"z2DD D2E2 | "Em"G3A B2G2 | "C"A2B2 g2e2 | "D7"d4 B2d2 \
+|  "G"zBBc B2{A}A2 | "Am"zAAB A2{G}G2 | "D7"FFFF FGA2 | "G"G8 ||
+|: "D"z2dd d2e2 | "Em"g4 g4 | "C"zgga g2e2 | "D7"d4 B2d2 \
+|  "Em"zBBc B2{A}A2 | "Am"zAAB A2{G}G2 | "D7"zFFF FGA2 | "G"G4 :|

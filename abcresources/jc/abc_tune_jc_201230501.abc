@@ -1,0 +1,36 @@
+X: 13
+T: Johnny Grot's House	
+%R: reel
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Initial pickup note c changed to quarter note, to agree with other beginnings and endings.
+N: Final repeat symbol added to agree with the 2nd strain's initial repeat.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+c2 |\
+fff2 f2a2 | fff2 f2a2 | f3gf2A2 | G6 A2 |\
+FFF2 F2A2 | FFF2 F2f2 | c3dc2A2 | F6 :|
+|: AB |\
+c3dc2A2 | ccc2 c2f2 | c3dc2a2 | {a}g6 (fg) |\
+aaa2 a2d2 | ggg2 g2c2 | fff2 A2G2 | F6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z2 |\
+f8- | f8 | f4 d4 | e4 c4 |\
+f8- | f8 | f4 c'4 | f6 :|\
+|: z2 | "6"a4 z2f2 |
+"6"a4 z2f2 | "6"a4 z2f2 | e4 c4 |\
+f4 z4 | "6"e4 z4 | "6"A2"6;5"B2 "6;4"c2"3"E2 | F6 :|
+%%begintext align
+%% The first Man foot it to his Partner & turn the 2d Wo. & stop in the 2d Man's Place and the 2d Man turn
+%% the 1st Wo. at the same Time. the 1st Man was turning the 2d Wo. & stop in the 1st Man's Place | Then the
+%% 2d Man foots it to the 1st Wo. & turns his own Partner & stops in his own Place; & the 1st Man turns his
+%% Partner at the same Time & stope in his own Place   First & 2d Cu. lead downwards a breast and
+%% Hands half Round then lead up abreast & cast into the 2d Couple's Place.
+%%endtext

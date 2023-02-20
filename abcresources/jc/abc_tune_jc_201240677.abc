@@ -1,0 +1,25 @@
+X: 4063
+T: Mrs Stewart Nicholson's    Strathspey
+C: By Nath. Gow
+%R: strathspey, air
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.6 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slowish"
+K: Eb
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 6-bar lines, for compactness and proofreading.
+V: 1 staves=2
+B |\
+TG>FEG C<C "_sf"[F2C2] | (E/D/)C/B,/ TB,C/D/ .E.G.B.e |\
+{A}G>FEG C<C "_sf"[F2C2] | (E/D/)C/B,/ CD TE2E :|\
+c | Be ef/g/ fcc>f | {e}d>c Bc/d/ e/f/g/a/ b>e |
+Be ef/g/ acTc>f | {e}d>c (B/c/d/)B/ {d}e2 E>c ||\
+Be ef/g/ acTc>f | {e}d>c Bc/d/ e/f/g/a/ b>c |\
+B<ec<e B<cGE | (E/D/)C/B,/ CD E2E |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | e2E2 A2=A2 | B2_A2 G2E2 | e2E2 A2"_sf"=A2 | B2_A2 G2E :| z | e2e2 a2=a2 | b2_a2
+g2e2 | e2e2 a2=a2 | b2_a2 g2e2 || e2e2 a2=a2 | b2_a2 g2e2 | g2a2 g2e2 | B2_A2 G2E |]

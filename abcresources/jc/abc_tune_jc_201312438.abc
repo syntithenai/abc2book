@@ -1,0 +1,24 @@
+X: 1
+T: Monaghan Jig
+C: trad. arr. Pan Mangan
+%D:
+R: jig
+S: Fiddle Hell Online 2022-4-5 handout for Pan Mangan jig workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Initial repeats and part labels (A_D) added to simplify reading.
+N: The 2 initial pickup notes conflict with the ending; not fixed.
+M: 6/8
+L: 1/8
+K: Em
+"^A"[|] dc |\
+BGE- {F}EDE | BG(E F)GA | BGE ~B3 | AF(D F)GA ||\
+BGE- {F}EDE | BG(E F)GA | udc(B A)B(G | F)D(F A)FD :|
+"^B"|:\
+EGB e2(g | f)ed edc | EFG BA(G | F)DF AF(D ||\
+E)GB ef(g | f)ed ed(c | d)cB AB(G | F)D(F A)FD :|
+"^C"|:\
+(g2e) eBe | gf(g  b)ge | ~g3 eB(e | f)af dfa ||\
+(g2e) eBe | gf(g  b)ge | dcB AB(G | F)DF AFD :|
+"^D"|:\
+EG(A e)BG | BG(E F)AF | EG(B e)BG | F3 AG(F ||\
+E)GB GBe | Bd(g e)gb | fed AB(G | F)DF AFD :|

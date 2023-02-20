@@ -1,0 +1,26 @@
+X:1
+T: Dover Pier
+N:
+C:
+S:
+A:
+O:
+R:
+M:2/4
+K:C
+I:speed 180
+%W: A
+% voice 1 (1 lines, 30 notes)
+K:C
+M:2/4
+L:1/16
+d2 |c2 e2 E2 G2 |F2 D4 A2 |d2 f2 A2 c2 |B2 G4 B2 |c2 e2 f2 a2 |g2 e2 d2 c2 |G2 B2 d2 f2 |e2 c4 d2 |
+%W:
+% voice 1 (1 lines, 29 notes)
+c2 e2 E2 G2 |F2 D4 A2 |d2 f2 A2 c2 |B2 G4 B2 |c2 e2 f2 a2 |g2 e2 d2 c2 |G2 B2 d2 f2 |e2 c4 g2 |
+%W: B
+% voice 1 (1 lines, 31 notes)
+g2 e2 d2 e2 |c2 c'2 b2 a2 |g2 e2 d2 c2 |B2 d2 B2 G2 |A2 c2 e2 G2 |F2 A2 d2 F2 |D2 G2 B2 d2 |e2 c4 g2 |
+%W:
+% voice 1 (1 lines, 30 notes)
+g2 e2 d2 e2 |c2 c'2 b2 a2 |g2 e2 d2 c2 |B2 d2 B2 G2 |A2 c2 e2 G2 |F2 A2 d2 F2 |D2 G2 B2 d2 |e2 c4 ||

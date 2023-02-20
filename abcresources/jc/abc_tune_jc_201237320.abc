@@ -1,0 +1,19 @@
+X: 253
+T: Orange Tree
+%R: hornpipe, reel
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: John Treat - "Gamut for the Fifes", 1779, p.24 #3
+F: https://archive.org/details/GamutFortheFifes
+N: The rhythms in both final bars wrong; fixed with added dots and a rest.
+N: The little 'g' in above bar 10 might be an alternate note.
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+GFGA GcBA | G2g2 d2cB | AGAB cdef | gdBG FAFD |\
+GFGA GcBA | g2d2 cBAG | edcB dcBA | G2G2 G4 :|
+|:\
+B3c d2d2 | g2ge edcB | c2c2 B2B2 | ABAG GFED |\
+B3c d2d2 | g2ge edcB | a2a2 g2g2 | fgaf g4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

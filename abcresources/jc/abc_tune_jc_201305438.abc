@@ -1,0 +1,27 @@
+X: 1
+T: Madam Betty
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (148)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+e2 |\
+cBA2 cdef | e2E2 E2c2 | B2A2 G2A2 | BABc B2ed |\
+cBA2 cdef | e2E2 E2c2 | B2A2 GABG | A6 :|
+|: e2 |\
+cde2 fefg | a2e2 e2fe | d2c2 B2A2 | e6 e2 |\
+fgf2 efe2 | ded2 cdc2 | B2A2 eag2 | a2A2 A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. go the whole Figure thro the 2d Cu.
+%% then cast off and lead with inside of the 3d Cu. and cast
+%% up into the 2d Cu. Place :| Then lead up thro the 2d
+%% Cu. and cast off then right and left Hands round and
+%% sett to your Partner and cast off :|
+%%endtext
+%%sep 1 8 500

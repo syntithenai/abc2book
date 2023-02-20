@@ -1,0 +1,31 @@
+X: 10852
+T: COTILLION No. 8. tune 7
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.85 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+decd BcAB | GBAF GDB,D |\
+decd BcAB | GBAF G2G2 H:|\
+.D.F.A.F .A.c.A.F | .E.G.B.G .B.d.B.G |
+.D.G.B.d .g.f.e.d | .c.B.A.G .G.F.E.D |\
+.D.F.A.F .A.c.A.F | .E.G.B.G .B.d.B.G |\
+DGBd  gbag | gbaf g2g2 |]
+K: Gm
+d2d2b3d | c2c2a3c |\
+B2B2 c2cd | ecBG GF=ED |\
+d2d2b3d | c2c2 {c}a3c |\
+B2c2 dBec | BAG^F "^D.C."G4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across partners,
+%% grand chain,
+%% all balance partners, &c.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

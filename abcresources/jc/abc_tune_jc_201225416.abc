@@ -1,0 +1,49 @@
+X:94
+T:Germantown Hook
+C:Melody by Ed Olsen
+C:Harmony by A. Terreri, Mike Chioda
+M:6/8
+Q:1/8=300
+%%staves [1 2 3 4]
+K:G
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+B|E2F G2A|B2c BAG|A2G F2D|E3  E2F|G2A B2c|d2e d2B|
+c<Az d2c|B3 Bcd|e2f gfe|f3 g2f|e2d B2A|B<Ez F2G|
+A2B cde|d2B GAB|A2G E2D|E3-E2|]
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+B|B3-B2^d|e2e eee|e2A d2A|B3-B2B|g2g g2e|f2g f2^d|
+^d<dz A2A|(^d3 G)AA|A2c edc|(d3 A2)c|A2A ^d2d|e<ez F2G|
+(F3 g)fg|f2d GFG|F2E E2F|G3-G2|]
+V:3
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+B|E3-E2F|G2A GFE|F2E A2F|G,3-G,2D|B2E B2A|A2A A2F|
+F<Fz F2F|(F3 E)FF|G2A ccA|(A3 E2)A|G2F F2F|G<Gz D2E|
+(E3 A)AA|G2G E3-|E2C C3|B,3-B,2|]
+V:4
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+B|E3-E2C|B,2E CCC|C2C C2C|G,3-G,2B,|D2C D2F|C2C C2B,|
+C<Cz C2C|(B,3 E2)C|C2E AAF|C3-C2E|C2C B,2C|B,<B,z C3|
+(C3 E)CC|B,2E C3-|C2A, A,3|G,3-G,2|]
+%%begintext
+This selection is played at March Tempo.  But also
+has a beautiful choral effect for strings or
+fifes, no drums at slower tempo.
+%%endtext

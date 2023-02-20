@@ -1,0 +1,740 @@
+
+X: 2
+T: Blue Bonnets over the Border
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.27
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: C
+c3 c3 | ced cAG | cAA A2A | agf edc |\
+c>dc c2c | ced cAG | fga ged | cde {e}d2c ||
+ceg gec | agf edc | ceg abc' | c>dc cAG |\
+ceg gec | age edc | fga gc'c | cde {e}d2c |]
+
+
+%%sep 5 1 500
+
+X: 3
+T: The Bonnie Pit Lad
+R: jig
+M: 6/8
+L: 1/8
+N: Fixed several notes with obviously wrong lengths, in bars 7, 8 and 12.
+N: These all appear to be omitted flags and an extraneous beam.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.21
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: d
+A |\
+dfd cAc | dfd cAc | e3 c2A |\
+dfd cAc | def ged | d3 D2 ||
+A |\
+def g2e | f2d faf | e3 c2A |\
+def gfe | faf gec | d3 D2 ||
+A |\
+dcB AGF | GAB cAc | e3 c2A |\
+dcB AGF | GAB Adc | d3 D2 |]
+
+
+%%sep 5 1 500
+
+X: 4
+T: Frederick's Hornpipe
+C: Daniel Dow (1732-1783)
+R: reel
+M: C|
+L: 1/8
+N: Not known elsewhere, this is a good hornpipe with an intriguing attribution to
+N: McKenzie (see also the Rondo on p. 78).
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.73
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: G
+D2 |\
+G3A BGdB | ABcd efga | b2ag fedc | BdgB dcAF |
+G3A BGdB | ABcd efga | b2ag fedc | BAGF G2 :|
+|: d2 |\
+g3a bgbg | afed gabg | e3f agfe | edcA "/"G2"/"F2 |
+G3A BGdB | ABcd efga | b2ag fedc | BAdF G2 :|
+
+
+%%sep 5 1 500
+
+X: 5
+T: Grace Darling
+T: Cader Idris
+T: Jenny Jones
+C: Daniel Dow (1732-1783)
+R: waltz, air
+M: 3/4
+L: 1/8
+N: This is a Welsh air renamed for the Northumbrian heroine. The variation is tasteful but does
+N: not  keep  strictly to the tune's harmony in strain 2; Tom Clough later wrote variations for
+N: this under its more common name of Jenny Jones.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.88-89
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: G
+d |\
+g2 dcBA | (G3ABG) | c2e2(ag) | f3ed2 |\
+g2d2B2 | c3de2 | d2g2f2 | g4 :|
+|: g2 |\
+b2g2b2 | a2f2d2 | g2e2(ag) | f2e2d2 |\
+b2g2b2 | a2f2d2 | g2f2e2 | d3.e.f.d |
+(g2dc)BA | G2GABG | cBceag | f3ed2 |\
+g2d2B2 | c3de2 | d2g2f2 | g4 :|
+|:  d2 |\
+.g.f.g.d.B.d | GFGBdB | cBceag | fefdef |\
+gfgdBG | cBcdec | d^cdefd | g4 :|
+|: g2 |\
+bagabg | agfgaf | gfefge | fdAdfa |\
+bgdgbg | afdfaf | agfe(a^c) | (d3=cBc) |
+dBGBdg | ecegec | df.a.f.a.f | g2(bg)(bg) |\
+g3dB2 | c3de2 | d2a2f2 | g4 :|
+
+
+%%sep 5 1 500
+
+X: 6
+T: Grimaldy's hornpipe
+C: Daniel Dow (1732-1783)
+R: hornpipe, reel
+M: C|
+L: 1/8
+N: This is not a particularly rare tune, but a unique version of strain 2 with its 4th string notes.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.83
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: G
+D2 |\
+G2G2 GBAc | B2B2 Bdce | dgfe dcBA | GBdB cAFD |
+G2G2 GBAc | B2B2 Bdce | dgfe dcBA | A2G2 G2 :|
+|: (DC) |\
+B,GDG | B,GDG | CGEG CGEG | cAFD | cAFD | BGDB, BGDC |
+B,GDG B,GDG | CGEG CGEG | cAFD cAFD | G2G2 G2 :|
+
+
+%%sep 5 1 500
+
+X: 7
+T: The Hens March
+R: reel
+M: none
+L: 1/8
+N: Although best known today in the Scottish version deriving from Robert Bremner, there are a
+N: number of texts of a distinct local version of this tune, usually in C as here (despite the
+N: key signature) and probably for smallpipes, Border pipes, or both. It may be that there was
+N: no fixed form for the tune as versions differ so much; none so far seen stands out as being
+N: definitive, and this one is rather wayward. More investigation is needed.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.58
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+N: Some measures have an odd number of beats.  Staff breaks are as in the MS.
+K: C
+G | cdef g3a/g/ | f/e/ d/e/ f2 g/f/ | e/d/c/d/ egfe | dcBA G3 (e/f/) | gfeg
+fedf | edce G3 | c2b2 c2d2 egf/e/ | edcB Hc2 :||: .c.c.c.c .c.c. e.g  | cc (eg) | cc
+g>f (eg) | cdcd (eg) (cd) (eg) | cdcd cdBd | cBcd (eg) cd (eg) | cg/f/ (eg) cd
+(eg) | dcBA GABG | cBcd egfe | edcB c2 | fedc edcB | dcBA GABG |
+cBcd egfe | edcB c2 :|
+
+
+%%sep 5 1 500
+
+X: 8
+T: Hornpipe
+R: hornpipe, reel
+M: C|
+L: 1/8
+N: This tune is unidentified - one for the hornpipe enthusiasts.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.7
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: G
+dc | BcdB GBdg | fgaf d2Bd | .c(ag).c .B(gd).B | A2A2 A2dc | BcdB GBdg |
+fgaf dfad' | ^c'bag fed"(#)"c | d2d2 d2 :||: Bc | dBgd bgdB | cAfc afdc |
+Bdgf edcB | A2A2 A2D2 | GBdg bgbg | efge d2c2 | Bdgb c'afa | g2g2 g2 :|
+
+
+%%sep 5 1 500
+
+X: 9
+T: Hornpipe
+T: Good for the Tongue
+T: Jenkins' hornpipe
+T: Washington hornpipe
+R: hornpipe, reel
+M: C|
+L: 1/8
+N: This tune was in smallpiper Joe Hutton's repertoire as the Washington Hornpipe (in G);
+N: the fiddle original is in Bb. Some passages in strain 2 here are a little different from
+N: versions usually heard.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.12
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: C
+|: cdef gcBc | acbc c'cBc | Af Ge Fd Ec | Acfd cBAG |
+   cdef gcBc | acbc c'cBc | Af Ge Fd Ec | edcB c4  :|
+|: gcBc acBc | abc'b a^gae | a^gae fefc | Bdfd cBAG |
+   cdef gcBc | acbc c'cBc | Af Ge Fd Ec | edcB c4  :|
+
+
+%%sep 5 1 500
+
+X: 10
+T: The Italian Manfreda
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.21
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: G
+D |\
+GAB BcA | AGG G2B/c/ | dBG GAF | AGG G2D |\
+GAB BcA | AGG G2G | FDF FGA | {B}AGG G2 :|
+|: g |\
+gfg afc | cBd d2g | gfg afc | cBc d2d |\
+{a}gfg {a}gfg | ece efg | ded cBA | {B}AGG G2 :|
+
+
+%%sep 5 1 500
+
+X: 11
+T: Jack Latin
+R: reel
+M: 2/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.7
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: G
+|: GBdB ecdB | GBdB c2BA | GBdB ecdB | cAAB c2BA :|
+|: gdBd gdBd | gdBd c2BA | gdBd gdBd | ceAB c2BA |
+   gdBd gdBd | gdBd c2BA | gfed edeg | aAAB c2BA :|
+
+
+%%sep 5 1 500
+
+X: 12
+T: Kinlock of Kinlock variations
+T: Blow the wind southerly
+T: Blaw the wind sutherly
+C: W.M.K.
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.74-75
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: D
+(e/f/) !Segno!|:\
+f>ed A<FA | B<GB A<Fd | f>ed A<FA | Bec d2 (de) |\
+f>ed A<FA | B<GB A<Fd | f>ed Bba | gfe d2 :|
+|: a |\
+f2a e2a | dcd cea | f2ae2a | ef^g a2a |\
+f2a e2a | dcd cea | f2f e2e | ef^g ag=g !Segno!:|
+L:1/16
+"Var.1"de |\
+f3ed2 AdFdAd | BdGdBd AdFdAd | f3ed2 AdFdAd | BdceAc d2D2 (de) |
+f3ed2 AdFdAd | BdGdBd AdFdAd | f3ed2 B2b2g2 |((3geg)((3fdf) ((3ece) d4 :|
+ag |\
+fadafa eacaea | dacaB^g  a2A2 (a=g) | fadafa eacaea | ^gbegbg a4 (a=g) |
+fadafa eacaea | dacaB^g a2A2 (a=g) | fadafa e4 e2 | e2f2^g2 a2^g2=g2 !Segno!|]
+"Air"f3ed2 AF3A2 | BG3B2 AF3A2 | f3ed2 AF3A2 | B2B2c2 d4 (de) |\
+f3ed2 AF3A2 | BG3B2 AF3 (de) | f3ed2 B2b2a2 | ((3geg) ((3fdf) ((3ece) d4 H|]
+
+
+%%sep 5 1 500
+
+X: 13
+T: Knowle Park
+T: Knole Park
+R: reel
+M: C|
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.33
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: G
+dc | Bdg2 Bdg2 | fa c'4 dc | Bdg2 eac'a | g4 {ag}f2dc | Bdg2 Bdg2 |
+fa c'4 dc | Bgec' bgaf | g2g2 g2 :||: fg | ad'bg fage | {e}d^cde {g}fefg |
+ad'bg fage | dd'^c'd' =c'afd | Bdg2 Bdg2 | fa c'4 dc | Bgec' bgae | g2g2 g2 :|
+
+
+%%sep 5 1 500
+
+X: 14
+T: The Lady of the Lake
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.27
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: G
+|: B>cA G2D | E2D G2D | B>cA G2B | A2d d3  |\
+   B>cA G2D | E2D G2D | G2D  B2A | GBA G3  :|
+|: B>cB B2A | B2c d3  | g2f  e2d | dcB A2A |\
+   B>cB B2A | B2c d3  | g2f  a2g | fae d2c :|
+
+
+%%sep 5 1 500
+
+X: 15
+T: Lord St. Vincent's hornpipe
+T: Vinton's hornpipe
+R: hornpipe, reel
+M: C|
+L: 1/8
+N: This tune is uncommon but not unique, it can also be found in in Ryan's
+N: Mammoth Collection (Boston, 1883), a little different and in Bb.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.25
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: C
+gf | e2c2 c2ec | dcBA G2GF | EGcG Afdc | dcBA G2gf | e2c2 c2ag |
+f2d2 d2dc | Bdgb aba^f | g2g2 g2 :||: gf | ecBc ecBc | AFEF AFEF |
+defe fedc | BcdB G2ef | gcBc acBc | bcBc c'cBc | Acdf ecdB | c2c2 c2 :|
+
+
+%%sep 5 1 500
+
+X: 16
+T: Maid of Saragossa
+T: Earl Grey's waltz
+R: waltz
+M: 3/4
+L: 1/8
+N: Another version of this tune, Earl Grey's Waltz, is in Christpher Liddell's manuscript  (see  The
+N: Morpeth  Rant,  Dragonfly  Music,  1990,  a  little easier to read than this..).  Both have three
+N: strains but not the same three - 1 and 3 here are Liddell's 1 and 2 - so that combining  the  two
+N: would  give four strains.  The title here suggests, but does not prove, that Liddell's title is a
+N: local renaming.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.24
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+N: This tune is very poorly written, and some notes here man not be what was intended. [jc]
+K: D
+   A2 |   f3 cdB |   BAFAFA |   AGEGEG |   BAFAFA | f2 fcdB | BAFAFA  | AG E2c2 | d4 :|
+|: A2 |{A}G2EGEG |{B}A2FAFA |{A}G2EGEG |{B}A2FAFA | f3  cdB | BA FAFA | BA E2c2 | d4 :|
+   d2 |   c3 Ace |   e3 Adf |   e2dfga |  ba gfed | c2 cBce | d2 dAdf | efgece  | d4 |]
+
+
+%%sep 5 1 500
+
+X: 17
+T: the May Fly
+T: Hexham quadrille
+T: I'll get wedded in my auld claes
+R: jig
+M: 6/8
+L: 1/8
+N: The same version of this tune with the same title is in Joseph Crawhall's tune book, so one was
+N: probably copied from the other; Crawhall also has a more standard version called Hexham Quadrille.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.25
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+N: This tune seems incomplete; the 2nd part ends after 4 bars, plus a long dash.
+N: The ending of the first tune is a bit strange, but there are no flags visible.
+N:
+K: G
+d2 | gfe dBG | BAG E2D | GAB AFD | GAB cge |
+age dBG | BAG E2D | GAB AFD | D2 G2 G2 :|
+|: e | dBd gfg | ece a2g | fef def | gba gfe |
+%%text The last four bars are missing; other versions have something like:
+dBd gfg | ece a2g | fed cBA | BGG G2 :|
+
+
+%%sep 5 1 500
+
+X: 18
+T: The Meeting of the Waters
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840)
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+N: The 7-count bar 9 is clear in the MS.
+K: G
+d>c | BAG AGE | DEG A2A/B/ | cBA ABG |dBG A2A/B/ |
+cBA ABG | dBG HA2G/A/ | BAG GED | DEG Hc2B/A/ | BAG G<ED2 | DEG G2 |]
+
+
+%%sep 5 1 500
+
+X: 19
+T: Miss Spicer
+T: Mrs Spicer's fancy
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.22
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: Bb
+f/e/ |\
+d2d ede | f2d b2g | f2d BAB | {AB}c2A F2f/e/ |\
+d2d ede | f2d b2g | fdB {d}cBc | B3- B2 :|
+|: A/B/ |\
+c2c cde | {de}f2d B2B/A/ | G2G GAB | {AB}c2A F2A/B/ |\
+c2c cde | f2d b2g | fdB BAc | (d3 c2) :|
+
+
+%%sep 5 1 500
+
+X: 20
+T: Money Musk
+T: Sir Archibald Grant of Monemusk's reel
+C: Daniel Down (1732-1783)
+R: strathspey
+M: C|
+L: 1/8
+N: This tune is an import from Scotland. It had been widely published and is still played.
+N: The  tune was composed by Perthshire fiddler Donald (or Daniel) Dow (1732-83) and first
+N: published by him around 1776.  See John Peacock's tune book for a better local version.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.42
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: G
+e |\
+d>GB>G d>Gc>e | d>GB>G AB/A/ c>e | d>GB>G Bc/d/ d>g | e>cA>c B>GG :|
+|: e/f/ |\
+g>dB>d d>gB>g | g>dc>gB>gA>g | g>dB>g d>gB>g | e>cA>c BGGf |
+g>dB>g d>gB>g | g>dc>g B>gA>f | g>dB>g d>gB>g | ecAd BGG :|
+
+
+%%sep 5 1 500
+
+X: 21
+T: Morgiana in Ireland
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.10
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: G
+|: D2D G2G | AGA B3  | D2D G2A | B2c BGE |\
+   D2D G2G | AGA B2e | edc BcA | G2A BGE :|
+|: d2d dcB | e2f g3  | ded dcB | e2f gdB |\
+   d2d dcB | efe efg | dec BcA | G2A BGE |
+   GFG B<dz  | AGA c<ez | GFG G2A | B2c BGE |\
+   GFG B<dz | c<ez B<dz | e<gz B<dz | G2A BGE :|
+
+
+%%sep 5 1 500
+
+X: 22
+T: Morpeth Rant
+R: reel, hornpipe
+M: C
+L: 1/8
+N: Seldom heard nowadays, this is the old version of the tune the Morpeth Rant,
+N: in the original key, though with a few quirks of its own here.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.44
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: Bb
+FGA | B2FE DB,DF | GEGB AFGc | B2gf edcB | A2c2 c2e>c | B2FE DB,DF |
+GEGB AFAc | Bbag fedc | B2B2 B2 :||: ((3fga) | bfe[dB] BAGF |fdec BAGF |
+egec dfdB | A2c2 c2((3FGA) | GEGB edcB | AFAc fedc | Bbag fedc | B2B2 B2 :|
+
+
+%%sep 5 1 500
+
+X: 23
+T: My Dearie O With Variations
+T: Ain kind dearie
+T: An oidhche a bha bhanais ann
+T: Kind deary
+T: Lea rig
+T: Lea rigges
+R: air
+M: C|
+L: 1/16
+N: This is actually all "variations"; you'll have to find the basic tune elsewhere.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.41-42
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: D
+f>e |\
+{de}f2A2A2B2 d3ed3f | {def}e3f gfed {de}f2B2B2 f>e | {de}f2A2A2B2 d3ed2 d'a |
+b3a ac'd'a f2d2d2 f>e | {de}f2A2A2B2 d3e dfaf | egfa gfed {de}f2B2B2 f>e |
+f2A2A2B2 d3e dad'c' | Tb3a gfea f2d2d2 a2 | Tb>abc' d'2f2 Tg>fga b2d2 |
+Te>def Tgfed {de}f2B2B2 f>e | {de}f2A2A2B2 dad'c' | b3g bc'd'a f2d2d2 |]
+fe | dAFD dAfA eAfA gfed | {de}g2B2B2 fe dAFD adbd | d'c'/b/ag f>ae>a f2d2d2 ab/c'/ |
+.d'(afa) .b(afa) .d'(afa) bafa | d'c'ba gfTed {de}f2B2B2 f>e | .d(AFA) .B(AFA) .d(AFA) .B(AGA |
+d'c'/b/ag f>gf>g f2d2d2 |] f>e | d2f>d A2d>A F2A>F D2f2 | Tedef gfed {de}f2B2B2 f>e |
+d2((3afd) A2((3fdB) F2((3dAF) D2d'c' | b>a bc'd'a f2d2d2 a2 | b2d'b a2d'a g2e'b f2d'f |
+e>gf>a g>ef>d {de}f2B2B2 f>e | d2((3bfd) A2((3fdB) F2((3dAF) D2d'c' | b>a bc'd'a f2d2d2 |]
+
+
+%%sep 5 1 500
+
+X: 24
+T: The Pilgrim of Love
+R: song
+M: C
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.26
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: D
+A2 | d2dd d2ef | agfe dcBA | f2ed cBAG | FAdf | e2zA |
+fdd2 d2ef | agfe dcBA | Afd2 HB2 B>g | fedc d2 |[| zd | e2 ee
+a^gfe | edfd B2zB | caec BfdB | AcTB2 HA2 a> {^g}=g |
+gfed d2ef | agfe dcBA | f2dd HB2 B{a}Hg | Hfe[ac]c d2 || d/e/f/g/ |
+^g/a/b/a/ fd a/b/c'/b/ =g>g | fedc d2 |]
+
+
+%%sep 5 1 500
+
+X: 25
+T: Poor Mary Ann
+R: hornpipe, reel
+M: 2/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.16
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: D
+|: d>cBd | e>dcA | B2cc | d4 | d>cBd | e>dcA | B2cc | d4 :|
+|: .g.f.g.a | .b.a.g.f | .g.f.e.d | .f.e.d.c | d>cBd | e>dcA | B2cc | d4 :|
+
+
+%%sep 5 1 500
+
+X: 26
+T: Rondo for the pips
+C: Mackenzie?
+R: hornpipe, reel
+M: 2/4
+L: 1/16
+N: Another tune by the mysterious McKenzie. This seems intended as a parlour piece for smallpipes,
+N: a little more ambitious than a dance tune but strongly influenced by dance tune forms.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.78
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: G
+D2 |\
+G2G2 A>GA>B | G>gf>e d3B | c2c2 B>AB>c | A>GA>B A>DE>F |
+G2G2 A>GA>B | G>gf>e d3c | B2B2 A>GA>B | G2[B2G2]G2 :|
+|: B2 |\
+A2A2 d>cA>c | B>dg>f g>dB>G | A2AB d>cA>c | B>dg>f g2d2 |
+e2ef agfe | dBba gfed | dBgf edcB | B4 A>DE>F |
+G2B2 A>GA>B |G>gf>e d3B | c>ea>c B>dg>B | A>GA>B A>DE>F |
+G2B2 A>GA>B | G>gf>e d2gd | B2B2 A>GA>B | G2B2G2 |]
+
+
+%%sep 5 1 500
+
+X: 27
+T: The Rose of Allandale
+C: Daniel Dow (1732-1783)
+R: song
+M: C
+L: 1/8
+N: This is a Victorian parlour song which passed into the traditional repertoire.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+N: A lot of note heads are borderline cases between two notes, so some notes may be off by one.
+B: Anonymous manuscript tune book (1800-1840) p.90
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: D
+A2 |\
+f3e d2c2 | edcB A3A | d3f fedf | d4 c2A2 |
+f3e d3c | edcB A3A | BcdB cdef | d4 z2 ||
+d2 |\
+e2c2 A2cd | f2d2 A2zA | f2f2 fedf | d4 c2A2 {ABcdefga}A2 |
+f3e d3c | edcB A3A | BcdB cdef | d4 z2 ||
+a2 |\
+a2f2 f2d2 | B4 G2z2 {GABcdefg}x | g3f fedf | e4 z2 |
+A2 | B3c edcB | A2{cdefg}a2 c2A2 | BcdB cdef | d4 z2 |]
+
+
+%%sep 5 1 500
+
+X: 28
+T: The Shepherds Hornpipe
+T: The Liverpool Hornpipe
+R: hornpipe, reel
+M: C|
+L: 1/8
+N: This tune is instantly recognisable as the Liverpool Hornpipe but with a few individual touches.
+N: The beat count gets confused at phrase boundaries.
+N: The player may have added an extra half measure to each part.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.16
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: D
+AG |\
+   FDFA dfaf | gefd dcBA | GBGB FAFA | EFGA GFED |
+   FDFA dfaf | gefd dcBA | f2fg afdf | gedc d2 | d4 :|
+|: dffd cece | BddB BAGF | GBGB FAFA | EFGA GFED |
+   FDFA dfaf | gefd dcBA | f2fg afdf | gedc d2d2 d2 :|
+
+
+%%sep 5 1 500
+
+X: 29
+T: Slow broke the Light
+R: march, air
+M: 2/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.4
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: G
+G2G>A | B2GB | d2c>c | B2GB |\
+d2dd | e2fg | B2c>A |1 G2 zD :|2 G2 z ||
+A |\
+A2B^c | df zA | A2G>G | F3A |\
+(B^c)de | fd2B | (A<d) ^c<e | d3d |
+egfe | d2BG | (eg)fe | d2GB |\
+d2dd | e2fg | g<d c/B/c/A/ | G2z2 |]
+
+
+%%sep 5 1 500
+
+X: 30
+T: Smash the Windows
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.10
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: D
+|: D2D F2A | d2f ecA | G2B F2A | E2F GFE |\
+   D2D F2A | d2f ecA | faf gec | d6     :|
+|: a |\
+   a2f d2A | F2a agf | g2e c2A | E2g gfe |\
+   f2d g2e | a2f b2g | faf gec | d6     :|
+
+
+%%sep 5 1 500
+
+X: 31
+T: Soldier's Joy
+R: reel
+M: C|
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.4
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: D
+FG |\
+(AF)DF (AF)DF | A2d2 d2(cB) | (Ad)cB (AG)FA | G2E2 E2(FG) |
+(AF)DF (AF)DF | A2d2 d2f2 | (af)df (ge)ce | d2d2 d2 :|
+|: g2 |\
+(fd)fg (fa)gf | (ec)ef (eg)fe | (fd)fg (fa)gf | (ed)cB A2g2 |
+(fd)fg (fa)gf | (ec)ef (eg)fe | (af)df (ge)ce | d2d2 d2 :|
+
+
+%%sep 5 1 500
+
+X: 32
+T: The Sylph
+R: jig
+M: 6/8
+L: 1/8
+N: This is a formerly popular jig found in various English collections;
+N: strain 2 is found elsewhere an octave lower.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.33
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+N: Note the 4-note first beat in bar 15.
+K: D
+A |\
+AFA dfa | agf e2g | fag fed | cee e2A |\
+AFA dfa | agf e2g | fad egc | ddd d2 :|
+|: a |\
+fad' d'c'b | bag f2d | f/g/ad f/g/ad | cee e2e |\
+fad' d'c'b | bag f2d | fgad gec | ddd d2 :|
+
+
+%%sep 5 1 500
+
+X: 33
+T: The Voice of her I Love
+R: reel
+M: 2/4
+L: 1/16
+N: Some note lengths are wrong in bar 5, but it's not obvious how to fix it.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.24
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: C
+G2 | c2e>d c2e2 | g3fd2 zf | egfe dcBA | d4 {ed}c4 :||: Bc | d3/e/d/ cBAG | e3dc ze |
+f3f edef | He4 {dfe}Hd2 g2{ag}x{gefd}x | c2ed ceag | g3fd2 zf | dgfd dccA | d4 {ed}c2 :|
+
+
+%%sep 5 1 500
+
+X: 34
+T: Wests Hornpipe
+R: hornpipe, reel
+M: C|
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.22
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+N: D is the more usual key for this hornpipe.
+K: G
+|: g2Bc  dBdB  | g2Bc  d3g   | edcB A2ab | c'ac'a gfed |
+   g2Bc  dBdB  | g2Bc  d3g   | edcB A2ab | c'agf  g4  :|
+|: b2gb  gbgb  | a2fa  fafa  | g2eg egeg | agfe   d4   |
+   geTe2 fdTd2 | geTe2 fdTd2 | gfgd BdBG | d2d2   d2de/g/ :|
+
+
+%%sep 5 1 500
+
+X: 35
+T: Zodiac
+R: waltz
+M: 3/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.28
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: C
+G | c>dc | Gge | dfd | BdG | c>dc | Gge | dfB | c2 :|
+|: B/c/ | dBG | ecA | fdB | gec | dBG | ecA | fdB | c2 :|
+|: g | c'ba | gee | fdd | ecA | c'ba | gee | fdB | c2 :|
+|: e/f/ | gea | f2d | Bdf | e2c | gea | f2d | GBd | c2 H:|

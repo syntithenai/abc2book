@@ -1,0 +1,25 @@
+X: 1202
+T: the Braes of Auchtertyre.   a Reel.
+%R: reel, air
+B: Niel Gow & Sons "Complete Repository" v.1 p.20 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+E |\
+C2 (T.C>.F) EGG>A | Tc>ded cAGc | A/A/A ~A>G A2a2 | g<c~f>e Td2c2 || C2TC>F EG-G>A |
+Tc>ded cAGc | .A.c.G.c .F.c.E.c | (d/c/B/A/) c>.E TD2C |[| f | e>fga gecg | afdg {f}edcG | A/A/A (ag) a2{ab}c'2 |
+ecfe Td2c2 || e>fga gecg | (a/g/f/e/) d.g ~e>dcG | .A.c.G.c .F.c.E.c | (d/c/B/A/) c>E TD2 C |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | c2c2 c2c2 | c2c2 c2e2 | f2f2 f2f2 | e2a2 g2c2 || c2c2 c2c2 |
+c2c2 f2e2 | f2e2 d2c2 | f2g2 G2c |[| z | c'2c'2 c'2e2 | f2g2 c'2e2 | f2f2 f2f2 |
+e2c2 G2[c2C2] || c'2c'2 c'2c'2 | c'2b2 a2e2 | f2e2 d2c2 | f2g2 G2c |]
+% - - - - - - - - - -
+%%begintext align
+%% This Tune is the Original of O Dear mother what shall I do.
+%%endtext

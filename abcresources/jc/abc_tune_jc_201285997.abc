@@ -1,0 +1,44 @@
+
+X: 1
+T: Heveynu Shalom Aleychem [Cm]
+Z:2008 John Chambers <jc:trillian.mit.edu>
+M:2/4
+L:1/8
+K:Cm
+G,CE \
+| "Cm"G4 | "G7"E3D | "Cm"D C3 | zCEG | "Fm"c4 | A3G | "Fm"G F3 | zFGA |
+| "G7"G3D | G3F | "Cm"FE3 | zDEF | "G7"G2 G2 | G2 G2 |1 "G7"G>F | EF G :|2 "G7"G>F ED | "Cm"C |]
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: Heveynu Shalom Aleychem [Dm]
+Z:2008 John Chambers <jc:trillian.mit.edu>
+M:4/4
+L:1/8
+K:Dm
+A,DF \
+| "Dm"A4 "A7"F3E | "Dm"E2 D2 zDFA | "Gm"d4 B3A |
+w: He-vey-nu sha-lom a-ley-chem, he-vey-nu sha-lom a-
+| "Gm"A2 G2 zGAB | "A7"A3E A3G | "Dm"G2 F2 zEFG |
+w: ley-chem, he-vey-nu sha-*lom a-ley-chem, he-vey-nu
+| "A7"A2 A2 A2 A2 |1 "A7"A>G FG A :|2 "A7"A>G FE "Dm"D :|
+w: sha-lom, sha-lom, sha-lom a-ley-chem, sha-lom a-ley-chem.
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 3
+T: Heveynu Shalom Aleychem [Em]
+Z:2008 John Chambers <jc:trillian.mit.edu>
+M:4/4
+L:1/8
+K:Em
+B,EG \
+| "Em"B4 | "B7"G3F | "Em"F E3 | zEGB | "Am"e4 | c3B | "Am"B A3 | zABc |
+| "B7"B3F | B3A | "Em"A G3 | zFGA | "B7"B2 B2 | B2 B2 |1 "B7"B>A GA | B :|2 "B7"B>A GF | "Em"E |]

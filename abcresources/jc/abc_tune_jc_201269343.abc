@@ -1,0 +1,15 @@
+X: 676
+T: Dooley's Fancy   #2
+R: reel
+%S: s:2 b:14(6+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #676
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0676/oneill-1001-0676-1.abc
+M: C|
+L: 1/8
+K: A
+"^A"[|] e2 !segno!|: cAEA ceae | dcBA GABd | cAce \
+[1 agaf | eagb afed :|[2 a2(af) | edcB HA2 |]
+"^B"[| fg \
+|  a2ge fecA | dcBA GAfg |    a2(ge)    fece | fagb aefg ||
+|| agag fecA | dcBA GABd | (3(cBA) (eA) fagb | afed cea!segno!e |]

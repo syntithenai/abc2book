@@ -1,0 +1,25 @@
+X: 1
+T: Kitchener's Army
+T: King George V's Army
+C: G.S.McLennan
+O: 20th century Scottish
+R: march
+S: Fiddle Hell Online 2021-5-14
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+"^A"[|] ed \
+| "A"Tc2A2 A3B | c>Ac<e f>ed<c | "Bm"d2B2 B3c | "D"d>ef<a "E7"Tf2e<d |
+| "A"Tc2A2 A3B | c>Ac<e f>ed<c | "D"d2f<d "A"c2e<c | "E7"TB4 "A"A2 :|
+"^B"|: c>d \
+| "A"e2a2 "D"Ta2g<f | "A"e2c2 c2e<c | "E"d2B2 B2c<d "A"c2A2 A2c<d |
+| "A"e2a2 "D"Ta2g<f | "A"e2c2 c2e<c | "D"d2f<d "A"c2e<c | "E7"TB4 "A"A2 :|
+"^C"|: e>d \
+| "A"c2e2 [ac]->[ac]-[ac]>e | c>ea>e f<ae>c | "D"d2f2 [ad]->[ad]-[ad]>f | d>fa>d "E7"f<af>d |
+| "A"c2e2 [ac]->[ac]-[ac]>e | c>ea>e f<ae>c | "D"d>fa<d | "A"c<ea<c | "E"TB4 "A"A2 :|
+"^D"|: e>d \
+| "A"c2e2 Te3d | c<ee<a f>ed<c | "D"d2f2 f3e | d<ff<a "E7"g>fe<d |
+| "A"c2e2 Te3d | c<ee<a f>ed<c | "D"d>fa<d | "A"c<ea<c | "E"TB4 "A"A2 :|
+%%text Many Cape Breton fiddlers play the parts of this bagpipe tune in the order (ABDC).
+%%text McLennan's original order is ABCD.

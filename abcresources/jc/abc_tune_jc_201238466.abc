@@ -1,0 +1,25 @@
+X: 3083
+T: the Fallen Hero. (Nelson.)
+C: by Nath. Gow.
+%R: lament, strathspey
+N: This is version 2, for ABC software that understands voice overlays.
+N: The only "voice overlay" here is on the very first beat, in the bass.
+B: Niel Gow & Sons "Complete Repository" v.3 p.8 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: The book has the first 4 bars written twice, identically.
+M: C
+L: 1/8
+Q: "Pathetickly Slow."
+K: A
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - -
+V: 1 staves=2
+|: {AB}c>B AF (E<C) E2 | TE>F Ad/c/ {c}TB>A B2 | {AB}c>B AF (E<C) E2 | TE>F A(d/c/) (cTB) [A2E2C2] :|
+[| (c<e) e>f {f}ec e2 | (c<e) e>f (f/e/)(c/A/) B2 | (c<e) Te>f {f}ec e2 | "_Exp.n"E2 (d/c/)(B/A/) (cTB) A2 ||
+ y (c<e) e>f {f}ec e2 | (c<e) {A}a>f (f/e/)(c/A/) HB2 | !p!{AB}c>B AF (EC) HE2 | TE>F A(d/c/) (cTB) A2 |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: c3 d c2 A2 & A4 x4 | cd cA e2 E2 | {A}a>g fd c2 A2 | cd c(f/^d/) eE A2 :|
+[| a2 cd c2 A2 | [c2A2] a2 Ac e2 | a2 c>d c2 A2 | "_Exp.n"A2 f^d eE A2 ||
+ y A2 c>d c2 A2 | A2 cd cA HE2 | !p!a>g f<d c2 HA2 | cd c(f/^d/) eE A2 |]

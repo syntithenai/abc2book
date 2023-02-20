@@ -1,0 +1,35 @@
+X: 20963
+T: BUNKER HILL SETT (tune 3)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.96 #3 (and top staff of p.97)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Bar 11: the B and c notes have a lot of dropouts and no visible flags; transcribed to match the other bars' rhythms.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+c |\
+fef cde | fef cde | fef a2g | c3 ccc |\
+g^fg ceg | g^fg ceg | g^fg beg | f3- f2 H|]
+C |\
+F2A c2f | (f3 c2)d | (d3 B2c) | (c3 A2)C |\
+F2A c2f | (f3 c2)d | d2B BdB | F3- "^D.C."F2 |]
+A/B/ |\
+c3 fed | c2A A2c | B2G G2B | d2c A2c |\
+c3 fed | c2A A2c | B2G d2c | F3- "^D.C."F2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two ladies forward and back,
+%% cross over,
+%% balance each other's partners,
+%% two gentlemen forward and back,
+%% cross over,
+%% forward and back four,
+%% half promenade to place,
+%% next two forward, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

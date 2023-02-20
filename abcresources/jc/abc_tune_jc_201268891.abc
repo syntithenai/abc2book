@@ -1,0 +1,42 @@
+
+X: 1
+T: Do You Love An Apple   [G]
+R: waltz
+S: https://thesession.org/tunes/10521 2023-1-30
+M: 3/4
+L: 1/8
+K: G
+"^Verse:"[|]\
+d2 | "G"g2 g2 g2 | "D7"e2 d2 d2 | "G"g2 f2 g2 | "C"e4 ||
+w: 1.~Do you love an ap-ple, do you love a pear?
+w: 2.~Be-fore I got mar-ried I wore a black shawl
+w: 3.~He stood at the cor-ner, a fag in his mouth,
+w: 4.~He works at the pier,* for nine bob a week.
+w: 5.~Be-fore I got mar-ried I'd sport and I'd play,
+"D7"d2 | "G"g2 f2 g2 | e d3 B2 | B2 A2 G2 | "D7"A4 z2 ||
+w: Do you love a lad-die with cur-ly brown hair?
+w: But since I got mar-ried I wear bug-ger-all.
+w: Two hands in his poc-kets, he whis-tled me out.
+w: Come Sa-tur-day night he comes rol-ling home drunk.
+w: But now,* the cra-dle, it gets in me way.
+%
+"^Chorus"\
+[| "G"G4 A2 | B d3 d2 | "C"e4 d2 | e2 g2 z2 | "G"g4 g2 | "Em"e2 d2 B2 | "D7"A3 B A2 | "G"G6-| G2 z2 |]
+w: Still, I love him, I can't de-ny him. I'll be with him where-e-ver he goes.
+
+%%sep 1 1 500
+
+X: 1
+T: Do You Love An Apple   [D]
+R: waltz
+S: https://thesession.org/tunes/10521 2023-1-30
+M: 3/4
+L: 1/8
+K: G
+d2 |\
+"G"g2 g2 g2 | "D7"e2 d2 d2 | "G"g2 f2 g2 | "C"e4 "D7"d2 |\
+"G"g2 f2 g2 | e d3 B2 | B2 A2 G2 | "D7"A4 z2 ||
+"^Chorus"[|\
+"G"G4 A2 | B d3 d2 | "C"e4 d2 | e2 g2 z2 |\
+"G"g4 g2 | "Em"e2 d2 B2 | "D7"A3 B A2 | "G"G6-| G2 z2 |]
+

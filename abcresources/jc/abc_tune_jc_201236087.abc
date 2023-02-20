@@ -1,0 +1,20 @@
+X: 21632
+T: ROUSSEAU'S DREAM
+O: French air.
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.163 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C	% The time signature is missing in this tune.
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+f2(f>e) d2d2 | e2e2 f2d2 |\
+a2a>g f2f2 | {f}e>de>f d4 :|\
+|:\
+f2(f>g) a2a2 | b2(b>g) a2f2 |\
+f2(f>g) a2a2 | b2(d'>b) a2^g=g |\
+f2(f>e) d2d2 | e2e2f2d2 |\
+a2(a>g) f2f2 | {f}e>de>f d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,24 @@
+X:1
+T:I Have a Bonnet Trimmed with Blue [ABA CDA]
+R:Polka
+O:trad. Scotland
+M:2/4
+L:1/8
+Z:Richard Robinson <richard:beulah.demon.co.uk> tradtunes 2002-5-3 (chords by John Chambers)
+%%RR_OriginalCollection: <URL:http://www.leeds.ac.uk/music/Info/RRTuneBk/>
+K:D
+"A"|:\
+"D"AB/A/ FA | dA f2 | "A7"fe/f/ ge | "D"d/c/d/e/ fd |\
+"D"AB/A/ FA | dA f2 | "A7"fe/f/ gc | ed "D"d2 :|
+"B" |:\
+"A"ef/e/ ce | ac e2 | "E7"ef/e/ dB | fe "A"c2 |\
+"A"ef/e/ ce | ac e2 | "E7"ef/e/ dB | BA "A"A2 :|
+w: play~A**
+K:G
+"C"|:\
+"G"GB Bd | de/d/ B2 | "D7"de/d/ cA | ed "G"B2 |\
+"G"GB Bd | de/d/ B2 | "D7"de/d/ cF | AG "G"G2 :|
+"D" |:\
+"C"ge eg | "G"de/d/ B2 | "D7"de/d/ cA | ed "G"B2 |\
+"C"ge eg | "G"de/d/ B2 | "D7"de/d/ cF | AG "G"G2 :|
+w: play~A**

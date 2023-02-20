@@ -1,0 +1,73 @@
+
+X: 1
+T: De-a-Lungul    [G]
+O: Romania
+Z: John Chambers <jc@trillian.mit.edu>
+M: 9/16
+L: 1/16
+K: G
+"A"\
+| "G"{D}G2A B2A G2D | "C"E3 "G"D3- D3 \
+| (4GFGA Bd2 "Em"cBG | "Am"A3- A3- "D7"A3 |
+| "G"G2A B2A G2D | "C"E3 "G"D3 "Em"d3- \
+| "Am"(4dedc "D7"Bc2 A2B | "G"G3- G3- "fine"G3 |]
+"B"\
+|: "G"B2c d3 d3 | (4deBc d3- d3 \
+| "Em"(4GFGA Bd2 "Am"cBG | "D7"A3- A3- A3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+T: De-a-Lungul    [C]
+O: Romania
+Z: John Chambers <jc@trillian.mit.edu>
+M: 9/16
+L: 1/16
+K: C
+"A"\
+| "C"{G}c2d e2d c2G | "F"A3 "C"G3- G3 \
+| (4cBcd eg2 "Am"fec | "Dm"d3- d3- "G7"d3 |
+| "C"c2d e2d c2G | "F"A3 "C"G3 "Am"g3- \
+| "Dm"(4gagf "G7"ef2 d2e | "C"c3- c3- "fine"c3 |]
+"B"\
+|: "C"e2f g3 g3 | (4gaef g3- g3 \
+| "Am"(4cBcd eg2 "Dm"fec | "G7"d3- d3- d3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3
+T: De-a-Lungul    [A]
+O: Romania
+Z: John Chambers <jc@trillian.mit.edu>
+M: 9/16
+L: 1/16
+K: A
+"A"\
+| "A"{E}A2B c2B A2E | "D"F3 "A"E3- E3 \
+| (4AGAB ce2 "F#m"dcA | "Bm"B3- B3- "E7"B3 |
+| "A"A2B c2B A2E | "D"F3 "A"E3 "F#m"e3- \
+| "Bm"(4efed "E7"cd2 B2c | "A"A3- A3- "fine"A3 |]
+"B"\
+|: "A"c2d e3 e3 | (4efcd e3- e3 \
+| "F#m"(4AGAB ce2 "Bm"dcA | "E7"B3- B3- B3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4
+T: De-a-Lungul    [D]
+O: Romania
+Z: John Chambers <jc@trillian.mit.edu>
+M: 9/16
+L: 1/16
+K: D
+"A"\
+| "D"{A}d2e f2e d2A | "G"B3 "D"A3- A3 \
+| (4dcde fa2 "Bm"gfd | "Em"e3- e3- "A7"e3 |
+| "D"d2e f2e d2A | "G"B3 "D"A3 "Bm"a3- \
+| "Em"(4abag "A7"fg2 e2f | "D"d3- d3- "fine"d3 |]
+"B"\
+|: "D"f2g a3 a3 | (4abfg a3- a3 \
+| "Bm"(4dcde fa2 "Em"gfd | "A7"e3- e3- e3 :|

@@ -1,0 +1,33 @@
+X:2795
+T:Salute on the Birth of Rory Mor MacLeod
+C:anon.
+O:Scotland
+S:Kilberry Book of Ceol Mor #35
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/scotland/birth-of-rory-macLeod.abc
+%Posted at abcusers Oct 17th 2000 by Jack Campin.
+%Jack says:
+%The following is nonstandard in only one respect, the variable-length
+%gracenotes (I think fermatas are standard now?)  They're an essential
+%part of the music and if ABC can't represent them, well, as
+%Schoenberg said when somebody told him his violin concerto was too
+%difficult to play, "I want the little finger to grow longer.  I can
+%wait."
+M:C
+L:1/8
+Q:1/4=80
+K:Hp
+P:Ground
+{ge4d}B>{G}HB   {G}B2       c3 B|{g}f>{e}f {e}Hf2   {g}f4 |\
+   {g}e2     {fege}f2       a3 e|{g}f>e        a>e  {g}f4 |
+   {g}B>f       {g}e>B {GBG}c3 B|{g}f>{e}f {e}Hf2   {g}f4 |\
+   {g}e2     {fege}f2       a3 e|{g}f>e        a>e  {g}f4||
+   {g}fa     {eAfA}e2       f3 c|{g}e2   {fege}f2  {ag}a4 |\
+      f>e          a>e      f3 c|{g}e<{A}He {A}e2  {g}He4||
+   {g}e2     {fege}f2       a3 e|{g}f>e        a>e  {g}f4 |\
+   {g}fa     {eAfA}e2       f3 c|{g}e>f     {g}e>f {ag}a4|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

@@ -1,0 +1,27 @@
+X: 20021
+T: the GABERLUNZIE'S MARCH
+C: Dounieso
+Q: "Slow."
+%R: march
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.2 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c2 |\
+F2F>G A2GF | G2G>A c2=Bc | d2f>e d>c_B>A | A>GG>A G2cB |\
+AGFE D2Bc/d/ | cBAG F>ED>C | DF fd c>BA>G | F2F>F F2 :|
+K: Bb
+|: "Bugle"B2 |\
+d2Bd fedc | B2B>B B2F2 | GABc defg | f>ede c2F2 |\
+e2cA FF/F/ FF | f2dB FF/F/ FF | BFdB f>edc | B2B>B B2 |][K:=e]
+K:F
+AB |\
+c2c>d f2fg/a/ | d2d>f g2ga/b/ | a2f>d g2e>c | d>BG>d c2AG |\
+F2F>G A2Bc | d>ef>g fedc | f2fg/a/ d2ef/g/ | f2f>f f2ga |
+b2c>c c2ef/g/ | f2A>A A2Bc/d/ | c2AB/c/ B2GA/B/ | A2FG/A/ G2FA |\
+c2Ac f2cf | a2fa c'2b2 | (3(agf) (3(edc) (3(Bcd) (3(GAB) | A2F>F F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

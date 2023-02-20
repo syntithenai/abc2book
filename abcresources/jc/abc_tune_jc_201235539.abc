@@ -1,0 +1,30 @@
+X: 21203
+T: FRA DIAVOLO SETT (tune 3)
+C:
+N: A version of Rory O'More
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.120 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+e |\
+dGG BGG | eGG G2[ge] | dcB BAG | F[AG]A ABc |\
+dGG BGG | dGG edc | Bcd def | gGG G2 H|]
+g |\
+gfe eBB | cBA G2F | EFG GAB | Bed def |\
+gfe eBB | cBA G2F | EFG GAB | Bed "^D.C."d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First lady balance to the gentleman on her right,
+%% and swing who she pleases,
+%% and balance to the next gentleman,
+%% and so on till she comes to her partner,
+%% then balance with him,
+%% next lady the same, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

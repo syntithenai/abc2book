@@ -1,0 +1,34 @@
+X: 08221
+T: the LABYRINTH
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.8 p.22 #1
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+G/A/ |\
+B2B {c}BAB | c3 {d}cBc | A2A {B}AGA | B3 {d}cBA |\
+G2G {A}GFG | {B}A3- A2G | {G}FED DEF | G3- G2 :|
+|: B/c/ |\
+d2d {e}dcd | e2d {d}cBc | A2A Adc | B3 {d}cBA |\
+G2G {A}GFG | {B}A3- A2G | {G}FED DEF | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z |\
+gbd' gbd' | fad' fad' | dfd' dfd' | gbd' gbd' |\
+egb egb | cea ^cea | dac' dac' | gbd' g2 :|
+|: z |\
+gbd' gbd' | ^gbe' ac'e' | fad' fad' | gbd' gbd' |\
+egb egb | cea ^cea | dac' dac' | gbd' g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across back again,
+%% down the mid: up again,
+%% turn corners and lead outsides.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

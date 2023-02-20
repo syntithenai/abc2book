@@ -1,0 +1,29 @@
+X: 1
+T: Buttered Pease
+P: Longways for as many as will
+%R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.13
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: B2 d4 cB | c2 e4 dc | B2 d4  cB | c2 A4 dc |\
+   B2 d4 cB | c2 e4 dc | Bcd2 ABc2 | B2G2 G4 :|
+|: B2 d4 ef | gfga g4  | B2 d4  cB | c2 A4 ef |\
+   B2 d4 ef | gfga g4  | Bcd2 ABc2 | B2G2 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: G4   g4   | a4 f4 | G4   g4   | a4 f4 |\
+   g2f2 e2g2 | a4 f4 | g2B2 c2d2 | G8   :|
+|: g4   f4   | e6 d2 | g4   b4   | a4 d4 |\
+   g4   f4   | e6 f2 | g2B2 c2d2 | G8   :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1st Man and Wo. set, foot it and turn .|
+%% the 1st Man does the same with the 2d Wo. as at the same time doth his Partner with the 2d Man .|
+%% The 1st Cu. cross over below the 3d Cu. .|
+%% Then slip up the middle to the top, foot it and cast off.
+%%endtext

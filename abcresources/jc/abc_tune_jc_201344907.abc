@@ -1,0 +1,16 @@
+X: 782
+T: the Tinker's Reel
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #782
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0782/oneill-1001-0782-1.abc
+M: C|
+L: 1/8
+K: D
+"^A"\
+[| F2(EF) D3(E | FDED FDED) | F(DEF) D3E | FAB(c d)BAG \
+|| F2(EF) D3(E | FDED FDED) | F(GEF) D2(DE) | FAB(c d2)cd |]
+"^B"\
+[| e(dBd) (3(efg) (fe) | fdA(d f)gaf | e(dBd) (3(efg) (fe) | dBA(F GF)Ed \
+|| e(dBd) (3(efg) (fe) | fdad bdad | gbg(e (3fga) fd | e(dBA) dBAG |]

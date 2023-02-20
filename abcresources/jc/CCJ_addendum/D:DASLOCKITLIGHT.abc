@@ -1,0 +1,24 @@
+X:44
+T:Da Slockit Light
+C:Tom Anderson
+M:4/4
+L:1/8
+K:D major
+%
+V:1 clef=treble
+%
+FE | "D"D3 F A2 d2 | "Em6"fe"A"dc "D6"d2 A2 | "G"B2 d2 "D"A2 d2 | "G"BAGF "A"EGFE |
+"D"D3 F A2 d2 | "Em6"fe"A"dc "D"d2 A2 | "G"B2 G2 "A"AGFE | "D"D6 :|
+z "A"g | "D"f2 a2 "A"e3 c | "G"d3 e "A"dcBA | "D"f2 a2 "E"e2 ^g2 | "A"a6 =g2 |
+"D"f2 a2 "A"e3 c | "Bm"d3 e "G"dcBA | "G"B2 G2 "A"AGFE | "D"D4-"G"D3 "A"g |
+"D"f2 a2 "A"e3 c | "Bm"d3 e "G"dcBA | "G"B2 d2 "D"A2 d2 | "G"BAGF "A"EGFE |
+"D"D3 F A2 d2 | "Bb"fedc "D"d2 A2 | "G"B2 G2 "A"AGFE | "D"D6 |]
+%
+V:2 clef=treble
+%
+FE | A,3 D F2 A2 | dcAG F2 D2 | G2 B2 F2 A2 | GFED A,4 |
+A,3 D F2 A2 | dcAG F2 D2 | G,4 A,3 C | A,6 :|
+z g | d2 A2 c3 E | G3 G FEDC | D4 ^G3 E | C2 A,2 B,2 C2 |
+D4 A4 | G6 GF | G2 B,2 A,B,A,C | DA,B,G, A,4 |
+D4 C4 | B,6 GF | G2 B2 F2 A2 | GFED A,4 |
+A,3 D F2 A2 | _B4 F2 D2 | G,4 A,3 C | A,6 |]

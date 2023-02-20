@@ -1,0 +1,34 @@
+X: 207
+T: Pass about the Flagon
+T: Ho cuir a nall am bodach
+R: air, strathspey
+% dim/cres..endo symbols:
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+N: This is version 2, for ABC software that understands cres/diminuendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.95 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow Strathspey Style."
+K: Gm
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+|:\
+{B,}D2 G<G {=E}TF>D=E<C | !p!D2 B<B {AB}c>BA<c |\
+"_cres"d<d {=B}c>_B A>G F>G | pA/Pcz/ pA/Pdz/ {=B}Qc>A {^F}q[G2D2B,2] :|\
+!p!D<GTG>=E F>_ETD>C | D<B~B>d c>BTA>G |
+A<fTd>^c Qd<qD{=E}pF>PG | pA/Pcz/ pA/Pdz/ {=B}Qc>A {^F}qG2 ||\
+!p!D<GTG>=E F>T_ED>C | "_cres"D<B~B>d c>BTA>G |\
+"_Exp."Hf>=ed>^c Qd>qD{_E}pF>PG | pB/Pcz/ pA/Pdz/ Q{=B}c>A q[G2D2B,2] |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+G2g2 B2c2 | !p!G2g2 f2F2 | "_cres"b2ag fga2 | d2d2 D2[G2g2] :| !p![B2g2][c2g2] faba | b2g2 c2e2 |
+"_cres"f2b2 B2A2 | f2d2 D2G2 || !p![B2g2][c2g2] faba | "_cres"b2g2 c2e2 | "_Exp."Ha2b2 B2A2 | d2d2 D2[G2g2] |]
+% = = = = = = = = = =

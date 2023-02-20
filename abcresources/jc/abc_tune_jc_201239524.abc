@@ -1,0 +1,31 @@
+X: 3302
+T: the Morgan Rattler
+%R: jig
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.30 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - -
+% Voice 1 rearranged to put each strain on a staff.
+V: 1 staves=2
+B !segno!|:\
+AGF EFG | (F/G/A)F D2B | AGF EFA | TB2A Bcd ||\
+{B}AGF EFG | (F/G/A)F D2f/g/ | afd ecA |[1 TB2A Bcd :|[2 B2A B2c ||
+|:\
+Td2e fdB | Tc2d ecA | Td2e fed | Tf2e fga ||\
+Td2e fed | cea ecA | afd ecA |[1 TB2A B2c :|[2 B2A Bcd ||
+|:\
+!f!FGF {G}FED | EFE TE2D | FGF FED | TBcB Bcd ||\
+FGF {G}FED | EFE TE2f/g/ | afd ecA | TB2A Bcd :|
+|:\
+"_Exp.o".D2z/!p!d/ {e}dcd | .E2z/e/ efg | .D2z/d/ {e}dcd | TB2A Bcd ||\
+.D2z/d/ {e}dcd | .E2z/e/ efg | agf edc | TB2A Bcd !segno!:|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z !segno!|:\
+d3 A3 | d3 f2g | f2d a2f | g3 G3 || d3 A3 | d3 f3 | d3 a3 |[1 g3 [d3g3] :|
+[2 g3 g2e |: d3 d'3 | a3 A3 | f3 d3 | d'3 d3 || d3 d'3 | a3 A3 | d3 a3 |[1 g3 g2e :|[2 g3 [d3g3] |:
+!f!d3 d3 | A3 A3 | d3 d3 | G3 g3 || d3 d3 | A3 A3 | d3 a3 | g3 [d3g3] :||:
+"_Exp.o"d3 !p!d3 | A3 A3 | d3 d3 | G3 g3 || f3 d3 | A3 a3 | d3 a3 | g3 d3 !segno!:|

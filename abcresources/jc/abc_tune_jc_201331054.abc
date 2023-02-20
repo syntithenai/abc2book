@@ -1,0 +1,19 @@
+X: 411
+T: the Rocky Road to Dublin
+R: slip-jig, hop-jig
+%S: s:5 b:20(4+4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #411
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0411/oneill-1001-0411-1.abc
+% According to Phil Taylor (http://rbu01.ed-rbu.mrc.ac.uk/barflystuff/barflypage.html)
+% this tune is played in A minor (without the sharps for the fs)
+% It might be a typo in O'Neill, but it seems more likely that
+% performance practise has changed since the book was published.
+M: 9/8
+L: 1/8
+K: Amix	% and/or Am
+|: efe    d2B A2A | E2A    A2A Bcd | efe    d2B A2c | B2A G2A Bcd :|
+[| e2a {b}a2f g2b | e2a {b}a2A Bcd | e2a {b}a2f g2e | d2B G2A Bcd ||
+|  e2a {b}a2f g2d | e2a {b}a2A Bcd | efg    fga gfe | d2B G2A Bcd |]
+[| ecA    ecA A2a | ecA    ecG Bcd | ecA    ecA a2c | d2B G2A Bcd ||
+|  ecA    ecA A2a | ecA    ecA Bcd | efg    fga gfe | d2B G2A Bcd |]

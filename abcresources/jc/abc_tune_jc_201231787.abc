@@ -1,0 +1,13 @@
+X:1
+T: Colonel Ridley's Quickstep
+R: jig
+B: RSCDS-15
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%
+K: A
+[| ed | "A"c2A ABc | "E7"BGE E2d | "A"cAc "F#m"edc | "Bm"B2B "E7"Bed |\
+      | "A"c2A ABc | "E7"BGE E2d | "A"cec "E7"dBG  | "A"A3-      A   |]
+[| ed | "A"cde edc |  "D"def fed | "A"cAc "F#m"edc | "Bm"B2B "E7"Bed |\
+      | "A"cde edc |  "D"def fga | "A"ece "E7"dBG  | "A"A3-      A   |]

@@ -1,0 +1,24 @@
+X: 20754
+T: OH! GIVE ME BACK MY RING.
+C: Copyright.
+Q: "Andante lachrymoso."
+%R: air, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.75 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Rest added to start of 4th strain to fix the rhythm.
+M: C
+L: 1/16
+K: G
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+"_<"g4 f2e2 d2c2 "_<".B4 | "_<"b4 a2g2 fgag "_<".d4 |\
+"_<"g4 f2e2 d2c2 (B2d2) | e2a2 .d4 .f4 "^Fin.".g4 H|]\
+"_<"G4 c2B2 e2d2 "_<".d4 | "_<"=f4 e2d2 ^c2d2 "_<".B4 |\
+"_<"g4 f2e2 d2c2 (B2d2) | c2A2 GFEF G4 |] A2B2 |
+"_<"c4 a2g2 fedc B2cd | e4 c'2b2 agfg a2dc |\
+B2d2c2e2 dcBA GFED | E2c2 BAGF G4 |] z4 |\
+=f4 e2g2 a2a2 g4 | _b4 a2g2 ^f2g2 d4 |\
+=f2d2c2_e2 d2_B2A2c2 | _B2G2A2^F2 G2A=B cde"^D.C."^f |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

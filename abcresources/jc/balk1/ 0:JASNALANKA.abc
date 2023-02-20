@@ -1,0 +1,18 @@
+X: 200
+T: Jas na Lanka
+O: Macedonia
+M: 2/4
+L: 1/16
+K: Am
+Q: 1/4=84
+%%MIDI program 56 trumpet
+  z4 z2 (3DEF |GFFE EDD^C       |^CDEF EFE2    |
+  GFFE EDD^C  |z_BAG A2 (3DEF   |
+  GFFE EDD^C  |^CDEF EFE2       |
+  FGAF GA_BF  |FGAF _B/A/G/F/ E2|
+%%MIDI program 0
+L:1/8
+|:D3/2D/ DD   |^C3/2_B,/ CD     |D3/2D/ DD     |^C3/2_B,/ A,2 |
+  D3/2D/ DD   |^C3/2_B,/ CD     |D3/2D/ DD     |^C3/2_B,/ A,2 :|
+|:F2 ED       |F2 ED            |F/F/F/F/ GG   |E3/2F/ ED     |
+  D/D/D/D/ EE |^C2 _B,A,        |E/D/D/^C/ C_B,|A,2z2         :|

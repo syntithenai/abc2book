@@ -1,0 +1,21 @@
+X: 2084
+T: the BRIG O' BALATER
+C:
+Q: "Strathspey."
+R: Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.2 p.11 #84
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+%%slurgraces yes
+%%graceslurs yes
+K: C
+uE2 |\
+vC3vEuG3uA vc3uGAa3 | vgc3g3ue {^c}d4 (d3e) |\
+vC3vEuG3uA vc3uGAa3 | vgc3g3ue {AB}c4 c2 :|\
+(ef) |:\
+vgc3e3uc vgc3f3ua |
+vgc3g3ue {^c}d4 (d3e) |\
+[1 vgc3e3uc vgc3f3a | gc3{cd}e3d c4- c2(ef) :|\
+[2 vC3vEuG3uA vc3uGAa3 | vgc3g3ue {AB}c4 c2 |]

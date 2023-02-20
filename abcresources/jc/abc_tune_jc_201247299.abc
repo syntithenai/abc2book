@@ -1,0 +1,33 @@
+X: 1
+T: Another Fall
+C: David A Kaynor 2017
+%D:2017
+R: air, march
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+S: "The Compositions of David A.Kaynor"
+S: Dave_Kaynors_Melodies_and_Harmonies.PDF
+M: 4/4
+L: 1/8
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+"^A"|: Bc |\
+"G"d4 c2B2 | "D"A3D GA-A2 | "G"B2d2 "Am"c2B2 | "D"A3D D4 |\
+"G"d4 c2B2 | "D"A3D GA-A2 | "Am"B3c "D"A3G | "G"G6 :|
+"^B1"[|] cd |\
+"C"e2g2 "Am"a3g | "C"g2e2- e2cA | "G"B2d2 "Am"c2B2 | "D"[A6D6] AB |\
+"C"c2e2 "G"d3B | "D"A3D D2GA | "G/B"B2d2 "Am"c2B2 | "D"[A6D6] |]
+"^B2"[|] cd |\
+"C"e2g2 "Am"a3g | "C"g2e2- e2cA | "G"B2d2 "Am"c2B2 | "D"[A6D6] Bc |\
+"G"d4 c2B2 | "D"A3D GA-A2 | "Am"B3c "D"A3G | "G"G6 |]
+% - - - - - - - - - -
+V: 2
+"^A"|: GA |\
+"G"B4 A2G2 | "D"F3A, DF-F2 | "G"G2B2 "Am"A2E2 | "D"F3A, A,4 |\
+"G"B4 A2G2 | "D"F3A, DF-F2 | "Am"E3E "D"D3C | "G"[D6B,6] :|
+"^B1"[|] GB |\
+"C"c2e2 "Am"e3e | "C"e2c2- c2GE | "G"G2B2 "Am"A2E2 | "D"F6 EG |\
+"C"G2c2 "G"B3G | "D"F3A, A,2DF | "G/B"G2B2 "Am"A2G2 | "D"F6 |]
+"^B2"[|] AB |\
+"C"c2e2 "Am"e3e | "C"e2c2- c2 GE | "G"G2B2 "Am"A2G2 | "D"F6 FG |\
+"G"B4 A2G2 | "D"F3A, DF-F2 | "Am"E3E "D"D3C | "G"[D6B,6] |]

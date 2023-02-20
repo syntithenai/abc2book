@@ -1,0 +1,36 @@
+X: 21242
+T: NARRAGANSET SETT (tune 2)
+C:
+%R: 2/4
+B: Elias Howe "The Musician's Companion" 1843 p.124 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Initial rest added to make all the rhythms right between the strains.
+N: The accidentals on the c notes in strain 3 might not be quite right.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="2"
+z2 |\
+dddd d2d2 | f2d2A2z2 | f2A2 (d2f2) | (ec)A2 (ec)A2 |\
+BBBB (B2c2) | {e}d2c2d2e2 | f2gf e2c2 | e2d2d2 H|]
+K: C
+de |\
+d2c2 c2(cd) | c2B2B2d2 | d2ed ^cdef | g2d2 d2de |\
+d2c2 c2cd | c2B2B2G2 | FGAB cdef | g2g2"^D.C."g2 |]
+K: G
+Bc |\
+d^cde d2B=c | defg d2(Bc) | d^cde fefg | agdc ^A2B2 |\
+d^cde d2Bc | defg d2gf | e2ag fdef | g2g2"^D.C."g2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% ladies chain,
+%% promenade four.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

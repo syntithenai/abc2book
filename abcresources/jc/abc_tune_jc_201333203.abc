@@ -1,0 +1,17 @@
+X: 615
+T: Sailor Jack   #2
+T: sean an loingseoir.
+R: air, march
+%S: s:2 b:110(6+4)
+Q: "Moderate"
+B: O'Neill's 1850 #615
+Z: The meter is given as "2"--must be a typo--should be 2/4
+Z: John Walsh (walsh@math.ubc.ca)
+N: Compacted via repeats and multiple endings (and ignoring slurs) [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+M: 2/4
+L: 1/8
+K: G
+"^A"[|] g | dB A>G | GBD z/E/ |[1 GG c>B | B A2 :|[2 GB A>G | G2 z |]
+"^B"[| B | c>B cd | ed g>e | dB AB/d/ | "->A2"e3 |]

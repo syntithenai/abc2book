@@ -1,0 +1,25 @@
+X: 3321
+T: Miss Eleanora Robertson's Favourite
+C: by Nath. Gow
+%R: air, waltz, jig
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.32 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Cm
+% - - - - - - - - - -
+V: 1 staves=2
+G, |\
+Ccc Tc2G | TE2F {EF}GFE | DBB TB2F | (D/E/F)E DCB, ||\
+Ccc Tc2G | TE2F G2g | {f}edc {e}dc=B | cCC C2 :|
+c |\
+G(cd) (ed).c | gc.c (ed).c | (FB).B (df)T=a | (bf).d (fd).B  ||\
+G(c.d) edc | gec efg | (fa).g {g}fed | ecc Tc2e ||
+(Gc).c (ec).c | (gc).c (ec).c | (FB).d .f(=ab) | (fg).e {e}dcB ||\
+{d}c>de {e}d>ef | (.e.f.g) (.f.g.a) | {a}gfe {g}fed | ecc Tc2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | c3 c3 | c3 c3 | B3 B3 | B3 B3 || c3 c3 | c3 e3 | f3 g2G | c2G C2 :|
+z | c'3 c'3 | c'3 c'3 | b3 b3 | b3 b3 || c'3 c'3 | c'3 e3 | f3 g2G | c2c' c3 || c'3 c'3 |
+c'3 c'3 | b3 b3 | b3 B3 || c3 G3 | cde def | e2c g2G | c2G C2 |]

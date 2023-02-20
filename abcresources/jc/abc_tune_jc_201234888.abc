@@ -1,0 +1,40 @@
+X: 20862
+T: HAMILTON SETT (tune 2)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.86 #2
+N: Version 2 for ABC software that understands voice overlays.
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Bar 10 has two dotted half notes for the low voice; changed to two dotted quarter notes.
+N: The d in bar 13 should probably be an e.
+N: The last notes of strains 1 & 2 are missing a count; fixed by removing their flags.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="2"
+A/B/ |\
+c=Bc Aag | .f.e.d .c.B.A | GAB Ggf | .e.d.c .B.A.G |\
+c=Bc Aag | fed cBA | BAB Bge | (g3 f2) H|]
+e/f/ |\
+g3 edc & G3 GFE | [cA]=BB BB/c/d/e/ & D3 =B,3 |\
+f3 x3 & G3 fed | g2e c/B/c/d/e/f/ & CEE E3 |\
+g3 gfd & G3 GFE | dcd fga & A3 d3 |\
+gec x3 & c3 BgB | x3 "^D.C."x2 & d3 c2 |]
+K: Bb
+F |\
+bfd BFD | B,DF Bdf | c'fd Bcd | c=ef _ecA |\
+dBA GEC | A,CF Acf | ecA FGA | Bdc "^D.C."B2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% -- ladies chain,
+%% promenade,
+%% next two forward, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

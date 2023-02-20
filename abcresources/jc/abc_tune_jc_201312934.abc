@@ -1,0 +1,42 @@
+X: 1046
+T: Morgan Rattler
+R: double jig
+O: J.O'Neill
+B: O'Neill's 1850 #1046
+Z: henrik.norbeck@mailbox.swipnet.se
+M: 6/8
+L: 1/8
+K: C
+c "A"|:\
+GFE DEF | EDE C2c | GFE DEG | A2G ABc |\
+GFE DEF | EDE C2f | e(c/B/c) dBG | A2G ABc :|
+"B"|:\
+c3 ecA | ~B3 dBG | c3 ceA | afd efg |\
+c3 ecA | (B/A/B)c dBG | ~c3 BAG | A2G ABc :|
+"C"|:\
+cBA BAG | cGF EDC | cBA BAG | A2G ABc |\
+cBA BAG | cGF EcA | GFE DEG | A2G ABc :|
+"D"||\
+c3 c3 | ceg dBG | c>cc ceg | afd efg |\
+c3 c3 | ceg dBG | ~c3 BGE | A2G ABc ||
+||\
+c3 c3 | ceg dBG | c>cc ceg | afd efg |\
+cd(e/f/) gfe | dec BAG | ~c3 BGE | A2G ABc ||
+"E"|:\
+ceg ceg | ceg dBG | ceg ceg | afd efg |\
+g/g/ge f/f/fd | e/e/ec d/d/dB | c/c/cA B/B/BG | A2G ABc :|
+"F"|:\
+GEE CEE | CEE CEE | GEE CEE | A2G ABc |\
+GEE CEE | CEE C2f | e(c/B/c) dBG | A2G ABc :|
+"G"|:\
+(c>de/f/) {a}g2e | a2f {a}g2e | (c>de/f/) g2e | dBG ABc |\
+(c>de/f/) {a}gfe | dec BAG | ~c3 BAG | (A<B)G ABc :|
+"H"|:\
+(c>de/f/) {a}gdB | cGE C2c | (c>de/f/) {a}gdB | dBG ABc |\
+(c>de/f/) {a}gdB | cGF EcA | GFE DEG | (A<B)G ABc :|
+"I"|:\
+EDE C/C/CC | C/C/CC C/C/CC | EDE C/C/CC | A2G ABc |\
+EDE C/C/CC | C/C/CC C2f | e(c/B/c) dBG | A2G ABc :|
+"J"|:\
+C2c {d}cBc | D2d {e}dcd | C2c {d}cBc | A2G ABc |\
+C2c {d}cBc | D2d def | {a}gfe dcB | A2G ABc :|

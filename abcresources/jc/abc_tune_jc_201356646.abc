@@ -1,0 +1,628 @@
+X: 1
+T:Irish National Anthem
+M:4/4
+L:1/8
+Q:120
+C:Peadar Carney
+K:D
+A2 |F2 DF A3 A |Bc de f3 e |d2 B2 A2 F2 |
+A3 G E2 A2 |F2 DF A3 A |Bc de f3 d |c2 c2 B2 B2 |
+A6 A2 |G3 F GE FG |A3 B A2 d2 |c2 B2 c2 B2 |
+A3 G E2 A2 |F2 DF A3 A |Bc de f2 dB |Ad df e3 d |
+d6 A2||d3 e f2 d2 |A6 A2 |B3 B G2 B2 |
+A6 A2 |d4 c4 |B6 cd |e3 f e2 B2 |
+c4 cB BA |d3 e f2 d2 |A6 A2 |B3 B G2 B2 |
+A6 B2 |c2 z2 c2 z c |c2 c2 B2 B2 |A6 A2 |
+G3 F GE FG |A3 B A2 d2 |c2 B2 c2 B2 |A2 G2 E2 AG |
+F2 DF A3 A |Bc de f2 dB |Ad df e3 d |d6 z2||
+
+X: 2
+T:Saint Patrick's Day
+M:6/8
+L:1/8
+Q:120
+C:Traditional
+K:G
+D2 |:GAG GBc |ded dBG |AGA BGD |1
+EGE E2 D :|2E2 F G2 B ||def gag |fed edB |
+def gag |fed e2 d |def gag |fed efg |
+GAG GBc |ded dBG |AGA BGD |EGE E2 D |
+GAG GBc |ded dBG |AGA BGD |E2 F G2 D ||
+
+X: 3
+T:The Ship in Full Sail
+M:6/8
+L:1/8
+Q:120
+C:Traditional
+K:C
+E2 |:DGG BGG |dBG GBd |edg dBG |1
+ABA AGE :|2AGE G2 B ||dgg bgg |aga bge |
+d2 g bgg |aba age |dgg bgg |aga bag |
+ege dBG |AGE G2 E ||
+
+X: 4
+T:The Centenary March
+M:4/4
+L:1/8
+Q:120
+C:Traditional
+K:D
+DF |:A2 A3/2B/ AFED |f2 f2 edBd |1A2 A3/2B/ AF ED |
+E2 E3/2F/ E2 DF :|2A2 d3/2e/ fe dc |d2 d3/2c/ d2 Ad ||f3 a Ad fa |
+g2 f2 e2 f3/2g/ |af dA FA GF |E2 E3/2F/ E2 F3/2G/ |AD FA dF Ad |
+f3/2a/ gf ed cB |Aa ga ge ce |d2 d3/2c/ d2 DF ||
+
+X: 5
+T:Sheebeg and Sheemore
+M:3/4
+L:1/8
+Q:120
+C:Traditional
+K:D
+de |:f4 ed |d4 ed |B4 A2 |
+F4 A2 |BA Bc d2 |e4 de |f4 e2 |
+d4 f2 |B4 e2 |A4 d2 |F4 E2 |
+D4 f2 |B4 e2 |A4 dc |d6 |
+d4 de ::f4 ed |ed ef a2 |b4 a2 |
+f4 ed |e4 a2 |f4 ed |d4 B2 |
+B4 BA |F4 E2 |D4 f2 |B4 e2 |
+A4 a2 |ba gf ed |e4 dc |d6 |
+d4 de :|
+
+X: 6
+T:Jackets Green
+M:4/4
+L:1/8
+Q:120
+C:Traditional
+O:Mick Clancy
+A:North Leitrim
+K:G
+ef |g3 f e2 dB |A2 G2 E2 GA |B2 BG A2 A2 |
+G6 B2 |:d3 B d2 ef |g3 f e2 d2 |e3/2f/ ed BA Bd |1
+e6 B2 :|2e6 ef ||ga gf e2 dB |A3/2B/ AG E2 GA |
+B2 BG A2 A2 |G6 ef ||
+
+X: 7
+T:Mulhair's Jig
+M:6/8
+L:1/8
+Q:120     %Tempo
+C:Traditional
+K:G
+E |:EDE G2 A |BeB dBd |edB GAB |1
+ABA AGE :|2AGF G2 B ||d2 d def |gfe fdB |
+ABA ABd |egf e2 f |g2 e fed |edB gfg |
+edB AGA |BGG G2 E ||]
+
+X: 8
+T:Roddy Mc Corley
+M:4/4
+L:1/8
+Q:100
+C:Traditional
+K:C
+GA |B2 AB D2 D2 |B3 A G3 D |E2 G2 G2 A2 |
+G6 Bc |d2 d2 d2 Bd |e2 e2 d2 BA |G2 E2 c2 B2 |
+A6 Bc |d2 d2 d2 Bd |e2 e2 d2 BA |G2 E2 c2 B2 |
+A6 GA |B2 AB D2 D2 |B3 A G3 D |E2 G2 G2 A2 |
+G6
+
+X: 9
+T:O'Carolan's Concerto
+M:4/4
+L:1/8
+Q:120
+C:Turlough O'Carolan
+K:D
+(3ABc |d2 dd d2 cB |AB GA F2 A2 |E2 A2 D2 A2 |
+Bc de dc BA |d2 a2 fgaf |efge fgaf |gabg fdfa |
+gfed dcBA |(3Bcd (3Bcd gf g2 |AcAc fe f2
+ |GBGB e2 ed |
+cdBc A2 AG |FGAF EFGE |FGAF GABA |AFAd fedc |
+d2 dc d2 (3ABc ||d2 b2 agfe |d2 a2 c2 a2 |B2 gB ABcd |
+ecBA d3 f |edcB ca (3aga |Bg (3gfg Af (3fef |edcB ca (3aga |
+bg (3gfg bgbg |afaf edcB |(3cBA (3BAG (3AGF (3GFE |DAFA DAFA |
+(3GFE BE (3GFE BE |FAdc BAGF |EFGA BcdB
+|AFAd fedc |
+d2 dc d2 z2 ||
+
+X: 10
+T:Sliabh na mBan
+M:3/4
+L:1/8
+Q:84
+C:Traditional
+K:G
+D2 |:G4 cA |B4 A2 |G4 Bd |
+g4 ag |f2 d2 B2 |c4 Bc |d3 e dB |
+B2 G4 |1Bd c3 B |A4 DE/F/ :|2cA G3 F |
+G4 de/f/ :|
+M:2/4     %Meter
+L:1/8     %
+g3 B |c2 d2 |f2 e2 |
+d3 A |B4 |A4 |G2 Bd |
+g3 B |c2 d2 |f2 e2 |d4 |
+D2 EF |
+M:3/4     %Meter
+L:1/8     %
+G4 cA |B4 A2 |G4 Bd |
+g4 ag |f2 d2 B2 |c4 Bc |d3 e dB |
+B2 G4 |cA G4 |F2 G4 ||]
+     %End of file
+
+X: 11
+T:The Harvest Home
+M:4/4
+L:1/8
+Q:120
+C:Traditional
+O:Mick Clancy
+A:Manorhamilton Co. Leitrim
+K:D
+AF |:DAFA DAFA |defe dcBA |eAfA gefd |
+(3efe (3dcB (3ABA (3GFE |DAFA DAFA |defe dcBA |eAfA gece |1
+d2 dc d2 z2 :|2d2 dc d2 cd ||eA (3ABA fA (3ABA |eAfA eA (3ABA |
+eAfA gefd |(3efe (3dcB (3ABA (3GFE |DAFA DAFA |defe dcBA |
+eAfA geAe |d2 dc d2 z2 ||
+
+X: 12
+T:The Sally Gardens
+M:4/4
+L:1/8
+Q:160
+C:Traditional
+K:G
+G2 DG B2 GB |dBeB dBAB |d2 Bd efge |dBAB GEDE |
+G2 DG B2 GB |dBeB dBAB |d2 Bd efge |dBAB G3 B ||
+dggf g2 dg |g2 bg aged |eaag a3 a |gabg ageg |
+dggf g2 dg |g2 bg ageg |d2 Bd efge |dBAB G2 z2 ||
+%  ABC2Win Version 2.1 20/06/2002
+
+X: 13
+T:The Dusty Window Sill
+M:6/8
+L:1/8
+Q:120     %Tempo
+K:G
+A2 B cBA |eBd cBA |G3 EGG |DGG EFG |
+A2 B cBA |e2 d efg |age dBG |ABA Ace ||
+a3 age |dBd g3 |g3 gfe |dBA G3 |
+EGG DGG |EFG ABc |Bed BAG |ABA A2 E ||
+ABA a2 A |ABA a2 G |GAG g2 G |GAG edB |
+ABA a2 A |ABA efg |age dBG |ABA A2 z ||
+%  ABC2Win Version 2.1 21/06/2002
+
+X: 14
+T:The Queen of the Fair
+M:6/8
+L:1/8
+Q:100
+C:Traditional
+K:D
+FEF DA,A, |DFA dAF |GFG FGA |BGE EAG |
+FEF DA,A, |DFA dAF |GFG EAG |1FDD D2 D :|2
+FDD D2 e ::fdf ece |dAG FED |DFA dAF |
+GFG E2 e |fdf ece |dAG FED |EFG dAG |1
+FDD D2 e :|2FDD D2 A ||Add fdd |add fdd |
+Adf g2 e |fdf ecA |Add fdd |add fdd |
+EFG dAG |FDD D2 A |Add fdd |add fdd |
+Adf g2 e |fdf ecA |afa geg |fdf ecA |
+FGA dAG |FDD D2 z ||
+
+X: 15
+T:The Liverpool Hornpipe
+M:4/4
+L:1/8
+Q:120
+C:Traditional
+K:D
+AG |:(3FED FA dfaf |gfec dcBA |1GBGB FAFA |
+EDEF GFEG :|2dfaf bgec |d2 dc d2 A2 :|d2 fd c2 ec |
+BABc dcBA |GBGB FAFA |EDEF GFEG |(3FED FA dfaf |
+gfec dcBA |dfaf bgec |d2 dc d2 z2 ||
+
+X: 16
+T:O'Callaghan's Hornpipe
+M:4/4
+L:1/8
+Q:120     %Tempo
+C:Traditional
+K:G
+Bd |:(3efg fg eABA |GABd dBGE |DEGA BABd |
+(3efg fg edBd |eaaf gfed |B2 BG (3ABc AF
+ |1G2 GF G2 Bd :|2
+G2 GF G2 fg |:afge dega |bBBA G2 fg |afge dega |
+b2 e2 e3 g |f2 (3def gfeg |f2 (3def gfeg
+ |(3gab af gfed |1
+(3Bcd ed e2 fg :|2(3Bcd ed e3 f ||
+%  ABC2Win Version 2.1 21/06/2002
+
+X: 17
+T:Róisín Dubh
+M:3/4
+L:1/8
+Q:83     %Tempo
+C:Traditional
+K:D
+A4 FA |D4 FA |e4 de |f3 e dB |
+AF E4 |DE F2 (3EFE |D6 |(3def ||
+g3 f ed |fe/d/ cA AB/A/ |FA e4 |de f4 |
+e2 d4 |(3def |g3 f ed |fe/d/ cA BA |
+FA e4 |de f3 e |d3/2B/ A2 FA |D2 FA e2 |
+de f2 e2 |dB AF E2 |DE F2 (3EFE |D6 ||
+%  ABC2Win Version 2.1 21/06/2002
+
+X: 18
+T:Johnny Cope
+M:4/4
+L:1/8
+Q:120
+C:Traditional
+K:G
+(3EFG |A2 AB A2 Bd |efed B2 AG |EGGF GABc |
+dBGA BAGB |A2 AB A2 Bd |efed B2 d2 |(3efg fa gedB |
+BAAG A2 AB||cBcd c2 G2 |cdef gedB |cBAc e2 ed |
+cdec dBGB |cBcd c2 G2 |cdef ge d2 |eaag eged |
+(3cBA AG A2 AB ||cBcB ABAG |ABcd egdc |BG G2 dG G2 |
+cdec dBGB |cBcB ABAG |ABcd eg d2 |eaag eged |
+(3cBA AG A2 Bd |:e2 a2 a2 ga |b2 ba g3 d |eggf gaba |
+gabg aged |e2 a2 a2 ga |b3 a g3 e |d2 ef gedB |1
+BAAG A2 Bd :|2BAAG A2 cd ||e2 e2 fe d2 |eaaf fedB |
+d2 de dBAB |d2 fd edBd |e2 e2 fe d2 |eaaf fedB |
+ABdf efdB |BAAG A2 (3efg ||a2 e2 efge |a2 e2 e2 ag |
+f2 d2 dcde |f2 d2 d2 fg |a2 e2 fe d2 |eaaf gedB |
+ABdf efdB |BAAG A2 z2 ||
+%  ABC2Win Version 2.1 22/06/2002
+
+X: 19
+T:The Scotsman over the Border
+M:6/8
+L:1/8
+Q:120
+C:Traditional
+K:D
+D2 D FDF| AFA d2  A| BdB BAB| def edB| ADD FDF| AFA d2 A| B/2c/2dB AFA|1
+ dAF ECE:|2 dAF E2 D|| dfa afa| bag fed| dfa  afd| def edB| dfa afa| bag
+ fed| B/2c/2dB AFA|1 dAF E2 D:|2 dAF ECE||
+
+X: 20
+T:The Bee Park
+M:4/4
+L:1/8
+Q:120
+C:Joe Leddy
+K:D
+B,EEF G3 A | (3Bcd Ad Beef | gefd edBd | edBA GBFA| E3 F G3 d | dBAd Bee
+f | gefd edBA | G2 FG E2 :| e3 d Bebe | d2 ad bdad | e3 d (3Bcd fa | bf
+f2 fe e2 | e2 be Bebe | d2 ad bdad | GBFB edBA | G2 FG E3 ||
+
+X: 21
+T:The Jockey at the Fair
+M:6/8
+L:1/8
+Q:120
+C:Traditional
+K:G
+D | G2 A B2 c | d2 g d2 c | BAB GFG | cBc ABc | dcd efg | a2 f d2 g | fe
+d ABc | d3 d2 :| fg || afd afd | c3 B2 c | dgd dgd | c3 Bcd | e2 f gfe |
+ d2 c Bcd | edc B2 A | B2 G E2 D | G3 GBd | e2 f g2 e | dBG A2 B | E2 F
+G2 A | B2 g B2 A | G3 G2 ||
+
+X: 22
+T:The Ebbing Tide
+M:6/8
+L:1/8
+Q:120
+C:Joe Liddy
+K:D
+EFD E3 |GAB ABd |Bee ded |BAF DEF |
+EFD E3 |GAB def |edB dAF |EFD E3 ||
+Bee efe |dBd def |edB BAF |AFE DFA |
+Bcd efe |dBA Bcd |edB dAF |EFD E3 |
+Bee edB |def afd |edB Bcd |BAF EFA |
+Bcd efg |edB def |edB dAF |EFD E3 ||
+%  ABC2Win Version 2.1 24/06/2002
+
+X: 23
+T:The Donegal Reel
+M:4/4
+L:1/8
+Q:150
+C:Traditional
+K:D
+D3 E FDFA |dFAF BFAF |E3 F GFGA |BdAF EGFE |
+D3 E FDFA |dFAF ABde |f2 e2 dBAG |F2 E2 D2 z2 ||
+defg afdf |afdf a2 gf |edef gfed |cdef g2 fe |
+defg afdf |afdf abag |f2 e2 dBAG |F2 E2 D2 z2 ||
+%  ABC2Win Version 2.1 24/06/2002
+
+X: 24
+T:Planxty Maguire
+M:2/4
+L:1/8
+Q:110
+C:Turlough O'Carolan
+K:G
+d |:c/B/A/G/ dG |B/c/d de/f/ |gf/e/ ag/f/ |
+gA Ad |c/B/A/G/ Bd |c'b ag |f/g/f/e/ de/f/ |1
+gG Gd :|2gG Ge ||d/B/d/e/ dB |d/B/d/e/ dB |
+cA AB |cA Ad |B/c/d Gd |Fd Ee |
+f/g/a ea |g/f/e/f/ d2 |ef ga |bg ga/b/ |
+c'a ad' |c'/b/a/b/ g2 |d/e/d/c/ Bd |ge ce |
+fg/a/ de/f/ |gG G2 ||
+%  ABC2Win Version 2.1 24/06/2002
+
+X: 25
+T:Lady Anne Montgomery
+M:4/4
+L:1/8
+Q:150
+C:Traditional
+K:D
+A2 |FADA FADA |FAdA BAdA |FADF E2 FE |
+DB,A,B, D2 A2 |FADA FADA |FAdA BABc |dBAF E2 FE |
+DB,A,B, D4 |:f3 f fede |fedB ABde |1f3 f fede |
+faaf efde :|2fded BdAg |fgfe d4 ||
+%  ABC2Win Version 2.1 24/06/2002
+
+X: 26
+T:Madame Bonaparte
+M:4/4
+L:1/8
+Q:120     %Tempo
+C:Traditional
+K:G
+dc |:B2 BA BdBG |c2 cB cecA |GBdf gfge |
+d2 de dcBA |B2 BA BdBG |cBcd efge |dBGB (3cBA FA |
+G2 GF G2 D2 :||:GBdf gfge |d2 de dcBA |GBdf gfge |
+d2 de dcBA |(3Bcd Gd Bd G2 |ceAe ce A2 |(3Bcd Gd Bd G2 |
+FADA FA D2 |(3Bcd Gd Bd G2 |cBcd efge |dBGB (3cBA FA |
+G2 GF G2 z2 :|
+%  ABC2Win Version 2.1 24/06/2002
+
+X: 27
+T:Miss Mc Leods Reel
+M:4/4
+L:1/8
+Q:150     %Tempo
+C:Scottish Traditional
+K:G
+G2 BG dGBG |GBBA BcBA |G2 BG dGBG |AF F2 DFAF |
+G2 BG dGBG |GBBA Bc d2 |eBBA Bdef |g2 eg dBAF ||
+g2 fg egge |dBBA Bdef |g2 fg efge |a2 ag a2 ba |
+g2 fg egge |dBBA Bc d2 |eBBA Bdef |g2 eg dBAF ||
+%  ABC2Win Version 2.1 24/06/2002
+
+X: 28
+T:O'Donnell's Rock
+M:4/4
+L:1/8
+Q:120     %Tempo
+C:Joe Liddy
+K:D
+de |:fafd egfe |de (3fed BAFA |1B2 (3cBA
+ BA FE |
+FBcA Bcde :|2Bcde fafe |(3dcB (3cBA B2 d
+e |:f2 ba bafe |
+dfce BAFA |B2 (3cBA Bcdf |afed e2 de |1fbaf eafe |
+B2 cA BAFA |defe fbfe |(3dcB cA B2 de :|2f2 (3baf e2 (3fed |
+B2 (3fed e2 de |(3fga ba (3faf ef |(3dcB cA B2 z2 ||
+%  ABC2Win Version 2.1 24/06/2002
+
+X: 29
+T:Whelan's Jig
+M:6/8
+L:1/8
+Q:120     %Tempo
+C:Traditional
+K:D
+E3 BAF |FEB AFD |E3 BAB |dAF FED |
+E3 BAF |FEB AFA |B3 BAB |dAF FED ::
+BAB e3 |fed e2 d |BAB g2 e |fdB AFA |
+BAB e3 |fed e2 f |gbg faf |edB AFD :|
+%  ABC2Win Version 2.1 26/06/2002
+
+X: 30
+T:The Fox-Hunter
+M:4/4
+L:1/8
+Q:160     %Tempo
+C:Traditional
+K:G
+d2 (3BAG dGBG |dGBG AGEG |d2 (3BAG dGBG |AcBG AGEG |
+d2 (3BAG dGBG |dGBG AGEG |d2 (3BAG dGBG |AcBG AGEG |:
+D3 B BAGE |D2 BG AGEG |D3 B BA G2 |AcBG AGEG ::
+gedB G2 Bd |gdBd eA A2 |gedB G2 cB |ABcd eA A2 :|
+dggf g3 e |dg g2 egdB |dggf g3 d |egdB AGAB |
+dggf g3 e |dg g2 egdB |dggf g3 d |egdB AGAB |:
+G2 BG dGBG |GB B2 AGAB |G2 BG dGBG |egdB AGAB |
+G2 BG dGBG |GB B2 AGAB |G2 BG dGBd |egdB AGAB ||
+
+X: 31
+T:The Dawning of the Day
+M:4/4
+L:1/8
+Q:120
+C:Traditional
+K:D
+DE |F2 F2 F2 EF |A2 A2 B2 AF |D2 E2 D2 D2 |
+D6 FA ||B3 A B2 d2 |F3 E D2 F2 |A2 F2 d2 F2 |
+E6 DE |F2 F2 F2 EF |A2 A2 B2 AF |D2 E2 D2 D2 |
+D6 z2 ||
+%  ABC2Win Version 2.1 26/06/2002
+
+X: 32
+T:Stack of Barley
+M:4/4
+L:1/8
+Q:120
+C:Traditional
+K:G
+gf | efed BedB | AGEG AcBA | GFGA BA (3Bcd | eAAG A2 Bd | efgf efdB | AG
+EG AcBA | GFGA (3Bcd Ac | B2 G2 G3 A || Bdef g2 fg | agfg edBd | gfed BA
+ (3Bcd | eAAG A2 (3Bcd | (3efg af g2 fe | dBAG AcBA | GFGA (3Bcd Ac | B2
+ G2 G2 z2 ||
+
+X: 33
+T:King of the Fairies
+M:4/4
+L:1/8
+Q:120     %Tempo
+C:Traditional
+K:D
+F2 |EDEF GFGA |B2 B2 G3 A |B2 E2 EFGE |
+FGFE D4 |EDEF GFGA |BAGB d3 c |B2 E2 GFED |
+E6 d2 ||e2 e2 Bdef |gagf e3 f |e2 B2 BABc |
+dedc Bc d2 |e2 e2 Bdef |gagf efed |Bdeg fedf |
+e6 ef |g3 e f2 d2 |edBc d3 e |dBAF GABc |
+dBAF GFED |B2 E2 EFGA |B2 e2 e2 ef |e2 B2 BAGF |
+E6 z2 |]
+     %End of file
+%  ABC2Win Version 2.1 27/06/2002
+
+X: 34
+T:The Garden of Daisies
+M:4/4
+L:1/8
+Q:120     %Tempo
+C:Traditional
+K:D
+fg |:a2 af gbag |fdfa gfec |dcde fdec |
+dedc AGFG |AB (3cBA dcAG |FDFG AB (3cBA |dcdf edce |1
+d2 dc defg :|2d2 dc d2A2 ||dcde fefg |a2 af defg |
+a2 af gbag |fefe defg |a2 af gbag |fdfa gfef |
+dcde fdec |dedc A2 fg |a2 af gbag |fdfa gfef |
+dcde fdec |dedc AGFG |AB (3cBA dcAG |FDFG AB (3cBA |
+dcdf edce |d2 dc d2 z2 ||
+%  ABC2Win Version 2.1 26/06/2002
+
+X: 35
+T:Lovely Leitrim
+M:3/4
+L:1/8
+Q:120     %Tempo
+K:D
+F2 |A4 B2 |F4 A2 |B4 e2 |
+d4 B2 |A2 F4 |E4 F2 |D6 |
+D4 A2 ||:d4 c2 |d4 e2 |d4 c2 |
+B4 A2 |B4 e2 |d2 c2 B2 |1A6 |
+A4 A2 :|2A6 |A2 D2 F2 ||A4 B2 |
+F4 A2 |B4 e2 |d4 B2 |A2 F4 |
+E4 F2 |D6 |D4 F2 ||]
+     %End of file
+%  ABC2Win Version 2.1 27/06/2002
+
+X: 36
+T:The Musical Priest
+M:4/4
+L:1/8
+Q:150
+C:Traditional
+K:G
+EAAG ABcA |BAGB dBAG |EAAG ABcA |1BAGB A2 AG :|2
+BAGB A3 B ||c2 cB cedc |(3BAG dG eGdG |cBAB cdef |
+gedB cAAB |cBAB cedB |GBdB GBdB |cBAB cdef |
+gedB cA A2 ||aA (3cBA aA (3cBA |BAGB dBA
+G |aA (3cBA aA (3cBA |
+BAGA BA A2 |aA (3cBA aA (3cBA |BAGB dBAG
+ |ABcB cdef |
+gedB cA A2 ||]
+     %End of file
+%  ABC2Win Version 2.1 28/06/2002
+
+X: 37
+T:Paddy Fahy's Reel
+M:4/4
+L:1/8
+Q:150
+C:Traditional
+K:D
+AG |: FD D2 FAGE | FDFA GECE | FD D2 FGAd |1 cdec dcAG :|2 cdec d2 de ||
+ fdec Ad d2 | cAGE CDEg | fdec dcAG | Adce d2 de | fdec Ad d2 | cAGE CDE
+G | FD D2 FGAd | cdec d2 ||
+
+X: 38
+T:The Fairies Hornpipe
+M:4/4
+L:1/8
+Q:120
+C:Traditional
+K:G
+(3DEF | GFGA BdcB | AGAB G2 Bc | dgfg edcB | cedB A2 Bc | dggf g2 fe | d
+edc B2 AG | AB (3cBA dcAF | G2 GF G2 || Bc |: dggf g2 fe | dedc B2 AG |1
+ AB (3cBA edcB | Addc d2 Bc :|2 AB (3cBA dcAF | G2 GF G2 ||
+
+X: 39
+T:The Union Reel
+M:4/4
+L:1/8
+Q:150
+C:Traditional
+K:A
+e2 (3cBA eAcA | eAcA BcdF |1 e2 (3cBA eAcA | Bcdc BAFA :|2 efec dcBA | F
+ABc d3 c || df f2 dfec | df f2 afef | df f2 dfec | dcBA FABc | df f2
+ dfec | df f2 afef | df f2 dfec | dcBA FAdf ||
+
+X: 40
+T:The Blackbird
+M:2/4
+L:1/8
+Q:220
+C:Traditional
+K:D
+dc | BABd | cABG | AGFG | AB (3cBA | dcde | dcAF | GAGF | D2 DE | FEFG |
+ A2 fe | dcde | dcAF | GAGF | D2 Dc | D2 :| de | fede | f2 g2 | abag | f
+gaf | g2 gf | g2 gf | gagf | dcde | fede | f2 g2 | abag | fgaf | gagf |
+d2 dc | d2 (3efg | abag | fgaf | g2 ge | f2 ed | c2 AB | c2 d2 | fefg |
+a4 | ABAG | FGAB | cBce | dcAF | GAGF | D2 Dc | D2 ||
+
+X: 41
+T:Clare's Dragoons
+M:4/4
+L:1/8
+Q:120
+K:D
+F2 A2 A2 Bc | d3/2c/de d2 AG | F2 A2 A2 ef | g3/2f/ed B2 AG | F2 A2 A2 B
+c
+ | d3/2c/de f3 g | a2 d2 B2 g2 |1 f2 e2 dcBA :|2 f2 e2 d3 e || f2 a2 e2
+f
+2 | d3/2c/de f3 e | f2 a2 e2 f2 | gfed B3 A | f2 a2 e2 f2 | d3/2c/de f3
+g | a2 d2 B2 g2 | f2 e2 d4 ||
+
+X: 42
+T:The Mountains of Pomeroy
+M:4/4
+L:1/8
+Q:120
+K:G
+Bc |: d3 B dcBA | G2 A2 E2 GE |1 D2 EF G2 AB | c3 B c2 Bc :|2 D2 DE G3 A
+ | G6 GA || B3 A G2 AB | c2 d2 d2 ge | d2 BA G2 AB | c6 Bc | d3 B dcBA |
+ G2 A2 E2 GE | D2 DE G3 A | G4 ||
+
+X: 43
+T:The Foggy Dew
+M:4/4
+L:1/8
+Q:120
+K:G
+EF |: G2 GA B2 gf |e2 dB A2 GA |BABG EGFA |1
+G2 G3/2F/ G2 EF :|2G2 G3/2F/ G2 ef ||g2 gf e2 fg |agfe d2 Bd |
+edef gfed |e6 EF |G2 GA B2 gf |e2 dB A2 GA |
+BABG EGFA |G2 G3/2F/ G2 z2 ||
+%  ABC2Win Version 2.1 06/07/2002
+
+X: 44
+T:The Ministrel Boy
+M:4/4
+L:1/8
+Q:120
+K:G
+D2 |:G3 B cB AG |B2 d2 g2 fg |e2 d2 B3/2c/ dB |1
+A4 G2 D2 :|2A4 G2 Bd ||g2 f2 e2 fg |f2 e2 d3 d |
+e3 d B2 d2 |e3 f g2 g2 |G3 B cB AG |B2 d2 g2 fg |
+e2 d2 B3/2c/ dB |A4 G2 z2 ||
+%  ABC2Win Version 2.1 06/07/2002
+
+% Output from ABC2Win  Version 2.1 i on 30/07/2002

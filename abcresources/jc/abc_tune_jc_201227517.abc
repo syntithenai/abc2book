@@ -1,0 +1,17 @@
+X: 10831
+T: NEWCASTLE SCHOTTISCHE
+R: shottish
+B: K\"ohler's Violin Repository, v.1, 1885 p.83 #1
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Bas 11 has missing 16th-note; lenghthened first f to fix it.
+M: 2/4
+L: 1/16
+K: F
+|:\
+v(c2a2) u(ca)u(ca) | c2{b}a>^g a>fc2 | (B2g2) u(Bg)u(Bg) | A2{g}f>e (fc)AB |\
+(c2a2) u(ca)u(ca) | c2{b}a>^g a>fc2 | (c>d)e>f g>ab>e | [f2A2][f2A2][f2A2] z2 :|
+K: C
+|:\
+vg2e'2g2e'2 | (e'>d')d'>^c' d'4 | f2(f>e) f2b2 | (d'>c')c'>=b c'4 |\
+g2e'2g2e'2 | (e'>d')d'>^c' d'4 | f2(e>f) (.e'>.d') |[1 c'2c'2c'2z2 :|[2 c'2z2 "_>"u_b4 "_D.C."|]

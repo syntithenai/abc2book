@@ -1,0 +1,29 @@
+X: 412
+T: IT WINNA DO
+C: D. Mc LAREN
+R: Reel
+B: Glen Collection p.41 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Dm
+%
+V: 1
+A, |\
+(D/E/F) (E>D) (d/e/f) (ed) | cAGF ECCE | (D/E/F) (E>D) (d/e/f) e>d | c>AGE ADD :|
+e |\
+f>ede fagf | egcg ecge | f>ede fage | fdB^c dDDe |
+f>ede fagf | egcg ecge | f<ae<g decd | AcEG ADD |]
+%
+V: 2
+z |\
+d2[a2f2] d2[d'2a2] | f2[c'2a2] c2[g2e2] |\
+d2[a2f2] d2[d'2a2] | A2[^c'2a2] [d'2d2][ad] :|
+z |\
+d2[a2f2] A2[a2f2] | c2[g2e2] G2[g2e2] |\
+d2[a2f2] d2B2 | A2[g2e2] [f2d2][f2d2] |
+d2[a2f2] A2[a2f2] | c2[g2e2] G2[g2e2] |\
+d'2a2 b2f2 | [a2f2][g2e2] [f2d2][afd] |]

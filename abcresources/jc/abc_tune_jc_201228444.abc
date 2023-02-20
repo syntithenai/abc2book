@@ -1,0 +1,31 @@
+X: 111
+T: Bonny Iean
+T: Bonny Jean
+%R: air
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.11 #2
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Q: "slow"
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1
+TA>G |\
+F2(F/G/A) C3D | FEFG TA2{G}F2 | B3d (cA)(TGF) | G>ATGF D2TA>G |
+F2(F/G/A) C3D | F2F2 f2(Te>d) | {d}c2(TBA) GABc | {B}A2(TG>F) F2 :|
+|: c>d |\
+f2(f/g/)a Tc3d | f>efg a2fg | (ag)Tfd (f>d)(TcA) | (BA)(TGF) D2TA>G |
+F2(F/G/A) C3D | F2F2 Jf2Te>d | {d}c2(TBA) G>AB.c | {B}A2(TGF) F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+z2 |\
+fg"6"af "6"ecc'b | a3"6"e fFf_e | "6"dcdB "6"A2zF | c3"6"A B2"6 5;4 3"c2 | de"6"fd
+"6"ecc'b | "6"abag f2"6"g2 | "6"a2b2 c'2"3"c2 | f2c2 F2 :|\
+|: z2 |\
+fg"6"af "6"ecc'b | "6"a"6"gf"6"e f2zc |
+FG"6"AB "6"A2zF | G3"6"A B2"6 5;4 3"c2 |\
+de"6"fd "6"egc'b | "6"abag f2"6"g2 | "6"a2"6;5"b2 "4"c'2"3"c2 | f2c2 F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

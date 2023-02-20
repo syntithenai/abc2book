@@ -1,0 +1,20 @@
+X: 1
+T: Gasp\'e Reel
+C: trad. Qu\ebec
+R: reel
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+S: https://www.facebook.com/groups/Fiddletuneoftheday/ 2020-11-11
+S: https://www.facebook.com/groups/Fiddletuneoftheday/photos/
+N: The Fiddler's Companion (p.116) has the 3rd strain as 7 bars of [M:4/4] (or [M:C|]).
+M: C|
+L: 1/8
+K: D	% and A (3rd strain)
+|:\
+"D"f2(ef) e2d2 | dABd TB2A2 | "Em"g2~f2 e2d2 | "A"cABc TB2A2 |\
+"D"f2(ef) e2d2 | DFAd  B2A2 | "Em"g2~f2 e2d2 | "A"cABc "D"d2z2 :|
+|:\
+"A"eAfA g2e2 | "D"fefg a3f | "A"ece(f gf)e(d | "Em"cA)Bc "A"TB2A2 |\
+"A"eAfA gAeA | "D"fefg a3f | "A"ece(f gf)e(d | cA)Bc "D"d2z2 :|
+[M:3/2] |:\
+"A"e2cA e2cA "E"Bcdf |[M:C|] "A"e2cA e2cA | "E"BA^GB "A"A2(cd) |[M:3/2]\
+"A"e2(c/B/A) e2(c/B/A) "E"Bcdf |[M:C|] "A"e2(c/B/A) e2(c/B/A) | "E"BA^GB "A"A2z2 :|

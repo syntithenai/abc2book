@@ -1,0 +1,16 @@
+X: 3280
+T: TRIP TO THE LAKES
+% The book has "TIRIP", but the index has "Trip".
+%R: jig
+B: James Kerr "Merry Melodies" v.3 p.31 #280
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+[|\
+gfg dBG | ABc BAG | gfg ABc | BGG G3 |\
+gfg dBG | ABc BAG | gfg ABc | BGG G3 |]|\
+gfg dBd | gfg ece | gfg dBG | ABc BAG |
+gfg dBd | gfg ece | gfg ABc | BGG G3 |[|\
+B,GG CGG | EGG DGG | Ged dcB | cdc BAG |\
+B,GG CGG | EGG DGG | Gec BcA | BGG G3 |]

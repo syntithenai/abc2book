@@ -1,0 +1,23 @@
+X: 2263
+T: Mrs Ferguson of Reaths Strath'spey
+%R: strathspey
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.26 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Gdor
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 6-bar lines, for better spacing and easier proofreading.
+V: 1 staves=2
+GF |\
+D2TG2 TG2FG A2G2 TG3A | F2f2 Tf2ed cBAG FGAF |\
+D2G2 TG2FG A2G2 TG2fg | (ag)fe (fd)cA {A}G4G2 :| A2 |\
+G2g2 Tg2fg (fgag) Tg3a | Tf3g (fgag) (ag)fd c2f2 |
+d2g2 Tg2fg (fgag) Tf3g | (ag)(fd) (fdcA) {A}G4 G2A2 ||\
+G2g2 Tg2fg (fgag) Tg3a | f3g (fg)ag (ag)fd Tc3f |\
+(Tdcdf) Tg3a fcdf Tg3a | f2cf (dcB)A {A}G4 G2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | g4g4 g4g4 | f4f4 f4f4 | g4g4 g4g4 | d4d4 G4G2 :| z2 | g4g4 d4g4 | f4f4
+f4f4 | g4g4 f4f4 | d4d4 g4G4 || g4g4 d4g4 | f4f4 f4f4 | g4g4 d4g4 | d4d4 g4G2 |]

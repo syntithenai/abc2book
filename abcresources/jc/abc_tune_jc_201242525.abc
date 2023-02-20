@@ -1,0 +1,13 @@
+X:601
+T:The Corkonian
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 60
+M:6/8
+L:1/8
+Q:1/8=270
+K:Ador
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+c/d/|ecA {B}A^GA|ece gfe|dBG {A}GFG|BGB d2c/d/|ecA {B}A^GA|
+Ace gba|gfe dB^G|A3-A2::^g|aba age|abc' b2a|gag ged|
+ede ga>b|aba age|abc' b2a|gfe dB^G|A3-A2:|

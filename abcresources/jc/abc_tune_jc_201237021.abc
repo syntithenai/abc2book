@@ -1,0 +1,18 @@
+X: 23
+T: Neat, Mr John
+R: reel
+M: C|
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Andrew Shaw "Mr Kynaston's Famous Dance" p.23
+P: Play AABB x 3
+K: A
+%
+"A"|:\
+"A"e4 "D"fga2 | "E"g2 e4 dc | "D"B4 A4 | "E"(G2 B6) |\
+"A"e4 "D"fga2 | "E"g2 e4 dc | "D"B4 "E"A4 | "A"(E2 A6) :|
+"B"|:\
+"A"c3B "E"c2d2 | "F#m"efed cBcA | "Bm"d2c2 d2e2 | "E"fgfe dcdB |\
+"A"c2B2 "Bm"c2d2 | "A/c#"efed cBcA | "D"aedc B2A2 | "E"(G2 B6) |
+"A"c3B "E"c2d2 | "F#m"efed cBcA | "Bm"d2c2 d2e2 | "E"fgfe dcdB |\
+"A"e4 "D"fga2 | "E"g2 e4 dc | "D"B4 "E"A4 | "A"(E2 A6) :|

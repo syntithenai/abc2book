@@ -1,0 +1,22 @@
+X: 1
+T: The Quilter's Quickstep (harmonized low)
+C: David A. Kaynor, May 2021
+R: reel, quickstep
+S: https://natunelist.net/quilters-quickstep/ 2021-6-3
+M: 4/4
+L: 1/8	% Converted from L:1/4 in the original.
+K: C
+V:1 staves=2
+|: EG |\
+"Am"A2cA "G"B2cB | "Am"AEED E2AB | "C"c2Gc "D7"d2cd | "E"e4 e2dB |\
+"Am"A2cA "G"B2cB | "Am"AEED E2cd | "C"ecGc "G"d2BG | "Am"A4 A2 :|
+|: ef |\
+ "C"g2ef g2ef | gecG E2GF | "C"EGcG EGcG | "G7"FGFE D2de |\
+"Dm"f2de f2de | "G7"fdBA G2>e2 |1 "Dm"f2de fefg | "G"agg^f g2 :|2 "Dm"f2af "G"d2AB | "C"c2cB c2 |]
+V:2
+|: CE |\
+E2AE G2G2 | ECCA, C2EE | G2EGA2^F2 | ^G4 G2BG |
+E2AE G2G2 | ECCA, C2AB | cGEG B2 GD | [E4C4] [E2C2] :|
+|: cd |\
+e2cd e2 cd | ecGE C2 ED | CEGE CEGE | D2DC B,2B2 |
+d2A2 d2A2 | dBGD D2>c2 |1 d2A2 d2d2 | d2ed B2 :|2 d2fd B2 G2 | G2GFE2 |]

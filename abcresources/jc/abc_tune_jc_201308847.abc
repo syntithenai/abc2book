@@ -1,0 +1,24 @@
+X: 1
+T: Megajig
+C: by Larry Unger
+%D:2003
+R: jig
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+B: PC2 p.132
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% = = = = = = = = = =
+"^A1"[| e |\
+"A"=gaa age | c2A =G2A | "D7"=cdd dcA | F2D =C2D ||\
+"A"A,2A, C2E | =GEG A2G | "E7"E2E G2A | BAB d2 |]
+"^A2"[| e |\
+"A"=gaa age | c2A =G2A | "D7"=cdd dcA | F2D =C2D ||\
+"A"A,2A, C2E | =G2A "D"B=cB | "E"A2=G E2G | "A"A3 A2 |]
+"^B1"[| B |\
+"D7"=cAA BAA | =cAA BAA | "A"cee fee | =gee fee ||\
+"D7"=cAA BAA | =cAA BAA | "A"e2c A2F | =G3 A2 |]
+"^B2"[| B |\
+"D7"=cAA BAA | =cAA BAA | "A"cee fee | =gee e2A ||\
+"E"B2B c2c | d2d e2e | gee bee | e3 z2 |]

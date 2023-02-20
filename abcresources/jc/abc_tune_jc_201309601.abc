@@ -1,0 +1,21 @@
+I:abc-charset utf-8
+X:1036
+T:a Midwinter Waltz
+C:Joe Buchanan's Scottish Tome - Page 623.0
+I:623 0
+Z:Carl Allison
+R:waltz
+L:1/4
+M:3/4
+K:G
+"^A"|:\
+G/A/ | B>c d | d>B A | A>B A    | G2  E/G/ | A>B A | A>B A | G>A c/d/ | A2 ||
+G/A/ | B>c d | d>B A | A2  B/A/ | G2  E/G/ | A>B A | A>B A | G>A G    | G2 :| 
+"^B"|:\
+A/B/ | c>B c | c>B c | e>d e    | A>B c    | d>e d | B>A G | A>B G    | A2 :|
+"^A2"|:\
+A/B/ | B>c d | d>B A | A>B A    | F2  E/G/ | A>B A | A>B A | G>A G    | G2 |] 
+
+%Alternative sources for this tune:
+
+%    trillian.mit.edu/~jc/music/abc/mirror/thisoldtractor.com/Midwinter_Waltz/0000

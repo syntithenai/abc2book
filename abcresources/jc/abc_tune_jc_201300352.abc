@@ -1,0 +1,24 @@
+X: 1
+T: the Lantern Tower
+C: \251 2017 Rodney Miller
+R: waltz
+S: Fiddle Hell Online 2021-4-15 Rodney Miller workshop handout
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+[|"D"f4 (3fgf | "A"e2 d2 c2 | "Bm"d4 A2 | "G"G3 B AG |\
+| "D"F2 A2 d2 | "Bm"A2 d2 e2 | "A"e4 ef | (3efe d2 e2 |
+| "D"f4 gf | "A"e2 d2 c2 | "Bm"d4 A2 | "G"G3 B AG |\
+| "D"F2 A2 d2 | "A"E2 d2 c2 | "G"d6 | "D"d4 fe ||
+| "Bm"d4 d2 | "A"c4 (3cdc | "G"B6- | B2 f2 e2 |\
+| "Bm"d2 F2 d2 | "A"c2 d2 ef | "Em"g4 f2 | "A"e2 d2 e2 |
+| "D"f4 a2 | "G"b2 a2 g2 | "Bm"f3 e df | "A"e2 c2 A2 |\
+| "G"G3 A BG | "A"A2 d2 c2 | "G"d6 | "D"d6 |]
+%%begintext align
+%% Ely Cathedral is an Anglican cathedral in the city of Ely, Cambridgeshire, England. Its most notable
+%% feature is the central octagonal tower, with lantern above, which sheds stained-glass-filtered light onto the
+%% nave crossing below. The Stringrays have been fortunate to play for the Medieval Contradance Holiday
+%% event held at the King's School in Ely the past few years. I highly recomment taking the Lantern Tower
+%% tour. It is so inspiring.
+%%endtext

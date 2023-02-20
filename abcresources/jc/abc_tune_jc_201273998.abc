@@ -1,0 +1,27 @@
+X:1
+T: Face the Music
+N:
+C:by Eric Scott
+S:Tune is "Fiddlin' David"
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 120
+%W:
+% voice 1 (1 lines, 30 notes)
+K:Am
+M:4/4
+L:1/16
+A2 c2 |e3 f e2 d2 c2 A4 c2 |A2 B2 A3 E G6 G2 |c2 B2 c3 d e2 d2 e3 f |e2 d2 c2 A2 E4 A2 c2 |
+%W:
+% voice 1 (1 lines, 27 notes)
+e3 f e2 d2 c2 A4 c2 |A2 B2 A3 E G6 G2 |c2 d2 e3 f g2 e2 f2 a2 |g f3 e2 f2 g4 e4 |
+%W:
+% voice 1 (1 lines, 24 notes)
+K:A
+a e3 b4 a2 e4 e2 |a3 b c'2 b2 a6 a2 |f4 f4 e4 a3 g |f2 e2 d2 c2 B4 e3 e |
+%W:
+% voice 1 (1 lines, 27 notes)
+a2 e2 b4 a2 e4 e2 |a3 b c'2 b2 a6 a2 |d'2 c'2 b2 d'2 c'2 b2 c' b a f |e c3 e3 e A4 ||

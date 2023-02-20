@@ -1,0 +1,33 @@
+X: 20581
+T: THIS LIFE IS A LOTTERY, WIVES ARE THE PRIZES.
+C: Dibdin.
+Q: "Moderate."
+%R: air, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.58 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g2 |\
+{f}e2dc d2cB | c2d>c (cB)AG |\
+(c>B)cd e2dc | (B>A)Bc d2B2 |\
+A2B2c2A2 | B2c2d2B2 |\
+A2B2c2A2 | B2c2d2BB |\
+g2gf e2fg | (fe)d^c d2d2 |\
+d2(cB) c2de |
+c2BA B2cd |\
+G2AB E2cB | (BA)AG {F}F2(Bc) |\
+d2g2 e2d2 | c2Bc {B}A2Gd |\
+d2(ed) d2cB | B2cA G2G2 |\
+g2gg f2f2 | e2ee d2z2 |\
+g2gg f2f2 | e2ee d3c |
+(Bg)e^c d2AA | (Bg)e^c {e}Hd2(fg) |\
+(af)dc (Bd)gb | (af)dc (Bd)gb |\
+(af)dc B2Bc |d2e=f "^(.)"e2^fg |\
+{f}e2dc d2cB | c2dc B2dd |\
+g2fe edcB | (BA)GF G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

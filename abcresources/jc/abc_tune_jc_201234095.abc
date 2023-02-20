@@ -1,0 +1,33 @@
+X: 20261
+T: MY TRUE LOVE FAR AWAY
+T: From "The Son-in-Law."
+C: Dr. Arnold.
+Q: "Moderate."
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.26 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The end notes of man slurs are unclear; mostly transcribed to give a longer slur. Adjust as you like.
+M: C
+L: 1/8
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F2 |\
+(B3c d2)e2 | (d4 c2)d2 |\
+(e3f {a}f2)(fe) | (d4 c2)d2 |\
+(e4 d2)c2 | (f4 e2)d2 |\
+(c>d) (3(edc) (3(gfe) (3(dcB) | {B2}A4 z2f2 |\
+(gf)(=ef) (ef)(ga) | b4 z2a2 |
+(^fgbg) (g=f)(f=e) | {e2}f4 z2f2 |\
+(f3g/f/ e2)d2 | (g3_a/g/ f2)e2 |\
+(f3g/f/ e2)d2 | {d2}e4 z2e2 |\
+(d3e/d/ c2)d2 | (e3f g2)f2 |\
+({g}fe)({a}gf) ({g}fe)({f}ed) | {d2}c4 z2(f>d) |
+B2B2 B2=B2 | (c>de>f g2) a2 |\
+(bf)(ge) d2c2 | B2z2 (d<B)(e<c) |\
+f2z2 (d<B)(e<c) | f2z2z2f2 |\
+(g3a b2)b2 | (b3a/g/ Hf2) g2 |\
+f<bg<e d2c2 | B4 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,29 @@
+X: 081
+T: the Birks of Envermay
+%R: air
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.8 #1
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Q: "slow"
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4-bar phrases.
+V: 1
+(cd) |\
+{cd}e3f (ec)(BA) | TB>ABc F3A | E>FEC E2A>E | C2(E>F) E2(A/B/c/d/) |
+e3f (ec)(TBA) | (dc)(TBA) F3A | E>FEC E2A>B | Jc2(TB>A) A2 :|
+|: E>D |\
+C3E F>EFA | TB>ABc F3f | e>fec (dc)(TBA) | {Bc}d2(Tc2 {Bc}B3)e |
+cefg a3f | (ec)(TBA) F2(TcB) | AFTEC E2A>B | Jc2(TB>A) A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+% (The 2nd half of bar 4 was on staff 2, but abcm2ps didn't handle this correctly, so I "fixed" it.)
+V: 2 clef=bass middle=d
+z2 | AB"6"cd "6"c2zf | "7;5"d2"7;#"c2 fg"6"af | "6"g3a "6"gc'"6"f"6"g | ab"6"c'd' e'2z2 |
+AB"6"cd "6"c2zf | "7;5"B2"7;#"c2 fg"6"af | "6"g3a ed"6"c"6"d | "6;4"e2"5;3"E2 A2 :|\
+|: z2 | ab"6"c'a
+d3"6"c | "7;5"B2"7;#"c2 fg"6"af | "6"g3a "6"f"6"e"6"d"6"c | "6"BGAa ef"6"ge |\
+a3"6"b "6"c'bc'd' | "6"c'3c d2"6 5;4 3"e2 | f2"6"ga ed"6"c"6"d | "6;4"e2"5;3"E2 A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

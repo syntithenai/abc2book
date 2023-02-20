@@ -1,0 +1,27 @@
+X:1
+T: Kitchen Triad
+N:
+C:Tune is "Little Judique"
+S:Play 3 times
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 40 notes)
+K:D
+M:4/4
+L:1/16
+a2 ^g2 a2 b2 a4 f4 |d4 A4 A4 f2 g2 |a2 ^g2 a2 b2 a4 f4 |d12 e2 f2 |g2 f2 g2 a2 g4 g4 |c4 A4 c4 e2 f2 |g2 f2 g2 a2 g4 e4 |c8 f6 g2 |
+%W: A2
+% voice 1 (1 lines, 40 notes)
+a2 ^g2 a2 b2 a4 f4 |d4 A4 A4 f2 g2 |a2 ^g2 a2 b2 a4 f4 |d8 g6 a2 |b4 g2 b2 a4 f2 a2 |g4 e2 g2 f4 e2 d2 |c4 A2 c2 a4 c4 |d8 c6 d2 |
+%W: B1
+% voice 1 (1 lines, 32 notes)
+K:A
+e8 e6 f2 |e4 c4 B4 A4 |a2 g2 a2 b2 a4 f4 |e8 f6 g2 |a6 b2 a4 f4 |e4 c4 a4 f4 |e4 c4 B4 A4 |B8 B4 c2 d2 |
+%W: B2                                                                                                                             NOT END
+% voice 1 (1 lines, 31 notes)
+e8 e6 f2 |e4 c4 B4 A4 |a2 g2 a2 b2 a4 f4 |e8 f6 g2 |a6 b2 a4 f4 |e4 c4 a4 f4 |e4 c4 B4 c4 |A8 f6 =g2 ||

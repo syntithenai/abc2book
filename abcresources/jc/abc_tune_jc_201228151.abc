@@ -1,0 +1,31 @@
+X: 11093
+T: NON PIU ANDRAI
+C: Mozart
+Q: "In the style of a March."
+%R: march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.109 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!p!e>e |\
+c2 e>e c2 e>e | e/d/c/d/ B2 B2 d>d |\
+B2 d>d B2 d>d | d/c/B/c/ A2 !f!A2 (A>c |\
+e2) (c>e a2) (e>a | c'2) a>a a2 e>a |\
+!p!e2 c>e d2 B>d |
+c2 A>A !f!A2 (A>c |\
+e2) (c>e a2) (e>a | c'2) a>a a2 e/f/g/a/ |\
+e2 c>e {e}d2 B>G | A2 A>A A2 ::\
+!p!A>B |\
+c2 c>c c2 d2 | e2 zc/d/ ee f/e/d/c/ |
+B2 B>B B2 c2 | d2 zB/c/ dd e/d/c/B/ |\
+c2 e>e e2 f/e/d/c/ | f2 a>a a2 b/a/g/f/ |\
+e2 e>e e2 f/e/d/c/ | B>Bc>c d>dB>B |
+(3(cAc) (3(ece) (3(aec) (3(ecA) | B>Bc>c d>dB>B |\
+(3(cAc) (3(ece) (3(aec) (3(ecA) | B>Bc>c d>dB>B |\
+A2 z3/(E//F//G// A2) z3/ (E//F//G// | A2) A>A A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

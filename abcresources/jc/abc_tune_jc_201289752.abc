@@ -1,0 +1,26 @@
+X:1
+T: Idbury Hill
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A
+% voice 1 (1 lines, 20 notes)
+K:G
+M:4/4
+L:1/16
+e4 e2 f2 g4 e4 |d2 c2 B2 A2 G4 A2 B2 |c4 e4 e2 d2 c2 B2 |A8 A8 |
+%W:
+% voice 1 (1 lines, 20 notes)
+e4 e2 f2 g4 e4 |d2 c2 B2 A2 G4 A2 B2 |c4 e4 e2 d2 c2 B2 |A8 A8 |
+%W: B
+% voice 1 (1 lines, 19 notes)
+e4 e2 f2 g4 e4 |a2 g2 f2 e2 d4 d4 |e4 e2 f2 g4 e4 |a6 g2 e8 |
+%W:
+% voice 1 (1 lines, 20 notes)
+e4 e2 f2 g4 e4 |d2 c2 B2 A2 G4 A2 B2 |c4 e4 e2 d2 c2 B2 |A8 A8 ||

@@ -1,0 +1,38 @@
+X: 2
+T: Westminster Bridge
+P: 2d Strain once
+%R: reel, march
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat; fixed to match comment at top.
+N:
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+|:\
+B2B2 (dc)(BA) | G2G2 G4 | (ef)g2 d2g2 | Tc4 B4 |\
+(GAB2) G2D2 | (FGA2) F2D2 | (B^c)d2 {f}e2^c2 | d4 D4 :|
+d2d2 (edcB) | c2a2 a4 | c2c2 (dcBA) | B2g2 g4 |\
+e2e2 e2f2 | g4 G4 | (FG)A2 F2D2 | (Bc)d2 B2G2 |
+c2c2 ^c2c2 | d4 =c4 | B2G2 F2D2 | (BA)G2 F2D2 |\
+(efg2) (fga2) | g4 c4 | B2G2 {F}FED2 | G4 G,4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+G4 d4 | z2c'2 "6"b2d'2 | "6"c'2"6"b2 "6"a2g2 | "5"f2"7"d2 g2"6;4"d2 |\
+"6"B4 G4 | d4 "6"f4 | "6;5"g4 "4"a4 | d4 d4 :|\
+z2"7;#"e2 "6"^g2"#"e2 | a4 A4 | z2"7"d2
+"6"^f2"3"d2 | g4 G2"6"B2 |\
+c4 "6"c'4 | "6"b2b2 b2^c'2 | d'4 d4 | z2"6"f2 g2G2 |\
+A4 "#"a2"4"g2 | "6"f2d2 "6;4"e2"6;5"f2 | g4 d4 | g4d4 |\
+c'2"6"b2 "6;4"a2d2 | g2"6"b2 "5"f2"7"d2 | "5;3"g4 "4 3"d4 | G4- G4 |]
+%%begintext align
+%% The first Cu. set & cast off one Cu. & set and turn then the 2d Cu. do the same || Then the first & 2d
+%% Man clap Hands and the 1st & 2d Wo. clap Hands at the same time and then clap Hands with
+%% each Partner the first Cu. cast off one Cu. and foot it & Right Hand & left quite round ||
+%%endtext

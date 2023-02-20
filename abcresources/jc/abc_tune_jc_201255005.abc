@@ -1,0 +1,1854 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 5
+B: RSCDS Book 5
+K:
+%%center Book05/0500-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0501
+T: Teviot Bridge
+P: Teviot Bridge
+C:Gow's Repository 1817
+R:Jig (8x24)
+B:RSCDS 5-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:A
+f|"A"ecA AcA|"D"F2A "A"E2F|"E7"EFG "A"ABc|"E7"[d2E2]"A"[cE] "E7"B2 f|\
+  "A"ecA AcA|"D"F2A "A"E2c|
+                           "E7"[d2G2]f "A"[eA]c"D"A|"E7"[B3G3D3] "A"[A2C2]||\
+f|"A"ecA Ace|"D"fdf fga|"A"ecA "B7"AGA|"E"BGE "E7"E2 c/d/|
+  "A"ecA Ace|"D"fdf fga|"A"ecA "E7"BGE|"A"A3 A2 f|\
+  "A"ecA Ace|"D"fdf fga|
+                        "A"ecA "F#m"AG"B7"A|"E"BGE E2 "E7"c/d/|\
+  "A"ece "D"fdf|"E"geg "F#m"[aA]g"D"f|"A"edc "E7"BAG|"A"A3 [a2c2A2]|]
+%%center Book05/0501-Teviot_Bridge-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0502
+T: Dumbarton Drums
+P: Dumbarton Drums
+C:McGibbon 1763
+R:Reel (8x32)
+B:RSCDS 5-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:F
+|:FG|"F"A3c ABGA|F2 c>d c2 BA|"Gm"GFGA BAGF|D2 d>e d2 cd|
+     "F"f3g agfd|cA"Gm"cd "F"f3 F|"Bb"GAfd "C"cAGF|"Dm"D2 d>e [d2F2]:|
+|:cd|"F"f3g fgag|f2 a>b a2gf|"Gm"gfga bagf|d2 g>a g2 "Bb"fd|
+     "F"cdfg ag"Bb"fd|"F"cA"C"cd "F"[f2A2] fg|\
+         "Dm"[aA]gfd "Am"[cE]AGF|"Dm"D2 de [d2F2]:|
+%%center Book05/0502-Dumbarton_Drums-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0503
+T: Jenny's Bawbee
+P: Jenny's Bawbee
+C:Joshua Campbell 1778
+R:Strathspey (8x24) ABA
+B:RSCDS 5-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+F!Segno!|"D"a>b a>g f<dd>f|"Em"g>B e>d "A7"c<AA>f|\
+   "D"a>b a>g f<dd>f|"G"[BG]<B "A7"[cG]>A "D"[d3F3] f|
+   "D"a>b a>g f<dd>f|"G"g>B "E7"e>d "A"c<AA>f|\
+   "D"a>b a>g "Bm"f<dd>f|"G"[BG]<B "A7"[cG]>A "D"[d3F3]"Fine"||
+d/e/|"D"f>d "A7"g>e "D"f<dd3/2e//f//|"G"g>B"E7"e>d "A"c<AA3/2d//e//|\
+   "D"f>d "A7"g>e "D"f<d f<a|"G"[BG]<B "A7"[cG]>A "D"[d3F3] d/e/|
+   "D"f>d "A7"g>e "D"f<dd3/2e//f//|"G"g>B"E7"e>d "A"c<AA>f|\
+   "D"[ad]>b "A7"[ac]>g "Bm"f<dd>f|"G"[BG]<B "A7"[cG]>A "D"[d3F3]"D.S."||
+%%center Book05/0503-Jennys_Bawbee-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0504
+T: Round About Hullachan/Hullachan Round the Hoose
+P: Original
+C:Gow's Collection
+R:Reel (nx32)
+B:RSCDS 5-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:A
+f|:"A"e2 Ac/d/ ecAa|"A"{f}e2 AB/c/ "G"dB=GB|\
+   "A"{f}e2 Ac/d/ eAce|"Em"dE c/d/e "G"dB=GB|
+   "A"e2 Ac/d/ ecAa|"A"{f}e2 AB/c/ "G"dB=GB|\
+   "A"{f}e2 Ac/d/ eAce|"Em"dE c/d/e "G"dB=GB||
+   "A"cA c/d/e cAAB|cA c/d/e "G"dB=GB|\
+   "A"cA c/d/e cAcA|"Em"BE c/d/e "G"dB=GB|
+   "A"cA c/d/e cAAB|cA c/d/e "G"dB=GB|\
+   "A"cA c/d/e cA c/d/e|"Em"BE c/d/e "G"dB=GB:|
+%%center Book05/0504-Round_About_Hullachan_Hullachan_Round_the_Hoose-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0505
+T: The Bottom of the Punch Bowl
+P: The Bottom of the Punch Bowl
+C:McGibbon 1763
+R:Reel (8x32)
+B:RSCDS 5-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:D
+|:F/E/|"D"D2D2 d3e|d2D2 FGAF|"Em"E2E2 efgf|"A"e2E2 FGAF|
+       "D"D2D2 d3e|"Bm"fedB d3A|"G"[G3D3]F "A"[A3C3]E|"D"F2D2D2:|
+|:de|"D"fedB ABde|fedB "G"d3e|"D"A3B ABde|"A"f2e2e2 de|
+     "D"fedB ABde|fedB "Bm"d3A|"G"[BD]dBF "A"[AC]BAE|"D"F2 "G"D2 "D"D2:|
+%%center Book05/0505-Bottom_of_the_Punch_Bowl-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0506
+T: Linton Ploughman
+P: The Muckin' o' Geordie's Byre
+C:Oswald's »Curious Scots Tunes« 1742
+B:RSCDS 5-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Jig (8x32)
+M:6/8
+L:1/8
+K:D
+|:cB|"D"A>BA A<FA|d2e f2a|"A7"g2e "D"f2d|"G"efd B2d|
+     "D"A>BA "A"A<FA|"D"d2e f2g|afd "A7"e2f|d3-d:|
+|:ef|"Em"gdg "A7"gag|"D"fdf "Bm"fgf|"Em"ede "A7"efg|"D"fed "G"B2d|
+     "D"A>BA "A7"A<FA|"D"d2e f2g|afd "A7"e2f|d3-d:|
+%%center Book05/0506-Linton_Ploughman-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0507
+T: Scottish Ramble
+P: Scottish Ramble
+C:Caledonian Country Dances c.1754
+B:RSCDS 5-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Strathspey (8x32)
+M:C
+L:1/8
+K:A
+E/|"A"A/A/A A>c e>c A>c|"E7"B/B/B G>B d2 c>B|\
+   "A"A/A/A A>c e>c "E7"d>B|"A"c>e "E7"B>c "A"A/A/A A>E|
+   "A"A/A/A A>c e>c A>c|"E7"B/B/B G>B d2 c>B|\
+   "A"A/A/A A>c e>c "E7"d>B|"A"c>e "E7"B>c "A"A/A/A A3/2||
+d/|"A"c>e ef/g/ a2 e>c|a>e c>A "E7"B/B/B B>d|\
+   "A"c>A e>A a>e c>A|"E7"c>e B>c "A"A/A/A A>d|
+   "A"c>e ef/g/ a2 e>c|a>e c>A "E7"B/B/B B>d|\
+   "A"c>A e>A "F#m"a>e "A"c>A|"E7"c>e B>c "A"A/A/A A3/2|]
+%%center Book05/0507-Scottish_Ramble-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0508
+T: Duke of Hamilton's Reel
+P: Duke of Hamilton's Reel
+C:Caledonian Country Dances c.1754
+B:RSCDS 5-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Strathspey (8x32)
+M:C
+L:1/8
+K:G
+"G"G>B d>B "Am"A2[e2c2]|"G"G>B de/f/ g>d B>G|\
+"C"c>e" G"B>d "Am"A>A [e2c2]|"G"d/c/B/A/ G>B d2 "Em"[e2B2G2]|
+"G"G>B d>B "Am"A2[e2c2]|"G"G>B de/f/ g>d B>G|\
+"C"c>e" G"B>d "Am"A>A [e2c2]|"G"d/c/B/A/ G>B d2 "Em"[e2B2G2]||
+"G"d>B g>B "Am"A>A [e2c2]|"G"d>B g>B d>e g>a|\
+"Em"b/a/g/f/ g>B "Am"A>A [e2c2]|"G"de/f/ g>B d2 "Em"[e2B2G2]|
+"G"d>B g>B "Am"A>A [e2c2]|"G"d>B g>B d>e g>a|\
+"Em"b/a/g/f/ g>B "Am"A>A [e2c2]|"G"de/f/ g>B "D7"[d2F2] "G"[G2B,2]|
+%%center Book05/0508-Duke_of_Hamiltons_Reel-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0509
+T: Lady Susan Stewart's Reel
+P: Hold the Lass 'till I Get at Her
+C:Caledonian Country Dances c.1754
+B:RSCDS 5-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Reel (8x32)
+M:C|
+L:1/8
+K:G
+"Am"A2 eg "D"fd"C"ec|"Am"A2 eg "G"BGdB|"Am"Aeeg "D"fd"C"eg|"D"fe"G"dg BGdB|
+"Am"A2 eg "D"fd"C"ec|"Am"A2 eg "G"BGdB|"Am"Aeeg "D"fd"C"eg|"D"fe"G"dg BGdB||
+"Am"A2 a2 "D"fd"C"ec|"Am"A2 a2 "G"BGdB|"Am"A2 a2 "D"fd"C"eg|"D"fe"G"dg BGdB||
+"Am"A2 a2 "D"fd"C"ec|"Am"A2 a2 "G"BGdB|"Am"A2 a2 "D"fd"C"eg|"D"fe"G"dg BGdB|]
+%%center Book05/0509-Lady_Susan_Stewarts_Reel-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0510
+T: Culloden's Fancy
+P: Culloden's Fancy
+C:Caledonian Country Dances c.1754
+B:RSCDS 5-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Reel (8x16) AB
+M:2/4
+L:1/8
+K:G
+B/c/|"G"[d2G2D2] "D7"[c2F2D2]|"G"[BGD]G GA/B/|"Am"cA Af/g/|"D7"aA AB/c/|
+     "G"[d2G2D2] "D7"[c2F2D2]|"G"[BGD]G Gg|"D"f"Em"g"D7"dc|"G"B"C"G "G"G||
+e/f/|"G"gd dB|gd dB|gd dB|"D7"cA Ac|
+     "G"Bd de|"C"ef "D"f"A7"g|"D"af "A7"g"D7"c|"G"B"C"G "G"G|]
+%%center Book05/0510-Cullodens_Fancy-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0511
+T: The White Cockade
+P: The White Cockade/The Ranting Highlandman
+C:Traditional (Aird 1782)
+B:RSCDS 5-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Reel (8x32)
+M:C
+L:1/8
+K:G
+|:GA|"G"B2 B2 B2 AG|B2 B2 B2 "C"ge|"G"d2 B2 "Em"B2 AG|"Am"B2 A2 "D7"A2 GA|
+     "G"B2 Bd "D7"cBAG|"G"B2 "D"d2 "Em"g3 a|"G"bagf "C"agfe|"G"d2 B2 B2::
+  Bc|"G"d2 B2 g2 B2|d2 d2 "D"d3 e|"G"d2 B2 "Em"g2 fg|"Am"a2 A2 "D7"A2 GA|
+     "G"B2 Bd "D7"cBAG|"G"B2 "D"d2 "Em"g3 a|"G"bagf "C"agfe|"G"d2 B2 B2:|
+%%center Book05/0511-White_Cockade-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0512
+T: Cold and Raw
+P: Up in the Morning Early
+C:Playford 1695
+B:RSCDS 5-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Jig (8x24) ABB
+M:6/8
+L:1/8
+K:Gm
+V:1
+%%staves (1 2)
+[V:1] D|"Gm"G2A B2c|"Dm"d>=ef F2F|"Cm"G>AG "D7"d3/2c/B/A/|"Gm"G3 d2 D|
+[V:1]   "Gm"G2A B2c|"Dm"d>=ef F2F|"Cm"G>AG "D7"d3/2c/B/A/|"Gm"G3 d2||
+[V:1] |:z|"Bb"B>cB B2B|"F"c>dc c3|"Bm"d>ef "Eb"g>fe|"Gm"d3 [f2F2] F|
+[V:1]   "Gm"B>cB "Bb"B2B|"Cm"cdf "Eb"g2f/e/|"Gm"d>cB "D7"c>BA|"Gm"G3 d2:|
+%V:2
+%[V:2] x|x6|x6|x6|x6|
+%[V:2]       x6|x6|x6|x3x2||
+%[V:2] |:x|    x6      |   A2 A A3|    x3       G3  |    G3  x3     |
+%[V:2]       D3       D3 |    G2x     G2x   |    x3       D2 x|    x3 x2:|
+%%center Book05/0512-Cold_and_Raw-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Teviot Brig
+T: Teviot Bridge
+B: RSCDS __-1
+D: Winston Scotty Fitzgerald on Celtic 17
+N: BSFC  VIII-21
+N: Gow's Repository 1817. Above air from Companion to the Reticule.
+N: Hunter  304
+N: OTDT  p.64
+N: Skye  p.176
+O: Gow's Repository 1817
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+e \
+| "G"dBG GBG | "C"E2G "G"D2G | "G"DEF "Em"GAB | "Am"c2B "D7"A2e \
+| "G"dBG GBG | "C"E2G "G"D2B | "C"cde "G"dBG | "D7"A3 "G"G2 :|
+e \
+| "G"dBG GBd | "C"ece efg | "G"dBG GFG | "D7"AFD D2B/c/ \
+| "G"dBG GBd | "C"ece efg | "G"dBG "D7"AFD | "G"G3- G2 ||
+B/c/ \
+| "G"dBG GBd | "C"ece efg | "G"dBG GFG | "D7"AFD D2B/c/ \
+| "G"dBd "C"ece | "D7"fdf "Em"gfe | "D7"dcB AGF | "G"G3- G2 |]
+%%center Book05/05011-Teviot_Brig-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Teviot Brig
+T: Teviot Bridge
+R:jig
+N: BSFC  VIII-21
+N: Gow's Repository 1817. Above air from Companion to the Reticule.
+N: Hunter  304
+N: OTDT  p.64
+N: Skye  p.176
+B:RSCDS __-1
+D:Winston Scotty Fitzgerald on Celtic 17
+O:Gow's Repository 1817
+Z: 1997 by John Chambers <jc:eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/
+M:6/8
+L:1/8
+%--------------------
+K:A
+|:f | "A"ecA AcA | "D"F2A "A"E2F | "E7"EFG "A"ABc | "E7"d2c B2f |
+"A"ecA AcA | "D"F2A "A"E2c | "Bm"d2f "A"ecA | "E7"B3 "A"A2 :|
+| f | "A"ecA Ace | "D"fdf fga | "A"ecA AGA | "E7"BGE E2c/d/ |
+"A"ecA Ace | "D"fdf fga | "A"ecA "E7"BGE | "A"A3- A2f |
+"A"ecA Ace | "D"fdf fga | "A"ecA AGA | "E7"BGE E2c/d/ |
+"A"ece "D"fdf | "E7"geg "F#m"agf | "E7"edc BAG | "A"A3- A2 |]
+%%center Book05/05011-Teviot_Brig-10.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Teviot Brig
+T: Teviot Bridge
+B: RSCDS __-1
+D: Winston Scotty Fitzgerald on Celtic 17
+N: BSFC  VIII-21
+N: Gow's Repository 1817. Above air from Companion to the Reticule.
+N: Hunter  304
+N: OTDT  p.64
+N: Skye  p.176
+O: Gow's Repository 1817
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+e \
+| "G"dBG GBG | "C"E2G "G"D2G | "G"DEF "Em"GAB | "Am"c2B "D7"A2e \
+| "G"dBG GBG | "C"E2G "G"D2B | "C"cde "G"dBG | "D7"A3 "G"G2 ||
+e \
+| "G"dBG GBd | "C"ece efg | "G"dBG GFG | "D7"AFD D2B/c/ \
+| "G"dBG GBd | "C"ece efg | "G"dBG "D7"AFD | "G"G3- G2 ||
+B/c/ \
+| "G"dBG GBd | "C"ece efg | "G"dBG GFG | "D7"AFD D2B/c/ \
+| "G"dBd "C"ece | "D7"fdf "Em"gfe | "D7"dcB AGF | "G"G3- G2 |]
+%%center Book05/05011-Teviot_Brig-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Teviot Brig
+T: Teviot Bridge
+B: RSCDS __-1
+D: Winston Scotty Fitzgerald on Celtic 17
+N: BSFC  VIII-21
+N: Gow's Repository 1817. Above air from Companion to the Reticule.
+N: Hunter  304
+N: OTDT  p.64
+N: Skye  p.176
+O: Gow's Repository 1817
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+e \
+| "G"dBG GBG | "C"E2G "G"D2G | "G"DEF "Em"GAB | "Am"c2B "D7"A2e \
+| "G"dBG GBG | "C"E2G "G"D2B | "C"cde "G"dBG | "D7"A3 "G"G2 :|
+|: e \
+| "G"dBG GBd | "C"ece efg | "G"dBG GFG | "D7"AFD D2B/c/ \
+| "G"dBG GBd | "C"ece efg | "G"dBG "D7"AFD | "G"G3- G2 :|
+y B/c/ \
+| "G"dBG GBd | "C"ece efg | "G"dBG GFG | "D7"AFD D2B/c/ \
+| "G"dBd "C"ece | "D7"fdf "Em"gfe | "D7"dcB AGF | "G"G3- G2 |]
+%%center Book05/05011-Teviot_Brig-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Teviot Brig
+T: Teviot Bridge
+B: RSCDS __-1
+D: Winston Scotty Fitzgerald on Celtic 17
+N: BSFC  VIII-21
+N: Gow's Repository 1817. Above air from Companion to the Reticule.
+N: Hunter  304
+N: OTDT  p.64
+N: Skye  p.176
+O: Gow's Repository 1817
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+f "A"\
+| "A"ecA AcA | "D"F2A "A"E2A | "A"EFG "F#m"ABc | "Bm"d2c "E7"B2f \
+| "A"ecA AcA | "D"F2A "A"E2c | "D"d2f "A"ecA | "E7"B3 "A"A2 :|
+f "B1"\
+| "A"ecA Ace | "D"fdf fga | "A"ecA AGA | "E7"BGE E2c/d/ \
+| "A"ecA Ace | "D"fdf fga | "A"ecA "E7"BGE | "A"A3- A2 ||
+f "B2"\
+| "A"ecA Ace | "D"fdf fga | "A"ecA AGA | "E7"BGE E2c/d/ \
+| "A"ece "D"fdf | "E7"geg "F#m"agf | "Bm"edc "E7"BAG | "A"A3- A2 |]
+%%center Book05/05011-Teviot_Brig-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Teviot Brig
+T: 8x24J
+R: jig
+O: RSCDS __-1
+%--------------------
+K: A
+%%center Book05/05011-Teviot_Brig-6.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Teviot Brig
+T: Teviot Bridge
+B: RSCDS __-1
+D: Winston Scotty Fitzgerald on Celtic 17
+N: BSFC  VIII-21
+N: Gow's Repository 1817. Above air from Companion to the Reticule.
+N: Hunter  304
+N: OTDT  p.64
+N: Skye  p.176
+O: Gow's Repository 1817
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+f \
+| "A"ecA AcA | "D"F2A "A"E2A | "A"EFG "F#m"ABc | "Bm"d2c "E7"B2f \
+| "A"ecA AcA | "D"F2A "A"E2c | "D"d2f "A"ecA | "E7"B3 "A"A2 :|
+|| f \
+| "A"ecA Ace | "D"fdf fga | "A"ecA AGA | "E7"BGE E2c/d/ \
+| "A"ecA Ace | "D"fdf fga | "A"ecA "E7"BGE | "A"A3- A2 ||
+|| f \
+| "A"ecA Ace | "D"fdf fga | "A"ecA AGA | "E7"BGE E2c/d/ \
+| "A"ece "D"fdf | "E7"geg "F#m"agf | "Bm"edc "E7"BAG | "A"A3- A2 |]
+%%center Book05/05011-Teviot_Brig-7.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Teviot Brig
+T: Teviot Bridge
+B: RSCDS __-1
+D: Winston Scotty Fitzgerald on Celtic 17
+N: BSFC  VIII-21
+N: Gow's Repository 1817. Above air from Companion to the Reticule.
+N: Hunter  304
+N: OTDT  p.64
+N: Skye  p.176
+O: Gow's Repository 1817
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+e \
+| "G"dBG GBG | "C"E2G "G"D2G | "G"DEF "Em"GAB | "Am"c2B "D7"A2e \
+| "G"dBG GBG | "C"E2G "G"D2B | "C"cde "G"dBG | "D7"A3 "G"G2 ||
+|| e \
+| "G"dBG GBd | "C"ece efg | "G"dBG GFG | "D7"AFD D2B/c/ \
+| "G"dBG GBd | "C"ece efg | "G"dBG "D7"AFD | "G"G3- G2 ||
+|| B/c/ \
+| "G"dBG GBd | "C"ece efg | "G"dBG GFG | "D7"AFD D2B/c/ \
+| "G"dBd "C"ece | "D7"fdf "Em"gfe | "D7"dcB AGF | "G"G3- G2 |]
+%%center Book05/05011-Teviot_Brig-8.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Teviot Brig (Teviot Bridge)
+B: RSCDS __-1
+D: Winston Scotty Fitzgerald on Celtic 17
+N: BSFC  VIII-21
+N: Gow's Repository 1817. Above air from Companion to the Reticule.
+N: Hunter  304
+N: OTDT  p.64
+N: Skye  p.176
+O: Gow's Repository 1817
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/abc/
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+f \
+| "A"ecA AcA | "D"F2A "A"E2A | "A"EFG "F#m"ABc | "Bm"d2c "E7"B2f \
+| "A"ecA AcA | "D"F2A "A"E2c | "D"d2f "A"ecA | "E7"B3 "A"A2 :|
+f \
+| "A"ecA Ace | "D"fdf fga | "A"ecA AGA | "E7"BGE E2c/d/ \
+| "A"ecA Ace | "D"fdf fga | "A"ecA "E7"BGE | "A"A3- A2 ||
+f \
+| "A"ecA Ace | "D"fdf fga | "A"ecA AGA | "E7"BGE E2c/d/ \
+| "A"ece "D"fdf | "E7"geg "F#m"agf | "Bm"edc "E7"BAG | "A"A3- A2 |]
+%%center Book05/05011-Teviot_Brig_Teviot_Bridge-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Teviot Brig (Teviot Bridge)
+B: RSCDS __-1
+D: Winston Scotty Fitzgerald on Celtic 17
+N: BSFC  VIII-21
+N: Gow's Repository 1817. Above air from Companion to the Reticule.
+N: Hunter  304
+N: OTDT  p.64
+N: Skye  p.176
+O: Gow's Repository 1817
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+e \
+| "G"dBG GBG | "C"E2G "G"D2G | "G"DEF "Em"GAB | "Am"c2B "D7"A2e \
+| "G"dBG GBG | "C"E2G "G"D2B | "C"cde "G"dBG | "D7"A3 "G"G2 :|
+e \
+| "G"dBG GBd | "C"ece efg | "G"dBG GFG | "D7"AFD D2B/c/ \
+| "G"dBG GBd | "C"ece efg | "G"dBG "D7"AFD | "G"G3- G2 ||
+B/c/ \
+| "G"dBG GBd | "C"ece efg | "G"dBG GFG | "D7"AFD D2B/c/ \
+| "G"dBd "C"ece | "D7"fdf "Em"gfe | "D7"dcB AGF | "G"G3- G2 |]
+%%center Book05/05011-Teviot_Brig_Teviot_Bridge-10.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Teviot Brig (Teviot Bridge)
+B: RSCDS __-1
+D: Winston Scotty Fitzgerald on Celtic 17
+N: BSFC  VIII-21
+N: Gow's Repository 1817. Above air from Companion to the Reticule.
+N: Hunter  304
+N: OTDT  p.64
+N: Skye  p.176
+O: Gow's Repository 1817
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+f "A"\
+| "A"ecA AcA | "D"F2A "A"E2A | "A"EFG "F#m"ABc | "Bm"d2c "E7"B2f \
+| "A"ecA AcA | "D"F2A "A"E2c | "D"d2f "A"ecA | "E7"B3 "A"A2 :|
+f "B1"\
+| "A"ecA Ace | "D"fdf fga | "A"ecA AGA | "E7"BGE E2c/d/ \
+| "A"ecA Ace | "D"fdf fga | "A"ecA "E7"BGE | "A"A3- A2 ||
+f "B2"\
+| "A"ecA Ace | "D"fdf fga | "A"ecA AGA | "E7"BGE E2c/d/ \
+| "A"ece "D"fdf | "E7"geg "F#m"agf | "Bm"edc "E7"BAG | "A"A3- A2 |]
+%%center Book05/05011-Teviot_Brig_Teviot_Bridge-11.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Teviot Brig (Teviot Bridge)
+B: RSCDS __-1
+D: Winston Scotty Fitzgerald on Celtic 17
+N: BSFC  VIII-21
+N: Gow's Repository 1817. Above air from Companion to the Reticule.
+N: Hunter  304
+N: OTDT  p.64
+N: Skye  p.176
+O: Gow's Repository 1817
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+f \
+| "A"ecA AcA | "D"F2A "A"E2A | "A"EFG "F#m"ABc | "Bm"d2c "E7"B2f \
+| "A"ecA AcA | "D"F2A "A"E2c | "D"d2f "A"ecA | "E7"B3 "A"A2 :|
+|| f \
+| "A"ecA Ace | "D"fdf fga | "A"ecA AGA | "E7"BGE E2c/d/ \
+| "A"ecA Ace | "D"fdf fga | "A"ecA "E7"BGE | "A"A3- A2 ||
+|| f \
+| "A"ecA Ace | "D"fdf fga | "A"ecA AGA | "E7"BGE E2c/d/ \
+| "A"ece "D"fdf | "E7"geg "F#m"agf | "Bm"edc "E7"BAG | "A"A3- A2 |]
+%%center Book05/05011-Teviot_Brig_Teviot_Bridge-13.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Teviot Brig (Teviot Bridge)
+B: RSCDS __-1
+D: Winston Scotty Fitzgerald on Celtic 17
+N: BSFC  VIII-21
+N: Gow's Repository 1817. Above air from Companion to the Reticule.
+N: Hunter  304
+N: OTDT  p.64
+N: Skye  p.176
+O: Gow's Repository 1817
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+f \
+| "A"ecA AcA | "D"F2A "A"E2A | "A"EFG "F#m"ABc | "Bm"d2c "E7"B2f \
+| "A"ecA AcA | "D"F2A "A"E2c | "D"d2f "A"ecA | "E7"B3 "A"A2 :|
+f \
+| "A"ecA Ace | "D"fdf fga | "A"ecA AGA | "E7"BGE E2c/d/ \
+| "A"ecA Ace | "D"fdf fga | "A"ecA "E7"BGE | "A"A3- A2 ||
+f \
+| "A"ecA Ace | "D"fdf fga | "A"ecA AGA | "E7"BGE E2c/d/ \
+| "A"ece "D"fdf | "E7"geg "F#m"agf | "Bm"edc "E7"BAG | "A"A3- A2 |]
+%%center Book05/05011-Teviot_Brig_Teviot_Bridge-14.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Teviot Brig (Teviot Bridge)
+B: RSCDS __-1
+D: Winston Scotty Fitzgerald on Celtic 17
+N: BSFC  VIII-21
+N: Gow's Repository 1817. Above air from Companion to the Reticule.
+N: Hunter  304
+N: OTDT  p.64
+N: Skye  p.176
+O: Gow's Repository 1817
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+e \
+| "G"dBG GBG | "C"E2G "G"D2G | "G"DEF "Em"GAB | "Am"c2B "D7"A2e \
+| "G"dBG GBG | "C"E2G "G"D2B | "C"cde "G"dBG | "D7"A3 "G"G2 ||
+e \
+| "G"dBG GBd | "C"ece efg | "G"dBG GFG | "D7"AFD D2B/c/ \
+| "G"dBG GBd | "C"ece efg | "G"dBG "D7"AFD | "G"G3- G2 ||
+B/c/ \
+| "G"dBG GBd | "C"ece efg | "G"dBG GFG | "D7"AFD D2B/c/ \
+| "G"dBd "C"ece | "D7"fdf "Em"gfe | "D7"dcB AGF | "G"G3- G2 |]
+%%center Book05/05011-Teviot_Brig_Teviot_Bridge-15.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Teviot Brig (Teviot Bridge)
+B: RSCDS __-1
+D: Winston Scotty Fitzgerald on Celtic 17
+N: BSFC  VIII-21
+N: Gow's Repository 1817. Above air from Companion to the Reticule.
+N: Hunter  304
+N: OTDT  p.64
+N: Skye  p.176
+O: Gow's Repository 1817
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/abc/
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+e \
+| "G"dBG GBG | "C"E2G "G"D2G | "G"DEF "Em"GAB | "Am"c2B "D7"A2e \
+| "G"dBG GBG | "C"E2G "G"D2B | "C"cde "G"dBG | "D7"A3 "G"G2 ||
+e \
+| "G"dBG GBd | "C"ece efg | "G"dBG GFG | "D7"AFD D2B/c/ \
+| "G"dBG GBd | "C"ece efg | "G"dBG "D7"AFD | "G"G3- G2 ||
+B/c/ \
+| "G"dBG GBd | "C"ece efg | "G"dBG GFG | "D7"AFD D2B/c/ \
+| "G"dBd "C"ece | "D7"fdf "Em"gfe | "D7"dcB AGF | "G"G3- G2 |]
+%%center Book05/05011-Teviot_Brig_Teviot_Bridge-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Teviot Brig (Teviot Bridge)
+B: RSCDS __-1
+D: Winston Scotty Fitzgerald on Celtic 17
+N: BSFC  VIII-21
+N: Gow's Repository 1817. Above air from Companion to the Reticule.
+N: Hunter  304
+N: OTDT  p.64
+N: Skye  p.176
+O: Gow's Repository 1817
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+e \
+| "G"dBG GBG | "C"E2G "G"D2G | "G"DEF "Em"GAB | "Am"c2B "D7"A2e \
+| "G"dBG GBG | "C"E2G "G"D2B | "C"cde "G"dBG | "D7"A3 "G"G2 ||
+e \
+| "G"dBG GBd | "C"ece efg | "G"dBG GFG | "D7"AFD D2B/c/ \
+| "G"dBG GBd | "C"ece efg | "G"dBG "D7"AFD | "G"G3- G2 ||
+B/c/ \
+| "G"dBG GBd | "C"ece efg | "G"dBG GFG | "D7"AFD D2B/c/ \
+| "G"dBd "C"ece | "D7"fdf "Em"gfe | "D7"dcB AGF | "G"G3- G2 |]
+%%center Book05/05011-Teviot_Brig_Teviot_Bridge-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0502
+T: Dumbarton Drums
+R:reel
+S:Loose sheet in my collection (possibly from RSCDS)
+Z:Nigel Gatherer
+S:Flowers, Ross (MTO) <Ross.Flowers@mto.gov.on.ca> scots-l 2001-6-12
+M:4/4
+L:1/8
+%--------------------
+K:Em
+GA |\
+B3d BcAB | G2d>e d2cB | AGAB cBAG | E2e>f e2de |
+g3a bage | dBde g3G | ABge dBAG | E2e>f e2 :|
+|: de |\
+g3a gaba | g2b>c' b2ag | agab c'bag | e2a>b a2ge |
+dega bage | dBde g2ga | bage dBAG | E2e>f e2 :|
+%%center Book05/05021-Dumbarton_Drums-NG.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0502
+T: Dumbarton Drums
+R:reel
+S:Loose sheet in my collection (possibly from RSCDS)
+Z:Nigel Gatherer
+S:Flowers, Ross (MTO) <Ross.Flowers@mto.gov.on.ca> scots-l 2001-6-12
+W:
+W:"Dumbarton's Drum" you wish to find;
+W:The famous song first comes to mind
+W:That Jean Redpath was want to croon
+W:But could it be another tune?
+W:
+W:A forgotten air, like many more,
+W:There's one solution: look up Gore!
+W:If it's not in there I must insist
+W:The tune you seek does not exist.
+W:
+W:Aha! I see it - just before
+W:"Dumfries House" - good old Gore!
+W:A fine old reel (but that high "c"
+W:Does not endear the tune to me).
+W:
+W:So there you are, it might confuse;
+W:The song or reel, you have to choose
+W:If it's the former, let us know;
+W:If it's the latter, see below.
+M:4/4
+L:1/8
+%--------------------
+K:Em
+GA | B3d  BcAB | G2d>e d2cB  | AGAB cBAG  | E2 e>f e2 de |
+     g3a  bage | dBde  g3G   | ABge dBAG  | E2 e>f e2 :|
+de | g3a  gaba | g2b>c' b2ag | agab c'bag | e2 a>b a2 ge |
+     dega bage | dBde g2ga   | bage dBAG  | E2 e>f e2 :|
+%%center Book05/05021-Dumbarton_Drums-w-NG.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0502
+T: Dumbarton's Drums
+O:RSCDS 5-2
+B:RSCDS 5-2
+B:Playford 1697
+B:McGibbon 1763
+M:C|
+L:1/8
+%--------------------
+K:F
+FG \
+| "F"A3c "C7"ABGA | "F"F2c>d c2BA | "Gm"GFGA BAGF | D2d>e "C7"d2cd | "F"f3g agfd |
+| "F"cAcd f3F | "Gm"GAfd "Am"cAGF | "Dm"D2d>e d2 :: cd | "F"f3g fgag | f2a>b a2gf |
+| "Gm"gfga bagf | d2g>a "C7"g2fd | "F"cdfg "(C7)"agfd | "F"cAcd "Dm"f3g | agfd "Am"cAGF | "Dm"D2d>e d2 :|
+%%center Book05/05021-Dumbartons_Drums-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0502
+T: Dumbarton's Drums [1]
+B:RSCDS 5-2
+B:Playford 1697
+B:McGibbon 1763
+M:C|
+L:1/8
+%--------------------
+K:F
+|: FG | \
+"F"A3c "C7"ABGA | "F"F2c>d c2BA | "Gm"GFGA BAGF | D2d>e "C7"d2cd |
+"F"f3g agfd || "F"cAcd f3F | "Gm"GAfd "Am"cAGF | "Dm"D2d>e d2 :|
+|: cd | \
+"F"f3g fgag | f2a>b a2gf | "Gm"gfga bagf | d2g>a "C7"g2fd |
+"F"cdfg "(Bb)"agfd | "F"cAcd "Dm"f2fg | "Am"agfd cAGF | "Dm"D2d>e d2 :|
+%%center Book05/05021-Dumbartons_Drums-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 05031
+T: Jenny's Bawbee
+R: strathspey
+B: RSCDS 5-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+%--------------------
+K: D
+|: f2 \
+| "D"a3b a3g fd3 d3f | "Em"g3B e3d "A7"cA3 A3f \
+| "D"a3b a3g fd3 d3f | "G"BB3 "A7"c3A "D"[d6F6] :|
+|: de \
+| "D"f3d "A7"g3e "D"fd3 d2ef | "Em"g3B e3d "A7"cA3 A2de \
+| "D"f3d "A7"g3e "D"fd3 fa3 | "G"BB3 "A7"c3A "D"[d6F6] :|
+%%center Book05/05031-Jennys_Bawbee-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 05031
+T: Jenny's Bawbee
+R: strathspey
+B: RSCDS 5-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+%--------------------
+K: D
+|: f2 \
+| "D"a3b a3g fd3 d3f | "Em"g3B e3d "A7"cA3 A3f \
+| "D"a3b a3g fd3 d3f | "G"BB3 "A7"c3A "D"[d6F6] :|
+|: d/e/ \
+| "D"f3d "A7"g3e "D"fd3 d3e/f/ | "Em"g3B e3d "A7"cA3 A3e/f/ \
+| "D"f3d "A7"g3e "D"fd3 fa3 | "G"BB3 "A7"c3A "D"[d6F6] :|
+%%center Book05/05031-Jennys_Bawbee-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 05031
+T: Jenny's Bawbee
+R:STRATHSPEY
+B:RSCDS 5-3
+Z:1997 by John Chambers <jc@trillian.mit.edu>
+M:C
+L:1/8
+Q:120
+%--------------------
+K:D
+f2 |\
+"D" a>ba>g f<d d>f | "Em" g>B      e>d "A7" c<A A>f |\
+"D" a>ba>g f<d d>f | "G"  B<B "A7" c>A "D"  d2 f2    |!
+"D" a>ba>g f<d d>f | "Em" g>B      e>d "A7" c<A A>f |\
+"D" a>ba>g f<d d>f | "G"  B<B "A7" c>A "D"  d2     |!
+de|\
+"D"  f>d"A7"g>e   "Bm" f<d d3/2e/4f/4 | "Em" g>Be>d "A7" c<A A3/2e/4f/4 |\
+"Bm" f>d"A/C#"g>e "D"  f<d f<a        | "G"  B<B    "A7" c>A "D"    d2 de |
+"D"  f>d"A7"g>e   "Bm" f<d d3/2e/4f/4 | "Em" g>Be>d "A7" c<A A3/2e/4f/4 |\
+"Bm" f>d"A/C#"g>e "D"  f<d f<a        | "G"  B<B    "A7" c>A "D"    d2 |]
+%%center Book05/05031-Jennys_Bawbee-5.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 05031
+T: Jenny's Bawbee
+R:strathspey
+B:RSCDS 5-3
+Z: 1997 by John Chambers
+M:C
+L:1/16
+N:Posted to the woodenflute mailing list May 2002
+%--------------------
+K:D
+|: f2 \
+| "D"a3b a3g fd3 d3f | "Em"g3B e3d "A7"cA3 A3f \
+| "D"a3b a3g fd3 d3f | "G"BB3 "A7"c3A "D"[d6F6] :|
+|: d/e/ \
+| "D"f3d "A7"g3e "D"fd3 d3e/f/ | "Em"g3B e3d "A7"cA3 A3e/f/ \
+| "D"f3d "A7"g3e "D"fd3 fa3 | "G"BB3 "A7"c3A "D"[d6F6] :|
+%%center Book05/05031-Jennys_Bawbee.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 05031
+T: Jenny's Bawbee  2xAABB+AB
+R: strathspey
+B: RSCDS 5-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+%--------------------
+K: D
+|: f2 \
+| "D"a3b a3g fd3 d3f | "Em"g3B e3d "A7"cA3 A3f \
+| "D"a3b a3g fd3 d3f | "G"BB3 "A7"c3A "D"[d6F6] :|
+|: de \
+| "D"f3d "A7"g3e "D"fd3 d2ef | "Em"g3B e3d "A7"cA3 A2de \
+| "D"f3d "A7"g3e "D"fd3 fa3 | "G"BB3 "A7"c3A "D"[d6F6] :|
+%%center Book05/05031-Jennys_Bawbee_2xAABBAB-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 05031
+T: Jenny's Bawbee [AABBAB]
+R: strathspey
+B: RSCDS 5-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+%--------------------
+K: D
+"A"|: f2 \
+| "D"a3b a3g fd3 d3f | "Em"g3B e3d "A7"cA3 A3f \
+| "D"a3b a3g fd3 d3f | "G"BB3 "A7"c3A "D"[d6F6] :|
+"B"|: de \
+| "D"f3d "A7"g3e "D"fd3 d2ef | "Em"g3B e3d "A7"cA3 A2de \
+| "D"f3d "A7"g3e "D"fd3 fa3 | "G"BB3 "A7"c3A "D"[d6F6] :|
+%%center Book05/05031-Jennys_Bawbee_AABBAB-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 05061
+T: The Muckin' o' Geordie's Byre
+R: jig
+B: RSCDS 5-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: In Oswald's "Curious Scots Tunes" 1742
+M: 6/8
+L: 1/8
+%--------------------
+K: D
+|: dcB  \
+| "D"A>AA A<FA | d2e f2a | "A7"g2e "D"f2d | "G"efd B2d \
+| "D"A>AA A<FA | d2e f2g | afd "A7"e2f | "D"d3 :|
+|: def \
+| "G"gdg "(A)"gag | "D"fdf "(Bm)"fgf | "Em"ede "A7"efg | "D"fed "G"B2d \
+| "D"A>AA A<FA | d2e f2g | afd "A7"e2f | "D"d3 :|
+%%center Book05/05061-Muckin_o_Geordies_Byre-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 05061
+T: The Muckin' o' Geordie's Byre
+R: jig
+B: RSCDS 5-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: In Oswald's "Curious Scots Tunes" 1742
+M: 6/8
+L: 1/8
+%--------------------
+K: D
+|: "D"A>BA AFA \
+| d2e f2a \
+| "A7"g2e "D"f2d \
+| "G"efd Bcd \
+| "D"A>BA AFA |
+| d2e f2g \
+| afd "A7"efe \
+| "D"d6 \
+:: "G"{ef}g2g "(A)"gag \
+| "D"f2f "(Bm)"fgf |
+| "Em"e2e "A7"efg \
+| "D"fed "G"Bcd \
+| "D"A>BA AFA \
+| d2e f2g \
+| afd "A7"efe \
+| "D"d6 :|
+%%center Book05/05061-Muckin_o_Geordies_Byre-10.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 05061
+T: The Muckin' o' Geordie's Byre
+R: jig
+B: RSCDS 5-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: In Oswald's "Curious Scots Tunes" 1742
+M: 6/8
+L: 1/8
+%--------------------
+K: D
+   dcB  \
+| "D"A>AA A<FA | d2e f2a | "G"g2e "D"f2d | "Em"efd "A7"B2{c}d \
+| "D"A>AA A<FA | d2e f2g | "(G)"afd "A7"e2f | "D"d3 :|
+|: def \
+| "G"gdg "(A)"gag | "D"fdf "(Bm)"fgf | "Em"ede "A7"efg | "D"fed "G"B2{c}d \
+| "D"A>AA A<FA | d2e f2g | "(G)"afd "A7"e2f | "D"d3 :|
+%%center Book05/05061-Muckin_o_Geordies_Byre-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 05071
+T: Scottish Ramble
+O: Caledonian Country Dances, 1754
+R: strathspey
+B: RSCDS 5-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Caledonian Country Dances, circa 1754
+M: C
+L: 1/16
+%--------------------
+K: A
+|: E \
+| "A"AAA2 A3c e3c A3c | "G"BBB2 =G3B "E7"d4 c3B \
+| "A"AAA2 A3c e3c "E7"d3B | "A"c3e "E7"B3c "A"AAA2 A3 :|
+|: d \
+| "A"c3e e2fg a4 e3c | a3e c3A "Bm"BBB2 "E7"B3d \
+| "A"c2A e3A a3e c3A | c3e "E7"B3c "A"AAA2 A3 :|
+%%center Book05/05071-Scottish_Ramble-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 05091
+T: Lady Susan Stewart's Reel
+R: reel
+B: RSCDS 5-9(a)
+B: Caledonian Country Dances, circa 1754
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: ADor
+|: "Am"Aeeg fdec | Aeeg "G"BGdB | "Am"Aeeg fdeg | "G"f>edg BGdB :|
+|: "Am"Ag f/g/a fdec | Ag f/g/a "G"BGdB | "Am"Ag f/g/a fdeg | "G"f>edg BGdB :|
+%%center Book05/05091-Lady_Susan_Stewarts_Reel-1-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 05091
+T: Lady Susan Stewart's Reel
+B: RSCDS 5-9(a)
+N: Arr. T. Traub 9-30-95
+R: Reel
+M: 4/4
+L: 1/8
+K: Am
+e \
+|: "Am"A2 eg "D"fdec | "Am"A2 eg "G"BGdB | "Am"Aeeg fdeg | "D"fedg "G"BGdB :|
+|: "Am"A2 a2 "D"fdec | "Am"A2 a2 "G"BGdB | "Am"A2 a2 fdeg | "D"fedg "G"BGdB :|
+%%center Book05/05091-Lady_Susan_Stewarts_Reel-TT.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 05092
+T: The Novelty
+R: reel
+B: RSCDS 5-9(b)
+N: From "Airs and Melodies" by Capt. S. Fraser 1816
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: Eb
+|: E \
+| "Eb"B,EG,E B,G,G,E | B,G,B,E G2GB \
+| B,EG,E B,EGB | "Fm"AG"F7"FE "Bb"[F3D3] :|
+|| c \
+| "Eb"BGe2 BGGc | BGBc Bedc | BGe2 BGGB | "Fm"AGFE "Bb"F2FG
+| "Eb"BGe2 BGGc | BGBe "Cm"g2"Bb"ga | "Eb"bged eBAG "Fm"AGFE "Bb"[F2D2]"d.C."FG |]
+%%center Book05/05092-Novelty-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 05111
+T: The White Cockade
+O: 1745
+B: RSCDS 5-11
+B: The Caledonian Companion, Alastair J. Hardie, 1981, p.29.
+B: Skye, p.170.
+R: march
+N: Military citations include this tune as one of two tunes (along with "St.
+N: Patrick's  Day  in  the  Morning") played by pipers attached to the Irish
+N: Brigade in the service of France which helped to turn the tide of  battle
+N: against the English troops in the battle of Fontenoy on May 11, 1745. Are
+N: there any earlier citations?
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+%--------------------
+K: G
+   GA | "G"B2B2 B2AG | B2B2 B2ge | d2B2 "Em"cBAG | "Am"B2A2 "D7"A2GA \
+      | "G"B2Bd cBAG | B2d2 "Em"g3a | "C"bagf "D7"agfe | "G"d2B2 B2 :|
+|: Bc | "G"d2B2 g2Bc | d2d2 "D7"d3e | "G"d2B2 "Em"g2fg | "Am"a2A2 "D7"A2GA \
+      | "G"B2Bd cBAG | B2d2 "Em"g3a | "C"bagf "D7"agfe | "G"d2B2 B2 :|
+%%center Book05/05111-White_Cockade-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 05111
+T: The White Cockade
+O: 1745
+B: RSCDS 5-11
+B: The Caledonian Companion, Alastair J. Hardie, 1981, p.29.
+B: Skye, p.170.
+B: BB2 115
+B: Brody p.291
+N: Military citations include this tune as one of two tunes (along with "St.
+N: Patrick's  Day  in  the  Morning") played by pipers attached to the Irish
+N: Brigade in the service of France which helped to turn the tide of  battle
+N: against the English troops in the battle of Fontenoy on May 11, 1745. Are
+N: there any earlier citations?
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+%--------------------
+K: G
+|: GA | "G"B2B2 B2AG | B2B2 B2ge | d2B2 "Em"cBAG | "Am"B2A2 "D7"A2GA \
+      | "G"B2Bd cBAG | B2d2 "Em"g3a | "C"bagf "D7"agfe | "G"d2B2 B2 :|
+|: Bc | "G"d2B2 g2Bc | d2d2 "D7"d3e | "G"d2B2 "Em"g2fg | "Am"a2A2 "D7"A2GA \
+      | "G"B2Bd cBAG | B2d2 "Em"g3a | "C"bagf "D7"agfe | "G"d2B2 B2 :|
+%%center Book05/05111-White_Cockade-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 05111
+T: The White Cockade
+O: Trad
+B: RSCDS#5-11
+B: The Caledonian Companion, Alastair J. Hardie, 1981, p.29.
+B: Skye, p.170.
+R: march
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+%--------------------
+K: A
+   AB | "A"c2c2 c2BA | c2c2 c2af | e2c2 "Fm"dcBA | "Bm"c2B2 "E7"B2AB \
+      | "A"c2ce dcBA | c2e2 "Fm"a3b | "D"c'bag "E7"bagf | "A"e2c2 c2 :|
+|: cd | "A"e2c2 a2cd | e2e2 "E7"e3f | "A"e2c2 "Fm"a2ga | "Bm"b2B2 "E7"B2AB \
+      | "A"c2ce dcBA | c2e2 "Fm"a3b | "D"c'bag "E7"bagf | "A"e2c2 c2 :|
+%%center Book05/05111-White_Cockade-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 05111
+T: The White Cockade
+O: Trad
+B: RSCDS#5-11
+B: The Caledonian Companion, Alastair J. Hardie, 1981, p.29.
+B: Skye, p.170.
+R: march
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+%--------------------
+K: G
+|: GA | "G"B2B2 B2AG | B2B2 B2ge | d2B2 "Em"cBAG | "Am"B2A2 "D7"A2GA \
+      | "G"B2Bd cBAG | B2d2 "Em"g3a | "C"bagf "D7"agfe | "G"d2B2 B2 :|
+|: Bc | "G"d2B2 g2Bc | d2d2 "D7"d3e | "G"d2B2 "Em"g2fg | "Am"a2A2 "D7"A2GA \
+      | "G"B2Bd cBAG | B2d2 "Em"g3a | "C"bagf "D7"agfe | "G"d2B2 B2 :|
+%%center Book05/05111-White_Cockade-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 05111
+T: The White Cockade
+O: Trad
+N: RSCDS 5-11
+N: The Caledonian Companion, Alastair J. Hardie, 1981, p.29.
+N: Skye, p.170.
+N: BB2 115
+N: Brody p.291
+R: march
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+%--------------------
+K: G
+|: GA | "G"B2B2 B2AG | B2B2 B2ge | d2B2 "Em"cBAG | "Am"B2A2 "D7"A2GA \
+      | "G"B2Bd cBAG | B2d2 "Em"g3a | "C"bagf "D7"agfe | "G"d2B2 B2 :|
+|: Bc | "G"d2B2 g2Bc | d2d2 "D7"d3e | "G"d2B2 "Em"g2fg | "Am"a2A2 "D7"A2GA \
+      | "G"B2Bd cBAG | B2d2 "Em"g3a | "C"bagf "D7"agfe | "G"d2B2 B2 :|
+%%center Book05/05111-White_Cockade-6.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 05111
+T: The White Cockade
+O:england
+B: RSCDS#5-11
+B: The Caledonian Companion, Alastair J. Hardie, 1981, p.29.
+B: Skye, p.170.
+R: march
+M: 2/4
+L: 1/16
+%--------------------
+K: A
+AB | "A"c2c2 c2BA | c2c2 c2af | e2c2 "Fm"dcBA | "Bm"c2B2 "E7"B2AB \
+| "A"c2ce dcBA | c2e2 "Fm"a3b | "D"c'bag "E7"bagf | "A"e2c2 c2 :|
+|: cd | "A"e2c2 a2cd | e2e2 "E7"e3f | "A"e2c2 "Fm"a2ga | "Bm"b2B2 "E7"B2AB \
+| "A"c2ce dcBA | c2e2 "Fm"a3b | "D"c'bag "E7"bagf | "A"e2c2 c2 :|
+%%sep 0 1 8cm
+%%center Book05/05111-White_Cockade.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Bricklayer's Hornpipe
+O: RSCDS 5-__
+B: RSCDS 5-__
+R: hornpipe
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+c2 \
+| "F"c=B cA FA cf | "C7"fe ge cd cB | "C7"cB dB "F"BA cA | "Bb"AG BG "C7"FE DC |
+| "F"c=B cA FA cf | "C7"fe ge ce gb | "Bb"ba ag "C7"gf eg | "F"f2 a2 f2 :|
+|: G2 \
+| "C"G^F GE CE GB | "F"BA cA FA cf | "Bb"df cf df cf | "Bb"df ba "C7"gf ed |
+| "F"c=B cA FA cf | "C7"fe ge ce gb | "Bb"ba ag "C7"gf eg | "F"f2 a2 f2 :|
+%%center Book05/BricklayersHornpipe_F-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Bricklayer's Hornpipe
+O: RSCDS 5-__
+B: RSCDS 5-__
+R: hornpipe
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+c2 \
+| "F"c=B cA FA cf | "C7"fe ge cd cB | "C7"cB dB "F"BA cA | "Bb"AG BG "C7"FE DC |
+| "F"c=B cA FA cf | "C7"fe ge ce gb | "Bb"ba ag "C7"gf eg | "F"f2 a2 f2 :|
+|: G2 \
+| "C"G^F GE CE GB | "F"BA cA FA cf | "Bb"df cf df cf | "Bb"df ba "C7"gf ed |
+| "F"c=B cA FA cf | "C7"fe ge ce gb | "Bb"ba ag "C7"gf eg | "F"f2 a2 f2 :|
+%%center Book05/BricklayersHornpipe_F_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0502
+T: Dumbarton Drums
+R:reel
+S:Loose sheet in my collection (possibly from RSCDS)
+Z:Nigel Gatherer
+S:Flowers, Ross (MTO) <Ross.Flowers@mto.gov.on.ca> scots-l 2001-6-12
+M:4/4
+L:1/8
+%--------------------
+K:Em
+GA |\
+B3d BcAB | G2d>e d2cB | AGAB cBAG | E2e>f e2de |
+g3a bage | dBde g3G | ABge dBAG | E2e>f e2 :|
+|: de |\
+g3a gaba | g2b>c' b2ag | agab c'bag | e2a>b a2ge |
+dega bage | dBde g2ga | bage dBAG | E2e>f e2 :|
+%%center Book05/Dumbarton_Drums-NG.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0502
+T: Dumbarton Drums
+R:reel
+S:Loose sheet in my collection (possibly from RSCDS)
+Z:Nigel Gatherer
+S:Flowers, Ross (MTO) <Ross.Flowers@mto.gov.on.ca> scots-l 2001-6-12
+W:
+W:"Dumbarton's Drum" you wish to find;
+W:The famous song first comes to mind
+W:That Jean Redpath was want to croon
+W:But could it be another tune?
+W:
+W:A forgotten air, like many more,
+W:There's one solution: look up Gore!
+W:If it's not in there I must insist
+W:The tune you seek does not exist.
+W:
+W:Aha! I see it - just before
+W:"Dumfries House" - good old Gore!
+W:A fine old reel (but that high "c"
+W:Does not endear the tune to me).
+W:
+W:So there you are, it might confuse;
+W:The song or reel, you have to choose
+W:If it's the former, let us know;
+W:If it's the latter, see below.
+M:4/4
+L:1/8
+%--------------------
+K:Em
+GA | B3d  BcAB | G2d>e d2cB  | AGAB cBAG  | E2 e>f e2 de |
+     g3a  bage | dBde  g3G   | ABge dBAG  | E2 e>f e2 :|
+de | g3a  gaba | g2b>c' b2ag | agab c'bag | e2 a>b a2 ge |
+     dega bage | dBde g2ga   | bage dBAG  | E2 e>f e2 :|
+%%center Book05/Dumbarton_Drums-w-NG.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Dumbarton's Drums
+O: RSCDS 5-2
+B: RSCDS 5-2
+B: Playford 1697
+B: McGibbon 1763
+M: C|
+L: 1/8
+K: F
+FG \
+| "F"A3c "C7"ABGA \
+| "F"F2c>d c2BA \
+| "Gm"GFGA BAGF \
+| D2d>e "C7"d2cd \
+| "F"f3g agfd |
+| "F"cAcd f3F \
+| "Gm"GAfd "Am"cAGF \
+| "Dm"D2d>e d2 :: cd \
+| "F"f3g fgag \
+| f2a>b a2gf |
+| "Gm"gfga bagf \
+| d2g>a "C7"g2fd \
+| "F"cdfg "(C7)"agfd \
+| "F"cAcd "Dm"f3g \
+| agfd "Am"cAGF \
+| "Dm"D2d>e d2 :|
+%%center Book05/DumbartonsDrums_F.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0502
+T: Dumbarton's Drums
+O:RSCDS 5-2
+B:RSCDS 5-2
+B:Playford 1697
+B:McGibbon 1763
+M:C|
+L:1/8
+%--------------------
+K:F
+FG \
+| "F"A3c "C7"ABGA | "F"F2c>d c2BA | "Gm"GFGA BAGF | D2d>e "C7"d2cd | "F"f3g agfd |
+| "F"cAcd f3F | "Gm"GAfd "Am"cAGF | "Dm"D2d>e d2 :: cd | "F"f3g fgag | f2a>b a2gf |
+| "Gm"gfga bagf | d2g>a "C7"g2fd | "F"cdfg "(C7)"agfd | "F"cAcd "Dm"f3g | agfd "Am"cAGF | "Dm"D2d>e d2 :|
+%%center Book05/Dumbartons_Drums-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0502
+T: Dumbarton's Drums [1]
+B:RSCDS 5-2
+B:Playford 1697
+B:McGibbon 1763
+M:C|
+L:1/8
+%--------------------
+K:F
+|: FG | \
+"F"A3c "C7"ABGA | "F"F2c>d c2BA | "Gm"GFGA BAGF | D2d>e "C7"d2cd |
+"F"f3g agfd || "F"cAcd f3F | "Gm"GAfd "Am"cAGF | "Dm"D2d>e d2 :|
+|: cd | \
+"F"f3g fgag | f2a>b a2gf | "Gm"gfga bagf | d2g>a "C7"g2fd |
+"F"cdfg "(Bb)"agfd | "F"cAcd "Dm"f2fg | "Am"agfd cAGF | "Dm"D2d>e d2 :|
+%%center Book05/Dumbartons_Drums-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Jenny's Bawbee
+R: strathspey
+B: RSCDS 5-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+|: f2 \
+| "D"a4 {b}a3g fd3 d3f | "Em"g3B e3d "A7"cA3 A3f \
+| "D"a4 {b}a3g fd3 d3f | "G"BB3 "A7"c3A "D"d6 :|
+|: de \
+| "D"f3d "A7"g3e "D"fd3 d2ef | "Em"g3B e3d "A7"cA3 A2de \
+| "D"f3d "A7"g3e "D"fd3 fa3 | "G"BB3 "A7"c3A "D"d6 :|
+%%center Book05/JennysBawbee_D_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lady Susan Stewart's Reel
+R: reel
+B: RSCDS 5-9(a)
+N: From Caledonian Country Dances, circa 1754
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: ADor
+|: "Am"Aeeg fdec | Aeeg "G"BGdB | "Am"Aeeg fdeg | "G"f>edg BGdB :|
+|: "Am"Ag f/g/a fdec | Ag f/g/a "G"BGdB | "Am"Ag f/g/a fdeg | "G"f>edg BGdB :|
+%%center Book05/LadySusanStewartsR_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 05091
+T: Lady Susan Stewart's Reel
+R: reel
+B: RSCDS 5-9(a)
+B: Caledonian Country Dances, circa 1754
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: ADor
+|: "Am"Aeeg fdec | Aeeg "G"BGdB | "Am"Aeeg fdeg | "G"f>edg BGdB :|
+|: "Am"Ag f/g/a fdec | Ag f/g/a "G"BGdB | "Am"Ag f/g/a fdeg | "G"f>edg BGdB :|
+%%center Book05/Lady_Susan_Stewarts_Reel-1-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 05091
+T: Lady Susan Stewart's Reel
+B: RSCDS 5-9(a)
+N: Arr. T. Traub 9-30-95
+R: Reel
+M: 4/4
+L: 1/8
+K: Am
+e \
+|: "Am"A2 eg "D"fdec | "Am"A2 eg "G"BGdB | "Am"Aeeg fdeg | "D"fedg "G"BGdB :|
+|: "Am"A2 a2 "D"fdec | "Am"A2 a2 "G"BGdB | "Am"A2 a2 fdeg | "D"fedg "G"BGdB :|
+%%center Book05/Lady_Susan_Stewarts_Reel-TT.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Muckin' o' Geordie's Byre
+R: jig
+B: RSCDS 5-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: In Oswald's "Curious Scots Tunes" 1742
+M: 6/8
+L: 1/8
+K: D
+|: "D"A>BA AFA \
+| d2e f2a \
+| "A7"g2e "D"f2d \
+| "G"efd Bcd \
+| "D"A>BA AFA |
+| d2e f2g \
+| afd "A7"efe \
+| "D"d6 \
+:: "G"{ef}g2g "(A)"gag \
+| "D"f2f "(Bm)"fgf |
+| "Em"e2e "A7"efg \
+| "D"fed "G"Bcd \
+| "D"A>BA AFA \
+| d2e f2g \
+| afd "A7"efe \
+| "D"d6 :|
+%%center Book05/MuckinOGeordiesByre_3_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Muckin' o' Geordie's Byre
+R: jig
+B: RSCDS 5-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: In Oswald's "Curious Scots Tunes" 1742
+M: 6/8
+L: 1/8
+K: D
+   z2d  \
+| "D"A>AA A<FA | d2e f2a | "G"g2e "D"f2d | "Em"efd "A7"B2{c}d \
+| "D"A>AA A<FA | d2e f2g | "(G)"afd "A7"e2f | "D"d3 :|
+|: def \
+| "G"gdg "(A)"gag | "D"fdf "(Bm)"fgf | "Em"ede "A7"efg | "D"fed "G"B2{c}d \
+| "D"A>AA A<FA | d2e f2g | "(G)"afd "A7"e2f | "D"d3 :|
+%%center Book05/MuckinOGeordiesByre_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Novelty
+R: reel
+B: RSCDS 5-9(b)
+N: From "Airs and Melodies" by Capt. S. Fraser 1816
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Eb
+|: E \
+| "Eb"B,EG,E B,G,G,E | B,G,B,E G2GB \
+| B,EG,E B,EGB | "Fm"AG"F7"FE "Bb"[F3D3] :|
+|| c \
+| "Eb"BGe2 BGGc | BGBc Bedc | BGe2 BGGB | "Fm"AGFE "Bb"F2FG
+| "Eb"BGe2 BGGc | BGBe "Cm"g2"Bb"ga | "Eb"bged eBAG "Fm"AGFE "Bb"[F2D2]"d.C."FG |]
+
+%%center Book05/Novelty-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Novelty
+R: reel
+B: RSCDS 5-9(b)
+N: From "Airs and Melodies" by Capt. S. Fraser 1816
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Eb
+|: E \
+| "Eb"B,EG,E B,G,G,E | B,G,B,E G2GB \
+| B,EG,E B,EGB | "Fm"AG"F7"FE "Bb"[F3D3] :|
+|| c \
+| "Eb"BGe2 BGGc | BGBc Bedc | BGe2 BGGB | "Fm"AGFE "Bb"F2FG
+| "Eb"BGe2 BGGc | BGBe "Cm"g2"Bb"ga | "Eb"bged eBAG "Fm"AGFE "Bb"[F2D2]"d.C."FG |]
+
+%%center Book05/Novelty_2-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Novelty
+R: reel
+B: RSCDS 5-9(b)
+N: From "Airs and Melodies" by Capt. S. Fraser 1816
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Eb
+|: E \
+| "Eb"B,EG,E B,G,G,E | B,G,B,E G2GB \
+| B,EG,E B,EGB | "Fm"AG"F7"FE "Bb"[F3D3] :|
+|| c \
+| "Eb"BGe2 BGGc | BGBc Bedc | BGe2 BGGB | "Fm"AGFE "Bb"F2FG
+| "Eb"BGe2 BGGc | BGBe "Cm"g2"Bb"ga | "Eb"bged eBAG "Fm"AGFE "Bb"[F2D2]"d.C."FG |]
+
+%%center Book05/Novelty_JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Scottish Ramble
+O: Caledonian Country Dances, 1754
+R: strathspey
+B: RSCDS 5-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Caledonian Country Dances, circa 1754
+M: C
+L: 1/16
+K: A
+   E \
+| "A"AAA2 A3c e3c A3c | "G"BBB2 =G3B "E7"d4 c3B \
+| "A"AAA2 A3c e3c "E7"d3B | "A"c3e "E7"B3c "A"AAA2 A3 :|
+|: d \
+| "A"c3e e2fg a4 e3c | a3e c3A "Bm"BBB2 "E7"B3d \
+| "A"c2A e3A a3e c3A | c3e "E7"B3c "A"AAA2 A3 :|
+%%center Book05/ScottishRambleS-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Scottish Ramble
+O: Caledonian Country Dances, 1754
+R: strathspey
+B: RSCDS 5-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Caledonian Country Dances, circa 1754
+M: C
+L: 1/16
+K: A
+   E \
+| "A"AAA2 A3c e3c A3c | "G"BBB2 =G3B "E7"d4 c3B \
+| "A"AAA2 A3c e3c "E7"d3B | "A"c3e "E7"B3c "A"AAA2 A3 :|
+|: d \
+| "A"c3e e2fg a4 e3c | a3e c3A "Bm"BBB2 "E7"B3d \
+| "A"c2A e3A a3e c3A | c3e "E7"B3c "A"AAA2 A3 :|
+%%center Book05/ScottishRambleS_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Scottish Ramble
+O: Caledonian Country Dances, 1754
+R: strathspey
+B: RSCDS 5-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Caledonian Country Dances, circa 1754
+M: C
+L: 1/16
+K: A
+   E \
+| "A"AAA2 A3c e3c A3c | "G"BBB2 =G3B "E7"d4 c3B \
+| "A"AAA2 A3c e3c "E7"d3B | "A"c3e "E7"B3c "A"AAA2 A3 :|
+|: d \
+| "A"c3e e2fg a4 e3c | a3e c3A "Bm"BBB2 "E7"B3d \
+| "A"c2A e3A a3e c3A | c3e "E7"B3c "A"AAA2 A3 :|
+%%center Book05/ScottishRambleS_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Teviot Brig
+T: Teviot Bridge
+B: RSCDS 5-1
+D: Winston Scotty Fitzgerald on Celtic 17
+N: BSFC  VIII-21
+N: Gow's Repository 1817.
+N: Hunter  304
+N: OTDT  p.64
+N: Skye  p.176
+O: Gow's Repository 1817
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+f "A"\
+| "A"ecA AcA | "D"F2A "A"E2A | "E"EFG "F#m"ABc | "Bm"d2c "E7"B2f \
+| "A"ecA AcA | "D"F2A "A"E2c | "D"d2f "A"ecA | "E7"B3 "A"A2 :|
+f "B1"\
+| "A"ecA Ace | "D"fdf fga | "A"ecA AGA | "E7"BGE E2c/d/ \
+| "A"ecA Ace | "D"fdf fga | "A"ecA "E7"BGE | "A"A3- A2 ||
+f "B2"\
+| "A"ecA Ace | "D"fdf fga | "A"ecA AGA | "E7"BGE E2c/d/ \
+| "A"ece "D"fdf | "E7"geg "F#m"agf | "Bm"edc "E7"BAG | "A"A3- A2 |]
+%%center Book05/TeviotBrigJ_A.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Teviot Brig   [G]
+T: Teviot Bridge
+B: RSCDS 5-1
+D: Winston Scotty Fitzgerald on Celtic 17
+N: BSFC  VIII-21
+N: Gow's Repository 1817. Above air from Companion to the Reticule.
+N: Hunter  304
+N: OTDT  p.64
+N: Skye  p.176
+O: Gow's Repository 1817
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+e \
+| "G"dBG GBG | "C"E2G "G"D2G | "G"DEF "Em"GAB | "Am"c2B "D7"A2e \
+| "G"dBG GBG | "C"E2G "G"D2B | "C"cde "G"dBG | "D7"A3 "G"G2 :|
+e \
+| "G"dBG GBd | "C"ece efg | "G"dBG GFG | "D7"AFD D2B/c/ \
+| "G"dBG GBd | "C"ece efg | "G"dBG "D7"AFD | "G"G3- G2 ||
+B/c/ \
+| "G"dBG GBd | "C"ece efg | "G"dBG GFG | "D7"AFD D2B/c/ \
+| "G"dBd "C"ece | "D7"fdf "Em"gfe | "D7"dcB AGF | "G"G3- G2 |]
+%%center Book05/TeviotBrigJ_G.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Teviot Brig
+T: Teviot Bridge
+B: RSCDS 5-1
+D: Winston Scotty Fitzgerald on Celtic 17
+N: BSFC  VIII-21
+N: Gow's Repository 1817. Above air from Companion to the Reticule.
+N: Hunter  304
+N: OTDT  p.64
+N: Skye  p.176
+O: Gow's Repository 1817
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+e \
+| "G"dBG GBG | "C"E2G "G"D2G | "G"DEF "Em"GAB | "Am"c2B "D7"A2e \
+| "G"dBG GBG | "C"E2G "G"D2B | "C"cde "G"dBG | "D7"A3 "G"G2 :|
+|: e \
+| "G"dBG GBd | "C"ece efg | "G"dBG GFG | "D7"AFD D2B/c/ \
+| "G"dBG GBd | "C"ece efg | "G"dBG "D7"AFD | "G"G3- G2 :|
+y B/c/ \
+| "G"dBG GBd | "C"ece efg | "G"dBG GFG | "D7"AFD D2B/c/ \
+| "G"dBd "C"ece | "D7"fdf "Em"gfe | "D7"dcB AGF | "G"G3- G2 |]
+%%center Book05/TeviotBrigJ_G40.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The White Cockade
+O: 1745
+B: RSCDS 5-11
+B: The Caledonian Companion, Alastair J. Hardie, 1981, p.29.
+B: Skye, p.170.
+R: march
+N: Military citations include this tune as one of two tunes (along with "St.
+N: Patrick's  Day  in  the  Morning") played by pipers attached to the Irish
+N: Brigade in the service of France which helped to turn the tide of  battle
+N: against the English troops in the battle of Fontenoy on May 11, 1745. Are
+N: there any earlier citations?
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+   GA | "G"B2B2 B2AG | B2B2 B2ge | d2B2 "Em"cBAG | "Am"B2A2 "D7"A2GA \
+      | "G"B2Bd cBAG | B2d2 "Em"g3a | "C"bagf "D7"agfe | "G"d2B2 B2 :|
+|: Bc | "G"d2B2 g2Bc | d2d2 "D7"d3e | "G"d2B2 "Em"g2fg | "Am"a2A2 "D7"A2GA \
+      | "G"B2Bd cBAG | B2d2 "Em"g3a | "C"bagf "D7"agfe | "G"d2B2 B2 :|
+%%center Book05/WhiteCockade2_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The White Cockade
+O: 1745
+B: RSCDS 5-11
+B: The Caledonian Companion, Alastair J. Hardie, 1981, p.29.
+B: Skye, p.170.
+B: BB2 115
+B: Brody p.291
+N: Military citations include this tune as one of two tunes (along with "St.
+N: Patrick's  Day  in  the  Morning") played by pipers attached to the Irish
+N: Brigade in the service of France which helped to turn the tide of  battle
+N: against the English troops in the battle of Fontenoy on May 11, 1745. Are
+N: there any earlier citations?
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+|: GA | "G"B2B2 B2AG | B2B2 B2ge | d2B2 "Em"cBAG | "Am"B2A2 "D7"A2GA \
+      | "G"B2Bd cBAG | B2d2 "Em"g3a | "C"bagf "D7"agfe | "G"d2B2 B2 :|
+|: Bc | "G"d2B2 g2Bc | d2d2 "D7"d3e | "G"d2B2 "Em"g2fg | "Am"a2A2 "D7"A2GA \
+      | "G"B2Bd cBAG | B2d2 "Em"g3a | "C"bagf "D7"agfe | "G"d2B2 B2 :|
+
+%%center Book05/WhiteCockade4-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The White Cockade
+O: 1745
+B: RSCDS 5-11
+B: The Caledonian Companion, Alastair J. Hardie, 1981, p.29.
+B: Skye, p.170.
+B: BB2 115
+B: Brody p.291
+N: Military citations include this tune as one of two tunes (along with "St.
+N: Patrick's  Day  in  the  Morning") played by pipers attached to the Irish
+N: Brigade in the service of France which helped to turn the tide of  battle
+N: against the English troops in the battle of Fontenoy on May 11, 1745. Are
+N: there any earlier citations?
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+|: GA | "G"B2B2 B2AG | B2B2 B2ge | d2B2 "Em"cBAG | "Am"B2A2 "D7"A2GA \
+      | "G"B2Bd cBAG | B2d2 "Em"g3a | "C"bagf "D7"agfe | "G"d2B2 B2 :|
+|: Bc | "G"d2B2 g2Bc | d2d2 "D7"d3e | "G"d2B2 "Em"g2fg | "Am"a2A2 "D7"A2GA \
+      | "G"B2Bd cBAG | B2d2 "Em"g3a | "C"bagf "D7"agfe | "G"d2B2 B2 :|
+
+%%center Book05/WhiteCockade4_2-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The White Cockade
+O: 1745
+B: RSCDS 5-11
+B: The Caledonian Companion, Alastair J. Hardie, 1981, p.29.
+B: Skye, p.170.
+B: BB2 115
+B: Brody p.291
+N: Military citations include this tune as one of two tunes (along with "St.
+N: Patrick's  Day  in  the  Morning") played by pipers attached to the Irish
+N: Brigade in the service of France which helped to turn the tide of  battle
+N: against the English troops in the battle of Fontenoy on May 11, 1745. Are
+N: there any earlier citations?
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+|: GA | "G"B2B2 B2AG | B2B2 B2ge | d2B2 "Em"cBAG | "Am"B2A2 "D7"A2GA \
+      | "G"B2Bd cBAG | B2d2 "Em"g3a | "C"bagf "D7"agfe | "G"d2B2 B2 :|
+|: Bc | "G"d2B2 g2Bc | d2d2 "D7"d3e | "G"d2B2 "Em"g2fg | "Am"a2A2 "D7"A2GA \
+      | "G"B2Bd cBAG | B2d2 "Em"g3a | "C"bagf "D7"agfe | "G"d2B2 B2 :|
+
+%%center Book05/WhiteCockade4_JC.abc

@@ -1,0 +1,16 @@
+X: 1022
+T: Bakapayim
+O: Israel
+M: 2/4
+L: 1/8
+K: Bb
+Q: 1/4=120
+%%MIDI trim 1/4
+%%MIDI program 66 Tenor Sax
+%%MIDI drum d2dd 35 46 46 70 100 100
+%%MIDI drumon
+B,F FF|_GE E2|FD D2|D=B, _B,2|\
+B,F FF|_GE E2|FD D2|D=B, _B,2::
+EE E2|FD D2|E=B, B,2|D_B, B,2::
+EE E2|FE E2|EE E2|FE E2|
+E=B,B,B,|=B,_B,3|zE =B,B,|_B,4:|

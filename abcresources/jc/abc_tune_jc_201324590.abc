@@ -1,0 +1,21 @@
+X: 680
+T: Planxty Toby Peyton - 3rd Setting
+T: pleraca teo\.boid peiton
+R: jig, waltz
+%S: s:6 b:24(4+4+4+4+4+4)
+C: O'Carolan
+O: J.O'Neill
+B: O'Neill's 1850 #680
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Rest added at ends to fix the rhythms of repeats.
+Q: "Lively"
+M: 6/8
+L: 1/8
+K: Gm
+|: c>AG GAG | FD=E F2d | c>AG GAc | d=eg f2 ||
+| c | d>gg .g^f/g/a | .g(=e/^f/g) .=f(d/=e/f) | (=e/f/e/d/).c (d/_e/d/c/).A | (c/d/c/B/A/G/) ^FDC ||
+| D>GG GAG | ^FGA (A<=f)d | cAG ^FDF | G3 G2z :|
+|: E \
+| F>ED CB,A, | G,>GG G,>GG | Gcc (c/d/c/B/A/)G/ | Add d2 ||
+| =e | fcA fcA | Ggg g^fg | (a/b/a/g/^f/a/) (g/a/g/=f/=e/g/) | (f/g/f/=e/d/c/) (d/_e/d/c/B/A/) ||
+| fAG ^FGA | fAG ^FGA | dGG ^FDF | G3 G2z :|

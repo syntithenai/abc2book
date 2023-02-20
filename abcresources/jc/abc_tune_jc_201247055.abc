@@ -1,0 +1,27 @@
+X: 1
+T: the Angry Birds March
+C: Ari Pulkinnen
+R: march
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/16
+K: Em
+%%indent 400
+(ef) |\
+"Em"g2e2 b2(ef) g2e2 b2z2 | (bc')ba g2(gf) e2z2 z2(ef) |
+"Em"g2e2 z2(ga) b2g2 z2(b^c') | "G"(d'^c')(d'c') "/d"(d'e')(d'c') "Em"b2^a2 b2(ef) |\
+"Em"g2e2 z2(ga) b2g2 z2(b^c') | "G"(d'^c')(d'c') "/d"(d'e')(d'c') "Em"b2z2 z2(bc') |
+"G"d'2d'2 d'2d'2 (d'e')(d'^c') d'2z2 | "Bm/f#"d'2z2 "Em"d'2d'^c' b2z2 "G/d"z2(bc') |\
+"G"d'2d'2 d'2d'2 (d'e')(d'^c') d'2z2 | "Bm/f#"d'2z2 "Em"d'2d'^c' b2z2 z4 |
+"Em"e3^d e2f2 g3f g2a2 | "/e"[b^a]2[b^a]2 "/b"[b^a]2B2 "/b"[gf]2[gf]2 "/b"[gf]2z2 |\
+"Em"e3^d e2f2 g3f g2a2 | [b2e]2[be]2 [b^d]2z2 [=f'e']2[=f'e']2 [=f'e']2z2 |
+"Em"[ba]3[ba] [ba]2[^a^g]2 [b=a]3[ba] [ba]2[ba]2 | "Em"[b^a]2[ba]2 [ba]2z2 [bg]2[be]2 [bg]2z2 |\
+"Em"[ba]3[ba] [ba]2[^a^g]2 [ba]3[ba] [ba]2[ba]2 | [b^a]2[ba]2 [ba]2z2 [bg]2[ee]2 e2z2 |
+"Em"[GE]2z2 "B"[FB,]2z2 "Em"[GE]2 Bc B2 z2 | "Em"[EB,]2z2 "B"[FB,]2z2 "Em"[GB,]2 Bc B2 EF |\
+"Em"[GE]2z2 "B"[FB,]2z2 "Em"[GE]2 bc' b2 ef | "Em"[eB]2z2 "B"[fB]2z2 "Em"[eB]2 [e'a][e'b] [e'a]2 ef |
+"Em"g2g2 g2g2 gagf g2ef | g2g2 gagf e2z2 z2ef |\
+"Em"g2g2 g2g2 gagf g2ef | g2g2 gagf e2e2 e2ga |
+"G"bbbb bbbb b[^c'b]b[ab] bbbb | bbbb d'^c'd'c' b2z2 "/f#"z2ef |\
+"Em"g2g2 g2g2 g2g2 g2gf | g2ga g2f2 | e2z2 z2 |
+"Em"b2^a2 b2c'2 b2z2 z2b2 | b2(b=a) g2f2 e2z2 z2(ef) |\
+"Em"g2z2 "B"f2z2 "Em"g2z2 z4 | "Em"[bB]2([bB][c'c]) "B"[bB]2[^d'^d]2 "Em"[e'e]2z2 z2 |]

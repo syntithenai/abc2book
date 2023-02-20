@@ -1,0 +1,28 @@
+X: 273
+T: Duncan Swine's Wife.   a Strathspey
+C: Old
+O: Communicated by J. Allardyce
+R: reel
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c."
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has final repeat but no initial repeat; not fixed. (Play it either way.)
+M: C
+L: 1/8
+K: Am
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+d |:\
+Tc>A A/A/A G>c Td2 | c<AA>B ~c>de>d | c<AA>c B<G~d2 |\
+[1 c<A(TA2 {^GA}~c)>d {cd}e>d :|[2 c<A(TA2 {^GA}c)>d {cd}e>c |] d>eg>a g<e~d2 |
+d>eg>a Tg>fe<c | d>eg>a g<e~d2 | c<A(TA2 {^GA}~c)>d {cd}e>c ||\
+d>eg>a g<e~d2 | d>eg>a Tg>fec | d<eg<a g<ede | c<e TA>B c>d {cd}e>d :|
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+% = = = = = = = = = =
+z |:A2a2 G2g2 | A2a2 c2g2 | A2a2 G2g2 |[1 A2a2 c3B :|[2 A2f2 e2c2 |] g2e2 c2G2 |
+g2e2 c2c'2 | g2e2 c2B2 | A2f2 e2c2 || g2e2 c2G2 | g2e2 c2c'2 | b2c'2 g2G2 | c2f2 e2cz :|

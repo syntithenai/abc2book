@@ -1,0 +1,39 @@
+X:1
+T:The Mason's Apron
+M:C
+L:1/8
+Q:80
+C:
+S:Reel
+K:HP
+|: {g}c{d}A{e}AB{g}A{d}A{e}AG | \
+{g}A{d}A{e}AB{gcd}c2{g}B{d}A | \
+{g}dB{G}Bc{g}dB{g}cA |
+{g}Bc{g}de{g}f2{g}ed{g}c{d}A{e}AB{g}A{d}A{e}AG | \
+{g}A{d}A{e}AB{gcd}c2{g}B{d}A | \
+{g}dc{g}de{g}fe{g}fa |
+ed{g}cB{g}A2 :: \
+{g}ed | \
+{g}c{d}A{g}eA{g}fA{g}ed |
+{g}c{d}A{g}eA{g}fe{g}dc | \
+{g}dB{G}Bc{g}dB{g}cA | \
+{g}Bc{g}de{g}f2{g}ed{g}c{d}A{g}eA{g}fA{g}ed |
+{g}c{d}A{g}eA{g}fe{g}dc | \
+{g}dc{g}de{g}fe{g}fa | \
+ed{g}cB{g}A2 ::
+B2 | \
+{gcecG}c2ecfcec | \
+{gcecG}c2ecfcec | \
+{gdedG}d2fdgdfd |
+{gdedG}d2fdgdfd{gcecG}c2ecfcec | \
+{gcecG}c2ecfcec | \
+{g}dc{g}de{g}fe{g}fa |
+ed{g}cB{g}A2 :: \
+B2 | \
+{gcecG}c2aAgAfA | \
+{gcecG}c2aAgAfA |
+{gdedG}d2aAgAfd | \
+{g}AdaAgAfA{gcecG}c2aAgAfA | \
+{gcecG}c2aAgAfA |
+{g}dc{g}de{g}fe{g}fa | \
+ed{g}cB{g}A2 :|

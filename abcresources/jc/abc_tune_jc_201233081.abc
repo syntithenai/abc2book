@@ -1,0 +1,31 @@
+X: 183
+T: Oxford Act
+T: Longways for &c.
+%R: march
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.92
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2D2 d2cB | A2GF G2A2 | B2G2 A2GF | E4 D4 |\
+d2D2 d2cd | e2dc B2cd | e2dc B2AB | B4 A4 :|
+|:\
+c4 c2A2 | B2c2 d3F | G2E2 F2B2 | c4 B4 |\
+d4 F2D2 | A2F2 G3A | A2G2 A2de | e4 d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st and 2d Man turn each a round and a half
+%% and then back to back .| then turn as before, and
+%% sides and back to back :| the Men being improper,
+%% the 1st Cu. go right and left with the 2d Cu.
+%% half round, all dance and turn single .| the 1st Cu.
+%% lead thro' the 3d Cu and cast up and turn partners
+%% quite round
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

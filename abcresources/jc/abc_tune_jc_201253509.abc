@@ -1,0 +1,28 @@
+X: 1
+T: Bleinheim Pound
+%R: march, reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (87)
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+d2A2 d2e2 | f2gf e2ag | fed2 f2g2 | a6 :|\
+|: fg |\
+agfg a2b2 | c'2 g4 dc |
+BAGA B2c2 | A2 F4 cB |\
+ABc2 Bcd2 | cde2 A2a2 | f2ed e2^c2 | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1st Man turn the 2d Wo. once round .| the 1st Wo.
+%% turns the 2d Man once round :| Then cross over and lead
+%% up all four abreast, the 1st Cu. being between the 2d
+%% Cu. Then the 1st Cu. cast off and right and left quite
+%% round :|
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,16 @@
+X:131
+T:Ivan na Dena Dumashe
+M:6/8
+L:1/8
+S:Last 8 bars of A part: some repeat first 8 bars instead.
+K:C
+"A"e2(A A2)e|"Dm"A^cd d2c|"Gm"de^c c_BG|"A"A2A eAe|
+"A"Ade e2d|"Dm"A^cd d2c|"Gm"de^c c_BG|"A"A z2 [A^c][_Bd][ce]|
+"A"g2(^c c2)g|"Dm"^cef f2e|"Gm"fge ed_B|"A"^c2c gcg|
+"A"^cfg g2f|"Dm"^cef f2e|"Gm"fge ed_B|"A"^c2A c3:||
+L:1/8
+M:2/4
+|:"Dm"[d2f2][d2f2]|[d2f2] [eg][fa]|[fa][eg] [df][eg]|"A"[^ce][_Bd] [A^c]
+[GB]|
+"Gm"[_B2d2] [B2d2]|[G_B] [d3/2f3/2]|"A"[^ce][_Bd] [A2c2]|[A^c][_Bd] [c2e
+2]:|

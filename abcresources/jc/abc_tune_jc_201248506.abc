@@ -1,0 +1,19 @@
+X: 1
+T: Auld Lang Syne (Song)
+C: words: Robert Burns
+O: music: trad.
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/4
+K: F
+"G7"G \
+| "C"c>B "Am7"ce | "Dm"d>c "G7"d(e/d/) | "C"c>c "C7"e"(G)"g | "F"a3 "G9"a |
+w: Should auld ac-quain-tance be for-got, and_ ne-ver brought to mind? Should
+w: And here's a hand, my trus-ty friend, and_ gie's a hand o' thine; We'll
+| "C"g>e "Am7"ec | "G7"d>c "E7"d(e/d/) | "Am"c>A "G7/D"AG | "C"c3 "G9"a |
+w: auld ac-quain-tance be for-got, and_ days of auld lang syne? For
+w: tak' a right guid wil-lie-waugh for_ auld_ lang_ syne. For
+| "C"(g>e) "Am"(ec) | "Dm"d>c "G9"da | "C"(g>e) "C7"(eg) | "F"a3 "G9"a |
+w: auld_ lang_ syne, my dear, for auld_ lang_ syne, We'll
+| "C"g>e "Am"ec | "G7"d>c "E7"d(e/d/) | "Am"(c>A) "G7"(AG) | "C"c3 |]
+w: tak' a cup o' kind-ness yet, for_ auld_ lang_ syne.

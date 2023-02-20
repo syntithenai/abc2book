@@ -1,0 +1,30 @@
+X: 10021
+T: a CHRIODHALACHD; OR "THE MERRY MAKING."
+R: Reel.
+%R: reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.2 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: There are 2-bar "alternate" bars without any repeat symbols in the 2nd strain.
+N: This may represent an 8-bar repeated strain, with bars 3,4 varied, making a 32-bar tune.
+M: C|
+L: 1/8
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B |\
+(A/B/c) Tc>B Acfc | (A/B/c) cd _eGGB |\
+(A/B/c) TcB Acfc | (=e/f/g) g>e f2f :: b |\
+affg {fg}Ta>gfe |
+egfg ecc[1b |\
+affg {fg}a>gfc | dbge f2f |][2 f/g/ |\
+afge fdcB | Afge f2f |] c |\
+(A/B/c) cf dBBd |
+(A/B/c) cf fcac |\
+(A/B/c) cf dBBd | cbge f2f :| g |\
+bggb affa | gece cega |
+bgbg afaf | ecfe f2fg |\
+bggb affa | gece fdcB |\
+AfBf cfdf | (e/f/g) ge f2f |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

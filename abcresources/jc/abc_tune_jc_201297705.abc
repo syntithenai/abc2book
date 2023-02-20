@@ -1,0 +1,32 @@
+X: 1
+T: Koftos  [Em]
+O: Greece
+%level: 1
+Z: John Chambers <jc@trillian.mit.edu>, from a 1983 transcription by Bill Possi
+N: On recording, guitar plays melody an octave down and has solo on endings.
+D:
+B:
+M: C
+L: 1/8
+%Q: 3/8 1/8 2/8 2/8
+%%staffsep 45pt
+K: Em
+A,^CD \
+|: "Em"E2 ED FG AG \
+| A2 GF EA,^CD \
+| E3 D "D7"FG AF \
+| "G"G>D B,D GA,^CD \
+| "Em"E3 D FG AG \
+| A2 GF E2 zE |
+| "Em"G>F EG "D"FE DF \
+|1 "Em"Ez ^C2 D2 ^D2 \
+:|2 "Em"Ez E2 _E2 "D7"D2 \
+|: "G"B2 BA Bc de \
+| d>c BA GF ED \
+| B2- BA Bc de |
+| "G"d>c BA G2 "D7"z(D \
+| "G"B2) BA Bc de \
+| d>c BA GF ED \
+| "Em"GF EG "D"FE DF \
+|1 "Em"Ez E2 _E2 D2 \
+:|2 "Em"HEz ^C2 D2 ^D2 |]

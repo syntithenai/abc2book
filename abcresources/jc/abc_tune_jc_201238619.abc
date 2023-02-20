@@ -1,0 +1,34 @@
+X: 31033
+T: COTILLION No. 13. ST. LAWRENCE SETT tune 6
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.103 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+G2Bd g2f2 | e2c2c2 Bc | dcBA GABG | AGFE D3 D |\
+G2Bd g2f2 | e2c2c2 Bc | cBec d2F2 | G4 G2 H|]
+FG |\
+AGFE DEFG | BGdB g2AB | cBAB cAag | f2d2d2 cB |\
+c2c2A2A2 | dedc B2AB | A2a2a2g2 | f2d2"^D.C."d2 |]
+B,2 |\
+E2E2G2G2 | F2F2 B4 | A2G2F2E2 | ^DEF=D B,2B,2 |\
+G2G2F2F2 | E2E2 e4 | dcBA G2F2 | E6 "^D.C."y|]
+D2 |\
+G2Bd g2f2 | e2c2c2 Bc | dcBA GABG | AGFE D3 D |\
+G2Bd g2f2 | e2c2c2 Bc | cBec d2F2 | G4 G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance.
+%% Next 2 forward, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

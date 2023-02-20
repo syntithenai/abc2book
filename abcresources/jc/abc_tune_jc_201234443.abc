@@ -1,0 +1,21 @@
+X: 20515
+T: ON YONDER STILE
+Q: "Moderate"
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.51 #5
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 6/8
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d !segno!|\
+d2B B2d | c2A A2c | B2d dcB | B3 {cB}A2d |\
+d2B B2d | c2A A2c | B>cd cBA | G3 G2 H:|
+|: B |\
+B2d d2B | A2c Hc2A | B2d d2B | ABc B2A |\
+B2d d2B | A2c c2A | Bdg fef | gdc "^D.C. al segno"Bde |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

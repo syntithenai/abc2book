@@ -1,0 +1,20 @@
+X: 10036
+T: GARTH'S MARCH
+C: Bob McQuillen 13 April 93
+B: Bob's Note Book 10 #36
+%R: march, polka
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: Bar 7 is missing a beat; fixed by changing the last two notes from 8th to quarter notes.
+M: C
+L: 1/8
+K: Am
+|:"Am"A2d2 "Dm"d2cd | "Am"e2d2 c4 | AGAc "Dm"d2ed | "Am"cecA "Em"G2EG |\
+| "Am"A2d2 "Dm"d2cd | "Am"eged c4 | A2dc "Em"B2A2 | "Am"A4 :|
+|:"Am"e2g2 "G"g2eg | "Am"agec "Dm"d4 | "Am"c2Ac "Dm"d2ed | "Am"cAce "Em"g4 |\
+| "Am"e2g2 "G"g2eg | "Am"agec "Dm"d2ed |1 "Am"c2Ac "Em"BA G2 | "Am"A4 :|2 "Am"c2Ac "G"BGAB | "Am"c2A2 A4 |]
+%%begintext align
+%% Garth Tichy (pro. Ticky,
+%% by the way) is Erin's little brother, and since I'd written
+%% a tune for her, I didn't want to leave him out - and
+%% besides that, he's kind of a nice kid, too, so what the
+%%endtext

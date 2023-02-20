@@ -1,0 +1,70 @@
+
+X: 1
+T: Serberijanozka 1 [Dm]
+C:
+R: polka
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Dm
+"A"\
+|:\
+"Gm"c2B2 BABc | "Dm"B2A2 A^GAB | "A7"A2G2 G^FGA | "Dm"G2F2 F4 |\
+"Gm"F2E2 D2F2 | "Dm"E2 D4 D2 | "A7"D2^C2 =B,2C2 | "Dm"D4 D4 ||
+"B"||\
+"Gm"G4 B4 | "Dm"A4 [B4D4] | "A7"^C4 E4 | "Dm"D4 E2F2 |\
+"Gm"G4 B4 | "Dm"A4 d4 | "A7"d2^c2 =B2c2 | "Dm"d4 d4 :|
+
+%%sep 1 1 500
+
+X: 2
+T: Serberijanozka 2 [Dm]
+R: polka
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: Unknown recording
+M: 2/4
+L: 1/16
+K: Dm
+"A"\
+|:\
+"Gm"c2B2 c2B2 | "Dm"BA^GA B2A2 | "A7"A2G2 A2G2 | "Dm"GFEF G2F2 |\
+"Gm"F2E2 F2E2 | "Dm"ED^CD E2D2 | "A7"D2^C2 =B,2C2 | "Dm"D2D2 E2F2 ||
+"B"||\
+"Gm"G4 B4 | "Dm"A4 F4  | "A7"A2G2 F2E2  | "Dm"D4 F4 "I"|\
+"Gm"G4 B4 | "Dm"A4 F4 | "A7"A2A2 =B2^c2 | "Dm"d6 z2 :|
+
+%%sep 1 1 500
+
+X: 3
+T: Serberijanozka 1 [Am]
+C:
+R: polka
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Am
+"A"\
+|:\
+"Dm"g2f2 fefg | "Am"f2e2 e^def | "E7"e2d2 d^cde | "Am"d2c2 c4 |\
+"Dm"c2B2 A2c2 | "Am"B2 A4 A2 | "E7"A2^G2 ^F2G2 | "Am"A4 A4 ||
+"B"||\
+"Dm"d4 f4 | "Am"e4 [f4A4] | "E7"^G4 B4 | "Am"A4 B2c2 |\
+"Dm"d4 f4 | "Am"e4 a4 | "E7"a2^g2 =f2g2 | "Am"a4 a4 :|
+
+%%sep 1 1 500
+
+X: 4
+T: Serberijanozka 2 [Am]
+R: polka
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: Unknown recording
+M: 2/4
+L: 1/16
+K: Am
+"A"\
+|:\
+"Dm"g2f2 g2f2 | "Am"fe^de f2e2 | "E7"e2d2 e2d2 | "Am"dcBc d2c2 |\
+"Dm"c2B2 c2B2 | "Am"BA^GA B2A2 | "E7"A2^G2 ^F2G2 | "Am"A2A2 B2c2 ||
+"B"||\
+"Dm"d4 f4 | "Am"e4 c4  | "E7"e2d2 c2B2  | "Am"A4 c4 "I"|\
+"Dm"d4 f4 | "Am"e4 c4 | "E7"e2e2 ^f2^g2 | "Am"a6 z2 :|

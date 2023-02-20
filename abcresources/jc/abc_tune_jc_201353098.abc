@@ -1,0 +1,16 @@
+X: 737
+T: the Wind that Shakes the Barley
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #737
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0737/oneill-1001-0737-1.abc
+M: C|
+L: 1/8
+K: D
+"^A"[|]\
+|  B | A2AB AFED | B2BA BcdB | A2AB AFED | gfed Bcd ||
+|| B | A2AB AFED | B2BA BcdB | A2AB AFED | gfed B2d |]
+"^B"\
+[| e |  f2fd g2ge | f2fd Bcde | f2fd g2fg | afed Bcd ||
+|| e | f2fd g2ge | f2fd Bcde | fafd gbge | afed Bcd "_D.C." |]

@@ -1,0 +1,28 @@
+X: 1
+T: The Saint Kilda Wedding
+R: strathspey
+B: Fraser p.3 #7; Skye p.52; BSFC III-33
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+|: "A"~A2 A2 A>c e>c | "D"~B2 c>A "A7"F2 EF | "A"~A2 A2 "F#m"A>c e>c |1 "D"~f2 f>e "E7"f>e f<a :|2 "D"~f2 a>g "E7"f>e fg ||
+[| "A"a>g a>b a<e e>a | "D"f>g a>g "Bm"f2 "E7"ed | "A"ce fg "F#m"a>g f<a | "A"e<a c<a "E7"B2 AF |
+[| "A"A<a a>g a<e e>a | "D"f>g a>g "Bm"f2 "E7"ed | "A"ce fg "F#m"a>g f<a | "A"e<c a>c "E7"B2 AF |]
+
+X: 2
+T: The Saint Kilda Wedding
+R: reel
+B: Hunter #251; Kerr's 2nd p.7 #34 (reel but in index as strathspey);
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+|: "A"~A2A2 Acec | "D"~B2cA "A7"F2 EF | "A"~A2 A2 "F#m"Acec |1 "D"~f2fe "E7"fefa :|2 "D"~f2ag "E7"fefg ||
+[| "A"~a2ab aeea | "D"fgag "E7"f2ed | "A"cefg "F#m"agfa | "A"eaca "E7"B2AF |
+[| "A"Aaag aeea | "D"fgag "E7"f2ed | "A"cefg "F#m"agfa | "A"ecac "E7"B2AF |]
+
+X: 3
+%%wordsfont Times-Roman 10
+W: Transcribed by John Chambers <jc@trillian.mit.edu>
+K: C

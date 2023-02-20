@@ -1,0 +1,18 @@
+X: 28
+T: Lary Grogan     Irish.
+%R: jig
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.11 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Usually in G.
+N: The first strain's ending bar lines and the pickup to the 2nd strain are obscured/missing; fixed from other sources.
+N: This may have been intended as a 16-bar tune, notated with just a final repeat sign but none between the strains.
+M: 6/8
+L: 1/8
+K: D
+a/g/ |\
+fdf fdf | ece ece | f/g/af gec | ddd d2 a/g/ |\
+fdf fdf | ece efg | f/g/af gec | ddd d3  :|
+|: a/b/ |\
+=c'3 bag | fga afd | d=c'c' b^c'd' eee e3 |\
+=c'3 bag | fga afd | f/g/af gec | ddd d3  :|

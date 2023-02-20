@@ -1,0 +1,29 @@
+X: 1
+T: Manage the Miser
+%R: minuet
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (151)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+N: In bar 12, the f is ambiguous, and could be a 2nd e.
+M: 3/2
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+f4 c4 d4 | c2 A4 c2 G2F2 | f4 d4 g4 | a2f2 d2g2 e2c2 |\
+f4 c4 d4 | c2 A4 d2 =B2d2 | G2g2 agfe fedc | =Bcd2 G2=B2 c4 :|
+|:\
+g4 e4 g4 | c2 f4 g2 a4 | bagf efg2 ^cde2 | A2a2 efga e2c2 |\
+b4 d4 e4 | agfe defg e2c2 | f2c2 cd_e2 d=ef2 | efg2 c2e2 f4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man cast off the 2d Wo. cast up the [sic] go the Figure
+%% of eight thro the other two .| The 2d Man cast off the
+%% 1st Wo. cast up and go the Figure as before :| Then all
+%% four Hands across and back again then right and left .|
+%% Then lead thro the 3d Cu. and thro the 2d Cu. and turn
+%% your Partner :|
+%%endtext
+%%sep 1 8 500

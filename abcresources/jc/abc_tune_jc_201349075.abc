@@ -1,0 +1,34 @@
+
+X: 1
+T: Varshaver Freylekhs   [Dm]
+T: Warsaw Freylach
+M: 2/4
+L: 1/8
+B: Henry Sapoznik "The Compleat Klezmer" 1987
+K: =F^G
+|: "Dm"A, D2 F | AD "Gm"_BD | "Dm"AD "Ddim"GD | "Dm"(3FED A2 |\
+[1 A,D2F | GA Bc | (3Bcd (3cBA | AGF "A7"A2 :|\
+[2 "A7"A,B, ^CD | EF GA | (3AGF (3FED | "Dm"D4 :|
+|: "Dm"B/d/ c2 B | d2 (3cBA | G/B/ A2 G | (3AGF (3FED |\
+[1 "Dm"B/d/ c2 B | d2 (3cBA | G/B/ A3 | d4 :|\
+[2 "A7"A,B, ^CD | EF GA | (3AGF (3FED | "Dm"D4 :| [K:Dmix]
+|: "D"D F2 A | GF A2 | A>B (3cBA | GF A2 \
+|  "D"D F2 A | GF A2 | "A7"E>F (3GFE | "D"D4 :|
+
+
+X: 2
+T: Varshaver Freylekhs
+T: Warsaw Freylach
+M: 2/4
+L: 1/8
+B: Henry Sapoznik "The Compleat Klezmer" 1987
+K: ^F^A^c
+|: "Em"B, E2 G | BE "Am"=cE | "Em"BE "Edim"AE | "Em"(3GFE B2 |\
+[1 B,E2G | AB cd | (3cde (3dcB | BAG "B7"B2 :|\
+[2 "B7"B,C ^DE | FG AB | (3BAG (3GFE | "Em"E4 :|
+[| "Em"c/e/ d2 c | e2 (3dcB | A/c/ B2 A | (3BAG (3GFE |\
+[1 "Em"c/e/ d2 c | e2 (3dcB | A/c/ B3 | e4 :|\
+[2 "B7"B,C ^DE | FG AB | (3BAG (3GFE | "Em"E4 :| [K:Emix]
+|: "E"E G2 B | AG B2 | B>c (3dcB | AG B2 \
+| E G2 B | AG B2 | "B7"F>G (3AGF | "E"E4 :|
+

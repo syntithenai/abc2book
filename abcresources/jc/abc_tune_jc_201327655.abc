@@ -1,0 +1,45 @@
+
+X: 1
+T: Aim\'e Gagnon
+M: C|
+L: 1/8
+R: reel
+K:G
+DC | "G"B,DGA B2DC | B,DGA "G#dim"B2AG | "Am7"FGAB cAFA | "D"GABc "D7"d2DC |
+"G"B,DGA B2DC | B,DGA "G#dim"B2AG | "Am7"FGAB cAFA | "D7"GBAF "G"G2 :|
+|: Bd | "G"gddg ddgd | Bcde "G#dim"dBAG | "Am7"FGAB cAFA | "D"GABc "D7"d2Bd |
+"G"gddg ddgd | Bcde "G#dim"dBAG |["cont" "Am7"FGAB cAFA | "D7"GBAF "G"G2 :|
+|["Trans""Am7"FGAB "D7"cAFA | "G".G2z2z2AG |
+
+%%sep 1 1 500
+
+X: 1
+T: Woodridge Breakdown
+C: Andy de Jarlis
+R: reel
+S: printed page of unknown origin, RJ rehearsal 201806011
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+|:\
+"A"EGAB cAA2 | efed c2A2 | "G"EF=GA BGG2 | Bdde dBcA |
+"A"EGAB cAA2 | efed c2ef | "G"=gefd efed | "A"c2"E7"BG "A"A4 :|
+|:\
+"A"ea2a abaf | ea2a abaf | "Em"edef =g2gf | "G"=gedB =GABd |
+"A"e2a2 abaf | ea2a a2ef | "G"=gefd efed | "A"c2"E7"BG "A"A4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Caribou
+R:reel
+O:1958
+M:C|
+K:Edor
+|:\
+"Em"B2ED EFGA | B2ED EFGE | "D"D2FD DADD | BDDA DDFD |
+"Em"E2ED EFGA | Bdef g2fg | "C"afge "D"efec |1 "D"dBAF "Em"EdcA :|2 "D"dBAF "Em"E4 |]
+ |:\
+"Em"Be2B efed | Bdef edBd | "D"Ad2A d3e | fedf edBA |
+"Em"Be2B efed | Bdef g2fg | "C"afge "D"efec | dBAF "Em"E4 :|

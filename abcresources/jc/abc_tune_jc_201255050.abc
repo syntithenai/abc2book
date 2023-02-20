@@ -1,0 +1,735 @@
+
+X: 4600
+T: Scottish Country Dances
+T: RSCDS Book 46
+B: RSCDS Book 46
+K:
+%%center Book46/4600-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4601
+T: Christine M Phillips
+C: Marian Anderson
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 46-1
+M: 6/8
+L: 1/8
+K: D
+|: A/G/ |\
+"D"FED "F#/D"DEF | "Em"GAB "A"cfe | "D"d>AA "F#/D"AfA | "Em"BgB "A7"cAG |
+"D"F2D "Bm"DEF | "Em"G2B "A7"cAe | "D"^efA "G"Bdd | "A7"cec "D"d2 :|
+|: d/e/ |\
+"D"^eff "A/D"fdA | "G"^ABB "Em"Bcd | "A"cEF "C#/A7"GFE | "D"^EFB "A7"A2E |
+"D"^EFF "F#m"FGA | "G"G2B "G#/E7"edB | "A"=c2^c "C#/A7"fec | "D"d3 "D"d2 :|
+%%center Book46/4601-ChristineMPhillips-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4602
+T: Mary and Lloyd Augustus
+C: Bobby Frew
+R: strathspey
+B: RSCDS 46-2 p.5
+N: Recommended tune for The Gardeners' Fantasia
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|: A,2 \
+| "D"D2 D>E "A/D"F>E D>E | "D"F<A d>e "D"f>e "F#/D"d>c \
+| "G"B>c d>B "F#/D"A<d "Bm"F>D | "Em"(3EFG (3FED "A7"(3CDE (3A,B,C |
+| "D"D2 D>E "A/D"F>E D>E | "F#/D"F<A d>e "Bm"f>e d>c \
+| "G"B>c d>B "F#/D"A<d "Bm"F>D | "Em"(3EFG "A7"F>E "D"D2"A7"A2 ||
+| "D"f2 f>e "F#/D"d>A A<d | "G"B>c d>B "F#m"B>A F<A \
+| "Bm"f2 f>e "G"d>B "F#m"A>B | "Bm"d>B "F#m"A<F "A7"E2A,2 |
+| "D"D2 D>E "F#/D"F>A d>e | "Bm"f2 e>d "G"B<d "B7"A>F \
+| "Em"G>A B>G "F#/D"A<d "Bm"F>D | "Em"(3EFG "C#/A7"F>E "D"D2 |]
+%%center Book46/4602-MaryAndLloydAugustus-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 03
+T: Scott Meikle
+C: George Meikle
+R: reel
+B: RSCDS 46-3 p.7
+N: George has published a slightly different version in his book "Originally Mine".
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+AG \
+|:"F"FAcd "C7"cAGA | "F"FAcd "C7"cAGA | "F"FAcd "F"cB"F#dim"Ac | "Gm"B2G2 "D/Gm"G3c |
+| "C"ecfc "E/C"gcfc | "C"ecgc "G/C"fcec | "C"ecdc "G/C7"dcde |1 "A/F"f2e2 "Gm"d2"C"c2 :|2 "F"f4 f2c2 |
+|:"F"fcgc "C7"acgc | "F"fcac "A/F"gcfc | "A/F"fcgc "F"acgc | "C7"e2c2 "E/C7"c3c |
+| "C"ecfc "E/C"gcfc | "C7"ecfc "Gm"gc"C"fc | "C"ecdc "G/C7"dcde |1 "A/F"f2e2 "Gm"d2"C"c2 :|2 "F"f4 f2 |]
+%%center Book46/4603-ScottMeikle-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Barbara's Strathspey
+C: Mady Newfield
+R: strathspey
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 46-4 p.9
+M: C
+L: 1/16
+K: F
+D3E \
+|:"Dm"F3E F3d "F"c3A F3A | "C"G3E C3E "E/C"G4 A3G \
+| "D/Bb"F3G F3D "Gm"GF3 ED3 | "A"A4 A,4 "C#/A"[A4E4] "Dm"[F3D4]G |
+| "F"A3F A,3A "C"G4 "Am"A3E | "Dm"F3G A3F "Gm"B4 A3G \
+| "A/F"A3F c3A "C"G4 E3C | "Bb"DF3 "C7"F3G "F"F4 F3G |
+| "F"A3F C3A "C"[G4E4] "C#/A"A3E | "Dm"F3D A,3F "C#/A"[E4A,4] "Dm"[F3A,4]E \
+| "Bb"DF3 F3D "A/F"C3F Ac3 | "Gm"c3B A3B "C7"G4 F3G |
+| "F"A3F c3A "E/C"G4 F3E | "Dm"F3E D3G "Bb"F4 E3D \
+| "A/F"C3A c3A "C"G4 "Am"E3C |1 "Gm"[DB,4]F3 "C7"[F3B,4]G "F"[F4A,4] "A7"DE :|2 "Gm"[DB,4]F3 "C7"[FB,4]3G "F"[F4A,4] |]
+%%center Book46/4604-BarbarasStrathspey-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 05
+T: Catherine Margaret Hall
+C: Jimmy Ritchie
+R: reel
+B: RSCDS 46-5 p.11
+N: Recommended tune for The Missing Turn
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: A
+e2 |\
+"A"c4 "E7"cdcB | "C#/A"A2c2 "A"E2cd | "A"e3e "E7"fec2 | "A"e4 "C#m"e2fg |\
+"F#m"a3f "E"g3e | "D/Bm"f2e2 "C#/A"c2A2 | "B/E"B2e2 "F#/B7"^d2f2 | "G#/E"e2d2 "E7"c2B2 |
+"A"c4 "E7"cdcB | "C#/A"A2c2 "A"E2cd | "A"e3e "E7"fec2 | "A"e4 "C#m"e2fg |\
+"F#m"a3f "C#m"g3e | "D"fgfe "A"c2A2 | "Bm"B3A "E7"F2E2 | "A"A4- "A"A2"C#7"c2 ||
+"F#m"f3f "C#/F#m"f2c2 | "F#m"a2g2 "C#/F#m"f2c2 | "F#m"f3g "C#m"a2g2 | "A/F#m"f4- "B7"f2gf |\
+"E"e3e "G#/E"e2Be | "B7"g2f2 "E"efga | "F#m"b2a2 "B7"g2f2 | "E"e2d2 "G#/E7"c2B2 |
+"A"c4 "E7"cdcB | "A"A2c2 "C#/A"E2cd | "A"e3e "E7"fec2 | "A"e4 "C#m"e2fg |\
+"F#m"a3f "C#m"g3e | "D"fgfe "F#m"c2A2 | "Bm"B3A "E7"F2E2 | "A"A4- "A"A2 |]
+%%center Book46/4605-CatherineMargaretHall-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Bonnie Glenfarclas
+C: Frank Thomson
+R: strathspey
+B: RSCDS 46-6 p.13
+N: Recommended tune for The Bonnie Tree
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+|: c2 \
+| "F"f2 c>A "A/F"F2 G>A | "Gm"B>A B>G "C7"E<C E<G \
+| "F"F2 A>c "Dm"f>g a>f | "B/G"d<g g>f "C7"ec de |
+| "F"f2 "Am"c>A "Dm"F2 G>A | "Gm"B>A B>G "C7"E<C D>E \
+| "A/F"F2 A>c "Dm"f>g a>f | "Bb/Gm"d>g "C7"e<c "F"f2 f>g |
+| "Dm"a>g a<f "C/Am"e2 a>e | "Bb"d2 f>d "A/F7"c>A F<A \
+| "Gm"B>c d>B "Am"A<c "Dm"e>f | "G7"d<g g>f "C"e<c f>g |
+| "Dm"a>g a<f "A7"e2 a>e | "Bb"d2 "Bdim"f>d "C/F"c>A "Dm"F<A \
+| "Gm"B>c d>B "Am"A<c "Dm"f<a | "Gm"d>g "C7"e<c "F"f2 :|
+%%center Book46/4606-BonnieGlenfarclas2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 07
+T: Miss Barbara Hay's Favourite
+C: Robert Mackintosh
+N: Robert Mackintosh's birthday seems to be unknown; he died in London in 1807.
+R: jig
+B: RSCDS 46-7 p.15
+N: Recommended tune for Best Set in the Hall
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D |\
+"G"G3 "D/G"gfg | "B/G"d3 "G"GAB | "Am"c2B "C#/A7"A2G | "D"FEF "F#/D"D3 |\
+"G"G3 "D/G"gfg | "G"d3 "E/A7"gab | "F#/D"agf "C#/A"ed^c | "D"d3 "F#/D"D3 ||
+"G"B/c/dB "B/G"gdB | "Am"c2a- "F#/D"acA | "G"B/c/dB "Em"G/A/BG | "C#/A"EFG "D"AFD |\
+"G"B/c/dB "B/G"gdB | "C/Am"c2a- "Am"acA | "D/G"Bcd "F#/D7"cBA | "G"G3 "G"G2"D7"d/c/ ||
+"G"Bcd "C/Am"ecB | "D"ABc "Bm"dBA | "Em"GAB "C"EFG | "C#/A"ABG "D"FED |\
+"G"Bgd "C/Am"ecB | "D"ABc "B/G"dBG | "C/Am"EcB "D7"AGF | "G"G3 "G"G2"D7"c ||
+"G"Bcd "C/Am"ecB | "D"ABc "Bm"dBA | "Em"GAB "C"EFG | "C#/A"AGF "D7"EFD |\
+"B/G"GFG "A/D"AGA | "G"BAB "C/Am"cde | "D/G"dBG "D7"AFD | "G"G3 G,2 |]
+%%center Book46/4607-MissBarbaraHaysFavourite-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 08
+T: MacPhail's Magic
+C: Colin Dewar
+B: RSCDS 46-8 p.17
+R: reel
+N: Recommended tune for High Society
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+P: Play AABBA
+K: F
+C/D/E |\
+"F"F2F2 "C/F"^GAFD | "F"CDFG "Dm"A2GF | "Gm"G2GA "D/Gm"BABc | "Bb/Gm"dcBA "C7"GFEC |
+"F"F2FG "C7"^GAFD | "A/F"CDFG "F#dim"AcBA | "Gm"d/c/B AF "C7"GFED | "F"C2F2 F2 :|
+|: "A/F7"F_E |\
+"Bb"D2F2 "Gm"defd | "Am"e2c2 "F#dim"_e2dc | "Gm"d2B2 "E/C7"d2cB |
+[1 "F"AB=Bc "A/F7"dcAF | "Bb"D2F2 "Gm"defd | "Am"e2c2 "F#dim"_e2dc | "Gm"d/c/B AF "C7"GFED | "F"C2F2 F2 :|
+[2 "F"AfcA "C7"dBGE | "F"F2FG "C/F"^GAFD | "F"CDFG "D7"AcBA | "Gm"d/c/B AF "C7"GFED | "F"C2F2 F2 !d.C.!|]
+%%center Book46/4608-MacPhailsMagic-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 09
+T: The Minister of Birse
+R: strathspey
+B: RSCDS 46-9 p.19
+N: Recommended tune for The Flower of Glasgow
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A, |\
+"D"D2 F<A "G"B,2 "A7"C>A, | "D"D2 F>A "F#/D"d>A F>D |\
+"Em"G<B "F#/D"F<A "G/Em"E>F G<E | "Bm"D<d "F#m"A>F "A7"A2 AA, |
+"D"D2 F<A "G"B,2 "A7"C>A, | "D"D2 F>A "F#/D"d>A F>D |\
+"G"G<B "B7"F<A "Em"E>F G<E | "F#/D"D<d A>F "A7"A2 (3ABc |]
+"D"d>e f>d "F#/D"A<F D>F | "Em"E<e e>d "A7"cA Bc |\
+"D"d>e f>d "F#/D"A<F D>F | "E/A"E<A "E7"A>^G "A"A2 (3ABc |
+"Bm"d>e f>d "F#/D"A<F D>F | "G"G<g "Em"g>f "A"e>A B>c |\
+"Bm"d<f "G"B<d "D"A>B A<F | "Em"E>D "A7"E<F "D"D2 D |]
+%%center Book46/4609-MinisterOfBirse-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10
+T: The Craigellachie Lasses
+C: William Marshall
+R: jig
+B: RSCDS 46-10 p.21
+N: Recommended tune for Links with St Petersburg
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A |\
+"D"d2d "G"dcB | "A7"ABG "D"FED | "Bm"d2d "A/Bm"dcd | "G#/E"efd "A7"cBA |\
+"D"d2d "G"dcB | "A"ABG "Bm"FED | "C#/A"ECA, "A"A,B,C | "D"D3 D2 :|
+"A7"f/g/ |\
+"D"afd "Bm"def | "E/A"gec "C#A"Ace | "D"fdA "Em"GBe | "C#/A"ecA "D"FGA |\
+"Em"BGE "C#/A"EFG | "D"AFD "F#/D"DFA | "C#/A"ECA, "A"A,B,C | "D"D3 D2 ||
+"A7"f/g/ |\
+"D"afd "F#/D"afd | "C#/A"gec "A"gec | "D"fdA "A/D"fdA | "C#/A"ecA "A"ecA |\
+"G"BGB "G#dim"dcB | "A/D"AFA "Bm"Bcd | "Em"Bgf "A7"edc | "D"d3 D2 |]
+%%center Book46/4610-CraigellachieLasses-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11
+T: Peggy Spouse MBE
+C: Marian Anderson
+R: strathspey
+B: RSCDS 46-11 p.23
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+A,2 |\
+"D"D2 "A7"(3EDC "F#/D"D>F d>c | "G"B>A G>B, "A"C<E E2 |\
+"F#m"F<A A>B "Bm"FE "D"D>A, | "Em"B,<G G>A "A7"E2 F>E |
+"D"D2 "C#/A"(3EFG "D"A>B "F#/D"d>c | "G"B>A G>B, "A7"C<E E2 |\
+"F#m"F<A (3ABc "A#/F#7"f>e "Bm"d>D | "Em"E>D "A7"E<F "D"D2 dc ||
+"Bm"B2 B>d "A"c>E "F#/D"d>c | "G"B>c B>D "A7"C<E E2 |\
+"F#/D"A<d d<e "Bm"f<d d<f | "Em"g>f e<B "A"c2 "F#/D"d>c |
+"G"B2 B>d "A"c<E "Bm"d>c | "G"B>c d>D "A"C<E E2 |\
+"D"A,<D D>F "G/Em"G>F E>D | "Em"(3B,CD "A7"E>C "D"D2 :|
+%%center Book46/4611-PeggySpouseMBE-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 12
+T: The Turn of the Tide
+C: Ian Hardie
+R: jig
+B: RSCDS 46-12 p.25
+N: Recommended tune for The Zoologist
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gm
+d |\
+"Gm"dDG "Bb/Gm"dcB | "Dm"ADD "F"FDC | "Gm"DGG "Dm"DAA | "Bb"DBB "A/F"cAF |\
+"Gm"dDG "C7"dcB | "Dm"ADD "A/F"FDC | "Gm"DGD "D/Gm"ADB | "F"cAF "Gm"G2 :|
+d |\
+"Gm"ggg "Bb/Gm"gdB | "A/F"fff "F"fcA | "Bb"ddd "A/F"ccc | "Gm"BBB "Dm"AFD |\
+"Gm"ggg "Bb/Gm"gdB | "A/F"fff "F"fcA | "Bb"ddd "Cm"ccc | "Dm"BAF "Gm"G2 ||
+"d7"d |\
+"Gm"ggg "D/Gm"gdB | "F"fff "A/F"fcA | "Bb"d/d/dd "F#dim"c/c/cc | "Gm"B/B/BB "Dm"AFD |\
+"Gm"dDG "Bb/Gm"dcB | "Dm"ADD "F"FDC | "Gm"DGD "D/Gm"ADB | "F"cAF "Gm"G2 |]
+
+%%center Book46/4612-TurnOfTheTide-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 13
+T: Snouts and Ears
+O: Trad.
+R: reel
+B: RSCDS 46-13 p.29
+N: Recommended tune for The President's Quadrille
+N: This is for parts 1 and 5 of the dance.  The instructions say to use any good 32-bar reels for parts 2-4.
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+P: Introduction
+B2 |\
+"A"c2A2 "E7"A3B | "C#m"c2e2 "A#/F#7"e2fe | "Bm"d2B2 "F#m"B3c | "Bm"d2a2 "E7"afed |
+"A"c2A2 "C#/A"A3B | "A"c2e2 "F#7"e2fe | "Bm"d2B2 "E7"afed | "A"c2"D"A2 "A"A2e2 ||
+P: Figures 1 and 5
+"A"a2A2 "E7"A3B | "A"c2e2 "C#/A"a2"Cdim"ba | "B/E"g2e2 "E7"efga | "G#/E"b2e2 "E"e2"C#7"fg |
+"F#m"agfe "E/A"d2c2 | "Bm"B2e2 "E7"efed | "D#/B7"c2A2 "E7"B2AB | "A"c2A2 "A"A2-"E"AB ||
+"A"c2A2 "E7"A3B | "A"c2e2 "F#7"e2fe | "Bm"d2B2 "F#m"B3c | "Bm"d2a2 "E7"afed |
+"A"c2A2 "E7"A3B | "C#m"c2e2 "A#/F#7"e2fe | "Bm"d2B2 "E7"afed | "A"c2"D"A2 "A"A2 |]
+%%center Book46/4613-SnoutsAndEars-JC.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Barbara's Strathspey
+C: Mady Newfield
+R: strathspey
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 46-4
+M: C
+L: 1/16
+K: F
+D3E \
+| "Dm"F3E F3d "F"c3A F3A | "C"G3E C3E G4 "e/A7"A3G \
+| "Dm(Bb)"F3G F3D "Gm"GF3 ED3 | "A"A4 A,4 "c#/A"[A4E4] "Dm"[F3D4]G |
+| "F"A3F A,3A "C"G4 "A(m)"A3E | "Dm"F3G A3F "Gm"B4 A3G \
+| "F"A3F c3A "C"G4 E3C | "Bb"DF3 "C7"F3G "F"F4 F3G |]
+[| "F"A3F C3A "C"[G4E4] "c#/A"A3E | "Dm"F3D A,3F "A"[E4A,4] "Dm"[F3A,4]E \
+| "Bb"DF3 F3D "F"C3F Ac3 | "Gm"c3B A3B "C7"G4 F3G |
+| "F"A3F c3A "e/C"G4 F3E | "Dm"F3E D3G "Bb"F4 E3D \
+| "F"C3A c3A "C"G4 "(Am)"E3C | "Bb"DF3 "C7"F3G "F"[F4A,4] |]
+%%center Book46/BarbarasStrathspey_F-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Barbara's Strathspey
+C: Mady Newfield
+R: strathspey
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 46-4
+M: C
+L: 1/16
+K: G
+E3F \
+| "Em"G3F G3e "G"d3B G3B | "D"A3F D3F A4 B3A \
+| "e/C"G3A G3E "Am"AG3 FE3 | "B7"B4 B,4 [B4F4] "(Em)"[G3E4]A |
+| "G"B3G B,3B "D"A4 B3F | "Em"G3A B3G "Am"c4 B3A \
+| "G"B3G d3B "D"A4 F3D | "C"EG3 "D7"G3A "G"G4 G3A |]
+[| "G"B3G D3B "B7"[A4F4] B3F | "Em"G3E B,3G "B"[F4B,4] [G3B,4]F \
+| "C"EG3 G3E "b/G"D3G Bd3 | "Am"d3c B3c "D7"A4 G3A |
+| "G"B3G d3B "D"A4 G3F | "Em"G3F E3A "C"G4 F3E \
+| "G"D3B d3B "D"A4 F3D | "C(Am)"EG3 "D7"G3A "G"[G4B,4] |]
+%%center Book46/BarbarasStrathspey_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Bonnie Glenfarclas    [F]
+C: Frank Thomson
+R: strathspey
+O: RSCDS 46-6
+B: RSCDS 46-6
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+c2 \
+| "F"f2 c>A F2 G>A | "Gm"B>A B>G "C7"E<C E<G \
+| "F"F2 A>c "Dm"f>g a>f | "G7"d<g g>f "C7"ec de |
+y3 \
+| "F"f2 c>A "Dm"F2 G>A | "Gm"B>A B>G "C7"E<C D>E \
+| "F"F2 A>c "Dm"f>g a>f | "Gm"d>g "C7"e<c "F"f2 |]
+f>g \
+| "Dm"a>g a<f "Am"e2 a>e | "Bb"d2 f>d "F7"c>A F<A \
+| "Gm"B>c d>B "Am"A<c "Dm"e>f | "G"d<g g>f "C"e<c f>g |
+y3 \
+| "Dm"a>g a<f "A7"e2 a>e | "Bb"d2 "(Bdim)"f>d "F"c>A "(Dm)"F<A \
+| "Gm"B>c d>B "Am"A<c "Dm"f<a | "Gm"d>g "C7"e<c "F"f2 |]
+%%center Book46/BonnieGlenfarclas_F-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 06
+T: Bonnie Glenfarclas
+C: Frank Thomson
+R: strathspey
+O: RSCDS 46-6
+B: RSCDS 46-6
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+c2 \
+| "F"f2 c>A "A/F"F2 G>A | "Gm"B>A B>G "C7"E<C E<G \
+| "F"F2 A>c "Dm"f>g a>f | "B/G"d<g g>f "C7"ec de |
+y3 \
+| "F"f2 "A/F"c>A "Dm"F2 G>A | "Gm"B>A B>G "C7"E<C D>E \
+| "A/F"F2 A>c "Dm"f>g a>f | "Bb/Gm"d>g "C7"e<c "F"f2 |]
+f>g \
+| "Dm"a>g a<f "C/Am"e2 a>e | "Bb"d2 f>d "A/F7"c>A F<A \
+| "Bb"B>c d>B "Am"A<c "Dm"e>f | "G7"d<g g>f "C"e<c f>g |
+y3 \
+| "Dm"a>g a<f "A7"e2 a>e | "Bb"d2 "Bdim"f>d "C/F"c>A "Dm"F<A \
+| "Gm"B>c d>B "Am"A<c "Dm"f<a | "Gm"d>g "C7"e<c "F"f2 |]
+%%center Book46/Bonnie_Glenfarclas_JC-F-16-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Catherine Margaret Hall
+C: Jimmy Ritchie
+R: reel
+B: RSCDS Graded 2 #5
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: A
+e2 |\
+"A"c4 "E7"cdcB | "A"A2c2 E2cd | "A"e3e "E7"fec2 | "A"e4 "C#m"e2fg |\
+"F#m"a3f "E"g3e | "Bm"f2e2 "A"c2A2 | "E"B2e2 "B7"^d2f2 | "E7"e2d2 c2B2 |
+y3 \
+"A"c4 "E7"cdcB | "A"A2c2 E2cd | "A"e3e "E7"fec2 | "A"e4 "C#m"e2fg |\
+"F#m"a3f "C#m"g3e | "D"fgfe "A"c2A2 | "Bm"B3A "E7"F2E2 | "A"A6 |]
+c2 |\
+"F#m"f3f f2c2 | "F#m"a2g2 f2c2 | "F#m"f3g "C#m"a2g2 | "F#m"f4- "B7"f2gf |\
+"E"e3e e2Be | "B7"g2f2 "E"efga | "F#m"b2a2 "B7"g2f2 | "E7"e2d2 c2B2 |
+y3 \
+"A"c4 "E7"cdcB | "A"A2c2 "A"E2cd | "A"e3e "E7"fec2 | "A"e4 "C#m"e2fg |\
+"F#m"a3f "C#m"g3e | "D"fgfe "A"c2A2 | "Bm"B3A "E7"F2E2 | "A"A6 |]
+%%center Book46/CatherineMargaretHall_A-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Christine M Phillips
+C: Marian Anderson
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 46-1
+M: 6/8
+L: 1/8
+K: D
+A/G/ |\
+"D"FED DEF | "Em"GAB "A7"cfe | "D"d>AA AfA | "Em"BgB "A7"cAG | "D"F2D "Bm"DEF |
+"Em"G2{A}B "A7"cAe | "D"^efA "G"Bdd | "A7"cec "D"d2 :: d/e/ | "D"^eff fdA | "G"^ABB "Em"Bcd |
+"A"cEF GFE | "D"^EFB "A7"A2E | "D"^EFF "F#m"FGA | "G"G2B "E7"edB | "A"=c2^c fec | "D"d3 d2 :|
+%%center Book46/ChristineMPhillips_D3-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Christine M Phillips
+C: Marian Anderson
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 46-1
+M: 6/8
+L: 1/8
+K: D
+A/G/ |\
+"D"FED DEF | "Em"GAB "A7"cfe | "D"d>AA AfA | "Em"BgB "A7"cAG |
+"D"F2D "Bm"DEF | "Em"G2B "A7"cAe | "D"^efA "G"Bdd | "A7"cec "D"d2 :|
+|: d/e/ |\
+"D"^eff fdA | "G"^ABB "Em"Bcd | "A"cEF GFE | "D"^EFB "A7"A2E |
+"D"^EFF "F#m"FGA | "G"G2B "E7"edB | "A"=c2^c fec | "D"d3 d2 :|
+%%center Book46/ChristineMPhillips_D4-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4601
+T: Christine M Phillips
+C: Marian Anderson
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+N: Fixed the notes poorly written as flatted followed by the same note raised;
+N: rewrote them as the next-lower note sharped.
+B: RSCDS 46-1 p.3
+M: 6/8
+L: 1/8
+K: D
+|: A/G/ |\
+"D"FED "F#/D"DEF | "Em"GAB "A"cfe | "D"d>AA "F#/D"AfA | "Em"BgB "A7"cAG \
+"D"F2D "Bm"DEF | "Em"G2B "A7"cAe | "D"^efA "G"Bdd | "A7"cec "D"d2 :|
+|: d/e/ |\
+"D"^eff "A/D"fdA | "G"^ABB "Em"Bcd | "A"cEF "C#/A7"GFE | "D"^EFB "A7"A2E \
+"D"^EFF "F#m"FGA | "G"G2B "G#/E7"edB | "A"=c2^c "C#/A7"fec | "D"d3 "D"d2 :|
+%%center Book46/Christine_M_Phillips2_JC-D-32-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Craigellachie Lasses
+C: William Marshall
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"d2d "G"dcB | "A7"A>BG "D"F>ED | "D"d2d  "Bm"d>cd | "E7"e>fd "A7"c>BA \
+| "D"d2d "G"dcB | "A7"A>BG "D"F>ED | "A7"E>CA, A,>B,C | "D"D3- D2 :|
+f/g/ \
+| "D"afd def | "A7"gec Ace | "D"fdA "G"GBd | "A7"ecA "(D)"FGA \
+| "Em"BGE EFG | "D"AFD DFA | "A7" E>CA, A,>B,C | "D"D3- D2 |]
+f/g/ \
+| "D"afd afd | "A7"gec gec | "D"fdA fdA | "A7"ecA ecA \
+| "G"BGB dcB | "D"AFA "G"Bcd | "Em"Bgf "A7"edc | "D"d3- d2 |]
+%%center Book46/CraigellachieLasses-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: General Garibaldi's Reel
+C: Trad
+O: RSCDS 46-8
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A |\
+"D"d2FA dcBA | "G"BcdB "D"AFDF | "G"G2BG "D"F2AF | "Em"GFED "A7"CECA, |
+"D"d2FA dcBA | "G"BcdB "D"AFDF | "G"GABG "D"FA"G"dg | "A7"fdec "D"d2d |]
+[| A |\
+"D"d2fd adfa | "G"gfed "A7"cecA | "Bm"d2fd "D"adfa | "Em"gf"A7"ec "D"(3ddd dA |
+"Bm"d2fd ad"B7/d#"fa | "Em"gfed "A"cecA | "G"BGGB "D"AF"G"Gg | "A7"fdec "D"d2d |]
+%%center Book46/GeneralGaribaldisR_D4-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: MacPhail's Magic
+C: Colin Dewar
+B: RSCDS 46-8
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+C/D/E |\
+"F"F2F2 ^GAFD | "F"CDFG "Dm"A2GF | "Gm"G2GA BABc | "Gm"dcBA "C7"GFEC |
+"F"F2FG "C7"^GAFD | "F"CDFG "F#dim"AcBA | "Gm"d/c/B AF "C7"GFED | "F"C2F2 F2 :|
+|: "F7"F_E |\
+"Bb"D2F2 "Gm"defd | "Am"e2c2 "F#dim"_e2dc | "Gm"d2B2 "C7"d2cB |
+[1 "F"AB=Bc "F7"dcAF | "Bb"D2F2 "Gm"defd | "Am"e2c2 "F#dim"_e2dc | "Gm"d/c/B AF "C7"GFED | "F"C2F2 F2 :|
+[2 "F"AfcA "C7"dBGE | "F"F2FG ^GAFD | "F"CDFG "D7"AcBA | "Gm"d/c/B AF "C7"GFED | "F"C2F2 F2 |]
+%%center Book46/MacPhailsMagic_F-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mary and Lloyd Augustus
+C: Bobby Frew
+R: strathspey
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: RSCDS Graded 2 #2
+M: C
+L: 1/8
+K: D
+A,2 \
+| "D"D2 D>E F>E D>E | "D"F<A d>e f>e d>c \
+| "G"B>c d>B "D"A<d F>D | "Em"(3EFG (3FED "A7"(3CDE (3A,B,C ||
+y3 \
+| "D"D2 D>E F>E D>E | "D"F<A d>e "Bm"f>e d>c \
+| "G"B>c d>B "D"A<d F>D | "Em"(3EFG "A7"F>E "D"D2 |]
+A2 \
+| "D"f2 f>e d>A B<d | "G"B>c d>B "D"B>A F<A \
+| "F#m"f2 f>e "Bm"d>B A>B | "Em"d>B A<F "A7"E2 ||
+A,2 \
+| "D"D2 D>E "/c#"F>A d>e | "Bm"f2 e>d "G"B<d "B7/d#"A>F \
+| "Em"G>A B>G "D"A<d "Bm"F>D | "Em"(3EFG "A7"F>E "D"D2 |]
+%%center Book46/MaryAndLloydAugustus_D-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Minister of Birse
+R: strathspey
+B: RSCDS 46-9
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A, |\
+"D"D2 F<A "G"B,2 "A7"C>A, | "D"D2 F>A d>A F>D |\
+"Em"G<B "D"F<A "Em"E>F G<E | "Bm"D<d "F#m"A>F "A7"A2 AA, |
+"D"D2 F<A "G"B,2 "A7"C>A, | "D"D2 F>A d>A F>D |\
+"G"G<B "B7"F<A "Em"E>F G<E | "D"D<d A>F "A7"A2 (3ABc |]
+"D"d>e f>d A<F D>F | "Em"E<e e>d "A7"cA Bc |\
+"D"d>e f>d A<F D>F | "A"E<A "E7"A>^G "A"A2 (3ABc |
+"D"d>e f>d A<F D>F | "G"G<g "Em"g>f "A"e>A B>c |\
+"Bm"d<f "G"B<d "D"A>B A<F | "Em"E>D "A7"E<F "D"D2 D |]
+%%center Book46/MinisterOfBirse_D4-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Barbara Hay's Favorite
+C: Robert Mackintosh
+N: Robert Mackintosh's birthday seems to be unknown; he died in London in 1807.
+N: Chords by John Chambers; some are inferred from the bass note.
+N: The Bm chord in the next-to-last bar is written out and is a bit unusual.
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: "G"G3 (Tgfg) | d3 GAB | "C"Tc2B "A7"A2G | "D"(TFEF) D3 \
+|  "G"G3 (Tgfg) | d3 "A7"gab | "D"agf "A7"ed^c | "D"[d3A3F3] D3 :|
+|: "G"(B/c/dB) gdB | "D7"c2a- acA | "G"(B/c/d)B (G/A/B)G | "C"EFG "D"AFD \
+|  "G"(B/c/dB) gdB | "D7"c2a- acA | "G"Bcd cBA | "D"[G3D3B,3] "G"[G2D2B,2] :|
+d/c/ \
+| "G"Bcd "C"ecB | "D"ABc "Bm"dBA | "Em"GAB "C"EFG | "A7"ABG "D"FED \
+| "G"Bgd "C"ecB | "D"ABc "Bm"dBG | "C"EcB "D"AGF | "G"[G3D3B,3] B,2c |
+| "G"Bcd "C"ecB | "D"ABc "Bm"dBA | "Em"GAB "A7"EFG | "D"AGF "D7"EFD \
+| "G"(TGFG) "D"AGA | "G"BAB "C"cde | "G"dBG "Bm"AFD | "G"[G3D3B,3] G,2 |]
+%%center Book46/MissBarbaraHaysFavorite_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Barbara Hay's Favorite
+C: Robert Mackintosh
+N: Robert Mackintosh's birthday seems to be unknown; he died in London in 1807.
+N: Chords by John Chambers, modified from Mackintosh's during rehearsals.
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+d \
+|: "G"G3 Tgfg | "G"d3 GAB | "Am"Tc2B "A7"A2G | "D7"TFEF D3 \
+|  "G"G3 Tgfg | "G"d3 "A7"gab | "D"agf "A7"ed^c | "D"d3 D3 :|
+|: "G"B{c}dB gdB | "Am"c2a- acA | "G"B{c}dB "Em"G{A}BG | "C"EFG "D7"AFD \
+|  "G"B{c}dB gdB | "Am"c2a- acA | "G"Bcd "D7"cBA | "G"G3- G2 :|
+|: d/c/ \
+| "G"Bcd "Em"ecB | "Am"ABc "D7"dBA | "G"GAB "Em"EFG | "A7"ABG "D"FED \
+| "G"Bgd "Am"ecB | "D7"ABc "G"dBG | "C"EcB "D"AGF | "G"G3- G2 ||
+c \
+| "G"Bcd "Am"ecB | "D7"ABc "G"dBA | "Em"GAB "A7"EFG | "D"AGF "D7"EFD \
+| "G"TGFG "D"AGA | "G"BAB "C"cde | "G"dBG "D7"AFD | "G"G3- G2 :|
+%%center Book46/MissBarbaraHaysFavorite_G64-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Scott Meikle
+C: George Meikle
+R: reel
+B: RSCDS 46-3
+N: George has published a slightly different version in his book "Originally Mine".
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+AG \
+|:"F"FAcd "C7"cAGA | "F(Dm)"FAcd "C7"cAGA |  "F"FAcd "D7"cBAc | "Gm"B2G2 "(G7)"G3^d |
+| "C"ecfc gcfc | "C"ecgc fcec |  "C"ec=Bc "C7"dcde |1 "F"f2e2 "C7"d2c2 :|2 "F"f4 f2c2 |
+|:"F"fcgc "C7"acgc | "F"fcac gcfc |  "F"fcgc acgc | "C7"e2c2 c3d |
+| "C"ecfc gcfc | "C"ecfc gcfc | "C"ec=Bc "C7"dcde |1 "F"f2e2 "C7"d2c2 :|2 "F"f4 f2 |]
+%%center Book46/ScottMeikle_F4-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Scott Meikle
+C:\251 George Meikle
+B: George Meikle "Originally Mine" p.6
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F
+AG \
+|:"F"FAcd "E/C7"cA^GA | "Dm"FAcd "C7"cA^GA \
+| "F"FAcd "F#/D7"cBAc | "Gm"B2G2 "G7"G2-G^d |
+  "C"eGfG "G7"gGfG | "C"eGgG "B/G7"fGeG \
+| "C"ec=Bc "E/C7"dcde |1 "F"fAeA "C7"dAcA :|2 "F"f2c2 "C7"d2e2 ||
+|:"F"fcgc "E/C"acgc | "Dm"fcac "C7"gcfc \
+| "F"fcgc "A/F"acgc | "G/C7"e2c2 "C7"c2-cd |
+  "C"ecfc "G/C"gcfc | "C"ecgc "G/C"fcec \
+| "C"ec=Bc "E/C7"dcde |1 "F"fAeA "C7"dAcA :|2 "F"f4 "F"f4 |]
+%%begintext align
+This was written for my son Scott and is probably the favourite of my compositions. It is one of these
+tunes which have something about them which always seems to get the Country Dancers "going".  I first
+recorded this as the original for John Drewry's "Crossing the Line" on one of the Highlander CD's.
+Alice McLean used the tune as the original tune for a dance included in her "Laurieston Collection"
+which she wrote for Scott after he had been asked to dance for the Queen at a special function in
+Edinburgh City Chambers to celebrate 75 years of the RSCDS.
+%%endtext
+%%center Book46/Scott_Meikle-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Scott Meikle
+C: George Meikle
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+AG \
+|: "F"FAcd "C7/E"cA^GA | "Dm"FAcd "C7"cA^GA \
+|  "F"FAcd "D7/F#"cBAc | "Gm"B2G2 "G7"G3^d |
+|  "C"eGfG "G7"gGfG | "C"eGgG "G7/B"fGeG \
+|  "C"ec=Bc "C7/E"dcde |1 "F"fAeA "C7"dAcA :|2 "F"f2c2 "C7"d2e2 |
+|: "F"fcgc "C/E"acgc | "Dm"fcac "C7"gcfc \
+|  "F"fcgc "A/F"acgc | "C7/G"e2c2 "C7"c3d |
+| "C"ecfc "/G"gcfc | "C"ecfc "/G"gcfc \
+| "C"ec=Bc "C7/E"dcde |1 "F"fAeA "C7"dAcA :|2 "F"f4 f2 |]
+%%center Book46/Scott_Meikle_F-JC.abc

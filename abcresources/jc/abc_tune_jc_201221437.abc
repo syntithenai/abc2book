@@ -1,0 +1,25 @@
+X: 48
+T: la Mignonette Francoise
+N: The cedille is missing on the '\,c'.
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.22 #48
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain's pickup note is missing its flag; fixed.
+M: 6/8
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+G |\
+B2B- B>AG | d2d d2g | d2b d2c | TB2A G2G |\
+B2B- B>AG | d2d d2g | fed Ad^c | d3- d2 :|
+|: d |\
+a2d (c'2b) | {b}a2g f2g | a2d c'2b | (Tag).f g2d |\
+ec'e cec | dbd BdB | c2A TG2F | G3- G2 :|
+|: B |\
+B3 AGA | G2G G2d | d3 cBc | B2B B2g |\
+{a}g2f {g}f2e | {f}e2d {e}d2c | (B>c).d Tc2B | A2A A2 :|
+|: d |\
+=f2f- fdB | c2c c2e | g2g- ge^c | d2d d2b |\
+c'2b Ta2g | c'2b Ta2g | ec'b agf | g2g g2 :|

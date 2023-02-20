@@ -1,0 +1,16 @@
+X: 856
+T: Murphy's Hornpipe
+R: hornpipe
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #856
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0856/oneill-1001-0856-1.abc
+M: C|
+L: 1/8
+K: G
+"^A"[|] (3DEF \
+| GABG EFGE | ABcA FGAF | GBdg ecAG | FGAF DEFD ||
+| GABG EFGE | ABcA FGAF | GBdg ecAF | G2GG G2 :| 
+"^B"|: (Bc) \
+| dedc BcdB | (3efg ed cdef | gfgd ecAG | FGAF DEFD ||
+| GABG EFGE | ABcA FGAF | GBdg ecAF | G2GG G2 :| 

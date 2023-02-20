@@ -1,0 +1,27 @@
+X: 2251
+T: Light and Airy Jigg
+%R: jig
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.25 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: There's an odd "Violone.lo" at the tune's lower left. Anyone know what it might have meant?
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 12-bar lines, for compactness and proofreading.
+V: 1 staves=2
+|:\
+Tc3 AcA | FAc fcA | Tc3 AcA | TG2A TB2d ||\
+Tc3 AcA | FAc fcA | BgB AfA | TG2A TB2d ::\
+Tf>gf fcA | fgf fag | Tf>gf fcA | TG2A TB2d ||
+faf gbg | faf ege | Tf>ed Tc>BA | TG2A TB2d ::\
+cAF TF2A | cAF Acf | cAF TF2A | TG2A TB2d ||\
+cAF FAc | Tf>ed cBA | BgB AfA | TG2A TB2d :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+f3 f3 | f3 f3 | f3 f3 | c'3 c3 || f3 f3 | f3 f3 | e3 f3 | c'3 c3 ::
+f3 f3 | f3 f3 | f3 f3 | c'3 c3 || f3 e3 | f3 c3 | b3 a2f | c3 c3 ::
+[f3F3] [f3F3] | [f3F3] [f3F3] | [f3F3] [f3F3] | C3 c3 ||\
+[f3F3] [f3F3] | [f3F3] [f3F3] | B3 F3 | C3 c3 :|

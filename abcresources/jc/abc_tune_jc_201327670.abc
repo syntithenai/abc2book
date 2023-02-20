@@ -1,0 +1,1078 @@
+% Roaring Jelly Squares
+
+#include "RightHeader.h"
+%%vskip 10cm
+%%center $2Squares
+#include "LeftHeader.h"
+%%center This page intentionally blank
+% ---------- A ----------
+#include "RightHeader.h"
+$SmallLMargin
+$SmallRMargin
+%%scale .9
+X: 1
+T: Alabama Jubilee #1
+I: Alabama Jubilee	S-A	C	square
+C: S-A
+M: C
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: C
+^F G^G| "A"A=GEA- AG2E| AGEA- A4| "D"AA^FD AF2D| A^FDA- AGA^A|
+        "G"B^AB=A- AG2G| B^ABG- G2G2| "C"cBcA- AG2E| cBcA- A^FG^G |
+        "A"A=GEA- AG2E| AGEA- AGFE| "Dm"D^CDE FEFG| "F"A2FA- ABcd|
+        "C"e4 e3d| "F"c2A2 "C"G2^FG| "D"AcAc "G"B2G2|\
+        "C"c2"E"B2 "A"A2^FG| "D"AcAc "G"B2G2| "C"c4 z |]
+%%text 9/1/98.  Formerly R-26
+
+X: 2
+T: Alabama Jubilee #2
+I: Alabama Jubilee	S-A	C	square
+C: S-A
+M: C
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: C
+"A"AGEA- AG2E| AGEA- A4| "D"A^FDA- AF2D| A^FDA- A4|
+"G"B2^AB- B=AG2| A^GAB- B4| "C"c2cA- AGE2| cBcA- AGE2|
+"A"AGEA- AG2E| AGEA- A4| "Dm"D^CDE FEFG| A2^GA- ABcd|
+"C"e2e2 "E"e2d2| "F"c2AG- "A7"G2^G2| "D"A^GA^A "G"B3=G| "C"ccB^A "A7"=A3^G|
+"D"A^GA^A "G"B3=G | "C"c4- ccB^A :| "C"c4- "Last time"czz2 |]
+%%text 9/1/98
+
+#include "LeftHeader.h"
+%%text intentional blank so that each new letter is on the front of a page
+
+% ---------- B ----------
+
+#include "RightHeader.h"
+$SmallLMargin
+$SmallRMargin
+%%scale .9
+X: 3
+T: Beer Barrel Polka
+I: Beer Barrel Polka	S-B	Bb/Eb	square
+C: S-B
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: Bb
+F=E| "Bb"F2 D4 F=E| F2 D4 F=E| F2B2 c3B| "F7"B2 A4 A_A| \
+         A2B2 c2B2| B2 A4 AB| A2 G4 GA| "Bb"G2 F4 F=E|
+     "Bb"F2 D4 F=E| F2 D4 F=E| F2B2 c2B2| "F7"B2 A6| \
+         c3c c3B| B2 A4 G2| F2_G2 =G2A2| "Bb"B2=E2 F2_G2|]
+|:\
+"F7"G4 _G2=G2| G2E2 D2C2| G8-| G2D2 E2=E2| \
+"Bb"F4 =E2F2-| F2D2 C2B,2| F8-| F2B2 c2B2|
+"F7"A6 c2| G6 F2| A8-| A2B2 c2B2| \
+    A4 c4 |1 G4 ^F4| "Bb"F8-| F2=E2 F2_G2 :|2 "F7"G4 A4| "Bb"B8-| B2B2 c2d2|] [K:Eb]
+"Eb"e4 c4|B4 G4| E4 C4| B,4 G,4| B8| B6 =A2| B2 c6-| c8|
+"Eb"B2 c4 B2| c2 B4 =A2| "Bb7"A8-| A8| c8| c6 =B2| c2 d6-| d8|
+"Bb7"c2 d4 c2| d2 c4 =B2| "Eb"B8-| B2G2 A2=A2| B8| B6 =A2| B2 c6-| c8|
+"Eb7"B2 c4 B2| c2 B4 E2| "Ab"c8-| "C7"c8| \
+"Gm"F2G2 A2B2| "Bb7"d6 c2| "Eb"c2 B6-| B4 =A2B2|\
+"F7"c8| "Bb7"d8| "Eb"e3c B2G2| E2 z4|]
+%%text 9/1/98
+
+#include "LeftHeader.h"
+%%scale .8
+X: 4
+T: Bully of the Town
+I: Bully of the Town	S-B	F	square
+C: S-B
+C: Trevathan
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: F
+P: Intro
+"F"c2 c4 "Fdim"=B2| "Bb"d2"F"c2 "C"G2"F"A2| "C7"B4 C4| E4 G4| 
+   B2 B4 A2| c2B2 G2^G2| "F"A4 C4| F4 A4|
+"F"c2 c4 d2| "D7"_e2d2 A2c2| "Gm"B8-| B4 "Bb"F2 "Bbm6"G2| 
+"F"AA c4 A2| "G7"GGGG "C7"D2E2| "F"F8-| F6 C2|]
+P: SEGNO
+"F"A2 A4 A2| "Fdim"^G2 G4 G2| "F"A2 A4 A2| "F7"F6 F2| 
+"Bb"D2D2 D2D2| "D7"D2 d4 A2| "Gm"c2B2 B2"D7"A2| "Gm"B4 "Bbm"F2G2| 
+"F"AA c4 A2| "G7"GGGG "C7"D2E2| "F"F8-| F6 z2|]
+|:\
+"F"c2 c4 "Fdim"=B2| "Bb"d2"F"c2 "C"G2"F"A2| "C7"B4 C4| E4 G4| 
+"C7"B2 B4 A2| c2B2 G2^G2| "F"A4 C4| F4 A4|
+"F"c2 c4 d2| "D7"_e2d2 A2c2| "Gm"B8-| B4 "Bb"F2 "Bbm6"G2|
+"F"AA c4 A2| "G7"GGGG "C7"D2E2| "F"F8-|1 F6 C2:|2 "F"F8 "D.S."x|]
+%%text 9/1/98
+
+% ---------- C ----------
+#include "RightHeader.h"
+%%scale .8
+$SmallLMargin
+$SmallRMargin
+X: 5
+T: Chinese Breakdown
+I: Chinese Breakdown	S-C	D	square
+C: S-C
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+P: A
+A2| "D"d2A2 B2A2| F2 F4 A2| d2A2 B2A2| "A"E8| \
+       c2A2 B2A2| c2 c4 B2| A2A2 B2A2| "D"D6 A2|
+    "D"d2A2 B2A2| F2 F4 E2| D2D2 E2F2| "G"G8| \
+    "A"e2 e4 d2| c2 c4 B2| A2A2 B2c2| "D"d8|]
+%%text B
+"D"f2af e2d2| f2 f6| f2af e2d2| "A"c8| \
+   a2aa a2a2| g2 g6| e2c2 B2A2| "D"f8 |
+"D"f2af e2d2| f2 f6| d2d2 e2f2| "G"g8| \
+"A"e2 e4 d2| c2 c4 B2| A2A2 B2c2| "D"d6|]
+%%begintext ragged
+%% Occasionally substitute the A part of "Looney Tunes" for the 
+%% A part of "Chinese Breakdown".
+%%endtext
+%%text $111/19/98
+
+X: 6
+T: Looney Tunes
+I: Looney Tunes	S-C	D	square
+% C: S-C
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+% P: A
+A2| "D"ddc2 B2A2| F6 A2| ddc2 B2=c2| "A"^c8| \
+       c2A2 B2A2| c2A2 B2A2| A2_B2 =B2c2| "D"d2f2 d2 :|
+%%textfont Times-Roman 12.0
+%%text 			to B part of "Chinese Breakdown".
+%%text $111/19/98		Formerly R-101
+
+X: 7
+T: Climb Up Golden Stairs
+I: Climb Up Golden Stairs	S-C	G	square
+C: S-C
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+d4 |: "G"e2d2 d2c2| B2 d4 d2| e2d2 d2c2| B2 d4 d2| \
+         G2G2 G2G2| B4 d4| "D7"A8-| A4 A2B2|
+      "D7"c2B2 A2G2| F2 A4 B2| c2B2 A2G2| F2 A4 A2| \
+          d2e2 d2c2| B4 A4 | "G"G8- |1 G4 d2d2 :|2 G4 |]
+\
+D4| "G"G6 B2| d6 B2| "D7"B2A2 A2^G2| A8| \
+       A6 c2| f4 e4| "G"e2d2 d2^c2| d8|
+    "G"G6 B2| d6 B2| "D7"B2A2 A2^G2| A4 B2c2| \
+       d2e2 d2c2| B4 A4| "G"G8-| G4|]
+%%text $19/1/98
+
+#include "LeftHeader.h"
+$SmallLMargin
+$SmallRMargin
+%%scale .8
+X: 8
+T: Crooked Stovepipe #1, The
+I: Crooked Stovepipe, The	S-C	G	square
+C: S-C
+C: Ralph Page
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+D2| "G"G2B2 BcdB| G2B2 BcdB| G2B2 "E7"e2B2 | "Am"d2c2 "D7"c3A| \
+       F2A2 ABcA| F2A2 ABcd| "C"e2d2 "D7"e2f2| "G"G,2[B2g2] [B2g2] :|
+|:\
+a2| "G"b4 b2a2| g3a g2f2| "C"e2e2 "Am"f2g2| "A7"a4 a2b2| \
+    "D7"c'4 c'2a2| f3g f2e2| d2^d2 e2f2|1 "G"g2^g2 "D7"a2^a2:|2 "G"G,2[B2g2] [B2g2] |]
+%%text 2/10/00
+
+X: 9
+T: Crooked Stovepipe #2, The
+I: Crooked Stovepipe, The	S-C	G	square
+C: S-C
+C: Ralph Page
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+(3DEF| "G"G2B2 BcdB| G2B2 BcdB| G2B2 e2B2| "D7"d2c2 c2BA| \
+          F2A2 ABcA| F2A2 A2Bc| d2d2 e2f2| "G"g6 :|
+|:\
+a2| "G"b6 a2| g6 f2| "C"e2e2 f2g2| "A"a6 b2| \
+"D7"c'6 a2| f6 e2| d2d2 e2d2|1 "G"ggg2 a2^a2:|2 "G"g6 |]
+%%text 2/10/00		Formerly R-42
+
+X: 10
+T: Crooked Stovepipe #3, The
+I: Crooked Stovepipe, The	S-C	G	square
+C: S-C
+C: Ralph Page
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+"G"G2B2 BcdB| G2B2 BcdB| G2B2 "E7"e3B | "Am"d2c2 "D7"cdcA|
+"D7"F2A2 ABcA| F2A2 ABcd| "C"e3d "D7"e2f2|1 "G"g2fe dcBA :|2 "G"g2g2 "D7"a2^a2|]
+|:\
+"G"b3c' b2a2| g4 g2f2| "C"e2e2 "Am"f2g2| "A7"a6 b2|
+"D7"c'3d' c'2a2| f6 e2| d2d2 e2f2|1 "G"g2g2 "D7"a2^a2:|2 "G"g2fe dcBA |]
+%%text 2/10/00		Formerly R-86
+
+% ---------- D ----------
+#include "RightHeader.h"
+$SmallLMargin
+$SmallRMargin
+%%scale .8
+X: 11
+T: Darling Nellie Gray
+I: Darling Nellie Gray	S-D	D	square
+C: S-D
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+z4 F2G2| "D"A2A2 A2B2| A2F2 E2D2| "G"G2A2 B2c2| d4 c2B2| "D"A4 A3A| B2A2 F2D2| "A7"E8-|
+E4 F2G2| "D"A2A2 A2B2| A2F2 E2D2| "G"G2A2 B2c2| d4 c2B2| "D"A4 F2A2| "A7"A2G2 E2C2| "D"D8-|
+D4 E2F2| "A7"G2G2 G2G2| G4 A2G2| "D"G2F2 F2=F2| F4 F2G2| A2A2 A2A2| B2A2 F2D2| "A7"E8-|
+E4 F2G2| "D"A2A2 A2B2| A2F2 E2D2| "G"G2A2 B2c2| d4 c2B2| "D"A4 F2A2| "A7"A2G2 E2C2| "D"D8|]
+%%text 9/1/98
+
+X: 12
+T: Down Yonder #1
+I: Down Yonder	S-D	D	square
+C: S-D
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+"D"FFFE- EDE=F| ^FAFD- Ddc=c| "G"BBBB AGA^A| BdBG- G3E|
+"D"FD/D/ED FDED| FAFA- A3E| FD/D/ED FDED| FAFA- A3A|
+"E"^GG/G/GE FEGE| ^GGEG- GEFG| "A"AA/A/AA/A/ AA3| A2AA AGFE|
+"D"F4 EDE=F| ^FAFD- Ddc=c| "G"B4 AGA^A| BdBG- G3E|
+"D"FA^EF- FA2E| FA^EF- FA2^A| "E"Bcde- "A"ecA2| "D"d8 |]
+%%text 9/1/98		Formerly R-97
+
+#include "LeftHeader.h"
+$SmallLMargin
+$SmallRMargin
+%%scale .8
+X: 13
+T: Down Yonder #2
+I: Down Yonder	D	D	square
+C: S-D
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+A^G=G| "D"F4 EDE=F| ^FAFD- Ddc=c| "G"B4 AGA^A| BdBG- G3G|
+       "D"FDED FDED| FAFA- A4| FDED FDED| FAFA- A2BA|
+       "E7"^G2GG- GFE2| ^GGGG- GFE2| "A"ABAG- GFE2| "A7"ABAG- GFE=F|
+       "D"F4 EDE=F| ^FAFD- Ddc=c| "G"B4 AGA^A| BdBG- G2AG|
+       "D"FDED FDED| FAFA- A2^GA| "E7"Bcde- "A7"ecA2| "D"d4- d |]
+%%vskip 1cm
+P: Last Time
+A^G=G| "D"F4 EDE=F| ^FAFD- Ddc=c| "G"B4 AGA2| z8|
+       "D"FDED FDED| z8| FDED FDED| z8|
+       "E7"^G2GG- GFE2| z8| "A"ABAG- GFE2| z8|
+       "D"F4 EDE=F| ^FAFD- Ddc=c| "G"B4 AGA^A| BdBG- G2AG|
+       "D"FDED FDED| FAFA- A2^GA| "E7"Bcde- "A7"ecA2| "D"d4- d |]
+%%text 9/1/98
+
+% ---------- E ----------
+
+% ---------- F ----------
+
+% ---------- G ----------
+#include "RightHeader.h"
+X: 14
+T: Goin' Down South #1
+I: Goin' Down South	S-G	D/E/F	square
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+C: arr: T. Saletan S-G
+P: Intro
+K: D
+"D"A2 A4 B2| A8| "G"A2G2 G2B2| d4 D2E2| "D"F4 A4| "A7"F4 E4| "D"D8| z8|]
+%%vskip .5cm
+|:\
+"D"A2 A4 B2| A8| F2 F4 G2| F8| "A7"F2E2 E2^D2| E4 FE| "G"D2D2- "A7"D2B,2| "D"A,8|
+"D"A2 A4 B2| A8| F2 F4 G2| F8| "A"E4 A4| "E7"^G4 B4| "A"A8| z2F2 "A7"G2^G2|
+"D"A2 A4 B2| A8| F2 F4 G2| F8| "A7"F2E2 E2^D2| E4 F2E2| "G"D2D2- "A7"D2B,2| "D"A,8|
+"D"A2 A4 B2| A8| "G"A2G2 G2B2| "Ddim7"d4 D2E2| "D"F4 A4| "A7"F4 E4| "D"D8| \
+"         (4x)"z8:| [K:E]
+%%vskip .5cm
+|:\
+"E"B2 B4 c2| B8| G2 G4 A2| G8| "B7"G2F2 F2=F2| F4 G2F2| "A"E2E2- "B7"E2C2| "E"B,8|
+"E"B2 B4 c2| B8| G2 G4 A2| G8| "B"F4 B4| "F#7"^A4 c4| "B"B8| z2G2 "B7"A2^A2|
+"E"B2 B4 c2| B8| G2 G4 A2| G8| "B7"G2F2 F2=F2| F4 G2F2| "A"E2E2- "B7"E2C2| "E"B,8|
+"E"B2 B4 c2| B8| "A"B2A2 A2c2| "Edim7"e4 E2F2| "E"G4 B4| "B7"G4 F4| "E"E8| \
+"         (2x)"z8:| [K:F]
+%%vskip .5 cm
+\
+"F"c2 c4 d2| c8| A2 A4 B2| A8| "C7"A2G2 G2_G2| G4 A2G2| "F"F2F2- "Bb"F2D2| "F"C8|
+"F"c2 c4 d2| c8| A2 A4 B2| A8| "C"G4 c4| "G7"=B4 d4|"C"c8| z2A2 "C7"B2=B2|
+"F"c2 c4 d2| c8| A2 A4 B2| A8| "C7"A2G2 G2_G2| G4 A2G2| "F"F2F2- "Bb"F2D2| "F"C8|
+"F"c2 c4 d2| c8| "Bb"c2B2 B2d2| "Fdim7"f4 F2G2| "F"A4 c4| "C7"A4 F2G2| "F"A4 c4| "C7"A4 F2G2| \
+"F"A4 c4| "C7"A4 G4| "F"F8| z8 |]
+%%$1text 9/1/98
+
+#include "LeftHeader.h"
+X: 15
+T: Goin' Down South #2
+I: Goin' Down South	S-G	F	square
+C: S-G
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+P: Intro
+K: F
+"F"c2 c4 d2| c8| "Bb"c2B2 B2d2| f4 F2G2| "F"A4 c4| "C7"A4 G4| "F"F8| z8|]
+|:\
+"F"c2 c4 d2| c8| A2 A4 B2| A8| "C7"A2G2 G2_G2| G4 A2G2| "F"F2F2- "Bb"F2D2| "F  C7"C8|
+"F"c2 c4 d2| c8| A2 A4 B2| A8| "C"G4 c4| "G7"=B4 d4|"C"c8| z2A2 "C7"B2=B2|
+"F"c2 c4 d2| c8| A2 A4 B2| A8| "C7"A2G2 G2_G2| G4 A2G2| "F"F2F2- "Bb"F2D2| "F  C7"C8|
+"F"c2 c4 d2| c8| "Bb"c2B2 B2d2| f4 F2G2|1 "F"A4 c4| "C7"A4 G4| "F"F8| z8 :|
+[2 "F"A4 c4| "C7"A4 F2G2| "F"A4 c4| "C7"A4 F2G2| "F"A4 c4| "C7"A4 G4| "F"F8| z8 |]
+%%text 9/1/98
+
+X: 16
+T: Goodbye My Lady Love
+I: Goodbye My Lady Love	S-G	Bm/D	square
+C: S-G
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+P: Intro
+K: D
+"Bm"B4 "Bm7 A"A4| "G"G4 "F#7"F4| "Bm"B2B2 "Bm7"A2"A"A2| "G7"G2G2 "F#7"F2z2|]
+%%vskip .2cm
+|:\
+"Bm"f8-| f2b2 a3g| f8-| f2f2 e2d2| \
+"F#7"c8-|c2e2 d2c2| "Bm"d4 B4-| "G  F#7"B8|
+"Bm"f8-| f2b2 a2g2| f8-| f2d2 e2f2| \
+"A7"e4 a4| "E7"b4 ^g4| "A"a8-| "A7"a2f2 g2^g2|
+"D"a2 a4 b2| a2ba- a4| f2 f4 g2| f2gf- f4| \
+"A7"e2 e4 f2| a2g2 f2e2| "D"d2e2 "E7"f2b2| "A7"a2f2 g2^g2|
+"D"a2 a4 b2| a2ba- a4| f2 f4 g2| f2gf- f4| \
+"A7"e2 e4 f2 |1 a2e2 c2A2| "D Bm7"d8-| "G7 F#7"d8 :|
+[2 "A7"a2gf- f4| e2 e4 f2| a2gf- f4| e2 e4 f2| a2e2 c2A2| "D"d8-| d8|]
+%%text 9/1/98
+
+#include "RightHeader.h"
+$SmallLMargin
+$SmallRMargin
+X: 17
+T: Golden Slippers
+I: Golden Slippers	S-G	G	reel
+C: S-G
+C: Old-Time
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+GA| "G"B2B2 BAGA| B2B2 B2GA| B2B2 c2B2| "D"B2A2 A2FG|\
+       A2AB AGFG| A2AG A2FG| A2c2 B2A2| "G"A2G2 G2 :|
+\
+E2| "G"D6 GA| B2A2 G2=F2| "C"E6 AB| c2B2 A2G2|\
+    "D"F3E F2G2| A3B A2F2| "G"G3F G2A2| B2G2 F2 E2|
+    "G"D6 GA| B2A2 G2=F2| "C"E6 AB| c2B2 A2G2|\
+    "D"F3E F2G2| A4 c4| "G"B2Bc "D"B2A2| "G"G6 |]
+%%text Formerly R-2.  Previous version modified to match that from "Fiddler's Fakebook".
+%%text 9/13/98
+
+$NormLMargin
+$NormRMargin
+X: 18
+T: Grandfather's Clock
+I: Grandfather's Clock	S-G	G	square
+C: S-G
+C: Henry Clay Work
+M: C
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+"(D7)"D2| "G"G2FG "D7"A2GA| "G"B2cB "C"E2AA| "G"G2GG "D7"F2EF| "G"G4- Gz DD|
+          "G"G2FG "D7"A2GA| "G"B2cB "C"E2AA| "G"G2GG "D7"FEF2| "G"G4- Gz GB|
+          "G"d2B>A "(Em)"G2FG| "D7 (A7)"AGFE "G (D7)"D2GB| "(G)"d2B>A "A7"G2FG| "D7"A6 DD|
+          "G"Gzz2 "D"Azz2| "G"B/B/B c>B "C"E2AA| "G/D"G4 "D7"F4| "G"G6 DD|
+% %vskip .3cm
+%%center  Play following line twice last time through
+          "G"G2DD EDD2 | B,z Dz B,z DD| \
+          G2DD EDD2| B,z Dz B,z DD|
+% %vskip .3cm
+          "G"Gzz2 "D"Azz2| "G"B/B/B c>B "C"E2AA| "G/D"G4 "D7"F4| "G"G6|]
+%%text 9/1/98.   arr. T. Saletan
+
+#include "LeftHeader.h"
+%%text intentional blank so that each new letter is on the front of a page
+% ---------- H ----------
+#include "RightHeader.h"
+%%scale .9
+X: 19
+T: Hurry, Hurry, Hurry #1
+I: Hurry, Hurry, Hurry	S-H	C	square
+C: S-H
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: C
+z2G2| "C"c2c2 B2B2| A2A2 G2G2| A4 G2E2-| E8|G2G2 G2G2| G2G2 F2E2| G4 "G7"F2D2-| D8|
+"G7"B2B2 A2A2| G2G2 F2F2| G4 F2D2-| D4 E2F2|G2G2 G2G2| G2F2 E2D2| "C"C8-| C4 :|
+P: Tag
+E2F2| "G7"G2G2 G2G2| G2G2 A2B2| "C"c8-| c4 |]
+%%text 9/1/98
+
+X: 20
+T: Hurry, Hurry, Hurry #2
+I: Hurry, Hurry, Hurry	S-H	D	square
+C: S-H
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+A2 |: "D"d2d2 c2c2| B2B2 A2A2| z2 B4 A2| F6 F2| A2A2 A2A2| A2A2 G2F2| "A7"z2 A4 G2|
+      "A7"E6 A2| c2c2 B2B2| A2A2 G2G2| z2 A4 G2| E2E2 F2G2| A2A2 A2B2| A2G2 F2E2 |
+      [1 "D"D8-| D2A2 B2c2 :| [2 "D"D8-| D4 F2G2| "A7"A2A2 A2B2| A2G2 F2E2| "D"D8-| D2 |]
+%%text 9/1/98
+
+X: 21
+T: Hot Time
+I: Hot Time	S-H	G	square
+C: S-H
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+z2D2 G2A2|: "G"B2B2 B3 _B/=B/| c2B2 _B2=B2| G2D2 G2B2|\
+"G"d2d2 d3 ^c/d/| e2d2 ^c2d2| 
+B2D2 E2G2| B2B2 B3 _B/=B/|\
+"G"c2B2 _B2=B2| G2G2 F2G2| "D7"B2A3 D/D/ B2| A3 D/D/ "G"[B,4G4] :|
+%%text 9/1/98.  Formerly R-2
+
+#include "LeftHeader.h"
+$SmallLMargin
+$SmallRMargin
+%%scale .8
+X: 22
+T: Honest John
+I: Honest John	S-H	G	square
+C: S-H
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+gf| "G"e2d2 B2G2| "C"A2G2 E2D2| "G"G2G2 GABc| "D7"d4 B2gf| \
+      "G"e2d2 B2G2| "C"ABAG E3G| "D7"F2A2 D2EF| "G"G8|
+    "D7"A4 B4| c6 B2| A6 B2| c2B2 A4| \
+      "G"B4 c4| d6 c2| B4 c2e2| d8|
+    "G"d2d2 B3B| G2A2 B4| "D7"A2B2 c4| "G"B2c2 d4|\
+       d2d2 B3B| G2A2 B2BB| "D7"c2A2 G2F2| "G"G6 gf|
+    "G"e2d2 B2G2| "C"ABAG E2D2| "G"G2G2 GABc| "D7"d4 B2gf| \
+      "G"e2d2 B2G2| "C"ABAG E3G| "D7"F2A2 D2EF| "G"G6 dc|
+    "G"B2d2 e2f2| g2d2 B2G2| B2d2 e2f2| "D7"g4 f2gf| \
+      "G"e2d2 B2G2| "C"ABAG E3G| "D7"F2A2 D2EF| "G"G4 z2|]
+%%text 9/1/98.  Arr. T. Saletan
+
+% ---------- I ----------
+
+#include "RightHeader.h"
+$SmallRMargin
+$SmallLMargin
+%%scale .8
+X: 23
+T: I Want A Girl
+I: I Want A Girl	S-I	G	square
+C: S-I
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+"G"D4 B,CD2| "C"G4 EFGA| "G"B2G2 "D7"B2A2| "G"G6z2| \
+"C"E4 GFG2| "G"D3E DCB,D| "A7"E2A2 A2B2| "D"A6z2|
+"G"B2B2 BAGB| "B7"A2A2 A4| "Em"G2G2 GFEG| "D7"F2F2 F2E2| \
+"G"D4 B,CD2| "C"G4 EFGA| "G"B2G2 "D7"B2A2| "G"G6z2|]
+%%text $19/1/98
+
+X: 24
+T: If You Knew Susie
+$SmallRMargin
+$SmallLMargin
+I: If You Knew Susie	S-I	A	square
+C: S-I
+%The next line has a blank at the end because of a bug where the copyright symbol causes the string to overrun the right margin.
+C: $1B.G. DeSylva, Joseph Meyer \2511925\032
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: A
+E2|: "A"A4 B4| B2 A4 F2| G4 A4| A2 G6| F8| "A#o"F8| "E7"F2E2 G2F2-|
+w: If| you knew| Sus-ie, Like| I know| Sus-ie| Oh,| Oh,| Oh what a girl!|
+w:   |         |             |       |       |    |    |                |
+      F6 E2|\
+w: _ There's|
+w:* She|
+     "E7"G4 "Bm7"A4| "E7"A2 G4 E2| F4 G4| G2 F6| E8| E8| "A"C2D2 ^D2E2|
+w: none so| clas-sy As| this fair| las-sie| Oh,| Oh!| Ho-ly Mo-ses|
+w: wears long| tres-ses And| nice tight| dress-s| Oh,| Oh!| What a fut-ure|
+     "Bm7"=F2^F2 "E7"=G2^G2|\
+w: what a chas-sis!|
+w: she po-ses-ses!|
+     "A7"A4 B4| B2 A6| "D"B2A2 B2A2-| A8| "B7"B4 c4| c2 B6|
+w: We went| rid-ing| She did-n't balk|_ | Back from| Yon-kers|
+w: Out in| pub-lic| How she can yawn|_ | In a | par-lor|
+     "E7"c2B2 c2B2| c2B2 G2E2|\
+w: I'm the one who| had to walk! If |
+w: You would think the| war was on! |
+     "A"A4 B4| B2 A4 F2| "B7"B4 c4| c2 B6|
+w: you knew| Sus-ie, Like| I know| Sus-ie|
+      "Bm7-5"d8| "E7"c2=c2 ^c2A2-| "A"A8- |1 A2E2 "E7"F2G2 :|2 "A - Last time"A2z2 A2 |]
+w: Oh,| oh what a girl!|_|_***|**
+%%text $110/21/98
+
+#include "LeftHeader.h"
+%%text intentional blank so that each new letter is on the front of a page
+
+
+% ---------- J ----------
+
+#include "RightHeader.h"
+%%scale .85
+X: 25
+T: Jackson's Breakdown
+I: Jackson's Breakdown	S-J	D	square
+C: S-J
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+$SmallLMargin
+$SmallRMargin
+"D"A2d2 fgfe| d2F2 A3d| "A7"c2E2 G3B| "D"A2D2 F4| \
+"D"A2d2 fgfe| d2F2 A3d| "A7"c2A2 B2c2| "D" d4 d4 :| [K:A]
+|:\
+"A"[c4e4] [c4e4]| e2a2 [c4e4]| "Bm"b2f2 "E7"g2e2| "A"a2c2 e4| \
+"A"[c4e4] [c4e4]| e2a2 [c4e4]| "Bm"b2f2 "E7"g2e2| "A"a4 a4 :|
+%%text $111/18/99.  Formerly R-32
+
+X: 26
+T: J. B. Milne
+I: J. B. Milne	S-J	A	square
+C: S-J
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+M: C|
+K: A
+cd| "A"efed c2A2| E2A2 c4| cedc B2A2| "Bm"d6Bc| 
+    "E"dedc B2G2| E2G2 B4| BdcB "E7"A2B2| "A"c6cd|
+    "A"efed c2A2| E2A2 c4| "A7"cedc B2A2| "D"f6fg| 
+    "D#dim"af^d=c A2ag| "A"fecA E2gf| "Bm"(3efe ^de "E7"f2g2| "A"a4 z2cd|
+    "A"e2c2 f2c2| e2c2 f2c2| e2^de fe=dc| "Bm"d6 Bc| 
+    "E"d2B2 e2B2| d2B2 e2B2| d2cd "E7"edcB| "A"c6cd|
+    "A"e2c2 f2c2| e2c2 f2c2| (3aba ga "A7"baga| "D"f6fg| 
+    "D"abag fagf| "A"fecA E2gf| "E"(3efe ^de "E7"f2g2| "A"a6|]
+%%text $19/1/98
+
+#include "LeftHeader.h"
+%%scale .8
+X: 27
+T: Just Because #1
+I: Just Because	S-J	G	square
+C: S-J
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+d2e2f2 | "G"g2g2 g2g2| g4 e2d2| g2 g6-| g2 d2e2f2| g2g2 g2g2| g4 e2d2| "D7"f8-| f6 d2|
+"D7"f2f2 f2f2| f4 e2d2| f2 f6-| f6 f2| e4 e2e2| f4 e4| "G"d8-| "D7"d2 d2e2f2|
+"G"g2g2 g2g2| g4 e2d2| g2 g6-| g2 d2e2f2| g4 g2g2| a4 g2=f2| "C"e8-| e6 e2|
+"C"g4 g2g2| "Am"a4 g2a2| "G"b4 g2f2| "E7"e6 d2| "A7"e8| "D7"f4 b4| "G"g8-| g2 |]
+%%text 1/20/02
+
+X: 28
+T: Just Because #2
+I: Just Because	S-J	G	square
+C: S-J
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+P: Intro
+K: G
+D2^D2| "A7"E8| "D7"F4 B4| "G"G8-| G2 |
+P:
+|:D2E2F2| "G"G2G2 G2G2| G4 E2D2| G2 G6-| G2 D2E2F2| G2G2 G2G2| G4 E2D2| "D"F8-| F6 D2|
+"D"F2F2 F2F2| F4 E2D2| F2 F6-| F6 F2| "Am"E4 E2E2| "D7"F4 E4 "G"D8-| D2 D2E2F2|
+"G"G2G2 G2G2| G4 E2D2| G2 G6-| G2 D2E2F2| "G7" G4 G2G2| A4 G2=F2| "C"E8-| E6 E2|
+"C"G4 G2G2| "Amdim"A4 G2A2| "G"B4 G2F2| "E7"E6 D2| "A7"E8| "D7"F4 B4|["rpt" "G"G8-| G2:|
+["End""G"G4 F2 =F2| "E7"E6 D2| "A7"E8| "D7"F4 B4|"G"G8|]
+%%text 6/17/07
+
+
+% ---------- K ----------
+
+% ---------- L ----------
+
+#include "RightHeader.h"
+$SmallLMargin
+$SmallRMargin
+%%scale .9
+X: 29
+T: Louisiana Swing
+I: Louisiana Swing	S-L	G	square
+C: S-L
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+D2E2F2| "G"G4 B4| G2G2 D4| G2G2 B2B2| G2G2 D4| G2G2 E2D2| G2G2 E2D2| "D"D8-| D6 D2|
+"D7"F2F2 A2A2| F2F2 D3D| F2F2 A2A2| F2F2 D3D| d2d2 d2d2| d2c2 B2A2| "G"G8-| G2 |]
+%%text 9/1/98
+
+#include "LeftHeader.h"
+%%text intentional blank so that each new letter is on the front of a page
+#include "RightHeader.h"
+$SmallLMargin
+$SmallRMargin
+%%scale .9
+X: 30
+T: Maple Sugar
+I: Maple Sugar	S-M	D/A	square
+C: S-M
+C: Ward Allen
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+F2 G2^G2 | "D"A4 A3B| A2G2 F2E2| F2 F4 G2| F4 G2F2| \
+"A7"F2E2 E2F2| G4 F2E2| "D"G2F2 F2=F2| F2 F2 G2^G2|
+"D"A4 A3B| A2G2 F2E2| F2 F4 G2| F4 G2F2| \
+"A7"F2E2 E2F2| G2G2 F2E2| "D"D2d2 A2F2| D2C2 D2E2 | [K: A]
+\
+"A"E4 E3F| E2C2 E2A2| c4 c3B| A2E2 G2A2| \
+"E7"B4 B3c| B2G2 F2G2| "A"A2A2 G2F2| E2C2 D2F2|
+"A"E4 E3F| E2C2 E2A2| c4 c3B| A2E2 G2A2| \
+"E7"B4 B3c| B2G2 F2G2|1 "A"A4 G4| "A7"=G2 :|2 "A"A8-| A2 |]
+%%text 9/1/98
+
+X: 31
+T: Marianne
+I: Marianne	S-M	F	square
+C: S-M
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+$NormLMargin
+$NormRMargin
+P: Intro
+K: F
+"Bb"zded "F"c2A2| "C7"C/CC/DE "F"Fzz2|
+$SmallLMargin
+$SmallRMargin
+P:
+|: "F"CAAA AAAA| AGBA "C"G3G| "C7"CGGG GGGG| GFAG "F"F3C|
+     "F"CAAA AAAA|"F7"cBdc "Bb"B4| zded "F"c2A2| "C7"zBAG "F"F2z2|
+     "F"A2c2 F2AA| "C7"AGB4z2| G2BB E2GG| "F"GFA4z2|
+%%vskip 5pt
+     "F"AAcc F2AA| "C7"AGB4z2| G2BB E2GG| "F"GFF2 z2zC :|
+%%text 9/1/98
+
+#include "LeftHeader.h"
+$SmallLMargin
+$SmallRMargin
+%%scale .9
+X: 32
+T: My Little Girl
+I: My Little Girl	S-M	G	square
+C: S-M
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+B,C^C| "G"D4- DDEF| A2G4FG| A2G2 D2E2| "D7"F4 zA,A,B,|
+       "D7"C4- CDEF| B2A4^GA| B2A2 F2 E2| "G"D4 zB,C^C|
+       "G"D4- DDEF| A2G4FG| "G7"A2G2 B2A2| "C"E4 zE^DE|
+       "E7+5"c4- cB^GE| "A7"B2A4^GA| "D7"B2A2 F2D2| "G"G4 z|]
+%%text 9/1/98.  Formerly W-16
+
+% ---------- N ----------
+
+#include "RightHeader.h"
+$SmallLMargin
+$SmallRMargin
+%%scale .9
+X: 33
+T: Nelly Bly #1
+I: Nelly Bly	S-N	C	square
+C: S-N
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: C
+"C"E2F2 G2G2| E2F2 G4| E2F2 G2A2| "G7"D6 D2| \
+"C"E2F2 G2G2| "F"A2B2 c4| "G7"B2c2 d2B2| "C"c8|]
+|: \
+"C"e4 c2c2| "F"c4 A2A2| "C"G2G2 E2C2| "G7"D6 D2| \
+"C"E2F2 G2G2| "F"A2B2 c4| "G7"B2c2 d2B2|1 "C"c4 c2d2 :|2 "C"c6 z2|]
+%%text 9/1/98
+
+X: 34
+T: Nelly Bly #2
+I: Nelly Bly	S-N	A	square
+C: S-N
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: A
+"A"C2D2 E2E2| C2D2 E4| C2D2 E2F2| "E7"B,6 B,2| \
+"A"C2D2 E2E2| "D"F2G2 A4| "E7"G2A2 B2G2| "A"A8|]
+|:\
+"A"c4 A2A2| "D"A4 F2F2| "A"E2E2 C2A,2| "E7"B,6 B,2| \
+"A"C2D2 E2E2| "D"F2G2 A4| "E7"G2A2 B2G2|1 "A"A4 A2B2:|2 "A"A6 z2|]
+%%text 9/1/98
+#include "LeftHeader.h"
+%%text intentional blank so that each new letter is on the front of a page
+% ---------- O ----------
+
+% ---------- P ----------
+
+% ---------- Q ----------
+
+% ---------- R ----------
+
+#include "RightHeader.h"
+%%scale .8
+$SmallLMargin
+$SmallRMargin
+X: 35
+T: Redwing #1
+I: Redwing	S-R	D	square
+C: S-R
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+A,4|: "D"D3D D2F2| A6 D2| "G"G2B2 d2B2| "D"A6 F2| "G"G2GF E2G2| "D"F2FE D2F2|1 "E"E2B,2 C2D2| "A7"E6 A,2:|2 "E"E2B,2 "A7"C2E2| "D"D4 |]
+d2c2| "G"B4 B3B| B2d2 c2B2| "D"A4 F4-| F2A2 B2A2| "A7"A4 (E4| E2) A2 B2A2| "D"A4 F4-| F4 d2c2|
+      "G"B4 B3B| B2d2 c2B2| "D"A4 F4-| F2A2 B2A2| "A7"A4 G4| F4 E4| "D"D8-| D4|]
+%%text 6/17/07.    Formerly W-16
+
+X: 36
+T: Redwing #2
+I: Redwing	S-R	G	square
+C: S-R
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+D4|: "G"G3G G2B2| d6 B2| "C"c2e2  g2e2| "G"d6 B2|\
+     "C"c2cB A2c2| "G"B2BA G2B2|1 "A"A2E2 F2G2| "D"A6 D2:|2 "A"A2E2 "D7"F2D2| "G"G4 |]
+\
+g2f2| "C"e4 e3e| e2g2 f2e2| "G"d4 B4-| B2d2 e2d2| "D7"d4 A4-| A2d2 e2d2| "G"d4 B4-| B4 g2f2|
+      "C"e4 e3e| e2g2 f2e2| "G"d4 B4-| B2d2 e2d2| "D7"d4 A4| "D"A2c2 B2A2| "G"G8-| G4|]
+%%text 2/10/00.    Formerly W-16
+
+X: 37
+T: Red River Valley
+I: Red River Valley	S-R	G	square
+C: S-R
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+D2G2| "G"B4 B2B2| "D7"B4 A2B2| "G"A2 G6-| G4 D2G2| B4 G2B2| d4 c2B2| "D7"A8-| A4 d2c2|
+      "G"B4 B2A2| G4 A2B2| "C"d2 c6-| c4 F2E2| "D7"D4 F2G2| A4 B2A2| "G"G8-| G4 |]
+%%text 06/17/07
+#include "LeftHeader.h"
+%%text intentional blank so that each new letter is on the front of a page
+
+% ---------- S ----------
+#include "RightHeader.h"
+$SmallLMargin
+$SmallRMargin
+%%scale .75
+X: 38
+T: Saletan Special
+I: Saletan Special	S-S	G	square
+C: S-S
+C: Bob McQuillen
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+G,2 B,2C2| \
+"G"D3E D2G2| B2G2 E3G| E2D2 D3E| D4 B,2C2| D3E D2G2| B2G2 D2B,2| "D"A,8-| A,4 A,2B,2|
+"D7"C3D C3D| C2A,2 A,3B,| C4 A,4-| A,4 D2E2| F3G A2F2| E2D2 d2c2| "G"B8-| "D7"B2 \
+G,2 B,2C2|
+"G"D3E D2G2| B2G2 E2G2| E2D2 D3E| D4 G2A2| B3A G2B2| d2B2 "G7"A2G2| "C"E8-| E4 E2F2|
+"C"G3F E2D2| E2F2 G2A2| "G"B2 d6-| d4 B,2D2| "A7"E3F G2E2| "D7"F3G A2B2| "G"G8-| G2A2 B2c2|
+"G"d3e d2B2| e2d2 B2G2| E2 D6-| D4 G2A2| B3d B2d2| e2d2 B2d2| "D7"A8-| A2B2 A2B2|
+"D7"c3B c2d2| e2d2 c2B2| c2 A6-| A4 d2e2| f3g a2g2| f2e2 d2c2| "G"B4 d3e|
+"D7"d2c2 B2c2| "G"d3e d2B2| e2d2 B2G2| E2 D6-| D4 B2c2| d3e d2B2| "G7"A2G2 g2f2| "C"e8-| e4 e2f2|
+"C"g4 g3f| e2f2 g2a2| "G"g2 d6-| d4 B2d2| "A7"e3d e2g2| "D7"f2d2 f2a2| "G"g8-| g2 |]
+%%text 9/1/98
+
+X: 39
+T: Sheik of Araby, The
+$NormLMargin
+$NormRMargin
+I: Sheik of Araby, The	S-S	A	square
+C: S-S
+C: T. Snyder
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: A
+"E7"E2=F2| "A"F6 E2| F6 "Cdim"E2| "E7"F8-| F6 E2| F6 E2| B6 c2| "A"A8-| A6 G2|
+"A"B6 F2| "Adim"A6 F2| "E7"F8-| F6 F2| "Bm7"A6 F2| "E7"G6 E2| "A"F8-| "B7"F6 "E7"E2|
+"A"F6 E2| F6 "Cdim"E2| "E7"F8-| F6 E2| F6 E2| B6 =c2| "C#"c8-| c6 c2|
+"F#"d6 c2| d6 c2| "B7"c8-| c6 G2| "E7"F6 G2| E6 B2| "A"A8-| A4 |]
+%%text 9/1/98
+
+#include "LeftHeader.h"
+%%scale .8
+X: 40
+T: Solomon Levi #1
+I: Solomon Levi	S-S	G	square
+C: S-S
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+z2z2zd| "G"Hdzd dzd| dzd dzd| "C"eze eze| e4 ze|
+        "D7"fzf fzf| fzf fze| "G"ezd dz^c| d4 zd|
+        "G"dzd dzd| dz d2 zd| "C"eze eze| e4 ze|
+        "D7"fzf fzf| fzf fze| dzd ezf| "G"g4 "fine"z2 |]
+|:\
+"B7"b3 fga| "Em"g3 e3| "B7"bc'b agf| "Em"e4 z2|
+"A7"a3 efg| "D"f3 d3| "A7"aba gfe| "D"ded cBA:|
+%%text arr. Tony Saletan
+%%text 9/1/98
+
+X: 41
+$SmallLMargin
+$SmallRMargin
+T: Solomon Levi #2
+I: Solomon Levi	S-S	G	square
+C: S-S
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+"G"d2d d2d| d2d Bcd| "C"e2e e2e| e3-e2 e| \
+"D7"f2f f2f| f2f f2e| "G"e2d d2e| d3 B2c|
+"G"d2d d2d| d2d Bcd| "C"e2e e2e| e3-e2 e| \
+"D7"f2f f2f| f2f f2e| ddd e2f| "G"g3 a"  fine"z|]
+\
+"B7"b3 fga| "Em"g3 e3| "B7"bc'b agf| "Em"e3-e2z| \
+"A7"a3 e2g| "D"f3 d3| "A7"aba gfe| "D7"ded cBA|]
+%%text Formerly J-55
+%%text 12/23/98
+
+#include "RightHeader.h"
+$SmallLMargin
+$SmallRMargin
+%%scale .8
+X: 42
+T: Solomon Levi #3
+I: Solomon Levi	S-S	D	square
+C: S-S
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+"D"A2A A2A| A2A FGA| "G"B2B B2B| B3-B2 B| \
+"A7"c2c c2c| c2c c2B| "D"B2A A2B| A3 F2G|
+"D"A2A A2A| A2A FGA| "G"B2B B2B| B3-B2 B| \
+"A7"c2c c2c| c2c c2B| AAA B2c| "D"d3 e"  fine"z|]
+\
+"F#7"f3 cde| "Bm" d3 B3| "F#7"fgf edc| "Bm"B3-B2z| \
+"E7"e3 B2d| "A"c3 A3| "E7"efe dcB| "A7"ABA GFE|]
+%%text Formerly J-55
+%%text 12/23/98
+
+$NormLMargin
+$NormRMargin
+X: 43
+T: Smoke on the Water
+I: Smoke on the Water	S-S	G	square
+C: S-S
+C: Zeke Clements
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+P: Intro
+K: G
+B2d2 d2e2| d2B2 G2A2| B2G2 A2F2| G2z2|
+D2E2| "G"G2G2 G2A2| G2E2 D2E2| "C"G2G2 G2E2| "G"G4 D2E2| \
+         G2G2 G2E2| G2G2 B2B2| "A7"A2G2 F2E2| "D7"D4 D2E2|
+      "G"G2G2 G2A2| G2E2 D2E2| "C"G2G2 G2E2| "G"G4 G2A2| \
+         B2d2 d2e2| d2B2 G2A2| "D7"B2G2 A2F2| "G"G4 D2E2|
+      "G"G2 G4 A2| G2E2 D2E2| "C"G2 G4 E2| "G"G4 D2E2| \
+         G2G2 G2E2| G2G2 B2B2| "A7"A2G2 F2E2| "D"D4 D2E2|
+      "G"G2z2 G2z2| G2E2 D2E2| "C"G2 G4 E2| "G"G4 G2A2| \
+         B2d2 d2e2| d2B2 G2A2| "D7"B2G2 A2F2| "G"G4 |]
+%%text 9/1/98
+
+#include "LeftHeader.h"
+%%scale .8
+X:44
+T:Snow Deer
+R:reel
+C:S-S
+C:Bob Wills?
+D:From The Essential Texas Fiddle by Joe Stephenson
+Z:Transcribed to abc by Debbie Knight, edited by Mary Lou Knack
+M:C|
+K:C
+G2c2d2|\
+"C"e2ed e2ef| e2c2 B2c2| "D"d2dc d2de | d2c2 B2A2| \
+  "G7"G4 d4-| d2c2 B2A2| "C"G4 e4| e2G2 c2d2|
+"C"e2ed e2ef| e2c2 B2c2| "D"d2dc d2de | d2c2 B2A2| \
+  "G7"G4 d4-| d2c2 d2e2| "C"c8- | c2c2 "C7"d2e2|
+"F"f4 A4-| A2c2 B2A2| "C"G4 e4-| e4 e3f| \
+   "G"e2d2 d2cd-| d4 d3e| "C"d2c2 c2Bc-|c2c2 "C7"d2e2|
+"F"f4 A4-| A2c2 B2A2| "C"G4 e4-| e4 e3f| \
+   "G7"e2d2 d2cd-|d2f2 e2d2| "C"c8 |1 c2 :|2 "C"c8 |]
+%%text tag line
+_AAFA BBAB| ddBd f2f2| gef^f ge=f^f| g^f=fe-e4|
+%%text 3/29/00.  From "The Essential Texas Fiddle" by Joe Stephenson.
+
+X:2
+T:Snow Deer (harmony)
+R:reel
+H:Bob Wills?
+Z:Transcribed to abc by Debbie Knight, edited by Mary Lou Knack
+M:C|
+K:C
+C2E2F2| \
+G2GF G2GA |G2E2 D2E2 |F2FE F2FG |F2E2 D2C2 | \
+     B,4 G4- |G2F2 E2D2 |C4 G4- |G2C2 E2F2 |
+G2GF G2GA |G2E2 D2E2 |F2FE F2FG |F2E2 D2C2 | \
+     B,4 F4- |F2E2 F2G2 | E8- |E2E2 F2G2|
+A4 F4- |F2A2  G2F2 | E4 G4- |G4 G3A | \
+     G2F2 F2EF- |F4 F3G | F2E2 E2DE- |E2 E2F2G2|
+A4 F4- |F2A2  G2F2 | E4 G4- |G4 G3A | \
+     G2F2 F2EF- |F2A2 G2F2| E8 |1 E2 :|2 E8|]
+%%text tag line
+FFDF _AAFA| BB_AB d2d2| ecd^d ec=d^d| e^d=dc- c4|
+
+% ---------- T ----------
+
+#include "RightHeader.h"
+$SmallLMargin
+$SmallRMargin
+%%footer 9/22/18 For use only by Roaring Jelly members
+%%scale .725
+X: 44
+T: Trail of the Lonesome Pine, The (key of F)
+I: Trail of the Lonesome Pine, The	S-T	F	square
+C: S-T
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+$NormLMargin
+$NormRMargin
+P: Intro
+K: F
+z4 _G2=G2| "C7"A4 G2E2| C4 G4| "F"F8-| F2z2 |
+$SmallLMargin
+$SmallRMargin
+P:
+|:A2_A2| "F"A4 C4| C2D2 C2A,2| "G7"=B,4 G4-| G4 _G2=G2| "C7"A4 G2E2| C4 G4| "F"F8-| F4 A2_A2|
+"F"A4 C4| C2D2 C2A,2| "G"=B,4 D4| G8| "G7"G4 G4| G2G2 F2D2| "C"E2E2 F2_G2| "C7"G4 A2_A2|
+"F7"A8-| A4 G2F2| G2A2 F2G2-| G4 A2F2| "Bb"G2 F6-| F4 F2D2| F2G2 _A2"A"=A2-| A4 "C7"A2_A2|
+"C7"A4 C4| C2D2 C2A,2| "G7"=B,4 G4-| G4 _G2=G2 |1 \
+  "C7"A4 G2E2| C4 G4| "F"F8-| F4 :|
+P:Last time
+[2 "C7"A4 c2A2| c4 A4| "F"F8-| F4 |]
+
+X:44
+T:Trail of the Lonesome Pine, The (key of G)
+I:Trail of the Lonesome Pine, The	S-T	F	square
+C:S-T
+M:C|
+Z:Transcribed to abc by Mary Lou Knack
+R:square
+$NormLMargin
+$NormRMargin
+P:Intro
+K:Gmaj
+z4 _A2=A2| "D7"B4 A2F2| D4 A4| "G"G8-| G2z2 |
+$SmallLMargin
+$SmallRMargin
+P:
+|:B2_B2| "G"B4 D4| D2E2 D2B,2| "A7"^C4 A4-| A4 _A2=A2| "D7"B4 A2F2| D4 A4| "G"G8-| G4 B2_B2|
+"G"B4 D4| D2E2 D2B,2| "A"^C4 E4| A8| "A7"A4 A4| A2A2 G2E2| "D"F2F2 G2_A2| "D7"A4 B2_B2|
+"G7"B8-| B4 A2G2| A2B2 G2A2-| A4 B2G2| "C"A2 G6-| G4 G2E2| G2A2 _B2"B"=B2-| B4 "D7"B2_B2|
+"D7"B4 D4| D2E2 D2B,2| "A7"^C4 A4-| A4 _A2=A2 |1 \
+"D7"B4 A2F2| D4 A4| "G"G8-| G4 :|
+P:Last time
+ [2 "D7"B4 d2B2| d4 B4| "G"G8-| G4 |]
+
+#include "LeftHeader.h"
+%%text intentional blank so that each new letter is on the front of a page
+% ---------- U ----------
+
+% ---------- V ----------
+
+% ---------- W ----------
+
+#include "RightHeader.h"
+$SmallLMargin
+$SmallRMargin
+%%scale .8
+X: 45
+T: Wearing of the Green
+I: Wearing of the Green	S-W	D	square
+C: S-W
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+DE| "D"F2F2 F2F2| F2A2 A2F2| "A7"F2E2 E2F2| E6 A2| \
+    "G"B2G2 d2c2| "D"B2A2 F2D2| "A7"E2D2 D2E2| "D"D6 :|
+\
+dc| "D"B2A2 A2F2| A2A2 D2E2| F2E2 F2G2| F4 d2c2| \
+    "G"B2B2 A2B2| "D"A2A2 D2F2| "E7"E2D2 C2B,2| "A"A,6 |]
+|: \
+DE| "D"F2F2 F2F2| F2A2 A2F2| "A7"F2E2 E2F2| E6 A2| \
+    "G"B2G2 d2c2| "D"B2A2 F2D2| "A7"E2D2 D2E2| "D"D6 :|
+%%text 9/1/98
+
+$NormLMargin
+$NormRMargin
+%%scale .8
+X: 46
+T: When the Work's All Done This Fall
+I: When the Work's All Done This Fall	S-W	C	square
+C: S-W
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: C
+ED|: "C"C2 C2 E2 G2| c2 c4 Bc| "D7"d2 d2 d2 c2| A6 c2|
+ "G"B2 B2 B3 B| B2 B4 A2|1 "G" G2 G2 A2 G2| "C"E6 D2 :|2 "C"G2 F2 E2 D2| C6 |]
+%%text 9/1/98.  Formerly R-26
+#include "LeftHeader.h"
+%%text intentional blank so that each new letter is on the front of a page
+
+
+% ---------- X ----------
+
+% ---------- Y ----------
+
+#include "RightHeader.h"
+$SmallLMargin
+$SmallRMargin
+%%scale .9
+X: 47
+T: You Call Everybody Darling
+I: You Call Everybody Darling	S-Y	G	square
+C: S-Y
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+"G"d3d edBd| b2g2- g3d| edBd edBd| "D7"f4- f3d|
+"D7"f^efe fa2d| "G"gfga "Em"bg2^g| "A7"a^gab a=gfe| "D7"ffg^g a4|
+"G"d3d edBd| b2g2- g3g| agfg "G7"agf=f| "C"e4- e3^d|
+"C"e^def g3e| "G"d^cdg "E"b3d| "A7"e^de^e "D7"fef=d| "G"g8 |]
+%%text 9/26/98

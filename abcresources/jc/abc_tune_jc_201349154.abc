@@ -1,0 +1,17 @@
+X: 1
+T: Vendelpolskan
+T: (Bondpolska fr\aan Viksta)
+C: Viksta-Lasse
+R: polska
+S: http://www.nyckelharpa.org/archive/written-music/american-allspel-list/ 2022/9/16
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: 1/4=108
+K: G
+|: "G"B2 (G>B) d>c | "Am"A2 (A<c) e>d | "G"(d>B) (G<B) "(D7)"d>c |\
+[1,3 "D7"(A<F) D4 :|[2,4 "D7"(A<F) "G"G4 :|
+|: "G"g2 (g<B) d>c | "Am"e2 (e<A) c>B | "D7"d2 (d<D) F>A |\
+[1,3 "(G)"(c<B) "G"GB d2 :|[2,4 "(G)"(c<B) "G"G4 :|
+|: "G"B,2 D2 D>D | "C"C2 E4 | "D7"(D>F) (A<c) B>A |\
+[1,3 "G"G2 Bc "(D7)"d2 :|[2,4 "(G)"(A<G) "G"G4 :|

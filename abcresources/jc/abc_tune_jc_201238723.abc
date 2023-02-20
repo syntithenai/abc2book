@@ -1,0 +1,26 @@
+X: 3121
+T: Lady Dalrymple of North Berwick's Favourite
+%R: air, march
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.12 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+Q: "Slowish"
+K: Am
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 12-bar lines, for compactness and proofreading.
+V: 1 staves=2
+!p!A |\
+A,A AA/B/ | {AB}cAAB | GGTG>B | {e}d2Tc>B ||\
+A,A AA/B/ | {AB}cAAc | (Be)E^G | {G}A2A, :|\
+e |!p!\
+aee2 | {d}cB/A/ A>B |!f! GGTG>B | {e}d2cB ||
+{^g}aee2 | {d}cB/A/ A>(c | B)eE^G | {G}A2A,2 ||\
+{^g}aee2 | {d}cB/A/ A>B | GGTG>B | {e}d2Tc>B ||\
+.a(ef)(d | e)(cd)(B | c).e E^G | {G}A2A, |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+!p!z | A2a2 | A2a2 | G2g2 | b2e2 || A2a2 | c2d2 | e2E2 | A2A :|
+z |!p! A2a2 | A2a2 |!f! G2g2 | b2e2 || A2a2 | A2c2 | e2E2 | A2A2 || A2a2 |
+c2A2 | G2g2 | b2e2 || A2B2 | c2d2 | e2E2 | A2A |]

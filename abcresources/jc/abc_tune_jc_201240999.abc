@@ -1,0 +1,61 @@
+X: 41
+T: la Reverie
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #41
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+E |\
+A2A Ace | a2a a2c | ded cdc | B2B B2E |\
+A2A Ace | a2a a2d | cec BdB | A2A A2 :|
+e |\
+a2a agf | b2b b2a | gag fge | f2B B2B |\
+e2e e^de | f2f fef | gag fgf | e2e "Da Capo"e2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z |\
+a2a c'2a | c'2a c'2a | b3 a3 |
+e3 e3 | c2A c2A | c2A c2f | e3 e3 |
+a2A A2 :| A | c2A f2f | g2e ^c2B | e3
+a2c' | b3 b2a | g3 e3 | ^d3 B3 |
+e2g b2B | e2e "Da Capo"e2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Reverie.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Couple Contretems
+%% Forward and Rigaudon, the first Gentleman and
+%% third Lady pass through the fourth Couple,
+%% and turn to their places, at the same time the
+%% first Lady and third Gentleman pass through
+%% the second Couple and turn to their places - 1/2
+%%endtext
+%%begintext align
+%%   The first and second Couple Right hand and
+%% Left, the third and fourth Couple Right hand
+%% and Left at the same time - - 1/1
+%%endtext
+%%begintext align
+%%   The second and fourth Couple Contretems
+%% Forward and Rigaudon, the second Gentleman
+%% and fourth Lady pass through the first Couple
+%% and turn to their places, at the same time the
+%% second Lady and fourth Gentleman pass
+%% through the third Couple and turn to their
+%% places - - - - 1/2
+%%endtext
+%%begintext align
+%%   The first and fourth Couple Right hand and
+%% Left, the second and third Couple Right hand
+%% and Left at the same time - - - 1/1
+%%endtext
+%%sep 1 1 400

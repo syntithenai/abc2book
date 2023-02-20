@@ -1,0 +1,43 @@
+
+X: 1
+T: Baym Rebin's Sude
+T: At the Rabbi's Table
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: E^G
+"(A)"ED \
+|: "E"^CDE2 E2E2 | E8 | "E"GAB2 "Dm"AGF2 | "E"E8 \
+| G4 "Am"A4 | "E"B4 "Am"A4 | "E"G6 F2 | G2F2 E2D2 |
+| "E"^CDE2 E2E2 | E8 | EFG2 "Dm"FED2 | D8 \
+| d2c2 B2A2 | G2D2 E2F2 | "E"E8- | E4 z4 :|
+|: "Am"E2A2 G2A2 | "E7"B2c2 B2E2 | "Am"A6 Bc | A8 \
+| "Dm"d4 "E7"e4 | "Dm"d4 "Am"c4 | "E"B6 A2 | B2A2 G4 |
+| "E"G4 "Am"A4 | "E"B4 "Am"A4 | "E"G6 F2 | G2F2 E2D2 \
+| "Dm"G2A2 A2A2 | GBAG FEDF | "E"E4- | EGBG | E8 :|
+|: "Am"cBcB cBA2 | "Dm"AGAG AGF2 | "E"EFG2 "Dm"FED2 | D8 \
+| G2A2 A2A2 | GBA2 G2A2 | "E"B4- BAGF | E8 |
+| "Am"cBcB cBA2 | "Dm"AGAG AGF2 | "E"EFG2 "Dm"FED2 | D8 \
+| "Dm"d2c2 B2A2 | G2D2 E2F2 | "E"E8- | E8 :|
+
+
+X: 2
+T: Baym Rebin's Sude
+T: At the Rabbi's Table
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: ^f^c^A
+"(B)"FE \
+|: "F#"^DEF2 F2F2 | F8 | ABc2 "Em"BAG2 | "F#"F8 \
+| A4 "Bm"B4 | "F#"c4 "Bm"B4 | "F#"A6 G2 | A2G2 F2E2 |
+| "F#"^DEF2 F2F2 | F8 | FGA2 "Em"GFE2 | E8 \
+| e2d2 c2B2 | A2E2 F2G2 | "F#"F8- | F4 z4 :|
+|: "Bm"F2B2 A2B2 | "F#7"c2d2 c2F2 | "Bm"B6 cd | B8 \
+| "Em"e4 "F#7"f4 | "Em"e4 "Bm"d4 | "F#"c6 B2 | c2B2 A4 |
+| "F#"A4 "Bm"B4 | "F#"c4 "Bm"B4 | "F#"A6 G2 | A2G2 F2E2 \
+| "Em"A2B2 B2B2 | AcBA GFEG | "F#"F4- | FAcA | F8 :|
+|: "Bm"dcdc dcB2 | "Em"BABA BAG2 | "F#"FGA2 "Em"GFE2 | E8 \
+| A2B2 B2B2 | AcB2 A2B2 | "F#"c4- cBAG | F8 |
+| "Bm"dcdc dcB2 | "Em"BABA BAG2 | "F#"FGA2 "Em"GFE2 | E8 \
+| "Em"e2d2 c2B2 | A2E2 F2G2 | "F#"F8- | F8 :|

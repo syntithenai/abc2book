@@ -1,0 +1,32 @@
+X: 4042
+T: Kenmure's on an' awa Willie
+%R: jig, air
+N: This is version 2, for ABC software that understands crescendo symbols.
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: S=!arpeggio!
+B: Niel Gow & Sons "Complete Repository" v.1 p.4 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: The clef changes might be better if left as bass clef.
+M: 6/8
+L: 1/8
+Q: "SLOW"
+K: Eb
+% - - - - - - - - - -
+V: 1 staves=2
+G/F/ |\
+~E>FG (eB).G | [B2G2][BG] [B2G2][cA] | ~E>FG (eB).G | {F}F3- F2G || TE>FG (eB).G | pBcd P{G}Te2d/c/ |
+{c}B>AG {B}A>GF | E3 z2 :| d | e2B (cB).G | [B2G2][BG] [B2G2]~d | e2B (cB).G | F3- F2Td ||
+e2B (cB).G | [BD][cE][dF] H[e2B2G2] d/c/ | {c}B>AG {B}A>GF | [E3B,3G,3] [E2B,2G,2] ~d || e2B (cB).G | [B2G2][BG] ([BG][cA][dB]) |
+e2B (cB).G | F3- F2~d || e2B (cB)G | pBcd PHe2d/c/ | {c}B>AG {B}A>GF | [E3-B,3G,3] [E2B,2G,2] |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+S[E3G3B3e3] S[e3g3b3e'3] | (e/g/)(b/e'/)(g/b/) e2d | e3 S[E3G3B3e3] | (B/d/)(f/b/)(d/f/) B2z || ede E3 | pb=a_a PHg2a |
+ga2 b2B | (E/G/)(B/e/)(G/B/) E2 :| [K:Eb clef=treble]\
+A | G3 (AG).E |\
+[K:Eb clef=bass middle=d] (e/g/)(b/e'/)(g/b/)  e2a | g3 (ag).e | (B/d/)(f/b/)(d/f/) B2a ||
+g3 .a(d'e') | b=a_a Hg2a | ga2 b2B | (E/G/)(B/e/)(G/B/) E2 [K:Eb clef=treble]\
+A || G2G (AG).E | \
+[K:Eb clef=bass middle=d] (e/g/)(b/e'/)(g/b/) e3 |
+g2g (ag).e (B/d/)(f/b/)(d/f/) B2a || g2g (ag).e | pgaf PHe2A | GA2 B2B, | (E/G/)(B/e/)(G/B/) E2 |]

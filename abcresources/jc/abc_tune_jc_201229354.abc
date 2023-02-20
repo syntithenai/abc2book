@@ -1,0 +1,20 @@
+X: 1221
+T: What The D..l ails you.   a Reel
+%R: air, reel
+B: Niel Gow & Sons "Complete Repository" v.1 p.22 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+e !segno!|\
+(Tc>BA)g agec | Tdefd gfed | Tc>BAg agec | defg Te2d :| e | Tc>(BAc) E/E/E c2 | Td>efd (gf).e.d |
+Tc>BAG E/E/E Tc2 | !f!d>efg Te2de || Tc>BAc E/E/E c2 | Td>efd (gf).e.d | Tc>BAG E/E/E Tc2 | !f!d>efg Te2de !segno!|]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z !segno!|
+a2a2 a2a2 | bc'd'2 e'2e2 | a2e2 A2e2 | f2f2 e3 :| z | a2a2 A2A2 | f2f2 e2^g2 |
+a2a2 A2e2 | !f!f2f2 [e2E2][e2E2] || a2a2 A2A2 | f2f2 e2^g2 | a2a2 A2e2 | !f!f2f2 [e3E3]z !segno!|]

@@ -1,0 +1,16 @@
+X: 21763
+T: SLING THE HATCHET -- Reel
+R: reel
+B: K\"ohler's Violin Repository, v.2, 1885 p.176 #3
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Fixed missing beam in bar 14, to be like bar 10.  The extra sharp in bar 14 is in the music.
+M: C|
+L: 1/8
+K: G
+(Bc) !segno!|\
+(dB)cd (ef)ge | dBGB AGBG | DG ((3GFG) DG ((3GFG) | AGAB A2(Bc) |
+(dB)cd (ef)ge | dBGB AGBG | DG ((3GFG) DG ((3GFG) | AcBA G2 :| (ga) |
+(b2g2) ed ((3d=cd) | Bd ((3d^cd) ed ((3dcd) | b3(a gf)ed | (Be)e^d (ef)ga |
+(ba)gf (gf)ed | Bd ((3d^cd) ed ((3d^cd) | (ba)gf (gf)ed |[1 (Bg)fg (ag)fg :|[2 ecAF G(gfg) !segno!"_D.C."|]
+

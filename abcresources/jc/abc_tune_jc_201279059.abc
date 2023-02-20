@@ -1,0 +1,22 @@
+X: 601
+T: Gammel Sekstur
+O: Vestjylland
+R: jig
+Q: 3/8=108
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+B: "358 danske Folkedansemelodier", Bind II #601 p.128 1984
+M: 6/8
+L: 1/8
+%%partsfont Times-Italic 12
+%%partsspace 0
+%%musicspace 0
+K: A
+P: Hurretrin
+|: (A2c) (e2c) | fdf e3 | dBd cAc |1 BFG EFG :|2 BFG A2z "fine"||
+P: Sidel\obs-/Hurretrin
+K: E
+|: BzB eze | gzg (b2g) | afd Bcd |1 fec B2B :|2 eze e2=d ||
+P: Gangtrin
+K: A
+[| c3 B2A | d3 (c2B) | g2f (edB) | (f2e) (cAB) \
+|  cdc (B2A) | ded (c2B) | g2f edc | AzA A2z |]

@@ -1,0 +1,16 @@
+X: 1
+T: Wildwood Flower   [A]
+C: music: Joseph Philbrick Webster (1860)
+R: song, march
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+% %continueall yes
+% = = = = = = = = = =
+CD | "A"[E2C2] FA | [C2A,2] DC | "E"[B,2G,2] CB, | "A"[E4A,4] |\
+z2 CD | "A"[E2C2] FA | [C2A,2] DC | "E"[B,2G,2] CB, | "A"[E4A,4] |
+z2 EA | "A"[c2A2] cB | A2 EE | "D"[F2D2] AF | "A"[E2A,2] "*"z2 |\
+z2 CD | "A"[E2C2] FA | [C2A,2] DC | "E"[B,2G,2] CB, | "A"[E4A,4] | z4 |]
+%
+%%text * The "filler" (rests) here are often omitted.

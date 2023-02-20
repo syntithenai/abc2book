@@ -1,0 +1,16 @@
+X: 405
+T: the Yellow Garron
+R: march, air
+%S: s:4 b:16(4+4+4+4)
+N: Irish title: an garran bui.de
+B: O'Neill's 1850 #405
+O: J.O'Neill
+Z: henrik.norbeck@mailbox.swipnet.se
+Q: "With spirit"
+M: 2/4
+L: 1/8
+K: Amix	% or maybe D (or "ambiguous")
+[| A>B cA | dc B^G | A>B cA | Bc d2 ||
+|  f>e dA/B/ | cc Bc | dB AF | DF/A/ B2 |]
+|| A>D DF | E/D/E/F/ EF/G/ | A>D DF | EF B2 ||
+|  A>D DF | F/E/F/D/ EA | dc/B/ AF | DF A2 |]

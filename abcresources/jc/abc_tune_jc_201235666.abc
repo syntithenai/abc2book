@@ -1,0 +1,28 @@
+X: 21293
+T: WESTMINSTER SETT (tune 6)
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.129 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The first "turn" ornament was drawn before the initial bar line, but some ABC software can't handle that.
+N: The 2nd strain has an initial repeat, but no final repeat.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="6"
+[|{edc}\
+d4 {edc}d4 | d4 cAFA | d2de f2df | edcB AABc |\
+~d6 e2 | d3d defg | abag fage | d6 H|]
+|: dB |\
+A4 F2dB | A4 F2d2 | e2fd c2e2 | dcde d2dB |\
+A4 F2dB | A4 F2d2 | efed cdec | "^D.C."d6 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies all balance to the right,
+%% all promenade,
+%% gentlemen the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

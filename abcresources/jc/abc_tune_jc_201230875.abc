@@ -1,0 +1,33 @@
+X: 142
+T: Border Reel
+T: Longways for as &c.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.71
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+cAA eAA | cAA e2c | dBB fBB | dBB f2e |\
+cAA eAA | cAA e2c | d2e fga | edc B2A :|
+|:\
+cAA f/g/a/g/f/e/ | cAA e2c | dBB f/g/a/g/f/e/ | dBB f2e |\
+cAA f/g/a/g/f/e/ | cAA e2c | d2e fga | edc B2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The two 1st Men whole Figre round their
+%% partners, then the 1st Man lead his partner
+%% thro' the 2d Cu .| the two 1st We. Figure round
+%% the Men, and the Wo. lead her partner thro' :|
+%% the 1st Man sett to the 2d Wo. and turn single,
+%% the 1st Wo. sett to the 2d Man, and 1st Cu. cast off
+%% the 1st Man takes his partner by both hands,
+%% and draws her quite round the 3d Cu. and
+%% round the 2d Cu. :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

@@ -1,0 +1,20 @@
+X: 39
+T: the Six following Tunes are taken from Oscar & Malvina
+%R: jig
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.16 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Fixed the incorrect rhythm of bar 12 in one of the two possible ways (the one most like others in this tune).
+N: Added some missing dots to make several bars similar to bar 8.
+M: 6/8
+L: 1/8
+K: D
+|:\
+d3 d3 | dcB A3 | dcB AGF | F/G/AF E2D |\
+e3 e3 | fed cag | fed cAB | d>ef/g/ e2d :|
+|:\
+fdd eAA | fed eAA | gee fBB | ga/g/f/e/ fBB |\
+fdd eAA | fg/f/e/d/ | eag | fed dAB | d>ef/g/ e2d :|
+|:\
+dfa dfa | dfa agf | egb egb | egb bge |\
+dfa dfa | dfa agf | f>ed cAB | d>ef/g/ Te2d :|

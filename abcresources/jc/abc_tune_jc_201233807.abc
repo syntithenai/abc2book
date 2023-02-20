@@ -1,0 +1,33 @@
+X: 20121
+T: ATHOL CUMMERS
+O: Strathspey.--Scottish.
+%R: strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.12 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: E
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F2 !segno!|:\
+EEE2 E4 E3FB3F | EEE2 EF3 D2F2A3F |\
+EEE2 E4 E3FB3F | Bd3A3B F3DA3F |\
+EEE2 E4 E3FB3F | EEE2 E4 F3DA3F |\
+EEE2 E4 E3FB3A |
+Bd3Ad3 F3DD3d |]|\
+BE3B3A B2E2E2e2 | BE3B3A F2D2D2d2 |\
+BE3B3A d3ef3e | d^cBA d3A F2D2Dd3 |\
+BE3B3A B2E2E2e2 | BE3B3A F2D2D2d2 |
+BE3B3A d2e2{de}f3e | d^cBA {c}d2A2 F2D2"^Fin."D2f2 H|]|\
+eee2 e4 e3fb3f | eee2 e4 f3da2f2 |\
+eee2 e4 e3fb3f | g3eb2e2 d2fg a2f2 |
+g2e2b2e2 g2e2b2e2 | g2e2b2e2 d2fg a2f2 |\
+g2e2b3B d2e2{de}f3e | d^cBA {c}d3A F3DDd3 |]|\
+B3EB3A G2E2Ee3 | B3EB3A F3DD3d |
+BE3B3A d3ef3e | d^cBA {c}d2A2 F2D2Dd3 |\
+BE3B3A G2E2Ee3 | BE3B3A FD3Dd3 |\
+B3EB3A d2e2{de}f2e2 | d^cBA BcdA F3DA2F2 !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

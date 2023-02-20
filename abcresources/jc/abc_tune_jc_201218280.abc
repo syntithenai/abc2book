@@ -1,0 +1,24 @@
+X: 8
+T: la Rosetta
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.4 #8
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D |\
+G2G GBg | G2G G2G | A2A ABc | B2G G2D |\
+G2G GBg | G2G G2G | AcB AGF | G2G G2 :|
+|: d |\
+g2g aga | b2g g2d | ded dcB | A2D D2d |\
+g2g aga | b2g g2e | dcB AGF | G2G G2 :|
+|: b | !p!\
+bab c'2b | aga b2a | gfg a2g | f2B B2b |\
+bab c'2b | aga b2a | gfe fe^d | e2e e2 :|
+|: g |\
+g2d ded | b2g g2d | ded dcB | AFD D2d |\
+g2d ded | b2g g2e | dBd cBA | G2G G2 :|
+|: d |\
+AGA B2d | AGA B2d | dcB A2G | F2D D2d |\
+AGA B2d | AGA B2d | dcB AGF | G2G G2 :|

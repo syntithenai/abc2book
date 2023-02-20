@@ -1,0 +1,18 @@
+X: 21283
+T: MRS. LOCH'S FAVOURITE JIG
+R: jig
+B: K\"ohler's Violin Repository, v.2, 1885 p.128 #3
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a final repeat that doesn't make sense, since the ending leads back to the first phrase. (Fixed.)
+M: 6/8
+L: 1/8
+K: Eb
+uB !segno!|\
+BeB cec | BGE (.E2.G) | (F2G) EB,E | (F2G) (.F2.B) |\
+BeB cec | BGE (E2G) | (F2G) EB,E | (F2G) E2 :|
+z  |\
+(vg2e) BGB | (c2e) G3 | ABc (.E2.E) | (F2G) B,3 |\
+(g2e) BGB | (c2e) (G2B) | ABc (f2g) | agf edc !segno!|]
+
+% %center (To be continued.)

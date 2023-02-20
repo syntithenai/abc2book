@@ -1,0 +1,21 @@
+X: 10514
+T: YE MARINERS OF ENGLAND
+Q: "Bold, and not too fast."
+%R: air, march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.51 #4
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+b8 | f2g2 e2(dc) | d4 d2f2 | f2f2 f2=e2 |\
+f4 c4 | d2d2 d2(cB) | c2c2 c2(BA) | (dc)(BA) A2G2 |\
+F4 f4 | e2f2 d2e2 | c3d c2f2 | e2f2 d2e2 |\
+(d4 c4) | z4 c3c | d4 e3f | g4 e3d |
+c4 d3e | f4 f3e | d4 e3e | (d4 c4) | Hz4 !segno!|: f3e |\
+d2d2 d2d2 | (cBcd c2)cd | e2e2 e2e2 | (dcde d2)ef |\
+g2g2 g2g2 | (fefg f2)fe | (gf)(ed) d2c2 | HB4 !segno!:|"_Repeat chorus ff."y8 y8 y8 y8 ||
+% - - - - - - - - - - - - - - - - - - - - - - - - -

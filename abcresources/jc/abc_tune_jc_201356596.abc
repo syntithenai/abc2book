@@ -1,0 +1,75 @@
+%!abctab2ps -notab
+%
+%%topmargin      2.20cm
+%%topspace       -0.40cm
+%%composerspace  -12pt
+%%sysstaffsep   28pt
+%%systemsep     70pt
+%%staffsep      85pt
+%%stretchlast   yes
+%%vocalfont     Times-Roman 16.0
+%%textfont      Times-Roman 10.0
+%%titleleft
+%%strictness2   1.0
+%
+X:1
+%
+%%barnumbers     0
+%%scale          0.63
+%%vocalfont      Times-Roman 18.0
+%
+T:Lobt Gott, ihr Christen all zugleich
+C:Text und Melodie: Nikolaus Herman (1560)
+C:Satz zu drei Stimmen: Christoph Dalitz (1989)
+L:1/4
+M:C|
+K:F
+%
+V:S clef=treble bracket=3
+%%MIDI program 52  % 53. Choir Aahs
+V:A clef=treble
+%%MIDI program 52  % 53. Choir Aahs
+V:T clef=treble8 octave=-1
+%%MIDI program 52  % 53. Choir Aahs
+%
+[V:S] F | cc cc | dc/B/ AA | G>A BB | A>B cc |
+w: 1.~Lobt Gott, ihr Chri-sten all*** zu-gleich,** in sei -* nem
+[V:A] z | z2 zC | FF FF | FE/D/ EE | F>G AA |
+w: 1.~Lobt Gott, ihr Chri-sten all*** zu-gleich** in
+[V:T] z | z4 | z2 zF | cc cc | dc/B/ AA |
+w: 1.~Lobt Gott, ihr Chri-sten all zu - gleich, in
+%
+[V:S] dc2 =B | c2 zc | cc cA/B/ | cB/A/ Gc |
+w: h\"o - chsten Thron, der heut schlie\sst auf sein* Hi-mmel - reich und
+[V:A] GG FF | E>F GF | EE EF/G/ | AG/F/ EF |
+w: sei-nem h\"o-chsten Thron,** der heut schlie\sst auf sein* Hi-mmel - reich und
+[V:T] Bc dd | c3 z | z2 zc | cc cA/B/ |
+w: sei-nem h\"o-chsten Thron, der heut schlie\sst auf sein* 
+%
+[V:S] AG/F/ GG | F2 z2 | z2 zG | GA/B/ c>B | A3 |]
+w: schenkt uns* sei-nen Sohn, und schenkt uns* sei-nen Sohn.
+[V:A] F2 E2 | z F2 E | F2 E2 | DF FE | F3 |]
+w: schenkt uns sei-nen Sohn, und schenkt uns sei-nen Sohn.
+[V:T] cB/A/ Gc | AG/F/ GG | F/G/A/B/ cc | BA/G/ AG | F3 |]
+w: Hi-mmel - reich und schenkt uns* sei-nen Sohn,**** und schenkt uns* sei-nen Sohn.
+%
+W:
+W:2. Er kommt aus seines Vaters Scho\ss und wird ein Kindlein klein.
+W:Er liegt dort elend, nackt und blo\ss in einem Krippelein.
+W:
+W:3. Ent\"au\ssert sich all seiner G'walt, wird niedrig und gering
+W:und nimmt an eines Knechts Gestalt, der Sch\"opfer aller Ding.
+W:
+W:4. Heut schlie\sst er wieder auf die T\"ur zum sch\"onen Paradeis.
+W:Der Cherub steht nicht mehr daf\"ur. Lob sei Gott, Ehr und Preis.
+W:
+W:
+%
+
+%%vskip 0cm
+%%begintext align
+Dieses Werk steht unter der Creative Commons Attribution 2.0 Germany
+License. Diese erlaubt ausdrücklich das freie und kostenlose Kopieren,
+Verbreiten und Aufführen des Werks. Der komplette Text der Lizenz findet 
+sich unter http://creativecommons.org/licenses/by/2.0/de/.
+%%endtext

@@ -1,0 +1,24 @@
+X: 2273
+T: the High way to Dublin.   a Jig.
+%R: jig, air
+B: Niel Gow & Sons "Complete Repository" v.2 p.27 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: A key of Amix would work better, and you'd only need to mark the two ^g notes.
+M: 5/8
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+=g |\
+~f>ed ~c>BA | ecA A2=g | ~f>ed TcBc | dB=G G2g ||\
+~f>ed ~c>BA | def ef^g | a=gf Tg2e | dB=G G2 :|
+|: =g |\
+(f/=g/a).f =g2f | ecA A2=g | (f/=g/a).f =g2e | dB=G G2g ||\
+(f/=g/a)f geg | fdf ef^g | a=gf gfe | dB=G G2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+a3 a3 | a3 a3 | a3 a3 | =g3 g3 || a3 a3 | a3 a3 | b3 =c'3 | =g3 g2 :|
+|: z |\
+a3 a3 | a3 a3 | a3 b2=c' | =g3 g3 || a3 c'3 | d'3 e'3 | a3 e3 | =g3 [g2G2] :|

@@ -1,0 +1,17 @@
+X: 1436
+T: the Drummond Lasses
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #1436
+O: McFadden
+Z: Bob Safranek, rjs@gsp.org
+Z: Ornament (~) is a turn.
+M: C|
+L: 1/8
+K: G
+"^A"[|\
+G2(BG) dGBG | G2(BG) EAAF | G2(BG) dGBd | cABG (EG)G2 ||
+G2(BG) dGBG | dG(BG) EAAF | G2(Bc) dege | dBAG (EG)G2 |]
+"^B"[|\
+       gfed ((3Bcd) (ef) | gfed eaag | gfed BcdB | cABG EGG ||
+|| d | gfed ((3Bcd) (ef) | gfed (ea)~a2 | bgaf gedB | cABG (EG) G2 |]

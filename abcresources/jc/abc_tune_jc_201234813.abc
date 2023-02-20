@@ -1,0 +1,29 @@
+X: 20801
+T: the Flowers of the Forrest
+%R: air, reel
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.80 #1
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+%%slurgraces 1
+%%graceslurs 1
+|: "_Slow"\
+   A4 A3B (3(A2B2d2) (3(e2f2g2) | {g}f4 Te2d2 B3d (3B2A2F2 \
+|  E2(FA) A3B (3A2B2d2 (e3f/)g/ | f4 Te4 {de}d8 \
+:: =c4- cedc TB4 (3(A2B2d2) | A2f2e3d B3d (3(B2A2F2) |
+|  =c4- c(edc) TB4 (3(A2B2d2) | A2f2Te3d d8 \
+|  =c4- cedc B4 (3(A2B2d2) | A2f2Te3d B3d (3B2A2F2 \
+|  (E2FA) A3B (3(A2B2d2) e2(fg) | f4 Te3d d8 |
+:: A4 d2(BA) A4 d2(BA) | af3 Te3d B3d (3B2A2F2 \
+|  A4 d2(BA) (A4 B2)b2 | (af3) Te3d d8 \
+:: f2(ga) a3b {b}a4 Tg2f2 | f3a (3(f2e2d2) B3d (3(B2A2F2) |
+|  f2ga b2d'b a4 Tg2f2 | (efgf) Te3d d6 e2 \
+|  f2(ga) a3b a4 (g2f2) | f3a (3(f2e2d2) B3d (3(B2A2F2) \
+|  E2(FA) A3B (3(A2B2d2) (e3f/g/) | f4 Te4 {de}d8 |
+:: (d2c2)(B2A2) (d2c2)(B2A2) | (g2f2)(e2d2) B3d (3(B2A2F2) \
+|  (E4 F2)A2 (f4 e2)d2 | c4 TB3A A8 \
+:: =c4 TB3A B4 d4 | A2a2 (gfed) B3d (3(B2A2F2) |
+|  (A4 B2)c2 d4 (cdef) | c4 TB3A A8 \
+|  a4 =c4 B4 (b2a2) | (g2f2)(e2d2) B3d (3B2A2F2 \
+|  (E2F2)(A2B2) d4 (e3f/g/) | f4 Te3d d8 :|

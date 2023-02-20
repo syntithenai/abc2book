@@ -1,0 +1,11 @@
+X:1
+T:TEST: Bass
+C:J.S. Bach
+%%indent 80
+M:C
+L:1/8
+K:C
+V:3 clef=bass   name="Violoncello\\<Vla. da Gamba>" sname="Vc."
+[V:3] z cec gGBG | Aa- a/_b/a/g/ f3 g/f/ |
+w: c e c  g G B G |  A a-  a/ b/ a/ g/  f3  g/ f/ |
+

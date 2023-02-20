@@ -1,0 +1,13 @@
+X:1
+T:Pat the Budgie
+R:Reel
+M:C
+%%printtempo 0
+Q:180
+K:C
+"C"C3E G3E|"F"FEFA "Dm"d3 c|"G"BG (3.G.G.G ^FGAB|"C"cBcd ecGE|
+"C"CB,CE G3E|"G"FEFA "Dm"d3c|"G"BG (3.G.G.G ^FGAB|1"C"ccBd c4:|2"C"ccBd c3e||
+|:"F"f3e fagf|"C"eccB c3c|"G"BG (3.G.G.G BcdB|"C"cBcd edce|
+"F"f3e fagf|"C"eccB cBAc|"G"BG (3.G.G.G BGAB|1"C"ccBd c3e:|2"C"ccBd cef^f||
+|:"C"g3 e "F"a2ae|"C"gage cgec|"G"BABc dBAB|"C"cBcd ecef|
+"C"g4 "F"a2 ae|"C"gage cgec| "G"B2GA BcdB|1"C"ccBd cef^f:|2"C"ccBd cGED|]

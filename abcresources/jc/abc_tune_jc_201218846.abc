@@ -1,0 +1,31 @@
+X: 17
+T: Major Shanly
+C: Carolan
+%R: reel, march
+B: "The Hibernian Muse" p.11 #2
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added missing rest in last bar of bass line.
+P: No. XVII.
+M: C
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+d2g2 g^fga | =f2d2 {d}e2d2 | Tc2B2 TA2GA | F4 F4 |\
+GABc B2d2 | c2B2 ABAG | ^F2A2 D2TF2 | G6 |]
+Bc |\
+dDFD G2A2 | B2cB c2d2 | e2fe d2d2 | g2a2 b2(c'<a) |\
+b2(c'<a) b2d2 | b2d2 d2=e2 | f2(g<=e) f2(g<e) | f2B2 {d}e2d2 | Tc2B2 e2d2 |
+c2BA {A}B2A2 | G2^FG A4 | D2D2 D2=E2 | F2F2 F2BA |\
+G2G2 G^FGA | TB4 A2^FA | (B/c/d) G2 ^F2=ED | d2G2 T^F2(=EF) | G4 z4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+g4 e4 | d4 c2B2 | A2G2 c2C2 | f2c2 A2F2 |\
+G6 b2 | a2g2 f2e2 | d2c2 d2D2 | G2g2 G2 |] z2 |
+d4 e2d2 | g4 a2b2 | c'2d'c' b2a2 | g2^f2 g2f2 |\
+g2^f2 g2z2 | z2b2 B2c2 | d2B2 A2c2 | f2d2 c2B2 | A2G2 c'2b2 |
+a2g^f g2d2 | B2b2 agfe | f2e2 d2^c2 | d2d2 d2d2 |\
+B2G2 B2d2 | g4 ^f2d2 | g2e2 d2c2 | B2c2 d2D2 | G2g2 G2z2 |]

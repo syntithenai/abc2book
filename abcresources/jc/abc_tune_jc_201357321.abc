@@ -1,0 +1,27 @@
+X: 1
+A:Adam de la Halle
+T:Fi maris de vostre amour
+N: (condensed)
+M:3/4
+L:1/4
+Q:1/4=120
+K:F Lydian
+%
+%%MIDI program 1       70 bassoon
+%%MIDI program 2       71 clarinet
+%%MIDI program 3       72 piccolo
+V:1 clef=treble
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+%
+[V:1][K:C] C2 (D/E/)    | F2 (F/G/)| A2  (A/4G/4F/)| G2
+[V:2][K:C] F2 (F/4E/4D/)| C2  D    | E2  (E/4D/4C/)| D2
+[V:3][K:F] F,2 G,       | F,2 B,   | A,2  A,       | G,2
+w:  1.4.7.~Fi  ma-        ris de   vostre a-         mour,
+w:  ~~5.~~~Il  me        sert et    nuit  et         jour.
+%
+[V:1][K:C](F/G/)  |(F/E/D)   E  | F3   ||  C2   (D/E/)    | F2   G | A2 (A/4G/4F/)||
+[V:2][K:C](C/D/)  |(C/B,/A,) B, | C3   ||  F2   (F/4E/4D/)| C2   D | E2 (E/4D/4C/)||
+[V:3][K:F](F,/G,/)| A,2      G, | F,3  ||  F,2   G,       | F,2  B,| A,2  A,      ||
+w:    2.8.~Car*     j'ai     a-   mi  3.9.~Biaus et         de noble a-   tour.
+w:    ~~6.~Pour*    che    l'aim  ci.

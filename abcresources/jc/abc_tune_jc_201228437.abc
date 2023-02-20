@@ -1,0 +1,89 @@
+X: 11291
+T: DUKE OF REICHSTADT'S WALTZ
+C:
+%R: waltz
+N: This is version 2, for ABC software that understands tremolo notation.
+N: Oddly, the book uses both 6 dots and the beam across the note's step to indicate the repetitions.
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.129-134
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: There are several bars with seemingly missing tremolo signs in on some full-measure notes. Not fixed.
+N: The repeat symbols are a bit odd, with "Trio" in the middle of a long repeated section. Not fixed.
+N: There's an extra beat at the start of the Trio section. Not fixed.
+M: 3/4
+L: 1/8
+K: Eb
+%%indent 70
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="Eb Clarionet" sname="EbClar" staves=8
+K: C
+c'2 | b2 z2 a2 | g2 z2 ^f2 | a2 z2 g2 | "^......"!/!e6 | f2 z2 g2 | "^......"!/!d6 |
+e2 z2 g2 | !/!c'6 | b2 z2 a2 | g2 z2 ^f2 | a2 z2 g2 | !/!g6 | f2 z2 a2 | !/!d'6 | e'2 (ac').g.e |
+c4 H::!mf! b2 | c'2 z2 d'2 | e'2 z2 c'2 | b2 z2 c'2 | .d'6 | a2 z2 b2 | .c'6 | g2 z2 a2 | .b6 |
+c'2 z2 !f!d'2 | (^f'3 e'd'c') | b2 z2 c'2 | (e'3 d'c')b | a2 z2 b2 | (d'3 c'ba) | (g2 {a}g^fga) | g2 z2 c'2 |]| [K:F] "Trio."z2 |
+z6 | z6 | z6 | z6 | z6 | z6 | z6 | z2 z2 :: a2 | aa a2 (=b^c') | d'd' d'2 ef |
+gg g2 (fd) | cc c2 c2 | aa a2 g2 | ff f2 c2 | dd d2 c2 | dd d2 c2 | aa a2 g2 | ff f2 c2 | dd d2 e2 | f2 "^D.C."f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 name="1st Bb Clarionet" sname="BbClar1"
+K: F
+f2 | !p!e2 z2 d2 | c2 z2 =B2 | d2 z2 c2 | "^......"!/!f6 | g2 z2 c2 | "^......"!/!e6 |
+f2 z2 c2 | !/!f6 | e2 z2 d2 | c2 z2 =B2 | d2 z2 c2 | !/!a6 | g2 z2 d2 | !/![g6e6] | [a2f2] (ef).c.A |
+F4 :: e2 | f2 z2 g2 | a2 z2 f2 | e2 z2 f2 | .g6 | d2 z2 e2 | !/!.f6 | c2 z2 d2 | !/!.e6 |
+f2 z2 g2 | (=b3 agf) | e2 z2 f2 | (a3 gfe) | d2 z2 e2 | (g3 fed) | c2 {d}c=Bcd | c2 z2 f2 |]| [K:Bb] f2 |
+.d'.d' .d'2.c'2 | .b.b .b2 .f2 | .g.g .g2 .f2 | .g.g .g2 .f2 | d'd' d'2 c'2 | bb b2 f2 | gg g2 a2 | b2 b2 :: !f!d2 | dd d2 =e^f | gg g2 ab |
+c'c' c'2 bg | ff f2 f2 | !p!d'd' d'2 c'2 | bb b2 f2 | gg g2 f2 | gg g2 f2 | d'd' d'2 c'2 | bb b2 f2 | gg g2 a2 | b2 b2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 name="2d Bb Clarionet" sname="BbClar2"
+K: F
+z2 | (B2 C2) C2 | (B2 C2) C2 | (B2 C2) C2 | (B2 C2) C2 | B2 C2 C2 | G2 C2 C2 |
+A2 C2 C2 | A2 C2 C2 | B2 C2 C2 | B2 C2 C2 | A2 C2 C2 | c2 D2 D2 | B2 D2 D2 | B2 C2 C2 | A2 c2 c2 |
+A4 :: c2 | d2 z2 e2 | f2 z2 d2 | c2 z2 d2 | .!/!e6 | =B2 z2 c2 | !/!d6 | E2 z2 G2 | !/!c6 |
+d2 z2 e2 | (g3 fec) | c2 z2 d2 | (f3 edc) | =B2 z2 c2 | (e3 dcG) | E2 (EDEF) | E2 z2 z2 |]| [K:Bb] !p!F2 |
+.f.f .f2 .e2 | .d.d .d2 .d2 | ee e2 F2 | ee e2 F2 | ff f2 e2 | dd d2 d2 | ee e2 e2 | d2 d2 :: z2 | cc c2 c2 | BB B2 B2 |
+BB B2 B2 | AA A2 F2 | ff f2 e2 | dd d2 d2 | ee e2 F2 | ee e2 F2 | ff f2 e2 | dd d2 d2 | ee e2 e2 | d2 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 4 name="1st Horn in Eb" sname="EbHn1"
+K: C
+z2 | z2 d2 d2 | z2 d2 d2 | z2 c2 c2 | z2 c2 c2 | z2 d2 d2 | z2 d2 d2 |
+z2 c2 c2 | z2 c2 c2 | z2 d2 d2 | z2 d2 d2 | z2 e2 e2 | z2 g2 g2 | z2 f2 f2 | z2 d2 d2 | z2 c2 c2 |
+c4 :: z2 | z2 d2 d2 | z2 d2 d2 | z2 d2 d2 | z2 d2 d2 | z2 d2 d2 | z2 d2 d2 | z2 d2 d2 | z2 d2 d2 |
+z2 d2 d2 | z2 d2 d2 | z2 d2 d2 | z2 d2 d2 | z2 d2 d2 | z2 d2 d2 | z2 d2 d2 | d2 z2 z2 |]| [K:F] z2 |
+.c.c .c2 .c2 | .c.c .c2 .c2 | z2 c2 c2 | z2 c2 c2 | cc c2 c2 | cc c2 c2 | z2 c2 c2 | c2 c2 :: z2 | ee e2 e2 | dd d2 d2 |
+dd d2 d2 | cc c2 z2 | cc c2 c2 | cc c2 c2 | z2 c2 c2 | z2 c2 c2 | cc c2 c2 | cc c2 c2 | z2 c2 c2 | c2 c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 5 name="2d Horn" sname="EbHn2"
+K: C
+z2 | z2 G2 G2 | z2 G2 G2 | z2 E2 E2 | z2 E2 E2 | z2 G2 G2 | z2 G2 G2 |
+z2 E2 E2 | z2 E2 E2 | z2 G2 G2 | z2 G2 G2 | z2 c2 c2 | z2 e2 e2 | z2 d2 d2 | z2 G2 G2 | z2 E2 E2 |
+E4 :: z2 | z2 A2 A2 | z2 A2 A2 | z2 G2 G2 | z2 G2 G2 | z2 A2 A2 | z2 A2 A2 | z2 G2 G2 | z2 G2 G2 |
+z2 A2 A2 | z2 A2 A2 | z2 G2 G2 | z2 G2 G2 | z2 A2 A2 | z2 A2 A2 | z2 G2 G2 | G2 z2 z2 |]| [K:F] z2 |
+.A.A .A2 .B2 | .A.A .A2 .A2 | z2 B2 B2 | z2 B2 B2 | AA A2 B2 | AA A2 A2 | z2 G2 G2 | A2 A2 :: z2 | AA A2 A2 | AA A2 A2 |
+GG G2 G2 | EE E2 z2 | AA A2 B2 | AA A2 A2 | z2 B2 B2 | z2 B2 B2 | AA A2 B2 | AA A2 A2 | z2 G2 G2 | A2 A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 6 name="Trumpet in Eb" sname="EbTpt"
+K: C
+z2 | z6 | z6 | z6 | "_......"!/!G6 | G2 z2 z2 | "_......"!/!G6 |
+G2 z2 z2 | z6 | z2 G2 G2 | z2 G2 G2 | z2 G2 G2 | !/!A6 | A2 z2 z2 | !/!G6 | c2 c2 c2 |
+c4 :: z2 | z2 d2 d2 | z2 d2 d2 | z2 G2 G2 | z2 G2 G2 | z2 d2 d2 | z2 d2 d2 | z2 G2 G2 | z2 G2 G2 |
+z2 d2 d2 | z2 dd d2 | z2 G2 G2 | z2 GG G2 | z2 d2 d2 | z2 dd d2 | z2 G2 G2 G2 z2 z2 |]| [K:F] z2 |
+z6 | z2 z2 c2 | dd d2 c2 | dd d2 c2 | z6 | z2 z2 c2 | dd d2 c2 | c2 c2 :: z2 | EE E2 E2 | dd d2 d2 |
+GG G2 G2 | cc c2 z2 | z6 | z2 z2 c2 | dd d2 c2 | dd d2 c2 | z6 | z2 z2 c2 | dd d2 c2 | c2c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 7 name="Trombone" sname="Tbn" clef=bass middle=D
+K: Eb
+z2 | z6 | z6 | z6 | !/!e6 | B2 z2 z2 | !/!B6 |
+e2 z2 z2 | E2 G2 E2 | B2 z2 z2 | B2 z2 z2 | E2 z2 z2 | !/!=e6 | f2 z2 z2 | !/!d6 | e2 E2 E2 |
+E4 :: z2 | !mf!z2 e2 e2 | z2 e2 e2 | z2 d2 d2 | z2 d2 d2 | z2 e2 e2 | z2 e2 e2 | z2 d2 d2 | z2 d2 d2 |
+z2 e2 e2 | z2 e2e2 | z2 d2d2 | z2 d2d2 | z2 e2 e2 | z2 e2 e2 | z2 d2 d2 | d2 z2 z2 |]| [K:Ab] z2 |
+AA A2 B2 | AA A2 A2 | z2 B2 B2 | z2 B2 B2 | AA A2 B2 | AA A2 A2 | z2 B2 B2 | A2 A2 :: z2 | =ee e2 c2 | ff f2 f2 |
+=dd d2 B2 | ee e2 z2 | AA A2 B2 | AA A2 A2 | z2 B2 B2 | z2 B2 B2 | AA A2 B2 | AA A2A2 | z2 B2B2 | A2 A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 8 name="Ophecleide" sname="Oph" clef=bass middle=d
+K: Eb
+z2 | !p!B2 z2 z2 | B2 z2 z2 | e2 z2 z2 | e2 g2 e2 | b2 z2 z2 | B2 d2 B2 |
+e2 z2 z2 | E2 G2 E2 | !f!B2 z2 z2 | B2 z2 z2 | E2 z2 z2 | c2 =e2 c2 | f2 z2 z2 | B2 d2 B2 | e2 E2 E2 |
+E4 H:: z2 | !mf!f2 z2 z2 | F2 z2 z2 | B2 z2 z2 | B2 d2 B2 | f2 z2 z2 | F2 =A2 F2 | B2 z2 z2 | B2 d2 B2 |
+f2 z2 z2 | F2 z2 z2 | B2 z2 z2 | B2 z2 z2 | f2 z2 z2 | F2 z2 z2 | B2 d2 f2 | B2 z2z2 |]| [K:Ab] z2 |
+!p!A2 z2 z2 | A2 z2 z2 | G2 z2 z2 | G2 z2 z2 | A2 z2 z2 | A2 z2 z2 | G2 z2 E2 | A2 A2 :: !f!z2 | =ee e2 c2 | ff f2 f2 |
+=dd d2 B2 | ee e2 z2 | !p!A2 z2 z2 | A2 z2 z2 | G2 z2 z2 | G2 z2 z2 | A2 z2 z2 | A2 z2 z2 | G2 z2 E2 | A2 "^D.C."A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

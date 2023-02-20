@@ -1,0 +1,17 @@
+X: 1
+T: Pea Patch Jig
+N: Note: This is 2/4 march, not a jig.
+P: piffero primo a0638
+O: Dan Emmett
+%R: march
+F: http://ancients.sudburymuster.org/mus/sng/pdf/peapatchC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+z2 |:\
+G2F2 G2FG | zFGA BGAF | GGF2 G2(3(def) | ge2c dBcA |\
+G2F2 G2FG | zFGA BGAF | GGF2 G2(3(def) | ge2c dBcA :|
+|:\
+G2g2 f3e | dedc BGAF | G2g2 f3e | dedc BGAF |\
+G2g2 f3e | dedc BGAd | e2ge fdec |1 BGAF G2F2 :|2 BGAF G2 |]

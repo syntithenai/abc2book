@@ -1,0 +1,26 @@
+X: 20301
+T: MURRAY'S WALTZ
+C:
+%R: waltz
+B: Elias Howe "The Musician's Companion" 1843 p.30 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: We can't tell whether the final repeat of strain 3 is meant to include strain 2.
+M: 3/8
+L: 1/16
+K: Bb
+%%staffsep 40
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(B>A)(B>c)d2 | (B>A)(B>c)d2 | (ce)(df)(AB) | (dcBAGF) |\
+(B>A)(B>c)d2 | (B>A)(B>c)d2 | c2f2A2 | c2B2B2 :|
+=EF(Ac)(_eF) | (=EF)(Bd)(fF) | =EFAc_eg | fb(fd)(BF) |\
+(=EF)(Ac)(_eF) | (B>A)(B>c)d2 | c2{g}f2A2 | c2B2z2 |]
+(G^F)(GA)(Bc) | (de)(dc)(BA) | (G^F)(GB)(AG) | ^F2D2D2 |\
+(G^F)(GA)(Bc) | (de)(dc)(BA) | (GB)(AG)(^Fd) | G4z2 :|
+|:\
+(bg)(^fd)(BG) | (^FD)(GB)(AG) | (^Fe)(dc)(BA) | Gb(ag)(^fd) :|\
+{B}bg^fdBG |
+(^FD)(GB)(AG) | (^Fe)(dc)(BA) | (GB)(AG)(^FD) |\
+(G^F)(GA).B2 | (G^F)(GA).B2 | (c=B)cd.e2 | "^D.C."z6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,29 @@
+X: 30
+T: Mrs Edwards
+C: Carolan
+%R: reel
+B: "The Hibernian Muse" p.18
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. XXX.
+M: C|
+L: 1/8
+K: F
+%%slurgraces
+%%graceslurs
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+fefg f2c2 | fefg {g}a2Tgf | gfga g2d2 | gfga {a}b2Tag | a2ag fgaf | d2g2 {f}e2de |
+(fe)(dc) (dc)(BA) | G2(Gc) (BA)(GF) | A2f2 edef | g2e2 cdcB | ABAG F2F2 | F8 |]
+[|\
+c'2{b}ag f2f2 | (ef)(ge) c2c2 | (d/c/d/e/) (fd) B2B2 | (e/d/e/f/) (ge) c2c2 | (c'a)(bg) (fa)(c'a) | (bf)(df) (ef)(ge) |
+(fd)(Bd) c.f.f.f | (eg)(ag) {f}Te2dc | (cc')(c'b) (ag)(Tfe) | (db)(ba) (gf)(Ted) | (cf)(eg) (fa)(gb) | (a/b/c') (ce) f4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+f4 a2g2 | f2c2 F2z2 | e4 b2a2 | g2d2 G2z2 | f2z2 f2z2 | b2g2 c'2c2 |
+f2F2 f2d2 | e2c2 f2F2 | f2z2 c2z2 | e2c2 e2c2 | f2c2 A2c2 | f2c2 F4 |]
+[|\
+f2g2 a2f2 | c'4 a2f2 | b4 g2b2 | c'4 a2f2 | F2z2 f2z2 | B2z2 c2z2 |
+d2z2 a2f2 | c'2f2 g2G2 | c2e2 f2a2 | b2d2 e2g2 | a2g2 a2b2 | c'2c2 f2F2 |]

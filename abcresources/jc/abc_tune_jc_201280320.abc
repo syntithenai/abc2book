@@ -1,0 +1,30 @@
+X: 1
+T: the Geud Man of Ballangigh
+T: To a New Scotch Jigg
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.216
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat added to satisfy the "first Strain played twice" instruction.
+M: 6/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F2 |\
+F4A2 f4g2 | e3dc2 f4e2 | d3cA2 c2A2F2 | G3AG2 d2def2 |\
+F3GA2 f4g2 | e3dc2 f4e2 | d2c2A2 (cd) (cA) (GF) | A6 d4 :|
+f2 |\
+f3ga2 g4f2 | e3dc2 f4d2 | c2f2c2 A3GF2 | G6 B4c2 |\
+f2fga2 g2(fe) (dc) | f4e2 d2c2A2 | (cd) (cA) (GF) F3GF2 | A6 F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. lead down between the 2. cu. and cast up into their places, then the 1. man take the 2. man with his right-hand
+%% and lead through between the two we. and come into their own places.  This to the first Strain played once.
+%%    The 2. cu. lead up through the 1. cu. and cast off into their own Places, and the 1. wo. and 2. wo. lead through between
+%% the two men, and cast off into their own places.  This to the first Strain played twice.  The 1. man set to the 2. wo. then
+%% fall back and turn S. the 1. wo. do the like to the 2. man, then all four hands half round, then set to your Partners and
+%% change to your own sides.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

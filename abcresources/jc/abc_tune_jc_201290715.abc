@@ -1,0 +1,43 @@
+X: 1
+T: Irish Boree
+P: Longways for as many as will
+%R: reel, march
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.146 #198 (292)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.200
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat sign added to match DMDfD instructions.
+N: The tunes are identical, but the beaming is different.  DMDfD beams notes into quarter-notes; CCDM1 beams notes into half-notes.
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+e2 |\
+f3e d2^c2 | d2(ef) (ga)(gf) | e6 e2 |\
+f3e d2^c2 | d2(ef) (gf)(ed) | d6 :|\
+A2 |\
+E3E F2G2 | A2(GF) (AB)c2 | E4- E2A2 |\
+F3E F2G2 | A2(GF) (GF)(ED) | D6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Wo. cast off below the 2d Wo. and slip up the middle into
+%% her own Place, then the 1st Man go on the outside of the 2d Man
+%% and slip up into his own Place, then cast off below the 2d Man, and
+%% slip up the middle into his own Place again; then the 1st Wo. follow
+%% the 1st Man, and slip up the Outside of the 2d Wo. into her own Place
+%% :| The 1st Man change Places with the 2d Man, the other two do
+%% the same; then all four Hands half round and cast off :|
+%% [CCDM1]
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 500
+%%begintext align
+%%   The 1. wo. cast off below the 2. wo. and slip up the middle into her own place, then the 1. man go
+%% on the out-side of the 2. man and slip up into his own place, then cast off below the 2. man, and slip up
+%% the middle into his own place again; then the 1. wo. follow the 1. man, and slip up the out-side of the
+%% 2. wo. into her own place.  This to the first Strain played twice.
+%%   The 1. man change places with the 2. man, the other two do the same; then all four hands half
+%% round and cast off.
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,31 @@
+X: 21080
+T: Kirkforther [standard tuning]
+%R: air, jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.108 #1 (and top 2 staffs of p.109)
+N: The book has A,EA^c scordatura tuning; transcribed here for standard G,DAe tuning.
+N: This transcription is converted to "standard" tuning, with single-voice chords for ABC version 1 software.
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Several final bars have just half notes; dots added to fix the rhythms.
+M: 3/4
+L: 1/8
+K: A
+%%continueall
+|:"_Slow"\
+[c2A2] [cA][cA][cA][cA] | [e4A4] [d2A2] | [c2A2] [cA][cA][cA][cA] | [B4E4] [A2E2] | [c2A2] [cA][cA][cA][cA] |\
+[e4A4] [d2A2] | c2 dcBA | [B6E6] :: [B2G2] [B2G2] [c2A2] | [B2G2] [B2G2] [c2A2] | E2 d2 c2 | cB AGFE |
+[c2A2] [c2A2] [B2E2] | [c2A2] [c2A2] [B2E2] | cfedcB | [A6E6A,6] ::[M:C] "_Brisk" c2Ac dBBe |\
+cAAc BEE2 | c2Ac dBBe | cABG ABB2 ::
+e2ce dfBd |  ceAc BEE2 | e2ce dfBd | cABG ABB2 ::\
+BCEA CE Ac | dcBA GF E/D/C/B,/ | A,CEA Ffed |
+cBAG AA,A,2 :: eAfA eAcA | eAfe dc BE |\
+eAfA eAcA | BdcB AA,A,2 :: (3EAc (3EAc (3EAd (3EAd |
+(3EAc (3EAc BEE2 | (3EAc (3EAc (3EAd (3EAd | cABG AA,A,2 ::\
+e/A/A/A/ f/A/A/A/ e/A/A/A/ c/A/A/A/ | e/A/A/A/ f/A/A/A/ B/E/E/E/ G/E/E/E/ |
+e/A/A/A/ f/A/A/A/ e/A/A/A/ c/A/A/A/ | BdcB AA,A,2 :: ([AE]Bc[AE]) ([BE]cd[BE]) |\
+([AE]Bc[AE]) BEEE2 | ([AE]Bc[AE]) ([BE]cd[BE]) | cABG AA,A,2 ::
+e/A/f/A/ e/A/c/A/ e/A/f/A/ e/A/c/A/ | e/A/f/A/ e/A/c/A/ B/E/G/E/ B/E/G/E/ |\
+e/A/f/A/ e/A/c/A/ e/A/f/A/ e/A/c/A/ | FdcB AA,A,2 :|
+%%begintext align
+%% The book has A,EA^c scordatura tuning; transcribed here for standard G,DAe tuning.
+%% This transcription is converted to "standard" tuning, with single-voice chords for ABC version 1 software.
+%%endtext

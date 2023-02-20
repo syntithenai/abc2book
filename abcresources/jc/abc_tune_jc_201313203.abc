@@ -1,0 +1,43 @@
+
+X: 1
+T: Moshe Emes
+M: 2/4
+L: 1/8
+O: trad. Hassidic
+D: Andy Statman & David Grisman "Songs of Our Fathers"
+K: Dphr^F
+"A"\
+|:"D"F>E DD | DD D2 | FG AB | AG A2 \
+| "D"F>E DD | DD D2 | FG "Cm"F>E | "D"E D3 :|
+"B"\
+|:"D"F2 "Gm"G2 | "D"FA "Gm"G2 | "D"FG AB | AG A2 \
+| "D"F2 "Gm"G2 | "D"FA "Gm"G2 | "D"FG "Cm"F>E | "D"E D3 :|
+"C"\
+|:"Gm"B4 | "D"A4 | "Gm"G>F G>F | GA B{A}G \
+| "Gm"B4 | "D"A4 | "Cm"G>F GA  | "D"G F3 :|
+"B"\
+|:"D"F2 "Gm"G2 | "D"FA "Gm"G2 | "D"FG AB | AG A2 \
+| "D"F2 "Gm"G2 | "D"FA "Gm"G2 | "D"FG "Cm"F>E | "D"E D3 :|
+
+
+%%sep 3 1 500
+
+X: 2
+T: Moshe Emes
+M: 2/4
+L: 1/8
+O: trad. Hassidic
+D: Andy Statman & David Grisman "Songs of Our Fathers"
+K: Ephr^G
+"A"\
+|:"E"G>F EE | EE E2 | GA Bc | BA B2 \
+| "E"G>F EE | EE E2 | GA "Dm"G>F | "E"F E3 :|
+"B"\
+|:"E"G2 "Am"A2 | "E"GB "Am"A2 | "E"GA Bc | BA B2 \
+| "E"G2 "Am"A2 | "E"GB "Am"A2 | "E"GA "Dm"G>F | "E"F E3 :|
+"C"\
+|:"Am"c4 | "E"B4 | "Am"A>G A>G | AB c{B}A \
+| "Am"c4 | "E"B4 | "Am"A>G A>G | "E"A G3 :|
+"B"\
+|:"E"G2 "Am"A2 | "E"GB "Am"A2 | "E"GA Bc | BA B2 \
+| "E"G2 "Am"A2 | "E"GB "Am"A2 | "E"GA "Dm"G>F | "E"F E3 :|

@@ -1,0 +1,26 @@
+X: 1042
+T: Is your Graith in order, or the whipman's Rant.   a Strathspey.
+%R: strathspey
+N: This is version 2, for ABC software that understands voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.1 p.4 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: 6-bar phrases.
+M: C
+L: 1/8
+Q: "SLOWISH"
+K: D
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+F |\
+D/D/D A>B {B}A>FEF | D/D/D A>B A>FAB |\
+A>FAB {B}A>FTE>F | D/D/D A>B A>BTce |
+f>d{ef}g>f {f}e>FTE>F | D/D/D A>B {B}AFD :: g |\
+f>dTd>f Tg>feg | fdTd>f a/g/f/e/ d>g |
+Tf>ddf Tgfef/g/ | {fg}a>gTf>e Td>efd |\
+(3efg (3fga {f}e>FTE>F | D/D/D D>d {B}A>FD :|
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | d2d2 A2A2 | x4 f3g & d2d2 d2d2 | f2d2 A2A2 | d2d2 f2d2 | d2d2 A2A2 | d2A2 D2D ::
+z | d2d'2 a2A2 | d2d'2 d2d'2 | d2d2 a2A2 | d2a2 b2f2 | g2fd a2A2 | d2[d2D2] [d2D2][dD] :|

@@ -1,0 +1,19 @@
+X: 1291
+T: Miss Johnston of Hillton's Reel
+%R: reel
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.29 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Em
+% - - - - - - - - - -
+V: 1 staves=2
+(f |\
+e)EEF TB2B>^c | d>BAd FDAF | EFGA TB2Bg | fdBd e/e/e e :| f eBef gbeg | fada fdaf |
+eBef gbeg fdBd e/e/e ef || ebge gbeg | fdad fadf | gbeg bgeg | fdBd e/e/e e |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+e2e2 e2e2 | d2d2 d2d2 | e2e2 e2e2 | b2B2 e2e :| z | e2e2 e2e2 | d2d2 d2d2 |
+e2e2 e2e2 | b2B2 e2e2 || e2e2 e2e2 | d2d2 d2d2 | e2e2 e2e2 | b2B2 e2e |]

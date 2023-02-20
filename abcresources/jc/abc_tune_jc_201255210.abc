@@ -1,0 +1,31 @@
+X:1
+T:The Botanist
+T:(Ethan Hack's Twostep)
+C:Noel Jackson Jan 2022
+S:Message from Noel on tradtunes 2022-1-22
+M:6/8
+L:1/8
+Q:120
+K:G
+"^A"[|] Bc^c \
+| "G"d^cd edc | "G"d2B B2c | "G"d^cd edc | "D7"c2A A2B |\
+| "D7"cBc dcB | "D7"c2A A2G | "D7"FAc edc | "G"d2B Bc^c |
+| "G"d^cd edc | "G"d2B B2d | "G"gfg agf | "C"g2e e2d |\
+| "C"e^de gfe | "G"ded BAG | "D7"ded cBA | "G"G3 |]
+K:C
+"^B"[| GAB \
+| "C"c2c cde | "G"G2G GAB | "C"c2c cde | "F"A3 -A2_B |\
+| "G"B2B BAG | "G"BcB BAG | "G"GAG AGF | "C"E3 EF#F |
+| "G"G2G GAB | "C"c2c cde | "F"f2f fed | "F"A3 -A2_B |\
+| "G"B2B BAG |  "G"BcB BAG | "G"GAG GAB | "C"c3 |]
+K:F
+"^C"[| cde \
+| "F"f3 c3 | "F"A3 F3 | "F"c2A f2d | "F"c3 G2A |\
+| "C7"B3G3 |  "C7"E3 C3 | "C7"CDE EFG | "F"A3 cde |
+| "F"f3 c3 | "F"A3 F3 | "F"f2e g2f | "Bb"d3 -d2e |\
+| "Bb"f2f fed | "F"c2c cBA | "C7"GFG B2G | "F"F3-"(D7)"F2^F |]
+K:G
+"^D"[|"G"G2d ded | "G"B2G G2B | "G"d2Bgfe | "G"d3 dcB |\
+| "D7"c2A ABA | "D7"F2 D D2F | "D7"DEF FGA | "G"B3 Bc^c |
+| "G"d2B ded |  "G"B2G G2B | "G"d2B gfe | "C"e3 -e2f |\
+| "C"g2g gfe | "G"d2d dcB | "d7"AGAB2A | "G"G3 |]

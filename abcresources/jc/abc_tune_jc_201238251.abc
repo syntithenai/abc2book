@@ -1,0 +1,38 @@
+X: 30441
+T: CHESTER CASTLE
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.44 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+|:\
+c2cB AFDF | AFdB AFDF | GBGE FAFD | EDEF E4 |\
+FDFA d2cd | edcB A3 d | cecA BdB^G | A2A2 A4 :|
+|:\
+e2ef ecAc | ecaf ecAc | dfdB cecA | (Bc)Bc B2c2 |\
+dcdB AFDF | Adce d4 | BAGF EFGE | [F2D2]D2 D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+|:\
+[F4A,4] [F2A,2][F2A,2] | [F4A,4] [F2A,2][F2A,2] |\
+[E4A,4] [F2A,2]D2 | C2C2 C4 |
+D4 F2A2 | cBAG F4 | A2E2^G2E2 | C2C2 C4 :|
+|:\
+C2E2A2E2 | C2E2A2E2 | ^G2E2A2E2 | ^G2G2G2[=G2A,2] |\
+[F4A,4] [F2A,2][F2A,2] | [F2A,2][E2A,2] [F4A,4] |\
+D4 C2C2 | D2D2 D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+|:\
+d4 d2d2 | d4 d2d2 | c4 d2f2 | a2a2 a4 |\
+d4 d2d2 | d4 d4 | e4 e4 | A2A2 A4 :|
+|:\
+a2a2a2a2 | a2a2a2a2 | e2e2a2a2 | e2e2e2e2 |\
+d4 d2d2 | d2A2 d4 | f4 a2A2 | d2d2 d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,37 @@
+X: 1
+T: Never love thee more
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.41 #77
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.110
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The dances differ only trivially, in spelling and punctuation.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+D>ED G2A | B>cB A2G | dB2 A2G | E3- E2E |\
+D>ED G2A | B>cB A2G | dB2 c2d | e3- e2e |
+dB2 A2G | c2d e>dc | dBc A2G | E3- E2E |\
+D>ED G2A | Bcd e>dc | dBc A2G | G3- G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the Presence, then to your We. Lead up all
+%% forward and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1st Man Back to Back on the right Hand of his Wo. and
+%% Back to Back on the left Hand of his Wo. to their own Places,
+%% then cross over the 2d Cu. and the Hey thro' the 2d Cu.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then Hands half round and fall back all four, then side over
+%% to one another's Places, then right Hands being across, go half
+%% round, then left Hands being across, go half round.
+%%endtext
+%%sep 1 8 500

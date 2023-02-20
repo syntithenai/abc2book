@@ -1,0 +1,59 @@
+X: 0
+T: Bastringue
+%level: 1	% Easy dance for beginners
+K: C
+
+
+X: 1
+P: la Bastringe #1
+O: Qu\'ebec
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: "D"f2ff f2gf | "A7"e2c2 "D"d4 | "A7"c2d2 efec | "D"d2e2 f2d2 | "D"f2ff f2gf |
+| "A7"e2c2 "D"d4 | "G"g2f2 e2d2 | "A7"B2c2 "D"d4 :: "D"~d2fd adfd | "C"~=c2ec gcec | "D"~d2fd adfa |
+| "A7"bgec dcBA | "D"~d2fd adfd | "C"~=c2ec gcec | "D"~d2fd adfa | "A7"bgec "D"d4 :|
+
+
+X: 2
+P: la Bastringe #2
+O: Qu\'ebec
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: "D"f2fd f2gf | "A7"e2c2 "D"d3d | "A7"c2d2 efec | "D"d2e2 f2d2 | "D"f2fd f2gf |
+| "A7"e2c2 "D"d2ef | "G"g2gf efed | "A7"B2c2 "D"d4 :: "D"D2FA dAFD | "C"=C2EG cGEC | "D"D2FA dAde |
+| "A7"fedc dcBA | "D"D2FA dAFD | "C"=C2EG cGEC | "D"D2FA dAde | "A7"fedc "D"d4 :|
+%%begintext
+     Mademoiselle, voulez-vous danser la Bastringue, la Bastringue?
+     Mademoiselle, voulez-vous danser la Bastringue va commençer?
+
+     Oui Monsieur, je veux bien danser la Bastringue, la Bastringue.
+     Oui Monsieur, je veux bien danser la Bastringue si vous voulez.
+
+     Mademoiselle, it faut nous arr\^eter ...
+     Mademoiselle, it faut nous arr\^eter; vous allez vous fatiguer.
+
+     Non, Monsieur, j'aime trop danser, ...
+     Non, Monsieur, j'aime trop danser; je suis pr\^ete \`a recommençer.
+
+     Mademoiselle, je n'peux plus danser, ...
+     Mademoiselle, je n'peux plus danser, car j'en ai des cors aux pieds.
+%%endtext
+
+
+X: 3
+P: You Married My Daughter But Yet You Didn't
+R: reel
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: B2d2 | "G"g4 agfa | g4 B2d2 | "D7"f4 gfeg | f4 B2d2 | "G"g4 agfa |
+| g4 B2d2 | "D7"fgfe dBA2 | "G"G4 :: BcdB | "G"G2BG- GBG2 | "D7"d2c2 ABcA |
+| F2AF- FAF2 | "G"e2d2 BcdB | "G"G2BG- GBG2 | "D7"d2c2 ABcA | F2fe dBA2 | "G"G4 :|
+

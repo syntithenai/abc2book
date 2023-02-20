@@ -1,0 +1,40 @@
+X:735
+T:Tea with the Master
+C:Clare Alexander, 2007, arr. Moira Gutteridge
+N:For the dance by Colin Wallace.  Dedicated to Colin Hume.
+L:1/4
+M:3/4
+%%MIDI beat 100 95 80
+%%staves {1 2}
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=120
+K:G
+P:A
+V:1
+%%MIDI program 73
+B/c/dd | d2e/f/ | g2f/e/ | e/d/dc/B/ | Aed | g/f/gB | A2B/A/ | G2B/c/ |
+V:2
+%%MIDI program 40
+"G"G/A/BG | "Bm"FDB/A/ | "Em"GE2 | "D"F2A/B/ | "Am"c2A | "G"B2G | "D"F/E/DD | "G"B,DG/A/ |
+V:1
+dgf | g/d/Bc/d/ | e2g/e/ | d2G/A/ | B/d/-dB | B/A/-AG | G3- | G3 |
+V:2
+"G"B2d | "/"BGA | "Em"GEG | "G"B2B/c/ | "Bm"dF2 | "D"DFG | "G"G2B/A/ | "/"G2A |
+P:B
+V:1
+eed | d/B/AG/A/ | Bdf | e2f/e/ | d/B/A2 | B/c/de | e2d | e3 |
+V:2
+"C"ccB | "D"AFE | "Bm"DFD | "Em"G2A/G/ | "D"F2F | "Bm"D/E/FG | "Am"AcB | "Em"G2A |
+V:1
+g/f/ga | b2g/f/ | edB | A2G/A/ | BdB | c/B/AG | G3- | G2g/f/ |
+V:2
+"G"B/A/Bd | "Em"gee/d/ | "Bm"B2d | "Am"c2E/F/ | "Bm"F2F | "Am"E/D/CB, | "G"B,BA | "/"G2B/A/ |
+P:C
+V:1
+e2d | Bd2 | e/d/Bd | A2G/A/ | B/c/dg/f/ | e/d/Bc/A/ | G3/F/ E/F/ | D2E/F/ |
+V:2
+"Em"G2G | "G"GBB | "Bm"FDF | "Am"C2E | "Bm"FBB | "G"G2 "Am"A | "Em"Beg | "Bm"f2z |
+V:1
+G/F/ G/F/ G/d/ | g/a/ g/e/ d/B/ | d/e/ d/B/ A/G/ | d2G/A/ | B/d/-dB | B/A/-AG | G3- | G3 |]
+V:2
+"G"B2B | "Em"e2G | "G"B/A/BG | "D"FDD | "Bm"F2D | "D"F2G | "G"G2B/A/ | "/"G3 |]

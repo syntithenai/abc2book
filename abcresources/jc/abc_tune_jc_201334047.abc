@@ -1,0 +1,69 @@
+%%begintext
+%% Rodney Miller's  New England jig medley:
+%% 1. Sarah's (D)
+%% 2. Sailor's Wife (Dm)
+%% 3. Atholl Highlander's (A)
+%%endtext
+
+% This set was originally formatted for 2 pages, with 4-bar staffs.
+% This version is more compact to fit on one page (and most tablet screens).
+
+
+X: 1
+T: Sarah's Jig
+C: by Bob McQuillen 24 Apr 77
+B: Bob's Note Book 03 #80
+R: jig
+%D:1977
+S: Fiddle Hell Online 2021-10-29 in Roger Miller's New England jig medley
+Z: 2020 John Chambers <jc:trillian.mit.edu> (plus chords from Rodney Miller)
+M: 6/8
+L: 1/8
+K: D
+A, \
+| "D"DEF "A"EFG | "D"F2D    DFG |    AFA "G"B2c | "D"d3- d2A \
+| "G"Bcd    dcB | "D"A2d    AFG |    A2d    AGF | "A"E2F GFE ||
+| "D"DEF "A"EFG | "D"FDD    DFG |    AFA "G"B2c | "D"d3- d2e \
+| "D"fgf "A"efe | "G"ded "A"cBA | "G"Bcd "A"ecA | "D"d3- d2 ||
+|: e \
+| "D"fgf    fed | "A"ecA    Ade | "D"fgf    fed | "A"ecA A2G \
+| "D"FGA "G"GAB | "D"ABc "G"dcB | "A"Agf    edc | "D"d3  d2 :|
+% Comment in Bob's book #3:
+% %begintext align
+% % For Sarah Forbes Bauhan, wonderful
+% % whistle player and better half of that
+% % geat combo, Forbes and Comer, with
+% % love always from QUACK.
+% %endtext
+
+
+X: 2
+T: the Sailor's Wife
+R: jig
+S: Fiddle Hell Online 2021-10-29 in Roger Miller's New England jig medley
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dm
+E |\
+"Dm"DEF E2D | d2e f2g | agf edc | "C"A/=B/cA GEC |\
+"Dm"DEF E2D | d2e f2g | "Dm"afd "A"ge^c | "Dm"d3 d2 :|
+|: e |\
+"F"fga fga | fga agf | "C"ecg ecg | efg gfe |\
+"F"fga agf | "C"efg gfe | "Dm"afd "A"ge^c | "Dm"d3 d2 :|
+
+
+X: 3
+T: Atholl Highlanders
+R: jig
+S: Fiddle Hell Online 2021-10-29 in Roger Miller's New England jig medley
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: "A"e3  ecA |    ecA "E"Bcd |1,3 "A"e3  ecA | "E"Bcd  cBA :|2,4 "A"eae "D"fed | "E"cdB "A"A3 :|
+|: "A"Ace Ace | "D"Adf    Adf |1,3 "A"Ace Ace | "E"Bcd  c2B :|2,4 "A"eae "D"fed | "E"cdB "A"A3 :|
+|: "A"a2e edc |    a2e    edc |1,3    a2e edc | "E"Bcd  efg :|2,4 "A"eae "D"fed | "E"cdB "A"A3 :|
+|: "A"cAc cAc | "D"dBd    dBd |1,3 "A"cAc cAc | "G"B=GB BGB :|2,4 "A"eae "D"fed | "E"cdB "A"A3 :|
+%%center Once through the tune is twice through a contra dance.
+

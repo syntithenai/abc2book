@@ -1,0 +1,28 @@
+X: 1
+T: Katharine street
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (90)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/4
+L: 1/4
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+g2d d>ba | b3- b2a  | g>ab a>bg | ^f>ga d>=e^f |\
+g2d d2c  | B2A B>cd | e2e  d2g  | ^f3   f3 :|
+|:\
+b>ag g>ab | bdd d>ef | fcc c>de | dB2- B2b |\
+bdd  cac  | B2A BgB  | A2a bBA  | Gg2- g3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. Back to Back with the 2d Cu. and then with
+%% their Partners .| The 1st Cu. turn the 2d Cu. Then turn
+%% their own :| Meet all four and sett, then turn single and
+%% clap Hands, all four going quite round .| The 1st Cu. go
+%% the Figure thro the 2d Cu. and cross over and turn
+%% their own Partners :|
+%%endtext
+%%sep 1 8 500

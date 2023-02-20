@@ -1,0 +1,46 @@
+X:17067
+T:The Sinckapace Galliarde
+C:anon., arr. Frank Nordberg
+O:England
+B:From ""
+R:Galliard
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/england/sinckapace-glrd/sinckapace-glrd-gtr2.abc
+V:1 Program 1 24 up %Classical guitar
+V:2 Program 1 24 merge down %Classical guitar
+V:3 Program 1 24 merge %Classical guitar
+M:3/2
+L:1/4
+Q:1/2=180
+K:D -8va % F with capo on third fret
+V:1
+"^Capo III"d2d2d2|a3gf2|e2d2d2|c3dc2|f2f2f2|e3fe2|
+V:2
+A4A2|[A4d4]z2|A2A2^G2|A4A2|d4d2|c4B2|
+V:3
+D4D2|D4D2|C2B,4|A,4A,2|D4D2|A,4G,2|
+%
+V:1
+d2d2c2|d4d2::c2A2B2|c3de2|d3/c/ Bd cB|c3Bc2|
+V:2
+FGA3G|F3GF2::A2z2^G2|A4c2|z6|^A4A2|
+V:3
+B,2A,4|D4D2::A,4E,2|A,4A,2|B,4E2|F4F2|
+%
+V:1
+d2B2c2|d3dc2|B2B2^A2|B4B2::[B2e2][c2e2]^d2|e3fg2|
+V:2
+A2^G2A2|F4z2|F2^G2z2|^D3ED2::G2AGF2|[G3B3]A Bc|
+V:3
+D2E2A,2|B,4C2|D2E2F2|B,4B,2::E2A,2B,2|E,4E2|
+%
+V:1
+f2e2e2|f3/e/ fg a2|b2a2g2|f3fe2|d2d2c2|d4d2:|
+V:2
+[A4d4][A2c2]|[A4d4]z2|d2d2B2|d4B2|FGA3G|F3GF2:|
+V:3
+D4A,2|D4D2|G2D2G2|D4G,2|B,2A,4|D4D2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.

@@ -1,0 +1,28 @@
+X: 1
+T: A Trip to the Nunr'y
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.3:13
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: Gedc TB3A | Ggfe d3d |\
+ecBA dBAG | ecdB A4 :|\
+|: AGFE DEFG | ABcA B4 |
+edcB AGAB | efga f4 |\
+dgdB cecA BdBG A4 |\
+GcBA Ggfe | dcBA G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: g4 G2d2 | e2dc B2b2 | c'4 b4 | c'2g2 d2D2 :|
+|: d2D2 d2de | f2d2 g2G2 | c'bag d4 | c2A2 d2D2 |
+b2g2 a2f2 | g2G2 d4 | e2dc Bedc | d2D2 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First & 2d Cu. foot it & Right & Left half round .|
+%% the same back again :|
+%% cross over two Cu. lead up to the top & cast off .|
+%% hands round four with the 3d Cu. Right & Left at top :|:
+%%endtext

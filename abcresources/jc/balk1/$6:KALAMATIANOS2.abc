@@ -1,0 +1,22 @@
+X: 246
+T:Kalamatianos 2
+O:Greece
+F: http://www.youtube.com/watch?v=W5h5KMXjR6k
+M:7/8
+L:1/8
+Q:1/4=144
+K:DPhr
+%%MIDI program 34
+%%MIDI bassprog 45
+%%MIDI gchord f3f2f2
+  (3abc'(3abg                      |:\
+  "g"f2d "eb"(3ede(3gfe            |(3de=ef(3abc'(3abg                    |
+  "f"f2d "eb"(3ede(3gfe            |[1 "D"d3 "g"(3abc'(3abg               :|\
+  [2"d"d3z2de                      |
+|:"f"f/f/f/f/f/f/f/f/f/f/f/f/f/f/  |"g"g/g/g/g/g/g/"f"f/f/f/f/"eb"e/e/e/e/|
+  "d"d/d/d/d/ef/f/f/f/gf           |"eb"e2dc/c/c/c/c/c/c/c/               |
+  "g"abgfgef                       |[1"d"d/d/d/d/d/d/z2de                 :|\
+  [2"d"d/d/d/d/FGABc               |
+|:"d" d/d/d/d/d/d/d/d/d/d/d/d/d/d/ |"eb"e/e/e/e/e/e/d/d/d/d/c/c/c/c/      |
+  abgfgef                          |[1"d"d/d/d/d/d/d/z2de                 :|\
+  [2"d"d/d/d/d/d/d/d/d/d/d/d/d/d/d/|

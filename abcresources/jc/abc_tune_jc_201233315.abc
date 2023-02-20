@@ -1,0 +1,27 @@
+X: 191
+T: ANDERSON'S RANT
+C: Wm MARSHALL
+R: Reel
+B: Glen Collection p.19 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: C
+%
+V: 1
+|:\
+CEGE c2(ce) | GECE D2(DE) | CEGE cdfa | gede c/c/cc2 :|
+gecg ecge | gece d2d2 | gecg ecge fdge c/c/cc2 |
+gecg ecge gece d2d2 | GcFc Ec fa | gede c/c/cc2 |]
+%
+V: 2
+|:\
+c2[c'2e2] [c'2e2][c'2e2] | [c'2e2][g2e2] [b2g2][b2g2] |\
+c2[c'2e2] [c'2f2][c'2f2] | c'2[b2g2] [c'2c2][c'2c2] :|
+[c'2c2][c'2e2] [c'2g2][c'2e2] | [c'2c2][c'2e2] [b2g2][b2g2] |\
+[c'2c2][c'2e2] [c'2g2][c'2e2] | [b2g2][b2g2] [c'2c2][c'2c2] |\
+[c'2c2][c'2e2] [c'2g2][c'2e2] | [c'2c2][c'2e2] [b2g2][b2g2] |\
+[c'2e2][c'2f2] [c'2g2][c'2a2] | c'2[b2g2] [c'2g2c2][c'2g2c2] |]

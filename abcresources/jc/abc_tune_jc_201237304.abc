@@ -1,0 +1,33 @@
+X: 252
+T: LORD ELPHINSTONE
+C: D. MACINTYRE
+R: Strathspey
+B: Glen Collection p.25 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: This really does start with the high a.
+M: C
+L: 1/16
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: F
+%
+V: 1
+a2 |\
+F3G A2f2 cF3 c3A | F3G A3B cf3 fa3 | F3G Af3 cF3 c3A | G3A B3c dg3 ga3 |
+F3G A2f2 cF3 c3A | F3G A3B cf3 fa3 | f3c fa3 f3c dcBA | G3A B3c d2g2g2 ||
+ag |\
+f3F A3F c3F A2ag | f3F dcBA G2g2 g2ag | f3d efge fd3 c3A | G3A B3c dg3g2 ag |
+f3F A3F c3F A2ag | f3F dcBA Gg3 g2ag | f3g {fg}a3g f2d2 {d}c3A | G3A B3c dg3g2 |]
+%
+V: 2
+z2 |\
+[f4F4][a4f4c4] [a4f4c4][a4f4c4] | [f4F4][a4f4c4] [a4f4c4][a4f4c4] |\
+[f4F4][a4f4c4] [a4f4c4][a4f4c4] | [g4G4][d'4b4g4] [c4C4][b4e4c4] |
+[f4F4][a4f4c4] [a4f4c4][a4f4c4] | [f4F4][a4f4c4] [a4f4c4][a4f4c4] |\
+[f4F4][a4f4c4] [a4f4c4][a4f4c4] | [g4G4][d'4b4g4] [c4C4][b2e2c2] ||
+z2 |\
+[f4F4][a4f4c4] [a4f4c4][a4f4c4] | [f4F4][a4f4c4] [c4C4][b4e4c4] |\
+[f4F4][a4f4c4] [a4f4c4][a4f4c4] | [g4G4][d'4b4g4] [c4C4][b4e4c4] |
+[f4F4][a4f4c4] [a4f4c4][a4f4c4] | [f4F4][a4f4c4] [c4C4][b4e4c4] |\
+[a4f4][c'4a4f4] [c'4a4f4][c'4a4f4] | [g4G4][d'4b4g4] [c4C4] [c'2e2c2] |]

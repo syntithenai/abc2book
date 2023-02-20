@@ -1,0 +1,22 @@
+X: 1
+T: le Vingt Novembre
+T: the 20th of November
+C: Pascaline Latour
+R: strathspey
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+B: The Paris book of Scottish Country Dances, vol.1
+F: https://music.rscdsparis.fr/files/Vingt_Novembre.pdf
+M: C
+L: 1/8
+K: D
+A2 |\
+"D"d3 e f>e dA | "E"B<e e>f "A7"e2 f>g |\
+"D"a3 f "Bm"d2 B>c | "G"d<B G>B "A7"A2 A2 ||\
+"D"d3 e f>e dA |
+"E"B<e e>d "A"c2 a>A |\
+"Bm"B2 d>c "G"d2 G>B | "A7"AB/c/ de "D"d2 ::\
+f>g |\
+"D"a2 A2 A2 d>c | "G"B2 d>B "A7"c2 A>F |
+"D"D3 F "Bm"D3 d | "E7"e<d e>f "A7"e2 f>g ||\
+"D"a2 A2 A4 | "G"B>A B<d "A"e2 E2 |\
+"Bm"F3 d "G"B2 G>B | "A7"AB/c/ de "D"d2 :|

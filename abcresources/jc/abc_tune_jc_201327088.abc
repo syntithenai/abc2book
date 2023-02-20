@@ -1,0 +1,14 @@
+X: 1
+T: THE QUAKER'S WIFE
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: "Rinnci na h-\'Eireann" Elizabeth Burchenal, ed. G.Schirmer (1925) p.96
+M: 6/8
+L: 1/8
+%Q: 3/8=126
+%%slurgraces 1
+K: D
+|: "D"(d>ef) A2f  | "G"g2f  {f}e2d | "D"(d>ef)   A2A  | "G"(B3 "D"d2)A \
+|  "D"(d>ef) A2f  | "G"g2f  {f}e2d | "D"(d>ef)   A2A  | "G"(B3 "D"d2)z :|
+|: "D"(d2f) (a2f) | "G"(b2g) "D"a3 | "D"(d2f ({f}a2g) |    (f3    a2)z \
+| "Em"(b2g) (efg) | "D"a2f     d2d | "D"d>(ef)   A2A  | "G"(B3 "D"d2)z :|

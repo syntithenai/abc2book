@@ -1,0 +1,15 @@
+X: 291
+T: the Bold Deserter - 1st Setting   #2
+R: air, march
+%S s:1 b:8
+B: O'Neill's 1850 #291
+O: Mrs.Cantwell
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Compacted by using labels and play order [JC]
+P: Play AB BA
+Q: "Moderate"
+M: C
+L: 1/8
+K: D
+"^A"[|](fe) | d2A2 B2(AF) | (AB)(de) (fe)(dB) | (AF)(EF) D2 D2 | "^fine"D6 \
+"^B"|: (DE) | F2A2 d2(ef) | g2 f2 e2 (de) | (fe)(dB) (AF)(EF) | "^->A"A6 :|

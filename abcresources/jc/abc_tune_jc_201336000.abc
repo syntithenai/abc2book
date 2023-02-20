@@ -1,0 +1,24 @@
+X: 1
+T: Sham Doctor
+P: Longways for as many as will
+%R: triple hornpipe, minuet
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.230
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain played twice" instruction.
+M: 3/2
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: b2 f4 g2 f2(ed) | e3f gfed c2B2 | b2 f4 g2 f2(ed) | e3f gfed c4 :|
+|: B2 F4 B2 e4 | c2 A4 c2 f4 | "^:S:"g3a gab2 f2d2 | c6 B2 B4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain played twice.
+%%begintext align
+%% First, Figure single, and turn your wo. half round, then cast off, and the man goes with his Face to the
+%% 2. cu. and the wo. to the 1. cu. and turn them half round, and come between them and clap hands with
+%% your Partner, and lead through the one side, and meet and clap hands, and lead through the other cu.
+%% then all turn your Partners in their own places.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

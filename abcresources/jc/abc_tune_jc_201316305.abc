@@ -1,0 +1,40 @@
+X: 1
+T: Neda voda nalivala
+O: Pirin, Bulgaria
+Z: John Chambers <jc@trillian.mit.edu>
+N: From a handwritten transcription by Dick Crum
+L: 1/8
+M: none % 11/8
+%Q: 2/8 2/8 2/8 2/8 2/8 2/8 1/8 2/8
+%%maxshrink 1
+%%vocalfont Helvetica-Narrow-Bold 18
+%%staffsep 20
+K: D_B_E^F	% The melody has no B notes, but a harmony might.
+|: AG FE (FE) (DG) FG2 | AG FE (FE) (D{F}G) DD2 :|
+w:~1.~Ne-da vo-da na-*li-*va-la, na-li-va-la, raz-*li-*va-la.
+w:~3.~Nad vo-da se jo-*gle-*da-la, pa sa-ma si pro-*du-*ma-la
+w:~5.~De li mi e moj-*to* li-be, moj-to li-be, pr-*vo* li-be.
+w:~7.~Dru-go li-be po-*hu-*ba-vo, po-hu-ba-vo, po-*gi-*zda-vo.
+w:~9.~De go li-be da* mi* ka-\vze, haj-de, Ne-do, da* be-*ga-me.
+w:11.~Do-gde go-ra \vsu-*ma* i-ma, i po-le-to de-*te-*li-na.
+w:13.~Za dva-mi-na lu-*di* mla-di, lu-di mla-di ka-*to* na-zi.
+|: DE FE (FE) (DG) FG2 | DE FE (FE) (D{F}G) DD2 :|
+w:~2.~Na-li-va-la, raz-*li-*va-la,  nad vo-da se jo-*gle-*da-la
+w:~4.~Pa sa-ma si pro-*du-*ma-la, de li mi e moj-*to* li-be.
+w:~6.~Da li dru-go ne* za-*li-be, dru-go li-be po-*hu-*ba-vo.
+w:~8.~Po-hu-ba-vo, po-*gi-*zda-vo, po-hu-ba-vo od* me-*ne-ka.
+w:10.~Haj-de, Ne-do, da* be-*ga-me, do-gde go-ra \vsu-*ma* i-ma.
+w:12.~I po-le-to de-*te-*li-na, za dva-mi-na lu-*di* mla-di.
+w:14.~Lu-di mla-di ka-*to* na-zi, ni go-de-ni, ni* \vze-*ne-ni.
+%%sep 10 10 100
+P: Bb instr:
+K: E=F^G
+|: BA GF GF EA GA2 | BA GF GF E{G}A EE2 :|
+|: EF GF GF EA GA2 | EF GF GF E{G}A EE2 :|
+%%sep 10 10 100
+W: Neda was pouring water and spilled some.  She looked at herself in the water,
+W: and spoke to herself:  Where is my love, my first true love?
+W: Has he fallen in love with another sweetheart more fair, more beautiful than I?
+W: I wish he would come and say: Come, Neda, let's run away,
+W: to where the mountain has green foliage, where the field is full of clover,
+W: for two young lovers such as we, neither engaged nor married.

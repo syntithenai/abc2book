@@ -1,0 +1,19 @@
+X: 20072
+T: CHARLIE IS MY DARLING
+Q: "Mod.o"
+%R: hornpipe, strathspey
+B: "Edinburgh Repository of Music" v.2 p.7 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Bars 2, 8, and 10 have minor rhythm errors; fixed by adjusting note lengths.
+M: C
+L: 1/8
+K: Am
+(c/B/) |\
+A>Bc>d (e2a) z/e/ | (f2a) z/f/ (e2a) (c/B/) |\
+A>Bc>d e2a>b | c'2Tb>a a3 |]\
+a |\
+^ge^fg a>bc'a | ^ge^fg a3b |
+c'bc'a {a}ge (cd/e/) | fdec B2 zc/B/ |\
+A>Bc>d (e2a) z/e/ | (f2a) z/f/ (e2a) (c/B/) |\
+A>Bc>d e2a>b | c'2Tb>a a3 |]

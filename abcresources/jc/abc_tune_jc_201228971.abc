@@ -1,0 +1,18 @@
+X: 1182
+T: Roary Macnab.   a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.1 p/18 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Em
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+e | TB2 EG/A/ BGEG | A>FDF d>FDF | BGEG (e/f/g/a/) b>a | g>ef>^d e/e/e e :| B | .e>(gTfe) B/B/B (.e>B) | Td>efe d/d/d (.f.d) |
+egTf>e dBAF | GBTA>F E/E/E (.E.B) || egTfe B/B/B (.e.B) | Td>efe d/d/d (.f.d) | egTf>g efde | BdTA>F E/E/E E |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | e2e2 e2e2 | d2d2 d2d2 | e2e2 e2e2 | b2B2 e2e :| z | e2e2 e2e2 | d2d2 d2d2 |
+e2e2 e2e2 | B2B2 E2E2 || e2e2 e2e2 | d2d2 d2d2 | e2f2 g2a2 | b2B2 e2e |]

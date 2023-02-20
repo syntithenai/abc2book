@@ -1,0 +1,513 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 37
+B: RSCDS Book 37
+K:
+%%center Book37/3700-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3701
+T: The Reverend John MacFarlane
+P: Quickstep
+C:Niel Gow
+R:Reel (4x32)
+B:RSCDS 37-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:C
+|:G2|"C"cBcd c2G2|cBcd c2G2|"Dm"A2fe fe"D7"dc|"G"e2d2 "G7"d2ed|\
+   "C"cBcd c2G2|cBcd "C7"c2G2|
+                              "F"A3G "G7"F3E|"C"G2"F"C2 "C"C2:|\
+ef|"C"g3a g3e|c3d c3G|"Dm"A2fe fedc|"G"e2d2 d2ef|
+   "C"g3a g3e|"Am"c3d "C7"c2G2|"F"A3G "G7"F3E|"C"G2"F"C2 "C"C2 "G7"ef|\
+   "C"g3a g3e|c3d c3G|
+                      "Dm"A2fe fedc|"G"e2d2 d2ed|\
+   "C"cBcd c2G2|cBcd "C7"c2G2|"F"A3G "G7"F3E|"C"G2"F"C2 "C"C2|]
+%%center Book37/3701-Reverend_John_MacFarlane-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3702
+T: Moment of Truth
+P: Miss Erskine of Torry
+C:J. Walker (Glen Coll.)
+B:RSCDS 37-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Strathspey (8x32)
+M:C
+L:1/8
+K:Am
+B|"Am"c<AA>B c<AA>c|"G"B<dd>c BGGB|\
+     "Am"c>A "Bo"d>B "Am/C"e>c "Dm"d>B|"E7"e/d/c/B/ e>B "Am"cAAB|
+  "Am"c<AA>B c<AA>c|"G"B<dd>c BGGB|\
+     "Am"c>A "E7/G#"d>B "Am"e>c "Dm"d>B|"E7"e/d/c/B/ e>B "Am"cAA||
+^g|"Am"a>e e>d c>A A>c|"G"B>gdg BGG^g|\
+     "Am"a>e e>d c>A "F"a>g|"Dm"f/e/d/c/ "E7"B/c/d/B/ "Am"cAA^g|
+   "Am"a>e e>d c>A A>c|"G"B>gdg BGGB|\
+     "Am"((3ABc) "E7/G#"((3Bcd) "Am"((3cde) "Dm"((3def)|"E7"e>a ^g>b "Am"aAA:|
+%%center Book37/3702-Moment_of_Truth-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3703
+T: Gothenburg's Welcome
+P: Wha can help it
+C:Niel Gow
+B:RSCDS 37-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Jig (8x32)
+M:6/8
+L:1/8
+K:A
+|:C/B,/|"A"A,>CE ECE|"D"FEF "A"A2 B|c2 A "D"d2 c|"E"BB,B, B,2 C/B,/|\
+      "A"A,>CE ECE|"D"FEF A2 B|
+                               "A"c2 A "E7"d2 B|"A"cA"D"A "A"A2:|\
+c/d/|"A"e>fe ece|"D"agf "A"ecA|"E7"d/e/fd "A"ecA|"E"GBB B2 c/d/|
+     "A"e>fe "A7"ece|"D"agf "A"ecA|"Bm"dcd "E"Bed|"A"cAA A2 c/d/|\
+     "A"efe ece|"D"agf "A"ecA|
+                              "E7"d/e/fd "A"ecA|"E"GBB B2 C/B,/|\
+     "A"A,>CE ECE|"D"FEF A2 B|"A"A/B/cA "E7"B/c/dB|"A"cA"D"A "A"A2|]
+%%center Book37/3703-Gothenburgs_Welcome-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3704
+T: Wisp of Thistle
+P: Thorn Bush
+O:Kerr's Coll.
+B:RSCDS 37-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Strathspey (8x32)
+M:C
+L:1/8
+K:A
+%
+E|"A"A>B c>A "D"F<A "A"E>C|"Bm"B,<B B>c "E"d/c/B/A/ G<B|\
+  "A"A>B c>A "D"F<A "A"E>C|"Bm"D<F "E"E>G "A"A<A, A,E|
+  "A"A>B c>A "D"F<A "A"E>C|"Bm"B,<B B>c "E7"d/c/B/A/ G<B|\
+  "A"A>B c>A "D"F<A "A"E>C|"Bm"D<F "E"E>G "A"A/A/A A||e|
+  "A"d/c/B/A/ e>A "D"f<a "A"e>c|"Bm"d>B d/c/B/A/ "E"G<B B>e|\
+  "A"d/c/B/A/ e>A "D"f<a "A"e>c|"Bm"d>B "E7"d/c/B/A/ "A"E<A A>e|
+  "A"d/c/B/A/ e>A "D"f<a "A"e>c|"Bm"d>B d/c/B/A/ "E7"G<B B>d|\
+  "A"(3cAc (3ece "D"(3fdf (3agf|"E7"(3edc (3cBA "A"E<A A|]
+%%center Book37/3704-Wisp_of_Thistle-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3705
+T: St Andrews of Brampton
+P: The Quarry Weel
+C:J. Stanley Hamilton
+R:Reel (4x32)
+B:RSCDS 37-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:A
+|:CB,|"A"A,CEA CEAc|EAce Acea|"D"fedc "Bm"dcBA|"B7"GBAF "E7"EDCB,|
+      "A"A,CEA CEAc|EAce Acea|"D"fedc "Bm"dcBA|"E7"EAGB "A"A2:|
+cd|"A"ecAc eAce|agfe fedc|"D"fedc "Bm"dcBA|"B7"GBAF "E7"E2 cd|
+   "A"ecAc eAce|agfe fedc|"D"fedc "Bm"dcBA|"E7"EAGB "A"A2 cd|
+   "A"ecAc eAce|agfe fedc|"D"fedc "Bm"dcBA|"B7"GBAF "E7"EDCB,|
+   "A"A,CEA CEAc|EAce Acea|"D"fedc "Bm"dcBA|"E7"EAGB "A"A2|]
+%%center Book37/3705-St_Andrews_of_Brampton-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3706
+T: Bonnie Ina Campbell
+P: The Top o' the Grampians
+C:Colin MacPherson (The Harp & Claymore)
+B:RSCDS 37-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Strathspey (8x32)
+M:C
+L:1/8
+K:G
+B|"G"d>e d>B A<G G>B|"Am"A<e e>d e>g "D"e<d|\
+  "G"d>e d>B "Em"A<G G>E|"D7"D>B, D>E "G"G2 GB|
+  "G"d>e d>B "Em"A<G G>B|"Am"A<e e>d e>g "D"e<d|\
+  "Em"B>e e>d "G"B>d d>B|"Am"A>G "D"A<B "G"G2 G||
+d|"G"g>b ag "C"e<g "G"d2|"Am"eaag e<a "D"a>b|\
+  "G"g>b ag "C"e<g "G"d2|"D7"g<g b>a "G"g2 g>d|
+  "G"g>b ag "C"e<g "G"d2|"Am"e<a ag e<a "D"a>b|\
+  "G"b>g "D"a>f "Em"(3gfe "G"d>B|"Am"c>A "D7"d>B "G"G2 G|]
+%%center Book37/3706-Bonnie_Ina_Campbell-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3707
+T: The Nurseryman
+P: Miss McPherson Grant's Jig - of Ballindalloch
+C:Wm. Marshall
+B:RSCDS 37-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Jig (8x32)
+M:6/8
+L:1/8
+K:A
+|:E|"A"E2 A A2 F|"E"GAB Bcd|"A"c2 E AGA|"E"B3 E3|"A"E2 e e2 c|
+  "Bm"dcd "E7"Bcd|1 "A"cde "D"fed|"A"cBA "E"GF:|2 "A"cBA "E7"EFG|"A"A3 A2||
+E|"A"C2 E "A7"A2 =G|"D"FEF D2 F|"Bm"d2c "B7"BcA|"E"G3 E2 E|"D"FGA "E"Bcd|
+  "A"cde fga|"E"gfe "B7"Bc^d|"E"e3 e2z|"D"f2 D fed|"A"e2 c ecA|
+  "D"FGA "B7"BcA|"E"G3 E3|"D"F2 d "A/c#"E2 c|"E7"D2 B "A"C2 e|\
+  cBA "E7"EFG|"A"A3 A,2|]
+%%center Book37/3707-Nurseryman-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3708
+T: The Queen City Salute
+T: Medley 4 x (32S + 32R)
+%
+P: Miss Jeany Abernethy
+C:I. Cooper (Glen Coll.)
+B:RSCDS 37-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:C
+|:"C"c>G E>G c>d e>c|"G7"d>f "C"e>g "G"f<B B2|\
+"C"c>d e>c G>c "Am"e>a|"G7"g>f e>d "C"e<c c2:|
+"C"g>e c>g e<c g>e|"Dm"f>g a/g/f/e/ "G7"f<d d2|\
+"C"g>e c>g "Am"e<e "C"g>e|"F"f>a "G7"g<f "C"e<c c2|
+"C"g>e c>g e<c g>e|"Dm"f>g a/g/f/e/ "G7"f<d d2|\
+"C"c>G c>e "G7"d>f "C7"e>g|"F"f<a "G7"g>f "C"e<c c2|]
+%
+P: Miss Christie of Durrie
+C:J. Walker (Glen Coll.)
+Z:Anselm Lingnau <anselm@strathspey.org>
+B:RSCDS 37-8
+M:C|
+L:1/8
+K:C
+|:B|"C"c2Bc GcBc|"Dm"defd "G"cBAG|"C"c2Bc "Dm"defd|"G"ecdB "C"c2 c:|
+f|"C"g2eg "Dm"f2df|afed "G"cBAG|"C"c2Bc "Dm"defd|"G"ecdB "C"c2 cf|
+  "C"g2eg "Dm"f2df|afed "G"cBAG|"C"ce"G7"df "C"eg"F"fa|"G7"gefd "C"c2c|]
+%%center Book37/3708-Queen_City_Salute-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 37011
+T: Niel Gow's Quickstep
+T: The Reverend John MacFarlane
+C:Niel Gow
+%R:quickstep, reel, polka
+B:RSCDS 37-1
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+N:Recommended tune for The Reverend John MacFarlane
+M:C|
+L:1/8
+K:C
+G2 \
+| "C"cBcd c2G2 | "(Am)"cBcd c2G2 | "Dm"A2fe "(D7)"fedc | "G"e2d2 "G7"d2ed \
+| "C"cBcd c2G2 | "(Am)"cBcd "C7"c2G2 | "F"{FG}A3G "G7"F3E | "C"G2"F"C2 "C"C2 :|
+ef \
+| "C"g3a g3e | "(Am)"c3d c3G | "Dm"A2fe fedc | "G"e2d2 d2ef \
+| "C"g3a g3e | "Am" c3d "C7"c2G2 | "F"{FG}A3G "G7"F3E | "C"G2"F"C2 "C"C2 |]
+ef \
+| "C"g3a g3e | "(Am)"c3d c3G | "Dm" A2fe "(D7)"fedc | "G"e2d2 d2ed \
+| "C"cBcd c2G2 | "Am" cBcd "C7"c2G2 | "F"{FG}A3G "G7" F3E | "C"G2"F"C2 "C"C2 |]
+%%center Book37/37011-NielGowsQuickstep-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 37012
+T: Niel Gow's Quickstep
+C:Niel Gow
+R:quickstep
+B:RSCDS 37-1
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:2/4
+L:1/16
+%--------------------
+K: C
+G2 \
+| "C"cBcd c2G2 | "(Am)"cBcd c2G2 | "Dm"A2fe "(D7)"fedc | "G"e2d2 "G7"d2ed \
+| "C"cBcd c2G2 | "(Am)"cBcd "C7"c2G2 | "F"{FG}A3G "G7"F3E | "C"G2"F"C2 "C"C2 :|
+ef \
+| "C"g3a g3e | "(Am)"c3d c3G | "Dm"A2fe fedc | "G"e2d2 d2ef \
+| "C"g3a g3e | "Am" c3d "C7"c2G2 | "F"{FG}A3G "G7"F3E | "C"G2"F"C2 "C"C2 ||
+ef \
+| "C"g3a g3e | "(Am)"c3d c3G | "Dm" A2fe "(D7)"fedc | "G"e2d2 d2ed \
+| "C"cBcd c2G2 | "Am" cBcd "C7"c2G2 | "F"{FG}A3G "G7" F3E | "C"G2"F"C2 "C"C2 |]
+%%center Book37/37011-Niel_Gows_Quickstep-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 37021
+T: Miss Erskine of Torry
+O: Glen Collection
+B: RSCDS 37-2
+R: strathspey
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: Am
+|: B \
+| "Am"c<A A>B c<A A>c | "G"B<d d>c BG GB \
+| "Am"c>A "E7"d>B "Am"e>c "Dm"d>B | "E7"e/d/c/B/ e>B "Am"cA A :|
+^g \
+| "Am"a>e e>d c>A A>c | "G"B>g dg BG G^g \
+| "Am"a>e e>d c>A "(E)"a>g | "Dm"f/e/d/c/ "E7"B/c/d/B/ "Am"cA A^g |
+| "Am"a>e e>d c>A A>c | "G"B>g dg BG GB \
+| "Am"(3ABc "E7"(3Bcd "Am"(3cde "Dm"(3def | "E7"e>a ^g>b "Am"aA A |]
+%%center Book37/37021-Miss_Erskine_of_Torry-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 37022
+T: Thorn Bush
+O: Trad
+R: strathspey
+B: RSCDS 37-4
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection
+M: C
+L: 1/8
+%
+K: A
+%%staffsep 35
+E \
+| "A"A>B c>A "D"F<A "A"E>C | "Bm"B,<B B>c "E7"d/c/B/A/ G<B \
+| "A"A>B c>A "D"F<A "A"E>C | "Bm"D<F "E7"E>G [1 "A"A<A, A, :|2 "A"A/A/A A ||
+e \
+| "A"d/c/B/A/ e>A "D"f<a "A"e>c | "Bm"d>B d/c/B/A/ "E7"G<B B>e \
+| "A"d/c/B/A/ e>A "D"f<a "A"e>c | "Bm"d>B "E7"d/c/B/A/ "A"E<A A |]
+e \
+| "A"d/c/B/A/ e>A "D"f<a "A"e>c | "Bm"d>B d/c/B/A/ "E7"G<B B>d \
+| "A"(3cAc (3ece "D"(3fdf (3agf | "E7"(3edc (3cBA "A"E<A A |]
+%%center Book37/37041-Thorn_Bush-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 37023
+N: Wisp of Thistle
+N: 8 x 32S 3C (Pat Kent/RSCDS Bk 37)
+T: The Thorn Bush
+M: 4/4
+R: Strathspey
+C: by James Fraser, Hunter Colln.
+C: arr. T. Traub 12-19-1997
+L: 1/8
+%
+K: A
+|: E|"A"A>Bc>A "D"F<A"A"E>C|"Bm"B,<BB>c "D"d/c/B/A/ "E"G<B|"A"A>Bc>A "D"F<A"A"E>C|"D"D>F"E"E>G "A"A<A, A, :|
+e|"A"d/c/B/A/ e>A "D"f>a"A"e>c|"Bm"d>B "D"d/c/B/A/ "E"G<BB>e|"A"d/c/B/A/ e>A "D"f>a"A"e>c|"Bm"d>B "E"e/c/B/A/ "A"E<AA>e|
+"A"d/c/B/A/ e>A "D"f>a"A"e>c|"Bm"d>B "D"d/c/B/A/ "E"G<BB>d|"A"(3cAc (3ece "D"(3fdf (3agf|"A"(3edc "E"(3cBA "A"E<A A |]
+%%center Book37/37041-Thorn_Bush-TT.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 37051
+T: The Quarry Weel
+C: J. Stanley Hamilton
+R: reel
+B: RSCDS 37-5
+N: The Quarry Weel is a salmon pool on the River Ayr.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+   CB,| "A"A,CEA CEAc | EAce Acea | "D"fedc "Bm"dcBA |1,3 "B7"GBAF "E7"ED :|2,4 "E7"EAGB "A"A2 :|
+|: cd | "A"ecAc eAce | agfe "(A7)"fedc | "D"fedc "Bm"dcBA |1 "B7"GBAF "E7"E2 :|2 "E7"EAGB "A"A2 |]
+y2 cd | "A"ecAc eAce | agfe fedc | "D"fedc "Bm"dcBA | "B7"GBAF "E7"EDCB, |
+y4 y  | "A"A,CEA CEAc | EAce Acea | "D"fedc "Bm"dcBA | "E7"EAGB "A"A2 |]
+%%center Book37/37051-Quarry_Weel-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 37061
+T: The Top o' the Grampians
+C: Colin MacPherson
+R: strathspey
+B: RSCDS 37-6 (Harp & Claymore)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%
+K: G
+B \
+| "G"d>e d>B "Em"A<G G>B | "Am"A<e e>d "D7"e>g e<d \
+| "G"d>e d>B "Em"A<G G>E | "D7"D>B, D>E "G"G2 G ||
+B \
+| "G"d>e d>B "Em"A<G G>B | "Am"A<e e>d "D7"e>g e<d \
+| "Em"B>e e>d "Bm"B>d d>B | "Am"A>G "D7"A<B "G"G2 G |]
+d \
+| "G"g>b ag "C"e<g "G"d2 | "Am"ea ag "D7"e<a a>b \
+| "G"g>b ag "C"e<g "G"d2 | "D7"g<g b>a "G"g2 g ||
+d \
+| "G"g>b ag "C"e<g "G"d2 | "Am"e<a ag "D7"e<a a>b \
+| "G"b>g "D"a>f "Em"(3gfe "Bm"d>B | "Am"c>A "D7"d>B "G"G2 G |]
+%%center Book37/37061-Top_o_the_Grampians-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 37081
+T: Miss Jeany Abernethie
+C:I.Cooper
+O:Glen Collection
+R:strathspey
+B:RSCDS 37-8(a)
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C
+L:1/8
+K:C
+|: "C"c>G E>G c>d e>c | "G7"d>f e>g f<d d2 \
+| "C"c>d e>c G>c e>a | "G7"g>f e>d "C"e<c c2 :|
+|| "C"g>e c>g e<c g>e | "Dm"f>g a/g/f/e/ "G7"f<d d2 \
+|  "C"g>e c>g "Am"e<c g>e | "Dm"f>a "G7"g>f "C"e<c c2 |
+|| "C"g>e c>g e<c g>e | "Dm"f>g a/g/f/e/ "G7"f<d d2 \
+|  "C"c>G c>e "G7"d>f e>g | "Dm"f>a "G7"g>f "C"e<c c2 |]
+%%center Book37/37081-Miss_Jeany_Abernethie_Str-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 37082
+T: Miss Jeany Abernethie's Reel
+C:I.Cooper
+O:Glen Collection
+R:reel (originally strathspey)
+B:RSCDS 37-8(a)
+Z:1997 converted to reel by John Chambers <jc:trillian.mit.edu>
+M:C
+L:1/8
+%
+K:C
+|: "C"cGEG cdec | "Dm"dfeg "G7"fdd2 | "C"cdec     Gcea | "G7"gfed "C"ecc2 :|
+|| "C"gecg ecge | "Dm"fgag "G7"fdd2 | "C"gecg "Am"ecge | "G7"fagf "C"ecc2 ||
+|| "C"gecg ecge | "Dm"fgag "G7"fdd2 | "C"cGce "Dm"dfeg | "G7"fagf "C"ecc2 |]
+%%center Book37/37081-Miss_Jeany_Abernethies_Reel-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 37083
+T: Miss Christie of Durrie
+C:J. Walker (Glen Coll.)
+Z:Anselm Lingnau <anselm@strathspey.org>
+B:RSCDS 37-8
+M:C|
+L:1/8
+K:C
+B | "C"c2Bc GcBc | "Dm"defd "G"cBAG | "C"c2Bc "Dm"defd | "G"ecdB "C"c2 c :|
+f | "C"g2eg "Dm"f2df | afed "G"cBAG | "C"c2Bc "Dm"defd | "G"ecdB "C"c2 c ||
+f | "C"g2eg "Dm"f2df | afed "G"cBAG | "C"ce"G7"df "C"eg"F"fa | "G7"gefd "C"c2c |]
+%%center Book37/37082-Miss_Christie_of_Durrie-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 37084
+T: Miss Erskine of Torry
+O: Glen Collection
+B: RSCDS 37-2
+R: strathspey
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+|: B \
+| "Am"c<A A>B c<A A>c | "G"B<d d>c BG GB \
+| "Am"c>A "E7"d>B "Am"e>c "Dm"d>B | "E7"e/d/c/B/ e>B "Am"cA A :|
+^g \
+| "Am"a>e e>d c>A A>c | "G"B>g dg BG G^g \
+| "Am"a>e e>d c>A "(E)"a>g | "Dm"f/e/d/c/ "E7"B/c/d/B/ "Am"cA A^g |
+| "Am"a>e e>d c>A A>c | "G"B>g dg BG GB \
+| "Am"(3ABc "E7"(3Bcd "Am"(3cde "Dm"(3def | "E7"e>a ^g>b "Am"aA A |]
+%%center Book37/MissErskineOfTorry-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 37085
+T: Miss Erskine of Torry
+O: Glen Collection
+B: RSCDS 37-2
+R: strathspey
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+|: B \
+| "Am"c<A A>B c<A A>c | "G"B<d d>c BG GB \
+| "Am"c>A "E7"d>B "Am"e>c "Dm"d>B | "E7"e/d/c/B/ e>B "Am"cA A :|
+^g \
+| "Am"a>e e>d c>A A>c | "G"B>g dg BG G^g \
+| "Am"a>e e>d c>A "(E)"a>g | "Dm"f/e/d/c/ "E7"B/c/d/B/ "Am"cA A^g |
+| "Am"a>e e>d c>A A>c | "G"B>g dg BG GB \
+| "Am"(3ABc "E7"(3Bcd "Am"(3cde "Dm"(3def | "E7"e>a ^g>b "Am"aA A |]
+%%center Book37/MissErskineOfTorry_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 37086
+T: Niel Gow's Quickstep
+C: Niel Gow
+R: quickstep
+B: RSCDS 37-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+G2 \
+| "C"cBcd c2G2 | "(Am)"cBcd c2G2 | "Dm"A2fe "(D7)"fedc | "G"e2d2 "G7"d2ed \
+| "C"cBcd c2G2 | "(Am)"cBcd "C7"c2G2 | "F"{FG}A3G "G7"F3E | "C"G2"F"C2 "C"C2 :|
+ef \
+| "C"g3a g3e | "(Am)"c3d c3G | "Dm"A2fe fedc | "G"e2d2 d2ef \
+| "C"g3a g3e | "Am" c3d "C7"c2G2 | "F"{FG}A3G "G7"F3E | "C"G2"F"C2 "C"C2 ||
+ef \
+| "C"g3a g3e | "(Am)"c3d c3G | "Dm" A2fe "(D7)"fedc | "G"e2d2 d2ed \
+| "C"cBcd c2G2 | "Am" cBcd "C7"c2G2 | "F"{FG}A3G "G7" F3E | "C"G2"F"C2 "C"C2 |]
+
+%%center Book37/NielGowsQuickstep-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 37087
+T: Niel Gow's Quickstep
+C: Niel Gow
+R: quickstep
+B: RSCDS 37-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+G2 \
+| "C"cBcd c2G2 | "(Am)"cBcd c2G2 | "Dm"A2fe "(D7)"fedc | "G"e2d2 "G7"d2ed \
+| "C"cBcd c2G2 | "(Am)"cBcd "C7"c2G2 | "F"{FG}A3G "G7"F3E | "C"G2"F"C2 "C"C2 :|
+ef \
+| "C"g3a g3e | "(Am)"c3d c3G | "Dm"A2fe fedc | "G"e2d2 d2ef \
+| "C"g3a g3e | "Am" c3d "C7"c2G2 | "F"{FG}A3G "G7"F3E | "C"G2"F"C2 "C"C2 ||
+ef \
+| "C"g3a g3e | "(Am)"c3d c3G | "Dm" A2fe "(D7)"fedc | "G"e2d2 d2ed \
+| "C"cBcd c2G2 | "Am" cBcd "C7"c2G2 | "F"{FG}A3G "G7" F3E | "C"G2"F"C2 "C"C2 |]
+
+%%center Book37/NielGowsQuickstep_JC.abc

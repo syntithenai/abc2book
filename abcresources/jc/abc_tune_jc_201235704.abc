@@ -1,0 +1,23 @@
+X: 2131
+T: Niel Gows Wife.   a Strathspey.
+%R: strathspey, air
+B: Niel Gow & Sons "Complete Repository" v.2 p.13 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+% - - - - - - - - - -
+V: 1 staves=2
+d |\
+B<G TG>B A<FTF>A | B<GTG>A (TBAB)<g | B<GTG>B A<FTF>A | B<BTc>B FBB :| d | B<BdB f<BdB | F<FA>F c>FA>c |
+B<Bd>B f>Bd<f | g<g{ga}bg dgga/b/ || f<dTd>f e<cTc>e | d<BB>d (TBAB).F | G<GB<B cc{Bc}dc | B<G {B}A.G/.^F/ DG-G |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+[g2G2][g2G2] [f2F2][f2F2] | [g2G2][g2G2] [g2G2][g2G2] |\
+[g2G2][g2G2] [f2F2][e2E2] | [d2D2][f2F2] [B2B,2][BB,] :| z |\
+[b2B2][b2B2] [b2B2][b2B2] | [f2F2][f2F2] [f2F2][f2F2] |
+[b2B2][b2B2] [b2B2][b2B2] | [e'2e2][d'2d2] [g2G2][g2G2] ||\
+[d'2d2][b2B2] [c'2c2][a2A2] | [b2B2][g2G2] [f2F2][f2F2] |\
+[g2G2][g2G2] [e2E2][d2D2]  | [d2D2][d2D2] [g2G2][gG] |]

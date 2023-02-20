@@ -1,0 +1,44 @@
+X: 31
+T: la Tiroloise.
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #31
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+[f2A2D2]f fed | a2a a2g | fdf ece | ddd d3 |\
+f2f fed | cde e2d | cdc BcB | A2A A3 :|
+|:\
+d2d ded | (d/c/B)B B3 | e2e efe | (e/d/c)c c3 |\
+dfa cea | dfa cea | Bgf edc | d2d d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+d3 d3 | c3 A3 | d3 a2A | d2d d3 |
+d3 d3 | A3 c2d | e3 E3 | A2A A3 :|
+|:\
+d3 d3 | g3 g3 | ^g3 g3 | a3 A3 |
+d3 A3 | d3 a2f | g2d a2A | d2d d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Tiroloise.
+%%begintext align
+%%   Le Grand Rond. - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Couple Contretems
+%% Forward, each Gentleman with the Left hand
+%% takes the opposite Lady by the Right hand and
+%% makes her turn under his Arm to the Right,
+%% them Moulinet to their places - - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%%sep 1 1 400

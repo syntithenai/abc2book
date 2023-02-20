@@ -1,0 +1,18 @@
+X: 20011
+T: LOCH-NA-GAR
+Q: "Allegro"
+%R: reel, strathspey
+B: "Edinburgh Repository of Music" v.2 p.1 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Version for ABC software that doesn't understand voice overlays.
+M: C
+L: 1/8
+K: D
+%%slurgraces
+%%graceslurs
+A>F |\
+D2 DF A2 AB | d2 fe {e}d2 dB | A>B d>B A<F F>D | E>D E>F {F}E2 AF |
+D2 D>F A2 A>B | d2 fe {e}d2 dB | AB d>B A<F F>D | {E}E>D E>F D2 |] A2 |
+d2 f>e {e}d2 dA | B2 dB | A2 FG | A>F {F}ED D<d dB | A<F FD {F}E2 f>g |
+a>g f/e/d/c/ {e}d2 dA | [BB4](g/f/) (e/[d/d]) (c/[B/B]) A2 F>G | A2 {c}B>A A/B/Hd a>g | f2 ~e>d d2 |]

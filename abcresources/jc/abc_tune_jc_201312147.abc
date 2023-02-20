@@ -1,0 +1,31 @@
+X: 1
+T: Mock Hoby-horse
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.22
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+a |\
+f>ef Bcd | e2e e2a/g/ |\
+f>ef ABc | d2d d2 :|\
+|: d/=c/ |\
+B2B B>AG | G2g g>fe |
+fga a2^g | a2a a>gf |\
+eg2 f>ed | Be2 c>BA |\
+afg e>dc | d2d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%   First man turn the 2. wo. then the 2. man turn the 1. wo men lead between the women, and cast
+%% into their own places; take double hands, and turn till the 1. man be in the second's place; the we.
+%% doing so, and change places at the same time, then the we. lead through the men as before, and
+%% turn their own.
+%% [DMDfD]
+%%endtext
+%%sep 1 1 300
+%%text Note: Each strain is to be play'd twice over.
+%%sep 1 8 500

@@ -1,0 +1,22 @@
+X: 1
+T: the Drunken Piper
+T: Highland Rory
+C: Alexander McLeod
+B: RSDS-13
+B: Scots Guards
+Z: John Chambers <jc:trillian.mit.edu>
+N: Can also be accompanied by A major chords without changing the melody.
+M: C|
+L: 1/8
+K: ADor
+e2 \
+| "Am"~A2AB e3f | edBd e2g2 |\
+[1,3 "G"~G2GB d3e | dBGB "E7"d2 :|\
+[2,4 "G"~g2eg "(Em)"eged | "Am"B2A2 A2 :|
+|: e2 |\
+"Am"a4 e2a2 | edef "(D7)"g2a2 |\
+"G"~G2GB d3e | dBGB "E7"d2e2 |\
+[1 "Am"a4 e2a2 | edef "(D7)"g2a2 |
+"G"g2eg "(Em)"eged | "Am"B2A2 A2 :|\
+[2 "Am"~A2AB e3f | edBd e2a2 |\
+"G"~g2eg "(Em)"eged | "Am"B2A2 A2 |]

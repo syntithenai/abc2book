@@ -1,0 +1,26 @@
+X: 1
+T: the Colonel's Health
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.346
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+F4 A3F | cd GA B3B | A2Bc de fA | Gfe2 f4 |\
+F4 A3F | cd GA B3B | A2Bc defd | cA GF G2C2 |]
+[|\
+G4 c3d | cA Fc f3g | fd ge  ^cfe2 | Ad^c2 d3c/B/ |\
+Ac fA B4 | Bd gd e4 | fc BA dG cE | F/G/F/G/ G>F F4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man and 2. woman meet and fall back again, the 1. woman and 2. man do the same: The
+%% two first cu. take hands and meet, the 2. cu. do the same: The 1. and 2. man back to back, the 1. and
+%% 2. woman the same time the like; then right and left till the first cu. comes into their own places: then
+%% the Figure of Eight, the first cu. cast off below, and the second cu. lead up
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

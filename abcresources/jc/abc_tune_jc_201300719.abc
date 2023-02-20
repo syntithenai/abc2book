@@ -1,0 +1,19 @@
+X: 1
+T: the Lasses of Stewarton
+P: reel
+S: printed copy of unknown origin in Concord Slow Scottish Session collection
+F: http://ramshaw.info/slowjamtunes/PDF/Tunes_L/Lasses_of_Stewarton_The.pdf
+M: C
+L: 1/8
+K: G
+"^A"|: g !segno!\
+| fde^c dAd2 | FDDF A2Ag | fde^c dA=c2 | ECCE G2G :|
+"^B"[|] c \
+| B/c/d AF ADDc | Bd AF A2Ac | B/c/d AF ABcA | GECE G2Gc |
+| B/c/d AF ADDc | Bd AF A2AB | cBAG ABcA | GECE G2G |]
+"^C"[|] c \
+| BGAG BGAG | FDDF A2Ac | BGAF ABcA | GECE G2Gc |
+| BGAG BGAG | FDDF A2AB | cABG ABcA | GECE G2G |]
+"^D"[|] e \
+| defg afdf | afdf a2fe | defg afdf | gece g2fe |
+| defg afdf | afdf a2fe | defg abaf | gece gba!segno!g |]

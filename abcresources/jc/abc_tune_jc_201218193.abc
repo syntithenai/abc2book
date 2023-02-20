@@ -1,0 +1,19 @@
+X: 6
+T: German Hornpipe
+%R: hornpipe, reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed to agree with the "Da Capo" at the end.
+M: 2/4
+L: 1/16
+K: G
+|:\
+g2d2 Td4 | g2e2 Te4 | d4 (cBAG) | (FGAF) D4 |\
+g2d2 Td4 | g2e2 Te4 | d2B2 (dcBA) | G2G2 G4 :|\
+|:\
+F2F2 TF4 | G2G2 G4 | c2c2 (dcBA) | B2d2B2G2 |
+F2F2 TF4 | G2G2 G2(AB) | c2A2G2F2 | G4 G4 :|\
+|:\
+f2d2 e2f2 | (gfga) g2(bg) | f2d2e2f2 | g4 b2g2 |\
+f2d2e2f2 | (gfga) g2(bg) | f2d2e2f2 | g4 g4 "Da Capo"y|]

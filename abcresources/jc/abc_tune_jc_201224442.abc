@@ -1,0 +1,20 @@
+X:0831
+T:"The Sheep on The Mountains"  (jig) 0831
+C:Unattributed
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:D
+D "^SEGNO"|F3G3|(A/2d3/2)B {d}cAG|A3~d3|A3~d3|
+F3G3|A2d cAF|~G3AFD|~G3AFD|
+F3G3|(A/2d3/2)B {d}cAG|(AB/2A/2G/2A/2) d3|(AB/2A/2G/2A/2) d3|
+FFF GGG|(A/2d3/2)B {d}cAF|~G3AFD|"^shake"GFE D2"^FINE"||
+f|fed efg|{f}afd cAG|A3~d3|A3~d3|
+fed efg|{f}afd cAF|~G3AFD|~G3AFD|
+fed efg|{f}afd cAG|A3~d3|A3~d3|
+f3~g3|afd cAF|~G3AFD|~G3 "^Dal Segno  al  Fine"AFD|]
+
+

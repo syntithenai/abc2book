@@ -1,0 +1,15 @@
+X: 280
+T: the Silver Crown   #2
+R: air, jig
+%S: s:3 b:14(6+4+4)
+B: O'Neill's 1850 #280
+O: F.O'Neill
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Compacted via repeats and multiple endings [JC]
+Q: "With spirit"
+M: 6/8
+L: 1/8
+K: G
+"^A"[|] (G/A/) | B2A (GBd) | g2e d2 [1 (B/d/) | g2e (dBG) | A2E F2 :|[2 e | dBG A2d | G3 G2 |]
+"^B"[|((3d/e/f/)| g2f (efg) | (a>gf/e/) d2d | e(dc/B/) c(de/f/) | g2a Hb2 |]
+"^C"[| a | g(fe/d/) (c/d/e).f | egB A2D | G2A BcA | G3 G2 |]

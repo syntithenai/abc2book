@@ -1,0 +1,15 @@
+X: 359
+T: Vodarki
+S: Medley from Macedonian Band
+O: Yugoslavia
+M: 7/8
+L: 1/8
+K: GPhr
+%%MIDI gchord z3f2f2
+|:"G"^FG2 G3A  |=Bcd BAGA |[1 =B4 Bdc  |=BAF G2z2 :|[2 =B7 -    |=B7|
+|:=B.c2 .d2.e2 |d2c =B2A2 |=B3 dcBA    |AGF G2z2  |
+  FG2 G2c2     |=B2A G2F2 |[1G4 =Bcd   |d_ecd2z2  :|[2 G3 G2c2  |G7 |
+|:gfgf_edc     |d_ec dz3  |[1 gz2 f_edc|d_ec dz3  :|[2 c2=B A2G2|G7 |
+|:gfgf_edc     |d_ec dz3  |[1 gz2 f_edc|d_ec dz3  :|[2 c2=B A2G2|G7 |
+|:=BcdBAGA     |=B2AG2A2  |d2c =B2A2   |=B2A G4   :|
+|:=BcdBAGA     |=B2AG2A2  |d2c =B2A2   |=B2A G4   :|

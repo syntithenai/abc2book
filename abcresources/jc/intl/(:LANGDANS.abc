@@ -1,0 +1,19 @@
+X: 28
+T: Langdans
+O: Scandinavia
+S: Jean Gravel
+F: http://www.youtube.com/watch?v=TuaEinmxYy4
+M: 6/8
+L: 1/8
+Q: 1/4=132
+K: D
+%%MIDI program 41
+%%MIDI drum d2z2d2 35 35
+%%MIDI drumon
+|:[E3/2B,3/2][EB,][E3/2B,3/2] [=F=C][EB,]|[D3/2A,3/2][DA,][D3/2A,3/2][CG,][DA,]|\
+  [E3/2B,3/2][EB,][E3/2B,3/2] [=F=C][EB,]|[D3A,3] [D3A,3]                      |
+  [E2B,2][EB,][EB,] [=F=C][EB,]          |[D2A,2][DA,][DA,][CG,][DA,]          |\
+  [EB,][DA,][EB,] [GD][=F=C][EB,]        |[D3A,3] [D3A,3]                      :|
+|:[AE][=F-=C-][=F4=C4]                   |[AE][E-B,-] [E4B,4]                  |\
+  [AE][=F=C-][=F4=C4]                    |[AE][E-B,-] [E4B,4]                  |
+  [EB,][DA,][EB,][=F=C][EB,][GD]         |[=F=C][EB,][D4A,4]                   :|

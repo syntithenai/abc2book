@@ -1,0 +1,16 @@
+X:793
+T:Whimbleton House
+C:Henry Playford, 1701
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+N:See website where I explain why I believe this is the correct version of the tune.
+L:1/4
+M:3/2
+%%MIDI gchord gcHcGc
+%%MIDI beat 100 95 80
+Q:1/2=88
+K:Gm
+P:A
+|: "Gm"G2 dc/B/ AG | "Cm"ABcA "D7"^FD | "Gm"G2 dc/B/ AG | "Cm"gG "D7"A^F "Gm"G2 :|
+P:B
+"Bb"d3/e/ fd c3/B/ | "D7"AB cA ^FD | "Bb"d3/e/ fd cB | "Cm"g2 "D7"g3/^f/ "Gm"g2 |
+"Bb"d3/e/ fd c3/B/ | "D7"AB GA ^FD | "Gm"d3/e/ dc/B/ "D7"A/B/c/A/ | "Gm"dG "D7"A^F "Gm"G2 |]

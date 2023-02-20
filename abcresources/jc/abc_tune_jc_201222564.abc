@@ -1,0 +1,23 @@
+X: 06078
+T: REEL MME. JOBIN
+T: (MRS. JOBIN'S REEL)
+C: Bob McQuillen 3 Feb.82
+B: Bob's Note Book 6 #78
+%R: reel
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G	% and D
+GA \
+| BABc BAGE | DGBd BGBd | cAFA DABc | edBG D2GA |\
+| BABc BAGE | DGBd BGBd | edcB cAFG | A2G2 G2 :|
+K: D
+|: FG \
+| Adde fdAd | fgaf d2fa | g2eg fedf | g2e2 edcB |\
+| AFAd fdAd | fgaf d2fa | gfed cdeg | f2d2 d2 :|
+%%begintext align
+%% Mrs Aim\'ee Jobin of Concord, N.H., has
+%% played piano back-up for Omer Marcoux'
+%% fiddle for many happy years of great music.
+%% Nous l'aimons tr\`es bien, Madame. Merci beaucoup!
+%%endtext

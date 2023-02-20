@@ -1,0 +1,34 @@
+X: 1
+T: Kulkurin valssi   [D,w]
+T: Vagabond Waltz
+C: Tune: trad Finland
+C: Words: J. Alfred Tanner
+Z: John Chambers <jc@trillian.mit.edu>
+B: Pelimannis\"avelmi\a v.1, Pelimannikilta ry, (Fazer 1971)
+M: 3/4
+L: 1/4
+K: D
+% %continueall
+"A"| \
+"D"DF>A | BAD | "A7"FG>C | E2C | A,CE |
+w: 1.~Lin-nois-sa krei-vi-en häät vie-te-tään, on mor-sie-mel
+AA>G | "D"F3- | FzF || "D"FD>D | EDC |
+w: druu-nat-tu pää.* Siellä viih-dyn suo vii-ni ja
+"G"B,G>G | "Em"G2B, | "A7"A,A,>A, | A,B,C | "D"D3- | Dz ||
+w: samp-pan-ja vaan, sydän kyl-mä voi ol-la kuin jää.
+"B"[| A, | "D"DD>D | DFA | "G"B3 | "D"A2F | "A7"EE>E |
+w: Siks mie-luum-min maan-tiel-lä tans-sin, kun met-si-en
+EDE | "D"F3- | Fz"I"[|]A, || "D"DD>D | DFA |
+w: humi-na se soi,* minä kul-tai-sen kul-ku-rin
+"G"d3 | B2G | "D"FA>A | "A7"AGE | "D"D3- | Dz ||
+w: vals-sin, tule kans-sa-ni, tyt-tö, o-hoi!
+"I1"\
+|: F/G/ |\
+"D"AA>G | F2A | "A7"GG>F | E2E/F/ | GG>F | EGB | AA>G | "D"F2F/G/ || "D"AA>G |
+FAd | "G"BBA | "Em"G2B | "A7"Ac>B |1,3 AGE | "D"D3- | Dz :|2,4 ABc | "D"d3- | dz |]
+"I2"\
+|: A/d/ A/d/ |\
+"G"dc/B/ G- | G G/B/ G/B/ | "D"B A/F/ D- | D C/D/ C/B,/ |\
+"A7"A, C/E/ A- | A ^G/A/ G/A/ | "D"B/A/ F/D/ A,- | A, A/d/ A/d/ ||
+"G"dc/B/ G- | G G/B/ G/B/ | "D"B A/F/ D- | D C/D/ C/B,/ |\
+"A7"A, ^G, A, | GFE | "D"D3- | D :|

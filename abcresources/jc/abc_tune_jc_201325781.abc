@@ -1,0 +1,26 @@
+X:1
+T: Port Royall
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 210
+%W: A1
+% voice 1 (1 lines, 33 notes)
+K:D
+M:4/4
+L:1/16
+f2 A2 A A A2 f2 A2 A2 g2 |f2 A2 A A A2 f4 e2 d2 |f2 B2 B B B2 f2 B2 B2 a2 |A2 B2 d2 e2 f4 e2 d2 |
+%W: A2
+% voice 1 (1 lines, 33 notes)
+f2 A2 A A A2 f2 A2 A2 g2 |f2 A2 A A A2 f4 e2 d2 |f2 B2 B B B2 f2 B2 B2 a2 |A2 B2 d2 e2 f4 e2 d2 |
+%W: B1
+% voice 1 (1 lines, 31 notes)
+d3 e f2 d2 e2 f2 g2 e2 |d2 e2 f2 d2 g4 f3 e |d3 e f2 d2 e2 f2 g2 e2 |f g a2 A2 A2 f4 e2 d2 |
+%W: B2
+% voice 1 (1 lines, 30 notes)
+d3 e f2 d2 e2 f2 g2 e2 |d2 e2 f2 d2 g4 f3 e |d3 e f2 d2 e2 f2 g2 e2 |f g a2 A2 A2 f4 d4 ||

@@ -1,0 +1,23 @@
+X:1
+T: Country Gardens
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W:         A1                                                             A2
+% voice 1 (1 lines, 46 notes)
+K:G
+M:4/4
+L:1/16
+g2 a2 g2 f2 e4 e4 |d2 e2 d2 c2 B4 A4/3 |B4/3 c4/3 d4 G4 |A2 B2 c2 A2 B6 A2 |G8 g2 a2 g2 f2 |e4 e4 d2 e2 d2 c2 |B4 A4/3 B4/3 c4/3 |d4 G4 A2 B2 c2 A2 |B6 A2 G8 |
+%W: B1
+% voice 1 (1 lines, 47 notes)
+g2 f2 g2 e2 f4 d4 |e2 f2 g2 e2 f4 d4 |g4 e4/3 f4/3 g4/3 |a4 a2 g2 f2 g2 f2 e2 |d8 g2 a2 g2 f2 |e4 e4 d2 e2 d2 c2 |B4 A4/3 B4/3 c4/3 |d4 G4 A2 B2 c2 A2 |B6 A2 G8 |
+%W: B2
+% voice 1 (1 lines, 47 notes)
+g2 f2 g2 e2 f4 d4 |e2 f2 g2 e2 f4 d4 |g4 e4/3 f4/3 g4/3 |a4 a2 g2 f2 g2 f2 e2 |d8 g2 a2 g2 f2 |e4 e4 d2 e2 d2 c2 |B4 A4/3 B4/3 c4/3 |d4 G4 A2 B2 c2 A2 |B6 A2 G8 ||

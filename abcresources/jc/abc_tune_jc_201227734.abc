@@ -1,0 +1,34 @@
+X: 10951
+T: COTILLION No. 13. tune 4
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.95 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+D2DD D2D2 | D2BA GFED | E2EE E2E2 | E4 z4 |\
+E2EE E2E2 | E2B2G2E2 | DdcB AGFE | D4 z4 H|]
+A4 F2d2 | A4 F2d2 | A<FBA GFED | CDEC A,2A,2 |\
+A4 F2d2 | A4 F2d2 | A<FBA GFED | CDEC CA,B,"^D.C."C |]
+K: Dm
+F4 E2D2 | F4 E2D2 | F4 E2D2 | CDEC A,2A,2 |\
+F4 E2D2 | F4 E2D2 | EFGE EDD^C | Dd^cB AG^F"^D.C."E  |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 give right hands across,
+%% left hands back,
+%% and form a line,
+%% balance 4,
+%% half promenade,
+%% 2 ladies forward and back,
+%% 2 gentlemen the same,
+%% balance 4,
+%% half right and left to place,
+%% next 2 give right hands across, &c.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

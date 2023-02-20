@@ -1,0 +1,41 @@
+X:17068
+T:Wilson's wilde
+C:anon., arr. Frank Nordberg
+O:England
+R:Toy, jig?
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/england/wilsons-wilde/wilsons-wilde-gtr2.abc
+V:1 Program 1 24 up %Classical guitar
+V:2 Program 1 24 merge down %Classical guitar
+M:6/4
+L:1/8
+Q:3/4=90
+K:A -8va % C with capo on third fret
+V:1
+"^Capo III"e2|a4e2 c3Bc2|d4c2 [G4B4]e2|a4e2 c3Bc2|B3A[G2B2] A4e2|
+V:2
+z2|A,6 A,6|D6 E6|A,6 A,6|D4E2 A,6|
+%
+V:1
+a4e2 cBcdc2|dcdec2 [G4B4]e2|a4e2 cBcdc2|BAGF[G2B2] A6|
+V:2
+A,6 A,6|D4A,2 E,6|A,6 A,4A,2|D4E2 A,6|
+%
+V:1
+c3de2 e3fe2|f3ga2 [B4g4]e2|cBcde2 edefe2|fefga2 [B4g4]e2|
+V:2
+A,6 A,6|D6 E6|A,6 A,6|D6 E6|
+%
+V:1
+c2e2c2 d2f2d2|c2e2A2 B2d2B2|c2e2c2 d2f2d2|c2A2[G2B2] A6|
+V:2
+A,6 D6|A,6 E,6|A,6 D6|A,4E,2 A,6|
+%
+V:1
+cBcde2 dcdef2|cBcde2 BABcB2|cBcde2 dcdef2|BAGFG2 [E4A4]|]
+V:2
+A,6 D6|A,6 E,6|A,4A,2 D4D2|E4E,2 A,4|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.

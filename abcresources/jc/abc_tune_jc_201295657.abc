@@ -1,0 +1,22 @@
+X:376
+T:Karen's Tuba
+C:Colin Hume, 1997
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=80
+H:For Karen Geer
+K:C
+P:A
+V:1
+%%MIDI program 57
+|: "C"GE/F/ "/"Gc | "F"AF "G"G2 | "Am"cd/e/ "Dm"fe | "G"d2- "/"d2 | "C"ed/e/ "Am"cB | "F"Ad/c/ "G"BG | "Am"c "F"c/d/ "C/G"e "G"d |1 "C"c2- "/"c2 :|2 "C"c2- "/"c2 |
+V:2 bass octave=-2
+%%MIDI program 58
+%%MIDI beat 120 120 120
+|: C2 E2 | F2 G2 | A2 D2 | GG/A/ BG | cBAG | F2 G2 | AF GG |1 cG ED :|2 cGEC |
+P:B
+V:1
+|: "G"dd/e/ "/"fd | "C"g2- "/"g2 | "F"AA/B/ "/"cA | "G"d2- "/"d2 | "C"ee/f/ "/"ge | "Am"cc/d/ "/"ec | "Dm"Af/e/ "G7"d3/c/ |1 "C"c2- "/"c2 :|2 "C"c2- "/"c2 |]
+V:2
+|: G4 | cc/d/ ec | F4 | GG/A/ BG | cc/d/ ec | AA/B/ cA | D2 G2 |1 cc BA :|2 cGC2 |]

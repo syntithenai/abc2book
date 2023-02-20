@@ -1,0 +1,24 @@
+X: 353
+T: Povod, Prolovcica, Prekid
+N: Ansamble Arhaika
+O: Serbia
+M: 2/4
+L: 1/8
+K:G
+P:A
+%%MIDI gchord fzzz
+"G"d3e|d2B2|dc(3cBA|ABG2|\
+d3e|d2B2|dc(3cBA|B2B2|
+%%MIDI gchord fcfc
+"G"GBB2|ABcd|GBB2|GBB2|\
+"D"ABcd|"G"d3e|d2B2|dc(3cBA|\
+"Am"A4-|A4:|
+P:B
+"G"cBBA|GAB/A/B|cBBA|GABB|cBBA|
+GAB/A/B|cBBA|GAB/A/A|AGGF|"Am"A4:|
+P:C
+"G"Bd^cd|BA/B/cB|BAGA|B/A/BBz|
+.B.d.^c.d|BA/B/cB|cBAG|A/G/AA:|
+P:D
+c/B/A/B/ c/B/A/B/|GAA2|\
+c/B/A/B/ c/B/A/B/|GAA2:|

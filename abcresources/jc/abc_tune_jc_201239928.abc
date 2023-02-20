@@ -1,0 +1,19 @@
+X:3505
+T:The Gentleman
+P:The Ceilidh Umbrella
+C:Muriel A. Johnstone
+B:RSCDS 35-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Strathspey (8x32)
+M:C
+L:1/8
+K:Bb clef=treble
+% %scl 0.855
+F|"Bb"D<F B>d "Cm"c>B "F7"c<d|"Bb"B>F DF B,D F,B,|\
+      "Eb"G,>B, E<G "Bb"F<D F>B|"D7"A<D d>c "Gm7"B2 (3Bcd|
+  "Cm"(3edc "Bb"d>B "Eb"c>B G<B|"Bb"F<D B<D "F"C>B, "D7"C<D|\
+      "Gm"B,2 B>A "Eb"G2 (3gfe|"F7"d<b d>c "Bb"B2||
+"Bb7"(3Bcd|"Cm"e2 c>e "F7"A<F f>e|"Bb"d>c (3Bcd "Eb"G<E e>d|\
+      "Ao"c>B (3ABc "D7"^F<D d>c|"Gm"(3BAG "Eb"(3gfe "F7"d>c A<F|
+  "Bb"D<F B>d "Cm"c>B "F7"c<d|"Bb"B>F DF "Bb7"B,D F,_A,|\
+      "Eb"G,>B, E<G "Bb"F<D "Eb"(3gfe|"F7"d<b d>c "Bb"B2|]

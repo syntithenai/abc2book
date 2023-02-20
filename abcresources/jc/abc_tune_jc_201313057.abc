@@ -1,0 +1,17 @@
+X: 636
+T: the Morning of Life
+R: air, reel, march
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #636
+C: O'Carolan
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Compacted via repeat and dropping slurs and other "styling" [JC]
+Q: "Moderate"
+M: C
+L: 1/8
+K: D
+"^A"[|]\
+   D>E | F2G>F E2F>E | Dddd d2c>d | e2f>e dcBA | A2B>A   A2 ||
+|  D>E | FAGF  EGFE  | Dddd d2c>d | e2f>e dcBA | A2^G>G  A2 |]
+"^B"\
+|: d>c | cBBA  AFED  | D2dd d2cB  | A2FE  GFED | B,<DD>E D2 :|

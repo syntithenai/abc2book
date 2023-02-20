@@ -1,0 +1,17 @@
+X: 794
+T: Connie the Soldier
+T: Humors of Abbeyfeale
+R: jig
+O: F.O'Neill
+B: O'Neill's 1850 "Music of Ireland" #794
+Z: Stephen Foy (shf@access.digex.net)
+N: Added initial rest to fix the rhythms of repeats.
+%abc 1.6
+M: 6/8
+K: D
+z |\
+EAA A2 d | cAG EFD | DGG DEE | DGG GED | \
+EAA A2 d | cAG EFD | EFG AGE | EDD D2 :|
+|: (d/e/) |\
+fdd ede | fdd d2 e | fed ded | \
+cAA A2 (d/e/) | fdd ede | fed A2 G | DFG AGE | EDD D2 :|

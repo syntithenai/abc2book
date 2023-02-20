@@ -1,0 +1,41 @@
+X: 1
+T:Al MacDonald's Practice Table
+M:6/8
+L:1/8
+Q:80
+C:John Toohey
+S:March
+K:HP
+|: e|
+{gfg}f2B{g}B2{GdGe}B|
+{gde}d2B{gfg}f3/2e/2d|
+{gef}e2A{g}A2{GdGe}A|  !
+{gcd}c2{e}A{gef}e3/2d/2c{gfg}f2B{g}B2{GdGe}B|
+{gde}d2Bf3/2{g}e/2a|
+e2{GdG}e{gef}e3/2d/2c|  !
+{gde}d3/2B/2{d}c{gBd}B2:| |:
+f|
+{ag}a2B{g}B2{GdGe}B|
+{gde}d2Bf3/2{g}e/2a|  !
+{ef}e2A{g}A2{GdGe}A|
+{gcd}c2{e}A{gef}e3/2d/2cf3/2{g}e/2f{g}B2{GdGe}B|
+{g}d3/2B/2{G}Bf3/2{g}e/2a|  !
+e2{GdG}e{gef}e3/2d/2c|
+{gde}d3/2B/2{d}c{gBd}B2:| |:
+f|  !
+{gBG}B3{Gdc}d2f|
+{g}B2{GdGe}B{gde}d3/2B/2f|
+{gAGAG}A3{gcd}c2e|  !
+{g}A2{GdGe}A{gef}e3/2d/2c{gBG}B3{Gdc}d2f|
+{g}B3/2d/2{e}B{gde}d3/2B/2f|
+{g}e2{GdG}e{gef}e3/2d/2c|  !
+{gde}d3/2B/2{d}c{gBd}B2:| |:
+{d}c|
+{Gdc}d2{c}d{gde}d3/2c/2B|
+f3/2{g}B/2{G}B{gde}d3/2c/2B|  !
+{g}c2{GdG}c{gcd}c3/2B/2{G}A|
+{g}e2{AGAG}A{g}c3/2d/2e{Gdc}d2{c}d{gde}d3/2c/2B|
+f3/2{g}B/2{G}B{gde}d3/2B/2f|  !
+{g}e2{GdG}e{gef}e3/2d/2c|
+{gde}d3/2B/2{d}c{gBd}B2:|
+

@@ -1,0 +1,19 @@
+X:592
+T:The Punch-Bowl
+M:3/4
+L:1/8
+%%MIDI beat 100 95 80
+%%MIDI gchord GIhgih
+%%MIDI program 73
+%%MIDI chordprog 46
+%%MIDI chordvol 50
+C:Henry Playford, 1701
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=90
+K:G
+P:A
+|: "G"G2 "/"G/A/ B "/"A G | "C"E2 E/F/ G "G"D B, | "G"d2 "C"e d "Am"e/f/ g | "D"f4 "B7"f2 |\
+"Em"g2 "/"ef "/"ge | "Am"c2 "/"A2 "/"A2 | "A7"a2 "/"b/a/g/f/ "/"e3/d/ | "D"d6 :|
+P:B
+| "D"a2 "/"b/a/g/f/ "/"ga | "Em"b2 "/"B3B | "Am"g2 "/"a/g/f/e/ "B7"B^d | "Em"e4 "C"e/f/g |\
+"G"dB "/"AG "F"A/B/c | "C"GE "G"DB, "/"A,G, | "G"d2 "C"e/d/c/B/ "D7"A3/G/ | "G"G6 |]

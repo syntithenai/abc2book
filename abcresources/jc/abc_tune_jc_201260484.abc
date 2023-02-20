@@ -1,0 +1,17 @@
+X: 599
+T: the Cashmere Shawl
+R: reel
+%S: s:3 b:12(4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #599
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0599/oneill-1001-0599-1.abc
+%%slurgraces 1
+%%graceslurs 1
+M: C|
+L: 1/8
+K: C
+"^A"\
+|: (BG) | A2AB AGED | EGAB {d}c2(BG) | AcBG AGEa | gedB {d}c2 :|
+"^B"\
+[| (cd) | ecgc eccg | ecge d2(cd) | ecgc eccg | a^fge d2 ||
+|| (cd) | ecgc eccg | ecge d2(cd) | e^fg2 eaa2 | gedB {d}c2 |]

@@ -1,0 +1,30 @@
+X: 14131
+T: My Apron Deary
+T: My Apron Dearie
+%R: air, waltz, minuet
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.4 p.13
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+"_Slow"A>B |\
+d3 e (fe) | d2 A2 B2 | =c3 e (Td>c) | TB4 {AB}A>B |\
+d3 e (fe) | d2 A2 B2 | (dcde)fg | a3 g (Tf>e) |
+d2 (a<f) e>f | d2 A2 B2 | =c3 d (e/d/c) | B4 {AB}d2 |\
+(BA)(GF) (G3/A//B//) | A3 gfg | {fg}a3 g (Tf>e) | d4 :|
+|: (AB) |\
+(d<f) (a<f) (d<f) | (B<d) (A<F) (A>B) | =c3 G e/d/c | {c}TB4 ({AB}A>B) |\
+d2 (a>f) (e/d/e/f/) | d2 A2 B2 | f2 (Te>d) (e>f) | a4 b2 |
+(a<f)(a<f) (e/g/f/e/) | (d/e/f) (A3/B//c//) (B3/=c//d//) | =cGEe (d/c/B/c/) | TB4 d2 |\
+(BA)(GF)(ED) | A3 g (fb) | {b}Ta3 (g/f/) (a/g/f/e/) | d4 :|
+|: Ta>g |\
+f/e/d d2 b2 | {b}a2 (gf)(ed) | {d}c3 d (ef) | g4 ag |\
+f/e/d d2 bg | a2 (gf)(ed) | b2 (d'b) (af) | a4 (f/g/a) |
+b2 (ge)(bg) | a2 fdaf | ge Bb (a/g/f/e/) | {d}c4 d2 |\
+B2 A2 G2 | (FA) (dg) (fb) | {b}a3 g (Tf>e) | d4 :: (A>B) |\
+(d/e/f/g/ a/f/b/g/ f/e/)d/c/ |
+dDFG (A/=c/B/d/) | =c2 (a/g/f) (e/d/=c) | TB4 ({AB}AB) |\
+d/(A/B/c/ d/e/f/g/ a/f/b/g/) | a2 g/(f/e/d/ c/B/A/G/) | (FB)(AG)(FE) | D4 (a/g/f) |
+gGgb (a/g/f/e/) | fFfa (g/f/e/d/) | (b/a/g/f/ g/e/b/a/ g/f/e/d/) | B4 (d>c) |\
+(BA)(GF) (G3/A//B//) | A3 g f>g | {fg}a3 g Tf>e | d4 :|

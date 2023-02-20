@@ -1,0 +1,38 @@
+X: 30471
+T: GUILDEROY
+P: Key of A Minor.
+%R: reel, polka
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.47 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The higher notes of the "clash" in bar 10 were probably added after the printing.
+M: C|
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+E2 |\
+A2AB cBcd | efec d2cd | edcB ABcA | (B^G)EE E2EG |\
+A^GAB cBcd | efec d2cd | ea^ga edcB | c2A2A2 :|
+|: e^f |\
+g3a gfef | gfe[^d^c] [e2d2]c=d | edcB ABcA | B^GEE E2EG |\
+A^GAB cBcd | e2dc d2cd | ea^ga e=cdB | c2A2A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+E2 |\
+C2CE A^GAB | cdcA F2AB | cBAE CEA2 | ^GE^G,G, G,2z2 |\
+CB,CE A^GAB | cdcA F2AB | c2Bc cBA^G | A2C2C2 :|
+|: z2 |\
+B3c BAGA | BAG^F G2AB | cBAE CEA2 | ^GE^G,^G, G,2z2 |
+CB,CE A^GAB | c2BA B2AB | c2Bc cAB^G | A2C2C2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+a2z2 a2z2 | a2z2 a2z2 | a2z2 a2a2 | e2e2 e2z2 |\
+a2z2 a2z2 | a2z2 a2z2 | a2z2 e2e2 | a2A2 A2 :|
+|: z2 |\
+e2z2 e2z2 | b2z2 e2z2 | c2z2 a2a2 | e2e2 e2z2 |\
+a2z2 a2z2 | a2z2 a2z2 | a2z2 e2e2 | a2A2 A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

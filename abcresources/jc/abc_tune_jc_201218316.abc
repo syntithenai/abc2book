@@ -1,0 +1,12 @@
+X:9
+T:Seven Stars
+M:6/8
+Q:1/8=300
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d2A A2F|GAB A3|Bcd efg|fed cBA|d2A A2F|GAB A3|Bcd efg|Adc d2z::
+e2A A2f|efg Tf3|efg fed|cde A3|BGB AFA|BGB AFA|Bcd cde|Adc d2z:|

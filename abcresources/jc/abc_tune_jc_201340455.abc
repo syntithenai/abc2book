@@ -1,0 +1,18 @@
+X:3
+T:Staff break multi-staves
+M:none
+L:1/8
+K:
+%%staves {1 2}
+K:G
+V:1 clef=C
+V:2 clef=F
+V:1
+[K:G clef=treble][M:C]SDE FG|AB !alcoda!cdO|AB cdS||\
+V:2
+[K:G clef=bass]D,4|A,4|D,4|
+V:1
+[K:G clef=treble]OA2d2||
+V:2
+[K:G clef=bass]A,,2D,,2||
+

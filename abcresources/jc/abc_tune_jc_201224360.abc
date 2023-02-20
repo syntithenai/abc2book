@@ -1,0 +1,28 @@
+X: 08222
+T: LADY MARY BENTINCK'S FANCY
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.8 p.22 #2
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 1 clef=treble middle=B
+|:\
+dcdc dcdc | d2a2f2d2 | A^GAG A2=ge | d2c2d2z2 :: gfed cBAG | FDAF dAaf |
+gfed cBAG FdEc d2z2 :: a2ag f3a | g2gf e3g | fgfe d2f2 | egec d2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+|:\
+dafa dafa | dafa dafa | Aece Aece | [f2d2][g2e2][f2d2]z2 :: eaga eaga | dafa dafa |
+eaga eaga | [f2d2][g2e2][f2d2]z2 :: dafa dafa | caea caea | dafa dafa | Aaeg [f2d2]z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Half right & left, back again,
+%% down the mid: up again,
+%% right and left, and Swing Corners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

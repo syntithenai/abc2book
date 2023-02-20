@@ -1,0 +1,11 @@
+X: 1146
+T: the Funny Mistake
+R: slipjig
+%S: s:2 b:18(4+4)
+B: O'Neill's 1850 Music of Ireland 1#146
+Z: Stephen Foy (shf@access.digex.net)
+%: abc 1.6
+M: 9/8
+K: C
+"^A"|: G | c2e ege f2d |1,3 e2c fdc B2 :|2,4 e2c fdB c2 \
+"^B":: (B/c/) |: ded dBG BAG |1,3 ded dBG ABc :|2,4 ege fdB c2 :|

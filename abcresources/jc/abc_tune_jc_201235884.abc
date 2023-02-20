@@ -1,0 +1,35 @@
+X: 21441
+T: ALGERINE SETT (tune 1)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.144 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="1"
+ef |\
+g2g2 d2d2 | e3f g2fd | c2Bc d2cd | e2^fg d2e=f |\
+g2g2 d2d2 | e3f g2fd | c2ec G2AB | c2[e2c2]c2 H|]
+ef |\
+g2g2 a2fd | e3e f2dB | c2c2 Bcde | de^fg G2e=f |\
+g2g2 a2fd | e2e2 f2dB | cedf eg^fa | g2g2"^D.C."g2 |]
+(3(G,A,B,) |\
+C3E G3B | c6 de | f2f2 e2e2 | dcBA GFED |\
+C3E G3B | c6 de | fedc BcdB | c2[e2c2]"^D.C."c2 |]
+C2DE FGAB | cBcd c2de | fgag fedc | Bcde GFED |\
+C2DE FGAB | cBcd c2de | fedc BcdB | c2c2"^D.C."c2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First four right and left,
+%% balance four,
+%% all chassa across partners and back,
+%% all balance partners and turn,
+%% all chain,
+%% across the corners,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,82 @@
+X: 1
+T: Plea Rarkeh na Rourkough
+T: Planxty O'Rourke, with variations
+B: A COLECTION of the most Celebrated Irish Tunes6
+N: Commonly called Planxty O'Rourke
+M: 3/4
+L: 1/8
+K: G
+V: 1
+[| G2 B2 d2 | d2 B2 G2 | c4 c2 | (cd) e2 c2 | (d2 B2) d2 | (ef) g2 e2 | (fg) a2 f2 | g6 |
+gf ga b2 | a2 b2 g2 | (f2 g2) e2 | d2 c2 B2 | c2 A2 d2 | B2 G2 d2 | e6 | f6 |
+g3 a g2 | g2 B2 d2 | (g2 e2) a2 | Tf3 e d2 | e4 e2 | d2 ef g2 | dc BA GF | G4 ||
+D2 | (EF) G2 G2 | G2 D2 G2 | GF GA Bc | d2 B2 G2 | (FG) A2 A2 | A2 E2 A2 | A^G AB cd | e2 c2 A2 |
+d4 d2 | d2 ed c2 | B4 B2 | B2 cB AG | A4 A2 | A2 BA G2 | F3 GFE | D4 D2 |
+EF G2 G2 | G2 D2 G2 | F4 G2 | A2 F2 D2 | d4 c2 | (Bc) d2 g2 | (fg) a2 f2 | g6 |]
+V: 2 clef=bass middle=d
+[| g2 z2 z2 | g2 z2 z2 | a2 z2 z2 | ab c'2 a2 | b2 z2 z2 | c'2 z2 z2 | d'2 z2 z2 | "Ch"GgdgBd |
+G2 z2 z2 | d2 z2 z2 | d2 z2 z2 | "Ch"b2 a2 g2 | a2 z2 z2 g4 b2 | c'2 c2 c'2 | d'2 d2 d'2 |
+g6 | B4 B2 | c4 c2 | d6 | c'2 c2 c'2 | "Ch"b6 | g2 d4 | G4 ||
+z2 | z2 z2 g2 | "Ch"g2 d2 g2 | gf ga ba | g6 | z2 z2 a2 | "Ch"a2 e2 a2 | a^g ab c'b | a6 |
+f2 f2 f2 | f6 | g2 g2 g2 | g6 | d2 d2 d2 | "Ch"d2 z2 z2 | d2 z2 z2 | d4 z2 |
+z2 z2 g2 | "Ch"g2 d2 g2 | d2 d2 d2 | d6 | f4 d2 | g6 | "Ch"de d2 D2 | G6 |]
+V: 1
+P: Var. 1
+|: GA Bc d2 | dc BA G2 | cB cd c2 | (cd) e2 (dc) |\
+dc Bc d2 | ed cd (ef/g/) | fe de (fg/a/) | "Ch"gG GG G2 |
+gf ga b2 | ab c'b ag | fg ag fe | "Ch"dB (cA) (BG) |\
+cB cA dc | BA BG Bd | ec Bc ec | fd cd fd |
+g3 a g2 | gd Bd G2 | gf ef ga | fd AF D2 |\
+ec Bc (ed/c/) | "Ch"d2 ef g2 | dc BA GF G4 :|
+|: d2 |\
+ef gg gg | "Ch"G2 D2 G2 | GF GA Bc | dc BA G2 |\
+fg aa aa | "Ch"A2 E2 A2 | A^G AB cd | ed cB A2 |
+de fg a2 | d2 ed c2 | Bd ef g2 | B2 cB AG |\
+Ad AF D2 | "Ch"A2 BA G2 | F3 GFE | D4 d2 |
+ef gg gg | "Ch"(G2 D2) G2 | FG AB cB | AG FE D2 |\
+dc de dc | Bc de fg | "Ch"fg Bg Af | G6 :|
+P: Var. 2
+|: Gg fg dB | GD B,D G,2 | c(f/g/ a)d cB | cd e2 c2 |\
+(dB/c/) de fg | (ec/d/) ef ga | (fd/e/) fa gf | "Ch"g6 |
+(g/f/g/a/) ga b2 | (a/b/a/b/ c')b ag | (f/g/f/g/ a)g fe | "Ch"db ca Bg |\
+(cA/B/) cA dc | (BG/A/) Bc dB | (ec/d/) ef ga |
+(fd/e/) fg af |\
+g3 a g2 | g(d/c/) Bd gf| e(e/d/) ce ag | f3 e d2 |\
+ec Bc ea | "Ch"d2 ef g2 | dc BA GF | G4 :|
+|: d2 |\
+(e/f/e/f/) gd BG | "Ch"G2 D2 G2 | GF GA Bc | dg dB G2 |\
+(f/g/f/g/) ae cA | "Ch"A2 E2 A2 | A^G AB cd | ea ec A2 |
+(d/c/d/e/) df af | d2 ed c2 | (B/A/B/c/) Bd gd | B2 cB AG |\
+Ac AF D2 | "Ch"A2 BA G2 | F3 GFE | D4 d2 |
+(e/f/e/f/) gd BG | "Ch"G2 D2 G2 | FD/E/ FD GD | AG FE D2 |\
+d(a/g/) fe dc | BB/c/ de fg | "Ch"fg ag af | g4 :|
+P: Var. 3
+|: ((3GFG) ((3BAB) ((3dcd) | ((3gfg) ((3dcd) ((3BAB) |\
+   (c/B/c/d/ c/B/c/d/) c2 | cd e2 c2 |\
+   ((3dcd) ((3BAB) ((3dcd) | ((3ede) ((3cBc) ((3ede) |
+   ((3fef) ((3dcd) ((3fef) | "Ch"g6 |\
+   (g/a/g/a/ b/a/b/a/) g2 | ((3abc') ((3c'ba) ((3agf) |\
+   ((3fga) ((3agf) ((3fed) | "Ch"((3dbd) ((3cac) ((3BgB) |
+   ((3cBc) ((3ABc) ((3dcd) | ((3BAB) ((3GBc) ((3dcd) |\
+   e2 Te3 d/e/ | f2 Tf3 e/f/ |\
+   g3 a g2 | ((3gfg) ((3bab) ((3dcd) |
+   ((3gfg) ((3efg) ((3aga) | Tf3 e d2 |\
+   ((3ec'b) ((3c'bc') ((3eae) | "Ch"de f2 g2 |\
+   dc BA GF | G6 :|
+|: d2 | ef ((3gfg) ((3gfg) | "Ch"G2 D2 G2 |\
+   GF GA Bc | ((3dcd) ((3BAB) G2 |\
+   fg ((3aga) (aga) | "Ch"A2 E2 A2 |
+   A^G AB cd | ((3ede) ((3cBc) A2 |\
+   ((3dcd) ((3fef) ((3aga) | d2 ed c2 |\
+   ((3BAB) ((3dcd) ((3gfg) | B2 cB AG |
+   ((3AGA) ((3FEF) D2 | "Ch"A2 BA G2 |\
+   F3 GFE | D4 d2 |\
+   de ((3gfg) ((3gfg) | "Ch"G2 D2 G2 |
+   ((3FEF) ((3DFD) ((3GDG) | ((3AGA) ((3FEF) D2 |\
+   ((3dfg) ((3aga) ((3fga) | ((3gBc) ((3dcd) ((3BcB) |\
+   "Ch"((3Aag) ((3aga) ((3def) | g4 :|
+P: CHORUS - to come in where mark'd thus: Ch
+|: z6 | G,G DG B,G | G,2 z2z2 | B2 A2 G2 | A2 z2z2 | G4 z2 | z6 | d2 ef g2 |
+dc BA GF | G6 ::  z2z2 G2 | G2 D2 G2 | GF GA BA | G6 | z2z2 A2 | A2 E2 A2 |
+A^G AB cB | A6 | z6 | A2 BA G2 | F3 GFE | D4 z2 |
+z2z2 G2 | G2 D2 G2 | F2 D2 D2 | D6 | z6 | DE D2 D2 | G,6 :|

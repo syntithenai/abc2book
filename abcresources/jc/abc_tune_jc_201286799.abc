@@ -1,0 +1,61 @@
+
+X: 1
+T: Hineh Ma Tov    [Dm]
+C: Moshe Jacobson
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+F: https://www.youtube.com/watch?v=rvKcSKITkPA
+F: https://www.youtube.com/watch?v=Yu8QBGgfquM
+N: With help from transcriptions by Terry Traub and Patrick Yacono
+M: 2/4
+L: 1/16
+K: Dm
+%%continueall 1
+% - - - - - - - - - - - - - - -
+"A"|: "Dm"D2D2 D2D2 | F2F2 F2F2 | "Bb"F2D2 D2D2 | "C"C2C2 "Dm"D2z2 |
+w: Hi-ne ma tov u-ma na-im shev-et a-chim gam ya-chad.
+   "Dm"F2D2 D2D2 | F2F2 G2A2 | "Bb"A2D2 D2D2 | "C"z2C2 "Dm"D2z2
+w: Hi-ne ma tov u-ma na-im shev-et a-chim ya-chad.
+"B"::\
+   "Dm"[AF][A3F3] [FD][F3D3] | [AF][A3F3] [A2F2]{G}[F2D2] | "C"[G8-E8-] | [G4E4] z4 |
+w: Hi-ne, (hi-ne) hi-ne ma* tov*
+   "Dm"[AF][A3F3] [FD][F3D3] | [AF][A3F3] [A2F2]{G}[F2D2] | "C"[G8-E8-] | [G2E2]z2 [G2E2][A2F2] |
+w: U-ma (u-ma) u-ma na-*im* she-vet
+   "Gm"[B4G4] "F"[A4F4] | "C"[G2E2][F2D2] [F2D2][G2E2] | "Dm"[A2F2]D2 D2[E2C2] | "Bb"[F8D8] |
+w: she-vet a-chim she-vet a-chim gam ya-chad
+   "(Gm)"[FD][D2B,2][FD] [D2B,2][F2D2] | "Am"[E2C2][G2E2] [E2C2]C2 | "Dm"D8- |[1 D2z2 "A7"[A2E2^C2][A2E2C2] :|[2 D4z4 |]
+w: she-vet a-chim gam a-chim gam ya-chad.* Hi-ne,
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Hineh Ma Tov    [Em]
+C: Moshe Jacobson
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+F: https://www.youtube.com/watch?v=rvKcSKITkPA
+F: https://www.youtube.com/watch?v=Yu8QBGgfquM
+N: With help from transcriptions by Terry Traub and Patrick Yacono
+M: 2/4
+L: 1/16
+K: Em
+%%continueall 1
+% - - - - - - - - - - - - - - -
+"B"|: "Em"E2E2 E2E2 | G2G2 G2G2 | "C"G2E2 E2E2 | "D"D2D2 "Em"E2z2 |
+w: Hi-ne ma tov u-ma na-im shev-et a-chim gam ya-chad.
+   "Em"G2E2 E2E2 | G2G2 A2B2 | "C"B2E2 E2E2 | "D"z2D2 "Em"E2z2
+w: Hi-ne ma tov u-ma na-im shev-et a-chim ya-chad.
+"C"::\
+   "Em"[BG][B3G3] [GE][G3E3] | [BG][B3G3] [B2G2]{A}[G2E2] | "D"[A8-F8-] | [A4F4] z4 |
+w: Hi-ne, (hi-ne) hi-ne ma* tov*
+   "Em"[BG][B3G3] [GE][G3E3] | [BG][B3G3] [B2G2]{A}[G2E2] | "D"[A8-F8-] | [A2F2]z2 [A2F2][B2G2] |
+w: U-ma (u-ma) u-ma na-*im* she-vet
+   "Am"[c4A4] "G"[B4G4] | "D"[A2F2][G2E2] [G2E2][A2F2] | "Em"[B2G2]E2 E2[F2D2] | "C"[G8E8] |
+w: she-vet a-chim she-vet a-chim gam ya-chad
+   "(Am)"[GE][E2C2][GE] [E2C2][G2E2] | "Bm"[F2D2][A2F2] [F2D2]D2 | "Em"E8- |[1 E2z2 "B7"[B2F2^D2][B2F2D2] :|[2 E4z4 |]
+w: she-vet a-chim gam a-chim gam ya-chad.* Hi-ne,
+
+%%sep 1 1 500
+
+%%text https://www.youtube.com/watch?v=rvKcSKITkPA
+%%text https://www.youtube.com/watch?v=Yu8QBGgfquM
+% %text arr. John Chambers

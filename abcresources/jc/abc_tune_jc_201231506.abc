@@ -1,0 +1,31 @@
+X: 15321
+T: Faith I defie thee
+%R: air, minuet, waltz
+N: The original tune works as a waltz, but the variations have too many notes, and are better as minuets.
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.5 p.32
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: G
+%%slurgraces 1
+%%graceslurs 1
+|: "_Slow"\
+G6 A2 B4 | g4 d4 B4 | A4 a4 A4 | c8 e4 |\
+G6 A2 B4 | d4 B4 d4 | e2g2f2a2 (gfe2) | {d4}Tc8 B4 |\
+c4 a4 c4 | B2d2 g4 B4 | A8 B4 | c2B2c2d2e2f2 |\
+g6 a2 {ga}b4 |
+{e}d4 {c}B4 d4 | G6 B2 A4 | {A4}B8 g4 ::\
+(g2d2)(d2B2)B4 | (g2b2)(g2d2)(B2G2) | a4 A4 B4 | c6 d2 (e2f2) |\
+(g2d2)(d2B2)B4 | (g2d2)(d2B2)B4 | (b2g2)(g2d2)(d2B2) | (b2g2)(b2g2)(d2B2) |
+c3e (agf2) (edc2)  | (B2g2d2)B2A2G2 | a4 A4 B4 | (c2B2)(d2c2)(e2d2) |\
+(f2e2)(g2f2)(a2g2) | b2g2 d4 e4 | G6 B2 A4 | {A4}B8 g4 ::\
+G4 (GABc) (defg) |
+G4 (GABc) (defg) | a4 A4 B4 | {B}c6 d2 e4 | G4 (GBAc) (Bdce) |\
+{e}d4 (c2B2) d4 | e4 (egfa) (g2fe) | (d4 c4) B4 | c4 (cdef) (gabc') |
+B4 (Bcde) (fgab) | A4 (A2c2)(B2d2) | (3(c2B2c2) (3(d2c2d2) (3(e2d2e2) | (3(f2e2f2) (3(g2f2g2) (3(a2g2a2) |\
+b2g2 d4 e4 | G6 B2 A4 | B8 g4 :|
+|: (gfed) (gfed) B4 | (gfed) (bagf) (edcB) | a4 A4 B4 | {B4}c8 e4 |\
+(gfed) (gfed) B4 | e2(gf) (g2d2)(B2G2) | b4 (a2g2)(f2g2) | {d4}Tc8 B4 |
+(cBc)a (cBc)a (cBc)a | (BAB)g (BAB)g (BAB)g | a4 A4 B4 | (c2B2c2d2e2f2) |\
+g6 a2 (bag2) | {e}d4 {c}B4 d4 | G6 B2 A4 | {A4}B8 g4 :|

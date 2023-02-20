@@ -1,0 +1,18 @@
+X: 28
+T: Bat Tzurim
+O: Israel
+C: Sara Levi Tanai 1959
+D: Potpourri Israeli folk dances
+M: 2/4
+L: 1/8
+K: Gdor
+Q: 1/4=144
+%%MIDI program 68 oboe
+%%MIDI chordprog 45 Pizzicato Strings
+%%MIDI bassprog 45 Pizzicato Strings
+%%MIDI bassvol 64
+%%MIDI chordvol 54
+%%MIDI gchord fzgz
+|:"Gm"FG2B|"Am"AGAF|"Gm"FG2B|"Am"AF"Gm"G2::\
+  "C"c4   |c4      |dccB    |"Gm"AGAB :|
+  "Am"A3G |A/G/Fc2 |"Gm"FG2B|"C"c2d2  |c4|

@@ -1,0 +1,16 @@
+X: 247
+T: the Old Langolee   #2
+R: jig
+%S: s:3 b:16(4+4+4)
+B: O'Neill's 1850 #247
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BC
+Q: "Playful"
+M: 6/8
+L: 1/8
+K: G
+"^A"|: G3 B2-B | A>GA BGE | D>EG G2e | d>cB [1 (A2{BA}G) :|[2 {B}A2G |]
+"^B"[| Bcd d>ef | edc  BAG | Bcd  def  | efd   g2G      ||
+"^C"|| G>Bd gfe  | dcB  BAG | G>DG G>DG | G>cB (A2{BA}G) |]

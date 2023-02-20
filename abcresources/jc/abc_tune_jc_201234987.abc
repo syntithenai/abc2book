@@ -1,0 +1,18 @@
+X: 20941
+T: FRA TANTE
+Q: "Scherzo"
+%R: march, reel
+B: "Edinburgh Repository of Music" v.2 p.94 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+%%slurgraces 0
+%%graceslurs 0
+[|\
+b2ag | fed2 | Tg2ab | b>c'a2 |\
+c'2ba | gfe2 | d2ef | a>bg2 |]
+[|\
+a3/b//a// ^ga | c'^ga2 | b2gb | a2{^c'}d'2 |\
+a3/b//a// ^ga | c'^ga2 | _b2gb | a(d'^c'=c') |]

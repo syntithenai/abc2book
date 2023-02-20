@@ -1,0 +1,33 @@
+X: 4
+T: Aj Ajde Noga
+O: Serbia
+Z: Deborah Jones
+M: 2/4
+L: 1/8
+Q: 1/4=144
+K: C
+%%MIDI program 66
+%%MIDI bassprog 26
+%%MIDI chordprog 69
+%%MIDI bassvol 80
+%%MIDI chordvol 80
+  "C"c2 [cd][ce]      | [e2g2] [e2g2]         | [eg][fa] [e2g2]  |"G7" [df][ce] [B2d2] |\
+  "C"[G2c2] [Bd][ce]  |"D7"[df][ce] [Bd][Ac]  |
+  "G" [B2d2] [B2d2]   |"G7" [e2g2] [d2f2]     | "C" [c2e2] [c2e2]| "G7" [G2d2] [eg][df]|\
+  "C"[c2e2] [G2c2]    | "G" [Bd][Bd] [B2d2]   |z4                |
+P:A
+|:"C"C2 [CD][CE]      |[D2G2] [D2G2]          |[DG][FA] [D2F2]   |"G7"[DF][CE] [B,2D2] |\
+  "C" [G,2C2][B,D][CE]|"D7"[DF][CE] [B,D][A,C]|
+  "G" [B,2D2] [B,2D2] |"G7" [D2F2] [D2F2]     |"C"[C2E2] [C2E2]  |"G7"[B,2D2] [EG][DF] |\
+  [C2E2][G,2C2]       |"G" [B,2D2] [B,2D2]    :|
+P:B
+K:G
+  "G" G2 [GA][GB]     | [B2d2][B2d2]          | [Bd][ce] [B2d2]  |"D7"[Ac][GB] [F2A2]  |\
+  "G"[D2G2] [FA][GB]  |"A7"[Ac][GB] [FA][EG]  |
+  "D"[F2A2] [F2A2]    |"D7"[B2d2][A2c2]       |"G"[G2B2][G2B2]   |"D7"[D2A2] [Bd][Ac]  |\
+  "G"[G2B2][D2G2]     |"D" [FA][FA] [F2A2]    |
+K:C
+  "C" c2 [cd][ce]     |[e2g2][e2g2]           |[eg][fa] [e2g2]   |"G7"[df][ce] [B2d2]  |\
+  "C"[G2c2] [Bd][ce]  |"D7" [df][ce] [Bd][Ac] |
+  "G" [B2d2] [B2d2]   |"G7"[e2g2][d2f2]       |"C" [c2e2] [c2e2] |"G7" [G2d2] [eg][df] |\
+  "C" [c2e2] [G2c2]   |"G" [Bd][Bd] [B2d2]    |

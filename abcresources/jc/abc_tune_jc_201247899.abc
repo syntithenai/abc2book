@@ -1,0 +1,33 @@
+X: 1
+T: Arundel street
+N: DMDfD has a hyphen in the title; CCDM1 doesn't.
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.90 #131 (172)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.192
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The dance descriptions differ trivially in spelling and punctuation.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B/A/ |\
+G2g G>AB | A2a A>Bc | B2G B>cd | e3 =f3 |\
+(e<c)(e/c/) (d<B)(d/B/) | (c<A)(a/A/) B>cd | e2a d>cB | A3 G2 |]
+B |\
+c2g ceg | B2g Bdg | A2f gAG | F3 D2B |\
+(c<e)(e/c/) (e<c)(e/c/) | (d<B)(g/G/) (d<A)(a/A/) | d<Bd g<ea | f3 g2 |]
+% - - - - - - - - - - Dance description: - - - - - - - - - -
+%%begintext align
+%% The 1st Man being Improper, go Back to Back with the 2d Man, the 1st
+%% We. being improper, go Back to Back with the 2d Wo. .| The 1st Wo.
+%% go Back to Back, side with the 2d Man, the 1st Man go Back to Back, side
+%% with the 2d Wo. then 1st Cu. Back to Back with their Partners :| The
+%% 1st Cu. cross over below the 2d Cu. and go the Figure through, 'till
+%% they come into the 2d Cu. Place, then go the Figure through the 3d
+%% Cu. till then come into the 2d Cu. Place, then the Figure thro' the
+%% upper Cu. and cast off :|
+%%endtext
+%%sep 1 8 500

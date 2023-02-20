@@ -1,0 +1,895 @@
+%%textfont Times-Narrow-Bold 16
+%%center Waltz Jam (Fiddle Hell Online) 2020
+%%textfont Times-Narrow 11
+
+%%sep 1 1 500
+
+
+X: 1
+T: Amelia
+C: Bob McQuillen 1981 (1923-2014)
+N: Bob McQuillen (1923-2014) piano, accordion, New England
+M: 3/4
+L: 1/8
+K: D
+FE |\
+"D"D3 E D2 | D2 F3 E | D2 F2 B2 | "F#m"A4 A2 |\
+"G"B3 G B2 | "D"A2 F2 E2 | "Bm"D3 B, B,2 | "G"B,4 "A"A,B, |
+"D"D3 E D2 | D2 F3 E | D2 F2 B2 | "F#m"A4 A2 |\
+"G"B3 c d2 | "D"d2 e2 f2 | "A"e2 c2 A2 | A4 :|
+|: ag |\
+"D"f3 a f2 | a2 f3 d | "A"e3 c A2 | A4 fe |\
+"Bm"d3 B d2 | f2 d2 B2 | "F#m"c3 A F2 | F4 A2 |
+"G"G3 B G2 | "D"F2 A3 d | "A"e2 c2 A2 | "Bm"d4 f2 "^I"|\
+"G"g3 f e2 | "D"a2 f2 d2 | "A"d2 e3 c | "D"d4 :|
+
+
+X: 2
+T: Ash Grove
+O: traditional Welsh, based on O'Carolan's "Beauty in Tears"
+M: 3/4 %%X:52 WJ 2015
+L: 1/8
+K: G
+                                                         D2 |\
+"G"G2 B2 dc |    B2 G2 G2 | "Am"AB cB     AG | "D7"F2 D2 D2 |\
+"G"GA BA GF | "C"E2 C2 E2 |  "G"D2 G2 "D7"F2 |[1 "G"G4     :|\
+                                              [2 "G"G4 Bc   ||
+"G"d2 Bc de |     d2 c2 B2 | "Am"c2 AB     cd  | "D7"c2 B2 A2  |\
+"G"B2 GA Bc | "Em"B2 A2 G2 |  "D"F2 d2 "A7"^c2 | "D7"d4    D2  |
+"G"G2 B2 dc |     B2 G2 G2 | "Am"AB cB     AG  | "D7"F2 D2 D2  "^I"|\
+"G"GA BA GF |  "C"E2 C2 E2 |  "G"D2 G2 "D7"F2  |  "G"G4        |]
+
+
+X: 3
+T: Ashokan Farewell
+C: Jay Ungar \251 1983
+M: 3/4
+L: 1/8
+K: D
+                                                        Ac  |\
+"D"d3   c BA |"D/F#"F4    EF |   "G"G3  F ED |"Em"B,2 D3 B, |\
+"D"A,2 D2 F2 |  "Bm"A2 d2 f2 |[1 "G"f3  g f2 |"A7"e4       :|\
+                              [2"A7"A2 c2 e2 | "D"d4       ||
+                                                       FG |\
+"D"A3   F D2 |"D7/F#"d4    A2  | "G"B3 c d2 | "D"A  F3 E2 |\
+   F3   E D2 |   "Bm"B,4   G,2 | "A"A,6     |"A7"A4    FE |
+"D"D2  F2 A2 |   "C"H=c6       | "G"B3 c d2 | "D"A2 F2 D2 "^I"|\
+   A,2 D2 F2 |   "Bm"A2 d2 F2  |"A7"E3 D C2 | "D"D4       |]
+% %newpage
+% %staffsep 0cm
+% %topspace 0
+% %titlespace 0cm
+
+
+X: 4
+T: Bach Minuet 1
+C: J. S. Bach 1685-1750
+M: 3/4
+L: 1/8
+K: G
+ "G".d2 .d2-.d2 |   B2 AB G2 |"D"A2 (.d2.c2) |"G"B4 "D"A2 |\
+ "G" d2  cBAG   |"C"e2 cBAG  |"D"F2   ED F2  |"G"G6      :|
+|: \
+"Em" B2  e4   |"A"^c2    Bc    A2 |"D" d2 e2 f2 |"A"ed^cB A2 |\
+ "D" a2  gfed |"G" b2    gfed     |"A"^c2 A2 c2 |"D"d6       |
+ "G" d2  cBA2 |    B2 "D"AB "G"G2 |"C" c4    cB |"D"A6   "^I"|\
+ "G" d2  cBAG |"C" e2    cBAG     |"D" F2 ED F2 |"G"G6      :|
+
+
+X: 5
+T: Bach Minuet 2
+C: J. S. Bach 1685-1750
+M: 3/4
+L: 1/8
+K: G
+|:\
+"G"GB dg "D"Af |"G".g2 .G2- .G2 |      GB     dg  "D"Af  |"G".g2 .G2- .G2 |\
+"C"e2 e2    eg |"G" d2  d2   dg |  "Am"c2     dc     Bc  |"D7"A6          ||
+"G"GB dg "D"Af |"G".g2 .G2- .G2 |      GB     dg  "D"Af  |"G".g2 .G2- .G2 |\
+"C"e2 dc    BA |"G" d2  cB   AG |"D"(3(ABc) (.D2    .F2) | "G"G6         :|
+|:\
+"Em" GA BA    GF |    G2  .E2-     .E2  |       gf        eg    fe  | "B"f2 .B2-   .B2 |\
+"Em" gf eg    fe |"B" f2 (.B2  "Em".e2) |    (3(fga) "B"(.B2  .^d2) |"Em"e2 ^de "D7"f2 |
+ "G" g2 gf    ed |"C" e2   ed       cB  |"Am"   c2        cB    AG  | "D"F2  EF     D2 |\
+ "D"(A2 D2)  .D2 |"G"(B2   D2)     .D2  |"Am"   c2        dc    Bc  |"D7"A6           ||
+ "G" GB dg "D"Af |"G".g2  .G2-     .G2  |       GB        dg "D"Af  |"G".g2 .G2-   .G2 "^I"|\
+ "C" e2 dc    BA |"G" d2   cB       AG  | "D"(3(ABc)    (.D2   .F2) | "G"G6           :|
+
+
+X: 6
+T: Bach Minuet 3
+C: J. S. Bach 1685-1750
+M: 3/4
+L: 1/8
+K: G
+|:\
+"G"d2 (GA) Bc | d2 .G2- .G2 |\
+"C"e2 (cd) ef | "G"g2 .G2- .G2 |\
+"C"c2 (dc) BA | "G"B2 (cB) AG |\
+[1,3 "D"F2 (GA) BG | A6 :|\
+[2,4 "D"A2 (BA) GF | "G"G6 :|
+|:\
+  "G"b2 (ga) bg | "D"a2 (de) fd |\
+"Em"g2 (ef) gd | "A"^c2 Bc A2 |\
+ (AB) ^cd ef | g2 f2 e2 |\
+ "D"f2 (.A2 "A".^c2) | "D"d6 |
+"G"d2 GF G2 | "C"e2 GF G2 |\
+"G"d2 (.c2 .B2) | "D"(AG) FG A2 "^I"|\
+ (DE) FG AB | c2 B2 A2 |\
+ "G"(Bd) (.G2 "D".F2) | "G"G6 :|
+
+
+X: 7
+T: Black Velvet Waltz / Whiskey Waltz
+C: Hank Haley
+M: 3/4
+L: 1/8
+K: C
+                                                         G,  A,B, |\
+ "C"C3 B, CE |G2 E2    C2   | "F"F3    E FA      | c2 (3(BcB) A2   |\
+ "C"C3 B, CE |G2 F2    E2   |"G7"D3   ^C DE      | D3     G,  A,B, |
+ "C"C3 B, CE |G2 E2    C2   | "F"F3    E FA      | c2 (3(BcB) A2   |\
+"G7"G3 ^F GB |d2 BG (3(Bcd) |"C"[c4E4]  [cE][dE] |[c3E3]           ||
+                                                       e f^f |\
+ "C"g3 ^f ga |g2 e2    d2   | "F"c3    B cd      | c2 A2 c2  |\
+ "C"g3 ^f ga |g2 f2    e2   |"G7"d3   ^c de      | d3  e f^f |
+ "C"g3 ^f ga |g2 e2    d2   | "F"c3    B cd      | c2 A2 c2  "^I"|\
+"G7"G3 ^F GB |d2 BG (3(Bcd) | "C"[c4E4] [cE][dE] |[c3E3]     |]
+
+
+X: 8
+T: Blue River Waltz
+C: Jay Ungar & Molly Mason 2002
+Q: "Lazy, lilting swing"
+P: Play aabbcc,aabbcc,d
+N: from the soundtrack of Ken Burns' "The National Parks"
+M: 3/4
+L: 1/8
+K: G
+"^a"|:\
+"G"DE GA BG | "Am"A3 G AB | A3 B AG | "C"E6 |\
+"(G)"DE GA BG | "Am"A3 G AB | "D7"d3 B AB | "G"G6 :|
+"^b"|:\
+"G"DE GA Bd | "C"e3 d eg | "Am"e3 d Bd | "D7"A6 "^I"|\
+"G"DE GA Bd | "C"e3 g eB | "D7"d3 B AB |[1 "G"G6 :|[2"G"G3 A Bd |]
+"^c"|:\
+"G"g2 f2 d2 | "C"e6 | g2 f2 d2 | "Em"e6 |\
+"(G)"g2 f2 d2 | "Am"e3 g eB | "D7"d3 B AB |[1 "G"G3 A Bd :|[2"G"G6 "^d.C."y|]
+% %text Play a, b, and c parts again (as written with repeats), then finish with d part (below).
+%%sep 5 5 50
+"^d"[|\
+"G"b2 a2 g2 | "C"e6 | b2 a2 g2 | "Em"e6 |\
+b2 a2 g2 | "Am"e3 g eB | "D7"d3 B AB | "G"G3 A Bd |
+|"G"b2 a2 g2 | "C"e6 | b2 a2 g2 | "Em"e6 |\
+ba gd- d2 | "Am"e3 g eB | "D7"d3 B AB | "G"G2 "_rit."B2 d2 | "G"[g6B6] |]
+
+
+X: 9
+T: Boda Valsen
+O: Swedish Traditional
+M: 3/4
+L: 1/8
+K: G
+|:\
+"Em"B3 c BA | B3 c BA | B4 e2 | B3 d ef |\
+"Em"g4 g2 | "D"f4 e2 | "Bm"f3 g f2 | "B7"B6 |
+"C"e4 e2 | "D"d3 c Bc | "G"B4 "D"A2 | "Em"G3 F GA |\
+B3 A Bc | "D(Bm)"A3 G F2 | "Em"E6- | E6 :|
+|:\
+"C"e4 e2 | g3 f e2 | "G"d6 | B6 |\
+"D"A3 B c2 | c3 B A2 | "G"B4 c2 | "(G7)"d6 |
+"C"e4 e2 | g3 f e2 | "G"d6 | "Em"B6 "^I"|\
+"D"A3 B c2 | D2 E2 F2 | "G"G3 A GF | G6 :|
+
+
+X: 10
+T: Carolan's Welcome
+C: Turlough O'Carolan (1670-1738)
+M: 3/4
+L: 1/8
+K: Em
+GF |\
+"Em"E2 GA B2 | E2 GA B2 | "D"AB AG FE | "Bm"D/E/F D2 B,2 |\
+"Em"G3 F E2 | "D"A3 G F2 | "Bm"GB B,2 D2 | "Em"E4 GF |
+"Em"E2 GA B2 | E2 GA B2 | "D"AB AG FE | "Bm"D/E/F D2 B,2 "^I"|\
+"G"d3 c B2 | "Am"e3 d BA | "Bm"GB AG FG | "Em"E4 :|
+|: E2 |\
+"Em"B2 ef g2 | B2 ef g2 | "D7"gf ed ef | "G"g2 B2 B2 |\
+"Am"c2 ec BA | "G"B2 dB AG | "D"A2 B2 d2 | "Em"e6 |
+"C"ed Bd e2 | "G"dB AB d2 | "Em"BA GA BG | "D"A2 F2 D2 |\
+"Em"G3 F E2 | "D"A3 G F2 | "Bm"G{A}B B,2 "Bm"D2 | "Em"E4 :|
+
+
+X: 11
+T: Country Waltz
+O: traditional arranged by Brian Wicklund
+M: 3/4
+L: 1/8
+K: D
+vFuE |\
+"D"vD2 F2 A2 | "(A7)"A4 FE | "D"D2 F2 A2 | f2 d2 (uef) |\
+"Em" gf e2 "A7"a2 | "D"f2 d2 cd |[1 "E7"ef ed cB | "A7" AB AG :|\
+[2 "A7"e2 (uB2 c2) | "D"vd4 |]
+|: uA2 |\
+"D"vfg fe dB | "(A7)"AB AG FE | "D"D2 F2 A2 | (3(B=cB) vA2 uf2 "^I"|\
+"Em" g3 f ed | "A7"c3 d cB |[1 A2 c2 e2 | "(D)"b2 a2 :|\
+[2 A2 (uB2 c2) | "D"[d4-F4-] [d2F2] |]
+
+
+X: 12
+T: Crested Hens / Les poules hupp\'ees
+R: Bour\'ee
+C: Gilles Chabenat 1983
+Z: from Wouter Joubert 2015
+S: Bour\'`ee from the playing of Solas
+S: https://www.facebook.com/groups/Fiddletuneoftheday/
+S: https://www.facebook.com/groups/Fiddletuneoftheday/photos/
+M: 3/4
+L: 1/8
+K: Edor
+|:\
+"Em"E3 G FE | B4 Bc | "A7sus4"dc Be dc | dc BA GF "^I"|\
+"Em"E3 G FE | B4 Bc | "A7sus4"dc BA GA |\
+[1 "Bm"B3 G FD :|[2 "B7"B4 ef ||
+|:\
+"Em"gB Bg gB | "Am"=c4 ef | "C"gf ag fe | "B7"^d2 e2 f2 |\
+"Em"gB Bg gB | "C"=c4 ef | "Am"gf ag "D"fd |[1 "Em"e3 e ef :|\
+[2 "Em"e3 G FA |] ["Last Time"yy"Em"e3 |]
+
+
+X: 13
+T: Far Away
+C: Peter Jung \251 1985
+M: 3/4
+L: 1/8
+K: Bm
+FA |\
+"Bm"B3 F Bd | "F#m"cA F2 FA | "Bm"B3 F Be | "A"c4 dc |\
+"G"B3 G Bd | "F#m"cA F2 de | "Bm"fe dc "A"BA |[1 "Bm"B4 :|\
+[2 "G"B4 ||
+|: "G"de |\
+"D"f3 d fa | "A"ec A2 de | "D"f2 fd fa | "Em"e4 de "^I"|\
+"Bm"fd Be "A"cA | "G"dB Gc "F#m"AF | "Bm"F2 B2 "F#m"A2 | "Bm"B4 :|
+
+
+X: 14
+T: Give Me Your Hand
+C: Ruainn "Rory" Dall O Cathain, ?-1653
+P: Play abc,abc,a
+M: 3/4 %% X:1 WJ 2012
+L: 1/4
+K: G
+"^a"[|] D |\
+"C"E G G | "G/B"G2 D |\
+"C"E G G | "G/B"G2 D |\
+"C"E G G | "G"G A B |\
+"Bm"B e d | "Em"B2 A/G/ |\
+"Am"A A e/d/ | "Em"B B d/B/ |
+"Am"A3/2 B/ A/G/ | "C"E2 D |\
+"C"E G G | "G/B"G2 D |\
+"C"E G G | "G/B"G2 D |\
+"C"E G G | "G"G A B |\
+"D"D3/2 B/ "D/F#"A/B/ | "G"G2 "^FINE"y |]
+"^b"[|]\
+D |\
+"C"E G G | "G/B"G A B |\
+"Bm"B e d | "Em"B2 A/G/ |\
+"Am"A A e/d/ | "Em"B B d/B/ |\
+"Am"A A B/d/ | "C"e2 d/B/ |
+"G"d d e | "Em"g2 e/d/ |\
+"Am"e e g | "D"a2 g/e/ |\
+"G"g g d/e/ | "G/B"g g d/e/ |\
+"C"g g "D"a | "G"b3 |]
+"^c"[|]\
+"G"b b b | "Em"b2 a/g/ |\
+"Am"a/g/ a/b/ a/b/ | "D"a2 g/f/ |\
+"C"e e g/e/ | "G/B"d d g/d/ |\
+"G"B B d/B/ | "D"A3/2 c/ B/A/ |
+"G"G G B/d/ | "G7"=f2 e/d/ |\
+"C"e e g | "Am"e2 d/B/ "^I"|\
+"G"d d g/d/ | "Em"B B d/B/ |\
+"D"A3/2 c/ B/A/ | "G"G2 |]
+
+
+X: 15
+T: Hewlett / Planxty Hewlett
+C: Turlough O'Carolan (1670-1738)
+M: 3/4
+L: 1/8
+K: D
+AF |\
+"D"D2 DE FG | "A"AB c2 A2 | "Bm"d2 f2 fg | "G"fe d3 B |\
+"D"A2 F2 F2 | "G"G3 B AG | "D"AF D2 "G"D2 |[1 "D"D4 :|\
+[2"D"D6 ||
+|: \
+"D"A2 F2 AB | "/C#"A2 F2 AB | "/B"A2 d2 d2 | "Bm/F#"dc BA GF |\
+"Em"G2 E2 GA | "/D"G2 E2 EF | "A/C#"GF GB AG | "D"AF D3 E |
+"D"FE F2 G2 | "A/C#"AB c2 A2 | "Bm"fe fg ag | "G"fe d3 B "^I"|\
+"D"A2 F2 F2 | "G"G3 B AG | "D"AF D2 "G"D2 | "D"D6 :|
+
+
+X: 16
+T: Inisheer / Inis O\'irr
+C: Thomas Walsh \251 1970
+M: 3/4
+L: 1/8
+K: G
+D2 |\
+"G"B2 BA B<d | "/F#"B2 BA B<d | "Em"E3 B AB | "D7"A2 AB AG "^I"|\
+"G"B2 BA B<d | "/F#"B2 BA B<d | "C"E3 B "D7"(3AGF |1 "G"G4 D2 :|2 "G"G2 GA Bd |]
+"C"e2 ef ed | "Bm7"B3 A Bd | "Em"gf ed "(D)"(3Bcd | "C"e3 A Bd |\
+"Am7"e2 ed e<g | "G"B2 BA B<d | "C"G3 B "(D)"(3AGF | "G"G2 GA Bd ||
+"C(Am7)"e2 ef ed | "G"B3 A Bd | "Em"gf ed "(D)"(3Bcd | "C"e4 (3Bcd "^I"|\
+"Am"e2 ed e<g | "G"B2 (3BcB AB | "C"G3 B "D7"(3AGF | "G"G4 |]
+
+
+X: 17
+T: Josefin's Dopvals / Josefin's Baptism waltz
+C: Roger Tallroth \251 1993
+%D:1993
+M: 3/4
+L: 1/8
+K: G
+z2 "D7"D2 |\
+"G"D2 G2 A2 | B2 d2 c2 | B2 A2 G2 | D4 E2 | "C"C3 C C2 | E2 G2 F2 | "Am"E6 | "D"D6 |
+"G"D2 G2 A2 | B2 d2 c2 | B2 A2 G2 | D4 E2 | "C"C3 C C2 | E2 F2 G2 | "D"A6- | A2 :|
+|: B2 c2 |\
+"G"d2 B2 d2 | g4 f2 | "C"e6 | "G/B"d6 | "Am"c2 e2 d2 | "(C)"c2 G2 A2 | "G"B3 c B2 | "D"A2 B2 c2 |
+"G"d2 B2 d2 | g4 f2 | "C"e6 | "G/B"d6 | "Am"c2 e2 d2 | "D7"c2 B2 A2 | "G"B3 c B2 | "D/F#"A2 B2 c2 |
+"Em"B2 A2 G2 | "D"F4 G2 | "C"G6 | C2 D2 C2 "^I"| "G"B,2 D2 G2 | "D7"F2 E2 F2 | "G"G6- | G2 :|
+
+
+X: 18
+T: Junior's Waltz
+C: Junior Daugherty \251 1982
+M: 3/4
+L: 1/8
+K: A
+CB, | \
+"A"A,2 C3 A, | "E7"B,2 D3 B, | "A"C2 E2 Ae | "A7"c4 cB |\
+"D"A4 GA | "E7"G4 F2 | "A"E4- EF | "E"E3 D CB, |
+"A"A,2 C3 A, | "E7"B,2 D3 B, | "A"C2 E2 Ae | "F#m"c4 c=c |\
+"B7"B3 c BA | F2 G2 A2 | "E"B4- Bc | "E7"B4 CB, ||
+"A"A,2 C3 A, | "E7"B,2 D3 B, | "A"C2 E2 Ae | "A7"c4 cB |\
+"D"A4 GA | "E7" G4 F2 | "A"E4 F2 | E2 C2 E2 "^I"|
+"D"F4 FG | "B7/D#"A4 (3ABc | "A"c3 B AF | "F#7"E2 C2 E2 |\
+"B7"F3 =F ^F=G | "E7"^G4 (3c=cB | "A"A6- | A4 |]
+
+
+X: 19
+T: Kentucky Waltz
+C: Bill Monroe (1946)
+%D:1946
+O: arranged by Bob Alessio
+N: and a few details fixed by John Chambers
+N: Bill Monroe's most successful tune, peaded at #3 on the C&W charts
+M: 3/4
+L: 1/8
+K: D
+(3DFA |\
+"D"d3 c B2 | A4 DE | F(G F4) | "D"z2 z2 (3ABc |\
+"D"d4 cB | A4 F2 | "A"E6 | z2 z2 A2 |
+"A"c4 cB | A4 GF | E4- (EF) | E4 CB, |\
+"A"(A,2 C2 E2) | A2 c2 (3BcB | "D"A6 | z2 z2 (3ABc |
+"D"d3 c B2 | A4 DE | FG F4 | z2 z2 d2 |\
+"D"f4 f2 | "D7"e4 d2 | "G"B6- | B2 z2 Bc "^I"|
+"G"d3 d cd | "E7/G#"e4 de | "D"f2 fe dB | "B7"A4 ^GA |\
+"E7"B3 ^A B=c | "A7"^c2 f2 fe | "D"d6- | d2 z2 |]
+
+
+X: 20
+T: Lovers' Waltz
+C: Molly Mason & Jay Ungar \251 1992
+M: 3/4
+L: 1/8
+K: G
+D GB |\
+"G"d3 d BG | "C"E3 D CB, | "G"D6- | "(D7)"D3 D GB |\
+d3 d BG | "C"E3 D CB, | "Am"D6- | "D7"D3 D EG |
+"Am"A3 G AB | "C"A G3 ED | "G"D6- | "(D7)"D3 D EG |\
+"C"A3 G AB | "Am"A G3 ED | "D"d4- de | d4 GF ||
+"G"G4 GF | "Am7"G4 GF | "G/B"G3 G GF | "C"G2 c3 B |\
+"G"G4 GF | "Em"G4 ED | "Am"E4- ED/2E/2 | "D7"D4 GF |
+"C"E3 F G2 | "D"F2 G2 A2 | "Em"B3 c BA | G4 GF "I"|\
+"C"E2 F2 G2 | "D7"A2 G3 F | "G"G4- "(C)"G2- |["." "G"G3 "d.C."y |]\
+[K:D]
+["Trans."yy"D"A3 |] \
+A df |\
+"D"a3 a fd | "G"B3 A GF | "D"A6- | "(A7)"A3 A df |\
+a3 a fd | "G"B3 A GF | "Em"A6- | "A7"A3 A Bd |
+"Em"e3 d ef | "G"e d3 BA | "D"A6- | "(A7)"A3 A Bd |\
+"G"e3 d ef | "Em"e d3 BA | "A"a4- ab | a4 dc ||
+"D"d4 dc | "Em7"d4 dc | "D/F#"d3 d dc | "G"d2 g3 f |\
+"D"d4 dc | "Bm"d4 BA | "Em"B4- BA/B/ | "A7"A4 dc |
+"G"B3 c d2 | "A"c2 d2 e2 | "Bm"f3 g fe | d4 dc |\
+"G"B2 c2 d2 | "A7"e2 d3 c | "D"d4- "(G)"d2- | "D"d3 |]
+
+
+X: 21
+T: Margaret's Waltz
+C: Pat Shaw 1959
+M: 3/4
+L: 1/8
+K: A
+c2 |\
+"A"E3 F AB | "(F#m)"c4 c2 | "D"BA F2 A2 | "E7"B4 c2 |\
+"A"E3 F AB | "(F#m)"c3 d e2 | "E7"c4 B2 | "A"A4 :|
+cd |\
+"C#m"e3 f ge | "F#m"a4 a2 | "D"fe d2 f2 | "E7"e3 d cB |\
+"A"A3 B cd | "F#m"e4 e2 | "D"cB A2 c2 | "E7"B4 cd |
+"C#m"e3 f ge | "F#m"a3 g f2 | "Bm"e2 d2 c2 | "E7"B4 c2 "^I"|\
+"A"E3 F AB | "(F#m)"c3 d e2 | "E7"c3 A B2 | "A"A4 |]
+
+
+X: 22
+T: Midnight on the Water
+C: Luke Thomasson
+M: 3/4
+L: 1/8
+K: D
+                                                       A, DE |\
+"D"F4       F2 | "D/C#"F4   FE|"D/B"F2 A3  B |"D/A"AF D2 D<E "^I"|\
+   F2 d2 "G"B2 |    "D"A3 D ED| "A7"FB AF ED |"D"D3         :|
+|: A Bc |\
+ "D"d4-   dd | "D/C#"dc BA Bc | "D/B"d3  B AF |   "D/A"D4  d2 |\
+"Em"e4    ef |       e2 d2 e2 |  "Bm"f3  a fe |     dc BA  Bc |
+|"G"d4    de |       d2 c2 B2 |   "D"A3  B AG |     FE DA, DE "^I"|\
+ F2 d2 "G"B2 |    "D"A3  D ED |  "A7"FB AF ED |[1"D"D3       :|\
+                                               [2"D"d3        |]
+
+
+X: 23
+T: My Cape Breton Home
+R: slow air, waltz
+C: \251 1988 Jerry Holland (1955-2009)
+M: 3/4 %% X:48 WJ 2015
+L: 1/8
+K: G
+g |\
+"G"g3 g fg |"D"a2 f2 d2 | "C"c3 c Bc | "G"d2 B2 G2 |\
+g3 g fg |"D"a2 f2 d2 |"Am7"c3 c Bc |"D7"d3 f2 g |
+"G"g3 g fg |"D"a2 f2 d2 | "C"c3 c Bc | "G"d2 B2 G2 "^I"|\
+"Am7"E c3 cB |"D"A3 G F2 | "G(C)"G6 | "G"G4- G :|
+|: D |\
+"G"D3 G B2 | "C"c3 c Bc |"G"d3 B G2 |"Am"A2 G2 "D7"E2 |\
+"G"D3 G B2 | "C"c3 c Bc |"G"d g3 gf |"D7"d2 c2 A2 |
+"G"D3 G B2 | "C"c3 c Bc |"G"d3 B G2 |"Am"A2 G2 "D7"E2 |\
+"G"D g3 fg |"Am7"d2 c2 "D7"A2 |"G(C)"G6 | "G"G4- G :|
+
+
+X: 24
+T: My Home Waltz / My Own Home / My Ain Home / My Own House
+N: (Old-Time)
+M: 3/4
+L: 1/8
+K: A
+ed |\
+"A"c3 B A2 | A2 c2 e2 | "D"a2 g2 f2 | "E7"e4 d2 |\
+"A"c3 B cB | "F#m"A2 B2 c2 | "Bm"d3 c d2 | "E7"B2 e2 d2 |
+"A"c3 B A2 | A2 c2 e2 | "D"a2 g2 f2 | "E7"e4 d2 "^I"|\
+"A"c3 A c2 | "G"B3 =G B2 | "A"A6- |[1 A2 :|[2 A4 |]
+|: E2 |\
+"A"A3 B c2 | c3 B c2 | "F#m"e3 d c2 | c4 e2 |\
+"Bm"d3 c d2 | "E7"B2 c2 d2 | "A"e3 c A2 | A2 c2 e2 |
+"D"f3 d f2 | a3 g f2 | "A"e2 c2 A2 | "D"a4 d2 "^I"|\
+c3 A c2 | "G"B3 =G B2 | "A"A6- | A4 :|
+
+
+X: 25
+T: O Mio Babbino Caro (Oh My Dear Daddy)
+O: from "Gianni Schicchi"
+C: Giacomo Puccini
+S: Gary Dahl "Italian Songa & Arias for Accordion" pub. Mel Bay 2003 p.12
+S: https://www.music-for-music-teachers.com/o-mio-babbino.html
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - -
+D | "G"GGG B2F | "Em"E3 "G"D3 | "G"GAB G2g | d3 d2B || "D"d2A "Am"c2B | "Em"G3 G3 |
+w: O mi-o bab-bi-no ca-ro, mi pia-ce',~\`e bel-lo, bel-lo; vo'an-da-re'in Por-ta Ros-sa
+%
+"Em"GAB "A7"G2F | "D"A3 "D7"A2D || "G"G3 BGF | "C"E3 "G"D3 | GAB "(Em)"G2g | "G"d3 d2e ||
+w: a com-pe-rar l'a-nel-lo! Si, si, ci vo-glio'an-da-re! E se l'a-mas-si'in-dar-no, an-
+%
+"C"g2e "D"d2c | "Bm"d3 "Em"B3 | "C"GAB "Am"G2E | "Em"G3 G2 e || "Am"g2e "D7"d2c | "G"g2d "C"c2B | "Em"e6 |
+w: drei sul Pon-te Vec-chio, ma per but-tar-mi'in Ar-no! Mi strug-go'e mi tor-me-n-to! O Di-
+%
+"C"e2c "D7"B2A | "G"G3-G2 :| D | "G"GGG B2F | "Em"E3 "G"D3 | GAB G2g | d6 | "C"GAB "Am7"G2E | "G"G3-G2 |]
+w: o, vor-rei mo-rir!* (Inst'l______) Bab-bo, pie-t\`a, pie-t\`a! Bab-bo, pie-t\`a, pie-t\`a!
+
+
+X: 26
+T: Old Rosin, The Beau / Lincoln and Liberty
+N: a/k/a with lyrics as the "Old Settler's Song" or "Acres of Clams" %% X:3 WJ 2012
+M: 3/4
+L: 1/8
+K: G
+D2 |\
+"G"G2 G2 G2 | B2 A2 G2 | B2 d4- | "C"d4 e2 |\
+"G"d2 B2 A2 | G2 A2 B2 | "Em"E6- | E4 D2 |\
+"G"G2 G2 G2 | B2 A2 G2 | B2 d4- | "C"d4 e2 "^I"|\
+"G"d2 B2 G2 | "D7"A2 B2 A2 | "G"G6- | G4 ||
+d2 |\
+"G"d2 B2 d2 | d2 e2 f2 | "C"g4 e2 | g4 e2 |\
+"G"d2 B2 A2 | G2 A2 B2 | "Em"E6- | E4 DD |\
+"G"G2 G2 G2 | B2 A2 G2 | B2 d4- | "C"d4 ee "^I"|\
+"G"d2 B2 G2 | "D7"A2 B2 A2 | "G"G6- | G2 z2 |]
+
+
+X: 27
+T: Ookpik Waltz / Oot Pik Waltz / Utpick Waltz / Eskimo Waltz
+C: Frankie Rodgers? 1965
+O: arranged by Bob Alessio
+M: 3/4
+L: 1/8
+K: G
+"D7"(3DEF |\
+"G"G3 F GB | "D"A2 F2 ED | "Em"E2 G3 A | "(G)"G2 B2 d2 |\
+"C"e3 d ef | e2 d2 BA | "G"B2 d3 e | d4 gf |
+"C"e3 d ef | e2 d2 BA | "G"B2 d2 BA | "Em"G2 E2 B,2 "^I"|\
+"C"C3 E GB | "D"A2 F2 ED | "Em"E2 G3 A | "G"G4 :|
+|: Bd |\
+"Em"e2 B3 c | B3 A GB | "G"d2 B3 c | B2 A2 G2 |\
+"Am"A3 G AB | A2 G2 ED | "Em"E2 ED B,D | E4 :|
+
+
+X: 28
+T: Over the Waves
+C: 1888 Juventino Rosas (1868-1894)
+M: 3/4 %% X:4 WJ 2015
+L: 1/4
+K: G
+|:\
+"G"B,3 | (^A, B, D) | G3- | G (F G) |\
+(A G F) | (G B, D) | "D"F3- | F3 ||\
+C3 | (B, C D) | F3- | F (^E F) |\
+(G F ^E) | (F C F) | "G"B,3- | B,3 ||
+"G"B,3 | (^A, B, D) | G3- | G (F G) |\
+(A G F) | (G B, D) | "C"E3- | E3 ||\
+"Am"E3 | (A c e) | "G"d3- | "Em"d (c B) "^I"|\
+"A"(A G F) | "D"(E F A) | "G"G3- | G3 :|
+|:\
+"G"(B ^A B) | (g f e) | g3- | g (f e) |\
+(B ^A B) | (e d c) | "D"F3- | F3 ||\
+(F ^E F) | (e d c) | e3- | e (d c) |\
+(F ^E F) | (c B "#"A) | "G"B3- | B3 ||
+"G"(B ^A B) | (g f e) | g3- | g (f e) |\
+(B ^A B) | (e d c) | "C"E3- | E3 ||\
+"Am"(E ^D E) | (A c e) | "G"d3 | "Em"(d c B) "^I"|\
+"A"(A G F) | "D"(E F A) | "G"G3- | G3 :|
+
+
+X: 29
+T: Peek-a-Boo Waltz
+C: William J. Scanlon? (1856-1898)
+M: 3/4
+L: 1/8
+K: D
+FG |\
+"D"A2 f2 e2 | "G"d2 c2 B2 | "D"A2 F2 G2 | A4 FG |\
+A2 f2 e2 | "E"d2 c2 d2 | "A"e3 ^d ef | e4 FG |
+"D"A2 f2 e2 | "G"d2 c2 B2 | "D"A2 F2 B2 | A4 A^A |\
+"G"B2 g2 f2 | "A"e2 B2 c2 | "D"d3 c de | d4 :|
+|: FG |\
+"D"A4 f2 | A4 A^A | "G"B4 g2 | "(Em)"B4 Bd |\
+"A"c3 d c2 | "G"B3 c B2 | "D(A7)"A3 B AG | "D"F4 FG |
+A4 f2 | A4 A^A | "G"B4 g2 | "E"B4 Bd |\
+"A"c2 B2 A2 | g2 f2 e2 | "D"d2 A2 F2 | D4 :|
+
+
+X: 30
+T: Planxty Fanny Power
+O: Turlough O'Carolan (1670-1738)
+M: 3/4
+L: 1/8
+K: G
+D2 |\
+"G"G4 D2 | G3 A B2 | "Am"c4 B2 | A4 G2 |\
+"D7"F4 E2 | D3 E D2 | F4 G2 | A4 Bc |
+"G"B3 A G2 | B2 c2 d2 | "C"e4 A2 | "Am"A4 G2 |\
+"D7"F3 E D2 | D2 E2 F2 | "G(C)"G4 G2 | "G"G4 :|
+|: d2 |\
+"G"d2 Bc d2 | "G/F#"d2 Bc d2 | "G/E"G3 A G2 | "G/D"G2 B2 d2 |\
+"C"e2 cd e2 | "C/B"e2 cd e2 | "Am"A3 B A2 | "D"A4 dc |
+"G"B3 c d2 | "C"e2 f2 g2 | "D"f3 g a2 | d4 c2 "^I"|\
+"G"B3 A G2 | "D7"A c3 F2 | "G(C)"G4 G2 | "G"G4 :|
+
+
+X: 31
+T: Planxty Irwin
+C: Turlough O'Carolan (1670-1738)
+M: 3/4 %% X:22 WJ 2015
+L: 1/8
+K: D
+A2 |\
+"D"d4 c2 | "G"B3 c d2 | "A"A4 G2 | "D"F3 E D2 |\
+"G"G4 E2 | "D"F3 G A2 | "A"C4 D2 | E4 c2 |
+"D"d4 c2 | "G"B3 c d2 | "A"A4 G2 | "D"F3 E D2 "^I"|\
+"G"G3 F E2 | "D"F3 G A2 | "A"D2 E2 C2 | "D"D4 :|
+|: A2 |\
+"D"d4 d2 | "G(Bm)"d3 c d2 | "A(Em)"e3 f e2 | "A"e2 c2 A2 |\
+"D(Bm)"f4 f2 | "E7"e3 f d2 | "A"c3 d B2 | A2 B2 c2 |
+"D(G)"d4 c2 | "G"B3 c d2 | "A"A4 G2 | "D"F3 E D2 "^I"|\
+"G"G4 E2 | "D"F3 G A2 | "A"D3 E C2 | "D"D4 :|
+
+
+X: 32
+T: Red Fox Waltz
+O: Missouri, Old Time
+N: arranged by Michael Pavan
+M: 3/4
+L: 1/8
+K: D
+|:\
+"D"A,4 D2 | F3 E D2 | "G"d3 e dc | B6 |\
+"D"A,4 D2 | F3 E D2 | A2 F2 D2 | "A"E6 |
+"D"A,4 D2 | F3 E D2 | "G"d3 e dc | B3 d cB "^I"|\
+"D"A2 ab a2 | A2 ab a2 | "A7"f3 e fe |[1 "D"d6 :|[2"D"d3 e fg ||
+|:\
+"D"a3 b ag | f2 d2 d2 | "G"e3 f ed | "(Em)"B6 |\
+"A7"c3 d cB | A2 E2 E2 | A3 B AG | "D"F3 e fg |
+"D"a3 b ag | f2 d2 d2 | "G"e3 f ed | "(Em)"B3 d cB "^I"|\
+"D"A2 ab a2 | A2 ab a2 | "A7"f3 e fe |[1 "D"d3 e fg :|[2"D"d6 |]
+
+
+X: 33
+T: Rosebud of Allanvale / Rose of Sharon
+C: J. Scott Skinner 1843-1927
+O: arranged by Bob Alessio
+M: 3/4
+L: 1/8
+K: D
+AG |\
+"D"F3 G F2 | "A"E3 F E2 | "D"D6 | D2 E2 F2 | "G"G3 A B2 | "D"A2 D2 F2 | "A(Em)"E6- | "A7"E4 AG |
+"D"F3 G FE | D2 E2 F2 | "G"G4 A2 | B3 c d2 "^I"| "D"A D3 G2 | "A"F4 E2 | "D"D6- | D4 :|
+|: A2 |\
+"D7"A3 B =c2 | B2 F2 A2 | "G"G6- | G4 B2 | "E7"B3 c d2 | c2 ^G2 B2 | "A"A6 | A2 B2 c2 |
+"D"d2 A2 F2 | D4 =C2 | "G"B,3 D G2 | "E(m)7"B3 c d2 "^I"| "D"A D3 G2 | "A"F4 E2 | "D"D6- | D4 :|
+
+
+X: 34
+T: Santa Lucia
+O: traditional Naples Italy
+M: 3/4
+L: 1/8
+K: C
+|:\
+"C"G2 G3 c | "G7"cB B4 | "F"F2 F3 A | "C"AG G4 |\
+"A7"E2 A2 G2 | "Dm"G_G F4 | "G7"F2 E2 D2 | "C"A2 G4 :|
+|:\
+"C"e2 d2 c2 | "Dm"BA d4 | "F"d2 c2 A2 | "C"^FG c4 "^I"|\
+ec cG GE | "Dm"Fd d4 |[1 "G7"d2 A3 B | "C"d2 c4 :|[2 "G7"d2 He3 d | d2 "C"c4 |]
+
+
+X: 35
+T: Sheebag Sheemore / Si Bheag, Si Mhor
+C: Turlough O'Carolan 1670-1738
+M: 3/4
+L: 1/8
+K: D
+de |\
+"D"f3 e d2 | "Bm"d3 e d2 | "G"B4 A2 | "D"F4 A2 |\
+"G"BA Bc d2 | "A"e4 de | "Bm"f4 (3efe | "D"d4 f2 |
+"G"B4 e2 | "D"A4 d2 | "Bm"F4 (3EFE | "D"D4 f2 |\
+"G"B4 e2 | "D"A4 dc | "G"d4 d2 | "(D)"d4 :|
+|: de |\
+"D"f3 e d2 | "Bm"ed ef a2 | "G"b4 a2 | "D"f3 e d2 |\
+"A"e4 a2 | "Bm"f2 e2 d2 | "G"d4 B2 | "A"A4 BA |
+"Bm"F4 (3EFE | "D"D4 f2 | "G"B4 e2 | "D"A4 a2 "^I"|\
+"G"ba gf ed | "A"e4 dc | "G"d4 dc | "D"d4 :|
+
+
+X: 36
+T: Shoe the Donkey / Put Your Little Foot
+O: Irish Mazurka
+M: 3/4
+L: 1/8
+K: G
+"^A"[|] DG |\
+"G"B2 B2 DG | B2 B2 DG | B2 c2 B2 | "D7"A4 DF |\
+A2 A2 DF | A2 A2 DF | A2 B2 A2 | "G"G4 :|
+"^B"|: "G"Bc |\
+d2 g2 f2 | "Am"A4 AB | "D7"c2 e2 d2 | "G"B4 Bc "^I"|\
+B2 A2 B2 | "Am"c4 cd |[1 "D7"e2 d2 c2 | "G"B4 :|\
+[2 "D7"e2 d2 F2 | "G"G4 |]
+
+
+X: 37
+T: Sonny's Mazurka
+N: named for Dublin accordionist Sonny Brogan 1906-1965
+M: 3/4 %% X:9 WJ 2015
+L: 1/8
+K: D
+DF |\
+"D"A2 AG FA | d2 dA BA |\
+[1,3 "G"G2 GB "A7"AG | FG EF "D"DF :|\
+[2,4 "G"G2 Gg "A7"fe | "D"d4 :|
+|: Ad "^I"|\
+"D"f2 fa "(G)"gf | "A"e2 eg "(D)"fe |\
+[1,3 "(G)"d2 df ed | "A7"cd "(Bm)"Bc "(D)"Ad :|\
+[2,4 "(G)"dc df "A7"ec | "D"d4 :|
+
+
+X: 38
+T: Southwind / Southern Breeze
+O: Irish
+M: 3/4
+L: 1/8
+K: G
+dc |\
+"G"B3 A G2 | B3 c d2 | "D"A4 AB | A4 dc |\
+"G"B3 A G2 | "C"E2 D2 E2 | "G(C)"G4 G2 | "G"G4 :|
+d2 |\
+"G"g4 g2 | "C"g3 f e2 | "G"d4 d2 | "D"d4 c2 |\
+"G"B3 A G2 | B3 c d2 | "D"A4 AB | A4 ||
+d2 |\
+"C"g4 g2 | g3 f e2 | "G"d4 BA | "Em"B4 dc "^I"|\
+"G"B3 A G2 | "D7"A c3 F2 | "G(C)"G6 | "G"G4 |]
+
+
+X: 39
+T: Star of the County Down
+O: Irish
+M: 3/4
+L: 1/8
+K: Am
+EG |\
+"Am"A4 A2 | "F"A3 G A2 | "C"c4 c2 | "G"d4 cd |\
+"C"e3 d c2 | "Am"A3 G E2 | "Em"G6- | G2 c2 B2 "^I"||
+"Am"A4 A2 | "F"A3 G A2 | "C"c4 c2 | "G"d4 cd |\
+"Am"e3 d c2 | "Dm"A4 G2 | "Am"A6- | A4 |]
+e2 |\
+"C"g4 e2 | e3 d c2 | "G"d4 d2 | d4 cd |\
+"Am"e3 d c2 | A3 G E2 | "Em"G6- | G2 c2 B2 "^I"||
+"Am"A4 A2 | "F"A3 G A2 | "C"c4 c2 | "G"d4 cd |\
+"Am"e3 d c2 | "Dm"A4 G2 | "Am"A6- | A4 |]
+
+
+X: 40
+T: Tennessee Waltz
+C: Pee Wee King [Julius Frank Anthony Kuczynski] (1914-2000)
+M: 3/4
+L: 1/8
+K: D
+DE |\
+"D"F2 A2 DE | F2 A2 de | "D7"f2 a2 fe | "G"d2 B3 c |\
+"D"d2 A2 F2 | "(Bm)"B2 A2 F2 | "A(Em)"E4 EF | "A7"E4 ||
+DE |\
+"D"F2 A2 DE | F2 A2 de | "D7"f2 a2 fe | "G"d2 B3 c "^I"|\
+"D"d2 A2 F2 | "A7"G2 F2 E2 | "D"D4 DE | "D"D4 |]
+de |\
+"D"f2 f3 f | "F#7"e4 fe | "G"d2 B2 d2 | "D"A4 Bc |\
+"D"d2 A2 F2 | "(Bm)"B2 A2 F2 | "A(Em)"E4 EF | "A7"E4 ||
+DE |\
+"D"F2 A2 DE | F2 A2 de | "D7"f2 a2 fe | "G"d2 B3 c "^I"|\
+"D"d2 A2 F2 | "A7"G2 F2 E2 | "D"D4 DE | D4 |]
+
+
+X: 41
+T: Tombigbee Waltz
+C: 1847 A.F. Winnemore
+M: 3/4 %% X:3 WJ 2015
+L: 1/8
+K: G
+BA |\
+"G"G2 B2 B2 | "G/F#"d4 BA |\
+"G/E"G2 B2 B2 | "G"d4 "(E/G#)"B2 |\
+"Am"B2 A2 A2 | "D/F#"A2 B2 d2 |\
+[1 "C"e4 d2 | "D7"B3 c :|\
+[2 "C"e2 d2 "D"F2 | "G"G4 |]
+|: d2 |\
+"G"g4 d2 | "G/B"g4 d2 |\
+"C"e3 d c2 | "G"d4 B2 "^I"|\
+"Am"B2 A2 A2 | "D7"A2 B2 d2 |\
+[1 "C"e4 d2 | "D"B4 :|\
+[2 "C"e2 d2 "D"F2 | "G"G4 |]
+
+
+X: 42
+T: Torna a Surriento / Come Back to Sorrento
+C: Ernesto de Curtis \251 1902
+%D:1902
+M: 3/4
+L: 1/8
+K: Dm
+"^A"|:\
+"Dm"DE FG AF | A2 A4 | "Gm"GA BG BG | "Dm"d2 d4 |\
+"Bb"de fe de | "Dm"A2 A4 | "A7"GA GF EF | "Dm"D4 z2 :|
+K: D
+"^B"[|\
+"D"dc AB cA | "Em"B2 B4 | "A7"cB AB cA | "D"B2 B4 |\
+FG AF ED | "Em"G2 G4 | "A7"AB cB Ac | "D"F6 |
+y | "D"dc AB cA | "Em"B2 B4 | "A7"ed cd ec | "Bb"d2 d4 |\
+"Gm"de =fe de | "Dm"A2 A4 | "A7"GA G=F EF | "Dm"D4 z2 |]
+%%text Play parts A (with repeat) and B (without repeat) again, then finish with C part (below).
+%%vskip 5
+"^C"[|\
+"D"de c3 B | "Em" d6 | "A7"zc de cB | "D"A2 A4 |\
+"Gm"G2 _B2 d2 | "Dm"(=f3 e) d2 | "A7"ze ^c3 d | "Dm"d4 z2 |]
+
+
+X: 43
+T: Valse des Bois
+C: Richard For\^et
+M: 3/4
+L: 1/8
+K: Em
+B,2 |\
+"Em"E3 D E2 | "Bm7"F3 E F2 | "Em7"G2 A2 G2 | "Bm7"F2 E2 D2 |\
+"Em"E6 | "Bm7"D2 B,2 D2 | "Em"E6- | "B7sus"E4 :|
+"D7sus"GA |\
+"G"B6 | B2 c2 B2 | "D"A2 F2 D2 | D2 E2 F2 |\
+"Em"G6 | G2 A2 G2 | "Bm7"F6- | F2 G2 A2 |
+"G"B6 | B2 c2 B2 | "D"A2 F2 D2 | D2 E2 F2 |\
+"Em7"G2 F2 E2 | "Bm7"F2 E2 D2 | "C"E6- | "D9"E2 G2 A2 |
+"G"B6 | B2 c2 B2 | "D"A2 d2 d2 | d2 c2 B2 |\
+"Em"G6 | G2 A2 G2 | "Bm7"F6- | F2 G2 A2 "^I"|
+"G"B2 A2 B2 | "C"c2 d2 e2 | "Em"B2 A2 G2 | "Am"A2 G2 F2 |\
+"Em7"G4 G2 | "Bm7"F2 E2 D2 | "Em"E6- | "(B7sus)"E4 |]
+
+
+X: 44
+T: Il Valzer di Mezzanotte (Midnight Waltz)
+C: Franc Amodio 1937
+P: Play: aabbc,aabbc,a
+R: waltz
+M: 3/4
+L: 1/8
+K: Am
+"^a"[|] E AB cd |\
+"Am"e6 | "Dm"f6 | "Am"ed c4- | c2 de dc | "E7"B6 | d6 | "Am"cB A4 |
+"Am/E"z E AB cd | "Am"e6 | "A7"g6 | "Dm"fe d4- | d2 ef ed | "Am"c2 z2 e2 | "E7"B2 z2 e2 | "Am"A3 A A2 | "^Fine."A :|
+K: A
+z z4 "^b"|: \
+"A"e6 | f2 g3 "^,"ya | "E7"g6- | "Bm7"g2 b3 a | "E7"g4 g2 | f4 =f2 | "A"e6- | e2 e2 d2 |
+"F#"c6 | c2 e3 c | "Bm"d6- | "D"d2 e2 d2 | "A"c2 z2 d2 | "E"B2 z2 e2 | "A"A3 A A2 |[1 "A"A6 :|[2"Am"A || [K:Am]
+"^c"[| "Am"E AB cd |\
+e4 c2 | "Dm"d4 B2 | "Am"c4 A2 | "E7"B6 | "Am"(e2 f2) e2 | "Dm"(d2 e2) d2 | "Am"(c2 d2) c2 | "E7"B |]
+% %text Finish with a single (unrepeated) A part, ending at "FINE".
+
+
+X: 45
+T: Vieni Sul Mar / Come to the Sea
+O: Traditional, Naples Italy
+M: 3/4
+L: 1/8
+K: D
+"^A"[|]\
+z2 D2 E2 ||"D"F2 B2 A2 | F2 D2 E2 | F2 D2 z2 |\
+z2 D2 E2 | F2 G2 A2 |"G"B2 c2 B2 |"A"E6- |\
+"A"E2 D2 E2 ||"D"F2 B2 A2 | F2 D2 E2 | F2 D2 z2 |
+z2 D2 E2 | F2 B2 A2 |"A"E2 G2 F2 |"D"D6 "^B"|]|\
+z2 F2 F2 |\
+"Bm"F2 B2 c2 | d2 c2 B2 | "F#" B2 ^A4- |^A2 F2 F2 |\
+"Bm"B2 B2 c2 | d2 e2 =f2 | "F#"^f6- | f2 F2 E2 ||
+"D"D2 F2 A2 | d2 d2 c2 | "G" c2 B4- | B2 F2 G2 |\
+"A7"A2 B2 A2 | G2 F2 E2 | "D" D6- | D2 B,C DE \
+"^C"|: \
+"D"F6 | "A"E2 D2 E2 | "D"D6 | DE FA Bc |
+"G"d6 | B2 G2 B2 | "D"A6- | A2 z4 "^I"||\
+"G"d2 B2 d2 | "F#m"c2 A2 c2 | "Em"B2 G2 B2 |"D"A6 |\
+F6 | "A"E2 D2 E2 |[1"D"D6- | D4 z2 :|\
+[2"D"D6 |]
+
+
+X: 46
+T: Westphalia Waltz
+M: 3/4
+L: 1/8
+K: G
+D EF |\
+"G"G4 A2 | B4 e2 | d6- | d3 D EF |\
+"G"G4 A2 | "E"B4 c2 | "Am"A4- AB | A4 G2 |
+"D"F4 G2 | "(Am)"A4 g2 | "D"f4- fg | f4 e2 "^I"|\
+d3 ^c de |[1"D7"d2 ^c2 =c2 | "G"B4- Bc | B3 :|\
+[2 d2 F2 A2 | "G"G6 | G2 B2 d2 ||
+|: \
+"G" .g4- g2 | "D/F#".f4- f2 |"Em"e2 f2 g2 | B6 |\
+"G"(3BcB A2 G2 | (3BcB A2 G2 |"Am"c3 B cd | c6 |
+"Am" .e4- e2 | "/G".e4- e2 | "/F#"e2 f2 g2 | "D"f4 e2 "^I"|\
+d3 ^c de |[1 d2 ^c2 =c2 | "G"B4- Bc | B4 d2 :|\
+[2 d2 F2 A2 | "G"G6 | G3 |]
+
+%%sep 1 0 500
+%%sep 1 0 500

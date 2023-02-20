@@ -1,0 +1,22 @@
+X: 121
+T: the Match Boy
+%R: jig
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+B: Bland and Weller "Country Dances for the Year 1798" p.12 #1
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+ABc cdc | cdc c2A | B2c d2e | fdB B3 |\
+ABc cdc | cdc c2A | B2cd2B | cAF F3 :|
+|:\
+aAA aAA | a2e cBA | B2c d2e | fdB B3 |\
+aAA aAA | a2e cBA | B2c {Bc}d2B | cAF F3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%  Set and change sides .| back again .|. Down
+%% the Middle up again :|. Allmand :|: Swing corners
+%% thro' the Bottom :|. & Right & Left at top :|.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

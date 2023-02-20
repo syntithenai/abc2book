@@ -1,0 +1,23 @@
+X:402
+T:Captain Carswell
+C:Joe Buchanan's Scottish Tome - Page 358.0
+I:358 0
+C:William Lawrie
+R:March
+Z:Carl Allison
+L:1/8
+M:2/4
+K:G
+e | "Am"A/>B/e/<G/ A(B/>d/) | "Em"e/>d/B/<d/ "C"e(d/>B/) | "G"G/>A/B/<A/ B(G/>B/) | d/>e/d/<B/ "Em"e(d/>B/) |
+"Am"A/>B/A/<G/ A(B/>d/) | "Em"e/>d/e/<g/ "C"e(d/>B/) | "G"G/>A/B/<e/ d/>B/e/>d/ | "Em"BA "Am"A :|
+(B/>d/) | "Am"e/>f/e/>d/ ea | "Em"g/>e/f/>d/ "C"e2 | "G"(d/>B/)A/>B/ d(e/>f/) | "Em"g/>e/f/>d/ "C"e(d/>B/) |
+"Am"e/>f/e/>d/ ea | "Em"g/>e/f/>d/ "G"e(d/>B/) | "G"G/>A/B/<e/ d/>B/e/>d/ | "Em"BA "Am"A :|
+e | "Am"A/>A/A/>B/ A/>A/A/>B/ | "C"e/>d/B/<d/ "D7"e(d/>B/) | "G"G/>A/B/<A/ B(G/>B/) | d/>e/d/>B/ "Em"e(d/>B/) |
+"Am"A/>A/A/>B/ A/>A/A/>B/ | "C"e/>d/B/<d/ "D7"e(d/>B/) | "G"G/>A/B/<e/ d/>B/e/>d/ | "Em"BA ""Ae |
+"Am"A/>A/A/>B/ A/>A/A/>B/ | "C"e/>d/B/<d/ "D7"e(d/>B/) | "G"G/>A/B/<A/ B(G/>B/) | d/>e/d/>B/ "Em"e(d/>B/) |
+"Am"A/>A/A/>B/ A/>A/A/>B/ | "C"e/>d/e/<g/ "D7"e(d/>B/) | "G"G/>A/B/<e/ d/>B/e/>B/ | "Em"BA "Am"A |]
+B/>d/ | "Am"e/>B/ ((3A/A/A/) a/>A/ ((3A/A/A/) | "Em"g/>e/f/>d/ "C"e2 | "G"(B/<d/)B/>A/ G(B/>d/) | e/>d/(B/<d/) "Em"e(d/>B/) |
+"Am"e/>A/ (3A/A/A/ a/>A/ (3A/A/A/ | "Em"g/>e/f/>d/ "C"e(d/>B/) | "G"G/>A/B/<e/ d/>B/e/>d/ | "Em"BA "Am"A(B/>d/) |
+"Am"e/>A/ (3A/A/A/ a/>A/ (3A/A/A/ | "Em"g/>e/f/>d/ "C"e2 | "G"B/<d/B/>A/ G(B/>d/) | "C"e/>d/e/<g/ "Em"e(d/>B/) |
+"Am"e/>A/ (3A/A/A/ a/>A/ (3A/A/A/ | "Em"g/>e/f/>d/ "C"e(d/>B/) | "G"G/>A/B/<e/ d/>B/e/>d/ | "C"e/>d/e/<g/ "em"e(d/>B/) |]
+W:Errata: Changed the ((3AAA) triplets to ((3A/A/A/) in the last four lines.

@@ -1,0 +1,25 @@
+X: 10007
+T: B.A.T.-MAN'S JIG
+N: The dots in the title should be at the neight of the '-'.
+C: Bob McQuillen 29 Oct 93
+B: Bob's Note Book 10 #7
+%R: jig
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D	% and Bm
+B \
+| A2d fed | Bed cde | d2A AFA | BAA AFG |\
+| A2d fed | Bed cde | dfd AFA | B2c d2 :|
+K: Bm
+|: c \
+| B2d B2d | Bdf ecA | B2d B2d | egf edc |\
+| B2d B2d | Bdf a2g | fdB ecA | BcB B2 :|
+%%begintext align
+%% Brent A. Tozer (B.A.T.) is one of
+%% the many people at Augusta who do so much to make things easier
+%% for the rest of us - He was my dorm manager last summer, and he
+%% sure went out of his way to be nice to me (like helping me lug all my stuff -
+%% read LOTS!-- up to the 2nd floor) -- I really appreciate all that TLC you lay on
+%% me, Brent -- thanks a lot -- See you next year!
+%%endtext

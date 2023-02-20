@@ -1,0 +1,64 @@
+
+X: 1
+T: Cherkessiya
+O: Ukraine
+Z: John Chambers <jc:trillian.mit.edu>
+N: The chords in parens may be played during the repeats.
+N: Use the G/C lines for C instruments, the A/D for Bb instruments.
+M: 4/4
+L: 1/8
+K: G
+P: G
+|: "G"[B2G2][B2G2] "C"[c2G2]"G(Em)"[B2G2] | "D(Am)"[AF][A2F2][GD] "D"[AF][BG]"G"[G2D2] :|\
+|: "G"[BG][cA][d2B2] "D"[AF][A2F2][GD] | "D"[AF][BG][c2A2] "G"[BG][AF][G2D2] :|
+P: C
+K: C
+|: "C"[e2c2][e2c2] "F"[f2c2]"C(Am)"[e2c2] | "G(Dm)"[dB][d2B2][cG] "G"[dB][ec]"C"[c2G2] :|\
+|: "C"[ec][fd][g2e2] "G"[dB][d2B2][cG] | "G"[dB][ec][f2d2] "C"[ec][dB][c2G2] :|
+%%sep 5 5 200
+P: A
+K: A
+|: "A"[c2A2][c2A2] "D"[d2A2]"A(Fm)"[c2A2] | "E(Bm)"[BG][B2G2][AE] "E"[BG][cA]"A"[A2E2] :|\
+|: "A"[cA][dB][e2c2] "E"[BG][B2G2][AE] | "E"[BG][cA][d2B2] "A"[cA][BG][A2E2] :|
+P: D
+K: D
+|: "D"[f2d2][f2d2] "G"[g2d2]"D(Bm)"[f2d2] | "A(Em)"[ec][e2c2][dA] "A"[ec][fd]"D"[d2A2] :|\
+|: "D"[fd][ge][a2f2] "A"[ec][e2c2][dA] | "A"[ec][fd][g2e2] "D"[fd][ec][d2A2] :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Circle Cs\'ard\'as  [Dm]
+R: csardas
+O: Hungary
+P: 6x, start slow, speed up
+Z: 2002 John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: Dm
+((3A/=B/^c/ \
+|| "Dm"d2)A2 "Gm"A2G2 | "Dm"FFAG "A7"FE3 | "Dm"D2"A7"{E}D^C "Dm"D2z2 ||
+|| "F"f2a2 "C7"a2eg | "Dm"f3d "F"dc3 | "Gm"d4 "A7"A4 ||
+|| "F"f2a2 "C7"a2eg | "Dm"f3d "F"dc3 | "Bb"d4 "A7"AA=B^c ||
+|| "Dm"d2A2 "Gm"A2G2 | "Dm"FFAG "A7"FE3 | "Dm"D2"A7"{E}D^C "Dm"D2z2 |]
+
+%%sep 1 1 200
+
+
+X: 1
+T: Circle Cs\'ard\'as  [Em]
+R: csardas
+O: Hungary
+P: 6x, start slow, speed up
+Z: 2002 John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: Em
+((3B/^c/^d/ \
+|| "Em"e2)B2 "Am"B2A2 | "Em"GGBA "B7"GF3 | "Em"E2"B7"{F}E^D "Em"E2z2 ||
+|| "G"g2b2 "D7"b2fa | "Em"g3e "G"ed3 | "Am"e4 "B7"B4 ||
+|| "G"g2b2 "D7"b2fa | "Em"g3e "G"ed3 | "C"e4 "B7"BB^c^d ||
+|| "Em"e2B2 "Am"B2A2 | "Em"GGBA "B7"GF3 | "Em"E2"B7"{F}E^D "Em"E2z2 |]
+

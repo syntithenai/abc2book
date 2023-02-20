@@ -1,0 +1,25 @@
+X:398
+T:Bonnie Lass o' Bon-Accord, The
+R:Air
+C:J.S.Skinner
+N: BSFC IV-17 as an air, have versions in A and D
+N: Caledonian Companion, p.83 (with variations by J.S.Skinner).
+N: Hardie p.83
+N: Harp and Claymore, p.2 (with variations by J.S.Skinner, plus 6 verses o
+N:words).
+N: Hunter 21
+N: Logie  Collection
+N: SFT p.24
+N: Skye p.152
+Z: John Chambers <jc@trillian.mit.edu>
+M:4/4
+L:1/8
+K:A
+E2 |\
+"A" {G}A3B "E7" c3B | "A" A2A,2        C2E2  |     AGAf      ecBA | "Bm"B4- "E7" B2c2    |
+"A" A3B    "E7" c3B | "A" A2C2 "A7/C#" E2=G2 | "D" FDFA "E7" GEGB | "A" A6              :|
+|| (3efg |\
+"A" a3c   "D"  d2f2 | "A" e2A2 "D"  {g}a2gf  | "A" e2A2      fedc | "Bm"B4- "E7" B2(3efg |
+"A" a3c   "D"  d2f2 | "A" e2A2 "A7" {g}a2=G2 | "D" FDFA "E7" GEGB | "A" A6      (3efg    |
+"A" a3c   "D"  d2f2 | "A" e2A2 "D"  {g}a2gf  | "A" e2A2      fedc | "Bm"B4- "E7" B2 c2   |
+"A" A,CEA "E7" c3B  | "A" A2C2 "A7" E2=G2    | "D" FDFA "E7" GEGB | "A" A6               |]

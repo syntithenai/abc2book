@@ -1,0 +1,19 @@
+X: 20214
+T: CHIU-RI-RUO
+O: North Highland air.
+Q: "Slow."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.21 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+e4 e8 | g6 f2 g2fe | b4 b6 a2 | {a}g6 f2 e4 |\
+{f}e2de d8 | {f}e2de d6 Bd | e2de g6 fe | {e}d4 B8 |\
+{c}B2AG A3B B4 | {B}g6 dB d4 | e3e {e}g6 dB | B2AG G8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

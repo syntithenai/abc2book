@@ -1,0 +1,63 @@
+X:1202
+T:To Daunton Me
+C:James Oswald
+O:Scotland
+S:Caledonian Pocket Companion
+R:Strathspey
+Z:Jack Campin 1998-2000
+F:http://abc.musicaviva.com/tunes/oswald-james/oswald-to-daunton-me.abc
+%Posted July 10th 2000 at abcusers by Jack Campin.
+M:4/4
+L:1/8
+Q:Slow % which will probably make most ABC implementations throw a fit,
+       % but it's what Oswald wrote and it damn well needs to be allowed
+       % for in the standard.
+K:Edor
+  F>A | B2        (E>F)        E2        (A>G)     |   (F>A)(E>F)               D2
+(d>e) |\
+       (fe)(dB)               (d<B)(A<F)           |    B2         (E>F)        E2
+:|
+(TF>E)| D2        (d>e)        d3             e    |   (fe/f/)     (e/d/)(c/B/) A3
+d  |\
+        B2        (e>f)        e3             f    |({a}g)f     ({f}e)d         B2
+(d>e) |
+        f2     ({a}g)f         e2     ({g}f)e      |    d>edB                   ABde
+|\
+       (f>d)(e>B)             (d>A)      (B/A/F/A/)|    B2          E>F         E2
+:|
+ (F>A)| B2         E2          d3             c/B/ |    A(B/G/) ({A}G)(F/E/)    D2
+d>e  |\
+        fdef                  (DEF)A               |    B2          E>F         E2
+:|
+(TF>E)| D2        (FA)         d3             e    |    f(3(e/d/c/) dB          A3
+(d/c/)|\
+        BEGB                  (e^de)f              |   (g/a/f/g/    e/f/)(d/e/) B2
+(d>e) |
+       (fe/f/      g)f        (ed/e/      f)e      |    d(c/B/)     dF          A2
+(d>e) |\
+        f/(e/d/f/) e/(d/B/e/) (d/B/A/d/) (B/A/F/A/)|    B2          E>F         E2
+:|
+  F>A | B    E2             F       G(A/B/)  AG    |    F/(d/c/B/)  A/(G/F/E/)  D2
+(d>e) |\
+        f (3(e/d/c/) d   (3(c/B/A/) BDEF           |    B2          E>F         E2
+:|
+(TF>E)| D    F2             A2       d2       f    |    a(g/f/)     e/d/c/B/    A3
+(G/F/)|\
+        E    G2             B2       e       Bf    |   (g/a/f/)g/  (e/f/d/)e/   B2
+(d>e) |
+        f    a2     (g/f/) (e/f/)   g2       (f/e/)|    de/f/      (e/d/)(c/B/) ABde
+|\
+       (f/e/)d (e/d/)B     (d/B/)A       (B/A/F/A/)|    B2          E>F         E2
+:|
+M:6/8
+"Jig"
+ F    |B2E  E2F|(AF)E  D2(d/e/)|(fe)d (DE)F|(BA)F E2:|\
+ F    |D2d  d2e|(fe)d (BA)F    |
+                                 E2e   E2g |(fe)d B2
+(d/e/)|f3  Te3 | d2B  (AB)d    |(FE)D (EF)A|(BA)F E2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+
+

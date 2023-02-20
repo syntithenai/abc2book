@@ -1,0 +1,31 @@
+X: 1
+T: Lauriston
+C: Hugh Foss
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"ABc "A7"e2c \
+| "D"f2d "A"e2c \
+| "Bm"d2c "E7"B2c \
+| "A"A2c e2c \
+| "D"f2d "(E)"e2B \
+| "E7"c2B "A"A2E \
+|| "A"A2c "A7"e2c \
+| "D"f2d "A"e2c |
+| "Bm"d2c "E7"B2c \
+| "F#m"ABc e2c \
+| "D"f2d "(E)"e2B \
+| "E7"c2B "A"A2e \
+|[| "A"agf e2c \
+| e3 "A7"c2e \
+| "D"d2c "E7"B2e \
+| "A"agf e2c |
+| "D"def "(E)"e2B \
+| "E7"c2B "A"A2e \
+|| "A"agf e2c \
+| e3 "A7"c2e \
+| "D"d2c "E7"B2e \
+| "F#m"agf edc \
+| "Bm"Bcd "(E)"c2B \
+| "E7"c2B "A"A2 |]

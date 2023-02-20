@@ -1,0 +1,16 @@
+X: 669
+T: Kiss Me Kate
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #669
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0669/oneill-1001-0669-1.abc
+M: C|
+L: 1/8
+K: G
+"^A"[|] D !segno!\
+       | G2(Bd) gdBG | D2(GB) AEEF | G2(Bd) gdBd | ecBc A ||
+|| DEF | G2(Bd) gdBG | D2(GB) AEEF | G2(Bd) gdBd | ecAc (BG)G H |]
+"^B"\
+[|   g  | fgag fddg | fgag bgeg | fgag fddg | fdef g2 ||
+|| (dg) | (3(gab) af g2bg | fgag fddg | fded fded | fdef gedB !segno! |]

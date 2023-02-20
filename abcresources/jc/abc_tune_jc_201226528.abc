@@ -1,0 +1,33 @@
+X: 10311
+T: Masaniello Quadrilles Part 1.
+C: Arranged by W. B. LAYBOURN
+R: reel
+B: K\"ohler's Violin Repository, v.1, 1885 p.31 #1
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+uA2 |\
+A2f2 f2(ef) | e2de d2cd |\
+c2B2 B2(cd) | f2e2 A2A2 |\
+A2f2f2 (ef) | e2de d2cd |
+c2B2 f2e2 | (cd)Bc A2z2 ||\
+vA4 d>ef>d | A4 (d>e)f>d |\
+a>gf>g ^d>ef>e | a>gf>g ^d>ef>e |
+A4 (d>e)f>d | A4 (d>e)f>d |\
+a>gf>g ^d>ef>e | a>gf>g ^d>e(f>e) ||\
+A2f2 f2(ef) | e2de d2cd |
+B2g2 g2(fg) | f2ef e2de |\
+c2a2 a2(ga) | fgef decd |\
+B2e2 A2(Bc) | d2f2d2 ||
+u~d4 |\
+b2a2g2f2 | e2^df e2^c2 |\
+d2^ce d2=c2 | (.B3.B) (dB)gd |\
+b2a2g2f2 | e2^df e2^c2 |\
+d2^ce d2(fa) | g2b2g2 "_D.C."|]
+uA2 "^Coda"|\
+A2f2 f2(ef) | e2de d2cd |\
+B2g2 g2(fg) | f2ef e2de |\
+c2a2 a2(ga) | fgef decd |\
+B2e2 A2(Bc) | d2f2d2 "_Fine"|]

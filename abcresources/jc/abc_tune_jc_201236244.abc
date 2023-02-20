@@ -1,0 +1,24 @@
+X: 21822
+T: FAREWELL TO WHISKY
+C: Neil Gow
+%R: air, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.182 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+B,2B2 (BAB)d c2G2 G3B | B,3B cBcd f2d2d3f |\
+g2ab (gf)(ed) (ed)(cB) c2d2 | B,3B dcBc d2B2B2 :|\
+g2 |\
+{g}f3d b3d (ed)(cB) c2d2 | f2d2b3d f2b2b3f |
+g2b2f3d edcB c2d2 | B,3B dcBc d2B2B3g |\
+{g}f3db3d edcB c2d2 | f2d2b3d f2b2b3f |\
+g2b2d3f edcB c2d2 | B,3B dcBc d2B2B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% This tune refers to the time when the distillation of whisky was prohibited in the year 1799.
+%%endtext
+%%sep 1 1 300

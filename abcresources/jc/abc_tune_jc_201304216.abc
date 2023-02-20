@@ -1,0 +1,22 @@
+X: 381
+T: Love For Love
+R: air
+%S: s:2 b:10(5+5)
+B: O'Neill's 1850 #381
+O: J.O'Neill
+N: Bar 6 has an extra 1/32, the first 1/8 has a double dot. [Fixed by deleting a dot. JC]
+N: This tune really has 5 2-bar phrases. Or double the number of bar lines for 4x5=20 bars.
+Z: Chris Falt, cfalt@trytel.com
+Q: "Slow with expression."
+M: C
+L: 1/16
+K: G
+%%slurgraces 1
+%%graceslurs 1
+d2 \
+| (g3d)(d3B) (~c3de3g) | (dB3) AB{d}cA G6A2 \
+| (Bd3)(gb3) (a^c3)(d3e) | (f3g) (Tedef) d6e2 \
+| e4 (agfe) (dg3)(dB3) |
+| (c6/d/e/) d2c2 (c4B2).c2 \
+| (dB3) (AG3) g4(G3A) | (B3c) (BABd) G6^G2 \
+| A2c2 (e2db agfg) e2c2 | B3c (AG)(AB) .G4-.G2 |]

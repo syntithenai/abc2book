@@ -1,0 +1,22 @@
+X: 2192
+T: Miss Erskine of Torry's    Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.19 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 6-bar lines. (It was 5+7+6 bars.)
+V: 1 staves=2
+c |\
+AF F/F/F C>FA,>F | G>_EB,>E GEEc | AF F/F/F C>FA,>F | B>G E/F/G/E/ AF F :||: f | cf f/f/f c>fAf | cf f/f/f g>_eeg |
+cf f/f/f cfAf | B>G E/F/G/E/ AFF :||: c | (AF)(cF) (dF) cF | G>_EB,E GEEc | (AF)(cF) (dF) cF | B>G E/F/G/E/ AFF :||:
+c |\
+(Tf>ga)f cfaf | (Tf>ga)f g_eeg |[1 (Tf>ga)f cfaf | b>g e/f/g/e/ aff :|[2 b>ga.f g>efc | B>G E/F/G/E/ AFF |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | f2f2 f2f2 | _e2e2 e2e2 | f2f2 f2a2 | b2c'2 f2f :||: z | f2f2 f2f2 |
+f2f2 _e2e2 | f2f2 f2a2 | b2c'2 f2f :||: z | F2F2 F2F2 | _E2E2 E2E2 | F2F2 F2A2 | B2c2 f2F :||:
+z | f2f2 f2f2 | f2f2 _e2e2 |[1 f2f2 f2a2 | b2c'2 f2f :|[2 g2f2 b2a2 | b2c'2 f2f |]

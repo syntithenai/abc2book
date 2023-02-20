@@ -1,0 +1,24 @@
+X: 1311
+T: Mr Robertson of Ludes Strathspey
+R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.31 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 4th strain has initial repeat but no final repeat symbol; fix to not repeat (giving 32 bars).
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+B |\
+A<D {B}A(G/F/ A)Dd>B | A<D ({B}A/G/F) {F}TE2 E<B | A<D ({B}AG/F/) A<D Tf>e | d<B TA>F D2D :: g | f<ad<f e<cd<B |
+A<Fd<F {F}TE2 E<g | f<ad<f e<cd<B | A<Fd<F D2D :: F | A,>D (G/F/E/D/) A>D (G/F/E/D/) | A>d (B/A/)G/F/ {F}E2 E<F |
+A,<D (G/F/E/D/) A>D (G/F/E/D/) | A<F Td>F D2D :| g | f<dA>d e>cA<F | G<BA<F {F}TE2 E<g | f<dA<d e<cA<F |
+G<BA<F D2D<g || f<dA<d e<cA<F  | G<BA<F {F}TE2 E<g | f<de<c d<BA<F | A<Fd<F D2D |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+d2d2 d2d2 | d2d2 e2e2 | d2d2 d2d2 | a2A2 d2d :: z | d2d2 e2d2 |
+d2d2 a2A2 | d2d2 e2d2 | a2A2 d2d :: z | d2d2 d2d2 | f2d2 e2e2 |
+d2d2 d2d2 | a2A2 d2d  :| z | d2d2 e2d2 | g2f2 e2e2 | d2d2 e2d2 |
+a2A2 d2d2 || d2d2 e2d2 | g2f2 e2e2 | d2e2 f2d2 | a2A2 d2d |]

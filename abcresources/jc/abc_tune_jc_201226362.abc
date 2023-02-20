@@ -1,0 +1,30 @@
+X: 10221
+T: Logie of Buchan
+C:
+Q:
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.22-23
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Missing 8th note in bar 2; fixed by matching the rhythms in the similar bars 6, 18, 22 and 26.
+M: 3/4
+L: 1/8
+K: Bm
+%%continueall
+(AG) | F3 G A2 | A f3 e2 | d2 B2 B2 | B4 AG | F3 G A2 |
+w: O* Lo-gie of Bu-chan! O Lo-gie the Laird, They hae taen a-wa
+A d3 e2 | f2 d2 d2 | d4 |] (de) | f3 e f2 |
+w: Ja-mie that delv'd in the yard, Who* play'd on the
+a4 fe | d2 B2 c2 | d4 d e | f3 g f2 |
+w: Pipe wi the Vi-ol sae sma, They hae taen a-wa
+e2 d2 e2 | f3 d B2 | B4 |] A G |
+w: Ja-mie the flow'r o them a'; He said
+F3 G A2 | A f3 e2 | d2 B2 B2 | B4 |]
+w: think na lang Las-sie tho' I gang a-wa,
+A G | F3 G A2 | A d3 e2 | f2 d2 d2 | d4 |]
+w: He said think na lang Las-sie tho I gang a-wa;
+d e | f3 e f2 | a f3 e2 | d2 B2 c2 | d4 (de) |
+w: For the Sim-mer is com-ing cauld Win-ter's a-wa, And*
+f3 g f2 | e2 d2 e2 | f3 d B2 | B4 |]
+w: I'll come and see thee in spite o' them a'.
+%
+%%center -

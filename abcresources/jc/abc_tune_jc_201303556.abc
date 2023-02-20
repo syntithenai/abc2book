@@ -1,0 +1,96 @@
+
+X: 5
+T: Lord Dalkeiths Reel    [Bb]
+O: 1779
+R: reel
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 staves=2
+|:\
+"Bb"(BABF) "Eb"G2B2 | "Cm"(cdec) "F7"A2F2 |\
+"Bb/d"(BABF) "Eb"G2B2 | "F7"(ecAc) "Bb"B4 :: \
+"Eb"[g4B4] "(Cm)"ecec | "Bb"[f4B4] dBdB |
+"Eb"[g4B4] "(Cm)"ecec | "F7"A2F2 "Bb"B4 :: \
+"Bb"BfBf "(Eb)"BgBg | "(F7)"BaBa "Bb"b2B2 |\
+"Bb"BfBf "(Eb)"BgBg | "(F7)"BaBa "Bb"b4 :| [b4F4]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d	% Preserves the book's staff layout
+|:\
+B4 e4 | c4 f4 | d4 e4 | c2f2 B4 :: e2E2 e4 | d2D2 d4 | e2E2 e4 |
+f4 B4 :: B4 B4 | B4 Bdfb | B4 B4 | B4 B4 :| [b4D4]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%   Right hands across .|
+%% Left hands back again :|
+%% the two Gent.n lead thro' between the two Ladies :|.
+%% the two Ladies lead thro' between the two Gent.n :|:
+%% cross over one Cu. .||
+%% Right and Left at top .||.
+%%endtext
+
+%%sep 1 1 500
+
+X: 5
+T: Lord Dalkeiths Reel    (C)
+O: 1779
+R: reel
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"C"(cBcG) "F"A2c2 | "Dm"(defd) "G7"B2G2 |\
+"C/e"(cBcG) "F"A2c2 | "G7"(fdBd) "C"c4 :: \
+"F"[a4c4] "(Dm)"fdfd | "C"[g4c4] ecec |
+"F"[a4c4] "(Dm)"fdfd | "G7"B2G2 "C"c4 :: \
+"C"cgcg "(F)"caca | "(G7)"cbcb "C"c'2c2 |\
+"C"cgcg "(F)"caca | "(G7)"cbcb "C"c'4 :| [c'4G4]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 5
+T: Lord Dalkeiths Reel    (F)
+O: 1779
+R: reel
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"F"(FEFC) "Bb"D2F2 | "Gm"(GABG) "C7"E2C2 |\
+"Ff/A"(FEFC) "Bb"D2F2 | "C7"(BGEG) "F"F4 :: \
+"Bb"[d4F4] "(Gm)"BGBG | "F"[c4F4] AFAF |
+"Bb"[d4F4] "(Gm)"BGBG | "C7"E2C2 "F"F4 :: \
+"F"FcFc "(Bb)"FdFd | "(C7)"FeFe "F"f2F2 |\
+"F"FcFc "(Bb)"FdFd | "(C7)"FeFe "F"f4 :| [f4C4]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 5
+T: Lord Dalkeiths Reel    (G)
+O: 1779
+R: reel
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"G"(GFGD) "C"E2G2 | "Am"(ABcA) "D7"F2D2 |\
+"G/b"(GFGD) "C"E2G2 | "D7"(cAFA) "G"G4 :: \
+"C"[e4G4] "(Am)"cAcA | "G"[d4G4] BGBG |
+"C"[e4G4] "(Am)"cAcA | "D7"F2D2 "G"G4 :: \
+"G"GdGd "(C)"GeGe | "(D7)"GfGf "G"g2G2 |\
+"G"GdGd "(C)"GeGe | "(D7)"GfGf "G"g4 :| [g4D4]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

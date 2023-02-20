@@ -1,0 +1,29 @@
+X: 2
+T: Hot Cockles
+%R: march, reel
+B: "Le Sylphe, Twenty Four Country Dances with Figures for the Year 1818", Button & Whitaker, p.1 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1818
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2f2 | A2A2 | A2A2 | A2cd |\
+e2g2 | A2A2 | A2Bc | d2z2 :|
+|:\
+defg | (ba).f.d | (ba).f.d | (ag).e.c |\
+defg | (ba).f.d | agec | d2z2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center SINGLE FIGURE        (Each strain repeated)
+%%begintext align
+%% Hands across with 2d Cu: quite round & back again |:
+%% down the middle up again & allemande |: .
+%%endtext
+%%center OR THUS
+%%begintext align
+%% Whole figure at top |: lead down the
+%% mid: up again & right & left |: .
+%%endtext
+%%sep 1 1 450

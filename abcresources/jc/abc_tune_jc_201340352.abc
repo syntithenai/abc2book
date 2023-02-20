@@ -1,0 +1,32 @@
+X:1
+T: St. James's Beauties
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 220
+%W: A1
+% voice 1 (1 lines, 47 notes)
+K:G
+M:4/4
+L:1/16
+g2 f2 |g4 d4 e4 g2 f2 |g4 d4 e4 g2 f2 |g4 f2 e2 d2 c2 B2 A2 |B4 G4 G4 g2 f2 |g4 d4 b4 a2 g2 |f4 d4 a4 a2 g2 |f2 g2 a2 f2 e2 f2 g2 e2 |f4 d4 d4 g2 f2 |
+%W: A2
+% voice 1 (1 lines, 45 notes)
+g4 d4 e4 g2 f2 |g4 d4 e4 g2 f2 |g4 f2 e2 d2 c2 B2 A2 |B4 G4 G4 g2 f2 |g4 d4 b4 a2 g2 |f4 d4 a4 a2 g2 |f2 g2 a2 f2 e2 f2 g2 e2 |f4 d4 d4 d2 ^c2 |
+%W: B1
+% voice 1 (1 lines, 41 notes)
+d4 A4 c4 B2 A2 |B4 G4 G4 e2 ^d2 |e4 B4 d4 ^c2 B2 |c4 A4 A4 a2 ^g2 |a4 e4 g4 f2 e2 |f4 ^c4 d4 c2 B2 |A4 d4 A2 G2 F2 E2 |F4 D4 D4 g2 f2 |
+%W:
+% voice 1 (1 lines, 42 notes)
+g4 d4 e4 g2 f2 |g4 d4 e4 f4 |g4 f2 e2 d2 c2 B2 A2 |B4 G4 G4 B2 A2 |B4 G4 A4 B2 c2 |B4 G4 A4 B2 c2 |B4 g4 A2 B2 c2 A2 |B4 G4 G4 d2 ^c2 |
+%W: B2
+% voice 1 (1 lines, 41 notes)
+d4 A4 c4 B2 A2 |B4 G4 G4 e2 ^d2 |e4 B4 d4 ^c2 B2 |c4 A4 A4 a2 ^g2 |a4 e4 g4 f2 e2 |f4 ^c4 d4 c2 B2 |A4 d4 A2 G2 F2 E2 |F4 D4 D4 g2 f2 |
+%W:
+% voice 1 (1 lines, 40 notes)
+g4 d4 e4 g2 f2 |g4 d4 e4 f4 |g4 f2 e2 d2 c2 B2 A2 |B4 G4 G4 B2 A2 |B4 G4 A4 B2 c2 |B4 G4 A4 B2 c2 |B4 g4 A2 B2 c2 A2 |B4 G4 G4 ||

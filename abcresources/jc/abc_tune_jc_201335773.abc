@@ -1,0 +1,49 @@
+X: 1
+T: Setesvalsen    [A]
+T: Vals fran Setesdalen
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+N: This rather irregular tune (note the 14- and 23-bar phrases)
+N: is commonly played as a "last waltz" all over Scandinavia.
+O: Trad
+M: 3/4
+L: 1/8
+K: G
+|: E2 \
+|| "A"[c3E] [dF][cE][BD] \
+| [c3E] [dF][cE][BD] \
+| "E7"[c2E] [B2D] [G2D] \
+| "A"[A4C] [E2C] \
+| "A"[c3E] [dF][cE][BD] \
+| [c3E] [dF][cE][BD] \
+| [A2C] [c2E] [e2A] |
+| "D"[a2f] [g2e] [f2d] \
+| [f2d] [e2c] [d2A] \
+| "E7"[e3G] [fA][eG][dF] \
+| "A"[c3E] [dF][cE][BD] \
+| [c3E] [dF][cE][BD] \
+| "E7"[c2E] [B2E] [G2D] \
+| "A"[A4C] :|
+|: [c2E] || "D"[d2F] [dF][dF] [dF][dF] \
+| "E7"[d2F] [c2E] [B2D] \
+| "A"[c3E] [BD][AC][cE] \
+| [e2A] [c2E] [A2C] \
+| "Bm"[B3D] [AC][GB,][AC] \
+| "E7"[B3D] [AC][GB,][FC] \
+| [E2B,] [c2E] [d2G] |
+| "A"[e4A] [f2A] \
+| "D"[d2F] [dF][dF] [dF][dF] \
+| "E7"[d2F] [c2E] [B2D] \
+| "A"[c3E] [BD][AC][cE] \
+| [e2A] [c2E] [A2C] \
+| "Bm"[B3D] [AC][GB,][AC] \
+| "E7"[B3D] [AC][GB,][FC] \
+| [E2B,] [F2D] [G2D] |
+| "A"[A2C] [c2E] [d2A] \
+| [e2c] [a2f] [g2e] \
+| "D"[f2d] [e2c] [d2A] \
+| "E7"[e3G] [fA][eG][dF] \
+| "A"[c3E] [dF][cE][BD] \
+| [c3E] [dF][cE][BD] \
+| "E7"[c2E] [B2E] [G2D] \
+| "A"[A4C] :|

@@ -1,0 +1,14 @@
+X: 682
+T: Coming over the Hills
+R: reel
+%S: s:2 b:16(8+8)
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #682
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0682/oneill-1001-0682-1.abc
+M: C|
+L: 1/8
+K: G
+"^A"\
+|: BdcA d2cA | D>G (3({A}GFG) ABcA | BdcA G2GF | D>F (3({G}FEF) ABcA "^B":|[K:D] Addc d2(dc) | A>d (3({e}dcd) (ef)ge |
+| fdec d2(dc) | AGFG AB=cB || Ad{e}dc d2(dc) | A>d (3({e}dcd) (ef)ge | faef d2(dc) | AGFG AB=cA |]

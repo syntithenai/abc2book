@@ -1,0 +1,22 @@
+X: 1
+T: the Cressons
+C: Dave Wiesler
+R: reel
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+S: https://www.calculatedfigures.com/Cresson.pdf
+M: C|
+L: 1/8
+K: Dm
+"A"[|]A2 |\
+"Dm"d2ef "Gm"g2f2 | "A"e2^c2 "Dm"d2AB |\
+"F"c2BA "Gm"B2G2 | "A"A2A2 "Dm"d2 :|\
+"B"[|] a2 |\
+"F"a2fg a2b2 | "C"(a2g2) c2g2 |\
+"C"g2ef g2a2 |
+"Dm"(g2f2) D2f2 |\
+"Dm"f2de f2e2 | "A"(d2^c2) A3A |\
+"A"A=B^cd efec | "Dm"d4 defg ||\
+"F"a2fg a2b2 | "Gm"(a2g2)B2g2 |
+"C"g2ef"A7"g2a2 | "D"(g2^f2) D2ga |\
+"Gm"b3a gfed | "C"c2e2 "F"f3c |\
+"Bb"def2 "C"g2e2 | "F"f6 |]

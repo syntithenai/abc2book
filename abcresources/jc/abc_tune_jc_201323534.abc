@@ -1,0 +1,43 @@
+
+X: 1
+T: Pezinho  [D]
+T: Little foot
+M:4/4
+L:1/8
+O:Brazil
+A:South of Brazil, state of Rio Grande do Sul
+C:Trad
+%Q:220
+R:Gaucho March
+Z:Meletti (jrmeletti@email.com)
+K:D
+   [AF][AF][AF] \
+|  "D"[FD][AF][AF][AF] [BG][AF][GE][FD] | "A7"[A2E2][E2-C2-] [EC][EC][EC][FD] \
+| "A7"[GE][FD][EC][FD] [GE][FD][GE][AF] | "D"[F4D4] z :|
+|: [AF][AF][AF] \
+|  "D"[d4-F4-] [dF][cA][BG][AF] | "A7"[c2A2][G2-E2-] [GE][AE][AE][AE] \
+| "A7"[c4-A4-] [cA][BG][AF][GE] |1 "D"[B2F2][F2D2] z :|2 "D"[F4D4] z |]
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: Pezinho  [G]
+T: Little foot
+M:4/4
+L:1/8
+O:Brazil
+A:South of Brazil, state of Rio Grande do Sul
+C:Trad
+%Q:220
+R:Gaucho March
+Z:Meletti (jrmeletti@email.com)
+K:G
+   [dB][dB][dB] \
+|  "G"[BG][dB][dB][dB] [ec][dB][cA][BG] | "D7"[d2A2][A2-F2-] [AF][AF][AF][BG] \
+| "D7"[cA][BG][AF][BG] [cA][BG][cA][dB] | "G"[B4G4] z :|
+|: [dB][dB][dB] \
+|  "G"[g4-B4-] [gB][fd][ec][dB] | "D7"[f2d2][c2-A2-] [cA][dA][dA][dA] \
+| "D7"[f4-d4-] [fd][ec][dB][cA] |1 "G"[e2B2][B2G2] z :|2 "G"[B4G4] z |]

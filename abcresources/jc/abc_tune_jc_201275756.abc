@@ -1,0 +1,14 @@
+X: 1
+T: a Fig For a Kiss   [Dm]
+C: trad
+O: Ireland
+%D:
+R: slip-jig
+S: Fiddle Hell Online 2022-4-5 handout for Tom Morley's Irish Slow Jam
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Dm
+ "^A"|: "Dm"vF2A D2A AGF | "C"uE2G C2G GFE | "Dm"F2A D2A AGF | "F"(uA/B/cA) "C"GFE "Dm"D3 :|
+"^B1"[| "Dm"(vf2d) (f2d) dcA | "C"(ue2c) c=Bc edc | "Dm"(f2d) (f2d) dcB | "F"ucAF "C"FAc "Dm"ud2ue |]
+"^B2"[| "Bb"(vf2d) (f2d) dcA | "C"(ue2c) c=Bc ue2uc | "Bb"fed edc dcA | "F"(uA/B/cA) "C"GFE "Dm"D3 |]

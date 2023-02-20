@@ -1,0 +1,70 @@
+X: 4
+T: les Quatre Nimphes.
+%R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #4
+N: In bar 25, the f notes aren't sharped but obviously should be.  Also, the c grace note in the last bar.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+defg |\
+a2a2 defd | A4 Adcd | Adcd Agfa | e4 defg |\
+a2a2 defd | A4 dcBA | Bcdg fdec | d4 :|
+|: ABcd |\
+ecBA g2g2 | g2f2 gbeg | fadf eged | c2A2 Adce |\
+dfeg Adce | dfeg Adce | dfeg fdec | d4 :|[K:Dm]
+"Mineur"\
+fgef |\
+dfeg fagb | a2d2 gafg | efde ^c2d2 | e2A2 fgef |\
+dfeg fagb | a2d2 gafg | efde A2^c2 | d4 :|
+|: a2d2 |\
+d_edc d_edc | B2G2 g2c2 | cdcB cdcB | A2F2 Ac=Bc |\
+Tc2=B2 =Bd^cd | Td2^c2 fgeg | fedf e2^c2 | {c}d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+d2d'2 | c'2a2f2d2 | c2A2 f2e2 | f2d2c2d2 | agfe d2d'2 |
+c'2a2f2d2 | c2A2 f2d2 | g2fg a2A2 | d4 :||: a4 | A2B2c2A2 | d2D2 B2c2 |
+d2f2g2^g2 | a2=g2f2a2 | d2g2f2a2 | d2g2f2a2 | d2g2a2A2 | d4 :|[K:Dm]
+"Mineur"\
+d2^c2 | d2A2 d2e2 | f4e2d2 | g2b2a2d2 | A4 d2^c2 | d2A2d2e2 |
+f4e2d2 | g2b2a2A2 | d4 :||: ^f4 | "^(#)"f4 f4 | g4 e4 | e4 e4 |
+f4 ^f4 | g4 ^g4 | a4 d'2^c'2 | d'2d2 a2A2 | d4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Les Quatre Nimphes.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first Lady and third Gengleman pass
+%% through the Second Couple to opposite places,
+%% while the first Gentleman and third Lady pass
+%% throuth the fourth Couple to opposite
+%% places - - - - - - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   The first and second Ladies Chass\'e Cross
+%% and Rigaudon, then back again, while the
+%% third and fourth Ladies do the same - 1/1
+%%endtext
+%%begintext align
+%%   Counter-part for the Gentlemen - - 1/1
+%%endtext
+%%begintext align
+%%   Each Couple Chass\'e to the Corner on their
+%% Right and Rigaudon, then Allemande - 1/2
+%%endtext
+%%begintext align
+%%   All Chass\'e to the Corner on their Right and
+%% Rigaudon, then Allemande to their own places 1/2
+%%endtext
+%%sep 1 1 400

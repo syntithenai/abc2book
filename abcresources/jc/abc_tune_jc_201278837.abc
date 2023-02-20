@@ -1,0 +1,36 @@
+X: 1
+T: the Gallant Enterprize
+P: Longways for &c.
+%R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.48
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+N: The 2nd part has 11 bars.
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 is reformatted to get 3 reasonable staff lengths.
+V: 1
+A |\
+FDBB BA2A | dGGG G/F/E Ff- | fe2d ^cd/e/ GF/E/ | FdE^c d3 :|
+|: f |\
+eAd=B ^cA2G | ^FAdA BG2F | EGcG Af2A | Bg2B ca2c | dgce f3a |
+^fd2c'2 b/a/ bg | ec2b2 a/g/ af | dB2g2 f/e/ fe | dbad ^c3A | BG2e ^cA2a | ^cdec d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z |\
+d2g2 ^c2d2 | =B2^c2 defd | Gc FB AA=B^c | dFGA D3 :: d |\
+a2fg aAcA | d2^f2 gGBG | c2e2
+f2F2 |\
+g2G2 a2A2 | b2c'2 f_edc | d2Bc d2G2 | c2AB c2F2 |\
+B2G2 A2dc | B2zB Aafd | gb/a/ gg agfd | a2A2 d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+%% First Cu. sett and hey on the contrary sides, then on your own sides and cast
+%% off and turn contrary Corners, 1st Cu. whole figure at the bottom then at top, lead
+%% thro' the Man's side and turn in the middle then thro' the We side & turn in the middle.
+%%endtext

@@ -1,0 +1,54 @@
+X: 32491
+T: Set Waltzes -- "GLENPATRICK"
+C: BY JOHN B. EASTON, EDINBURGH, 1884
+N: Bowing and Fingering arranged by W.B. Laybourn.
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.349
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The first part should have two different ending measures.
+M: 3/4
+L: 1/8
+K: Bb
+P: 1.
+|:\
+vF6 | G2(.A3.G) | (F6 | B6) |\
+d6 | f2(.e3.d) | (c6 | G6) |\
+G6 | (_A4G2) | (c4e2) | (a4g2) |\
+(f2=e2)f2 | (g4e2) | d6- | d6 |
+vF6 | G2(.A3.G) | (F6 | B6) |\
+d6 | f2(.e3.d) | (c6 | G6) |\
+G6 | (_A4G2) | (c4e2) | (a4g2) | (f4e2) | A2(.d3.c) | B6- | B2 :|
+|: (uBdfb) |\
+(.a3.a)a2 | z2(uAcfg) | (g3.f)f2 | z2(uFBdg) |\
+(.f3.e)e2 | z2(uFBdg) | (.f3.d)B2 | z2(uBdfb) |
+(.a3.a)a2 | z2(uAcfa) | (.g3.f)f2 | z2v=e2ud2 |\
+((3cdc)=B2c2 | (g4=e2) |[1 f6- | f2 :|[2 (f2g2f2) | (e2c2A2 |]
+P: 2.
+[|\
+vd6 | c6 | B6- | B2D2E2 |\
+F2G2A2 | (B2e3)vd | (c6 | G6) |\
+e6 | d6 | c6- | c2c2d2 |\
+e2=e2f2 | (g2a3)vb | (d'6 | b6) |
+d6 | c6 | B6- | B2D2E2 |\
+F2G2A2 | (B2c3)vd | (a6 | g6) |\
+g6 | (A4g2) | f6 | (B4d2) |\
+(d4c2) | (G4A2) | B6- | B2z2z2 ||
+(vf2e2)vc | (A2g3)uf | (f2d2B2) | b6 |\
+B2c2d2 | f2e2d2 | (c2B3)vc | d6 |\
+(f2e3)vc | (A2g3)uf | (f2d2B2) | b6 |\
+Acf2a2 | (g2b3)v=e |\
+[1 f6- | f2z2z2 :|\
+[2 (f=e_e2c2) | A2(B2c2) "_D.C."|]
+P: 3.
+[|\
+vB6 | (d4e2) | f6- | f2.g2.a2 | (b4a2) | (g4f2) | A6- | A6 |\
+A6 | (B4=B2) | d6 | c6 | ((3FGF =E2 F2) | _e4c2 | d6- | d6 |
+B6 | (d4e2) | f6- | f2g2a2 | (b4a2) | (g4f2) | A6- | A6 |\
+A6 | (B4=B2) | c6 | (a4g2) | f2F2G2 | A2(d3c) | B6- | B2z2z2 ||
+|:\
+(vcAFAce) | (d2B2)uB2 | (bg=ec=Bc) | (a2f2) uf2 |\
+(cAFAce) | (d2B2)uB2 | (c=Bcd=eg) | (f2=e2_e2) |
+(cAFAce) | (d2B2)uB2 | (bg=ec=Bc) | (a2f2)uf2 |\
+(cAFAce) | (d2B2)uB2 | (cdefga) | b2z2"^Fine."z2 :|
+%%text

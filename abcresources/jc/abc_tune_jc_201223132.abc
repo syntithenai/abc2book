@@ -1,0 +1,68 @@
+X: 6
+T: L'aimable Jeunesse
+%R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #6
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+D2FA d2f2 | {f2}[e6A6] g2 | fafd egec | d2AF D2z2 |\
+D2FA d2f2 | {f2}[e6A6] d2 | cecA BdB^G | A4 A,4 :|
+|:\
+a4 gfe^d | eBcB AGFE | g4 fedc | dABA GFED |\
+BGBd cAce | dAdf eAeg | {g}f2ed fedc | d4 D4 :|
+|: [K:Dm]\
+"Mineur"\
+f4 gfed | {d2}^c6 d2 | e2 (ef/g/) fed^c | d2A2 d2e2 |\
+f4 edc=B | e4 dc=BA | =B2 (Bc/d/) c=BA^G | A4 A4 :|
+|:\
+a4 bag^f | {f2}g6 z2 | g4 agfe | {e2}f6 a2 |\
+a4 gfed | b4 agfe | f2 (ef/g/) fed^c | d4 d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+d4 f2d2 | a2e2 c2A2 | d2f2 g2a2 | d4 D4 | d4 f2d2 |
+a2c'2 ^g2e2 | a2c2 d2e2 | a4 A4 :||: z2=c2 B2A2 | G4 z4 | z2B2 A2G2 |
+F4 z4 | G2g2 a2g2 | f2d2 c2A2 | d2F2 G2A2 | d4 D4 :||: [K:Dm]
+d2d'2 b2g2 | a2a2 g2f2 | g2e2 a2A2 | d4 z4 | d2d'2 z4 |
+c2c'2 z4 | d'2=b2 e'2e2 | a4 A4 :||: z2d2 d'2a2 | b2g2 B2G2 |
+z2c2 c'2g2 | a2f2 A2F2 | d2d'2 z4 | ^c2^c'2 z4 | d'2g2 a2A2 | d4 D4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center L'Aimable Jeunesse.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Gentlemen lead the
+%% Ladies on their Left to the opposite places,
+%% then half Right hand and Left - - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   The first and third Gentlemen cross their
+%% Ladies and pass through the Couple on their
+%% Right, while the Ladies pass through on the
+%% Left, then meet in their own places - 1/1
+%%endtext
+%%begintext align
+%%   The second and fourth Couple do the same 1/1
+%%endtext
+%%begintext align
+%%   Each Gentleman Allemande with the Lady
+%% on his Left, and then with his Partner - 1/2
+%%endtext
+%%begintext align
+%%   All Eight half a Course with the Passes of the
+%% Allemande - - - - 1/2
+%%endtext
+%%sep 1 1 400

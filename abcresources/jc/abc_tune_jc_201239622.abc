@@ -1,0 +1,23 @@
+X: 333
+T: Kiss the Lass ye like Best.   a Reel.
+R: reel
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c." p.33 #3
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+d |\
+A/A/A (.F.A) BEEd | A/A/A (.F.A) Ddfd | (e/f/g) (f/g/a) {f}eE-TE>F | A/A/A (Tf>e d)DD :| f | Ta>baf be-ef | Ta>baf defd |
+(e/f/g) (f/g/a) {f}eEEF | A/A/A (Tf>e d)DDf || Ta>baf be-ef | Ta>baf defd | egfa {f}eEEF | A/A/A (Tf>e d)DD |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+d2d2 G2A2 | d2d2 f2d2 | c2d2 a2A2 | F2A2 d2D :| z | d'2d'2 e'2c'2 | d'2d2 f2d2 |
+g2d2 a2g2 | f2a2 d2d2 || d'2d'2 e'2c'2 | d'2d'2 d'2d'2 | c'2d'2 c'2a2 | f2A2 d2D |]
+% = = = = = = = = = =

@@ -1,0 +1,33 @@
+X: 1
+T: Lyckovalsen
+T: Lykkevalsen
+C: Ellika Frisell
+N: member of Filarfolket (1980-1990)
+R: waltz
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+N: handwritten MS labelled "Rolf" N: Agrees with V:1 in the BlueRoseMusic.org tune #1186
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+G,A, \
+| B,2 B,2 B,A, | B,2 B,G, CE | A,4 B,C | A,4 DE |\
+| FA dA GE | FA d2 dB | G4 Ad | G4 :|
+Bd \
+| g3 g ec | Bd A3 B | ce cB AG | EA D2 Bd |\
+| g2 fd ec | BA ce AB | ce AB c2 | A4 |]
+Bd \
+| g3 g ec | Bd A3 B | ce cB AG | EA D2 Bd |\
+| g2 fd ec | BA ce Be | ce Be ce | B2 AG ED | G4 |]
+% - - - - - - - - - -
+V: 2
+DC \
+| D2 D2 DC | D2 DB, A,C | E4 DC | E4 A,^C |\
+| DF AF E^C | DF A2 FC | [D4B,4] [DC][DA,] | [D4B,4] :|
+DG \
+| B3 d cA | GB F3 G | Ac AG FE | CE A,2 DG |\
+| d2 dB cA | GF Ac FG | Ac FG A2 | F4 |]
+DC \
+| [B3B,3] d cA | GB F3 G | Ac AG FE | CE A,2 DG |\
+| d2 dB cA | GF A2 G2 | A2 G2 A2 | G2 FE CA, | B,4 |]

@@ -1,0 +1,1828 @@
+X: 1
+T: GEMS
+T: The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993
+Z: 2011-2014 John Chambers <jc:trillian.mit.edu>
+K:
+%%center -----------------------------------
+%%center GEMS
+%%center The Best of the
+%%center Country Dance and Song Society
+%%center Diamond Anniversary
+%%center Music, Dance and Song Contest
+%%center -----------------------------------
+%%begintext align
+%% Transcription notes:
+%% In late 2014, I asked on a couple of forums whether anyone had ABC transcriptions
+%% of this book's tunes or plain-text transcriptions of the dance descriptions.
+%% Within a few days, I received versions of most of the tunes and a few of the dances.
+%% I compared them with a copy of the book that a local dance leader loaned me,
+%% and made most of them a bit closer to the actual content of the book.
+%% This directory contains the resulting files.
+%%
+%% Serious English Country Dancers will want a copy of the book, which you
+%% can order from cdss.org.  Most musicians will probably find the ABC tunes
+%% a bit more usable, since they can be easily reformatted, but you might
+%% also consider getting a copy of the book, to support the CDSS's work.
+%%endtext
+%%center -----------------------------------
+
+% Remove the first space to enable these for the whole collection:
+%%slurgraces yes
+%%graceslurs yes
+
+% %newpage
+%%sep 3 1 530
+%%sep 1 1 530
+
+X: 2
+T: AMERICAN DANCES
+K:
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+X: 3
+T: Back Road to Bolton
+T: Back Road to Ayer
+C: Lisa Greenleaf
+O: Bolton, Massachusetts
+P: Duple, improper contra
+N: Suggested music: any liveluy jig
+%R: jig
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: The Best of the Country Dance and Song Society 1993 p.3
+N: Music: Bonnie George Campbell, Wand'ring Willie or any 32-bar waltz
+K:
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext
+%% A1:
+%%   Allemande left your neighbor once and three-quarters. Women allemande
+%%   right once and a half and take two-hand hold with your partner.
+%% A2:
+%%   All sashay down the set and back, the women remaining back to back in the center.
+%% B1:
+%%   Balance and swing your partner.
+%% B2:
+%%   Circle left three-quarters. Allemande right your neighbor once and a half.
+%%endtext
+%%center Notes
+%%begintext
+%% For maximum enjoyment, this dance requires a lot of space below the set.
+%%
+%% A less demanding variant, Back Road to Ayer, has the following changes:
+%%
+%% A1:
+%%   Allemande right your neighbor once and a quarter.  Women allemande left
+%%   once and a half and take two-hand hold with your partner.
+%% B2:
+%%   In long lines, go forward and back. Circle left three-quarters and pass thru along the set.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+% %newpage
+%%sep 3 1 530
+%%sep 1 1 530
+
+X: 4
+T: ENGLISH DANCES
+K:
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+%%sep 3 1 530
+%%sep 1 1 530
+X: 5
+T: Corelli's Maggot
+C: Cathy and John Millar,
+O: Williamsburg, Virginia
+%R: march, reel
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.36
+K: F
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext
+%%A1:
+%%  1-4 1st corners set forward to each other, and turn single back to place
+%%  5-8 1st corners turn with two hands.
+%%A2:
+%%  1-8 2nd corners repeat A1.
+%%B1:
+%%  1-8 1st couple cross and go down the outside to 2nd place, 2nd couple move up.
+%%  5-8 1st couple half figure eight up through 2nd couple.
+%%B2:
+%%  1-4 1st couple gate down (see notes) with the couple below.
+%%  5-8 1st couple gate up with their original 2nd couple.
+%%
+%%endtext
+%%center Notes
+%%begintext align
+%% Gate: Actives join nearest hand with neighbor and turn as couple with that
+%% neighbor, with the actives moving forward, up or down the hall as indicated, while
+%% their neighbors move backwards so that they rotate around a pivot point between
+%% them. All end where they started the figure.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 6
+T: Corelli's Maggot
+C: Cathy and John Millar,
+O: Williamsburg, Virginia
+%R: march, reel
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.37
+N: Adapted from the fourth movement, Gavotte, of Arcangelo Corelli's opus 5, Sonata #10, 1700
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c2 "A"|\
+"F"f2c2 f2c2 | "C"g6 c2 | "F"a2fg a2gf | "C"g6 g2 |\
+"F"a2fg a2gf | "C"g2ag agfe | "F"f2c'2 "G7"d2=b2 | "C"c'6 :|
+|: c2 "B"|\
+"F"f2fg agfe | "Bb"d2B2 B2d2 | "Gm"g2ga bagf | "C"e2c2 c2g2 |\
+"F"c'2f2 "Bb"b2ag | "F"a2c2 f2A2 | "Gm7"Bagf "C7"e3f | "F"f6 :|
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 7
+T: Corelli's Maggot   [D]
+C: Cathy and John Millar,
+O: Williamsburg, Virginia
+%R: march, reel
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.37
+N: Adapted from the fourth movement, Gavotte, of Arcangelo Corelli's opus 5, Sonata #10, 1700
+N: Transposed from F for the benefit of limited instruments.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 "F"|\
+"D"d2A2 d2A2 | "A"e6 A2 | "D"f2de f2ed | "A"e6 e2 |\
+"D"f2de f2ed | "A"e2fe fedc | "D"d2a2 "E7"B2^g2 | "A"a6 :|
+|: A2 "G"|\
+"D"d2de fedc | "G"B2G2 G2B2 | "Em"e2ef gfed | "A"c2A2 A2e2 |\
+"D"a2d2 "G"g2fe | "D"f2A2 d2F2 | "Em7"Gfed "A7"c3d | "D"d6 :|
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 3 1 530
+%%sep 1 1 530
+X: 8
+T: Cornish Waltz
+C: J. Francis Carter
+O: Worthing, England
+P: Music: Farewell to Argyle, or any 40-bar waltz
+%R: waltz
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.38
+K:
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext
+%% A1:
+%% 1-4 Turn partner by the right hand.
+%% 5-8 Back-to-back with opposite, passing right shoulders.
+%% A2:
+%% 1-4 Turn opposite by the left hand.
+%% 5-8 Back-to-back with partner passing left shoulders.
+%% B1:
+%% 1-2 Face partner and join man's right hand with woman's left.
+%% ___ Balance towards and away from opposite couple.
+%% 3-4 Change places with opposite couple, turning Single. Men turn single
+%% ___ left, women turn single right.  Women pass inside the two men.
+%% 5-8 Face partner and join right hands, balance forward and back.
+%% ___ Change places by turning the lady under.
+%% B2:
+%% 1-8 Repeat B1 to origin places.
+%% B3:
+%% 1-8 Join in ballroom position and waltz once and a half around the opposite couple.
+%%endtext
+%%center Notes
+%%begintext align
+%% The dance was written to commemorate the author's move from Scotland to Cornwall.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 9
+T: Farewell to Argyle
+C: J. Francis Carter
+O: Worthing, England
+%R: waltz
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.39
+N: Adapted from the author's hymn, Arduaine
+M: 3/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d "A1"|\
+"G"d2B | GBd | "C"gfe | "G"d2d |\
+"D7"d2c | ABc | "G"e2d | B2 ||
+d "A2"|\
+"G"d2B | GBd | "C"gfe | "G"d3 |\
+"D7"c2A/F/ | DFA | F2G | A2 ||
+d "B1"|\
+"G"dBG | dBG | "D"F2G | A3 |\
+"D7"cAF |cAF | "G"e2d | B2 ||
+|: d "B2,3"|\
+"G"d2B | GBd | "C"g2e | "G"d2d |\
+"D7"d2c | Ace | a2F | "G"G2 :|
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 3 1 530
+%%sep 1 1 530
+X: 10
+T: Cynthia's Waltz
+C: Jonathan Jensen
+O: Baltimore, Maryland
+%R: waltz
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.40
+P: Three couple longways set
+K: D
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext
+%% A1:
+%%  1-8  Circle six-hands to the left.
+%%  9-16 Circle six hands to the right, back to place.
+%% A2:
+%%  1-8  Hey on opposite side, 1st couple crossing through middle place to begin.
+%%  1-8  Hey on own side, 1st couple crossing again through middle place.
+%% B1:
+%%  1-8  1st couple and 2nd couple double figure eight, 1st couple cross down
+%% ___   through the center, 2nd couple dance up the outside to start.
+%%  9-10 1st couple and 2nd couple right hands across halfway.
+%% 11-16 1st couple and 3rd couple left hands across once and a half. (Set is
+%% _____ now in 2-3-1 order, 1st couple proper, 2nd and 3rd couples improper.)
+%% B2:
+%%  1-4  1st couple and 3rd couple half poussette, men pushing to start.
+%%  5-8  1st and 2nd couple half poussette, women pushing to start.
+%%  9-16 1st couple join in ballroom position and waltz down the middle to 3rd place.
+%%     -- while --
+%%  9-12 2nd and 3rd couple wait.
+%% 13-14 2nd and 3rd couples move up.
+%% 15-16 2nd and 3rd couples turn with two hands halfway.
+%%endtext
+%%center Notes
+%%begintext align
+%% The author notes, "The circles in A1 need not be only once around. There is
+%% enough music to make big, graceful, open circles, moving once and a half around."
+%%
+%% The dance was written for Cynthia Stenger, on the occasion [of] her wedding to the author.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 11
+T: Cynthia's Waltz
+C: Jonathan Jensen
+O: Baltimore, Maryland
+%R: waltz
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.41
+M: 3/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+Ad "A"|\
+"D"f2fedf | "F#m"a2a2FA | "Bm"d2dcBd | "D"f4DF |\
+"G"B2BAGB | "D"d2dBAF | "E7"EDB,DEF | "A7"(3BcB A2Ad |
+"D"f2fedf | "F#m"a2a2FA | "Bm"d2dcBd | "D"f4DF |\
+"G"B2BAGB | "D"d2AFED | "Em"B,2D2E2 | "D"D4 :|
+|: DC "B"|\
+"G"B,2D2E2 | "D"A2AFED | "Em"B,2D2"A"E2 | "D"F4FE |\
+"D"D2E2F2 | "Bm"d2dBAF | "A"E2c2"E7"B2 | "A"A4cB |
+"A7"A2c2e2 | "D"f2fedf | "Em"G2B2d2 | "A"e2ed"A7"ce |\
+"D"d2dc"G"Bd | "D"B2AFED | "Em"B,2D2"A7"E2 | "D"D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 3 1 530
+%%sep 1 1 530
+X: 12
+T: A Girl's Best Friend
+C: Fried de Metz Herman
+O: Larchmont, New York
+P: Duple minor lonways, improper
+%R: waltz
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.42
+N: Music: Bonnie George Campbell, Wand'ring Willie or any 32-bar waltz
+K:
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Music in separate files.
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext
+%% A1 1-4 Right hands across.
+%% __ 5-6 Right shoulder gypsy with partner.
+%% __ 7-8 Turn single to the left. (Make gypsy tight so that the turn single can be wide.)
+%% A2 1-4 Left hads across.
+%% __ 5-6 Left shoulder gypsy with partner.
+%% __ 7-8 Turn single to the right.
+%% B1 1-2 1st couple lead down the center.
+%% __ 3-4 1st couple set to partner.
+%% __ 5-6 1st couple lead up the center.
+%% __ 7-8 1st couple cast to second place, 2nd couple lead up.
+%% B2 1-2 Women change places passing left shoulders.
+%% __ 3-4 Women change places passing left shoulders.
+%% __ 5-8 Two changes of right-and-left, starting right hand with partner.
+%%endtext
+%%center Notes
+%%begintext align
+%% The author states, "When I arrived in New York City, not knowing anyone, I
+%% found that the Country Dance and Song Society was my best friend; hence the
+%% name for this dance.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 13
+T: Bonnie George Campbell
+O: Traditional
+%R: waltz
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.43 #1
+M: 3/4
+L: 1/4
+K: G	% and Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A/G/ "A"|\
+"D"F2F/F/ | EFA | "G"B>GB | "D"A3 |\
+"G"d>cB | "D"AFD |[1 DFD | "A7"E3 :|[2 "A7"EFE | "D"D3 |]
+"B1"[|\
+"Bm"d>cB | BFF | BcB | "A"A3 |\
+"Bm"BAF | "D"d2F | "G"FED | "A7"E3 |]
+"B2"[|\
+"D"F2F | EFA | "G"B2B | "D"A3 |\
+"G"d>cB | "D"AFD | "A7"EFE | "D"D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 14
+T: Wand'ring Willie
+O: Traditional
+%R: waltz
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.43 #2
+M: 3/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"A"|:\
+"G"d>c B/A/ | G>AG | "D"AGA | "Em"Be2 |\
+"G"d>c B/A/ | G>AB | "B7"B^AB |[1 "Em"E3 :|[2 "Em"e3 \
+"B"|:\
+"Em"Be^d | e>fg |
+"D"d>e d/c/ | "Bm"B{c}d2 |\
+[1 "Em"Be^d | "Em"e>fg "B7"B^AB | "Em"E3 :|\
+[2 "Em"Bef | g>ab | "B7"B^AB | "Em"E3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 3 1 530
+%%sep 1 1 530
+X: 15
+T: Halfway Measures
+C: Scott Higgs
+O: Ardmore, Pennsylvania
+P: Four couple longways set
+%R: jig
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.44
+N: Music: Trip to Higgsville, U.S.A.
+K:
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext
+%%center Part I
+%% A:
+%% 1-8 Up a double and back. Repeat
+%% B:
+%% 1-4 1st couple and 4th couple cross passing right shoulders with partner
+%%     and cast to the middle of the set. 2nd couple and 3rd couple move to
+%%     the ends of the set.
+%% 5-8 1st couple and 4th couple cross passing right shoulders with partner
+%%     again, and turn once and a half around with neighbors by the near
+%%     hand. (1st and 2nd men join right hands, 3rd and 4th men join left
+%%     hands, 1st and 2nd women join left hands, 3rd and 4th women join
+%%     right hands.) End in original places.
+%% C:
+%% 1-8 Double figure eight at the ends, 1st couple cross down the center, 2nd
+%%     couple go up the outside, 4th couple cross up through 3rd place, the
+%%     3rd couple go down the outside to start.
+%%endtext
+%%center Part II
+%%begintext
+%% A:
+%% 1-8 Side with partner (Cecil Sharp style siding). Repeat.
+%% B:
+%% 1-4 1st couple and 4th couple turn partner with two hands once and a half
+%%     around and face up or down to neighbor.
+%% 5-8 Back-to-back with neighbor.
+%% C:
+%% 1-4 Turn neighbor with two hands once and a half.
+%% 5-8 1st and 4th couples cross by the right shoulder and cast to original places.
+%%endtext
+%%center Part III
+%%begintext
+%% A:
+%% 1-8 Arm right with partner. Arm left with partner.
+%% B:
+%% 1-8 Progressive hey: Ends cross giving right hands while the middles
+%%     wait. All change places with the left hand along the sides. New ends
+%%     cross while the middles change, all by the right. All change by the
+%%     left along the sides. (Order is now 4-2-3-1, all improper.)
+%% C:
+%% 1-2 Change places with partner passing right shoulders.
+%% 3-4 Circle four hands around halfway at each end.
+%% 5-8 Turn partner with two hands once and a half around. End in the order 2-4-1-3.
+%%endtext
+%%begintext
+%% Repeat entire dance four times, once for each couple.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 16
+T: Trip to Higgsville, U.S.A.
+C: Eric Scottt
+O: Princeton, New Jersay
+%R: jig
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.45
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"A"[|] Bc !segno![|\
+"Em7"d2d "Am7"c2B | "Dm7"A2G "G9"A2B | "C"c2C "Am"C2D | "Dm"D2E "G7"F2A |\
+"Em7"B2c "Am7"d2B | "Dm7"A2G "G9"A2B | "C"c2e "Am"d2c | "Dm"B2A "G7"B2G |]
+"B"[|\
+"C"Mc3 "E"Me3 | "F"Mc2A "Em/G"G3 | "E7"B2B "A7"e2e | "D7"d2A "G7"G2B |\
+"C"cde "F"ac'a | "G"ged "E7"e2e | "Am7"Me3 "Ab"M_e3 | "Gm7"Md3 "Gb7"_d3 |][K:F]
+"C"[|\
+"F"c2c "F/A"A2F | "Gm"G2A "C7"B3 | "A7"A2A "D7"d2d | "G7"G2G "C7"c3 |\
+"Dm"f3 "E"e2d | "F"c2A "G7"G2A |[" " "C"cCC "Am"CCC | "Dm"DEF "G7"G/A/ =B"_D.S."c |]
+|["Last Time" "F"c2A "G7"G2A | "C"c3 c3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 3 1 530
+%%sep 1 1 530
+X: 17
+T: The Lover's Knot
+T: Or, the Diamond Jubilee
+C: Jim Kitch
+O: Philadelphia, Pennsylvania
+P: Duple minor longways, improper
+%R: reel
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.46
+N: Music: Black and Grey
+K:
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext
+%% A1:
+%% 1-4 1st woman move down the center and up the outside to place,
+%% ___ 1st man move down the outside and up the center to place.
+%% ___ -- while --
+%% ___ 2nd woman move up the center and down the outside,
+%% ___ 2nd man move up the outside and down the center to place.
+%% A2:
+%% 1-4 Circle left three-quarters.
+%% 5-8 Turn partner with two hands once and a half around and open facing in.
+%% B1:
+%% 1-8 Hey for four, men passing left shoulders to start. End facing partner (severn changes).
+%% B2:
+%% 1-4 Right shoulder gypsy with partner once and a half around.
+%% 5-8 Left hands across, women join in behind their partner.
+%%endtext
+%%center Notes
+%%begintext align
+%% The author notes that partners should maintain eye contact throughout the A1
+%% figure, which is similar to the end of Mad Robin. Dancers moving through the
+%% center pass face to face.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 18
+T: Black and Grey
+O: The DAncing Master 7th ed. 1686
+%R: reel, march
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.47
+M: C|
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"A"|:\
+"Am"A2A2 d2B2 | c4 A2d2 | "G"B4 G2g2 | B2 G4 |\
+"Am"A2A2 "G"d2B2 | "F"c3B "Dm"A2d2 | "G"B2G2 BcdB | "Am"A4 e4 :|
+"B"|:\
+"Am"a2e2 "Dm"fedc | "Am"a2e2 "Dm"fedc | "G"g2d2 BcdB | "G"g2d2 BcdB |\
+"Am"a2e2 "F"fgag | "C"agfe "Dm"fedc | "Gm"B2G2 BcdB | "Am"A4 e4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 3 1 530
+%%sep 1 1 530
+X: 19
+T: Lunar Eclipse
+C: Elizabeth A. Snowdon
+O: Philadelphia, Pennsylvania
+P: Duple minor longways
+%R: jig
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.48
+N: Music: Lunar Eclipse
+K:
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext
+%% A1:
+%% 1-2 Turn single into the position of the person on your right within the minor set of four.
+%% 3-4 Set.
+%% 5-8 Half hey for four along the 1st corners diagonal position: 1st man and
+%% ___ 2nd woman move into the center, then 1st man pass right shoulders
+%% ___ with 2nd man and 2nd woman pass right shoulders with 1st woman to
+%% ___ start. 1st man end in original 2nd man's place; 2nd man in 1st man's
+%% ___ place; 1st woman in 2nd woman's place; and 2nd woman in 1st woman's place.
+%% A2:
+%% 1-2 Turn single as in A1.
+%% 3-4 Set.
+%% 5-8 Half hey four along the 1st corners diagonal; 2nd man and 1st
+%% ___ woman move into the center to start. End in original positions.
+%% B1:
+%% 1-4 Lead out a double with your neighbor. Turn and lead in a double.
+%% 5-8 Turn partner with two hands.
+%% B2:
+%% 1-2 Circle halfway around.
+%% 3-4 Turn single.
+%% 5-8 1st couple half figure eight up through 2nd couple. 2nd couple change
+%% ___ places after the 1st couple passes through them.
+%%endtext
+%%center Notes
+%%begintext align
+%% The author notes, "This dance was written to give a new, challenging figure to the
+%% bored experienced dancer. The general flavor is of a quiet, smooth English dance.
+%% There are a number of circles which appear and disappear like an eclipse of the
+%% moon.  There is an air of mystery in the tune to capture the mystery of an eclipse.
+%% This dance commemorates the two lunar eclipses seen at Pinewoods on August 17,
+%% 1989.  One was a cardboard one in C#; the other was [a] real one over Round and
+%% long Ponds."
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 20
+T: Lunar Eclipse
+C: Elizabeth A. Snowdon
+O: Philadelphia, Pennsylvania
+%R: jig
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.49
+M: 6/8
+L: 1/8
+K: Ador
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E "A"|\
+"Am"ABc B2A | "Dm"=f3 e2d | "Am"cdB "E"c2B | "Am"c2B A2E | "Am"ABc B2A |
+"Dm"=f3 e2d | "Am"c2B "E"cdB | "Am"A3- A2 :: B/c/ "B"| "G"ded BAG | "C"c3 B2c |
+"E"e2B c2B | "Am"A3- A2d | "E"e2B "Am"c2A | "B"B2F "Em"G2B | "Am"ABA "B"G2F | "Am"E3- E2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 3 1 530
+%%sep 1 1 530
+X: 21
+T: Splash in the Puddle
+C: Haward P. Slosek
+O: Penacook, New Hampshire
+P: Duple minor longways, improper
+%R: slip-jig
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.50
+N: Music: Splash in the Puddle
+K:
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext
+%% A:
+%% 1-3 Three changes of a circular hey, starting right shoulder with partner.
+%% __4 Turn single three quarters (clover-leaf) and end facing neighbor.
+%% 5-6 Turn neighbor by the right hand.
+%% 7-8 1st couple back-to-back.
+%% B:
+%% 1-2 Ladies chain halfway. Men turn the women under to finish.
+%% 3-4 Circle (this is very fast).
+%% 5-6 Ladies chain halfway. Men turn the women under to finish.
+%% 7-8 Forward and back in lines.
+%%endtext
+%%center Notes
+%%begintext align
+%% The author states that the music should be played at a moderate tempo; use a
+%% walking step throughout.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 22
+T: Splash in the Puddle
+C: Haward P. Slosek
+O: Penacook, New Hampshire
+%R: slip-jig
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.51
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"A"[|\
+"G"B2B BAG d2c | "G"B2d g2f "C"e2d | "G"B2B BAG d2B | "D"AGA c2B A3 |
+"G"B2B BAG d2c | "G"B2d g2f "C"e2g | "G"B2B BAG d2B | "D"ABc B2A "G"G2d ||
+"B"[|\
+"C"e2e edc g2e | "G"d2B g2f e2d | "D"A3 AGA c2A | "G"B2G d2c "Em"B3 |
+"C"e3  edc g2e | "G"d2B g2f e2g | "D"A3 AGA c2A | "G"B2G "C"E2F "G"G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 3 1 530
+%%sep 1 1 530
+X: 23
+T: Storrow House
+C: Ed Wilfert
+O: Marston's Mills, Massachusetts
+P: Duple minor longways
+%R: waltz
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.52
+N: Music: Storrow House
+K:
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext
+%%A1:
+%% 1-2 1st man set to 2nd woman.
+%% 3-4 1st man and 2nd woman gypsy right shoulder.
+%% 5-6 1st man and 1st woman gypsy left shoulder.
+%% 7-8 1st man move through original place and cast into 2nd man's place.
+%% -- while --
+%% 5-8 2nd couple back-to-back, 2nd man falling back into 1st man's place.
+%%A2:
+%% 1-2 1st woman set to 1st man.
+%% 3-4 1st woman and 1st man gypsy right shoulder.
+%% 5-6 1st woman and 2nd man gypsy left shoulder.
+%% 7-8 1st woman move through her original place and cast cast to 2nd woman's place.
+%% -- while --
+%% 5-8 2nd woman and 1st man back-to-back, 2nd woman falling back into 1st woman's place.
+%%B1:
+%% _1-2_ Turn partner with two hands halfway, open out with back to the
+%% _____ center of the minor set. Take hands four in a back ring.
+%% _
+%% _3-4_ Balance right and left in the ring.
+%% _5-6_ Turn neighbor with two hands halfway, into the back ring.
+%% _7-8_ Balance right and left in the ring.
+%% _9-10 Lead out with neighbor.
+%% 11-12 Turn and lead back in.
+%% 13-14 1st man and 2nd woman change places.
+%% 15-16 2nd man and 1st woman change places.
+%%
+%%     Optional B2
+%%B2:
+%% _1-12 Join in ballroom position and waltz once around the other couple.
+%% 13-16 Join up in a circle and set twice.
+%%endtext
+%%center Notes
+%%begintext align
+%% The author notes that the dance is for intermediate to advanced dancers, and
+%% states: "The idea behind the dance is that one dancer initiates movement that
+%% spreads to all the rest, one by one, until each of the dancers in the minor set has
+%% danced with each of the other three, and that all four meet together fullin in the
+%% action."
+%%
+%% The dance is dedicated to Helen Storrow, founder of the American Branches of the
+%% English Folk Dance Soceity (now the Country Dance and Song Society).
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 24
+T: Storrow House
+C: Ed Wilfert
+O: Marston's Mills, Massachusetts
+%R: waltz
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.53
+M: 3/4
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"A1"[|\
+"Dm"D2 F2 G2 | A3 B A2 | "Gm"G2 F2 G2 | "Dm"A3 B A2 |\
+"Dm"A,2 D2 E2 | "Ddim7"F4 D2 | "Am7"E2 EDC=B, | A,6 "A2"||
+"Dm"D2 F2 G2 | A3 B A2 | "C"(3GAG F2 G2 | "F"A3 B A2 |\
+B,2 D2 E2 | "Bb7/D"F4 D2 | "A7"E2 ED^C=B, | A,6 |]
+"B1"[|\
+"Dm"D2 A2 A2 | A2 B2 c2 | "Gm/D".d2 z2 B2 | G6 |\
+"C"C2 G2 G2 | "C"G2 A2 B2 | "F"c2-cBAG | "A7"A2-AFE^C |
+"Dm"A,2 F2 F2 | F2 G2 A2 | "Gm".B2 z2 (3GBG | "Eb/G"E6 |\
+"Dm/A"DA-A2 D2 | "A7"^CA-A2 C2 | "Dm"D4 FE | D6 ||
+"B2"||\
+"Dmaj"D2 A2 A2 | A2 B2 c2 | "Gm/D".d2 z2 B2 | G6 |\
+"C"C2 G2 G2 | "C"G2 A2 B2 | "F"c2-cBAG | "A7"A2-AFE^C |
+"Dm"A,2 F2 F2 | F2 G2 A2 | "Gm/D".B2 z2 (3GBG | "Eb/G"E6 |\
+"Dm/A"DA-A2 D2 | "A7"^CA-A2 C2 | "Dm"D4 FE | D6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 3 1 530
+%%sep 1 1 530
+X: 25
+T: Trip to Greene
+C: Gary Roodman
+O: Binghamton, New York
+P: Three couple longways set
+%R: jig
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.54
+N: Music: Petticoat Wag
+K:
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center Part I
+%%begintext
+%% A1:
+%% 1-4 Lead up a double and fall back holding right hands.
+%% 5-8 Turn partner halfway by the right and turn single left.
+%% A2:
+%% 1-4 Lead down a double and fall back holding left hands.
+%% 5-8 Turn partner halfway by the left and turn single right.
+%% B1:
+%% 1-4 2nd man half hey with 1st couple, 2nd man pass right shoulders with
+%% ___ 1st woman to start, *while* 2nd woman half hey with 3rd couple, 2nd
+%% ___ woman pass right shoulders with 3rd man to start.
+%% 5-8 2nd man half hey with 3rd couple, 2nd man pass right shoulders with
+%% ___ 3rd woman to start *while* 2nd woman half hey with 1st couple, 2nd
+%% ___ woman pass right shoulders with 1st man to start.
+%% B2:
+%% 1-4 Take hands along the line, go forward a double and back.
+%% 5-8 1st couple and 2nd couple cast down one place, 3rd couple move up the center to top.
+%%endtext
+%%center Part II
+%%begintext
+%% A1:
+%% 1-4 Side-by-side siding with partner by the right shoulder.
+%% 5-8 Turn partner halfway by the right and turn single left.
+%% A2:
+%% 1-4 Side-by-side siding with partner by the left.
+%% 5-8 Turn partner halfway by the left and turn single right.
+%% B1-B2: As in the First Part.
+%%endtext
+%%center Part III
+%%begintext
+%% A1:
+%% 1-4 Arm right with partner.
+%% 5-8 Turn partner halfway by the right and turn single left.
+%% A2:
+%% 1-4 Arm left with partner.
+%% 5-8 Turn partner halfway by the left and turn single right.
+%% B1-B2: As in the First Part.
+%%endtext
+%%center Notes
+%%begintext align
+%% The author notes, "The half hey figure for the second couple is more of a
+%% button-hook than a hey:  Pass through the end couple and cast up or down to
+%% second position on the opposite side."
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 26
+T: Petticoat Wag
+O: The English Dancing Master, 1651
+%R: jig
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.55
+M: 6/8
+L: 1/8
+K: Gdor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"A"|:\
+"Gm"d2c B>cA | "Gm"G2A "D"^F3 | "Gm"G2A B3- | B2c d3 |\
+"Dm"dfe f>ga | "Gm"g2g "Dm"f2d | "Bb"d>ed "F"c2A | "Gm"B2c d3 :|
+"B"|:\
+"F"f2g a>ga | "Bb"b2d f3 | "F"A2B c>Bc | "Bb"d2e "Dm"f>ed |\
+"Gm"g3- g2e | "Dm"a3- a2f | "Gm"b>ag "D7"g>a^f | "Gm"g3- g2z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 3 1 530
+%%sep 1 1 530
+X: 27
+T: Wooing Mairi
+C: Scott Higgs
+O: Ardmore, Pennsylvania
+P: Three couple longways set, top couple improper
+%R: march, reel
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.56
+N: Music: Wooing Mairi (with Mairi's Wedding a suggested alternate tune).
+N: Modified A1 part to match the Erratum sticker on the page.
+K:
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext
+%% A1:
+%% 1-8 Hey on opposite side, 1st couple crossing through middle place to begin.
+%% A2:
+%% 1-2 1st couple turn with two hands halfway and open to face the 2nd couple.
+%% 3-4 1st and 2nd couples circle halfway.
+%% 5-8 All three couples circle six halfway. (Ending in 3-1-2 order, 1st couple and 3rd couple improper.)
+%% B1:
+%% 1-4 1st couple gate up (see notes) with the couple above.
+%% 5-8 1st couple gate down with the couple below.
+%% B2:
+%% 1-4 Set and turn single.
+%% 5-8 1st couple half figure eight down through the original 2nd couple.
+%%
+%% Repeat from progressed positions.
+%%endtext
+%%center Notes
+%%begintext align
+%% Gate: Actives join nearest hand with neighbor and turn as couple with that
+%% neighbor, with the actives moving forward, up or down the hall as indicated, while
+%% their neighbors move backwards so that they rotate around a pivot point between
+%% them.  All end where they started the figure.
+%%
+%% The author notes, "This dance is actually quite relaxed in pace. In order to use up
+%% all the music, the tempo should be fairly peppy and the dancers should have space
+%% to spread out and make wide gates. If movements are big and sweeping, it can be
+%% rewarding to dance; if cramped or too slow, it has little to offer. Alert the first
+%% couple that their final half figure eight ends with them dancing *up* the outside.
+%% They should maintain this momentum into the heys at the beginning of the next
+%% round."
+%%
+%% The author recommends Mairi's Wedding as an alternate tune to be used in a
+%% medley with Wooing Mairi.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 28
+T: Wooing Mairi
+C: Scott Higgs
+O: Ardmore, Pennsylvania
+P: For Jan Alter and Anett Petrich
+%R: march, reel
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.57
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"D"DE "A1"|\
+"G"G2 B2 "Bm7"AF "C"GE | "G"DD "D"D/E/F "G"G2 DE |\
+"C"G2 c2 "Bm"d>B "Em"AG | "Am"EE GE "D"D2 DE ||
+"A2"|\
+"G"G2 "D"A2 "Em"B2 "D"GA | "C"e>e "G"dB "D"A2 BA |\
+"C"G2 e2 "Bm"d>B "Em"G/A/B/c/ | "Bm"dd "A"e^c "D"d2 d2 |][K:=f][K:F]
+"B1"[|\
+"F"f>f "C"ec "Bb"Bd "F"cA | "Gm"GB "F"AF "Gm"GD "C"Ec |\
+"Dm"f>f "Am"ec "Gm"Bd "Am"c<A | "G"G=B "Am"AE "A"G/^F/E "D"DE ||[K:=B][K:G]
+"B2"|\
+"G"G2 "D"A2 "Em"B2 "D"GA | "C"e>e "G"dB "D"A2 GA |\
+"G"B2 d2 "C"ec de/f/ | "G"gd "D"B<A "G"G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 3 1 530
+%%sep 1 1 530
+X: 29
+T: Lustig Zein
+C: Laurie Andres, Claude Ginsberg, Ken Smith,
+C: and the Mossy Back Morris Men
+O: Seattle, Washington
+P: A morris dance in the Bledington style
+%R: reel
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.58
+N: Music: Lustig Zein
+K:
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center Part I
+%%begintext
+%% A:
+%% 1-8 Foot up.
+%% B1:
+%% 1-4 1st corners cross with 4 side steps startong on the right foot and passing right shoulders.
+%% 5-6 Facing the audience, salute right, salute left.
+%% 7-8 Hook leg right to face corner.
+%% B2:
+%% 1-8 2nd corners repeat B1.
+%% B3:
+%% 1-8 3rd corners repeat B1, all feet-together-jump in lines to the middle of the set.
+%% D:
+%% 1-3 All do 6 hocklebacks starting on the right foot, backing away from the set. (Make it big.)
+%% 4__ Step and jump.
+%% 5-6 All do 2 double steps back into the set.
+%% 7-8 Hook leg right to face partner.
+%%endtext
+%%center Part II
+%%begintext
+%%A: ____ Half Gyp.
+%%B1,2,3: As in B of Part I, using Fore Capers (half capers) instead of salutes.
+%%D: ____ As in Part 1.
+%%endtext
+%%center Part III
+%%begintext
+%%A: ____ Whole Gyp.
+%%C1,2,3: As in B of Part I, using Toe Backs instead of salutes.
+%%D: ____ As in Part 1.
+%%endtext
+%%center Part IV
+%%begintext
+%%A: ____ Half Rounds.
+%%C1,2,3: As in B of Part I, using Upright Capers instead of salutes.
+%%D: ____ As in Part 1, and end facing up.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 30
+T: Lustig Zein
+N: AKA "Ma Yofus", "Yoshke", "Tanz, tanz Yidelech", and other titles.
+C: Traditional
+P: A(AB3D)2(AC3D)2
+%R: reel
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.59
+M: 4/4
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"A"[|] E2 |\
+"E"EF^GA BcBA | "E"^G2GE "Am"A2A2 | "E"B2B2 dcBA | "E"^G2GE "Am"A4 |\
+"E"EF^GA BcBA | "E"^G2GE "Am"A2A2 | "E"^G2E2 "Dm"FEFD | "E"E4 E2 |]
+"B"|: "G7"G2 |\
+"C"cde2 e2e2 | "G"dedB G2G2 | "G7"GABc defd | "C"e4 "E7"edcB |\
+"Am"ABc2 c2c2 | "E"BcB^G E2E2 | "E"EF^GA BccGB | "Am"A4 A2 :|
+"D"[|]!segno! A2 |\
+"E"E2^G2 E2G2 | "Am"A2A2 dcBA | "E"^G2G2 "Am"AGAc | "E"B2e2 e4 |\
+"E"E2^G2 E2G2 | "Am"A2A2 dcBA | "E"^G2E2 "Dm"FEFD | "E"E4 "_D.C."E2 |]
+"C"|: "G7"G2 |\
+"C"cde2 e2e2 | "G"dedB G2G2 | "G7"GABc defd | "C"e4 "E7"edcB |[M:4/2]\
+"Am"A2B2 c4 c4 c4 | "E"B2c2 B2^G2 E4 E2E2 |[M:4/4] "E"EF^GA BcGB | "Am"A4 "_D.S."A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 3 1 530
+%%sep 1 1 530
+X: 31
+T: The Tailor and the Mouse
+C: Jacob Bloom
+O: Arlington, Massachusetts
+P: A morris dance in the Brackley style
+%R: march
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.60
+N: Music: the Tailor and the Mouse
+K:
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center Part I
+%%begintext
+%% A:
+%% 1-8 Foot up.
+%% B:
+%% 1-6 1st corners using single steps, cross in six bars, turn and come in to meet in the center. Quick enting.
+%% ___ *while*
+%% ___ 2nd corners wait two bars, cross using single steps for four bars, turn and meet in the center with a quick ending.
+%% ___ *while*
+%% ___ 3rd corners wait four bars, cross using single steps for two bars, turn and meet in the center with a quick ending.
+%% 7-8 All six dancers have now simultaneously danced a quick ending in a tight ring in the center of the set.
+%% ___ All now do a slow ending, using it to back out to a set again.
+%%endtext
+%%center Part II
+%%begintext
+%%A: Side-by-Side.
+%%B: As in Part I.
+%%endtext
+%%center Part III
+%%begintext
+%%A: Back-to-Back.
+%%B: As in Part I.
+%%endtext
+%%center Part IV
+%%begintext
+%%A: Whole Hey.
+%%B: As in Part I, ending with four plain capers in place of the slow ending. On the first caper, the dancers turn
+%%__ to face down. On the remaining capers, the dancers continue turning so as to end the dance facing up in the
+%%__ positions where they started the dance. The call for this is "Caper down and up".
+%%endtext
+
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 32
+T: The Tailor and the Mouse
+C: Traditional
+P: Played A(AB)3
+%R: march
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.61
+M: 4/4
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"A"[|] e2 |\
+"Am"c2A2 A2A2 | "C"G2E2 G4 | "E"E2EE E2e2 | "Am"c2A2- A2e2 |\
+"Am"c2A2 A2A2 | "C"G2E2 G4 | "E"E2EE E2e2 | "Am"c2A2- A2 |]
+"B"[|] z2 |\
+"Am"c2cc c2A2 | c2A2 e2A2 | "G"Bcd2- d2d2 | "G"B2d2- d2z2 |\
+"Am"c2AA A2A2 | "C"G2EE G4 | "E"E2EE E2e2 | "Am"c2A2- A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+% %newpage
+%%sep 3 1 530
+%%sep 1 1 530
+
+X: 33
+T: MUSIC
+K:
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+X: 34
+T: Belle of the Ball
+C: Buz Lloyd
+O: Carrboro, North Carolina
+%R: waltz
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.65
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+"G"G4 G2 | AB- B2 B2 | "D7"AG- G2 F2 | "G"G2 B2 d2 |\
+"C(Em)"e4 e2 | "C(Em)"ed- d2 B2 | "G(Bm)"d6- | d4 ef |
+"C"g3 f g2 | e4 ge | "G"dB- B2 "D/F#"A2 | "Em"G4 (3DEF |\
+"G/D"G4 BG | "D7"AG- G2 F2 | "G"G6- | G4 :|
+Bd |\
+"C"g3 f g2 | e4 ge | "G"dB- B2 A2 | G3 B d2 |\
+"C"g3 fg2 | "C"ed- d2 B2 | "G"d6- | d4 ef |
+"C"g3 f g2 | e4 ge | "G"dB- B2 "D/F#"A2 | "Em"G4 GA |\
+"G"BA- A2 B2 | "A7"^cB- B2 c2 | "D"d6 | d4 ||
+ef |\
+"C"g4 g2 | e4 ge | "G"dB- B2 "D/F#"A2 | "Em"G4 GA |\
+"G"BA- A2 G2 | "G7"GB- B2 d2 | "C"e6 | e4 f2 |
+"C"g4 g2 | e3g e2 | "G"dB- B2 "D/F#"A2 | "Em"G4 DE |\
+"G/D"G4 BG | "D7".A2 .G2 .F2 | "G"G6- | G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 35
+T: Black Coffee
+C: Jonathan Jensen
+O: Baltimore, Maryland
+%R: jig
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.66 #1
+M: 6/8
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+"Dm"d2e dcA | "Gm"G2A GFD | "Dm"F2D "Dm/C"F2A | "Gm/Bb"ded "A"^c2A | "Dm"d2e dcA | "Gm"G2A "(G7)"GFD |
+"F"C2A "C7"GFD | "F"F3- F2 :: A | "F"c2d "F/E"c2d | "F/D"c2d "F/C"cAF | "Bb"f2g "Bb/A"f2g | "Bb/G"f2g "C7"fed |
+"F"c2c "F/E"c2d | "F/D"c2d "F/C"cAF |[1 "Gm/Bb"G2A "C"GFD | "F"F3- F2 :|[2 "Gm"G2A "A7"GFE | "Dm"D3- D2 |]
+
+X: 36
+T: Crossing the Brazos
+C: Mike Richardson
+O: Seattle, Washington
+%R: reel
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.66 #2
+N: The key signature really has two sharps, and the c notes in the first 6 bars are sharp.
+M: C|
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"Am"A2a2 g2ef | gfed edcB | "Am"A2a2 g2ef | "G"gfed "E"e4 |
+"Am"A2a2 g2ef | gfed edcB | "Am"AB=cA "G"GABd |1 "E"(3=cBA BG "Am"AEF^G :|2 "E"(3=cBA BG "Am"A2 ||
+|: (3ef^g |\
+"Am"a2A2 A2ab | "Am"age=c "G"dBGB | "Am"Aa2a- azab | "Am"age=c "E"de3 |
+"Am"az2a- azab | "Am"age=c "G"dBGB | "F"=cA=FA "Em"BAGD |1 "Am"(3EFG A2 A2 :|2 "Am"(3EFG A2 HAge=c |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 37
+T: The Elusive Lover
+C: John Sarney
+O: Naples, Florida
+%R: reel
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.67 #1
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+ED |\
+"G"G2GA GFED | "Em"EDGD EFGA | "G"B2Bd cBAG | "Am"AGBG "D"E2DE | "G"G2GA GFED |
+"Em"EDGD EFGA | "G"B2Bd "D"cBAc | "G"B2G2 G2 :: Bd | "G"g2bd g2ag | "C"edc2 "G"d2de |
+"F"=f2Ac f2gf | "D"edcA "G"G2Bd | "G"g2fg ageg | "Am"a2ab "D"agef | "G"g2dB GABG | "D"AGFA "G"G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 38
+T: Fiddle 'Til Dawn
+C: Mike Richardson
+O: Seattle, Washington
+%R: reel
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.67 #2
+N: The G chord in bar 2 is a bit odd.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"G"G2BG "C"EFGE | "G"DFAc "C"BAGF | "G"GABc "Em"dBed | "Am"cBAG "D"FADF |
+"G"G2BG "C"EFGE | "D"DFAc "G"BAGF | "G"GABc "C"dBec | "D"AEFD [1 "G"G3 F :|2 "G"GDEF ||
+|:\
+"G"GABc "Em"dBed | "C"cAdc "G"BGcB | "B7"AFBA "Em"GEAG | "A"FGEF "D"DCB,A, |
+"G"B,A,B,C DG,A,B, | "C"CDEF GABc | "G"dBed "C"cBAG | "D"FDEF "G"HG3 F :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 39
+T: Fiddlin' David Reel
+C: Eric Scott
+O: Princeton, New Jersey
+%R: march
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.68 #1
+M: C
+L: 1/8
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+EG |\
+"Em"B>c "Em/D"BA "C"GE- "C/B"EG | "Am"EF "Em/G"E>B, "D"D2- "D/F#"DD |\
+"G"GF "G/F#"G>A "Em"BA "Em/F#"B>c |  "G"BA "Em"GE "Bm"B,2 "Em"EG |
+"Em"B>c "Em/D"BA "C"GE- "C/B"EG | "Am"EF "Em/G"E>B, "D/F#"D2- "D"DD |\
+"G"GA "Em"B>c "Bm/F#"dB "Am"ce | "Em"dc "Bm"Bc "D"d2 ||[K:E]
+"B7/D#"B2 |\
+"Em"e<B "B7"f2 "E"eB- BB | "E"ef "B"gf "E"e3 e |\
+"A"c2 c2 "E/G#"B2 e>d | "A"cB "F#m/A"AG "B7"FB- "B7/D#"BB |
+"Em"e<B "B7"f2 "E"eB- BB | "E"ef "B"gf "E"e3 e |\
+"A"ag f"^>"a "E"gf "E#m"g/f/e/c/ | "E"B<G "B"B>B "D"E2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 40
+T: Good Riddance
+C: Howard P. Slosek
+O: Penacook, New Hampshire
+%R: reel
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.68 #2
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(3FGA |\
+"Bb"B2Bd "F"c2ce | "Bb"dcBA "Gm"B3A |\
+"Eb"G2G2 "Cm"GFGA | "F"G2F2 "Bb"B2 (3FGA |
+"Bb"B2BA "Eb"G2G2 | "F"FGA2 "Bb"B2z2 |\
+"Cm"c2cd "Eb"e2e2 | "F"dedc "Bb"B2 :|
+|: c2 |\
+"Dm"d2g2 "Gm"g2ga | "Dm"bagf "Gm"d2de |\
+"F"f2fg fdc2 | "Bb"d2de dcBc |
+"Dm"d2g2 "Gm"g2ga | "Dm"bagf "Gm"d2de |\
+"F"f2fg fdc2 |1 "Bb"B2B2 B2 :|2 "Bb"B6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 41
+T: The Grand old Midway March
+C: Don Coffey
+O: Frankfort, Kentucky
+%R: march
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.69
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A, B,C | "D"D2 DE F2 FG | A>^G AB A2 de |\
+"D"f2 d>f "G"ed cB | "D"A6 BA |\
+"A"G2G2 E2AG | "D"F>D FA "Bm"d2 AB |\
+"A"c2c2 "E"B>c dB | "A"e6 FE |
+"D"D2 DE F2 FG | "A"A>G AB A2 de |\
+"D"f2 d>f "G"ed cB | "D"A6 GA |\
+"G"B2B2 "A"cA Bc | "Bm"d>B cd "Em"ef ge |\
+"D"f>A ^GA "A"f2 e2 | "D"d6 z2 ||[K:=c][K:G]
+"G"D4 E2 F2 | G4 G2 A2 |\
+"G"B2 G2 "G"B2 "C"e2 | "G"d6 ed |\
+"D7"c2 B2 A2 d2 | "G"B2 A2 "Em"G2 AG |\
+"D"F2 A2 "A7"^c2 fe | "D7"d6 DD |
+"G"D4 E2 F2 | G4 G2 A2 |\
+"G"B2 G2 c2 d2 | "C"e8 |\
+"C"g4 f2 e2 | "G"d2 G2 "C"d2 c2 |\
+"G"B>D ^CD "D7"B2 A2 | "G"G4- G |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 42
+T: History Reel
+C: Rick Mohr
+O: Arlington, Massachusetts
+%R: reel
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.70 #1
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+e !segno!||\
+"F"fefg f2ag | fefc Acfa | "Gm"g^fga gaba | "C"g=fed c2de |
+"F"fefg f2ag | fefc Acfa | "Gm"gfed "C7"cBAG | "F"FEFG F3 :|
+E |:\
+"Dm"DEFA d2DE | FAd2 d2cd | "C"e3d c2cA | GAGF EDCE |
+"Dm"DEFA d2DE | FAde fedf | "Am"eaag edce |1 "Dm"d2dc "A7"AGFE :|2 "Dm"d3d "C7"Hdcd"_D.S."e |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 43
+T: Jig for an Unwritten Dance
+C: Eric Scott
+O: Princeton, New Jersey
+P: For Steve Schnur
+%R: jig
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.70 #2
+M: 6/8
+L: 1/8
+K: Em	% and G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B, |\
+"Em"EB,B, "Bm/D"FB,B, | "Am/C"A,B,B, "Bm"FB,B, |\
+"Em"EB,B, "Em/G"GFD | "Am"EA,A, A,B,D |\
+"Em"EB,B, "Bm/D"FB,B, |
+"Am/C"AB,B, "Bm"FB,B, |\
+"Am"EFG "G"BGD | "Am"EA,A, A,2 :: A |\
+"G"Gdd "G/B"GBB | "Am/C"AGF "D"DEF |
+"G"Gdd GBB | "Em"Gee "C"e2d |\
+"G"gdd "G/B"GBB | "Am/C"AGE "D"DEF |\
+"Em"GAB "D"dAF | "C"EGG "G"G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 44
+T: Kittens on Catnip
+C: Dave Goldman
+O: Portland, Oregon
+%R: reel
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.71
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"D"d2A2 "C"=cBAG | "D"A2FG- "C"G2E2 | "D"F2D2 "F"=FGAB | "G"GAB2 "C"=c2Bc |
+"D"d2A2 "C"=cBAG | "D"A2FG- "C"G2E2 | "D"F2D2 "F"AGF=F |1 "C"E2=C"D"D- D3 z :|2 "C"E2=C"D"D- D3 ||
+|: F |\
+"C"G2E=C- CGEC | "D"FDAD BDA2 | "C"G2E=C- CGEC | "D"FDAD F3A |
+"C"G2E=C- CGEC | "D"FDAD BDA2 | "F"AG=FE "G"GFED |1 "C"E2G2 "D"A3 :|2 "C"E2G2 "E"^G2 (3ABc |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 45
+T: Lady William's Delight
+C: Jonathan Jensen
+O: Baltimore, Maryland
+%R: minuet, triple hornpipe
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.72
+M: 3/2
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 rearranged to give two staffs:
+V: 1 clef=treble
+|:\
+f3e def2 d2B2 | G2 e4 d2 c2A2 |\
+F2 d4 c2 B2G2 | E2 A4 G2 FGA2 |\
+Bcd2 d2c2 d4 :: a3g fga2 b2g2 |
+e3d cde2 f2c2 |\
+d2B2 gfe2 fed2 | d6 c2 B4 |\
+FGA2 B2F2 G2E2 | cde2 a2e2 f2d2 |\
+e2B2 c2A2 d2A2 | FGA2 F2ED D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks:
+V: 2 clef=bass middle=d
+|:\
+"Bm"B8 d4 | "Em"e4 G4 "A"A4 |\
+"D"d4 F4 "G"G4 | "A"A4 c4 "D"d4 |
+"G"g4 "A"a4 "D"d2c2 ::\
+"D"d8 "G"g4 | "Em"e4 g4 "F#"f4 |\
+"Bm"B4 "Em"e4 "Bm"d4 |
+"Bm"f4 "F#7"F4 "Bm"B4 |\
+"D"d4 "B"^d4 "Em"e4 | "A"A4 c4 "D"d4 |\
+"Em"G4 "A7"g4 "D"f4 | "D"a4 "A7"A4 "D"Hd2c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 46
+T: Lynn's Waltz
+C: Jonathan Jensen
+O: Baltimore, Maryland
+%R: waltz
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.73
+M: 3/4
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+EF |\
+"A"A2AFEF | "Bm7"A2c2B2 |\
+"A"A2c2e2 | "D"f4fa |\
+"A"fec2ce | "F#m"cAF2Ac |\
+"Bm"BAFDFA | "E7"G2F2EF |
+"A"A2AFEF | "Bm7"A2c2B2 |\
+"A"A2c2e2 | "D"f4fa |\
+"A"fec2ce | "F#m"cAF2Ac |\
+"Bm7"B2A2"E7sus4"A2 | "A"A4 :|
+|: cd |\
+"A"e2ecec | "Bm7"a2afaf |\
+"A"e2ecec | "D"(3BcBA2cd |\
+"A"e2ecec | "D"a2afaf |\
+"A"e2ec"B7"BA | "E"B4"C#7"cB |
+"F#m"A2c2a2 | "C#m"fec2cB |\
+"F#m"A2c2c'2 | "D"baf2fa |\
+"A"fec2ce | "F#m"cAF2Ac |\
+"Bm7"B2A2"E7sus4"A2 | "A"A4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 47
+T: Marching to Woodstock
+C: John Sarney
+O: Naples, Florida
+%R: march, reel
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.74 #1
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+DE |\
+"D"F2F2 "A"AFEF | "D"D6 EF | "G"G2G2 "D"FEFG | "E"AFDF "A"E2F2 |\
+"G"G2GA B2AG | "Bm"F4 B2FG | "A"A2Bc dBAG | "D"F2D2 D2 :|
+|: cd |\
+"A"e2ef edce | "D"d4 A2F2 | "G"G4 "Em"E2B2 | "A"AGFE "D"F2D2 |\
+"A"c3d e2fe | "Bm"d4 B2d2 | "G"e3e "A"dcBc | "D"d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 48
+T: Northern Hospitality Jig
+C: Mike Richardson
+O: Seattle, Washington
+%R: jig
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.74 #2
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"C"cGE FED | "C"CEC "G"DB,G, |\
+"C"CEG "(Am)"ceg | "Dm"fdc "G"BAB |\
+"C"cGE FED | "C"CEC "G"DB,G, |
+"C"CEG ceg |[1 "G7"fdB "C"c2G :|\
+[2 "G7"fdB "C"c2B \
+|: "Am"ABc cBA | "E"^G2E "Am"A2E |\
+"Dm"FED DEF | "m"E2C A,2C |
+"E7"B,CD DCB, |\
+[1 "Am"A,CE ABc | "E"B2^G "B7"^FGF | "E7"E3 E2^G :|\
+[2 "Am"A,CE Ace | "F"fed "E7"c2B | "Am"A3 "G7"G2B |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 49
+T: Picklehopper's Jig
+C: Buz Lloyd
+O: Carrboro, North Carolina
+%R: jig
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.75 #1
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"D"ABd edg | "D"fed "Bm"edB | "D"ABd edg | "D"fed "Bm"B3 |\
+"D"ABd edg | "D"fed "G"edB | "Em"gfe "D/F#"fed | "G"edB "A"A3 :|
+|:\
+"D"faf baf | "Bm"efd "G"edB | "D"faf baf | "Bm"efd "G"B3 |\
+"D"faf baf | "Bm"efd "G"edB | "Em"gfe "D/F#"fed | "G"edB "A"A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 50
+T: Pizza and Apple Pies
+C: Mike Richardson
+O: Seattle, Washington
+P: For Bob McQuillen
+%R: jig
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.75 #2
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"D7"A |\
+"G"B2B BAG | "B7"A2A AGF |\
+"C"G2G GAB | "G"D3 G2F |\
+"C"E2E EFG |[1 "G"D2D DGA |\
+"Am"BcB BAG | "D7"A3 G2 :|
+[2 "G"D2D DGB | "Am"ABc "D7"DEF |\
+"G"G3 G2 || F |\
+"Em"E2E GFE | "B7"F2F AGF |\
+"Em"E^DE G2A | "B7"B3 ^D3 |\
+"Em"E2E GFE | "B7"F2F AGF |
+"Em"EFE "Am"C2E | "B7"B,3 ^D3 ||\
+"Em"E2E GFE | "B7"F2F AGF |\
+"Em"E^DE G2A | "G"B3 GAB |\
+"C"c2e "Am"edc | "G"B2d "Em"dcB |\
+"Am"ABc "D7"DEF | "G"G3 G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 51
+T: Scotsbroome Jig
+P: For my contra dance band
+C: Mike Richardson
+O: Seattle, Washington
+%R: jig
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.76
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+"D"d2e fed | "G"BGB "D"A2A | "D"d2e "Bm"fga | "Em"agf "A"e2=f | "D"^fed AFA | "G"BGB "D"A2A |
+"D"d2d "A7"edc |[1 "D"d3- d2 :|[2 "D"d3 DFA |: "C"=c3 "G"B3 | "D"ABA F2D | "A"EFG GFE |
+"D"DFA d2A | "G"B3 B3 | "D"ABA F2D | "A7"EFG GFE |[1 "D"D3 DFA :|[2 "D"D3- D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 52
+T: Springfield Lass
+C: Mark Simos
+O: Cambridge, Massachusetts
+%R: waltz
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.77
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+"G"G3 A B2 | "D"A3 G F2 |\
+"C"EG c2 e2 | "G"d4 (3def |\
+"Em"g3 f e2 | "Bm"B3 A B2 |\
+"C".e2 "D"A4 | "Am"A3 G A2 |\
+"G".B2 "A"E4 | "C"E4 "D"F2 |
+"G"G3 A B2 | "D"A3 G FE |\
+"C"EG c2 ed | "G"{B}d4 ef |\
+"Em"g3 f e2 | "Bm"B3 A B2 |\
+"C"e6 | "D"f6 ||\
+"Am"a3 a a2 | "D"ab/a/ g2 a2 |
+"G"ba- a2 g2 | "C"c3 B cd |\
+"A"e<g- g2 "G/B"B2 | "Am"A2 G2 B2 |\
+"C"E6 | "D"D6 |\
+"G"G3 A B2 | "D"A3 G F2 |\
+"C"EG c2 e2 | "Dsus4"d4 "D"(3def |
+"Em"g3 f e2 | "Bm"B3 A B2 |\
+"C".e2 "D"A4 | "Am"A3 G A2 |\
+"G".B2 "A"E4 | "C"E4 "D"F2 |\
+"Em"G3 A G2 | "C"E3 D GA |\
+"G".B2 "A"E4 | "C/D"E3 D E2 |\
+"C"G6- | "G"G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 53
+T: Superlative Sam's Reel
+C: Larry Unger
+O: Lincoln, Massachusetts
+%R: reel
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.78 #1
+N: Bars 1-4 appear identical to bars 5-8.
+M: C|
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"Am"A,2A,A, B,A,A,E | B,A,G,B, A,G,A,B, | "Am"A,2A,A, B,A,A,E | "G"B,A,G,B, "Am"A,4 |
+"Am"A,2A,A, B,A,A,E | B,A,G,B, A,G,A,B, | "Am"A,2A,A, B,A,A,E | "G"B,A,G,B, "Am"A,4 |
+|:\
+"Am"A,B,CD E2EA | cAGA cAcd | "C"edea edea | "C"gecd "E7"e4 |
+"Am"AaaA agea | "G"BggB gedB | "Am"Aede ceBc | "G"dBAG "Am"A4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 54
+T: Susan's Waltz
+C: Jonathan Jensen
+O: Baltimore, Maryland
+%R: waltz
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.78 #2
+M: 3/4
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+EG |:\
+"Am"A3 B AG | "F"A2 c2 d2 | "C"e2 d2 c2 | "G"d4 cB |\
+"Am"A3 B AG | "F"A2 c2 A2 | "G7"G3 E D2 | "C"C4 EG |
+"Am"A3 B AG | "F"A2 c2 d2 | "C"e2 d2 c2 | "G"d4 ed |\
+"Dm7"c3 d cA | "Em"G2 E2 G2 | "Am"A4- AB |1 A4 EG :|2 A3 B ce ||
+|:\
+"Em7"g2 e2 g2 | "Am"a3 g ed | "Dm7"c2 A2 c2 | "G"d4 ef |\
+"Em"g2 e2 g2 | "Am"a3 g ed | "Dm7"c3 A "Em7"B2 | "Am"A3 B ce |
+"Em7"g2 e2 g2 | "Am"a3 g ed | "Am"c2 A2 "Am7"c2 | "D"d4 ed |\
+"Dm7"c3 d cA | "Em"G2 E2 G2 | "Am"A4- AB |1 A3 B ce :|2 A4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 55
+T: Sylvia's Waltz
+C: Don Coffey
+O: Frankfort, Kentucky
+%R: waltz
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.79 #1
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2 "A1"|\
+"G"d3ed2 | B2A2G2 | "C"g2f2g2 | a2g3e |\
+"G"d2B2d2 | "Em"g2e2d2 | "A"B2A2G2 | "D"A4 ||
+d2 "A2"|\
+"G"d2e2d2 | "G7"B2A2G2 | "C"e2f2g2 | "Am"a2g3e |\
+"G/D"d2e2g2 | "D7"a2g2f2 | "G"g6- | g4 |]
+ga "B1"|\
+"G"b4b2 | "G/F#"a3ba2 | "Em"g2a2b2 | "D"f4d2 |\
+"C"e2f2g2 | "G/B"g2d2B2 | "A"B2A2G2 | "D"A4 ||
+dd "B2"|\
+"G"b4b2 | "G/F#"a4ba | "Em"g2a2b2 | "Bm"f4d2 |\
+"C"e2f2g2 | "D7"a2g2f2 | "G"g6- | g4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 56
+T: Trip to Tighnabruaich Waltz
+C: Eric Scott
+O: Princeton, New Jersey
+%R: wltz
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.79 #2
+M: 3/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"D7"d |\
+"G"b>ag | "D"fga | "Em"ged | "Bm"B2B |\
+"G"B<dB | "Em"B<eB | "G"gbg | "D"a2 ||
+d |\
+"G"b>ag | "D"agf | "Em"ged | "C"e2e |\
+"Em"gBe | "Bm"d>BA | "C"ABE | "Em"G2 !fine!|][K:=f][K:Dm]
+G |\
+"Am"A<cA | "Dm"A<dA | "AM/C"edc | "Em"ga=b |\
+"F"c'a"Em/G"g | "Am"ea"G/B"g | "C"e/d/cg | "G"d2 ||
+"A7"e |\
+"Dm"f<dc | "Bb"f<dB | "Dm"a>g "Gm"f/g/ | "Am"e2e |\
+"G"gf"A7"e | "Dm"a>fd | "Dm/F"A<d^c | "Dm"d2 "_D.C."[K:=B][K:G]|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 57
+T: Uncle Jay
+C: Mark Simos
+O: Cambridge, Massachusetts
+%R: reel
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.80
+M: C|
+L: 1/8
+K: D
+% %slurgraces
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+AG !segno![|\
+"D"F2AF "A"EFGE | "D"FD-DE D2dc | "Bm"BABc d2B2 | "Em"efed "A"BA2G |
+"D"F2AF "A"EFGE | "D"FD3 D2Bc | "Bm"(3dcB cA "F#m"BAFE | "Bm"FB2E "A"B2A2 |]
+[|\
+"D"F2AF "A"EF (3GFE | "D"FD2E D2 dc | "Bm"BABc "D"defd | "Em"efed "F#m"BAFA |
+"Bm"BFAF "Em"EFDE | "Am7"FD2E "D7"D2B=c | "Gmaj7"dedB AB"F#m"FE | "F#m7"FB3 "Bm"B4 |]
+[|\
+"Em"e4- ef2e | "Em"{f}edBA "Bm"B4 | "Em"e4- "A7"ef2e | "D"d2bd abaf |
+"Em"e4- eefd | "Gmaj7"efed Be"F#m7"AE | "Bm"FB3 "Em"BEAB | "Bm"FB2F (3B2c2d2 |]
+[|\
+"Em"e4- ef{a}fe | "Em"{f}edBA "Bm"B2 (3Bcd | "Em"e4 "A7"{de}f3e | "D"d2bd abaf |
+"Em"eBef gBfd | "Gmaj7"efdB ABFE | "Bm"FB2"Em"G B2FE | "G"B2E "A"B2"_D.S."A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 58
+T: Vals de los Caracoles
+T: (Waltz of the Snails)
+C: Mike Richardson
+O: Seattle, Washington
+N: Inspired by a Fiddle Tunes workshop
+N: with Ruthie Dornfeld and David Steinberg
+%R: waltz
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.81
+M: 3/4
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+"Gm"G4 B2 | d3 e ^ce |\
+d6- | d4- dd |\
+"Gm"g2 ^f2 e2 | d2 c2 B2 |\
+"D7"A6- | A4- AD |\
+"D7"^F4 A2 | c4 g2 |
+^f3 g eg | ^f4- ff |\
+"D7"a2 g2 ^f2 | e2 d2 c2 |\
+"Gm"B6- | B4- BD |\
+"Gm"G4 B2 | d3 e ^ce |\
+d6- | d4- dd |\
+"G"g2 ^f2 e2 | "G7"d2 c2 =B2 |
+"Cm"[c6-E6-] | [c4-E4-] [cE]c |\
+"Cm"a2 g2 ^f2 | e2 d2 c2 |\
+"Gm"B2 a2 g2 | d2 B2 G2 |\
+"D7"^F2 e2 d2 | A4 B2 |\
+"Gm"G6- |[1 G2 z2 :|[2 G2 z |: D ^FA |\
+"D7"edAedA |
+^FdcDFA |\
+"Gm"cBAcB^F | "Gm"G/z/ =F GF=EF |\
+"F"AFAcf2- | fedcBc |\
+"Bb"d2dcBc | "D"A/z/ D ^FDFA |\
+"D7"edAedA |
+^FdcDFA |\
+"Gm"cBAcB^F | "Cm"G^FGABG |\
+"Eb"E=FGECE | "Gm"DGDB,G,B, |\
+"D"A,B,CA,DB, |[1 "Gm"G,2 z :|[2 "Gm"G,2 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 59
+T: Waiting for Snow
+C: Julie K. King
+O: Seattle, Washington
+%R: waltz
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.82
+M: 3/4
+L: 1/8
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"Em"e2fege | "A"ae2a gf | "Em"e2fege | "A"ae2A ^cd |\
+"Em"e2fege | "A"ae2b ae | "D"f3gf2 |1 "Em"e2GBFA :|2 "Em"e3d AF ||
+|:\
+"Em"E3A GB | "C"c3BA2 | "D"AGFDcd | "B"B2GBFB |\
+"Em"EFGAGF | "D"A3GF2 | "C"E2DCB,F |1 "Em"E2FcBF :|2 "Em"HE3G Bd |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 60
+T: Warren's Trip to Stockholm
+T: The Perth Assembly Reassembled
+C: Mike Richardson
+O: Seattle, Washington
+%R: reel
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.83
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"A"c2ec "D"d2fd | "A"c2ec "E"dBBd |\
+"A"c2ec "D"defg | "E"afed "A"cAAB |\
+"A"c2ec "D"d2fd | "A"c2ec "E"dBBd |
+"A"cdef "D"geaf | "E7"edcB "A"cAAB :|\
+"A"cAeA ceAc | "E"BAGA BcdB |\
+"A"cAeA ceAc | "E7"BAGB "A"(3AAA AB |
+"A"cAeA ceAc | "E"BAGA BcdB |\
+"A"ABcd efge | "D"afed "E7"cAAB |]\
+"A"(3cBA eA aAeA | "E"BAGA BcdB |
+"A"(3cBA eA aAeA | "E7"BAGB "A"(3AAA AB |\
+"A"(3cBA eA aAeA | "E"BAGA BcdB |\
+"A"ABcd efge | "D"afed "E7"cAAB |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 61
+T: The Wizard's Walk
+C: Jay Ungar
+O: West Hurley, New York
+%R: reel
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.84
+M: C|
+L: 1/8
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"A1"[|\
+"Em"e2dc BAGF | GAFG E2B2 |\
+"Em"e3f gfef | "Em"ga"B7"fg "Em"e4 |\
+"Am"a2gf edcB | cdBc A2E2 |
+"Am"A3B cBAB | "Am"cd"E7"Bc "Am"A4 \
+"A2"|]|\
+"B7"BBfB BfBB | "C"ccgc cgcc |\
+"B7"BBfB BfBB | "C(Am)"ccgc cgcc |
+"B7"[fB]BBB "C"[gc]ccc | "B7"[fB]BB "C"[gc]ccc |\
+"B7"[fB]B^cc ^ddee | ffgg aabb \
+"B"|:\
+"Em"egbe bgeg | "B7"^dfbf bfdf |
+"D"=dfaf afdf | "A"^ceae aece |\
+"C"=cege gece | "Em"Bege geBe |\
+"Edim"_Bege geBe | "B7sus4"=Bege "B7"f"D.C. al Coda"e^df :|
+"Coda"[|\
+"Em"e2dc BAGF | "Em"G2e2 "B7"F2^d2 |\
+"Em"e4 B2G2 | D8 |]\
+y4y4 y4y4 y4y4 y4y4 y4y4 y4y4 y4y4 y4y4
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 62
+T: The X Factor
+C: Steve Trampe
+O: Seattle, Washington
+%R: jig
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.85 #1
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+"D"d2f "A"edc | "G"dcB "D"A2D | "G"DGB "D"Adf | "Em"agf "A"e2A |\
+"D"def "A"edc | "G"dcB "D"A2D | "G"DGB "D"Adf | "A"edc "D"d2 :|
+|: c |\
+"Bm"B2B Bcd | "A"c2c ecA | "D"d2d def | "A"e3 a3 |\
+"D"fgf fed | "A"efe ecA | "G"Bcd "A"ecA | "D"d3- dz :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+X: 63
+T: Z is for Fiddles
+C: John Sarney
+O: Naples, Florida
+%R: reel
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.85 #2
+M: C|
+L: 1/8
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2 |\
+"Em"e2B2 B2d2 | "Em"efed "D"Bdef | "G"g2B2 BAG2 | "Am"A3B "D"A2Bd | "Em"e2B2 B2d2 |
+"Em"efed "D"Bdef | "G"g2ga "D"gedc | "G"B2G2 G2 :: B2 | "C"c3d cGEG | cBcd cBAG |
+"D"A2A2 "Em"BAGB | "Am"A2ef "D"edBd | "G"g2ga ged2 | "Em"edef edBd | "Am"c2BA "D7"DFAc | "G"B2G2 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+% %newpage
+%%sep 3 1 530
+%%sep 1 1 530
+
+X: 64
+T: SONGS
+K:
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+X: 65
+T: A Hard Row to Hoe
+C: Mary Ann Hoberman
+O: Greenwich, Connecticut
+%R: somg, march
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.89
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Chorus
+EE | "C"G4 C3C | "F"A4 D3D | "G7"F4 B,3B, | "C"G2F2 E2 ||
+w: It's a hard row, a hard row, a hard row to hoe, hoe, hoe.
+DD | "C"G4 C3C | "F"A4 D3D | "G7"F4 B,2D2 | "C"C6 z2 |]
+w: It's a hard row, a hard row, a hard row to hoe.
+P: Verse
+[| G2G2 G2C2 | "F"A2A2 A2E2 | "G7"F2F2 F2B,2 | "C"G2G2 G2F2 |
+w: 1.~Love each child just like a moth-er. Love each man just like a broth-er.
+"C"E2E2 E2A,2 | "F"F2F2 FF AA | "G7"E4 D3D | "C"C6 |]
+w: Love your-self and one a-noth-er. It's a hard row to hoe.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+W:2.If there's laughing, then there's crying.
+W:  If there's smiling, then there's signing.
+W:  If there's living, then there's dying.
+W:  It's a hard row to hoe.
+W:
+W:3.Rags or riches, gowns or tatters,
+W:  Yellow sunbeams, rainy splattere,
+W:  We're alive, that's all that materes,
+W:  It's a hard row to hoe.
+
+X: 66
+T: The Morris Song
+C: Bill Fischer
+O: Bethany, Connecticut
+%R: waltz
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.90-91
+M: 3/4
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Chorus
+de | "Dm"f4d2 | B4ff | "Am"e4c2 | A4ee | "F"f3ef2 | "G"g3dd2 | "Am"e6- | e4 ||
+w:Oh the bells do ring and the sticks do sing and the hand-ker-chiefs wave in the air.*
+de | "Em"f4d2 | B4ff | "Am"e4c2 | A4 EE | "F"F2A2c2 | "G"d2B2G2 | "Am"A6- | A4 |]
+w:And the mu-sic plays all the nights and days and the mor-ris brings joy eve-ry where.*
+P: Verse
+ec | "Am"A2c2e2 | "G"g2f2d2 | "Am"e4c2 | A4ec | "Am"A2c2e2 | "G"g2f2d2 | "Am"e6- | e4 ||
+w:Long a-go and now lost in the mists of time. Back when na-ture caused great joy and fear.*
+cB | "Am"A2c2e2 | "G"g2f2d2 | "Am"e4c2 | A4EE | "F"F2A2c2 | "G"d2B2G2 | "Am"A6- | A4 |]
+w:In the vil-lag-es peo-ple would dance and sing at the rit-u-al times of the year.*
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+W:2.No one knows where it comes from and many don't care, But it certainly rises from deep
+W:  Down within us where feelings and passions are,       Where all of us both laugh and weep.
+W:
+W:-- Chorus --
+W:
+W:3.When the days would grow short and the nights were long, People huddled to fend off the cold.
+W:  And the dancing and drinking and music and song,         Were a solace to young and to old.
+W:
+W:4.So we'll dance in the winter and dance in the fall, And yes, even in summer and spring.
+W:  And give rise to the power that lies in us all,     As we dance and make music and sing.
+W:
+W:-- Chorus --

@@ -1,0 +1,39 @@
+X: 10271
+T: LAFAYETTE'S MARCH
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.27
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+|:\
+G2G>G G2B>c | c>B G>G G2 c>d | e>cg2 d>Bg2 | gfag fedc |\
+B>d G>B A>c A>F | GABc defg | a>fg>e d2^c2 | d2d>d d2z2 :|
+|:\
+a2a>a ac'ba | g2g>g gbag | fedg fedc | B2A>A AcBA |\
+G2G>G GABd | e>ca2 d>Bg2 | B>e c>A G2F2 | G2G>G G2z2 :|
+|:!p!\
+B4 A2A>A | G4 FGAB | dccc cBBB | BAAA ABc^c |\
+d4 c2c>c | B4 ABcd | eccA A2GF | A4 G2z2 :|
+|:\
+f2a>a f2d2 | g>g b>b g2 d>B | ABcd efga |g4 fedc |\
+B4 A2A>A | d2d>d c2B2 | BAcA G2F2 | A4 G2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g2g>g g2z2 | g2g>g g2z2 | c'2c'2 b2b2 | a2a2 d'2z2 |\
+g2z2 d2z2 | g4 g4 | f2g2 a2A2 | f2f>f f2z2 :|
+|:\
+d2d>d d2z2 | g2g>g g2z2 | d2z2 d2z2 | d2d>d dcBA |\
+G2G>G G2z2 | c2c2 B2B2 | G2c2 d2d2 | G2G>G G2z2 :|
+|:!p!\
+g4 d2d>d | g4 z4 | f4 g4 | d6 z2 |\
+g4 d2d2 | e6 ed | c4 d2d2 | d4 G2z2 :|
+|:\
+d2z2 d2z2 | g2g>g g2z2 | c2c2 c2c2 | d4 d2d2 |\
+g4 f4 | b4 a2g2 | c'4 d'2d2 | d4 g2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

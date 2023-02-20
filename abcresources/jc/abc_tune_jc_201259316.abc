@@ -1,0 +1,35 @@
+X: 1
+T: Camargo
+P: Longways for as many as will
+%R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.50
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+GFGA B4 | AGAB c4 | BABc d2e2 | d2c2B2A2 |\
+GFGA B4 | AGAB c4 | BABc d2G2 | A2GF G4 |]
+d2d2 g2fe | dcBA B2G2 | d2d2 g2e2 | dcBA B4 |\
+c2B2 e2d2 | c2B2 A2G2 | c2B2 e2d2 | c2B2 A4 |
+GFGA B4 | AGAB c4 | BABc d2e2 | d2c2B2A2 |\
+GFGA B4 | AGAB c4 | BABc d2G2 | A2GF G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+g4 z2G2 | d4 e2f2 | g4 z2c2 | B2A2G2d2 |\
+g4 z2G2 | d4 e2f2 | g4 B4 | c2d2 G4 |]\
+G4 z2A2 | B2d2 g4 | G4 z2A2 |
+B2d2 g2G2 |\
+A2B2c2B2 | A2G2 d2e2 | A2B2c2B2 | A2G2 d2f2 |\
+g4 z2G2 | d4 e2g2 | f4 z2c2 | B2A2G2d2 |\
+g4 z2G2 | d4 e2f2 | g4 B4 | c2d2 G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Man foot it to the 2d Wo. 1st Wo foot it to the 2d Man, 1st Cu.
+%% cross over and half figure, lead thro' the 3d Cu. and cast up, lead thro'
+%% the 2d Cu. and cast off and turn your Partner.
+%%endtext

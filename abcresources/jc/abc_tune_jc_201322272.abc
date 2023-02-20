@@ -1,0 +1,7 @@
+X: 1
+%%titleleft yes
+T: TEST: Parens around a note.
+M: none
+L: 1/8
+K:
+G2 ">)""<("A"<("">)"B c2 

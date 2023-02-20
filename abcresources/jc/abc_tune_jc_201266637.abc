@@ -1,0 +1,16 @@
+X: 1
+T:Dan the Cobbler
+T:Cobbler, The
+R:jig
+Z:id:hn-jig-258
+M:6/8
+K:D
+DFA B2A|def g2e|fdf ecA|BdB AFE|
+DFA B2A|def g2e|fdf ecA|1 Bdc dAF:|2 Bdc d2e||
+|:fad fad|faa agf|eg=c eg=c|egg gfe|
+fef gfg|agf efg|fed =cAG|1 Ad^c d2e:|2 Ad^c dAF||
+"variations"
+|:DFA B2A|def gfg|fdf ecA|B/c/dB AFD|
+DFA B2A|def gfg|faf ecA|1 Bdc d3:|2 Bdc d2e||
+|:fad fad|faa agf|eg=c eg=c|egg gfe|
+~f3 gfg|agf efg|fed ^cAG|1 Ad^c d2e:|2 Ad^c dAF||

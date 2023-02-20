@@ -1,0 +1,17 @@
+X: 32213
+T: HORNPIPE
+C: By Archd. Allan, Teacher of Dancing
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.221 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a final repeat but no initial repeat.  The intended order may have been AABA.
+M: C|
+L: 1/8
+K: A
+uE2 |\
+A2 c>A (G>B) A>F | (E>A) c>e a2 e>c | (d>f) e>d (c>e) a>c | (d>c) B>A (G>B) E>G |
+A2 c>A (G>B) A>F | (E>A) c>e a2 e>c | (d>f) e>a (g>b) e>g | a2 a2 a2 :|
+|| (ug>a) |\
+(b>g)e>c d2e>d | (c>e)A>c e2d>c | B>f(^d>f) | B>f(d>f) | (g>a) g>f e2 g>a |
+(b>g)e>c d2e>d | (c>e)A>c e2a2 | (g>b)e>g (f>a)^d>f | ue2 ue2 "^D.C."e2 :|

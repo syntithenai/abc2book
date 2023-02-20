@@ -1,0 +1,75 @@
+
+X: 1
+T: Lonely Accordion  [Dm]
+T: Odinokaya Garmon'
+C: M.Isakovsky
+N: Words by B.Mokrousov
+O: Russia
+M: 3/4
+L: 1/4
+K: Dm
+|: "Dm"DF | AFD | "A7"^CEG | "Dm"BA2- \
+| ADE | "Bb"FDB, | "A7"A,^CE | "Dm"F3- | FGA |
+| "Bb"BBF | "C7"EEG | "F"AA2- | "Bb"ADF \
+| "Gm"GGF | "A7"EDE | "Dm"F3- | FGA |
+| "Gm"BBF | "C7"ccB | "F"AA2- | "Bb"ADA \
+| "Gm"GGF | "A7"ED^C | "Dm"D3- | D |]
+
+
+%%sep 5 1 500
+
+X: 2
+T: Lonely Accordion  [Em]
+T: Odinokaya Garmon'
+C: M.Isakovsky
+N: Words by B.Mokrousov
+O: Russia
+M: 3/4
+L: 1/4
+K: Em
+|: "Em"EG | BGE | "B7"^DFA | "Em"cB2- \
+| BEF | "C"GEC | "B7"B,^DF | "Em"G3- | GAB |
+| "C"ccG | "D7"FFA | "G"BB2- | "C"BEG \
+| "Am"AAG | "B7"FEF | "Em"G3- | GAB |
+| "Am"ccG | "D7"ddc | "G"BB2- | "C"BEB \
+| "Am"AAG | "B7"FE^D | "Em"E3- | E |]
+
+
+%%sep 5 1 500
+
+X: 3
+T: The Lonely Accordion  [Gm]
+O: Russia
+R: waltz
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: 3/4
+L: 1/8
+K: Gm
+G2 B2 \
+| "Gm"d2 B2 G2 | "D7"^F2 A2 c2 | e2 d4- | d2 G2 A2 \
+| "Gm"B2 G2 E2 | "D7"D2 G2 A2 | "Gm"B6- | B2 c2 d2 |
+| "Eb"e2 e2 B2 | "F7"A2 A2 c2 | "Bb"d6- | d2 G2 B2 \
+| "D7"c2 c2 B2 | A2 G2 A2 | "Gm"B6- | B2 c2 d2 |
+| "Cdim"e2 e2 A2 | "Adim"f2 f2 e2 | "Gm"e2 d4- | d2 G2 d2 \
+| "Adim"c2 c2 B2 | "D7"A2 G2 ^F2 | "Gm"G6- | Gz :|
+
+
+%%sep 5 1 500
+
+X: 4
+T: The Lonely Accordion  [Am]
+O: Russia
+R: waltz
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: 3/4
+L: 1/8
+K: Am
+A2 c2 \
+| "Am"e2 c2 A2 | "E7"^G2 B2 d2 | f2 e4- | e2 A2 B2 \
+| "Am"c2 A2 F2 | "E7"E2 A2 B2 | "Am"c6- | c2 d2 e2 |
+| "F"f2 f2 c2 | "G7"B2 B2 d2 | "C"e6- | e2 A2 c2 \
+| "E7"d2 d2 c2 | B2 A2 B2 | "Am"c6- | c2 d2 e2 |
+| "Ddim"f2 f2 B2 | "Bdim"g2 g2 f2 | "Am"f2 e4- | e2 A2 e2 \
+| "Bdim"d2 d2 c2 | "E7"B2 A2 ^G2 | "Am"A6- | Az :|

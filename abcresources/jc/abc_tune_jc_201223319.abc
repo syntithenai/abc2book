@@ -1,0 +1,31 @@
+X: 70
+T: Tom's Maggot
+T: Longways for as many as will.
+%R: reel
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.35
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain play'd twice" instruction.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+d2D2 F2D2 | A2 A,4 dc | Bcde EFGA | F2 D4 f2 |\
+edcB cdef | G2 E4 D2 | ^C2A2 E2^G2 | A,6 :|
+|: e2 |\
+edcB cdef | ^G2 E4 fg | e2ed c3B | [d6B6] AG |\
+F2D2 d2A2 | B2 G4 g2 | fdef A2c2 | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain play'd twice. A double Dance.
+%%begintext align
+%% The 1st Cu. cast of behind the 2d Cu. & then 3d Cu. then cast
+%% up again to the Top, the 1st Cu. whole figure thro' the 2d Cu.
+%% The 2d Cu. do the same, the 1st Man & 2d wo. meet & turn S. then
+%% turn Hands, the 1st Wo. & 2d Man the same, The 1st Cu. lead
+%% down behind 2d Cu. then behind 3d Cu. & turn, then lead
+%% through to the Top, then cast of and turn in the 2d Cu.
+%% Places
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

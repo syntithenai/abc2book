@@ -1,0 +1,35 @@
+X: 09272
+T: WHO WINS
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.9 p.27 #2
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Added missing sharp on low C in bar 14.
+N: Final repeat symbol replaced with plain double bar with "D.C.".
+N: Some ABC software doesn't implement different note lengths on one stem.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+|:\
+GAG gfe | d2e dBG | cde dBG | FAA ABA |\
+GAG gfe | d2e dBG | cde dBG | {B}AGA G2"Fine"z H:|
+{AB}c2A B2G | FEF GAB | dcA cBG | FAA AGF |\
+GBG Eed | ^cec Aag | fad {f}ede | ded =cB"D.C."A |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+|:\
+[b3g6] c'3 | [b2g6]c' b3 | [e'2g3]c' [b2g2][^c'e] | [d'3d3] [=c'3d3] | [b3g3] [c'3g3] |
+[b2g6]c' b3 | [e'2g6]c' b3 | dac' [b2g2]"Fine"z H:|\
+fad' abd' | gc'd' gbd' | fad' gbd' |
+dfa d2z | [G3G,3] [^G3^G,3] | [A3A,3] [^c3^C3] | d2f a2A | d3- d2"D.C."z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Half right & left, back again,
+%% down the mid: up again,
+%% cast off & hands four.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

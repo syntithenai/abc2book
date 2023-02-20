@@ -1,0 +1,31 @@
+X: 20953
+T: VICTORIA'S SETT (tune 6)
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.95 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="6"
+FG |\
+A2A2 (BAGA) | A2[c2C2]F2G2 | A2A2 (BAGA) | (dB)BB G[cC]FG |\
+A2A2 (BAGA) | F2f2 fedc | cfAc BdEG | F2A2F2 H|]
+AB |\
+c2A2f2A2 | c2A2f2A2 | c2A2 f2ef | gfed c2AB |\
+c2A2f2A2 | c2A2f2A2 | dBgf ecde | f2a2"^D.C."f2 |]
+K:Fm
+cB |\
+AcBA GBAG | FGAF Ccd=e | f2f2 g2g2 | a4 f2cB |\
+AcBA GBAG | FGAF Ccd=e | f2f2 g=ega | f2a2"^D.C."f2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Grand right and left,
+%% all balance,
+%% grand chain,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

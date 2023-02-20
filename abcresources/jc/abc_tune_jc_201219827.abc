@@ -1,0 +1,22 @@
+X: 2
+T: Miss Hay's Reel
+%R: reel
+B: "Twenty Four Favourite Dances for the Year 1783", Thomas Straight, ed. p.1 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1783
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: F
+c2 |\
+A2F2F2c2 ABcA F2c2 | f2c2 ABcA B2G2G2c2 |\
+A2F2F2c2 | ABcA F2c2 |\
+f4 agfe f2F2F2 :: c2 |\
+f4 agf2 g2d2f2c2 |
+fga2 fga2 g2d2d2g2 |\
+[1 f4 agf2 g2d2f2c2 | f2d2c3B A2F2F2 :|\
+[2 agf2 gfd2 fdc2 dcB2 | ABc2 GAB2 A2F2F2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu up again .|. lead down 2 Cu
+%% up again & cast off :|. right & left at top
+%%endtext

@@ -1,0 +1,31 @@
+X: 4
+T: Mr Rait of Anniston's Reel
+C: by J.Boick.
+%R: reel
+B: "Tom Thumb a Favorite Dance with Three New Strathspeys and a Reel", R.RobertPurdie, ed. p.2 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=118869468
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+d |\
+cedf {f}e2cA | (FA) .d.f ecBd |\
+cedf {f}e2cA | dBGB A2A :|\
+d |\
+.c.e.a.f .e.d.c.e | .d.c.B.A .G.F.E.d |
+.c.e.a.g .f.g.a.f | (3(gab) af {f}e2ed |\
+.c.e.a.g .f.e.d.c | .d.c.B.A .G.F.E.d |\
+.c.A.d.B .e.c.f.d | .c.B.A.G A2A |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+A2A2 A2A2 | d2d2 c2e2 |\
+A2A2 A2A2 | d2e2 A2A :|\
+z |\
+A2A2 A2A2 | B2c2 d2e2 |
+A2A2 d2d2 | e2B2 e2e2 |\
+A2A2 A2A2 | B2c2 d2e2 |\
+A2B2 c2d2 | e2E2 A2A |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,29 @@
+X: 20853
+T: MELLOW HORN SETT (tune 6)
+C:
+%R: reel, march
+B: Elias Howe "The Musician's Companion" 1843 p.85 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="6"
+F>F |\
+F3F A2c2 | f2F2 z2fe | fedc BAGF | c2C2 z4 |\
+c4 e2g2 | b6 bg | fedc =Bcde | f2a2f2 H|]
+c=B |\
+c2c=B c2e2 | c2a2 f2c'2 | afcf afc'a | gfed c2c=B |\
+c2c=B c2e2 | c2g2 e2a2 | g2e2 c2de | g4 "^D.C."f2 |]
+K: Bb
+de |\
+fbag fedc | BABd c=Bce | dBfd bfdB | cBAG F2de |\
+fbag fedc | BABd c=Bce | fbag fedc | f2a2"^D.C."f2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All balance to the right, &c.
+%% -- all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

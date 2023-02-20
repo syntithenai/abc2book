@@ -1,0 +1,20 @@
+X: 107103
+T: HIGHLAND WHISKEY
+Q: "Strathspey."
+R: Strathspey.
+%R:strathspey
+Z: 2017 by John Chambers <jc:trillian.mit.edu>
+B: Kerr's Merrie Melodies v.1 p.7 s.1 #3
+M: C
+L: 1/16
+%%slurgraces yes
+%%graceslurs yes
+K: A
+uE2 |\
+AA3 A4 uA3uB ce3 | BB3 vB3vc ud3ue fa3 |\
+AA3 A4 A3Bc3d | e2fg a3c {c}B4 A2 :|\
+ue2 |\
+(cBA2) e3A f3A e3A | FB3 B3A GB3 B3d |
+(cBA2) e3A f3A e3A | (e2fg) a3c (B4 A2)e2 |\
+(cBA) e3A f3A e3A | FB3 B3A GB3 B3c |\
+Ac3 Bd3 ce3 df3 | (e2fg) a2c2 {c}B4 A2 |]

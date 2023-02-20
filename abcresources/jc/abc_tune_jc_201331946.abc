@@ -1,0 +1,24 @@
+X: 1
+T: Round the Room
+C: Mike Mahar 2018
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+S: email from Sand Lafleur 2019-1-1
+%%begintext align
+%% I had just returned from Fiddle Hell where I spent the weekend trying to play too
+%% fast. So, in order to wind down a little I decided to play some waltzes. This tune
+%% just popped out. It seemed to me that it was quite danceable and I have this image
+%% of the dancers twirling 'round the room.
+%%endtext
+%%text Play one A and one B last time to finish up.
+M: 3/4
+L: 1/4
+K: G
+D |:\
+"G"G>AB | "Bm"d2g | "G"b>ag/f/ | "Em"g2d | "C"e>fg |\
+[1,3 "G"dgd | "Am"e>dc/B/ | "D"A>cB/A/ :|\
+[2,4 "G"dBG | "D"A>GF | "G"G2 :|
+|: D |:\
+"C"E2c | "Am"c>de | "G"d2B | "Bm"B2B |\
+[1,3 "G"d>cB | "Em"d>cB | "D"A2B | "D7"c>BA :|\
+[2,4 "D"d>cB | "D7"A>GF | "G"G3 | G2 :|

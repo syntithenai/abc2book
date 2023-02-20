@@ -1,0 +1,38 @@
+X:604
+T:The Queen of Moravia
+C:Colin Hume, 2011
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=116
+%%MIDI chordname dim 0 3 6 9
+%%MIDI program 41
+%%MIDI chordprog 50
+%%MIDI bassprog 44
+% Draw 8va
+%%postscript /octava{  % usage: len x y octava
+%%postscript exch -10 add exch 2 copy
+%%postscript M 0 10 RM /Times-Roman 16 selectfont (8) show
+%%postscript /Times-Roman 12 selectfont (va) show
+%%postscript M 0 6 RL currentpoint stroke M
+%%postscript [6] 0 setdash 30 add 0 RL currentpoint stroke M
+%%postscript [] 0 setdash 0 -6 RL stroke}!
+% Start/stop 8va
+%%deco 8( 5 - 24 0 0
+%%deco 8) 5 octava 24 0 0
+H:For Vicky Bursa
+K:C
+P:A
+K:C octave=1
+|: !8(!"C"[CE]/[DF]/[EG] "/"[EG][FA] | "C"[EG]2 "/"[Gc][EG] | "C"[EG][DF] "/"[CE][B,D] | "C"[CE]2 "/"[CE]2 |\
+"Am"[A,C]/[B,D]/[CE] "/"[CE][DF] | "Am"[CE]2 "/"[EG][CE] | "C"[CE][B,D] "E7"[A,C][^G,B,] | "Am"[A,A,]2 !8)!"/"[A,A,]2 :|
+P:B
+K:C octave=0
+|: "G"[GB]/[Ac]/[Bd] "/"[Bd][Bd] | "C"[ce] "G"[B-d-][Bd][Bd] | "C"[ce] "G"[B-d-][Bd][Bd] | "Dm"[df] "Am"[c-e-][ce]2 |\
+"G"[GB]/[Ac]/[Bd] "/"[Bd][Bd] | "Am"[Ac]/[Bd]/[ce] "/"[ce][ce] | "Em"[eg][ce] "/"[ce][Bd] | "Am"[Ac]2 "/"[EA]2 :|
+P:C
+|: "G"[GB][G-B-] "/"[GB][Ac] | "G"[Bd]2 "/"[Ac][Bd] | "Am"[ce]2 "/"[Bd]3/ e/4d/4 | "Am"[Ac][E-A-] "/"[EA]2 |\
+"Dm"[Ad][df] "/"[ce][Bd] | "Am/E"[Ac][ce] "/"[Bd][Ac] | "E7"[^GB][Bd] "/"[Ac][GB] | "Am"[AA]2 "/"[AA]2 :|
+P:D
+|: "C"[ce][c-e-] "/"[ce][Bd] | "C"[ce]2 "/"[Gc]2 | "G7"[Bd][df] "/"[ce][Bd] | "C"[ce]2 "/"[Gc]2 |\
+"F"[FA]/[GB]/[Ac] "/"[Ac][Bd] | "Am"[ce]2 "/"[Bd][Ac] | "Dm"[F-B][FA] "G7"[F-c][FB] | "C"[Ec]2 "/"[Ec]2 :|

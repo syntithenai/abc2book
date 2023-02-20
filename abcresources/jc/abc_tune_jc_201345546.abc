@@ -1,0 +1,18 @@
+X:3
+T:Ton double gavotte
+G:Skol Al Louarn
+C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+Q:C3=156
+P:C5
+M:12/8
+%%MIDI program 109
+%%MIDI gchord fzcfzcfzcfzc
+%%MIDI chordprog 105
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+K:C
+P:C
+|: "C"G2 G c2 c "Em"B2 A G2 A | "Dm"B2 c d2 e "F"c3 "G"d3 |\
+	 "C"G2 G c2 c "Em"B2 A G2 A | "Dm"B2 c d2 e "F"c3 "C"c3 :|
+|: "C"c2 e "Em"g2 g f2 e "Dm"d2 e | f2 f e2 d "F"c3 "G"d3 |\
+	"C"c2 e "Em"g2 g f2 e "Dm"d2 e | "F"f2 f "G"e2 d "C"c3 c3 :|

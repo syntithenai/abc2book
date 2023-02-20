@@ -1,0 +1,35 @@
+X: 2
+T: Blazeing Star
+C: Michael Dabney
+%R: reel
+B: Michael Dabney "Twelve Minuets and Twelve Dances" p.7 #2
+S: http://imslp.org/wiki/12_Minuets_and_12_Dances_(Dabney,_Michael)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces mostly 4- or 8-bar staffs.
+V: 1
+|:\
+D2(FA) D2(FA) | BcdB AGFE |\
+DFAd Aceg | fedc d4 ::\
+e2 (3(cde) A2df | edcB ceA2 |
+e2ce f^gaf | edcB A4 |\
+D2(FA) D2(FA) | BcdB AGFE |\
+DFAd Aceg | fedc d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+|:\
+d4 f4 | g2e2 c2A2 | c2z2 c2A2 | d2A2 D4 ::\
+A4- A4 | e2e2 A2z2 | c4 d2d2 | e2e2 A4 |
+d4 f4 | g2e2 c2A2 | c2z2 c2A2 | d2A2 D4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   Hands 3 round with the 2d Wo. _
+%% the same with the 2d Man _ cross
+%% over 2 Cu: _ lead up to the
+%% top cast off hands 6 round
+%% Right & left at top
+%%endtext

@@ -1,0 +1,34 @@
+X: 1
+T: Granadiers March
+P: Longways for as many as will
+%R: march
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.123 "M 2"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the dance instructions. The second strain has 9 bars.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+c4 cdef | g2g2 g2f2 | e2ef gfed | c2A2 c2d2 |\
+e2g2 efga | g2G2 cBcd | edcB A3G | G8 :|
+|: d6 dd |\
+d2B2 c2d2 | G2 gfedcB | A2 fedc BA | G4 A4 |\
+B3(A/B/) (c3B/c/) | d6 e2 | f2A2 B3c | c8 :| 
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First cu. set to each other, then 1. wo. go down the in-side of the 2. wo. and come round into her place,
+%% and the 1. man go on the out-side of the 2. man, and come up in the middle into his place at the same
+%% time, then the 1. man and 1. wo. set to each other, and the 1. wo. go down on the out-side of the 2. wo.
+%% and come up in the middle to her own place, while the 1. man goes down the in-side of the 2. man, and
+%% comes round him into his own place again. This to the first Strain played twice.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then 1. man and 1. wo. cross over and go the whole Figure of 8, and come below the 2. cu. and take
+%% hands and turn their own, then lead down through the 3. cu. and cast up again into their places and
+%% turn their own, the rest following and doing the same. This to the second Strain played twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

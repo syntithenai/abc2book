@@ -1,0 +1,37 @@
+X: 161
+T: the Happy Farmer
+C: Robert Schumann
+%R: air, march
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F
+V: 1 
+V: 2 clef=bass middle=D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [CC] | [F3C3] [AF] [c3F3] [FF] | [BF] [dF] [fF] [dF] [c3F3] [AF] | [BE] [GC] C [BE]
+w: 1.~Oh! what can with our flow'r-y plains com-pare,       In all their match-less
+w: 2.~The bright green fields, the beau-teous gold-en corn, The birds so sweet-ly
+w: 3.~We sing sweet songs and join the mer-ry dance,        And joy-ful-ness and
+[V:2] [CC] | [A3F3] [cF] [A3F3] [cA] | [dB] [dB] [dB] [BB] [A3F3] [cF] | [cG] [cE] [GE] [GC]
+%
+[V:1] [AF] [FC] [CC] [AC] | [E2C2] [D2=B,2] [C2C2] z[CC] | [F3C3] [AF] [c3F3] [FF] |
+w: beau-ty that's so bright and fair,   What gild-ed halls can
+w: sing-ing in the ear-ly morn,         Make bright our task and
+w: pleas-ure doth each heart en-trance, Till night's dark man-tle
+[V:2] [FF] [AF] [AF] [cF] | [G2G2] [F2G,2] [E2C2]  z[CC] | [A3F3] [cF] [A3F3] [cA] |
+%
+[V:1] [BF] [dF] [fF] [dF] [c3F3] [AF] | [BE] [GC] [CC] [BE] [AF] [FC] [CC] [AC] |
+w: ri-val na-ture's bow'rs,  'Neath which we gai-ly pass a-way the
+w: cheeri-ly through the day  Doth pass on swift-ly fleet-ing wings the
+w: clos-ing o-ver day,        Bids each with light-some heart a-way to
+[V:2] [dB] [dB] [dB] [BB] [A3F3] [cF] | [cG] [cE] [GE] [GC] [FF] [AF] [AF] [cF] |
+%
+[V:1] ["1st and 2nd verses" [E2C2] [D2=B,2] [C2C2] z[CC] | [B3E3] [AF] [G3C3] [CC] | [BC] [AC] [GC] [F=B,] [G2C2] z:|["3rd verse only"[G2D2] [E2C2] [F3C3] |]
+w: even-ing hours, When work well done hath pleas-ure fair-ly won? | ~ ~ ~ |
+w: hours a-way,   'Till close of day brings pleas-ure in-to play!  | rest, a-way! |
+[V:2] [G2G2] [F2G,2] [E2C2] zC | G3 F E3 C | G F E D E2 z :| [B2B,2] [B2C2] [A3F3] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

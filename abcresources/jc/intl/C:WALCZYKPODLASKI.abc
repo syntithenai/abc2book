@@ -1,0 +1,19 @@
+X: 43
+T: Walczyk Podlaski
+O: Poland
+M: 3/4
+L: 1/8
+Q: 1/4=160
+K: Em
+%%MIDI program 22
+%%MIDI chordprog 22
+%%MIDI bassprog 22
+  .F2 FF F2   |E4 z2        |\
+|:"Em"E4 ^DE  |"Bm"F4 B,2   |"G"G6-      |"G"G2 BAGE|
+  "F#m"F4 B,2 |"D"A2G2F2    |"Em"E2 EE E2|[1E4 B,2  :|[2E4 D2|
+|:"G"B6       |B6           |"Am"c4 B2   |A4 D2     |
+  A6          |"Am"A6       |"G"B4 A2    |G4FG      |
+  G4FG        |G4 FG        |"Am"A4 G2   |F6        |
+  "Bm"B,4 EF  |"Em"A2G2F2   |"Em"E4E2    |[1E6      :|[2 E4D2|
+|:"G".B2.A2.B2|"Am".c2.B2.A2|"G"G2FGG2   |"C"B2A2G2 |
+  "F#m"F2EFF2 |A2G2F2       |"Em"E4E2    |E6        :|

@@ -1,0 +1,64 @@
+
+X: 1
+T: Bella Ragazza   [G]
+T: Babbo non Vuole
+O: Italia
+M: 3/4
+L: 1/4
+K: G
+"Verse"z2 [BG] |\
+"G"[d2B2][BG] | [dB][cA][BG] | "D7"[A2F2][BG] | [c2A2][^c^A] |\
+"G"[dB][B2G2]- | [B2G2] [bg] | [d'b][b2g2] ||
+w: 1.~Bel-la ra-gaz-*za dal-le trec-ce bion-de,
+w: 2.~Ve-nir se voi* vo-le-te nel giar-di-no,
+w: 3.~Un gel-so-mi-no a voi v'ho re-ga-la-re,
+w: 4.~Poi vi di-r\`o* che ro-s'~a pri-ma-ve-ra,
+z2 [BG] |\
+"G"[d2B2][BG] | [dB][cA][BG] | "D7"[A2F2][BG] | [c2A2][^c^A] |\
+"G"[dB][B2G2]- | [B2G2] [bg] | [d'b][b2g2] |]
+w: 1.~i gio-va-ni* per voi fan-no la ron-da.
+w: 2.~vi tro-ve-re-*te~o bel-la~un gel-so-mi-no.
+w: 3.~in pe-gno del* mio ve-ro~e gran-de~a-mo-re.
+w: 4.~non \`e quan-to* voi sie-te tan-to ca-ra.
+"Refrain"GGG |\
+"C"[e2c2][ec] | [ec][fd][ge] | "G"[d2B2][dB] | [dB][ec][fd] |\
+"Am"[c2A2][cA] | "D7"[cA][dB][ec] | "G"[B3G3] |]
+w: Bab-bo non vuo-le, mam-ma nem-me-no, co-me fa-re-mo~a fa-re l'a-mor.
+GGG |"C"[e2c2][ec] | [ec][fd][ge] | "G"[d2B2][dB] | [dB][ec][dB] |\
+"D7"[f2A2][fA] | [fA][ec][fc] | "G"[g3B3] |]
+w: Bab-bo non vuo-le, mam-ma nem-me-no, co-me fa-re-mo~a fa-re l'a-mor.
+%%text The last phrase (8 bars) may be played every time, or only the last time.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+T: Bella Ragazza   [F]
+O: Italia
+M: 3/4
+L: 1/4
+K: F
+[AF] |\
+"F"[c2A2][AF] | [cA][BG][AF] | "C7"[G2E2][AF] | [B2G2][=B^G] |\
+"F"[cA][A2F2]- | [A2F2] [af] |1 [c'a][a2f2]- | [a2f2] :|2 [c'a][a2f2] ||
+|: FFF |\
+"Bb"[d2B2][dB] | [dB][ec][fd] | "F"[c2A2][cA] |\
+[1 [cA][dB][ec] | "Gm"[B2G2][BG] | "C7"[BG][cA][dB] | "F"[A3F3] :|\
+[2 [cA][dB][cA] | "C7"[e2G2][eG] | [eG][dB][eB] | "F"[f3A3] | z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3
+T: Bella Ragazza   [A]
+O: Italia
+M: 3/4
+L: 1/4
+K: A
+[cA] |\
+"A"[e2c2][cA] | [ec][dB][cA] | "E7"[B2G2][cA] | [d2B2][^d^B] |\
+"A"[ec][c2A2]- | [c2A2] [c'a] |1 [e'c'][c'2a2]- | [c'2a2] :|2 [e'c'][c'2a2] ||
+|: AAA |\
+"D"[f2d2][fd] | [fd][ge][af] | "A"[e2c2][ec] |\
+[1 [ec][fd][ge] | "Bm"[d2B2][dB] | "E7"[dB][ec][fd] | "A"[c3A3] :|\
+[2 [ec][fd][ec] | "E7"[g2B2][gB] | [gB][fd][gd] | "A"[a3c3] | z2 |]

@@ -1,0 +1,52 @@
+X: 11261
+T: Mine be a Cot beside a hill
+C: Thompson
+Q: "Andantino"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.126-128
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+%
+[|\
+"p126s1"G4 B2 d2 | (d2 c4) A2 | B4 (G2c2) | (B4 {cB}A2) zD |\
+w: Mine be a Cot* be-side a* hill* A
+"p126s2" G4 G4 | {F}E6 c2 | B4 TA4 | G4 z2G2 |
+w: bee-hives hum shall sooth my ear A
+"p126s3" G4 B2 d2 | {d}^c6 e2 | (e2^c2A2) G2 | {G}F4 z2A2 |\
+w: wil-low-y brook that turns** a mill with
+"p126s4" A4 d2 d2 | B6 e2 | d4 ^c4 | d4 z2d2 |
+w: ma-ny a fall shall lin-ger near. The
+(d2c2) (A2F2) | G4 z2B2 | "p126s5" (d2c2) (A2F2) | G4 z2B2 |\
+w: Swal-*low* oft be-neath* my* thatch shall 
+ c6 e2 | d6 G2 | "p127s1" F4 (G3A/B/) | A4 z4 |
+w: twit-ter from her clay built** nest 
+G4 E2 A2 | F2 D2 z4 | G4 (E2A2) | (F2D2) z2D2 |\
+w: oft shall the Pil-grim lift the* latch* and
+ D4 (B3G) | E4 (c3A) | d4 (B2G2) | "p127s3" THB4 HA2 zA |
+w: share my* meal a* wel-come* guest* and 
+ d4 (B2G2) | E4 (D2c2) | B4 TA4 | "p127s4" G4 z2G2 |\
+w: share my* meal a* wel-come guest a-
+ G4 (B2d2) | (d2 c4) A2 | B4 (G2c2) | "p127s5" (B4 {cB}A2) zD |
+w: round my* i-*vied porch shall* spring* each
+ G4 G4 | {F}E6 c2 | B4 TA4 | G4 z2G2 |\
+w:fra-grant flow'r that drinks the dew and 
+"p128s1" G4 (B2d2) | {d}^c6 e2 | (e2^c2A2) G2 | {G}F4 z2A2 |
+w: Lu-cy* at her wheel** shall sing, in
+A4 d4 | "p128s2" {c}B6 e2 | d4 T^c4 | d4 z2d2 |\
+w: rus-set gown and a-pron blue, the
+(d2c2) (A2F2) | G4 z2B2 | "p128s3" (d2c2) (A2F2) | G4 z2B2 |
+w: vil-*lage* Church a-mong* the* trees, where
+c6 e2 | {e}d6 G2 | F4 (G3A/B/) | "p128s4" {B}A4 z2D2 |\
+w: first our mar-riage vows were** giv'n, with
+G4 (E2A2) | (F2D2) z2D2 | G4 (E2A2) | (F2D2) z2D2 |
+w: mer-ry* peals* shall swell the* breeze,* and
+"p128s5" D4 (B3G) | E4 (c3A) | d4 (B2G2) | HB4 HA2 zA |\
+w: point with* ta-per* spire to* hea-v'n, and
+d4 (B2G2) | "p128s_" E4 (D2c2) | B4 TA4 | G4 z2B2 |
+w: point with* ta-per* spire to heav'n.
+c2d2e2f2 | (gfgd) {f/}e2dc | B4 {B/}A2GA | G4 z4 |]
+%
+%%center -
+

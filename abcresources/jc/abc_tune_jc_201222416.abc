@@ -1,0 +1,44 @@
+X: 5
+T: THE SPRING
+C: Jeremiah Clark
+%R: march
+M: C|
+L: 1/8
+Z: 2011,2014 John Chambers <jc:trillian.mit.edu>
+B: Thomas Bray's Country Dances 1699 p.14
+N: from The Island Princess by Jeremiah Clark
+P: AA BB ad lib.
+Q: 1/2=76 "flowing"
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% V:1 arranged to give fewer, longer staff lines.
+V: 1
+"A"[|] G2 |\
+d4 c2dc | B2c2 A2d2 |\
+^F2D2 G2A2 | A4 G4 :|\
+"B"|:\
+f2dc B2d2 | e2cB A2F2 |
+B2fe d2gc | c4 B2 ",  "f2 |\
+b4 a2b2 | g2a2 ^f2d2 |\
+g2dc B2eA | A4 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+G2 | B2D2 E2D2 | D2=E2 ^F2D2 | D4 D2_E2 | D2C2 B,4 :|
+|: C2DE F2F2 | E2ED C2A,2 | B,2C2 B,2B,2 | A,2C2 D4 |
+D4 C2D2 | B,2C2 D2^F2 | G2A2 B2_E2 | D2C2 B,4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+g2 | "Gm"g4- "Cm"g2"D"^f2 | "Gm"g2"C"c2 "D"d2"Gm"Bc | "D"d2dc "Gm"B2"Cm"c2 | "D"d4 "Gm"G4 :|
+|: "F"A2"Bb"Bc d2B2 | "Cm"c2e2 "F"f2fe | "Bb"d2"F"f2 "Bb"b2"Eb"e2 | "F"f4 "Bb"B4 |
+"Bb"B4 "F"f4 | "Gm"g4 "D"d4 | "Gm"B2"D"^F2 "Gm"G2"Cm"c2 | "D"d4 "Gm"G4 :|
+%%text Passing tones would be appropriate in the melody.
+% - - - - - - - - Dance description - - - - - - - -
+%%center The Spring, a New Country Dance.
+%%begintext align
+%% The first and second Man move up two or three steps, and turn back to the left to their own places
+%% again; We. move down at the same time and do the same .| Each Man changing places with his
+%% Wo. with the right Hand, Men with their faces down, We. with theirs up, then all turn single to the
+%% left Hand from each other, to each others place; Men being Improper :| First Man and second Wo. goes
+%% half round their own Partners on the outside, and turn right Hands round, the first Man ends below,
+%% the second Wo. above .| The first Wo. and second Man do the same after them :| And so to the end
+%%endtext

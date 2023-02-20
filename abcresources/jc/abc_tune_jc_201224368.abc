@@ -1,0 +1,41 @@
+X: 08231
+T: the NAMELESS
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.08 p.23 #1
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has a final repeat sign, but no initial repeat; not fixed.
+N: The rhythm isn't quite correct at the repeats.
+N: The bass line has whole notes for the first note in most measures, but most ABC software can't represent this correctly.
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 1 clef=treble middle=B
+AB |:\
+c2ag gfef | c2ag gfdf | cdcB A2Ac | cBAB G2AB | c2ag gfdf |
+c2ag gfdf | cdcB ABAG | FAcf "Fine"F2 H:| EF | GABc B2AG | ABcd c2BA | (3(GAB) AG (3(FGA) GF |
+(3(EFG) (3(FED) C2EF | GABc B2AG | Afef gfef | Bg^fg A=fef | edcd cB"D.C."AB :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z2 |:\
+F2[f2A2] [f2B2][f2B2] | F2[f2A2] [f2B2][f2B2] |\
+c2[c'2e2] [c'2f2][c'2f2] | c2c'2 c2z2 |\
+F2[f2A2] [f2B2][f2B2] |
+F2[f2A2] [f2B2][f2B2] |\
+A2F2 c2C2 | G2G,2 "Fine"G2 H |] z2 |\
+c2[c'2e2] [c'2e2]z2 | c2[c'2f2] [c'2f2]z2 |\
+e2c2 f2d2 |
+g2G2 c2z2 |\
+c2[c'2e2] [c'2e2]z2 | c2[c'2f2] [c'2f2]z2 |\
+e2e'2 f2f'2 | c2c'2 c2"D.C."z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & change sides, back again,
+%% down the mid: up again,
+%% cast off, set cross corners,
+%% turn round & Hey.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

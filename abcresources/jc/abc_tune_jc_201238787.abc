@@ -1,0 +1,32 @@
+X: 31321
+T: COTILLION No. 25. BATTLE OF NEW ORLEANS tune 1
+T: the WORD OF COMMAND
+%R: march, reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.132 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain is missing half a measure at its end, and has no D.C.; not fixed.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+c2c2 |\
+f2f2 g2g2 | a4 f2f2 | d2d2 g2g2 | fedc =Bcde |\
+f2f2 g2g2 | a4 f2f2 | defd efge | f4 H|]
+AB |\
+c=BcA fefc | agaf cBcA | BdcB AGFE | F2G2A2B2 |\
+c=BcA fefc | agaf cdcB  AGFE | F6 |]
+A2A2 |\
+A2F2B2G2 | c2A2f2d2 | c2A2G2c2 | B2A2A2A2 |\
+A2F2B2G2 | c2A2f2d2 | c2A2G2c2 | "^D.C."F4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right and left 4,
+%% balance,
+%% swing round,
+%% balance again and turn,
+%% chassa out and back,
+%% forward sides, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

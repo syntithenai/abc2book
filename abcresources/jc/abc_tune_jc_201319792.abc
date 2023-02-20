@@ -1,0 +1,14 @@
+X: 1
+T: Old Simon the King   [C]
+R: slip-jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+B: Barnes I p.109
+M: 6/8
+L: 1/8
+K: C	% or Gmix or F lydian
+G |\
+"F"A>Bc c>dc "C"c2G | "F"A>Bc c>BA "G"B2B |\
+"F"c>AA A>GF A>Bc | "G"d2c B2A G2 :|
+|: a |\
+"C"g2f e2d c2a | "C"g>ec c>de "Dm"f2e |\
+"F"f2A A>GF A>Bc | "G"d2c B2A G2 :|

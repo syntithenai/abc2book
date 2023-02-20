@@ -1,0 +1,35 @@
+X: 1
+T: O Maria, Mari   [Dm,D]
+C: E. di Capua (1899)
+N: Words: Vincenzo Russo
+N: Music: Eduardo di Capua (1865-1917)
+%: Italy
+R: waltz
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dm
+%%vocalspace 30pt
+"Intro"[|]E/F/GA \
+| "Dm"FA2 "A7"E/F/GA | "Dm"FA2 "A7"^c/d/ef \
+| "Dm"dA2 "A7"E/F/GA | "Dm"D3 z3 |  z3 z3 ||
+"verse"\
+|: "Dm"f3- "A7"fe/d/^c/e/ |  "Dm"d/^c/d2- "(d7)"d2z |  "Gm"d3- dd/^c/d/B/ |
+w: 1.~A-*r\`a-pe-te fe-ne-*sta!* Fam-*me~af-fac-ci\`a~a Ma-
+w: Nun* tro-vo n'o-ra~'e pa-*ce:* 'a* not-te~'a fac-cio
+"Dm"A/^G/A2- A2z | "A7"G3- GG/^F/G/A/ |  "Dm"=F3 F2z |  "Gm"E3- "A7"EE/^D/E/F/ |
+w: ri-*a,* ca* ston-go 'mmie-z'a vi-a spe-*ru-to d'a ve-
+w: juor-*no,* sem-*pe' st\`a cc\`a at-tuor-no, spe-*ran-no~'e ce par-
+|1 "Dm"D3 z3 :|2 [K:=B][K:D] "D"D3 "refrain"|]|\
+z[dF][eG] | "D"[d3-F3-] "(A7)"[dF][BG][cA] | "D"[A3-F3-] [AF][AF][BF] \
+| [BF][BF][cF] [cF][cF][AF] | "Em"[B3-G3-] [B3G3] |
+w: d\`e...| la! | O Ma-ri-*a, Ma-ri,* quan-ta suon-no ca per-do pe' te!_
+| "A7"[c3A3] [d2B2][ec] | (3[c/A][d/B][c/A] [B2-G2-] [BG][BG][BG] \
+| [cA][cA][cA] [cA][dB]>[ec] | "D"(3[B/G][c/A][B/G] [A2-F2-] [AF][dF][eG] |
+w: Fam-me~ad-dur-mi,____ ab-brac-cia-to nu po-co cu-te!____ O Ma-
+| "D"[d3-F3-] "(A7)"[dF][BG][cA] | "D"[F3-A3-] [FA][dF][eG] \
+| "B#7"[fA][fA]>[^e^G] [fA][gB][a=c] | "Em"(3[f/A][g/B][f/A][e2-G2-] [eG][eG][fA] |
+w: ri-*a, Ma-ri* quan-ta suon-no ca per-do pe' te!____**
+| "G"[g3B3] "Gm"[e2_B2G2][fBG] | "D"[d3-F3A3-] [dFA][BG][cA] \
+| "A7"[A3-G3-] [AG][ecG][fcG] | "D"{fe}[d3F3A3] z3 | z3 z3 |]
+w: Fam-me~ad-dur-mi,* O Ma-ri-*a, Ma-ri!

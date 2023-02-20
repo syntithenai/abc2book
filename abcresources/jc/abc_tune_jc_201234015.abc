@@ -1,0 +1,105 @@
+
+X: 0
+T: Jigs for St. Patrick's Day 2020
+K:
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: I'm Shipping Up To Boston
+C: Dropkick Murphys
+R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 12/8
+L: 1/8
+P: Play: I AAA BB AA BB C AA BB C AD
+K: Em
+"^I"[| "Em"E2E z3 z6 | "Em"E2E z3 [e4_B4] z2 |\
+      "Em"E2D "-"E2D "-"EFG "(D)"FED |  "G"BAG "D/F#"AGF "/D"GFD "Em"E2D ||
+"^A"|:"Em"E2D "-"E2D "-"EFG "(D)"FED |"Em"E2D        E2D     EFG     B2z |\
+      "Em"E2D "-"E2D "-"EFG "(D)"FED | "G"BAG  "D/F#"AGF "/D"GFD "Em"E2D :|
+"^B"|:\
+"Em"B2A B2A B^cd "(A)"cBA | "D"B2A B2A B^cd "(Bm)"f2z | "Em"B2A B2A B^cd "(A)"cBA | "D"fed "/F#"ed^c "/D"dcA "Em"B2A :|
+"^C"|: "D"[f2d2].[fd] [f2d2].[fd] [f3d3] [d3A3] | "C"[g3e3] f3 "G"d3- d2A |\
+    [1 "D"[f2d2].[fd] [f2d2].[fd] [f3d3] [d3A3] | "C"[g3e3] a3 "G"d3- d2A :|\
+    [2 "D"[f2d2].[fd] [f3-d3-] [f3-d3-] [f2d][fd] | "C"[g3e3] [g3e3] "G"[g3d3] [g3d3] |]
+%%text Coda:
+"^D"[| "Em"HE12 | E2E E2E E2E EEE | "Em"[B2G2E2][BGE] z6 |] y12 y12 y12 y12 y12 y12 y12 y12
+%%text https://www.youtube.com/watch?v=NsxcZol_FEE https://www.youtube.com/watch?v=HXm8JdC4k4c
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lanagan's Ball
+O: Ireland c.1860
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: EDor
+|: "Em"EFE G2A | B2A Bcd | "D"DED   F2G | AdB AFD \
+| "Em"EFE G2A | B2A Bcd | edB "Am"=cBA | "Em"BEE E3 :|
+B \
+|: "Em"e2f gfe | "D"fag fed | "Em"e2f gfe | "Bm"fBB B2d \
+| "Em"e2f gfe | "D"fag fed | "Em"edB "Am"=cBA | "Em"BEE E3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Swallowtail Jig    [Em]
+O: Ryan 1883
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+R: jig
+B: Ryan’s Mammoth Collection, 1883; pg. 100
+B: Kerr (Merry Melodies), vol. 2; No. 271, pg. 29
+B: White's Unique Collection, 1896; No. 42
+M: 6/8
+L: 1/8
+K: Edor
+   E/F/ \
+| "Em"GEE BEE | GEG BAG | "D"FDD ADD | dcd AGF \
+| "Em"GEE BEE | GEG B2c | "D"dcd AGF | "Em"GEE E2 :|
+|: B \
+| "Em"Bcd e2f | e2f edB | Bcd e2f | edB "D"d2B \
+| "Em"Bcd e2f | e2f edB | "D"dcd AGF | "Em"GEE E2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Road to Lisdoonvarna
+O: trad Ireland
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+D: Chieftains 3; Swallowtail "Flights of Fancy"
+D: Grey Larsen and Malcolm Dalglish "Banish Misfortune".
+O: trad Ireland
+M: 6/8
+L: 1/8
+K: EDor
+|:\
+"Em"E2B B2A | "(Bm)"B2c d2D/E/ | "D"F2A ABA | D2E FED |\
+"Em"E2B B2A | "(Bm)"B2c d3 | "A"cdc B2A | "Em"B2E E3 :|
+|:\
+"Em"e2f gfe | "Bm"d2B Bcd | "A"c2A ABc | "Bm"d2B [BB3]cd |\
+"Em"e2f gfe | "Bm"d2B Bcd | "A"cdc B2A | "Em"B2E E3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Hills of Glen Orchy
+C: Trad.
+M: 6/8
+Z: John Chambers 2003-11-25
+K: EDor
+L: 1/8
+d/c/ \
+| "Em"B2{G}E EFE | BAB d2B | "D"A2{F}D DED |  A2{F}D FAd \
+| "Em"B2{G}E EFE | BAB d2e | "G"dBd "D"AFD | "Em"EFE E2 :|
+|: B \
+| "Em"efe edB | efg "A7"gfe | "D"ded    dAF | "(Bm)"dfe dBd \
+| "Em"efe edB | efg     gfe | "G"dBd "D"AFD |   "Em"EFE E2 :|

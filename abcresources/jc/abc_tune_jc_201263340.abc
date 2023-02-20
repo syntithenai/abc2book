@@ -1,0 +1,45 @@
+X:139
+T:Colin's Back
+C:Colin Hume, 1985
+L:1/4
+M:2/2
+%%MIDI program 24
+%%MIDI bassprog 33
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=112
+%%MIDI chordname dim 0 3 6 9
+H:In memory of my bad back at Sidmouth in 1985.
+K:G
+P:A
+[| D | "G"B/^A/B "/"=A/^G/A | "Em"GG "/"AB | "Am7"c3/c/- "/"c2 | "Daug"d3/d/- "/"dD |\
+"G"B/^A/B "/"=A/^G/A | "Em"GG "G7"Bd | "C"e3/e/- "/"e2 | "B7"f3/f/- "/"fB |
+P:B
+"Em"g g/g/- "/"g/f/e | "Bm"ff/f/- "/"f/e/d | "Bbdim"e/e/-e/d/ "/"^c/d/e/d/- | "Bm7"d2- "/"d "F#7"_d |\
+"Am7"cB/A/- "D7"A/B/c | "Em"BA/B/ "/"GB | "Am7"c/c/-c/c/- "/"c/B/A | "Daug"d/d/-d/d/- "/"dD |
+P:C
+"G"B/^A/B "/"=A/^G/A | "Em"GG "/"AB | "Am7"c3/c/- "/"c2 | "Daug"d3/d/- "/"dD |\
+"G"B/^A/B "/"=A/^G/A | "Em"GG "G7"Bd | "C"ee/d/- "E7"d/e/d/c/- | "Am"c2- "/"cA/B/ |
+P:D
+"D7"cA/B/ "/"c/A/B/c/ | "G"d/e/d/_B/- "C"_B/A/G | "A7"E E/E/- "/"E/F/G | "D"AB "/"c^c |\
+"G7"d/d/-d/d/- "/"d/c/B | "C"e/e/-e/e/- "/"e/d/c | "D"d/e/d/_B/- "/"B/G/A | "G"G2- "D7"G |]
+N:Replace by blank line and X field
+T:Black Bottom
+C:Henderson / Da Silva / Brown, 1926
+L:1/4
+M:2/2
+%%MIDI program 68
+%%MIDI bassprog 33
+Q:1/2=112
+K:D
+P:A
+"D"D2 "Bm"D/F/-F/D/ | "Em"E2 "A7"E/B/-B/A/ | "D"D2 "Bm"D/F/-F/D/ | "Em"E2 "A7"E/B/-B/A/ |\
+"D"dd "Daug"dd | "Bm"dd/B/- B/A/F | "E7"E4 | "A7"A4 |
+P:B
+"D"D2 "Bm"D/F/-F/D/ | "Em"E2 "A7"E/B/-B/A/ | "D"D2 "Bm"D/F/-F/D/ | "Em"E2 "A7"E/B/-B/A/ |\
+"D"dd "Daug"dd | "Bm"dd/B/- "A7"B/A/F | "D"D4 | "D"zDE^E |
+P:C
+"F#7"FF FF | "F#7"FF/F/- F/^G/^A | "Bm"F4 | "Bm"B/F/-F/B/ F2 |\
+"E7"EE EE | "E7"EE/E/- E/F/^G | "A"E4 | "A7"A/E/-E/A/ E2 |
+P:D
+"D"D2 "Bm"D/F/-F/D/ | "Em"E2 "A7"E/B/-B/A/ | "D"D2 "Bm"D/F/-F/D/ | "Em"E2 "A7"E/B/-B/A/ |\
+"D"dd "Daug"dd | "Bm"dd/B/- "A7"B/A/F | "D"D4- | "D"Dz3 |]

@@ -1,0 +1,42 @@
+X: 1
+T: Chearily and merrily
+P: Longways for as many as will
+%R: hornpipe
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.150 #203 (299)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: DMDfD has a different tune and dance by the same name.
+M: C|
+L: 1/8
+K: Dmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[| F>G A>A f2 e>d | f2 e>d e2 E2 | F>G A>A f2 e>d | d>B A<F E2 D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up a D. forward and back, sett
+%% and turn S .| That again :|
+%%		First Cu. change Places, sett and turn S .| First
+%%		Man lead your own and the 2d Wo. forward and
+%%		back, bring the 2d Wo. under your Arms, leave her
+%%		and turn your own :| do thus to the last, the rest
+%%		following and doing the like.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Sides all, sett and turn S .| That again :|
+%%		First Cu. change Places, sett and turn S .| First
+%%		Cu. meet the 2d Cu. lead each other's Wo. to
+%%		each Wall, meet your own and turn them. Do
+%%		thus to the last, the rest following.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Arms all, sett and turn S .| That again :|
+%%		First Cu. take both Hands, slip down between
+%%		the 2d Cu. cross and turn each one of them
+%%		with your right Hands, fall to your own Side
+%%		in the 2d Cu. Place .| Do thus to the last, the rest
+%%		following.
+%% [CCDM1]
+%%endtext
+%%sep 1 8 500

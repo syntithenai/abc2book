@@ -1,0 +1,138 @@
+X: 1
+T:The Hellbound Train  "(c) Mark Saul Book 1"
+M:C|
+L:1/8
+Q:80
+C:Mark Saul
+S:Trio (Seconds)
+K:HP
+|: {g}d2-d2|
+-d2-d2|
+{g}A2-A2|  !
+-AG-GA|
+{g}B2-B2|
+-B2d2|  !
+{g}A2-A2|
+-A2{GAG}A2|
+{g}d2-d2|  !
+-d2-d2|
+{g}c2-c2|
+-c2-c2|  !
+{g}B2-B2|
+-B2{g}ec|
+{GdG}f2-f2|  !
+-f2-f2:| [|
+{g}B/2{G}B/2{g}d/2B/2{G}B/2d/2{g}B/2{G}B/2|
+{g}d/2B/2{G}B/2d/2{g}B/2{G}B/2{g}d/2B/2|  !
+{g}B/2{G}B/2{g}d/2B/2{G}B/2d/2{g}B/2{G}B/2|
+{g}d/2B/2{G}B/2d/2{g}B/2{G}B/2{g}d/2B/2|
+{g}A/2{d}A/2{g}c/2A/2{g}A/2c/2{g}A/2{d}A/2|  !
+{g}c/2A/2{g}A/2c/2{g}A/2{d}A/2{g}c/2A/2|
+{g}A/2{d}A/2{g}c/2A/2{g}A/2c/2{g}A/2{d}A/2|
+{g}c/2A/2{g}A/2c/2{g}A/2{d}A/2{g}c/2A/2|  !
+{g}B/2{G}B/2{g}d/2B/2{G}B/2d/2{g}B/2{G}B/2|
+{g}d/2B/2{G}B/2d/2{g}B/2{G}B/2{g}d/2B/2|
+{g}B/2{G}B/2{g}d/2B/2{G}B/2d/2{g}B/2{G}B/2|  !
+{g}d/2B/2{G}B/2d/2{g}B/2{G}B/2{g}d/2B/2|
+{g}A/2{d}A/2{g}c/2A/2{g}A/2c/2{g}A/2{d}A/2|
+{g}c/2A/2{g}A/2c/2{g}A/2{d}A/2{g}c/2A/2|  !
+{g}A/2{d}A/2{g}c/2A/2{g}A/2c/2{g}A/2{d}A/2|
+{g}c/2A/2{g}A/2c/2{g}A/2{d}A/2{g}c/2A/2|
+{g}G/2{d}G/2{g}B/2G/2{g}G/2B/2{g}G/2{d}G/2|  !
+{g}B/2G/2{g}G/2B/2{g}G/2{d}G/2{g}B/2G/2|
+{g}A/2{d}A/2{g}c/2A/2{g}A/2c/2{g}A/2{d}A/2|
+{g}c/2A/2{g}A/2c/2{g}A/2{d}A/2{g}c/2A/2|  !
+{g}B2{d}c2|
+{g}d2{g}e2|
+{g}d2{e}A2|  !
+{d}B2-B3/2|] |:
+e/2|
+{g}f/2B/2{g}B/2{G}B/2{g}d/2B/2{g}f/2B/2|
+{g}B/2{G}B/2{g}f/2B/2{g}d/2f/2{g}B/2d/2|  !
+{g}e/2c/2{g}c/2{G}c/2{g}c/2{d}A/2{g}e/2A/2|
+{g}c/2e/2{g}A/2{d}c/2{g}e/2A/2{g}c/2{d}A/2|
+{g}f/2B/2{g}B/2{G}B/2{g}d/2B/2{g}f/2B/2|  !
+{g}B/2{G}B/2{g}f/2B/2{g}d/2f/2{g}B/2d/2|
+{g}f/2a/2f/2d/2{g}e/2g/2{a}e/2c/2|
+{g}d/2B/2{g}B/2{G}B/2{g}B3/2:| |:  !
+A/2|
+{gBeBG}B{g}f/2B/2g/2B/2a/2B/2|
+{gBeBG}B{g}f/2B/2g/2B/2a/2B/2|
+{gAGAG}A{g}e/2A/2{g}f/2A/2g/2A/2|  !
+{gAGAG}A{g}e/2A/2{g}f/2A/2g/2A/2|
+{gBeBG}B{g}f/2B/2g/2B/2a/2B/2|
+{gBeBG}B{g}f/2B/2g/2B/2a/2B/2|  !
+{g}d2{e}A2|
+{d}B2-B3/2:| [|
+{gBeBG}B{g}f/2B/2g/2B/2a/2B/2|  !
+{gBeBG}B{g}f/2B/2g/2B/2a/2B/2|
+{g}B/2c/2d/2B/2{g}c/2d/2e/2c/2|
+{g}d/2e/2f/2d/2{g}e/2f/2g/2e/2|] |:  !
+{g}f/2a/2d/2f/2a/2d/2{g}f/2a/2|
+f/2a/2B/2a/2A/2a/2G/2a/2|
+e/2g/2c/2e/2g/2c/2{g}e/2g/2|  !
+{a}e/2g/2c/2g/2d/2g/2e/2g/2|
+{g}f/2a/2d/2f/2a/2d/2{g}f/2a/2|
+f/2a/2B/2a/2A/2a/2G/2a/2|  !
+f/2a/2f/2d/2{g}e/2g/2{a}e/2c/2|
+{g}d/2B/2{g}B/2{G}B/2{g}B3/2:| [|
+e/2|  !
+{g}d/2B/2{g}B/2{G}B/2{g}e/2B/2{g}B/2{G}B/2|
+{g}f/2B/2{g}B/2{G}B/2{g}e/2B/2{g}B/2{G}B/2|
+{g}B/2{G}B/2{g}d/2B/2{G}B/2e/2{g}B/2{G}B/2|  !
+{g}f/2B/2{G}B/2e/2{g}B/2{G}B/2{g}d/2B/2|
+{g}d/2A/2{g}A/2{G}A/2{g}e/2A/2{g}A/2{G}A/2|
+{g}f/2A/2{g}A/2{G}A/2{g}e/2A/2{g}A/2{G}A/2|  !
+{g}A/2{G}A/2{g}d/2A/2{G}A/2e/2{g}A/2{G}A/2|
+{g}f/2A/2{G}A/2e/2{g}A/2{G}A/2{g}d/2A/2|
+{g}d/2B/2{g}B/2{G}B/2{g}e/2B/2{g}B/2{G}B/2|  !
+{g}f/2B/2{g}B/2{G}B/2{g}e/2B/2{g}B/2{G}B/2|
+{g}d/2c/2{g}c/2{G}c/2{g}e/2c/2{g}c/2{G}c/2|
+{g}f/2c/2{g}c/2{G}c/2{g}e/2c/2{g}c/2{G}c/2|  !
+{g}B2{d}c2|
+{g}d2{g}e2|
+{g}d2{e}A2|  !
+{d}B2-B3/2|] |:
+f/2|
+{g}f/2B/2{g}B/2{G}B/2{g}d/2B/2{g}B/2{G}B/2|
+{g}f/2B/2{g}B/2{G}B/2{g}d/2B/2{g}B/2{G}B/2|  !
+{g}f/2B/2{g}d/2B/2{g}e/2B/2{g}f/2B/2|
+{g}d/2B/2{g}e/2B/2{g}f/2B/2{g}d/2B/2|
+{g}e/2A/2{g}A/2{G}A/2{g}c/2A/2{g}A/2{G}A/2|  !
+{g}e/2A/2{g}A/2{G}A/2{g}c/2A/2{g}A/2{G}A/2|
+{g}e/2A/2{g}c/2A/2{g}d/2A/2{g}e/2A/2|
+{g}c/2A/2{g}d/2A/2{g}e/2A/2{g}c/2A/2|  !
+{g}f/2B/2{g}B/2{G}B/2{g}d/2B/2{g}B/2{G}B/2|
+{g}f/2B/2{g}B/2{G}B/2{g}d/2B/2{g}d/2{G}d/2|
+{g}f/2B/2{g}d/2B/2{g}e/2B/2{g}f/2B/2|  !
+{g}d/2B/2{g}e/2B/2{g}f/2B/2{g}d/2B/2|
+{g}B2{d}c2|
+{g}d2{g}e2|  !
+{g}d2{e}A2|
+{d}B2-B3/2:| [|
+A/2|  !
+{g}B/2{G}B/2{g}f/2B/2{G}B/2e/2{g}B/2{G}B/2|
+{g}d/2B/2{G}B/2e/2{g}B/2{G}B/2f/2B/2|
+{g}f/2B/2{g}d/2B/2{g}e/2B/2{g}f/2B/2|  !
+{g}d/2B/2{g}e/2B/2{g}f/2B/2{g}d/2B/2|
+{g}A/2{G}A/2{g}f/2A/2{G}A/2e/2{g}A/2{G}A/2|
+{g}d/2A/2{G}A/2e/2{g}A/2{G}A/2{g}f/2A/2|  !
+{g}e/2A/2{g}c/2A/2{g}d/2A/2{g}e/2A/2|
+{g}c/2A/2{g}d/2A/2{g}e/2A/2{g}c/2A/2|
+{g}B/2{G}B/2{g}f/2B/2{G}B/2e/2{g}B/2{G}B/2|  !
+{g}d/2B/2{G}B/2e/2{g}B/2{G}B/2{g}f/2B/2|
+{g}c/2{G}c/2{g}f/2c/2{G}c/2e/2{g}c/2{G}c/2|
+{g}d/2c/2{G}c/2e/2{g}c/2{G}c/2{g}f/2c/2|  !
+{g}B2{d}c2|
+{g}d2{g}e2|
+{g}d2{e}A2|  !
+{d}B2-B2:| [|
+{g}d/2f/2a/2d/2{g}f/2a/2d/2f/2|
+a/2d/2{g}f/2a/2d/2f/2a/2d/2|  !
+{g}c/2e/2a/2c/2{g}e/2a/2c/2e/2|
+a/2c/2{g}e/2a/2c/2e/2a/2c/2|
+{g}B/2d/2g/2B/2{g}d/2g/2B/2d/2|  !
+g/2B/2{g}d/2g/2B/2d/2g/2B/2|
+{g}c/2e/2g/2c/2{g}e/2g/2c/2e/2|
+g/2c/2{g}e/2g/2c/2e/2g/2c/2:|  !
+

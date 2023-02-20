@@ -1,0 +1,28 @@
+X: 3282
+T: Donald Dow's Strathspey.
+C: D.D.*
+%R: strathspey, air
+B: Niel Gow & Sons "Complete Repository" v.3 p.28 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - -
+V: 1 staves=2
+d |\
+c>F (d/c/B/A/) cFFd | c<A f>A cGG>d | c>F (d/c/B/A/) cAA>f | {f}e>d ec Tf2 fd || c>F (d/c/B/A/) cFFd |
+c<A f>A cGG>d | c>F (d/c/B/A/) cAA>f | {f}e>d ec Tf2f |]| d | c<A f>A .c.f.A.f | c<A f>A cGG>d | c<A f>A .c.f.A.f |
+{f}e>d ec Tf2f>d || c<A f>A .c.f.A.f | c<Af>A cG ~G>B | {B}A>G AF Accf | {f}e>d ec Tf2f |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | f2f2 f2f2 | f2f2 g2g2 | f2f2 f2f2 | c'2c2 f2fz || f2f2 f2f2 |
+f2f2 g2g2 | f2f2 f2f2 | c'2c2 f2f |]| z | f2f2 f2f2 | f2f2 c2c2 | f2f2 f2f2 |
+c'2c2 f2f2 || f2f2 f2f2 | f2f2 c2e2 | f2f2 f2f2 | c'2c2 f2f |]
+% - - - - - - - - - -
+%%begintext align
+%% * The Tunes marked D.D. are the composition of Donald Dow, with whom I was well acquainted.
+%% They are all well marked for Dancing. It is difficult to give a preference to any one of his
+%% Tunes, although Athole House as a Reel pleases me better than Monymusk as a Strathspey,
+%% but all exhibit great taste in their stile. See the former in page 31 and the latter page 10 Part
+%% First Repository. ---------- Niel Gow
+%%endtext

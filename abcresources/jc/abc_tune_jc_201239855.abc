@@ -1,0 +1,18 @@
+X: 344	% 97
+T: Liza Jane
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.34 #4
+R: march, reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Omitted several dots on quarter notes, to fix the rhythm.
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="97"
+|:\
+{A^A}B3G A4 | {A^A}B3G A2GA | d2 d4 (Bc | d6) (GA) |\
+{^A}B3G A2GA | {^A}B3G A2 (EF) | G2 G4 (EF) | G8 ::\
+g6 dd | e4 d4 |
+dd d4 (Bc | d6) (ef) |\
+g2 g4 d2 | e4 d4 | [BG][BG] [G4B,4] A2 | [G6B,6] (3(def) |\
+g2 g4 d2 | e4 d4 | dd d4 (Bc | d6) (ef |\
+g2) g4 d2 | e4 d4 | [BG][BG] [G4B,4] A2 | [G8B,8] :|

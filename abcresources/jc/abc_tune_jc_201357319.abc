@@ -1,0 +1,52 @@
+X: 1
+A:Adam de la Halle
+T:Dame bele/Fi Mari/Nus n'iert ja jolis
+M:3/4
+L:1/4
+Q:1/4=120
+K:F Lydian
+%
+V:1 clef=treble
+V:2 clef=treble
+V:3 clef=treble-8 middle=B,
+%%MIDI program 1       72 piccolo
+%%MIDI program 2       74 recorder
+%%MIDI program 3       70 bassoon
+%%sysstaffsep    22.00pt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% triplum %%%%%%%%%%%%%%%%%%%%%%%%%%%
+[V:1]
+   C2 D | F2  G | A2 (3G/F/E/ | D2  E |
+w: Da-me bele et  a-   ve-**   nant et
+((3:2:2F/EF) G |  F2 z| F2 (3E/D/C/ | E2 (3E/D/C/|
+w:     de** biau port,  Ar-  ri-**    vé   sui**
+   D2 (3D/C/B,/| C2 z| E2 ((3E/D/E/)| F2 ((3E/D/E/)|
+w: a    mal**   port.  Je    muir**   a    grant**
+    F2 z| (3:2:2A/  A  A ((3:2:2_B/A) | G2 ((3:2:2A/G)|
+w: tort,        Se je n'ai       de*   vous       con-
+    F2 ((3:2:2E/D)| C2 ((3:2:2D/E)| F2 z | E2
+w: fort.      Sans* nul       res-*sort,  Sui
+    F |(GF) E | F3 ||
+w: mis  à* la  mort.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% duplum %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[V:2]
+   F2 (3F/E/D/|C2  D|  E2 (3E/D/C/ | D2
+w: Fi   Ma-**  ri de vostre a-**    mour
+((3:2:2C/D)|((3:2:2C/B,A,) B,| C2 z| (3:2:2C/  _B, C
+w:    Quar*        j'ai**  a-  mi,         Tel com il
+   D |(3:2:2E/ D  E z | F2 ((3:2:2E/D)| C2  D |
+w: a-    fiert a-mi,    Qui       me*  sert et
+    E2 (3E/D/C/ | D     C   B,| C2 z | E2
+w: nuit  et**    jour, Sanz sé-jour,   De
+    F |(GF)((3:2:2E/D) |C2 ((3:2:2D/E)|D2 z| (3:2:2F/   F    G
+w: cuer mi-*      gnot* et        jo-* li          Vi-lains vous
+   G | A2 ((3:2:4G/F//G//) E/|(3D/ E/  C/    D   B,| C3||
+w: de- mo-       ri-**    tés,  et je m'en vois  à   li.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% tenor %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[V:3][K:F]
+   F,2   G, |F,2 B,|A,2  F, |G,3|F,2 z|
+w: Nus n'iert ja jo-lis s'il n'ai-me.
+(F,2G,|F,2)(B,|A,2)z|(F,2G,|F,2)(B,|
+A,3)|(F,2G,|F,2)(B,|A,2)(F,|G,3)|F,2 z|
+(F,2G,|F,2)(B,|A,2)(F,|G,3)|F,3||
+%
+W:The first measure in the last line clanks.  Maybe the "-li" should be on C or F.

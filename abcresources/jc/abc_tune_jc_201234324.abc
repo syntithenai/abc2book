@@ -1,0 +1,25 @@
+X: 20424
+T: la TRICOTEUSE, or the KNITTER'S WALTZ
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.42 #4 (and p.43 #1)
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has final repeat but no initial repeat; not fixed.
+M: 3/4
+L: 1/8
+K: D
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+d2z2d2 | c2d2e2 | f2z2f2 | e2f2g2 |\
+a2z2d2 | c2d2e2 | dBecAc | "^Fin."d2z2 H:|\
+d2 |\
+A2z2a2 | b2g2e2 | f2z2a2 | c2B2A2 |\
+g2z2f2 | b2g2e2 | geceba | d2"^D.C."z2 :|
+[K:G]\
+=c2 |\
+B2z2d2 | g2f2e2 | d2z2f2 | a2f2d2 |\
+c2e2g2 | B2d2g2 | (gf)(ed)(cB) | (B2A2 D2) |\
+G2B2d2 | G2c2e2 | G2B2d2 | b4a2 |\
+g2e2c2 | B2(dc)(BA) | G2B2A2 | "^D.C."G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

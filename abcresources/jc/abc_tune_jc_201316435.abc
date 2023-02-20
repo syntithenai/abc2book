@@ -1,0 +1,24 @@
+X: 1
+T: Nelson Mandela's jig
+S: smallpipes set from Stephen Thomforde
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+"A"[|] c |\
+"D"ddd def | AAA BAA | "D"ABd "G"dBA | "D"ABd "A"e2c |\
+"D"ddd def | AAA BAA | "D"ABd edB | "A"ABd "D"d2 :|
+"B"|: e |\
+"D"faa fed | "G"efe dBA | "D"ABd dBA | "A"ABd e2g |\
+"D"faa fed | "G"efe dBA | "D"ABd edB | "A"ABd "D"d2 :|
+"C"|: e |\
+"D"fff f<ad | fff f<aA | "G"ABd dBA | "A"ABd e2e |\
+"D"fff f<ad | fff f<aA | "G"ABd edB | "A"ABd "D"d2 :|
+"D"|: e |\
+"D"fdd aAf | AfA aAf | "G"ABd dBA | "A"ABd e2e |\
+"D"fdd aAf | AfA aAf | "G"ABd edB | "A"ABd "D"d2 :|
+"E"|:\
+e>d |\
+"A"c2A ABA | "D"dcd "E"e3 | "A"Ace efg | "G"B<GB dcB |\
+"A"c2A ABA | "D"dcd "E"e2a | "A"c2e "G"dcB | "A"A3 A2 :|

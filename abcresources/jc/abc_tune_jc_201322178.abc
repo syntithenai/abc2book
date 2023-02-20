@@ -1,0 +1,17 @@
+X: 1
+T: Pam's Tune
+C: by Larry Unger 1989
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|:\
+"A"[a2A2]AA cAEF | "D"ABce f2e2 | "A"Acea "F#m"fece | "Bm"fedA "E7"F2E2 |
+"A"A2AA cAEF | "D"ABce f2e2 | "A"Acea fece | "E7"fecB "A"A4 :|
+"D7"A=cdA cdAc | dA=cd c2A2 | "E7"BdeB deBd | eBde d2B2 |
+"F7"A=c_eA ceAc | _eA=ce c2A2 | "G"d=cAc dAcd | "E"e8 ||
+"D7"A=cdA cdAc | dA=cd c2A2 | "E7"BdeB deBd | eBde d2B2 |
+"F7"A=c_eA ceAc | _eA=ce c2A2 !coda!| "F#7"^A^c=eA ceAc | "E"e=f"F#"^fe "G"=ge"G#"^g"_D.C."e |]
+!coda![| "A"eceg "E7"fece | "A"a8 |] y8 y8 y8 y8 y8 y8 y8
+%%text Play the first A low, then high on repeats.

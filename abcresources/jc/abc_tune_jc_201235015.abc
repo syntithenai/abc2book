@@ -1,0 +1,31 @@
+X: 20962
+T: BUNKER HILL SETT (tune 2)
+C:
+%R: reel, march
+B: Elias Howe "The Musician's Companion" 1843 p.96 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="2"
+AB |\
+c4 cfaf | c4 c2cA | B2BG A2AF | FGAB cdef |\
+c4 cfaf | c4 c2cA | B2BG A2AF | F2A2F2 H|]
+C2c2B2G2 | F2d2B2G2 | C2c2 BAGF | dcBA GFED |\
+C2c2B2G2 | F2d2B2G2 | dcBA cBAG | F2Ac "^D.C."F4 |]
+A4 (A2G2) | (G2F2)(F2C2) | G4 G2G2 | (A2G2)(G2F2) |\
+A4 (A2G2) | (G2F2)(F2C2) | (G2F2)(A2G2) | F6 "^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% ladies chain,
+%% promenade four,
+%% next two, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

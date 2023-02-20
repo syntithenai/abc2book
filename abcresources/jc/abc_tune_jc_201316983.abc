@@ -1,0 +1,27 @@
+X: 1
+T: the New Fagary
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.62
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F | BB cc d>e fd | ed c>B B3 F | BB cc d>e fd | gf =e>f f4 |]\
+ff ga b2 ab | gg ag ^f2 de/f/ | gg gf =e2 cd/e/ | fd c>B B4 |] 
+M:6/4
+L:1/4
+dfd c>BA | B2F B2c |  dfd c>BA | B3 d3 |]\
+dfd f>ed | cec e2f | g>ab fde | c3 B3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up all back .| That again, the 1. man moves to the 2. wo. Salute her and turn her about and
+%% fall into their own places, the 1. wo. and 2. man do the same :| The 1. man and 2. wo. go back to
+%% back, and fall into their own places, the 1. wo. and 2. man do as much :| The two men clap hands
+%% and the 2. wo. then turn all round single, then clap hands with your own and cast off into the 2.
+%% place :| Do this to the last.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

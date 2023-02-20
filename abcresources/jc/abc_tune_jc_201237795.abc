@@ -1,0 +1,32 @@
+X: 291
+T: Mr J Rose
+C: Mrs MACINTYRE
+R: Strathspey
+B: Glen Collection p.29 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: Bb
+%
+V: 1
+B |\
+FB/c/ d>B c>AB>G | FB/c/ d>B A<cTc2 |\
+FB/c/ d>B c>AB>G | {G}F>E{E}D>C DB,B, :|
+f |\
+d<f fg/a/ b>fg>e | f>d{d}c>B A<cc<e |\
+d<f fg/a/ b>fg>e | f<d{d}c>B {A}f2 zf |
+d<f fg/a/ b<fg<e | f<d{d}cB A<Bc<d |\
+DEFG ABcd | efTg>a bBB |]
+%
+V: 2
+z |\
+B2[d'2b2f2] [e'2c'2f2][d'2b2f2] | B2[b2f2] [a2f2][a2f2] |\
+B2[d'2b2f2] [e'2c'2f2][d'2b2f2] | [a2f2][a2f2] [b2f2d2B2][fdB] :|
+z |\
+B2[d'2b2] [d'2b2][e'2b2] | B2[b2f2] [c'2f2][a2f2] |\
+B2[d'2b2] [d'2b2][e'2b2] | [d'2b2][d'2b2] [c'2f2][c'2f2] |
+[b2B2][d'2b2] [d'2b2][e'2c'2a2] | B2[b2f2] [c'2f2][a2f2] |\
+B2[b2f2] d2[b2f2] | c2f2 B2[bfdB] |]

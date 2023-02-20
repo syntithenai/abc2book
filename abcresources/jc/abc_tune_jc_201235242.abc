@@ -1,0 +1,20 @@
+X: 21051
+T: I LOE NA A LADDIE BUT ANE
+Q: "Slow."
+%R: air, waltz, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.105 1_
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/16
+K: F
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(A>G) |\
+F3GF3 FA3c2 | d6- d4(ef) | c3AF2 F3GA2 | {A}G6- G4(A>G) |\
+F3GF2 FA3c2 | d6- d4(ef) | c3fA2 G3FG2 | F6 F4 |]
+c2 |\
+c3de2 f3ef2 | {e}d6- d4(ef) | c3AF2 F3GA2 | {A}G6- G4A>G |\
+F3GF2 F2A2c2 | d6- d4ef | c3fA2 G3FG2 | F6- F4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

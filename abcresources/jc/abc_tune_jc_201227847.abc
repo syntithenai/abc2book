@@ -1,0 +1,31 @@
+X: 10
+T: Lady Shaftesbury
+%R: reel, strathspey
+B: Name "Kauntze's Collection of the most favorite Dances, Reels, Waltzes, &c."
+F: http://imslp.org/wiki/Kauntze%27s_Collection_of_Dances,_Reels,_Waltzes_etc._%28Various%29
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+(G>F) |\
+EB,G,>B, (E>F)(Gc) | (B>G)F>E .D.F.F (G/F/) |\
+E>B,G,>B, (E>F)(G>c) | B>GF>G [E2G,2][EG,] :|
+((3B/c/d/) |\
+e>dcB {d}e2(Ec) | (BG)(F>E) (DF)(FB) |\
+e>dcB {d}e2(Ec) | (B>G)F>G E3d |
+.e.d.c.B TB/=A/B/c/ d/c/d/=e/ | {=e}fFFF F>GA>c |\
+TB>cB>G FE E/F/G/F/ | E/F/G/F/ EB, [E2G,2][EG,] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+e2e2 e2e2 | e2e2 f2f2 | e2e2 e2B2 | c2f2 e2e :|
+z |\
+e2e2 e2e2 | e2e2 f2f2 | e2e2 B2G2 | A2B2 E2E2 | e2e2 B2B2 |
+e2e2 f2f2 | E2F2 G2A2 | G2G2 E2E |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    First Lady Hey with her Partner and the 2d Gent: the 1st Gent: Hey with his Partner and
+%% 2d Lady Lead down two Cu: up again 1 Cu: Allemande.
+%%endtext

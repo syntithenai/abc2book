@@ -1,0 +1,25 @@
+X: 1
+T: the Catch Club
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.305 "D d 3"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g |\
+(a<A)B c2d | (e<E)F G2A |\
+B>cd ecd | B3- B2 |]\
+a |\
+(b<e)f g2g | (a<c)d e>f=g |\
+fdf ecA | G/A/Bb g>fg |\
+(a<A)B B2A | A3- A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. cast off and lead up all four hands abreast :| Then hands half round and turn single, then cross
+%% over with your Partners .| Then back to backsides, meet and set to your Partners, and cast off .|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

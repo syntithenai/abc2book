@@ -1,0 +1,26 @@
+X:1
+T: Emerald Isle
+N:
+C:"Waltz from Emerald Isle" by JM Herr
+S:
+A:
+O:
+R:
+M:3/4
+K:A
+I:speed 150
+%W: A
+% voice 1 (1 lines, 32 notes)
+K:A
+M:3/4
+L:1/16
+E4 |c4 c2 d2 e4 |c4 c2 d2 e4 |d4 d2 e2 f4 |e4 c4 A4 |d4 d2 e2 f4 |e4 c4 A4 |d2 B2 G2 d2 B2 G2 |d4 B4 G4 |
+%W:
+% voice 1 (1 lines, 30 notes)
+A4 A2 B2 c4 |c4 c2 d2 e4 |d4 d2 e2 f4 |e4 c4 A4 |f4 f2 e2 d4 |e4 c4 A4 |d2 B2 G2 d2 B2 G2 |A8 e4 |
+%W: B
+% voice 1 (1 lines, 31 notes)
+c'4 c'2 b2 a4 |c'4 c'2 a2 g4 |b4 b2 a2 g4 |a4 f4 c4 |f4 f2 e2 d4 |e4 c4 A4 |d2 B2 G2 d2 B2 G2 |d4 B4 G4 |
+%W:
+% voice 1 (1 lines, 29 notes)
+c'4 c'2 b2 a4 |c'4 c'2 a2 g4 |b4 b2 a2 g4 |a4 f4 c4 |f4 f2 e2 d4 |e4 c4 A4 |d2 B2 G2 d2 B2 G2 |A8 ||

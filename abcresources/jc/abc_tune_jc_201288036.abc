@@ -1,0 +1,24 @@
+X:186
+T: How Sweet the Woodlands (Duett XI)
+N: O'Farrell's Pocket Companion v.2 (Sky ed. p.95)
+M: 3/4
+L: 1/8
+R: waltz
+Q: 200
+V: 1 %%MIDI program 1 73 volume=70 % flute
+V: 2 %%MIDI program 1 40 % fiddle
+K: G
+[V:1] zD|G2 BA BA |G2 G2 A2 |B2 dc dc |{c}B4 Bc|
+[V:2] z2|z6      |z4    D2 |G2 BA BA |{A}G4 GA|
+%
+[V:1] d2 eded |cd e2 zc |B2 dc BA |{B} A4 :|
+[V:2] B2 cBcB |AB c2 zA |G2 BA AG |{E} D4 :|
+%
+[V:1] B2| A2 AB AB| c2 c2 cd| B2 Bd ed| d4 B2|
+[V:2] G2| D2 D2 DG| A2 A2 BA| G2 GB cB| B4 G2|
+%
+[V:1] AG/A/ G2 c2| BA/B/ A2 gd|c2 B2 d/c/B/A/|G4 zd|
+[V:2] D2 G2 A2   | G2 D2 B2   |A2 G2 D2      |G4 zB|
+%
+[V:1] e2 Hc2 zc |B2 AB cd |g/e/d/c/ B2 A2 |G4 ||
+[V:2] c2 HA2 zA |G2 DG AB |cB/A/    G2 D2 |B4 ||

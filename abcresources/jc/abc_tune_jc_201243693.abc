@@ -1,0 +1,18 @@
+X:881
+T:Steiner's Waltz
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 88
+M:3/4
+L:1/8
+Q:1/4=180
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+D2|.G.G.G.GG2|._B.B.B.BB2|.A.A.A.AA2|.e.e.e.ee2|d2z2c2|A2z2e2|
+d2z2B2|G3BAG|F2A2c2|e4d2|(dgfg).b.a|.g.f.e.d.c.A|d2z2c2|
+A2z2e2|d2z2B2|G3BAG|F2A2c2|e4d2|(^cded).=c.A|G4::
+D2|DFADFA|FAdFAd|AdfAdf|dfadfa|(ag) (gf) (fe)|(ed) (dc) (cB)|(BA)A4|
+^GABA.=GE|DFADFA|FAdFAd|AdfAdf|dfadfa|(ag) (gf) (fe)|(ed) (dc) (cB)|
+Agfedc|d4::[K:G](3(def)|g3dB2|G3Bdg|(f6|z2)z2(3(fg^g)|a4 (de)|
+d2A2B2|c2B2z2|z2z2(3(cBA)|G2c2e2|e3fe2|e2d2z2|z2z2(3(gfe)|e2d2d2|
+d2e2f2|g6|bagfed|e3dBG|d3cAF|.Ggfg.d.B|G4:|

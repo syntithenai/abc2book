@@ -1,0 +1,26 @@
+X:1
+T: The Touchstone
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 112
+%W:         A1
+% voice 1 (1 lines, 37 notes)
+K:D
+M:4/4
+L:1/16
+d2 f2 d2 f2 g f e d d c B A |d2 f2 d2 f2 a2 a2 a4 |d2 f2 d2 f2 g f e d d c B A |B2 g2 e2 c2 d4 d4 |
+%W:         A2
+% voice 1 (1 lines, 37 notes)
+d2 f2 d2 f2 g f e d d c B A |d2 f2 d2 f2 a2 a2 a4 |d2 f2 d2 f2 g f e d d c B A |B2 g2 e2 c2 d4 d4 |
+%W:         B1
+% voice 1 (1 lines, 32 notes)
+e2 c2 f2 d2 g2 e2 a2 f2 |B4 c2 d2 c d c B A4 |e2 c2 f2 d2 g2 e2 a2 f2 |G2 b2 a g f e d4 d4 |
+%W:         B2
+% voice 1 (1 lines, 32 notes)
+e2 c2 f2 d2 g2 e2 a2 f2 |B4 c2 d2 c d c B A4 |e2 c2 f2 d2 g2 e2 a2 f2 |G2 b2 a g f e d4 d4 ||

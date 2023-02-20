@@ -1,0 +1,33 @@
+X: 20943
+T: VICTORIA'S SETT (tune 3)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.95 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+c |\
+f2c g2c | a2f f2e | dgg gaf | efd cde |\
+f2c g2c | a2f f2e | dba gfe | f3 f2 H|]
+g |\
+a2a a2g | gff fga | bge bge | faf c2f |\
+a2a a2g | gff f2e | dba gfe | fff "^D.C."f2 |]
+c/B/ |\
+Acf Acf | Bdf Bdf | ceg bge | faf c2B |\
+Acf Acf | Bdf Bdf | ceg bge | f3 "^D.C."f2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Alamand corners,
+%% partners the same,
+%% -- balance corners,
+%% turn partners,
+%% grand chain,
+%% promenade eight,
+%% -- repeat the figure.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

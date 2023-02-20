@@ -1,0 +1,37 @@
+X: 20611
+T: LORD MORPETH'S HORNPIPE
+N: Variant of Morpeth's Rant
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" 1843 p.61 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+z2 |\
+B2FE DB,DF | BEGB AFAc | dBec fdcB | A2c2 c2BA |\
+B2FE EB,DF | GEGA AFAc | Bbag fedc | B2B2 B2 :|
+|: (3(fga) |\
+bfdB Aceg | fedc BAGF | ecec dBdB | A2F2 F2A2 |\
+GEGA edcB | AFAc fedc | Bbag fedc | B2B2 B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+F2DC FDFD | [FD]CED FDFA | BDGA dBAF | F2[A2E2] E2FE |\
+[F2D2]DC FDFD | ECEF FDFA | F[gd]cB DGFE | D2D2 D2 :|
+|: z2 |\
+fdBF FAce | dcBG DFED | cAcA BDBD | F2D2 D2[F2D2] |\
+ECEF cBA[FD] | FDFA dcBA | Dffe dcBA | D2D2 D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+B2B2 B2B2 | B2e2 f2f2 | B2e2 B2e2 | f2f2 f2z2 |\
+B2B2 B2B2 | E2F2 F2F2 | B2d2 e2f2 | B2B2 B2 :|
+|: z2 |\
+B2B2 f2e2 | f2f2 f2f2 | e2e2 f2f2 | f2f2 f2f2 |\
+e2ef e2e2 | f2f2 f2f2 | B2d2 e2f2 | B2B2 B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %sep 1 1 300

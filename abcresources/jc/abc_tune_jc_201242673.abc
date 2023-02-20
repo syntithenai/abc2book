@@ -1,0 +1,25 @@
+X: 64
+T: 64. MAGGOTS IN THE SHEEP HIDE
+B: Sam Bayard, "Hill Country Tunes" 1944 #64
+S: Played by David P. Gilpin, Connellsville, PA, Sept 22, 1943.  Learned at Dunbar, PA.
+N: The editor knows of no other set of this highly characteristic reel tune.
+N: The third part was composed by the player, David Gilpin.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: G
+ef |\
+gfga gfed | B[B2G2][BG] [B2G2]dB | [AF][A2F2][AF] [A2F2]dc | B[B2G2]"a."[BG] [B2G2]ef |
+gfga gfed | B[B2G2][BG] [B2G2]cB | A^GAB cdef | [g2B2] [gB2]f [g2B2] ::
+K:D
+((3FG^G) |\
+A2fg fedc | B[g2B2]f g3B | ABcd ecAc | dcde f3A- |
+A2fg fedc | B[g2B2]f [g2B2][eA]>[eA] | ABcd egfe | [d4F4] [d2F2] :|
+P: 1st part again
+!Segno!\
+|: A2- |\
+A2[A2G2] F3E | DFAg [f2A2][f2A2] | Acef gfe2 | defg a2AA- |
+A2[A2G2] F3E | DFAg f2ff | Acef gfec |1 "b"dfec d2 ((3FG^G) :|2 [d3F3]c [d2F2] |]
+P: Var:
+[K:G]"a."F ||[K:D] "b."d2dc |]

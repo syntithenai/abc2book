@@ -1,0 +1,40 @@
+X: 1
+T: Joie de Vivre
+C: Sharon McKinley 2011
+R: march
+N: For the ECD by the same name and composer
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://www.michaelbarraclough.com/26-dances-written-by-other-people/1078-joie-de-vivre
+M: 4/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+dc |\
+"G"Bcd2 G2B2 | "D"A2F2 D2EF | "G"G2D2 "D"A2D2 | "G"B6 AB |\
+"D7"c2A2 D2e2 | "G"d2B2 G2AB | "D7"c2A2 GFEF | G6 :|
+|: FG |\
+"D"A2D2 "G"B2D2 | "C"c2BA "G"B3B | "A"A2A2 B2^c2 | "D7"d6 =c2 |\
+"G"B2cd "D"A2d2 | "G"G2B2 "D"d3B | "C"e2c2 "D7"BAGF | "G"G6 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 5 5 500
+%%begintext
+%% Joie de Vivre
+%% By: Sharon McKinley, Jan 2011
+%% Music: Joie de Vivre (Sharon McKinley, 2011)
+%% Formation: Longways duple minor 
+%% For: Mike Franch
+%%endtext
+%%
+%%begintext
+%%A1
+%%  1-4  	1st corners set, 2-hand turn (all the way)
+%%  5-8 	(Pick up the 1st woman) circle 3 (all the way)
+%%A2
+%%  1-4 	2nd corners set, 2-hand turn (all the way)
+%%  5-8 	(Pick up the 1st man) circle 3 (all the way)
+%%B1
+%%  1-4 	1s dance down, turn alone
+%%  5-8 	(Skip or dance) back up, cast (into 2s place, 2s moving up)
+%%B2
+%%  1-8 	Rights and lefts (4 changes, partner start)
+%%endtext

@@ -1,0 +1,35 @@
+X: 3141
+T: O Let me in this ae Night.
+O: Old
+%R: air, strathspey
+N: This is version 2, for ABC software that understands voice overlays and cresc/diminuendo symbols.
+% dim/cres..endo symbols:
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: Niel Gow & Sons "Complete Repository" v.1 p.14 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: What's the meaning of the "-no" that ends the tempo instruction?
+M: C
+L: 1/8
+Q: "Slow with Expr.no"
+K: Gm
+% - - - - - - - - - -
+V: 1 staves=2
+d |\
+~B>A(Gd) g2gd | f2fB ~cd/e/ "_sf"dc |\
+TB>A Gd Tg>a b>g | (f<d) Tc>B "_sf"([c2G2] [d^F]) :| c |\
+TB>A GA TB>c dB | !p!~c>d ec pf>eP(dc) |
+TB>A GA TB>cdB | b>g fd "_sf"T[c2G2] [d^F]>c ||\
+TB>A GA TB>c dB | Tc>d ec Q(Tf>e)q(dc) |\
+TB>A Gd Tg>a Hb>g | !p!(f<d) c>B ([c2G2] [d^F]) |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d'2d'2 d'2d'2 & g2b2 g2b2 | c'2d'2 e'2"_sf"a2 & a2b2 c'2^f2 |\
+g>ab2 gd' g'e' | d'2e'd' "_sf"e'2d :| z |\
+G3[^fd] gab2 | !p!abc'2 pd'>e'Pf'^f' |
+g'd' ba g4 | ded2 "_sf"e2d>^f ||\
+gd BA G2g2 |  abc'2 Qd'e'qf'^f' |\
+g'd'b2 g>^f Hg>e' | !p!d'2e'd' e'2d' |]

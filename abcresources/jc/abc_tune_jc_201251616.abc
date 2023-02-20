@@ -1,0 +1,87 @@
+X:45
+T:Belle Brandon Set
+T:First Set (The children of Haimon, J Strauss)
+T:Figure 1: Pantalon
+C:Play A (intro), (BACA) x 2.
+%%titlefont Times-Roman 28
+%%subtitlefont Times-Roman 20
+S:Dick's quadrille call-book except for the final tune.
+S:Most notes were originally an octave higher.  2/2 tunes were originally 2/4.
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+L:1/4
+M:2/2
+Q:1/2=112
+K:G
+P:A
+[| "G"G,B,D2 | "G"GB/e/dB | "D7"dAd2 | "D7"Ad/A/ "G"BG |\
+"G"G,B,D2 | "G"GB/e/dB | "D7"dAd2 | "D7"AA/B/ "G"Gz |]
+P:B
+[| "Em"gfed | "Am"cBAe | "D7"dAd2 | "D7"Ad/A/ "G"BG |\
+"Em"gfed | "Am"cBAe | "D7"dAd2 | "D7"AA/B/ "G"Gz |]
+P:A
+[| "G"G,B,D2 | "G"GB/e/dB | "D7"dAd2 | "D7"Ad/A/ "G"BG |\
+"G"G,B,D2 | "G"GB/e/dB | "D7"dAd2 | "D7"AA/B/ "G"Gz |]
+P:C
+[| "D"DFA2 | "D"DF/B/AF | "A7"A^c "D"d2 | "A7"EA/G/ "D"FD |\
+"D"DFA2 | "D"DF/B/AF | "A7"A^c "D"d2 | "A7"FA "D7"d2 |]
+N:Replace by blank line and X field
+T:Figure 2: Ete
+C:Play A (intro), (ABA) x 4.
+K:F
+P:A
+[| F/A/c/e/ | "F"a/d'/c'/a/ f/F/A/d/ | "C7"dc/z/ G/B/c/a/ | "C7"ag/z/ G/B/c/e/ | "F"f2 F/A/c/e/ |\
+"F"a/d'/e'/a/ f/F/A/d/ | "C7"dc/z/ G/B/c/a/ | "C7"ag/z/ G/B/c/e/ | "F"f |]
+P:B
+[| cde | "F"f4- | "F"fafd | "F"c2Az | "F"zAcf | "C7"e4- | "C7"egde | "F"c4 | zcde |\
+"F"f4- | "F"fafd | "F"c2Az | "F"zcfA | "C7"c2^c2 | "C7"d2e2 | "F"f4- | "F"f |]
+N:Replace by blank line and X field
+T:Figure 3: Poule
+C:Play (ABB) x 4, Coda.  (First half A is intro.)
+K:D
+L:1/8
+M:6/8
+Q:3/8=112
+K:D
+P:A
+[| !segno!"D"def A2A | "D"B2A B2A | "D"d2e f2g | "A7"f3e2^d |\
+"A7"fe=dc2B | "A7"A3 A/^G/A/B/c/d/ | "A7"e2A efe | "D"d3 Adg |
+"A7"f2e GAf | "D"e2d DFc | "A7"B2A EAG | "D"F2z Adg |\
+"A7"f2e GAf | "D"e2d DFB | "E7"dd/c/B/A/ ^G/F/E/D/C/B/ | "A"AAA AAA |
+P:B
+[| "A"e3 c2 "D"f | "A"e3- e2e | "E7"B2c d2e | "A"c/A/^G/A/c/e/ acc |\
+"F#7"e3 "B7/F"^d3 | "E7"=d3 "F#m"c3 | "Bm"f/e/d/c/B/A/ "E7"^G/F/E/D/C/B,/ | "A"A,/B,/C/D/E/F/ "^Dal Segno al fine."=G/F/G/A/B/c/ !segno! |]
+P:Coda
+[| "D"def A2A | "D"B2A B2A | "D"d2e f2g | "A7"f3e2^d |\
+"A7"fe=dc2B | "A7"A3 A/^G/A/B/c/d/ | "A7"e2A efe | "D"d2z D2z "^Fine" |
+N:Replace by blank line and X field
+T:Figure 4: Pastourelle
+C:Play A, (BCBA) x 4
+L:1/4
+M:2/2
+Q:1/2=112
+K:G
+P:A
+[| "D7"d3/d/ d/c/B/A/ | "G"c/E/B/D/ A/C/G/B,/ | "D7"FA A2 | "C"Ge "G"d2 |\
+"D7"d3/d/ d/c/B/A/ | "G"c/E/B/D/ A/C/G/B,/ | "Am"EA/G/ "D7"FD | "G"Gz G,z |]
+P:B
+[| "G"Bd2e | "G"e/d/G/A/ B/D/G | "D7"F/E/D A/G/F | "D7"c/B/A d2 |\
+"G"Bd2e | "G"e/d/G/A/ B/D/G | "D7"F/E/D A/G/F | "D7"c3/F/ "G"G2 |]
+P:C
+[| "D"dA2c | "Gm"c/_B/G/A/ B/A/B | "Bb"d_B2d | "Bb"d/c/_B/c/ d2 |\
+"D"dA2c | "Gm"c/_B/G/A/ B/A/B | "Eb"_B/A/G2^c | "D"dz Dz |]
+P:B
+[| "G"Bd2e | "G"e/d/G/A/ B/D/G | "D7"F/E/D A/G/F | "D7"c/B/A d2 |\
+"G"Bd2e | "G"e/d/G/A/ B/D/G | "D7"F/E/D A/G/F | "D7"c3/F/ "G"G2 |]
+N:Replace by blank line and X field
+T:Figure 5: Belle Brandon
+C:Play A BABA BABA but I could be wrong!
+L:1/8
+M:2/2
+Q:1/2=95
+K:D
+P:A
+[| AG | "D"F2FA "A"GFGB | "D"A2d2 "/"z2AG | "D"FFFA "G"G2AB | "A"E4 "/"z2AG |\
+"D"F2FA "A"GFGB | "D"A2f2- "E"f2ed | "A"ccdc "E"B2cB | "A"A4 "/"z2Bc |
+P:B
+"D"eddd "/"FFGA | "G"c4 "/"B2EF | "A"AGGG "D"FFAF | "A"E4 z2AG |\
+"D"F2FA "A"GFGB | "D"A2f2- "/"f2dB | "D/A"A2FD "A7"E2GF | "D"D4 "/"z4 |]

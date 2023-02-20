@@ -1,0 +1,20 @@
+X:186
+T: Al Tishal Oti
+C: Yizhar Cohen
+O: Israel
+F: http://www.youtube.com/watch?v=uSskmNhqg88
+M: 4/4
+L: 1/8
+K: Dm
+Q: 1/4=132
+%%MIDI program 68
+%%MIDI bassvol 72
+%%MIDI chordvol 60
+"Dm"A3A A2A2|"Dm"B2A2 GFEF|"Gm"G6 A2|G4 z4|\
+"Gm"B3B B2B2|c2B2 AGFG|"Dm"A8-|A6 A2|
+"Dm"f3f f2f2|g2f2 "Dm"ed^cd|"A7"e6 d2|^c4 zABA|\
+"Gm"G4 "Dm"d2d2|d3e fed^c| d8 |z2 d2 e2 f2|
+"Gm"g2 f2 e2 d2 | g2 a2 b2ag |"Dm"a8|z4 f2 ed|\
+"Gm"B2 e2 e2 g2|"Dm"f6 e2|A8|z4 defd|
+a6 f2|"Gm"g2 a2 b2 ag|"Dm"a8|z4 f2 ed|\
+"Edim"B2 e2 e2 z2|"Gm"g2 f2 e2 "Dm"d2-|d8|

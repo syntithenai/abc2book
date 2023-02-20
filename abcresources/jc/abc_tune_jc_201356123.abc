@@ -1,0 +1,62 @@
+%!abctab2ps -k 0 -s 0.65
+%
+%%gchordfont     ZapfChancery-MediumItalic 14.0
+%%topmargin      2.00cm
+%%topspace       -0.20cm
+%%stretchlast    yes
+%%tempofont      Times-Roman 11.0
+%%sysstaffsep    45pt
+%%systemsep      90.0pt
+%
+X:1
+%
+%topspace       1cm
+%%composerspace  0.5cm
+%%musicspace     -0.20cm
+%%partsspace     -0.30cm
+%%indent         1.5cm
+%
+T:Sonata Quarta in Three Parts
+T:Fitzwilliam Museum Cambridge, Mu.Ms.524 - 527
+S:Fitzwilliam Museum Cambridge, Mu.Ms.524 - 527
+C:William Williams, London 1703
+M:C
+L:1/4
+K:Am
+%
+Q:"Adagio"
+%
+%%vskip -0.5cm
+%
+V:1 name="Flute o\\Primo" clef=treble bracket=3
+V:2 name="Flute o\\Secondo" clef=treble   space=+10pt
+V:3 name="Basso\\continuo" clef=bass octave=-2
+%
+V:1
+c'>c' b3/2 c'//b// | a- a//c'//b//a// ^g/a//b// e- |\
+	e/A/ d>e f//e//d//c// | B/c/ B A2 |
+g>g ^g a/b//c'// | b>c' a- a//d'//c'//d'// |\
+	b/g/ c'2 c'/>b/ | c'2 g c' | d'3/2 e'//d'// c'/e'/d'/>c'/ |
+b>b (b/a/)(g/^f/) | g>g ^g>g | a b c'/^f/g/e/ |\
+	^d/B/ e2 ^d |
+ e ^g b (b/e/) | e c' (d'/c'/)(b/a/) | ^g a a> ^g | a e2 d | e4 |]
+%
+V:2
+a- a//c'//b//a// ^g/a//b// e- | e/d//e// f//e//d//c// B z/a//e// |\
+	f3/2 g//d// e- e//c'//b//a// | ^g/a/a/>^g/ a2 |
+e>e d (f/e/) | e e- e/d//e// f- | f/e//d// g/f//e// \
+	d//f//e//d// d | c2 e>e | ^f g g>^f |
+g>g ^f b | (b/c'/)(b/e/) e>e | e/f//e// d//f//e//d// c>c |\
+	B/b/g/^f/ ^f2 | e>e (e/d/)(c/B/) |
+c c/B/ A f | B c B2 | A b (a/b//c'// NNb/)>a/ | ^g4 |]
+%
+V:3
+a A "\#"e "7"c | "7"f "7"d "\#"e ^c | "9""8"d "6\n5"B \
+	"9""8"c "9\n7"d | "\#"e/"7"d/"4"e/"\#"E/ A A/B/ |
+c c' "\#6"b "6""5"a | ^g>e "7"f "7"d | "7"g "6"e \
+	"6\n5"f/"7"d/"4"g/"3"G/ | c c' c'2- |\
+	"\#4\n2"c' "6"b "7"a "6\n4""5\n\#"d' |
+g g ^d2 | e2 "\#4\n2"d2 | "6"c "6"B "7""\#6"A "7"a |\
+	"\#"b/g/e/"\#6\n5"A/ "4""\#"B2 | e "\#"e ^G2 |
+A a/g/ "6""5"f "6""5"d | "\#"e A "4""\#"E2 |\
+	A "6"G "7""6"F2 | "\#"E4 |]

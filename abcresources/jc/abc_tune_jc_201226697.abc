@@ -1,0 +1,18 @@
+X: 10402
+T: HIBERNIA
+Q: "Lively"
+%R: jig
+B: "Edinburgh Repository of Music" v.1 p.40 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The segnos are rhythmically inconsistent with the ends of the strains; use the D.C. instead.
+N: A footnote says "??? by W: Hatton 105 High St Edinb", but the first word is illegible.
+M: 6/8
+L: 1/8
+K: D
+d !segno!|\
+f2e {e}d2B | A>BA AFD | FGA A2f | g2e e2d |\
+{d}f2e d2B | A>BA AFD | F>GA Aag | f2d d2 :|
+|:\
+f>ga aba | aba ad'c' | b2e b2e | b2e gfe |\
+f>ga a>ba | aba ad'c' | bab e2f | {a}g2f "_D.C."e2 !segno! |]

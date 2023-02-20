@@ -1,0 +1,30 @@
+X: 841
+T: Knit the Pocky
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.84 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has final repeat but no initial repeat; not fixed.
+N: The key signature should probably be standard D minor, since the only B is flatted.
+M: C
+L: 1/8
+K: Ddor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+Dd-d^c defd | c_BAG FGEC |\
+Dd-d^c d>ef>g | Ted^ce d/d/d d2 :|\
+defg afdg | Te>dcg ecge |
+defg afdg | ecge d/d/d d2 |\
+defg afdg | Te>dcg ecge |\
+defg afgf | ecge d/d/d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d2d2 d2d2 | c2c2 c2c2 |\
+d2d2 d2d2 | A2A2 D2D2 :|\
+d2d2 d2d2 | c2c2 c2c2 |
+d2d2 d2d2 | A2A2 D2D2 |\
+d2d2 d2d2 | c2c2 c2c2 |\
+d2e2 f2g2 | a2a2 d2d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

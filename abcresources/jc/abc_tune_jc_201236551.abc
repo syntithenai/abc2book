@@ -1,0 +1,30 @@
+X: 223
+T: Mrs McLEOD OF COLBECK
+C: CHARLES STEWART
+R: Reel
+B: Glen Collection p.22 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: F
+%
+V: 1
+C |\
+F/F/F FA (cA)(dB) | (Ac)fa gG-GA | F/F/F (FA) (cA).d.B | AcGB AF-F :|
+b |\
+agfc (df)cA | (Bd).c.A BG-Gb | agfc (df)Af | (d/e/f) (g/a/b) affg |
+agfc (db)(ca) | (Bg)(Af) gG-GB | Acfa gcdf | (Bd).G.B AF-[FA,] |]
+%
+V: 2
+z |\
+[f2F2][a2f2c2] [a2f2c2][b2f2c2] | F2[a2f2] [b2e2c2][b2e2c2] |\
+[a2f2][a2f2] [a2f2][b2f2] | c2[g2e2] F2[af] :|
+z |\
+F2[a2f2] [b2f2][a2f2] | [g2e2c2][a2f2c2] [g2e2c2][g2e2c2] |\
+F2[a2f2] [b2f2][a2f2] | [f2B2][e2c2] [f2c2][a2f2c2] |
+F2[a2f2c2] [b2f2d2][a2f2] | [g2e2c2][a2f2c2] [b2g2c2][g2e2c2] |\
+F2[f2c2] [b2g2c2][a2f2] | c2[g2e2] f2[fF] |]
+

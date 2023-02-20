@@ -1,0 +1,93 @@
+X: 11241
+T: MARSEILLES HYMN
+C:
+%R: march
+%N: This is version 1, for ABC software that don't understand voice overlays and tremolo notation.
+N: The original has 6 voices on 4 staffs; this version puts each voice on its own staff.
+N: Voice 1 is labelled "Flute in F", but its keysig is C while the "Base" voice is E flat.
+N: The (8va... ...8va) notations are used to indicate octava sections, which ABC doesn't much handle yet.
+N: Bar 28 has an extra beat of rest; fixed in one of the way that may work.
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.124-125
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Eb
+%%indent 50
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="Flute in Eb" sname="Fl." staves=6
+K: C
+!f!g>g |\
+c'2 c'2 d'2 d'2 | e'3 c' az a>g |\
+f2 "^>"d'4 b>g | a2 z2 z2 !pp!c'>b |\
+c'2 c'>c' (c'3/b//c'//) (d'>c') | (c'b) bz z2 b>c' |\
+d'2 d'>d' (d'3/c'//d'//) e'>d' | c'2 z2 z2 !ff!g>g |
+g2 e>c g2 e>c | G2 z2 !mf!z"^Loco."ggg |\
+d'3 e' f'2 d'b | c'4 _b4 |\
+a2 (c'=b d'c'bc') | "^>"d'4 z4 |\
+z8 | z8 |
+z8 | z4 z2 !ff!z"^(8va..."g | g4- g.g.e.c | d4 z2 "^...8va)"zg|\
+"^>"g4- g.g.e.c | "^>"d4 z4 | z8 | z8 | z8 |
+z8 | z8 | z4 z>!ff!ce>g | c'3 c' c'2 c'2 | e'8 |\
+"^(8va..."f3 f g2 a2 | d6 a2 | g4- gefd | c2 c>c "^...8va)"c2 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 name="1st Bb Clarionets" sname="BbClar1"
+K: F
+c>c |\
+f2f2 g2g2 | c'3 a fz f>e | d2 b4 g>e | f2 z2 z2 !pp!f>g |\
+a2 a>a (a3/g//a//) b>a | (ag) gz z2 b>a | b2 b>b b3/a//b// c'>b | a2 z2 z2 !ff!c'>c' |
+c'2 a>f c'2 a>f | c2 z2 !mf!zccc | g3 a b2ge | f4 _e4 |\
+d2 (f=e gfef) | g4 z2 z>b | _a3 a (gaba) | g4- gb_ag |
+f2 f3 (_agf) | =e3 d c2 !ff!zc' | c'4- c'.c'.a.f | "^>"g4 z2 zc' |\
+c'4- c'c'af | g4 z2 z!f!c | f6 f2 | "^>"a8 | b4 c'2 (d'2 |
+g6) d'2 | c'4- c'abg | f2z2 z>!ff!FA>c | f3f f2f2 |\
+a8 | b3b c'2d'2 | g6 d'2 | c'4- c'abg | f2 f>f f2 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 name="2nd Bb Clarionets" sname="BbClar2"
+K: F
+C>C |\
+A2A2 B2B2 | ACCC Czz2 | B2 d2 B2 B2 | A CCC C2!pp!z2 |\
+C2 C>C C2 C2 | zBBB B2z2 | e2 e>e e2 e2 | f CCC C2 c>c |
+c2 A>F c2 A>F | C2 z2 z4 | GBGB GBGB | AcAc AcAc |\
+(B2 G2 _A4) | G4 z2 z>c | =B8 | (_B3 =B) (c_dc_B) |
+(_A2 =A2 B2 =B2) | c2 C4 !ff!zc | A4 A.c.A.f | "^>"e4 z2 zc |\
+A4 AcAf | e4 z2 z!f!C | C6 C2 | C4 c4 | B4 A2 (B2 |
+d6) _a2 | a4 afgB | c>CC>C Czz2 | c3c c2c2 |\
+c6 c2 | B3B A2B2 | d6 f2 | f2 c4 B2 | A2 C>C C2 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 4 name="1st Eb Horns" sname="EbHrn1"
+K: C
+!ff!G>G |\
+c2c2 d2d2 | cccc czz2 | d2d2 d2d2 | cccc c2z2 |\
+c2c>c c2c2 | zddd d2z2 | d2d>d d2d2 | zccc !ff!c2g>g |
+g2 e>c g2 e>c | G2z2 !mf!z4 | B3_B A2_A2 | G4 G4 |\
+(A2_A2 _A4) | B4 z2 !p!z>G | G8 | d8 |
+c2c3 (_edc) | d6 zG | G4 G.g.ec | d4 z2zG |\
+G4 G.g.ec | d4 z2zG | "^>"c6 c2 | c4 c4 | c4 c2c2 |
+c6 c2 | c6 d2 | c>c c>c c2 z2 | !ff!c3 c c2 c2 |\
+c6 c2 | c4 c2c2 | c6 _e2 | =e4 e2 d2 | c2 c>c c2 H|]
+- - - - - - - - - - - - - - - - - - - - - - - - -
+V: 5 name="2nd Eb Horns" sname="EbHrn2"
+K: C
+!ff!G>G |\
+E2E2 G2G2 | EEEE Ezz2 | A2A2 G2G2 | EEEE E2z2 |\
+E2E>E E2E2 | zGGG G2z2 | G2G>G G2G2 | zEEE !ff!E2G>G |
+G2 E>C G2 E>C | G,2z2 !mf!z4 | G,8 | A,4 C4 |\
+C8 | G4 z2 !p!z>G, | G,8 | G8 |
+_A8 | G6 zG | C4 C.G.EC | G4 z2zG |
+C4 C.G.EC | G4 z2zG | E6 E2 | E4 G4 | A4 G2A2 |
+A6 A2 | E6 G2 | E>E E>E E2 z2 | !ff!E3 E E2 E2 |\
+E6 G2 | A4 G2A2 | A6 A2 | c4 c2 G2 | E2 E>E E2 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 6 name="Base" sname="Base" clef=bass middle=d
+K: Eb
+!ff!z2 |\
+[e2E2]z2 [b2B2]B2 | zEGB eEz2 | z2z2 B2B2 | EeBG E2z2 |\
+E2z2 E2G2 | Bbfd B2z2 | B2z2 b2B2 | EeBG !ff!E2z2 |
+z2E>G B2e>g | b2z2 z4 | B4 B4 | G8 |\
+A4 =A4 | B4 z2z>b | B8 | G8 |
+_c8 | B2[f2F2] [B2B,2]z2 | z>Be>g bzz2 | e>bf>d Bzz2 |\
+z>Be>g bzz2 | z2z>bf>d Bz | "^>"[e6E6] e2 | _d8 | c4 c2A2 |
+=A6 A2 | B4 B4 | E>eB>G E2z2 | !ff!e3e e2e2 |\
+_d8 | c4 B2A2 | =A6 A2 | Bege b2B2 | e2e>e e2 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

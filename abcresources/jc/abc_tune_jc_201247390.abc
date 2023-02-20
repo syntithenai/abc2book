@@ -1,0 +1,20 @@
+X: 1
+T: Yan, Tan, Tethera
+T: 8x32J 3C (Derek Haynes, Carnforth Coln.)
+P: Aon Da Tri (One Two Three)
+C: Pat Clark
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+N: The title is a mispronunciation of the Gaelic "One Two Three"
+M: 6/8
+L: 1/8
+K: G
+d \
+| "G"g2G Bcd | "D"^cde "G"d2B | "C"c^cd "G"BAG | "Am"A2F "D7"D2d \
+| "G"g2G Bcd | "D"^cde "G"d2B | "C"c^cd "Am"=cAF | "D7"DEF "G"G2 :|
+G \
+| "C"c2c c2B | "D7"ABc d2^d | "C"e2g "Am"c2A | "D7"dec "G"B2G \
+| "C"cBc "G"d^cd | "Am"e^de "Em"g=fe | "D7"d2d- dec | d3 "G"g2 |]
+G \
+| "C"c2c c2B | "D7"ABc d2^d | "C"e2g "Am"c2A | "D7"dec "G"B2G \
+| "F"A^GA "E7"B^AB | "Am"cBc "G"d^cd | "A7"e2a- ae^c | "D"d3 "D7"[d2=c3F3D3] |]

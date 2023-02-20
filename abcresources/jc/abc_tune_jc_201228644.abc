@@ -1,0 +1,24 @@
+X: 11453
+T: the SNOOD
+O: Ancient Scotch melody.
+Q: "With spirit."
+%R: march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.145 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The rhythms don't match at the strains' boundaries; not fixed.
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+GBBG | FAAF | Eeed | c2A2 |\
+GBBG | FAAc | dAAG | F2 "^Fin."D H:|\
+g |\
+fdfd | fa a(g/f/) | ecec | eg g(f/e/) |\
+fdfd | faac | dAAG | F2 "^D.C."D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Old name, "Hey the bonnie Breast-knots."
+%%endtext
+%%sep 1 1 300

@@ -1,0 +1,24 @@
+X: 1
+T:Flowers of Pittsburgh, The
+R:hornpipe
+C:Tony Upton, 12/9/98
+M:4/4
+L:1/8
+Q:1/4=180
+K:Gm
+BGdG BGdG|(3GAB dc B2G2|AFcF AFcF|AFcF A2GF|!
+BGdG BGdG|(3GAB dc B2G2|AFcF AFCF|[1 FAdA B2G2:|[2 FAdA JB2G2||!
+Bdgd Bdgd|Bdgf d2cB|Acfc Acfc|Acfc A2dc|!
+Bdgd Bdgd|g3f d2cB|Acfc gdBd|[1 FAdA B2G2:|[2 AFGD G4||!
+"Version 2:"
+[GB]G[Gd]G B/A/GdG|(3GAB dc B2G2|
+[A,A][A,F][Ac][A,F] AFcF|[A,A][A,F][Ac][A,F] A2GF|!
+[B,B]G[Bd]G BGdG|(3GAB dc B2G2|
+[A,A]F[Ac]F AFCF|[1 FAdA [G2B2][B,2G2]:|[2 FAdA (G/B/-B)G2||!
+Bdgd B/c/dgd|Bdgf (B/d/-d)cB|[A,A]c[Af]c Acfc|[A,A]c[Af]c (3AAA dc|!
+Bdgd Bdgd|(3fga gf d2cB|Acfc gdBd|F/G/AdA B2G2|!
+[B,B]d[Bg]d [B,B]d[Bg]d|Bdgf (3dcd cB|
+[A,A]c[Af]c [A,A]c[Af]c|Acfc (3AGA dc|!
+Bdgd Bdgd|g3f d2cB|Acfc gdBd|AFGD G/G/GG2||!
+
+% Output from ABC2Win  Version 2.1 h on 13/02/2002

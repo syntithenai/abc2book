@@ -1,0 +1,31 @@
+X: 682
+T: Yeal Yeal
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.68 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has 6 bars.
+M: C
+L: 1/8
+K: Edor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F |\
+EB (d/c/B/A/) dDAF | EB-BA BEBA |\
+(B/c/d) (d/e/f) dDAF | EB-BA BEE :|\
+|: f |\
+gebe (a/g/f/e/) df |
+gebe bege |\
+gebe (a/g/f/e/) df | gebe gebe |\
+(d/e/f/g/) (a/g/f/e/) dDAF | EB-BA BEE :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+e2e2 d2d2 | e2e2 e2e2 |\
+e2e2 d2d2 | e2e2 e2e :|\
+|: z |\
+e2e2 d2d2
+e2e2 e2e2 |\
+e2e2 d2d2 | e2e2 e2e2 |\
+d2d2 d2d2 | e2e2 e2e :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,35 @@
+X: 9
+T: Hunting the Slipper
+%R: reel, march
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.5 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+dd/e/ fd | ee a2 | fdfd | e2 A2 |\
+dd/e/ fd | ee a2 | fdec | d2 z :|
+|: f |\
+ec cf | ec af | ec Be | dc ze |\
+a^gfe | f^gaf | ec Be ec z :|
+|: A |\
+BAFA | dcBA | Bcde | cA zA |\
+BAFA | dcBA | Bdce | d2 z :|
+|: f |\
+gbeg | fadf | Bcde | cA zA |\
+BAFA | dcBA | Bgec | d2 z :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Each strain repeated)
+%%begintext align
+%% Set & change sides & back again |: lead down the mid: up again allemande |:
+%% set contrary corners |: and hands six round and back again |: .
+%%endtext
+%%text DOUBLE FIGURE (Tune play'd twice thro' with repeats)
+%%begintext align
+%% Hey on your own sides |: promenade 3 Cu: |: whole poussette |: whole figure at bottom |:
+%% & swing corners |: set & change places & back with the 3d Cu: |: set 3 across & set 3 in your places |:
+%% lead outsides turn |: and whole figure round the top couple |: .
+%%endtext

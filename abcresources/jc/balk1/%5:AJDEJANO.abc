@@ -1,0 +1,14 @@
+X: 5
+T: Ajde Jano
+F: http://www.youtube.com/watch?v=gDqhElZLnU8
+F: http://www.youtube.com/watch?v=ZQn2l-DGCQ4
+O: Serbia
+M: 7/8
+L: 1/8
+Q: 1/4=120
+K: Dm
+%%MIDI program 41
+%%MIDI gchord f2zczcz
+"Dm"F2E DEFG|"Dm"F2E F2D2|"Dm"F2E DEFG    |"Dm"F3-F4   |
+"Gm"FGA AGGF|G2F FEED    |"Gm"G2F "Dm"FEDE|"Dm"F3-F4   |
+"Gm"FGA AGGF|G2F FEED    |G2F FEDE        |"Am"F2E EDDC|"Dm"D3-D4-|D3-D4|

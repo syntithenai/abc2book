@@ -1,0 +1,25 @@
+X: 1
+T: Indian Queen
+P: Longways for as many as will
+%R: march, reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.267 "A a 2"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+fg |\
+a2f2 d2f2 | e4 A4 | F2A2 A2f2 | e4 e2fg |\
+a2f2 d2f2 | e4 A4 | F2A2 A2f2 | d6 |]
+cd |\
+edcB A2e2 | f2c2 d2B2 | fga2 b2^g2 | a6 ef |\
+gfed c2a2 | B2g2 A2(fg) | e2d2 e2c2 | d6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man meets and set with the 2. wo. and turn Single, and turn her .| The 2. cu. does the same :|
+%% Then all four right-hand a-cross half round, and left-hand back again .| Then back to back again with
+%% your Partner, and right and left quite round.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

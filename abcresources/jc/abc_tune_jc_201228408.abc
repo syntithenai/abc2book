@@ -1,0 +1,29 @@
+X: 11252
+T: the STORM WALTZ
+C: Mozart.
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.125 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Moved 8th-rest "pickup" of strain 2 to end of 1st strain, to fix the rhythm of repeats.
+N: Added dots to rests in bars 37,38 to fix the rhythm.
+M: 3/4
+L: 1/8
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+C2C2C2 | "_>"C2_EDE2 | C2C2C2 | "_>"C2cBc2 |\
+C2C2C2 | "_>"C2_EDEC | =B,2G2G2 | G4 z2 ::\
+G6 | G2e2c2 | c2B2B2 | B6 |\
+dcBcde | fgfdB2 |
+c2c'2c'2 | b6 ::\
+c'bc'gaf | g^fga=fg | e2e2a2 | fgegf2 |\
+d^cdcd^d | e^dedeg | fefdBd | c4z2 :|\
+E2{^d}e2{d}e2 | D2{^d}e2{d}e2 |
+=dcBA^GA | ^G2BGE2 |\
+E2{^d}e2{d}e2 | D2{^d}e2{d}e2 | =dcBA^GB | A4z2 ::\
+"^Dolce."e4d2 | c4G2 | A2AB {d}cB/A/ | A4G2 |\
+g2z>gf>f | e2z>ed>d | c2d2B2 | [c4E4]z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

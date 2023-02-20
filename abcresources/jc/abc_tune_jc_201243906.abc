@@ -1,0 +1,36 @@
+X: 941
+T: Merry Dancers
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.94 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Shortened pickup note (c) to 2nd strain to fix the repeat rhythm.
+N: The sharp sign in bar 8 is a mystery.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c |\
+(TB>AB) cGE | GAG G2c | (TB>AB) cGE | DED D2c |\
+(TB>AB) cGE | GAG c2e | dcB c2B | A^FD D2 :|
+|: c |\
+(B/c/d)B GAG | (B/c/d)B G2c | (B/c/d)B GAG | (F/G/A)F D2c |\
+(B/c/d)B GAG | (B/c/d)B c2e | dcB c2B | AFD D2 :|
+|: g |\
+(Tf>ef) gdB | gdB G2g | (Tfef) gdB | AFD D2g |\
+(Tf>ef) gdB | def gdB | cac BgB | AFD D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g3 g3 | g3g3 | g3g3 | d3 d3 |\
+g3 g3 | g3g3 | g3g3 |
+d3 d2 :|\
+|: z |\
+g3 g3 | g3g3 | g3g3 | d3 d3 |\
+g3 g3 | g3g3 | g3g3 |
+d3 d2 :|\
+|: z |\
+g3 g3 | g3g3 | g3g3 | d3 d3 |\
+g3 g3 | g3g3 | g3g3 | d3 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

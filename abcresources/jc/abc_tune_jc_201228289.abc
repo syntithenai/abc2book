@@ -1,0 +1,31 @@
+X: 11181
+T: Green grows the Rasses
+T: Green grows the Rashes
+N: The tune page has "Rasses" (with a long 1st s); the index page has "Rashes"
+%R: air
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.18 #1 (and top 3 staffs of p.19)
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Dots added to last notes in several strains.
+M: C
+L: 1/8
+K: Bphr
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"B |\
+B3A ABcd | (d/e/f) (Te>d) d3f | e3f gfga | {ga}b2(e>f) e2(Tf3/e//f//) |\
+gfga {ga}b2a>g | (Tf>e) (d/e/)(f/g/) {fg}a2(Tg>f) |
+e2b2 afef | {e}d2(Bc) B3 :: d |\
+(TB>AB)d B2a2 | fefa f2(ed) | (e>d)(e>f) d2d'2 | babd' b2{ab}d'2 |
+(BAB)d B2(a>g) | (Tf>e) (f/g/a) Tf2ed | efab faef | {e}d2Bc B3 :: d |\
+BABc B^cde | (f/a/g/f/) (e/g/f/e/) (d>e) (f/e/f/d/) |
+e(B/A/) GB E(e/f/) (g/f/g/a/) | b(a/b/) (g/a/)(f/g/) e3f |\
+g(b/a/) bG F(a/^g/) aF | Egfe {e}^d2eA | B2b2 afef | {e}d2(Bc) B3 :|
+|: d |\
+(BAB)c B^cde | f>g (f/e/d/^c/) d3f | e2(EF) GABc | (BA)(GF) E2(e>f) |\
+g(d/c/) BG (B/d/)(g/a/) bg | ag/a/ (f/g/)(e/f/) (d>e) (f/e/f/d/) |
+eE (g/f/g/e/) fF (a/^g/a/f/) | b2Bc B3 :: d |\
+B4 d3g | (fe)(d^c) d3f | e4 g3a | bagf e3 g/f/ |
+gGgb fFfa | Egfe {e}T^d2eA | B2b2 afef | "P.19." {e}d2(Bc) B3 :: d |\
+B4 d3e | {de}f2(Ted) d3f |
+e4 g3a | {ga}b2e2 e3f |\
+g2g2 g2(ag) | Tfefg f2(ed) | e2e2 f3e | {e}d2B2 B3 :|

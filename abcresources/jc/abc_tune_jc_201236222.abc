@@ -1,0 +1,29 @@
+X: 218
+T: the Sound of War from the Glen.
+T: Tha Tairm ann sa Ghleann.
+R: air
+N: This is version 1, for ABC software that doesn't understand cres/diminuendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.99 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+Q: "Slow & wildly expressive."
+K: Cm
+% = = = = = = = = = =
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+G2 |\
+!p!(Tc2=Bc) {e}d4 z2G2 | {d}e3c dG3 z2G2 | "_cres"(Tc2=Bc) {e}d4 z2e2 | {e}d3c =BG3 z2G2 ||\ 
+!p!(Tc2=Bc) {e}d4 z2G2 | {d}e3c dG3 z2G2 | (Tc2=Bc) {e}d4 z2Hg2 | {e}d3c =BG3 z2 |] 
+_B2 |\
+!p!{A}G2FE D4 z2(ED) | !f!(E2=B,C) D4 z3_B | !p!{A}G2FE D4 z2E2 | D3C =B,G,3  z2_B2 ||\
+!p!{A}G2FE D4 z2(ED) | !f!(E2=B,C) D4 z3_B | !p!{A}G2FE D4 z2Hg2 | {e}d3c =BG3 z2 |] 
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |\
+!p!c4 =B4 G4 | c4 g4 G4 | c4 f4 ^f4 | =f3^f g4 G4  ||\
+!p!c4 =B4 G4 | c4 g4 G4 | c4 f4 H[c4e4] | f3^f g4 G2 |] z2 |
+!p!e4 B4 G4 | !f!A4 [G4=B4] z4 | !p!e4 f4 ^f4 | g4 G4 z4 ||\
+!p!e4 B4 G4 | !f!A4 [G4=B4] z4 | !p!e4 f4 H[c4e4] | f3^f [g4G4] z2 |]
+% = = = = = = = = = =

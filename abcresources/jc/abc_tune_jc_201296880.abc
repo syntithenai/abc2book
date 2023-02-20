@@ -1,0 +1,26 @@
+X:1
+T: The Kindly Shepherd
+N:
+C:
+S: Play  3  times
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 17 notes)
+K:Am
+M:4/4
+L:1/16
+e4 |a4 c'4 b4 a2 ^g2 |a8 e6 f2 |e4 d2 e2 c4 B2 A2 |A12 e4 |
+%W: A2
+% voice 1 (1 lines, 16 notes)
+a4 c'4 b4 a2 ^g2 |a8 e6 f2 |e4 d2 e2 c4 B2 A2 |A12 B4 |
+%W: B1
+% voice 1 (1 lines, 28 notes)
+c4 d4 e4 d4 |c8 d6 e2 |A4 B4 c4 d4 |e12 e4 |e4 ^f4 ^g4 a4 |^g6 ^f2 e4 c'4 |b4 a4 b4 a2 ^g2 |a12 B4 |
+%W: B2
+% voice 1 (1 lines, 27 notes)
+c4 d4 e4 d4 |c8 d6 e2 |A4 B4 c4 d4 |e12 e4 |e4 ^f4 ^g4 a4 |^g6 ^f2 e4 c'4 |b4 a4 b4 a2 ^g2 |a12 ||

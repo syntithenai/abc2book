@@ -1,0 +1,32 @@
+X:1
+T: Belle of Amherst
+N:
+C:by E. Widmann
+S:Tune is "Sophia"
+A:
+O:
+R:
+M:4/4
+K:C
+I:speed 170
+%W: A1
+% voice 1 (1 lines, 20 notes)
+K:C
+M:4/4
+L:1/16
+d4 |e8 d8 |^c12 e4 |a4 g2 f2 e4 g4 |f4 e2 d2 c4 e4 |d4 c4 B8 |A12 d4 |
+%W: A2
+% voice 1 (1 lines, 19 notes)
+e8 d8 |^c12 e4 |a4 g2 f2 e4 g4 |f4 e2 d2 c4 e4 |d4 c4 B8 |A12 e4 |
+%W: B1
+% voice 1 (1 lines, 20 notes)
+f6 e2 d4 g4 |e12 d4 |e6 d2 c4 d4 |B12 e4 |f4 d4 e4 ^c4 |d4 B4 c4 A4 |
+%W:
+% voice 1 (1 lines, 24 notes)
+B2 c2 d4 d4 ^c4 |d12 d4 |A4 c4 c4 B4 |c4 d2 e2 f2 e2 d2 c2 |B4 A4 A4 ^G4 |A12 e4 |
+%W: B2
+% voice 1 (1 lines, 20 notes)
+f6 e2 d4 g4 |e12 d4 |e6 d2 c4 d4 |B12 e4 |f4 d4 e4 ^c4 |d4 B4 c4 A4 |
+%W:
+% voice 1 (1 lines, 23 notes)
+B2 c2 d4 d4 ^c4 |d12 d4 |A4 c4 c4 B4 |c4 d2 e2 f2 e2 d2 c2 |B4 A4 A4 ^G4 |A12 ||

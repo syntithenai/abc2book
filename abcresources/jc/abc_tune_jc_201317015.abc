@@ -1,0 +1,32 @@
+X: 1
+T: Newmarket
+P: Longways for as many as will
+%R: reel,march
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.33 #59
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.88
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The slur in bar 14 is in DMDfD but not in CCDM1.  The dances are identical except for capitalization and minor spelling differences.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+g4 e2dc | c4 G3F | EFG2 c2G2 | A4 zefg |\
+a4 (ga) (ge) | d4 G4 | (cB) (cd) d3c | c6 zf |
+e3d e2a2 | g3f e2(fe) | d2c2 d2e2 | A4 c4 |\
+(G2E2) (D2C2) | (F2A2) A2Bc | (de) (dB) A2G2 | f6 g2 |
+e2(dc) B2A2 | d4 F2E2 | (cB) (cd) d3c | c8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the Presence, lead up all forward and back .|
+%% That again :| First Man and Wo. change Places, then 1st
+%% and 2d Cu. lead and meet each other, then the 1st Man
+%% take the 2d Wo. and the 2d Man take the 1st Wo. and lead
+%% to the Wall, meet again, then fall back from each other,
+%% then round in a Ring just half Way, then right Hands
+%% with your own, and left to the other Wo. go right Hand 
+%% and left twice over, so to the Bottom .|
+%% [CCDM1]
+%%endtext

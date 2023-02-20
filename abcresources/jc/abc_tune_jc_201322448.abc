@@ -1,0 +1,32 @@
+X: 1
+T: a Paspe
+P: Longways for as many as will
+%R:
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.151 "O 4"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The beaming is a bit odd, but it has been reproduced exactly.  
+M: 3/2
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2c2 cde2 | d3c d2e2 f2g2 |\
+e2c2 cd ef defg | a2 gfed efgfef |\
+d2B2 Bc dB ed cB | A2f2 f2e2 fedc |\
+B3c d2G2 A2^F2  | G4 |]
+B3A GA Bc | d2G2 G2AB cB cd |\
+e2c2 c2 de fe fg | a2f2 fga2 g2f2 |\
+e4 f4 d3c | B4 e4 c3B |\
+A2dc Bc de d2B2 | c4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First cu. cross over to the second improper, then the Figure through the 2. cu. to the second proper, then cross over to
+%% the third improper, then the 1. cu. cast up to the second improper, and cross over below the 2. cu. to the first improper,
+%% then the 1. and 2. we. change places, and the 1. and 2. man the like, then the 1. and 2. cu. all hands half round, and the 1.
+%% cu. cast off to the 2. improper, then the 1. wo. cross over below the 3. wo. and come between the 3. cu. (the 1. man at the
+%% same time cross over and go above the 2. man, and so come between the 2. cu.) then the 1. wo. in the middle of the 3. cu.
+%% hands all three a-breast, (the 1. man the same with the 2. cu. at the same time,) then meet and set, then the 1. man hand
+%% his own and and turn to the second proper.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,16 @@
+X: 20462
+T: LOGAN WATER
+Q: "Andante"
+%R: strathspey, shottish, hornpipe
+B: "Edinburgh Repository of Music" v.2 p.46 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+A>B |\
+c2B>A A3c | (G>E)DE G3B | c2TB>A A3c | (G>A)(cd) e3e |\
+(fa).g.f {f}e2(dc) | (dc)(BA) G3B | (A>B)(cd) e>fed | c2(TB>A) A2 |]
+e^g |\
+a2A2 A3c | G>EDE G3^g | a2A2 A3c | (GA)(cd) e3e |\
+{g}f2(ed) {f}e2(dc) | (dc)(BA) G3B | (A>B)(cc) e>fed | c2(TB>A) A2 |]

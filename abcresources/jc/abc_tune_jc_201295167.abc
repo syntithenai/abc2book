@@ -1,0 +1,88 @@
+I:abc-charset utf-8
+%%titlefont Times-Bold 24
+%%subtitlefont Times-Bold 18
+%%gchordfont Times-Bold 14
+%%composerfont Times-Italic 16
+%%notationfont Times-Bold 16
+%%annotationfont Times-Bold 16
+%%textfont Times-Italic 16
+%%partsfont Times-Bold 14
+%%printtempo 0
+%%printparts 1
+%%partsbox 1
+%%bstemdown 1
+%%withxrefs 1
+%%pageheight 11in
+%%%staffsep .01
+%%topspace .25in
+%%botspace .25in
+%%notespacingfactor 1
+%%stretchlast 0
+%%titleformat  T, R-1 C1
+%%scale .685
+%%footer "Shetland Reels\n$P0.		$P1."
+%%newpage 513
+
+X:0
+%%%footer "Section D"
+%%withxrefs 0
+%%lineskipfac 8
+%%textfont Times-Bold 48
+%%begintext center
+%%Shetland Reels
+%%endtext
+%%titlefont Times-Bold 1
+I:0
+T:_Shetland Reels_
+M:1/1
+K:C
+%%newpage
+
+X:745
+T:Jack Broke Da Prison Door
+C:Joe Buchanan's Scottish Tome - Page 186.1
+I:186 1
+Z:Carl Allison
+R:Shetland Reel
+L:1/8
+M:4/4
+K:G
+D | G2 BG BdBG | vcB(GB) udBA(B | G2) BG BdBG | ABAG E2 D :|
+d | [gB]2 gd edB(G | g2) gd e(aa)(f |g2) (gd) efBG | ABAG E2 D :|
+
+X:746
+T:Aandowin At Da Bow
+C:Joe Buchanan's Scottish Tome - Page 186.3
+I:186 3
+Z:Carl Allison
+R:Shetland Reel
+L:1/8
+M:4/4
+K:G
+v(A | BG)AG !snap!E2 D2 | v(BG)(AG) BGAd | BGAG !snap!E2 (DE) | GABA G2 G :|
+u(g | eg)dB AG E2 | u(eg)dg egvd(g | eg)dB AG Eu(e | !>!g2 g)(vg a)(uf g2) |
+egdg egvdu(g | eg)dB vA(GED) | GAG !snap!E2 (uDE) | (GG)BA G3 |]
+
+X:747
+T:Da Forefit o' Da Ship
+C:Joe Buchanan's Scottish Tome - Page 186.4
+I:186 4
+Z:Carl Allison
+R:Shetland Reel
+L:1/8
+M:4/4
+K:D
+vd2 de dA vF2 | u(AB)AF (ED)EF | ((3AAA) AF ABde | f2 ed B2 AB :|
+d2 (fd) adfd | d2 (fd) eAAf | (a2 a)(e f)def | vd(BuAF) E2 AB :|
+
+X:748
+T:Da Galley Watch
+C:Joe Buchanan's Scottish Tome - Page 186.5
+I:186 5
+Z:Carl Allison
+R:Shetland Reel
+L:1/8
+M:4/4
+K:D
+ue | vdu(f a)fd(f | e2) ce gece | f2 du(f a)fdu(f | eg)fe vfu(d A2) :|
+v(B | A)(GFG [DA]2) [DA]vB | AGFuD [EA]2 [EA]2 | DEFG A(G [FA]) | A(gfe) vfud- d2 :|

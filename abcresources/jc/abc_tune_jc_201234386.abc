@@ -1,0 +1,23 @@
+X: 20473
+T: OYSTER RIVER
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.47 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The key signature is 2 sharps, but it's clearly (mostly) in G; not fixed. 
+N: Rest added as pickup to strain 3, to fix the rhythm.
+M: 2/4
+L: 1/16
+K: Glyd
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+G2B2 BAGA | B2e2 efge | d2B2 A2GA | BcBA GFED |\
+G2B2 BAGA | B2e2 efge | d2B2 A2GA | B2G2 G2 :|
+|: ef |\
+g3a  gfed | g2g2 a2ga | b2b2 a2ga | b2ba gfed |\
+efga gfed | g2g2 a2ga | b2b2 a2ga | b2g2g2 :|
+|: z2 |\
+B2B2 BcBA | G2E2 E4   | A2A2 ABAG | F2D2 D4 |\
+d2c2 d2A2 | BABc d2AG | F2D2 E2DE | F2D2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

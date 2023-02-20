@@ -1,0 +1,20 @@
+X: 1
+T:The Old Frog Dance
+M:6/8
+C:
+S:Bacon (Carey MSS)
+N:Bacon parts (A1, A2) are here (A, Z)
+A:Oddington
+O:English
+R:Jig
+%P:Z.(AZB$^3$Z)$^4$
+P:Z.(AZB3Z)4
+K:D
+I:speed 300
+G "A"|\
+FED AGA | BcB A2 A | dcd B<ed | d3  A2 ||\
+G "Z"|\
+FED AGA | Bcd A2 A | dcd B<ed | cBc d2 ||
+d "B"|\
+cde efe | ecA ABc  | ded dcB  | BGG G3 |\
+FGA D3  | GAB E3   | FGA Bed  | cBc d2 |]

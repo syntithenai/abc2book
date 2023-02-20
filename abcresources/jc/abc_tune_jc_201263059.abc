@@ -1,0 +1,17 @@
+X: 567
+T: the Cock and Hen   #2
+T: coilea.c agus an cear.c, an
+R: jig, air
+%S: s:2 b:16(6+4)
+B: O'Neill's 1850 #567
+O: F.O'Neill.
+Z: J.B. Walsh, walsh@math.ubc.ca
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+Q: "Playfully."
+M: 6/8
+L: 1/8
+K: G
+"^A"[|] (d/c/) | BAB GAB | cBc d2g |1 cAA BGG | cAA A2 :|2 fdd c2A | BGG G2 |]
+"^B"[|  (B/A/) | GBd gfg | agf g2e | ddc BAB | cAA "^->A2"A2 |]

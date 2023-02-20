@@ -1,0 +1,23 @@
+
+X: 1
+T: Dobrudzanka Pandela
+O:Bulgaria
+S:Learned and collected in Bulgaria by Jaap Leegwater (JL1985.01)
+L:1/8
+M:2/4
+Q:1/4=160
+K:D
+"A"|:\
+"A"A2 e2 | ed ed | c3 B | "G"B3A |\
+G2 B2 | c2 BA |[1 "A"A2 AB | cd e2 :|[2 "A"A2AE | A4 ||
+"B"|:\
+"A"ABBA | ABBA | ABBA | "Em"GFE2 |\
+"A"ABBA | ABBA | A2AE | A4 :|
+"C"|:\
+"G"=cddc | =cdcB | "Am"A2ed | d=ccA |\
+"G"=cddc | =cdcB | "Am"A4 | A4 :|
+"D"[|\
+"A"c2BA | A4 | "E"ABBA | "A"A4 |\
+ABcd | "E"c2BA | A4 | "E"ABBA | "A"A4 |
+ABcd | "E"c2BA | A4 | "E"ABBA | "A"A4 |\
+ABcd | "E"c2BA | A4 | "E"ABBA | "A"A4 | A2z2 |]

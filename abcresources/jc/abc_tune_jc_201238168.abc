@@ -1,0 +1,35 @@
+X: 30321
+T: PITSBURGH WALTZ
+C:
+%R: waltz
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.32 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+ef |\
+gec2 c'a | gec2 ge | fdBGBd | f2e2 ef |\
+gec2 c'a | gec2 ge | fdBGAB | c4 :|
+|: Bc |\
+dBGBdf | ecGceg | afafc'a | {^f}g2{f}g2 Bc |\
+dBGBdf | ecGceg | a^gafdB | c4 :|
+|: G2 |\
+c2e2g2 | gagfe2 | d2c2d2 | e2c2G2 |\
+c2e2g2 | gagfe2 | d2c2d2 | c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+cd |\
+e2E2f2 | e2E2 ec | d2d2G2 | d2c2 cd |\
+e2E2f2 | e2E2 ec | d2G2F2 | E4 :|
+|: z2 |\
+G2G2B2 | G2G2c2 | f2f2 af | e2e2z2 |\
+G2G2B2 | G2G2c2 |
+d2B2G2 | E4 :|\
+|: G2 |\
+E2c2d2 | efedc2 | B2A2B2 | c2G2E2 |\
+E2c2e2 | efedc2 | B2A2B2 | c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

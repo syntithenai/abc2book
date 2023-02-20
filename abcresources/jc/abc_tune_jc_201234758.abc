@@ -1,0 +1,32 @@
+X: 20761
+T: LA CI DAREM LA MANO
+C: Mozart
+Q: "Allegretto"
+%R: march
+B: "Edinburgh Repository of Music" v.2 p.76 - p.77 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+[|"_P."\
+g2ga b2g2 | e2 "_>"a4 g2 |\
+f2ff g2a2 | d2("_F."c'2b2a2) |\
+g2ga b2g2 | (fe) "_>"a4 g2 |\
+g(fed) d2ef | g2("_F."d'2c'2a2) |\
+"_P."g3ab2g2 | e2 "_>"a4 g2 |
+f3f g2a2 | d2 (c'2b2a2) |\
+g3a b2g2 | e2 a4 g2 |\
+g(fed) d2(ef) | gb d'4 a2 |\
+(c'b).a.g g2ba | a2g2 |][| d'2b2 |\
+a2fd b2d'b | a3f a2a2 |
+(^gaba) (ga=ge) | (g2f2).d2.f2 |\
+("_F."a2f)d (b2d')b | a3f a2z2 |\
+"_P."a2aa (^ga)(=ga) | (fa).a.a (^ga)(=ga) |\
+(fa).a.a (^ga)(=ga) | f2d2 (a2f2) |\
+c'3b (ac').b.a |
+g2ga b2g2 |\
+e2 a4 g2 | f3f(g2a2) |\
+.d2("_F."c'2b2a2) | ~g3"_P"a{c'}b2{a}g2 |\
+e2 "_>"a4 g2 | g(fed) .d2(ef) |\
+gb d'4 a2 | c'bag g2ba | g2b2g2z2 H|]

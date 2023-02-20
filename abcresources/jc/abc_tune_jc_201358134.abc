@@ -1,0 +1,1705 @@
+X: 1
+T: Acku Dantza
+O: France
+M: 2/4
+L: 1/16
+K: Dm octave=1
+%%MIDI drum d2ddd2d2 41 41 41 41 41
+%%MIDI drumon
+|:f2 gf e2 fe|dzg2 g2f2  |\
+  e2c2 e2g2  |b2ag f2f2  |
+  f2 gf e2 fe|dzg2 g2f2  |\
+  e2c2 e2g2  |b2ag f4    :|
+|:c2ee e2c2  |d2ff f2d2  |\
+  d2ef g2f2  |e2d2 e2c2  |
+  c2ee e2c2  |d2ff f2d2  |\
+  d2ef g2f2  |[1 e2d2 e4 :|\
+  [2 e2d2 d4 |
+
+
+
+X: 2
+T:Andro Retournee
+O:France
+F: http://www.youtube.com/watch?v=DAimwlS0yKE
+F: http://www.youtube.com/watch?v=QnOqkbm6DW4
+M:4/4
+L:1/8
+Q:1/4=180
+K:A
+  E4               |"A"AG A2 A2 A2 |"E"Bz B/B/B "A"c2 c2| "A"AG A2 A2 A2|\
+  "E"Bz BB "A"A2 E2|"A"AG A2 A2 A2 |"E"Bz B/B/B "A"c2 c2|\
+  "A"AG A2 A2 A2   |"E"Bz BB "A"A4 |
+|:"Bm"d2 cB "A"c4  |"Bm"d2 cB "A"c4| "A"c2 e2 A2 c2     |\
+  "E"B2 BB "A"c4   |"A"c2 e2 A2 c2 |"E"B2 BB "A"A4      :|
+
+
+
+X: 3
+T: Andromadere
+O: France (shottis)
+S: Ad vielle que poura
+M: 2/4
+L: 1/8
+Q: 1/4=84
+P:ABABCCDDEEDD
+K: Am
+P:A
+%%MIDI program 21
+%%MIDI bassprog 24
+%%MIDI bassvol 60
+%%MIDI gchord fzfz
+  E                        |:"a" AA "d" Bc/B/          |"a" AA "d" Bc/B/             |\
+  "a" AA c/B/c             |"a" e/d/4z/4c/4d/4c/Bc/d/  ::"a" AA "d" Bc/B/           |
+  "a" AA "d" Bc/B/         |"a" AA c/B/c               |[1 "e" e/dc/4d/4c/4B/4-B/2E  :|\
+  [2e/dc/4d/4c/4B/4-B/2c/d/|
+P:B
+|:"a" eA Ac/e/             |"d" d/c/B/A/ Bc/d/         |\
+  "a"eA Ac/e/              |"d" d/c/B/A/ "a" Ac/d/     :|
+P:C
+|:"a" E/F/E/D/ E/A,/A,/E/  |A/c/B/A/ B/E/E/D/          |\
+  E/F/E/D/ E/A,/A,/C/      |B,/A,/G,/A,/ A,E           :|
+P:D
+|:"a" A,A, FF              |A,A, G,G,                  |[1 A,A, CC                   |\
+  DD E2                    :|A,C DB,                   |A,4                          |
+P:E
+K:Em
+|:"a" A2 cB                |AG ED/E/                   |[1FG ED/E/                   |\
+  F/G/F/G/ E2              :|[2 FGED/C/                | B,2 A,2                     |
+
+
+
+X: 4
+T: Arnold's Circle
+O: England
+Z: copied from Deborah Jone's transcription
+F: http://www.youtube.com/watch?v=5JSdmgqkaeE
+F: http://www.youtube.com/watch?v=VYB8mXb2fnw
+M: 6/8
+L: 1/8
+K: D
+   FE               |: "D" A2 A BA^G | A2F D2E       | F2F G2F        |"G" E2B, B,CD|
+   "A7" E2F E2C     |A,CE A3         |[1 "D" A^GA B2A| F3-FFG         :|\
+   [2 "A7" A^GA B2 C| D3-DDE         |
+|: "D"F2A, F2A      | F3-F2E         | DEF AGF       |G3 FEF          | "A7" GBA GFE|
+   DCB, A,3         | [1 "D" A^GA B2A| F3-FDE        :|[2 "D" A^GA B2C| D3-D3       |
+
+
+
+X: 5
+T:Avant-Deux de Travers
+O:France
+F: http://www.youtube.com/watch?v=rapmgtdP1Y0
+F: http://www.youtube.com/watch?v=NFshFVMVsUc
+F: http://www.youtube.com/watch?v=VXF1vRt0Cxo
+M:2/4
+L:1/8
+Q:1/4=160
+K:E
+|:B,B, EE |GF/G/ F2|AA GG|FF GE    |
+  B,B, EE |GF/G/ F2|AA GG|FF E2    :|
+|:BG/B/ BB|ce B2   |AA GG|FE/F/ GE |
+  BG/B/ BB|ce B2   |AA GG|FE/F/ E2 :|
+
+
+
+X: 6
+T: Azul Cielo
+O: Mexico
+Z: Deborah Jones VIFD 2
+M: 3/4
+L: 1/8
+K: F
+Q: 1/4=240
+V:1
+"C7" g3a b2| e2 f2 g2|c2d2c2|B2G2 E2|C6|\
+V:2
+z6         |z6       |c6-   |c6-    | c6|\
+V:1
+M:4/4
+[C2E2G2c2] z3 G^F^A|
+V:2
+M:4/4
+ z8|
+V:1
+"F" d4- dcAF|D4-DCDE|G3F E3D|
+V:2
+zF^GAd z3|z cAF Dz CB,|A,4 C3A|
+V:1
+"C7" .F2 E3 BAB| e4- edBG| E4-ED^CD|
+V:2
+B,DFD E z3     |zBABe z3 | zdBGEz3 |
+V:1
+B3 BA3   A |"F".G2 F3 A^GA| d4-dcAF    |
+V:2
+FGED CDEB, |A,CFG A z3 | z F^GA d z3|     
+V:1
+D4- Dc=Bc |"F#dim"_e3d c3 B|A2 G3 D^CD|
+V:2
+zcAF D z3 |_edcB ABcB      |AG^FA GD^CD|
+V:1
+"Bb" B3c B3c|"F"B2 A3 C=BC|"C7".A2.G2.D2.E2|"F".F2.C2.A2 z2|
+V:2
+d3e d3e     |d2 c3 A^GA   |c2 B2 B2 B2     |A2 A2 A2 z2|
+%not completed
+
+
+
+X: 7
+T:Bazetan Dantza
+O:Spain, Basque
+F: http://www.youtube.com/watch?v=EqFjEl-ASAY
+M:4/4
+L:1/8
+Q:1/4=180
+K:G
+%%MIDI gchord zzfzzzfz
+|:"G"defa g2d2|BdBG "C"c4|"G"BdBG "Am"AcAF| "G"G2 G2 G2 z2  :|
+|:GAB2 BGc2   |cAB2 BGc2 |BdBG "Am"AcAF   | "G"G2 G2 G2 z2  :|
+|:G2d2d2e2    |c2d2B2e2  |c2d2B2e2        |c2d2B2z2         |\
+  c3dedcB     |A2GFG2z2  :|
+
+
+
+X: 8
+T:Carnavalito
+O:Bolivia
+F: http://www.youtube.com/watch?v=tAiEzBaNnIM
+M:4/4
+L:1/8
+Q:1/4=180
+K:Bb
+|:B,D2 F GB2G  |Fz Dz B,2 z2        |C D2 E D D2 C |[1 B,z Dz F2 z2 :|[2 B,z B,z B,2 z2|
+  F2 B2 F2 B2  |d/e/d/e/d/e/ B F2 z2|D2 F2 D2 F2   |B3 F D2 z2      |\
+  B,2 D2 B,2 D2|F3 DB,2 z2          | DF2GAB2F     |B,2 D2 E2 F2 
+|:GG3 GG3      |GG3 EB3             | FF3 FF3      | FF3 DB3        |\
+  EE3 EE3      | EE3 EF3            |FF2F F2E2     |[1 D2 D2 E2 F2  :|[2 B,4 z4        | 
+
+
+
+X: 9
+T: Cumbia Semana
+O: U.S.A.
+C: Fito Olivares 
+F: http://www.youtube.com/watch?v=A4-8McI-e_4
+F: http://www.youtube.com/watch?v=ijJKJ8FoQgw
+W:transcribed by Jutta Weber-Karn
+W:http://www.folkloretanznoten.de/
+W:converted to abc notation without the lyrics
+M: 4/4
+L: 1/8
+K: F clef=treble
+P:A
+A,DF|:"Dm"AABA BABA|"A"G2 E^C zA,CE|GGAG AGAG|[1 "Dm"F2 EDz A,DF:|[2"Dm"F2 ED zfdc|:
+FDFA BABA|"A"G2 E^C z e^cA|G^CEG BABA|[1"Dm"F2 ED z fdA:|[2 "Dm" F2 EDz A,DF|
+P:B
+|:"Dm" A2 AA B AGF|"A"A2G2 z A,^CE|G2 GG AGFE|[1 "Dm" G2F2 z A,DF:|[2 G2 F2z BAB|
+P:C
+|:"Dm" DDFA zBAB|"A"Az2B ABAB|^CCEG zBAB|[1"Dm"Az2B ABAB:|[2 A2 F2z A,D F|
+P:D
+"Dm"A2 AA BA GF|"A"A2 G A, A,A,^CE|\
+G2 GG AG FE|"Dm"G2 F2 z A,DF|
+ AAAA BAGF| "A"A2 G2 z A,^CE|\
+ G2GG AGFE|"Dm"A2 F2 z BAB|
+P:E
+|:DDFA zBAB|"A"Az2B ABAB|[1^CCEG zBAB|"Dm"AzB BABAB:|[2 ^CCEG zAGF|D2z2z ABG|
+P:F
+"Dm"A2FD "Gm"B2AG|"A"A2 E2 zBAG|A2^CE ABAG|"Dm"A2 F2 zBAG|
+A2FD "Gm"B2AG| "A"A2E2 zBAG| A2DF GBAG|"Dm"A2F2z DFA|
+P:G
+|:D2F2A2BA|"A"zBAB A^CEG|^C2E2G2 BA|"Dm"zBAB ADFA:|D2F2B2 BA|"A"zBAB A^CEG|
+^C2E2G2 BA|"Dm"zBAB ADFA|D2F2A2 BA|"A"zBAB A^CEG|^C2E2G2 BA|zAAA Az3:|
+
+
+
+X: 10
+T: De Valse Zeeman
+O: Netherlands
+F: http://www.youtube.com/watch?v=q48Y6kKwtY0
+F: http://www.youtube.com/watch?v=ChinGFNhR5I
+F: http://www.youtube.com/watch?v=9rlhRQID5Vw
+F: http://www.youtube.com/watch?v=80R9BWBg6iI
+M: 3/4
+L: 1/8
+K: Cm
+%%MIDI program 73
+%%MIDI bassprog 45
+%%MIDI beat 90 80 70 4
+%%MIDI gchord f
+P:A
+"C" z6  |"G" z6 |"G#" z6|"F"z6  |:"C"C2C4 |"G"G2G4|
+"G#"A2G4|"F"E2C4|"C"D2E4|"G"E2D4|"G#"E2C4-|"F"C6  :|
+%%MIDI gchordoff
+P:B
+G2F2E2  |D2E2D2 |C4E2   |D2z2E2 |E6       |D4E2   |E6  |
+z6      |E2C4   |C2D4   |D2D4   |E2E4     |E2C4   |C2D4|E2E4|
+
+
+
+X: 11
+T: El Cerro de la Silla
+O: Mexico
+F: http://www.youtube.com/watch?v=yJrYPI46ITs
+F: http://www.youtube.com/watch?v=C31v5p9sVbc
+M:4/4
+L:1/8
+K:C
+Q:1/4=160
+%%MIDI program 22 % harmonica
+  A                |:.c.A .d.c .f.c .e.B|\
+  .d.c .c.B c2 cA  |.c.A .d.c .f.c .ed  |e2 dc .dA .cA  |
+  e2 ed eA cA      |e2 ed eA cA         |\
+  e2 d2 c2_Bd      |[1c2 cB c3A         :|[2 B2 cB cF AF|
+K:F
+|:.d.d .d.d .dA FA | .d.d .d.d .dA FA   |\
+  .d.d .d.d .dA FA |_B4-BC FA           |
+  .c.c .c.c .cC FA | .c.c .c.c .cC FA   |\
+  .c.c .c.c .c.B AG|[1A6 FA             :|[2 F8         |
+
+
+
+X: 12
+T: En Sang Til Deg
+O: Norway
+M: 2/4
+L: 1/8
+Q: 1/4=160
+K: Em
+%%MIDI gchord zf
+"D"z2"Em"B,2|E2E^D    |E2"Bm"d2|B2B2    |\
+F3A         |G2"G"GF  |E2"Em"E2|FE"B"F^D|B,3B,|
+E2"B"E^D    |E2"Bm"d2 |B2B2    |F3A     |\
+"C"G2GE     |F2"Bm"F^D|"E"E4-  |E4      |
+
+
+
+X: 13
+T: Farmer's Quadrille
+M: 6/8
+L: 1/8
+Q: 1/4=180
+K: G
+%%MIDI gchord fzzfzz
+%%MIDI program 23
+%%MIDI bassprog 32
+  [G,6B,6D6]    |z6              |\
+  "d"D3 "g"GFG  |"d"BAG "b"B2d   |"d"d2c Bdg      |d2c "b"B2A        |
+  "g"G3 GFG     | BAG "b"B2d     | "d"d2g fgf     |"g"ed^c d2F/G/    |
+  "a"A3 "c"c2B  |"d"AGF "g"G2F/G/|"a" A3 "c"c2B   |"f#"AGF "g"G3     |
+  "e"Ecc "b" DBB|"c"CAA "b"B,3   |"c"CB,A, "d"D2F,|"f#"A,G,F, "g" G,3|
+|:"b"B3 "a" A3  |"d"AGF "g"G3    |"d"d3 "c"c3     |"a"cBA "b"B2g     |
+  "g"g2f "f#"f2e|"e"e2d "b"dBB   |"d"Bcd dcB      |"a"A6             :|
+| "g"G6         |"d" B,ED DD2    |"c"c6           |"f#"F,AG "g"GG2   |
+  "e"E2c "d"D2B |"c"C2A "b"B,2G  |"a"CB,A, "d"D2F |A,G,F,"g" G,3     |
+
+
+
+X: 14
+T: Friday Night Mixer
+M: 2/4
+L: 1/8
+Q: 1/4=240
+K: G
+%%MIDI gchord fz
+%%MIDI program 23
+%%MIDI bassprog 32
+|:GA        |"b"B2 BG |"a"A2 AF |"g"G2 GE |"d"D2G2|\
+  "f"F2FB,  |"e"A,2 E2|"d"DCDC  |"b"B,2 GA|
+  "b"B2 BG  |"a"A2 AF |"g"G2 GE |"d"D2G2  |\
+  "f"F2A,B, |"e"C2E2  |"f#"G2 GF|[1"g"G2  :|"g"G4 |
+|:"g"G,3B,  |"d"D2G2  |"e"EFGE  |"d"D3G   |\
+  "f#"F2A,B,|"c"CB,CE |"d"DEDC  |"b"B,4   |
+  "g"G,3B,  |"d"D2G2  |"e"EFGE  |"d"D3G   |\
+  "f#"F2A,B,|"c"CDEF  |"f#"GFGF |"g"G4    :|
+
+
+
+X: 15
+T:Gammal Schottis
+O:Sweden
+M:2/4
+L:1/8
+Q:1/4=160
+K:FDor
+ C      |:FEFE|F2 e2|c2c2|G2B2\
+|[1 A2A2|F2F2 |GFGE |C3C :|\
+ [2 AGAF|GFGE |F4-  |F4  |
+
+
+
+X: 16
+T: Gay Gordons
+O: Scotland
+F: http://www.youtube.com/watch?v=8DizrIpehgE
+M: 2/4
+L: 1/8
+Q: 1/4=180
+K: Ador
+%%MIDI gchord fc
+%%MIDI program 23
+%%MIDI bassprog 32
+%%MIDI chordprog 24
+A3F     |:\
+"A"E2A,2|E3D       |E2A2    |A3F    |\
+"G"G2G,2|"G"B,2B,G,|"G"B,2D2|D2AF   |
+"A"E2A,2|E3D       |E2A2    |"A"A3F |\
+"G"G2E2 |E2DB,     |"A"A,4  |"A"A,4 :|
+A3F     |:\
+"A"E2A2 |A3F       |G2FE    |A3F    |\
+"G"G2G,2|B,2B,G,   |B,2D2   |D2AF   |
+"A"E2A,2|E3D       |E2A2    |A3F    |\
+"G"G2E2 |E2DB,     |"A"A,4  |A,4    :|
+A3F     |:\
+"A"E2A,2|^C2B,A,   |ED^CD   |E2GE   |\
+"G"D2G,2|B,2A,G,   |DCB,C   |D2AF   |
+"A"E2A,2|^C2B,A,   |ED^CD   |E2GE   |\
+"G"G2E2 |E2DB,     |"A"A,4  |A,4    :|
+
+
+
+X: 17
+T: Goteborgsk Mazurka
+O: Scandinavia
+F: http://www.youtube.com/watch?v=gxT7Q7B2s6g
+M: 3/4
+L: 1/8
+Q: 1/4=120
+K: G
+%%MIDI program 41
+%%MIDI chordprog 24
+%%MIDI bassprog 26
+  "G" B,DD GGB|Bc/B/AGA2|"D"AddcBA  |"G"G2 G2 z2       |
+|:"G"B,DD GGB |Bc/B/AGA2|"D"Add cAF |"G"G2 A2 B2       |
+  "G"B,DD GGB |Bc/B/AGA2|"D"Add cAF |"G"G2 G2 z2       :|
+|:"G"Bd g2d2  |B2 GDGB  |"D"A2 Ad dc|"G"B>A B/c/B/A/ G2|
+  Bd g2d2     |B2 GDGB  |"D"A2 Ad dc|"D"G2 G2 z2       :|
+
+
+
+X: 18
+T: Graziella Mazurka
+O: Italy
+M: 3/4
+L: 1/16
+Q: 1/4=120
+K:F#m octave=1
+%%MIDI program 73
+%%MIDI bassvol 70
+%%MIDI chordprog 25
+%%MIDI bassprog 1
+%%MIDI chordvol 70
+  "F#m"f=f^f^g a2f2 c2A2|"Bm" B^AB^c d2B2 z4   |\ 
+  "C#"cBcd cBcd cBA^G   |"F#m" ABcA F4 z4      |
+  "F#m"cAFA cAFA cAFA   |"Bm" BcBA G4 z4       |\
+  "Bm" BAGA BAGA BAGA   | BdcB ABcA F4         |
+  "F#" f=f^f^g a2f2 c2A2|"Bm" B^AB^c d2B2 z4   |\ 
+  "C#"cBcd cBcd cBA^G   | "F#m"ABcA F4 z4      |
+  "B/D" BABc dcde f^efg |"C#m" agab c'bag f^edc|\
+  "F#m" dcBc dcBc agf2  |z12                   |
+|:"F#m"fz3 Bcde fgag    |agfg f/g/f/g/g2e4     |\
+  "A"dz3 FGAB cdfe      |"C#m"dec/d/c/d/ d4 c4 |
+  "C#m"cz3 FGAB dced    |"F#m"Bz3 FGAB cBdc    |\
+  [1"Bm"BAcB dced c4    |"C#m"c4 z8            :|\
+  [2"Bm"Gz3 c^Bag c^BAg |"F#m"f4z4F4           |
+
+
+
+X: 19
+T:Hag er ble-men
+T:An dro
+S:from record
+S:Dir Hir Tan: Celtic Songs From Brittany (Ariane Segal)
+O:France, Brittany
+F: http://www.youtube.com/watch?v=XsbhmLfe4ss
+L:1/8
+M:2/4
+Q:1/4=180
+K:D
+| "D"z2 D2   |: F2 A2  | "G"G2 "Em"GE | "D"F2 "Em"E2 | "D"D2 D2  :|\
+|:"D"A2 A2   | A2 AB   |
+  A2 D2      | "G"G2 G2| "D"A2 "G"G2  | "D"F2 FE     | F2 "Em"E2 |\
+  "D" D2 D2  :|
+
+
+
+X: 20
+T: Hambo
+O: Sweden
+M: 3/4
+L: 1/8
+Q: 1/4=144
+K: G
+|:"G"G2 GABc   |de d2 cA   |c2 BA F2   |"D7"A2 GAB2 |\
+  "G"G2 GABc   |de d2 cA   |c2 BA F2   |A2 G4       :|
+|:"D7"B>A GA B2|"C"edcB A2 |cBAG F2    |"D7"A2 GA B2|
+  "D7"B>A GA B2|"C"edcB A2 |"D7"cBAG F2|"G"A2 G4    :|
+K: C
+|:"C"c2 cdef   |"C"g2 ga g2|"F"f2 fe f2|"C"e2 ed e2 |\
+  "F"f2 fe f2  |"C"e2 ed e2|"F"e2 fd B2|"C"d2 c4    :|
+
+
+
+X: 21
+T: High Green Mountain
+T: Kao Shan Ching
+O: Taiwan
+M: 4/4
+L: 1/8
+K: C#Phr
+Q: 1/4=108
+%%MIDI program 71 clarinet
+%%MIDI drum d2z2d2d2 81 80 80
+%%MIDI drumon
+Z            |C2 FE GGGF |C2 E2 C4|\
+G2 BG F2 E2  |EF E2 C4   |\
+GG2G G2 B2   |c2 BG F2 F2|
+G2 B=c ^c2 c2|e2c2 c2G2  |\
+c3G F2G2     |GB2GF2G2   |FEC2 C4 |
+
+
+
+X: 22
+T: Irish Line Dance
+O: Ireland
+F: http://www.youtube.com/watch?v=jybBe47Eh6c
+N: Medley of The Flowing Bowl/ Maire Breathnach's #1
+N: The Doon/ The Mason's Men
+T:The Flowing Bowl
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:D
+Q:1/4=240
+|"A"gfed cAAB|(3cBA dc cAAf|gfed cAAA|fage "D"d2 ef|"A"gfed cAAB|(3cBAdc cAAf|gfed cAAA|fage "D"d2 (3ABc|
+d2 fd adfd|d2 fa "G"gece|"D"d2 fd adfd|"G"gfge "A"cABc|"D"d2 fd adfd|d2
+fa "G"gece|"D"fefd "G"g2 ge|"A"fage "D"d2 ef:|
+T:Maire Breathnach's #1
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:Am
+|:AB|"Am"c2 Bc AGED|"G"CDEF GABd|"Am"c2 Bc AGE^F|"G"GEDC A,2 AB|"Am"c2 Bc AGED|CDEF GABc|"G"dB (3BBB BcBA|"Em"GEDC "Am"A,2:||
+|:K:A"A"c3 B ABcd|eAce =g3 f|"G"eaaa a=gea|"D"=gedB BAAB|"A"c3 B ABcd|eAce =g3 a|"G"ba=gb agea|"D"=gedB BAAB:|
+T:The Doon
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:D
+|:"D drone"DFAF BFAF|DFAF GFEF|DFAF BAFA|1 (3Bcd ec dBAF:|2 (3Bcd ec d2AB|
+|d2 fd Adfd|ddfd BAFA|dd (3ddd Adfg|afed BAFA|Adfd Adfd|Adfd edef|gfec dcBA|(3Bcd ec dBAF||
+T:The Mason's Men
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:John Williams
+S:Solas
+K:D
+"G"dGBd "A"cdeg|"D"a2 ge fdec|"G"dGBd "A"cdeg|"D"fdec dgfe|"G"dGBd "A"cd
+eg|"D"a2 ge fdec|"G"dGBd cdeg|"A"fffe d2eg|
+|:"Bm"fBBB FBdB|"A"ceae fceg|"G"fBBB FBdB|1"A"cBcd B3 e:|2 "A"cBcd B3 c ||
+W:
+W: transcriptions found in http://blackrosetheband.googlepages.com/ABCTUNES.ABC
+W: also see http://bardicrose.com/
+
+
+
+X: 23
+T: Jatkan Lauantai
+O: Finland
+F: http://www.youtube.com/watch?v=BKUoX_yi9Pw
+M: 2/4
+L: 1/8
+Q: 1/4=160
+K: G clef=treble
+%%MIDI gchord fc
+%%MIDI program 110
+%%MIDI bassprog 45
+%%MIDI chordprog 45
+%%MIDI bassvol 35
+%%MIDI chordvol 34
+"C"E2 EE|E4       |"D"D2 DD   |D4         |\
+D,D, D,2|"G"C2 B,2|"Am"A,2 A,2|"G"G,G, G,2|z4|
+"G"D2 DE|DCB,A,   |G,2B,D     |G2B2       |\
+"D"A2 AB|c2 A2    |"G"GFGE    |D2 EE      |
+"C"EFG2 |E2 DD    |"G"GA B2   |B2A2       |\
+"D"D2D2 |B2A2     |"G"GG G2   |z4         |
+"C"BGDG |B2AB     |"C"cAEA    |c2z2       |\
+"D"DDDD |D2DE     |"G"GFGA    |B4         |
+"C"e2 ee|e4       |"D"d2 dd   |d4         |\
+DD D2   |c2 B2    |A2 A2      |"G"GG G2   |z4|
+
+
+
+X: 24
+T: Jeitili
+O: Lebanon
+F: http://www.youtube.com/watch?v=G1QXby8BxPc
+M: 2/4
+L: 1/8
+K: Am
+Q:1/4=240
+%%MIDI program 111 Shanai
+%%MIDI drum dzdz 43 60 90 60
+%%MIDI drumon
+Z4|zcBA|A4|A4|A4|A2z2|
+A2d2|c2d2|A2c2|B2c2|A2c2|B2c2|A2BG|A4|\
+Z4|A2c_B|c4|A2c_B|c4|A2B2|c2B2|A2c_B|c4|
+A2B2|c2B2|A2c2|A4|Z4|\
+A2B2|c4|A2B2|c4|A2c2|B4|A2B2|c4|
+A2B2|c4|A2B2|A4| Z4|\
+c4|c2c2|c4|c2c2|A2c2|B4-|B2z2|
+A2B2|c4|A2B2|c4|A2c2|A4|
+
+
+
+X: 25
+T:Kreuz Koenig
+T:Kreuz Konig
+T:Kreuzkonig
+T:Kreuzkoenig
+O:Germany
+F: http://www.youtube.com/watch?v=Jlu-GRlRg-c
+F: http://www.youtube.com/watch?v=i3HeXSSCkg8
+F: http://www.youtube.com/watch?v=F_1AfmOsm40
+M:3/4
+L:1/8
+Q:1/4=160
+K:Bb clef=treble
+  [B,4F,4]z2   |[D4B,4]z2       |F2 FF F2         |[B,4F,4]z2
+|:"Dm"F,2D2D2  |EFED "F"C2      |"Dm"F,2"Eb"E2E2  |"Dm"FGFE D2      |
+  F,2D2D2      |EFED "F"C2      |"Dm" A,GFEDC     |"Bb"B,2B,2"Dm"z2 :|
+K:Eb
+Q:1/4=240
+|:"Eb"B,E G2 G2|"Fm"A3 F "Gm"D2 |"Eb"B,E G2 "Cm"c2| "Eb"B3 G E2     |
+  "Eb"B,E G2 G2|"Fm"A3 F "Gm"D2 |"Eb"BcBAGF       | E2 E2 "Dm"z2    :|
+
+
+
+X: 26
+T: La Partida
+S: Seth Austin to CoMandoList TOW 2008
+O: Venezuela
+F: http://www.youtube.com/watch?v=bWay7VQ_lZM
+F: http://www.youtube.com/watch?v=7-KZpSZVSJ4
+F: http://www.youtube.com/watch?v=1OG-AiLDnUY
+M: 3/4
+L: 1/8
+R: choro
+R: waltz
+K: Bmin
+Q:1/4 = 160
+%%MIDI program 22 % Harmonica
+%%MIDI chordprog 21 % Accordian
+%%MIDI bassprog 24 % Acoustic Guitar (nylon)
+%%MIDI beat 97 87  77 4
+%%MIDI ratio 2 1
+%%MIDI chordvol 60
+%%MIDI bassvol 77
+  FGF^EF        |:"Bm"d3FdF|d3FdF             |"F#"de/d/c^Bc2|zEFE^DE |
+  "F#"c3EcE     |c3EcE     |"Bm"cd/c/B^AB2    |zFGF^EF       |
+  "B7"B3^A B=c  |B3 A GF   |"Em"FG/F/E^DE2    |zGFEDC        |
+  "Bm"B,^A,B,CDE|"F#"FGFEDC|"Bm"B,C/B,/^A,B,DF|1BFGF^EF      :|2BzF2F2||
+|:"F#"feFfeF    |feFfeF    |"Bm"edFedF        |edFedF        |
+  "F#"dcFdcF    |dcFdcF    |"Bm"cBFcBF        |cBFcBF        |
+  "B7"BAFBAF    |BAFBAF    |"Em"FG/F/E^DE2    |zGFEDC        |
+  "Bm"B,^A,B,CDE|"F#"FGFEDC|"Bm"B,C/B,/^A,B,DF|1BzF2F2       :|2B     |]
+
+
+
+X: 27
+T: La Vida Total
+O: Peru
+M: 6/8
+L: 1/8
+K: Em
+Q: 1/4=120
+%%MIDI chordprog 24 % Acoustic Guitar (nylon)
+%%MIDI program 72 % Piccolo
+%%MIDI beat 97 87  77 4
+%%MIDI chordvol 60
+%%MIDI gchord cc
+"Em"E2G BAG   |GE2- EGA    |"G"B2d ged    |dB2-B3      |\
+"Em"E2G BAG   |GE2- EGA    |"G"B2d ged    |dB2-B3      |
+"Am"A3  d2F   |"Em"GE2-  E3|"Am"A3  d2F   |"Em"GE2-  E3|\
+"F#dim"BAF-F2F|"Em"FE2 -E3 |"F#dim"BAF-F2F|FE2-E3      |
+
+
+
+X: 28
+T: Langdans
+O: Scandinavia
+S: Jean Gravel
+F: http://www.youtube.com/watch?v=TuaEinmxYy4
+M: 6/8
+L: 1/8
+Q: 1/4=132
+K: D
+%%MIDI program 41
+%%MIDI drum d2z2d2 35 35
+%%MIDI drumon
+|:[E3/2B,3/2][EB,][E3/2B,3/2] [=F=C][EB,]|[D3/2A,3/2][DA,][D3/2A,3/2][CG,][DA,]|\
+  [E3/2B,3/2][EB,][E3/2B,3/2] [=F=C][EB,]|[D3A,3] [D3A,3]                      |
+  [E2B,2][EB,][EB,] [=F=C][EB,]          |[D2A,2][DA,][DA,][CG,][DA,]          |\
+  [EB,][DA,][EB,] [GD][=F=C][EB,]        |[D3A,3] [D3A,3]                      :|
+|:[AE][=F-=C-][=F4=C4]                   |[AE][E-B,-] [E4B,4]                  |\
+  [AE][=F=C-][=F4=C4]                    |[AE][E-B,-] [E4B,4]                  |
+  [EB,][DA,][EB,][=F=C][EB,][GD]         |[=F=C][EB,][D4A,4]                   :|
+
+
+
+X: 29
+T: Langdans
+O: Scandinavia
+S: Jean Gravel
+F: http://www.youtube.com/watch?v=TuaEinmxYy4
+M: 6/8
+L: 1/8
+K: D
+Q: 1/4=132
+%%MIDI program 41
+%%MIDI drum d2z2d2 35 35
+%%MIDI drumon
+|:[e2B2][eB][eb] [=fc][eB]    |[d2A2][dA][dA][cG][dA] |\
+  [e2b2][eB][eB] [=fc][eB]    |[d3A3] [d3A3]          | |
+  [e2B2][eB][eB] [=f=c][eB]   |[d2A2][dA][dA][cG][dA] |\
+  [eB][dA][eB] [gd][=f=c][eB] |[d3A3] [d3A3]          :|
+|:[ae][=f-=c-][=f4=c4]        |[ae][e-B-] [e4B4]      |\
+  [ae][=f=c-][=f4=c4]         |[ae][e-B-] [e4B4]      |
+  [eB][dA][eB][=f=c][eB][gd]  |[=f=c][eB][d4A4]       :|
+
+
+
+X: 30
+T: Las Suriana
+O: Mexico
+M: 3/4
+L: 1/8
+%P:B
+K: Dm
+Q:1/4=180
+P:A
+%%MIDI beat 97 87  77 4
+%%MIDI program 11 % Vibraphone
+  B2 BA GA  |Bc dB AG |A2 AG FE|A6     |
+  G2 GFEF   |GB AG FE |F2 FE DF|F6     |
+  B2 BA GA  |B2- Bc dB|AG FA de|f4 de  |
+  ed ^cB AG |FE D^C D2|F2 A2 d2|
+P:B
+L:1/4
+%%MIDI program 42 % Cello
+%%MIDI chordprog 24 % Acoustic Guitar (nylon)
+%%MIDI bassprog 32 % Acoustic Bass
+%%MIDI chordvol 86
+%%MIDI bassvol 101
+%%MIDI gchord fzhziz
+|:"Dm"DFG   |AAA      |AGF     |ED2-   |DFG    |
+  A/z/ AA   |AG3/2F/  |"Am"E3- |EE"Dm"F|"Gm"GGG|
+  GFE       |D^C2-    |CGB     |AGG    |"F"GFE |F3    :|
+  "Dm"z2F   |A2F      |A3-     |A2G    |"Bb"B2G|B3-   |B2G    |
+  "Gm"B2B/B/|BAF      |A2A/A/  |[1FG2  |EF2    :|[2FG2|"Dm"ED2|
+
+
+
+X: 31
+T: Le Maitre de la Maison
+O: France
+F: http://www.youtube.com/watch?v=rIyugiKt0S0
+F: http://www.youtube.com/watch?v=RyPpOWPEsKk
+F: http://www.youtube.com/watch?v=yWkobsHDIGo
+M: 4/4
+L: 1/8
+K: Em
+Q:1/4=120
+%%MIDI program 65 Alto Sax
+%%MIDI bassprog 32 Acoustic Bass
+%%MIDI gchord fzzz
+"Em"G2 B2 F2 B2|E8         |:
+"Em"B2 BA B2 G2|B2 AG F4   |\
+BB BA B2 G2    |B2 AG F4   |
+EG F2 EG F2    |EG F2 EG F2|\
+"Bm"EF G2 B2 FE|"Em"E8     :|
+
+
+
+X: 32
+T:Le mois de mai
+T:Laride
+S:from record Dir Hir Tan: Celtic Songs From Brittany (Ariane Segal)
+O:France, Brittany
+F: http://www.youtube.com/watch?v=XsbhmLfe4ss
+L:1/8
+M:2/4
+Q:1/4=120
+K:Em
+|  "Em"z2 EF    |: G2 E2   | "D"F2 "Em"EF| G2 E2           |[1 "D"F2 "Em"EF :|[2 "D"F2 z2|
+|: "Em"E2 "D"F2 | "Em"B2 BA|GF G2        | "D"F2 "Em"E2    :|\
+|: "D"z2 "Em"G2 | FE  "D"F2| FA "Em"G2   |  "D"F2  "Em"E2  :|
+
+
+
+X: 33
+T: Limbo Rock
+O: U.S.A
+F: http://www.youtube.com/watch?v=9jkowBtwnHM
+M: 2/4
+L: 1/8
+Q: 1/4=180
+K: Bb
+%%MIDI program 27
+P:A
+B,B,  |:D2 F2|zFFD  |F4-     |F2 B,B,|
+D2 C2 |zFFD  |[1 D4-|D2 B,B, :|[2 D4-|D4   |
+P:B
+G<G E2|G2EG  |EG3   |F<FF2   |B2FF   |DC3  |
+C<B,D2|C2CF  |FD3   |E<CB,2  |G,2B,2-|B,2z2|
+
+
+
+X: 34
+T:Louisiana Saturday Night
+O:U.S.A
+F: http://www.youtube.com/watch?v=nwx773iJ2M4
+F: http://www.youtube.com/watch?v=Ap_twYQ-on8
+M:4/4
+L:1/4
+Q: 1/4=300
+K:Bb
+%%MIDI drum dzdz 35 35 90 50 
+%%MIDI drumon
+%%MIDI program 24
+z6ce\
+|e e2 d|e2 G2|B B2 A|B3 E|\
+c c2 B|c2 G2|B2 B2|E4|
+G B2 B|B2 G2|c2 c2|B4|\
+cccc|BBBB|BE3-|E2z2|
+GBBG|B2 B2|BBBB|BB3|\
+c2c2|c2BG|B2B2|BE3|
+G B2 B|B2 B2|B2 B2|B4|\
+cccc|BBBB|BE3-|E2z2|
+
+
+
+X: 35
+T: Malhao
+O: Portugal
+F: http://www.youtube.com/watch?v=p3wPho12Cgc
+F: http://www.youtube.com/watch?v=fTr3RqspAVE
+M: 4/4
+L:1/16
+Q: 1/4=80
+K: G
+%%MIDI program 46
+GGBB dddG GGBB dddG|\
+FFAA dddG  FFAA dddG|
+GGBB dddG  GGBB dddG|\
+fede cdBc  ABG2- G4|
+M:2/4
+L:1/8
+%%MIDI program 56
+%%MIDI drum z4dddz 35 35 35
+|:\
+%%MIDI drumoff
+zG/G/ GF/E/|\
+%%MIDI drumon
+DD-D2|z F FE/D/|\
+  GG-G2:|
+%%MIDI drumoff
+|:z D/2D/2 DE | DF/2F/2 FE| DD/2C/2 B,A, | G,G, G,2 :|
+
+
+
+X: 36
+T:Pachpi
+O:France
+F: http://www.youtube.com/watch?v=0cj-bagKjs8
+F: http://www.youtube.com/watch?v=H5kTQpZrhXQ
+M:2/4
+L:1/8
+Q:1/4=180
+K:GDor
+|:"C"C2 C2   |"Gm"D2"C"C2|"F"FE"Gm"DE   |"F"F2"C"G2 |\
+  "C"C2 C2   |"Gm"D2"C"C2|"F"FE"Gm"DE   |"F"F4      :|
+|:"C"G2"Gm"GB|"F"A2"C"G2 |"F"F2"Gm"D2   |"Gm"D2"C"C2|\
+  "C"G2"Gm"GB|"F"A2"C"G2 |"F"F2"Dm"(3DEF|"C"G4      :|
+
+
+
+X: 37
+T: Passu Torrau
+O: Italy
+M: 6/4
+L: 1/8
+K: Ab
+Q:1/4=120
+%%MIDI program 40 violin
+%%MIDI chordprog 0 Acoustic Grand
+%%MIDI bassprog 45 Pizzicato Strings
+%%MIDI gchord cz
+|:"Ab"E/E/-E3 E/D/C/D/ E6   |"Db"D/D/-D3 D/C/B,/C/ D6|\
+  "Ab"C/C/-C3 D/C/B,/A,/ B,6|"Db"D/D/-D3 D/E/-ED6    |"Ab"C12 ::
+%%MIDI program 26 Electric Guitar (jazz)
+%%MIDI gchord ff
+  "Ab"E2 DD C2 DD DC z2     | E2 DD C2 DD DC z2      |\
+  E2 DD C2 DD C2 z2         :|
+%%MIDI program 40 violin
+%%MIDI gchordoff
+%%MIDI drum dz5 35 90 
+%%MIDI drumon
+  EE2E EEEE ECz2            |DD2D DDDD DB,z2         |\
+  CC2C CCB,B, DDz2          |DD2D DDCC B,B,A,2       |
+
+
+
+X: 38
+T:Pata Pata
+O:South Africa
+F: http://www.youtube.com/watch?v=e-VrfadKbco
+M:4/4
+L:1/8
+Q:1/4=120
+K:BbMix
+  E3G G3G           |A3F F2F2             |B3G G3G         |B8                   |
+|:"Eb".G2 .B2 EG .B2|.B,2 .G2 B2 A2       | .G2 .B2 EG .B2 |.B,2 G2 B4           :|
+  "Ebm"EF_GF EFGF   |"Eb"E2 F2 "Ebm"_G2 F2| "Ebm"EF_GF EFGF|"Eb"E2 F2 "Ebm"_G2 F2|
+  "Eb"GAB2 GAB2     |G2 A2 B2 A2          | GAB2 GAB2      |G2 A2 B4             |
+
+
+
+X: 39
+T:Pe oen labourad
+T:An dro
+S:from record
+S:Dir Hir Tan: Celtic Songs From Brittany (Ariane Segal)
+O:France, Brittany
+F: http://www.youtube.com/watch?v=3RzF378eSJQ
+L:1/8
+M:2/4
+Q:1/4=180
+K:F
+|:"F"z2 C2| FFFF       | F2 "C"G2   | "F"AAAG    | c2 c2|\
+  FFFF    | F2  F2     | "C"GG"F"GF | F4         :|
+|:"F"z2 F2| "Bb"BB"F"BA| "C"G2 "F"A2| "Bb"BB"F"AG| c2 c2|\
+  FFFF    | F2 F2      | "C"GG"F"GF | F4         :|
+
+
+
+X: 40
+T: Petronella
+O: England
+R: Reel
+F: http://www.youtube.com/watch?v=BaYMGDpTYMM
+F: http://www.youtube.com/watch?v=UdU_Omx_LoE
+F: http://www.youtube.com/watch?v=YW9Ys6ifguE
+M: 4/4
+K: D
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+|: dA \
+| "D"F2AF "A7"E2AE | "D"D2D2 D2FA | d2cd e2d2 | "A7"cdec ABAG |
+| "D"F2AF "A7"E2AE | "D"D2D2 D2FA | d2cd "A7"e2c2 | "D"d4- d2 :|
+|: dA \
+| "D"F2fd A2af | "Em"g2gf edcB | "A7"A2ec Aceg | "D"f2fd AdAF |
+| "D"D2fd A2af | "Em"g2gf edcB | "A7"A2ec Agec | "D"d4- d2 :|
+
+
+
+X: 41
+T: Polonez Warszawski
+O: Poland
+F: http://www.youtube.com/watch?v=Rt4mwX7tM0w
+F: http://www.youtube.com/watch?v=36fWxIcjaxU
+M: 3/4
+L: 1/8
+Q: 1/4=90
+K: F
+F3BdB|FGF4|F3BdB|FGF4|
+F3Bdf|f2_e3d| c=Bcd_eg|e2f4|
+F3BdB|FGF4| B3dfd|BcB4|
+c3BAG|FGF4| GG_e2dc|c2B2z2|
+K:Gm
+|:dBG3A|G^FA4|dedcBA|c2B4|
+ =Bdg3f|e2de2z|[1ccfgfc|e2d2z2:|\
+dedGBG|A2G2z2|
+
+
+
+X: 42
+T:Quand j'etais jeune
+T:Hanter dro
+S:from record
+S:Dir Hir Tan: Celtic Songs From Brittany (Ariane Segal)
+O:France, Brittany
+F: http://www.youtube.com/watch?v=KhpFdssVZXk
+L:1/8
+M:2/4
+Q:1/4=180
+K:Gm
+|:"Cm"c2 "Gm"BA | G2 B2           | "F"AG F2       |"Gm"G2 "F"FE|\
+  "Gm"D2 G2     |[1 "F"AB "Gm"G2  :|[2 "Gm"G2 "F"z2|
+|:"Gm"G2 "F"AB  | "Cm"c2 "F"A2    | "Gm"B2 G2      | G2 "F"AB   |\
+  "Cm"c2 "Gm"B2 | "F"A4           :|
+
+
+
+X: 43
+T: Quirquinchos de Corazon
+O: Bolivia
+F: http://www.youtube.com/watch?v=eZnkyvbZVSo
+M: 2/4
+L: 1/8
+K: Em
+%%MIDI program 72 % Piccolo
+%%MIDI gchord fzcz
+Q:1/4 = 144
+"Em"bb/b/ ba|"G"g2 "Em"e2|"G"gg/g/ ge    |"D"d4 |\
+"Em"bb/b/ ba|"G"g2 "Em"e2|"G"gg/g/ ge    |"D"d4 :|
+"Em"eg2e    |"G"d2B2     |"Em"B/c/B/A/ BA|E4    |\
+eg2e        |"G"d2B2     |"Em"B/c/B/A/ BA|E4    |
+
+
+
+X: 44
+T: Rorospols
+T: Roros Pols
+O: Norway
+M: 3/4
+L: 1/8
+Q: 1/4=120
+P: AABB
+K: G
+%%MIDI program 41
+%%MIDI bassprog 24
+%%MIDI chordprog 24
+P:A
+|:"D"[G2d2]B2[d2B2]|dg [G2B2] [G2e2]|\
+"D7"dc A2 F2|\
+[1 [F2A2] [F4d4]:|[2"G"[F2A2] G4|
+P:B
+"D"[d3/2B3/2][c/A/][G3/2D3/2][F/D/][G2D2] |\
+ "C"[e3/2c3/2][d/B/][c3/2A3/2][B/G/][A2F2]|\
+"C"[A3/2F3/2][G/E/]"D"[F2D2][F2D2]|\
+"C"[A2c2][A2c2]z2|
+"D"[d3/2B3/2][c/A/][G3/2D3/2][F/D/][G2D2] |\
+"C"[e3/2c3/2][d/B/][c3/2A3/2][B/G/][A2F2]|\
+[A3/2F3/2][G/E/]"D"[F2D2][F2D2]|\
+"G"[A2F2]G2z2|
+
+
+
+X: 45
+T: Rorospols 3
+M: 3/4
+L: 1/8
+Q: 1/4=160
+P: AABB 
+K: D
+%%MIDI program 41
+%%MIDI chordprog 24
+%%MIDI gchord ghh
+P:A
+|:"D"F2 AF D2|"G"G2 BG E2|"A"c2 ec A2|[1"D"d2 fd A2:|[2"D"d2 d2 z2|
+P:B
+|:"D"F2 FD FA|"G"G2 GF ED|"A"C2 CA,CE|[1"D"F2 FE D2:|[2"D"D2 D2 z2|
+
+
+
+X: 46
+T: Rorospols 3
+O: Norway
+Z: Deborah Jones VIFD II
+M: 3/4
+L: 1/8
+Q: 1/4=160
+K: D
+%%MIDI program 41
+%%MIDI bassprog 33
+%%MIDI chordprog 24
+V:1
+|:"D" F2 A<F D>F|"Em" G2 B<G E2 |"A7" c2 e<c A>c|"D" D2 f<d "A7" A>G|
+V:2
+|:D2 F<D A,>D   | E2 G<E B,2    |A2 c<A E>A     |A2 d<A G>E         |
+V:1
+  "D" F2 A<F D>F|"Em" G2 B<G E2 |"A7" c2 e<c A>c|"D" D2 D4          :|
+V:2
+  D2 F<D A,>D   | E2 G<E B,2    |A2 c<A E>A     |F2 F4              :|
+V:1
+|:"D" f2 f<d f>a|"Em" g2 g>f e>d|"A7"c2 e<c e>g |"D" f2 f>e d2      |
+V:2
+|:d2 d<A d>f    | e2 e>d c>B    |A2 c<A c>e     |d2 d>A F>A         |
+V:1
+  "D" f2 f<d f>a|"Em" g2 g>f e>d|"A7"c2 e<c e>g |"D" d2 d4          :|
+V:2
+  d2 d<A d>f    | e2 e>d c>B    |A2 c<A c>e     |F2 F4              :|
+
+
+
+X: 47
+T: Sardana
+O: Spain
+M: 2/4
+L: 1/8
+K: C
+Q:1/4=108
+%%MIDI program 65 Alto Sax
+%%MIDI bassprog 32 Acoustic Bass
+%%MIDI gchord f2z2z4
+%%MIDI gchordbars 2
+  "C"z2EG|A3G      |EGcd   |e4-      |\
+  e2 EG  |AG EG    |cB cA  |"G7"B4-  |B2 FG|
+  "C" A3G|FGde     |"F7"f4-|f2 "G7"Bc|\
+  d3B    |AG fd    |"C"e4- |e2 EG    |
+  A3G    |FGde     |"F7"f4-|f2 "G7"cB|\
+  _B3A   |"C"^GA_BA|"F"F4- |F2 ^FG   |
+  "C"A3G |^F2AG    |E4-    |E2 ^FG   |\
+  A3"G"G |A2B2     |"C"c4- |c4       |
+|:"C"zAGA|"G"BAGA  |BAGA   |"C"cAGA  |\
+  cAGA   |"G"BAGA  |BAGA   |"C"cAGA  |cAGA |cz3 :|
+
+
+
+X: 48
+T: Sequidillas de Gran Canarias
+O: Spain
+F: http://www.youtube.com/watch?v=8-RINN71pqw
+M: 6/8
+L: 1/8
+K: G
+Q: 1/4=144
+%%MIDI program 21 % Accordian
+%%MIDI bassprog 26 octave=2 % Electric Guitar (jazz)
+%%MIDI chordprog 24 octave=1 % Acoustic Guitar
+%%MIDI gchord fhgfhg
+z3 "D" DEF|"G"G G2- G3  |"D"FEF GD2-     |\
+D3 zCD    |"G"B, G,2-G,3|"C" GFE "D"F D2-|
+D3 "G"GFG |"Em"A E2- E3 | AGF  "D"D3-    |\
+D3 DEF    | "G"G6       |B2 B4           |
+A2 G4     | z6          |FG3z3           |
+
+
+
+X: 49
+T: Sericote
+O: Portugal
+F: https://www.youtube.com/watch?v=avTq7L9NzXE
+F: https://www.youtube.com/watch?v=jdZb7J1gyzQ
+W:transcribed by Jutta Weber-Karn
+W:http://www.folkloretanznoten.de/
+W:converted to abc notation without the lyrics
+M: 4/4
+L: 1/8
+K: F
+Q: 1/4=120
+%%MIDI program 21 % Harmonica
+[FAc]8|[c8-e8-g8-]|[ceg]2 zc c2 c2|:
+Q:1/4=180
+"F"f3 A A2 A2|"C" c4 c2 d2| e3d cB AG|[1"F" F3 c c2 c2:|[2 "F"F6 c2|:
+"F"f f2 e f2 g2|f3 e d2 c2|f2 e2 d2 c2|"C"G2 G4 c2|
+g g2 ^f g2 a2|g2 f2 e2 d2|c2 d2 c2 B2|[1"F"A2 A4 c2:|[2 "F"A2 A4 c2|
+"^Refrain""F"f2 f4 g2|f2 e4 d2|c4 B2A2|"C"G6 c2|g4 g2a2|g2 f4 e2|
+d4 c2 B2|"F"A6 c2|f3 e f2 g2|f3 e d2 c2|f3 e d2 c2|
+"C"G6 c2|g3 ^f g2 a2|g2 f2 e2 d2|c3 d c2 B2|"F"A4 c c2 c2|:
+f3 A A2 A2|"C"c4 c2 d2|e3 d cB AG|[1 "F"F3c c2 c2:|[2 A4 z4|
+
+
+
+X: 50
+T:Shatty ya denny
+O:Arabia
+S:from record Folkdance Underground F.U.1
+L:1/8
+M:4/4
+Q:1/4=180
+K:Am
+%%MIDI gchord fzzzfzzz
+|: "A" E2 FG .F2 .E2| E2 FG .F2 .E2| E2 A2 ^G2 A2| B2 z6      |\
+   B2 B2 c2 A2      |A2 A2 B2 ^G2  | ^G2 A2 F2 G2| E2 z6      :|
+   A2 A2 A2 d2      | c2 B2 c4     | A2 A2 A2 d2 |c2 B2 c2 z2 |\
+   A2 A2 A2 d2      | c2 B2 c4     | A2 A2 A2 d2 |c2 B2 c2 z2 | 
+   B2 B2 B2 B2      | c2 B2 c2 z2  | B2 B2 B2 B2 | c2 B2 c2 z2|\
+   B2 B2 c2 A2      | A2 A2 B2^G2  | ^G2 A2 F2 G2| E4 z4      |
+
+
+
+X: 51
+T: Slapen Waltz
+O: Scandinavia
+M: 3/4
+L: 1/8
+Q: 1/4=160
+K: G
+  D2     |:B4(3cBA|G2B2G2|A2c2F2   |[1G2B2D2 :|[2G4D2|
+|:B4(3cBA|G2B2G2  |A2c2F2|[1G2B2D2 :|[2G4B2  |
+|:c2edeA |B2dcdG  |A2cBcF|[1G2B2B2 :|[2G6    |
+|:c2edeA |B2dcdG  |A2cBcF|[1G2B2B2 :|[2G6    |
+
+
+
+X: 52
+T:Snoa
+O:Sweden
+M:2/4
+L:1/8
+Q:1/4=180
+K:D
+%%MIDI gchord zf
+%%MIDI program 41
+%%MIDI bassprog 33
+FG|\
+|:"D"AB GA|"F#"FG FE|"D"D2 f2|"F#"fe f2|
+  "D"A2 e2|"A"ed e2|[1A2 d2|dc FG:|[2"D" d2 f2|d2 FG|
+|:"D"AB GA|"F#"FG FE|"D"D2 f2|"F#"fe f2|
+  "D"A2 e2|"A"ed e2|[1A2 d2|dc FG:|[2"D" d2 f2|d2 FG|
+|:"A"e2 ed|e2 e2|"D"de dc|B2z2|[1de dc|B2 f2|
+  fe fe|c2 cd:|[2"D"Ba ^gf|"E"ed cB|"A"A4| A4| 
+|:"A"e2 ed|e2 e2|"D"de dc|B2z2|[1de dc|B2 f2|
+  fe fe|c2 cd:|[2"D"Ba ^gf|"E"ed cB|"A"A4| A4| 
+
+
+
+X: 53
+T: Stella di Maggio
+O: Italy
+F: http://www.youtube.com/watch?v=Z2TwgC9_n0E
+M: 2/4
+L: 1/8
+Q: 1/4=96
+K: C
+%%MIDI program 110 Fiddle
+%%MIDI bassprog 32 Acoustic Bass
+%%MIDI chordprog 24 Acoustic Guitar
+"C"GGAG|GEFG|"F"A2A2|"C"AG3-|\
+"C"GEFG|"F"A2BA|"C"GEFG|G2F2|
+E2DE|"F"F4|A4|"C"GEFG|G2F2|"C"E4-|E2z2:|
+
+
+
+X: 54
+T:Steppin Out
+O:America
+F: http://www.youtube.com/watch?v=_g9ahQcbmOk
+M:2/4
+L:1/8
+Q:1/4=160
+P:ABBC
+K:Dm
+P:A
+%%MIDI gchord fzzz
+  "Dm"A3B |"Dm"A2"Gm"G2|"Dm"F2"Am"E2|"Dm"D4    |
+P:B
+|:"Dm"D2F2|A3A         |"Gm"G2"Dm"F2|GA3       |\
+  D2F2    |A3A         |"Gm"G2"Dm"F2|[1 "Gm"G4 :|[2 "Dm"D4|
+P:C
+K:Em
+  "Bm"d4  |^cB3        |AB3         |"D"AF3    |\
+  "Bm"DF3 |F4          |DF3         |F4        |
+  d4      |^cB3        |AB3         |"D"AF3    |\
+  "A"DE3  |E4          |EE3         |E4        |
+
+
+
+X: 55
+T: t Smidje  (32-bar version)
+O: medieval Flemish
+F: http://www.youtube.com/watch?v=sZS8sCdx-Xg
+F: http://www.youtube.com/watch?v=hz5RtnyBEEU
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dm
+Q: 1/4=172
+%%MIDI program 65 % Alto Sax
+%%MIDI chordprog 24 % Acoustic Guitar
+%%MIDI bassprog 26 % Electric Guitar (jazz)
+   d2e            |\
+   "Dm"f2f "C"e2c | "Dm"d2A d2e | "Dm"f2f "C"e2c | "Dm"d3 d2e  |\
+   "Dm"f2f "C"e2c | "Dm"d2A d2e | "Dm"f2f "C"e2c | "Dm"d3      :|
+|: d2e            |\
+   "Bb"f6         | "C"g3- g2g  | "F"a3 a3       | "Dm"a2a a2g |\
+   "Bb"f3 f2a     | "C"g3- g2e  | "A7"f3 e3      | "Dm"d3      :|
+
+
+
+X: 56
+T: Teton Mountain Stomp
+Z: originally transcribed by Deborah Jones
+F: http://www.youtube.com/watch?v=thNDv8HBOo8
+M: 2/4
+L: 1/8
+Q: 1/4=120
+K: D
+P:A
+   [A2e2][A2D2]               | [G,D][G,D] [A2D2]  |\
+   A A/A/ B=c                 | c2 [A2a2]          |
+P:B
+|: "D" A2 A>^G                | BA F2              |\
+   "G" EE/E/ ED               | ED G,2             |
+   "D" A,A, D2                |"A7" CC E2          |\
+   "D" F/E/D/F/ "A7" E/D/C/E/ |[1 D z FE           :|[2 D z D2|
+P:C
+   "G" GG/G/ GG/D/            | GA B2              |\
+   "D" AA/A/ A/A/B            | AF D2              |
+   "E" EE/E/ A2               | "E7" ^GG/G/ B2     |\
+   "A7" AA GG                 | FF E2              |
+   "D" A2 A>^A                | BA F2              |\
+   "G" EE/E/ ED               | ED G,2             |
+   "D" A,A, D2                |"A7" CC E2          |\
+   "D" F/E/D/F/ "A7" E/D/C/E/ | D z d2             | 
+P:D
+K: G
+   "G" GG/G/ GG               | G/F/G/A/ B2        |\
+   GG/G/ GA                   | GE D2              |
+   GG B2                      | GG B2              |\
+   cB AG                      | "D7" F2 D2         |
+   AA/A/ AA                   |A2 D2               |\
+   AA/A/ AA                   |AF D2               |
+   AA c2                      |AA c2               |\
+   dcBA                       |"G" G2 "D7" d2      |
+   "G" GG/G/ GG               | GA B2              |\
+   GG/G/ GG                   |GE D2               |
+   GG B2                      | GG B2              |\
+   BA A^G                     | A2 A2              |
+   ee/e/ ee                   | ec A2              |\
+   dd/d/ dd                   | dB G2              |
+   "D" AA c2                  | AA c2              |\
+   "G" BA GG                  |G2 G2               |
+
+
+
+X: 57
+T: The Waters of Holland
+O: England
+M: 4/4
+L: 1/8
+Q: 1/4=240
+K: Am
+E2        |: A2 B2 c2 d2| e4 e2 g2|^f2 e2 e2 ^d2|[1 e6 E2 :|\
+[2 e6 e2  |:c4 c2 e2    |d4 d3 B  | c2 B2 A2 c2 | d4 B4   |\
+AGAB c2 B2| ABcd e3 e   |d2c2B2A2 |[1B4 A2 e2   :|[2 B4 A4|
+
+
+
+X: 58
+T:Tineke's Reel
+O:Netherlands
+M:2/4
+L:1/8
+K:Dm
+%%MIDI program 27
+%%MIDI bassprog 45
+%%MIDI chordprog 45
+%%MIDI gchord fc
+|:(3AB^c         |"Dm"dAdf|"A"eAeg |"Dm"f2 d2-|\
+  d2 z/2F/2G/2A/2|"Bb"BdcB|"Dm"Adde|fagf      |
+  "A"e2 (3AB^c   |"Dm"dAdf|"A"eAeg |"Dm"f2 d2-|\
+  d2 z/2F/2E/2G/2|"Bb"dcBA|"Gm"GFGA|"Dm"FzEz  |[1D2 :|[2 D4|
+|:"Gm"z2d2       |"C"g2e2 |"Gm"g2e2|"Dm"f2d2  |\
+  f2d2           |"C"g2e2 |g2e2    |"Dm"f2z2  |
+  "Gm"z2d2       |"C"g2e2 |g2e2    |"Dm"f2d2  |\
+  f2d2           |"Gm"g2f2|"A"e2^c2|"Dm"d2z2  :|
+
+
+
+X: 59
+T:Tokyo Dontaku
+O:Japan
+L:1/8
+M:2/4
+K:CPhr
+Q:1/4=120
+C2 FE|F2G2|FEC2 |C4|\
+B2FF |B2cB|F2d2 |c4|
+B2cB |c2d2|cB^F2|F4|\
+F2CC |F2G2|FEC2 |C4|
+
+
+
+X: 60
+T:Toting
+O:Denmark
+F:http://www.youtube.com/watch?v=ukITDW7VfxE
+M:3/4
+L:1/8
+Q:1/4=120
+K:G
+|:"G" DG B4|DG B4    | "G"D>G .d2 "Am".c2| "D".B2 A4  |
+  "D"DF A4 | "D"DF A4| "Am"AB .c2 "G".B2 | "G".A2 G4  :|
+M:3/8
+L:1/8
+  DG"G"B   |"G"DGB   |"G"DGB             |"G"dcB      |\
+  "D"DFA   |"D"DFA   | c"G"BA            |"G"G3       |
+
+
+
+X: 61
+T: Twelfth Street Rag
+O: USA
+F: http://www.youtube.com/watch?v=5AtCA9jblsk
+F: http://www.youtube.com/watch?v=jrhT3ZB-vsI
+M: 2/4
+L: 1/16
+Q: 1/4=120
+K: C
+%%MIDI program 3
+  CB,CD C2z2   | CB,CD C2z2    |CC2C D2_E2   |E2z2C2z2       |
+|:FEDF EDFE    |FEDF EDFE      |FEDF EDFE    |[1D2C2D2_E2    :|[2 D2C2D2C2
+| FEDF EDFE    |FEDF EDFE      |FEDF EDFE    |D2C2D2_E2      |
+  B,4 A,2G,2   |E4 D4          |^G2G4=G2     |^C2C4=C2       |
+  ^G,2G,4=G,2  | ^C,2C,4=C,2   |:FEDF EDFE   |FEDF EDFE      |
+  FEDF EDFE    |[1D2C2D2_E2    :|D2C2D2C2    |(3CDEF2 .F2 .F2|
+  F,2^D2 .D2.D2|F,2D2 .D2D2    |F,2^C2 .C2.C2| C4 DCA,F,     |
+  A,4 A,2G,2   |F,2A,^D CA,G,F,|F,4z4        |
+
+
+
+X: 62
+T: Walczyk Podlaski
+O: Poland
+M: 3/4
+L: 1/8
+Q: 1/4=160
+K: Em
+%%MIDI program 22
+%%MIDI chordprog 22
+%%MIDI bassprog 22
+  .F2 FF F2   |E4 z2        |\
+|:"Em"E4 ^DE  |"Bm"F4 B,2   |"G"G6-      |"G"G2 BAGE|
+  "F#m"F4 B,2 |"D"A2G2F2    |"Em"E2 EE E2|[1E4 B,2  :|[2E4 D2|
+|:"G"B6       |B6           |"Am"c4 B2   |A4 D2     |
+  A6          |"Am"A6       |"G"B4 A2    |G4FG      |
+  G4FG        |G4 FG        |"Am"A4 G2   |F6        |
+  "Bm"B,4 EF  |"Em"A2G2F2   |"Em"E4E2    |[1E6      :|[2 E4D2|
+|:"G".B2.A2.B2|"Am".c2.B2.A2|"G"G2FGG2   |"C"B2A2G2 |
+  "F#m"F2EFF2 |A2G2F2       |"Em"E4E2    |E6        :|
+
+
+
+X: 63
+T:Ya da Kalinushku Lomala
+O:Russia
+M:2/4
+L:1/8
+K:Dm
+Q:1/4=96
+%%MIDI program 69 English Horn
+%%MIDI bassprog 45 Pizzicato Strings octave=2
+%%MIDI gchord fzfzfzfz
+%%MIDI bassvol 30
+"Dm"AB A2     |GG D2|AB A2    |GG D2   |\
+"Gm"GG/2A/2 GF|EE DC|"Dm"DD EC|[1D2 D2 :| [2D4|
+
+
+
+X: 64
+T: Yolanda
+O: Cuba
+F: http://www.youtube.com/watch?v=yVTtrViTXvU
+M: 4/4
+L: 1/8
+K: G
+Q: 1/4=160
+V:1
+%%MIDI program 56 % trumpet
+%%MIDI beat 118 108 98 4
+|:B,CDE FG3 |B,CB,C B,B,.E2|z6F2     |B,C B,CB,Ez2::
+V:2
+%%MIDI program 24 % Acoustic Guitar
+%%MIDI beat 90 80 80
+K:G clef=bass
+|:G,2z6     |z2B,2G,2,E,2  |F,2z6    |z2B,2G,2E,2::
+V:1
+  zBBB BGGG | BGGG.A2.F2   |zAAA AFFF| AFFF.G2.E2::
+V:2
+  B,2z6     |z4A,2F,2      |A,2z6    |z2B,2G,2E,2::
+V:1
+  EG2Ez4    |EGGB BFz2     |FA2F z4  |FAAB BEz2   :|
+V:2
+  E2z6      |z4a,2F,2      |A,2z6    |z2B,2G,2E,2 :|
+
+
+
+X: 65
+T: Zillertaler Laendler
+O: Austria
+Z: Deborah Jones VIFD 2
+F: http://www.youtube.com/watch?v=_dqwz_kAseY
+F: http://www.youtube.com/watch?v=8fYW_tAEZPI
+M: 3/4
+L: 1/8
+Q: 1/4=150
+K: G
+%%MIDI program 41
+%%MIDI bassprog 33
+%%MIDI chordprog 24
+P:A
+   (3DEF                  |"G" [B,6D6G6]          |[D6G6B6]         |\
+   "D7" [F4c4d4] [c2d2f2] |"G" [B2d2g2] z2 [G2B2] |
+P:B
+|: "G" [G3B3][Bd] [B2-d2-]|[B2d2] [A2c2] [G2B2]   |\
+   [F6-A6-]               |[F6A6]                 |\
+   [A3c3][ce][c2-e2-]     |[c2e2][B2d2][A2c2]     |\
+   [G6-B6-]               |[G6B6]                 |
+   [B3d3][fa][f2-a2-]     |[fa]a ag fe            |\
+   [1"D7"[c6g6]           |[c6f6]                 |\
+   [A3c3][eg][e2-g2-]     |[eg]g gf fd            |\
+   "G" [B6f6]             |[B6e6]                 :|[2 "C" [c6f6]   |
+   [c6e6]                 |"D7"[F2c2d2] z f f2    |\
+   fe dc BA               |"G" G2 z2 "D7" [F2c2d2]|\
+   "G" [G2B2d2g2] z4      |
+P:C
+|: g2 gg                  | "C" ge cA ce          |\
+   ge cA ce               |"G" gd BG Bd           |\
+   gd BG Bd               |"D7" fdcA F2           |
+   ed cA F2               |"G"ed d^c de           |\
+   d3 g gg                | "C"ge cA ce           |\
+   ge cA ce               | "G" gd BG Bd          |
+   gd BG Bd               |"D7"fd cA A2           |\
+   fe dc AF               |"G" G2 z2 "D7" [F2c2d2]|\
+   "G" [G2B2d2g2] z4      :|
+P:D
+|: D2 GA                  |"G" B3 [Bd] [B2d2]     |\
+   [G3B3] B AG            |"D7" [F3A3] d d2       |\
+   [A3c3] F AB            | [F3c3] c cF           |
+   c3 AGF                 | "G" G3 [Bd][Bd]D      |\
+   [G3B3] D Bc            | [B6-d6-]              |\
+   [B2d2] z d cB          |"C" [c6-e6-]           |
+   [c2e2] z [eg] [eg][eg] | "D7" [c2f2] z f f2    |\
+   fe dc BA               |"G" G2 z2 "D7" [F2c2d2]|"G" [G2B2d2g2] z4 :|
+
+
+
+X: 66
+T:Zwiefacher Bayerischer Bauer
+O: Germany
+M:3/4
+L:1/8
+Q:1/4=180
+K:Eb
+%%MIDI program 61
+%%MIDI chordprog 20
+%%MIDI bassprog
+%%MIDI chordvol 63
+%%MIDI bassvol 112
+"Eb"B4AG          |"Eb".G2.A2.B2    | [M:2/4] "Ab"c4      |"Eb"FGE2        |
+"Eb"z2B2          |"Eb"B2AG         |[M:3/4] "Eb".G2.A2.B2| [M:2/4] "Fm"c4 |
+[M:3/4] "F"F4z2   |[M:2/4] "Fm"A2GF | [M:3/4] "Fm"F2G2A2  | [M:2/4] "Eb"B4 |\
+[M:3/4] "Eb"E4z2  |
+"Eb"z2EGG2        |"Bb"FED4         |"Ab"z2FAA2           |"Eb"GFE4        |
+"Eb"G2G2B2        |[M:2/4] "Ab"A2c2 | [M:3/4] "Ab"F2GAF2  |[M:2/4] "Eb"G2B2|\
+[M:3/4] "Ab"F2A2A2| [M:2/4] "Eb"D2E2|
+
+
+
+X: 67
+T:Zwiefacher Die Alte Kath
+C:traditionell
+O:Germany
+Z:abc transcription Simon Wascher
+Z:harmony and chord added by Seymour Shlien
+M:3/4
+L:1/4
+Q:1/4=180
+K:G
+%%MIDI program 57
+%%MIDI bassprog 57
+%%MIDI chordprog 20
+%%MIDI chordvol 63
+%%MIDI bassvol 100
+  "G"[D2B,2](3C/B,/C/               | [D2B,2][GE]            |\
+  [M: 2/4] "D"[FD][AF]              |"G" [GE][BG]            |
+  [M: 3/4]"G"[D2B,2](3C/B,/C/       | [D2B,2][GE]            |\
+  [M: 2/4] "D"[FD][AF]              |"G" [G2G,2]             :|
+|:[M: 3/4] "Em"[EC][c/A/][B/G/][cA] | [DB,][B/G/][A/F/][BG]  |\
+  [M: 2/4] "D" [FD][AF]             |"G" [GE][BG]            |
+  [M: 3/4] "Em"[EC][c/A/][B/G/][cA] | [DB,][B/G/][A/F/][BG]  |\
+  [M: 2/4] "D" [FD][AF]             |"G" [G2G,2]             :|
+
+
+
+X: 68
+T: Zwiefacher Eisenkeilnest
+O: Germany
+M: 3/4
+L: 1/8
+Q: 1/4=192
+K: Eb
+%%MIDI program 66
+%%MIDI bassprog 57
+%%MIDI chordprog 20
+|:[M:2/4]"Eb"z2B,2|EDEF              |\
+  GFGA            |[M:3/4]"Bb"BzBABc |
+  B2 zB AB        |[M:2/4]c2 B2      |\
+  "Ab"A2 G2       | [M:3/4]GFFEFG    |
+  "Bb"F2z4        | "Eb"B2G2E2       |\
+  [M:2/4]"Bb"F2z2 | [M:3/4]"Eb"B2G2E2|
+  "Bb"F2z2B,2     |[M:2/4]"Eb"EDEF   |\
+  GFGA            | [M:3/4]"Bb"BBBAGF|"Eb"E4z2 :|
+
+
+
+X: 69
+T: Zwiefacher Leit Leit
+O: Germany
+M: 3/4
+L: 1/8
+Q: 1/4=200
+K: Eb
+%%MIDI program 65
+%%MIDI chordprog 20
+%%MIDI bassprog 57
+  [M:2/4]"Eb"B3z      |B3z                |\
+  [M:3/4]B2 G2 E2     |"Bb"D2 FA GF       |
+  "Eb"E2 z4           |:[M:2/4]"Eb"B3z    |\
+  B3z                 |[M:3/4] B2 G2 E2   |
+  "Bb"D2 F2 B2        | D2 F2 B2          |\
+  [M:2/4] "Eb" B3z    |B3z                |
+  [M:3/4] "Bb"B2 A2 F2|[1 E2 G2 B2        |\
+  "Eb"E2 G2 B2        :|[2"Eb" E2 z4      |
+K:Bb
+%%MIDI program 57
+|:[M:2/4]"Bb"f3z      |f3z                |\
+  [M:3/4] f2 d2 B2    |"F"A2 c2 f2        |
+  A2 c2 f2            | [M:2/4] "Bb" f3z  |\
+  f3z                 |[M:3/4] "F"f2 e2 c2|\
+  [1 B2 d2 f2         |"Bb"B2 d2 f2       :| [2"Bb" B2 z4|
+
+
+
+X: 70
+T: Zwiefacher Nagelschmied
+O: Germany
+M: 3/4
+L: 1/8
+Q: 1/4=200
+K: Eb
+%%MIDI program 57
+%%MIDI bassprog 57
+%%MIDI chordprog 20
+  "Eb"E4z2  |G4z2      |"Bb"BBB2B,2|"Eb"E2z2B,2       |
+  E2z2EE    |"Bb"D2F2B2|D2z2DD     |"Bb"E2G2B2        |
+|:"Eb"E2z2EE|"Bb"D2F2B2|[M:2/4]D2DD|[M:3/4]"Eb"E2E2z2 :|
+  "Eb"E4z2  |G4z2      |"Bb"BBB2B,2|"Eb"E4z2          |
+
+
+
+X: 71
+T: Zwiefacher Neun D\"orfer
+R: zwiefacher
+Z: John Chambers <jc:trillian.mit.edu>
+M: 32/44
+L: 1/8
+K: F
+|:"F"[c3A3] [cA] [c2A2] | [c2A2] [A2F2] [F2C2] \
+| "C7"[E2C2] [G2E2] | [c2B2] [B2E2] | [E2C2] [G2E2] \
+|  [c3E3] [cE] [c2E2] | [c2E2] [B2E2] [G2E2] \
+| "F"F2 [A2F2] | [c2A2] [A2F2] | F2 [A2F2] |
+| "F"[c3A3] [cA] [c2A2] | [c2A2] [A2F2] [F2C2] \
+| "C7"[E2C2] [G2E2] | [c2B2] [B2E2] | [E2C2] [G2E2] \
+|  [c3E3] [cE] [c2E2] | [c2E2] [B2E2] [G2E2] \
+| "F"F2 [A2F2] | "C7"[c2E2] [E2C2] | "F"[F2] z2 z2 :|
+
+
+
+X: 72
+T: Zwiefacher Neun Hauser
+O: Germany
+M: 2/4
+L: 1/8
+K: Eb
+[M:2/4]D2F2   |B2A2       | D2F2         |[M:3/4]d2d2d2|\
+c2d2e2        |[M:2/4]z4  |[M:3/4]B,2E2G2|B2BBB2       |
+[M:2/4]A2F2   |D2F2       |B2A2          |D2F2         |\
+[M:3/4]B2BBB2 |[M:2/4]A2F2|E2G2          |B2G2         |
+E2G2          |B2G2       |[M:3/4]e2eee2 |[M:2/4]B2G2  |\
+A2B2          | d2B2      |A2B2          |d2B2         |
+[M:3/4] d2ddd2|d2c2d2     |e4z2          |
+
+
+
+X: 73
+T: Zwiefacher S Luada
+O: Germany
+M: 3/4
+L: 1/8
+Q: 1/4=192
+K: F
+%%MIDI program 57
+%%MIDI bassprog 57
+%%MIDI chordprog 74
+%%MIDI bassvol 110
+%%MIDI chordvol 90
+  [M:2]"F" c3z  | "C"A3z |"F"B2 B2         | "Bb"G3z |"F" F4|z4\
+|:"F"c3z        |"F" A3z |[M:3/4]"Bb"ABBAG2|"F"GAAGF2|
+  [M:2/4]"F"c3z | A3z    |[M:3/4]"Bb"ABBAG2|"F"F4z2  :|\
+|:[M:2/4]"F" f3z|"C"e2 e2|"Bb"d2 d2        |"F"c2 c2 |"F"A4 |
+  "Bb"B2 B2     |G2 G2   |"C"AGAB          |"F"c3z   |\
+  "Bb"f3z"C"    |e2 e2   |"Bb"d2 d2        |"F"c2 c2 |A4    |
+  "Bb"d2 d2     |"C"e2 e2|"F"f2 f2         |f4       :|
+
+
+
+X: 74
+T:Zwiefacher Schubkarrn
+O:Germany
+M:3/4
+L:1/8
+Q:1/4=180
+K:G
+%%MIDI program 71
+%%MIDI chordprog 74
+%%MIDI bassprog 57
+%%MIDI bassvol 110
+%%MIDI chordvol 90
+|: "D"fgab a2       | fgab a2         |\
+   [M:2/4]"G"g2 e2  |"D"f2 d2         |
+   [M:3/4]"D"fgab a2| fgab a2         |\
+   [M:2/4]"G"g2 e2  |"D"d2z2          :|
+|: [M:2/4] "G"b2 b2 |"D"a2 a2         |\
+   "G"g2 g2         |[1"D"f2 f2       :|\
+   [2"D" f2 z2      |:"G" b2 b2       |\
+   "D"a2 a2         |[1"G" g2 g2      |
+   "D"f2 f2         :|[2 "D"^c'2 bc'  |\
+   "D"d'2 z2        |:"D"FGAB A2      |\
+   FGAB A2          |[M:2/4]"G"G2 E2  |\
+   "D"F2 D2         |[M:3/4]"D"FGAB A2|
+   FGAB A2          |[M:2/4]"G"G2 E2  |\
+   "D"D2z2          :|\
+ |:[M:2/4] "G"B2 B2 |"D"A2 A2         |\
+   "G"G2 G2         |[1"D"F2 F2       :|
+   [2"D" F2 z2      |:"G" B2 B2       |\
+   "D"A2 A2         |[1"G" G2 G2      |\
+   "D"F2 F2         :|[2 "D"^c2 Bc    |\
+   "D"d2 z2         |
+
+
+
+X: 75
+T: Zwiefacher Sommermichl
+O: Germany
+M: 2/4
+L: 1/8
+Q: 1/4=200
+K: C
+%%MIDI program 57
+  [GE]                      |[c3A3]z                    |\
+  [B3G3]z                   |[A3F3]z                    |\
+  [G3E3]z                   | [M:3/4] [B2G2][f3d3]z     |
+  [ec][dB][cA]z3            | [M:2/4] z2[G2E2]          |\
+  [c3A3]z                   |[B3G3]z                    |\
+  [A3F3]z                   |[G3E3]z                    |\
+  [B2G2][f2d2]              | [M:3/4] [B2G2][c2A2][e2c2]|
+  [M:2/4] z2[G2E2]          |[c3A3]z                    |\
+  [B3G3]z                   |[A3F3]z                    |\
+  [G3E3]z                   | [M:3/4] [B2G2][f4d4]      |\
+  [B2G2][c4A4]              |[M:2/4] z2[dB][ec]         |
+  [M:3/4] [f2d2][d2B2][e2c2]| [f2d2][d2B2][e2c2]        |\
+  [f2d2][d2B2][e2c2]        |[M:2/4] [f2d2]z2           |\
+  z2[G2E2]                  |[c3A3]z                    | 
+  [B3G3]z                   |[A3F3]z                    |\
+  [G3E3]z                    | [M:3/4] [B2G2][f4d4]     |\
+  [B2G2][c4A4]              | [M:2/4]\
+|:z2EF                      | [M:3/4] G2edcB            | 
+  A2f2d2-                   |d2B2A2                     |\
+  [M:2/4] [1B2c2            |A2G2                       :|B2c2|
+
+
+

@@ -1,0 +1,24 @@
+X: 20642
+T: MRS. WEYMIS OF CUTTLEHILL
+Q: "Strathspey."
+%R: strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.64 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 2/4
+L: 1/16
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(dc) |:\
+B2G2G2G2 | D2G2G2G2 | B2G2G2B2 | d4 (dedc) |\
+B2G2G2G2 | D2G2 G2AB | A2F2F2A2 | c4 (dcBA) ::\
+B3cd2d2 | {^f}g2d2d2d2 | B3cd2d2 | g3a {ga}b4 |
+(BABc) dcd=e | f2c2c3B | A2F2F2A2 | c4 (dcBA) |\
+B3cd2d2 | {^f}g2d2d2d2 | (BABc) d2d2 | g2d2g3a |\
+b3ga3^f | g3d=f3c | A2F2F2A2 | c4 (dcBA) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The modern song of "St. Patrick was a Gentleman" is sung to the above air.
+%%endtext
+%%sep 1 1 300

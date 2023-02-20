@@ -1,0 +1,35 @@
+X: 10733
+T: COTILLION No. 3. tune 5
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.73 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!p!c |\
+f2f f2f | f2F F2c | g2g g2g | g3- g2c |\
+(a2g) (gfe) | (edc) (cBA) | Gdc BAG | FAB cde |
+f2f f2f | f2F F2c | g2g g2g | g3- g2c |\
+(a2g) (gfe) | (edc) (cBA) | Gdc BAG | FAc f2 H|]
+!p!G |\
+d2e f2^c | d2d f2^f | gec GA=B | ced ceg |\
+b3 aba | g3 fgf | efg fed | c3 z2 |]
+!p!B |\
+A2f f2=B | c3- c2c | feg fA=B | (d3 c2)c |\
+bab aba | gag fgf | efg fed | dc=B cd"^D.C."e |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple forward and back,
+%% first lady cross over on the left hand side of the second couple,
+%% forward and back 3,
+%% 2 ladies cross over,
+%% forward 3 again,
+%% swing partners to place,
+%% balance 4 and turn partners,
+%% other couples the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

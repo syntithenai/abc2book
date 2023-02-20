@@ -1,0 +1,35 @@
+X: 1031
+T: Aldavaloch or o'er the moor amang the heather.
+%R: strathspey, air
+N: This is version 2, for ABC software that understands cresc/diminuendo symbols.
+% dim/cres..endo symbols:
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: Niel Gow & Sons "Complete Repository" v.1 p.3 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "VERY SLOW"
+K: D
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+|:\
+(A,D3) TD3E ~D3ED2A,2 | (B,2E2) TE3F {F}TG3FE2D2 |!p!\
+(F2A2)T[A3E2]e T[d3F2]e {de}f3e | {e}d3B (ABd).F TE3FE2D2 ::\
+(Ad3) Td3e {c}d3ed2A2 |
+p(B3e) PQ Te2f2q {ef}g3fe2d2 |!p! {d}f3e d2B2 (Ag3) HTf3e | {e}d3B (AB)d.F TE3F"_Fine"E2HD2 ::\
+A,(B,DE DA,DE) (FG)(EF) (DE).D.A, | B,(CEF) E(B,EF) (AF)(dF) TE3D |
+(DEFG) A3B (AD)FA [d3F2]e | (fd)(eB) (dA)(BF) (EFG).F E2D2 :: D>d (Td!f!c/d/) f>d (Tdc/d/) (Dd)fe d2A2 |
+(E=GB).^d (e^d).e.f (ga)(fg) {f}e2=d2 | (fd).e.f (dA).B.d (FA)(EF) (AB).d.e | f>de>B d>AB>F ( EFG).F TE2D2 "_D.C."y:|
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+|:\
+D4d4 D4F4 | G6F2 E4A4 |!p! d'4"^Exp.ro"c'4 b4f4 | g4 f2d2 a4 A2z2 :: d4 d'4 d4 f4 |
+pg6f2 PQe4a4q |!p! f4 d'4 c'4 Hd'3c' | b2g2 f2d2 a4 "_Fine"A2Hz2 ::\
+[d4D4][d4D4] [d4D4][d4D4] | [e4E4][e4E4] f2d2[a4A4] |
+d4f2g2 f4b2c'2 | d'2g2 f2d2 a4 A2z2 :: f4 d4 d4 f4 |
+g3f e4 e'2=d'2 a2d'2 |!p!d2a2 f2g2 d2A2 [d4D4] | d2g2 f2d2 a4 A2z2 "_D.C."y:|

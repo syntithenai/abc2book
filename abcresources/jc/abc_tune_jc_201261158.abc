@@ -1,0 +1,20 @@
+X: 1
+T: Changerais-tu?   [C]
+O: Bretagne
+M: 2/4
+L: 1/8
+K: F
+G,2 | "C"EF ED | E2 CD-| "G7"DE FE | D2 G,2 |
+w: J'ai huit \`a neuf mou-tons dans mon* m\'e-nage en haut, j'ai
+   | "C"EF ED | E2 CD-| "G7"DC B,D | C2 :|
+w: huit \`a neuf mou-tons dans mon* m\'e-nage en bas.
+C2 | "F"FF "G7"ED | "C"E2 C2 | "F"FF "G7"ED | "C"E2 "G7"kG2 |
+w: Dans mon m\'e-nage en haut, dans mon m\'e-nage en bas. H\'e!
+|: "C"E2 G2 | C2 CC | "G7"DD DD | "C"E2 "G7"D2 |
+w: Change-rais tu, Ma-de-lei-ne, Ma-de-lei-ne?
+|  "C"E2 G2 | C2 EE | "G7"DD D2 | "C"C4 :| |: "(vamp)"z4 :|
+w: Change-rais tu, Ma-de-lei-ne, dors tu?
+%%begintext
+%%Decrease the numbers by one for each verse.
+%%The final bar may be stretched on for several more bars.
+%%endtext

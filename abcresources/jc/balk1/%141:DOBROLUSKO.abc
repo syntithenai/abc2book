@@ -1,0 +1,22 @@
+X: 141
+T: Dobrolusko
+O: Bulgaria
+M: 2/4
+L: 1/8
+Q: 1/4=150
+K: A
+%%MIDI program 71
+%%MIDI gchord fzfz
+%%MID bassprog 17
+|:"A"A,2 C2  |E4            |E/F/E EC     |D3E        |\
+  DCC2       | E/F/E EC     |D3E          |DCC2       |
+  D2C2       |[1 B,2 (3A,B,D|B,2 (3A,G,F, :|[2 B,4    |B,2 B,2|\
+|:E/F/E EC   |D3E           |DCC2         |
+  E/F/E EC   |D3E           |DCC2         |\
+  E/F/E EC   |D3E           |DCC2         |
+  B,2 (3A,B,D|B,2 B,2       :|\
+|:"E"E2G>A   |B2 f>e        |d>c BA       |[1(3BAG FE :|[2 B4 |
+|:E2G>A      |B2 f>e        |d>c BA       |[1(3BAG FE :|[2 B4 |
+|:"A"E2(3FFz |(3FFz (3EEz   |D<F (3EEz    |[1(3DDz C2 :|[2 DD3|\
+  E2 (3DEF   |Dz z2         |EDCC         |E2 (3DEF   |Dz z2  |EDCC|
+  E2 (3DEF   |Dz z2         |EDCC         |B,2 (3A,B,C|B,2 z2 |

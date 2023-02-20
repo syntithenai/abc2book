@@ -1,0 +1,18 @@
+X: 21021
+T: CLACH NA CUDAIN -- Strathspey
+T: The Stone Meeting
+R: strathspey
+B: K\"ohler's Violin Repository, v.2, 1885 p.102 #1
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Some long beams broken to improve readability.
+M: C|
+L: 1/16
+K: D
+uA,2 !segno!|\
+DD3 (D3E) (F3E) D4 | (A,D3) (D3E) (F3E) Fd3 |\
+DD3 (D3E) (F3E) D2(EF) | (G3A,) (F3A,) E3A, CE3 :|
+(vd3f) (A3f) (de).f.g (a3f) | (d3f) (A3a) f3d fa3 |\
+(d3f) (A3f) (de).f.g (a3f) | (g3A) (f3A) e3A ce3 |
+(d3f) (A3f) (de)fg (a3f) | (d3f) (A3a) f3d fa3 |\
+(B3g) (A3f) (G3e) (F3d) | (G3A,) (F3A,3) "^Segue Reel."E3A, CE3 "_D.C."!segno!|]

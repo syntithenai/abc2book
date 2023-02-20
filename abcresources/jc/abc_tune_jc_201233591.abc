@@ -1,0 +1,20 @@
+X: 20012
+T: the RUNAWAY BRIDE
+Q: "Lively."
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.1 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(c/B/) |\
+A2A ({A}GF)G | F3 c3 | d2c {c}B2A | (A3 G2) (c/B/) |\
+A2A ({A}GF)G | F3 c2-c | d>ef e<ge | c3 c2 :|
+|: c |\
+def efg | c3 cBA | d2c {c}B2A | (A3 G2) (c/B/) |\
+A2A ({A}GF)G | F3 c2-c | d>ef e<ge | f3- f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

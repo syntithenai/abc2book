@@ -1,0 +1,32 @@
+X: 411
+T: MAJOR JAMES MONRO
+C: R. MACKINTOSH
+R: Strathspey
+B: Glen Collection p.41 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Dm
+%
+V: 1
+A |\
+F<D A,>D FD AF | E>c G>c E<C A>G | F<D A,>D B,<D G,>B | A>G F>E F(D DA) |
+A<D A,>D FD AF | E>c G>c E<C A>G | F>A D>d ^c>e A<a | bg (a/g/f/e/ f)dd ||
+g |\
+(a/g/f/e/ f)>d A>d f>d | c>e g>e c'>g e<c | (a/g/f/e/ f)>d A>d f>d | A>G F<E F<D D>g |
+(a/g/f/e/ f)>d A>d f>d | c>e g>e c'g ec |a<f g<e f<d e<^c | d<B A>G FDD |]
+%
+V: 2
+z |\
+d2f2 A2[f2d2] | c2[g2e2] c2^c2 |\
+d2f2 g2G2 | A2[^c'2a2] [d'2d2]d2 |
+d2f2 A2[f2d2] | c2[g2e2] c2^c2 |\
+d2[a2f2] A2[e2^c2] | G2A2 d2[afd] ||
+z |\
+d2[d'2a2] f2[d'2a2] | e2[c'2g2] c2[c'2g2] |\
+d2[d'2a2] f2[d'2a2] | g2a2 d2[a2f2] |
+d2[d'2a2] f2[d'2a2] | e2[c'2g2] c2[c'2g2] |\
+d'2^c'2 d'2b2 | g2[c'2a2] [d'2d2][afd] |]

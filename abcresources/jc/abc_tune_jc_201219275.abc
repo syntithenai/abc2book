@@ -1,0 +1,33 @@
+X: 021
+T: Mrs JAMES DUFF
+C: ISAAC COOPER
+R: Strathspey
+B: Glen Collection p.2 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: 2nd part had inital repeat symbol, but no final repeat symbol.
+M: C
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: A
+%
+V: 1
+|:\
+A,>CE>A (c>d)(e>c) | (d/f/).B Tc>A B/B/B B2 |\
+A,>CE>A c>d e/f/g/a/ | e<cd>B [A2C2][A2C2] :|
+|:\
+e>ae>c d>fc>A | (B/f/).d c>A B/B/B B2 |\
+e>ae>c d>fTc>A | E>GB>G A/A/A A2 |
+e>ae>c d>fc>A | (d/f/)d c>A (B>e)(g>b) |\
+!f!(3.a.g.f !p!(3.e.d.c !f!(3.f.e.d !p!(3.c.B.A | !f!E>GB>G A/A/A [A2C2] :|
+%
+V: 2
+|:\
+A2[c'2a2] [c'2a2e2][c'2a2] | [a2f2d2][a2e2] [d'2b2e2][b2g2e2] |\
+A2[c'2a2] [c'2a2e2][c'2a2e2] | e2[b2g2e2] [a2A2][a2e2A2] :|
+|:\
+A2[c'2a2e2] [a2f2][c'2a2e2] | [a2f2d2][c'2a2e2] [d'2b2e2][b2g2e2] |\
+A2[c'2a2e2] [a2f2][a2e2] | e2[d'2g2e2] A2[c'2a2e2] |
+A2[c'2a2e2] [a2f2][c'2a2e2] | [a2f2d2][c'2a2e2] [d'2b2e2][b2g2e2] |\
+c2[a2e2] d2[b2f2] | e2[d'2g2e2] [c'2a2][a2e2A2] :|

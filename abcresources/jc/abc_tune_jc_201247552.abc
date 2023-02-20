@@ -1,0 +1,12 @@
+X: 1
+T: Arap   [Am]
+O: Macedonia
+M: 4/4
+L: 1/16
+K: Ador
+"instr."|:\
+"Am"FG~A2 AGAB c2c2 "G"~B3G | "Am"FG~A2 AGAB ~c2cd "G"~B3G |\
+"Am"FG~A2 AGAB cBcd "G"~B3G | "Am"FG~A2 "G"AGAd "Am"~A2AE ~A2z2 :|
+"vocal"[|\
+"Am"d2e2 ~e2d2 d2c2 e2c2 | "G"c2B2 B2A2 "Am"A2G2 c4 \
+|:["N times" "Am"G2A2 A2A2 A2G2 c4 :| "..."y6 ee | "G"d2c2 B2A2 "Am"A4 A4 |]

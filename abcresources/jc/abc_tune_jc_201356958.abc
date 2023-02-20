@@ -1,0 +1,28 @@
+X: 1
+A:Adam de la Halle
+T:Diex coment porroie
+N: (condensed)
+M:3/4
+L:1/4
+Q:1/4=100
+K:G Mixolydian
+%
+V:1 clef=treble
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+%%MIDI program 1       70 bassoon
+%%MIDI program 2       71 clarinet
+%%MIDI program 3       72 piccolo
+%
+[V:1][K:C]       D2 ((3:2:2F/G)   | A2 ((3A/G/F/)|(EDC)  |D3 ||           E2  ((3:2:2F/G)| A2
+[V:2][K:C]       G2     ((3F/E/D/)| E2 ((3G/F/E/)|(D2E)  |G3 ||          (ED) ((3:2:2C/D)| E2
+[V:3][K:F]       G,2       B,     | A,2   B,     | A,3   |G,3||           A,2        B,  | A,2
+w:       1.5.9.~Diex, co-         ment por-       roi-    e        2.10.~Sans che-   li
+w:  ~~~~~4.~~~~~Elle  est       simple et         coi-    e,
+w:   ~~~~6.~~~~~Ne    m'en        par- ti-        roi-    e    ~~~~7.~~~~Pour les    iex
+%
+[V:1][K:C]((3A/G/F/)| A3  ||        (AG) ((3E/D/C/)| D2 ((3:2:2F/G)   |(AGF)| G3  ||
+[V:2][K:C]((3F/E/D/)| E3  ||         E2     F      | G2     ((3F/E/D/)|(EDC)| D3  ||
+[V:3][K:F]   B,     | A,3 ||         A,2    A,     | G,2       B,     |       A,3   | G,3 ||
+w:         du-        rer    3.11.~Qui  me        tient en         joi-     e?
+w:         cre-       ver ~~~8.~~~~Se   s'a-      mours n'a-       voi-     e.

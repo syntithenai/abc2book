@@ -1,0 +1,31 @@
+X: 10872
+T: COTILLION No. 9. tune 4
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.87 #2
+N: This is version 2, for ABC software that understands diminuendos.
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B>c |\
+d>cB (F<D)B | (G<E)B (F<D)B | d>cB (F<D)F | (G<B)A B2c |\
+d>cB (F<D)B | (G<E)B (F<D)B | d>cB (G<Qe)dq | c>BA B2 H|]
+(f |\
+.d)z (.f .e)z f | B>cB (A<F)(f | d<B)f (c<b)a | gf=e f2^f |\
+g3 f3 | e3 d2c | d>cB (G<e)d | c>BA "^D.C."B2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% swing between side couple,
+%% forward and back 6,
+%% swing partner to place,
+%% balance 4,
+%% next couple the same, &c.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

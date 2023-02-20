@@ -1,0 +1,22 @@
+X: 05016
+T: CHIP'S HORNPIPE
+C: Bob McQuillen 13 April 81
+B: Bob's Note Book 5 #16
+%R: hornpipe, reel
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A,2 \
+| D2DF EDB,A, | DFAB A3G | FGAB A2F2 | GFED CDE2 || D2DE FEDF | ABAF D2FA | B2cd efed | c2A2 A2de |
+| fgfe d2df | edcB A2FA | B2cd B2cd | B2cd AGFE || DCDE FEDF | ABAG F2A2 | GABG EFGA | F2D2 D2 |]
+|: cd \
+| e2ed cABc | dcdf a3g | fgag f2d2 | gfed cBA2 |\
+| edcB ABAG | FGAB AFD2 | d2ed BAFD | E2D2 D2 :|
+%%begintext align
+%% There are dances every Monday night in
+%% Clark Hall in Harrisville, and to these there comes, from the Meeting
+%% School in Rindge, a big happy lad named Chip Comstock.
+%% It's fun watching him dance, and so here's a tune for you
+% to dance to, Chip --
+%%endtext

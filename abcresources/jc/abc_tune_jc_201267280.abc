@@ -1,0 +1,63 @@
+
+X: 1
+T: Davaj Me    [G]
+R: fast pravo
+O: Macedonia
+Z: 2019 John Chambers <jc:trillian.mit.edu> (from transcription by Colin Fergusen)
+M: 6/16
+L: 1/16
+P: BV BV BV Taxim BV B
+K: G
+%%vskip 5
+"^Break"|:\
+"G"[fd][ge][ge] [ge][fd][ge] | [ge][af][ge] "D"~[f2d2][dB] |\
+"C"[dB][ec][ec] [ec][cG][ec] | [ec][fd][ec] "G"~[d2B2]z |\
+"C"[dB][ec][ec] [ec][cG][ec] | "C"[ec][fd][ec] "G"~[d2B2][BG] |\
+"D7"~[d2B2][cA] [cA][BG][AF] |1 "G"[B2G2][cA] ~[d2B2]z :|2 "G"[B2G2][GD] [B2G2]z |]
+M: 2/4
+L: 1/16
+"^Vocals"|:\
+"G"[B4G4] [B2G2][c2A2] | [d8B8] |\
+"C"[e2c2][e2c2] [d2B2][e2c2] | "D"[f2d2][e2c2] [e2c2][d2B2] |\
+[1 "G"[d4B4] (3[ec][dB][c2A2] :|[2 "G"[d8B8] ||\
+|:\
+"D"[f2d2][e2c2] [e2c2][d2B2] | "G"[B8G8] |\
+"G"[B2G2][c2A2] [d2B2][e2c2] | "D"[d2B2][c2A2] [c2A2][B2G2] | "G"[B8G8] :|
+|:\
+"Em"[g6e6] (3[af][ge][fd] | "D"[f6d6] (3[ge][fd][ec] |\
+"C"[e6c6] (3[fd][ec][dB] | "G"[d8B8] |\
+"G"[B2G2][c2A2] [d2B2][e2c2] | "D"[f2d2][e2c2] [e2c2][d2B2] |\
+"D"[d2B2][c2A2] [c2A2][B2G2] | "G"[B8G8] :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Davaj Me    [A]
+R: fast pravo
+O: Macedonia
+Z: 2019 John Chambers <jc:trillian.mit.edu> (from transcription by Colin Fergusen)
+M: 6/16
+L: 1/16
+P: BV BV BV Taxim BV B
+K: A
+%%vskip 5
+"^Break"|:\
+"A"[ge][af][af] [af][ge][af] | [af][bg][af] "E"~[g2e2][ec] |\
+"D"[ec][fd][fd] [fd][dA][fd] | [fd][ge][fd] "A"~[e2c2]z |\
+"D"[ec][fd][fd] [fd][dA][fd] | "D"[fd][ge][fd] "A"~[e2c2][cA] |\
+"E7"~[e2c2][dB] [dB][cA][BG] |1 "A"[c2A2][dB] ~[e2c2]z :|2 "A"[c2A2][AE] [c2A2]z |]
+M: 2/4
+L: 1/16
+"^Vocals"|:\
+"A"[c4A4] [c2A2][d2B2] | [e8c8] |\
+"D"[f2d2][f2d2] [e2c2][f2d2] | "E"[g2e2][f2d2] [f2d2][e2c2] |\
+[1 "A"[e4c4] (3[fd][ec][d2B2] :|[2 "A"[e8c8] ||\
+|:\
+"E"[g2e2][f2d2] [f2d2][e2c2] | "A"[c8A8] |\
+"A"[c2A2][d2B2] [e2c2][f2d2] | "E"[e2c2][d2B2] [d2B2][c2A2] | "A"[c8A8] :|
+|:\
+"F#m"[a6f6] (3[bg][af][ge] | "E"[g6e6] (3[af][ge][fd] |\
+"D"[f6d6] (3[ge][fd][ec] | "A"[e8c8] |\
+"A"[c2A2][d2B2] [e2c2][f2d2] | "E"[g2e2][f2d2] [f2d2][e2c2] |\
+"E"[e2c2][d2B2] [d2B2][c2A2] | "A"[c8A8] :|

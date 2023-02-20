@@ -1,0 +1,22 @@
+X: 20244
+T: the CAPTAIN'S LADY
+O: Scottish air.
+Q: "Lively, but not too fast."
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.24 #4 (and p.25 #1)
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Note the 3-bar phrase length.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(AG) |\
+F2A2 c4 | F2c2 (dc)(BA) | B2 G4 (AG) |\
+F2A2 c3c | d2f2 e2d2 | c2 "^Fin."A4 H|]\
+(f>g) |\
+(ag)(fe) f4 | F2c2 (dc)(BA) | A2 G4 f>g |
+(ag)(fe) f3d | c2f2 (gf)(ed) | c2 A4 f>g |\
+(ag)(fe) f4 | F2c2 (dc)(BA) | A2 G4 A>G |\
+F2A2 c3c | d3e (gf)(ed) | c2 "^D.C."A4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

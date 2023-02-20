@@ -1,0 +1,33 @@
+X: 31132
+T: COTILLION No. 18. AUBURN SETT tune 4
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.113 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+{d}cBcd ez G2 | {d}cBcd ez e2 | d3e dcBA | GFE2 G2z2 |\
+{d}cBcd ez G2 | {d}cBcd e2e2 | d2^fe dcBA | G3AG2 H|]
+G2 |\
+[c4E4] [e4G4] | g4 c'2e2 | {e}d>cB>c d2e2 | c>GE>G c2c2 |\
+(dG)G2 (dG)G2 | cde2 {f}edef | (ag)fe (gf).d.B | (G4 c2) |]
+!p!EF |\
+G2 c4 {dc}Bc | A2 D4 dc | BAGF EDGB, | CB,CE D2EF |\
+G2 c4 {dc}Bc | A2 D4 dc | B2("_>"d>c) "_>"A2c>B | GB,C2 DEF^F |
+G4 ^FGAG | c4 (Bcdc) | e4 (dcBA) | A4 G2E2 | D2E2F2^F2 |\
+G2 c4 BA | A2 G4 FD | (D4 C)GA"^D.C."B |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% back to back,
+%% balance 4,
+%% ladies chain,
+%% promenade 4.
+%% Next 2, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

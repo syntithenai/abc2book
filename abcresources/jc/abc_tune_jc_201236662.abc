@@ -1,0 +1,18 @@
+X: 2291
+T: IRISH REEL
+R: Irish Reel.
+N: Temperance Reel; Teetotaller's Reel
+%R: reel
+B: James Kerr "Merry Melodies" v.2 p.32 #291
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Rhythm of 2nd strain's 1st bar changed to match the 1st bar of its 1st ending.
+M: C
+L: 1/8
+K: F	% and Dm
+vFuD |:\
+(CF) (3FFF FGAB | cAdB cAGF |\
+(A>D) (3DDD DEFG |[1 AFGE FDCA, :|[2 AFGE F2 ||
+d>A |:\
+A>d (3ddd d3f | efge fedc |\
+[1 A>c (3ccc c3d | efge fedc :|\
+[2 ABcA GECD | EDD^C D2 |]

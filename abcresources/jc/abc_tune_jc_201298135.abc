@@ -1,0 +1,69 @@
+I:abc-charset utf-8
+%%titlefont Times-Bold 24
+%%subtitlefont Times-Bold 18
+%%gchordfont Times-Bold 14
+%%composerfont Times-Italic 16
+%%notationfont Times-Bold 16
+%%annotationfont Times-Bold 16
+%%textfont Times-Italic 16
+%%partsfont Times-Bold 14
+%%printtempo 0
+%%printparts 1
+%%partsbox 1
+%%bstemdown 1
+%%withxrefs 1
+%%pageheight 11in
+%%%staffsep .01
+%%topspace .25in
+%%botspace .25in
+%%notespacingfactor 1
+%%stretchlast 0
+%%titleformat  T, R-1 C1
+%%scale .685
+%%footer "Slip Jigs\n$P0.		$P1."
+%%newpage 515
+
+X:0
+%%%footer "Section D"
+%%withxrefs 0
+%%lineskipfac 8
+%%textfont Times-Bold 48
+%%begintext center
+%%Slip Jigs
+%%endtext
+%%titlefont Times-Bold 1
+I:0
+T:_Slip Jigs_
+M:1/1
+K:C
+%%newpage
+
+X:749
+T:Kid on the Mountain, The
+C:Joe Buchanan's Scottish Tome - Page 260.1
+I:260 1
+Z:Carl Allison
+R:Slip Jig
+L:1/8
+M:9/8
+K:G
+EFE FED G2 F | EFE cBA BGE | EFE FED G2 (G/A/) | BAG FAG FED :| 
+BGB AFA G2 D | GAB dfe dBA | BGB AFA G2 A | BAG FAG FED :| 
+gfe efe e2 (e/f/) | gfg efg afd | gfe efe e2 (g/a/) | bag fag fed :| 
+eBB e2 f g2 f | eBB efg afd | eBB e2 f  (g/a/) | bag fag fed :| 
+eBe dBA G2 A | Bee dBA BGE | eBe dBA G2 A | BAG FAG FED :| 
+B,EE eBG E2 E | B,EE EFG AFD | B,EE eBG E2 (G/A/) | BAG FAG FED :| 
+
+X:750
+T:Foxhunter's Jig, The
+C:Joe Buchanan's Scottish Tome - Page 260.2
+I:260 2
+Z:Carl Allison
+R:Slip Jig
+L:1/8
+M:9/8
+K:D
+FGF F2 D G2 E | (FGF) F2 D E2 D | (FGF) F2 D G2 B | (AFD) D2 F E2 D :| 
+(BcB) (BAG) (FGA) | B2 E E2 F G2 B | (ABc) (dcB) (ABc) | d2 D D2 F E2 D :| 
+fgg f2 d g2 e | (fgf) f2 d e2 d | (fgf) f2 d g2 b | (afd) d2 g e2 d :| 
+(gfe) (dcB) (AGF) | B2 E E2 F G2 B | (ABc) (dcB) (ABc) | d2 D D2 F E2 D :| 

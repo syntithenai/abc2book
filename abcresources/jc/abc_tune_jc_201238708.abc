@@ -1,0 +1,28 @@
+X: 311
+T: Miss Maria Stewart's Jigg
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.31#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: F
+V: 1
+c |\
+{e}f2c f2c | fga gfe | d2f ~c2A | BGG ~G2c |\
+f2c f2c | f2a g2e | {e}f2d {d}c2B | AFF F2 :|
+B |\
+AFF cFF | dFF cFF | d2f ~c2A | BGG ~G2c |\
+AFF cFF | dFF cFF | d2f ~c2B | AFF F2 ||
+B |\
+AFF cFF | dFF cFF | d2f ~c2A | BGG ~G2c |\
+{g}fef gab | agf efg | f2d ~c2B | AFF F2 |]
+V: 2 clef=bass middle=d
+z |\
+[f3F3] [f3F3] | [f3F3] [e3E3] | [b3B3] [a3A3] | [g3G3] [c3C3] |\
+[f3F3] [f3F3] | [f3F3] [c3C3] | [B3B,3] [c3C3] | f3 F2 :|
+z |\
+[a3f3] [a3f3] | [b3f3] [a3f3] | [b3f3] [a3f3] | [g3c3] [g3c3] |\
+[a3f3] [a3f3] | [b3f3] [a3f3] | [b3B3] [c'3c3] | f3 f2 ||
+z |\
+[a3f3] [a3f3] | [b3f3] [a3f3] | [b3f3] [a3f3] | [g3c3] [g3c3] |\
+[a3f3] [b3f3] | [a3f3] [g3c3] | [b3B3] [c'3c3] | [f3F3] [f2F2] |]

@@ -1,0 +1,82 @@
+
+X: 0
+T: Klezmer Reel Medley 31 (F G)
+P: C instruments
+N: Arranged for contradance by Ben Pasamanick & John Chambers
+K: A
+
+%%sep 1 1 500
+
+
+X: 1
+T: Moldavskaya Hora    [F]
+D: Konsonans Retro "a Podolian Affair"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+P: Play AABBAACC for contras
+M: 2/4
+L: 1/16
+K: F
+"A"[|] "C7"z2 |\
+"F"C=B,C2 A^GA2 | C=B,C2 A^GAB | "C7"cBBA AGGF | "F"FGAB c=Bc2 || "F"C=B,C2 A^GA2 |
+C^CDE FGAB  | "C7"cABG AFGE | "F"F4 z2 "B":: "D7"z2 | "Gm"GFEF G4 | GFEF G4 | "A7"AGGF FGEF |
+"Dm"DEFG A4 || "Gm"GFEF G4 | GFEF G4 | "A7"AGGF FGEF | "Dm"D4 z2 "C":: A,2 | "Dm"D2z2 z2A,2 | D2E2 F2G2 |
+"Fm"G_AAG "C7"GFFE | "Fm"F6 z2 || "Fm"G_AAG "(C)"GFFE | "Gm"F2 G4 F2 | "A7"AGFE FGEF | "Dm"D4 z2 :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: Green Mountain Petronella    [G]
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|:\
+"G"D2G2 GFGE | D2B2 BGAB | "Am"c2cB ABcd | "D7"e2d2 d4 | "G"D2G2 GFGE |
+D2B2 BGAB | "Am"cdcB AGFG | "D7"A2G2 "G"G2z2 :: "G"{f}g2g2 "D7"f2f2 | "C"efge "G"d4 |
+"C"edef "G"g2B2 | "D7"B2A2 A4 | "Em"g2g2 "D"f2f2 | "C"efge "G"d4 | "C"edef "G"g2B2 | "D7"B2A2 "G"G2z2 :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: Yoshke (Ma Yofus; Tanz, Tanz, Yideleh)
+C: arr. Naftule Brandwein 1917
+Z: John Chambers <jc:trillian.mit.edu>
+O: Trad
+M: C|
+L: 1/8
+P: Play AABBCCBB for contras
+K: _B_e^F	% D freygish
+"A"[|]z2 \
+|  "D"DEFG ABAG | F2FD "Gm"G4 | "D"A2A2 cBAG | F2FD "Gm"G4 \
+|  "D"DEFG ABAG | F2FD "Gm"G4 | "D"F2F2 "Cm"EDEC | "D"D6 :|
+K: Bb	% Bb, G minor
+"B"|: "F"[F2A] \
+|  "Bb"Bcd4 d2 | "F"cdcA F4 | "F7"FGAB cdec | "Bb"d2de "D"dcBA \
+|  "Gm"GAB4 B2 | "D"ABA^F D4 | DE^FG ABAF | "Gm"G6 :|
+K: _B_e^F	% D freygish
+"C"|: FE \
+|  "D"D2F2 D2F2 | "Gm"G2G2 cBAG | "D"F2F2 "Gm"GFGB | "D"A2A2 ~d4 \
+|  "D"D2F2 D2F2 | "Gm"G2G2 cBAG | "D"F2F2 "Cm"EDEC | "D"D6 :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: the Flowers of Edinburgh #1
+O: Oswald, c.1742
+Z: John Chambers <jc:trillian.mit.edu>
+N: Probably the best-known Scottish reel.
+B: Oswald "Curious Collection of Scots Tunes (II)" c.1742
+B: The Universal Magazine, April 1749, as "Flowers of Edinburgh".
+R: reel
+M: C|
+L: 1/8
+K: G
+GE | "G"D2DE G2GA | BGBd cBAG | "D7"FGFE DEFG | AFdF E2GE || "G"D2DE G2GA |
+| "G"BGBd "C"efge | "G"dcBA "D7"GFGA | "G"B2G2 G2 :: d2 | "G"g2gd gbag | "D7"f2fd fagf |
+| "Em"e2ef gfed | B2e2 "(C)"e2ge || "G"dBGB d2d2 | "C"edef g2fe | "G"dcBA "D7"GFGA | "G"B2G2 G2 :|
+
+%%text arr. Ben Pasamanick & John Chambers

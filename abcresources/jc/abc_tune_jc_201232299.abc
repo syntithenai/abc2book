@@ -1,0 +1,29 @@
+X: 16
+T: Don Giovanni
+%R: hornpipe
+B: "Le Sylphe, Twenty Four Country Dances with Figures for the Year 1818", Button & Whitaker, p.8 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1818
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+c>de |\
+f2f3 caf | g2g3 cbg | a>gf>e f>cb>a | g2g3 c>de |
+f2f3 caf | g2g3 cbg | a>fe>f d>bg>e | f2f2f2 |]
+c>B |\
+A>cf>c a>fc>f | B>eg>e b>ge>g | c>eg>e b>ge>g | f>ag>f e>dc>B |
+A>cf>c a>fc>f | B>eg>e b>ge>g | c>eg>e b>ge>g | f2a2f2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center SINGLE FIGURE        (Tune play'd straight thro')
+%%begintext align
+%% Hey on your own sides |. lead down the middle up
+%% again and right and left with the top couple |. .
+%%endtext
+%%center DOUBLE FIGURE        (Each strain repeated)
+%%begintext align
+%% The 3 Ladies lead round 3 Gent: |. 3 Gent: lead round 3 Ladies |: swing
+%% with right hands round 2d Cu: then with left |. & set contrary corners |: .
+%%endtext
+%%sep 1 1 450

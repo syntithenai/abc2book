@@ -1,0 +1,30 @@
+X: 181
+T: a Trip to London
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.18 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+DFB dcB | ABc GFE |\
+DFB dcB | FBA B3 :|\
+|:\
+Bdf Bdf | bag fdB |
+Bdf Bdf | gec cAF |\
+Bde fga | bag fed |\
+cde dcB | FBA B3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+B3 B3 | f3 e3 |\
+B3 B3 | f3 B3 :|\
+|:\
+b3 b3 | b3 b3 |\
+b3 b3 | c3 f3 |\
+B3 B3 | B3 B3 |\
+f3 B3 | f3 B3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

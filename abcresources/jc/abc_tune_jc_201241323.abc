@@ -1,0 +1,17 @@
+X: 4319
+T: WALTZ FROM "MARITANA."
+R: Waltz
+%R: waltz
+N: This is version 2, for ABC software that understands tremolo notation.
+B: James Kerr "Merry Melodies" v.4 p.33 #319
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: There are a lot of dropouts in this tune.
+M: 3/4
+L: 1/16
+K: G	% and Em
+|:\
+(db2)z z2B2 g4 | z2c2f2c2 e4 | (dc'2)z z2c2 f4 | z2B2g2B2 e4 |\
+(db2)z z2B2 g4 | z2c2f2c2 e4 | (dc'3)z z2c2 f4 | g8 z4 :|
+|:\
+BBBB B2e2d2c2 | BBBB B2A2G2F2 | EEEE E2F2G2A2 | !//!B12 |\
+BBBB B2e2d2c2 | BBBB B2a2g2f2 | eeee e2f2B2^d2 | e8 z4 :|

@@ -1,0 +1,39 @@
+X: 30171
+T: SAMSON WALTZ
+C: E. L. White
+%R: waltz
+N: This is version 2, for ABC software that understands voice overlays and crescendo notation.
+U: p=!crescendo(!
+U: P=!crescendo)!
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.17 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+!p!(g2 |\
+a2)z2(d2 | f2)z2(B2 | d2)z2(c2 | G2)z2 ag |\
+"_cresc."B4ag | c4Bc |1 (d2f2e2 | d4) :|2 dpefgaPb |!f! c'2z2 |]
+|: .g.g |\
+"_>".c'2.g!p!.g.c'.c' | .b2.b.a.a.g | "_>".f2.d.d.a.a | .g.g.f.f.e2 |\
+.c'2.gp.g.c'.c' | (_e'2Pd'2c'2) |!f! (=e'c'gefd) | c2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |!p!\
+B,2D2G2 | B,2D2G2 | C2E2G2 | C2E2C2 |\
+[F2G,2][F2G,2]z2 | [E2G,2][E2G,2]z2 |1 (F2D2)C2 & G,4x2 | B,4 :|2 p[F2G,2][F2G,2]P[F2G,2] |!f! [E2G,2]z2 |]
+|: z2 |\
+"_>".[E2G,2]!p!E2E2 | G2F2E2 | "_>".[D2G,2]B,2F2 | E2D2C2 |\
+[E2G,2]p[E2G,2][E2G,2] | P"_>"[A6_E6] |!f! [c2=E2][c2E2][B2D2] | [c2E2]z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+G4z2 | G4z2 | c4z2 | c4z2 |\
+G2G2z2 | c2c2z2 |1 B4c2 | G4 :|2 G2G2G2 | c2z2 |]
+|: z2 |\
+"_>".c2c4- | c6 | "_>"G2(G4 | c6) |\
+c2pc2c2 | "^>"P^f6 |!f! g2g2G2 | c2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

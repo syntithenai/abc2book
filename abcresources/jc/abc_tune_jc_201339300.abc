@@ -1,0 +1,25 @@
+X:695
+T:Song to the Moon - single line
+C:Antonin Dvorak, 1848-1855
+C:Arranged and abbreviated by Colin Hume, 2016
+L:1/4
+M:3/4
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com
+Q:1/4=100
+N:Originally in G flat and 3/8 time.
+K:G
+%%MIDI chordprog 46   Orchestral Harp
+%%MIDI bassprog 43    Contrabass
+%%MIDI program 68     Oboe
+|: "^INTRO" "_PLAY 4 TIMES" "G"[gb]2[fa]/[gb]/ :|\
+P:A
+"G"BBA | "/"BdA | "G"B/G/"C"EG- | "G"Gz"Em"z | "D"AA"G"B | "D"AA"G"B | "Am"c/A/-A2 | "D7"Z ]
+P:B
+"G"BB"D"A | "Am"c2"Em"B | "Am"e/c/"D"d2 | "C"z"D7"z2 | "G"dcB | "A7"BeF/G/ | "G/D"B/A3/z | "D"Z ]
+P:C
+"G"dd"Am"c | "C"e2"G"d | "Bm"f/d/"C"e2 | "Bm"z"C"z2 | "E7"edB | "Am"d/c/"D"BA/D/ | "G"AG2 | "/"Z ]
+P:D
+"G"Gg3/g/ | "Bm"f/d/f2 | "C"c/4d/4e/-ed/c/ | "E"B2z | "Em"BAB | "Am"dcB/A/ | "G/D"G/4A/4B/-B2 | "D"A/F/"G"G3/z/ ]
+P:E
+"Em"gag | "Bm"(3f/e/d/f2 | "C"c/4d/4e/-ed/4e/4d/4c/4 | "E"B2z | "Em"BAB | "Am"dcB/A/ | "G/D"G/4A/4B/-B2 | "D"A"G"G3/z/ |]

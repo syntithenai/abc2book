@@ -1,0 +1,29 @@
+X: 162
+T: MISS MARGARET GORDON OF LESSMORE
+C: JOHN MACGLASHAN
+R: Reel
+B: Glen Collection p.16 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: G
+%
+V: 1
+c |\
+BG B/c/d (cB)(AG) | FDAG FDDc | BG B/c/d gfed | e/f/g df gGG :|
+g |\
+bgba gfed | {f}edgB cAAc | dbba gfed | e/f/g f/g/a bgga |
+bgba gfed | {f}edgB cAAc | B/c/d Ac BGDB, | CEDF G2[GB,] |]
+%
+V: 2
+z |\
+G2[g2d2] [g2d2][g2d2] | [a2d2][f2d2] [a2d2][f2d2] |\
+[g2G2][b2g2] [c'2g2][b2g2] | [c'2g2][c'2a2d2] [b2g2][bg] :|
+z |\
+[g2d2G2][g2d2G2] [g2d2G2][g2d2G2] | [g2d2G2][g2d2G2] [f2d2A2][f2d2A2] |\
+[g2d2G2][g2d2G2] [g2d2G2][g2d2G2] | [c'2g2][c'2d2] [b2g2][b2g2] |
+[g2d2G2][g2d2G2] [g2d2G2][g2d2G2] | [g2d2G2][g2d2G2] [f2d2A2][f2d2A2] |\
+[g2d2G2][f2d2] [g2d2][g2d2] | g2[c'2d2] [b2g2][bdG] |]

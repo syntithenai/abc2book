@@ -1,0 +1,14 @@
+X: 1137
+T: the Irish Girl   #2
+R: slipjig
+%S: s:2 b:9(4+5)
+B: O'Neill's 1850 Music of Ireland #1137
+O: McFadden
+Z: Stephen Foy (shf@access.digex.net)
+Z: Corrected by John Chambers
+N: Compacted via repeats and multiple endings [JC]
+%: abc 1.6
+M: 9/8
+K: A
+"^A"|: c2 A AEA AEA | cBc Ace dcB | Tc2 A AEA AEA | BAB dge dBG :|
+"^B"|: cde efd e2 d | cde efd ged | cde efd efg | agf {a}gfe [1 dcB :|[2 ded |] %["End" HA3 |]

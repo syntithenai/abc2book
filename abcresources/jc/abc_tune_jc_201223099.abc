@@ -1,0 +1,31 @@
+X: 06
+T: Glenlyons Rant
+%R: reel
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.99 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Dmix
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F |\
+D/D/D dF A2-A(c | TB)GAF G/(F/E/D/ C)E |\
+D/D/D dF A2-A(g | Tf)def d/d/d d :|
+|: (e |\
+f)dgf ecc(e | f)dge fdge |\
+fdgf eccg | (f/g/a) e>f d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 d2d2 | d2d2 c2c2 | d2d2 d2d2 | A2A2 D2D :| \
+|: z |\
+d2d2 c2c2 | d2d2 d2d2 | d2d2 c2c2 | d2A2 D2D :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The first Cu: foot it and cast of two Cu: .|
+%% Lead up to the Top and cast off :|
+%% hands round four with the third Couple .|.
+%% right and left at Top :|:
+%%endtext
+%%sep 2 2 400

@@ -1,0 +1,39 @@
+
+X: 1
+T: \vSto mi e milo
+O: Macedonia
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin, used by the MIT Folk Dance crowd
+M: 7/8
+L: 1/8
+P: Play instrumental, 2 verses, ...
+%%slurgraces
+K: D
+"instr"\
+|:y"G" FGG G2 G2 | GFG "D"A2 AD | "G"AB2 BA GA |1 "G"B2A "D"AG FD :|2 "G"B2z B2 z2 ||
+|: "G"AB2 BA GA | "G"B2A "D"AG FD |1 "Em"FG2 GF ED | "Am"E3 A2 z2 :|2 "Em"G2F "A7"EF ED | "D"D3 D2 z2 |]
+"vocal"\
+|: "D"D3 F2 G2 | A3 A4 | "G"B3 (AG) (FG) | "D"A3 A4 |
+w: 1.~\vSto mi e mi-lo, mi-lo* i* dra-go
+w: 2.~Na ke-pen-ci-te, ma-mo,* da* se-dam
+w: 3.~Ko-ga no vo-da, vo-da* mi* o-dat,
+w: 4.~Na ov-ai iz-vor, iz-vor* stu-*de-ni,
+|  "G"B3 (AG) (FE) | "A7"E2D (AG) (GF) | "D"F3 "A7"(EF) (ED) | "D"D3 D4 :|
+w: 1.~vo Stru-*ga* gra-da, ma-* mo,* du-kjan* da* i-mam.
+w: 2.~Stru-\vzki-*te* mo-mi, ma-*mo,* mo-mi* da* gle-dam.
+w: 3.~so ti-*e* stom-ni, ma-*mo,* stom-ni* \vsa-*re-ni.
+w: 4.~tam da* se* z'dru\vz-ki ma-*mo,* z'dru\vz-ki* so-*be-rat.
+|: "D"(DC)D "A"E2 E2 | E3 E4 | "(D)"{E}F3 "A7"(FE) (DE) | "D"{E}F3 F4 |
+w: 1.~Le-*le va-rai, mo-me, mo-me* ka-*li-no,
+w: 2.~Le-*le va-rai, mo-me, mo-me* ka-*li-no,
+w: 3.~Le-*le va-rai, mo-me, mo-me* ka-*li-no,
+w: 4.~Le-*le va-rai, mo-me, mo-me* ka-*li-no,
+|  "D"A3 (BA) (GF) | "A7"E2D (AG) (GF) | "D"F3 "A7"(EF) (ED) | "D"D3 D4 :|
+w: 1.~vo Stru-*ga* gra-da, ma-*mo,* du-kjan* da* i-mam.
+w: 2.~Stru-\vzki-*te* mo-mi, ma-*mo,* mo-mi* da* gle-dam.
+w: 3.~so ti-*e* stom-ni, ma-*mo,* stom-ni* \vsa-*re-ni.
+w: 4.~tam da* se* z'dru\vz-ki ma-*mo,* z'dru\vz-ki* so-*be-rat.
+%%begintext align
+How nice it would be to have a shop in Struga, to sit and watch the girls carrry water
+in their colorful jars, at the well where the students meet.
+%%endtext

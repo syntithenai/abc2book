@@ -1,0 +1,39 @@
+
+X: 1
+T: Trgnala Rumjana
+O: Pirin, Bulgaria
+R: lesnoto
+M: 7/8
+L: 1/8
+K: D
+"^Instr"\
+|: "A7"~f2e fg fe | "D"~e2d eA fA | "A7"~f2e fg fe | "D"~e2d de fg |
+| "D"aaa ~a2 (3fga | "G"bbb ba g2 | "E7"~f2f efed |1 "A7"a3 ag fe :|2 "A7"e3- e2 z3 ||
+"^Vocal"\
+|: "D"[a2f2][af] [b2g2] [a2f2] | [f2d2][ge] [a4f4] \
+| "A7"[a2f2][ge] [a2f2][g2e2] | "D"[f2d2][ec] [f2d2] [g2e2] \
+|  "D"[a2f2][af] [b2g2] [a2f2] | [f2d2][ge] [a4f4] \
+| "A7"[a2f2][ge] [a2f2] [g2e2] | "D"[f3d3] [f2d2] z2 |
+| "Bm"[f2d2B2][ec] [f2d2B2] [e2c2] | [d2B2][ec] [f4d4] \
+| "F#7"[f2d2][ec] [f2d2] [e2c2] | "Bm"[d2B2][ec] [f2d2] [g2e2] \
+| "Bm"[f2d2B2][ec] [f2d2B2] [e2c2] | [d2B2][ec] [f4d4] \
+| "G"[f2d2][ec] "A7"[f2d2] [e2c2] | "D"[d3d3] [d2d2] Hz2 :|
+W:1. Tr\^agnala Rumjana za voda studena, (lele),
+W:   Vse sutrin rano po ladovina, lele, vse ve\vcer k\^asno po mese\vcina.
+W:2. Nasre\vsta ide edno ludo mlado, (lele)
+W:   Toj na Rumjana tihom govori. (lele)
+W:3. Ja ka\vzi Rumjano, kakvo da di storja? (lele)
+W:   Kitki da ti zema, drugi \vste nabere\vs. (lele)
+W:4. Stomni da ti \vs\vcupja, drugi \vste si kupi\vs, (lele)
+W:   Hem po-ubavi, hem po-\vsareni. (lele)
+W:5. Ja togaz Rumjano, daj da te celuna, (lele)
+W:   \vCe celuvkata se s pari ne kupuva. (lele)
+W:6. \vCe celuvkata e mehlem na s\^arceto, (lele)
+W:   Mehlem na s\^arceto, balsam na du\vsata. (lele)
+W:
+W:Rumjana went for water early each morning in the coolness, late each evening in the moonlight.
+W:Towards her came a young lad. He said quietly to Rumjana.
+W:Tell me now, Rumjana, what shall I do to you: If I steal your flowers, you'll just pick others.
+W:If I break your jugs, you'll buy yourself new ones, even prettier and more colorful.
+W:So now, Rumjana, let me kiss you, for a kiss cannot be bought with money.
+W:For a kiss is a salve for the heart, a salve for the heart, a balm for the soul.

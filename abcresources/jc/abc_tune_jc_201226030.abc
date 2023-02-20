@@ -1,0 +1,36 @@
+X: 10081
+T: BRUCE'S ADDRESS
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.8 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Moderato"
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+|:\
+F2F F2D | F2A B3  | G2G G2F | G2A B2c |\
+d2e c2d | B2c d2c | B2G G2F | F3 z2z :|
+|:\
+d2d d2c | d2e f3  | c2c c2B | c2d e3 |\
+f2d c2d | B2c d2c | B2G G2F | F3 z2z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+|:\
+D2D D2B, | D2E D3 | E2E E2D | E2F D2E |\
+F2G E2F | D2G B2E | D2E E2D | D3 z2z :|
+|:\
+B2B B2A | B2c d3  | A2A A2G | A2B c3 |\
+d2F E2F | D2G B2E | D2E E2D | D3 z2z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+|:\
+B2B B2B | B2B B3 | B2B B2B | B2B B3 |\
+B3  F3 | G2E F2F | B2B B2B | B3 z2z :|
+|:\
+B2B B2F | B2B B3  | F2F F2F | F2F F3 |\
+B3  f3  | a2e f2F | B2B B2B | B3 z2z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

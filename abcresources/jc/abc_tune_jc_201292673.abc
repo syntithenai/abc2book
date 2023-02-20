@@ -1,0 +1,33 @@
+X: 1
+T: Jenny's Whim
+N: Pub: J. Walsh, London, 1748
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.85 #345
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:85 #345
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+d/e/ |\
+f2ed/c/ | dBAg | f2ed | ce2d/e/ |\
+f2ed/c/ | dBAg | f2ed | Ad2 :|
+D/E/ |\
+FA,TA,2 | EA,TA,2 | {G}F2TED | CE2D/E/ |\
+FA,TA,2 | EA,TA,2 | f2ed | Ad2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+dd'c'a | zgfe | dd'ge | a2A2 |\
+dd'c'a | zgfe | d2a2 | d3 :|
+z |\
+A2A2 | A4 | A2A2 | A4 |\
+A2A2 | A4 | d2a2 | d3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu. cast off into the 2d Cu. Place, then Right hand and Left half round, the 1st and 2d Man
+%% foot it to their Partners and turn them into their Places | The 1st Man foot it to the 2d Wo.
+%% and turn her, the 2d Man do the same with the 1st Wo.  First Cu. cast off the 2d Cu. and
+%% turn, and the 3d Cu. and turn, take hands and lead up to the top and cast off one Cu.
+%% Right hand and Left all round |
+%%endtext

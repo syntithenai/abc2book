@@ -1,0 +1,33 @@
+X: 08200
+T: Virginia Reel Medley
+O: Henry Ford Coll.
+B: Henry Ford "Good Morning"
+R: jig
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Record No. 117-A
+N: The repeat pattern isn't clear from the music; it's best to ask the caller.
+M: 6/8
+L: 1/8
+K: G
+P: First Part (Larry O'Gaff)
+!Segno![|]\
+((3d/e/f) |\
+"G"kgGG BAG | ded dBG | "D7"kcec "G"kBdB | "D7"kABc def |\
+"G"kgGG BAG | ded dBG | "C"kcec "G"kBdB | "D7"AGA "G"G2 d ||
+"G"kdgg gfg | gfg "D7"afd | kdaa aga | aga "G"b2g |\
+   gag "Am"gfe | "G"ded dBG | "C"cec "G"BdB | "D7"AGA "G"G2 d ||
+P: Reel (Miss MacLeod's)
+M: 2/4
+L: 1/16
+K: G
+"G"kG2g2 edeg | k[BD]BBA k[B2D2]BA | "G"kG2g2 edeg | "D7"k[AD]AAG k[A2D2]BA |
+"G"kG2g2 edeg | k[BD]BBA k[B2D2]d2 | "C" eeed e2de | "G"gedB "D7"A2BA ||
+"G"GABc  dGBG | k[BD]BBA k[B2D2]BA | "G" GABc dGBG | "D7"k[AD]AAG k[A2D2]BA |
+"G"GABc  dGBG | k[BD]BBA k[B2D2]d2 | "C" eeed e2de | "G"gedB "D7"A2[d2D2] !D.C.Reel!y||
+P: March (Battle Hymn of the Republic)
+M: 2/4
+L: 1/8
+"G"[d3D3] [cC] | [BB,]>[dD] [gG]>[aA] | ([b4d4B4] | [g2G2]) z2 |\
+"C"[e3E3] [fF] | [gG]>[fF] [gG]>[eE] | "G"([d4B4D4] | [BGB,])[dD] [dD][dD] |
+"G"[d3D3] [cC] | [BB,]>[dD] [gG]>[aA] | ([b4d4B4] | [g2B2G2]) [g2G2] |\
+"Am"[a2A2] [a2c2A2] | "G"[g2B2G2] "D7"[f2A2F2] | "G"[g4-B4-G4-] | [g2B2G2] "D.S."z2 |]

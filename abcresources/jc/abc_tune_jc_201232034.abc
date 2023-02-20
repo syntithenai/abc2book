@@ -1,0 +1,17 @@
+X: 162
+T: the Sailors all at the Bar
+R: jig
+M: 6/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Abraham Mackintosh "A Collection of Strathspeys, Reels, Jigs &c.", Newcastle, after 1797, p.16
+F: http://imslp.info/files/imglnks/usimg/a/a8/IMSLP80796-PMLP164326-Abraham_Mackintosh_coll.pdf
+K: D
+V: 1
+   d | AFD DEF | GBG F2D | GBG AFD | CEE E2d | AFD DEF | GBG F2D | FGA Bcd | AFD D2 :|
+|: g | fdf ece | dAG F2D | GBG AFD | CEE E2g | fdf ece | dAG F2D | FGA Bcd | AFD D2 :|
+V: 2 clef=bass middle=d
+   z | [a3f3d3] [a3f3d3] | [b3g3d3] [a3f3d3] | [b3g3d3] [a3f3d3] | [a3e3c3A3] [a3e3c3A3] |\
+       [a3f3d3] [a3f3d3] | [b3g3d3] [a3f3d3] | [a3f3d3] [b3g3d3] | [a3f3d3] [a2f2d2] :|
+|: z | d3 a2g | f2e d3 | [b3g3d3] [a3f3d3] | [a3e3c3A3] [a2e2c2A2]z |\
+       d3 a2g | f2e d3 | [a3f3d3] [b3g3d3] | [a3f3d3] [a2f2d2] :|

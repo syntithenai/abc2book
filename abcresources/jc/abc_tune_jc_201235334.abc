@@ -1,0 +1,37 @@
+X: 21091
+T: MARSHALL SETT (tune 4)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.109 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+g/a/ |\
+bBd fFA | BB,D FBA | GEc cdB | ABG F2a |\
+bBd fFA | BB,D FcB | Ggf edc | c3 B2 H|]
+d/c/ |\
+BB,D Fdc | BB,B, B,dB | cCC Cec | dcB BAG |\
+FGA Bcd | cde fdB | GAB CDE | FAc "D.C."f2 |]
+F |\
+F2E D2F | F2E D2F | FED FED | C2C C2G |\
+c2c g2g | f2e d2c | Bcd cBA | B2B "^D.C."B2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple promenade round,
+%% and face the head of the hall,
+%% 2d, 3d and 4th couples do the same,
+%% march,
+%% then the 1st lady in each sett,
+%% balance with the 1st gentleman,
+%% and turn who you please,
+%% balance to the next, &c.,
+%% all the others perform the same,
+%% all balance,
+%% swing to place.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,18 @@
+X: 31
+T: Lady Charlotte Campbell's Medley.  the Reel.
+O: by R. MacIntosh.
+R: reel
+S: Fiddle Hell Online 2020-11-05 Se\'an Heel Slow Airs Workshop
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+% - - - - - - - - - -
+V: 1 staves=2
+F |\
+B3f dBfd | edcB AFcA | B2bf dBfB | AFec dBB :: d | f2d>b g2E>e | c2A>a f2D>d |
+B2Gg edcB | AcFe dBBf | dBba gfed | cAag fedc | BGgf edcB | AFec dBB |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | B2d2 b2B2 | c2=e2 f2F2 | B2d2 b2B2 | f2F2 B2B, :: z | [b2B2][b2B2] [c2C2][c2C2] | [a2A2][a2A2] [d2D2][d2D2] |
+[g2G2][e2E2] [c2C2][=e2=E2] | [f2F2][f2F2] [B2B,2]z2 | b2g2 e2c2 | a2f2 d2B2 | g2e2 c2=e2 | f2F2 B2B, |]

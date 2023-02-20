@@ -1,0 +1,30 @@
+X: 10632
+T: CHEVALIER WALTZ
+C: JohnTurnbull
+P: Copyright.
+R: Waltz.
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.63 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The "Coda," annotation is somewhat nonsensical.
+M: 3/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 !segno!|:\
+c4B>d | c>ed>ec2 | g4^f>g | e4c2 |\
+d4^c>e | d>fe>fd2 | agfAfe | dcBGe>d |\
+c4B>d | c>ed>ec2 | g4^f>g | e4c2 |
+a4^g>a | fd^cdfa | c4e>d | "^Fin."c4 H:|\
+|: B2 |\
+e4^d>^f | e>g^f>ge2 | b4 ^a>b | g4e2 |\
+d4^c>e | d>fe>fd2 | a4^g>a | f4d2 |
+c4B>d | c>ed>ec2 | g4^f>g | e4c2 |\
+a4^g>a | fd^cdfa | c4e>d | c4 :|\
+"^Coda."e>f |\
+g4a>^f | g4a>^f | g4z2 | z2z2d2 |
+e2c2d2 | e2c2d2 | edefde | cBcABc |\
+d4e>^c | d4e>^c | d4z2 | z2z2A2 |\
+B2G2A2 | BABcAB | G2"^>"f4 | G2"^>"e3"^D.C."d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

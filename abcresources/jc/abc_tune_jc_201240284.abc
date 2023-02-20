@@ -1,0 +1,20 @@
+X: 383	% 110
+T: Half Way
+T: or Washboard
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.38 #3
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+V: 1 name="110"
+|:"^Quadrille"\
+C2[EC][EC] [EC][EC][EC][EC] | A,2[FA,][FA,] [FA,][FA,][FA,][FA,] |\
+G2[B2G2] [BG2]Bc | dcBA GFED |\
+C2[EC][EC] [EC][EC][EC][EC] | A,2[FA,][FA,] [FA,][FA,][FA,][FA,] |\
+G2(Bc) d2B2 | [c6E6] :|
+|: d2 |\
+[e3c3][ec][e2c2][e2c2] | d2c2A2G2 |\
+g3g g2^fg | agec A2G2 |\
+[e3c3][ec][e2c2][e2c2] | d2c2A2G2 |\
+g2^fg a2g2 | c8 :|

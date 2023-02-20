@@ -1,0 +1,24 @@
+X: 21541
+T: the Highland Sante
+Q: "Slow"
+%R: air, waltz
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.154 #1
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+N: Added flag to last note (e) of bar 12 to fix that beat's rhythm.
+N: Note the 3-bar phrase structure.
+M: 3/4
+L: 1/16
+K: Em
+g3e |\
+{e}d4 B4 G4 | TA6 G2 A4 | B8 e3g |\
+{e}d4 B4 g4 | G6 A2 F4 | E8 :: d3e |\
+g6 a2 b2a2 | g6 a2 b2a2 | g4 {e}d4 e4 |
+g6 a2 b2a2 | g6 a2 (ba)g2 | e8 g3e |\
+(d2B2) B4 (g2e2) | (d2B2) (A2G2) A2B2 | {ga}b6 a2 (ba)g2 |\
+(e2g2)(d2B2) (A2G2) | {GA}B6 A2 (G2F2) | E8 :: e3g |
+(dB3) B4 e3g | (d2B2) (A2G2) (AB)c2 | B8 b3a |\
+(g2f2)(g2f2) (e2d2) | B6 A2 G2F2 | E8 :: d3e |\
+g4 G4 b2a2 | g4 G4 (ba)g2 | a6 g2 e4 |
+g4 G4 g3a | b3a (ge)d2 B3d | (d4 e4) g3e |\
+(d4 B4) g3e | (d2B2)(d2B2) (AGAB) | {ga}b6 a2 (ba)g2 |\
+(ag)e2 (ge)d2 e2g2 | B6 A2 (G2F2) | E8 :|

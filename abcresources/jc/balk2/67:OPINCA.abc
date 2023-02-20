@@ -1,0 +1,34 @@
+X: 367
+T: Opinca
+O: Romania
+M: 8/8
+L: 1/8
+Q:1/4=120
+K: Bb clef=treble
+P:A
+%%MIDI program 6 Harpsichord
+B,FCB,_D/C/ B,B,B,|B,FCB,_D/C/ B,B,B,|\
+B,FCB,_D/C/ B,B,B,|B,FCB,_D/C/ B,B,B,|
+P:B
+L:1/16
+%%MIDI program 73 Flute
+|:F3_D EDB,2  B,DB,D D2B,2|\
+F3_D EDB,2  B,DB,D D2B,2|
+F3_D EDB,2  B,DB,D D2B,2|\
+_DEDE FEDC  B,4 z4:|
+P:C
+L:1/16
+%%MIDI program 41 Viola
+F4B,2B,2   B,2B,2B,2z2|\
+B,2C_D E_DCB,  B,2C_D E_DCB,|
+B,2C_D E_DCB,  B,4F,4|\
+F2G_A BAGF F2G_A BAGF|
+F2G_A BAGF F4z4|\
+F2G_A BAGF F2G_A BAGF|
+F2G_A G4  F=E2_D EDCB,|\
+F,B,A,B, =E_DCB, F,2B,2 A,2B,2|
+_E4-E2_DE F2E2_D2C2| B,4z4 z8|
+P:D
+|:F8- F8|F2B2F2E2 _D3C DCB,2|\
+F,B,_A,B, E_DCD B,4z4|
+F,2B,2A,2C2 ^F4E2_D2|F2_D2 FE_DC B,4z4:|

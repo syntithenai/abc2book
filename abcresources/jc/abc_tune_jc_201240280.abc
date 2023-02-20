@@ -1,0 +1,15 @@
+X: 382	% 109
+T: Old Schottische
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.38 #2
+R: shottish
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Added repeat to 1st ending to match modern notation.
+M: 4/4
+L: 1/8
+K: C
+V: 1 name="109"
+C>E |:\
+G>^FG>A G2c>d | e>de>g e2d>c | A>Bc>A G>ED>C | D2D>E D2 C>E |
+G>^FG>A G2c>d | e>de>g e2d>c | A>Bc>A G>ED>E | C2C2 C2 e>f ||
+g>^fg>a g2e>d | c>Bc>d e2d>c | A>Bc>A G>ED>C | D2D>E D2 e>f |
+g>^fg>a g2e>d | c>Bc>d e2d>c | A>Bc>A G>ED>E |1 C4 C2 E>F :|["Last ending"C2C2 C2 |]

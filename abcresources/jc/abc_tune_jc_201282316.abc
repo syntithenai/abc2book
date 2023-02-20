@@ -1,0 +1,21 @@
+X: 1
+T: Grainne's Jig
+S: Tommy Peoples, Joe Derrane, Sean McGlynn
+N: It's not clear who "composed" it.
+N: Pieces of it are found in several 19th-century books.
+%D:1974
+R: jig
+S: Fiddle Hell Online 2022-4-10 handout for Becky Tracy's jig workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+"^A"[|] (B |\
+d)GF GDB, | ~G,3 DB,D | EcB ABG | FED cBA ||\
+~B3 GFG | (E/F/G)E CEG | DG(c B)DF | AGF G2 :|
+"^B"|: A |\
+~B3 Ggf | eBc ~E3 | FAd f2(f | e)d^c ud2u=c ||\
+(B/c/d)B Ggf | eBc ~E3 | DG(c B)(DF | A)GF G2 :|
+"^C"|: (D |\
+G)Bd g2(g | e)dc BcA | A^ce a2(g | f)d^c def ||\
+gdB G(gf | e)Bc ~E3 | DG(c B)(DF | A)GF G2 :|

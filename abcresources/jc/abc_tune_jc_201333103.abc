@@ -1,0 +1,24 @@
+X: 1
+T: Sadegurer Khusidl
+C: trad.
+O: arr. Shana Aisenberg
+R: khusidl
+S: Fiddle Hell Online 2020-11-09 handout for Klezmer Jam led by Shana Aisenberg
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: ^f_B_e	% actually G minor (and G major)
+% %continueall
+"^A"|:\
+"Gm"B3A G2G2- | G2BA GFGB | "D"A3G F2F2 | FGFE D4 |
+FDFA "Gm"GEGB | "D"ADAc "Gm"BGBd | "Cm"c2c2 cde/d/c | "D"d4 dcBA |
+"Gm"B3A G2G2- | G2BA GFGB | "D"A3GF2F2 | FGFE D4 |
+d3B c3A | B3G A3D | DBBA AGGF |1 "Gm"G8 :|2 "Gm"G4- G || DGA |[K:=B=e]
+[K:G]\
+"^B"|: DGA |\
+"G"BcBc B2AG | Ac B6 | BcBc B2AG | ABG2- GDGA |
+BcBc B2AG | Ac B6 | "D"A2A2 GFEF | "G"G4- G :|[K:^f_B_e]
+"Gm"{^c}d8 | {^c}d8| {c}d4 {c}d4 | {c}d4 {c}d4 |
+"^C"|:\
+"Gm"GBd2 d2d2 | "Cm"c6 A2 | "Gm"BcBA GFGA | B4 d4 |
+"Gm"GBd2 d2d2 | "Cm"c6 A2 | "Gm"B=FFB "Fm"B_AAG | "Gm"G8 :|

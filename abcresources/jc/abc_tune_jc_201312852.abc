@@ -1,0 +1,66 @@
+X:606
+T:Moravia x 4
+C:Colin Hume, 2011
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=116
+%%MIDI chordname dim 0 3 6 9
+%%MIDI program 41
+%%MIDI chordprog 50
+%%MIDI bassprog 44
+H:For Vicky Bursa
+K:C
+P:This is for playing, not for printing!
+[cc']2 [G,DGBfd']2 |
+K:C octave=1
+|: "C"[CE]/[DF]/[EG] "/"[EG][FA] | "C"[EG]2 "/"cG | "C"GF "/"ED | "C"E2 "/"E2 |\
+"Am"[A,C]/[B,D]/[CE] "/"[CE][DF] | "Am"[CE]2 "/"GE | "C"ED "E7"CB, | "Am"A,2 "/"A,2 :|
+K:C octave=0
+|: "G"[GB]/[Ac]/[Bd] "/"[Bd][Bd] | "C"[ce] "G"[B-d-][Bd][Bd] | "C"[ce] "G"[B-d-][Bd][Bd] | "Dm"[df] "Am"[c-e-][ce]2 |\
+"G"[GB]/[Ac]/[Bd] "/"[Bd][Bd] | "Am"[Ac]/[Bd]/[ce] "/"[ce][ce] | "Em"ge "/"ed | "Am"c2 "/"A2 :|
+|: "G"[GB][G-B-] "/"[GB][Ac] | "G"[Bd]2 "/"[Ac][Bd] | "Am"[ce]2 "/"[Bd]3/ e/4d/4 | "Am"cA- "/"A2 |\
+"Dm"df "/"ed | "Am/E"ce "/"dc | "E7"Bd "/"cB | "Am"A2 "/"A2 :|
+|: "C"[ce][c-e-] "/"[ce][Bd] | "C"[ce]2 "/"c2 | "G7"[Bd][df] "/"[ce][Bd] | "C"[ce]2 "/"c2 |\
+"F"[FA]/[GB]/[Ac] "/"[Ac][Bd] | "Am"[ce]2 "/"dc | "Dm"BA "G7"cB | "C"c2 "/"c2 :|
+%%MIDI program 12
+%%MIDI chordprog 12
+%%MIDI bassprog 58
+K:C octave=1
+|: "C"[CE]/[DF]/[EG] "/"[EG][FA] | "C"[EG]2 "/"cG | "C"GF "/"ED | "C"E2 "/"E2 |\
+"Am"[A,C]/[B,D]/[CE] "/"[CE][DF] | "Am"[CE]2 "/"GE | "C"ED "E7"CB, | "Am"A,2 "/"A,2 :|
+K:C octave=0
+|: "G"[GB]/[Ac]/[Bd] "/"[Bd][Bd] | "C"[ce] "G"[B-d-][Bd][Bd] | "C"[ce] "G"[B-d-][Bd][Bd] | "Dm"[df] "Am"[c-e-][ce]2 |\
+"G"[GB]/[Ac]/[Bd] "/"[Bd][Bd] | "Am"[Ac]/[Bd]/[ce] "/"[ce][ce] | "Em"ge "/"ed | "Am"c2 "/"A2 :|
+|: "G"[GB][G-B-] "/"[GB][Ac] | "G"[Bd]2 "/"[Ac][Bd] | "Am"[ce]2 "/"[Bd]3/ e/4d/4 | "Am"cA- "/"A2 |\
+"Dm"df "/"ed | "Am/E"ce "/"dc | "E7"Bd "/"cB |1 "Am"A2 "/"A2 :|2 "Am"A2 "/"A/[^GB]/[Ac]/[Bd]/ |
+|: "C"[ce][c-e-] "/"[ce][Bd] | "C"[ce]2 "/"c2 | "G7"[Bd][df] "/"[ce][Bd] | "C"[ce]2 "/"c2 |\
+"F"[FA]/[GB]/[Ac] "/"[Ac][Bd] | "Am"[ce]2 "/"dc | "Dm"BA "G7"cB | "C"c2 "/"c2 :|
+%%MIDI program 7
+%%MIDI chordprog 7
+%%MIDI bassprog 7
+K:C octave=1
+|: "C"[CE]/[DF]/[EG] "/"[EG][FA] | "C"[EG]2 "/"cG | "C"GF "/"ED | "C"E2 "/"E2 |\
+"Am"[A,C]/[B,D]/[CE] "/"[CE][DF] | "Am"[CE]2 "/"GE | "C"ED "E7"CB, | "Am"A,2 "/"A,2 :|
+K:C octave=0
+|: "G"[GB]/[Ac]/[Bd] "/"[Bd][Bd] | "C"[ce] "G"[B-d-][Bd][Bd] | "C"[ce] "G"[B-d-][Bd][Bd] | "Dm"[df] "Am"[c-e-][ce]2 |\
+"G"[GB]/[Ac]/[Bd] "/"[Bd][Bd] | "Am"[Ac]/[Bd]/[ce] "/"[ce][ce] | "Em"ge "/"ed | "Am"c2 "/"A2 :|
+|: "G"[GB][G-B-] "/"[GB][Ac] | "G"[Bd]2 "/"[Ac][Bd] | "Am"[ce]2 "/"[Bd]3/ e/4d/4 | "Am"cA- "/"A2 |\
+"Dm"df "/"ed | "Am/E"ce "/"dc | "E7"Bd "/"cB | "Am"A2 "/"A2 :|
+|: "C"[ce][c-e-] "/"[ce][Bd] | "C"[ce]2 "/"c2 | "G7"[Bd][df] "/"[ce][Bd] | "C"[ce]2 "/"c2 |\
+"F"[FA]/[GB]/[Ac] "/"[Ac][Bd] | "Am"[ce]2 "/"dc | "Dm"BA "G7"cB | "C"c2 "/"c2 :|
+%%MIDI program 41
+%%MIDI chordprog 50
+%%MIDI bassprog 44
+K:C octave=1
+|: "C"[CE]/[DF]/[EG] "/"[EG][FA] | "C"[EG]2 "/"cG | "C"GF "/"ED | "C"E2 "/"E2 |\
+"Am"[A,C]/[B,D]/[CE] "/"[CE][DF] | "Am"[CE]2 "/"GE | "C"ED "E7"CB, | "Am"A,2 "/"A,2 :|
+K:C octave=0
+|: "G"[GB]/[Ac]/[Bd] "/"[Bd][Bd] | "C"[ce] "G"[B-d-][Bd][Bd] | "C"[ce] "G"[B-d-][Bd][Bd] | "Dm"[df] "Am"[c-e-][ce]2 |\
+"G"[GB]/[Ac]/[Bd] "/"[Bd][Bd] | "Am"[Ac]/[Bd]/[ce] "/"[ce][ce] | "Em"ge "/"ed | "Am"c2 "/"A2 :|
+|: "G"[GB][G-B-] "/"[GB][Ac] | "G"[Bd]2 "/"[Ac][Bd] | "Am"[ce]2 "/"[Bd]3/ e/4d/4 | "Am"cA- "/"A2 |\
+"Dm"df "/"ed | "Am/E"ce "/"dc | "E7"Bd "/"cB | "Am"A2 "/"A2 :|
+"C"[ce][c-e-] "/"[ce][Bd] | "C"[ce]2 "/"c2 | "G7"[Bd][df] "/"[ce][Bd] | "C"[ce]2 "/"c2 |\
+"F"[FA]/[GB]/[Ac] "/"[Ac][Bd] | "Am"[ce]2 "/"dc | "Dm"BA "G7"cB | "C"c2 "/"c2 |
+"C"[ce][c-e-] "/"[ce][Bd] | "C"[ce]2 "/"c2 | "G7"[Bd][df] "/"[ce][Bd] | "C"[ce]2 "/"c2 |\
+"F"[FA]/[GB]/[Ac] "/"[Ac][Bd] | "Am"[ce]2 "/"dc | "Dm"BA "G7"cB | "C"c2 "/"[CEGcegc']2 |

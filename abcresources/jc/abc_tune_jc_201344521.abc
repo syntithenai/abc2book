@@ -1,0 +1,33 @@
+X: 1
+T: Three October Days
+C: David A. Kaynor 2014-12
+R: jig
+S: Fiddle Hell Online 2020-11-05
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - -
+% Voice 1 has been formatted for compact layout on a small screen.
+V:1 staves=2
+|:\
+"A"aec A2E | "D"FED "A"C3 | "D"DFA "E"EAB | "A"c3 "E"B2g |\
+"A"aec A2E | "D"FED "A"C3 | "D"DFA "E"EAG |1 "A"A3 "E"efg :|2 "A"A3 A2E ||
+[|\
+"A"Aee e2F | "E"Gee e2E | "D"Fdd d2e | "A"c3 cAE |\
+"D"DBB B3 | "A/C#"CAA A3 | "Bm"DFB B2A | "E"G2e dcB ||
+||\
+"A"Aee e2F | "E"Gee e2E | "D"Fdd d2e | "A"c3 cAE |\
+"Bm"D2B GED | "A/C#"C3 AEC | "D"DFA "E"EAG | "A"A3- A3 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the origin full-page arrangement.
+V:2
+|:\
+ecA E2C | DCB, A,3 | A,DF B,EG | A3 G2e |
+ecA E2C | DCB, A,3 | A,DF B,EE |1 [E3C3] cde :|2 [E3C3] [E2C2]C ||
+[|\
+Ecc c2D | EBB B2C | DFF F2A | A3 AEC |
+A,FF F3 | A,EE E3 | B,DF F2D | E2G BAG ||
+||\
+Ecc c2D | EBB B2C | DAA A2A | A3 ECA, |
+B,2F ECB, | A,3 ECA, | A,DE B,EE | [E3-C3-] [E3C3] |]

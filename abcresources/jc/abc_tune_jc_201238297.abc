@@ -1,0 +1,34 @@
+X: 3053
+T: Bonny Charlie
+O: A Scotish Measure.
+N: A version of King of the Fairies
+%R: reel, Scotch measure
+N: This is version 1, for ABC software that doesn't understand diminuendo symbols.
+B: Niel Gow & Sons "Complete Repository" v.3 p.5 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+%: I the middle of bar 11 there's what looks like a 't' between the staffs.
+%: I have no idea what it means. It might be a smudge.
+M: C
+L: 1/8
+Q: "Slowish"
+K: Dm
+% - - - - - - - - - -
+V: 1 staves=2
+A,2 |\
+D2(DE) F2FG | (AB) (GA) F2 (3(GAB) | A2D2 D3F | (EF) (GE) C2 TF>E |\
+D2(DE) F2(FG) | (AB) (GA) F2 (3(GAB) | !p!A2D2 (FE) (D^C) | (D4 d2) :|
+A2 |\
+Td>edc A2A2 | Td>edc A3f | (ef) ge c2 c2 | (efg).e c2Tf>g |\
+(a2f)>a (g2e)>g | {g}(f2d)>f (fe) (d^c) | !p!~d3"_Expr.o"e (fe) (d=c) | (A2d2) d3A |
+Td>edc A2A2 | .f2.f2 A3c | !p!(BA) (GF) (GF) (ED) | (EFG).E C2!f!TF>G |\
+A2F>A c2A>c | (de) fg (fe) (d^c) | !p!(d=c) "_dim."(BA) (A"_dim."G) (FE) | (D4 d2) |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+d2A2 d2e2 | f2e2 d2e2 | f4 d2=B2 | c4 C2z2 |\
+d2A2 d2e2 | f2e2 d2e2 | !p!f4 a2A2 | d.(DFA) d2 :|
+z2 |\
+dafa dafa | dafa dafa | cgeg cgeg | cgeg c2z2 |\
+d2d'2 a2^c'2 | d'2b2 g2a2 | f2e2 d2A2 | d2A2 D2z2 |
+!f!dafa dafa | dafa fc'ac' | !p!ef ga b3 =b | c'4 c2!f!z2 |\
+[c'4a4f4] [c'4a4f4] | b2g2 a4 | !p!f2"^dim."g2 (a2"^dim"A2) | .d(DFA) .d2 |]

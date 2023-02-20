@@ -1,0 +1,32 @@
+X: 21221
+T: MASSASOIT SETT (tune 1)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.1221
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has only 7 bars. (Might be "fixed" by copying its 2nd bar to after bar 5.)
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="1"
+[|\
+a3a A2a2 | f2d2 A4 | (B2A2)(d2c2) | f2e2 (3(fga) A2 |\
+a2a2 A2a2 | f2d2 A4 | ABcd e2f2 | d6 z2 H|]
+A2 |\
+ceA2 c2e2 | g2f2 e2A2 | dfA2 d2f2 | a2g2 e2A2 |\
+ceA2 c2e2 | cdef g2a2 | d6 "^D.C."y|]
+A2 |\
+(B2A2)(d2c2) | (e2d2)(f2A2) | (B2A2) (F2A2) | A2G2 E2G2 |\
+(B2A2)(d2c2) | (e2d2) (f2A2) | (B2e2) (A2c2) | d6 "^D.C."y|]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First four right and left,
+%% balance four,
+%% ladies chain,
+%% promenade four,
+%% sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

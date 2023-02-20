@@ -1,0 +1,14 @@
+X: 31
+T: Ballaristos
+O: Greece
+M: 4/8
+L: 1/16
+Q: 1/4=120
+K: Gm clef=treble
+%%MIDI program 28
+|:c3Bc2B2|A2c2G4|ABc2B2c2|A2c2G4:|\
+%%MIDI program 110
+%%MIDI trim 0/8
+|:cBcBAB2A|AzczB2z2|ABcdcABA|AzczG2z2:|
+K: Gm clef=bass
+|:F,3E,F,2G,2|A,2B,2C2A,2|A,2B,2A,2G,2|D3CC2D2|A,2C2G,2z2:|

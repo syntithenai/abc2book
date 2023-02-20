@@ -1,0 +1,16 @@
+X: 709
+T: Keeper Hill
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #709
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0709/oneill-1001-0709-1.abc
+M: C|
+L: 1/8
+K: A
+"^A"\
+[| A,2A,C EDEF | AGAc BABc | A,2A,C EDEF | ABcA BAFA ||
+|| A,2A,C EDEF | AGAc BABc | defd   cdec | BABc BAFA |]
+"^B"\
+[| cAae cAae | cAag fedc | dBbf dBbf | dBba gfed ||
+|| cAae cAae | cAag fedc | defg agae | dBcA GAFA |]

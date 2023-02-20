@@ -1,0 +1,23 @@
+X: 182
+T: the Sword Knott          E.
+C: Ignatius Sancho 1775
+%R: march, reel
+B: "Minuets Cotillons & Country Dances", 1775 p.18 #2
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: g2dB cecA | BdBG FAD2 | BdgB ceac  BAGF G2G,2 :: BdBG cecA | defd d^cBA |
+[V:2] |: g2g2 c'2d'2 | g2G2 d2f2 | g2g2 c'2c'2 | d'2d2 g4 :: g2g2 g2g2 | f2d2 A2^c2 |
+[V:1] fafd gbge | agfe d2D2 | g2dB cecA | BdBG FADc | BdgB ceac | BAGF G2G,2 :|
+[V:2] d2f2 g2g2 | a2A2 d4 | g2g2 c'2d'2 | g2G2 d2f2 | g2g2 c'2c'2 | d'2d2 g4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The First Cu.foot it and cast off two Cu. .| foot it and cast up again :| cross over
+%% two Cu. Lead up to the top and cast off .|. Hands round four at bottom Right & Left at top :|:
+%%endtext

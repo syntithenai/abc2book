@@ -1,0 +1,15 @@
+X: 143
+T: the Chanter's Tune   #2
+R: air
+%S: s:2 b:16(8+8)
+B: O'Neill's 1850 #143
+Z: 1997 henrik.norbeck@mailbox.swipnet.se
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order (and dropping the ">" stress marks) [JC]
+P: Play A1A2 BA2
+Q: "Slow"
+M: 2/4
+L: 1/8
+K: G
+"^A"[|] (c/A/) | GG d(c/A/) | GG =f(e/f/) | gd d(c/A/) |[1 =fe d :|[2 G2- "^fine"G |]
+"^B"[|  (B/c/) | dd/e/ =f(e/f/) | (d/c/d/e/) =f(e/f/) | gd .d(c/A/) | .=f(e/f/) "^->A2".d |]

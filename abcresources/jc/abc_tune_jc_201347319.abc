@@ -1,0 +1,26 @@
+X:1
+T: Twelve for the Twelve Apostles
+N:
+C:"Isabella Burke" by O'Carolan
+S:
+A:
+O:
+R:
+M:3/4
+K:Am
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 36 notes)
+K:Am
+M:3/4
+L:1/16
+c2 d2 |e4 e4 e2 d2 |e4 a4 a2 g2 |e4 g2 e2 d2 c2 |B4 c4 G2 A2 |B4 c4 B2 A2 |G4 g4 e2 d2 |c4 B2 G2 A2 G2 |E4 A4 c2 d2 |
+%W: A2
+% voice 1 (1 lines, 34 notes)
+e4 e4 e2 d2 |e4 a4 a2 g2 |e4 g2 e2 d2 c2 |B4 c4 G2 A2 |B4 c4 B2 A2 |G4 g4 e2 d2 |c4 B2 G2 A2 G2 |E4 A4 E2 F2 |
+%W: B1
+% voice 1 (1 lines, 33 notes)
+G4 c4 B2 A2 |G4 G4 G4/3 |A4/3 B4/3 c4 |e4 d4 c4 |c4 G2 A2 B4 |c4 B2 A2 G4 |g4 e2 d2 c4 |B2 A2 A2 G2 E4 |A4 E2 F2
+%W: B2
+% voice 1 (1 lines, 31 notes)
+G4 |c4 B2 A2 G4 |G4 G4/3 A4/3 |B4/3 c4 e4 |d4 c4 c4 |G2 A2 B4 c4 |B2 A2 G4 g4 |e2 d2 c4 B2 A2 |A2 G2 E4 A4 |||

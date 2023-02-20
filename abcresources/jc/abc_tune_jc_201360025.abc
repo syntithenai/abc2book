@@ -1,0 +1,43 @@
+X:8259
+T:Sinclair-visa
+T:Solo fiddle version
+C:anon., words: E. Storm
+O:Faeroe Islands
+Z:Transcribed by Eric Forgeot
+F:http://abc.musicaviva.com/tunes/faeroe/sinclair-dm/sinclair-dm-vln3.abc
+%Posted November 1st 2001 at abcusers by Eric Forgeot.
+V:1 Program 1 110 up %Fiddle
+V:2 Program 1 110 merge down %Fiddle
+D:Folque
+%%staves (1 2)
+%%MIDI program 43
+M:C
+L:1/8
+Q:1/4=130
+K:Dm
+V:1
+A2 |: A2 A2 A2 DA | AB {AB}AA A2 AA | A2 A2 A2 A2|
+V:2
+D2 |: F2(FE)D2 (A,D)| (DD) (DG) F2 (FG) | A2 A2 G2F2|
+%
+V:1
+AA A2 A2 A2 | [M:6/4] D2 A2 AB {AB}AA A2 AA | [M:C] A3 A A2 A2|
+V:2
+EEG2FG/F/ EF/E/ | [M:6/4] A,2 D2 (DD) (DG) F2 FG | [M:C] A3 A G2F2|
+%
+V:1
+[M:6/4]AA A2 Az A2A3D | [M:C]D2 A2A2A2 | A2 EAD2AA:|
+V:2
+[M:6/4] EED2 Fz (D2[^C3E3]) C | [M:C]D2D2 DE {E}F2 | {EF}ED ^CED2 (EF):|
+W:
+W:Herr Sinclar drog over salten Hav,
+W:Til Norrig hans Cours monne stande ;
+W:Blandt Gudbrands Klipper han fandt sin Grav,
+W:Der vanked s\aa blodig en Pande.
+W:- Vel op f\or Dag
+W:De kommer vel over den Hede -
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

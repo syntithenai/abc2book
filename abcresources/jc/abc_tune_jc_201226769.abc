@@ -1,0 +1,43 @@
+X: 1043
+T: MacPhersons' Lament
+%R: lament, air
+N: This is version 2, for ABC software that understands voice overlays and diminuendo symbols.
+N: The cadences have voice-1 chords that extend down into the bass staff, transcribed as chords in voice 2.
+B: Niel Gow & Sons "Complete Repository" v.1 p.4 #3 (and top of p.5)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: The repeat symbols aren't consistent.
+M: C
+L: 1/8
+Q: "SLOW WITH MUCH EXPR.n"
+K: F
+% - - - - - - - - - -
+% Both voices organized as 4 8-bar staff lines for proofreading.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+V: 1 clef=treble staves=2
+(C/D/E) |\
+TF3G F2A2 | TGFGA {A}G2FE | TF3G (AG)(FE) | {E}D4 D2(C/D/E) |\
+TF3G F2A2 | {A}G>FGA {A}G2FE | TF2QED (GE)(FD) q| C4 C2 :|
+|: d2 |\
+c2F2 c2d2 | c3A (GA).B.d | c2F2 (c2d2) | D4 ~D2d2 |\
+c2F2 !f!c3A | {A}Qc3A (GB)AG | F2EDq (GE)(FD) | C4 C2 :|
+|: (c/d/e) |\
+Tf3g f2a2 | {a}gfga {a}g2fe | Tf3g (ag).f.e | {e2}d4 d2 (c/d/e) |\
+Tf3g f2a2 | {a}gfga {a}g2fe | f2ed (ge)(fd) | [c4G4E4] [c2G2E2] :|
+|: a>g |\
+f2F2 (BA)(GF) | {AB}c2F2 F2a>g | f2F2 (c2d2) | D4 ~D2a>g |\
+f>F TF3/E//F// A>F TF3/E//F// | {=B}c3QA G2A2 | F2qEF (GF)(ED) | C4 C2 :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |
+F2f2 F2f2 | c2c'2 c4 | A2c2 f2a2 | b4 B2AG |\
+F2f2 F2f2 | c2c'2 c2z2 | d2Qef g2G2 q| [g4e4] [g2e2] & c2G2 C2 :|
+|: z2 |\
+F4 a2b2 & x4 f4 | a2f2 [c'4g4e4] | x4 a2b2 & [a4f4] f4 | B2b2 B2b2 |\
+a4 !f!f2F2 | QA2B2 c2de | f4 qg2F2 | [g4e4] [g2e2] & c2G2 C2 :|
+|: z2 |\
+fc'ac' fc'ac' | ec'gc' ec'gc' | defg a2A2 | d2A2 D2z2 |\
+Afcf Ffcf | cc'gc' c2de | d2ef g2G2 | c2G2[c2C2] :|
+|: z2 |\
+F4 f4 | z2[a2f2] [a2f2][b2f2] | x4 a2b2 & a4 f4 | B2b2 B2z2 |\
+F4 f4 | A2QB2 c2^c2 | d2qef g2G2 | [g4e4] [g2e2] & c2G2 C2 :|

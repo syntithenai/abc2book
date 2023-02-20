@@ -1,0 +1,65 @@
+% Sharp Scales: G, D, A, E, B, F#, C#
+% Flat Scales: F, Bb, Eb, Ab, Db, Gb, Cb
+
+X: 1
+T:D Major
+T:2 sharps - F#, C#
+M:4/4
+L:1/4
+K:D
+  D E F  G | A B c  d | d e f  g | a b c' d' || D F  A d | d f  a d' |]
+w:D E F# G   A B C# D   D E F# G   A B C# D     D F# A D   D F# A D
+
+X: 2
+T:G Major
+T:1 sharp - F#
+M:4/4
+L:1/4
+K:G
+  G A B c | d e f  g || G B e g |]
+w:G A B C   D E F# G    G B E G
+
+X: 3
+T:B Minor
+T:2 sharps - F#, C#
+M:4/4
+L:1/4
+K:B Minor
+  B c  d e | f  g a b || B d f  b |]
+w:B C# D E   F# G A B    B D F# B
+
+X: 4
+T:E Minor
+T:1 sharp - F#
+M:4/4
+L:1/4
+K:E Minor
+  E F  G A | B c d e || E G B e |]
+w:E F# G A   B C D E    E G B E
+
+X: 5
+T:A Major
+T:3 sharps - F#, C#, G#
+M:4/4
+L:1/4
+K:A
+  A, B, C D | E F G A | A B c d | e f g a |]
+w:A B C# D E F# G# A A B C# D E F# G# A
+
+X: 6
+T:C Major
+T:0 sharps/flats
+M:4/4
+L:1/4
+K:C
+  C D E F | G A B c | c d e f | g a b c' |]
+w:C D E F G A B C C D E F G A B C
+
+X: 7
+T:F Major
+T:1 flat - Bb
+M:4/4
+L:1/4
+K:F
+  F G A B | c d e f |]
+w:F G A Bb C D E F

@@ -1,0 +1,76 @@
+%%staffsep 45
+
+
+X: 1
+T: Le Laride
+T: Tri Martelod
+O:trad Brittany
+D:Alan Stivel, \`a l'olympia, Fontana 6399 008
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+L:1/8
+M:2/4
+K:Dm
+ GFE \
+| "Dm"D2 D2 | "C"C2 FE | "Bb"D2 DC/B,/ | "Am"A,=B, CA, \
+| "Dm"D2 D2 | "C"C2 FE | "Bb"DD "Am"CC | "Dm"D ","A,A,A, |
+| "Dm"D2 D2 | "C"C2 FE | "Bb"D2 DC/B,/ | "Am"A,=B, CA, \
+| "Dm"D2 D2 | "C"C2 FE |[M:3/4] "Bb"DD "Am"C2 "Dm"HD |[| A,  |[M:2/4] DCDE |
+|  "F"F2 EF | "G"GF ED | "Bb"F2 "C"E2  | "Dm"DC DE     \
+|  "F"F2 EF | "G"GF ED | "Bb"F2 "C"E |]
+
+%%sep 2 2 200
+
+
+X: 2
+T: Le Laride
+T: Tri Martelod
+O:trad Brittany
+D:Alan Stivel, \`a l'olympia, Fontana 6399 008
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+L:1/8
+M:2/4
+K:Dm
+ A, \
+| "Dm"DCDE  | "F"F2 EF | "G"GF ED      | "Bb"F2 "C"E2  \
+| "Dm"DC DE | "F"F2 EF | "G"GF ED      | "Bb"F2 "C"E |[| GFE |
+| "Dm"D2 D2 | "C"C2 FE | "Bb"D2 DC/B,/ | "Am"A,=B, CA, \
+| "Dm"D2 D2 | "C"C2 FE | "Bb"DD "Am"CC | "Dm"D  A,A,A, |
+| "Dm"D2 D2 | "C"C2 FE | "Bb"D2 DC/B,/ | "Am"A,=B, CA, \
+| "Dm"D2 D2 | "C"C2 FE | "Bb"DD "Am"C2 | "Dm"HD |]
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Lefkaditikos  [C/Am]
+O: Greece
+R: syrtos+kalamatianos
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: C
+P: Slow (syrtos):
+gf |\
+"C"e>f ed cB cd | "C"e>"^#"d ef "G/b"ed cB | "Am"A3 c "G"BA G2 | "G"Bc de ed cB | "Am"A3 G "G"Bc de | "Am"A6 :|
+P: Fast (kalamatianos):
+M: 7/8
+|: "Dm"d2d "(G7)"ef gf | "C"e2d cB ce | "G7"d2G A2 B2 |1,3 "C"c>GE C2 z2 :|2,4 "C"c3 C2 z2 :|
+
+%%sep 1 1 200
+
+
+X: 1
+T: Lefkaditikos  (D/Bm)
+O: Greece
+R: syrtos+kalamatianos
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+P: Slow (syrtos):
+ag |\
+"D"f>g fe dc de | "D"f>"^#"e fg "A/c#"fe dc | "Bm"B3 d "A"cB A2 | "A"cd ef fe dc | "Bm"B3 A "A"cd ef | "Bm"B6 :|
+P: Fast (kalamatianos):
+M: 7/8
+|: "Em"e2e "(A7)"fg ag | "D"f2e dc df | "A7"e2A B2 c2 |1,3 "D"d>AF D2 z2 :|2,4 "D"d3 D2 z2 :|

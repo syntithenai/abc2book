@@ -1,0 +1,28 @@
+X: 1
+T: Twelve Gates to the City
+C: traditional
+O: arr. Rev. Gary David
+R: song, march
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+S: Fiddle Hell handout 2021-4-14
+M: 4/4
+L: 1/8
+K: A
+%%continueall
+"^Chorus"x[|\
+"A"A6 =cA | =cAc2 AA3 | "E" e6 d^c |
+w: Oh, what a beau-ti-ful ci-ty. O, what a
+eee2 ee3 | "A"A6 =cA | =cAc2 AE3 |
+w: beau-ti-ful cit-ty. Oh, what a beau-ti-ful ci-ty.
+"D"e4 e2d^c | "E"dc3 (ed)A2 | ("A"A4 "D7"=c4) | "A"A4 "^Fine"z4 ||
+w:Twelve gates to the ci-ty, hal-*le-lu-*jah.
+"^Verse"A2 |\
+"A"ee3 e2ce- | e2z2 z2A2 | ee3 "E7"c2AA- | "A"A2z2 z2A2 |
+w: There's three gates in the east._ There's three gates in the west._ There's
+ee3 e2ce- | e2z2 z2A2 | ee3 "E7"A2AA- | "A"A2z A2c2 |
+w: three gates in the north._ There's three gates in the south._ That makes
+e4 =g2ec | "E7"dc3 c2c2 | ("A"A4 "D7"=cAc2) | "A"A4 z4 |]
+w: twelve gates to the cit-y, hal-le-lu-***jah.
+%
+W: And if you see my dear old mother, / Won't you do this favor for me.
+W: Won't you please tell my mother,   / To meet me in Gallilee.

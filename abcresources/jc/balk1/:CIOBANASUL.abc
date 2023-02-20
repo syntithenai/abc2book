@@ -1,0 +1,20 @@
+X: 85
+T: Ciobanasul
+C: Romania
+F: http://www.youtube.com/watch?v=1DezyKc8f0I
+F: http://www.youtube.com/watch?v=kaNCb9ydU4U
+M: 2/4
+L: 1/8
+Q: 1/4 = 120
+K: F
+%%MIDI program 0
+%%MIDI chordprog 23
+%%MIDI bassprog 43
+"F"CFA2|GFA2   |CFA2   |GFF2   |\
+CFA2   |GFd2   |cd/c/BA|GFF2   |
+Q: 1/4 = 96
+"F"c4  |cd/c/BB|ABc2   |cd/c/BB|AFC2|\
+cd/c/BB|ABc2   |cd/c/BB|AFC2   |
+Q: 1/4 = 120
+CFA2   |GFA2   |CFA2   |GFF2   |\
+CFA2   |GFd2   |cd/c/BA|GFF2   |

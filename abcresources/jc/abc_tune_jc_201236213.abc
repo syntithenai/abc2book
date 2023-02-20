@@ -1,0 +1,21 @@
+X: 21792
+T: the QUEEN'S ANTHEM
+Q: "Slowly."
+%R: air, waltz
+N: This is version 2, for ABC software that understands voice overlays.
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.179 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+N: The def notes in both strains' final bars should have small note heads.
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+c2c2d2 | {c}B3cd2 | e2e2f2 | e3dc2 |\
+d2c2B2 | c2cGAB | c2c2d2 | B3cd2 |\
+e2e2f2 | e3dc2 |
+d2c2B2 | cdefx3 & c3xc3 |:\
+g2g2g2 | g3fe2 | f2f2f2 | f3ed2 |\
+e2fedc | e3fg2 | ({b}(3agf) e2d2 | {d}cdefx3 & c3xc3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

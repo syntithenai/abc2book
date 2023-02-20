@@ -1,0 +1,23 @@
+X: 10971
+T: CUMHADH FION
+T: Ossian's Lament for his Father
+O: Gaelic air.
+Q: "Very slow and expressive.
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.97 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Bar 3 is missing an 8th note; fixed to be like bars 1 and 5.
+M: 3/4
+L: 1/16
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G3A |\
+{A}B6 A2 B2AG | {B}A4 G4 G3A | {GA}B6 A2 B2AG | G8 G3A |\
+{A}B6 A2 B2AG | A4 G4 G3A | {A}B4 d2B2A3G | G8 :|
+|: d4 |\
+e3d d4 B3d | {d}e3d d4 B3d | g3e e4 d3B | A3B {B}e8 |\
+g3e e4 d4 | {e}d3B A4 G2E2 | G3A B4 d2B2 | A3G G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

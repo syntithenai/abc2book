@@ -1,0 +1,21 @@
+X: 1
+T: Lilleshall's Fancy
+C: Beryl S Johnston
+R: jig
+B: Birmingham Branch RSCDS "Scottish Country Dances" #11
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: 2nd part lowered an octave into normal range
+M: 6/8
+L: 1/8
+K: F
+   c \
+| "F"{de}f2e d2c | "Bb"d2c d2f | "F"c2A A2f | "C7"A2G G2c \
+| "F"f2e f2g | "F"a3 f2a | "Bb"g2f "(C7)"f2d | "F"f3- f2 :|
+|: c \
+| "F"A2F F2c | "F"A2F F2c | "Bb"d2c "F"A2F | "C7"G2c c2 c \
+| "Bb" {cde}f2e d2c | "Gm"d2c B2A | "C7"G2d d2E | "F"F3- F2 :| [K:Bb]
+|: F/F/ \
+| "Bb"d3 d2d | "F7"c3 c2c | "Eb"B2c B2G | "Bb"FD2 D2F \
+| "F7"e3 e2e | "Bb"d3 f2g | "Bb"f2d B2d | "F7"c3 f2e |
+| "Bb"d3 f2d | "F"c3 f2e | "Bb"d2f "/A"c2d | "Gm"B2A G2F \
+| "Eb"G2B e2g | "Eb"b<bz "F7"a2g | "Bb"f2d "F7"d2c | "Bb"B3- B2 :|

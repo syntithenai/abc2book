@@ -1,0 +1,39 @@
+
+X: 1
+T: Nigun #2  [F]
+C: Shlomo Carlebach
+M: C
+L: 1/8
+K: F
+|:\
+"F"FF2F "(C7)"EFGE | "F"FF2F "(C7)"EFGE |\
+"F"FF2F "(C7)"EFGE | "F"F2F2 F2F2 ::\
+"F"A4 F2C2 | "Bb"D6 z2 |\
+"C7"E2E2 F2G2 |1 "F"C6 z2 :|2 "F"F6 z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Nigun #2  (G)
+C: Shlomo Carlebach
+M: C
+L: 1/8
+K: G
+|: "G"GG2G "(D7)"FGAF | "G"GG2G "(D7)"FGAF | "G"GG2G "(D7)"FGAF | "G"G2G2 G2G2 :|
+|: "G"B4 G2D2 | "C"E6 z2 | "D7"F2F2 G2A2 |1 "G"D6 z2 :|2 "G"G6 z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Nigun #2  [A]
+C: Shlomo Carlebach
+M: C
+L: 1/8
+K: A
+|:\
+"A"AA2A "(E7)"GABG | "A"AA2A "(E7)"GABG |\
+"A"AA2A "(E7)"GABG | "A"A2A2 A2A2 ::\
+"A"c4 A2E2 | "D"F6 z2 |\
+"E7"G2G2 A2B2 |1 "A"E6 z2 :|2 "A"A6 z2 |]

@@ -1,0 +1,24 @@
+X:486
+T:The Morland Waltz
+C:Colin Hume, 2010
+L:1/8
+M:3/4
+%%MIDI beat 100 95 80
+%%stretchstaff 0
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+H:For the 25th Morland Folk Dance Week
+Q:1/4=120
+%%MIDI program 74
+%%MIDI gchord c2c
+%%MIDI chordprog 54
+%%MIDI bassprog 54
+%%MIDI chordvol 60
+%%MIDI chordname dim 0 3 6 9
+K:F
+P:A
+|: "F"A2 FG AB | "C/E"c2 g3e | "Dm"f4 "/C"e2 | "Bb"d2 Bc de | "G7/B"f2 g3d | "C"e4 "C7"d2 |\
+"F"c2 F2 GA | "Cm"B2_E3G | "F"F6 :|
+P:B
+"F"f2 =e2f2 | "Cm"_e2d3c | "Bb"d2 Bc d_e | "F"c3F Ac |\
+"Dm"f2 e2f2 | "G7"a2g3f | "C"e3g "G7"fd | "C"c4 AB |
+"F"cf3 F2 | "Cm"GB3_E2 | "F"F6 |]

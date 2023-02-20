@@ -1,0 +1,34 @@
+X: 165
+T: Hurlothrumbo
+T: Longways for &c.
+%R: march
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.83
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2 G2 | G3 G | A2 d2 | B G3 ::\
+(dB) (ec) | (dB) (ec) | d2 cB | A4 |\
+A2 d2 | B^cdG | F2 E2 | D4 :|
+|:\
+A2 A2 | A2 D2 | (GB) (Ac) | B2 G2 |\
+d2 d2 | d2 G2 | (ce) (d=f) | e4 |\
+d2 (gf) | efgA | (cB)(AG) | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st Man turn the 2d Wo. with his right
+%% hand quite round .| the 1st Wo. turn the 2d
+%% Man :| the 1st Cu. go inside and outsides
+%% below the fourth Cu. and turn single .| take all
+%% hands, quite round and back again :| the 1st
+%% Cu. lead up to the top and turn S. .| then
+%% figure thro' the 2d. Cu. and turn down the
+%% Middle :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

@@ -1,0 +1,28 @@
+X: 4131
+T: Lady Mary Primrose's Favorite    a Strathspey
+%R: strathspey
+N: This is version 1, for ABC software that doesn't understand voice overlays or trailing grace notes.
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.13 #1 (top 4 staves continued from p.12)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "Slow"
+K: Bb
+% - - - - - - - - - -
+V: 1 staves=2
+B2 |\
+(F2.B2)(D2.B2) TF3GTB3c | B3G (GF).E.D {D}[C4A,4] [C3A,3]B | F2B2D2B2 ~F3G ~B3g | f2B2 f3e {e}d4 ~d2ef ||\
+.g2.e2.E2.g2 .f2.d2.D2.f2 |{f}e3d {d}c3B
+~G4 G2B2 {A}x{cBAG}x | TF3G (GF)(ED) TF3G (B2g2) | (fB3) {Bc}d3c {c}[B4F4D4][B2F2D2] |[| (f/g/a) |\
+b3fd3f B2f2d2f2 | {cd}e3d {d}c3B {B}G4 ~G2 (f/g/a) | b2f2d2f2 B2f2d2f2 |
+{a}gfga b2d2 {e}f4 (fg).a.b || ge.B.G E2ge fd.B.F D2df | {f}e3d {d}c3B {B}G4 G2B2 {A}x{cBAG}x |\
+TF3G (GF)(ED) TF3G B2g2 | (fB3) {Bc} d3c [B4F4D4] [B2F2D2] |]
+N: The odd (and unclear) rhythmic notation in bars 6,14 couldn't be reproduced in the
+N: available ABC tools, so it was simplified to a single voice with a complex rhythm.
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |\
+B4B4 [B2d2]e2[B4d4] | d2e2 d2B2 f4 F4 | B4B4 d2e2 d2e2 | b4f4 b4_a4 || g4-g2e2 B4d2B2 | c4d4
+e4E2z2 x2 | d4B4 d2e2d2e2 | f4F4 B4B2 |[| z2 | B4b4 B4B4 | A2B2 c2d2 e4 e2z2 | [b4d'4f'4][b4d'4f'4] [b4d'4f'4][b4d'4f'4] |
+[b4e'4g'4][b4d'4f'4] [b4d'4f'4][b4d'4f'4] || [e4e'4][e4e'4] [d4d'4][d4d'4] | A2B2c2d2 e4E2z2 x2 | d4B4 d2e2d2e2 | f4F4 B4B2 |]

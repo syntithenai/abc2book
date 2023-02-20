@@ -1,0 +1,642 @@
+X: 000
+T: 24 Country Dances for the Year 1803
+Z: 2011,2014 John Chambers <jc:trillian.mit.edu>
+B: Tho. Preston eds "Twenty Four Country Dances", London 1803
+F: http://archive.org/details/Prestons24CountryDancesForTheYear1805
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+N: Note that the year is wrong in the source file name.
+N: As of August 2014, tunes/dances 501-504 are still missing.
+K:
+%%center Preston's
+%%center Twenty four COUNTRY DANCES for the Year 1803
+%%center With proper Tunes & Directions to each Dance,
+%%center as they are performed at
+%%center COURT, BATH, and all PUBLIC ASSEMBLIES
+%%center -----------------------------------
+%%center London Printed & Sold by Tho. Preston at his Wholesale Warehouses 97 Strand
+%%begintext align
+%% Transcription notes:
+%% The tune numbers below the clef and key signature are used in the file names to preserve the dance order.
+%% Many abbreviations use small superscript letters with a dot underneath.
+%% Such dots are mostly ignored, and the letters typed as-is, though in unusual cases, the dots are included.
+%% The original staff breaks are mostly ignored, and the music is formatted to have 2 or 4 bars per line.
+%% The lines are joined into staffs to look good at a small scale, which is useful for proofreading and
+%% archiving, but you may want to reformat the staffs for your own needs.
+%% The dance descriptions have are transcribed with the original line breaks, but this isn't significant.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 489
+T: The Blessings of Peace
+%R: jig
+B: "Preston's Twenty Four Country Dances for the Year 1803", Tho. Preston, ed. p.205 #1
+F: http://archive.org/details/Prestons24CountryDancesForTheYear1805
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+N: The dance description is partly torn away, exposing part of a different page (493) at the lower left.
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+g2a gec | afd gec | g2a gec | dBG G3 |\
+EGc Gce | fga def | efg GAB | c3 c3 :|
+|:\
+dBG dBG | egf edc | agf edc | Bdc BAG |\
+cBc GA_B | A=Bc def | efg GAB | c3 c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext
+%% 1st Lady set & turn the 2d Gentn with the right
+%% hand then with the left hand, the 1st Gentn at
+%% ***missing*** & turn the 2d Lady, lead
+%% ***missing**
+% % Part of the dance on a different page (493) is visible at lower left
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 490
+T: The Merry lads of Ayre
+%R: reel
+B: "Preston's Twenty Four Country Dances for the Year 1803", Tho. Preston, ed. p.205 #2
+F: http://archive.org/details/Prestons24CountryDancesForTheYear1805
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+Z: 2011,2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g |\
+{f}e>dcA cGGg | {f}e>dcA f2 (e/f/g) |\
+e>dce (d/c/B/A/) cG | (A/B/c) (GE) D2D :|
+|: e |\
+c2ga gega | c/c/c g>a {a}g2fe |\
+c2(ga) gece | f>g a/g/f/e/ d2d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & change sides, then hands across & back
+%% again, lead down the middle Allemande and
+%% turn corners.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 491
+T: Sr John Stuart of Gartallie's Rant
+%R: rant, strathspey
+B: "Preston's Twenty Four Country Dances for the Year 1803", Tho. Preston, ed. p.206 #1
+F: http://archive.org/details/Prestons24CountryDancesForTheYear1805
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+Z: 2011,2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: D
+f2 |\
+d4 (TA3G) F2D2A2F2 | E2c2G2c2 | E2C2G2E2 | d4 (TA3G) F2D2A2F2 | GFED C2E2 DDD2 D2 :|
+fg |\
+agfe d2(f2 d2)fg a2f2 | gfed c2(e2 c2)ef g2e2 | agfe d2(f2 d2)fg a2f2 | gfed c2e2 ddd2 d2fg |
+agfe d2(f2 d2)fg a2f2 | gfed c2(e2 c2)ef g2e2 | f2d2g2e2 a2f2g2e2 | f2d2e2f2 ddd2 d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Gentn follow his partr half round the 2d Cu. set &
+%% return to their places at top, lead down the middle
+%% & Poussette with the 2d Cu. at top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 492
+T: The Lads of Glasgow
+%R: reel
+B: "Preston's Twenty Four Country Dances for the Year 1803", Tho. Preston, ed. p.206
+F: http://archive.org/details/Prestons24CountryDancesForTheYear1805
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+Z: 2011,2014 John Chambers <jc:trillian.mit.edu>
+N: The lower left corner is torn off, and part of the dance description is missing.
+N: The rhythm doesn't quite match at the strain boundaries; not fixed.
+M: 2/4
+L: 1/8
+K: G
+|:\
+g2dc | Bcde | fdcB | cAA2 |\
+g2dc | Bcde | cAdc | BGG2 :|
+|: d |\
+BGdG | eGdG | BGdG | cAAd |\
+BGdG | eGdG | DEFD | GG, G, :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Cu. hands 3 round with the 2d Lady,
+%% then with her partr ***missing***
+%% dle & Allemand ***missing***
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 493
+T: Speed the Plough
+%R: hornpipe
+B: "Preston's Twenty Four Country Dances for the Year 1803", Tho. Preston, ed. p.207 #1
+F: http://archive.org/details/Prestons24CountryDancesForTheYear1805
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+Z: 2011,2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+|:\
+A>AA>c e>fe>c | e>ae>c e>fe>c |\
+d>ed>B c>dc>A | F>B {c}B>A G>B B2 |
+A>AA>c e>fe>c | e>ae>c e>fe>c |\
+d>ec>d B>cA>B | F>AG>B A>A A2 :|
+|:\
+a>aa>A a>Ae>A | a>Ag>A f>Be>A |\
+d>dd>B c>cc>A | B>FB>A G>BB>e |
+c>Ae>A a>ce>A | f>dB>f e>cA>e |\
+d>ec>d B>cA>B | F>AG>B A>AA2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. & back again, hands across &
+%% back again, lead down the middle & up again,
+%% foot it with your Partner & hands 6 round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 494
+T: Duchess of York's Waltz
+%R: waltz
+B: "Preston's Twenty Four Country Dances for the Year 1803", Tho. Preston, ed. p.207 #2
+F: http://archive.org/details/Prestons24CountryDancesForTheYear1805
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+Z: 2011,2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: C
+c'2 |\
+g2e2c2 | c2B2c2 | d2B2G2 | G4de |\
+fedcBc | dcBAGF | E2c2c2 | c4 :|
+|: g2 |\
+^fgagfa | =f4e2 | e2d2c2 | c2B2g2 |\
+^fgagfg | =f4e2 | d2c2B2 | c4 :|
+G2 |\
+EGcGEG | FAcAFA | BdfdBd | cegece |\
+EGcGEG | FAcAFA | BdfdBd | c4 |]
+d2 |\
+Bdgdbd | cegece | bagfed | c2B2d2 |\
+BdgdBd | cegece | f2d2B2 | c4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Lady change places with the 2d Gentn the
+%% 1st Gentn do the same with the 2d Lady, lead
+%% down the middle foot it & Allemande, hands
+%% 6 round, back again & swing corners.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 495
+T: Duke of Clarence's Waltz
+%R: waltz
+B: "Preston's Twenty Four Country Dances for the Year 1803", Tho. Preston, ed. p.208 #1
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1803.PDF
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+Z: 2011,2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: C
+|:\
+!p!e4(ce) | (ed).B.d(ce) | (ed).B.d(ce) | g3ag2 |\
+e4(ce) | (ed).B.d(ce) | (ed).f.d(Bd) | c3eg2 :|
+|:\
+!f!c'2gege | cegec'2 | (a4g2) | (^f4g2) |\
+c'2(gege) | (cege)c'2 | (f4d2) | B4 c2 :|
+|:\
+!f!c2(GE)!p!(GE) | !f!c2(GE)!p!(GE) | .c2(cG)(ce) | (dc)BAG2 |\
+.c2(GE)(GE) | .c2(GE)(GE) | .c2(cGce) | (dfdB)c2 :|
+|:\
+d2(BG)(BG) | f2(dB)(dB) | ec(ge)(ge) | (ed)cBAG |\
+c2(GE)(GE) | c2(GE)(GE) | c2(cG)ce | d2(fdBc) :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set to the 2d Lady & hands 3 round, the same with
+%% the Gentn lead down the middle up again right &
+%% left at top, swing corners hands across below,
+%% Allemand.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 496
+T: This is not my own house
+%R: hornpipe, strathspey
+B: "Preston's Twenty Four Country Dances for the Year 1803", Tho. Preston, ed. p.208 #2
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1803.PDF
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+Z: 2011,2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has final repeat, but no initial repeat.
+M: C
+L: 1/16
+K: D
+G2 |\
+FA3 Da3 {g}f4 e3d | (Bcd2) A3G B2E2 E3G | FA3 Da3 {g}f4 e3d | (Bcd2) {B}A3F A2D2D2 :|
+G2 |\
+(FGA2) D3A (FGA2) B3A | (FGA2) D3f e2E2E3A | (FGA2) D3A (FGA2) B3A | (Bcd2) (cde2) d2D2D2G2 |
+(FGA2) D3A (FGA2) B3A | (FGA2) D3f e2E2E2g2 | af3ge3 fd3ec3 | d3B A3F A2D2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Gentn lead the 2d Lady down the middle,
+%% then to her own place, the 1st Lady do
+%% the same with the 2d Gentn 1st Gentn lead
+%% his partner down the middle & Poussette.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 497
+T: Miss Menage's Hornpipe
+%R: hornpipe, reel
+B: "Preston's Twenty Four Country Dances for the Year 1803", Tho. Preston, ed. p.209 #1
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1803.PDF
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+ed |\
+cdBc A2Bc | decd B2ed |\
+cefe Befe | decd B2ed |\
+cdBc A2Bc |
+decd B2ed |\
+cedc BdcB | A2A2 A2 :|\
+|: EF |\
+GABc d2cB | cAce a2ag |
+gffe eddc | BAGA B2ed |\
+cdBc A2Bc | decd B2ed |\
+cedc BdcB | A2A2 A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Lady set outsides with 2d & 3d Gent.n 1st
+%% Gent.n do the same with the Ladies, lead down
+%% the middle, turn courners & lead outsides.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 498
+T: Castle down
+%R: jig
+B: "Preston's Twenty Four Country Dances for the Year 1803", Tho. Preston, ed. p.209 #2
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1803.PDF
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2A B2G | c2A B2G | BdB AGF | E3 E2F |\
+G2A B2G | c2A B2G | BdB AFA | D3 D3 :|
+|:\
+B2c d2B | e2c d2B | efg dcB | A3 ABc |\
+dcB edc | fed gfe | dcB AGF | G3 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Cu. set & turn with both hands, foot
+%% it outsides, lead down the middle, up
+%% again & cast off.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 499
+T: Indernytie's Rant
+%R: reel
+B: "Preston's Twenty Four Country Dances for the Year 1803", Tho. Preston, ed. p.210 #1
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1803.PDF
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+N: This tune appeared in Robert Bremner's first collection of c.1757 as "Irvin Stiple" (Irvine Steeple).
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f |\
+d/d/d (dA) FG(Ac | TBG)cG ECGE |\
+Dd-dA FGA(g | f)de^c dDD :|
+f |\
+defg abaf | gecg ecge |\
+defg abag | fde^c dDD
+f |\
+defg abaf | gecg ecge |\
+fdge afbg | fde^c dDD |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & half right & left & back again, lead
+%% down the middle swing corners and lead
+%% thro' the 3d & 2d Cu.s
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 500
+T: Mr Dundass Mc Queen's Reel
+%R: reel
+B: "Preston's Twenty Four Country Dances for the Year 1803", Tho. Preston, ed. p.210 #2
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1803.PDF
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Cm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G, |\
+CDEF (E/F/G) Gc | B(GFE) D/E/F DB, |\
+CDEF (E/F/G) Gc |[1 BGFD C/C/C C :|\
+[2 dBfd c/c/c c |]
+|: d |\
+c>def g<ce>c | f<Bd>f bfdB |\
+[1 c>def g<ce>c | dBfd c/c/c c :|\
+[2 c>def g<bf>d | Bdbd c/c/c c |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. down the middle twice.
+%% Allemande, turn corners & lead outsides.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 501
+T: (missing)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1803" p.211#1
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1803.PDF
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+K:
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% There is no dance 501.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 502
+T: (missing)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1803" p.211#2
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1803.PDF
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+K:
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% There is no dance 502.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 503
+T: (missing)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1803" p.212#1
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1803.PDF
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+K:
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% There is no dance 503.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 504
+T: (missing)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1803" p.212#2
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1803.PDF
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+K:
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% There is no dance 504.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 505
+T: Lady Margaret Stewart's Reel
+%R: reel
+B: "Preston's Twenty Four Country Dances for the Year 1803", Tho. Preston, ed. p.213 #1
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1803.PDF
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C|
+L: 1/8
+K: Bm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g |\
+Tf2Bf dBfB | (f/^g/a) ef BGec |\
+Tf2Bf dBfB | ecac B/B/B B :|
+|: A |\
+FBB>c dBcA | EA-A>B c>dec |\
+FB-B>c dBdb | afec B/B/B BA |
+FB-B>c dBcA | EA-A>B c>dec |\
+dBdb cAce | dfec B/B/B B |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & change sides, back again, lead
+%% down the middle Poussette.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 506
+T: Paddy O Flanagan
+%R: jig
+B: "Preston's Twenty Four Country Dances for the Year 1803", Tho. Preston, ed. p.213 #2
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1803.PDF
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+{GA}TB2D DED | GcB AGA |\
+{GA}TB2D DED | GBA GED |\
+{GA} B2D DED | GAB ABc |\
+     BdB BcB | ABG FED :|
+|:\
+GAB AFD | GAB AFD |\
+GAB ABc | BdB AFD |\
+GAB AFD | GAB AFD |\
+BdB BcB | ABG FED :|
+|:\
+ BDD ADD | BDD ABc |\
+TBDD ADD | BAG FED |\
+TBDD ADD | BDD ABc |\
+ BdB BcB | ABG FED :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st & 2d Cu. set & hands across & back again.
+%% lead down the middle up again, Allemande,
+%% swing corners.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 507
+T: Mad.m Buonaparte's Waltz.abc
+%R: waltz
+B: "Preston's Twenty Four Country Dances for the Year 1803", Tho. Preston, ed. p.214 #1
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1803.PDF
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+de |\
+fdB2 bg | fdB2 fd | ecAFAc | e2d2 de |\
+fdB2 bg | fdB2 fd | ecAFAc | {A}B4 :|
+|: AB |\
+cAFAce | dBFBdf | gegebg | =efef AB |\
+cAFAce | dBFBdf | gegecA | B4 :|
+|: F2 |\
+B2d2f2 | fgfed2 | c2B2c2 | d2B2F2 |\
+B2d2f2 | fgfed2 | c2B2c2 | B4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across & back again, cast off one Cu. &
+%% hands 4 round, turn your part.r Poussette quite
+%% round the top Cu.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 508
+T: Duplin House
+%R: jig
+B: "Preston's Twenty Four Country Dances for the Year 1803", Tho. Preston, ed. p.214 #2
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1803.PDF
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B,3 B,CD | (B>c)d B2F | BGG G2f | g>fd c2B |\
+B,2B, B,CD | B>(cd/c/) BGF | B3 FDF | FBD | C2B, :|
+|:\
+(Bd)f (fd)B | g>fd c2B | (Bd)g g>ab | B>(cd/e/) c2B |\
+(Bd)f (fd)B | g>fd cBc | B3 FDF | FBD C2B, :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & half right & left & back again,
+%% lead down the middle up again and
+%% hands 4 round at top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 509
+T: Lord Albermarle's Reel
+%R: reel
+B: "Preston's Twenty Four Country Dances for the Year 1803", Tho. Preston, ed. p.215 #1
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1803.PDF
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(D/E/F/G/) AG FDAF | C3c ECGE | (D/E/F/G/) AG FDAF | ECcE D/D/DD2 :|
+(d/e/f/g/) ag fdaf | (c/d/e/f/) gf ecge | (d/e/f/g/) ag fdaf | ecge d/d/dd2 |
+(d/e/f/g/) ag fdaf | (c/d/e/f/) gf ecge | fdge afbg | ecge d/d/dd2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & change sides, back again, hands across &
+%% back again, lead down the middle swing corners
+%% & lead outsides.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 510
+T: The Campbells are coming
+%R: jig
+B: "Preston's Twenty Four Country Dances for the Year 1803", Tho. Preston, ed. p.215 #2
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1803.PDF
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |:\
+B2e dBG | ABA A2G | B2g dBG | BcB B2A |\
+B2e dBG | A>BA gab | geg dBG | BcB B2A :|
+|:\
+g2g g>ab | d>ed dBG | g2g gab | geg e2d |\
+def gfe | dBd gab | geg dBG | BcB B2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands 3 round on the Lady's side then
+%% on the Gent.s lead down the middle, up
+%% again, right & left at top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 511
+T: Folly as it flies
+%R: jig
+B: "Preston's Twenty Four Country Dances for the Year 1803", Tho. Preston, ed. p.2216 #1
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1803.PDF
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+Bcd def | gfg dBG | gfg dcB | ecA ABc |\
+Bcd def | gfg bag | fga AB^c | d3 D3 :|
+|:\
+dBd dBd | ece gfe | fdf gdB | ABG AFD |\
+Bcd def | gfg cde | dcB AGF | G3 G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & half right & left, the same back again,
+%% lead down the middle & Allemande.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 512
+T: Irish Ship Builder
+%R: jig
+B: "Preston's Twenty Four Country Dances for the Year 1803", Tho. Preston, ed. p.2216 #2
+F: http://folkopedia.efdss.org/images/archive/0/02/20121211105513%21Preston_24_1803.PDF
+F: http://folkopedia.efdss.org/wiki/File:Preston_24_1803.PDF
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!|:\
+B2b f2b | g2b fdB | dBG ({A}GF).G | cAF FGA |\
+B2b f2b | g2b fdB | Ged cBA | B3 "_Fine"B3 :|
+d2f c2f | d2f c2f | =e2g b2a | gaf g=ec |\
+f=ef agf | =efg GAB | Adc BAG | F3 FG"_D.C."A !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. up again, cross over & turn your Part.r & right & left.
+%%endtext

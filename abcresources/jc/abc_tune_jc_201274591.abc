@@ -1,0 +1,30 @@
+X: 1
+T: Far Away
+C: melody: Pete Jung
+C: harmony: Abby Newton
+%D:1992
+R: waltz
+S: Fiddle Hell Online 2022-4-6 handout for Abby Newton cello workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Bm
+% = = = = = = = = = =
+N: V:1 was 8 identical bars written out; I collapsed it into a single
+N: repeated part to align with the harmony part.
+V: 1 staves=2
+FA |\
+"Bm"B3 (F Bd) | "F#m"cA F2 (FA) | "Bm"B3 F B"4"e | "A"c4 (dc) ||\
+"G"B3 G Bd | "F#m"(cA) F2 de | "Bm"(fe dc) BA | "Bm"B4  :|
+|: de | "D"f3 (d fa) | "A"ec A2 (de ) | "D"f2 (fd) fa | "Em"e4 de ||\
+"Bm"(fd B)(e "A"cA) | "G"(dB G)(c "F#m"AF) | "Bm"F2 B2 "F#m"A2 | "Bm"B4 :|
+% = = = = = = = = = =
+V: 2
+DE |\
+"Bm"F3 D FB | "F#m"AF D2 DE | "Bm"F3 D FG | "A"A6 ||\
+"G"G4 G2 | "F#m"AG F2 Bc | "Bm"dc BA GF | "Bm"G4 :|
+|: Bc |\
+"D"d3 A df | "A"cA F2 Bc | "D"d3 A de | "Em"c6 ||\
+"Bm"(de d)(c "A"dc) | "G"(Bc B)(A "F#m"BA) | "Bm"F4 "F#m"F2 | "Bm"B,4 :|
+% = = = = = = = = = =
+%%text From an arrangement for 2 cellos or cello+bass

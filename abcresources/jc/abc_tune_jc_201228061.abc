@@ -1,0 +1,29 @@
+X: 11053
+T: WEIDEMAN'S MINUET
+%R: minuet, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.105 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+%%staffsep 40
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+a2bagf | Te2(dc)d2 |\
+GbagFa | EgfeDf |\
+EgFaGb | Te2dcBA |\
+a2bagf | Te2(dc)d2 |
+GbagFa | EgfeDf |\
+EgFa Ac | d2D2z2 ::\
+(fga)fed | (cea)edc |\
+(dBb)dcB | Tc2(Bc)A2 |
+(ec)(BA)eA | fA^gAaA |\
+[d'2d2]Tb4 | a4z2 |\
+a2bagf | Te2(dc)d2 |\
+G(g/a/) bGFa | E(e/f/) gEDf |
+EgFaGb | Te2dcBA |\
+a(g/a/) bagf | Te2(dc)d2 |\
+G(g/a/) bGFa | E(e/f/) gEDf |\
+E(e/f/) F(g/a/) A[c'c] | [d'2d2] [d4D4] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,42 @@
+X: 1067
+T: Bonny Lass of our Town
+P: Longways for &c.
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The first note in the bass line is almost certainly wrong.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c |\
+B>AB cGE | G>AG G2c | B>AB   cGE | D>ED D2c |\
+B>AB cGE | G>AG G2c | B/c/dB c2B | AFD  D2 :|
+|: c |\
+B/c/dB GBG | B/c/dB G2c | B/c/dB G2B | AFD D2c |\
+B/c/dB GBG | B/c/dB G2e | dcB    c2B | AFD D2 :|
+|: g |\
+fef gdB | gdB G2g | f>ef gdB | AFD D2g |\
+fef gdB | def gdB | cac  BaB | AFD D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+B |\
+g2f e2c | B2g e2c | g2f e2c | G3- G2c |\
+g2f e2c | B2g e2c | g3  a2g | d3- d2 :|
+|: c |\
+g3 z3 | G3 zzc | g3- g2G | d3 f3 |\
+g3 z3 | G3 B2c | B2g a2g | d3- d2 :|
+|: e |\
+d3 g3 | zzg G3 | d3 f3 | d3- d2e |\
+d3 g3 | d2c B2g | a3 g3 | d3- d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. lead thro' the 2d Cu. & cross over & turn single .|
+the 2d Cu. do the same :|
+the 1st Cu. cross over & go the whole figure of Eight .|
+the 2d Cu. do the same :|
+then all 4 clap Hands with your Partners & turn single .|
+then clap sides, & lead thro' & cast off & turn the Tune out :|
+%%endtext

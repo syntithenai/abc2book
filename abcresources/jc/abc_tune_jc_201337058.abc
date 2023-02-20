@@ -1,0 +1,15 @@
+X: 60
+T: Shule Aroon - 2nd Setting   #1
+R: air
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #60
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+Q: "Plaintively"
+O: J.O'Neill
+M: C
+L: 1/8
+K: Am
+ AB   "^A"| c2 c2 B2 B2 | (A>B) AG E3 G | G2 ({B}A>G) (GE) (cB) | A3 G E2 ||
+(FE)  "^B"| (E>F) (ED) C2 (CD) | (EG) (AB) c2 (cd) | (ed) (cB) (cB) A^G | A4 A2 |]
+ z2   "^C"| c4 B4 | A>B AG E2 z2 | G3 A (GE) (cB) | A3 G E3 ||
+(F>E) "^B"| (E>F) (ED) C2 (CD) | (EG) (AB) c2 (cd) | (ed) (cB) (cB) A^G | A4-A2 |]

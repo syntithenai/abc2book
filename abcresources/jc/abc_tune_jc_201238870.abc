@@ -1,0 +1,26 @@
+X: 31481
+T: COTILLION No. 36. COURT STREET SETT tune 1
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.148 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+N: The rhythm is wrong at the D.C.; not fixed.
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+a/g/f/g/ |\
+d2B G2 a/g/f/g/ | e2c A2g | fga def | gba gfe |\
+d2B G2 a/g/f/g/ | e2c A2a/g/ | fga def | g3 g2 H|]
+d |\
+dc'b d'af | dc'c' d'bg | dc'b c'af | gba gfe |\
+d2B G2a/g/ | e2c A2a/g/ | fga def | g3 "^D.C."g3 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All right and left,
+%% balance,
+%% swing round, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

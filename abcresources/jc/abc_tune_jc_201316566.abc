@@ -1,0 +1,49 @@
+X:522
+T:New London Assembly
+C:Colin Hume, 2016
+L:1/2
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=100
+%%MIDI ratio 3 1
+%%staves 1 {2 3}
+%%stretchstaff 0
+%%MIDI chordname 7sus 0 5 7 10
+%%MIDI chordname 2 0 4 7 14
+K:G
+P:A
+V:1
+%%MIDI program 74     Recorder
+Bd | c2 | Ac | B2 | GB | A>E | GF | ED |
+V:2 treble
+%%MIDI program 41     Viola
+[DB][Bd] | [Gc]2 | [CA][Ac] | [AB]2 | [EG][DB] | [CA]>[CE] | [EG][DF] | [CE][A,D] |
+V:3 bass octave=-2
+%%MIDI program 42     Cello
+%%MIDI gchordoff
+"G"[Gg]2 | "Am7"[Ae]2 | "D7sus"[dg]2 | "G2"[gd'-][fd'] | "Em"[eb]2 | "Am7"[Ag]2 | "D7"[da]2 |[df]2 |
+V:1
+Bd | c2 | ce | d2 | dg | cg |\
+Bg | A>G | GF | EF | A2 | G2 ||
+V:2
+[DB][Bd] | [Gc]2 | [Gc][Fe] |[Fd-][Ad] | [G-d][Gg] |[A-c][Ag] |\
+[G-B][Gg] |[E-A]>[EG] | [C-G][C-F] | [C-E][CF] | [B,-A]2 | [B,G]2 ||
+V:3
+"G"[Gg]2 | "Am7"[Ae][ea] | "D7sus"[da]2 | "Bm7"[Ba-][da] | "Em"[e-b][ed'] | "Am"[a-e'][ac'] |\
+"G/B"[bd']2 | "Am/C"[c']2 | "D7"[da]2 |[Dd]2 | "G"[Gd]2 |[Gg][Gg] ||
+P:B
+V:1
+FA | BA | G>F | E2 | FA | d^c | B>^c | A2 |
+V:2
+[D-F][DA] | [D-B][DA] | [EG]>[B,F] | [DE-][^CE] | [DF][EA] |[Fd][A^c] | [DB]>^c |[DA-][^CA] |
+V:3
+"D"[Dd-][Fd] | "G"[Gd-][Bd] | "Em"[Ee][Be] | "A7sus"[Ag]2 | "D"[da-]"(A)"[^ca] | "Bm"[Bb][A] | "E7"[e^g]2 | "A7sus"[A=g]2 |
+V:1
+fe | ed | d^c | ^cB | A>B | ^cd | e2- | e^c/d/ |\
+eA | A>G | G2- | G2 |]
+V:2
+[A-f][Ae] |[G-e][Gd] | [B-d][B^c] |[=F-^c][FB] | [^FA]>[^GB] | [A-^c][Ad] | [^Ge]2- |[^Ge] ^c/d/ |\
+[^ce][^CA] | [=CA]>[B,G] | [B,G]2- |[B,G]2 |]
+V:3
+"D"[dd']2 | "Em"[eb]2 | "Bm/F#"[fd']2 | "C#7/G#"[^gb]2 | "F#m/A"[a^c']2 | "Faug"[=f^c']2 | "E"[eb]>[eb] |[eb]2 |\
+"A7"[Ag]2 | "D7"[da]2 | "G"[Gg]2- | "G"[Gg]2 |]

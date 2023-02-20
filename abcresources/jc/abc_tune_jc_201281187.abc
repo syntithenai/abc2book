@@ -1,0 +1,26 @@
+X:1
+T: Glendeven
+N:
+C:Allen Dodson
+S:
+A:
+O:
+R:
+M:3/4
+K:G
+I:speed 150
+%W: A
+% voice 1 (1 lines, 23 notes)
+K:G
+M:3/4
+L:1/16
+g8 d4 |G8 A2 B2 |c8 B4 |A8 c4 |B8 c2 B2 |A8 B2 A2 |G4 G2 A2 B2 c2 |d8 e2 f2 |
+%W:
+% voice 1 (1 lines, 18 notes)
+g8 d4 |G8 A2 B2 |c8 B4 |A8 c4 |B8 c2 B2 |A8 B2 A2 |G12|G8 g4 |
+%W: B
+% voice 1 (1 lines, 26 notes)
+c4 e4 g4 |g8 d4 |c4 e4 g4 |g8 d4 |c4 e4 g4 |g4 d4 B4 |d12|d8 B4 |c6 c2 d2 c2 |B4 G4 B4 |
+%W:
+% voice 1 (1 lines, 23 notes)
+c6 c2 d2 c2 |B4 G4 B4 |c8 c4 |B4 A4 G4 |A12|A8 c4 |B6 A2 G4 |A4 G4 F4 |G12|G12 ||

@@ -1,0 +1,13 @@
+%%staffwidth 10cm
+X: 1
+T: Explicit keysigs with sharp and flat tonics.
+M: 4/4
+L: 1/8
+N: 1st staff is K: Bb=e % Bb lydian
+N: 2nd staff is K: F#^A^f^c % F# hejaz
+P: K: Bb_B=e % Bb lydian
+K: Bb_B=e % Bb lydian
+[| B2 c2 d2 e2 | f2 ed c2 B2 |]
+P: K: F#^A^f^c % F# hejaz
+K: F#^A^f^c % F# hejaz
+[| F2 G2 A2 B2 | c2 BA G2 F2 |]

@@ -1,0 +1,12 @@
+X: 2011
+T: Lenos
+O: Greece
+M: 7/8
+L: 1/8
+K: Am
+Q: 1/4=120
+%%MIDI program 110 Fiddle
+%%MIDI drum d2ddzz2 41 43 41 60 40 50
+%%MIDI drumon
+|:z3 z2 G,2|C2B,/C/ D2DG,|C2B,/C/ D2zC|F2E/F/ G2E2|D2C DE C2::
+z3 z2 z2|E3 E2D2|C2B,/C/ D4|E3 E2D2|C2B,/C/ A,4:|

@@ -1,0 +1,32 @@
+X: 382
+T: Kilwinan Lodge
+N: The table of contents has "Kilwinnan".
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.38 #2 (and p.39 #1)
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c |\
+AF-Fc (A/B/c) Fc | fc (A/B/c) BGGc |\
+AFFc  (A/B/c) Fc | f2 (a/g/f/e/ f)FF :|
+|: e |\
+f2 (a/g/f) gefc | (f/g/a) (f/g/a) gdde |\
+f2 (a/g/f) gdfc | fdcB AFFe |
+f2 (a/g/f) gdfc | (f/g/a) (f/g/a) gddg |\
+(a/g/f) (g/f/d) (f/d/c) (d/c/B) | (A/B/c) (G/A/B) AFF |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+f2f2 f2f2 | f2f2 g2g2 |\
+f2f2 f2f2 | c2c2 F2F :|\
+|: z |\
+f2f2 f2f2 | f2f2 g2g2 |
+f2f2 f2f2 | c2c2 F2F2 |\
+f2f2 f2f2 | f2f2 g2g2 |\
+f2g2 a2b2 | c'2c'2 f2f |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

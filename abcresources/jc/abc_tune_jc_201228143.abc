@@ -1,0 +1,24 @@
+X: 11091
+T: SHERI'S HORNPIPE
+C: Bob McQuillen 5 Jan 99
+B: Bob's Note Book 11 #91
+R: hornpipe
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+BA \
+| GEDC "^x"[EB,]DGB | cBAG FDBc | dBGD GBdg | ecAG FAdc |
+| GEDC "^x"[EB,]DGB | cBAG FDBc | dBge dBcA | BGAF G2 :|
+|: GA \
+| BGFA GDGB | cABG FAdc | BGEG DGBd | edce d2dc |
+| BGBd gdBd | ecAG FDBd | gefd egdB | cAFA B2 :|
+%%text x=flute note (E)
+%%begintext align
+%% Sheri Hazeltine is
+%% the lovely wife of great fiddler Rex Blazer;
+%% They live with their cute son in Juneau, AK,
+%% and they are very hospitable to itinerant old piano
+%% players. Please note that Sheri is a four-star turkey cooker!
+%% (Boy, was that a good dinner - thanks loads, Sheri!)
+%%endtext

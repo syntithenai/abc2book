@@ -1,0 +1,31 @@
+X: 21122
+T: Cotillion (From the Opera of La Somnambula) (tune 5)
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.119 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+D2 |\
+G2GF G2A2 | G2AF G2AF | G2A2 B2c2 | dgfe dcBc |\
+AGFG G2FG | G2F2 G2F2 | G2A2 B3c | dge^c d2 H|]
+Bc |\
+dBGB g2g2 | cBAB e2e2 | dBGB g2g2 | dcBc e2e2 |\
+d2ee c2ee | BcBA GFED | G2^G2 A2Bc | cEFG "^D.C."G2 |]
+GA |\
+B2BA G2GF | E2ED D4 | G2G2 A2B2 | cdcB A2Bc |\
+d2dB c2cA | B2BG E2FG | A2Bc A2F2 | G4 "^D.C."G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies all forward and back,
+%% gentlemen the same,
+%% all balance to partners,
+%% grand chain,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

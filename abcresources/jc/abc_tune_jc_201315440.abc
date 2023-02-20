@@ -1,0 +1,16 @@
+X: 715
+T: My Honey in the House
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #715
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0715/oneill-1001-0715-1.abc
+M: C|
+L: 1/8
+K: D
+"^A"\
+[| DEFG A2(AB) | cAdB   cAGE | DEFG A2(AG) | EFGE (FD)D2 \
+|| DEFG A2(AB) | cAdB cAGE | Addc dfed | cAGE FDD2 |]
+"^B"\
+[| d2(fd) efge | d2(fd) edcB | AGAB c2(cA) | EFGE (FD)D2 \
+|| d2fd efge   | d2fd edcB | Addc dfed | cAGE FDD2 |]

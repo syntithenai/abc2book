@@ -1,0 +1,23 @@
+X:715
+T:Swirling Waters
+C:Colin Hume, 2009
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=120
+M:3/4
+L:1/8
+V:1 treble
+K:C
+%%MIDI program 21
+%%MIDI beat 95 95 80
+P:A
+[| "C"z [Ge] [Ge][Fd] [Fd][Ec] | "Am"[Ec]2 [DB]2 [CA]2 | "F"z [CA] [CA][B,G] [B,G][A,F] | "Dm"[A,F]2[G,E]2[F,D]2 |\
+"G"z [GB] [GB][Ac] [Ac][Bd] | "Am"[ce]2 [Ac]2 [CA]2 | "Dm"[A,F]2 [Af]3 [Ge] | "G"[Fd]6 |
+P:B
+"C"z [Ge] [Ge][Fd] [Fd][Ec] | "Am"[Ec]2 [DB]2 [CA]2 | "F"z [CA] [CA][B,G] [B,G][A,F] | "Dm"[A,F]2[G,E]2[F,D]2 |\
+"G"z [GB] [GB][Ac] [Ac][Bd] | "Am"[ce]2 [Ac]2 "C"[Ge]2 | "Dm"[Fd]2 [Fd] [Ec] "G"[DB] [Fd] | "C"[Ec]6 |
+P:C
+"G"z[Bd] [Bd][dg] [ce][Bd] | "Am"[Bd]2[Ac]2[Bd][ce] | "Dm"[df]2[FA]3[Ac] | "G"[Ac]2[GB]4 |\
+"E"z[Bd] [Bd][df] [ce][Bd] | "Am"[Bd]2[Ac]2[Bd][ce] | "D"[d^f]3[ce] [Bd][Ac] | "G"[GB]6 |
+P:D
+"Dm"z[=Fd] [Fd][CA] [CA][DB] | "Am"[Ec]2[DB]2[CA]2 | "G"z[Bd] [Bd][ce] [ce][df] | "C"[df]2 [ce]4 |\
+"Dm"z[df] [df][ce] [ce][Bd] | "G"[Bd]2[Ac]2[GB]2 | "F"[FA]2[FA][Ac] "G"[GB][Fd] | "C"[Ec]6 |]

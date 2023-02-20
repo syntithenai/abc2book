@@ -1,0 +1,21 @@
+X: 03062
+T: MY FAVORITE FLUTE
+C: Bob McQuillen Sept 76
+B: Bob's Note Book 03 #62
+%R: jig
+%D:1962
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+fg \
+| a2f g2e | fgf fed | Aee Aee | dfb afg |\
+| a2f g2e | fgf fed | Aee Aag | fdd d :|
+|: fa \
+| b3 a3 | bab a2f | def ede | fbb bfa |\
+| b3 a3 | bab afe | def ede | fdd d :|
+%%begintext align
+%% My favorite flute is kept
+%% in a crate up in Contocook,
+%% New Hampshire.
+%%endtext

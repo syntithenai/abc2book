@@ -1,0 +1,31 @@
+X: 227
+T: Bonny lassie take advice!
+T: No chaillin og thoir le toigh an airr' dhomh.
+R: air
+N: This is version 1, for ABC software that doesn't understand diminuendo/crescendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.102 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow & Plaintive."
+K: Eb
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+E>F |\
+!p!G3F G4 | "_cres"G2c2 {GA}B3E | [G2E2][F2D2] [F2D2]E>F |\
+!p!G3F G4 | "_dim"G2e2 {e}d3=B | c2G2 G2 :| ~e>f |\
+!f!{e}g3"_dim"f {f}e2dc | =Bc {G}F2 G3F |
+E3F G4 | "_dim"G2e2 {e}d3=B | c2G2 G2~e>f |\
+!f!{e}g3"_dim"f {f}e2dc | =Bc{G}F2 G3F |\
+"_Exp"E3C TE2 zF | "_dim"G2e2 {e}d3c | B2G2 G2 |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | E2B2 e4 | e2A2 G2E2 | B2B,2 B,2z2 | !p!E2B2 e2d2 |\
+c4 =B2G2 | CEGc C2 :| z2 | !f!e3d c2a2- | a2d2 e3d |
+c3d e4 | e2c2 =B2G2 | c2C2 C2z2 | !f!e'3d' c'2a2 |\
+g2d2 e2d2 | c2A2 HG2 zD | E4 B2a2 | g2e2 e2 |]
+% = = = = = = = = = =

@@ -1,0 +1,21 @@
+X: 10892
+T: AIR
+C: Rossini.
+Q: "Moderate."
+%R: jig, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.89 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+d3 (dcd) | f3 d2z | B3 (cB)c | ^c2 dB zz |\
+d2d (d^c)d | =e2e f2d | (dc)A (cB)G | (G2 B/>A/) Fzz |\
+d2d (=ef)e  | (d2=e) A2z | d2d (=ef)e | (df)=e (df)_e |
+d2d (dc)d | (f3 d)zz | B2B (cB)c | (^c2 d)B zz |\
+d2d (de)f | f2=e _e2c | (B/F/G/A/)(B/c/) d2c | B3 z2z |\
+F3- Fdc | B3 z2z | (Hf2=e) (_ecd) | B3 z2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

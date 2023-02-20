@@ -1,0 +1,387 @@
+X:1
+T: Test Sets
+Z: Contributed 2015-05-17 09:15:18 by DaveU dave@daveu.co.uk
+K:
+%%textfont Helvetica 25
+%%text Battle of the Somme
+M:9/8
+L:1/8
+K:D
+A|"D"f>af d3 d>cd|"G"e>dG B3 "D"A3|"G"B>GB "D"A3 d3|f>af "A"e3- e2||
+A|"D"f>af d3 d>cd|"G"e>dG B3 "D"A3|"G"B>GB "D"A3 f3|"A"e>fe "D"d3- d2:|
+|:d|d>cd "A"e3 A2e|e>fg "D"f<af d3|f>ef "G"g3 B2g|"D"fa>f "A"e3- e2||
+A|"D"f>af d3 d>cd|"G"e>dG B3 "D"A3|"G"B>GB "D"A3 f3|"A"e>fe "D"d3- d2:|
+%%textfont Helvetica 25
+%%text British Grenadiers
+M:2/4
+L:1/8
+K:G
+D2|G2D2 G2A2|B2cB A2Bc|d2G2 BAGF|G6:||
+Bc|d3e d2c2|B3c d2d2|e2e2 dcBA|G4F3D|
+G2FG A2GA|B2AB c2Bc|d2G2 BAGF|G6||
+%%newpage
+%% ================================
+%%textfont Helvetica 25
+%%text Cotillion
+M:4/4
+L:1/8
+K:G
+G4d4|B2AB G2AB|c2B2A2G2|FGAF D3D|
+E4F4|GFGA G2c2|B2AG A2GF|G4G4:|
+|:dedc B2d2|dedc B2d2|e2d2e2f2|g4d2ef|
+g2fe d2cB|e2dc B2AB|c2B2A2G2|F2EF D2D2|
+E4F4|GFGA G2c2|B2AG A2GF|G4G4:|
+%%textfont Helvetica 25
+%%text Crested Hens
+M:3/4
+L:1/8
+K:D
+"Em"E3 GFE|B4 Bc|"G"dc Be dc|"D"dc BA GF|
+"Em"E3 GFE|B4 Bc|"D"dc BA GA|"Em"B3 G FD|
+E3 GFE|B4 Bc|"G"dc Be dc|"D"dc BA GF|
+"Em"E3 GFE|B4 Bc|"D"dc BA GA|"Em"B4 ef||
+gB Bg gB|"C"=c4 ef|"D"gf ag fe|"B7"^d2 e2 f2|
+"Em"gB Bg gB|"C"=c4 ef|"D"gf ag fd|"Em"e3 e ef|
+gB Bg gB|"C"=c4 ef|"D"gf ag fe|"B7"^d2 e2 f2|
+"Em"gB Bg gB|"C"=c4 ef|"D"gf ag fd|"Em"e3 G FA||
+%%newpage
+%% ================================
+%%textfont Helvetica 25
+%%text Far From Home
+I:C
+M:4/4
+L:1/4
+K:G
+D|"G"G/2E/2D/2E/2 GG/2A/2|"G"BB/2A/2 "D7"B/2c/2d|"G"G/2E/2D/2E/2 GG/2B/2|"Am"A/2G/2A/2B/2"D7"A/2G/2E/2F/2|
+"G"G/2E/2D/2E/2 GG/2A/2|"G"BB/2A/2 "G7"B/2c/2d|"C"e/2d/2e/2f/2 "G"g/2e/2d/2c/2|"D7"B/2G/2A/2F/2 "G"G:|
+d|"Em"gg/2e/2 "Bm"ff/2d/2|"Em"e/2d/2e/2f/2 "Bm"e/2d/2B/2d/2|"Em"g/2e/2d/2B/2 GB|"Am"A/2G/2A/2B/2"D7"A/2G/2E|
+"G"G/2E/2D/2E/2 GG/2A/2|"G"BB/2A/2 "G7"B/2c/2d|"C"e/2d/2e/2f/2 "G"g/2e/2d/2c/2|"D7"B/2G/2A/2F/2 "G"G:|
+%%textfont Helvetica 25
+%%text Just as the Tide was Flowing
+M:4/4
+L:1/4
+K:G
+D | GGED|GG A G/2A/2|B2 A2| B/2A/2G/2E/2 ED |
+GGED | GG A G/2A/ |Bd c/2B2A/2G/2|EFG :|
+|:Bd dd|de d2 |dB B/2A/2 |G/2A/2 BG E|
+DGG E|D GG  A| G/2A/2 Bd c/2B/2|A2G/2 EFG:|
+%%newpage
+%% ================================
+%%textfont Helvetica 25
+%%text   Give Me Your Hand
+I:C
+M:6/8
+L:1/8
+K:G
+D|EGG G2D|EGG G2D|EGG GAB|Bed B2A/G/|
+AAe/d/ BBd/B/|A>BA/G/ E2D|EGG G2D|EGG G2D|
+EGG GAB|D>BA/B/ G2D|EGG GAB|Bed B2d/B/|
+AAe/d/ BBd/B/|A2B/d/ e2d/B/|dde g2e/d/|eeg a2g/e/|
+ggd/e/ ggd/e/|gga b3|bbb b2a/g/|aa/b/a/g/ e2g/f/|
+eeg/e/ ddg/d/|BBd/B/A2B/A/|GBd =f2e/d/|eeg e2d/B/|
+ddg/e/ B2d/B/|AA/c/B/A/ G2|D||
+%%textfont Helvetica 25
+%%text   Huntington Castle
+I:C
+M:6/8
+L:1/8
+K:Em
+B,|"Em"E>FE "C"G2A | "Em"B2A "D"F>ED | "Em"E>FE "C"G2A | "Em"B>AB "Bm"d2e |
+"Bm"f>ed "G"B>dB | "D"ABA "Bm"F>ED | "C"E>FE "Em"GAB | "A"A>G"Bm"F"Em"E2 :|
+d| "Em"e>fe "G"d>cB | "D"A>BA "Bm"F>ED |"Em"Eee "C"e>fg| "Bm"fe^d "Em"e2 f|
+"Em"g>af "C"e>fd| "G"B>dA "D"F>ED | "C"E>FE "Em"GAB | "A"AG"G"F "Em"E2 :|
+%%newpage
+%% ================================
+%%textfont Helvetica 25
+%%text John of Paris
+I:C
+R:English
+M:6/8
+L:1/8
+K:G
+|B2B BAB|d2B BAB|c2e g2e|d2B BAB|
+c2A AGA|B2G G2B|A2B A2B|A2d d^c=c|
+B2B BAB|d2B BAB|c2e g2e|d2B BAB|
+c2A AGA|B2G G2F|Eed cBA|B2A G3|
+B2B Bcd|e2f g2a|b2a gfe|d2B Bcd|
+e2e ecA|d2d dBG|c2A B2G|F2e d2c|
+B2B BAB|d2B BAB|c2e g2e|d2B BAB|
+c2A AGA|B2G G2F|Eed cBA|B2A G3||
+%%textfont Helvetica 25
+%%text Mad Moll of the Cheshire Hunt
+I:C
+M:4/4
+L:1/8
+K:G
+(3DEF| "G"G2 gf "C"edcB|"D"ABcd "G"B2G2|"G"G2 gf "C"edB2|"D"dcAF "G"G2 (3DEF|
+"G"G2 gf "C"edcB|"D"ABcd "G"B2G2|"C"cBcd e2B2|"D"dcAF"G"G2:|
+|:FE| "G"DGBG DGBG|"G"DGBd "C"c2e2|"D"DFAd DFAd|"D"DFAd "G"B2G2|
+   "G"DGBG DGBG|"G"DGBd "C"c2B2|"C"e2d2 "D"c2B2|"D"DFAF "G"G2 :|
+%%newpage
+%% ================================
+%%textfont Helvetica 25
+%%text   March of the kings of Laoise
+I:C
+M:6/8
+L:1/8
+K:D mixolydian
+|A2F A2D|A2F A2D|B2 G A2F|G2FE2D|
+A2F A2D|A2F A2D|B2 d A2 F|G2 F E2 D|
+F>ED G>AB|A3 -AGF|E>=cG E>=CE|E>=cG E>=CE|
+D>ED D>ED|D>ED D2 z::B2G d2G|B2G d>cB|
+A2d A2F|A2d F2=c|B2e d2A|G>AG E2G|
+F>ED G>AB|A3- AGF|E>=cG E>=CE|E>=cG E>=CE|
+D>ED D>ED|D>ED D2 z:|
+%%textfont Helvetica 25
+%%text   Mickey Callaghan's Fancy
+I:C
+M:C|
+L:1/8
+K:G
+BA|GEDE GABA|GEDE GABc|dBeB dBGB|A2AG A2BA|
+GEDE GABA|GEDE GABc|dBeB dBGB|A2G2 G2:|
+|:Bd|e2ed edBd|d2de dBGB|c2cA B2AG|EAAG A2BA|
+GEDE GABA|GEDE GABc|dBeB dBGB|A2G2 G2:||
+%%newpage
+%% ================================
+%%textfont Helvetica 25
+%%text   Moran's Return
+I:C
+M:4/4
+L:1/8
+K:D
+(3FGA|B2 E2 E2 A>G|F2 D2 D2 d>e|fedc dBAF|E2 E>F G2 G>A|
+B2 E2 E2 A>G|F2 D2 D2 d>e|fedc dBAF|E2 D2 D2:||
+|:F>E|D2 d>c d3 e|fedc B2 A>F|B2 e2 e3 f|gfed e2 d>e|
+f2 gf e2 fe|dedB A2 d>e|fedc dBAF|E2 D2 D2||
+%%textfont Helvetica 25
+%%text   Morgan Magan
+I:C
+M:4/4
+L:1/8
+K:G
+D2|D2G2 G2AB|cBAG Bcd2|e2A2 A2G2|GFEF D2EF|
+G3A G2A2|G2FE D2G2|FGA2 A2EG|F2D2 D2EF|
+GABG A2F2|G6B2|c3B A2Bc|d4 e4|
+d2B2 cBAG|AGFE D2EF|GABG A2F2|G6 dc||
+B2d2 d2ef|g2G2 Bcd2|g2G2 Bcd2|edcB A3c|
+BABc d2B2|e2c2 d2B2|cBA2 d2G2|F2D2 D2GF|
+E2C2 C3D|E2C2 C3E|F2D2 D2DE|FED2 d2Bc|
+d3B edcB|cBAG FGAF|D2G2 BAGF|G6||
+%%newpage
+%% ================================
+%%textfont Helvetica 25
+%%text   Morning Star
+I:C
+M:4/4
+L:1/4
+K:G
+d/2c/2|B/2A/2B/2G/2 EF/2G/2|A/2B/2A/2F/2 Dd/2c/2|B/2A/2B/2G/2 EA/2F/2|DG G:|
+A/2B/2|c/2B/2c/2d/2 e/2f/2g/2e/2|d/2c/2B/2A/2 G/2F/2E/2D/2|c/2B/2c/2d/2 e/2f/2g/2e/2|f dd A/2B/2|
+c/2B/2c/2d/2 e/2f/2g/2e/2|d/2c/2B/2A/2 G/2F/2E/2D/2|B/2A/2B/2G/2E A/2F/2|DG G||
+%%textfont Helvetica 25
+%%text   Paidin O Raifeartaigh (Charlie Piggot)
+I:C
+M:6/8
+L:1/8
+K:Gmaj
+|:D|GAB D2E|GAB AGE|GAB D2E|GAG GED|
+GAB D2E|GAB d2e|d2B AGA|BGF G2:|
+|:B|dBB d2B|dBB A2B|dBB dBB|G2 G GED|
+dBB d2B|dBd g2e|d2B AGA|BGF G2:|
+%%newpage
+%% ================================
+%%textfont Helvetica 25
+%%text   Princess Royal
+I:C
+M:4/4
+L:1/4
+K:G
+d/2c/2|"G"B"D"A "G"Gd/2c/2|"G"B"D"A "G"Gg|"C"e3/2d/2 ce|"G"d3/2c/2 Bd|
+"Am"c"g"B "f#"A"e"G|"D7"F/2G/2"c#"A/2F/2 "b"D"a"d/2c/2|"G"B/2A/2B/2G/2 "D7"AF|"G"G2 G:|
+"C"e3/2e/2 ed|"C"e"d"f "e"g2|"C/e"g"d"f "c"e"b"d|"G/d"B/2A/2G/2B/2 "D7"A2|
+"G"GG "D7"A3/2A/2|"G"B/2A/2G g3/2f/2|"G"gd "C"e2|"G"dB "C"c2|
+"Am"c"g"B "f#"A"e"G|"D7"F/2G/2"c#"A/2F/2 "b"D"a"d/2c/2|"G"B/2A/2B/2G/2 "D7"AF|"G"G2 G||
+dc|"G"B2 "D"A2|"Em"G2 "D7"dc|"G"B2 "D"A2|"Em"G2 g2|
+"C"e3d|"C"c2 e2|"G"d3c|
+M:2/4
+L:1/8
+"G"B3/2d/2|"Am"c"g"B "f#"A"e"G|"D7"F/2G/2"c#"A/2F/2 "b"D"a"d/2c/2|"G"B/2A/2B/2G/2 "D7"AF|"G"G2 G||
+%%textfont Helvetica 25
+%%text   Proudlocks's Hornpipe
+I:C
+M:4/4
+L:1/8
+K:G
+D2|"G"GDGB "D7"AGAB|"G"G2gf "C"gedc|"G"(3BcdBG "D7"(3ABcAF|"G"GFGA "D7"GFED|
+"G"GDGB "D7"AGAB|"G"G2gf "C"gedc|"G"(3BcdBG "D7"(3ABcAF|"G"G2G2 G2:|
+Bc|"G"dedc "Em"B2(3GAB|"Am"cdcB "D7"A2Bc|"G"dedc "Em"B2g2|"A7"agfe "D7"dcBA|
+"G"GDGB "D7"AGAB|"G"G2gf "C"gedc|"G"(3BcdBG "D7"(3ABcAF|"G"G2G2 G2:|
+%%newpage
+%% ================================
+%%textfont Helvetica 25
+%%text   Redwing
+I:C
+M:C|
+L:1/4
+K:G
+D |: "G"G>D GB | d3 B | "C"ce ge | "G"d3 B |"Am"cc/B/ "D7"Ac |
+"G"BB/A/ "Em"GB |1 "A7"AG FG | "D7"AF ED :|2 "A7"AG "D7"FA | "G"G2 ||
+gf |: "C"e2 c2 | eg fe | "G"d2 B2- | Bd ed |
+"D7"d2 A2-|1 Ad ed | "G"d2 B2- | Bg f=f :|2 Ac BA | "G"G4- | G3 ||
+%%textfont Helvetica 25
+%%text   Soldiers' Joy
+I:C
+M:4/4
+L:1/4
+K:D
+F/2G/2|"D"A/2F/2D/2F/2 A/2F/2D/2F/2|"D"Ad "G"dc/2B/2|"D"A/2F/2D/2F/2 A/2F/2D/2F/2|"E7"GE "A7"EF/2G/2|
+"D"A/2F/2D/2F/2 A/2F/2D/2F/2|"D"Ad "G"dg|"D/a"f/2a/2f/2d/2 "A7"e/2g/2e/2c/2|"D"ed d:|
+d/2e/2|"D"ff/2d/2 f/2a/2g/2f/2|"A7"ee/2c/2 e/2g/2f/2e/2|"D"ff/2d/2 f/2a/2g/2f/2|"E7""G"e/2d/2c/2B/2"A7""A"Ad/2e/2|
+"D""Bm"f/2d/2f/2d/2 f/2a/2g/2f/2|"Em"e/2c/2e/2c/2 "A7"e/2g/2f/2e/2|"D"f/2a/2f/2d/2"A7"e/2g/2e/2c/2|"D"ed d:|
+%%newpage
+%% ================================
+%%textfont Helvetica 25
+%%text Battle of Aughrim
+I:C
+M:4/4
+K:Ador
+"Am"E2A2 ABcd| e2d2 c2A2 | "G"B2G2 GFGA | B2AG ED |
+"Am"E2A2 ABcd | e2ed e2ag | "G"e2d2 BedB | "Am"A4 A4 :|
+"Am"a2e2 e2fg | abag e2fg | abaf "Em"g3e | "G"dedB G4 |
+"Am"a2e2 e2fg | abag e3d | "Em"B2e2 "G"d2B2 |"Am" A4 A4 :|
+%%textfont Helvetica 25
+%%text   Theme Vannitaise
+I:C
+M:4/4
+L:1/8
+K:Emin
+|:E2 B2 B2 AB|G2 E2 E4|A2 AG F2 FE|DE FA G2 F2|
+E2 B2 B2 AB|G2 E2 E4|A2 AG F2 FE|DEFA E4:|
+|:EF GF EF GF|EF GA B2 G2|DE FE D3 E|F2 A2 G2 F2|
+EF GF EF GF|EF GA B2 G2|DE FE D3 A|G2 F2 E4:|
+%%newpage
+%% ================================
+%%textfont Helvetica 25
+%%text   Whinshields
+I:C
+M:4/4
+L:1/4
+K:G
+d/2c/2|"G"BG GB|"D7"AD DD|"G"GG "D7"G/2A/2B/2c/2|"G"d>B "G7"dg|
+"C"ec ce|"G"dG GA/2B/2|1"Am"cB "A7"AG|"D7"FA d:|2c/2/B/2A/2G/2 Fd|G3||
+d|"G"g3/2a/2 "D7"g/2f/2e/2d/2|"G"BG GA/2B/2|"C"c/2B/2c/2d/2 c/2B/2A/2G/2|"Am"FA "D7"Af|
+"G"g3/2a/2 "D7"g/2f/2e/2d/2|"G"BG GB|"A7"A"g"A "f#"B"e"^c|"D7"d3d|
+"D7"g/2f/2g/2f/2 g/2f/2e/2d/2|"G"BG GA/2B/2|"C"c/2B/2c/2d/2 c/2B/2A/2G/2|"D7"FA dd/2c/2|
+"G"BG GB|"D"AD DB|"Am"c/2B/2A/2G/2 "D7"Fd|"G"G3||
+%%textfont Helvetica 25
+%%text   Blackbird
+M:2/4
+L:1/8
+K:G
+dc|BGBd|c2B2|AGFG|ABcA|d^cde|d=cAF|GAGF|D2DE|
+FEFG|A2fe|d^cde|dcAF|GAGF|D2D2|D2:|
+de|fede|f2g2|a2ag|fgaf|g2gf|gbaf|gagf|d2de|
+fede|f2g2|abag|fgaf|gagf|d2d2|!
+defg|a3f|g3e|f2e2|d^cAG|ABcd|efge|a4|!
+ABAG|FGAB|cBce|dcAF|GAGF|D2D2|D2:|!
+%%newpage
+%% ================================
+%%textfont Helvetica 25
+%%text    St. Patrick's day
+I:C
+M: 6/8
+L: 1/8
+K: G
+D|GAG GBd|gfe dBG|AGA BGD|EFE E2D|
+GAG GBd|gfe dBG|AGA BGD|E2F G2:|
+B|def gag|fed edB|def gag|fed e2B|
+def gag|fed gfe|dBG GBd|
+gfe dBG|AGA BGD|EFE E2D|
+GAG GBd|gfe dBG|AGA BGD|E2F G2||
+%%textfont Helvetica 25
+%%text    The Job of Journeywork
+I:C
+M:4/4
+K:D
+fe| "D"dcAG FGAB | "C"=cABG "A"A2 fe | "D"d2 cA "G"BGAF | "Em"GBAF "Bm"DEFG |
+ "F#m"A3 F "A"GFEF | "Em"D2 DE "D"F2 "G"G2 | "A"A2 d2 cdef | "D"d2 d3/2c1/2 d2 :|
+|:de | "D"f2 ef gfef | dcAG "A"A2 de | "D"f2 ef "A"gfef | "D"d2 d3/2c1/2 d2 cd |
+ "A"eaaf g2 fe | "D"dcde f2 ed | dcAG FGAB | "C"=cABG "A"A2 fe |
+ "D"d2 cA "G"BGAF |"Em"(3GAB AF "Bm"DEFG | "F#m"ABAF "A"GFEF |
+"Em"D2 DE "D"(3FEF "G"(3GFG | "A"A2 d2 cdef | "D"d2 d3/2c1/2 d2:|
+%%newpage
+%% ================================
+%%textfont Helvetica 25
+%%text   Whinshields
+I:C
+M:4/4
+L:1/4
+K:G
+d/2c/2|"G"BG GB|"D7"AD DD|"G"GG "D7"G/2A/2B/2c/2|"G"d>B "G7"dg|
+"C"ec ce|"G"dG GA/2B/2|1"Am"cB "A7"AG|"D7"FA d:|2c/2/B/2A/2G/2 Fd|G3||
+d|"G"g3/2a/2 "D7"g/2f/2e/2d/2|"G"BG GA/2B/2|"C"c/2B/2c/2d/2 c/2B/2A/2G/2|"Am"FA "D7"Af|
+"G"g3/2a/2 "D7"g/2f/2e/2d/2|"G"BG GB|"A7"A"g"A "f#"B"e"^c|"D7"d3d|
+"D7"g/2f/2g/2f/2 g/2f/2e/2d/2|"G"BG GA/2B/2|"C"c/2B/2c/2d/2 c/2B/2A/2G/2|"D7"FA dd/2c/2|
+"G"BG GB|"D"AD DB|"Am"c/2B/2A/2G/2 "D7"Fd|"G"G3||
+%%textfont Helvetica 25
+%%text   Blackbird
+M:2/4
+L:1/8
+K:G
+dc|BGBd|c2B2|AGFG|ABcA|d^cde|d=cAF|GAGF|D2DE|
+FEFG|A2fe|d^cde|dcAF|GAGF|D2D2|D2:|
+de|fede|f2g2|a2ag|fgaf|g2gf|gbaf|gagf|d2de|
+fede|f2g2|abag|fgaf|gagf|d2d2|!
+defg|a3f|g3e|f2e2|d^cAG|ABcd|efge|a4|!
+ABAG|FGAB|cBce|dcAF|GAGF|D2D2|D2:|!
+%%newpage
+%% ================================
+%%textfont Helvetica 25
+%%text    St. Patrick's day
+I:C
+M: 6/8
+L: 1/8
+K: G
+D|GAG GBd|gfe dBG|AGA BGD|EFE E2D|
+GAG GBd|gfe dBG|AGA BGD|E2F G2:|
+B|def gag|fed edB|def gag|fed e2B|
+def gag|fed gfe|dBG GBd|
+gfe dBG|AGA BGD|EFE E2D|
+GAG GBd|gfe dBG|AGA BGD|E2F G2||
+%%textfont Helvetica 25
+%%text    The Job of Journeywork
+I:C
+M:4/4
+K:D
+fe| "D"dcAG FGAB | "C"=cABG "A"A2 fe | "D"d2 cA "G"BGAF | "Em"GBAF "Bm"DEFG |
+ "F#m"A3 F "A"GFEF | "Em"D2 DE "D"F2 "G"G2 | "A"A2 d2 cdef | "D"d2 d3/2c1/2 d2 :|
+|:de | "D"f2 ef gfef | dcAG "A"A2 de | "D"f2 ef "A"gfef | "D"d2 d3/2c1/2 d2 cd |
+ "A"eaaf g2 fe | "D"dcde f2 ed | dcAG FGAB | "C"=cABG "A"A2 fe |
+ "D"d2 cA "G"BGAF |"Em"(3GAB AF "Bm"DEFG | "F#m"ABAF "A"GFEF |
+"Em"D2 DE "D"(3FEF "G"(3GFG | "A"A2 d2 cdef | "D"d2 d3/2c1/2 d2:|
+%%newpage
+%% ================================
+%%textfont Helvetica 25
+%%text Bill Hall's No.1
+I:C
+M:4/4
+L:1/8
+K:G
+z2|BcBA G2D2|GABc d2g2|BcBA G2AB|cABG A2 D2|
+BcBA G2D2|GABc d2g2|edcB ABcA|B2G2G4:|
+|:d2|g2>a2 b3a|g2e2d2B2|gfga bagf|edef e2d2|
+gfga bagf|edef gfed|edcB ABcA|B2G2G2:|
+%%textfont Helvetica 25
+%%text Bill Hall's No.2
+I:C
+M:4/4
+L:1/8
+K:G
+B2d2 cBAG|B2d2e2g2|d3e dBGA|B2A2A2GA|
+B2d2cBAG|B2d2e2g2|d3e dBGB|A2G2G4:|
+gfga gfed|gfga gfed|edcB cBAG|B2A2A4|
+gfga gfed|gfga gfed|edcB ABcA|B2G2G4:|
+%%newpage
+%% ================================
+

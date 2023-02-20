@@ -1,0 +1,18 @@
+X: 352
+T: Nana Nani Savu Ludo Dete
+O: Serbia
+F: http://www.youtube.com/watch?v=LkEV29qJ_OA
+M: 7/8
+L: 1/8
+P:B
+Q:1/4=120
+K: Cm
+%%MIDI program 20 Reed organ
+%%MIDI bassprog 58 Tuba
+%%MIDI gchord fz2fzz2
+"Cm"GGG AGF2|=E3-E2-E2|"Fm"F2F F2 F2|"Cm"=E2^C =C2^C2|C3-C2-C2|
+G2G AGF2|=E3-E2-E2|"Fm"F2F F2 F2|"Cm"=E2^C =C2^C2|C3-C2-C2|
+"Cm"C2^C F2F2|=E2^C E2C2|C3F4|\
+C2^C F2F2|=E2^C E2C2|C3F4|
+C2^C F2F2|=E2^C E2C2|C3C4-|C3-C4|:\
+"Fm"F2F F2F2|G2F =E2C2|"Cm"F2=E C2-C2-|C7:|

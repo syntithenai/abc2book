@@ -1,0 +1,18 @@
+X:1
+T:M\'ilo mou k\'okkino
+O:Greece
+R:Kalamatiano
+Z:2017 John Chambers <jc:trillian.mit.edu>
+F:http://www.tousauxbalkans.net/Milo_mou_kokkino
+F:http://www.tousauxbalkans.net/abc/Milo%20mou%20kokkino.abc
+M:7/8
+L:1/8
+K:D
+|:\
+("D"[D/F/][E/G/][FA])[FA] [FA][EG] [EG][DF] |\
+("G"[E/G/][F/A/][GB])[GB] [GB][FA] [FA][EG] |\
+("D"[D/F/][E/G/][FA])[FA] [FA][EG] [EG][DF] |\
+[1 "D"[DF][CE][B,D] "A7"[A,4C4] :|\
+[2 "D"[D2F2][EG] ("A7"[F/A/][E/G/][D/F/][E/G/] "D"[D2F2]) |]
+|: "D"D3 D2 D2 | F2G A4 | "G"B3 B2 B2 |1 "D"A2G F>G FE :|2 "D"A2G F4 |]
+|: "D"A3 BA GF | "Em"G2F E2 DE | "A7"F3 GF ED |1 "D"F2E DEFG :|2 "D"F2E D4 |]

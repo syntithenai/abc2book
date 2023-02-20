@@ -1,0 +1,20 @@
+X: 648
+T: the Pigeon on the Gate   #2
+R: reel
+%S: s:2 b:12(6+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #648
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0648/oneill-1001-0648-1.abc
+N: Initial repeat added to the A part to fix the thythm. [JC]
+N: Compacted via another repeat with multiple endings [JC]
+M: C|
+L: 1/8
+K: G
+"^A"\
+[|]gf |: e>A (3AAA egfg | e>A (3AAA e2dB |\
+[1 G2(BG) dGBG | Bdef g2(fg) :|\
+[2 GABd g2ga | bagb a2 |]
+"^B"\
+|: ag | eaag abag | eaab c'bag |\
+[1 eggf gage | dega bg :|\
+[2 edef gage | dBGB A2 |]

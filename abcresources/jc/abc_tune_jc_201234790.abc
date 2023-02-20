@@ -1,0 +1,25 @@
+X: 20783
+T: the YOUNG TROUBADOUR
+C: Henri Herz.
+Q: "Bold and with spirit."
+%R: strathspey
+N: This is version 1, for ABC software that doesn't understand crescendo symbols.
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.78 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|!f!\
+G2E>G c2G>c | e>dcA G3G |\
+AG2"_>"G A"_>"G2E | D<G B>A G2 zG |\
+G2E>G c2G>c | e>dc>A | G2zE |\
+"_cres."F>GA>B c2c>d | G>G e>d c4 |!p!\
+c2BA B2E>E |
+A>GA>F c3c|\
+c2BA d2G>A | B2B>A HG4 |!f!\
+G2E>G c2G>c | e>dc>A G2G>G |\
+A"_>"G2G c2B>B | d"_>"G2d e2e>e |\
+d"_>"B2G c2c>A | G>e e>d {d}c2 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

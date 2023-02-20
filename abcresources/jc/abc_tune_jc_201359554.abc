@@ -1,0 +1,50 @@
+X:2628
+T:Tambourin
+C:Jean Philippe Rameau
+O:France
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/rameau-jean-philippe/rameau-tamb01/rameau-tamb01-pno2.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:2/4
+L:1/16
+Q:1/4=144
+K:A
+V:1
+A4A4|A2a2A2B2|c2a2c2B2|A4A4|
+V:2
+[A,,4C,4E,4A,4]z4|A,,4A,,4|A,,2A,2A,,2B,,2|C,2E,2C,2A,,2|
+%
+V:1
+fede f2a2|d2d2d4|edcd e2a2|c2c2c4|
+V:2
+[A,,4D,4A,4][A,,4D,4A,4]|[A,,4F,4A,4][A,,4F,4A,4]|[A,,4C,4A,4][A,,4C,4A,4]|[A,,4E,4A,4][A,,4E,4A,4]|
+%
+V:1
+dcBc dcBd|cBAB cBAB|cBAB c2^d2|e4E4:|
+V:2
+[A,,4E,4G,4][A,,4E,4G,4]|[A,,4E,4A,4][A,,4E,4A,4]|[F,4A,4][F,4A,4]|[E,4G,4][E,4G,4]:|
+%
+V:1
+|:E4E4|E2e2E2F2|G2e2G2F2|E4E4|BAGA B2c2|
+V:2
+|:[E,,4G,,4B,,4E,4]z4|E,,4E,,4|E,,2E,2E,,2F,,2|G,,2B,,2G,,2E,,2|
+%
+V:1
+[F4d4][F4d4]|=AGFG A2B2|[E4c4][E4c4]|
+V:2
+[E,4G,4][E,4G,4]|B,,C,D,E, F,G,^A,B,|[D,4F,4][D,4F,4]|A,,B,,C,D, E,F,G,A,|
+%
+V:1
+edcd edcd|edcd edcd|edcd edcd|e4z4|
+V:2
+G,F,E,F, G,F,E,F,|G,F,E,F, G,F,E,F,|G,F,E,F, G,F,E,F,|G,4z4|z2 %
+V:1
+z8|z2 a2A2B2|c2a2c2B2|A4A,4:|
+V:2
+A,2A,,2B,,2|C,4C,2D,2|E,4E,,4|A,,4A,,,4:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

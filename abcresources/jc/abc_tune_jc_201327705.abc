@@ -1,0 +1,25 @@
+X:1
+T:THE ROWAN TREE
+M:C
+L:1/8
+Q:80
+C:Traditional
+S:March
+K:HP
+[| e2 | \
+{g}c3{GdG}c{gcd}c2{e}B2 | \
+{g}ce3{A}e2a2 |
+{fg}f3e{g}f2a2 | \
+{fg}f2{g}e2{A}e2{g}A3/2B/2 | \
+{g}c3{GdG}c{gcd}c2{e}B2 |
+{g}ce3{g}f3e | \
+{g}ec3{g}B3{d}c | \
+{g}A4{GAG}A2|]
+{g}e2[ | \
+{A}e2a2{g}a3g | \
+{f}g2f2{gfg}f2a2 |
+{ef}e3f{g}fe{g}dc | \
+{gcd}c3B{GdG}B2{g}A3/2B/2{g}c3{GdG}c{gcd}c2{e}B2 | \
+{g}ce3{g}f3e |
+{g}ec3{g}B3{d}c | \
+{g}A4{GAG}A2|]

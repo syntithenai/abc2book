@@ -1,0 +1,5 @@
+X: 1
+T: TEST: Bar Label Box  (5)
+%%barlabelfont Times-Roman-Bold 14 box
+K: none
+"A"[| CDEF "B2"| GABc "C-3"|| defg "D004"| abc'2 "E"|]

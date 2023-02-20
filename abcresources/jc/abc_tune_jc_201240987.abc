@@ -1,0 +1,54 @@
+X: 410	% Scordatura version
+T: the Millers Wedding -- Strathspey
+R: strathspey
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.41 #0 (scordatura)
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: This version has both scordatura notation (violin G string tuned to A) and voice overlays (the '&' token).
+N: Added missing flags in bars 1, 2.
+N: The low note in bar 1 is positioned like G, but has a leger line; treated as low G.
+N: The final bar should probably be like the others, but what should be a low A is below the leger line.
+P: Violin tuning: [eADA,] scordatura
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+G, |\
+D<D D>G, E2-EF & A,<A, A,>G, A,2A,F |\
+G,>G, A,>G, D2-DF & x2 x2 C2CF |\
+D<D D>A, E>DEF & C<C C>A, A,2x2 |\
+G,<G, TA,>G, D2D & x2 x2 C2C :|
+|: A |\
+D/D/D TF>D A>FEB | D<D TF>D A>D TF>D |\
+TE>D TF>D A>FEB | G,<G, TA,>G, D2-D & x2 x2 C2C :|
+|: f |\
+x2 x2 e2ef & d/d/d dB B2Bf |\
+A/A/A (TB>A) d2-df |\
+d/d/d d>B Te>def | A<A TB>A d2d :|
+|: (f/g/ |\
+a)>fd>f e2-ef/g/ | a>fd>e d>efd |\
+g>af>b Te>de>f | A<A TB>A d2d :|
+|: f |\
+D<D TF>D E2-Ef | D/D/D TF>D A2Ag |\
+D<D TF>D E2Ef | D<DTF>D d>efd |\
+g>ef>d e>Bd>A, | G,>G, TG,>G, D2D & x2 x2 C2C :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 e2E2 | A2A2 D2D2 | d2d2 e2E2 | A2A2 D2D :|\
+|: z |
+d2d2 d2e2 | d2d2 d2d2 |\
+d2d2 d2e2 | A2A2 D2D :|\
+|: z |\
+d2d2 e2E2 |
+A2A2 D2D2 |\
+d2d2 e2e2 | a2A2 D2D :|\
+|: z |\
+d2d2 e2e2 | d2d2 d2d2 |\
+g2f2 e2E2 | A2A2 D2D :|
+|: z |\
+d2d2 A2A2 | d2d2 d2d2 |\
+d2d2 A2A2 | d2d2 d2d2 |\
+g2f2 e2d2 | A2A2 D2D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

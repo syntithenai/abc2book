@@ -1,0 +1,26 @@
+X:1
+T: Sybil's Au Revoir
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:A
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 32 notes)
+K:A
+M:4/4
+L:1/16
+E4 |A8 e6 d2 |c4 A8 a4 |g4 e4 f4 ^d4 |e12 e4 |f4 g2 f2 e4 A4 |d4 e2 d2 c4 B2 c2 |d2 c2 B2 A2 E4 G4 |A12 E4 |
+%W: A2
+% voice 1 (1 lines, 31 notes)
+A8 e6 d2 |c4 A8 a4 |g4 e4 f4 ^d4 |e12 e4 |f4 g2 f2 e4 A4 |d4 e2 d2 c4 B2 c2 |d2 c2 B2 A2 E4 G4 |A12 E4 |
+%W: B1
+% voice 1 (1 lines, 33 notes)
+F8 E6 D2 |C4 E8 E4 |A4 B2 c2 d4 c4 |B12 c2 d2 |e4 d2 c2 d4 c2 B2 |c4 B2 A2 B4 e4 |f2 g2 a2 c2 B6 A2 |A12 E4 |
+%W: B2
+% voice 1 (1 lines, 32 notes)
+F8 E6 D2 |C4 E8 E4 |A4 B2 c2 d4 c4 |B12 c2 d2 |e4 d2 c2 d4 c2 B2 |c4 B2 A2 B4 e4 |f2 g2 a2 c2 B6 A2 |A12 ||

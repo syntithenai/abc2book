@@ -1,0 +1,23 @@
+X: 10652
+T: MISS MARGARET BROWN'S FAVOURITE
+C: Nathaniel Gow.
+Q: "Slow and distinct."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.65 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g |\
+dBG TG>AB | E2E TE2c | AFD DEF | G2G TG2g |\
+dBG B>cd | E2E TE2c | AFD DEF | TG3 G2 :|\
+g/a/ |\
+bab afd | efg g>fe | dBg dBG | AFD D2 g/a/ |
+bgb afd | efg {a}gfe | f<af g<e^c | d2d Tde=f |\
+(ec).e (dB).d | (ca).c (Bg).B | Ace dBG | FAF DEF |\
+TG>AB EFG | ABc def | (gd).B (cA).F | TG3 G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

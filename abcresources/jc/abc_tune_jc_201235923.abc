@@ -1,0 +1,34 @@
+X: 21472
+T: Spanish Sett (tune 5)
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" 1843 p.147 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The last bar is missing an entire beat.
+M: 2/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+g |\
+c'c'/c'/ c'c' | c'2 z2 | g3 f | eeez |\
+d'd'/d'/ d'd' | d'2 z2 | f3 g/f/ | [e2c2] z2 H|]
+G |\
+cccd | ^deee | gfed | fe^de |\
+cccd | ^deee | dfed | c/G/A/B/ c/d/e/f/ |
+eeef | ^fggg | bag^f | ag^fg |\
+eeef | ^fggg | =fagf | "D.C."e3 |]
+|:[M:6/8] g |\
+gag fgf | e^de e^de | fef fef | g^fg g^fg |\
+a^ga a^ga | g^fg g^fg | fef a2g | "D.C."[e2c2] :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across partners and back,
+%% grand right and left,
+%% all balance and turn partners,
+%% grand chain,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

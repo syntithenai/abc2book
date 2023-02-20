@@ -1,0 +1,57 @@
+
+X: 1
+T: "Odessa" Freylekhs   [G]
+C: Steven Greenman (July 2002)
+M: 2/4
+L: 1/16
+K: =B_e_A	% G freygish
+"^A"|:\
+"G"G2BB B2c2 | ~B2AB A2G2 | G2e2 d2c2 | e3e dcBA |\
+"G"G2BB B2c2 | ~B2AB A2G2 | "Fm"d2c2 B2A2 |1 "G"G6 D2 :|2 G6 GG |]
+"^B"|:\
+"G"G2e2 d2e2 | "Cm"c6 cc | cd3 cd3 | "G"B6 BB |\
+[1 "G"B2c2 d2e2 | "Fm"f2e2 d2c2 | "G"d4 [g4B4] | [g6B6] GG :|
+[2 "Fm"c2F2 G2A2 | B2c2 B2A2 | "G"G8-{BcBAFG}y| G2 |]\
+"^C"|: G2c2d2 | "Cm"e4 e4 | e2de f2e2 | "G"d6 c2 |
+[1 d2c2 B2A2 | "Fm"F2e2 d2c2 | B2c2 d2e2 | d4 g4 | g2 :|\
+[2 B2A2 G2F2 | "Fm"F2e2 d2c2 | B2F2 G2A2 | "G"G8- | G4 z4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+T: "Odessa" Freylekhs    [A]
+C: Steven Greenman (July 2002)
+M: 2/4
+L: 1/16
+K: _B^c	% A freygish
+"^A"|:\
+"A"A2cc c2d2 | ~c2Bc B2A2 | A2f2 e2d2 | f3f edcB |\
+"A"A2cc c2d2 | ~c2Bc B2A2 | "Gm"e2d2 c2B2 |1 "A"A6 E2 :|2 A6 AA |]
+"^B"|:\
+"A"A2f2 e2f2 | "Dm"d6 dd | de3 de3 | "A"c6 cc |\
+[1 "A"c2d2 e2f2 | "Gm"g2f2 e2d2 | "A"e4 [a4c4] | [a6c6] AA :|
+[2 "Gm"d2G2 A2B2 | c2d2 c2B2 | "A"A8-{cdcBGA}y| A2 |]\
+"^C"|: A2d2e2 | "Dm"f4 f4 | f2ef g2f2 | "A"e6 d2 |
+[1 e2d2 c2B2 | "Gm"G2f2 e2d2 | c2d2 e2f2 | e4 a4 | a2 :|\
+[2 c2B2 A2G2 | "Gm"G2f2 e2d2 | c2G2 A2B2 | "A"A8- | A4 z4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3
+T: "Odessa" Freylekhs    [E]
+C: Steven Greenman (July 2002)
+M: 2/4
+L: 1/16
+K: ^G	% E freygish
+"^A"|:\
+"E"E2GG G2A2 | ~G2FG F2E2 | E2c2 B2A2 | c3c BAGF |\
+"E"E2GG G2A2 | ~G2FG F2E2 | "Dm"B2A2 G2F2 |1 "E"E6 B,2 :|2 E6 EE |]
+"^B"|:\
+"E"E2c2 B2c2 | "Am"A6 AA | AB3 AB3 | "E"G6 GG |\
+[1 "E"G2A2 B2c2 | "Dm"d2c2 B2A2 | "E"B4 [e4G4] | [e6G6] EE :|
+[2 "Dm"A2D2 E2F2 | G2A2 G2F2 | "E"E8-{GAGFDE}y| E2 |]\
+"^C"|: E2A2B2 | "Am"c4 c4 | c2Bc d2c2 | "E"B6 A2 |
+[1 B2A2 G2F2 | "Dm"D2c2 B2A2 | G2A2 B2c2 | B4 e4 | e2 :|\
+[2 G2F2 E2D2 | "Dm"D2c2 B2A2 | G2D2 E2F2 | "E"E8- | E4 z4 |]

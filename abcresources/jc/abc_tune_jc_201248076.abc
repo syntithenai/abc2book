@@ -1,0 +1,295 @@
+%abc
+%%abc-alias Harrison & Wall MS (Ashover)
+%%abc-creator ABCexplorer 1.6.1 [02/10/2019]
+%Transcribed to ABC for www.village-music-project.org.uk
+%by C.Partington, 1999
+%Not in same order as MS
+%Revised 2003
+%Revised again 11/2008
+%Revised again 12/2009
+%Revised again 6/2013
+%Changed line endings 4/2016
+%4/2017 keysigs
+
+X:1
+T:Black Boy. ASH.01
+M:2/4
+L:1/8
+Q:1/4=100
+B:Harrison & Wall MS,Ashover,Derbyshire,1762-75
+R:
+O:
+A:England, Derbyshire
+Z:vmp.Chris Partington, 2003....
+K:A
+A2 c/B/A/G/ | Acea | gbed | cA2B |
+ce^df | eg2e | fa g/f/e/^d/ |e2 E2:|
+|:e=g2f | f/e/d/c/ d2 | B d2 f | e/d/c/B/ c2 |
+A c2 e | d/c/B/A/ GB | Ed c/B/A/G/ | A2 A,2:|
+M:6/8
+L:1/4
+Q:3/8=100
+K:D
+|:A/ |dd/ cd/|e/f/e/ e/f/g/ |dd/ cd/ |e/c/A/ AA/|
+dd/ cd/ |e/f/d/ e/f/g/ |a/f/d/ g/e/c/ |dd/ d:|
+|:e/ |ff/ f/d/f/ |gg/ g/e/g/ | ff/ f/d/f/ |e/c/A/Ag/|
+f/a/f/ d/e/f/ |g/b/g/ e/f/g/ |a/f/d/ g/e/c/ |d d/ d:|
+
+X:2
+T:Bonnie Kate. ASH.02
+M:C
+L:1/8
+Q:1/4=140
+B:Harrison & Wall MS,Ashover,Derbyshire,1762-75
+R:
+O:
+A:England, Derbyshire
+Z:vmp.Chris Partington, 2003
+K:A
+a>bag ae-ef | edcB cA-AB | (cA A)B/c/ (dB Bc/)d/ | c>edc B4:|
+|:(cA A)B/c/2 dBec | (fd d)e/f/ g2 ef/g/ | a>baf egaf | e>fec A2A2:|
+
+X:3
+T:Duchess of Hamilton's Rant. ASH.03
+T:Lady's Delight,aka. ASH.03
+T:Charlie And His Trousers On,aka. ASH.03
+T:Jink About,aka. ASH.03
+M:6/8
+L:1/8
+Q:3/8=120
+B:Harrison & Wall MS,Ashover,Derbyshire,1762-75
+R:
+O:
+A:England, Derbyshire
+N:B strain Bar 6, note "F" has "E"
+N:written over it
+N:in MS
+Z:vmp.Mick Peat +,2003
+K:D
+f | ecA def|ecA d2f|ecA ecA|BcB d2f|
+ecA def| ecA d2f|faf edc|BcB d2:|
+|:f | ecA acA|ecA d2f|ecA acA|BcB d2f|
+ecA acA|ecA d2"^NB"f|faf edc|BcB d2f:|
+
+X:4
+T:Harper's Frolick. ASH.04
+M:2/4
+L:1/8
+Q:1/4=100
+B:Harrison & Wall MS,Ashover,Derbyshire,1762-75
+R:
+O:
+A:England, Derbyshire
+Z:vmp.Chris Partington, 2003
+K:D
+A | FADA | FADd | cdec | d/c/d/e/ dA |
+FADA | FADd | cd ed/c/ | d3:|
+|:g | f d2 e/f/ | g e2 g | f d2 f | e/d/c/B/ A>g |
+f d2 e/f/ | ge2 g | fd ed/c/ | d3:|
+
+X:5
+T:Fantocini. ASH.05, The
+M:6/8
+L:1/8
+Q:3/8=100
+B:Harrison & Wall MS,Ashover,Derbyshire,1762-75
+R:
+O:
+A:England, Derbyshire
+Z:vmp.Chris Partington, 2003
+K:F
+fcc ~c3 | dAA ~A3 | GBA GAF | EFG C3 |
+fcc ~c3 | dAA A2f | edc GA=B | c3 c3:|
+|:gcc ~c3 | acc ~c3 | dcB AGF | EFG C3 |
+fcc ~c3 | dAA ~A3 | GBA GFE | F3 F3:|
+
+X:6
+T:Dance the Polygon,(She?). ASH.06
+T:Spa,The,aka. ASH.06
+M:C
+L:1/8
+Q:1/4=120
+B:Harrison & Wall MS,Ashover,Derbyshire,1762-75
+R:
+O:
+A:England, Derbyshire
+N:First two phrases are in Dmaj, the next two are in Gmaj.CGP.
+Z:vmp.Chris Partington, 2003
+K:D
+Dd/2c/2 dd fdf2 | af a/2g/2f/2e/2 d/2c/2d/2e/2 dd |\
+Dd/2c/2 dd fdf2 |
+agfe d2d2 | [eg][eg][df][df] [eg][eg]f2 |\
+Dd/2c/2 dd fdf2 | af a/2g/2f/2e/2 d2D2 |\
+"^NB" G>ABB Bd d2 |
+Bd e/2d/2"^NB"=c/2B/2  A/2G/2A/2B/2 AA |\
+G>ABB Bd d2 | dB e/2d/2=c/2B/2 B2A2 |\
+A>B=cc BdgB |
+A>B=cc Bd/2e/2 d/2c/2B/2A/2 |\
+G>ABB BdgB| dB d/2"^NB"=c/2B/2A/2 G2 |]
+W:Bar 7 .. may be missing..Bar 9,+15..note "c" is sharp in ms..
+
+X:7
+T:Polygon. ASH.07, The
+M:6/8
+L:1/8
+Q:3/8=110
+B:Harrison & Wall MS,Ashover,Derbyshire,1762-75
+R:
+O:
+A:England, Derbyshire
+N:Quaver rest at beginning of B strain not in MS
+Z:vmp.Mick Peat +, 2003
+K:D
+f/g/|afd ecA|dBG {G}F2E|DFA Bgf|efd {e}c2f/g/|
+afd ecA| dBG {G}F2E|DFA Bgf|edc d2:|
+|:"^NB"z|Ace gec|Adf afd| Ace gec|Bed {d}c3|
+Ace gec|Adf afd|AcA Bgf|edc d2:|
+
+X:8
+T:Spanish Dance. ASH.08
+M:2/4
+L:1/16
+Q:1/4=100
+B:Harrison & Wall MS,Ashover,Derbyshire,1762-75
+R:
+O:
+A:England, Derbyshire
+N:Phrases 1,2,4 in Dmaj, phrase 3 in Amaj.CGP.
+Z:vmp.Mick Peat, 2003
+K:D
+DAFA DBGB | D2ef gff[Ae] | DAFA Defg | fedc {c} d4:|
+|:ecAg fdAa | ecAg [d2f2]eA | afdA BcdG | F2E2 D4:|
+|:ABcd dcBA | efgf f2e2 | f3f e^GAB | cBA^G {G}A4:|
+|:e3c  A2d2 | BAGF {F}E4 | Begf ecdg | fedc {c}d4:|
+
+X:9
+T:One More Dance & Then. ASH.09
+M:C
+L:1/8
+Q:1/4=100
+B:Harrison & Wall MS,Ashover,Derbyshire,1762-75
+R:
+O:
+A:England, Derbyshire
+Z:vmp.Chris Partington, 2003
+K:G
+B/c/ | dedBg2 Bc | d>edB c A2B/c/ | dedB gfed | edcB B3:|
+|:A/B/ | cA fc acBA | BGdB gBAG | AGFE DCB,A, | G,cBA {A}G3:|
+
+X:10
+T:Russian Dance. ASH.10, The
+M:2/4
+L:1/8
+Q:1/4=100
+B:Harrison & Wall MS,Ashover,Derbyshire,1762-75
+R:
+O:
+A:England, Derbyshire
+Z:vmp.Chris Partington, 2003
+K:C
+g/f/ | ecBd | c C2 F | EGAc | Bd2 g/f/ |
+ecBd | c C2 F | EG eB | c3:|
+|:B/c/ | dBGf | e g2 (3a/g/f/ | ecBd | g G2F |
+EGcE | F a2 g/f/ | ecGB |c3 :|
+
+X:11
+T:Major O'Flacherty. ASH.11
+M:6/8
+L:1/8
+Q:3/8=120
+B:Harrison & Wall MS,Ashover,Derbyshire,1762-75
+R:
+O:
+A:England, Derbyshire
+Z:vmp.Chris Partington, 2003
+K:C
+G/2F/2 | EGc ~c3 | dBG F2E | DFA dfe | dec BAB |
+EGc ~c3 | dBG ~F2E | DFA dfd | BAB c2:|
+|:e/2f/2 | gec cBc | dBG ~F2E | DFA dfe | dec ~B2e/2f/2 |
+gec ~c3 | dBG F2E | DFA dfd | BAB c2:|
+
+X:12
+T:Roman Reel. ASH.12
+M:2/4
+L:1/8
+Q:1/4=160
+B:Harrison & Wall MS,Ashover,Derbyshire,1762-75
+R:
+O:
+A:England, Derbyshire
+Z:vmp.Chris Partington, 2003
+K:A
+e | e>Aa>e | f>ed>c | B>cd>e | c>BA>e|
+e>Aa>e | f>ed>c | B>dc>B | A3:|
+|:e | B>dc>e | d>cB>c | c>ed>f | e>dc>e |
+e>ca>e | f>ed>c | B>dc>B | A3:|
+
+X:13
+T:London(?). ASH.13
+M:4/4
+L:1/8
+Q:1/4=180
+B:Harrison & Wall MS,Ashover,Derbyshire,1762-75
+R:
+O:
+A:England, Derbyshire
+N:Phrases 1,3,4 in Amaj, phrase 2 in Emaj.CGP.
+Z:vmp.Chris Partington.., 2003
+K:A
+eaec B>ABc | dcde fgaf | efec fgaf | ecBc (3AAA A2:|
+|:ceAe Be^de | ceAe BE E2 | ceAe B^dfa | gfe^d ee e2:|
+|:aaag fffe | ceAe BE E2 | aaag fffc | BABc (3AAA A2:|
+|:CEAc FAdf | ecec BE E2 | CEAc FAdf | ecBc (3AAA A2:|
+
+X:14
+T:Scoch Bamble. ASH.14, The
+T:Scotch Bamble. ASH.14
+M:C
+L:1/8
+Q:1/2=96
+B:Harrison & Wall MS,Ashover,Derbyshire,1762-75
+R:
+O:
+A:England, Derbyshire
+Z:vmp.Chris Partington, 2003
+K:A
+A/2A/2A Ac ecAc | B/2B/2B GB d2 cB |\
+A/2A/2A Ac ecdB | c>eBc A/2A/2A A2:|
+|:ce ef/2g/2 a2 ec | aecA B/2B/2B Bd |\
+cAeA aecA | c>eBc A/2A/2A A2:|
+
+X:15
+T:Gavot. ASH.15, A
+M:C
+L:1/8
+Q:1/2=80
+B:Harrison & Wall MS,Ashover,Derbyshire,1762-75
+R:
+O:
+A:England, Derbyshire
+Z:vmp.Chris Partington, 2003
+K:D
+d2c2d2A2 | B2c2d4 | g2f2b2a2 |\
+gfed c4 | (df) (eg) (fe) (ge) |
+f2g2a4 | fd ec dB ac | dBA^G A4 |\
+d2d2ecBA | ceag f4 |
+babf gefg | fedc B4 |d2c2d2A2 |\
+Bagf f4 |  b2B2c2d2 |
+egfe ~c4 | FAde GBeg | Acfa Bdgb |\
+gfga bceg | fedc d4 |]
+
+X:16
+T:Od's Zounds Make Room For Cuckolds. ASH.16
+M:6/4
+L:1/4
+Q:3/4=90
+B:Harrison & Wall MS,Ashover,Derbyshire,1762-75
+R:
+O:
+A:England, Derbyshire
+Z:vmp.Chris Partington., 2003.
+K:D
+d2DF>GA | fedecA | d2DFGA | fefd3:|
+|:fedecA | fedecA | d2DFGA | fefd3:|
+
+

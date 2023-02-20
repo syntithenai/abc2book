@@ -10,113 +10,14 @@ import ImportOptionsModal from '../components/ImportOptionsModal'
 import TuneBookOptionsModal from '../components/TuneBookOptionsModal'
 //import Accordion from 'react-bootstrap/Accordion';
 import {useNavigate} from 'react-router-dom'
-import VennDiagram from '../components/VennDiagram'
- //<Accordion defaultActiveKey="0">
-      //<Accordion.Item eventKey="0">
-        //<Accordion.Header>Accordion Item #1</Accordion.Header>
-        //<Accordion.Body>
+//import VennDiagram from '../components/VennDiagram'
 
 export default function BooksPage(props) {
     const navigate = useNavigate()
+    
+    
     const [searchFilter, setSearchFilter ] = useState('') 
     const [searchTagFilter, setSearchTagFilter ] = useState('') 
-    //const [vennData,setVennData] = useState('')
-    //function getVennData() {
-        ////console.log('TTTTT',props.tunes)
-        //var sets = {}
-        //if (props.tunes) {
-            //var tagSets = {}
-            //var bookSets = {}
-            
-                
-            //Object.values(props.tunes).forEach(function(tune) {
-                //var items = {}
-                //if (Array.isArray(tune.books)) {
-                    //tune.books.forEach(function(book) {
-                      //if (book && book.length > 0) items[book] = 1  
-                    //})
-                //}
-                ////if (Array.isArray(tune.tags)) {
-                    ////tune.tags.forEach(function(tag) {
-                      ////items[tag] = 1
-                    ////})
-                ////}
-                //props.tunebook.utils.uniquifyArray(Object.keys(items)).sort().forEach(function(item) {
-                    //bookSets[item] = parseInt(bookSets[item]) > 0 ? bookSets[item] + 1 : 1
-                    //Object.keys(items).forEach(function(itemInner) {
-                        //if (item && itemInner && item !== itemInner) {
-                            //var comboKey = [item,itemInner].sort().join(",")
-                            ////console.log('CK',comboKey)
-                            //bookSets[comboKey] = parseInt(bookSets[comboKey]) > 0 ? bookSets[comboKey] + 1 : 1
-                            //// third level
-                            //Object.keys(items).forEach(function(itemInnerInner) {
-                                //if (itemInnerInner && item !== itemInnerInner && itemInner !== itemInnerInner) {
-                                    //var comboKey = [item,itemInner, itemInnerInner].sort().join(",")
-                                    ////console.log('CK',comboKey)
-                                    //bookSets[comboKey] = parseInt(bookSets[comboKey]) > 0 ? bookSets[comboKey] + 1 : 1
-                                //}
-                            //})
-                        //}
-                    //})
-                //})
-            
-                ////if (Array.isArray(tune.tags)) {
-                    ////var tagKey = tune.tags.sort()
-                    ////tagSets[tagKey] = parseInt(tagSets[tagKey]) > 0 ? tagSets[tagKey] + 1 : 1
-                ////}
-            //})
-            //console.log('ITEMS',bookSets)
-                
-            //sets = Object.keys(bookSets).map(function(bookKey) {
-              //return { size: parseInt(Math.sqrt(bookSets[bookKey]).toFixed(0)), sets: bookKey.split(",") }  
-            //}).sort(function(a,b) {
-              //if (a.sets.length > b.sets.length) return 1 ; else return -1   
-            //})
-            ////setVennData(sets)
-            ////[
-              ////{
-                ////size: 3411,
-                ////sets: ["Radiohead", "Thom Yorke", "John Lennon"],
-              ////},
-            //console.log('TTTTT SETS',sets)
-        //}
-        //return sets
-    //}
-    //function getVennData() {
-        //console.log('TTTTT',props.tunes)
-        //var sets = {}
-        //if (props.tunes) {
-            //var tagSets = {}
-            //var bookSets = {}
-            //Object.values(props.tunes).forEach(function(tune) {
-                //if (Array.isArray(tune.books)) {
-                    //tune.books.sort().filter(function(a) {return Boolean(a)})
-                    
-                    //var bookKey = tune.books.sort().filter(function(a) {return Boolean(a)}).join(",")
-                    
-                    //bookSets[bookKey] = parseInt(bookSets[bookKey]) > 0 ? bookSets[bookKey] + 1 : 1
-                //}
-                ////if (Array.isArray(tune.tags)) {
-                    ////var tagKey = tune.tags.sort()
-                    ////tagSets[tagKey] = parseInt(tagSets[tagKey]) > 0 ? tagSets[tagKey] + 1 : 1
-                ////}
-            //})
-            //sets = Object.keys(bookSets).map(function(bookKey) {
-              //return { size: bookSets[bookKey], sets: bookKey.split(",") }  
-            //}).sort(function(a,b) {
-              //if (a.sets.length > b.sets.length) return 1 ; else return -1   
-            //})
-            ////setVennData(sets)
-            ////[
-              ////{
-                ////size: 3411,
-                ////sets: ["Radiohead", "Thom Yorke", "John Lennon"],
-              ////},
-            //console.log('TTTTT SETS',bookSets, tagSets)
-        //}
-        //return sets
-    //}
-    //useEffect(,[props.tunes])
     
     function getShowParam() {
         if (window.location.hash && window.location.hash.indexOf('?show=') !== -1) {
@@ -124,16 +25,9 @@ export default function BooksPage(props) {
         }
         return ''
     }
-    //var buttonGroupStyle={marginLeft:'0.2em',backgroundColor:'#0d6efd', border:'1px solid black', borderRadius:'10px'}
     
-    //console.log(notCollatedCurated)
     const showImport = (getShowParam() === "importList" || getShowParam() === "importAbc" || getShowParam() === "importCollection")
-    //const [imageIsHidden, setImageIsHidden] = useState({})
-    //function hideImage(key) {
-        //var v = imageIsHidden
-        //v[key] = true
-        //setImageIsHidden(v)
-    //}
+    
     const [tagImageIsHidden, setTagImageIsHidden] = useState({})
     function hideTagImage(key) {
         var v = tagImageIsHidden
@@ -252,6 +146,24 @@ export default function BooksPage(props) {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
      //<Tab eventKey="tagsoverview" title="Tags Overview">
                         //<VennDiagram sets={getVennData()} />
                     //</Tab>
@@ -278,3 +190,116 @@ export default function BooksPage(props) {
                 
              
             //</div>}      
+
+
+//const [vennData,setVennData] = useState('')
+    //function getVennData() {
+        ////console.log('TTTTT',props.tunes)
+        //var sets = {}
+        //if (props.tunes) {
+            //var tagSets = {}
+            //var bookSets = {}
+            
+                
+            //Object.values(props.tunes).forEach(function(tune) {
+                //var items = {}
+                //if (Array.isArray(tune.books)) {
+                    //tune.books.forEach(function(book) {
+                      //if (book && book.length > 0) items[book] = 1  
+                    //})
+                //}
+                ////if (Array.isArray(tune.tags)) {
+                    ////tune.tags.forEach(function(tag) {
+                      ////items[tag] = 1
+                    ////})
+                ////}
+                //props.tunebook.utils.uniquifyArray(Object.keys(items)).sort().forEach(function(item) {
+                    //bookSets[item] = parseInt(bookSets[item]) > 0 ? bookSets[item] + 1 : 1
+                    //Object.keys(items).forEach(function(itemInner) {
+                        //if (item && itemInner && item !== itemInner) {
+                            //var comboKey = [item,itemInner].sort().join(",")
+                            ////console.log('CK',comboKey)
+                            //bookSets[comboKey] = parseInt(bookSets[comboKey]) > 0 ? bookSets[comboKey] + 1 : 1
+                            //// third level
+                            //Object.keys(items).forEach(function(itemInnerInner) {
+                                //if (itemInnerInner && item !== itemInnerInner && itemInner !== itemInnerInner) {
+                                    //var comboKey = [item,itemInner, itemInnerInner].sort().join(",")
+                                    ////console.log('CK',comboKey)
+                                    //bookSets[comboKey] = parseInt(bookSets[comboKey]) > 0 ? bookSets[comboKey] + 1 : 1
+                                //}
+                            //})
+                        //}
+                    //})
+                //})
+            
+                ////if (Array.isArray(tune.tags)) {
+                    ////var tagKey = tune.tags.sort()
+                    ////tagSets[tagKey] = parseInt(tagSets[tagKey]) > 0 ? tagSets[tagKey] + 1 : 1
+                ////}
+            //})
+            //console.log('ITEMS',bookSets)
+                
+            //sets = Object.keys(bookSets).map(function(bookKey) {
+              //return { size: parseInt(Math.sqrt(bookSets[bookKey]).toFixed(0)), sets: bookKey.split(",") }  
+            //}).sort(function(a,b) {
+              //if (a.sets.length > b.sets.length) return 1 ; else return -1   
+            //})
+            ////setVennData(sets)
+            ////[
+              ////{
+                ////size: 3411,
+                ////sets: ["Radiohead", "Thom Yorke", "John Lennon"],
+              ////},
+            //console.log('TTTTT SETS',sets)
+        //}
+        //return sets
+    //}
+    //function getVennData() {
+        //console.log('TTTTT',props.tunes)
+        //var sets = {}
+        //if (props.tunes) {
+            //var tagSets = {}
+            //var bookSets = {}
+            //Object.values(props.tunes).forEach(function(tune) {
+                //if (Array.isArray(tune.books)) {
+                    //tune.books.sort().filter(function(a) {return Boolean(a)})
+                    
+                    //var bookKey = tune.books.sort().filter(function(a) {return Boolean(a)}).join(",")
+                    
+                    //bookSets[bookKey] = parseInt(bookSets[bookKey]) > 0 ? bookSets[bookKey] + 1 : 1
+                //}
+                ////if (Array.isArray(tune.tags)) {
+                    ////var tagKey = tune.tags.sort()
+                    ////tagSets[tagKey] = parseInt(tagSets[tagKey]) > 0 ? tagSets[tagKey] + 1 : 1
+                ////}
+            //})
+            //sets = Object.keys(bookSets).map(function(bookKey) {
+              //return { size: bookSets[bookKey], sets: bookKey.split(",") }  
+            //}).sort(function(a,b) {
+              //if (a.sets.length > b.sets.length) return 1 ; else return -1   
+            //})
+            ////setVennData(sets)
+            ////[
+              ////{
+                ////size: 3411,
+                ////sets: ["Radiohead", "Thom Yorke", "John Lennon"],
+              ////},
+            //console.log('TTTTT SETS',bookSets, tagSets)
+        //}
+        //return sets
+    //}
+    //useEffect(,[props.tunes])
+    
+     //<Accordion defaultActiveKey="0">
+      //<Accordion.Item eventKey="0">
+        //<Accordion.Header>Accordion Item #1</Accordion.Header>
+        //<Accordion.Body>
+//var buttonGroupStyle={marginLeft:'0.2em',backgroundColor:'#0d6efd', border:'1px solid black', borderRadius:'10px'}
+    
+    //console.log(notCollatedCurated)
+    //const [imageIsHidden, setImageIsHidden] = useState({})
+    //function hideImage(key) {
+        //var v = imageIsHidden
+        //v[key] = true
+        //setImageIsHidden(v)
+    //}

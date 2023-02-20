@@ -1,0 +1,24 @@
+X: 240
+T: Kolo de Srem
+O: Serbia
+F: http://www.youtube.com/watch?v=6Ez5N-Pquq0"
+M: 2/4
+L: 1/8
+K: G
+Q: 1/4=160
+P:A
+%%MIDI program 24 Acoustic Guitar
+%%MIDI chordprog 24 Acoustic Guitar
+%%MIDI bassprog 32 Acoustic Bass
+%%MIDI chordvol 64
+%%MIDI bassvol 96
+"G"(3GGG (3BBB|(3ddd (3BBB|(3ddd d/d/B/B/|"C7"(3ccc (3AAA|
+(3AAA (3BBB|(3ccc (3AAA|"D7"dd dc|"G"(3BBB (3GGG::
+"C"eeed |(3ccc (3eee|"D7"dddc|"G" (3BBB (3ddd|
+"C"ccc B|(3AAA dc|[1(3BBB (3ccc|"D7"dddd:|[2 (3BBB (3AAA|"G" G4|
+P:B
+%%MIDI program 68 Oboe
+"G"G2 B2|d2 B2|dd dB|"C7"c2 A2|\
+A2 B2|c2 A2|"D7"dd dc|"G"B2 G2::
+"C7"e3 d |c2 e2|"D7"d3 c |B2 d2|\
+"C7"c3 B |A2 dc|[1B2 c2|"D7"d4:|[2"G" B2 "C7" A2|"G"G4|

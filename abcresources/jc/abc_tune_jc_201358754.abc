@@ -1,0 +1,81 @@
+%!abctab2ps
+%
+%%topspace        0.2cm
+%%staffsep        1.0cm
+%%tabfontitalian  Borrono
+%%tabfontsize     13
+% move flags down for italian8tab
+% (there is no flag over eighth course):
+%%tabflagspace    -10
+%%tabrhstyle      diamond
+%%textfont        Times-Italic 10
+%%partsfont       Times-Italic 10
+%%lineskipfac     0.8
+%
+X:1
+%
+%%barnumbers      0
+%
+T:Ballo detto il Conte Orlando
+C:S.Molinaro (c. 1570-1634)
+L:1/2
+K:italian8tab
+S:Intavolatura di liuto, Libro primo, Venezia, 1599
+Z:abc transcription by Yasumasa Shimoyama (2002)
+%
+P:Venezia, fol. 8
+%1
+[c,,a/][c,,a//][d,,c][f,a/][h,,f]|\
+[fda{a}][,,a{a}//][d,b,,a][c,d,,c/][aab,,d//],d|\
+[,cdca/][,dcac][,,dca],c|\
+[,daa{a}//],c,dac/,d|\
+[c,,a//]a[c,,a][d,,c][f,a/][h,,f]|
+%2
+[fda{a}//],,,c[,,a{a}][d,b,,a][c,d,,c]d///c[aab,,d//][,da]|\
+[,cdca],a///,c[,dcac//],,,c[,,dea]a///,d[,c,c//],a///,c|\
+[,daa{a}//],,b,,a[d,,c][c,,a][a,,,e][,d,,c][,c,,a]|\
+[,ab,,d/]d//,,,,,c[df,,,a/][fh{a}]|\
+[hi{f}][h,,f//][f,a][da,c],c[cdf,c],,d|
+%3
+[abb,d]c[da]f[c,da][d,b][,,d{a}]c|\
+[dab,,d],,,a[,,bc][,,de][,,ff],,,,,d[,ad,,d][,cb,a]|\
+[,da,c],,,a[,,,a{a}],,,c[,,a,c],d[,d,,c][a,a,e]|\
+[c,aa],,b[c,d{a}][d,,,,a][f,d,,c],a[,c,,,c][d,,,,d///]c|\
+[ac,,a//][cd][df,,,a],c[ce,,c][af]"(1)"[c{,a}],e|
+%4
+[af,,,a],d///,c,a,,d,,c,,a,,c/h|\
+[d,,c//]c[aa]c[df,c][fh][hi,,h][df]|\
+[fh,a]d[c,d]a[cd,a][df][fh,a][cd]|\
+[df,,d]f[d,,c]c[a,b,d]d"(2)"[c,d,d]a|\
+[,df,c]a"(3)"[,d{,a}],c[,aa,c],d[,cc,c],a|
+%5
+[,cd,a],d[,c,c],a[,,dea][,ab][,cd,a][a,b]|\
+[,da,c],,f[,c,,,c],,d[,ab,,d],,a[,d,cc],,,a|\
+[,c,ca/][,da][addca],c|\
+[cdda{a}//],,,,a,,,,c,,,,e,,,a/[f,a]|\
+[da,c][a,b//][c,d][da/][a,bc]|\
+[c,da][,da//][a,b][c,d/][,daa]|
+%6
+[a,b,d],,,c//,,a,,b/[a,,cd]|\
+[,da,c][,a,a//][,c,c][,da/][,a,ac]|\
+[,c,ca][,,de//],a[,c,ca],,d[,c,,a],,b|\
+[,da,c],,b[,,a,,c][,c,c][,a,a,d],c[,d,ac],a|\
+[,c,ca/][,da][,,dca//],c,d///,c,a,c|\
+[,daa{a}4]||
+%
+
+X:2
+%
+%%scale          0.50
+%%staffwidth     12cm
+%%topspace       -0.80cm
+%
+L:1/2
+K:italian8tab
+%
+%%text Original:
+%
+[ac,,a//][cd][df,,,a],c[ce,,c][af]"(1)"[c{a}],e||\
+[df,,d//]f[d,,c]c[a,b,d]d"(2)"[c,d,f]a||\
+[,df,c//]a"(3)"[,d{a}],c[,aa,c],d[,cc,c],a||\
+

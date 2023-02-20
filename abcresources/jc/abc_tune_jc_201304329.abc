@@ -1,0 +1,22 @@
+X:426
+T:The Lover's Farewell
+T:Ick gae mijn soeten Engel
+C:Old Dutch; arr. Pat Shaw
+%%subtitlefont Times-Roman 20
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=120
+M:3/4
+L:1/8
+K:Am
+P:A
+|: "Am"ABcde2 | "Am"c2A2e2 | "Dm"d3e cd | "E"B6 |\
+"C"cdefg2 | "Am"e2c2g2 | "F"fge3d | "G"d6 :|
+P:B
+|: "E"e2B2B2 | "A"^c2A2A2 | "A7/C#"a2e2e2 | "D"^f2d2d2 |\
+"E"e2B2B2 | "Am"=c3Aa2 | "E"b2^g3a | "Am"a6 :|
+P:C
+|: "C"e2e2e2 | "C"e3fg2 | "G"B2c2d2 | "C"e6 |\
+"Am"e2g2e2 | "F"d4c2 | "G7"dcdefd | "C"e4g2 |
+"C"g3fe2 | "G"d2B2e2 | "Am"e3dc2 | "E7"B4c2 |\
+"Am"A^GABcd | "Am"e2A2a2 | "E"b2^g3a | "Am"a6 :|

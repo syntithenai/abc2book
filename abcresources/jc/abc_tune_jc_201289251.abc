@@ -1,0 +1,43 @@
+
+X: 1
+T: I Care Not For These Ladies
+C: Thomas Campion (1601)
+N: Dance by K.Skrobela
+M: 6/8
+L: 1/8
+K: C
+G \
+| "C"c2d e2f | e3 "G7"d2B | "C"c2c "F"f2e | "G7"d3- d2 :| z |
+"F(Dm)"A2B c2d | "G7"B3 G2g | "C"g2a "G7"f2g | "C"e3- e2g | "C(Em)"g>fe d2e | "F"f3 z2f |
+"Dm"f>gf "C"e2e | "G"d3 z2e | "G7"d2c d2B | "C"c2c "F"d>ef | "C"g>fe "G7"d2c | "C"c3- c2 |]
+
+
+%%sep 5 1 500
+
+X: 2
+T: I Care Not For These Ladies
+C: Thomas Campion (1601)
+N: Dance by K.Skrobela
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"d2e f2g | f3 "A7"e2c | "D"d2d "G"g2f | "A7"e3- e2 :| z |
+"G(Em)"B2c d2e | "A7"c3 A2a | "D"a2b "A7"g2a | "D"f3- f2a | "D(F#m)"a>gf e2f | "G"g3 z2g |
+"Em"g>ag "D"f2f | "A"e3 z2f | "A7"e2d e2c | "D"d2d "G"e>fg | "D"a>gf "A7"e2d | "D"d3 z2 |]
+
+
+%%sep 5 1 500
+
+X: 3
+M:none
+K:C clef=none
+x4
+x4
+x4
+x4
+x4
+x4
+x4
+x4
+x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4

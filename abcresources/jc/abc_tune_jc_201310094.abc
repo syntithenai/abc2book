@@ -1,0 +1,16 @@
+X: 203
+T: the Minstrel Boy   #2
+R: air
+%S: s:2 b:8(4+4)
+B: O'Neill's 1850 #203
+O: J.O'Neill
+Z: 1997 John Chambers <jc@trillian.mit.edu>
+N: Compacted by using labels and play order [JC]
+P: Play AABA
+Q: "Moderate"
+M: C
+L: 1/8
+K: G
+"^A"|: D !segno!| (G3A) (cBAG) | B2d2 g2(fg) | e2d2 (Bcd>B) | A4 G2z :|
+"^B"[| d | g2f2 e2(fg) | f2e2 d3^d | e3B B2^d2 | (e3/f//e//d//e/f/) Hg3 !segno!g |]
+% g | (G3A) (cBAG) | B2d2 g2(fg) | e2d2 (Bcd>B) | A4 G2z |]

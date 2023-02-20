@@ -1,0 +1,22 @@
+X: 042
+T: Carrick Castle
+%R: slip-jig
+M: 9/8
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.4 #2
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+N: The B in bar 4 might be a c.
+K: G
+|:\
+dBG GAG BAG | dBG GBG efg |\
+dBG GBG BAG | ecA ABA cde :|
+|:\
+def gag fed | g2B BcB dcB |\
+def gag fed | a2A AcB cBA :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across & back again Lead down
+%% the Middle up again & Allemande.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

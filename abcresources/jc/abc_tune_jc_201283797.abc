@@ -1,0 +1,51 @@
+
+X: 1
+T: ha-Noded  [F]
+T: the Wanderer
+M: 2/4
+L: 1/8
+K: F
+C/ | "F"CF EF | G2 A>A | AF EF | "C7"G7/2 ::\
+G/ | "C7"Gc Bc | "Bb"dc "C7"c>c | "Bb"BA GF | "F"CF "C7"G> :|
+
+
+X: 2
+T: ha-Noded  [G]
+T: the Wanderer
+M: 2/4
+L: 1/8
+K: G
+D/ | "G"DG FG | A2 B>B | BG FG | "D7"A7/2 ::\
+A/ | "D7"Ad cd | "C"ed "D7"d>d | "C"cB AG | "G"DG "D7"A> :|
+
+
+X: 3
+T: ha-Noded  [A]
+T: the Wanderer
+M: 2/4
+L: 1/8
+K: A
+E/ | "A"EA GA | B2 c>c | cA GA | "E7"B7/2 ::\
+E/ | "E7"Be de | "D"fe "E7"e>e | "D"dc BA | "A"EA "E7"B> :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Ha-Nokdim
+O: Israel
+R:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+P: Lento
+cB || "Am"c2d2 "G"BcBA | "Em"G2"Am"A4 cB | "Am"c2"G"d2 "C"efed | "Dm"d6 cB |
+| "Am"c2d2 "G"BcBA | "Em"G2"Am"A4 Bc | "Dm"d2A2 "G"ABAG | "Am"A6 Bc ||
+%%text Slowly accelerate from here to the end ...
+|: "Dm"dz3 dz3 | dedc d2Bc | d2A2 "G"ABAG |1 "Am"A2c4 Bc :|2 "Am"A6 G2 ||
+|: "Am"ABc2 "G"BAG2 | "Am"ABc2 "G"Bcd2 | "Am"ABc2 "G"BAG2 | "Am"A4 A2z2 :|
+|: "Dm"def2 "C"edc2 | "Dm"d2d2 "C"c2Bc | "Dm"def2 "C"edc2 | "Dm"d4 d2z2 :|
+|: "Am"ABc2 "G"BAG2 | "Am"ABc2 "G"Bcd2 | "Am"ABc2 "G"BAG2 | "Am"A4 A2z2 :|
+

@@ -1,0 +1,26 @@
+X:1
+T: Beach Spring
+N:
+C:
+S:tune is "Come and Find the Quiet Center"
+A:
+O:
+R:
+M:3/2
+K:D
+I:speed 200
+%W:
+% voice 1 (1 lines, 18 notes)
+K:D
+M:3/2
+L:1/16
+d4 d4 ||e8 |d8 |f4 f4 |e4 d4 |B8 |d4 d4 |B8 |A8 |B4 d4 |d16 |d4 d4 |
+%W:
+% voice 1 (1 lines, 16 notes)
+e8 |d8 |f4 f4 |e4 d4 |B8 |d4 d4 |B8 |A8 |B4 d4 |d16 |d4 f4 |
+%W:
+% voice 1 (1 lines, 16 notes)
+a8 |a8 |b4 a4 |f8 |d8 |d4 f4 |a8 |d8 |f2 e2 d4 |B16 |b4 a4 |
+%W:
+% voice 1 (1 lines, 14 notes)
+f8 |d8 |f4 f4 |e4 d4 |B8 |d4 d4 |B8 |A8 |B4 d4 |d16 |||

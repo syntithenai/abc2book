@@ -1,0 +1,20 @@
+X:89
+T:Broome Park House
+C:Pat Skelton and Colin Hume, 1990
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=102
+%%MIDI ratio 3 1
+K:G
+P:A
+%%text Play A BC BC, A BC BC, A BC BC, A.  Finish with repeat of last two bars of A.
+|: "G"dB "Am"cA | "G/B"BA/G/ "D"AD | "C"E/F/G "Am"cB | "G/D"B2 "D"A2 |\
+"C"EG "D7"F/G/A | "G"GB "G/B"dD | "C"E/F/G "Am"cB | "D7"A2 "G"G2 :|
+P:B
+|: "G"DG/A/ "/"BG | "D"d>c "G"BG | "Am"EA/B/ "/"cA | "C"e>d "D7"ef |\
+"G"gd/c/ "/"B/c/d | "E7"eB "Am"c2 | "D7"dA "G"B2 | "C"cE "D7"D2 |
+P:C
+"G"B,/C/D "/"G>D | "C"E/D/C- "/"C2 | "A7"^C/D/E "/"A>G | "D"F2- "D7"F2 |\
+"G"G/A/B "A7"^cB/c/ | "D"dA "G7"B2 | "C"=cG "F7"A2 | "B7"BF "Em"G2 |
+"A"E/F/G "A7"AB/^c/ | "D"d>e "G"d^c/B/ | "D/A"AF "Em"G/F/E/D/ | "A7"E2 "D"D2 :|

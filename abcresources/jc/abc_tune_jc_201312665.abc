@@ -1,0 +1,18 @@
+X: 24
+T:Month of May, Fieldtown
+M:6/8
+L:1/8
+A:Fieldtown
+P:AAB(CB)2
+K:G
+"A"[|\
+A2A A2B | cdc B2d | g2d g2d | B2c d2A |\
+A2A A2B | cdc Bcd | g2d g2d | cBA G3 |]
+"B"[|\
+G2G GFG | A2B c2d | e2d dcB | GFG A2D |\
+G2G GFG | AAB c2d | e2e d2B | dcB G3 |]
+"C"[|\
+A3  A3 | A3  B3 | (2cd c3 | (2Bc d3 |\
+g3  d3 | g3  d3 | B3   c3 | d6 |\
+A2A A2B | cdc Bcd | g2d g2d | cBA G3 ||
+

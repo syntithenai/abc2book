@@ -1,0 +1,1970 @@
+
+X: 000
+T: The Compleat Tutor for the Fife
+C: C. & S. Thompson, pub. c.1760
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+K:
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 8 500
+%%center The
+%%center Compleat Tutor
+%%center For the
+%%center FIFE
+%%center Containing
+%%center The Best & Easiest Instructions
+%%center to Learn that Instrument
+%%center With a Collection
+%%center Of Celebrated March's & Airs Perform'd
+%%center in the Guards & other Regiments &c.
+%%center ==============================
+%%center Printed for and Sold by
+%%center C. & S. Thompson, Musical Instrument Makers
+%%center At the Violin, Houtboy and German Flute
+%%center the West-end of St. Pauls Church Yard
+%%center LONDON
+%%center Where Books of Instruction for all Instruments are Sold
+%%center Price 1,6
+%%center NB. The Tunes in this Book are Proper for the German Flute.
+%%sep 1 8 500
+
+%%newpage
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 070
+T: The English Duty
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.7
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+K:
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 071
+T: The Reveilly
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.7 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c2 |\
+B2 A2 | G2 g2 | f2 e2 | d/^c/d/e/ d=c |\
+B2 A2 | G2 g2 | f2 e2 | d3 :|\
+|: d |\
+gd BA/G/ | e2 d2 | ce/d/ cB | A3 c |\
+B2 A2 | G2 g2 | B2 cA | G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 072
+T: The General
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.7 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: There is only a final repeat but no begin repeat, which seems rather pointless.
+N: The tune contains 17 bars.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2de d2cB | c2d2 B4 | c2B2A2G2 | A2D2 G4 |\
+TA2GA TB2AB | Tc2Bc d2e2 | d4 edcB | A2cB A2d2 |
+G4 GABc | d2d2 edcB | A3c B2AG | d2d2 AcBA |\
+G4 A2AG | B2BG A2AG | B3A GABc | d2d2 edcB |\
+AcBA G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 073
+T: To Arms
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.7 #3
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2dc | B3A | GBAG | A2D2 |\
+GBAc | Bcdg | B2cA | HG4 :|\
+|:\
+d2dB | e2ed | cBcA | d3c |\
+BBAG | ggff | eed^c | "_Da Capo"d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 074
+T: Troop or Assembling
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.7 #4
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2 |\
+g3 f g2 | e3 f g2 | a3 B A2 | G2 z2 d2 |\
+g3 f g2 | e3 f g2 | a3 d ^c2 | d2 z2 z2 |]\
+d3 f a2 | c4 a2 | Tc3 B c2 | B6 |
+G2 B2 d2 | e3 g f2 | e3 d ^c2 | d4 Bc |\
+d3 B G2 | e3 c A2 | {g}Tf3 e f2 | g4 Bc |\
+d3 B G2 | e3 c A2 | {g}f3 e f2 | g6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 081
+T: Doublings of the Troop
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.8 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+ggff | gg d2 | cd/c/ Bc/B/ | A2 G2 |\
+ggfg | aa Tg2 | fe/d/ ed/^c/ | d4 :|
+|:\
+ggdd | e/d/c/B/ c2 | aagg | Tf>e d2 |\
+ggff | ggdc | BA/G/ AD | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 082
+T: Troop
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.8 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2GABc | d2g2Tf2 | e2d2^c2 | d^cded2 |\
+G2GABc | d2g2f2 | e2d2^c2 | d6 :|
+|:\
+e2efg2 | d2efg2 | c2edcB | A6 |\
+G2GABc | d2efg2 | {c}TB2c2A2 | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 083
+T: Doublings
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.8 #3
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+G2FG A2GA | B2AB c2Bc |\
+d2cB TA3G | AGFE D4 |\
+G2FG A2GA | B2AB c2Bc |
+d2cB AcBA | G4   G4 |]\
+d2d2 c2c2 | B2B2 A2D2 |\
+d2d2 c2c2 | B2B2 A4 |\
+G2FG A2GA |
+B2AB c2Bc |\
+d2cB A2G2 | AGFE D4 |\
+G2FG A2GA | B2AB c2Bc |\
+dgfg B2cA | G4   G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 091
+T: Troop for the Colours
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.9 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2GABc | d2d2Bd | c2c2Ac | B2B2G2 |\
+A2AcBA | G2g2G2 | A2AcBA | G4 z2 :|
+|:\
+D2DEFG | A2A2B2 | c2c2 (3(Bcd) | TA4 B2 |\
+c2ecAc | B2dBG2 | A2AcBA | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 092
+T: Doublings when Colours is receiv'd
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.9 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G4 d4 | {c}TB2AB G4 | g2d2 {c}TB2AG | d4 Td4 :|\
+|:\
+d^cdB e2Te2 | =cBcA d4 | {c}TB2AG A2d2 | G4 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 093
+T: Troop
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.9 #3
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G/A/ |\
+BG-GA/B/ | cA-Ad/c/ |\
+BA/G/ AG/F/ | G3 :|\
+|: B/c/ |\
+dd-dc/d/ | ecTc2 |
+ee-ef/g/ | fe/f/Td>c |\
+BG-GA/B/ | cA-Ad/c/ |\
+BA/G/ AG/F/ | G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 094
+T: Doublings
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.9 #4
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+ddgg | ffgf/e/ | de/d/ cd/c/ | B2A2 |\
+ddgg | fgag | fe/d/ ed/^c/ | d2z2 :|
+|:\
+BBcd | eee2 | AABc | ddd2 |\
+GGBB | ddgd | gf/e/ dc/B/ | A2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 101
+T: Troop
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.10 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The rhythms isn't right between the two strains.
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+(3Bcd (3gfg | (3dcB Ac | (3Bcd (3gfg | d3 :|
+|:\
+de d2 | cB A2 | dedc | BA G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 102
+T: Doublings
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.10 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Length of last note corrected.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B/c/ |\
+dBg ded | cAa cdc | BGB cAc | BGB A2 (G//A//B//c//) |\
+dBe Te3 | cAd Td3 | BGB cAc | BGF G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 103
+T: Grenadiers March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.10 #3
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+G>AB>c | d2de | d2g2 | f2e2 |\
+e2de | d2d2 | A>Bc>d | B3A |\
+G>AB>c | d2d2 | a>gf>e | d3B/c/ |
+d3B/d/ | c2A>c | B>AG>B | A2DB/c/ |\
+d2B>d | c2A>c | B>AG>B | A3(3(d/e/f/) |\
+g3e | d2g2 | B2cA | G3 :|
+|: e |\
+d>ef>g | a>gf>e | d2e^c | d3e |\
+d>ef>g | a>gf>e | d2e^c | d3e |\
+d>ef>g | a2=c2 | d>cB>A | B4 |
+e3g | d3g | B>AG>B | A2D2 |\
+e3g | d3g | B>AG>B | A3g |\
+e3g | d2g2 | B2cA | G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 111
+T: Foot March 8 Divisions
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.11 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+G2 B2 d2 | g3 f g2 | a>gf>ed>c | B2 G2 B2 |\
+d^cde d2 | zG (3(FED) E>D | D6 |]"2" G2 B2 Hd2 |
+G3 c He2 |]"3" e | d3 cBA | GFED E>D | D6 |]"4"\
+e>f g2 f>e | d^cde d2 | G3 A B2 |]"5" e3 fgf |
+d4 c2 | B3 A G2 | G6 |]"6" e2 dc B2 |\
+d2 ^c3 d | dA D2 c2 | B2 e2 dc | BAGFGA |
+G2 F2 c2 | B2 efge | d3 cBA | G2 gdBG |]"7"\
+G3 ABc | B4 Bc | dcded>c | B2 A3 G |
+G6 |]"8" e3 f g2 | d3 cBA | BA G>f g2 |\
+fe/d/ ed/^c/ d2 | G>c B2 (G/A/B/c/) | d>f g2 d>c | B2 TA3 G |\
+G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 112
+T: The Retreat
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.11 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+GA |\
+B2AG d2ef | Tg6 gf | e2d2c2B2 | TA6 GA |\
+B2AG d2ef | Tg6 ag | f2ed e2d^c | d6 :|
+|: d2 |\
+g2d2 B2AG | Te6 de | d2cB c2B2 | TA6 GA |\
+B2AG d2ef | g6 c2 | Bgfg B2cA | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 121
+T: Tattoo
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.12 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+GAB TA3 | ABc TB3 |\
+Bcd Tc3 | cde Td3 |\
+gfe Td3 | cBAG AG/F/ |\
+G6 | cBAG AG/F/ |\
+G6 :|
+|:\
+AB^c Td3 | d^cd Te3 |\
+ede Tf3 | fef Tg3 |\
+gfg Ta3 | gfed ed/^c/ |\
+d6 | cBAG AG/F/ |\
+G6 :| def Tg3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%center End of the English duty.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 122
+T: The Scotch Duty
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.12 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+K:
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 123
+T: The Reveilly
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.12 #3
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+GFGA BABc | dcde d4 |\
+g2fg agfe | d2e^c d4 :|\
+|:\
+defg a2c2 | dcBA B3A |
+GABc d2B2 | edcB A4 |\
+GFGA BABc | d2ef g2c2 |\
+Bgfg B2cA | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 124
+T: The General
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.12 #4
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: GABc d2d2 | d2de d4 | {c}B2AG c2B2 | TA4 G4 :|\
+|: A2A2 B2Bc | d2cB A3e | d4 TB4 | TA4 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 125
+T: To Arms
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.12 #5
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2 Bc d2 | B2 AB G2 | g2 dedc | B2 AB G2 |\
+G2 Bc d2 | B2 AB G2 | g2 fgaf | g6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 131
+T: The Gathering
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.13 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+e<TdG | A<Bc | de<d | cTB>c |\
+AGg | Tf>ed | e>d^c | dd<Td ::\
+d<gd | c<TBA |
+Gee | Te3 |\
+d>ed | c<BA | GAD | D3 |\
+G>AB | c>dc | TBTA>G | AG2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 132
+T: Grenadiers March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.13 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2zG/A/ BBBd | B2z2 G2zG/B/ |\
+ddde d2zB/c/ | d3g fe dB/c/ |\
+d3 e AG/A/ DB/c/ | d3g f2e2 |
+d4 G2zG/A/ | B2d2 B2z2 |\
+G2zG/B/ d2e2 | d2zG/B/ d3g |\
+fed2 BA/B/ cB/c/ | de AG/A/ D4 |
+BA/B/ cB/c/ deA2 | BA/B/ cB/c/ de AG/A/ |\
+D2zB/c/ d2g2 | fe dB/c/ d2g2 |\
+B2cA G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 133
+T: Foot March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.13 #3
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G>AB>c d2BA | G4 G>AB>c |\
+d2e^c d4 :: B2cA G4 |\
+d2e^c d4 | B2cA G4 |
+d2e^c d4 | B2cA G4 |\
+d2e^c d4 | B2AG g3d |\
+B2AG B2AG | A2D2 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 141
+T: Retreat
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.14 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G>A |\
+TB2AG d2ef | g6 gf | e2d2c2B2 | {B}TA6 G>A |\
+B2AG d2ef | Tg6 ag | f2ed e2d^c | d6 :|
+|: d2 |\
+g2d2 B2AG | Te6 de | d2cB c2B2 | {B}TA6 G>A |\
+B2AG d2ef | Tg6 c2 | Bgfg {c}B2cA | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 142
+T: Tattoo
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.14 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+GA/B/ |\
+A2 AB/c/ | B2 Bc/d/ | c2 cd/e/ | d2 gf/e/ |\
+d2 cB | AG AG/F/ | G2 cB | AG AG/F/ | G2 :|
+|: AB/^c/ |\
+d2 d^c/d/ | e2 ed/e/ | f2 fe/f/ | g2 gf/g/ |\
+a2 gf | ed ed/^c/ | d2 =cB | AG AG/F/ | G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%center End of the Scotch duty.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 143
+T: The Drums call
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.14 #3
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+G/A/B/c/ dd | BG e2 | ABcc | Ag f2 |\
+defg | a2 z2 | gdgd | ecdB | G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 144
+T: Rogues March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.144 #4
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+BB (3(Bcd) | ee Te3 |\
+ddde | d2B2 |\
+BB (3(Bcd) | ee Te2 |\
+dd ((3dcB) | A2 G2 ::\
+g2 f2 | e2 d2 |
+g2 f2 | e2 d2 |\
+BB (3(Bcd) | ee Te2 |\
+ddde | d2 B2 |\
+BB (3Bcd | ee e2 |\
+ddgB | A2 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 151
+T: Scotch Reveilly
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.15 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: G2D2G2A2 | B3A G4 | d2ef g2d2 | dedc B4 :|\
+|: d2dd e2ed | cBcA d4 | GABc d2g2 | B3A G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 152
+T: To Arms
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.15 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(3(GAB) |\
+A4 (3(GAB) | G4 eg |\
+f>ed>^c d2 | d4 :: d2 |\
+g2 d2 c2 | B3 A G2 |
+e2 e4 | d2 e>dc>B |\
+A2 A4 | (3(GAB) A4 |\
+(3(GAB) G4 | f2 {f2}g4 |\
+dcBA G2 | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 153
+T: The Queen of Hungary's Tattoo
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.15 #3
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G/A/ |\
+BA/G/ dc/d/ | ee d2 |\
+Bc/d/ cB | ABAG |\
+GG/A/ G2 :: dgfe |\
+d2 de | dc B2 |
+Bc d2 | cBAG |\
+A/G/F/E/ D2 | dgfe |\
+d2 de | dc B2 |\
+Bc d2 | cBAc |\
+BA GG/A/ | G2 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 154
+T: The Hessian Tattoo
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.15 #4
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D2 G2 AG | B2 G2 D2 |\
+G/A/B/c/ d>ded | B4 ((3edc) |\
+B2 ^c2 d2 :: d2 ((3edc) B2 |
+c>d B4 | edcBAG |\
+A2 D2 G2 | ABedcB |\
+g2 ((3dcB) ((3cBA) | G4 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 161
+T: Tattoo (the 1st part to be continued while the Drum rolls)
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.16 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G/A/B/c/ d4 | ed c4 |\
+dc B4 | cBAG A2 |\
+B2 B4 | (3GAG A B3 ::
+G2 GA B2 :: Bc d4 ::\
+d2 e^c d2 :: d2 ed c2 |\
+B4 c2 | B2 AG A2 | AD z G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 162
+T: The French Troop
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.16 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Odd rhythms at end of 1st strain and the entire tune.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+GABc |\
+d2d^c d=cBA | B2G2 d2d^c |\
+d=cBA G4 :: GA | B2G2 cBAG |\
+F2D2B2G2 | cBAB G4 :|
+|:\
+GABc d4 | GABc d4 |\
+GABc d4 | GABc d4 |\
+D2G2A2B2 | de d4 z2 |\
+D2G2A2B2 | de d4 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 163
+T: The Bellisle March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.16 #3
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+d2d>f e2e>g | f2d'>b {b}Ta3g |\
+f2 ((3afd) e2 ((3gec) | d2d>d d2 :: A2 |\
+a>ba>g f2f2 | g>ag>f {f2}Te4 |
+a>ba>g f>gf>g | ab ag/f/ {f}Te2A2 |\
+d2d>f e2e>g | f2d'>b {b}Ta3g |\
+f2 ((3afd) e2((3gec) | d2d>d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 164
+T: The Singling of a Troop by Mr. Weidemann
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.16 #4
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: It's not clear whether Mr. Weidemann is the composer or the one who did the "Singling".
+M: 3/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+d>ed | g>fe | d>Bc | d2 (3(B/c/d/) |\
+e>fg | d>cB | Adc | B3 ::\
+A>BA | d2A | B>GA | A3 |
+B>cd | e>fg | e>ag | f2 e/f/ |\
+g>fe | d>cB | c>de | d2 c/d/ |\
+e>cA | d>BG | A>gf | g3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 171
+T: Lord Loudon's Singling of a Troop
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.17 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G//A//B//c// |\
+d>BG e2d | d>BG A2D | d>BG e2d | d>BG A2 ::\
+A>Bc B>cd | e>fg f>ed | g>fe d>BG | AGF G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 172
+T: Foot March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.17 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The rhythm is quite irregular.
+M: none
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+GA/B/c/ Td4 {c}TB2A G4 |]| GA/B/c/ Td4 ^cd e2 Td4 |[| =c2 TB4 cA G4 |]
+cd e2 ^c2 Td4 |[| =c2 TB4 cA G4 |]| {c}TB3 A G2 {f2}g4 d2 {c}TB3AG2 {c}TB3AG2 AD G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 173
+T: The Bank
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.17 #3
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 16th-note EFG runs in bars 1 and 2 should probably be triplets.
+N: The d4-d4 from bar3 to bar 4 is a half note superposed on the bar line.
+M: C|
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D6 EFG TG8 | D6 EFG A4 d4 |\
+{c4}TB8 GABc Td4- | d4 d4 c2 TB6 |\
+G2A2B2c2 d8 | c2B2c2d2 Te8 |
+d2ef g4 {g}Tf4 e4 | Td8 d4 e2fg |\
+Td8 d4 e2fg | Td8 {c}TB4 A2B2 |\
+c4 B4 c2A2 F4 | G8 z8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 174
+T: Singling's of Johnson't Troop
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.17 #4
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The title uses apostrophes oddly.
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d(e/f/) |\
+g2 (d<B)(d<B) | G4 (AB/^c/) |\
+d2 (A<F)(A<F) | D4 AB |\
+c2 a2 BA | B2 g2 BA/G/ |\
+A2 D2 F2 | G4 :|
+fg |\
+a4 (f/a/)f | B4 ef |\
+g4 (e/g/)e | A4 ef |\
+g2 f2 e2 | a2 gfed |\
+e2 d2 ^c2 | "_Da Capo"d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 175
+T: Doubling's of Johnson's Troop
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.17 #5
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The title uses apostrophes oddly.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B/c/ |\
+dBg ded | cAa cdc | BGB cAc | BGB TA2(G//A//B//c//) |\
+dBe Te3 | cAd Td3 | BGB cAc | AGF G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 181
+T: The Singling's of Pool's Troop
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.18 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The title uses apostrophes oddly.
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2 BGBe | d2 c2 TB2 | g2 fedc | B2 AB G2 |\
+G2 BG d2 | G2 BG g2 | f>e f2 Te2 | d6 :|
+|:\
+e2 egfg | d2 dgfg | c2 edcB | A2 GFED |\
+e2 egfg | d2 dgfg | cA B2 TA2 | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 182
+T: The Doublings
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.18 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(G2AG) A2A2 | B2B2 {d}^c2(Bc) | d4 .d2.d2 | .g2.f2.e2.d2 | {d}^c2B2c2A2 | d4{ed}y :|
+|:\
+(G/A/B/c/) | d2Bc d2d2 | e2d2c2B2 | {B}A6 ((3def) | g4 d4 | e2(GA) B2TA2 | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 183
+T: The Tattoo
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.18 #3
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(GA)(Bc) d2g2 | f2(af) d4 |\
+D2(dc) [1 B2(AG) | A2(GF) G4 :|[2 (3(Bcd) .B.G | (3(ABc) .A.F G4 |]
+[|\
+(G/A/B/c/) d2efg2 | B2(AG) c2(BA) |\
+(3(Bcd) cB A2D2 | GABc dgfg | "_Last part but once."TB2cA G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 184
+T: March in Scipio
+C: G.F.Handel 1725
+N: The composer isn't credited in the book.
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.18 #4
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+DE |\
+F4 A4 | d6 DE | FGAB A2GF | E6 A2 |\
+Bcd2 c2B2 | A4 G4 | FEDE TE3D | HD6 :|
+|: f2 |\
+e2d2 cde2 | A4 G4 | F2GF E2D2 | A6 e2 |\
+BABc B2B2 | B4 B2c2 | d2 c>B c2 B>A | A6 G2 |
+FEFG F2E2 | G4 F4 | B2A2 G2F2 | E6 A2 |\
+Bcd2 c2B2 | A4 G4 | FEDG {F}TE3D | D6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 191
+T: Prince Eugene's March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.19 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+F4 A4 | d6 fg | a2f2 d2f2 | edef e2A2 |\
+F4 A4 | d6 e2 | f^ga2 Ta3^g | a8 :|
+|:\
+e2ee e2e2 | e4 z4 | f2ff f2f2 | f4 z4 |\
+a2ag f2fe | d2d2 A2A2 | abag fgfe | d2d2 A2A2 |
+D2DD D2F2 | D2DD D2fg | a2de  f2fg  |  a2de f2fg |\
+a2gf Te3d | d8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 192
+T: The Marquiss of Granby's March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.19 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2dd d2d2 | d4 A4 | d2A2 F2d2 | A2F2 D2de |\
+f2ff f2f2 | f4 e4 | fgab T^g3a | a8 :|
+|:\
+e2ee e2e2 | e4 a4 | f2d2 f2a2 | f2d2 A2fg |\
+a2aa a2a2 | a4 g4 | fede Te3d | d8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 193
+T: Count Sax's March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.19 #3
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+Bc |\
+d4 e4 | dcBc d2g2 | G4 TA4 | BAGF G2d2 |\
+edcd e2g2 | dcBc d2g2 | c4 TB3c | {B2}TA6 :|
+|: fg |\
+a4 d4 | ^c4 d2fg | a4 d4 | ^cdec A2A2 |\
+d2 (d/e/f) e2 (e/f/g) | f2 (f/g/a) g2 (g/a/b) | a2d2 {f}e2d^c | {^c2}d6 g2 |
+edcd e2g2 | dcBc d2g2 | c4 TB4 | AGFE D2D2 |\
+G2 (G/A/B) A2 (A/B/c) | B2 (B/c/d) c2 (c/d/e) | d2G2 {B}A2GF | {F2}G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 201
+T: March in Judas Macchabeus
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.20 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+GFGA G2A2 | TB6 Ac | TB6 Ac | B6 Ac |\
+Bdce d2cB | A2Bc d2c2 | Bdce d2cB | A2Bc d2c2 |
+B2^cd e2d2 | ^cedf e2f2 | g2fe f2g2 | Te4 d4 ::\
+d^cde d2e2 | Tf6 eg | Tf6 eg | Tf4 (f3e/f/) |
+g2f2 e2d2 | ^c4 f4 | e2d^c d2e2 | T^c4 B4 |\
+edef e2f2 | g6 B2 | cBcd c2d2 | Te6 d=f |
+Te6 (d/e/=f) | Te6 d2 | egfa g2fe | d2ef g2f2 |\
+e2fg a2g2 | f2e2 d2e2 | c2BA B2c2 | TA4 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 202
+T: General Wolfe's March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.20 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+defg f2e2 | d4 A4 | fgab a2g2 | f4 e4 |\
+gfga g2f2 | Te4 d4 | g2ag f2ga | {f2}e6 a2 |
+edef e2a2 | A^GAB A2f2 | d2cB TB3A | A6 :: A2 |\
+e2e>d e2f2 | g4 Te3d/e/ | f2gf e2d2 | a4 e4 |
+A2AA A2d2 | A2AA A2f2 | d2dd d2a2 | f2ff f2d'2 |\
+b2ag a2gf | g4 b4 | a2gf g2fe | f4 a4 |
+g2fe f2ed | e2A2 d4 | g2fe Te3d | d2dd d2af |\
+d2dd d2f2 | e2ee e2eg | f2ed Te3d | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 211
+T: March in the Deserter
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.21 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+d3ef2e2 | d2A2{c}B2A2 | d3ef2e2 | d4e2f2 |\
+{a}g2fe {g}f2ed | {d}c2BA e2f2 | {a}g4f2e2 {g}f4e2d2 | (d4e2)A2 |
+d3ef2e2 | d2A2{c}B2A2 | d3ef2e2 | d4e2f2 |\
+{a}g2fe {g}f2ed | {d}c2BA d2f2 | G2ge d2c2 | d4B2c2 |
+d2d2 {e}d2cB | A4B2c2 | d2d2 {e}d2cB | A4 {c}B2{d}c2 |\
+{e}d2{e}d2 {e}d2cB | A2A2 {c}B2{d}c2 | {e}d2{e}d2 {e}d2cB | A4e3d |
+{d}c2BA G2G2 | {A}G2F2 f3e | {e}d2cB A2A2 | {B}A2^G2 B2d2 |\
+{d}c4B2d2 | {d}c4B2d2 | cAdB c2TB2 | A4 z2A2 |
+d3ef2e2 | d2A2{c}B2A2 | d3ef2e2 | d4e2f2 |\
+{a}g2fe {g}f2ed | {d}c2BA e2f2 | {a}g2fe {g}f2ed | (d4e2)A2 |
+d3ef2e2 | d2A2{c}B2A2 | d3ef2e2 | d4e2f2 |\
+{a}g2fe {g}f2ed | {d}c2BA d2f2 | B2ge d2c2 | d4 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 212
+T: Quick March for the Foot Guards
+T: The Quaker's Wife
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.21 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+ded A2f | g2f e2d | ded A2A | B3 d3 :|\
+|:\
+d2f a2f | g2f e2d | d2f a2g | f3 a2a |\
+b2g e2f/g/ | a2f d2d | def A2A | B3 d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 221
+T: Duke of Gloster's new March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.22 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+z/A/B/c/ |\
+Td>cTd>c Td>cTd>f | e>dc>B A2g2 |\
+f>af>d e>ge>c | d2d>d d2d>e |
+f2-f>e d>cB>A | A2^G2 A2d2 |\
+c>ec>A B>dB>^G | A2A>A A2 :|
+|: z/(A/B/c/) |\
+d2-d>f a>fd>A | B2G>G G2e>f |\
+g2-g>f e2d2 | c2A>A A2 z/A/B/c/ |
+Td>cTd>c Td>cTd>f | e>dc>B A2g2 |\
+f>af>d e>ge>c | d2d>d d2d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 222
+T: Lango Lee
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.22 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+A>Bc def | gba gfe |\
+fdB Ade | fge d2 :|\
+|: g |\
+f2g a3 | b2g afd |
+f>ga bc'd' | d>ed cBA |\
+gbg faf | ede fdB |\
+dcB Aag | fge d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 223
+T: La Promenade
+P: Cotillon
+R: Cotillon
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.22 #3
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2a f2e | f2g f2e | d2a f2d | e2A d3 :|\
+|:\
+e2f e2d | e2f e2d | d2e f2e | f2g a3 |\
+d2a f2e | f2g f2e | d2a f2d | e2A d3 :|
+|:\
+ded d2e | fgf f2e | ded dgf | edc d3 :|\
+|: aba a3 | ABA A3 | gag g3 | ABA A3 |\
+d2A d2e | fgf f2e | d2A Bgf | edc d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 231
+T: Marionets
+P: Cotillon
+R: Cotillon
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.23 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2f afa | bgb a3 | geg fdf | ece d2A |\
+d2f afa | bgb a3 | geg fdf | ece d2 :|
+|:\
+f3 f3 | fef g3 | f2g a2g | f2e d2A |\
+f3 f3 | fef g3 | f2g a2g | fge d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 232
+T: Paddy Whack
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.23 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+GBd gfg | edc BAG | GBd gfg | fdd d2e/f/ |\
+geg fdf | ece dBd | cBc ABc | BGG G3 :|
+|:\
+BcB ccc | dcB A2G | Bcd efg | fdd d2e/f/ |\
+geg fdf | ece dcB | cBc ABc | BGG G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 233
+T: The Irish Widow
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.23 #3
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B/c/ |\
+dBG dBG | {F}E3 e3 | dcB ABG | (G3 F2)B/c/ |\
+dBG dBG | {F}E3 e3 | dcB AGF | (E3 G2) :|
+|: B/c/ |\
+ded gab | ded dBc | ded gab | ded dBc |\
+dBG dBG | {F}E3 e3 | dcB AGF | (E3 G2) :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 241
+T: The Pantheon
+P: Cotillon
+R: Cotillon
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.24 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat.  Not fixed.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2d d2c | B2B B2A | G2G AGA | B2B B2z |\
+d2d d2c | B2B B2A | G2G AGA | G3- HG2 ::
+b2b bag | a2d def | g2g gfe | f2B Bcd |\
+e2e edc | d2G GAB | cdc BcB | A3- A2 |]
+B3 AGA | BcB AGA | BcB AGA | BcB A3 |\
+a2a a2g | f2f f2e | d2d Tede | (d3- d2 G//A//B//c//) "_da Capo"y0|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 242
+T: The Marquiss of Granby's
+T: 1st Troop of Horse Grenadiers March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.24 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Added dot to last note in each strain to fix the rhythm.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+d3A d3A | d>cd>e f>ed2 |\
+f>ef>g a2g>f | e2e>e e3 :|\
+|: A |\
+e>de>f ecA2 | e>de>f g4 |\
+f>ef>g a2g>f | Te3d d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 243
+T: Hob or Nob
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.24 #3
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: This is a variant of The Campbells are Coming.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+GBe dBG | B2B B2A | GBe dBG | ABA A2B |\
+GBe dBG | B2d g2a | bag fed | B2B TB2 :|
+|: d |\
+g2g gab | d2d d2B | g2g gab | e2e e2f |\
+gfe gab | d2B g2a | bag fed | B2B TB2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 244
+T: The 2d Grenadiers Guards March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.24 #4
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+dfa a2f | g2e f2z |\
+a2z g2f | gfe d2z :|\
+|:\
+e3 fdf | e3 fdf |\
+e3 fda | g2f Te3 |\
+dfa a2f | g2e f2z |\
+a2z g2f | gfe d2z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 251
+T: The Duke's March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.25 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Triplet notation added to initial pickup, dot added to last notes, to fix the rhythms.
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(3(D/E/F/) |\
+G2G2 G2G2 | AGFG AGFA | B2B2 B2dc | BABc BABc |\
+d2d2 d2ed | c2c2 c2dc | B2AG edcB | A7 :|
+|: (D//E//F//G//) |\
+A2A2 A2A2 | AGFE D2GA | B2B2 B2B2 | dcBA G2dc |\
+B2AB G2dc | B2AB G2c2 | Bgfg B2TA2 | G7 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 252
+T: Captn. Moneys March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.25 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has final repeat, but no initial repeat; not fixed.
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+GA |\
+B2AG d2BG | e2e2 d2Bc |\
+d2cB AcBA | G2GG G2 :|\
+d2 |\
+g2fe d2cB | e2e2 d2Bc |
+d2cB A2G2 | AGFE D2d2 |\
+g2fe d2cB | e2e2 d2c2 |\
+Bgfg B2A2 | G2GG G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 253
+T: Prince Ferdinand's March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.25 #3
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2G>G G>Bd2 | A2A>B A>Bc2 | B2G>A BGd2 | D2D>D D4 |\
+A2AB cABG | A2d^c d4 | A2AB cABG | A2d^c d4 |
+GBAG FAGF | EGFE D4 | GBAc Bdgc | B2A2 G4 ::\
+d2d>d d3g | e2c>c c4 | e2e>e e3a | f2d>d d4 |
+G2G>F {F2}E4 | A2A>G {G2}F4 | B2A>G Ad^cd | F2E2 D4 |\
+G2G>G GBd2 | A2A>A Ace2 | G2BA Ggfg | B2A2 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 261
+T: Lord Loudon's Grenadiers March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.26 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2ef g4 | B2dB G4 |\
+B2BG c2cA | d2dB TG4 |\
+d2ef g4 | f2fg a4 |\
+f2ed e2d^c | d2e^c d4 |\
+d2ef g4 | f2fg a4 |
+f2ed e2d^c | d2e^c d4 ::\
+g3gf3f | e3ed3d |\
+c3c B4 | GABc d4 |\
+GABc d4 | BG c4 AF |\
+G4 zdef | g4 zdef |\
+g4 BGc2 | A2AF G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 262
+T: The Turk's March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.26 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d/c/ |\
+B2B Bcd | G2G GFG |\
+A2A ABc | BAB G2A |\
+B2B B^cd | cdB A2g |\
+fed AB^c |1 dAF D2 :|2 D3- D2 :|
+|: d |\
+e2d def | e2d e2d |\
+c2B A>BG | FDF D2D |\
+G2G GAF | {F}E3- E2F |\
+A2A ABG | FEF D2d |\
+BAG DEF | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 263
+T: The Train of Artillery's Grenadiers March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.26 #3
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+GB/c/ dg | f2 gd | e2 dc | TB3 c |\
+d2 BG | efgG | GA/B/ cB | A3 A |\
+B^cde | fgad | e2 d/^c/d/e/ | d3 :: B/c/ |
+d2 gd | c2 ac | BdGB | A2 DB/c/ |\
+d2 gd | c2 ac | BdGB | A2 Bc/d/ |\
+e3 g | fdgc | BdDF | G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 271
+T: The Foot March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.27 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The phrasing is quite irregular; staff breaks are arbitrary to give even spacing.
+M: 3/4
+L: 1/8
+K: G
+%%staffsep 40
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"1."[|\
+G2 B2 d2 | f2 g2 zb |\
+agfed>c | TB6 |\
+G2 B2 d2 | {d2}HTc4 ze |\
+d4 (3(gfe) | d6 "2d"|]|\
+G2 B2 d2 | Ac Te4 "3d"|]
+[|\
+{e2}d4 (3(cdc) | TB4 e2 |\
+d^cde d2 | gfe d3 "4th"|]|\
+Te4 fg | g2 Tf3 e |\
+d^cde d2 | G2 BA B2 "5th"|[|\
+HTe4 fg |
+Hd6 |\
+cAeGFE | D3 cBA |\
+(3(BAG) HG6 "6th"|]|\
+HTe4 (3(dcB) | {d2}H^c4 (d/A/F/D/) |\
+(3(ABc) HTB4 | e2 dcBA |\
+GFGA {G}F2 |
+(3(ABc) HB4 |\
+ef g3 e | d4 (3(cBA) |\
+HG4 g/d/B/G/ "7."|[|\
+HTG4 (3(GAB) | HTB4 (3(Bcd) |\
+{d2}HT^c4 (3(cde) | d4 (3(cBA) |\
+HG6 |]
+"8th"[|\
+HTe4 fg | Hd6 |\
+(3(cBA) (3(BAG) G2 | fg {g}Hf3 e |\
+d3 ed^c | Hd2 G2 B2 |\
+GABc d2 | f g3 Hd2 |\
+cBA G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 272
+T: The Hessian Dragoons March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.27 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(Bc) |\
+d2Bc d2d2 | (d^c)(de) d2ge |\
+(d2c2)(c2B2) | TA>GAB A2(3(gfe) |\
+d2c>d c2B2 | TA>GAB A2GA |\
+B2Bc d2cB | {B2}A6 :|
+|: B2 |\
+A2AB A2B2 | cBcd c2(3(Bcd) |\
+Te2d2 edcB | AGFE D2Bc |\
+d2Bc d2g2 | d2cB c2AB |\
+c2AB c2a2 | c2TB>A B2d2 |\
+e>dg>c B2TA2 |HG6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 281
+T: Turkish March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.28 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+dcde d2c2 | BABc B2A2 | G2AB c2(3(Bcd) | TA6 G2 |\
+dcde d2c2 | BABc B2g2 | f2ed e2d^c | d6 :|
+|: d2 |\
+g2d2 B2AG | e2(3(efg) d4 | c2ed c2(3(Bcd) | A4 D4 |\
+GFGA BABc | d2ef g2c2 | BdcB AcBA | G4 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 281
+T: Count Brown's March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.28 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Both strains have 9 bars.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(AB/c/) |\
+d2dd dgec | d2cB A2dc | BAGF GBAG | F2E2 D2 (AB/c/) |\
+d2dd dged | c2d2 e3d | cecA B2A^G | A2AA AA BA/^G/ | A6 :|
+|: (dc/d/) |\
+e2ee e2f2 | edcd Te2 de/f/ | ggfe ffed | edcB A2AA |\
+BGBd cAce | dBdf e3g | fafd e2dc | d2DD FFAA | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 283
+T: Pioneers March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.28 #3
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The rhythms isn't quite right between the strains.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B/c/ |\
+dcB cBA | G2G G2B/c/ |\
+dcB cBA | G3 zz :|\
+|:\
+G2d Td3 | G2e Te3 |\
+G2g fed | ed^c d3 |
+G2d Td3 | G2e Te3 |\
+G2g fed | ed^c d2B/=c/ |\
+dcB cBA | G2G G2B/c/ |\
+dcB cBA | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 291
+T: The Shambuy
+T: Sean Bui(dhe)
+T: The Marquis of Granby
+T: Over the Water to Charlie
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.29 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+GBd  dBd | (e/f/g)e dBG | GBd dBd | Te3 g3 |\
+GBd  dBd | (e/f/g)e dBG | (g/a/b)g (f/g/a)f | Te3 g3 :|
+|:\
+(g/a/b)g (f/g/a)f | (e/f/g)e dBG | (g/a/b)g (f/g/a)f | Te3 g3 |\
+(g/a/b)g (f/g/a)f | (e/f/g)e dBG | GBd dBd | Te3 g3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 292
+T: March in Rinaldo
+C: G.F.Handel
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.29 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+FG |\
+A4 A4 | A6 de | fefg f2f2 | f4 a4 |\
+fefg f2f2 | f4 a4 | f2ef gfed | e6 :|
+|: cd |\
+e4 e4 | e6 a2 | ABcd e2f2 | g4 a4 |\
+f2ef gfed | e2A2 a3g | fagf Te3d | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 293
+T: The Warwickshire March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.29 #3
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2G>A B>cB>A | G2G>G G3z | B2B>c d>ed>c | B2B>B B3z |\
+g2g>a b>ba>g | d2d>d d2e2 | f>ef>g f2Te2 | d2d>d d3z :|
+|:\
+A2A>A A2B2 | c2c>c c3B/A/ | G2G>G G2A2 | B2B>B B3z |\
+g2g>a bc'ba | g2g>g g2d>c | B>AB>c B2TA2 | G2G>G G3z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 301
+T: The New Coldstream March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.30 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A>F |\
+D2d>A F2A>F | G2 g4 e>g |\
+f>ad>f e>gc>e | d2d>d d2 :|\
+|: A>c |\
+e2c>e g2e>g | f>ad>f e2A>c |
+e2c>e g2e>g | f>ad>f e2A>F |\
+D2d>A F2A>F | G2 g4 e>g |\
+f>ad>f e>gc>e | d2d>d d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 302
+T: Lord Carmarthen's March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.30 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2dd d2dd | d4 A4 | d2A2  F2d2 | A2F2 D2de |\
+f2ff f2f2 | f4 e4 | fgab T^g3a | a8 :|
+|:\
+e2ee e2ee | e4 a4 | f2d2 f2a2 | f2d2 A2fg |\
+a2aa a2aa | a4 g4 | fede Te3d | d8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 303
+T: The Coronation March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.30 #3
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d4 B3c | d4 G4 | (ABcd) c2B2 | A4 |\
+(Bcde) d2d2 | g4 d4 | c2BA TA3G | G8 :|\
+|:\
+BABc B2B2 | A2BA G2G2 | c2B2 A2G2 | F8 |
+e^def e2f2 | g4 e4 | f2ed T^c3d | d8 |\
+d4 B3c | d4 G4 | (ABcd) c2B2 | A8 |\
+Bcde d2d2 | g4 d4 | c2BA TA3G | G8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 311
+T: The Wiltshire March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.31 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+d2f>d e2g>e | f>ef>g a2b2 | a>ag>f g>gf>e | fed2 z2fg |\
+a2e>e e2f2 | f2 e4 d2 | (3(cde) (3(fed) c2TB2 | A6 :|
+|: e2 |\
+a2e>e e2f2 | f2 e4 f2 | g2f>e fdaf | Tf2e2 z2A2 |\
+d2f>d e2g>e | f>ef>g a2g2 | (3(fga) (3(bag) f2Te2 | d2d>d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 312
+T: The Bedfordshire March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.31 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2d>d d2c2 | B2B>B B2A2 |\
+(G3A/B/) (A3B/c/) | B2B>B B2A>B |\
+c2B2 d2cB | (c3d/e/) d2c2 |
+(3(BAB) (3(cBA) G2TA2 | G>GG>G G4 :|\
+|:\
+d2A>A A2B2 | A>GA>B A2B2 |\
+c2B2 A2G2 | A2A>A A2B>c |\
+d2Bc d2ec |
+d2Bc d2ec |\
+d>Bc>A (3(BAG) (3(dcB) | TB2A>A A2D2 |\
+G2 (3(GAB) A2 (3(ABc) | B2 (3(Bcd) c2 (3(cde) |\
+(3(dgf) (3(dcB) B2TA2 | G2G>G G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 313
+T: Sir Charles Sedley's Minuet
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.31 #3
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2fdec | d2e2f2 | A2BcdB | A2G2F2 |\
+D3FEG | F2DFEG | F2GFED | A6 :|
+|:\
+AFDFA=c | {c}B2ABG2 | B^GEGBd | {d}c2BcA2 |\
+ecAceg | fdecd2 | A>gf2Te2 | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 321
+T: Captn Reeds
+T: The 3d Regt of Guards March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.32 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has more compact staff layout.
+V: 1
+A |\
+d2d>d d2f>e | d2A2 d2e2 |\
+f2f>f f2a>g | f2e2 f2g2 |\
+a2a>a a2b>a |
+g2g>g g2a>g |\
+f2ed a2gf | e2e>e e2z :: A |\
+A>BA>B c>dc>d | e>fe>f g2f>e |
+d>ed>e f>gf>g | a>ba>b =c'2ba |\
+bgeb afda | g>fe>d c2B>A |\
+B>cd>g f2Te2 | d2d>d d2z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 has staff layout matching the book's.
+V: 2
+z |\
+z8 | z4 z2 z A | d2d>d d2f>e | d2A2 d2e2 |
+f2f>f f2g>f | e2e>e e2f>e | d4 e2d2 | c2c>c c2z :: z |
+z4 A>BA>B | c>dc>d e2d>c | d2z2 d>ed>e | f>gf>g a2gf |
+g2b2 f2a2 | b2B2 A2d2 | d>ed>e d2Tc2 | d2d>d d2z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 322
+T: The Dorsetshire March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.32 #2 & p.33 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has more compact staff layout.
+V: 1
+D2 |\
+F2D>F A2F>A | d2A>d f2d>f |\
+a2b>a g2 (3(fef) | e2e>e e2D2 |\
+F2D>F A2F>A |
+B>cd>e {d}c2B>A |\
+B>cd>g f2Te2 | d2d>d d2 :: A2 |\
+d2f>d B2d>B | AFdB AFED |
+FAdc BAGF | E2E>E E2D2 |\
+F2D>F A2F>A | B2g>e {d}c2B>A |\
+B>ba>g f2Te2 | d2d>d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 has staff layout matching the book's.
+V: 2
+z2 |\
+z2D2 F2D>F | A2F>A d2A>d | f2g>f e2 (3(dcd) | c2c>c c2z2 |
+z2D2 F2D>F | G2F>G E2G>F | G>AB>e d2Tc2 | d2d>d d2 :: F2 |
+F2d>B G2B>G | FDG2 Fdcd | ABA2 GFEd | c2c>c c2z2 |
+z2D2 F2D>F | G2B>G E2G>F | G>gf>e d2Tc2 | d2d>d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 332
+T: The Duke of Gloster's March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.33 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has more compact staff layout.
+V: 1
+f>g |\
+a>fd>d d3f | e>dc>B A>GF>E |\
+F>A d>=c B>ge>d | c2A>A A2f>g |\
+a>fd>d d3f |
+e>dc>B A>GF>E |\
+F>A d>=c B>ge>^c | d2d>d d2 :: f>g |\
+a>ga>b =c'>ab>c' | b>ag>f g2b>a |
+b>ag>f e>dc>B | c>dc>B A>GF>E |\
+F>Ad>A G>Be>B | c>ea>c d>fa>f |\
+b>gb>g f>ed>c | d2d>d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 has staff layout matching the book's.
+V: 2
+d>e |\
+f>af>f f3a | g2e2 c2A2 | D>FB>E G>ec>B | A2F>F F2d>e |
+f>af>f f3a | g2e2 c2A2 | D>FB>E G>ec>A | F2F>F F2 :: z2 |
+z2f>g a>fg>a | g>fe>d e2g2 | g2e2 c>BA>G | A>BA>G F2D2 |
+A>cB>c B>GE>G | A>cf>e f2d2 | g>eg>e d>cB>A | F2F>F F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 341
+T: Coldstream
+T: 2d Regt of Guards March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.34 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Adjusted length of rest in bar 17 to make the triplet work correctly.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has more compact staff layout.
+V: 1
+z z/(3(A//B//c//) |\
+d3z/b/ a>gf>e | d2A2 z2d>A | B2g2 z2g>B | A2f2 z2d>f |\
+e>dc>B A>Ge>G | TG2{FG}F2 z2d>f | (Te3d/e/) f>ed>c |
+Tc2B2 z2B>d | c2e>c B2d>B | c2e>c B2d>B | c>Bc>d {c2}TB4 |\
+A2A>A A>AA>A | A6 :: zA//B//c//d// |
+e2c>d e>Aa>e | Tf2{ef}e2 z2e>f | g>gf>e f>fe>d |\
+a2e>c A2 z(3(A/B/c/) | d3b a>gf>e | d2A2 z2d>A |
+B>Gd>B g>fe>d | c>de2 z2g>e | f2a>f e2g>e |\
+f2a>f e2g>e | f>ef>g f2Te2 | d2d>d d>dd>d | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 has staff layout matching the book's.
+V: 2
+z2 |\
+f2 d4 c2 | d4 A2F2 | D2BA d3G |
+d>AA2 c2d2 | e4 d2A2- | A3A F2d2 | a2c2 d2A2- | TA2^G2 E2^G2 |
+A2cA ^GEBG | A2cA ^GEBG | A2AB T^G4 | A2c>c c>cc>c | c6 :: z2 |
+A2e2 c2A2 | Td2c2 z2c>d | e2c2 d2B2 | c2A2 z2A2 |
+Ad d4 c2 | d4 z2F2 | G6 B2 | A2c2 e2c2 | d2d2 c2c2 |
+d2d2 c2c2 | d2d>e d2Tc2 | d2F>F F>FF>F | F6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,46 @@
+X: 1
+T: Ladies of London
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.119 #176 (238)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.141
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+Bcd edc | dcB f2d | efg fgd | c3- c2A |\
+Bcd edc | dcB b2a | gaf =efg | g3 f2 |]
+f |\
+fga b2a | gfe d2b | abg ^fga | a3 g3 |\
+fga bfg | fgd c2d | BBf fdg | c3 B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man cross over and go into the 2d Wo. Place, the 2d Wo. cast off at
+%% the same Time into the 1st Man's Place; then 1st Wo. cross over and go into
+%% the 2d Man's Place, and 2d Man cross over and go up into the 1st Wo. Place.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1st Man and 2d Wo. cross over, and 2d Man and 1st Wo. do the like, then
+%% all four Hands half round, and turn single, then clap Hands, then Sides and
+%% turn single; then clap Hands with their own Partners, and turn them single.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% The 1. man cross over and go into the 2. wo. place, the 2. wo. cast off at the same time into the 1.
+%% man's place, then 1. wo. cross over and go into the 2. man's place, and 2. man cross over and go up
+%% into the 1. wo. place.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. man and 2. wo. cross over and the 2. man and 1. wo. do the like, then all four hands half round
+%% and turn S. then clap hands, then sides and turn S. then clap hands with their own Partners, and
+%% turn them single.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

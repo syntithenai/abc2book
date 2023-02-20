@@ -1,0 +1,27 @@
+
+X: 1
+T: Varnenski Predsvatben Tans
+O: Bulgaria
+S: Japp Leegwater "FOLK DANCES FROM BULGARIA"
+F: https://www.youtube.com/watch?v=1PkTpgz-qZ4
+F: https://www.youtube.com/watch?v=6hfjbmiFZao (uses most of the phrases in this version, plus a lot more)
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+Q: 1/4 1/4 1/4 3/8
+M: 9/8
+L: 1/8
+K: Am
+"Intro"|: "Am"A2 EE A2 AAB | ~c2 BA AB cdd | ~A2 EE A2 AAB | "E"~c2 BA "Am"AE A2z :|
+"A"|:!segno!\
+"Am"A2 "Dm"cd- dc- cBz | cd .cz ~B2- BAz | "Am"~A2 EE A2 AAB | ~c2 BA "Dm"AB cdd |
+"C"e2 cd "Dm"dc cBz | "Dm"de .c2 ~B2 BAz | "Am"A2 EE A2 AAB | "Dm"c2 BA "Am"AE A2z :|
+"B"|: "Am"A2 EE A2 AAB | c2 BA AB cdd | A2 EE A2 AAB | "E"c2 BA "Am"AE A2z :|
+"C"|: "D"cd- dB c2- cdd | ec dB c2 cBz | "Dm"dc dB c2 cdd | ec dB c2 BAz :|
+K: ^f
+"D"|: "Am"AA AE _BA GAA | AE _BG A2 G^FE | AA AE _BA GAA | AE _BG AE A2"^Fine"z :|
+"E"|: "Bm"B2 BF cB ABB | BF cA B2 A^GF | B2 BF cB ABB | BF cA ~B2 B2z :|
+K: A
+"F"|: "A"A2 cd- dc Bc-c | "E"AB BA "A"AB cde | "D"cd ed "A"dc Bcc | "E"AB BA "A"A2 =GFE |
+      "A"A2 z2 dc Bcc | "E"AB BA "A"AB cde | "D"cd ed- dc Bc-c | "E"AB BA "A"AE A2z :|
+"G"|: "A"cd ed dc BcE | "E"AB BA "A"AB cde | "D"~[f2d2] ed dc BcE | "E"AB BA "A"AE A2z :|
+"H"[| "A"A2 cd dc Bc-c | "E"AB BA "A"AB cde | "D"cd ed "A"dc Bcc | "E"AB BA "A"A2 =GFE |
+      "A"A2 z2 dc Bcc | "E"AB BA "A"AB cde | "D"cd ed dc Bcc | "E"AB BA "A"AE A2!segno!z |]

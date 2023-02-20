@@ -1,0 +1,137 @@
+
+X: 1
+T: Cold and Raw   [Gm]
+T: Stingo, or Oil of Barley
+O: Playford 1651
+%Q: 110
+R: Jig
+H: Many versions of this tune exist, with many titles.
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gm
+|:\
+"Gm"G2G d2B | "F"cA2 F2F |\
+"Gm"G2G d2B | "(Eb)"G3 B3 ::\
+"Bb"B2B B2A/2B/2 | "F"c2c c2c |
+"Bb"d2d "Eb(Gm)"g2g | "Bb"d3 "(F)"f3 |\
+"Bb"B2B B2A/2B/2 | "F"c2c c>de "I"|\
+"Bb"d>cB "F"cA2 | "Gm"G3 B3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+T: Cold and Raw   (Em)
+T: Oil of Barley
+T: Stingo
+O: Playford 1651
+%Q: 110
+R: Jig
+H: Many versions of this tune exist, with many titles.
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+|:\
+"Em"E2E B2G | "D"AF2 D2D |\
+"Em"E2E B2G | "(C)"E3 G3 ::\
+"G"G2G G2F/2G/2 | "D"A2A A2A |
+"G"B2B "C(Em)"e2e | "G"B3 "(D)"d3 |\
+"G"G2G G2F/2G/2 | "D"A2A A>Bc "I"|\
+"G"BA>G "D"AF2 | "Em"E3 G3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3
+T: Cold and Raw   [Em]
+T: Oil of Barley
+T: Stingo
+O: 1651
+S: Barnes v.1
+%Q: 110
+R: Jig
+H: Many versions of this tune exist, with many titles.
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+|:\
+"Em"E2E B2A | "G"Bcd "(D)"D2D |\
+"Em"E2E "(G7)"B2G | "C"E3 [1 G3 :|2 "D7"F3 |:\
+"G"G2G G2F/G/ | "D"A2A A2A |
+"G"B2B "C"e2e | "G"B3 "D"d3 |\
+"Em"G2G G2F/G/ | "D"A2A A>Bc "I"|\
+"G"BA>G "D(Bm)"FGD | "Em"E3 [1 "D7"F3 :|[2 "(B7)"G3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4
+T: Cold and Raw   [Am]
+O: Walsh 1709
+N: "a Scots Air" handwritten after the title.
+P: Longways for as many as will
+R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.105 #153 (209)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.146
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The two versions have only trivial differences in spelling and punctuation.
+M: 6/8
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"Am"A2A c2d | "C"(ef)g "E7"^G2G |\
+"Am"A2A e2c | "(F)"A3 c3 ::\
+"C"c2c c2B/c/ | "G"d2d d2d |
+"Am"e2e "F"a2g | "C"e3 "G"g3 |\
+"Am"c2c c2B/c/ | "Dm"d2d d>ef "I"|\
+"Am"e>dc "G"(Bc)"E7"^G | "Am"A3 e3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. go Back to Back with their Partners, and the 2d Cu. do the
+%% same at the same Time.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1st Man take Hands with his Partner and turn her round, the 2d
+%% Cu. doing the same at the same time.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The two We. stand still, while the 1st Man goes round about the 2d
+%% Wo. into the 2d Man's Place, and the 2d Man goes round about the
+%% 1st Wo. into the 1st Man's Place then all clap Hands, then all four
+%% take Hands and go quite round, the We. doing the like.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 5
+T: Cold and Raw   (Dm)
+O: Walsh 1709
+P: Longways for as many as will
+R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.105 #153 (209)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.146
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The two versions have only trivial differences in spelling and punctuation.
+M: 6/8
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"Dm"D2D F2G | "F"(AB)c "A7"^C2C |\
+"Dm"D2D A2F | "(Bb)"D3 F3 ::\
+"F"F2F F2E/F/ | "C"G2G G2G |
+"Dm"A2A "Bb"d2c | "F"A3 "C"c3 |\
+"Dm"F2F F2E/F/ | "Gm"G2G G>AB "I"|\
+"Dm"A>GF "C"(EF)"A7"^C | "Dm"D3 A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

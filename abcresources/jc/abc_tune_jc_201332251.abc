@@ -1,0 +1,39 @@
+X: 1
+T: Rub her down with Straw
+P: Longways for as many as will
+%R: reel, march
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.84 #120 (168)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.307 "D d 4"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: DMDfD has e natural (with a sharp sign) as the pickup to the 2nd strain.
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+BA |\
+G2A2 B2c2 | B2 G4 A2 | B2c2 dcde | f2 d4 |]\
+e2 |\
+f2g2 a2ga | ^f2 d4 A2 | B2(AG) A2(GF) | G6 |]
+de |\
+f2c2 e2d2 | f2 B4 e2 | f2d2 gfga | f2 b4 a2 |\
+f2d2 edcB | A2 f4 A2 | B2AG A2G^F | D2 G6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st and 2d Cu. sett striking their Feet to the Ground,
+%% and cross over; the same again; Then the 1st Man change
+%% with the 2d Wo. and the 1st Wo. do the same with the 2d
+%% Man and turn all four half round; then right and left
+%% quite round and turn.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. and 2. cu. set striking their feet to the ground, and cross over, the same again, Then the 1. man
+%% change with the 1. wo. and the 1. wo. do the same with the 2. man and turn all four half round, and
+%% right-hands and left quite round and turn.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

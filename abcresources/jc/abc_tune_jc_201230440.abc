@@ -1,0 +1,20 @@
+X: 139040
+T: KITTY'S RAMBLE
+Q: "Irish Jig."
+R: Jig.
+%R: jig
+B: James Kerr "Merry Melodies" v.1 p.39 s.0 #40
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The book has one sharp (Dmix) keysig, yet most the c notes have natural signs.
+N: Shortened last note to match the initial pickup.
+M: 6/8
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: Dmix
+vAG |\
+FED {d}=cBc | def {a}gfg | afd =cAF | GFG AFD |\
+FED {d}=cBc | def gfg | afd =cAG | Add d :|
+fg |\
+afd {e}dcd | dfa agf | ge=c {d}cBc | e=ce gfe |\
+fdf geg | agf efg | fed cAG | Add d |]

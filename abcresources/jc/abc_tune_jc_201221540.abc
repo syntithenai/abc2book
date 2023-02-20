@@ -1,0 +1,27 @@
+X: 4
+T: Miss Louisa Johnstones Fancy
+R: reel
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.2 #4
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: 2/4
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The "Do." in the directions probably stands for "Ditto".
+K: G
+|:\
+{Bc}d4 c2B2 | gabg d2B2 | Tc3de2e2 | (e4 d4) |\
+({Bc}d4 c2)B2 | gabg d2c2 | (BABc) B2A2 | (A4 G4) :|
+|:\
+.B2(Bc) B2d2 | .c2(cd) c2d2 | .B2(B2d2B2) | (B2A2).A2.c2 |\
+.B2(Bc) B2d2 | .c2(cd) c2A2 | (BA).B.c B2A2 | A4 G4 :|
+|:\
+Tg2bg Tf2af | Te2ge d2B2 | c3de2e2 | (e4d4) |\
+Tg2bg Tf2af | e2ge d2c2 | BABc B2A2 | (A4 G4) :|
+%%begintext align
+%% Set & hands 3 round on the Ladies side .|
+%% Do. on the Gents :|
+%% Lead down the middle & up again :|.
+%% Allemand :|:
+%% hands 4 at the bottom .:|:
+%% Right & left at top .
+%%endtext

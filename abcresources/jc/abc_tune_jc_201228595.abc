@@ -1,0 +1,26 @@
+X: 11401
+T: the WISE MAN'S RESOLUTION, "I'LL NEVER BE MARRIED AGAIN."
+Q: "Lively, but not too fast."
+%R: air, march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.140 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Rests extended in bar 9 to fix the rhythm.
+M: C|
+L: 1/8
+K: A
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E2 |\
+AA2B c2B>A | d2c>B e2za |\
+e2dc {e}d2c<B | A2zB e2^dc |\
+B2AG ABc^d | e2^dc B2AG |\
+{B}A2G>F G2zB | eB2A G2AF |\
+E2z2 z3B | e2dc fc2d |
+(cB)AG F2zG | (Ace)>c (fe)dc |\
+(cB)z2 z2B>B | c2B>A eE ze |\
+(fd)BA AGFE | A2B>c d2c>B |\
+e2z2 "^ad lib."AEcA | ecz2 z2a2 |"Tempo."\
+e2dc {e}d2cB | A2z2 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

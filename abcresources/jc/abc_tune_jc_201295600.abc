@@ -1,0 +1,43 @@
+
+X: 1
+T: Karsi Bar
+O: Armenia
+Z: 1997 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: Heavy beat, with off-beat chords throughout.  Yes, it's in G Dorian with C chords.
+M: 2/4
+L: 1/8
+K: GDor
+P: A
+|: "C"c2 "/"d2 | "-"d2 "/"cB | "-"c2 "/"d2 | "-"d2- "/"d2 | "-"B2 "/"c2 | "-"dc "/"B2 | "-"AB "/"G2 | "/"G4 :|
+P: B
+|: "C7"BA G2 | BA G2 | AB cB | c2- c2 | AB cB | c2 AB | G2 "C"G2 | "C"G4 :|
+P: A'
+|: "C"B2 c2 | c2 BA | B2 c2 | c2- c2 | B2 c2 | dc B2 | AB G2 | G4 :|
+P: B
+|: "C7"BA G2 | BA G2 | AB cB | c2- c2 | AB cB | c2 AB | G2 "C"G2 | "C"G4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Katia
+O:Russia
+M:2/4
+L:1/8
+Q:1/4=120
+K:Ador
+|: "Am"E2   E2 |     c2 c2  | "Em"B2 "Am"AG | "B#m"F2 "Am"E2 :|\
+|: "Am"c2 "Em"B2 | "Am"AA E2 |     Ac "Em"BA |   "C"GF "Am"E2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Katia
+O:Russia
+M:2/4
+L:1/8
+Q:1/4=120
+K:Edor
+|: "Em"B2   B2 |     g2 g2  | "Bm"f2 "Em"ed | "F#m"c2 "Em"B2 :|\
+|: "Em"g2 "Bm"f2 | "Em"ee B2 |     eg "Bm"fe |   "G"dc "Em"B2 :|

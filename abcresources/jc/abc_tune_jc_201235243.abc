@@ -1,0 +1,32 @@
+X: 21051
+T: MANILLA SETT (tune 4)
+C:
+%R: reel, march
+B: Elias Howe "The Musician's Companion" 1843 p.105 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+de |\
+f2fe d2dc | BABc d2Bd | ecdB cABG | AcBG F2de |\
+f2fe d2dc | edef g4 | fdec dBcA | B2d2B2 H|]
+F2d2 c2B2 | F2f2 e2c2 | BABc dBed | cBAG F4 |\
+F2d2 c2B2 | F2f2 e2c2 | BABc dBcA | B2d2"^D.C."B2 |]
+g6 ^f2 | g3a b4 | B2A2 G2g2 | ^f2g2 d4 |\
+g6 ^f2 | g3a b4 | B2A2 G2g2 | G2AB cde"^D.C."g |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First four lead to the right,
+%% chassa out,
+%% form lines,
+%% all right and left,
+%% all chain,
+%% all forward and back,
+%% swing partners to place,
+%% sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,25 @@
+X: 1
+T:Casino
+M:3/4
+L:1/8
+Q:80
+C:D. G. Saul
+S:March
+K:HP
+|: {Gdc}d3/2e/2|
+{g}f2{AGAG}Af{gef}e3/2d/2|
+{gBd}B3/2A/2{gGd}G2{g}d3/2B/2|  !
+{g}A2{GAG}Ad{g}c3/2d/2|
+{gef}e4{Gdc}d3/2e/2{g}f2{AGAG}Af{gef}e3/2d/2|
+{gBd}B{e}G{gde}d2{g}c3/2B/2|  !
+{g}A2{GAG}Ag{f}g{a}c|
+{Gdc}d4:| |:
+c3/2d/2|  !
+{gef}e2{AGAG}Ae{g}d3/2e/2|
+{gfg}f3/2e/2{Gdc}d2{g}e3/2f/2|
+{gf}g{a}B{gf}g2{a}f3/2e/2|  !
+{g}df{gef}e2{ag}a3/2g/2{a}f2{AGAG}Af{gef}e3/2d/2|
+{gBd}B{e}G{gde}d2{g}c3/2B/2|
+{g}A2{GAG}Ag{f}g{a}c|  !
+{Gdc}d4:|
+

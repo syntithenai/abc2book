@@ -1,0 +1,30 @@
+X: 1
+T: Hanover Square
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (74)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+N: The beam in bar 7 is messy; the rhythm in bars 5 and 9 has been used to make sense of it.
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+e>dc g2G | c>dc B>AG |\
+f>ed e>dc | B>cd G2 :|
+|: g |\
+ge/f/g c2g | a2f F2a |\
+ge/f/g E2g | f2d D2f |\
+ec/d/e dGB | c3- c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% First Cu. clap Hand twice and cast off into the 2d Cu.
+%% Place .| Then clap Hands and cast off into the 3d Cu.
+%% Place :| Lead thro the 3d Cu. and turn single then lead
+%% thro the 2d Cu turn single and set .| First Cu. take Hands
+%% and slip one Step down and one back again then cast
+%% off and turn :|
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,33 @@
+X: 091
+T: Peggy I must love thee
+%R: air
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.9 #1
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Q: "slow"
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1
+D |\
+E2G2 {A}TG3B | A>BTA>G {F}TE3D |\
+{D}E2G2 {A}G>AB>c | (A4{GA} G3) :|
+|: G |\
+B2d2 Td3e | d>eTd{c}B TA3G |\
+{A}B2d2 Td3e |=f2g>=f Te3d |
+e2g2 {e}d2Te>d | d2Jg2 {B}TA3G |\
+{F}E2G2 G>AB>c | ({B}A4{GA} G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+% Bar 5 has a staff break in the middle that abcm2ps can't handle; rest of measure moved to first staff.
+V: 2 clef=bass middle=d
+g |\
+cd"6"ec "6"BABG | d2z"6"B c2"6 5;4 3"g2 | cd"6"ec "6"B"6"FGc | "4"d2"3"D2 G3 :|\
+|: z |\
+ga"6"b"6"f ga"6"bc' |
+"6"b3g d'2z2 | ga"6"b"6"f ga"6"bc' | "b"d'2"6"b2 c'2"6 5;4 3"g2 |\
+cd"6"ec "6"B2"7"F2 | GA"6"BG d2z"6"B |
+cd"6"ec "6"B"6"fgc | "4"d2"3"D2 G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

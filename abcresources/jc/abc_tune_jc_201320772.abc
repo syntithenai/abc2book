@@ -1,0 +1,21 @@
+X: 761
+T: Out With the Boys - 2nd Setting.
+R: jig
+%S: s:3 b:24(8+8+8)
+B: O'Neill's 1850 "Music of Ireland" #761
+O: F.O'Neill
+Z: Stephen Foy (shf@access.digex.net)
+N: The final repeat sign has no initial repeat; not fixed because it's ambiguous.
+N: abc 1.6
+M: 6/8
+K: G
+"^A"((3D/E/F/) \
+| G3 g2 e | dBG AGE | DEG BAG | BAA (A2 B/A/) \
+| G3 g2 e | dBG AGE | DEG BAG | AGF G2 :|
+"^B"|| d \
+| e^de gfg | e^de gfg | e^de gfg | fdB B2 d \
+| e^de gfg | agf gfe | BcB AGA | BGE E2 ||
+"^C"|| ((3D/E/F/) \
+| G2 g gdB | G2 g gdB | DFA cBA | BFA GFE \
+| D2 g gdB | G2 g gdB | BcB AGA | BGE E2 :|
+%%text It's not clear whether the final repeat symbol includes 8 or 16 bars. You can decide.

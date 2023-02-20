@@ -1,0 +1,22 @@
+X: 1
+T: Hava Nagila
+O: Klezmer
+Z: John Chambers <jc:trillian.mit.edu>
+N: At end, the last bar is often played at half speed, with note values doubled.
+M: C
+L: 1/8
+K: Gm
+|: "D"D2 D3 ^F ED | ^F2 F3 A GF | "G"G2 G3 B AG |
+w: Ha-va na-gi-la, ha-va na-gi-la, ha-va na-gi-la,
+|1 "D"^F2 "Cm"E/D/E "D"F4 :|2 "D"^F2 "Cm"E/D/E "D"D4 |: "D"^FF2E DD D2 |
+w: ve ne-s'-ma-cha.  ve ne-s'-ma-cha. Ha-va na-re-ne-na,
+| "Cm"EE2D CC C2 | C2E3D CC G2 |1 "D"^F2 "Cm"E/D/E "D"F4 :|
+w: ha-va na-re-ne-na, ha-va na-re-ne-na, ve ne-s'-ma-cha.
+|2 "D"^F2 "Cm"E/D/E "D"D4 || "Gm"G4 B4 | G2 B2 G2 B2 ||
+w: ve ne-s'-ma-cha. U-ru! U-ru a-chim,
+|| "Gm"G/G/G B>A GB AG | G/G/G B>A GB AG |
+w: U-ru a-chim ba-lev sa-me-ach, u-ru a-chim ba-lev sa-me-ach,
+| "Cm"A/A/A c>B Ac BA | A/A/A c>B Ac BA |
+w: U-ru a-chim ba-lev sa-me-ach, u-ru a-chim ba-lev sa-me-ach,
+| "Cm"A/A/A "D"d2 "Cm"A/A/A "D"d>D | "D7"DD (B/A/G/^F/) "Gm"G4 |]
+w: U-ru a-chim! U-ru a-chim! Ba-lev sa-me-***ach.

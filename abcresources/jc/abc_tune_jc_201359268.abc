@@ -1,0 +1,14 @@
+%%scale 0.8
+X:1
+T:Pathetique Symphony - Theme
+C:Tchaikovsky, Peter I
+M:4/4
+L:1/4
+K:C
+%%staves {RH1 LH1}
+V:RH1 clef=treble name="Piano treble"
+V:LH1 clef=bass name="Piano bass"
+[V:RH1] |(!p!e d c|"C"!1!!4![AE] G !crescendo(!E G!crescendo)!|"Cdim"[^Dc]3 !diminuendo(!A!diminuendo)!|"C"[GE]4-|[GE]) (edc
+[V:LH1] |"_with Pedal"z z2|[G,C,]4|[^F,C,]4|C, G, C G,|[G,C,]4
+[V:RH1] |[GE] E !crescendo(!C E!crescendo)!|"C13+7"[AD]3 !diminuendo(!G!diminuendo)!|"C"[GE]4)|("^Cdim7"[g_B]2 "G"[fB-] e|("Dm"!diminuendo(![eA]2 d2!diminuendo)!)
+[V:LH1] |[G,C,]4|[B,C,]4|C, G,2 G,|

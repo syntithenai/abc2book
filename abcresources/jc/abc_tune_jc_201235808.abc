@@ -1,0 +1,33 @@
+X: 21392
+T: REPUBLICAN SETT (tune 5)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.139 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+a/g/ |\
+f2g e2f | d3 A2d | (B2g) (e2a) | f3 (d2a) |\
+(f2g) e2f | d3 A2d | B2g e2a | d3 d2 H|]
+f |\
+e2f g2e | f2g a2f | e2f g2e | f3 d2f |\
+e2f g2e | f2b a2d' | c'2b a2^g | ac'=g fg"^D.C."e |]
+F |\
+B2^A B2c | d2c d2e | f2e d2c | d3 B2F |\
+B2^A B2c | d2c d2e | f2e d2c | Bdc Ba"^D.C."g |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First four lead to the right,
+%% chassa out,
+%% form lines across the hall,
+%% all right and left across the hall,
+%% all chain across,
+%% all forward and back,
+%% swing to place.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

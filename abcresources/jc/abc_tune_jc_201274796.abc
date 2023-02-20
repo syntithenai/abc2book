@@ -1,0 +1,17 @@
+X: 1
+T: Fairwell to Craigie Dhu
+C: Dougie MacLean
+P: air, march
+N: SRS 8.7
+P: slow air - slow march:
+S: handwritten copy from unknown source in Concord Slow Scottish Session collection
+F: http://ramshaw.info/slowjamtunes/PDF/Tunes_F/Farewell_to_Craigie_Dhu.pdf
+M: C
+L: 1/8
+K: Gmix
+"^A"|: DE \
+| "F"F4 ABcd | "G"B2G2 G2DE | "F"F3D "C"E3C | "G"CB,CE D2DE |
+| "F"F4 ABcd | "G"B2G2 G2DE | "F"F3D "C"E3C | "G"CB,G,2- G,2 :|
+"^B"|: Bc \
+| "G"d3B "F"c3A | "F"BcBG "Dm"F3D | "C"E4 EDEG | "G"E2D2 D2Bc |
+| "G"d3B "F"c3A | "F"BcBG "Dm"F3D | "C"FGFE CB,CD | "G"B,2G,2- G,2 :|

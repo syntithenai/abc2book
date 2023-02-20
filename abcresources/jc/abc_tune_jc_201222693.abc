@@ -1,0 +1,20 @@
+X: 061
+T: Ross Castle
+%R: march
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: John Treat - "Gamut for the Fifes", 1779, p.5 #1
+F: https://archive.org/details/GamutFortheFifes
+N: Some of the note lengths are clearly wrong, but it's not obvious how to fix them.
+N: This is exactly how it was written in the book. Note the 3-bar phrases.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(dc) |\
+B4 A4 | G4 G4 (cB)(AG) | F2A2 A2(dc) |\
+B4 A4 | G4 G4 A2B2c2A2 | B2G2 G2 :: (dc) |\
+B2G2 A2D2 | G2G2 (c2B2)(A2G2) | F2A2 A2(BA) |
+B2G2 A2D2 | G2G2 (AB)(cA) | B2G2 G2 :: (dc) |\
+(Bd)(cB) (Ac)(BA) | G2G2 (cB)(AG) | F2A2 A2(dc) |\
+(Bd)(cB) (Ac)(BA) | G2G2 ABcA | B2G2 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

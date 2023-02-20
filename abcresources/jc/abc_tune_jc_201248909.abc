@@ -1,0 +1,136 @@
+X:3001
+T:Collichur
+P:Lochleven Side
+C:John Bowie Coll.
+R:Jig (8x32)
+B:RSCDS 30-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:A
+|:A|"A"A3 "E7"B>AB|"A7"c>BA "D"d2 f|"A"e>dc "E"BAB|"A"cAE "E"E2A|\
+    "A"A3 "E"B>AB|"A7"c>BA "D"d2 f|
+                                    "A"e>dc "E"B>AB|"A"cAA A2:|\
+f/g/|"A"a>gf e>dc|c>de "D"f2 a/f/|"A"e>dc "E7"B>AB|"A"cAE E2 f/g/|
+    "A"a>gf e>dc|"A7"c>de "D"f2 a/f/|"A"e>dc "E"B>AB|"A"cAA A2 f/g/|\
+    "A"a>fb a2 g|"D"f>de f2 a/f/|
+                                 "A"e>dc "E"B>AB|"A"cAE "E7"E2 c/B/|\
+    "A"A>EA "E"B>AB|"A7"c>BA "D"d2f|"A"e>dc "E7"B>AB|"A"cAA A2|]
+
+X:3002
+T:Hame Came Our Gudeman
+P:Hame Came Our Gudeman
+C:Old Scotch
+R:Strathspey (8x32)
+B:RSCDS 30-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+d|"D"A>FAf "G"edBd|"D"A>F"A"AB "G"d>edB|\
+  "D"AFAf "Em"g/f/e/d/ "A"d/c/B/A/|"D"A>F"A7"AB "D"d>edd|
+  "D"A>FAf "G"edBd|"D"A>F"A"AB "G"d>edB|\
+  "D"AFAf "Em"g/f/e/d/ "A"d/c/B/A/|"D"A>F"A7"AB "D"d>ed||
+a|"D"f>edf "Em"e>d"A"Ba|"D"f>edf a>b"A7"ag|\
+  "D7"f2a2 "G"b/a/g/f/ "Em"g/f/e/d/ "A7"d/c/B/A/|"D"A>F"A7"AB "D"d>eda|
+  "D"f>edf "Em"e>d"A"Ba|"D"f>edf a>b"A7"ag|\
+  "D7"f2a2 "G"b/a/g/f/ "Em"g/f/e/d/ "A7"d/c/B/A/|"D"A>F"A7"AB "D"d>ed|]
+
+X:3003
+T:The Highland Lass
+P:The Fairy Hillock
+C:Pipe Tune
+R:Reel (8x32)
+B:RSCDS 30-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:Am
+ed|"Am"c2A2 ABcB|ABce a2e2|"G"B2G2 GABA|GABc d2 "E7"ed|
+   "Am"c2A2 ABcB|ABce a2e2|"G"B2G2 "E7"eaed|"Am"c2A2 A2 z||
+B|"Am"Aa^ga Aaga|Aa^ga e2 "D7"dc|"G"Bgdg Bgdg|BGBc d2 "E7"cB|
+  "Am"Aa^ga Aaga|Aa^ga e2 "D7"dc|"G"Bgdg "E7"eaed|"Am"c2A2A2|]
+
+X:3004
+T:The Bawk
+P:The Squirrel
+C:Jas. Fraser. Lowe's Coll.
+R:Jig (8x32)
+B:RSCDS 30-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:A
+|:g|"A"a3 A2B|ced cBA|"F#m"a2 "A"A2B|"Bm"FBA "E"GFE|\
+    "A"a3 A2B|ced "A7"cBA|
+                         "Bm"FGA "E7"Bcd|"A"cAA A2:|\
+e|"A"cAc ece|"D"fga "A"ecA|cAc ecA|"E"GAB Bcd|
+  "A"cAc "A7"ece|"D"fga "A"ecA|"Bm"FGA "E7"Bcd|"A"cAA A2 e|\
+  "A"cAc ece|"D"fga "A"ecA|
+                           cAc ecA|"E"GAB Bcd|\
+  "A"cAc "A7"ecA|"D"def "B7"fga|"E"gbg "E7"efg|"A"aec A2|]
+
+X:3005
+T:A Man's A Man For A' That
+P:A Man's A Man For A' That
+C:Scotch
+R:Strathspey (8x32)
+B:RSCDS 30-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+A/B/|"D"d>edA "G"B>d"A7"eg|"D"fedA "G"B2 "Em"B"A7"f/e/|\
+  "D"d>edA "G"Bd"A7"e>g|"D"f>e"G"dB "A"A2 "A7"A A/B/|
+  "D"d>edA "G"B>d"A7"eg|"D"fedA "G"B2 "Em"B"A7"f/e/|\
+  "D"d>edA "G"Bd"A7"e>g|"D"f>e"G"dB "A"A2 A||
+g|"D"f>gaf "A7"g>f e>g|"D7"f>gad "G"B2 Bg|\
+  "D"f>g "D7"af/a/ "G"be"A"e>f|"Bm"d>e "G"e/d/c/B/ "D"A2 A g|
+  "D"f>gaf "A7"g>f e>g|"D7"f>gad "G"B2 Bg|\
+  "D"f>g "D7"af/a/ "G"be"A"e>f|"Bm"d>e "G"e/d/c/B/ "D"A2 A|]
+
+X:3006
+T:The Guidman of Balangigh
+P:The Guidman of Balangigh
+C:Trad. (Playford), adapted by Muriel A. Johnstone
+R:Jig (8x32)
+B:RSCDS 30-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:F
+F|"F"A2 c f2 g|"C"e>dc "F"[f2A2] e|"Bb"d>c"F"A cAF|"Gm"[GD]AG "C9"[d2B2E2]f|
+  "F"F>GA f2 g|"C"e>dc "Dm"[f2F2]e|"Bb"[dF]cA "F"[cF]>A"A7"[GE]|\
+                 "Dm"[A3F3] [d2A2F2]||
+f|"F"f>ga g2 f|"C"edc "Dm"f2 "Bb"d|"F"cfc "Dm"AGF|"Gm"[G3D3] "C7"[B2E2]c|
+  "Dm"f>ga "C"gec|"Bb"f2 e "F"dcA|"Am"c>AG "Bb"F>G"Bbm"F|"F"A3 [f2c2A2F2]|]
+
+X:3007
+T:The Cadies Lady
+P:Duke of Kent
+C:A. Ogilvie Grey Album
+R:Reel (8x32)
+B:RSCDS 30-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:C
+"C"C2EC cCEC|"Dm"FEDF "G"FDdD|"C"EDCD EF"C#o"GE|"Dm"FD"G"GE "C"C2C2|
+"C"C2EC cCEC|"Dm"FEDF "G"FDdD|"C"EDCD EF"C#o"GE|"Dm"FD"G"GE "C"C2C2||
+"C"e2dc e2dc|"Dm"dcBc "G7"defd|"C"e2dc "F"Ac"C"Gc|"G7"edcB "C"c2c2|
+"C"e2dc e2dc|"Dm"dcBc "G7"defd|"C"ec"G"dB "Am"cA"G"BG|"F"AF"C"GE "Dm"FE"G"DE|]
+
+X:3008
+T:Short and Sweet
+P:Miss Williams Fancy
+C:William Campbell's 23rd Book
+R:Jig (8x32)
+B:RSCDS 30-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:F
+|:"F"cAF FGF|"Bb"f3 d3|"F"cAF "Dm"FG"G7"F|"C"EGG "C7"G2 A|
+  "F"cAF "F7"FGF|"Bb"[f3B3F3] [d3B3F3]|"F"c>dc "C7"BAG|"F"AF"Bb"F "F"F3:|
+|:"F"c3 cfa|"Bb"B3 Bdf|"F"A3 "D7"ABc|"Gm"BGG "C7"G2 A|
+  "F"F3 "F7"FAc|"Bb"def "G7"fed|"F"c>dc "C7"BAG|"F"AF"Bb"F "F"F3:|

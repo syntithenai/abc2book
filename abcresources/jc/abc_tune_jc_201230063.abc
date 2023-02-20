@@ -1,0 +1,18 @@
+X: 132018
+T: MERRILY DANCED THE QUAKER'S WIFE
+Q: "Scotch Jig."
+R: Jig.
+%R: jig
+B: James Kerr "Merry Melodies" v.1 p.32 s.0 #18
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: D
+uA |\
+def uA2uf | vg2vf u{f}e2ud | def A2A | B3 d2uA |\
+def A2f | agf {f}e2d | def A2A | B3 d2 :|
+|: uA |\
+d2f a2f | b2g a2f | d2f a2g | f3 a2ua |\
+b2g efg | a2f d2A | def A2A | B3 d2 :|

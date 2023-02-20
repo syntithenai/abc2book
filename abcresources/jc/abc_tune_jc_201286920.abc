@@ -1,0 +1,24 @@
+X: 1
+T: Hochstet Battle
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (86)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The repeats were written out, giving 20 bars; reorganized with repeats to clarify the tune's structure.
+M: 6/4
+L: 1/4
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: a2a  g2e | e2a  g2e | e>fg a2A  | A>Bc B2A :|
+[| c2f ^d2B | B2e ^d2f | f>ga b2e  | e>fg f2e |]
+|: G2B  d3  | A2c  e3  | e>dc e>dc | e>dc B2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The two Men take hands and lead to the Wall and both
+%% cast off into their own Places again and sett, the two We.
+%% do the same at the same Time | Then the 1st Cu. lead
+%% thro the 2d Cu. and cast up into their Places :| Then cross
+%% over into the 2d Cu. Place and lead up all back wards and
+%% forwards and then half figure into their own Places .|
+%%endtext
+%%sep 1 8 500

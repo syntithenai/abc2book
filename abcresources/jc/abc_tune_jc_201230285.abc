@@ -1,0 +1,34 @@
+X: 135
+T: the Namure
+T: Longways for as &c.
+N: The "N" is printed correctly in the index, but backwards in the tune/dance page.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.68
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+N: The 3rd line of the dance has a wide space between "place" and "then", with only a dot or "'" visible.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+DED F2A | d3 f3 | g2a bBd | c3 A3 |\
+FAd GBe | Acf Bda | fga eAc | d3- d3 :|
+|:\
+fdf g2a | bag g3 | B2g eBe | c3 A3 |\
+FAd dBG | GBe ecA | fdf eAc | d3- d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st Cu. joyn left hands, then right hands
+%% across, turning twice round, and lead thro' 3d
+%% Cu. and cast up in 2d Cu. place ' then lead
+%% thro' the top Cu. and cast down and turn
+%% partners :| then all four hands round with
+%% the top Cu. and turn partners .| then all
+%% four hands round with the bottom Cu. and
+%% turn partners :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

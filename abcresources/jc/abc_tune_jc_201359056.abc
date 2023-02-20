@@ -1,0 +1,1963 @@
+X:1
+T:Finn Jenta
+O:norway
+R:Waltz
+M:3/4
+K:GDor
+D^F |\
+G2 G<^F G>A | {A}B2 BA B>c | \
+c<d dc d>e | f2 fe gf |\
+d2 dc Ac | B2 {c}BA G2 |
+^FG A2 F2 |1 D4 :|2 ^F<(G G2) ::\
+Bc |\
+[D2d2] c2B2 | [F4A4] FA | \
+c2 (3BcB A2 | [B,3G3] ^F GA |
+[D2B2] A2 ^F2 | D2A2 ^F2 \
+|1 G2 d2 ^c2 | ^c<(d d2) d2 :|2 G3G G2 |[B,2G2]:|
+
+
+
+
+
+X:2
+T:Halling
+O:norway
+R:Halling
+M:2/4
+K:DDor
+DE |\
+F2d2 E2e2|d2~c2 A2DE|F2d2 E2e2|d2^c2 d2:|
+|: DE|\
+F2FD C2CA,|B,2B,^C D2DE|F2FD C2CA,|B,^C3 D4:|
+
+
+
+
+
+X:3
+T:Wisconsin Pols
+O:norway
+R:Polska
+M:3/4
+K:DDor
+{g}a2 a<g e>g|{g}f2 f<e d>f|e2 e2 (3AB^c\
+|1 d>c d>e f>g :|2 dz d3 ::
+_BB//c//B//A// B>A G>B|A2 A<^F D2|\
+D2^F>G {AB}A2 |1 G2 G>^F G>A :|2 G2 G3 :|
+
+
+
+
+
+X:4
+T:Pindsvine Reinl\"ander
+O:norway
+R:Reinl\"ander
+M:4/4
+Q:1/4=200
+K:G
+D2| \
+G2G2 G2AG | GFFE F2DF | A4   Addc | B2G2 G2GF |\
+E2E2 EGFE | E2D2 D4   | D2FA dAFD | G2G2 G2 :|
+|:Bc|\
+d4 d2ed | dccB c2AB | c4 c2dc | cBBA B2GF |\
+E2E2 EGFE | E2D2 D4 | D2FA dAFD | G2G2 G4 :|
+K:C
+|:\
+e4 e3d | cdcA G2E2 | FGFD B2A2 | GAGE c2c2 |\
+e4 e3d | cdcA G2E2 | FEDE FGAB | c2c2 c4 :|
+
+
+
+
+
+X:5
+T:Polsdans efter Lars Nerhagen
+O:norway
+S:(E \"Overg\aa{}rd nr 836)
+N:Elverum Pols
+R:Pols
+Q:160
+M:3/4
+L:1/8
+A:\"Osterdal
+K:D
+FG EF D2 | fg ef df | \
+(3.a.f.a (3.g.e.g f>c | (3.d.e.f (c<d) Bd |\
+c2 {^G}[A4A4] | FG EF D2 |
+fg ef df | (3.a.f.a (3.g.e.g f>c | (3.d.e.f d4 ::\
+A2 (c<d) ((3fgf) | eg {ga}(gf) d>f | \
+(3.a.f.a (3.g.e.g f>c |
+(3.d.e.f (c<d) Bd | c2 {^G}[A4A4] | \
+A2 (c<d) ((3fgf) | eg {ga}(gf) d>f | \
+(3.a.f.a (3.g.e.g f>c | (3.d.e.f d4 :|
+
+
+
+
+
+X:6
+T:Springlek fr\aa{}n Gudbrandsdalen
+O:norway
+Q:140
+M:3/4
+R:Springlek
+L:1/8
+K:D
+{A}d2 (A<G) =F2 | E>D CD/E/ D2 | \
+{A}d>e {e}f2 d2 | cA/c/ (3BGB A2 | \
+{A}d2 (A<G) =F2 | E>D CD/E/ D2 |
+{A}d>e {e}f2 d2 | cA/c/ d4 :| \
+|: a>g (fg) (3afa | g>f (ef) (3geg |
+(a>f) (d<f) (3ece | d2 ({e}d>c) A2 | \
+a>g (fg) (3afa | g>f (ef) (3geg | \
+(a>f) (d<f) (3ece | {c}d2 d4 :|
+
+
+
+
+
+X:7
+T:Hurven - rundom efter Johan Hollseter, Trysil
+O:norway
+C:e. Sven Nyhus
+N:simplified
+N:Rundom (pols) from Trysil, Norway
+R:Pols
+Q:130
+N:Should be played with "A-bas", that is the G-string tuned in A-bas
+M:3/4
+L:1/8
+B:M Ramsten
+B:Hurven
+A:Trysil
+K:D
+((3EFE D)>D E>E | ((3EFE D>)(D E>)E | \
+((3EFE DE) C>E | ([C/E/][D3/D3/]) [A,4E4] | \
+((3EFE D)>D E>E | ((3EFE D>)(D E>)E | \
+((3EFE DE) C>E | \
+L:1/16
+([CE][D3D3]) [D8D8] :: \
+L:1/8
+A>c d2 (e=f) | (=fa) (ag) e2 | \
+g2 ((3fdf) (ec) | (c<d) [A4g4] | \
+A>c d2(e=f) | (=fa) (ag) e2 | \
+g2 ((3fdf) (ec) | (c<d) [D4d4] :|
+
+
+
+
+
+X:8
+T:Storhurven
+O:norway
+N:Pols fra Vingelen
+R:Pols
+Q:140
+M:3/4
+L:1/8
+K:Dm
+(E|\
+F)(D {F}E>)^C D>(E | F)(D {F}E>)^C D2 |\
+D>E (3.F.D.F (3.E.^C.E \
+|1[DD]>[DD] [A,3E3] :|2 {^C}[DD] [D4D4]| \
+K:D
+|:(A2 (3Bcd) (3.e.f.g | {g}a2(a>e) f>a |\
+(3.g.e.g (3.f.d.f e>c | (df) ed c2 |\
+(cA (3B).c.d (3.e.f.g | {g}a2(a>e) f>a |\
+(3.g.e.g (3.f.d.f e>c | (c<d) [D4d4]:|
+
+
+
+
+
+X:9
+T:Reinl\"ander fr\aa{}n Folldal
+O:norway
+S:(\"Osterdal, Norge)
+R:Reinl\"ander
+A:\"Osterdal
+Q:170
+M:4/4
+L:1/8
+K:Dm
+vA>BAG F2 F2 | E>GE^C E2 E2 | \
+D>FA^c [e2e2] [e2e2] | A>^cef {c}d2 d2 | \
+A>BAG F2 F2 | E>GE^C E2 E2 | D>FA^c e>gec \
+|1 d>(ed)^c {c}d3 z :|2 d>(ed)^c {c}d3 a |: \
+g>efd d>fag | {a}g>e^cd [e4e4] | \
+e>fde {e}f2 ag | f2 ed ^c2 A>a | \
+g>efd d>fag | {a}g>e^cd [e4e4] | \
+e>fdf a>ge^c \
+|1 d>(ed)^c {c}d3 a :|2 d>(ed)^c {c}d4 |]
+
+
+
+
+
+X:10
+T:Alle mann hadde fota
+O:norway
+C:anon.
+R:Pols
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:3/4
+L:1/8
+Q:280
+K:Am
+"Am"A>Bc2B>A|"Am"e2e4|"Am"(A>B)c2B>A|
+w:Al- le mann had- de fo- ta, min mann had- de
+"Am"c2"E7"B4|"Am"A>Bc2B>A|"Am"e2e4|"Am"A>Bc2"E7"B2|
+w:in- gen, tok eg meg bj\or- ke- ro- ta, gjor- de min mann
+"Am"A2A4|"Am"c2"E7"B4|"Am"c>c"E7"B4|"Am"c>c"E7"B2B2|
+w:fo- ta. Min mann dan- sa fram, fot i ho- se
+"Am"c>c"E7"B4|"Am"A>Bc2"E7"B>^G|"Am"A>AA2z2|]
+w:had- de han lik- so vel som ein an- nan mann.
+W:
+W:Alle mann hadde fota,
+W:min mann hadde ingen,
+W:tok eg meg bj\orkerota
+W:gjorde min mann fota.
+W:  Min mann dansa fram,
+W:  fot i hose hadde han
+W:  likso vel som ein annan mann.
+W:  Alle mann hadde fota.
+W:
+W:Alle mann hadde arma',
+W:min mann hadde ingen,
+W:tok eg meg eit par tarma',
+W:gjorde min mann arma'.
+W:  Min mann dansa fram,
+W:  tarme-arma' hadde han
+W:  likso vel som ein annan mann.
+W:  Alle mann hadde arma'.
+W:
+W:Alle mann hadde aua,
+W:min mann hadde ingen,
+W:tok eg meg eit par saua',
+W:gjorde min mann aua.
+W:  Min mann dansa fram,
+W:  saue-aua hadde han
+W:  likso vel som ein annan mann.
+W:  Alle mann hadde aua.
+
+
+
+
+
+X:11
+T:Brudmarsj
+T:Wedding march
+O:norway
+C:anon.
+A:Saltdal)
+R:wedding march
+Z:After P. L. Kristiansen. Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:C
+L:1/8
+K:D
+z A|d2 d>d d2(3fed|c2c>c c2A/B/c/d/|e2e>e e2a/g/f/g/|f2d>d d2::z f|\
+a3b f>g e>f|d2 c/d/e/f/ e2e>g|f2 d>f a2 a>^g|a2a>a a2 z e|\
+a2 e>e e2a/g/f/g/|f2d>d d2 z f|e2B>B B2e/d/c/d/|c2A>A A2 z e/f/|\
+g3a/g/ f>e df|a2a>g f2d2|e>f g>e d>c B>c|d2 c/d/e/f/ d2d>d|d4 z2:|
+
+
+
+
+
+X:12
+T:Den norske Daleviise
+T:Fieldbyggen acter paa Tiden
+O:norway
+C:anon., words: Petter Dass
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:C
+L:1/8
+Q:240
+K:Em
+"Em"G2 G>E "B7"B,2 B,>^D|"Em"E2E4 z2:|"Em"E>F G>A B2 "Am"c>B|"F#7"^A2"B"B4z2|
+w:Field- byg- gen ac- ter paa Ti- den Tar hand \Ox paa Nac- ken i Bac- ken.
+w:Vin- ter naar Da- gen er li- den.
+M:3/4
+"Em"G>A G>F G2|"Em"G>A G>F G2|"Em"G>A G>F G2|"Em"G>A G>E "B7"HB,2|
+w:Gaar i dy- ben Snee, Op til L\aen- der- ne, Fin- der sig et Tr\aee, Kraa- get til at see,
+M:C
+"Em"E>F G>A B2 "Am"c>B|"F#7"^A2"B"B4z2|"Em"G>A G>F G2 "B7"F>^D|"Em"E2E4z2|]
+w:Hug- ger der- af Mey- e, som pley- e, Bru- gis un- der Sle- de paa Vey- e.
+W:
+W:Fieldbyggen acter paa Tiden
+W:Vinter naar Dagen er liden.
+W:Tar hand \ox paa Nacken
+W:i Backen.
+W:Gaar i dyben Snee,
+W:Op til L\aenderne,
+W:Finder sig et Tr\aee,
+W:Kraaget til at see,
+W:Hugger deraf Meye,
+W:som pleye,
+W:Brugis under Slede paa Veye.
+W:
+W:Saa gjennem Granskov og Furru
+W:Kom jeg til en heeder Gurru,
+W:Gav mig M\osseBr\omme
+W:Og R\omme.
+W:Udi Buncken laa
+W:Fluer stor' og smaa,
+W:Ilde ud de saae,
+W:Maat dog gaa derpaa;
+W:Blev det Maaltid \aedet,
+W:Jeg svedet,
+W:Saa jeg n\aer nedstyrtet af S\aedet.
+W:
+W:Som det nu lacker til Qv\aellen,
+W:Ind kom Fru Gurru med Fellen,
+W:Fellens Haar var lange
+W:Og mange;
+W:Fremmed Rytteri
+W:For Fribytteri
+W:Skiuler sig deri,
+W:Ginge paa Parti,
+W:De red ey paa Sale,
+W:De Kale,
+W:Men min Ryg det fick at betale.
+W:
+W:Ryggen den blev skrammereret,
+W:V\ae dem, for mig de skamferet
+W:O hvor bide kunde
+W:De Hunde
+W:De sin Skaal ey sveg,
+W:Plucket surt min Steeg,
+W:Gr\aedendis og bleeg,
+W:Gick jeg af den Leeg
+W:Og blef viis forsilde,
+W:Hvor ilde
+W:Mig bekom Fru Gurru sit Gilde.
+W:
+W:Som jeg saae Dagen fremliuse,
+W:B\od jeg farvel udi Huuset.
+W:Gurru bad mig t\ove,
+W:Mad pr\ove:
+W:Faa den Skam det gi\or
+W:Icke det jeg t\or.
+W:Jeg har v\aert der f\or,
+W:Kiender vel Jers Ski\or
+W:Gid det i jers Tarme
+W:Med Harme
+W:Stod indtryckt med Ild og med Varme.
+
+
+
+
+
+X:13
+T:Det star ein friar uti gar'e
+O:norway
+C:anon.
+R:Springdans?
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:3/4
+L:1/8
+Q:320
+K:F
+z>C C>C|"F"F2A2 (3(GF)G|"F"F2E2D2|"C7"D2C2C2|"C7"C2:: z>A A>A|
+w:Det st\aar ein fri- ar ut-i ga- r'e, mor lil- la. Hau hau Kor man- ge
+"Bb"B2B2A>G|"F"A4G>F|[1"C7"G2-G3/2F/ E>G|"F"c2:|[2"C7"G2-G3/2F/ (3(ED)E|"F"F2||
+w:pen- gar hav- er han, du mi dot- ter Da- li- a? dot- ter Da- li- a?
+|:z2 C2|"F"F2A2G2|"F"F2E2 D>D|"C7"D2C2C2|"C7"C2:: z2 A>A|
+w:To hund- re riks- da- lar, sei- er han at han har. Sei han
+"Bb"B4 A>G|"F"A4G>F|[1"C7"G2-G3/2F/ E>G|"F"c2:|[2"C7"G2-G3/2F/ (3(ED)E|"F"F2|]
+w:nei, vis han vei, du mi dot- ter Da- li- a dot- ter Da- li- a
+W:
+W::/: Det st\aar ein friar uti gar'e, mor lilla. Hau hau :/:
+W:   :/: Kor mange pengar haver han, du mi dotter Dalia? :/:
+W::/: To hundre riksdalar, seier han at han har. :/:
+W:   :/: Sei han nei, vis han vei, du mi dotter Dalia dotter Dalia :/:
+W:
+W::/: Det st\aar ein friar uti gar'e, mor lilla. Hau hau :/:
+W:   :/: Kor mange pengar haver han, du mi dotter Dalia? :/:
+W::/: Tre hundre riksdalar, seier han at han har. :/:
+W:   :/: Sei han nei, vis han vei, du mi dotter Dalia dotter Dalia :/:
+W:
+W::/: Det st\aar ein friar uti gar'e, mor lilla. Hau hau :/:
+W:   :/: Kor mange pengar haver han, du mi dotter Dalia? :/:
+W::/: Fire hundre riksdalar, seier han at han har. :/:
+W:   :/: Sei han nei, vis han vei, du mi dotter Dalia dotter Dalia :/:
+W:
+W::/: Det st\aar ein friar uti gar'e, mor lilla. Hau hau :/:
+W:   :/: Kor mange pengar haver han, du mi dotter Dalia? :/:
+W::/: To hundre riksdalar, seier han at han har. :/:
+W:   :/: Lat opp d\ora, slepp han inn, du mi dotter Dalia :/:
+
+
+
+
+
+X:14
+T:Eg gjekk meg opp til seterli
+O:norway
+C:anon.
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:2/4
+L:1/8
+Q:200
+K:Am
+E|"Am"A>A "Dm"A>A|"E"^G>A B>c|"Am"A>A "Dm"A>^G|"A"AB/c/ "E7"HE:|
+w:Eg gjekk meg opp til se- ter- li til jen- ta mi, ho var ik- kje bli'
+|:B|"Am"cc/c/ c>d|"E"BB/B/ B>c|"Am"AA/A/ (A^G/)A/|"E7"BB/c/ "Am"A:|]
+w:ho var ik- kje grei, ho sva- ra meg nei, kva vil du no her, du f\aer ik- kje meg.
+W:
+W:Eg gjekk meg opp til seterli
+W:til jenta mi, ho var ikkje bli'
+W:ho var ikkje grei,
+W:ho svara meg nei,
+W:kva vil du no her, du f\aer ikkje meg.
+W:
+W:Men som det lei til laurdagskveld,
+W:Eg pynta meg og gjekk i veg lell.
+W:Og vegen var bratt,
+W:eg gjekk og eg datt,
+W:eg kom ikkje fram f\or langt p\aa natt.
+W:
+W:Men som eg kom til seterstad,
+W:d\aa vart eg glad: Ho svara meg ja.
+W:"Eg er ikkje vond,
+W:du ska' f\aa rom,
+W:eg vart s\aa glad eg s\aag du kom."
+W:
+W:S\aa hengd' ho over gryta si
+W:med rjome i og koka til meg.
+W:Og grauten var heit
+W:og han var feit,
+W:eg sku' skunda meg, det var'kje greit
+
+
+
+
+
+X:15
+T:Eg heiter Anne Knutsdotter
+O:norway
+C:anon.
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:2/4
+L:1/16
+Q:280
+K:D
+A2|"D"dcdf a2ab|"D"abaf d2f2|"E7"e2d2 c2d2|"A7"e4z2A2|
+"D"dcdf a2ab|"D"abaf d2(de)|"D"f2f2 "A7"e2e2|"D"d4z2A2|
+"D"defg a3f|"D"a3f "G"b2b2|"D"a3f a3f|a3f "A7"e2e2|d4z2|]
+
+
+
+
+
+X:16
+% The song with calculated Accords
+T:Evenesdalingen
+O:norway
+C:anon.
+A:Saltdal
+R:Reinlender
+Z:After Emil and \Oystein Ingvaldsen. Org. transcription: Rolf Monsen
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+"D"ag|"D"f2ef A2gf|"A"e2ec A2gf|"A"e2ed cABc|"D"dAdf a2ag|\
+"D"f2ef A2gf|"A"e2ec A2gf|"A"e2ed cABc|"D".d2.d2 d2 :: a2|\
+"D"d2(3efe d2(3BcB|"D"AFDF A2BA|"G"GFEF G2(3BcB|"D"AFDF A2A2|\
+"D"d2(3efe d2(3BcB|"D"AFDF A2BA|"G"GFEF GABc|"D".d2.d2 d2:|
+
+
+
+
+
+X:17
+T:Evensg\aardvalsen
+O:norway
+C:anon.
+A:Saltdal
+R:Vals
+Z:After K. H. Evensg\aard. Org. transcription: Rolf Monsen
+M:3/4
+L:1/8
+K:D
+A2|:f4ef|f3f gb|{f}a6|A4 fg|
+{f}a6|g4a2|f6-|f2 z2 A2|
+f4ef|g3f gb|{f}a6|A2 z2 fg|
+a3ba2|g2f2e2|d6-|d2 z2 A2:|
+|:f6|gf ed cd|e6-|e2 z2 ef|
+g2ag fg|a4g2|f6-|f2 z2 A2|
+f6|gf ed cd|B6-|B2 z2 B2|
+A3c eg|f4e2|d6-|d2 z2 A2:|
+|:Ad f3g|a6|b2a3f|g2 z2 A2|
+Ace3f|g2(3gag fg|baa3g|f2 z2 A2|
+Adf3g|a6|b2a3f|g4 z2|
+AB cd ef|a4(3aba|g2f2e2|[1d2 z2 A2:|[2d4|]
+
+
+
+
+
+X:18
+T:Falkvor Lomansson
+O:norway
+C:anon.
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:6/8
+L:1/8
+K:D
+"D"F2 D "A7"(C D) E|"D"E2 D D3|"D"A> G F "G"(GA) B|"D"A3 A3:|
+w:Det var \aar- le om mor- go- nen, so- li ho ryr i da- lar.
+w:Opp stend Falk- vor Lo- mans- son, legg p\aa for- gyl- te sa- lar.
+"D"F E D "A7"C D E|"D"(FG) F "A7"E D C|"D"D3 D3|]
+W:
+W:Det var \aarle om morgonen,
+W:soli ho ryr i dalar.
+W:Opp stend Falk vor Lomansson,
+W:legg p\aa forgyl te salar.
+W:  Riddaren v\aagar han li vet for ei jomfru.
+W:
+W:Ut kjem hans s\aele moder.
+W:t\aaror renn'e p\aa kinn.
+W:"Sei kvar aktast du av i dag,
+W:"du Falkvor, k\aer' sonen min?"
+W:  Riddaren v\aagar han livet for ei jomfru.
+W:
+W:"Eg vil pr\ova mine hovmenn,
+W:eg vil pr\ova min hest;
+W:eg vil taka att vivet mitt,
+W:som Torstein Davidsson hev fest."
+W:  Riddaren v\aagar han livet for ei jomfru.
+W:
+W:Det var Falkvor Lomansson,
+W:han seg av garde reid.
+W:Der grodd'kje graset p\aa femten \aar,
+W:der hans gr\aa gangaren steig.
+W:  Riddaren v\aagar han livet for ei jomfru.
+W:
+W:Det var Torstein Davidsson,
+W:han syrgjer no ikkje s\aa s\aar
+W:"Her er s\aa mange stolte jomfruer
+W:som stjernene fylgjer nott"
+W:  Riddaren v\aagar han livet for ei jomfru.
+
+
+
+
+
+X:19
+T:Fl\oy en liten bl\aafugl
+O:norway
+C:anon.
+R:Reinlender, Nursery song
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:2/4
+L:1/16
+K:G
+"G"ddde d2B2|"G"G2.B2.B2.B2|
+w:Fl\oy en li-ten bl\aa-fugl gjen-nom vin-du,
+"D7"A2.c2.c2.c2|"G"B2.d2.d2.d2|"G"ddde d2B2|
+w:gjen-nom vin-du, gjen-nom vin-du. Fl\oy en li-ten bl\aa-fugl
+"G"G2.B2.B2.BB|"D7"d4d4|"G"G4 z4|]
+w:gjen-nom vin-du en dag i mai.
+
+
+
+
+
+X:20
+T:Gammelmostri
+O:norway
+C:anon.
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+V:1 Program 1 110
+M:3/4
+L:1/8
+Q:1/4=160
+K:D
+"D"d2 dA de|"D"fe fg f2|"D"d2 dA de|"D"f6:|"Em"g2 gf ga|
+"Em"b2 ag f2|"G"g2 gf ga|"D"b2 ag "A"f2|"D"d2 fa ef|"D"d3|]
+
+
+
+
+
+X:21
+T:Gubben og gamla
+O:norway
+C:anon.
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:4/4
+L:1/8
+Q:1/4=120
+K:D
+"D"DD/F/ DF|"D"DF A>A|"D"d>A FD|"A7"A2A>A|
+"D"DD/F/ DF|"D"DF A>A|"D"dA/A/ GF|"A7"E2"D"D> A,|
+"D"DF D>A,|"D"DF D>A,|\
+M:1/4
+L:1/8
+"D"DD/F/|
+M:2/4
+L:1/8
+"D"DD/F/ DF|"D"DF A>A|"D"d>A GF|"A7"E2"D"D2|]
+W:
+W:Gubben og gamla l\aag og drog og ikkje fekk opp rota.
+W:Men hadde vi hatt han Einball her s\aa hadde vi f\aatt opp rota.
+W:  Og Einball kom, og Einball drog
+W:  og Einball og gubben og gamla l\aag og drog og ikkje fekk opp rota.
+W:
+W:Gubben og gamla l\aag og drog og ikkje fekk opp rota.
+W:Men hadde vi hatt han Toball her s\aa hadde vi f\aatt opp rota.
+W:  Og Toball kom, og Toball drog
+W:  og Einball og Toball og gubben og gamla l\aag og drog og ikkje fekk opp rota.
+W:
+W:Gubben og gamla l\aag og drog og ikkje fekk opp rota.
+W:Men hadde vi hatt han Treball her s\aa hadde vi f\aatt opp rota.
+W:  Og Treball kom, og Treball drog
+W:  og Einball og Toball og Treball og gubben og gamla l\aag og drog og ikkje fekk opp rota.
+W:
+W:An alternative (simpler) chord progression:
+W:6/8 Em    |Am Em |D  Em |B  Em :|
+W:2/4 G  D7 |G     |G  Am |B     |
+W:6/8 Em    |Am Em |D  Em |B  Em ||
+
+
+
+
+
+X:22
+T:Haren uti gresset
+O:norway
+C:anon.
+R:Nursery song
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:2/4
+L:1/8
+K:C
+"C"CDEF|"C"G2c2|"F"A2c2|"C"G3 z|"G7"FFFF|"C"EEE2|
+"G7"DDDD|"C"CEG2|"C"CEG2|"C"CEG2|"G7"G2G2|"C"C2 z2|]
+
+
+
+
+
+X:23
+T:Herr Ole
+O:norway
+C:anon.
+A:Saltdal
+Z:H. Marvold, original trancription by H. Bakke
+M:C
+L:1/8
+Q:1/4=96
+K:Am
+z E|:E2cB A2GF|EE FE D3D|
+w:Herr O-le han tjen-te i sto-re kon-gens g\aard der
+E>E E>F GG AG|F4- FE2E|E2Ac e2dc|
+w:tjen-te han for kle--der og f\o--de. S\aa kom der et bud i-fra
+c2BA ^G2AB|cB AG EE cB|^G4 A2 z2:|
+w: Ro-sen-de-lund at hans kj\ae-res-te hun v\ae--re-de d\o-de.
+W:
+W:Herr Ole han tjente i store kongens g\aard
+W:der tjente han for kleder og f\ode.
+W:S\aa kom der et bud ifra Rosendelund
+W:at hans kj\aereste hun v\aerede d\ode.
+
+
+
+
+
+X:24
+T:Je veit ei lita jente
+T:(Eg Veit Ei Lita Jente)
+O:norway
+C:anon.
+R:Reinlender?
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:C
+L:1/8
+Q:240
+K:C
+z/G,/|"C"C>C CE|"C"G>G GG|"F"A>F cA|"C"G2z>G|
+"F"A>F FA|"F"c>c BA|"F"A4|"C"G2z>G|
+"Dm"F>F AF|"G"D>D DF|"C"E>E "C/B"GE|"Am"C>C CE|
+"Dm"E>D DE|"G"F>D B,D|"G7"D4|"C"C2z|]
+
+
+
+
+
+X:26
+T:Jeg r\aade vil alle
+O:norway
+C:anon.
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:6/8
+L:1/8
+Q:120
+K:Emin
+B,|"Em"EEE "Em/D#"EGB|"Em/D"BAA "Em/C#"BGG|
+w:Jeg r\aa-de vil al-le i ung-dom-mens da-ger at
+w:Man kan ik-ke kal- le de da-ger til-ba-ke, man
+"Cmaj7"AFF "Em/B"GEE|"B7"F^DD"Em"E2:|B|
+w:de dog i ti- de m\aa ten-ke seg om. N\aar
+w:kan ik-ke vi-te n\aar Gud hol-der dom.
+M:2/4
+L:1/8
+"G"dB "D7"cA|"G"B2zB|"G"dB "Am"cA|"B7"B2zG|
+w:Ly-set blir ut-slukt, og him-lens d\or blir lukt. N\aar
+M:6/8
+L:1/8
+"Em"BBB "Em/D#"BcB|"Em/D"BAA "Em/C#"BGG|
+w:da-gen er om-me og nat-ten vil kom-me, da
+"Cmaj7"AFF "Em/B"GEE|"B7"F^DD"Em"E2|]
+w:er det for sent til \aa ten-ke seg om.
+W:
+W:Jeg r\aade vil alle i ungdommens dage
+W:at de n\aa i tide m\aa tenke seg om.
+W:Man kan ikke kalle de dage tilbake,
+W:man kan ikke vite n\aar Gud holder dom.
+W:  N\aar lyset blir utslukt,
+W:  og himlens d\or blir lukt.
+W:N\aar dagen er omme og natten skal komme,
+W:da er det for sent til \aa tenke seg om.
+
+
+
+
+
+X:27
+T:Kjerringa med staven
+O:norway
+C:anon.
+R:Springdans
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:3/4
+L:1/8
+Q:280
+K:G
+d2d2B>B|d4B2|d2d>d B>B|d4B2|
+w:Kjer-rin-ga med sta-ven, h\ogt opp-i Ha-ka-da-len.
+|:G>A B>c d>B|A>B c>d B2:|G2B2A>F|G4G2|]
+w:\AAt-te pot-ter r\om-me, fi-re mer-ker sm\or, Kjer-rin-ga med sta-ven.
+w:s\aa kin-na Ka-ri, O-la had-de f\or.
+W:
+W:Kjerringa med staven, h\ogt oppi Hakadalen.
+W:\AAtte potter r\omme, fire merker sm\or,
+W:s\aa kinna Kari, Ola hadde f\or.
+W:Kjerringa med staven.
+
+
+
+
+
+X:28
+T:Kneppvals'n
+O:norway
+C:anon.
+N:After Johs. Tronsmo
+R:Vals, waltz
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+m: Mn2 = n/(3o/n/o/n/
+M:3/4
+L:1/8
+K:A
+E2|"A"A2 (Ac) ec|"A"A2 (Ac) ec|"E"d2 (Bd) Bd|"A"(Mc2A2)E2|
+"A"A2 (Ac) ec|"A"A2 (Ac) ec|"E"B2 gg gg|"A"a3 z:|
+|:(ef/g/|"A"a2)"_pizz"e2"_pizz"e2|"A"c2 A2 "_pizz"e2|"E"cc B2 "_pizz"e2|"A"cc A2 "_pizz"e2|
+"A"(ef/g/ a2) "_pizz"e2|"A"cc A2 "_pizz"e2|"E"cc B2 "_pizz"e2|"A""_pizz"A3 z:|
+
+
+
+
+
+X:29
+T:Knut Liten og Kongjen
+O:norway
+C:anon.
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:2/4
+L:1/8
+K:Em
+E|"Em"E2GF|"C"G2FE|"Em"G2B>^A|
+w:Knut li- ten og kon- gjen dei sat i- vi
+"Em"B4|"Am"A>GA2|"B"B3B|"G"(dB) "Am"cc|
+w:bord. I- se- lil- ja. Dei ta- la so
+"Em"(BG) "G"BB|"Am"(AG) EE|"B"H^D3E|"Em"GA "G"BB|
+w:man- ge dei skjem- tan- de ord. So s\aa- re syr- gjer
+"C"c>B "G"BA|"D"A>G "Em"G>F|"B"(^D>E) "Em"HE|]
+w:Syl- ve -lin fyr lis- le Knut i l\oyn- dom.
+W:
+W:Knut liten og kongjen dei sat ivi bord.
+W:  Iselilja.
+W:Dei ta la so mange dei skjemtande ord.
+W:  So s\aare syrgjer Sylvelin fyr lisle Knut i l\oyndom.
+W:
+W:"Knut liten, du stiller ditt sylvbugne sverd,
+W:  Iselilja.
+W:Eg gjev deg mi dotter, du er henne verd."
+W:  So s\aare syrgjer Sylvelin fyr lisle Knut i l\oyndom.
+
+
+
+
+
+X:30
+T:Lille postbud min due
+O:norway
+C:anon.
+R:Vals, Nursery song
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:3/4
+L:1/8
+K:C
+EF|"C"G2E2E2|"G7"E2D2DE|"G7"F2D2D2|"C"E2 z2 EF|
+"C"G2E2E2|"G7"E2D2DE|"G7"F2B,2B,2|"C"C2 z2|]
+
+
+
+
+
+X:31
+T:Litl-Ola mann
+O:norway
+C:anon.
+A:Saltdal
+R:Vals
+ABC transcription by Frank Nordberg - http://www.musicaviva.com
+M:3/4
+L:1/8
+K:D
+d2d=cB2|d2d=cB2|d2d=c BA|G4D2|
+w:Litl O-la mann Spell li-te grand li-ke nu s\aa kjem bru-ra
+d2d=cB2|d2d=cB2|d2d=c BA|B2B2d2|
+w:Bru-ra va ong Kro-no va tung brur-pi-a va f\or-lo-ra Hei
+A2A2B2|G2G2B2|A2A2B2|G2G2B2|
+w:l\os-ti kom kleg-gj\aen, fir skjel-ling p\aa veg-gjen Kj\os
+A2A2BB|G2G2B2|A2A2BB|G2G2B2|
+w:bru-ra f\or ho s\om-na Drekk \ol-et f\or da dom-na Gje
+A2A2BB|G2G2e2|d3=c BA|G2G2 z2|
+w:brur-svein sk\aa-la vat-ten S\aa sk\aa-la vi med ka-ran
+z2 z e d>c|d3e d>c|d3e d>c|dd dB G2|G2 z d d>=c|
+w:De \aat opp mat, de \aat opp fat, de \aat opp al-le mi-ne skei-e De gjor-de
+B2d2 =cc|B2 z d d>=c|d2 dB=c2|B2 z2z2|
+w:pus som ver-re va De \aat opp mer-ra med grei-e.
+W:
+W:Litl Ola mann
+W:Spell lite grand
+W:like nu s\aa kjem brura
+W:Brura va ong
+W:Krono va tung
+W:brurpia va f\orlora Hei
+W:l\osti kom kleggj\aen,
+W:fir skjelling p\aa veggjen
+W:Kj\os brura f\or ho s\omna
+W:Drekk \olet f\or da domna
+W:Gje brursvein sk\aala vatten
+W:S\aa sk\aala vi med karan
+W:  De \aat opp mat,
+W:  de \aat opp fat,
+W:  de \aat opp alle mine skeie
+W:  De gjorde pus
+W:  som verre va
+W:  De \aat opp merra med greie.
+
+
+
+
+
+X:32
+T:Morgonstund har gull i mund
+O:norway
+C:anon.
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:3/4
+L:1/4
+Q:1/4=120
+K:F
+"F"A2A|"C"(c>d)c|"F"A2A|"F"c2F|
+"Bb"F2F|"Gm"B2A|"F/C"A3|"C"C zC|
+"G/B"(G>A)G|"C7"(GF)E|"F"F2A|"C"G zG|
+"A"A2E|"Dm"(F>G)A|"Gm"B2"C"c|"F"A2"F7"A|
+"Bb"d2d|"F"(c>B)A|"Gm7  C"G3|"F"F2 z|]
+
+
+
+
+
+X:33
+T:Ni-og-nitti \ol
+O:norway
+C:anon.
+R:Drinking song, reinlender
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:2/4
+L:1/16
+K:G
+DD|"G"GGGG G2FG|"D7"A2A2 z2 DD|"D7"AAAA A2GA|"G"B2B2 z2 BB|
+w:Det st\aar ni-og-nit-ti \ol op-p\aa hyl-la, Det st\aar ni-og-nit-ti \ol op-p\aa hyl-la, og s\aa
+"C"cccc E2cc|"G"BBBB D2BB|"D7"AAAA (GF)EF|"G"G2G2|]
+w:tar vi oss en \ol, og s\aa tar vi oss en \ol, det st\aar \aatt-og-nit-ti \ol_ op-p\aa hyl-la
+W:
+W:Det st\aar ni-og-nitti \ol opp\aa hylla,
+W:Det st\aar ni-og-nitti \ol opp\aa hylla,
+W:og s\aa tar vi oss en \ol,
+W:og s\aa tar vi oss en \ol,
+W:det st\aar \aatt'-og-nitti \ol opp\aa hylla
+
+
+
+
+
+X:34
+T:Om kvelden
+O:norway
+C:anon.
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:C
+L:1/8
+Q:1/4=80
+K:Am
+z E|"Am"E>D C>D  E2 G>"D"^F|"E"EE ^G>AB3B|"Am"c2 c>B "Dm"A2B>A|
+"E"(^GA)"Am"A4 :: z B|"G"BB "Am"c>d "Em"B2 "C"G>B|"Am"BA "F"A^G "E"G<E- E=F|
+"Am"E>D "F"C>D "C"E2 "G"G>"D"^F|"E"E2 ^G>A B3B|"Am"c2 "F"c>B "Dm"AA "Dm6"B>A|"E"^GA "Am"A4|]
+
+
+
+
+
+X:35
+T:Opp lille Hans
+O:norway
+C:anon.
+R:Nursery song
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:3/4
+L:1/8
+K:C
+"C"E2GGC2|"C"E2GGC2|"F"FAc2A2|"F/C"A4"C"G2|
+"C"E2GGC2|"C"E2GGC2|"G7"DEF2B,2|"G7"D4"C"C2|]
+
+
+
+
+
+X:36
+T:P\aal sine h\oner
+O:norway
+C:anon.
+R:Reinlender
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:C|
+L:1/8
+Q:280
+K:D
+"D"d2d>f(a2a>)f|"G"b2b>g"D"a2a2|"A7"g2g>e"D"f2f>d|"A7"e2e>c"D"d2z2:|
+w:P\aal si-ne h\o-ner p\aa hau-gen ut-slep-te, h\o-na s\aa lett o-ver hau-ga-ne sprang.
+w:P\aal kun-ne vel[ext] p\aa h\o-na for-nem-ma, re-ven var u-te med rum-pa s\aa lang.
+"D"a2zfd2zf|"E7"e2e>d"A7"c2A2|"D"a2zfd2zf|"E7"e2e>d"A7"c2A2|
+w:Klukk, klukk, klukk, sa h\o-na p\aa hau-gen. Klukk, klukk, klukk, sa h\o-na p\aa hau-gen.
+"D"d3fa3f|"G"b2b>g"D"a2a2|"A7"g2g>e "D"ff fd|"A7"e2e>c"D"d2z2|]
+w:P\aal han sprang og reng-de med au-ga: "No t\or eg ik-kje ko-ma heim \aat ho mor."
+W:
+W:P\aal sine h\oner p\aa haugen utslepte,
+W:h\ona s\aa lett over haugane sprang.
+W:P\aal kunne vel p\aa h\ona fornemma,
+W:reven var ute med rumpa s\aa lang.
+W:Klukk, klukk, klukk, sa h\ona p\aa haugen.
+W:Klukk, klukk, klukk, sa h\ona p\aa haugen.
+W:P\aal han sprang og rengde med auga:
+W:"No t\or eg ikkje koma heim \aat ho mor."
+
+
+
+
+
+X:38
+T:Ringlender fra Gudbrandsdalen
+T:Ringlender from Gudbrandsdalen
+O:norway
+C:anon.
+R:Ringlender, reinledner
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:C|
+L:1/8
+Q:280
+K:G
+"G"B>c BA B>c BA|"G"B>c BAB2G2|"G"B2B2"D"A2(DF)|"D"A2(Ac)"G"B2G2|
+"G"B>c BA B>c BA|"G"B>c BAB2G2|"G"B2B2"D"A2(DF)|"G"G2G2G2z2:|
+|:"G"B>c de "D"d2(dc)|"D"A2(Ac)"G"B2G2|"G"B2B2"D"A2(DF)|"D"A2(Ac)"G"B2G2|
+"G"B>c de "D"d2(dc)|"D"A2(Ac)"G"B2G2|"G"B2B2"D"A2(DF)|"G"G2G2G2z2:|]
+
+
+
+
+
+X:39
+T:Rolandskvadet
+O:norway
+C:anon.
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:C
+L:1/4
+K:Dm
+"Dm"AA/A/AA|"Gm"GFDD/C/|"Dm"DD/D/F"C"G|"F"A2AA|
+w:Seks mi-ne svei-nar hei-me ve-ra og gj\oy-me det gul-let bal-de. Dei
+"Dm"AAFG|"Gm"GDDD|"Dm"FF/F/"C"EC|"Dm"D2D2||
+w:and-re seks p\aa heid-nings-lan-do gj\oy-me dei jar-ni kal-de.
+"Dm"FF/F/AA|"Gm"GFFD|"Dm"DDF"C"G|"F"A2A2|
+w:Ri-a dei ut or Frank-lan-det med dy-re dros i sa-del.
+"Dm"AAFG|"Gm"GDDD|"Dm"F2("C"EC)|"Dm"D2D2|]
+w:Bl\aes i lu-ren, O-li-vnt p\aa Ron-sar-[ext]vol-len.
+W:
+W:Seks miene sveienar heieme veera og gj\oyeme det gulelet balede.
+W:Dei andere seks p\aa heideningselanedo gj\oyeme dei jareni kalede.
+W:  Ria dei ut or Frankelanedet med dyere dros i saedel.
+W:  Bl\aes i lueren, Oelievant p\aa Ronesareevolelen.
+W:
+W:Slogest dei ut p\aa Ronsarvollen i dagane tvo og trio
+W:da fekk ikkje soli skine bjart for rykjen av manneblodet.
+W:  Ria dei ut...
+W:
+W:Roland sette luren for blodiga mundi bles han i med vreide.
+W:Da rivna jord og jardarstein i trie dger av leide.
+W:  Ria dei ut...
+
+
+
+
+
+X:40
+T:Steinbrytervise
+T:Nisser og dverge
+O:norway
+C:anon.
+R:March, Nursery song
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:2/4
+L:1/8
+K:C
+"C"c2BA|"C"G2G2|"C"A2GF|"C"E2E2|"G7"G2FE|"G7"D2DE|"G7"F2ED|"C"C2 z2|
+"G7"D2DE|"G7"F2D2|"C"E2EF|"C"G2E2|"F"A2AB|"C"c2GE|"G7"G2FD|"C"C2 z2|]
+
+
+
+
+
+X:41
+T:Vi sk\aaler for v\aare venner
+O:norway
+C:anon.
+N:I'm afraid I had to censor the lyrics a little ;)
+R:Drinking song, vals
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:3/4
+L:1/8
+K:E
+B,2|"E"E2GF ED|"A"C2D2E2|"B7"B,2C2D2|[1"E"E2G2:|[2"E"E2 z2|]
+w:Vi sk\aa-ler for v\aa-re ven-ner og dem som vi kjen-ner, i
+w:og dem som vi ik-ke kjen-ner, dem bl\aa-ser vi
+W:
+W:Vi sk\aaler for v\aare venner og dem som vi kjenner,
+W:og dem som vi ikke kjenner, dem bl\aaser vi i
+W:
+W:
+
+
+
+
+
+X:42
+T:Balzer Jungfrau
+O:norway
+R:Waltz
+M:3/4
+K:D
+B AG| \
+F2D2 D2| GF GB AG| F2 DF Ad| f2 d2 d2| \
+c2 Ac ef| ge cA Bc| d2 BG BG| AB AG FE|
+F2D2 D2| GF GB AG| F2 DF Ad| f2 d2 d2| \
+c2 Ac ef| ge cA Bc| d3f ec |1 d3 :|2 d4 |
+|: B2|\
+A2 f3A| B2 gB gB| A2 f3d| A4 A2| \
+Ac e2 d2| c3B A2| G2 BG BG| AB AG FG|
+A2 f3A| B2 gB gB| A2 f3d| A4 A2| \
+Ac e2 d2| c3A fe| d3f ec|1 d4 :|2 d3 |]
+
+
+
+
+
+X:43
+T:Brudmarsch from Voss
+O:norway
+R:Wedding march
+M:4/4
+C:Hans Brimi
+K:D
+A2|\
+f2 {g}fe/f/ {fgfg}g2 {a}gf/g/|\
+{g}a>b {ag}ag e>e gf|\
+d2 {dc}dc/d/ f{g}f/e/ dc|1 \
+{c}A2 A>A A2 :|2 {c}d2 d>d d2 ::
+AG|\
+F3/2G//F// ED EF {GF}GE|{EFE}F2 D>D D2 ge|\
+{e}f2 fd e2 ec|1 A2 A>A A2 :|2 {cdc}d2 d>d d2:|
+
+
+
+
+
+X:44
+T:Bruemarsj e. Per Sloijva (?)
+O:norway
+A:Breim, Nordfjord
+R:Wedding march
+M:6/8
+N:Yorkshire Dales Scandy weekend, June '99; workshop tunes
+Z:photocopies from Arne S\o{}lvberg
+K:D
+V:1
+[A,6D6A6e6]|]\
+uA|:\
+d3 (dcd) | B3 A3 | e3 (e^de) | c3 A3 |\
+d3 (dcd) | B3 g3 |
+f(ef) b(ge) |1 (d2f) (d2A) :|2 (d2f) (d2uE) \
+K:A
+|: vc2(c {d}c)Bc | A2E A(ce) |
+d2B G(Bd) | ([f2d2]e) (c2[Ac]) | \
+c2(c {d}c)Bc | d3 [f3d3] | f(ec) e(dB) |1 (A2c) {G}uA2ue :|2 (A2c) A2|]
+V:2
+z6|] \
+F|:\
+F3 (FEF) | G3 F3 | c3 (c^Bc) | A3 G3|\
+F3 (FEF) | G3 B3 | A(GA) B(BG) |1 (F2A) (F2F) :|2 (F2A) (F2E) \
+K:A
+|: uE2(E E)DE| E2B, E(Ac) | B2G E(GB) | (d2c) (A2E) |\
+A2(A {B}A)GA | F3 B3 | e(cA) GE2 |1 (B,2E) (B,2B,) :|2 (B,2E) B,2 |]
+
+
+
+
+
+X:45
+T:Engelska ? Halling ?
+O:norway
+R:Engelska
+R:Halling
+M:4/4
+W:H\"ar kommer gutar, gutar i fra Halsnes, H\"ar ska ni se p\aa{} gutar som kan sl\aa{}ss
+K:G
+D2EF G2B2|AGFA G2B2|D2EF G2B2|AGFA G4::
+BcdB d2dc|A2Bc B2G2|BcdB d2dc|A2BA G4:|
+
+
+
+
+
+X:47
+T:Halling e. Gabriel Reed
+O:norway
+M:6/8
+R:Halling
+N:Yorkshire Dales Scandy weekend, June '99; workshop tunes
+Z:photocopies from Arne S\o{}lvberg
+K:A
+[A,6D6A6e6]|]\
+vA2c d2(uf | b)g(ue a)fd | e2c d2(uB | e)c(A uB)GE | A3 A2z ::
+K:D
+(vF3 D2)d | (dc)e d2F | E2(uE D)vd2 | (udce) d2F | E2(E A)F(F |\
+[M:3/8] D)B,E | [M:6/8] D3 D2z :|
+
+
+
+
+
+X:48
+T:Hamburgar
+O:norway
+C:e. Alf Rosenlund
+A:Davik, Nordfjord
+R:Polka
+M:2/4
+N:Yorkshire Dales Scandy weekend, June '99; workshop tunes
+Z:photocopies from Arne S\o{}lvberg
+K:D
+V:1
+z8 |:(uAG)|\
+FGAB A2d2 | f6 (fa) | g2f2 e2d2 | c2B2 A2G2 |\
+FGAB A2d2 | f6 (ed) | c2e2 B2e2 | A4 z2 :: A2 |
+g3f edcB | B2A2 A2G2 | F2A2 d2f2 | f2e2 e2A2 |\
+g3f edcB | B2A2 A2G2 | FAdf | a3c | d2d2 d2 :: =c2 | \
+K:G
+B3d c3e | d2g2 gf(g2 | a2)d2 d^c(d2 | b2)g2 gfg2 |\
+(uB3d) c3e | d2g2 gf(g2 | a2)a2 fed2 | g2g2 g2 :|
+V:2
+[A,8D8A8e8]|: (uFE)|\
+DEFG F2A2 | d6f2 | e2d2 c2B2 | A2G2 F2E2| \
+DEFG F2A2 | d6 (cB) | E2E2 [C2E2][C2E2] | [B,6E6] :: A2|\
+ve3d cBAG| G2F2 F2E2| D2F2 A2d2 | d2c2 c2A2 | \
+e3d cBAG G2F2 F2E2 | DFAd A3G | F2F2 F2 :: A2 |\
+K:G
+vG3B A3c | B2B2 BA(B2 | c2)B2 BA(B2 |d2)B2 BAB2 |\
+(uG3B) A3c | B2B2 BA(B2 | c2)c2 cc(c2 | B2)A2 [G2B2] :|
+
+
+
+
+
+X:49
+T:Lugum Leik
+O:norway
+M:4/4
+D:'Vind' (Ale M\o{}ller, Sten K\"allman, Thomas Ringdahl)
+C:e. Hans W. Brimi
+K:C
+A,2 |\
+D2 ED C2 C2 | D2 F2 A2 c2 | \
+cBAG B2 Bc |1 A2 AF D2 :|2 A2 A4 cB \
+|: G2 G4 AF | D2 D4 FD |
+M:6/4
+C2C2 E2 EF D2 DF | \
+M:4/4
+A2A4 cA | G2 G4 AF | D2 D4 FD | C2 C2 E2 EF |1 \
+M:6/4
+D2 D2 D2 FA A2 cA:|2 \
+M:4/4
+D2D2D2|]
+
+
+
+
+
+X:51
+T:Pentiis schottis
+O:norway
+R:Schottische
+M:4/4
+K:Am
+A>B cd e2e2|f>e fa e4\
+|1 d>^c dB =c>B cA|B2e2 e>d cB :|2
+d>c BA ^GE cB|A2A2 A4:: \
+e|\
+a>^g {g}a2 a2a2|A>c eg fe (d2|
+d2)g^f {f}g2g2|G>B df ed cd|\
+{d}e2A2 AB cd|e<a a2 ae gf|\
+ed fe dB cB|A2A2 A3:|
+
+
+
+
+
+X:52
+T:Pols fr R\o{}ros
+O:norway
+R:Pols
+M:3/4
+K:D
+d>d- dc A2|f>f- fd e>f|\
+(3geg (3fdf e>c|(3def d<c A2|\
+d>d- dc A2|f>f- fd e>f|
+(3geg (3fdf e>c|(3def d4::\
+a>a- af g>e|f>f- fd e>f|
+(3geg (3fdf e>c|(3def d<c A2|\
+a>a- af g>e|f>f- fd e>f|\
+(3geg (3fdf e>c|(3def d4:|\
+
+
+
+
+
+X:53
+T:Pols fr R\o{}ros (2)
+O:norway
+R:Pols
+M:3/4
+Q:1/8=320
+K:DDor
+d2 d<^c A2|f2 fd e>f|\
+(3geg (3fdf e>^c|d2 {e}d<^c A2|\
+d2 d<^c A2|f2 fd e>f|\
+(3geg (3fdf e>^c|^cd d4:|
+|:\
+K:D
+a2 fa fa|g2 eg eg|f2 (3dfd e>c|d2 df a2|\
+a2 fa fa|g2 eg eg|f2 (3dfd e>c|c<d d4:|
+
+
+
+
+
+X:54
+T:Polska
+O:norway
+D:Filarfolket Live
+R:Polska
+M:3/4
+D:Filarfolket Live
+C:e. Hans W. Brimi
+K:Gm
+G>B B<A A>G | (3AcA A<B B>A | \
+G>A (3BGB (3A^FA | G>B B<A A>G | \
+A>A c<d d>B |
+G>A (3BGB (3AG^F | ^F<G G4 ::\
+d2 cA B>c | d>e (3fdf (3ece |
+d2 cA B>d | (3cde d>c (3ABB | \
+A2 a2 g>f | d>f (3egf d>d |\
+c>A (3BGB (3AG^F | ^F<G G4:|
+
+
+
+
+
+X:55
+T:3-part Reinl\"ander
+O:norway
+D:Spaelimenninnir i Hoydalum
+R:Reinl\"ander
+M:4/4
+K:Dm
+DEFG A2A2 | AGBG A2F2 | FEGE F2DF | ED^CE D2D2|\
+DEFG A2A2 | AGBG A2F2 | FEGE F2DF \
+|1 ED^CE D4 :|2 \
+M:6/4
+ED^CE D6^FA || \
+M:4/4
+K:D
+d4 d2ec | c2A2 A4 | GFEF GABd | c2A2 A2Bc |\
+d4 d2ed | c2A2 A4 | GFEF GECE | D2D2 D2FA |\
+d4 d2ed | c2A2 A4 | GFEF GABd | c2A2 Aaag |\
+f2d2 dfed | c2A2 A4| GFEF GECE | D2D2 D2=FA|\
+K:Dm
+|:d2d2 c3B | AGAB AFDE | F2FF GABG | A2AA =B2^c2|\
+d2d2 c3B | AGAB AFDE | F2FF ED^CE | D2D2D2:|
+
+
+
+
+
+X:56
+T:Reinl\"ander
+O:norway
+R:Reinl\"ander
+M:4/4
+K:D
+D2d2 A2f2|f2ed e2GF|EFGA B2cd|edcB AGFE|\
+D2d2 A2f2|f2ed e2GF|EFGA BAfe|d2d2 d4:|
+K:Am
+|:e3d cBA2|e3d cBA2|E2^GB A2cA|B2e2 e4|\
+e3d CBA2|e3d cBA2|E2^GB cBAG|A2A2 A4:|
+
+
+
+
+
+X:57
+T:Reinl\"ander e. Ornun Egland
+O:norway
+R:Reinl\"ander
+M:4/4
+K:DMix
+D>EFG A2cA| B>AAF D2DF| E2C2 C2EG| F2D2 D4:|
+|:d2dd d2ed| c2A2 A3B| A>GFE F>G Ad| ^c2AA A3A|\
+d2dd d2ed| c2A2 A3B| A>GFE F2DC| D2D2 D4:|
+
+
+
+
+
+X:58
+T:Reinl\"ander fr Ringnes (Bergen polka)
+O:norway
+R:Reinl\"ander
+R:Polka
+M:4/4
+K:D
+D>F ED F2F2|D>F ED f2f2|1\
+g>f ed cBA2|A>B AF GF EF :|2\
+g>f ed cA Bc|d2dc d4::
+g2g2 g2fe|f2e2 e>f ed|c2EF GA Bc|1\
+d>c de fd ef:|2 d2d2 d4:|
+
+
+
+
+
+X:59
+T:Reinl\"ander fr Voss
+O:norway
+R:Reinl\"ander
+M:4/4
+A:W\"asterbotten
+K:D
+d2df A2AG | FEFB A4 |1 BAGF G2E2 | AGFE F2D2 \
+:|2 A2ce aecA | d2d2 d4 :|
+|:\
+K:A
+|:E2EG A2AB | cBcf e4 | fedc d2B2 | edcB c2A2 |\
+E2EG A2AB | cBcf e4 |
+|1 fedc dBGB | A2A2 A4 \
+:|2 E2GB d2cB | A2A2 A4 :|
+
+
+
+
+
+X:60
+T:Reinlendar
+O:norway
+R:Reinl\"ander
+C:e.Jens Mausset / Einar Espe
+M:2/4
+N:Yorkshire Dales Scandy weekend, June '99; workshop tunes
+Z:photocopies from Arne S\o{}lvberg
+K:D
+[A,8D8A8e8]|]\
+(uFA)d(e f)(^ga)b | a2f2 a4 | (^g2e2) =g3e | f2d2 f4 |
+(FA)d(e f)(^ga)b| a2f2 a4 | (^g2e2) (af=g)e | d2d2 d2z2 ::\
+[(uG,2D2]g2) (ge)(ce)| {e}g2(ef) d2(FG) |
+ABcd efga | (ba)(^ga) f>ef2 |\
+[(G,2D2]g2) (ge)(ce)| {e}g2(ef) d2(FG) | ABcd efge | d2d2 d3z:|
+
+
+
+
+
+X:61
+T:Schottis fr Norway
+O:norway
+R:Schottische
+M:4/4
+K:DDor
+A>^cde f2f2|f>ee^c A4|A>_BAG F>EDF|A2G<B A4|\
+A>^cde f2f2|f>ee^g a4|
+a>geg f>edf|e2^c2 d4::\
+f>efg f>ed2|d>efd e2A2|
+F>A G<A F>A G<A|F>A G<B A4|\
+A^cde f2f2|f>ee^g a4|a>geg f>edf|e2^c2 d4:|
+
+
+
+
+
+X:62
+T:Scottis
+O:norway
+R:Schottische
+M:4/4
+C:e. Georg Brobacken
+K:AMix
+~(E2 E)>F (E2 E)>D|E>B c>B A4|1\
+(c2 c)>B (G2 G)>F|G>B e>c B<A A>F :|2\
+(c2 c)>B G>B e>c|B<A A>B A4 :|
+|:\
+~(a2 a)>b (g2 g)>f|e>f e>c B<A A2 |1\
+(c2 c)>B (G2 G)>F|G>B e>c B<A A2 :|2\
+(c2 c)>B G>B e>c|B<A A>B A4 :|
+
+
+
+
+
+X:63
+T:Springleik fr Folldal
+O:norway
+R:Polska
+M:3/4
+K:A
+(3efg a2-a>g | (3agf e2-ee| \
+(3f2d2e2 c>c | d<e fe e>c | \
+(3dBd (3cAc B>G |1 A2 B4 :|2 G<A A4 :|
+|:c>B Ac E>E | B<c df e>c | \
+(3dBd (3cAc B>G |1 A2 B4 :|2 G<A A4 :|
+
+
+
+
+
+X:64
+T:Waltz
+O:norway
+C:e. Hans W. Brimi
+R:Waltz
+M:3/4
+K:GDor
+AB|\
+D2 ^F2 A2|AB BG cA|1 B2 cB AG|^F2 D2 C2 :|2\
+B2 cB A^F|G4 ::
+GB|\
+d2 ^cd cd|B2 G2 GA|1 B2 cB AG|^F2 D2 D2:|2\
+B2 cB A^F|G4 :|
+
+
+
+
+
+X:66
+T:Waltz fr Norway
+O:norway
+R:Waltz
+M:3/4
+K:Dm
+D2|\
+G2 BG Bd|dc AB G2|BA FA cB|G2 B2 d2|\
+d2 fd fa|ag ef d2|fe ce gf|1 d4 :|2 d3 ||
+|:\
+K:G
+e dc|\
+B2 d2 g2|b2 a2 g2|gf e2 d2|g3f e2|\
+A2 B2 c2|e3 d cB|dc Bc Ad| G3 :|
+
+
+
+
+
+X:67
+T:Vals fra Folldal
+O:norway
+A:Folldal, Österdal
+Z:Lennart Sohlman, Älta, Sweden
+M:3/4
+L:1/8
+Q:1/4=180
+K:Gm
+(DE) D2 C2|B,2 A,2 G,2|(G,A,) (B,C) D2|B2 (AB) G2|\
+d2 (^c=e) d2|(dc) (Ac) B2|B2 (AG) (^FA)|[1 G6:|[2 G3 A (Bc)|:\
+d2 ^c2 d2|B3 A G2|(GB) (AG) (^FA)|(G^F) (GA) (Bc)|\
+d2 ^c2 d2|B3 A G2|(GB) (AG) (^FA)|[1G3 A (Bc):|[2G4 d2|:\
+d2 (^cA) (cA)|(BG) (DG) (BG)|(A^F) (DF) (AF)|G2 (^FG) (AB)|\
+d2 (^cA) (cA)|(BG) (DG) (BG)|(A^F) (DF) (AF)|[1G4 d2:|[2G6|]
+T:Andrastämma
+O:norway
+(B,C)B,2 A,2|G,2 C2 B,2|vG,2 u[B,2D2] u[B,2D2]|G2 (^FG) D2|\
+B2 (Ac) B2|(BA) (^FA) G2|G2 (^FD) (A,C)|[1[B,6D6]:|[2[B,3D3]^F (GA)|:\
+B2 A2 B2|G3 ^F D2|(DG) (^FD) (A,C)|(B,A,) (B,D) (GA)|\
+B2 A2 B2|G3 ^F D2|(DG) (^FD) (A,C)|[1[B,6D6]:|[2[B,4D4] B2|:\
+B2 (A^F) (AF)|(GD) (B,D) (GD)|(^FD) (A,C) (DA,)|B,2 (A,B,) (DG)|\
+B2 (A^F) (AF)|(GD) (B,D) (GD)|(^FD) (A,C) (DC)|[1[B,4D4] B2:|[2[B,6D6]|]
+
+
+
+
+
+X:68
+T:Ringländer efter Nille Henningsgård (Brekken)
+O:norway
+A:Röros (Brekken)
+M:4/4
+L:1/8
+Q:C4=80
+K:D
+A>df>e e>df2|A>df>e e>df2|f>ee>f g>ece|d>cd>f a2a2|\
+A>df>e e>df2|A>df>e e>df2|f>ee>f g>ece|[1d>edc d4:|\
+[2d>edc d3(f|:\
+g2)g2 g>fe2|f2f2 f>ed2|c>def g>ece|d>efg a2a2|\
+g2g2 g>fe2|f2f2 f>ed2|c>def g>ece|d>edc d4:|]
+
+
+
+
+
+X:69
+T: En Sang Til Deg
+O:norway
+M: 2/4
+L: 1/8
+Q: 1/4=160
+K: Em
+%%MIDI gchord zf
+"D"z2"Em"B,2|E2E^D    |E2"Bm"d2|B2B2    |\
+F3A         |G2"G"GF  |E2"Em"E2|FE"B"F^D|B,3B,|
+E2"B"E^D    |E2"Bm"d2 |B2B2    |F3A     |\
+"C"G2GE     |F2"Bm"F^D|"E"E4-  |E4      |
+
+
+
+
+
+X:70
+T: Hoppvals fra Feragen
+O:norway
+R: polka, Busserull
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K:  D
+|: F \
+| "D"A>A AG | FA dc | "G"B>B BA | "Em"GB ed \
+| "A7"c>c cc | cA Bc |1,3 " D"d>d dB | "A7"A3 :|2,4 " D"d2 {e}dc | d3 :|
+|: f \
+| "D"a>a ^ga | ba gf | "A7"g>g gf | e3 f \
+|1,3 g>g gf | ez A2 | "D"f>f fe | d3 :|2,4 " A7"g>g ge | cA Bc | "D"d2 {e}dc | d3 :|
+
+
+
+
+
+X:71
+T: Pariserpolka
+O:norway
+R:
+S: etter Sigbj\orn B Osa
+B:
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+N:
+M: 2/4
+L: 1/16
+K: D
+|: "D"Adef e2d2 | "G"g2B2 g2B2 | "A7"Aceg f2e2 | "D"a2d2 f2d2 \
+|  Adfa g2f2 | "Em"b2e2 g2e2 | "A7"Aceg f3e | "D"d2f2 d4 :|
+K: A
+|: "A"[f4A4]- [e4A4] | [c2e4]A2 [c2e4]A2 | [f4A4]- [e4A4] | "E7"[d2e4]B2 [d2e4]B2 \
+| [f4d4]- [e4d4] | [d2e4]B2 [d2e4]B2 | [f4d4] e3c | "A"A2c2 A4 :|
+K: D
+|: "A7"A,2A,2 B,2C2 | "D"D2F2 A4 | "G"[B2G2][B2G2] "A7"[cG2]B[c2G2] | "D"d2f2 dcd2 \
+|  "A7"A,2A,2 B,2C2 | "D"D2F2 A4 | "G"[B2G2][B2G2] "A7"[cG2]B[c2G2] | "D"[d4F4] [d4F4] :|
+
+
+
+
+
+X:72
+T:Pols
+O:norway
+R:Polska
+M:3/4
+K:E
+{B}e2 dc B>G|G<E EG F<G|A>F DF E>G|B2G<E E2|\
+{B}e2 dc B>G|G<E EG FG|A>F DF E2 |1E6 :|2 E4||\
+B,2|\
+C2 D2 E>F|G2 G2 AA|A>F DF E>E|DC B,2 E>D|\
+C>B, CD E>F|G2G2 B>B | B>B, CD E2|E4:|
+
+
+
+
+
+X:75
+T:Den norske Dale-viise
+O:norway
+M:C
+L:1/8
+Q:240
+C:anon.
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+K:Em
+"Em"G2 G>E "B7"B,2 B,>^D|"Em"E2E4 z2:|"Em"E>F G>A B2 "Am"c>B|"F#7"^A2"B"
+B4z2|
+w:Field- byg- gen ac- ter paa Ti- den Tar hand \Ox paa Nac- ken i Bac- k
+en.
+w:Vin- ter naar Da- gen er li- den.
+M:3/4
+"Em"G>A G>F G2|"Em"G>A G>F G2|"Em"G>A G>F G2|"Em"G>A G>E "B7"HB,2|
+w:Gaar i dy- ben Snee, Op til L\aen- der- ne, Fin- der sig et Tr\aee, Kr
+aa- get til at see,
+M:C
+"Em"E>F G>A B2 "Am"c>B|"F#7"^A2"B"B4z2|"Em"G>A G>F G2 "B7"F>^D|"Em"E2E4z
+2|]
+w:Hug- ger der- af Mey- e, som pley- e, Bru- gis un- der Sle- de paa Vey
+- e.
+w:Saa gjennem Granskov og Furru
+W:Kom jeg til en heeder Gurru,
+W:Gav mig M\osse-Br\omme
+W:Og R\omme.
+W:Udi Buncken laa
+W:Fluer stor' og smaa,
+W:Ilde ud de saae,
+W:Maat dog gaa derpaa;
+W:Blev det Maaltid \aedet,
+W:Jeg svedet,
+W:Saa jeg n\aer nedstyrtet af S\aedet.
+w:Som det nu lacker til Qv\aellen,
+W:Ind kom Fru Gurru med Fellen,
+W:Fellens Haar var lange
+W:Og mange;
+W:Fremmed Rytteri
+W:For Fribytteri
+W:Skiuler sig deri,
+W:Ginge paa Parti,
+W:De red ey paa Sale,
+W:De Kale,
+W:Men min Ryg det fick at betale.
+w:Ryggen den blev skrammereret,
+W:V\ae dem, for mig de skamferet
+W:O hvor bide kunde
+W:De Hunde
+W:De sin Skaal ey sveg,
+W:Plucket surt min Steeg,
+W:Gr\aedendis og bleeg,
+W:Gick jeg af den Leeg
+W:Og blef viis forsilde,
+W:Hvor ilde
+W:Mig bekom Fru Gurru sit Gilde.
+w:Som jeg saae Dagen fremliuse,
+W:B\od jeg farvel udi Huuset.
+W:Gurru bad mig t\ove,
+W:Mad pr\ove:
+W:Faa den Skam det gi\or
+W:Icke det jeg t\or.
+W:Jeg har v\aert der f\or,
+W:Kiender vel Jers Ski\or
+W:Gid det i jers Tarme
+W:Med Harme
+W:Stod indtryckt med Ild og med Varme.
+W:               Petter Dass
+%The priest and poet Petter Dass (1647-1707) is a legendary, nearly
+%mythological figure in Northen Norway. In these verses he complains
+%is rather different from modern Norwegian.
+
+
+
+
+
+X:76
+T:Det st\aar ein friar uti gar'e
+O:norway
+M:3/4
+L:1/8
+Q:320
+C:trad.
+R:Springdans?
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+K:F
+z>C C>C|"F"F2A2 (3(GF)G|"F"F2E2D2|"C7"D2C2C2|"C7"C2:: z>A A>A|
+w:Det st\aar ein fri- ar u-[ext] ti ga- r'e, mor lil- la. Hau hau Kor m
+an- ge
+"Bb"B2B2A>G|"F"A4G>F|[1"C7"G2-G3/2F/ E>G|"F"c2:|[2"C7"G2-G3/2F/ (3(ED)E|
+"F"F2||
+w:pen- gar hav- er han, du mi dot- ter Da- li- a? dot- ter Da-[ext] li-
+a?
+|:z2 C2|"F"F2A2G2|"F"F2E2 D>D|"C7"D2C2C2|"C7"C2:: z2 A>A|
+w:To hund- re riks- da- lar, sei- er han at han har. Sei han
+"Bb"B4 A>G|"F"A4G>F|[1"C7"G2-G3/2F/ E>G|"F"c2:|[2"C7"G2-G3/2F/ (3(ED)E|"
+F"F2|]
+w:nei, vis han vei, du mi dot- ter Da- li- a dot- ter Da-[ext] li- a
+w:Det st\aar ein friar uti gar'e, mor lilla. Hau hau
+W:Kor mange pengar haver han, du mi dotter Dalia?
+w:Tre hundre riksdalar, seier han at han har.
+W:Sei han nei, vis han vei, du mi dotter Dalia
+w:Det st\aar ein friar uti gar'e, mor lilla. Hau hau
+W:Kor mange pengar haver han, du mi dotter Dalia?
+w:Fire hundre riksdalar, seier han at han har.
+W:Sei han nei, vis han vei, du mi dotter Dalia
+w:Det st\aar ein friar uti gar'e, mor lilla. Hau hau
+W:Kor mange pengar haver han, du mi dotter Dalia?
+w:Fem hundre riksdalar, seier han at han har.
+W:Lat opp d\ora, slepp han inn, du mi dotter Dalia
+W:
+W: From "Falaleiro" http://home.t-online.de/home/pheld/homepage.htm
+
+
+
+
+
+X:77
+T:Eg veit ei lita jente
+O:norway
+M:2/4
+L:1/8
+Q:240
+C:anon.
+R:Reinlender?
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+K:C
+z/G,/|"C"C>C CE|"C"G>G GG|"F"A>F cA|"C"G2z>G|
+"F"A>F FA|"F"c>c BA|"F"A4|"C"G2z>G|
+"Dm"F>F AF|"G"D>D DF|"C"E>E "C/B"GE|"Am"C>C CE|
+"Dm"E>D DE|"G"F>D B,D|"G7"D4|"C"C2z|]
+W:
+W: From "Falaleiro" http://home.t-online.de/home/pheld/homepage.htm
+
+
+
+
+
+X:78
+T:Vassr\aafela
+O:norway
+M:4/4
+L:1/8
+Q:100
+C:trad.
+A:Gudbrandsdalen
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+K:Ador
+"Am"ee dc "G"BG|"Am"A3z::"Am"EA Ac "G"BG|"Am"A3z:|
+"Am"e2-e/d/c/d/|"Am"eg "D"(fd)|"Am"e3z|"G"d2-d/c/B/A/ (BG)|"Am"A3z|]
+w:Vassr\aafela var t\aa tre.
+W:Djupt i ljosna sakk ho ned.
+W:I ei br\aato fanns ho att,
+W:Sia let ho dag og natt.
+W:Su-di-du-di-du-di-dei-da,
+W:Su-di-du-di-dei-da.
+W:
+W: From "Falaleiro" http://home.t-online.de/home/pheld/homepage.htm
+% Output from ABC2Win  Version 2.1 i on 14.04.2001
+
+
+
+
+
+X:79
+T:Byssan lull
+O:norway
+M:C
+L:1/8
+Q:240
+C:anon.
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+K:Dm
+"Dm"D2A2"Dm7"A2AA|"G7"A2GF"A"E3F|"A"G2GGG2AG|"Dm"F4"A"E2z2|
+"Dm"D2A2"Dm7"A2AA|"G7"A2GF"A"E3F|"A"G2GGG2AG|"Dm"F4"A"E2zE|
+"Fdim"FFFD"A"E3E|"Fdim"FFFD"A"E3F|"A7"G2AB"Dm"A2"Gm"GF|"A7"E4"Dm"D2z2|]
+W:
+W: From "Falaleiro" http://home.t-online.de/home/pheld/homepage.htm
+
+
+
+
+
+X:81
+T: Feiar med vals
+O:norway
+R: mixed
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+"vals"\
+|:edc\
+| "G"cB BD GB | "D7"BA Ac cB | BA AD FA |1,3 "G"GBd :|2,4 "G"G3 :|
+M: 2/4
+L: 1/16
+"feiar"\
+|:Bd\
+| "G"g2fe d2Bd | "D7"dcAF "G"G2Bd | g2fe d2Bd | "D7"dcAF "G"G2 :|
+"polka"\
+|: FE\
+| "D7"D2FA "G"G2Bd | "C"e2ge "G"d2Bd | "D7"c2Ac "G"B2GB | "D7"AGFA "G"G2 :|
+
+
+
+
+
+X:83
+T: Trondheimar
+O:norway
+R: mixed
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+"vals"\
+|: AB \
+| "F"c(c f)(f a)f | c4 ~c2 | "C7"dc c2 c2 | "F"c3 AFA \
+| c2 =Bc ed | Ac fa g"(#)"f | "C7"ga bc eg | "F"f4 :|
+M: 2/4
+L: 1/16
+"feiar"\
+|: A2 \
+| "Dm"d^cdf "A7"e^cA2 | "Dm"aefd "A7"e^cA2 | "Dm"FAEA DFAd | "A7"^ceAc "Dm"d2 :|
+"polka"\
+|: cB \
+| "F"A2f2 c2a2 | c2dc BAGF | "C7"E2g2 g2bg | efge "F"f2 :|
+
+
+
+
+
+X:651
+T:Holtrilen
+N:"The Reel From Holt"
+O:Norway
+R:Reel ??
+M:4/4
+D:\AA{}non Egeland \& Per Midstigen - I heitaste sl\aa{}tten (Heilo HCD7071)
+N:2nd bar of 2nd part, BABd sometimes BGBd
+%%ID:00000c99
+Z:Richard Robinson <URL:http://www.leeds.ac.uk/music/Info/RRTuneBk/contact.html>
+F: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c99.abc
+K:D
+D2FA d2dd | efed cBA2 | B2AG F2FG | ECEG FDDD|
+FDFA d2dd | efed cBA2 | fdff gece |1 d2f2 d2z2 :|2 d2f2 d2 |:
+fe|\
+d2de c2cd | BABd cBA2 | B2AG F2FG | ECEG FD D2|
+FDFA d2dd | efed cBA2 | fdff gece |1 d2f2 d2 :|2 d2f2 d4|]
+
+
+
+
+
+X:1152
+T:Reinl\"ander e. \AA{}non Egeland
+C:e. \AA{}non Egeland
+R:Reinl\"ander
+O:Norway
+M:4/4
+%%ID:00000be6
+Z:Richard Robinson <URL:http://www.leeds.ac.uk/music/Info/RRTuneBk/contact.html>
+F: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000be6.abc
+K:DMix
+D>EFG A2cA| B>AAF D2DF| E2C2 C2EG| F2D2 D4::\
+%
+d2dd d2ed    | c2A2 A3B  |
+A>GFE F>G Ad | ^c2AA A3A |\
+d2dd d2ed    | c2A2 A3B  |\
+A>GFE F2DC   | D2D2 D4  :|
+
+
+
+
+
+X:1156
+T:Reinlander
+O:Norway
+R:Reinl\"ander
+M:4/4
+%%ID:00000c82
+N:YDW 2002, Settle
+Z:Carol Turner
+F: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c82.abc
+K:ADor
+E2|\
+A2zB cBcd | efed e2ef |\
+g2ge f2fd | efed e2E2|\
+A2zB cBcd | efed e2ef |
+g2ge f2fd | e2e2e2 :: \
+z2 |[M:2/4] a8 [M:4/4]| \
+ggge fffg/f/ | efec A2AB |
+c2Bc d2cd | efed e2ef |\
+g2ge f2fd | efec A2AB | \
+c2BE E^GBG | ABA^G A2 :|
+
+
+
+
+
+X:1270
+T:Skjerkholtrilen
+O:Norway
+R:Reel ??
+N:I'm not actually quite sure where to put the barlines in the 1st part.
+D:\AA{}non Egeland \& Per Midstigen - I heitaste sl\aa{}tten (Heilo HCD7071)
+L:1/8
+M:4/4
+%%ID:00000ca2
+Z:Richard Robinson <URL:http://www.leeds.ac.uk/music/Info/RRTuneBk/contact.html>
+F: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ca2.abc
+K:A
+A3B | \
+cBA=G FDFA | EGBd cAce | d2fa gfed | ceA2 A2AB | \
+cBA=G FDFA | EGBd cAce | d2fa gece |1 d2 d2 d4 :|2 d2d2d2 |:
+(3efg |\
+a2ga fdfa | g2e2 e2 fg | a2ga fdfa | g2e2 A2ce |\
+a2ga fdfa | gfed cABc | \
+dBA=G FDFA | EGBd cAce | d2fa gece |1 d2 d2 d2 :|2 d2 d2 d4 |]
+
+
+
+
+
+

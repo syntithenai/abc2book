@@ -1,0 +1,15 @@
+X:88
+T:Rudimental Step
+C:1972 Fife - Art Ferrante
+M:2/4
+Q:1/4=100
+L:1/16
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d2|Lg2gg Lf2ff|Le2ee Ld2G2|GABc d2B2|gfgd LG2B2|Lg2gg Lf2ff|Le2ee d2G2|GABc d2B2|Lg2Lb2Lg2::
+d2|Lg2gg LG2GB|GABc d2B2|g2fg La2aa|g2f2 Tg4|Lg2gg G2GB|GABc d2B2|g2fg La2aa|Lg2Lb2Lg2::
+d2|g2ag f2gf|e2fe d2G2|GABc d2g2|GBdg Lb2z2|gfgd G2GB|GBdg Lb2z2|gfgd G2B2|Lg2Lb2Lg2:|

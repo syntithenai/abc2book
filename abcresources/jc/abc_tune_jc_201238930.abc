@@ -1,0 +1,20 @@
+X: 3161
+T: Miss Frasers Reel
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.3 p.16 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+g !segno!|\
+g(GGA) GAGg- | gG-GB {B}TA>GEa | gG-GA GABG | A/A/A (b/a/g) e2g2- || gGGA GAGg- |
+gGGB {B}TA>GEa | gG-GA GABG | A/A/A (b/a/g) e2g |[| e | dega (b/a/g) (a/g/e) | (de/f/) gB TA>G E>g | dega bg ab |
+d/d/d (b/a/g) e2g>e || de ga (b/a/g) (a/g/e) | (de/f/) gB TA>GEg | dega (b/a/)g ab | d/d/d (b/a/g) e2g2 !segno!|]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z!segno!|\
+g2g2 g2g2 | g2g2 a2a2 | g2g2 g2g2 | f2g2 e2e2 || g2g2 g2g2 |
+g2g2 a2a2 | g2g2 g2g2 | f2g2 e2e |]| z | g2g2 g2g2 | g2g2 a2a2 | g2g2 g2g2 |
+f2g2 e2e2 || g2g2 g2g2 | g2g2 a2a2 | g2g2 g2g2 | f2g2 e2e2 !segno!|]

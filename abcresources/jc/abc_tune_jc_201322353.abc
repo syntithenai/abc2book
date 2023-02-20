@@ -1,0 +1,48 @@
+X: 1
+T: Parson upon Dorothy
+P: Longways for as many as will
+%R: march, reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.37 #64
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.94
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The tunes are identical; the dance is somewhat rephrased (in addition to the usual spelling and punctuation differences).
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 | G2G2 A2F2 | B3c B2d2 | c3B (AB) (cA) | B6 |]
+d2 | c3B (AB) (cA) | B2B2 B2d2 | c3B (AB) (cA) | B6 |]
+AB | c2c2 c2(Bc) | d2d2 d2(cB) | A2G2 A2^F2 | G6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the Presence, then to your own. Lead up 
+%% forward and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1st Man Sides with his own Wo. then on the Outside,
+%% 1st Cu. turn S. half round and back again, turn half round
+%% as before, and back again; then take your own Wo. by the
+%% right Hand and turn her once round, then by the left Hand
+%% and turn her once round again; then the 1st Man goes to
+%% the 2d Wo. and the 1st Wo. to the 2d. Man, and so go on
+%% 'till you come to your own Places again.  Do this to the
+%% last.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% Honour to the Presence, then to your own. Lead up forward and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. man sides with his own wo. then on the out-side, 1. man and wo. and turn S. half round and
+%% back again, turn half round as before, and back again, then take your own wo. by the right-hand
+%% and turn her once round, then by the left-hand and turn her once round again; then the 1. man
+%% goes to the 2. wo. and the 1. wo. to the 2. man, and so go on till you come to your own places again.
+%% Do this to the end.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

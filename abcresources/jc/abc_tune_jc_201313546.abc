@@ -1,0 +1,17 @@
+X: 464
+T: the Mowing of the Hay   #2
+N: Irish title: speala.d an feur
+R: reel, air
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #464
+O: F.O'Neill
+Z: henrik.norbeck@mailbox.swipnet.se
+N: Compacted by using labels and play order [JC]
+P: Play AB CA
+Q: "Moderate"
+M: 2/4
+L: 1/8
+K: G
+"^A"[|] B/A/ | G/F/E/D/ GG/A/ | B/e/d/c/ BG/A/ | BA/B/ GG       |"^fine"G3 |]
+"^B"[|  B    | dd/e/    gf/g/ | ee/d/    BB/d/ | ee/d/ B/A/B/d/ | e3 |]
+"^C"[|  d    | de/f/    gf/g/ | ee/d/    BA/B/ | ee/d/ B/A/G/F/ | "^->A"E3 ||]

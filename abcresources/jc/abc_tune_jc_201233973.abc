@@ -1,0 +1,22 @@
+X: 20194
+T: MY LODGING IS ON THE COLD GROUND.
+O: Irish melody.
+%R: air, jig, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.19 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B/>A/ |\
+G>AG GBd | ceg g2 f/>e/ | d>cB A>GA | B3- B2 B/A/ |\
+G>AG GBd | ceg Hg2 f/e/ | dgB A>GA | G3- G2 :|
+|: d/d/ |\
+Bdf g2d/d/ | ecg Hg2 f/e/ | d>cB A>GA | B3- B2 B/A/ |\
+G>AG GBd | ceg Hg2 f/e/ | dgB A>GA | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Moore's song, "The Sunflower," is set to this air.
+%%endtext
+%%sep 1 1 300

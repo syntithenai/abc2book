@@ -1,0 +1,16 @@
+X: 1
+T: Hochnebel (valse 5T)
+C: Stephan Steiner
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+S: NEFFA 2019 French Jam handout p.11 #1
+P: 5 = 3 + 2
+M: 3/4
+L: 1/4
+K: Am
+"^A"|:\
+"Am"c3 Bc | A3 cd | "C"e3 de | c3 e^f |\
+"Em"g3 ^fg | e3 g^f | "Dm"=f3  ef |1 d3 cB :|2 d3- d2 ||
+"^B"|:\
+"Dm"f3 ef | d3 ef | "Bb"f3 ef | d3 ef |\
+"Am"e3 de | c3 de | "C"ge2 dc |1 "Em"B3 de :|2 "Em"B3- B2 |]

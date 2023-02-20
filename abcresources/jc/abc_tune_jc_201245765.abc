@@ -1,0 +1,50 @@
+
+X: 1
+T: Alle Br\"uder  [Dm]
+T: Ale Brider
+M:C|
+C:Words: Morris Winchevsky (1856-1932)
+R:bulgar, march
+Z:Printed MS of unknown origin
+K:Dm
+[| "Dm"A2d2 d2e2 | f2f2 e2d2 | "Dm"f4 "Gm"g4 |"Dm"f2f2 e2d2 |
+w: 1.~Un mir zay-nen a-le bri-der, oy, oy, a-le bri-der!
+w: 2.~Un mir zay-nen a-le ey-nik, oy, oy, a-le ey-nik!
+w: 3.~Un mir zay-nen a-le shves-ter, oy, oy, a-le shves-ter!
+       A2d2 d2e2 | f2f2 e2d2 | "Dm"f4 "A7"e4 | "Dm"d4 "C7"z4 |
+w: Un mir zin-gen frey-lekhe li-der, oy, oy, oy!
+w: Tsi mir zay-nen fil tsi vey-nik, oy, oy, oy!
+w: Azoy vi Ro-khl, Rus un Es-ter, oy, oy, oy!
+| "F"c2f2 f2g2 | a2a2 g2f2 | "F"a4 "Bb"b4 | "F"a2a2 g2f2 |
+w: Un mit hal-tn zikh in ey-nem, oy, oy, zikh in ey-nem!
+w: Un mir li-bn zikh dos a-le, oy, oy, zikh dos a-le!
+w: Un mir zay-nen frey-lekh, mun-ter, oy, oy, frey-lekh, mun-ter!
+     c2f2 f2g2 | a2a2 g2f2 | "F"f4 "A7"e4 | "Dm"d2y2 |] a2 "(D7)"a2a2 |
+w: Azel-khes iz ni-to bay key-nem, oy, oy, oy! Oy, oy, oy,
+w: Vi a kho-sn mit a ka-le, oy, oy, oy!
+w: Zing-en li-der, tant-sn un-ter, oy, oy, oy!
+| "Gm"g2zf e4 | "A7"z2g2 g2g2 | "Dm"f2ze d4 | z2f2 f2f2 | "A7"e4 A4 | "A7"a2g2 f2g2 | "Dm"a8 | z2a2 "(D7)"a2a2 |
+w: oy, oy oy, ...
+| "Gm"g2zf e4 | "A7"z2g2 g2g2 | "Dm"f2ze d4 | z2f2 f2f2 | "A7"e4 A4 | a2g2 f2e2 | "Dm"d4 "A7"A4 | "Dm"d6 z2 |]
+%
+W:We are all brothers And sing happy songs, We stick together Like nobody else does!
+W:We are all united Whether we are many or few, And we love each other Like bride and groom!
+W:And we are all sisters Like Rachel, Ruth, and Esther. We're happy and cheerful Singing songs, tapping our feet.
+
+%%sep 1 1 500
+
+X: 1
+T: Alle Br\"uder [Em]
+M:C|
+S:From Itzak Perlman "In the Fiddler's House"
+R:Reel
+Z:Spuds 3/7/03 SG
+K:Em
+[| "Em"B2e2 e2f2 | g3g f2e2 | "Em"g4 "Am"a4 |\
+"Em"g3g f2e2 | B2e2 e2f2 | g3g f2e2 | "Em"g4 "B7"f4 | "Em"e4 "D7"z4 |
+| "G"d2g2 g2a2 | b3b a2g2 | "G"b4 "C"c'4 | "G"b3b a2g2 |\
+d2g2 g2a2 | b3b a2g2 | "G"g4 "B7"f4 | "Em"e2y2 |]| b2 "(E7)"b2b2 |
+| "Am"a2zg (f4 | "B7"f2)a2 a2a2 | "Em"g2zf (e4 | e2)g2 g2g2 |\
+"B7"f4 B4 | "B7"b2a2 g2a2 | "Em"(b8 | b)zb2 "(E7)"b2b2 |
+| "Am"a2zg (f4 | "B7"f2)a2 a2a2 | "Em"g2zf (e4 | e2)g2 g2g2 |\
+"B7"f4 B4 | b2a2 g2f2 | "Em"e4 "B7"B4 | "Em"e6 z2 |]

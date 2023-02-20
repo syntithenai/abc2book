@@ -1,0 +1,28 @@
+X: 222
+T: Sodger Laddie
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.22 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+g "^:S:"|\
+(TB>AG) GDE | A>BA ABd | (e/f/g)G- GDE | G>AG B2G |\
+cAc BGB | ABA ABd | (e/f/g)G- GDE |[1 G>AG Gg :|[2 G2G G2 :|
+|: e/f/ |\
+g>ag gdB | Aaa Ta2g | def gdB | g(a/g/f/e/) gdB |\
+(c/B/c/d/e/f/ g)dB | aAA ABd |\
+(e/f/g)G- GDE | G>AG G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g3 g3 | a3 a3 | g3 g3 | g3 g3 |\
+a3 g3 | a3 a3 | g3 g3 |[1 g3 g2 :|
+[2 g3 g2 :|\
+|: z |\
+g3 g3 | a3 a3 | g3 g3 | g3 g3 |\
+c'3 b3 | a3 a3 | g3 g3 | g3 g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

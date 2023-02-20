@@ -1,0 +1,54 @@
+X: 45
+T: Allemande.
+%R: reel, march
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #45
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+a4 e4 | {d}c2Bc A2E2 | F2E2F2G2 | AGAB A2A2 |\
+a4 e4 | {d}c2Bc A2E2 | F2E2F2G2 | {G}A4 z2 :|
+|: e2 |\
+(fd).A.d (fd).A.d | (ec).A.c (ec).A.c | (de).c.d (Bc).A.B | (GA).B.G E2e2 |\
+(fd).A.d (fd).A.d | (ec).A.c (ec).A.c | (dc).B.A (GA).B.G | (AE).C.E A,4 :|
+|:\
+(CE).A.E (CE).A.E | (DF).A.F (DF).A.F | (EG).B.c (dc).B.A | (GA).B.G E2E2 |\
+(CE).A.E (CE).A.E | (DF).A.F (DF).A.F | (EG).B.d (cB).A.G | (AE).C.E A,4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+z2A2c2e2 | a4 z2c'2 | d'2c'2d'2b2 | a4 A4 |
+z2A2c2e2 | a4 z2c2 | d2c2d2e2 | a2e2A2 :||: c'2 |
+d'4 d4 | c'4 c4 | b2a2g2f2 | e6 c'2 |
+d'4 d4 | c'4 c4 | b2d'2e'2e2 | a4 A4 :||:
+A4 a4 | f4 f4 | g4 a4 | e4 E4 |
+A4 a4 | f4 d4 | e4 E4 | a4 A4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Allemande.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Gentlemen lead up and
+%% Allemande with each others Lady, then return
+%% and Allemande with their Partners - - 1/2
+%%endtext
+%%begintext align
+%%   The second and fourth Couple do the same 1/2
+%%endtext
+%%begintext align
+%%   Each Lady with the Right hand behind,
+%% joins her Partner's Right, and each Gentleman
+%% with his Left hand behind, joins his Partner's
+%% Left; in this Position they must do the Course,
+%% but all turn and face each other at every
+%% Quarter - - - - - 2/3
+%%endtext
+%%sep 1 1 400

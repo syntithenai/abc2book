@@ -1,0 +1,17 @@
+X:1003
+T: Sequidillas de Gran Canarias
+O: Spain
+F: http://www.youtube.com/watch?v=8-RINN71pqw
+M: 6/8
+L: 1/8
+K: G
+Q: 1/4=144
+%%MIDI program 21 % Accordian
+%%MIDI bassprog 26 octave=2 % Electric Guitar (jazz)
+%%MIDI chordprog 24 octave=1 % Acoustic Guitar
+%%MIDI gchord fhgfhg
+z3 "D" DEF|"G"G G2- G3  |"D"FEF GD2-     |\
+D3 zCD    |"G"B, G,2-G,3|"C" GFE "D"F D2-|
+D3 "G"GFG |"Em"A E2- E3 | AGF  "D"D3-    |\
+D3 DEF    | "G"G6       |B2 B4           |
+A2 G4     | z6          |FG3z3           |

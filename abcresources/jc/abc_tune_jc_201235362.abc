@@ -1,0 +1,30 @@
+X: 21101
+T: AMERICAN SETT (tune 1)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.110 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="1"
+F |\
+B>cd d>ef | f2e c2c | fec fdB | c/d/c/B/A/G/ FGA |\
+B>cd d>ef | f3 fec | edB dcA | B2d B2 H|]
+c |\
+cdc c2f | =e2g fef | g2=e cdB | Adc cAd |\
+c2f =e2g | fag f=ed | dcA cBA | F>GA A>B"^D.C."c |]
+d/B/ |\
+GGB d2g | b3- bag | fed cBA | d2B GdB |\
+GGB d2g | b3- bag | fed cBA | G>AB A>B"^D.C."c |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First four right and left,
+%% balance four,
+%% ladies chain,
+%% promenade four.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

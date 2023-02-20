@@ -1,0 +1,103 @@
+
+X: 1
+T: Stav Lavan
+%T: סתיו לבן
+O: Israel
+C: Yoram Tehar-Lev (words), Shai Lavi (melody)
+R: waltz
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+"^intro"A2 \
+| "Dm"de f3 f | "Am"ed dc cA | "C7"Bc d3 d | "F"c4 F^F \
+| "Gm"G4 AB | d3 Bde | "A7"e6 | ^c2 d2 e2 ||
+!segno!\
+|: "Dm"de f3 f | "Am"e2 A3 A | "C7"c3 BAG | "F"F4 F2 \
+| "Gm"G3 GAB | "A7"A3 GFE |1 "Dm"F2 A4- | "A7"A4 A2 :|2  "Dm"F2 D4- | D4 "C7"C2 ||
+[| "F"F3 GAF | "Gm"G3 GGA | B3 BBB | "Dm"A3 AA_A \
+| "Gm"G4 G2 | "Dm"F3 FFF | "C"c2 c2 c2 | "Am"A4 D2 |
+| "D7"c3 dAB | "Gm"G3 GGA | B3 def | "Dm"d6- \
+| "Gm"de e3 f | "A7"g3 fef |["1-N" "Dm"e2 d4- | d4 !segno!|]
+|["Coda" "Dm"e2 d4- | d3 ffa | "Gm"g3 gab | d3 def | "Dm"d4 "A7"A2 | "Dm"[d6D6] |] \
+y4 y4 y4 y4 y4 y4
+
+%%sep 1 1 500
+
+X: 1
+T: Stav Lavan
+C: Yoram Tehar-Lev (words), Shai Lavi (melody)
+O: Israel
+R: waltz
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Em
+"^intro"B2 \
+| "Em"ef g3 g | "Bm"fe ed dB | "D7"cd e3 e | "G"d4 G^G \
+| "Am"A4 Bc | e3 cef | "B7"f6 | ^d2 e2 f2 ||
+!segno!\
+|: "Em"ef g3 g | "Bm"f2 B3 B | "D7"d3 cBA | "G"G4 G2 \
+| "Am"A3 ABc | "B7"B3 AGF |1 "Em"G2 B4- | "B7"B4 B2 :|2  "Em"G2 E4- | E4 "D7"D2 ||
+[| "G"G3 ABG | "Am"A3 AAB | c3 ccc | "Em"B3 BB_B \
+| "Am"A4 A2 | "Em"G3 GGG | "D"d2 d2 d2 | "Bm"B4 E2 |
+| "E7"d3 eBc | "Am"A3 AAB | c3 efg | "Em"e6- \
+| "Am"ef f3 g | "B7"a3 gfg |["1-N" "Em"f2 e4- | e4 !segno!|]
+|["Coda" "Em"f2 e4- | e3 ggb | "Am"a3 abc' | e3 efg | "Em"e4 "B7"B2 | "Em"[e6E6] |]\
+y4 y4 y4 y4 y4 y4
+
+%%sep 1 1 500
+
+X: 1
+T: Stav Lavan
+T: White Autumn
+%T: סתיו לבן
+C: Yoram Tehar-Lev (words), Shai Lavi (melody)
+O: Israel
+R: waltz
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+W: V'shuv yorda aleinu shayeret chasidot
+W: Baderech min hasheleg el hashemesh
+W: U'v'chultzat Shabbat hilbinu hasadot
+W: Likrat ha'stav artzi chama noshemet
+W:
+W: Chorus:
+W: Hinei yored ha'stav im ha'shkiya ha'atzuva
+W: Al derech he'afar v'al ikvot ha'ahava
+W: Al merchavei hashelef v'loven hakutnah
+W: Al p'nei ha'anashim tz'ruvei hakayitz
+W:
+W: Al mish'olei ha'eder tzonei'ach ha'avak
+W: Alei ha'izdarechet bis'charchoret
+W: Roshei hachatzavim shuv olim min hamachnak
+W: Shebein Rosh Hashanah l'vein hachoref
+W:
+W: Nashuv v'na'avor bein chama l'vein anan
+W: Al derech he'afar hamitchadeshet
+W: Al pnei s'dot hakutna ha'omdim b'eirumam
+W: Bein b'rak hamamterot l'vein hageshem
+W:
+W:Translation:
+W: Once again a flock of stocks descends over us
+W: On their path from the snow to the sun.
+W: And in Sabbath shirts, the fields have turned white.
+W: Coming into autumn, my land breathes warmly.
+W:
+W: Chorus:
+W: Behold autumn comes down, with the sad sunset
+W: Over the dirt road and over the footsteps of love
+W: Over expanses of harvested fields and the whiteness of cotton
+W: Over the faces of people burnt by the summer
+W:
+W: On the paths of the flock, the dust plummets
+W: The leaves of the azedarach tree flutter dizzily
+W: Heads of the squills (flowers) rise again in the stifling air
+W: Between Rosh Hashanah and the winter
+W:
+W: Let's again pass between sun and cloud
+W: On the dusty road, which renews itself
+W: Over the cotton fields, standing in their barrenness
+W: Between the glistening of the water sprinklers, and the rain

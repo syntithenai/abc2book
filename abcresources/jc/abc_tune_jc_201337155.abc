@@ -1,0 +1,23 @@
+X:665
+T:Sicilienne
+C:Gabriel Faur\'e
+N:First section only.  Originally notated in 6/8 and played faster
+L:1/4
+M:3/4
+%%MIDI beat 100 95 80
+%%MIDI gchord fIghi2
+%%MIDI program 74
+%%MIDI chordprog 46
+%%MIDI bassprog 46
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=130
+%%MIDI chordname dim 0 3 6 9
+K:Gm
+P:Intro
+[| "Gm"z3 | "Gm"z2 D |: "^A" "Gm"G2B | "Gm/F"d2g | "Gm/E"b3/a/g | "Dm"a2d- | "Bb"d3/c/ "C"=e | "Bb"d3/c/ "C"=e | "D"d3- | "D"dzD |
+"Gm"G2B | "Gm/F"d2f | "Fm/Eb"_a3/g/f | "G7/D"g2G- | "C7"G3/^F/A | "D7"G3/^F/B | "Gm"G3- |1 "Gm"Gz D :|2 | "Gm"Gz2 |
+P:B
+|: "G/E"=B3/G/A | "Cm/Eb"_B3/c/^c | "Dm/F"d3/e/f | "Gm/Bb"g2d | "Gm/E"B3/G/A | "Cm/Eb"_B3/c/^c | "D"d3/=e/^f | "Gm"g3 :|
+P:C
+|: "Cm/F"g3 | "Gm/E"d2z | "A7"b3/a/b | "D"a3/g/^f | "Cm/F"g3 | "Gm/E"d2z |1 "C/A"c3/A/"Gdim"B |\
+"D"A D/^F/A/d/ :|2 "Fm6"c3/_A/ "Cm/Eb"B | "Daug7"c2 "D7"D |] |8 "Fm6"c3/_A/ "Cm/Eb"B | "Daug7"c2 "D7"d | "Gm"g3 |]

@@ -1,0 +1,20 @@
+X:4
+T:Josefins Dopvals
+R:vals
+C:Roger Tallroth
+Z:2003 Brian Wilson <Brian.Wilson@alumni.brown.edu>
+Z:with Colin's chords
+M:3/4
+L:1/4
+K:G
+"A"
+|: "G"DGA | "G/F#"Bdc | "G/E"BAG | "G/D"D2E
+| "C"C>CC | "Am"EGF | "D"E3 | "D7"D3
+|  "G"DGA | "G/F#"Bdc | "G/E"BAG | "G/D"D2E
+| "C"C>CC | "Am"DFG | "D"A3 |[1 "D"A3 :|[2 "D"ABc |
+"B"
+|: "G"dBd | "C"g2f | "C"e3 | "G/B"d3 | "Am"ced | "Am"cBA | "D"B>cB | "D7"ABc
+|  "G"dBd | "C"g2f | "C"e3 | "G/B"d3 | "Am"ced | "Am"cBA | "D"B>cB | "D7"ABc
+"coda"
+|  "G"BAG | "D"F2G | "C"G3 | "Am"CDC
+| "G"B,DG | "D"FEF | "G"G3 |[1 "G"GBc :|[2 "G"G3 ||

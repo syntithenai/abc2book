@@ -1,0 +1,29 @@
+X: 381
+T: MISS McLEAN OF INVERSCADLE
+C: M. Mc DONALD 4th Coll.
+R: Reel
+B: Glen Collection p.38 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Gm
+%
+V: 1
+c |\
+BGDG BGdB | AFCF AFcA | BGDG BGdB | cAFA BGG :|
+d |\
+gabg dgBg | fgfc AFcA | gabg dgBg | cAdc BGGd |
+gabg dgBg | fgfc AFcA | GABc dBfd | cAFA BGG |]
+%
+V: 2
+z |\
+G2[b2g2] [b2g2][b2g2] | F2[a2f2] [a2f2] [a2f2] |\
+G2[b2g2] [b2g2][b2g2] | d2[c'2a2] [b2g2][bg] :|
+z |\
+G2[g2d2] B2[g2d2] | f2[c'2a2] c2[a2f2] |\
+G2[g2d2] B2[g2d2] | F2^F2 G2[g2d2] |
+G2[g2d2] B2[g2d2] | f2[c'2a2] c2[a2f2] |\
+d2[b2g2] B2[g2d2] | d2[c'2a2] [b2g2][gG] |]

@@ -1,0 +1,16 @@
+X: 658
+T: Maurice Casey's Fancy
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #658
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0658/oneill-1001-0658-1.abc
+M: C| 
+L: 1/8
+K: Am
+"^A"\
+[| AcBc AGE^F | G2(BG) edBd | eaa^f gfed | AcBc AGEG ||
+|| AcBc BGE^F | G2(BG) edBd | eaa^f gfed | AcBG A2A2 |]
+"^B"\
+[| a2(ba) gede | gedB GABd | eaa^f gedB | AcBG A2A2 ||
+|| a2(ba) gede | gedB GABd | a^f (3(gfe) fdec | dBgB  A2A2 |]

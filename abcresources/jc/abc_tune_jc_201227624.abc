@@ -1,0 +1,29 @@
+X: 108
+T: Bonny Lass
+T: Longways for as many as will.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.54
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the dance phrasing.
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+c2g gfe | d2e f3 | edc cde | dec dBG |\
+c2g gfe | d2e f>gf | edc f2e | dBA c3 :|
+|:\
+B2c dBG | B2c d2e/f/ | gec gec | gec gec |\
+B2c dBG | B2c d2e/f/ | gec f2e | dBG c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The two 1st Men dance round Partners 1st Man lead
+%% his Partner thro' the 2d Cu. .| The two 1st We. Figure
+%% round the Men Then 1st Wo. lead her Partner thro'
+%% :| The 1st Man set to the 2d Wo. & turn single the 1st
+%% Wo. set to 2d Man 1st Cu. cast off .| 1st Man takes his
+%% Partner & draws her quite round 3d Cu. & round 2d :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

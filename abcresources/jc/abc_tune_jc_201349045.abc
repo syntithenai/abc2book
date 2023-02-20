@@ -1,0 +1,33 @@
+
+X: 1
+T: Varis Hasapikos II  [Am]
+T: Slow Hasapikos
+R: hasapikos
+O: Greece
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: Am
+e/ d>e | "Dm"(3[ff]f[ff] (3[ff]f[ff] (3[ff]f[ff] e>d | "Am"e3 d c>e d>e | "Dm"f2 a2 g2 f2 | "Am"e4 z>e d>e |
+| "Dm"(3[ff]f[ff] (3[ff]f[ff] (3[ff]f[ff] e>d | "Am"e3 d c>B c>d | "E7"(3efe (3ded (3cdc (3 BcB | "Am"Az "E7"Ez "Am"Az :|
+|: E>A | "Am"c4- c>B c>d | "G"B4- B>A B>c | "F"A2 A2 G2 F2 | "E7"E4- E2 :|
+[| A>c | "Am"e4- e>e d>e | "Dm"f2- f>e d>c d>e | f2 a2 g2 f2 | "Am"e6 A>c |
+|  "Am"e4- e>e d>e | "Dm"f2- f>e d>c d>f | "E7"(3efe (3ded (3cdc (3 BcB | "Am"Az "E7"Ez "Am"Az |]
+
+
+%%sep 1 1 500
+
+X: 2
+T: Varis Hasapikos II  [Bm]
+T: Slow Hasapikos
+R: hasapikos
+O: Greece
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: Bm
+|: f/ e>f || "Em"(3[gg]g[gg] (3[gg]g[gg] (3[gg]g[gg] f>e | "Bm"f3 e d>f e>f | "Em"g2 b2 a2 g2 | "Bm"f4- f>f e>f |
+| "Em"(3[gg]g[gg] (3[gg]g[gg] (3[gg]g[gg] f>e | "Bm"f3 e d>c d>e | "F#7"(3fgf (3efe (3ded (3 cdc | "Bm".B2 "F#7".F2 "Bm".B :|
+|: F>B || "Bm"d4- d>c d>e | "A"c4- c>B c>d | "G"B2 B2 A2 G2 | "F#7"F4- F :|
+[| B>d || "Bm"f4- f>f e>f | "Em"g2- g>f e>d e>f | g2 b2 a2 g2 | "Bm"f6 B>d |
+|  "Bm"f4- f>f e>f | "Em"g2- g>f e>d e>g | "F#7"(3fgf (3efe (3ded (3 cdc | "Bm".B2 "F#7".F2 "Bm".B |]

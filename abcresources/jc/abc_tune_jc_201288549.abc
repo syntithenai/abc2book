@@ -1,0 +1,17 @@
+X: 1470
+T: the Humors of Schull
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #1470
+O: Beamish
+Z: Bob Safranek, rjs@gsp.org
+Z: Ornament (~) is a mordant.
+M: C|
+L: 1/8
+K: Am	% really Adorian
+"^A"\
+[| EAAA cAAA | BGGG BcdB | eddB A2(ge) | dBGA (BA) A2 ||
+|| EAAA cAAA | BGGG BcdB | EAAB cde^f | gedB A2z2 |]
+"^B"\
+[| eaaa a2(ba) | a2(ba) age^f | g2gg gabg | gedB (~BA) A2 ||
+|| eaaa a2(ba) | a2(ba) age^f | gedB {d}cBce | gedB A2z2 |]

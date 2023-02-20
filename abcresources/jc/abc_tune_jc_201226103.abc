@@ -1,0 +1,70 @@
+%%text RJ Set 100
+
+
+X: 1
+T: Twilight In Portroe
+M: C|
+L: 1/8
+R: reel
+K: A
+"A"A,2CE "D"DEFD | "E"E2GB "A"ABcA | "D"df~f2 "A/C#"edcA | "Bm"BAcA "E"BAFE |
+"A"A,2CE "D"DEFD | "E"E2GB "A"ABcA | "D"df~f2 "A"edcA |1 "E"B2AB "A"cAA2 :|2 "E"B2AB "A"cAAB ||
+|:\
+"A"c2ec fcec | ABcA "E"BAFA | "A"~E3F "F#m"ABcA | "Bm"defg "E"aefe |
+"A"c2ec fcec | ABcA "E"BAFA | "A"~E3F ABcA |1 "D"dfed "E"cAAB :|2 "E"dfed "A"cAA2 |]
+%%text Transition: Backup plays BIG A7 chord; skip the pickups
+
+
+X: 2
+T: Barrowburn
+M: C|
+L: 1/8
+R: reel
+K: D
+FE |\
+"D"D2DE "D7"FAAd | "G"B2BA BcdB |\
+"D"A2AB "Bm"d2de | "G"fedB "A7"AFEF |\
+"D"D2DE "D7"FAAd | "G"B2BA Bcde |
+"D"f2af "G"egfe | "A7"dBAB "D"d2 ::\
+cd |\
+"A"e2ef "A7/C#"ecBA | "D"f2fg "Bm"fdBA |\
+"Em"g2ga "A/C#"gecA |
+"F#m"a2ag "B"f2ef |\
+"Em7"g2ga "A/C#"gecA | "D"a2ag "Bm"f2ef |\
+"G"g2ag "D"f2ed | "A7"BAAB "D"d2 :|
+%%text Transition: Clean break; skip the pickup note.
+
+
+X: 3
+T: Cooley's Reel
+M: C|
+L: 1/8
+R: reel
+K: Edor
+F2 |\
+"Em"EBBA B2 EB | B2 AB dBAG |\
+"D"(3FED AD BDAD | (3FED AD BAGF |\
+"Em"EBBA B2 EB | B2 AB defg |
+"D"afec dBAF | "Bm"DEFD "Em"E2 ::\
+gf |\
+"Em"eB (3BBB eBgf | eB (3BBB gedB |\
+"D"A2 FA DAFA | BAFA "Bm"defg |
+"Em"eB (3BBB eBgf | eB (3BBB defg |\
+"D"afec ["cont" dBAF | "Bm"DEFD "Em"E2 :|\
+["trans" "Bm"dBAF | "Em".E2z2 "E7"A3F |
+
+
+X: 4
+T: The Road to Errogie % (R-176)
+S: Scottish reel, originally in B major
+Z:
+C: \251Adam Sutherland
+M: C|
+L: 1/8
+K: A
+AF |:   "A"EA A2 "E"BABc | "A"eA A2 "E"Bcea | "D"f3f "A"ecAc | "Bm"BABc [1,3 "E"BAFA :|[2,4 "A"A2 :|
+|: ce | "A"a2-a a-a2ba | "A7"c'3b a3 e | "D"f2 ea- "A"ae f2- | "Bm"feae "E"fe ||
+[1 ce | "A"a2-a a-a2ba | "A7"c'3b a3 e | "D"f3 a "A"ecAc | "E"BABc "A"A2 :|
+[2 ce | "A"EA A2 "E"BABc | "A"eA A2 "E"Bcea | "D"f3f "A"ecAc | "E"BABc "A"A2 |]
+%%text Ending: Choke the last note
+

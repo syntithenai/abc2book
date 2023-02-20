@@ -1,0 +1,17 @@
+X: 13
+T: the Humors of Bantry
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #13
+%S: s:5 b:20(4+4+4+4+4)
+R: double jig
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0013/oneill-1001-0013-1.abc
+M: 6/8
+L: 1/8
+K: G
+"^A"[|] d |\
+gfg (e/f/g)e | dBG AGE | DEG AGA | BGB AGE |
+gfg (e/f/g)e | dBG AGE | DEG AGA | BGGG2 :|
+"^B"|: d |\
+edd gdd | edd gdB | def {a}gfg | edB AGE |
+|[1 gfg (e/f/g)e | dBG AGE | DGG (A/B/c)A | BGG G2 :|
+|[2 gfg aga | bge edB | GFG (A/B/c)A | BGG G2 |]

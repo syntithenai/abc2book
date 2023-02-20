@@ -1,0 +1,53 @@
+X: 1
+T: Loch Lomond   [G,wW]
+C: Trad.
+M: 4/4
+L: 1/4
+% %borderwidth 0.1in
+% %leftmargin 0.3in
+% %topmargin 0.1in
+% %composerspace 0
+% %partsspace 0
+% %musicspace 0
+% %staffsep
+% %textfont helvetica 10
+% %scale .7
+K:G
+% - - - - - - - - - -
+(DE) | "G"G2 GA | "Em"B2 BA | "C"G2 GE | "D7"D2 DE |
+w:1.~By* yon bon-nie banks and by yon bon-nie braes where the
+w:2.~I* mind where we part-ed on yon sha-dy glen, On the
+w:3.~The* wee bird may sing and the wild flow-ers spring,  And in
+% - - - - - - - - - -
+"G"G2 G2 | "Em"G2 Bd | "C"e4 | "D7"d2 d2 | "C"e2 ed | "G"B2 Bd |
+w: sun shines bright on Loch Lo-mond, Where me and my true love were
+w: steep, steep side o' Ben Lo-mond, Where in pur-ple hue, the_
+w: sun-shine~the wa-ters are sleep-ing: The broken heart will ken nae_
+% - - - - - - - - - -
+"Am"cBAG | "D7"E2 DE | "G"G2Bd | "C"e2 dB | "D7"A4 | "G"G2 |]
+w: ev-er wont to go, on the bonnie bon-nie banks of Loch Lo-mond.
+w: Hei-land hills we view, And the moon shin-in' out from the gloam-in'.
+w: se-cond spring a-gain, And the world does not know how we're griev-in'.
+% - - - - - - - - - -
+"Chorus"[| (DE) | "G"G2 GA | "Em"B2 BA | "C"G2 GE | "D7"D2 DE |
+w: O,--ye'll take the high road, and I'll take the low road, and
+% - - - - - - - - - -
+"G"G2 GG | "Em"G2 Bd | "C"e4 | "D7"d2 d2 | "C"e2 ed | "G"B2 Bd |
+w: I'll be in Scot-land a-fore ye, but me and my true love will
+% - - - - - - - - - -
+"Am"cBAG | "C"E2 DE | "G"GGBd | "C"e2 dB | "D7"A4 | "G"G2 z2 |]
+w: nev-er meet a-gain, on the bon-nie bon-nie banks of Loch Lo-mond.
+% - - - - - - - - - -
+%W:I mind where we parted on yon shady glen
+%W:On the steep, steep side o' Ben Lomond
+%W:Where in purple hue, the Heiland hills we view
+%W:And the moon shinin' out from the gloamin'
+%W:
+%W:Chorus
+%W:
+%W:The wee bird may sing and the wild flowers spring
+%W:And in sunshine the waters are sleeping:
+%W:The broken heart will ken nae second spring again
+%W:And the world does not know how we're grievin'
+%W:
+%W:Chorus

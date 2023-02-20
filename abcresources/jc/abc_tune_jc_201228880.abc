@@ -1,0 +1,20 @@
+X: 117202
+T: LOCH GLASSIE
+Q: "Reel."
+R: Reel.
+%R: reel
+B: James Kerr "Merry Melodies" v.1 p.17 s.2 #2
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: Added rest between the strains, to fix the rhythm.
+M: C
+L: 1/8
+K: D
+f |!segno!\
+dA A/A/A A2AB | defe dBAe |\
+dB B/B/B B2Ba | bagf egfe |\
+dA A/A/A A2AB | dfef dBAB |\
+dB B/B/B B2Ba | bagf edBe ||
+d2(db) afdf | e/e/e (ef) edBe |\
+d2(db) afdf | e/e/e (fd) e/e/e (ef) |\
+dfab afdf | e/e/e (fd) edBe |\
+dA A/A/A A2AB | defd edBe |]

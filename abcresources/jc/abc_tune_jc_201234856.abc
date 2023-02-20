@@ -1,0 +1,19 @@
+X: 20833
+T: WALTZ.
+C: Henri Herz.
+Q: "Vivace."
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.83 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 "^p"|\
+("_>"EG) .c2 .e2 | (ce) .d2 .c2 | ("_>"Bd .f2) .a2 | ("_>"^fg .e2) .c'2 |\
+("_>"EG) .c2 .e2 | ("_>"Ae) .d2 .c2 | (Ba .g2) (B>d) | "_>"c4 :|
+|: Ge |\
+"^sf"FedF d2 | "^sf"EdcE c2 "^p"| (Bd/)z/ (df/)z/ (fa/)z/ | (ag/)z/ (ge/)z/ (ec'/)z/ "^sf"|\
+FedF d2 "^sf"| EdcE c2 !p!| (Bagd f>e) | c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

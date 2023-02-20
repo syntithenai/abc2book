@@ -1,0 +1,25 @@
+X: 14060
+T: MONTE'S MARCH
+C: Bob McQuillen May'09
+B: Bob's Note Book 14 #60
+%R: C
+%D:2009
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: This tune is more readable if you use the M:2/4 L:1/16 version.
+M: C
+L: 1/4
+K: G
+dc \
+| B>c dc | B G2 A | B>G EG | D2 d>c | B>c de | dB  GA | BG    cB | A2 dc |
+| B>c dc | BG  GB | c>B cd | e3   d | e>d ef | g>a ge | dc/B/ Ad | G2 ||
+|| cB \
+| A>B cA | FD GA | B>c BA | G2 Bd | c>d ef | ge ef/g/ | ag fe  | ed gf |
+| e>c eg | dB GB | A>G EG | D2 GA | B>d eg | dB AB    | G2 G>G | G2 |]
+%%begintext align
+%% It's always a pleasure
+%% to be out west with Charlie Fenton at his Monte
+%% Toyon dance camp. It' a wonderful experience
+%% in a really beautiful place, with nice big, that's
+%% BIG, trees and lost of music. You can't go wrong
+%% with that! Thanks loads, Charlie!
+%%endtext

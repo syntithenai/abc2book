@@ -1,0 +1,22 @@
+X: 1
+T: Blue Mountain Lake
+O: as played by Lawrence Older
+Q: "Swiftly" 1/4=124
+R: hornpipe
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+F: http://woods.hcomtech.com/documents.php?docid=12
+M: C|
+L: 1/8
+K: G
+(3GFE \
+| "G"D>B, B,>D | "C"E>C C>B | "Am"c>B A>G | "D7"F>E D>E \
+| "G"D>B, B,>D | "C"E>C C>E | "D7"(3FED A>F | "G"G2 "fine"y :|
+|: d2 \
+| "G"g2 (3gfg | "C"e>c (3cBc | "A"A>a A>a | "D7"f>d d>c \
+| "G"B>g B>g | "C"e>d c3/(3f//g//^g// | "A7"a>^g a>^c | "D7"d2 d>c |
+| "G"(3Bcd g>d | "C"e>d (3cBc | "A7"(3A^ce a>g | "D7"f>d (3dga \
+| "G"b>g d>B | "C"e>c A>G | "D7"(3FGA (3DEF | "G"G2 :|
+%"Coda:"\
+%(3GFE \
+%| "G"D>B, B,>D | "C"E>C C>B | "Am"c>B A>G | "D7"F>E D>E \
+%| "G"D>B, B,>D | "C"E>C C>E | "D7"(3FED A>F | "G".G2 .[G2G,2] |]

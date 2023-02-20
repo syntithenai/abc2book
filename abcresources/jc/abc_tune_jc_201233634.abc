@@ -1,0 +1,46 @@
+X: 20041
+T: the ROSE OF ALLENDALE
+C:
+%R:
+B: Elias Howe "The Musician's Companion" 1843 p.4 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The rhythms at strain boundaries aren't correct; not fixed.
+N: Missing 2nd voice in 3rd strain created by JC to match the style of the first 2 strains.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+d>e |\
+f3e d3c | edcB A3A | A3d d2ef | d4 z2d>e |\
+f3e d3c | edcB A3A | Bd3 cdef | d6 d2 :|
+|:\
+e3c A3A | f3d A3f | g2fe f3d | e6 de |\
+f3e d3c | edcB A3A | B3d cdef | d6 z2 :|
+|: aa |\
+a3f f3d | B6 B2 | g3f e3d | cA3 z2zA |\
+B3c edcB | A2d>f f2dc | Bd3 cdef | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+d3c B3A | cBAG F3F | F3A A2cd | A4 z2A>c |\
+d3c B3A | cBAG F3F | GB3 ABcd | F6 F2 :|
+|:\
+c3A F3F | d3B F3d | e2dc d3A | c6 Ac |\
+d3c B3A | cBAG F3F | G3B ABcd | F6 z2 :|
+|: ff |\
+f3d d3A | G6 G2 | e3d c3B | AE3 z2zE |\
+G3A cBAG | F2A>d d2BA | GB3 ABcd | F6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+d2z2 d2z2 | A2z2 A2z2 | A2z2 d2z2 | d4 z2z2 |\
+d2z2 d2z2 | A2z2 A2z2 | G2z2 A2z2 | d6 d2 :|
+|:\
+A2z2 A2z2 | d2z2 A2z2 | G2z2 d2z2 |A6 z2 |\
+d2z2 B2z2 | A4 A3A | G2z2 A2z2 | d6 z2 :|
+|: z2 |\
+d4 d4 | G6 G2 | G2z2 A2z2 | AA3 z2zA |\
+G2z2 A2z2 | d2f>a a2z2 | g2z2 A4 | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

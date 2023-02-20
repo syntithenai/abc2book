@@ -1,0 +1,22 @@
+X: 193	% 52
+T: Gustafs Skoal
+T: Swedish Quadrille
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.19 #3
+R: march, gallop
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The book has no key signature, but there are no B notes, so it doesn't matter.
+M: 4/4
+L: 1/8
+K: F
+V: 1 name="52"
+"^Intro."c4 c4 | c7 "^Lively"yC [|!segno!\
+F2F2 F3A | GFED DCB,C |\
+G2G2 G3E | FGAG F3C |\
+F2F2 F3A | GFED DCB,C |
+G2G2 G3E | FGAG F4 \
+|:"^Faster"\
+AA/A/ AA ACFA | GG/G/ GG GEFG |\
+AA/A/ AA ACFA |[" " "^Back to"G2E2 F3 !segno!C :|
+Q: "Slow"
+|["At end of dance"G2E2 HF3z |
+

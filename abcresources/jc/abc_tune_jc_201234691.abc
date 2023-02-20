@@ -1,0 +1,25 @@
+X: 2070
+T: CA' HAWKIE THROUGH THE WATER or LORD ELPHINSTON
+C:
+Q: "Strathspey."
+R: Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.2 p.10 #70
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Added flag to last note of 1st strain, to fix the rhythm.
+N: The 3rd & 4th strains are just the 1st & 2nd strains down an octave.
+M: C
+L: 1/8
+K: Am
+ua |\
+vg<ee>ud vc>vdue>a | vg<ee>ud vc<AA>ua |\
+vg<ee>ud vc>vdue>ug | ve<aa>u^g a<A A ::\
+uB |\
+vc2uc>ue vd2ud>ue | c2c>e d>BG>B |\
+c2c>e d2d>f | e<aa>^g a<A A :|
+|: uc |\
+G<EE>D C>DE>A | G<EE>D C<A,A,>A |\
+G<EE>D C>DE>G | E<AA>^G A>A, A, ::\
+uB, |\
+C2C>E D2D>E | C2C>E D>B,G,>B, |\
+C2C>E D2D>F | E<AA>^G A<A, A, :|

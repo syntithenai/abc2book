@@ -1,0 +1,38 @@
+X: 198
+T: Isle of Beauty
+C: words: Thomas Haynes Bayly
+O: Irish Folksong
+Q: "Andante."
+%R: air, march
+N: This is version 2, for ABC software that understands crescendo/diminuendo symbols.
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Dot added to c in 2nd bar to match the other similar bars and correct the rhythm.
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+!p!A3 G F2 F2 | pc3 B PB2 A2 | f3 c Q(ed) (cqB) | (AG) (FE) F4 :|
+w: 1.~Shades of eve-ning, close not o'er us, Leave our lone-*ly* bark* a-*while!
+w:    Morn, a-las! will not re-store us Yon-der dim* and* dis-*tant* Isle;
+w: 2.~'Tis the hour when hap-py fa-ces Smile a-round* the* ta-*per's* light;
+w:    Who will fill our va-cant pla-ces? Who will sing* our* songs* to-*night?
+w: 3.~When the waves are round us break-ing, As I pace* the* deck* a-*lone,
+w:    And my eye in vain is seek-ing Some green leaf* to* rest* up-*on,
+%
+G3 F E2 E2 | "^cres."B3 A A2 G2 | G3 G A2 A2 | B2 (=B>c) (c2 _B2) |
+w: Still my fan-cy can dis-cov-er Sun-ny spots where friends may* dwell;*
+w: Thro' the mist that floats a-bove us, Faint-ly sounds the ves-per* bell,*
+w: What would I not give to wan-der Where my old com-pan-ions* dwell?*
+%
+"^a tempo."A3 G F2 F2 | pc3 B PB2 A2 | f3 Qc (ed) q(cB) | (AG) (FE) F4 |]
+w: Dark-er shad-ows round us hov-er, Isle of Beau-*ty,* fare* thee* well!
+w: Like a voice from those who love us, Breath-ing fond-*ly,* "Fare* thee* well!"
+w: Ab-scence makes the heart grow fond-er, \-\-~Isle of Beau-*ty,* fare* thee* well!"
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

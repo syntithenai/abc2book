@@ -1,0 +1,28 @@
+X: 23
+T: Irish Air
+%R: jig
+B: "The Hibernian Muse" p.14 #2
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: Omitted the dots from the final notes of both strains.
+P: No. XXIII.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+D |\
+D>B,D D>B,D | D>B,D D2G | E>GE TE>DE | G>AB TB2A |\
+G>Bd  e>ge  | dBA G>AB  | B>ed B>AB  | G>ED E2 :|
+|: d |\
+d>ed dBd | ege Te2d | d>Bd edc | B2A G2e |\
+ged  edB | dBA  B2G | ABd e>de | GEE E2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+G3 G3  | G3 G3 | c3 c3  | B2G d3 |\
+g3 c'3 | b3 g3 | g3 g3  | c'3 c2 :|
+|: z |\
+g3 g3 | c'3 g3 | b3 c'3 | d'2d g3 |\
+g3 g3 | d3  g3 | f3 g3  | c'3  c2 |]

@@ -1,0 +1,26 @@
+X:1
+T: Bartholomew Fair
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 31 notes)
+K:G
+M:6/8
+L:1/16
+d2 |B2 A2 G2 G2 A2 B2 c4 B2 A4 G2 F4 A2 A4 B2 c2 d2 e2 d2 B2 G2 |c2 d2 B2 A2 B2 c2 B4 G2 G4 d2
+%W: A2
+% voice 1 (1 lines, 30 notes)
+B2 A2 G2 G2 A2 B2 c4 B2 A4 G2 |F4 A2 A4 B2 c2 d2 e2 d2 B2 G2 c2 d2 B2 A2 B2 c2 B4 G2 G4 B2 |
+%W: B1
+% voice 1 (1 lines, 33 notes)
+c3 d e f g2 f2 e2 d2 B2 d2 A4 G2 F2 A2 A2 A4 B2 c2 d2 e2 d2 B2 G2 |c2 B2 c2 A2 d2 c2 B4 G2 G4 B2
+%W: B2
+% voice 1 (1 lines, 32 notes)
+c3 d e f g2 f2 e2 d2 B2 d2 A4 G2 |F2 A2 A2 A4 B2 c2 d2 e2 d2 B2 G2 c2 B2 c2 A2 d2 c2 B4 G2 G4 ||

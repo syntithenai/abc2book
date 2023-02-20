@@ -1,0 +1,23 @@
+X: 21322
+T: St. Patricks Day
+%R: reel + jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.132 #2
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+|: "_Slow"\
+DEG2 G2(AB) | d3e (dB)(AG) | B2(AB) (cB)(AG) | E2E2 TE3D |\
+(DE)G2 (GA)(Bc) | d3e (dB)(AG) | B2(AB) (cB)(AG) | E2G2 G4 :|
+|:\
+d2(ef) g3f | (gf)(ed) Te2(dB) | d2(ef) g3f | (gf)(ed) e3g |\
+(dB)(AG) G2(AB) | d3e (dB)(AG) | g3e (dB)(AG) | E2E2 TE3G |
+(DE)G2 (GA)(Bd) | (ed)(Bg) (dB)(AG) | B2(AB) (cB)(AG) | E2G2 G4 ::\
+[M:6/8] "_Brisk"\
+GAG GAB | ded dBG | BAB BAG | EFE TE2D |
+GAG GAB | ded dBG | TBAB BGD | E3 G3 ::\
+def g2e | f2d Te2B | def g2e | Tf2d e3 |\
+def g2e | Tf2d edB |
+def g2e | Tf2d e2g |\
+dBG GAB | ded dBG | BAB BGE | EFE TE2D |\
+GAG GAB | ded dBG | BAB BGD | TE3 G3 :|

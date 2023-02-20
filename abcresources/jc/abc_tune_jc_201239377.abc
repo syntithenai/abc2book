@@ -1,0 +1,50 @@
+X: 32691
+T: THE HUNTER'S VALSE
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.269
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Bb
+P: 1.
+|:\
+(vF2c3)vd | (.c2.B4) | (d2e3)vg | (.b2.f4) |\
+(f2g3)vf | (.d2.c4) | (.B2.c4) | f6 |\
+(f2g3)va | (.b2.f4) | (d2e3)vf | (.g2.f4) |
+(F2B3)vd | (.e2.d4) | (.d2.c4) |[1 B6 :|[2 B2(A2_A2) \
+|:\
+vG6- | G2F2E2 | G6- | G2F2E2 |\
+e6- | e2B2c2 | (B6 | G6) |
+G6- | G2F2E2 | G6- | G2F2E2 |\
+c6 | (B4G2) | F6 | (B2A2_A2) ||\
+G6- | G2F2E2 | G6- | G2F2E2 |
+e6- | e2B2c2 | (B6 | G6) |\
+e6- | e2(B2e2) | e6 | c6 |\
+G6 | (G4F2) | [E6-G,6-] | [E2G,2]z2z2 "_D.C."|]
+P: 2.
+N: The "Fine" in tune 2 is ambiguously placed between the two staffs; the "best" choice was used here.
+!segno!|:\
+(vd4f2) | g6 | (f4d2) | b6 |\
+(b2a3c') | b4a2 | g6 | f6 |\
+(g4B2) | (B4g2)  | (f4B2) | B6 |\
+(.c4.c2) | (d4c2) "_Fine."| c6 |[1 ^c6 :|12 B6 ||
+|: (d3BFB) | (.d4.d2) | (c3AFA) | (.c4.c2) |\
+(B3ABc) | (A4F2) | f6 | (f2=e2_e2) |\
+(d3BFB) | (.d4.d2) | (c3AFA) | (.c4.c2) |\
+(B3ABc) | (A4F2) | B6- | B2z2z2 !segno!:|
+P: 3.
+K: Eb
+[|\
+vE6 | E6 | D6 | D6 |\
+C6 | (.C4.C2) | B,6- | B,4z2 |\
+vG6 | G6 | B6 | A6 |\
+G6 | (F4GF) | E6- | E2(G2B2) |
+e6 | e6 | d6 | d6 |\
+c6 | (.c4.c2) | B6- | B4z2 |\
+vg6 | g6 | b6 | a6 |\
+g6 | (f4gf) | e6- | e2(udcde) ||
+|: vf2f2f2 | (g4f2) | (b6 | B2)(=AGAB) |\
+c2c2c2 | (d4B2) | f6- | f2(dcde) |
+f2f2f2 | (g4f2) | b6- | b2(dcde) |\
+f2(f=efe) | g2(gfgf) :|[1 vbzvb4- | b2(udcde) :|[2 vbzvb4- | b2z2z2 "_D.C."|]

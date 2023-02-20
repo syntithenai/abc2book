@@ -1,0 +1,16 @@
+X: 25
+T: La Vida Total
+O: Peru
+M: 6/8
+L: 1/8
+K: Em
+Q: 1/4=120
+%%MIDI chordprog 24 % Acoustic Guitar (nylon)
+%%MIDI program 72 % Piccolo
+%%MIDI beat 97 87  77 4
+%%MIDI chordvol 60
+%%MIDI gchord cc
+"Em"E2G BAG   |GE2- EGA    |"G"B2d ged    |dB2-B3      |\
+"Em"E2G BAG   |GE2- EGA    |"G"B2d ged    |dB2-B3      |
+"Am"A3  d2F   |"Em"GE2-  E3|"Am"A3  d2F   |"Em"GE2-  E3|\
+"F#dim"BAF-F2F|"Em"FE2 -E3 |"F#dim"BAF-F2F|FE2-E3      |

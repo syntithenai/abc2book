@@ -1,0 +1,36 @@
+X: 21032
+T: FAVOURITE SAXON AIR
+%R: air, waltz, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.103 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for compact staff layout.
+V: 1 staves=2
+.c |\
+(cG).e (ec).g | (g2f) .e2.G |\
+(A2G) (A2B) | .c(ce) .c2.c |\
+(cG).e (ec).g | (g2f) .e2.G |\
+(A2G) (A2B) | .c(ce) .c2 :|
+|: .g |\
+(gB).B .B2.g | (gc).c "_>".c2.g |\
+(gd).d "_>".d2.g | (ge).e "_>".e2.c |\
+(cG).e (ec).g | (g2f) .e2.G |\
+(A2G) (A2B) | .c(ce) .c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout.
+V: 2
+z |\
+(EG)c (Gc)e | (e2d) .c2.E |\
+(F2E) (F2G) | .E(EG) .E2.E |\
+(EG).c (Gc).e | (e2d) .c2E |
+(F2E) (F2D) | .E(EG) E2 :|\
+|: E |\
+(FG).d (FG).d | (FG).c (EG).c |\
+(DF).B (FG).B | (Bc).c .c2.E |
+(E2G) (G2c) | (e2d) .c2.E |\
+(F2E) (F2G) | .E(EG) .E2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

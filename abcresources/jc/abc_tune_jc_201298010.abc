@@ -1,0 +1,22 @@
+X: 1
+T: Na Wierzbowym Listku
+T: Kujawiak
+R: kujawiak
+C: trad. Polish
+S: Handout for MIT contra 2018-07-10 from Yaron Shragai
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+%%indent 500
+"Intro"| "E7"e6 | e6 | ee e2 e2 | "^poco rit."d2 c2 B2 ||
+"A"|:\
+"Am"Ac e^d ed | ef e2 dc | "E7"d^c dc dc | de d2 cB |\
+"F"cB cB cB | "Dm"cd c2 BA | "E7"Bc B2 A^G | "Am"A2 A2 z2 :|
+"B"|:\
+"E7"Bc B^G EB | "Am"cd cB Ac | "G7"de dB GB | "C"c2 "G"d2 "Adim"^d2 |\
+"E"ec' b3 a | "Ddim"^gb f3 d | "E7"ce B2 e2 | "Am"A2 A2 z2 :|[K:A]
+"C"|:\
+"A"ce A2 ce | "Bm"df B2 df | "E7"gb e2 (3efg | "A"a2 (3c'ae cA |\
+"A"ce A2 ce | "Bm"df B2 df | "E7"ef ga bg | "A"a2 a2 z2 :|
+%%text Repeat from the Intro.

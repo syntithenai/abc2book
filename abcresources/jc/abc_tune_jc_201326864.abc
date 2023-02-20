@@ -1,0 +1,31 @@
+X: 1
+T: Put in all
+%R: march, reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (142)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+N: The first strain has 7 bars.
+M: C|
+L: 1/4
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+Ad de | f2 gf | ec eg | f3 e | f^c de | f2 ed | A3 :|
+|: e |\
+fg ab | c'2 ba | gf ed | ^c3 A |\
+Ad de | f2 a^c | d2 d^c | d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man go to the 2d Wo. and take her by the left
+%% Hand with his right and turn her into his Place then cast
+%% off into hers .| The 2d Man do the like with the 1st Wo.
+%% and fall into her Place .| Then 1st Cu. cast up and turn
+%% Hands 'till they are in their own Places and the 2d Cu.
+%% slip down thro the 3d Cu. at the same Time and cast up
+%% and turn Hands 'till they are in their own Places .| Then
+%% all four right and left quite round and the 1st Cu. cast
+%% off :|
+%%endtext
+%%sep 1 8 500

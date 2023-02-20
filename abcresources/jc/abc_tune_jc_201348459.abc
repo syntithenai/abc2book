@@ -1,0 +1,15 @@
+X:1
+T:TEST: Bass
+M:C
+L:1/8
+%%topmargin 0
+%%topspace 0.5cm
+%%composerspace 0
+%%musicspace 0
+%%staffsep 0
+%%indent 60
+%%staffwidth 200
+K:C
+V:3 clef=bass name="Viola da Gamba" sname="Vc."
+[V:3] z cec gGBG |
+w: c e c g G B G

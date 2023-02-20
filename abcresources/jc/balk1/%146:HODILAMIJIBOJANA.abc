@@ -1,0 +1,18 @@
+X: 146
+T: Hodila mi ji Bojana
+O: Bulgaria
+Z: Deborah Jones
+M: 2/4
+L: 1/8
+Q: 1/4=108
+K: Em
+%%MIDI program 43
+%%MIDI chordprog 32
+%%MIDI bassprog 35
+%%MIDI bassvol 80
+%%MIDI chordvol 80
+"G"B3c             |"D"~dc ~BA|"G" A<G ~AF|"Am"G3F   |
+"Em"FE3            |"Am"E4-   |"Em"E4     |:"G" B3c  |
+"D" dc BA          |"G"A<G ~GF|"Em" E3 D  | "D" DF GA|
+"G" (3A/G/F/ G- G2-|G4        | G3 A      |"D" Bc BA |
+"G" A<G ~GF        |"Am" G3F  | "Em" FE3  | "Am"E4-  |"Em"E4 :|

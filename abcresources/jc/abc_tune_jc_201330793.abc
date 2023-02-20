@@ -1,0 +1,25 @@
+X: 1
+T: Rob shear in Harvest
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (185)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: There’s a double repeat sign between the strains, but no repeats at the beginning or end. 
+N: The first strain is missing its final 1/8 note; fixed.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[| (A/B/c) FA c4 | (A/B/c) FA f2c2 | (A/B/c) FA c4 | G2Bc {Bc}d4 :|
+|: f2-f2 Ac d/c/B/A/ | f>gfd fga2 | f2-f2 Ac d/c/B/A/ | BGdG Bcd2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. foots it cast off and turn .| 1st Cu. foots it
+%% again cast up and turn :| the 1st and 2d Cu. hands across
+%% quite round with their Right hands .| Back again with
+%% their Left hands 1st Man foots it with the 2d Wo. and
+%% turn her .| their Partners do the same :| the 1st Cu.
+%% cross over and half figure at top .| 1st and 2d Cu.
+%% Right and Left quite round.
+%%endtext
+%%sep 1 8 500

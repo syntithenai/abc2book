@@ -1,0 +1,811 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 15
+B: RSCDS Book 15
+K:
+%%center Book15/1500-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1501
+T: My Mother's Coming In
+P: Dalkeith House
+C:James MacDonald
+R:Reel (8x32)
+B:RSCDS 15-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+f|"D"d2AB/c/ dAFD|"Em"GE"E7"ed "A"cAA=c|"G"B2GB "D"AdFA|"A7"GEAG "D"FDDf|
+  "D"d2AB/c/ dAFD|"Em"GE"E7"ed "A"cAA=c|"G"B2GB "D"AdFA|"A7"GEAG "D"FDD||
+g|"D"f2df "A7"eace|"Em"dBed "A"cAA=c|"G"B2GB "D"AdFA|"A7"GBAG "D"FDDg|
+  "D"f>efd "A7"eace|"Em"dfed "A"cAA=c|"G"BABG "D"FGA=c|"G"BG"A7"ge "D"fdd|]
+%%center Book15/1501-My_Mothers_Coming_In-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1502
+T: I'll Gang Nae Mair Tae Yon Toon
+P: Mr Patrick Duff Junior's Strathspey
+C:D. Grant
+R:Strathspey (8x40) ABABB
+B:RSCDS 15-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:Dm
+f|"Dm"F<FF>G A<F F2|"Am"A>c c>A c2 "Dm"c<f|\
+  "Dm"A<FF>G A<F F2|A>d d>c "Gm"d2 "Dm"d<f|
+  "Dm"F<FF>G A<F F2|"Am"A>c c>A c2 "Dm"c<d|\
+  f>g "A7"a>g "Dm"f>c A>F|A>d "Gm"d>c "Dm"d2 d||
+e|"Dm"f>g "A7"a>g "Dm"f>c A>F|"Am"A<c c>A c2 "Dm"c<d|\
+  "Dm"f>g "A7"a>g "Dm"f>c A>F|"Am"A>d "Gm"d>c "D"d2 "A7"d<e|
+  "Dm"f>g "A7"a>g "Dm"f>c A>F|"Am"A<c c>A c2 "C"cd/e/|\
+  "Dm"f>a "A7"g>a "Dm"f>c A>F|A>d "Gm"d>c "Dm"d>e f>c|]
+%%center Book15/1502-Ill_Gang_Nae_Mair_Tae_Yon_Toon-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1503
+T: Campbell's Frolic
+P: Campbell's Frolic
+C:Traditional?
+R:Jig (8x32)
+B:RSCDS 15-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+|:D|"G"G>AG "D7"A2 d|"G"B3 G2 d|"G/b"gfg "A"eag|"G"f3 "D7"d2 d|
+    "G"gfe dcB|"A7"ABG "D7"FED|"G"G>AG "D7"A2 d|"G"B3 G2:|
+|:e/f/|"Em"gfg efg|"A7"aga "D7"fed|"G"gfg "A"eag|"D7"f3 d2 e/f/|
+       "G"gfe dcB|"A7"ABG "D7"FED|"G"G>AG "D7"A2 d|"G"B3 G2:|
+%%center Book15/1503-Campbells_Frolic-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1504
+T: The Camp of Pleasure
+P: Charles Leslie of Findassie's Strathspey
+C:D. Grant
+R:Strathspey (8x32)
+B:RSCDS 15-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+F|"D"D>E F<d A<F F<d|A<F F<d A>F F<d|\
+  D>E F<d A<F F<d|"D"A>F "Em"G/F/E/D/ "A7"E2 EF|
+  "D"D>E F<d A<F F<d|"G/D"A>F d>B "D"A<F F<A|\
+  "Em7"d>e "D"f<a "A7"e<f "D"d<f|A>d "Em7"B/A/G/F/ "A7"E2 E||
+A|"D"d>g f>e d<B A>d|"D"A<F F<d A<F F<A|\
+  "Em7"d<g f>e "D"d<B A>d|"D"A>F "Em"G/F/E/D/ "A7"E2 EA|
+  "D"d<g f>e "G"d<B B>d|"D"A>F F<d A<F F<A|\
+  "Em7"d>e "D"f>a "A7"e<f "D"d>f|Ad "Em7"B/A/G/F/ "A7"E2 E|]
+%%center Book15/1504-Camp_of_Pleasure-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1505
+T: The Gates of Edinburgh
+P: The Gates of Edinburgh
+C:Traditional?
+R:Reel (8x32)
+B:RSCDS 15-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:Dm
+"Bb"CDFG "F"A2f2|cAGF "Bb"G2FD|"F/A"F2f2 "A7"c2AG|"Gm"F2 D2-"Dm"D2 "C7"G2|
+"F"A2Ac A2Ac|fcAF "Bb"G2FD|"F/A"F2f2 "A7"c2AG|"Gm"F2 D2-"Dm"D2||
+"C7"G2|"F"fefa fagf|"Bb"gfga "C7"gbag|"F"fefg fgaf|"G7"gfed "C7"c2 fg|
+       "F"agfa "C7"gfeg|fedc "F"f2 fg|agfe dcAG|"Gm"F2 D2-"Dm"D2|]
+%%center Book15/1505-Gates_of_Edinburgh-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1506
+T: Lord Rosslyn's Fancy
+P: Lord Rosslyn's Fancy
+C:Traditional?
+R:Jig (8x32)
+B:RSCDS 15-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Bb
+"Bb"FGB "Dm/A"d2 B|"Eb/G"c2 B "Bb/F"d2 B|\
+"F7/A"FGA "Eb/G"B2 g|"Bb/D"fdB "F7"c3|
+"Bb"FGB "Dm/A"d2 B|"Eb/G"c2 B "Bb/F"d2 B|\
+"F7/A"FGA "Eb/G"B2 g|"Bb/D"fdB "F7"[c2E2]||
+(3f/g/a/|"Bb"b2 B "Dm/A"a2 B|"Eb/G"g2 B "Bb/F"fdB|\
+    "Eb"G2 B "Bb/D"F2 "Eb"g|"Bb"fdB "F7"[c2E2] (3f/g/a/|
+"Bb"b2 B "Dm/A"a2 B|"Eb/G"g2 B "Bb/F"fdB|"Eb"BAG "Bb/D"FDF|"Eb"G<BB "Bb"B2 z|]
+%%center Book15/1506-Lord_Rosslyns_Fancy-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1507
+T: Lochiel's Awa' to France
+P: Lochiel's Awa' to France
+C:Niel Gow (2nd Coll.)
+R:Strathspey (8x48) ABABAB
+B:RSCDS 15-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:Am
+a/g/|"Am"e<AA>B e2 "G"dB|"Am"A>GAB "G"gdda/g/|\
+     "Am"e<AA>B e2 "G"dB|"Am"A>GAB "Em"gee a/g/|
+     "Am"e<AA>B e2 "G"dB|"Am"A>GAB "G"gdda/g/|\
+     "Am"e<AA>B e2 "G"dB|"Am"A>GAB "Em"gee||
+g|"C"d>e g>a "G"g/a/b "C"a>b|"G"gd "Em"e/d/c/B/ "G"g>d d>e|\
+  "C"d>e g>a "G"g/a/b "C"a>b|"Em"geed/e/ g>ee>g|
+  "C"d>e g>a "G"g/a/b "C"a>b|"G"gd "Em"e/d/c/B/ "G"gddg/a/|\
+  "G"b/a/g/b/ "C"a/g/e/a/ "G"g/e/d/e/ g>B|"B7"A>G AB "Em"gee|]
+%%center Book15/1507-Lochiels_Awa_to_France-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1508
+T: Middling, Thank You
+P: Middling, Thank You
+C:Traditional?
+R:Jig (8x40) AABAB
+B:RSCDS 15-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+"G"dcB "Bm/F#"d2B|"Em7"d2B "G/D"gfe|"G"dcB "Bm/F#"d2 B|"C/E"c2A "D7"FED|
+"G"dcB "Bm/F#"d2B|"Em7"d2B "G/D"gfe|"G/B"dcB "C"c2A|"D"FEF "G"G3||
+"Em"gag "B7"f2g|"C"efe "G"dBG|"C"gag "A7"f2g|"D7"afd "G"G3|
+"Em"gag "B7"f2g|"C"efe "G"dBG|"C"ABA "A7"e2e|"D"dcA "G"G3|]
+%%center Book15/1508-Middling_Thank_You-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1509
+T: This Is No' My Ain Hoose
+P: Mrs. Colonel Sinclair of Forss
+C:D. Grant
+R:Strathspey (8x32)
+B:RSCDS 15-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+"D"A,>D F>A "G"d/c/B/A/ "D"F2|A<d d>f "G"g/f/e/d/ Bd|\
+"D"A<d F>A "E7"B/A/B/c/ d>B|"D"A<F D>F "Em"G/F/E/D/ "D"B,2|
+"D"A,>D F>A "G"d/c/B/A/ "D"F2|A<d d>f "G"g/f/e/d/ Bd|\
+"D"A<d F>A "E7"B/A/B/c/ d>B|"D"A<F F>D "A7"E2 "D"D||
+A|"D"d/e/f/g/ a>f "G"b>f "D"a>f|"A"g>e "D"f>d "Em7"g/f/e/d/ B2|\
+  "D"d/e/f/g/ a>f "G"b>f "D"a>f|"A"g>e "D"f>d "A7"e2 "D"d2|
+  "D"d/e/f/g/ a>f "G"b>f "D"a>f|"A"g>e "D"f>d "Em7"g/f/e/d/ B<d|\
+  "D"A<d F>A "E7"B/A/B/c/ d>B|"D"A<F F>D "A7"E2 "D"D|]
+%%center Book15/1509-This_Is_No_My_Ain_Hoose-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1510
+T: Argyll's Bowling Green
+P: Argyll's Bowling Green
+C:Gow
+R:Reel (8x32)
+B:RSCDS 15-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:C
+E|"C"C2c2 c>ded|"F"cdcA "G7"GFED|"C"C2c2 c>dec|"G"d>B "C"c>E "G7"D3 E|
+  "C"C2c2 c>ded|"F"cdcA "G7"GFED|"C"C2c2 cdec|"G"d>B "C"c>E "G7"D3||
+A|"C"G>EcE GEEA|GEcG E3 A|GEcE GEEF|GAGE "G7"D3 a|
+  "C"gec'e geef|gec'g e3 a|gec'e geef|gage "G7"d3 e|]
+%%center Book15/1510-Argylls_Bowling_Green-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1511
+T: The Theeket Hoose
+P: McVicar's Strathspey
+C:Gow's 2nd Repository
+R:Strathspey (8x48) ABABAB
+B:RSCDS 15-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:C
+c|"C"G<EE>c G<EE>c|G<Ec>E "G7"D2Dc|\
+  "C"GE"Em"E>G "Am"c>d"Em"e>d|"F"c>A "C"GE "G7"D2 Dc|
+  "C"G<EE>c G<EE>c|G<Ec>E "G7"D2Dc|\
+  "C"GE"Em"E>G "Am"c>d"Em"e>d|"F"c>A "C"GE "G7"D2 D||
+e|"C"ce/f/ ge c<g e<a|g<cg>e "G7"d2 de|\
+  "C"ce/f/ ge c<g e>d|"F"c>A "C"cE "G7"D2 De|
+  "C"ce/f/ ge c<g e<a|g<cg>e "G7"d2 de|\
+  "C"g>e"Dm"f>d "C/E"e>c"G7/F"d>B|"F"c>A "C"GE "G7"D2 D|]
+%%center Book15/1511-Theeket_Hoose-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1512
+T: Waverley/Fergus McIver
+P: The Lawland Lads Think They Are Fine
+C:Traditional (Surenne)
+R:Jig (8x48) ABABAB
+B:RSCDS 15-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:C
+C|"C"C>DC E>FE|"G"G>AG e2 d|"C"cGE "F"F>GA |"C"G>cE "G7"EDC|
+  "C"C>DC "G"GAG|"C"c>dc "Dm"g2 f|"C"ecG "F"A>Bc|"G7"G>AG "C"E<C||
+G|"C"E2 F G2 c|e>dc "G7"dGF|"C"E2 e edc|"D"B2 c "G"dGF|
+  "C"E2 c "F"cBA|"C"E2f "(G7)"e2 d|"C"ecG "F"A>Bc|"G7"G>AG "C"E<C|]
+%%center Book15/1512-Waverley_Fergus_McIver-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 15011
+T: My Mother's Coming In
+T: 8x32R__
+B: RSCDS 15-1
+O: RSCDS 15-1
+%--------------------
+K:
+P: My Mother's Coming In
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: f \
+| "D"d2 AB/c/ dAFD | "Em"GEed "A"cAA=c | "G"B2GB "D"AdFA | "Em"GE"A7"AG "D"FDD :|
+g \
+| "D"f2df "A"eace | "Bm"dBed "A"cAA=c | "G"B2GB "D"AdFA | "Em"GB"A7"AG "D"FDD ||
+g \
+| "D"fefd "A"eace | "Bm"dBed "A"cAA=c | "G"BABG "D"FGA=c | "G"BG"A7"ge "D"fdd |]
+P: Mrs. Anderson's Reel
+C: Robert Mackintosh
+R: reel
+B: RSCDS 27-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+d | "G"g2dc     BGdB | "Am"cBAG "D7"FDDf | "G"g2dc     BGdB | "Am"ce"D7"dc "G"BGG :|
+c | "G"BGdB "Am"cAec |  "G"BgdB "D7"cAAc | "G"BGdB "Am"cAec | "D7"BdAc     "G"BGG ||
+c | "G"BGdB "Am"cAec |  "G"BgdB "D7"cAAc | "G"Bdgb "Am"ceag | "D7"fdef     "G"gGG |]
+P: The Nine Pint Coggie
+R: Reel
+A: Cape Breton
+S: Sandy MacIntyre
+M: C
+L: 1/8
+K: Em
+F | "Em"~E2EF E2DB | "D"AFED       FAAd  |  "G"BdAB "D"defe | "(Bm)"dD~D2 "Em" FEE :|
+F | "Em"Eeef  e2de | "D"f2ed "(Bm)"Bdde  | "Em"Beef    edef |  "D"   afed "Em"~e2e ||
+f |  "D"abaf  defe | "D"dBAF       ABde  |  "D"faef    deBe |       dD~D2 "Em" FEE |]
+P: Deil Stick da Minister
+R:reel
+M: C|
+L:1/8
+Z: John Chambers <jc:trillian.mit.edu>
+K:A
+|: "A"EAcA "E7"~B2GB | "A"cAcA "D"~d2Bd | "A"cAcA "E7"~B2GB | "D"~A2BA "E7"GEE2 :|
+|: "A"cdec      dedc | "G"B=GdG    BGdG | "A"cdec "E7"dBGB  | "D"~A2BA "E7"GEE2 :|
+%%center Book15/15011-My_Mothers_Coming_In.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 15031
+T: Campbell's Frolic
+O: Trad
+B: RSCDS 15-3
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+z/D  \
+|  "G"G>AG "D7"A2d | "G"B3 G2d | "Em"g>fg "A7"eag | "D"f3 d2d | "G"g>fe dcB |
+| "Am"A>BG "D7"FED | "G"G>AG "D7"A2d | "G"B3 G> :: ef | "G"g>fg "C"efg | "A7"a>bg "D7"fed |
+| "Em"g>fg "A7"eag | "D"f3 d>ef | "G"g>fe dcB | "Am"A>BG "D7"FED | "G"G>AG "D7"A2d | "G"B3 G> :|
+%%center Book15/15031-Campbells_Frolic-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 15041
+T: Medley Title
+T: 8x32J3
+O: RSCDS 15-4
+%--------------------
+K: C
+%%center Book15/15041-Medley_Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 15051
+T: The Gates of Edinburgh
+R: reel
+O: RSCDS 15-5
+B: RSCDS 15-5
+B: Rutherford "Rutherford's Complete Collection" c.1770
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: D
+"A7"F2 \
+| "D"A,B,DE F2dB | AFED "A7"E2DB, | "D"D2d2 "c#/A"A2FE | "Bm"D2B,2- B,2"A7"E2 |
+| "D"F2FA F2FA | dAFD "A7"E2DB, | "D"D2d2 "c#/A"A2FE | "Bm"D2B,2- B,2 :|
+|: "A7"A2 \
+| "D"dcde "Bm"dfed | "Em"edef "A7"egfe | "D"dcde "Bm"defd | "Em"edcB "A7"A2de |
+| "D"fedf "A7"edce | "Bm"dcBA d2de | "G"fedc "A"BAFE | "Bm"D2B,2- B,2 :|
+%%center Book15/15051-Gates_of_Edinburgh-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 15051
+T: The Gates of Edinburgh [F]
+R: reel
+O: RSCDS 15-5
+B: RSCDS 15-5
+B: Rutherford "Rutherford's Complete Collection" c.1770
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: F
+"C7"A2 \
+| "F"CDFG A2f2 | cAGF "C7"G2FD | "F"F2f2 "C/E"c2AG | "Dm"F2D2- "C7"D2G2 | "F"A2Ac A2Ac |
+| fcAF "C7"G2FD | "F"F2f2 "C/E"c2AG | "Dm"F2D4 :: "C7"c2 | "F"fefa "Dm"fagf | "Gm"gfga "C7"gbag | "F"fefg "Dm"fgaf |
+| "Gm"gfed "C7"c2fg | "F"agfa "C7"gfeg | "Dm"fedc "F"f2fg | "F"agfe "C/E"dcAG | "Dm"F2D4 :|
+%%center Book15/15051-Gates_of_Edinburgh_F-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 15051
+T: The Gates of Edinburgh [F]
+R: reel
+O: RSCDS 15-5
+B: RSCDS 15-5
+B: Rutherford "Rutherford's Complete Collection" c.1770
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: F
+"C7"A2 \
+| "F"CDFG A2f2 | cAGF "C7"G2FD | "F"F2f2 "C/E"c2AG | "Dm"F2D2- "C7"D2G2 |
+| "F"A2Ac A2Ac | fcAF "C7"G2FD | "F"F2f2 "C/E"c2AG | "Dm"F2D4 :|
+|: "C7"c2 \
+| "F"fefa "Dm"fagf | "Gm"gfga "C7"gbag | "F"fefg "Dm"fgaf | "Gm"gfed "C7"c2fg |
+| "F"agfa "C7"gfeg | "Dm"fedc "F"f2fg | "F"agfe "C/E"dcAG | "Dm"F2D4 :|
+%%center Book15/15051-Gates_of_Edinburgh_F-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 15051
+T: The Gates of Edinburgh [F]
+R: reel
+O: RSCDS 15-5
+B: RSCDS 15-5
+B: Rutherford "Rutherford's Complete Collection" c.1770
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: F
+"C7"A2 \
+| "F"CDFG A2fd | "F"cAGF "C7"G2FD | "F"F2f2 "e/C"c2AG | "Dm"F2D2- D2 "C7"G2 || "F"A2Ac A2Ac |
+| "F"fcAF "C7"G2FD | "F"F2f2 "e/C"c2AG | "Dm"F2D2- D2 |[| "C7"c2 | "F"fefg fagf | "C7"gfga gbag | "F"fefg "Dm"fgaf |
+| "Gm"gfed "C7"c2fg || "F"agfa "C7"gfeg | "Dm"fedc f2fg | "F(Bb)"agfe "C"dcAG | "Dm"F2D2- D2 |]
+%%center Book15/15051-Gates_of_Edinburgh_F.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 15051
+T: The Gates of Edinburgh [G]
+R: reel
+O: RSCDS 15-5
+B: RSCDS 15-5
+B: Rutherford "Rutherford's Complete Collection" c.1770
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: G
+"D7"B2 \
+| "G"DEGA B2g2 | dBAG "D7"A2GE | "G"G2g2 "D/F"d2BA | "Em"G2E2- "D7"E2A2 | "G"B2Bd B2Bd |
+| gdBG "D7"A2GE | "G"G2g2 "D/F"d2BA | "Em"G2E4 :: "D7"d2 | "G"gfgb "Em"gbag | "Am"agab "D7"ac'ba | "G"gfga "Em"gabg |
+| "Am"agfe "D7"d2ga | "G"bagb "D7"agfa | "Em"gfed "G"g2ga | "G"bagf "D/F"edBA | "Em"G2E4 :|
+%%center Book15/15051-Gates_of_Edinburgh_G-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mrs. Colonel Sinclair of Forss
+C: D. Grant
+R: strathspey
+B: RSCDS 15-9
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+%
+K: D
+D2 \
+|:"D"A,3D F3A "Bm"dcBA F4 | "D"Ad3 d3f "G"gfed B2d2 \
+| "D/F#"Ad3 F3A "G"BABc d3B |1 "D/F#"AF3 D3F "Em"GFED "G"B,4 :|2 "Bm"AF3 F3D "A7"E4 "D"D2 |]
+A2 \
+| "D"defg a3f "G"b3f "D/F#"a3f | "Em"g3e "D"f3d "G"gfed B4 \
+| "D"defg a3f "G"b3f "D/F#"a3f | "Em"g3e "D"f3d "A7"e4 "D"d4 |
+y2 \
+| "D"defg a3f "G"b3f "D/F#"a3f | "Em"g3e "D"f3d "G"gfed Bd3 \
+| "D/F#"Ad3 F3A "G"BABc d3B |  "Bm"AF3 F3D "A7"E4 "D"D2 |]
+%%center Book15/15091-Mrs_Colonel_Sinclair_of_Forss-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+N: This is no' my ain hoose
+N: 8 x 32S 3C (RSCDS Bk. 15)
+T: Mrs. Colonel Sinclair of Forss
+C: RSCDS Bk 15 #9, arr. T. Traub 8-29-1999
+R: Strathspey
+M: 4/4
+%
+K: D
+L: 1/8
+|: F|"D"A,>DF>A d/c/B/A/ F2|"D"A<dd>f "G"g/f/e/d/ Bd|"D"A<dF>A "G"B/A/B/c/ d>B| [1 "D"A<FD>F "G"G/F/E/D/ B,2 :| [2 "D"A<FF>D "A"E2 "D"D ||
+A|"D"d/e/f/g/ a>f "G"b>f"D"a>f|"A"g>e"D"f>d "Em"g/f/e/d/ "G"B2|"D"d/e/f/g/ a>f "G"b>f"D"a>f|"A"g>e"D"f>d "A"e2 "D"d2|
+"D"d/e/f/g/ a>f "G"b>f"D"a>f|"A"g>e"D"f>d "Em"g/f/e/d/ "G"B<d|"D"A<dF>A "G"B/A/B/c/ d>B|"D"A<FF>D "A"E2 D|]
+%%center Book15/15091-Mrs_Colonel_Sinclair_of_Forss.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Willie Shaw
+C: Trad.
+R: strathspey
+F: http://www.math.mun.ca/~bshawyer/straths/WillieShaw.abc
+K:D
+M:4/4
+L:1/16
+g2 |\
+fd3 B3d A4 F4 | FA3 d3f ge3 e3g | fd3 B3d A4 F4 | FA3 d3e fd3 d2 :|
+g2 |\
+fa3 a4 fa3 d'4 | e3f e3d ce3 e3g | fa3 a4 fa3 d'4 | A3B d3e fd3 d3g |
+fa3 a4 fa3 d'4 | e3f e3d cA3 A4 | Bd3 ce3 df3 eg3 | fb3 a3g fd3 d2 |]
+%%center Book15/15092-Willie_Shaw-D-16-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Campbell's Frolic
+O: Trad
+B: RSCDS 15-3
+M: 6/8
+L: 1/8
+K: G
+z/D  \
+|  "G"G>AG "D7"A2d | "G"B3 G2d | "Em"g>fg "A7"eag | "D"f3 d2d | "G"g>fe dcB |
+| "Am"A>BG "D7"FED | "G"G>AG "D7"A2d | "G"B3 G> :: ef | "G"g>fg "C"efg | "A7"a>bg "D7"fed |
+| "Em"g>fg "A7"eag | "D"f3 d>ef | "G"g>fe dcB | "Am"A>BG "D7"FED | "G"G>AG "D7"A2d | "G"B3 G> :|
+%%center Book15/CampbellsFrolicJ.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Gates of Edinburgh
+R: reel
+O: RSCDS 15-5
+B: RSCDS 15-5
+B: Rutherford "Rutherford's Complete Collection" c.1770
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+"A7"F2 \
+| "D"A,B,DE F2dB | AFED "A7"E2DB, | "D"D2d2 "c#/A"A2FE | "Bm"D2B,2- B,2"A7"E2 |
+| "D"F2FA F2FA | dAFD "A7"E2DB, | "D"D2d2 "c#/A"A2FE | "Bm"D2B,2- B,2 :|
+|: "A7"A2 \
+| "D"dcde "Bm"dfed | "Em"edef "A7"egfe | "D"dcde "Bm"defd | "Em"edcB "A7"A2de |
+| "D"fedf "A7"edce | "Bm"dcBA d2de | "G"fedc "A"BAFE | "Bm"D2B,2- B,2 :|
+%%center Book15/GatesOfEdinburgh_D4-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Gates of Edinburgh
+R: reel
+O: RSCDS 15-5
+B: RSCDS 15-5
+B: Rutherford "Rutherford's Complete Collection" c.1770
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+"A7"F2 \
+| "D"A,B,DE F2dB | AFED "A7"E2DB, | "D"D2d2 "c#/A"A2FE | "Bm"D2B,2- B,2"A7"E2 |
+| "D"F2FA F2FA | dAFD "A7"E2DB, | "D"D2d2 "c#/A"A2FE | "Bm"D2B,2- B,2 :|
+|: "A7"A2 \
+| "D"dcde "Bm"dfed | "Em"edef "A7"egfe | "D"dcde "Bm"defd | "Em"edcB "A7"A2de |
+| "D"fedf "A7"edce | "Bm"dcBA d2de | "G"fedc "A"BAFE | "Bm"D2B,2- B,2 :|
+%%center Book15/GatesOfEdinburgh_D4_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Gates of Edinburgh [F]
+R: reel
+O: RSCDS 15-5
+B: RSCDS 15-5
+B: Rutherford "Rutherford's Complete Collection" c.1770
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+"C7"A2 \
+| "F"CDFG A2fd | "F"cAGF "C7"G2FD | "F"F2f2 "e/C"c2AG | "Dm"F2D2- D2 "C7"G2 || "F"A2Ac A2Ac |
+| "F"fcAF "C7"G2FD | "F"F2f2 "e/C"c2AG | "Dm"F2D2- D2 |[| "C7"c2 | "F"fefg fagf | "C7"gfga gbag | "F"fefg "Dm"fgaf |
+| "Gm"gfed "C7"c2fg || "F"agfa "C7"gfeg | "Dm"fedc f2fg | "F(Bb)"agfe "C"dcAG | "Dm"F2D2- D2 |]
+%%center Book15/GatesOfEdinburgh_F3_16-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Gates of Edinburgh [F]
+R: reel
+O: RSCDS 15-5
+B: RSCDS 15-5
+B: Rutherford "Rutherford's Complete Collection" c.1770
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+"C7"A2 \
+| "F"CDFG A2fd | "F"cAGF "C7"G2FD | "F"F2f2 "e/C"c2AG | "Dm"F2D2- D2 "C7"G2 || "F"A2Ac A2Ac |
+| "F"fcAF "C7"G2FD | "F"F2f2 "e/C"c2AG | "Dm"F2D2- D2 |[| "C7"c2 | "F"fefg fagf | "C7"gfga gbag | "F"fefg "Dm"fgaf |
+| "Gm"gfed "C7"c2fg || "F"agfa "C7"gfeg | "Dm"fedc f2fg | "F(Bb)"agfe "C"dcAG | "Dm"F2D2- D2 |]
+%%center Book15/GatesOfEdinburgh_F3_16_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Gates of Edinburgh [F]
+R: reel
+O: RSCDS 15-5
+B: RSCDS 15-5
+B: Rutherford "Rutherford's Complete Collection" c.1770
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+"C7"A2 \
+| "F"CDFG A2f2 | cAGF "C7"G2FD | "F"F2f2 "C/E"c2AG | "Dm"F2D2- "C7"D2G2 |
+| "F"A2Ac A2Ac | fcAF "C7"G2FD | "F"F2f2 "C/E"c2AG | "Dm"F2D4 :|
+|: "C7"c2 \
+| "F"fefa "Dm"fagf | "Gm"gfga "C7"gbag | "F"fefg "Dm"fgaf | "Gm"gfed "C7"c2fg |
+| "F"agfa "C7"gfeg | "Dm"fedc "F"f2fg | "F"agfe "C/E"dcAG | "Dm"F2D4 :|
+%%center Book15/GatesOfEdinburgh_F4-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Gates of Edinburgh [F]
+R: reel
+O: RSCDS 15-5
+B: RSCDS 15-5
+B: Rutherford "Rutherford's Complete Collection" c.1770
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+"C7"A2 \
+| "F"CDFG A2f2 | cAGF "C7"G2FD | "F"F2f2 "C/E"c2AG | "Dm"F2D2- "C7"D2G2 |
+| "F"A2Ac A2Ac | fcAF "C7"G2FD | "F"F2f2 "C/E"c2AG | "Dm"F2D4 :|
+|: "C7"c2 \
+| "F"fefa "Dm"fagf | "Gm"gfga "C7"gbag | "F"fefg "Dm"fgaf | "Gm"gfed "C7"c2fg |
+| "F"agfa "C7"gfeg | "Dm"fedc "F"f2fg | "F"agfe "C/E"dcAG | "Dm"F2D4 :|
+%%center Book15/GatesOfEdinburgh_F4_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Gates of Edinburgh [G]
+R: reel
+O: RSCDS 15-5
+B: RSCDS 15-5
+B: Rutherford "Rutherford's Complete Collection" c.1770
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+"D7"B2 \
+| "G"DEGA B2g2 | dBAG "D7"A2GE | "G"G2g2 "D/F"d2BA | "Em"G2E2- "D7"E2A2 | "G"B2Bd B2Bd |
+| gdBG "D7"A2GE | "G"G2g2 "D/F"d2BA | "Em"G2E4 :: "D7"d2 | "G"gfgb "Em"gbag | "Am"agab "D7"ac'ba | "G"gfga "Em"gabg |
+| "Am"agfe "D7"d2ga | "G"bagb "D7"agfa | "Em"gfed "G"g2ga | "G"bagf "D/F"edBA | "Em"G2E4 :|
+%%center Book15/GatesOfEdinburgh_G4-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Gates of Edinburgh [G]
+R: reel
+O: RSCDS 15-5
+B: RSCDS 15-5
+B: Rutherford "Rutherford's Complete Collection" c.1770
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+"D7"B2 \
+| "G"DEGA B2g2 | dBAG "D7"A2GE | "G"G2g2 "D/F"d2BA | "Em"G2E2- "D7"E2A2 | "G"B2Bd B2Bd |
+| gdBG "D7"A2GE | "G"G2g2 "D/F"d2BA | "Em"G2E4 :: "D7"d2 | "G"gfgb "Em"gbag | "Am"agab "D7"ac'ba | "G"gfga "Em"gabg |
+| "Am"agfe "D7"d2ga | "G"bagb "D7"agfa | "Em"gfed "G"g2ga | "G"bagf "D/F"edBA | "Em"G2E4 :|
+%%center Book15/GatesOfEdinburgh_G4_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lord Rosslyn's Fancy    [Bb]
+R: jig
+B: RSCDS 15-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+B \
+| "Bb"FGB d2B | "F7"c2B "Bb"d2B | "(F)"FGA "Eb"B2g | "Bb"fdB "F7"c2B \
+| "Bb"FGB d2B | "F7"c2B "Bb"d2B | "(F)"FGA "Gm"B2g | "Bb"fdB "F7"c2 ||
+|| (3f/g/a/ \
+| "Bb"b2B a2B | "Eb"g2B "Bb"fdB | "Eb"G2B "Bb"F2g | "C7"fdB "F7"c2 (3f/g/a/ \
+| "Bb"b2B a2B | "Eb"g2B "Bb"fdB | "Eb"BAG "Bb"FDF | "Eb"G<BB "Bb"B2 |] [b2D2]
+%%center Book15/LordRosslynsFancyJ-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lord Rosslyn's Fancy    [Bb]
+R: jig
+B: RSCDS 15-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+B \
+| "Bb"FGB d2B | "F7"c2B "Bb"d2B | "(F)"FGA "Eb"B2g | "Bb"fdB "F7"c2B \
+| "Bb"FGB d2B | "F7"c2B "Bb"d2B | "(F)"FGA "Gm"B2g | "Bb"fdB "F7"c2 ||
+|| (3f/g/a/ \
+| "Bb"b2B a2B | "Eb"g2B "Bb"fdB | "Eb"G2B "Bb"F2g | "C7"fdB "F7"c2 (3f/g/a/ \
+| "Bb"b2B a2B | "Eb"g2B "Bb"fdB | "Eb"BAG "Bb"FDF | "Eb"G<BB "Bb"B2 |] [b2D2]
+%%center Book15/LordRosslynsFancyJ_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lord Rosslyn's Fancy    [Bb]
+R: jig
+B: RSCDS 15-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+B \
+| "Bb"FGB d2B | "F7"c2B "Bb"d2B | "(F)"FGA "Eb"B2g | "Bb"fdB "F7"c2B \
+| "Bb"FGB d2B | "F7"c2B "Bb"d2B | "(F)"FGA "Gm"B2g | "Bb"fdB "F7"c2 ||
+|| (3f/g/a/ \
+| "Bb"b2B a2B | "Eb"g2B "Bb"fdB | "Eb"G2B "Bb"F2g | "C7"fdB "F7"c2 (3f/g/a/ \
+| "Bb"b2B a2B | "Eb"g2B "Bb"fdB | "Eb"BAG "Bb"FDF | "Eb"G<BB "Bb"B2 |] [b2D2]
+%%center Book15/LordRosslynsFancyJ_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mrs. Colonel Sinclair of Forss
+C: D. Grant
+R: strathspey
+B: RSCDS 15-9
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+D2 \
+|:"D"A,3D F3A "Bm"dcBA F4 | "D"Ad3 d3f "G"gfed B2d2 \
+| "D/F#"Ad3 F3A "G"BABc d3B |1 "D/F#"AF3 D3F "Em"GFED "G"B,4 :|2 "Bm"AF3 F3D "A7"E4 "D"D2 |]
+A2 \
+| "D"defg a3f "G"b3f "D/F#"a3f | "Em"g3e "D"f3d "G"gfed B4 \
+| "D"defg a3f "G"b3f "D/F#"a3f | "Em"g3e "D"f3d "A7"e4 "D"d4 |
+y2 \
+| "D"defg a3f "G"b3f "D/F#"a3f | "Em"g3e "D"f3d "G"gfed Bd3 \
+| "D/F#"Ad3 F3A "G"BABc d3B |  "Bm"AF3 F3D "A7"E4 "D"D2 |]
+
+%%center Book15/MrsColonelSinclairOfForss_D-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mrs. Colonel Sinclair of Forss
+C: D. Grant
+R: strathspey
+B: RSCDS 15-9
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+D2 \
+|:"D"A,3D F3A "Bm"dcBA F4 | "D"Ad3 d3f "G"gfed B2d2 \
+| "D/F#"Ad3 F3A "G"BABc d3B |1 "D/F#"AF3 D3F "Em"GFED "G"B,4 :|2 "Bm"AF3 F3D "A7"E4 "D"D2 |]
+A2 \
+| "D"defg a3f "G"b3f "D/F#"a3f | "Em"g3e "D"f3d "G"gfed B4 \
+| "D"defg a3f "G"b3f "D/F#"a3f | "Em"g3e "D"f3d "A7"e4 "D"d4 |
+y2 \
+| "D"defg a3f "G"b3f "D/F#"a3f | "Em"g3e "D"f3d "G"gfed Bd3 \
+| "D/F#"Ad3 F3A "G"BABc d3B |  "Bm"AF3 F3D "A7"E4 "D"D2 |]
+
+%%center Book15/MrsColonelSinclairOfForss_D_2-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mrs. Colonel Sinclair of Forss
+C: D. Grant
+R: strathspey
+B: RSCDS 15-9
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+D2 \
+|:"D"A,3D F3A "Bm"dcBA F4 | "D"Ad3 d3f "G"gfed B2d2 \
+| "D/F#"Ad3 F3A "G"BABc d3B |1 "D/F#"AF3 D3F "Em"GFED "G"B,4 :|2 "Bm"AF3 F3D "A7"E4 "D"D2 |]
+A2 \
+| "D"defg a3f "G"b3f "D/F#"a3f | "Em"g3e "D"f3d "G"gfed B4 \
+| "D"defg a3f "G"b3f "D/F#"a3f | "Em"g3e "D"f3d "A7"e4 "D"d4 |
+y2 \
+| "D"defg a3f "G"b3f "D/F#"a3f | "Em"g3e "D"f3d "G"gfed Bd3 \
+| "D/F#"Ad3 F3A "G"BABc d3B |  "Bm"AF3 F3D "A7"E4 "D"D2 |]
+
+%%center Book15/MrsColonelSinclairOfForss_D_JC.abc

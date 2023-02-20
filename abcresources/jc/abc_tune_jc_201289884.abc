@@ -1,0 +1,26 @@
+X: 1
+T: Ikariatikos
+T: Dance from Ikaria
+R:
+O: Ikaria, Greece
+P: I+(AB)xN+C
+Z: 1997 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K:  Bm
+P: Intro
+|: "A"A2 Bc dc de | Tc2- cB cd "Bm"TB2 \
+|  "A"A2 Bc dc de | Tc2- cB cd "Bm"TB2 :| \
+|::: "4"z2 "bars"[Bdf][Bdf] [B2d2f2] [B2d2f2] :::|
+P: A
+|: "Bm"B2 ff f2 f2 | "A"ef ed cd e2 \
+|  "Bm"B2 ff f2 f2 | "A"ef ed cd e2 |
+|  "Bm"B2 ff f2 f2 | "A"ef ed cd e2 \
+|  "Bm"B2 ff f2 f2 | "A"ef ed cd "Bm"B2 |]
+P: B
+[| "A"A2 Bc dc de | c2- cB cd "Bm"B2 \
+|  "A"A2 Bc dc de | c2- cB cd "Bm"B2 |
+|  "A"A2 Bc dz de | c2- cB cd "Bm"B2 \
+|  "A"A2 Bc dc de | c2- cB cd "Bm"B2 :|
+P: Coda
+"Bm"z2 [Bdf][Bdf] [B2d2f2] [B2d2f2] | z2 [Bdf][Bdf] [B2d2f2] [B2d2f2] | .[Bdf] z3 z4 |] y4 y4 y4 y4

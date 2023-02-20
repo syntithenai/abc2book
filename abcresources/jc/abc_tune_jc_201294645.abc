@@ -1,0 +1,14 @@
+X:368
+T:The Jovial Beggars
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=120
+M:6/8
+L:1/8
+%%stretchstaff 0
+%%MIDI ratio 3 1
+K:Bb
+P:A
+|:F | "Bb"B2c "F7"d2e | "Bb"f3 "Eb"g3 | "Bb"f>ed "Gm"c2d | "Cm"e3 "Bb"d3 | "F"c>BA "C7"B2c | "F"F3-F2 :|
+P:B
+|:d | "Cm"c>BA B2c | "F"c3-c2d | "Cm"c>BA B2c | "F"f3-f2d |\
+"Cm"cBA "F7"G2F | "Bb"B2c "Gm"d2g | "Dm"fgd "F7"c2B | "Bb"B3-B2 :|

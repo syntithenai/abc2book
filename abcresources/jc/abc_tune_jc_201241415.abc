@@ -1,0 +1,19 @@
+X: 4344
+T: Charles Street Bath
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.4 p.34 #4 (and top staff on p.35)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+(e//f//g/) |\
+(ag)(ag) aecA | fgag Tf2 ef/g/ | aece fdBd | ce GB A2A :| c | EBGB EcAc | EBcd Tc2B>g |
+aece fdBd | ceGB A2Ac || EBGB EcAc | EBcd Tc2Bg | aece fdBd | ceGB A2A |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | A2a2 a2c'2 | d'2d'2 d'2c'2 | a2c2 d2d2 | e2E2 A2A :| z | [e2G2][e2G2] [e2A2][e2A2] | [e2G2][e2A2] E2ez |
+a2A2 d2d2 | e2E2 A2A2 || [e2G2][e2G2] [e2A2][e2A2] | [e2G2][e2A2] E2ez | a2A2 d2d2 | e2E2 A2A |]

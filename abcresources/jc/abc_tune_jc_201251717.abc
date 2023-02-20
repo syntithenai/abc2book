@@ -1,0 +1,19 @@
+X:49
+T:Bellows and Bows
+C:Fred Grimshaw, 1995
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=110
+H:For the dance "Butterfly Wings" by Anne Welch
+%%MIDI ratio 3 1
+K:G
+P:A
+|: "G"DG "C"EG | "D"F/G/A "G"G2 | "C"ee "G"d/e/g/d/ | "A"B2 "D"A2 |\
+"G"DG "/"BG | "D;B7"AG/F/ "G;Em"Gd | "C"eg/e/ "G"d/B/G/B/ | "D"A2 "G"G2 :|
+P:B
+"G"d>e "Bm"dB/G/ | "Am"A/B/A/G/ "D"ED/E/ | "G"G>G "/"G/B/d | "C"e2 "D"d2 |\
+"G"d>e "/"dB/A/ | "Em"G/A/G/F/ "/"Ee/f/ | "Em"gg "D"a/f/d | "A"e2 "D"d2 |
+P:C
+"Am"c>d "/"ee | "D"A/B/A/G/ "/"F/E/D | "G"GG "Em"E/F/G | "Am"A2 "D"D2 |\
+"G"DG "C"EG | "B7"F/G/A "Em"G2 | "C"ee "G"d/B/G | "D"A2 "G"G2 |]

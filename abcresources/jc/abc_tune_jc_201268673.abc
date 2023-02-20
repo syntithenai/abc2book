@@ -1,0 +1,55 @@
+
+X: 1
+T: Dimitrio Djan\uam    [Cm]
+%%text Play instrumental breaks only.
+O: Bulgaria
+R: \vCo\vcak
+P: AvBvCvDv AvBvCvD D
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 4/4
+K: Cdor
+P: Break A:
+|: "Cm"~c2cG gffg  | "Cm"~e2ed ~c2cd | "Bb"~e2ef ~d2dB |1 "Cm"~c2cG ~f2fc :|2 "Cm"~c2cf ~c2cG ||
+|: "Cm"~c2cG g_agf | "Cm"~e2ed ~c2cd | "Bb"~e2ef ~d2dB |1 "Cm"~c2cG ~f2fc :|2 "Cm"~c2cf ~c2z2 ||
+P: Vocal:
+[| "Cm"z4 z4 | "Cm"z4 z4 | "Cm"z4 z4 | "Cm"z4 z4 \
+|: "Bb"z4 "Cm"z4 | "F(m)"z4 z4 | "Cm"z4 "Bb"z4 | "Cm"z4 z4 :|
+P: Break B:
+|: "Cm"AB~c2 AB~c2 | "Cm"~d2~c2 ~c2~f2 | "Cm"AB~c2 AB~c2 |1 "Bb"~d2cf "Cm"~c2cG :|2 "Bb"~d2cf "Cm"~c2z2 ||
+P: Break C:
+|: "Cm"~c2BA ~G3F | "Bb"ABdB "Cm"~c2cd |1 "Cm"deef ~d2~c2 | "F"cz fz fz fz :|2 "Cm"deef "Bb"~d2dB | "Cm"~c2cf ~c2cG ||
+P: Break D:
+|: "Cm"GABc BAGF | "Cm"EFED ~C2CD | "Cm"~E2EF "Bb"~D2DB, |1 "Cm"~C2CG, ~F2Fc :|2 "Cm"~C2CF ~Czz2 |]
+%%begintext
+%% Break A played fully 1st time only; other times without repeats, but with 1st & 2nd endings.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Dimitrio Djan\uam    [Dm]
+%%text Play instrumental breaks only.
+O: Bulgaria
+R: \vCo\vcak
+P: AvBvCvDv AvBvCvD D
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 4/4
+K: Ddor
+P: Break A:
+|: "Dm"~d2dA agga  | "Dm"~f2fe ~d2de | "C"~f2fg ~e2ec |1 "Dm"~d2dA ~g2gd :|2 "Dm"~d2dg ~d2dA ||
+|: "Dm"~d2dA a_bag | "Dm"~f2fe ~d2de | "C"~f2fg ~e2ec |1 "Dm"~d2dA ~g2gd :|2 "Dm"~d2dg ~d2z2 ||
+P: Vocal:
+[| "Dm"z4 z4 | "Dm"z4 z4 | "Dm"z4 z4 | "Dm"z4 z4 \
+|: "C"z4 "Dm"z4 | "G(m)"z4 z4 | "Dm"z4 "C"z4 | "Dm"z4 z4 :|
+P: Break B:
+|: "Dm"Bc~d2 Bc~d2 | "Dm"~e2~d2 ~d2~g2 | "Dm"Bc~d2 Bc~d2 |1 "C"~e2dg "Dm"~d2dA :|2 "C"~e2dg "Dm"~d2z2 ||
+P: Break C:
+|: "Dm"~d2cB ~A3G | "C"Bcec "Dm"~d2de |1 "Dm"effg ~e2~d2 | "G"dz gz gz gz :|2 "Dm"effg "C"~e2ec | "Dm"~d2dg ~d2dA ||
+P: Break D:
+|: "Dm"ABcd cBAG | "Dm"FGFE ~D2DE | "Dm"~F2FG "C"~E2EC |1 "Dm"~D2DA, ~G2Gd :|2 "Dm"~D2DG ~Dzz2 |]
+%%begintext
+%% Break A played fully 1st time only; other times without repeats, but with 1st & 2nd endings.
+%%endtext

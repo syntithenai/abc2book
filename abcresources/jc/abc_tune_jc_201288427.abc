@@ -1,0 +1,18 @@
+X: 664
+T: the Humors of Ballinacarrig   #2
+R: reel
+%S: s:2 b:11(5+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #664
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0664/oneill-1001-0664-1.abc
+N: Compacted via 2nd repeat with multiple endings [JC]
+M: C|
+L: 1/8
+K: Em
+%%slurgraces 1
+%%graceslurs 1
+"^A"\
+|: B(E (3{F}EDE) d2cB | A(D (3FED) FAAc | BEEF GAB^c |[1 d^cdB e2dc :|[2 dBAc BEE2 |]
+"^B"\
+|: {f}e"^#*"def {a}gfge | defg afdf |[1 edef gfe^c | dBAc BEE2 :|[2 g2(fd) (3(efg) (fe) | dBAc BEE2 |]
+%%text O'Neill's 1850 and 1001 disagree about whether this d note is sharp or not. It works either way.

@@ -1,0 +1,24 @@
+X: 4284
+T: Miss Smyth of Methven's    Reel
+%R: reel
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.28 #4 (and top 8 staffs on p.29)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+%%continueall 1	% Without this, abcm2ps complains about line width no matter what I do.
+% - - - - - - - - - -
+% Voice 1 reformatted for 4 7-bar lines, for compactness and proofreading.
+V: 1 staves=2
+c | {G}A2E>C ECA,C | B,B-B>c TB>AFB | {G}A2E>C (EF/G/ A).F | ECDB, A,/A,/A, A, :| d | Tc2ec Acdf | ecAc TB>AFd | Tc2ec Acdf |
+ecTB>c A/A/A Ad | Tc2ec Acdf | ecAc TB>AFB | {G}A2E>C (EF/G/ A)>.F | ECDB, A,/A,/A, A, |]| D | TC2E>C A,<A, E>C | B,B-B>c TB>AFB |
+{G}A2E>C (EF/G/ A).F | ECDB, A,/A,/A, A,D | TC2E>C A,<A, EC | B,B-B>c TB>AFB | A2E>C (A/B/c/d/ e)>c | d>Be>c A/A/A A |[| d | {c}e2[e2e2] ceaf |
+ecAc TB>AFd | {c}e2 [e2e2] ceaf | ecdB A/A/A A>d | {c}e2[e2e2] ceac | dbca TB>AFB | {G}A2E>C (EF/G/ A)>.F | E>CD>B, A,/A,/A, A, |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | A2A2 A2A2 | B2B2 B2B2 | A2A2 A2d2 | e2E2 A2A :| z | a2a2 a2a2 |
+a2a2 b2b2 | a2a2 a2d2 | e2E2 A2A2 | a2a2 a2a2 | a2a2 b2b2 | a2a2 a2d2 |
+e2E2 A2A |]| z | A2A2 A2A2 | B2B2 B2B2 | A2A2 A2d2 | e2E2 A2A2 | A2A2 A2A2 |
+B2B2 B2B2 | A2A2 A2A2 | d2e2 A2A |[| z | a2a2 a2a2 | a2a2 b2b2 | a2a2 a2a2 |
+e2e2 A2A2 | a2a2 a2a2 ! | g2a2 b2b2 | a2a2 A2d2 | e2E2 A2A |]

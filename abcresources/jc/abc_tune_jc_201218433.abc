@@ -1,0 +1,31 @@
+X:0105
+T:Meg Merrilees
+P:Meg Merrilees
+C:Traditional
+R:Reel (8x24)
+B:RSCDS 1-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:A
+V:1
+%%staves (1 2)
+[V:1] cd|"A"edcd eagf|fee2 e2cd|efec efec|"E7"cBB2 B2cd|\
+[V:1]    "A"edcd eagf|fee2 e2cd|
+[V:1]                           efec "E7"BABc|"A"A2AA A2||\
+[V:1] ze|"E7"^defe =deBe|"A"ceAe ceAe|"E7"^defe =dcdB|"A"BAAA A2e2|
+[V:1]    "E7"^defe =deBe|"A"ceAe ceAe|\
+[V:1]			"Bm"BA"A"Bc "Bm"de"E7"fg|"A"ag"D"[ad]g "A"[a2c2]||\
+[V:1] cd|"A"e2AB c2Bc|"E7"d2a2 g2   fg|
+[V:1]				    "A"a2c'b a2gf|"Bm"e2dc "E7"B2cd|\
+[V:1]    "A"e2AB c2Bc|"E7"d2a2 g2   fg|"A"agfe "Bm"dcBA|"E7"cBAG "A"A2|]
+%V:2
+%[V:2] x2|   x8       |x8       |x8       |    x8       |\
+%[V:2]       x8       |x8       |
+%[V:2]                           x8           |   x6     ||\
+%[V:2] x2|    x8         |   x8       |     x8        |   x8       |
+%[V:2]         x8        |   x8       |\
+%[V:2]                       x8                  |x6                     ||\
+%[V:2] x2|   z2E2 z2E2|z2[B2G2][B2G2]x2|
+%[V:2]                                  z2c2  z2A2|    z2F2     G2z2|\
+%[V:2]       z2E2 z2E2|z2[B2G2][B2G2]x2|x8              |    x6        |]

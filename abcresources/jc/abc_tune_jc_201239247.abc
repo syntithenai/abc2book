@@ -1,0 +1,34 @@
+X: 32381
+T: DUO POUR DEUX VIOLONS
+C: Par James C. Paton
+B: K\"ohler's Violin Repository, v.3, 1885 p.238 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd-violin part is on the next (facing) page.
+N: Bar 4 has a missing half-beat; fixed in the obvious way, to be like bar 16.
+U: P=!crescendo(!
+U: p=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: C
+L: 1/8
+Q: "Andante"
+K: C
+P: Violino Primo
+|:\
+!p!vg4 (e2c2) | (cBdB) G2z2 |\
+vg4 (^f/g/a/g/ =f/e/d/c/) | .c.B (d/c/B/A/) G2z2 |\
+!p!vc4 c4 | (c2a2) (gfed) |
+c4 TB4{AB} | (d4 c2)z2 :|\
+!ff!v[d4-e4-] [de](.[de].[de].[de]) | [e2c2]z2 z(Aaug) |\
+P[^f4-A4-] p[fA]Q(.[fA].[fA].[fA]) | q.g(^fag "_Rall."=fef^f) |
+"_Tempo"g4 (e2c2) | (cBdB) G2z2 |\
+vg4 (^f/g/a/g/ =f/e/d/c/) | cB (d/c/B/A/) G2z2 |\
+"_cresc . . . . ."vc4 (cd e/f/a/^g/ | a2- Qa.g .f.e.fq.d) |
+c2(G>c) e2-e>vd | (d4 c2)z2 |\
+!p!v[E4G,4] ([FG,4]EFD) | [E2G,2]!ff!e2 "_Pizz."c2G2 |\
+!p![D4G,4] ([EG,4]DEF) | [D2G,2]GA (Bcd^d) |
+e4 (^defe) | e4 (c2ed) |\
+c4 B4 | A4- A(Gce) |\
+Qd4 (A2B2)q | !p![c2E2]z2 u[c2F2][c2F2] |\
+!pp![c4-E4-] [c2E2] "_Fine."z2 H|]

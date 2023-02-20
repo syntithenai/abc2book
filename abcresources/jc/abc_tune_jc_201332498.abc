@@ -1,0 +1,39 @@
+
+X: 1
+T: Rustemul
+O: Romania
+Z: 1999 John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: Retranscribed from Ralph Iverson's transcription.
+M: 6/8
+L: 1/8
+K: Em
+P: Intro
+   E | "Em"EEE Ez E | EEE Ez E | EEE Ez E | EEE Ez ||
+"A"|: b | "Em"^aab age | ege B2b | "Em"^aab age | "(B7)"ege "Em"ez :|
+"B"|: e | "Em"ege ege | ege B3 | "Am"eeg ^age | "B7"ege "Em"ez :|
+"C"|: g | "Em"eef g2f | "Em"eef g2f | "Em"eef "Am"g2f | "B7"eeB "Em"ez :|
+"D"|: b | "B7"BBb B2b | BBb B2b | "Em"BB^A "Am"{f}g2f | "B7"eef "Em"g^ab | ^age "Am"age | "B7"ege "Em"e"fine"z :|
+"E"|: b | "G"d'd'd' d'bg | gbg d2b | d'd'd' d'bg | gbg gz :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Ana Lugojana
+O: Romania
+%info: couple
+M: 2/4
+L: 1/8
+Z: John Chambers <jc@trillian.mit.edu> from handwritten Mandala MS.
+K: G
+|: "G"bz zc' | "D7"az zb | "G"gf ef | g2 d2 \
+| "G"bb c'b | "D7"ag ag | "Em"fe "B7"BB | "Em"e2 z2 :|
+|:"Em"e3 f | gb ag | "D7"gf ef | "G"g2 d2 \
+| "Em"e3 f | gb ag | fe "B7"BB | "Em"e2 z2 :|
+[| "C"Ee ed | ed cB | "D7"dz B2 | "G"cB AG \
+| "C"Ge ed | ed cB | "D7"dz B2 | "G"cB AG |]
+|: "Em"GA BG | AG FE | ez B2 | cB AG \
+| GA BG | AG FE | FE "B7"B,B, | "Em"E2 "fine"z2 :|
+|: "G"DG DG | BG d2 | "D7"cB Ac | "G"Bc/B/ AG \
+| "G"DG DG | BG d2 | "D7"cB AB | "G"G2 z2 :|

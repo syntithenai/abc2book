@@ -1,0 +1,45 @@
+X: 1
+A:Thomas Tallis
+T:Thomas Tallis' Fourth Psalm Tune
+M:none
+L:1/4
+Q:1/4=130
+K:E Phrygian
+%
+V:1 clef=treble
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+V:4 clef=bass+16 middle=D,%+
+%
+%%MIDI program 1	79 ocarina
+%%MIDI program 2	74 recorder
+%%MIDI program 3	71 clarinet
+%%MIDI program 4	60 frenchrn
+%
+% Squeeze things together a bit, to get the whole tune to fit on one page.
+%%sysstaffsep    22.0pt
+%%systemsep      50.0pt
+%
+[V:1] C  C   D  | E2     G  | F2   F  | E2  C  | F  F    E  | F   D    D  |^C2   z |
+[V:2] A, A,  A, | C2     C  | C2   C  | C2  G, | C  C    C  | C   A,   A, | A,2  z |
+w:    O come in   one    to praise the Lord and him re-count, our stay and health.
+[V:3] E, E,  F, | G,2    G, | A,2  A, | G,2 E, | A, A,   G, | A,  F,   F, | E,2  z |
+[V:4] A,,A,, D, |(C,>D,) E, | F,2  F, | C,2 C, | F,,A,,  C, | A,, D,   D, | A,,2 z |
+%
+[V:1] C   C     D  | E2     G  | F2  F  | E2  C  | F    F     E  |  F   D    D  |^C2   z |
+[V:2] A,  A,    A, | C2     C  | C2  C  | C2  G, | C    C     C  |  C   A,   A, | A,2  z |
+w:    All heart-y    joys  let   us  re- cord to  this strong rock, our Lord of  health.
+[V:3] E,  E,    F, | G,2    G, | A,2 A, | G,2 E, | A,   A,    G, |  A,  F,   F, | E,2  z |
+[V:4] A,, A,,   D, |(C,>D,) E, | F,2 F, | C,2 C, | F,,  A,,   C, |  A,, D,   D, | A,,2 z |
+%
+[V:1] C    C   E  | G2     G  | A> (Bc/A/)| B2    B    B    B  | B2  A     | A ^G2  | A2   z |
+[V:2] A,   G,  C  | C2     G, | C2   A,   | D2    D    D    D  | D> (EF/D/)| E2  E  | E2   z |
+w:    His face with praise let  us  pre-    vent; his facts in sight let**   us  de- nouce.
+[V:3] E,   E,  E, | E,2    D, | C,2  C,   | G,2   G,   G,   G, | G,2 A,    | B,2 B, | A,2  z |
+[V:4] A,,  C,  C, | C,2    B,,| A,,2 A,,  | G,,2  G,,  G,,  G,,| G,2 F,    | E,2 E, | A,,2 z |
+%
+[V:1] E   E   E   | F2    E      | E> (FG) | F2    F    F    F  | E3  | F   D  D  | ^C4   ||
+[V:2] C   C   C   | F,>(G,A,/B,/)| C2   D  | D2    D    D    C  | C3  | C   A, A, |  A,4  ||
+w:   Join we, I    say, in**      glad  as- sent. Our Psalms and hymns let  us pro-nounce.
+[V:3] A,  A,  A,  | A,2   F,     | G,2 _B, | A,2   A,   A,   A, | G,3 | A,  F, F, |  E,4  ||
+[V:4] A,, A,, A,, | D,2   D,     | C,2  G,,| D,2   D,   D,   F, | C,3 | A,, D, D, |  A,,4 ||

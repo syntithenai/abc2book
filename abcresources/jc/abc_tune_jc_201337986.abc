@@ -1,0 +1,16 @@
+X: 1469
+T: the Skibbereen Lasses   #2
+R: reel
+B: O'Neill's 1850 #1469
+O: Beamish
+Z: Bob Safranek, rjs@gsp.org
+N: Compacted via repeats and multiple endings [JC]
+M: C|
+L: 1/8
+K: A	% in DMoI, the g notes all have natural signs (i.e., it's Amix)
+|: e2(cA) cdef | gedc BcdB |\
+[1 e2(cA) cdef | gedB TcAA2 :|\
+[2 cAcd  e^def | gedB TcAA2 |]
+|: cAce a2(ef) | gedc BcdB \
+[1 eA (3.A.A.A a2(ef) | gedB T(cA)A2 :|\
+[2 A2 (3(Bcd) eaaf | gedB TcAA2 |]

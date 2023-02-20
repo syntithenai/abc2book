@@ -1,0 +1,165 @@
+
+X: 1
+T: Bus Stop Reel
+C: Anita Anderson \2511987
+R: reel
+Z: Transcribed to abc by Mary Lou Knack; headers added by John Chambers
+D: Open House "Open House"; Kevin Burke (fiddle), Paul Kotapish (guitar) et al.
+D: Salmonberry "New England Contra Dance Music"
+B: "The Portland Collection".
+B: "Brand New Old Time Fiddle Tunes (V.3)"
+B: Tunes From the Western Edge, by Anita Anderson and Michael Mendelson.
+N: Anita says she made up the tune "while waiting for the bus to work".
+M: C|
+L: 1/8
+K: Am
+|: "Am"A2eA dAc2 | ABcA "G"BAGB | "Am"A2eA dAcA | "C"cde^f "G"gedB | "Am"A2eA dAc2 |
+| ABcA "G"BAG2 | "F"FGAc "G"BAGB | "(Em)"cABG "Am"A4 :: "Am"ea-ag edcB | ABcd "(E)"e4 |
+| "Am"ea-ag "C"edc2 | "D"de^fd "E"e4 | "Am"ea-ag edcB | ABcd "(C)"e2dc | "G"BAGF EFGB | "(Em)"cABG "Am"A4 :|
+
+%%sep 1 1 500
+
+X: 2
+T: Cooley's Reel
+S: Roaring Jelly collection
+M: C|
+L: 1/8
+R: reel
+K: Edor
+F2 | "Em"EBBA B2 EB | B2 AB dBAG | "D"(3FED AD BDAD | (3FED AD BAGF |
+"Em"EBBA B2 EB | B2 AB defg | "D"afec dBAF | "Bm"DEFD "Em"E2 :||
+ |: gf | "Em"eB (3BBB eBgf | eB (3BBB gedB | "D"A2 FA DAFA | BAFA "Bm"defg |
+"Em"eB (3BBB eBgf | eB (3BBB defg | "D"afec dBAF | "Bm"DEFD "Em"E2 :|
+
+%%sep 1 1 500
+
+X: 3
+T: Galopede   [G]
+T: Yarmouth Reel
+T: Persian Dance
+%T: Corn Field
+O: Preston 1801
+R: Reel
+N: The AABC pattern is for the country dance "Galopede".  This tune is
+N: used for several dances, with several different repeat patterns.
+%P: AABC
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Preston "24 Country Dances for 1801" 1801
+B: Kerr - Merry Melodies vol. 4 (No. 296)
+B: Cecil Sharp "Country Dance Tuens" 1909
+B: Karpeles & Schofield p.1 1951
+B: Kennedy v.1 p.31 #63 1951
+B: Barnes v.1 p.43
+M: C|
+L: 1/8
+K: G
+   dc \
+| "G"B2Bc "D7"A2AB | "G"G2G2 G2AB |1,3 "C"cBcd edcB | "D7"A2A2 A2 :|2,4 "C"cBAG "D7"FGAF | "G"G2G2 G2 :|
+|: dc \
+| "G"B2gf "C"e2ed | "D7"dcBc A2dc |1 "G"B2gf "C"edcB | "D7"A2A2 A2 :|2 "G"BdcB "D7"AcBA | "G"G2G2 G2 |]
+|: Bc \
+| "G".d2.d2 .d2g2 | .d2.d2 .d2g2 |1 .d2.d2 "(C)"edcB | "D7"A2A2 A2Bc :|2 "C"edcB "D7"dcBA | "G"G2G2 G2 |]
+
+%%sep 1 1 500
+
+X: 4
+T: Old French Reel
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: ((3ABc) \
+| "D"d2cd BdAF | DFAd f2ed | "A7"cdef gece |1,3 "D"defd A2 :|2,4 "D"d2f2 d2 :|
+|: cd \
+| "A"efed c2A2 | AEAc e2dc | "G"BGBd gfed |1,3 "A"cAce a2 :|2,4 "A"c2A2 A2 :|
+
+%%sep 1 1 500
+
+X: 5
+T: the Auld Grey Cat
+R: reel
+B: Kerr's #1
+B: Roaring Jelly Coll.
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Edor
+B2 \
+| "Em"{^d}e2e2 E3F | GFGA BABc | "D"{^c}d2d2 D3E | FAdB AFED |  "Em"{^d}e2e2 E3F |
+| GFGA BABc | "D"{^c}dcBA "B7"BAGF | "Em"E4 e2 :: ed | "Em"B2e2 e3d  | Bdef gfed |
+| "D"A2d2 d3B | ABde fedf | "Em"e2B2 "D"g2B2 | "C"a2B2 "B7"b3a | "Am"gfed "B7"BAB^d | "Em"e6 :|
+
+%%sep 1 1 500
+
+X: 6
+T: Pig Town Fling
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: "G"G2ge d2ed | B2ge dBAB | G2ge d2ed |1 BGAG "C"EF"D7"GA \
+                                      :|2 "D7"BGAF "G"G4 :|
+|: "Em"Be2e e2eg | "D"fgaf "Em"gfed | Be2e efge |1 "D"fgaf "Em"g2B2 \
+                                               :|2 "D"fgaf "G"g4 :|
+
+%%sep 1 1 500
+
+X: 7
+T: The Silver Spear
+O: Trad Ireland
+M: C|
+L: 1/8
+K: D
+|:\
+"D"FA ~A2 BAFA | dfed "G"Bc"A7"dA | "D"FA ~A2 BAFA | dfed "G"B2"A7"A2 | "D"FA ~A2 BAFA |
+dfed "G"Bdef | "Em"~g3e "D"f3e | dfed "G"B2"A7"A2 :: "D"f2af bfaf | "G"gfed Bcde | "D"f2af bfaf |
+"Em"gfed "G"B2 "A7"A2 | "D"f2af bfaf | "G"gfed Bdef | "Em"~g3e "D"f3e | dfed "G"B2"A7"A2 :|
+
+%%sep 1 1 500
+
+X: 8
+T: Spootiskerry
+%T: da Fitful Head
+C: Ian Burns (Shetland)
+B: BSFC 4-16
+D: as trad by Fiddlers Five on CD 7
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: G
+DE |\
+"G"G2DE GDEG | DEGA "D7"B2AB |\
+"G"G2DE "Em"GABd | "Am"eged "D7"B2AB |\
+"G"G2DE GDEG | DEGA B2AB |
+"C"g2ed "D7"edBA | "G"B2G2 G2 :| ef |\
+"G"g2ed "Em"edB2 | "C"BABG "D7"E2DE |\
+"G"GABd "Em"eged | "Am"B2A2 "D7"A2ef |
+"G"g2ed "Em"edB2 | "C"BABG "D7"E2DE |\
+"G"GABd "D7"eged | "G"B2G2 G2 |] ef |\
+"G"g2ed "Em"edB2 | "C"BABG "D7"E2DE |
+"G"GABd "Em"eged | "Am"B2A2 "D7"A2DE |\
+"G"G2DE GDEG | DEGA B2AB |\
+"C"g2ed "D7"edBA | "G"B2G2 G2 |]
+
+%%sep 1 1 500
+
+X: 9
+T: Willafjord
+O: trad Shetland
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+N: Hardie p.35
+N: Lerwick p.14
+D: Hazel Stewart on  Thistledown  8B)
+N: John Stickle tune #8 from article??)
+N: Look at BOL albums
+M: C|
+L: 1/8
+K: D
+B2 |\
+"D"A2FA- ADFA | "G"B2GB- BDGB | "D"A2FA- ADFA | "Em"EFGA "A7"GFED || "D"A2FA- ADFA |
+"G"B2GB- BDGB | "A7"ABcd efge | "D"f2d2 d2 :: e2 | "D"f2df- fAdf | "Em"geaf "A7"gfeg |
+"D"f2df- fAdf | "A7"e2ce- eAce || "D"f2df- fAdf | "Em"geaf "A7"gfec | ABcd efge | "D"f2d2 d2 :|

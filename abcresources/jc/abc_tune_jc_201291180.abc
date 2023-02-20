@@ -1,0 +1,24 @@
+X:1
+%%EPipes[V=2013,LP=105]
+T:Itchy Fingers
+C:P.M. Rab Pinkman
+O:Arr T Menzies
+R:HORNPIPE
+%U:z=": "
+L:1/16
+M:2/4
+%Q:94
+K:HP
+%%EPipes[LP=211,SP=14]
+P:A
+|: {g}cd \
+| {g}e2{A}ef {g}eA{g}ce | {g}fA{g}df {g}e2{g}cd \
+| {g}e2{A}ef {g}eA{g}ce | {g}c<{d}A{g}dc {gBd}B2{g}cd |
+| {g}e2{A}ef {g}eA{g}ce | {g}fA{g}df {g}e2{g}ce \
+| {g}dc{g}cB {g}Bf{g}eB | {gcd}c2{e}A2 {GAG}A2 :|
+P:B
+|: {g}ce | {ag}a2Aa caAa | fada {ef}e2{g}ce \
+| {ag}a2Aa caAa | c<{d}A{g}dc {gBd}B2{g}ce |
+| {ag}a2Aa caAa | fada {ef}e2{g}ce \
+| {g}dc{g}cB {g}Bf{g}eB | {gcd}c2{e}A2 {GAG}A2 :|
+

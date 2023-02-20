@@ -1,0 +1,36 @@
+
+X: 1
+T: Maailman valot
+T: Light of the World
+O: Trad Russia
+M: C|
+L: 1/4
+K: Dm
+EF \
+| "Gm6"A4- | "A7"AG EG | "Dm"BA D2- | D2 ED \
+| "A7"^C2 A,2 | F2 E2 | "Dm"D4- | D2 "A+7"FE/F/ ||
+|: "Dm"D4- | DF ED | "Gm"FE B,2- | B,2 GF \
+| "C7"E4- | ED FE/D/ | "F"A,4- | A,2 EF |
+| "Gm6"A4- | "A7"AG EG | "Dm"BA D2- | D2 ED \
+| "A7"^C2 A,2 | F2 E2 | "Dm"F4- | F2 EF |
+| "Gm6"A4- | "A7"AG EG | "Dm"BA D2- | D2 ED \
+| "A7"^C2 A,2 | F2 E2 | "Dm"D4- | D3 z |]
+
+%%sep 2 1 500
+
+X: 2
+T: Maailman valot
+T: Light of the World
+O: Trad Russia
+M: C|
+L: 1/4
+K: Em
+FG \
+| "Am6"B4- | "B7"BA FA | "Em"cB E2- | E2 FE \
+| "B7"^D2 B,2 | G2 F2 | "Em"E4- | E2 "B+7"GF/G/ ||
+|: "Em"E4- | EG FE | "Am"GF C2- | C2 AG \
+| "D7"F4- | FE GF/E/ | "G"B,4- | B,2 FG |
+| "Am6"B4- | "B7"BA FA | "Em"cB E2- | E2 FE \
+| "B7"^D2 B,2 | G2 F2 | "Em"G4- | G2 FG |
+| "Am6"B4- | "B7"BA FA | "Em"cB E2- | E2 FE \
+| "B7"^D2 B,2 | G2 F2 | "Em"E4- | E3 z |]

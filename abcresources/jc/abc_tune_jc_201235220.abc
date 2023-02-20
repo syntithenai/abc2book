@@ -1,0 +1,40 @@
+X: 21040
+T: McIntosh's Lament [standard tuning]
+%R: air, jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.10. #2 and p.105
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The book has A,EA^c scordatura tuning, and the tune uses two-voice notation.
+N: This transcription is converted to standard tuning, for ABC version 2 software.
+M: 3/4
+L: 1/16
+K: A
+%%continueall 0
+|:"_Plaintive"\
+c4 c3c c4 & c4 c3c c4 | c4 B2A2 [c4A4E4A,4] & c4 E4 x4 | B4 A3B c4 & E4 E4 A4 | B4 A2F2 F4 & E4 x8 |\
+c4 A2B2 c4 & c4 E4 c4 | B4 A2F2 F4 & E4 x8 | c4 TF2E2 E4 & A4 x8 | c4 TF2E2 E4 & A4 x8 | F4 c8 & x4 (A2B2c2A2) |\
+TB8 [c4A4E4A,4] & E8 x4 :|
+|: c6 B2 [A4E4] & c6 E2 A,4 | c6 B2 [A4E4] & c6 E2 A,4 | x4 c8 & B4 (A2B2c2A2) |\
+B2c2TB2A2 F4 | c6 x2 [A4E4] & c6 [B2E2] A,4 | c4 x8 & c4 TB2A2 F4 | A4 TF2E2 E4 | A4 TF2E2 E4 |\
+F4 A2B2c2A2 | TB8 [c4A4E4A,4] & E8 x4 :|
+|: "^tr..."c4c4c4 & A4A4A4 | "^tr..."B4B4B4 & G4G4G4 | "^tr..."c4c4c4 & A4A4A4 |\
+"^tr..."B4B4B4 & E4E4E4 | "^tr..."c4c4c4 & A4A4A4 | "^tr..."B4B4B4 & G4G4G4 | "^tr..."c4c4B4 & A4A4E4 | "^tr..."c4c4B4 & A4A4E4 |\
+A,2C2E2A2c2A2 | TB8 [c4A4E4A,4] & E8x4 :|
+|: e3d c4 c4 | c4 TB2A2 B4 | c4 TB3A F4 |\
+A4 F2E2 E4 | e3d c4 c4 | c4 TB2A2 F4 | A4 TF3E E4 | A4 TF3E E4 |\
+F4 A3Bc3A | TB8 [c4A4E4A,4] & E8x4 :|
+|: AcAc AcAc AcAc | GBGB GBGB GBGB | AcAc AcAc AcAc | EBEB EBEB EBEB |
+AcAc AcAc AcAc | GBGBGB GBGBGB GBGBGB | A2c2E2A2 C2E2 | A,2c2E2A2C2E2 |\
+A,2C2E2A2 c2A2 | TB8 H[c4A4E4A,4] & E8x4 :|
+|:[M:6/8]\
+"_Brisk"Tc4A2 Tc4A2 |\
+Tc4A2 Tc4A2 | (TB4A2) Tc4A2 | (TB4A2) (F4A2) | Tc4A2 Tc4A2 | (TB4A2) (F4A2) |\
+(A4F2) (A4E2) | (A4F2) (A4E2) | F4A2 Tc4A2 | TB6 A6 :|
+|: C2A,2A,2 C2A,2A,2 | C2A,2A,2 C2A,2A,2 | TB2A2A2 F2A2A2 | TB2A2A2 F2A2A2 |\
+C2A,2A,2 C2A,2A,2 | C2A,2A,2 C2A,2A,2 | A2F2F2 A2E2E2 | A2F2F2 A2E2E2 |\
+F2A2A2 c2A2A2 | TB6 A6 :|
+|: cAAAAA cAAAAA | cAAAAA cAAAAA | BAAAAA cAAAAA | BAAAAA FAAAAA | cAAAAA cAAAAA |
+BAAAAA FAAAAA | AEEEEE AFFFFF | AEEEEE AFFFFF | EAAAAA cAAAAA | B,6  "^Da Capo"A,6 :|
+%%begintext align
+%% The book has A,EA^c scordatura tuning, and the tune uses two-voice notation.
+%% This transcription is as in the book, for ABC version 2 software.
+%%endtext

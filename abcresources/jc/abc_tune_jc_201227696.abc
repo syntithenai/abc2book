@@ -1,0 +1,23 @@
+X: 1092
+T: Mrs Baird of New Byths Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.9 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Dmix
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 6-bar lines, for compactness and proofreading.
+V: 1 staves=2
+B |\
+A<D {B}AG/F/ EC-C>E | A<D (B/A/G/F/) A<D (B/A/G/F/) |\
+B<GA<F EC-C>E | A<D {B}AG/F/ A<D-D :| (g |\
+f)>dAd ec-c>e | f>dAd f>dAd |
+A>dfd ec-c>e | f>dAd FD-D>(g ||\
+f)>dAd ec-c>(e | f)>dAd f>de^c |\
+d>Ac>=F ECCE | AD {B}AG/F/ ADD |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d2d2 c2c2 | d2d2 d2d2 | g2f2 e2c2 | d2A2 d2d :| z | d2d2 c2c2 | d2d2
+d2d2 | d2d2 c2c2 | d2A2 d2d2 || d2d2 c2c2 | d2d2 d2d2 | d2d2 c2c2 | d2A2 d2d |]

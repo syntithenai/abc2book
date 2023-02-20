@@ -1,0 +1,22 @@
+X: 3
+T: Countess of Powis's Fancy
+%R: jig
+B: "Twenty Four Country Dances with Figures for the Year 1810", Button & Whitaker, p.2 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1810
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+{ef}g2e c2c | {Bc}d2B G2G | ABc def | ege d3 |\
+{ef}g2e c2c | {Bc}d2B G2G | ABc def | efd c2 :|
+|:\
+{Bc}d2B g2d | {cd}e2c g2e | agf edc | {Bc}d2B GAB |\
+c2e def | e2g fga | gec Afe | d2g c3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    The 1st Cu: set to the 2d Lady and hands 3
+%% round the same with the 2d Gent: :|: lead down
+%% the middle up again and Allemande :|:
+%%endtext

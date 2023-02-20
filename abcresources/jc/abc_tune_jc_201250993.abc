@@ -1,0 +1,93 @@
+
+X: 1
+T: Bavno Oro
+O: Macedonia
+%P: 2x(AB)+CABD+2x(EF)
+P: AB ABC ABD EF EF
+Z: 1997 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N:
+N: 1. Parts C-F can also be harmonized a 3rd higher.
+N: 2. The recording has the long note at the end of C only the first time.
+N: 3. Accompaniment should mostly be in 3: bass-chord-chord.
+M: 7/8
+L: 1/8
+K: Dm
+"A"\
+|: "Dm"[f3a3] [d4f4] | "A"[^c2e2][df] [eg][fa] [eg][df] \
+| "Gm"[^c2e2][Bd] "A"[A4^c4]- | [A7^c7]- | [A7^c7] :|
+"B"\
+|: "Gm"[B2d2][^ce] [dB][A^c] [G2B2] \
+| [A^c][B2d2] [ce][df] [e/g/][d/f/][^ce] \
+| "Gm"[Bd][Bd][^ce] [dB][Ac] [G2B2] \
+| [A^c][B2d2] [ce][df] (3[df][ce][df] \
+| [df][eg][df] [^c2e2] [B2d2] |
+| "A"([^c/e/][B/d/][A2c2])- [A4^c4]- | [A7^c7] :| y\
+"C"\
+|: "Dm"{^c}dcd ef ed | "A"^c2B AB cd | "Gm"^c2B {B}c2 (3BAG |
+| "A"AB2 "Dm"(^cd3) | "Dm"{^c}dcd ef ed | "A"^c2B AB cd \
+| "Gm"^c2B {B}c2 (3BAG |1 "A"{G}A7 :|2 "A"{G}A7- | A7 |]
+P: Repeat A, B
+K: G
+"D"\
+|: "G"cBd c2 BG | "D7"A2G FG AB \
+| "G"cBd c2 BG | "D7"A3 {^c}d4 \
+|  "G"cBd c2 BG | "D7"A2G FG AB \
+| "G"cBd c2 BG |1 "D7"A7 :|2 "A".A3 |]
+K: Dm
+"E"\
+|: "(faster)"AB ^cd \
+| "A"e2d e(f/g/ f/e/)d | e3 AB ^cd \
+| e2d "Gm"^c(d/e/ d/c/)B | "A"A3 :|
+"F"\
+|: "A"^c(d/e/ d/c/)B \
+| ^c2B c(d/e/ d/c/)B \
+| ^c2B c(d/e/ d/c/)B \
+| ^c2B "Gm"A(B/c/ B/A/)G | "A"A3 :|
+
+
+%%sep 3 1 500
+
+X: 2
+T: Bavno Oro
+O: Macedonia
+%P: 2x(AB)+CABD+2x(EF)
+P: AB ABC ABD EF EF
+Z: 1997 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N:
+N: 1. Parts C-F can also be harmonized a 3rd higher.
+N: 2. The recording has the long note at the end of C only the first time.
+N: 3. Accompaniment should mostly be in 3: bass-chord-chord.
+M: 7/8
+L: 1/8
+K: Em
+"A" \
+|: "Em"[g3b3] [e4g4] | "B"[^d2f2][eg] [fa][gb] [fa][eg] \
+| "Am"[^d2f2][ce] "B"[B4^d4]- | [B7^d7]- | [B7^d7] :|
+"B" \
+|: "Am"[c2e2][^df] [ec][B^d] [A2c2] \
+| [B^d][c2e2] [df][eg] [f/a/][e/g/][^df] \
+| "Am"[ce][ce][^df] [ec][Bd] [A2c2] \
+| [B^d][c2e2] [df][eg] (3[eg][df][eg] \
+| [eg][fa][eg] [^d2f2] [c2e2] |
+| "B"([^d/f/][c/e/][B2d2])- [B4^d4]- | [B7^d7] :| y\
+"C" \
+|: "Em"{^d}ede fg fe | "B"^d2c Bc de | "Am"^d2c {c}d2 (3cBA |
+| "B"Bc2 "Em"(^de3) | "Em"{^d}ede fg fe | "B"^d2c Bc de \
+| "Am"^d2c {c}d2 (3cBA |1 "B"{A}B7 :|2 "B"{A}B7- | B7 |]
+P: Repeat A, B
+K: A
+"D" \
+|: "A"dce d2 cA | "E7"B2A GA Bc \
+| "A"dce d2 cA | "E7"B3 {^d}e4 |
+|  "A"dce d2 cA | "E7"B2A GA Bc \
+| "A"dce d2 cA |1 "E7"B7 :|2 "B".B3 |]
+K: Em
+"E" \
+|: "(faster)"Bc ^de \
+| "B"f2e f(g/a/ g/f/)e | f3 Bc ^de \
+| f2e "Am"^d(e/f/ e/d/)c | "B"B3 :|
+"F" \
+|: "B"^d(e/f/ e/d/)c \
+| ^d2c d(e/f/ e/d/)c \
+| ^d2c d(e/f/ e/d/)c \
+| ^d2c "Am"B(c/d/ c/B/)A | "B"B3 :|

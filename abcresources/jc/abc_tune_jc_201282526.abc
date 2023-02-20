@@ -1,0 +1,18 @@
+X: 632
+T: the Grassy Turf
+R: march
+%S: s:3 b:24(8+8+8)
+%S: s:6 b:24(4+4+4+4+4+4)
+B: O'Neill's 1850 #632
+Z: 1999 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/
+Z: Ted Hastings, ted@hastings.nu
+Q: "Moderate"
+M: 2/4
+L: 1/16
+K: A
+  (AB) | c2c2 (dc)(BA) | e2c2 a2gf | e2A2 (dc)(BA) | G2B2 B2 ||
+| (AB) | c2c2 (dc)(BA) | e2c2 a2gf | ecBA GBcd | c2A2 A2 |]
+[|(AB) | c2d2 c2a2 | e2c2 (dc)(BA) | c2d2 c2a2 | e2c2 e2 ||
+|  dc  | defd cdec | B2B2 B2Bc | defd cdec | B2B2 B2 |]
+|| AB  | c2A2 e2A2 | (fg)(af) e2(AB) | c2A2 e2A2 | (fg)(af) e2 ||
+|  dc  | defd c2a2 | B2B2 B2Bc | defd c2a2 | c2A2 A2 |]

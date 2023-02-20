@@ -1,0 +1,71 @@
+
+X: 0
+T: Scottish Waltzes 7  (Am Dm D G)
+K:
+
+%%sep 1 1 500
+
+X: 1
+T: Bonnie at Morn
+C: Trad.
+O: Northumbria
+R: waltz, air
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+   A2 \
+| "Am"e3 fed | e2 A2 Bc | "G"d3 cBA | G2 A2 B2 \
+| "Am"e3 fed | e2 A2 Bc | "G"d2 B2 G2 | "Am"A3 Bcd |
+| "Am"e3 fed | e2 A2 Bc | "G"d3 cBA | G2 A2 B2 \
+| "Am"AG AB cd | e2 a2 g2 | "G"d g3 B2 | "Am"A4 |]
+|: cB \
+| "Am"A2 a2 a2 | A3 B c2 | "G"B2 g2 g2 | G3 A B2 \
+| "Am"AG AB cd | e2 a2 g2 | "G"d g3 B2 | "Am"A4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: a Daisy In December  [Dm]
+C: Winifred Horan [Solas]
+M: 3/4
+L: 1/8
+P: AABABA
+R: waltz
+K: Dm
+"A"[|]\
+d2 e2 | "Dm"f3 g f2 | "C"e4 c2 | "Bb"d3 c B2 | "A7"A4 G2 | "Dm"F3 G A2 | "Gm"B4 c2 | "A7"A6 |
+z2 d2 e2 | "Dm"f3 g f2 | "C"e4 c2 | "Bb"d3 c B2 | "A7"A4 G2 | A3 B A2 | ^c4 e2 | "Dm"d6 | "Fine"z2 :|
+"B"[|]\
+e2 f2 | "Gm"g3 a g2 | "A7"f4 {gf}e2 | f2 A2 ^c2 | "Dm"d4 f2 | "Gm"g3 a g2 | "A7"f4 e2 | "Dm"d6 |
+z2 e2 f2 | "Gm"g3 a g2 | "A7"f4 {gf}e2 | a4 e2 | "Dm"d4 A2 | "Gm"B2 c2 d2 | b4 f2 | "A7"e6 | "d.C."z2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Morag's Waltz
+R: waltz
+C: Tom Anderson
+O: Shetland
+D: Buddy MacMaster "Glencoe Hall" BM-91
+F: http://www4.ncsu.edu/unity/users/p/pfackler/www/Music/CBTunes.abc
+Z: chords from Terry Traub's arrangement
+L: 1/8
+M: 3/4
+K: D
+AG |\
+"D"F4D2 | "Em"G4E2 | "A"A2B2c2 |  "D"d4F2 | "G"G4B2   | "D"A4F2 | "Em"A2G2F2 | "A7"E4AG |
+"D"F4D2 | "Em"G4E2 | "A"A2B2c2 | "Bm"d4F2 | "G"G2B2e2 | "A7"A2c2e2 | "D(G)"d6- | "D"d4 :|
+|: cd |\
+"A"e4c2 | A4ag | "D"f4e2 | d4f2 | "G"g4B2 | "E7"e4d2 | "A"c2e2c2 | "A7"A4G2 |
+"D"F2A2d2 | f2d2A2 | "G"G2B2e2 | "A"c4A2 | "G"BG3ed | "A7"cA3fe | "D(G)"d6- | "D"d4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Skye Boat Song    [G]
+M: 3/4
+L: 1/4
+K: G
+|: "G(D7)"D>ED | "G"G3 | "Am"A>BA | "D7"d3 | "G"B>AB | "C"E2E | "G"D3 | "(D7)"z3 :|
+|: "Em"B>GB | B3 | "Am"A>EA | A3 | "Em"G>EG | G>AG | "C"E3 | "(D7)"z3 :|

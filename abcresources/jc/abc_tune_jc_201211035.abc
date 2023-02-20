@@ -1,0 +1,17 @@
+X: 204
+T: Hora pe Gheata
+O: Romania
+R: Hornpipe
+M: 2/4
+L: 1/8
+K: Cphr
+Q: 1/4=240
+%%MIDI program 71 Clarinet
+|:c=Bdc|c=Bdc|c=Bdc  |cBBA  |\
+  B=AcB|B=AcB|B=AcB  |B4    |
+  CDFA |=Bcd2|cdc2   |cAFG  |\
+  B2A2 |GA^FG|G2=E2  |C4::
+  =EFGA|BAG2 |GC=EF  |A2G2  |\
+  CGAA |CTGAG|[1CTGAG|CTGAG :|[2GAGF|G=EC2|:
+  =EFGA|BAG2 |GC=EF  |A2G2  |\
+  CGAA |CTGAG|[1CTGAG|CTGAG :|[2GAGF|G=EC2|

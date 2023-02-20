@@ -1,0 +1,18 @@
+X: 2133
+T: Lady Haddo's    Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.13 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: C
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 2-bar lines, for compactness and proofreading.
+V: 1 staves=2
+F2 | EFG2 TG4 c3GA3G | (cBAB) c2E2 DDD2 D2F2 | EFG2 TG4 c3GA3G | (cBAB) c2E2 CCC2 C2 :| f2 | e2g2c2g2 agfe g2c2 | fa3Tg3e ddd2 Td2f2 |
+e2g2 c2g2 agfe g2c2 | fa3g2e2 ccc2 Tc2g2 || agfe c2g2 agfe g2c2 | ga3Tg3e ddd2 Td2e2 | c3ed2B2 Tc3A G2E2 | FA3TG3E CCC2 C2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | c4c4 c4c4 | e4c4 g4G4 | c4c4 c4c4 | g4G4 c4c2 :| z2 | c'4c'4 f4e4 | B4c4
+g4G4 | c'4c'4 f4e4 | f4g4 c4c4 || f4c4 e4c4 | B4c4 g4G4 | c4G4 A4e4 | f4g4 c4c2 |]

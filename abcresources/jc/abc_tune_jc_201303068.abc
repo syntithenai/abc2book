@@ -1,0 +1,27 @@
+X: 1
+T: Loch Leven Castle
+R: reel
+O: RSCDS 21-3(I)
+B: RSCDS 21-3(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+cB \
+| "Am"A2AB AGEG | "Am"AGAB cBcd \
+| "C"efga gede | "C"c2G2 "G/B"G2cB |
+y3 \
+| "Am"A2AB AGEG | "Am"AGAB cBcd \
+| "Am"eaga "Em"gede | "Am"c2A2 A2 :|
+eg \
+| "Am"a2ab ageg | "Am"agab a2ge \
+| "G"dega gede | "C"c2G2 "G/B"G2eg |
+y3 \
+| "Am"a2ab ageg | "Am"agab a2ge \
+| "G"dega "Em"gede | "Am"c2A2 A2 |]
+eg \
+| "Am"a2ab "Em"ageg | "Am"agab "D7"age^f \
+| "G"g^fga "Em"gede | "C"c2G2 "G/B"G2cB |
+y3 \
+| "Am"A2AB AGEG | "Am"AGAB cBcd \
+| "Am"eaga "Em"gede | "Am"c2A2 A2 |]

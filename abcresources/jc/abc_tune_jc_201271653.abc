@@ -1,0 +1,33 @@
+X: 457
+T: Sitnata
+O: Bulgaria
+W: adapted from Martin Junghans/Jutta Weber-Karn transcription
+W: http://www.folkloretanznoten.de/
+M: 2/4
+L: 1/16
+K: Am
+Q: 1/4=120
+%%MIDI program 75 Pan Flute
+.A2.A2 .A2.A2|.F2.F2 .F2.F2|.D2.D2 .D2.D2|.E2z2 EDCB|:
+"Am"A2cB BAe2|EAcB B^GA2|"F"A2cB B^GAc|"E"e^dcB "Am"Ace2|
+A2cB BAe2|EAcB B^GA2|"F"A2cB "Dm"B^GAc|"E"e^dcB A2z2::
+"Am"e^de2 g^fg2|^f3e gfe2|^d2cd ^fge2|"E"e^dcB "Am"Ace2|e^de2 g^fg2|
+^f3e gfe2|[1^d2cd "B" ^fde2|"E"e^dcB A2z2:|[2^d2 cd "Dm"cde2|"E" f^dcB "Am"A2z2|:
+AcB2 BAe2|eAcB B^GA2|"F" A2cB "Dm"B^GAc|"E"e^fcB "Am"Bce2|
+AcB2 BAe2|eAcB B^GA2|"F" A2cB "Dm"B^GAc|[1"E"e^fcB "Am"A2z2:|[2e^dcB A2^F2|
+K:G
+"G"G4 B4|c3B BAB2|^cdec d2B2|"D"c3B "G"B^AB2|
+G4 B4|c3B BAB2|GFGA GcdB|"D"c2Bc "G"G2z2|
+GGG2 BBB2|c3B BAB2|G2d2d2B2|c3B BAB2|
+GGG2 BBB2|c3B BAB2|GFGA BcdB|c2Bc G2z2|:
+%page 2
+d2g2 g2B2|c2z2 ^c2zB|^cddc d=ccB|B^cdB GBd2|
+d2g2 g2B2|c2z2 ^c2zB|^cddc d=ccB|B^cdB G2z2::
+"Em"c2 z2 B2Bc|"Am"dccB BAAG|"Em"ABB2 A3G|"B"F2EF "Em"E2B2|
+"Em"e2Bc B2Bc|"Am"dccB BAAG| ABB2 A3G|F2EF E2z2:|
+"Am"cBA^G Ace2|cBA^G A4|cBA^G Ace2|cBA^G A4|
+"Am"cBA^G Ace2|cBA^G A4|cBA^G Ace2|"Em" e2E2 "A"A4|
+"Am"cBA^G Ace2|cBA^G A4|cBA^G Ace2|^d2e2 "E"d2e2|
+"Am"cBA^G Ace2|cBA^G A4|cBA^G Ace2|cBA^G A2z2|:
+cBA^G cBAG|cBA^G Ace2|cBA^G cBAG|cBA^G A2z2::
+cBA^G cBAG|cBA^G Ace2|[1cBA^G cBAG|"E"cBA^G "Am"A2z2:|[2"F"A2A2 cBA2|z2"E"E2"Am"A2z2|

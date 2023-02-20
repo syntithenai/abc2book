@@ -1,0 +1,21 @@
+X: 430
+T: the Banks of Claudy   #2
+R: air
+%S: s:2 b:11(5+6)
+N: Irish title: brua.ca na g-.claudiag
+B: O'Neill's 1850 #430
+O: J.O'Neill
+Z: henrik.norbeck@mailbox.swipnet.se
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play AB1 B2A
+Q: "Slow with feeling"
+M: C
+L: 1/8
+K: Dm
+"^A"[|] (fe) \
+| (d3 {ed}c) (d2 DE) | (~F2 F).A c2 (dc) \
+| A2 (GF/E/) D2 D2 | "^fine"D6 \
+"^B"|: (FG) | (AB/A/ GA) (d2 e2) |
+| (f3 d) [1 (e2 dc) | A2 (B/A/G) A2 ^c2 | d6 :|\
+[2 f{gf}e d{ed}c | A2 G2 A.d .^c.e | "^->A"d6 |]

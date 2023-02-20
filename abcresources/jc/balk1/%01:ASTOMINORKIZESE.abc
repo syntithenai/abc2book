@@ -1,0 +1,20 @@
+X:2501
+T: Asto Min Orkizese
+O: Greece
+C: Litsa Giaghousi
+F: https://www.youtube.com/watch?v=IDm-YaC8Odc
+M: 4/4
+L: 1/4
+K: Dm
+Q: 1/4=180
+%%MIDI program 68 Oboe
+%%MIDI drum zd 39
+%%MIDI drumon
+P:A
+D D E D|D F F z|C C D C |C E E z|
+C2 D  C|C E E z|D D E D |[1G F E D:|D3 z|
+P:B
+D E F G|A B G z|G G F _E|G2 G z|
+D E F G|A B G z|G G F _E|D2 z2|:
+D A G F|G A A2 |z/c/B/c/ d2|A A A2|
+C G F E|G G G2 |C G F E|D4:|

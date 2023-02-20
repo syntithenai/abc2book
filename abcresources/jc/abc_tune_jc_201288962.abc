@@ -1,0 +1,19 @@
+X:337
+T:Huntington's Maggot
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=120
+M:2/2
+L:1/8
+K:Dm
+P:A
+|: z2 | "Dm"f4 "Gm"(g3f/g/) | "Dm"a4 "/"d2f2 | "Gm"e2(fe) "A"d2^c2 | "Dm"d4 "/"A2e2 |\
+"Dm"f4 "C"(g3f/g/) | "F"a4 "Dm"d2f2 | "Gm"e2(fe) "A7"d2^c2 | "Dm"d6 :|
+P:B
+|: a2 | "D"a4 "/"b3c' | "/"^f6 g2 | "D7"a2b2 "/"c'2a2 | "Gm"b3c' b2a2 | "C"g3a "D7"a3g | "Gm"g6 d2 |\
+"C"e6 (f/g/a) | "A7"^c6 d2 | "A7"e2f2 g2(fe) | "Dm"a3b "Gm"a2g2 | "Dm/A"f3e "A7"e3d | "Dm"d6 :|
+P:C
+|| a2 | "Gm"g2 f2 f2(ed) | "A7"e4 A2e2 | "Dm"f3g "C"(g3f/g/) | "F"a6 a2 |\
+"Gm"g2 f2 f2(ed) | "A7"e4 A2e2 | "Dm"f3g "Gm"(g3f/g/) | "A7"a6 ||
+P:D
+|: a2 | "F"a3g a2b2 | "C/E"gfga g2a2 | "Dm"f3g "Gm"g3f | "A"e6 ef |\
+"Gm"g2f2 e2d2 | "A7"ed ^c=B A2a2 | "Dm"f3e "A"e3d | "Dm"d6 :|

@@ -1,0 +1,13 @@
+X:273
+T:Queen of Hearts
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 27, on which a "Sample of Dotted Notes" are presented.
+M:2/4
+L:1/16
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(Te>d)|ceA>B AGEC|D2D>C D>FE>D|C>E(AB) c>AB>^G|.A.d zd d>fe>d|
+ceA>B AGEC|D2D>C D>FE>D|C>E(AB) c>AB>^G|{B}A>^GA>B A2::A>G|
+E>A^G>B ABcd|eAge defd|ceA>B AGEC|D2zC DFE>D|
+C>A^GB ABcd|eAge defd|ceAB Agec|[1 d>cd>e d2:|[2 d4-d2||

@@ -1,0 +1,30 @@
+X:404
+T:Laurel Hill
+C:Cantelo, 1785
+B:Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%MIDI gchord zczc
+Q:1/4=116
+M:2/4
+L:1/8
+K:Bb
+V:1
+%%MIDI program 68     Oboe
+%%MIDI chordprog 45   Pizzicato Strings
+P:A
+|: "Bb"(B/A/B/c/) .dz | "/"(B/A/B/c/) .dz | "F".e.e .c.c | "Bb"(B/A/B/c/) d3/c/ |\
+"Bb"(B/A/B/c/) .dz | "/"(B/A/B/c/) .dB | "F".e.e .c.c | "Bb"B2 z2 :|
+P:B
+|: !p!"Bb"(f3/d/) .d.d | !f!"Eb"b3a/g/ | !p!"Bb"(f3/d/) .d.d | !f!"F7"ec BA |\
+"Bb"(f3/d/) .d.d | "Eb"b3a/g/ | "Bb/F"f3/d/ "F"(d/c/B/c/) | "Bb"B2 z2 :|
+P:C
+|: "Bb"(b3/f/) .f.f | "/"fg ab | "Eb"a3/g/ (^fg) | "/"g3e |\
+"F7/Eb"c3/d/ e=e | "Bb/D"f^f "Cm/A"g3/e/ | "Bb"ed gf | "/"f3z |
+"Bb"(b3/f/) .f.f | "/"fg ab | "F"b3/c/ cc | "F7"cd eg |\
+"Bb"f3/g/ fd | "F"fe dc | "Bb"(B/c/d/c/) (B/c/d/c/) | "/"B3z :|
+V:2 bass octave=-2
+%%MIDI program 32     Acoustic Bass
+|: B2b2 | B2b2 | f2F2 | Bf b2 | B2b2 | B2b2 | f2F2 | Bb dB :|
+|: !p!Bd fb | !f!EG Be | !p!Bd fb | !f!f2e2 | d2B2 | e3e | f2F2 | Bb Bz :|
+|: B2 dB | d2B2 | e2z2 | eg bg | e4 | d2A2 | B2B2 | Bb fd |
+zB dB | b2B2 | zF AF | f2e2 | d2B2 | f2F2 | B2B2 | B3z :|

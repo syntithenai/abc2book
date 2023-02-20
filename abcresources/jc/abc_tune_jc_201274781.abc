@@ -1,0 +1,102 @@
+
+X: 1
+T: Farewell, My Fancy
+%T: 8x32S 3C (Robert M. Campbell)
+%P: Farewell, My Fancy
+R: strathspey
+C: by Fred Moyes
+S: Arr. T. Traub 8-4-03
+M: 4/4
+L: 1/8
+K: G
+D2 \
+| "G"G2 G>A B>A B<d | "Em"E2 E>F G>F G<B | "Am"E<A c>d e>c A<G | "D"F>A "A7"E>G "D"F<D B>A | "G"G2 G>A B>A B<d |
+"Em"E2 E>F G>F G<B | "Am"E<A c>d "C"e>c A<G | "D"F<D B>A "G"G2 G2 |[| "C"e2 e>f g>f e2 | "G"d<B B2 B>A G>F |
+"C"E>^D E>F G>E G<B | "A7"e>B A>G "D"F<A (3DEF | "G"G2 G>A B>A B<d | "Em"E2 E>F G>F G<B | "Am"E<A c>d e>c e<g | "D"d<B A>G G2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Farewell to Cramond
+C: Muriel A. Johnstone
+R: strathspey
+B: "4 SCD" 1978
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+ED |\
+"A"CA,3 C3E "(F#m)"A3B c3A | "Bm"dF3 F3A "E7"GABA GFED |\
+"A"CA,3 C3E "F#m"A3B c3A | "D"ff3 "E7"e3d "A"cA3 A2 :|
+c2 |\
+"A"ee3 f3e "E"dc3 c3B | "F#m"AA3 c3A "E7"E4 E3A |\
+"D"FF3 f3e "Bm"d2c2 B2A2 | "B7"BF3 B3A "E7"G4 F2E2 |
+|\
+"A"ee2 a3g "E"f2e2 e2d2 | "F#m"cA3 f3e "E7"e6 E2 |\
+"D"FD3 F3A "Bm"d3e f2e2 | "E7"ec3 B3A "A"A6 |]
+
+%%sep 1 1 500
+
+X: 1
+T: The Highlander's Farewell to Ireland
+T: The Highland Watch's Farewell to Ireland
+B:Neil Stewart Collection p.27 (1761)
+B:Gillespie Manuscript of Perth (1768)
+B:Stewart-Robertson - The Athole Collection  (1884)
+B:Gow
+B:Skye
+R:strathspey
+Z:AK/Fiddler's Companion`
+M:C
+L:1/8
+K:Am
+[| A,3B, A,/A,/A, ~A,2 | G>ED>B, G,/G,/G, G,>G | E>DE>G A>BA>G | E<G D>B, A,/A,/A, ~A,2 :|
+|  a3b a/a/a a2 | g>ag>e d/c/B/A/ G>g | e>de>g a>ba>g | g>ed>B A/A/A A2 |
+|  a3b a/a/a a2 | g<b e>g d/c/B/A/ G>g | e>de>g a>ba>g | g>ed>B A/A/A A |]
+|: ^F | E>A, A,/A,/A, E>A, E2 | D>B, G,/G,/G, G>AB>D | E>A, A,/A,/A, E<A, E>A | G>ED>B, A,/A,/A, A, :|
+|:  z | a>ba>e a>ba>e | g>ag>e d/c/B/A/ G>g | e>de>g a>ba>g | g>ed>B A/A/A A2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Highland Harry
+T: The Highlander's Farewell to Ireland
+O: 1761
+B: Neil Stewart Collection p.27 (1761)
+B: Gillespie Manuscript of Perth (1768)
+B: Gow
+B: Skye
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Ador
+|: "Am"A4 A3B AA3 A3B | "G"g3e d3B G4 G3g \
+|  "Am"e3d efg2 "(D)"a4 ag3 |1 "G"efg2 dB3 "Am"A4 Aa3 :|2 "G"efg2 dB3 "Am"A4 A2z2 :|
+|: "Am"a4 a3e aa3 a3e | "G"g3a gfe2 d3B G3g \
+|  "Am"e3d efg2 "(D)"a4 a3g | "G"efg2 d3B "Am"A4 A2z2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Marquis of Huntly's Farewell
+C: W.Marshall
+N: Marshall p.14, SFT p.7, H&C p.105 popular setting), SV p.16 (variant endings),
+N: Hardie p.71, BSFC II-13 and III-18, Skye p.1
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+| A,2- {B,A,G,}A,>C (C<E) E>F | A>B {AB}c>B A2R- A>c \
+| A,2- {B,A,G,}A,>C (C<E) E>c | {Bc}B>c d/c/B/A/ F2- F<A |
+| A,2- {B,A,G,}A,>C (C<E) E>F | A>B {AB}c>B A2R- A>c \
+| d>{ed}c df ec ca | {Bc}B/A/B/c/ d/c/B/A/ F2- F ||
+f \
+| (f/e/)d/c/ {c}a>c b>c {c}a2 | (f/e/)d/c/ {c}ag fe dc \
+| B<b b>f (b/a/)g/f/ {f}b2 | B<b b>f ag {g}fe |
+| (f/e/)d/c/ {c}a>c b>c {c}a2 | (f/e/)d/c/ {c}ag fe dc \
+|1 d/e/f/g/ ag fe dc | {Bc}B>c d/c/B/A/ F2- F<A :|
+P: Common flashy ending:
+| d/e/f/g/ a/g/f/e/ f/e/d/c/ d/c/B/A/ | {Bc}B/A/B/c/ d/c/B/A/ B/A/G/F/ E/D/C/B,/ :|
+P: J.S.Skinner's ending:
+| (3def (3efg (3aed (3cBA | (3Bcd (3cBA (3GFE (3DCB, :| x8 x8 x8 x8

@@ -1,0 +1,29 @@
+X: 483
+T: MISS JOHNSTON OF HILTON
+C: N. GOW
+R: Reel
+B: Glen Collection p.48 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Em
+%
+V: 1
+f |\
+eEEF B2B^c | dBAd FDAF | EFGA B2Bg | f^dBd e/e/e e :|
+f |\
+eBef gbeg | fada fdaf | eBef gbeg | f^dBd e/e/e ef |
+eBge gbeg | fdad fadf | gbeg bgeg | f^dBd e/e/e e |]
+%
+V: 2
+z |\
+e2[b2g2] g2[e'2b2] | d2[a2f2] A2[f2d2] |\
+e2[b2g2] g2[e'2b2] | b2B2 e2[bge] :|
+z |\
+e2[b2g2] B2[b2g2] | d2[a2f2] A2[f2d2] |\
+e2[b2g2] B2[b2g2] | b2B2 e2[b2g2e2] |
+e2[b2g2] B2[b2g2] | d2[a2f2] A2[a2f2] |\
+e2[b2g2] g2[e'2b2] | b2B2 e2[bge] |]

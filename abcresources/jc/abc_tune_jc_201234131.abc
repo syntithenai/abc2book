@@ -1,0 +1,21 @@
+X: 20292
+T: THOU ARE GANE AWA
+Q: "Andante"
+%R: strathspey, shottish
+B: "Edinburgh Repository of Music" v.2 p.29 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: C
+%%slurgraces
+%%graceslurs
+e3d |\
+{d}c3B {d}c3A c6 (B>A) | G4 (E3A/G/) G4 (e3d) |\
+{d}c3B {d}c3A G3Ac3d | e2(gf) edc{e}d c4 (e3c) |
+{d}c3B {d}c3A c6 (BA) | G4 (E3A/G/) G4 (e3d) |\
+{d}c3B {d}c3A G3AHc3d | e3{g}f (edc){e}d c4 z2G2 |
+c3de3f {e}g4 (a3g) | g4 {f}e2{d}c2 {e}d4 z2G2 |\
+c3de3f {e}g4 {b}a4 | {a}g4 {g}f2e2 {e}d4 z2G2 |
+c3de3f {e}g4 a3g | g4 (fed){f}e {e}Hd4 ({efegf}e3d) |\
+c3B{d}c2A2 (G3A/B/) c2d2 | e2{g}Hf2 (edc){e}d c4 |]

@@ -1,0 +1,222 @@
+X: 11541
+T: WOOD UP QUICKSTEP
+%R: quickstep
+N: Version 2 for ABC software that understands voice overlays.
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.154-158
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: V:5 Bar 11 has only 4 counts; rests added to align the bar lines.
+M: 2/4
+L: 1/8
+K: Ab
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%: 1 sname=EbBgl name="Eb Bugle" staves=8
+V: 1 staves=8
+K: F
+"Eb Bugle"\
+|:\
+c2 f2 | .a.g z2 | [g2G2] [c'2c2] | .[aA].[fF] z2 |\
+d2 f2 | bb z.[bd] | .[ac].[gB].[fA].[eG] | [fF][fF] z2 ::\
+[M:6/8]\
+c3 (d2c) | x2z z2z & c2F/F/ "..."!/!F3 | (c2B) (G2A) | F2C/C/ !/!C3 |
+"p.155"\
+c3 (d2c) | f2.F/.F/ !/!F3 | (c2B) (G2A) | F2z "^>"f2z ::\
+."^>"A/(c/=B/c/B/c/) ."^>"d/(c/B/c/B/c/) |\
+."^>"f/(c/=B/c/B/c/) ."^>"a/(c/B/c/B/c/) |\
+."^>"g/(c/=B/c/B/c/) ."^>"e/(c/B/c/B/c/) |\
+."^>"a/(c/=B/c/B/c/) ."^>"f/(c/B/c/B/c/) |\
+."^>"A/(c/=B/c/B/c/) ."^>"d/(c/B/c/B/c/) |
+"p.156"\
+."^>"f/(c/=B/c/B/c/) ."^>"a/(c/B/c/B/c/) |\
+."^>"g/(c/=B/c/B/c/) ."^>"e/(c/B/c/B/c/) |\
+[1 f2z f2z :|[2 f2z f2 |: z & F |\
+Z & FCA FCA | Z & F2C/C/ !/!C3 | Z | Z & z2z z2C |\
+FCA FCA | F2C/C/ CFA | c2C/C/ CEC |
+"p.157"\
+F3 z2 :| !f!c |\
+d2d d2d | (c3 A2)!p!F | cBG CDE | F2A c2!f!c |\
+d2d d2d | c3 f2!p!f | ede cde | f2a f2c |\
+d2d d2d | (c3 A2)"^>"!p!F |
+"p.158"\
+cBG CDE | F2!f!A c2c | d2d d2d |\
+c3 f2f | ede cde | f2a [c'2c2]f | ede cde |\
+f3 z2!ff!f/f/ | f2f/f/ !/!f3 | "^>"f2z "^>"a2z | "^>"f3 z2z H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%: 2 sname=BbBgl1 name="1st Bb Bugle"
+V: 2
+K: Bb
+"1st Bb Bugle"\
+|:\
+F2 B2 | .d.c z2 | c2 f2 | dB z2 |\
+G2 B2 | ee zg | fedc | BBz2 ::[M:6/8]\
+!mf!f3 (g2f) | f2.B/.B/ "..."!/!B3 | (f2e) (c2d) | B2z z2z |
+"p.155"\
+f3 (g2f) | f2.B/.B/ "^..."!/!B3 | (f2e) (c2d) | B2z "^>"b2z ::!p!\
+B2z d2z | d2z f2z | e2z c2z | d2z f2z | B2z d2z |
+"p.156"\
+d2z f2z | e2z c2z |[1 d2z d2z :|[2 d2z d2 |: F |\
+BFd BFd | B2F/F/ !/!F3 | Z | z2z z2F |\
+BFd BFd | B2F/F/ FBd | f2F/F/ FAF |
+"p.157"\
+B3 z2 :| f |\
+g2g g2g | (f3 d2)B | fec FGA | B2d f2f |\
+g2g g2g | f3 b2b | aga fga | b2[d'f] [b2d2]f |\
+g2g g2g | (f3 d2)B |
+"p.158"\
+fec FGA | B2d f2f | g2g g2g | f3 b2b |\
+aga fga | b2d f2b | aga fga | b3 z2B/B/ |\
+B2B/B/ !/!B3 |"^>"B2z "^>"d2z | "^>"B3 z2z  H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%: 3 sname=BbBgl2 name="2nd Bb Bugle"
+V: 3
+K: Bb
+"2nd Bb Bugle"\
+|:\
+D2 D2 | BA z2 | A2 A2 | BD z2 |\
+E2 G2 | GG ze | dcBA | BD z2 ::[M:6/8]\
+d3 (e2d) | d2z z2z | c2c E2E | D2z z2z |
+"p.155"\
+d3 (e2d) | d2z z2z | c2c E2E | D2z "^>"d2z ::\
+B2z B2z | B2z d2z | A2z A2z | B2z d2z | B2z B2z |
+"p.156"\
+B2z B2z | c2z A2z :|[1 B2z B2z |:[2 B2z B2 |: z |\
+B2z B2z | B2z z2z | A2z A2z | A2z z2z |\
+B2z B2z | B2z z2z | A2z A2z |
+"p.157"\
+B3 z2 :| d |\
+e2e e2e | (d3 B2)z | c2A E2E | D2B d2d |\
+e2e e2e | d3 d2d | e2e e2e | d2f d2d |\
+e2e e2e | (d3 B2)B |
+"p.158"\
+c2A E2E | D2B d2d | e2e e2e | d3 d2d |\
+e2e e2e | d2B d2d | e2e e2e | d3 z2d/d/ |\
+d2d/d/ !/!d3 | "^>"B2z "^>"d2z | "^>"B3 z2z H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%: 4 sname=EbTpt name="Eb Trumpet"
+V: 4
+K: C
+"Eb Trumpet"\
+|:\
+C2 C2 | CC z2 | C2C2 | CC z2 |\
+_B2 B2 | _BB zB | cz CC | CC z2 ::[M:6/8]\
+Z | Z | Z | z2.C/.C/ "..."!/!C3 |
+"p.155"\
+Z | Z | Z | z2z "^>"C2z :: Z | Z | Z | Z | Z |
+"p.156"\
+Z | Z |[1 Z :|[2 z2z z2 |: z |\
+Z | z2z z2C | GC_B GCB | G2C/C/ !/!C3 | Z | Z | c2C/C/ CEC |
+"p.157"\
+C3 z2 :| C |\
+_B2B B2B | C3 z2z | Z | z2z z2C |\
+_B2B B2B | C3 z2z | C2C/C/ !/!C3 | x3 z3 & C2C C2C |\
+_B2B B2B | [c3C3] z2z |
+"p.158"\
+Z | z2z z2C | _B2B B2B | [c3C3] z2z |\
+C2C/C/ !/!C3 | C2C C2C | C2C/C/ !/!C3 | C3 z2C/C/ |\
+C2C/C/ !/!C3 | "^>"C2z "^>"C2z | "^>"C3 z2z H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%: 5 sname=EbHrn name="Eb Horn"
+V: 5
+N: V:5 Bar 11 has only 4 counts; rests added to align the bar lines.
+K: F
+"Eb Horn"\
+|:\
+[c2A2] [c2A2] | [cA][ec] z2 | [e2c2] [e2c2] | [fc][fc] z2 |\
+[d2_B2] [d2B2] | [d_B][dB] z[dB] | fdfc & AdAB | [cA][cA] z2 ::[M:6/8]\
+f2z f2z & c3 (d2A) | [f2c2]z z2z | [ec][ec]z [ec][ec]z & z3 z3 | [f2c2]z z2z |
+"p.155"\
+f2z f2z & c3 d2c | f2x x3 & c2z z2z |\
+[ec]z[ec] [ec]z[ec] | [f2c2]z "^>"[f2c2]z ::\
+[f2c2]z [f2c2]z | [f2c2]z [f2c2]z |\
+[e2c2]z [e2c2]z | [f2c2]z [f2c2]z | [f2c2]z [f2c2]z |
+"p.156"\
+[f2c2]z [f2c2]z | [e2c2]z [e2c2]z |[1 [f2c2]z [f2c2]z :|[2 [f2c2]z [f2c2] |: z |\
+[c2A2]z [c2A2]z | [c2A2]z z2z | [c2G2]z [c2G2]z | [c2G2]z z2z |\
+[c2A2]z [c2A2]z | [c2A2]z z2z | [c2G2]z [c2G2]z |
+"p.157"\
+[c3A3] z2 :| [fc] |\
+[f2d2][fd] [f2d2][fd] | (f3 f2)z & c3 A2c |\
+[e2c2]z [e2c2]z | f2z f2f & c2A c2c |\
+[f2d2][fd] [f2d2][fd] | [f2c2]z [f2c2]z |\
+[ec]z[ec] [ec]z[ec] | f2z f2f & c2c A2c |\
+[f2d2][fd] [f2d2][fd] | [f2c2]z [f2c2]z |
+"p.158"\
+[e2c2]z [e2c2]z | f2z f2f & c2A c2c | [f2d2][fd] [f2d2][fd] | [f2c2]z [f2c2]z |\
+[ec]z[ec] [ec]z[ec] | [f2c2][fA] [f2c2][fc] | [e2c2][ec] [e2c2][ec] | [f3c3] z2[fc]/[fc]/ |\
+[f2c2][f/c/][f/c/] !/![f3c3] | "^>"[f2c2]z "^>"[f2c2]z | "^>"[c3A3] z2z H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%: 6 sname=TTbn name="Tenor Trombone" clef=bass middle=D
+V: 6 clef=bass middle=D
+K: Ab
+"Tenor Trombone"\
+|:\
+c2 c2 | cB z2 | B2B2 | cc z2 |\
+A2 A2 | AA zA | ABAB | AA z2 ::[M:6/8]\
+c3 (d2c) | c2z z2z | B2z B2z | c2z z2z |
+"p.155"\
+c3 (d2c) | c2z z2z | B2z B2z | c2z "^>"c2z ::\
+c2z c2z | c2z c2z | B2z c2z | c2z c2z | c2z c2z |
+"p.156"\
+c2z c2z | B2z d2z |[1 c2z c2z :|[2 c2z c2 |: z |\
+c2z c2z | c2z z2z | d2z d2z | d2z z2z |\
+c2z c2z | c2z z2z | d2z d2z |
+"p.157"\
+c3 z2 :| c |\
+d2d d2d | (c3 A2)c | B2z B2z | c2A c2c |\
+d2d d2d | c2z c2z | B2z B2z | c2c A2c |\
+d2d d2d | c2z c2z |
+"p.158"\
+B2z B2z | c2A c2c | d2d d2d | c2z c2z |\
+B2B B2B | c2A c2c | B2B B2B | c3 z2c/c/ |\
+c2c/c/ !/!c3 | "^>"c2z "^>"c2z | "^>"A3 z2z H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%: 7 sname=BTbn name="Bass Trombone" clef=bass middle=d
+V: 7 clef=bass middle=d
+K: Ab
+"Bass Trombone"\
+|:\
+a2 a2 | ag z2 | e2 e2 | aa z2 |\
+_d2 d2 | _dd zB | cdee | aa z2 ::[M:6/8]\
+a2z a2z | a2z z2z | e2z e2z | a2z z2z |
+"p.155"\
+a2z a2z | a2z z2z | e2z e2z | a2z "^>"z2z ::\
+a2z a2z | a2z a2z | e2z e2z | a2z a2z | a2z a2z |
+"p.156"\
+a2z a2z | e2z e2z |[1 a2z a2z :|[2 a2z a2 |: z |\
+a2z a2z | a2z z2z | e2z e2z | e2z z2z |\
+a2z a2z | a2z z2z | e2z e2z |
+"p.157"\
+a3 z2 :| !f!a |\
+a2a a2a | a2z a2!p!z | e2z e2z | a2z a2!f!a |\
+a2a a2a | a2z a2!p!z | e2z e2z | a2z a2a |\
+!f!a2a a2a | a2z a2z |
+"p.158"\
+!p!e2z e2z | a2!f!z a2a | a2a a2a | a2z a2z |\
+e2e e2e | a2a a2a | e2e e2e | a3 z2!ff!A/A/ |\
+Ace aec | "^>"A2z "^>"a2z | "^>"A3 z2z H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%: 8 sname=Oph name="Ophecleide" clef=bass middle=d
+V: 8 clef=bass middle=d
+K: Ab
+"Ophecleide"\
+|:\
+A2 A2 | ee z2 | E2 E2 | AA z2 |\
+_d2 d2 | _dd zB | cdeE | AA z2 !mf!::[M:6/8]\
+A2z A2z | A2z z2z | E2z E2z | A2z z2z |
+"p.155"\
+A2z A2z | A2z z2z | E2z E2z | A2z "^>"z2z ::\
+A2z A2z | A2z A2z | E2z E2z | A2z A2z | A2z A2z |
+"p.156"\
+A2z A2z | E2z E2z |[1 A2z A2z :|[2 A2z A2 |: z |\
+A2z A2z | A2z z2z | E2z E2z | E2z z2z |\
+A2z A2z | A2z z2z | E2z E2z |
+"p.157"\
+A3 z2 :| A |\
+d2d d2d | A2z A2z | E2z E2z | A2A A2A |\
+d2d d2d | A2z A2z | E2z E2z | A2z A2A |\
+d2d d2d | A2z A2z |
+"p.158"\
+E2z E2z | A2z A2A | d2d d2d | A2z A2z |\
+E2E E2E | A2A A2A | E2E E2E | A3 z2A/A/ |\
+Ace aec | "^>"A2z "^>"a2z | "^>"A3 z2z H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

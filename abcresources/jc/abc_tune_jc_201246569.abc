@@ -1,0 +1,248 @@
+
+X: 1
+T: Bony Smith's Quadrille
+S: Lee Owens and Viola Ruth "American Square Dances of the West and Southwest"
+S: Lee Owens and Viola Ruth "Advanced Square Dance Figuress of the West and Southwest" p.48
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+N: The notation has a second time signature of 2/4, and each triplet is marked with a "3".
+M: 6/8
+L: 1/8
+K: C
+g |\
+"C"geg age | ccc G2c | "G7"Bcd A2B | "C"[cG]BA G2g |
+   geg age | ccc G2c | "G7"Bcd A2B | "C"[c3E3] [c3E3] :|
+|:"C"G[cE][cE] [cE][cE][cE] | G[cE][cE]    cBA | "G7"G[BG][BG] [BG][BG][BG] | G[BG][BG] BAG |
+  "C"G[cE][cE] [cE][cE][cE] | G[cE][cE] [cE]BA | "G7"[e3c3E3] A2B | "C"[c3E3] [c2E2] :|
+
+%%sep 2 1 500
+
+X: 2
+T: Don't You Want To Go To Heaven, Uncle Joe?
+S: Lee Owens and Viola Ruth "American Square Dances of the West and Southwest"
+S: Lee Owens and Viola Ruth "Advanced Square Dances of the West and Southwest" p.127
+N: This is a variant of the Scottish "Miss McLeod's Reel"
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|: "G"GABc dBGA |    B2(BA) B2A2 | "G"GABc dBGB |"D7"A2(AB)  A2z2  |
+   "G"GABc dBGA |    B2(BA) B2d2 | "C"e3d  efgd | "G"B2A2 "G"G2z2 :|
+|: "G"G2g2 efgd | "G"B2(BA) B2A2 | "G"G2g2 efge |"D7"a3b     a4    |
+   "G"G2g2 efge | "G"B2(BA) B2d2 | "C"e3d  efgd | "G"B2A2 "G"G4   :|
+
+%%sep 2 1 500
+
+X: 3
+T: Durangs Hornpipe (OLD WAY)
+S: Lee Owens and Viola Ruth "American Square Dances of the West and Southwest"
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+|: "C"MC2E2 MC2E2 |    Ac2A GFED |     MC2E2 MC2E2 | "G7"D3D     D4     |
+   "C"MC2E2 MC2E2 | "F"Ac2A GFED | "G7" eg2e  ged2 | "C"[c4E4-] [c4E4] :|
+|: "C"eg2e   dccc | "F"Ac2A GFED | "G7"MF2F2 ME2E2 |     D3E     D4     |
+   "C"eg2e   dccc | "F"Ac2A GFED | "G7" eg2e  ged2 | "C"[c4E4-] [c4E4] :|
+
+%%sep 2 1 500
+
+X: 4
+T: Eighth Of January
+S: Lee Owens and Viola Ruth "American Square Dances of the West and Southwest"
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+|: "C"[e2e2](ef) e2e2 | "F"dedc A2((3ABc) | "G7"d2(de) d2(AB) | "C"cAGE C4 :|
+"C"G2(GA) G2(EF) | GAGE "G7"D2(EF) | "C"G2(GA) G2(EF) | "G7"GFED "C"C2(EF) |
+   G2(GA) G2(EF) | GAGE "G7"D2(EF) | "C"G2(GA) G2(EF) | "G7"GFED "C"C4 |]
+
+%%sep 2 1 500
+
+X: 5
+T: Peek-A-Boo Waltz
+S: Lee Owens and Viola Ruth "American Square Dances of the West and Southwest"
+N: A version of the Scandinavian "Svenskarnas valz" (or "Svensk Annas vals")
+R: waltz
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+"INTRODUCTION"(Bc) |\
+("G"d2 b2 a2) | (g2 f2 e2 ) | (d2 B2 e2) | d4 Md-Md | ("C"e2 c'2 b2) |
+("D"a2 e2 f2) | "G"g6- | g4 || "DANCE"(Bc) | ("G"d2 b2 a2) | (g2 f2 e2) | (d2 B2 e2) |
+d4 (Bc) | (d2 b2 a2) | (g2 f2 g2) | "D"a3 (gab) | a4 (Bc) | ("G"d2 b2 a2) |
+(g2 f2 e2) | (d2 B2 e2) | d4 (Md-Md) | ("C"e2 c'2 b2) | ("D"a2 e2) Mf-Mf- | g4 ||
+"CHORUS"(Bc) |\
+(d4 g2) | (d4 Md2) | ("C"e4 c'2) | (e4 g2) | "D7"f3 (efg) | ("D7"b4 a2) | G6- | G4 |]
+
+%%sep 2 1 500
+
+X: 6
+T: Ragtime Annie
+S: Lee Owens and Viola Ruth "American Square Dances of the West and Southwest"
+S: Lee Owens and Viola Ruth "Advanced Square Dances of the West and Southwest" p.138
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+"(Rocking bow)"((3DEF) |\
+"D"[AF][AF][BF][BF] [AF][AF]"D7"[BF][BF] |\
+[AF][AF][BF][BF] [A2F2]((3DEF) |\
+[AF][AF][BF][BF] [AF][AF]"D7"[BF][BF] |
+"A"[AF][c2G2][cG] [c2G2][c2G2] |\
+[AG][BG][cG][AG] [BG][cG][AG][BG] |\
+[cG][A2G2][BG] c3B |\
+[AF]Bcd egfe |
+[1 "D"dcdB "A"A2 :|[2 "D"d6 |: (fg) |\
+"D"a6 (fd) | [A6F6] (fg) | a4 g4 | [B6G6] "G"(ef) |
+gfef gfef | gfed c4 | [cG][cG][cG][cG] [BG][BG][BG][BG] |\
+"D"[A6F6] (fg) | a6 (fd) |
+[A6F6] (fg) | a4 g4 | "G"[B8G8] | bb2b b2g2 |\
+"D"f[a2d2]a a2a2 | "A"ABcd egfe | "D"[d4F4] [d2F2] |]
+
+%%sep 2 1 500
+
+X: 7
+T: Waggoner
+S: Lee Owens and Viola Ruth "American Square Dances of the West and Southwest"
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+|: "C"C2(EF) G2(AB) | cBAB cBc2 | "G7"D3D D2d2 | dcBc dcBA |
+   "C"C2(EF) G2(AB) | cBAB cdef | "G7"g3^f gag=f | "C"e2Mc2 Mc2 :|
+|: (gf) |\
+  "C"e2c2 c2c2 | cdef gage | "G7"d2G2 G2G2 | GABc d2(gf) |
+  "C"e2c2 c2c2 | cdef g2e2 | "G7"a3g abag | "C"e2c2 c2 :|
+
+%%sep 2 1 500
+
+X: 8
+T: Bony Smith's Quadrille
+S: Lee Owens and Viola Ruth "American Square Dances of the West and Southwest"
+S: Lee Owens and Viola Ruth "Advanced Square Dance Figuress of the West and Southwest" p.48
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+N: The notation has a second time signature of 2/4, and each triplet is marked with a "3".
+M: 6/8
+L: 1/8
+K: C
+g |\
+"C"geg age | ccc G2c | "G7"Bcd A2B | "C"[cG]BA G2g |
+   geg age | ccc G2c | "G7"Bcd A2B | "C"[c3E3] [c3E3] :|
+|:"C"G[cE][cE] [cE][cE][cE] | G[cE][cE]    cBA | "G7"G[BG][BG] [BG][BG][BG] | G[BG][BG] BAG |
+  "C"G[cE][cE] [cE][cE][cE] | G[cE][cE] [cE]BA | "G7"[e3c3E3] A2B | "C"[c3E3] [c2E2] :|
+
+%%sep 2 1 500
+
+X: 9
+T: Don't You Want To Go To Heaven, Uncle Joe?
+S: Lee Owens and Viola Ruth "American Square Dances of the West and Southwest"
+S: Lee Owens and Viola Ruth "Advanced Square Dances of the West and Southwest" p.127
+N: This is a variant of the Scottish "Miss McLeod's Reel"
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|: "G"GABc dBGA |    B2(BA) B2A2 | "G"GABc dBGB |"D7"A2(AB)  A2z2  |
+   "G"GABc dBGA |    B2(BA) B2d2 | "C"e3d  efgd | "G"B2A2 "G"G2z2 :|
+|: "G"G2g2 efgd | "G"B2(BA) B2A2 | "G"G2g2 efge |"D7"a3b     a4    |
+   "G"G2g2 efge | "G"B2(BA) B2d2 | "C"e3d  efgd | "G"B2A2 "G"G4   :|
+
+%%sep 2 1 500
+
+X: 10
+T: Durangs Hornpipe (OLD WAY)
+S: Lee Owens and Viola Ruth "American Square Dances of the West and Southwest"
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+|: "C"MC2E2 MC2E2 |    Ac2A GFED |     MC2E2 MC2E2 | "G7"D3D     D4     |
+   "C"MC2E2 MC2E2 | "F"Ac2A GFED | "G7" eg2e  ged2 | "C"[c4E4-] [c4E4] :|
+|: "C"eg2e   dccc | "F"Ac2A GFED | "G7"MF2F2 ME2E2 |     D3E     D4     |
+   "C"eg2e   dccc | "F"Ac2A GFED | "G7" eg2e  ged2 | "C"[c4E4-] [c4E4] :|
+
+%%sep 2 1 500
+
+X: 11
+T: Eighth Of January
+S: Lee Owens and Viola Ruth "American Square Dances of the West and Southwest"
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+|: "C"[e2e2](ef) e2e2 | "F"dedc A2((3ABc) | "G7"d2(de) d2(AB) | "C"cAGE C4 :|
+"C"G2(GA) G2(EF) | GAGE "G7"D2(EF) | "C"G2(GA) G2(EF) | "G7"GFED "C"C2(EF) |
+   G2(GA) G2(EF) | GAGE "G7"D2(EF) | "C"G2(GA) G2(EF) | "G7"GFED "C"C4 |]
+
+%%sep 2 1 500
+
+X: 12
+T: Ragtime Annie
+S: Lee Owens and Viola Ruth "American Square Dances of the West and Southwest"
+S: Lee Owens and Viola Ruth "Advanced Square Dances of the West and Southwest" p.138
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+"(Rocking bow)"((3DEF) |\
+"D"[AF][AF][BF][BF] [AF][AF]"D7"[BF][BF] |\
+[AF][AF][BF][BF] [A2F2]((3DEF) |\
+[AF][AF][BF][BF] [AF][AF]"D7"[BF][BF] |
+"A"[AF][c2G2][cG] [c2G2][c2G2] |\
+[AG][BG][cG][AG] [BG][cG][AG][BG] |\
+[cG][A2G2][BG] c3B |\
+[AF]Bcd egfe |
+[1 "D"dcdB "A"A2 :|[2 "D"d6 |: (fg) |\
+"D"a6 (fd) | [A6F6] (fg) | a4 g4 | [B6G6] "G"(ef) |
+gfef gfef | gfed c4 | [cG][cG][cG][cG] [BG][BG][BG][BG] |\
+"D"[A6F6] (fg) | a6 (fd) |
+[A6F6] (fg) | a4 g4 | "G"[B8G8] | bb2b b2g2 |\
+"D"f[a2d2]a a2a2 | "A"ABcd egfe | "D"[d4F4] [d2F2] |]
+
+%%sep 2 1 500
+
+X: 13
+T: Waggoner
+S: Lee Owens and Viola Ruth "American Square Dances of the West and Southwest"
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+|: "C"C2(EF) G2(AB) | cBAB cBc2 | "G7"D3D D2d2 | dcBc dcBA |
+   "C"C2(EF) G2(AB) | cBAB cdef | "G7"g3^f gag=f | "C"e2Mc2 Mc2 :|
+|: (gf) |\
+  "C"e2c2 c2c2 | cdef gage | "G7"d2G2 G2G2 | GABc d2(gf) |
+  "C"e2c2 c2c2 | cdef g2e2 | "G7"a3g abag | "C"e2c2 c2 :|
+
+%%sep 2 1 500
+
+X: 14
+T: Peek-A-Boo Waltz
+S: Lee Owens and Viola Ruth "American Square Dances of the West and Southwest"
+N: A version of the Scandinavian "Svenskarnas valz" (or "Svensk Annas vals")
+R: waltz
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+"INTRODUCTION"(Bc) |\
+("G"d2 b2 a2) | (g2 f2 e2 ) | (d2 B2 e2) | d4 Md-Md | ("C"e2 c'2 b2) |
+("D"a2 e2 f2) | "G"g6- | g4 || "DANCE"(Bc) | ("G"d2 b2 a2) | (g2 f2 e2) | (d2 B2 e2) |
+d4 (Bc) | (d2 b2 a2) | (g2 f2 g2) | "D"a3 (gab) | a4 (Bc) | ("G"d2 b2 a2) |
+(g2 f2 e2) | (d2 B2 e2) | d4 (Md-Md) | ("C"e2 c'2 b2) | ("D"a2 e2) Mf-Mf- | g4 ||
+"CHORUS"(Bc) |\
+(d4 g2) | (d4 Md2) | ("C"e4 c'2) | (e4 g2) | "D7"f3 (efg) | ("D7"b4 a2) | G6- | G4 |]

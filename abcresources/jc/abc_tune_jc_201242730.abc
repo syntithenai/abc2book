@@ -1,0 +1,16 @@
+X:671
+T:Capt. Whiting's
+C:Walch
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 67
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A2|BA^GA F2d2|A2f2e2d2|c2cB c2d2|fedc BA^GA|BA^GA F2d2|A2f2e2d2|
+c2cd e^dec|=d4 z2::A2|A4 EAce|d2B2 Bfed|c2A2 AcB^G|AAFA EA^GB|A4 EAce|
+d2B2 Bfed|c2(3(cBA) B2(3(BA^G)|A4 z2::A2|A2fd A4|ABAG F2A2|G2gf e4|efed cea2|
+d2fd A4|ABAG F2A2|G2gf e^dec|=d4z2::B2|B4 ^ABcA|B2F2 f4|
+d2B2 b4|a2f^e f4|e4 ^defe|c2A2 a4|f2(3(fed) e2(3(edc)|d4 z2:|

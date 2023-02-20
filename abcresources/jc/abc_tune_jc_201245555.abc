@@ -1,0 +1,70 @@
+
+X: 1
+T: Alunelul  [F]
+O: Romania
+Z: John Chambers <jc@trillian.mit.edu>
+M: 1/2
+L: 1/8
+K: F
+(3[AF][BG][=B^G] \
+|: "F"[cA]>[=B^G] [cA]>[dB] | "C7"[cA]>[BG] [AF]>[GE] \
+| "F"M[F2C] "C"M[G2E] | "F"[A2F] (3[AF][BG][=B^G] \
+| "F"[cA]>[=B^G] [cA]>[dB] | "C7"[cA]>[BG] [AF]>[GE] \
+| "Dm"M[F2D] "A7"M[E2^C] | "Dm"[D4] :|
+(3CDE \
+|: "F"[F2C] [A2F] | "C7"[G2E2]>>[E2C2] \
+| "F"[F2C] [A2F] | [c4A] \
+| "F"[F2C] [A2F] | "C7"[G2E2]>>[E2C2] \
+| "Dm"M[F2D] "A7"M[E2^C] | "Dm"[D4] :|
+
+
+X: 1
+T: Alunelul  [G]
+O: Romania
+Z: John Chambers <jc@trillian.mit.edu>
+M: 1/2
+L: 1/8
+K: G
+(3[BG][cA][^c^A] \
+|: "G"[dB]>[^c^A] [dB]>[ec] | "D7"[dB]>[cA] [BG]>[AF] \
+| "G"M[G2D] "D"M[A2F] | "G"[B2G] (3[BG][cA][^c^A] \
+| "G"[dB]>[^c^A] [dB]>[ec] | "D7"[dB]>[cA] [BG]>[AF] \
+| "Em"M[G2E] "B7"M[F2^D] | "Em"[E4] :|
+(3DEF \
+|: "G"[G2D] [B2G] | "D7"[A2F2]>>[F2D2] \
+| "G"[G2D] [B2G] | [d4B] \
+| "G"[G2D] [B2G] | "D7"[A2F2]>>[F2D2] \
+| "Em"M[G2E] "B7"M[F2^D] | "Em"[E4] :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Ambee Dageets  [D]
+O: trad Armenian
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: PDF MS of unknown origin (from Steve Gruverman)
+%Q: 1/4=76
+M: 2/4
+L: 1/16
+K: Dphr^F
+|:"Gm"B3B B2B2 | "D"AGFG A4 | "D"A3A A2A2 | "Gm"GFEF G4 |
+| "Eb"G3G G2G2 | "D"FEDE F4 |"Cm"[GE3]FG[AE] [BE2]A[GE2]F | "D"AGFE D4 :|
+|:"D"D2FG A2A2 | "D"A2Ac B2AG | "D"A2Ac B2AG | "D"AGGF "Gm"G4 :|
+|:"D"FGAB AGFE | "D"FGAB AGFE | "D"D3E "Cm"F3G |"Eb"FEED "D"D4 :|
+
+
+X: 1
+T: Ambee Dageets  [E]
+O: trad Armenian
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: PDF MS of unknown origin (from Steve Gruverman)
+%Q: 1/4=76
+M: 2/4
+L: 1/16
+K: Ephr^G
+|:"Am"c3c c2c2 | "E"BAGA B4 | "E"B3B B2B2 | "Am"AGFG A4 |
+| "F"A3A A2A2 | "E"GFEF G4 |"Dm"[AF3]GA[BF] [cF2]B[AF2]G | "E"BAGF E4 :|
+|:"E"E2GA B2B2 | "E"B2Bd c2BA | "E"B2Bd c2BA | "E"BAAG "Am"A4 :|
+|:"E"GABc BAGF | "E"GABc BAGF | "E"E3F "Dm"G3A |"F"GFFE "E"E4 :|

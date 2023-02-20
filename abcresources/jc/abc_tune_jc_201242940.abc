@@ -1,0 +1,26 @@
+X: 721
+T: New Mills House
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.72 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F |\
+DFd AGF | E=CE TF2E | DFd AGF | dcd AFD |\
+GBG FdF | E=CE TF2E | D2f edc | dCC C2 :|
+|: f |\
+(d/e/f/g/a a)fa | e=ce Tf2e | (d/e/f/g/a a)fa | dfd Tf2d |\
+geg fdf | e=ce Tf2e | agf edc | dDD D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d3 d3 | =c3 c3 | d3 d3 | d3 d3 |\
+e3 d3 | =c3 c3 | d3 A3 | D3 d2 :|
+|: z |\
+d3 d3 | =c3 c3 | d3 d3 | d3 d3 |\
+e3 d3 | =c3 c3 | d3 A3 | D3 D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

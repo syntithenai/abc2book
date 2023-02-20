@@ -1,0 +1,6 @@
+X: 1
+T: TEST: Key signature: G (1 sharp)
+%%staffwidth 10cm
+P: K: G
+K: G
+| GABc defg | gfed cBAG |

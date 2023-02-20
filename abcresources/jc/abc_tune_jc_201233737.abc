@@ -1,0 +1,43 @@
+X: 200
+T: Where are your Gods and mighty hopes
+T: Cia iad ar Dee s'ar duile treun
+R: lament, air, strathspey
+N: This is version 2, for ABC software that understands cres/diminuendo symbols and trailing grace notes.
+% dim/cres..endo symbols:
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" 1816 p.93 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat symbol; not fixed.
+N: Several bars have odd lengths in both voices; not fixed. (This is a lament/air tune.)
+N: 32nd-note runs at ends of bars transcribed as normal-size notes; Fraser's grace-note run notation doesn't work well in ABC.
+M: C
+L: 1/8
+Q: "Pompously Slow"
+K: Am	% ending on C major
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 preserves the staff layout in the book.
+V: 1 staves=2
+E |\
+A>B(A^G) !p!TA>=GEG | TE>^DE^G {G}A2(A>c) |\
+"_cres"AGGB (Tc>B)cd | {c}e>dc>d{c}e2e>g ||\
+Qf>qdQe>qc QTd>qc Q{c}He2 {dcBA}q |
+"_cres"G>E {B,}D>E {^F}G2 z{EDEF}!p!x |\
+"_Exp"GEDC {E}c>d {cd}He z/c/ | Qd>c {B}A(d/B/qc) :: !p!E |\
+A>B {AB}c>A c>GEG | TE>^DE^G {G}A2A>c |\
+"_cres"AGGB Tc>Bcd |
+Te>deg {^g}a3Qz {agab}q!f! ||\
+{ab}"_dim"c'>ag>e d>c Q{c}He2 {dcBA}q | "_cres"(GE){B,}DE {^F}[G2B,2] z{EDEF}x !p!|\
+"_Exp"GEDC c>d {cd}He z/c/ | Qd>qc pATB {AB}{d}P[c2E2] |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+a2e2 !p!c2c'2 | c2B2 A2a2 | c'3g e3d | e2gG c2c'2 || b2c'2 g2Hc2 y|
+c2g2 b2z2 | c'2g2 edHc2 | g2f2 [ec] :: !p!z | a2e2 c2c'2 | c2B2 A2a2 | c'3f edcB |
+c2c'2 f3z!f!y || afec G2Hc2 y| [g2c2]Bc G2z2 !p!| c'2g2 edc2 | g2fg c2 |]
+% = = = = = = = = = =

@@ -1,0 +1,25 @@
+X: 1
+T: Funeral March of a Marionette
+T: Alfred Hitchcock Theme
+C: F.Gounod
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+E \
+[|"Am"[A,2A2][cA] [cA][B^G][A^F] | "E7"[B2^G2][cA] [d2B2]E \
+| "Am"[A,2A2][cA] [cA][B^G][A^F] | "E7"[B2^G2][cA] [d3B3] \
+| "Am"A2c "G"e2d | "C"c2e "G"g2f \
+| "Em"e2g "B7"b2a | "E7"k^g>fe dc[Be] |
+| "Am"[A,2A2][cA] [cA][B^G][A^F] | "E7"[B2^G2][cA] [d2B2]E \
+| "Am"[A,2A2][cA] [cA][B^G][A^F] | "E7"[B2^G2][cA] [d3B3] \
+| "Am"c2e "G7"g2f | "C"edc "Bb"_Bdf \
+| "Am"A^GA "E"=B2c | "E7"B3 "Am"A2z |]
+[| "E"{^d}e2E E^DE | "B7"^G2^F "E"E3 \
+| "E"{^d}e2E E^DE | "B7"^G2^F "E"E3 \
+| "E"{^d}e2E "F"FGA | "E"B2E "F"FGA \
+| "E"B2E EDC | "E7"DED C2B, |
+| "Am"[A,2A2][cA] [cA][B^G][A^F] | "E7"[B2^G2][cA] [d2B2]E \
+| "Am"[A,2A2][cA] [cA][B^G][A^F] | "E7"[B2^G2][cA] [d3B3] \
+| "Am"c2e "G7"g2f | "C"edc "Bb"_Bdf \
+| "Am"A^GA "E"=B2c | "E7"B3 "Am"A2 |]

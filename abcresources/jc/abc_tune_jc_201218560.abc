@@ -1,0 +1,45 @@
+%%text RJ Set 011
+
+
+X: 1
+T: Liberty
+M: C|
+R: reel
+K: D
+|:\
+"D"f2A2 f2A2 | fgfe d2ef | "G"g2B2    g2B2 | gagf e2de |\
+"D"f2A2 f2A2 | fgfe d2ef | "G"gfed "A"cABc | "D"d2f2 d4 :|
+|:\
+"D"A2AB AGFE | DFAd f2d2 | A2AB AGF2 | "A"E3F E2FG |\
+"D"A2AB AGFE | DFAd f2ef | "G"gfed "A"cABc | "D"d2f2 d4 :|
+% text Roaring Jelly  R-39
+
+
+X: 2
+T: The Rakes of Mallow
+M: C|
+R: polka
+K: G
+(3DEF |\
+"G"G2B2 G2B2 | G2B2 cBAG | "D"F2A2 F2A2 | F2A2 dcBA |\
+"G"G2B2 G2B2 | G2B2 d3B | "C"cBAG "D7"FGAc | "G"B2G2 G2 :|
+|: (3def |\
+"G"g2fe d2c2 | B2c2 d3B | g2fe d2c2 | B2d2 "D"A3d |\
+"G"g2fe d2c2 | B2c2 d3B | "C"cBAG "D7"FGAc | "G"B2G2 G2 :|
+% text Roaring Jelly  R-3
+
+
+X: 3
+T: Staten Island
+I: Staten Island	R-6	D	reel
+M: C|
+R: reel
+K: D
+AG |\
+"D"FDFG A2A2 | dfed "D7"dcBA | "G"B2GB "D"A2FA | "A"G2E2 E2AG |\
+"D"FDFG A2A2 | dfed "D7"dcBA | "D"d2d2 "A"efge | "D"f2d2 d2 :|
+|: fg |\
+"D"a2fa "A"g2eg | "D"f2df "A"ecA2 | "C"=c2c2 efge | =c2c2 efge |\
+"D"a2fa "A"g2eg | "D"f2df "A"ecA2 | "D"d2d2 "A"efge | "D"f2d2 d2 :|
+% text 08/29/98
+

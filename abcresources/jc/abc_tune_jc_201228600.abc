@@ -1,0 +1,22 @@
+X: 114101
+T: LADY DOUNE
+Q: "Strathspey."
+R:  Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.1 p.14 s.1 #1
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: F
+uc |\
+vf<uf vf>uc f<f f>a | vg>vaug>uf d2 d>ug |\
+f<f f>c f<f f>a | g>fa>g f2(fc) |\
+f<f f>c f<f f>a | b>ag>f d2(dg) |\
+f<a vd>uf vc>ud A<f | c<A f>A F2-F |]
+uB |\
+(A/B/c) uF>uc B>df>B | (A<c) uf>AG2 uG>uB |\
+(A/B/c) F>c B>df>d | (c<f) c>A {A}F2 (FB) |\
+(A/B/c) F>c B>df>B | (A/B/c) f>A G2 uG>uB |\
+(3ABc (3Bcd c<f e>ug | f<a g>e f2-f |]

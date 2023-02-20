@@ -1,0 +1,14 @@
+X: 1628
+T: Off To California - setting 1
+%S: s:2 b:13(6+7)
+B: O'Neills 1850 #1628
+O: F. O'Neill
+Z: Nick Terhorst, nickte@microsoft.com
+M: 2/4
+L: 1/16
+K: G
+(3DEF \
+| G>FG>B A>GE>D | G>Bd>g e2(3def | g>fg>d e>dB>G |\
+[1,3 A>BA>G E2 :|[2,4 A>BA>F G2 :: (3def | g>fe>g f>ed>f |
+| e>de>f e>dB>d | g>fg>d e>dB>G | A>BA>G E2D2 \
+|| (3GAG B>G A>GE>D | G>Bd>g e2(3def | g>fg>d e>dB>G | A>BA>F G2 :|

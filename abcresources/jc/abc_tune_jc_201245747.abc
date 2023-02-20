@@ -1,0 +1,27 @@
+X: 1
+T: Aldersgate Bars
+P: Longways for as many as will
+%R: minuet
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.54
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: 3/2
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: dcBA BcBA G2GA | B2AB cBAG ^F2A2 | dcBA BcBA G2A2 | BABc d2^f2 g4 :|
+|: bagf gdcB edcB | A2gf edcB A2^F2 | dcBA BcBA Gg^fa | gdcB ABcA B2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: G4 g4 B2A2 | G4 c4 d4 | z4 G4 B2A2 | G4 B2d2 G4 :|
+|: d4 e4 c4 | d4 c4 d4 | B4 G4 e4 | B4 c2d2 G4 :|
+% - - - - - - - - - - Dance description: - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+%% The 1st Cu. lead forward and take hands across and go half round .|,
+%% then the same back again :|
+%% The 1st and 2d Cu double figure and turn the 1st & 2d Man casting down into the 2d Wo. Place .|
+%% then the two We. do the same on the Men's side :|
+%%endtext

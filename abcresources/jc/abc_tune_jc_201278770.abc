@@ -1,0 +1,16 @@
+X: 956
+T: the Gaelic Club   #2
+R: jig
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #956
+O: F.O'Neill
+Z: Dan G. Petersen, dangp@post6.tele.dk
+N: Compacted by using labels and play order [JC]
+P: Play ABAB CBCB
+N: 12t/last notes may be adjusted to match the common "dotted" jig rhythm.
+M: 6/8
+L: 1/8
+K: Am	% and C
+"^A"[| A/B/ | cBA AGE | ABA ABc | BAG BdG | Bdg G2 |]
+"^B"[| A/B/ | cBA AGE | ABA c2d | efe dcB | cAA A2 |]
+"^C"[|   B  | ceg gec | ceg dBG | ceg gec | BGG G2 |]

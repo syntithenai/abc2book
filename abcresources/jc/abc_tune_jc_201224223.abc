@@ -1,0 +1,30 @@
+X: 80
+T: the Sham Squire
+T: Longways for as many as will.
+%R: march, reel
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.40
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: 2/2	% Actually just "2" in the book.
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+cB |\
+c2G2 G2cB | c2F2 F2cB | c2E2 E2FE | D2 d4 cB |\
+c2G2 G2cB | c2F2 F2cB | c2E2 E2FD | C2 c4 :|
+|: g^f |\
+g2G2 G2fe | f2F2 F2fe | f2e2 d2c2 | B2 d4 cB |\
+c2G2 G2cB | c2F2 F2cB | c2E2 E2FD | C2 c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man sett to the 2d Wo. and turn single, and
+%% then turn into your Proper Place .| Then the other
+%% Cu. do the same :| Then both Men change Places with
+%% both their own Partners & Right & Left half round
+%% & turn single .| lead thro' at top & cast off and thro'
+%% at bottom then cast up and turn.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

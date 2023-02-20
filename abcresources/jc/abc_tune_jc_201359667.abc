@@ -1,0 +1,68 @@
+X: 1
+A:Adam de la Halle
+T:Mout me fu grief/Robin m'amie/Portare
+M:3/4
+L:1/4
+Q:1/4=120
+K:C Major
+%
+V:1 clef=treble
+V:2 clef=treble
+V:3 clef=treble-8 middle=B,
+%%MIDI program 1       72 piccolo
+%%MIDI program 2       74 recorder
+%%MIDI program 3       70 bassoon
+%%%%sysstaffsep    22.00pt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% triplum %%%%%%%%%%%%%%%%%%%%%%%%%%%
+[V:1]
+     G   G  A|B/    c/  B  A|G/   G/  E  F|
+w: Mout me fu      grief li dé-par-     tir de ma-mi-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   G  F  D|E/  E/   D   C | B, z2|E ^F/    G/
+w: e-te La       jo-lie au cler vis.  Qui      est blanche
+   F | E F/4E/4D/ C|D z2| c/  c/  B  A |G   F  A|
+w: et ver- mel-**le-te,         Co-me ro-se par de-sus
+G/   G/  A    B| c z2|G/   G/   A    B | A  G
+w:   lis, Ce m'est a-vis.       Son très dous res Mi fait
+    F|  E   A2| G   F    E |  G ^F   G|  A z2| ^F
+w: fre-mir, Et  si oell vair ri-ans lan-guir.  Ha
+(D/C/D) | E   G2| A (BA)| G z2|  c    B A|(3:2:2G/
+w:    diex!** Com-man la lais-*sai!  Blan-che-te     co-
+    G   E    D|G/    G/    A    B | G z2| c/ c/
+w: me flour de      lis, Quant vous ver-rai!        Da-me
+    B B/4A/4G/| A   G   G |^F D/ C/   D | E
+w: de   va-** lour Ver-mel-le       co-me rose en
+((3:2:4F/GFG/)| E    A    B|(G/4F/4G/) E   F  |G2 z||
+w:     mai,*** Pour vous sui   en**  grant do-lour.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% duplum %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[V:2]
+   C (DE)|E/4D/4C/ B,2| C
+w: Ro-bin*  m'ai-**me, Ro-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   (ED)| C z2| E  G2| ^F (FG)|
+w: bin* m'a.  Ro-bin m'a  de-*
+    E (D/C/D)| E E2 |D (ED)|
+w: man-***         dé-e, se m'a-*
+   C z2| C (DE)|  C B,2 |C (DE)|
+w: ra.  Ro-bin* m'a-cha- ta cor-*
+    C (D/C/B,)|C (DE)| C  B,2|C
+w: roi-      e,**   et au-*mon-iè- re
+   (DE)|C (B,/C/D)|E    G2|  ^F (FG)|
+w: de-*soi-      e**   Pour-quoi donc ne*
+    E (D/C/D)| E    E2| D  (ED)| C z2|
+w: l'a-      me-** roie, A  leur i-*  va.
+   C (DE)|  C   D2|  C (ED)|C z2| E G2 |^F
+w: Ro-bin* m'ai-me, Ro-bin* m'a. Ro-bin m'a
+   (FG)| E(D/C/D)|E  E2|D (ED)|C2 z||
+w:  de-*man-***        dé-e, se m'a-*ra.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% tenor %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[V:3]
+  (CB,A,)|(CD2)|(CA,2)|(CB,G,)|A,G,2|
+w: Portare.
+^F, z2|A, (G,/C/B,)|A, A,2|G, z2|C z2|
+(CB,A,)|  (CD2)|(CA,2)|C z2|
+(CB,G,)|(CD2)|(CA,2)|(CB,G,)|(A,G,2)|
+^F, z2|A, (G,/C/B,)|A, A,2|G, z2|  C z2|
+(CB,A,)|(CD2)|(CA,2)|(CB,G,)|(A,G,2)|
+^F, z2|A, (G,/C/B,)|A, A,2|G, z2|C2 z||
+%

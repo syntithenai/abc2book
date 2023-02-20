@@ -1,0 +1,21 @@
+X: 191
+T: Burns Night
+T: dance: Burns Night [Robert McOwen]
+C: Barbara McOwen \251 1991
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000) p.15
+M: 6/8
+L: 1/8
+P: AB
+K: G
+"A"[| B, \
+| "G"G,2B BAB | "G"d2B BAB | "G"G,2B "Em"BAB | "Am"c2B "D7"A2B \
+| "G"G,2B BAB | "G"d2B "G7"B2d | "C"cBA GFE | "Am"DED "D7"CB,A, ||
+| "G"G,2B BAB | "G"d2B BAB | "G"G,2B "Em"BAB | "Am"c2B "D7"A2B \
+| "G"G,2B BAB | "G7"d2B "C"c2e | "Am7"dcB "D7"AGF | "G"G3 G2 |]
+"B"[| c \
+| "G"B2g gfg | "A"^caa "A7"a2g | "D"fga "Em"gfe | "A7"de^c "D7"d2=c \
+| "G"B2g "G7"gfg | "C"e2d c2e | "Am"dcB "D7"AGF | "G"G3 G2c ||
+| "G"B2g gfg | "A"^caa "A7"a2g | "D"fga "A7"gfe | "D"ded "D7"=cBA \
+| "G"G,2B BAB | "G7"d2B "C"c2e | "Am"dcB "D7"AGF | "G"G3 G2 |]

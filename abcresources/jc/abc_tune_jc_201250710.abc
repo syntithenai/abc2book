@@ -1,0 +1,15 @@
+X:119
+T:Bartlett's 2.S. *? +
+C:
+B:American Veteran Fifer #119
+M:6/8
+L:1/8
+Q:1/8=180
+K:G
+(3d/e/f/|g2 g g2 g|g2 g g2 g|bag agf|ggg g2 z|a2 a a2 a|a2 a a2 a|agf gfe|ddd d2:||:B/c/|d3e2d|dg z dg B/c/|
+d3 e2 d|db z ag B/c/|eg z Baf|g3 g2:|B/c/|d2 z d2 z|d3 d^cd|B3 B3|B3 Bcd|e3 e3|e3 gfe|d3 d3|d3 dcB|A3 A3|ABc def|g2 z def|gzd bzd|g3 g2:|
+% Original had bar-repeat signs in second and sixth complete bars of first staff.  They have been replaced by verbatim
+% notes ("g2 g g2 g" and "a2 a a2 a") and since ABC notation does not support the bar-repeat sign.
+% Original had missing notes (bar too short) in second bar of second staff as follows:
+%d3 e2 d|db z ag     |eg z Baf|g3 g2:|B/c/|d2 z d2 z|d3 d^cd|B3 B3|B3 Bcd|e3 e3|e3 gfe|d3 d3|d3 dcB|A3 A3|ABc def|g2 z def|gzd bzd|g3 g2:|
+% The notes "B/c/" were inserted at the end of the bar to match similar passages elsewhere in the tune. Result sounds OK.

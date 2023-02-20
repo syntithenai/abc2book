@@ -1,0 +1,25 @@
+X: 1
+T:Nine in a Row
+M:C
+L:1/8
+Q:80
+C:William Mossie
+S:March
+K:HP
+[| {g}A3/2d/2|
+{g}f2{e}f3/2g/2{fg}f2{Gdc}d3/2B/2|
+{g}Bd{gf}gB{G}A2{g}A3/2d/2|  !
+{g}f2{e}f3/2g/2{fg}fA{gf}g3/2f/2|
+{gef}e4{A}e2{g}A3/2d/2{g}f2{e}f3/2g/2{fg}f2{Gdc}d3/2B/2|
+{g}Bd{gf}gB{G}A2{g}A3/2d/2|  !
+{g}fA{gf}g3/2f/2{gef}eA{g}f3/2e/2|
+{Gdc}d4{gdc}d2|]
+{g}f3/2g/2|  !
+{ag}a2{Gdc}d3/2e/2{g}f2{Gdc}d3/2B/2|
+{g}Ad{gf}gB{G}A2{g}f3/2g/2|
+{ag}a2{Gdc}d3/2e/2{g}fA{gf}g3/2f/2|  !
+{gef}e4{A}e2{g}f3/2g/2{ag}a2{Gdc}d3/2e/2{g}f2{Gdc}d3/2B/2|
+{g}Bd{gf}gB{G}A2{g}A3/2d/2|
+{g}fA{gf}g3/2f/2{gef}eA{g}f3/2e/2|  !
+{Gdc}d4{gdc}d2|]
+

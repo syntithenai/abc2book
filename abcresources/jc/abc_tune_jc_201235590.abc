@@ -1,0 +1,45 @@
+X: 21241
+T: Marsail Lochinalie
+%R: ?
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.124 #1 & p.125
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Ador
+%%begintext align
+%% To be begun slow and increase in
+%% quickness to the last part but one,
+%% as the tune represents a Battle.
+%%endtext
+[| "_Slow"\
+A6 B2 e4 | e8 A4 | e6 f2 e2d2 | e8 B4 |\
+d8 B4 | d6 B2 G4 | e6 f2 (e2d2) | B8 G4 |\
+A6 B2 d4 | e8 f4 | g6 b2 a2g2 | a8 (g2a2) |
+b6 a2 g2e2 | d6 e2 G4 | e6 g2 e2d2 | TB8 HA4 |]\
+e8 (d2B2) | e8 (d2B2) | e8 (d2B2) | d8 (B2G2) |\
+e8 (d2B2) | g8 (e2d2) | G8 (e2d2) | B8 A4 |
+a8 (g2e2) | a8 (g2e2) | g8 (e2g2) | d8 (B2G2) |\
+a8 (g2e2) | g8 (e2d2) | G8 (e2d2) | B8 A4 |]\
+e6 ee e4 | d6 BB B4 | e6 ee e4 | d6 GG G4 |
+e6 ee e4 | g6 ee e4 | d6 GG G4 | B6 AA A4 |\
+a6 ee e4 | a6 ee e4 | g6 dd d4 | g6 dd d4 |\
+a6 ee e4 | g6 dd d4 | e6 GG G4 | B6 AA A4 |]
+e6 ee e4 | ^c6 AA A4 | e6 ee e4 | d6 BB B4 |\
+e6 ee e4 | ^c6 AA A4 | d6 BB B4 | ^c6 AA A4 |\
+a6 aa a4 | a6 ^cc c4 | a6 aa a4 | a6 BB B4 |
+a6 ee e4 | a6 ^cc c4 | a6 BB B4 | a6 AA A4 |]\
+eeee eeee .^c4 | eeee eeee .B4 | eeee eeee .^c4 |
+ffff eeee .A4 |\
+aaaa aaaa .^c4 | aaaa aaaa .B4 | aaaa aaaa ^cccc | ffff eeee A4 |]
+A2(3(^cde) A2(3(cde) A2(3(f^ga) | A2(3(^cde) A2(3(^cde) B2(3(f^ga) |\
+A2(3(^cde) A2(3(^cde) A2(3(f^ga) | ffff eeee A4 |
+e2(3(f^ga) e2(3(f^ga) ^c2(3(f^ga) | e2(3(f^ga) e2(3(f^ga) B2(3(f^ga) |\
+e2(3(f^ga) e2(3(f^ga) ^c2(3(f^ga) | ffff eeee A4 |]
+AAAA ^cccc aaaa | AAAA ^cccc BBBB | AAAA ^cccc aaaa | ffff eeee A4 |
+eaaa aaaa ^caaa | eaaa aaaa Baaa | eaaa Aaaa ^caaa | ffff eeee A4 |]\
+"_Slow"\
+A8 (B2d2) | e8 (d2B2) |
+e8 (d2B2) | d8 (B2G2) |\
+A8 (B2d2) | e8 (d2B2) | g8 (e2d2) | B8 A2A2 |\
+a8 (g2e2) | a8 (g2e2) | g8 (e2d2) | B8 (A2G2) |\
+a8 (g2e2) | g8 (e2d2) | G8 (e2d2) | TB8 A4 |]

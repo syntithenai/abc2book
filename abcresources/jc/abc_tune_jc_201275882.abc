@@ -1,0 +1,56 @@
+
+X: 1
+T: Fingal's Cave
+T: Uamh Fhinn
+C:
+O: Ce\`ol nam Feis
+S: SRSNH 11.21 "Arranged by B.McOwen, October 2001"
+S: Concord Slow Scottish Jam collection
+R: march
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Ador
+"A"[|]\
+EG |\
+"Am"A2-A2 BAGA | B2A2 A2ed | "G"B2AG e2dB | "(Em)"d2G2 G2EG |\
+"Am"A2-A2 BAGA | B2A2 A2ed | "G"B2AG "(Em)"e2dB | "Am"e2A2 A2 :|
+"B1"[|] Bd |\
+"Am"e2de g2eg | a2ea "G"g4 | "Am"e2de "G"g2fg | "Em"edBA G2Bd |\
+"Am"e2de g2eg | a2ea "G"g4 | "Em"gefd gedB | "Am"e2A2 A2 |]
+"B2"[|]Bd |\
+"Am"e2de g2eg | a2ea "G"g4 | "Am"e2de "G"g2fg | "Em"edBA GABG |\
+"C"c2Bc "G"d2cd | "Am"e2de "F"a4 | "C"ge"D"fd "Em"gedB | "Am"e2A2 A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Fingal's Cave
+T: Cuilfhionn
+T: Fingal's Weeping
+D: Old Blind Dogs, Fit?
+Z: Nigel Gatherer
+M: C|
+L: 1/8
+K: Ador
+E/G/ |\
+A2 B/A/G/A/ | BA Ae/d/ | BA/G/ ed/B/ | d>G  GE/G/ | A2 B/A/G/A/ | BA Ae/d/ |
+BA/G/ ed/B/ | eA  A :| B/d/ | ed/e/ gf/g/ | ae/a/ ge/a/ | ed/e/ ge/g/ | e/d/B/A/ GB/d/ |
+ed/e/ gf/g/ | ae/a/ ge/a/ | ge/a/ g/e/d/B/ | eA  AB/d/ |[| ed/e/ gf/g/ | ae/a/ ge/a/ |
+ed/e/ ge/g/ | e/d/B/A/ GA/B/ | dc/d/ ed/e/ | gf/g/ ae/a/ | ge/a/ g/e/d/B/ | eA A |]
+
+%%sep 1 1 500
+
+X: 2
+T: Fingal's Cave
+R: March
+S: Morison – Highland Airs and Quicksteps, vol. 1 (c. 1882)
+Z: AK/Fiddler's Companion
+M: 2/4
+L: 1/16
+K: Am
+[|\
+A4 BAGA | B2A2 A2ed | B2AG e2dB | d2G2 G4 | A4 BAGA | B2A2 A2ed |
+BBAG e2dB | e2A2 A4 |]| e2de g2^fg | {a}a2ea g2eg | e2de g2^fg | edBA G4 |
+e2de g2^fg | a2ea g2eg | gefd gedB | e2A2 A4 |[| (e{f}e)de g2^fg | a2ea g2eg |
+e2de g2^fg | edBA GABG | c2Bc d2cd | e2de g2a2 | gefd gedB | e2A2 A4 |]

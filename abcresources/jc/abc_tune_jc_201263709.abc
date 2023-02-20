@@ -1,0 +1,12 @@
+X: 1172
+T: Come Up Stairs With Me   #2
+R: slipjig
+%S: s:2 b:12(4+4+4)
+B: O'Neill's 1850 Music of Ireland #1172
+O: Carey
+Z: Stephen Foy (shf@access.digex.net)
+5: abc 1.6
+M: 9/8
+K: G
+"^A"|: D | G2c BAG Bcd |[1,3 ecA ABG FE :|[2,4 efg faf g2 :| "^B"|: g | fed d2g fed |
+| ecA ABG FED |[1 fed d2g fed | efg faf g2 :|[2 G2c BAG Bcd | efg faf g2 |]

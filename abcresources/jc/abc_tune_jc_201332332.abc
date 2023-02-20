@@ -1,0 +1,22 @@
+X: 1
+T:Rufty Tufty
+M:C|
+C:Trad.
+S:Playford
+N:DM I: 1651
+A:
+O:English
+R:Reel
+%P:(ABC)$^3$
+P:(ABC)3
+K:G
+Q:1/2=124
+P:A
+     d4    d2 e2 | f4    e2 f2 | g2 g2 f3 e  | d8       |\
+     d4    d2 e2 | f4    e2 f2 | g2 g2 f3 e  | d6       ||\
+P:B
+ef | g2 f2 e2 d2 | d2 c2 B3 c  | d2 d2 c2 B2 | A4    G2 \
+ef | g2 f2 e2 d2 | d2 c2 B3 c  | d2 d2 c2 B2 | A4    G4 ||\
+P:C
+|:   B3 c  d2 d2 | e2 c2 d4    | B3 c  d2 d2 | e2 c2 d2 Bc |\
+     d2 d2 c2 B2 | A4    G4   :|

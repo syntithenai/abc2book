@@ -1,0 +1,381 @@
+X: 1
+T:Planxty George Brabazon
+M:2/4
+L:1/16
+C:Turlough O'Carolan
+Z:id:hn-carolan-17
+K:G
+ge | d2G2 cBAG | d2G2 cBAG | e2A2 ABcd | edcB A2Bc |
+d2cB g2fe | edcB cBAG | BAGE DEGA | B2G2 G2 :|
+|: ga | b2gb a2fa | g2eg edcB | e2A2 ABcd | edcB A2ga |
+b2gb a2fa | g2eg edcB | cBAG DEGA | B2G2 G2 :|
+
+X: 2
+T:Blind Mary
+M:2/4
+L:1/8
+C:Turlough O'Carolan (1670-1738)
+Z:id:hn-carolan-8
+K:D
+A | d2 d>c | B>A AF/G/ | A>B AF | E3 F/G/ |
+Af f>e | dB AD/E/ | F>G E>D | D3 ||
+d/e/ | f>g fd | e/d/c/B/ AB/c/ | dD DE/F/ | E3 A/G/ |
+F>G Ad | f>e dD/E/ | F>G E>D | D3 ||
+
+X: 3
+T:Fanny Power
+T:Planxty Fanny Powers
+M:6/8
+L:1/8
+C:Turlough O'Carolan
+S:Maire Ni Chathasaigh
+Z:Nigel Gatherer
+K:G
+D| G2 D G>AB| c2 B A2 G| G>FE D>ED| F2 G A>Bc| B>AG B>cd|
+e2 A A2 G| G>FE DGF | G4:||: B| dB/c/d dB/c/d| GBG GBd|
+ec/d/e ec/d/e| AcA A2c| B>cd e>fg| (3fga g d2c| B>AG A/B/cF| G2 G G2:|]
+
+X: 4
+T:Hewlett
+T:Planxty Hewlett
+M:3/4
+L:1/8
+C:Turlough O'Carolan (1670-1738)
+Z:id:hn-carolan-11
+K:D
+AF | D2D2FG | ABc2A2 | d2f2fg | fed2dB |
+A2F2FA | GFGABG | AFD2DE| D4 :|
+|: A2 | A2D2AB | A2D2AB | A2d2de | dcBAGF |
+G2GFGA | G2GFGA | GFGABG | AFD2E2 |
+FEF2G2 | ABc2A2 | d2f2fg | fed2dB |
+A2F2FA | GFGABG | AFD2DE | D4 :|
+
+X: 5
+T:Morgan Megan
+T:Morgan Magan
+M:2/4
+L:1/16
+C:Turlough O'Carolan (1670-1738)
+Z:id:hn-carolan-7
+K:G
+D2 | D2G2 G2AB | cBAG Bcd2 | e2A2 A2G2 | GFEF D2EF |
+G3A G2A2 | G2FE D2G2 | FGA2 A2EG | F2D2 D2EF |
+GABG A2F2 | G6 B2 | c3B A2Bc | d4 e4 |
+d2B2 cBAG | AGFE D2EF | GABG A2F2 | G6 dc |
+B2d2 d2ef | g2G2 Bcd2 | g2G2 Bcd2 | edcB A3c |
+BABc d2B2 | e2c2 d2B2 | cBA2 d2G2 | F2D2 D2GF |
+E2C2 C2GD | E2C2 C2AE | F2D2 D2DE | FED2 d2Bc |
+d3B edcB | cBAG FGAF | D2G2 BAGF | G6 ||
+
+X: 6
+T:Princess Royal
+M:C|
+L:1/4
+C:Turlough O'Carolan (1670-1738)
+Z:id:hn-carolan-14
+K:Em
+B/A/ | GF EB/A/ | GF EB | cB Ad/c/ | B/c/B/A/ GB |
+A/B/A/G/ F/G/F/E/ | DC B,B/A/ | GF/E/ G/F/E/D/ | E2E :|
+|: B | e>d ef | gG Gg | g/f/e/d/ c/B/A/G/ | F/G/A/F/ DE/F/ |
+GF/G/ AG/A/ | BB e2 | d2 cd/c/ | B2 AB/A/ |
+A/G/G/F/ E/G/F/E/ | DC B,B/A/ | GF/E/ G/F/E/D/ | E2 E :|
+
+X: 7
+T:Sheebeg and Sheemore
+M:3/4
+L:1/8
+K:D Major
+de|f2 fe d2|d3 e d2|B4 A2|F4 A2|BA Bc d2|e4 de|f4 e2|d4 f2|
+B4 e2|A4 d2|F4 E2|D4 f2|B4 e2|A4 dc|d6|d4:|
+de|f2 fe d2|ed ef a2|b4 a2|f4 ed|e2 e2 a2|f3 e d2|d4 B2|A4 BA|
+F4 E2|D4 f2|B4 e2|A4 fa|ba gf ed|e4 dc|d6|d4:|
+
+X: 8
+T:John O'Connor
+M:6/8
+L:1/8
+C:T O'Carolan
+Z:id:dc-ocarolan-7
+K:G Major
+D|G2G FED|E2F G2A|B2G cBA|B2G cBA| Bcd EGE|FGA DFD|GFE DB,D|G3 G2:|
+B|ded def|g3 g3|cdB cdc|e3 e3| dcB c2A|Bcd D2D|EFG AFD|G3 G2:|
+A|BGE EGE|AFD DFD|EGE FAG|F3 D2c| Bcd dBG|cde ecA|GFE AFD|G3 G2:|
+
+X: 9
+T:Planxty Mary O'Neill
+M:6/8
+L:1/8
+C:O'Carolan
+B:O'Neill's 662
+N:"Animated"
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+K:D
+A \
+| dAG F2D | (E/F/G).E F2D | dAG ~F2D | ECE GFE |
+| dAG F2D | (E/F/G).E F2D | GAB =cBA | GE=C E/F/GE ||
+|| f2d (d/e/f)d | afd (e/f/g).e | f2d (d/e/f)d | gec efg |
+| fed edc | d=cB cBA | GAB =cBA | GE=C (E/F/G)E ||
+||  FED {F}d2D | FED {F}d2D | FED {F}d2D | GEC (E/F/G)E |
+| FED d2D | e2A f2D | g2A f2D GE=C (E/F/G)E |]
+
+X: 10
+T:Eleanor Plunkett
+M:3/4
+L:1/4
+C:Turlough O'Carolan
+S:Various recordings
+K:G
+G/A/|B B A/G/|G G a/g/|e e e/d/|B B A/G/| E A A/B/|A2:|]g/a/|b a/g/e/d/|e2 e/f/|
+g g b|a b/a/g/f/|g a/g/f/e/|d B d| e g G|B B A/G/|E A A/B/|A2:|]
+
+X: 11
+T:Carolan's Receipt for Drinking
+M:C|
+L:1/8
+Z:id:dc-ocarolan-2
+K:G Major
+gf|edcB cBAG|E2GA G2gf|edcB cBcd|e2AB A2Bc|
+dBde d2ef|g2fe d2BA|BAGE AGED|E2GA G2|]
+Bc|dBde dBAG|EFGA G2Bc|dBde d2Bd|e2eg e3g|
+G2 (3GAB A2 (3ABc|B2 (3cde d3d|efgf edBd|e2eg e2ga|
+babg agae|gfgd edcB|cBcd efgf|edgB A4|
+BcBA G2eg|dgBA G2GA|BAGE AGED|E2GA G2|]
+
+X: 12
+T:Carolan's Draught
+M:4/4
+L:1/8
+Q:1/2=80
+C:Turlough O'Carolan
+R:Other
+D:Arty McGlynn, "McGlynn's Fancy"
+D:Zan McLeod
+K:G
+D2| "G"GABc "D"defd| "C"g2fe "G"d2d2| "C"e2E2 "G"d2D2| "Am"c2Bc  "D"AB (3cBA|
+"G"GABc "D"defd| "Em"gfed "A"^cbag| "D"gfed "A"A2^c2| "D"d6:|
+|:\
+"D"fg|afga "G"bagf| "Em"(3efg fe "Am"edcB| "C"edef gfga| "G"bagf "C"efga |
+"G"bBbB "D"aBaB| "Em"gBgB "Bm"fBfB| "C"edef gfe^d| e6f2|
+"Em"gfed "Am"cBAG| "C"e2d2 "G"d2D2| "C"c2 (3BcB "Am"A2G2| "D"FGAF D2z2|
+"C"EFGE "D"FGAF| "G"GABG "D"ABcA| "G"d2g2 "D"bagf| "G"g6:|
+
+X: 13
+T:Planxty O'Rourke
+M:6/8
+L:1/8
+C:O'Carolan
+B:O'Neill's 660
+N:"With spirit"
+N:O'Neill has two sharps, but this is clearly a typo.
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+K:G
+D \
+| ">"G(G/A/B/c/) dBG | ccc (c/d/e)c | dBd (e/f/g).e | (f/g/a).f g2d |
+| .g(ab) (ab)g | (fg).e (dc).B | .c(Ad) .B(Gd) | eee f2d/d/ |
+| g>gg g(Bd) | gfg afd | eee (e/f/g).e | dBG G2D |
+| (DG).G Gz D | ">"G(G/A/B/c/) dBG | (EA).A Az E | ">"A(A/B/c/d/) ecA |
+| ddd dec | B>BB BB>A | G>GG G2A | (GFE) DDD |
+| (DEF) .G(B,D) | GFG (AFD) | d2c (B/c/d).G | (F/G/A)D G2 |]
+
+X: 14
+T:Squire Wood's Lamentation on the Refusal of his Halfpence
+M:C|
+L:1/8
+C:T. O'Carolan
+R:Reel
+K:G
+GA|B4 B3 g| d2 Bd B2 AG| B4 B3g| e2 de B>g|
+e2 dB d2 dA| B2 GF A2 GE| G3A BG dB| "tr"A4 G3||
+d| ef ga gG g2| ga b/a/g e3 d| B2 d2 efgf| "tr"e4 d3 d|
+efga gG g2| ga b/a/g e3 d| BA B2 dB d2| ed e2 a4|
+ge g2 ed e2| dB d2 BG B2| =c3 e d>gdB| A4 G2||
+
+X: 15
+T:Planxty Maggie Browne
+T:Maggie Browne's Favorite
+M:6/8
+L:1/8
+C:O'Carolan
+R:dbl jig
+Z:Richard Darcie
+K:G
+g|dBG Bcd| E2 E E2 c| AFD DEF| G2 G G2 g| dBG Bcd| EDE cBc| ABc def| g3 g2:||
+a| bgb afd| efg gfe| dBg dBG| AFD D2 a| bgb afd| efg gfe| faf ge^c| d3 de=f|
+ece dBd| cac BgB| Ace dBG|FAF DEF| GAB EFG| ABc def| gdB cAF| G3 G||
+
+X: 16
+T:Mrs. Judge
+M:C
+L:1/8
+C:O'Carolan
+R:Moderato
+B:Complete Works Of Turlough O'Carolan (PB - no pub - no date - fleamarket
+Z:to Noteworthy and MIDI by Chris Gilb; Translation to ABC and GIF copy
+Z:by Vince Brennan
+K:G
+{F}F3/2E/2|B,2E2E2G2|F3/2G/2FE D2B2|B/2A3/2G/2F3/2 A/2G3/2F/2E3/2|
+TD4{^CD}B,2B,2| E2F2G2A2|B3/2c/2BA G2e2|e3/2f/2 g2B2g2| Tf4e2e2
+| {f}ed B2B2e2|d3/2e/2dB G2B2|A3/2G/2F3/2G/2 A2G2|{G}F4E2D2|
+B2G2c2A2|d2B2e2B2|c/2B3/2A/2G3/2 B/2A3/2G/2F3/2| TE4E2:|
+|:GA|B2B2c2B2|BAGF G2d2|e3/2f/2 g2B2g2|e3/2f/2 g2B2g2|
+fg a2B2a2|gfge bgbe|dBde BAB^c| TB4{AB}B2g2|
+gfef g2f2|e3f e2d3/2c/2|B2cB A2G2|G2F2 TE2D2|
+E3/2F/2G3/2A/2 B2e2|D3/2E/2F3/2G/2 A2d2|B/2A3/2B/2G3/2 B/2A3/2G/2F3/2| TE4{DE}E2:|/
+"Jig"[M:6/8] 
+|EGB EGB|GA/2G/2F/2E/2 FB,B,|DdF EeB|GA/2G/2F/2G/2 E2z:|
+|:Bdg Bdg|g/2f/2e/2d/2e/2f/2 gdB|cc/2B/2A/2G/2 AdD|BeE e2d|
+e/2d/2B/2d/2e d/2B/2A/2B/2d|B/2A/2G/2A/2B/2G/2 AFD|E/2F/2GE F/2G/2AF|G/2 A/2BB, E2z:|]
+
+X: 17
+T:Squire Parsons
+M:C|
+L:1/8
+C:O'Carolan (1670-1738)
+R:Air/Slow-Reel
+K:G
+G4 D2 GA|BABc B2G2|d2d2d2 ef|geag f2d2|b4 a2 gf|
+gefg a^cde|fgfg fagf|"tr"e3d d4||a4 f4|egfe ^d2B2|bfga bagf|
+f4 e2 Bc|d2d2d2 cB|c2c2c2 BA|BAGA BcdB|A3G G4||
+
+X: 18
+T:Conor O'Reilly
+M:6/8
+L:1/8
+C:O'Carolan (1670-1738)
+R:Dbl. Jig
+K:G
+d| eAA ABd|ef/2e/2d dBg|dBB/2A/2 GAB|BAA A2:||
+d|ga/2g/2f ged|ef/2e/2d dBg|ga/2g/2f ged|eaa a2 b|\
+ga/2b/2a ged|ef/2e/2d BAf/2a/2| gee dBA| BAA A2||
+
+X: 19
+T:Planxty Browne
+M:6/8
+L:1/8
+Q:1/4=110
+C:Turlough O'Carolan
+R:Dbl. Jig
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 editio
+N:(Not listed in O'Sullivan's Collection ):
+N:http://www.sosyourmom.com/occ/tunes.html
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY
+Z:VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+K:G
+g|dBG GAB|E2E E2c|AFD DEF|G2G G2g| dBG Bcd|E2E E2c|AFD DEF|G3G2||
+(g/2a/2)|bgb afd|efg gfe|dBg dBG|AFD D2(g/2a/2)| bgb afd|efg gfe|faf ge^c|d2d de=f|
+ece dBd|cac BgB|Ace dBG|FAF DEF| GAB EFG|ABc def|gdB cAF|G3G2|]
+
+X: 20
+T:Father Brian MacDermott Roe
+M:3/4
+L:1/8
+C:Carolan
+R:waltz
+K:GMaj
+g3/2e/2|d2cB AG|AG E2G/2E/2D|E2G2G2|G4Bc| d2cB AG|G4fg|a2gf ed|efg2||
+|gf|ed Bd ef|g2g2fg|a2gf ed|efg2ge| d2cB AG|AG E2G/2E/2D|E2G2G2|G4|]
+
+X: 21
+T:Henry MacDermott Roe (1st Air)
+M:6/8
+L:1/8
+C:Carolan
+S:Complete Works of O'Carolan
+R:Dbl-Jig
+Z:Ed Wosika
+K:G
+D|GG/2A/2B/2A/2 GED|G/1F/2G/2A/2B/2c/2 dBG|
+c/2e/2d/2c/2B/2A/2 B/2d/2c/2B/2A/2G/2|AA/4B/4c/2B/2A/2  BGE||
+|GG/2A/2B/2A/2 GED|G/1F/2G/2A/2B/2c/2 dBG|c/2e/2d/2c/2B/2A/2 B/2d/2g/2B/2A/2c/2|BGG G2||
+d/2e/2f/2 | gg/2a/2g/2f/2 edB | ee/2f/2g/2a/2 bge | gg/2a/2g/2f/2 edB | 
+ee/2g/2f/2a/2 g2 (3def)| gg/2a/2g/2f/2 edB | e/2d/2e/2f/2g/2f/2 e/2d/2c/2
+B/2A/2G/2 | c/2e/2d/2c/2B/2A/2 B/2d/2g/2B/2A/2c/2| BGG G2|]
+
+X: 22
+T:Gan Ainm
+M:6/8
+L:1/8
+C:Thurlough O'Carolan
+S:Comlete Works of . . . (#179)
+R:Slow Double Jig
+Z:Ed Wosika
+K:D
+(D3E/2F/2G/2) A2 B | ABd .FE/2D |EFA B2 d/2e/2 | fg/2f/2e/2d/2 B2 A | 
+(D3E/2F/2G/2) A2 B | ABd .FE/2D | GA/2G/2F/2E/2 FG/2F/2E/2D/2 | 
+EE/2F/2G/2A/2 B2 c | d/2f/2e/2d/2c/2e/2 d2 c/2B/2 | B/2A/2G/2A/2B/2c/2 A2 B/2c/2 | dFd FdF | {F}EDD D2 z|| 
+dDd de/2d/2c/2B/2 | .AB/2d FED | eEe/2f/2 e2 d/2e/2 | fg/2f/2e/2d/2 B2 (3ABc) | 
+dAd d/2c/2d/2e/2f/2e/2 | d/2e/2d/2B/2A/2G/2 .FE/2D | G/2A/2BG F/2G/2AF | E/2F/2GE .FE/2D|
+FAA .AF/2D | GBB .Bc/2d | AF/2A/2F GE/2G/2E | {G}FDD D2 z ||
+
+X: 23
+T:Carolan's Cup
+M:6/8
+L:1/8
+C:Thurlough O'Carolan
+S:O'Farrell - Pocket Companion, vol. IV (c. 1810)
+R:Air/Slow-Jig
+N:"Slow"
+Z:AK/Fiddler's Companion
+K:D
+d/e/ | f>gf/e/ dfa | "tr"e2 d/B/ A2 f/e/ | dcB A<FA | Bba bfe | f>(gf/e/) dfa |
+eg/f/e/d/ c2e | dcB AFA | B3 B2 :: c | d>ed/c/ d2f | a>ba/f/ a2f | e>fe/d/ efa |
+b4 fa | ba(f/e/) dfa | "tr"e2 d/B/ A2f/e/ | dcB AFA | B3B :|
+
+X: 24
+T:Carolan's Quarrel with the Landlady
+M:6/8
+L:1/8
+Q:1/4=80
+C:Carolan
+R:Air/Slow Jig
+K:G
+B/2A/2| G3/2A/2B g2g/2a/2| b/2a/2g/2f/2e/2d/2 g2g/2f/2| e3/2f/2e/2d/2 efg/2f/2| e/2d/2c/2B/2A/2G/2 A2B/2A/2|
+G3/2A/2B g2g/2a/2| b/2a/2g/2f/2e/2d/2 g2g/2f/2| ef/2e/2d/2B/2 de/2d/2B/2A/2| B3 g2 g/2f/2|
+ef/2e/2d/2B/2 de/2d/2B/2A/2| Bee e2|| g/2a/2|bgb b/2a/2g/2f/2e/2d/2|dfg a2a/4b/4c'/2|
+b/2a/2g/2f/2e/2d/2 efg/2f/2|e/2d/2c/2B/2A/2G/2 A3/2c/2B/2A/2| G3/2A/2B g2g/2a/2|b/2a/2g/2f/2e/2d/2 g2f|
+ef/2e/2d/2B/2 de/2d/2B/2A/2|B3g2f|ef/2e/2d/2B/2 de/2d/2B/2A/2|Bee e2|]
+
+X: 25
+T:Ode to Whiskey
+M:6/8
+L:1/8
+C:Thurlough O'Carolan
+S:The Comlete Works . . . (#197)
+R:Dbl. Jig
+Z:id:dc-ocarolan-11
+K:D Major
+d|dcB ABG|F2D DEF|GAB Bcd|cec A2d| dcB ABG|F2D DFA|Bed cBc|d3 d2:|
+e|f2d g2e|f2d Bcd|efd cdB|A2F F2e| f2d g2e|a2f dcd|Bed cBc|d3 d2:|
+
+X: 26
+T:O'Rourkes' Feast, The
+M:6/8
+L:1/8
+C:Thurlough O'Carolan
+S:Complete works of . . . (#199)
+R:Dbl. Jig
+Z:Ed Wosika
+K:G
+D|GG/A/B/c/ dBG| ccB c/d/ec| dBd e/f/ge|f/g/af g2d|
+gab abg|.fg/2e dcB| cAd BGd|eee f2d/d/| g>gg gBd| ~gfg afd|
+eee e/f/ge| dBG G2|| F/4D/4| DGG GDD| GG/A/B/c/ dBG/2F/2| EAA AEE|
+AA/B/c/d/ ecA| .dc/2d dec| B>BB BB>A| G>GG GAG| G/2A/2F/2G/2E/2F/2 D2D|
+DEF GB,D| (3G/4A/2G/2)FG AFD| d2c B/c/dG| F/G/AD G2||
+
+X: 27
+T:O'Carolan's Farewell to Music
+M:C
+L:1/8
+C:O'Carolan
+R:Air/Slow-Reel
+B:O'Neill's 700
+N:"With feeling."
+D:
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+K:Am
+(AB) | c2(BA G2)(AB) | c2(BA G2)(cd) | e2(de) c2(BA) | (A4G2) (de) |
+ | f2(fg) e2(ef) | (d^cde) (a3^g) | (a=g)(ed) (cA)(B^G) | A4 A2 :|
+|| e2 | (gede) (g2ga) | (gede) g2e2 | (a^gab) (a=geg) | b4 (ab)(ag) |
+  | ^f2(fg) e2(e=f) | (d^cde) (a3^g) | (a=g)(ed) (cA)(B^G) | A4 A2 |]
+
+% Output from ABC2Win  Version 2.1 i on 6/28/2009

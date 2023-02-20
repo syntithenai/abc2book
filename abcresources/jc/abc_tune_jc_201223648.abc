@@ -1,0 +1,14 @@
+X:74
+%%notespacingfactor 1
+T:Kenderbeck's Hornpipe
+M:2/4
+Q:1/4=100
+L:1/16
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+ag|(fa)gf (eg)fe|d2d2 d2ed|(ce)dc (Bd)cB|A2A2 A2BA|(GB)AG (FA)GF|EFGA Bcde|(fa)gf (eg)fe|d2d2d2::
+AG|FAdA fdAF|EAcA ecAG|FAdf a2(ba)|gfed cBAG|FAdA fdAF|EAcA ecAG|FAdf (ag)ec|d2d2d2:|

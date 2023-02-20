@@ -1,0 +1,28 @@
+X: 1
+T: the Jacks farewel
+P: Longways for as many as will
+N: The title doesn't have an apostrophe, though many indexes show one.
+%R:
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.164
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The time signature is actually "3i".
+N: Repeats added to satisfy "... Strain played twice" instructions.
+M: 3/4
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: fe d2 d2 | f2 A2 G2 | F2 A2 d2 |^c4 e2 | fe d2 d2 | f2 A2 A2 | df e2 ^c2 | d6 :|
+|: AB c2 c2 | A2 F2 F2 | f2 gf e2 | f4 a2 | ba g2 f2 | e2 a2 e2 | fe d2 ^c2 | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. meet and set to the 2. cu. and turn S. This to the first Strain played once.
+%% Then meet and set to their own Partners and turn; This to the first Strain played twice.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then all four hands half round and cross over with your own Partners; This to the second Strain played once.
+%% The 1. cu. go the Figure through the 2. cu. and turn their own Partners; This to the second Strain played twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

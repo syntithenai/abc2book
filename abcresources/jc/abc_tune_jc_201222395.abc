@@ -1,0 +1,34 @@
+X: 5
+T: the JUBILEE
+B: Button & Whitaker "Twelve Elegant New Dances for the year 1810" #5
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Elegant_New_Dances_for_1810_%28Various%29
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+A |\
+{de}[f2d2][ec] [dB][cA][BG] | [A2F2][FD] [G2E2][BG] |\
+[A2F2][FD] [G2E2][BG] | [A2F2]F D2A |\
+{de}[f2d2][ec] [dB][cA][BG] | [A2F2][FD] [G2E2][BG] |\
+A2[fA] [eG][dF][eG] | [dF]af d3 :|
+|:\
+f2g afd | f2g afd | c2d ecA | c2d ecA |\
+f2g afd | f2g afd | cde ABc | dfa d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z |\
+D2d D2d | D2d D2d | D2d D2d | D2d D2d | D2d D2d |
+D2d D2d | D2d A2a | D2d D3 :||: D2d D2d | D2d D2d | A2a A2a |
+A2a A2a | D2d D2d | D2d D2d | A2a A2a | d3- d3 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Hands 4 & back again,
+%% lead down the middle 4 Cu: up again,
+%% & turn short round.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

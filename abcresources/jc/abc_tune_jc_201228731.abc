@@ -1,0 +1,39 @@
+X: 11541
+T: ROMANZA
+C: D. Steibelt, Op. 41.
+Q: "Andante."
+N: This is version 2, for ABC software that understands crescendo/diminuendo symbols.
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.154 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The last bar has 3 beats.
+N: '<' and '>' used for crescendo and diminuendo, which are generally 2 or 3 notes long.
+M: 2/4
+L: 1/8
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+(c2 e2) | {d}g3 f | e2 (3(dfd) | (c2 B2) |\
+c2 e2 | d3 B | G<BA<d | G4 |\
+(c2 e2) | {d}Qg3 fq | e2 (3(dfd) | (c2 B2) |\
+c2 a2 | g3 f | (e<c)G<B | c4 |
+d2 g2 | {a}b3a | (3(ag^f) (3(eBe) | d2 c2 |\
+c2 B>^G | ((3{B}A^GA p(3Bcd)P | Q(3(^deBq (3cEA) | G2 ^Fz |\
+(pA2 BcP) | {cd}Qe(dqcB) | (A2 Bc) | {cd}e(dcB) |\
+e2 ^f2 | ((3{B}gdB (3ecA) | G2 B>A | ((3Gba (3gQ^fe) |
+((3dqcB (3AG^F) !f!| (3(=FFF) (3(FFF) | (3(EEE) (3(GGG) !p!| D3D |\
+D2{ED^CD}E^F | (pG2 B2P) | (pA2 c2P) | B3 d |\
+pc2 e2P | {d}g3 f | (3(eag) (3(fed) | (c2 B2) |\
+c2 e2 | d3 c//B//A//G// | G2 B>A | G4 |
+(c2 e2) | {d}g3 f | (3(efg) (3(afd) | (c2 B2) |\
+(pcc'PQbaq) | g3 f | (e<c)(G<B) | (3(ccc) (3(ccc) |\
+(3(ccc) (3(ccc) | (3(cp^GA (3EFPA) | C2 (3(B,ED) !p!| C2 (3(Gce) |\
+g2 f2 | e2 z2 | !f!z2 B2 | c2 z2 [c'2c2C2] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

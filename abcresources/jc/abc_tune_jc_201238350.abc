@@ -1,0 +1,31 @@
+X: 3062
+T: the Bonny Highland Laddie (or Cairney Mount)
+O: Old
+%R: march, reel
+B: Niel Gow & Sons "Complete Repository" v.3 p.6 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: The notation for alternate endings in the 2nd part is a bit odd,
+N: with a double bar after the pickup but no |: start-repeat sign,
+N: plus a duplicate of the pickup notes in the first ending. This
+N: is a guess at what the modern notation might look like, though
+N: there may be better ways to notate it.
+M: C
+L: 1/8
+Q: "Slowish"
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+d>B |\
+.A2 (D2 F2 A2) | (BA) (GF) E2 d>B | .A2 (D2 F2 A2) | TB>cdA F2 "^sf"[A2E2] |\
+D2 d2 Td3 (e/f/) | e2 E2 T[E3C3] D | F2 A2 (BcdB) | A2 (D2 F2) :|
+!mf![A2E2] |:\
+[d3F3] e (de)(fd) | (gf) (ed) e2 Tf>e | d2 A2 F2 A2 | TB>c dA "^sf"F2 A2 |\
+D2 d2 ~d3 e/f/ | e2 E2 [E3C3] D | (F2 .A2) (Bcd).B |1 A2 D2 "^sf"F2 [A2E2] :|2 (A2 D2) HF2 |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+d4 D2 F2 | (GA) (B^G) A2 Bc | d6 f2 | ga bc' d'2 "^sf" c'2 |\
+b2 ag f2 d2 | ef g^g a2 A2 | d2 F2 (GA)(Bc) | d4 D2 :|
+"^sf"c2 |:\
+B2 AG F2 D2 | (EF) (G^G) A2 Bc | d4- d2 f2 | ga bc' "^sf"d'2 c'2 |\
+b2 ag f2 d2 | ef g^g a2 A2 | d2 F2 (GA) (Bc) | d4 "^sf"d2 c2 :|2 d4 HD2 |]

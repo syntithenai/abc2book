@@ -1,0 +1,26 @@
+X: 318
+T: Kandel's hora
+R: horra
+M: 3/8
+L: 1/16
+%Q: 3/8=60
+%P: Play ABCB
+K: EPhr^G
+%%MIDI gchord fzczcz
+"A"\
+|: "E"E3G BA | TG3F "Dm"ED | "E"E4 E2 | E6 \
+| "Dm"F2E2D2 | "A7"^C3D EF | "Dm"D6- | D6 |
+| "E"E3G BA | TG3F "Dm"ED | "E"E4 E2 | {E}B6 \
+| "E"TB3A GF | TG3F "Dm"ED | "E"E6- | E4 E2 :|
+"B"\
+|: "Am"A2A2A2 | A4 G2 | "E"TB3A GF | E4 E2 \
+| "Dm"A2G2F2 | "E"E3F GA | G6- | G4 E2 |
+| "Am"A2A2A2 | A3B c^c | "Dm"d3=c BA | "E"G4 G2 \
+| "Dm"A2D2 EF | G2A2 GF | "E"E6- | E4 "^fine"E2 :|
+|| "Am"A6- | A4 Bc | A6- | A4 Bc \
+| A4 Bc | A4 Bc | A6- | A4 E2 ||
+"C"\
+|: "Am"A2B2c2 | c4 c2 | c6- | c4 c2 \
+| "Am"Tc3B/c/ BA | Tc3B/c/ BA | "Dm"d3c BA | "E"B4 A2 |
+| "E"G2A2B2 | B3e Be | B6- | B4 E2 \
+| "Am"c3B BA | "E"G3A Bc | "Am"A6- | A4 "_to B"E2 :|

@@ -1,0 +1,20 @@
+X: 656
+T: Sergt. Early's Dream
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #656
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0656/oneill-1001-0656-1.abc
+%m: Tn2 = (3n/o/n/ m/n/
+%%slurgraces 1
+%%graceslurs 1
+M: C|
+L: 1/8
+K: Ador
+"^A"[|] (gf) \
+|  eAAB {d}cBce | dBGA BcdB | AEAB cBcd | eaab c'bag ||
+|| eAAB cege | dBGA BcdB | AEA^f gbge | dcBe A2 |]
+"^B"\
+[| cd | ea{b}a^g a2(a=g) | eaab c'bag | eg{a}g^f Tg2ga | bc'ba gfed ||
+|| ea{b}a^g agag | eaab c'ba^g | gba^f gedB | cABe A2 |]
+%%text Also in A  major in O'Neill's "1850" (Music of Ireland)

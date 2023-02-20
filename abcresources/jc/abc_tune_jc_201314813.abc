@@ -1,0 +1,16 @@
+X: 750
+T: the Mullingar Races
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #750
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0750/oneill-1001-0750-1.abc
+M: C|
+L: 1/8
+K: D
+"^A"[|] A,2 \
+|  D2(FD) EA,A,E | DEFA Bcde | (3(fga) ec dcdA | (3(Bcd) AF EGFE ||
+|| DEFD EA,A,E | DEFG Bcde | (3(fga) ec dBAG | FGEF D2 |]
+"^B"[| (3(ABc) \
+|  d2(fd) adfb | afdf edBc | d2(fd) adfd | Beed egfe ||
+|| d2(fd) adfb | afdf edBc | dgfe dBAG | FGEF D2 |]

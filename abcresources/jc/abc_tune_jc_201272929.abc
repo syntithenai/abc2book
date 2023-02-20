@@ -1,0 +1,93 @@
+X:1							% Reference Number
+T:Emmanuel
+T: for Tenor
+C:
+Z: Contributed 2008-10-12 21:06:44 by ming tsang tsang94@rogers.com
+K:
+%  N: 				% Notcs
+%  S:Music Source:  		% Source
+Q:1/4=120					% Tempo
+M:4/4						% Meter
+L:1/4						% Default note length
+%%measurebox 1
+%%measurenb  0
+&&vocalspace 10
+%%staffsep   45
+%%staves  tt
+V:ss clef=treble
+V:aa clef=treble
+V:tt Clef=base
+V:bb clef=base
+K:Eb					%Key
+% ABC tune notation
+%%MIDI PROGRAM 1 0 % Piano 1
+%%MIDI PROGRAM 2 0 % Piano 1
+%%MIDI PROGRAM 3 0 % Piano 1
+%%MIDI PROGRAM 4 0 % Piano 1
+%
+[V:ss]
+[V:aa]
+[V:tt]
+[V:bb]
+% 1
+[V:tt] z4 | z4 | z4 | z4 |
+% 5
+[V:tt] z4 | z4 | z4 | z4 |
+% 9
+[V:tt] z B,, E, F, | G,4 | z B,,/E,/ E,>B,, | C,4 |
+w: 5 1 2 3   5 1 1 5 6
+% 13
+[V:tt] z C, F, G, | A,4 | z C,/E,/ E,>C, | D,4 |
+w: 6 2 3 4   6 1 1 6 7
+% 17
+[V:tt] z D, F, B,/(B,/ | B,2) z/ G,/A,/B,/ | _D C/C/-C/B,/-B, | B, A,/A,/-,A,/G,/-G,/F,/ |
+w: 7 2 5 5 *  3 4 5 7  6 6 * 5 *  5 4 4 * 3  * 2
+% 21
+[V:tt] A,2 z/ B,/B,/A,/ | G,2 z/ G,/A,/G,/ | F, z/ G,/ A, D, | E,4 |
+w: 4    5 5 4 3    3 4 3 2  3 4 7 1
+% 25
+[V:tt] z4 | z G, G, A, | B,3- B,/ z/ | (A,3 B, |
+w: 3 3 4 5 *  4  5
+% 29
+[V:tt] C4) | z A, A, B, | C3- C/ z/ | z B, B, C |
+w: 6   4 4 5 6 *   5 5 6
+% 33
+[V:tt] D2 D D/D/- | D2 z/D/C/D/ | F F/=E/- E/E/-E | C C/C/- C/C/-C/C/ |
+w: 7   7 7 7 * 7 6 7 2 2 1 * 1 * 6 6 6 * 6 * 6
+% 37
+[V:tt] z2 z/ B,/B,/A,/ | G,2 z/ B,/C/B,/ | A, z/ B,/ C A, | G,4 |
+w: 5 5 4 3   5 6 5 4  5 6 4 3
+% 41
+[V:tt] z4 | z4 | z4 |
+w:
+% 44
+[V:tt] z4 | z B,, E, F, | G,4 | z B,,/E,/ E,>B,, |
+w: 5 1 2 3    5 1 1 5
+% 48
+[V:tt] C,4 | z C, F, G, |A,4 | z C,/E,/ E,>C, |
+w: 6    6 2 3 4    6 1 1 6
+% 52
+[V:tt] D,4 | z D D D/D/- | D2 z/ D/C/D/ | F F/=E/- E/E/- E |
+w: 7   7 7 7 7 *   7 6 7  2 2 1 * 1 *
+% 56
+[V:tt] C C/C/- C/C/-C/C/ | _C2 z/ B,/B,/A,/ | G,2 z/ B,/C/B,/ | A, z/ B,/ C A, |
+w: 5 5 4 3   5 6 5 4  5 6 4
+% 60
+[V:tt] G,4 | z4 | z G, G, A, | B,3- B,/ z/ |
+w: 3     3 3 4 5 *
+% 64
+[V:tt] (A,2 A, B, | C4) | z A, A, B, | C3- C/ z/ |
+w: 4 4 5 6     4 4 5 6 *
+% 68
+[V:tt] z B, B, C | D2 D D/D/- | D2 z/D/C/D/ | F F/=E/- E/E/- E |
+w: 5 5 6 7   7 7 7 *   7 6 7 2 2 1 * 1 *
+% 72
+[V:tt] C C/C/- C/C/-C/C/ | _C2  z/ B,/B,/A,/ | G,2 z/ B,/C/B,/ | A, z/ B,/ C A, |
+w:  6 6 6 * 6 * 6 6   5 5 4 3    5 6 5 4  5 6 4
+% 76
+[V:tt] G,2 z/ B,/B,/A,/ | G,2 z/ B,/C/B,/ | A, z/B,/ C A, | G,2 z/ B,/B,/A,/ |
+w: 3   5 5 4 3   5 6 5 4  5 6 4 3   5 5 4
+% 80
+[V:tt] G,2 z/ B,/C/B,/ | A, z/ B,/ C A, | E,4- | E,4 ||
+w: 3    5 6 5 4   5 6 4 1
+% THE END

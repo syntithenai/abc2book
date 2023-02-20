@@ -1,0 +1,43 @@
+X:791
+T:Waltzing on Ice
+C:Colin Hume, 2008
+L:1/4
+M:3/4
+%%MIDI beat 110 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=112
+%%MIDI chordname dim 0 3 6 9
+K:Dm
+V:1
+%%MIDI program 4
+%%MIDI beat 100 95 80
+P:A
+[| !f!z[FAe][FAd] | z[DGc][DGB] | z[=B,DA][B,DG] | [^CE][DF][EG] |\
+z[DF][^CE] | z[EG][DF] | [C-E-A][CEG][CEA] | [^D^F=B]2B |
+V:2 bass octave=-2
+%%MIDI program 4
+%%MIDI beat 100 95 80
+%%MIDI gchordoff
+[| "Dm"[Dd]2z | "Gm7"[Gg]2z | "Gm/E"[Ee]2z | "A7"[Aa]2z |\
+"Dm"[Dd]2z | "A"[^C^c]2z | "Am"[=C=c]2C | "B7"=B,^F=B |
+V:1
+P:B
+!arpeggio![G=Bg]3/^f/ [Ge]/=B/ | [A-d][Ac]2 | !arpeggio![DAd]3/c/ [^F=B]/A/ | [G-c][G=B]2 |\
+!arpeggio![DG_B]3/A/ G/D/ | [CF] _ED/C/ | [G,B,]/D/ G/B/ [CA]/^F/ | [B,DG]2G |
+V:2
+"Em"e=be' | "Am"[ae']2g | "D"^fed | "G"[gd']2d |\
+"Gm"Gd[gb] | "Cm"[cg]2 B/c/ | "Gm"dD "D7"d | "Gm"gGz |
+P:C
+V:1
+[G=B]/[Ac]/[Bd][df] | [G-f][G_e]2 | [FA]/[GB]/[Ac][c_e] | [F-_e][Fd]2 |\
+[DF]/[EG]/[FA][FAd] | [A^c]/[=Bd]/[ce][eg] | [df]/[eg]/[fa][fd'] | [e^c']2^c |
+V:2
+"G"[gd']2=b | "Cm"c'2b | "F/A"agf | "Bb"b2[Bb] |\
+"Dm/A"[Aa]2[Aa] | "A"[Aa]2[Aa] | "Dm/A"[Aa]2[Aa] | "A"Aea |
+P:D
+V:1
+!arpeggio![_EGc]3/B/ A/G/ | [D-B][DG]2 | !arpeggio![^CEA]3/B/ A/G/ | [DF]3/G/ F/E/ |\
+[_A,D]3/E/ F/G/ | [DFA][FAd]D | [G,A,^CF]2E | [A,D]2z |]
+V:2
+"Cm"c'c_e | "Gm/E"e2b | "A7"aA^c | "Dm"[da]DA |\
+"Bb7"[Bf]2[Bf] | "Dm/A"A2A | "A7"A2A | "Dm"dAD & f3 |]

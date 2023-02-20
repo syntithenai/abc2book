@@ -1,0 +1,20 @@
+X:489
+T:Moonfleet
+C:Colin Hume, 1995
+L:1/4
+M:3/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%MIDI program 68     Oboe
+%%MIDI chordprog 45   Pizzicato Strings
+%%MIDI bassprog 32    Acoustic Bass
+%%MIDI gchord fcHcfc
+%%MIDI beat 100 95 80
+Q:1/2=96
+K:C
+P:A
+|: "C"GE "/"DC "/"DE | "Em"G2 "F"A2 "G"G2 | "Am"c2 "/"BA "Em/G"B2 | "F"A2- "/"A2 "C/E"G2 |\
+"Dm"F2 "/"ED "G7"GE | "Am"DE "/"D2 "/"C2 | "Dm"AB "/"A2- "/"AF | "G"G2- "/"G2- "/"G2 :|
+K:F
+P:B
+|: "Bb"B2 "/"d2 "/"cB | "F/A"c2 "/"f2- "/"fc | "Gm"B2 "/"gf "/"ed | "C"e2- "/"e2 "/"de |\
+"Bb;Dm"f2 "/"ed "Am;Am"c2 | "Gm;Bb"d2 ";C7"cB "F;A7/C#"A2 | "Bb;Dm"(3FGA ";Gm"B2 "C7;C7"E2 | "F"F2- "/"F2- "/"F2 :|

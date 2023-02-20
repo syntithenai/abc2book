@@ -1,0 +1,8 @@
+X:1
+T:TEST: full-line endings
+%%staffwidth 200
+K: C
+|::: C D E F |
+[1   G A B c :|
+[2,3 G B d c :|
+["Coda" G B c2 |]

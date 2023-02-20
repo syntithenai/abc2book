@@ -1,0 +1,24 @@
+X: 21312
+T: BEAUTIFUL DANUBE -- Waltz 4
+C: Strauss
+R: waltz
+B: K\"ohler's Violin Repository, v.2, 1885 p.131 #2
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+U: P=!crescendo(!
+U: p=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: 3/4
+L: 1/8
+K: F
+|: !p!z2uC2 |\
+(CFAcf2-) | f2e2d2 | (P[^c2A2][d2B2]p[e=c])z | Q[e6c6]q |\
+(P[^c2A2][d2B2]p[e=c])z | [e6c6] | ([=B2^G2][c2A2][d2_B2]) | [c6A6] |
+(CFAca2-) | a2g2f2 | (P[e2^c2][f2d2]p[ge])z | [g6e6]] |\
+[1 !p!.f2.A2.d2 | .c2.G2.A2 | F6- | F2 :|[2 Pf2e2d2 | Td6p | !f!^c2z2z2 | z2 |]
+|: !f!{d'}(u=c'3=b) |\
+c'6- | c'2{d'}(c'3=b) | c'6- | c'2!p!(f'2a2) |\
+(b3d'e2) | zv.g.g2a2 | (b3d'2e) | z2(guab=b) |
+c'6- | c'2{d'}(c'3=b) | c'6- | c'2(f'2c'2) |\
+=b3f'f'2- | f'ue'e'2d'2 | !/!d'2d'2c'2 | f2 !segno!"_D.C.":| z2z2 H|]

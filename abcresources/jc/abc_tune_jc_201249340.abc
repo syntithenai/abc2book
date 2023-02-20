@@ -1,0 +1,31 @@
+
+X: 1
+T: Babylon
+T: Al naharot Bavel
+O: Psalm 137:6
+M: 4/4
+L: 1/8
+K: Am
+"1"[| "Am"(A2 GF E2 F2) | "G"G2 (FE) (D2 E2) | "Dm"(F2 ED) C2 D2 | "E7"E2 E2 "Am"A,4 |]
+w: Al____ na-ha-*rot_ al__ na-ha-rot Ba-vel
+w: By___ the wa-__ters the wa-__ters of Ba-by-lon
+"2"[| c3-c- c2 c2 | c2 B4 _B2 | _B2 A4 A2 | A2 ^G2 A4 |]
+w: sham__ ya-shav-nu ya-shav-nu gam ba-chi-nu.
+w: we sat down and wept_ and wept_ for thee, Zi-on.
+"3"[| E3 F G2 A2 | D3 E F2 G2 | C3 D E2 F2 | E2 E2 A,4 |]
+w: Be za-chre-nu be za-chre-nu be za-chre-nu 'et Tsi-on.
+w: We re-mem-ber, we re-mem-ber, we re-mem-ber thee Zi-on.
+
+
+%%sep 1 1 500
+
+X: 2
+T: Babylon
+T: Al naharot Bavel
+O: Psalm 137:6
+M: 4/4
+L: 1/8
+K: Bm
+"1"[| "Bm"B2 AG F2 G2 | "A"A2 GF E2 F2 | "Em"G2 FE D2 E2 | "F#7"F2 F2 "Bm"B,4 |]
+"2"[| d3-d- d2 d2 | d2 c4 =c2 | =c2 B4 B2 | B2 ^A2 B4 |]
+"3"[| F3 G A2 B2 | E3 F G2 A2 | D3 E F2 G2 | F2 F2 B,4 |]

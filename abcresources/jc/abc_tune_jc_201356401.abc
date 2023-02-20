@@ -1,0 +1,117 @@
+X:1234
+T:Praeambulum
+T:(Prelude) BWV 930
+C:Johann Sebastian Bach
+O:Germany
+B:From "Klavierb\"uchlein f\"ur Wilhelm Friedemann Bach".
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0930/bwv930.abc
+V:1 Program 1 6 up %Harpsichord
+V:2 Program 1 6 merge down %Harpsichord
+V:3 Program 1 6 bass up %Harpsichord
+V:4 Program 1 6 bass merge down %Harpsichord
+M:3/4
+L:1/8
+K:Gm
+V:1
+zDGBGD|x4x2|x4x2|x4x2|GBGEeG|
+w:1 2 4** 1 4 2 1 5 2
+V:2
+x4x2|d2z2z2|zdBGgB|Agf=ef_A|x4x2|
+w:5 4 2 1 5 2 1 5 4 3 5 2
+V:3
+x4x2|zG,,B,,D,B,,G,,|x2G,,B,,D,G,|x4x2|x2E,,G,,B,,E,|
+w:5 3 2** 5 3 2 1 5 3 2 1
+V:4
+z6|x4x2|PG,2x4|D,2D2D,2|E,2x4|
+w:* 5
+%
+V:1
+FedcdF|EGECcE|DcA^FD=E|^FcAFD=E|^FcAFDc|
+w:1 5 4 3 5 1 2 4 2 1 5 2 1 5 4 3 1 2 3 5 4 3 1 2 3 5 4 3 1 5
+V:2
+x4x2|x4x2|x4x2|x4x2|x4x2|
+V:3
+B,,2x2B,,2|C,2C,,E,,G,,C,|^F,,2x4|x,2D,,2zC,|B,,2x4|
+w:5* 1 5 3 2 1 5* 3 5
+V:4
+x2B,2x2|x4x2|x2^F,2z=E,|D,2x2zx|x2B,2zA,|
+w:** 2 1 1 2
+%
+V:1
+x4x2|d6-|d2c3c|B6|A3d2^c|
+V:2
+MB/A/B/c/Mc3d|zAB^FG2-|GG- G=E^F2|z^F G-[G3-D3]|GGM^F2[=E2G2]|
+V:3
+x2z^F,G,A,|B,4-B,B,|MA,6|G,4B,G,|z2A,2B,2|
+w:3 2 1**** 1 3 2 1 2
+V:4
+G,=F,E,4|D,6-|D,6-|D,6|D,6-|
+w:3 4 5 2/5** 5
+%
+V:1
+d6::zA^FDFA|x2D^FAc|x4x2|x4x2|
+w:* 4 2 1 2 4 1 2 3 5
+V:2
+zA- [A-^F-][A3F3D3]::x4x2|=c2x4|BdBGBd|=f2G=Bcf|
+w:***5 2 4 2 1 2 4 5 1 2 3 5
+V:3
+A,4z2::x2D,,2x2|x4x2|x2G,,2x2|x4x2|
+V:4
+D,4D,,2::PD,2x2z2|zD,^F,A,F,D,|PG,2x2z2|zG,=B,D=B,G,|
+w:*** 4 2 1 2 4* 4 2 1 2 4
+%
+V:1
+x4x2|x4x2|x4x2|x4x2|x4x2|=BG_AFdF|
+w:3 1 2 1 5 1
+V:2
+egec_ac|_B_agfgB|_AcAFfA|GfedeG|Fedf_ac|x4x2|
+w:2 4 2 1 5 1 2 5 4 3 5 2 3 5 2 1 5 2 1 5 4* 5 2 1 4 2* 5 1
+V:3
+x2C,2x2|x4x2|x4x2|=B,,2x2C,2|x4x2|x4=B,,2|
+w:* 5 5 5
+V:4
+PC2x2C2|D,2_B,2=E,2|F,G,F,_E,D,C,|x2G,2x2|_A,2z2F,2|PG,2D,2x2|
+w:** 5 2 5 3 2 1 2 3 4 1 2 4 1 3
+%
+V:1
+EGcED=B|x4x2|zC=EGEC|x4x=A/B/|AFAcAF|
+w:2 3 5 2 1 4 1 2 4 2 1*** 1 2 4 2 1
+V:2
+x4x2|Pc2z2z2|x4x2|P_B2TB3x|x4x2|
+w:* 3
+V:3
+PC,2E,,2G,,2|C,,E,,G,,C,G,,E,,|C,,2z2z2|x4x2|x2F,,2z2|
+w:* 4 2 5 3 2 1 2 3
+V:4
+x4x2|x4x2|x4x2|zC,=E,G,E,C,|PF,2x4|
+w:4 2 1 2 4 1
+%
+V:1
+x4x2|x4x2|x4x2|x4x2|x4x2|
+V:2
+P_e2Te3d/e/|dBdfba|Mg^fgbag|^fafdac|BdBG_eG|
+w:3**** 1 2 3 5 4 3 2 3 5 4 3 2 4 2 1 5 1 2 4 2 1 5 1
+V:3
+x4x2|x2_B,,2x2|x2D,2C,2|z2=E,2^F,2|G,2A,2B,2|
+w:5 3 2 4 3 2 1 2
+V:4
+zF,A,CA,F,|B,2x2D,2|_E,2x4|D,6-|D,6-|
+w:4 2 1 2 4 1 3 2 5
+%
+V:1
+^FAFDAC|B,DB,G,_Ez|zDAcB2|zATA3G|G4z^F|=G6:|]
+w:2 4 2 1 5 1 2 4 2 1 5 1 3* 5/1 3* 1 5 4
+V:2
+x4x2|x4x2|zD-[D2A2]P[G2D2]|x2^F4|zD E-[E-C-][E2C2A,2]|P[D6=B,6]:|]
+w:*** 2 2 3 2 1
+V:3
+A,2G,2^F,2|G,D,B,,G,,E,G,,|M^F,,4G,,2|x4D,,2|z2C,2-[C,2E,2]|[G,6D,6]:|]
+w:1 2 3 1 2 3 5 2 5*** 3 2 1/2
+V:4
+D,6|x4x2|x4x2|C,2PD,2x2|G,,6-|G,,6:|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

@@ -1,0 +1,31 @@
+X: 3212
+T: Carlione    a Favourite Irish Tune
+%R: air
+N: This is version 2, for ABC software that understands voice overlays.
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.21 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Changed the last 2 nots in the 2nd strain bar 8 from 8th to 16th-notes.
+M: C
+L: 1/8
+Q: "Slow with Expresion"
+K: Eb
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 6,7-bar lines, for compactness and proofreading.
+V: 1 staves=2 clef=treble
+{d}e2 |\
+(cB).A.G (AG)(FE) | {=B,}C2TE>F E2{d}e2 | (cB).A.G (AG).F.E | x2TF>G [F2D2]TG>A & c2D>E D2x2 ||\
+B<GB>c {=Ac}B3B | (ce)(df) {d}e3c |
+(cB).A.G (AG).F.E | {=B,}C2TE>F [E2B,2G,2] :: TG>A |\
+B3c (B<G)TFE | {=B,}C2~EF E2TG>A | (BG)B>c {c}B3B | (ce)(df) {d2}e4 ||!f!\
+[E3B,2]F/G/ [F3D2]G/A/ |
+(AG)(cB) B2Tc>d | {f}e>dcB {A}G>FGB | TF2G>B {B}Tc3d/e/ ||\
+(c/B/).A/.G/ (B/A/).G/.F/ TFE {d}e>c | (B/A/).G/.F/ (B/A/).G/.F/ {F}E2!p!TE>F |\
+{DF}G>FEC F>ECB, | C2TE>F [E2B,2G,2] :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |\
+E2e2 E2e2 | a2b2 g2e2 | a2e2 c'bag | f2b2 B2z2 || e2E2 cege |
+a2b2 c'2a2 | agfe c'bag | a2b2 E2 :: z2 | EeEe e3g | a2b2 e2z2 |
+E2e2 zege | A2B2 cc'ba ||!f! geE2 BbB2 | x2ag g2x2 & e2e2 e2z2 | c'bag x4 & e4 e2e2 | d2e2 x4 & B2B2 AaAz ||
+e2B2 E2z2 | e2b2 c'2!p!z2 | E2e2 A3G | A2B2 E2 :|

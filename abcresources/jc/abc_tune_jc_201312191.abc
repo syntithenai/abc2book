@@ -1,0 +1,17 @@
+X: 1
+T: Moj Dragane   [D]
+O: Croatia
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Pinewoods International Collection v.2 p. 191
+M: 6/8
+L: 1/8
+K: D
+"^instr."
+[|\
+"D"F2F FEF | "A7"AGG GFE | "D"F2F FED | "A"E2E E3 "intro"||\
+"D"F2F ABA | "A7"AGG GFE |"E7"F2F FED | "A"E2E E2z |]
+|:"solo:"\
+F2F FE"tutti:"F | "A"[A2E2A,2][GEA,] [GE2A,2]F[ECA,] |\
+"D"[F2D2][FD] [FD2A,2]E[DA,] | "A"[E2A,2][EA,] [E2A,2][EA,] ||\
+[F2D2A,2][ADA,] [AF2D2]B[AFD] | "A7"[AE2A,2]G[GEA,] [GE2C2]F[ECA,] |\
+"D"[F2D2A,2][FDA,] [FD2A,2]E[DA,] | "A"[E2A,2][EA,] [E2A,2]"fine"[EA,] :|

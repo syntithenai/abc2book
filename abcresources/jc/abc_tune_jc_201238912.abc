@@ -1,0 +1,34 @@
+X: 31561
+T: COTILLION No. 40. YANKEE HILL'S SETT tune 1
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.157 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E2 |\
+A2A2 GFGE | ABcd e2e2 | d2dB c2cA | GABc BEFG |\
+A2A2 GFGE | ABcd efga | BABd {A}GFGB | A2c2A2 H|]
+GA |\
+B2B2 g2e2 | ^defg a3b | agfe ^defg | fe^dc B2GA |\
+B2B2 e2e2 | c2c2 A3c | B2G2 BAGF | E2E2 EFG"^D.C."E |]
+[K:=f=c=g]\
+[K:Am]\
+Ac |\
+e2e2 c2ce | A4 A2^GA | B2B2 Bfed | dcBc A2Ac |\
+f2f2 a2a2 | e2e2 c2ec | B2dB A2^G2 | B4 "^D.C."A2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% all balance,
+%% all chassa across partners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300
+

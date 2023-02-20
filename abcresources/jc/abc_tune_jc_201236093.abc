@@ -1,0 +1,18 @@
+X: 21641
+T: THE JAYBIRD'S HORNPIPE
+R: hornpipe
+B: K\"ohler's Violin Repository, v.2, 1885 p.164 #1
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.  Not fixed.
+N: There was a missing 8th note between the parts. Fixed.
+M: C|
+L: 1/8
+K: F
+v(a>g) |\
+f>Ac>f a>gf>e | {e}d>^cd>g b2(g>f) | e>AB>c e>dc>B | A>cB>d c2(a>g) |
+^f>df>a d'>c'b>a | c'>ba>b g>fe>d | c>^ce>d {d}=c>BD>E | F2A2F2 :|
+K: C
+|: zvg |\
+g>B{d}c>B | g>Ba>B | g>eg>c' e'2(d'c') | b>c'a>b g>af>g | g>Bc>e a2(g>^f) |
+g>B{d}c>B | g>Ba>B | g>eg>c' e'2(d'c') | b>ag>f e>fA>B | c2c2 [e2_B2G2] |]

@@ -1,0 +1,29 @@
+X:341
+T:Humours of the Age
+C:Kynaston, 1710
+L:1/4
+M:3/4
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=110
+%%MIDI chordprog 58   Tuba
+%%MIDI bassprog 58    Tuba
+%%MIDI program 58     Tuba
+%%MIDI gchord bcc
+K:Dm
+"Dm"Ad>e | "/"f>e d/>e/ | "F"f/>g/ "C"g3/f//g// | "F"a>gf |\
+"Gm"bg>f | "C"e>fg | "Dm"f/>e/ d/>f/ "(Gm)"e/>d/ | "A"^c3 |
+"Dm"Ad>e | "/"f>e d/>e/ | "F"f/>g/ "C"g3/f//g// | "F"a>gf |\
+"Gm"bg>f | "C"e>fg | "Dm"f/>e/ "A7"e>d | "Dm"d3 |
+"Dm"d/>A/ d/>f/ e/>d/ | "A"^c/>=B/ c/>A/ B/>c/ | "Dm"d/>A/ d/>f/ e/>d/ | "C"e/>g/ e/>c/ e/>g/ |
+"Dm"f/>a/ f/>d/ f/>a/ | "C"e/>g/ e/>c/ e/>g/ | "Dm"f/>e/ d/>f/ "(Gm)"e/>d/ | "A"^c/>=B/ c/>A/ B/>c/ |
+"Dm"d/>D/ D/>d/ c/>B/ | "C"c/>C/ C/>c/ B/>A/ | "Bb"B/>B,/ B,/>B/ A/>G/ | "F"A/>A,/ A,/>A/ G/>F/ |
+"C7"E/>c/ G/>B/ A/>G/ | "F"A/>f/ "Gm"B/>d/ "A7"^c/>e/ | "Dm"d/>e/ "A7"e>d | "Dm"d3 |
+M:6/8
+L:1/8
+Q:3/8=110
+|: A | "Dm"de^c dec | "Dm"d3 "A"e3 | "Dm"f3/g/f efd | "A"a3- a2 :|
+a | "Dm"f3/e/d def | "C"g3- g3/a/g/f/ | "C7"e3/d/c cde | "F"f3- f2c |
+"Dm"dAB "C"cGA | "Bb"BFG "C"ECE | "F"FAG "C7"F2E | "F"F3- F2c/B/ |
+"F"AFF AFF | "/"c3ABc | "Bb"def "Gm"efd | "A"^c3 A2 f/g/ |
+"Dm"afd "C"gec | "Bb"f/e/d/c/B/c/ "A"A2G | "Dm"FEF "A7"Dd^c | "Dm"d3-d2 |]

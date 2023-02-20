@@ -1,0 +1,20 @@
+X: 1
+T: the 10th Brigade Highland Light Infantry Crossing the Rhine
+C: P.M. Donald Shaw
+R: jig/march
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"d>fA d2f | f>ga fed | "A"c>de Ace | e>fg "(D)"fed \
+| "D"d>fA d2f | f>ga fed | "A"c>de Ace | "D"d3 z2 :|
+|: {f}g \
+| "D"a2f d2f | f<af fed | "A"c>de Ace | e>fg "(D)"fed \
+| "D"a2f d2f | f<af fed | "A"c>de Ace | "D"d3 z2 :|
+|: A \
+| "D"~d3 A>df | f<af fed | "A"~c3 Ace | e>fg "(D)"fed \
+| "D"~d3 A>df | f<af fed | "A"c>de Ace | "D"d3 z2 :|
+|: {f}g \
+| "D"aAa Adf | f<af fed | "A"c2e Ace | e>fg "(D)"fed \
+| "D"aAa Adf | f<af fed | "A"c>de Ace | "D"d3 z2 :|

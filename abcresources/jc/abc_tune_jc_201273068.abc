@@ -1,0 +1,24 @@
+X: 1
+T: Engelska
+M: 2/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+K: G
+%%indent 450
+V:1
+"Intro"[| d4 c4 | BdBG AcAF | G6 |
+"A"|: D2 \
+| GDB,D G2GB | AGFE D2B,D | GFGB AGFG | E2A2 A4 \
+| {D}GDB,D G2GB | AGFE D2c2 | BdBG AcAF | G6 :|
+"B"|: ((3ABc) \
+| d2dB GBdB | e2ec A2Bc | d2dB G2GB | AGFE D2B,D \
+| GDB,D G2GB | AGFE D2c2 | BdBG AcAF | G6 :|
+V:2
+[| B4 A4 | G2D2 C2A,2 | [D6G,6] |
+|: B,2 \
+| B,2G,2 B,2D2 | FEDC B,2G,2 | B,2B,2 C2C2 | A,2C2 E2D2 \
+| B,2G,2 B,2D2 | FEDC B,2A,2 | B,2B,2 C2C2 | B,6 :|
+|: D2 \
+| B2BG D2G2 | c2cA E2D2 | B2BG D2DG | FEDC B,2G,2 \
+| B,2G,2 B,2D2 | FEDC B,2A,2 | G,2B,2 A,2C2 | [D6B,6] :|

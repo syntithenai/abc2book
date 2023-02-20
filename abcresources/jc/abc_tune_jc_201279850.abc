@@ -1,0 +1,16 @@
+X: 352
+T: the Gathering of the Clans   #2
+R: march, air
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #352
+O: F.O'Neill
+N: Ornament (~) is a mordent.
+Z: Chris Falt, cfalt@trytel.com
+N: Compacted via repeats and multiple endings [JC]
+Q: "Boldly."
+M: C
+L: 1/8
+K: G
+"^A"[|] GA  | B3d cBAG | E>D ((3EFG) A2Bd | (ef/g/) dB {d}cBAG |1 (Bd)dd d2 :|2 EGG>A G2 |]
+"^B"[|  (~BA) | G>A Bc d2de | d>B AG g2ef | gf e/f/g/a/ gfed | Bdef g2 |]
+"^C"[| ((3def) | gfed B2((3gfe) | dBAG A2Bd | (ef/g/) dB {d}cBAG | EGG>A G2 |]

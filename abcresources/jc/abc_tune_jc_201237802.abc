@@ -1,0 +1,31 @@
+X: 292
+T: LADY HAMILTON
+T: Countess of Sutherland
+N: re-named Countess of Sutherland
+C: R. MACKINTOSH
+R: Reel
+B: Glen Collection p.29 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: Bb
+%
+V: 1
+d |\
+B2FB GBFB | EBDB C(.c2.d) | B2FB Ggfe | dfcf dBB :|
+((3f/g/a/) |\
+bfdf egce | dfBd cFF ((3f/g/a/) | bfdf egce | Bgfc dB B((3f/g/a/) |
+bfdf egce | dfBd cFFf | gfga bgfe | dfcf dBB |]
+%
+V: 2
+z |\
+B2[b2d2] [b2e2][b2d2] | [b2g2][b2f2] F2[a2f2] |\
+B2[b2d2] [b2e2][b2e2] | [b2f2][a2f2] [b2f2B2][bfB] :|
+z |\
+b2[d'2b2f2] [c'2a2f2][a2f2] | B2[b2f2] [a2f2][a2f2] |\
+B2[d'2b2f2] [c'2a2f2][a2f2] | [b2f2][a2f2] [b2B2][b2B2] |
+B2[b2f2][a2f2][a2f2] | B2[b2f2] [a2f2][a2f2] |\
+e2[b2g2] d2[b2f2] | f2[a2f2] [b2f2d2B2][bfdB] |]

@@ -1,0 +1,30 @@
+X: 10781
+T: the BALDERSTON QUADRILLES No. 1.--la Pantalon
+%R: march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.78 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Gm	% and Bb and G major.
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Tak your auld cloak about ye.
+A2 |\
+B2BB B2"^>"d2 | (cd)cB A2"^>"c2 |\
+(Bc)BA G2(AG) | ^FGF=E D2GA |\
+B2BB B2"^>"d2 | (cd)cB A2"^>"c2 |\
+BcBA GAB^c | d2D2D2 H|]
+A2 |\
+!ff!B2FF F2E2 | D2FF F2"^>"^F2 |\
+G2GG (G2A2) | {c}BABc d3c |\
+B2BB (.B2.B2) | c2d2f2"^>"^f2 |\
+g2d2 dedc | B2A2"^D.C."G2 |][K:=B=e]
+[K:G]\
+"^piu"D2 |\
+(3(BcB) (3(ABA) G2D2 | {F}EDEF G2D2 |\
+(3(Bdc) (3(AcB) G2D2 | E2A2 A2c2 |\
+(3(BcB) (3(ABA) G2D2 | EFGA Bcde |\
+edBG D2c2 | B2G2"^D.C."G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

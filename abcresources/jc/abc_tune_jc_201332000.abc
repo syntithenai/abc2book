@@ -1,0 +1,22 @@
+X:1
+T: Row Well Ye Mariners
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:G
+%W:           A1                                             A2
+% voice 1 (1 lines, 35 notes)
+K:G
+M:6/8
+L:1/16
+A2 |F4 E2 F4 G2 A6A4 B2 c2 d2 c2 B2 A2 B2 A4 G2 G4 A2 |F4 E2 F4 G2 A6A4 B2 c2 d2 c2 B2 A2 B2 A4 G2 G4 d2 |
+%W:         B1                     B2                     C1                     C2
+% voice 1 (1 lines, 40 notes)
+d2 e2 d2 A4 B2 c2 d2 B2 A4 d2 d2 e2 d2 A4 B2 c2 d2 B2 A4 G2 |G2 A2 G2 F4 G2 A2 F2 D2 G4 G2 G2 A2 G2 F4 G2 A2 F2 D2 G4 z2 |
+%W:         D1                                             D2
+% voice 1 (1 lines, 22 notes)
+d6 A6 d6 A6 d4 e2 d4 c2 B4 A2 G6 |d6 A6 d6 A6 d4 e2 d4 c2 B4 A2 G6 ||

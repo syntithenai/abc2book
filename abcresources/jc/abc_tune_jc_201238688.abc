@@ -1,0 +1,33 @@
+X: 31163
+T: COTILLION No. 17. LADY GAY SPANKER'S SETT tune 3
+C:
+%R: march, jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.116 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4	% The book has 3/4, but that's a typo.
+L: 1/16
+K: 16
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+f2 |\
+e2d2 c2B2 | A4 G2cB | AFAc dGBd | cBcd c2G2 |\
+e2d2 c2B2 | A4 G2cB | A2dc BcdB | c2c2c2 H|]
+M: 6/8
+L: 1/8
+B/c/ |\
+ded cBc | cdc BGA | BcB AFG | AFD DBc |\
+ded cBc | cdc BGA | BcB AG^F | GBd "^D.C."g2 :|
+c/d/ |\
+e2e efd | e2e eAB | cde edc | cBB Bcd |\
+e2e efd | ea^g aAB | cdc BA^G | (B3 "^D.C."A2) |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% all balance,
+%% all chassa across partners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

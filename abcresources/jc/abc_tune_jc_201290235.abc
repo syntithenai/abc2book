@@ -1,0 +1,19 @@
+X: 1
+T: In dispraise of Whisky
+T: Di-moladh an Uisge-bheatha
+C: James Murto MacRae
+R: air, slip-jig
+S: printed copy of unknown origin in Concord Slow Scottish Session collection
+N: Presented by Gregor Borland, Boston Harbor Scottish Fiddle School, August 2008
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+%%staffsep 40
+|:\
+"G"G3 "G7"GD=F "C"(T[E2C2][DB,]) | "G"B2c "Em7"dBG "D7"(TA2G) |\
+"G"G3 "G7"GD=F "C"(T[E2C2][DB,]) | "Am"(B2c) "D7"(TA3 {GA}"G"[G3B,3]) :|
+"G"(d2d) "C"ed^c "G"(d2B) | "C"=c3 "G"(TB>AB) "D7"ed^c |\
+"G"(d2d) "C"ed^c "G7"(d2B) | "C"=c3 "G"(TB>AB) "D7"{B}He3 |
+"G"d3 "Em"(B>AG) "D7"AD c | "G"(TB2A) "G7"[GB,][DB,][GB,] "C"[E2C2]D |\
+"G"(G2A) "G7"GD=F "C"(TE2D) | "Am7"B2c "D7"(TA3 "G"{GA}G3) |]

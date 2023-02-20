@@ -1,0 +1,24 @@
+X: 12322
+T: Jocky's Gray Breeches
+N: There's a space in the title instead of the apostrophe.
+%R: air + reel
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.32 #2
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dmix % or Bdor
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"d>e |\
+f3a (Te>d) | B4(A/B/)d | D4 (E>F) | {G2}A4 (d>e) |\
+Tf3 e (d/f/e/d/) | TB3 A F2 | E4 {E}FA | {A2}B4 :|
+|: dB |\
+A3 Bde | Tf3 e (d/e/f/)a/ | b3 a (d'/b/a/)g/ | {f2}e4 {e}f>a |\
+b3 a (f/a/)b | Ta3 fef | d3 e (Te>d) | B4 ::
+K: C
+"_Brisk"de |\
+f4 e3d | B4 {AB}d4 | F2(ED) E2F2 | d2 A4 (de) |\
+f2(ef) (af)(ed) | B4 {AB}d4 | F2(ED) E2F2 | d2 B4 :|
+|: d2 |\
+A3B d2e2 | {de}f4 Te2d2 | edef abaf | Tf2 e4 fa |\
+babd' b2af | afab a2fe | d3e faef | {e}d2B2 B2 :|

@@ -1,0 +1,31 @@
+X: 15
+T: the Brunswick
+%R: waltz
+B: Name "Kauntze's Collection of the most favorite Dances, Reels, Waltzes, &c."
+F: http://imslp.org/wiki/Kauntze%27s_Collection_of_Dances,_Reels,_Waltzes_etc._%28Various%29
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+FG |\
+A2A2B2 | c4(fd) | .c2.c2 (dB) | .A2.A2 FG |\
+A2A2B2 | c4f2 | g2(gf)(ga) | f4 :|
+|: !p!Tc2 |\
+{fg}!f!.b2.b2 !p!Tc2 | {f}!f!.a2.a2 f2 | .e2(eg)(fa) | .g2.g2 !p!Tc2 |\
+{eg}!f!.b2.b2 !p!c2 | {f}!f!a2a2 f2 | g2ecde | f2f2 :|
+|: AB |\
+!pp!.c2(c2d2) | .c2.c2 (Ac) | .B2.B2 (GB) | (A2F2) (FA) |\
+c2c2d2 | c2c2f2 | .f.e.d.c.d.e | f4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+f6 | f6 | c2e2c2 | f2a2c'2 | f2a2c'2 | f2a2f2 | c6 | f2F2 :||: z2 |
+!f!e2g2!p!c'2 | !f!f2a2c'2 | c2e2f2 | c'2c2!p!z2 | !f!z2e2!p!e2 | !f!z2f2a2 | B2G2c2 | f2F2 :||: z2 |
+!pp!f2a2c'2 | f2a2c'2 | e2g2c'2 | f2a2c'2 | f2a2c'2 | f2a2f2 | c'4c2 | f2F2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    The 1st Cu: set to the 2d Lady and Hands 3 round, the same with the Gent: Lead
+%% down the middle and up again, Allemande and swing corners.
+%%endtext

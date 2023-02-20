@@ -1,0 +1,21 @@
+X: 12241
+T: Through the Wood Laddie
+%R: air, waltz
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.24 #1
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The book has two sharps, but it sounds better with C naturals.
+M: 3/4
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+G>D |\
+{D}E2(G>A) (A3/G//A//) | {A2}B4g>d | {d}e2ge{e}dB | {B2}A4G>A |\
+B3d/c/ TBA | TBAG2G>A | (BAB)dTBA | {c}B2{A}G2GD |
+E2G>A A3/G//A// | B4g>a | ba{a}ge{e}dB | A3Bcd |\
+e2ge{e}dB | (d>ed)cTBA | B2E2F>A | G4 :|
+|: g>d |\
+{d}e2(g>a) (Ta3/g//a//) | b4(g>a) | b2(c'b)(ag) | Ta4(g>a) |\
+b3c'Tb>a | (Tb>a)g2(g>a) | babc'Tb>a | (Tba)g2gd |
+e2(g>a) (Ta3/g//a//) | b4(g>a) | baTge{e}dB | (AGA).B.c.d |\
+(e/d/e/g/) edeB | (d/B/d/e/) dBAd | B2E2(TF>A) | G4 :|

@@ -1,0 +1,22 @@
+X: 4270
+T: Whip the Cat
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: This tune seems incomplete, and lacks a dance description.
+N: The document also jumps from this tune on page 10 to page 27.
+M: C|
+L: 1/8
+K: G
+V: 1
+|:\
+G/A/B/A/ GA Bcd2 | gdcB gdcB | Aa2g {g}"t"f2ed |\
+G/A/B/A/ GA "t"Bcd2 | gd"t"cB gd"t"cB | Aagf g2G2 :|
+|:\
+be ((3gfe) be ((3gfe) | (3fga ("t"f3/e//d//) (3fga ("t"f3/e//d//) |\
+be (3gfe be (3gfe | (3fga ("t"f3/e//d//) (3fga ("t"f3/e//d//) |\
+gG GA "t"Bcd2 | gd"t"cB gd"t"cB |
+V: 2 clef=bass middle=d
+%%begintext
+--- This tune is incomplete ---
+--- The document jumps to page 27 ---
+%%endtext

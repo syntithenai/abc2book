@@ -1,0 +1,20 @@
+X:101
+T:Carey's Minuet
+C:Wright, c.1740
+L:1/4
+M:3/4
+%%MIDI gchord czc
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%MIDI beat 100 95 80
+%%MIDI program 74
+%%MIDI chordprog 54
+%%MIDI bassprog 54
+%%MIDI chordvol 60
+%%MIDI bassvol 60
+Q:1/4=130
+K:Bb
+P:A
+|: "Bb"f e/d/c/B/ | "F"ABc | "Dm"F2 "F7"E | "Bb"D/E/FB | "Eb"e2 "Bb"d | "F"c3 :|
+P:B
+|: "D7"c d/c/B/A/ | "Gm"Ggf | "Cm"e2d | "F"c/d/ e/d/ c/B/ | "C7"ABc | "F"F2- "F7"F |
+"Bb"f e/d/ c/B/ | "F"FBc | "Dm"F2 "F7"E | "Bb"D/E/F "Gm"B | "Cm"e "F7"c2 | "Bb"B3 :|

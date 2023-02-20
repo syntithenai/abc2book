@@ -1,0 +1,19 @@
+X: 415
+T: Radomirska Lesa
+O: Bulgaria
+F: https://www.youtube.com/watch?v=3YWK854FFnk
+M: 2/4
+L: 1/16
+K: Em
+Q: 1/4=160
+%%MIDI program 21 % Accordian
+%%MIDI bassprog 32 % Acoustic Bass
+%%MIDI chordprog 32 % Acoustic Bass
+%%MIDI bassvol 80
+%%MIDI chordvol 60
+"Em"B4 "Am"AB A2|"Em"G4  "D"F4|"Em"E4 ED E2|G4 "Am"A4|\
+"Em"B4 "Am"AB A2|"Em"G4  "D"F4|"Em"E4 ED G2|"Am"A4 "Em"E4::
+%%MIDI program 66 % Baritone Sax
+"Em"G4 G4|G4 G4|"D"F4 F4|F4 F4|\
+G2 F4 D2|F4 "Em"G4|E8|E8|\
+"D"G2 F4 D2|F4 "Em"G4|E8|E8:|

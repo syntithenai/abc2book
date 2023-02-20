@@ -1,0 +1,19 @@
+X: 1
+T:The Lollipop Man
+M:4/4
+C:
+S:Bacon (Carey)
+N:
+A:Ducklington
+O:English
+R:Reel
+%P:A.(AB$^3$)$^3$.A
+P:A.(AB3)3.A
+K:G
+I:speed 400
+P:A
+BA  | G<B D2 D2 DE  | G2 G2 G4        | BA GA  B2 AG  | B2 E2 E2 \
+BA  | G<B D2 D2 DE  | G2 G2 G3    d   | e>de>f g2 dc  | B2 G2 G4 ||\
+P:B
+      d4     g>fe>g | B2 d2 d4        | A>GA>B c>BA>G | A2 E2 E2 \
+BA  | G<B D2 D2 DE  | G2 G2 G3    d   | e>de>f g2 dc  | B2 G2 G4 ||

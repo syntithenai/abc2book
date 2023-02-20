@@ -1,0 +1,32 @@
+X:52
+%%NRChange 2008-02-24
+%%continueall
+T: Napoleon
+M: 4/4
+Q: 1/4=70
+L: 1/8
+F: http://northernroots.org/tunes/NorthernRoots.abc
+N: Chords removed; they were in a different key.
+R: Bridal March
+O: Swedish/Finnish
+K: D
+P:A
+[V:1] A |: f2-fe/d/ cd ec | d2 d>d d>e f/e/f/g/ |
+[V:2] z |: d2-dc/B/ AB AG | F2 G>E F>A d/c/d/e/ |
+[V:1] a2-af gf/g/ a>g | f2 d>d d>f g/f/e/d/ | c>d cB cd  ec |
+[V:2] f2-fA BA/B/ c>B | A2 F>F F>A B/A/G/F/ | E>F ED EF GE |
+[V:1] d2 f2 a3 f | gb ge d2 c/d//c//B/c/| d2 d>d d3 A:|
+[V:2] F2 A2 d3 ^B | Bd BG F2 E/F//E//D/E/ | F2 G>E F4:|
+P:B
+[V:1] d>e f/e/f/g/ a3 a | ab c'd' a3 f |
+[V:2] F>c d/c/d/e/ f3 f | fg ab f3 A |
+[V:1] g2 a>g f/g/4f/4e/f/ gf| e2 g>e dc Bc | d>e f/e/f/g/ a3 a |
+[V:2] B2 c>B A/B//A//G/A/ BA | G2 B>G FE GE | F>c d/c/d/e/ f3 f |
+[V:1] ab c'd' a3 f| gb ge d2 c/d//c//B/c/| d2 d>d d3 A|
+[V:2] fg ab f2 d^B | Bd BG F2 E/F//E//D/E/ | F2 G>E F4 |
+[V:1] d>e f/e/f/g/ a3 a | ab c'd' a3 f | g2 a>g f/g/4f/4e/f/ gf|
+[V:2] F>c d/c/d/e/ f3 f | fg ab f3 A | B2 c>B A/B//A//G/A/ BA |
+[V:1] e2 g>e dc Bc | d>e f/e/f/g/ a3 a | ab c'd' a3 f |
+[V:2] G2 B>G FE GE | F>c d/c/d/e/ f3 f |  fg ab f2 d^B |
+[V:1] gb ge d2 c/d/4c/4B/c/| d2 d>d d4 |]
+[V:2]  Bd BG F2 E/F//E//D/E/ | F2 G>E F4 |]

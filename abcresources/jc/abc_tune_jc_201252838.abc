@@ -1,0 +1,24 @@
+X: 1
+T: Bl\aagetan
+T: the Blue Goat
+S: Bruce Sagan's scanfolk archive 2021-2-20
+S: learned from Karina Normansson, Apr 1994
+R: polska
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+V: 1 staves=2
+"^A"|:\
+A>(B A2) B>B | (c>B) d2 B>G | A2 A4 |\
+(e>d) e2 ^f>f | (g>^f) a2 f>d | e2 e4 :|
+"^B"|:\
+e>e a2 ue>uf | e2 (d/e/)d/B/ c>A | c2 [B3E3] (~B |\
+A)>(B A2) B>B | c>(e d2) B>B | c>(e d2) B>G | A2 A4 :|
+V: 2
+|:\
+E>(^G E2) G>G | (A>^G) B2 G>E | [E2B,2] [E4C4] |\
+(c>B) c2 d>d | (e>d) ^f2 d>B | [B2^F2] [B4^G4] :|
+|:\
+c>c e2 uc>ud | c2 (B/c/)B/^G/ A>E | A2 ^G3 (E |\
+C)>(E C2) E>^G | A>(c B2) ^G>G | A>(c B2) ^G>E | [E2B,2] [E4C4] :|

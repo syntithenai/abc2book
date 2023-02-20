@@ -1,0 +1,21 @@
+X: 011
+T: Fife scale
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: John Treat - "Gamut for the Fifes", 1779, p.1 #1
+F: https://archive.org/details/GamutFortheFifes
+F: http://ia802309.us.archive.org/9/items/GamutFortheFifes/MUMSS-00071.pdf
+M: none
+L: 1/1
+P: Beginning on the low keys"
+K: none
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|  D E | F G | A B | c d | e f | g a | b c' | d' e' | f' g' | a' b' |
+w: D E   F G   A B   c d   e f   g a   b c'   d' e'   f' g'   a' b'
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The book has a fingering chart below the above line.
+%% The original upper-case letters are transcribed here
+%% with the equivalent ABC notes.
+%% Most of the tunes are in D or G.
+%% A few are in C, Am and even F.
+%%endtext

@@ -1,0 +1,33 @@
+X: 14
+T: Easton Hall
+N: The "E" in the name isn't clear; it looks more like a script "l". Walsh has the tune as "Easton Hall".
+%R: reel
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed because the dance isn't clear.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+c2 |\
+(fga2) (fga2) | f4 c4 | d2f2d2B2 | A2c2A2F2 |\
+(fga2) (fga2) | f4 c4 | d2f2(TB2A2) | G6 :|
+c2 |\
+(ABc2) (ABc2) | A2c2A2F2 | (d_ef2) (def2) | d2f2d2B2 |\
+b2g2 Tg4 | a2f2 Tf4 | {a}g2f2 efge | f6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z2 |\
+f4 z2f2 | "6"a2c'2a2f2 | b4 z4 | "6"a4 z4 |\
+f4 z2f2 | "6"a2c'2a2f2 | b4 d4 | c6 :| z2 |
+f4 f4 | f4 z4 | b4 b4 | b4 z4 |\
+"7;="c'4 z4 | f4 "6"a2b2 | "4"c'4 "3"c4 | f6 |]
+%%begintext align
+%% First and 2d Man foot it to their Partners & turn them off the Men's Side; then foot it to their
+%% Partners & turn them into their Places | Cross over the whole Figure and Hands across
+%% quite Round |
+%%endtext

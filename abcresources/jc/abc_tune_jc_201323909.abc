@@ -1,0 +1,29 @@
+X:1
+T: Pinks and Lillies
+N:
+C:
+S:Play  3  times
+A:
+O:
+R:
+M:4/4
+K:C
+I:speed 200
+%W:             A1                                                           A2
+% voice 1 (1 lines, 34 notes)
+K:C
+M:4/4
+L:1/16
+c2 d2 |e4 e4 d4 c4 |a4 g4 z4 f2 e2 |d4 e4 B6 c2 |d12 c2 d2 |e4 e4 d4 c4 |a4 g4 z4 f2 e2 |d4 e4 B6 c2 |d12 B2 c2 |
+%W: B1
+% voice 1 (1 lines, 21 notes)
+d4 d4 d4 d4 |e4 d4 z4 e2 f2 |g4 c4 c4 c4 |a12 g2 f2 |e2 f2 g2 a2 d8 |
+%W:
+% voice 1 (1 lines, 18 notes)
+c12 e2 f2 |g4 c4 c4 c4 |a12 g2 f2 |e2 f2 g2 a2 d8 |c12 B2 c2 |
+%W: B2
+% voice 1 (1 lines, 21 notes)
+d4 d4 d4 d4 |e4 d4 z4 e2 f2 |g4 c4 c4 c4 |a12 g2 f2 |e2 f2 g2 a2 d8 |
+%W:
+% voice 1 (1 lines, 16 notes)
+c12 e2 f2 |g4 c4 c4 c4 |a12 g2 f2 |e2 f2 g2 a2 d8 |c12 ||

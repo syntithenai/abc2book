@@ -1,0 +1,33 @@
+X: 1
+A:Adam de la Halle
+T:Fines amouretes ai
+N: (condensed)
+M:3/4
+L:1/4
+Q:1/4=120
+K:D dorian
+%
+V:1 clef=treble
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+%%MIDI program 1       41 %viola
+%%MIDI program 2       42 %cello
+%%MIDI program 3       69 %englhorn
+%
+[V:1] F2 F/4E/4D/| C2  D/E/  |^F2  G    | A2        A/4G/4F/| E2        F |(E/D/E) F |(GF) E    | F3 ||
+[V:2] C2   B,    | C2  C     | B,2 B,   |(A,/G,/A,) B,      |(A,/G,/A,) F,| A,2    A,| G,2 G,   | F,3||
+[V:3] F,2  G,    | F,2 G,/A,/| B,2 C/B,/| A,2       G,      |(A,/B,/A,) C | A,2    C | D2  C/B,/| C3 ||
+w:    Fin- es      a-  mou-*   re- tes*   ai;       Dieu      si**      ne  sai  Quant les ver-*  rai.
+%
+[V:1] F2  D | F2   E/4D/4C/| D3         | D2  E/F/|(ED)  E         | F2   E/4D/4C/| D2  E/F/  | E2    D/E/ |
+[V:2] C2  B,| C2   C       | B,2  A,/G,/| A,2 B,  | C2   C/4B,/4A,/| C2   C       | B,2 A,/G,/| A,2   B,   |
+[V:3] F,2 G,| F,2  A,      | G,2  A,/B,/| A,2 G,  | F,2  G,        | F,2  A,      | G,2 A,/B,/| A,2   G,   |
+w:    Or man- de-  rai       m'a- mi-*    et- te    Qui  est       cointe et        jo- li-*    et-   te
+w:    Et s'ele est de        moi  en-*  chain-te    Tost de-         ven- ra       pale et*     tein- te;
+w:  Miex vaut que  je        m'en as-*  teing-ne,   Pour li          jo-  li        me  ti-*    eng-  ne,
+[V:1]  F2           F/4E/4D/| C2  D/E/  |^F2  G     | A2   A/4G/4F/| E2         F |   E/D/ E2  | F3  |(GF) E    | F3  ||
+[V:2]  C C/4B,/4A,/ B,      | C2  C     | B,2 A,/G,/| A,2  B,      |(A,/G,/) A, F,|   A,3      | A,3 | G,2 G,   | F,3 ||
+[V:3]  F,2          G,      | F,2 G,/A,/| B,2 C/ B,/| A,2  G,      |(A,/B,/) A, C |   A,3      | C3  | D2  C/B,/| C3  ||
+w:     Et          s'est      si  sa-*    vé- rou-*   se-  te,       C'as-*  te-nir   ne        m'en   po-**      rai.
+w:     S'il         en        est es-*   clan-dèle et plain-te        Dé-*  shon-ne-  ré-        e     l'a-**     rai.
+w:     Et          que        de  li*     me  sou-*   vieng-ne,       Car*  s'on-nour le        gar-   de-**      rai.

@@ -1,0 +1,28 @@
+X: 31393
+T: COTILLION No. 28. WASHINGTON SETT tune 6
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.139 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+c2e2 A2A2 | F4 D2C2 | B,2D2G2F2 | EDEF G2G2 |\
+c2e2 A2A2 | F4 D2C2 | B,2A2G2B2 | c2e2c2 H|]
+Bc |\
+dG^FG dGeG | fedc BAGF | EGce gede | d2d2d2 Bc |\
+dG^FG dGeG | fedc BAGF | EGce dfAB | c2e2"^D.C."c2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% back to back,
+%% balance 4,
+%% ladies chain,
+%% promenade 4.
+%% Next 2, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

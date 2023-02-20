@@ -1,0 +1,33 @@
+X: 1
+T: De Colores  [C]
+O: Mexico
+R: waltz
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+z2 \
+| "C"[G3-E3-] "G7"[G2E2][FD] | "C"[FD][E2C2] z[EC][FD] \
+|    [GE][GE]>[GE] [GE][FD][EC] | [GE][GE]>[GE] [GE][FD][EC] |"G7"[GE][F2-D2-] [F2D2]z |
+w: De* co-lo-res, de co-lo-res se vis-ten los cam-pos en la pri-ma-ve-ra*
+|"G7"[F3-D3-] [F2D2][EC] | [EC][D2B,2] z[FD][GE] \
+|    [AF][AF]>[AF] [AF][GE][FD] | [AF][AF]>[AF] [AF][GE][FD] | "C"[AF][G2-E2-] [G2E2]z |
+w: De* co-lo-res, de co-lo-res son los pa-ja-ri-tos que vie-nen de~a-fue-ra.*
+| "C"[G3-E3-] "G7"[G2E2][FD] | "C"[FD][E2C2] z[EC][FD] \
+|    [GE][GE][GE] [GE][FD][EC] | [GE][GE]>[GE] [GE][AF][_BG] | "F"[A3F3] z |
+w: De* co-lo-res, de co-lo-res es el ar-co i-ris que ve-mos lu-cir.
+|: [FD][GE] | "F"[AF][AF][AF] "G7"[AF][BG]>[AF] | "C"[AF][GE]>[GE] "Am"[GE][AF][GE] \
+|["1-N" "Dm"[GE][FD][GE] "G7"[AF][GE][FD] | "C"[E3C3] z :|
+w: Y por e-so los gran-des a-mo-res de mu-chos co-lo-res me gus-tan a m\'i.
+|["last" "Dm"[GE][FD][GE] "G7"[AF][GE][BFD] | "C"[c4E4C4] |]
+w:lo-res me gus-tan a m\'i.
+%
+W: 2. De colores, sí, de blanco y negro y rojo, y azul y castaño.
+W:    Son colores, son colores de gente que ríe, y estrecha la mano.
+W:    Son colores, son colores de gente que sabe de la libertad.
+W:    ...
+W:
+W: 3. De colores, de colores son esos paisajes que visten la aurora.
+W:    De colores, de colores son las maravillas que el sol atesora.
+W:    De colores, de colores es el arco iris que vemos lucir.
+W:    ...

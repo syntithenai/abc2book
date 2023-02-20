@@ -1,0 +1,27 @@
+X:1
+T:Theme for the Greenlands
+M:C|
+L:1/8
+Q:80
+C:Dan Ar Braz
+S:Retreat March
+K:HP
+|: {g}B3/2{d}c/2 | \
+{g}A3/2B/2{g}c/2e3/2 | \
+{A}e2{gcd}c3/2e/2 |
+{g}f3/2a/2f/2{g}e3/2 | \
+{A}e2{g}B3/2{d}c/2 | \
+M:C| {g}A3/2B/2{g}c/2e3/2 |
+{g}f/2e3/2{gcd}c/2{e}A3/2 | \
+{GdG}B2-B2 | \
+-B2 :|
+M:C | |: \
+{ag}a2 | \
+{fg}f3/2e/2{g}f/2a3/2 |
+{g}a2{g}a2 | \
+{fg}f3/2e/2f/2{g}c3/2 | \
+{GdG}c2{ag}a3/2f/2 |
+M:C| {g}e3/2f/2{ag}a3/2B/2 | \
+{d}c/2e3/2{gcd}c/2{e}A3/2 | \
+{GdG}B2-B2 |
+-B2 :|

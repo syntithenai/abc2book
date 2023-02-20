@@ -1,0 +1,26 @@
+X: 30061
+T: ANGEL'S WHISPER
+C:
+%R: air, march
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.6 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+F |\
+B2 B A G2 F D | FG B c d2 B c/ d/ |\
+e2 dc d>e f> d | c>B A d c2 c d |\
+e2 d c d <f f> e | d B cB G2 F d/ c/ |\
+B2 B A G2 F D | F>G B B B2 z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+B |\
+B2 B B B2 B B | B2 B f b2 B f/ f/ |\
+f2 f f B2 B> B | c2 f f f2 f f |\
+f2 f f B <B e> e | f f f2 c2 f f/ f/ |\
+B2 B B e2 B B | B2 B B B2 z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

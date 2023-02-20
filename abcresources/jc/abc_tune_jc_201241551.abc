@@ -1,0 +1,24 @@
+X: 4413
+T: CAKE WALK
+C: Vincent A. Kerr
+%R: hornpipe, shottish
+B: James Kerr "Merry Melodies" v.4 p.45 #413
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: F
+%%slurgraces yes
+%%graceslurs yes
+[| !mf!\
+C>DFD | E>DC2 | C>DFD | E>DC2 |\
+C>DFD | C>DEF | G2D2 | G>C {E}DC |\
+c>dfd | e>dc2 | c>dfd | e>fg2 |\
+g>ac'a | gedc | a2g2 | c2zA ||
+|:\
+A>GGc | A>GGG | G>FFc | G2F2 |\
+[1 F>E^DE | B>BAG | A2d2 | c3z :|\
+DFcB | Aca>g | fc{e}dc | fz [fA]z ||
+|:\
+c'3a | f3(f/g/) | afdf | c3z |\
+[1 c'3a | f3(f/g/) | agfd | agec :|\
+[2 df zb | a2g2 | fc_dc | fz [fA]z |]

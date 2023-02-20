@@ -1,0 +1,23 @@
+X: 1
+T: Lady Marie Parker    [D]
+C: Niel Gow
+R: strathspey
+B: Lady Maria Parker's Strathspey in William Campbell's "Book of New and Favorite Country Dances & Str. Reels for the harp..." (v.20 p.11) London 1790-1817.
+B: Peter Bowie's, "A Collection of Str., Reels, marches &c; some with variations" 1806 p.2-3
+B: Annie Shand's "Old Scottish Music Collected and Adapted for Scottish Country Dances" (1932)
+B: Barbara McOwen's "Leaves of Cabbage II" (1992)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Transposed by JC from A and folded into the range [aG] for bagpipes.
+M: C
+L: 1/8
+K: D
+A \
+| "D"f2 e>d f<a f2 | "G"g>f e>d "A7"c<e A2 \
+| "D"f2 e>d f<a f2 | "G"d/c/B/A/ "A7"B>c "D"d2 d>e |
+| "D"f2 e>d "Bm"f<a f2 | "Em"g>f e>d "A7"c<e A2 \
+| "Bm"f2 e>d "F#m"f<a f>d | "G"d/c/B/A/ "A7"B>c "D"d2 ||
+(3ABc \
+| "D"d>A B>A A<d g/f/e/d/ | "A7"c>e A>e c<e A>c \
+| "D"d>A B>A A<d g/f/e/d/ | "A7"(3cde (3ABc "D"d2 (3ABc |
+| "D"d>A B>A "Bm"A<d g/f/e/d/ | "A7"c>e A>e c<e A>e \
+| "Bm"d>f "A"e>g "D"f>a "G"g<B | "D"d/c/B/A/ "A7"B>c "D"d2 |]

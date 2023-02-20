@@ -1,0 +1,19 @@
+X: 16011
+T: the Old Highland Laddie
+%R: reel
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.6 p.1
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Some 8t+16 note pairs have a dot after the 16th; transcribed as dotted 8th + 16th.
+N: Grace note slurring is mixed and inconsistent, so not indicated here.
+M: C|
+L: 1/8
+K: G
+|: "_Brisk"\
+G3B {B}A3B | G2 (G/A/B) {B}A3B | G2g2 {e}d2(cB) | ABcA {c}B2{A}G2 :: d3e d2(Bc) | d2g2 d2(Bc) |
+d2g2 d2g2 | d2g2 {e}d2(cB) | c3a {c}B3g | AcBd Tc2(BA) | G2(ge) {e}d2(cB) | ABcA {c}B2{A}G2 ::
+G3B {B}A3c | (3(BAB) (3(dcB) {B}A3B | (3(GFG) (3(gfe) (dB)(AG) | (AB)(cd) {c}B2{A}G2 :: d3e (3(dcB) ge | d2(ge) d2(Bc) |
+(3(dcB) ge d2 (g>e) | {e}d2(g>e) {e}d2(cB) | (3(cBc) ec (3(BAB) dB | AcBd {d}c2(BA) | (3(GFG) (3(gfe) dBAG | A2(Bc) {c}B2{A}G2 ::
+(3Gdc (3BAG A>B (3(cBA) | (3Gdc (3BAG A3B | (3Gba (3gfe Td2 (cB) | (AB)(cd) {c}B2{A}G2 :: d3e (3dgb (3d'bg | d2 (3(ece) {e}d2B>c |
+(3dgb (3d'bg (3dgb (3d'bg | (3dgb (3d'bg d2 Tc>B | (3cfa (3c'af (3Bdg (3bgd | A>cB>d {d}c2(BA) | (3Gba (3gfe d2(TcB) | AecB {c}B2{A}G2 ::
+G2 (3BGB A2 (3cAc | B2 (3dBG A2 (3cBA | (3Ggf (3efg d2 (TcB) | A>Bc>d {c}B2{A}G2 :: d2 (3ece d2 (3(gab) | d2 (3(bc'd') d2 (3(gab) |
+d2 (3(bc'd') d2 (3(gab) | d2 (3(bc'd') d2 (Tc>B) | c2 (3ecA B2 (3dBG | (3gec (3gdB A2TB>A | G2 (3(gfe) {e}d2 (TcB) | A2 (A/B/c) {c}B2{A}G2 :|

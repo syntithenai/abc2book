@@ -1,0 +1,26 @@
+X: 1
+T: Singleton's Slip
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.81
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F2 |\
+B2 c2 d2 e2 | f2 (ed) c2 (ef) |\
+(gf) (ed) c3 B | B6 ][ (ga) |\
+(ba) (ga) (ba) (ga) | (ba) (gf) (ga) (bf) |
+(gf) (ed) (ed) (cB) | c6 (ef) |\
+(gf) (ef) (gf) (ef) | (gf) (ed) c2 f2 |\
+(gf) (ed) (cB) (cd) | B6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up all, the 1. man change places with the 2. man and lead out, then lead in, the 1. wo doing
+%% same :| Then the men and we. fall back, then meet and foot it, then the 2. cu. being in the 1. place
+%% cast off, then fall back and foot it as before, and cast off. Do this to the last.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

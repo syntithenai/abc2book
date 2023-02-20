@@ -1,0 +1,149 @@
+X:11 % number
+T:Welt, ich muss dich lassen % title
+C:Heinrich Isaak % composer
+O:Transcribed by Moriwaki Michio for the Choral Public Domain Library (www.cpdl.org) % origin.
+M:C| % meter
+L:1/4 % length of shortest note
+Q: % tempo
+K:F % key
+V:1 name="Superius" sname="Sup." clef="Treble" % voice 1
+V:2 name="Contratenor" sname="Ct." clef="Treble"
+V:3 name="Tenor" sname="T." clef="Treble"
+V:4 name="Bassus" sname="B" clef="Bass"
+%=================================================
+V:1
+z2 F2 | F G A2 | c2 B2 | A2 z A | c>B G2 |
+w:O Welt, ich muss dich las-sen, ich fahr da-hin
+V:2
+c4 | d e f2 | c f2 e | f2 z c | A A B2 |
+w:O Welt, ich muss dich las--sen, ich fahr da-hin
+V:3
+z2 F2 | A B c2 | A2 B2 | c2 z c | c>d _e2 |
+w:O Welt, ich muss dich las-sen, ich fahr da-hin
+V:4
+F,4 | D, G, F, A, | A, G,/F,/ G,2 | F,2 z F, | F, F, _E,2 |
+w:O Welt, ich muss dich las---sen, ich fahr da-hin
+%== 6 ==
+V:1
+A2 F2 | E2 z F | G F E F | G2 z G | F G A2 | c2 B2 |
+w:mein Stras-sen ins e-wig Va-ter-land. Mein Geist will ich auf-ge-
+V:2
+A A2 G/F/ | G2 z d | d d c d | B2 z d | d e f2 | c f2 e |
+w:mein Stras-sen ins e-wig Va-ter-land. Mein Geist will ich auf-ge-
+V:3
+d c2 =B | c2 z A | B A G A | G2 z G | A B c2 | A2 B2 |
+w:mein Stras-sen ins e-wig Va-ter-land. Mein Geist will ich auf-ge-
+V:4
+F,2 D,2 | C,2 z D, | G,, D, E, D, | G,,2 z G, | D, G, F, A, | A, G,/F,/ G,2 |
+w:mein Stras-sen ins e-wig Va-ter-land. Mein Geist will ich auf-ge-
+%==12==
+V:1
+A2 z A | c>B G2 | A2 F2 | E2 z E | F G A2 | [L:1/8] B3 AGF G2-|
+w:ben, da-zu mein Leib und Le-ben set-zen in Got-
+V:2
+f2 z c | A A B2 | A A2 G/F/ | G2 z g | f e f2 | [L:1/8] f3 edc d2 |
+w:ben, da-zu men Leib und Le---ben set-zen_ in Got-
+V:3
+c2 z c | c>d _e2 | d c2 =B | c2 z c | A B c2 | [L:1/8] d2 B3 AGF |
+w:ben, da-zu mein Leib und Le--ben set-zen in Got-
+V:4
+F,2 z F, | F, F, _E,2 | F,2 D,2 | C,2 z C, | D, G, F,2 | B,,2 z B,, |
+%== 18 ==
+V:1
+[L:1/4] G/F/ F2 E | F2 z E | F G A2 | [L:1/8] B3 AG F G2 | [L:1/4/] G/F/ F2 E | F4 |]
+w:-tes gnad-ge Hand, set-zen in Got-------tes gnad-ge Hand.
+V:2
+[L:1/4] c B c c | c2 z g | f e f2 | [L:1/8] f3 edc d2 | [L:1/4] c B c c | A4 |]
+w:-tes gnad-ge Hand, set-zen in_ Got------tes gnad-ge Hand.
+V:3
+[L:1/4] E F G G | F2 z c | A B c2 | [L:1/8] d2 B3 A/G/F/ | [L:1/4] E F G G | F4 |]
+w:-tes gnad-ge Hand, set-zen in Got-------tes gnad-ge Hand.
+V:4
+[L:1/4] C, D, C, C, | F,,2 z C, | D, G, F,2 | B,,2 z B,, | C, D, C, C, | F,,4 |]
+w:Got-tes gnad-ge Hand, set-zen in Got-tes, in Got-tes gnad-ge Hand.
+ Approximate translations  O world I must leave thee,
+I my road leads there,
+into my eternal home.
+My spirit fails me,
+and so do my life and health
+I offer myself into the hand of God.Innsbruck, I must leave thee,
+my road leads there,
+into a foreign country.
+My beloved has gone there before me,
+My countenance is pale
+in my misery.
+ Compare that, with the original song:
+Innsbruck, ich muss dich lassenX:12 % number
+T:Innsbruck, ich muss dich lassen % title
+C:Heinrich Isaak % composer
+O:Choral Public Domain Library
+O:Http://www.cpdl.org % origin.
+M:C| % meter
+L:1/4 % length of shortest note
+Q: % tempo
+K:F % key
+V:1 name="Soprano" sname="S." % voice 1
+V:2 name="Alto" sname="A."
+V:3 name="Tenor" sname="T."
+V:4 name="Bass" sname="B." clef="bass"
+%
+V:1
+z2 F2 | F G A2 | c2 B2 | A2 z A | c>B G2 |
+w:Inns-bruck, ich muss dich las-sen, ich fahr da-hin
+V:2
+C4 | D E F2 | C F2-E | F2 z C | A, A, B,2 |
+w:Inns-bruck, ich muss dich las-sen, ich fahr da-hin
+V:3
+z2 F2 | A B c2 | A2 B2 | c2 z c | c>d _e2 |
+w:Inns-bruck, ich muss dich las-sen, ich fahr da-hin
+V:4
+F,4 | D, G, F, A, | A, G,/F,/ G,2 | F,2 z F, | F, F, _E,2 |
+w:Inns-bruck, ich muss dich las----sen, ich fahr da-hin
+%== 6 ==
+V:1
+A2 F2 | E2 z F | G F E F | G2 z G | F G A2 | c2 B2 |
+w:mein Stras-sen in Frem-de land da-hin. Mein Freud ist mir ge-nom-
+V:2
+A, A,2 G,/F,/ | G,2 z D | D D C D | B,2 z D | D E F2 | C F2-E |
+w:mein Stras----sen in frem-de land da-hin. Mein Freud ist mir ge-nom-
+V:3
+d c2 =B | c2 z A | B A G A | G2 z G | A B c2 |A2 B2 |
+w:mein Stras--sen in frem-de land da-hin. Mein Freud ist mir ge-nom-
+V:4
+F,2 D,2 | C,2 z D, | G,, D, E, D, | G,,2 z G, | D, G, F, A, | A, G,/F,/ G,2 |
+w:mein Stras-sen in frem-de land da-hin. Mein Freud ist mir ge-nom-
+%== 12 ==
+V:1
+A2 z A | c>B G2 | A2 F2 | E2 z E | F G A2 | B>A G/F/ G-|
+w:men, die ich nit weiss be-kom-men, wo ich im E-
+V:2
+F2 z C | A, A, B,2 | A, A,2 G,/F,/ | G,2 z G | F E F2-| F>E D/C/ D |
+w:men, die ich nit weiss be-kom---men, wo ich im E-
+V:3
+c2 z c | c>d _e2 | d c2-=B | c2 z c | A B c2 | d B>A G/F/ |
+w:men, die ich nit weiss be-kom--men, wo ich im E-
+V:4
+F,2 z F, | F, F, _E, | F,2 D,2 | C,2 z C, | D, G, F,2 | B,,2 z B,, |
+w:men, die ich nit weiss be-kom-men, wo ich im E-lend, im
+%== 18 ==
+V:1
+G/F/ F2 E | F2 z E | F G A2 | B>A G/F/ G-|G/F/ F2 E | F4 |]
+w:---lend bin, wo ich im E---------lend bin.
+V:2
+C B, C2 | C2 z G | F E F2-|F>E D/C/ D | C B, C2 | A,4 |]
+w:--lend bin, wo ich im E--------lend bin.
+V:3
+E F G2 | F2 z c | A B c2 | d B>A G/F/ | E F G2 | F4 |]
+w:--lend bin, wo ich im E--------lend bin.
+V:4
+C,-D, C,2 | F,,2 z C, | D, G, F,2 | B,,2 z B,, | C,-D, C,2 | F,,4 |]
+w:E--lend bin, wo ich im E-lend, im E--lend bin.
+W:
+W:Gross Leid muss ich jetzt tragen, das ich allein
+W:tu klagen dem liebsten Buhlen mein. Ach Lieb, nun lass mich armen
+W:im Herzen dein Erbarmen, dass ich muss dannen sein, dass ich muss dannen sein.
+W:
+W:Mein Trost ob allen Weiben Dein tu ich ewig
+W:bleiben stet treu, der Ehren fromm. Nun muss dich Gott bewahren
+W:in aller Tugend sparen, bis dass ich wieder komm, bis dass ich weider komm!
+To convert the code above to sheet music, or listen to the tunes, copy the code for a single song, then paste it here and [submit].

@@ -1,0 +1,101 @@
+X:0
+T: Klez Jig Medley 2 (Dh D)
+P: C instruments
+K: G
+P: A Nacht in Gan Eydn
+B: Sapoznik "The Compleat Klezmer" p.38
+D:
+M: 2/4
+L: 1/8
+K: Dm
+|: A,DE \
+| "Dm"F2 ED | F2 ED | EF D2 | "C7"zCFG | "F"A2 GF | A2 GF | GA F2 | "(C7)"zCFA |
+| "F"c2 "C7"B2 | "F"A2 GF | "A7"FG FE | "Dm"D3 "C7"C | "F"FG2F | "A7"(3AGF (3FED | "Dm"D4- | D :|
+|: A \
+| "Dm"Ad dd | dA f/e/d | "D7"^cd BA | "Gm"G3 G | ^FG AB | "A7"^cd cB | "Dm"A4- | A2 "C7"C2 |
+| "F"CF FA | cc "D7"BA | "Gm"dG GG | GA/G/ "A7"FE | "Dm"D2 AF |1 "A7"GG FG | "Dm"A4 | ~d3 :|2 "Gm"GG "A7"FE | "Dm"D4- | D ||
+|: ABA \
+| "Dm"~d4 | "A7"zAFE | "Dm"D4 | "A7"ZABA | "Dm"f4- | (3fed "A7"(3^cde | "Dm"d4 | zc=Bc |
+| "D"d_e dc | "F"=Bc _BA | =Bc _BA | "Gm"G3F | "Dm"FG2F | "A7"(3AGF (3FED | "Dm"D4- | D :|
+P: Pete's March
+C: Bob McQuillan
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+G,A, \
+| "C"C2  C>E \
+| DC C>D \
+| EG Gc \
+| AG3 \
+| e>d ce \
+| "F"d>c Ac \
+| "C"G>A GE \
+| "G7"ED ||
+G,A, \
+|| "C"C2  C>E \
+| DC C>D \
+| EG Gc \
+| AG3 \
+| e>d ce \
+| "F"d>c Ac \
+| "G7"GE DE/D/ \
+| "C"C2 cd ||
+|| "C"e2 e>f \
+| "C7"ed c>e \
+| "F"dc Ac \
+| "C"AG ED \
+| CE Gc \
+| "Am"eg fe \
+| "Dm"dc ec \
+| "G7"e2 d2 ||
+|| "C"e2 e>f \
+| "C7"ed cc \
+| "F"dc Ac \
+| "C"AG ED \
+| CE Gc \
+| "F"cA G>f \
+| "G7"ed cB \
+| "C"c2 |]
+P: Pete's March
+C: Bob McQuillan
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+A,B, \
+| "D"D2  D>F \
+| ED D>E \
+| FA Ad \
+| BA3 \
+| f>e df \
+| "G"e>d Bd \
+| "D"A>B AF \
+| "A7"FE ||
+A,B, \
+| "D"D2  D>F \
+| ED D>E \
+| FA Ad \
+| BA3 \
+| f>e df \
+| "G"e>d Bd \
+| "A7"AF EF/E/ \
+| "D"D2 |]
+de \
+| "D"f2 f>g \
+| "D7"fe d>f \
+| "G"ed Bd \
+| "D"BA FE \
+| DF Ad \
+| "Bm"fa gf \
+| "Em"ed fd \
+| "A7"f2 e2 ||
+y2 \
+| "D"f2 f>g \
+| "D7"fe dd \
+| "G"ed Bd \
+| "D"BA FE \
+| DF Ad \
+| "G"dB A>g \
+| "A7"fe dc \
+| "D"d2 |]

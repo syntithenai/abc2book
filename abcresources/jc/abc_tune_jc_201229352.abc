@@ -1,0 +1,42 @@
+X: 1221
+T: Solomon Levi
+O: College Song
+%R: march, jig
+N: This is version 2, for ABC software that understands voice overlays and tremolo notation.
+B: "The Golden Book of Favorite Songs", 1922
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+V:12
+%:2 
+%:3 clef=bass middle=d
+V:34 clef=bass middle=d
+% %score (1 2) (3 4)
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:12] [DB,] | [D2B,2][DB,] [DB,][DB,][DB,] | [D2B,2][DB,] [D2B,2][DB,] | [E2C2][EC] [E2C2][EC] | [E3-C3-] [E2C2][EC] |
+w: My name is Sol-o-mon Le-vi And my store's on Sa-lem Street;* That's
+[V:34] [gG] | [g2G2][gG] [g2G2][gG] | [g2G2][gG] [g2G2][gG] | [g2c2][gc] [g2c2][gc] | [g3c3] [g2c2][ge] |
+% - - - - - - - - - -
+[V:12] [F2C2][FC] [F2C2][FC] | [F2C2][FC] [F2C2][EC] | [EC][DB,][DB,] [D2B,2][EC] | [D3B,3]- [D2B,2]z |
+w: where to buy your coats and vests And ev-'ry-thin else that's neat;*
+[V:34] [a2d2][ad] [a2d2][ad] | [a2d2][ad] [a2d2][fd] | [gG][gG][gG] [g2G2][gG] | [g3-G3-] [g2G2]z |
+% - - - - - - - - - -
+[V:12] !segno![D2B,2][DB,] [D2B,2][DB,] | [D2B,2][DB,] [D2B,2][DB,] | [E2C2][EC] [E2C2][EC] | [E3-C3-] [E2C2][EC] |
+w: Sec-ond hand-ed ul-ster-ettes And o-ver-coats so fine,* For
+[V:34]  [g2G2][gG] [g2G2][gG] | [g2G2][gG] [g2G2][gG] | [g2c2][gc] [g2c2][gc] | [g3A3] [g2A2][gA] |
+% - - - - - - - - - -
+[V:12] [F2C2][FC] [F2C2][FC] | [F2C2][FC] [F2C2][EC] | [DC][DC][DC] [E2C2][FC] | [G3-B,3-] [G2B,2]"^Fine."z |]
+w: all the boys that trade with me at Hundred*  and for-ty-nine.*
+[V:34] [a2d2][ad] [a2d2][ad] | [a2d2][ad] [a2d2][gd] | [fd][fd][fd] [g2d2][ad] | [g3-G3-] [g2G2]z |]
+% - - - - - - - - - -
+[V:12] B3 FFF & B3 FFF | G3 E3 & G3 E3 | "Tra-"B"la-"c"la-"B "la-"A"la-"G"la-"F & ^D2D D2D | "la."E3- E2z & E3- E2z |
+w: O, Sol-o-mon Le-vi Tra-*la-la-*la-la.*
+[V:34] b3 fff & b3 fff | g3 e3 & g3 e3 | [f2B2][fB] [f2B2][fB] | [g3-e3-][g2e2]z |
+% - - - - - - - - - -
+[V:12] [B3B3] [E2E2][GG] | [F3F3] [D3D3] | "Tra-"A"la-"B"la-"A "la-"G"la-"F"la-"E & D2D ^C2C | "la-"D"la-"E"la,-"D "^D.S.al Fine."D2D & =C2C C2C |]
+w: Poor Sol-lie Le-vi Tra-la-la-la-la-la-la-*la-la. My
+[V:34] a3 e2g & a3 e2g | f3 d3 & f3 d3 | fgf bag & A2A A2A | f2f f-ff & d2d cBA |]
+w: | | | ~ ~ la-la, My
+% - - - - - - - - - -

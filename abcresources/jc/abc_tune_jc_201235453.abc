@@ -1,0 +1,19 @@
+X: 21153
+T: MAY'S QUADRILLES # 5
+R: jig
+B: K\"ohler's Violin Repository, v.2, 1885 p.115 #3
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Missing count in bar 4 fixed, changed g2 to g3.
+M: 6/8
+L: 1/8
+K: D
+ud |\
+dfa (d'2c') | (c'2b) (b2a) | agf bag | g3 {ag}(.f2.d) |\
+dfa (d'2c') | (c'2b) (b2a) | agf bac | d3- d2 :|
+uA |\
+f3- fed | A3- A2uA | f3- fed | (^d3 e2)uA |\
+g3- gec | A3- A2A  | b3- bag | (^e3 f2) ||
+uA |\
+f3- fed | A3- A2uA | f3- fed | a3- a2ua |\
+g3- gec | A3- A2uA | (b3 a)ge | d3- d2 "_D.C."|]

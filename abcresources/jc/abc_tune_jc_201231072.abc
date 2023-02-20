@@ -1,0 +1,26 @@
+X: 147103
+T: the INVERNESS GATHERING
+%R: march, strathspey
+B: James Kerr "Merry Melodies" v.1 p.47 s.1 #3
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Missing natural added initial G in bar 20.
+N: Bars 9-11 and 21-24 are poorly printed; most dots and some flags are missing.
+N: Bar 11 should probably have the same dotting as the rest of the tune.
+M: C
+L: 1/8
+K: A
+ue>uc |\
+d>cB>c A>Bc>A | a2e2 e2 (3(def) |\
+=g2 BA =G2 (3(BAG) | =g2d2 d2ue>c |\
+d>cB>c A>Bc>A | a2e2 e2a2 |\
+=g>ed>B =G>Bd>B | e2A2A2 :|
+(3(uefg) |\
+a>ec>e a>ec>e | a2e2 e2f2 |\
+=gagf gag>e | d>=cB>A =G2B2 |\
+(3(cBA) aA (3(cBA) aA | a2e2 e2a2 |\
+=g>ed>B =G>Bd>B | e2A2A2 ||
+(cB) |\
+(3AAA a2 (3AAA a2 | (3AAA a>g e2 d>=g |\
+(3=GGG =g2 (3GGG g2 | (3=GGG =g>e d2 B>G |\
+(3AAA a2 (3AAA a2 | (3AAA a>g e2 d>=g |\
+e>dB>d =G>Bd>B | e2A2A2 |]

@@ -1,0 +1,12 @@
+X:1802
+T:The Sunrise
+M:2/4
+L:1/16
+B:O'Neill's 1684
+N:collected by F.O'Neill
+K:G
+(DEF \
+| G>FG>BA>GE>F | G>AG>ED2z2 | d4- e>dB>G | B>AA>BA2D2 |
+| G>FG>BA>GE>F | G>AG>ED2z2 | d4-e>dB>G | A>cB>AG2 :: E2 |
+| e2E>FG>FE2 | ^d>ef>d e2z2 | e2E>FG>FE2 | ^d>ef>d e2z2 |
+| e^de>f g>fe>g | f>ed>f e2(3def | g>f>ge d>BG>B | A>cB>AG2 :|

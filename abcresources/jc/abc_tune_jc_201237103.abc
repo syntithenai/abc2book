@@ -1,0 +1,28 @@
+X: 251	% 65
+T: Valley Of The Sun Square Dance
+Q: "Tempo march"
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.24 #1
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G	% and D and C
+V: 1 name="65"
+(DG) |\
+B2(DG) B2(DG) | BBAB c2(DF) | c2(DF) e2(DF) | ffee d2(DG) |\
+B2DG B2(DG) | BBAB e2(fe) | d2(ed) c2(dF) | G2g2 "^Fine"g2 || [K:D]
+(gf) |\
+eFeF e2(fe) | dGdG d2(ed) | =c2D>E D2(dc) | B2D>E D2(gf) |\
+eFeF e2(fe) | dGdG d2(ed) | ^c2ef g2(fe) | d2d2 d2 :|
+[K:=c][K:G] (DG) |\
+B2(DG) B2(DG) | BBAB c2(DF) | c2(DF) e2(DF) | ffee d2(DG) |\
+B2DG B2(DG) | BBAB e2(fe) | d2(ed) c2(dF) | G2g2 g2 ||[K:=f]
+[K:C] (3(GAB) |\
+K[c2E2]K[c2E2] K[c2E2](EF) | GG(EF) GG(EF) | Ge ed c2(EF) | Gf fe d2 (ed) |\
+K[c2E2]K[c2E2] K[c2E2] (cB) | Af ff f2 (BA) | Ge ee e2 (dc) |
+Bg Gg Bg ga |\
+g2 (cB) Af ff | f2 BA Ge ee | e2 (dc) Bg (fd) | BGFD C2B2 |\
+c2 (DE) FF FF | F2 ED EG GG |
+G2DE FFFF | F2ED EGGG |\
+g2(EF) G2(EF) | G2(EF) Ge (ed) | c2(EF) Gf fe | d2(ed) c2c2 |\
+c2z2 "^D.C."z2 :|

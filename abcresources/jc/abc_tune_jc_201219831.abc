@@ -1,0 +1,30 @@
+X: 02
+T: the Raffle
+%R: reel
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.1 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2 |\
+BdAd BdAd | BdAd feeA |\
+BdAd BdAf | edef d2 :|
+|: f2 |\
+gbag gfdf | efed dcAd |\
+BdAd BdAf | edef d2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Each strain repeated)
+%%begintext align
+%% Hands across and back again |: lead down the
+%% middle up again and allemande |: .
+%%endtext
+%%text DOUBLE FIGURE (Tune play'd twice thro' with repeats)
+%%begintext align
+%% Set & change sides set & back again |: cross over 2 Cu: & set at
+%% bottom |: lead up the mid: cast round the top Cu: & turn |: &
+%% hands six round and back again |: .
+%%endtext

@@ -1,0 +1,62 @@
+
+X: 6
+T: Glascon Lasses    [F]
+O: T.Davis 1748
+%R: march, reel
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed.
+M: 2/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+"F"F>G Fd | cA cf | F>G "(Dm)"FA | "Gm"BG- "C7"Gc |\
+"F"F>G "Bb"Fd | "F"cA- "(Dm)"Ac | "Gm"d>e "C7"fg | "F"af2 :|
+|: (f/g/) |\
+"F"a>g fF | Ac- cf/g/ | a>g fF | "C7"egg- gf/g/ "I"|\
+"F"a>g fc | "Bb"d/e/f "F"cA "I"| "Gm"B/c/d "C7"BG | "F"AF2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 7
+T: Glascon Lasses    (G)
+O: T.Davis 1748
+%R: march, reel
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed.
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+"G"G>A Ge | dB dg | G>A "(Em)"GB | "Am"cA- "D7"Ad |\
+"G"G>A "C"Ge | "G"dB- "(Em)"Bd | "Am"e>f "D7"ga | "G"bg2 :|
+|: (g/a/) |\
+"G"b>a gG | Bd- dg/a/ | b>a gG | "D7"faa- ag/a/ "I"|\
+"G"b>a gd | "C"e/f/g "G"dB "I"| "Am"c/d/e "D7"cA | "G"BG2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 8
+T: Glascon Lasses
+%R: march, reel
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K:
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Man foot it to the 2d Wo. and cast off into the 2d Man's Place, & the 2d Wo. cast up at the
+%% same Time into the first Wo. Place | Then the 2d Man foot it to the first Wo. (he being a Top) and
+%% cast off into his Place, and the first Wo. cast up into her Place || Then the 1st & 2d Man foot it to their
+%% Partners   the first Cu. cast off one Cu. take Hands with the 2d Cu. and lead up foot it & cast off
+%% into the 2d Couple's Place.
+%%endtext

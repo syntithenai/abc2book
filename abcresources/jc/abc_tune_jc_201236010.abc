@@ -1,0 +1,24 @@
+X: 21542
+T: LENA Waltz 4
+C: Composed by J.C. Paton, Organist, Edinburgh
+R: waltz
+B: K\"ohler's Violin Repository, v.2, 1885 p.154 #2
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+U: P=!crescendo(!
+U: p=!crescendo)!
+M: 3/4
+L: 1/8
+K:Bb
+!mf!uF2 |\
+(F2D3)vB, | A,6- | A,2(.E3.A,) | (C4B,2) |\
+!p!(FG).A.B.c.d | e2z2uF2 | (FG).A.B.c.^c | !mf!d2z2uF2 |
+(F2D3)vB, | A,6- | A,2(.E3.A,) | (C4B,2) |\
+!p!(FG)ABcd | !f!e4c2 | (ag)fedc |[1B2z2 :|[2 B2(d2f2) |]
+|: !ff!(.a3.g)g2- | g2f2e2 | (.e3.d)d2- | d2c2B2 |\
+(cA)g4- | g2f2e2 | (dB)b4- | b2d2f2 |
+(.a2.g)g2- | g2f2e2 | (.e3.d)d2- | d2c2B2 |\
+(cA)g4- | g2f2A2 |\
+[1 [B6-D6-] | [B2D2](d2f2) :|\
+[2 [B6-D6-] | [B2D2]"_D.C."z2 |]\
+["Last time."[B6-D6-] | [B2D2]z2"_Fine."z2 H|]

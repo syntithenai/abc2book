@@ -1,0 +1,28 @@
+X: 1
+T: Crosby-Square
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.280
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "[each] Strain twice" instructions.
+M: 6/4
+L: 1/4
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E |\
+A3 Bcd | c3 A2a |\
+(ge)f (ec)d | B3- B2 :|\
+|: c |\
+(df2) c2B | (ce2) B2c |\
+(dc)B (cB)A | (G/A/)BG E2f |\
+(ef)B B2A | A3- A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st. couple cast off and clap hands, then they are in the second couple palce; the second couple
+%% do the same; To the first Strain twice. Then they draw the first couple into the second, and thesecond
+%% into the first's place, then right and left, then 1st. couple cast off and turn, so to the end of the Tune.
+%% Second Strain twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

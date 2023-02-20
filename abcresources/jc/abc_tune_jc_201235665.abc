@@ -1,0 +1,33 @@
+X: 21292
+T: WESTMINSTER SETT (tune 5)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.129 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+A |\
+FGF D2A, | D2E F2D | DFA dfa | agf efg |\
+fge d2A | d2e fef | gfg eba | gfe d2 H|]
+A |\
+dcd BGB | BdB AFA | A>dA G2F | EFD ABc |\
+dcd BGB | BdB AFA | BdB GAF | EFD "^D.C."d2 |]
+A |\
+ABA (c>ee) | (B>dd) (c>ee) | (e>aa) (g>bb) | BcB c2A |\
+ABA (c>ee) | (B>dd) cea | fdB ecA | dB^G "^D.C."A2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% back to back,
+%% four ladies cross hands round and back,
+%% give your other hand to partners,
+%% balance eight,
+%% turn partners,
+%% next two forward, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

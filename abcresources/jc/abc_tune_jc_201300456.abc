@@ -1,0 +1,20 @@
+X:405
+T:The Lark in the Clear Air
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+C:Traditional Irish song
+Q:1/2=80
+M:3/2
+%%MIDI program 73     Flute
+%%MIDI gchord bbb
+%%MIDI chordprog 48   String Ensemble
+%%MIDI bassprog 43    Contrabass
+%%MIDI ratio 3 1
+L:1/4
+K:C
+P:A
+|: "Em/G"ge | "C"c2 Bc "F"AF | "Csus/G"G4 "G7"(3GAB | "C"cd e2- "F"ef | "G"d2 g2 "Em/G"ge |\
+"C"c2 Bc "F"AF | "G"G4 (3GAB | "Am"ce "Dm"A2 "G7"dB | "C"c4 :|
+P:B
+"G7"(3GAB | "C"c3/B/ cd ef | "C"g4 "F"a3/g/ | "C"ge cd e/g/f | "G"e2 d2 "Em/G"ge |\
+"Am"c2 "G"Bc "F"AF | "C/E"G2- "Dm6"G2 "G/B"(3GAB | "Am"ce "Dm"A2 "G7"d>B | "C"c4 |]

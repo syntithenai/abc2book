@@ -1,0 +1,31 @@
+X: 1
+T: Blundel's Maggot
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (157)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+d2ef gfed | cdef e2ag | f2d2 efge | f2 d4 A2 |\
+d2ef gfed | cdef e2ag | f2g2 a2^g2 | a6 :|
+|: e2 |\
+cdec ece2 | cd e4 f2 | efge edcd | e2 A4 A2 |\
+agfe d2d2 | gfed c2A2 | defd efge | f2 d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1st Cu. cast off, the 1st Man fall in between the 2d and
+%% 3d Men, the 1st Wo. fall in between the 2d and 3d We. at
+%% the same Time .| The 1st Man go inside the 3d Wo. the 1st
+%% Wo. go outside the 2d Man at the same Time :| The 1st Man
+%% case up behind the 3d Man and the 1st Wo. cast off behind
+%% the 2d Wo. at the same Time .| Then cross over quite round
+%% the 3d Cu. and lead thro the 2d Cu. and right and left
+%% quite round with the 2d Cu. and turn your Partner :|
+%%endtext
+%%sep 1 8 500

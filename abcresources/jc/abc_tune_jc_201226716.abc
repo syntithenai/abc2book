@@ -1,0 +1,25 @@
+X: 10411
+T: PRAY GOODY
+Q: "Moderato"
+%R: reel
+B: "Edinburgh Repository of Music" v.1 p.41
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Most ABC software probably can't handle the melisma "ornaments" correctly, but may at least get the notes right.
+M: C
+L: 1/8
+K: G
+[|\
+d4 cBAG | BAGF GBdf |\
+g2fe dBAG | gdcB {B2}A4 |\
+d4 cBAG | BAGF GBdf |
+g2fe dBec | BdcA [GG4]"_Sy."Bdg |\
+fc'af gbd'd | efge dgbd |\
+efge dfbd | cfac Bgec |
+BAGF G4 | "_So."g2d2 {f}e2d2 |\
+gBBB {d}c2B2 | gddd gddd |\
+gdcB HB2 {A4^A4e4d4=A4^GAB}HA2 {Bc^c}y | d4 cBAG |\
+BAGF GBdf |
+g2fe dBAG | gdcB {B2}A4 |\
+d4 ({d}cB)({B}AG) | BAGF GBdf |\
+Hg2{fgag}fe dBec | Bd {^cded}H=c {BdcAFD3E/C/^C/D/E/}TF G4 |]

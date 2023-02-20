@@ -1,0 +1,30 @@
+X: 10843
+T: COTILLION No. 8. tune 5
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.84 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+c2c2e2c2 | G2G2G2 AB | c2c2 ecBA | G2G2G2g2 |\
+gfef d2g2 | e4 g4 | d2d2 dcde | c2c2c2 H|]
+CB,CD _EDEF | GFGA _BABG | cBcd _edec | {^f}g4 g4 |\
+A,B,CD _EDEF | GFGA _BABG | cBcd _edec | g2g2"^D.C."g2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 lead to the right,
+%% turn each others partners,
+%% lead to right again,
+%% with the ones you turn,
+%% swing your partners,
+%% balance 4 and turn,
+%% ladies chain,
+%% promenade 4,
+%% side couples the same.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

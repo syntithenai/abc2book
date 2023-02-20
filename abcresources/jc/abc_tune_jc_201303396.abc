@@ -1,0 +1,42 @@
+X: 12
+T: Lonesome Moonlight Waltz
+C: Bill Monroe
+Z: Arranged by John Baldry
+S: MandoZine TablEdit Archives
+L: 1/8
+Q: 200
+M: 3/4
+K: Dm
+%%continueall
+A2 |\
+"Dm"d/d/d/d/ df (3dcA | d/d/d/d/ df dc |\
+"F"A/A/A/A/ Ac (3AGF | "Dm"[F/A,/][F/A,/][F/A,/][F/A,/] [F/A,/][F/A,/][F/A,/][F/A,/] [FA,]A |
+d/d/d/d/ df (3dcA | d/d/d/d/ df dA |\
+"G"[=B/G/][=B/G/][=B/G/][=B/G/] G"E7"_G =G_A | "A"[_d/A/][_d/A/][_d/A/][_d/A/] [_d/A/][_d/A/][_d/A/][_d/A/]  [_d/A/][_d/A/][_d/A/][_d/A/] |
+"Dm"d/d/d/d/ df (3dcA | d/d/d/d/ df dc |\
+"F"A/A/A/A/ Ac (3AGF | "Dm"[F/A,/][F/A,/][F/A,/][F/A,/] [F/A,/][F/A,/][F/A,/][F/A,/] [FA,]A |
+"C"c/c/c/c/ cc (3G_A=A | c/c/c/c/ cd (3GAG |\
+"F"F/F/F/F/ F/F/F/F/ F/F/F/F/ | F/F/F/F/ [FA,][FA,] [FA,][FC] |
+"Bb"D/D/D/D/ D/D/D/D/ D/D/F/G/ | F/F/F/F/ F/F/F/F/ G/G/G/G/ |\
+"F"A/A/A/A/ AF Ad | c/c/c/c/ c/c/c/c/ A/A/A/A/ |
+"G"[=B/G/][=B/G/][=B/G/][=B/G/] GG =Bd | =B[=B/G/][=B/G/] [=B/G/][=B/G/][=B/G/][=B/G/] [=B/G/][=B/G/][=B/G/][=B/G/] |\
+"C"[e/c/][e/c/][e/c/][e/c/] [e/c/][e/c/]c (3cec | "A7"[e/_d/][e/_d/][e/_d/][e/_d/] [e/_d/][e/_d/][e/_d/][e/_d/] [e/_d/][e/_d/][e/_d/][e/_d/]|
+"Dm"d2 df (3dcA | d/d/d/d/ df dc |\
+"F"A/A/A/A/ Ac (3AGF | "Dm"[F/A,/][F/A,/][F/A,/][F/A,/] [F/A,/][F/A,/][F/A,/][F/A,/] [FA,]A |
+"C"c/c/c/c/ cc (3G_A=A | c/c/c/c/ cd GA/G/ |\
+"F"F/F/F/F/ FF (3Acd | [f/A/][f/A/][f/A/][f/A/] [f2A2] a2 |
+"Dm"d'/d'/d'/d'/ d'f' (3d'c'a | d'/d'/d'/d'/ d'f' d'c' | "F"a/a/a/a/ ac' (3agf |\
+"Dm"d/d/d/d/ d/d/d/d/ da | d'/d'/d'/d'/ d'f' (3d'c'a |
+d'/d'/d'/d'/ d'f' d'a | "G"g/g/g/g/ g"E7"_g =g_a |\
+"A"[_d'/a/][_d'/a/][_d'/a/][_d'/a/] [_d'/a/][_d'/a/][_d'/a/][_d'/a/] [_d'/a/][_d'/a/][_d'/a/][_d'/a/] | "Dm"d'/d'/d'/d'/ d'f' (3d'c'a |
+d'/d'/d'/d'/ d'f' d'c' | "F"a/a/a/a/ ac' (3agf |\
+"Dm"d/d/d/d/ d/d/d/d/ da | "C"c'/c'/c'/c'/ c'c' (3gag | c'/c'/c'/c'/ c'c' (3gag |
+"F"f/f/f/f/ f/f/f/f/ e/e/e/e/ | "F7"_e/_e/_e/_e/ _e/_e/_e/_e/ _e/_e/_e/_e/ |\
+"Bb"[b/d/][b/d/][b/d/][b/d/] [b/d/][b/d/][b/d/][b/d/] (3[bd]Bc | f/f/f/f/ f/f/f/f/ g/g/g/g/ |
+"F"[c'/a/][c'/a/][c'/a/][c'/a/] [c'a]f ad' | c'/c'/c'/c'/ c'/c'/c'/c'/ [c'/a/][c'/a/][c'/a/][c'/a/] |\
+"G"[=b/g/][=b/g/][=b/g/][=b/g/] [=bg]g =bd' | =b[=b/g/][=b/g/] [=b/g/][=b/g/][=b/g/][=b/g/] [=b/g/][=b/g/][=b/g/][=b/g/] |
+"C"c'/c'/c'/c'/ c'c' (3c'e'c' | "A7"_d'/_d'/_d'/_d'/ _d'/_d'/_d'/_d'/ _d'/_d'/_d'/_d'/ |\
+"Dm"d'/d'/d'/d'/ d'f' (3d'c'a | d'/d'/d'/d'/ d'f' d'c' |
+"F"a/a/a/a/ ac' (3agf | "Dm"d/d/d/d/ d/d/d/d/ da |\
+"C"c'/c'/c'/c'/ c'c' (3[c'g]a[c'g] | "C"c'/c'/c'/c'/ c'c' (3[c'g]a[c'g] |
+f/f/f/f/ ff (3ac'd' | "F"[f'/a/][f'/a/][f'/a/][f'/a/] [f'/a/][f'/a/][f'/a/][f'/a/] [f'/a/][f'/a/][f'/a/][f'/a/] | [f'6a6] |]

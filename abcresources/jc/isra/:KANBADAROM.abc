@@ -1,0 +1,20 @@
+X: 98
+T:Kan Badarom
+C:Gabi Swissa
+O:Israeli
+F: http://www.youtube.com/watch?v=I-5StZkWM8k
+F: http://www.youtube.com/watch?v=H2sxjHvEtN0
+F: http://www.youtube.com/watch?v=8hWEkmK-Tvs
+Q:1/4=108
+L:1/8
+M:2/4
+K:Em
+%%MIDI gchord fzfz
+  E           |"Em"B3A      |"B"F2 "Em"GA|"Em"BE3-   |"Am"E z2 E|\
+  "D"FF"Am"E^D|"D"F2"D"A2   |"G"G4       |"D"z3E     |
+| "G"B3A      | "D"F2 "D"GA |"Am"BE3-    |"Am"E z2 E |\
+  "D"FF"Am"E^D|"D"F2 "D"F2  |"Am"E4-     |"Am"E2"D"z2|
+|:"D"zB "G"BB | "D"d2 "G"B2 |"D"A4-      |"D"A2"D"z2 |\
+  "D"zA "D"AA | "Am"c2 "D"A2| "G"B4-     |"G"B2"D"z2 |
+  "D"zG "G"GG | "G"B2 "G"G2 | "D"F4-     |"D"F2"D"z2 |\
+  "D"zF"D"FG  |"D"F ^D2 z   |"D"F3 E     | "Am"E4    :|

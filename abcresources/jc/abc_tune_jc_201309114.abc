@@ -1,0 +1,118 @@
+
+X: 4305
+T: The Merry Christmas    [Bb]
+O: Walsh 1748
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 3rd part had a begin-repeat but no end-repeat; changed to fit the dance.
+P: AABBCC
+M: C|
+L: 1/8
+K: Bb
+%
+%V: 1
+|: "(F7)"c2 ((3cde) "Bb"d2B2 | "F"ABcA "Bb"B2F2 | "Cm"c2 ((3cde) "Gm"d2B2 | "F7"ABcA "Bb"B4 :|
+|: "Bb"B,2B,2 "Cm"C2C2 | "F7"FGFE "Bb"D2B,2 | "F(Cm)"c2 ((3cde) "Bb(Gm)"d2B2 | "F7"ABcA "Bb"B4 :|
+|: "Bb"bagf "Eb"edcB | "F7"ABcA "Bb"B2F2 "I"| "F7(Cm)"c2 ((3cde) "Bb(Gm)"d2B2 | "F7"ABcA "Bb"B4 :|
+%
+%V: 2 clef=bass middle=d
+%|: z4 b4 | f4 d4 | e4 g4 | f4 B4 :|
+%|: B2B2 c2c2 | dedc B4 | z4 b4 | f4 B4 :|
+%|: d4 e4 | f4 d'4 | a4 b4 | f4 B4 |]
+%%begintext align
+%% First Man turns the 2d Wo. with his Right hand .|
+%% Their Partner does ye same :|
+%% First Cu. cast off and turn .|
+%% First Cu. leads thro' the 3d Cu. and foot it :|
+%% First and 2d Cu. Right and Left quite round.
+%%endtext
+
+%%sep 1 1 500
+
+X: 4305
+T: The Merry Christmas    (F)
+O: Walsh 1748
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 3rd part has a begin-repeat but no end-repeat.
+P: AABBCC
+M: C|
+L: 1/8
+K: F
+%
+V: 1
+|: "(C7)"G2 ((3GAB) "F"A2F2 | "C"EFGE "F"F2C2 | "Gm"G2 ((3GAB) "Dm"A2F2 | "C7"EFGE "F"F4 :|
+|: "F"F2F2 "Gm"G2G2 | "C7"cdcB "F"A2F2 | "C7(Gm)"G2 ((3GAB) "F(Dm)"A2F2 | "C7"EFGE "F"F4 :|
+|: "F"fedc "Bb"BAGF | "C7"EFGE "F"F2C2 "I"| "C7(Gm)"G2 ((3GAB) "F(Dm)"A2F2 | "C7"EFGE "F"F4 |]
+%
+%V: 2 clef=bass middle=d
+%|: z4 c'4 | g4 e4 | f4 a4 | g4 c4 :|
+%|: c2c2 d2d2 | efed c4 | z4 c'4 | g4 c4 :|
+% %%begintext align
+% % First Man turns the 2d Wo. with his Right hand .|
+% % Their Partner does ye same :|
+% % First Cu. cast off and turn .|
+% % First Cu. leads thro' the 3d Cu. and foot it :|
+% % First and 2d Cu. Right and Left quite round.
+% %endtext|: e4 f4 | g4 e'4 | b4 c'4 | g4 c4 |]
+
+%%sep 1 1 500
+
+X: 4305
+T: The Merry Christmas    (C)
+O: Walsh 1748
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 3rd part has a begin-repeat but no end-repeat.
+P: AABBCC
+M: C|
+L: 1/8
+K: C
+%
+V: 1
+|: "(G7)"d2 ((3def) "C"e2c2 | "G"BcdB "C"c2G2 | "Dm"d2 ((3def) "Am"e2c2 | "G7"BcdB "C"c4 :|
+|: "C"C2C2 "Dm"D2D2 | "G7"GAGF "C"E2C2 | "G7(Dm)"d2 ((3def) "C(Am)"e2c2 | "G7"BcdB "C"c4 :|
+|: "C"c'bag "F"fedc | "G7"BcdB "C"c2G2 "I"| "G7(Dm)"d2 ((3def) "C(Am)"e2c2 | "G7"BcdB "C"c4 |]
+%
+%V: 2 clef=bass middle=d
+%|: z4 c'4 | g4 e4 | f4 a4 | g4 c4 :|
+%|: c2c2 d2d2 | efed c4 | z4 c'4 | g4 c4 :|
+% %%begintext align
+% % First Man turns the 2d Wo. with his Right hand .|
+% % Their Partner does ye same :|
+% % First Cu. cast off and turn .|
+% % First Cu. leads thro' the 3d Cu. and foot it :|
+% % First and 2d Cu. Right and Left quite round.
+% %endtext|: e4 f4 | g4 e'4 | b4 c'4 | g4 c4 |]
+
+%%sep 1 1 500
+
+X: 4305
+T: The Merry Christmas    (G)
+O: Walsh 1748
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 3rd part has a begin-repeat but no end-repeat.
+P: AABBCC
+M: C|
+L: 1/8
+K: G
+%
+V: 1
+|: "(D7"A2    (3ABc   "G"B2G2 | "D7"FGAF "G"G2D2 |\
+   "Am"A2     (3ABc  "Em"B2G2 | "D7"FGAF "G"G4 :|
+|: "G"[G2G,2][G2G,2] "Am"[A2A,2][A2A,2] | "D7"[dD][eE][dD][cC] "G"[B2B,2][G2G,2] |\
+   "D7(Am)"A2 (3ABc   "G(Em)"B2G2 | "D7"FGAF "G"G4 :|
+|: "G"gfed  "C"cBAG | "D7"FGAF "G"G2D2 "I"|\
+   "D7(Am)"A2 (3ABc   "G(Em)"B2G2 | "D7"FGAF "G"G4 |]
+%
+%V: 2 clef=bass middle=d
+%|: z4 c'4 | g4 e4 | f4 a4 | g4 c4 :|
+%|: c2c2 d2d2 | efed c4 | z4 c'4 | g4 c4 :|
+% %%begintext align
+% % First Man turns the 2d Wo. with his Right hand .|
+% % Their Partner does ye same :|
+% % First Cu. cast off and turn .|
+% % First Cu. leads thro' the 3d Cu. and foot it :|
+% % First and 2d Cu. Right and Left quite round.
+% %endtext|: e4 f4 | g4 e'4 | b4 c'4 | g4 c4 |]

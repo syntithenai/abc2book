@@ -1,0 +1,79 @@
+X: 1
+T: Coro della notte
+T: (The Night Chorus)
+C: Pietro Alessandro Yon (1866 - 1943)
+S: Guido Gonzato <ggonza:tin.it> abcusers 2002-12-23
+M: 4/4
+L: 1/4
+Q: "Largo" 1/4 = 50
+%%staves [1 2 3 4]
+V: 1 clef=treble   name="Soprano"
+V: 2 clef=treble   name="Alto"
+V: 3 clef=treble-8 name="Tenor"
+V: 4 clef=bass     name="Bass"
+%%MIDI program 1 54
+%%MIDI program 2 54
+%%MIDI program 3 54
+%%MIDI program 4 54
+K: D
+%
+[V: 1] |: FF z/F/ G/F/|[M:3/4]EF2|AA A/A/|[M:2/4](c/B) _B/|
+[V: 2] |: DD z/D/ D/D/|[M:3/4]CD2|FF F/F/|[M:2/4]^E>E     |
+    w: Dor-mi, ch\'e su te ve-glia gi\'a tut-to il Pa-ra-
+[V: 3] |: AA z/A/ B/A/|[M:3/4]AA2|dd d/d/|[M:2/4](d c/)c/ |
+[V: 4] |: dd z/d/ d/d/|[M:3/4]Ad2|dd d/d/|[M:2/4]G>G      |
+%
+[V: 1] [M:3/4]AA2|[M:4/4]GG z/F/ G/A/ |[M:3/4]GFA |
+[V: 2] [M:3/4]FF2|[M:4/4]EE z/^D/ E/E/|[M:3/4]=DDA|
+    w: di-so; dor-mi, ti splen-de~in vi-so un
+[V: 3] [M:3/4]dd2|[M:4/4]BB z/B/ B/c/ |[M:3/4]BAd |
+[V: 4] [M:3/4]dd2|[M:4/4]ee z/B/ e/A/ |[M:3/4]ddf |
+%
+[V: 1] cA B/F/  |A3|[M:4/4]FF z/F/ G/F/|[M:3/4]EF2|
+[V: 2] ^GF F/D/ |E3|[M:4/4]DD z/D/ D/D/|[M:3/4]CD2|
+    w: rag-gio tut-to d'or. Dor-mi, dor-mi Fan-ciul-lo,
+[V: 3] cc d/B/  |c3|[M:4/4]AA z/A/ B/A/|[M:3/4]AA2|
+[V: 4] ^ef d/=e/|A3|[M:4/4]dd z/d/ d/d/|[M:3/4]Ad2|
+%
+[V: 1] AA A/A/|[M:2/4](c/B) _B/|[M:3/4]AA2|
+[V: 2] FF F/F/|[M:2/4]^E>E     |[M:3/4]FF2|
+    w: ri-po-sa il cor-po san-to;
+[V: 3] dd d/d/|[M:2/4](dc/)c/  |[M:3/4]dd2|
+[V: 4] dd d/d/|[M:2/4]G>G      |[M:3/4]dd2|
+%
+[V: 1] [M:4/4]GG z/F/ G/A/ |[M:3/4]BBc|(dc/=c/ B/_B/|
+[V: 2] [M:4/4]EE z/^D/ E/F/|[M:3/4]GGA|A2G          |
+    w: lie-ve, lie-ve ti cul-lo col fre-sco
+[V: 3] [M:4/4]BB z/B/ B/d/ |[M:3/4]dde|d2d          |
+[V: 4] [M:4/4]ee z/B/ e/=d/|[M:3/4]ggg|f2g          |
+%
+[V: 1] AA z/G/      |F3 :|[M:4/4]z3 z/A,/|FF z/F/ G/F/|
+[V: 2] F/D/ E z/C/  |D3 :|[M:4/4]z3 z/A,/|DD z/D/ D/D/|
+    w: mi - o re-spir. In al-to un che-ru-
+[V: 3] (d/B/) c z/A/|A3 :|[M:4/4]z3 z/A/ |AA z/A/ B/A/|
+[V: 4] aaA          |d3 :|[M:4/4]z3 z/A/ |dd z/d/ d/d/|
+%
+[V: 1] [M:3/4]EF2|AA A/A/|[M:2/4](c/B) _B/|
+[V: 2] [M:3/4]CD2|FF F/F/|[M:2/4]^E>E     |
+    w: bi-no tra-e da-la ce-tra
+[V: 3] [M:3/4]AA2|dd d/d/|[M:2/4](dc/)c/  |
+[V: 4] [M:3/4]Ad2|dd d/d/|[M:2/4]G>G      |
+%
+[V: 1] [M:3/4]AA2|[M:4/4]G/G/ F^Ac|[M:3/4]dB z/B/     |
+[V: 2] [M:3/4]FF2|[M:4/4]E/E/ CFF |[M:3/4]FG z/G/     |
+    w: d'o-ro un ac-cor-do di-vi-no per
+[V: 3] [M:3/4]dd2|[M:4/4]B/B/ ^AcA|[M:3/4]Bd z/d/     |
+[V: 4] [M:3/4]dd2|[M:4/4]e/e/ fff |[M:3/4](b/a/)g z/g/|
+%
+[V: 1] Azz           |A/G/ FE  |F3|]
+[V: 2] Fzz           |EDC      |D3|]
+    w: te, san-to Pa-stor.
+[V: 3] (d/e/d/c/d/B/)|(c/B/) AA|A3|]
+[V: 4] azz           |AAA      |d3|]
+%
+W: Sleep, the Heavens are watching over you.
+W: Sleep, your face brights with a golden ray of light.
+W: Sleep, sleep Baby, let your sacred body rest;
+W: Gently, I gently rock you with my fresh breath.
+W: Above, an angel plays his golden harp
+W: he plays divine chords for you, o sacred Shepard.

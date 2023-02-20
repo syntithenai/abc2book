@@ -1,0 +1,37 @@
+X: 10821
+T: Andantino
+C: Gaetano Brandi
+Q: "Andantino"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.82-83
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Odd positioning of dynamic markings; adjusted to indicate the probable intent for each voice.
+M: C
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has staff lengths to match our small-scale page layout.
+V: 1
+|:\
+!p!d8- d2z!f!d (e3d) | !p!d8- d2z!f!d (e3d) |\
+"_cres"(d4 e4) (f4 g4) | !f!f4 {f/}(e2de) d4 z4 |\
+!f!(c6 B2) A4 z4 | (d6 c2) B4 z4 |\
+!p!d6 (ed) !f!(g2d2c2B2) | (B8 A4) z4 :|
+|:\
+!p!c8- c2z!f!A (d3c) | B4 !f!{d/}(c2Bc) d4 z4 |\
+!p!c8- c2z!f!A (d3c) | B4 {d/}(c2Bc) d4 z4 |\
+!f!(e6 f2) g4 z4 | !f!d6 (f2 g4) z4 |\
+!f!{f}e4 (d2c2) {d/}(c2B2) {c/}(B2A2) | (A8 G4) z4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff line breaks.
+V: 2
+|:\
+z2 !f!(G2B2c2) B4 z4 | z2 !f!(G2B2c2) B4 z4 |
+"_cres"(B4 c4) (A4 B4) | !f!d4 {d/}(c2Bc) B4 z4 | (A6 G2) F2D2F2D2 |
+(B6 A2) (G2G2B2G2) | !p!B6 (cB) !f!(B2B2A2G2) | (G8 F4) z4 :|
+|:\
+z2 !f!(D2F2G2) !f!A4 z4 | G4 {B/}(A2GA) B4 z4 | z2 !p!(D2F2G2) !f!A4 z4 |
+G4 {B/}(A2GA) B4 z4 | !f!(c6 d2) (e2c2B2A2) | !f!B6 (c2 B2)(d2c2B2) |
+!f!{d}c4 (B2A2) {B/}(A2G2) {A/}(G2F2) | (F8 G4) z4 :|
+%
+%%center -

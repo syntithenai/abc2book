@@ -1,0 +1,20 @@
+X: 10972
+T: CALVER LODGE
+O: Country dance.
+%R: reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.97 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The "8va" applies to the entire 2nd strain.
+M: C
+L: 1/8
+K: G
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d !segno!|\
+g3f agfe | ~d^cde dedB | GedB GedB | c2A2 A3d |\
+g3f agfe | d^cde dedB | GedB dcAB | G2g2 g3 H|]
+"^8va   _   _   _"B |\
+ABcB AGFA | GABc d3d | dcAc cBGB | AGAB A3B |\
+ABcB AGFA | GABc d3d | dcAc cBGB | AFGE DD"^D.C."EF !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

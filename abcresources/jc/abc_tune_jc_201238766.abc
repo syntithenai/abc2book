@@ -1,0 +1,18 @@
+X: 312
+T: 5. La Troteuse
+%R:
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.31 #2
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The last bar has a segno both above and below the double bar line.
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!G2G2 |\
+G2AB !+!B4 | A4 c2B2 | A2G2 AGFE | D2D2 G2G2 |\
+G2AB !+!B4 | A4 c2B2 | A2GF G4 | HG4 |]
+[| "2.F."d2d2 |\
+e2dc d4 | !+!B4 c2B2 | A2G2 AGFE | D2D2 d2d2 |\
+e2dc d4 | !+!B4 c2B2 | A2BG | A4 | A4 !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

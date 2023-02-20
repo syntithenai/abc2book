@@ -1,0 +1,23 @@
+X: 15101
+T: Sweet's the Lass that loves me
+%R: air, Scots measure, reel
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.5 p.10 #1
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"F |\
+D2F>G F3B | (GF)(GB) g3f | f>gfd (TcB)(cd) | {c}B2F2 F3F |\
+D2F2 (FG)(BF) | G2B2 g3f | (fg)(bg) (fd)(cd) | {c}B2(AG) G3 :|
+|: f |\
+g3a (bg)(fd) | (TcB)cd g3b | f>gbg (f<d) c>d | {c}B2(GF) F3B |\
+TG2FG B2GB | TcBcd g3f | (b<g)(f<d) (TcB)(cd) |
+{c}B2(AG) G3 :: F |\
+(DF)(BG) ({G}FG)(BF) | (GB/F/) GB g3a | (b<g)(b<g) (f<d) (c/B/c/d/) | {c}B2(GF) F3F |
+(DF)(BF) G3g | (f/d/c/B/) cd g3f | (ed)(cB) (Ae)(dc) | {c}B2(AG) G3 :: f |\
+(gf)(gb) (f/g/f/d/) (f/d/c/B/) | d(c/B/) cd g2(ba) |
+(g<b)(f<g) (d>g) (f/d/c/d/) | B>c (d/c/B/G/) {G}F3B |\
+(TGF)G2 (BG)B2 | (cd)(ba) g3a | b2(ag) f/(g/b/g/) (f/d/c/d/) | {c}B2(AG) G2 :|

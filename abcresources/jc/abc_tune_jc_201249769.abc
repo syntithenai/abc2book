@@ -1,0 +1,29 @@
+
+X: 095
+T: la Ballet Hollandoise
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.48 #95
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd and 4th strains may be rewritten as 4-bar phrases with 1st and 2nd endings.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"^A"|:\
+"D7"d2c |\
+"G"BAG "D7"AGF | "G"G2D "D7"d2c | "G"BAG "D7"AGF | "G"G3 "B":|\
+"NC"ABG |\
+"Am"ABG ABG | "(D)"A2A c2B | "D"A2G "A7"FGE | "D"D3 "NC"ABG |
+"Am"ABG ABG | "(D)"A2A c2B | "D7"A2G GAF | "G"G3 \
+"C"|: "(C)"g2g |\
+"D"f2f "C"e2e | "G"def "C"gag | "D"fed "C(A7)"Te3 | "D"d3 "D":|
+"NC"ABG |\
+"Am"ABG ABG | "(D)"A2A c2B | "D"A2G "A7"FGE | "D"D3 "NC"ABG |\
+"Am"ABG ABG | "(D)"A2A c2B | "D7"A2G GAF | "G"G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Right hands across left back again change sides
+%% 3 Cu. cast off 3 Cu. all round into their places
+%% Almand 3 Cu. cast off 1 Cu. right & left at top
+%%endtext

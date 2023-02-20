@@ -1,0 +1,27 @@
+X: 07104
+T: SANDY'S WALTZ
+C: Bob McQuillen 17 April 89
+B: Bob's Note Book 7 #104
+%R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G	% and Em
+Bc \
+| "G"d2 B2 GA | "G7"B2 d2 BA | "C"G2 E2 ED | "C7"E2 G3 E \
+| "G"D2 G2 B2 | "Em"d2 B2 BA | "Am"G2 E3 G | "D7"A4 Bc |
+| "G"d2 B2 GA | "G7"B2 dc BA | "C"G2 E2 ED | "C7"EG AG FE \
+| "G"DE G2 GB | "D"dB A2 AB | "C"AG E2 "C6"G2 | "G"G4 ||
+|| GF \
+| "Em"E2 G2 Be | "Em"dB A2 BA | "Em"G2 E3 D | "Em"E4 GA \
+| "Em"B2 e2 g2 | "B"f2 b2 ba | "Em"g2 e3 d | "Em"e4 ga |
+| "Em"b2 g2 ge | "Bm"d2 Bd Bd | "Em"ed B2 G2 | "Am"A4 GA \
+| "Em"B2 e2 ge | "Am"dB A2 BA | "Em"G2 E3 D | "Em"E4 |]
+%%begintext align
+%% Whenever I get out to the
+%% West Coast, great caller and musician Sandy
+%% Bradley is always so nice to me - So here's a
+%% waltz, just for you, Sandy, and I sure hope you
+%% like it. It comes to you with many thanks for your many
+%% kindnesses to me - love, Bob.
+%%endtext

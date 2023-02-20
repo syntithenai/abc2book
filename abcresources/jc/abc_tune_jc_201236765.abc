@@ -1,0 +1,34 @@
+X: 2302
+T: Ceann Dubh Dileas
+%R: air, jig
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.30 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slow"
+K: Em
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 lines, for compactness and proofreading.
+V: 1 staves=2
+|:\
+TB2d e2f | ~g>ag {g}Tf2e |\
+dBg {g}Tf2e | {e}dBg E2TF ||\
+G>AG dBd | e/d/e/f/g/a/ {g}Tf2e |\
+{e}d{c}B{A}G A>cB/A/ | {A}GEE ~E3 :|\
+g2Ta b2c' | bag fed |
+g.f.e .a.g.f | .b.a.g .f.e.d ||\
+g2Ta b2c' | bag (f/g/)(e/f/)d |\
+(3(g/a/g/) (3(f/g/f/) e (3(a/b/a/) (3(g/a/g/) f | .b.a.g (3f/g/f/ (3e/f/e/ d ||\
+Tbc'/b/a/g/ Tab/a/g/f/ | Tga/g/f/e/ f/a/g/f/e/d/ |
+Tbc'/b/a/g/ Tab/a/g/f/ | Tga/g/f/e/ (f/a/)g/f/e/^d/ ||\
+eEE TE>FG | TG>AB Bcd |\
+dDD D>EF | TG>AB B^cd ||\
+eEF ~G>AB | TB>AB E3 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+e2B c2A | G2B d2c' | b2e' d'2c' | b2c' c2B || e2e B2B | c2A B2g | f^de cAB |
+eee e3 :| b2f g2d | G2B d3 | bag fed | gfe dAD || B2f g2d | G2B dAD | ed^c
+fed | [e3^c3] dAD || g2e f2^d | e2^c d2f | g2e f2^d | e2g b2B ||
+cc'c' c'3 | b2g e2z | ddd d2c' | b2g f3 || e2f g>ab | b>ab e3 |]

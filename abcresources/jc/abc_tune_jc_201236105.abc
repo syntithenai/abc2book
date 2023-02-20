@@ -1,0 +1,23 @@
+X: 21653
+T: WILLIE CAMERON
+Q: "Moderate."
+%R: reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.165 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The dot over the B in bar 14 is a bit odd, and may not be real.
+M: C
+L: 1/8
+K: D	% and Bm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(cd) |\
+D2D2 D>FA>F | E>DE>F E>dc>d |\
+D3E F>GE>F | D2d2 d2(ef) |\
+D2D2 D>FA>F | E>DE>F E>dc>e |\
+d3B dcBA | F2B2 B2 |]
+F2 |\
+~B3c {e}(d2cB) | c2e2 ^A2F2 |\
+B3c edcB | c3d {f}e2(de) |\
+f3d {f}e2(Bc) | d>cd>B A2(.Bc) |\
+d2D2 D>CD>E | F2B2 B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

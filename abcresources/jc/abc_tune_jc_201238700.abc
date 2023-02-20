@@ -1,0 +1,28 @@
+X: 31193
+T: COTILLION No. 18. NIAGARA SETT tune 6
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.119 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+c2 |\
+e4 dcde | c2e2 G2c2 | A2f2 a2f2 | efed cBAG |\
+e2e2 d3g | cGAB c2G2 | ABcA Bcdg | e2d2c2 H|]
+G2 |\
+d2dc BAGF | GABc d2D2 | G2B2 A2dc | BGA^F G2AB |\
+c3B AGFE | F2dc BAGF | EcBc Ad^cd | G2B2"^D.C."c2 |]
+e2 |\
+c'3b a2a2 | ^g2d'b c'2g2 | abc'a bc'd'c' | c'bc'a e'2e2 |\
+fedf edce | dcBA ^G3B | cBA^G AcBA | E2^G2"^D.C."A2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies all balance to the right,
+%% all promenade,
+%% gentlemen the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,28 @@
+X: 4112
+T: the Highland Secretary
+C: by Nath Gow.
+%R: air, march
+B: Niel Gow & Sons "Complete Repository" v.4 p.11 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "SLOWLY"
+K: Am
+% - - - - - - - - - -
+% Voice 1 rearranged as 3 8-bar lines for compactness.
+V: 1 staves=2
+|: "^*"\
+e2A2  A3e | eaae eAe2 | e2A2 A2Bd | (e^fg).f {f}e2d2 || e2A2 A3e | eaae eAe2 | d2G2 ~G3B | ~d3e (ed) cB :|
+w: o o o o | o o o o o o o | o o o | | o o o o | o o o o o o o | | |
+a2e2 e3a | aeea gea2 | a2e2 e3^g | (abc').b a2^g2 || a2e2  e3a | aeea gea2 | g2G2 ~G3B | ~d3e {e}d2cB ||
+a2e2 e3a | aeea gea2 | a2e2 e3^g | (abc').b a2^g2 || a2e2 {ab}c'3b | agea ge{^g}a2 | g2G2 ~G3B | ~d3e (ed)cB |]
+% - - - - - - - - - -
+% Voice 2 has the staff layout of the book.
+V: 2 clef=bass middle=d
+|:\
+[a4A4] [a4A4] | [a4A4] [a4A4]  | [a4A4] [a4A4] | [a4A4] [a4A4] || [a4A4] [a4A4] | [a4A4] [a4A4] |
+[g4G4] [g4G4] | [g4G4] [g4G4] :| [a4A4] [a4A4] | [a4A4] [a4A4] |  [a4A4] [a4A4] | [a4A4] [e4E4] ||
+[a4A4] [a4A4] | [a4A4] [a4A4] |  [g4G4] [g4G4] | [g4G4] [g4G4] || [a4A4] [a4A4] | [a4A4] [a4A4] |
+[a4A4] [a4A4] | [a4A4] [e4E4] || [a4A4] [e'3e3]d' | [c'4c4] [a4A4] | [g4G4] [g4G4] | [g6G6] z2 |]
+%%text * The o show the open String may be used by the Violin Performer.
+% The book has an * before the first o in the w: line, but ABC makes it difficult to express this.

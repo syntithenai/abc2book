@@ -1,0 +1,27 @@
+X: 3092
+T: Lord Macdonalds    Reel
+N: Yeah, the title is missing its '.
+%R: reel
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.9 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+B |!segno!\
+Td3e d<Bg>B | dBgB aAAB | Td^cde dBgB | (A/B/c) TBA BG G :|\
+B |\
+DGBG TAGBG | DGBG TAGAB | DGBG TAGBG | DEDC B,G,G,G ||
+DGBG TAGBG | DGBG TA>GEc | BAGF GFED | TE>FGA BGG |: B |\
+Td3e d<Bg>B | dBgB aA-AB | Td^cde dBgB | (A/B/c) TBA BG G :|
+g |\
+(eg)bg (Tag)bg | (dg)bg (Tag)eg | (dg)bg (Tag)bg | Td>edc BGGg ||\
+(dg)bg (Tag)bg | (dg)bg (Tag)ea | (ba).g.f (gf).e.d | efga bgg!segno!b |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |!segno!|\
+g2g2 g2g2 | g2g2 d2d2 | g2g2 g2g2 | c2d2 g2G :| z | B2g2 g2G2 | B2G2 c2d2 | B2G2 g2G2 | d2D2 G2G2 ||
+B2G2 g2G2 | B2G2 c2C2 | G2d2 B2c2 | d2D2 G2G |: z | g2g2 g2g2 | g2g2 d2d2 | g2g2 g2g2 | c2d2 g2G :|
+z | b2g2 G2g2 | b2g2 c'2c2 | b2g2 g2G2 | d2D2 G2G2 || b2g2 g2g2 | G2g2 c2C2 | G2d2 G2B2 | c2d2 g2!segno! G2 |]

@@ -1,0 +1,16 @@
+X: 299
+T:Niska Banja
+O:Serbia
+F: http://www.youtube.com/watch?v=kxRNWWr4Dus
+F: http://www.youtube.com/watch?v=uU-a5uGDAu8
+F: http://www.youtube.com/watch?v=aH4QZ2YQ3eQ
+F: http://www.youtube.com/watch?v=tsH29kl2OVM
+M:10/8
+L:1/8
+K:F
+Q:1/4=180
+%%MIDI drum dddd2 54 54 54 54 60 40 40 40
+%%MIDI drumon
+%%MIDI program 1
+| z6C4    |:F2F2F2F4 |A2B2G2A4|A2B2G2A4 |G2G2F2F4 :|
+|:A2B2G2A4|G2G2G2FGA2|A2B2G2A4|G2G2G2F4 :|

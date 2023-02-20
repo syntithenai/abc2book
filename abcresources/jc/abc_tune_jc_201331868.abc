@@ -1,0 +1,15 @@
+X: 1125
+T: Roudledum - 1st Setting
+R: slip jig
+%S: s:2 b:8(4+4)
+B: O'Neill's 1850 #1125
+Z: Michael D. Long, 1/9/99
+Z: Michael Hogan
+N: The book's notation for bar 4's middle beat is obviously wrong; fixed.
+M: 9/8
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+|: Dzd dcB czA | ded fed fga | bge afd cBA | BcB B(c/B/A) Bcd :|
+|: BEE BzE FED | BEE BzE {e}dcd | BEE BzE FED | AGF FED FGA :|

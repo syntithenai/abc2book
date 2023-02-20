@@ -1,0 +1,43 @@
+X: 1
+T: Headlands, The
+C: Ronnie Cooper (1934-1982)
+S: Source: RCC / history FC
+R: March
+M: 2/4
+L: 1/8
+Q: "Bowings are suggestions"
+K: A
+"^A"[|]\
+     (e>d)   |  "A"dc  "E/A"BA |"A"A<c    "A7"E>A | "D"FA    "A/D"df | "A"e2  \
+ "E7"(ef/g/) |  "A"a>e "E/A"fa |"A"fe    "F#m"dc  |"B7"c>B "F#/B7"Ac |"Bm"B2 .|
+  "E7"e>d    |  "A"dc  "E/A"BA |"A7"A<c "E/A7"E>A | "D"FA    "A/D"df | "D"a2  \
+"D#°"(gf)    |"E/A"ea  "F#m"Ac |"Bm"Bf    "E7"ed  | "A"c2      "D"A2 | "A"A2 :|
+"^B"|:\
+  "E7"(ef/g/) |"A"a>e "E/A"fa | "A"ce  "A7"cA  | "D"dA    "A/D"df | "A"e2  \
+  "E7"(ef/g/) |"A"a>e "E/A"fa | "A"fe "F#m"dc  |"B7"c>B "F#/B7"Ac |"Bm"B2 .|
+[1"E7"(ef/g/) |"A"a>e "E/A"ea | "A"ce  "A7"cA  | "D"dA    "A/D"df | "D"a2  \
+  "D#°"g>f    |"A"ea  "F#m"Ac |"Bm"Bf  "E7"ed  | "A"c2      "D"A2 | "A"A2 :|
+[2" E7"e>d    |"A"dc  "E/A"BA |"Em"A<c "A7"E>A | "D"FA    "A/D"df | "D"a2  \
+  "D#°"gf     |"A"ea  "F#m"Ac |"Bm"Bf  "E7"ed  | "A"c2      "D"A2 | "A"A2  |]
+
+X: 2
+T: Headlands, The
+C: Ronnie Cooper (1934-1982)
+O: (as played by Sandy MacIntyre)
+S: Michael Pavan 2020-7-17
+M: 2/4
+L: 1/8
+K: A
+"^A"[|]\
+     (e>d)   | ~"A"dc ~"E/A"BA  | "A"A<c   "A7"E>A | "D"F>A      "A/D"d<f   |    "A"e2     \
+ "E7"(ef/g/) |  "A"a>e "E/A"f<a |~"A"fe   "F#m"d<c |{d}"B7"c>B "F#/B7"A<c   |{c}"Bm"B2    .|
+  "E7"e>d    | ~"A"dc ~"E/A"BA  |"A7"A<c "E/A7"E>A | "D"F>A      "A/D"d<f   | {f}"D"a2     \
+"D#°"(gf)    |"E/A"e<a "F#m"A>c |"Bm"B>f   "E7"e<d |~"A"c2        "D"[A2A2] |   "A"[A2A2] :|
+"^B"|:\
+  "E7"(ef/g/) | "A"a>e "E/A"f<a | "A"c>e  "A7"c<A |  "D"d>A   "A/D"d<f   | "A"e2    \
+  "E7"(ef/g/) | "A"a>e "E/A"f<a |~"A"f>e "F#m"d<c |~"B7"c>B "F#/B7"A<c   |"Bm"B2   .|
+[1"E7"(ef/g/) | "A"a>e "E/A"e<a | "A"c>e  "A7"c<A |  "D"d>A   "A/D"d<f   | "D"a2    \
+  "D#°"g>f    | "A"e<a "F#m"A>c |"Bm"B>f  "E7"e<d | ~"A"c2      "D"A2    | "A"A2   :|
+[2" E7"e>d    |~"A"dc ~"E/A"BA  |"Em"A<c  "A7"E>A |  "D"F>A   "A/D"d<f   | "D"a2    \
+  "D#°"g>f    | "A"e<a "F#m"A>c |"Bm"B>f  "E7"e<d |  "A"c2     "D"[A2A2] |"A"[A2A2] |]
+%D:2014.10.07

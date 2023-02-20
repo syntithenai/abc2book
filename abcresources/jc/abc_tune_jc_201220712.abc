@@ -1,0 +1,43 @@
+X: 03
+T: Cotillon III.     la Timide.
+%R: march, reel
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #3
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain has a repeat in the bass but not in the treble voice; V:1 repeat added.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+b4 |\
+B4 g4 | G4 e4 | c2A2F2D2 | G4 b4 |\
+B4 g4 | G4 e4 | ^c2e2A2c2 | d4 :|
+|: d2d2 |\
+c2D2B2B2 | A4 d2d2 | (cdcB) A2d2 | B4 d2d2 |\
+c2D2B2B2 | A4 B2g2 | (ecBA) G2F2 | G4 :|
+|: GbGb |\
+e2c2 ADdc | B4 GgGg | e2c2 ADdc | B4 GgGg |\
+e2c2 AaAa | f4 gdcB | ecBA G2F2 | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z4 |\
+g4 G4 | B4 c4 | d4 f4 | g4 z4 |\
+g4 G4 | B4 g4 | a4 A4 | d4 :|\
+|: z4 |
+f4 g4 | d4 z4 | f4 d4 | g4 z4 |\
+f4 g4 | d4 g4 | c4 d4 | G4 :|
+|: B4 |\
+c4 d4 | G4 B4 | c4 d4 | G4 B4 |\
+c4 ^c4 | d4 B4 | c4 d4 | G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    Ballance& Rigadoon step, then all round & do the same in all changes,
+%% then the 2 first Couple faces the two 2d Couple & fall back & change Places, the two
+%% 2d Couple do the same, the four Ladies make a cross in the Centre & takes the Gentleman
+%% by the right Hand, all 4 Couple half round, Rigadoon step, the 4 Gentleman changes
+%% Places with the Ladies & make a cross, & goes a whole round into their own Places.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.

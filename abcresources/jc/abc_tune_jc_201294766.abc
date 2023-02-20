@@ -1,0 +1,23 @@
+X:377
+T:Jubilee Roundabout
+C:Freda Burford, 1961
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=112
+M:2/2
+%%textfont Times-Roman 28
+L:1/8
+K:G
+P:A
+Bc | "G"d2B2 G2B2 | "G"d4 g4 | "G"d3B "C"cBAG | "A7"E4 "D7"D2EF |\
+"G"G2A2 B2d2 | "C"e2d2 "G"B2G2 | "C"E2G2 "D"FGAF | "G"G4 z2 :|
+P:B
+|: d2 | "G"gaba g2e2 | "G"d2e2 g2a2 | "Em"b3a g2e2 | "G"d2B2 "D"A2B2 |\
+"G"G3A "D"B2d2 | "C"edcB "D"A2BA | "Em"G2E2 "C"G2A2 | "G"G4 z2 :|
+%%center Jubilee Roundabout - Second tune
+K:G
+P:A
+|: G2 | "G"B2d2 g3b | "C"agfe "G"d3d | "C"e2g2 "G"d2B2 | "Am"edcB "D7"AGFE |\
+"G"D2GD "C"E2AE | "D"F2 BF "Em"GABc | "Am"d2g2 "D7"dcBA | "G"B2G2 G2 :|
+P:B
+|: z2 | "Em"g3g g2e2 | "Bm"edef "Em"g2e2 | "Bm"d2B2 "Em"e2B2 | "Am"AGAB "D7"AcBA |\
+"G"G2GB "D"A2Ac | "G"B2d2 "C"bagf | "G"g2B2 "D7"AcBA | "G"B2G2 G2 :|

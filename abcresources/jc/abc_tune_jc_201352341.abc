@@ -1,0 +1,38 @@
+X:1
+T: White Wheat
+N:
+C:
+S:
+A:
+O:
+R:
+M:3/4
+K:D
+I:speed 120
+%W:         A1
+% voice 1 (1 lines, 16 notes)
+K:D
+M:3/4
+L:1/16
+D2 F2 A6 F2 |G2 G2 E6 G2 |A2 F2 D6 F2 |A2 A6 z2 F2 |
+%W:
+% voice 1 (1 lines, 15 notes)
+G2 G2 B6 G2 |F2 F2 A6 F2 |F2 E2 E6 C2 |D2 D6 z4 |
+%W:         A2
+% voice 1 (1 lines, 16 notes)
+D2 F2 A6 F2 |G2 G2 E6 G2 |A2 F2 D6 F2 |A2 A6 z2 F2 |
+%W:
+% voice 1 (1 lines, 15 notes)
+G2 G2 B6 G2 |F2 F2 A6 F2 |F2 E2 E6 C2 |D2 D6 z4 |
+%W:         B1
+% voice 1 (1 lines, 16 notes)
+D2 D2 d6 B2 |G2 G2 G6 F2 |E2 E2 e6 c2 |A2 A6 z2 D2 |
+%W:
+% voice 1 (1 lines, 16 notes)
+G2 G2 B6 G2 |F2 F2 A6 F2 |F2 E2 E6 D C |D2 D6 z4 |
+%W:         B2
+% voice 1 (1 lines, 16 notes)
+D2 D2 d6 B2 |G2 G2 G6 F2 |E2 E2 e6 c2 |A2 A6 z2 D2 |
+%W:
+% voice 1 (1 lines, 16 notes)
+G2 G2 B6 G2 |F2 F2 A6 F2 |F2 E2 E6 D C |D2 D6 z4 ||

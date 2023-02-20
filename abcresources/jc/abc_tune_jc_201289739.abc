@@ -1,0 +1,52 @@
+
+X: 1
+T: Ich hatt' einen Kameraden
+C: Worte: Ludwig Uhland (1809)
+C: Musik: Friedrich Silcher (1825)
+M: 4/4
+L: 1/8
+K: G
+D2 \
+| "G"[G2B,2] [B2D2] "(D7)"[B2D2] [A2C2] | "G"[G4B,4] [D2B,2] [GB,][AD] \
+| "G"[B2G2] [d2B2] "D7"[d2A2] [c2F2] | "G"[B4G4] z2 [GB,][AD] |
+w: 1.~Ich hatt' einen Ka-me-ra-den, ei-nen bes-sern findst du nit. Die
+w: 2.~Eine Ku-gel kam ge-flo-gen gilt es mir oder gilt es dir? Ihn*
+w: 3.~Will mir die Hand noch rei-chen, der-*weil ich e-ben lad'. Kann*
+| "G"[B2G2] [B2G2] "(D7)"[B2G2] [A2F2] | "G"[B3G3] [cA] [d2B2] [cA][BG] \
+| "D7"[A2F2] [A2F2] [A2F2] [G2E2] | "D7"[A3F3] [BG] [c2A2] [d2F2] |
+w: 1.~Trom-mel schlug zum Strei-*te, er-*ging an mei-ner Sei-*te in
+w: 2.~hat es weg-ge-ris-*sen, er* liegt mir vor den F\"us-*sen, als
+w: 3.~dir die Hand nicht ge-*ben; bleib* du im ew-gen Le-*ben, mein
+| "G"[B2G2] [B2G2] "D7"[A2F2] [AD]B | "C(Em)"[G4E4] "D7"[A4D4] \
+| "G"[B2G2] [d2B,2] "D7"[A2D2] [AC]B | "G"[G4B,4] z2 |]
+w: 1.~glei-chem Schritt und* Tritt, in glei-chem Schritt und* Tritt.
+w: 2.~w\"ar's ein St\"uck von* mir, als w\"ar's ein St\"uck von* mir.
+w: 3.~gu-ter Ka-me-*rad, mein gu-ter Ka-me-*rad!
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Ich hatt' einen Kameraden
+C: Worte: Ludwig Uhland (1809)
+C: Musik: Friedrich Silcher (1825)
+M: 4/4
+L: 1/8
+K: C
+G2 \
+| "C"[c2E2] [e2G2] "(G7)"[e2G2] [d2F2] | "C"[c4E4] [G2E2] [cE][dG] \
+| "C"[e2c2] [g2e2] "G7"[g2d2] [f2B2] | "C"[e4c4] z2 [cE][dG] |
+w: 1.~Ich hatt' einen Ka-me-ra-den, ei-nen bes-sern findst du nit. Die
+w: 2.~Eine Ku-gel kam ge-flo-gen gilt es mir oder gilt es dir? Ihn*
+w: 3.~Will mir die Hand noch rei-chen, der-*weil ich e-ben lad'. Kann*
+| "C"[e2c2] [e2c2] "(G7)"[e2c2] [d2B2] | "C"[e3c3] [fd] [g2e2] [fd][ec] \
+| "G7"[d2B2] [d2B2] [d2B2] [c2A2] | "G7"[d3B3] [ec] [f2d2] [g2B2] |
+w: 1.~Trom-mel schlug zum Strei-*te, er-*ging an mei-ner Sei-*te in
+w: 2.~hat es weg-ge-ris-*sen, er* liegt mir vor den F\"us-*sen, als
+w: 3.~dir die Hand nicht ge-*ben; bleib* du im ew-gen Le-*ben, mein
+| "C"[e2c2] [e2c2] "G7"[d2B2] [dG]e | "F(Am)"[c4A4] "G7"[d4G4] \
+| "C"[e2c2] [g2E2] "G7"[d2G2] [dF]e | "C"[c4E4] z2 |]
+w: 1.~glei-chem Schritt und* Tritt, in glei-chem Schritt und* Tritt.
+w: 2.~w\"ar's ein St\"uck von* mir, als w\"ar's ein St\"uck von* mir.
+w: 3.~gu-ter Ka-me-*rad, mein gu-ter Ka-me-*rad!

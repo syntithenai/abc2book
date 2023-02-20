@@ -1,0 +1,36 @@
+X: 10491
+T: COLLEGE HORNPIPE
+C:
+%R: hornpipe, reel
+N: This is version 2, for ABC software that understands tremolo notation.
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.49 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+dc |\
+B2B,2B,2 FE | DF B2B2 dB | c2C2C2 cB | AFAc f2ga |\
+bagf gfed | edcB BAGF | GBAc Bdce | d2B2B2 :|
+|: FE |\
+DFBF DFBF | G2E2E2 GF | =EGcG EGcG | A2F2F2 ed |\
+e2g2 gfed | edcB BAGF | GBAc Bdce | d2B2B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+FE |\
+D2B,2B,2 DC | B,2D2D2z2 | A,2A,2A,2 AG | F2F2A2z2 |\
+D4!trem2!F4 | D4!trem2!F4 | E2E2D2F2 | F2D2D2 :|
+|: z2 |\
+B,DDF B,DDF | E2G,2G,2z2 | C=EEG CEEG | F2A,2A,2 c=B |\
+c2e2 edcB | G4 F4 | E4 D2F2 | F2D2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+B2df b2z2 | B2B2B2z2 | F2Ac f2z2 | f2f2f2z2 |\
+b2b2b2b2 | b2b2b2b2 | e2f2g2a2 | a2B2B2 :|
+|: z2 |\
+b2b2 b2b2 | e2e2e2z2 | c'2c'2 c'2c'2 | f2f2f2z2 |\
+a4 b4 | e2=e2f2d2 | e2f2g2a2 | b2B2B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

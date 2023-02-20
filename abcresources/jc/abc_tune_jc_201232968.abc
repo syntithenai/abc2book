@@ -1,0 +1,14 @@
+X: 76
+T: 1814 Sl\"angpolska
+O: S\"odermanland
+S: handwritten copy from Paul Milde June 2013
+S: http://www.folksweden.com/files/1814.pdf 2021-5-28
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Z: (2021: slightly modified after several other versions)
+M: 3/4
+L: 1/8
+K: G
+"^A"|: dc B2 G2 | cB A2 D2 | G>F GA Bc |[1,3 d>e dc Bc :|[2,4 AF A4 :|
+"^B1 *"|: DD DD D^D | ^DE EE EF | G>A BA GF |[1,3 G2 D/E/D/C/ B,C :|[2,4 G2 G4 :|
+"^B2"|: G,>B, B,B, B,B, | B,>C CC CF | G>A BA GF |[1,3 G2 DC B,A, :|[2,4 G2 G4 :|
+%%text * B1 and B2 are from two different sources.

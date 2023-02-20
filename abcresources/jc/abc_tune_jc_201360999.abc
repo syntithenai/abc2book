@@ -1,0 +1,14 @@
+%%scale 1.25
+%%barsperstaff 4
+X: 1
+T:Woody Woodpecker Reel
+C:Donald Ridley
+M:4/4
+L:1/8
+K:D
+%%staves{RH1}
+V:RH1 clef=treble
+|A,2|:"D"FAAF "A/D"DAFD|"G"B,DDB, "B/G"G,2 B,2|"D"A,DDF "F#/D"AFDF|"A"EAA^G "C#/A7"A2 A,2
+|"D"FAAF "A/D"DAFD|"G"B,DDB, "Em"G,2 B,2|"D"A,DDF "C#/A7"EAGE|"D"F2 D2 "D"D2:||
+|:"D7"GA|"G"BGGB "B/G"dBGB|"D"FAAF "D"D2 "E7"ED|"A"CAAC "C#/A"ACCA|"D"FAAF "F#/D7"A2 FA
+|"G"BGGB "B/G"dBGB|"D"FAAF "E7"D2 ED|"A"CAAC "C#/A7"EAAE|"D"F2 D2 "D"D2:||

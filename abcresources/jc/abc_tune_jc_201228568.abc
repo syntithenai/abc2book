@@ -1,0 +1,26 @@
+X: 11393
+T: the NEGLECTED SOLDIER
+Q: "Moderate."
+%R: march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.139 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Final rest added to fix the rhythm of repeats.
+M: C
+L: 1/8
+K: Eb
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B |\
+B2(BA) G2(AB) | c2c2 B3B |\
+(cd)(ec) d2(ef) | g4 f2zB |\
+B2(BA) G2AB | (cd)(ec) B2zB |\
+(cd)(ec) d2(ef) | {g2}f4 e2z |]
+e |\
+(gb)(ag) f2(ed) | e3f (ed)(cB) |\
+(cd)(ec) d2(ef) | g4 f2zB |\
+(Bc)(BA) {A}G2(AB) | (cd)(ec) B2zB |\
+(cd)(ec) d2(ef) | f4 e2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

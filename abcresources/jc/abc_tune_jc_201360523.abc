@@ -1,0 +1,15 @@
+X:1
+T:Tobogubben
+R:polska O
+C:efter Eric Sahlström
+M:3/4
+L:1/16
+Q:1/4=125
+K:F
+% part A
+|: ("F"c3a) (a2c2) f3g | ("Bb"(3fgf) (e2B2) d3d | "C"c4 (B2G2) E3G) | ("F"F2E2) (F3A) c3f \
+|  ("F"f3a) (a2c2) f3g | ("Bb"(3fgf) (e2B2) d3d | "C"c4 (B2G2) E3G) | ("F"GF3) F8 :|
+% part B
+|: "F"A4 (F3A) d3A | "Dm"c4 (B2A2) G3F | ("C"E3G) (c2e2) g3e | ("F"f2ef) (a3f) c3B \
+|  "F"A4 (F3A) d3A | "Dm"c4 (B2A2) G3F | ("C"E3G) (c2e2) g3e | "F"f4 [f8c8] :||
+

@@ -1,0 +1,34 @@
+X:1073
+T:Para Handy
+C:Joe Buchanan's Scottish Tome - Page 249.0-250.0
+I:249 0
+Z:Carl Allison
+C:Ben Gourby
+R:Folk
+L:1/8
+M:C
+K:G
+"^Intro" z4 | z4 z2 (dc) |B2 G2 ((3GAG) (FG) | D2 d z d4 | D2 d z d4 |
+(DEDE) (FGFG) | (ABA)B (cdef) | .g2 .G2 .G2 .G2 | .G2 .G2 .G2 |]
+"^Main Theme"|: (dc) | "G"B2 G2 "D"((3GAG) "G"(FG) | "G"D2 d z "D"d4 | "Am"c2 A2 "E"((3ABA) "Am"^GA | "Am"E2 e z e2 (dc) |
+"G"B2 G2 "D"((3GAG) "G"(FG) | "G"D2 d z "E7"((3ded) ^cd | "Am7"=cBAG "D7"FAdc | "G"B2 G2 G2  :|
+((3def) |"C" g2 (fe) "E"d2 c2 |"G" B2 (Be) "G"d4 |"D7" A2 (Ad) "D7"c4 |"C" G2 (Gc) "G"B>c ((3def) |
+"C"g2 (fe) "G"d2 "C"c2 |"G" B2 (Be) "G#dim"d4 |"Am7" cBAG "D7"FAdc | "G"B2 G2 G2 :|
+dc |"G" B2 G2 "D"((3GAG) "G"(FG) | "G"D2 d z "D"d4 | "Am"c2 A2 "E"((3ABA) "Am"(^GA) | "Am"E2 e z e2 "E7"(dc) |
+"G"B2 G2 "D"((3GAG) "G"(FG) |"G" D2 d z "E7"((3ded) (^cd) |"Am7" cBAG "D7"FAdc | "G"B2 G2 G2 z2 |]
+"G"D8 | "F"C2 CD ED C2 | "G"D8 | "F"C2 CD ED C2 |
+"G"D8 | "F"C2 CD ED C2 | "Bb" _B2 z Bcdc B2 | "A7"A2 z ab agfe |
+[K:D]"D"(f2 a2) "D"(a2 f2) |"C#" e2 (ef "A"ec A2) | "Dm"(d2 f2) "D"(f2 "Bm"d2) | "F#m"c2 (cd "C#"cA "F#m"F2) |
+"G"(B2 d2) "G"(d2 B2) | "D" (A^GAd "Bm"f4) |"E7" e z ef edcB |  "A7"c2 "Bm7"d2 "C#"^d2 "A7"e2 |
+"D"(f2 a2) "D"(a2 f2) |"C#" e2 (ef "A"ec A2) | "dm"(d2 f2) "D"(f2 "Bm"d2) | "F#m"c2 (cd "C#"cA "F#m"F2) |
+"G"(B2 d2) "G"(d2 B2) | "D" (A^GAd "Bm"f4) | "F7"BGed "A7"cAfe | "D"d2 "G"d2 "D"d2 |]
+[K:Bb]f2 | ("Bb"d2 f2) ("Bb"f2 d2) | "F7"c2 (cd "F"cA F2) | ("Gm"B2 "Bb"d2) ("Gm"d2 B2) | "Dm"F2 (FG "A"AF "Dm"D2) |
+"Eb"(G2 B2) "G"(B2 "Eb"G2) |"Bb" (F=EFB "Gm"d4)| "C7"c z cd cBAG | A2 B2 =B2 c2 |
+"Bb"(d2 f2) "Bb"(f2 d2) |"F" c2 (cd cA F2) |"Gm" (B2 d2) "Bb"(d2 "Gm"B2) |"Dm" F2 (FG "A"AF "Dm"D2) |]
+"Eb"(G2 B2) "G"(B2 "Eb"G2) |"Bb" (F=EFB "Gm"d4)|"C7" GEcB "F7"AFdc | "Bb"B2 "Eb"B2 "Bb"B2 |
+[K:G]dc |"G" B2 G2 "D"((3GAG) "G"FG |"G" D2 d z "D"d4 |"Am" c2 A2 "E"((3ABA) "Am"^GA |  "Am"E2 e z e2 "D7"dc |
+"G"B2 G2 "D"((3GAG) "G"FG |"G" D2 d z "E7"((3ded) ^cd |"Am7" cBAG "D7"FAdc | "G"B2 G2 G2 z2 |]
+"G"D2 d z d4 |"G" D z d2 d4 | d2 d' z d'4 | d2 d' z d'4 |
+"Am7" c'bag "D7"fdef | "G"[Bg]2 "Cm"[cg]2 "G"[Bg]2 z2 |]
+W:Errata: Added repeat symbol at start of main theme, changed three notes at beginning of line three
+W:in the main theme to a triplet.

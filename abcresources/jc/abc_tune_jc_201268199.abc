@@ -1,0 +1,29 @@
+X:1
+T: The Despairing Lover
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 31 notes)
+K:Am
+M:4/4
+L:1/16
+e8 A4 e4 |f8 d6 f2 |e4 d2 c2 B2 c2 B2 A2 |^G8 E8 |e4 c4 A4 e4 |f4 d4 e4 a4 |e4 d2 c2 B2 c2 B2 A2 |A16 |
+%W: A2
+% voice 1 (1 lines, 31 notes)
+e8 A4 e4 |f8 d6 f2 |e4 d2 c2 B2 c2 B2 A2 |^G8 E8 |e4 c4 A4 e4 |f4 d4 e4 a4 |e4 d2 c2 B2 c2 B2 A2 |A16 |
+%W: B
+% voice 1 (1 lines, 34 notes)
+B8 E4 B4 |c6 B2 A4 e4 |f4 e4 d4 c4 |B12 e2 f2 |g4 e2 d2 c4 g4 |a2 g2 f2 e2 d4 c'2 b2 |a2 g2 f2 e2 d6 c2 |c12 e4 |
+%W:
+% voice 1 (1 lines, 29 notes)
+a8 e4 a4 |b8 e4 b4 |c'6 b2 a2 c'2 b2 a2 |^g12 a2 b2 |c'4 e4 d4 f4 |c4 c'4 B4 b4 |A4 a4 a6 ^g2 |a12 e4 |
+%W:
+% voice 1 (1 lines, 11 notes)
+f8 B4 d4 |e8 ^G4 e4 |d4 c4 B6 A2 |A16 ||

@@ -1,0 +1,37 @@
+X: 20441
+T: the Scotts Gavot
+%R: air
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.44 #1
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+"_Moderato"(GA) |\
+{c}B2(AG) {e}d2(cB) | TAGAB G2(GA) |\
+{c}B2(AG) (dB)(TAG) | F>GAB A2(AB) |\
+c2(c/d/e) {e}d2(TcB) | AGAB E2(ef) |
+g3a (g/a/b) ag | d2 g>a g2 :: (de) |\
+{g}f2(Ted) d2(TBA) | (AB)(de) d2de |\
+(fg)(ac') (bg)(d'b) | Tagab a2(ab) |
+(c'b)(d'c') (ba)(c'b) | (ag)(ba) {g}f2Ted |\
+d3e (dB)(AG) | FGAB {d}c2(BA) |\
+{c}B2(TAG) {e}d2(TcB) | TAGAB G2GA |\
+{c}B2(TAG) dBTAG |
+(FG)(AB) A2(AB) |\
+c2(c/d/e) {e}d2Tc>B | TAGAB E2e>f |\
+g3a (g/a/b) Tag | d2g>a g2 :: e>f |\
+{a}g2(Tfe) e2(e/f/g) | B2e>f e2(ef) |
+(ga)(bc') (bg)(fe) | (^de)(fg) f2(f/g/a) |\
+{a}g2(Tfe) B2(ef) | {a}g2(fe) b3c' |\
+(b<g) (f<e) B2 e>f | {a}g2Tfe e2Tdc |\
+{c}B2TAG {e}d2TcB |
+TAGAB G2GA |\
+{c}B2TAG dB(TAG) | F>GAB A2(AB) |\
+c2(c/d/e) {e}d2TcB | TAGAB E2e>f |\
+g3a (g/a/b) a>g | d2g3a g2 :|
+% - - - - - - - - - -
+% It's not clear whether the following tune (the Scotts Gavot)
+% was intended as a separate tune, or a finale for this tune.
+% The formatting of the Scotts Gavot was a bit odd.

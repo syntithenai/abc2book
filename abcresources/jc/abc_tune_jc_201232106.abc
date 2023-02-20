@@ -1,0 +1,20 @@
+X: 164
+T: the Lakes Kellarnie
+%R: jig
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.63 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Added a couple of missing (or lost) dots after notes.
+M: 6/8
+L: 1/8
+K: D
+d/e/ !segno!|\
+.f.d.d .e.d.d | afb afd' | bee Te>fg/a/ | bge Te2d/e/ |\
+.f.d.d Tedd | afd' Hd'2c'/b/ | a(g/f/)e/d/ afd | TBAd Hd2 :|
+f/g/ |\
+(a/b/)a/f/d' (a/b/)a/f/d' | c'ee Te>fg/e/ |\
+(a/b/)a/f/d'2 (a/b/)a/f/d'2 | TBAd Td2(f/g/) |\
+(af).d (af).d | abb Tb>c'd' |
+(af).d (af).d | gee Te2(f/g/) |\
+(af).d (af).d | abc' Hd'2c'/b/ |\
+afd afd | e(e/f/)g/e/ Hb2a/g/ !segno!|]

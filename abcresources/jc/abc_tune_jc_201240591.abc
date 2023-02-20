@@ -1,0 +1,27 @@
+X: 4023
+T: Countess of Cassilli's    Strathspey
+C: by Nath. Gow
+%R: strathspey, air
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.2 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "Slow"
+K: A
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 6-bar lines.
+V: 1 staves=2
+E2 |\
+A2A2[A2C2][A2C2] A3B {AB}c3B | TA3B (AF)ETC B,2B2TB2 {d}cB |\
+[A2A2][A2A2][A2A2][A2A2] [A3A3]B {AB}c3B | A3B (AF)EC A,2A2A2 :| Tc>d |\
+.e2.e2 (dc)TBA Tf3g (ba)(gf) | e2c2 (dc)TBA G2B2B2 Tc>d |
+.e2.e2 (dc)(BA) Tf3g (ba)gf | {^d}e3E (FG)AB c2A2A2 Tc>d ||\
+e2fe (dc)(BA) Tf3g (ba)(gf) | e2ae (dc)(BA) G2B2B2 Tc>B |"_Expr.o"\
+A3c TF3A TE3F (ED)(CB,) | A,2A2 (cB)(AG) A2A,2A,2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | A4 a4 A4 A4 | c4 A4 e4 E4 | A4 a4 c2e2 a2g2 | f2d2 e2E2 A4 A2 :|
+z2 | A2a2 A4 d2d'2 d4 |
+A2a2 d2^d2 e4 E2z2 | A2a2 A4 d2d'2d4 | A2c2 d2e2 A4 A2z2 ||\
+A2a2 A4 d2d'2 d4 | c4 d2^d2 e4 E2z2 |"_Expr.o"[c4a4][d4a4] c2d2 c3B | A4e2E2 A4A2 |]

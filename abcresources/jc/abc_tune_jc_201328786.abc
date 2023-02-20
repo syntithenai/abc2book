@@ -1,0 +1,76 @@
+
+X: 0
+T: Red House
+T: 8x40R2
+O: RSCDS 7-2
+N: Playford 1721, as a 48-bar dance. RSCDS condensed the first 16 bars to 8.
+R: reel
+K:
+%
+%%begintext
+%%1-2-3-4-2-3-4-1
+%%First tune ABBCC
+%%Other tunes ABBAB
+%%endtext
+P: Red House
+R: reel
+B: RSCDS 7-2
+S: Henry Playford – Dancing Master, 9th edition (1695)
+N: 17th. century as "The Red House".  Later renamed "Where would bonnie Annie lie?"
+N: from words of Allan Ramsey's song, 1724.  in RSCDS from Walshe's Country Dances 1731.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: C|
+L: 1/8
+K: Gm
+   BA \
+| "Gm"G2g4fe | d4B4 | "F"A2f4ed | c2dc "(D7)"dcBA \
+| "Gm"G2g4fe | d4B4 | "Cm"cBAG "D7"^FGA2 | "Gm"B2G2 G2 |]
+|: Bc \
+| "Gm"dcBA GABc | d4 B4 | "F"cBAG FGAB | c4 A4 \
+| "Gm"dcBA GABc | d4 B4 | "Cm"cBAG "D7"^FGA2 | "Gm"B2G2 G2 :|
+|: Bc \
+| "Bb"d2d2 d2Bc | d2d2 d2AB | "F"c2c2 c2AB | c2c2 c2Bc \
+| "Bb"d2d2 d2Bc | "Gm"d2d2 d2AB | "Cm"cBAG "D7"^FGA2 | "Gm"B2G2 G2 :|
+P: Jamie Allen
+M: C|
+L: 1/4
+Z: John Chambers <jc:trillian.mit.edu>
+N: Jamie Allen was a Northumbrian small-pipes player.
+K: G
+ G/A/ \
+| "G"BG GA | "Em"B2 GA/B/ | "Am"cA AB | "D7"c2 BA \
+| "G"Gg "C"ge | "G"d2 B>c | "D7"dd c/B/A | "G"G3 :|
+|: B/A/ \
+| "G"Gg g>f | "Em"ed cB | "Am"Aa a>g | "D7"fd ef \
+| "C"g>a ge | "G"d2 B>c | "D7"dd c/B/A | "G"G3 :|
+P: the Sow and the Boar
+C: Freeland Barbour, 1985
+B: The Hills of Atholl
+B: SRSNH 2.23
+Z: John Chambers <jc:trillian.mit.edu>
+R: march
+M: C|
+L: 1/4
+K: ADor
+g/f/ \
+| "Am"eA a2 | g/f/e/d/ eA | "G"G>A BG | Bd e/d/B/d/ | "Am"eA a2 |
+| g/f/e/d/ eA | "G"G>A B/G/B/d/ | "Am"eA A :: B/d/ | "Am"eA AG/A/ | "G"B>A B/G/B/d/ | "Am"eA AB/d/ |
+| e/g/f/a/ "G"g/e/d/B/ | "Am"eA AG/A/ | "G"B>A B/G/B/d/ | "Am"e/g/f/a/ "G"g/e/d/B/ | "Am"eA A :|
+P: the Lass o' Gowrie
+R: march
+B: RSCDS __-9
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: [AF][GE] \
+| "D"[F2D2][A2F2] [A2F2][BG][cE] | [d3F3][eG] [d2F2][c2A2] \
+| "G"B3A B2d2 | "A"e3f e2 AG \
+| "D"F2A2 A2[BG]c | "Bm"[d3F3][eG] [f3A4]e \
+| "G"dcBA "D"d2F2 | "A7"E4 "D"D2 :|
+|: ag \
+| "D"f2a2 d3e | fefg "(B7)"a2gf \
+| "Em"g2b2 e3f | "A7"gfga b2ag \
+| "D"f2a2 "A7"e3f | "Bm"dcde f3e \
+| "G"dcBA "D"d2F2 | "A7"E4 "D"D2 :|

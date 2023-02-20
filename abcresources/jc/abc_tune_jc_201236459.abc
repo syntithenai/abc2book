@@ -1,0 +1,27 @@
+X: 2211
+T: Go to the Devil & shake yourself.   a Jig.
+O: Irish.
+%R: jig, air
+B: Niel Gow & Sons "Complete Repository" v.2 p.21 #1 (top 2 staffs continued from p.20)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - -
+V: 1 staves=2
+G |\
+Gcc ~c>BA | G>AG GEF | Gcc Tc2e | ecA A2G |\
+Gcc ~c>BA | G>AG GEF | Gcc (Bd).f | ecc ~c2 :|
+|: e/f/ |\
+gec ~cBc | AFF ~F2f/g/ | afd dec | BGG G2G |\
+Gcc ~c>BA | G>AG GEF | Gcc (Bd).f | ecc ~c2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+c3 c3 | c3 c3 | c3 c2B | A3- A2B |\
+c3 c3 | c3 c3 | c3 G3 | C3 C2 :|
+|: z |\
+[c3C3] [c3C3] | [f3F3] [f3F3] | [d3D3] [d3D3] | [g3G3] [g3G3] |\
+c3 c3 | c3 c3 | c3 G3 | C3 C2 :|
+%%text This Tune may be played Slow.

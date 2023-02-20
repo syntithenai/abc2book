@@ -1,0 +1,18 @@
+X: 1
+T: Oj ti mom\vce Ohrigjance
+O: I.Terziev / K.Petrovski
+R: gankino
+M: 11/8
+L: 1/8
+K: Fm
+% - - - - - - - - - -
+V: 1
+"^Intro"|: z2z2 z3 z2z2 | z2z2 z3 z2z2 |  z2z2 z3 z2z2 |  z2z2 z3 z2z2 :|
+"^A"|:\
+"Fm"F3 E "Cm7"FGA "Bbm"B3 A | "Bbm7"B2 BA "Db"GA/G/F "Fm/C"F4 |\
+"Fm"cA BC "Bbm"{A}B3 "Fm/C"AG F2 | "Db"GA GF "Bb"DB3 [1 "Fm"F4 :|[2 "Fm"F2 "Eb7"AB ||
+"^B"|:\
+"Ab"c4 "Db"{e}f2e "Eb7"ed dc | "Ab"cA Bc "Gm"{A}B3 "Fm"AGF |\
+"Db"B4 AGF "Fm/C"G2 F2 | "Bb"{A}B2 F2 "Fm"F3 [1 F2 "Eb7"AB :|[2 "Fm"F4 |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d

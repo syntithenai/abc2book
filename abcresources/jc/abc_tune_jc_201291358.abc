@@ -1,0 +1,15 @@
+X: 1
+T: JC's Hambo #3
+C: John Chambers (1976-3-8)
+M: 3/4
+L: 1/8
+K: D
+|: "D"F2 F>G A>B | A2 A>G F>G \
+| A2 A>B d>e | f2 f>e d>f \
+| "G"g2 g>{ag}f g>e | "D"f2 f>{gf}e f>d |
+|1,3 "A7"e>f e>d c>B | c>d c>B A>G \
+:|2,4 "A7"e>f e>c (3ABc | "D"d2 d4 \
+:: "G"B2 B>c d>B | "D"c>{dc}B A>G F>D |
+|1,3 "A7"E2 E>F G>E | "D"F>{GF}E F>G A2 \
+:|2 "A7"E>F G>E C>E | "D"D2 D>F G>A \
+:|4 "A7"E>F G>A B>c | "D"d2 d4 |]

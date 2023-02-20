@@ -1,0 +1,43 @@
+
+X: 1
+T: The King of the Fairies
+R: march, hornpipe
+%T: King William or Orange
+%T: Bonny Charlie
+O: Ireland, Scotland
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS by John Chambers (1970s)
+M: 2/4
+L: 1/16
+K: Edor
+B,2 |\
+"Em"EDEF GFGA | "Em"B2B2 G3A | "Em"B2E2 EFGE | "D"FGFE "(Bm)"D2B,2 |
+y2 |\
+"Em"EDEF GFGA | "(G)"BAGB "D"d3=c | "Em"B2E2 "D"GFED | "Em"E6 :|
+d2 |\
+"Em"e2e2 "Bm"Bdef | "Em"gagf e3f | "Em"e2B2 BABc | "D"dedc "(Bm)"BcdB |
+y2 |\
+"Em"e2B2 "Bm"Bdef | "Em"gagf efed | "Em"Bdeg "D"fedf | "Em"e6 ||
+ef |\
+"G"g3e "D"f3d | "Em"edBc "D"d3e | "D"dBAF "(G)"GABc | "D"dBAF GFED |
+y2 |\
+"Em"B,2E2 EFGA | "Em"B2e2 "(Bm)"edef "I"| "Em"e2B2 "D(Bm)"BAGF | "Em"E6 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Star of Munster
+C:anon.
+O:Ireland
+B:Francis O'Neill: "The Dance Music of Ireland" (1907) no. 495
+R:Reel
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:C
+L:1/8
+K:Ador
+ed \
+|: "Am"c2Ac "G"B2GB | "Am"AGEF "G"GED2 | "Am"EAAB cBcd | eaaf "G"gfed |
+|  "Am"c2Ac "G"BAGB | "Am"AGEF "G"GED2 "I"| "Am"EAAB cded | cA"G"BG "Am"A2z2 :|
+|: "Am"eaab ageg | agbg agef | "G"g2ga gfef | g2af gfed |
+|  "Am"eaab ageg | agbg agef | "G"g2ge "Am"a2ae | "G"b2ba gfed :|

@@ -1,0 +1,34 @@
+X: 0941
+T: the Stralsund Waltz
+%R: waltz
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1809, No. 9 p.4 #1
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances9
+M: 3/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+(B/c/) |\
+dBF | G2c | FGA | (B/A/B/c/B/c/) | dBF | G2c | FGA | B2 ::\
+(c/B/) | Aec | Bfd | cge | db/f/d/B/ |
+A(e/c/e/c/) | B(f/d/f/d/) | FGA | B2 ::\
+"^8va  _  _  _"d |\
+f2e | d{e}d/c/d | e{f}e/d/e | d3 |\
+f2e | d{e}d/c/d | (f/e/d/c/B/A/) | B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=D
+z |\
+B,2D | E3 | F2E | D2C | B,2D | E3 | (F3 | [D2B,2]) :: z |\
+[c3F3] | [d3F3] | [A3F3] |
+[B3F3] | [c3F3] | [d3F3] | [e3F3] | [d2B2] :: "^Harp Solo"z |
+Bdf | Bdf | Acf | Bdf | Bdf | Bdf | Fce | [d2B2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands 4 round back again,
+%% down the middle, up again,
+%% and set it out.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

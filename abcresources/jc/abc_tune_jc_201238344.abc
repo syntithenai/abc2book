@@ -1,0 +1,18 @@
+X: 3061
+T: Hilton Lodge.    Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.6 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - -
+V: 1 staves=2
+e/f/ |\
+g<cg>e fdTde/f/ | gcg>e c>ege | f>de>c dD-D.E  | C>Ec>E G2G :| E | CEcE FD-D.E | C>EcE G>cEc |
+G<cE<c dD-D.E | C>EcE {E}G2GE || C>EcE FDDE | C>Ec>E G<cE<c | FdEc Dd-de/f/ | ecdB {B}c2c |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | c'2c'2 g2G2 | c'2c'2 c'2c'2 | | b2c'2 g2G2 | c2G2 E2C :| z | c2c2 G2G2 | c2c2 c2c2 |
+c2c2 G2G2 | c2c2 e2c2 || c2c2 G2B2 | c2c2 e2c2 | B2c2 G2g2 | c'2g2 c2c |]

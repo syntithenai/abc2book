@@ -1,0 +1,27 @@
+X: 10953
+T: COTILLION No. 13. tune 5
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.95 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+a2f g2b | a3 fge | dfa ceg | fed cBA |\
+a2f g2b | a3 fge | dfa cea | d2z z2z H|]
+c3 B3 | A3 def | edc BA^G | ba^g fed |\
+c3 B3 | A3 def | edc BA^G | A2z z2z |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies cross hands round,
+%% and back,
+%% gentlemen the same,
+%% all balance partners and turn,
+%% grand chain,
+%% all promenade.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

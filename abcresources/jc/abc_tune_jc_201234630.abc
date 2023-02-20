@@ -1,0 +1,35 @@
+X: 20661
+T: GIUSTO CIEL
+T: Sung by Madame Banti
+Q: "Andante Con Moto"
+B: "Man of Feeling", Gaetano Brandi, ed. v.2 p._
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Although this is a "Sung by ..." tune, there are no lyrics included.
+M: C
+L: 1/8
+K: C
+%%graceslurs 0
+(g>f) |\
+.e2 (e>f) .d2 (d>e) | {d}c2 c2 z2 (g>a) |\
+.f2 (f>g) .e2 (e>f) | (e2 d2) z2 (g>f) |
+(3efg (3abc' (3d'c'b (3agf | e2 {a/}(3g^fg e2 {a/}(3g=fe |\
+(3da^g (3afd c2 d>B | c2 c2 z2 c>e |
+d2 d>d d2 d>g | {g}^f2 f>f (3agf (3edc |\
+(c2 B2) {a}g3 ^f/e/ | (d>B) G z/g/ {a/}(3g^fe (3ed^c |
+d2 z2 (3gba {a/}(3g^fg | e2 e>e d2 ^f>f |\
+g2 ze d2  ^f>f | (3gba (3g^fe d2 ^F>F |
+G2 Hz2 z2 (g>=f) | .e2 (e>f) .d2 (d>e) |\
+{d}c2 c2 z2 g>g | .e2 e>e .f2 e>e |
+d2 d2 z2 G>G | (c>G) (c>G) (d>G) (d>G) |\
+(e>c) (e>c) (f>d) (f>d) | .g2 a>a .g2 a>a |
+g2 e2 z2 {a/}(3gfe | ((3da^g) (3afd c2 d>B |\
+c2 (3efg (3efg (3efg | f2 b>c' (3d'c'b (3agf |
+e2 (3efg (3efg (3efg | f2 b>c' (3d'c'b (3agf |\
+e2 c2 z2 G>G | (c>G) (c>G) (d>G) (d>G) |
+(e>c) (e>c) (f>d) (f>d) | g2 a>a g2 a>a |\
+g2 e2 z2 {a/}(3gfe | (3da^g (3afd c2 B>B |
+g4 f>d a>f | e2 g>e {e}d2 c>B |\
+g4 f>d a>f | e2 g>e {e}d2 c>B | c2 c>c c2 |]
+%
+%%center -

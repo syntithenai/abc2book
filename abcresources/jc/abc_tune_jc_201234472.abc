@@ -1,0 +1,19 @@
+X: 2053
+T: Miss Johnston of Hillton's    Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.5 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Ddor
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+Dd2B Tc>G EC | Dd2e Tf>dec | f>dec TG>FEC | Ddfd eT^cd2 :| a<dTf>d gceg | a<dTf>d adg_b |
+a<dTf>d gceg | a<fTg>e AT^cd2 || a<dTf>d gceg | a<dTf>d a<dTf>d | g_bfa gceg | a<fg>e AT^cd3 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+d2d2 c2c2 | d2d2 d2d2 | d2d2 c2c2 | d2d2 a2d2 :| d'2d'2 c'2c'2 | d'2d'2 d'2d'2 |
+d'2d2 c2c2 | d2d2 A2d2 || d2d'2 c'2c'2 | d'2d'2 d'2d2 | e2f2 c2c2 | d2d2 A2d2 |]

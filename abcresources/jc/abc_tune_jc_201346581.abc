@@ -1,0 +1,23 @@
+X:1
+T: A Trip to Woodstock
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:C
+I:speed 200
+%W: A1                                                                      A2
+% voice 1 (1 lines, 28 notes)
+K:C
+M:4/4
+L:1/16
+c4 c4 d2 c2 B2 A2 |G12 G4 |A4 c4 c4 B4 |c8 c8 |c4 c4 d2 c2 B2 A2 |G12 G4 |A4 c4 c4 B4 |c8 c8 |
+%W: B1
+% voice 1 (1 lines, 40 notes)
+g6 f2 e2 f2 g2 e2 |f6 e2 d2 e2 f2 d2 |e6 d2 c2 d2 e2 c2 |d6 c2 B2 c2 d2 B2 |c6 B2 A2 B2 c2 A2 |B6 A2 G4 G4 |A4 c4 c4 B4 |c8 c8 |
+%W: B2
+% voice 1 (1 lines, 40 notes)
+g6 f2 e2 f2 g2 e2 |f6 e2 d2 e2 f2 d2 |e6 d2 c2 d2 e2 c2 |d6 c2 B2 c2 d2 B2 |c6 B2 A2 B2 c2 A2 |B6 A2 G4 G4 |A4 c4 c4 B4 |c8 c8 |

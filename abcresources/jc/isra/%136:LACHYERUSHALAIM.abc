@@ -1,0 +1,22 @@
+X: 136
+T: Lach Yerushalaim
+C: Eli Rubinshtein 1966
+O: Israel
+F: http://www.youtube.com/watch?v=Aux-1qSEaqs
+F: http://www.youtube.com/watch?v=uZZGLEMmJzg
+F: http://www.youtube.com/watch?v=uVc8n2fGZl0
+M: 4/8
+L: 1/8
+Q: 1/4=210
+K: Dm
+%%MIDI program 65
+%%MIDI bassprog 32
+%%MIDI chordprog 32
+%%MIDI gchord fzcz
+|:"Am".D2 .A2 | .A2 .A2   |"Gm"G2 D2 |G4-    |\
+  [1 "Am"G2 F2|"Gm"D2 B,2 |"Am"F2 D2-|"Dm"D4 :|\
+  [2 "Gm"G2 A2|c2 =B2     |"Am"G2 A2-|A4     |
+|:z"Gm".B2 c  |.d2 .d2    |zB2 c     |d2 f2  |\
+  "Em"e2 d2   |c2 B2      |"C"c4     |^c4    |
+  "Am"d2 A2   |A2 A2      |"Gm"G2 D2 |G4     |\
+  "Am"F2 D2   |"Dm" B,2 F2|D4-       |D4     :|

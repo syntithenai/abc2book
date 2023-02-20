@@ -1,0 +1,30 @@
+X: 197
+T: Auld Lang Syne
+C: words: Robert Burns
+O: Scotch Folksong
+%R: air, march
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+C | F> F F A | G> F G A | F> F A c | d3
+w: 1.~Should auld ac-quaint-ance be for-got, And nev-er brocht to mind?
+w: 2.~We twa ha'e run a-boot the braes,      And pu'd the gow-aas fine;
+w: 3.~We twa ha'e pai-dled i' the burn       Frae morn-in' sun till dine;
+w: 4.~And here's a hand, my trust-y frien',  And gie's a hand o' thine;
+%
+d/-d/ | c> A A F | G> F G A | (F> D) (D C) | F3 |]
+w: Should* auld ac-quaint-ance be for-got, And days of auld lang syne?
+w: But we've wan-dered mony a wea-ry foot  Sin' auld* lang* syne.
+w: But* seas be-tween us braid ha'e roared Sin' auld* lang* syne.
+w: We'll* tak' a cup o' kind-ness yet     For auld* lang* syne.
+%
+"Refrain."d | (c>A) (AF) | G> F G d | (c>A) (Ac) | d3 
+w: For auld* lang* syne, my dear,     For auld* lang* syne;
+%
+d | c> A A F | G> F G A | (F>D) (DC) | F3 |]
+w: We'll tak' a cup o' kind-ness yet  For auld* lang* syne.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

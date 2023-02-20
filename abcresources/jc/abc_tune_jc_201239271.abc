@@ -1,0 +1,19 @@
+X: 3241
+T: Miss Campbell of Monzie's   Reel	% Spelled "Rell" in the book
+%R: reel
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.24 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+e |\
+Tc2Gc ecGE | Fd Ec dDDB | Tc2Gc EcGE | FADF ECC :| f | ecgc acgc | ec (a/g/)f/e/ fddf |
+gcac gcec | (Bcd)f eccf || ecgc acgc | egce fddf | gecf afdc | Bcdf ecc |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | c2c2 c2c2 | d2c2 g2G2 | c2e2 c2c2 | f2g2 c2c :| z | c2[c2e2] [c2f2][c2e2] | c2c2 G2g2 |
+[c2e2][c2f2] [c2e2]c2 | g2G2 c2c2 || c2[c2e2] [c2f2][c2e2] | c2c2 G2g2 | c2e2 f2f2 | g2G2 c2c |]

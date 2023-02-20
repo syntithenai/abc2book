@@ -1,0 +1,17 @@
+X:731
+T:Three Coney Walk
+T:The Coney Walk
+C:John Young, c1726
+N:Erroneously called "The Coney Walk" in Fallibroome.  AABAAB is once through the figure.
+M:6/8
+L:1/8
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=110
+%%MIDI ratio 3 1
+K:D
+P:A
+|: "D"D>ED "A/C#"A2A | "Bm"d>ed "A"c3 | "G"B>cB "D/F#"A>BA | "Em"G>AG "D"F2G |\
+"D"ADD "G"BDD | "D"ADD "G"BDD | "D"ADD "G"B>cd | "A7"E2D "D"D3 :|
+P:B
+"G"g>ag "D"f>gf | "Em"e>fe "A"c2d | "E7"e>dc "/"B>cd | "A"B2A "A7"A2A |\
+"D"dAA "A/C#"eAA | "Bm"fAA "A7"gAA | "D"aAA "G"gAA | "D"f>gf "A"e3 |]

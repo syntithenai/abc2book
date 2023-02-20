@@ -1,0 +1,20 @@
+X: 21732
+T: SPORTSMAN'S HAUNT -- Strathspey
+R: strathspey
+B: K\"ohler's Violin Repository, v.2, 1885 p.173 #2
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The first low B has a staccato dot, but it's not centered, and may be a speck of dust.
+N: The (fd) notes in bar 15 have inconsistent beam and dot; fixed by moving the dot.
+M: C|
+L: 1/8
+K: Bm
+uF |\
+D<B,B,>d (.B>.F)(F>B) | A<E(E>D) (C>A,)A,<F |\
+D<B,B,>d (.B>.F)(F<B) | (.A>.F)(E>.C) B,/B,/B, ~"_#"F2 |
+D<B,B,>d (.B>.F)(F>B) | A<E (E>{FE}D) (C<A,)A,>F |\
+D<B,B,>d (.B>.F)(F<B) | (.A>.F)(E>.C) B,/B,/B, ~"_#"F2 |]
+ve/d/c/B/ (f>B) (d>f)b<f | {bag}(a>f)(e>a) (c>A)(a>c) |\
+e/d/c/B/ (f>B) (d>f)b>f | (.a>.f)(e>c) B/B/B {gfe}f2 |
+e/d/c/B/ (f>B) (d>f)b>f | {bag}a>fe>a c<Aa>c |\
+e/d/c/B/ (f>d) (e<c) (d<B) | (A<F) E>C B,/B,/B, "^Segue Reel."[F2A,2] "_D.C."|]

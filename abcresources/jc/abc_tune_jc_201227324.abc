@@ -1,0 +1,32 @@
+X: 10722
+T: COTILLION No. 3. tune 2
+C:
+%R: polka, reel
+N: This is version 1, for ABC software that doesn't understand diminuendo notation.
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.72 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[| !ff!\
+A4 B2B2 | c2c2 F4 | "^dim..."f4 e2d2 | (d4 c3)B |\
+A4 B2B2 | ~c6 d2 | (c2A2) (A2G2) | F2Ac f2z2 H|]
+[| !p!\
+G4 G2G2 | =B2A2 G4 | f3d c=BAB | {d}c=Bce G4 |\
+G4 G2G2 | =B2A2 GABc | defd =BcdB | c=Bdc _BAB"^D.C."G |]
+[|\
+A4 ABAB | c2c2 F4 | f2ef gfed | (d3e/e/) c3B |\
+A4 cBAB | c4 (d2e)f | (dc)A2 (cB)G2 | FCB,C DEF"^D.C."G |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance and turn partners,
+%% others the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

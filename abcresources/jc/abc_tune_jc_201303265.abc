@@ -1,0 +1,42 @@
+
+X: 1
+T: Lokakuun polkka   [A]
+T: October polka
+C: Otto Hotakainen
+R: polka
+B: Otto Hotakaisen Nuotikirja
+%%slurgraces  1
+% %continueall yes
+M: 2/4
+L: 1/16
+K: A
+|: "A"A2ce a2gg    |    ~f2e2 edcB    |    A2ce     fedc | "Bm"e2d2     dcdc \
+| "E7"dcB2 b3a     |     a2g2 g2f2    |    ee"#"de  gfed |  "A"d2c2     cBcB |
+|  "A"A2ce a2gg    |    ~f2e2 edcB    |    A2ce     a2gg |  "D"agf2     feff \
+| "E7"B2B2 g3f     | "A"~f2e2 e"#"de2 | "D"effe "E7"egge |  "A"eaa2     a4  :|
+|: "A"c2EE EEAA    |     c2EE EEAA    |    cAcA     d2cc | "Bm"dcB2     B4   \
+| "E7"d2EE EEGB    |     d2EE EEGB    |    dcBd     e3B  |  "A"c2c2     cBAB |
+|  "A"c2EE EEAA    |     c2EE EEAA    |    cAce     d2cc | "Bm"dcB2     B4   \
+| "E7"g2gg gfe"#"d |     g2gg gfe"#"d |    gfed     edcB | "(A)"cBAG "A"A4  :|
+
+%%sep 2 1 500
+
+X: 2
+T: Lokakuun polkka   (G)
+T: October polka
+C: Otto Hotakainen
+R: polka
+B: Otto Hotakaisen Nuotikirja
+%%slurgraces  1
+% %continueall yes
+M: 2/4
+L: 1/16
+K: G
+|: "G"G2Bd g2ff    |    ~e2d2 dcBA    |    G2Bd     edcB | "Am"d2c2     cBcB \
+| "D7"cBA2 a3g     |     g2f2 f2e2    |    dd"#"cd  fedc |  "G"c2B2     BABA |
+|  "G"G2Bd g2ff    |    ~e2d2 dcBA    |    G2Bd     g2ff |  "C"gfe2     edee \
+| "D7"A2A2 f3e     | "G"~e2d2 d"#"cd2 | "C"deed "D7"dffd |  "G"dgg2     g4  :|
+|: "G"B2DD DDGG    |     B2DD DDGG    |    BGBG     c2BB | "Am"cBA2     A4   \
+| "D7"c2DD DDFA    |     c2DD DDFA    |    cBAc     d3A  |  "G"B2B2     BAGA |
+|  "G"B2DD DDGG    |     B2DD DDGG    |    BGBd     c2BB | "Am"cBA2     A4   \
+| "D7"f2ff fed"#"c |     f2ff fed"#"c |    fedc     dcBA | "(G)"BAGF "G"G4  :|

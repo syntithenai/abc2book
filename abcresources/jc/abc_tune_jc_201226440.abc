@@ -1,0 +1,25 @@
+X: 10281
+T: FOR LACK OF GOLD SHE LEFT ME.
+Q: "Slow."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.28 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F3E |\
+D6 F2 A3Bd2A2 | B4 e3f e4 d3B |\
+d4 a3g f2g2a2d2 | f3g a3b a4 g3f |\
+g3ab3g f3ga3f | g3fe3d {f}e4 d3(e/f/) |\
+D6 F2 A3Bd2A2 | B4 d3e d4 :|
+|: d3e |\
+f2d2e2B2 d2A2B2F2 | E4 e3f e4 f3g |\
+a2f2a2b2 a2f2 gfed | f3g a3b a4 d4 |\
+g3ab3g f3ga3f | g2f2e2d2 e4 d3(e/f/) |\
+D6 F2 A3Bd3A | B4 d3e d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

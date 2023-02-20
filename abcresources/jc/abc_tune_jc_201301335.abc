@@ -1,0 +1,27 @@
+X:1
+T:Leaving Friday Harbor
+R:Waltz
+M:3/4
+L:1/8
+%%printtempo 0
+Q:170
+K:D
+A2|\
+"D" f2f2{gf}ed|\
+M:2/4
+efA2|\
+M:3/4
+f3f ed| ef a2af| "G"(3ggg gf ed|
+"Em" ef B4|"Em7"d2 dcde| "A7" (3cdc BA [da][eg]| "D"f2f2 {gf}ed|\
+M:2/4
+ef A2|\
+M:3/4
+"D"f3f ed|
+ef a2af| "G"(3ggg gf ed| "Em"ef B2Bd|"A7"(3cdc BA ef|"D"d4 :: dc|
+"A7"c2 Ac eg |"D"gf a3f| "G"g2 B3g| "D" gf ef (3def|"G"g2B3g|"D"gf ef df|
+"Em" e2B2 ef|"E7" ed- dc BA|1 "A7"c2 Ac eg| "D"gfa3f| "G"g2B3 g| "D"gf ef dc|
+"G" B2 GB (3Bcd| "D"Ad f3 a| "A7"ge cA ef |"D"d4 :|2 "D" f2f2 {gf}ed|\
+M:2/4
+"D"efA2|
+M:3/4
+"D"f3f ed| ef a2 af| "G"(3ggg gf ed| "Em"ef B2 Bd| "A7"(3cdc BA ef| "D"d4|]

@@ -1,0 +1,25 @@
+
+X: 1
+T: Ciuleandra  [Am]
+O: Romania
+M: 12/16
+L: 1/16
+K: Am
+[|"Am"A3- A2c B2A e3 | "Am"A3- A2c B2A E3 \
+| "Am"A3- A2c B2A e3 | "Am"A3- A2c B2A E3 |
+|  "C"c3- c2e d2c g3 | "C"c3- c2e d2c G3 \
+|  "C"c3- c2e d2c g3 | "C"c2z "E7"B2z "Am"A2z z3 |]
+
+
+%%sep 3 1 500
+
+X: 2
+T: Ciuleandra  [Bm]
+O: Romania
+M: 12/16
+L: 1/16
+K: Bm
+[|"Bm"B3- B2d c2B f3 | "Bm"B3- B2d c2B F3 \
+| "Bm"B3- B2d c2B f3 | "Bm"B3- B2d c2B F3 |
+|  "D"d3- d2f e2d a3 | "D"d3- d2f e2d A3 \
+|  "D"d3- d2f e2d a3 | "D"d2z "F#7"c2z "Bm"B2z z3 |]

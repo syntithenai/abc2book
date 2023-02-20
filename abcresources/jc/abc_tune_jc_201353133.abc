@@ -1,0 +1,22 @@
+X: 1
+T: Windsor-Castle
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.56
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat added to satisfy the "first Strain twice" instruction.
+M: 6/4
+L: 1/4
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d | g>ag (f/g/)ad | g>ab c'ab | ^f2a a2d | c>de (fd)e | cAB ^F>GA | A2G G2 :|
+B/c/ | d>cd B>AG | e>de cfe | d2B B2f | dgf =e^fg | ^fga gab | a2g g2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. take hands and turn down the middle, the 2. cu. cast up at the same time, the 2. cu. turn
+%% down the middle, and the 1. cu. cast up; and both cu. do the same as before. To the first Strain twice.
+%% The 1. cu. cross over below the 2. cu. and go the Figure, the 1. cu. lead through the 3. cu. and cast
+%% up into the 2. cu. place.
+%%endtext
+%%sep 1 8 500

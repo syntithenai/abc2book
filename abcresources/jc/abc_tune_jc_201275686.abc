@@ -1,0 +1,26 @@
+X: 1
+T: Fidlers Maggot
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.318
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+d2de fefg | f3g a2a2 | bagf e2a2 | f3e d2f2 |\
+f2 e4 e2 | e2 d4 d2 | d2(cB) B3A | A6 |]
+a2 |\
+e3d e2f2 | g6 a2 | b2(ag) fgfe | ^d6 B2 |\
+e3f f3e | e6 e2 | a2ab agfe | f6 d2 |
+g2ga gfed | c6 c2 | d2de dcBA | B2ga gfed | c2ab agfe | d2g2 g3a | f3e e3d | d6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. cross over and Figure through the 3. cu. and turn .| The 2. cu. do the same :| The 1. man
+%% change places with his Partner, then cross over below the 2. cu and turn single, then Right and Left
+%% quite round, lead through the 2. cu. cast off, Right and Left with the 3. cu. quite round.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

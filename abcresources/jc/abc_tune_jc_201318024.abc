@@ -1,0 +1,953 @@
+I:abc-charset utf-8
+%%titlefont Times-Bold 24
+%%subtitlefont Times-Bold 18
+%%gchordfont Times-Bold 14
+%%composerfont Times-Italic 16
+%%notationfont Times-Bold 16
+%%annotationfont Times-Bold 16
+%%textfont Times-Italic 16
+%%partsfont Times-Bold 14
+%%printtempo 0
+%%printparts 1
+%%partsbox 1
+%%bstemdown 1
+%%withxrefs 1
+%%pageheight 11in
+%%%staffsep .01
+%%topspace .25in
+%%botspace .25in
+%%notespacingfactor 1
+%%stretchlast 0
+%%titleformat  T, R-1 C1
+%%scale .685
+%%footer "Two-Steps\n$P0.		$P1."
+%%newpage 587
+
+X:0
+%%%footer "Section D"
+%%withxrefs 0
+%%lineskipfac 8
+%%textfont Times-Bold 48
+%%begintext center
+%%Two-Steps
+%%endtext
+%%titlefont Times-Bold 1
+I:0
+T:_Two-Steps_
+M:1/1
+K:C
+%%newpage
+
+X:859
+T:Bugle Call, The 
+C:Joe Buchanan's Scottish Tome - Page 418.0
+I:418 0
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:D
+P:A
+"D"faf d3 | dfd A3 | faf d2 f | A6 |
+"A7"A2 B c2 d | e2 ^d e3 | "D"d2 e f2 g | a6 |
+faf d3 | dfd A3 | faf d2 f | A6 |
+"A7"A2 B c2 d | e2 ^d e2 f | "D"d3 "A7"f3 | "D"d3 :|
+P:B
+"D"aaa ^g2 a | b2 a ^g2 a | b2 a d2 e | "D"f6 |
+"A7"a2 ^g d2 f | e6 |  a2 g ^d2 f | e6 |
+"D"aaa ^g2 a | b2 a ^g2 a | b2 a d2 e | f6 |
+"A7"a2 g ^d2 f | e2 A ABc | "D"d3 "A7"f3 | "D"d6 :|[K:G]
+%%newpage
+T:Bugle Call (cont), The 
+P:C
+"G"D3- D2 ^D | E3- E2 "Eb7"_E | D2 "G"^C D2 G | B6 |
+"D7"C2 D B2 A | C6 | "G"B,2 D A2 g | B,6 |
+"G"D3- D2 ^D | E3- E2 "Eb7"_E | D2 "G"^C D2 G | B6 |
+d2 "D7"c ^G2 B| A2 "D7"D DEF | "G"G3 "D7"B3 | "G"G6 :|
+W:1:Play A twice  4: Play B once.
+W:2:Play B twice  5: Play C twice.
+W:3:Play A once   6: Play A once.
+
+X:860
+T:Household Brigade, The 
+C:Joe Buchanan's Scottish Tome - Page 419.0
+I:419 0
+C:Felix Burns
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:G
+P:A
+"G"gdB GBd | g2 f a2 g | f2 "Am"e c2 A | E6 |
+"D7"ecA FAc | "D7"f3 e3 | d^cd e =c | "G"B6 |
+"G"gdB GBd | g2 f a2 g | f2 "Am"e c2 A | E6 |
+"D7"ecA FAc | "D7"f3 e3 | "D7"d^cd e2 d | "G"G3 [gdB]3 |][K:C]
+P:B
+"G"Bc^c d2 e | d2 B G3 | "C"e^de c'2 e | "G"d6 |
+"G"Bc^c d2 e | d2 B G3 | "A7"A^GA g2 e | "D7"fed cBA |
+"G"Bc^c d2 e | d2 B G3 | "C"e^de c'2 e | "G"d6 |
+"Am"eac' b2 a | "G"dgb a2 g | "D7"fed cBA | "G"G [Bdg]3 |]
+%%newpage
+T:Household Brigade (cont), The 
+P:C
+"C"E3- EDC | F6 | "G7"E3- FED | F6 |
+"C"Ged cBA | ^A2 B f3 | ^A2 B f3 | ^F2 G e3 |
+"A"E3- EDC | E6 | "G7"F3- FED | F6 |
+"C"Ged cBA | ^A2 B f3 | GBf e2 d | c3 [egc']3 |]
+W:1:Play A twice  4: Play B once.
+W:2:Play B twice  5: Play C twice.
+W:3:Play A once   6: Play A once.
+
+X:861
+T:Dancing Dustman, The 
+C:Joe Buchanan's Scottish Tome - Page 420.0
+I:420 0
+C:Felix Burns
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:4/4
+K:Gmaj
+P:A
+"G"bgd B2 ^c | edB G2 B | "Am"A^GA c2 A | E6 |
+"D7"FAc f2 e| d2 c "D7"A2 F | "A"B^AB "G"e2 B | G6 |
+"G"bgd B2 ^c | edB G2 B | "Am"A^GA c2 A | E6 |
+"D7"FAc f2 e| d2 c "D7"A2 F | E=F^F B2 A | "G"G3 [Bdg]3 :|[K:Cmaj]
+P:B
+"C"[ceg] c cde | d2 c g3 | "Dm"[dfa]2 d def | e2 "Dm"d a3 |
+"G7"[fa]2 f fga | "G7"[fb]2 [fb] [fb]3 | "C"[cea]2 c cde | [ea]2 [ea] [ea]3 |
+[ceg]2 c cde | d2 c g3 | "Dm"[dfa]2 d def | "Dm"e2 d a3 |
+"G7"[Bfb]2 f fga | [fb]2 [fb] [fb]3 | bag fed | c3 [cegc']3 :|[K:Cmaj]
+%%newpage
+T:Dancing Dustman (cont), The 
+P:C
+"C"G2 A G2 F | E2 G c2 e | e2 "Dm"d f2 d | "Dm"A3- A2 A |
+"G7"B2 ^A B2 c | "G7"d2 ^c d2 ^d | e"Dm"^de a2 e | g3- g2 G |
+"C"G2 A G2 F | E2 G c2 e | e2 "Dm"d f2 d | "Dm"A3- A2 A |
+"G7"B2 ^G B2 c | d2 ^c d2 e | "C"=cBc e2 g | "C"[egc']3 [cegc']3 :|
+W:1:A twice   4: C twice
+W:2:B twice   5: A once
+W:3:A once
+
+X:862
+T:Six Twenty Two Step, The 
+C:Joe Buchanan's Scottish Tome - Page 421.0
+I:421 0
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:G
+D2 |: G2 G F>GA | G2 G G2 G | B2 B A>Bc | B3- B2 B |
+c2 c A2 c | B2 B G2 B | A>BA G>FE | D3 DEF |
+G2 G F>GA | G2 G G2 G | B2 B A>Bc | B3- B2 B |
+[1"INTRO" c2 A F2 e | d c B d | d>ed c>BA |1 G z D |2 G z A |]
+|: A2 B B2 A | Afd A3 | A2 f fef | g3- g A/A/ |
+A2 e e2 d | d2 c c2 c | ded c2 B | B2 _B A2 A |
+A2 B B2 A | Afd A3 | a2 d d2 c | B3- B B/B/ |
+B2 g g2 B | A2 f f2 d | c2 A A>Bc |1 d3- d2 A2 :|2  d3 z D2 |]
+G2 G F>GA | G2 G G2 G | B2 B A>Bc | B3- B2 B |
+c2 c A2 c | B2 B G2 B | A>BA G>FE | D3 DEF |
+G2 G F>GA | G2 G G2 G | B2 B A>Bc | B3- B2 B |
+c2 A F2 e | d2 c B2 d | ded cBA | G GF=F |][K:C]
+%%newpage
+T:Six Twenty Two Step (cont), The
+E3 B,3 | C3 E3 | A2 G G2 ^F | G3- G3 |
+E3 B,3 | C2 E A2 G | G3- G3 | B,3- B,3 |
+D3 ^C3 | D2 A, F2 E | D D ^CDE | D3- D3 |
+D2 ^D E2 F | ^F2 c B2 A | G g ag^f | g3 G^F=F |
+E3 B,3 | C3 E3 | A2 G G2 F | G3- G3 |
+e3 c3 | G3 E3 | B2 A A2 G | A3- A3 |
+f2 e d2 ^c | d g | e2 d cBA | G3- G2 ^G |
+A2 c cBA | G2 e e2 c | BAG FED/ | C3 z D2 |]
+G2 G F>GA | G2 G G2 G | B2 B A>Bc | B3- B2 B |
+c2 c A2 c | B2 B G2 B | A>BA G>FE | D3 DEF |
+G2 G F>GA | G2 G G2 G | B2 B ABc | B3- B2 B |
+c2 A F2 e |  d2 c B2 d |  d>ed c>BA | G3- G2 |]
+
+X:863
+T:Dunfries Two Step, The
+C:Joe Buchanan's Scottish Tome - Page 423.0
+I:423 0
+Z:Carl Allison
+R:Two-step
+L:1/8
+M:6/8
+K:G
+P:INTRO
+D2 ^D E2 ^E | F2 c B2 F | A4- A2 | G3 D3 |
+W:Play - INTRO - A-B-A-C-A
+%%vskip 
+P:A
+|:S d2 d d2 B | G2 G GFE | D2 ^D E2 B, | D3- D D |
+d2 d d2 B | G2 G G2 F | E2 F G2 ^G | A3 D3 |
+d2 d d2 B | G2 G GFE | D2 ^D E2 B, | D3- D G |
+F2 G ^G2 A | f2 e ^c2 A | d2 e f2 e | dcA FED |
+d2 d d2 B | G2 G GFE | D2 ^D E2 B, | D3- D2 D |
+d2 d d^cd | e2 d =c2 B | A^GA EAB | c3- c2 d |
+e2 e e^de | f3 e3 | d2 d dBG | F3 E3 |
+D2 ^D E2 ^E | F2 c B2 F | (A6 {DE FGA}) | G3 D3 !fine!:|
+%%newpage
+T:Dunfries Two Step (cont), The
+P:B
+[K:D]A2 |: d2 d d2 c | e2 d c2 B | A2 A A^GA | B2 A F2 D |
+C2 c c2 c | cBA GFE | D2 B B2 B |  B3 A3 |
+d2 d d2 c | e2 d c2 B | A2 A A^GA | B2F AGF |
+GFG ABc | f2 e ^d2 e |  g2 e cBc |1 d3 A3 :|
+%%leftmargin 15.5cm 
+|2 d3 SD3 |]
+%%leftmargin 2cm 
+P:C
+[K:C]G2 F |: "@-40,32Trio"E2 E E^DE | F2 E G2 F | A2 G c2 d |  e3 edc |
+B2 B B2 B | BDE FG^G | A2 A A2 G | A3 G2 F |
+E2 E E^DE | F2 E G2 F | A2 G c2 d | e3 e^de |
+f2 A Adf | e2 G Ggf | edc BAB |1 c3 D :|
+%%leftmargin 16cm
+|2  c3 "@-20,32to" S "@10,32for fine" D3 |]  
+%%leftmargin 2cm 
+
+X:864
+T:Lassie Won't You Dance Wi 'Me #1 
+C:Joe Buchanan's Scottish Tome - Page 428.1
+I:428 1
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:4/4
+K:C
+(3GAB | c2 c c2 B | A2 G G2 A | G2 E D2 C | F6 | d2 d d2 c | B2 c B2 A | G2 G AGF | E6 (3GAB |
+c2 c c2 B | A2 G G2 A | G2 E D2 C | A6 | A A2 B d2 | c A2 G G2 | c B2 G (3GAB | c6 :|
+C2 D | E2 D C2 D E2 D C2 D | E2 D C2 D E4 D2 E | F2 E D2 E F2 E D2 E | F2 E D2 E F4 G2 F |
+E2 D C2 D E2 D C2 D |  E2 D C2 D E4- E2 E | D2 E ^F2 D G2 A B2 c | d2 c B2 A G4 (3GAB |]
+
+X:865
+T:Runaway Train, The 
+C:Joe Buchanan's Scottish Tome - Page 428.2
+I:428 2
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:G
+D | ((3GGG) G3 A B2 B ((3BAG) | D4 B,2 D4 D2 | ((3GGG) G2 A B2 B (3BAG | d4 B2 D4 B2 |
+((3ddd) d B c2 c c2 BA | ((3BBB) B2 G A2 F D2 Bc | d4 D4 A4 D4 | G4- G4 :|
+
+X:866
+T:Macnamara's Band 
+C:Joe Buchanan's Scottish Tome - Page 428.3
+I:428 3
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:G
+d | S"G"B2 B B2 B B2 B B2 B | B2 B A G2 D3- D2 B | "D7"c2 c c2 c "G"B2 B B2 B | "A7"A2 G F2 G "D7"A3 d3 |
+"G"B2 B B2 B B2 B B2 B | B2 B A G2 D3- D2 B | "Am"c2 c B2 "Cm"A d2 "G"B G2 "A7"E | "D7"D2 c B2 A G3 :|
+DE2F | "G"G3- G3- G2 e d2 B | "A7"A3- A3 E3 A2 G | "D7"F2 d ^c2 d e2 d =cBA | B3- B3- B2 D E2 F |
+"G"G3- G3- G2 e d2 B | "Am"A3- A3 E3 A2 G | "D7"F2 d ^c2 d e2 d c2 A | "G"G3- G3- G3- SG3 |]
+
+X:867
+T:Wee Kirkcudbright Centipede #1, The 
+C:Joe Buchanan's Scottish Tome - Page 429.0
+I:429 0
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:G
+G | "C"G2 E "C"E2 E | "C"E E "C"E3 | "Dm"F2 E "Dm"D2 E | "Dm"F6 |
+"G7"B2 B "G7"BBB | "G7"B2 B "G7"BAG | "G7"AAG "G7"F2 G | "C"E6 |
+"C"G2 E "C"E2 E | "C"E3 "C"E2 E | "Dm"F2 E "Dm"D2 E | "Dm"F3- "Dm"F2 "G7"G |
+"G7"B2 B "G7"B2 B | "G7"B3 "G7"BAB | "G7"GGG "G7"A2 B | "C"c3- "C"c2 "G7"G |]
+"C"G2 E "C"E2 E | "C"E2 E "C"E2 E | "Dm"F2 E "Dm"D2 E | "Dm"F3- F2 |
+"G7"B3 B2 "G7"B | "G7"B2 B "G7"B2 G | "G7"A2 G "G7"F2 G | "C"E3- "C"E2 E |
+"C"G3 "C"E2 E | "C"E E "C"E E | "Dm"FFE "Dm"D2 E | "Dm"F3 "Dm"F3 |
+"G7"B3 "G7"BBB | "G7"B2 B "G7"B2 A | "G7"GGG "G7"A2 B | "C"c3- "C"c3 |]
+
+X:868
+T:Jake MacKay's Two Step 
+C:Joe Buchanan's Scottish Tome - Page 430.0
+I:430 0
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:D
+P:A
+"A7"e | "D"f2 a "A7"gfe | "D"d2 A "D7"A2 d | "G"B2 e d2 B | "D"A2- A "D7"AGF |
+"G"G2 B "Em"EFG | "D"F2 A "Bm"d2 c | "Em"B2 e "E7"e2 d | "A7"c3 A3 |
+"D"f2 a "A7"gfe | "D"d2 A "D7"A2 d | "G"B2 e d2 B | "D"A2- A "D7"AGF |
+"G"G2 B "Em"EFG | "D"A2 B "Bm"c2 d | "Em"e2 g "A7"cde | "D"d3 d2 :|
+P:B
+[K:A]"E7"E | "A"c3 c=c^c | e2 c B2 A | "E7"A2 G G2 =G | ^G3 GAB |
+"E7"d3 dcd | f2 d B2 c | "A"B2 A A2 B | "F#m"c3 "E7"c2 E |
+"A"c3 c=c^c | e2 c B2 A | "E7"A2 G G2 =G | ^G3 GAB |
+"Bm"d2 f "E7"Bcd | "A"e2 a "F#m"c2 a | "E7"g2 e dcB | "A"A3 A2 :|
+P:C
+[K:G] "D7"D | "G"B3 ^A2 B | e3 d2 e | "Am"d2 c c2 B | c3 c2 D |
+"D"c3 "D7"B2 c | "D7"f3 e2 f | "G"e2 d "D7"cde | "Am"d2 c "D7"B2 A |
+"G"B3 ^A2 B | "G"e3 "G7"d2 e | "C"d2 c c2 B | c3 c2 B |
+"Am"ABc "D7"def | "G"g2 B "D7"f2 e | "Am"dcB "D7"A2 d | "G"G3 G2 :|
+%
+W:Play A twice, B twice, A once
+W:C twice, A once to finish.
+
+X:869
+T:If You're Irish #1 
+C:Joe Buchanan's Scottish Tome - Page 431.1
+I:431 1
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:G
+"D7"d2 c | "G"B3 D3- | "G"D2 D DED | "A7"^C6 | "A7"A3 A2 B | 
+"D7"c3 d3 | "D7"B3 A3 | "G"G6- | "G7"G3 (A2 B) |  
+"C"c6 | "C"E6 | "G"DDD (D2 G) | "E7"(B3- B2) B |  
+"A7"AAA A2 A | "A7"(A2 B) A2 G | "D7"F2 D F2 A | "D7"d3 (d2 c) | 
+"G"B3 D3- | "G"D2 D DED | "A7"^C6 | "A7"A3 A2 B | 
+"C"c3d3 | "C"B3 "C7"^A3 | "B7"B6- | "B7"B3 "D7"(B2 c) | 
+"G"d2 d "E7"dcB | "Am"c2 B "D7"ABc | "G"d2 d "E7"dcB | "Am"c2 B "D7"ABc | 
+"G"d3 "E7"B3 | "Am"cdc "D7"(B2 A) | "G"G6- | "G"G3 |] 
+
+X:870
+T:Garden Where The Praties Grow, The 
+C:Joe Buchanan's Scottish Tome - Page 431.2
+I:431 2
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:A
+(E2 F) | "A"A2 B c2 c | "A"E2 F A2 c | "E7"B2 A A2 B | "A7"(A3 A2) c |
+"D"d2 d d2 d | "A"c2 d "F#m"e2 c | "B7"B2 ^A B2 c | "E7"B3- B2 c |
+"D"d2 d e2 c | "A"B2 c "F#m"e2 c | "Bm"B2 c B2 A | "D"F3 "E7"(E2 F) |
+"A"A2 B c2 c | "A"E2 F "F#m"A2 c | "B7"B3 "E7"A3 | "A"A6 |]
+
+X:871
+T:With A Shellelagh Under Me Arm 
+C:Joe Buchanan's Scottish Tome - Page 432.1
+I:432 1
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:D
+ABc | "D"d2 D D2 C | D3 (d2 c) | "G"B2 G d2 B | "D"A3 "A7"(B2 c) |
+"D"d2 c d2 B | "Bm"A2 F E2 D | "E7"F6 | "A7"E3 ABc |
+"D"d2 D D2 C | "D"D3 "D7"d2 c | "G"B2 G d2 B | "D"A3 B2 c |
+"G"d2 c "E7"d2 B | "D"A2 B "Bm"d2 f | "E7"e6"A7" | "D"d3 |]
+
+X:872
+T:Dear Old Donegal 
+C:Joe Buchanan's Scottish Tome - Page 432.2
+I:432 2
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:D
+"A7"A2 F | "D"D2 D DEF | "D"E2 D "D7"DFA | "G"B2 B G2 B | "D"A3 "A7"ABc |
+"Bm"d2 d "F#m"c2 d | "Bm"B2 A "D"F2 D | "E7"F2 E E2 F | "A7"E3 A2 F |
+"D"D2 D DEF | "D"E2 D DFA | "G"B2 B G2 B | "D"A3 "A7"ABc |
+"Bm"d2 d "F#m"c2 d | "Bm"B2 A "D"F2 D | "E7"E2 D "A7"D2 E | "D"D3- "D7"D2 A |
+"G"B2 B G2 B | "G"d2 d d2 B | "D"B2 A A2 F | "D"A3 A3 |
+"D"A2 A A2 A | "G"B2 d "D"A2 F | "E7"F2 E E2 F | "A7"E3 A2 F |
+"D"D2 D DEF | "D"E2 D "D7"DFA | "G"B2 B G2 B | "D"A3 ABc |
+"Bm"d2 d "F#m"c2 d | "G"B2 A "D"F2 D | "E7"E2 D "A7"D2 E | "D"D3 |]
+
+X:873
+%%stretchlast 1
+T:Whistling Rufus 
+C:Joe Buchanan's Scottish Tome - Page 433.0
+I:433 0
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:C
+K:G
+W:Intro
+%%vskip 0
+e/<g/e de/d/ | BG A/G/E/D/ | G/<B/G A/G/A | G3 :|
+%%vskip 20
+P:A
+|: d2 | GG/B/ dd/e/ | gg e/<d/d | GG/A/ BA/G/ | (d3 d) |
+GG/B/ dd/e/ | gg e/<d/d | aa a/g/e | a3 d |
+GG/B/ dd/e/ | gg e/<d/d | GG/A/ BA/G/ | d3 g |
+e/<g/e de/d/ | BG A/G/E/D/ | G/<B/G A/G/A | G3 :|
+P:B
+FG | d2 d2- | de dG | F2 (F2 | F)c ^GA |
+e2 e2- | ef ec | B2 (B2 | B)G FG |
+d2 d2- | de dG | c2 c2- | cd cG |
+B2 cB | E2 F2 | G4 | G3 :|
+%%newpage
+T:Whistling Rufus (cont)
+P:C
+G2 | C2 D z | E3 G | A>B A>B | AG EC |
+D>E D>E | DA, B,C | D>E D>E | DB, A,G, |
+C3 d | E3 G | A>B A>B | AG EC |
+D>E D>E | DA, B,C | D4 | C3 |]
+%
+W:Play A twice, C once
+%%leftmargin 2cm
+W:     B twice, B once
+W:A once, A once
+%%leftmargin 2cmo
+
+X:874
+T:Bonnie Wee Jeanie McColl #1
+C:Joe Buchanan's Scottish Tome - Page 434.1
+I:434 1
+C:Boston two step
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:C
+E | "C"C2 C "C"E2 G | "C"ccc "C"c2 c | "C"ccc "C7"cG^G | "F"(A3 A2) "F"C |
+"G7"B,2 B, "G7"B,DF | "G7"B2 B "G7"BBB | "G7"BBB "G7"A2 ^G | "C"(G3 G2) "G7"G |
+"C"C2 C "C"E2 G | "C"c2 c "C"c2 c | "C"c2 G "C"^F2 G | "F"(A3 A3) |
+"C7"G3 B2 "G7"c | "Dm"d2 d2 "Dm7"B2 | "G7"GGG "G7"GAB | "C"(c3 c3) |]
+
+X:875
+T:Scotsmen Every One 
+C:Joe Buchanan's Scottish Tome - Page 434.2
+I:434 2
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:C
+GAB | c3 B3 | G3 A2 B | cBA G3 | (E3 E2) E |
+c2 c c2 c | ccc c3 | d2 d d2 c | B2 G ABc |
+c3 B3 | G3 A2 B | cBA G3 | (E3 E2) B |
+c2 c c2 c | c2 c c2 c |  d2 d GAB |  (c3 c3) |]
+
+X:876
+T:Waggle O'The Kilt, The 
+C:Joe Buchanan's Scottish Tome - Page 434.3
+I:434 3
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:C
+G | "C"C3 "C"C3 | "C"c2 c "C"c2 B | "G7"A2 G "G7"E2 F | "G"G3 "G7"EEE |
+"C"C2 D "C"E2 F | "C"G2 A "C"B2 c | "D7"d2 ^c "D7"d2 e | "G7"d3 GAB |
+"C"c2 d "C7"e2 d | "C"c2 B "F"c2 A | "C"G2 A "C"G2 E | "Dm"D3 "C7"E2 F |
+"C"G3 "C"G3 | "C"G3 "C"G3 | "F7"c2 B A2 B | (c3 c2) |]
+
+X:877
+T:It's Nice To Get Up In The Morning 
+C:Joe Buchanan's Scottish Tome - Page 435.1
+I:435 1
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:G
+B>A | GFE DB,C | D2 D D2 E | G2 G A2 F | G G B/B/ |
+c2 d e2 d | d2 B BAG | A2 E F2 G | A3 A2 B |
+c2 d e2 d | d2 B BAB | d2 B BAG | A3 B2 A |
+GFE DCB, | D2 D DDE |  GGG AGF | G3 G3 |]
+
+X:878
+T:Wee Kirkcudbright Centipede #2, The 
+C:Joe Buchanan's Scottish Tome - Page 435.2
+I:435 2
+Z:Carl Allison
+R:Two-step
+L:1/8
+M:6/8
+K:G
+G | "C"G2 E "C"E2 E | "C"E E "C"E3 | "Dm"F2 E "Dm"D2 E | "Dm"F6 |
+"G7"B2 B "G7"BBB | "G7"B2 B "G7"BAG | "G7"AAG "G7"F2 G | "C"E6 |
+"C"G2 E "C"E2 E | "C"E3 "C"E2 E | "Dm"F2 E "Dm"D2 E | "Dm"F3- "Dm"F2 "G7"G |
+"G7"B2 B "G7"B2 B | "G7"B3 "G7"BAB | "G7"GGG "G7"A2 B | "C"c3- "C"c2 "G7"G |]
+"C"G2 E "C"E2 E | "C"E2 E "C"E2 E | "Dm"F2 E "Dm"D2 E | "Dm"F3- F2 |
+"G7"B3 B2 "G7"B | "G7"B2 B "G7"B2 G | "G7"A2 G "G7"F2 G | "C"E3- "C"E2 E |
+"C"G3 "C"E2 E | "C"E E "C"E E | "Dm"FFE "Dm"D2 E | "Dm"F3 "Dm"F3 |
+"G7"B3 "G7"BBB | "G7"B2 B "G7"B2 A | "G7"GGG "G7"A2 B | "C"c3- "C"c3 |]
+
+X:879
+T:Shake Hands Wi' Yer Uncle Mike
+C:Joe Buchanan's Scottish Tome - Page 436.1
+I:436 1
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:C
+G | C2> C2 C2> E2 | D2> C2 C2> G2 | A2> A2 F2> A2 | G4 ((3GAB) |
+c2> c2 B2> c2 | A2> G2 E2> G2 | A2> D2 D2> E2 | D4- D2 G |
+C2> C2 C2> E2 | D2> C2 C2> G2 | A2> A2 F2> A2 | G4 ((3GAB) |
+c2> c2 B2> c2 | A2> G2 E2> C2 | D2> C2 C2> D2 | C6 |]
+G | A2> A2 F2> A2 | c2> c2 c2> A2 | A2> G2 G2> E2 | E4 E |
+G2> G2 G2> G2 | A2> c2 A2> G2 | E2> D2 D2> E2 | G6 G |
+C2> C2 C2> E2 | D2> C2 C2> G2 | A2> A2 F2> A2 | G4 ((3GAB) |
+c2> c2 B2> c2 | A2> G2 E2> C2 | D2> C2 C2> D2 | C6 |]
+
+X:880
+T:Big Kilmarnock Bunnet
+C:Joe Buchanan's Scottish Tome - Page 436.2
+I:436 2
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:G
+Bc | d2> d2 e2> d2 | d2> B2 G2> B2 | d2> B2 E2> F2 | G4- G2 E |
+G2> G2 G2> G2 | G2> G2 B2> c2 | d2> d2 c2> B2 | A4 (3ABc |
+d2> d2 e2> d2 | d2> B2 G2> B2 | d2> B2 E2> F2 | G2> F2 E2> D2 |
+G2> G2 G2> B2 |  d2> e2 d2> B2 | A3- A3 | G3- G3 |]
+
+X:881
+%%stretchlast 1
+T:If You're Irish #2 
+C:Joe Buchanan's Scottish Tome - Page 438.2-439.1
+I:438 2
+Z:Carl Allison
+R:Two-step
+L:1/8
+M:6/8
+K:C
+g>f | e2 G4- | G2 G GAG | ^F6 | d4 d>e |
+f3 g2 f | e3 d3 | c6- | c3 cde |
+f6 | A6 | G2 ^F G2 c | e6 |
+ddd d2 d | d2 e d2 c | B2 G B2 d | g4 g>f |
+e2 G4- | G2 G GAG | ^F6 | d3 d>e |
+f3 g2 f | e3 ^d3 | e6- | e3 e2 f |
+ggg gfe | f2 e def | ggg g2 e | f2 e def |
+g3 e3 | fgf e2 d | c6- | c4 |]
+
+X:882
+T:Big Kilmarnock Bunnet #2 
+C:Joe Buchanan's Scottish Tome - Page 439.2
+I:439 2
+Z:Carl Allison
+R:Two-step
+L:1/8
+M:6/8
+K:G
+Bc | d2 d e2 d | d2 B G2 B | d2 c E2 F | G3 G2 E |
+G2 G G2 G | G2 G B2 c | d2 d c2 B | A3 ABc |
+d2 d e2 d | d2 B G2 B | d2 c E2 F | G2 F E2 D |
+G2 G G2 B | d2 e d2 B | A6 | A6 :|
+
+X:883
+T:Clay Braes Two Step, The
+C:Joe Buchanan's Scottish Tome - Page 440.0
+I:440 0
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:F
+P:A
+c=Bc | "F"agf "C7"efg | "F"f2 c "F7"ABc | "Bb"d^cd "D7"AB=c | "Gm"B3 B2 A |
+GAB GBd | "C7"g2 f e2 d | "C"e_e=e "G7"fef | "C7"g3 c=Bc |
+"F"agf efg | "F"f2 c "F7"ABc | "Bb"d^cd "D7"AB^c | "Gm"B3 B2 A |
+GAB GBd | "G7"g2 f e2 d | "C"c=Bc "C7"a2 g |1 "F"f3 :|2 "F"f2 f2 |]
+P:B
+[K:D] "A7"A^G=G | "D"F=F^F "A7"GFG | "D"A2 f "D7"e2 d | "G"Bdg "Gm"Adg | "D"f2 d A3 |
+"G"B^AB "A7"c2 d | "D"f2 a "B7"g2 f | "E7"efe "B7"B2 f | "Em"efe "A7"cBA |
+"D"F=F^F "Em"GFG | "F#m"A2 f "D7"e2 d | "G"Bdg "Gm"^Adg | "D"f2 d A3 |
+"G"B^AB "A7"c2 d | "B"f2 a "B7"g2 f | "Em"e2 B "A7"cde | "D"d3 :|
+P:C
+[K:C] "G7"GAB | "C"cBc gec | "Em"B^AB geB | "F"AGA Adf | "F"A3 "D7"Adc |
+"G"BAG "D g"GBd | "G g"g^fg "D g"=fdB | "Am"cBc "D7"ABc | "Dm"d3 "G7"GAB |
+"C"cBc gec | "Em"B^AB geB | "F"A^GA Adf | "F"A3 "D7"Adc |
+"G g"BAG "D g"GBd | "G g"gfg "D g"fdB | "G"GFG "G7"Bed | "C"c3 :|
+
+X:884
+%%annotationfont Times-Roman 14
+T:Andy Ross Two Step, The
+C:Joe Buchanan's Scottish Tome - Page 441.0
+I:441 0
+C:Bob Watt
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:D
+W:Intro
+%%vskip 0
+G2 G GFG | A G E | cBA ABc | d3 d2 :|"_Final Chord"[Fd]4 |]
+%%vskip 20
+P:A
+A | d2 d dcd | f2 d A2 F | A2 A A^GA | B2 A F3 |
+G2 G GFG | A G E | cBA B2 A | F3- F2 A |
+d2 d dcd | f2 d A2 F | A2 A A^GA | B2 A F3 |
+G2 G GFG | A G E | cBA ABc | d3 d2 :|"_Final Chord"[Fd]4 |]
+[K:A]
+P:B
+EFG | A3 c3 | e3 c3 | def a f | e3- e2 c |
+d2 B Bcd | c2 A ABc | B^df agf | e3 EFG |
+A3 c3 | e3 c3 | def a2 f | e3- e2 c |
+d2 B Bcd | c2 e a3 | Bcd c2 B | A3 A2 :| 
+[K:D]
+%%newpage
+T:Andy Ross Two Step (cont), The
+P:C
+d^c=c | B3 d3 | edc d2 B | A2 F A2 d | f3- f3 |
+e2 ^d e2 f | e2 d c2 B | c2 A c2 d | e3- e3 |
+B3 d3 | edc d2 B | A2 F A2 d | f3- f3 |
+e2 ^d e2 f | g2 e c2 B | A^GA f2 e | d3- d3 :|
+%
+W:Play A Twice | Play C Once
+W:Play B Twice | Play A Once
+W:Play A Once  |
+
+X:885
+T:Ornithologist, The
+C:Joe Buchanan's Scottish Tome - Page 442.0
+I:442 0
+C:Freeland Barbour
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:A
+P:Intro
+A2 B e2 f | g e e^de | dBG EFG | A3- A2 |
+%%vskip 20
+S EFG | "A"A E c E | A3 c3 e | f2 e ^d2 e | "E"B3- B2 A |
+"E"G2 e e^de | "E7"d2 B EFG | AGA c2 A | "E7"E3 EFG |
+"A"A2 E c2 E | A3 c2 e | f2 e d2 e | "E"B3- B2 A |
+"E"G2 B e2 f | g2 e e^de | "E7"dBG EFG | A3- A2 !fine!:|
+%%vskip 25
+CD^D | "A"E2 c c2 B | A2 G A2 E | "Bm"F2 d d2 c | "Bm"B2 ^A "B"B2 F |
+"C"G2 e e^de | "E7"d2 B EFG | "A"AGA c2 A | "E7"E3 CD^D |
+"A"E2 c c2 B | A2 G A2 E | "Bm"F2 d d2 c | "Bm"B2 ^A "B"B2 F |
+"E"G2 e e^de | "E7"d2 B EFG | "A"AGA "E7"c2 B | "A"A3- A2S :|
+%%newpage
+T:Ornithologist (cont), The
+[K:D]
+ABc | "D"d3 A3 | F2 A f2 e | "G"d2 c d2 B | "D"A3- A2 d |
+"A7"e2 ^d e2 f | g2 e c2 B | AGA d2 e | "D"f3 "A"ABc |
+"D"d3 A3 | F2 A f2 e | "G"d2 c d2 B | "D"A3- A2 d |
+"E7"e2 d e2 f | "A7"g2 e c2 B | AGA f2 e | "D"d3- d2 H:|
+%%vskip 25
+[K:G]
+d^c=c | "G"B3 d3 | A3 B3 | d2 c B2 c | "D"A3- A2 G |
+"D"F3 A3 | D3 F3 | "G"G2 F G2 A | "G"B2 d "D"edc |
+"G"B3 d3 | G3 B3 | d2 c B2 c | "D"A3- A2 G |
+"D"F2 A "D7"f2 e | "D"d2 ^c "D7"=c2 A | F2 D B2 A | "G"G3- G2 S!D.C.! :|
+
+X:886
+%%annotationfont Times-Roman 16
+T:Out At The Meadowbank Inn 
+C:Joe Buchanan's Scottish Tome - Page 444.0
+I:444 0
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:F
+FAc | "F"f2 e d2 c | "F"c2 A "Dm"A2 F | "Gm"GAB A2 G | "C"B z "C7"z |]
+FAc | "F"f2 e d2 c | "F"c2 A FAc | "F"f2 e d2 c | "C7"G3 EGB |
+"C7"e2 d c2 B | "C7"B2 G CEG | "C7"c2 B G2 ^G | "F"A3 FAc |
+"F"f2 e d2 c | "F"c2 A FAc | "F"f2 e d2 c | "Bb"c3 "Gm"DFA |
+"C7"e2 d c2 B | "C7"B2 G CEG |1 "C7"c2 B G2 A | "F"F3 :|
+%%leftmargin 11.5cm
+[2 "@20,18Last Time Only" "C7"c2 ^c d2 e | "F"f3 z z !fine!|]
+%%leftmargin 2cm
+[K:C] "G7"GGG | "C"G2 e d2 c | "C"G2 E CEG | "C"A3 "Gm"_A3 | "G" G3- GGG |
+"C"G2 e d2 c | "C"G2 E CEG | "C"B "Gm"_B | "A7"A3- AAA |
+"Dm"A2 f "A7"^c2 e | "Dm"d3- "G7"dGG | "C"G2 e "E7"B2 d | "Am"c3- c2 B |
+"D"A2 ^G A2 B |  "D7"c2 A B2 c | "G"d3- d3- | "G7"d "G7"GGG |
+"C"G2 e d2 c | "C"G2 D CDG | "C"A3 _A3 | "G7"G3- FFF |
+"C"G2 e d2 c | "C"G2 D CEF | "C"B3 "Gm"_B3 | "A7"A3 AAA |
+"Dm"A2 f "A7"^c2 e | "Dm"d3- d"G7"GG | "C"G2 e "Em"B2 d | "Am"c3- c2 B |
+"D7"A2 ^G A2 ^A | "G7"B2 G e2 d | "C"c6- | "C7"c3 |]
+[K:Bb] F^E=E | "Bb"D3 F3 | "Bb"c3 B3 | "F7"B2 A A2 ^G | "F7"A3- A3 |
+"F7"C3 E3 | "F7"A3 G3 | "Bb"G2 F F2 =E | "Bb"F3- F2 ^F |
+"G7"G3 D3 | E3 F3 | "Cm"^A2 G G2 ^F | G3- G3 |
+"A7"A3 =E3 | F3 G3 | "Dm"B2 A A2 B | "F7"c3 FGA |
+"Bb"B3 A3 | c3 B3 | "F7"F2 A A2 ^G | A3- A3 |
+"F7"C3 E3 | A3 G3 | "Bb"G2 F F2 =E | F3- F2 ^F |
+"G7"G3 D3 | E3 F3 | "Cm"G2 G ^F2 G | "Cm"c3- "C7"c2 B |
+"F7"A3- A2 G | F2 F A2 c | "Bb"B3- B3 | "C7"c3 !fine!S!D.S.!|]
+
+X:887
+T:Bobby Boghill Two Step, The 
+C:Joe Buchanan's Scottish Tome - Page 446.0
+I:446 0
+C:Willie Laurie
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:A
+"A7"EFG | "A"A2 c "E7"dcB | "A"A2 c "A7"E2 A | "D"F2 G AGF | "A"E3 "E"E2 D |
+"A"CEA cde | "E7"d2 B "A"c2 A | "B"BcB "B7"AGF | "E"E3 "E7"EFG |
+"A"A2 c "E7"dcB | "A"A2 c "A7"E2 A | "D"F2 G AGF | "A"E3 "A7"E2 A |
+"D"EAc efe | "A"EFE dcB | "E"EFE "D7"dcB | "A"A3 A3 :|
+[K:D] (3A^G=G | "D"F2 A B2 A | "D"F2 f dcB | "D"ABA FAd | "A"c3 c3 |
+"Em"G2 A B2 d | "A"c2 d ecA | "Em"GAB "A"cde | "D"F3 "A7"A^G=G |
+"D"F2 A B2 A | "D"F2 f dcB | "D"ABA def | "G"B3 B3 |
+"G"e2 d c2 B | "D"d2 F ABA | "Em"GAB "A7"cde | "D"d3 d3 :|
+[K:G] d2 | "G"B3 G2 B | "G"dBG D2 B | "G"ded "Em"dcB | "Am"c3 A3 |
+"Am"E3 A2 c | "Am"ecA "A7"E2 G | "D"FGA "A7"GFE | "D"DFA dcA |
+"G"B3 G2 B | "G"dBG D2 B | "G"ded Bdg | "C"e3 c3 |
+"C"G3 E3 | "G"DGB ded | "D"fed cBA | "G"G3 G3 :|
+
+X:888
+T:John Huband's Dancing Fingers 
+C:Joe Buchanan's Scottish Tome - Page 447.0
+I:447 0
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:D
+W:Play: A twice, B twice, A once, C twice, A once to finish
+%%vskip 0
+ABc | "D"d2 d "A"cde | "D"f2 e "D7"d2 c | "G"Bcd edB | "D"A3 "D7"Adc |
+"G"BGB dcB | "D"ABA FAF | "E"E2 e e2 d | "A"cBA "A7"GFE |
+"D"d2 d "A"cde | "D"f2 e "D7"d2 c | "G"Bcd edB | "D"A3 Adc |
+"G"BGB dcB | "D"ABA FAF | "Em"EFG F2 E | "D"D3 D2 :|
+[K:G] F2 | "G"G3- G2 B | "G"d3- d2 ^d | "C"e2 d "D"cde | "G"d3- d2 ^d |
+"C"e2 d "D"cde | "G"d2 B G2 B | "A"ABA GFE | "D"D3- DEF |
+"G"G3- G2 B | "G"d3- d2 ^d | "C"e2 d "D"cde | "G"d3- d2 ^d |
+"C"e2 d "D"cde | "G"d2 B "Em"G2 B | "Am"ABc "D"B2 A | "G"G3 G :| 
+[K:C] G | "C"C3 C2 E | "C"G3 G2 ^G | "F"AFA cBA | "C"G3 G2 G |
+"F"AFA cBA | "C"GAG EGE | "D"D2 d d2 c | "G"BAG FED |
+"C"C3 C2 E | "C"G3 G2 ^G | "F"AFA cBA | "C"G3 GcB |
+"F"AFA cBA | "C"GAG EGE |1 "Dm"DEF "G"E2 D | "C"C3 C2 :|
+%%leftmargin 345 cm
+|[2 "Dm"DEF AB | "C"c3 ABc |]
+
+X:889
+T:Ronnie Cooper Two Step 
+C:Joe Buchanan's Scottish Tome - Page 448.0
+I:448 0
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:A
+P:A
+W:Play: A twice, B twice, A once, C twice, A once
+%%vskip 0
+E |: "A"A3 E2 A | "A"c3 A3 | "A"ece fec | "A"e3 "F#"e2 c |
+"Bm"B3 F2 B | "Bm"d3 B3 | "B7"b2 a g2 f | "E7"efe dcB |
+"A"A3 E2 A | "A"c3 A3 | "A"ece fec | "A"e3 "F#"e2 c |
+"Bm"B2 c d2 e | "Bm"f2 a "B7"g2 f | "E7"efe dcB |1 "A"Afe "E7"dcB :|2 "A"A3 A3 |]
+P:B
+[K:D] A | "D"DFA d2 e | "D"f2 d A2 F | "D"DFA def | "Em"g2 e B3 |
+"A"ccc c2 d | "A"e2 ^d e2 f | "Em"gfe "E7"dcB | "A"ABA GFE |
+"D"DFA d2 e | "D"f2 d A2 F | "D"DFA def | "Em"g2 e B3 |
+"A"ccc c2 d | "A"e2^d e2f | "Em"gec "A"ABc | "D"d3 d2 :|
+P:C
+[K:G] D | "G"B3 G3 | "G"D3 B,3 | "G"G,B,D "E7"GAB | "Am"c2 A E3 |
+"Am"c3 A3 | "Am"E3 C3 | "A7"A,^CE A2 G | "D"F2 E D3 |
+"G"B3 G3 | "G"D3 B,3 | "G"G,B,D "E7"GAB | "Am"c2 A E3 |
+"D"FFF F2 G | "D"A2 ^G A2 B | "Am" cAF "D"DEF | "G"G3 G2 :|
+W:Errata: Added a repeat symbol at first bar of first section
+
+X:890
+T:Mountfeild Two Step, The 
+C:Joe Buchanan's Scottish Tome - Page 449.0
+I:449 0
+Z:Carl Allison
+C:Frank James
+R:Two-step
+L:1/8
+M:6/8
+K:A
+P:A
+W:Play: A twice, B twice, A once, C twice, A once to finish
+%%vskip 0
+E | "A"A3 E3 | "A"c3 A3 | "A"ece a2 g | "A"f2 e "F#7"d2 c |
+"Bm"B3 F3 | "Bm"d3 B3 | "B7"Bdf b2 a | "E7"gfe dcB |
+"A"A3 E3 | "A"c3 A3 | "A"ece a2 g | "A"f2 e d2 c |
+"D"FAd "Bm"f2 f | "A"fec "F#m"A2 A | "Bm"GFE "E7"dcB | "A"A3 A2 :|
+P:B
+E | "A"cBA E2 c | "A"B2 A E3 | "A"CEA c2 e | "Bm"f2 e d3 |
+"E7"gfe B2 g | "E7"f2 e B3 | "Bm"gfe "E7"B2 g | "A"f2 e c3 |
+"A"cBA E2 c | "A"B2 A E3 | "A"CEA c2 e | "D"f2 e d3 |
+"D"FAd "Bm"f2 f | "A"fec "F#m"A2 A | "Bm"GFE "E7"dcB | "A"A3 A2 :|
+P:C
+[K:G] "D7"D | "G"G,3 B,3 | "G"D3 G3 | "G"BAG "C"FGE | "G"D3 D2 E |
+"Am"D2 E "D7"F2 E | "Am"D2 c "D7"B2 A | "B/G"GBA "A#/G"GFE | "Am"DED "D7"CB,A, |
+"G"G,3 B,3 | "G"D3 G3 | "G"BAG "C"FGE | "G"D3 D2 E |
+"D7"D2 E F2 E | "Am7"D2 c B2 A | "Em"GBA "D7"B2 A | "G"G3 G2 :|
+
+X:891
+T:Directors, The 
+C:Joe Buchanan's Scottish Tome - Page 450.0
+I:450 0
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:G
+GBd | e2 d ^c2 d | B GBd | e2 d ^c2 d | c3 cBc |
+f3 e3 | f3 e3 | f e dc d^c=c | B3 GBd |
+e2 d c2 d | B3 GBd | e2 d ^c2 d | c3 dBc |
+f3 e3 | f3 e3 | d^cd def | g3 g2 :|
+[K:C] g^f=f | e3 ^d2 e | G3- G3 | GAB cBA | d3- d3 |
+f3 e2 f | G3- G3 | G^FG c^d | e3- e3 |
+e3 ^d2 e | G3- GAB | c2 c cde | f3- f2 A |
+A^GA e2 d | cBc d2 c | BAB e2 d | c3- c2 |
+
+X:892
+T:Frank Jamieson Two Step 
+C:Joe Buchanan's Scottish Tome - Page 451.0
+I:451 0
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:A
+W:Play: A twice, B twice, A once, C twice, A once to finish
+%%vskip 0
+"E7"efg | "A"a3 e3 | "A"c3 A3 | "A"EAc (e2 f) | "A"e3- e2 a |
+"E7"g2 f e3 | "E7"b2 g e3 | "B7"B^df agf | "E7"e3 efg |
+"A"a3 e3 | "A"c3 A3 | "A"EAc (e2 f) | "A"d3- d2 a |
+"@14,40___________________________________________________________________________________"
+"@12,28|"
+"@20,24Intro"
+"E7"g2 f e3 | "E7"b2 g e3 | "E7"B2 e dcB | "A"A3- A2 :| 
+[K:D] "A7"A | "D"DFA d2 e | "D"fdf agf | "em"gfg B2 e | "Em"g3 e2 "E7"d |
+"A"c2 B Ace | "A"gba gfe | "D"dfe dcB | "A7"ABA GFE |
+"D"DFA d2 e | "D"fdf agf | "Em"fdf B2 e | "Em"g3 e2 "E7"d |
+"A7"c2 B Ace | "A7"gba gfe | "D"d2 A "A7"BAG | "D"D3- D2 :| 
+[K:G] "D7"d | "G"G,3 "G"B,3 | "G"D3 "G"G3 | "G"B^AB e2 B | "G"d3- d2 g |
+"D7"f2 e A2 B | "D7"ced cBA | "G"GBA GFE | "D7"DED CB,A, |
+"G"G,3 B,3 | "G"D3 G3 | B^AB e2 B | "G"d3- d2 g |
+"D7"f2 e A2 B | "D7"ced cBA | "G"G2 g "D7"edB | "G"G3- G2 :|
+
+X:893
+%%annotationfont Times-Roman
+T:Looking For A Partner
+C:Joe Buchanan's Scottish Tome - Page 452.0-453.0
+I:452 0
+Z:Carl Allison
+R:Two-step
+L:1/8
+M:6/8
+K:D
+W:Intro
+%%vskip 0
+ddd dcB | A2 A AGF | EFG ABc | (d3 d2) :|
+%%vskip 20
+A, | F2F FED | A2A A2F | G2G GFE | B2B B2 d |
+c2=c ^c2d | e2c B2A | d2c d2e | fed cBA |
+F2F FED | A2A A2F | G2G GFE | B2B B2c |
+ddd dcB | A2 A AGF | EFG ABc | (d3 d2) :|
+e | f3 f3 | fed A3 | dcd e2d | c3 B3 |
+g3 g3 | gfe B3 | c2d ^d2 e | f2e cBA |
+f3 f3 | fed A3 | dcd e d | c3 B3 |
+g2g gfe | d2d dcB | A3 c3 | dAB cde |
+e | f3 f3 | fed A3 | dcd e2d | c3 B3 |
+g3 g3 | gfe B3 | c2d ^d2 e | f2e cBA |
+e | f3 f3 | fed A3 | dcd e2d | c3 B3 |
+g2g gfe | d2d dcB | A3 c3 | (d3 d2) |]
+%%newpage
+T:Looking For A Partner (cont)
+[K:G] c2 | B3- B3 | c3 ^c3 | d2 ^c d2 c | (d3 d2) c |
+B2 c ^c2 d | e3 d3 | F3- F2 | F2 D2 F2 A2 |
+c3 c3 | c2 B2 A2 B2 | c3- c3 | c2 B c2 d |
+f2 e3 | d3 c3 | (_B3 B3) | BDE FGA |
+(B3 B3) | c3 ^c3 | e2  ^d2 e2 c | d3- d2 c |
+B2 c ^c2 d | e3 d3 | (f3 f3) | f3 def |
+g2 g gfe | g2 g2 gfe | d2 d dBG | (e3 e2) d |
+cBc dcd | ede fef | g2 d2 edB | G3 G2 |]
+
+X:894
+T:Dunvegan Two Step, The 
+C:Joe Buchanan's Scottish Tome - Page 459.0
+I:459 0
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:G
+W:Play A twice, B twice, A once, C twice, A once to fine.
+%%vskip 0
+P:A
+d | B2 B BAB | G2 B B3 | DGB dcB | A3- A2 B |
+A2 A AGA | D2 F A3 | d^cd edc | B3- B2 d |
+B2 B BAB | G2 B B3 | DGB dcB | A3- A2 B |
+f2 f f2 e | d2 e f2 e | d^cd edF | G3 G2 d !fine!:|
+P:B
+d | Bdg eBe | B2 G D3 | DGB dcB | A3- A2 d | 
+a2 a aga | f3 e3 | d^cd efc | B3- B2 d | 
+Bdg dBd | B2 G D3 | DGB dcB | A3- A2 d | 
+a2 a aga | f3 e3 | d^cd efc | G3- G2 :| 
+P:C
+B,C^C | D2 B G2 D | C2 A FDB, | A2 G F2 E | D3- D2 D | 
+D2 B G2 D | C2 A FDB, | A2 G F2 E | D3- D2 G | 
+E2 G c2 e | d2 B G2 B | d^cd edF | G3 G2 :|
+
+X:895
+T:Edinbane Two Step 
+C:Joe Buchanan's Scottish Tome - Page 460.0
+I:460 0
+C:Iain MacDonald, Dunvegan 1986
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:G
+W:Intro
+%%vskip 0
+"G"d3 ^c2 d | "G"edB "D7"AGF | "A7"E3 "D7"F3 | "G"G3- G2 |]
+%%vskip 20
+P:A
+"A7"D | "G"d3 ^c2 d | "G"edB "A7"AGE | "D7"F2 c c2 B | c3- c2 d |
+"G"e3 ^d2 e | fed cBA | G2 d d2 ^c | d3- d2 "D7"D |
+"G"d3 ^c2 d | "G"edB "A7"AGE | F2 c c2 B | c3- c2 d |
+"G"a2 g f2 e | d2 c BAG | "A7"E3 "D7"F3 | "G"G3- G2 :|
+P:B
+[K:D] "A7"A2 | "D"F3 "A7"A3 | "D d"^G3 "D"A3 | "D"ABc d2 e | g3- g2 A |
+A2 a f2 d | A3 "D7"B3 | "A7"c3- c3- | c2 A G2 F |
+E3- E2 F | G2 A GFE | "D"F2 ^E F2 E | F2 B AGF |
+"E7"E3 E3 | F3 ^G3 | "A7"A3 "E7"BA^G | "A7"A3- A2 A |
+%%newpage
+T:Edinbane Two Step (cont)
+"D"F3 "A7"A3 | "D d"^G3 "D"A3 | """D"ABc d2 e | f3- f2 A |
+A2 a f2 d | A3 "F#"^A3 | "G"B3- B3- | B2 B ^A2 B |
+"D"d3- d3- | d2 d c2 B | A3- A3- | A2 A ^G2 A |
+"Em"BcB ^A2 B | "A7"c3 A3 | "D"d3 "A7"c3 | "D7"^B3- B3 |] 
+P:C
+[K:C] "G7"G2 | "C"G3- G>AG | ^F2 G A2 | G6 | c6 |
+A3 G3 | B3 A3 | "G7"B6- | B2 A F2 E |
+D3- D2 E | F2 G FED | "C"E2 ^D E2 D | E2 G GFE |
+"D7"D3 D3 | "A7"E3 "D7"^F3 | "G7"G3 "D7"AG^F | "G7"G6 |
+"C"G3- GAG | ^F2 G A2 G | G6 | c6 |
+c3 c3 | "G"d3 "C d"^d3 | e6- | e2 e f2 e |
+"A7"d6 | d2 d e2 d | "G7"d6 | "C"c2 G F2 G |
+"D7"ABA ^G2 A | "G7"B3 G3 | "C"c3 "A7"^c3 | d3- d3 |]
+%
+W:Play A twice, B once, C once, A once.
+
+X:896
+T:Bonanza Two Step, The 
+C:Joe Buchanan's Scottish Tome - Page 468.0
+I:468 0
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:G
+D | "G"B,C^C "D"DEF | "G"GA^A "D"B2 c | "G"d^cd "G#dim"edB | "A/A7"c6 |
+"Am7"CDF "D7"F^EF | "A"A^GA "D7"c2 d | "A"fed "D7"cBA | "G"B3- "D"B2 D |
+"G"B,C^C "D"DEF | "G"GA^A "D"B2 c | "G"d^cd "G7"gf=f | "C"e3- "E c"e2 e |
+"C"e^de "C#dim"gfe | "D"dge "G"d2 d | "Am"fed "D7"cBA | "G"G- G z z :|
+B | "Am"ABc "D7"B2 A | "G"G2 B "D"D2 B | "Am"ABc "D"B2 A | "G"GBd "D"gdB |
+"Am7"ABc "D7"B2 A | "G"GAB "D7"dBd | "A7"ABA "G#7"AB^c | "D7"d3 d2 |
+"Am7"ABc "D7"B2 A | "F"GAB "D g"dBd | "Am7"ABc "D7"B2 A | "C"G2 E "D7"D2 C |
+"G"B,C^C "D g"DEF | "G"GA^A "D"B2 d | "Am"fed "D7"cBA | "G"G3- G :|
+
+X:0
+%%newpage
+%%withxrefs 0
+%%lineskipfac 30
+%%begintext center
+%%This page intentionally left blank
+%%endtext
+K:

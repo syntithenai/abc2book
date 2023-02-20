@@ -1,0 +1,17 @@
+X: 2164
+T: the Perrie Werrie.   a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.2 p.16 #4 (and top 2 staffs on p.17)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+c | BG-G>A TG>AGc | BG-G>B gdec | BGGA TG>AGB | A=FFA c3 :| A | Bd-d>e ~d>edc | Bd-d>e gdec |
+Bd-d>e ~d>edB | A=FFA c3A || Bd-d>e dedc | Bdde g3d | gbeg dgBd | A=FFA c3 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | g2g2 g2g2 | g2g2 g2f2 | g2g2 g2g2 | =f2f2 f3 :| z | g2g2 g2f2 | g2g2 g2d2 |
+g2g2 g2g2 | =f2f2 f2^f2 || g2g2 g2f2 | g2g2 G2g2 | g2c2 B2G2 | =F2F2 F2F |]

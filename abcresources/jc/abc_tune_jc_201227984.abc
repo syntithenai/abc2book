@@ -1,0 +1,25 @@
+X: 11023
+T: VALSE DU DUC DE REICHSTADT
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.102 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The low Bb grace note in bar 25 is a bit odd; not fixed.
+M: 3/4
+L: 1/8
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"^8va.  -  -  -  -"\
+.f2 |\
+.e2z2.d2 | .c2z2.=B2 | "_>".d2z2.c2 | "_>".A.A.A.A.A.A |\
+.B2z2.c2 | .G.G.G.G.G.G | .A2z2.c2 | .f2z2.f2 !mf!|\
+.e2z2.d2 | .c2z2=B2 | "_>".d2z2.c2 | "_>".A.A.A.A.A.A |\
+B2z2.c2 | "_>".G.G.G.G.G.G | .F2efcA | F2z2 :|
+|: e2 |\
+f2z2g2 | a2z2f2 | e2z2f2 | gggggg |\
+d2z2e2 | ffffff | c2z2d2 | eeeeee |\
+f2z2g2 | {B}=b3agf | e2z2f2 | {A}a3gfe |\
+d2z2e2 | {G}g3fed | c2cccc | c2"^D.C."z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

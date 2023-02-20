@@ -1,0 +1,28 @@
+X: 224
+T: the Shepherdess.
+T: Nian nan Coarach.
+R: jig, slide
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.101 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 12/8
+L: 1/8
+Q: "Moderate"
+K: F#m	% ending on A
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+D |\
+!p!CFA {AB}c2B AFF ~F2G | (AG).A {AB}c2B AFE ~E2D |\
+"_cres"CFA {AB}c2B AFF ~F2a | !f!f>ed c2B AFE [E2C2] :| f |
+!p!{f}e2d {d}c2B A2B ~c2a | {f}e2d {d}c2B AFF ~F2a |\
+"_cres"{f}e2d {d}c2B A2B {AB}c2A | TB>AB {AB}c2B AFE [E2C2] a |
+!f!{f}e2d {d}c2B A2B ~c2a | {f}e2d {d}c2B AFF ~F2f/g/ |\
+!f!agf edc (TB>AB) cea | Tf>ed {d}c2B AFE [E2C2] |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | F2f F2f F2f F2z | c3 a2g f2g a2z | F2f F2f F2f F2z |!f! d3 e2^e f2g a2 :| z |
+!p!A2a A2a A2a A2a | A2a A2a D2d D2d | A2a A2a A2a A2a | g2e a2g f2g a3 |
+!f!A2a A2a A2a A2a | A2a A2a D2d D2d |!f! c2d e2a g2e a3 | d3 e2^e f2g a2 |]
+% = = = = = = = = = =

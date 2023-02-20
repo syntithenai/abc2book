@@ -1,0 +1,380 @@
+
+X: 1
+T: the Balkan Hills Shottishe
+R: shottish
+N: Bain 14, BSFC II-46
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+H: # This g is sometimes played sharp.
+M: 4/4
+L: 1/8
+K: D
+"A"[|] a>g \
+| "D"f2 f>e d2 A2 \
+| "G"B<G d>B "D"A2 d>e \
+| f<a A>a g>f e>d \
+| "A7"f2 e2 e2 a>g \
+| "D"f2 f>e d2 A2 |
+| "G"B<G d>B "D"A2 d>e \
+| f<a A>a "A7"g>e c<A \
+| "D"d2 d2 d2 :|"B"|: f>g \
+| "D"a<d f>a f2 e>d \
+| "G"B<G d>B "D"A2 f>g |
+| "D"a<d f>a g>f e>d \
+| "A7"f2 e2 e2 f>g \
+| "D"a<d f>a f2 e>d \
+| "G"B<G d>B "D"A2 d>e \
+| f<a A>a "A7"g>e c<A \
+| "D"d2 d2 d2 :|
+"C"|: A2 \
+| "D"d2 d>e f2 e>d \
+| "G"B<G d>B "D"A2 d>e \
+| f<A f>a g>f e>d \
+| "A7"f2 e2 e2 A2 \
+| "D"d2 d>e f2 e>d |
+| "G"B<G d>B "D"A2 d>e \
+| f<a A>a "A7"g>e c<A \
+| "D"d2 d2 d2 :|"D"|: f>g \
+| "D"a>d f<a f<d f<a \
+| f<d f<a f2 f>g |
+| "D"a>d f>a g>f e>d \
+| "A7"f2 e2 e2 f>g \
+| "D"a>d f<a f2 e>d \
+| "G"B<G d>B "D"A2 d>e \
+| f<a A>a "A7"g>e c<A \
+| "D"d2 d2 d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: The Carfuffle Shuffle
+C: Marianne Taylor
+M: 4/4
+L: 1/8
+%P: Play AABBACC...A
+K: C
+"Intro"|\
+"C"E>F G2 "G7"G>A B2 | "C"c>G "G7"e>d "C"c2 "G7"z2 \
+"A"\
+|:"C"G2 E>F G2 c>B | "F"A2 A>G "Dm"F>E D2 |\
+"G"B2 B>c d2 d>c | "G7"B>c B>A G>F E>F |
+"C"G2 E>F G2 c>B | "F"A2 A>G "Dm"F>G A2 |\
+"G7"B>c d2 G>A B2 | "C"c>G "G7"e>d "C"c2 z2 H:|\
+"B"|:\
+"Am"A2 A>B c2 A2 | "E7"^G>A B2 E4 |\
+"E7"E>^F ^G>A B2 G2 |
+"Am"A>B c>d e4 |\
+"Am"A2 A>B c2 A2 | "E7"^G>A B2 E4 |\
+"E7"E>^F ^G>A B2 G2 | "Am"A2 c2 A2 z2 \
+"A":|\
+"C"G2 E>F G2 c>B | "F"A2 A>G "Dm"F>E D2 |\
+"G"B2 B>c d2 d>c |
+"G7"B>c B>A G>F E>F |\
+"C"G2 E>F G2 c>B | "F"A2 A>G "Dm"F>G A2 |\
+"G7"B>c d2 G>A B2 | "C"c>G "G7"e>d "C"c2 z2 [K:F]\
+"C"|:"F"F>G A2 A>_B c2 | "Bb"B>c d2 d>e f2 |
+"C7"e>f g2 g>a b>a | "C7"(3gag (3fed (3cdc (3BAG |\
+"F"F>G A2 A>_B c2 | "Bb"B>c d2 d>e f2 |\
+"C7"e>f g>a b>c d>e | "F"f2 a2 f2 z2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Doun the Burn, Davie, Love [C]
+C: James Hook (1746-1827)
+R: strathspey, air
+B: John Greig, "Scots Minstrelsie" v.4 (1893)
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: C
+cd \
+| "C"e3d "F"cA3 "C"GE3 D2C2 | "C"EG3 Gc3 c6 d2 \
+| "C"e3d eg3 Gc3 "F"f2e2 | "C"e8 "G"{fe}d4 c3d |
+| "C"e3d "F"cA3 "C"GE3 D2C2 | "C"EG3 Gc3 c6 d2 \
+| "C"e3d eg3  Gc3 e2d2 | "G7"d8 "C"{ed}c4 z2 |]
+e2 \
+| "Dm"d3c d2e2 A4 z2e2 | "G7"d3c d2e2 "Dm"A4 z2B2 \
+| "C"c3d "F"c2A2 "C"G2c2 "F"f3e | "C"e8 "G"{fe}d4 z2d2 |
+| "C"e3f ec3 "F"A3B c4 | "Dm"f3g fd3 "G"B3c d4 \
+| "C"g3a ge3 "Am"c3d e2c2 | "C"G2c2 "G7"ed3 "C"c6 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Flop-Eared Mule
+R: reel, shottish, hornpipe
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+   de \
+| "D"Jf2fe d2dB | ABAF D2D2 | "A7"E2EF G2FE \
+| "D"DEFG "(A7)"A2de | "D"f2fe d2dB | ABAF D2D2 |
+|1,3 "A7"E2EF GECE | "D"D2D2 D2 :|2,4 "A7"E2EF GABc \
+| "D"d2d2 d2 :|[K:A]|: cd | "A"efec efec | efec A2A2 |
+| "E7"B2Bc d2cB | "A"ABcd e2cd | "A"efec efec \
+| efec A2A2 |1,3 "E7"B2Bc dBGB | "A"A2A2 A2 :|2,4 "E7"B2Bc defg | "A"a2a2 a2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: the Girl With the Blue Dress On
+R: reel, polka, shottish
+B: Kennedy ?; Raven p.146
+N: Nottingham Music Database (FTB, via EF)
+Z: 1998 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+Bc \
+| "G"d2Bd "D7"c2Ac | "G"B2G2 GFGB | "D7"A2F2 FEFG | "(G)"A2G2 "G"GABc \
+| "G"d2Bd "D7"c2Ac | "G"B2G2 GFGB | "D7"A2F2 FEFG | "G"A2G2 G2 :|
+|: z2 \
+| "G"G2Bd g3f | "C"f2e2 e4 | "D7"D2FA f3e | "G"e2d2 "D7"d4 \
+| "G(Em)"G2Bd g3f | "C(Am)"f2e2 e3g | "D7"f2a2 e2f2 | "G"g3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: the Glencoe Bridge Schottische
+C: Dan R MacDonald (Cape Breton)
+S: handwritten page from Barbara McOwen in the Concord Slow Scottish Session collection
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+   F>G | "D"A2d2 F2d2 | "D"A>F A<d f3a | "G"g3e "A7"c>A c<e |[1,3 "D"d>c d<B "A7"A2 :|[2,4 "D"d2d2 d2 :|
+|: f>g | "D"a3g f>d f<a | "G"g3e "A7"c>A c<e | "D"d>c d<e "Bm"f>d f<a | "Em"g>f g<b "A7"a2
+[1 f>g | "D"a3g f>d f<a | "G"g3e "A7"c>A c<e | "D"d>c d<f "A7"e>a c<e | "D"d2d2 d2 :|
+[2 f>g | "D"(3agf "A7"g>e "D"f>d "A7"e<c | "D"d>B A<F "D7"D>F A<d | "G"B>G B<d "A"c>A c<e | "D"d2d2 d2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: la Grand' B\^ete
+C:Gilles Chabenat
+M:2/4
+L:1/8
+R:shottish
+F:http://richardrobinson.tunebook.org.uk/tune/5348
+F:http://richardrobinson.tunebook.org.uk/static/tunebook.abc
+K:Dm
+|:\
+"Dm"DEFG A2A2 | "Gm"GABG "A7"A4 | "Dm"FAGF "A7"EGFE | "Dm"DEFG "(A7)"A2F2 |\
+"Dm"DEFG A2A2 | "Gm"GABG "A7"A4 | "C"c2=B2 A2G2 | "A7"EGFE "Dm"D4 :|
+|:\
+"Dm"A4 d4 | "A7"^cdec "Dm"d4 | "Dm"ABcA "C7"cBAG | "C7"FEFG "F"A2F2 |\
+"Dm"A4 d4 | "A7"^cdec "Dm"d4 | "Dm"ABcA "Gm"cBAG | "A7"FGFE "Dm"D4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Hintikan Matin jenkka
+O: Finland
+R: shottish, jenkka
+M: 2/4
+L: 1/16
+K: Dm
+|: "Dm"a2a>g f2f>e | "Gm"d2c2 B4 |1,3 "A7"A2^ce a2ae | "Dm"fgfe d2A2 \
+                                   :|2,4 "A7"A2^ce a2c2 | "Dm"d2d2 d4 :|
+|: "Dm"D3F A2A2 | "Gm"B2B2 "Dm"A4 |1,3 "A7"A2^ce a2ae | "Dm"fgfe d2A2 \
+                                 :|2,4 "A7"A2^ce a2c2 | "Dm"d2d2 d4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Johan p\aa Snippen
+T: Renki-jussi sottiisi
+%T: Skottish efter Hilbert Thomsen, \AAlborg
+O: Trad, all of northern Europe
+N: Variant of the tune "Simple Gifts"
+R: shottish
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+|: "D"d2 de f2 fg | a2 ag f4 | "A7"e2 ef g2 fe | "D"d2 cB "(A7)"A4 \
+|  "D"d2 de f2 fg | a2 ag f4 | "A7"e2 ef g2 fe | "D"d2 [f2d2] d4 :|
+|: "G"d2 gb d2 gb | d2 gd b4 | "D"d2 fa d2 fa | d2 fd a4 \
+| "A7"A2 ce A2 ce | g2 gf e4 | A2 ce A>g fe |1 "D"f2 fe d4 :|2 "D"d2 [f2d2] d4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Kafoozalum
+T: Katie Bairdie
+O: England, Wales, Scotland
+R: hornpipe
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+|: "D"a2  a>g f>g a2 | "A7"e>f g>f    e>f g2 \
+|  "D"a2  a>g f>g a2 |     d>e f>d "A7"e2 "D"d2 :|
+|: "D"f>d A>d f>d f2 | "A7"g>e c>e    g>e g2 \
+|  "D"f>d A>d f>d f2 |     d>e f>d "A7"e2 "D"d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: the Rabbi's Hornpipe
+T: Leopold Bloom's Hornpipe
+C: Jim Rebhan (1980)
+R: hornpipe, shottish
+Z: 2001 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+"E7"E2 |\
+"Am"A>E (3ABc "E7"B>^G E>G | "Am"A>B c>^d "(E7)"e2 d>e |\
+"Am"^f>e ^dc "B7"d>c B>A | "E7"e2 E2 E2 (3E^F^G |\
+"Am"A>E (3ABc "E7"B>^G E>G |
+"Am"A>B c>^d "(E7)"e2 d>e |\
+"Am"^f>e ^dc "B7"d>c B>c | "E7"=d>c B>c "Am"A2 ::\
+"E7"e2 |\
+"Am"a>e a>e "A7"a>g f>e | "Dm"f>g f>e d4 |
+"B7"b>c' c'>b b>a a>^g | "E7"^g>f f>e e2 e2 |\
+"Am"a>e a>b c'>b a>e | "Dm"f>g f>e d2{ed}^c>d |\
+"E7"^d>e d>e (3cBA B>c | "Am"A6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Reinlender efter Hilmar Alexandersen
+C: Trad
+O: Norway
+Z: John Chambers <jc:trillian.mit.edu>
+%%strictness 1.0
+M: 4/4
+L: 1/8
+K: D
+V:1 stv=2
+ab \
+| a2 fd A2 de | d2 c2 cd ef |1,3 g2 A2 e2 A2 | de fg a2  \
+                           :|2,4 g2 A2 eg fe | d2 [f2d2] d2 :|
+K:G
+|: GB \
+| d2-d2 Bc de | d2 d2 B2 GB | d2-d2 Bd ga | g2 f2 f2 AB \
+| "(Am)"c2-c2 AB cd | "D7"c2 c2 A4 | {de}f2 f2 e2 e2 | de dc B2 GB ||
+y8\
+| d2-d2 Bc de | d2-d2 B2 GB | d2 d2 Bd gf | f2 e2 e4 \
+| a2 a2 ag fe | e2 d2 dc B2 | A2 {^G}AB cd ef | g2 g2 g2 :|
+V:2
+fg \
+| "D"f2 dA F2 AA | "A7"A2 AB c2 cB |1,3 A2 AB cB AG | "D"FD FA d2 \
+                                  :|2,4 A2 AB cB AG | "D"F2 D2 D2 :|
+K:G
+|: DG \
+| "G"B2-B2 GA Bc | B2 B2 G2 DG | B2-B2 GA Bc | "D7"d2 A2 A2 FG \
+|    A2-A2 FG AB | A2 A2 F4 | {Bc}d2 d2 c2 c2 | "G"BA GA G2 DG ||
+y8\
+| "G"B2-B2 GA Bc | B2 B2 G2 DG | B2-B2 GB d2 | "C"d2 c2 c4 \
+| "(Am)"c2 cd ed c2 | "G"B2 Bc "(Em)"BA G2 | "Am"F2 FG "D7"A2 dc | "G"B2 [B2G2] [B2G2] :|
+
+%%sep 1 1 500
+
+X: 1
+T: Rasputin
+R: shottish
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+|:\
+"Am"A2 Ac e2 e2 | "Dm"f2 fa "Am"e2 e2 | "E7"d2 d2 "Am"c2 c2 | "E7"B2 e2 e>d cB |\
+"Am"A2 Ac e2 e2 | "Dm"f2 fa "Am"e2 e2 | "E7"d>c B2 Bd cB | "Am"A2 c2 A2 z2 :|
+|:\
+"G7"g2 g2 g3 f | "C"f>e e"(#)"d e4 | "E7"e2 e2 e3 d | "Am"d>c cB c4 |\
+"Dm"f2 {e}de fe d2 | "Am"e2 {d}cd ed c2 | "E7"~E2 ^DE c2 B2 | "Am"B>A A^G A2 z2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Scottiche \`a Bretagne
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+|: "C"cded cded |  "C"c2e2    g2e2 | "G7"dcBc d2d2 |1,3 "G7"efed "C"e2c2 :|2,4 "G7"efed "C"c4 :|
+|: "C"e2e2 g2fe | "G7"d2d2 "C"g2e2 | "G7"dcBc d2d2 |1,3 "G7"efed "C"e2c2 :|2,4 "G7"efed "C"c4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Scottiche de Roquefort
+R: shottish
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+|:  "C" g2g2 "F"a3g  | "G7"f2g2 "C"e2c2 | "G7"defd "C"e2c2 |1 "G7"d2g2 "C"e2c2 :|2 "G7"d2B2 "C"c4 |]
+|: "(F)"c2BA "C"G2G2 |"(F)"cBcd "C"e2e2 | "G7"f2df "C"e2ce |1 "G7"d2g2 "C"e2c2 :|2 "G7"d2B2 "C"c4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Scottisch du Regret   [Am]
+R: shottish
+S: handout at NEFFA 2016 from Mark Vidor p.7, from a transcription by Y.F. Perroches
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+"A"|:\
+"Am"A2Ac e2dc | "E7"B2Bc B4 | "E7"e2ef edcB |\
+[1,3 "Am"cdBc A4 :|[2,4 "Am"A8 :|
+"B"|:\
+"F"F2FA c2BA | "Am"c2BA E4 | "E7"e2ef edcB |\
+[1,3 "Am"cdBc A4 :|[2,4 "Am"A8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+"A"|:\
+E2E A3E2 | ^G2G E3G2 | B,3 ^G3 E2 |\
+[1,3 A3 E3 C2 :|[2,4 A3 e3 c2 :|
+"B"|:\
+d2d a3d2 | e2e a3a2 | ^g3 b3 g2 |\
+[1,3 a3 e3 e2 :|[2,4 a8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 1
+T: Semmonen T\"amm\"onen
+O: Finland
+R: shottish
+M: 4/4
+L: 1/8
+K: Dm
+|:"Dm"A2 A[dA] f2 f2 | "A7" ee e^c A2 A2 | "A7"e2 ef g2 g2 | "Dm"ff ag "(A7)"f2 e2 | "Dm"d2 dd f2 f2 |
+"A7"ee e^c A2 A2 | "A7"a2 aa a2 ^c2 | "Dm"d4 d2 z2 :: "C"c2 ce g2 g2 | "F"fe fg a2 a2 |
+"A7"A2 A^c e2 e2 | "Dm"d^c de f2 "D7"^f2 | "Gm"g^f ga b2 b2 | "Dm"fe fg a2 a2 | "A7" ab ab a2 ^c2 | "Dm"d4 d2 z2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: "Three-key" Shottis
+T: B\"ol-Olles schottis   (Dm,D,Bm)
+O: trad
+R: shottish
+Z: John Chambers <jc:trillian.mit.edu>
+N: All 3 parts are played in several other keys.
+M: 4/4
+L: 1/8
+K: Ddor
+|:\
+"Dm"d>e fg a2 a2 | "G"a>b gb "Dm"a2 f2 | "A7"f>e ge "Dm"f2 df |\
+[1,3 "A7"e>d ^ce "Dm"d2 "A7"A2 :|[2,4 "A7"e>d ^ce "Dm"d4 :|
+K: D
+|:\
+"D"d2 d2 d>f ed | "A7"c2 A2 A4 |\
+[1,3 "G"G>F EF G>A Bd | "A7"c2 A2 A4 :|\
+[2,4 "G"G>F EF "A7"G>A Bc | "D"d2 f2 d4 :|
+K: Bm
+|:\
+"G"b2 b2 "A"a3 g | "Bm"fe fg fd Bc |\
+[1,3 "D"d2 df "A7"a>f ge | "D"f2 f2 "F#7"f4 :|\
+[2,4 "D"d2 df "A"e>d cd | "Bm"B2 B2 B4 :|
+
+%%center ----- Collected and assembled by John Chambers -----

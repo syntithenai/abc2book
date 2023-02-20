@@ -1,0 +1,19 @@
+X: 1
+T: Grand Valley Waltz
+C: attr. Curly Wilder
+O: trad. Canadian
+R: waltz
+B: From "The Waltz Book", Bill Matthiesen (plus a few youtube recordings).  
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Tweaked for readability and reformtted as 5 staffs by JC.
+M: 3/4
+L: 1/8
+K: Bb
+G FE "^A"|:\
+"Bb" D2 F2 B2 | "Bb7"d3 B FD | "Eb"E2 G2 e2 | "Cm"c3 d cB | "F"A2 g2 f2 | G2 A2 F2 |
+[1 "Bb"B3 A Bg | "F"fe cA FE :| [2 "Bb"B3 A Bc | B4- B"->B"A |]["Last Time" "Bb"B2 AB df | Hb3 |]
+"^B"[| "Gm"G2 D2 GA | B3 {cB} AG | "D7"^Fd- d3 d | d4- dd | "Cm"ed c3 e |
+"Bb"dc B3 c/B/ | "F"Ag- g2 f2 | "Bb"d3 c BA | "Gm"G2 D2 GA | B4 {cB} AG |
+"D7"^Fd- d3 d | d6 | "Cm"ge c3 e | "Gm"d3 c BA | "D7"cB3 {cB} AB | "Gm"G4 "F7"{AG}F"->A"E |]
+%%begintext align
+%%endtext

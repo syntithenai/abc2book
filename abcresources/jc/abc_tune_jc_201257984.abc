@@ -1,0 +1,20 @@
+X:1
+T: Bury Fair  (Neal version)
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 210
+%W:    A1                                                                     A2
+% voice 1 (1 lines, 27 notes)
+K:G
+M:4/4
+L:1/16
+e4 |d4 B8 A2 G2 |A4 E8 g4 |d4 B8 A2 B2 |G12 e4 |d4 B8 A2 G2 |A4 E8 g4 |d4 B8 A2 B2 |G12 g4 |
+%W: B1                                                      B2
+% voice 1 (1 lines, 29 notes)
+d4 g4 G4 g4 |a4 A8 g4 |d4 g4 f2 g2 a2 f2 |g12 g4 |d4 g4 G4 g4 |a4 A8 g4 |d4 g4 f2 g2 a2 f2 |g12 ||

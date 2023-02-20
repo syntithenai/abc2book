@@ -1,0 +1,26 @@
+X: 1
+T: Bloomsbury Market
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.341 "G g 3"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+d2 (dB) (AG) (GD) | (DE) (DB,) D3 D | (DG) (GA) B2 (Bc) | d2 (cB) A3 B |\
+(cd) (e=f) (e^f) (gB) | (Bc) (dB) (AF) D2 | e3 d (ef) (gB) | (cB) (AG) G4 |]
+[|\
+g2 (ga/b/) g3 d | (ef) (gB) A3 G | (DG) (GA) B2 AG | (DG) (GA) B2 (AG) |\
+d3 e (de) (dB) | (AB) (cd) e3 d | e3 d (ef) (gB) | (cB) (AG) G4 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The first man turns the second woman with the right-hand, the second with his left-hand, then
+%% the third with the right-hand, then cast up to his own place .| Then his Partner does the same :| Then
+%% the first man and woman Hey with the second man, lead down the middle and cast up and turn, then the
+%% first couple Hey with the second woman and cast off :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

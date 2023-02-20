@@ -1,0 +1,28 @@
+X: 52
+T: Lorrain's Delight
+%R: reel
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.26
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+G2Bd g4 | G2Bd g4 | d2cd B2AB | cBAG A2D2 |\
+G2Bd g4 | G2Bd g4 | d2cd B2cd | D2^F2 G4 |]
+[|\
+B2df b4 | B2df b4 | b2ab g2ab | abag ^f2d2 |\
+b2fd B4 | b2fd B4 | ecBA G2g2 | bag^f g4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain once.
+%%begintext align
+%% The 1st and 2d Cu. ballance or set on both
+%% feet to their Partners, fall back Men and We. the
+%% 1st and 2d Man ballance to each other, the 1st
+%% and 2d Wo. doing the same all four meet and
+%% single .| right and left quite round, the 1st Cu.
+%% casting down into the 2d Cu. Place.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

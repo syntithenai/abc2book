@@ -1,0 +1,18 @@
+X: 132
+T: Ki Eshmera Shabbat
+T: Mechol Hashabbat
+C: Ladino
+O: Israel
+M: 4/4
+L: 1/8
+K: Ephr
+Q:1/4=120
+%%MIDI program 105 Banjo
+%%MIDI chordprog 24 Acoustic Guitar
+%%MIDI chordvol 64
+%%MIDI gchord ghihghih
+"G"B2c2d2c2|B2AG cBcd|B2A2"Em"G3F|"C"E4z4|\
+"Am"A4 "G"GAB2|G3A G2F2|"C"E4z4:|
+%%MIDI program 74 Recorder
+"Em"G2E2F4|G4 ^G=G^Gc|"Bdim"B2^G2"Em"=G3F|E4z4|\
+G2E2F4|G4 ^G=G^Gc|"Bdim"B2^G2"Em"=G4-|G4z4|

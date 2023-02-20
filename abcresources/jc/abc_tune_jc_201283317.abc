@@ -1,0 +1,38 @@
+X: 1
+T: Gruvgubben polkett
+C: Gnesta-Kalle
+R: polka
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+S: Copy from Marilyn Butler 2019-9-10
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - -
+P: Voice 1
+!segno!|:\
+"G"G2BB B2dd | d2g2 g2dB | "Am"c2e2 "D7"e2cA | "G"G2B2 BGD2 |\
+"G"G2BB B2dd | d2g2 g2dB | "Am"c2e2 "D7"e2cA | "G"G2G2 !fine!G2z2 :|
+[|\
+"G"B4 d4 | "C"g2e2 e4 | g2ee g2ee | "G"e2d2 d4 |\
+"D7"D2F2 A2c2 | f8 | f2ee f2ee | "G"e2d2 d4 ||
+||\
+"G"B4 d4 | "C"g2e2 e4 | g2ee g2ee | "G"e2d2 d4 |\
+"D7"D2F2 A2c2 | f8 | f2ee f2a2 | "G"g4 g4 !segno!|]
+"^Trio"|:\
+("C"E2G2) (c2e2) | ("G"d2G2) (B2d2) | ("D7"c2D2) (F2A2) | ("G"G2B2) d2g2 |\
+("C"e2G2) (c2e2) | ("G"d2G2) (B2d2) | ("D7"c2D2) (F2A2) | "G"G2G2 G2"^d.C."z2 :|
+% - - - - - - - - - -
+P: Voice 2
+!segno!|:\
+"G"G,B,D2 DGB2 | B2B2 B2BG | "D7"A2c2 c2AF | "G"B,2D2 DB,G,2 |\
+"G"B,2DG D2GB | B2B2 B2BG | "D7"A2c2 c2A,C | "G"B,2B,2 !fine!B,2z2 :|
+[|\
+"G"GGG2 BBB2 | "C"e2c2 c4 | e2cc e2cc | "G"G2B2 B4 |\
+"D7"D4 F4 | D2F2 A2c2 | d2cc d2cc | "G"G2B2 B4 ||
+||\
+G,4 B,4 | "C"C4 CCCC | C8 | "G"G,2B,2 D2G2 |\
+"D7"D8 | D2F2 A2c2 | d2cc d2c2 | "G"B4 B4 !segno!|]
+"^Trio"|:\
+("C"c2E2) E4 | ("G"B2D2) D4 | "D7"D4 C4 | ("G"B,2D2) G2B2 |\
+"C"C8 | "G"B,8 | "D7"DDD2 CCC2 | "G"B,2B,2 B,2"^d.C."z2 :|
+% - - - - - - - - - -

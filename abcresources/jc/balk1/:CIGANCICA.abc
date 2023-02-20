@@ -1,0 +1,24 @@
+X: 80
+T:Cigancica
+O:Serbia
+N: Ansambl Arhaika
+F:http://www.youtube.com/watch?v=piKOYs0QBgY
+M:7/16
+L:1/16
+K:Edor octave=1
+Q:1/4=120
+V:1
+%%MIDI program 72 Piccolo
+|:d2 d=c B2A|G2GF E2D|F2FA G2F|[1E2A2 ABc:|[2E2EE A,2z::
+  d2 d=c B2A|G2GF E2D|F2FA G2F|[1E2A2 ABc:|[2E2EE A,2z::
+D2D2 E2D|G2G2A2G|F2F2 AGF|[1E2ED E2A,:|[2E2ED E2z::
+D2D2 E2D|G2G2A2G|F2F2 AGF|[1E2ED E2A,:|[2E2ED E2z|
+V:2
+%%MIDI program 115 Woodblock
+|:F2F2 F2z|G2G2 G2z|C2C2 B2z|[1G2G2 G2z:|[2G2G2 G2z::
+  F2F2 F2z|G2G2 G2z|C2C2 B2z|[1G2G2 G2z:|[2G2G2 G2z::
+  C2z2 G2G|E2z2 E2E|C2z2 D2z|[1G2G2 G2z:|[2G2G2 G2z::
+  C2z2 G2G|E2z2 E2E|C2z2 D2z|[1G2G2 G2z:|[2G2G2 G2z|
+W:
+W:Martin Junghans and Jutta Weber-Karn
+W: www.folkloretanznoten.de/

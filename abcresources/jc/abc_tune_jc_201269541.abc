@@ -1,0 +1,41 @@
+X:1
+T:Dougald Gillespie
+M:12/8
+L:1/8
+Q:80
+C:Angus LAwrie
+S:
+K:HP
+[| {g}A | \
+{Gdc}d2{c}d{g}e3/2f/2g{ag}a3{fg}f2e | \
+{Gdc}d2f{g}e3/2d/2{e}B{G}A3-A2{d}A |
+{Gdc}d2{c}d{g}e3/2f/2g{ag}a3{fg}f2e | \
+{Gdc}d2f{a}g3/2d/2f{gef}e3-e2A | \
+{Gdc}d2{c}d{g}e3/2f/2g{ag}a3{fg}f2e |
+{Gdc}d2f{g}e3/2d/2{e}B{G}A3-A2{d}A | \
+{g}B3/2d/2{c}d{g}c3/2e/2{A}e{Gdc}d2{gf}g-g2f | \
+{g}e2{AGAG}A{g}A3/2f/2{g}e{Gdc}d3-d2e|]
+{gfg}f3-f2af3/2g/2e{Gdc}d3 | \
+{g}f3/2e/2d{g}d3/2c/2B{G}A3-A2{e}A | \
+{gfg}f3-f2af3/2g/2e{Gdc}d3 |
+a3/2f/2d{g}A3/2g/2f{gef}e3-e2A | \
+{gfg}f3-f2af3/2g/2e{Gdc}d3 | \
+{g}f3/2e/2d{g}d3/2c/2B{G}A3-A2{e}A |
+{g}B3/2d/2{c}d{g}c3/2e/2{A}e{Gdc}d3{gf}g2f | \
+{g}e2{AGAG}A{g}A3/2f/2{g}e{Gdc}d3-d2f/2{g}e/2|]
+{Gdc}d3{e}A3{g}B/2{d}G3/2{d}B{G}A3 |
+{g}f3/2e/2d{g}d3/2c/2B{G}A3-A2f/2{g}e/2 | \
+{Gdc}d3{e}A3{g}B/2{d}G3/2{d}B{G}A3 | \
+a3/2f/2d{g}A3/2g/2f{gef}e3-e2f/2{g}e/2 |
+{Gdc}d3{e}A3{g}B/2{d}G3/2{d}B{G}A3 | \
+{g}f3/2e/2d{g}d3/2c/2B{G}A3-A2{e}A | \
+{g}B3/2d/2{c}d{g}c3/2e/2{A}e{Gdc}d3{gf}g2f |
+{g}e2{AGAG}A{g}A3/2f/2{g}e{Gdc}d3d2f|]
+{ag}a3{fg}f2af3/2g/2e{Gdc}d3 | \
+{g}f3/2e/2d{g}d3/2c/2B{G}A3-A2f |
+{ag}a3{fg}f2af3/2g/2e{Gdc}d3 | \
+a3/2f/2d{g}A3/2g/2f{gef}e3-e2A | \
+{Gdc}d2{c}d{g}d3/2c/2d{gef}e3{AGAG}A3 |
+{gfg}f2e{g}d3/2e/2f{gf}g3{g}d3/2c/2B | \
+{g}A3/2d/2{c}d{g}c3/2e/2{A}e{Gdc}d3{gf}g2f | \
+{g}e2{AGAG}A{g}A3/2f/2{g}e{Gdc}d3{gdG}d3|]

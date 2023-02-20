@@ -1,0 +1,17 @@
+X: 44
+T: And the Angels Sing (der Shtiller Bulgar)
+Z: 1997 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/abc/
+B: Kammen 1#15
+B: Kammen 1#15
+M: 2/4
+L: 1/8
+K: D
+|: ABc \
+| "D"d4- | dd/f/ ed | f4- | fg/f/ ed | "A7"ef ga | "D"fd "A7"ec | "D"dd' c'b | ag fe |
+| "D"d4- | dd/f/ ed | f4- | fg/f/ ed | "A7"ef ga | "D"fd "A7"ec | "D"d4- | d :|
+|: dfa \
+| "D"b=c'2c' | =c'/b/a a2 | ^ga2a | a/g/f f2 | b=c'2c' | (3=c'ba (3^gab | a4 | [d'3f3]z |
+| "D"b=c'2c' | =c'/b/a a2 | ^ga2a | a/g/f f2 | "A7"ef ga | "D"fd "A7"ec | "D"d4- | d :|
+|: ddc \
+| "Bm"B3 f | ed cd | e3 d | (3fed (3dcB | B3 f | ed cd | f4 | [b3d3]z |
+| "Bm"B3 f | ed cd | e3 d | (3fed (3dcB | c/e/d2d | (3dcB "F7"(3^ABc | "Bm"B4- | B :|

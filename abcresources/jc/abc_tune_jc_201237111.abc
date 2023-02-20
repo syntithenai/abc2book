@@ -1,0 +1,33 @@
+X: 2426
+T: KITTY SHARPS CHAMPION JIG
+%R: hornpipe
+B: James Kerr "Merry Melodies" v.2 p.48 #246
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+(3(DEF) |:\
+G2D2 (TE2D2) | G>FG>A (Bd) zd |\
+e>dc>B c>BA>G |[1,3 F>GA>B c2B>A :|\
+[2,4 F>GA>B G2 :|\
+uG2 |:\
+(Bd) ze d>BA>G | (Bd) zd b2g2 |\
+Bd ze d>BA>G |
+[1,3 F>GA>B c2BA :|[2,4 F>GA>B G2 :|\
+[K:=f]\
+G2 |:\
+G>e^d>e Tc4 | G>e^d>e Tg4 |\
+[1 G>g^f>g a>ge>c | d2{^f}g2 {f}g2{f}g2 :|\
+[2 G>g^f>g b>a=f>d | (3cef (3gab c'2 ||
+[K:G]\
+uB2 |\
+"^>"e4 "^>"^d4 | {f}e>^de>f g>ag2 |\
+"^>"d4 "^>"^c4 | {e}d>^cd>e f>ga>f |\
+"^>"d4 "^>"^c4 | {f}e>^de>f g>fg>a |\
+(bg) zg g>dB>G | A>GA>B G2 ::\
+(3(DEF) |\
+(3GFE (3DEF (3GFE (3DEF |
+G>BA>c B>dc>A |\
+(3GFE (3DEF (3GFE (3DEF | G>BA>G F>DE>F |\
+(3GFE (3DEF (3GFE (3DEF | G>BA>c B>de>f |\
+g>de>c d>Bc>A | B>GA>F G2 :|

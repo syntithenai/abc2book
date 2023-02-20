@@ -1,0 +1,41 @@
+X:1
+T: Huntington's Maggot
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:Em
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 28 notes)
+K:Em
+M:4/4
+L:1/16
+g8 a6 g a |b8 e4 g4 |f4 g2 f2 e4 ^d4 |e8 B4 e4 |g8 a6 g a |b8 e4 g4 |f4 g2 f2 e4 ^d4 |e16 |
+%W: A2
+% voice 1 (1 lines, 29 notes)
+g8 a6 g a |b8 e4 g4 |f4 g2 f2 e4 ^d4 |e8 B4 e4 |g8 a6 g a |b8 e4 g4 |f4 g2 f2 e4 ^d4 |e12 b4 |
+%W: B1
+% voice 1 (1 lines, 19 notes)
+b8 c'6 d'2 |^g12 a4 |b4 c'4 d'4 b4 |c'6 d'2 c'4 b4 |a6 b2 b6 a2 |a12 e4 |
+%W:
+% voice 1 (1 lines, 21 notes)
+f12 g a b2 |^d12 e4 |f4 g4 a4 g2 f2 |b6 c'2 b4 a4 |g6 f2 f6 e2 |e12 b4 |
+%W: B2
+% voice 1 (1 lines, 19 notes)
+b8 c'6 d'2 |^g12 a4 |b4 c'4 d'4 b4 |c'6 d'2 c'4 b4 |a6 b2 b6 a2 |a12 e4 |
+%W:
+% voice 1 (1 lines, 21 notes)
+f12 g a b2 |^d12 e4 |f4 g4 a4 g2 f2 |b6 c'2 b4 a4 |g6 f2 f6 e2 |e12 b4 |
+%W: C
+% voice 1 (1 lines, 30 notes)
+a4 g4 g4 f2 e2 |f8 B4 f4 |g6 a2 a6 g a |b12 b4 |a4 g4 g4 f2 e2 |f8 B4 f4 |g6 a2 a6 g a |b12 b4 |
+%W: D1
+% voice 1 (1 lines, 33 notes)
+b6 a2 b4 c'4 |a2 g2 a2 b2 a4 b4 |g6 a2 a6 g2 |f12 f2 g2 |a4 g4 f4 e4 |f2 e2 ^d2 ^c2 B4 b4 |g6 f2 f6 e2 |e12 b4 |
+%W: D2
+% voice 1 (1 lines, 32 notes)
+b6 a2 b4 c'4 |a2 g2 a2 b2 a4 b4 |g6 a2 a6 g2 |f12 f2 g2 |a4 g4 f4 e4 |f2 e2 ^d2 ^c2 B4 b4 |g6 f2 f6 e2 |e16 ||

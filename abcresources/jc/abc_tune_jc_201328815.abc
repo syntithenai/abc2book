@@ -1,0 +1,31 @@
+X: 1
+T: Red Bull
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.28
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B3 c2d | B>AB A3 | G3 F2B :|\
+|:\
+B3 AB2 :|\
+|:\
+d2=e f>gf | gab a>gf |
+g3 d=ef | f2=e f2c |\
+A2B c>dc | fed e3 |\
+d3 c2B | B2A B3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First man take his wo. by both hands, and turn till his wo. be uppermost, 1. man fall back between
+%% the 2. cu. a Diamond; 1. man cast up above the 2. man, his wo. cast down below the 2. wo.
+%% the men turn the contrary wo. twice; 1. man and 1. wo. cast down; 1. man turn both we.
+%% till the first man comes into the second's place; 2. man turn the we. till he comes into the 1. wo.
+%% place.
+%%endtext
+%%sep 1 1 300
+%%text Note: Each strain is to be play'd twice over.
+%%sep 1 8 500

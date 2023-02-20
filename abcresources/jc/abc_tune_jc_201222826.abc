@@ -1,0 +1,30 @@
+X: 063
+T: PERTHSHIRE VOLUNTEERS
+C: GOW. Coll.
+R: Strathspey
+B: Glen Collection p.6 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Added dot to 2nd a in last bar.
+M: C
+L: 1/16
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: A
+%
+V: 1
+A2 |\
+E2A2 cde2 Tc4A2c2 | d3B (dc).B.A G2B2-B2d2 | c2A2 cde2 c4A2c2 | dB3e3d c2A2A2 :|
+g2 |\
+a3e (ag).f.e a4e2c2 | d2B2 (dc).B.A G2B2-B3g | a2e2 (ag).f.e a4e2c2 | d2B2 (dc).B.A E2A2-A2d2 |
+c2e2G2e2 F2d2E2c2 | d3B (dc)BA G2B2-B2d2 | c2e2d2f2 e2a2g2b2 | (ag)fe a3e c2A2A2 |]
+%
+V: 2
+z2 |\
+[a4e4A4][a4e4A4] [a4e4A4][a4e4A4] | E4[b4g4e4] [d'4b4e4][b4g4e4] |\
+[a4e4A4][a4e4A4] [a4e4A4][a4e4A4] | [g4e4][g4e4] [a4e4A4][a2e2A2] :|
+z2 |\
+[a4e4A4][a4e4A4] [a4e4A4][a4e4A4] | E4[b4g4e4] [d'4b4e4][b4g4e4] |\
+[a4e4A4][a4e4A4] [a4e4A4][a4e4A4] | [g4e4][b4g4e4] [c'4a4e4][c'4a2e2] |
+A4[b4e4] [a4f4][c'4a4] | e4[b4g4e4] [d'4b4e4][b4g4e4] |\
+[a4e4][b4g4e4] [c'4a4e4][d'4b4e4] | [c'4a4][c'4a4] [a4e4A4][a2e2A2] |]

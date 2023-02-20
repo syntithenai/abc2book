@@ -1,0 +1,44 @@
+X:1
+T:Colonel Sinclair  "CYMRU"
+M:C|
+L:1/8
+Q:80
+C:J.Manson
+S:March
+K:HP
+|: e | \
+{g}AB{G}A{Gdc}d | \
+f2{gfg}fa | \
+{f}gf{gef}e3/2d/2 |
+{g}B2{GdG}B{Gdc}d | | \
+{g}AB{G}A{Gdc}d | \
+f2{gfg}fa |
+{f}gf{gef}e{GAG}A | \
+{Gdc}d2{gdG}d :: \
+{gf}g |
+{ag}a3/2g/2{fg}f3/2e | \
+{Gdc}de/2{gde}d/2{GBG}A{gf}g | \
+a{GdG}a3/4g/4{fg}f3/4e/4{Gdc}d3/4f/4 |
+{gef}e2{A}e{gf}g | | \
+{ag}a3/2g/2{fg}f3/2e/2 | \
+{Gdc}de/4{gde}d3/4{GBG}A{Gdc}d |
+{g}c{GdG}e/2f/2{a}g3/4e/4{g}c/4e3/4 | \
+{Gdc}d2{gdG}d :: \
+{g}A/2B/2 |
+{Gdc}d3/2e/2{gfg}f{GAG}A | \
+{g}B{Gdc}d{g}A{g}f | \
+{ag}a3/2f/2{gef}e{Gdc}f |
+{gef}e2{A}e{g}A/2B/2 | | \
+{Gdc}d3/2e/2{gfg}f{GAG}A | \
+{g}B{Gdc}d{g}A{g}f |
+{ag}a3/2f/2{gef}e{g}f | \
+{Gdc}d2{gdG}d :: \
+{gf}g |
+{ag}a3/2f/2{Gdc}d{ag}a | \
+{fg}f{ag}a{Gdc}d{gf}g | \
+{ag}a3/2f/2{gef}e{Gdc}f |
+{gef}e2{A}e{gf}g | | \
+{ag}a3/2f/2{Gdc}d{e}A | \
+{g}B{Gdc}d{e}A{g}f |
+{ag}a3/2f/2{gef}e{g}f | \
+{Gdc}d2{gdG}d :|

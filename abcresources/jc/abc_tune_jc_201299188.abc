@@ -1,0 +1,53 @@
+
+X: 1
+T: Lady of the Lake
+O: New England early 1800s
+R: reel
+N: AKA "Gypsy Hornpipe (4)," "Miss Johnson's Hornpipe," "Old Towser," "Portsmouth Hornpipe"
+S: Fiddle Hell Online 2021-10-29
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+B,A, |\
+"G"G,B,DG BAGB | "G7"dBGA BAGB | "C"c2cB AGFG | "D7"AGFE DCB,A, |
+"G"G,B,DG BAGB | "G7"dBGA BAGB | "C"c2cB AGFE | "D7"DGGF "G"G2 :|
+|: Bc |\
+"G"dcBd g2gB | "Am"cBA2 a4 | "D"f3g f2ed | "A7"edd^c "D"d2B=c |
+"G"dcBd gdgB | "Am"cBA2 a3e | "D7"fedB cAFD | "G" G2GF G2 :|
+
+
+X: 2
+T: Sligo Maid
+R: reel
+%S: s:4 b:16(4+4+4+4)
+S: Fiddle Hell Online 2021-10-29
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+|:\
+"Am"A2BA Bdef | gedB AGED | "G"G2BG cGBG | DEGA BAGB |
+"Am"A2BA Bdef | gedB AGED | "G"G2BA G2GE | DEGA "Am"BAA2 :|
+|:\
+"Am"eaag a2ga | bgaf gfed | "G"Bgfg gage | dega bagf |
+"Am"eaag a2ga | bgaf gfed | "G"Bgfg edef | gedB "Am"BAA2 :|
+
+
+X: 3
+T: Evil Diane
+C: by Sam Bartlett
+R: reel
+%S: s:2 b:16(4+4+4+4)
+S: Fiddle Hell Online 2021-10-29
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+e>g |\
+"A"aeea fedc | "D"decd "A"BcAG | "E"EDEF GABG | "A"AGAB cdeg |
+"A"aeea fedc | "D"decd "A"BcAG | "E"EDEF GABG | "A"AGEG [1 A2 :|[2 "A"A4 ||
+|:\
+"E"EDEE GABc | d2EF GABc | d2cd B2AB | GBAB GBAG |
+"E"EDEE GABc | d2EF GABc | "(D)"d2cd B2AB | "E"GDEG [1 "A"A4 :|[2 "A"A2 |]
+

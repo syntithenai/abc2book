@@ -1,0 +1,28 @@
+X: 1
+T: the Royal Choice
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (114)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: No time signature was given.
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2f agf | e2f gfe | fed edc | dBG AFD |\
+d2f agf | e2f gfe | fed edc | d3- d3 :|
+|:\
+f2d cBA | B2A FED | DFD EGE | FAF FED |\
+GBG AcA | Bed c>BA | dfd edc | d3- d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man cast off and turn the 3d Wo .| the 1st Wo. cast
+%% off and turn the 3d Man :| the 1st Cu. figure through
+%% the 2d Cu. lead through the 3d Cu. and cast up .| the
+%% 1st and 2d Cu. meet two steps the 1st Cu. cast up to the
+%% Top and turn down the Middle into the 2d Cu. place :|
+%%endtext
+%%sep 1 8 500

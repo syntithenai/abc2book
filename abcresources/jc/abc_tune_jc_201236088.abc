@@ -1,0 +1,27 @@
+X: 21633
+T: 'TWAS WITHIN A MILE OF EDINBURGH TOWN
+O: Scottish air.
+%R: strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.163 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f> g |\
+(a<f) (e>f) d2 (f<d) |\
+B<d A<F A2 d>e |\
+(f<a) (b<d') (a<f) d3/ (e//f//) |\
+Tf2 {gf}e2 z2 (f>g) |\
+(a<f) (e>f) d2 f>d |\
+(B<d) (A<F) A2 d>e |\
+(f<a) (b<d') (a<f) (e<f) |
+d4 z4 |] \
+d>e f>g a>f d'2 |\
+d>e f>g a>f Hd'>d |\
+d>e d>B A<F A>d |\
+fd fa Hbc' Hd'(c'/b/) |\
+a<f f<d B<d A<d |\
+f<a e<f d2 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,19 @@
+X: 30172
+T: ELEANOR'S WALTZ
+C: E. L. White
+%R: waltz
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.17 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/8	% Actually 3/2, but there are only 6 16th notes per bar.
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+G2B2d2 | gfagfe | edfedc | cBdBAB |\
+G2B2d2 | gfagfe | edfecA | "^FINE."G4 :|
+|: A2 |\
+d2f2a2 | gfed^c2 | e2g2b2 | agfed2 |\
+d'^c'bagf | ^defgg2 | aA^GAB^c | "^D.C."d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

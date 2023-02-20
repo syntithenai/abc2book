@@ -1,0 +1,19 @@
+X 1
+T: William and Nancy
+T: New Mown Hay
+T: Legacy, The
+C:Trad.
+O:England; Gloucs; Bledington % place of origin
+B:Sussex Tune Book            % can be found in these books
+B:Mally's Cotswold Morris vol.1 2
+D:Morris On                   % can be heard on this record
+P:(AB)2(AC)2A                 % play the parts in this order
+M:6/8
+K:G
+[P:A] D|"G"G2G GBd|"C"e2e "G"dBG|"D7"A2d "G"BAG|"C"E2"D7"F "G"G2:|
+[P:B] d|"G"e2d B2d|"C"gfe "G"d2d| "G"e2d    B2d|"C"gfe    "D7"d2c|
+        "G"B2B Bcd|"C"e2e "G"dBG|"D7"A2d "G"BAG|"C"E2"D7"F "G"G2:|
+% changes of meter, using inline fields
+[T:Slows][M:4/4][L:1/4][P:C]"G"d2|"C"e2 "G"d2|B2 d2|"Em"gf "A7"e2|"D7"d2 "G"d2|\
+       "C"e2 "G"d2|[M:3/8][L:1/8] "G"B2 d |[M:6/8] "C"gfe "D7"d2c|
+        "G"B2B Bcd|"C"e2e "G"dBG|"D7"A2d "G"BAG|"C"E2"D7"F "G"G2:|

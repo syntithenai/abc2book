@@ -1,0 +1,29 @@
+X: 041
+T: the Bank
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.21 #41
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Both phrases are missing a half beat in the last measure.  (Fixed with added rests.)
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A2d2 d2e2 | f2g2 f2d2 |\
+d2a2 a2b2 | a2g2f2a2 |\
+a4 b2ag | f4 e4 |\
+fga2 b2g2 | a4 a2z2 :|\
+|:\
+b4 b2ag | a4 a2ef |
+g2f2 e2d2 | c2A2 .e2.e2 |\
+.e4 f2ef | g4 g2fg |\
+a2f2 e2d2 | c2A2 .e2.e2 |\
+.e4 f2ef | g4 g2fg |\
+agfg e2^c2 | d4 d2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. cast up again cross over 1 Cu.
+%% lead up and cast off set corners and turn
+%% lead out sides
+%%endtext

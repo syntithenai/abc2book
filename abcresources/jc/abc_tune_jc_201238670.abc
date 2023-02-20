@@ -1,0 +1,31 @@
+X: 31122
+T: COTILLION No. 18. AUBURN SETT tune 2
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.112 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+EF |\
+G6 ed | c2{d}cB cdef | g2^fa g2^d=f | e2Bd c2^c2 |\
+d2^FA G2^fa | g2eg =f2d2 | c2ed cBAG | ^FGAG G=FED H|]
+A,2 G4 ed | c2cB cdef | g4 e2(eg) | (c4 G2E2) |\
+F2 A4 {d}cB | c2fe f2fg | (a4 d2)dc | (B3d/)c/ (A3c/)B/ |]
+(G3B/A/) (d3d/c/) | (B3c/B/) (A3c/B/) | G2g2^f2d2 | g4 ^g4 |\
+a2d2 =f2B2 | d2G2 g4 | c2cB cdef | g2G2c2z2 |]
+f4 fedc | B2BA BGAB | c2cB cdef | g2ec c'2z2 |\
+f4 fedc | B2BA BGAB | c2g^f g2eG | c6 "^D.C."y|]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance 4.
+%% Next forward, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

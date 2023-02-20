@@ -1,0 +1,34 @@
+%%text RJ Set 094 NEFFA 2008 Jig set
+
+
+X: 1
+T: The New Stove Jig
+C: Frank Ferrel
+M: 6/8
+L: 1/8
+R: jig
+K: D
+A "^A"|\
+"D"f2A "A"e2A | "D"ded dAF | "D/F#"DFA "F°/F"ded | "Em"BGG G2f |\
+"A"g2A "D"f2A | "A7"efe ecB |1 ABA BAG | "D"F3 z2 :|[2 Aba gec |
+"D"d3 d2 |]\
+A "^B1"|\
+"D"F2A AFD | A,DF A2F | DFA ded | "G"B3 z2A |\
+"A"g3 e3 | cdc c2B | ABA BAG | "D"F3 F2 |]
+A "^B2"|\
+"D"f2A "A"e2A | "D"ded dAF | DFA ded | "G"B3 z2A |\
+"G"Bgg g2B | "D"Aff f2a | "A"gec ABc | "D"d3 d2 |]
+
+
+X: 2
+T: Idlewild Jig
+M: 6/8
+K: D	% and Bm
+|:\
+"D" D2D FED | F2A d2 A | "G" Bcd A2F | "A"E2D B,2A, |\
+"D" D2D FED | F2A d2 A | "G" Bcd A2F | "A"E2F "D"D3 :|
+|:\
+"Bm"B2F F^EF | "Bm/A#"d2 B B^AB | "Bm/A" f2 B B^AB | "Bm/G#" b2f f^ef | "G"g2e "D"f2d |\
+"A"e2c "D"d2A |"G"Bcd [1 "A"A2c | "F#m"B2A F2A :|[2 "D"A2F | "A"E2D B,2A, |]
+% text 04/19/08
+

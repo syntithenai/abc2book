@@ -1,0 +1,35 @@
+X: 1
+T: the Bonny Boat Man
+P: Longways for as many as will
+%R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.23
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: This dance seems to use periods to separate phrases and a colon for the midpoint of the dance/tune.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+EF |\
+G2 (A/B/c) (AG)(FE) | (FE)(DC) G3A | (AB)(cd) (e/f/)g fe | d3e D2EF |\
+G3c (AG)(FE) | (FE)(DC) G3E | F2GA G2cB | c2C2 C2 :|
+|: cB |\
+(AG)(AB) (cd)(ec) | (d/e/f) (fe) d3D | (DE)G2 c>d (e/f/g) | d3e D2(EF) |\
+G2 (A/B/c) (AG)(FE) | (FE)(DC) G3E | F2(GA) (Gc) (B/c/d) | c4 C2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+c2 |\
+c'2a2 b2c'2 | a2f2 e2c2 | f2ed c2C2 | G4 z2c2 |\
+c'2c2 b2c'2 | a2f2 e2c2 | d2ef g2G2 | c'geg c2 :|
+|: e2 |\
+f2d2 e2c2 | d2c2 g2G2 | c4 e2c2 | g2 G4 c2 |\
+c'2a2 b2c'2 | a2f2 e2c2 | d2ef g2G2 | cGEG C2 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% First Cu meet . sett and turn S . the 1st Wo . cast off into the 2d improper . her
+%% Partner at the same time follows her and casts off to the 2d improper .  the 2d
+%% Cu . doing the same : then the two Men hands and lead thro' the We . to the
+%% same . then all clap . and all hands quite round . the two We . do the same .
+%% then all clap and hands half round . and turn S .
+%%endtext

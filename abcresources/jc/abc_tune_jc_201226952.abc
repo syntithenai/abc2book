@@ -1,0 +1,22 @@
+X: 10531
+T: Allegretto
+C: Bossi
+Q: "Allegretto"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.53
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+%%graceslurs 0
+|:\
+d4B2g2 | d4B2g2 | d2B2d2B2 | (dcBc) A2A2 |\
+d4(B2g2) | e4(^c2b2) | a2g2f2e2 | {e/}d^cde d4 :|
+|:\
+d4B2^G2 | A2B2c2c2 | {c}B2 A4 ^G2 | (A3B) (c2c2) |\
+c4A2d2 | B4G2d2 | ^c2g2e2c2 | d2d2d2d2 |
+d4B2g2 | d4B2g2 | d2B2d2B2 | (dcBc) A2A2 |\
+d4B2g2 | g4e2c2 | B2B2 A>Bc>d | (c4B2)z2 |
+d4B2g2 | g4e2c2 | B2B2 {B/}A>GA>B | G4z4 :|
+%
+%%center -

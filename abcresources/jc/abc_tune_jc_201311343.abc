@@ -1,0 +1,13 @@
+X:1
+T:Miss Lyall (or Panmure House)
+R:Strathspey
+M:4/4
+L:1/8
+K:Am
+%%printtempo 0
+Q:100
+(uc>B)|\
+"Am"vA<(uA, uA,>uB,) (C>D)(E>^F)|"G"G<G B>A G2 (c>B)|"Am"vA<(uA, uA,>uB,) C>DE>A|"Am"(c>A) "E"(B>^G) "Am"A2 (c>B)|
+"Am"vA<(uA, uA,<uB,) (C>D)(E>^F)|"G"G<G B>A G2 (c>d)|"Am"(e>c) "G"(d>B) "F"(c>A) "Em"(B>G)|"Am"(E<A) "E"(^G>B) "Am"A2 (c>B)||
+"Am"(A<a) (a>b) "G"g>a b/a/g/^f/|"Am"(e<a) (a>b) "Em"g2 (^f>g)|"Am"(e<a) (a>b) "G"g>a b/a/g/^f/|"Am"(e>c) "G"(d<B) "Am" A2 (c>B)|
+"Am"(A<a) (a>b) "G"g>a b/a/g/^f/|"Am"(e<a) (a>b) "Em"g2 (^f>g)|"Em"(3ag^f (3gab "Em"(3edc (3Bcd|"Am"(e>c) "Em"(d<B) "Am"A2 A||

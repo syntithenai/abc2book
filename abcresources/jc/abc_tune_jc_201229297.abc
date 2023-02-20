@@ -1,0 +1,32 @@
+X: 12181
+T: Leith Wynd
+%R:
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.18 (and top 6 staves of p.19)
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The odd [cB,] "double stops" are probably intended as alternate notes.
+N: In bar 27 the 2nd beat's 1st F was a 1/32 note; lengthened to fix the rhythm.
+M: C
+L: 1/16
+K: D	% and Bm
+TcB |\
+A2d2 (FA)(dF) TE3DE2F2 | A3B ABAF A4- A2(TcB) |\
+AdAd FdFd E3DE2F2 | B2[c2B,2] Bcd^A B3c B2 :|
+|: (Tc>B) |\
+A2d2 ABde {e}f3g (fe)(dc) | d2F2 ABdF A3B A2ag |\
+(fed)f (gfe)g (agf)a (gfe)g | (fgf)e (def)F B3c B2fg |
+afbf gefd ecae fdec | defa ABdF A3B (A2dc) |\
+(BAG)B (AGF)A (GFE)G (FED)F | B2[c2B,2] (Bc)(B^A) B3c B2 :|
+|: "^Variation" TcB |\
+AdAd FdFd TE3DE2F2 | (Adc)B (AGF)G A3B A2(TcB) |\
+Adcd FAdF TE3DE2F2 | B2(dc) (BA)(FA) B3c B2 :|
+|: T(cB) |\
+A2d2 ABde fefg f(a/g/f/e/d/c/) | d2F2 ABdF A4- A2(ag) |\
+fdDf geEg afFa geEg | fgfe (def)F (B3c) B2(fg) |
+(a/g/)fba g(e/g/)f(d/f/) (e/d/)cae f(d/f/)e(c/e/) | (d/c/d/e/)fa (ABd)F A3B A2(dc) |\
+(B/c/B/A/)GB AFdF 
+(G/A/G/F/)EG (F/G/F/E/)DF |\
+BF(fe) (ed)(dc) B3c B2 :: TcB | A2dA FdDF E(G/F/G/F/E/D/) E2F2 |\
+"^P.19" A2BD (FA)dF A3B A2(cB) |
+A(B/c/)dA (FA/B/c/d/)F E(G/F/G/F/E/D/) (EF)(GA) | BFDF dcB^A B3c B2 :: TcB | ADFA defg {fg}a3g fe/f/dc |
+dfAd FAdF A4 A2(ag) | (3(fef) (3(def) (3(gfg) (3(efg) (3(aga) (3(fga) (3(gfg) (3(efg) | (f/e/f/g/)fe defF B3c B2(fg) |
+aaff ddff AAdd FFAA | DDFF ABdF A3B A2dc | BgGB AfFA GeEG FdDF | B3[cB,] dcB^A B3c B2 :|

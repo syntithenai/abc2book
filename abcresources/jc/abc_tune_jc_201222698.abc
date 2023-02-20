@@ -1,0 +1,29 @@
+X: 061
+T: THE LOCH OF FORFAR
+C: Wm ALLAN
+R: Strathspey
+B: Glen Collection p.6 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: A
+%
+V: 1
+B2 |\
+{G}A3E EEE2 C2~E2 E3F | A3E EEE2 c3d {d}c2B2 | {G}A3E EEE2 C3E E3F | DDD2 D3E {F}[=G4B,4] [G2B,2] :|
+B2 |\
+AAA2 c3A e3A    c3A | AAA2 c3A {c}e4 (Tf4{ef}) | e2A2 c2A2 a3e c2A2 | EEE2 E3F {F}=G4 G3B |
+AAA2 c3A e3A {d}c3A | AAA2 c3A {c}e4 (Tf4{ef}) | (e2fg) (ag).f.e (fe).d.c dcBA | EE3 E3F {F}=G4 G2 |]
+%
+V: 2
+z2 |\
+A4 [a4e4] [a4e4] [c'4a4e4] | [c'4a4e4] [c'4a4e4] [a4e4] [g4e4] |\
+[a4A4] [c'4a4e4] [a4e4] [c'4a4e4] | [a4f4d4] [a4f4d4] [=g4d4=G4] [g2d2G2] :|
+z2 |\
+A4 [a4e4] [c'4a4e4] [a4e4] | [c'4a4e4] [c'4a4e4] [c'4a4e4] [d'4g4e4] |\
+[c'4a4e4] [a4e4] [c'4a4e4] [a4e4] | [b4g4e4] [b4g4e4] [b4=g4e4] [b4g4e4] |
+A4 [a4e4] [c'4a4e4] [a4e4] | [c'4a4e4] [c'4a4e4] [c'4a4e4] [d'4g4e4] |\
+[c'4a4e4] [a4e4] [c'4a4e4] [a4e4] | [b4g4e4] [b4g4e4] [b4=g4e4] [b2g2e2] |]

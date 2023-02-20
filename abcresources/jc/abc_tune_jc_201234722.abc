@@ -1,0 +1,19 @@
+X: 20732
+T: the SWISS BOY
+Q: "Andante"
+%R: shottish, hornpipe
+B: "Edinburgh Repository of Music" v.2 p.73 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 2/4
+L: 1/16
+K: G
+B>c |\
+d2B>c d2B>c | d2"_>"b>a g2d>d |\
+d2"_>"c'>b a2b>a | g6 :|\
+|: d>d |\
+d2a>g f2d>d | d2b>a g2d>d |
+(cfa)g {g}f2({f}ed) | (dg)(ba) g2Bc |\
+(ed).B.c (ed).B.c | (dgb).a g2d2 |\
+{ed^c}d2c'>b a2b>a | g6 H|]

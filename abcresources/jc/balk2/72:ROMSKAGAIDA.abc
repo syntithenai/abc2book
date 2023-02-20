@@ -1,0 +1,45 @@
+X: 372
+T: Romska Gaida
+O: Bulgaria
+F: http://www.youtube.com/watch?v=9LlB3kxH8XU
+F: http://www.youtube.com/watch?v=o3TWG8h189w
+%M: 8.7/8
+M: 15/16
+L: 1/16
+Q: 1/4=88
+K: Cm
+P:A
+V:1
+%%MIDI program 111
+%%MIDI beatstring fmmmfmmmfpmpfp
+%%MIDI chordattack 40
+z8 z7|z8 z7|
+|:cgfed2c2 c2c2c3|cgfed2c2 c2c2c3|
+  cgfed2c2 c2c2c3|B6eB c4-c3:|
+V:2 name=percussion
+%%MIDI channel 10
+!f! [B,,,D,,F,,]4 D,,4 D,,2D,,2 [D,,F,,]3|\
+[D,,F,,^C,]4 D,,4 D,,2D,,2 [D,,F,,]3 |:
+[D,,F,,^G,,]4 [D,,F,,]4 D,,2D,,2 [D,,F,,]3|\
+[D,,F,,^G,,]4 [D,,F,,]4 D,,2D,,2 [D,,F,,]3|\
+[D,,F,,^G,,]4 [D,,F,,]4 D,,2D,,2 [D,,F,,]3|\
+[D,,F,,^G,,]4 z4 D,,2G,,2 [D,,F,,]3 :|
+P:B
+V:1
+%%MIDI program 67
+|:G6F2 FGGF-F3|E2C2C2C2 C2D2E3|\
+ E2C2C2C2 C2D2E3|E2F2D2E2 C2C2-C3:|
+|:B,2C2E2E2 E4-E3|F2G2F2E2- E7  |\
+  F2G2E2E2 E7    |D2E2D2C2- C7 :|\
+|:E2D2C2C2 C2C2F3|E2E2D2C2 D2C2C3:|
+V:2
+|: [D,,F,,]4 C,,4 F,,2F,,2 [D,,F,,]3 |\
+[D,,F,,]4 [C,,^D,]4 F,,2F,,2 [D,,F,,]3 |
+[D,,F,,]4 C,,4 F,,2F,,2 [D,,F,,]3 |
+[D,,F,,]4 C,,4 F,,2F,,2 [D,,F,,]3 ::
+[A,,D,,]4 [A,,D,,]4 z2F,,2 F,,3 |
+[A,,D,,]4 [A,,D,,]4 z2F,,2 F,,3 |
+[A,,D,,]4 [A,,D,,]4 z2F,,2 F,,3 |
+[A,,D,,]4 [A,,D,,]4 z2F,,2 F,,3 ::
+[A,,D,,]2F,,2 [A,,D,,]2F,,2 z2[F,,D,,]2 [F,,D,,]3 |
+[A,,D,,]2F,,2 [A,,D,,]2F,,2 z2[F,,D,,]2 [F,,D,,]3:|

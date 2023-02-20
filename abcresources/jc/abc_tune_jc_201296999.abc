@@ -1,0 +1,14 @@
+X:386
+T:King of Poland
+C:Henry Playford, 1698
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=120
+M:6/8
+L:1/8
+%%MIDI ratio 3 1
+K:Gm
+P:A
+|: "Gm"B2G B2c | "D7"dcd "Gm"G2 A | "Bb"Bcd f2d | "D7"dcd "Gm"G3 :|
+P:B
+|: "Gm"g2a "Cm"b>ag | "D7"^f>=ef "Gm"g2G |\
+"Eb"G2A B>cd | "Bb"f2d "F"c>BA | "Gm"B>cd g2d | "D7"B>AG "Gm"G3 :|

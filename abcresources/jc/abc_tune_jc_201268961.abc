@@ -1,0 +1,32 @@
+X:1
+T: Doctor Vincent's Delight
+N:
+C:Charles Bolton
+S:aka Vera's Valedictory
+A:
+O:
+R:
+M:6/8
+K:D
+I:speed 180
+%W: A1
+% voice 1 (1 lines, 33 notes)
+K:D
+M:6/8
+L:1/16
+D6 d6 B2 c2 d2 A2 F2 E2 D4 d2 B2 c2 d2 e6 A6 |d2 f2 d2 e2 c2 A2 B2 d2 B2 A2 F2 E2 D4 d2 e2 d2 c2 d12 |
+%W: A2
+% voice 1 (1 lines, 33 notes)
+D6 d6 B2 c2 d2 A2 F2 E2 D4 d2 B2 c2 d2 e6 A6 |d2 f2 d2 e2 c2 A2 B2 d2 B2 A2 F2 E2 D4 d2 e2 d2 c2 d12 |
+%W: B1
+% voice 1 (1 lines, 32 notes)
+f6 a4 f2 e4 g2 f2 e2 d2 f6 a4 f2 e6e2 d2 e2 |f6 a4 f2 e2 f2 g2 f2 e2 d2 f4 a2 b2 a2 ^g2 a6a4 b2 |
+%W:
+% voice 1 (1 lines, 38 notes)
+=c'4 c'2c'2 b2 a2 b4 b2b2 a2 g2 a4 a2a2 g2 f2 e2 f2 g2 c2 B2 A2 |B4 d2 c2 d2 e2 d4 f2 e2 f2 g2 f2 g2 a2 g2 f2 e2 d12 |
+%W: B2
+% voice 1 (1 lines, 32 notes)
+f6 a4 f2 e4 g2 f2 e2 d2 f6 a4 f2 e6e2 d2 e2 |f6 a4 f2 e2 f2 g2 f2 e2 d2 f4 a2 b2 a2 ^g2 a6a4 b2 |
+%W:
+% voice 1 (1 lines, 38 notes)
+=c'4 c'2c'2 b2 a2 b4 b2b2 a2 g2 a4 a2a2 g2 f2 e2 f2 g2 c2 B2 A2 |B4 d2 c2 d2 e2 d4 f2 e2 f2 g2 f2 g2 a2 g2 f2 e2 d12 ||

@@ -1,0 +1,35 @@
+X: 1
+T: Cobler's Jigg
+P: Longways for as many as will
+%R: march, reel
+B: "The Dancing-Master" printed by John Walsh, London
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.11 #20
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.92
+Z: 2012-2013 John Chambers <jc:trillian.mit.edu>
+N: The dance descriptions are identical, except for minor spelling and punctuation differences.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+g2g2 f2g2 | e2f2 d4 | e2e2 f2d2 | g4 d4 || g2d2 e2(dc) |\
+B3c d2cB | A2B2 c2d2 | B3A G2A2 | B3A G2A2 | Bcd2 A3G | G8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the Presence, then to your own; lead up
+%% forward and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1st Man Sides with his own Wo. then on the
+%% other Side of his own Wo. then change Places with
+%% your own Wo. and act the Cobler, then change Places
+%% with your own Wo. again, then cross over with
+%% your own Wo. and act the Cobler again, and then
+%% turn half round; then the 1st Man do the same to
+%% the 2d Wo. and the 1st Wo. to the 2d Man.  Do this
+%% 'till you come to your own Places again.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,5 @@
+X: 1
+T: TEST: Repeats with :||:
+%%staffwidth 300
+K: C
+|: CDEF GABc :||: cBAG FEDC :|

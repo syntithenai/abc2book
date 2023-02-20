@@ -1,0 +1,27 @@
+X: 1112
+T: Don Side.   a Strathspey.
+%R: strathspey, air
+B: Niel Gow & Sons "Complete Repository" v.1 p.11 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+A |\
+G/G/G BG TA>GEA | G/G/G BG A>GBG | c>AB>G TA>GEe | d>cTBA BGG :: e/f/ | g>dg>B TA>GEe |
+Tg>dg>B g>dga | b/a/g/e/ g>B TA>GEe | d>cTBA BGG :: a | g/g/g (.b>.g) a>gea | g/g/g (.b>.g) Tagbg |
+(b/a/)g/a/ bg Ta>geg | d>cTBA BGG :: !p!(D/E//F//) | GDB,D EA,-A,E/F/ | GD.B,.D .G,.D.B,.D | CEB,D EA,A,F |
+G/F/E/D/ TB,>A, B,G,G, H:: !f!e/f/ | g>dg>B TA>GEe | Tg>dg>B g>dga | b/a/g/e/ g>B TA>GEe | d>cTBA BGG :|
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | G2g2 d2c2 | B2G2 g2g2 | f2g2 d2c2 | d2D2 G2G :: z |
+G2g2 d2c2 | B2G2 g2g2 | g2g2 d2c2 | d2D2 G2G :: z | g2g2 d'2c'2 | b2g2 g2g2 |
+g2G2 d2c2 | d2D2 G2G :: !p!z | G2G2 A2A2 | G2G2 G2G2 | c2B2 A2A2 | G2D2 G2G ::
+!f!z | G2g2 d2c2 | B2G2 g2g2 | g2g2 d2c2 | d2D2 G2G :|
+% - - - - - - - - - -
+%%text When Danced, the Tune ends at [the fermata].
+N: The mark used for the fermata doesn't exist in ABC or any other music I've seen.
+N: It's like a down arrow, with a dot above and a dot below, ".|V." drawn vertically.

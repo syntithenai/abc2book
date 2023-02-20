@@ -1,0 +1,25 @@
+X: 20144
+T: LEEWAERDEN WALTZER
+C: J. W., Oelfingen.
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.14 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+E2A2B2 | c2z2E2 | d2z2E2 | c2abc'2 |\
+E2A2B2 | z2{d}c2z2 | z2{d}c2{d}c2 | B2EFGA |\
+B2A2B2 | c2z2E2 |
+d2z2E2 | c2^DEFG |\
+A2E2c2 | e2a2c'2 | d'2z2g2 | a6 |]\
+c6- | {d}c2B2c2 | (d4cB) | (E2A2)B2 |
+c6- | c2B2c2 | (d2f2)e2 | {e2}c6 |\
+c6- | {d}c2B2c2 | (d4cB) | E2G2A2 |\
+B2z2E2 | c2z2E2 | d2z2E2 | A4z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,22 @@
+X: 2441
+T: WALL FLOWERS POLKA
+R: polka
+B: Kerr's v.2 p.51 #441
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: There are final repeats, but no initial repeats; fixed.
+M: 2/4
+L: 1/8
+K: D
+|:\
+ff d2 | ee B2 | dc B>c | BA A2 |\
+ff d2 | ee B2 | dc Bc | dd "_Fine."d3 H:|
+|:\
+ce e2 | ed d2 | df f2 | fe e2 |\
+ce e2 | ed d2 | "_D.C. and then to TRIO."cAB^G | AAA :|
+P: TRIO.
+K: G
+|:\
+B2 G>e | "^>"d4 | c2 A>e | "^>"d4 |\
+"^>"e2 f>e | "^>"d4 | c2 A>e | d4 |\
+B2 G>e | "^>"d4 | "^>"c2 A>e | "^>"d4 |\
+e2 f>g | "^>"B4 | d2 A>B | GGG "_D.C."z :|

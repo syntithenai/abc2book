@@ -1,0 +1,26 @@
+X:1
+T: Leap Year
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 37 notes)
+K:G
+M:6/8
+L:1/16
+d c |B4 G2 G2 A2 G2 B4 d2 d4 g2 c4 A2 A4 e2 c4 A2 A4 d c |B4 G2 G2 A2 G2 B4 d2 d4 g2 c4 A2 d4 B2 G6G4 d c |
+%W: A2
+% voice 1 (1 lines, 34 notes)
+B4 G2 G2 A2 G2 B4 d2 d4 g2 c4 A2 A4 e2 c4 A2 A4 d c |B4 G2 G2 A2 G2 B4 d2 d4 g2 c4 A2 d4 B2 G6G4 d2 |
+%W: B1
+% voice 1 (1 lines, 33 notes)
+d2 e2 d2 g4 d2 g4 d2 g4 d2 c4 A2 A4 e2 c4 A2 A4 d2 |d2 e2 d2 g4 d2 g4 d2 g4 d2 c4 A2 d4 B2 G6G4 d2 |
+%W: B2
+% voice 1 (1 lines, 32 notes)
+d2 e2 d2 g4 d2 g4 d2 g4 d2 c4 A2 A4 e2 c4 A2 A4 d2 |d2 e2 d2 g4 d2 g4 d2 g4 d2 c4 A2 d4 B2 G6G4 ||

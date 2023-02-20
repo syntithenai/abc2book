@@ -1,0 +1,17 @@
+X: 160
+T: How Paddy Was Fooled
+R: waltz
+%S: s:4 b:16(8+8+8+8)
+B: O'Neill's 1850 #160
+O: F.O'Neill
+Z: 1977 henrik.norbeck@mailbox.swipnet.se
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+Q: "Playfully"
+M: 3/4
+L: 1/8
+K: G
+d2 \
+"^A"[|]|: g2 d2 B2 | G2 A2 B2 | c2 a2 g2 | f2 d2 ef | g2 d2 B2 | c2 d2 e2 |1 d2 c2 B2 | A4 g2 :|2 d2 g2 f2 | "^fine"g4 |]
+"B"[| (ga) | b2 g2 b2 | a2 f2 a2 | g2 e2 g2 | f2 d2 (ga) | b2 g2 b2 | a2 f2 d2 | g2 f2 e2 | d4 (e"^->A2"f) |]

@@ -1,0 +1,11 @@
+X:225
+T:New Rigged Ship, The
+R:Jig
+M:6/8
+%%printtempo 0
+Q:180
+K:C
+"C"({/A}c2c) (c2e)| (c2c) (c2e)|"G7"dBG (G2B)|dBG GAB| "C"(c2c) (c2e)| (c2c) "G7"dBG|
+"F"ABc "G7"dBG| "C"c3 c3:| "C"({/A}g2e) (g2e) |(c2c) ceg| "F"(a2f) (a2f)|"G7"(d2d) def|
+"C"(g2e) (g2e)| (c2c) "G7"dBG| "F" ABc "G7" dBG| "C"c3 (c2e/f/)| gfe gfe| cdc "C7"ceg|
+"F"agf agf| "G7"ded def| "C" gfe "Em/B"gfe| "Am"cec "G7"dBG| "F"ABc "G7"dBG| "C"vc3 "A7"u^c3|]

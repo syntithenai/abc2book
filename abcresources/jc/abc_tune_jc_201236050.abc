@@ -1,0 +1,22 @@
+X: 21591
+T: the Old Witch of Ochiltree
+Q: "Moderately Quick"
+%R: reel
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.159 #1
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+N: Rest added to 2nd and 4th strains' pickups, to fix the rhythms.
+M: C|
+L: 1/8
+K: Am
+GF |\
+E2A2 A2(GF) | E2c2 c3d | (ec)(fe) (dc)(BA) | T^G3A (BA)(GF) |\
+E2A2 A2(GF) | E2c2 c3d | (ec)(fe) (dc)(BA) | E2A2 A2 :|
+|: zB |\
+c2(de) (fe)(dc) | B2(cd) e2E2 | A2(Bc) d2(fe) | dcBA T^G3F |\
+E2A2 A2(=GF) | E2c2 c3d | (ec)(fe) (dc)(BA) | E2A2 A2 :|
+|: (ag) |\
+e2a2 a3g | e2c'2 c'3b | a2(bc') (d'c')(ba) | ^g3a (ba)(^g^f) |\
+e2a2 a3=g | e2c'2 c'3b | (ab)(c'a) (ge)(de) | Tc2A2 A2 :|
+|: zB |\
+(cd)(ed) (cd)(ed) | (cd)(ef) g2(fe) | a2(bc') d'3c' | (bc')(ba) T^g3f |\
+e2(a=g) e2(ag) | e2ab c'3b | (ab)(c'a) (gf)(de) | Tc2A2 A2 :|

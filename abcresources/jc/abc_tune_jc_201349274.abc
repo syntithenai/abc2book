@@ -1,0 +1,26 @@
+
+X: 1
+T: la Vie en Rose
+C: music: Louiguy
+C: words: Edith Piaf
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+F: http://forpiano.com/FILEX/L/p89wqh1qps/edith_piaf--la_vie_en_rose.pdf
+M: C
+L: 1/8
+Q: "Slowly"
+K: C
+ed | "Am/G"[c2A2] fe "G7"[d2A2] [ge][fd] | "Dm"[ecA][cAF][AFC][FDA,] "F"[ECA,] "Verse"[|\
+  E"G7-9"ED | "C"CB, CD E"//" F"A7"FE |
+w: | | | Des yeux qui font bais-ser les miens, un rir' qui
+  "Dm"D^C DE F"//" G"G7"GF | "C"ED EF "Gm"G"//" GGG | "A7"GG ^DE "Dm"G2- "G7"G2 |]
+w: se perd sur sa bouch', voi-l\`a le por-trait sans re-touch' de l'hom-me au-quel j'ap-par-tiens.
+  "Chorus"|: "C"c3B AG Ec | "Cmaj7"B3A "C6"GE CB | "C"A3 G EB, CB | "Dm7"(A4 "G7"G4) |
+w: Quand il me prend dans ses bras, il me par-le tout bas, je vois la vie en ro-se.
+  "Dm7"d3 c BA Fc | "G7"B3 A GF DB | "Dm7"A3 G "G7"F^C DB | "C"A2- "F#m6"A2 "Dm7"G2- "G7"G2 |
+w: Il me dit des mots d'a-mour, des mots de tous les jours, et \,ca m'fait quel-que cho-*se.
+  "C"c3 B AG Ec | "Cmaj7"B3 A "C6"GE CB | "C"A3 G EB, "C7"Cc | "F"c4- c2z2 |
+w: Il est en-tr\'e dans mon coer u-ne part de bon- heur dont je con-nais la cau-se.
+  "Fm"dd2c dd2c | "C"dd2c G4 | "D7(Ebdim)"dd2c dd2c | "Dm"dd2c "ten."e2 "G7-9"Hd2 |
+w: C'est lui pour mou, moi pour lui, dans la vie. Il me l'a dit, l'a ju-r\'e pour la vi-e.
+  "C"c3B AG Ec | "Cmaj7"B3 A "C6"GE CB | "Dm"A3G A2 "G7"B2 | "C"c2- "Dm7"c2- "C"c2 :|
+w: Et d\`es que je l'a-per-\,cois a-lors je sens  en moi mon coer qui bat.

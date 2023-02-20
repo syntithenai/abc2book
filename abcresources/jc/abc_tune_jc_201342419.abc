@@ -1,0 +1,46 @@
+X: 1
+T: Swines Tale to Georgia
+P: Longways &c.
+%R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.97
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+N: The 1st dance phrase ends with an unusual symbol, 2 dot arranged vertically over a horizontal line.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 4/8/12-bar staff lines.
+V: 1
+|:\
+A3B  A2F2 | E2F2 G2E2 | D2A2 A2B2 | d3e f2d2 |\
+e2c2 d2F2 | E2F2 G2E2 | D2A2 A2G2 | F4  D4  :|\
+|:\
+a3b  a2f2 | e2f2 g2e2 | d/e/f/g/ a4 g2 | f2d2 a2f2 |
+g2ag f2gf | e2f2 g2e2 | d/e/f/g/ a4 g2 | f4   d4  :|\
+|:\
+DDD2 A2F2 | EEE2 G2E2 | DDD2 A3B  | ddd2 f2d2 |\
+e2c2 d2F2 | E3F  G2E2 | D2A2 A2G2 | F4   D4  :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+d4 z2d2 | A4 B2c2 | d4 z2g2 | f2e2 c2A2 |\
+c2A2 B2d2 | F2G2 A2F2 | d4 z2g2 | d'4 d4 :|\
+|:\
+d4 z2d2 | A4 B2c2 | d4 c4 | d4 z2d2 | e4
+d4 | A4 B2c2 | d4 a4 | d'4 d4 :|\
+|:\
+d4 z2c2 | A4 B2c2 | d4 z2g2 | f4 c2B2 |\
+c2A2 B2d2 | G2A2 B2G2 | d4 z2a2 | d'4 d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+%% First Cu. cross over & hands all 4 round with 3d Cu. and cast up ..|
+%% Then 1st & 2d Cu. hands round & Back to Back & turn :|
+%% 1st Cu. cross over & half figure with 2d Cu. & turn .|
+%% 2d Cu. cross over & half figure with 1st Cu. and turn :|
+%% 1st Cu. Jigg it & cast up and Jigg it & cast off .|
+%% the Right & Left with the 2d Cu. quite round, & turn your Partner :|
+%%endtext

@@ -1,0 +1,26 @@
+X:1
+T: A Young Virgin of 15 Years
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 45 notes)
+K:G
+M:6/8
+L:1/16
+B c |d3 e d2 d3 e d2 g4 d2 d4 B c d3 e d2 d3 e d2 a4 d2 d4 B c |d3 e d2 d3 e d2 g4 d2 a4 d2 b2 a2 g2 f3 e f2 g4 G2 G4 B c |
+%W: A2
+% voice 1 (1 lines, 43 notes)
+d3 e d2 d3 e d2 g4 d2 d4 B c d3 e d2 d3 e d2 a4 d2 d4 B c |d3 e d2 d3 e d2 g4 d2 a4 d2 b2 a2 g2 f3 e f2 g4 G2 G4 g a |
+%W: B1
+% voice 1 (1 lines, 45 notes)
+b2 a2 g2 b2 a2 g2 a4 d2 d4 g a b2 a2 g2 b2 a2 g2 c'4 a2 a4 g a |b2 a2 g2 b2 a2 g2 b2 a2 g2 c'2 b2 a2 b2 a2 g2 f3 e f2 g4 G2 G4 g a |
+%W: B2
+% voice 1 (1 lines, 43 notes)
+b2 a2 g2 b2 a2 g2 a4 d2 d4 g a b2 a2 g2 b2 a2 g2 c'4 a2 a4 g a |b2 a2 g2 b2 a2 g2 b2 a2 g2 c'2 b2 a2 b2 a2 g2 f3 e f2 g4 G2 G4 ||

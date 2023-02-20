@@ -1,0 +1,64 @@
+
+X: 1
+T: Caro Nome Rigoletto
+C: Giuseppe Verde
+O: Italy
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Eb
+%%continueall 1
+ed |\
+"Eb"c2B2 A2G2 | "Bb7"F6 dc | B2A2 G2F2 |
+w: Ca-ro No-me che'l m'io cuor fes-ti pri-mo pal-pi-
+"Eb"E6 gf | e2d2 c2B2 | "Fm"F6 dc |
+w: tar, le de-li-zie dell' a-mor mi d\^ei
+"Bb7"B2A2 G2F2 | "Eb"E6  G=A | "Gm"B2c2 B2c2 |
+w: sem-pre ram-men-tar! Col pen-siero il mio de-
+"Bb"B6 G=A | "Gm"B2"F7"c2 "Bb"d2"F7"e2 | "Bb7"f6 gf | "Eb"e2d2 c2B2 |
+w: sir A te sem-pre vo-le-r\`a. E fin' l'ul-ti-mo sos-
+%
+"Bb7"F6 dc | B2A2 G2F2 | "Eb"E4 "Cdim"(^F=A)(ce) |
+w: pir ca-ro no-me tuo sa-r\`a col-*pen-*
+"Bb7"dddd "Eb"B4 | "Bb7"zFF2 FFFF | f6 gf |
+w: sier il mio de-sir. A te sem-pre vo-le-r\`a.  E fin'
+"Eb"e2d2 c2BB | "Bb7"F6 dc | B2A2 G2F2 |
+w: l'ul-ti-mo mio-sos-pir'. Ca-ro no-me tuo sa-
+"Eb"E4 "Cdim"(^F=A)(ce) | "Bb"dddd "Eb"B4 | "Bb"zFF2 FFFF |
+w: r\`a. Col-*pen-*sier il mio de-sir. A te sem-pre vole-
+f6 gf | "eb"e2d2 c2BB | "Bb7"F6 dc |
+w: r\`a.  E fin l'ul-ti-mo mio-sos-pir. Ca-ro
+%
+B2A2 G2F2 | "Eb"E4 "Cdim"(^F=A)(ce) | "Bb7"dddd "Eb"B4 |
+w: No-me tuo sa-r\`a. Col-*pen-*sier il mio de-sir.
+"Bb7"zFF2 FFFF | f6 Be |
+w: A te sem-pre vol-le-r\`a. E fin
+"Eb"edcB B2Be | edcB B2Be |
+w: l'ul-ti-mo sos-pir e fin l'ul-ti-mo sospir fin a
+"Eb"edcB B2Be | edcB B2Be |
+w: l'ul-ti-mo sos-pir Ca-ro No-me tuo sa-r\`a. Fin' al
+"Ab"AGGF FFFE | "Eb"B6 z2 |]
+w: l'ul-ti-mo sos-pir il tuo sa-r\`a.
+
+%%sep 1 1 500
+
+X: 1
+T: Caro Nome Rigoletto    [F]
+C: Giuseppe Verde
+O: Italy
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F
+%%continueall 0
+fe |\
+"F"d2c2 B2A2 | "C7"G6 ed | c2B2 A2G2 | "F"F6 ag |\
+f2e2 d2c2 | "Gm"G6 ed | "C7"c2B2 A2G2 | "F"F6  A=B |
+"Am"c2d2 c2d2 | "C"c6 A=B | "Am"c2"G7"d2 "C"e2"G7"f2 | "C7"g6 ag |\
+"F"f2e2 d2c2 | "C7"G6 ed | c2B2 A2G2 | "F"F4 "Ddim"(^G=B)(df) |
+"C7"eeee "F"c4 | "C7"zGG2 GGGG | g6 ag | "F"f2e2 d2cc |\
+"C7"G6 ed | c2B2 A2G2 | "F"F4 "Ddim"(^G=B)(df) | "C"eeee "F"c4 |
+"C"zGG2 GGGG | g6 ag | "F"f2e2 d2cc | "C7"G6 ed |\
+c2B2 A2G2 | "F"F4 "Ddim"(^G=B)(df) | "C7"eeee "F"c4 | "C7"zGG2 GGGG |
+g6 cf | "F"fedc c2cf | fedc c2cf | "F"fedc c2cf |\
+fedc c2cf | "Bb"BAAG GGGF | "F"c6 z2 |]

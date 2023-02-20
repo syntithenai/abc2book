@@ -1,0 +1,35 @@
+X: 209
+T: Marion the Knabs Daughter
+%T: Marion the Gaberlunzie Man's Daughter
+T: Mor nian a Ghibarlan
+R: air, strathspey
+N: This is version 1, for ABC software that doesn't understand dim/crescendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.96 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow & Tender"
+K: F	% and Gdor and Bb
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for 2 8-bar lines, for compactness and proofreading.
+V: 1 staves=2
+|:\
+!p!G2GB {B}d2cA | {B}A2F>G AFD2 |\
+"_cres"[F2A,2](FG) {F}A2GF | {B,}D2F>G (FD)C2 ||\
+!p![FA,]<ATG>F [F2A,2]"_<"(ef) | "_cres"~d2df d>c{B}[A2F2] |\
+!p!Tc>BAf {e}d2cA | "_dim."G2F>G {FG}A>GG2 :|
+|:\
+!p!d>cB>c d2"_<"(ef) | {A}G2F>G AF{B,}D2 |\
+"_dim"{B}A>GF>G {F}A2"_<"(=Bc) | "_cres"{_B,}D2F>G F>DC2 ||\
+!p![FA,]<ATG>F[F2A,2]"_<"(ef) | "_cres"~d2df d>c{B}[A2F2] |\
+!p!c>"_Exp"B (A{Bcde}f/)>e/ {e}d2cA | "_dim."G2[FA,]>G {FG}A>G G2 |]
+% = = = = = = = = = =
+V: 2 clef=bass middle=d
+|:\
+z4 d2c2 | B2AG F2B2 | d2cB A2BA | B2AG F2f2 || !p!F2c2 d2c2 |
+B2b2 f2F2 | !p!f2a2 b2af | c'2a2 f2c2 :||: B2b2 B2b2 | B2AG F2B2 | F2f2 F2z2 |
+B2AG F2f2 || f2c2 d2c2 | B2b2 B2f2 | f2a2 b2af | c2F2 f2c2 |]
+% Voice 2 preserves the staff layout in the book.
+% = = = = = = = = = =

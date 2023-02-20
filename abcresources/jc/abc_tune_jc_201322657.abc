@@ -1,0 +1,273 @@
+
+X: 1
+T: Ben Hill
+C: Fr Patrick Joseph Kelly
+M: 4/4
+L: 1/8
+R: Reel
+S: https://www.ibiblio.org/fiddlers/BELL_BH.htm
+S: from Mike Rafferty (flutist)
+N: Posted to the woodenflute mailing list, August 2002
+Z: Tom Madden
+K: G
+B |:\
+d3B cAFA | G2 BG DGBG | AzAB cBAG | EAAG ABce |
+d2dB cAFA | G2 BG DGBG | AzAB cdef | gdcA BG G2 :|
+dgga gdBd | eaab ageg | fd ad bzaf | gage dcBc |
+dgga gdBd | eaab agef | ~g3e d2 Bc | dBcA BG G2 :|
+
+%%sep 1 1 500
+
+X: 2
+T: Derry Craig Wood
+T: Mulvihill's
+C:Father P.J. Kelly
+R:reel
+H:Father Grady's Trip to Brocagh
+D:De Danann: The Mist Covered Mountain
+D:Arty McGlynn & Nollaig Casey: Lead the Knave
+Z:id:hn-reel-222
+Z:transcribed by henrik.norbeck@mailbox.swipnet.se
+S:https://tunearch.org/wiki/Derry_Craig_Wood 2020-3-13
+M:C|
+L:1/8
+K:G
+% - - - - - - - - - -
+|:\
+Bd~d2 eB~B2 | eBdB AGED | B,D~D2 EDB,D |~G3A BA~A2 | Bd~d2 eB~B2|
+eBdB AGED | B,DGE FGAB |1 cAFA G2GA :|2 cAFA GABc ||
+|:\
+d2Bd gd~d2 | edBd gdBd | e2^ce ae~e2 | afge fded | Bd~d2 gdBd| d2Bd gdBd |
+c2cB cBAB |1 cAFA GABc :|2 cAFA G2GA |: BAGE DB,EB, | DB,DG B2AB |
+cBAG FDDE | FEFG A2GA | BAGE DB,EB, | DB,DG B2AB | c2cd cBAB | cAFA G2GA :|
+% - - - - - - - - - -
+|:\
+"Variations:" Bd~d2 eBdB | eBGB AGED | B,D~D2 EDB,D | ~G3A BA~A2 | Bd~d2 ed (3Bcd |
+eBGB AGED |1 GEDB, DEGB | cAFD G2GA :|2 B,D~D2 EGAB | cAFD GABc ||
+|: d2Bd gdBd | d2Bd gdBd | e2^ce ae~e2|afge fded| Bd~d2 gd (3Bcd | edBd gdBd |
+~c3d cBAB |1 cAFA GABc :|2 cAFA G2GA|| |: BAGE DB,~B,2| DB,DG B2AB |
+cBAG FDDE | FEFG A2GA | BAGE DB,~B,2 | DB,DG B2AB | ~c3B cBAB | cAFA G2GA :|
+
+%%sep 1 1 500
+
+X: 3
+T: Father Kelly's (Jig)
+T: Lough Derg Jig
+C: Father Patrick Joseph Kelly
+S: https://www.ibiblio.org/fiddlers/FARG_FAY.htm
+S: Paul O'Shaughnessy
+Z: Juergen.Gier:post.rwth-aachen.de
+M: 6/8
+L: 1/8
+R: Jig
+K: G
+D |\
+GFG BAG | F2G AFD | GFG BAG | BdB cAF |\
+G2c BAG | ~F3 AFD | d^cd fed | cAF G2 :|
+A |:\
+B2d gdB | dgB dgB | c2e gec | egc ege | d2f afd |\
+fad fad |1 gfg efg | afd cBA :|
+|[2 d^cd fed | cAF G2 \
+|: c |\
+~B3 BGE | F2G AFD | BdB BAG | BdB cAF |\
+~B3 BGE | F2G AFD | d^cd fed | cAF G2 :|
+
+%%sep 1 1 500
+
+X: 4
+T: Father Kelly's march
+T: Sliabh Aughty March
+C: Father Patrick Joseph Kelly
+R: Reel
+S: P. Haverty
+S: https://www.ibiblio.org/fiddlers/FARG_FAY.htm
+Z: Jeffrey Myers (jmyers@GOUCHER.EDU)
+N: This is a variant of the better-known Father Kelly's Reel. Its origin with this title isn't known.
+M: C|
+L: 1/8
+K: G
+GA |\
+B2 GB AGEG | DGGF GABd | c2AB cBAG | EAAG ABcA |\
+B2GB AGEG | DGGF GABc | d2 Bd gdBd | cAFA G2 :|
+|: Bc |\
+d2Bd gdBd | d2 Bd gdBd | e2 ce agfe | defg agfe |\
+d2Bd gdBd | d2 Bd gdBd | c2Ac B2 GB | AGFA G2 :|
+
+%%sep 1 1 500
+
+X: 5
+T: Father Kelly's Reel #4
+T: Over the Bog Road
+C: Fr Patrick Joseph Kelly
+M: 4/4
+L: 1/8
+R: Reel
+S: Breathnach (CR\'E V), 1999 p.70 #138
+S: https://www.ibiblio.org/fiddlers/FARG_FAY.htm
+K: G
+F |\
+FEDE G3A | (3Bcd gd BGGB | AGEG AGAc | (3Bcd gd BcAB |
+GEDE G2 GA | (3Bcd eg BG G2 | (3Bcd ed (3Bcd gB | cedc BGG :|
+|: f |\
+gede g2 ga | (3bag (3agf gede | agea a^gab | c'abg agea |
+gede gfga | (3bag (3agf gfed | (3Bcd ed (3Bcd gB | cedc BGG :|
+
+%%sep 1 1 500
+
+X: 6
+T: Father Kelly's Reel
+R: Reel
+C: Fr Patrick Joseph Kelly
+S: Roaring Jelly collection
+M: C|
+L: 1/8
+K: G
+GA |\
+"G"B2 GB "G/A"AGEG | "G/B"DGGF "G"GABd | "C"c2AB "C/B"cBAG | "Am"EAAG "D"FDGA |
+"G"B2GB AGEG | DGGF GABd | "C"cdef "G"gdBd | "D"cAFA "G"G2 :|
+|: Bc |\
+"G"d2Bd gdBd | d2 Bd gdBd | "C"e2 ce agfe | "D"defg agfe |
+"G"d2Bd gdBd | d2 Bd gdBd | "C"c2dc "G"BAGB | "D"ADFA "G"G2 :|
+
+%%sep 1 1 500
+
+X: 7
+T: Father Kelly's (Jig)
+T: Lough Derg Jig
+C: Father Patrick Joseph Kelly
+S: https://www.ibiblio.org/fiddlers/FARG_FAY.htm
+S: Paul O'Shaughnessy
+Z: Juergen.Gier:post.rwth-aachen.de
+M: 6/8
+L: 1/8
+R: Jig
+K: G
+D |\
+GFG BAG | F2G AFD | GFG BAG | BdB cAF |\
+G2c BAG | ~F3 AFD | d^cd fed | cAF G2 :|
+A |:\
+B2d gdB | dgB dgB | c2e gec | egc ege | d2f afd |\
+fad fad |1 gfg efg | afd cBA :|
+|[2 d^cd fed | cAF G2 \
+|: c |\
+~B3 BGE | F2G AFD | BdB BAG | BdB cAF |\
+~B3 BGE | F2G AFD | d^cd fed | cAF G2 :|
+
+%%sep 1 1 500
+
+X: 8
+T: the Monsignor's Blessing
+T: Over the Bog Road
+C: Fr Patrick Joseph Kelly
+M: 4/4
+L: 1/8
+R: Reel
+B: Mulvihill "1st Collection" 1986 p.61 3225
+S: John Clancy
+S: https://www.ibiblio.org/fiddlers/FARG_FAY.htm
+K:G
+(Bc) |\
+d~G3 dGBd | c~F3 cFAc | d~G3 dGBG | BdcA G2Bc |
+d~G3 dGBd | c~F3 cFAc | dG (3GGG dGBG | BdcA G2 :|
+|: Bc |\
+dggf agfe | fdcB AFAc | d~g3 a~g3 | d~f3 d~f3 |
+d~g3 a2ge | fdcB AFAc | d~G3 dGBG | BdcA G2 :|
+
+%%sep 1 1 500
+
+X: 9
+T: Father Kelly's Reel
+T: the Rossmore Jetty
+T: Father Kelley's Reel
+C: Father PJ (Patrick Joseph) Kelly (1925/9/16-2006)
+O: Ireland
+Z: John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: G
+GA \
+|: "G"B2GB "C"AGEG | "D7"DGGF "G"GABd |\
+[1 "Am"c2AB cBAG | "D7"FGAG FDDA :|\
+[2 "C"cdef "(G)"gedc | "D7"BGAF | "G"G4 :|
+Bc \
+|: "G"d2Bd gdBd | d2Bd gdBd |\
+[1 "Am"e2ce agfe | "D7"defg agfe :|\
+[2 "Am"cBAc "G"BAGB | "D7"AGFA "G"G4 :|
+
+%%sep 1 1 500
+
+X: 10
+T: Father Kelly's Reel
+T: Father Kelley's Reel
+T: the Rossmore Jetty
+C: Father PJ (Patrick Joseph) Kelly 1976
+N: Father Patrick Joseph Kelly, 1925/9/16 - 2006/?/?
+O: Ireland
+Z: John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: G
+GA \
+| "G"B2GB "C"AGEG | "D7"DGGF "G"GABd | "Am"c2AB cBAG | "D7"FGAG FDDA |  "G"B2GB "C"AGEG |
+| "D7"DGGF "G"GABd | "C"cdef "(G)"gedc | "D7"BGAF "G"G2 :: Bc | "G"d2Bd gdBd | d2Bd gdBd |
+| "C(Am)"e2ce agfe | "D7"defg agfe |  "G"d2Bd gdBd | d2Bd gdBd | "Am"cBAc "G"BAGB | "D7"AGFA "G"G2 :|
+
+%%sep 1 1 500
+
+X: 11
+T: Father Kelly's Reel
+T: the Rossmore Jetty
+%T: Father Kelley's Reel
+C: Father PJ (Patrick Joseph) Kelly (1925-2006)
+O: Ireland
+Z: John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: G
+GA | "G"B2GB "C"AGEG | "D7"DGGF "G"GABd | "Am"c2AB cBAG | "D7"FGAG FD[GD]A |
+y4 | "G"B2GB "C"AGEG | "D7"DGGF "G"GABd | "C"cdef "(G)"gedc | "D7"BGAF  "G"G2 :|
+|: Bc | "G"d2Bd gdBd | d2Bd gdBd | "Am"e2ce agfe | "D7"defg agfe |
+   y4 | "G"d2Bd gdBd | d2Bd gdBd | "Am"c2{B}Ac "G"B2{A}GB | "D7"A2{G}FA "G"G2 :|
+
+%%sep 1 1 500
+
+X: 12
+T: Father Kelly's march
+T: Sliabh Aughty March
+C: Father Patrick Joseph Kelly
+R: Reel
+S: P. Haverty
+S: https://www.ibiblio.org/fiddlers/FARG_FAY.htm
+Z: Jeffrey Myers (jmyers@GOUCHER.EDU)
+N: This is a variant of the better-known Father Kelly's Reel. Its origin with this title isn't known.
+M: C|
+L: 1/8
+K: G
+GA |\
+B2 GB AGEG | DGGF GABd | c2AB cBAG | EAAG ABcA |\
+B2GB AGEG | DGGF GABc | d2 Bd gdBd | cAFA G2 :|
+|: Bc |\
+d2Bd gdBd | d2 Bd gdBd | e2 ce agfe | defg agfe |\
+d2Bd gdBd | d2 Bd gdBd | c2Ac B2 GB | AGFA G2 :|
+
+%%sep 1 1 500
+
+X: 13
+T: The Sliabh Aughty March
+T: Father Kelly's March
+D: Gearoid O hAllmhurain and Patrick Orceau, "Tracin'"
+M: 4/4
+L: 1/8
+Z: Michael Reid
+S: https://tunearch.org/wiki/Sliabh_Aughty_March
+R: March
+K: G
+GA |:\
+B2 A>B AG EG | D2 G>F GA BG | E2 c2 BA GB |  A2 d>e d2 DG  |
+B2 A>B AG EG | D2 G>F GA BG | E2 c2 BA GF |1 G2 G>F G2 DG :|2 G2 G>F G2 :|
+GB |:\
+d2 Bd  gd Bd | g2 g>f gd Bd | c2 a>b ag fe |  d2 d2  d2 ef  |
+g2 g>f gd Bd | c2 a>b ag fe | d2 d>e fd fa |1 g2 g>f g2 Bc :|2 g2 g>f g2 :|

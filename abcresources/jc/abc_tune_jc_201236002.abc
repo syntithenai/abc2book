@@ -1,0 +1,22 @@
+X: 21532
+T: Port Patrick
+%R: reel,jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.153 #2
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+N: The two sections are basically the same tune, as a reel and then as a jig.
+M: C
+L: 1/8
+K: A
+"_Slow"f |\
+(ec)(BA) A2(Bc) | (dc)(BA) B3f | (ec)(BA) A3A | (TBA)(Bc) e3f |\
+(ec)(BA) A2(Bc) | (dc)(BA) B2(AB) | c2(fa) ec (B/c/)e | {d}c2(BA) A3 :|
+|: e |\
+f2(af) e2(ce) |f2(af)e3e | (Tge)(fa) (ec)(TBA) | (TBA)(Bc) e3f |\
+e2(fg) (ag)(fe) | (fa)(ec) B2(AB) | c2(af) ec (B/c/e) | Tc2(BA) A3 :|
+M: 6/8
+|: "_Lively"f |\
+ecA ABc | d2c TB2A | ecA ABA | B2c d2f |\
+ecA ABc | d2c TB2A | (c/d/)ec dBe | cAA A2 :|
+|: e |\
+fdf ece | fdf ece | fga ecA | B2c d2f |\
+efg agf | edc TB2A | (c/d/e)c dBe | cAA A2 :|

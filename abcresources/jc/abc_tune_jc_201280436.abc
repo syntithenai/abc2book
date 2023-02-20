@@ -1,0 +1,19 @@
+X: 1
+T: (Gigue de) Terrebonne
+O: trad. Qu\'ebec
+S: Portland Collection v.1
+S: handout at Roaring Jelly practice, Jan 2017
+R: reel
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+%%musicspace 4pt
+M: C|
+L: 1/16
+K: D
+"^A"[|] A |\
+     "D"ddcd BAFA | ddcd "A7"e3c |\
+[1,3 "D"ddcd BAFA | "A7"GFEG "D"FDF :|\
+[2,4 "D"ddcd "G"BdAd | "A7"fdec d3 :|
+"^B"|: e |:\
+     "D"f2fa "G"gfed | "D"fdfd "G"Bcde | "D"f2fa "G"gfed |\
+[1,3 "A"ceea "D"fdAd :|\
+[2,4 "A7"c[Aa]Bc "D"d3 :|

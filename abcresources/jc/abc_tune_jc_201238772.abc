@@ -1,0 +1,29 @@
+X: 312
+T: THE BONNY LINKS OF ABERDEEN
+C: J. ANDERSON
+R: Reel
+B: Glen Collection p.31 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: Eb
+%
+V: 1
+B |\
+e2(BA) GEBG | F(f2e) fccd | eBGB AcBg | agfa ge e :|
+g |\
+bgeg egbg | afge d(f2g) | bgeg gebg | agfa g(e2g) |
+bgeB eBGE | GEB,E (DF)F2 | EB,EB GeBg | agfa ge2 |]
+%
+V: 2
+z |\
+e2[e'2b2] [e'2b2][e'2b2] | A2[f2c2] B2[a2f2] |\
+[g2e2][b2e2] [b2d2][b2e2] | [d'2b2][d'2b2] [e'2e2][e'e] :|
+z |\
+e2[e'2b2] g2[e'2b2] | [d'2b2][e'2b2] [f'2b2][d'2b2] |\
+[e'2b2][e'2b2] [e'2b2][e'2b2] | [d'2b2][d'2b2] [e'2e2][e'2e2] |
+e2[b2g2] [b2g2][b2g2] | e2E2 B2[a2f2] |\
+[g2e2][g2e2] [b2e2][e'2e2] | [d'2b2][d'2b2] [e'2e2][e'e] |]

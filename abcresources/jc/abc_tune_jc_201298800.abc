@@ -1,0 +1,120 @@
+
+X: 1
+T: Ladies of London   [Bb]
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.119 #176 (238)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.141
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Q: 3/8 "= 70-80"
+M: 3/4
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+"Bb"Bcd "F7"edc | "Bb"dcB f2d | "Eb"efg "Bb/d"fgd | "Cm"c3 "F7"c2A |\
+"Bb"Bcd "F7"edc | "Bb"dcB "Gm"b2a | "C7"gaf =efg | g3 "F"f2 |]
+|: f |\
+"F"fga "Bb"b2a | "Eb"gfe "Bb"d2b | "Cm"abg "D7"^fga | a3 "Gm"g3 |\
+"F"fga "Bb(Gm)"bfg | "Bb"fgd "F7"c2d "I"| "Bb"BBf "(Gm)"fdg | "F7"c3 "Bb"B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man cross over and go into the 2d Wo. Place, the 2d Wo. cast off at
+%% the same Time into the 1st Man's Place; then 1st Wo. cross over and go into
+%% the 2d Man's Place, and 2d Man cross over and go up into the 1st Wo. Place.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1st Man and 2d Wo. cross over, and 2d Man and 1st Wo. do the like, then
+%% all four Hands half round, and turn single, then clap Hands, then Sides and
+%% turn single; then clap Hands with their own Partners, and turn them single.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% The 1. man cross over and go into the 2. wo. place, the 2. wo. cast off at the same time into the 1.
+%% man's place, then 1. wo. cross over and go into the 2. man's place, and 2. man cross over and go up
+%% into the 1. wo. place.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. man and 2. wo. cross over and the 2. man and 1. wo. do the like, then all four hands half round
+%% and turn S. then clap hands, then sides and turn S. then clap hands with their own Partners, and
+%% turn them single.
+%% [DMDfD]
+%%endtext
+% %sep 1 8 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Ladies of London   (F)
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.119 #176 (238)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.141
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+C |\
+"F"FGA "C7"BAG | "F"AGF c2A | "Bb"Bcd "F/a"cdA | "Gm"G3 "C7"G2E |\
+"F"FGA "C7"BAG | "F"AGF "Dm"f2e | "G7"dec =Bcd | d3 "C"c2 |]
+|: c |\
+"C"cde "F"f2e | "Bb"dcB "F"A2f | "Gm"efd "A7"^cde | e3 "Dm"d3 |\
+"C"cde "F(Dm)"fcd | "F"cdA "C7"G2A "I"| "F"FFc "(Dm)"cAd | "C7"G3 "F"F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Ladies of London   (G)
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.119 #176 (238)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.141
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+"G"GAB "D7"cBA | "G"BAG d2B | "C"cde "G/b"deB | "Am"A3 "D7"A2F |\
+"G"GAB "D7"cBA | "G"BAG "Em"g2f | "A7"efd ^cde | e3 "D"d2 |]
+|: d |\
+"D"def "G"g2f | "C"edc "G"B2g | "Am"fge "B7"^def | f3 "Em"e3 |\
+"D"def "G(Em)"gde | "G"deB "D7"A2B "I"| "G"GGd "(Em)"dBe | "D7"A3 "G"G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Ladies of London   (A)
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.119 #176 (238)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.141
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E |\
+"A"ABc "E7"dcB | "A"cBA e2c | "D"def "A/c'"efc | "Bm"B3 "E7"B2G |\
+"A"ABc "E7"dcB | "A"cBA "F#m"a2g | "B7"fge ^def | f3 "E"e2 |]
+|: e |\
+"E"efg "A"a2g | "D"fed "A"c2a | "Bm"gaf "C#7"^efg | g3 "F#m"f3 |\
+"E"efg "A(F#m)"aef | "A"efc "E7"B2c "I"| "A"AAe "(Fm)"ecf | "E7"B3 "A"A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

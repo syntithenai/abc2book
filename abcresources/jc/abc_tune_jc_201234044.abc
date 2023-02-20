@@ -1,0 +1,20 @@
+X: 20221
+T: O PESCATOR DE L'ONDA
+O: Venetian air.
+Q: "Slowish."
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.22 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: There's a final repeat symbol but no begin repeat symbols; not fixed.
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+c2c2d2d2 | ~e3g d2de | c6 G2 |\
+c2c2d2d2 | (e2e/f/^f/g/) c2d>e | c6 |]\
+G2 |\
+f2f2 f2Ha>g | Hg2He>e .f.e.d.c |\
+.d.d.d.d .e.d.c.B | c2~c>d e>gf>d | c6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

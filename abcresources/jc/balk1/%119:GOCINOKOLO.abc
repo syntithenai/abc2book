@@ -1,0 +1,85 @@
+X: 119
+T: Gocino Kolo
+F: http://www.youtube.com/watch?v=BURFUjlr46M
+F: http://www.youtube.com/watch?v=GtEUsWpZSEM
+F: http://www.youtube.com/watch?v=pteHu5d4wGY
+M: 2/4
+L: 1/8
+Z: Birgitt Karlson
+Q: 1/4=144
+K: A
+%%MIDI trim 1/2
+%%MIDI chordprog 64
+%%MIDI bassprog 45
+%%MIDI program 21
+%%MIDI chordvol 75
+%%MIDI bassvol 75
+P:A
+|: "Dm"[A2=F2] [AF][GE]                         |\
+   [A2=F2] [AF][GE]                             |\
+   [A=F][BG] [AF][GE]                           |\
+   [=FD][GE] [FD][E/C/][D/A,/]                  |\
+   [D=F]2 [DF][CE]                              |\
+   [D=F][EG] [DF][CE]/[A,D]/                    |
+   "E7"[=FD]/[B,D]/[CE] [CE]/[B,D]/[DF]/[B,D]/  |\
+   [1 "A" [CE][CE]/[A,D]/ [CE]/[D=F]/[EG]/[GB]/ :|\
+[2 "A" [CE] z z [A,D]
+|: "Dm"[D=F]2 [DF][CE]                          |\
+   [=FA]2 [FA][EG]                              |\
+   [=FA][GB] [FA][EG]                           |\
+   [D=F][EG] [DF][CE]/[A,D]/                    |
+   [D=F]2 [DF][CE]                              |\
+   [D=F][EG] [DF][CE]/[B,D]/                    |\
+   "E7"[D=F]/[B,D]/[CE] [CE]/[B,D]/[DF]/[B,D]/  |\
+   "A"[CE][CE]/A,/ B,/C/D/E/                    :|\
+   [2 "A" [CE] z z2                             |
+P:B
+|: "A"[ce][ce]/2[A]/ [df]/[ce]/[Bd]             |\
+   "D" [Bd][ce] [df]2                           |\
+   "A"[ce][ce]/2[A]/ [df]/[ce]/[Bd]             |\
+   "E"[Bd][Ac] [Bd]2                            |\
+   "A"[Ac][Ac]/[EA]/ [Bd]/[Ac]/[GB]             |\
+   "E" [GB][Ac] [Bd]2                           |\
+   "B7"[Bd]/[Ac]/[GB] [GB]/[FA]/[Ac]/[FA]/      |\
+   [1 "E" [GB][Ac] [Bd][^B^d]                   :|
+[2 "E" [GB]2 z2 \
+|: "A" [Ac][Ac]/[EA]/ [Bd]/[Ac]/[GB]            |\
+   "E" [GB][Ac] [Bd][Bd]/[EA]/                  |\
+   [1 "A" [Ac][Ac]/[EA]/ [Bd]/[Ac]/[GB]         |\
+   [GB][Ac] [Bd][Bd]/[EA]/                      :|\
+   [2 "B7" [Bd]/[Ac]/[GB] [GB]/[FA]/[Ac]/[FA]/  |\
+   "E" [GB][GB]/[EA]/ [Bd]/[Ac]/[GB]            |
+|: "A" [Ac][Ac]/[EA]/ [Bd]/[Ac]/[GB]            |\
+   "E" [GB][Ac] [Bd][Bd]/[EA]/                  |\
+   [1 "A" [Ac][Ac]/[EA]/ [Bd]/[Ac]/[GB]         |\
+   [GB][Ac] [Bd][Bd]/[EA]/                      :|\
+   [2 "B7" [Bd]/[Ac]/[GB] [GB]/[FA]/[Ac]/[FA]/  |\
+   "E" [GB]2 z2                                 |
+P:C
+|: "A"[GB]/[Ac]/[Ac] [Ac][EA]                   |\
+   "E" [Ac]/[Bd]/[Bd] [Bd]/[Ac]/[GB]            |\
+   "B7" [GB]/[Ac]/[Ac]  [Ac]/[GB]/[EA]          |\
+   [1 "E" [GB][GB]/E/ F/G/A/B/                  :|\
+   [2 "E" [G2B2] z2                             |
+|: "A"[GB]/[Ac]/[Ac] [Ac][EA]                   |\
+   "E" [Ac]/[Bd]/[Bd] [Bd]/[Ac]/[GB]            |\
+   "B7" [GB]/[Ac]/[Ac]  [Ac]/[GB]/[EA]          |\
+   [1 "E" [GB][GB]/E/ F/G/A/B/                  :|\
+   [2 "E" [G2B2] z2                             |
+|: "A" [Ac] z [Ac]/[EA]/[Bd]/[Ac]/              |\
+   "E" [GB] z [Ac]/[EA]/[Bd]/[Ac]/              |\
+   "A" [Ac] z [Ac]/[EA]/[Bd]/[Ac]/              |\
+   "E" [GB] z [Ac]/[EA]/[Bd]/[Ac]/              |\
+   "A" [Ac] z [Ac]/[EA]/[ce]/[Ac]/              |\
+   "E" [Bd] z [Bd]/[Ac]/[ce]/[Bd]/              |
+   "B7" [Ac][EA] [Bd][Ac]                       |\
+   [1 "E" [GB]E [^DF][=DG]                      :|\
+   [2 [GB]2 z2                                  |\
+|: "A"[Ac] [Ac]/[EA]/ [GB]/[Ac]/[Bd]/[Ac]/      |\
+   "E" [GB][GB]/[EA]/ [Ac]/[Bd]/[ce]/[Bd]/      |\
+   "A"[Ac] [Ac]/[EA]/ [GB]/[Ac]/[Bd]/[Ac]/      |\
+   "E" [GB][GB]/[EA]/ [Ac]/[Bd]/[ce]/[Bd]/      |\
+   "A"[Ac] [Ac]/[EA]/ [GB]/[Ac]/[Bd]/[Ac]/      |\
+   "E" [GB][GB]/[EA]/ [Ac]/[Bd]/[ce]/[Bd]/      |\
+   "B7" [Ac][Ac]/[FA]/ [GB]/[Ac]/[Bd]/[Ac]/     |\
+   [GB] z z2                                    :|

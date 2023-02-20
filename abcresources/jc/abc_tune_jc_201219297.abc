@@ -1,0 +1,88 @@
+X: 0221
+T: POLACCA
+C: Arranged by S. Knaebel
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.22-24
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: G
+% -------------------------
+V: 1 nm="FLUTE or CLARINET"
+%"^p22s1v1"\
+z12 | z4 !p!z2dd d2d2 |\
+b4 (ag).f.e d2{f}e2 | "^>".d2.B2 z2((3ded) .B2.d2 | "^>".c2.A2 z2((3cdc) .A2.c2 |\
+%"^p22s2v1"\
+.B2.c2 d2dd d2d2 |
+b4 (ag).f.e d2{f}e2 | "^>".d2.B2 z2((3ded) .B2.d2 | "^>".c2.A2 z2((3cdc) .A2.f2 |\
+g6 !ff!dd d2d2 | g4 (fe).d.c .B2{d}.c2 |\
+%"^p23s1v1"\
+"_>".B2.G2 z2((3BcB) .G2.B2 | "_>".A2.F2 z2((3ABA) .F2.A2 |
+.G2.A2 B2BB B2B2 | G4 (fe).d.c B2{d}c2 |\
+"_>".B2.G2 z2((3BcB) .G2.B2 | "_>".A2.F2 z2((3ABA) .F2.[c2A2] | [B6G6] |]\
+%"^p23s2v1"\
+!p!.d.d .d2.d2 | .d2.d2.d2 .d.d .d2.d2 | .d2.d2.d2 .d.d .d2.d2 |
+.d2.d2 .d2.d2 .d2.d2 | .d2.d2.d2 .d.d "^CRES . . .".d2.d2 |\
+.d2.d2.d2 .d.d .d2.d2 |\
+%"^p24s1v1"\
+.d2.d2 .d2.d.d "^. . . CEN . . .".d2.d2 | .d2.d2 "^. . . DO . . .".d2.d2 .d2.d2 | .d2.d2 .d(d^cd cde)f !ff!|\
+g4 (fe).d.c .B2{d}.c2 |
+"_>".B2.G2 z2((3BcB) .G2.B2 |\
+%"^p24s2v1"\
+"_>".A2.F2 z2((3ABA) .F2.A2 | .G2.A2.B2 BB B2B2 |\
+g4 (fe).d.c .B2{d}.c2 | "_>".B2.G2 z2((3BcB) .G2.B2 |\
+"_>".A2.F2 z2((3ABA) .F2.[c2A2] | [B6G6] |]\
+% -------------------------
+V: 2 nm="VIOLIN PRIMO"
+%"^p22s1v2"\
+!p!B,2D2 B,2D2 B,2D2 | B,2D2 B,2D2 B,2D2 | B,2D2 B,2D2 C2E2 | B,2D2 B,2D2 B,2D2 | z2F2 D2A2 F2A2 |
+%"^p22s2v2"\
+G2D2 B,2D2 B,2D2 | B,2D2 B,2D2 C2E2 | B,2D2 B,2D2 G2D2 | F2A2 F2A2 F2A2 | G2B2G2 !ff!dd d2d2 | b4 (ag).f.e d2{f}e2 |
+%"^p23s1v2"\
+"^>".d2.B2 z2((3ded) .B2.d2 | "^>".c2.A2 z2((3cdc) .A2c2 | .B2.c2 d2dd d2d2 | b4 (ag).f.e d2{f}ed |\
+"^>".d2.B2 z2((3ded) .B2.d2 | "^>".c2.A2 z2((3cdc) .A2f2 | g6 |]
+%"^p23s2v2"\
+z2z4 !p!| .a2.b2.c'2 z2z4 | .b2.c'2.d'2 z2z4 | .c'2.b2 .c'2.b2 .c'2.b2 | .c'2.b2.a2 z2z4 | .a2.b2.c'2 z2z4 |
+%"^p24s1v2"\
+.b2.c'2.d'2 z2z4 | .c'2.b2 .c'2.b2 .c'2.b2 | .c'2.b2 .a(d^cd efg)a !ff!|\
+b4 (ag).f.e d2{f}e2 | "^>".d2.B2 z2((3ded) .B2.d2 |
+%"^p24s2v2"\
+"^>".c2.A2 z2((3cdc) .A2.c2 | .B2.c2.d2 dd d2d2 |\
+b4 (ag).f.e d2{f}e2 | "^>".d2.B2 z2((3ded) .B2.d2 | "^>".c2.A2 z2((3cdc) .A2.f2 | g6 |]
+% -------------------------
+V: 3 nm="VIOLIN SECONDO"
+%"^p22s1v3"\
+!p!G,2B,2 G,2B,2 G,2B,2 | G,2B,2 G,2B,2 G,2B,2 |\
+G,2B,2 G,2B,2 G,2C2 | G,2B,2 G,2B,2 G,2B,2 | A,2C2 A,2C2 A,2C2  |
+%"^p22s2v3"\
+G,2A,2 B,2B,2 G,2B,2 | G,2B,2 G,2B,2 G,2C2 | G,2B,2 G,2B,2 G,2B,2 | A,2C2 A,2C2 A,2C2 | 
+B,2D2B,2 z2 z4 !ff!| G,DB,D G,DB,D G,ECE |
+%"^p23s1v3"\
+G,DB,D G,DB,D G,DB,D | A,DCD A,DFD CDA,D | G,DA,D G,DB,D G,DB,D | G,DB,D G,DB,D G,ECE |
+G,DB,D G,DB,D G,DB,D | A,FDF A,FDF CDA,D | G,DB,D G,2 |]
+%"^p23s2v3"\
+z2z4 !p!|\
+.f2.g2.a2 z2z4 | .g2.a2.b2 z2z4 | .a2.g2 .a2.g2 .a2.g2 |\
+.a2.g2.f2 z2z4 | "^CRES . . .".f2.g2.a2 z2z4 |
+%"^p24s1v3"\
+.g2.a2.b2 "^. . . CEN . . ."z2z4 | .a2.g2 "^. . . DO.".a2.g2 .a2.g2 | .a2.g2.f2 z2z4 !ff!|\
+G,DB,D G,DB,D G,ECE | G,DB,D G,DB,D G,DB,D |
+%"^p24s2v3"\
+A,DCD A,DFD CDA,D | G,DA,D G,DB,D G,DB,D  |\
+G,DB,D G,DB,D G,ECE | G,DB,D G,DB,D G,DB,D | A,FDF A,FDF  CDA,D | G,DB,D B,2 |]
+% -------------------------
+V: 4 clef=bass middle=d nm="VIOLONCELLO"
+%"^p22s1v4"\
+!p!G8 z4 | !p!G8 z4 | G4 z4 G4 | G8 z4 | !p!G8 z4 |
+%"^p22s2v4"\
+G8z4 | G4z4G4 | G8z4 | [d4D4]z4[d4D4] | [g6G6]z2z4 !ff!| G6!trem1!g6 |
+%"^p23s1v4"\
+G6!trem1!g6 | G6!trem1!g6 | G6!trem1!g6 | G6!trem1!g6 | G6!trem1!g6 | d4 z2d'2d2d'2 | g2G2g2 |]
+%"^p23s2v4"\
+z2z4 !p!| .d'2.d'2.d'2 z2z4 | .d'2.d'2.d'2 z2z4 | .d'2.d'2 .d'2.d'2 .d'2.d'2 | .d'2.d'2.d'2 z2z4 | .d'2.d'2.d'2 z2z4 |
+%"^p24s1v4"\
+.d'2.d'2.d'2 z2z4 | .d'2.d'2 .d'2.d'2 .d'2.d'2 | .d'2.d'2.d'2 z2z4 !ff!|\
+G6!trem1!g6 | G6!trem1!g6 |
+%"^p24s2v4"\
+G6!trem1!g6 | G6!trem1!g6 |\
+G6!trem1!g6 | G6!trem1!g6 | d4 z2d'2d2d'2 | g2G2g2 |]

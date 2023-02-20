@@ -1,0 +1,25 @@
+
+X: 1
+T: Rensselaer Bogen  [Am]
+C: Leslie Lassetter 20 April 2010
+N: Revised May 2012
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS from Jean Monroe 2012-5-31
+Q: 1/2=96 "or so"
+M: C|
+L: 1/8
+K: Am
+"A"\
+|:\
+"Am".e2ed .c2cB | cBAc "E"B2E2 |1 "Am".A2AB .c2cB | cBAc "E"B4 \
+                              :|2 "Am".A2AB .c2cd | "Dm"cB"E"A^G "Am"A4 |]
+"B"\
+|:\
+"Am".ee/A/ ea "Dm"f2"Am"e2 | .ee/A/ ea "Bb"_B2"F"A2 |\
+"C".e2ef "F".ee/A/ ef | "Am"ed"Dm"cd "E"e4 :|
+%%sep 5 5 1
+"A var."\
+|:\
+"Am"eded .c2cB | cBAc "E"B2E2 |1 "Am"AEAB .c2cB | "Am".c2.e2 "E"B4 \
+                             :|2 "Am"AEAB "F".c2cd | "Am"cE"E"EB | "Am"A4 |]

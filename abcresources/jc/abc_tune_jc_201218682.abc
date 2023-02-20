@@ -1,0 +1,47 @@
+%%text RJ Set 013 Jigs
+
+
+X: 1
+T: Cow-Boy's Jig, the
+I: RJ J-19 G jig
+M: 6/8
+R: jig
+K: G
+B/A/ |\
+"G"GDE G2A | Bgf gdB | "C"ABc "G"BGA | "Am"BcA "D"BGE |\
+"G"GDE G2A | Bgf gdB | "Am"ABc "D"BcA | "G"BGG G2 :|
+|: B/d/ |\
+"C"e2e e2e | egf edB | "Bm"d2d d2d | dge dBG |\
+"C"c2d e2d | "G"gdB "D7"A2d | "G"BGA "D7"BcA | "G"BGG G2 :|
+
+
+X: 2
+T: Coleraine
+I: Coleraine	J-1	Am	jig
+M: 6/8
+R: jig
+K: Am
+E |\
+"Am"EAA ABc | "E"Bee e2d | "Am"cBA ABc | "E"B^GE E2E |\
+"Am"EAA ABc | "E"Bee e2d | "Am"cBA "E"B^GE | "Am"(A3 A2) :|
+|: B |\
+"C"c2c cdc | "G"Bdg g2^g | "Am"aed cBA | "E"^GBG E^FG |\
+"Am"A^GA "E"BAB | "Am"cde "Dm"fed | "Am"cBA "E"B^GE | "Am"(A3 A2) :|
+% text 08/29/98
+
+
+X: 3
+T: Fair Jenny's Jig
+C: Peter Barnes 1977
+N: RJ J-18 D jig
+M: 6/8
+R: jig
+K: D
+A |\
+"D"f3 fgf | "A"ecA ecA | "G"Bcd "A"ecA | "G"Bcd "A"e2A |\
+"D"f3 fed | "A"ecA ecA | "G"Bcd "A"e2A | ABc "D"d2 :|
+|: A |\
+"G"B3 B=cB | GBB B=cB | "D"ADD dDD | ^cDD "D7"=cDD |\
+"G"B3 B=cB | GBB B=cB | "A"AEA "A7"AB^c | "D"dAF D2 :|
+% %text 08/29/98
+

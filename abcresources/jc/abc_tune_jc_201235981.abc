@@ -1,0 +1,19 @@
+X: 21514
+T: ANNIE LAURIE
+O: Scottish air.
+Q: "Moderato."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.151 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Rest added in penultimate measure, to fix the rhythm.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|"dolce."\
+D2DD d2d2 | c2B2 z2B2 | A2F2 F2ED | (F4 E2) FE |\
+D3D d2d2 | c2B2 z2B2 | (3A2G2F2 F2E2 | D4 z2A2 |
+d3d e3e | f4 z2A2 | "^cresc."d3d e3e | f4 !p!f2e2 |\
+d2c2 B2dB | A2F2 ("^>"F3E) | (Dd) z!pp!F F2E2 | D4 z4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

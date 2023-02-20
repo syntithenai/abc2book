@@ -1,0 +1,18 @@
+X: 885
+T: Julia's Wedding
+R: hornpipe
+%S: s:3 b:16(5+5+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #885
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0885/oneill-1001-0885-1.abc
+%m: ~n2 = o/4n/m/4n
+M: C|
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - -
+"^A"|:\
+d>c | B>Gc>A B>GA>F | {A}G>FG>A B>de>f | {a}g>fg>e d>cA>c | B>GA>F G>DE>F || ~G2B>G A>GE>F |
+| {A}G>FG>A B>de>f | {a}g>fg>e d>BG>B | A>DE>F G2 "^B":: B>c | d>BG>B e>cA>c | {a}g>fg>a g>dB>d |
+| b>ag>b a>gf>a | g>fg>e d>cB>c || d>BG>B e>cA>c | {a}g>fg>a g>dB>d | b>ag>b a>gf>a | f>de>f g2 :|

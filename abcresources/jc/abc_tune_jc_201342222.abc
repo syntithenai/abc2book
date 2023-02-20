@@ -1,0 +1,19 @@
+X:714
+T:Sweet Rosie Red
+T:Soet roosie root
+C:Old Dutch, arr. Pat Shaw
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=108
+%%stretchstaff 0
+M:2/2
+L:1/4
+K:C
+P:A
+|: G | "C"c>d cG | "Am"c>d cc | "Dm"df "E"ed | "A"^cA A :|
+P:B
+|: "Dm"f | "C"e2 "Dm"d2 | "A"^cA A :|
+P:C
+|: B/^c/ | "D7"d=c "G"BG | "Am"cB "F"AG | "Dm"A/B/c- "G"cB | "C"c3 :|
+P:B3
+"Dm"f | "C"e2 "Dm"d2 | "A"^cA A ||[P:C3]
+B/^c/ | "D7"d=c "G"BG | "Am"cB "F"AG | "Dm"A/B/c- "G"cB | "C"c3 |]

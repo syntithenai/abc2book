@@ -1,0 +1,71 @@
+X: 26
+T: le Rondeau de Fischar.
+%R: reel, march
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #26
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+c4 B2 (3(Bcd) | c2 (3(cde) d2 (3(def) | {f}e2dc (ed)cB | c2G2E2C2 |\
+c4 B2 (3(Bcd) | c2 (3(cde) d2 (3(def) | {f}e2dc (ed)cB | c4 c4 :|
+|:\
+g4 f2e2 | a6 bc' | g2g2f2e2 | d2de d2d2 |\
+g4 f2e2 | a6 bc' | g2g2f2e2 | {e4}d8 |
+c4 B2 (3(Bcd) | c2 (3(cde) d2 (3(def) | {f}e2dc (ed)cB | c2G2E2C2 |\
+c4 B2 (3(Bcd) | c2 (3(cde) d2 (3(def) | {f}e2dc (ed)cB | c4 c4 :|
+M: 3/8
+L: 1/8
+"Menuet"\
+g4 {f}ed/c/ | gf {e2}d4 | (eg)(gc')(c'e) | {e}d2 (cB)AG |\
+g4 {f}ed/c/ | gf {e}d3 f | (e/f/g/a/) c2B2 | {B2}c6 |]
+d4 {c}BA/G/ | (e2c2) (e/c/)(e/c/) | (f2d2) (f/d/)(f/d/) | g4 f2 |\
+(eg)(ag)(c'g) | (eg)(ag)(c'g) | (eg)(ag)(fe) | {f}d2(cB)AG |]
+g4 {f}ed/c/ | gf {e2}d4 | (eg)(gc')(c'e) | {e}d2 (cB)AG |\
+g4 {f}ed/c/ | gf {e2}d4 | (e/f/g/a/) c2B2 | c6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+c2e2g2G2 | c2e2g2G2 | c2e2f2g2 | c'2g2e2c2 | e2c2g2G2 | c2e2g2G2 | c2e2f2g2 |
+c'geg c4 :||: c2c'2b2c'2 | f2F2f4 | c'2c2B2c2 | g2G2z4 | c'2c2B2c2 | f2F2f4 | c'2c2B2c2 | GgdB G4 |
+c2e2g2G2 | c2e2g2G2 | c2e2f2g2 | c'2g2e2c2 | e2c2g2G2 | c2e2g2G2 | c2e2f2g2 | c'geg c4 :|
+M: 3/8
+L: 1/8
+"Menuet"\
+c2e2c2 | d2B2G2 | c2e2c2 | g2G2z2 |c2e2c2 | d2B2G2 | c2g2G2 | c2G2C2 |]
+GgGgGg | GgGgGg | GgGgGg | GgGgGg | c2zc'cc' | c2zc'cc' | cz Bz cz | g2G2z2 |]
+c2e2c2 | d2B2G2 | c2e2c2 | g2G2z2 |c2e2c2 | d2B2G2 | c2g2G2 | c2C2z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Le Rondeau de Fischar.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   All Eight Balanc\'e and Rigaudon, then Join
+%% hands and go half Round, each Gentleman
+%% Allemande with the Lady on his Left and then
+%% with his Partner - - - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%%center M I N U E T.
+%%begintext align
+%%   Half La Chaine - - - 1/1
+%%endtext
+%%begintext align
+%%   Each Gentleman makes two Minuet Steps
+%% to the Right and back again, while his Partner
+%% makes two Minuet Steps to the Left and back
+%% again - - - - 1/2
+%%endtext
+%%begintext align
+%%   Half La Chaine - - - 1/3
+%%endtext
+%%sep 1 1 400

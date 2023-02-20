@@ -1,0 +1,26 @@
+X: 1
+T: Galopede   [A]
+T: Yarmouth Reel
+T: Persian Dance
+%T: Corn Field
+O: Preston 1801
+R: Reel
+N: The AABC pattern is for the country dance "Galopede".  This tune is
+N: used for several dances, with several different repeat patterns.
+%P: AABC
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Preston "24 Country Dances for 1801" 1801
+B: Kerr - Merry Melodies vol. 4 (No. 296)
+B: Cecil Sharp "Country Dance Tuens" 1909
+B: Karpeles & Schofield p.1 1951
+B: Kennedy v.1 p.31 #63 1951
+B: Barnes v.1 p.43
+M: C|
+L: 1/8
+K: A
+   ed \
+| "A"c2cd "E7"B2Bc | "A"A2A2 A2Bc |1,3 "D"dcde fedc | "E7"B2B2 B2 :|2,4 "D"dcBA "E7"GABG | "A"A2A2 A2 :|
+|: ed \
+| "A"c2ag "D"f2fe | "E7"edcd B2ed |1 "A"c2ag "D"fedc | "E7"B2B2 B2 :|2 "A"cedc "E7"BdcB | "A"A2A2 A2 |]
+|: cd \
+| "A".e2.e2 .e2a2 | .e2.e2 .e2a2 |1 .e2.e2 "(D)"fedc | "E7"B2B2 B2cd :|2 "D"fedc "E7"edcB | "A"A2A2 A2 |]

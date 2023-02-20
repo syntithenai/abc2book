@@ -1,0 +1,29 @@
+X: 2222
+T: the Empty Purse
+%R: air, jig
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.22 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Several cases of dotted-1/4 note + 2 grace notes replaced with 1/4 + two 1/8th notes.
+N: (Since this is more accurate than the multiple-grace-note notation, no abc2 version was produced.
+M: 6/8
+L: 1/8
+Q: "Slow & Distinct"
+K: Bm
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 8-bar lines.
+V: 1 staves=2
+g |\
+(Tf2e/f/) {c}dBB | fBB {c}dBB | FBB TB2A | FBB TB2g ||\
+(Tf2e/f/) {c}dBB | fBB {c}dBB | AFA A>Bc | d<AA A2 :|
+|: B/c/ |\
+d3 Tc2B/c/ | dBB fBB | FBB TB2A | FBB B2c ||\
+d3 Tc2B/c/ | dBB fBB | AFA ABc | d<AA A2 :|
+|: f |\
+Tb3 Ta3 | ~g>fe fdB | FBB TB2A | FBB TB2g/a/ ||\
+bgb afa | geg Tf>ef | d<AA TA2B | dAA A2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | b3 B3 | b3 B3 | (d'2c') b2c' | (d'2c') b2z || b3 B3 | b3 B3 | d2f g2a |
+ A2a A2 :||: z | b3 [^a3f3] | b3 B3 | (d2c) B2c' | (d'2c') b2z || b3 [^a3f3] | b3 B3 | d2f g2a |
+ A2a A2 :||: z | g2e f2d | e2c d2c | z2B f2F | (d2c) B2z || g3 f3 | e3 d3 | A3 f2g | A2a A2 :|

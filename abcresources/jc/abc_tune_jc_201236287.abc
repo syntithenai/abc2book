@@ -1,0 +1,32 @@
+X: 219
+T: Flora McDonald Adeiu to the Prince
+T: Tha mi fodh ghruaim.
+C: 
+R: air, jig
+N: This is version 1, for ABC software that doesn't understand cres/diminuendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.100 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Deleted the extra F note in bar 8, to fix the rhythm.
+M: 6/8
+L: 1/8
+Q: "Slow & Expressive."
+K: F#m
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for 2 12-bar lines, for compactness and proofreading.
+V: 1 staves=2
+A |\
+!p!F2F (FE)D | d>ed {d}c2A |"_cresc"Bce Tfe(g/a/) | fed {d}c2B ||\
+!p!F2F (FE)D | d>ed {d}c2^A | (Bc)e f>eB | AF^E {E}F2 :: A |
+!f!Fff (fe)c | ~d>ed {d}c2A | cag f>ed | cB^A HB2 z/(D//E//F//G//) ||\
+!p!A=GF EDC | Dfd {d}c2e | Bce TfeB | AF^E {E}F2 |] 
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+[a3d3] [a3d3] | d3 a3 | =g3 f3 | d2f a2z ||!p!\
+[a3d3] [a3d3] | d3 a3 | =g3 a2b | c'2c f2 :: z |
+!f!d3 a3 | b2g a2z | abc' d'e'f' | f3 Hb2 zx/ ||!p!\
+c2d A2=g | f2d a2z | =g3 a2b | c'2c f2 |]
+% = = = = = = = = = =

@@ -1,0 +1,67 @@
+X: 1
+T: The Foxhunter's Jig  [G]
+O: Ireland, England
+B: Peter Barnes "English Country Dance Tunes" v.2
+R: slipjig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+d/c/ \
+|:\
+"G"B2{c}B BGB "Am"c2A | "G"B2{c}B BGB "D"A2G |\
+"G"B2{c}B BGB "Am"c2{B}A | "G"d2G GAB "D(G)"A2G :|
+|:\
+"Am"A2e edc "Bm"Bcd | "Am(C)"e2A ABc "D"BAG |\
+"G"G2g gfe "(D7)"d[eB][fd] | "G"g2G GAB "D(G)"A2G :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2
+T: The Foxhunter's Jig  (A)
+O: Ireland, England
+B: Peter Barnes "English Country Dance Tunes" v.2
+R: slipjig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: A
+e/d/ \
+|:\
+"A"c2{d}c cAc "Bm"d2B | "A"c2{d}c cAc "E"B2A |\
+"A"c2{d}c cAc "Bm"d2{c}B | "A"e2A ABc "E(A)"B2A :|
+|:\
+"Bm"B2f fed "C#m"cde | "Bm(D)"f2B Bcd "E"cBA |\
+"A"A2a agf "(E7)"e[fc][ge] | "A"a2A ABc "E(A)"B2A :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3
+T: Foxhunter's Jig
+R:Slip Jig
+M:9/8
+L:1/8
+K:D
+|: "D"FAF FDF "G"G2E | "D"FDF FDF "A7"E2D | "D"~F3 FEF "G"G2B | "D"AFD DEF "A7"E2"D"D :|
+|: "G"B2B BAG "D"FGA | "Em"B2E E2F G2B | "A"ABc "G"dcB "A"ABc | "D"d2D DEF "A7"E2"D"D :|
+|: "D"~f3 fdf "G"g2e | "D"~f3 fdf "A7"e2d | "D"~f3 fdf "G"g2b | "D"afd def "A7"e2"D"d :|
+|: "G"gfe dcB "D"AGF | "Em"B2E E2F G2B | "A"ABc "G"dcB "A"ABc | "D"d2D DEF "A7"E2"D"D :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 4
+T: The Fox Hunters' Jig
+C:anon.
+O:Ireland
+B:Francis O'Neill: "The Dance Music of Ireland" (1907) no. 422
+R:Slip jig, hop
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+N:Chords by John Chambers
+F:http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0422/oneill-1001-0422-1.abc
+M:9/8
+L:1/8
+K:D
+|: "D"FGF F2D "G"G2E | "D"FAF F2D "A7"E2D | "D"~FGF F2D "G"G2B | "D"AFD D2F "A7"E2"D"D :|
+|: "G"BcB BAG "D"FGA | "Em"B2E E2F G2B | "A"ABc "G"dcB "A"ABc | "D"d2D D2F "A7"E2"D"D :|
+|: "D"fgf f2d "G"g2e | "D"fgf f2d "A7"e2d | "D"~fgf f2d "G"g2b | "D"afd d2f "A7"e2"D"d :|
+|: "G"gfe dcB "D"AGF | "Em"B2E E2F G2B | "A"ABc "G"dcB "A"ABc | "D"d2D D2F "A7"E2"D"D :|

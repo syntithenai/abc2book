@@ -1,0 +1,15 @@
+X:609
+T:Red and All Red
+C:Thompson, 1757
+N:Originally in 2/4
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=100
+%%MIDI gchord bb
+M:2/2
+L:1/4
+K:G
+P:A
+GA | "G"BA Bd | "C"G2 GA | "G"BA Bc | "D/F#"A2 AA | "Em"BB dd | "A7"fe d ^c | "D"d2 "G/D"dd | "D"d2 :|
+P:B
+|: "G7"BB | "C"cB cd | "Am"e2 "D"dc | "G"cB "Em"AG | "D"d2 "D7"ef | "G"gf "C"ed | "Am"cB "A7"AG |
+"D"d2 de | "D"c2 cd | "G/D"B2 Bc | "D"A2 df | "C"ge "D"dc | "Bm"B2 "D7"cA | "G"G2 "C/G"GG | "G"G2 :|

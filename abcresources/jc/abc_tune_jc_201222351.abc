@@ -1,0 +1,14 @@
+X:59
+T:Arkansas Traveler
+M:2/4
+Q:1/4=100
+L:1/16
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+(3(ABc)|dfed B2B2|A2A2 d2>d2|e2e2 f2f2|efed B2A2|dfed B2B2|A2A2 d4|
+dcdA Bcde|fdec d2::fg|agfa gfeg|fedf ecA2|
+d2d2 e2e2|fedf e2fg|agfa gfeg|fedf e2A2|dcdA Bcde|fdec d2:|

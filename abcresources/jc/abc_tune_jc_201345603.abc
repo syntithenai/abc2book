@@ -1,0 +1,37 @@
+X: 13
+T: The Tongadale Reel
+T: The Frozen Haddock
+I: Tongadale Reel, The
+C: Farquhar MacDonald
+C: \2511995 Taigh Na Teud (Christine Martin, publisher)
+S: Email 2018-2-28 from Michael Pavan to the Roaring Jelly members.
+R: Reel
+L: 1/8
+M: C|
+Q: 1/2=112
+K: Am
+u(AB) | "Am"cBcB AEAB | cBcB "F"AFAc | "G"BGDG EDEG | DEGA "Em"BG .|
+G/G/G | "Am"(cB)cB AEAB | cBcB "F"AFAc | "G"BGDG EDDd | "G7"dBcB "Am"A2 .||
+%%vskip .2cm
+u(AB) | "Am"cBcB AEAB | cBcB "F"AFAc | "G"BGDG EDEG | DEGA "Em"BG .|
+G/G/G | "Am"(cB)cB AEAB | cBcB "F"AFAc | "G"BGDG "Em"EDEG | EDCB, "Am"A,2 |]
+%%vskip .2cm
+|:\
+u(A,B,) | "Am"CA,EA, FA,EA, | GA,EA, "F"FEDC | "G"B,G,DG, EG,DG, | FG,EG, "Em"DC .|
+A,B, | "Am"CA,EA, FA,EA, | GA,EA, "F"FEDC | "G"B,G,DG, EDCB, | CA,A,G, "Am"A,2 :|
+%%vskip .2cm
+%%stretchlast
+%%vskip .3cm
+%%text Key of Am [2/4 time changed to Cut time for easier reading, Tempo was 1/4 note = 112]
+%%vskip .2cm
+%%textoption 1
+%%begintext align
+%% 17 year old Isle of Skye fiddler and piper Farquhar MacDonald, then a pupil of Christine Martin, composed
+%% this tune as part of an exam for a Higher Music course in Scotland. She suggested he call it something better
+%% than his tentative title "The Frozen Haddock". They were at a feis (a traditional music festival for young
+%% people) when he named it for that night's session in the Tongadale Hotel, Portree, Isle of Skye, Scotland.
+%%endtext
+%%textoption 5
+%%begintext
+%% 2018.02.20
+%%endtext

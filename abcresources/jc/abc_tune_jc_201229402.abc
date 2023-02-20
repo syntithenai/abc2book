@@ -1,0 +1,24 @@
+X: 122
+T: la Pipe de Tabac
+%R: hornpipe
+M: 2/4
+L: 1/16
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.12 #2
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+N: The f in bar 2 is crossed out with a handritten 'x'.
+N: The start of the 2nd strain has A>FA>B handwritten below the G>AB>c notes.
+K: G
+G>AB>c |\
+d2gf e2c2 | (ed)d2 dcAc | B2d2 A2BA |\
+G2D2 G>AB>c | d2g2 e3c | (ed)d2 dcA>c | B2d2 A>GA>B | G4 :|
+|: G>AB>c |\
+c2A2 G2B2 | A>FD2 F>GA>B | c2A2 G2B2 |\
+d4 G>AB>c | d2g2 e3c | (ed)d2 dcA>c | B2d2 A>GA>B | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change Sides & back again, right hands across half
+%% round & back again, lead down the Middle up again, &
+%% turn Corners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

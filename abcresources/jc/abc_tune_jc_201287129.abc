@@ -1,0 +1,19 @@
+X: 1
+T: Holm Band Jig
+M: 6/8
+L: 1/8
+N: This transcription was a mess.  It was probably done by a MIDI-to-ABC converter that  had  no
+N: concept of bar lines. It was in 4/4, and had the initial E as the downbeat. I (John Chambers)
+N: cleaned it up by erasing the bar lines and putting them in the right  places,  and  replacing
+N: the duplicated first part by a repeat. I also erased all the '2' numerators in the lengths. I
+N: didn't rewrite the rythms with '>', though.
+%Q:1/4=110
+S: Ian King <ianking:scotborders.co.uk> scots-l 2001-6-23
+K:A
+V:1
+E | A3/A/A c3/B/A | F3/F/F d3/z/f | e3/c/A G3/A/B | c3/A/c B2E \
+  | A3/A/A c3/B/A | F3/F/F d3/z/f | e3/c/A G3/A/B | c3/A/A A2 :|
+E | A3/c/e a3/g/a | e3/c/A d3/z/f | e3/c/A G3/A/B | c3/A/c B2E \
+  | A3/c/e a3/g/a | e3/c/A d3/z/f | e3/c/A G3/A/B | c3/A/A A2 |]
+E | A3/c/e a3/g/a | e3/c/A d3/z/f | e3/c/A G3/A/B | c3/A/c B2E \
+  | A3/A/A c3/B/A | F3/F/F d3/z/f | e3/c/A G3/A/B | c3/A/A A2 |]

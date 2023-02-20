@@ -1,0 +1,1535 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 10
+B: RSCDS Book 10
+K:
+%%center Book10/1000-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1001
+T: The Montgomerie's Rant
+P: Lady Montgomerie
+C:Lord Eglintoune, 1796
+R:Reel (8x32)
+B:RSCDS 10-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:Bb
+d|"Bb"B2 BF DEFD|B2 BG "F7"ABcd|"Bb"B2 BF DEFD|"Cm/Eb"CccB "F"ABcd|
+  "Bb"B2 BF DEFD|BdBG "F7"ABcd|"Bb"BfdB FDFD|"Cm/Eb"CccB "F"ABcd||
+  "Bb"B2 fB dB f2|B2 fB defb|B2 fB dB f2|"Eb"edcB "F7"ABcd|
+  "Bb"B2 fB dB f2|Bbfe defg|"Bb"fd"F7/A"ec "Gm"dB"F"cA \
+        |1 "Cm/Eb"BGFD "F7"Ccc:|2 "Cm/Eb"BGFD "Bb"B,2 z|]
+%%center Book10/1001-Montgomeries_Rant-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1002
+T: The Infare/Will Ye Go and Marry Ketty?
+P: Will ye go and marry Ketty?
+C:Stewart's Coll., 1761
+R:Strathspey (8x16)
+B:RSCDS 10-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:G
+c|"G"B<G G>A B>A B<d|B<G G>A B/c/d "D7"A2c|\
+  "G"B<G G>A B>A B<d|"C"ef/g/ "G"d>g B<g "D"A c|
+  "G"B<G G>A B>A B<d|B<G G>A B/c/d "D7"A2c|\
+  "G"B<G G>A B>A B<d|"C"ef/g/ "G"d>g B<g "D"A||
+c|"G"B<d de/f/ f>d e>d|B<d de/f/ g>B A>c|\
+  "G"B<d de/f/ g>d ed|"Am"c<a "Em"B<g "G"B<g "D"Ac|
+  "G"B<d de/f/ f>d e>d|B<d de/f/ g>B A>c|\
+  "G"B<d de/f/ g>d ed|"Am"c<a "Em"B<g "G"B<g "D"A|]
+%%center Book10/1002-Infare_Will_Ye_Go_and_Marry_Ketty-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1003
+T: General Stuart's Reel/The New Way of Gildon
+P: The Stuart's Rant
+C:Bremner 1768, here from Gow's Repository
+R:Reel (8x32)
+B:RSCDS 10-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:A
+e|"A"c/d/e f/g/a e2 ce|"Bm"dBfB "E"bBfB|"A"c/d/e f/g/a e2 ce|"E"dBge "A"a2 Ae|
+  "A"c/d/e f/g/a e2 ce|"Bm"dBfB "E"bBfB|"A"cefa efce|"E"defg "A"a2 A||
+e|"A"cA A/B/A cAcA|"E"BE E/F/E BEBd|"F#m"cA A/B/A cAcA|"E"BE E/F/E "A"e2 Ae|
+  "A"cAeA fAeA|"E"GEBE GABd|"a"cA"g#"ec "f#"ae"g#"be|"A"c'a"Bm"d'c' "E"b2"A"a|]
+%%center Book10/1003-General_Stuarts_Reel_The_New_Way_of_Gildon-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1004
+T: Lady Jean Murray's Rant
+P: Atholl House
+C:D. Dow, c. 1775
+R:Strathspey (8x32)
+B:RSCDS 10-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:D
+d|"D"A<D F>D A<D B/A/G/F/|A<D F>D "A"C<E E>d|\
+  "D"A<D F>D A>D d>A|"A"B/A/G/F/ A>A, "D"B,<D Dd|
+  "D"A<D F>D A<D B/A/G/F/|A<D F>D "A"C<E E>d|\
+  "D"A<D F>D A>D d>A|"A"B/A/G/F/ A>A, "D"B,<D D||
+A|"D"d2 f/e/d/c/ d>A F<A|D>A B/A/G/F/ G<E "A7"E>F|\
+  "D"d2 f/e/d A<d F>A|"G"B/c/d "A"c/d/e "D"A<d d>A|
+  "D"d>A f<d "C"c>A g>e|"D"f>d A<d "A7"c<e e>g|\
+  "D"f>d A<d "G"B>G E<G|"A7"F<D A>A, "D"B,<d d|]
+%%center Book10/1004-Lady_Jean_Murrays_Rant-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1005
+T: Crieff Fair
+P: Crieff Fair
+C:Bremner, 1760
+R:Reel (8x24)
+B:RSCDS 10-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:Dm
+|:d|"Dm"ABAG FGAB|"F"cdcA cdcB|"Dm"ABAG FGAg|"Dm"fd"A7"e^c "Dm"d2 d:|
+|:A|"Dm"defg afge|"F"fdcA FGAc|"Dm"defg "Bb"afge|"A7"fde^c "Dm"d2 d:|
+|:A|"Dm"defg afge|"F"fdcA FGAc|"F"AcFc "Gm"dbag|"A7"fde^c "Dm"d2 d:|
+%%center Book10/1005-Crieff_Fair-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1006
+T: The Shepherd's Crook
+P: Dunkeld Bridge
+C:Niel Gow
+R:Strathspey (8x32)
+B:RSCDS 10-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:F
+c|"F"f2 a>f "C7"e>g c<e|"F"f2 a>f "C7"g>b e<g|\
+  "F"f2 a>f "C7"e>g c<b|"F"a>f "C7"g>e "F"f2 fc|
+  "F"f2 a>f "C7"e>g c<e|"F"f2 a>f "C7"g>b e<g|\
+  "F"f2 a>f "C7"e>g c<b|"F"a>f "C7"g>e "F"f2 f||
+c|"F"A>F c>A f<c "Bb"d<B|"F"A>c "Dm"f>A "G7"G<F "C7"E<C|\
+  "F"A>F c>A f>c "Bb"d>B|"F"A<F "C7"G<E "F"F2 F>B|
+  "F"A>F c>A f<c "Bb"d<B|"F"A>c "Dm"f>A "G7"G<F "C7"E<C|\
+  "F"A>F c>A "Bb"d<B "C7"c>b|"F"a<f "C7"g<e "F"f2 f|]
+%%center Book10/1006-Shepherds_Crook-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1007
+T: The Isle of Skye
+%
+P: The Isle of Skye (Planxty George Brabazon)
+C:Niel Gow (???)
+R:Reel (8x32)
+B:RSCDS 10-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:Bb
+|:bg|"Bb"f2B2 edcB|f2B2 edcB|"Cm"g2c2 cdef|g2c2 cdeg|\
+   "Bb"f2ed b2ag|f2ed "Cm"c2Bc|
+                               "Bb"dcBG "F7"FGBc|"Bb"d2B2 B2:|\
+fe|"Bb"d2B2 defe|d2B2 defd|"Cm"e2c2 cdef|g2c2c2 fe|
+   "Bb"d2B2 defe|d2B2 defe|"Bb"defg "F7"fdce|"Bb"d2B2 B2||\
+bc'|"Bb"d'2bd' "Cm"c'2ac'|"Bb"b2fb "Eb"g2df|
+                                            "Cm"gcbc cdef|gcbc ca"F7"bc'|\
+   "Bb"d'2bd' "Cm"c'2ac'|"Bb"b2fb "Eb"b2"Gm"dg|\
+         "Bb"f2F2 "F7"FGBc|"Bb"d2"Eb"[B2E2] "Bb"[B2D2]|]
+%%center Book10/1007-Isle_of_Skye-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1008
+T: Maggie Lauder
+P: Maggie Lauder
+C:Adam Craig's Coll. 1730
+R:Strathspey (8x32)
+B:RSCDS 10-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:D
+A|"D"d>e d<f d>e d<f|"Em"e>f g/f/e/d/ "A"c2 eg|\
+  "D"f<d d>A "Bm"d>e df|"D"a>b "A7"a<g "D"f>g a>f|
+  "G"g<a g>b "D"f<g f>a|"Em"e>f g/f/e/d/ "A"c2 eA|\
+  "G"d/c/B/A/ "Em"B/A/G/F/ "A"G/F/E/D/ E>g|
+                                           "D"f<a "A7"e>f "D"d2 d>e||\
+  "D"f/g/a/f/ d>g f/g/a/f/ d>f|"Em"e>f g/f/e/d/ "A"c2 e>A |
+  "D"f/g/a/f/ d>g f/g/a/f/ d/e/f/g/|"D"a>b "A"a/b/a/g/ "D"f2 "D7"f<a|\
+  "G"g/f/g/a/ g/b/a/g/ "D"f/e/f/g/ f/a/g/f|
+                                           "Em"e>f g/f/e/d/ "A"c2 c<e|\
+  "G"d/c/B/A/ "Em"B/A/G/F/ "A"G/F/E/D/ eg|"D"f<a "A7"e>f "D"d2 d|]
+%%center Book10/1008-Maggie_Lauder-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1009
+T: The Scots Bonnet
+P: Bonnets o' Blue
+C:Ross's Coll. of Pipe Music
+R:Jig (8x32)
+B:RSCDS 10-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:D
+A|"D"ded fga|"A"ABA ABc|"G"d2 b "D"afd|"E7"e3-"A"e2 A|
+  "D"ded fga|"A"ABA "D"Afg|agf "A7"ede|"D"[d3F3]-[d2F2]:|
+|:e/d/|"A"cde efe|A3 A2 e/d/|cde ef=g|"D"a3 a2 g|
+  "D"fed "A"cBc|"D"d2e f2g|1 "A"agf "F#m"edc|"Bm" B3 B2:|2 \
+                             "A"agf "A7"ede|"D"d3 d2|]
+%%center Book10/1009-Scots_Bonnet-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1010
+T: There's Nae Luck aboot the Hoose
+P: There's Nae Luck aboot the Hoose
+C:Johnson's Museum, 1788
+R:Strathspey (8x32)
+B:RSCDS 10-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:G
+d|"G"g>e "G7"d>B "C"c>d e>f|"G"g>e "C"d>B "D"A3 d|\
+  "G"g>e "G7"d>B "C"c>d e>g|"G"d>c "D7"B<A "G"G3 d|
+  "G"g>e "G7"d>B "C"c>d e>f|"G"g>e "C"d>B "D"A3 d|\
+  "G"g>e "G7"d>B "C"c>d e>g|"G"d>c "D7"B<A "G"G3||
+G/A/|"G"B>B B<G "C"c>c c>A|"G"B>B B<G "D"A3 G/A/|\
+  "G"B>B B<G "C"c>d e>g|"D"d>c "D7"B<A "G"G3 G/A/|
+  "G"B>B B<G "C"c>c c>A|"G"B>B B<G "D"A3 G/A/|\
+  "G"B>B B<G "C"c>d e>g|"D"d>c "D7"B<A "G"G3|]
+%%center Book10/1010-Theres_Nae_Luck_aboot_the_Hoose-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1011
+T: Miss Mary Douglas
+P: Miss Mary Douglas
+C:Wilson's Companion to the Ballroom, 1816
+R:Jig (8x48) AABB
+B:RSCDS 10-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Bb
+F|"Bb"D>EF F2B|"Eb"GEG "F7"F2E|"Bb"D>EF FBd|"F7"d3 c2E|\
+  "Bb"D>EF F2B|"Eb"GEG "F7"F2g|
+                               "Bb"fdB "F7"ecA|"Bb"B3 B,2::\
+f|"Bb"f>gf b2f|d3 B2 d|"F"c>dc f2c|A3 FGA|
+  "Gm"B3 GAB|"F7"c3 ABc|"Bb"def fed|"F7"cBA GFE|\
+  "Bb"D>EF F2B|"Eb"GEG "F7"F2E|
+                               "Bb"D>EF FBd|"F7"d3 c2E|\
+  "Bb"D>EF F2B|"Eb"GEG "F7"F2e|"Bb"fdB "F7"ecA|"Bb"B3 B2:|
+%%center Book10/1011-Miss_Mary_Douglas-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1012
+T: The Lady's Breist Knot
+P: The Lady's Breist Knot
+C:Adapted from song by John Sinclair
+R:Strathspey (8x16)
+B:RSCDS 10-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:A
+e|"A"A>B c<e "D"d>e f<a|"A"e>cA>c "E7"B2e2|\
+  "A"A>B c<e "D"d>e f<a|"E"e>dB>e "A"c2 Ae|
+  "A"A>B c<e "D"d>e f<a|"A"e>cA>c "E7"B2e2|\
+  "A"A>B c<e "D"d>e f<a|"E"e>dB>e "A"c2 A||
+E|"A"A>G "D"A>F "A"E<c A>B|A>G "D"A<F "A"E>c A>B|\
+  c>dc>B "D"c<ag>f|"B"^d<Bc>d "E"e2 "E7"F>G|
+  "A"A>B c<e "D"d>e f<a|"A"e>cA>c "E7"B2e>E|\
+  "A"A>B c<e "D"d>e f<a|"E7"e>cB>e "A"c2 A|]
+%%center Book10/1012-Ladys_Breist_Knot-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10011
+T: Lord Eglintoune
+R: reel
+B: RSCDS 10-1(a)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: Bb
+B \
+| "Bb"FB d/c/B FB DB | FB d/c/B "F7"cC CB \
+| "Bb"FB d/c/B FB DF |1 "Cm"EG"F7"FE "Bb"DCB, :|2  "Cm"Ge"F7"dc "Bb"dB B ||
+|: f \
+| "Bb"dfBf dfbf | dfBd "F7"cFFf \
+|1 "Bb"dfBf dfbf | "Eb"Be"F7"dc "Bb"dBB :|2 "Cm"gecg "Bb"fdBf | "F7"ecFe "Bb"dB B |]
+%%center Book10/10011-Lord_Eglintoune-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10011
+T: The Montgomeries' Rant
+T: 8x32R3
+O: RSCDS 10-1
+P: 11-22-33-44-22-33-44-11
+%--------------------
+K: Bb
+%%partsspace 0.00cm
+%%center Book10/10011-Montgomeries_Rant.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10012
+T: Lady Montgomerie
+R: reel
+B: RSCDS 10-1(b)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: Bb
+d \
+| "Bb"B2BF DEFD | "Gm"B2BG "F7"ABcd \
+| "Bb"B2BF DEFD | "Cm"Cc cB "F7"ABcd |
+| "Bb"B2BF DEFD | "Gm"BdBG "F7"ABcd \
+| "Bb"BfdB FDFD | "Cm"Cc cB "F7"ABcd ||
+|| "Bb"B2fB dB"(F)"f2 | "Bb"B2fB defb \
+| "Bb"B2fB dBf2 | "Cm"edcB "F7"ABcd |
+| "Bb"B2fB dBf2 | Bbfe defg \
+| fdec "(Gm)"dBcA |1 "Eb"BGFD "F7"Cc c :|2 "Eb"BG"F7"FD "Bb"B,3 |]
+%%center Book10/10012-Lady_Montgomerie-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10012
+T: Lady Montgomerie
+R: reel
+B: RSCDS 10-1(b)
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: Bb
+d \
+| "Bb"B2BF DEFD \
+| "Gm"B2BG "F7"ABcd \
+| "Bb"B2BF DEFD \
+| "Cm"Cc cB "F7"ABcd \
+| "Bb"B2BF DEFD |
+| "Gm"BdBG "F7"ABcd \
+| "Bb"BfdB FDFD \
+| "Cm"Cc cB "F7"ABcd \
+|| "Bb"B2fB dB"(F)"f2 \
+| "Bb"B2fB defb \
+| "Bb"B2fB dBf2 |
+| "Cm"edcB "F7"ABcd \
+| "Bb"B2fB dBf2 \
+| Bbfe defg \
+| fdec "(Gm)"dBcA \
+|1 "Eb"BGFD "F7"Cc c \
+:|2 "Eb"BG"F7"FD "Bb"B,3 |]
+%%center Book10/10012-Lady_Montgomerie-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10012
+T: Lady Montgomerie
+R:Reel
+B:RSCDS 10-1(b)
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M:4/4
+L:1/8
+%--------------------
+K:Bb
+F2 |: \
+"Bb" B2BF DEFD | "Gm" B2BG "F7" ABcd  | "Bb" B2BF DEFD | "Cm"  Cc cB "F7" ABcd  |
+"Bb" B2BF DEFD | "Gm" BdBG "F7" ABcd  | "Bb" BfdB FDFD | "Cm"  Cc cB "F7" ABcd  |
+"Bb" B2fB dBf2 | "Bb" B2fB      defb  | "Bb" B2fB dBf2 | "Cm"  edcB  "F7" ABcd  |
+"Bb" B2fB dBf2 | "Bb" Bbfe      defg  | "Bb" fdec "Gm" dBcA |1 "Eb" BGFD "F7" Cccd :|2 "Eb"BG"F7"FD "Bb" B,4 |]
+%%center Book10/10012-Lady_Montgomerie-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10012
+T: Lady Montgomerie [A]
+C: Lord Eglintoune 1796
+R: reel
+B: RSCDS 10-1(b)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: A
+c \
+| "A"A2AE CDEC \
+| "F#m"A2AF "E7"GABc \
+| "A"A2AE CDEC \
+| "Bm"B,B BA "E7"GABc \
+| "A"A2AE CDEC |
+| "F#m"AcAF "E7"GABc \
+| "A"AecA ECEC \
+| "Bm"B,B BA "E7"GABc \
+|]| "A"A2eA cA"(E)"e2 \
+| "A"A2eA cdea \
+| "A"A2eA cAe2 |
+| "Bm"dcBA "E7"GABc \
+| "A"A2eA cAe2 \
+| Aaed cdef \
+| ecdB "(F#m)"cABG \
+|1 "D"AFEC "E7"B,B B \
+:|2 "D"AF"E7"EC "A"A,3 |]
+%%center Book10/10012-Lady_Montgomerie_A-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10012
+T: Lady Montgomerie [Bb]
+C: Lord Eglintoune 1796
+R: reel
+B: RSCDS 10-1(b)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: Bb
+d \
+| "Bb"B2BF DEFD \
+| "Gm"B2BG "F7"ABcd \
+| "Bb"B2BF DEFD \
+| "Cm"Cc cB "F7"ABcd \
+| "Bb"B2BF DEFD |
+| "Gm"BdBG "F7"ABcd \
+| "Bb"BfdB FDFD \
+| "Cm"Cc cB "F7"ABcd \
+|]| "Bb"B2fB dB"(F)"f2 \
+| "Bb"B2fB defb \
+| "Bb"B2fB dBf2 |
+| "Cm"edcB "F7"ABcd \
+| "Bb"B2fB dBf2 \
+| Bbfe defg \
+| fdec "(Gm)"dBcA \
+|1 "Eb"BGFD "F7"Cc c \
+:|2 "Eb"BG"F7"FD "Bb"B,3 |]
+%%center Book10/10012-Lady_Montgomerie_Bb-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10012
+T: Lady Montgomerie [Bb]
+C: Lord Eglintoune 1796
+R: reel
+B: RSCDS 10-1(b)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: Bb
+d \
+| "Bb"B2BF DEFD \
+| "Gm"B2BG "F7"ABcd \
+| "Bb"B2BF DEFD \
+| "Cm"Cc cB "F7"ABcd |
+| "Bb"B2BF DEFD \
+| "Gm"BdBG "F7"ABcd \
+| "Bb"BfdB FDFD \
+| "Cm"Cc cB "F7"ABcd |]
+[| "Bb"B2fB dB"(F)"f2 \
+| "Bb"B2fB defb \
+| "Bb"B2fB dBf2 \
+| "Cm"edcB "F7"ABcd \
+| "Bb"B2fB dBf2 |
+| Bbfe defg \
+| fdec "(Gm)"dBcA \
+|1 "Eb"BGFD "F7"Cc c \
+:|2 "Eb"BG"F7"FD "Bb"B,3 |]
+%%center Book10/10012-Lady_Montgomerie_Bb-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10012
+T: Lady Montgomerie [G]
+C: Lord Eglintoune 1796
+R: reel
+B: RSCDS 10-1(b)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: G
+B \
+| "G"G2GD B,CDB, \
+| "Em"G2GE "D7"FGAB \
+| "G"G2GD B,CDB, \
+| "Am"A,A AG "D7"FGAB \
+| "G"G2GD B,CDB, |
+| "Em"GBGE "D7"FGAB \
+| "G"GdBG DB,DB, \
+| "Am"A,A AG "D7"FGAB \
+|]| "G"G2dG BG"(D)"d2 \
+| "G"G2dG Bcdg \
+| "G"G2dG BGd2 |
+| "Am"cBAG "D7"FGAB \
+| "G"G2dG BGd2 \
+| Ggdc Bcde \
+| dBcA "(Em)"BGAF \
+|1 "C"GEDB, "D7"A,A A \
+:|2 "C"GE"D7"DB, "G"G,3 |]
+%%center Book10/10012-Lady_Montgomerie_G-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10012
+T: Lady Montgomery [D]
+C: Lord Eglintoune 1796
+R: reel
+B: RSCDS 10-1(b)
+B: David Glen Coll. of Pipe Music
+Z: Etienne Ozorak
+M: C|
+L: 1/8
+%--------------------
+K: D
+f \
+| "D"d2dA FGAF \
+| "Bm"d2dB "A7"cdef \
+| "D"d2dA FGAF \
+| "Em"Ee ed "A7"cdef \
+| "D"d2dA FGAF |
+| "Bm"dfdB "A7"cdef \
+| "D"dfAd FGAF \
+| "Em"Ee ed "A7"cdef \
+|]| "D"d2ad fd"(A)"a2 \
+| "D"d2ad fgab \
+| "D"d2ad fda2 |
+| "Em"gfed "A7"cdef \
+| "D"d2ad fda2 \
+| dbag fgab \
+| afge "(Bm)"fdec \
+|1 "Em"dBAF "A7"Ee e \
+:|2 "G"BA"A7"Bc "D"d3 |]
+%%center Book10/10012-Lady_Montgomery_D-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10041
+T: Atholl House
+C: D.Dow
+R: strathspey
+B: RSCDS 10-4
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+%--------------------
+K: D
+d2 \
+| "D"AD3 F3D AD3 "G"BAGF | "D"AD3 F3D "A7"CE3 E3d \
+| "D"AD3 F3D AD3 d3A | "G(Bm)"BAGF "A7"A3A, "G"B,D3 "D"D2 :|
+A2 \
+| "D"d4 fedc d3A FA3 | "D"D3A "Bm"BAGF "Em"GE3 "A7"E3A \
+| "D"d4 fed2 Ad3 F3A | "G"Bcd2 "A7"cde2 "D"Ad3 d2 |]
+A2 \
+| "D"d3A fd3 "A7"c3A ge3 | "D"f3d Ad3 "A"ce3 e3g \
+| "D"f3d Ad3 "Em"B3G EG3 | "D"FD3 "F#m"A3A, "G"B,D3 "D"D2 |]
+%%center Book10/10041-Atholl_House-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10041
+T: Bonny Bridge
+O: RSCDS 10-4
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: A
+e \
+|: "A"a-<a e>d "F#m"c-<A A>c | "Bm"d-<d B>A "E7"G-<E E>D \
+|  "A"C>E A>G "D"F-<F d>B | "E7"(3GAB E>d "A"c-<A A  :|
+e \
+|: "A"(3cde A>=G "D"F-<D D>c | "Bm"(3def "B7"B>A "E"G-<E "E7"E>G \
+|  "A"(3ABc "E7"(3Bcd "A7"(3cde "D"(3def | "A"e-<a "E7"e>d "A"c-<A A :|
+%%center Book10/10041-Bonny_Bridge-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10061
+T: Dunkeld Bridge
+C: Neil Gow
+R: strathspey
+B: RSCDS 10-6
+N: A similar tune, later called "The Shepherd's Crook" was published by Bremner in 1757 as "Don Side".
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: F
+c \
+| "F"f2 a>f "C7"e>g c<e | "F"f2 a>f "C7"g>b e<g \
+| "F"f2 a>f "C7"e>g c<b | "F"a>f "C7"g>e "F"f2 f :|
+|| c \
+| "F"A>F c>A f<c "Bb"d<B | "F"A>c "Dm"f>A "G7"G<F "C7"E<C \
+| "F"A>F c>A f>c "Bb"d>B | "F"A<F "C7"G<E "F"F2 F> ||
+|| B \
+| "F"A>F c>A f<c "Bb"d<B | "F"A>c "Dm"f>A "G7"G<F "C7"E<C \
+| "F"A>F c>A "Bb"d<B "C7"c>b | "F"a<f "C7"g<e "F"f2 f |]
+%%center Book10/10061-Dunkeld_Bridge-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1001
+T: The Isle of Skye  [Bb]
+T: Planxty George Brabazon
+C:O'Carolan
+R:reel
+B:RSCDS 10-7
+N:Attributed to Gow in RSCDS; this is a variant of the O'Carolan tune.
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C|
+L:1/8
+K:Bb
+bg \
+| "Bb"f2B2 edcB | f2B2 edcB | "Cm"g2c2 cdef | g2c2 cdeg |
+| "Bb"f2ed b2ag | f2ed "Cm"c2Bc | "Bb"dcBG "F7"FGBc | d2B2 B2 ||
+|| bc' \
+| "Bb"d'2bd' "Cm"c'2ac' | "Bb"b2gb "Eb"g2df | "Cm"gcbc cdef | gcbc ca"F7"bc' |
+| "Bb"d'2bd' "Cm"c'2ac' | "Bb"b2gb "Eb"b2"Gm"dg | "Bb"f2F2 "F7"FGBc | "Bb"d2B2 B2 |]
+%%center Book10/10071-Isle_of_Skye_Bb.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1007
+T: The Isle of Skye  [D]
+T: Planxty George Brabazon
+C:O'Carolan
+R:reel
+B:RSCDS 10-7
+N:Attributed to Gow in RSCDS; this is a variant of the O'Carolan tune.
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C|
+L:1/8
+K:D
+dB \
+| "D"A2D2 GFED | A2D2 GFED | "Em"B2E2 EFGA | B2E2 EFGB |
+| "D"A2GF d2cB | A2GF "Em"E2DE | "D"FEDB, "A7"A,B,DE | F2D2 D2 ||
+|| de \
+| "D"f2df "Em"e2ce | "D"d2Bd "G"B2FA | "Em"BEdE EFGA | BEdE Ec"A7"de |
+| "D"f2df "Em"e2ce | "D"d2Bd "G"d2"Bm"FB | "D"A2A,2 "A7"A,B,DE | "D"F2D2 D2 |]
+%%center Book10/10071-Isle_of_Skye_D.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1007
+T: The Isle of Skye  [G]
+T: Planxty George Brabazon
+C: O'Carolan
+R: reel
+B: RSCDS 10-7
+N: Attributed to Gow in RSCDS; this is a variant of the O'Carolan tune.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+ge \
+| "G"d2G2 cBAG | d2G2 cBAG | "Am"e2A2 ABcd | e2A2 ABce |
+| "G"d2cB g2fe | d2cB "Am"A2GA | "G"BAGE "D7"DEGA | B2G2 G2 ||
+|| ga \
+| "G"b2gb "Am"a2fa | "G"g2eg "C"e2Bd | "Am"eAgA ABcd | eAgA Af"D7"ga |
+| "G"b2gb "Am"a2fa | "G"g2eg "C"g2"Em"Be | "G"d2D2 "D7"DEGA | "G"B2G2 G2 |]
+%%center Book10/10071-Isle_of_Skye_G.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10071
+T: Planxty George Brabazon
+C: O'Carolan
+B: O'Neill's 657
+B: RSCDS 10-7 (in Bb)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: G
+ge \
+| "G"d2G2 (cB)AG | d2G2 (cB)AG | "Am"e2A2 (AB)cd | e2A2 "D7"(AB)cd |
+y4 \
+| "G"(ed)cB "(C)"g2fe | "G"(ed)cB "(C)"(cB)AG | "G"(BA)GE "D7"(DE)GA | "G"B2G2 G2 :|
+|: (ga) \
+| "G"b2(gb) "D"a2(fa) | "Em"g2(eg) "(C)"(ed)cB | "Am"e2A2 (AB)cd | e2A2 "D7"A2 (ga) |
+y4 \
+| "G"b2(gb) "D"a2(fa) | "Em"g2(eg) "(C)"(ed)cB | "Am"(cB)AG "D7"(DE)GA | "G"B2G2 G2 :|
+%%center Book10/10071-Planxty_George_Brabazon-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10071
+T: Planxty George Brabazon
+T: The Isle of Skye
+C: O'Carolan
+B: O'Neill's 657
+B: RSCDS 10-7 (in Bb) as "The Isle of Skye"
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: G
+ge \
+| "G"d2G2 (cB)AG | d2G2 (cB)AG | "Am"e2A2 (AB)cd | e2A2 "D7"(AB)cd |
+y4 \
+| "G"(ed)cB "(C)"g2fe | "G"(ed)cB "(C)"(cB)AG | "G"(BA)GE "D7"(DE)GA | "G"B2G2 G2 :|
+|: (ga) \
+| "G"b2(gb) "D"a2(fa) | "Em"g2(eg) "(C)"(ed)cB | "Am"e2A2 (AB)cd | e2A2 "D7"A2 (ga) |
+y4 \
+| "G"b2(gb) "D"a2(fa) | "Em"g2(eg) "(C)"(ed)cB | "Am"(cB)AG "D7"(DE)GA | "G"B2G2 G2 :|
+%%center Book10/10071-Planxty_George_Brabazon.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10081
+T: Maggie Lauder
+R: strathspey
+O: Adam Craig Collection
+B: Adam Craig Collection
+B: RSCDS 10-8
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+%--------------------
+K: D
+A2 \
+[| "D"d3e  df3     d3e  df3 | "Em"e3f gfed "A7"ce3 e3g | "D"fd3  d3A  "Bm"d3e  d3f  | "A7"a3b     a3g  "D7"f3g a3f |
+|  "G"g3a  gb3  "D"f3g  fa3 | "Em"e3f gfed "A7"ce3 e3c | "D"dcBA BAGF "Em"GFED E3g  |  "D"fa3 "A7"e3f  "D" d4  d>e |]
+[| "D"fgaf d3g "Bm"fgaf d3f | "Em"e3f gfed "A7"ce3 e3g | "D"fgaf d3g  "Bm"fgaf defg | "A7"a3b     abag "D7"f3g a3f |
+|  "G"gfga gbag "D"fefg fagf| "Em"e3f gfed "A7"ce3 e3c | "D"dcBA BAGF "Em"GFED E3g  |  "D"fa3 "A7"e3f  "D" d4  d   |]
+%%center Book10/10081-Maggie_Lauder-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10091
+T: Bonnets o' Blue
+R: jig
+B: RSCDS 10-9
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Here from Ross's Collection of Pipe Music.
+M: 6/8
+L: 1/8
+%--------------------
+K: D
+|: A \
+| "D"ded "Bm"fga | "A7"ABA ABc | "D"d2f afd | "A7"e3- e2f/e/ \
+| "D"ded "Bm"fga | "A7"ABA Afg | "D"agf "A7"ede | "D"d3- d2 :|
+ e/d/ \
+| "A"cde "E7"efe | "A"A3- "(E7)"A2e/d/ | "A"cde "E7"efg | "A"a3- "A7"a2g \
+| "D"fed "A7"cBc | "D"d2e "Bm"f2g | "F#m"agf "F7"edc | "Bm"B3- "E7"B2 ||
+ e/d/ \
+| "A"cde "E7"efe | "A"A3- "(E7)"A2e/d/ | "A"cde "E7"efg | "A"a3- "A7"a2g \
+| "D"fed "A7"cBc | "D"d2e "Bm"f2g | "Em"agf "A7"ede | "D"d3- d2 |]
+%%center Book10/10091-Bonnets_o_Blue-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: There's Nae Luck Aboot the Hoose
+O: trad Scotland, England
+R: hornpipe
+B: RSCDS 10-10(a)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Johnson's Museum 1788, adapted from earlier tune "Up and war a' Willie" published by Oswald 1750.
+M: 4/4
+L: 1/8
+K: G
+(3def \
+| "G"g>e d>B "C"c>d e>f | "G"g>e d>B "D7"A3 (3def \
+| "G"g>e d>B "C"c>d e>g | "D7"d>c B>A "G"G2 :|
+|: G>A \
+| "G"B2 B>G "C"c2 c>A | "G"B2 B>G "D7"A2 G>A \
+| "G"B2 B>G "C"c>d e>g | "D7"d>c B>A "G"G3 :|
+%%center Book10/10101-Theres_Nae_Luck_Aboot_the_Hoose-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: There's Nae Luck Aboot the Hoose
+O: trad Scotland, England
+R: hornpipe
+B: RSCDS 10-10(a)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Johnson's Museum 1788, adapted from earlier tune "Up and war a' Willie" published by Oswald 1750.
+M: 4/4
+L: 1/8
+K: G
+d \
+| "G"g>e "G7"d<B "C"c>d e>f | "G"g>d "(C)"d<B "D7"A3 d \
+| "G"g>e "G7"d<B "C"c>d e>g | "G"d>c "D7"B<A "G"G3 :|
+|: G/A/ \
+| "G"B>B B<G "C"c>c c>A | "G"B>B B<G "D7"A3 G/A/ \
+| "G"B>B B<G "C"c>d e>g | "G"d>c "D7"B<A "G"G3 :|
+%%center Book10/10101-Theres_Nae_Luck_Aboot_the_Hoose-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: There's Nae Luck Aboot the Hoose
+O: trad Scotland, England
+R: hornpipe
+B: RSCDS 10-10(a)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Johnson's Museum 1788, adapted from earlier tune "Up and war a' Willie" published by Oswald 1750.
+M: 4/4
+L: 1/8
+K: G
+d \
+| "G"gedB "C"cdef | "G"gedB "D7"A3d \
+| "G"gedB "C"cdeg | "D7"dcBA "G"G3 :|
+|: A \
+| "G"B2BG "C"c2cA | "G"B2BG "D7"A2GA \
+| "G"B2BG "C"cdeg | "D7"dcBA "G"G3 :|
+%%center Book10/10101-Theres_Nae_Luck_Aboot_the_Hoose-6.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10121
+T: The Lady's Breist Knot
+R: reel, strathspey
+B: RSCDS 10-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Adaped from melody of the song by John Sinclair, 1st half of 19th century.
+M: C|
+L: 1/8
+%--------------------
+K: A
+|: e \
+| "A"ABce "D"defa | "A"ecAc "E7"B2e2 \
+| "A7"ABce "D"defa | "E7"edBe "A"c2A :|
+|| e \
+| "A"AG"D"AF "A"EcAB | "A"AG"D"AF "A"EcAB \
+| "A"cd"E"cB "F#m"cagf | "B7"^dBcd "E7"e2FG |
+| "A"ABce "D"defa | "A"ecAc "E7"B2eE \
+| "A7"ABce "D"defa | "E7"ecBe "A"c2A |]
+%%center Book10/10121-Ladys_Breist_Knot-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Atholl House
+C: D.Dow
+R: strathspey
+B: RSCDS 10-4
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+d2 \
+| "D"AD3 F3D AD3 "G"BAGF | "D"AD3 F3D "A7"CE3 E3d \
+| "D"AD3 F3D AD3 d3A | "G(Bm)"BAGF "A7"A3A, "G"B,D3 "D"D2 :|
+A2 \
+| "D"d4 fedc d3A FA3 | "D"D3A "Bm"BAGF "Em"GE3 "A7"E3A \
+| "D"d4 fed2 Ad3 F3A | "G"Bcd2 "A7"cde2 "D"Ad3 d2 |]
+A2 \
+| "D"d3A fd3 "A7"c3A ge3 | "D"f3d Ad3 "A"ce3 e3g \
+| "D"f3d Ad3 "Em"B3G EG3 | "D"FD3 "F#m"A3A, "G"B,D3 "D"D2 |]
+%%center Book10/AthollHouse_D-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Atholl House
+C: D.Dow
+R: strathspey
+B: RSCDS 10-4
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+d2 \
+| "D"AD3 F3D AD3 "G"BAGF | "D"AD3 F3D "A7"CE3 E3d \
+| "D"AD3 F3D AD3 d3A | "G(Bm)"BAGF "A7"A3A, "G"B,D3 "D"D2 :|
+A2 \
+| "D"d4 fedc d3A FA3 | "D"D3A "Bm"BAGF "Em"GE3 "A7"E3A \
+| "D"d4 fed2 Ad3 F3A | "G"Bcd2 "A7"cde2 "D"Ad3 d2 |]
+A2 \
+| "D"d3A fd3 "A7"c3A ge3 | "D"f3d Ad3 "A"ce3 e3g \
+| "D"f3d Ad3 "Em"B3G EG3 | "D"FD3 "F#m"A3A, "G"B,D3 "D"D2 |]
+%%center Book10/AthollHouse_D_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Bonnets o' Blue
+R: jig
+B: RSCDS 10-9
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Here from Ross's Collection of Pipe Music.
+M: 6/8
+L: 1/8
+K: D
+|: A \
+| "D"ded fga | "A7"ABA ABc | "D"d2f afd | "A7"e3- e2f/e/ \
+| "D"ded fga | "A7"ABA Afg | "D"agf "A7"ede | "D"d3- d2 :|
+ e/d/ \
+| "A"cde "E7"efe | "A"A3- "(E7)"A2e/d/ | "A"cde "E7"ef^g | "A"a3- "A7"a2=g \
+| "D"fed "A7"cBc | "Bm"d2e f2g | "F#m"agf "F#7"edc | "Bm"B3- "E7"B2 ||
+ e/d/ \
+| "A"cde "E7"efe | "A"A3- "(E7)"A2e/d/ | "A"cde "E7"ef^g | "A"a3- "A7"a2=g \
+| "D"fed "A7"cBc | "Bm"d2e f2g | "Em"agf "A7"ede | "D"d3- d2 |]
+%%center Book10/BonnetsOBlue-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Bonnets o' Blue
+R: jig
+B: RSCDS 10-9
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Here from Ross's Collection of Pipe Music.
+M: 6/8
+L: 1/8
+K: D
+|: A \
+| "D"ded fga | "A7"ABA ABc | "D"d2f afd | "A7"e3- e2f/e/ \
+| "D"ded fga | "A7"ABA Afg | "D"agf "A7"ede | "D"d3- d2 :|
+ e/d/ \
+| "A"cde "E7"efe | "A"A3- "(E7)"A2e/d/ | "A"cde "E7"ef^g | "A"a3- "A7"a2=g \
+| "D"fed "A7"cBc | "Bm"d2e f2g | "F#m"agf "F#7"edc | "Bm"B3- "E7"B2 ||
+ e/d/ \
+| "A"cde "E7"efe | "A"A3- "(E7)"A2e/d/ | "A"cde "E7"ef^g | "A"a3- "A7"a2=g \
+| "D"fed "A7"cBc | "Bm"d2e f2g | "Em"agf "A7"ede | "D"d3- d2 |]
+%%center Book10/BonnetsOBlue_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Bonnets o' Blue
+R: jig
+B: RSCDS 10-9
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Here from Ross's Collection of Pipe Music.
+M: 6/8
+L: 1/8
+K: D
+|: A \
+| "D"ded fga | "A7"ABA ABc | "D"d2f afd | "A7"e3- e2f/e/ \
+| "D"ded fga | "A7"ABA Afg | "D"agf "A7"ede | "D"d3- d2 :|
+ e/d/ \
+| "A"cde "E7"efe | "A"A3- "(E7)"A2e/d/ | "A"cde "E7"ef^g | "A"a3- "A7"a2=g \
+| "D"fed "A7"cBc | "Bm"d2e f2g | "F#m"agf "F#7"edc | "Bm"B3- "E7"B2 ||
+ e/d/ \
+| "A"cde "E7"efe | "A"A3- "(E7)"A2e/d/ | "A"cde "E7"ef^g | "A"a3- "A7"a2=g \
+| "D"fed "A7"cBc | "Bm"d2e f2g | "Em"agf "A7"ede | "D"d3- d2 |]
+%%center Book10/BonnetsOBlue_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Dunkeld Bridge
+C: Neil Gow
+R: strathspey
+B: RSCDS 10-6
+N: A similar tune, later called "The Shepherd's Crook" was published by Bremner in 1757 as "Don Side".
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+c \
+| "F"f2 a>f "C7"e>g c<e | "F"f2 a>f "C7"g>b e<g \
+| "F"f2 a>f "C7"e>g c<b | "F"a>f "C7"g>e "F"f2 f :|
+|| c \
+| "F"A>F c>A f<c "Bb"d<B | "F"A>c "Dm"f>A "G7"G<F "C7"E<C \
+| "F"A>F c>A f>c "Bb"d>B | "F"A<F "C7"G<E "F"F2 F> ||
+|| B \
+| "F"A>F c>A f<c "Bb"d<B | "F"A>c "Dm"f>A "G7"G<F "C7"E<C \
+| "F"A>F c>A "Bb"d<B "C7"c>b | "F"a<f "C7"g<e "F"f2 f |]
+%%center Book10/DunkeldBridge-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Dunkeld Bridge
+C: Neil Gow
+R: strathspey
+B: RSCDS 10-6
+N: A similar tune, later called "The Shepherd's Crook" was published by Bremner in 1757 as "Don Side".
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+c \
+| "F"f2 a>f "C7"e>g c<e | "F"f2 a>f "C7"g>b e<g \
+| "F"f2 a>f "C7"e>g c<b | "F"a>f "C7"g>e "F"f2 f :|
+|| c \
+| "F"A>F c>A f<c "Bb"d<B | "F"A>c "Dm"f>A "G7"G<F "C7"E<C \
+| "F"A>F c>A f>c "Bb"d>B | "F"A<F "C7"G<E "F"F2 F> ||
+|| B \
+| "F"A>F c>A f<c "Bb"d<B | "F"A>c "Dm"f>A "G7"G<F "C7"E<C \
+| "F"A>F c>A "Bb"d<B "C7"c>b | "F"a<f "C7"g<e "F"f2 f |]
+%%center Book10/DunkeldBridge_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Dunkeld Bridge
+C: Neil Gow
+R: strathspey
+B: RSCDS 10-6
+N: A similar tune, later called "The Shepherd's Crook" was published by Bremner in 1757 as "Don Side".
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+c \
+| "F"f2 a>f "C7"e>g c<e | "F"f2 a>f "C7"g>b e<g \
+| "F"f2 a>f "C7"e>g c<b | "F"a>f "C7"g>e "F"f2 f :|
+|| c \
+| "F"A>F c>A f<c "Bb"d<B | "F"A>c "Dm"f>A "G7"G<F "C7"E<C \
+| "F"A>F c>A f>c "Bb"d>B | "F"A<F "C7"G<E "F"F2 F> ||
+|| B \
+| "F"A>F c>A f<c "Bb"d<B | "F"A>c "Dm"f>A "G7"G<F "C7"E<C \
+| "F"A>F c>A "Bb"d<B "C7"c>b | "F"a<f "C7"g<e "F"f2 f |]
+%%center Book10/DunkeldBridge_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lady Montgomerie [A]
+C: Lord Eglintoune 1796
+R: reel
+B: RSCDS 10-1(b)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+c \
+| "A"A2AE CDEC \
+| "F#m"A2AF "E7"GABc \
+| "A"A2AE CDEC \
+| "Bm"B,B BA "E7"GABc \
+| "A"A2AE CDEC |
+| "F#m"AcAF "E7"GABc \
+| "A"AecA ECEC \
+| "Bm"B,B BA "E7"GABc \
+|]| "A"A2eA cA"(E)"e2 \
+| "A"A2eA cdea \
+| "A"A2eA cAe2 |
+| "Bm"dcBA "E7"GABc \
+| "A"A2eA cAe2 \
+| Aaed cdef \
+| ecdB "(F#m)"cABG \
+|1 "D"AFEC "E7"B,B B \
+:|2 "D"AF"E7"EC "A"A,3 |]
+%%center Book10/LadyMontgomerie16_A-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lady Montgomerie [A]
+C: Lord Eglintoune 1796
+R: reel
+B: RSCDS 10-1(b)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+c \
+| "A"A2AE CDEC \
+| "F#m"A2AF "E7"GABc \
+| "A"A2AE CDEC \
+| "Bm"B,B BA "E7"GABc \
+| "A"A2AE CDEC |
+| "F#m"AcAF "E7"GABc \
+| "A"AecA ECEC \
+| "Bm"B,B BA "E7"GABc \
+|]| "A"A2eA cA"(E)"e2 \
+| "A"A2eA cdea \
+| "A"A2eA cAe2 |
+| "Bm"dcBA "E7"GABc \
+| "A"A2eA cAe2 \
+| Aaed cdef \
+| ecdB "(F#m)"cABG \
+|1 "D"AFEC "E7"B,B B \
+:|2 "D"AF"E7"EC "A"A,3 |]
+%%center Book10/LadyMontgomerie16_A_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lady Montgomerie   [Bb]
+C: Lord Eglintoune 1796
+R: reel
+B: RSCDS 10-1(b)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+d \
+| "Bb"B2BF DEFD | "Gm"B2BG "F7"ABcd \
+| "Bb"B2BF DEFD | "Cm"Cc cB "F7"ABcd \
+| "Bb"B2BF DEFD |
+| "Gm"BdBG "F7"ABcd \
+| "Bb"BfdB FDFD | "Cm"Cc cB "F7"ABcd \
+|]| "Bb"B2fB dB"(F)"f2 \
+| "Bb"B2fB defb | "Bb"B2fB dBf2 |
+| "Cm"edcB "F7"ABcd | "Bb"B2fB dBf2 \
+| Bbfe defg | fdec "(Gm)"dBcA \
+|1 "Eb"BGFD "F7"Cc c :|2 "Eb"BG"F7"FD "Bb"B,3 |]
+%%center Book10/LadyMontgomerie16_Bb-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lady Montgomerie   [Bb]
+C: Lord Eglintoune 1796
+R: reel
+B: RSCDS 10-1(b)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+d \
+| "Bb"B2BF DEFD | "Gm"B2BG "F7"ABcd \
+| "Bb"B2BF DEFD | "Cm"Cc cB "F7"ABcd \
+| "Bb"B2BF DEFD |
+| "Gm"BdBG "F7"ABcd \
+| "Bb"BfdB FDFD | "Cm"Cc cB "F7"ABcd \
+|]| "Bb"B2fB dB"(F)"f2 \
+| "Bb"B2fB defb | "Bb"B2fB dBf2 |
+| "Cm"edcB "F7"ABcd | "Bb"B2fB dBf2 \
+| Bbfe defg | fdec "(Gm)"dBcA \
+|1 "Eb"BGFD "F7"Cc c :|2 "Eb"BG"F7"FD "Bb"B,3 |]
+%%center Book10/LadyMontgomerie16_Bb_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lady Montgomerie   [Bb]
+C: Lord Eglintoune 1796
+R: reel
+B: RSCDS 10-1(b)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+d \
+| "Bb"B2BF DEFD | "Gm"B2BG "F7"ABcd \
+| "Bb"B2BF DEFD | "Cm"Cc cB "F7"ABcd \
+| "Bb"B2BF DEFD |
+| "Gm"BdBG "F7"ABcd \
+| "Bb"BfdB FDFD | "Cm"Cc cB "F7"ABcd \
+|]| "Bb"B2fB dB"(F)"f2 \
+| "Bb"B2fB defb | "Bb"B2fB dBf2 |
+| "Cm"edcB "F7"ABcd | "Bb"B2fB dBf2 \
+| Bbfe defg | fdec "(Gm)"dBcA \
+|1 "Eb"BGFD "F7"Cc c :|2 "Eb"BG"F7"FD "Bb"B,3 |]
+%%center Book10/LadyMontgomerie16_Bb_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lady Montgomerie [G]
+C: Lord Eglintoune 1796
+R: reel
+B: RSCDS 10-1(b)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+B \
+| "G"G2GD B,CDB, \
+| "Em"G2GE "D7"FGAB \
+| "G"G2GD B,CDB, \
+| "Am"A,A AG "D7"FGAB \
+| "G"G2GD B,CDB, |
+| "Em"GBGE "D7"FGAB \
+| "G"GdBG DB,DB, \
+| "Am"A,A AG "D7"FGAB \
+|]| "G"G2dG BG"(D)"d2 \
+| "G"G2dG Bcdg \
+| "G"G2dG BGd2 |
+| "Am"cBAG "D7"FGAB \
+| "G"G2dG BGd2 \
+| Ggdc Bcde \
+| dBcA "(Em)"BGAF \
+|1 "C"GEDB, "D7"A,A A \
+:|2 "C"GE"D7"DB, "G"G,3 |]
+%%center Book10/LadyMontgomerie16_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lady Montgomerie [G]
+C: Lord Eglintoune 1796
+R: reel
+B: RSCDS 10-1(b)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+B \
+| "G"G2GD B,CDB, \
+| "Em"G2GE "D7"FGAB \
+| "G"G2GD B,CDB, \
+| "Am"A,A AG "D7"FGAB \
+| "G"G2GD B,CDB, |
+| "Em"GBGE "D7"FGAB \
+| "G"GdBG DB,DB, \
+| "Am"A,A AG "D7"FGAB \
+|]| "G"G2dG BG"(D)"d2 \
+| "G"G2dG Bcdg \
+| "G"G2dG BGd2 |
+| "Am"cBAG "D7"FGAB \
+| "G"G2dG BGd2 \
+| Ggdc Bcde \
+| dBcA "(Em)"BGAF \
+|1 "C"GEDB, "D7"A,A A \
+:|2 "C"GE"D7"DB, "G"G,3 |]
+%%center Book10/LadyMontgomerie16_G_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lady Montgomery [D]
+C: Lord Eglintoune 1796
+R: reel
+B: RSCDS 10-1(b)
+B: David Glen Coll. of Pipe Music
+Z: Etienne Ozorak
+M: C|
+L: 1/8
+K: D
+f \
+| "D"d2dA FGAF \
+| "Bm"d2dB "A7"cdef \
+| "D"d2dA FGAF \
+| "Em"Ee ed "A7"cdef \
+| "D"d2dA FGAF |
+| "Bm"dfdB "A7"cdef \
+| "D"dfAd FGAF \
+| "Em"Ee ed "A7"cdef \
+|]| "D"d2ad fd"(A)"a2 \
+| "D"d2ad fgab \
+| "D"d2ad fda2 |
+| "Em"gfed "A7"cdef \
+| "D"d2ad fda2 \
+| dbag fgab \
+| afge "(Bm)"fdec \
+|1 "Em"dBAF "A7"Ee e \
+:|2 "G"BA"A7"Bc "D"d3 |]
+%%center Book10/LadyMontgomery16_D-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lady Montgomery [D]
+C: Lord Eglintoune 1796
+R: reel
+B: RSCDS 10-1(b)
+B: David Glen Coll. of Pipe Music
+Z: Etienne Ozorak
+M: C|
+L: 1/8
+K: D
+f \
+| "D"d2dA FGAF \
+| "Bm"d2dB "A7"cdef \
+| "D"d2dA FGAF \
+| "Em"Ee ed "A7"cdef \
+| "D"d2dA FGAF |
+| "Bm"dfdB "A7"cdef \
+| "D"dfAd FGAF \
+| "Em"Ee ed "A7"cdef \
+|]| "D"d2ad fd"(A)"a2 \
+| "D"d2ad fgab \
+| "D"d2ad fda2 |
+| "Em"gfed "A7"cdef \
+| "D"d2ad fda2 \
+| dbag fgab \
+| afge "(Bm)"fdec \
+|1 "Em"dBAF "A7"Ee e \
+:|2 "G"BA"A7"Bc "D"d3 |]
+%%center Book10/LadyMontgomery16_D_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Lady's Breist Knot
+R: reel, strathspey
+B: RSCDS 10-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Adaped from melody of the song by John Sinclair, 1st half of 19th century.
+M: C|
+L: 1/8
+K: A
+|: e \
+| "A"ABce "D"defa | "A"ecAc "E7"B2e2 \
+| "A7"ABce "D"defa | "E7"edBe "A"c2A :|
+|| e \
+| "A"AG"D"AF "A"EcAB | "A"AG"D"AF "A"EcAB \
+| "A"cd"E"cB "F#m"cagf | "B7"^dBcd "E7"e2FG |
+| "A"ABce "D"defa | "A"ecAc "E7"B2eE \
+| "A7"ABce "D"defa | "E7"ecBe "A"c2A |]
+%%center Book10/LadysBreistKnotR-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Lady's Breist Knot
+R: reel, strathspey
+B: RSCDS 10-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Adaped from melody of the song by John Sinclair, 1st half of 19th century.
+M: C|
+L: 1/8
+K: A
+|: e \
+| "A"ABce "D"defa | "A"ecAc "E7"B2e2 \
+| "A7"ABce "D"defa | "E7"edBe "A"c2A :|
+|| e \
+| "A"AG"D"AF "A"EcAB | "A"AG"D"AF "A"EcAB \
+| "A"cd"E"cB "F#m"cagf | "B7"^dBcd "E7"e2FG |
+| "A"ABce "D"defa | "A"ecAc "E7"B2eE \
+| "A7"ABce "D"defa | "E7"ecBe "A"c2A |]
+%%center Book10/LadysBreistKnotR_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Lady's Breist Knot
+R: reel, strathspey
+B: RSCDS 10-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Adaped from melody of the song by John Sinclair, 1st half of 19th century.
+M: C|
+L: 1/8
+K: A
+|: e \
+| "A"ABce "D"defa | "A"ecAc "E7"B2e2 \
+| "A7"ABce "D"defa | "E7"edBe "A"c2A :|
+|| e \
+| "A"AG"D"AF "A"EcAB | "A"AG"D"AF "A"EcAB \
+| "A"cd"E"cB "F#m"cagf | "B7"^dBcd "E7"e2FG |
+| "A"ABce "D"defa | "A"ecAc "E7"B2eE \
+| "A7"ABce "D"defa | "E7"ecBe "A"c2A |]
+%%center Book10/LadysBreistKnotR_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lord Eglintoune
+R: reel
+B: RSCDS 10-1(a)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+B \
+| "Bb"FB d/c/B FB DB | FB d/c/B "F7"cC CB \
+| "Bb"FB d/c/B FB DF |1 "Cm"EG"F7"FE "Bb"DCB, :|2  "Cm"Ge"F7"dc "Bb"dB B ||
+|: f \
+| "Bb"dfBf dfbf | dfBd "F7"cFFf \
+|1 "Bb"dfBf dfbf | "Eb"Be"F7"dc "Bb"dBB :|2 "Cm"gecg "Bb"fdBf | "F7"ecFe "Bb"dB B |]
+%%center Book10/LordEglintoune-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lord Eglintoune
+R: reel
+B: RSCDS 10-1(a)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+B \
+| "Bb"FB d/c/B FB DB | FB d/c/B "F7"cC CB \
+| "Bb"FB d/c/B FB DF |1 "Cm"EG"F7"FE "Bb"DCB, :|2  "Cm"Ge"F7"dc "Bb"dB B ||
+|: f \
+| "Bb"dfBf dfbf | dfBd "F7"cFFf \
+|1 "Bb"dfBf dfbf | "Eb"Be"F7"dc "Bb"dBB :|2 "Cm"gecg "Bb"fdBf | "F7"ecFe "Bb"dB B |]
+%%center Book10/LordEglintoune_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lord Eglintoune
+R: reel
+B: RSCDS 10-1(a)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+B \
+| "Bb"FB d/c/B FB DB | FB d/c/B "F7"cC CB \
+| "Bb"FB d/c/B FB DF |1 "Cm"EG"F7"FE "Bb"DCB, :|2  "Cm"Ge"F7"dc "Bb"dB B ||
+|: f \
+| "Bb"dfBf dfbf | dfBd "F7"cFFf \
+|1 "Bb"dfBf dfbf | "Eb"Be"F7"dc "Bb"dBB :|2 "Cm"gecg "Bb"fdBf | "F7"ecFe "Bb"dB B |]
+%%center Book10/LordEglintoune_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Maggie Lauder
+R: strathspey
+O: Adam Craig Collection
+B: Adam Craig Collection
+B: RSCDS 10-8
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+A2 |\
+"D"d3e  df3      d3e  df3  | "Em"e3f    gfed "A7"ce3 e3g |\
+"D"fd3  d3A  "Bm"d3e  d3f  | "A7"a3b     a3g "D7"f3g a3f |
+"G"g3a  gb3   "D"f3g  fa3  | "Em"e3f    gfed "A7"ce3 e3c |\
+"D"dcBA BAGF "Em"GFED E3g  |  "D"fa3 "A7"e3f  "D"d4  d3e |]
+"D"fgaf d3g  "Bm"fgaf d3f  | "Em"e3f    gfed "A7"ce3 e3g |\
+"D"fgaf d3g  "Bm"fgaf defg | "A7"a3b    abag "D7"f3g a3f |
+"G"gfga gbag  "D"fefg fagf | "Em"e3f    gfed "A7"ce3 e3c |\
+"D"dcBA BAGF "Em"GFED E3g  |  "D"fa3 "A7"e3f  "D"d4  d2  |]
+%%center Book10/MaggieLauderStr2_D-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Maggie Lauder
+R: strathspey
+O: Adam Craig Collection
+B: Adam Craig Collection
+B: RSCDS 10-8
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+A2 |\
+"D"d3e  df3      d3e  df3  | "Em"e3f    gfed "A7"ce3 e3g |\
+"D"fd3  d3A  "Bm"d3e  d3f  | "A7"a3b     a3g "D7"f3g a3f |
+"G"g3a  gb3   "D"f3g  fa3  | "Em"e3f    gfed "A7"ce3 e3c |\
+"D"dcBA BAGF "Em"GFED E3g  |  "D"fa3 "A7"e3f  "D"d4  d3e |]
+"D"fgaf d3g  "Bm"fgaf d3f  | "Em"e3f    gfed "A7"ce3 e3g |\
+"D"fgaf d3g  "Bm"fgaf defg | "A7"a3b    abag "D7"f3g a3f |
+"G"gfga gbag  "D"fefg fagf | "Em"e3f    gfed "A7"ce3 e3c |\
+"D"dcBA BAGF "Em"GFED E3g  |  "D"fa3 "A7"e3f  "D"d4  d2  |]
+%%center Book10/MaggieLauderStr2_D_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Planxty George Brabazon
+T: The Isle of Skye
+C: O'Carolan
+B: O'Neill's 657
+B: RSCDS 10-7 (in Bb) as "The Isle of Skye"
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+ge \
+| "G"d2G2 (cB)AG | d2G2 (cB)AG | "Am"e2A2 (AB)cd | e2A2 "D7"(AB)cd |
+y4 \
+| "G"(ed)cB "(C)"g2fe | "G"(ed)cB "(C)"(cB)AG | "G"(BA)GE "D7"(DE)GA | "G"B2G2 G2 :|
+|: (ga) \
+| "G"b2(gb) "D"a2(fa) | "Em"g2(eg) "(C)"(ed)cB | "Am"e2A2 (AB)cd | e2A2 "D7"A2 (ga) |
+y4 \
+| "G"b2(gb) "D"a2(fa) | "Em"g2(eg) "(C)"(ed)cB | "Am"(cB)AG "D7"(DE)GA | "G"B2G2 G2 :|
+%%center Book10/PlanxtyGeorgeBrabazon_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Planxty George Brabazon
+T: The Isle of Skye
+C: O'Carolan
+B: O'Neill's 657
+B: RSCDS 10-7 (in Bb) as "The Isle of Skye"
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+ge \
+| "G"d2G2 (cB)AG | d2G2 (cB)AG | "Am"e2A2 (AB)cd | e2A2 "D7"(AB)cd |
+y4 \
+| "G"(ed)cB "(C)"g2fe | "G"(ed)cB "(C)"(cB)AG | "G"(BA)GE "D7"(DE)GA | "G"B2G2 G2 :|
+|: (ga) \
+| "G"b2(gb) "D"a2(fa) | "Em"g2(eg) "(C)"(ed)cB | "Am"e2A2 (AB)cd | e2A2 "D7"A2 (ga) |
+y4 \
+| "G"b2(gb) "D"a2(fa) | "Em"g2(eg) "(C)"(ed)cB | "Am"(cB)AG "D7"(DE)GA | "G"B2G2 G2 :|
+%%center Book10/PlanxtyGeorgeBrabazon_G_JC.abc

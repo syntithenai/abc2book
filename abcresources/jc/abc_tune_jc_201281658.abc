@@ -1,0 +1,32 @@
+X:285
+T:Gold for Bernice
+C:Colin Hume, 2007-2008
+L:1/4
+M:3/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+H:For Bernice and Ken Jackson on their Golden Wedding.
+Q:1/2=88
+%%MIDI chordname dim 0 3 6 9
+K:Am
+V:1
+%%MIDI program 2
+%%MIDI beat 100 95 80
+P:A
+|: eA/B/ cA Ec | B3/A/ Bc df | eA/B/ cA Fc | B3A A2 | AB/c/ de f3/d/ |
+e/f/e/d/e3E | FE Bd cB | c2 de f2 | FE Be dB | c3B A2 :|
+V:2 bass octave=-2
+%%MIDI program 2
+%%MIDI beat 75 70 55
+%%MIDI chordvol 62
+%%MIDI gchord ccc
+|: "Am"a2 A2 a2 | "Dm"b2 a2 "E7"^g2 | "Am"a2 A2 "Dm"d2 | "E7"e2 ^g2 "Am"a=g | "F"fe "Dm"dc B2 |
+"Am"A2 ac' ba | "Fdim"^g2 "E7"^f2 e2 | "Am"agfe "Dm"d2 | "Fdim"^g2 "E7"^f2 e2 | "Am"a2 "E7"e2 "Am"A2 :|
+V:1
+K:A
+P:B
+|: cd/e/ fe dc | Bc/d/ ec BA | FG/A/ Bc d3/B/ | ce e3/^d/ e2 | ae e3/c/ e2 |
+fc c3/B/ c2 | dB Bc/d/ ef | =gf e3/d/ e2 | eB Bc dc | B3A A2 :|
+V:2
+K:A
+|: "A"a2 "D"d4 | "E"e2 "A"A4 | "Bm"B2 "E"e2 g2 | "A"a2 "B7"b2 "E"e2 | "A"a4 ag |
+"F#m"^f2 ed "C#"^c2 | "Bm"B2- "(Dm)"B2 "A"A2 | "G"=G4 "A"A2 | "E"e4 "Bm"B2 | "E7"e2 E2 "A"A2 :|

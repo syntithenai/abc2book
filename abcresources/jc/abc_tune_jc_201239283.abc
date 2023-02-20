@@ -1,0 +1,46 @@
+X: 32441
+T: DONALD BUTCHER'S BRIDAL (with Variations)
+B: K\"ohler's Violin Repository, v.3, 1885 p.244-245
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 6th part has final repeat but no initial repeat.  Fixed.
+N: The last part has initial repeat but no final repeat.  Fixed.
+M: C|
+L: 1/16
+K: D
+%%slurgraces 0
+|:\
+(vD3F) (D3F) DFEF DEFG | A2GF (BA)GA (F4{GF}) (E2D2) |\
+(G3F) (E>FD>F) (E{FE}DEF) E2gf | e2E2 gfed (B4{AB}) d4 |
+(D3F)(D3F) DFEF DEFG | A2A,2 dcBA (F4{GF}) (E2D2) |\
+G2G,2G2 FE F2A,2F2 ED | E2gf (gf)ed (B4{AB}) d4 :|
+|:\
+vdg (fe/f/) d2A2 Bg (fe/f/) d2D2 | dcBA (B/A/B/c/d)A F4 (E2{FE}D2) |\
+e2E2 eagf e2E2 eagf | edef gefd (B4{AB}) d4 |
+Bg (fe/f/) d2D2 dg (fe/f/) d2(AB/c/) | dcBA (B/A/B/c/d)A (F4{GF}) (E2D2) |\
+GDGB GDGB FDFA FDFA | EFGE gfed (B4{AB}) d4 :|
+|:\
+(vDF)AF (DF)dF (DF)AF (DF)dF | (DF)AF dABA (F4{GF}) (E2D2) |\
+(EG)BG (EG)eG (EG)BG (EG)eG | EGBG gfed (B4{AB}) d4 |
+(DF)AF (DF)dF (DF)AF (DF)dF | (DF)AF (dA)BA (F4{GF}) (E2D2) |\
+GDB,D GDB,D FDA,D FDA,D | e2gf (gf)ed (B4{AB}) d4 :|
+|:\
+(vf/e/f/g/a)f dfdA BdAB FADF | ABcA dcBA (F4{GF}) (E2D2) |\
+bgeB egeB egBe GBEG | eEef gefd (B4{AB}) d4 |
+(f/e/f/g/a)f dfdA BdAB FADF | ABcA dcBA (F4{GF}) (E2D2) |\
+GDGB GDGB FDFA FDAD | EFGE gfed (B4{AB}) d4 :|
+|:\
+(vB/A/B/c/d)A FABD FAfD FABD | FAdD dcBA (F4{GF}) (E2D2) |\
+eEGB cEGB gEGB cEGB | eEGB gfed (B4{AB}) d4 |
+(d/A/B/c/ d)D FABD FAdD FABD | (FA)fD FA (d/c/B/A/) (F4{GF}) (E2D2) |\
+GFGA GABG FEFG FGAF | EFGE gefd (B4{AB}) d4 :|
+|:\
+(va/g/f/e/d)a fdad (f/g/)a da fdAF | dcBA (B/A/B/c/d)A (F4{GF}) (E2D2) |\
+(b/a/g/f/e)b gebe (g/a/)b eb geBG | gfed (e/f/e/f/g)d (B4{AB}) (d2fg) |
+(a/g/f/e/d)a fdad (f/g/)a da fdAF | dcBA (B/c/B/c/d)A (F4{GF}) (E2D2) |\
+G2B2B2 AG F2A2A2 GF | E2gf (fe)dc (B4{AB}) d4 :|
+|:\
+vDFDA, DFDA, DFDA, DFDA, | DEFG AFdA (F4{GF}) (E2D2) |\
+EGEB, EGEB, EGEB, (E/D/E/G/E)B, | edef (g/f/.e) (f/e/)d (B4{AB}) d4 |
+DFDA, DFDA, DFDA, DFDA, | DEFG ADdD (F4{GF}) (E2D2) |\
+(G/F/E/F/G)G, (G/F/E/F/G)G, (F/E/D/E/F)A, (F/E/D/E/F)A, | (E/F/E/F/G)E (g/f/)e (f/e/)d (B4{AB}) d4 "^Fine.":|

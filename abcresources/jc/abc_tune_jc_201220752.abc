@@ -1,0 +1,19 @@
+X: 04018
+T: CLACKETY CLACK
+C: Bob McQuillen 14 Aug 78
+B: Bob's Note Book 04 #18
+%R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+G/A/ \
+| BGG DGG | EFG DGG | BGG ded | dBG A2 G/A/ |\
+| BGG DGG | EFG DGG | BGB dBG | ABA G2 :|
+|: B/c/ \
+| dBd gfg | dBd gfg | ece gfg | eag fge |\
+| dBd gfg | dBd gfg | dge dBG | AGF G2 :|
+%%begintext align
+%% I was a passenger on a train;
+%% its wheels played this tune.
+%%endtext

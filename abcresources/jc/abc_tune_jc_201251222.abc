@@ -1,0 +1,26 @@
+X:1
+T: Beautiful Fields
+N:
+C:Tune is "A Gigg" by William Bird
+S:
+A:
+O:
+R:
+M:6/8
+K:Em
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 37 notes)
+K:Em
+M:6/8
+L:1/16
+B2 |e4 e2 g3 a b2 f2 ^d2 B2 e4 e2 d3 c B2 A4 B2 c4 A2 B4 b2|b3 a g2 f4 e2 ^d4 e2 f4 g2 a4 g2 f3 d f2 e6 e4 B2 |
+%W: A2
+% voice 1 (1 lines, 36 notes)
+e4 e2 g3 a b2 f2 ^d2 B2 e4 e2 d3 c B2 A4 B2 c4 A2 B4 b2|b3 a g2 f4 e2 ^d4 e2 f4 g2 a4 g2 f3 d f2 e6 e4 B2 |
+%W: B1
+% voice 1 (1 lines, 40 notes)
+g2 d2 e2 d3 c B c d4 c2 B2 A4 c d e2 d2 c3 B A2 B3 c d2 e6 |^d3 e f2 g2 f2 g2 f3 g a2 b4 g2 a4 e2 g2 f4 e6 e4 B2 |
+%W: B2
+% voice 1 (1 lines, 39 notes)
+g2 d2 e2 d3 c B c d4 c2 B2 A4 c d e2 d2 c3 B A2 B3 c d2 e6 |^d3 e f2 g2 f2 g2 f3 g a2 b4 g2 a4 e2 g2 f4 e6 e4 ||

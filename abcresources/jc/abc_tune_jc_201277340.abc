@@ -1,0 +1,26 @@
+X: 1
+T: the Fortune Hunter
+%R: march, reel
+B: John Walsh "Caledonian Country Dances"
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/5/50/IMSLP98359-PMLP202128-walsh_caledonian_country_dance_vol2.1.pdf p.97 #357
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:97 #357
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: 2nd part has begin-repeat but no end-repeat.
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+   g | fddg     | ecce | dBAG     | Addg     | fddg | ecce | dBAG | DGG :|
+|: A | BG dc/B/ | ADDA | BG dc/B/ | Ac cB/A/ | Bdgb | Acfa | cABc | BGG |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+   g | d'2b2 | c'2a2 | b2g2 | d'2d2 | d'2b2 | c'2a2 | g2d2 | g3 :|
+|: f | g2g2  | d2d2  | g2g2 | d2d2  | g4    | d4    | f2d2 | g3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Man turns the 2d Wo. with his left Arm and his Partner with his right .|
+%% First Wo. turns the 2d Man with her left arm and her Partner with her right :|
+%% gallop down one Cu. up again and cast off .|
+%% Right and Left with the top Cu. :|:
+%%endtext

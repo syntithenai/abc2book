@@ -1,0 +1,32 @@
+X: 21161
+T: BARCAROLE SETT (tune 1)
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.116 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="1"
+d2 |\
+g3d e3c | BcAB G2Bc | d2d2 d2^c2 | d4 d2c2 |\
+B2B2 B2AG | A2A2 A2GF | BAGF E2^c2 | d4 z2 H|]
+d2 |\
+cdBc A2d2 | cdBc A2d2 | cdBc ABGA | FGEF D2d2 |\
+cdBc A2a2 | cdBc A2a2 | cdBc a2c2 | d4 "^D.C."z2 |]
+dc |\
+B2B2 B2B2 | AGAB A3A | G2GF GABc | d6 cB |\
+A2A^G ABcd | e2ef e2d2 | edcB A2F2 | G4 "^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First four right and left,
+%% balance four,
+%% and turn partners,
+%% ladies chain,
+%% promenade four,
+%% sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

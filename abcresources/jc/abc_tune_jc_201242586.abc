@@ -1,0 +1,16 @@
+X: 361
+T:Swinging on a Gate
+R: Reel
+N: page 128
+N: heptatonic
+M:4/4
+L:1/8
+K:G
+"G"GedB G2 AB | "Am"cABG "D7"AGEG | "G"DGBd g3 g | "Am"fgag "D7"fdef |\
+"G"gedB G2 AB |
+ "Am"cABG "D7"AGEG | "C"cABG AGEG | "D7"DGGF "G"G3 d :|\
+|: "G"g3 a bgaf | "Em"gfed B2 AG | "Am"EAAB cBAG |
+ "Am"EAAB "D7"cdef |"G"g3 a bgaf | "Em"gfed edBd | "C"cABG "Am"AGEG |\
+ "D7"DGGA "G"G4 :|
+%%scale 0.8
+%%newpage

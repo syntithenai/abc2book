@@ -1,0 +1,20 @@
+X: 3
+T: the Polite Return
+%R: jig
+B: "Twenty Four Favourite Dances for the Year 1779", Thomas Straight, ed. p.2 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1779
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|:\
+gfg edc | B2c dBG | e^de ABc | dBG AFD |\
+gfg edc | B2c dBG | edc BAG | FDF G3 :|
+|:\
+FAc c2A | Bdg g2B | cfa a2f | fef d3 |\
+gfg edc | B2c dBG | edc BAG | FDF G3 :|
+%%begintext align
+%% Foot across and turn .|. .|: whole figure
+%% thro' the Second Cu: :|. Cross over and
+%% turn half round :|:
+%%endtext

@@ -1,0 +1,23 @@
+X: 4
+T: When Daylight Shines  [G]
+T: Three Meet
+O: England
+A: Gloucestershire and Cumberland
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 6/8
+L: 1/8
+K: G
+d "A1"\
+| "G"gfe dcB | "D7"d2c A2B | "D7"cBc e2d | "G"B3 GBd \
+| "G"gfe dcB | "D7"d2c A2B | "D7"cBc e2F | "G"G3- G2 |]
+d "A2"\
+| "G"dcB BAG | "D7"F2A e2c | "D7"ded c2d | "G"B3 GBd \
+| "G"dcB BAG | "D7"F2A e2c | "G"d2B "D7"dcA | "G"G3- G2 |]
+D "B1"\
+| "G"G2A B2c | "G"d3 B2d | "G"e2d "D7"c2d | "G"B3 G2D \
+| "G"G2A B2c | "G"d3 g2g | "D7"fed cBA | "G"G3- G2 |]
+E "B2"\
+| "G"GFG B2c | "G"d3 "C"e2c | "G"ded "D7"c2d | "G"B3 G2D \
+| "G"GFG B2c | "G"d3 "C"e2c | "G"d2B "D7"dcA | "G"G3- G2 |]

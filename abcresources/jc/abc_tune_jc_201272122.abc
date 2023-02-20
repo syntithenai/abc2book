@@ -1,0 +1,38 @@
+X: 1
+T: Easter Eve
+P: Longways for as many as will
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.93 #141 (142)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.287
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Two versions of the dance included, since the CCDM1 version is partly illegible along the left edge.
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+g2^f>(ef/) g2d2 | b2ag ^f2d2 | g2d2 (cd)(cB) | A6 ^f2 |\
+g2d2 d2(cB) | (AB)(AG) ^F2d2 | B2(AG) A2^F2 | G4- G4 |]
+[|\
+B2d2- d2cB | ABc2 c2d2 | B2(AB) (cB) (AG) | ^F6 d2 |\
+e2c2 f2d2 | b2(ag) ^f2d2 | e2c2 d2^f2 | g4- g4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The two Men leads through the We. and half figure, and turn in the
+%% contrary Place .| The We. do the same :| The 1st Cu. being in the 2 Cu.
+%% Place, the 1st Man cross over with the 2d Wo. and the 1st Wo. cross
+%% over with the 2d Man, then Hands half round and turn S .| Then right
+%% and left till you come in the 2d Cu. Place, and lead thro' the 2d Cu. and turn
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% The two men leads through the wo. and half Figure, and turn in the contrary place .| The wo. do
+%% the same :| The first couple being in the second cu. place, the I. man cross over with the second wo.
+%% and the first wo. do the same, then hands hand half round and turn single .| Now right and left till you
+%% come in the second couples places, and lead through the second couple and turn.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

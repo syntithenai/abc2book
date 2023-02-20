@@ -1,0 +1,15 @@
+X: 238
+T: Thou of the Beautiful Hair
+R: air, march
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #238
+O: by J.O'Neill
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+Q: "Moderate"
+M: C
+L: 1/8
+K: G
+"^A1"[|] d>c | .B2.B2 (B>AG)B | .d2.d2 (=f>ed)^f | (g2B2) (B>AG)B | (c4 d2) ||
+"^A2"|   d>c | .B2.B2 (B>AG)B | .d2.d2 (=f>ed)^f | e>d BG A3G | G4 G2 |]
+"^B"||  (de) | =f2d2 f2d>e | =f>e ((3dBA) B2(de) | =f2 ((3edB) (g2B2) | ~c4 {de}d2 ||
+"^A2"|   d>c | .B2.B2 (B>AG)B | .d2.d2 (=f>ed)^f | e>d BG A3G | G4 G2 |]

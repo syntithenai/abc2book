@@ -1,0 +1,28 @@
+X: 1
+T: Hayden's Maggot
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (83)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: No repeat instructions, but it looks like each strain should be played twice.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+FGAB c2F2 | c2f2 e2c2 | fedc dcBA | BAGF G4 |\
+G2cB A2G2 | c2fe d2G2 | g3g  edef | d4 c4 |]
+[|\
+cdef g2c2 | g2a2 b4 | a2gf e2f2 | ^c2d2 e2A2 |\
+B2 g4 fe | e4 d4 | fedc dcBA | B2 b4 ag |\
+a2c2 defg | e4 f4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First and 2d Men lead thro the two We. the We. lead thro
+%% the Men and all turn S. .| The 1st Cu. whole figure thro
+%% 2d Cu. and sett and cast off :| Cross over quite round
+%% 3d Cu. and lead thro the Top and turn your Partner .|
+%% Then lead thro the 3d Cu. and thro the 2d Cu. and right
+%% and left with the 3d Cu. :|
+%%endtext
+%%sep 1 8 500

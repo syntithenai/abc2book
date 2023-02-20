@@ -1,0 +1,19 @@
+X: 469
+T: Sto Mi Domilelo
+T: Sopsko Za Pojas
+O: Bulgaria
+Z: Deborah Jones VIFD I
+M: 2/4
+L: 1/8
+Q: 1/4=120
+K: Em
+%%MIDI program 24
+%%MIDI bassprog 115
+|:"Em" (3ABA (3Adz|B2- (3BBA|(3AAG (3GGF|
+"D" (3D^CD (3EFD|[1"Em" E2-E2|(3GAz G2:|[2 E2- (3E-EA|E2 E z|
+|:"D" (3D^CD (3EED|"Em" (3GAz (3GGF|"D" (3D^CD (3EED|
+  "Em" (3GAB (3GGF|"D" (3D^CD (3EED|"Em"(3GAz (3GGF|
+"D" (3GFE (3DEF| "Em" E2 E z:|
+"Em" DE EE|[EG][EA] [EG][EF]| DE EE|[EG][EA] [EG][EF]|
+[EG][EF] [EG][EF]|[EG][EF] E[DE]|EE E[EA]| E2 E z|
+D2Ez|E2 z2| D2Ez|E2z2|e2 e2|b2 Bz|

@@ -1,0 +1,26 @@
+X: 11283
+T: LET'S HAVE A DANCE
+T: From Matthew Locke's Music to "Macbeth."
+Q: "Moderate."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.128 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+c2A d2c | d2g e2e |\
+(fe)d (cB)A | (GA)(G/F/) F2F |\
+c<cA d2c | dg2 e2e |\
+(fe)d (=Bc)d | (GA)=B c2c |\
+G2A B2A |
+(df)e {d}^c2c |\
+d2A B2A | F2E D2D |\
+G2F E2G | c2A d2e |\
+fed cf2 | (df)e f2e |\
+fed cf2 | (df)e f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

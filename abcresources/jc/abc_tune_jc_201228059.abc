@@ -1,0 +1,28 @@
+X: 11051
+T: COTILLION No. 18. Basket Sett tune 5
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.1105 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+.E.A !ff! |\
+c2Ac e2.c.e | .a2.g2.a2.g2 | .f2.e2.d2.c2 | (edcd) d2FB |\
+d2.B.d f2.d.f | b2^g2b2=a2 | (agfe) (gfdB) | A2a2a2 H:|
+|: e2 !mf!|\
+g2bg e2.g.e | B2.e.B G2BG | (FB).^d.f a2F2 | (GB)eg .b2.g2 |\
+.e2.g.b .B2.e.g | G2.B.e E2GB | (ag).f.g (ba).f.^d | e2e2"^D.C."e2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance and turn,
+%% next 2 forward, &c.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

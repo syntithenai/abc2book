@@ -1,0 +1,45 @@
+X: 4
+T: the Prince Regent
+O: 1810
+%R: march
+B: A Musical Souvenir of the Royal Pavilion - Brighton"
+F: https://www.mediafire.com/folder/d9iv45ggjx1fu/Royal_Pavilion_-_Brighton
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+P: Top staff for violin, flute or flageolet, bottom staffs for piano.
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%staves [1 {2 3}]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 nm="violin\nflute or\nflageolet"
+|:\
+A2 FG | Ad f2 | Be ge | dcBA |\
+A2FG | Ad f2 | ce Ac | d2 d2 :|
+e2 cd | ef g2 | f2 de | fg a2 |\
+b2 gb | a2 fa | gfge | dcBA |]"^D.C."y
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=treble staves=2 nm="piano"
+|:\
+[A2F2] [A2F2] | [A2F2] [A2F2] | [B2G2] [B2G2] | A2 z2 |\
+[A2F2] [A2F2] | [A2F2] [A2F2] | [G2E2] [G2E2] | [F2D2] [F2D2] :|
+[E2C2] [E2C2] | [E2C2] [G2E2] | [F2D2] [F2D2] | [F2D2] [A2D2] |\
+[B2D2] [B2G2] | [A2D2] [A2F2] | [G2E2] G^G | A2 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d nm="forte"
+|:\
+D2 d2 | D2 d2 | G2 E2 | A2A2 |\
+D2 d2 | D2 d2 | A2 A2 | D2 d2 :|
+A2 a2 | A2c2 | d2 D2 |  d2 f2 |\
+G2 d2 | f2 d2 | g2 e2 | a2 A2 |]"^D.C."y
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% [The 2nd line] may be omitted in the absence of the Violin, or Flute, and the
+%% Piano Forte to play the first & third lines.
+%%endtext
+% %sep 2 2 400
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Turn 3 round first with the 2d Lady _ lead down the middle & Allemande.
+%%endtext
+% %sep 2 2 400

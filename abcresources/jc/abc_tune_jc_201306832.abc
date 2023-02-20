@@ -1,0 +1,986 @@
+% %musicspace	0.0cm
+%%textfont       Times-Bold 14.0
+
+%%text 1
+
+X:1
+T:Dorset Four Hand Reel #1
+R:reel
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:G
+BA| "G"G2B2 d2cB| "C"c2e2 c2e2| "G"G2B2 d3c| "D"B2A2 A2BA|
+    "G"G2B2 d2cB| "C"c2e2 c2e2| "G"G2B2 "D7"d3c| "G"B2G2G2 :|
+|:\
+d2| "C"g2g2 gfe2| "G"d2d2 dcB2| "D"A2AB c2d2| "G"e2d2 d2ef|
+    "C"g2g2 gfe2| "G"d2d2 dcB2| "D7"A2AB c2A2| "G"G4 G2 :|
+
+%%vskip 1cm
+X:2
+T:Dorset Four Hand Reel #2
+R:reel
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:A
+E2| "A"A2ce aecA| "D"d2f2 d2f2| "A"A2ce aecA| "E7"B2e2 B2e2|
+    "A"A2ce aecA| "D"d2f2 d2f2| "E7"e2gf edcB| "A"A2a2 a2 :|
+|:\
+cd| "A"e2c2 e2c2| "D"f2d2 f2d2| "A"e2c2 e2c2| "E7"B2e2 e3e |
+    "A"e2c2 e2c2| "D"f2d2 f2d2| "E7"e2gf edcB| "A"A2a2 a2 :|
+
+%%newpage
+%%text 2
+X:3
+T:Ragtime Annie
+R:rag
+M:C|
+K:D
+FE| "D"DFBF AFBF| DFBF A2FE| DEFG ABAF| "A"A2c2 c2cB|
+    "A"ABcA B2cB| ABcA BAcB| ABcd egfe| "D"d2dc d2:|
+\
+fg| "D"a2ab afd2| A6 fg| a2ab agf2| "G"g6 ef|
+    "A"gfef gfef| gagf e2ef| gagf edcB| "D"A6 fg|
+    "D"a2ab afdB| A2AB A2A2| [F4d4] "C"[E4=c4]| "G"[G6B6] A2|
+    "G"B2b2 b2ag| "D"f2a2 a2gf| "A"A2ef gfec| "D"d4 z2 |]
+
+X:4
+T:Liza Jane
+R:reel
+M:C|
+K:A
+ef| "A"a2f2 e2ce| fecB A4| a2f2 e2c2| "D"f4 f2ef|
+     "A"a2f2 e2ce| fecB A2AB| "D"cBAF "E"E2F2| "A"A6 :|
+|:\
+BA| "A"c4 c3A| B2(A2 A)ABA| c2B2 A2E2| "D"(F6 F)E|
+     "D"F2A2 "E"B3A| BAcA B2AB| "D"cBAF "E"E2F2| "A"A6 :|
+
+X:5
+T:Johnny, Don't Get Drunk
+R:reel
+M:C|
+K:D
+"D"fa2f a2g2| "A7"fdec "D"d4| "G"BABc dBAG| "A7"F2E2 E4|
+"D"fa2f a2g2| "A7"fdec "D"d4| "G"BABc d2g2| "A7"fdec "D"d4 :|
+|:\
+"D"F2A2 A4| FA2F A4| "G"BABc dBAG| "A7"F2E2 E4|
+"D"FA2F A4| "G"BABc d4| BABc d2g2| "A7"fdec "D"d4 :|
+
+%%newpage
+%%text 3
+X:6
+T:Liberty
+R:reel
+M:C|
+K:D
+"D"f2A2 f2A2| fgfe d2ef| "G"g2B2    g2B2| gagf e2de|
+"D"f2A2 f2A2| fgfe d2ef| "G"gfed "A"cABc| "D"d2f2 d4 :|
+|:\
+"D"A2AB AGFE| DFAd f2d2| A2AB AGF2| "A"E3F E2FG|
+"D"A2AB AGFE| DFAd f2ef| "G"gfed "A"cABc| "D"d2f2 d4 :|
+
+%%vskip .2cm
+X:6
+T:The Rakes of Mallow
+R:polka
+M:C|
+K:G
+(3DEF| "G"G2B2 G2B2| G2B2 cBAG| "D"F2A2 F2A2| F2A2 dcBA|
+       "G"G2B2 G2B2| G2B2 d3B| "C"cBAG "D7"FGAc| "G"B2G2 G2 :|
+|:\
+(3def| "G"g2fe d2c2| B2c2 d3B| g2fe d2c2| B2d2 "D"A3d|
+       "G"g2fe d2c2| B2c2 d3B| "C"cBAG "D7"FGAc| "G"B2G2 G2 :|
+
+%%vskip .2cm
+X:8
+T:Staten Island
+R:reel
+M:C|
+K:D
+AG| "D"FDFG A2A2| dfed "D7"dcBA| "G"B2GB "D"A2FA| "A"G2E2 E2AG|
+    "D"FDFG A2A2| dfed "D7"dcBA| "D"d2d2 "A"efge| "D"f2d2 d2 :|
+|:\
+fg| "D"a2fa "A"g2eg| "D"f2df "A"ecA2| "C"=c2c2 efge| =c2c2 efge|
+    "D"a2fa "A"g2eg| "D"f2df "A"ecA2| "D"d2d2 "A"efge| "D"f2d2 d2 :|
+
+%%newpage
+%%text 4
+X:9
+T:Miss Thompson
+R:reel
+M:C|
+K:D
+(3ABc| "D"d2df edcB| "A"A2AB AGFE| "D"DFAF "G"DGBG| "D"DFAF "G"GFED|
+       "D"d2df edcB| "A"A2AB AGFE| "D"DFAd "A7"fedc| "D"d2dc d2:|
+|:\
+cd| "A"ecec Acec| "D"fdfd Adfd| "G"gege "D"fdfd| "E7"edcB "A"A2FA|
+    "G"BGBG DGBd| "D"AFAF DFAd| FAde "A7"fedc| "D"d2dc d2:|
+
+% %vskip 2pt
+X:10
+T:Spootiskerry
+R:reel
+C:Ian Burns \2511980
+M:C|
+K:G
+DE| "G"G2DE GDEG| DEGA "D"B2AB| "G"G2DE "Em"GABd| "C"eged "D"B2AB|
+    "G"G2DE GDEG| DEGA "G7"B2AB| "C"g2ed "Am"edBA| "D7"dBAB "G"G2:|
+\
+ef| "Em"g2ed edB2| BABG "C"E2DE| "G"GABd "Em"eged| "A7"B2A2 "D7"A2ef|
+    "Em"g2ed edB2| BABG "C"E2DE| "G"GABd "C"eged| "D"B2G2 "G"G2ef|
+    "Em"g2ed edB2| BABG "C"E2DE| "G"GABd "Em"eged| "A7"B2A2 "D7"A2DE|
+    "G"G2DE GDEG| DEGA "G7"B2AB| "C"g2ed "Am"edBA| "D7"dBAB "G"G2 |]
+
+% %vskip 2pt
+X:11
+T:Mason's Apron
+R:reel
+M:C|
+K:A
+ed| "A"c2A2 ABAF| EFAB dcBA| "Bm"d2B2 BcBA| Bcde gfed|
+    "A"c2A2 ABAF| EFAB dcBA| "D"Bcde "Bm"fefa| "E"edcB "A"A2 :|
+|:\
+ed| "A"cAeA fAeA| cAeA fedc | "Bm"dBfB gBfB| dBfB "E"gfed|
+    "A"cAeA fAeA| cAeA fedc | "D"Bcde "Bm"fefa| "E"edcB "A"A2 :|
+
+%%newpage
+%%text 5
+X:12
+T:Girl I Left Behind Me, The
+R:reel
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:G
+gf| "G"e2d2 B2G2| "C"ABAG E2(3DEF| "G"G2G2 GABc|"D7"d4 B2gf|
+    "G"e2d2 B2G2| "C"ABAG E2G2| "D"F2A2 D2EF| "G"G4 G2 :|
+|:\
+GA| "G"B2d2 e2f2| g2d2 B2A2| BGBd edef| g2ag "D"f2gf|
+    "G"e2d2 B2G2| "C"ABAG E2G2| "D"F2A2 D2EF| "G"G4 G2 :|
+
+%%vskip 28pt
+X:13
+T:Leather Away the Wattle O
+R:reel
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:D
+fe| "D"d2A2 F2A2| d3d d2f2| "G"e2d2 c2d2| "A"e2f2 g2fg|
+    "D"(3a2g2f2 "A"g2e2| "D"d2c2 "A"A2F2| "Em"G2B2 "A"ABAG| "D"F2D2 D2 :|
+|:\
+e2| "D"f2ff f2d2| "G"g2gg "A"g2e2| "D"f2ff f2a2| "Em"g2f2 "A"e2fg|
+    "D"a2f2 "A"g2e2| "D"d2c2 A2F2| "Em"G2B2 "A"ABAG| "D"F2D2 D2 :|
+
+%%vskip 28pt
+X:14
+T:Reel de Montr\'eal
+R:reel
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:G
+d2| "G"g2fe dcBA| GBDG B2AG| "D7"FADF AcBA| "G"GBDG B2Bd|
+    "G"g2fe dcBA| GBDG B2AG| "D7"FGAB cdef| "G"g2g2 g2 :| [K:D]\
+|: \
+z2 |\
+"D"A2FA d2Ad| f2df a2ab| "A7"a2g2 e2g2| "D"b2a2 f2d2|
+"D"A2FA d2Ad| f2df a2ab| "A7"a2g2 e2c2| "D  (D7)"d4-d2 :|
+
+%%newpage
+%%text 6
+X:15
+T:John Howett
+R:reel
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:D
+%%textfont       Times-Roman 9.0
+%%text Repeat part A 4 times
+fg| "D"a2fd "A"g2ec| "D"d2AG FDDF| "Em"E2FG ABcd|1 "A"eAfA g2fg :|2 "A"eABc "D"d2 :|
+|:\
+"D"defg aAfA| "G"gfed "A"ceAe| "D"defg aAfA| "G"gba^g "A"a4|
+"D"abaf "G"gfed| "Em"efgA "A"GFED| "D"F2AF "G"G2BG| "A"Addc "D"d4 :|
+
+%%vskip 8pt
+X:16
+T:Auld Grey Cat, The
+R:reel
+Z: Transcribed to abc by Mary Lou Knack
+P:E Dorian
+M:C|
+K:EDor
+"Em"e2e2 E3F| GFGA BABc| "D"d2d2 D3E| FAdB AFED|
+"Em"e2e2 E3F| EFGA BABc| "D"dcBA "B"BAGF|1 "Em"E4 e3^d :|2 "Em"E4 e3|]
+|:\
+d| "Em"B2e2 e3d| Bdef gfed| "D"A2d2 d3B| ABde fedf|
+   "Em"e2B2 g2B2| "C"a2B2 "B"b3a| "Am"gfed "B"BAB^d|1 "Em"e4 e3 :|2 "Em"e4 e4 |]
+
+%%vskip 8pt
+X:17
+T:Dinky's Reel
+R:reel
+Z: Transcribed to abc by Mary Lou Knack
+P:A Mixolydian
+M:C|
+K:Amix
+ed| \
+"A"cdBc ABcd| egfd edBd| "G"gB (3.B.B.B gBaB| gB (3.B.B.B gfed|
+"A"cdBc ABcd| egfd edBd| "G"gfge "D"dfed| "E"cdBc "A"A2 :|
+e^g| \
+"A"aA (3.A.A.A aAbA| aA (3.A.A.A agef| "G"gB (3.B.B.B gBaB| gB (3.B.B.B gefg|
+"A"aA (3.A.A.A aAbA| aA (3.A.A.A agef| "G"gfge "D"dfed| "E"cdBc "A"A2e^g|
+"A"aA (3.A.A.A aAbA| aA (3.A.A.A agef| "G"gB (3.B.B.B gBaB| gB (3.B.B.B gefg|
+"A"aA (3.A.A.A "G"gA (3.A.A.A| "D"fA (3.A.A.A "A"e2ef| "G"gfge "D"dfed| "E"cdBc "A"A2|]
+
+%%newpage
+%%text 7
+X:18
+T:Scotty O'Neil
+R:reel
+C:Bob McQuillen 1973
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:D
+AG| "D"F2D2 A2F2| "G"dedc BABc| "D"d2A2 G2F2| "A"F2 E4 AG|
+    "D"F2D2 A2F2| "G"dedc BABc| "D"d2A2 "A"ABAG| "D"F2 D4 :|
+|:\
+AG| "D"F2A2 f2e2| "G"d2c2 B3c| "D"d2A2 G2F2| "A"F2 E4 AG|
+    "D"F2D2 f3e| "G"dedc BABc| "D"d2A2 "A"ABAG| "D"F2 D4 :|
+
+%%vskip 28pt
+X:19
+T:Scollay's Reel
+R:reel
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:Em
+"Em"E3F G3A| BcBA GEGA| B2E2 EFG2| "D"FGAF D2F2|
+"Em"E3F G3A| BcBA GEGA| B3c "B7"BAFA| "Em"G2E2 E4 :|
+|:\
+"Em"efge B2B2| g2g2 B4| "Am"c2BA "Em"G2G2| "D"FGAF D3F|
+"Em"E3F G3A| BABd e2d2| B3c "B7"BAFA| "Em"G2E2 E4 :|
+
+%%vskip 28pt
+X:20
+T:'Round the Horn
+R:reel
+C:Jay Ungar
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:G
+(3DEF| "G"G2GA BAGA| Bd2e d4| "C"cdef e2g2| "D"a6 ga|
+       "Em"b2b2 "D"agfa| "C"gfed "G"BAGB| "Am"A2d2 BAG2|1 "Em"E4- "D7"E2 :|2 "Em"E8 |]
+|:\
+"C"e3f e2d2| "G"B6 B2| "Am"A3A G2A2| "Bm"B2 d6|
+"C"g3a g2e2| "G"dedc BAGB| "Am"A2d2 BAG2|1 "Em"E8 :|2 "Em"E4- "D7"E2 |]
+
+%%newpage
+%%text 8
+X:21
+T:Reel Eug\`ene
+R:reel
+Z:Transcribed to abc by Mary Lou Knack
+M:C|
+K:D
+"Bm"B2Bc dcB2| "Em"e2ef gece| "F#7"f2fg fede| fbbf bfdc|
+"Bm"B2Bc dcB2| "Em"e2ef gece| "F#7"f2fg fedc|1 "Bm"B4 "F#7"F4 :|2 "G"B4 "A7"A4 |]
+|:\
+"D"f2fe d2dB| AAdf "Do"b2f2| "Em"a2ag e2 (3cec| "A7"Aceg (3faf e2|
+"D"f2fe d2dB| AAdf "Do"b2f2| "Em"a2ag egec|1 "A7"dfec "D"d3e :|2 "A7"dfec "D"d4 |]
+
+%%vskip 1cm
+X:22
+T:L\'evis Beaulieu
+R:reel
+Z:Transcribed to abc by Debbie Knight
+M:C|
+K:A
+ed|"A"c2AA AcBA | "D"FBAF "A"E3A |"Bm"BABc d2B2 |"E"AAAc efed |
+"A"c2AA AcBA | "D"FBAF "A"E3A |"Bm"BABc "E"dBed |1 "A"c2A2 A2 :|\
+						[2 "A"c2A2 A2ce |]
+|:\
+"A"a2ab afed |cAce a2ef | "G"=g2ga ged=c   |B=GBd =g2e^g|
+"A"a2ab afed |cAce a2ee | "Bm"efec "E"dBed |1 "A"c2A2 A2ce  :|\
+					   [2 "A"c2A2 A4|]
+
+%%newpage
+%%text 9
+X:23
+T:Dedicado a Jos
+R:reel
+D:from La Boutine Souriante, "Je Voudrais Changer du Chapeau" album
+Z:Transcribed to abc by Debby Knight
+M:C|
+K:D
+F4|\
+"Bm"B3c d3e   |fgfd B3f |"F#m"fgfd c3f  |"Bm"fgfd  B2F2|
+"Bm"B2Bc dcde |fgfd B3f |"F#m"fgfd cedc |"Bm"B4 F4 |
+"Bm"B3c d3e   |fgfd Bfff|"F#m"fgfd c3f  |"Bm"fgfd  B2F2|
+"Bm"B2Bc dcde |fgfd Bfff |"F#m"fgfd cedc |"Bm"B4 "A7"A4  |]
+\
+%%textfont Times-Bold 10.0
+%%text Part B
+"D"f8 |"G"g4^g4 |"A7"a3a a4-  |a2g2 f2e2| a3a a4- |a2g2 f2e2|"D"f2df dfdf |"A7"cfcf B2A2|
+"D"f8  |"G"g4^g4 |"A7"a3a a4-  |a2g2 f2e2| a3a a4-  |a2g2 f2e2|"D"d3A "A7"BAFA  |"D"d2FF F4 |]
+%%vskip .5cm
+%%text Last B
+"D"f8 |"G"g4^g4 |"A7"a3a a4-  |a2g2 f2e2| a3a a4- |a2g2 f2e2|"D"f2df dfdf |"A7"cfcf B2A2|
+"D"f8  |"G"g4^g4 |"A7"a3a a4-  |a2g2 f2e2| a3a a4-  |a2g2 f2e2|"D"d2 "A7"A2 |"D"d2   |]
+%%vskip .5cm
+%%text B Harmony
+F8  | G4^G4 | c3c c4- |c2B2 A2G2 | c3c c4- |c2B2 A2G2 |"D"f2df dfdf |"A7"cfcf B2A2|
+F8  | G4^G4 | c3c c4- |c2B2 A2G2 | c3c c4- |c2B2 A2G2 |"D"d3A "A7"BAFA |"D"d2FF F4   |]
+%%textfont       Times-Bold 14.0
+
+%%newpage
+%%text 10
+X:24
+T:McQuillen's Squeezebox
+R:reel
+C:Ralph Page
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:C
+%%musicspace     0
+E2F2| "C"G3A G2F2| E2G2 c2A2| G3A G2F2 | E4 D2E2|
+      "G"F3G F2E2| D2G2 B2d2|1 "C"c3d "Am"c2A2| "G7"G4 :|2 "C"c3d "G"c2B2| "C"c4 |]
+|:\
+c2d2| "C"e3f e2d2| c2G2 c2d2| e3f e2d2| c4 B2c2|
+      "G"d3e f2e2| d2G2 B2c2|1 d3e "C#dim"f2e2| "G7"d4 :|2 "G7"d2c2 e2d2| "C"c4 |]
+
+%%vskip .5cm
+X:25
+T:Bonaparte Crossing the Rhine
+R:march
+Z: Transcribed to abc by Mary Lou Knack
+M:C
+K:D
+FG| "D"A>BAF A2de| f>efa d2dc| "G"B>cdB "D"AFED| "A"E2EF E2FG|
+    "D"A>BAF A2de| f>efa d2dc| "G"B>cdB "D"AF"A"EF| "D"D2D>E D2de|
+    "D"f>efg a2aA| "G"B>ABc "D"d3A| "G"B>cdB "D"AFDF| "A"E2E>F E2FG|
+    "D"A>BAF A2de| f>efa d2dc| "G"B>cdB "D"AF"A"EF| "D"D2D>E D2 |]
+
+%%vskip .5cm
+X:26
+T:March of Saint Timothy
+C:Judi Morningstar \2511985
+M:C|
+L:1/8
+K:G
+"G"B3c d2B2| "D7"A3B c2A2| "Em"G3A B2G2| "Bm"G2F2 E2D2| "C"E3F G2E2|
+"G"D2G2 B2d2|1 "Am"c3B A2G2| "D7"F2A2 D2c2 :|2 "Am"cBAG "D7"F2A2| "G"G6 |]
+\
+dd| \
+"D7"c2d2 A2c2| F2A2 D2dd| "G"B2d2 G2B2| D2G2 B,2dd|
+"D7"c2d2 A2c2| F2A2 D2dd| "G"d2D2 E2F2| G2A2 B2dd||
+"D7"c2d2 A2c2| F2A2 D2dd| "G"B2d2 G2B2| D2G2 B,2G2|
+"C"E3F "C#dim"G2E2| "G"D2G2 "Em"B2d2| "Am"cBAG "D7"F2A2| "G"G8 |]
+
+%%textfont       Times-Bold 14.0
+
+%%text 11
+X:27
+T:Gasp\'e Reel
+R:reel
+M:C|
+K:D
+"D"f2ef e2dB| AFAF B2A2| "A7"g2fg f2ed| BABc (3BcBA2|
+"D"f2ef e2dB| AFAF B2A2| "A7"g2fg f2ed| B2c2 "D"d4 :|
+|:\
+"A7"e2f2 g2fe| "D"f2g2 a4| "A7"e2f2 g2e2| "Em"BABc "A7"(3BcBA2|
+"A7"e2f2 g2fe| "D"f2g2 a4| "A7"e2f2 gfed| B2c2 "D"d4 :|
+
+%%vskip .5cm
+X:28
+T:Eddie's Reel
+R:reel
+M:C|
+K:G
+G2 |: "G"DGBd gag2| DGBd gag2| DGBd gfed| "D7"c4 cdcB|
+     "D7"AFAd fgf2| AFAd fgfe|1 d2d2 eged| "G"B4 BcBA :|2 "D7"d2d2 cAFA| "G"G6|]
+\
+d2| "G"[B4b4] [B2b2][B2a2]| [B4g4] [B2g2]d2|  [B2b2][B2b2] [B2a2][B2g2]| "D7"[A4f4] [A2f2]d2|
+   "D7"[A4a4] [A2a2][A2g2]| [A4f4] [Af][Ag][Af][Ae]| [D2d2][D2d2] [Ae][Ag][Ae][Dc]| "G"[D4B4] [D2B2]d2|
+    "G"[B4b4] [B2b2][B2a2]| [B6g6] z2| [B4b4] [B2b2][B2b2]| "C"[c4c'4] [c2c'2][A2e2]|
+   "Am"[A4a4] [A2a2][A2g2]| "D7"[A4f4] [Af][Ag][Af][Ae]| d2d2 cAF[DA]| "G"G6 |]
+
+%%vskip .5cm
+X:29
+T:Joys of Quebec
+R:reel
+M:C|
+K:A
+ee| "A"eccc c2ee| eccc c2ee| fAeA dAcA| "E7"dBBB B2dd|
+    "E7"dBBB B2dd| dBBc B2(3Bcd| |1 "E7"e2ee gfeg| "A"fe^df e2 :|2 \
+                                    "E7"e2ee fefg| "A"a6 |]
+|:\
+(3ABc| "A"[A4e4] "D"[A4f4]| "A"[e3A3][fA] [A2e2]AB| \
+       "A"[c4e4] "D"[d4f4]| "A"[c3e3]d [c2e2]Ac|
+       "A"B2A2 G2A2| "E7"B3c B2Bc|1 d2e2 gfeg| "A"fe^df e2 :|2 \
+                                "E7"d2e2 fefg| "A"afec A2 |]
+
+%%newpage
+%%text 12
+X:30
+T:Flowers of Edinburgh, The
+R:reel
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:G
+GE| "G"D2DE G2GA| BGBd cBAG| "D"FGEF DEFG| "D7"AFdF E2GE|
+    "G"D2DE G2GA| BGBd "C"efge| "G"dcBA "D"GFGA| "G"B2G2 G2 :|
+|:\
+ef| "G"g2gf gbag| "D"f2fe fagf| "C"edef gfed| "Em"B2e2 e2ge|
+    "G"dBGB d2Bd| "C"edef g2fe| "G"dcBA "D"GFGA| "G"B2G2 G2 :|
+
+%%vskip 1cm
+X:31
+T:Fisher's Hornpipe
+R:hornpipe
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:D
+(3ABc| "D"dAFA "G"GBAG| "D"FDFD "G"GBAG| "D"FDFD "G"GFGB| "D"AFDF "A"E2 (3ABc|
+       "D"dAFA "G"GBAG| "D"FDFD "G"GBAG| "D"FAdf "A"gece| "D"d2d2 d2 :|
+|:\
+cd| "A"ecAc efge| "D"fdAd fgaf| "A"ecAc efgf| "E"edcB "A"A2A2|
+    "G"BGDG BcdB| "D"AFDF ABcA| "G"BcdB "A"AGFE| "D"D2D2 D2 :|
+
+%%vskip 1cm
+X:32
+T:Temperance Reel
+R:reel
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:G
+(3DEF|:\
+"G"G2GF GABc| dBge dBAc| "Em"BEED EFGA| "D"BGAF GFED|
+"G"G2GF GABc| dBge dBAc| "Em"BEED EFGA|1 "D"BdAF "G"G2(3DEF :|2 "D"BdAF "G"G2|]
+|:\
+B2| "Em"Beed e3f| geaf gfed| "D"Bdde d3e| geaf gfed|
+    "Em"Beed e3f| geaf gfed| BEED EFGA |1 "D"BdAF "G"G2 :|2"D"BGAF "G"GFED|]
+
+%%newpage
+%%text 13
+X:33
+T:Saint Anne's Reel
+R:reel
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:D
+A2| "D"f2fg fedB| A2FG AFAd| "G"BGGF G2FG| "D"BAAF A2de|
+    "D"f2fg fedB| A2FG AFAd| "G"BGBd "A"cAce| "D"dfec d2 :|
+|:\
+ag| "D"fdfa fdfa| "A"aggf g2gf| edcB ABce| "D"baa^g a2 a=g|
+    "D"fdfa fdfa| "A"aggf g2gf| edcB ABce| "D"fdec d2 :|
+
+%%vskip 1cm
+X:34
+T:Reel des Onions
+R:reel
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:G
+"G"gage d2"G#o"Bd| (3"Am"cdc A2 A4| "D"feee eddd| dccc c2B2|
+"G"gage d2"G#o"Bd| (3"Am"cdc A2 A4| "D"D2fe dcBA|1 "G"G2g2 g4:|2 "G"G2g2 g2 |]
+|:\
+Bc| "G"d2g2 ggfg| "Am"a6 (3ABc| "D"d2a2 aaga| "G"b6 Bc|
+    "G"d2g2 ggfg| "Am"a6 (3ABc| "D"d2a2 aaba|1 "G"g6 :|2 "G"g8 |]
+
+%%vskip 1cm
+X:35
+T:Reel Saint Antoinne
+R:reel
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:A
+"A"a3a aece| aaa2-aece| agfe "A#o"dcBA| "Bm"GABc "E7"defg|
+"A"a3a aece| agab aece| agfe "Bm"dcBA| "E7"GABc "A"A4 :|
+|:\
+"A"c3c cAce| dcBA "A#o"GABc| "Bm"d3d dBdf| edcB AGAB|
+"F#m"c3c cAce| "Bm"dcBA GABc| "E7"defg afed| cdBc "A"A4 :|
+
+%%newpage
+%%text 14
+
+% %musicspace 0
+% %staffsep       40.0pt
+% %botmargin	0.70cm
+% %topmargin	0.60cm
+X:26
+T:Kesh Jig
+R:jig
+M:6/8
+K:G
+D| "G"G3 GAB| "D"ABA ABd| "G"edd gdd| edB "D"dBA|
+   "G"G3 GAB| "D"ABA ABd| "G"edd gdB| "D"AGF "G"G2 :|
+|:\
+A| "G"B3 dBd| "C"ege "G"dBG| BAB dBG| "Am"ABA AGA|
+   "G"B3 dBd| "C"ege "G"dBd| "C"g3 "D"aga| "G"bgg g2 :|
+
+%%vskip 2pt
+X:38
+T:Stan Chapman
+R:jig
+C:Jerry Holland
+M:6/8
+K:A
+%%musicspace 4
+F| "A"E3 EFA| "E"B3 Bce| "D"fea "F#m"fec| "Bm"ecA "E"BAF|
+   "A"E3 EFA| "E"B3 Bce| "D"fea "E"fec| "A"ecA A2 :|
+|:\
+f| "A"e3 ecA| "D"f3 fga| "A"fec BAB| "F#m"cAF F2f|
+[1 "A"e3 ecA| "D"f3 fga| fec "E"BAB| "A"cAA A2 :|
+[2 "A"ecA ecA| "D"fdf fga| fec "E"BAB| "A"cAA A2 |]
+
+%%vskip 2pt
+X:39
+T:Morrison's Jig
+R:jig
+M:6/8
+K:Edor
+%%staffsep       39.5pt
+"Em"E3 BEB| EBE "D"AFD| "Em"E3 BEB| "D"dcB AGF|
+"Em"E3 BEB| EBE "D"AFD| "G"G2G FGA| "D"dAG FED :|
+\
+"Em"Bee fee| aee "D"fed| "Em"Bee fee| "D"fag fed|
+"Em"Bee fee| bee "D"fed| edc d2A| "B7"BAG F3|
+"Em"Bee fee| aee "D"fed| "Em"Bee fee| "D"faf def|
+"G"g2g gfe| def g2d| "D"edc d2A| "B7"BAG F3|] "Em"HE4|]
+
+
+%%newpage
+%%text 15
+X:40
+T:Coleraine
+R:jig
+M:6/8
+K:Am
+E| "Am"EAA ABc| "E"Bee e2d| "Am"cBA ABc| "E"B^GE E2E|
+   "Am"EAA ABc| "E"Bee e2d| "Am"cBA "E"B^GE| "Am"(A3 A2) :|
+|:\
+B| "C"c2c cdc| "G"Bdg g2^g| "Am"aed cBA| "E"^GBG E^FG|
+   "Am"A^GA "E"BAB| "Am"cde "Dm"fed| "Am"cBA "E"B^GE| "Am"(A3 A2) :|
+
+%%vskip .5cm
+X:41
+T:Shandon Bells
+R:jig
+M:6/8
+K:D
+B| "D"AFD DFA| ded cBA| "Em"BGE EFA| "A7"B2 A ABc|
+   "D"AFD DFA| ded cBA| "G"Bcd "A7"ecA|1 "D"d3 dc :|2 "D"d3 d2|]
+|:\
+g| "D"f2 (d d)ed| faa afd| "A"cAA eAA| "A7"cBc efg|
+   "D"f2 (d d)ed| faa afd| "G"Bcd "A7"ecA| "D"d3 d2:|
+
+%%vskip .5cm
+X:42
+T:Calliope House
+R:jig
+C:Dave Richardson
+M:6/8
+K:E
+B| "E"eBB gBB| fBB gBB| "A"cff f2e| "B"fge cec|
+   "E"BcB B2G| B2c e2f|1 "A"gbg gfe| "B"f3 f2:|2 "A"gbg "B"fec| "E"e3 ega|]
+|:\
+ "E"b3 gbb| fbb gbb| "A"a3 gag| "B"fgf fec|
+   "E"BcB B2G| "C#m"B2c e2f|1 "A"gbg gfe| "B"f3 fga:|2 "A"gbg "B"fec| "E"e3 e2|]
+
+
+%%newpage
+%%text 16
+X:43
+T:Medway Jigs I, The
+R:jig
+C:Paul Milde  1994
+M:6/8
+K:G
+%%leftmargin     1.80cm
+%%staffwidth     18.0cm
+GA| "G"BAB "C"cBc| "G"dBG "C"EFG| "G"DGA BAG| "D"ded dGA|\
+    "G"BAG "C"cBA| "D"def "G"gdB| "C"ecA "D"FAF| cAF "G"G2D|
+    "G"GFG "C"ABG| "G"dBG "C"EFG| "G"DGA "Em"BAG| "D"ded dGA|\
+    "G"BAG "C"cBA| "D"def "G"gdB| "C"ecA "D"FAF| DAF "G"G2|]
+\
+d| "G"cAf "C"edg| "D"fef "G"gfg| "D"aga "G"bag| "A"fge "D"d2B|\
+"G"b2g "D"agf| "C"efg "G"d2g| "C"efg "D"agf| "G"g3- g2d|
+"G"cAf "C"edg| "D"fef "G"gfg| "D"aga "G"bag| "A"fge "D"d2B|\
+"G"b2g "D"agf| "C"age "G"d2B| "C"ced "D"cAF| "G"G3- G|]
+
+%%vskip 1cm
+X:44
+T:Medway Jigs II, The
+R:jig
+C:Paul Milde  1994
+M:6/8
+K:G
+%%leftmargin     1.80cm
+%%staffwidth     18.0cm
+"G"BAG BAG| BAG d2G| B2G "C"AGE| "D"D3 C3|\
+"G"B,CD D2G| D2E G2A| B2d dcB| "D"A3- A2G|
+"G"BAG BAG| BAG d2G| B2G "C"AGE| "D"D3 C3|\
+"G"B,CD D2E| D2E G2 A| "D"B2B AGA| "G"G3- G2 |]
+\
+d| "G"Bcd dcB| "C"c2d g2d| "G"Bcd e2d| "C"c2B "D"A3|\
+   "G"B2c dcB| "D"A2B c2A| "Em"GAB BAG| "D"A2F "G"G2d|
+   "G"Bcd dcB| "C"c2d g2d| "G"Bcd e2d| "C"c2B "D"A3|\
+   "G"Bcd "D"c2A| "G"B2G "D"ABc| ABc "G"B2G| "D"A2F "G"G3|]
+
+%%vskip 1cm
+X:45
+T:Medway Jig #3
+R:jig
+C:Paul Milde  1997
+M:6/8
+K:G
+%%leftmargin     1.80cm
+%%staffwidth     18.0cm
+D| "G"G3 "D"FGA| "G"G3 D2G| B2d dcB| "D"AGA "G"B2d| \
+      d2c B2A| GAB "D"A2D| "G"G2G "D"F2G| AGF "G"G2 :|
+\
+d| "C"e3 efg| "G"d3 dcB| "D"cBA "G"BAG| "Am"ABe "D"d2d| \
+   "C"e3 efg| age "G"d2B| "C"cde "G"dcB| "D"FGA "G"G2d|
+   "C"e3 efg| "G"d3 dcB| "D"cBA "G"BAG| "Am"ABe "D"d2d|1 \
+   "C"e3 gfe| "G"ded B2G| "D"A2c "G"BAG| "D"FGA "G"G2 |]
+P: Last time
+%%staffwidth 10.0cm
+   "C"e3 gfe| "G"d3  B2d| "D"A2c "G"BAG| "D"FGA "G"G3|]
+
+%%newpage
+%%text 17
+X:46
+T:Roaring Jelly
+R:jig
+M:6/8
+K:D
+%T: Smash the Windows
+A,| "D"DED F2A| d2f "A"ecA| "G"G2B "D"F2A| "A"E2F GFE|
+    "D"DED F2A| d2f "A"ecA| "G"Bgf "A"edc| "D"(d3 d2) :|
+\
+a| "D"a2f d2f| A2a agf| "A"g2e c2e| A2g gfe|
+   "D"f2 d "A"g2 e| "D"a2 f "G"bag| "D"fed "A"edc| "D"(d3 d2) a|
+   "D"agf fed| Adf agf| "A"gfe ecA| Ace gfe|
+   "D"fed "A"gfe| "D"agf "G"bag| "D"fed "A"edc| "D"(d3 d2) |]
+
+%%vskip .5cm
+X:47
+T:Squirrel in the Tree
+R:jig
+M:6/8
+K:G
+d2c|: "G"BBB B2B| B2A GAB| "C"ccc c2B| c2d efg|
+      "D"fff fff| fed cBA|1 "G"GBd "D"e2d| "G"B3 Bdc:|2 "G"GBd "D"b2a| "G"g3 d2|]
+|:\
+g| "G"bbb b2b| b2a "C"gfe| "G"ddd d2e| d2c Bdg|
+   "D"fff fff| fed cBA|1 "G"GBd "D"e2d| "G"B3 Bd:|2 "G"GBd "D"bfa| "G"g3 g2|]
+
+%%vskip .5cm
+X:48
+T:Fair Jenny's Jig
+R:jig
+C:Peter Barnes \2511977
+M:6/8
+K:D
+A| "D"f3 fgf| "A"ecA ecA| "G"Bcd "A"ecA| "G"Bcd "A"e2A|
+   "D"f3 fed| "A"ecA ecA| "G"Bcd "A"e2A| ABc "D"d2 :|
+|:\
+A| "G"B3 B=cB| GBB B=cB| "D"ADD dDD| ^cDD "D7"=cDD|
+   "G"B3 B=cB| GBB B=cB| "A"AEA "A7"AB^c| "D"dAF D2 :|
+
+%%newpage
+%%text 18
+X:49
+T:Jig of Slurs
+R:jig
+C:G. S. MacLellan
+Z: Transcribed to abc by Mary Lou Knack
+P:D & E Dorian
+M:6/8
+K:D
+A| "D"Add dcd| "G"Bdd "D"Add| "G"Bdd "D"Add| "Em"Bee "A"edB|
+   "D"Add dcd| "G"Bdd "D"Add| "G"Bdd "A"cde| "D"fdd d2:|
+|:\
+B| "D"Aff fef| aff fed| "Em"Bee ede| "G"fed "A"edB|
+   "D"Aff fef| aff fed| "G"Bdd "A"cde| "D"fdd d2 :| [K:Edor]\
+|:\
+B| "G"Ggg gfg| "Em"age "G/D"gdB| "G"Ggg gfg| "D"age "G"g2 B|
+   "G"Ggg gfg| "Em"age "G"ged| "Em"Bee efg| fed e2:|
+|:\
+G| "G"GBB Bdd| dee "Em"edB| "G"GBB Bdd| dee "Em"efg|
+   "G"GBB Bdd| dee edB| "Em"Bee efg| "D"fed "Em"e2:|
+
+%%newpage
+%%text 19
+X:50
+T:All the Rage
+R:jig
+C:Larry Unger \2511989
+Z: Transcribed to abc by Mary Lou Knack
+M:6/8
+K:E
+e| "E"fgg gfe| fgg g2e| "A"cee "E"Bee| "F#m7"gfe "B7"f2e|
+   "E"fgg gfe| fgg g2b| "A"gfe "B7"fed| "E"e3- e2:|
+|:\
+e| "A"cee "E"Bee| "A"cee "E"B2e| "A"ece "F#m7"fef| "E"gbg "B7"f2e|
+   "A"cee "E"Bee| "A"cee "E"B2b| "A"gfe "B7"fed| "E"e3- e2:|
+
+%%vskip 1cm
+X:51
+T:Blue Jig, The
+R:jig
+C:Joel Mabus
+Z: Transcribed to abc by Mary Lou Knack
+M:6/8
+K:Am
+%C: J-61
+"A7"A3 cBA| cBA a3| age _edc| "D7"d^de d=dc|
+"A7"A3 cBA| cBA a3| age "D7"cAG| "E7"_EDC "A"A,3:|
+|:\
+"D7"^FAB cBA| ^FAB cBA| "A7"^ce^f gfe| ^ce^f gfe|
+"D7"^FAB cBA| ^FAB cBA| "A7"age "D7"cAG| "E7"_EDC "A"A,3 :|
+\
+%%textfont Times-Bold 10.0
+%%text B Harmony
+Acd ^d=dc |Acd ^d=dc |ega ^a=ag |ega ^a=ag |
+Acd ^d=dc |Acd ^d=dc | age cAG| _EDC A,3 :|
+%%textfont       Times-Bold 14.0
+
+%%newpage
+%%text 20
+X:52
+T:Aunt Mary's Canadian Jig
+R:jig
+Z: Transcribed to abc by Mary Lou Knack
+M:6/8
+K:D
+z2A| "D"f2f fga| d2d dcB| ABA "B7"AGF| "Em"E2E E2A|
+   "A7"e2e efg| e2d c2B| ABA ABA|1 "D"F3 :|2 "D"d3 |]
+|:\
+z2A| "D"ABA faf| e2d d2z| AFA "B7"BcB| "Em"A2G G2z|
+   "A7"GFG efe| d2c c2B|1 ABA ABA| "D"F3  :|2 "A7"ABA ABc| "D"d3 |]
+
+%%vskip 1cm
+X:53
+T:Mist Over Tennessee
+R:jig
+Z: Transcribed to abc by Mary Lou Knack
+M:6/8
+K:G
+"D7"d2c| "G"B2B BGE| DGB d3| "C"ege "G"dBG|
+"Am"c3 "D"cAB| c2c cAF| DFA c3| ded cBA|1 "G"B3:|2 "G"G3 g2a|]
+|:\
+"G"b3 g3| ded B3| DGB DGB| "Am"c3 cBc|
+"D"a3 f3| d3 dBc| ded cBA|1 "G"B2c d2g:|2 "G"G3|]
+
+%%vskip 1cm
+X:54
+T:Hommage a Jos. Bouchard
+R:jig
+C:Philippe Bruneau
+H:Written by Philippe Bruneau, in honor of Joe Bouchard
+D:From Sam Bartlett, then Mario Loiselle
+Z:Translated to abc by Debbie Knight
+M:6/8
+K:C
+"C"E3 EFA| G3GAB| cBc "F"dcA| "A"G2G "Am7"EGc| \
+"Dm"B2B "G"GBd|
+ "Dm"f2f "G"GBd|1 "Dm"bag "G"fed| "C"cdc "G7"BAG:|\
+[2 "G"bag fed| "G"c3-"E7"cAB|]
+\
+K: Am
+\
+"Am"c2c cBc| AEE EAB| c2c cBc| "Bm7"BEE "E7"E3| \
+"Bm7"d2d dcd| \\"E7"BEE E^GB| "E"eEE "Fdim"dEE| "F#dim"cEE "E7/G#"BAB |\
+"Am"c2c cBc| AEE EAB| c2c cBc| \\"Bm7"BEE "E7"E3| \
+"Bm7"d2d dcd| "E7"BEE E^GB| "E7"efe dcB|1 "Am7"A3 "G7"G3 |][2 "A"A3-A3|]
+
+% %musicspace	0.0cm
+%%textfont       Times-Bold 14.0
+
+%%text 21
+X:55
+T:Just Because #1
+R:square
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:G
+d2e2f2 | "G"g2g2 g2g2| g4 e2d2| g2 g6-| g2 d2e2f2| g2g2 g2g2| g4 e2d2| "D7"f8-| f6 d2|
+"D7"f2f2 f2f2| f4 e2d2| f2 f6-| f6 f2| e4 e2e2| f4 e4| "G"d8-| "D7"d2 d2e2f2|
+"G"g2g2 g2g2| g4 e2d2| g2 g6-| g2 d2e2f2| g4 g2g2| a4 g2=f2| "C"e8-| e6 e2|
+"C"g4 g2g2| "Am"a4 g2a2| "C"b4 g2f2| "E7"e6 d2| "A7"e8| "D7"f4 b4| "G"g8-| g2 |]
+
+%%vskip 1cm
+X:56
+T:Just Because #2
+R:square
+Z: Transcribed to abc by Mary Lou Knack
+P:Intro
+M:C|
+K:G
+% %staffwidth 16.5cm
+%%staffwidth 8cm
+D2^D2| "A7"E8| "D7"F4 B4| "G"G8-| G2 |
+P:
+%%staffwidth 14.5cm
+|:D2E2F2| "G"G2G2 G2G2| G4 E2D2| G2 G6-| G2 D2E2F2| G2G2 G2G2| G4 E2D2| "D"F8-| F6 D2|
+"D"F2F2 F2F2| F4 E2D2| F2 F6-| F6 F2| "Am"E4 E2E2| "D7"F4 E4 "G"D8-| D2 D2E2F2|
+"G"G2G2 G2G2| G4 E2D2| G2 G6-| G2 D2E2F2| "G7" G4 G2G2| A4 G2=F2| "C"E8-| E6 E2|
+"C"G4 G2G2| "Amdim"A4 G2A2| "G"B4 G2F2| "E7"E6 D2| "A7"E8| "D7"F4 B4| "G"G8-| G2 |]
+%%textfont       Times-Bold 10.0
+%%text Last time - replace last two lines with
+%%vskip 5pt
+"C"G4 G2G2 |"Amdim"A4 G2A2 |"G"B4 G2F2 |"E7"E6 D2| "A7"E8 |"D7"F4 B4 |"G"G4 F2=F2 |"E7"E6 D2 |
+"A7"E8 |"D7"F4 B4 |"G"G4 F2=F2 |"E7"E6 D2| "A7"E8 |"D7" F4 B4 |"G"G8-|G2|]
+
+%%textfont       Times-Bold 14.0
+
+%%newpage
+%%text 22
+X:57
+T:My Little Girl
+R:square
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:G
+B,C^C| "G"D4- DDEF| A2G4FG| A2G2 D2E2| "D7"F4 zA,A,B,|
+       "D7"C4- CDEF| B2A4^GA| B2A2 F2 E2| "G"D4 zB,C^C|
+       "G"D4- DDEF| A2G4FG| "G7"A2G2 B2A2| "C"E4 zE^DE|
+       "E7+5"c4- cB^GE| "A7"B2A4^GA| "D7"B2A2 F2D2| "G"G4 z|]
+
+%%vskip 1cm
+X:58
+T:Smoke on the Water
+R:square
+C:Zeke Clements
+Z:Transcribed to abc by Mary Lou Knack
+P:Intro
+M:4/4
+K:F
+%%staffwidth     8.5cm
+A2c2 c2d2| c2A2 F2G2| A2F2 G2E2| F2z2|
+P:
+%%staffwidth     14.50cm
+C2D2| \
+"F"F2F2 F2G2| F2D2 C2D2| "Bb7"F2F2 F2D2| "F"F4 C2D2| \
+F2F2 F2D2| F2F2 A2A2| "G7"G2F2 E2D2| "C7"C4 C2D2|
+"F"F2F2 F2G2| F2D2 C2D2| "Bb7"F2F2 F2D2| "F"F4 F2G2| \
+A2c2 c2d2| c2A2 F2G2| "C7"A2F2 G2E2| "F"F4 C2D2|
+"F"F2 F4 G2| F2D2 C2D2| "Bb7"F2 F4 D2| "F"F4 C2D2| \
+F2F2 F2D2| F2F2 A2A2| "G7"G2F2 E2D2| "C"C4 C2D2|
+"F"F2z2 F2z2| F2D2 C2D2| "Bb"F2 F4 D2| "Bdim"F4 F2G2| \
+"F"A2c2 c2d2| c2A2 F2G2| "C7"A2F2 G2E2| "F"F4 |]
+
+%%newpage
+%%text 23
+X:59
+T:Hewlett
+R:waltz
+C:O'Carolan
+H: From Paul Milde 12/9/82
+Z: Transcribed to abc by Mary Lou Knack
+M:3/4
+K:D
+AF| "D"D2 DE FG| "A"AB c2 A2| "Bm"d2 f2 fg| "G"fe d3 B| \
+    "D"A2 F2 F2| "G"G3 B AG| "D"AF "G"D2 "A"D2|1 "D"D4:|2 "D"D6|]
+|:\
+"D"A2 F2 AB| A2 F2 AB| A2 d2 d2| "Bm"dc BA GF| \
+"Em"G2 E2 GA| G2 E2 EF| "A"GF GB AG| "D"AF D3 E|
+"D" FE F2 G2| "A"AB c2 A2| "Bm"fe fg ag| "G"fe d3 B|\
+"D"A2 F2 F2| "G"G3 B AG| "D"AF "G"D2 "A"D2| "D"D6:|
+
+%%vskip 1cm
+X:60
+T:Marleen's Last Goodnight
+R:waltz
+C:Bruce A. Randall 1992
+Z: Transcribed to abc by Mary Lou Knack
+M:3/4
+L:1/4
+K:G
+G/A/| "G"Bzd/B/| "D"ABA| "C"GEG| "G"D2G/A/| Bzd/B/| GAB| "A7"AEG| "D"F2G/A/|
+      "G"Bzd/B/| "D"ABA| "C"GEG| "G"D2G/A/| Bdz/B/| "D"ABA| "C"G3-| "G"G2|]
+|:\
+d/d/| "C"ece| g2f/e/| "G"dBd| g2 d/d/|"A"^cBA| "A7"AB^c| "D"d3-| "D7"d2G/A/|
+      "G"Bzd/B/| "D"ABA| "C"GEG| "G"D2G/A/| Bdz/B/| "D"ABz/A/| "C"G3-| "G"G2:|
+
+%%vskip 1cm
+X:61
+T:Penobscot Memory
+R:waltz
+C:by Vince O'Donnell
+D:
+Z:Transcribed to abc by Debby Knight
+M:3/4
+K:G
+D2|"G"DB3B2 | "F"A=F2G AF |"G"G3ABc |d2B2G2 |"C"ce3e2 |"G"d3B GB |"F"A6-|"D"A4 D2|
+"G"DB3B2 | "F"A=F2G AF |"G"G3A  Bc |B2G2D2 |"C"EG3 G2 |"D"DA3 BA|"C"G6-|"G"G2 "B7"G2F2|
+\
+"Em"E4 E2 |e3f ge |"D"fg fe d2-|d2f2a2 |"C"g4 g2-|g2 f2e2 |"G"d6-|d2 "B7"G2F2 |
+"Em"E4 E2 |"C"g4 g2 |"G"e d-d4 |"Em"e4 B2 |"Am"A3  B c2-|"D"c2 B2 A2 |"C"G6-|"G"G4|]
+
+%%newpage
+%%text 24
+X:62
+T:Chinese Breakdown
+R:square
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:D
+A2| "D"d2A2 B2A2| F2 F4 A2| d2A2 B2A2| "A"E8| \
+       c2A2 B2A2| c2 c4 B2| A2A2 B2A2| "D"D6 A2|
+    "D"d2A2 B2A2| F2 F4 E2| D2D2 E2F2| "G"G8| \
+    "A"e2 e4 d2| c2 c4 B2| A2A2 B2c2| "D"d8|]
+\
+"D"f2af e2d2| f2 f6| f2af e2d2| "A"c8| \
+   a2aa a2a2| g2 g6| e2c2 B2A2| "D"f8 |
+"D"f2af e2d2| f2 f6| d2d2 e2f2| "G"g8| \
+"A"e2 e4 d2| c2 c4 B2| A2A2 B2c2| "D"d6|]
+
+% %vskip .5cm
+X:63
+T:Looney Tunes
+R:square
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:D
+% P: A
+A2| "D"ddc2 B2A2| F6 A2| ddc2 B2=c2| "A"^c8| \
+       c2A2 B2A2| c2A2 B2A2| A2_B2 =B2c2| "D"d2f2 d2 :|
+
+%%vskip 1cm
+X:64
+T:Olde Tyme Quadrille
+R:reel
+C:Bob McQuillen June 1975
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:D
+FG| "D"ABde d2A2| B2A2 A2FG| ABde f2d2| "A"c6 EF|
+    "A"GAGF E2d2| c2E2 E2EF| GABd c2B2| "D"B4 A2FG|
+    "D"ABde d2A2| B2A2 A2FG| ABde f2d2| "G"c2B2 B2cd|
+    "G"efed "G#dim7"c2Bc| "D"defd "B7"A2FA| "Em"B2d2 "A7"cdec| "D"d6 |]
+\
+dc| "Bm"BcBc d2f2| g2f2 fedc| Bcde f2d2| f6ef|
+    "Em"gagf e2g2| "Bm"fgfd B2d2| "C#7"c2B2 _B2=B2| "F#7"c4 d3c|
+    "Bm"BcBc d2f2| g2f2 fedc| Bcdc B2f2| "Em"e6gf|
+    "Em"e2B2 B2fe| "Bm"d2B2 B2cd| "F#7"c2g2 fedc| "Bm"B6|]
+
+%%newpage
+%%text 25
+X:65
+T:? Polska after Bagg Lars Johansson ?
+R:hambo
+Z: Transcribed to abc by Mary Lou Knack
+M:3/4
+K:G
+"G"B>c d>B G>B| "D"A>B c>A F2| f>e d>c B>A| "G"B>c d>B G2|
+"G"B>c d>B G>B| "D"A>B c>A F2| f>e d>c B>A| "G"G2 G4:|
+\
+|: "C"g>f e3 g| "D"f>e "G"d4| "D"f>e d>c B>A| "G"B>c d>B G2|
+   "C"g>f e3 g| "D"f>e "G"d4| "D"f>e d>c B>A| "G"G2 G4:|
+%%vskip 10pt
+P: second fiddle
+G>A B>G D>G| F>G A>F D2| d>c B>A G>F| G>A B>G D2|
+G>A B>G D>G| F>G A>F D2| d>c B>A G>E| D2 [B,4D4]:|
+\
+|: e>d c3 e| d>c B4| d>c B>A G>F| G>A B>G D2|
+   e>d c3 e| d>c B4| d>c B>A G>E| D2 [B,4D4]:|
+

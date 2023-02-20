@@ -1,0 +1,36 @@
+X: 1070
+T: the Nassau
+P: Longways for as many as will
+R: slip-jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+M: 9/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+AFA DEF GFB | BAd e/f/gf e2A |\
+AFA DEF GFB | BAd e/f/ge d2 :|
+|: e |\
+e>dc/B/ A2B G2F | B>AG/F/ E2D    E3 |\
+EFG     GFB BAd | dcd     e/f/ge d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d3 f3 e2g | f2d a2d A3 |\
+d3 f3 e2g | f2d g2a d2 :|
+|: A |\
+a3 f2g e2f | g2B c2d A2B |\
+c3 e2g f2d | g2f g2a d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First sides with your own Wo. then on the other side; then both clap hands & make
+a Pass at each other, then turn your own Wo. once & a half & so on to the next till
+you come to your own Places. then the 1st Man take his own Wo. by the Right Hand
+holding it up till the 2d Wo. passes under; then face about while the 2d Wo
+goes back again, then they 3 clap hands & make a Pass altogether & all 3
+turn single, then take Hands & do the same to the 2d Man & to to the End.
+%%endtext

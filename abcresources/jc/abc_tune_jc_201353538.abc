@@ -1,0 +1,31 @@
+X: 1
+T: Woo'd & Married & aw
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.2:9
+M: 9/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+f |\
+c2B AGA F3 | c2c cfA c2f | c2B AGA FGA | D2e de^c d2 :|\
+|: f |\
+cde fgf edc | A2c cdB c2f |
+cde fgf edc | A2d de^c d2f |\
+cde fgf edc | ABc fcA c2f | cdB ABG FGA | D2d de^c d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+c |\
+f3 F3 f3 | f3 F3 f3 | f3 F3 f3 | d3 D3 d2 :|
+|: c |\
+f3 F3 c3 | f3 F3 f3 | f3 F3 c3 | d3 D3 d3 |
+f3 F3 c3 | f3 F3 f3 | f3 F3 f3 | d3 D3 d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. cast off one Cu. and hands round with the 3d Cu. .|
+%% case up again and hands round with the 2d Cu. :|
+%% Gallop down one Cu. up again & cast off :|
+%% Right hands and Left
+%%endtext
+%%sep 1 8 500

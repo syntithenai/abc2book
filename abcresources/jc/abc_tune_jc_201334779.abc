@@ -1,0 +1,16 @@
+X: 729
+T: Scotch Mary   #3
+R: reel
+%S: s:2 b:12(6+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #729
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0729/oneill-1001-0729-1.abc
+N: Compacted via repeats and multiple endings [JC]
+%m: ~n2 = o/4n/m/4n
+M: C|
+L: 1/8
+K: Ador
+"^A"[|]\
+   (AB) | cE-~E2 cded | cEEF G2(AB) |[1 cE-~E2 cded | cABG A2 :|[2 cEEG cded | cABG A2 |]
+"^B"\
+[| (cd) |:: eaag efed |[1 ^cdef g2 fg :|[2 cABG A2(^cd) :|[3 cdef g2(fg) | afge fded | cABG A2 |]

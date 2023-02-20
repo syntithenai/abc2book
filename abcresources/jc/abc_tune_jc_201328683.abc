@@ -1,0 +1,26 @@
+X:1
+T: Rebecka Ridinghoode
+N:
+C:
+S:adapted
+A:
+O:
+R:
+M:3/2
+K:G
+I:speed 200
+%W:         A
+% voice 1 (1 lines, 21 notes)
+K:G
+M:3/2
+L:1/16
+B4 c4 ||d8 |g4 f4 |e4 d4 |c8 |A4 G4 |A4 B4 |G8 |A4 B4 |c4 e4 |d8 |d8 |B4 c4 |
+%W:
+% voice 1 (1 lines, 20 notes)
+d8 |g4 f4 |e4 d4 |c8 |A8 |B4 c4 |d8 |e4 d4 |^c2 d2 e2 |d2 d8 |d8 |c4 B4 |
+%W:         B
+% voice 1 (1 lines, 19 notes)
+c8 |B4 A4 |B4 G4 |c8 |c8 |B4 A4 |G8 |G2 A2 B4 |G4 F4 |G8 |d8 |c4 B4 |
+%W:
+% voice 1 (1 lines, 17 notes)
+c8 |B4 A4 |B4 G4 |c8 |c8 |B4 A4 |G8 |G2 A2 B4 |G4 F4 |G8|G8 |||

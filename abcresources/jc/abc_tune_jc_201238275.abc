@@ -1,0 +1,30 @@
+X: 304
+T: Black at the Bane.   a Strathspey.
+C: Old.
+R: strathspey, air
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c." p.30 #3 (incl. 6 top staffs of p.31)
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow when not Danced."
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted slightly for 4 6-bar lines, 3rd strain starting at left.
+V: 1 staves=2
+E |\
+D<G-~G>A G>AGB | A>BG>D E/E/E ~E2 | D<G-~G>A G>AGB | A>G {GA}B>A {A}G2G :| g | (b/a/g/e/) g>B {B}A>BAa | (b/a/g/e/) g>B d>eg>d |
+e<gTd>B ~d>e~g>a | (b/a/g/e/) g>B G>AB>G || A<BTe2 d<B TB>G | A>BG>D E/E/E ~E2 | D<G-~G>A G>AG>B | A>G {GA}B>A {A}G2G |]
+|: B |\
+G<g-g>a Tg>ag>b | a>bg>d e/e/e ~e2 | d<g-~g>a g>ag>b | Ta>g {ga}b>a {a}g2g :| a | b>e g>B {B}A2 Aa | b>e g>B ~d>eg>d |
+e<gd>B Td>eg>a | b>e g>B ~G>AB>G || A<B {B}g>e d>AB>G | A>BTG>E E/E/E ~E2 | D>EG>B G>Bd>e | d>BTB>A {A}G2G |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | G2g2 B2G2 | d2B2 c2C2 | G2g2 B2G2 | d2D2 G2G :| z | G2g2 d2D2 | G2g2 g2b2 |
+c'2b2 g2g2 | g2g2 b2g2 || d2c2 B2G2 | d2B2 c2c2 | B2G2 g2G2 | d2D2 G2G |] |: z |
+G2g2 b2g2 | d'2b2 c'2c2 | B2g2 b2g2 | d'2d2 g2G :| z | G2g2 d2d'2 | g2g2 g2b2 |
+c'2b2 g2g2 | g2g2 b2g2 || d2e2 f2g2 | d2B2 c2[c2C2] | B2G2 g2Bc | d2D2 G2G |]
+% = = = = = = = = = =

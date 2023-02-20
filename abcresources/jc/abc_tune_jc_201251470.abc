@@ -1,0 +1,32 @@
+X: 1
+T: Belasi\vcko Oro   [C]
+O: Macedonia
+N: Play entire tune twice for three times through the dance.
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/Intl/
+M: 4/4
+L: 1/8
+K: C
+"A"|:::\
+"C"[eG][cE][d2F2] "G7"~[d2F2][cE][dF] | ~[e2G2][dF][cE] "C"[eG][fA][gB][fA] |\
+"C"[eG][cE][d2F2] "G7"~[d2F2][cE][dF] |\
+	[1,3 ~[e2G2][dF][cE] "C"[cE][dF][eG][fA] :|\
+	[2   ~[e2G2][dF][cE] "C"[cE]z [gB][fA] :|\
+	[4   ~[e2G2][dF][cE] "C"[cE]z3 |]
+"B"|:::\
+"F"[eG][fA][fA]z ~[f2A2][eG][fA] | "G"[gB][fA][eG][dF] "C"~[e2G2][dF][cE] |\
+"C"[eG][cE][dF]z "G7"~[d2F2][cE][dF] |\
+	[1,3 ~[e2G2][dF][cE] "C"[cE][dF][eG][cE] :|\
+	[2,4 ~[e2G2][dF][cE] "C"[cE]z3 :|
+"C"|:::\
+"Am"~A2AA eAde | "G"gfed "C"~e2cB | "Am"~A2AA "Dm"dAde |\
+[1,3 "F"~c2"G"BG "Am"ABcd :|[2,4 "F"~c2"G"BG "Am"Az3 :|
+"D"|:::\
+"G"dGGG DGBd | ~c2BG "Am"Az cd | "G"dGGG DGBd |\
+[1,3 cdBd "Am"~A2AA :|[2,4 cdBd "Am"Az3 :|
+K: Dm
+"E"|:::\
+"Dm"~d2dd adga | "C"c'bag "F"~a2fe | "Dm"~d2dd "Gm"gdga |\
+	[1,3 "Bb"~f2"C"ec "Dm"defg :|[2,4 "Bb"~f2"C"ec "Dm"dz3 :|
+"F"|:::\
+"C"gccc Gceg | ~f2ec "Dm"dz fg | "C"gccc Gceg |\
+	[1,3 fgeg "Dm"~d2dd :|[2,4 fgeg "Dm"dz3 :|

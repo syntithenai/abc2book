@@ -1,0 +1,69 @@
+
+X: 1
+T: Quando Tremondo
+O: Italia
+R: waltz
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+"I"[|\
+"D"a3 g fg | "A7"e3 f ga | gf ef ga | "D"f2 d4 |\
+"D"A3 G FG | "A7"E3 F GA | GF EA Bc | "D"d2 d2 z2 |
+"A"|:\
+"D"A2 Bc ed | F3 A c2 | "Em"B2 G4- | G6 |\
+"A7"A2 AA AB | c3 B dc |"D"B2 A2- | A6 :|
+"B"[|\
+"D"A2 AA A2 | "B7"B3 A GF | A6 | "Em"G6 |\
+"A"c2 c2 c2 | c6 | "E7"B2 c2 d2 | "A7"e6 |]
+"C1"[|\
+"D"f2 ed ed | "G"c2 B4 | "A7"e2 d2 c2 | "D"B2 A4 |\
+"F#"c2 cc cc | "Em"BA G4 | "A7"c2 cc cc | "D"BA F4 ||
+"C2"||\
+"D"f2 ed ed | "G"c2 B4 | "A7"e2 d2 c2 | "D"B2 A4 |\
+"Em"B2 d2 e2 | "Bm"f3 B cd | "A7"e4 f2 | "D"d6- | d4 Hz2 |]
+
+%%sep 2 1 500
+
+X: 2
+T: Quando Tremondo
+O: Italia
+R: waltz
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+V: 1
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"I"[|\
+a3 g fg | e3 f ga | gf ef ga | f2 d4 |\
+A3 G FG | E3 F GA | GF EA Bc | d2 d2 z2 |
+"A"|:\
+A2 Bc ed | F3 A c2 | B2 G4- | G6 |\
+A2 AA AB | c3 B dc | B2 A4- | A6 :|
+"B"[|\
+A2 AA A2 | B3 A GF | A6 | G6 |\
+c2 c2 c2 | c6 | B2 c2 d2 | e6 |]
+"C1"[|\
+f2 ed ed | c2 B2 z2 | e2 d2 zc | B2 A4 |\
+c2 cc cc | BA G2 z2 | c2 cc cc | BA F4 ||
+"C2"||\
+f2 ed ed | c2 B4 | e2 d2 zc | B2 A4 |\
+B2 d2 e2 | f3 B cd | e4 f2 | d6- | d4 Hz2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+"I"[|\
+"D"f3 d AA | "A7"[A3E3] B ge | eA Ad ec  | "D"A,D FA df |\
+"D"A3 G AD | "A7"C2 B,2 A,2 | E2 C2 E2 | "D"[F4A,4] z2 |
+"A"|:\
+"D"F2 Ec BA | A3 A Ad | "Em"FG AG EG | E6 |\
+"A7"[E2C2] EE ED | E3 B AE |"D"B,2 F2 D2 | d6 :|
+"B"[|\
+"D"[D2A,2] DE FA | "B7"^D3 F FE | "B7"[A6B,6] | "Em"E3 D CD |\
+"A7"B,3 F GA | "A7"[A3E3] A GA | "E7"ED B,D EA, | "A7"E3 D CD |]
+"C1"[|\
+"D"A2 ef cA | "G"GD G,B, DG | "A7"Bc dA FA | "D"Bc d2 z2 |\
+"F#"A2 AA AA | "Em"GF E2 z2 | "A7"E2 EE ED | "D"ED D4 ||
+"C2"||\
+"D"A2 GF GF | "G"G2 G4 | "A7"E2 F2 G2 | "D"AG F4 |\
+"Em"GA Bd ee | "Bm"B3 B, CD | "A7"[A2E2] C2 FE | "D"[F6-D6-] | [F4D4] Hz2 |]

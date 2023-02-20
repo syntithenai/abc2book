@@ -1,0 +1,19 @@
+X: 1
+T: Lady Cathrine Stewart's Strathspey
+O: Niel Gow?
+R: Strathspey
+B: First Collection of Strathspey Reels, Niel Gow.
+B: Caledonian Companion, p.102.
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: EDorian
+e "A"\
+| "Em"B<E B>A "D"B>A F>A | "Em"B<E E>F "D"D>E F<A \
+| "Em"B<E B>A "D"B>A F>A | "Bm"Bc/d/ "B7"B/A/G/F/ "Em"E3 :|
+F "B1"\
+| "D"D<d d>e d/c/B/c/ d2 | F<A A>B B/A/G/F/ A2 \
+| "Em"Be- ef/g/ g/f/e/d/ e2 | "Bm"B/A/B/d/ "B7"B/A/G/F/ "Em"E3 |]
+F "B2"\
+| "D"D<d d>e d/c/B/c/ d2 | F<A A>B B/A/G/F/ A2 \
+| "Em"Ee e>f g>e f<d | "Bm"B>d "B7"B/A/G/F/ "Em"E3 |]

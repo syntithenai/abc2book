@@ -1,0 +1,41 @@
+X: 43
+T: la Belle Paisanne.
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #43
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+A2c |\
+e2a agf | e3 fdd | ecc BAB | c3 A2c |\
+e2a agf | g3 bge | cag fef | e3 |
+|: c2e |\
+efe edc | d3 B2d | ded dcB | c3 CDE |\
+EFE CDE | EFE EFG | Adc BAG | A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+A3 |\
+a3 d3 | c3 d3 | A3 e3 |
+a3 A3 | c3 f3 | e3 g3 | a3 b3 |
+e3 :||: a3 | c'3 f3 | b3 b3 | e3 g3 |
+a3 a3 | g3 a3 | g3 a2g | f2c d2e | A3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Belle Paisanne.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Couple Queue du Chat
+%% and Allemande with each others Partner, then
+%% return to their places - - - - 1/2
+%%endtext
+%%begintext align
+%%   The second and fourth do the same - - 1/2
+%%endtext
+%%sep 1 1 400

@@ -1,0 +1,23 @@
+X: 2242
+T: Fairly Shot of her. Jigg.
+%R: jig
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.24 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no end-repeat symbol; not fixed.
+M: 6/8
+L: 1/8
+K: Em
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 8-bar lines.
+V: 1 staves=2
+B, |:\
+(E/F/G).E (E/F/G).E | TE2B- BG.E | (E/F/G).E (E/F/G).E | D2A- AFD ||\
+(E/F/G).E (E/F/G).E | TE2B- BGB | cBA dcB | D2A- AFD :|
+|:\
+(B/c/d).E TB2E | (B/c/d).E BGE | (B/c/d).E TB2E | (B/c/d).B AFD ||\
+B/c/d.E TB2E | B/c/dc BGB | cBA dcB | D2A- AFD |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |: e3 e3 | e3 e3 | e3 e3 | f3 d3 || e3 e3 | e3 e3 | f3 g3 |
+f3 d3 :||: e3 e3 | e3 e3 | e3 e3 | e3 d3 || e3 e3 | e3 g3 | f3 g3 | f3 d3 |]

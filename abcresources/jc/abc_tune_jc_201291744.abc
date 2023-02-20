@@ -1,0 +1,26 @@
+X: 1
+T: Jack's Maggot
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.331 "F f 4"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The rhythms are wrong at the the edges of the tune's strains; not fixed.
+M: C|
+L: 1/8
+K: Dmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+d2D2 F2A2 | BA Bc d2e2 | fga2 Bcd2 | e3f e2(c>Bc/) |\
+d2D2 F2A2 | Bcd2 c2ag | f2d2 f2^c2 | d4 d4 |]
+fg |\
+a2 f4 a2 | f2 d4 ef | gfed c2d2 | e6 fg |\
+a2f2 d2f2 | A2d2 F2A2 | ^d3e e3d | d6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man goes the Hey with the 2. wo. .| The 1. wo. goes the Hey with the 2. man :| Then right-
+%% hands a-cross, and left-hands back again .| The 1. man changing places with the 2. wo. the 2. man
+%% changing places with the 1. wo. then hands half round and cast off :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

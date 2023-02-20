@@ -1,0 +1,31 @@
+X: 12
+T: Robin shore in Herst
+%R: minuet, triple hornpipe
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.103 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/2
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+(ABc2) F2A2 c4 | (ABc2) F2c2 f2c2 |\
+(ABc2) F2c2 (dcBA) | G4 TB3c d4 :|
+|:\
+f4 A2c2 (dcBA) | (f4 Te2)d2 (efg2) |\
+(fga2) F2c2 (dcBA) | G4 TB3c d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: f4 f4 f4 | f4 f4 f4 | f4 f4 f4 | g4 g4 g4 :|\
+|: f4 f4 f4 | f4 f4 f4 | f4 f4 f4 | g4 g4 g4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The first Cu: foot it cast of two Cu: .|
+%% foot it and cast up again :|
+%% cross over two Cu: :|:
+%% lead up to the Top foot it & cast of :|:
+%% foot it corners & turn :||
+%% lead outsides & turn :||:
+%%endtext
+%%sep 2 2 400

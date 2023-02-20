@@ -1,0 +1,57 @@
+X: 0541
+T: ZITTER WALTZ  For two Clarinets, concertante
+C: A. P. Knight
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.54
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+% -------------------------
+V: 1
+|:!p!\
+.a2 .f2 .d2 | .c.c.c.c c2 | .a2 .f2 .d2 | .c.c.c.c c2 |\
+.e2 .g2 .b2 | d'd'd'd' d'2 | .c'2 .b2 .a2 | .g.g.g.g g2 |\
+!f!a2 f2d2 | cccc c2 | a2 f2 d2 | cccc c2 |\
+e2 g2 b2 | d'd'd'd' d'2 | c'2 b2 e2 | f4 z2 :|
+%
+V: 2
+|:!p!\
+A2 A2 A2 | A2 A2 A2 | A2 A2 A2 | A2 A2 A2 |\
+B2 B2 B2 | B2 B2 B2 | B2 B2 B2 | B2 B2 B2 |\
+!f!AcAcAc | AcAcAc | AcAcAc | AcAcAc |\
+B2 B2 B2 | B2 d2 B2 | B2 B2 B2 | A4 z2 :|
+% -------------------------
+V: 1
+|:!p!\
+A2 A2 A2 | A2 A2 A2 | B2 B2 B2 | B2 G2 G2 |\
+B2 g2 g2 | g2 B2 B2 | A2 A2 A2 | G2 G2 G2 |\
+AcAcAc | AcAcAc | AcAcAc | AcAcAc |\
+c2 B2 B2 | B2 B2 B2 | B4 B2 | A4 z2 :|
+%
+V: 2
+|:!p!\
+.a2 .f2 .d2 | .d.d.d.d d2 | .^c2 .e2 .g2 | .b.b.b.b b2 |\
+.g2 .b2 .^c'2 | e'eee e2 | g2 f2 d2 | cccc c2 |\
+a2 f2 d2 | cccc c2 | a2 f2 d2 | cccc c2 |\
+e2 g2 b2 | d'd'd'd' d'2 | c'2 b2 e2 | f4 z2 :|
+% -------------------------
+V: 1
+|:!f!\
+G=B dg=bd' | f'2 (e'd'^c'd') | (e'2 d'c'=b)a | (a2 g^f g2) |\
+G=B dg=bd' | f'2 (g'f'e'd') | (c'b) (ag).a.b | c'4 z2 :|\
+|:!p!\ 
+c2 c2 c2 | c2 c2 c2 | c2 c2 c2 | c2 c2 c2 |
+!f!_ee e2 e2 | c2 d2d2 | c4 B2 | A4 z2 |\
+!p!_b2 ^f2 g2 | ("_>"a2 g)e c2 | b2 ^f2 g2 | ("_>"a2 g)e c2 |\
+!f!ff f2 f2 | "_>"g3 f'd'b | ("_>"a3 g)ec | f4 z2 H:|
+V: 2
+|:!f!\
+G=BGBGB | G=BGBGB | c2 bag^f | (f2 e^d e2) |\
+G=BGBGB | G=BGBGB | e2 f2 f2 | e4 z2 :|\
+|:!p!\
+_b2 ^f2 g2 | ("_>"a2 ge) c2 |
+b2 ^f2 g2 | ("_>"a2 ge) c2 |\
+!f!ff f2 f2 | "_>"g3 f'd'b | ("_>"a3 g)ec | f4 z2 |\
+!p!c2 c2 c2 | c2 c2 c2 | c2 c2 c2 | c2 c2 c2 |\
+_ee e2 e2 | c2 d2 d2 | c4 B2 | A4 z2 H:|

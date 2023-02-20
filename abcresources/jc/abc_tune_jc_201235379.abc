@@ -1,0 +1,34 @@
+X: 21111
+T: AMERICAN SETT (tune 4)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.111 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+~f2 |\
+b2f>f f2g2 | g4 c2~f2 | B2B>B B2e2 | e4 A2~d2 |\
+G2G>G G2B2 | B4 F>GA>B | c2g>g f2A2 | B2d2B2 H|]
+~f2 |\
+a2a>a a2a2 | c4 =B2B2 | c2d2e2f2 | f4 e2e2 |\
+g2g>g g2g2 | B4 A2A2 | B2c2d2e2 | d4 "^D.C."c2 |]
+K: Eb
+E>G |\
+B2B>B B2e2 | G2B2 E2G2 | F>EF>G A>Bc>d | e2B2 E2G2 |\
+B2B>B B2e2 | G2B2 E2G2 | F>EF>G A>Bc>d | e2B>G "^D.C."E2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Two Ladies back to back,
+%% two gentlemen the same,
+%% balance partners,
+%% next two, &c.,
+%% grand right and left,
+%% all balance to corners,
+%% turn partners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

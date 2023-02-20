@@ -1,0 +1,26 @@
+X: 8
+T: the Lads of Dunse
+%R: jig
+B: "The Hibernian Muse" p.5 #2
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. VIII.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+AFD DFD | DFD TB2A | Bcd AFA | BEE EdB |\
+AFD DFD | DFD TB2A | Bcd AFA | FDD D2 :|
+|: g |\
+fef d2e | fga  B2A | Bcd AFA | BEE E2g |\
+fef d2e | fga TB2A | Bcd AFA | FDD D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+a |\
+d2z d2z | d3 g2f | g3 d3 | gAA A2z |\
+d3  d3  | d3 g2f | g3 a3 | dDD D2 :|
+|: z |\
+d3 d2a | d'3 d3  | g3 d3 | gAA A2z |\
+d3 d2a | d'3 d3  | g3 a3 | dDD D2 :|

@@ -1,0 +1,43 @@
+
+X: 0
+T: J-002
+K:
+
+
+X: 1
+T: The Pipe on the Hob
+B: O'Neill "Music of Ireland: 1850 Melodies"; p.131, #705, 1903
+R: jig
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dmix
+A |\
+"D"ded A2G | F2D DED | "C"EDE cBc | "D"E2D D2A |\
+"D"dcB cBA | BAG A2G | "C"EDE cBc | "E"E2D D2 :|
+e |\
+"D"f2d ded | f2d ded | "C"edB c2d | ede age |\
+"D"f2d ded | f2d ded | "C"ede age | "D"fdd d2e ||
+"D"f2d ded | f2d ded | "C"edB c2d | ede age |\
+"D"~f3 "G"gfg | "D"afa "G"gfe | "D"fed "A"eag | "D"fdd d2 |]
+
+
+X: 2
+T: Calliope House   [E]
+C: Dave Richardson
+R: jig
+N: Calliope House is a folk center in Pittsburgh.
+S: Milford NH Contra Dance collection
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: E
+B |\
+"E"eBB gBB | "B7"fBB "E"gBB | "A"cff f2e | "B"fge c2e |\
+"E"B3 B2G |"E" B2c e2f |
+[1 "A"g2b gfe | "B7"f3- f2 :|\
+[2 "E"gbg "B7"fec | "E"e3- e3 |:\
+"E"b3 gbb | "B7"fbb "E"gbb | "A"a3 gag |
+"B7"f2e c2e | "E"B3 B2G | B2c e2f |\
+[1 "A"g2b gfe | "B7"f3- fga :|\
+[2 "E"gbg "B7"fec | "E"e3- e2 |]

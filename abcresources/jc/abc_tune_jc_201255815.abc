@@ -1,0 +1,16 @@
+X: 1134
+T: the Boys of Ballysadare
+R: slip-jig
+%S: s:3 b:16(5+5+6)
+O: McFadden
+B: O'Neill's 1850 #1134
+Z: Michael D. Long, 1/11/99
+Z: Michael Hogan
+M: 9/8
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+[| D2G {A}G2A B2d | ege d2e g3 | D2G {A}G2A d2B | ABA B2G E2G || D2G {A}G2A B2d |
+| ege d2e g2a | b2a g2e d2B | ABA B2F E2G |[| d2d {e}d2c d2B | d2d e2f g3 |
+| B2d {e}d2B d2B | A2G B2G (E2D) || d2d {e}d2B d2B | d2d e2f g2a | b2a g2e d2B | ABA B2G E2G |]

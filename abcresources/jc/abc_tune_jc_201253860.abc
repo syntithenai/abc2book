@@ -1,0 +1,35 @@
+X: 8
+T: Blue River Waltz
+C: Jay Ungar & Molly Mason 2002
+P: Play AABBCC,AABBCC,D
+Q: "Lazy, lilting swing"
+S: Fiddle Hell Online 2021-11-6
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: from the soundtrack of Ken Burns' "The National Parks"
+M: 3/4
+L: 1/8
+K: G
+"^A"|:\
+"G"DE GA BG | "Am"A3 G AB | A3 B AG | "C"E6 |\
+"(G)"DE GA BG | "Am"A3 G AB | "D7"d3 B AB | "G"G6 :|
+"^B"|:\
+"G"DE GA Bd | "C"e3 d eg | "Am"e3 d Bd | "D7"A6 "^I"|\
+"G"DE GA Bd | "C"e3 g eB | "D7"d3 B AB |[1 "G"G6 :|[2"G"G3 A Bd |]
+"^C"|:\
+"G"g2 f2 d2 | "C"e6 | g2 f2 d2 | "Em"e6 |\
+"(G)"g2 f2 d2 | "Am"e3 g eB | "D7"d3 B AB |[1 "G"G3 A Bd :|[2"G"G6 "^d.C."y|]
+% %text Play a, b, and c parts again (as written with repeats), then finish with d part (below).
+%%sep 5 5 50
+!coda!y"^Coda"y"^D"[|\
+"G"b2 a2 g2 | "C"e6 | b2 a2 g2 | "Em"e6 |\
+b2 a2 g2 | "Am"e3 g eB | "D7"d3 B AB | "G"G3 A Bd |
+|"G"b2 a2 g2 | "C"e6 | b2 a2 g2 | "Em"e6 |\
+ba gd- d2 | "Am"e3 g eB | "D7"d3 B AB | "G"G2 "_rit."B2 d2 | "G"[g6B6] |]
+%%begintext align
+%% The source PDF has an odd use of repeat symbols in the A part.
+%% It's not "wrong"; it's merely unusual, with the first bar as
+%% the "pickup" that ends with a |: (begin-repeat) and repeated
+%% as the 1st ending, and the 1st bar of the B part having both
+%% a 2nd-ending bracket above and also a |: symbol to start the
+%% next part.
+%%endtext

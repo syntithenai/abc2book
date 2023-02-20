@@ -1,0 +1,73 @@
+
+X: 1
+T: the Lisnagun   [A]
+C: Brendan Ring
+D: Green Linnet SIF 3112, Nomos - "I Won't Be Afraid Anymore."
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: Amix
+|:\
+AFE A3 | Bce c3 | Bce cBA | BAF AFE |\
+AFE A3 | Bce c3 | Bce cBA | BAG A3 :|
+|:\
+e3 cBA | Bce c3 | Bce cBA | BAF AFE |\
+e3 cBA | Bce c3 | Bce cBA | BAG A3 :|
+
+
+X: 2
+T: the Lisnagan Jig   [D]
+C: Brendan Ring
+D: Green Linnet SIF 3112, Nomos - "I Won't Be Afraid Anymore."
+S: https://thesession.org/tunes/3842
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+K: D
+|:\
+dBA ddd | efa f3  | efa fed | edB dBA |\
+dBA ddd | efa f3  | efa fed | edB [1 dBA :|2 def ||
+||\
+a3  f3  | efa fff | efa fed | edB def |\
+a3  f3  | efa fff | efa fed | edB def ||
+||\
+a3  f3  | efa fff | efa fed | edB def |\
+dBA ddd | efa f3  | efa fed | edB dBA ||
+
+
+X: 3
+T: the Lisnagun   [G]
+C: Brendan Ring
+D: Green Linnet SIF 3112, Nomos - "I Won't Be Afraid Anymore."
+Z: Contributed 2016-05-05 14:56:56 by Declan Simpson declansimpson11@gmail.com
+R: jig
+M: 6/8
+L: 1/8
+K: G
+|:\
+GED G3 | ABd B3 | ABd BAG | AGE GED |\
+GED G3 | ABd B3 | ABd BAG | AGF G3 :|
+|:\
+d3 BAG | ABd B3 | ABd BAG | AGE GED |\
+d3 BAG | ABd B3 | ABd BAG | AGF G3 :|
+
+
+X: 4
+T: the Lisnagan Jig   [C]
+C: Brendan Ring
+D: Green Linnet SIF 3112, Nomos - "I Won't Be Afraid Anymore."
+Z: Bernard Chenery
+S: https://tunearch.org/wiki/Lisnagun_Jig_(The)
+L: 1/8
+M: 6/8
+K: C
+|:\
+cAG ~c3 | cdg ~e3 | cdg edc | dcA cAG |\
+cAG ~c3 | cdg ~e3 | cdg edc | dcA ~c3 :|
+[|\
+~g3 age | deg ~e3 | deg edc | dcA cAG |\
+~g3 age | deg ~e3 | deg edc | dcA ~c3 |]
+[|\
+~g3 age | deg ~e3 | deg edc | dcA cAG |\
+cAG ~c3 | cdg ~e3 | cdg edc | dcA ~c3 |]
+

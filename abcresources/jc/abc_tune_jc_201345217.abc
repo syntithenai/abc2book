@@ -1,0 +1,36 @@
+
+X: 1
+T: Tokyo Dontaku
+O: Japan
+M: 4/4
+L: 1/8
+K: Fm
+[| F2 F>E F2  G>G | F>E  C2 C4   | B>B A>_G B>B c>B | F>F d>d c2 d>c |
+|  B2 c>B c>c d>d | c>B _G2 F4   | F2  C>B, C>E F>G | B2  F2  F3   B |
+|  c2 B>B c>c B>B | c>c d>d c3 G | G2  c>B  G>F E>F | G>E F2  F4    |]
+
+
+%%sep 3 1 500
+
+X: 2
+T: Tokyo Dontaku
+O: Japan
+M: 4/4
+L: 1/8
+K: Gm
+[| G2 G>F G2  A>A | G>F  D2 D4   | c>c B>_A c>c d>c | G>G e>e d2 e>d |
+|  c2 d>c d>d e>e | d>c _A2 G4   | G2  D>C D>F G>A | c2  G2  G3   c |
+|  d2 c>c d>d c>c | d>d e>e d3 A | A2  d>c  A>G F>G | A>F G2  G4    |]
+
+
+%%sep 3 1 500
+
+X: 3
+T: Tokyo Dontaku
+O: Japan
+M: 4/4
+L: 1/8
+K: Am
+[| A2 A>G A2  B>B | A>G  E2 E4   | d>d c>_B d>d e>d | A>A f>f e2 f>e |
+|  d2 e>d e>e f>f | e>d _B2 A4   | A2  E>D E>G A>B | d2  A2  A3   d |
+|  e2 d>d e>e d>d | e>e f>f e3 B | B2  e>d  B>A G>A | B>G A2  A4    |]

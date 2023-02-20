@@ -1,0 +1,25 @@
+X: 489
+T: Ti Momo
+T: Posavski Plez
+T: Hajd' Povedi Veselo
+O: Croatia
+S: Ciga Despotovic, vol 4.
+M: 4/4
+L: 1/8
+Q: 1/4=160
+K: Dm
+%%MIDI gchord fzfz
+%%MIDI program 110
+%%MIDI bassprog 26
+%%MIDI bassvol 60
+P:A
+"F"c4 c4 |=B2_A2 G2F2|"C"G6 c2  |"Gm"c2B2 _A2G2|\
+"F"c4 c4 |=B2_A2 G2F2|"Gm"G8    |G8            |\
+"F"c4 c4 |=B2_A2 G2F2|"Gm"G8    |G8            |
+P:B
+%%MIDI gchordoff
+%%MIDI drum dddd 35 35 35 35
+%%MIDI drumon
+f2f2 cccc| f2f2 cccc | f2f2 cccc| f2f2 cccc    |
+ccdc BBcB|AABA G2G2  | ccdc BBcB|AABA G2G2     |
+f2f2 cccc| f2f2 cccc | f2f2 cccc| f2f2 cccc    |

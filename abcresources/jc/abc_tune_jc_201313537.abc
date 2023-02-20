@@ -1,0 +1,16 @@
+X: 175
+T: the Mower   #2
+T: Conor O'Riordan's vision
+R: air, march
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #175
+Z: 1997 henrik.norbeck@mailbox.swipnet.se
+N: Compacted by using labels and play order [JC]
+P: Play AB CB
+Q: "Moderate"
+M: C
+L: 1/8
+K: D
+"^A"[|] Ac | d2d2 (df)(ec) | dcAG A2(AB) | c2c2 (cf)(ec) | (dcAF) G2 (AG) |]
+"^B"[| FEFG Afec | (dc)(AB) ceHdD | (DE)(FG) (AB)(GA) | F2D2 "^fine"D2 |]
+"^C"[| (FG) | AFDF AFDF | AGFE D2(EF) | (GECE) (GECE) | GFED C2 "^->B"(DE) |]

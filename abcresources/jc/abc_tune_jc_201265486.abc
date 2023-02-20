@@ -1,0 +1,85 @@
+%%center Crown Point + Huntington
+%S: crownpth.mix
+%date: 090421
+
+
+X: 0
+T: Crown Point  v.1
+P: piffero primo a0971
+C: Roy Watrous
+%R: polka, march
+S: http://ancients.sudburymuster.org/mus/med/pdf/crownpthC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+(3ABc |\
+d2de f2a2 | gfed c2(3ABc | d2de f2f2 | edcB A2(3ABc |\
+d2f2 TA2e2 | g2TA2 f2a2 | gfed cABc | d2f2 d2 :|
+|: z2 |\
+c2cd e2A2 | e2ef g2A2 | fa2f d2f2 | edcB A2(3ABc |\
+d2f2 TA2e2 | g2TA2 f2a2 | gfed cABc | d2f2 d2 :|
+
+
+X: 1
+T: Crown Point  v.2
+P: piffero secondo a0072
+C: Dan Moylan
+%R: polka, march
+S: http://ancients.sudburymuster.org/mus/med/pdf/crownpthC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+z2 |\
+F2D2 D2F2 | EFGF G4   | F2D2 D2A2 | GFED C2G2 |\
+F2A2 C2G2 | B2C2 A2c2 | EFGF GCDE | F2A2 F2 :|
+|: z2 |\
+E2ED C2C2 | G2GF E2C2 | D2A2 F2D2 | GFED C2G,2 |\
+F2A2 C2G2 | B2C2 A2c2 | EFGF GCDE | F2A2 F2 :|
+
+
+X: 2
+T: Huntington  v.1
+P: piffero primo a0074
+C: Colin Stern
+%R: march
+S: http://ancients.sudburymuster.org/mus/med/pdf/crownpthC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+(3ABc |\
+d3d d2f2 | efg2 fed2 | B3B B2d2 | ABAF A4 |\
+f3f f2a2 | gfe2 def2 | B3B B2d2 | cdec d2 :|
+|: (3ABc |\
+def2 efg2 | fga2 g2e2 | d2d2 e2e2 | fafd e2fg |\
+agf2 gfe2 | fed2 e2f2 | A2d2 egfe | d2c2 d2 :|
+|: z2 |\
+A4 F2A2 | Bc d4 B2 | A4 F2A2 | GF E4 A2 |\
+A4 F2A2 | Bc d4 e2 | fed2 edc2 | d4 z2 :|
+
+
+X: 3
+T: Huntington  v.2
+P: piffero secondo a0072
+C: Dan Moylan
+%R: march
+S: http://ancients.sudburymuster.org/mus/med/pdf/crownpthC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+z2 |\
+F2A,2 F2A,2 | GFE2 GFE2 | G2B,2 G2B,2 | FGFD F2A,2 |\
+D2A,2 D2A,2 | EFG2 FED2 | G2B,2 G2B,2 | EFGA F2 :|
+|: z2 |\
+F2A,2 E2A,2 | D2A,2 E2A,2 | F2A,2 G2A,2 | A2A,2 G2A,2 |\
+F2A,2 E2A,2 | D2A,2 C2A,2 | F2A,2 B,2C2 | D2E2 F2 :|
+|: z2 |\
+F2D2 A2F2 | GAB2- B4 | F2D2 A2F2 | EAG2- G4 |\
+F2A2 A2F2 | GFGA B2B2 | ABAF | GAGE | F4 z2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

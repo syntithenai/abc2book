@@ -1,0 +1,23 @@
+X: 111
+T: Hora Chadasha
+C: Emanuel Zamir 1974
+O: Israel
+M: 4/8
+L: 1/8
+Q: 1/4=160
+K: Dm
+%%MIDI program 73
+%%MIDI bassprog 117
+%%MIDI chordprog 36
+%%MIDI bassvol 50
+%%MIDI chordvol 40
+|: \
+%%MIDI gchord Izfz
+  "D"D3 D|CDDD |\
+%%MIDI gchord fzfz
+  CF2F   |GDDz :|
+%%MIDI gchord gzIz
+|:"F"FGzG|FGFG |B2G2|A2G2 |\
+  "G"AB2A|cABG |A2GF|G2G2 |
+  "F"FGzG|FGFG |B2G2|A2G2 |\
+  "G"AB2A|cABG |AGGF|AGG2 :|

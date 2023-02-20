@@ -1,0 +1,26 @@
+X:1
+T: Bittersweet
+N:
+C: Chris Rua (2003)
+S:
+A:
+O:
+R:
+M:3/4
+K:Em
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 31 notes)
+K:Em
+M:3/4
+L:1/16
+E2 B2 e2 f2 g2 e2 |d2 c2 B8 |A6 F2 G2 E2 |F6 A2 G2 F2 |E2 B2 e2 f2 g2 e2 |d2 c2 B8 |A6 B2 c2 A2 |B12 |
+%W: A2
+% voice 1 (1 lines, 33 notes)
+E2 B2 e2 f2 g2 e2 |d2 c2 B8 |A6 F2 G2 E2 |F6 A2 G2 F2 |E2 B2 e2 f2 g2 e2 |d2 c2 B8 |A6 B2 c2 A2 |B4 ^c4 ^d4 |
+%W: B1
+% voice 1 (1 lines, 33 notes)
+e2 b2 a2 g2 f2 e2 |f2 g2 f8 |g2 e4 d2 e2 c2 |B6 A2 G2 F2 |G2 B2 c2 B2 A2 G2 |A2 G2 F8 |A2 G2 F6 G2 |E6 E6 |
+%W: B2
+% voice 1 (1 lines, 32 notes)
+e2 b2 a2 g2 f2 e2 |f2 g2 f8 |g2 e4 d2 e2 c2 |B6 A2 G2 F2 |G2 B2 c2 B2 A2 G2 |A2 G2 F8 |A2 G2 F6 G2 |E12 ||

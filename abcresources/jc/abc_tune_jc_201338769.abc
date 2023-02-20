@@ -1,0 +1,11 @@
+X:1
+T:The Snouts and Ears of America
+R:reel
+M:4/4
+L:1/8
+K:D
+V:2 clef=alto middle=C
+A,2 | "D" D2D,2 D,2D,D, | F,2A,2 D2ED | "A7" C2A,2 A,B,CD | E2A,2 A,2B,C |
+"D" DCB,A, G,2F,2 | "G" E,2D,2 "A" A,B,A,G, | "D" F,2D,2 "A" E,2D,E, | "D" F,2D,2 D,2 ::
+D,2 | "D" F,2D,2 D,2D,D, | F,2D,2 A,2B,A, | "A7" G,2E,2 E,2E,E, | A,2D2 "D" D2B,A, |
+"D" F,2D,2 D,2D,D, | F,2D,2 A,2B,A, | "G" G,2E,2 "A7" A,3G, | "D" F,2D,2 D,2 :|

@@ -1,0 +1,21 @@
+X: 20051
+T: BLACK EYED SUSAN
+Q: "Affet.o"
+%R: waltz
+B: "Edinburgh Repository of Music" v.2 p.5 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Em
+%%slurgraces 0
+%%graceslurs 0
+[|\
+B2e2Tf2 | (g2f2)e2 | e2^def2 | B6 |\
+c2B2A2 | (G2F2)E2 | (G>A)B2TA2 | {GA}c6 |\
+B2e2Tf2 | (g2f2)e2 | g>ab2Ta2 |{^a}b6 |\
+b2a2g2 | d4g2 |
+{b}a2g2Tf2 | {ef}g6 |\
+b2a2g2 | (a2g2)f2 | g2f2e2 | ^d2e2f2 |\
+B6 | G2c2^c2 | (d2^c2)B2 | B2e2f2 |\
+(g2f2)b2 | B4e2 | {g}f2e2T^d2 | e6 |]

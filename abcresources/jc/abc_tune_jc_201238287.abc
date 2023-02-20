@@ -1,0 +1,29 @@
+X: 3051
+T: Nancy Dawson.    Or Scotish Perrigordien
+O: Old
+%R: jig
+B: Niel Gow & Sons "Complete Repository" v.3 p.5 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slowish"
+K: Bb
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+B2B ~B2d | "_sf"{d}f2d B2d | c2c ~c2d | {d}c2B AGF |\
+B2B ~B2d | "_sf"f2d B2d | (dc).B (AB).G | F3 F3 :|
+c2c ~c2c | {d}c2B AGF | f2f (f2g) | {g}f2e dcB |\
+e2d e2f | g2a b2a/g/ | (gf).e (de).c | B3 B2d |
+c2!f!c ~c2d | {d}c2B AGF | f2f ~f2g | (gf).e dcB |\
+e2d e2f | g2a Hb2 a/g/ | (fg).e (de).c | B3- B3 |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+Bdf Bdf | Bdf Bdf | Acf Acf | Fcf F3 |\
+Bdf Bdf | Bdf B3 | A2B c2C | FAc f3 :|\
+F2f F2f | F3 f3 | B2b B2b |
+B3 _a3 |\
+g2^f g2d | e3 d2e | f3 F3 | B,DF B3 |\
+!f!F2f F2f | F3 f3 | B2b B2b | B3 _a3 |\
+g2^f g2d | e2f Hg2 =e | f3 F3 | B,DF B3 |]

@@ -1,0 +1,17 @@
+X: 21191
+T: COCK UP YOUR BEAVER
+Q: "Vivace"
+%R: jig
+B: "Edinburgh Repository of Music" v.2 p.119 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Converted 1/32-notes (BA) in bar 11 to 1/16-notes to fix the rhythm.
+M: 6/8
+L: 1/16
+K: G
+g2 |\
+d4G2 {c2}B3AG2 | A3BA2 c4e2 | d4G2 B3AB2 | G2g2d2 B3cd2 |\
+{d}cBcdef g2d2B2 | A3BA2 c4e2 | {e}d4c2 B2c2A2 | G2g2d2 B4 :|
+|: d2 |\
+G2g2d2 Bcd2G2 | A2a2A2 {Bcd}c4BA | G2g2d2 Bcd3B | G2g2d2 {c}BABcdB |\
+{d}cBcdef g2d2B2 | A2a2A2 c3def | g2agfe d2BcdB | G2g2d2 B4 :|

@@ -1,0 +1,21 @@
+X: 595
+T: Szla dzieweczka
+O: Poland
+R: Waltz
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+|: "D"A2 d | f2 e | "G"d2 c | d c B | "D"A2 A | F2 G | A3- | A3 | "A7"G2 G | E2 F | G3- | G3
+|1 "D"A2 A | F2 G | A3- | A3 :|2 "D"A2 A | f2 e | d3- | d3 [| "D"f f/e/d | f f/e/d | "B7"f g> f | "Em"e3
+| "A7"e e/d/c | e e/d/c | e f> e | "D"d3 || "D" f f/e/d | f f/e/d | "B7"f g> f | "Em"e2 f \
+| "Em"g f e | "D"d c B | "A7"A B c | "D"d3 |]
+%%sep 5 5 100
+P: with harmony and "cuckoos"
+|: "D"[A2F2] [dA] | [f2d2] [ec] | "G"[d2B2] [cA] | [dB] [cA] [BG] \
+| "D"[A2F2] [AF] | [F2D2] [GE] | [A2F2] .[af] | [f3d3] | "A7"[G2E2] [GE] | [E2C2] [FD] | [G2E2] .[ge] | [e3c3]
+|1 "D"[A2F2] [AF] | [F2D2] [GE] | [A2F2] .[af] | [f3d3] :|2 "D"[A2F2] [AF] | [f2A2] [eG] | [d3-F3] | [d3F3] \
+| "D"[fA] [f/A/][e/G/][dF] | [fA] [f/A/][e/G/][dF] | "B7"[fA] [gB]> [fA] | "Em"[e3G3]
+| "A7"[eG] [e/G/][d/F/][cE] | [eG] [e/G/][d/F/][cE] | [eG] [fA]> [eG] | "D"[d3F3] \
+| "D" [fA] [f/A/][e/G/][dF] | [fA] [f/A/][e/G/][dF] | "B7"[fA] [gB]> [fA] | "Em"[e2G2] [fA] \
+| "Em"[gB] [fA] [eG] | "D"[dF] [cF] [BG] | "A7"[AA] [B_A] [cG] | "D"[d3F3] |]

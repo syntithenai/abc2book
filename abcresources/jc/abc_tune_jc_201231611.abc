@@ -1,0 +1,58 @@
+X: 1561
+T: WALTZ BY STRAUSS
+C: Richard Strauss
+O: Arranged by Adam Kurek
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.156-157
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+% -------------------------
+V: 1
+K: F
+"1st VIOLIN"\
+z2!pp!c2c2 | z2d2d2 | z2c2c2 | z2c2c2 |\
+z2G2G2 | z2G2G2 | z2c2c2 | z2c2c2 |
+z2c2c2 | z2d2d2 | z2c2c2 | z2c2c2 |\
+z2[c2E2][c2E2] | z2[=B2D2][B2D2] | [c2E2]z2z2 | {=B,}C2z2z2 |
+!ff!c'4d'>c' | d'>c' d'>c' d'>c' | !p!c'>e' e'>d' d'>c' | c'>b b>a a>g |\
+{g}f>ef2a2 | "^>"d'4c'2 | {g}f>ef2a2 | "^>"(d'4c'2) |
+"^>"c'4(d'>c') | (d'>c') (d'>c') d'>c' | c'>e' e'>d' d'>c' | (c'>b) (b>a) (a>g) |\
+{g}f>ef2a2 | "^>"d'3c'bg | {g}fef2a2 | f4z2 :|
+% -------------------------
+V: 2
+K: F
+"2d VIOLIN"\
+z2!pp![A2F2][A2F2] | z2[B2F2][B2F2] | z2[A2F2][A2F2] | z2[A2F2][A2F2] |\
+z2[E2C2][E2C2] | z2[E2C2][E2C2] | z2[A2F2][A2F2] | z2[B2G2][B2G2] |
+z2[A2F2][A2F2] | z2[B2F2][B2F2] | z2[A2F2][A2F2] | z2[A2F2][A2F2] |\
+z2G2G2 | z2[=F2G,2][F2G,2] | [E2G,2]z2z2 | {=B,}C2z2z2 |
+!ff![g4B4]g>g | [gB]>g [gB]>g [gB]>g | z2!p![B2G2][B2G2] | [B2G2][B2G2][B2G2] |\
+z2[A2F2][A2F2] | z2[A2F2][A2F2] | z2[A2F2][A2F2] | z2[A2F2][A2F2] |
+"^>"[g4B4][gB]>g | [gB]>g [gB]>g [gB]>g | [g2B2][B2G2][B2G2] | [B2G2][B2G2][B2G2] |\
+z2[A2F2][A2F2] | "^>"[B4G4][B2G2] | z2[A2F2][A2F2] | [A4F4]z2 :|
+% -------------------------
+V: 3
+K: G
+"B CLAR."\
+!pp!(Bd)z2z2 | (ce)z2z2 | (Bd)z2z2 | (Bdg).a.b2 |\
+(ac')z2z2 | (Af)z2z2 | (Bg)z2z2 | (Ad)(de)d2 |
+(Bd)z2z2 | (ce)z2z2 | (Bd)z2z2 | Bdgab2 |\
+(fa)z2z2 | (a^c')z2z2 | (fd')z2z2 | {^c}d2z2z2 |
+!ff!f4f>f | f>f f>f f>f | z2!p!f2f2 | f2f2f2 |\
+z2d2d2 | z2d2d2 | z2d2d2 | z2d2d2 |
+"^>"f4f>f | f>f f>f f>f | f2[f2d2][f2d2] | [f2d2][f2d2][f2d2] |\
+z2d2d2 | "^>"f4f2 | z2d2d2 | d4z2 :|
+% -------------------------
+V: 4 clef=bass middle=d
+K: F
+"BASE"\
+!pp!f2z2z2 | f2z2z2 | f2z2z2 | f2z2z2 |\
+c2z2z2 | c2z2z2 | f2z2z2 | e2c2c2 |
+f2z2z2 | f2z2z2 | f2z2z2 | f2z2z2 |\
+g2z2z2 | g2z2z2 | c2z2z2 | {=B}c2z2z2 |
+!ff!c2c'2a2 | e2g2e2 | !p!c2c2c2 | c2c2c2 |\
+f2z2z2 | f2z2z2 | f2z2z2 | f2z2z2 |
+c2c'2g2 | e2g2g2 | c2c2c2 | c2c2c2 |\
+f2z2z2 | "^>"c4z2 | f2F2F2 | A4z2 :|

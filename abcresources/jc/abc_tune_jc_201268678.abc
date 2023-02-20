@@ -1,0 +1,17 @@
+R:
+M:
+L:1/8
+X:1
+T:Dimmisjonpols (pols)
+R:rorospols
+Z:Track 3. Smaviltlaget Lader Om
+M:3/4
+L:1/8
+K:G
+|: "G"g2 gf d>f | "A"e/^c/e e/g/f "D"d>B
+|  "C"c2 cB G>B | "D"A/F/A "E"A/d/B "F#"G>d
+|  "G"g2 gf d>f | "A"e/^c/e e/a/f "D"d>B
+|  "C"c2 cB G>B |[1 "D"F<A "G"G3 d :|[2 "D"F<A "G"G3 D |
+|: "G"G2 BG B>B | "C"c2 cB "G"G>B | "C"c2 cB "G"G>B | "A"A>G FE "D"D2
+| "G"G2 BG B>B | "C"c2 cB "G"G>B | "C"c2 cB "G"G>B | "D"F<A "G"G3 D :|
+

@@ -1,0 +1,20 @@
+     %!HARMONY ABC @
+     %Harmony/Melody File to ABC Vers 2.9.9 April 1998-March 2004
+     %Written by Guillion Bros. on a Chris Walshaw format
+     %Please e-mail us your comments and bugs reports : didier@myriad-online.com
+     %Wednesday, December 27, 2006 16:12:45
+
+
+X:1     %Music
+T:Bobby and Joan     %Tune name
+C:     %Tune composer
+N:Filkins Tradition     %Tune infos
+Q:1/4=120     %Tempo
+V:1     %
+     %!STAVE 0 'Piano 1' @
+     %!INSTR 'Piano 1 [Ch1]' 0 0 @
+M:6/8     %Meter
+L:1/8     %
+K:A
+A2 e e2 d |e3/2f/e d3/2c/B |A3/2G/A Bcd |e2 c A3 |Bdc A3 |Bdc A2 B-|B2c d3/2e/f |e2 c A2 |]
+     %End of file

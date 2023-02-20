@@ -1,0 +1,27 @@
+X: 051
+T: Minuetto 3
+C: Ignatius Sancho (1775)
+B: "Minuets Cotillons & Country Dances", 1775 p.5 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+R: minuet
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+V: 1 nm=Corni snm=C clef=bass   middle=D
+V: 3 nm=Violi snm=V clef=treble middle=B
+V: 5 nm=Bassi snm=B clef=bass   middle=d
+%%score (1 2) (3 4) 5
+% - - - - - - - - - -
+[V:1] |: G2 G>GG>G | G2 D2 G2 | B2 B>BB>B | B2 G2 B2 | d2 d>dd>d | d2 B2 d2 | d2 c2 B2 | B2 A4 :| 
+[V:2] |: z6        | z6       | G2 G>GG>G | G2 D2 G2 | B2 B>BB>B | B2 G2 B2 | z6       | z6    :|
+[V:3] |: G2 G>GG>G | G2 D2 G2 | B2 B>BB>B | B2 G2 B2 | d2 d>dd>d | d2 B2 d2 | (d/e/d) c2 B2 | TB2 A4 :|
+[V:4] |: G,6       | x6       | G2 G>GG>G | G2 D2 G2 | B2 B>BB>B | B2 G2 B2 | (B/c/B) A2 G2 | G2 F4 :|
+[V:5] |: g2 d2 B2  | G2 z2 z2 | g2 d2 B2  | G2 z2 z2 | G2 B2 d2  | g2 z2 z2 | z2 g2 G2 | d2 d'c' ba :|
+% - - - - - - - - - -
+[V:1] |: z6 | z6 | z6 | z6 | d2 z2 z2 | d2 z2 z2 | GA B2 A2 | G6 :|
+[V:2] |: z6 | z6 | z6 | z6 | B2 z2 z2 | B2 z2 z2 | G2 D2 D2 | G,6 :|
+[V:3] |: x6        | x6       | x6       | x6       | x6              | x6              | (3(edc) B2 A2 | G6 :|
+[V:4] |: d2 d>dd>d | d2 g2 d2 | c2 a2 c2 | c2 B2 A2 | (3(gfg)  d2 B z | (3(gfg)  d2 B z | (3 cBA  G2 F2 | G6 :|
+[V:5] |: b2 b>bb>b | b4    g2 | a2 f2 d2 | g2 G2 d2 | .g2     (b2 g)z | .G2      b2 gz  | c2      d2 D2 | G6 :|
+% - - - - - - - - - -

@@ -1,0 +1,28 @@
+X: 9
+T: Ani Ma'amin
+C: Daklon-Yosi Levi
+O: Israel
+M: 2/4
+L: 1/8
+Q: 1/4=240
+P:AB
+K: Em
+P:A
+%%MIDI program 65
+%%MIDI drum d 35
+%%MIDI drumon
+  B3A    |GAGF | G2E2|B2A2|A2G2  |A4-   |A4   |\
+  A3G    |FGFE | F2D2|c2B2|B2B2- |B4    |BABd |
+  e4     |e2 g2|fgfe |e2B2|z2d2- |d4    |B2 c2|\
+  Bc B2  |AB A2|E4-  |E4  |B2c2  |B2z2  |
+P:B
+L:1/4
+M:4/4
+%%MIDI drum dd 35 35
+  E4     |G4   |E4   |z4  |BBBA  |A2A2  |G4-  |G2z2|\
+  B2B2   |AAAG |B2A2 |G4  |BBBA  |AAGA  |B4   |z4  |
+  e2B2   |AAAG |B2A2 |G3E |BBBA  |AAGF  |E4   |z2B2|\
+|:e2e2   |e3B  |Bgfe |e4  |[1e2e2|dccB  |B4   |z4  :|
+  [2 eddd|dccB |B4   |z4  |\
+|:BBBA   |AAAG |BBBA |G3E |BBBA  |[1AAGA|B4   |z4  :|\
+  [2 AAGF|E4   |z4   |

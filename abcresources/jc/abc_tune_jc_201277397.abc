@@ -1,0 +1,22 @@
+X: 1396
+T: the Four Courts - No.1
+B: O'Neill's 1850 #1396
+O: Ennis
+R: reel
+%S: s:4 b:22(7+7+4+4)
+Z: Bob Safranek, rjs@gsp.org
+N: Compacted via repeats and multiple endings [JC]
+M: C|
+L: 1/8
+K: D
+"^A"\
+[|] dB |: ADFD ADGB | ADFD G2 \
+[1 GB | ADFD ADGF | (3(EFE) cA G2FG :|\
+[2 FG | A^GA=c BAB^c | dB=cA G2 |]
+"^B"\
+|: AG | F2AF cFAG | F2cA G2\
+[1 AG | F2AF cFAc | dB=cA G2 :|\
+[2 (3(ABc) | dfdc dc (3(ABc) | dB=cA G2 |]
+"^C"\
+[| dB | A2Ac B2Bd | ABAF G2 dB | A2Ac B2 Bc | dB=cA G2 ||
+|| dB | AFAc BGBd | ABAF G2 (3(ABc) | dfec dc (3(ABc) | dB=cA G2 |]

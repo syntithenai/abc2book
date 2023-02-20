@@ -1,0 +1,19 @@
+X: 1153
+T: FAR O'ER THE HILL AND DELL
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.115 #3
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: Another ambiguous repeat: maybe the entire tune, maybe just the 2nd part.
+M: 2/4
+L: 1/16
+K: D
+[|\
+d4 c2d2 | B2d2 A4 | f2d2 g2e2 | d2c2 dABc |\
+d4 c2d2 | B2d2 A4 | defa gfge | d2c2 d4 |]
+f4 e2f2 | gafg e4 | f4 e2f2 | agfg eage |\
+d4 c2d2 | edcB A4 | f3a g2e2 | d2ce "^da Capo"d4 :|
+%%begintext align
+Four ladies advance and retire.
+Four gentlmen the same.
+Chassez all.
+%%endtext

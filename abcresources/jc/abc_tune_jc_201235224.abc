@@ -1,0 +1,43 @@
+X: 21041
+T: McIntosh's Lament [scordatura]
+%R: air, jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.10. #2 and p.105
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The book has A,EA^c scordatura tuning, and the tune uses two-voice notation.
+N: This transcription is as in the book, with single-voice chords for ABC version 1 software.
+M: 3/4
+L: 1/16
+K: none
+%%continueall 0
+[^c4A4E4A,4] \
+|:"_Plaintive"\
+ [e4^c4] [e3c3][ec] [e4c4] | [e4^c4] [B2D4]A2 [c4A4D4G,4] | [B4D4] [A3D4]B [e4A4] | [B4D4] A2E2 E4 |\
+ [e4^c4] [G2D4]B2 [e4c4] | [B4D] G2E2 E4 | [e4A4] TE2D2 D4 | [e4A4] TE2D2 D4 | E4 ([A2e8]B2^c2A2) |\
+ T[B8D8] [c4A4D4G,4] :|
+|: [e6^c6] [B2D2] [A4D4G,4] | [e6^c6] [B2D2] [A4D4G,4] | B4 ([A2e8]B2^c2A2) |\
+ B2^c2TB2A2 E4 | [e6^c6] [B2D2] [A4D4G,4] | [e4^c4] TB2A2 E4 | A4 TE2D2 D4 | G4 TE2D2 D4 |\
+ E4 A2B2^c2A2 | T[B8D8] [c4A4D4G,4] :|
+|: "^tr..."[e4A4] [e4A4] [e4A4] | "^tr..."[B4^F4] [B4F4] [B4F4] | "^tr..."[e4A4] [e4A4] [e4A4] |\
+ "^tr..."[B4D4] [B4D4] [B4D4] | "^tr..."[e4A4] [e4A4] [e4A4] | "^tr..."[B4^F4] [B4F4] [B4F4] |\
+ "^tr..."[e4A4] [e4A4] [B4D4] | "^tr..."[e4A4] [e4A4] [B4D4] |\
+ G,2B,2D2A2^c2A2 | T[B8D8] [c4A4D4G,4] :|
+|: g3d e4 e4 | e4 TB2A2 B4 | e4 TB3A E4 |\
+ A4 E2D2 D4 | g3f e4 e4 | e4 TB2A2 E4 | G4 TE3D D4 | G4 TE3D D4 |\
+ E4 A3B^c3A | T[B8D8] [c4A4D4G,4] :|
+|: AeAe AeAe AeAe | ^FBFB FBFB FBFB | AeAe AeAe AeAe | DBDB DBDB DBDB |
+AeAe AeAe AeAe | ^FBFBFB FBFBFB FBFBFB | A2e2D2A2 B,2D2 | G,2e2D2A2B,2D2 |\
+G,2B,2D2A2 e2A2 | T[B8D8] H[c4A4D4G,4] :|
+|:[M:6/8]\
+"_Brisk"T^c4A2 Tc4A2 |\
+T^c4A2 Tc4A2 | (TB4A2) T^c4A2 | (TB4A2) (E4A2) | T^c4A2 Tc4A2 | (TB4A2) (E4G2) |\
+(G4E2) (G4D2) | (G4E2) (G4D2) | E4A2 T^c4A2 | TB6 A6 :|
+|: B,2G,2G,2 B,2G,2G,2 | B,2G,2G,2 B,2G,2G,2 | TB2A2A2 E2G2G2 | TB2A2A2 E2A2A2 |\
+B,2G,2G,2 B,2G,2G,2 | B,2G,2G,2 B,2G,2G,2 | G2E2E2 G2D2D2 | G2E2E2 G2D2D2 |\
+E2A2A2 e2A2A2 | TB6 A6 :|
+|: ^cAAAAA cAAAAA | ^cAAAAA cAAAAA | BAAAAA ^cAAAAA |
+ BAAAAA EAAAAA | ^cAAAAA cAAAAA | BAAAAA EAAAAA |
+ ADDDDD GEEEEE | GDDDDD GEEEEE | DAAAAA ^cAAAAA | A,6  "^Da Capo"G,6 :|
+%%begintext align
+%% The book has A,EA^c scordatura tuning; transcribed here as in the book.
+%% This tune has two voices, transcribed here with ABC 2.0 voice overlays.
+%%endtext

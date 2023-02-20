@@ -1,0 +1,43 @@
+X: 1
+T: da Slockit Light
+C: Tom Anderson (1969)
+O: Shetland
+R: air
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+S: MS by Barbara McOwen, SHSNH 1.1 1988-09
+S: From "Ringing Strings", Traditional Shedland Music & Dance by Tom Anderson, Shetland TImes, 1983
+M: C
+L: 1/8
+K: D
+% = = = = = = = = = =
+V: 1 staves=2
+FE \
+| "D"D3F A2d2 | "A7"fedc "D"d2A2 | "G"B2d2 "D"A2d2 | "G"BAGF "A7"EGFE \
+| "D"D3F A2d2 | "A7"fedc "D"d2A2 | "G"B2G2 "A7"AGFE | "D"[D6A,6] :|
+g2 \
+| "D"f2a2 "A"e3c | "G"d3e "D"dcBA | "D"f2a2 "E7"e2^g2 | "A7"a6 g2 \
+| "D"f2a2 "A"e3c | "G"d3e "D/F#"dcBA | "Em"B2G2 "A7"AGFE | "D-G-D"D6 ||
+g2 \
+| "D"f2a2 "A"e3c | "Bm"d3e dcBA | "G"B2d2 "D"A2d2 |  "G"BAGF "A7"EGFE \
+| "D"D3F A2d2 | "F#"fedc "Bm"d2A2 | "G"B2G2 "A7"AGFE | "D"[D6A,6] |]
+% = = = = = = = = = =
+N: harmony by unnamed "American student" 1979
+V: 2
+FE \
+| A,3D F2A2 | dcAG F2D2 | G2B2 F2A2 | GFED A,4 \
+| A,3D F2A2 | dcAG F2D2 | G,4 A,3C | [D6A,6] :|
+c2 \
+| d2A2 c3E | G4 FEDC | D4 ^G3E | C2A,2 B,2C2 \
+| D4 A4 | G6 GF | G2B,2 A,B,A,C | DA,B,G, A,2- ||
+A,2 \
+| D4 C4 | B,6 GF | G2B2 F2A2 | GFED A,4 \
+| A,3D F2A2 | ^A4 B2FD | G,4 A,3C | [D6A,6] |]
+%%begintext align
+%% "I was coming out of Eshaness in late January, 1969, the time was after 11 pm and as I
+%% looked back at the top of the hill leading out of the district I saw so few lights compared
+%% to what I remembered when I was young. As I watched, the lights started going out one
+%% by one. That, coupled with the recent death of my late wife, made me think of the old
+%% word 'Slockit', meaning, a light that has gone out, and I think that was what inspired
+%% the tune." From a tape recorded interview with Tom by a student in 1970. The second
+%% fiddle part was written by an American student in 1979.
+%%endtext

@@ -1,0 +1,1192 @@
+%% slurgraces 0
+%% graceslurs 0
+
+
+X: 000
+T: The John French Collection
+C: John French of Ayr 1801
+N: dedicated to Mrs Boswell of Auchinleck
+N: Posthumously published "for behalf of Mr. F.'s widow and children"
+N: John French probably wrote most of these tunes, but he didn't tell us which ones he wrote.
+N: The "attr." notation is used to say that he was the likely composer.
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K:
+%%center A Collection of New Strathspeys, Reels, &c.
+%%center for the
+%%center Pianoforte
+%%center Violin and Violincello
+%%center Dedicated to
+%%center Mrs Boswell of Auchinleck
+%%center by
+%%center John French Ayr
+%%center Edinburgh, 1801.
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 011
+T: Mrs Boswell of Auchinleck's Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.1 #1
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+F |\
+B2 (d/c/B) AcFA | GBEG FB,DF | B2 (d/c/B) Acfe | df (e/d/c/B/) FBB :|
+d |\
+Bdfb fB (e/d/c/B/) | Acfc faAc | Bcfb fB (e/d/c/B/) |AFec dBBd |
+Bdfb fB (e/d/c/B/) | Acfc faAc | (B/c/d/e/) fb BdFB | EGCe dB-B |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 012
+T: Glasserton House, a Jig
+C: attr. John French (1753-1803)
+R: slip-jig
+Q: "Slowish"
+B: "John French Collection", John French ed. p.1 #2
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Gm
+c |\
+(B/c/).d.B (G>AB/c/) dBG | F2f cAF ABc | (B/c/).d.B (G>AB/c/) dBG | DGB AG^F G2 :|
+A |\
+(B>cd/e/) fdB bfd | cfd cdB ABc | (B>cd/e/) fdB bfd | ced cBA B2c |
+(B>cd/e/) fdB bfd | ced cdB ABc | dfb fdB ecA | dBG cA^F G2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 013
+T: Ayr Races, a Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.1 #3
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+C | F2-Fc AFcA | fc (d/c/B/A/) BGGc | AF (FE/F/) (CF)Ac |1 BG {d}cB AF-F :|2 dfeg affc ||
+facf dfcf | BfAf Gg-gb | afcf dfeg | fcdB AFFc |
+facf BfAf | cfaf dgbg | afcf dbga | fcdB AF-F |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 014
+T: A Caup o' ye'r tippany Kate, a Jig
+C: attr. John French (1753-1803)
+R: slip-jig
+B: "John French Collection", John French ed. p.1 #4
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Dm
+   c | d2D FED CDE | d2D FGA def | edc GEG CDE | d2D TED^C D2 :|
+|: c | dAd fed cde | dAd fed afd | ced cBc CDE | d2D TED^C D2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 015
+T: Miss Logan, Ayr, Strathspey
+C: attr. John French (1753-1803)
+R: strathspey
+B: "John French Collection", John French ed. p.1 #5
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A | FDD>g Tf2d>f | e>fg>f {f}e2E>G | FDD>g Tf2d>f | e<gf<a d2d :|
+A | {G}F>DA>D B>DA>D | {G}F>DA>F GEEA | {G}F>DA>D B>DA>D | B<dc<e d2d>A |
+    {G}F>DA>D B>DA>D | {G}F>DA>F GEEA | {G}FDAF BGcA | B<dc<e d2d> |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 021
+T: Miss J. Cumming's Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.2 #1
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+f | d2(AG) FGAF | Ee-ed cABc | d2(AG) FGAF | Dd-de fdd :|
+f | d2(fd) (f/g/a)(fd) | d2(fd) ce-ef | d2(fd) (f/g/a)(fd) ABde fd-d ||
+f | d2(fd) (f/g/a)(fd) | d2(fd) ce-ef | dAFA GBAG | FAde fd-d |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 022
+T: Miss Hunter Blair's Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.2 #2
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+|:\
+(f>gf)d cde(a | ge)fA GABd | (f>gf)d cAfd | TcAGA F/F/F F2 :|
+AcFc AF (TFE/F/) | BdGd BG (TGF/G/) | (Ac)Fc Acfd | cAGA F/F/F F2 |
+AcFc AFcF | BdGd BGdB | Acfb aefd | cAGA F/F/F F2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 023
+T: Lady Mary Hay's Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.2 #3
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part was written out twice; converted to a repeated 4-bar phrase.
+M: C
+L: 1/8
+K: F
+   f | cfAf cfAf | (cf/g/a).f gGGf | cfAf cbag | fdcB AF-F :|
+|: A | (F/G/A/B/) cf Acfa | bgaf gGGA | (F/G/A/B/) cf bgaf | cbag fF-F :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 024
+T: The Kirn, a Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.2 #4
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+B | G2(TBA) GBdg | bgdB eA-AB | G(cTBA) GBdg | dBAG EG-G :|
+g | eg (Tgf/g/) dgBg | bgdB eAAg | eg (Tgf/g/) (dg)fe | dBAG EG-G ||
+g | eg (Tgf/g/) dgBg | bgdB eAAg | edeb (Tag/a/ b).g | dBAG EG-G |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 025
+T: Lady Dalrymple Hamilton's Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.2 #5
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+f | ({a}gfg)d B2GB | DGBG cBAf | ({a}fgf)d BgdB | cAdB G/G/G G :|
+c | BdGd BdGB | cAag aAAc | BdGd BdGB | cAdB G/G/G G ||
+c | BdGd BdGB | cAag aAAc | Bdgb gdBG | cAdB G/G/G G |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 031
+T: Mrs Fullarton of Fullarton's Strathspey
+C: attr. John French (1753-1803)
+R: strathspey
+B: "John French Collection", John French ed. p.3 #1
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: There's a half-beat missing in the first part's repeat.
+M: C
+L: 1/8
+K: A
+|: [EA,]>A-A>E F>dB>G | [EA,]>A-Ac/d/ e>Ac>A | d>Bc>A G>BBd | c<eE>G A2A :|
+f/g/ | a>ec>A GB-Bf/g/ | a>ec>A E>Ac>A | d>Bc>A G>B-Bd | c<eE>G A2A ||
+f/g/ | a>ec>A GB-Bf/g/ | a>ef>c e>BcE | FBd>c BB,DF | [EA,]>ec<e B<cA<c |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 032
+T: Sir David Hunter Blair's new Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.3 #2
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+c | A2Ec AEcA | B,B-Bc dcBc | AEGB AcBd | ca (e/f/g) (aA)A :|
+g | {b}agae (dc)(BA) | GBEc dcBg | {b}agae (dc)(BA) | GBEd cA-A ||
+g | agae (dc)(BA) | GBEc dcBc | AECE FABd | ca (e/f/g) (aA)A |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 033
+T: Mrs Hepburn of Clerkington's Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.3 #3
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dmix
+A | d2(AG) FDAF | Ec-cG ECC^c | d2(AG) FDAF | EcGE FD-D :: d | Adfd adfd |
+Gcec gcec |[1 Adfd adfd | eg^ce dD-D :|[2 dfeg fagb | afe^c dfef |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 034
+T: John Barlycorn, a Jig
+C: attr. John French (1753-1803)
+R: jig
+B: "John French Collection", John French ed. p.3 #4
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 12/8
+L: 1/8
+K: D
+|:\
+D2d (AG)F ECE G2E | D2d ABc dcB AGF | G2e F2d ECE G2E |[1 Ddf edc dAG FGE :|
+[2 Ddf edc dFD D2 |: g | Tf2d (f/g/a)f ge=c efg | Tf2d Adf afd faf |
+gbg faf ge=c efg |[1 fdf gec dFD D2 :|[2 fag fge dAG FGE |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 035
+T: Mrs Muir of Caldwell's Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.3 #5
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+F | B2(dB) ecdB | edcB (A/B/c) (AF) | B2(df) ecAF | GBAc B/B/B B :|
+G | FBDB FDBD | EGCG EGcG | AcFc AcBg | dfcd B/B/B (BG) |
+    FBDB FDBD | EGcB AcFA | Bbge fdTcB | FBAc B/B/B B |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 041
+T: Mrs Kelso of Danhieth's Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.4 #1
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Eb
+|:\
+(Ee)(Ge) EeGE | F/F/F (TcB) cFF(G | EF)GB efge | Beag Tf2e2 :: egbg egBe |
+cFAc faTg>f |1 egbg egBe | ceag Tf2eg :|2 eEGB efge | ceag Tf2e2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 042
+T: Sugar Banks, Strathspey
+C: attr. John French (1753-1803)
+R: strathspey
+B: "John French Collection", John French ed. p.4 #2
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+F |\
+D<FB>F B/c/d/c/ B>F | G<BTF>D EC-CE | D<FB>F B/c/d/c/ B>F |1G<BTF>E DB,-B, :|2 E<Ce>c dB- Bd/e/ ||
+f>dBb f<Bd>B | FB {e}dc/B/ Ac cd/e/ | f>dBb f<dBD | EGCF B,B- Bd/e/ |
+f>dBb f<Bd>B | FB {e}dc/B/ Ac cd/e/ | f>de<g f<de>c | B>F {A}GF/E/ DB,-B, |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 043
+T: Miss Cuming's Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.4 #3
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+D |\
+B,2(DF) BFDF | B/B/Bfd TcBcd | B,2(DF) BdFD |1ECFD B,/B,/B,B, :|2 GecA B/B/B Bd |
+f2(bf) gfbd | Bfed TcBcd | f/f/f (bf) gdfF | GecA B/B/B (Bd) |
+f2(bf) gfbd | Bfed edcB | GBFB DBFD | ECFD B,/B,/B,B, |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 044
+T: Miss Ainslie's Strathspey
+C: attr. John French (1753-1803)
+R: strathspey
+B: "John French Collection", John French ed. p.4 #4
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+D | G<GG>A B>cd2 | c>Fc>A c<Fc>A | G<GG>A B>cdf | c<Fc>A {F}G2G :|
+d | g>(a {ga}b>)a g<dg<b | f>(g {fg}a>)g f<cf<a | g>(a {ga}b>)a g<dg<a | f>d {d}c>A {F}G2 G ||
+d | g>(a {ga}b>)a g<bd<g | f>(g {fg}a>)f c<fA<c | B>dG>d Bdg<b | f<d {d}c>A {F}G2 G |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 045
+T: Mr Oswald's Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.4 #5
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+D | (GABc) (Td>cd)(f | cd)Ac FGAF | (GABc) (Td>cd)f    | AFcA dG-G :|
+d | gdBd (g/a/b)(ag) | fdcB  Acfa |  gdBd  (g/a/b)(ag) | fcAc dG-G ||
+d | gdBd  gbag       | fcAc  fagf |  gbdg   fdcB       | AFcA dG-G |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 051
+T: Gi' the lasses mair o't, a Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.5 #1
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+B | A/A/A (AF) d>ddf | dBAF (TEDE).F | A/A/A (AF) d>ddf | dBAF TE2 D :|
+g | af-fb afdf | Bege bege | af-fb afdf | (B/d/e/f/ g)f Te2(dg) |
+    af-fb afdf | Bege bege | afd(f ec)ae | fd-dF TE2D |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 052
+T: The Ploughmans Dance
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.5 #2
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+|: A,DCE DEFG | AFdB AFED | B,E^DF EFGA | BGed cBAG |
+   FDCE DEFG | AFdB AFED | GBAG FAdF | EDEF D2D2 :|
+|: defd cdec | BcdB AFTED | GBeG FAdF | EB,GE DCB,A, |
+[1 defd cdec | BcdB AFTED | GBAG FAGF | TEDEF D2D2 :|
+[2 dfaf dAFA | Bgec dAFD | GBAG FAdF | TEDEF D2z2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 053
+T: The Weaver, a Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.5 #3
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+c | (B/c/d) (cB) {B}A2(GF) | CF(Ac B)AGF | GABc dfBd | cAd^F G2G, :|
+d | (g/a/b) (ag) fgfe | dbdB caAF | (g/a/b) (ag) fgfe | dba^f g2(Gd) |
+    (g/a/b) (ag) fgfe | dbca BgAf | Bfcf dg^fg | dba^f g2G |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 054
+T: Lady Mary Lindsay's Jig
+C: attr. John French (1753-1803)
+R: jig
+B: "John French Collection", John French ed. p.5 #4
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gm
+G |\
+(G>AG) Bcd | (g/a/b)a g2d | fdf {d}c2B | Afd cAF |\
+G2B A2c | B2d gdg | f2d cAF | G3 d2 :|
+A |\
+(B>cB) fdB | bab fdB | c=ef Bdf | Acf cAF |\
+B>cB fdB | bfd fdB | cfd cAF | G3 d2 ||
+A |\
+B>cB fdB | bab fdB | Tc2B ABG | FcB AGF | GDG ADA | BDB AGF | Afd cAF | G3 d2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 061
+T: Countess of Louden
+C: attr. John French (1753-1803)
+R: strathspey
+B: "John French Collection", John French ed. p.6 #1
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+F | E>FA>B cA-A>c | (TB>AB)>c d>cB>c | E>Ac>e d>cBf | e<cB>c A2A :|
+(f/g/) | a>gf>e c>Ad>f | g>ef>a ge-ef/g/ | a>gf>e d>cB>f | ecBc {G}A2A ||
+ f/g/  | a>gf>e c>Ad>f | g>ef>a ge-ef/g/ | a>gf>e f<ag>b | e<cB>c A2-A |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 062
+T: Sundrum House, a Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.6 #2
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Ador
+F | EAcA  EAcA  | BGdB gdcB | cege dcBd | cedB  cA-A :|
+e | abae (ab)ag | egdg Bdgb | agef gdBg | ecBe  cA-A ||
+e | abae (ab)ag | egdg Bdgb | agea gedB | cdB^g aA-A |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 063
+T: Mr A Oswald's Jig
+C: attr. John French (1753-1803)
+R: jig
+B: "John French Collection", John French ed. p.6 #3
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+F |\
+(E/F/G)(E B)GE | (D>EF/G/) AFD | (E/F/G)(E B)GE | eBG BGE |\
+dfe d^cB | AFA def | geg fdf | eGE E2 :|
+|: g |\
+(e/f/g)e bge | dfg afd | (e/f/g)(e b)ge | Beg bge |\
+dfe d^cB | AFA def | geg fdf | eGE E2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 064
+T: Miss Jean Maxwell of Monreith's Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.6 #4
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Em
+F |\
+EBGA FD-DF | EBGB EBGB | dfAc FDAF | GBAF GE-E :|
+e |\
+Begb fd-df | Bege bege | Begb fd-df | gbfa ge-eg |
+Begb fd-df | Bege bege | dfAd FDAF | GBAc BE-E |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 071
+T: One Choppin mair, a Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.7 #1
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+F | (A,D/E/)FD ADFD | GBFA BE-EF | (A,D/E/F)D ADFD | GEge fd-d :|
+f | (d>ed)A dfaf | gefd Be-ef | (d>ed)A dfaf | gebg fd-d ||
+f | (d>ed)A dfaf | gefd Be-ef | dAFD GBA=c | B(bag) fdd |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 072
+T: Mr James Boswell's Jig
+C: attr. John French (1753-1803)
+R: jig
+B: "John French Collection", John French ed. p.7 #2
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 12/8
+L: 1/8
+K: Dmix
+A | TF2D- DFD TF2D AGF | E2C E/F/GE cGF EFG | TF2D- DFD F2D AGF | GcG EFG AFD D2 :|
+g | Tf2d- dfd  Adf afd | Te2c cec   Gce gec | Tf2d  dfd Adf afd | cAc GEG AFD D2 ||
+g | Tf2d- dfd  Adf afd | Te2c cec   Gce gec |  afd  bge afd gec | AcA GEG AFD D2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 073
+T: Major Webster's Delight
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.7 #3
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+c | BGDG FA-Ac | BgdB c2Bd | efgB cBAc | BdDF G2G, :|
+g | gdbd fdad | egfa g2(dB) | caAc BgGB | ABcd egfa |
+    gdbd fdad | egfa g2(dB) | caAc Bgec | BdDF G2G, |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 074
+T: Auchincruive, a Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.9 #4
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The two low G's that end the first part should probably be tied, to match the other endings.
+M: C
+L: 1/8
+K: G
+C | (B,D)G2 | B,DGc | BAGB AA,-A,C | B,DG2 (B,D)Gc | BdAB GG,G, :|
+c | BGdG eGdG | BGdB cA-Ac | BGdG ecAF | GDEC B,G,-G, ||
+c | BGdG eGdG | BGdB cA-Ac | Bdec dgfa | gdec BG-G |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 081
+T: Marion Dunn, a Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.8 #1
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: There are no D's in the tune, so the key could be F minor.
+M: C
+L: 1/8
+K: Fdor
+c |\
+(A/B/c) (Fc) (A/B/c) (Fc) | Be-eB GE-EB | (A/B/c) (Fc) (A/B/c) (Fc) | Gf-fc AFF :|
+c |\
+fcaf cfAc | BeGB (E/F/G/A/ B).G | Ffaf cfAc | BeEG cFFc |
+fcaf cfAc | BeGB (E/F/G/A/ B).G | Fagf eBGB | AcBG AFF |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 082
+T: Merry today, a Jig
+C: attr. John French (1753-1803)
+R: jig
+B: "John French Collection", John French ed. p.8 #2
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 12/8
+L: 1/8
+K: F
+C |\
+FGF AFA cdc cBA | DEF GAB AGF EDC | FGF AFA cdc cBA | DBA GFE F3 F2 |]
+f |\
+fcf afa gcg bgb | agf efg fed cde | fcf afa gcg bgb | agf cde f3 f2c |
+fcf afa gcg bgb | agf efg fed cde | fed cBA Bcd cd_e | dba gfe f3 f2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 083
+T: Cumnock Fair, a Strathspey
+C: attr. John French (1753-1803)
+R: strathspey
+B: "John French Collection", John French ed. p.8 #3
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Problems in the rhythm of repeats fixed by moving all pickup notes to the start of the phrase.
+Q: "Slowish"
+M: C
+L: 1/16
+K: G
+D2 |\
+G3A {c}B2(AG) E2A2-A2B2 | G3AB2G2 d2G2B2G2 | c2A2 (cBA).G A2E2E2A2 |1 G2D2 (ED).C.B, {B,}D4 D2 :|2 G2g2 a2gf {f}g4 g2 ||
+d2 |\
+Tg3ab2g2 e2a2-a2b2 | g3ab2g2 {a}(gfga b2)(g2 | a2)(g2b2)g2 e2a2a2b2 | Tg3a (gaba) g4 g2 ||
+d2 |\
+Tg3ab2g2 e2a2-a2b2 | Tg3ab2g2 a2f2g2e2 | d2B2 (cBAG) A2E2E2A2 | G2B,2 (DC).B,.A, G,4 G,2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 084
+T: Mr Boswell of Auchinleck's Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.8 #4
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+D | G2Bc dBGB | AFcA fcAF | .G(ABc) dfcf | AF {d}cA G/G/G G :|
+d | (g>ab).g dgBd | cfaf cfAf | (g>ab).a gbdg | fcdA G/G/G Gd |
+    (g>ab).g dgBd | caBg AFcA | BGDG B,GG,B | AF {d}cA G/G/G G |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 091
+T: Major Logan's Frollick, a Strathspey
+C: attr. John French (1753-1803)
+R: strathspey
+Q: "Slowish"
+B: "John French Collection", John French ed. p.9 #1
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+f |\
+c<fa>g Tg>fa>f | c<fa>c' g>fd2 | c<fa>f Tg>faf | d<fB>d c>A [GE] :|
+A |\
+F>cA<c dfga | F>cAf {d}cB/A/ {A}G2 | F>cAc Bdca | f>cd>f c>AG>A |
+F>cAc dfga | FcAf {d}cB/A/ {A}G2 | F>cAc Bdca | fadf | c>A G |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 092
+T: Mr Sloan's Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.9 #2
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+C |\
+F2(cF) Acfd | cAFA GFDG | F2(cF) Acfd | cAGA F/F/F F :|
+c |\
+facf dfBd | cAFA TGFDc | facf dfBd | cfeg f/f/f (fc) |
+fadf cfBd | cfcA TGFGA | FcAc Bdgb | afce f/f/f f |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 093
+T: Send us Whisky, a Jig
+C: attr. John French (1753-1803)
+R: jig
+B: "John French Collection", John French ed. p.9 #3
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 12/8
+L: 1/8
+K: F
+B | cAF (TFEF) CFA cAF | BdB AcA dBA GBd | cAF (TFEF) CFA cAF | BAB Gge fFF F2 :|
+e | (Tfef) gec Bdf cAF | BdB AcA dBG G2e | (Tfef) gec Bdf cAF | BAB GcB AFF F2 ||
+e | (Tfef) gec Bdf cAF | BdB AcA dBG G2e | faf gbg afd cBA | BAB Gge fFF F2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 094
+T: Mrs Hughe's Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.9 #4
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+c |\
+(BA)(GF) CFAc | (B/c/d) TcA BGGc | (BA)(GF) CFAc | BGcA F/F/F F :|
+f |\
+fc (a/g/f/e/) fcAc | (B/c/d) TcA BGG(g | f)cfa fcAc | BGcA F/F/F Ff |
+fc (a/g/f/e/) fcAc | (B/c/d) TcA BGGg | fcaf cfAc | BGcA F/F/F F |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 101
+T: Miss Gordon of Braid's Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.10 #`
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+f |\
+eA {d}cA ceaf | gedg BG-Gf | eA {d}cA ceaf | gdBe {d}cA-A :|
+E |\
+DEA,E CEAF | GEDG | B,G,-G,B, | CEA,E CEAF | GB,A,E CA,-A,E |
+DEA,E CEAF | GEDG | B,G,-G,B, | CEA,E CEAc | BgdB {d}cAA |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 102
+T: Mrs Ballantine's Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.10 #2
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Amix
+c | (A,EA)f (ecA)E | FAEC B,B-Bc | (A,EA)f (ecA)E | FAB,E A,A-A :|
+f | (ef/g/a)c ecac | eaca b(BBf) | (ef/g/)c ecac | dBbg a(AAf) |
+    (ef/g/a)c ecac | eaca b(BBf) | ecac eace | dBbg aA-A |]
+%
+% %center -
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 103
+T: Mrs Wm Murray of Polonaise, a Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.10 #3
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+E |\
+C2EG c2-c(e | dcd)e dDD(F | EC)EG cdea | gede c/c/c c :|
+e |\
+gc (e/d/c) gc (e/d/c) | BGBd gdBG | gc (e/d/c) (eg)ec | Gefd c/c/c (ce) |
+cegc' gece | dBGB dfed | cGEG ABcE | FDGE C/C/C C |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 104
+T: Mrs Campbell of Treesbank's Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.10 #4
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+f | ec T(cB/c/) (Gc)EG | FAGE FD-Df | ec T(cB/c/) (Gc)EG |1FDdB cC-C :|2 FDfd (ecc) ||
+e | (c/d/e/f/ g).e afge | (c/d/e/f/ g)e afde | (c/d/e/f/ g)e afge | fdBg e(cce) |
+    (c/d/e/f/ g)e afge | (c/d/e/f/ g)e afdf | ecge afdc | BGfd ec-c |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 111
+T: Barskemming Bridge
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.11 #1
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+F |\
+B2(dB) ecdB | FB (G/F/E/D/) (EC)Cd | BFGe dgec | BFGE DB,-B, :|
+g |\
+fBdB (FB/c/ d).B | ecdB A(cce) | dFBg fdcB | AcFA Bdeg |
+fBdB (FB/c/ d).B | df (e/d/c/B/) (Ac)ec | BFGb gefF | GBTFE DB,-B, |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 112
+T: Mrs Boyd of Pinkie's Strathspey
+C: attr. John French (1753-1803)
+R: strathspey
+B: "John French Collection", John French ed. p.11 #2
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+B |\
+(G/A/B/c/) dG (B/c/d)(GB) | Afcf AFcA | (G/A/B/c/) dg fcdB | AFcA BG-G :|
+A |\
+(B/c/d/e/ f)d bdfd | cfAc (FA/B/c)A | (B/c/d/e/ f)b fBdB | cFAc d(GGA) |
+Bbfd bdBd | cfaf AcFA | BGdB AFcA | BGD^F GG,-G, |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 113
+T: Miss Georgina Mackay's Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.11 #3
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+|: G,G (TGF/G/) DGB,G | A,F (TFE/F/) CFA,F | G,G (GF/G/) DGBd |1 AFcA G/G/G G2 :|2 cfaf g/g/g g2 ||
+(Tgfg)d Bdgb | afcf AFcA | Gg(Tgf/g/) (dg)BG | AFcA G/G/G (Gg) |
+(Tgfg)d Bdgb | afcf AFcA | GgAa BbdB | AFcA G/G/G G2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 114
+T: Miss Balfour Whitehill's Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.11 #4
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+d |\
+(g>ab)a (ged)B | GBgb (aga)b | (g>ab)a (ged)B | cA (d/c/B/A/) BG G :|
+c |\
+BGDG B,GG,B | cedB cA-Ac | BGDG B,GG,B | cA (d/c/B/A/) BGGc |
+BGDG B,GG,B | cedB cA-Ac | Bdgb afgd | ecAd BG-G |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 121
+T: Miss Boswell's Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.12 #1
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+f | d2(AF) (TEDE).F | DA,DF AdAF | AfdF (TEDE).F | d(BTAF) A2-A :|
+f | dAaf TedBe | dAaf bgaf |[1 (d/e/f/g/ a).f edBe | d(BTAF) A2-Af :|\
+[2 gbfa TedBe | d(BTAF) A2-A |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 122
+T: Girvan Water, a Jig
+C: attr. John French (1753-1803)
+R: jig
+Q: "Slowish"
+B: "John French Collection", John French ed. p.12 #2
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dmix
+f |\
+d2A AGF | d2A A2f | d2A AGF | BGE E2f |\
+d2A AGF | d2f e2g | fed cdB | AFF ~F2 :|
+|: E |\
+DFA AFA | dfd TBAB | AFD FAd | BGE E2F |\
+DFA AFA | dfd TBAB | dge fdB | AFF ~F2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 123
+T: Mr Monro Binning's Strathspey
+C: attr. John French (1753-1803)
+R: strathspey
+B: "John French Collection", John French ed. p.12 #3
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+F | D>FA=c BdAF | GBFd B(EEF) | D>FA=c BdAF | Ad (Ted/e/) fd-d :|
+g | faef d>BAF | Adfa g(eeg) | faef d>BAG | FAEA FD-Dg |
+faef d>BAF | Adfa g(eeg) | f<ae<f d<fBd | Ad(Ted/e/) fdd |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 124
+T: My Laddie is a Sailor, a Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.12 #4
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Dm
+F | (DEF).G (BA)(GF) | GECG ECGE | DEFG AcFA | GEE D/D/D D :|
+c | Ad-de (fe)(dc) | cdef gece | defg (f/g/a) T(gf) | gece d/d/d (de) |
+    fafa bagf | (e/f/g) (cg) ecge | fadf {f}edce | dAcE D/D/DD |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 125
+T: Ripe the ribs, a Strathspey
+C: attr. John French (1753-1803)
+R: strathspey
+B: "John French Collection", John French ed. p.12 #5
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+C |\
+A,<A,E>C E>FE>C | A,<A {Bc}d>c BB,B,C | A,<A,E>C E>FAd | c<eB>c | AA,A, :|
+f |\
+e<ea>c e>A {d}c>A | B<Bc>A F>BBf | e<ea>c e>Acf | e<ag>b eaac' |
+e<ea>c e>A {d}c>A | B<Bc>A F>BBf | A<cF>A E<AEC | D<FE>C A,AA |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 131
+T: Miss Miller of Glenlee's Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.13 #1
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+e |\
+c(AAc) efec | AEcA B/B/BBd | c(AAc) efeE |1 FdBG A/A/A A :|2 FAEC A,/A,/A, A, ||
+D |\
+CE-EA FAEA | DFEC B,/B,/B, (B,D) | CE-EA FAEC | DFEC A,/A,/A, A,D |
+CE-EA FAEA | DFEC B,/B,/B, (B,D) | CEDF EAdf | ecBc A/A/A A |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 132
+T: Mrs Hamilton of Sundrum's (Junr) Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.13 #2
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+E | ABcd ecBA | G2Bd gdBG | ABcd egdc | BAGB A/A/A A :|
+g | ae (f/e/d/c/) (ae)e(c | d)egc TBAGg | ae (f/e/d/c/) (ae)e(c | TB)AGB A/A/A (Ag) |
+    aece ae(f/e/d/c) | gdBd gd (e/d/c/B/) | cdea gedc | TBAGB A/A/A A |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 133
+T: Dunsky, a Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.13 #3
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The f-sharp key signature is odd, since all the f's are natural.
+M: C
+L: 1/8
+K: Ador
+c |\
+Aece BG-GB | AeBe ceAa | egdg BGdB | ced=f eA-A :|
+B |\
+Aaeg BG-GB | AaBa caAa | ecgc BGdB | cedB cA-AB |
+Aaeg | BG-GB | AaBa caAa | gbeg BGdB | ced=f eA-A |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 134
+T: Ye ken what, a Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.13 #4
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+c | d2(AF) {F}d2(AF) | (D/E/F/G/ A)F GE-Ec | d2AF (D/E/F/G/ A)F | Bgec dD-D :|
+f | defg abaf | gefd ge-ef | defg abaf | gefd Ad-df |
+    dcBA BAGF | GEFD CE-EG | FDFA dcBA | Bgec dD-D |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 141
+T: Mrs Blair of Blair's Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.14 #1
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A |\
+d2(fd) adfd | Be-ed cABc | d2(fd) adfd | Be-ec d2D :|
+G |\
+FAdF GBeg | fdAF GFEG | FAdF GBeg | fdec d2DG |
+FAdF GBeg | fdAF GFEG | FAdA Bdgb | afge d2D |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 142
+T: John French's Compts to Mr Nath. Gow
+C: attr. John French (1753-1803)
+R: strathspey
+Q: "Slow"
+B: "John French Collection", John French ed. p.14 #2
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Eb
+c |\
+B<GG>F E<CC>E | B,>CE>F [GE][FD][FD]c | B<GG>F E<CC>E |\
+[1 C>E {c}BA/G/ TF2 E :|[2 B,>e {c}BA/G/ TF2E ||
+a |\
+g<ee>c B<GTG>F | EeBG TF>ECa | g<ee>c B<GG>F | Ee {c}BA/G/ TF2E>a |
+g<ee>c B<GG>F | EeBG TF>ECF | E<B,E>F G>Bce | B<E {c}BA/G/ TF2E |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 143
+T: The Parks of Eglinton, a Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.14 #3
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Eb
+c | BEGE DF-FA | GEBG (e2Ba) | geBG | AF-FA | GECD E2E |]
+g | egbg a(ffg) | egbg eBGB | ceBG AF-FA | GEFD E2(Eg) |
+    egbg a(ffg) | egbg eBGB | AcGB FGAc | Bedf e2e |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 144
+T: The Monkton Lasses, a Strathspey
+C: attr. John French (1753-1803)
+R: strathspey
+B: "John French Collection", John French ed. p.14 #4
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The key signature is odd, since all the c's are sharp.
+M: C
+L: 1/8
+K: Dmix
+F |\
+D/D/D (AF) EFGE | D/D/D (eg) fde^c | dAc=F ECGE | =FdE^c dDD :|
+(g |\
+f)dge ^cde(g | f)dge afbg | fdge ^cdeg | fde^c dDD(g |
+f)dge ^cde(g | f)dge afbg | fdAF EFGB | A^ceg fdd |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 152
+T: Mr Richd Campbell's Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.15 #2
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+c |\
+BGBd (GB/c/d).B | AcFc fcAF | GBdB AFcA | BGD^F GG,-G, :|
+d |\
+gdgb (Bg/a/b).g | fac=e fcAF | gdgb (Bg/a/b).g | fcAd BG-Gd
+gdbg a^fgd | fcdf  cAGF | GBdg fdcA | BGD^F GG,-G, |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 153
+T: Barley Broth, a Jig
+C: attr. John French (1753-1803)
+R: jig
+B: "John French Collection", John French ed. p.15 #1
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+B, |\
+(EFE) BGE | eGE GAB | (B/^c/d)(B A)dG | FED AFD |\
+(EFE) BGE | eGE GAB | (B/c/d)B AFD | E3 e2 :|
+f |\
+(e/f/g)(f e)de | Bef gfe | (d/^c/B/c/d) AdG | FED AFD |\
+(e/f/g)(f e)de | Bef gfe | d^cd AFD | E3 e2 ||
+f |\
+(e/f/g)(f e)de | Bef gfe | (d/^c/B/c/d) AdG | FED AFD |\
+EGE FAF | GBG AB^c | d^cd AFD | E3 e2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 154
+T: Good Luck, a Reel
+C: attr. John French (1753-1803)
+R: reel
+B: "John French Collection", John French ed. p.15 #3
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+B |\
+AF T(FE/F/) CF T(FE/F/) | AFcF EG-GB | AF T(FE/F/) CF Ac | BGcB AF-FB |
+AF T(FE/F/) CF T(FE/F/) | AFcF EG-GB | AF T(FE/F/) CF Ac | Bbge fF-F ||
+f- |\
+fcAc fcaf | cfaf T(gfg).a | fcAc fcag | fcdB AF-Ff |
+fcAc fcaf | cfaf T(gfg).a | bagf dfcf | BGdB AF-F |]

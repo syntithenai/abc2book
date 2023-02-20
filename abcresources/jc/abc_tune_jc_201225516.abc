@@ -1,0 +1,43 @@
+X:96
+T:Just Before the Battle, Mother
+C:Geo. F. Root
+C:Harmony By J. McDonagh
+M:C
+Q:1/4=100
+%%staves [1 2 3 4]
+K:D
+L:1/8
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+ d3e  fA dc|cB3 z4|c3d   e_e  f=e  |d6       z2"fine":|
+ f3f  gf ed|Bd3 z4|e3f   ed   cB   |A6       C2"D.C. al fine"|]
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+ F3G  AF AA|AG3 z4|E3F   GF   AG  |F6       z2      :|
+ A3A  BA AA|GB3 z4|A3A   GG   GG  |(A2F2G2) G2      |]
+V:3
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+K:treble
+A,3A, DD DD|DD3 z4|A,3A, A,A, A,A,|A,6      z2      :|
+ D3D  DD DD|CD3 z4| C3C  A,A, ED  | C2D2E2  E2      |]
+V:4
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose -4
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+K:treble-8
+ D3D  DD FF|GG3 z4|A3A   AA   AA  |D6       z2      :|
+ D3D  DD FF|GG3 z4|E3E   EE   EE  |A6       A2      |]

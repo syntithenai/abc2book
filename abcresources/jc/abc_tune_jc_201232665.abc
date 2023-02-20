@@ -1,0 +1,563 @@
+X: 0
+T: Twenty Four Country Dances for the Year 1771
+C: Publisher: Wm Randall
+N: Publisher: William Randall, London, 1771
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+F: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1771:_Randall_(Various)
+K:
+%%begintext align
+%% With proper tunes and Directions to each Dance
+%% as they are Performed at Court, Bath, & all Polite Assembly's.
+%% Set for the Violin, German Flute or Hautboy.
+%%endtext
+%%sep 5 5 500
+%%center Twenty Four
+%%center COUNTRY DANCES
+%%center for the Year 1771
+%%center With proper Dances and Directions to each Dance
+%%center as they are Perform'd at Court & all Polite Assemblys
+%%center Set for the Violin German Flute or Hautboy
+%%center -------------------------------------------------------
+%%center London. Printed for Wm Randall Successor to the late Mr Walsh, in Catharine Street
+%%center In the Strand.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1
+T: the New Maneger
+R: march
+M: C
+L: 1/4
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.3
+K: F
+|: f2 af | ge c2 | d2 fd | ef cA | B2 dB | A2 cA | Gd BG | FE {D}C2 |
+   f2 af | ge c2 | d2 fd | ef cA | Be gb | ba gf | ag fe | f2 F2 :|
+|: af ga | ge fg | fA dc | {c}=B2 AG | ge dc | af ed | fA c=B | c2 C2 |
+   c2 fe | d2 ba | gf ef | {f}e2  dc | f2 cA | dB AG | GD FE  | F2 F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Turn your Partner round with your Right Hand
+%% Cast off : turn with the Left cast off another Cu.
+%% lead up to the top Cast off : Hands 4 round at
+%% Bottom : and the same at top : foot it to your Partner
+%% and turn Right Hands and Left at top
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2
+T: Wadling Tom
+R: jig
+M: 6/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.3
+K: A
+|: a3  e3  | fed c2d | ecA fdc  | BcA GFE |\
+   a3  e3  | fga gab | agf ef^d | e3  E3 :|
+|: e2e cde | d2d Bcd | c2d ecA  | G2A BGE |\
+   Fdc Bdf | fed dcB | efd cdB  | A3 A,3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. lead up to the top cast off
+%% lead thro the Bottom cast up Right
+%% Hands and Left at top
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3
+T: Gray's Fancy
+R: jig
+M: 6/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.4
+K: Bb
+|: B,3 DFB | dfe dcB | C3 EAc | edc cBA |\
+B3 DFB | B3 EGB | Aec AFA | B3 B,3 :|
+|: d3 fdB | c3 fcA | Bba gaf | =efd c3 |\
+f=ef cd_e | d3 b2a | g2f gf=e | f3 F3 |
+fdf _ece | def GAB | cde edc | gec AGF |\
+B,3 DFB | dfe dcB | cec AFA | B3 B,3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across quite round and Back again
+%% lead down 1 Cu. up again cast off Right Hands
+%% & Left at top set corners & turn lead outsides
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 4
+T: Cupids Frolick
+R: march, reel
+M: 2/4
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.4
+K: D
+|: af2d | ce2g | fdcA | dAFD | af2d | ce2g | fdce | d2D2 :|
+|: dA2=c | Bdfg | eB2d | ^ce^ga | =ge2g | fdcA | BeAc | d2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Foot 3 and turn the same on the other side
+%% lead down 2 Cu. up again and cast off
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 5
+T: the Mad Mason
+R: reel
+M: C
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.5
+K: C
+|: C/C/C EC GEcG | A/A/A cA fdcB | C/C/C EC GEcG | AdGB c2C2 :|
+|: c/c/c ec gGBG | A/A/A cA eEGE | F/F/F AF Gg2f | edcB c2C2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Turn your Partner round with your Right
+%% Hand Cast off 1 Cu. turn Left Hand the
+%% Gent.n fall in at Bottom and the Lady at
+%% top foot it 3 and 3 sideways set corners
+%% and turn lead outsides
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 6
+T: the Brothers
+R: jig
+M: 6/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.5
+K: G
+|: G3 BGB | def gfe | ded cBA | EFG FED |\
+   G3 BGB | def gab | agf ed^c | d3 D3 :|
+|: bgd Tc>Bc | afc TB>AB | ABc EFG | F3 D3 |\
+   G3 BGB | def gfe | dcB AGF | G3 G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands 4 across and Back again and cross over
+%% Half figure Right and Left at top
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 7
+T: the Coterie
+R: reel
+M: C
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.6
+K: Gm
+|: dcBA G2B2 | A2c2 B2d2 | c2e2 d2B2 | A2G2 ^F2D2 |\
+   dcBA B2d2 | c2e2 d2g2 | f2e2 d2c2 | B4 B,4 :|
+|: dc=Bd c2C2 | c_BAc B2d2 | c2B2 A2G2 | A4 D4 |\
+   G2B2 A2e2 | d2g2 d2B2 | A2G2 {B}A2G^F | G4 G,4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands 6 round : & Back again : the 1st
+%% Gent.n Allemande with the 2d Lady
+%% while the 1st Lady Allemande with the
+%% 2d Gent.n Ditto the same with the 3d
+%% Cu. Hey all round lead up the middle
+%% cast off then Allemande with your
+%% Partner
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 8
+T: the Social Party
+R: slip-jig
+M: 9/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.6
+K: D
+|: a3 f2d e>cA | d3 B2d cBA | B3 bag gfe | efg Bcd c3 |
+   a3 f2d ecA | d3 B2d cde | d3 b2a ^gfe | afe dcB A3 :|
+|: e3 B2d cBA | a3 efg f3 | a3 f2e dcB | cde F^G^A B3 |
+   d3 AB^c B2z | e3 B^cd c3 | a3 efg f2a | Bgf edc d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu. Hands 4 at Bottom : Cast up and Hands 4
+%% at Top lead down 1 Cu. up again cast off Right
+%% Hands and Left at top
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 9
+T: the Pantheon
+R: march, reel
+M: 2/4
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.7
+K: F
+|: fc2A | BG2B | AFGE | F2C2 |\
+   af2F | ge2E | fdc=B | c2C2 :|
+|: A,c2_e | B,d2f | Ce2g | f2e2 |\
+   fc2A | dBAG | AFGE | F2F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead down on your own Sides and turn
+%% your Partner at the Bottom lead up again
+%% and turn at top lead thro the Bottom cast
+%% up 1 Cu. Right and Left at top
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 10
+T: the Treach'rous Lovers
+R: jig
+M: 6/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.7
+K: Bb
+|: d2e  fdB | c2d ecA | B2c dcB | ABc F3  |\
+   d2e  fdB | c2d ecA | Bcd FGA | B3  B,3 :|
+|: B,DF Bcd | ecB AGF | gfe dcB | cdB AGF |\
+   d2e  fdB | c2d ecA | Bgf edc | BcA B3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. cast up again cross over 2 Cu.
+%% lead up to the top cast off set Corners
+%% lead outsides
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 11
+T: Eclipse
+R: reel
+M: C
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.8
+K: A
+a |\
+A/A/A ce aecA | Bd2f G2FE |\
+A/A/A ce Ba2f | geB^d e2E2 :|
+|:\
+e/e/e ce d/d/d Bd | cedc B2E2 |\
+F/F/F dF E/E/E GB | AcEG A2A,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Foot it all 4 and Hands 4 round & Back
+%% again lead down 2 Cu. up again cast off
+%% set corners and Hey
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 12
+T: the Black Boy
+R: jig
+M: 6/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.8
+K: Bb
+|: B3 fdf | e2c d2B | c2A G2c | A3 F3 |\
+   B3 fdf | =e2b a2g | agf gf=e | f3 F3 :|
+|: f2d e2c | d2B g2f | edc GAB | A3 F3 |\
+   Egf edc | f2A B2e | dcB cBA | B3 B,3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu. Hands 4 at Bottom foot it 4
+%% and Hands 4 at top lead thro the B[ottom]
+%% cast up Right and Left at top
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 13
+T: Trip to Newington
+R: march, reel
+M: 2/4
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.9
+K: G
+|: BdcA | BGFD | EGFA | G2G,2 |\
+   Bdgb | a^cdG | FdE^c | d2 D2 :|
+|: dB2d | caAc | BGEA | {G}F2{E}D2 |\
+   EcBe | dfge | dcBA | G2 G,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu. and turn your Partner cast
+%% off another Cu. and turn your Partner lead
+%% up to the top cast off Right and Left
+%% at top
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 14
+T: the Mad Doctor
+R: jig
+M: 6/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.9
+K: A
+|: Ace e3  | fed d3  | edc Bcd  | cBA B2E |\
+   Ace e3  | fga gab | agf ef^d | e3  E3 :|
+|: edc cde | dcB Bcd | cde fdc  | BcA GFE |\
+   Ace e3  | fga B3  | ecA fdc  | BAG A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Foot it 3 and turn the same on the other side
+%% and turn lead thro the Bottom cast up Right
+%% and Left at top
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 15
+T: the Magic Girdle
+R: slip-jig
+M: 9/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.10
+K: C
+|: c2c cec dBG | c2c cec d3  |\
+   c2c cec dBG | ABc GAB c3 :|
+|: gec c3  dBG | gec c3  fga |\
+   gfe dcB cde | Afe dcB c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Gent.n cast off and turn the
+%% 3d Lady : the 1st Lady cast off and
+%% turn the 3d Gent.n Hands 6 round
+%% Right and Left at top
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 16
+T: Recruiting Serjeant
+R: jig
+M: 12/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.10
+K: C
+|: ECE  GEG cGc efg | fed  cBc  d3  G3  | ECE GEG  cGc efg | afe dcB  c3 C3 :|
+|: c'gf edc gdc BAG | Ac'b abg ^fga d3  | g3  de=f e3  c'3 | bag ag^f g3 G3  |
+   g2g g=fe f2f fed | efg  agf  edc BAG | A3  fdc  B3  gfe | dfe dcB  c3 C3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead thro the Bottom and cast up : lead thro the
+%% top cast off 3 Cu. foot it and turn their Partners
+%% Right and Left at top
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 17
+T: Denmark Hall
+R: reel
+M: 2/4
+L: 1/16
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.11
+K: A
+ed |\
+c2A4c2 | B2E4d2 | c2e2d2c2 | B2E4ed |\
+c2a4g2 | fe^dc B2a2 | g2f2e2^d2 | e4E2 :|
+|: e=d |\
+c2a4ce | d2b4Bd | c2e2d2c2 | BAGF E4 |\
+c2A4E=G | F2d4c2 | {c}B2A2 cBAG | A4 A,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Foot it across and turn the Lady do the
+%% same cross over Half figure Right and
+%% Left at top
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 18
+T: Corsican Dance
+R: jig
+M: 6/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.11
+K: G
+|:\
+G3 DEF | GDC B,A,G, | G3 FGA | BAG FED |\
+G3 DEF | GDC B,A,G, | A,cA FDF | G3 G,3 :|
+|:\
+d3 Bcd | c3 ABc | BcA EFG | F3 D3 |\
+GDC B,A,G, | A,3 c3 | BAG FED | G3 G,3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Turn your Partner with your Right Hand cast
+%% off turn with your Left Hand cast off again
+%% lead up to the top cast off Right and Left
+%% at top
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 19
+T: the Faries
+R: reel
+M: C
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.12
+K: Bb
+|: bfdB  ecAF | EGCc {B}A2GF | bfdB ecAF | BdFA B2B,2 :|
+|: fdc=B cded | ec_BA   BcdF | Gceg fABe | dcBA B2B,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across and Back again lead down 1 Cu.
+%% up again cast off turn your Partner
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20
+T: Ranelagh Rant
+R: jig
+M: 12/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.12
+K: C
+|: [c3E3G,3] [c3E3G,3] cef gec | g3 G3 GBc dBG |\
+   c3 C3 | cef gfe | dag^fef | g3 G3 :|
+|: A^ce gfe fag fed | GBd fed egf edc |\
+   Afd Bge Aag fed | ege dcB c3 C3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu. turn your Partner cast off
+%% another Cu. turn your Partner lead up to the
+%% top cast off Right and Left at top
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 21
+T: the Looking Glass
+R: reel
+M: C|
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.13
+K: F
+|:\
+FAcf agfe | fdcB BAGF | DFBF EGcb | afga g2c2 |
+FAcf afga | gfg=B {c}B2AG | AcfA =Bdgf | edc=B c2C2 :|
+|:\
+cdef gedc | bagf {f}e2d^c | dAdf eAeg | fed^c d4 |
+fef=c dBAB | g^fgd ec=Bc | fdc_B AcFA | BGFE F2F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Foot it all 4 and change Places the same Back
+%% again cast off 2 Cu. lead up to the top cast off
+%% Hands 6 round half way Back again lead thro
+%% the Bottom cast off Right and Left at top
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22
+T: the Strolling Players
+R: jig
+M: 6/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.13
+K: D
+|:\
+D2A F2A | DFA GFE | d2f e2g | fed cBA |\
+Bcd def | ^GFE e2d | cBA BA^G | A3 A,3 :|
+|:\
+AcA a2f | AcA g2f | e^de Bc=d | c3 A3 |\
+Bge cag | fed cBA | Bcd edc | d3 D3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Figure down on your own sides : and up
+%% again lead thro the Bottom cst up
+%% Right and Left at top
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 23
+T: the Mistake
+R: reel
+M: C
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.23
+K: A
+E | C/C/C EA cecA | B,/B,/B, DG BcdD | C/C/C EA D/D/D dc | {c}BA c/B/A/G/ A2A,2 :|
+|:  c/c/c ec aedc | B/B/B dB FAGE | C/C/C EA B,/B,/B, dB | ceEG | A2A,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Foot it all 4 and change Places and Back
+%% again Gallop down 2 Cu. lead up and cast
+%% off set corners and outsides
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 24
+T: the Widow's Wish
+R: jig
+M: 6/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.14
+K: Bb
+|: B,BB A,cc | B,dd Cee | def ged | cdB AGF |\
+   B,BB A,cc | B,dd Cee | d2e fed | cBA B3 :|
+|: eca  bfd  | ecA  BFD | Egf fed | cdB AGF |\
+   dBB, e2C  | fdD  E2g | f2e dcB | cBA B3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off Hands 4 at Bottom cast up and Hands
+%% 4 at top cast off 1 Cu. turn your Partner
+%% Right and Left at top
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

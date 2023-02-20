@@ -1,0 +1,28 @@
+X: 1
+T: Campbell's Farewell to Redcastle
+T: Campbell's Farewell to Red Gap
+N: The "Redcastle" title is sometimes used for the 32-bar (AA+B1+B2) form, with
+N: "Red Gap" for the 3-part version that's often (ABAC)xN+A, with or without repeats.
+%P: ABAC(A)
+R: march
+M: 2/4
+L: 1/8
+N: Scots Guard
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+K: AMix
+%P: A
+e "A"\
+| "A"A>B cd | ea e>d | cA AB/c/ |"G"dd/B/ G>B \
+| "A"A>B cd | ea e>d | "G"cB/A/ GB | "A"A3 :|
+%P: B
+g/f/ "B1"\
+| "A"ea ag/f/ | ea e>d | cA AB/c/ |"G"dd/B/ Gg/f/ \
+| "A"ea ag/f/ | ea e>d | "G"cB/A/ GB | "A"A3 ||
+g/f/ "B2"\
+| "A"ea ag/f/ | ea e>d | cA AB/c/ |"G"dd/B/ G>B \
+| "A"A>B cd | ea e>d | "G"cB/A/ GB | "A"A3 ||
+%P: C
+|: g/f/ "C"\
+| "A"ee ef | g2 fe | "G"dB GB | dB dg/f/ \
+| "A"ee ef | g2 fe | "G"dB gB | "A"BA A3 :|
+%%text C part not always used.

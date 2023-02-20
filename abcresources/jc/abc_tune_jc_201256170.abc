@@ -1,0 +1,13 @@
+X:79
+T:Braes of Dornoch
+C:John Johnson, 1758
+M:2/2
+L:1/4
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=90
+%%MIDI chordname dim 0 3 6 9
+K:G
+D | "G"G2g2 | "/"dBAG | "C"c/d/eee | "/"e2ge | "G"dBAG | "Em"B2AG | "D"F/G/AAA | "D7"A3D |
+"G"G2ge | "/"dBAG | "C"cdef | "Am"g3f/e/ | "G"dedB | "D"Ad "Em"BG | "C"E/F/G GG | "G"G3G/A/ |
+"G"B2BG | "/"g2gb | "G"dB "Em"AG | "Am"e2 "D"dc | "G"B2Bd | "Em"g2gb | "Bm"dB AG | "Am"A2 "D"BA |
+"C"GF EF | "G/B"G2 AB | "C"cdef | "C#dim"g3f/e/ | "G/D"dedg | "G"dB "Em"AG | "C"E/F/G "Am"GG | "G"G3 |]

@@ -1,0 +1,27 @@
+X: 1
+T: Mattinata   [G]
+%T: This Is Our Day
+%T: You're Breaking My Heart
+R: waltz
+C: Ruggiero Leoncavallo 1904
+F: https://www.scribd.com/document/374973992/IMSLP482691-PMLP116350-mattinata-pdf
+%date: 1904
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+d "A"|\
+"G"gab g{ag}fe | "C"gA2 "Am"z2B |\
+"Am"ceg "D7"f{gf}e> F | "G"d3 z2B |\
+"E7"Bcd B^G> E | "Am"BA2 z2G |
+"Bm"FBd "F#7"^c^AF | "Bm"f3- "D7"f2 d "B"|\
+"G"gab g{ag}fe | "C"gA2 "Am"z2B |\
+"Am"ceg "D7"f{gf}e> F | "G"d3 z2d |
+"G7/D"=fef d2^c/d/ | "D"b3 a2f |\
+dAF "A7"BG^c | "D"d3- "D7"d3 "C"|:\
+"G"dBd "Em"e3 | "G"d{ed}Bd "Em"ee2 |\
+"F#7"e^ce "Bm"f2f |
+"A7"efg "D7"a3 |\
+"B7"c'b> f "Em"f2g | "A7"ag> ^c "G"e2d |\
+[1 "Cm"g_eg "G"dBG | "D7"cc> F "G"G3 :|\
+[2 "Cm"g_eg "G"dBg | "D7"c'c'> f "G"g3 |]

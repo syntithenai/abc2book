@@ -1,0 +1,923 @@
+%abc
+%%abc-alias Wright
+%%abc-creator ABCexplorer 1.6.0 [05/02/2013]
+%Daniel Wright
+%'An Extraordinary collection of pleasant and merry humours
+%never before published containing hornpipes, jiggs, North Country Frisks,
+%Morris's,Bagpipe hornpipes, & rounds with severall additonal fancis added,
+%fit for all those that play publick'; London 1713;
+%republished as Three Extraordinary Collections, Early 18th century dance
+%music for those who play publick;
+%www.hornpipemusic.co.uk/3xcolls.html,
+%Pete Stewart, Hornpipe Music, Pencaitland, 2007;
+%ABC by Pete Stewart 5/5/2004
+%Revised by CGP 2013
+
+X:0
+T:Extraordinary collection of pleasant and merry humours
+C:Daniel Wright (publisher)
+K:
+%%center 'An Extraordinary collection of pleasant and merry humours
+%%center never before published containing hornpipes, jiggs, North Country Frisks,
+%%center Morris's,Bagpipe hornpipes, & rounds with severall additonal fancis added,
+%%center fit for all those that play publick'; London 1713;
+%%center republished as Three Extraordinary Collections, Early 18th century dance
+%%center music for those who play publick;
+
+X:1
+T:Jigg, A
+M:6/4
+L:1/4
+Q:3/4=80
+S:D.Wright, Extraordinary Collection, London 1713
+N:no tie at the close of the first strain
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:G
+b/a/ | g>fgdgB | c>dcAag | f(d2d2)b/a/ |
+g/f/g/a/gde/f/g | BgBAaf | gG2G2 :|
+B/c/ | d>edd/c/B/A/G | c/B/c/d/cAag | f(d2d2)e/f/ |
+g/f/g/a/ggdc | Bg/f/gafd | g(G2G2) |]
+
+X:2
+T:Northan Frisk, A
+M:4/4
+L:1/4
+Q:1/2=105
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:G
+e/f/ | g/f/e/d/gB | fAeA | fe/f/gG | FA2e/f/ |
+g/f/e/d/gB | fAeA | dDcD | DG2 :|
+A/B/ | B/A/G/F/Fd | EcDB | BA/B/ c/B/A/G/ | FD2e/f/ |
+g/f/e/d/da | B gAf | fe/f/ g d/c/ | Bg2 |]
+
+X:3
+T:Staines Morris
+M:4/4
+L:1/8
+Q:1/2=105
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:G
+d2g2f2e2 | agfe dcBA | =f2f2g2fe | dcBA G4 :|
+ |: B2B2c2c2 | BAGA B2B2 | d2d2g2fe | dcBA"^crot. in mS"G4 :|
+
+X:4
+T:Jigg, A
+M:6/4
+L:1/4
+Q:3/4=85
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:G
+b | e>fgf>ga | g>fedBG | B3F2G | A>BcB>AG | FBFEe^d | e3"^F in MS"E2 :|
+ |: E/F/ | GBdGBd | ceaa^c/^d/e | ^d3B2b | bg/a/b af/g/a | ge/f/g fd/e/f | e3E2 :|
+
+X:5
+T:Jigg, A
+M:6/4
+L:1/4
+Q:3/4=85
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:GMin
+F/4G/4A/ | B2FDB,D | E2DC2F | GFEDCB, |
+EFGF2c/4d/4e/ | f2edBc/4d/4e/ | c3BB2 ||
+b | a2bc'ab | g2ab2d | edce2f | gG2c2f |
+g2abgc' | a>gfbfg | f>edcdB | c3BB2 |]
+
+X:6
+T:Jigg ye Peace, A
+T:Peace Jigg,aka, Ye
+M:6/4
+L:1/4
+Q:3/4=85
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+S:D.Wright, Extraordinary Collection, London 1713
+K:G
+G/G/ | BdgB>cd | eEGA/B/c/B/A/G/ | F3D2G/G/ | Bdg B>cd | e>fgeaf | g3G2 ||
+F | GEc B>de | dB^def^d | e3E2A | cAdB>cd | e>fgeaf | g3G2 |]
+
+X:7
+T:Iohn of the Green ye Chesheire way
+T:John of the Green the Cheshire Way
+M:3/2
+L:1/4
+Q:1/2=100
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:D
+"6/4 in book"C>E D/E/F/D/E2 | e/f/eE>AF E/D/ | C>E D/E/F/D/ E2 | d/c/dDAFE/D/ ||
+d>f e/d/c/B/ B/4c/4d/4B/4 | d/c/dE>GFE/D/ |\
+d>f e/c/B/A/ G/4A/4B/4c/4 | d/c/dD>AFE/D/ |\
+L:1/8
+GEG2FDF2ECE2 | efe2E3AF2ED | GEG2FDF2ECE2 | dcd2D3AF2ED ||\
+afd gec fdB ecA | efe2E3AF2ED |\
+afd gec dcB Edc | dcd2D3AF2ED |]
+
+X:8
+T:Lord Mayor's Jigg, The
+M:6/4
+L:1/4
+Q:3/4=85
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:G
+b | e>feg>ag | f>geB2^c | d3F2G | A>BAB>cB | GEge2^d | e3E2 ||
+e/f/ | g>agB2c | d/c/d/e/dF2G | A3B3 | GEcAFB | GEge2d | eBGE2 |]
+
+X:9
+T:Bagpipe Hornpipe, A
+M:3/2
+L:1/4
+Q:3/4=80
+S:D.Wright, Extraordinary Collection, London 1713
+N:g nataurals are not printed, but must be implied
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:C
+"6/4 in book"eA B/c/d/B/c2 | ^GB2d B/c/d/B/ | eAB/c/d/B/c2 | EA2c B/c/d/B/ :|
+ |: age/f/g/e/B2 | ec e/f/g/e/ B/c/d/B/ | age/f/g/e/B2 | eaeA B/c/B/A/ :|
+ |: eaeAea | ^GBed B/c/d/B/ | eaeAea | cAeAB/c/B/A/ :|
+ |: edc/d/e/c/ea | geg/a/g/e/ B/c/d/B/ | ec/d/e/c/eae | ^ge^ga"NB" =g/f/=g/e/ :|
+ |: a>e g/f/g/a/g2 | GB2dB/c/d/B/ | a>e g/f/g/a/e2 | ea2eB/c/B/A/ :|
+ |: c>AEF/E/E2 | cAef/e/ B/c/d/B/ | c>AEG/E/E2 | aAcAeA :|
+
+X:10
+T:Staines Morris
+M:4/4
+L:1/4
+Q:1/2=100
+S:D.Wright, Extraordinary Collection, London 1713
+N:KSig as printed. you might prefer Gdorian throughout 2nd strain
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:G
+"NB"dgf/g/a | gf/e/de | =f>edc/_B/ | ABG2 ||
+G/A/B/c/dc/B/ | ABG2 | G/A/B/c/dc/B/ | ABG2 |
+BBFF | G/A/B/c/d>e | f>edc | A/G/A/B/G2 |]
+
+X:11
+T:3 Case knifes
+T:Three Case Knifes
+T:TS
+M:3/2
+L:1/4
+Q:1/2=100
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:G
+"6/4 in book"ga/g/fg/f/ e/f/g/e/ | gd2fed | cd/c/B c/B/ G/A/B/c/ | AG2BAG ||
+G/A/B/c/dGF2 | EA2GFE/D/ | G/A/B/c/dGF2 | DG2BAG ||
+L:1/8
+GBdB GBdB F4 | E2A4G2F2ED | GBdB GBdB F4 | D2G4D2B,2A,G, |]
+
+X:12
+T:Ye wild Morris
+M:4/4
+L:1/4
+Q:1/2=105
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:G
+f/e/ | gf/e/ d/e/d/_B/ | AF2e/f/ | gf/e/ d/A/B/c/ | BG2 ||
+e/f/ | gggf/g/ | aaae/f/ | g/f/g/a/gd | BG2 ||
+A/B/ | cB/A/ G/A/B/c/ | AF2B/c/ | dc/B/ A/B/c/d/ | BG2 |]
+
+X:13
+T:Winster Processional,aka
+T:Floral Dance,aka
+T:Untitled in book
+M:4/4
+L:1/4
+Q:1/2=105
+S:D.Wright, Extraordinary Collection, London 1713
+N:(Processional?- winster et
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:G
+ddee | f/g/f/g/ ag | f/g/e/f/ dc | B/c/B/A/G2 ||
+ce2d/c/ | B/A/B/c/de/f/ | gded/c/ B/c/A/B/G2 |]
+
+X:14
+T:Rising Sun, The
+M:6/4
+L:1/4
+Q:3/4=85
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:F
+f/g/ | a>gfgec | f>edcB/A/G/F/ | E/F/GGG2A |
+B/A/B/c/d/e/fdB | cAFGEC | D/E/FFF2 ||
+G/F/ | E/F/GEcGB | AFfe/f/gG | E/F/GGG2A |
+BdBdBd | g>ag/f/ee/f/g | a2ff2 |]
+
+X:15
+T:Northan Frisk, A
+M:6/4
+L:1/4
+Q:3/4=80
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:G
+g | B/c/dBgB/c/d | BG/A/B/G/AaA | aAabGF | E(c2c2)d |
+eB/c/d/B/cAa | f/g/afgBc | BDCB,GA, | G,G2G2 ||
+d | dB/c/d/B/cAa | bd=feab | af/g/a/f/bea | fc2-c2B |
+cecBG/A/B/G/ | Ec/B/cDCB, | GB,A,GA,B, | G,G2G2 |]
+
+X:16
+T:Jigg, A
+M:6/4
+L:1/4
+Q:3/4=110
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:F
+DFACDE | B,CDECA, | DFACDE | EA,CD3 ||
+fedabc' | gecgab | agfefd | cdeA3 |
+F2EFef | e2dcea | AGFEFD | EA,CD3 |]
+
+X:17
+T:Weavers Hornpipe, The
+T:TS
+M:3/2
+L:1/8
+Q:1/2=110
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:D
+"6/4 in book"D2A2ABAF ABAF | E2g4Bc dcBA | D2B2ABAF ABAF | D2d4Bc dcBA ||
+d2cB FGAFE4 | E2g4cc dcBA | d2 cB FGAFE4 | D2d4Bc dcBA ||
+defga2F2E4 | E2g4Bdc2BA | defga2F2E4 | D2d4Bc dcBA ||
+d2f2a2F2E4 | E2g4Bc dcBA | dfaf cdec EFGE | D2d4Bc dcBA |]
+
+X:18
+T:A Lankesheire Hornpipe
+T:Lancashire Hornpipe, A
+T:TS
+M:3/2
+L:1/8
+Q:1/2=100
+S:D.Wright, Extraordinary Collection, London 1713
+N:Strain 4, bar 2, note 1 as clearly printed; should perhaps be E
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:D
+"6/4 in book"G2B2F2A2E4 | E2A4G2GFED | G2B2F2A2E4 | D2d4A2 GFED ||
+d2cB cBAG F4 | E2e4d2 dcBA | d2cB cBAG F4 | D2d4A2 GFED ||
+fgag efed c4 | B2e4d2 dcBA | a2gf gfed c4 | A2d4A2 GFED ||
+dcBA BAGF GFED | "NB"D2e4d2c2BA | d2cB A2 GF EFGE | D2Bcd2A2 GFED |]
+
+X:19
+T:The Famous Darbysheire Hornpipe
+T:Famous Derbyshire Hornpipe, The
+T:TS
+M:3/2
+L:1/8
+Q:1/2=100
+S:D.Wright, Extraordinary Collection, London 1713
+N:you might think the last note of strains 4 should be C but wright
+N:definitely has D
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:D
+"6/4 in book"D2d4A2F2D2 | C2E4B,2C4 | D2d4A2F4 | D2F4A2G2E2 ||
+D2d4A2 FGAF | E2cd edcB cdec | D2 d2 edcB FGAF | DEFG FGAF EFED ||
+D2d2 edcB AGFA | D2 cd edcB cdec | feec dcBA FGAF | D2d2edcB cdec ||
+feed dcBA GAFA | E2cd edcB cdec | d2f2 D2G2F2A2 | D2f2D2f2 cdec ||
+d2f2D2G2F2A2 | e2fe fefe fedc | d2ed edcB AGFE | DEFG FGAF EFGE ||
+DEFG AFGA BAGF | EDEF EDCB, CDEC | D6 A,2 B,4 | DEFG A2D2C2E2 ||
+B,2D2 C2E2 DEFD | CDEF EDCB, CDEC | A,B,CA, B,CDB, DEFG | AGFE DEFD CDEC ||
+D2 FD E2GE FGAF | Ddcd edcB cdec | defe d2D2F2A2 | D2F4A2G2E2 |]
+
+X:20
+T:A North Cuntry tune
+T:North Country Tune, A
+T:Souters of Selkirk,aka, The
+T:TS
+M:6/4
+L:1/4
+Q:3/4=80
+S:D.Wright, Extraordinary Collection, London 1713
+N:barred as printed;bar 3 note 6 as printe
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:G
+G | B<d g B/c/d/B/ g | dBG B/c/d/B/ g | B/c/d/B/ gg2A |
+B/c/d/B/ d B/c/d/B/ g | dBGe>ce | eBdf2A :|
+ |: Bee/f/g>fe | dBGBde/f/ | g>fef2A |
+Bde/f/g>fe | dB/c/d/B/ e c/d/e/c/ | d B/c/d/B/f2A :|
+ |: B/c/d/B/ dB/c/d/B/ g | dBG B/c/d/B/ d | B/c/d/B/ gf2A |
+B/c/d/B/ dB/c/d/B/ g | d>Bde>ce | d>Bdf2A :|
+ |: GgBg>Bg | cgBGgB | g>BgAfA |
+GgBg>Bg | BfBAfA | f>Agf2A :|
+ |: d2_e/d/e/d/ c/B/ g | dBG d2_e/d/ | e/d/c/B/ g f2A |
+d2_e/d/ e/d/c/B/g | dBd ece | dBdf2A :|
+ |: Bdgg e/f/g/e/ | gGgB>dg | g e/f/g/e/f2A |
+Bdgg e/f/g/e/ | d B/c/d/B/ec/d/e/c/ | dB/c/d/B/f2A :|
+
+X:21
+T:Welch Hornpipe, The
+T:TS
+M:3/2
+L:1/8
+Q:1/2=100
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:D
+"6/4 in book"A2 | Bcd2c4BAF2 | GFEDC2E4A2 | Bcd2c4BAF2 | GFED A,2D4 ||
+EF | GFEDE2A4EF | GFEDC2E4EF | GFEDF2A4Bc | dcBAd2D4 ||
+Bc | dcBAd2D4EF | GFEDC2E4 Bc | dcBAd2D4EF | GFEDA,2D4 |]
+
+X:22
+T:Untitled
+M:3/2
+L:1/8
+Q:1/2=100
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:D
+"6/4 in book"D2d4cB AGFE | efge fgaf c2A2 | D2d2edcB FAdF | efge fgaf d2D2 ||
+F2D2A2E2C2A,2 | DEFD CDEB, C2A,2 | DEFG A2d2F2A2 | BAGF EFGE F2D2 ||
+f2ef gfed cdec | Bede Bede c2A2 | d2A2B2G2A2F2 | f2ef gf ec d2D2 |]
+
+X:23
+T:Zinzan's Maggot
+T:Tsig?
+M:6/4
+L:1/4
+Q:3/4=85
+S:D.Wright, Extraordinary Collection, London 1713
+O:6
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:G
+"4/4 in book"d/c/ | BGBDBD | FDFAdF | EGEAcA | FAGFDG/A/ |
+BGBDdD | FDFAdF | EGEFAF | (G3G2) :|
+L:1/8
+ |: e2 | dcBcdB cBABcA | GFEFGE FEFGAF |
+cBcdec BABcdB | gfefge agfgaf |
+dcBcdB cBABcA | GFEFGE FEFGAF |
+gagfgB cBAGFA | (G6G4) :|
+L:1/4
+ |: g/f/ | gfgBdc/B/ | cABcec | BGBcdc/B/ | ceafdg/f/ |
+gfgBdc/B/ | cABceg | fdcBDF | (G3G2) :|
+ |: a | bg/a/b a/b/ a/g/f | aeg f/g/f/e/d | BdBcec | B/A/B/c/dfga |
+bg/a/b a/b/a/g/f | afg f/g/f/e/d | cecBdf | (g3g2) :|
+
+X:24
+T:New York
+M:3/2
+L:1/8
+Q:1/2=100
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:GMin
+"6/4 in book"F2B2E2B2D4 | C2c4G2 ABcA | FBAB DBAB D4 | B,2B4G2 ABcA :|
+ |: d2B2B2B,2 DEFD | C2 ABcBAG ABcA | d2B2F2B2D2F2 | B,2B4 G2 ABcA :|
+ |: dcBA BAGF GFED | C2c4G2 ABcA | dcBA BAGF GFED | B,2B4G2ABcA :|
+ |: B2b2a2gf gfed | ABcd c2G2ABcA | B2b2a2gf gfga | b2B4G2ABcA :|
+ |: B2d2F2B2D2F2 | C2c4G2 ABcA | Bdcd FBAB DFEF | B,2B4G2 ABcA :|
+
+X:25
+T:Jigg, A
+M:6/4
+L:1/4
+Q:3/4=85
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:DMIN
+f | dAFD2f | e/f/gef/g/ad | c3A2f/e/ | dAFBGE | F/G/AFDd^c | d3D2 :|
+ |: E | F/E/F/G/A/B/cAf | e/f/gef/g/ad | c3A2f/e/ | dAFBGE | F/G/AFDd^c | d3D2 :|
+
+X:26
+T:Hornpipe, A
+M:3/2
+L:1/8
+Q:1/2=100
+S:D.Wright, Extraordinary Collection, London 1713
+O:33
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:DMinor
+"6/4 in book"A4GABGA2GF | E2C4F2EFGE | A4GABG cBcA | d2D4F2E2D2 :|
+ |: d2_ed edcB A2GF | E2C4F2EFGE | d_ededcB ABcA | d2D4F2E2D2 :|
+ |: f4e2d2ABc2 | E2C4F2EFG2 | f4e2d2ABcA | d2D2DEF2E2D2 :|
+
+X:27
+T:Sheaphards dance, The
+M:4/4
+L:1/4
+Q:1/2=105
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:A
+Ac2B/A/ | e2f/g/a | ecfB | G2E2 | FDFB | GBea/g/ | f/e/d/c/ B/c/B/G/ | A2c2 :|
+ |: ec/d/ec/d/ | ecAd/c/ | Bd/c/Bd/B/ | Ac2e/f/ |
+ef/g/fg/a/ | gf/e/a>e | f/e/d/c/ B/c/B/A/ | A2c2 :|
+ |: d/c/ AAd | c3B/A/ | BEEB | G2E2 | FDFB | GBea/g/ | f/e/d/c/ B/c/B/G/ | A2c2 :|
+ |: aea2 | fdf2 | ecAc | GBGF/E/ | FDFB | G/A/Bea/g/ | f/e/d/c/ B/c/B/A/ | A2c2 :|
+
+X:28
+T:Roast Beef
+M:6/4
+L:1/4
+Q:3/4=85
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:A
+a | gf/e/aecA | G>ABBFB | G3E2D | CEAF2d | c>BAGEG | A3A,3 :|
+ |: a | g/a/bec2f | ed/c/B/A/G2F | d3E2D | CEAF2d | cd/c/B/A/BEG | A3A,2 :|
+
+X:29
+T:New Stepny
+M:9/4
+L:1/4
+Q:3/4=120
+S:D.Wright, Extraordinary Collection, London 1713
+N:bar 3 strain 4 is as printed  d e/d/b/a/ might be better.
+N:barred correctly but called 6/4 in book
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:Gminor
+"6/4 in book"G2gf>edf3 | cAFF2AcAF | G2ba>g^fg3 | dBGG2BdBG ||
+g2d=e2cf3 | cAFF2AcAF | G2bag^fg3 | dBGG2BdBG ||
+a>gfa>gfa>gf | cAFF2AcAF | b>agb>agg3 | dBGG2BdBG ||
+d2cB2AG2A/B/ | cAFF2AcAF | de/d/B/A/ cd/c/B/A/Bc/B/A/G/ | dBGG2BdBG ||
+f>efg>fga>ga | bBFF2AcAF | agfbagag^f | gGGG2ABAG ||
+dBdcAcBGB | AFFF2AcAF | dB/c/dcA/B/cBG/A/B | DGGG2ABAG |]
+
+X:30
+T:Old Oxford, The
+T:Old Molly Oxford,aka
+M:4/4
+L:1/4
+Q:1/2=105
+S:D.Wright, Extraordinary Collection, London 1713
+H:strain 2, bar 6 note 5 printed as dotted quaver-here corrected
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:Dmin
+AB/c/dD | FA^C2 | D/E/F/G/Ad | ^cde^c |
+d/e/f/g/ae | fe/d/^cB/^c/ | dDF/G/A | E2"^crot in MS"D2 :|
+ |: FcAc | Fcc>B | AdGd | ^Fdd3/2c/4B/4 |
+cgeg | Bgg/4f/4g3/2 | aAB/c/d | d>cd2 :|
+
+X:31
+T:Esqr. Lesstar
+M:9/4
+L:1/4
+N:barred correctly but called 6/4 in book
+Q:3/4=100
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:Dmin
+dA/B/c/A/BGBAFA | c2cc>dcB2A |
+dA/B/c/A/BG/A/B/G/AF/G/A/F/ | d2dd>ddd2A :|
+ |: dAGF2GA3 | c2cc>dcB2A |
+dAGF2GA3 | d2dd>_edc2A :|
+L:1/8
+ |: F3GAFE3FGED3EFD | cBcdc2c2C2c2B4A2 |
+F3GAFE3FGED3EFD | d4d2d3dd2c4A2 :|
+L:1/4
+ |: FDFECED3 | c3c>dcB2A |
+FAdECED3 | d3d>_edB2A :|
+
+X:32
+T:White Hart, The
+M:3/2
+L:1/4
+Q:1/2=100
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:A
+AeAB/c/ d/c/B/A/ | GB2EGB | AeA B/c/ d/c/B/A/ | EA2EGB ||
+Aagf/g/ a/g/f/e/ | gB2EGB | Aagf/g/ a/g/f/e/ | cA2EGB ||
+A/B/c/B/ A/B/c/B/ A/B/c/B/ | gB2EGB | A/B/c/B/ A/B/c/B/ A/B/c/A/ | aA2EGB ||
+c2d2e2 | AB/c/ d/c/B/A/ GB | c2d2e/f/g/e/ | aA2EGB ||
+c2d2e2 | AB/c/ d/c/B/A/GB | cedfeg | aA2EGB ||
+cB/c/dc/d/ e/f/g/e/ | gB2EGB | cedfeg | aA2EGB |]
+
+X:33
+T:Black smiths Morris
+M:4/4
+L:1/4
+Q:1/2=105
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:G
+Ad2e/f/ | ggf>e | d/e/f/g/ a g/f/ | eAd2 ||
+dd/e/BG | A/B/c/d/ BG | c/d/e/c/ GG | ADG2 |]
+
+X:34
+T:Jigg,A
+M:6/4
+L:1/4
+Q:3/4=85
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:Amin
+a | g>abe2d/B/ | c>deaga | B2dd>ef | eg2B>cd | edcBc^G | A3A,2 ||
+c/B/ | c2de>fg | ^f^gag.ab | e3g2e/c/ | B2cd>cB | a^gae>a^g | a3A2 |]
+
+X:35
+T:Wrights whim
+T:Butcher's Hornpipe,aka
+M:4/4
+L:1/8
+Q:1/2=105
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:A
+ED | CDEC A,CEC | A,2A4BA | GABG EGBG | E2e4fe |
+defd cdec | defg agfe | aefd ecBG | E2A4 ||
+cd | ecAc ecAc | fdBd fdBd | gece afga | g2e4dc |
+defd cdec | gefg agfe | gefd ecBA | E2A4 |]
+
+X:36
+T:Crown The
+M:6/4
+L:1/4
+Q:3/4=85
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:A
+a | e>dcd>ef | ecAG/A/BE | B3E2a | e>dcd>ef | ecAG/A/BE | A3A,2 ||
+e | c>BAd>ef | f/e/f/g/ ab f/g/a | g3e2a | e>dcd/c/d/e/f | ecAEAG | A3A,2 |]
+
+X:37
+T:Kings Hornpipe
+M:3/2
+L:1/4
+Q:1/2=100
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:D
+"6/4 in book"CE2Ac2 | CE2AFE/D/ | CE2Ac2 | B/A/B/c/dAFE/D/ ||
+Eef/e/d/c/ d/c/B/A/ | eE2eFE/D/ | Eef/e/d/c/ d/c/B/A/ | dD2AFE/D/ ||
+G/E/G/E/ G/E/G/E/c2 | EC2AFE/D/ | G/E/G/E/ G/E/G/E/ c2 | dD2AFE/D/ |]
+
+X:38
+T:Bagpipe Hornpipe, A
+M:6/4
+L:1/4
+Q:3/4=100
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:A
+a | A>BAc>BAB>cB | A>BAa>gfe.dc | A>BAc>BAB>cB | a>bfg>fea2A ||
+bBbg>fec>BA | BbBbc'ab2B | cdefgag>fe | cdBc>BAa2A ||
+A,CA,CB,CECA, | A,CA,CEAG>FE | A,CA,CA,CDCE | GBAG>FEA2A, ||
+aA/B/c/A/ cA/B/c/A/ cA/B/c/A/ | ac/A/c/A/af/g/a/f/b2B |
+aA/B/c/A/ cA/B/c/A/cA/B/c/A/ | abfg>fea2A ||
+A,2EA,2EC>B,A, | A,2EA,2AB2 | C2EC2AG>FE | FGAB>AGA2A, ||
+AeAeAecAe | AeAeAebBb | AeAeAecAe | abfg>feA2a |]
+
+X:39
+T:Jigg, A
+M:6/4
+L:1/4
+Q:3/4=85
+S:D.Wright, Extraordinary Collection, London 1713
+N:strain 1, bar 1 as printd: might better be read f>ed e/f/gc :bar 5
+N:strain 2 has only 5 beats-note 3 (g) added here
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:G
+g | f>ede/f/cg | B>AGF2G | A3D2G | E>DCB,CD | G/A/BB,A,2F | G3G,2 ||
+D | B,>CDEFG | E>DCB,CD | A,3A2B | c>Bce>dc | e/f/gBA2f | g3G2 |
+
+X:40
+T:Cheisheire Hornpipe, A
+T:Cheshire Hornpipe, A
+M:3/2
+L:1/4
+Q:1/2=100
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:C
+"6/4 in book"e2d/e/f/d/e2 | Gc2ded/c/ | d/e/f/d/ e/f/g/e/ ed/c/ | c3GED/C/ ||
+GEFDEC | G>E F/E/F/D/ C/D/E/F/ | GEFDEC | D/E/F/G/ AEFE/D/ ||
+CcGF/G/EC | c>G F/G/AG/F/E/D/ | CcGF/G/EC | D/E/F/G/AEFE/D/ ||
+G/c/e/c/ G/c/e/c/ f/e/d/c/ | G/c/e/c/ G/c/e/c/fe |\
+G/c/e/c/ G/c/e/c/ f/e/d/c/ | GE/G/FD/F/EC ||
+E/G/c/G/ E/G/c/G/ E/D/C | E/G/c/G/ E/G/c/G/FD |\
+E/G/c/G/ E/G/c/G/ E/D/C | D/E/F/G/AEFD ||
+
+X:41
+T:Buttock Beaf
+T:TS
+M:6/4
+L:1/4
+Q:3/4=85
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:GMIN
+d/c/4d/4 | B3g>ab | G>ABc>dc/B/ | A2FF2B | G>_AGF>ED | E>FGAFA | B2B,B,2 ||
+E/D/4E/4 | F3BFD | E3GEC | G(c2c2)d/e/ | f3ged | c3gab | d2BB2 |]
+
+X:42
+T:Wrights Humour
+M:3/4
+L:1/4
+Q:3/4=45
+S:D.Wright, Extraordinary Collection, London 1713
+K:G
+G,g2 | Df2 | Ce2 | B,d2 | A,c2 | FD>A | B/c/A2 | GG,2 ||
+G,g/f/g | Df/e/f | Cc/d/e | B,B/c/d | A,A/B/c | FBc/d/ | GGF | GG,2 ||
+L:1/8
+dBGBAG | DFAFED | CEGEDC | B,BdBcd |
+GEGcdA | BFGFGA | BcA4 | G2G,4 ||
+bgdbag | fdfagf | ecegfe | dcdefg |
+bagafg | agfgeg | fe^def^d | efgfed |
+cdedcd | BcdcBd | cdcBAG | FDEFGB |
+ecefga | fdefgB | AGD2f2 | g2G4 |]
+
+X:43
+T:Blacks Hornpipe
+M:3/2
+L:1/4
+Q:1/2=100
+S:D.Wright, Extraordinary Collection, London 1713
+N:Wright's KS Cmyxolodian? ; you might prefer Cmajor
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:F
+G2E2C2 | EG2cBA | A>G F/G/F/E/D2 | FA2B/c/ d/c/B/A/ ||
+c>d e/f/e/d/c2 | EG2cBA | d>e f/g/e/f/d2 | FA2cBA ||
+c/G/E/G/ c/G/E/G/ c/G/E/G/ | E/F/G2cBA |
+d/A/F/A/ d/A/F/A/ d/A/F/A/ | FA2B/c/d/c/B/A/ |]
+
+X:44
+T:all Bear
+M:6/4
+L:1/4
+Q:3/4=85
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:D
+a | afad2c | B>cdg>fe | c2AA2a | afbg2f | B>cdg>fe | e2dd2 ||
+d | dBdg>fe | a>ba^ge^g | a2ba2g | fdcBcf | g>fe a>ba | f2dd2 |]
+
+X:45
+T:Colliers Daughter
+M:4/4
+L:1/4
+Q:1/2=105
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:G
+d | B>AGF | G2D2 | F>GAF | A/B/ccd |
+B/c/A/B/ G/B/A/F/ | G2D2 | c/B/A/B/ c/B/A/G/ | Bd2 ||
+e/f/ | g/e/c/e/ f/d/B/d/ | f2d2 | c/A/F/A/ c/A/F/A/ | c2A2 |
+BGAD | B/G/B/G/AD | b/a/g/f/gG | Bd2 |]
+
+X:46
+T:Rantin Bille
+T:Ranting Roaring Willie,aka
+M:9/4
+L:1/4
+Q:3/4=100
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:F
+A/B/ | A>FDD>EDF>GA | c>dcc>GEG2A/B/ | A>FDD>EDF>GA | d>ed^F2GA2A/4B/4c/ |
+d>ed^F2GA2A/B/ | c>dcc>GEG2B | A>FAB2AB>dB | A>FDE2DD2 ||
+A | d>eff>efd2A | c>dee>fe^c2B/A/ | d>eff>eff>ef | d>eff>edf/g/af |
+d>eff>efd2A | c>dee>fe^c2B/A/ | BdA=B2AB>dB | A>FDA>FDD2 ||
+B | A>FDA>FDA>FD | c>GEc>GEG2B | A>FD A>FD A>FD | d>ed^F2GA2B/c/ |
+d>ed^F2GA2A/B/ | c>dcc>GEG2B | A>FAB2AB>cB | A>FDE2DD2 |]
+
+X:47
+T:Young Spauds Hornpipe
+M:9/4
+L:1/4
+Q:3/4=85
+S:D.Wright, Extraordinary Collection, London 1713
+N:printed barred in 9/4, time sig 3/2
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:F
+g>de/f/ e>cd/e/dBd | fcffcfe2d | GDFECEDB,G, | (g3g2)a/g/f2d ||
+Bd2fa2Ac2 | c3F2A/B/c2B/A/ | g/f/g/a/gfdBgdB | B/A/B/c/dG>ABc>BA ||
+gdB cA/B/cBAF | C3F2A/B/c2B/A/ | bg/a/baf/g/de/f/gf | D3G2cc/d/c/B/A ||
+D>GF/G/ C2FB,2D | A,2FFCFE2G | D>GF/G/ C>DE/C/B,>CD/B,/ | G,2GD/E/FDE2F ||
+g/f/g/a/gb>agde/f/g | A>BccA/B/cB2A | d2c/B/c2A/F/GDB, | G,3G2A/B/c/d/c/B/A ||
+Bd2eg2fg2 | f3F2A/B/c2B/A/ | B/A/B/c/de/d/e/f/gf/e/f/g/a | g3G2A/B/c2B/A/ |]
+
+X:48
+T:Cheshire Hornpipe, A
+M:3/2
+L:1/4
+Q:1/2=100
+S:D.Wright, Extraordinary Collection, London 1713
+N:strain6, bar4, note 3 printed F; here corrected(?) to
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:G
+G/A/B/c/dGFd | dA2dBA/G/ | G/B/d/B/ F/A/d/A/ B/c/d | BG2dBA/G/ ||
+afdafd | afdabg | afdafe/d/ | eg2GBA/G/ ||
+F/G/AB/c/dF/G/A | FAB/c/dBA/G/ | FABdFA | dBGdBA/G/ ||
+AFDAFD | AA,2DB,A,/G,/ | AFDAFE/D/ | B,G,2DB,A,/G,/ ||
+AFDAFD | AFDABG | AFDAFD | dBGdBG ||
+L:1/8
+AGFE DEFG ABAF | A2A,4D2B,2A,G, | AGFE DEFG ABAF | G2G,4D2B,2A,G, ||
+AGFE DEFG ABAF | ABAF DEFD BcdB | ABAG DEFG ABAF | d2B2G2d2B2AG |]
+
+X:49
+T:Hornpipe made in Lancashire, A
+M:3/2
+L:1/8
+Q:1/2=100
+S:D.Wright, Extraordinary Collection, London 1713
+N:Wright says 'raise your 3rd (violin string) a Note'; in fact its only
+N:going to make sense if you raise 3rd and 4th a note. Given here as
+N:sounds.
+N:N: Wright says 'Raise your 3rd a Note (ie D=E)
+N:N: as printed only makes sense if you raise your 4th as well (G=A)
+N:N:notes here are as sounde
+K:A
+AagaA2B=cA2e2 | GFGAB2 F2G3B | A2a2A2B=cA2e2 | c2A4F2G3B ||
+ABcA agfe fedc | d2B4f2F3B | A2a2cdec BcdB | c2A4F2G3B ||
+ABcd efec efec | dcdB cBcF G3B | ABcd efec fgaf | c2A4F2G3B ||
+C2E2D2F2C2E2 | B,2B4F2GFED | C2E2D2F2C2E2 | A,2A4F2G3B ||
+A,2C2B,2A2A,2A2 | B,2A4F2GFED | CDEC DEFD CDEC | A,2A4F2G3B ||
+Aaga cdec Bcde | G2B4F2G3B2 | agfe fedc dcBA | a2A4F2G3B |]
+
+X:50
+T:Hilland Dance, A
+M:9/4
+L:1/4
+Q:3/4=85
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:D
+d3A2GFDD | ECCDB,B,CA,A, |
+D>EF/D/E>FG/E/FAF | B/A/B/cdFDDD3 ||
+A | d>fg/a/d>fg/a/ecA | afbafdecA |
+d/e/f/g/ad/e/f/g/ab/a/g/f/e | dfgcaAd2 ||
+FD/E/FFD/E/FECA | FD/E/FFD/E/FGEG |
+cA/B/c/A/ c A/B/cdag | f/e/f/g/afgaf2d |]
+
+X:51
+T:Jigg call'd Long time, A
+T:Long Time
+M:6/4
+L:1/4
+Q:3/4=85
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:GMin
+g/f/ | gdbe>dc | d>cBABG | F>GAD2g/f/ | gdBe3 | A3d>ed/c/ | B2GG2 ||
+B/c/ | d>cBf>ed | gf=ea>ba/g/ | f2dd2g/f/ | gdBe3 | A3d>ed/c/ | B2GG2 |]
+
+X:52
+T:Rolling Hornpipe, The
+M:3/2
+L:1/8
+Q:1/2=100
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:D
+FDF2ECE2DEFD | EFGEC2F2EFGE | F2DEFDE2CDEC | AGFE DEFD EFGE ||
+ABcA BcdB c4 | GEC4F2EFGE | ABcA BcdBd4 | AFD2DEFD EFGE ||
+DEFD EFGE DEFD | E2C4G2F2E2 | DEFD EFGE DEFD | AF D2DEFD EFGE |]
+
+X:53
+T:Charles Hornpipe
+M:4/4
+L:1/8
+Q:1/2=105
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:D
+fg | agfe fga2 | F4GFED | F4GFED | C2E4fg | agfe fga2 | F4F2EF | D2A4Bc | d2D4 ||
+D2d4ef | g2f2g4 | c2e4de | c2A4Bc | dcBA BcBA | G2F2E4 | D2A4Bc | d4D4 |]
+
+X:54
+T:Rakes Hornpipe The
+M:3/2
+L:1/4
+Q:1/2=100
+S:D.Wright, Extraordinary Collection, London 1713
+N:Wright has strain 2 bar 3 note 3 Bsharp;
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:D
+d2E/F/E/D/CA, | CE2CA,C | d2E/F/E/D/CA, | CE2CD2 ||\
+d2e/f/gf/g/a | ce2fg2 |
+f>e^dBeA | A3^GA2 | F2G>ABE | C>DEFG2 | F>GAFBE | E3DD2 |]
+
+X:55
+T:Wiggs Jigg, The
+M:6/4
+L:1/4
+Q:3/4=100
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:G
+d | B>cdedc | BGdBed | gdeB2c | dGdefg | feda3 |
+a3a3 | agfefd | ^cAaefd^cAdee2 | d(d2d2) ||
+d | ABcB^c^d | efg^dBb | fge^dBb | fge^def | gf2(e3 | e3)edc |
+BcddcB | ABGFDd | ABGFDG | AA2G3 | b3abg | dBGceg | A3G2 |]
+
+X:56
+T:Hilland Lilt, A
+M:6/4
+L:1/4
+Q:3/4=85
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:G
+d2BG2D | G2BdBd | gdBG2D | G3B3 ||\
+A2EA2B | cdcd/c/B/A/^G |
+A2EA2B | c3B3 | E2fgdc | BgBA2B/c/ | d>efgfg | A3G3 |]
+
+X:57
+T:Chesheire Round, A
+M:3/2
+L:1/8
+Q:1/2=100
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:G
+d2cB AB c2Bcd2 | E2A4G2F2ED | d2cB efg2fga2 | D2G4A2B2AG ||
+gfga b2aga2gf | g2e4a2f2ed | gfga babg agaf | g2G4B2A2G2 ||
+ABcA BcdB cdec | c2E4A2F2ED | e2g2f2d2efge | g2G4B2A2G2 ||
+C2E2D2F2E2G2 | cdec EFGEF2D2 | G,2B,2A,2C2B,2D2 | Bcd2ABc2B2G2 |]
+
+X:58
+T:Fancy, A
+M:4/4
+L:1/16
+Q:1/4=105
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:Dmin
+d2dA e2eA f2Af e2eA | d2AG F2d2 E2^c2 d2D2 |
+a2ga b2gb a2gf e2c2 | f2fA B2g2 cfeg f2F2 |
+fedc Bdef gfed ^cB^cA | dBAG FAdF Ddce d2D2 |
+fedc Bdef gfed ^cB^cA | d2AG F2d2 E2c2 d2D2 ||
+L:1/8
+db2a gE2D | Ca2g fD2C | B,g2f eC2B, | Af2e dC2A, |
+G,g ed ^c=B AG |\
+L:1/16
+F2ag a2F2 E2ge g2E2 | D2fe f2D2 C2ed e2C2 |
+B,2d^c d2B,2 A2d2^c4 | abag f2D2 B,CB,A, G,2G,2 |
+fefc d2B,2 gfgd e2C2 | fefc d2g2 cfeg f2F2 |
+fedc Bdef gfed ^cB^cA | dBAG FABG Ddce d2D2 |
+fed^c Bdef gfed ^cB^cA | d2AG F2d2 E2^c2 d2D2 |]
+
+X:59
+T:Dance for ye Peace, The
+M:4/4
+L:1/4
+Q:1/2=105
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:A
+a2aa | a2ed/c/ | feB/c/d/B/ | c2Af/g/ | a2ed | c2fe | ^def/e/f/^d/ | e3e ||
+B/A/ | G2eB/d/ | c2fc | df^A B/c/ | c2Bb |\
+geae/f/ | ga/g/fe/d/ | c/B/c/d/B>A | A2A2 ||
+M:3/4
+A2e | c/d/ec | A2a | g/a/bg | a2e | c/d/ec | d/e/fB | B2A ||
+B2z | G2z | BBe | e>^de | fd/e/f/d/ | eB/c/d/B/ | cAA | A3 |]
+
+X:60
+T:Jigg, The
+M:6/4
+L:1/4
+Q:3/4=85
+S:D.Wright, Extraordinary Collection, London 1713
+N:Fnatural is what Wright has in bar 6, note 4
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:A
+a | g>fgae=g | f3/2d/4e/4fecB/A/ | G3d2d | cAfdBb | af=g=fB^d | e3E2 ||
+c | d>effdf | fdacd/c/B/A/ | B3E>FG | AFcdBe | f/g/afbeg | a3A2 |]
+
+X:61
+T:Portens nant Sarah
+M:3/4
+L:1/4
+Q:3/4=55
+S:D.Wright, Extraordinary Collection, London 1713
+H:Appears to be marked in 4 bar phrases, which means bar 14 is an error
+H:and should be omitted. Also there msut be a bar missing at 40 (dAE?).
+H:Altogether rather unsatisfying. There also seems to be a bar missing
+H:after 44(ECE?). your on your own here. PS.
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:D
+A>GF | ECE | DFA | D2B | D/E/F/G/A | ECE | D/E/F/A/d/A/ | F2B |
+A/B/A/G/F/d/ | ECE | D/E/F/D/ F | E/F/G/E/G |\
+D/E/F/D/F | D/E/F/D/F | E/F/G/E/G | Bfa |
+a2a | d/e/f/g/a/f/ | c/d/e/f/g/e/ | d/e/f/g/a/b/ |\
+a2g | a/g/f/g/a/f/ | g/f/e/f/g/e/ | a/g/a/g/a/b/ |
+a/g/f/g/a/f/ | g/a/b/a/g/f/ | g/f/e/d/c | d>cB |\
+A>GF | G>AG | ECE | DAF |
+DcB | DAF | ECE | DAF | dAB | AGF | ECE | dAD |
+dAF | dAE | d/c/B/A/F | d/c/B/A/E |\
+d/c/B/A/D | d/c/d/c/d/e/ | d/c/B/A/G/F/ | EBA | A2G |
+FA2 | CE2 | FA2 | A2G | F3/2F/4G/4A | ECE |]
+
+X:62
+T:Yallow Stockings
+T:Yellow Stockings
+M:9/4
+L:1/4
+Q:3/4=100
+S:D.Wright, Extraordinary Collection, London 1713
+Z:Pete Stewart, 2004 <www.hornpipemusic.co.uk>
+K:C
+B | c>BAAEAAEB | cA/B/cAEABGB | c>BAAEAAEA | B2GG>AGBG ||
+B | c/B/c/d/eB2AAEA | c/B/c/d/e B2A BGB | c>deB2AAEA | BdgBdgBG ||
+B | c>dagaA2B | c/B/c/d/egfgG2A | c>de/f/agaA2B | c>de/f/ g2dBG ||
+B | c/d/c/B/A GEG C2B | cBAGEFG2B | c/d/c/B/AGE/F/GC2c | B2gd>ed/c/BG ||
+B | cegc/d/e/f/gBGB | cegga/g/f/e/fdB | cegcegBGB | cBAGEGA,2 |]
+% Output from ABC2Win  Version 2.1 f on 05/05/2004
+
+

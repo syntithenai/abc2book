@@ -1,0 +1,23 @@
+X:1
+T:Whitley Chapel Barn Dance
+M:4/4
+L:1/8
+C:Jimmy Shand
+S:NoelJackson tradtunes 2017-2-7
+K:Cmaj
+e>B [|\
+"C"d2c2c2c>G | B2"F"A2A4 |\
+"G7"f>ef>d B2d2 | "C"d>ce>c "G7"G2 e>B |
+"C"d2c2c2c>G | B2"F"A2A4 |\
+"G7"f>ef>d B>GA>B | "C"c2c2c2 |]
+K:Gmaj
+(3B,C^C [|\
+"G"D2B2^A2B2 | "C"B>Ac>A E4 |\
+"D7"F>^EF>G B2A2 | "G"A>GB>G "D7"D2 (3B,C^C |
+"G"D2B2^A2B2 | A>Bc>"C"d e4 |\
+d>^cd>"D7"e d>=cB>A | "G"G2B2G4 |]
+K:Fmaj
+[| "F"A2A>G F2C2 | A>^GA>dc4 |\
+"C7"G2G>^F A2G2 | G>^FG>F A>GE>C |
+"F"A2A>G F2C2 | A>^GA>dc4 |\
+C>"C7"DE2E>FG>A | (3Bc"C7"B A>G"F"F4 |]

@@ -1,0 +1,26 @@
+X:1
+T: Salutation
+N:
+C:
+S:
+A:
+O:
+R:
+M:3/2
+K:A
+I:speed 160
+%W:  A
+% voice 1 (1 lines, 25 notes)
+K:A
+M:3/2
+L:1/16
+e4 f2 |g2 a4 ||e8 |c6 |B2 A2 B2 |c4 B8 |E8 |E8 |F2 G2 A4 |F4 E2 |D2 C2 D2 |E4 B,16 |B6 |c2
+%W:
+% voice 1 (1 lines, 20 notes)
+d8 |f8 |F2 G2 A4 |G12 |B4 B2 |c2 d4 |e4 c8 |c4 B4 |A4 A12 |e4 f2 |g2 a4 |
+%W:  B
+% voice 1 (1 lines, 23 notes)
+d6 |c2 d4 |e4 f2 |e2 f2 g2 |B16 |e4 f4 |g6 |a2 f4 |g2 e2 f4 |^d4 e12 |B4 B2 |c2 d4 |
+%W:
+% voice 1 (1 lines, 26 notes)
+c6 |B2 c4 |A4 F2 |G2 A4 |G12 |e4 e2 |f2 g4 |f6 |e2 f2 a2 |e2 c2 B4 |A4 A12 |e4 f2 |g2 a4 |A16 |||

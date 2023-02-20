@@ -1,0 +1,26 @@
+X: 1
+T: Scotch Ayre
+N: "Birks of Aberfeldy" handwritten at right of title.
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.347
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+F2 A4 c2 | f3g f2c2 | f3g f2c2 | f3g fga2 |\
+F2 A4 c2 | f3g fgag | f2d2 c2A2 | G4 d4 |]
+[|\
+F2 A4 c2 | dcBA c2F2 | dcBA c2F2 | dcBA d2G2 |\
+F2 A4 c2 | dcBA f3g | agfd cdcA | G4 d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first man back to back with the 2d. woman, and turn single, the first woman and second man do
+%% the same; then all four hands across half round, and then back again: Cross over and Figure in and
+%% cast off into the second Couple's place.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

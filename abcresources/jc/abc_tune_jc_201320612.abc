@@ -1,0 +1,60 @@
+
+X: 1
+T: Oseh Shalom
+C: N.Hirsch
+M: C
+L: 1/8
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+P: ABBCBB
+%%continuous 1
+K: Cm
+CE "A"| "Gm"G3 G "Ab"G2 GG | "Gm"G4- "Ab"G4 | "Ab"A2 AA "Fm"Ac BA | "Gm"G4 "Cm"G4 |
+w: O-*seh sha-lom bim'-ro-mav* hu ha-a-seh sha-lom a-lei-nu
+| "Fm"F2 F2 "Bb7"FA GF | "Cm"E4- "Ab"E2 "Fm"zE | "Fm"D>E F3 F G>F | "Cm"E2 "G7"D2 "Cm"C2 z2 |]
+w: v'-al kol* Yis-ra-el* v'-i-m'-ru v'-i-m'-ru: "A-men."
+"B"\
+[| "C7"GB AG "Fm"F4 | "Bb7"FA GF "Eb"E4 | "Cm"EG FE "D7"D2 DD | "G7"GF EF "Cm"G4 |
+w: Ya-a-seh sha-lom ya-a-seh sha-lom sha-*lom a-lei-nu v'-al kol Yis-ra-el,
+ | "C7"GB AG "Fm"F4 | "Bb7"FA GF "Eb"E4 | "Cm"EG FE "D7"D2 DD | "G7"GF ED "Cm"C4 |]
+w: Ya-a-seh sha-lom ya-a-seh sha-lom sha-*lom a-lei-nu v'-al kol Yis-ra-el.
+"C"\
+[| "Cm"Gc cB "Fm"c4 | "Gm"GB B=A B4 | "C7"Ec cB "Fm"c2Bc | "D7"dc B=A "G7"G4 "->B"[|]|]
+w: Ya-a-seh sha-lom ya-a-seh sha-lom sha-*lom a-lei-nu v'-al kol Yis-ra-el
+
+
+%%sep 3 1 500
+
+X: 2
+T: Oseh Shalom
+C: N.Hirsch
+M: C
+L: 1/8
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+P: ABBCBB
+K: Dm
+DF "A"\
+| "Am"A3 A "Bb"A2 AA | "Am"A4- "Bb"A4 | "Bb"B2 BB "Gm"Bd cB | "Am"A4 "Dm"A4 |
+| "Gm"G2 G2 "Cb7"GB AG | "Dm"F4- "Bb"F2 "Gm"zF | "Gm"E>F G3 G A>G | "Dm"F2 "A7"E2 "Dm"D2 z2 |]
+"B"\
+|: "D7"Ac BA "Gm"G4 | "Cb7"GB AG "F"F4 | "Dm"FA GF "E7"E2 EE |1 "A7"AG FG "Dm"A4 :|2 "A7"AG FE "Dm"D4 :|
+"C"\
+[|"Dm"Ad dc "Gm"d4 | "Am"Ac c=B c4 | "D7"Fd dc "Gm"d2cd | "E7"ed c=B "A7"A4 "->B"[|]|]
+
+
+%%sep 3 1 500
+
+X: 3
+T: Oseh Shalom
+C: N.Hirsch
+M: C
+L: 1/8
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+P: ABBCBB
+K: Em
+EG "A"\
+| "Bm"B3 B "C"B2 BB | "Bm"B4- "C"B4 | "C"c2 cc "Am"ce dc | "Bm"B4 "Em"B4 |
+| "Am"A2 A2 "Db7"Ac BA | "Em"G4- "C"G2 "Am"zG | "Am"F>G A3 A B>A | "Em"G2 "B7"F2 "Em"E2 z2 |]
+"B"\
+|: "E7"Bd cB "Am"A4 | "Db7"Ac BA "G"G4 | "Em"GB AG "F#7"F2 FF |1 "B7"BA GA "Em"B4 :|2 "B7"BA GF "Em"E4 :|
+"C"\
+[|"Em"Be ed "Am"e4 | "Bm"Bd d=c d4 | "E7"Ge ed "Am"e2de | "F#7"fe d=c "B7"B4 "->B"y|]

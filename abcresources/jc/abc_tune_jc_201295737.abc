@@ -1,0 +1,16 @@
+X: 1
+T: Karolinermarschen
+C: Eric Sahlstr\"om
+R: march
+S: http://www.nyckelharpa.org/archive/written-music/american-allspel-list/ 2022/9/24
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: 1/4=80
+K: Dm
+"^A"[|] (A,2 |\
+D3)E (FE)FG | [A4D4] [G2G,2](AG) | F2(GF) E2C2 | [D6A,6] F2 |
+(A=B)(A^G) A2B2 | [c4C4] T=B4 | (G3=B) d2^c2 | A6 :|
+"^B"|: uD2 |\
+[d4D4] [d2D2]T[d2D2] | T[c4C4] A2G2 |TB2(AB) d2[c2F2] | [A6F6] G2 |
+T[F4A,4] {EF}A2uG2 | E4 C4 |[1 [D6A,6] :|2  {A,}D8- | D6 |]

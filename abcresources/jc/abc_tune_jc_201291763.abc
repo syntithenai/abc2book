@@ -1,0 +1,14 @@
+X: 1737
+T: Jack's The Lad   #2
+R: hornpipe, reel
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #1737
+Z: Bob Safranek, rjs@gsp.org
+N: Compacted by using labels and play order [JC]
+P: Play ABAB CBCB
+M: C|
+L: 1/8
+K: D
+"^A"[|] ((3ABc) | d2D2 D2(AG) | FAdc defd | e2E2 E2(ed) | cea^g a2f2 |]
+"^B"[| gfga bagf | gfec dcBA | Bdce dfeg | f2d2 d2 |]
+"^C"[| (AG) | FAdA FAdA | B2G2 G2(GF) | GBeB GBed | c2A2 A2(ef) |]

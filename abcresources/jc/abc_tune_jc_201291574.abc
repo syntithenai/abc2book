@@ -1,0 +1,29 @@
+X: 1
+T: Jack Latine
+P: Longways for as many as will
+%R: Rreel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.56
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[| GABc d2g2 d2B4g2 | d2B4g2 d4B4 | GABc d2g2 d2B4cd | e2A4B2 c4 dcBA |]
+[| GABc d2B2 e2c2 d2B2 | GABc d2B2 d4 B4 | GABc d2B2 e2c2 d2B2 | c2A4B2 c4 dcBA |]
+[| g2d2 BcdB g2d2 BcdB | g2d2 BcdB d4 B4 | g2d2 BcdB g2d2 BcdB | a2A4B2 c4 dcBA |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[| g4 z4 z4 G4 | g4 G4 g4 z2G2 | g4 z4 B4 G2B2 | c2e2f2g2 e4 d4 |]
+[| G4 B4 c2A2B2G2 | z2G2 B4 G4 z2G2 | z2G2 B2G2 c2A2B2G2 | A2a2f2g2 a4 f2d2 |]
+[| z4 g4 z4 g4 | z4 G4 z2G2 g2G2 | z4 G4 z4 g4 | z2a2 f2g2 a4 f2d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. meet, set their Hands to their sides, and foot it and turn hands round .|
+%% The two Men and two We. do the same :|
+%% the 1st Cu. cross over and turn hands .|
+%% the 2d Cu. do the same :|
+%% All four foot it then take hands & gallop round .|
+%% Foot it again then Right & Left till 1st Cu. are in the 2d Cu. Place :|
+%%endtext

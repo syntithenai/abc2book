@@ -1,0 +1,26 @@
+X:1
+T: Oakleigh House
+N:
+C:tune is "Old Oxford"
+S:
+A:
+O:
+R:
+M:4/4
+K:Em
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 40 notes)
+K:Em
+M:4/4
+L:1/16
+E2 F2 G2 A2 B4 E4 |G2 F2 E2 ^D2 E8 |E2 F2 G2 A2 B4 e4 |^d4 e4 f8 |g4 f2 g2 a4 g2 f2 |g4 f2 e2 ^d4 ^c2 d2 |e4 B4 c2 B2 A2 G2 |F8 E8 |
+%W: A2
+% voice 1 (1 lines, 40 notes)
+E2 F2 G2 A2 B4 E4 |G2 F2 E2 ^D2 E8 |E2 F2 G2 A2 B4 e4 |^d4 e4 f8 |g4 f2 g2 a4 g2 f2 |g4 f2 e2 ^d4 ^c2 d2 |e4 B4 c2 B2 A2 G2 |F8 E8 |
+%W: B1
+% voice 1 (1 lines, 39 notes)
+G4 B4 G4 B4 |G2 A2 B2 c2 d4 c2 B2 |A4 c4 A4 c4 |A2 B2 c2 d2 e6 f2 |g4 f2 g2 a4 g2 f2 |g4 f2 e2 ^d8 |e4 B4 c2 B2 A2 G2 |F8 E8 |
+%W: B2
+% voice 1 (1 lines, 39 notes)
+G4 B4 G4 B4 |G2 A2 B2 c2 d4 c2 B2 |A4 c4 A4 c4 |A2 B2 c2 d2 e6 f2 |g4 f2 g2 a4 g2 f2 |g4 f2 e2 ^d8 |e4 B4 c2 B2 A2 G2 |F8 E8 ||

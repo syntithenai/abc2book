@@ -1,0 +1,24 @@
+X: 3
+T: Goddess of the Chace
+%R: jig
+B: "Twenty Four Country Dances for the Year 1782", Thomas Skillern, ed. p.2 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1782#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 6/8
+L: 1/8
+K: D
+a |\
+a2f f2d | e2f gfe | f2d d2d | def e2a |\
+a2f f2d | {f}e2f gfe | f2d d2f | e>de d2 :|
+|: d |\
+b2a g2g | g2a bag | a2g f2f | f2g agf |\
+e2f gfe | gfe gfe | f2g agf | agf agf |
+e2f g2e | f2g abg | f2f e>de | d3- d2d |\
+b2b a2a | g2g fag | bag f2e | d3- d2 |]
+%%begintext align
+%%   Cast off one Couple and hands
+%% four at bottom .| cast up & hands
+%% four at top .|. cross over one Cu. and
+%% half figure at bottom :|. Right & Left at top.
+%%endtext

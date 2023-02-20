@@ -1,0 +1,22 @@
+X: 1
+T: Oriental Hora - Abe Schwartz
+R: zhok, horra
+S: Fiddle Hell Online 2022-4-9 handout for Mimi Rabson's klezmer workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Ddor	% The handout has no key signature, and most of the B notes have a flat.
+% The actual key is D misheberach (with B flats).
+%%continueall 1	% The line breaks here are from the handout.
+% = = = = = = = = = =
+A4 |\
+"Dm"^GA7 _BA3 | ^G6 F2 EF3 | ^GA7 A4 | A8 d4 ||
+"Dm"d6 c2 BA3 | ^G6 F2 EF3 | ^GA7 A4 | ^G6 FG FED2 ||
+"Dm"^GA7 _BA3 | "D7"^G6 F2 FED | "Gm"^FG7 G4 | G8 F4 ||
+"Dm"A6 ^G2 AGF2 | "A7"A4- A^GFG FED2 | "Dm"D4 z2d2 A2F2 | D4 z4 :|
+|: A4 |\
+"Dm"d8 d4 | d12 | e2f2 d4 d4 | d12 ||
+"Dm"ef7 fed2 | ef7 fed2 | "A7"^cc7 c4 | ^c6 A2 _B2A2 ||
+"A7"A_B7 ^cd3 | ef7 ^ga3 | "Dm"d8 a4 | ^g6 f2 fed2 ||
+"Dm"ef7 fed2 | ef7 fed2 |"Gm"d2g6 g4 | g8- g2^g2 ||
+"Dm"a6 ^g2 agf2 | "A7"a^g3- g2fa fed2 |  "Dm"d4 z2d'2 a2f2 | d4 z4 :|

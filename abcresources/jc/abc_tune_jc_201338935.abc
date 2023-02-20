@@ -1,0 +1,20 @@
+X: 1
+T: les Soeurs
+H: taught by Guy Bouchard at Maine Fiddle Camp, Aug 9, 2010
+R: crooked reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+N: There was a "C" chord in the penultimage bars of parts B that sounded strange,
+N: so I replaced it with the more normal-sounding "G" chord.
+S: printed MS of unknown origin
+M: C|
+L: 1/8
+K: G
+"A"\
+|: "G"{c}BAGB d2ge | "C"egec "D"d3B |1 "G"{c}BAGB d2ge | "C"egec "D"d3D \
+                                   :|2 "G"{c}BAGB d3g | "D"fgaf "G"g4 ||
+"B"\
+|| "G"G3B dBGB | "D"AFDF AFDF | "G"G3B dBGB | "D"AFDF G3D |
+   "G"G3B dBGB | "D"AGFE DCB,A, | "G"G,G,B,D "C"G3B | "G"dBGB "D"AFDF | "G"G4 ||
+"B 8va"\
+|| "G"g3a bgdg | "D"afdf abaf | "G"g3b bgdg  | "D"abaf g3d | g4 |
+   "G"g3a bgdg | "D"agfe dcBA | "G"GGBd "C"g3a | "G"bgdg "D"abaf | "G"[g4B4] |]

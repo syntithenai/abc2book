@@ -1,0 +1,26 @@
+X:1
+T: Blackwell Hall
+N:
+C:
+S:Play 3 times
+A:
+O:
+R:
+M:6/8
+K:D
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 45 notes)
+K:D
+M:6/8
+L:1/16
+A2 |d3 e d2 e3 f e2 f3 g f2 e3 d c2 d3 c B2 A3 G F2 G2 E2 A2 F2 D2 A2 |d3 e d2 e3 f e2 f3 g f2 e2 d2 c2 B2 E2 A2 A4 ^G2 A6 A4 A2 |
+%W: A2
+% voice 1 (1 lines, 44 notes)
+d3 e d2 e3 f e2 f3 g f2 e3 d c2 d3 c B2 A3 G F2 G2 E2 A2 F2 D2 A2 |d3 e d2 e3 f e2 f3 g f2 e2 d2 c2 B2 E2 A2 A4 ^G2 A6 A4 E2 |
+%W: B1
+% voice 1 (1 lines, 33 notes)
+A3 B A2 A3 B A2 B3 c B2 A2 ^G2 F2 B3 c B2 B3 c B2 e3 f e2 c3 B A2 |d3 e f2 A2 d2 c2 d6 d4 e2
+%W: B2
+% voice 1 (1 lines, 32 notes)
+A3 B A2 A3 B A2 B3 c B2 A2 ^G2 F2 |B3 c B2 B3 c B2 e3 f e2 c3 B A2 d3 e f2 A2 d2 c2 d6 d4 ||

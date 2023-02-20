@@ -1,0 +1,33 @@
+X: 1
+T: Marble Hall
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.60 #320
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:60 #320
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+G3 AcA BdB | G3 dBG gfg | A3 afa gfe | dcB ABG FED |\
+G3 AcA BdB | G3 dBG gfg | A3 afa gfe | dcB AGF G3 :|
+|:\
+b3 d2b afd | gfg efg fed | bgb afa geg | fdf e^ce d3 |\
+G3 AcA BdB | G3 dBG gfg | A3 afa gfe | dcB AGF G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g3 g3 g3 | g3 g3 g3 | d3 d3 d3 | d3 d3 d3 |\
+g3 g3 g3 | g3 g3 g3 | d3 d3 d3 | d3 d3 g3 :|
+|:\
+g3 g3 f3 | e3 e3 d3 | g3 f3 e3 | d3 a3 d3 |\
+g3 g3 g3 | g3 g3 g3 | d3 d3 d3 | d3 d3 g3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First and 2d Cu. half Right and Left .|
+%% the same back again :|
+%% Cross over and turn Proper .|
+%% Lead thro' the 3d Cu. foot it and turn out :|:
+%%endtext

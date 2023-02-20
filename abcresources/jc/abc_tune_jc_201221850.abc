@@ -1,0 +1,24 @@
+X: 9
+T: Miss Neighbours Fancy
+%R: jig
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1765", London 1765, p.5 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1765#
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+B/A/ |\
+GBd GBd | gdB gdB | GBd GBd | AFD AFD |\
+GBd GBd | gdB gdB | ecA dBG | cAF G2 :|
+|: B/A/ |\
+G2b bge | bge bge | F2a afd | afd afd |\
+G2b bge | bge bge | gbg afd | ge^c d>(=cB/A/) |
+GBd GBd | gdB gdB | GBd GBd | AFD AFD |\
+Gbg Faf | Ege dBG | cec BdB | cAF G2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Cast off one Cu: and turn .|. the same again :|. lead to
+%% the top and cast off lead thro the bottom and cast up
+%% .|: hands 6 round and Right and left :|:
+%%endtext

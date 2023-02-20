@@ -1,0 +1,24 @@
+X: 116005
+T: PORT A BHODAICH
+Q: "Strathspey."
+R:  Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.1 p.16 s.0 #5
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: Added "fine" because ABC doesn't do segno symbols in quoted strings.
+N: At right between the staves is "repeat 2nd part and then to 1st part".
+N: The suggested repeat pattern is very unclear and ambiguous.
+M: C
+L: 1/16
+K: A
+|: ue2 |\
+vAuA3 ve3uB vc3vB (Aa3) | AA3 ve3uc vd3vc (Be3) |\
+AA3 ve3uB cA3 e3d | cA3 e2c2 d3c "_fine"B2 :|\
+!segno! ue2 |\
+cA3 a3g aA3 A3e | cA3 a3f =g3B B3e |
+cA3 a3g a3Aa3e |[1 fa3 e=g3 d3c B2 :|[2 (3f2g2a2 (3e2f2=g2 d3c B2 |]\
+e2 |\
+dcBA A,3e cA3 A3e | dcBA A,3e dB3 B3e |
+dcBA A,3e dcBA A,3e | dcBA A,3e dB3 B3e |\
+dcBA A,3e cA3 A3e | dcBA A,3e dB3 B3e |\
+dcBA A,3A A,2AB c3A | A,2AB c3A "_D.C. to fine"d3c B2 |]

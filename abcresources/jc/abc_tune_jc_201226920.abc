@@ -1,0 +1,32 @@
+X: 1051
+T: Watson's Scotch Measure
+O: A Very Old Tune
+%R: reel, Scotch measure
+N: This is version 2, for ABC software that understands cresc/dimuendo symbols.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: Niel Gow & Sons "Complete Repository" v.1 p.5 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slowish & Distinct"
+K: F
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+(C/D/E) |\
+.F2~.F2 .c2.F2 | [A2F2] [G4E4] C>D | F2~F2 c2F2 | A2f2 c3f |\
+(def).c (ABc).A | (dc)BA {A}G2FD | F2Tf2 c>dB>c | A2[F2C2A,2] [F2C2A,2] :|
+|: (c/d/e) |\
+(Tfef).g (fg).a.f | (Tgf).g.a (ag).f.d | (cd).f.g (fg).a.g | (fg).f.c (AB).c.A |\
+(def).c (ABc).A | Q(fd).c.A {A}G2.F.D | F2qTf2 c>dB>c | A2[F2C2A,2] [F2C2A,2] :|
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z2 |\
+F4 f4 | c4 C4 | A4 f4 | F4 f2a2 |\
+b2a2 f2a2 | b4 c'2b2 | a2f2 c'2c2 | f2c2 F2 :|
+|: z2 |\
+f2f'2 a2f'2 | c'2f'2 b2f'2 | a2g2 f2c'2 | a4 f4 |\
+b2a2 f2a2 | Qb2a2 c'2b2 | a2qf2 c'2c2 | f2c2 F2 :|
+

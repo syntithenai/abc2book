@@ -1,0 +1,16 @@
+X: 1
+T: Tea and Jam at Trudy's
+C: Mike Mahar
+R: hambo, waltz
+S: Milford Contra Dance collection
+S: Rakes Playlist - Wilton Folk Cafe - 2022-6-3
+Z: 2022 by John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+(3DEF |\
+"G"G2 B2 A>G | "D"A>F D2 (3DEF | "G"G2 B2 A>G | "D"d4 B2 || "C"c2 e2 d>c |
+"G"B>A G2 B2 |[1 "C"c>B A>G F>G | "D"A4 :|2 "D"c>B A>D E>F | "G"G4 |]
+|: B2 |\
+"C"c3 e d>c | "G"B>A G2 B2 | "C"cB cd ec | "D"A4 B2 ||
+"C"c3 e d>c | "G"B>A G2 B2 | "D"c>B A>D E>F | G4 :|

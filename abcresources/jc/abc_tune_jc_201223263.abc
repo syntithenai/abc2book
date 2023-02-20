@@ -1,0 +1,24 @@
+X: 07074
+T: MARY'S HORNPIPE
+C: Bob McQuillen 8 Mar 89
+B: Bob's Note Book 7 #74
+%R: hornpipe, reel
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Em
+B,D \
+| E2B,E GEGB | dBGB AGBA | GEDB, DEGE | D2B,2 B,2B,D |
+| E2B,E GEGB | dBGB AGBA | GEDE GABA | G2E2 E2 :|
+|: GB \
+| d2Bd egde | dBGB ABGA | BdBG ABGE | D2B,2 B,2GB |
+| d2Bd egde | dBGE DB,DE | GBAB dBAB | G2E2 E2 :|
+%%begintext align
+%% When I went up to
+%% Homer, Alaska, where Mary Griswold and
+%% Renn Tolman live, she fed me some chicken
+%% soup which kept me alive so I could write her
+%% this tune! Thanks a lot, Mary, it sure was good!
+%% (P.S. I no sooner got here than I came down with the damn flu!
+%% Gosh, I was sick!!)
+%%endtext

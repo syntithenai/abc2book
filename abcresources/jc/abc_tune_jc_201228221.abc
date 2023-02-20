@@ -1,0 +1,18 @@
+X: 1111
+T: Thro' the wood of Favie.   a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.1 p.11 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+g | d<GB>G (ABc).e dGBG dGBG | ceBd (ABc).e | d<Bg>B ~d3 :| e | d<Bg>B A>Bce | d<Bg>B bBgB |
+d>Bg>B (ABc).e | d<Bg>B ~d3 g || d<Bg>B ABce | dBgB bBdB | c<aB<g (ABc).e | d>Bg>B ~d3 |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | g2g2 a2a2 | g2g2 g2g2 | c'2b2 a2a2 | g2d2 G2G :| z | g2g2 a2a2 | g2g2 g2g2 |
+g2g2 a2a2 | g2d2 G2G2 || g2g2 a2a2 | g2g2 g2g2 | c'2b2 a2a2 | g2d2 G2G |]

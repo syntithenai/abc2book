@@ -1,0 +1,82 @@
+X: 1421
+T: GERMAN QUICK-STEP
+O: Arranged by A. F. Knight
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.142 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+V: 1 nm="B CLAR. PRIMO"
+V: 2 nm="B CLAR. 2do"
+V: 3 nm="TROMBONE"  clef=bass middle=D
+V: 4 nm=OPHICLEIDE" clef=bass middle=d
+N: The dynamics (p,f,ff) are ambiguous for which staff they apply to.
+N: I've guessed they go with the staff below, based on other tunes in the collection, but I may be wrong.
+N: When they're all the same, I've put them in all 4 voices.
+M: 2/4
+L: 1/16
+K: Bb
+%----------
+V: 1
+K: C
+!p!e2ee e2e2 | e2g2f2e2 | f2ff f2f2 | f2a2g2f2 |\
+e2ee e2e2 | e2g2f2e2 | d2f2 B2d2 | c4 "_>"c'4 |\
+!f!e2ee e2e2 | e2g2f2e2 |
+f2ff f2f2 | f2a2g2f2 |\
+e2ee e2e2 | e2g2f2e2 | d2f2B2d2 | c4 "^>"c'4 \
+|:\
+!p!b2d'2g4 | b2d'2c'2b2 | c'2e'2"^>"a4 | c'2e'2d'2c'2 |
+B2d'2 "^>"g4 | b2d'2 c'2b2 | a2c'2^f2a2 | g4 g4 :|\
+|:\
+!f!(d^cde) (^fefg) | (a^gab) c'4 | (^fefg) (a^gab) | (c'bc'd') e'4 |\
+(c'bc'd') e'4 | (a^gab) c'4 |
+(d2d'^c' d'c'd'c') | (d'^c'd'c' d'c'd'c') | d'4 "^>"d'4 | !p!b2d'2g4 |\
+b2d'2c'2b2 | c'2e'2a4 | c'2e'2d'2c'2 | b2d'2g4 |\
+b2d'2c'2b2 | a2c'2^f2a2 | g4"^>"g4 H:|
+%----------
+V: 2
+K: C
+!p!c2cc c2c2 | c2e2d2c2 | d2dd d2d2 | d2f2e2d2 |\
+c2cc c2c2 | c2e2d2c2 | B2B2 G2F2 | E4 "^>"e4 |\
+!f!c2cc c2c2 | c2e2d2c2 |
+d2dd d2d2 | d2f2e2d2 |\
+c2cc c2c2 | c2e2d2c2 | B2z2 G2z2 | c4"^>"e4 \
+|:\
+!/!d8 | z2d2d2d2 | z2!/!d6 | z2!/!d6 | z2!/!d6 |
+z2g2g2g2 | ^f2a2c4 | B4 B4 ::\
+!f!A2A2A2A2 | !/!A8 | !/!A8 | !/!A8 | !/!A8 | !/!A8 | (B2d^c dcdc) |
+(d^cdc dcdc) | d4 "^>"d4 | !p!!/!d8 | !/!d8 | !/!c8 |\
+e2g2f2e2 | d2d2 d4 | d2f2e2d2 | d4 c2c2 | B4 "^>"B4 H:|
+%----------
+V: 3
+K: Bb
+!p!B4 B2B2 | B4 d4 | A4 c2c2 | c4 c4 |\
+B4 c2d2 | B4 B4 | F4 e2e2 | d4"^>"B4 |\
+!f!B2d2d2d2 | !/!d8 |
+!/!e8 | !/!c8 |\
+B2d2d2d2 | !/!d8 | f4 e2e2 | d4"^>"B4 \
+|:\
+!p!A2z2 A2z2 | A2z2 A2z2 | B2z2 B2z2 | G2z2 G2z2 |\
+A2z2 A2z2 |
+c2z2 c2z2 | c2z2 c2z2 | F4 F4 :|\
+|:\
+!ff![B2=E2]z2 [B2E2]z2 | [B2=E2]z2 [B2E2]z2 | [B2=E2]z2 [B2E2]z2 | [B2=E2]z2 [B2E2]z2 | [B2=E2]z2 [B2E2]z2 | [B2=E2]z2 "^>"[B2E2]z2 | c2z2 z4 |
+z8 | c4 "^>"c4 |\
+!p!A4 z4 | A4 z4 | c4 z4 | G4 z4 |\
+A4 z4 | c4 z4 | c4 c4 | A4 "^>"F4 H:|
+%----------
+V: 4
+K: Bb
+!p!B4 B2f2 | b4 B4 | A4 f2f2 | f4 f4 |\
+B4 f2f2 | f4 b4 | f4 f2a2 | b4 "^>"B4 |\
+!f!B2b2b2b2 | !/!b8 |
+a2f2f2f2 | !/!f8 |\
+B2b2b2b2 | B2b2b2b2 | f4 f2a2 | b4 "^>"B4 \
+|:\
+!p!F2z2 f2z2 | c2z2 c'2z2 | =e2z2 e2z2 | c2z2 =e2z2 |\
+f2z2 F2z2 |
+F2z2 f2z2 | c2z2 c2z2 | f4 F4 :|\
+|:\
+c2z2 c2z2 | c2z2 c2z2 | c2z2 c2z2 | c2z2 c2z2 |\
+c2z2 c2z2 | c2z2 c2z2 | c2z2 z4 |
+z8 | c'4 "^>"c4 |\
+!p!F4 f4 | c4 c4 | =e4 e4 | c4 c4 |\
+F4 f4 | z4 z4 | c'4 c4 | f4 "^>"F4 H:|

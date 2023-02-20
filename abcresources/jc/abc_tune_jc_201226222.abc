@@ -1,0 +1,36 @@
+X: 10151
+T: WHAT CAN THE MATTER BE?
+C:
+%R: jig, march
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.15 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The rhythms at strain boundaries were wrong; fixed with initial rests.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+z |\
+.d2z .d2z | dBg dBG | .c2z .c2z | cAB cBA |\
+.d2z .d2z | dBg dBG | EGc BcA | G3 z2 :|
+|: d |\
+dBc dBc | dBg dBG | cAB cAB | cAB cBA |\
+dBc dBc | dBg dBG | EGc BcA | G3 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z |\
+.B2z .B2z | BGA BGB | .A2z .A2z | AFG AGF |\
+.B2z .B2z | BGB BGB, | CEE DEC | B,3 z2 :|
+|: B |\
+BGA BGA | BGB BGB | AFG AFG | AFG AGF |\
+BGA BGA | BGB BGB, | CEE DEC | B,3 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z |\
+.g2z .g2z | g3 g3 | .d2z .d2z | d'6 |\
+.g2z .g2z | ggg ggg | c2c d2d | G3 z2 :|
+|: g |\
+g2z g2z | ggg g3 | d2z d2z | ddd d3 |\
+g2z g2z | g2g g3 | c2c d2d | G3 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

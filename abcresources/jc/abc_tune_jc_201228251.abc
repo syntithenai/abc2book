@@ -1,0 +1,25 @@
+X: 11132
+T: the BANKS OF SPEY
+P: Strathspey.
+%R: strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.113 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The rhythms of repeats aren't quite right; not fixed.
+M: C
+L: 1/8
+K: A
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A2A>B A>Bc>e | d<cB>A {A}G2G2 |\
+A2A>B A>Bc>d | e>cde g2g2 |\
+a>ge>c d<eg<a | e<gg>B G2GB |\
+A<EA>B c>de>g | e>dc>B {B}A2A2 :|
+|: c |\
+(A<E)(A>c) A<EA>c | B>cdB G2GB |\
+A<EA>c A<Ec>d | e>cde g2g2 |\
+a>ge>c d<eg<a | eggB G2GB |\
+A<EA>B c>deg | e<dc>B {B}A2A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

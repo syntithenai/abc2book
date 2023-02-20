@@ -1,0 +1,29 @@
+X: 10781
+T: CRAIGELLACHIE_BRIDGE -- Strathspey
+R: strathspey
+N: Arranged by W.B. Laybourn
+B: K\"ohler's Violin Repository, v.1, 1885 p.78 #1
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: D
+ud2 |\
+DD3F3A dcBA F2D2 | E2=C2c2E2 {F}G4(G3B) |\
+A2D2F2D2 dcBA F2D2 | E2e2c2A2 {c}d4(d2f2) |
+DD3F3A dcBA F2D2 | E2=C2c2E2 {F}G4(G3B) |\
+A2D2F2D2 dcBA F2D2 | E2e2c2A2 {c}d4(d2f2) |]
+dd3 (f2ga) (d2a2)f2a2 | (.=c3.g)(e3f) ~g4(g2ab) |\
+a2d2f2d2 a2d2g2b2 | a2d2f2d2 (fga2) (a2f2) |
+dd3 (f2ga) (d3a)f3a | gfed =c2e2 g4(g2ag) |\
+(f3a)(e3f) (d3f)(B3d) | AF3 (d3F) A4A2 |]
+uc2 |\
+dcBA GFED dcBA GFED | E=C3c3E {F}G4(G2E2) |\
+D2d2E2d2 F2d2E2d2 | D2(d2c2d2) A4(G2F2) |
+D2d2E2d2 F2d2E2d2 | E2=c2c2E2 G4(G2E2) |\
+D2d2E2d2 F2d2A2d2 | E2e2c2A2 {c}d4(d2 |]
+uf2) |\
+d2d2 (f2ga) (d2a2)f2a2 | =c2g2e2f2 ~g4(g2ab) |\
+a2d2f2d2 a2d2b2d2 | a2d2f2d2 (f2ga) (a2f2) |
+dd3 (f2ga) (d2a2)f2a2 | gfed =c2e2 g4(g2ag) |\
+f2a2e2f2 d2f2B2d2 | (.A3.F)(.d3.F) "_Segue Reel."{F}A4A2 "^D.C."|]

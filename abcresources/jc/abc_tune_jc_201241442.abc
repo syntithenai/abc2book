@@ -1,0 +1,25 @@
+X: 4354
+T: Fort William
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+%
+V: 1
+|:\
+A2 (A/B/c) | B2 (B/c/d) | cecA | BGFE |\
+A2 (A/B/c) | B2 (B/c/d) | ceEG | AECA, :|
+|:\
+cde=g | fdcB  | BcdB | ecBA |\
+GB Ed | cde=g | fdcB | {B}A4 :|
+%
+V: 2 clef=bass middle=d
+|: c'2a2 | g2e2  | a2A2 | e2E2 | c'2a2 | g2e2 | a2e2 | a2A2 :|
+|: a2c'2 | d'2b2 | g2b2 | c'2a2 | e2g2 | a2c2 | d2e2 | a2A2 :|
+%%begintext align
+The 1st Cu. cast two Cu. .|.
+then cross up two Cu. .|.
+Gallop down, up again, cast off .|.
+Right and Left.
+%%endtext

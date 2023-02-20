@@ -1,0 +1,18 @@
+X: 21772
+T: THE SNOW DRIFT VALSE #2
+C: Composed by Wm. Findlay
+R: waltz
+B: K\"ohler's Violin Repository, v.2, 1885 p.177 #2
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The final ending has a repeat of bar 31, giving an extra bar.
+M: 3/4
+L: 1/8
+K: G
+uD2 !segno!|\
+G6 | (B4D2) | G6 | (B4D2) | (G4B2) | (e4e2) | d2b2a2 | g2A2B2 |\
+c6 | (b2g2d2) | B6 | (g2d2B2) | (A4c2) | E4F2 |[1 "_>"A2"_>"G2"_>"E2 "_>"D2"_>"C2"_>"A,2 !segno!:|\
+[2 (.G3.G)G2- | G2 |]
+|: vABcd |\
+(g4b2) | (d2g2B2) | d6 | (c4D2) | (FEFGAB) | (c4A2) | (GFGABc) | (d4B2) |\
+(g4b2) | (d2g2B2) | d6 | (c4D2) | (FEFGAB) | c2e2d2 | (c2E3)vF |[1 G2 :|[2 (c2E3)vF | G2z2 "_D.C."|]

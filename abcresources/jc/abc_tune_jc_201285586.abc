@@ -1,0 +1,20 @@
+X: 1
+T: Heili Karjalasta   [Cm]
+T: Sweetheart from Karelia
+C: attr. Georg Malmst\'en (1902-1981)
+%D: 1920s
+M: 2/4
+L: 1/8
+P: A1A2 B2B2 CB2
+K: Cm
+"^A"|: z2 |\
+"Cm"GG AG/E/- | E4 | "Fm"FF GF/D/- | "G7"D4 |\
+[1 "Cm"EE FG/F/- | F/F/E DC | "G7"D3 =B, | G,2 :|\
+[2 "Cm"EE DC | "Ab7"^FF _ED | "G7"G4- | Gz |]
+"^B"|: "G7"G2 \
+| "Cm"c>G ^FG | "Fm"BA GF | "Cm"E2 C2- | C2 CD |\
+[1 "Cm"E2 E2 | "Fm"FE DC | "G7"D4- | Dz :|\
+[2 "Fm(Ab)"E2 DC | "G7"DC =B,C- | "Cm"C4- | "^fine"Cz |]
+"^C"[| =B,C |\
+"G7"D>D EF | GG=A=B | "Cm"c>=B "C7"c_B | "Fm"AG F2 |\
+"Bb7"B>=A B_A | GF EF | "Eb"G4- | G"^->B2"z |] y8 y8 y8 y8

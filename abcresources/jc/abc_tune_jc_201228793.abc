@@ -1,0 +1,24 @@
+X: 1161
+T: Earl of Eglinton's Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.16 #1 (at bottom; top 8 staves continued from p.15)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: E
+% - - - - - - - - - -
+V: 1 staves=2
+F |\
+EB-B>G E>eg>f | e<cTB>A cF-F>G |\
+EB-B>G E>eg>e | c>de>f {ef}ge e :|\
+a |\
+g>ef>g a>fg>e | c<Ba>g af-f>a |
+Tg>edB (c/B/c/d/ e)>c | B>df>a ge-e>a ||\
+g>ec<e B<eTB<G | A<cB>G cF-F>G |\
+E<GF<A G<BA<c | B<ed<f eE-E |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+e2e2 e2e2 | e2e2 f2f2 |  e2e2 e2e2 | B2B2 e2e :| z | e2e2 e2e2 | e2e2 f2f2 |
+e2e2 B2B2 | B2B2 e2e2 || e2e2 e2e2 | e2e2 f2f2 | e2f2 g2a2 | b2B2 e2e |]

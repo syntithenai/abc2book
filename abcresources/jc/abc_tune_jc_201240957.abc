@@ -1,0 +1,31 @@
+X: 4191
+T: Todlen Hame
+C: This elegant Accompaniment by the Immortal HAYDN.
+%R: jig
+B: Niel Gow & Sons "Complete Repository" v.4 p.19 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "SLOW"
+K: A
+%%score [1 {2 | 3}]
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 
+z | E>DC D3 | C2(3({C}^D/F/A/) G2z | E>DC D>EF | C>DF [E2C2] :: z | A6- |
+A3 {A}G2C/D/ | E>DC D>EF | C>DF [E2C2] :| c/d/ | e3- edc | B(3(c/A/F/) (3(^D/F/A/) [G2B,2] c/d/ |
+e3- edc | A>FD C2 c/>d/ || e3- edc | B(3(c/A/F/) (3(^D/F/A/) [G2B,2] c/d/ | e3- edc | A>FD C2 |]
+% - - - - - - - - - -
+% Voice 2 formatted for compactness and proofreading.
+V: 2 staves=2
+A/>B/ | c>BA F>GA | E>FA {c}B2A/B/ | c>BA F>GA | E>FA A2 :: A |
+d>ed c2c | B>c (d/c/) {c}B2 (A/B/) | c>BA F>GA | E>FA A2 :| A/B/ |
+c>BA F>GA | EF A B2 A/B/ | c>BA F>GA | E>FA A2 A/>B/ ||
+c>BA F>GA | EF A B2 A/B/ | c>BA F>GA | E>FA A2 |]
+% - - - - - - - - - -
+% Voice 3 preserves the book's staff layout.
+V: 3 clef=bass middle=d
+z | A6 | a2f e2z | A6 | a>fd A2 :: z |
+f2f' e'2e | d>e (f/^d/) e2z | A3 A3 | a>fd A2 :| z |
+A>Bc d>ef |(ga)f e2z | A>Bc d>ef | c'>d'b a2z ||
+A>Bc d>ef |(ga)f e2z | A>Bc d>ef | c'>d'b a2 |]

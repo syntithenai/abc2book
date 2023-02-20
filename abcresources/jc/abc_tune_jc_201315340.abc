@@ -1,0 +1,26 @@
+X: 16
+T: My Darling I Am Fond of You   #2
+R: air, waltz
+%S: s:2 b:16(10+8)
+B: "O'Neill's 1850 *16"
+Q: "Tenderly"
+O: F.O'Neill
+Z: Norbert Paap, norbertp@bdu.uva.nl
+N: Compacted by using labels and play order [JC]
+N: Compacted via repeats and multiple endings [JC]
+P: Play A1A2 B A1A2
+M: 3/4
+L: 1/8
+K: D
+"^A"[|] d2 \
+|: A4 B2 | G4 A2 | F6 | E4 D2 || D4 E2 | F4 \
+[1 G2 | A4 d2 | d4 c2 :|[2 A2 | E4 D2 | "^fine"D4 |]
+"^B"[| D2 \
+| F4 G2 | A2 B2 c2 | d4 e2 | f4 e2 |\
+| d4 c2 | A4 G2 | A4 d2 | d4 "^->A"c2 |]
+%
+% Duplicate A:
+% | A4 B2 | G4 A2 | F6 | E4 D2 |\
+% | D4 E2 | F4 G2 | A4 d2 | d4 c2 |\
+% | A4 B2 | G4 A2 | F6 | E4 D2 |\
+% | D4 E2 | F4 A2 | E4 D2 | D4 |]

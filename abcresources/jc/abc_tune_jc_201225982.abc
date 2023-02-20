@@ -1,0 +1,22 @@
+X: 10067
+T: MELODY'S JIG
+C: Bob McQuillen 16 June 93
+B: Bob's Note Book 10 #67
+%R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| GBd Bdg | dgb agf | efg dBG | FGA A2D |\
+| GBd Bdg | dgb agf | ege dgB | AGF G2 :|
+|: A \
+| BdB GBG | EAG FED | BdB GAB | cBc A2d |\
+| BdB GBA | GAG FED | GBd cAF | AGG G2 :|
+%%begintext align
+%% Melody Brown is
+%% April Limber's cousin, and since she's awfully
+%% nice and comes to the Peterborough Dance once in a
+%% while, I thought it would be nice if she had her
+%% own tune. I bet April would think that was a good idea.
+%%endtext

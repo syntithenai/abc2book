@@ -1,0 +1,37 @@
+X: 18533
+T: HAVERSTOCK HILL
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.18 p.53 #3
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: This version has a middle voice that wanders between the staffs.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+(G/A/) |\
+BcA GDD & D2C B,2x | BcA GDD & D2C B,2x |\
+[GB,]DD [AF]DD | [cA]d[BG] [A2F2](G/A/) |\
+BcA GDD & D2C B,2x | BcA GDD & D2C B,2x |\
+GFG EAc & D2D C2E | BcA G2 & D2C B,2 :|
+|: (B/c/) |\
+dgf {f}e^de | Adc {c}B^AB |\
+EF^G ABc | ABG FED |\
+{A}GFG {B}AGA | {c}[BG]AB [cG]de |\
+[eG]d[cF] [BG]c[AE] | [GB,][AC][FA,] [G2B,2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z |\
+[g2G2]d [g2G2]z | [g2G2]d [g2G2]z | [g2G2]z [a2d2]z | f2g d2z |\
+[g2G2]d [g2G2]z | [g2G2]d [g2G2]z | B2B c2A | d2D G2 :|
+|: z |\
+[g3-B3] [g2c2]z | [d'3-f3] [d'2g2]z | c'2[d'b] [c'2a2]z | [a2-c2][a-^c] [a2d2]z |\
+[g3G3-] [f3G3] | [=f3G3-][e2G2].c | B2A G2c | d2D G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Whole figure at top .| down the mid: up again allemande |: Swing Corners |. & hands 6 round |:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

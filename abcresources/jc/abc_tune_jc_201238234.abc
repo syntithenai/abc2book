@@ -1,0 +1,27 @@
+X: 3041
+T: Miss Sharpes Fancy
+C: by Mr. Sharpe
+%R: air, jig
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.4 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slowish"
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+f |\
+{c}d2A AFA | {GA}B2A AFA | {Bc}d2A {B}AGF | ECA, TA,2 B/c/ ||\
+d2A AFA | {GA}B2A ABc | d(gf) (ea)c | d3 Td2 :|
+f/g/ |\
+afd (df).a | ged (ce)g | fed {e}Tdcd | ecA A2 (f/g/) ||\
+afd dfa | ged (ce).g | (fa).d (eg).c | {c}d3 Td2 f/g/ |
+afd (df)a | gfe (ce)g | fed {f}Tdcd | ecA TA2G ||\
+(FA).d (FA).d | (GB).d (GB).d | (Ag).f (ea).c | {c}Td3 D2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | D3 d3 | D3 d3 | D3 d3 | A3 Aeg || f3 d3 | g3 f3 | g3 a2A | dfa d2 :|
+z | d'3 d3 | a3 A3 | d3 d'3 | a3 A3 || d3 d'3 | a3 A3 | d3 a2A | dAF D3 |
+d3 d3 | A3 a3 | d3 d'3 | a3 A3 || d3 d3 | g3 g3 | a3 A3 | dfa d2 |]

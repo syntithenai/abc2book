@@ -1,0 +1,1526 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 21
+B: RSCDS Book 21
+K:
+%%center Book21/2100-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2101
+T: The Marchioness of Blandford's Reel
+P: Countess of Loudon's Reel
+C:Traditional
+R:Jig (8x48)
+B:RSCDS 21-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:D
+|:A|"D"d3 fef|d3 AB=c|"Em"BAB gfe|"D"fed "A7"cBA|\
+    "D"d3 fef|d3 AGF|
+                     "Em"GAB "A7"EAG|"D"FDD D2||\
+  A|"D"FAD FAD|"Em7"GBE GBE|"A7"Ace gfe|"D"DAG FGE|
+    "D"FAD FAD|"Em7"GBE GBE|"A7"Ace gfe|"D"d3 D2 A|\
+    "D"FAD FAD|"Em7"GBE GBE|
+                            "A7"Ace gfe|"D"dAG FGE|\
+    "D"D2d "A/C#"E2e|"D"F2f "Em"G2g|"D/A"[aA]fd "A"[eE]cA|"D"[d3A3F3D3][dAFD]:|
+%%center Book21/2101-Marchioness_of_Blandfords_Reel-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2102
+T: Miss Jean Stewart
+C:Wm. Morrison
+R:Strathspey (8x32)
+B:RSCDS 21-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:A
+"A"C<A, [AE]>c "D"[BF]A F2|"A"A<EA>c "E7"e>f "A"e>c|\
+"Bm"[dF]>e f/e/d/c/ d/c/B/A/ "D"[F2D2]|"A"[AC]<E"D"[FD]>E "A"[AC]EAc|
+"A"C<A, [AE]>c "D"[BF]A F2|"A"A<EA>c "E7"e>f "A"e>c|\
+"Bm"[dF]>e f/e/d/c/ d/c/B/A/ "D"[F2D2]|"A"[AC]>B [cGE]>B [AC]<E A<c||
+"E"[eBE]>f "A"[eE]c "D"d/c/B/A/ "Bm"[F2D2]|"E"[eE]>f"A"[eE]c [eA]<a [eE]<c|\
+"Bm"[dF]>e f/e/d/c/ d/c/B/A/ "D"[F2D2]|"A"[AC]>E"D"[FD]>E "A"[AC]EAc|
+"E"[eBE]>f "A"[eE]c "D"d/c/B/A/ "Bm"[F2D2]|"E"[eE]>f"A"[eE]c [eA]<a [eE]<c|\
+"Bm"[dF]>e f/e/d/c/ d/c/B/A/ "D"[F2D2]|"A"[AC]>B [cGE]>B [AC]<E A<c|]
+%%center Book21/2102-My_Only_Jo_and_Dearie_O-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2103
+T: Loch Leven Castle
+P: Loch Leven Castle
+C:Traditional
+R:Reel (8x32)
+B:RSCDS 21-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:Am
+|:cB|"Am"A2AB AGEG|AGAB cBcd|"C"efga gede|c2G2 G2 cB|\
+     "Am"A2AB AGEG|
+                   AGAB cBcd|"Am"eaga "E7"gede|"Am"c2A2 A2:|\
+  eg|"Am"a2"Dm"ab "Am"ageg|"Am"a^g"Dm"ab "Am"a2=ge|
+                                                   "Dm"dega "C"gede|c2G2 G2eg|\
+     "Am"a2"Dm"ab "Am"ageg|"Am"a^g"Dm"ab "Am"a2=ge|"Dm"dega "A"ge"E7"de|
+                                                                "Am"c2A2 A2ga|\
+     "Am"a2"Dm"ab "Am"ageg|"Am"a^g"Dm"ab "Am"a=ge^f|"Em"g^fga gede|
+                                                                 "C"c2G2 G2cB|\
+     "Am"A2AB AGEG|AGAB cBcd|"Am"ea^ga "E7"=gede|"Am"c2A2 A2|]
+%%center Book21/2103-Loch_Leven_Castle-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2104
+T: An' Thou Wert My Only Dear
+P: An' Thou Wert My Only Dear
+C:Traditional
+R:Jig (8x48)
+B:RSCDS 21-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Gm
+"Gm"GDG BGB|dBd g3|d2e dcB|"D7"ABG ^F=ED|
+"Gm"GDG BGB|dBd g3|d2e dcB|"D7"AG^F "Gm"[G3B,3]||
+"Gm"gfg efg|"Cm"abg "D7"^fed|"Cm"efg "Gm"dcB|"D"ABG ^FED|
+"Gm"gfg "Cm"efg|abg "D"^fed|"Cm"cea "Gm/Bb"Bdg|"D"AG^F "Gm"[G3B,3]:|
+%%center Book21/2104-An_Thou_Wert_My_Only_Dear-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2105
+T: The Lea Rig
+%
+P: Kind Robin
+B: RSCDS 21-5(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "from Surenne"
+M: C
+L: 1/8
+K: F
+[| "F"F2F2 "Dm"F3A  | "Gm"GAGF "Bb"D3 "C7"C | "F"F2F2 "Dm"F3A      | "Gm"GFGA    "C7"c3d |
+|  "F"F2F2 "Dm"f3c  | "Gm"BAGF "Bb"D2"C7"CD | "F"F2F2 "Bb"d2"F"cA  | "C7"c4      "F"F2z2 |]
+[| "F"c2dc "Dm"A2fA | "Gm"BAGF "Bb"D3 "C7"C | "F"c2dc "Gm"BA"G7"GF | "C"G2"F"A>c "Bb"d3d |
+|  "F"c2de "Dm"f3A  | "Gm"BAGF "Bb"D2"C7"CD | "F"F2F2 "Bb"d2"F"cA  | "C7"c4      "F"F2z2 |]
+%
+P: The Lea Rig
+C:Traditional (Surenne)
+R:Strathspey (8x32)
+B:RSCDS 21-5(II)
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:A
+cB | "A"c2E2 E2F2 | A3B A2c2 | "Bm"B3c dcBA | "F#m"c2F2F2 ||
+cB | "A"c2E2 E2F2 | A3B A2ag | "D"f3e "Bm"fgae | "A"c2"D"A2 "A"A2 |]
+e2 | "D"fefg "A"a2c2 | "Bm"dcde "D"f2A2 | "Bm"B3c dcBA | "F#m"c2F2F2 ||
+cB | "A"c2E2 E2F2 | A3B A2ag | "D"f3e "Bm"fgae | "A"c2"D"A2 "A"A2 |]
+%%center Book21/2105-Lea_Rig-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2106
+T: Kingussie Flower
+P: Kingussie Flower
+C:Old Song
+R:Reel (8x40) ABABB
+B:RSCDS 21-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:Dm
+DE|"Dm"F2A2 A2=B^c|d2A2A2f2|"A7"e2d2 fed^c|"Dm"[d6F6] DE|
+   "Dm"F2A2 A2=B^c|d2A2A2f2|"A7"e2d2 fed^c|"Dm"[d6F6]||
+fg|"Dm"a2f2f2 ga|"C"g2c2c2 de|"Dm"f2d2d2 ef|"A7"e2A2A2 FG|
+   "Dm"AGFG AGFG|AGAB A2f2|"A7"e2d2 fed^c|"Dm"[d3F3]|]
+%%center Book21/2106-Kingussie_Flower-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2107
+T: The Braes of Breadalbane
+P: The Braes of Breadalbane
+C:Traditional
+R:Strathspey (8x32)
+B:RSCDS 21-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:Am
+E|"Am"E<A AB c>B Ac|e2 c<A e2 c<A|"Am"E<A AB c>B Ac|\
+  c>A "E7"B>^G "Am"A3|
+  "Am"E<A AB c>B Ac|e2 c<A e2 c<A|"Am"E<A AB c>B Ac|\
+  c>A "E7"B>^G "Am"A3||
+G|"C"c<c cc "G"d<d dd|"C"e>fge "G"d>BAG| \
+  "Am"c<c cc "Dm"d<d dd|"Am"e>d c>d "E7"[e2^G2] z|
+  "C"c<c cc "G"d<d dd|"C"e>fge "G"d>BAG| \
+  "Am"c<c cc "Dm"d<d df|"E7"[e^G][dF][cE][BD] "Am"[A2C2] A,|]
+%%center Book21/2107-Braes_of_Breadalbane-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2108
+T: The Buchan Eightsome Reel
+P: Timour the Tartar
+C:Traditional
+R:Reel (10x40)
+B:RSCDS 21-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:A
+"A"A2 c/B/A eA c/B/A|eAaA gAfA|A2 c/B/A eA c/B/A|"E"BEdE cEBE|
+"A"A2 c/B/A eA c/B/A|eAaA gAfA|eaec eaec|"E"BABc "A"[A2C2]||
+[A2C2]|"E"E2 G/F/E B2 G/F/E|BEdE cEBE|"A"A2 c/B/A e2 c/B/A|eAaA gAfA|
+       "A"e^dec "D"agaf|"A"e^dec "D"agaf|"A"ecag fedc|"G"BAGF "E"EFGE|]
+%%center Book21/2108-Buchan_Eightsome_Reel-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2109
+T: Muirland Willie
+P: Muirland Willie
+C:Trad.
+R:Jig (8x32)
+B:RSCDS 21-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Em
+E|"Em"E2 F "C"G2 A|"G"B2 c d2 B|"G"G2 G d2 B|"D"AFA D2 F|
+  "Em"E2 F "C"G2 A|"G"B>cB g2 f|"Em"edc "B7"B^c^d|"Em"e3-e2||
+e|"Em"e2 f g2 e|"G"d2 B d2 B|"G"G>AG d2 B|"D"AFA D2 E/^D/|
+  "Em"E>FE G2 A|B>cB g2 f|edc "B7"B^c^d|"Em"e3-e2|]
+%%center Book21/2109-Muirland_Willie-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2110
+T: Within a Mile o' Edinburgh Toon
+P: Within a Mile o' Edinburgh Toon
+C:Traditional
+R:Strathspey (8x32)
+B:RSCDS 21-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:A
+c>d|"A"e<c B>c "D"A2 c>A|"D"F<A "A"E>C E2 A>B|\
+    "A"c<e "D"f>a "A"e<c "E7"BA|"A"[c2E2] "E7"[B2E2] z2 c>d|
+    "A"e<c B>c "D"A2 c>A|"D"F<A "A"E>C E2 A>B|\
+    "A"c<e "D"f>a "A"e<c "E7"B>c|"A"[A6E6] z2||
+    "A"A>B c>d ec a2|A>B c>d ec a>A|\
+    A>B A>F ECE>A|c>A c<e "D"f2 ag/f/|
+    "A"e<c c<A "D"F<A "A"E<A|c<e "E"B>c "D"A2 ag/f/|\
+    "A"e<c c<A "D"F<A "A"E>A|c<e "E7"B>c "A"[A2C2]|]
+%%center Book21/2110-Within_a_Mile_o_Edinburgh_Toon-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2111
+T: The Maid of the Mill
+P: The Maid of the Mill
+C:Traditional
+R:Jig (8x40) ABABB
+B:RSCDS 21-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:D
+"D"ABA AGF|ABA AGF|"Em"G2E E2F|"A7"G2E E3|
+"D"ABA AGF|"Bm"ABc dAG|F2D D2E|"D"F2D D2||
+c|"G/B"dBd "A"cAc|"G"BGB "F#m"AGF|"Em"G2E E2F|"A7"G2E E2 c|
+  "G/B"dBd "A"cAc|"G"BGB "F#m"ABG|"D"F2D "A7"D2E|"D"F2D D2|]
+%%center Book21/2111-Maid_of_the_Mill-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2112
+T: The Stoorie Miller
+P: Mrs Lumsden of Achindores
+C:Wm. Marshall
+R:Strathspey (8x32)
+B:RSCDS 21-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:Eb
+[dB]|"Eb"[e2G2] B>G E>B G<E|"Fm/Ab"C<FFG [AC]G/F/ "Bb"[DA,]C/B,/|\
+     "Eb"e2 B>G E>B G>E|"Fm"CF "Bb"[DA,]C/B/ "Eb"[E2G,2] E [dB]|
+     "Eb"[e2G2] B>G E>B G<E|"Fm/Ab"C<FFG [AC]G/F/ "Bb"[DA,]C/B,/|\
+     "Eb"e2 B>G E>B G>E|"Fm"CF "Bb"[DA,]C/B/ "Eb"[E2G,2] E||
+B/c/d|"Eb"[eG]<e eg "Fm"c>f"Bb"dB|"Eb"e<eeg B<e GE|\
+     "Fm"A<c "Eb"G<B "Fm"C<F "Bb"D<B,|"Fm"CF "Bb"[DA,]C/B,/ "Eb"[E2G,2][E2G,2]|
+     "Eb"[eG]<e eg "Fm"c>f"Bb"[dA]B|"Eb"e<eeg B<e G<E|\
+     "Fm"A<c "Eb"G<B "Fm"C<F "Bb"D<B,|"Fm"C<F "Bb"[DA,]C/B,/ "Eb"[E2G,2][EG,]|]
+%%center Book21/2112-Stoorie_Miller-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21031
+T: Loch Leven Castle
+R: reel
+O: RSCDS 21-3(I)
+B: RSCDS 21-3(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: Am
+cB \
+| "Am"A2AB AGEG | "Am"AGAB cBcd \
+| "C"efga gede | "C"c2G2 "E(m)"G2cB \
+| "Am"A2AB AGEG | "Am"AGAB cBcd |
+| "Am"eaga "E(m)"gede | "Am"c2A2 A2 :| \
+eg \
+| "Am"a2ab ageg | "Am"a^gab a2=ge \
+| "G"dega gede | "C"c2G2 "Em"G2eg |
+| "Am"a2ab ageg | "Am"a^gab a2=ge \
+| "G"dega "E(m)"gede | "Am"c2A2 A2eg \
+|]| "Am"a2ab "Em"ageg | "Am"a^gab "D7"a=ge^f |
+| "G"g^fga "Em"gede | "C"c2G2 "E(m)"G2cB \
+| "Am"A2AB AGEG | "Am"AGAB cBcd \
+| "Am"eaga "E(m)"gede | "Am"c2A2 A2 |]
+%%center Book21/21031-Loch_Leven_Castle-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21032
+T: Thomas and Sally
+R: reel
+O: RSCDS 21-3(II)
+B: RSCDS 21-3(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: C
+|: "C"c2 e/f/g e2dc | "Dm"d/e/f Ad "G7"B2AG \
+| "C"c2 Ge "Dm"d2Af | "C"egfe "G7"[d4B4] |
+| "C"c2 e/f/g e2dc | "Dm"d/e/f Ad "G7"B2AG \
+| "C"c2 Ge "Dm"d2Af | "C"e/f/g "G7"FB "C"[c2E2] C2 :|
+|: "C"G2EG cGec | "G7"dBAG F/G/A DB \
+| "C"c2dB c2ec | "D7"B/c/d D^F "G"G2G,2 |
+| "C"c2 e/f/g e2dc | "Dm"d/e/f Ad "G7"B2AG \
+| "C"c2 Ge "Dm"d2Af | "C"e/f/g "G7"FB "C"[c2E2] C2 :|
+%%center Book21/21032-Thomas_and_Sally-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21041
+T: An' thou wert my only dear
+C:
+R: jig
+B: RSCDS 21-4(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: Gm
+|: "Gm"GDG BGB | dBd g3 |d2e dcB |1 "D7"ABG ^F=ED :|2 "D7"AG^F "B`Gm"G3 ||
+|: "Gm"gfg "Cm"efg | abg "D7"^fed |1 "Cm"efg "Gm"dcB | "D7"ABG ^FED :|2 "Cm"cea "Gm"Bdg | "D7"AG^F "Gm"G3 |]
+%%center Book21/21041-An_thou_wert_my_only_dear-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21042
+T: My Daddy Oh!
+C:
+R: jig
+B: RSCDS 21-4(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+|| d \
+| "G"BAB G2g | d2B Bcd | "C"e2c "G"d2B | "Am"cBc "D7"Adc |
+| "G"BAB G2g | d2B Bcd | "C"e2e "Am"a2a | "D7"fef "G"g2 ||
+|| G \
+| "G"Bcd d2g | "C"e2c "G"d2B | "Am"c2a "G"B2g | "Am"A2B "D7"cBA |
+| "G"GAG "Em"B2G | "G"dBd "C"gfe | "G"dcB "D7"Agf | "G"g3- g2 |]
+%%center Book21/21042-My_Daddy_Oh-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21052
+T: Kind Robin
+R: air
+B: RSCDS 21-5(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "from Surenne"
+M: C
+L: 1/8
+%--------------------
+K: F
+| "F"F2F2 "Dm"F3A | "Gm"GAGF "Bb"D3 "C7"C | "F"F2F2 "Dm"F3A | "Gm"GFGA "C7"c3d | "F"F2F2 "Dm"f3c |
+| "Gm"BAGF "Bb"D2"C7"CD | "F"F2F2 "Bb"d2"F"cA | "C7"c4 "F"F2z2 || "F"c2dc "Dm"A2fA | "Gm"BAGF "Bb"D3 "C7"C |
+| "F"c2dc "Gm"BA"G7"GF | "C"G2"F"A>c "Bb"d3d | "F"c2de "Dm"f3A | "Gm"BAGF "Bb"D2"C7"CD | "F"F2F2 "Bb"d2"F"cA | "C7"c4 "F"F2z2 |]
+%%center Book21/21052-Kind_Robin-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21052
+T: Kind Robin
+R: air
+B: RSCDS 21-5(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "from Surenne"
+M: C
+L: 1/8
+%--------------------
+K: F
+[| "F"F2F2 "Dm"F3A  | "Gm"GAGF "Bb"D3 "C7"C | "F"F2F2 "Dm"F3A      | "Gm"GFGA    "C7"c3d |
+|  "F"F2F2 "Dm"f3c  | "Gm"BAGF "Bb"D2"C7"CD | "F"F2F2 "Bb"d2"F"cA  | "C7"c4      "F"F2z2 |]
+[| "F"c2dc "Dm"A2fA | "Gm"BAGF "Bb"D3 "C7"C | "F"c2dc "Gm"BA"G7"GF | "C"G2"F"A>c "Bb"d3d |
+|  "F"c2de "Dm"f3A  | "Gm"BAGF "Bb"D2"C7"CD | "F"F2F2 "Bb"d2"F"cA  | "C7"c4      "F"F2z2 |]
+%%center Book21/21052-Kind_Robin-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21052
+T: Kind Robin
+R: air
+B: RSCDS 21-5(II)
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: "from Surenne"
+M: C
+L: 1/8
+%--------------------
+K: F
+| "F"F2F2 "Dm"F3A | "Gm"GAGF "Bb"D3 "C7"C | "F"F2F2 "Dm"F3A | "Gm"GFGA "C7"c3d | "F"F2F2 "Dm"f3c |
+| "Gm"BAGF "Bb"D2"C7"CD | "F"F2F2 "Bb"d2"F"cA | "C7"c4 "F"F2z2 || "F"c2dc "Dm"A2fA | "Gm"BAGF "Bb"D3 "C7"C |
+| "F"c2dc "Gm"BA"G7"GF | "C"G2"F"A>c "Bb"d3d | "F"c2de "Dm"f3A | "Gm"BAGF "Bb"D2"C7"CD | "F"F2F2 "Bb"d2"F"cA | "C7"c4 "F"F2z2 |]
+%%center Book21/21052-Kind_Robin-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21051
+T: The Lea Rig
+R: air
+B: RSCDS 21-5(I)
+Z: John Chambers <jc@trillian.mit.edu>
+N: "from Surenne"
+M: C
+L: 1/8
+K: A
+[| cB | "A"c2E2 "E"E2F2 | "F#m"A3B A2c2 | "Bm"B3c dcBA | "D"c2F2 "E7"F2cB \
+| "A"c2E2 "E"E2F2 | "F#m"A3B A2ag | "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2 |]
+[| e2 \
+| "D"fe"E"fg "A"a2c2 | "D"dcde f2A2 | "Bm"B3c dcBA | "D"c2F2 "E7"F2cB \
+| "A"c2E2 "E"E2F2 | "F#m"A3B A2ag | "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2 |]
+%%center Book21/21052-Lea_Rig-2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21051
+T: The Lea Rig
+R: air
+B: RSCDS 21-5(I)
+Z: John Chambers <jc@trillian.mit.edu>
+N: "from Surenne"
+M: C
+L: 1/8
+K: A
+cB | "A"c2E2 "E"E2F2 | "F#m"A3B A2c2 | "Bm"B3c dcBA | "D"c2F2 "E7"F2cB | "A"c2E2 "E"E2F2 |
+| "F#m"A3B A2ag | "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2 || e2 | "D"fe"E"fg "A"a2c2 | "D"dcde f2A2 |
+| "Bm"B3c dcBA | "D"c2F2 "E7"F2cB | "A"c2E2 "E"E2F2 | "F#m"A3B A2ag | "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2 |]
+%%center Book21/21052-Lea_Rig-3-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Lea Rig
+C: arr. T. Traub 10-2002
+R: Reel
+M: 4/4
+K: A
+L: 1/8
+cB |\
+"A"c2 E2 "E7"E2 F2 | "A"A3 B A2 c2 | "Bm"B3 c dcBA |\
+"F#m"c2 F2 "D"F2 "E"cB | "A"c2 E2 "E"E2 F2 |
+"A"A3 B "F#m"A2 ag | "D"f3 e "E"fgae | "A"c2 "D"A2 "A"A2 e2 ||\
+"D"fefg "A"a2 c2 | "Bm"dcde "A"f2 A2 |
+"Bm"B3 c dcBA | "F#m"c2 F2 "D" F2 "E"cB | "A"c2 E2 "E"E2 F2 |\
+"A"A3 B "F#m"A2 ag | "D"f3 e "E"fgae | "A"c2 "D"A2 "A"A2 |]
+%%center Book21/21052-Lea_Rig-3-TT.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21051
+T: The Lea Rig
+R: air
+B: RSCDS 21-5(I)
+Z: John Chambers <jc:trillian.mit.edu>
+N: Compare with The Lollipop Man, a Ducklington morris tune.
+N: "from Surenne"
+M: C
+L: 1/8
+K: A
+cB | "A"c2E2    "E"E2F2 | "F#m"A3B A2c2 | "Bm"B3c     dcBA | "D"c2F2   "E7"F2cB |\
+y2 | "A"c2E2    "E"E2F2 | "F#m"A3B A2ag |  "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2   |]
+e2 | "D"fe"E"fg "A"a2c2 |  "D"dcde f2A2 | "Bm"B3c     dcBA | "D"c2F2   "E7"F2cB |\
+y2 | "A"c2E2    "E"E2F2 | "F#m"A3B A2ag |  "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2   |]
+%%center Book21/21052-Lea_Rig-4-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21071
+T: The Braes of Breadalbane
+R: Strathspey
+B: RSCDS 21-7(I)
+Z: John Chambers
+M: C
+L: 1/8
+K: Am
+|: E |\
+"Am" E<A AB     c>B Ac |       e2 cA        e2 cA  |\
+"Am" E<A AB "F" c>B Ac | "E7" c>A B>^G "Am" A3    :|
+G |\
+"C"  c<c cc "G" d<d dd |  "C"  e>f ge  "G"  d>B AG |
+"C"  c<c cc "G" d<d dd |1 "Am" e>d c>d "E7" e2z   :|2 "E7" edcB "Am" A2 z |]
+%%center Book21/21071-1_The_Braes_of_Breadalbane_2X.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21071
+T: The Braes of Breadalbane
+R: strathspey
+B: RSCDS 21-7(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+|: E \
+| "Am"E<A AB c>B Ac | "Am"e2 cA e2 cA \
+| "Am"E<A AB "(F)"c>B Ac | "E7"c>A B>^G "Am"A3 :|
+|: G  \
+| "C"c<c cc "G"d<d dd | "C"e>f ge "G"d>B AG \
+| "C"c<c cc "G"d<d dd |1 "C"e>d c>d "E7"e2z :|2 "E7"e>d c>B "Am"A3 |]
+%%center Book21/21071-Braes_of_Breadalbane-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21072
+T: The Braes of Breadalbane II
+C: McFadyen
+R: strathspey
+B: RSCDS 21-7(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: C
+|: G \
+| "C"c>d e>d "F"c>A "C"GE | "C"CG cB/c/ "G7"dD DG \
+| "C"c>d e>d "F"c>A "C"GE | "G7"G,<G, A,>B, "C"C2- C :|
+e/f/ \
+| "C"g>a gf/e/ c'g ec | "F"fa/f/ "C"eg/e/ "Dm"d>c "G7"de \
+| "C"g>a gf/e/ c'g ec | "Dm"f>d "G7"e>B "C"[c2E2]- ce |
+| "C"g>a gf/e/ c'g ec | "F"f/a/g/f/ "C"e/g/f/e/ "Dm"d>c "G7"de \
+| "C"G>c e>d "F"c>A "C"GE | "G7"G,<G, A,>B, "C"C2- C |]
+%%center Book21/21072-Braes_of_Breadalbane_II-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21082
+T: The Wind That Shakes the Barley
+O: Trad
+R: reel
+B: RSCDS 21-8(II) (in A)
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+[| "D"A2AB AFED | "G"B2BA B2d2 | "D"A2AB AFED | "Em"gfed "A7"B2d2 |
+|  "D"A2AB AFED | "G"B2BA BcdB | "D"A2AB AFED | "Em"gfed "A7"Bcde |]
+[| "D"f2fd "Em"g2ge | "D"f2fd "A7"ecBA | "D"f2fd "Em"g2ge | "D"afed "A7"Bcde |
+|  "D"f2fd "Em"g2ge | "D"f2fd "A7"ecBA | "D"defg "Bm"afba | "Em"gfed "A7"BcdB |]
+%%center Book21/21082-Wind_That_Shakes_the_Barley-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21082
+T: The Wind That Shakes the Barley
+O: Trad
+R: reel
+B: RSCDS 21-8(II) (in A)
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: D
+|: "D"A2AB AFED | "G"B2BA B2d2 | "D"A2AB AFED |1 "G"gfed "A7"B2d2 \
+                                             :|2 "G"gfed "A7"Bcde |]
+|: "D"f2fd "G"g2ge | "D"f2fd "A7"ecBA |1 "D"f2fd "G"g2ge | "D"afed "A7"Bcde \
+                                     :|2 "D"defg "Bm"afba | "Em"gfed "A7"BcdB |]
+%%center Book21/21082-Wind_That_Shakes_the_Barley-10.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21082
+T: The Wind That Shakes the Barley
+O: Trad
+R: reel
+B: RSCDS 21-8(II) (in A)
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: D
+[| "D"A2AB AFED | "G"B2BA B2d2 | "D"A2AB AFED |1 "Em"gfed "A7"B2d2 \
+                                             :|2 "Em"gfed "A7"Bcde |]
+[| "D"f2fd "Em"g2ge | "D"f2fd "A7"ecBA |1 "D"f2fd "Em"g2ge | "D"afed "A7"Bcde \
+                                      :|2 "D"defg "Bm"afba | "Em"gfed "A7"BcdB |]
+%%center Book21/21082-Wind_That_Shakes_the_Barley-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21082
+T: The Wind That Shakes the Barley
+O: Trad
+R: reel
+B: RSCDS 21-8(II) (in A)
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: "D"A2AB AFED | "G"B2BA B2d2 | "D"A2AB AFED |1 "G"gfed "A7"B2d2 \
+                                             :|2 "G"gfed "A7"Bcde |]
+|: "D"f2fd "G"g2ge | "D"f2fd "A7"ecBA |1 "D"f2fd "G"g2ge | "D"afed "A7"Bcde \
+                                     :|2 "D"defg "Bm"afba | "G"gfed "A7"BcdB |]
+%%center Book21/21082-Wind_That_Shakes_the_Barley-6.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21091
+T: Highland Fair
+T: 8 x 32J 3C
+P: Muirland Willie
+R: jig
+C: RSCDS 21-9(I)
+C: arr. 1997 by John Chambers
+N: from Surenne
+M: 6/8
+L: 1/8
+%--------------------
+K: Em
+|: B | "Em"E2F G2A | "G"B2c d2B | G2G d2B | "D"AFA D2F | "Em"E2F G2A | BcB g2f | "(Am)"e>dc "B7"B^c^d | "Em"e3- e2 :|
+|: B | "Em"e2f "C"g2e | "G"d2B d2B | G>AG d2B | "D"AFA D2^D | "Em"E>FE G>AG | B>cB g2f | "(Am)"e>dc "B7"B^c^d | "Em"e3- e2 :|
+%%center Book21/21091-Highland_Fair.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21091
+T: Muirland Willie
+R: jig
+B: RSCDS 21-9(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: from Surenne
+M: 6/8
+L: 1/8
+%--------------------
+K: Em
+   B \
+| "Em"E2F G2A | "G"B2c d2B |       G2G      d2B   | "D"AFA  D2F \
+| "Em"E2F G2A |    BcB g2f | "(Am)"e>dc "B7"B^c^d | "Em"e3- e2 :|
+|: B \
+| "Em"e2f  g2e  | "G"d2B d2B |       G>AG     d2B   | "D"AFA  D2^D \
+| "Em"E>FE G>AG |   B>cB g2f | "(Am)"e>dc "B7"B^c^d | "Em"e3- e2 :|
+%%center Book21/21091-Muirland_Willie-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21091
+N: Highland Fair
+N: 8 x 32J 3C
+T: Muirland Willie
+R: jig
+C: RSCDS 21-9(I)
+C: arr. 1997 by John Chambers
+N: from Surenne
+M: 6/8
+L: 1/8
+%--------------------
+K: Em
+|: B | "Em"E2F G2A | "G"B2c d2B | G2G d2B | "D"AFA D2F | "Em"E2F G2A | BcB g2f | "(Am)"e>dc "B7"B^c^d | "Em"e3- e2 :|
+|: B | "Em"e2f "C"g2e | "G"d2B d2B | G>AG d2B | "D"AFA D2^D | "Em"E>FE G>AG | B>cB g2f | "(Am)"e>dc "B7"B^c^d | "Em"e3- e2 :|
+%%center Book21/21091-Muirland_Willie.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21092
+T: Coupar Angus Jigg
+C: Charles Duff
+R: jig
+B: RSCDS 21-9(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: C
+E \
+| "C"CEG GEG | "F"AFA ABc | "C"CEG GEC | "G7"DB,G, G,2E \
+| "C"CEG GEG | "F"AFA ABc | "G7"B>AB GcB | "C"cCC C2 :|
+|| f \
+| "C"e/f/gg gec | "F"f/g/aa abc' | "C"e/f/gg gec | "G7"dBG G2f \
+| "C"e/f/gg gec | "F"f/g/aa abc' | "G7"g>fg gag | "C"c'cc c2 ||
+|| f \
+| "C"e/f/gg gec | "F"f/g/aa abc' | "C"e/f/gg gec | "G7"dBG G2f \
+|  "Em"geg "Dm"fdf | "C"ece "G"dBd | "Am"cBA "C"GEc | "G7"GEC "C"C2 |]
+%%center Book21/21092-Coupar_Angus_Jigg.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21121
+T: Mrs. Lumsden of Achindores
+C: Marshall
+R: strathspey
+B: RSCDS 21-12(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: RSCDS has this tune in Eb.
+M: C
+L: 1/8
+%--------------------
+K: G
+|: [fd] \
+| "G"[g2B2] d>B G>d B<G | "Am"E<A AB cB/A/ "D7"FE/D/ \
+| "G"g2 d>B G>d B>G | "Am"EA "D7"FE/D/ "G"[G2B,2] G :|
+|: d/e/f \
+| "G"[gB]<g gb "Am"e>a "D7"fd | "G"g<g gb d<g BG \
+| "Am"c<e "G"B<d "Am"E<A "D7"F<D | "Am"E>A "D7"FE/D/ "G"[G2B,2] [GB,] :|
+%%center Book21/21121-Mrs_Lumsden_of_Achindores-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21122
+T: Mr. Hamilton of Pencaitland
+C: McFadyen
+R: strathspey
+B: RSCDS 21-12(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: C
+E/D/ \
+| "C"Cc d/c/B/A/ "Am"A/G/F/E/ [c2E2] | "C"Cc cB/A/ "G7"B>d d>e \
+| "Dm"f>e d>B "G"cB AG | "F"A/B/c/B/ "G7"d/c/B/A/ "C"Gcc :|
+|| e/d/ \
+| "C"c>g e/f/g/a/ gc a/g/f/e/ | "F"fa/g/ "Dm"f/e/d/c/ "G"Bd de/d/ \
+| "C"c>d e>f ge "F"fa | "C"ge "Dm"f/e/d/c/ "C"Gc ce/d/ |
+| "C"cg e/f/g/a/ gc a/g/f/e/ | "F"fa/g/ "Dm"f/e/d/c/ "G"Bd dg/f/ \
+| "C"e>d c>A GE FG | "Dm"A/B/c/B/ "G7"d/c/B/A/ "C"G[cE][cE] |]
+%%center Book21/21122-Mr_Hamilton_of_Pencaitland-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: An' thou wert my only dear
+C:
+R: jig
+B: RSCDS 21-4(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gm
+|: "Gm"GDG BGB | dBd g3 |d2e dcB |1 "D7"ABG ^F=ED :|2 "D7"AG^F "B`Gm"G3 ||
+|: "Gm"gfg "Cm"efg | abg "D7"^fed |1 "Cm"efg "Gm"dcB | "D7"ABG ^FED :|2 "Cm"cea "Gm"Bdg | "D7"AG^F "Gm"G3 |]
+%%center Book21/AnThouWertMyOnlyDearJ-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: An' thou wert my only dear
+C:
+R: jig
+B: RSCDS 21-4(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gm
+|: "Gm"GDG BGB | dBd g3 |d2e dcB |1 "D7"ABG ^F=ED :|2 "D7"AG^F "B`Gm"G3 ||
+|: "Gm"gfg "Cm"efg | abg "D7"^fed |1 "Cm"efg "Gm"dcB | "D7"ABG ^FED :|2 "Cm"cea "Gm"Bdg | "D7"AG^F "Gm"G3 |]
+%%center Book21/AnThouWertMyOnlyDearJ_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Braes of Breadalbane 1
+R: strathspey
+B: RSCDS 21-7(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+|: E \
+| "Am"E<A AB c>B Ac | "Am"e2 cA e2 cA \
+| "Am"E<A AB "(F)"c>B Ac | "E7"c>A B>^G "Am"A3 :|
+|: G  \
+| "C"c<c cc "G"d<d dd | "C"e>f ge "G"d>B AG \
+| "C"c<c cc "G/b"d<d dd |1 "Am"e>d c>d "E7"e2z :|2 "E7"e>d c>B "Am"A3 |]
+%%center Book21/BraesOfBreadalbane1_Am-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Braes of Breadalbane 1
+R: strathspey
+B: RSCDS 21-7(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+|: E \
+| "Am"E<A AB c>B Ac | "Am"e2 cA e2 cA \
+| "Am"E<A AB "(F)"c>B Ac | "E7"c>A B>^G "Am"A3 :|
+|: G  \
+| "C"c<c cc "G"d<d dd | "C"e>f ge "G"d>B AG \
+| "C"c<c cc "G/b"d<d dd |1 "Am"e>d c>d "E7"e2z :|2 "E7"e>d c>B "Am"A3 |]
+%%center Book21/BraesOfBreadalbane1_Am_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+T: The Braes of Breadalbane 2
+C: McFadyen
+R: strathspey
+B: RSCDS 21-7(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: C
+G |\
+"C"c>d e>d "F"c>A "C"GE | "C"CG cB/c/ "G7"dD DG |\
+"C"c>d e>d "F"c>A "C"GE | "G7"G,<G, A,>B, "C"C3 :|
+e/f/ |\
+"C"g>a gf/e/ c'g ec | "F"fa/f/ "C"eg/e/ "Dm"d>c "G7"de |\
+"C"g>a gf/e/ c'g ec | "Dm"f>d "G7"e>B "C"c3 |]
+e/f/ |\
+"C"g>a gf/e/ c'g ec | "F"f/a/g/f/ "C"e/g/f/e/ "Dm"d>c "G7"de |\
+"C"G>c e>d "F"c>A "C"GE | "G7"G,<G, A,>B, "C"C3 |]
+%%center Book21/BraesOfBreadalbane2_C-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+T: The Braes of Breadalbane II
+C: McFadyen
+%%staffsep 45
+R: strathspey
+B: RSCDS 21-7(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: C
+|: G \
+| "C"c>d e>d "F"c>A "C"GE | "C"CG cB/c/ "G7"dD DG \
+| "C"c>d e>d "F"c>A "C"GE | "G7"G,<G, A,>B, "C"C2- C :|
+e/f/ \
+| "C"g>a gf/e/ c'g ec | "F"fa/f/ "C"eg/e/ "Dm"d>c "G7"de \
+| "C"g>a gf/e/ c'g ec | "Dm"f>d "G7"e>B "C"[c2E2]- ce |
+| "C"g>a gf/e/ c'g ec | "F"f/a/g/f/ "C"e/g/f/e/ "Dm"d>c "G7"de \
+| "C"G>c e>d "F"c>A "C"GE | "G7"G,<G, A,>B, "C"C2- C |]
+%%center Book21/BraesOfBreadalbane2_C_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Coupar Angus Jigg
+C: Charles Duff
+R: jig
+B: RSCDS 21-9(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+E \
+| "C"CEG GEG | "F"AFA ABc | "C"CEG GEC | "G7"DB,G, G,2E \
+| "C"CEG GEG | "F"AFA ABc | "G7"B>AB GcB | "C"cCC C2 :|
+|| f \
+| "C"e/f/gg gec | "F"f/g/aa abc' | "C"e/f/gg gec | "G7"dBG G2f \
+| "C"e/f/gg gec | "F"f/g/aa abc' | "G7"g>fg gag | "C"c'cc c2 ||
+|| f \
+| "C"e/f/gg gec | "F"f/g/aa abc' | "C"e/f/gg gec | "G7"dBG G2f \
+|  "Em"geg "Dm"fdf | "C"ece "G"dBd | "Am"cBA "C"GEc | "G7"GEC "C"C2 |]
+%%center Book21/CouparAngusJ-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Coupar Angus Jigg
+C: Charles Duff
+R: jig
+B: RSCDS 21-9(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+E \
+| "C"CEG GEG | "F"AFA ABc | "C"CEG GEC | "G7"DB,G, G,2E \
+| "C"CEG GEG | "F"AFA ABc | "G7"B>AB GcB | "C"cCC C2 :|
+|| f \
+| "C"e/f/gg gec | "F"f/g/aa abc' | "C"e/f/gg gec | "G7"dBG G2f \
+| "C"e/f/gg gec | "F"f/g/aa abc' | "G7"g>fg gag | "C"c'cc c2 ||
+|| f \
+| "C"e/f/gg gec | "F"f/g/aa abc' | "C"e/f/gg gec | "G7"dBG G2f \
+|  "Em"geg "Dm"fdf | "C"ece "G"dBd | "Am"cBA "C"GEc | "G7"GEC "C"C2 |]
+%%center Book21/CouparAngusJ_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mr. Hamilton of Pencaitland
+C: McFadyen
+R: strathspey
+B: RSCDS 21-12(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+E/D/ \
+| "C"Cc d/c/B/A/ "Am"A/G/F/E/ [c2E2] | "C"Cc cB/A/ "G7"B>d d>e \
+| "Dm"f>e d>B "G"cB AG | "F"A/B/c/B/ "G7"d/c/B/A/ "C"Gcc :|
+|| e/d/ \
+| "C"c>g e/f/g/a/ gc a/g/f/e/ | "F"fa/g/ "Dm"f/e/d/c/ "G"Bd de/d/ \
+| "C"c>d e>f ge "F"fa | "C"ge "Dm"f/e/d/c/ "C"Gc ce/d/ |
+| "C"cg e/f/g/a/ gc a/g/f/e/ | "F"fa/g/ "Dm"f/e/d/c/ "G"Bd dg/f/ \
+| "C"e>d c>A GE FG | "Dm"A/B/c/B/ "G7"d/c/B/A/ "C"G[cE][cE] |]
+
+%%center Book21/HamiltonofPencaitland-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mr. Hamilton of Pencaitland
+C: McFadyen
+R: strathspey
+B: RSCDS 21-12(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+E/D/ \
+| "C"Cc d/c/B/A/ "Am"A/G/F/E/ [c2E2] | "C"Cc cB/A/ "G7"B>d d>e \
+| "Dm"f>e d>B "G"cB AG | "F"A/B/c/B/ "G7"d/c/B/A/ "C"Gcc :|
+|| e/d/ \
+| "C"c>g e/f/g/a/ gc a/g/f/e/ | "F"fa/g/ "Dm"f/e/d/c/ "G"Bd de/d/ \
+| "C"c>d e>f ge "F"fa | "C"ge "Dm"f/e/d/c/ "C"Gc ce/d/ |
+| "C"cg e/f/g/a/ gc a/g/f/e/ | "F"fa/g/ "Dm"f/e/d/c/ "G"Bd dg/f/ \
+| "C"e>d c>A GE FG | "Dm"A/B/c/B/ "G7"d/c/B/A/ "C"G[cE][cE] |]
+
+%%center Book21/HamiltonofPencaitland_JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Kind Robin
+R: air
+B: RSCDS 21-5(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "from Surenne"
+M: C
+L: 1/8
+K: F
+| "F"F2F2 "Dm"F3A | "Gm"GAGF "Bb"D3 "C7"C | "F"F2F2 "Dm"F3A | "Gm"GFGA "C7"c3d | "F"F2F2 "Dm"f3c |
+| "Gm"BAGF "Bb"D2"C7"CD | "F"F2F2 "Bb"d2"F"cA | "C7"c4 "F"F2z2 || "F"c2dc "Dm"A2fA | "Gm"BAGF "Bb"D3 "C7"C |
+| "F"c2dc "Gm"BA"G7"GF | "C"G2"F"A>c "Bb"d3d | "F"c2de "Dm"f3A | "Gm"BAGF "Bb"D2"C7"CD | "F"F2F2 "Bb"d2"F"cA | "C7"c4 "F"F2z2 |]
+%%center Book21/KindRobin-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Kind Robin
+R: air
+B: RSCDS 21-5(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "from Surenne"
+M: C
+L: 1/8
+K: F
+| "F"F2F2 "Dm"F3A | "Gm"GAGF "Bb"D3 "C7"C | "F"F2F2 "Dm"F3A | "Gm"GFGA "C7"c3d | "F"F2F2 "Dm"f3c |
+| "Gm"BAGF "Bb"D2"C7"CD | "F"F2F2 "Bb"d2"F"cA | "C7"c4 "F"F2z2 || "F"c2dc "Dm"A2fA | "Gm"BAGF "Bb"D3 "C7"C |
+| "F"c2dc "Gm"BA"G7"GF | "C"G2"F"A>c "Bb"d3d | "F"c2de "Dm"f3A | "Gm"BAGF "Bb"D2"C7"CD | "F"F2F2 "Bb"d2"F"cA | "C7"c4 "F"F2z2 |]
+%%center Book21/KindRobin_F_3-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Kind Robin
+R: air
+B: RSCDS 21-5(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "from Surenne"
+M: C
+L: 1/8
+K: F
+| "F"F2F2 "Dm"F3A | "Gm"GAGF "Bb"D3 "C7"C | "F"F2F2 "Dm"F3A | "Gm"GFGA "C7"c3d | "F"F2F2 "Dm"f3c |
+| "Gm"BAGF "Bb"D2"C7"CD | "F"F2F2 "Bb"d2"F"cA | "C7"c4 "F"F2z2 || "F"c2dc "Dm"A2fA | "Gm"BAGF "Bb"D3 "C7"C |
+| "F"c2dc "Gm"BA"G7"GF | "C"G2"F"A>c "Bb"d3d | "F"c2de "Dm"f3A | "Gm"BAGF "Bb"D2"C7"CD | "F"F2F2 "Bb"d2"F"cA | "C7"c4 "F"F2z2 |]
+%%center Book21/KindRobin_F_3_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Kind Robin
+R: air
+B: RSCDS 21-5(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "from Surenne"
+M: C
+L: 1/8
+K: F
+[| "F"F2F2 "Dm"F3A  | "Gm"GAGF "Bb"D3 "C7"C | "F"F2F2 "Dm"F3A      | "Gm"GFGA    "C7"c3d |
+|  "F"F2F2 "Dm"f3c  | "Gm"BAGF "Bb"D2"C7"CD | "F"F2F2 "Bb"d2"F"cA  | "C7"c4      "F"F2z2 |]
+[| "F"c2dc "Dm"A2fA | "Gm"BAGF "Bb"D3 "C7"C | "F"c2dc "Gm"BA"G7"GF | "C"G2"F"A>c "Bb"d3d |
+|  "F"c2de "Dm"f3A  | "Gm"BAGF "Bb"D2"C7"CD | "F"F2F2 "Bb"d2"F"cA  | "C7"c4      "F"F2z2 |]
+%%center Book21/KindRobin_F_4-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Kind Robin
+R: air
+B: RSCDS 21-5(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "from Surenne"
+M: C
+L: 1/8
+K: F
+[| "F"F2F2 "Dm"F3A  | "Gm"GAGF "Bb"D3 "C7"C | "F"F2F2 "Dm"F3A      | "Gm"GFGA    "C7"c3d |
+|  "F"F2F2 "Dm"f3c  | "Gm"BAGF "Bb"D2"C7"CD | "F"F2F2 "Bb"d2"F"cA  | "C7"c4      "F"F2z2 |]
+[| "F"c2dc "Dm"A2fA | "Gm"BAGF "Bb"D3 "C7"C | "F"c2dc "Gm"BA"G7"GF | "C"G2"F"A>c "Bb"d3d |
+|  "F"c2de "Dm"f3A  | "Gm"BAGF "Bb"D2"C7"CD | "F"F2F2 "Bb"d2"F"cA  | "C7"c4      "F"F2z2 |]
+%%center Book21/KindRobin_F_4_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Kind Robin
+R: air
+B: RSCDS 21-5(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "from Surenne"
+M: C
+L: 1/8
+K: F
+| "F"F2F2 "Dm"F3A | "Gm"GAGF "Bb"D3 "C7"C | "F"F2F2 "Dm"F3A | "Gm"GFGA "C7"c3d | "F"F2F2 "Dm"f3c |
+| "Gm"BAGF "Bb"D2"C7"CD | "F"F2F2 "Bb"d2"F"cA | "C7"c4 "F"F2z2 || "F"c2dc "Dm"A2fA | "Gm"BAGF "Bb"D3 "C7"C |
+| "F"c2dc "Gm"BA"G7"GF | "C"G2"F"A>c "Bb"d3d | "F"c2de "Dm"f3A | "Gm"BAGF "Bb"D2"C7"CD | "F"F2F2 "Bb"d2"F"cA | "C7"c4 "F"F2z2 |]
+%%center Book21/KindRobin_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Lea Rig
+R: air
+B: RSCDS 21-5(I)
+Z: John Chambers <jc:trillian.mit.edu>
+N: Compare with The Lollipop Man, a Ducklington morris tune.
+N: "from Surenne"
+M: C
+L: 1/8
+K: A
+[| cB | "A"c2E2 "E"E2F2 | "F#m"A3B A2c2 | "Bm"B3c dcBA | "D"c2F2 "E7"F2cB \
+| "A"c2E2 "E"E2F2 | "F#m"A3B A2ag | "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2 |]
+[| e2 \
+| "D"fe"E"fg "A"a2c2 | "D"dcde f2A2 | "Bm"B3c dcBA | "D"c2F2 "E7"F2cB \
+| "A"c2E2 "E"E2F2 | "F#m"A3B A2ag | "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2 |]
+%%center Book21/LeaRig_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Lea Rig
+R: air
+B: RSCDS 21-5(I)
+Z: John Chambers <jc:trillian.mit.edu>
+N: Compare with The Lollipop Man, a Ducklington morris tune.
+N: "from Surenne"
+M: C
+L: 1/8
+K: A
+[| cB | "A"c2E2 "E"E2F2 | "F#m"A3B A2c2 | "Bm"B3c dcBA | "D"c2F2 "E7"F2cB \
+| "A"c2E2 "E"E2F2 | "F#m"A3B A2ag | "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2 |]
+[| e2 \
+| "D"fe"E"fg "A"a2c2 | "D"dcde f2A2 | "Bm"B3c dcBA | "D"c2F2 "E7"F2cB \
+| "A"c2E2 "E"E2F2 | "F#m"A3B A2ag | "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2 |]
+%%center Book21/LeaRig_2_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Lea Rig
+R: air
+B: RSCDS 21-5(I)
+Z: John Chambers <jc:trillian.mit.edu>
+N: Compare with The Lollipop Man, a Ducklington morris tune.
+N: "from Surenne"
+M: C
+L: 1/8
+K: A
+[| cB | "A"c2E2 "E"E2F2 | "F#m"A3B A2c2 | "Bm"B3c dcBA | "D"c2F2 "E7"F2cB | "A"c2E2 "E"E2F2 |
+| "F#m"A3B A2ag | "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2 || e2 | "D"fe"E"fg "A"a2c2 | "D"dcde f2A2 |
+| "Bm"B3c dcBA | "D"c2F2 "E7"F2cB | "A"c2E2 "E"E2F2 | "F#m"A3B A2ag | "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2 |]
+%%center Book21/LeaRig_3-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Lea Rig
+R: air
+B: RSCDS 21-5(I)
+Z: John Chambers <jc:trillian.mit.edu>
+N: Compare with The Lollipop Man, a Ducklington morris tune.
+N: "from Surenne"
+M: C
+L: 1/8
+K: A
+[| cB | "A"c2E2 "E"E2F2 | "F#m"A3B A2c2 | "Bm"B3c dcBA | "D"c2F2 "E7"F2cB | "A"c2E2 "E"E2F2 |
+| "F#m"A3B A2ag | "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2 || e2 | "D"fe"E"fg "A"a2c2 | "D"dcde f2A2 |
+| "Bm"B3c dcBA | "D"c2F2 "E7"F2cB | "A"c2E2 "E"E2F2 | "F#m"A3B A2ag | "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2 |]
+%%center Book21/LeaRig_3_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Lea Rig
+R: air
+B: RSCDS 21-5(I)
+Z: John Chambers <jc:trillian.mit.edu>
+N: Compare with The Lollipop Man, a Ducklington morris tune.
+N: "from Surenne"
+M: C
+L: 1/8
+K: A
+cB | "A"c2E2    "E"E2F2 | "F#m"A3B A2c2 | "Bm"B3c     dcBA | "D"c2F2   "E7"F2cB |\
+y2 | "A"c2E2    "E"E2F2 | "F#m"A3B A2ag |  "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2   |]
+e2 | "D"fe"E"fg "A"a2c2 |  "D"dcde f2A2 | "Bm"B3c     dcBA | "D"c2F2   "E7"F2cB |\
+y2 | "A"c2E2    "E"E2F2 | "F#m"A3B A2ag |  "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2   |]
+%%center Book21/LeaRig_A_4-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Lea Rig
+R: air
+B: RSCDS 21-5(I)
+Z: John Chambers <jc:trillian.mit.edu>
+N: Compare with The Lollipop Man, a Ducklington morris tune.
+N: "from Surenne"
+M: C
+L: 1/8
+K: A
+cB | "A"c2E2    "E"E2F2 | "F#m"A3B A2c2 | "Bm"B3c     dcBA | "D"c2F2   "E7"F2cB |
+y2 | "A"c2E2    "E"E2F2 | "F#m"A3B A2ag |  "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2   |]
+e2 | "D"fe"E"fg "A"a2c2 |  "D"dcde f2A2 | "Bm"B3c     dcBA | "D"c2F2   "E7"F2cB |
+y2 | "A"c2E2    "E"E2F2 | "F#m"A3B A2ag |  "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2   |]
+%%center Book21/LeaRig_A_4_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21051
+T: The Lea Rig
+R: air
+B: RSCDS 21-5(I)
+Z: John Chambers <jc@trillian.mit.edu>
+N: "from Surenne"
+M: C
+L: 1/8
+%--------------------
+K: A
+[| cB | "A"c2E2 "E"E2F2 | "F#m"A3B A2c2 | "Bm"B3c dcBA | "D"c2F2 "E7"F2cB \
+| "A"c2E2 "E"E2F2 | "F#m"A3B A2ag | "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2 |]
+[| e2 \
+| "D"fe"E"fg "A"a2c2 | "D"dcde f2A2 | "Bm"B3c dcBA | "D"c2F2 "E7"F2cB \
+| "A"c2E2 "E"E2F2 | "F#m"A3B A2ag | "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2 |]
+%%center Book21/Lea_Rig-2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21051
+T: The Lea Rig
+R: air
+B: RSCDS 21-5(I)
+Z: John Chambers <jc@trillian.mit.edu>
+N: "from Surenne"
+M: C
+L: 1/8
+%--------------------
+K: A
+[| cB | "A"c2E2 "E"E2F2 | "F#m"A3B A2c2 | "Bm"B3c dcBA | "D"c2F2 "E7"F2cB | "A"c2E2 "E"E2F2 |
+| "F#m"A3B A2ag | "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2 || e2 | "D"fe"E"fg "A"a2c2 | "D"dcde f2A2 |
+| "Bm"B3c dcBA | "D"c2F2 "E7"F2cB | "A"c2E2 "E"E2F2 | "F#m"A3B A2ag | "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2 |]
+%%center Book21/Lea_Rig-3-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+P: The Lea Rig
+C: arr. T. Traub 10-2002
+R: Reel
+M: 4/4
+K: A
+L: 1/8
+cB|"A"c2 E2 "E7"E2 F2|"A"A3 B A2 c2|"Bm"B3 c dcBA|"F#m"c2 F2 "D"F2 "E"cB|"A"c2 E2 "E"E2 F2 |
+"A"A3 B "F#m"A2 ag|"D"f3 e "E"fgae|"A"c2 "D"A2 "A"A2 e2||"D"fefg "A"a2 c2|"Bm"dcde "A"f2 A2|
+"Bm"B3 c dcBA|"F#m"c2 F2 "D" F2 "E"cB|"A"c2 E2 "E"E2 F2 |"A"A3 B "F#m"A2 ag|"D"f3 e "E"fgae|"A"c2 "D"A2 "A"A2 |]
+%%center Book21/Lea_Rig-3-TT.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21051
+T: The Lea Rig
+R: air
+B: RSCDS 21-5(I)
+Z: John Chambers <jc:trillian.mit.edu>
+N: Compare with The Lollipop Man, a Ducklington morris tune.
+N: "from Surenne"
+M: C
+L: 1/8
+%--------------------
+K: A
+cB | "A"c2E2    "E"E2F2 | "F#m"A3B A2c2 | "Bm"B3c     dcBA | "D"c2F2   "E7"F2cB |
+y2 | "A"c2E2    "E"E2F2 | "F#m"A3B A2ag |  "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2   |]
+e2 | "D"fe"E"fg "A"a2c2 |  "D"dcde f2A2 | "Bm"B3c     dcBA | "D"c2F2   "E7"F2cB |
+y2 | "A"c2E2    "E"E2F2 | "F#m"A3B A2ag |  "D"f3e "E7"fgae | "A"c2"D"A2 "A"A2   |]
+%%center Book21/Lea_Rig-4-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Loch Leven Castle
+R: reel
+O: RSCDS 21-3(I)
+B: RSCDS 21-3(I)
+S: printed page from the BSFC in Concord Slow Scottish Session collection
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Most other sources don't have the g's sharped.
+M: C|
+L: 1/8
+K: Ador
+cB \
+| "Am"A2AB AGEG | "Am"AGAB cBcd \
+| "C"efga gede | "C"c2G2 "E(m)"G2cB \
+| "Am"A2AB AGEG | "Am"AGAB cBcd |
+| "Am"eaga "E(m)"gede | "Am"c2A2 A2 :| \
+eg \
+| "Am"a2ab ageg | "Am"a^gab a2=ge \
+| "G"dega gede | "C"c2G2 "Em"G2eg |
+| "Am"a2ab ageg | "Am"a^gab a2=ge \
+| "G"dega "E(m)"gede | "Am"c2A2 A2eg \
+|]| "Am"a2ab "Em"ageg | "Am"a^gab "D7"a=gef |
+| "G"gfga "Em"gede | "C"c2G2 "E(m)"G2cB \
+| "Am"A2AB AGEG | "Am"AGAB cBcd \
+| "Am"ea"(#)"ga "E(m)"gede | "Am"c2A2 A2 |]
+%%center Book21/LochLevenCastleR-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Loch Leven Castle
+R: reel
+O: RSCDS 21-3(I)
+B: RSCDS 21-3(I)
+S: printed page from the BSFC in Concord Slow Scottish Session collection
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Most other sources don't have the g's sharped.
+M: C|
+L: 1/8
+K: Ador
+cB \
+| "Am"A2AB AGEG | "Am"AGAB cBcd \
+| "C"efga gede | "C"c2G2 "E(m)"G2cB \
+| "Am"A2AB AGEG | "Am"AGAB cBcd |
+| "Am"eaga "E(m)"gede | "Am"c2A2 A2 :| \
+eg \
+| "Am"a2ab ageg | "Am"a^gab a2=ge \
+| "G"dega gede | "C"c2G2 "Em"G2eg |
+| "Am"a2ab ageg | "Am"a^gab a2=ge \
+| "G"dega "E(m)"gede | "Am"c2A2 A2eg \
+|]| "Am"a2ab "Em"ageg | "Am"a^gab "D7"a=gef |
+| "G"gfga "Em"gede | "C"c2G2 "E(m)"G2cB \
+| "Am"A2AB AGEG | "Am"AGAB cBcd \
+| "Am"ea"(#)"ga "E(m)"gede | "Am"c2A2 A2 |]
+%%center Book21/LochLevenCastleR_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mrs. Lumsden of Achindores
+C: Marshall
+R: strathspey
+B: RSCDS 21-12(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: RSCDS has this tune in Eb.
+M: C
+L: 1/8
+K: G
+|: [fd] \
+| "G"[g2B2] d>B G>d B<G | "Am"E<A AB cB/A/ "D7"FE/D/ \
+| "G"g2 d>B G>d B>G | "Am"EA "D7"FE/D/ "G"[G2B,2] G :|
+|: d/e/f \
+| "G"[gB]<g gb "Am"e>a "D7"fd | "G"g<g gb d<g BG \
+| "Am"c<e "G"B<d "Am"E<A "D7"F<D | "Am"E>A "D7"FE/D/ "G"[G2B,2] [GB,] :|
+%%center Book21/LumsdenOfAchindores-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mrs. Lumsden of Achindores
+C: Marshall
+R: strathspey
+B: RSCDS 21-12(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: RSCDS has this tune in Eb.
+M: C
+L: 1/8
+K: G
+|: [fd] \
+| "G"[g2B2] d>B G>d B<G | "Am"E<A AB cB/A/ "D7"FE/D/ \
+| "G"g2 d>B G>d B>G | "Am"EA "D7"FE/D/ "G"[G2B,2] G :|
+|: d/e/f \
+| "G"[gB]<g gb "Am"e>a "D7"fd | "G"g<g gb d<g BG \
+| "Am"c<e "G"B<d "Am"E<A "D7"F<D | "Am"E>A "D7"FE/D/ "G"[G2B,2] [GB,] :|
+%%center Book21/LumsdenOfAchindores_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Muirland Willie
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: RSCDS 21-9(I)
+N: from Surenne
+M: 6/8
+L: 1/8
+K: Em
+   B \
+| "Em"E2F G2A | "G"B2c d2B |       G2G      d2B   | "D"AFA  D2F \
+| "Em"E2F G2A |    BcB g2f | "(Am)"e>dc "B7"B^c^d | "Em"e3- e2 :|
+|: B \
+| "Em"e2f  g2e  | "G"d2B d2B |       G>AG     d2B   | "D"AFA  D2^D \
+| "Em"E>FE G>AG |   B>cB g2f | "(Am)"e>dc "B7"B^c^d | "Em"e3- e2 :|
+%%center Book21/MuirlandWillieJ_Em-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Muirland Willie
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: RSCDS 21-9(I)
+N: from Surenne
+M: 6/8
+L: 1/8
+K: Em
+   B \
+| "Em"E2F G2A | "G"B2c d2B |       G2G      d2B   | "D"AFA  D2F \
+| "Em"E2F G2A |    BcB g2f | "(Am)"e>dc "B7"B^c^d | "Em"e3- e2 :|
+|: B \
+| "Em"e2f  g2e  | "G"d2B d2B |       G>AG     d2B   | "D"AFA  D2^D \
+| "Em"E>FE G>AG |   B>cB g2f | "(Am)"e>dc "B7"B^c^d | "Em"e3- e2 :|
+%%center Book21/MuirlandWillieJ_Em_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: My Daddy Oh!
+C:
+R: jig
+B: RSCDS 21-4(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|| d \
+| "G"BAB G2g | d2B Bcd | "C"e2c "G"d2B | "Am"cBc "D7"Adc |
+| "G"BAB G2g | d2B Bcd | "C"e2e "Am"a2a | "D7"fef "G"g2 ||
+|| G \
+| "G"Bcd d2g | "C"e2c "G"d2B | "Am"c2a "G"B2g | "Am"A2B "D7"cBA |
+| "G"GAG "Em"B2G | "G"dBd "C"gfe | "G"dcB "D7"Agf | "G"g3- g2 |]
+%%center Book21/MyDaddyOh-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: My Daddy Oh!
+C:
+R: jig
+B: RSCDS 21-4(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|| d \
+| "G"BAB G2g | d2B Bcd | "C"e2c "G"d2B | "Am"cBc "D7"Adc |
+| "G"BAB G2g | d2B Bcd | "C"e2e "Am"a2a | "D7"fef "G"g2 ||
+|| G \
+| "G"Bcd d2g | "C"e2c "G"d2B | "Am"c2a "G"B2g | "Am"A2B "D7"cBA |
+| "G"GAG "Em"B2G | "G"dBd "C"gfe | "G"dcB "D7"Agf | "G"g3- g2 |]
+%%center Book21/MyDaddyOh_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Thomas and Sally
+R: reel
+O: RSCDS 21-3(II)
+B: RSCDS 21-3(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+|: "C"c2 e/f/g e2dc | "Dm"d/e/f Ad "G7"B2AG \
+| "C"c2 Ge "Dm"d2Af | "C"egfe "G7"[d4B4] |
+| "C"c2 e/f/g e2dc | "Dm"d/e/f Ad "G7"B2AG \
+| "C"c2 Ge "Dm"d2Af | "C"e/f/g "G7"FB "C"[c2E2] C2 :|
+|: "C"G2EG cGec | "G7"dBAG F/G/A DB \
+| "C"c2dB c2ec | "D7"B/c/d D^F "G"G2G,2 |
+| "C"c2 e/f/g e2dc | "Dm"d/e/f Ad "G7"B2AG \
+| "C"c2 Ge "Dm"d2Af | "C"e/f/g "G7"FB "C"[c2E2] C2 :|
+
+%%center Book21/ThomasAndSally-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Thomas and Sally
+R: reel
+O: RSCDS 21-3(II)
+B: RSCDS 21-3(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+|: "C"c2 e/f/g e2dc | "Dm"d/e/f Ad "G7"B2AG \
+| "C"c2 Ge "Dm"d2Af | "C"egfe "G7"[d4B4] |
+| "C"c2 e/f/g e2dc | "Dm"d/e/f Ad "G7"B2AG \
+| "C"c2 Ge "Dm"d2Af | "C"e/f/g "G7"FB "C"[c2E2] C2 :|
+|: "C"G2EG cGec | "G7"dBAG F/G/A DB \
+| "C"c2dB c2ec | "D7"B/c/d D^F "G"G2G,2 |
+| "C"c2 e/f/g e2dc | "Dm"d/e/f Ad "G7"B2AG \
+| "C"c2 Ge "Dm"d2Af | "C"e/f/g "G7"FB "C"[c2E2] C2 :|
+
+%%center Book21/ThomasAndSally_JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Wind That Shakes the Barley
+R: reel
+O: c.1800
+N: May be an Irish variant of Largo's Fairy Dance Reel (Nathaniel Gow 1809)
+B: Henry Robson's "The Northern Minstrel's Budget", c.1800
+B: Joshua Gibbons (Lincolnshire) private MS c.1825
+B: Surenne (Dance Music of Scotland), 1852; pg. 41
+B: Stewart-Robertson (The Athole Collection), 1884; pg. 89
+B: MacDonald (The Skye Collection), 1887; pg. 35
+B: RSCDS 21-8(II) (in A)
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: "D"A2AB AFED | "G"B2BA B2d2 | "D"A2AB AFED |1 "G"gfed "A7"B2d2 :|2 "G"gfed "A7"Bcde |]
+|: "D"f2fd "G"g2ge | "D"f2fd "A7"ecBA |1 "D"f2fd "G"g2ge | "D"afed "A7"Bcde :|2 "D"defg "Bm"afba | "Em"gfed "A7"BcdB |]
+%%center Book21/WindThatShakesTheBarley-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Wind That Shakes the Barley
+R: reel
+O: c.1800
+N: May be an Irish variant of Largo's Fairy Dance Reel (Nathaniel Gow 1809)
+B: Henry Robson's "The Northern Minstrel's Budget", c.1800
+B: Joshua Gibbons (Lincolnshire) private MS c.1825
+B: Surenne (Dance Music of Scotland), 1852; pg. 41
+B: Stewart-Robertson (The Athole Collection), 1884; pg. 89
+B: MacDonald (The Skye Collection), 1887; pg. 35
+B: RSCDS 21-8(II) (in A)
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: "D"A2AB AFED | "G"B2BA B2d2 | "D"A2AB AFED |1 "G"gfed "A7"B2d2 :|2 "G"gfed "A7"Bcde |]
+|: "D"f2fd "G"g2ge | "D"f2fd "A7"ecBA |1 "D"f2fd "G"g2ge | "D"afed "A7"Bcde :|2 "D"defg "Bm"afba | "Em"gfed "A7"BcdB |]
+%%center Book21/WindThatShakesTheBarley_JC.abc

@@ -1,0 +1,27 @@
+X: 4121
+T: Thro' the wood Laddie.   Original Set.
+%R: air, waltz
+N: This is version 1, for ABC software that doesn't understand voice overlays or diminuendo symbols.
+B: Niel Gow & Sons "Complete Repository" v.4 p.12 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: What does that "Smora" mean in bar 8 of the 2nd strain?
+M: 3/4
+L: 1/8
+Q: "VERY SLOW"
+K: F
+% - - - - - - - - - -
+V: 1 staves=2
+F>C | D2 F>G (TG3/F//)G// | A4fc | d2(fd)(cA) | ([A2F2][G2E2]) T[FC2]G | [AC]>G(AB)AG | (BA)(G>F)[FC2]G |
+A>G(AB)AG | (BA) {A}G>F ~F>C | D2 F>G (TG3/F//G//) | A4 Tf>g | {fg}a>gfdcA | G>FGABc |
+d2(fd)(cA) | c>d(cA)(GB) | A2"_dim."D>E (TE3/D//E//) | [F4A,4] :: f>c | d2 f>g (Tg3/f//g//) |
+a4fg | a2(ba)(gf) | ([a2f2][g2e2]) !p!Tf>g | a>g(ab)(ag) | (ba)(gf) Tf>g |
+a>g(ab)(ag) | (b>a)(gf) ~Hf>c | d2f>g (Tg3/f//g//) | a4f>g | a>g.f.d.c.A |
+~G3 ABc | f2(fd)(cA) | ~c>d(cA)(GB) | "_dim."A2D2 (TE3/D//E//) | [F4A,4] :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+[a2f2] | [b2f2][a2f2][c'2g2e2] | f2F2A2 | B3baf | c'cc'bag | f3gfc | (ef)(ba)ae |
+f3gfc | ef b>a [a2f2] | [b2f2][a2f2][c'2g2e2] | f2F2a>c' | f'>e' d'baf | e3 fga |
+b3 baf | ab af [c'2e2] | f2"_dim."B2c2 | F2f2 :: [f'2a2] | [f'2b2][f'2a2][c'2g2e2] |
+F2f2ac' | f'2g'f'e'd' | c'2c2 [K:F clef=treble] !p!A>c | f>c(eg)(fe) | (gf)(cA) A>c |
+f>c(fg)(fe) | "^Smora"g>fcA HA>[K:F clef=bass middle=d]a | b2a2[c'2g2e2] | f2F2a>c' | f'>e'd'baf |
+e2cfga | b2(d'b)(af) | a>baf[c'2e2] | "_dim."f2B2cC | F2f2 :|

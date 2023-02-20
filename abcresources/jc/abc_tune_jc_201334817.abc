@@ -1,0 +1,19 @@
+X: 1
+T: the Scotchman in America
+O: Kerr's Second
+R: Highland Scottische
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: Printed MS from Tom Pixton for the dance Mrs Hay of Angus
+M: C|
+L: 1/8
+K: G
+(3DEF \
+| "G"G2 G>A B<d b>a | "C"g<e e>g "G"d<B B>d \
+| "Am"e>c A>c "G"d>B G>B | "A7"A>G F>E "D7"TD>C B,>A, |
+| "G"G,2 G>A B<d b>a | "C"g<e e>g "G"d<B B>d \
+| "Am"e>c A>c "G"d>B G>B | "D7"A>D E>F "G"G2 |]
+(3FGA \
+| "G"B<d d>e "G7"d>B A>G | "C"c<e e>d e>f g>e \
+| "G"B<d d>e "Em"d>B G>B | "A7"A>G F>E "D7"D2 (3FGA |
+| "G"B<d d>e "G7"d>B A>G | "C"c<e e>d e>f g>e \
+| "G"B<d d>e "Em"d>B G>B | "A7"B<A "D7"TG>F "G"G2 |]

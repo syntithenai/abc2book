@@ -1,0 +1,28 @@
+X: 2101
+T: Watson's Class    Strathspey
+%R: strathspey, air
+N: This is version 1, for ABC software that doesn't understand trailing grace notes.
+N: This is version 2, for ABC software that understands trailing grace notes.
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.10 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "Slow"
+K: Em
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+GF |\
+E2TB2G2B2 E2B2 {B}e3c | ~d3B (Ad)AG (GF)ED D2GF |\
+E2B2G2TB2 E2B2 e3b | (ag)fe (gf)e^d e2E2E2 :|
+Tgf |\
+e3f {ef}g2e2 (gab)g e3f | Td3fa2d2 (fga)f d2f2 |\
+e3fg2e2 (gab)g e2a2 | (gab)g (fga)f Tg2e2e2TB2{AB} ||
+e3fg2e2 (gab)g e2f2 | Td3fa2d2 (fga)f d2a2 |\
+.g.a.b.g .f.g.a.f .e.f.g.e .d.e.f.d | .B.c.d.B .e.c..d.F G2E2E2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | e4e4 e4e4 | f4g4 d'4d4 | e4 e4 e4e4 | b4B4 e4e2 :|
+z2 | e4e4 e4e4 | d4d4 d4d4 | e4e4 e4e4 | b4B4 e4E4 || e4e4 e4e4 |
+d4d4 d4d4 | e4f4 g4a4 | b6B2 e4e2 |]

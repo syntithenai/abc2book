@@ -1,0 +1,79 @@
+
+X: 1
+T: New Tambourine    [C]
+O: Walsh 1748
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+G |\
+"F"A/B/c "C"cB "F"A2 "C"G2 | "F"AG "G7"AB "C"c/B/c/d/ cG |\
+"F"A/B/c "C"cB "F"A2 "C"G2 | "F"AG"G7"AB "C"c3 :|
+|: c |\
+"C"e/f/g "G7"gf "C"e2 "G"d2 | "C"g2 "(G7)"g/a/g/f/ "C"e2 "G"d2 "I"|\
+"C"e/f/g "G7"gf "C"e2 "G7"d/e/f | "Am"ec"G7"GB "C"c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z | f2  ec fF  ec | fefd  c2  ec | f2  ec fF  ec | fefd  c3 :|
+|: z | c'2 bg c'c bg | ec zg c'c bg | c'2 bg c'c bg | c'agG c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% All four fall back and forward again and turn single, Men change Places with the Wo. .|
+%% 1st Man change with 2d Wo. 2d Man with the 1st Wo. :|
+%% 1st Cu. being in 2d Cu. Place Jigg it up. All four Lead to the Wall, back again .|
+%% 1st Cu. go the half figure thro' 2d Cu. turn hands with your Partner, and jump and cast off :|
+%%endtext
+
+%%sep 1 1 500
+
+X: 2
+T: New Tambourine    (G)
+O: Walsh 1748
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+"C"E/F/G "G"GF "C"E2 "G"D2 | "C"ED "D7"EF "G"G/F/G/A/ GD |\
+"C"E/F/G "G"GF "C"E2 "G"D2 | "C"ED"D7"EF "G"G3 :|
+|: G |\
+"G"B/c/d "D7"dc "G"B2 "D"A2 | "G"d2 "(D7)"d/e/d/c/ "G"B2 "D"A2 "I"|\
+"G"B/c/d "D7"dc "G"B2 "D7"A/B/c | "Em"BG"D7"DF "G"G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %begintext align
+% % All four fall back and forward again and turn single, Men change Places with the Wo. .|
+% % 1st Man change with 2d Wo. 2d Man with the 1st Wo. :|
+% % 1st Cu. being in 2d Cu. Place Jigg it up. All four Lead to the Wall, back again .|
+% % 1st Cu. go the half figure thro' 2d Cu. turn hands with your Partner, and jump and cast off :|
+% %endtext
+
+%%sep 1 1 500
+
+X: 2
+T: New Tambourine    (D)
+O: Walsh 1748
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+"G"B/c/d "D"dc "G"B2 "D"A2 | "G"BA "A7"Bc "D"d/c/d/e/ dA |\
+"G"B/c/d "D"dc "G"B2 "D"A2 | "G"BA"A7"Bc "D"d3 :|
+|: d |\
+"D"f/g/a "A7"ag "D"f2 "A"e2 | "D"a2 "(A7)"a/b/a/g/ "D"f2 "A"e2 "I"|\
+"D"f/g/a "A7"ag "D"f2 "A7"e/f/g | "Bm"fd"A7"Ac "D"d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %begintext align
+% % All four fall back and forward again and turn single, Men change Places with the Wo. .|
+% % 1st Man change with 2d Wo. 2d Man with the 1st Wo. :|
+% % 1st Cu. being in 2d Cu. Place Jigg it up. All four Lead to the Wall, back again .|
+% % 1st Cu. go the half figure thro' 2d Cu. turn hands with your Partner, and jump and cast off :|
+% %endtext

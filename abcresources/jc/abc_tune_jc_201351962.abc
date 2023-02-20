@@ -1,0 +1,41 @@
+
+X: 1
+T: Where's the Red Chook?  [A]
+C: Ross Smithard
+N: Ross Smithard is an Australian Fiddler.
+N: "Chook" is Australian for chicken.
+F: http://www.youtube.com/watch?v=nVMnuv-YMr4
+F: http://info.therealschoolofmusic.com/traditional-music-project/wheres-the-red-chook-/
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+cd |\
+"A"e2cd e2cd | "A"eaed cBA2 | "A"EFA2 A3B | "E7"c2B2- B2cd |
+"A"e2cd e2cd | "A"eaed cBA2 | "A"EFA2 "(E7)"A3c | "A"B2A4 :|
+|: A2 |\
+"E7"B4 B2AB | "A"c2B2 A2cc | "D"d4 "(E7)"dcB2 | "A"c4 cBA2 |
+"E7"B4 B2AB | "A"c2B2 A2cc | "D"dcBA "E7"GFA2 | "A"A4- A2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2
+T: Where's the Red Chook?  (D)
+C: Ross Smithard
+N: Ross Smithard is an Australian Fiddler.
+N: "Chook" is Australian for chicken.
+F: http://www.youtube.com/watch?v=nVMnuv-YMr4
+F: http://info.therealschoolofmusic.com/traditional-music-project/wheres-the-red-chook-/
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+FG |\
+"D"A2FG A2FG | "D"AdAG FED2 | "D"A,B,D2 D3E | "A7"F2E2- E2FG |
+"D"A2FG A2FG | "D"AdAG FED2 | "D"A,B,D2 "(A7)"D3F | "D"E2D4 :|
+|: D2 |\
+"A7"E4 E2DE | "D"F2E2 D2FF | "G"G4 "(A7)"GFE2 | "D"F4 FED2 |
+"A7"E4 E2DE | "D"F2E2 D2FF | "G"GFED "A7"CB,D2 | "D"D4- D2 :|

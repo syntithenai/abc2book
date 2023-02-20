@@ -1,0 +1,36 @@
+X: 10773
+T: COTILLION No. 5. tune 5
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.77 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+D2F F2A | dcB A2A | BAG FEF | EDE F2D |\
+D2F F2A | dcB A2b | fef d>(ef/g/) | bge d2 H|]
+A |\
+ABG {G}FEF | {F}EDE F2A | ABG FEF | EDE D2A |\
+ABG FEF | EDE F2A | ABG FEF | EDE D2 |]
+(c/d/) |\
+eee eee | e>(f^g/a/) e2e | e>(f^g/a/) efd | cdB c2d |\
+e>(f^g/a/) e2e | e>(f^g/a/) e2e | e>(f^g/a/) efd | cdB "^D.C."A2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple promenade round,
+%% the other couples do the same in rotation,
+%% and form lines lengthwise the hall,
+%% 1st couple balance,
+%% chassa down ten steps,
+%% balance again and chassa down,
+%% other couples the same,
+%% till you have all balanced through, &c.
+%% come to your places again,
+%% all balance,
+%% and swing partners to places.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

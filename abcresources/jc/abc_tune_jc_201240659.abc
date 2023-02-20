@@ -1,0 +1,27 @@
+X: 4052
+T: the Countess of Dalkeith's    Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.5 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Bb
+% - - - - - - - - - -
+V: 1 staves=2
+F2 |\
+TB3cB2d2 F2B2 (GF)ED | B2F2(Bcd2) c2C2C3c |\
+TB3cB2d2 F2B2 (GF).E.D | Eg3 Tf3e d2B2B2F2 ||\
+TB3cB2d2 F2B2 (GF)ED |
+B2F2 (Bcd2) c2C2C3c |\
+TB3cB2d2 F2B2 (GF).E.D | Eg3 Tf3e d2B2B2 |[| f2 |\
+d2f2 (ed).c.B b3Beg3 | f3B (ed)cB A2c2-c2de |\
+.f2.B2.d2.B2 g2B2e2g2 |
+F3B {d}c2Bc d2B2B2de ||\
+f3g/a/ b3B g3Bf3B | e3c (ed).c.B A2c2-c3d |\
+TB3FGB3 F3B (GF).E.D | Eg3 Tf3e d2B2B2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | B4B4 B4B4 | d4B4 F4F4 | B4B4 B4B4 | e4f4 B4B4 || B4B4 B4B4 |
+d4 B4 F4 F4 | B4B4 B4B4 | e4 f4 B4 B2 |[| z2 | b4b4 b4e4 | d4B4 f4F4 | B4B4 e4e4 |
+f4F4 B4B4 || B4d4 e4d4 | c4B4 F4F4 | d4e4 d4B4 | e4f4 B4B2 |]

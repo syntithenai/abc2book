@@ -1,0 +1,27 @@
+X: 2342
+T: the Rocks of Cashel.   a Strathspey.
+O: Irish
+%R: strathspey, air
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+N: Bars 1,2 of the 2nd strain have large circles in the middle that look like long A notes;
+N: see the ABC2 version, which includes those drone notes as voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.2 p.34 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D	% ending on Em
+% - - - - - - - - - -
+V: 1 staves=2
+F |\
+D>FAB (B/A/).G/.F/ A2 | D>FA>F GETE>F | D>FA>B {B}AG/F/ A>c | {c}d>B AF GEE :: F | DF d>f (f/e/).d/.c/ d2 |
+DA d>f Te>de<f | (DA) dg (f/e/).d/.c/ d2 | d>B AF GEE :: !p!F | ((3DEF (3~FEF) ((3~FEF (3~FEF) | ((3DEF) ((3~FEF) GEEF |
+((3DEF) ((3~FEF) FABc | {Bc}d>B AF GEE :: !f!F/E/ | DA df (f/e/d/c/) d2 | DA df ge~e>f | DA df f/e/d/c/ {c}d2- | d>B AF GEE :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d2d2 d2d2 | d2d2 e2e2 | d2d2 d2d2 | d2d2 e2e :: z | d2d2 A2d2 |
+d2d2 e2e2 | e2e2 A2d2 | d2d2 e2e :: !p!z |\
+[d2D2][d2D2] [d2D2][d2D2] | [d2D2][d2D2] [e2E2][e2E2] |
+[d2D2][d2D2] [d2D2][d2D2] | [d2D2][d2D2] [e2E2][eE] :: !f!z |\
+[d2D2][d2D2] [a2A2][d2D2] | [d2D2][d2D2] [e2E2][e2E2] |\
+[d2D2][d2D2] [a2A2][d2D2] | [d2D2][d2D2] [e2E2][eE] :|

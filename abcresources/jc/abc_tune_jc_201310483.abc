@@ -1,0 +1,24 @@
+X: 1
+T: Miss Lyall's Reel  #1
+T: Panmure House
+O: trad Scotland
+L: 1/8
+M: 4/4
+R: reel
+N: Usually a strathspey, but occasionally heard as a reel.
+N: There are Irish variants of this tune under several names, usually as a reel.
+S: Paddledoo
+S: Pinewoods Collection
+K: ADorian
+cB \
+| "Am"AA,A,B, CDEF | "G"G2BA G2cB \
+| "Am"AA,A,B, CDEA | "E7"cAB^G "Am"A2 ||
+cB \
+| "Am"AA,A,B, CDEF | "G"G2BA G2cd \
+| "C"ec"G"dB "Am"cA"G"BG | "E7"EAcB"Am"A2 |]
+cB \
+| "Am"Aaab "G"g2fg | "Am"eaaf "G"g2fg \
+| "Am"eaab "G"g2fg | "E7"ecdB "Am"A2 ||
+cB \
+| "Am"Aaab "G"g2fg | "Am"eaaf "G"g2fg \
+| "Am"afge "G"dB=Gd | "E7"ecdB "Am"A2 |]

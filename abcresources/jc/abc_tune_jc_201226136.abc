@@ -1,0 +1,29 @@
+X: 1010
+T: Lady Tersichens Rant
+T: Lady Terfichens Rant
+N: It's not clear whether that's an f or a short s; both spellings are used in various dance lists.
+R: reel
+P: Longways for as many as will.
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 is reformatted as 4-bar lines/staffs.
+V: 1
+|: EEGE A/A/A AB | EGGB c/c/c ce | dB gB A/A/A AB | EcBA G2D2 :|
+|: gdge agab | gadf g2d2 | gdge agab | gadf g2 (g/a/b) |
+   gegB A/A/A AB | EGGB c/c/c ce | dBgB A/A/A AB | EcBA G2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|: e2e2 a2a2 | e2e2 a2a2 | g2g2 d2d2 | e2e2 d4 :| g2G2
+d2D2 | BcdD G4 | g2G2 d'2B2 | bc'd'd g2G2 | g2G2 d2D2 |
+e2E2 a2A2 | g2G2 d2D2 | e2e2 d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+Foot it cross - ways, first Cu. cross over two Cu. lead up to the top and foot a little, case off
+one Cu. foot it and Back to Back, and right hands and left with the uppermost Cu.
+%%endtext

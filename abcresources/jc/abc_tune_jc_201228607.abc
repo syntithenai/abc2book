@@ -1,0 +1,30 @@
+X: 11414
+T: the WINTER OF LIFE
+Q: "Slow and espressive.abc
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.141 #4
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Should the grace note in bar 3 be f rather than e?
+M: 3/4
+L: 1/16
+K: A
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E2 |\
+E3F A4 z2c2 | {c}B3A B4 (c2d2) |\
+{e}e3d c4 (B3c) | A4 z4 z2E2 |\
+E3F A4 z2c2 | {c}B3A B4 (c2d2) |\
+(ef)(ed) c4 (B3c) | A8 z2 :|
+|: e2 |\
+e3d (d2B2) (c2d2) | (e4 c4) (d2e2) |\
+f3e {e}d4 c4 | (c4 B2)z2 z2E2 |\
+E3F A4 z2c2 | {c}B3A B4 (c2d2) |\
+(ef)(ed) c4 (B3c) | A8 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Burns' song, "But lately seen in gladsome green,"
+%% is set to the above melody.
+%%endtext
+%%sep 1 1 300

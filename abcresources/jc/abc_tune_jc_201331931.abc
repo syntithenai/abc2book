@@ -1,0 +1,32 @@
+X:1
+T: Round about our Coal Fire
+N:
+C:
+S:Tune is "Old Simon the King"
+A:
+O:
+R:
+M:9/8
+K:C
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 32 notes)
+K:C
+M:9/8
+L:1/16
+G2 |A3 B c2 c3 d c2 c4 G2 A3 B c2 c3 B A2 B4 B2 c2 A2 A2 A3 G F2 A3 B c2 d4 c2 B4 A2 G4 G2 |
+% voice 2 (1 lines, 0 notes)
+K:C
+M:9/8
+L:1/16
+%W: A2
+% voice 1 (1 lines, 31 notes)
+A3 B c2 c3 d c2 c4 G2 A3 B c2 c3 B A2 B4 B2 c2 A2 A2 A3 G F2 A3 B c2 d4 c2 B4 A2 G4 a2 |
+%W: B1
+% voice 1 (1 lines, 28 notes)
+3r 1r 2r 3r 1r 2r 4r 2r 3r 1r 2r 3r 1r 2r 4r 2r 2r 2r 2r 3r 1r 2r 3r 1r 2r 4r 2r 4r 2r 4r 2r|g4 f2 e4 d2 c4 a2 g2 e2 c2 c3 d e2 f4 e2 f4 A2 A3 G F2 A3 B c2 d4 c2 B4 A2 G4 a2 |
+3r 1r 2r 3r 1r 2r 4r 2r 3r 1r 2r 3r 1r 2r 4r 2r 2r 2r 2r 3r 1r 2r 3r 1r 2r 4r 2r 4r 2r 4r 2r|
+%W: B2
+% voice 1 (1 lines, 27 notes)
+4r 2r 4r 2r 4r 2r 2r 2r 2r 3r 1r 2r 4r 2r 4r 2r 3r 1r 2r 3r 1r 2r 4r 2r 4r 2r 4r 2r|g4 f2 e4 d2 c4 a2 g2 e2 c2 c3 d e2 f4 e2 f4 A2 A3 G F2 A3 B c2 d4 c2 B4 A2 G4 ||
+4r 2r 4r 2r 4r 2r 2r 2r 2r 3r 1r 2r 4r 2r 4r 2r 3r 1r 2r 3r 1r 2r 4r 2r 4r 2r 4r 2r|

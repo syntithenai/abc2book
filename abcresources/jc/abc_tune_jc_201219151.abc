@@ -1,0 +1,20 @@
+X: 02101
+T: PLANXTY JACK O'CONNOR
+C: Bob McQuillen Feb'76
+B: Bob's Note Book 1&2 #101
+N: The name "JACK" in the title is underlined.
+%R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G	% and D
+A \
+| ABA ABA | GBd dBd | efg gde | dBG AGA |\
+| ABA ABA | GBd dBd | efg gdB | AGF G2 :|
+K: D
+|: e \
+| faa fab | afd ede | faa fab | afd e2d |\
+| faa fab | afd ede | faf ede | fdd d2 :|
+%%begintext align
+%% for a friend of many years.
+%%endtext

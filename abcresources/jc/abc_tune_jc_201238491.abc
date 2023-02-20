@@ -1,0 +1,30 @@
+X: 30891
+T: COTILLION No. 6. BLACK HAWK SETT tune 4
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.89 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Rhythm mismatch between strains 1,3 fixed with added rest "pickup" to strain 3.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+g |\
+(dB).g (dB).g | (ec).g (ec).a | (gf)e def | gbg d2g |\
+(dB).g (dB).g | (ec).g (ec).a | gfe def | g2b g2 H|]
+B |\
+d3 B2c | (ed).d dBG | FAc (ed).c | (^AB).B B3 |\
+d3 B2c | (ed).d dBG | FA.c (ed).F | AGG "^D.C."G2 |]
+K: Gm
+z |\
+B2G B2d | A2F A2c | =Bdg bag | ^fa=f d2c |\
+B2G B2d | A2F A2e | dc=B c_BA | GDB, "^D.C."G,2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies forward and back,
+%% gentlemen the same,
+%% grand chain,
+%% promenade 8.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

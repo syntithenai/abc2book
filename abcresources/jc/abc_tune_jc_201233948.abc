@@ -1,0 +1,50 @@
+X: 20181
+T: Burlesque on Black Joak
+%R: air, waltz, jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.18-19
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"G2 |\
+(D2E2)G2 | G3AG2 | A4(A/B/c) | {B}A4G2 |\
+c4(c/d/e) | {e}d2(cB)g2 | (ed)(cB)(AG) | {B}A2G2E2 |\
+G4(B/A/G) | {F}TE4D2 | (D2E2)(G>A) | G4 :|
+|: d2 |\
+{c}B4c2 | d3ed2 | (e>g)(f>a) {a}g(f/e/)  | {e}d4c2 |\
+{c}B4c2 | {e}d2(cB)d2 | e3f (e/f/g) | {e}d2(cB)(AG) |\
+c2c3e | (d<B)B2 (3(gdB) | A3B (A/B/d) |
+{B}A2G2E2 |\
+G2(B/A/G) | TE4(G/E/D) | D2E2(G.A) | G4 :: D2 |\
+(DG)B2B2 | TB4 (3(dBG) | A2 (3(gfe) (3(dcB) | {B}A4G2 |\
+c3d (c/d/e) | (dB)(ge)(dB) |
+A3g (e/d/B) | {B}A2G2E2 |\
+(GB)(Ac)(Bd) | E4 (G/E/D) | (D2E2)(G>A) | G4 :: A2 |\
+B2(GA)(Bc) | {e}d2(cB)d2 | e3f (e/f/g) | {e}d4c2 |
+(BA)(GA)(Bc) | {e}d2{c}B2d2 | (eg)(fa)(gb) | {e}d2(cB)(AG) |\
+c2 (3(agf) (3(edc) | B2 (3(gfe) (3(dcB) | (Ac)(Bg)(dB) | A3GE2 |\
+(GA)(Bc)(de) | TE4D2 |
+D2E2(G>A) | G4 :: GA |\
+B2B2 (3(dBG) | c2c2 (3(ecA) | B>g (3(ceg) (3(Bdg) | {B}A4G2 |\
+e2e2 (3(ceg) | d2d2 (3(Bdg) | (3(ecA) (3(fdB) (3(gdB) | {B}A3GE2 |
+G2G2 (3(BAG) | E2E2 (3(GED) | D2E2(G>A) | G4 :: Bc |\
+d2d2 (3(GBd) | e2e2 (3(Gce) | (3(gbg) (3(faf) (3(ege) | {e}d4B>c |
+(3(dBG) (3(GBd) (3(dBG) | (3(ecG) (3(Gce) (3(gec) | (3(dgb) (3(agf) (3(efg) | (3(dBg) (3(ecg) (3(dBG) |\
+(3(ceg) (3(ceg) (3(ceg) | (3(Bdg) (3(Bdg) (3(Bdg) |
+A3B (A/B/d) | TA2G2E2 |\
+g2g2 (3(bag) | e2e2 (3(ged) | d2e2(g>a) | g4 :: [M:6/8] "_Brisk"D |\
+D2G (GF)G | (AB)A (AG)A | BcB BAG | ABA AGE |
+G3 TE2D | DEG G2 :: d |\
+Bcd ded | efg d2c | Bcd ded | efg dcB |\
+c2a B2g | ABA AGA | BcB BAG | ABA AGE |
+G3 TE2D | EFG G2 :: D |\
+DGB DGB | dBG A2G | gec dBg | ABG AFD |\
+GBd TE2G | DEF G2 :: A | B(G/A/B/c/) dBd |
+(e/f/g)e d2c | B(G/A/B/c/) dBd | ece d(B/c/d/B/) | (ec/e/)g (fd/f/)a |\
+(g/f/e/d/c/B/) A2G | e2g (dB/d/)g | A>BA AGE | G(B/c/)d TE2D |
+DEG G2 :: d | dgg daa | dbb dc'c' | dd'd' d'c'b | abg afd |\
+(g/a/b)g Te2d | deg g2 :: d | BGG dBB | gee Td2c |
+B(G/A/B/c/) dBB | gee dBB | c(a/g/)a B(g/f/)g | ABG AFD |\
+b3 (a/g/f/e/d/c/) | BGB AFD | (G/A/B/c/)d TE2D | DEG G2 :|

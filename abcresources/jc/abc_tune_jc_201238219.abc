@@ -1,0 +1,29 @@
+X: 303
+T: Miss Louisa Browns Reel
+C: by Wm Christie
+R: reel
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c." p.30 #3
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+F |\
+AFDF DFAF | {F}TE>DCE cG-Gc | AFDF DFAF | {F}TE>D ^CE D/D/D D :| F | Ad-Tde (Tfe).d.c | Gc~c2 egec |
+Ad-de (Tfe)dc | (A/=B/c) GE D/D/D (.D.F) || Ad-Tde fafd | Gc~c2 egec | fd AF dA FD | {F}TE>D ^CE D/D/D D |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+[d2D2][d2D2] [d2D2][d2D2] | [c2C2][c2C2] [c2C2][c2C2] |\
+[d2D2][d2D2] [d2D2][d2D2] | a2A2 d2D :| z |\
+[d'2d2][d'2d2] [d'2d2][d'2d2] | [c'2c2][c'2c2] [c'2c2][c'2c2] |
+[d'2d2][d'2d2] [d'2d2][d'2d2] | a2A2 d2d2 ||\
+[d'2d2][d'2d2] [d'2d2][d'2d2] | [c'2c2][c'2c2] [c'2c2][c'2c2] |\
+[d2D2][d2D2] [f2F2][d2D2] | a2A2 d2D |]
+% = = = = = = = = = =

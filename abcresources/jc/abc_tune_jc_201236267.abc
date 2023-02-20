@@ -1,0 +1,27 @@
+X: 21852
+T: THE ROXBURGH VALSE (New)
+C: By D. Wilkinson, Edinburgh
+R: waltz
+B: K\"ohler's Violin Repository, v.2, 1885 p.185 #2
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: 3/4
+L: 1/4
+K: F
+[|\
+!pp!vc3 | (BAG) | [F3A,3] | [E3B,3] |\
+[F3A,3] | (GAB) | (c2G) | A3 |\
+!ff!"^>"[A3E3] | (GFE) | "^>"[D3A,3] | "^>"^C3 |\
+"^>"[D3B,3] | BQ(.A>.G) | [F3-A,3-] | q[F2A,2]z |
+!pp!vc'3 | (bag) | f3 | e3 |\
+f3 | (ga>g) | (c'2g) | a3 |\
+!ff!a3 | (gfe) | "^>"d3 | "^>"^c3 |\
+"^>"d3 | Qb(.a>.g) | f3- | qfz |]
+|: u(D/_E/) !segno!|\
+QF3- | qFGA | Q(c3 | qB2)z |\
+QG3- | qGAB | (_e3 | d2)z |\
+F3 | !ff!(BAG) | "^>"[A3F3] | "^>"[B3D3] |\
+"^>"[c3F3] | (FGA) |[1 B3 | ("_>".uB"_>".uA"_>".uG) !segno!:|\
+[2 Q[B3-D3-] | q[BD]zz "_D.C."|]

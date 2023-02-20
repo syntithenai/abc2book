@@ -1,0 +1,2283 @@
+X: 1
+T: The Aberdeen Schottische
+C: Bert Murray M.C.P.S.
+R: shottish
+S: Handwritten MS
+B:
+D: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000)
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+"A1"[|]\
+"D7"D2 \
+| "G"(3DED B,>E (3DED B,>D | B2 B2 B2 B>c | d>^c d>e d>B G>B | "A7"A>^G AB "D7"A>=G F>E |
+y8\
+| "G"(3DED B,>E (3DED B,>D | B2 B2 B2 B>c | d>^c d>e "D7"d>=c B>A | "G"G2 G2 G2 |]
+K: D
+"B"[|]\
+"A7"A2 \
+| "D"f2 f2 f>e d>B | A2 F2 F2 Ad | "A7"c2 E>F G>A B>c | "Ddim7"B>A ^GB "A7"A2 F>A |
+y8\
+| "D"f2 f2 "D7"f>d ef | "G"g2 g2 "Em"g2 a>g | "D"(3fgf d>f "A7"(3efe c>e | "D"d2 d2 d2 |]
+K: G
+"A2"[|]\
+"D7"D2 \
+| "G"(3DED B,>E (3DED B,>D | B>A G>A B2 A>B | "C"c2 e>c "G"B2 d>B | "A7"A>^G AB "D7"A>=G F>E |
+y8\
+| "G"(3DED B,>E (3DED B,>D | B>A G>A "G7"B2 A>B | "C"(3cde gfe "D7"dcB AGF | "G"G2 G2 G2 |]
+K:D
+"C"[|]\
+"A7"A2 \
+| "D"(3ABA F>E D>F Ad | f2 f2 f2 f>g | a>^g a>b "(Bm)"a>f d>f | "E7"e>^d e>f "A7"e>=d c>B |
+y8\
+| "D"(3ABA F>E D>F Ad | f2 f2 f2 f>g | a>f (3def "A7"g>e (3cde | "D"d2 d2 d2 |]
+"A3"[|]\
+"D7"D2 \
+| "G"(3DED B,>E (3DED B,>D | B2 B2 B2 B>c | d>^c d>e "(Em)"d>B G>B | "A7"A>^G AB "D7"A>=G F>E |
+y8\
+| "G"(3DED B,>E (3DED B,>D | B>A G>A "G7"B2 A>B | "C"(3cde (3gfe "D7"(3d^cd e>f | "G"g2 g2 g2 |]
+
+%%sep 1 1 500
+
+X: 281
+T: Bon-Accord
+C: Bert Murray
+R: waltz
+B: Bert Murray's "Bon Accord Collection" 1999 p.28
+%
+N: Bon Accord is an early name for Aberdeen
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+uE2 |\
+C3 G, CD | E4 F2 | G3 E Gc | e4 c2 |\
+e3 d cA | G4 C2 | B,6- | B,2 z2 C2 |
+D3 ^C DE | F4 G2 | A3 G ^FG | d4 c2 |\
+B4 D2 | A4 G2 | E6- | E2 z2 ||
+E2 |\
+C3 G, CD | E4 F2 | G3 E Gc | e4 c2 |\
+e3 c eg | f4 d2 | A6- | A2 z2 B2 |
+c3 c Bc | d4 c2 | e3 d cA | G4 E2 |\
+G3 G ^FG | A4 B2 | c6- | c2 z2 |]
+G2 |\
+e2 e3 d | c2 c3 A | G2 G3 E | G4 G2 |\
+e3 d cA | G4 c2 | B6- | B2 z2 G2 |
+f2 f3 e | d2 d3 c | B3 c BA | G6 |\
+B3 A G^F | =F4 G2 | E6- | E2 z2 ||
+G2 |\
+e2 e3 d | c2 c3 A | G2 G3 E | G6 |\
+e3 ceg |f4 d2 | A6- | A2 z2 B2 |
+c3 c Bc | d4 c2 | e3 d cA | G4 E2 |\
+G3 G ^FG | A4 B2 | c6- | c2 z2 |]
+
+%%sep 1 1 500
+
+%%center Bert Murray's
+
+X: 0
+T: Bon Accord Collection
+C: Bert Murray (1913-2003)
+B: Bert Murray's "Bon Accord Collection"
+F: http://www.playscottishmusic.com/PDShop/samples/BertMurray.pdf
+N: Published by Taig na Teud (Harpstring House) 1999
+Z: 2010-2011 John Chambers <jc:trillian.mit.edu>
+K:
+%%center Traditional and contemporary fiddle music
+%%center from the North-East of Scotland
+%%center Published by
+%%center Taig na Teud (Harpstring House)
+%%center ---------------------------------------------------------
+%%begintext align
+ While putting together my own online collection of for Scottish Country Dance (SCD)
+ music, I found that various people had transcribed most of Bert's collection to ABC
+ form, and many had sent me copies of their sets with his tunes. Unfortunately, the
+ quality of these transcriptions varied a lot. So I got a copy of the printed collection,
+ and made new transcriptions that were faithful to Bert's published version, as accurately
+ as could be done in ABC. When I realized that I had most of the collection, the obvious
+ thing to do was to complete it by transcribing the remaining tunes as I had time. This
+ is the result so far. The one thing I've been tempted to do is add chords, which would
+ be useful for bands playing these tunes. But I've resisted that temptation and put those
+ versions elsewhere, in my SCD collection, since they're not Bert's version, and I can't
+ presume to know the "right" chords that he might have used. In any case, SCD musicians
+ will probably want a printed copy, if it's still available when you read this. The best
+ way to find the printed edition is probably to ask your favorite search site for
+ "Bert Murray" and "Bon Accord Collection".
+%%endtext
+%%center ---------------------------------------------------------
+
+%%sep 2 1 500
+
+X: 061
+T: Sean Maguire
+C: Bert Murray
+R: reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.6
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+|: ue2 |\
+A>e .e/.e/.e (fe)^de | aecA EAcA | B>f .f/.f/.f (gf)^ef | bfdB FBdB |
+c>e .e/.e/.e (fe)^de | aecA EAce | (f/g/f) (e/f/e) (d/e/d) (c/d/c) | (B/c/B) AG A2 :|
+|: u(e/f/e) |\
+"1"ac' .c'/.c'/.c' (ac')ea | ceAc EAce | fB .B/.B/.B (Bc)de | fBba agfe |
+   ac' .c'/.c'/.c' (ac')ea | ceAc EAce | (f/g/f) (e/f/e) (d/e/d) (c/d/c) | BAGB A2 :|
+
+%%sep 2 1 500
+
+X: 062
+T: Newmarket House
+C: McLellan Coll. arr. Bert Murray
+R: reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.6
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bm
+|: u(fe) |\
+dBBA Bcdc | Bffe f2(ed) | cAAB ABcB | Aeed efef |
+dBBA Bcdc | Bffe f2(ed) | cAAA Bfef | d2B2 B2 :|
+|: u(de) |\
+f2(BA) Bcde | fBBd fecd | e2(Ac) afed | cAce fece |
+f2(BA) Bcde | fBBd f2(ed) | cAAA Bfef | d2B2 B2 :|
+
+%%sep 2 1 500
+
+X: 071
+T: The Gordons o' Gight 1479-1787
+N: Near Fyvie, Aberdeenshire
+C: Bert Murray
+R: reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.7
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Em
+uB |\
+e2(eB) GEEG | FDFA dAFA | e2(eB) GEEG | FDAF GEEB |
+efgf eBB^c | dBAd FDDF | EFGA Bee^c dBAF E3 ||
+uf |\
+g>e ee/e/ (b>e) ee/e/ | fedf afdf | g>e ee/e/ (b>e) ee/e/ | (fe)df geef |
+gfed eBB^c | dBAG FDDF | EFGA Bee^c dBAF E3 |]
+
+%%sep 2 1 500
+
+X: 072
+T: Skene Reel
+C: Bert Murray
+R: reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.7
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+ud2 |\
+BGFG DB,DG | ECEG  DB,DG | FGAB cABG | F2A2 A2(dc) |
+BGFG DB,DG | ECEG  DB,DG | FAfe dcBA | G2G2 G2 ||
+u(Bc) |\
+dgfg dBcA | BGFG EGDG | ECEG cABG | F2A2 A2(Bc) |
+dgfg dBcA | BGFG EGDG | FAfe dcBA | G2G2 G2 |]
+
+%%sep 2 1 500
+
+X: 081
+T: The Tickler
+C: Bert Murray
+R: reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.8
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+(udc) |\
+BGFG DGFG | G,B,DG Bd^cd | cA^GA EA^GA | FAd^c ed=cA |
+BGFG DGFG | G,B,DG Bd^cd | cA^GA FAd^c | (ed/c/) (B/c/A) G2 ||
+(uBc) |\
+dgfg dBGB | dgfg dBGB | cA^GA EA^GA | FAc^c edB=c |
+dgfg dBGB | dgfg dBGB | cA^GA FAc^c | (e/d/c) (B/c/A) G2 |]
+
+%%sep 2 1 500
+
+X: 082
+T: The Waves of Tory
+C: Trad. arr. Bert Murray
+R: march, reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.8
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: The repeat notation for the 1st part is odd; rewritten as a 4-times repeat.
+M: C
+L: 1/8
+K: G
+|::: uBc |\
+d2Bd c2Ac | B2G2 GFGB | A2F2 FEFG | A2G2 G2 :::| z2
+|:\
+vG2Bd g2g2 | f2e2 e4 | F2Ac f2f2 | e2d2 d4 |
+ G2Bd g2g2 | f2e2 e2g2 | (f2a2) e2f2 | g4 g4 :|
+
+%%sep 2 1 500
+
+X: 091
+T: Fiddler's Frolic
+C: Bert Murray
+R: Bert Murray
+B: Bert Murray's "Bon Accord Collection" 1999 p.9
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F
+|: uC |\
+A,>F .F.F/.F/ (cF)AF | DGGF ECCB, | A,>F .F.F/.F/ (cF)AF | DFEG AFFC |
+A,>F .F.F/.F/ (cF)AF | DGGF ECCA, | ((3B,CD) ((3CDE) ((3DEF) ((3EFG) | AdcB AF F :|
+|: uc |\
+fedc =BcAF | CFAF EGGc | fedc =BcAF | DFEG AFFc |
+fedc BAGF | DGGF ECCA, | ((3B,CD) ((3CDE) ((3DEF) ((3EFG) | AdcB AF F :|
+
+%%sep 2 1 500
+
+X: 092
+T: The Travellers
+C: Bert Murray
+R: reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.9
+%
+N: Written in 1996 on Danny and Bert's trip to Cape Breton.  Danny suggested the title.
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Bb
+uF |\
+B2 (cB/A/) BFDF | GABG FDB,D | EG,B,E DB,DF | GccB AFGA |
+B2 (cB/A/) BFDF | GBeG FB,DF | EG,B,E FBAc | (dc/B/) (cB/A/) B3 ||
+uf |\
+b2(fe) dBFB | GABG FB,DF | GBeG FBdB | GccB Afga |
+babg fdBF | GBeG FB,DF | EG,B,E FBAc | (dc/B/) (cB/A/) B3 |]
+
+%%sep 2 1 500
+
+X: 101
+T: Jamie Moir of Glasgow
+T: Glasgow Caledonian Strathspey and Reel Society
+C: Bert Murray
+R: reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.10
+%
+N: (Glasgow Caledonian Strathspey and Reel Society)
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+(uED) |\
+C2(EA) cBAF | E2C2 C2E2 | FDFA EAce | dcBA B2(ED) |
+C2(EA) cBAF | E2A,2 C2E2 | FDFA GBEd | c2A2 A2 ||
+(ucB) |\
+A2(ce) aece | d2(fa) eAce | faea ceAc | d2B2 B2(cB) |
+A2(ce) agae | fdfa eAce | faec dfBe | c2A2 A2 |]
+
+%%sep 2 1 500
+
+X: 102
+T: The Reel o' Cupar
+C: Bert Murray
+R: reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.10
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Em
+uB |\
+G>E .E.E/.E/ (EF)GF | EBBA B2(dB) | (AG/F/) (GF/E/) DEFA | dAFA BAGF |
+G>E .E.E/.E/ (EF)GF | EDEF GFGA | Beed BAGA | BEED E3 ||
+uA |\
+Beef gfge | dBGB AFDF | Beef gfge | fdaf e2(ed) |
+Beef gfge | fgag fddf | (gf/e/) (dc/B/) AcBA | BEED E3 |]
+
+%%sep 2 1 500
+
+X: 111
+T: Mrs Helen Shepherd of Dunecht
+C: Bert Murray
+R: reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.11
+%
+N: Mrs H. Shepherd is the mother of the well known broadcaster Robbie Shepherd.
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+vcB |\
+A2(AB) cBAG | EAcd e2(dc) | BGDC B,DGA | BGdB edcB |
+A2(AB) cBAG | EAcd e2(e^f) | g^fge dBGB | c2A2 A2 ||
+(eg) |\
+a2(ag) aged | cAEA cde^f | g2(a/g/^f) gdBd | g^fed Bdeg |
+a2(ag) aged | cAEA cde^f | g^fge dBGB | c2A2 A2 |]
+
+%%sep 2 1 500
+
+X: 112
+T: Tapsalteerie
+C: Bert Murray
+R: reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.11
+%
+N: "Tapsalteerie" is N-E Scots for "upside down".
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Changed last F to F6, to get correct bar length.
+M: 2/4
+L: 1/16
+K: F
+vAB |\
+c>A AA/A/ (AB)AG | F2C2 C2(A,B,) | CB,A,B, CA,CF | F2E2 E2(GA) |
+B>G GG/G/ (GA)GF | EFED C2(ED) | CDEF GABc | d2c2 A2(AB) |
+c>A AA/A/ (AB)AG | F2C2 C2(A,B,) | CB,A,B, CA,CF | E2D2 D2(GA) |
+BcBA GAGF | EFED C2(ED) | CC=B,C D2E2 | F6 ||
+(AB) |\
+c2cA F2Ac | cdcA F2(AB) | cAFA cAcf | e2d2 d2(GA) |
+B2BG E2GA | BcBG E2(GF) | EFGA Bcdc | B2A2 A2(AB) |
+c2BA F2AB | cdcA F2(AB) | cAFA cfgf | e2d2 d2(GA) |
+BcBA GAGF | EFED C2(ED) | CC=B,C D2E2 | F6 |]
+
+%%sep 2 1 500
+
+X: 121
+T: Kincardine Reel
+C: Bert Murray
+R: reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.12
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Fixed the lengths in the first half of bar 7 to match bars 3, 11 and 15.
+M: 2/4
+L: 1/16
+K: Bm
+ue |\
+{ga}f2(fe) dBBd | (cB/A/) (ce) aece | {fg}f2(fe) dBBd | (cB/A/) (ec) dBBe |
+fgfe dBBd | (cB/A/) (ce) aece | {fg}f2(fe) dBBd | (cB/A/) (ec) dBB ||
+uf |\
+bffe dBBd | (cB/A/) (ce) aece | bffe dBBd | (cB/A/) (ec) dBBf |
+baba fedf | efaf ecAc | {fg}f2(fe) dBBd | (cB/A/) (ec) dBB |]
+
+%%sep 2 1 500
+
+X: 122
+T: Haud 'er Guan
+C: Bert Murray
+R: reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.12
+%
+N: "Haud 'er guan" is N-E Scots for "keep her going".
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+|: uE2 |\
+E2(CE) cBAG | F2(DF) dcBA | A2G2 FEFG | AGAc E2(EF) |
+E2(CE) cBAG | F2(DF) dcBA | ABAG FEFG | AEcB A2 :|
+|: (ucd) |\
+e2(ce) Acec | f2(df) Adfd | eAce aece | fedc B2(cd) |
+e2(ce) Acea | f2(df) afdf | eagf edcB | AEcB A2 :|
+
+%%sep 2 1 500
+
+X: 131
+T: Moose Aboot the Hoose
+C: Bert Murray
+R: reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.13
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F
+uA |\
+F2(CF) A,FCF | AcBA BGGF | E2(CE) G,ECE | (GA/B/) (AG) AFFA |
+F2(CF) A,FCF | AcBA BGGF | EFGF ECEG | (AB/c/) (GB) AF F ||
+uc |\
+f>c .c.c/.c/ (A>F) .F.F/.F/ | (CF)A,C FAcA | BGGF EGGF | EGc=B dcde |
+f>c .c.c/.c/ (A>F) .F.F/.F/ | (CF)A,C FAcA | BGGF ECEG | (AB/c/) (GB) AF F |]
+
+%%sep 2 1 500
+
+X: 132
+T: Karen's 21st
+C: Bert Murray
+R: reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.13
+%
+N: Bert wrote this tune for Karen Stevens when he met her at the Tappens' house in Pasadena
+N: on her 21st birthday.
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+|: uA |\
+B>G .G/.G/.G (FG)DG | B,G,B,D GBdB | c>A A/A/A (^GA)EA | FAfe dcBA |
+B>G .G/.G/.G (FG)DG | B,G,B,D GBdB | (c/B/A) (B/A/G) FADF | GEDB, G,3 :|
+|: uB |\
+d>B .B/.B/.B (G>D).D/.D/.D | (B,G,)B,D GDGB | e>c .c/.c/.c (cd)cB | Acfe dcBA |
+d>B .B/.B/.B (G>D).D/.D/.D | (B,G,)B,D GBdB | (c/B/A) (B/A/G) FADF | GEDB, G,3 :|
+
+%%sep 2 1 500
+
+X: 141
+T: Janny's Reel
+C: Bert Murray
+R: reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.14
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+ud |\
+AFEF DFAF | DGBG DFAF | GFGB AFDF | GFED E2(dB) |
+AFEF DFAF | DGBG DFAF | GFGB Adce | dBAF D3 ||
+ue |\
+fdcd Adcd | FDFA dAFD | ge^de Be^de | cAce gece |
+fdcd Adcd | FDFA dAFA | GFGB  Adce  | dBAF D3 |]
+
+%%sep 2 1 500
+
+X: 142
+T: Yark 'er Up
+C: Bert Murray
+R: reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.14
+N: "Yark 'er up" is N-E Scots for "Keep her going"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F
+uC2 |\
+F2 (F/E/D) CA,A,C | DB,B,D CA,A,C | FAce  fcAF  | DGGF ECDE |
+F2 (FD)    CA,A,C | DB,B,D CA,A,C | dFB,D CFA,F | EGcE F2 ||
+uc2 |\
+f2(fe) fcAc | dBBd cAAc | BDFB  ACFA  | Gc=Bd c^cde |
+f2(fe) fcAc | dBBd cAAF | DFB,D CFA,F | EGcE F2 |]
+
+%%sep 2 1 500
+
+X: 151
+T: Annie Shand Scott
+C: Bert Murray
+R: reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.15
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+ud2 |\
+gdBG DGBG | FGAB c2(dc) | BGBd gfgb | agfe d2(ef) |
+gdBG DGBG | FGAB cedc | BGBd cAFA | G2B2 G2 ||
+(uBc) |\
+dBGB dGBd | ecGc eceg | dBGB dgdB | edcB A2(Bc) |
+dBGB dGBd | ecGc eceg | fdec dBcA | G2B2 G2 |]
+
+%%sep 2 1 500
+
+X: 152
+T: Kenny from Lewis
+C: Bert Murray
+R: reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.15
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+vAG |\
+FDCD A,DCD | FDFA (B/c/d) (AG) | FDCD A,DFA | GFED E2(AG) |
+FDCD A,DCD | FDFA B2(Bc) | d2(dB) AFED | B,DDE D2 ||
+(FG) |\
+AFDF Adcd | BGDG Bdcd | AFDF Adcd | BAGF E2(FG) |
+AFDF Adcd | FDFA B2(Bc) | d2(dB) AFED | B,DDE D2 |]
+
+%%sep 2 1 500
+
+X: 161
+T: Caroline's Fancy
+T: Caroline Fraser, Westmount Cape Breton
+C: Bert Murray
+R: reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.16
+N: This tune was written for Danny Fraser's mother in Cape Breton.
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: C
+uE |\
+C2(CD) ECEG | cBcA GECB, | A,DDE FDEC | A,DFD B,DG,B, |
+C2(CD) ECEG | cded cGEC | A,CFC G,CEC | A,CB,D C3 ||
+G |\
+cded c>G .G.G/.G/ | (AB)cA G>E .E.E/.E/ | (FG)AF EFGE | DEDC B,GAB |
+cded c>G .G.G/.G/ | (AB)cA G>E .E.E/.E/ | (FA,)CF EG,CE | DG,B,D C2 |]
+
+%%sep 2 1 500
+
+X: 162
+T: Violet and Drew
+C: Bert Murray
+R: reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.16
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+uC2 |\
+FAAG FCCF | DB,B,D CA,A,C | FAce fcAF | DGGF ECDE |
+FAAG FCCF | DB,B,D CA,A,C | DFBd cAfd | cAGc AFF2 ||
+A>A .c.c/.c/ f>c .c.c/.c/ | ABcB AFFE | DGGA BGAF | DGGF ECEG |
+A>c .c.c/.c/ f>c .c.c/.c/ | defd cAAF | DFBd cAfd | cAGc AFF2 |]
+
+%%sep 2 1 500
+
+X: 171
+T: The Cumbernauld Reel
+T: (Mr and Mrs George Stirrat)
+C: Bert Murray
+R: reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.17
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+(uBc) |\
+d2d2 dcBA | G2G2 GFGA | BAGA BABd | d2c2 c2(AB) |
+c2c2 cBAG | F2F2 F2d2 | fede fedc | c2B2 B2(Bc) |
+d2d2 dcBA | G2G2 GFGA | BAGA Bdgf | f2e2 e2(AB) |
+cdcB ABAG | FGFE D2(FE) | Dd^cd =c2F2 | G6 ||
+(uB,C) |\
+DEDB, DEDB, | D2G2 G2(GA) | BAGA BABd | d2c2 c2(AB) |
+cdcB ABAG | FGFE D2(FE) | Dd^cd =c2A2 | B6(B,C) |
+DEDB, DEDB, | D2G2 G2(GA) | BAGA Bdgf | f2e2 e2(AB) |
+cdcB ABAG | FGFE D2(FE) | Dd^cd =c2F2 | G6 |]
+
+%%sep 2 1 500
+
+X: 181
+T: The Forfar Fiddler
+C: Bert Murray
+R: reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.18
+N: Written for Cyril Robb
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: The variation's 2nd part should probably be repeated, too.
+M: 2/4
+L: 1/16
+K: D
+uA,2 |\
+D3E F2D2 | ADFA d2(cB) | AFdB ABAD | F2E2 E2(FE) | D3E F2D2 |
+ADFA d2(cB) |1 AFdB AFEA F2D2 D2 :|2 ABcd efge | f2d2 d2 |
+(de) | f2(af) e2(fe) | dcBA d2(AF) | G2(BG) FGAF | G2E2 E2(de) |
+fAdf eAce | dcBA d2(cB) |1 AFdB AFEA | F2D2 D2 :|2 ABcd efge | f2d2 d2 |]
+P: Variation
+A,2 |\
+DA,DE FDFG | ADFA d2(cB) | A2(dB) AFDF | G2E2 E2(FE) |
+D2(A,D) F2(DF) | ADFA d2(cB) |1 AFdB AFEA | F2D2 D2 :|2 ABcd efga | f2d2 d2 |
+(de) |\
+fAdf eAce | dcBA d2(AF) | GABG FGAF | G2E2 E2(de) |
+f2(af) e2(fe) | dcdB A2(GF) | GABG ABcA | d2D2 D2 |]
+
+%%sep 2 1 500
+
+X: 191
+T: Aviemore Slopes
+C: Bert Murray
+R: air, 3/4 march, waltz
+B: Bert Murray's "Bon Accord Collection" 1999 p.18
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+|: vA>B |\
+c2 c2 B>c | BA A2 (A>B) | c2 e2 a>e | f4 a>f |\
+e2 c2 c>B | BA A2 A>B | c2 c2 B>c | A4 :|
+|: (c>d) |\
+e2 e2 c>e | fe e2 (e>c) | A2 A>B cA | B4 c>d |\
+e2 e2 a>e | fe e2 (a>f) | e2 c2 B>c | A4 :|
+
+%%sep 2 1 500
+
+X: 192
+T: The Scottish Division
+C: Bert Murray
+R: air, 3/4 march, waltz
+B: Bert Murray's "Bon Accord Collection" 1999 p.18
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+va>f |\
+f2 (a>f) ef | d2 A2 d>c | B3 c de | A4 (a>g) |\
+f2 (a>f) ef | d2 A2 d>c | B3 c df | e4 (a>g) |
+f2 (a>f) ef | d2 A2 d>c | B3 c de | f4 (e>f) |\
+g2 B2 a>g | f2 A2 g>f | e3 A ce | d4 :|
+
+%%sep 2 1 500
+
+X: 201
+T: Laus Deo
+T: Praise be to God
+C: Bert Murray
+R: march
+B: Bert Murray's "Bon Accord Collection" 1999 p.20
+N: Motto of Clan Arbuthnott
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Added dots to both final A notes to correct the rhythm.
+M: 4/4
+L: 1/16
+K: A
+|: ue2 |\
+c3e cBAB c2A2 A2(cd) | e3f e2c2 e6 (ce) | a3f f2a2 ke2fe kc2BA | cB3 B2c2 B2f2e2d2 |
+c3e cBAB c2A2 A2(cd) | e3f e2c2 e6 (ce) | a3f f2a2 ke2fe kc2BA | B3A B2c2 A6 :|
+|: ue2 |\
+a3e cBAB c2e2 e2(ce) | f3d d2f2 e6 (ce) | a3f f2a2 ke2fe kc2BA | cB3 B2c2 B6 e2 |
+a3e cBAB c2e2 e2(ce) | f3d d2f2 e6 (ce) | a3f f2a2 ke2fe kc2BA | B3A B2c2 A6 :|
+
+%%sep 2 1 500
+
+X: 202
+T: The Baillies of Bennachie
+C: Bert Murray
+R: shottish
+B: Bert Murray's "Bon Accord Collection" 1999 p.20
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Missing half beat in last bar fixed by copying bar 8.
+M: 2/4
+L: 1/16
+K: A
+|: uc2 |\
+(e>c) (B<c) A2(c>e) | (f<a)(.d>.f) e2(c>d ) | (.e>.f) (.e>.c) (.a>.e) (.c>.A) | c2B2 B2(c>d) |
+(e>c) (B<c) A2(c>d) | (f<a)(.d>.f) e2(c>d) | e>ca>f (.e>.c) (B<e) | c2A2 A2 :|
+|: (cd) |\
+e2e2 (.e>.c) (e<a) | f2f2 (.f>.d) (f<a) | (.e>f) (e<c) a>ec>e | (f<a)e>c B2c>d |
+e>cA>c e>ca>e | f>dA>d f>da>f | e>ca>f (.e>.c) (B<e) | c2A2 A2 :|
+
+%%sep 2 1 500
+
+X: 211
+T: Her Majesty's Welcome to Glenfiddoch
+C: William MacDonald arr. Bert Murray
+R: jig
+B: Bert Murray's "Bon Accord Collection" 1999 p.21
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: ue |\
+A>BA c>ae | f>ed c>BA | [cc2]>A[cc] e>ac | B>=GB (B2c) |\
+A>BA c>ae | f>ed c>BA | d>ef e>ca | A>BA A2 :|
+|: ue |\
+[AA2]>B[AA] c>Bc | e>fe e>cA | [cc2]>A[cc] e>ac | B>=GB B2c |\
+[AA2]>B[AA] (c>Bc) | e>fe e>cA | d>ef e>ca | A>BA A2 |]
+
+%%sep 2 1 500
+
+X: 221
+T: Tout Pret
+C: Bert Murray
+R: march
+B: Bert Murray's "Bon Accord Collection" 1999 p.22
+N: "Tout Pret" (Ever ready) is the slogan of the Murray clan.
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|: vAd |\
+f>a fe dAdc | B<d d>B A2 (Bc) | d>d de fagf | e>d cd e2 (Ad) | f>a fe dA d>c |
+B<d d>B A2 (d>c) |[1 B2 (e>d) cAfe | d2 d>e d2 :|[2 B>B Bd cAfe | d2 (d>e) d2 ||
+|: (fg) |\
+a2 (a>g) fdAd | B<d d>B A2 (Bc) | d>d de fagf | e>d cd e2 (fg) | a>a ag fdAd |
+B<d d>B A2 (d>c) | [1 B2 (e>d) cAfe | d2 d>e d2 :|[2 B>B Bd cAfe | d2 (d>e) d2 :|
+
+%%sep 2 1 500
+
+X: 222
+T: T.M.S.A. March
+T: (Traditional Music and Song Association)
+C: Bert Murray
+R: march
+B: Bert Murray's "Bon Accord Collection" 1999 p.22
+N: Repeated in A major
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+|: uD |\
+G2 (B>A) GDB,D | G>D GA B2 (A>B) | c>d ec B>c dB | Ad f>e dcBA |
+G2 (B>A) GDB,D | G>D GA B2 (AB) | c>d ec B>c dB | ADFA G3 :|
+|: (uB/c/) |\
+d>e dc BGBc | d>e dB G2 (AB) | c>d cA FDFA | c>d cB A2 (Bc) |
+dg d>c BGBc | dg d>B G2 (AB) | c>d eg dBGB | ADFA G3 :|
+
+%%sep 2 1 500
+
+X: 231
+T: George Clavey L.C.C.
+C: Bert Murray
+R: jig
+B: Bert Murray's "Bon Accord Collection" 1999 p.23
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bm
+|:vB>cB (f2e) | f>ea f>ec | [AA2]>A[AA] c>Bc | (c<eA) c>BA |\
+   B>cB (f2e) | f>ea f>ec | A>ca f>ec | B>cA B3 :|
+|: d>ef (B2f) | d>ef (f<af) | e>ce A>ce | (f<af) e>cA |\
+   d>ef (f<af) | e>ce A>ce | A>ca f>ec | B>cA B3 :|
+|: [BB2]>B[BB] f>ef | B>BB f>ef | e>ee A>AA | (c<ea) e>cA |\
+   [BB2]>B[BB] f>ef | e>cA B>cB | A>ca f>ec | B>cA B3 :|
+|: [dd2]>e[ff] B>ff | d>ef B>ff | e<ee A>AA | (c<ea) e>cA |\
+   [dd2]>e[ff] B>ff | d>ef B>ff | A>ca f>ec | B>cA B3 :|
+
+%%sep 2 1 500
+
+X: 241
+T: Oban and Lorne Society
+C: Bert Murray
+R: shottish, strathspey
+B: Bert Murray's "Bon Accord Collection" 1999 p.24
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+|: ve>d  | c>AB>G  A2(A>B) | c>Bc>A d2(f<a) | e>fa>f  e>fe>c     | A>c e<c B2(e>d) |
+y6         c>AB>G  A2(A>B) | c>Bc>A d2(f<a) | e>fa>f (e>c) (B<e) | c2A2 A2 :|
+|: (c>d) | e2e>c   A2c<e   | f2f>d  A2d<f   | e>fa>f  e>fe>c     | A>c e<c B2(c>d) |
+y6         e>fe>c  A2(c<e) | f2f>d  A2d<f   | e>fa>f  e>c (B<e)  | c2A2 A2 :|
+|: (e>d) | c>AA>B  c>B c<e | d>Ad>e f>d f<a | e>fa>f  e>AA>c     | A>c e<c B2(e>d) |
+y6         c2(A>B) c>B c<e | d>cd>e f>e f<a | e>fa>f (e>c) (B<e) | c2A2 A2 :|
+|: (c>d) | e>cc>e  A>ce>c  | f>dd>f A>df>d  | c>ea>e  f>ed>c     | A>c e<c B2(c>d) |
+y6         e>cc>e  f>dd>f  | e>cc>e a2(a>f) | e>fa>f  e>c (B<e)  | c2A2 A2 :|
+
+%%sep 2 1 500
+
+X: 251
+T: Derwentwater's Fareweel
+C: Hogg's Jacobite Relics arr. Bert Murray
+R: waltz
+B: Bert Murray's "Bon Accord Collection" 1999 p.25
+N: Taken from the recitation of a young girl in the parish of Kirkbean, Galloway, this version is from
+N: Cromek's Remains of Hithsdale and Galloway song.  The ari is very simple, beautiful and ancient.
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+uF2 |\
+{CD}C4 D2 | F4 F2 | G2 A4 | C4 A2 | {Bc}B4 A2 | G4 F2 | {DE}D6- | D4 (FD) |
+C4 D2 | F4 F2 | G4 A2 | {CD}C4 A2 | B4 A2 | B2 c4 | d6- | d4 c2 |
+c4 A2 | G4 F2 | B4 c2 | {c}d4 d2 | c4 A2 | G4 F2 | {DE}D6- | D4 (FD) |
+C4 D2 | F4 F2 | G2 A4 | {Bc}B4 d2 | c4 A2 | G4 A2 | F6- | F4 |]
+
+%%sep 2 1 500
+
+X: 252
+T: Mrs Isobel Murray
+C: Bert Murray
+R: air, strathspey
+B: Bert Murray's "Bon Accord Collection" 1999 p.25
+N: This tune was written for the wife of the omposer.
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Fixed lengths: B2 to B3 in bar 1, F4 to F6 in bar 2.
+M: C
+L: 1/16
+K: Bb
+%%slurgraces
+{FG}vFuE |\
+D3C D2E2 FB3 d3c | B3A cBAG F6 {FG}FE | DB,3 DF3 BFBd f2B2 | e3d c2B2 {cd}c6 ({FG}FE) |
+D3C D2E2 FB3 d3c | {Bc}B3G E2G2 F6 {Bc}BA | GEGB e2G2 FDFB d2B2 | c3B A2c2 B6 ||
+(cd) |\
+e3G B2e2 d3c B2F2 | GFGB e2G2 F6 (cd) | e3d e2g2 f2d2B2F2 | GB3 c3d c6 {FG}FE |
+D3B, D2E2 FB3 d3c | B3A cBAG F6 {A}BA | GEGB e2fg f2d2 B3F | GE3 c2A2 {Bc}B6 |]
+
+%%sep 2 1 500
+
+X: 261
+T: The Thistle and the Rose
+C: Bert Murray
+R: air
+B: Bert Murray's "Bon Accord Collection" 1999 p.26
+%
+N: This tune was written for the Tappen family in Pasadena
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+|: !p!(uFB) |\
+{de}d4- dB e>d | {de}d2 c4 c>B | "4"A4- Ag f>e | {de}d6 (FB) |
+{de}d4- dB e>d | {de}d2 c4 cB | "4"A4- AB d>c | {Bc}B6 :|
+|: !f!(de) |\
+{fg}f4- fb b>a | a2 g4 c>B | !p!A4- Ag f>e | {de}d6 (de) |
+!f!f4- fd b>a | {ab}a2 g4 cB | !p!A4- AB d>c | {Bc}B6 :|
+
+%%sep 2 1 500
+
+X: 262
+T: Esma
+C: Bert Murray
+R: jig
+B: Bert Murray's "Bon Accord Collection" 1999 p.26
+%
+N: This tune was written for the wife of the broadcaster Robbie Shepherd.
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+uF |\
+d2f d2c | Bd2 F2B | GB2 B2G | F3- F2F |\
+d2e d2c | BF2 D2F | =E2G c2B | A3- A2F |
+d2f d2c | B2c B2F | GB2 c2B | d3- d2d |\
+e2G Be2 | d2F Bd2 | c2F Ac2 | B3- B2 ||
+B |\
+B2A G2A | ^F2A D2e | d2c B2A | G3- G2B |\
+c2d c2B | A2c f2A | c2B A2G | F3- F2F |
+d2f d2c | Bd2 F2B | G2B c2B | d3- d2d |\
+e2f g2e | dF2 B2d | cF2 A2c | B3- B2 |]
+
+%%sep 2 1 500
+
+X: 271
+T: Legend
+C: Bert Murray
+B: Bert Murray's "Bon Accord Collection" 1999 p.27
+%
+N: This tune was written for the late Willie Hunter, a great friend of almost forty five years,
+N: and a top class fiddler from Lerwick in Shetland
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Eb
+%%slurgraces
+uB,2 |\
+{EF}E3F G2B2 | e3d c2B2 | c3e B2G2 | {FG}F6 B,2 |\
+{EF}E3F G2B2 | e3d c2B2 | c3e B2G2 | {EF}E6 B,2 |
+{EF}E3F G2B2 | A3B c2e2 | B3G e2G2 | {E}F6 B,2 |\
+E3G, B,2E2 | G2B2 e3c | B2e2 d2f2 | {ef}e6 ||
+f2 |\
+{ga}g3f e2g2 | {fg}f3d B2d2 | e3d c2e2 | {Bc}B6 G2 |\
+A3C E2A2 | G3B, E2G2 | F2C2 F3E |D2B,2 C2D2 |
+{EF}E3F G2E2 | A3B c2A2 | B2G2 e3G | {FG}F6 B,2 |\
+G,3B, E2G,2 | A,3C F2A2 | B2e2 d2f2 | {ef}e6 |]
+
+%%sep 2 1 500
+
+X: 272
+T: Auld Chapel Brae
+C: Bert Murray
+R: strathspey
+B: Bert Murray's "Bon Accord Collection" 1999 p.27
+%
+N: Auld Chapel Brae is the composer's father's birthplace in Banchory.
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces
+uD |\
+{Bc}B>A G>E {DE}D2 (B,D) | {EF}E<C E<G D3 D | {F}G>A BG {^c}dGBG | E<G c>B A3 G |
+{A}B>A GE {DE}D2 (GF) | {EF}E<C E<G D3 B, | {B,}C>D EF GE D>B, | D2 ({F}G>A) G3 ||
+uB |\
+c>B AG B>A GD | {EF}E<G c>E D3 B | {cd}c>B ce d<B GD | E2 (A>B) {B}A3 G |
+{GA}B>A GE {DE}D2 (B,D) | E<G c>E {DE}D3 B | {B}c>B ce dB G>D | E2 ({F}G>A) G3 |]
+
+%%sep 2 1 500
+
+X: 281
+T: Bon-Accord
+C: Bert Murray
+R: waltz
+B: Bert Murray's "Bon Accord Collection" 1999 p.28
+%
+N: Bon Accord is an early name for Aberdeen
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+uE2 |\
+C3 G, CD | E4 F2 | G3 E Gc | e4 c2 |\
+e3 d cA | G4 C2 | B,6- | B,2 z2 C2 |
+D3 ^C DE | F4 G2 | A3 G ^FG | d4 c2 |\
+B4 D2 | A4 G2 | E6- | E2 z2 ||
+E2 |\
+C3 G, CD | E4 F2 | G3 E Gc | e4 c2 |\
+e3 c eg | f4 d2 | A6- | A2 z2 B2 |
+c3 c Bc | d4 c2 | e3 d cA | G4 E2 |\
+G3 G ^FG | A4 B2 | c6- | c2 z2 |]
+G2 |\
+e2 e3 d | c2 c3 A | G2 G3 E | G4 G2 |\
+e3 d cA | G4 c2 | B6- | B2 z2 G2 |
+f2 f3 e | d2 d3 c | B3 c BA | G6 |\
+B3 A G^F | =F4 G2 | E6- | E2 z2 ||
+G2 |\
+e2 e3 d | c2 c3 A | G2 G3 E | G6 |\
+e3 ceg |f4 d2 | A6- | A2 z2 B2 |
+c3 c Bc | d4 c2 | e3 d cA | G4 E2 |\
+G3 G ^FG | A4 B2 | c6- | c2 z2 |]
+
+%%sep 2 1 500
+
+X: 291
+T: Maureen's Waltz
+C: Bert Murray
+R: waltz
+B: Bert Murray's "Bon Accord Collection" 1999 p.29
+%
+N: This tune was written for Maureen Rutherford, a brilliant pianist.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+N: Corrected missing half beat in bar 57, in the obvious way.
+M: 3/4
+L: 1/8
+K: Bb
+uF2 |\
+d3 ^c d=c | B2 F2 D2 | E3 G B2 | F4 F2 |\
+d3 ^c de | f2 d2 B2 | G2 A3 B | c4 F2 |
+d3 ^c d=c | B2 A2 _A2 | G3 ^F GB | F4 D2 |\
+E2 G2 B2 | F2 B3 G | A2 d3 c | B4 F2 |
+d3 ^c d=c | B2 F2 D2 | EG,B,E GB | F4 F2 |\
+d3 ^c de | f2 d2 B2 | G^FGA BG | c4 F2 |
+d3 ^c d=c | B2 A2 _A2 | G3 ^F GB | F4 D2 |\
+EG,B,E GB | F2 B3 G | A2 d3 c | B4 ||
+B2 |\
+A3 ^G AB | c2 A2 F2 | B3 A Bc | d6 |\
+e3 G Be | d3 F Bd | G2 c3 B | A2 G2 F2 |
+A3 ^G AB | c2 A2 F2 | B3 A Bc | d2 F2 D2 |\
+E2 G3 E | F2 B3 G | A2 d3 c | B4 B2 |
+A3 ^G AB | c2 A2 F2 | B3 A Bc | d6 |\
+e2 g3 e | d2 F3 B | G2 c3 B | A2 G2 F2 |
+A3 ^G AB | c2 A2 F2 | B3 A BG | F4 F2 |\
+EG,B,E GB | F2 B3 G | A2 d3 c | B6- | B4 |]
+
+%%sep 2 1 500
+
+X: 301
+T: Fiddler's Elbow
+C: Bert Murray
+R: hornpipe
+B: Bert Murray's "Bon Accord Collection" 1999 p.30
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+(uc>B) |\
+A>BB>c f>cA>F | E>FG>A B2(B>A) | G>Be>d c>BA>G | (3A^GA d>A c2c>B |
+A>BB>c f>cA>F | E>FG>A B2(A>B) | c>fe>d (3cBA (3GFE | (3FAc (3fcA F2 ||
+(uG>A) |\
+B>AB>G E>CE>G | B>AG>A B2(A>B) | c>=Bc>A F>CF>A | c>BA>B c2(A>c) |
+d>^cd>e f>ef>d | c>AF>A c2(A>B) | c>fe>d (3cBA (3GFE | (3FAc (3fcA F2 ||
+
+%%sep 2 1 500
+
+X: 302
+T: Margaret's Kilty Socks
+C: Bert Murray
+R: hornpipe
+B: Bert Murray's "Bon Accord Collection" 1999 p.30
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+(uDE/F/) |\
+G>FG>A G>DB,>D | G>FG>A G>DB,>D | E>Gc>E D>GB>G | (3ABA (3GFE (3DFA (3cBA |
+G>FG>A G>DB,>D | E>Gc>E D2(G>F) | E>Gc>E D>GB>G | (3ABc (3def g3 ||
+(d^c/=c/) |\
+B>c^c>d g>dB>G | c>d^d>e a>ec>A | B>c^c>d g>dB>G | (3ABA (3GFE (3DFA (3cBA |
+B>c^c>d g>dB>G | E>CE>G D2(B,>D) | E>Gc>E D>GB>G | (3FED (3CB,A, G,3 |]
+
+%%sep 2 1 500
+
+X: 311
+T: Bert Murray's Hornpipe
+C: \251 1995 John Renton
+R: hornpipe, reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.31
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+(uc>d) |\
+e>a aa/a/ (c'a)ed | cdef e2(cA) | Gee^d fe=dB | Acea e2(cd) |
+e>a aa/a/ (c'a)ed | cdef e2(cA) | Eee^d fe=dB | A2c2 A2 :|
+(uCD) |\
+E>A AA/A/ (cA)EC | DFAd B2(FA) | G>B BB/B/ (dB)GB | Acea e2(CD) |
+E>A AA/A/ (cA)EC | DFAd B2(FA) | G>B BB/B/ (dB)GB | A2c2 A2(CD) |
+E>A AA/A/ (cA)EC | DFAd B2(FA) | G>B BB/B/ (dB)GB | Acea e2(CD) |
+E>A AA/A/ (cA)EC | DFAd fdAF | EGBe gedB | A2c2 A2 |]
+
+%%sep 2 1 500
+
+X: 321
+T: Fiddler's Cramp
+C: Bert Murray
+R: strathspey
+B: Bert Murray's "Bon Accord Collection" 1999 p.32
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+(uA>B) |\
+c>fd>f e>gc>e | (3fga (f>c) (3ABc (A>F) |\
+E>FG>A B>dc>=B | c>=Bc>d c>_BA>B |
+c>fd>f e>gc>e | (3fga (f>c) (3ABc (A>F) |\
+E>FG>A B>dc>B | (3AGF (3GFE F2 ||
+(uG>A) |\
+(3BAG (3AGF (3EGB (3dcB | (3Acf (3Acf (3agf (3edc |\
+(3BAG (3AGF (3EGB (3dcB | (3Acf (3Acf (3agf (3edc |
+(3d^cd (3Bdf (3bag (3fed | (3c=Bc (3Acf (3agf(3edc |\
+(3dfe (3dcB (3AcB (3AGF | (3EGB (d>c) F2 |]
+
+%%sep 2 1 500
+
+X: 322
+T: Hawkeye
+C: Bert Murray
+R: strathspey
+B: Bert Murray's "Bon Accord Collection" 1999 p.32
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+(uA2Bc) |\
+d3AF3D A,3DF3D | B,3DG3B A4 (A2Bc) | d3AF3D A,3DF3A | G2AG F2GF E4 (A2Bc) |
+d3AF3D A,3DF3D | B,3DG3B A4 (A2Bc) | d2cd A2Bc d2AG F2ED | C2B,A, G2FE D4 ||
+A4 |\
+F3DA,3D F3Ad3c | B3GD3G B3GB3d | A3FD3B, A,3DF3A | G2AG F2GF E4 ((3A^G=G) |
+F3DA,3D F3Ad3c | B3GD3G A4 (A2Bc) | d2cd A2Bc d2AG F2ED | C2B,A, G2FE D4 |]
+
+%%sep 2 1 500
+
+X: 331
+T: Francis (Frank) Murray
+C: Bert Murray
+R: strathspey
+B: Bert Murray's "Bon Accord Collection" 1999 p.33
+%
+N: This tune was written for the composer's father.
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+uc |\
+A<E c>A e>c a>e | (f/g/a) e-<c d<B B>c | A<E c>A e>c a>e |[1 f/g/a e>f c<A A :|
+[2 f/g/a e/f/g a<A Ae || a>g f>a g<b e>g | f>e d>f e<a c>e |
+d>f B>d c>e A>c | B>e g>f e>g b>g | a>e c>a g>e B>g | f>d A>f e>c a>e |
+d>B e>d c<e A>c | B/c/d e/f/d c<A A2 | B/c/d e/f/g a<A A |]
+
+%%sep 2 1 500
+
+X: 332
+T: The Cottar Hoose
+C: Bert Murray, Aberdeen
+R: strathspey
+B: Bert Murray's "Bon Accord Collection" 1999 p.11
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+uF |\
+A,<F F>G (A<c) f2 | D<G G>F E<C C>B, | A,<F F>G (A<c) f2 | dc/B/ AG/F/ ED/C/ B,A,/G,/ |
+A,<F F>G (A<c) f2 | D<G G>F E<C C>E | F>A G/A/B A>c Bc/d/ | c>f e>g (a<f) f2 ||
+A<c c>B A<c c>e | f>c A>F A<c c>A | B<d d>c B<d d>f | gf/e/ fe/d/ ed/c/ BA/G/ |
+A<c c>B A<c c>e | f>c A>F A<c c>A | B>d G(A/B/) A>c f>d | c>A G>c (A<F) F |]
+
+%%sep 2 1 500
+
+X: 333
+T: The Cotter Hoose
+C: Bert Murray, Aberdeen
+R: strathspey
+B: RSCDS 42-8
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+C2 \
+|:"F"A,<F F>G A<c f2 | "Gm"D<G "G7"G>F "C7"E<C C>B, \
+| "F"A,<F F>G "Dm"A<c f2 | "Gm"(3dcB "G7"(3AGF "C7"(3EDC (3B,A,G, |
+| "F"A,<F F>G A<c f2 | "Gm"D<G "G7"G>F "C7"E<C C>E \
+| "F"F>A "C/E"(3GAB "F"A>c "Bb"(3Bcd | "F"c>f "C7"e>g "F"a<f f2 ||
+||"F"A<c c>B "Am"A<c c>e | "Dm"f>c A>F "D7"A<c c>A \
+| "Gm"B<d d>c B<d d>f | "C"(3gfe "G7"(3fed "C7"(3edc (3BAG |
+| "F"A<c c>B "Am"A<c c>e | "Dm"f>c A>F "D7"A<c c>A \
+| "Gm"B>d "C7"(3GAB "F"A>c "Bb"f>d | "C7"c>A G>c "F"A<F F2 :|
+
+%%sep 2 1 500
+
+X: 341
+T: Caroline E. Fraser
+C: Bert Murray
+R: strathspey
+B: Bert Murray's "Bon Accord Collection" 1999 p.34
+%
+N: This tune was written for Danny Fraser's Mother in Cape Breton.
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+uA,2 |\
+F4 (F2ED) A,3DF3A | f3ed3B AF3 F3A | G4 (G2FE) B,3EG3B | g3fe3d c2BA G2FE |
+F4 (F2ED) A,3DF3A | f3ed3B AF3 F3A | B2AB d2cB A3df3a | g2fe (.c3.a) (fd3) d2 ||
+ue2 |\
+f3a (f2ed) A3df3d | A3df3a ge3 e3f | g4 (g2fe) c3eg3e | c'2ba g2ab af3 f3e |
+f4 (f2ed) A3df3d | A3df3a ge3 e3A | B2_B=B d2cB A3df3a | g2fe (.c3.a) (fd3) d2 |]
+
+%%sep 2 1 500
+
+X: 342
+T: Sandy Milne
+T: (Banchory)
+C: Bert Murray
+R: strathspey
+B: Bert Murray's "Bon Accord Collection" 1999 p.34
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+ue2 |\
+a3A AAA2 (F3A)E3A | c3AE3A (.G3.B) efg2 | a3A AAA2 (F3A)E3A | G3Be3c (.d3.B) efg |
+a3A AAA2 (F3A)E3A | c3AE3A (.G3.B) efg2 | a3ec3A F3AE3A | G3Be3d (cA3) A2 ||
+ue2 |\
+c3AE3A F3AE3A | c3ea3c dB3 B3e | c3AE3A F3AE3A | G3Be3d | cA3 A3e |
+c3AE3A F3AE3A | c3ea3c dB3 B3e | agf2 edc2 fed2 cBA2 | G3Be3d (cA3) A2 |]
+
+%%sep 2 1 500
+
+X: 351
+T: The Kirrie 'Sheuch'
+T: (The Kirriemuir Fiddlers)
+C: Bert Murray
+R: strathspey
+B: Bert Murray's "Bon Accord Collection" 1999 p.35
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: F
+%%slurgraces
+uC2 |\
+FEF2 (.C3.B,) A,3CF3A | cde2 fcB2 AF3 F3A | GFG2 (.D3.C) B,3DG3F | E3Gc3B d3cB3G |
+F2EF (.C3.B,) A,3CF3A | c2de f2cB AF3 F3E | D3FB3D C3FA3F | EFG2 (.c3.B) (AF3) {DE}F4 ||
+c3AF3A c3FA3c | B3df3d cA3 A3c | B3DF3B A3CF3A | G3c=B3d cdc2 _BAG2 |
+c3AF3A c3FA3c | B3df3d cA3 A3c | BAB2 dcB2 A3FC3F | EFG2 (.c3.B) (AF3) {DE}F4 |]
+
+%%sep 2 1 500
+
+X: 352
+T: Hame O'er
+C: Bert Murray
+R: strathspey
+B: Bert Murray's "Bon Accord Collection" 1999 p.35
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Bb
+uF4 |\
+B4 (.B3.F) DF3 B3c | d3Bd3f b4 (.b3.g) | f3bd3f B3df3B | Gc3 c3B ABcA F3A |
+B4 (.B3.F) DF3 B3c | d3Bd3f b4 (.b3.f) | gfga b3g f3dB3F | GE3 c3A B4 ||
+uD4 |\
+B,4 (.B,3.C) DF3 B3A | GB3 B3G FD3 D3F | G3Be3G F3Bd3B | Gc3 c3B ABcA F3D |
+B,4 (.B,3.C) DF3 B3A | G3Be3g f4 (.d3.f) | gfga b3g f3dB3F | GE3 c3A B4 |]
+
+%%sep 2 1 500
+
+X: 361
+T: Lady Lucy Ramsay
+C: Trad. arr. Bert Murray
+R: strathspey
+B: Bert Murray's "Bon Accord Collection" 1999 p.36
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+ug |\
+e<g g>a g>ec>a | g>ca>c e<d d>g | e<g g>a g>ag>e | f>dB>g (e<c) c :|
+uc |\
+G>cE>c d>cd>e | c<c e>d c<A A>c | G>cE>c d>cd>e | c>AG>F (E<C) C2 |
+G>cE>c d>cd>e | c<c e>d c<A A>c | G>cE>c F>cE>c | A>ag>f (e<c) c |]
+
+%%sep 2 1 500
+
+X: 362
+T: Grampian
+C: Bert Murray
+R: strathspey
+B: Bert Murray's "Bon Accord Collection" 1999 p.36
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+uB2 |\
+d<d d>B G2 (.G>.A) | B>dg>f g>d B<G | c<c c>A F2 (.F>.G) | A>cf>e d/e/d c/B/A |
+d>ed>c B>A B<G | g>f e/f/g d2 B<G | A>cf>e d/^c/d e/d/=c | B/d/c B/c/A G2 ||
+uD2 |\
+G<G G>A B>dg>e | d/e/d c/B/A B<G G>E | =F>FF>G A>c=f>d | c/d/c _B/A/G A<=F F>D |
+G<G G>A B>AB>g | d>ed>c B<G G>B | (3cBc (3edc (3BAB (3dcB | (3ABc (3def g2 |]
+
+%%sep 2 1 500
+
+X: 371
+T: Banchory Fiddlers
+C: Bert Murray
+R: strathspey
+B: Bert Murray's "Bon Accord Collection" 1999 p.37
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+uc2 |\
+[A2A4]A,2 A3B c3Ac3e | (fga2) (.e3.c) (dB3) (.B3c.) |\
+[A2A4]A,2 A3B c3Ac3e | (fga2) (.e3.d) (cA3) (.A3c.) |
+[A2A4]A,2 A3B c3Ac3e | (fga2) (.e3.c) (dB3) (.B3e.) |\
+a3ec3e f3ae3a | (fga2) (.e3.a) (cA3) [A2A2] ||
+ue2 |\
+a3ec3A d3fB3f | a3ec3e fB3 B3e | a3ec3A (def2) (.B3.g) | a3fe3d cA3 A3e |
+a3ec3A d3fB3g | agf2 edc2 dB3 B3e | a3ec3e f2a2e2a2 | (fga2) (.e3.a) (cA3) [A2A2] |]
+
+%%sep 2 1 500
+
+X: 372
+T: The Peterson Rant
+C: Bert Murray
+R: strathspey
+B: Bert Murray's "Bon Accord Collection" 1999 p.37
+%
+N: This tune was written for I. & S. Peterson of Dollar.
+N: The 3rd B, in bar 1 might be a C, as in bar 5.
+N: The GB in bar 3 might be dotted, but the B lacks a flag.
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces
+[|\
+{CB,A,}vG,B,D>B, G,>B,E>C | B,>DG>D (3BAG (3FED | C>EA>C B,>D GB | (3cdc (3BAG (3FED (3CB,A, |
+G,>B,D>B, G,>CE>C | B,>G,D>B, G>DB>G | E>Gc>E D>GB>G | (3FED (3CB,A, (B,<G,)G,2 ||
+B,<E E>F G>FE>G | B>cB>A (G<E)E2 | A,D D>E F>ED>F | A>BA>G (F<D)D2 |
+B,<E E>F G>FE>D | B,>A,G,>A, B,2D2 | E>Gc>E D>GB>G | (3FED (3CB,A, (B,<G,) G,2 |]
+
+%%sep 2 1 500
+
+X: 381
+T: Norrie Williams
+C: Bert Murray
+R: strathspey
+B: Bert Murray's "Bon Accord Collection" 1999 p.38
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: The final e4 should probably be e2.
+M: C
+L: 1/16
+K: Em
+uD2 |\
+B,3E E3G B3AG3B | A3Bd3B AGFE D3A, | B,E3 E3G B3AG3B | A3FD3F GE3 E3D |
+B,3E E3D B,E3 E3F | D3FA3^c dcBA GFED | B,E3 E3G B3AG3B | A3FD3F (GE3) E4 ||
+Be3 e3f g3fe3^c | d3BA3d FD3 D3d | Be3 e3f g3fg3e | f3ga3f ge3 e3d |
+Be3 e3f g3fe3^c | d2fd A2dA F2AF (.D3.A,) | B,E3 E3G B3eg3b | a3fd3f (ge3) e4 |]
+
+%%sep 2 1 500
+
+X: 382
+T: Musselburgh
+C: Bert Murray
+R: strathspey
+B: Bert Murray's "Bon Accord Collection" 1999 p.38
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+uG |\
+c>GE>C (F<A) (GA/B/) | c>GE>C B,<D D>G | c>GE>C F<A G>c | (3ABc (3Bcd (3edc (3BAG |
+c>GE>C (F<A) (GA/B/) | C>eg>c B<d d>e | (3cde (3def g>ec>G | A>cB>g (e<c) c ||
+ue |\
+g>ec>e G>cE>G | c>eg>e f<d d>e | f>dB>d G>dB>d | (3bag (3fga g<e e>f |
+g>ec>e G>cE>G | c>eg>c B<d d>e | (3cde (3def g>ec>G | A>cB>g (e<c) c |]
+
+%%sep 2 1 500
+
+X: 391
+T: Angus Grant
+C: Bert Murray
+R: strathspey
+B: Bert Murray's "Bon Accord Collection" 1999 p.39
+%
+N: Written for Angus Grant the left handed fiddler from Lochaber
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: C
+[|\
+vc>de>d (c<G)G2 | E>D C/E/G B<dd2 | d>ef>e d>cB>A | (3G^FG (3ABg (f<e)e2 |
+c>Bd>c (3cea (3geg | G>ec>e (f<A)A2 | (3cBA (3dcB (3edc (3fed | (3gec (3ABg (e<c)c2 ||
+c2(.G>.c) e2(.c>.e) | (3gec (3Gce (f<d)d2 | B2(.G>.B) d2(.B>.d) | (3bag (3fga | (g<e)e2 |
+c2(.e>.c) g2(.e>.g) | c'>ge>c B<d d>e | (3fed (3cBA (3gfe (3dcB | (3GBd (3gfd (e<d)c2 |]
+
+%%sep 2 1 500
+
+X: 392
+T: Mrs B. Jolly
+C: Bert Murray
+R: strathspey
+B: Bert Murray's "Bon Accord Collection" 1999 p.39
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+^E |\
+A>Bc>B A2(.E>.A) | F>E F<A E2(ED) | C>EA>c e2(.c>.A) | d>ed>c B2(.A>.B) |
+c>d c<e A2(.E>.A) | F>Ad>F E2 (E/F/G) | A2(.e>.c) B>A B<c | A2 (B/A/G) A3 ||
+ue |\
+a2(.a>.g) a>e c<e | a2(.a>.e) f2 (e/f/g) | a2(.a>.g) a>ec>e | f<a e>c B2 (e/f/g) |
+a2(.a>.g) a>ec>A | d>cd>e f2 (a/g/f) | e>cA>c d>BG>B | A2 (B/A/G) A3 |]
+
+%%sep 2 1 500
+
+X: 401
+T: Muckle Friday
+C: Bert Murray
+R: jig
+B: Bert Murray's "Bon Accord Collection" 1999 p.40
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+|: ug |\
+e2g d>ed | c>GG G2c | A>Bc G>cd | (e/f/g)e d2g |\
+e>ge d>ed | c2G G2c | A>dc B>ed | c3 c2 :|
+|: uE |\
+G>EC C>EG | A2F F2A | G>EG A>FA | G>EC (D2E) |\
+G>EC (D2E) | (A/B/c)A G>EG | A>dc B>ed | c3 c2 :|
+
+%%sep 2 1 500
+
+X: 402
+T: The Johnston Jig
+C: Bert Murray
+R: jig
+B: Bert Murray's "Bon Accord Collection" 1999 p.40
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|:\
+vB2G G>FG | E>GG D>GG | C>GG B,>GG | A,>AG F>ED |\
+B2G G>FG | E>GG D>GG | E>FG D>CA, | G,>GG G3 :|
+B2d d>Bd | g>fe d>BG | E2c D>BB | E>AG F>ED |\
+B2d d>Bd | g>fe d>BG | E>FG D>CA, | G,>GG G3 ||
+B2d d>Bd | c2e e>ce | B2d d>BG | E>AG F>GA |\
+B2G G>FG | E>GG D>GG | E>FG D>CA, | G,>GG G3 |]
+
+%%sep 2 1 500
+
+X: 411
+T: Hazel's Delight
+C: Bert Murray
+R: jig
+B: Bert Murray's "Bon Accord Collection" 1999 p.41
+%
+N: This tune was written for the mother of talented fiddler, Carmen Higgins.
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+uA |\
+F>G^G A>BA | F>G^G A>BA | D>FA (d2e) | f3- f2f |\
+g2B B2g | f2A A>df | (e>f)e d>cB | A>BA G>FE |
+F>G^G A>BA | F>G^G A>BA | D>FA (d2e) | f3- f2f |\
+g>fg B>dg | f>ef A>df | e>fe A>Bc | d3- d2 ||[K:G]
+D |\
+B2B B2A | G2D D2B, | G,>B,D G>FE | F3- F3D |\
+c2c c2B | A2A A2G | F>GF E>DC | B,3- B,2D |
+B>dB A>BA | G2D D2B, | G,>B,D G>^F=F | E3- E2E |\
+E2c c>BA | D2B B>AG | F>ED c>BA | G3- G2 ||[K:D]
+A |\
+F>G^G A>BA | F>G^G A>BA | D>FA (d2e) | f3- f2f |\
+g2B B2g | f2A A>df | e>fe d>cB | A>BA G>FE |
+F>G^G A>BA | F>G^G A>BA | D>FA (d2e) | f3- f2f |\
+g>fg b>ag | f>ef a>gf | e>ae | A>Bc | d3- d2 |]
+
+%%sep 2 1 500
+
+X: 421
+T: Middleton's Moothie
+C: Bert Murray
+R: jig
+B: Bert Murray's "Bon Accord Collection" 1999 p.42
+%
+N: Written for Arthur Middleton
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+uB |\
+d3   d>cB | d>cB (G2D) | G,>B,D G>Bd | d>cB (c2A) |\
+c3   c>BA | c>BA (F2E) | D>FA   A>Bc | e>dc (B2c) |
+d>gd d>cB | d>cB (G2D) | G,>B,D G>Bd | g>fg (e2d) |\
+c>ec A>cA | F>AF (D2d) | f>ed   c>BA | G3    G2   ||
+uA |\
+B>dB B>dB | G>BG (D2B,) | G,>B,D G>Bd | d>cB (c2B) |\
+A>cA A>cA | F>AF (D2d)  | f>ed   f>ed | e>dc (B2d) |
+B>dB B>dB | G>BG (D2B,) | G,>B,D G>Bd | g>fg  e2d |\
+c2e  A>Bc | A2F   D2d   | f>ed   c>BA | G3    G2  |]
+
+%%sep 2 1 500
+
+X: 431
+T: Glenavon
+C: Bert Murray
+R: jig
+B: Bert Murray's "Bon Accord Collection" 1999 p.43
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: {AB^c}vd3 d>BG | D>GB d>Bg | {^c}d2d d>BG | D>FA e>dc |
+{^e}f>gf d>BG | D>GB d>Bg | f>ed c>BA |1 B>GG G3 :| B>GG G2 |
+|: uA |\
+{A}B2B B>gB | B>gB B>gB | {B}c3 c>ac | c>ac c>ac |
+{A}B>GB B>gB | B>GB B>dg | f>ed c>BA | B>GG G2 :|
+
+%%sep 2 1 500
+
+X: 432
+T: The Tartan Sash
+C: Bert Murray
+R: jig
+B: Bert Murray's "Bon Accord Collection" 1999 p.43
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Fixed missing dot after last note.
+M: 6/8
+L: 1/8
+K: D
+[|\
+vFAF EFE | D2D DFA | d2d (A2F) | G3 G3 |\
+EGE CEC | A,2A, A,CE | c2c BAG | F3 F3 |
+FAF EFE | D2D DFA | d2d (A2^A) | B3 B3 |\
+B^AB edB | A^GA dcB | cBA GFE | D3- D3 ||
+A, |\
+FFF (F2A,) | FFF (F2A,) | FDF AGF | G3- G3E |\
+GAG EGE | CEC (A,2E) | A,CE A^G=G | F3- F2A, |
+FFF (F2A,) | FFF (F2A,) | DFA dc=c | B3- B2B |\
+B^AB edB | A^GA dcB | cBA GFE | D3- D3 |]
+
+%%sep 2 1 500
+
+X: 441
+T: The Loupin' Jig
+C: Bert Murray
+R: jig
+B: Bert Murray's "Bon Accord Collection" 1999 p.44
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: The beats and the phrase boundaries don't line up.
+M: 6/8
+L: 1/8
+K: Em
+|:\
+vE>ee (e2f) | g>fe d>^cB | A>FA d>AF | D>DE F>ED |\
+ E>ee (e2f) | g>fe d>^cB | A>FA d>AF | E>FE E2 :|
+uF |\
+G>AB B>GE | B,>EG B>AG | A>dA F>AF | D>DE F>ED |\
+G>AB B>GE | B,>EG B>AG | A>FA d>AF | E>FE (E2F) |
+G2B B>AG | D2G B>AG | A>dA F>AF | D>DE F>ED |\
+E>ee (e2f) | g>fe d>^c B | A>FA d>AF | E>FE E2 |]
+
+%%sep 2 1 500
+
+X: 442
+T: Johnnie Walker
+C: Bert Murray
+R: jig
+B: Bert Murray's "Bon Accord Collection" 1999 p.44
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: uF |\
+D>FA d2d | B>AG F>ED | =C>EG =c>Bc | G>AG G>E=C |\
+D>FA d2d | B>cd A>FA | B>cd c>de | f>dd d2 :|
+|: uA |\
+d>fd A>FA | B>GB A>FD | A,>DF A>dF | G>EE (E2A) |\
+d>fd A>FA | B>dB A>FA | B>cd c>de | f>dd d2 :|
+
+%%sep 2 1 500
+
+X: 451
+T: Alasdair Martin
+C: Bert Murray
+R: jig
+B: Bert Murray's "Bon Accord Collection" 1999 p.45
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: This tune was written for Alasdair Martin of Taigh na Teud Music Publishers.
+M: 6/8
+L: 1/8
+K: Bm
+|:\
+vBcB fed | BcB fed | cAc ece | aec ABc |\
+BcB fed | cBc Ace | (f<a)f ece | fec B3 :|
+def BBB | fed fed | (c2e) (A2c) | afa ecA |\
+def BBB | def fed | cAc ece | aec (B2c) |
+def (B2d) | fed fed | cde (a2f) | ecA ABc |\
+d3 e3 | fed fed | cAc ece | aec B3 |]
+
+%%sep 2 1 500
+
+X: 452
+T: A Dance for Natalie
+C: Bert Murray
+R: jig
+B: Bert Murray's "Bon Accord Collection" 1999 p.45
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: This tune was written for Natalie McMaster from Cape Breton.
+M: 6/8
+L: 1/8
+K: F
+|:\
+vAcA FAF | CFC (A,2B,) | CDE FGA | cBA (B2A) |\
+GBG EGE | CCC (C2A,) | CEG BAG |1 A3 (c2B) :|2 F3 (F2A) |
+cAc fcf | a2f c2A | FAc cBA | B3 (B2A) |\
+GBG EGE | CCC (C2A,) | CEG GAB | dcB (A2B) |
+cAc fcf | a2f c2A | FAc cBA | B3 (B2A) |\
+GBG EGE | CCC (C2A,) | CEG BAG | F3 F3 |]
+%%text Repeat in the key of G
+
+%%sep 2 1 500
+
+X: 461
+T: The Wild Geese
+C: Trad arr. Bert Murray
+R: jig
+B: Bert Murray's "Bon Accord Collection" 1999 p.46
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+uc |\
+Bdd dBd | efg dBG | B2d dBG | F2A ABc |\
+B2d dBd | efg dBG | ABc def | gdB G2 :|
+(ud/e//f//) |\
+g3 GBd | gfg dBG | cBA ecA | afd def |\
+g3 GBd | gfg dBG | ABc def | g3 def |
+g3 GBd | gfg dBG | c2A e2A | afd def |\
+g3 dBd | e2g d2B | ABc def | g3 g2 |]
+
+%%sep 2 1 500
+
+X: 462
+T: The Happy Mistake
+C: Trad arr. Bert Murray
+R: jig
+B: Bert Murray's "Bon Accord Collection" 1999 p.46
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: ue |\
+AEA BAB | (c<a)f ecB | AEA BAB cAF | F2E |\
+AEA BAB | (c<a)f ecA | dcB cAF | ABA A2 :|
+|: ue |\
+ada fga | fba gfe | aea fga | bge efg |\
+a3 (b2g) | agf ecA | dcB cAF | ABA A2 :|
+
+%%sep 2 1 500
+
+X: 471
+T: Johnny McGill
+C: Campbell arr Bert Murray
+R: jig
+B: Bert Murray's "Bon Accord Collection" 1999 p.47
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Removed dot from final D, to match the initial pickup note.
+M: 6/8
+L: 1/8
+K: F
+uf |\
+cAA AGF | cAA (A2f) |cAA AGA | FDD (D2f) |\
+cAA AGF | cAA AGF | GAB AGA | FDD (D2c) ||
+f3 g3 | {fg}afd cAc | f3 g3 | {fg}afd dfg |\
+afa geg | fdf fed | cAA AGA | FDD D2 |]
+
+%%sep 2 1 500
+
+X: 472
+T: Marchmont House
+C: N. Gow arr. Bert Murray
+R: jig
+B: Bert Murray's "Bon Accord Collection" 1999 p.47
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+uA |\
+FAF (D2A) | ded dAG | FAF uD2uf | eEE (E2G) |\
+FAF (D2A) | dfd dAG | FdF Edc | dAF uD2 ||
+ug |\
+faf (d2f) | aba afd | faf def | eEE uE2ug |\
+faf dfa | bag fed | BdB AFd | AFD D2 |]
+
+%%sep 2 1 500
+
+X: 473
+T: He's O'er the Hill
+C: Trad arr. Bert Murray
+R: jig
+B: Bert Murray's "Bon Accord Collection" 1999 p.47
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+uE |\
+EFA (A2c) | cBA (F2A) | EFA Aec | cBA (B2F) |\
+EFA (A2c) | cBA (F2f) | e2f ecA | BAG A2 ||
+c |\
+e2f ecA | cBA F2f | e2f ecA | cBA B2c |\
+e2f ecA | cBA F2A | EFA Aec | BAG A2 |]
+
+%%sep 2 1 500
+
+X: 481
+T: Scottie
+C: Bert Murray
+R: jig
+B: Bert Murray's "Bon Accord Collection" 1999 p.48
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: uB |\
+G>GG D>B,D | C>EG D>B,D | G>GG D>GB | d>BG (A2B) |\
+G>GG D>B,D | E>CE D>B,D | G,>B,D G>Bd | c>EF G2 :|
+ud |\
+g>fg B>cd | c>ag f>ed | g>fg B>cd | c>af (g2d) |\
+g>fe d>BG | E>FG D>B,D | E>FG A>dc | B>GG G2 ||
+d |\
+g2g B>cd | c>ag f>ed | g2g B>cd | c>af g2d |\
+b>gd B>GD | E>CE D>B,D | G,>B,D G>Bd | c>EF G2 |]
+
+%%sep 2 1 500
+
+X: 482
+T: The Sprite
+C: J.S. Skinner arr. Bert Murray
+R: jig
+B: Bert Murray's "Bon Accord Collection" 1999 p.48
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+uB |\
+A>FD d2c | c2B A2F | G>AB A>Fd | F>EE E2B |\
+A>FD d2c | c2B A>GF | G>AB A>FD | E3 D2 :|
+uA |\
+F>ED F>GA | B>cd A>FD | G2B A>FD | A>GF E2A |\
+F>ED F>GA | B>cd A>FD | F>DF A>GF | E3 (D2 ||
+A) |\
+F>ED F>GA | B>cd A>FD | G>AB A>FD | E>F^G A2B |\
+A>FD d2c | c2B A>GF | G>AB A>FD | E3 D2 |]
+
+%%sep 2 1 500
+
+X: 491
+T: A Jig for Jerry
+C: Bert Murray
+R: jig
+B: Bert Murray's "Bon Accord Collection" 1999 p.49
+%
+N: Written for Jerry Holland well known fiddler from Cape Breton
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+ud |\
+g>dB G>Bd | g>fe d>cB | g>dB G>Bd | c3- c2B | A>Bc A>Bc |
+f2f f2e |1 d>^cd e>d=c | B3- B2 :|2 d>^cd ^d>ef | g3- g2 ||
+d |\
+d>BG G>Bd | d>BG G>Bd | d>Bd g>fe | f3- f2e | e^de c>Bc |
+A>^GA F>ED | D>FA e>dc | B3- B2 || d | d>BG G>Bd | d>cB d>ef |
+g>fg (a2g) | e3- e2e | e^de g>fe | d>^cd g>dB | c>dc (B2A) | G3- G2 |]
+
+%%sep 2 1 500
+
+X: 492
+T: The Editor
+C: Bert Murray
+R: jig
+B: Bert Murray's "Bon Accord Collection" 1999 p.49
+%
+N: Written for Ron Ramsay of the "Box and Fiddle"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+ud |\
+B2B B2A | G2G G2A | B>dg g>fe | f3 (f2e) |\
+e>^de c>Bc | A>GA F>ED | D>FA e>dc | B3 (B2c) |
+d>cB d>cB | G2G G>Bd | g>fg a2g | e3 (e2f) |\
+g>fg d>cB | e>dc B>AG | A>Bc d>ef | g3 g2 ||
+uB |\
+d>dd (d2B) | d>dd (d2B) | G>Bd g>fe | f3 (f2e) |\
+e>^de c>Bc | A>^GA F>ED | D>FA e>dc | B3 (B2c) |
+d>cB d>cB | G2G G>Bd | g>fg a2g | e3 (e2f) |\
+g>fe d>cB | e>dc B>AG | A>Bc d>ef | g3 g2 |]
+
+%%sep 2 1 500
+
+X: 501
+T: Penny Farthing
+C: Bert Murray
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 6/8
+L: 1/8
+K: Edor
+B \
+| "Em"EFE BAB | EFE BAB | "D"AdA FAF | DDE FED \
+| "Em"EFE BAB | EFE BAB | "D"dcB ABd | BAF "Em"E2 :|
+B \
+| "Em"efg gfe | Bef gfe | "D"dfd AdA | FAF DFA \
+| "Em"efg gfe | Bef gfe | "D"dcB ABd | BAF "Em"E2 |]
+B \
+| "Em"efg gfe | Bef gfe | "D"dcd A^GA | FEF DEF \
+| "Em"EFE BAB | EFE BAB | "D"dcB ABd | BAF "Em"E2 |]
+
+%%sep 2 1 500
+
+X: 502
+T: Mud in your Eye
+C: Bert Murray
+R: jig
+B: Bert Murray's "Bon Accord Collection" 1999 p.50
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+uB |\
+d>ed B>dB | G>BG (D2B,) | D>EF G>AB | c3 (c2A) |\
+c>dc A>cA | F>AF uD2uD | D>FA d>^c=c | B3 (B2c) |
+d>ed B>dB | G>BG (D2B,) | G,>B,D G>Bd | e3 (e2f) |\
+g>fe d>cB | e>dc B>AG | F>ED c>BA | G3 G2 ||
+B |\
+d>ed B>GB | d>ed g>fe | d>BG D>GB | c3 (c2A) |\
+c>ec A>cA | F>AF uD2uD | D>FA d>^c=c | B3 (B2c) |
+d>ed B>GB | d>ed g>fe | d>Bd g>ag | e3 (e2f) |\
+g>fe d>cB | e>dc B>AG | A>Bc d>ef | g3 g2 |]
+
+%%sep 2 1 500
+
+X: 511
+T: Maggie and Jock
+C: Trad. arr. Bert Murray
+R: shottish, strathspey
+B: Bert Murray's "Bon Accord Collection" 1999 p.51
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+|: vE<GG2 E<cc2 | B>AA>^G A4 | (D<F)F2 F<BB2 | A>GG>^F G4 |
+    E<GG2 E<cc2 | B>AA>^G A4 |  B2B>A G>FE>D | C2c2 c2"_Fine"z2 :|
+|: vG>EC>A G>EG>c | B2B2 B4 | (B>G)F>G (3BAG (3FED | C2c2 c4 :|[K:G]
+|: vD>GB>D E>Gc>E | (3DGB (3dBG D2z2 | (3vDFA (3dcA F2z2 | (3vGBd (3edB G2z2 |
+   vD>GB>D E>Gc>E | (3DGB (3dBG D2z2 | (3vDFA (d>^c) =c>EF>D | G2G2 "D.C. al Fine"G2z2 :|
+
+%%sep 2 1 500
+
+X: 521
+T: Woodland Flowers
+C: Trad. arr. Bert Murray
+R: shottish
+B: Bert Murray's "Bon Accord Collection" 1999 p.52
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Bert labelled the parts with numbers rather than the usual letters.
+N: I changed the final part from "1" to "1'" to avoid confusion.
+P: Play 11 22 11 3 1'
+M: C
+L: 1/8
+K: G
+"1"[|]\
+((3uB,C^C) |\
+D>BA>G D>BA>G | (3E^DE A>c e4 | d>_dc>E B>AE>F | (3GBA (3GFE D2 ((3B,C^C) |
+D>BA>G D>BA>G | (3E^DE A>c e4 | d>_dc>E B>AE>F | G2G2 G2 :|[K:D]
+"2"\
+|: A2 |\
+(3fed A2 (3fed A2 | (3gfe B2 (3gfe B2 | c>A^G>A B2c2 | (3dfe (3dcB A2A2 |
+(3fed A2 (3fed A2 | (3gfe B2 (3gfe B2 |\
+"(Repeat part 1 before playing part 3)"\
+c>A^G>A B2c2 | d2d2 d2 :|
+"3"[|]\
+A2 |\
+F4 (G>F)G>^G | A2A2 d3c | B>^AB>c d2B2 | A6 ((3ABA) |
+G2e2 e3G | F2d2 d3c | B>^AB>c d>cd>f | e2A2 ^G2=G2 |
+F4 (G>F)G>^G | A2d2 d3c | B>^AB>c d2e2 | f6 (e>f) |
+g2B2 B2 ((3gag) | f2A2 A3d | B>^AB>d c>=c^c>e | d2d2 d2 ||[K:G]
+"1'"[|]\
+((3uB,C^C) |\
+D>BA>G D>BA>G | (3E^DE A>c e4 | d>_dc>E B>AE>F | (3GBA (3GFE D2 ((3B,C^C) |
+D>BA>G D>BA>G | (3E^DE A>c e4 | d>^cd>e f>de>f | g2g2 g2 |]
+
+%%sep 2 1 500
+
+X: 531
+T: Nellie's Polka
+C: Bert Murray
+R: polka, shottish
+B: Bert Murray's "Bon Accord Collection" 1999 p.53
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+(uB,>C) |\
+D2B,>D G2D>G | B2B2 B2(B>c) | d>BG>D B,>DC>B, | C6 (A,>B,) | C2A,>C E2C>E |
+A2A2 A2(A>G) | F>GE>F D>EC>D | B,6 (B,>C) | D2B,>D G2D>G | B2B2 B2(B>c) | d>BG>D B,>DG>F |
+E6 (A>B) | c>dc>B A>BA>G | F>GF>E D2(F>E) | D/D/D D>D E2F2 | G6 ||
+(G>A) |\
+B2d2 G2G>A | B2d2 G2G>A | B>BB>B A2B2 | c6 (A>B) | c2c>B A2A>G |
+F2F>E D2F>E | D>DD>D G2A2 | B6 (G>A) | B2d2 G2(G>A) | B2d2 G2(G>A) | B>BB>B A2G2 |
+E6 (A>B) | c>dc>B A>BA>G | F>GF>E D2(F>E) | D/D/D D>D E2F2 | G6 |]
+
+%%sep 2 1 500
+
+X: 532
+T: Nellie's Polka
+C: Bert Murray
+R: polka, shottish
+B: Bert Murray's "Bon Accord Collection" 1999 p.53
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+(uB,>C) |\
+"G"D2B,>D G2D>G | "G"B2B2 B2(B>c) | "G"d>BG>D B,>DC>B, | "C"C6 (A,>B,) |
+"Am"C2A,>C E2C>E | "Am"A2A2 A2(A>G) | "D7"F>GE>F D>EC>D | "G"B,6 (B,>C) |
+"G"D2B,>D G2D>G | "G"B2B2 B2(B>c) | "G"d>BG>D B,>DG>F | "Am"E6 (A>B) |
+"D7"c>dc>B A>BA>G | "D7"F>GF>E D2(F>E) | "D7"D/D/D D>D E2F2 | "G"G6 ||
+(G>A) |\
+"G"B2d2 G2G>A | "G"B2d2 G2G>A | "G"B>BB>B A2B2 | "C"c6 (A>B) |
+"D7"c2c>B A2A>G | "D7"F2F>E D2F>E | "D7"D>DD>D G2A2 | "G"B6 (G>A) |
+"G"B2d2 G2(G>A) | "G"B2d2 G2(G>A) | "G"B>BB>B A2G2 | "Am"E6 (A>B) |
+"D7"c>dc>B A>BA>G | "D7"F>GF>E D2(F>E) | "D7"D/D/D D>D E2F2 | "G"G6 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Clackmannan Lilt
+C: Bert Murray MCPS
+R: shottish
+M: C
+L: 1/8
+K: Bb
+^c \
+|: "Bb"d/^c/d =c>d c>B F>D | "Eb"(3EGB (3BGE "Bb"D>F B,>D \
+|  "Cm"E>G c>E "Bb"D>F B>d | "C7"(3cdc (3BAG "F7"(3FAc (3edc ||
+|  "Bb"d/^c/d =c>d c>B F>D | "Eb"(3EGB (3BGE "Bb"D>F B,>D \
+|  "F7"(3ecA (3FGA "Bb"B>d f>b | "F7"(3agf (3edc "Bb"B2- {cBAB}B2 :|
+|: "F7"A>B c>d e>c A>G | "Bb"(3FBd (3fga b>f d>B \
+|  "Eb"e>g c>e "Bb"d>f B>d ||[1 "F7"c>f a>g f>e d>c ||[2 "C7"(3cdc (3BAG "F7"(3FAc (3edc ||
+|  "Bb"d/^c/d =c>d c>B F>D | "Eb"(3EGB (3BGE "Bb"D>F B,>D \
+|  "F7"(3EDE F>A "Bb"B>d f>b | "F7"(3agf (3edc "Bb"B2- {cBAB}B2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: the Clackmannan Lilt
+C: Bert Murray MCPS
+R: shottish
+M: C
+L: 1/8
+K: Bb
+^c \
+|: "Bb"d/^c/d =c>d c>B F>D | "Eb"(3EGB (3BGE "Bb"D>F B,>D \
+|  "Cm"E>G c>E "Bb"D>F B>d | "C7"(3cdc (3BAG "F7"(3FAc (3edc ||
+|  "Bb"d/^c/d =c>d c>B F>D | "Eb"(3EGB (3BGE "Bb"D>F B,>D \
+|  "F7"(3ecA (3FGA "Bb"B>d f>b | "F7"(3agf (3edc "Bb"B2- {cBAB}B2 :|
+|: "F7"A>B c>d e>c A>G | "Bb"(3FBd (3fga b>f d>B \
+|  "Eb"e>g c>e "Bb"d>f B>d ||[1 "F7"c>f a>g f>e d>c ||[2 "C7"(3cdc (3BAG "F7"(3FAc (3edc ||
+|  "Bb"d/^c/d =c>d c>B F>D | "Eb"(3EGB (3BGE "Bb"D>F B,>D \
+|  "F7"(3EDE F>A "Bb"B>d f>b | "F7"(3agf (3edc "Bb"B2- {cBAB}B2 :|
+
+%%sep 1 1 500
+
+X: 332
+T: The Cotter Hoose
+C: Bert Murray, Aberdeen
+R: strathspey
+B: RSCDS 42-8
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+C2 \
+|:"F"A,<F F>G A<c f2 | "Gm"D<G "G7"G>F "C7"E<C C>B, \
+| "F"A,<F F>G "Dm"A<c f2 | "Gm"(3dcB "G7"(3AGF "C7"(3EDC (3B,A,G, |
+| "F"A,<F F>G A<c f2 | "Gm"D<G "G7"G>F "C7"E<C C>E \
+| "F"F>A "C/E"(3GAB "F"A>c "Bb"(3Bcd | "F"c>f "C7"e>g "F"a<f f2 ||
+||"F"A<c c>B "Am"A<c c>e | "Dm"f>c A>F "D7"A<c c>A \
+| "Gm"B<d d>c B<d d>f | "C"(3gfe "G7"(3fed "C7"(3edc (3BAG |
+| "F"A<c c>B "Am"A<c c>e | "Dm"f>c A>F "D7"A<c c>A \
+| "Gm"B>d "C7"(3GAB "F"A>c "Bb"f>d | "C7"c>A G>c "F"A<F F2 :|
+
+%%sep 1 1 500
+
+X: 332
+T: The Cotter Hoose
+C: Bert Murray, Aberdeen
+R: strathspey
+B: RSCDS 42-8
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+C2 \
+|:"F"A,<F F>G A<c f2 | "Gm"D<G "G7"G>F "C7"E<C C>B, \
+| "F"A,<F F>G "Dm"A<c f2 | "Gm"(3dcB "G7"(3AGF "C7"(3EDC (3B,A,G, |
+| "F"A,<F F>G A<c f2 | "Gm"D<G "G7"G>F "C7"E<C C>E \
+| "F"F>A "C/E"(3GAB "F"A>c "Bb"(3Bcd | "F"c>f "C7"e>g "F"a<f f2 ||
+||"F"A<c c>B "Am"A<c c>e | "Dm"f>c A>F "D7"A<c c>A \
+| "Gm"B<d d>c B<d d>f | "C"(3gfe "G7"(3fed "C7"(3edc (3BAG |
+| "F"A<c c>B "Am"A<c c>e | "Dm"f>c A>F "D7"A<c c>A \
+| "Gm"B>d "C7"(3GAB "F"A>c "Bb"f>d | "C7"c>A G>c "F"A<F F2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: A Dance for Sylvia
+C: Bert Murray, 1998
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+N: Suggested tune for the Stoner House.
+M: 6/8
+L: 1/8
+K: G
+E \
+| "G"DB,G, B,DG \
+| B2B B2A \
+| GFE DCB, \
+| "Am"C3- C2B, \
+| "D7"A,B,C A,B,C \
+| F2F F2E \
+| D^CD ED=C \
+| "G"B,3- B,2E |
+| "G"DB,G, G,A,B, \
+| D2G G2A \
+| BcB BAG \
+| "C"E3- E2E \
+| c2c cBA \
+| "G"GFE D2B, \
+| "D7"DED CB,A, \
+| "G"G,3- G,2D ||
+|| "G"DGB dBG \
+| DGA BAG \
+| DGB dcB \
+| "Am"c3- c2B \
+| "D7"cBc A^GA \
+| F^EF D^CD \
+| DFA d_dc \
+| "G"B3- B2c |
+| "G"dBG DB,G, \
+| B,DG B2c \
+| "G7"d2d dcB \
+| "C"e3- e2f \
+| gfe dcB \
+| "Am"edc BAG \
+| "D7"ABc def \
+| "G"g3- g2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: A Dance for Sylvia
+C: Bert Murray, 1998
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+N: Suggested tune for the Stoner House.
+M: 6/8
+L: 1/8
+K: G
+E \
+| "G"DB,G, B,DG \
+| B2B B2A \
+| GFE DCB, \
+| "Am"C3- C2B, \
+| "D7"A,B,C A,B,C \
+| F2F F2E \
+| D^CD ED=C \
+| "G"B,3- B,2E |
+| "G"DB,G, G,A,B, \
+| D2G G2A \
+| BcB BAG \
+| "C"E3- E2E \
+| c2c cBA \
+| "G"GFE D2B, \
+| "D7"DED CB,A, \
+| "G"G,3- G,2D ||
+|| "G"DGB dBG \
+| DGA BAG \
+| DGB dcB \
+| "Am"c3- c2B \
+| "D7"cBc A^GA \
+| F^EF D^CD \
+| DFA d_dc \
+| "G"B3- B2c |
+| "G"dBG DB,G, \
+| B,DG B2c \
+| "G7"d2d dcB \
+| "C"e3- e2f \
+| gfe dcB \
+| "Am"edc BAG \
+| "D7"ABc def \
+| "G"g3- g2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Gannet
+C: Bert Murray
+R: jig
+B: Bon Accord 4
+M: 6/8
+L: 1/8
+K: A
+e \
+| "A"AEA cAc | ece a2e | "D"fga "A"ecA | "Bm"edc "E7"B2c \
+| "A"AEA cAc | ece a2a | "Bm"gfe "D7"dcB | "A"A3 A2 :|
+e \
+| "D"fdf faf | "A"ece eae | "D"def "A"ecA | "Bm"edc "E7"B2e \
+| "D"fdf faf | "A"ece a2a | "Bm"gfe "D7"dcB | "A"A3 A2 |]
+e \
+| "D"fdf faf | "A"ecA Ace | "D"fga "A"ecA | "Bm"edc "E7"B2c \
+| "A"AEA cAc | ece a2a | "Bm"gfe "D7"dcB | "A"A3 A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Harbour
+C: Bert Murray
+M: C|
+L: 1/8
+K: D
+|: A2 | "D"d2d2 fedc | d2d2 "A7"A2Bc | "D"dcde "Bm"fagf | "Em"f2e2 "A7"egfe | "D"d2d2 "A"fedc |
+| "G"dcdB "D"A2dc | "G"BGBd "A7"ceag | "D"f2"(G)"d2 "D"d2 :: fg | "D"a2af d2fa | "Em"b2bg "A7"e2fg |
+| "D"abaf "Bm"dfaf | "Em"g2e2 "A7"e2fg | "D"agfe dcBA | "G"B2dB "D"A2dc | "G"BGBd "A7"ceag | "D"f2"(G)"d2 "D"d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Lochnagar
+C: Bert Murray M.C.P.S.
+R: strathspey
+B: the Bon Accord Collection
+N: For Sheena Blackhall - Scottish Poet
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+A,2 \
+| D3A, D3E F3D FA3 | G3D G3A B3G Bd3 \
+| A3F d3B A3F D3F | G2AB A2GF GE3 E3F |
+y2 \
+| D3A, D3E F3D FA3 | G3D G3A Bd3 d3A \
+| d3c B3A B3c d3B | A3F E3A FD3 D2 |]
+A2 \
+| d3e f3e dA3 A3d | B3c d3B AF3 F4 \
+| G3A B3G F3G A3F | G2AG F2ED CE3 E3A |
+y2 \
+| d3e f3e dA3 A3d | BABc d3B AF3 F3A \
+| d3c B3A B3c d3B | A3F E3A FD3 D2 |]
+
+%%sep 1 1 500
+
+X: 291
+T: Maureen's Waltz
+C: Bert Murray
+R: waltz
+B: Bert Murray's "Bon Accord Collection" 1999 p.29
+%
+N: This tune was written for Maureen Rutherford, a brilliant pianist.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+N: Corrected missing half beat in bar 57, in the obvious way.
+M: 3/4
+L: 1/8
+K: Bb
+uF2 |\
+d3 ^c d=c | B2 F2 D2 | E3 G B2 | F4 F2 |\
+d3 ^c de | f2 d2 B2 | G2 A3 B | c4 F2 |
+d3 ^c d=c | B2 A2 _A2 | G3 ^F GB | F4 D2 |\
+E2 G2 B2 | F2 B3 G | A2 d3 c | B4 F2 |
+d3 ^c d=c | B2 F2 D2 | EG,B,E GB | F4 F2 |\
+d3 ^c de | f2 d2 B2 | G^FGA BG | c4 F2 |
+d3 ^c d=c | B2 A2 _A2 | G3 ^F GB | F4 D2 |\
+EG,B,E GB | F2 B3 G | A2 d3 c | B4 ||
+B2 |\
+A3 ^G AB | c2 A2 F2 | B3 A Bc | d6 |\
+e3 G Be | d3 F Bd | G2 c3 B | A2 G2 F2 |
+A3 ^G AB | c2 A2 F2 | B3 A Bc | d2 F2 D2 |\
+E2 G3 E | F2 B3 G | A2 d3 c | B4 B2 |
+A3 ^G AB | c2 A2 F2 | B3 A Bc | d6 |\
+e2 g3 e | d2 F3 B | G2 c3 B | A2 G2 F2 |
+A3 ^G AB | c2 A2 F2 | B3 A BG | F4 F2 |\
+EG,B,E GB | F2 B3 G | A2 d3 c | B6- | B4 |]
+
+%%sep 1 1 500
+
+X: 501
+T: Penny Farthing
+C: Bert Murray
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 6/8
+L: 1/8
+K: Edor
+B \
+| "Em"EFE BAB | EFE BAB | "D"AdA FAF | DDE FED \
+| "Em"EFE BAB | EFE BAB | "D"dcB ABd | BAF "Em"E2 :|
+B \
+| "Em"efg gfe | Bef gfe | "D"dfd AdA | FAF DFA \
+| "Em"efg gfe | Bef gfe | "D"dcB ABd | BAF "Em"E2 |]
+B \
+| "Em"efg gfe | Bef gfe | "D"dcd A^GA | FEF DEF \
+| "Em"EFE BAB | EFE BAB | "D"dcB ABd | BAF "Em"E2 |]
+
+%%sep 1 1 500
+
+X: 501
+T: Penny Farthing
+C: Bert Murray
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 6/8
+L: 1/8
+K: Edor
+B \
+| "Em"EFE BAB | EFE BAB | "D"AdA FAF | DDE FED \
+| "Em"EFE BAB | EFE BAB | "D"dcB ABd | BAF "Em"E2 :|
+B \
+| "Em"efg gfe | Bef gfe | "D"dfd AdA | FAF DFA \
+| "Em"efg gfe | Bef gfe | "D"dcB ABd | BAF "Em"E2 |]
+B \
+| "Em"efg gfe | Bef gfe | "D"dcd A^GA | FEF DEF \
+| "Em"EFE BAB | EFE BAB | "D"dcB ABd | BAF "Em"E2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: a Reel for Paul
+C: Bert Murray MCPS
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: C|
+L: 1/8
+K: F
+A \
+|: "F"FGAB "C7"=Bcde | "F"fcAF CFAF | "Gm"GABc    "D7"de=f^f | "Gm"gdBG "C7"DB,G,E |
+|  "F"FGAB "C7"=Bcde | "F"fcAF CFAc | "Eb"(B/c/d) GB "F"Acfd | "C7"cAGc "F"AFF2   :|
+B \
+|: "F"A>c .c/.c/.c "(C7)"faag | "F"fdcA FAcA | "Gm"B>d .d/.d/.d  gbba | "C7"gfed    cBAG  |
+|  "F"A>c .c/.c/.c "(C7)"faag | "F"fdcA FAcA | "Eb"(B/c/d) GB "F"Acfd | "C7"cAGc "F"AFF2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: a Reel for Paul
+C: Bert Murray MCPS
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: C|
+L: 1/8
+K: F
+A \
+|: "F"FGAB "C7"=Bcde | "F"fcAF CFAF | "Gm"GABc    "D7"de=f^f | "Gm"gdBG "C7"DB,G,E |
+|  "F"FGAB "C7"=Bcde | "F"fcAF CFAc | "Eb"(B/c/d) GB "F"Acfd | "C7"cAGc "F"AFF2   :|
+B \
+|: "F"A>c .c/.c/.c "(C7)"faag | "F"fdcA FAcA | "Gm"B>d .d/.d/.d  gbba | "C7"gfed    cBAG  |
+|  "F"A>c .c/.c/.c "(C7)"faag | "F"fdcA FAcA | "Eb"(B/c/d) GB "F"Acfd | "C7"cAGc "F"AFF2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Renton's Rant
+C: Bert Murray
+R: strathspey
+B: The Bon Accord Collection
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Em
+D \
+| "Em"B,>E ~E2 G>E B>G | "D"FE/D/ A,>D F>D A>D \
+| "Em"B,>E ~E2 G>E B>G | "D"FE/D/ A>F "Em"G<E E ||
+D \
+| "Em"B,>E ~E2 G>E B>G | "D"FG/A/ d>B A>F D>F \
+| "Em"EF/G/ "D"FG/A/ "G"B>A G>B | "D"A>F D>F "Em"G<E E ||
+B \
+| "Em"e>f g>e b>e g>e | "D"d>f A>d F>A D>d \
+| "Em"B>e g>e b>e g>e | "D"f>e d>f "Em"g<e e  |
+B \
+| "Em"e>f g>e b>e g>e | "D"d>f A>d f>d a>f \
+| "Em"ef/g/ "D"fg/a/ "G"b>a g>b | "D"a>f d>f | "Em"g<e e |]
+
+%%sep 1 1 500
+
+X: 1
+T: Renton's Rant
+C: Bert Murray
+R: strathspey
+B: The Bon Accord Collection
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Em
+D \
+| "Em"B,>E ~E2 G>E B>G | "D"FE/D/ A,>D F>D A>D \
+| "Em"B,>E ~E2 G>E B>G | "D"FE/D/ A>F "Em"G<E E ||
+D \
+| "Em"B,>E ~E2 G>E B>G | "D"FG/A/ d>B A>F D>F \
+| "Em"EF/G/ "D"FG/A/ "G"B>A G>B | "D"A>F D>F "Em"G<E E ||
+B \
+| "Em"e>f g>e b>e g>e | "D"d>f A>d F>A D>d \
+| "Em"B>e g>e b>e g>e | "D"f>e d>f "Em"g<e e  |
+B \
+| "Em"e>f g>e b>e g>e | "D"d>f A>d f>d a>f \
+| "Em"ef/g/ "D"fg/a/ "G"b>a g>b | "D"a>f d>f | "Em"g<e e |]
+
+%%sep 1 1 500

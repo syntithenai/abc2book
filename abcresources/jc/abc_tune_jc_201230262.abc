@@ -1,0 +1,25 @@
+X: 1351
+T: Stumpie Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.35 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+A2 |\
+c2e2 a4 (bagf) a4 | c2e2 a4 b2B2-B2d2 | c2e2 a4 (bagf) a4 | c2e2B2d2 c2A2-A2 :: d2 | c2e2-e2dc d2f2-f2ed | c2e2-e2dc f2B2B2d2 |
+c2e2-e2dc d2f2-f2ed | c2a2B2d2 c2A2-A2 :: d2 | c2e2 a4 (bagf) a4 | a2A2 cdec fedc BcdB | cdec defd efge a3e |
+fedc Bcde c2A2-A2 :: e2 | cdef eaec defa fafd | cdef eaec fedc BcdB | cdec defd efge a3e |
+fedc Bcde c2A2-A2 :: d2 | c2e2-e2a2 c2e2-e2a2 | c2e2-e2ga b2B2B2d2 | c2e2 a4 ({b}agfg) a4 | c2e2B2d2 c2A2-A2  :|
+|: cd | (ecAc) (acAc) (ecAc) (acAc) | (fdcd) (ec)(ac) d2B2-B2cd | (ecAc) (acAc) (ecAc) (acAc) | (fe)dc Bcde c2A2-A2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |\
+a4a4 a4a4 | a4a4 b4e4 | a4a4 e4c2d2 | e4E4 A4A2 :: z2 | a4a4 d4d4 | a4a4 b4e4 |
+a4a4 d4d4 | e4E4 A4A2 :: z2 | a4a4 a4a4 | a4a4 e4g4 | a4d4 e4f2c2 |
+d4e4 A4A2 :: z2 | a4 c'2a2 d'4d2f2 | a4A4 d4e2g2 | a4d4 e4f2c2 |
+d4e4 A4A2 :: z2 | a4a4 a4a4 | a4a4 b4e4 | A4c2e2 e4f2d2 | e4E4 A4A2 :||: z2 | a4 a4
+a4a4 | d'4a4 b4e4 | a4A4 a4A4 | d4e4 A4A2 :|

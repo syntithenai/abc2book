@@ -1,0 +1,28 @@
+X: 1
+T: Lambeth Ferry
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (127)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c2 |\
+A2c2 f2a2 | g4 g2ba | g2G2 G2c2 | A4 A2c2 |\
+f3e defd | g2 e4 fg | agfe fedc | c6 :|
+|: e2 |\
+f3g a2d2 | ^c2 A4 e2 | f2A2 f2ed | d4 d2cB |\
+A2c2 f2d2 | g2 e4 fg | a2f2 c2e2 | f6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man setts to the 2d Wo. then turn her with his
+%% right Hand then your Partner with your left Hand then
+%% your Partner does the same :| Then cross over and Figure
+%% in and right and left quite round then the single Figure
+%% at the Top and right Hands and left quite round with the
+%% 3d Cu.
+%%endtext
+%%sep 1 8 500

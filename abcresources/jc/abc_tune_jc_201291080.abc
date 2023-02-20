@@ -1,0 +1,18 @@
+X:352
+T:Isobel's Idyll
+C:Colin Hume, 2016
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=112
+%%MIDI program 71     Clarinet
+%%MIDI bassprog 32    Acoustic Bass
+%%MIDI ratio 3 1
+K:C
+P:A
+|: "C"c2 Gc | "F"A>G FE | "G"D>E FG | "C"EC- "C/B"C2 | "Am"cB/c/- c2 | "D"d^c/d/- d=c | "G"Bd "D7"BA | "G"G4 :|
+P:B
+|: "G"d2 G2 | "C"c2 B>c | "D7"d2 c2 | "G"B2- "G7/F"B2 | "E7"B2 E2 | "Am"c2 B>A |1 "C"G2 "A7/C#"A2 | "D"^F4 :|2 "D7"G2 ^F2 | "G"G2- "G7"G2 |
+P:C
+|: "C"c2 E>F | "C"Gc- "C/B"cd | "Am"e<c "Dm"f>e | "G"d3 e/f/ |\
+"C"g2 "G/B"g>f | "Am"eg "C/G"ec |1 "F"f<e "D7/F#"d>c | "G"d2- "G7"d2 :|2 "F"f<e "G7"d>c | "C"c4 |]

@@ -1,0 +1,17 @@
+X: 1
+T: Cori-Lation
+C: by Erik Hoffman
+R: reel, march
+B: PC3 p.53
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Amix
+%%continueall
+"^A"|:\
+"A"A2c2 ABc2 | "D"d3d "A"c2A2 | "D"d2 f4 f2 | "A"efed c2A2 ||\
+"D"d2 f4 f2 | "A"efed c2A2 | "G"A2 G4 B2 | "A"A8 :|
+"^B"|:\
+"A"a2 e4 a2 | "G"b3b a2g2 | "A"a2 e4 a2 | "D"fgaf e2d2 ||\
+"A"a2 e4 a2 | "G"b3b a2g2 | "D"f2 d4 c2 | "A"A8 :|

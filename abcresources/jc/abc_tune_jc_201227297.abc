@@ -1,0 +1,17 @@
+X: 10712
+T: LADY MONTGOMERY'S REEL
+%R: reel, strathspey
+B: "Edinburgh Repository of Music" v.1 p.71 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The purpose of the single initial segno isn't obvious.
+M: C|
+L: 1/8
+K: D
+|: !segno!\
+d2d>A F>GAF | d2d>B c>def |\
+d2d>A FGAF | E<ee>d cdef :|\
+d<d a>d fda2 | d<d a>d fgab |
+d<d a>d fdaf | gfed ceef |\
+d<d a>d fda2 | d<d a>d f>ga>b |\
+af g>e f>d e>c | d>B A>F Eeef |]

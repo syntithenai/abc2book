@@ -1,0 +1,54 @@
+X: 1
+T: Tit for Tat
+P: Longways for as many as will
+%R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.68
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #7 (13)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd phrase has a begin repeat but no end repeat.
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+N: The D.C. at the end seems superfluous; the dance seems to be 32 bars long.
+N: Perhaps the tune was meant to be played AABA?  Or maybe the dance should end in the middle?
+N: The tied notes are single 3-count notes in CCDTB, two notes in CCDM2.
+N: The first halves of the dances are different; the second halves are the same.
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c2c |\
+G2G ABA | G3 c2-c | d2e f2e | d2c c2c |\
+G2G ABA | G2-G c2c | ded e2d | Hc3 :|
+|: efg |\
+g3 efg | g3 efg | a2g f2e | d2c efg |\
+g3 efg | g3 efg | a2g f2e | d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+c3 |\
+e3 f3 | e2c zzc | g2e d2c | g2c zzc |\
+e3 f3 | e2c e3 | f3 g3 | c3 :|
+|:\
+zzc' |\
+b2g zzc' | b2g zze | f2e d2c | g2c zzc' |\
+b2g zzc' | b2g c2e | f2e d2c | g3 "^D.C.":|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+%% The first Man sett to the 2d Wo. & clap Hands & turn, then foot it & knee it
+%% the 1st Man cast off below the 2d Cu. .|
+%% The 1st Wo. & 2d Man do the same, then first Wo. cast off below the 2d Wo :|
+%% the 1st Cu. go Hands across quite round with the 3d Cu.
+%% then lead up round the 2d Cu. into the 2d Cu. Place .|
+%% Then Right and Left with the 2d Cu. & turn Partners :|
+%% [CCDTB]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% First Cu dance through the 2d Cu and cast off .|
+%% 1st Wo. and 2d Man do the same then 1st Wo. cast off below the 2d Wo :|
+%% 1st Cu. go Hands across quite round with the 3d Cu. Then lead up round the 2d Cu. into the 2d Cu. Place .|
+%% Then Right and left with the 2d Cu. and turn Partners :|
+%% [CCDM2]
+%%endtext
+%%sep 1 8 500

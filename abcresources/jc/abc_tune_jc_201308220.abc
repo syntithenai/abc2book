@@ -1,0 +1,19 @@
+X: 799
+T: Mayor Harrison's Fedora
+R: reel
+%S: s:6 b:24(4+4+4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #799
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0799/oneill-1001-0799-1.abc
+M: C|
+L: 1/8
+K: Em
+"^A"[|] (EF) \
+| GE(EG B2)AF | (GFG)(A BA)GE | FDD(F A2)FA | d(cdB) AGFA ||
+| GE (3(EFG) B2AF | (GFG)(A B2)Bc | de (3(dcB) AGF(A | (3GFE) (FD) E2 |]
+"^B"[| (Ac) \
+| Bcd(f e2)ef | ede(f ed)BA | GAB(c d2)de | (3(dcB) (gf) edBA ||
+| Bcd(f ed)e(f | ga)g(e dcB)c | d(e (3dcB A)GFA | (3(GFE) (FD)E2 |]
+"^C"[| (EF) \
+| GAB(A G2)Bc (3(dcd) (AG) FDDF | E(DEG) BABd | (3(gfe) (fd) edge ||
+| d(e (3dcB A)BA((F | G)F)EF  GABc | de (3(dcB A)GFA | (3(GFE) (FD) E2 |]

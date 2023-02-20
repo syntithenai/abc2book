@@ -1,0 +1,30 @@
+X: 1081
+T: MARION QUICK-STEP
+C: Adam Kurek
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.108 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: There's no initial repeat and a fat bar line in the middle of the first phrase.
+N: Fat bar lines are transcribed as ] alone, which some ABC software may not understand.
+N: If this is a problem, rewrite ] as || or |], or just a plain | bar line.
+N: The note lengths don't add up right at the part boundaries.
+N: There really are 53 bars.
+M: 2/4
+L: 1/16
+K: D
+|:\
+A2A2 {B}A2Bc | d2d2 {e}d2cd | e2e2 {f}e2^de | f6 (3edc |\
+B2B2 {c}B^ABc | d2d2 {e}dcde | f2f2 fecd | B4 z4 ]
+A4- A>gf>^e | f>Ad>f b3a | g2gf gba^g | a2f2 d2cB |\
+A4- A>gf>^e | f>Ad>f b3a | g2gf gABc | d2f2d2z2 :|
+|: cd |\
+e4 e4 | e2de fedc | B2c2 d2^d2 | (e4 cE)Ac |\
+e4 e4 | e2de fedc | B2f>f e>e ^G>G | A2BA ^GABc ]
+d2dd dddd | d2 D2F2A2 | d2A2 F2D2 | A4 F3G ]\
+(B4 A4) | z3AB3c | (e4 d4) | z3dc3B |\
+A4 A3A | B3AG3F | A3GF3G | E2F2G2^G2 |
+(B4 A4) | z3AB3c | (e4 d4) | z3dc3B |\
+(B4 A3)F | (A4 G3)E | D2d2 dcde | f2c2 dcde |
+f2gf edcB | A2 a4 c2 | d2d2 dcde | f2A2 dcde |\
+f2gf edcB | A2 a4 c2 | defg afge | d4 d4 | d4 z4 :|
+

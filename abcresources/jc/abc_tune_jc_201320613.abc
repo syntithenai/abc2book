@@ -1,0 +1,82 @@
+
+X: 1
+T: Ose Shalom
+M: C
+L: 1/8
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+K: D
+|: "D"(DF E)D F F3 | (DF) ED F2 F2 | (DF ED) F (F2 D) | "(Bm)"FF "A7"EE "D"D4 :|
+w: O-__se sha-lom sha-_lom bim-ro-mav hu___ ya`-se_ ya-`a-se sha-lom
+|: "D"A2 FA "G"B2 (GB) | "D"A6 z2 | "D"A2 FA "G"(B2 GB) | "D"A6 zd |
+w: hu ya-`a-se sha-*lom sha-lom a-ley-__nu v'-
+|  "Bm"(d2Bd) "F#m"(c2 Ac) | "Em"B2 (GB) "A7"A4 | "D"A2 FA "G"B2 (GB) | "D"A6 z2 :|
+w: al__ kol__ Yis-ra-*el v-'i-m'-ru a-*men
+
+
+%%sep 1 1 500
+
+X: 2
+T: Ose Shalom [Bb]
+M: 2/4
+L: 1/8
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+K: Bb
+|: "Bb"B,D CB, | D D3 | B,D CB, | D2 D2 \
+| B,D CB, D | D2 B, | "(Gm)"DD "F7"CC | "Bb"B,4 \
+:| "Bb"F2 DF | "Eb"G2 EG | "Bb"F4- | F2 z2 |
+| "Bb"F2 DF | "Eb"G2 EG | "Bb"F4- | "(F7)"F2 zB |\
+|  "Gm"B2GB | "F"A2 FA | "Eb"G2 EG | "F7"F4 \
+| "Bb"F2 DF | "Eb"G2 EG | "Bb"F4- | "(F7)"F2 z2 |]
+
+
+%%sep 1 1 500
+
+X: 3
+T: Ose Shalom [C]
+M: 2/4
+L: 1/8
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+K: C
+|:"C"CE DC |   E E3   |      CE     DC |      E2 E2 \
+|    CE DC |   E E2 C |"(Am)"EE "G7"DD | "C"  C4    \
+:|"C"G2 EG | "F"A2 FA | "C"  G4-       |"(G7)"G2 z2 |
+| "C"G2 EG | "F"A2 FA | "C"  G4-       |"(G7)"G2 zc |\
+|"Am"c2 Ac | "G"B2 GB | "F"  A2 FA     | "G7" G4    \
+| "C"G2 EG | "F"A2 FA | "C"  G4-       |"(G7)"G2 z2 |]
+
+
+%%sep 1 1 500
+
+X: 4
+T: Ose Shalom [D]
+M: 2/4
+L: 1/8
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+K: D
+|:"D"DF ED |   F F3   |      DF     ED |      F2 F2 \
+|    DF ED |   F F2 D |"(Bm)"FF "A7"EE | "D"  D4    \
+:|"D"A2 FA | "G"B2 GB | "D"  A4-       |"(A7)"A2 z2 |
+| "D"A2 FA | "G"B2 GB | "D"  A4-       |"(A7)"A2 zd |\
+|"Bm"d2 Bd | "A"c2 Ac | "G"  B2 GB     | "A7" A4    \
+| "D"A2 FA | "G"B2 GB | "D"  A4-       |"(A7)"A2 z2 |]
+
+
+%%sep 1 1 500
+
+X: 5
+T: Ose Shalom [E]
+M: C
+L: 1/8
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+K: E
+|: "E"EG FE G G3 | EG FE G2 G2 \
+| EG FE G G2 E | "(C#m)"GG "B7"FF "E"E4 \
+:| "E"B2 GB "A"c2 Ac | "E"B6 z2 |
+| "E"B2 GB "A"c2 Ac | "E"B6 ze \
+|  "C#m"e2ce "B"d2 Bd | "A"c2 Ac "B7"B4 \
+| "E"B2 GB "A"c2 Ac | "E"B6 z2 |]

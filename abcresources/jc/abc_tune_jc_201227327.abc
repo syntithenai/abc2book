@@ -1,0 +1,24 @@
+X: 10722
+T: SLOW MARCH FROM "THE BATTLE OF PRAGUE."
+C: Kotzwara
+%R: march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.72 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+f4 f3f f4 gfed | {d}c4 c3c c4 a3f |\
+{e}d4 b3g {f}e4 g3e | f4 f3f f4 (a2g2) |\
+g4 e2f2 g2g2(a2g2) | {g}f4 d2e2 f2f2(g2f2) |\
+{f}e2de gfed c4 =B4 | c4 c3c c4 z4 :|
+|:\
+c4 c3d e3fg3a | b4 g3b a4 a2b2 |\
+c'2a2f2f2 b3ga3f | g4 c3c c4 A3B |\
+c4 d3e f4 a3f | {e}d4 b3g a4 (3(c2f2a2) |\
+c'2a2f2f2 a2g2f2e2 | f4 f3f f4 z4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

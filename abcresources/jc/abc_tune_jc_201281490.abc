@@ -1,0 +1,20 @@
+X: 1
+T: the Gobby-O
+T: Jefferson and Liberty
+O: Kerr c.1875
+B: Pinewoods Scottish Music Collection [Alternates] (1986)
+B: Kerr's 1st c.1875
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu> (and some simplifications to the chords)
+M: 6/8
+L: 1/8
+K: Ador
+B \
+| "Am"c2A AcA | "Am"E2A A2c | "G"B2G GBc | "G"dBG "(Em)"GAB \
+| "Am"c2A AcA | "Am"E2A "(F)"A2e | "C"edc "G"BAG | "Am"E2A A2 :|
+B \
+| "Am"A2B c2d | "C"e2f g2e | "D"faf "C"g2e | "G"dBG GAB \
+| "Am"A2B c2d | "C"e2f g2f | "C"edc "G"BAG | "Am"E2A A2 |]
+B \
+| "Am"A2B c2d | "C"e2f g2e | "D"faf "C"g2e | "G"dBG GAB \
+| "Am"c2c "(F)"cBA | "G"Bcd "C"efg | "C"edc "G"BAG | "Am"E2A A2 |]

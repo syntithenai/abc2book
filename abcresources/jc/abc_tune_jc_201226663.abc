@@ -1,0 +1,38 @@
+X: 1039
+T: Tweedside
+P: Longways for as many as will
+R: minuet
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: This tune has 3-bar phrases.
+M: 3/4
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+cB |\
+A2 E2 F2 | A3 B (A/B/)c | B4 cB |\
+A2 E2 F2 | A3 B cB | A4 |]
+cd |\
+e2 (dc)(BA) | e2 (fe)(dc) | B4 cd |\
+e2 c2 A2 | AGABcd | e4 (f/g/a) |
+e2 (dc)(BA) | f2 (ed)(cd) | B4 AB |\
+c2 (dc)(BA) | d2 B3 A | A4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+a2 |\
+c4 d2 | c2 d2 A2 | e4 a2 |\
+c4 d2 | c2 d2 e2 | A4 |] a2 |\
+c2 e2 a2 | c2 d2 A2 | e4 a2 |\
+c2 e2 a2 |
+d4 cB | A4 d2 |\
+c2 e2 a2 | d2 A2 a2 | e2E2 cB |\
+A2 a2 c2 | B2 e2 E2 | A4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First Man dance the Minuet Step with the 2d Wo .|
+right and left with the 3d Cu. :|
+then the 1st Man turn the 3d Wo. and the 1st Wo. with the 2d Man and then his own Partner .|
+then the 1st Man turn the 2d Wo. and the 1st Wo. the 3d Man and turn Partners :|
+%%endtext

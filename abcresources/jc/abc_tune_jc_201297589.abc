@@ -1,0 +1,22 @@
+X:5
+T:Knis Kalles minne
+C:Sven Nyhus
+Z:2005 Brian Wilson, #104 in Fel'klang
+M:2/2
+L:1/8
+Q:1/2=80
+K:A
+(E2
+||: "A"A3) E A2 (AB) | "E"(cd)BG "A"A2 (Ac | "A"e2) (cA "D"dc) df
+|   "D"(~f2e2) "A"(ecea) | "E"~g3f e2 (ea) | "E"~(gfe2) "A"{ag}(a2ec)
+|   "D"(df)ag (af)df | "D"~(f2ec) "A"A2 ef | "E"e3d {BA}B2 (Bc)
+|   "E"{dc}d2 (dc) (BA)(GF) | E3G (BG)(Be) | "D"~(f2ef) "E"{gf}(g2bg)
+|   "A"a3g {ag}a2 (ec) | "D"{dc}d2 fd (fecA) | "E"{EF}E2 (EG) (Bd)BG
+|[1 "A"{AG}A6 (E2 :|[2 "A"{AG}A6 (Ad
+K:D
+||: "D"f3g f2 e2 | "D"{dc}d2 A2 F2 D2 | "G"G3A (GF)(GA) | "G"{BA}B3A G2 (GF)
+|   "A"E3F (ED)(EF) | "Em"{GF}G2 E2 "A"C2 E2 | "A"A2 (Ac) (eg)(ec)
+|   "D"(dcd)(e fe)fg | "D"a3b a2 g2 | "d"{fg}f2 d2 A2 F2
+|   "D"(DF)(AF) (BA)(dA) | "G"{BA}B3A G2 (GF) | "A"E3 A (cA)(ce)
+|   "A"{fgf}g3f (ef)(ed) | "A"(cd)(cB) (Ac)ec
+|[1 "D"ud6 v(Ad :|[2 "D"ud6 v(E2 |

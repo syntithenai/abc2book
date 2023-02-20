@@ -1,0 +1,15 @@
+X: 244
+T: Nino
+O: Armenia
+M: 2/4
+L: 1/8
+Q: 1/4=220
+K: Am
+%%MIDI program 23
+%%MIDI gchord fz
+|:"D"Bcdz |"F"dcdz|cBcz   |"A"BAAz|\
+  "F" Azcz|cBcz   |BAAz   |[1d2z2 :|[2"A"A2z2|
+|:"C"c3z  |c3z    |"F"c2d2|d2c2   |"D"B4     |"C"c3z :|\
+|:"C"c3z  |c3z    |"F"c2d2|d2c2   |"D"B4     |"C"c3z :|
+|:"D"d2z2 |"F"dccB|"A"A2B2|cBcz   |"F"BAAz   |d4     |\
+  "D"d2z2 |"F"dccB|"A"A2B2|cBcz   |BAAz      |A4     :|

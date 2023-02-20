@@ -1,0 +1,16 @@
+X: 1
+T: Hambo etter Knut og Karl Ramleth
+O: Norway
+%D:
+R: shottish
+S: Fiddle Hell Online 2022-4-10 handout for Mariel Vanderwsteel's Norwegian workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Reduced the "endings" to initial pickups, which fixed the rhythm problems with repeats.
+M: 4/4
+L: 1/8
+K: A
+"^A"|::: cd |\
+e2ce a2c2 | d2dd d4 |[1,3 B2=GB d2d2 | cBAB c2 :|[2,4 B2=GB dcB2 | A6 :|[K:=g]
+[K:D]"^B"|: A=G |:\
+F3F G2G2 | A2d2 f4 |[1,3 f2ef g2g2 | gfeg f4 :|[2,4 f2ef gece | d6 :|
+%%text This isn't a hambo, but it works as a shottish/reinlender.

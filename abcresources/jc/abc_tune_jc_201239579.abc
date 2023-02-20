@@ -1,0 +1,24 @@
+X: 331
+T: Miss Cumine of Logie's Reel
+C: by Wm Christie
+R: reel
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c." p.33 #1
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+d |\
+.B(GF).G (TEF).G.E | (DC).B,.C {B,C}D2DG | (EA)GB AcBd | (ce) A>B {F}G2G :| B | Ggbg afge | (dc).B.c {Bc}d2dg |
+.e(a^ga) .b(=gTfg) | afge ~d2de/f/ || gdBd GdBd | gdBc {Bc}d2dg | ecdB cA (Bc/d/) | (c/d/e) A>B {F}G2G |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+g2d2 e2c2 | B2G2 g2B2 | c2G2 A2B2 | c2d2 G2g :| z | g2g2 d2e2 | B2G2 g2b2 |
+c'2a2 d'2d2 | a2A2 d2c2 || B2g2 b2g2 | [g2b2]g2 g2b2 | c'2b2 a2g2 | c2d2 G2g |]
+% = = = = = = = = = =

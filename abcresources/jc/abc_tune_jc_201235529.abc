@@ -1,0 +1,27 @@
+X: 21201
+T: FRA DIAVOLO SETT (tune 1)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.120 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="1"
+D |\
+G2FG2B | d3- d2B | d2B d2B | d^c=c A3 |\
+A2A AGA | B2d G2z | A2A dcA | G3- G2 H|]
+d |\
+A2A AGA | B2d G2z | A2A d2c | B2z z2g |\
+A2A AGA | B2d G2D | A2A dcA | G3 "^D.C."z2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First lady forward and back twice,
+%% opposite gentleman the same,
+%% balance four,
+%% next two forward, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,20 @@
+X: 1
+T: Penttis Schottis fr\aan Norbotten efter J. P. Nystr\"oms
+O: Sweden
+R: shottish
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+S: PDF file from Laurie Hart (Fiddle Hell workshop)
+M: 4/4
+L: 1/8
+K: Am
+%%slurgraces
+E |\
+"Am"A>B c<d {d}e2 e2 | "Dm"f>e f<a "Am"e3 (d- |\
+"Dm"d>^c) d<B "Am"=c>B c<A | "E7"{A}B2 .e2 e>d c<B |
+"Am"A>B c<d {d}e2 e2 | "Dm"f>e f<a "Am"e3 (d- |\
+"Dm"d>c) B<A "E7"^G>E c<B | "Am".A2 .[A2E2] [A3E3] :|
+|: e |\
+"Am"{^g}[aA]>g a2 [a2A2] {g}[a2A2] | "A7"(A>^c) e<=g "Dm"(Tf>e) [d2-D2] |\
+"G7".[d2D2] g^f {f}g2 g2 | "G7"G>B d<=f "C"e>d c<d |
+"Am"(^d>e A2) (A>B) c<=d | "Am"(e2 {fg}a2) (a>e) g<f |\
+"Dm"e>d f<e "E7"d>B c<B | "Am".A2 .[A2E2] [A3E3] :|

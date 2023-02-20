@@ -1,0 +1,23 @@
+X:1
+T:Da\~ns Kef
+G:Kazimodal
+R:Gavotte comme da\~ns kef
+C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+Q:C2=164
+P:AB10
+M:4/4
+K:Em
+P:A
+%%MIDI gchord czfzfcfz
+%%MIDI chordprog 42
+%%MIDI bassprog 43
+%%MIDI program 68
+E/2 \
+P:B
+|| "Em"FG AG F>E "D"D2 | DG F>G "C"E2 E>E |\
+	"Am"FG AG F>E "Bm"D2 | DG F>G "C"E2 E>E ||
+|:\
+% Bug sinon version complète:
+M:4/4
+	"Em"E>B BA "G"B2 B>A | GB "D"AB/2A/2 "C"G2 GE |\
+	F>G "Am"AG F>E "Bm"D2 | DG F>G "C"E2 "A"E>E :|

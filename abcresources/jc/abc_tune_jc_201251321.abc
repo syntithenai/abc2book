@@ -1,0 +1,17 @@
+X: 1
+T: Becky's Mode
+C: David A. Kaynor 2000
+%D:2000
+R: reel
+M: 4/4
+K: Am
+|: dc \
+| "Dm"Addc    Addc |    AdcA    d2Ad \
+|  "C"cAAG    AdcA | "G"BdcB "C"c2Bc |
+| "Dm"Addc    Addc |    AdcA "F"f2fe \
+| "Dm"fafd "G"BdBG |"Am"AdcA    d2  :|
+|: de \
+| "Dm"f2af fafd | "C"cdef     g2cB \
+|     cdef gccB |    cdef     g2fe |
+| "Dm"f2af fafd | "C"cdef     gccB \
+|     cdef gcBc |"Am"AdcA "Dm"d2  :|

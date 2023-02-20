@@ -1,0 +1,24 @@
+X: 10581
+T: Allegro Maestoso
+C: Mazzinghi
+Q: "Allegro Maestoso"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.58-59
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+%%continueall
+[|\
+G2 c>c c2 e2 | g3 e c2 zc | f3 g e3 f | {d}d2 c2 z2 zG |\
+G2 E> F G2 c2 | G2 E>F G2 zG | e3 f ed c2 | A2 d>c c2 Bz |
+d3 d e3 e | ^f2 g2 Hc3 B | Ac e2 dB G2 | ^FA dc c2 Bz |\
+d3 B cd e^f | g3 ^f gf ed | ec A2 zDAc | e4 ^f2 g2 |
+c2 B2 Hz4 | A4 c2 e2 | d4- de cA | G4 THA4 |\
+G4 Hz4 | e2 d>c c2 c2 | B3 c d2 zd | {g}f2 ed d2 d2 |
+c3 d e2 z2 | g2 f>e e2 e2 | ed^cd g>df>d | c3 c edcB |\
+c GAB {d/}cBcd | e2 d>c c2 c2 | B3 c d2 zd | {g}f2 ed d2 d2 |
+c3 d e2 zC | EG ce g3 f | e>d e>f d2 zC | EG ce g2 Hz2 |\
+Hz2 "^Adagio"A2 f2 d2 | c4 Td4{cd} | c2 zg gg ga/b/ | c'4 c'4 | c'4 z4 |]
+%
+%%center -

@@ -1,0 +1,19 @@
+X: 10315
+T: HIGHLANDER'S FAREWELL TO IRELAND
+Q: "Slow strathspey time."
+%R: strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.31 #5
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Am
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A6 B2 AAA2 A4 | {^f}g3ed2B2 GGG2 G2g2 |\
+{^f}e3de2g2 a3ba2g2 | eg3{e}d2B2 AAA2 A4 ::\
+a6 b2 aaa2 a4 | g3ag2e2 (dcBA) G2g2 |\
+{^f}e3de2g2 a3ba2g2 | eg3d2B2 AAA2 A4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,23 @@
+X: 1
+T: Auchinellan Jig
+C:\251 George Meikle
+B: George Meikle "Originally Mine" p.14
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+c |\
+"F"FG_A "C/F"=A3 | "F"AB=B "C7"c3 | "F"f2f "Dm"dcA | "Gm"BGG "C7"G3 |\
+"C"CD_E "G/C"=E3 | "C"EF_G "E/C"=G2G | "C"c2c "E/C7"cBG | "F"BAA "C7"A2c |
+"F"FG_A "C/F"=A2A | "F"AB=B "C7"c3 | "F"f2f "Dm"dcA | "Gm"BGG "C7"G3 |\
+"C"CD_E "G/C"=E3 | "C"EF_G "E/C"=G | "C"c2c "E/C7"BAG | "F"F3 "C7"F2c ||
+"F"fFf "E/C7"d2c | "Ddim"FG_A "A/Dm"=A2F | "F"fFf "Dm"dcA | "Gm"BGG "C"G2c |\
+"C"eGe "E/C7"d2c | "C7"G_A=A "G/C7"B2G | "C"eGe "D/C7"d2c | "F"BAA "C7"A2c |
+"F"fFf "E/C7"d2c | "Ddim"FG_A "A/Dm"=A2F | "F"fFf "Dm"dcA | "Gm"BGG "C"G2c |\
+"C"eGe "E/C7"d2c | "C7"G_A=A "G/C7"B2G | "C"cEc "E/C7"BAG | "F"AFF F3 |]
+%%begintext align
+%% Auchinellan Estate is on the outskirts of Ford, Argyllshire and was used for a series of successful
+%% country dance weekends at which I played.  The popular dance "Auchinellan Jig" was devised by Alice
+%% McLean for the first of these weekends and this tune is the original for that dance.
+%%endtext

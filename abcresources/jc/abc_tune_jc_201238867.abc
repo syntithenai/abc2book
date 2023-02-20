@@ -1,0 +1,30 @@
+X: 31472
+T: COTILLION No. 32. LA SOMNAMBULA SETT tune 4
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.147 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+(GF)(GA) d2g2 | g4- g2d2 | d2(ef) gbag | fgaf d2(fg) |\
+(ag).f.e (dc).B.A | BGBd g2(dB) | c2(ea) (gf)(ef) | g2[G2B,2] [G2B,2] H|]
+(dB) |\
+G2(BA) G[BG]dg | (gf)(af) d2(af) | (gf).e.d (^cB).A.G | FAGB Adfa |\
+(gb).a.g (fe).a.^c | (df).g.f (af).d.c | dege fde^c | (d^c)de d=cB"^D.C."A |]
+K: Gm
+(dc) |\
+(Bc)(AB) (GB)(dg) | g2^f2 f2(fg) | a2^f2 (de)(dc) | B2(BA) GBd^f |\
+g2(bg) d2(gd) | e2(ge) c2e2 | d2g2  ^fd=ef | g2G,2 G,D=E"^D.C."^F |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across partners and back,
+%% all balance partners and turn,
+%% grand chain,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

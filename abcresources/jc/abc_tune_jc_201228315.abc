@@ -1,0 +1,21 @@
+X: 111
+T: the COMET
+%R: jig
+B: J.Gray's Twenty four Country Dances (for the Year 1812) p.11 #1
+S: http://www.eatmt.org.uk/gray_1812.htm 2014-8-7
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 16th-note triplets would be written as 8th-note triplets in modern notation.
+M: 6/8
+L: 1/8
+K: A
+((3e/f/g/) |\
+a2f ecA | {Bc}d2e f2((3e/f/g/) | a2f ecA | [B2E2][BE] [B2E2] ((3e/f/g/) |\
+a2f ecA | f2g a2e | aec' bed' | c'2a a2 :|
+|: e |\
+agf edc | def ecA | d2f ecA | [B2E2][BE] [B2E2]e |\
+agf edc | def ecA | def B2g | a2A A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change sides back again, down mid:, right & left.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

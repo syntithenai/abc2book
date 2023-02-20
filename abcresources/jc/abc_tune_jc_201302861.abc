@@ -1,0 +1,24 @@
+X:56
+T:Lively and Happy
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Klezmer Conservatory Band
+K:Am
+T: Intro
+"E"(3e_e=e fe dcBe ||
+T: Part A
+||"Am"ABc B2 ABc | e_ef =e2 _ecB | ABc B2 ABc | e_e "Dm"(3f=e_e "Am"=eE^"E"F^G|
+"Am"ABc B2 ABc | e_ef =e2 _ecB | ABc "E"B2 ABc | "Am"(A4A) Ace |
+K:ADor
+"Am"a2 a2 a2 ab | "G"(3gfe e e2 Ace |"Am"a2 a2 a2 ab | "G"(3gfe e "E"e2 EF^G|
+T: Goto end last time
+K:Am
+"Am"ABc B2 ABc | e_ef =e2 _ecB | ABc "E"B2 ABc | "Am"(A4A) Ade |
+T: Part B
+K:D
+|:"D"(f4f) efe | d A4 Ade | f{=gf}e f{gf}e f{gf}e f{gf}e | d A4 Ade |
+|"D"f4 "Dm"=f4 | "E"edc B2 Bcd | "A"ec"D"dB "A"cA"E"B^G |1 "A"(A4A) Ade :|2 A2 E2 "E"E2 E2 ||
+T: Last Time
+K:Am
+"Am"ABc B2 ABc | e_ef =e2 _ecB | ABc "E"B2 (7e_e=ef^fg^g | "Am"a2 z6 | "E"e2 z6 | "Am"A2z6 ||

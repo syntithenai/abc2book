@@ -1,0 +1,24 @@
+X:1
+T:Koiviston Hoijakka Medley
+M:3/4
+L:1/16
+Q:1/4=120
+S:Koiviston Polska, Hoijakka in D (name unknown)
+R:polska
+P:P:KP,H_in_D
+K:Am
+P:KP
+|: "Am" efed cdcB A2c2 | "E7" BcBA ^GAGF E2FG | !
+"Am" {B}A2^GA "E7" {c}B2AB "Am" {d}c2Bc |
+"Dm" {e}d2cd "E7" e4 [^G4B4e4] :| !
+|: "C" g4 gagf e2e2 | "G7" f2f2 f2ed "C" e2e2 | g4 gagf e2e2 | !
+"G7" f2f2 f2ed "E7" e2ed |
+"Am" cBcd e2c2 B2A2 | "E7" cBA^G G4 "Am" A2B2 | !
+{d}cBcd e2c2 B2A2 |[1 "E7" cBA^G G4 "Am" A4 :|[2 "E7" cBA^G G4 "Am  fine" A4 |
+K:D
+P:H_in_D
+|: "D" A^GAd f=gfe d2d2 | "A7" c3e gagf e2e2 |
+"D" A3d fgfe d2d2 | "E7" ~c2B2 "A" A4 A4 :| !
+|: "Em" gfga b2ba g2g2 | "D" fefg abag f2f2 | !
+"A7" e^def gfe=d c2Ac |[1 efec "D" d4 e2f2 :|
+[2 efec "D" d2 z2 "D.C. al fine" ^d4 ||

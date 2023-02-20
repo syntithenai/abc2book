@@ -1,0 +1,25 @@
+X: 1
+T: Wha'll be King but Charley   [Em]
+T: Se'n' Riogh a'tha aguin is fear linn.
+C:
+O:
+S: email from Darlene Wigton 2022007010
+R: jig
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em	% and G
+% = = = = = = = = = =
+V: 1 staves=2
+"^A1"[|] B, |\
+"Em"G2F G2A | B2c B2A | G2F G2A | "Bm"B3 B,3 ||\
+"Em"G2A B2e | "D"d2B A2B | "Em"G2E "Bm"EDB, | "Em"E3 E2 |]
+"^A2"|[| F |\
+"Em"G2G G2A | "G"B2B "D/F"B2A | "Em"G2G G2A | "Bm"B3 B,2F ||\
+"Em"G2A B2e | "D"d2B A2B | "Em"G2E "Bm"EDB, | "Em"E3 E2 |]
+"^B1"|[| F |\
+"Em"G2E EDB, | G2E EDB, | G2E EDB, | "D"D3 D2F ||\
+"Em"G2A B2e | "D"d2B A2B | "Em"G2E "Bm"EDB, | "Em"E3 E2 |]
+"^B2"|[| F |\
+"Em"G2E EDB, | G2E EDB, | "G"BAG "D"AGF | "Em"GFE "Bm"DCB, ||\
+"Em"G2A B2e | "D"d2B A2B | "Em"G2E "Bm"EDB, | "Em"E3 E2 |]

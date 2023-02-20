@@ -1,0 +1,32 @@
+X: 10761
+T: COTILLION No. 5. tune 1
+C:
+%R: polka, reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.76 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The rhythms don't match at the strain boundaries; not fixed.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+f2f2 f4 | edef d2c2 | B2A2 B2c2 | dABc dcde |\
+f2f2 f4 | edef d2c2 | B2A2 B2c2 | dcde d4 H|]
+d2 |\
+dcBA A3B | BAGF F2A2 | GFED C2D2 | EGFA GFED |\
+dcBA A3B | BAGF F3A | GFED C2D2 | E2F2"^D.C."D2 |]
+D2 |\
+DAFD CDEC | DAFD A,B,CA, | DAFD CDEC | DAFD A,B,CA, |\
+DAFD CDEC | DAFD A,B,CA, | DAFD CDEC | CAFD "^D.C."A,4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 right and left,
+%% balance 4,
+%% and turn partners,
+%% ladies chain,
+%% promenade 4,
+%% side couples the same.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

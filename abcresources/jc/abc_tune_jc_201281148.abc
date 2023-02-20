@@ -1,0 +1,61 @@
+
+X: 3
+T: the Glencoe Bridge March
+C: Dan R MacDonald (Cape Breton)
+B: The Fiddle Player's Tunebook 1
+D: Aly Bain/Phil Cunningham: The Ruby
+S: From the playing of Richard Wood
+Z: Chris Whistler?
+M: 4/4
+L: 1/8
+K:D
+F>G |\
+"D"A2d2 F2d2 | "D"AFAd f2 g<a |\
+[1,3 "Em"g2ge "A7"cAce | "G"dcdB "A7"A2 :|\
+[2,4 "Em"g2ge "A7"cAce | "D"d2 "A"dc "D"d2 :|
+|: f>g |\
+"D"a2ag fdfa | "Em"g2ge "A7"cAce |\
+"D"dcde fdfa | "G"gfgb "A7"a2fg |\
+[1 "D"a3 g fdfa | "Em"g3e "A7"cAce |
+"D"dcdf "A7"eAce | "D"d2"A7"dc "D"d2 :|\
+[2 "D"a{g}f "A7"g{f}e "D"fd"A7"ec | "D"dBAF DFAF |\
+"G"GBed "A7"cAce | "D"d2 "A"dc "D" d4 |]
+
+%%sep 1 1 500
+
+X: 5
+T: the Glencoe Bridge March
+C: Dan R MacDonald (Cape Breton)
+B: The Fiddle Player's Tunebook 1
+D: Aly Bain/Phil Cunningham: The Ruby
+S: From the playing of Richard Wood
+Z: Chris Whistler?
+M: 4/4
+L: 1/8
+K: D
+F>G |\
+"D"A2d2 F2d2 | "D"AFAd f2 g<a | "G"g2ge "A7"cAce |[1,3 "D"dcdB "A7"A2 :|[2,4 "D"d2 "A"dc "D"d2 :|
+|: f>g |\
+"D"a2ag fdfa | "G"g2ge "A7"cAce | "D"dcde fdfa | "G"gfgb "A7"a2fg |
+[1 "D"a3 g fdfa | "G"g3e "A7"cAce | "D"dcdf "A7"eAce | "D"d2dc d2 :|
+[2 "D"(3agf "A7"(3gfe "D"fdec | "D"dBAF DFAF | "G"GBed "A"cAce | "D"d2 "A7"dc "D"d4 |]
+
+%%sep 1 1 500
+
+X: 5
+T: the Glencoe Bridge March
+C: Dan R MacDonald (Cape Breton)
+B: The Fiddle Player's Tunebook 1
+D: Aly Bain/Phil Cunningham: The Ruby
+S: From the playing of Richard Wood
+Z: Chris Whistler?
+M: 4/4
+L: 1/8
+K: D
+F>G |\
+"D"A2d2 F2d2 | "D"AFAd f2 g<a | "G"g2ge "A7"cAce | "D"dcdB "A7"A2 F>G |
+"D"A2d2 F2d2 | "D"AFAd f2 g<a | "G"g2ge "A7"cAce | "D"d2 "A"dc "D"d2 :|
+|: f>g |\
+"D"a2ag fdfa | "G"g2ge "A7"cAce | "D"dcde fdfa | "G"gfgb "A7"a2fg |
+[1 "D"a3 g fdfa | "G"g3e "A7"cAce | "D"dcdf "A7"eAce | "D"d2dc d2 :|
+[2 "D"(3agf "A7"(3gfe "D"fdec | "D"dBAF DFAF | "G"GBed "A"cAce | "D"d2 "A7"dc "D"d4 |]

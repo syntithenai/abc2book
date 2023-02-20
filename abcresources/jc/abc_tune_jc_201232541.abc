@@ -1,0 +1,22 @@
+X: 173
+T: Brighthelmstone Hot Bath
+%R: jig
+M: 6/8
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1772", London 1772, p.87
+F: http://folkopedia.efdss.org/images/8/89/Thompson_24_1772.PDF
+K: D
+|:\
+dfa gec | dfa gec | dfd Bge | ced cBA |\
+dfa gec | dfa gec | dfd Bge | cBc d3 :|
+|:\
+FGA AB=c | B^cd cde | dAd eAe | faf {f}Te3 |\
+FGA AB=c | B^cd cde | dag fed | ABc d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. cast off & hands all 4 round .|. cast up
+%% hands all 4 round :|. Gallop down & up & cast off
+%% .|: Right and Left :|:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,20 @@
+X:105
+T:Cascade
+C:Colin Hume, 1986
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=120
+%%MIDI chordname dim 0 3 6 9
+%%MIDI chordname 7sus 0 5 7 10
+K:Em
+P:A
+|: "Em"EB- "/"BA/G/ | "D"G/A/D "/"D2 | "G"A/B/G "/"Gd | "C"d/e/c "/"c2 | "E7"Bc/d/ "/"cB | "Am"B3/A/ "/"A2 |
+%%vskip 20
+"B7sus"A B/c/ "B7"BF | "Em"A3/G/ "/"G2 | "C"E3/F/ "C#dim"G3/A/ | "G/D"Bd "Em"!turn!B/A/G | "Am"A3/E/ "Am7"cB | "D"A2 "G"G2 :|
+P:B
+[| "Em"gf/e/ "Bm"df | "C"ed/c/ "G"dG | "Am"cB/A/ "E7"B/d/c/B/ | "Am"A4 |\
+"D"ag/f/ "D7"ef | "Em"gf/e/ "Bm"d2 | "A"ed/^c/ "A7"Bc | "D"d4 |]
+P:C
+[| "G"dG- "/"GA/B/ | "Am"B/A/e "Am7"e2 | "D"eA- "D7"AB/c/ | "G"c/B/g "/"g2 |\
+"C"e3/f/ "C#dim"a/g/f/e/ | "G/D"d3/B/ "Em"g2 | "Am"eA- "D7"AG | "G"A/B/G "/"G2 |]

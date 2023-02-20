@@ -1,0 +1,48 @@
+%%text RJ Set 005 reels
+
+
+X: 1
+T: Ragtime Annie
+I: RJ R-67 D rag/reel
+%%musicspace	0.0cm
+M: C|
+R: rag
+K: D
+FE |\
+"D"DFBF AFBF | DFBF A2FE | DEFG ABAF | "A"A2c2 c2cB |\
+"A"ABcA B2cB | ABcA BAcB | ABcd egfe | "D"d2dc d2 :|
+fg |\
+"D"a2ab afd2 | A6 fg | a2ab agf2 | "G"g6 ef |\
+"A"gfef gfef | gagf e2ef | gagf edcB | "D"A6 |]
+fg |\
+"D"a2ab afdB | A2AB A2A2 | [F4d4] "C"[E4=c4] | "G"[G6B6] A2 |\
+"G"B2b2 b2ag | "D"f2a2 a2gf | "A"A2ef gfec | "D"d4 z2 |]
+
+
+X: 2
+T: Liza Jane
+I: J-99 A reel
+M: C|
+R: reel
+K: A
+ef |\
+"A"a2f2 e2ce | fecB A4 | a2f2 e2c2 | "D"f4- f2ef |\
+"A"a2f2 e2ce | fecB A2AB | "D"cBAF "E"E2F2 | "A"A6 :|
+|: BA |\
+"A"c4 c3A | B2(A2 A)ABA | c2B2 A2E2 | "D"(F6 F)E |\
+"D"F2A2 "E"B3A | BAcA B2AB | "D"cBAF "E"E2F2 | "A"A6 :|
+
+
+X: 3
+T: Johnny, Don't Get Drunk
+I: RJ R-95 D reel
+M: C|
+R: reel
+K: D
+|:\
+"D"fefg a2g2 | "A7"fdec "D"d4 | "G"BABc dBAG | "A7"F2E2 E4 |\
+"D"fefg a2g2 | "A7"fdec "D"d4 | "G"BABc d2g2 | "A7"fdec "D"d4 :|
+|:\
+"D"F2A2 A4 | FA2F A4 | "G"BABc dBAG | "A7"F2E2 E4 |\
+"D"FA2F A4 | "G"BABc d4 | BABc d2g2 | "A7"fdec "D"d4 :|
+

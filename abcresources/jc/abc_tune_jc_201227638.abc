@@ -1,0 +1,26 @@
+X: 10901
+T: NANCY'S TO THE GREENWOOD GANE.
+O: Old Scottish air.
+Q: "Slow."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.90 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A3B A2(GF) | (GF)(ED) B3d |\
+A3B (A>B)(dF) | A4 d3A |\
+B2 (B/c/d) A2(GF) | (GF)(ED) B3d |\
+A3B (A>B)(AF) | A4 d2 :|
+|: (A>B) |\
+d2f2 {g}f2(ef) | (gf)(ed) B2(A>B) |\
+d2f2 (gf)(ed) | (f3g) a3b |\
+a2f2 {g}f2(ef) | (gf)(ed) B2g2 |\
+(f>g)a2 (A>B) (A/G/F/G/) | A4 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,19 @@
+X: 2171
+T: Honble Mrs Drummond of Perth's    Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.17 #1 (top 10 staffs continued from p.16)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+F |\
+D>AF>A Dd-Td>B | ADTF>D EB,-B,>E | D>AF>A DgTf>e | d>BA>F D/D/D D :: f | (d/e/f/g/) ad fdad |
+(A/B/c/d/) eA cAeA |[1 (d/e/f/g/) ad fdad | A>gTf>e fdd :|[2 d>fe>g Tf>de<f | d>BA>F D/D/D D |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+d2d2 d2d2 | d2d2 e2e2 | d2d2 d2d2 | d2a2 d2d :: z | d'2d'2 d'2d'2 |
+a2a2 a2a2 |[1 d'2d'2 d'2d'2 | a2A2 d2d :|[2 d'2c'2 d'2a2 | g2a2 d2d |]

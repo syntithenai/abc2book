@@ -1,0 +1,20 @@
+X:1
+T:Valse Minette
+C:D. Thonon
+R:Waltz
+K:C
+%%printtempo 0
+Q:160
+M:3/4
+L:1/8
+"Am"AB ce dc|"F"d4 c2| "G"B2c2d2| "C" e4c2| "Am"AB ce dc| "F"d4 c2|
+"E7"B2 EB EB| BE EB EB|"Am"AB ce dc| "F"d4c2| "G"B2c2d2|"C"e4c2|
+AB ce dc|"F"d4c2|"E7"B2E2B2| "Am"A6| ae ae dc| "F"d4c2|
+"G"B2c2d2|"C"e4c2|"Am"ae ae dc|"F"d4 c2|"E7"B2 EB EB| BE EB EB|
+"Am"ae ae dc| "F"d4c2 |"G"B2c2d2| "C"e4 c2| "Am"ae ae dc|"F"d4 c2|
+"E7"B2E2B2| "Am"A6|| "Am" AB ce dc| "Dm"de dc BA | "G"BG cG dG| "C" eG cE "E7"BE|
+"Am"AB ce dc| "Dm" de dc BA| "E7"B2 EB EB| BE EB EB| "Am" AB ce dc| "Dm" de dc BA|
+"G" BG cG dG| "C"eG cE "E7"BE| "Am"AB ce dc| "Dm"de dc BA| "E7"B2 EB EB |"Am"AE AB ce|
+"Am"ae ae dc| "Dm"de dc BA| "G"BG cG dG| "C"eG cE "E7"BE| "Am"ae ae dc| "Dm"de dc BA|
+"E7"B2 EB EB|BE EB EB| "Am"ae ae dc| "Dm" de dc BA| "G"BG cG DG|
+"C"eB cE BE| "Am"ae ae dc| "Dm" de dc BA |"E7" BE EB EB| "Am"A6 |]

@@ -1,0 +1,27 @@
+X: 69
+T: Sarsfield's Lamentation
+%R: air, waltz
+B: "The Hibernian Muse" p.43 #2
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. LXIX.
+M: 3/4
+L: 1/8
+Q: "Slow"
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+Ac |\
+d2 d2 (c<A) | f2f2 (e>d) | (c>dc>A)(G>A) | F3 G (A/G/F) |\
+D2 (de)c>A | (f>g) Tg3/f//g// a2 | F3 G(Ac) | {A2}G4 :|
+|: Ac |\
+d2 d2 c>A | f2 Tf3 (e/f/) | g2 Tg3 (f/g/) | a2 (c'a)(ge) |\
+(d>ed>c) (d/c/A) | f2 (g/f/g) a2 | F>DF>f (d/c/A) | {A2}G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+d2 d2 z2 | d2 d2 z2 | c2 c2 c2 | d2 d2 d2 |\
+B2 B2 z2 | A2 c2 f2 | A2 c2 f2 | c'2 c2 :|
+|: z2 |\
+d2 d2 z2 | f2 a2 f2 | e2 c2 e2 | f2 f2 c2 |\
+d2 e2 f2 | A2 c2 f2 | B2 A2 F2 | c2 C2 :|

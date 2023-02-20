@@ -1,0 +1,25 @@
+X: 11292
+T: WATSON'S SCOTCH MEASURE
+O: Very old air.
+Q: "Slow and distinct."
+%R: air, hornpipe, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.129 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(C/D/E) |\
+F2F2 c2F2 | A2 G4 C>D |\
+F2F2 c2F2 | A2f2 c3f |\
+(def).c (ABc)A | (dc).B.A {A}G2 FD |\
+F2f2 c>dB>c | A2F2F2 :|
+|: (c/d/e) |\
+(fef).g (fg).a.f | (gf).g.a (ag).f.d |\
+(cd).f.g (fg).a.g | (fg).f.c (AB).c.A |\
+(de).f.c (AB).c.A | (fd).c.A {A}G2FD |\
+F2f2 c>dB>c | A2F2F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

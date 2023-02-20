@@ -1,0 +1,25 @@
+X: 1
+T: McFarland's Reel
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.2:5
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+e |\
+fA A/A/A (Te>dB)e | fA A/A/A Te2de | fA A/A/A e>dBg | {g}aefd Te2d :||: e |
+fdfd Te>dBe | fdfd Te2(de) | fdfd Te>dBg | aefd Te2d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+A |\
+d'2d2 g2G2 | d'2d2 a2d2 | d'2d2 g2G2 | f2g2 a2d :||: a |
+d'2d2 g2G2 | d'2d2 a2d2 | d'2d2 g2G2 | f2g2 a2d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First and 2d Cu. foot it all four and Right hands across quite round .|
+%% foot it and Left hands back again :|
+%% Gallop down one Cu. up again and cast off .|.
+%% hands round Six :|:
+%%endtext

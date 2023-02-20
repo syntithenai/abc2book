@@ -1,0 +1,22 @@
+X: 1
+T: Joenie's Jig
+C: Wouter Joubert 2021
+%D: 2021
+R: jig
+S: Message on strathspey.org 2021-06-28
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+% - - - - - - - - - -
+E \
+| "Am"A2e c2A | "E7"^G>FE "Am"A2E | "Am"A2e "Dm"f>dA | "Am/E"c3 "E7"B2E |\
+| "Am"A2e c2A | "Dm"F>ED "A/E"E2A, | "Dm"A,2D "Am/C"EAc | "E7"e3 "Am"a2 |]
+A \
+| "Dm"A2F "Am/E"A2E | "E7"^G>FE "Am"A2E | "Dm"A2F "A/C#"E2A, | "A7"A,>^CE "Dm"F2D |\
+| "E7"^G2E "Am/E"A2E | "E7"B>^GE "Am"c2A | "Dm"A2F "Am/E"EAc | "E7"e3 "Am"A2 :|
+% - - - - - - - - - -
+%%begintext align
+%% In fond memory of Johannes (Joenie) Venter, 28 May 1956 - 25 June 2021.
+%% For all those who loved him and will miss his presence.
+%%endtext

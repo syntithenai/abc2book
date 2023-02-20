@@ -1,0 +1,161 @@
+X:1
+T:Studio Ghibli - Spirited Away - Inochi no Namae
+K:
+%%score { ( 1 2 ) | ( 3 4 ) }
+L:1/4
+Q:1/4=164
+M:3/4
+I:linebreak $
+K:Cmaj
+V:1 treble nm="Piano, CH #1" snm="Pno."
+%%MIDI program 0
+V:2 treble
+%%MIDI program 0
+V:3 treble
+%%MIDI program 0
+V:4 treble
+%%MIDI program 0
+V:1
+ z3 | z/ B/- B2- | [Bd] | [Bdg-] g B- | B2- [Bd]- | [B-d] B z | z G2- | [CG]- [C-Gc-] [Cc] |$ %8
+ z g2 | B2 z | [Ac]3 | z[K:bass] z A- | [EA-] [EA] .E | E D z | z E/-[DE]/ D- |$ %15
+ [F,D]- [F,-B,D-]2 | [F,D] A, z |[K:treble] z .D .D | .D D C | D z D | C B, z | z3 | %22
+ A,3/2- [A,C-]/ C |$ .C .C .C | .C C2 |[K:bass] z/ z/4 B,/4- B,/.C/ .C | .C .C .B, | %27
+ C2 A,/-[A,B,-]/ | B,/<[K:treble]C/ C .C | .C z G- |$ G2[K:bass] z | D,- [D,F,]2- | %32
+ [D,F,-E-] [F,-E] F,/C/ | z D- [F,,D]/-[F,,DG]/- | [F,,DG] z[K:treble] z/ G/ | F E .D |$ D C2- | %37
+ C[K:bass] z z | z/4 _B,/4-[B,E]/4-[B,EF-]/4 F D/-[F,,D]/- | [F,,D-G] [DG] z |[K:treble] G F E | %41
+ z [C-D]2 |$ [A,-C] [A,-B,] [A,C] | .B, .C (3:2:4D/ z/ z/4[K:bass] ^F,/4- | [F,C]2 D, | z C2 | %46
+ ^F,[K:treble] z/ A/- [Ac]- | [Ac]2 z |$ .[FBd] z [FA] | .B .c .c | .[EAd] .[EAc] [EB]- | %51
+ [EB] z/ .G3/2 | F/-[F-A]/ [FA] G | F G2 | z z G | .F [CDF] z | [CF]2 C |$ z G2- | %58
+ G/-[G^G-]/ [=G-G] G- | G .[CFA] .[CFB] | [Ec] .[Ec] d | c [EB]2 | E .G .A | A G .F |$ C3- | %65
+ C G .F | F _E [CDF]- | [CDF] .G ^G | [F_B] .[F^G] [FG] | .G[K:bass] z/ ^G/ C,- |$ %70
+ [C,-G] [C,^G]/[K:treble]_E/4-[EG]/4- [EG]- | [EG] [_E^G]2 | [_E-G]2 [E-^G] | [E_B] G2- | %74
+ [F-G] F2- | [Fc] _E- [Ec] |$ B2 z | z D z | z z C/-[CA]/- | [CA]3- | [CA-]2 A | e z e | d e a |$ %83
+ e z z | A- [A-e] [Ad] | e a e | d e A- | A3- | A3 | z/ .e/- .[ea-] a/-<[ea]/ |$ .[Ae] .[Ae] e | %91
+ d e z | B2 z | z3 | B z z | .d .d .[Ad] | d c d |$ z d c | B2 z | z3 | z .c .c | .c [Ac-] c- | %102
+ c z c | .c .c c |$ B- [Bc] .E | .A c .c | .c .c .c | g2 f | d3- | d c2 |$ c z/[K:bass] d3/2- | %111
+ d3[K:treble] | z .g/f/ e | .d d/-[de-]/ [c-e] |$ [A,c-] c- [F_Bc] | z .[G_Be] .[Bf] | z .g .g | %117
+ .g[K:bass] g[K:treble] f | z z d |$ z3 | z3 | .d/>c/- [ce][K:bass] A,, | D,[K:treble] A c- | %123
+ c z z | A[K:bass] z z |$[K:treble] z d z | .[Aa] .[Bb] [eac'] | .[ceac'] .[ead'] .[eac'] | %128
+ [egb] z .[Be] | .[Beg] [fa] [fa] | g f [cg]- | [cg-] g .g |$[K:bass] z/[K:treble] g/ .f .[cdf] | %133
+ z [Fcf]2[K:bass] |[K:treble] c .f [GB_eg]- | [GBeg] .[B_e] .^g | [cfg] z .[Acfa] | %137
+ .[Bb] .[ec'] .[cec'] | .[dd'] .[cc'] [Bgb]- |$ [Bgb] e .g | .[cfa] .[cfa] .[cg] | .f g2 | z .g g | %143
+ .f [cdf] .[cd_e] | [cdf] z .[cdg] | .[c^g] .[_B_b] .[Bfg] |$ .[^Gf^g] .[G=g] .[_Be^g] | %147
+ z z/ z/4 ^g/4- g | c'2- [=g^gc'-] | c'- [gc'] z | .[_e^g] ._b[K:bass] z/ c'/ |$ %151
+ .D, F,[K:treble] f | C c' .[_eb] | z .b[K:bass] z | ^G,2 z | z z z/[K:treble] B/- | B c2- |$ c3- | %158
+ c3- | c3- | c3- | c z z | e _e z/4 .=e3/4 | z/ c/- [ce]2 |$ z z A- | [Ac]2 z | F2- [D,F] | %167
+ z/ z/4 D,/4- D, c- | c z C | c2 z |$ z/ G/- G2 |[K:bass] A, z C | z z/ E,3/2[K:treble] | d3 | z3 | %175
+ z z/ z/4 c/4- [ce] |$[K:bass] C, F, .A, |[K:treble] .[FGBd] z .[Aa] | .[Bb] .[ceac'] .[ceac'] | %179
+ .[dd'] .[cc'] [Begb] | z .[Ee] .[Gg] | [Acfa] .[Acfa] .[Gcg] | .[Ff] [G-dg]2 | G- [Gg] .[cdg] |$ %184
+ .[cf] [cf] _e | f2 c | f [B_eg]2 | z .^g .[cf=g] | z .[Afa] .[Bb] | .[cec'] .[cec'] .[dd'] | %190
+ .[cc'] [Begb] z | .[Ge] .[Bg] [fa] | .[fa] .[Gcg] .[Fcf] |$ [Gcdg]2 z | .[Gdg] g .f | %195
+ [cdf] ._e f- | f .[dg] .[c^g] | .[f_b] .[f^g] [Bfg] | .g ^g2 |$ %199
+ [eg]/ z/8 G,/8-[G,_b-]/4 b/=g/- [gc']- | [gc'-] [^gc'-]2 | [gc']2 ^g | z g2 | z3 | c' b z |$ %205
+ d'3- | d'3 | z/ .b3/2 g/-[gc']/- | [gc'] z [ed']- | [ed'] z .[gd'g'] | z e'2- | e' d'2- |$ d'3- | %213
+ d' z z | z [bd']2- | [bd']3- | [bd'-]2 d' | a z .b | z e- [ea]- | [ea] z e- |$ e- [Ae-] e | %221
+ [GBe]3 | z/ B/- [Bd]/- [Bdg]3/2 | z z B/-[Bd]/- | [Bd]3- | [Bd]3 | z3 |$ z z/ g3/2- | g2 z | %229
+V:2
+ x3 | A3- | A3- | A A2- | A3- | A3 | E3- | E2 z |$ z z G- | G/-[Gd]/- [Gd]2 | x3 | %11
+ z[K:bass] F,,2- | F,, z z | x3 | z [A,B,]2- |$ [A,B,] z z | x3 |[K:treble] [G,B,]3 | x3 | %19
+ z z B,- | B, z C- | C3- | C B, G,- |$ G,3- | G,2 z |[K:bass] A, G,2- | G,3- | G,3 | %28
+ x/4[K:treble] x11/4 | z C2 |$ z z[K:bass] [A,D]- | [A,D]2 z | z z A, | C3- | C z[K:treble] D- | %35
+ D z z |$ z/ .E3/2 .A, | z[K:bass] _B, .A, | G, C2- | C z z |[K:treble] ^G,3- | G, =G, E- |$ E3 | %43
+ x17/6[K:bass] x/6 | x3 | A, z A, | z[K:treble] F2- | F2 z |$ x3 | z [EA]2 | x3 | z E C- | C2 z | %53
+ z [CD]2- | [C-D] C [CD]- | [CD] z z | x3 |$ z [B,_E]2 | B,2 G,,- | G,,2 z | z z E- | E G z | %62
+ z z F- | F z z |$ D3 | z [C-D]2 | C2 z | x3 | x3 | z[K:bass] C,,2 |$ z z/4[K:treble] _B3/4 c- | %71
+ c3- | c3 | z c2- | c3 | z B z |$ z/ d/- [F,d-] [^G,d] | B,2 z | z A,2- | A,3- | A,2 z | z A2- | %82
+ A3- |$ A2 e- | e z z | x3 | x3 | x3 | x3 | c3 |$ z z A- | A3 | z/ e/4-[de]/4 d- [F,d-] | [Bd]2 A | %94
+ z z [GB]- | [GB]2 z | A3 |$ z B2 | z [Ac-] c- | c2- [Ac] | [FG]3- | [FG]3- | [FG] z G- | G3- |$ %104
+ G3 | z G2- | G3- | G z z | z D, G,- | [G,A-] [Ae-]2 |$ [ef-] f[K:bass] F,,/-[F,,-g]/ | %111
+ [F,,-g]3/2 [F,,F,]/ z/4[K:treble] .g3/4 | ^G3 | z/ A,,/- A,,2- |$ A,, z z | x3 | [cd]3 | %117
+ z/[K:bass] E,,/- E,,2[K:treble] | [^Ge] z [=Gc]- |$ [G-ce-]3 | [Ge]2 .c | z/ .^F3/2[K:bass] z | %122
+ x[K:treble] x2 | x3 | z/ c/[K:bass] G,, z |$[K:treble] B2 z | x3 | x3 | x3 | x3 | c2 d | z c2 |$ %132
+[K:bass] _E,,[K:treble] z z | ._e z[K:bass] A,, |[K:treble] x3 | x3 | x3 | x3 | x3 |$ z B2 | x3 | %141
+ z [cd]2- | [cd] z [cd]- | [cd] z z | x3 | x3 |$ x3 | z .g G,/._b/ | [g^g]2 z | _e2 z | %150
+ z z[K:bass] D,, |$ x2[K:treble] x | x3 | .c' z/4 .d'3/4[K:bass] F, | z B,2- | B, z z[K:treble] | %156
+ C,3- |$ C,2 D- | D2 z | x3 | z G- [F,G] | .C/.F/ .F, [df] | x3 | ^F,,3- |$ F,, z/ .e3/2 | %165
+ z z F,- | F, d2 | G, G2- | G2 z | z C c |$ .E, B/- [Be]3/2 |[K:bass] z B,2 | B, .A,[K:treble] G- | %173
+ G/-[Gg]/- [B,,G-g-] [Gg]- | [G-g]2 G | z z/ .A3/2 |$[K:bass] x3 |[K:treble] x3 | x3 | x3 | x3 | %181
+ x3 | z c z | z z G- |$ G G2 | c z z | x3 | x3 | x3 | x3 | x3 | z z [Ac]- | [Ac] z z |$ x3 | %194
+ z [G-d]2 | G z [cd] | x3 | B2 z | z [ce] z |$ z/ ^g/ c2- | c [c=g] z | x3 | ._b c'2- | c' .f C | %204
+ x3 |$ [f^g-b-]2 [gb-] | b2 z | c' e2- | e z z | x3 | z b2- | b3- |$ b3- | b z z | g3- | g3- | %216
+ g2 z | [ec']2 z | A3- | A z [Ac]- |$ [Ac] z z | x3 | G3- | G z/ A3/2- | A3- | A2 z | x3 |$ %227
+ z z G,,/-[G,,a]/- | [G,,a]2 z | %229
+V:3
+ z3 | z/ e/- [Ce]- [C-F-e] | [CF]3- | [CF-] F e- | [De]- [D-Ge]2 | D z z | z[K:bass] B2- | B2 z |$ %8
+ z3 | A,, E, B, | C2 z |[K:treble] B3 |[K:bass] C, .F, A, | B, A,[K:treble] E | A[K:bass] z D,- |$ %15
+ D,3- | D, z z | z G,, C, | z3 | .G, G z/ E,/- | E,2- [E,A,]- | [E,-A,]2 E, | z z F,- |$ %23
+ [A,,F,]- [A,,D,F,]2- | [A,,D,-F,-] [D,-F,] D,- | D,2 B,,- | [B,,D,E,]3- | [B,,D,E,]3 | z C, G, | %29
+ z3 |$ z C2- | C2 z | [A,C] z[K:treble] F- | F[K:bass] z/ G/ C,- | [C,F,]/-[C,F,G-]/ G E,,- | %35
+ [E,,-B,,] [E,,E,-] E, |$ G,2 z | z F, z | C,2 z/ G/ | C, F, .G | z/ D/- [B,,D] z | .D z E,- |$ %42
+ E,3 | z .A, .E, | z/ E/- [A,,-E]2 | [A,,^F,-] F, z | z[K:treble] z e- | [D,e-] [F,e-] [G,e] |$ %48
+[K:bass] A, G, B, | .G, A,, E, | .C .E, G,, | E, .B, .E, | F,, C, .[A,C] | C, E,, z | .G, .G _E,, | %55
+ z .G, _E | D,, .A,, F, |$ F z F,, | C, z[K:treble] F- | F[K:bass] z z | z/4 C3/4 E, A, | %61
+ E, G,, E, | .B, C- [F,,C-] | [C,C-] [A,C] C, |$ z/ .G/- .[C,G] G, | .G z .C, | %66
+ [_E,-D] [_E,,E,] z | D,2 .D,, | z/ .C/- .[^C,-C] C, | .^C,, E2 |$[K:treble] E z[K:bass] z | %71
+ C, ^G, C, | _E,, C, G, | .C, D,, .D, | z ^G,2 | z3[K:treble] |$ ^G2 z | z z G | %78
+ z/ .B3/2 E/-[Ec]/- | [E-ce-] [E-d-e] [E-de] | [E-a] [E-e] [Ed] | z[K:bass] [E,G,CD]2- | %82
+ [E,G,CD]3- |$ [E,G,CD][K:treble] d z |[K:bass] [F,C]3- | [F,C]3- | [F,C] z [E,G,B,D] | %87
+[K:treble] e d e | a e d | (5:4:6.e3/4[K:bass]A3/4- [F,,A]- [F,,A]/8- [F,,C,A]- [F,,C,A]/8 |$ %90
+ F, A, B, | z[K:treble] .E .a | A3[K:bass] |[K:treble] z B, D | z d2[K:bass] | z z E,- | %96
+ E, z[K:treble] z |$ g[K:bass] z E, | A,[K:treble] z E | A E .C/B/ |[K:bass] z/ .c/ A,, D, | %101
+ z A, C | A,/ z/4 F,/4[K:treble] A/B/[K:bass] z | B,, D, z |$ G,- [G,-C] G, | %105
+ .C/[K:treble]B/[K:bass] z C,- | [C,G,] .^G, ._E |[K:treble] F C (3:2:4^G,/4 z/4 z/8 _e/8-e/- | %108
+ e z z | D,[K:bass] z z |$ A[K:treble] z c- | [C,c]2 z | %112
+[K:bass] z[K:treble] d/-[B,,d]/[K:bass] E, | .^G,[K:treble] z E, |$ z[K:bass] .E, z | %115
+ .A z[K:treble] .G | A3[K:bass] | z[K:treble] [^Gd]2[K:bass] | E,[K:treble] .d[K:bass] z |$ %119
+ E, A, B, | C B, .E, | z D,, z | z ^F, A, | C A, (3.^F,/ z/[K:treble] F/- | [Fe][K:bass] F, .A, |$ %125
+[K:treble] z/ F/- [DF] C | A, .C[K:bass] z/ .c/ | E, A, E, | G,, E, .B, | %129
+ .E, z/[K:treble] .c/ z/ .c/ |[K:bass] .A, C, z | C, E, C, |$[K:treble] [cd]2[K:bass] z | %133
+ .C, .[C,,D,,] z | [F,F] .A,, z | ^C,- [C,-G] [^C,,C,] | z D, G,- | [G,,G,] z/ .c/ E, | A, .E, z |$ %139
+ E, G, .E, | F,, C, .A, | C, E,, C, | .G, C, z | ._E, .G, ._B, | D,, .D, .E, | %145
+ .G, z/[K:treble] .f/[K:bass] .^C, |$ F, .^G, C,, | C, z/[K:treble] e/4-[ef-]/4 f/4>g/4.C/ | %148
+ _e2[K:bass] z | C, _E,, C, | .G, .C,[K:treble] [cf]- |$ [cf] z ^G, | z[K:bass] ^G, F, | %153
+ z/[K:treble] .f3/2[K:bass] z | z3[K:treble] | G- [Gc]2 | z[K:bass] z G,- |$ [G,C] G2- | %158
+ [G,G] B, z | _B,,- B,,/4-<[B,,-G,]/4B,,/- [B,,_B,-] | B, A,,2- | [A,,A,] z z | %162
+ c[K:treble] .B z/4 .c3/4 | z/ a/- [ac']2 |$ z z/ z/4 c/4 z |[K:bass] z/[K:treble] .e/- .[C,e] z | %166
+ G3 | z d2- | d z z | G z z |$ c3[K:bass] | z3 | z z[K:treble] B- | B3- | B2[K:bass] z | %175
+ z/ z/4 B,/4- B, z |$ z3 | G, z z | .G,, z E, | A, E, z | E, .G, .E, | z C, F,/4-<[F,-f]/4F,/ | %182
+ .C, E,, C, | .G, C, _E,, |$ C, .G, .C, | D,, .A,, .F, | z z ^C,- | C, z z | z G,2 | z .E, .A, | %190
+ E, z E, | G, .E, z | C, F, C, |$ E,, C, G, | z/8[K:treble] .c3/8 z/ z .c/-<.[C,c]/ | %195
+[K:bass] _E, ._E,, z | D,- [D,c] D,, | z ^C,2 | .^C, C,, .=C, |$ z/[K:treble] f/4-[fg-]/4 g ^g- | %200
+ [C,g][K:bass] .^G, C, | _E,, C, .G, | .C, D,, D, | F, ^G, z | %204
+[K:treble] F .C (3:2:2^G,/8c'/4-c'3/4 |$[K:bass] G,, F, z | B, z[K:treble] g- | g z e'- | %208
+ [C,e'][K:bass] F, A, | B, z .E | z[K:treble] f- [D,f-] | [A,f-] [B,f-]2 |$ f- [Ef-] f- | %213
+ f[K:bass] G,, .C, | z[K:treble] e- [G,e-] | [B,e-] e2- | [E,e-] [A,e] E | A2 .[Ee] |[K:bass] c3- | %219
+ c A,2[K:treble] |$ F A, c |[K:bass] z D, G, | z B,2 | z G2- | G3- | G2 z | z3 |$ z3 | b- [be'] z | %229
+V:4
+ x3 | F,3- | F,3- | F, G,2- | G,3 | x3 | z[K:bass] z/ C,/- [C,d]/-[C,G,d]/- | [C,-G,-d] [C,G,]2- |$ %8
+ [C,G,] z z | x3 | x3 |[K:treble] x3 |[K:bass] x3 | x2[K:treble] x | z[K:bass] G,,2- |$ G,,3- | %16
+ G,, z z | C,,2 z | [E,A,]3- | [E,A,] z A,,- | A,,3- | A,,3 | z D,,2- |$ D,,3- | D,,3- | %25
+ D,, E,,2- | E,,3- | E,,3 | [F,,G,]2 z | A,3- |$ A, z G,,- | G,,2 z | z z/ G,,3/2[K:treble] | %33
+ z[K:bass] A,2- | A, ^G,2- | G,2 z |$ A,,- [A,,-E,] A,, | z G,,2 | z z A,- | A,2 z | E,,2 E,- | %41
+ E, A,,2- |$ A,,3- | A,,2 z | D,,3- | D,,2 z | z[K:treble] G,,2- | G,, z z |$[K:bass] x3 | x3 | %50
+ x3 | x3 | x3 | z z C,- | C,2 z | C,2 z | x3 |$ z ^C,,2 | z/8 ._E3/8 z/ .^C,,[K:treble] C | %59
+ D,[K:bass] G, .G,, | A,,3 | x3 | z/ z/4 E,/4- E, z | x3 |$ E,, z z | z _E,,2- | E,, z D,,- | %67
+ D,, C2 | ^C,,2 C- | C C z |$[K:treble] z/ F/- [C,,F]/.G/[K:bass] F,, | x3 | x3 | x3 | F,3 | %75
+ C ^G, (3F,/ z/[K:treble] F/- |$ F/-[G,,F-]/ F z | x3 | c F,2- | F,3- | F,2 z | x[K:bass] x2 | %82
+ x3 |$ x[K:treble] x2 |[K:bass] [D,A,]3- | [D,A,]3 | x3 |[K:treble] x3 | x3 | x3/5[K:bass] x12/5 |$ %90
+ x3 | A,2[K:treble] z | z/[K:bass] .G,,/- .[G,,D,] z |[K:treble] A,2 z | .F z[K:bass] C,,- | %95
+ [C,,G,,] C, z | G, B,[K:treble] D |$ z[K:bass] A,,2 | z[K:treble] C2- | C z z |[K:bass] D,,2 z | %101
+ F,3 | z[K:treble] z[K:bass] E,,- | E,, z E,- |$ E,3- | E,[K:treble][K:bass] F,,2 | x3 | %107
+[K:treble] x3 | G,,3- | G,,[K:bass] G,,2- |$ G,,[K:treble] A2- | A3 | %112
+[K:bass] E,,2[K:treble][K:bass] z | z[K:treble] G2- |$ G[K:bass] z [G,,G,]- | %115
+ [G,,G,] C,2[K:treble] | z/4[K:bass] F,,/4-[F,,-g]/ [F,,C,]- [F,,C,F,] | %117
+ z[K:treble] z[K:bass] B,, | z[K:treble] z[K:bass] A,,- |$ A,, z z | x3 | x3 | x3 | %123
+ x8/3[K:treble] x/3 | x[K:bass] x2 |$[K:treble] C z z | z z[K:bass] A,,- | A,,2 z | x3 | %129
+ z F,,[K:treble] C, |[K:bass] z z E,,- | E,,2 z |$[K:treble] z[K:bass] C, G, | x3 | z z ^C,,- | %135
+ C,, z z | G,,3 | z A,,2- | A,, z G,,- |$ G,,2 z | x3 | x3 | z z _E,,- | E,, z z | x3 | %145
+ z ^C,,[K:treble][K:bass] z |$ x3 | z E,2[K:treble] | z/[K:bass] F,,/ C, ^G, | x3 | %150
+ x2[K:treble] x |$ x3 | x[K:bass] x2 | .^G,[K:treble] ^g/[K:bass]G,,/ z | z z[K:treble] D- | %155
+ D z z | z[K:bass] E2- |$ E2 B,,- | B,,2 G- | G C2 | C3 | z z [G,,G,]- | [G,,G,]2[K:treble] z | %163
+ ^F,3- |$ F, z z |[K:bass] F,,3[K:treble] | z B- [G,,-B] | G,, z E,,/-[E,,g]/- | %168
+ [E,,g]/-<[E,,E,g]/ G,2 | E2 .[G,EG] |$ z[K:bass] A,,- [A,,-E,] | A,,2 z | x2[K:treble] x | %173
+ E,,2 E, | ^F, G,[K:bass] B, | .D F- [F,,F] |$ x3 | G,,2 G, | z A,,2- | A,, z G,,- | G,,2 z | %181
+ F,,3 | x3 | x3 |$ x3 | x3 | .A,, ^C,, z | B- [^C,,B] G,, | D, z .G,, | A,,3 | z G,,2- | %191
+ G,, z F,,- | F,,2 z |$ x3 | C,[K:treble] _E,,2 |[K:bass] z z D,,- | D,,2 z | ^C,, z .C,, | x3 |$ %199
+ E,[K:treble] F,,2 | x[K:bass] x2 | x3 | x3 | x3 |[K:treble] x3 |$[K:bass] z z ^G,- | %206
+ G, D2[K:treble] | z F,,2- | F,,[K:bass] z z | z A,2 | G,,2[K:treble] z | x3 |$ A,2 z | %213
+ C,,2[K:bass] z | E,3[K:treble] | z z A,,- | A,, z z | C3 |[K:bass] z F,,- [F,,C,] | %219
+ F, z[K:treble] C |$ x3 |[K:bass] G,,2 z | D, z D,- | D,/-<[D,G,]/ z C,,- | C,,- [C,,G,,] C, | %225
+ E,2- [E,G,] | x3 |$ z z C,,- | C,,2 z | %229
+

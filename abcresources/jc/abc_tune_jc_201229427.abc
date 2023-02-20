@@ -1,0 +1,23 @@
+X: 1231
+T: the Ranting Highland-Man.   a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.1 p.23 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+e |\
+A/A/A ed Tc>dec | (d/c/B/A/) =GB gBBa |\
+A/A/A ed Tc>dec | dBgB aAA :| g |\
+(a/g/f/e/) fd Tc>dec | (d/=c/B/A/) =GB =gBBg |
+(a/g/f/e/) fd Tc>dec | dBgB aAAg ||\
+(a/g/f/e/) f>d Tc>dec | (d/=c/B/A/) =GB gBBg |\
+af=ge fdec | Bagb aAA |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | a2a2 a2a2 |=g2g2 g2g2 | a2a2 a2a2 | e2e2 a2a :| z | a2a2 a2a2 | =g2g2 g2g2 |
+a2a2 a2a2 | e2e2 a2a2 || a2a2 a2a2 | =g2g2 g2g2 | a2c'2 d'2c'2 | e'2e2 a2a |]

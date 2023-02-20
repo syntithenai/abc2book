@@ -1,0 +1,26 @@
+X: 11772
+T: MAC OAIDH.--"LORD REAY."
+O: Gaelic air.
+Q: "Solemnly slow"
+%R: air
+N: This is version 2, for ABC software that understands trailing grace notes
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.177 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+{de}!p!f4 Te3d d3A {A}"_>"a4 | c3gTg3f e2c2c3e |\
+{de}f4 e3d d2A2 {A}"_>"Ha4{gf} | "^Exp."e2b2a3^c d4- d2zA |\
+{de}f4 Te3d d3A {A}a4 |
+c3gTg3f e2c2c3e |\
+Hf3e{e}d3c (BAdc BAGF) | E2B2A3^C D4 D2 |] E2 |\
+!f!F3GA3G F3GAf3 | B3AG3F {F}E2AE {C}^C2B,A, |
+F3GA3=B c3_B!p!A2f2 | "^Exp."e2b2a3^c d6 zE |\
+!f!F3G{FA}A3G F3GA3a | b3ag3f {f}e3ad {d}^c2BA |\
+Hf3"^dim."ed3c (BAdc BAGF) | GFED {^G}A2^C2 D4 D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

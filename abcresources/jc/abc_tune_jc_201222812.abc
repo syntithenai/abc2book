@@ -1,0 +1,14 @@
+X:63
+T:Chicken Reel
+M:2/4
+Q:1/4=100
+L:1/16
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+(e2|f)dAF DFAF|AFBF A2(e2|f)dAF DFAF|Addc d2(e2|f)dAF DFAF|
+AFBF A2(e2|f)dAF DFAF|Addc d2:|z2|:fa2f d2fd|Adfd Adfd|
+fa2f d2fd|Addc d4|fa2f d2fd|Adfd Adfd|fa2f d2fd|Addc d4:|

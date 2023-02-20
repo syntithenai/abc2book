@@ -1,0 +1,24 @@
+X: 1
+T: John of Badenyon
+O: Arr: Peter White
+R: strathspey
+N: Also played as a reel.
+N: The ^g in bar 9 is certainly wrong: the simplest fix is to remove the sharp.
+B: Skye Collection
+B: Hugh Foss "DANCES to SONG TUNES" 1966 (music: Peter White)
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+D \
+| "Gm"G>F "Dm"DF "Gm"G>F "Dm"D>A | "Bb"B>c "Eb"BG "Bb"F3 B \
+| "Eb"G<G B>c "Bb"d>c BF | "Gm"GG "Eb"B>c "D"d3 ||
+(^f \
+| "Gm"g)>(d "F"f)>(c "Gm"d).B "F".c.d | "Eb"B>G "Dm"FD "Bb"B3 c \
+| "Gm"d>B "Cm"cG "Gm"(BG) "Dm"(BD) | "Cm"C<C "D"D>^F "Gm"G3 |]
+f \
+| "Eb"g>f "Bb"df "Eb"g>f "Bb"dg | "F"(f<d) c>d "Bb"f3 d \
+| "Eb"g>f "Bb"(df) "Eb"g>f "Bb"dB | "Gm"G<G "Cm"B>c "D"d3 ||
+(^f \
+| "Gm"g)>d "F"fc "Gm"d.B "F".c.d | "Eb"B>G "Dm"FD "Bb"B3 (c \
+| "Gm"d)B "Cm"cA "Gm"B>G "Dm"FD | "Cm"C<C "D"D>^F "Gm"G3 |]

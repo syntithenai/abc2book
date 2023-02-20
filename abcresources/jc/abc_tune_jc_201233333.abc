@@ -1,0 +1,38 @@
+X: 192
+T: God Ever Glorious.
+T: (Russian National Hymn.)
+C: Alexis T. Lvoff.
+C: S. F. Smith.
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: E
+V:1
+V:2 
+V:3 clef=bass middle=d
+V:4 clef=bass middle=d
+%%score (1 2) (3 4)
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [B2E2] [cE][cE] | [BE]>[GE] [E2E2] | [e2E2] [dE][cE] | [B2E2] [c2C2] | [A2C2] [BB,][BB,] |
+%[V:2]
+w: 1.~God ev-er glo-ri-ous! Sov-'reign of na-tions,      Wav-ing the
+w: 2.~Still may Thy bless-ing rest, Fa-ther most ho-ly,  O-ver each
+%[V:3]
+[V:4] [g2e2] [aA][ac] | [ge]>[be] [g2e2] | [c'2A2] [bA][aA] | [g2e2] [g2^e2] | [a2f2] [fd][fd] |
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [G2B,2] [GB,][^AC] | ([B-D][BG]) [^AG][A^^F] | [G4G4] | [A2F2] [GE][FD] | [G2E2] ([GE][GF]) |
+%[V:2]
+w: ban-ner of peace* o'er the land;     Thine is the vic-to-ry,
+w: moun-tain, rock, riv-e*r and shore;  Sing hal-le-lu-jah!....
+%[V:3]
+[V:4] [g2e2] [ge][ge] | ([gd-][d'd]) [c'd][c'd] | [b4g4] | [b2B2] [bB][bB] | [b2e2] ([be][^bd]) |
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [eE]>[dF] [cE][^BF] | [c2E2] [B2F2] | [e2E2] [dE][cE] | ([B-E][B=D]) [BC][AF] | [G2E2] [F2D2] | [E4E4] |]
+%[V:2]
+w: Thine* the sal-va-tion;  Strong to de-liv-*er, own we Thy hand.
+w: Shout* in ho-san-nas!    God keep our count-*try free ev-er-more.
+%[V:3]
+[V:4] ([c'c][af]) [gg][d'g] | [c'2a2] [d'2a2] | ([e'g-][bg]) [ba][aA] | ([g-e][g^e]) [af][c'A] | [b2B2] ([bB-][aB]) | [g4e4] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

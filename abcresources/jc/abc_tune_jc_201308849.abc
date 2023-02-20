@@ -1,0 +1,18 @@
+X: 1
+T: Megajig
+C: by Larry Unger 2003
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: the Portland Collection v.2 p.132
+M: 6/8
+L: 1/8
+K: A
+e |\
+"A"=gaa age | c2A =G2A | "D7"=cdd dcA | F2D =C2D |\
+"A"A,2A, C2E | =GEG A2G | "E7"E2E G2A | BAB d2e ||
+"A"=gaa age | c2A =G2A | "D7"=cdd dcA | F2D =C2D |\
+"A"A,2A, C2E | =G2A "D"B=cB | "E"A2=G E2G | "A"A3 A2B |]
+"D7"=cAA BAA | =cAA BAA | "A"cee fee | =gee fee |\
+"D7"=cAA BAA | =cAA BAA | "A"e2c A2F | =G3 A2B ||
+"D7"=cAA BAA | =cAA BAA | "A"cee fee | =gee e2A |\
+"E"B2B c2c | d2d e2e | gee bee | e3 z2 |]

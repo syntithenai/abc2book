@@ -1,0 +1,23 @@
+X: 694
+T: Planxty Thomas Burke
+T: pleraca tomas \.buairca\.c
+R: reel
+%S: s:4 b:32(8+8+8+8)
+C: O'Carolan
+B: O'Neill's 1850 #694
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+R: reel, polka
+Q: "Spirited"
+N: A beat is missing between the two parts. Fixed by adding a rest.
+M: 2/4
+L: 1/16
+K: G
+d2 \
+| (cBAG) (Bcd2) | D2G2 G2A2 | (BcdB) (edcB) | A4 A2(dc) |\
+| (B2d2) (c2e2) | (d2g2) (gfed) | (efge) (fgaf) | g2G2 G2d2 |
+| g2a2 b2(ba) | g2e2 e2(fg) | (abag) (fgfe) | d6 (ef) |\
+| g2G2 G2(ed) | e2E2 E2e2 | (ed).c.B (cB).A.G | (.G4 .G2)z2  |]
+[| (DEDB,) D2D2 | G2D2 D2(EF) | (GAGF) (EFGE) | A2D2 D2(GA) |\
+| .B2(Bc) (BAGF) | E2g2 (f2ed) | (eged) (BABd) | e4 ~f2(ef) |
+| g2(gf) (efg2) | (afge) d2(ef) | (gfed) (edcB) | A6 ((3ABc) |\
+| B2((3ABc) (efg2) | (fg).a.f (gf).e.d | (ed).c.B (cB).A.G | (.G4 .G2) |]

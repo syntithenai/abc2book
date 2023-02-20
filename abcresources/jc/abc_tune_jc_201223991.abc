@@ -1,0 +1,33 @@
+X: 07
+T: Open the door to three
+%R: slip-jig
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.100 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+D |\
+G2B BGB AFD | G2B BGB c2d |\
+efg dcB AFD | G2c (TB>AB) G2 :|
+|: e/(f/ |\
+g)dB gdB AFD | gfe def g2d |\
+efg dcB AFD | G2c (TB>AB) G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g3 g3 f3 | g3 g3 a2b |\
+c'3 d'3 d3 | e2c d2d G2 ::\
+z |\
+g3 g3 d3 | g3 g3 g3 |\
+c3 d3 d3 | g3 d3 G2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The first Cu foot it to the 2d Wo: and hands round three .|
+%% the same with the 2d Man :|.
+%% cross over one Cu: and turn .|.
+%% hands all round Six :|:
+%%endtext
+%%sep 2 2 400

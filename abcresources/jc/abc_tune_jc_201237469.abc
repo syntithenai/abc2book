@@ -1,0 +1,13 @@
+X:263
+T:Vinton's Hornpipe
+M:2/4
+L:1/16
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 26, on which the key of A major is introduced.
+K:A
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|:ed|c2A2 ABcA|BAGF E2ED|CEAE cdcA|BAGF E2 ed|
+c2A2A2 fe|d2B2B2 BA|GBeg faf^d|e2e2e2::
+ed|.c(AGA) .c(AGA)|.F(DCD) .F(DCD)|BcdB ABcA|GABG E2 ef|
+.e(AGA) .f(AGA)|.g(AGA) .a(AGA)|EFGA BcBG|A2A2A2:|

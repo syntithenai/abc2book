@@ -1,0 +1,28 @@
+X: 106
+T: Ally Croaker
+%R: march
+B: "The Hibernian Muse" p.67 #2
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. CVI.
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+D |\
+G2G>G    | GGGG    | AGFG    | A>Bcd |\
+BGGG     | GGGG    | A>GFG   | A>Bcc |\
+{Bc}d2dd | dddd    | edcB    | A>Bcc |
+{AB}c2cc | cccc    | dcBA    | G>ABB |\
+GGGG     | AAAG/F/ | EEEF/E/ | DDD2  |\
+c>ccd    | {d}c2BA | BGcA    | TF2G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g2d>B | Ggfe  | d2D2  | f2d2 |\
+GgdB  | Ggfe  | d2d2  | c2A2 |\
+BGBd  | gabg  | c'bag | f2d2 |
+fdfg  | abc'a | d'2d2 | g2G2 |\
+gGgG  | dDdD  | aAaA  | dDD2 |\
+f2d2  | a2d2  | g2c2  | d2G2 |]

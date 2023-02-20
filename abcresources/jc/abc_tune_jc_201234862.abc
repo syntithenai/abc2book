@@ -1,0 +1,33 @@
+X: 20841
+T: MELLOW HORN SETT (tune 1)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.84 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The last bars of strains 1 & 2 are short; note/rest lengths adjusted to give each bar 5 counts.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="1"
+c |\
+f2f c2c | f2f c2c | dcd fed | caf c2c |\
+c2B G2G | d2c A2c | f3 fed | c3 z2 H|]
+c |\
+e2e ede | f2c c2A | BAB dcB | B2A A2c |\
+e3 ede | f2c cde | f2c A2F | c3 "^D.C."z2 |]
+c |\
+a3 gfd | c3 cAc | fef agf | ec'c' c'=b_b |\
+a3 gfe | c3 cAc | fcf gag | fa/f/c/A/ "^D.C."F2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First four chassa across and back,
+%% forward and back four,
+%% half promenade,
+%% Ladies chain,
+%% half promenade to place,
+%% sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

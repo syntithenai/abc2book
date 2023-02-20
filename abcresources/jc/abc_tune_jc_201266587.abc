@@ -1,0 +1,30 @@
+X: 1
+T: Dampier
+P: Longways for as many as will
+%R: hornpipe, reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.111 #166 (222)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd Strain has an initial repeat but no final repeat.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+c2 B2 c2 B>A | G>F E>F G2 E2 |\
+D>E F>G A>B cB/A/ | G2 B2 c2 C2 :|\
+|:\
+c>d e2 c>d e2 | c>d e>f d>B A>G |
+c>d e2 c>d e2 | c>d e>f g3 a |\
+g>f e>d c>B A>e | f2 A>e f3 e |\
+f>e d>c | B>A GF/E/ | F2 G2 c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% All four sett to your Partners and turn S. and Hands half round .| All
+%% four sett to your Partners and turn S. and Hands half round into your
+%% own Places .| The 2d Man go Back to Back, the Wo. the same at the same
+%% Time; then Right and Left with your Partners quite round .| The 1st
+%% Cu. go the Figure thro' into their own Places, then Right and Left with
+%% your Partners which brings the 1st Cu. into the 2d Cu. Place :|
+%%endtext
+%%sep 1 8 500

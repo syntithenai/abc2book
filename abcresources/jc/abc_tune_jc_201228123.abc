@@ -1,0 +1,25 @@
+X: 11081
+T: SOUND ARGUMENT.--"WE SHOULD ALL BE UNHAPPY TOGETHER."
+Q: "Lento \`e lachrymoso."
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.108 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+e/d/ |\
+cde AAB | c2z z2B | c>de e>dc | (c3 B2) e/d/ |\
+cce AAB | c2z z2B | c>de dcB | (B3 A2) e |\
+fdd def |
+(f3 e2)f | edc ccd | (c3 B2)c |\
+dBB Bcd | c2z z2c/d/ | c>BA ABc | (B3 A2) B/c/ |\
+d>cB Bcd | c3 z2 d/e/ |
+f>dc Bdf | (f3 e2)a |\
+agf edc | B3 z2e | aaa eee | (c3 B2) e/d/ |\
+cea ace | {e}d2z z2d/e/ | dcB fed | (c3 A2) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

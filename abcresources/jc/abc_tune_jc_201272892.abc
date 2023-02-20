@@ -1,0 +1,30 @@
+X: 1
+T: Ely Minster
+P: Longways for as many as will
+%R:
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.7 "B 3"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+N: Fixed incorrect length of last note, to make repeats work correctly.
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+(E/F/ G3) G2 | G3 F G2 | (B/c/ d3) d2 | d3 c B2 |\
+(e/f/ g3) e2 | a2 d2 g2 | e4 d2 | d4 :|
+|: g2 |\
+(f/g/ a3) b2 | g3 f g2 | (e/f/ g3) a2 | ^d4 B2 |\
+(f/g/ a3) b2 | (a2 f2 g2) | f4 e2 | e4 g2 |
+(B/c/ d3) e2 | c3 B c2 | (E/F/ G3) A2 | F4 D2 |\
+(d/e/ f3) g2 | (d2 B2) c2 | A4 G2 | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Note: Each Strain is to be play'd twice over.
+%%begintext align
+%% First man go without side the 2. wo. up the middle into his wo. place; 1. wo. at the same time go
+%% within side, round the 2. man, up into her man's place; the 2. cu. doing the same; men being on the
+%% we. side, 1. cu. slips down into the 2. cu. place, right and left into their own places, men on the we.
+%% side; 1. man cross over with the 2. wo. the 2. man cross over with the 1. wo. so turn your own.
+%%endtext
+%%sep 1 8 500

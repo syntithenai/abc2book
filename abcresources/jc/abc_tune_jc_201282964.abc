@@ -1,0 +1,17 @@
+X: 290
+T: Green Shady Bowers
+R: air, march
+%S: s:2 b:16(8+8)
+B: O'Neill's 1850 #290
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+Q: "Animated"
+N: Bars 4 and 12 obviously have typos. Fixed by adding beams to the last 2 notes.
+M: 2/4
+L: 1/8
+K:A
+(c/B/) \
+| A>B (AF) | (FE) .E(B/c/)  | .d.d (cB) | c3 A/B/ \
+| (cf) (fe) | (c>d) .e(c/B/) | A>B c^d | e3 |]
+|| A/B/ \
+| (cf) fe | c>d .e(c/B/) | (BA) (FE) | E3 (c/d/) \
+| .e.e .f(e/d/) | cA FE | E>F AA | A3 |]

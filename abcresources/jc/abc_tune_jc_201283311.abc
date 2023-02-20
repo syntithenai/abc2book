@@ -1,0 +1,13 @@
+R: jig
+X: 809
+T: the Grumbling Rustic
+B: O'Neill's 1850 "Music of Ireland" #809
+O: F.O'Neill
+Z: Stephen Foy (shf@access.digex.net)
+%abc 1.6
+M: 6/8
+K: D
+A \
+| DED AFA | dcd AFD | AGF TF2E | AGF F2E || DED AFA | dcd AFD |
+| AFE E2B | AFE E2 :: A | DED d2d | edc d2B | AGF TF2E | AGF F2E ||
+|[1 DED d2d | edc d2B | AFE E2B | AFE E2 :|[2 edc dcB | cBA Bcd | AFE E2B | AFE E2 |]

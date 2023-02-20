@@ -1,0 +1,33 @@
+X: 1051
+T: GORDON'S QUICK-STEP
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.105 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+%%indent 500
+(3def |\
+g2z2 e3e | d2z2 F3F | G4 G4 | G4 ||
+|: D3D |\
+G4- (3G2B2d2 | g4- (3g2f2e2 | (3d2c2A2 F4 | F4 D3D |\
+F4- (3F2A2c2 | e4- (3e2d2^c2 | (3^c2d2B2 G4 | G4 D3D |
+G4- (3G2B2d2 | g6 f2 | (3e2^d2e2 a4- | a3g (3g2f2e2 |\
+e4- (3e2d2B2 | d4- (3d2c2A2 | G2GG G2GG | G2GG G2G2 |
+c3c dcBc | (e4 d2)^cd | (g4 f2)ef | (a4 g2)Bd |\
+e3f g2fe | d2g2 d4 | (ed)(dc) (cB)(BA) | G4 :|
+|: A4 |\
+f4 f3f | g2f2 e4 | e4 e3e | f2e2 d4 |\
+B6 _B2 | A2d2 f4- | f2g2 e2f2 | d4 :|
+|: d3g |\
+f6 z2 | z3 dc3e | d6 z2 | z3 ed3e |\
+d3e d3e | d3c A3B | G3B A3c | B2z2 d3g |
+f6 z2 | z3 dc3e | d6 z2 | z3 dc3e |\
+d3e d3e | d3c A3B | G8- | G4 G3G |
+g8- | g3e c3e | d3e d3B | G4 G3G |\
+g8- | (3g2f2a2 (3g2f2e2 | (3d2e2d2 (3c2d2c2 | B2z2 d3g |
+f6 z2 | z3dc3e | d6 z2 | z3 ed3e |\
+d3e d3e | d3c A3B | G4 g3g | g4 z2 H:|
+|: [K:C] Gc |\
+e6 ed | cdcB cd^de | (g4 =f2) ^cd | (g4 f2) Bc |\
+(f4 e2) Bc | (_e4 d2)c2 | =e2fe d2ed | "^da Capo"c6 :|

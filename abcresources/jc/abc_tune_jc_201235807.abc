@@ -1,0 +1,25 @@
+X: 21392
+T: Lord Antrim's Delight
+%R: air, reel
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.139 #2
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+N: Dots added to final notes, to fix the rhythms at strain boundaries.
+M: 2/4
+L: 1/16
+K: Ador
+"_Slow"EG |\
+A3B (AB)(dB) | TA4 (GE3) | G3A B2A2 | G4 (ED3) |\
+E2D2E2G2 | A4 B2d2 | {d}e4 Td2B2 | A6 :|
+|: (ef) |\
+g3fg2a2 | g4 (ed3) | e3de2g2 | a4 (ge3) |\
+g3fg2a2 | g2G2 (Bd)(ga) | b2e2g2a2 | b4 g3a |
+b3ag2b2 | a3ge2a2 | g3e (de)(gf) | Te4 (dB3) |\
+(d2e2)(g2f2) | Te4 d2B2 | A4 A3B | A6 :|
+|: (EG) |\
+A3B (ge)(dB) | (AB)(AG) E4 | G3A B2(BA) | (AG)(GE) D4 |\
+E2(3(GED) E2G2 | A2(3(dBA) B2d2 | e2(de) (ge)(dB) | A6 :|
+|: (ef) |\
+g3a (ga)(ba) | (ag)(ge) {e}d4 | e3d (ede)g | a4 (ge3) |\
+g3a (ga)(ba) | g4 (aged) | e2(3(ged) e2g2 | a4 g3a |
+b3a (ba)(gb) | a3g (ag)(ea) | (ge)(de) g2(gf) | (fe)(ed) B4 |\
+d2(ef) g2f2 | e4 (gedB) | A4 e2(dB) | A6 :|

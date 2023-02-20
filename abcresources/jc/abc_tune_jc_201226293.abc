@@ -1,0 +1,22 @@
+X: 101
+T: Honest Ben
+%R: jig
+M: 6/8
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.10 #1
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+N: The f in bar 3 has a dot, which was dropped to fix the rhythm.
+K: D
+|:\
+f2a dcd | Bcd ecA |\
+f2a (^g/a/b).g | aec A3 :|
+|:\
+g2e g2e | afd cBA |\
+Bcd egf | edc d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across back again lead down the
+%% middle up again and allemance
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

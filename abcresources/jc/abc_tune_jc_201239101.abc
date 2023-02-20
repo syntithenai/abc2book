@@ -1,0 +1,119 @@
+X: 32071
+T: BLACK JOCK, WITH VARIATIONS
+C: Arranged by W. B. Laybourn
+R: jig
+P: To play this, Tune the Third and Fourth Strings one note higher. [AEAE tuning]
+N: This is "scordatura", with the notes below A sounding a whole step higher.
+B: K\"ohler's Violin Repository, v.3, 1885 p.207-210
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Added dots to last notes when next phrase has no pickup note.
+M: 6/8
+L: 1/8
+% Scale this tune set to fit on two "letter" pages:
+%%scale 0.60
+K: ^f^c^g=G=D
+% --------------------------------------------------
+% Page 207:
+uD |\
+(D2=G) G>FG | (.B2.B) {Bc}B>AB | (.c2.c) c>BA | (.B2.B) BAF |\
+=G3 (E2{FE}D) | D>EF =G2 || ud | (c2{dcBc}d) (.e2.e) | fdf {ef}(u.e2u.d) |
+(c2{dcBc}d) (.e2.e) | f>ga {ef}(.d2.c) | (.d2.b) (.c2.a) | B>cB B>AB |\
+c>dc c>BA | B>cB BAE | =G3 (E2{FE}D) | DEF =G2 |]
+P: Var.1
+uD |\
+=G,3G- GFG | BAB (B2{cB}A) | =G,>df edc | Bdc BAE |\
+=G3 (E2{FE}D) | D>EF =G2 || ud | cAc edc | d2(e f)ed |
+cAc edc | agf edc | dcd (d/e/)fe | edc (B2{cB}A) |\
+cea edc | Bdc BAE | =G3 (E2{FE}D) | DEF =G2 |]
+P: Var.2
+uD |\
+=G,2G- GFG | (.A,2.B) (B2{cB}A) | =G,2e- edc | Bdc BAE |\
+=G3 EdB | DEF =G2 || ue | =G,2(c e)dc | d2(e f)ed |
+=G,2(c e)dc | agf edc | d(bd) c(ac) | BcB {Bc}B>AB |\
+ced cBA | Bdc BAE | AcA EAE | D=GF G3 |]
+P: Var.3
+[|\
+(cAc) A/(B/c)A & D3 D3 | (BAB) (B2{cB}A) & D3 D3 | cde agf | edc BAE |\
+=G3 (E2{FE}D) | DEF =G2 || ud | c2{dcBc}d edc | fed edc |
+cde efe | (f/e/f/g/a) edc | (dgb) (cea) | BAB (B2{cB}A) |\
+(f2a) eca | Bdc BAF | =GBc EFG | DEF =G3 |]
+P: Var.4
+[|\
+=GGG GG,G | BBB (B2{cB}A) | ccc c=G,c | BBB BAE |\
+A(c/B/)A (E2{FE}D) | DEF =G2 || z | veee ecA | fdA ecA |
+% --------------------------------------------------
+% Page 208:
+eee ecA | acA ecA | [dE]dd [cE]cc | [BE]BB (B2{cB}A) |\
+fdf eca | Bdc BAE | =G(c/B/)A (E2{FE}D) | DEF =G3 |]
+P: Var.5
+(ve2a) (A2c) | BAB (B2{cB}A) | cde (d2c) | BAB BAE |\
+=G3 (E2d) | DEF =G3 || eAc (.e2.a) | fAd (.f2.a) |
+eAc (e2a) |fAd (f2a) | (d>ef/g/) agf | edc (B2{cB}A) |\
+cAe- e(ca) | Bdc BAE | =G3- GFE | DEF =G3 ||
+P: Var 6.
+.=G,>(DA/D/) .G,>(DA/D/) | .=G,>(DB/D/) .G,>(DB/D/) |\
+.=G,>(Dc/D/) .G,>(Dc/D/) | .=G,>(DB/D/) .G,>(DB/D/) |\
+.B,>(DA/D/) .=C>(EA/E/) | (A,>FB/F/) [=G,DA]3 ||\
+[=G=G,]>(ce/c/) [GG,]>(ce/c/) |
+[=G=G,]>(df/d/) (eac) |\
+[=G=G,]>(ce/c/) [GG,]>(ce/c/) | [=G=G,]>(df/d/) (eac) |\
+.d(Dd) .c(Dc) | .B(DB) .B(DB) | cDc- c(BA) | BDB- B(AF) |\
+=GDB, =CEA | (A,DF) [AD=G,]3 ||
+P: Var.7
+vc3 (cBd) & D3 D3 | (cAc) (B2{cB}A) & D3 D3 |\
+cde (d2c) | BAB BAE | =G3 (E3{FE}D) | DEF =G3 ||\
+(vc/d/)eA edc | fed (e2{fe}d) |
+(c/d/)eA edc | (f/e/f/g/a) {ef}ue2uc |\
+(d/e/)fd (c/d/)ec | (B/c/)dc (B2{cB}A) |\
+a>bc' edc | (B/A/B/c/d/c/) BAE |\
+(A>Bc/B/) =GED | DEF =G3 ||
+P: Var.8
+.A(DA) .A(DA) | .B(DB) .B(DB) | .c(Dc) .c(Dc) | .B(DB) .B(DB) |\
+AcA EAE | D=GF G3 || .e(Ae) .e(Ae) | .f(Af) .f(Af) |
+.e(Ae) .e(Ae) | .a(Aa) .a(Aa) | dgb cea | .B(DB) .B(cB) |\
+.c(Dc) .c(ec) | .B(DB) .B(eg) | a3 (f2{gf}e) | efg a3 ||
+% --------------------------------------------------
+% Page 209:
+P: Var.9
+=G,A,B,=CDE | F=GB cde | Ac'b agf | edc BAE |\
+=G3 EdB | DEF =G3 || (vc/d/)(eA) e(c/d/e/c/) | f(d/e/f/d/) e2d |
+(c/d/)(ec) e(c/d/e/c/) | f(d/e/f/d/) e(c/d/e/c/) |\
+f(d/e/f/d/) g(e/f/g/e/) | a(f/g/a/f/) e(d/c/B/A/) |\
+f/g/a/g/f/e/ d2c | Bdc BAE | =GBc EFG | DEF =G3 ||
+P: Var.10
+({=GA}G>FG) ({GA}G>FG) & =G,3 G,3 | ({Bc}[BD]A.B) ({Bc}[BD]A.B) |\
+({cd}[cD]A.c) ({cd}[cD]A.c) | ({Bc}[BD]A.B) BAE |\
+A3 A3 &=G3 (E2D) | A3 A3 & DEF =G3 || veAc Ae=g | fdA Adf |
+ecA Ace | fdf ecA | dA,(d c)G,(c | B)DB (B2A) |\
+c=G,c- c(BA) | BDB- B(AF) | =G3- G(FE) | DEF =G3 ||
+P: Var.11
+vea(g a)(Aa) | b(Ab) b(Ab) | c'(Ac') c'(Ac') | b(Ab) b(ag) |\
+a3 (f2{gf}e) | efg a2 || d' | c'(Ac') e'(d'c') | d'(Ad') f'(e'd') |
+c'(Ac') e'(d'c') | d'(Ad') f'(e'd') | e'(Ae') d'(Ad') | c'(Ac') b(Ab) |\
+c'(Ac') c'(Ac') | b(Ab) b(ag) | a3 (f2{gf}e) | efg a3 ||
+P: Var.12
+(v.D2.D) D3 & =G,2G, (G,A,G,) | (.D2.D) D3 & A,2A, (A,B,A,) |\
+(.D2.D) D3 & B,2B, (B,A,=G,) | D3 F3 & (A,B,A,) A,3 |\
+% --------------------------------------------------
+% Page 210:
+[GB,]3 [E=C]3 | [DB,][E=C][FA,] [=G=G,]2 || ud |\
+(c2d) (.e2.e) & D3 D3 | (.f2.f) (e2d) & D3 D3 |
+(cec) (ece) & D3 D3 | (fdf) (ece) & D3 D3 |\
+(dfd) (cec) & D3 D3 | (BcB) (BAB) & D3 D3 |\
+(c>dc) (c>BA) & D3 D3 | (BcB) [g3B3] & D3 x3 |\
+[a3c3] [f3d3] | [ec][fd][gB] [ac]2 ||
+P: Var 13
+uD |\
+D(=G/F/)G/A/ G/D/F/D/G/D/ | (.B2.B) (B/D/)A/D/B/D/ |\
+(c/B/)c/d/c (c/D/)B/D/A/D/ | (B/A/)B/c/B (B/A/)B/c/d/B/ |\
+=G2(D E/D/)E/F/G/E/ | (D/G,/)E/G,/F/G, G2 || ud |
+(c/A/)c/A/d/A/ (.e2.e) | (f/d/)f/g/a/f/ {ef}(.e2.d) |\
+(c/A/)c/A/d/A/ (.e2.e) | (f/d/)f/g/a/f/ {ef}(.e2.c) | d/g/b/(d/c/B/) c/e/a/(c/B/A/) |
+(B/D/)c/D/B/D/ {Bc}B2A/B/ | (c/D/)d/D/c/D/ {cd}c2B/A/ |\
+(B/D/)c/D/B/D/ (B/d/)c/B/A/F/ | =G2(D E/D/)E/F/G/E/ | (D/=G,/)E/G,/F/G,/ G3 ||
+P: Var.14
+=G,B,D ABc | DFB dcB | DAc edc | Bdc BAF |\
+=GDB, =CEA | A,DF =G3 || vDAc edc | d2(e f)ed |
+DAc edc | agf edc | dfd cec | Bdc (B2{cB}A) |\
+(c/A/B//c//d//e//f//g// a)(.g.f) | edc BAF | =GFE D=CB, | =CB,A, "^Fine"u[AD=G,]2 |]

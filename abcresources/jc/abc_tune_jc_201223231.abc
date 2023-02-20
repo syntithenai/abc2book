@@ -1,0 +1,23 @@
+X: 07051
+T: MS. HATHAWAY'S JIG
+C: Bob McQuillen 23 June 89
+B: Bob's Note Book 7 #51
+%R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G	% and D
+def \
+| g2d Bcd | c2B ABc | BAG GFG | AFD D2C | B,DG FGA | DGB ABc | Bcd edc | B3 ABd |
+| g2d Bcd | c2B ABc | BAG GFG | AFD D2C | B,DG FGA | DGB ABc | BGE DGF | G3 ||
+|: A2G \
+| FAd AFA | GBd BGB | Ace gfe | dfd A2G |\
+| FAd AFA | GBd BGB | Acd ecA | d3 :|
+%%begintext align
+%% You haven't seen
+%% anything until you've watched Amy Hathaway
+%% on the dance floor. [Rhythm], grace, and
+%% dexterity mark her progress down the contra
+%% line - She is AWESOME! Hope you like your jig,
+%% Amy - love, Bob
+%%endtext

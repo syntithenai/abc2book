@@ -1,0 +1,22 @@
+X: 10641
+T: 'SLIONAR EUBH' AGUS IOLACH.
+T: "Many are the cries and shrieks of woe."
+O: Gaelic air.
+Q: "Very slow."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.64 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: There's only a final repeat; initial repeat added before 1st bar.
+M: 3/4
+L: 1/16
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G4 G4 GABd | {d}e3d B8 | B6 A2 {A}B2GA | d3B B8 |\
+{B}g3e e8 | {d}e3d B8 | B6 A2 {A}G2ED | E3D D6 B,2 |
+D4 D4 DEGA | {A}d3B B8 | {ABc}B6 AG {B}A2GE | G3B D8 |\
+{C}e4 e8 | {ef}g6 ed e4 | | e4 d2B2 d4 | B3A G8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,34 @@
+
+X: 1
+T: Shain vi di l'vone    [Dm]
+S: Handwritten MS labelled "V-6" at top.
+M: 2/4
+L: 1/16
+K: Dm
+|:\
+"Dm"D2F2 E2D2 | G2 F6 | D2F2 E2D2 | G2 F6 |\
+"Gm"FAG2 G2G2 | G4 G4 |1 "Dm"FED2 "Gm"G2D2 | "Dm"F6 "A7"A,2 :|\
+[2 "Dm"FED2 "Gm"G2G2 | "Dm"D4 ||
+z2DEF |\
+"Gm"G2DB- BAG2 | G2DB- BAG2 | z2B2 A2G2 | "C7"G2B2 A2G2 |\
+"F"F2CA- AGF2 | F2CA- AGF2 | z2c4 d2 | "A7"A2G2 F2E2 ||
+"Dm"D2F2 E2D2 | G2 F6 | D2F2 E2D2 | G2 F6 |\
+"Gm"FAG2 G2G2 | G4 G4 |"Dm"FED2 "Gm"G2G2 | "Dm"D4 z4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Shain vi di l'vone    (Em)
+S: Handwritten MS labelled "V-6" at top.
+M: 2/4
+L: 1/16
+K: Em
+|:\
+"Em"E2G2 F2E2 | A2 G6 | E2G2 F2E2 | A2 G6 |\
+"Am"GBA2 A2A2 | A4 A4 |1 "Em"GFE2 "Am"A2E2 | "Em"G6 "B7"B,2 :|\
+[2 "Em"GFE2 "Am"A2A2 | "Em"E4 ||
+z2EFG |\
+"Am"A2Ec- cBA2 | A2Ec- cBA2 | z2c2 B2A2 | "D7"A2c2 B2A2 |\
+"G"G2DB- BAG2 | G2DB- BAG2 | z2d4 e2 | "B7"B2A2 G2F2 ||
+"Em"E2G2 F2E2 | A2 G6 | E2G2 F2E2 | A2 G6 |\
+"Am"GBA2 A2A2 | A4 A4 |"Em"GFE2 "Am"A2A2 | "Em"E4 z4 |]

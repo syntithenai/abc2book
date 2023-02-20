@@ -1,0 +1,16 @@
+X:15
+T:the Highway to Dublin
+%S: s:2 b:16(8+8)
+B:Francis O'Neill: "The Dance Music of Ireland" (1907) #15
+R:double jig
+Z:Frank Nordberg - http://www.musicaviva.com
+F:http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0015/oneill-1001-0015-1.abc
+M:6/8
+L:1/8
+K:Amix
+"^A"[|]\
+  g | fed   cBA | ecA A2g | fed cBc | dBG G2 |\
+| g | f>ed c>BA | def efg | agf efd | cAA A2 :|
+"^B"\
+|:g | faf {a}g2f | ecA A2g | faf {a}g2e | dBG G2 |\
+| g | faf    geg | fdf efg | agf    efd | cAA A2 :|

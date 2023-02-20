@@ -1,0 +1,323 @@
+
+X: 1
+T: the Antique Polka   [Am]
+C: arr. Cal Howard
+O: Adapted from Gounod's "Faust"
+R: polka
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+|:\
+"Am"A2cd cBAc | B2 A4 e2 | "Dm"fgag f2a2 | "Am"a2 e4 ce |\
+"Dm"de f4 "E7"Bd | "Am"cd e4 Ac | "Dm"Bcdc "E7"Bcde | "Am"e2 A4 !fine!z2 ::\
+"C"e2ce g2e2 |
+"Dm"{f}e2 d4 cd | "C"edce g2e2 | "Dm"efd3 ecd |\
+"C"edce g2g2 | "Em"gab3 gbg | "B7"^fga3 faf |1 "Em"g^feg "G7"=fedf :|2 "E7"{f}gfed edcB |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Antique Polka   [Am]
+C: arr. Cal Howard
+O: Adapted from Gounod's "Faust"
+R: polka
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+|:\
+"Am"A2cd cBAc | B2 A4 e2 |\
+"Dm"fgag f2a2 | "Am"a2 e4 ce |\
+"Dm"def2- "E7"f2Bd | "Am"cd e4 Ac |
+"Dm"Bcdc "E7"Bcde | "Am"e2 A4 !fine!z2 ::\
+"C"e2ce g2e2 | "Dm"{f}e2 d4 cd |\
+"C"edce g2e2 | "Dm"efd3 ecd |
+"C"edce g2g2 |\
+"Em"gab3 gbg | "B7"^fga3 faf |\
+[1 "Em"g^feg "G7"=fedf :|[2 "E7"{f}gfed edcB |]
+
+%%sep 1 1 500
+
+X: 1
+T: The Antique Polka   [Am]
+C: arr. Cal Howard
+O: Adapted from Gounod's "Faust"
+R: polka
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+|:\
+"Am"A2cd cBAc | B2A2- A2e2 | "Dm"fgag f2a2 | "Am"a2e2- e2ce |
+"Dm"def2- "E7"f2Bd | "Am"cde2- e2Ac | "Dm"Bcdc "E7"Bcde | "Am"e2 A4 !fine!z2 :|
+|:\
+"C"e2ce g2e2 | "Dm"e2d2- d2cd | "C"edce g2e2 | "Dm"efd3 ecd |
+"C"edce g2g2 | "Em"gab3 gbg | "B7"^fga3 faf |1 "Em"g^feg "G7"=fedf :|2 "E7"gfed edcB |]
+
+%%sep 1 1 500
+
+X: 1
+T: Cal Howard's Jig #1
+C: Cal Howard 1980
+R: jig
+B: Pinewoods Alternates
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+(3A/B/c/ \
+| "D"d2d dcd | "G"Bdd "D"Add | "G"Bdd "D"Add | "Em"Bed "A7"cBA \
+| "D"A2d dcd | "G"Bdd "D"Add | "G"Bdd "A7"cde | "D"fdd dy :|
+fg \
+| "D"a2a afd | dfa afd | "C"g2g ge=c | =ceg gec \
+| "D"a2a afd | dfa afd | "G"gfg "A7"eag | fdd dy |]
+fg \
+| "D"a2a afd | dfa afd | "C"g2g ge=c | =ceg g2g \
+| "D"fef "A7"gfg | "D"agf "G"efg | "A7"fed cBA | "D"Add dy |]
+
+%%sep 1 1 500
+
+X: 1
+T: Cal Howard's Jig #2
+C: Cal Howard 1980
+R: jig
+B: Pinewoods Alternates
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+B \
+| "Em"E2F    GAB | "D"AFD AFD | "Em"E2F G2A |     BAB "A7"e2e \
+|  "D"def "G"edB | "D"ABA FED | "Em"E2F GAB |  "D"AFD "Em"E2 :|
+|: e \
+| "Em"eBe    g2g | "D"fag fed | "Em"eBe gfe |  "D"fdf "Em"e2f \
+|  "G"gab "C"age | "G"ded BAG | "Am"A2B cBA | "Em"BGE     E2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Dancing Waves
+C: Cal Howard
+R: waltz
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+N: No keysig; B flats written as ^A
+M: 3/4
+L: 1/8
+K: F
+[|\
+"F"cB dc Bc | FE "C7"GF EF | "F"C4 A2 | A6 | "C7"cB dc Bc | FE AG FG |
+"C7"G6- | "F"A6 | "C7"e4 d2 | c4 B2 | "F"AG F4- | F4 A2 |
+"C7"c4 G2 | c4 ^G2 | "F"A6- | A4 c2 | "C7"e4 d2 | c4 B2 | "F"AG F4- | F4 A2 |
+"C"G4 c2 | "G"d2 A2 B2 | "C"c6- | "C7"c6 | "F"cB dc Bc | FE GF EF |
+"F"C4 {A}A2 | cB dc Bc | FE GF EF | "Bb"d6- | d6 |
+"Dm"f2 f3 e | g2 f2 d2 | "F"c2 c3 B | d2 c2 A2 | "C7"B2 c2 B2 | A4 G2 | "F"F6- | F6 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Fishers Strathspey
+C: James Fishar 1778
+O: arr. by Cal Howard
+R: strathspey
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+N: This is a strathspey version of the well-known Fisher's Hornpipe.
+M: C
+L: 1/8
+K: F
+(3(cde) |\
+"F"f>c A>c "C7"B<d c>B | "F"A>F A>F "C7"B<d c>B |\
+"F"A>F A>F "C7"B>G B>G | "F"A>F A>F "C7"G2 (3(cde) |
+"F"f>c A>c "C7"B<d c>B | "F"A>F A>F "C7"B<d c>B |\
+"F"A>B c>f "C7"e>f g>e | "F"f2 {g}f2 {e}f2 e>f |
+"C7"g>e c>e g<b a>g | "F"a>f c>f a<c' b>a |\
+"C"g>e c>e g>^f g>a | "G7"(3(gag) (3(fed) "C"c2 f>e |
+"Bb"d>B F>B d>f e>d | "F"c<A F>A c3 B/c/ |\
+"Bb"d>f e>d "C7"(3(cdc) (3(BAG) | "F"F<A G>E F2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Leap Year Hambo
+C: Cal Howard 1980
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+|: "D"A>F D>F A>d | ~B2 A>F D>F | A>"A7"G E>C E>G | "D"B>A F2 D2 \
+|  "D"A>F D>F A>d | ~B2 A>F D>F | A>"A7"G E>A, C>E | "D".D2 D4 :|
+[|"A7"A,>B, C>A, B,>C | "D"D>E F2 F2 | "B7"B,>C ^D>B, C>D | "Em"E>F G2 G2 \
+| "A7"A>G E>A G>E | "D"A>F D>A F>D | "E7"E>F E>D C>D | "A"E>D C>B, A,2 ||
+||"A7"A>B c>A B>c | "D"d>e f2 f2 | "B7"B>c ^d>B c>d | "Em"e>f g2 g2 \
+| "A7"a>g e>a g>e | "D"a>f d>a f>d | "A7"c>d e>f g>c | "D".d2 d4 |][K:G]
+|: "G"d>d d>c B>A | B>B B>A G>F | "C"E>E E>G c>e | "G".d2 d4 \
+| "D7"c>d c>B A2 | "G"B>c B>A G2 | "A7"A>B A>G F>G | "D"A>G F>E D2 |
+|  "D7"d>d d>c B>A | "G"B>B B>A G>F | "C"E>E E>G c>e | "G".d2 d4 \
+| "Am"c>d c>B "D7"A>c | "G"B>c B>A "Em"G>B | "Am"A>B c>A "D7"F>A | "G".G2 G4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Leap Year Hambo
+C: Cal Howard 1980
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+|: "D"A>F D>F A>d | ~B2 A>F D>F |1 "A7"A>G E>C E>G | "D"B>A F2 D2 \
+                               :|2 "A7"A>G E>A, C>E | "D"Dz D4 :|
+|| "A7"A,>B, C>A, B,>C | "D"D>E F2 F2 | "B7"B,>C ^D>B, C>D | "Em"E>F G2 G2 \
+| "A7"A>G E>A G>E | "D"A>F D>A F>D | "E7"E>F E>D C>D | "A"E>D C>B, A,2 |
+| "A7"A>B c>A B>c | "D"d>e f2 f2 | "B7"B>c ^d>B c>d | "Em"e>f g2 g2 \
+| "A7"a>g e>a g>e | "D"a>f d>a f>d | "A7"c>d e>f g>c | "D"dz d4 || [K:G]
+|: "G"d>d d>c B>A | B>B B>A G>F | "C"E>E E>G c>e | "G"dz d4 \
+| "D7"c>d c>B A2 | "G"B>c B>A G2 | "A7"A>B A>G F>G | "D"A>G F>E D2 |
+|  "D7"d>d d>c B>A | "G"B>B B>A G>F | "C"E>E E>G c>e | "G"dz d4 \
+| "Am"c>d c>B "D7"A>c | "G"B>c B>A "Em"G>B | "Am"A>B c>A "D7"F>A | "G"Gz G4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Marshes of Mallow
+C: Cal Howard
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+N: Cal gave me a page with this tune
+M: 6/8
+L: 1/8
+K: D
+|: (3A/B/c/ \
+| "D"d2d dcd | "G"Bdd "D"Add |  "G"Bdd "D"Add | "E7"Bed "A7"cB_B \
+| "D"A2d dcd | "G"Bdd "D"Add |  "G"Bdd "A7"cde | "D"fdd d2 :|
+f/g/ \
+| "D"a2a afd | dfa afd | "C"g2g ge=c | =ceg gec \
+| "D"a2a afd | dfa "D7"afd | "G"gfg "A7"eag | fdd dfg |
+| "D"a2a afd | dfa afd | "C"g2g ge=c | =ceg g2g \
+| "D"fef "A7"gfg | "D"agf "G"efg | "A7"fed cB_B | "D"Add d2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Pulp on the Bottom
+C: Cal Howard (1980)
+R: jig
+N: Cal writes:
+N: Susan Worland and I were trying to come up with a title while at a  party
+N: sipping punch with pulp at the bottom of the glass. We decided to call it
+N: that.  She recorded it on her album with Duncan Smith, I think.
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+B \
+| "Em"E2F GAB | "D"AFD AFD | "Em"E2F G2A | BAB "A7"e2e \
+| "D"def "G"edB | "D"ABA FED | "Em"E2F GAB | "D"AFD "Em"E2 :|
+|: e \
+| "Em"eBe g2g | "D"fag fed | "Em"eBe gfe | "D"fdf "Em"e2f \
+| "G"gab "C"age | "G"ded BAG | "Am"A2B cBA | "Em"BGE E2 :|
+
+%%sep 1 1 500
+
+X: 0
+T: Zwiefacher: Stille Nacht
+T: Silent Night
+T: W4P4W4PW3PWPWPW3
+K: Bb
+
+%%sep 1 1 500
+
+X: 1
+P: Stille Nacht (Silent Night)
+R: Zwiefacher
+C: Franz Gruber
+O: arr. Cal Howard
+Z: John Chambers <jc@trillian.mit.edu>
+N: Arrangement by the Cambidge Folk Orchestra (Massachusetts, USA)
+M: 3/4
+L: 1/4
+K: Bb
+[| "Bb"[FD]>[GE][FD] |[D3B,3] | "Bb"[FD]>[GE][FD] |[D3B,3] \
+|[M:2/4][L:1/4] "F7"[c2F2] |[A2-E2-] | "Bb"[B2D2] |[F2D2] \
+|[M:3/4][L:1/4] "Eb"[G2E2][GE] |[BG]>[AF][GE] | "Bb"[FD]>[GE][FD] |[D3B,3] |
+|[M:2/4][L:1/4] "Eb"[G2E2] \
+|[M:3/4][L:1/4] [BG]>[AF][GE] |"Bb"[FD]>[GE][FD] |[D3B,3] \
+|[M:2/4][L:1/4] "F7"[c2F2] \
+|[M:3/4][L:1/4] [eA]>[cF][AE] \
+|[M:2/4][L:1/4] "Bb"[B2D2] \
+|[M:3/4][L:1/4] [d3F3] \
+|[M:2/4][L:1/4] [BD2][DB,] \
+|[M:3/4][L:1/4] "F7"[FA,2]>E[CA,] | "Bb"[B,3-B,3-] |[B,B,]zz |]
+
+%%sep 1 1 500
+
+X: 2
+P: Stille Nacht (Silent Night)
+R: Zwiefacher
+C: Franz Gruber
+O: arr. Cal Howard
+Z: John Chambers <jc@trillian.mit.edu>
+N: Arrangement by the Cambidge Folk Orchestra (Massachusetts, USA)
+M: 3/4
+L: 1/4
+K: F
+[| "F"[cA]>[dB][cA] |[A3F3] | "F"[cA]>[dB][cA] |[A3F3] \
+|[M:2/4][L:1/4] "C7"[g2c2] |[e2-B2-] | "F"[f2A2] |[c2A2] \
+|[M:3/4][L:1/4] "Bb"[d2B2][dB] |[fd]>[ec][dB] | "F"[cA]>[dB][cA] |[A3F3] |
+|[M:2/4][L:1/4] "Bb"[d2B2] \
+|[M:3/4][L:1/4] [fd]>[ec][dB] |"F"[cA]>[dB][cA] |[A3F3] \
+|[M:2/4][L:1/4] "C7"[g2c2] \
+|[M:3/4][L:1/4] [be]>[gc][eB] \
+|[M:2/4][L:1/4] "F"[f2A2] \
+|[M:3/4][L:1/4] [a3c3] \
+|[M:2/4][L:1/4] [fA2][AF] \
+|[M:3/4][L:1/4] "C7"[cE2]>B[GE] | "F"[F3-F3-] |[FF]zz |]
+%%sep 3 1 500
+
+%%sep 1 1 500
+
+X: 3
+P: Stille Nacht (Silent Night)
+R: Zwiefacher
+C: Franz Gruber
+O: arr. Cal Howard
+Z: John Chambers <jc@trillian.mit.edu>
+N: Arrangement by the Cambidge Folk Orchestra (Massachusetts, USA)
+M: 3/4
+L: 1/4
+K: C
+[| "C"[GE]>[AF][GE] |[E3C3] | "C"[GE]>[AF][GE] |[E3C3] \
+|[M:2/4][L:1/4] "G7"[d2G2] |[B2-F2-] | "C"[c2E2] |[G2E2] \
+|[M:3/4][L:1/4] "F"[A2F2][AF] |[cA]>[BG][AF] | "C"[GE]>[AF][GE] |[E3C3] |
+|[M:2/4][L:1/4] "F"[A2F2] \
+|[M:3/4][L:1/4] [cA]>[BG][AF] |"C"[GE]>[AF][GE] |[E3C3] \
+|[M:2/4][L:1/4] "G7"[d2G2] \
+|[M:3/4][L:1/4] [fB]>[dG][BF] \
+|[M:2/4][L:1/4] "C"[c2E2] \
+|[M:3/4][L:1/4] [e3G3] \
+|[M:2/4][L:1/4] [cE2][EC] \
+|[M:3/4][L:1/4] "G7"[GB,2]>F[DB,] | "C"[C3-C3-] |[CC]zz |]
+
+%%sep 1 1 500
+
+X: 4
+P: Stille Nacht (Silent Night)
+R: Zwiefacher
+C: Franz Gruber
+O: arr. Cal Howard
+Z: John Chambers <jc@trillian.mit.edu>
+N: Arrangement by the Cambidge Folk Orchestra (Massachusetts, USA)
+M: 3/4
+L: 1/4
+K: G
+[| "G"[dB]>[ec][dB] |[B3G3] | "G"[dB]>[ec][dB] |[B3G3] \
+|[M:2/4][L:1/4] "D7"[a2d2] |[f2-c2-] | "G"[g2B2] |[d2B2] \
+|[M:3/4][L:1/4] "C"[e2c2][ec] |[ge]>[fd][ec] | "G"[dB]>[ec][dB] |[B3G3] |
+|[M:2/4][L:1/4] "C"[e2c2] \
+|[M:3/4][L:1/4] [ge]>[fd][ec] |"G"[dB]>[ec][dB] |[B3G3] \
+|[M:2/4][L:1/4] "D7"[a2d2] \
+|[M:3/4][L:1/4] [c'f]>[ad][fc] \
+|[M:2/4][L:1/4] "G"[g2B2] \
+|[M:3/4][L:1/4] [b3d3] \
+|[M:2/4][L:1/4] [gB2][BG] \
+|[M:3/4][L:1/4] "D7"[dF2]>c[AF] | "G"[G3-G3-] |[GG]zz |]
+

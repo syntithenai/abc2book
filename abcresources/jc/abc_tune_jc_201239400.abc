@@ -1,0 +1,19 @@
+X: 3273
+T: the Feet Washing.   a Jig.
+%R: jig
+B: Niel Gow & Sons "Complete Repository" v.3 p.27 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+f |\
+ecA A>BA | Bcd Tf2e | (f/g/a).e ece | (f/g/a).c TB2a || ecA A>BA | Bce Tf2g | agf ece | (f/g/a).c A2 :| e |
+(f/g/a).e Tf2e | (f/g/a).e ece | (f/g/a).e Tf2e | (f.a).c TB2e || (f/g/a).e Tf2e | (f/g/a).f ece | (f/g/a).e Tf2e | f(.a.c) A2e ||
+(f/g/a).e Tf2e | (f/g/a).f ece | (f/g/a).e Tf2e | f(.a.c) TB2e || ecA A>BA | Bce Tf2e | (f/g/a).f ece | f(.a.c) A2 |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | a3 a3 | e3 d3 | A3 a3 | a3 [e3E3] || a3 a3 | e3 d3 | A3 A3 | E3 A2 :| z |
+a3 a3 | a3 a3 | a3 a3 | a3 e3 || a3 a3 | a3 a3 | A3 A3 | E3 A3 || a3 a3 |
+a3 a3 | a3 a3 | a3 e3 || a3 a3 | e3 d3 | c3 A3 | E3 A2 |]

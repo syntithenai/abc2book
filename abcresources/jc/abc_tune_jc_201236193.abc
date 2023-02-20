@@ -1,0 +1,20 @@
+X: 2176
+T: Mrs BRODIE SHERIFF OF BATTLEBLENT'S STRATHSPEY
+C: By G. Rankin
+Q: "Strathspey."
+R: Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.2 p.20 #176
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Bar 8 had the first dot on the 16th-note d; fixed to match the last bar.
+N: Deleted flag from final G in bar 8.
+M: C
+L: 1/8
+K: G
+|:\
+D>EG>A B>A (3Bcd | e>g d>B (3eee e2 |\
+D>EG>A B>A (3(Bcd) | e<g d>B (3AAA A2 ::\
+g>ae>g d>g (3BAG |
+g>ae>g (3aaa a2 |\
+[1 g>ae>g d>g (3(BAG) | B>d A>B (3GGG G2 :|\
+[2 (3bgg (3aff (3gee (3dgg | B>d A>B (3GGG G2 |]

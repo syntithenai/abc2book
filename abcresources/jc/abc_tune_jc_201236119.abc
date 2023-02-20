@@ -1,0 +1,20 @@
+X: 21672
+T: MARGARET MACDONALD -- Strathspey
+R: strathspey
+B: K\"ohler's Violin Repository, v.2, 1885 p.167 #2
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Added dots to last notes in first phrase to fix the rhythm.
+N: Broke a few long beams for improved readability.
+M: C|
+L: 1/8
+K: Em
+u(B/^d/) |\
+(.e>.f) ({ef}g>f) e(E "^>"E>F) | {AGF}G>F G<B F3 f |\
+(g>e)(f>^d) e.dB>=d | A>G F<B [E2B,2] :|
+uF |\
+(.G>.A)(B>^c) (.d>.=c)(Bc) | (B>{cB}A) (G>A) [B3F3] f |\
+(g>e)(f>^d) e>d B<=d | A>G F<B [E3B,3] |]
+F |\
+(.G>.A)(B>^c) (.d>.=c)(Bc) | (B>{cB}A) (G>A) B3 A |\
+(.B>.b) (g>f) e^dB=d | A>G "^Segue Reel."F<B [E3B,3] "^D.C."|]

@@ -1,0 +1,18 @@
+X: 21581
+T: BRECHIN CASTLE -- Strathspey
+R: strathspey
+B: K\"ohler's Violin Repository, v.2, 1885 p.158 #1
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: A few long beams broken to improve readability.
+N: The final "D.C." should be "D.S.".
+M: C|
+L: 1/16
+K: Bb
+uF2 !segno!|\
+BBB2B4 (.B3.d) (f3d) | BBB2B4 {AB}c3B AF3 |\
+BBB2B4 (.B3.d) (f3d) | eg3 df3 {d}c3B AF3 !segno!:|
+f3B edcB fB3 e3g | f3B edcB {AB}c3B AF3 |\
+f3B edcB fB3 d3f | eg3 df3 {AB}c3B AF3 |
+f3B edcB fB3 e3g | f3B edcB ABcB A2F2 |\
+f3B edcB fB3 df3 | eg3 db3 {d}c3B "_Segue Reel."AF3 "^D.C."|]

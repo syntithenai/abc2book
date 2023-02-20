@@ -1,0 +1,35 @@
+X: 1
+T: Mulbery Garden
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.87 #130 (174)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.80
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: CCDM1 and DMDfD have identical dance descriptions, except for the capitalization.
+M: 6/4
+L: 1/4
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+d2e fcA | GAF c2A |\
+def efd | a3- a2 |][| a |\
+bag a2e | gd2 g2a |\
+efg fed | ^c3- c2B |\
+AG2 F2E | Dd2 ^c2d |\
+eAf e2d | d3- d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up all back, that again :| Fall all back, meet fall back again,
+%% then every Man turn his own Wo.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Go Back to Back with your own Wo. the 2d Cu. doing the same.
+%% then the two Men and two We. go Back to Back :| Take all Hands
+%% and go half round, then change with your own Wo. the 2d Cu. being
+%% in the 1st Place, foot it, and cast off, the other leading up, then
+%% foot it and cast off .| Do this to the last.
+%%endtext
+%%sep 1 8 500

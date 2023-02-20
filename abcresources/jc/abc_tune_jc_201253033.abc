@@ -1,0 +1,64 @@
+X: 1
+T: Black Jack
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.117 #177 (233)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.76
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d | c2A F>GA | B2G  G2d | c>dc A>GF | c3 A2 |]\
+A | d2e f>ed | c>BA G2d | c>dc A>GF | c3 A3 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Lead up all, and down .| That again; sett to your own, and fall back .| That again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1st Man casts off and goes round the 2d Man and 2d Wo. follows him into
+%% their own Places, the 1st Wo. and 2d Man do as much .| The 1st Cu. lead down
+%% the Middle and back again, then casts off into the 2d Place and foots it :|
+%% Do this to the last.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1st Man take his Wo. in his left Hand, and the 2d Wo. in his Right, and
+%% lead to the Wall and back, then turn about and take the 2d Man and lead
+%% to the Wall and back :| Take all Hands and go half round and foot it, go
+%% back again, the 1st Cu. cast off into the 2d Place :| Do this to the last.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1st Cu. cast off into the 2d Place, take hands and lead up all a-breast
+%% and back :| The 1st Cu. being in the 2d Place, take Hands and turn, the other
+%% Cu. sett the Men, then they turn, and the other sett :| Do this to the last.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% Lead up all, and down :| That again; Set to your own, and fall back :| That again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The first man casts off and goes round, the 2. man and 2. wo. follows him into their own places, the 1.
+%% wo. and 2. man does as much :| The 1. cu. lead down the middle and back again, then casts off into
+%% the 2. place and foots it :| Do this to the last.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. man take his wo. in his left-hand, and the 2. wo. in his right, and lead to the wall and back,
+%% then turn about and take the 2. man and lead to the wall and back :| Take all hands and go half
+%% round and foot it, go back again, the 1. cu. cast off into the 2. place :| Do this to the last.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. cu. cast off into the 2. place, take hands and lead up all a-breast and back :| The 1. cu. being
+%% in the 2. place, take hands and turn, the other cu. set the men, then they turn, and the other set :| Do
+%% this to the last.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

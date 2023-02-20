@@ -1,0 +1,24 @@
+X: 1
+T: A Trip to Jamaica
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.67 #327
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:67 #327
+M: 12/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: dAA TFEF Gee Te3 | dcd efg faf Te3 | dAA TFEF Gee Te3 | dfd ege faf Td3 :|
+|: bgg  fge bgg fge | fag fed ced cBA | bgg  fge bgg fge | fad egc dAF  D3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: d3 d3 A3 A3 | d3 A3 d3 A3 | d3 d3 A3 A3 | d3 A3 D3 D3 :|
+|: g3 a3 g3 a3 | d3 d3 A3 a3 | g3 a3 g3 a3 | d3 A3 d3 D3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Man turn his Partner, then both cast off and take hands round .|
+%% the 2d do the same :|
+%% Then the 1st Cu. cross over and go the figure of 8 between the 2d Cu. into the 2d Cu.s Place .|
+%% then Right and Left with the 2d Cu.
+%%endtext

@@ -1,0 +1,30 @@
+X: 10491
+T: FROM NIGHT TILL MORN
+Q: "Moderato"
+%R: march
+B: "Edinburgh Repository of Music" v.1 p.49
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The segnos are positioned wrong, to play the pickup notes twice. The final pickup notes should be deleted.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 arranged for small scale and wide lines.
+V: 1 clef=treble
+a>g |\
+f2f2 f3f | e>def d2e>f |\
+gfed defg | a3g f2!segno!a>g |\
+f2f2 f3f | edef d2ef |
+gfed defg | f2e2 "_Fine."d2 |]\
+d2 |\
+defg a3a | a2b>a a3a |\
+b2a2 d'3f | a3b/g/ f2a>"_D.C."g !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=treble
+f>e |\
+d2d2 d3d | AFAd F2A>d | edAF FAde | f3e d2!segno!f>e |
+d2d2 d3d | AFAd F2Ad | edAF FAde | d2A>G "_Fine."F2 |]
+F2 |\
+FAde f3f | f2g>f f3f | g2f2 f3z | f2ge d2f>"_D.C."e !segno!|]

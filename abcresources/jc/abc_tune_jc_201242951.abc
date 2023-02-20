@@ -1,0 +1,25 @@
+X: 372
+T:Macpherson's Lament
+N: page 134
+N: hexatonic
+R: air
+M:4/4
+L:1/8
+K:D major
+%
+V:1 clef=treble
+%
+A2 | "D"d2 A2 f2 ed | "A"edef e2 AB | "D"d2 A2 f2 ed | "G"B6 "A"AB |
+"D"d2 A2 f2 ed | "A"edef e2 AB | "D"d3 f "G"ed B2 | "A"A6 fg |
+"D"a3 f "Bm"gfed | "Em"f2 e2 "A"e2 fg | "D"a3 f e2 d2 | "G"B6 b2 |
+"D"a3 f "Bm"gfed | "Em"f2 e2 "A"e2 AB | "D"d3 f "G"ed B2 | "A7"A6 :|
+%
+V:2 clef=treble
+%
+A2 | F4 D2 F2 | G4 A2 A2 | F4 D2 F2 | G6 A2 |
+F4 D2 F2 | G4 A4 | B4 G4 | E6 de |
+f3 d d2 B2 | B2 B2 AFde | f3 d A2 F2 | G6 de |
+f3 d d2 B2 | d2 c2 AF E2 | A4 G4 | E6 :|
+%%newpage
+%TODO: insert Glencoe March
+%TODO: insert Ellie Fraser's Strathspey

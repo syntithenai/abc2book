@@ -1,0 +1,28 @@
+X: 1
+T: the Jenny Lind Polka   [C]
+C: Anton Wallerstein (1846)
+O: 1846?
+F: http://lcweb2.loc.gov/diglib/ihas/loc.music.sm1850.661020/enlarge.html?page=3
+R: polka
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Tune 2 in the suite "Dodworth's polka quadrilles" published 1850 in New York by Wm. Hall and Son.
+N: Transposed down an octave for legibility.
+M: 2/4
+L: 1/16
+K: C
+[|\
+"C"[E2C2][G2E2] "G7"[F2D2][A2F2] | "C"[G2E2]e2 ({f}e^d).e2 |\
+"G7"([F2D2]d2) ({e}d^c).d2 | "C"([E2C2]c2) ({d}cB).c2 |
+"C".[E2C2].[G2E2] "G7".[F2D2].[A2F2] | "C"[G2E2]e2 ({f}e^d).e2 |\
+"G7"([F2D2]d2) ({e}d^c).d2 | "C".c2.c2.c2 !fine!z2 \
+H[|\
+!f!.c2"F".A2 .^G2.A2 |
+"C"(G2E2) ({F}E^D).E2 |\
+"G7".F2.D2 .^C2.D2 | "C"(E2C2) ({D}CB,).C2 |\
+.c2"F".A2 .^G2.A2 | "C"(G2E2) ({F}E^D).E2 |
+"G,/D,".D2.B2 "D7".B2.A2 | "G"F2"^Fz"z2 "G7"K[F2D2B,2G,2] |\
+"C"(3(GAG) (^FG) .c2E2 | "G7".G2.F2 ({G}FE).F2 |\
+"G7"(3(FGF) (EF) .f2B2 |
+"C".d2.c2 ({d}cB).c2 |\
+"C"(3(GAG) (^FG) .c2.E2 | "G7".G2.F2 ({G}FE).F2 |\
+"G7"(3(FGF) (EF) .f2.B2 | "C".c2.c2.c2 "_D.C."z2 |]

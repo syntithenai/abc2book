@@ -1,0 +1,17 @@
+X:286
+T:Gold for Brenda
+C:Colin Hume, 1995
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=102
+%%MIDI ratio 3 1
+K:C
+P:A
+"C"G>E "F"A/B/c | "G"GE/D/ "Am"C2 | "F"AF/E/ "Dm"Dd/c/ | "G"B>c "G7"dG |\
+"C"ee "Dm"d/c/B/A/ | "Em"GE/D/ "Am"C2 | "F"AB/c/ "Dm"dA | "G7"B>c "C"c2 :|
+P:B
+|: "G"Bd GA/G/ | "D"^FA D>C | "G"B,D "Em"GA/B/ | "Am"cB "D7"BA |\
+"G"Bd !turn! "A7"^cB/c/ | "D"de "Bm"^f2 | "Em"g^f/e/ "Bm"f/e/d/^c/ | "E7"B>A "A"A2 |
+"Am"A=c cB/A/ | "E7"^GB "Am"A2 | "F"Ac "C/E"cd/e/ | "Dm"f>e "G7"d2 |\
+"C"g>f e/d/c | "F"f>e "G"d/c/B | "Am"cd/e/ "F"fe | "G"d>c "C"c2 :|

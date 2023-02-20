@@ -1,0 +1,31 @@
+X: 18541
+T: MORGIANA IN SPAIN
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.18 p.54 #1
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout matches original:
+V: 1 clef=treble middle=B
+|:\
+D2E F2B | D2E F2B | G2G c2B | AcB AGF |\
+D2E F2B | D2E F2B | G2c AGA | B2B B3 "^Fine"H:|
+|:\
+c2B A2d | c2B A2d | c2BA2G | F2F F2d |\
+c2B A2d | c2B A2d | cdB ABG | FGE DEC "D.C."y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+|:\
+b3 b3 | b3 b3 | e3 e3 | f3 f3 |\
+b2c' d'3 | b2c' d'3 | e3 f3 | bfd B3 "^Fine"H:|
+|:\
+f3 f2b | a2g f2b | c'3 c3 | fac' f2b | a2g f2b | a2g f2b | c'3 c3 | f2z z2z "D.C."y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & hands 4 round, back again, Poussette with 2d Cu: right & left.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

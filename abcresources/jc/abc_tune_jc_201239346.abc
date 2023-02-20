@@ -1,0 +1,18 @@
+X: 32612
+T: THE BRAES OF TULLYMET STRATHSPEY
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.261 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+U: s=!beambr1!
+K: Gm
+uc |\
+A<dT(d>c) T(d>c)sd<f | A<F(c>F) (d>F)c>B |\
+A<dT(d>c) T(d>c)df | T(.f>.d) (d/c/B/A/) A<G G :|
+ud |\
+~"\#"g>dsg<b ~"\#"g>dsg<b | ~"\="f>csf<a ~"\="f>csf<a |\
+~"\#"g>dsg<b ~"\#"g>dsg<b | T(.f>.d) {d}(c>A) G2 (.G>.d) |
+~"\#"g>dsg<b d(g/a/) bg | ~"\="f>csf<a cf/g/ (a/g/a/^f/) |\
+gd T(d>=e) T(f>g){fg}a>g | fd/f/ (d/c/B/A/) (A<G) "_Segue Reel."G "^D.C."|]

@@ -1,0 +1,27 @@
+X: 1
+T: Dean Brig o' Edinburgh
+T: Miss Gray of Carse
+R: Strathspey
+C: Airchie Allan (1794-1837)
+N: Also in Eb
+N: H&C p.20, Hunter 181, Hardie p.67, Bain p.16, SV p.40
+N: Airchie Allan of ForFar was a cousin of the famous fiddler James Allan (1800-1877),
+N: and may have played in Nathaniel Gow's band. "Miss Gray of Carse" was Allan's name;
+N: the name "Dean Brig o' Edinburgh" is from Peter Milne.
+D: Tom Anderson and Aly Bain on The Silver Bow Album, follow by Banks
+Z: 2000 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+B \
+| "G"d>e d<g d<B B>A | "G"G>A G/A/B/A/ G<D ~D2 \
+| "C"{CD}E>G "G"D>G "C"C>G "G"B,>G | "Am"E<A ~A>G "D7"(F/G/)A/F/ D2 ||
+y2 \
+| "G"d>e d<g d<B B>A | "(D7)"G>A G/A/B/A/ "G"G<D ~D2 \
+| "C"{CD}E>c "G/b"D>B "Am"C>A "Em"B,>e | "D7"B>e dF "G"{F}G2- G |]
+a \
+| "G"b<g g>b "D/f#"a<f f>a | "Em"g<e "A7"e>^c' "D"d'<d ~d>=f \
+| "C"e<c c>e "G/b"d<B B>d | "A7"e<A ~A>G "D"(F/G/)A/F/ D ||
+A \
+| "Em"B<G G>B "D"A<F F>A | "C"G<E "A7"E^c "D"d<D ~D2 \
+| "C"{CD}E>c "G/b"D>B "Am"C>A "Em"B,>e | "D7"B>e dF "G"{F}G2- G |]

@@ -1,0 +1,19 @@
+X: 10
+T: El Cerro de la Silla
+O: Mexico
+F: http://www.youtube.com/watch?v=yJrYPI46ITs
+F: http://www.youtube.com/watch?v=C31v5p9sVbc
+M:4/4
+L:1/8
+K:C
+Q:1/4=160
+%%MIDI program 22 % harmonica
+  A                |:.c.A .d.c .f.c .e.B|\
+  .d.c .c.B c2 cA  |.c.A .d.c .f.c .ed  |e2 dc .dA .cA  |
+  e2 ed eA cA      |e2 ed eA cA         |\
+  e2 d2 c2_Bd      |[1c2 cB c3A         :|[2 B2 cB cF AF|
+K:F
+|:.d.d .d.d .dA FA | .d.d .d.d .dA FA   |\
+  .d.d .d.d .dA FA |_B4-BC FA           |
+  .c.c .c.c .cC FA | .c.c .c.c .cC FA   |\
+  .c.c .c.c .c.B AG|[1A6 FA             :|[2 F8         |

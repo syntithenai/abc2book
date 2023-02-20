@@ -1,0 +1,25 @@
+X: 3446
+T: GALOP FROM "BOHEMIAN GIRL."
+%R: galop, polka, reel
+B: James Kerr "Merry Melodies" v.3 p.51 #446
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: That probably is a "D.C." at the end, but it's very faded.
+M: 2/4
+L: 1/16
+K: C
+%%slurgraces yes
+%%graceslurs yes
+|:\
+{cd}e4d2c2 | G2C2E2G2 | c2e2d2c2 | d2G2d4 |\
+{cd}e4d2c2 | G2C2E2G2 | c2e2d2G2 | c2z2 c2z2 H::\
+d2g2G2B2 | (3(ABA)G2 d2e2 | c2g2G2B2 | (3(ABA)G2 c2e2 |\
+d2g2^f2=f2 |
+e2d2c2e2 | d2^d2e2^f2 | g2z2 g2z2 :|\
+{cd}e4d2c2 | G2C2E2G2 | c2e2d2c2 | d2G2d4 |\
+{cd}e4d2c2 | G2C2E2G2 | c2e2d2G2 | c2z2 c2z2 ||\
+[K:F]\
+c2z=BB2zc | c2zd d2zc |
+c2d2e2f2 | ^f2g2a2g2 |\
+g2zff2ze | e2zd d2zc | c2b2a2g2 | g2f2e2f2 |\
+c2z=BB2zc | c2zd d2zc | c2d2e2f2 | ^f2g2a2g2 |\
+g2zff2ze | e2zdd2zc | c2b2a2g2 | f2z2 [f2A2]"_D.C."z2 |]

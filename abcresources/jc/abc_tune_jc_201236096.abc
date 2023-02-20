@@ -1,0 +1,29 @@
+X: 21643
+T: BLEWITT'S JIG
+C: I. Blewitt
+N: It actually says "Copyright." at the upper right, where the composer's name is usually found.
+N: Mr Blewitt is named in the footnote, so I transcribed his name as the composer.
+%R: slip-jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.164 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: In the 1st strain, both sf and > annotations are used on the initial notes in each measure.
+M: 9/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+("^sf"Fz"^p"A) (ABA) (ABA) | ("^sf"Fz"^p"A) (ABA) (d2f) |\
+"^sf"Fz"^p"A ABA AGF | "^sf"Bz"^p"B (Bcd ecA) !pp!:|\
+|:\
+(f2a) (f2a) (fed) | (f2a) (f2a) (gfe) |
+f2a f2a (fed) | e2e (efd) (cBA) :|\
+|:\
+f2z a2z d2z | ("^>"g2f) ("^>"e2d) (cBA) |\
+f2z e2z d2z | B2B A2G (FED) :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% This favourite jig, to which mr. Hudson's song of "Barny Brallaghan's Courtship" is sung,
+%% is printed by kind permission of the composer, Mr. I. Blewitt.
+%%endtext
+%%sep 1 1 300

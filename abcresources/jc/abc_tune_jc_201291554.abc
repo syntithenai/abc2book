@@ -1,0 +1,19 @@
+X: 1
+T: Jack Daniel's Reel
+C: John Morris Rankin 1996
+R: reel
+N: John Morris Rankin's original setting.
+F: https://www.theportlandcollection.com/wp-content/uploads/2015/06/Jack-Daniels-PC3-Web.jpg
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+ef !segno!|:\
+"A"a2ea faec | "A/E"Acaf "A"e2ce | "D"fd (3.d.d.d "Bm"d2fd | "A"ec (3.c.c.c "E"cBBc |
+"A"a2ea (3fga ec | ABaf "A/C#"e2ce | "D"f2ec "A"e2fe |1 "E"c2Be "A"cAAc :|2 "E"c2Be "A"cAA ||
+f |\
+"A"ecBc AcBc | "D/B"Acaf "A/C#"e2ce | "D"fdcd "D/A"Adcd | "Bm7"ABde "E"fe (3.e.e.e |
+"A"fece "A/E"Bece | "A"ABaf "A/C#"e2ce | "D"f2ec "A"e2fe | "E"c2Be "A"cAAf ||
+"A"ecBc "A/B"AcBc | "A/C"A=caf "A/C#"e2^ce | "D"fdcd Adcd | "Bm7"ABde "E"fe (3.e.e.e |
+"A"fece Bece | "A/B"ABaf "A/C"e2 "A/C#"ce | "D"f2ec "B7/D#"e2fe !coda!| "E"c2Be "A"cAA!segno!c |]
+!coda![| "E"c2Be "A"cAA2 |][a2A2]

@@ -1,0 +1,20 @@
+X: 120012
+T: JOHN BROWN or FAITHFUL FRIEND
+Q: "Highland Schottische."
+R: Schottische.
+%R: shottish
+B: James Kerr "Merry Melodies" v.1 p.20 s.0 #12
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+|:\
+(vc<e)e2 va>uf d<f | (c<e)e2 B>c d<B |\
+(c<e)e2 a>f d<f | (e<c) B>c A2A2 H::\
+(3(cBA) ue>uA vf>vA ua>uA | (3(cBA) e>A (d<B) B2 |\
+(3(cBA) e>A f>A a>f | (e<c) B>c A2 z2 :|[K:=f=c=g]
+K: Am
+(E<A) uA>uB (3(cBA) e2 | (E<A) A>c B2z2 |\
+(E<A) A>B (3(cBA) ue>ud | (c<A) B>E A2A2 |\
+(e<a) !1!a>b (3(c'ba) e'2 | (e<!1!a) a>c' b2z2 |\
+(e<!1!a) a>b (3(c'ba) !1!e'>!4!d' | (!3!c'<!1!a) !2!b>!0!e a2"_D.C."a2 |]

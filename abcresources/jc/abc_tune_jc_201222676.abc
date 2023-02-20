@@ -1,0 +1,33 @@
+X: 061
+T: Iohnnie Faa
+T: Johnnie Faa
+%R: air
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.6 #1
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Initial repeat on 2nd strain to match the comment "Si repete la seconda parte".
+Q: "slow"
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1
+[|\
+~G2G>A c3e | TA>BA>c {c}d4 |G2G>A c3e | TA4 {GA}G4 |\
+G2G>A c3e | TAGAc {c}d4 | G2G>A c>eTd>c | TA4 {AG}G4 ||
+|:\
+d2-de g3a | (ge)(Tdc) c4 | d2de g3a | Te4 {de}d4 |\
+d2d>e g3a | (ge)(Tdc) d4 | G2G>A c>eTd>c | TA4 {GA}G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+[|\
+c'2"6"b2 "5"a2"6"e2 | f3"6"A "4"G2"3"gf | "6"e2g2 a2"6"e2 | f4 c4 |\
+c'2"6"b2 "5"a2"6"e2 | f3"6"A "4"G2"3"gf |
+"6"e2g2 a2"6"e2 | f4 g4 || \
+|:\
+g2"6"f2 "6"edef | "6;4"g2"5;3"G2 c4 | g2"6"f2 "6"e2"6"B2 | cd"6"ef g4 |\
+g2"6"f2 "6"e2c2 |
+"6"B2c2 "4"G2"3"gf | "6"e2g2 a2"6"e2 | f4 c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,33 @@
+X: 302
+T: MISS CHARLOTTE DUNDAS
+C: Wm SHEPHERD
+R: Strathspey
+B: Glen Collection p.30 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Added missing dot in bar 12.
+M: C|
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Bb
+%
+V: 1
+B |\
+B,>B e/d/c/B/ A>cc>f | B,>Bd>B f>Bd>B | e>c e/d/c/B/ A>cc>g | f>de>c d>BB>F |
+B,>B e/d/c/B/ A>cc>f | B,>Bd>B f>Bd>B | E>cD>B C>DE>G | F>A cd/e/ dBB ||
+g |\
+f>B e/d/c/B/ FA/B/ c>A | f>Bd>B f>Bd>f | e>gd>f FA/B/ cA | E>GF>D B,BBg |
+f>B e/d/c/B/ FA/B/ c>A | f>Bd>B f>Bd>f | eg/e/ df/d/ FA/B/ c>A | E>C D/E/F/E/ D<B, B, |]
+%
+V: 2
+z |\
+[b2f2B2][b2f2B2] [c'2f2][a2f2] | [b2f2B2][b2f2B2] [b2f2B2][b2f2B2] |\
+f2[c'2a2] f2[c'2a2] | b2[a2f2] [b2f2][d'2f2] |
+[b2f2B2][b2f2B2] [c'2f2][a2f2] | [b2f2B2][b2f2B2] [b2f2B2][b2f2B2] |\
+[a2f2][b2f2] [a2f2][a2f2] | f2F2 B2[bfdB] ||
+z |\
+d2[b2f2] c2[a2f2] | B2[b2f2]d2[b2f2] |\
+[a2f2][b2f2] [a2f2][a2f2] | [a2f2][a2f2] [b2B2][b2B2] |
+d2[b2f2] c2[a2f2] | B2[b2f2]d2[b2f2] |\
+[b2B2][b2B2] [a2f2][a2f2] | [a2f2][a2f2] [b2B2][bfdB] |]

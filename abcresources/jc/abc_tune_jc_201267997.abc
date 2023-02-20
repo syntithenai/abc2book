@@ -1,0 +1,20 @@
+X:7
+T:Denis Delaney
+B:Francis O'Neill: "The Dance Music of Ireland" (1907) #7
+R:double jig
+%S: s:6 b:24(4+4+4)
+Z:Frank Nordberg - http://www.musicaviva.com
+F:http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0007/oneill-1001-0007-1.abc
+M:6/8
+L:1/8
+%Q:3/8=128
+K:G
+"^A"[|] (d/c/) \
+| BAG GBG | GBG A>Bc | BAG GBG | {d}cAF Adc |
+| BAG GBG | GBG A>Bc | BAG dBG | cAF G2 :|
+"^B" |: c \
+| Bcd def | gfe fed | dBG gdB | cAF Adc |
+| Bcd def | gfe fed | dBG gdB | cAF G2 :|
+"^C"|: (B/c/) \
+| dBG dBG | dBG ABc | dBG dBG | cAF A2 d/c/ |
+| Bcd def | gfe fed | dBG gdB | cAFG2 :|

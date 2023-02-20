@@ -1,0 +1,30 @@
+X: 1251
+T: Gaily the Troubadour
+C: Thomas H. Bayly 1820
+%D: 1820
+%R: air, march
+B: "The Golden Book of Favorite Songs", 1923
+N: Thomas H. Bayly (1797-1839) was an English poet and writer (songs, journal articles, novels, etc.).
+N: He was born in Bath, moved to Dublin where he became known as a writer, then moved back to England.
+S: https://en.wikipedia.org/wiki/Thomas_Haynes_Bayly
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [| [G2E2] [BG][GE] | [EE][EE] [E2E2] | [F2D2]  [EE][FD]  | [G4E4] | [G2E2] [BG][GE] | [EE][EE] [E2E2] | [F2D2]  [GD][FD]   | [E4E4] |
+w: 1.~Gai-ly the Trou-ba-dour touch'd his gui-tar, When he was hast-en-ing home from the war.
+w: 2.~She for the Trou-ba-dour hope-less-ly wept; Sad-ly she tho't of him when oth-ers slept.
+w: 3.~Hark 'twas the Trou-ba-dour breath-ing her name, Un-der the bat-tle-ment soft-ly he came;
+[V:2] [| [B2E2] [eE][BE] | [GE][GE] [G2E2] | [B2B,2] [BC][BB,] | [B4E4] | [B2E2] [eE][BE] | [GE][GE] [G2E2] | [B2B,2] [BB,][AB,] | [G4E4] |
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [e2G2] [dB][cA] | [BG][GE] [E2E2] | [c2E2] [BE][AE] | [G4E4] | [EE]>[FD] [G2E2]     | [AE]>[BE]  H[c2E2]  | [cD] [B2D2]  [DB,] | [E4B,4] |]
+w: Sing-ing: "From Pal-es-tine hith-er I come, La-dy love, la-dy love, Wel-come me home!"
+w: Sing-ing: "In search of thee would I might roam, Trou-ba-dour, Trou-ba-dour, come to thy home!"
+w: Sing-ing: "From Pal-es-tine hith-er I come, La-dy love, la-dy love, Wel-come me home!"
+[V:2] [B2E2] [BE][eE] | [eE][BE] [G2E2] | [A2E2] [GE][cE] | [B4E4] | [BG]>[BF] [B-E][B_D] | [AC]>[GB,] H[A2G,2] | [FB,] [F2B,] [AB,] | [G4E4]  |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

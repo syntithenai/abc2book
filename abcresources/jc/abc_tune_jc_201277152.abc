@@ -1,0 +1,41 @@
+
+X: 1
+T: Fop's Fancy   [F]
+O: Walsh 1715
+B: Walsh "Twenty Four New Country Dances for the Year 1715" p.299
+R: minuet
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 3/2
+L: 1/8
+K: F
+"A"|:\
+"F"c4 "C"A4 "Dm"f3g | "(F)"a2 f4 a2 g2f2 |\
+"C"e3d cdcB "(F)"ABcA | "Bb"B3A "C"G2c2 "F"A2F2 :|
+"B"|:\
+"C7(F)"c3B ABcd "F(C7)"c4 | "F"ABc2 ABc2 f2c2 |\
+"Bb"f3e dcBA "C"GABc | "F"A2F2 FGAB "C"c4 :|
+"C"|:\
+"F"f2a2 g2f2 "C"edec | "Bb"d2BA "C"G2c2 "F"A2F2 |\
+"Gm"GAGA BABc "C"dcde | "Bb"fefg "C"agab "F"a2f2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Fop's Fancy   (D)
+O: Walsh 1715
+B: Walsh "Twenty Four New Country Dances for the Year 1715" p.299
+R: minuet
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 3/2
+L: 1/8
+K: D
+"F"|:\
+"D"A4 "A"F4 "Bm"d3e | "(D)"f2 d4 f2 e2d2 |\
+"A"c3B ABAG "(D)"FGAF | "G"G3F "A"E2A2 "D"F2D2 :|
+"G"|:\
+"A7(D)"A3G FGAB "D(A7)"A4 | "D"FGA2 FGA2 d2A2 |\
+"G"d3c BAGF "A"EFGA | "D"F2D2 DEFG "A"A4 :|
+"A"|:\
+"D"d2f2 e2d2 "A"cBcA | "G"B2GF "A"E2A2 "D"F2D2 |\
+"Em"EFEF GFGA "A"BABc | "G"dcde "A"fefg "D"f2d2 :|

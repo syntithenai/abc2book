@@ -1,0 +1,18 @@
+X: 11001
+T: ADESTE FIDELES OR THE PORTUGUESE HYMN
+Q: "Andante"
+%R: march
+B: "Edinburgh Repository of Music" v.1 p.100 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added rest to fix the rhythm mismatch between the strains.
+M: 2/4
+L: 1/8
+K: A
+A |\
+A2EA | B3E3 | cBcd | c2BA |\
+A2GF | GABc | G2TF>E | D3 |] z | e2dc |\
+d2c2 | BcAB |
+G2{F}EA !segno!| AGAB |\
+A2Ec | cBcd | c2Bc | dcBA |\
+G2AB | c2TB>A | A4 !segno!|]

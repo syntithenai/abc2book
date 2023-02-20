@@ -1,0 +1,55 @@
+%%text RJ Set 131
+
+
+X: 1
+T: Reel des Menteries
+C: Trad. Qu\'ebec
+R: reel
+M: C|
+L: 1/8
+K: D
+|:"D"A,DDA, [D3A,3]D | "A"CDEF GECE |"D"A,DDA, [D3A,3]D | "Em7"CDEF "A"GECE|
+"D"A,DDA, [D3A,3]D | "A"CDEF GECE |"D"A,DFA dAFD | "A"EDCE "D"D2[D2A,2] :|
+"D"d2Ad dfed | "A"cABc BAFA | "D"dcBA "D#dim"FAD2|"Em7"EDCD "A"EABc|
+"D"d2Ad dfed | "A"cABc BAFA | "D"dcBA FAD2|"A"EDCE "D"D2[D2A,2] |
+"D"d2Ad dfed | "A"cABc BAFA | "D"dcBA "D#dim"FAD2|"Em7"CDEF "A"GABc|
+"D"d2Ad dfed | "A"cABc BAFA | "D"dcBA FAD2|"A"EDCE "D"D2[D2A,2] |]
+
+
+X: 2
+T: Louis Cyr
+C: Jean-Claude Mirandette
+M: C|
+L: 1/8
+R: reel
+K: G
+"^A"|:\
+"G"G,3B, D2B,D | EDEF G2"G/F#"GA |\
+"Em"BAGB "D"AGFD | "C" EDEF "D"EDB,D ||\
+"G"G,3B, DDB,D | EDEF G2"G/F#"GA |
+"Em"BAGB "Am/C"AGFD |\
+[1 "D"EDEF "G"GEDB, :|[2 "D"EDEF "G"G2GA \
+"^B"|:\
+"G"BAGB A2GA | BAGB A2"G#dim"AB | "Am"cBAc "G/B"B2AB |
+"C"cABG "D"A2 GA ||\
+"G"BAGB A2GA | BAGB AG"G/F#"FD |\
+"Em"E2 (3[eB][eB][eB] [e2B2] "B"(3[AF][AF][AF] |\
+[1 F2 E2 "Em"E2 GA :|[2 F2 E2 "Em"E2 DB, |]\
+%%text Transition: Don't play those last two eighth notes above.
+
+
+X: 3
+T: Reel des Colons
+O: rep. de Bernard Morin
+R: reel
+M: C|
+L: 1/8
+K: Emix
+"E"e2{g}fe befe | "D"defg g/a3/fd |"E"e2{g}fe befe | "Bm"dB{c}BA "D"Bdef|
+"E"e2{g}fe befe | "D"defg g/a3/-af |{g}fded "Bm"edBc | "D"dBAF GE {F}ED :|
+K: Edor
+|:"Em"EFGA BE {F}ED | EFGB "D"AD {F}ED |"Em"EFGA BBGB | "D"AFAd "Bm"BE {F}ED|
+"Em"EFGA BE {F}ED |EFGB "D"AD {F}ED |"Em"EFGA "G"BBGB | "D"AFAd BE {F}ED:|]
+%%text Final ending -- replace last line with this:
+"Em"EFGA BE {F}ED |EFGB  "D"Az3|{g}fded "Bm"edBc | "D"dBAF ^GE {F}ED|"E"E8|]
+

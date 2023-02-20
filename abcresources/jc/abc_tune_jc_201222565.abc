@@ -1,0 +1,26 @@
+X: 06079
+T: RICHY'S JIG
+C: Bob McQuillen Feb 82
+B: Bob's Note Book 6 #79
+%R: jig
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain has [1 ... ]|[2 ... ] notation (which ABC can't handle) fixed by duplicating the strain.
+N: d6 notes in last measures replace by d3 notes.
+M: 6/8
+L: 1/8
+K: D
+f2e \
+| dAd fef | dcB Aeg | fdd def | gee efe |\
+| dAd fef | dcB Aeg | faf efe | d3 ||
+f2e \
+| dAd fef | dcB Aeg | fdf agf | gfg ecA |\
+| dAd fef | dcB Aeg | faf efe | d3 ||
+|: f2g \
+| aba afd | gfg efg | afd dfa | gee efg |\
+| aba fdf | gfg ecA | dfa gec | d3 :|
+%%begintext align
+%% Ricky Cardone is another
+%% one of my great school boys I think so much of;
+%% he likes electronics and playing goalie on the soccer
+%% team - This tune isn't by the GO-GOS, Ricky, but it's with love from MAC.
+%%endtext

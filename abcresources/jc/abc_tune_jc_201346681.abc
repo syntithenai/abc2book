@@ -1,0 +1,15 @@
+X:746
+T:A Trip to Tunbridge
+C:Preston, 1793
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=112
+M:2/2
+L:1/4
+%%MIDI ratio 3 1
+K:G
+P:A
+|:B | "Em"G/G/G B>A | "Em"BG GB | "Am"A/A/A e>d | "Am"eA AB |\
+"C"c3 e | "G"d/c/B/A/ "Em"BG | "B7"F/F/F B>A | "Em"GE E :|
+P:B
+|: B | "G"G/G/G g>f | "G"gd dg | "Am"e/e/e a>g | "Am"ae ef |\
+"C"ga "A7"e=f | "Dm"d/c/B/A/ "G"BG | "Am"A/A/A "B7"B>F | "Em"GE E :|

@@ -1,0 +1,2003 @@
+%abc
+%%abc-alias none
+%%abc-creator ABCexplorer 1.6.0 [28/12/2012]
+
+X:1
+T:Annie Laurie
+C:arr. Carlo Minasi
+M:2/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=70
+Z:Peter Dunk 2012
+K:C
+!p!CC/C/ [cE][cE]|([BFC]A)z [AF]|\
+([GE]E) (ED/C/)|([E2C2G,2][DB,G,]) E/D/|CC/C/ [cE][cE]|
+%
+([BFC]A)z A|(GF/E/) (E>D)|C2 z G|\
+!crescendo(! [cE]>c [dG]>d !crescendo)!|\
+[ec] z G|!crescendo(! [cAEA,]>c [dAF]>d !crescendo)!|
+%
+[e2^G2E2] (ed|[cAFC]B [AF][c/A/][A/F/]|\
+[GE]E) E>D|C/c E/ E>D|C3 z|]
+
+X:2
+T:Kelvin Grove
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegretto  "1/4=120
+Z:Peter Dunk 2012
+K:G
+!p!(GA)|(BdAB) (GFED)|(E2 [A2^C2][A2F2D2]) (GA)|\
+(BdAB) (GFED)|(E2[G2E2C2][G2D2B,2]) (AB)|
+([cGE]>Bcd) [e2c2G2] (Bc)|([dGB,G,]BAG) [A2F2D2]"_a tempo."(GA)|\
+([BG]d[AFD]B) ([GB,][FD][EC][DB,])|([E2C2][G2B,2][G2B,2])|]
+
+X:3
+T:Scots, Wae Hae Wi' Wallace Bled
+C:arr. Carlo Minasi
+M:2/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Maestoso  "1/4=120
+Z:Peter Dunk 2012
+K:C
+!f!G>G (G>E|G>A) [c2E2]|[AF]>[AF] [AF]>[GE]|\
+[AF]>[BD] ([cE]>[dG])|[ec]>[ec] [dG]>[cE]|\
+[cE]>[dG] [e2c2]|(c>A A>G)|LG4|]
+[ec]>[ec] [ec]>[dB]|([ec]>[fd] [g2e2])|\
+[dG]>[dG] [dG]>[cE]|([dG]>[ec] [f2d2])|\
+(g>e) ([dG]>[cE]|[cE]>[dG]) [e2c2]|\
+[cA]>[AF] [AF]>[GE]|L[G4E4]|]
+
+X:4
+T:Land O' The Leal, The
+C:arr. Carlo Minasi
+M:2/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=120
+Z:Peter Dunk 2012
+K:Bb
+!p!F|F2 (F>D)|F2B>B|[G2E2] ([GE]>[FD])|[G2E2] (Bc)|\
+[d2B2F2] (c>B)|[B2F2D2] (d>c)|[B2G2E2] (G>F)|[F3D3B,3]|]
+d|[d2B2F2](d>c)|[d2B2F2] (f>d)|[cAF]c (c>B)|[c2A2F2]([ec][ge])|\
+[fdB]>d [c2A2F2]|[B2D2]"_a piacere"[dB]>[cF]|\
+[B2D2]L[GE]>[FD]|[F3D3]|]
+
+X:5
+T:Busk Ye, Busk Ye
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=120
+Z:Peter Dunk 2012
+K:C
+!p![G2E2]([A/F/]B/c)[G2E2](ce)|(fedc)[A2F2]z2|\
+[G2E2]([A/F/]B/c)[G2E2] ([ec][fd)]|\
+([ge][f/d/][e/c/]) ([dG]>[cE]) ([cE]>[dG]) [e2c2]|
+%
+[G2E2]([A/F/]B/c)[G2E2](ce)|(fedc) (BA) (e>d)|\
+(cBAG) ([fd][ec][dG][cE])|([A3F3][GE]) ([AF]>[BF] [c2E2])||
+%
+([ec]>[dB][ec]>[fd]) [g3e3] e|(fedc) [A2F2]z2|\
+(e>de>f) g3 f|(edcd) (e>fg>e)|
+%
+([ec]>[dB][ec]>[fd]) ([g2e2]fe)|(fedc) {B/}A2 (ed)|\
+(cBAG) ([fd][ec][dG][cE])|([A3F3][GE]) ([AF]>[BF] [c2E2])|]
+
+X:6
+T:Bonnie Prince Charlie
+C:arr. Carlo Minasi
+M:6/8
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegretto  "3/8=90
+Z:Peter Dunk 2012
+K:D
+!mf!(f>ed) d2 b|afd' (f>ed)|(fe)e (e<fa)|\
+([d'b]>[c'a][bg]) ([bg][af][fd])|
+%
+([af]>[bg][d'b]) ([e'c']>[d'b][bg])|([bg][af][fd]) ([af][bg][d'f])|\
+(f>ef) ([d'b]>[c'a][bg])|([af]d(f) {f}e2) d|
+%
+"_>"(d'>a)a "_>"(e'>a)a|"_>"g'>(e'd') (d'[af])[bg]|\
+([af]fd) d2 (d'/e'/)|(f'g'/e'/(d'/){f'}(e'2)d')|
+%
+d'2 [af] (d'f'g')|(f'>e'd') ([d'b][c'a][bg])|\
+([af]>[bg][af]) ([af]d)>e|(fa)>(f {f}(L[e2A2]) [dF])|]
+
+X:7
+T:O Whistle An' I'll Come to Ye my Lad
+M:6/8
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegretto  "3/8=100
+Z:Peter Dunk 2012
+K:Bb
+!p!(B/(c/)|d<B)G (FED)|(Ccc) c2 B/(c/|\
+d<B)G FDF| L([GE][BD])[BD] [B2D2] (B/c/)|\
+(dBG) (F>ED)|(Ced) (Hcf>e)|
+%
+(dBG) (FDF)|L([GE][BD])[BD] [B2D2]||\
+(d/c/)|.B.d.f .B.d.f|.B.d.f Lf2 (d/c/)|\
+.B.d.f .B.d.f|(g[cA])[cA] [c2A2](d/c/)|
+%
+.B.d.f .B.d.f|BB[ge] L([g2e2] [f/d/][e/c/])|\
+([dB]BG) (FED)|(Cc)c c H([fd]>[ec])|\
+([dB]BG) (FDF)|L([GE][BD])[BD] [B2D2]|
+
+X:8
+T:Flowers of the Forest, The
+T:(Old Air)
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Adagio  "1/4=80
+Z:Peter Dunk 2012
+K:G
+!p!G2 (GG ABde)|(dBAG) (E2D2)|\
+G2 (GG ABde)|(dB)([AC]>[GB,])[G4B,4]||
+(DE=FF) (EFGG)|(DDB(A) GED) >D |\
+(D2 EG) ([e2c2] [dB]B)|"rall."[A2D2] ([AD][B/G/][A/D/]) [G4B,4]||
+
+X:9
+T:Flowers of the Forest, The
+T:(Modern Air)
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Adagio  "1/4=70
+Z:Peter Dunk 2012
+K:Bb
+!p!F2 (FG) (FG) (Bc/d/)|(edcB) (GB) {G}(FD)|\
+(3CDF (F>G) (FG) !crescendo(!(Bc/d//e//)!crescendo)!|
+d2 ([cE]>[BD]) [B2D2]z2|!p!_A2 (A/c/B/A/) (3FGB|\
+(FdcB) (GB) (3GFD|_A2 (A/c/B/A/) (3FGB|
+(Fd) {d/}(c>B) B2 z2|([dB] [fd])([fd]>[ge]) ([ge][fd][ec][dB])|\
+(c/d/e/d/) {d/}c>B B3 c|([dB][fd])([fd]>[ge]) ([ge][fd][ec][dB])|
+([fd][dB]){d/}(c>B) (GB) (3GFD|(3CDF F>G (FG)\
+!crescendo(! (Bc/d/e/)!crescendo)!|\
+[d2F2] ([cFE]>B) [B2F2D2]z2|]
+
+X:10
+T:Here Awa', There Awa'
+C:arr. Carlo Minasi
+M:3/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=120
+Z:Peter Dunk 2012
+K:F
+!p!([c3A3] [BG][AF][GC])|([F3A,3] [GC] [F2A,2])|\
+([G3E3C3] [FA,] [G2C2])|[A2F2] [f4F4B,4]|\
+([c3F3A,3] [BFD][AFC][GCB,])|([F3C3A,3] G A2)|\
+([d3A3F3] [^cGA,] [d2F2D2])|D4 z2|
+([A2F2D2] d2 [^c2G2A,2])|([d3F3D3] e f2)|\
+([c2G2E2] d2 cB)|([A3F3] [BG] [c2A2])|\
+([A2F2D2] d2 [^c2G2A,2])|([d3F3D3] e f2)|\
+L"rall."( G A2 A3)|D4 z2|]
+
+X:11
+T:O Waly, Waly Up Yon Bank
+C:arr. Carlo Minasi
+M:3/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=120
+Z:Peter Dunk 2012
+K:C
+!p!C|([EC]>[FD]) [G2E2]c2|([dGF]>e) [d3G3F3] D|\
+([EC]>[FD]) [G2E2] c2|([eG]>[dF]) [d3E3] C|\
+([EC]>[FD]) [G2E2] c2|([dGF]>e) [d3G3F3] D|\
+([EC]>[FD]) [G2E2] d2|([eG]>[dF]) [c2E2]||
+z_B|(A>G) F3 G|(AG _B3) A/G/|\
+(Ac [G2E2C2]) e2|{e/}d>c c2 z(c|\
+A>[GE][E3C3]) (c|GE D3) (_B|\
+AG [c3E3]) E|{E/}L(D>C) C2 z|]
+
+X:12
+T:Bush Aboon Traquair, The
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=100
+Z:Peter Dunk 2012
+K:C
+!p!(C>D)| ([EC][GE] [c3E3] e)|([dFG,]>c d/e/f/d/) [d2F2G,2] zD|\
+([E2C2][G2E2]) (e>dcA)|([G4E4] C2) (C>D)|
+([E2C2][G2E2] [c3E3] e)|([dFG,]>c d/e/f/d/) [d2F2G,2] zD|\
+([E2C2][G2E2]) (e>dcA)|([G4E4] C2)||
+c2|(B>AGA) (Bcde)|(fgef) d2 zG|\
+([cE]>[dG][ec][fd]) ([g3e3] G)|(e>f g/f/e/d/ c2) zc|
+(B>AGA) (Bcde)|"_rall."(f>g a/g/f/e/ d2) z "_a tempo."[DB,]|\
+([E2C2][G2E2]) ([ec]>[dB][cA][AF])|([G4E4] C2)||
+
+X:13
+T:Logie O' Buchan
+C:arr. Carlo Minasi
+M:3/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=140
+Z:Peter Dunk 2012
+K:C
+!p!([GE][FD])|([E3C3][FD][G2E2])|([GE]e3 d2)|\
+([c2A2][A2F2])[A2F2]|L[A4F4][GE][FD]|\
+([E3C3][FD][G2E2])|([GE]e3) [d2F2B,2G,2]|\
+([e2G2E2C2]c2) c2|Lc4 ([cE][dG])|
+%
+([e3c3][dB][e2c2])|[g4e4] (ed)|\
+([c2A2][A2F2][B2F2])|L[c4E4] (cd)|\
+([e3c3G3] f e2)|([d2B2G2]c2d2)|\
+([e2c2G2]c2[A2F2])|[A4F4]([GE][FD])|
+%
+([E3C3][FD][G2E2])|([GE]e3) d2|\
+([c2A2][A2F2])[A2F2]|L[A4F4] ([GE][FD])|\
+([E3C3][FD][G2E2])|[GE] Hc3 [d2F2B,2G,2]|\
+([e2G2E2C2]c2)c2|L[c4G4E4C4]||
+
+X:14
+T:Comin' Through the Rye
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Moderato  "1/4=110
+Z:Peter Dunk 2012
+K:Bb
+!p!F>FFd c>Bcd|F<F(G>F) B2 z|\
+(F>Ff>d) (d>Bcd)|F>F{A/}G>F [B2D]z|
+[fd]>dBd {d/}c>Bc<d|([fd]>d) (Bd/f/) [g3e3B3G3] g|\
+(f>d)(e>c) "rall."(e/d/c/B/) HB>d|\
+"'a tempo.'"[FD]>[FD]([GE]>[FD])[B2D2] z|]
+
+X:15
+T:Of A' the Airts the Wind Can Blaw
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=110
+Z:Peter Dunk 2012
+K:C
+!p!G|[cGE]>c[cAF]>c ([cGE]Gc[afc])|([gec]>e{e/}d>c) [c3A3](G/A/)|\
+[cGE]>c[cAF]>c ([cGE]Gca)|([gec]>a[c'e][ec]) [g3B3][af]|
+%
+([ge]>ac'[ec]) ([ge]>[eG][dF][cE])|\
+[dAF](d/e f/e/d/c/) {B/}[A3F3]G/A/|\
+[cGE]>c[cAF]>c ([cGE]Gc[afc])|([gec]<e)([dBG]>e) [c3E3]||
+%
+G/F/|(E>G[cE]>G) ([AF]>[GE][cE][dG])|(eg) (f/e/d/c/) {B/}A3 (G/F/)|\
+(E>G[cE]>G) ([AF]>[GE][cE][dG])|[ec]>f (g/a/b/c'/) [g3d3B3] (a/b/)|
+%
+(c'>bag) (a>gfe)|(d>e f/e/d/c/) {B/}A3 (G/A/)|\
+[cGE]>c[cAF]>c ([cGE]Gc[afc])|([gec]>e)([dBG]>e) [c3E3]||
+
+X:16
+T:Auld Robin Gray
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=100
+Z:Peter Dunk 2012
+K:D
+!p!D|([FD]>[GE][AF]>[BG]) {[B/G/]}[A3F3] [AF]|\
+[BG]>G[dB]>[BG] {[B/G/]}[A3F3] zD|\
+([FD]>[GE][AF]>[BG]) ([BG][AF]GF)|(E>DG>F) (F2 E) D|
+%
+([FD]>[GE][AF]>[BG]) {[B/G/]}[A3F3] [AF]|\
+[BG]>c[dF]>F {[A/F/]}[G3E3] E|\
+"_cres."F<A (df) "_rall."(gecd)|F2 {F/}E>D D2||
+%
+!p!=F| (=F2 E>F) D2 (F>G)|\
+([A=F]>A[_BG]>G) [A2F2] "_cres."E>E|\
+([=FD]>E[FD_B,]>[^F=CA,]) ([GB,G,]>FG[^GED])|\
+"_rall."([AE^C]>^G)(d>[GD]) H[A3C3] !p!A|
+%
+(F<D) ([AF]>[BG]) ([BG][AF]) z[AF]|\
+([BG]>[AF][GE][FD]) ([AF] [G2E2]) E|\
+(FA) (d<f) "_rall."([gE]e[cG][dF])|\
+(F>G) {F/}(E>D) D2||
+
+X:17
+T:Up in the Morning Early
+C:arr. Carlo Minasi
+M:4/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Moderato  "3/8=100
+Z:Peter Dunk 2012
+K:Bb
+!p!C|G2 A B2 c|(d>=ef) F2 F|\
+(G>AB/c/) d>cB/A/|!diminuendo(!(G3 d2)!diminuendo)! !mf!D|
+G2 [A^F] [B2G2][cA]|([dB]>=ef) F2 F|\
+(G>AB/c/) d>cB/A/|!diminuendo(!(G3 [d2B2G2])!diminuendo)!||
+B|([cGE]>cB) [B2G2D2] B|([cGE]>dc) [c2A2F2] [cA]|\
+([DB]>[ec][fd]) ([ge]>[fd][ec])|([d3B3] f2) !mf!f|
+([BFD]>c[BFD]) [B2G2E] B|([cAF]df) H[g2e2B2]([f/A/]e/)|\
+([dB]>cB) [AEC]>G[^FC]|!diminuendo(!([G3B,3] d2)!diminuendo)!||
+
+X:18
+T:My Sheep I Neglected
+T:My Apron Dearie
+C:arr. Carlo Minasi
+M:3/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andantino  "1/4=140
+Z:Peter Dunk 2012
+K:C
+!p!([GE][AF])|([c3E3] [dF][eG][dF])|(c2G2A2) &E4 F2|\
+([_B3] dcB) &[F3D3] z [G2E2]|(_B2A2) [GE][AF] &[F4C4] x2|\
+([c2E2] [gcE]f[eBF]d)|([c2E2]G2[A2F2])|\
+(c>Bcdef) &E3 Gcd|[g4e4C4] G2|
+%
+([c2E2] g[fA][eG][dF])|([c2E2]G2 [A2F2])|\
+([_B3] dcB) &[F3D3] z [G2E2]|(_B2A2) (cA) &[F4C4] x2|\
+(G2E2) (F>A)|G4 ([ec][fd])|\
+([g3e3] [fA][eG][dF])| [c4E4]||
+%
+([ec][fd])|([g2e2] [fA][eG][dF][cE])|[f4A4] ([fA][_ec])|\
+[d2_B2] (Bcd[_eB])|[f4A4] (ef)|\
+g2 (fedc)|([fcA]g/a/ [g3e3c3] a)|\
+([g2e2c2] fe [fcA]g/a/)|([g4e4c4]a2)|
+%
+(g2e2) (cd/e/)|([f3A3] g  a2)|\
+([A2F2D2]defd)|([c2G2E2][B2G2D2]) (cA)|\
+(G2E2) (FA)|G4 (e>f)|\
+([g3c3E3] [fdF][ecG][dBGF])|[c4G4E4]||
+
+X:19
+T:I'm O'er Young to Marry Yet
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegretto  "1/4=140
+Z:Peter Dunk 2012
+K:D
+!p!b|([af]<d) (d>e) ([fd]>[ec][fd]>[ge])|\
+([af]<d) (d>e) (f<e) eb|\
+([af]<d) (d>e) ([fd]>[ec] [fd][af])|\
+([bg]>[c'a][d'b]>[bg]) ([af]<f) f||
+%
+[af]|([bg]>[c'a][d'b]<[bg]) ([af]f) "_>"[(f'a]>e')|\
+([d'b]>[c'a][d'b][bg]) (a<f) fa|\
+([bg]>[c'a][d'b]>[bg]) ([af]f) "_>"[(f'a]>e')|\
+"_rall."([d'b]>[c'a][d'b][bg]) (af) H[ecA]||
+%
+"'a tempo'"
+!mf!(f/g/)|(a<d) (d>e) (fef>g)|(a<d) (d>e) (f<e) eb|\
+([a<d] d) (d>[eA]) ([fd]>[ec][fd][af])|\
+([bg]>[c'e][d'f][bg]) ([af]<f) Hf||
+
+X:20
+T:Come O'er the Stream to Charlie
+C:arr. Carlo Minasi
+M:3/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegretto  "1/4=200
+Z:Peter Dunk 2012
+K:F
+!p!C2|[F3A,3] A c2|(c2A2d2)|(c2A2f2)|(c2A2G2)|\
+(F3 A c2)|(c2A2[F2A,2])|C2 A3 [GB,]|[F4A,4]:|]
+%
+c2|[f2A2]e2f2|[d2B2]e2[f2A2]|[d2B2]g2[f2=B2]|([e2c2]d2c2)|\
+([f2A2]e2f2)|[d2B2][c2A2][B2G2]|\
+[A2F2][G2=B,2][F2D2]|[c4E4]c2|
+%
+[B2F2D2]d2[B2E2]|[A2F2]c2[f2A2]|\
+[c2F2A,2]A2[F2D2B,2]|[A2F2C2][G2E2C2][e2G2C2]|\
+[f3B3F3D3] d [B2F2D2]|[c3A3F3] A [F2A,2]|\
+C3 A [G2B,2]|[F4A,4]|]
+
+X:21
+T:Tullochgorum
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Spiritoso  "1/4=140
+Z:Peter Dunk 2012
+K:D
+!mf!E| LF>dA>D LG>=CE>G|LF>DA>D LF>GA>d|\
+LF>DA>D LG>=CE>F|LD>dA>d LF2 e||
+F|D>dA>B =c>=CE>F|D>dA>G F2 E>F|D>dA>B =c>=CE>F|
+D>dA>B =c>de>d|=c>BA>c G>=CE>F|D>dA>G LF2 E|]
+
+X:22
+T:Green Grow the Rashes O
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Moderato  "1/4=120
+Z:Peter Dunk 2012
+K:F
+!p!F|F>FA>G (A<G) FA|G>Gd>c (d<G) GA|\
+(B>A Bd) (cAFA)|(G>BA>G) LF<D D2||
+!mf!c2 ([fcA]>e) L(f>[cA]) c2|d2 ([gB]>^f) L(g<d) de|\
+([fA]>gf[dB]) ([cA]AF>A)|(G>BA>G) L<D D2 ||
+
+X:23
+T:Weary Fund O'Tow, The
+C:arr. Carlo Minasi
+M:3/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=140
+Z:Peter Dunk 2012
+K:G
+!p!D|G>G G2 z G|(GA/B/ A3) G|\
+(F>G) ([c2A2][B2G2]|[A4F4)] z B|G>G G3 G|\
+(GA/B/ A3) G|(E>G [B2D2][A2C2])|[G4B,4]z||
+%
+d|(B>c d2) z G|(B>c d2) z G|\
+(F>G) [c3A3] [BG]|[A4F4]"_cres."(d3/e/f/)|\
+(g>f) e3 d|d>d {e}Hg3 !p!G|\
+(E>G [B2D2] [A2C2])|[G4B,4]||
+
+X:24
+T:My Love She's But a Lassie Yet
+C:arr. Carlo Minasi
+M:2/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegretto  "1/4=120
+Z:Peter Dunk 2012
+K:D
+!p!B/c/|dLDLFLA|L[dAF].D.D (B/c/)|\
+d(DFA)|eEE (B/c/)|[dAFD]LDLFLA|\
+[dBG]Lg(f>e)|(d/c/B/A/) B>c|LdDD||
+%
+!mf!(fg)|(ag)(ge)|(fd).d ([f/d/][g/e/])|\
+([af][fd])([ge]>[fd])|([eA]E.E) ([f/d/][g/e/]|\
+[af][fd])([ge][ecA])|([fd][dF])([ecA]>c)!f!|\
+(d/c/B/A/) B>c|LdDD||
+
+X:25
+T:Lewie Gordon
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegretto  "1/4=140
+Z:Peter Dunk 2012
+K:C
+!p!LG>AB>A GE A2|(LG>AB>c) ([dB][ec] [g2B2])|\
+Le>d(gB) (c/B/A/G/) A2|LG>AB>A GE [G2D2B,2]|
+LG>AB>A GE L[A2F2D2]|(LG>AB>c) ([dB][ec] L[g2B2])|\
+Le>dgB (c/B/A/G/) [A2F2D2]\
+|LG>A"_rall."B>A G[EC] [G2B,2]||
+
+X:26
+T:Gypsie Laddie, The
+T:Wae's Me For Prince Charlie
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=140
+Z:Peter Dunk 2012
+K:C
+!p!G|[G2E2]([GE][AF] [c3E3]B)|([AF]GAc) ([D3B3G3] e)|\
+([G3E3][AF] [cE][eG][dF][cE])|([A4F4] [G2E2]) z [GE]|
+%
+([G2E2] [GE][AF] c3 d) &x4 E2 FG|([AF]GAc) ([D3B3G3] e)|\
+([G3E3][AF] [cE][eG][dF][cE])|([A4F4C4] [G2E2C2]) z c|
+%
+([d2B2G2] [dF]e [g3c3E3] [acF])|([geG]>e[dBG]>e [c2E2] ze)|\
+([d3B3][ec][g2e2] [a2f2])|([e4c4G4][d2B2G2]) zc|
+%
+([d2B2G2] [dF]e [g3c3E3] [acF])|([geG]edc [d2B2G2]) ze|\
+([G3E3][AF] [cE][eG][dF][cE])|([A4F4C4] [G2E2C2]) z||
+
+X:27
+T:Laid O' Cockpen, The
+C:arr. Carlo Minasi
+M:6/8
+L:1/8
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Spiritoso  "3/8=100
+Z:Peter Dunk 2012
+K:Gm
+!mf!D|([GB,]>AG) B2 B|([AF]F)F F2 A|\
+(G>AG) Lg2 g/g/|([fdB]>dd) (d/e/)|
+.f.B.d .f.e.d|.c.d.B H[A2^F2D2] (B/c/)|\
+(d>ed) (d2 c)|L(B<G)G G2||
+
+X:28
+T:Waefu' Heart, The
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=140
+Z:Peter Dunk 2012
+K:F
+!p!F2|(F3G {B}G2 GF)|(F3G {c}B2 AG)|\
+(F2 Ac [dB][cA][BG][AF])|([A4F4] [G2E2]) zF|
+(F3 E D3 C)|(C2 F>G A2) zd|(c3 d A2 {A/}G2)|[F6]||
+c2|(c3 d/e/ f3 e/d/)|(c3 d A2) zd|\
+(c3 d cAGF)|([A4F4C4][G2E2C2]) zF|
+(F2 [AF][cA] [d3B3] [cA])|([f3A3] [gB] H[f3A3]) (e/d/)|\
+(cAfd) (c<A) (G>A )|[F6C6A,6]||
+
+X:29
+T:Duncan Gray
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegro  "1/4=200
+Z:Peter Dunk 2012
+K:C
+!p!G2c2B2c2|(d2e2 B4)!f!|\
+[c4G4E4][d3B3G3]f|([e2c2][c2E2])[c2E2] z!p!G|G2c2B2c2|
+(d2e2 B4)!f!|[c4G4E4][d3B3G3]f|\
+([e2c2][c2E2])[c2E2] z2 !mf!||[e2c2][g2e2][g2e2] [fd][ec]|\
+[f2d2][f2d2][f2d2]z2|[f2A2][e2G2][d2F2][c2E2]|
+[B2D2]d2[G2D2B,2]z2|[g2e2][af][ge] [f2d2][e2c2]|\
+(defd) [B4G4F4] !f!|[c4G4E4][d3B3G3] f|\
+([e2c2][c2G2E2])[c2G2E2]z2||
+
+X:30
+T:Corn Rigs Are Bonnie
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegretto  "1/4=140
+Z:Peter Dunk 2012
+K:Bb
+!p!F2|([B3D3]c [d2F2] cB)|([AF]>GAB) [c2A2] F2|\
+([B3D3]c dedc)|B2 (f>g) f2F2|
+([B3D3]c [d2F2] cB)|([AF]>GAB) [c2A2] F2|\
+([AF]>ABG [c=E]BAG)|[E2F2] ([BD]>c [B2D2])||
+|:F2|[B2D2][f2d2](defB)|(AGAB) c2F2|\
+[B2D2] (f>e decd)|B2 (f>g) f2F2|
+[B2D2]f2 (gfed)|"rall"(edcB) (A>BHc) "'a tempo'"F|\
+([GE]ABG) ([c=E]BAG)|[E2F2] ([BD]>c [B2D2]):|
+
+X:31
+T:O Charlie Is My Darling
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=120
+Z:Peter Dunk 2012
+K:Eb
+!p!E2|(C>DE>F) ([G2E2C2] c)z/G/|([A2F2C2] c)z/A/ ([G2E2C2] c)z/E/|\
+(C>DE>F) (G2 c)z/d/|(e2[dF]>[cE]) [c2E2]||
+!mf!c2|([=BF]>G=A>B) ([cE]>de>c)|([=BF]>G=A>B) [c2E2]zd|\
+([eBG]>de>[cA]) ([BG]>GE) (F/G/)|(AFG>E) D3 !mf!z/ E/|
+(C>DE>F) ([G2E2C2]c)z/G/|([A2F2C2] c)z/A/ ([G2E2C2] c)z/E/|\
+(C>DE>"_cres."F) (G2 c)z/d/!f!|e2[dF]>[cE] [c2E2]||
+
+X:32
+T:There Cam' a Young Man to My Daddies Door
+C:arr. Carlo Minasi
+M:6/8
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegretto  "3/8=100
+Z:Peter Dunk 2012
+K:Bb
+!p!D|(G>GA) [BG]([BG][cA)]|([dB][cA][BG]) [A2^F2D2] G|\
+([FCA,]>GF) A2 B|(cfd) (cAF)|
+|(G>GA) [BG]([BG][cA)]|([dB][cA][BG]) ([A^FD][BG][cA])|\
+L[d2B2] G (G>A[^FC])|([G3B,3] [G2B,2])||
+A|([B2F2D2] d) .f(fg)|(fdB) (fdB)|\
+([F2C2A,2] A) (ccd)|(cfd) (cAF)|
+([B2F2D2] d) .f(fg)|(fdB) (cdf)|\
+L[g2d2B2G2] G (G>A[^FC])|([G3B,3] [G2B,2])||
+
+X:33
+T:My Boy Tammy
+C:arr. Carlo Minasi
+M:4/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Moderato  "1/4=120
+Z:Peter Dunk 2012
+K:Dm
+!p!D>EF>G (A>[=BF]) [c2E2]|G>AG>F (E<C) zC|\
+(D>EF>G) (A>[=BF]) [c2E2]|(A>f[eG]>[dF]) (A<d) z||
+[dB]|([dB]>[ec][fd][dB]) [cA]>[BG] [A2F2]|(FAc>A) (G>E) Cz|\
+([dF]>f[e^C]>f) ([dD]>[AF]) [A2F2]|G>AG>F (E<D) z2||
+
+X:34
+T:Johnnie Cope
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Spiritoso  "1/4=140
+Z:Peter Dunk 2012
+K:Bb
+!p!DF|L[G2D2B,2].G2.G2 (Ac)|L[d2B2G2].G2.G2 (FD)|\
+L[F2C2A,2].F2 FGAB|Bd[c=E]B [A2F2] GF|
+[B3D3] B [c2A2F2]c2|"_cres."([d2B2]f2[A2F2D2]) (GF|\
+D2)f2 ([d^F]cBA)|[G4B,4][G2B,2]||
+GA &E2|B2B2 BFDF &D2D2 D x3|(Bcde f2) (cB)|\
+[A2F2] (GF) c2F2|ABcd c2 BA|
+BABc dcdg|fd[cE]B H[A2F2] GF|\
+D2f2 [d^F]cBA|[G4B,4][G2B,2]||
+
+X:35
+T:My Ain Kind Dearie O
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andantino  "1/4=90
+Z:Peter Dunk 2012
+K:G
+!p!(B/>A/)|([BD][DB,])([DB,][EC]) ([GB,]>[AC][GB,]B)|\
+([AEC]>B c/B/A/G/) L(BE)E B/>A/|\
+([BD][DB,])([DB,][EC]) ([GB,]>[AC][GB,]) g/f/|\
+(e>d) (e/f/g/d/) ([BD][GB,]) [GB,]||
+%
+d|(e/d/e/f/) gB (c/B/c/d/) eB|\
+(A/G/A/B/ c/B/A/G/) {GA}BEE (B/A/)|\
+{GA}(BD)DE ([GB,]>[AC][GB,]) (g/f/)|\
+(e>d) (e/f/g/d/) L([BD][GB,]) [GB,]||
+
+X:36
+T:Locheil's March
+C:arr. Carlo Minasi
+M:6/8
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Spiritoso  "3/8=100
+Z:Peter Dunk 2012
+K:F
+!mf!(c>A)A (d>ef)|(c>A)A A2 F|\
+(c>A)A (d>ef)|(c>AF) L([G2B,2] [FA,])|
+[cA]>[AF][AF] [dB]>[BG][BG]|[cA]>AA [A2F2] F|\
+[GE][GE][AF] [BG]>[cA][dB]|[cA]AF L([G2B,2] [FA,])||
+!f!([gcA]>c)c [fdB]>dd|[gcA]>cc A2 F|\
+[GE]([GE][AF]) ([BG]>[cA][dB])|([cA]AF) L([G2B,2] [FA,])||
+
+X:37
+T:Man's Man for A' That, A
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Moderato  "1/4=140
+Z:Peter Dunk 2012
+K:Fmix
+!p!F|(B>cBF) (GBce)|(d>cBF) G2 (GF)|\
+(B>cBF) (GBce)|(d>cBF) G2 F||
+[ec]|([dB]>[ec][fd][dB]) ([ec]>[dB][cA][ec])|\
+([dB]>[ec][fd][BD]) [G2E2] (Gd)|\
+([dB]>[ec][fd][dB]) ([ge]H[c=E])([cAF][ec])|\
+([dB]>cBG) F2 F||
+
+X:38
+T:Ca the Yowes to the Knowes
+C:arr. Carlo Minasi
+M:2/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Moderato  "1/4=120
+Z:Peter Dunk 2012
+K:D
+E>F [B2G2]|[AF]<[FD] [A2F2]|(F>E D)d|([cA]>[dB]) [e2c2]|\
+([fA]>[BG]) [BG]>[BG]|([AF]d) [F2D2]|\
+([E2C2][FD])>A|[B2-F2-D2-B,2-][BFDB,] z||
+E>F [BG]>B|([AF]>[FD]) [A2F2]|(F>E D)d|([cA]>[dB]) [e2c2]|\
+([f^A]>[BG]) [BG]>[BG]|([AF]d) [F2D2]|\
+([E2C2][FD])>A|[B2-F2-D2-B,2-][BFDB,] z||
+
+X:39
+T:Braes of Balquidder, The
+C:arr. Carlo Minasi
+M:2/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Spiritoso  "1/4=140
+Z:Peter Dunk 2012
+K:D
+!mf!(F>A)|L[B2G2D2]A>D|F2 (F>A)|L[B2G2D2]A>D|\
+(F<E) (F>A)|L[B2G2D2]A>D|F2 (F>A)|
+([BG]>[cA][dB]>[BG])|[AF]<F||F>A|([BG]>[cA][dB]>[BG])|\
+[AF]<F ([fA]>[ec])|([dB]>B) A>F|F<E F>A|
+([BG]>[cA][dB]>[BG])|[AF]<F ([fA]>[ec])|([dB]>B) (AF)|\
+(F<E)!f! F>A|L[B2G2] A>D|F2 (F>A)|
+L[B2G2] A>F|(F<E) (F>A)|L[B2G2] A>D|\
+F2 F>A|([BG]>c) (e/d/c/B/)|A<F||
+
+X:40
+T:Tak Your Old Cloak About Ye
+C:arr. Carlo Minasi
+M:3/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=120
+Z:Peter Dunk 2012
+K:Gm
+!p!(G>A)|B>B B3 d|(c>B) A2 zc|(B>A G3) A|(^F>=E D3) zA|
+B>B B3 d|(c>B) A2 zc|(B>A G3) A|(^F>=E D3) zA|
+[([BD]>[=F)D] [F3D3] [EC]|([DB,]<[FD]) [F2D2] zF|\
+([DB,]>[GB,]) [G3B,3] [A^FD]|([BG]>[cA]) [d2B2] z[cA]|
+[BG]>B [B2G2E2] zB|([cA]>[dB]) [f2c2A2] Hz [^fc]|\
+([gB]>[dB]) [e2c2] ([d^F]>c)|([BGD]>[AC] [G2B,2])||
+
+X:41
+T:O Willie Brew'd a Peck O' Maut
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegro Moderato  "1/4=140
+Z:Peter Dunk 2012
+K:D
+!mf![FD][GE]|[A2F2][d2F2] [BG][AF][GE][FD]|[B2G2]e2 [dGE]cBA|\
+[d3F3] [BG] [A2F2][F2D2]|L([B2G2][E2D2B,2])[E2C2A,2] [FD][GE]|
+[A2F2][d2F2] [BG][AF][GE][FD]|[B2G2]e2 [dGE]cBA|\
+[d3F3] [BG] [A2F2][F2D2]|L([A2F2]D2) D2||
+de|[f3A3] d [e3G3] c|([dF][cA][BG][AF]) [d3F3] [FD]|\
+[G3E3] [BG] [A2F2]F2|L([B2G2][E2D2B,2])[E2C2A,2] de|
+[f3A3] d [e3G3] c|([dF][cA][BG][AF]) [d3F3] [FD]|\
+[G3E3] [BG] [A3F3] [GE]|L([A2F2]D2) D2||
+
+X:42
+T:Farewell to Lochaber
+C:arr. Carlo Minasi
+M:3/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  " 1/4=105
+Z:Peter Dunk 2012
+K:F
+!p![FA,]>[GC]|[A2F2][A2F2] [AF]>[BG]|[A2F2][G2E2]([AF]c)|\
+([d2F2]G2) [G=B,]>[A]|{[A2F2C2]}[G4E4C4]F>G|\
+(A2 BAGF)|(C3 DFG)|(A2F2) (F>G)|F4 (F>G)|
+%
+[A2F2][A2F2] ([AF]>[BG])|[A2F2][G2E2]([AF]>c)|\
+([d2F2]G2) [G=B,]>[A]|{[A2F2C2]}[G4E4C4]F>G|\
+(AcBAGF)|C2 (cBAG)|(A2F2) F>G|F4||
+%
+F2|([AF]>[BG]) [c2A2][c2A2]|([cE]>dcBAG)|F2[f2A2][e2G2]|[f4A4]F2|\
+([AF]>[BG]) [c2A2][c2A2]|([dB][cA][BG][AF][GB,][FA,])|\
+[F2A,2]f2 ([fA]>[gB])|[F4A4] (Bd)|
+%
+([_e3B3G3] f [e2A2])|([d2B2][c2A2]) ([dB][fcA])|\
+[g2B2G2] G2 (G>A)|(A2 BAGF)|\
+(C3 [dB][cA][BG])|([A2F2]F2) (G>A)|F4||
+
+X:43
+T:Ye Banks and Braes
+C:arr. Carlo Minasi
+M:6/8
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "3/8=90
+Z:Peter Dunk 2012
+K:G
+!p!D|G2 (G A>GA)|([BG]dB) (A>GA)|\
+(B>AG) (GED)|(DEG) [A2F2D2] ([B/G/][A/D/])|
+%
+[G2B,2] [GB,] ([AD]>[GB,][AD])|([BG]dB) ([AFD]GA)|\
+([BG]>[AD][GB,]) ([GB,][EC][DB,])|\
+([DB,][EC][GB,]) [G2B,2]||
+%
+[BG]|([d2B2] [ec] [dB]BG)|([d2B2] [ec] [dB]BG)|\
+([dB]BG) ([dB]BG)|([ec][dB][BG]) H[A2F2D2] ([B/G/][A/D/])|
+%
+[G2B,2] [GB,] ([AD]>[GB,][AD])|([BG]dB) ([AFD]GA)|\
+([BG]>[AD][GB,]) ([GB,][EC][DB,])|\
+([DB,][EC][GB,]) [G2B,2]||
+
+X:44
+T:Katherine Ogie
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=120
+Z:Peter Dunk 2012
+K:Bb
+!p!G>F|D2(G>A) G3 A|(B2 A>G) G2 AB|\
+(c3 d) (cAGA)|(F3 G A2) (GF)|
+D2 (G>A)G3 A|(B2 A>G) ([ge]>[fd])|\
+([d2B2] [cA][BG]) ([BG]>[cA][A^F]>[BD])|L([G4B,4] d2)||
+([GDB,]>A) (Bcde) (f3 g)|(fdcd) [f2d2B2] c>B|\
+A2 (f>d) (c>AG>A)|(F3 G A2) (G>F)|
+[B2G2D2] (A>G) G3 D|(GA[BG][cA]) ([d2B2] cB)|\
+([cAF]>GAB) LG<E LE>D| [G3B,3]||
+
+X:45
+T:Auld Lang Syne
+C:arr. Carlo Minasi
+M:2/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Slow"1/4=80
+Z:Peter Dunk 2012
+K:G
+!p!D|G>G(GB)|!crescendo(!(A>GA!crescendo)!B)|\
+(GGB[dB])|([e3c3] g)|([dB]>B)(BG)|\
+([AFD]>GAB)|L(G>E) L(E>D)|G3||
+e|([dBG]<B) (BG)|([AFD]>GAB)|(d<B) (Bd)|\
+L[e3c3G3C3] g|([dBG]>B) (BG)|\
+([AFD]>GAB)|L(G>E) L(E>D)|[G3B,3]||
+
+X:46
+T:And Ye Shall Walk in Silk Attire
+C:arr. Carlo Minasi
+M:6/8
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante"3/8=80
+Z:Peter Dunk 2012
+K:F
+!p!(F/G/)|(A2 G) (FAc)|(c2 A) (AG) (F/G/)|\
+(A2 G) (FAc)|([d2B2] e [fA]) z [ec]|
+([dB][cA][BG] [AF][cA][fA])|([dB][cA]A) (AG) C|\
+(F2 G) (Ac/B/A/G/)|F3-F2||
+(3c/d/e/| (f2 e def)|(g>fe/d/ c2) [cA]|\
+([d2B2][cA][A2F2][cA])|([f2A2][gc][a2f2]) (f/e/)|
+(edc/B/) (Acf)|(dcA) ([AF]G) C|\
+(F2 G) (Ac/B/A/G/)|F3-F2||
+
+X:47
+T:Mary Morrison
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Moderato  "1/4=140
+Z:Peter Dunk 2012
+K:F
+!p![F/D/][G/E/]|([A2F2] [BG] [AF][GE][FD][E^C])|\
+D3 [E^C] [F2D2][G2E2]|[A3F3] [BG] [c2A2] [BG][AF]|
+[d3F3] [GF] [G2E2C2] [FA,][GC]|\
+([A2F2] [BG] [AF][GE][FD][E^C])|\
+D3 [E^C] [F2D2][G2E2]|[A2F2][f2A2][e3B3G3]f|[d3A3F3] A A2||
+Q:"Animato"
+A2|[d3F3][eG][f2A2][c2G2E2]|[AF][BG] [c2A2]F2A2|\
+[G3E3][AF][B2F2D2][c2E2A,2]|[d3E3B,3][GF=B,][G2E2C2][cE]B|
+([A2F2] [BG] [AF][GE][FD][E^C])|\D3 [E^C] [F2D2][G2E2]|\
+[A2F2][f2A2][e3B3G3]f|[d3A3F3] A A2||
+
+X:48
+T:John Anderson, My Jo
+C:arr. Carlo Minasi
+M:C
+L:1/4
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=140
+Z:Peter Dunk 2012
+K:Bb
+!p!G|[DB,]GG[AFD]|[B2G2D2](B [c/E/]B/)|\
+[AF] [GDB,][FCA,][=EB,]|[F3A,3]G|
+[DB,]GG[AFD]|[B2G2D2]B3/ c/|[d3/B3/][c/F/][BD][cF]|\
+[d3B3][fA]|[d3/B3/][c/F/][BD][dB]|[f2c2A2][eBG][dBF]|
+[c3/F3/E3/][B/F/D/][AFC][BFD]|[c2A2F2][BD][cF]|\
+[dB][BD][c^FA,][AFD]|[BG][G^C]H[d^FD]G|\
+[DB,][GE][GEA,][^FDC]| [G3D3B,3G,3]||
+
+X:49
+T:For the Sake O Somebody
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=140
+Z:Peter Dunk 2012
+K:G
+!p!D/|G>Bd>B A>GA>B|G>G[BG]>[dB] L[e2c2G2C2] (d<B)|\
+(G>Bd>B) (A>GA>B)|(G>E)(E>D) d2 L(B<G)||
+L[e2c2](c>e) [d2B2] (B<G)|L[c2A2F2] (B>G) [A2F2D2] (F<D)|\
+G>BA>c "_rall."B(e/>d/) "_'a tempo.'"H[d2A2F2D2]|\
+(G>E)(E>D) [d2F2] (B<G)||
+
+X:50
+T:Saw Ye Johnnie Comin'
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Moderato  "1/4=120
+Z:Peter Dunk 2012
+K:Em
+!p!G>G (A<B) (d>B) ([dB]<g)|G>GAB (d<B-) B2|\
+G>G (A<B) (d>B) ([dB]<g)|
+G>G AB (d<B-) B2|(g>fed) (e>d) B2|\
+(g>fe[^dA]) [eG]<B- B2|
+(g>fed) (e>[fc]) [g2B2]|G>G (A<B) (d>B) ([dB]<g)|\
+G2 (A<B) (d<B-) B2||
+
+X:51
+T:Wha Wadna Fight For Charlie
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegretto  "1/4=140
+Z:Peter Dunk 2012
+K:G
+!mf![G2D2B,2](G>A) (B>A) (B<d)|[G2D2B,2](G>c) (B>d) [A2F2D2]|\
+[G2D2B,2](G>A) (B>A) (B<d)|\
+([ec]>g) ([dB]<g) ([BG]>g) H[A2F2D2]||
+%
+([BG][dB])([dB][ec]) ([gB][dB])([ec][dB])|\
+([BG][dB]) ([dB][e/c/]f/) ([gB]>B) [A2F2D2]|\
+([BG][dB])([dB][ec]) ([gB]>[dB]) ([ec][dB])|\
+([ec]>g) ([dB]>g) ([BG]<g) [A2F2D2]|
+%
+[G2D2B,2](G>A) (B>A) (B<d)|[G2D2B,2](G>c) (B>d) [A2F2D2]|\
+[G2D2B,2](G>A) (B>A) (B<d)|\
+([ec]>g) ([dB]<g) ([BG]>g) H[A2F2D2]||
+
+X:52
+T:Bonnie Dundee
+C:arr. Carlo Minasi
+M:6/8
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegro  "3/8=95
+Z:Peter Dunk 2012
+K:G
+!mf![B/G/][c/A/]|([dB]>[ec][dB]) ([dB]>[ec][dB])|\
+([ge][fd][ec] [d2B2]) (d/c/)|BdD BdD|\
+[AFD]>[AFD][AFD] [A2F2D2] ([B/G/][c/A/])|
+%
+([dB]>[ec][dB]) ([dB]>[ec][dB])|([ge][fd][ec] [d2B2]) (d/c/)|\
+BdD BdD|[GDB,]<[GDB,][GEC] [G2D2B,2]||
+%
+!f!D|L[GB,][GB,][GB,] [GB,][AD][BG]|\
+[AD]LDLD LD2 D|L[AD][AD][AD] ([AD][BG][cA])|\
+([cA][BG]).[BG] .[B2G2] G|
+%
+[BG]>BB [cF]>Bc|[d=F]>cd [e2c2G2C2] (d/c/)|\
+BdD Ad>D|[GDB,]<[GDB,][GEC] [G2D2B,2]||
+
+X:53
+T:Jock O' Hazeldean
+C:arr. Carlo Minasi
+M:2/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Moderato  "1/4=120
+Z:Peter Dunk 2012
+K:G
+!p!g|(dB) {B/}A>G|(GBD[EC])|\
+([GB,]G[cA]>[BG])|([B2G2]{[cA][BG]}[AF]) g|\
+(dB) (A>G)|(GBD[EC])|\
+([GB,]B{B/}[AFDC]>G)|[G3D3B,3]||
+B|([cGE]>Bcd) |([ec][dB][gB][ec])|\
+([dB][BG]) (3[AF][BG][dB]|L[e3c3G3C3]g|\
+(dB) {B/}A>G|(GB)HD "poco"[EC]|\
+"rall."([GB,]B){B/}([AFDC]>G)|[G3D3B3]||
+
+X:54
+T:There's Nae Luck About the House
+C:arr. Carlo Minasi
+M:2/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Moderato  "1/4=120
+Z:Peter Dunk 2012
+K:G
+!p!e|([gGE]>e[dBG]>B)|[cGE]>c(ce)|\
+([gGE]>e[dBG]>B)|[A3F3D3] e|([gGE]>e[dBG]>B)|
+[cGE]>c(ce)|([dBG]>c[BD]>[AC])|[G3D3B3]!f!:||\
+G/A/|[B2G2D2G,2](c>A)|[c2F2D2A,2] (c>A)|\
+[B2G2D2G,2] [BD]>[GB,]|
+L[A3F3D3] (G/A/)|[B2G2] [B=F]>G|[cE]>[dB,] H[eC] z/g/|\
+[dGB,]>[cAEC][BGD]>[AFDC]|[G3D3B,3G,3]||
+
+X:55
+T:Lothian Lassie, The
+C:arr. Carlo Minasi
+M:6/8
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegretto  "3/8=100
+Z:Peter Dunk 2012
+K:G
+!mf!D|(G>AG) (B>cB)|(A>GA) G2 G|(B>AB) (GB[dB])|
+([e3c3] [d2B2]) (e/f/)|([ge]>[fd][ec]) ([dB]g)>B|\
+[AFD]>GA [BGD]G>[EC]|
+[DB,]>ED (DE)[FC]|[GB,]A<B (A>GA)|\
+[BG]dD D>G[BD]|L([A3C3][G2B,2]
+
+X:56
+T:Highlander's Farewell , The
+C:arr. Carlo Minasi
+M:2/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegretto  "1/4=140
+Z:Peter Dunk 2012
+K:D
+!p!(F/E/)|(D>EFB)|(AF)(Fd)|(AF)(FD)|\
+[E2C2A,2] [ECA,] (F/E/)|(D>EF[AF])|
+([dF]>efe)|[dBG]B[AFD]F|D2 D !mf!||\
+A|([dF]>[eA][fd][eA])|([dF][BG][AF][BG])|
+([dF]>e[fd][df])|[e2c2E2A,2][ecEA] (d/e/)|\
+(f>edB)|A[gc_B]H[fd=B]>e|\
+"_risoluto."(d>BAF)|D2 [dAFD]||
+
+X:57
+T:Caller Herrin
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegretto  "1/4=140
+Z:Peter Dunk 2012
+K:G
+!p!D|G>GGG F2 GA|BE[A^C]G [FD]DEF|\
+G>GGG F2 GA|(B>cA>B G2) z||
+%
+!mf!Lg|.f.e.[dB].[cA] .[BG].A.GLg|\
+.f.e.[dB].[cA] .[BG].A.GLg|\
+fe[dB][cA] [BG][BG][cA][dB]|\
+[ec]D[A^C]G ([FD]DEF)|
+%
+G>GGG F2 GA|(BEAG) (FDEF)|\
+G>GGG F2 GA|(B>c) (A>B) G2 z ||
+%
+d|[gB]>g[gB][gB] f2c2 [gB][fd]|\
+[ec][dB][cA][BG] [AF][BG][cA][^cG]|\
+[dF]>ddd L[^c2G2] [dF][eA]|\
+([fd][ge])[eG]>[dF] [d2F2] z[BF]|
+%
+[cE]>[cE][cE][cE] L[B2D2] [cE][d=F]|\
+[eG]EAG ([FC]DEF)|\
+[G2B,2] "_ad lib."G>G([F2C2] [GB,])e/c/"_'a tempo.'"|\
+[BG]>c [AD]>B [G2B,2] z||
+
+X:58
+T:Robin Adair
+C:arr. Carlo Minasi
+M:3/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=140
+Z:Peter Dunk 2012
+K:C
+!p!(G2A2B2)|(~c3 d e2)|([GE]<c) ([AF]<c) ([BFG,]<d)|\
+[c4E4C4] z2|(G2 [A2^F2] [B2=F2])|
+(~[c3E3] [dB,] [e2C2])|([GE]<c) ([AF]<c) ([BFG,]<d)|\
+[c4E4C4] z2||!mf![e2c2][e2c2][e2c2]|([gB]>G) G2|
+[e2c2] (eg) (g/f/d/B/)|(c3 A G2)|\
+!diminuendo(!(g2 fedc)!diminuendo)!|\
+(~c3 d e2)|([GE]<c) ([AF]<c) ([BFG,]<d)|[c6E6C6]||
+
+X:59
+T:Keel Row, The
+C:arr. Carlo Minasi
+M:2/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegretto  "1/4=140
+Z:Peter Dunk 2012
+K:G
+!p!c|(B<G) (G>B)|L(c2 A)>c|\
+L(B2 G)>B|L(A<F) D3/ c/|(B<G) (G>B)|
+L(c2 A)>c|L(B>G) (B/A/G/F/)|G3!mf!||\
+d|([BG]<d) ([dB]<g)|L([e2c2] [dB])>[cA]|L([B2G2] G)>B|
+L([AFD]<F) D3/ c/|([BG]<d) [dB]>g|\
+([e2c2] [dB]>[cA])|L9[BG]>G (B/A/G/F/)|G3||
+
+X:60
+T:Roy's Wife of Aldivalloch
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=140
+Z:Peter Dunk 2012
+K:D
+!p!(A<F) (F>E) (F>E) (F<B)|(A<F) (F>D) (E>D) (E<F)|\
+(A<F) (F>E) ([dF]>[eA]) ([fd]>[eA])|\
+([dF]>[BG]) ([AF]>F) (E>D) (D/F)||
+%
+A/|(A>B) (d>f) (e>f) (d>A)|(A>B) (d>F) (E>D) (E/F) A/|\
+(A>B) (d>f) (e>f) (He>d)|(f>e) (d>F) ( E>D) (E<F)|
+%
+([AF]<[FD]) ([FD]>[EC]) ([FD]>[EC]) ([FD]<[BG])|\
+([AF]<F) (F>D) (E>D) (E<F)| ([AF]<F) (E>D)\
+([dF]>[eA]) ([fd]>[eA])| ([dF]>[BG]) ([AF]>F) (E>D) (E/F)||
+
+X:61
+T:Maggie Lauder
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegro  "1/4=140
+Z:Peter Dunk 2012
+K:C
+!mf![c2G2E2] [cGE]c ([cGE]>ec)e|\
+([dF]>e[d^F])c ([B2G2]dz/f/)|\
+([ec]c)([cE]G) ([cE]>d[cE])e|\
+([ge]>[af][ge][fd]) ([e2c2]g)z/e/|
+L([gcA]>gf)a L([ec]>fe)g|\
+([dF]>e[d^F]c) ([B2G2]Hd) (A/B/)|\
+.c.G.A.E .F.E.D z/f/|\
+([ecG]>g)([dBF]>e) [c2-E2-][cE]z||
+
+X:62
+T:Within a Mile of Edinburgh
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Moderato  "1/4=120
+Z:Peter Dunk 2012
+K:C
+!p!(e>f)|([gc]<e) ([dBG]>e) [c2E2] (ec)|\
+([AF]<c) G>E G2 (c>d)|([ec]<g) ([af]c') \
+(g<e) (dc)|([e2c2G2][d2B2G2]) z2 (e>f)|
+%
+([gc]<e) ([dBG]>e) [c2E2] (ec)|([AF]<c) G>E G2 (c>d)|\
+([ec]<g) ([af]c') (g<e) (dc)|[c4E4] z4||
+%
+!crescendo(!(c>de>f) ge c'2|(c>de>f) \
+ge c'3/ c/|(c>dc>A) (GEG>c)!crescendo)!|
+%
+(e>c) (e<g) LH[a3f3c3F3] c'|!p!(g<e) (e<c) \
+(A<c) (G<c)|([ec]<g) ([dBG]>e) [c2E2]||
+
+X:63
+T:When the Kye Come Hame
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Moderato  "1/4=110
+Z:Peter Dunk 2012
+K:C
+!p!([AC][BD])|[cEA,]>[BD] [AC]B ([ADB,]G) ([EC]D)|\
+[E2C2] [GE]>[AF] [G2E2C2] [AC][BD]|\
+[cEA,]>[BD] [AC]B ([ADB,]G) ([EC]D)|\
+[E2C2] [AC]>[BD] [A2C2] [cA][AF]|
+%
+([GE]>Ac[dF]) [e2G2] ([dF][cE])|[dBG]>cd[eGC] L[G2E2] [cAF]>d|\
+([ecGE]>[dF][cE][BG]) ([AF]"dim."[GE][EC]>[DB,])|\
+[E2C2] [A2F2D2A,2] [A2E2C2A,2]||
+%
+[cE][dF]|[e2G2C2] g2 ([gcA]f) [eGB,]d|\
+[e2G2C2] a2 [a2f2c2E2] [cAF]>d|\
+([ecGE]>[dF][cE][BG]) ([AF][GE][EC]>[DB,])|\
+[E2C2] [A2F2D2A,2] [A2E2C2A,2]H||
+
+X:64
+T:Blue Bells of Scotland, The
+C:arr. Carlo Minasi
+M:2/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=100
+Z:Peter Dunk 2012
+K:F
+!p!c|([f2A2] [ec][dB]|[c2A2]) L([dB]e/f/)|\
+.[AF]([AF][BG][GC])|.[F2A,2]z c|([f2c2A2F2][eBF]d)|
+%
+[c2A2F2] ([dBFB,]e/f/)|[AFC](A[BEC][GC]|[F2A,2]) z||\
+c|(AF)(Ac)|[f2A2D2]([d=BG]e/f/)|
+%
+([ecGC][cE][dF][=BFDG,])|([c3G3E3C3][d/=B/][e/_B/])|\
+([f2A2] [ec][dB]|[c2A2]) L([dBFB,]e/f/)|\
+[AFC](A[BEC][GC])|[F3A,3]||
+
+X:65
+T:Lass O' Gowrie, The
+C:arr. Carlo Minasi
+M:2/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=100
+Z:Peter Dunk 2012
+K:C
+!p!([G/E/][F/D/])|([EC][GE])([GE][AF])|([cE]>[dF][cE][BG])|\
+([AF]>[GE][AF]c)|([dFB,G,]>ed) \
+([G/E/][F/D/])|([EC][GE])([GE][AF])|
+%
+([cE]>[dF][eG]>[dF])|([c/E/]B/A/G/) (G/A/c/E/)|\
+L(D2C)||(g/f/)|egce|(g/f/e/f/) (gf/e/)|
+%
+fadf|(a/g/f/g/) (ag/f/)|(egd>e)|\
+(c>AGa)|(gc) (gf/e/)| L([d2F2] [cE])||
+
+X:66
+T:We're a Noddin
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegretto  "1/4=140
+Z:Peter Dunk 2012
+K:G
+!p![GB,][AC]|L([B4D4] [A2C2][G2B,2])|\
+[A2C2][A2C2] ([BD][AC][GB,][AC])|\
+L([B4D4] [A2C2][G2B,2])|([BFC]AGF) [G2B,2]||
+%
+!mf!([BG][cA])|[d2B2] [dB][dB] [d2B2]([ge]>[ec])|\
+[d2B2] [dB][dB] [d2B2] ([BG][cA])|\
+[d2B2]  dd (e=fed)|
+%
+(cBAG) HF2 (dc)|B2 (Bc) d2 (ge)|\
+d2 dd Hd2 (Bc)|[d2B2G2] [d=F]d ([e^GE]dcB)|
+%
+([cA]BAG) ([^F2D2] [GB,][AD])|L([B4G4] [A2D2][G2B,2])|\
+[A2D2][A2D2]([BG][AD][GB,][AD])|L([B4G4] \
+[A2D2][G2B,2])|([BFC]AGF) [G2B,2]||
+
+X:67
+T:Highland Lad My Love Was Born, A
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegretto  "1/4=140
+Z:Peter Dunk 2012
+K:G
+!mf!(GA)|.[B2G2].[B2G2].[B2G2] ([AD][GB,])|\
+.[B2G2].[B2G2].[B2G2] [g2B2]|\
+[d2B2].[B2G2].[B2G2] ([AD][GB,])|\
+L[B2G2][A2D2][A2D2] ([GB,][AD])|
+%
+[B2G2][B2G2] (dBAG)|.[B2G2][d2B2]L[g2B2]!f!ga|\
+L(bagf) L(agfe)|L[d2B2][B2G2][B2G2]||
+%
+!mf![BG][cA]|[d2B2].[B2G2].[g2B2].[B2G2]|\
+[d2B2][d2B2][d2B2][e2c2]|[d2B2][B2G2]([g2B2][fA][gB])|\
+[a2c2][A2D2]([A2D2][GB,][AD])|
+%
+.[B2G2].[B2G2] ([cA][BG][AD][GB,])|\
+.[B2G2].[d2B2].[g2B2]([gB][ad])|\
+!f!([bg][ad][gB][fd]) ([af][ge][fd][ec])|\
+L[d2B2][B2G2D2][B2G2D2]||
+
+X:68
+T:Alistair MacAlastair
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Spiritoso  "1/4=150
+Z:Peter Dunk 2012
+K:Ab
+!p!Hc2|(A<F) (F<E) (C<F) (F>G)|\
+([AF]>GF>[G=E]) ([AF]>[BG][cA]>[BG])|\
+([AF]>F)(F>E) (C>FF>c)|([fA]>c) (c/B/A/G/) F3||
+%
+!mf!c|(c>f)(f>e) (c>f)(f>e)|(c>f)(f>g) (a>gf>g)|\
+(a>f)(g>=e) (f>c)H[_ecA]>c|(B>E)(E>G) [B2G2E2] (cB)|
+%
+(A<F)(F>E) (C<F) (F>G)|([AF]>GF>[G=E]) ([AF]>[BG][cA]>[BG])|\
+([AF]>F)(F>E) (C>F)(F>c)|([fA]>c) (c/B/A/G/) HF z||
+
+X:69
+T:My Jo Janet
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegretto  "1/4=130
+Z:Peter Dunk 2012
+K:C
+!p!([GE][cE])[cE][cE] [BFG,]>c[dB]f|\
+([ec]c)([cE][GE]) ([E2C2]G2)|\
+([AF]>BcA) [BFG,]>c[dB]f|\
+([ec]c)([cE][GE]) ([E2C2]G2)||
+%
+([cE][AF][GE][EC]) ([FD]>[EC]) [D2B,2]|\
+C2 ([G/D/B,/]A/G/F/) [E2C2]G>G|\
+([AF]c[GE]E) (F>E) D2|\
+(E<C) (F>E) (E2 G)z||
+
+X:70
+T:Wilt Thou Be My Dearie
+C:arr. Carlo Minasi
+M:2/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andantino  "1/4=100
+Z:Peter Dunk 2012
+K:G
+!p!(G>DE>D)|L([G2B,2] [DB,]z/D/)|(G>A c/B/A/G/)|\
+([BG][AF]) ([A/F/][c/A/][B/G/][A/F/])|\
+(G>DE>D)|(L[G2B,2] [DB,])z|
+%
+[GB,]>[GC][BD][dB,])|([cE][BD]) [B2D2]|\
+([AC]>[GB,]) ([AFD][B/G/][d/B/])|[e3G3c3] [gcE]|\
+([dBG]>e) (e/d/c/B/)|([eGC][AG^C]) ([AFD][B/D/][A/=C/])|
+%
+([GB,]>[DB,][EC]>[DB,])|L([G2B,2] D) z|\
+([eGC]>d) ([dGB,][B/D/][G/B,/])|([BEC]A) \
+([A/F/D/]=c/B/A/)|[GB,]>[DB,][EC]>[DB,]|L([G2B,2] D) z|
+
+X:71
+T:Comin' Through the Broom
+T:or Gala Water
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Slow  "1/4=90
+Z:Peter Dunk 2012
+K:D
+!p!F2 (E>D) D3 F|([A3F3D3]B AF[EB,G,]D)|\
+([F2D2A,2][E2C2A,2])[E2C2A,2]([FD]A)|\
+([BGD][AF][dB][cA]){[cA]}([B2G2] [AF])Hz/ A/|
+%
+([A2F2D2] [BG][cE] [d3F3] [eAC])|([fAD]>e[dBG]B)\
+([d3A3F3] F)|([F2D2B,2]E>F) ([E2C2A,2] [FD][AF])|\
+([d3B3] [cA]){[cA]}([B2G2] [AF])Hz|F2 E>D HD3 z||
+
+X:72
+T:Bessie Bell and Mary Gray
+C:arr. Carlo Minasi
+M:6/8
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegretto  "3/8=100
+Z:Peter Dunk 2012
+K:C
+!p!G|([EC]>[FD][GE]) ([GE]>[AF][_BG])|([AF]>GA) F2 F|\
+([EC]>[FD][GE]) ([GE]>[AF][GE])|[c3E3]{cd}[e2G2] G|
+%
+([EC]>[FD][GE]) ([GE]>[AF][_BG])|\
+([AF]>GF) f2 ([e/c/][f/d/])|\
+([ge][fd][ec]) ([fd][ec][dG])|[c3E3]{cd}[e2G2]||
+%
+g|(e>de) (cde)|(fd_B) (def)|\
+(gec) (cdc)|[e3c3G3] ([g2c2A2] e/f/)|
+%
+(gec) (ege)|(fd_B) (def)|(gfe) (fed)|c3 {cd}e2||
+
+X:73
+T:Bonnie House o' Airlie, The
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andantino  "1/4=140
+Z:Peter Dunk 2012
+K:F
+!p!F2|([F2D2] [G_E]A) [B3D3] A|\
+([GDB,]>F[GEC]>A) [F2A,2](cA)|\
+(F2 GA) ([BFD]d[cAF]A)|L([A2C2][G2B,2][F2A,2]) zF|
+%
+([F2D2] [G_E]A) [B3D3] A|([GDB,]>F[GEC]>A) [F2A,2](cA)|\
+(F2 GA) ([BFD]d[cAF]A)|L([A2C2][G2B,2][F2A,2])||
+%
+FG|[A2F2] ([AF]>[BG]) [c3A3][cA]|\
+[dB]>[dB][dB][cA] [c2A2] (cA)|\
+(F2 GA) ([BFD]d[cAF]A)|L([A2C2][G2B,2][F2A,2]) zF|
+%
+([AF][GE][AF][BG]) [c2A2] [cA][cA]|\
+[d2B2] ([dB]>[cA]) [c2A2](cA)|\
+(F2 GA) ([BFD]d[cAF]A)|L([A2C2][G2B,2][F2A,2])||
+
+X:74
+T:Campbells are Comin', The
+C:arr. Carlo Minasi
+M:6/8
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Spiritoso  "3/8=100
+Z:Peter Dunk 2012
+K:D
+!mf!D|(FAB) (AFD)|LF2 F F2 E|\
+(FAB) (AFD)|L[E2C2A,2] [ECA,] [E2C2A,2] D|
+%
+FAB) (AFD)|(F>GF) ([dF][eA][fd])|(dBd) (AFD)|LF2 F F2||
+%
+A|[d2F2] [dF] ([dF]>[eA][fd])|[A2F2] [AF] ([AF]FD)|\
+[d2F2] [dF] ([dF]>[eA][fd])|[B2G2] [BG] [B2G2] [AF]|
+%
+([AF]>[BG][cE]) ([dF]>[cA][BG])|\
+([AF]>[BG][cE]) ([dF][eA][fd])|\
+([dB][BG][dB]) ([AF]FD)|LF2 F F2||
+%
+D|(FAB) (AFD)|LF2 F F2 E|\
+(FAB) (AFD)|L[E2C2A,2] [ECA,] [E2C2A,2] D|
+%
+FAB) (AFD)|(F>GF) ([dF][eA][fd])|\
+([dB][BG][dB]) ([AF]FD)|LF2 F F2||
+
+X:75
+T:My Heart's in the Highlands
+C:arr. Carlo Minasi
+M:3/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=110
+Z:Peter Dunk 2012
+K:F
+!p!([FA,]>[GC])|[A2F2] ([GE][AF][cA][AF])|\
+([G2C2][F2A,2]) ([FA,]>[GC])|[A2F2][c2A2] ([fd]>[ec])|\
+{[d2B2]} [c4A4] (d>c)|{B}([B2E2][A2F2]) (G>F)|
+%
+(FA) C2 (c>B)|(A2F2[G2E2C2])|[F4A,4]||\
+[F2A,2]|([G2C2][A2F2]) [f2A2]|(F2E2F2)|
+%
+([G2E2C2][A2F2])[f2A2]|([c2A2][A2F2][F2A,2])|\
+([G2C2][A2F2][c2F2A,2])|([F2C2A,2][E2C2B,2][d2F2B,2])|\
+([c2F2A,2][A2C2][G2B,2])|[F4A,4]||
+
+X:76
+T:My Nannie O
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=140
+Z:Peter Dunk 2012
+K:Eb
+!p!(EF)|(G2C2)([G3=B,3]F)|[E2C2] ([D=B,]>C) C2 (C>D)|\
+[E3C3] F (GFGB)|[c2E2A,2]([F=A,]>G) [E2B,2] (E>F)|
+%
+[G2E2][B2G2] ([AF][GE]FE)|([F2D2][G2E2]) L([e3G3C3] d)|\
+([c3A3E3] [BGE]) (GFG[=BF])|[c2E2] (C>D) C2||
+%
+([GE][AF])|([B3G3] [cA]) ([cA][BG][AF][GE])|\
+[e2G2] ([BG]>[cA]) [B2G2] (ed)|([c3A3] d) ([eG]de[fcA])|\
+[g2=B2G2] [cE]>[dF] [c2E2] (_BA) &x6 D2|
+%
+[G2E2]e2 (BGFE)|[F2C2A,2][G2B,2G,2] L([e3G3C3]d)|\
+([c3A3E3] [BGE]) (G>FG[=BF])|[c2E2] C>D C2||
+
+X:77
+T:Souters O' Selkirk, The
+C:arr. Carlo Minasi
+M:3/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegro  "1/4=160
+Z:Peter Dunk 2012
+K:D
+!p!E2|([FD]>[GE]) [A2F2][B2G2]|[A2F2]F2[d2F2]|\
+(BAGFED)|([FD]>[GE]) [A2F2][B2G2]|\
+[A2F2]F2[d2F2]|L[c4G4E4A,4] E2|
+%
+([FD]>[GE]) [A2F2][B2G2]|[A2F2]F2[d2F2]|\
+(BAGFED)|(G3 A B2)|A2F2d2|L[c4G4A,4]||
+%
+!mf!D2|d2D2 (FA)|([d3B3] [cA] [B2G2])|(BAGFED)|\
+d2D2A2|(d3 c [B2G2E2])| L[c4A4E4A,4] D2|
+%
+d2D2 (FA)|d2 (edcB)|(BAGFED)|\
+(G3 A B2)|[A2F2][F2D2][d2F2]|L[c4A4E4A,4]||
+
+X:78
+T:Get Up and Bar the Door
+C:arr. Carlo Minasi
+M:2/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegretto  "1/4=120
+Z:Peter Dunk 2012
+K:F
+!p!C|[FCA,]>F[FCA,]>F|[FCA,]>F [FB,G,]F/F/|\
+([FCA,]f) ([gcA]e)|L[d2B2F2] [cAF]>c|\
+([cA]>[dB][fA]>[dB])|
+%
+([d/B/][c/A/][AF]) H[GEC](F/D/)|\
+([FCA,]G/A/) GF|L([D2B,2] [FA,]) C|\
+[FCA,]>F[FCA,]>F|[FCA,]>F [FB,G,]F/F/|
+%
+([FCA,]f) ([gcA]e)|L[d2B2F2] [cAF]>c|\
+([cA]>[dB][fA]>[dB])|([d/B/][c/A/][AF]) H[GEC](F/D/)|\
+([FCA,]G/A/) GF|L([D2B,2] [FA,])||
+
+X:79
+T:Mill O, The
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Moderato  "1/4=140
+Z:Peter Dunk 2012
+K:Bb
+!p!(B>c)|[d2F2] (F>G) F3 B|(G>FGB) L[c2A2F2] ([BD]>[cF])|\
+[d2B2][F2D2] (edcB)|([G3E3] A [B2D2]) (B>c)|
+%
+[d2B2F2] ([FE]>G) [F2D2] (BA)|(G>FGB) L[c2A2F2] ([BD]>[cF])|\
+[d2B2][F2D2](edcB)|L([G3E3] A [B2D2])||
+%
+!mf!zF|(Bcde [f3d3][ge])|([ge][fd][ec][dB] [c3A3F3] F)|\
+(Bcde [fd]>[ge][fd][ec])|L([d3B3] [ec] [f2d2]) zF|
+%
+([BD][cF][dB][ec]) [f2d2] ([eG][fF])|\
+([gE]fe[dB=E]) [c2A2F2] B>c|d2F2 (edcB)|L([G3E3] A [B2D2])||
+
+X:80
+T:Johnnie M'Gill
+C:arr. Carlo Minasi
+M:6/8
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegro  "3/8=100
+Z:Peter Dunk 2012
+K:Dm
+!mf!f|LcAA AGF|LcAA A2 f|LcAA [A^C]GA|L[FD]DD D2 f|
+LcAA AGF|LcAA AGF|L[GDB,]FG [A^C]GA|L[FD]DD D2||
+c|Lfef gfg|L[afc].f.d cAF|\
+L[fcA].e.f L[gec].f.g|Lafd d2 (f/g/)|
+L[afc]fa [g^cA]eg|L[fd]de ([fdB]ef)|\
+L[cA]AA [A^C]GA|L[FD]DD D2||
+
+X:81
+T:Saw Ye My Wee Thing
+C:arr. Carlo Minasi
+M:6/8
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andantino  "3/8=80
+Z:Peter Dunk 2012
+K:Em
+!p!(Be).e (e>f[gB])|([fd]>ed) (fa).a|\
+([bd]>c'b) (ab[d'b])|(b>a[f^dA]) [e3G3]|
+(Be).e (e>f[gB])|([fd]>ed) (fa).a|\
+([bd]>c'b) (ab[d'b])|(b>a[f^dA]) [e2G2]||
+([f/^c/G/]e/)|[dF].d'.d' .d'(e'f')|(f>ed) (fa)z|\
+Be'e' e'2 d'/e'/|[f'^a]>e'd'/^c'/ b2 z|
+!crescendo(!(AB^c de!crescendo)!f)|(F>ED) (FA)z|\
+([bd]>c'b) (ab[d'b])|"_rall."(b>a[f^dA]) [e3G3]||
+
+X:82
+T:Birks of Aberfeldie, The
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegretto  "1/4=140
+Z:Peter Dunk 2012
+K:Bm
+!p!(D>EFA) (d>edB)|(d>edB) (c/d/e) (d/e/f)|\
+(D>EFA) ([dF]>[eA][fd][eA])|([dF][BG][AF]F) L(E2 B-) H||
+!mf!B|(D>EFd) (AFA>F)|(ADFA) (B/A/G/F/) E>F|\
+(D>EFA) ([dF]>[eA][fd][eA])|([dF][BG][AF]F) L(E2 B)!D.C.!z||
+
+X:83
+T:Bonnie Laddie, Highland Laddie
+C:arr. Carlo Minasi
+M:2/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegretto  "1/4=120
+Z:Peter Dunk 2012
+K:G
+!mf!(G>A) BB|(cA) B2|L([BD][AC]) ([AC][G/B,/][A/C/])|\
+L([BD][AC]) ([AC]B)|(G>A) BB|
+(d/c/B/A/) B>A|L(GE) (ED)|L(GE) (ED)||\
+(eg)(de)|(cB/A/) B2|
+L([BD][AC]) ([AC][G/B,/][A/C/])|L([BD][AC]) ([AC]B)|\
+(eg) (de)|(cB/A/) (B>A)|L(GE) (ED)|L(GE) (ED)||
+
+X:84
+T:Blue Bonnets O'er the Border
+C:arr. Carlo Minasi
+M:6/8
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegro  "3/8=100
+Z:Peter Dunk 2012
+K:C
+!mf!L[c3G3E3C3]L[c3G3E3C3]|([cGEC]ed) (c>AG)|\
+[cAF]AA A>Ag| L(age) ([eG]>d[cE])|
+L[c3G3E3C3]L[c3G3E3C3]|([cGEC]ed) (c>AG)|\
+([AF]>BA) ([GEC]E>G)|([AF]c)>E L(E>DC)||
+(c>eg) (gec)|([af]>[ge][eG]) ([eG]>[dF][cE])|\
+(ceg) (a>bc')|(c>de) (e>dc)|
+(c>eg) (gec)|L([af]>[ge][eG]) ([dF]>[ce][dF])|\
+([ce]>AA) (GEG)|(AcE) (E>DC)||
+
+X:85
+T:Boatie Rows, The
+C:arr. Carlo Minasi
+M:2/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegretto  "1/4=130
+Z:Peter Dunk 2012
+K:D
+!p!D|(F<A) (A>B)|(Ad) (e/d/c/B/)|(A<F) (E>D)|(FE) zD|\
+(F<A) (A>B)|(Ad) (e/d/c/B/)|(A>F) (E>F)|D3||
+!mf!A|([dF]A)(AB)|([dF]A)(Ad)|([BG]>ABd)|L[e3c3A3] c|\
+(d<f) (Bd)|(A>dAF)|(E>DE>F)|D3|
+
+X:86
+T:O Gin Ye Were Dead,  Gudeman
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegretto  "1/4=140
+Z:Peter Dunk 2012
+K:D
+!p!A,2|D2D2A2 (D>E)|[F2D2][E2C2][E2C2](F>E)|\
+D2D2A2 (D>E)|[F2D2][d2F2][A3F3] A|
+([BG]cdA) (FGAF)|([BG][AF][GE][FD]) [E2C2] (FE)|\
+D2d2 (ABAG)|L(F3 E D2)||
+(A>B)|d2d2 (defd)|(edef) (e2 dB)|\
+(ABde) (defe)|d2[A2F2][B2G2][A2F2]|
+(BcdA) (FGAG)|(BAGF) (EGFE)|\
+D2d2 ([AF][BG][AF][GE])|L(F3 E D2)||
+
+X:87
+T:Barbara Allan
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=110
+Z:Peter Dunk 2012
+K:Dm
+!p!A2|[d2F2] (d>e) f2 ([e=BG]d)|[c2E2] ([ec]>[fd]) [g2e2] (fe)|\
+d2 (de) (fedc)|(A2 d4) A2|[d2F2] (d>e) f2 ([e=BG]d)|
+[c2E2] ([ec]>[fd]) [g2e2] fe|(d3 e fedc)| (A2d4)||\
+c2|([A2F2]c2) ([G2C2]AG)|([F3A,3] [GC] [A2F2]) (dc)|
+(A3 G F2G2)|(A2d4) (cB)|([A2F2]c2) ([G2C2]AG)|\
+([F3A,3] [GC] [A2F2]) (dc)|(A3 G F2G2)|(A2d4)||
+
+X:88
+T:O My Love is Like the Red, Red Rose
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Moderato  "1/4=120
+Z:Peter Dunk 2012
+K:C
+!p!GE|(C>CD>E) (c>BA>G)|(A>GAc) [d2G2B,2G,2] (cd/e/)|\
+(C>CD>E) (c>BA>G)| ([AF]>[GE][AF][BD]) [c3E3]||
+G|(cedc) (A<c) (GE)|G>G fe {e}d2 (g>f)|\
+([ec]gec) ([AF]>c[GE]E)|(G>G[AF][BD]) [c3E3] G|
+(C>CD>E) (c>BA>G)|(A>GAc) [d2G2B,2G,2] (cd/e/)|\
+(C>CD>E) (c>BA>G)| ([AF]>[GE][AF][BD]) [c2E2]||
+
+X:89
+T:My Ain Fireside
+C:arr. Carlo Minasi
+M:6/8
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "3/8=80
+Z:Peter Dunk 2012
+K:C
+!p!(c/d/)|([eG]>[dF][cE]) ([AF]>Bc)|\
+([GE]>[AF][cE]) [d2G2] (c/d/)|\
+([eG]>[dF][cE]) ([AF]>Bc)|\
+([GE]>[AF][cAF]) [c2G2E2]|
+%
+c|([fcA]>g[fdB]) ([ec]ge)|\
+([dAF]>ef/e/) {e}H[d2B2G2] (g/f/)|\
+(e>dc) ([AF]>Bc)|([GE]>[AF][cAF]) [c2G2E2]|
+%
+!mf!(c/d/)|([eG]>[dF][cE]) [A2F2] c|\
+([GE]>[AF][cE]) [d2G2] (g/f/)|\
+e>dc ([AF]>Bc)|([GE]>[AF][cAF]) [c2G2E2]||
+
+X:90
+T:Will Ye Gang to the Ewe Bughts, Marion
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Lento  "1/4=90
+Z:Peter Dunk 2012
+K:Dm
+!p!D>E|[F2D2] ([GE]>[AF]) [f2A2] ([e^cG]>f)|[d4F4](D3 E)|\
+[F2D2] ([GE]>[AF]) [f2A2] ([e^cG]>f)|[d6F6] zf|
+([cA]A)(AB) [Bd][GE] [AF]>B|([G4E4C4] [A2F2]) zc|\
+[d2A2F2] (DB) (AGF[EB,])|[F6A,6] zf|
+([cA]A)(AB) [Bd][GE][AF]>B|([G4E4C4] [A2F2]) zc|\
+[d2A2F2] (DB) (AGF[EB,])| D6||
+
+X:91
+T:Huntingtower
+C:arr. Carlo Minasi
+%Repeat signs added to resolve a notation error
+%in the first bar
+M:2/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andantino  "1/4=120
+Z:Peter Dunk 2012
+U:j=!crescendo(!
+U:J=!crescendo)!
+K:F
+!p!F>F|:F2G2|A2 A<F|jF>FA[cA]J| ([fA]>e) ([dB]<[cA])|
+L[dB]>[dB] [fd]>[dB]|([cA]>A) (A/G/F)|\
+[BFD]>B [AFC]>c|(G>A) ([GC]<[FA,]):|
+
+X:92
+T:Welcome Royal Charlie
+C:arr. Carlo Minasi
+M:2/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Moderato  "1/4=120
+Z:Peter Dunk 2012
+K:F
+!mf!c|L(BA[G=B,]F)|([EC]>FGc)|L(BAGF)|F[fcAF][fcAF] c|\
+L(BA[G=B,]F)|([EC]>FGc)|([AF]<c) ([GC]>A)|([F2A,2] f) c|
+([AF]>[BG][cA][dB])|([BG]>c[BEC]G)|\
+([AF]>[BG][cA][fA])|([f/B/G/]e/d/e/) [fcA] c|\
+([AF]>[BG][cA][dB])|([BG]>c[BEC]G)|\
+([AF]<c) ([GC]>A)|[F2A,2] [fcAF]||
+
+X:93
+T:He's O'er the Hills That I Lo'e Well
+C:arr. Carlo Minasi
+M:6/8
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Moderato  "3/8=95
+Z:Peter Dunk 2012
+K:G
+!p![DB,]|([DB,][EC][GB,]) [G2B,2] [GB,]|(BAG) (E2 G) &D3C3|\
+([DB,][EC][GB,]) ([GB,]d>[BD])|(BAG) G2 E &[F2C2] B, B,2 x|
+%
+([DB,][EC][GB,]) [G2B,2] [GB,]|(BAG) [E2C2] [ec] &D2 z x3|\
+([d2B2] [ec]) ([dB]BG)|([BD][AC][GB,]) [G2B,2] H||
+%
+B| (d2 e) (dBG)|(BAG) [E2C2] e|d2 e (dBG)| (BAG G2 B)|
+%
+[d2B2] [ec] ([dB]BG)|(BAG) E2 G|\
+(DEG) (Gd>B)|[BD][AC][GB,] [G2B,2] !D.C.!||
+
+X:94
+T:Prince Charlie's Welcome to the Isle of Skye
+M:2/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegro  "1/4=120
+Z:Peter Dunk 2012
+K:G
+!mf!(g/>e/)|(dG) (BA/G/)|([dB]G) (c/B/A/G/)|\
+(e[AFD]) (A/B/c/d/)|(eA) (AB/c/)|
+%
+(dB/d/) (gf/e/)|(d/e/d/c/) (BA)|\
+L(BG) {A/}(G/F/G/A/)|L(B[GB,][GB,]) (g/>e/)|
+%
+(dG) (BA/G/)|(dG) (c/B/A/G/)|\
+(eA) (A/B/c/d/)|(eA) (AB/c/)|
+%
+(dB/d/) (gf/e/)|(d/e/d/c/) (BA)|\
+L(BG) (G/F/G/A/)|LB[GB,][GB,]||
+
+X:95
+T:Flora McDonald's Lament
+C:arr. Carlo Minasi
+M:6/8
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andantino  "3/8=70
+Z:Peter Dunk 2012
+K:Bb
+!p!F|([BD]>AB) ([GE]AB)|([cAF]ed/c/) (BA) F|\
+(d>cB) (Fed)|(d/c/B[AE]) [B2D2]:|
+%
+!f!F|(B>cd/e/) (fdB)|F(Fd) ecA|\
+([BFD]df) (fed)|(c>de) (edc)|
+%
+([fd]>[ge][fd]) ([ec][dB][cF])|(fdB) (AHG) !p!F|\
+(B>AG) (Fed)|(d/c/BL[AE]) [B2D2]||
+
+X:96
+T:He's Comin' Again
+C:arr. Carlo Minasi
+M:6/8
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Allegretto  "3/8=110
+Z:Peter Dunk 2012
+K:F
+!p!C| F2 G [A2F2] [dB]|[c2A2] A (A<G) F|\
+L(A>GF) F2 F|L(A>G)G G2 F|
+F2 G [A2F2] [dB]|[c2A2] A (A<G) F|\
+L(A>GF) F2 F|(A>GF) F2 z||
+!mf![f2A2] [cA] [c2A2] [AF]|([dB][cA][AF]) [A2F2] F|\
+L(A>GF) F2 F|L(A>G)G G2 [cGE]|
+([f2c2A2][cA]) ([dB][cA][AF])|([c2A2] [dB] [f2A2]) A|\
+L(A>GF) F2 A|(A>GF) HF2||
+
+X:97
+T:In the Garb of Old Gaul
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Maestoso  "1/4=130
+Z:Peter Dunk 2012
+K:G
+!mf!D>D|G2 G>A (G>AB>A)|G2 D>D G2 (G>A)|\
+B2 ([BG]>[cA]) ([BG]>[cA][dB]>[cA])|\
+([BG]>AG>A) B2 ([BG]>[cA])|
+%
+[d2B2] [dB]>[dB] ([dB][=fd][ec]>[dG])|\
+[c2E2] c>c (ced>c)|(B>AG>A) [c2A2] BA|\
+L[A2F2D2] [AFD]>[AFD] [A2F2D2] z||
+%
+D>ED>E [FD]>[GE][FD]>[GE]|\
+([AF]>[BG][AF]>[BG]) [c2A2] BA|\
+(G>AG>A) ([BG]>[cA][BG]>[cA])|\
+([dB]>[ec][dB]>[ec]) ([=f2d2] ed)|
+%
+.e.c.A.e .d.B.G.d|(cBAG) F2 E>D|\
+(F>GA>B) (B>cB>A)|LG2 [GDB,]>[GDB,] [G2D2B,2]||
+
+X:98
+T:Blithe, Blithe and Merry Are We
+C:arr. Carlo Minasi
+M:2/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Spiritoso  "1/4=140
+Z:Peter Dunk 2012
+K:G
+!mf!L[B2G2E2]E>F|A<A F<D|L[B2G2E2]E>F|A>F E2|\
+L[B2G2E2]E>F|A<A (FD)|L[B2G2E2]E>F|(A<F) E H||
+F|Dd (d>e)|([dB]>B) ([AF]>d)|([BG]<e) (e>f)|\
+([EBG]>d) B>d|([AF]>B) ([dF]>e)|\
+([dF]>[BG]) ([AF]>d)|([BG]>d) ([AF]F)|(A>F) [E2^C2A,2]||
+
+X:99
+T:Lass of Patie's Mill, The
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andantino "1/4=140
+Z:Peter Dunk 2012
+K:C
+!p!G>F|(E2 DC) ([E2C2] [G2E2])|\
+([c3E3] [dG] [e2c2]) zG|([AF]BcB AGFE)|
+%
+([E2C2][D2B,2]) z G>F|{F}(E2 DC) ([E2C2][G2E2])|\
+([c3E3] [dG] [e2c2]) z G|([AF] BcB [BFG,]cde)|\
+[c4G4E4C4] z||
+%
+e2|(fedc) (cBAG)|([c3E3][dG][e2c2]) zG|\
+([AF]B[cE][GE]) ([AF][GE][FD][EC])|([E4C4] [DB,]) z(ef)|
+%
+(ge)(fd) (ecAf)|([e2G2][d2F2]) z2 E2|\
+(F2 GA) G2 [B2F2]|{[B2F2]}[c6E6]||
+
+X:100
+T:Good Night and Joy Be Wi' Ye A'
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Moderato  "1/4=120
+Z:Peter Dunk 2012
+K:G
+!mf!([BG][AD])|[G2B,2][G2B,2][D3B,3] G|\
+[E2C2]E2 Ld3 [dB]|([BG]ded) ([BG]ded)|\
+L[B2G2][G2B,2][G2B,2] [BG][AD]|
+%
+[G2B,2][G2B,2][D3B,3] G|[E2C2]E2 Ld3 [dB]|\
+([BG]ded) ([BG]ded)|L[B2G2][G2B,2][G2B,2]||
+%
+B2|([AEc]GAB) [A2E2C2] (GE)|([DB,]E[GB,][AD]) [B2G2] (AG)|\
+([AEc]GAB) ([cGE]Bcd)|L([e2c2G2][A2G2^C2]) [A2F2D2]B2|
+%
+([cGE]Bcd) ([e2c2G2] dc)|([BGD]ABc) ([d2G2B,2] cB)|\
+([AEC]Bce) ([dBG]BAB)|L(G2E2)E2 ([BG][AD])|
+%
+|[G2B,2][G2B,2][D3B,3] G|[E2C2]E2 Ld3 [dB]|\
+([BG]ded) ([BG]ded)|L[B2G2][G2B,2][G2B,2]||
+
+

@@ -1,0 +1,29 @@
+X: 11753
+T: HOW SERENELY THE MORNING FIRST OPE'S ITS MEEK EYE
+C: Thomas Carter
+Q: "Slow."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.175 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F>G |\
+A2 (A>B) (Ad)de | (fd)g>f {f}e2 F>G |\
+A2 B>c (d>e)fa | (gf) ({f}e/d/e/>)c/ d2 :|\
+ff |\
+(B>c)de (fd)eg | f<c(dB) {B}^A2 F>F |\
+B2 cd dc zg |
+(fe)dc HB2 d(c/B/) |\
+A2 (BA/)G/ GF zF | G<E (ge) {d}c2 BA |\
+(d>e)df (e>f)ed | BA g>f {f}e2 F>G |\
+A2 B>c (d>e)Hfa | A2 {a}g{f}e d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% From "The Fair American."
+%%endtext
+%%sep 1 1 300

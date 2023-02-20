@@ -1,0 +1,93 @@
+X:0601
+T:Roxburgh Castle
+P:Roxburgh Castle
+C:Collected in Roxburghshire
+R:Reel (8x32)
+B:RSCDS 6-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:A
+|:E|"A"A2Ac ecAc|"D"d2df "A"ecAc|"D"d2fd "A"c2ec|"Bm"B2B2 "E"BdcB|
+    "A"A2Ac ecAc|"D"d2df "A"edcd|"A"eagf "E7"edcB|"A"A2"D"A2 "A"A3:|
+|:e|"A"aece fece|aece fece|"D"d2fd "A"c2ec|"B"B2B2 "E7"BdcB|
+    "A"A2Ac ecAc|"D"d2df "A"edcd|"A"eagf "E7"edcB|"A"A2"D"A2 "A"A3:|
+
+X:0602
+T:The Edinburgh Volunteers
+P:The Edinburgh Volunteers
+C:Cooke's Selection of the Present Favourite Country Dances 1796
+R:Strathspey (8x24)
+B:RSCDS 6-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:Gm
+F|"Bb"B/c/d c>B B>A G>F|"F"C>F A>c f>c B>A|\
+  "Gm"G>A B>c "Cm"e>d c>B|"Dm"A>f d/c/B/A/ "Gm"B<G G>^f|
+  "Gm"g>d b>g "F"f>g f>e|"Bb"d>b d>B "F"c>a c>A|\
+  "Gm"G>A B>d g>a b>g|"Dm"f>d d/c/B/A/ "Gm"B<G G>A|
+  "Gm"B2 G>B D>G B,>G|"F"A2 F>A C>F A,>F|\
+  "Gm"B2 G>B D>G B,>G|"D"D>^F A>c "Gm"B<G G>A|
+  "Gm"B/A/B D>G B,>G D>G|"F"A/G/A C>F A,>F C>A|\
+  "Gm"B/A/B D>G B,>D G>B|"D"D>^F A>c "Gm"B<G G>^f|
+  "Gm"g2 d>g B>g d>=e|"F"f2 c>f A>f c>^f|\
+  "Gm"g2 d>g B>g d>g|"Dm"f>d d/c/B/A/ "Gm"B<G G>^f|
+  "Gm"g/f/g d>g B>g d>=e|"F"f/=e/f c>f A>f c>^f|\
+  "Gm"B>d g>b "F"A>c f>a|"Dm"D>d d/c/B/A/ "Gm"B<G G|]
+
+X:0603
+T:Rothesay Country Dance
+P:Dumfries House
+C:J. Riddell 1766
+R:Jig (8x48) ABB
+B:RSCDS 6-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+G|"G"G3 G2g|dBG GAB|"C"cGE EFG|"D"AFD DFE|\
+  "G"G3 G2g|dBG GAB|"Am/C"cEA "D"{G}FEF|"G"G3-G2 d|
+  "G"G3 G2g|dBG GAB|"Am"cde "G/B"dcB|"D7"AFD DEF|\
+  "G"G3 G2g|"G/B"dBG GAB|"Am"cEA "D7"FEF|"G"G3-G2\
+|:B/c/|
+  "G"dBd dBd|"C"gag gfe|"G"dBd dcB|"D"AFD D2 B/c/|\
+  "G"dBd dBd|"C"gag gfe|dcB "D"AGF|"G"G3 G2 B/c/|
+  "G"dBd dBd|"C"gag gfe|"G"dBd dcB|"D"AFD D2 B/c/|\
+  "G"dBd "C"ece|"D7"fdf "G"gfe|dcB "D7"Agf|"G"gdB G2:|
+
+X:0604
+T:Lennox Love to Blantyre
+P:Lennox Love to Blantyre
+C:Nathaniel Gow's Repository (also Bremner 1757 and older)
+R:Strathspey (8x32)
+B:RSCDS 6-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:F
+C|"F"F2 F>G A>G F>A|"Gm"G<G "Am"A>c "Gm"d>c d>e|\
+  "Dm"f>g f>d "F"c>A F>A|"Gm"B>G "F"A>F "Dm"D/D/D DC|
+  "F"F2 F>G A>G F>A|"Gm"G<G "Am"A>c "Gm"d>c d>e|\
+  "Dm"f>g f>d "F"c>A F>A|"Gm"B>G "F"A>F "Dm"D/D/D D||
+f|"F"c>d f>g a>g f>a|"Gm"g>f g>a g>f d>f|\
+  "F"c>d f>g a>g f>a|"Gm"g>f b>a "C"g2 "F"f>d|
+  "F"c>d f>g a>g f>a|"Gm"g>f g>a g>f d>f|\
+  "F"c>d f>g f>g a>f|"Gm"g>f b>a "C7"g2 "F"f2|]
+
+X:0605
+T:Oxton Reel
+P:Cameron's got his wife again
+C:Bremner's Coll. 1757
+R:Strathspey (6x24)
+B:RSCDS 6-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+f|"D"d>B A>F A/A/A A>B|d>B A>F "A"E/E/E E>c|\
+  "D"d>B A>F A>g "D"f>e|"G"d>G "A7"A>F "D"D/D/D D3||
+g|"D"f>d f>a "A7"e>g f>e|"D"f>d f>a "G"B/B/B/ B>g|\
+  "D"f>d f>a "Em"e>g "D7"f>e|"Bm"d>B "A7"A>F "D"D/D/D D>g|
+  "D"f>d f>a "A7"e>g f>e|"D"f>d f>a "G"B/B/B/ B>c|\
+  "D"d/e/f/g/ a>f "A7"e>g f>e|"Bm"d>B "A7"A>F "D"D/D/D D3/2|]

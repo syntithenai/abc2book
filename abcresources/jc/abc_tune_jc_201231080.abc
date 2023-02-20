@@ -1,0 +1,45 @@
+X: 1471
+T: BIRD'S GALOPADE
+C: S. Knaebel
+N: "Composed for two clarinets, cornopeons, or violins, by S. Knaebel."
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.147 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+N: There were no initial repeat symbols at all; added them at the likely places.
+M: 2/4
+L: 1/16
+K: C
+%----------
+V: 1
+|:\
+!p!.G2{d}c.B .c2.d2 | "^>"(^d2e2) cBc2 | .G2{d}c.B .c2.d2 | "^>"(^d2e2) cBc2 |\
+!mf!"^>"(g4 d2) BG | !mf!"^>"(g4 e2) ce | G2de f2e2 | c2(ed) c2z2 :|
+|:!f!\
+G2Bd g2^fg | ^f2e2 d4 | .d2.c2(B2c2) | B4 B4 |\
+.B2.A2 (^G2A2) | d6 e2 | d2A2c2B2 | QG2GqG G2G2 |\
+!p!.G2{d}c.B .c2.d2 |
+"^>"(^d2e2) .c.B.c2 | .G2{d}c.B .c2.d2 | "^>"(^d2e2) cBc2 |\
+!mf!"^>"(g4 d2) BG | "^>"(g4 e2) ce | G2de f2e2 | .c2(ed) c2"^FINE"z2 H:|
+K: F
+"TRIO"\
+|:\
+!p!c2zf a2zf | "^>"(e4 f2)za | "^>"(e4 f2)za | Q(c3qd/e/ f2)z2 |\
+g2(3cdc (=B2c2) | a2(3cdc (=B2c2) | g2(3cdc =B2c2 | "^D.C. al FINE"f4 z4 H:|
+%----------
+V: 2
+|:\
+!p!E2G2 E2G2 | "^>"(^F2G2) .E2.G2 | E2G2 E2G2 | (^F2G2) .E2.G2 |\
+!mf!z2BB B2z2 | z2cc c2z2 | z2FG A2G2 | E2G2E2z2 :|
+|:!f!\
+B2d2 B2d2 | d2c2 B4 | .B2.A2 (^G2A2) | =G4 G4 |\
+^F4 c4 | B6 c2 | B2^F2A2F2 | QG2GqG G2G2 |\
+!p!E2G2 E2G2 |
+"_>"(^F2G2) E2G2 | .E2.G2 .E2.G2 | "_>"(^F2G2) EGE2 |\
+!mf!z2BB B2z2 | z2cc cGEC | z2FG A2G2 | E2G2E2"^FINE"z2 H:|
+K: F
+"TRIO"\
+|:\
+!p!A2zF c2zA | "_>"(B4 A2)zF | "_>"(B4 A2)zF | (G4 A2)z2 |\
+E2z2 z2EE | F2z2 z2FA | E2z2 z2G_B | "^D.C. al FINE"A4 z4 H:|

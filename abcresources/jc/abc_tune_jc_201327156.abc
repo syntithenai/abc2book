@@ -1,0 +1,20 @@
+X: 4
+T: Quarryman's Jig
+R: jig 32
+C: Charlie Sherrit
+S: Ian Dedic
+Z: PJHeadford 2008
+F: http://www.montysmaggot.co.uk/app/download/12924623/Montys+Maggot+Favourite+Dance+Tunes.txt
+M: 6/8
+L: 1/8
+%Q: 3/8=120
+K: D
+F2G |\
+"D"Aff  f2e | "A"e2d "D"[dD]c"^(C)"=c | "G"B^AB dcB | "D"A3 [F2f2]"^(E)"[Ge] |\
+"A"Aee e2"^(G)"f | "A"(3gag ec2B | "G"A^GA "A"^AB=G | "D"F3 "A"F2G |
+"D"Aff f2e | "A"e2d "D"dc"^(C)"^B | "G"B^AB dc"Em"B | "D"A3 [F2f2]"^(E)"[Ge] |\
+"A"Aee e2"^(G)"f | "A"(3gag e c2B | "G"A^GA "A"^ABc | "D"d3 |] "C"d2c |
+"G"Bdd G2B | dBd "C"edB | "D"A2d FAA | dAd "G"fed |\
+"A"cgg gee | ecc "Em"c=cB | "D"Aff fee | "A"edd "C"dc=c |
+"G"Bdd G2B | dBd "C"edB | "D"A2d FAA | dBd "B"fed |\
+"A"cgg gee | ecc c=cB | "G"A^GA "A"^ABc | "D"d3 |]

@@ -1,0 +1,32 @@
+X: 1
+T: Gyimesi Kerekes
+T: Gyimesi Wheel
+C: Gyimes, Transylvania
+%D:
+R:
+S: Fiddle Hell Online 2022-4-9 handout for Beth Bahia Cohen workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/16
+K: Ddor
+%%continueall 1
+|:\
+([D2G,2]TA,6) [D2G,2][D2A,2][D2A,2][D2A,2] |\
+[D2G,2][D2A,2] [D2A,2]A,G, B,G,B,G, (A,C)D2 |\
+[D2G,2][D2A,2][D2A,2][D2A,2] [D2G,2][D2A,2][D2A,2][D2A,2] |
+[D2G,2][D2A,2] [D2A,2]A,G, B,G,B,G, (T[D3A,3]G,) |\
+[E4G,4] (TE3D) GDGD (TE3D) |\
+GDGD TE4 DCB,C (TA,3G,) |
+FAGF EGFE DCB,C (TC3B,) |\
+G,B,TC2- CuB,A,G, A,B,CD TE4 |\
+(FA)GF EGFE DCB,C (TC3G,) |
+G,B,(uTC2- CB,)A,G, A,^CA,C A,2[A2^F2] |\
+[A2D2][A2D2] d2dc ed(Tc2- cB)AG |\
+AGA^c Td3(=c/d/ e2)T[c2D2-] [cD]BAG |
+(^g<a)=gf ebec dcBc AcAG |\
+AB(uT[g2-c2] [gc]vB)AG Aa^ga u[A4D4] |\
+{G}a2=gf ebec dcBc (TA3G) |
+ABT[g2-c2] [gc]BAG ABcd v[A4D4] |\
+{^g}a2=gf ebec dcBc [e3A3]G |\
+ABT[g2-c2] [gc]BAG Aa^ga [A2D2][A2D2] :|
+.[A4D4] x4 .[c'4e4] x4 ([D2A2]d'8) x4 |]

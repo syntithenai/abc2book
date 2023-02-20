@@ -1,0 +1,32 @@
+X: 1
+T: Abbotsford Lassies
+T: 4x32R set (C. Inglis)
+P: Evan's Hornpipe
+C: Euan's Hornpipe
+C: strathspey.org lists "The Navvie" as the rec'd tune
+C: Kerr's, from David Knight via David Wiesler
+Z: T. Traub 7-30-03
+R: Reel
+K: Am
+M: 4/4
+L: 1/8
+ E2 \
+|: "Am"A^GAB cdcB | "Am"ABcd e2 cd | "Am"efed cdec | "G"d2 G2 G2 cB \
+"Am"A^GAB cdcB | "Am"ABcd e2 cd | "Am"efed "E"c2 Bd | "Am"c2A2 A2z2 :|
+[| "Am"{^g}a2A2 A2z2 | "Am"{^g}a2A2 "D7"A2z2 | "G"{^f}g2G2 G2z2 | "G"{^f}g2G2 G2z2 \
+|  "Am"{^g}a2A2 {^g}a2A2 | "G"{^f}g2G2 {f}g2G2 | "F"a2ef "E7"edcB | "Am"c2A2 A2z2 |]
+[| "Am"{^g}a2A2 "/G#"A2z2 | "/G"{^g}a2A2 "D/F#"A2z2 | "G"{^f}g2G^F GABc | "G7"dedc "E7"B2E2 \
+|  "Am"A^GAB cdcB | "Am"ABcd e2cd | "Am"efed "E7"c2Bd | "Am"c2A2 A2 |]
+
+X: 1
+P: The Navvie
+C: Trad, RSCDS 45-5
+R: hornpipe, reel
+C: 2005 John Chambers
+M: 4/4
+L: 1/8
+K: G
+Bc \
+| "G"dgfe "D7"dcBA | "G"GBDG B2AG | "D7"FADF A2GF | "G"GDEF "D7"GABc | "G"dgfe "D7"dcBA |
+| "G"GBDG B2AG | "D7"FADF A2GF | "G"G2B2 G2 :: AG | "D7"FADF A2GF | "G"GBDG B2AG |
+| "D7"FADF A2GF | "G"GDEF "D7"GABc | "G"dgfe "D7"dcBA | "G"GBDG B2AG | "D7"FAfe dcBA | "G"G2B2 G2 :|

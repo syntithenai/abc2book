@@ -1,0 +1,16 @@
+X: 1
+T: Putney Ferry - AB1 AB1 B2
+O: Playford 1670
+A: English
+M: 6/8
+L: 1/8
+K: F
+"A"[|] A |\
+"Dm"d2e f2g | "Am"a2 ac3 | "Dm"d>ef "C"e2d | "Am"cA2 A2A |\
+"Dm"d2e f2g | "Am"a2a c3 | "C"e>df e2d | "Am"eA2 A2 |]
+"B1"[|] a |\
+"F"a2a "C"g>fg | "F"f2-f "C"f2e | "F"f>ga "C"g>fg | "F"f2-f f2e |\
+"F"f2e f2g | "Dm"a2a a>gf | "C"e2d c>Bc | "Dm"d3 d2 |]
+"B2"[|] e |\
+"F"f>ed "C"ce2 | "F"f>ed "C"ce2 | "F"a>gf "C"eg2 | "F"f2-f f2e |\
+"F"f2f f2g | "Dm"a2a a>gf | "C"e2d c>Bc | "Dm"d3 d3 |]

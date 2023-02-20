@@ -1,0 +1,20 @@
+X: 69
+T: la Pendress
+%R: reel, march
+N: This is version 1, for ABC software that doesn't understand grace notes with length.
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.32,33 #69
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%%slurgraces 1
+%%graceslurs 1
+K: Am
+edcB |\
+A2a2 ^g2a2 | (f2e2) f2ed | {f}e2dc {e}d2cB | {d}c2A2 edcB |\
+A2a2 ^g2a2 | b4 c'2ba | g2^fe gfe^d | e4 :|
+|: gfed |\
+c2 (3(c'ba) g2(Ta3/g//a//) | (a2g2) agfe | d2c2 Bdce | d2G2 gfed |\
+c2 (3(c'ba) g2(Ta3/g//a//) | (a2g2) agfe | d2c2 {e}d2cB | c4 edef |
+e4 dcde | d4 c2BA | ^G2f2 dcBA | ^G2E2 edcB |\
+A2a2 ^g2(Ta3/g//a//) | e4 f2ed | c2BA cBA^G | A4 :|

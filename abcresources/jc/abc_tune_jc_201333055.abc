@@ -1,0 +1,17 @@
+X: 355
+T: Sad is My Fate
+R: air, waltz
+%S: s:3 b:16(8+8+8)
+B: O'Neill's 1850 #355
+O: Mrs.Fitzgerad
+Z: Chris Falt, cfalt@trytel.com
+Q: "Mournfully."
+M: 3/4
+L: 1/8
+K: Dm
+((3A=B^c) | d2 cA GE  | D2 C2  DE | F3  G AB  | c2 A2 |\
+|    A>^c | d2 eA GE  | D2 C2  DE | F3  G E>D | D4 |]
+||    A>G | A2 d2 d>e | f2 ed  ce | d2 c2 A>G | F4 |\
+|     F>G | A2 d2 d>e | f2 ed ^ce | d6-       | d4 |]
+||     de | f2 fe dc  | d2 A2  AB | c2 cA GF  | E2 C2 |\
+|      DE | F2 FG AB  | c2 A2  AG | F3  G E>D | D4 |]

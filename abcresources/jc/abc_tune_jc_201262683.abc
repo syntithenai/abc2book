@@ -1,0 +1,5 @@
+%%staffwidth 250
+X:1
+T:TEST: K:G clef=treble
+K:G clef=treble
+| GABc defg |[K:bass] GABc defg |

@@ -1,0 +1,25 @@
+X:18
+T:Bulgarian (?) 7
+S:Ian McArdle
+R:Other
+O:Bulgaria ?
+N:the turn symbol represents a trill
+M:9/16
+K:D
+"G"d2 (~g2f) "C"g2e2 | "G"d2 (e2f) g2a2 |\
+"G"d2 (~g2f) "C"g2e2 | "D7"d2 (~e2d) "G"d2d2::
+"D"a2 (~d'2c') "G"d'2b2|"D"a2 ~b2c' d'2e'2|\
+a2 (~d'2c') "G"d'2b2|"A7"a2 (~b2a) "D"a2a2 ::
+"Em"e2 (~b2a) "Am"~a2(gf)|"D"d2 (e2f) "G"g2a2 |\
+z2(~b2a) "Am"~a2(gf)|"Em"d2 (e2e) e2e2 ::
+"Am"(ab) (~c'2a) (c'g)~b2|\
+"G"(ba) (abg) "Am"(bg)~a2|\
+(ab) (~c'2g) (c'd')b2|\
+"G"(bg) (abg) "Dm"(ad')"Am"~a2::
+"Gm"(a_b) (^c'd'b) ~c'2(bg)|\
+"A"(ae) (^c'd'_b) ~c'2(bg)|\
+"Gm"(a_b) (^c'd'b) ~c'2(bg)| (_bg) "A"a3 a2a2::
+"Am"(ae) (d'e'=c') ~d'2(c'e')|\
+"G"~d'2 c'=bg "Dm"(ab c'd')|\
+"Am"(e'a) (d'e'c') ~d'2(c'e')|\
+"G"~d'2 c'bg "Am"ae' a2:|

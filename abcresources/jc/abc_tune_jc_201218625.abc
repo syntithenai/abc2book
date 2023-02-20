@@ -1,0 +1,21 @@
+X: 012
+T: 2 Le Cotillon
+%R:
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.2 #2
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!d {d}c2B |\
+{B}A2{G}G F2G | c2B e2d |\
+g2d {d}c2B | {B}A2d {d}c2B |\
+A2G {G}F2G | c2B e2d |\
+c2B A>GF | G2 :|
+!f!A F2D |\
+B2A d2^c | {d}e2d g2f |\
+{f}e2d ^c2B | {B}A2a {a}g2f |\
+{f}e2d ^c2d | b2a g2f |\
+efd Ad^c | d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

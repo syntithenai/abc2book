@@ -1,0 +1,25 @@
+X: 21481
+T: the ADELPHI QUADRILLE
+C: Copyright.--McCann.
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.148 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The rhythms don't quite match up between the strains; not fixed.
+N: A Fine or fermata is needed at the end of the 1st strain.
+N: length of 2nd Bs doubled in bar 18 by ignoring the flag.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A !segno!|\
+f3 fg^g | a3- agf | (gf).e (fe).d | (fe).A Ade |\
+f3 (fg^g) | a3- agf | (gf)e (ba)c | d3 d |]
+cd |\
+e3 e^ga | e3 e^bc' | e'3 e'c'a | c'^b=b agf |\
+e3 e^ga | c'3 c'ba | b3 ba^g | a3 Ade !segno!|]
+[d'/d/][d'/d/] |\
+[d'3d3]- [d'd][d'd][d'd] | [d'3d3]- [d'2d2] [b/B/][b/B/] |\
+[b2B2] [b/B/][b/B/] [b3B3] | [b3B3] [b2B2]A |\
+A3 Adf | a3 b/a/g/f/e/d/ | cde dcB | AA/A/A Ade !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

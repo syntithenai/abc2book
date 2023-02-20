@@ -1,0 +1,20 @@
+X: 2242
+T: the BELLES OF AMAHA
+Q: "Reel."
+R: Reel.
+%R: reel
+N: This is version 2, for ABC software that implements ABC v.2 rules for slurred grace notes + slurred main notes.
+B: James Kerr "Merry Melodies" v.2 p.27 #242
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: Em
+|:\
+B2{c}(BA) BGEF | GABd efge |\
+B2{c}(BA) BGEF | GBAF EFGA :|\
+Bdef {a}gfgb | agfg edBA |
+Bdef {a}gfgb agfg e2(ed) |\
+Bdef {a}gfgb | agfg efge |\
+B2{c}(BA) BGEF | GBAF EFGA |]

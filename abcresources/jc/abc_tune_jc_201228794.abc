@@ -1,0 +1,20 @@
+X: 1161
+T: Miss Flora McDonald's Reel
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.1 p.16 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Edor	% and/or D
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+F !segno!|\
+E2(T.D>.F) BEEF |TE2E>F dFDF | E2(T.E>.F) EFGA | (B/c/d) TA>d FDD :| F | Ee-e^d eEEF | Ee-ec dDDF |
+Ee-ed Bcde | (f/g/a) (ef) dDTAF || Ee-e.^d eEEF | Ee-ec dDAF | Ee-ed Bcde | faef dDAF !segno!|]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z !segno!|\
+e2e2 e2e2 | e2e2 d2d2 | e2e2 e2e2 | g2a2 d2d :| z | e2B2 e2e2 | e2[e2a2] d2d2 |
+e2e2 e2e2 | a2A2 d2d2 || e2e2 [e2b2]e2 | e2[e2a2] d2d2 | e2e2 e2e2 | a2A2 [d2D2][d2D2] !segno!|]

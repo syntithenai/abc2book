@@ -1,0 +1,43 @@
+
+X: 1
+T: Miss Rae's Strathspey
+M:4/4
+L:1/8
+R:Strathspey
+N:"Slow"
+C:Andrew Gow
+B:Gow - 3rd Collection of Niel Gow's Reels, 3rd ed. p.8 (orig. 1792)
+Z:AK/Fiddler's Companion
+K:Cm
+D \
+| TE>D CD TE>F A/G/F/E/ | TD>B, TFB, TGB, TFB, \
+| TE>D CD TE>F A/G/F/E/ | D<A G>=B, {B,}C2 C :|
+G \
+| Tc>d ef Tg>a a/g/f/e/ | f/g/a/g/ f/e/d/c/ =B/c/d/B/ TG2 \
+| Tc>d ef g>a gf | g(3e/d/c/ f(3d/c/=B/ Tc2 {B/c/}C |]
+G \
+| Tc>d e>f g>a a/g/f/e/ | f/g/a/g/ f/e/d/c/ =B/c/d/B/ G2 \
+|  E>e g>e c<G E2 | D<A G>=B, {B,}C2 C |]
+
+
+%%sep 3 1 500
+
+X: 2
+T: Miss Rae's Strathspey
+M:4/4
+L:1/8
+R:Strathspey
+N:"Slow"
+C:Andrew Gow
+B:Gow - 3rd Collection of Niel Gow's Reels, 3rd ed. p.8 (orig. 1792)
+Z:AK/Fiddler's Companion
+K:Dm
+E \
+| "Dm"F>E D>E F>G B/A/G/F/ | "C"E>C G>C A>C G>C \
+| "Dm"F>E D>E F>G B/A/G/F/ | "Gm"E<B "A7"A>^C "Dm"{C}D2 D :|
+A \
+| "Dm"d>e f>g a>b b/a/g/f/ | "Gm"g/a/b/a/ g/f/e/d/ "A7"^c/d/e/c/ A2 \
+| "Dm"d>e f>g a>b a>g | "Dm"a(3f/e/d/ "A7"g(3e/d/^c/ "Dm"d2 {c/d/}D |]
+A \
+| "Dm"d>e f>g a>b b/a/g/f/ | "Gm"g/a/b/a/ g/f/e/d/ "A7"^c/d/e/c/ A2 \
+| "Dm"F>f a>f d<A F2 | "Gm"E<B "A7"A>^C "Dm"{C}D2 D |]

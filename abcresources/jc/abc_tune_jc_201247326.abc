@@ -1,0 +1,66 @@
+%%center Anthems
+
+
+X: 1
+T: La Marseillaise   [G]
+C: Rouget de Lisle
+N: The composer's name is often spelled "Rouget de l'Isle"
+P: piffero primo a0405
+O: France
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/anthemsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+DD>D |\
+G2G2 A2A2 | (d3B) G>GB>G | E2 c4 A>F | G4 zGG>A | B2B2 B2(c>B) | (BA)A2 zAA>B |
+c2c2 c2(d>c) | B4 zdd>d | d2(B>G) d2(B>G) | D4 zDD>D | A3A c2(A>F) | (AG)G2 zG=FF |
+E2G2 G2(F>G) | A6 zA | _B3B ABc>B | A4 z2(_BA) | G2G2 G_BAG | (GF)F4 zd | d4- d>dB>G |
+A6 zd | d4- d>dB>G | A4- AzD2 | G6 A2 | B6 B2 | (c4 d2)e2 | A4- Aze2 | d4- d>Bc>A | G4- G |]
+
+
+X: 2
+T: La Marseillaise   [D]
+C: Rouget de Lisle
+N: The composer's name is often spelled "Rouget de l'Isle"
+P: piffero primo a0405a
+O: France
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/anthemsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+AA>A |\
+d2d2 e2e2 | (a3f) d>df>d | B2 g4 e>c | d4 zdd>e | f2f2 f2(g>f) | (fe)e2 zee>f |
+g2g2 g2(a>g) | f4 zaa>a | a2(f>d) a2(f>d) | A4 zAA>A | e3e g2(e>c) | (ed)d2 zd=cc |
+B2d2 d2(c>d) | e6 ze | =f3f efg>f | e4 z2(=fe) | d2d2 d=fed | (dc)c4 za | a4- a>af>d |
+e6 za | a4- a>af>d | e4- ezA2 | d6 e2 | f6 f2 | (g4 a2)b2 | e4- ezb2 | a4- a>fg>e | d4- d |]
+
+
+X: 3
+T: O Canada
+C: C. Lavalee
+P: piffero primo a0174
+O: Canada
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/anthemsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+|:\
+B4 d3d | G6 A2 | B2c2 d2e2 | A6 z2 |\
+B4 ^c3c | d6 e2 | f2f2 e2e2 | d6 A>B |\
+c3B A2B>c |
+d3c B2c>d | e2d2 c2B2 | A6 A>B |\
+c3B A2B>c | d3cB2B2 | A2d2 d^cBc | d8 |\
+B4 d3d | G6 z2 |
+c4 e3e | A6 z2 |\
+d4 ^d3d | e2c2 B2A2 | G4 A4 | B4 z4 |\
+d4 g3g | e2c2 B2A2 | d4 F4 | G8 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

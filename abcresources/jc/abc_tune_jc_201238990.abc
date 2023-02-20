@@ -1,0 +1,37 @@
+X: 31931
+T: UP IN THE MORNING EARLY -- Variations
+N: Bowing and Fingering arranged by W. B. Laybourn.
+R: jig
+B: K\"ohler's Violin Repository, v.3, 1885 p.193
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Added missing dot in 2nd beat of bar 5.
+N: There's an extra 1/8 in bar 33. (Not fixed.)
+N: The repeat signs don't match properly.  Fixed to make all phrases repeat.
+M: 6/8
+L: 1/16
+Q: "Andante"
+K: Gm
+(uE/=E/^F) |\
+G3AG2 (G3c B/c/d) | F2c2F2 (dcBAG^F) | G3AG2 (Bc/d/)cBAB | ({A}G4Bc) d4 :|
+|: (uF/G/A) |\
+(B3cBc) (B3ABF) | c3dc2 (c2dcBA) | (B3cde) (f3gfe) | (d4^cd) uf4uF2 |
+B3cB2 (c4{dc}B2) | c2d2f2 (.g4.b2) | d3cB2 (c2BAG^F) | (G4Bc) d4 :|
+P: V1
+|: (uD/=E/^F) |\
+(G^F)GABG (BA)BcdB | (cB)A=efd (dc)BAG^F | G2g2f2 (d>edcBA) | (G4Bc) d4 :|
+|: (FE) |\
+(DB)B,DBc (BA)GABG | c2C2c2- c(dcBcA) | B2(F2{GF}E2) D2(fedc) | (d4^cd) f4(uF/G/A) |
+B2(D2B,2) (c3{dc}B)c2 | d2g2^f2 ({=ef}g3a{ga}b2) | (dedcdB) (A/B/cBAG^F) | (G4Bc) d4 :|
+P: V2
+|: uD/=E/^F |\
+(G2DCB,)A, G,2 (B>c Bcd) | F2f2d2 (dcBAG^F) | G2g2f2 (d>edcBA) | G2(DCB,)A, G,4 :|
+|: (uF/G/A) |\
+BAGAB2- B2(AGAB) | c2f2d2 (dcBAGF) | (Bfgabg) (fedcdB) | (df)bdcB (AcFBAB/c/) |
+(.BA/G/ FEDC B,/B/A/G/) c2C2c2 | d^FDgf(=e/f/) (g3a{ga}b2) | (dfbdcB) (AcfcBA) | (G4Bc) d4 :|
+P: V3
+|: uD/=E/^F |\
+(.G4.G2) B3cd2 | F2f2d2 (dcBAG^F) | G2g2f2 (d>edcBA) | (G4Bc) d4 :|
+|: (uF/G/A) |\
+B2B,2B2- B(AGABG) | c2C2c2- c(dcBcA) | B2(F2E2) D2(fedc) | (d4^cd) f4uF2 |
+B2B,2B2 c2C2c2 | d2D2~^f2 (g3a g/a/b)  | (d>cBc/d/c>B) (c>BAB/c/B>A) | (G4Bc) "^Fine"d4 |]

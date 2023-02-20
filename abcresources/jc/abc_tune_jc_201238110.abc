@@ -1,0 +1,29 @@
+X: 3023
+T: Lort Buchan
+O: Very Old
+%R: air, waltz
+B: Niel Gow & Sons "Complete Repository" v.3 p.2 #3 (and top 2 staffs of p.3)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: Lower treble "voice" in bars 14,15 moved to V:2.
+M: 3/4
+L: 1/8
+Q: "Slow"
+K: Bm
+% - - - - - - - - - -
+V: 1 staves=2
+f>e |\
+(d2 B2) A>F | A2 (f2 e2) | (dB) d2 d2 | [d4B4F4] f>e |\
+(d2 B2) A>F | A2 (f2 e2) | (dB) d2d2 | [d4B4F4] |: !f!A2 |\
+d3 efg | a4 (ba) |
+(g2 f2) d2 | B4 A2 |\
+!p!~d3 efg | a4 (ba) | g2 f2 d2 | B4 f>e |\
+(d2 B2) A>F | A2 (f2 e2) | (dB) {F}d2 d2 | [d4B4F4] :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+d2 g2 f2 | d2 d'2 ^a2 | b2 f2 d2 | B4 z2 |\
+d2 g2 f2 | d2 d'2 [c'2^a2] | b2 f2 d2 | B4 |: !f!.G2 |\
+F3 Ade | f2 d2 gf |
+e2 d2 f2 | g2 G2 z2 |\
+!p!f3 ad'e' | f'2 d'2 g'f' | e'2 d'2 f'2 | g'2 g2 z2 |\
+d2 g2 f2 | d2 d'2 [c'2^a2] | b2 f2 d2 | B4 :|

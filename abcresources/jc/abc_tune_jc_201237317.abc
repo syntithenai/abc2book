@@ -1,0 +1,29 @@
+X: 253
+T: Mrs JAMES CAMPBELL
+C: M. Mc DONALD 4th Coll.
+R: Reel
+B: Glen Collection p.25 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: F
+%
+V: 1
+e |\
+f2ce AFcA | dBcA Ggga | fcfa gefd | cABG F/F/F F :|
+B |\
+AFAc defd | cAAF EFGc | AFAc defd | cABG F/F/F FB |
+AFAc defd | cAAF EFGc | AcFc defd | cABG F/F/F F |]
+%
+V: 2
+z |\
+[f2F2][a2f2c2] [a2f2c2][a2f2c2] | [g2e2c2][a2f2c2] [b2e2c2][b2e2c2] |\
+[a2f2][a2f2] [b2e2c2][a2f2d2] | [a2f2][g2e2c2] [a2f2][fF] :|
+z |\
+f2[c'2a2] B2[b2f2] | f2[c'2a2] c2[e2g2] |\
+f2[c'2a2] B2[b2f2] | [a2f2][g2e2c2] [a2f2]f2 |
+f2[c'2a2] B2[b2f2] | f2[c'2a2] c2[g2e2] |\
+f2[f2A2] [f2B2][f2B2] | [a2f2c2][g2e2c2] [a2f2][fF] |]

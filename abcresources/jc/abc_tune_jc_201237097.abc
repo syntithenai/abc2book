@@ -1,0 +1,32 @@
+X: 241
+T: Miss Reay of Killingworth's favorite
+C: Abraham Mackintosh
+R: jig
+M: 6/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Abraham Mackintosh "A Collection of Strathspeys, Reels, Jigs &c.", Newcastle, after 1797, p.24
+F: http://imslp.info/files/imglnks/usimg/a/a8/IMSLP80796-PMLP164326-Abraham_Mackintosh_coll.pdf
+K: G
+V: 1
+|: [g3B3] [f3A3] | g2b {^c}d2e/f/ | gfe dcB | ABG FED |\
+[g2B2][gB] [f2A2][fA] | g2b {^c}def | gfe agf | ed^c d2 :|
+|: d |\
+Td3 b2d | {d}cBc a2c | Bdg dcB | ABG FED |\
+d2b dcB | c2a cBA | Bdg agf | g3 G2 :|
+g |\
+gfg efg | abg fed | efg dcB | ABG FED |\
+gfg efg | abg fed | efg agf | g3 G2g |
+gfg efg | abg fed | efg dcB | ABG FED |\
+EFG FGA | GAB ABc | d2b agf | Hgdc BcA |]
+V: 2 clef=bass middle=d
+|: gbg d'2c' | bag fed | g3 G3 | c2^c d2z |\
+GB^c dd'=c' | bag fed | e2a f2b | g2a d2 :|
+|: z |\
+Bba ^gfe | a2=g fed | g3 G3 | c2^c d2z |\
+g3 ^g3 | a3 f3 | g2B c2d | GBd g2 :|
+z |\
+B3 c3 | A3 d3 | c3 G3 | c2^c d3 |\
+B3 c2B | A3 d2B | c2B A2d | GBd g2z |
+B2z c2z | A2z d2z | c2z G2z | c2^c d3 |\
+c2z A2z | B2z F2z | G3 c2d | HG2z z2z |]

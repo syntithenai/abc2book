@@ -1,0 +1,92 @@
+X: 1401
+T: STARTING WALTZ
+C: J. H. Seipp
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.140-141
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: Dynamics are randomly omitted, and positioned sloppily. 
+N: I've added the missing ones to agree with the other parts, and lined them up a bit better.
+M: 3/8
+L: 1/16
+K: F
+%----------
+V: 1
+"^1st Violin"|:\
+!f!.c.c.c.c~c2 | !p!.a2.e2.f2 | .a2.e2.f2 | .d'2.=b2.c'2 |\
+!f!.g.g.g.g~g2 | !p!.d'2.g2.a2 | .b2.d2.g2 | {f}.e2.d2.c2 |\
+!f!.c.c.c.c~c2 | !p!.a2.e2.f2 |
+.a2.e2.f2 | d'2a2_b2 |\
+!f!gggg~g2 | !p!._d'2.g2.a2 | .b2.d2.e2 | f4z2 :|\
+|:!f!\
+(cb){c}b4 | (cg){c}g4 | (cc'){c}c'4 | (ca){c}a4 |\
+(dd'){d}d'2 (d'c') | (c'4b2) |
+% ----- page -----
+(cc'){c}c'2 (c'b) | (b4a2) |\
+(ag)(gf)(fe) | (ed)(dc)(cB) | (Ad)(cf)(eg) | f4z2 H:| [K:Bb]\
+"^TRIO"|:!p!\
+.d.d .d2.e2 | f2d'3d | c2f3e | d2b3f |\
+.d.d .d2e2 |
+f2d'3d | c2f3A | B4z2 :|\
+|:!ff!\
+.g._a.g.a.g.f | _e3.=e.f.g | ._a.b.a.b.a._g | f3._g.=g._a |\
+.b.c'.b.=a.b.c' | _d3.=a.b.c' | ._d'._e'.d'.c'.b.d' | f'4"^D.C."z2 |]
+%----------
+V: 2
+"^2d Violin"|:\
+!f!.[AF].[AF].[AF].[AF].[A2F2] | !p!z2 [c2A2][c2A2] | z2 [c2A2][c2A2] | z2[c2G2][c2G2] |
+!f![BG][BG][BG][BG][B2G2] | !p!z2[B2G2][B2G2] | z2[B2G2][B2G2] | z2[B2G2][B2G2] |
+!f![AF][AF][AF][AF][A2F2] | !p!z2[c2A2][c2A2] | z2[c2A2][c2A2] | z2[d2F2][d2F2] |
+!f![BG][BG][BG][BG][B2G2] | !p!z2[B2G2][B2G2] | z2[B2G2][B2G2] | [A4F4]z2 :|\
+|:!f!\
+(cg){c}g4 | (ce){c}e4 | (ca){c}a4 | (cf){c}f4 |
+.[A^F].[AF].[AF].[AF].[A2F2] | z2[B2G2][B2G2] |
+% ----- page -----
+[GG,][GG,][GG,][GG,][G2G,2] | z2[A2F2][A2F2] |\
+[A2F2][A2F2][A2F2] | [B2F2][B2F2][B2F2] | [A2F2][A2F2][B2G2] | [A4F4]z2 H:|
+[K:Bb]
+"^TRIO"|:!p!\
+.[BF].[BF] .[B2F2].[c2F2] | z2[d2F2][d2F2] | z2[A2F2][A2F2] | z2[B2F2][B2F2]\
+.[BF].[BF] .[B2F2].[c2F2] | z2[d2F2][d2F2] | z2[A2F2][A2F2] | [B4F4]z2 :|\
+|:!ff!\
+=B2B2B2 | c2c2c2 | c2c2c2 | _d2d2d2 |\
+_d2d2d2 | _d2d2d2 |  _d2d2d2 | [f4=A4]"^D.C."z2 |]
+%----------
+V: 3 clef=alto middle=c
+"^Viola"|:\
+!f!.[fA].[fA].[fA].[fA].[f2A2] | !p!z2[a2c2][a2c2] | z2[a2c2][a2c2] | z2[e2c2][e2c2] |\
+!f![dB][dB][dB][dB][d2B2] | !p!z2[d2B2][d2B2] | z2[d2B2][d2B2] | z2[e2c2][e2c2] |\
+!f![fA][fA][fA][fA][f2A2] | !p!z2[a2c2][a2c2] |
+z2[a2c2][a2c2] | z2[b2d2][b2d2] |\
+!p![ec][ec][ec][ec][e2c2] | !p!z2[e2c2][e2c2] | z2[e2c2][e2c2] | [f4c4]z2 :|\
+|:!f!\
+[b2g2][b4g4] | [g2c2][g4c4] | [a2c2][a4c4] | [f2A2][f4A4] |\
+.d.d.d.d.d2 | z2[d2B2][d2B2] |
+% ----- page -----
+[ec][ec][ec][ec][e2c2] | z2[f2c2][f2c2] | c2c2c2 | d2d2d2 |\
+c2c2[e2c2] | [f4c4]z2 H:|\
+"^TRIO"[K:Bb]|:!p!\
+.[dB].[dB] .[d2B2].[e2c2] | z2[d2B2][d2B2] | z2[e2c2][e2c2] | z2[d2B2][d2B2] |\
+.[dB].[dB] .[d2B2][e2c2] |
+z2[d2B2][d2B2] | z2[e2c2][e2c2] | [d4B4]z2 :|\
+|:\
+!ff![d2G2][d2G2][d2G2] | [e2G2][e2G2][e2G2] | [e2_A2][e2_A2][e2_A2] | [f2_A2][f2_A2][f2_A2] |\
+[f2B2][f2B2][f2B2] | [_g2B2][g2B2][g2B2] | [b2=g2][b2g2][b2g2] | [=a4f4]"^D.C."z2 |]
+%----------
+V: 4 clef=bass middle=d
+"^Violoncello"|:\
+!f!F2.c2A2 | !p!F2z2z2 | F2z2z2 | C2z2z2 |\
+!f!B2g2d2 | !p!B2z2z2 | G2z2z2 | c2z2z2 |\
+!f!F2c2A2 | !p!F2z2z2 |
+f2z2z2 | B2z2z2 |\
+!f!C2G2E2 | !p!C2z2z2 | c2z2z2 | F4z2 :|\
+|:\
+!f!c2c4 | c2c4 | f2f4 | f2f4 | ddddd2 | G2g2z2 |
+% ----- page -----
+ccccc2 | F2f2z2 | F2F2F2 | B2B2B2 | c4C2 | F4z2 H:|\
+"^TRIO"[K:Bb]|:\
+!p!B2b2f2 | B2z2z2 | F2z2z2 | B2z2z2 |\
+B2b2f2 | B2z2z2 | F2z2z2 | B4z2 :|\
+|:\
+!ff!G2G2G2 | c2c2c2 | _A2A2A2 | _d2d2d2 |\
+B2B2B2 | _G2G2G2 | =E2E2E2 | F4"^D.C."z2 |]
+

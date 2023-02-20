@@ -1,0 +1,23 @@
+X: 14010
+T: the BOOKSELLER'S JIG
+C: Bob McQuillen March'09
+B: Bob's Note Book 14 #10
+%R: jig
+%D:2009
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G	% and Em
+d \
+| gag dBG | AGA BGE | DGB GBd | eag fed |\
+| gag dBG | AGA BGE | DGB dBG | AGF G2 :|
+K: Em
+|: F \
+| EFG FGA | GBG AFD | EFG FGA | Bed e2d |\
+| Beg fed | ege dBA | BdB AFD | E>FE E2 :|
+%%begintext align
+%% A bookseller by trade, Richard Mori
+%% seldom misses a contra dance in the area,
+%% and it's always fun watching _him_ have fun.
+%% Thanks for coming, Richard. See you soon!
+%%endtext

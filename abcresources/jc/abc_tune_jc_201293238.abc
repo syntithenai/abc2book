@@ -1,0 +1,12 @@
+X:1
+T:Jitters Jig
+C:Mike Head
+R:jig
+M:6/8
+L:1/8
+K:Amaj
+V:2 clef=alto middle=C
+"A" A,3 A,3 | CB,A, CB,A, | "E" G,A,B, "A" CB,A, | "E" G,A,F, "A" E,3 |
+"A" A,3 A,3 | CB,A, CEF | "D" AFE "A" CEC | "E" B,2A, "A" A,3 ::
+"D" AFE "A" C2E | "D" FEF "A" A3 | "D" AFE "A" CEC | "Bm" C2B, "E" B,3 |
+"D" AFE "A" CEC | "A" ECE "D" F2E | "D" AFE "A" CEC | "E" B,2A, "A" A,3 :|

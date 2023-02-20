@@ -1,0 +1,644 @@
+X: 0
+T: Twenty Four Country Dances for the Year 1780
+N: Publisher: Charles & Samuel Thompson, London, 1780
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+K:
+%%center With proper Tunes & Directions to each Dance as they
+%%center are Perform'd at Court, Bath, & all Publick Assemblys
+%%center -------------------- L O N D O N -------------------
+%%center Printed for Cha.s & Sam.l Thompson No.75, St Pauls Church Yard
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 169
+T: The Lady of the Manor
+%R: jig
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1780", London 1780, p.85 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+DFA dfa | a2g f2a | g2f ede | fef dA/G/F/E/ |\
+DFA dfa | a2g f2a | g2f ede | dFA D3 :|
+|:\
+A2A Ace | g2g g2f | e2e ede | fa/g/f/e dfd |\
+A2A Ace | g2g g2f | ede ABc | dA/G/F/E/ D3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   The first Gent: foot it to the 2d Lady & turn her .|.
+%% The first Lady do the same to the 2d Gent :|. Lead
+%% down the middle up again and cast off .|: Right &
+%% Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 170
+T: The Sham Fight
+%R: jig
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1780", London 1780, p.85 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B2B BAB | c3 B3 | g2d dcB | A3 D3 |\
+B2B BAB | c3 B3 | AcB AGF | G3 G,3 :|
+|:\
+D2d dcB | D2c cBA | gfe dcB | ABG FED |\
+D2d dcB | D2c cBA | EcA FEF | G3 G,3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   Hey contrary sides .|. Hey on your own
+%% sides :|. Lead down two Cu. up again and
+%% cast off .|: Hands six round :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 171
+T: The Camp
+%R: reel
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1780", London 1780, p.86 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+d3fd2f2 | gfed dcBA | d3fd2f2 | a2a2a3A |\
+d3fd2f2 | gfed dcBA | B2g2e2c2 | d6 :|
+|: cd |\
+e2c2f2d2 | g2e2a2f2 | B4 c2d2 | cdcB A2cd |\
+e2c2f2d2 | g2e2a2f2 | G3b agfe | d6 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   Change sides back again .|. Cast off one Cu. and
+%% Allemande cast off another Cu. & Allemande :|. take
+%% both hands with your Partner & move into the 2d Cu.s
+%% place the 3d Cu. move into their places lead thro' the
+%% top and cast off .|: Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 172
+T: Kingsbridge Assembly
+%R: jig
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1780", London 1780, p.86 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+f2e f2e | dcd A2A | BGB AFA | GEG F2D |\
+f2e f2e | dcd A2A | BAG FGE | D2D D3 :|
+|:\
+DFA AFD | GAB  B3 | Ace ecA | def f3 |\
+afd BcB | gec ABA | BAG FGE | D2D D3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hey contrary sides .|. then on your own sides :|.
+%% The 1st 2d & 3d Cu. Promenade all round .|: lead
+%% thro' the bottom and cast up lead thro' the top
+% and cast off :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 173
+T: Trip to Easton
+%R: reel
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1780", London 1780, p.87 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+fefg a2d2 | c2d2e2A2 | BABc d2B2 | A2F2E2D2 |\
+fefg a2d2 | cBcd e2d2 | c2A2B2^G2 | A4 A4 :|
+|:\
+A3F AFAF | G3E GEGE | FDEF GABc | d2A2F2D2 |\
+F3G AFAF | E3F GEGE | B2dB A2G2 | A2F2 D4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   The first Gent: set and turn the 3d Lady .|. the first Lady
+%% do the same with the 3d Gent: :|. lead thro' the bottom and
+%% cast up lead thro' the top & cast off .|: Hands round 4
+%% at bottom Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 174
+T: Brunetta
+T: Pop the Question
+%R: reel, march
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1780", London 1780, p.87 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: C
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(d2ef) g2d2 d2c2 B4 | .G2(BA) .A2(cA) (dBAG) (GFED) |\
+d2(ef) g2d2 d2c2B2e2 | e2d2d2F2 G3A G4 :|
+|:\
+B4A2G2 c2c2c4 | e2g2f2e2 (e4d4) |\
+.g2.a2.b2.a2 .g2.f2.e2.d2 | d2e2d2c2 B4G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   Right hands across half round Left hands back
+%% again .|. Lead down the middle up again and cast
+%% off :|. Allemande with your Right hand then with
+%% your Left .|: Cross over & Right & Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 175
+T: The Innocent Maid
+%R: jig
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1780", London 1780, p.88 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(c/d/) |\
+ecA AGA | ecA AGA | FdB Ged | cBA BGE |\
+ecA AGA | ecA AGA | FdB Ged | cAA A2 :|
+|: (A//B//c//d//) |\
+eca eca | eca edc | fdB BbB | BB,B B2 (A//B//c//d//) |\
+eca eca | eca ecA | EAc eca | B>AB A2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   Hey contrary sides .|. then Hey on your
+%% own sides :|. Lead down two Cu: up again
+%% and cast off .|: Right & Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 176
+T: The New Polones
+%R: march, reel
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1780", London 1780, p.88 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A2cA {A}G2FE | A2cA {A}G2FE | e2e2 {d}c2BA | B2B2 {A}G2FE |\
+A2cA {A}G2FE | A2cA {A}G2FE | ABcd efga | ecBc A4 :|
+|:\
+cdef e2fg | {b}a2gf e4 | cdef {f}e2dc | BABc B2E2 |\
+cdef e2fg | {b}a2gf e4 | cdef {f}e2dc | BABc A4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   Right Hands across Left hands back again .|. Cross
+%% over one Cu. Lead thro' the top and cast off :|.
+%% Allemand with the right hand then with the Left .|:
+%% Lead thro' the bottom and top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 177
+T: The Artillery Rout
+T: Hopkins Whim
+%R: jig
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1780", London 1780, p.89 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+N: The octave bits are labelled "G.Fl." (German Flute) above and "Vio" (Violin) below.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D2E F2D | d2c B2A | Bcd GAB | EFG [cC][BB,][AA,] |\
+D2E F2D | d2c B2A | Bcd AGF | [EA,][EA,][EA,] [E3A,3] :|
+|:\
+[AA,][cC][eE] [AA,][cC][eE] | DFA DFA | [AA,][cC][eE] [AA,][cC][eE] |  DFG ABc |\
+dAB AGF | ABG FGE | FAd GFE | DDD D3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   Turn right hands across round Left hands back
+%% again .|. Lead down the middle 2 Cu. up again and
+%% cast off :|. Sett 3 & 3 top and bottom the same
+%% sideways .|: Hands 6 quite round :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 178
+T: The Beautiful Charmer
+%R: jig
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1780", London 1780, p.89 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+efg gag | agf edc | def edc | dGG G2G |\
+efg gag | agf edc | def edc | dcB c3 :|
+|:\
+efg efg | agf edc | def def | gfe dcB |\
+cGc ece | agf edc | def edc | dcB c3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   Hey contrary sides .|. then on your
+%% own sides :|. Lead down the middle up
+%% again and cast off .|: Hands 4 at bottom
+%% Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 179
+T: The Doubtful Shepherd
+%R: reel, march
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1780", London 1780, p.90 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+N: The doubled notes in bars 4, 15, 16 are labelled "G:Fl:" (German Flute) above and "Vio." (Violin) below.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+g2d2 cBAG | F2A2 A4 | E2GE F2AF | G2[B2D2] [d2B,2][g2G,2] |\
+g2d2 cBAG | F2A2 A4 | E2GE F2AF | G2G2 G4 :|
+|:\
+dBdB G2G2 | AFAF D4 | E2GE F2AF | {AB}c2B2 B2A2 |\
+dBdB G2G2 | AFAF D4 | [B2B,2][dD][BB,] [c2C2][eE][cC] | [d2D2][f2F2] [g4G4] :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   The 1st 2d & 3d Gent: take hands & go round their Partn.s .|.
+%% the Ladies do the same :|. the 1st Cu. go round with the
+%% Allmand till they come in their places the 2d & 3d Cu.
+%% follows .|: Cross over and Right & Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 180
+T: Patrick Sarffield
+T: New Lango Lee
+%R: jig
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1780", London 1780, p.90 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A3 c3 | BAB cAF | ECE E3 | edc B2A |\
+A3 c3 | BAB cAF | EFG A2f | edc B2A :|
+|:\
+cde fga | f2d ecA | Ace ef=g | fdf a3 |\
+Ace a^gf | edc B2A | A>EA A>EA | Adc B2A :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   Right hands across Left hands, back again .|.
+%% Change sides and back again :|. Lead down the
+%% Middle up again and cast off .|: Allemand with
+%% your Partner :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 181
+T: Keppels Delight
+%R: jig
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1780", London 1780, p.91
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+{d}c2d edc | fga ega | fed cBA | GBA GFE |\
+c2d edc | fga ega | fed cdB | A3 A,3 :|
+|:\
+BEE cEE | dEE cEE | BEE cEE | BEE EEE |\
+BEE cEE | dEE cEE | Bdc BAG | A3 A,3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   The 1st Lady Sett ot the 2d Gent: & turn the 3d Gent: then
+%% retreat back to her place .|. the 1st Gent: Set to the 2d Lady and
+%% turn the 3d Lady & remain at bottom :|. foot it 3 & 3 top and
+%% bottom foot it 3 & 3 sideways .|: Hands Six round :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 182
+T: The First of April
+%R: jig
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1780", London 1780, p.93 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+ecA BGE | ecA BGE |\
+ecA ecA | BcG A3 :|\
+|:\
+Ace aec | fed cBA |
+Ace agf | ef^d e3 |\
+ecA BGE | ecA BGE |\
+EBd cBA | BAG A3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   Hands across .|. back again :|.
+%% Lead down the middle up again
+%% and cast off .|: Hands 6 round :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 183
+T: We will down with the French
+%R: jig
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1780", London 1780, p.92 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+a2f a2f | ded f3 | g2f g2f | efd cBA |\
+a2f a2f | ded f3 | egf edc | d3 D3 :|
+|:\
+e2e f2d | cdB A3 | dAd fdf | a2f d3 |\
+e2e f2d | cdB A3 | Bcd edc | d3 D3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   The first & 2d Cu. Sett change sides & back again .|.
+%% Lead down two Cu. up again and cast off :|. Allemande
+%% with your right hand then with your Left
+%% .|: Hands Six quite round :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 184
+T: Falmouth Assembly
+%R: jig
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1780", London 1780, p.92 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+BGG GAB | cAA ABc |\
+dgd dBG | TA3 G2 :|\
+|: d |\
+g2d e2d | edc BAG |
+gag fed | Te3 d2d/c/ |\
+BAG GAB | cBA ABc |\
+dgd dBG | TA3 G2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   Half right and Left .|. the same
+%% back again :|. Lead down the middle
+%% up again and cast off .|: Hands Six
+%% round :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 185
+T: The Touchstone
+%R: march, reel
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1780", London 1780, p.93 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2f2d2f2 | (gfed) (dcBA) | d2f2d2f2 | a2a2 a4 |\
+d2f2d2f2 | (gfed) (dcBA) | B2g2e2c2 | d4- d4 :|
+|:\
+{cd}e2c2f2d2 | g2e2a2f2 | B4 c2d2 | (cdcB) A4 |\
+e2c2f2d2 | g2e2a2f2 | G2b2 (agfe) | d4- d4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   Hey contrary sides .|. then the same on
+%% your own sides :|. Hands 6 quite round .|:
+%% Lead thro' the 3d Cu and cast up one Lead
+%% Thro' the top and cast off :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 186
+T: The Victory
+%R: reel
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1780", London 1780, p.93 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2BG d2BG | efge dBAG |\
+d2BG d2BG | edcB TB2A2 :|
+|:\
+DGFG EGFG | DFAc | BGFG |\
+GBdg gedc | B2TA2 G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   Cast off two Cu. and up again .|.
+%% Cross over two Cu. and lead thro'
+%% the top & cast off :|. Sett corners
+%% turn .|: Lead outsides :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 187
+T: The Harriot
+%R: reel, march
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1780", London 1780, p.94 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2fd | afed | efge | dcBA |\
+d2fd | afed | cedB | A2A,2 :|
+|:\
+afd=c | B^def | geBe | dcBA |\
+Bg2B | Aa2g | fedc | d2D2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Turn your Partner with your right hand and cast
+%% off .|. turn with the Left hand and cast off another
+%% Cu :|. Lead up to the top and cast off .|: Right
+%% and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 188
+T: Hey ding a ding
+%R: jig, slide
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1780", London 1780, p.94 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 12/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2f e2g fad c2A | d2f eag f3 e3 |\
+b2g ebg a2f daf | egf edc d3- d3 :|
+|:\
+F2A d2c BdB A3 | efg afd c3 e3 |\
+afd bge afd ecA | Bcd edc d3- d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   The first Gent: Set to the 2d Lady & turn .|.
+%% his Partner do the same with the 2d Gent :|. Cross
+%% over two Cu. lead up to the top and Cast off .|:
+%% Hands 4 at bottom Right & Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 189
+T: The Installation
+%R: jig
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1780", London 1780, p.95 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+a2a aec | f2f e3 | agf edc | Bcd cBA |\
+a2a aec | f2f e3 | agf edc | BAG A3 :|
+|:\
+EGB dcB | ceg aec | EGB dcB | edc B2e |\
+a2a aec | [f2A2][fA] [e3A3] | agf edc | BAG A3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   Turn right hands round Left hands back
+%% again .|. Lead down two Cu cast up one :|.
+%% Sett 3 & 3 top and bottom then sideways .|:
+%% Hands Six quite round :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 190
+T: Le Pulleys Allemand
+%R: reel
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1780", London 1780, p.95 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+gbgd egec | BdBG cdef |\
+gbgd egec | ((3Bcd) ((3DEF) G4 :|
+|\
+FDFA BGBd | cdef gedc |\
+BdBG egec | dBcA G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Cast off two Cu .|.
+%% up again :|. Cross
+%% over one Cu .|: Right
+%% and Left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 191
+T: The New Allemand
+%R: march, reel
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1780", London 1780, p.96 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+N: The doubled notes in bar 13 are labelled "G.Fl" (German Flute) above and "Vio." (Violin) below.
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+AA A2 | B/d/c/e/ d2 | defg | f2e2 |\
+.f.g.a2 | .g.a.b2 | agfe | d>e d2 :|
+|:\
+a2fd | dcBA | Bcde | fd d/e/f/g/ |\
+a2fd | dcBA | Bdce | d>e d2 :|
+|:\
+D2EF | G/F/G/A/ B2 | AFED | [dD][cC][BB,][AA,] |\
+D2EF | G/F/G/A/ B2 | A>FE>F | E2D2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   Cast off two Cu .|. foot it and cast up
+%% again :|. Cross over two Cu .|: Lead up the middle
+%% and cast off :|: Sett corners & not turn .|:.
+%% Lead outsides :|:.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 192
+T: Peggy of the Green
+%R: reel
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1780", London 1780, p.92 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1780
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(cd) |\
+eAeA fAeA | dBcA B2E2 |\
+eAeA fAeA | dBGB A2 :|
+|: EF |\
+GEGE dBdB | AEAE ecec |\
+eAeA fAeA | dBGB A2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right hands across round .|. Left
+%% hands back again :|. Cross over one
+%% Cu .|: Right and Left :|:
+%%endtext

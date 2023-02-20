@@ -1,0 +1,31 @@
+X: 31021
+T: COTILLION No. 13. ST. LAWRENCE SETT tune 1
+C:
+%R: reel, march
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.102 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain is clearly missing its "D.C." at its end; fixed.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[g4B4D4G,4] [g4B4D4G,4] | [g6B6D6G,6] fg | agfe dcBA | GFED C4 |\
+D4 d4 | A6 dB | cBAG FGAF | G6 H|]
+FG |\
+A2A2A2d2 | A3GE2 FG | AGFE D2^C2 | DEFG A2 FG |\
+A2A2A2d2 | A4 F2A2 | GFED FED^C | DGAB cde"^D.C."f |]
+K: Gm
+D2 |\
+G4 G4 | B2B2B2 dc | B2A2B2G2 | {^c}d4 {^C}D4 |\
+B2A2G2^F2 | G2A2B2c2 | d2c2B2A2 | d2D2d2"^D.C."^f2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance 4 and turn partners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,165 @@
+X:1
+T:Sonata XI
+C:Augusto Kühnel (1698)
+K:DM
+%%indent 1.5cm
+%%topmargin 3cm
+V:Gb clef=treble8 name=Gamba bracket=2 space=+5pt
+V:Bc clef=bass name=Basso
+%
+Q:"Preluda"
+%
+[V:Gb] [M:C] [L:1/8]
+    [f4a] [e4g] | \
+    [fd-]c [fB-]A [f2BG] T[ec]>f | \
+    [f4AF] [^f2d] Tf>g | \
+    [g4dBG] [^g2eE] Tg>a | \
+    [a2A] aA [a2dB] [adB]g |
+[V:Bc] [M:C] [L:1/8]
+    d4-"4\n2"d2 "5\n3"^c2 | \
+    da b"6"a "7"g2 "7"c2 | \
+    f4 "#"d4 | \
+    g4 "7\n#"e4 | \
+    "b"a4 "7  6"b4 |
+% bar 6
+[V:Gb] [g2cA] [gcA]f [f2BG] [fBG]e/d/ | \
+    [^c2AG] [d2AF] [d2GE] T[^cGE]>d | \
+    [dAFD]A/G/ FE/D/ ^CA e/G/F/E/ | \
+    F/E/D/E/ F/G/A/=B/ ^cA e/g/f/e/ |
+[V:Bc] "7  6"a4 "7  65"g4- | \
+    "4#\n2"g2 "6"f2 "7"e2 "7\n#"A2 | \
+    d4 "6  5"^c4 | \
+    d4 "#"A4 |
+% bar 10
+[V:Gb] dB d/e/f/g/ e/f/e/d/ c/B/A/G/ | \
+    AF D/A/=B/A/ ^G/E/D/E/ C/E/A/C/ | \
+    D/A/=B/c/ T[=BE]>A A,E A/G/^F/E/ |
+[V:Bc] B4 c4 | \
+    f2 "6+"d2 "#"e2 "6"c2 | \
+    d2 "4 #"e2 "#"A2 "6"^c2 |
+% bar 13
+[V:Gb] DA d/c/=B/A/ Gd g/f/e/d/ | \
+    cg c'/b/a/g/ f/g/f/e/ d/c/B/A/ | \
+    G/F/E/D/ C/E/D/E/ F/G/F/E/ D/C/B,/A,/ |
+[V:Bc] "#"d2 "6"^f2 g2 "6"=B2 | \
+    c2 "6"e2 f2 B2 | \
+    c4 F4 |
+% bar 16
+[V:Gb] [K:bass] G/d/g/f/ e/d/^c/B/ Aa e[fa] | \
+    [^ce][df] [A^c]G [FA]d [EG][^ce] | \
+    [DA][df] [Gdg]f [A2de]T^c2 | \
+    [D8Ad] |]
+[V:Bc] G4 "#"A2-"5   6\n#   4"A2 | \
+    "5   6\n#   4"A2-"5\n#"AG "6"F2 "6+"E2 | \
+    D2 G2 "5\n4          #"A4 | \
+    D8 |]
+%
+%%newpage
+Q:"Allemande"
+%
+[V:Gb] [M:C] [L:1/8]
+    [K:bass] d' | [d'3afd] d' T^ce' a/b/g/a/ | \
+    f/g/Tf/e/ dA D> [K:treble8] A d/e/f/g/ | \
+    [ec]>f g/c/B/c/ [K:bass] [fa]c F/a/g/f/ |
+[V:Bc] [M:C] [L:1/8]
+    d | d4 "6"^c4 | \
+    d3 A D2 d2 | \
+    c>d "6  5"e2 fc F2 |
+% bar 4
+[V:Gb] ge c/g/Tf/e/ f/a/f/e/ d> [K:treble8] A | \
+    d/e/f/g/ Te>d T[^cA]A/E/ FA/^C/ | \
+    [K:bass] d^c/e/ ^Ge/^G/ [a3e^cA] ::
+[V:Bc] c4 d4 | \
+    D2 "6  5"G2 "#"A2-"6   5\n4   #"A2 | \
+    "6   5\n4   #"A2 "6\n5"^G2 "#"A3 ::
+% bar 7
+[V:Gb] [K:treble8] e | [ecA]>e ^G/=B/e/>d/ [cA]C/D/ E/>c/_B/>c/ | \
+    [FA]d E/>G/c/>E/ D/>F/B C/>E/A/>C/ |
+[V:Bc] a | "b"a2 "6  5"^g2 ac/d/ "6  5b"e2 | \
+    "6"f2 "6"e2 "6"d2 "6"c2 |
+% bar 18
+[V:Gb]     [K:bass] B/>d/g A/>c/f/>A/ G/f/g/a/ T[fc]>e | \
+    F/>f/a E/>e/g/>^c'/ D/> [K:treble8] d/e/>f/ T[eA]>^c | \
+    dD/E/ FA [K:bass] [d'3afdAD] :|
+[V:Bc] "6"B2 "6"A2 "7"G2 "4  3"C2 | \
+    F2 "6+"E2 D2 "4  #"A2 | \
+    d4 D3 :|
+%
+%%vskip 1cm
+Q:"Corrente"
+%
+[V:Gb] [L:1/8] [M:3/4]
+    [K:treble8] d2 | [d3AFD] aTg>e | d2 Ad Tc>G | F>d E>d ^c>e | \
+    d2 [K:bass] Td3 c | B>de>f gB |
+[V:Bc] [L:1/8] [M:3/4]
+    d2 | d4 "5"^c2 | d4 a>g | "6"f2 "7"e2 "#"A2 | \
+    D2 d3 c | "5   6"B6 |
+% bar 6
+[V:Gb] A>f Gc' T[be]>c' | [f2a] F3 f | E2 e2 g>^c' | \
+    d'2 D [K:treble8] fTe>d | ^c2 A2 T=B>^g | [a6-A-] | [a4A] ::
+[V:Bc] "6"A2 "7   6"G4 | F6 | "6+"E6 | \
+    D4 "6  5"G2 | "#"A4 "#"e2 | "#"a6- | a4 ::
+% bar 13
+[V:Gb] ab>c' | [b2g] ec'b>c' | T[a3f] gTf>e | [d2B] gf Te>d | \
+    T[^c3A] GTF>E | [D3Fd] [K:bass] fTe>d |
+[V:Bc] x f2 | g2 "8    7"c4 | f6 | b2 "6    5"g4 | \
+    "#"a3 gfe | f3 fed |
+% bar 18]
+[V:Gb] [^c3ea] gTf>e | df [e3d^G] d | [e3^cA] GTF>E | \
+    Df T[e3d^A] ^c | d2 a2 e>g | [d6-fad'-] | [d4fad'] :|
+[V:Bc] "6"^c6 | d2 "6\n5"^G4 | "#"A3 GFE | \
+    D2 "5\n4    #"A4 | d4 "5"^c2 | d6- | d4 :|
+%
+%%vskip 1cm
+Q:"Sarabande"
+%
+[V:Gb] [L:1/2] [M:3/2]
+    [K:treble8] [L:1/2] [df]>e d | [^c3a] | [df]>e d | T[^c3A] | [AF]>B c |
+[V:Bc] [L:1/2] [M:3/2]
+    d'3 | "6"^c'3 | d'3 | "#"a3 | f3 |
+% bar 6
+[V:Gb] [dBFDB,]>e f | [K:bass] [cg]>f e | [F3Acf] :: [fa]>g f | [e3c'] |
+[V:Bc] B3 | "4    3"c3 | F3 :: f>e "6+"d | c3 |
+% bar 11
+[V:Gb] T[ce]>d c | [G3dg] | [K:treble8] [GB]>A G | [D2FAd] e | [df]>e d |
+[V:Bc] c>B "6+"A | G3 | g>f "6+"e | d2 "6"^c | d>"6"c "6"B |
+% bar 16
+[V:Gb] T[^c3A] | [^c2a] e | [df]>g f | [eA]>d ^c | [D3FAd] :|
+[V:Bc] "#"A3 | A2 "6"^c | d2 "7"G | "5\n4    #"A3 | D3 :|
+%
+%%newpage
+Q:"Giga"
+%
+[V:Gb] [L:1/4] [M:3/4]
+    [K:treble8] [L:1/4] d | f2 d | a2 e | f e-d | T[^c2A] a | g f-e | \
+	f2 A | B d-G |
+[V:Bc] [L:1/4] [M:3/4]
+    d | d3 | "6"^c3 | d3 | "#"A3 | "6"=B2 "6"^c | \
+    d2 a | b2 g |
+% bar 8
+[V:Gb] A c-F | G B [K:bass] e | f a-c | d f A | B d-c | \
+	[F2Acf] A | B d-A |
+[V:Bc] a2 f | g2 e | f2 c | d2 A | B2 c | \
+    F3 | B2 "6"A |
+% bar 15
+[V:Gb] [G2dg=bd'] d | c e-B | [A2^cea] c | d f-c | [B2dfb] a | \
+	[cg] c'-b | [F3-Acfa-] | [F2Acfa] ::
+[V:Bc] "#"G3 | c2 "6"B | "#"A3 | d2 "6"c | B3 | \
+    "4     3"c3 | F3- | F2 ::
+% bar 23
+[V:Gb] [K:treble8] c | A B-c | F f-e | B d-A | G e-d | T[^c2A] a | \
+	[g^c] a-e | [d2f] d |
+[V:Bc] F | F3 | f3 | b2 a | "6     5"g3 | "#"a3 | \
+    "5b"^c3 | "b"d3 |
+% bar 30
+[V:Gb] [c^F] d-A | [B2G] g | [f=B] g-d | [e2c] c | [BE] c-G | \
+    [A2F] E | F E-D |
+[V:Bc] "5b"^f3 | "#"g3 | "5b"=B3 | c3 | "5b"e3 | \
+    f2 "6"^c | d "6"^c "6+"=B |
+% bar 37
+[V:Gb] T[^C2A,] A | B d-A | G B-F | E G-^C | D E-F | \
+    [K:bass] [e2dA] T^c | [D3-Ad^fad'-] | [D2Adfad'] :|
+[V:Bc] "#"A2 "b"a | b2 a | g2 f | e2 "6"^c | \
+    d3 | "4      #"A3 | "#"D3- | D2 :|
+
+

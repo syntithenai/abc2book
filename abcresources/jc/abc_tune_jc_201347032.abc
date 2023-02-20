@@ -1,0 +1,45 @@
+X: 1
+T: Tunbridge Walks
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.82 #112 (106)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.343 "G g 4"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The tune versions differ only in bar 10.  The dances are identical, but the descriptions are worded somewhat differently.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+FDB A2d | c3 ABc |\
+dcB AFD | E3- E2A |\
+FDB A2d | c3 ABc |\
+dAd c/d/ec | d3 D2 |] E |\
+CA,E A2G |
+"^*)"FDF B2c & FDB ^A2c |\
+dcB B2^A | B3 c3 |\
+dcB AGF | E/F/G/F/E/D/ C2A |\
+FDB A2d | c3 ABc |\
+dAd c/d/ec | d3 D2 |]
+%%text *) up-stems: DMDfD; down-stems: CCDM1
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The two first Cu. all four Hands half round and turn S. then
+%% back again to your own Places. Cast off and cross up to the Top
+%% and turn Hands; then 1st Man change with the 2d Wo. and 1st
+%% Wo. with the 2d Man; then Right and Left quite round, 'till
+%% the 1st Cu. comes into the 2d Cu. Place.
+%% [CCDM1]
+%%endtext
+%%sep 1 8 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% All four hands half round and turn single, and back again to your own places.  Cast off and cross up
+%% to the top and turn hands: The first man change with the 2. woman, the first woman do the same with
+%% the 2. man; then right and left-hands quite round till the first Couple comes into the second Couple's
+%% place.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

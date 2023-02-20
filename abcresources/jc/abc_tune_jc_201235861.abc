@@ -1,0 +1,57 @@
+X: 21421
+T: HANDEL'S CELEBRATED "PASTORAL SYMPHONY"
+C: G. F. Handel
+O: From "The Messiah."
+Q: "Slow and soft."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.142 (and p.143 and p.144 #1)
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 12/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff layout arranged for small scale (5 staffs, 6-7 bars per staff).
+V: 1 staves=3
+[|\
+f2g a2b c'3 d'3 | c'>ba Tb3 a3 (b/c'/d'2) |\
+c'>ba b3 a3- a2g | a>bc' b>c'f e3 c'2g |\
+a2g a>gf g3 (a/b/c'2) | a2(g//a//b/) a3 g2c c'3- |
+c'3 b3- b>ag a2f | g2f g2a b2f b3 |\
+b3 a>gf g2e c'3- | c'>ba b>ag f3 b/c'/d'2 |\
+c'>ba a2g f6 | c2d e2f g3 a3 |
+b>c'b a>ga g3 a3 | b>c'b a>ga g3 g3- |\
+g>ag g2g ^c'3 e'3 | g>ag f2e f3 f3 |\
+f>gf f2f =b3 d'3 | f>gf e2d e3 a3 |
+g>fe f>ed e3 a3 | g>fe f>ed c'>=ba g2f |\
+e3 d3 c3 e3 | f2g a2b c'3 d'3 |\
+c'>ba b3 a3 (b/c'/d'2) | c'>ba b3 a3- a2g |\
+a>bc' b>c'a g3 c'2g |
+a2g a>gf g3 (a/b/c'2) |\
+a2(e//f//g/) a3 g2c c'3- | c'3 b3- b>ag a2f |\
+g2f g2a b2f b3- | b3 a>gf g2e c'3- |\
+c'>ba b>ag f3 (b/c'/d'2) | c'>ba a2g Hf2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voices 2, 3 preserve original staff layout (8 staffs with 4 bars each).
+V: 2
+[|
+f3- f2g a3 b3 | a>gf g3 f3 (g/a/b2) | a>gf g3 f3- f2e | f>ga g>af e2d e>de |
+f2e f>ed e2d c3 | f2(e//f//g/) f3 e2c zzc | d2c d2e f2c f2f | f3 _e3- e2d g3 |
+g3 f3- f2c a3- | a>gf g>fe f3 g/a/b2 | a>gf f2e f6 | c3- c2d e3 f3 |
+g>ag f>ef e3 f3 | g>ag f>ef e3 e3- | e>fe e2e g6 | ^c2e d2c d3 d3 |
+d>ed d2d f3- f3 | =B2d c2B c3 f3 | e>dc d>c=B c3 f3 | e>dc d>c=B e2f e2d |
+c3 =B3 c6 | f3- f2g a3 b3 | a>gf g3 f3 (g/a/b2) | a>gf g3 f3- f2e |
+f>ga g>af e2d e>de | f2e f>ed e2d c3 | f2(e//f//g/) f3 e2c z2c | d2c d2e f2c f2f |
+f3 _e3- e2d g3- | g3 f3- (f2c) a3- | a>gf g>fe f3 (g/a/b2) | a>gf f2e Hf2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3
+[|
+F12- | F12- | F6 F3- F2c | F6 [c6-C6-] |
+[c12-C12-] | [c6-C6-] [c3C3] zzA | B3 G3 F3 zzd | _e3 c3 B3 zzG |
+A2G A2B c6 | [c6C6] F6 | F2B c2[cC] F2G A2B | c12- |
+c12- | c12 | B6 A6 | A6 d2=c =B2A |
+G12- G6 c6- | c6- c6- | c6 [c2C2]D E2F |
+G3 G3 c2_B A2G | F12- | F12- | F6 F3 F2c |
+F6 [c6-C6-] | [c12-C12-] | [c6C6] [c3C3] z2A | B3 G3 F3 z2d |
+_e3 c3 B3 z2G | A2G A2B c6 | [c6C6] F6 | F2B c2[cC] HF2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

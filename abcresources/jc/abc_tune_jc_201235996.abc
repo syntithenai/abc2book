@@ -1,0 +1,25 @@
+X: 2152
+T: Sir John Henderson's    Jigg
+%R: jig
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.15 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 8-bar lines.
+V: 1 staves=2
+c |\
+TB2G- GBG | dBG Bcd | efg dBd | ecA A2c ||\
+TB2G- GBG | dBG Bcd | efg dBg | dBG G2 :|
+d |\
+gdg gbg | gbg afd | efg dBd | ecA A2Tg ||\
+gdg gbg | gbg afd | efg dBg | dBG G2d ||
+gdg gbg | gbg afd | efg dBd | ecA A2f ||\
+gdg bag | Tf>ed afd | efg dBg dBG G2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | g3 G3 | g3 g3 | c'3 b3 | a3 a3 || g3 g3 | g3b3 | c'3 d'3 |
+g3 g2 :| z | g3 g3 | g3d3 | c3 B3 | A3 A3 || g3 g3 | g3 d3 | c3 d3 | g3 G3 ||
+g3 g3 | g3d3 | c3 B3 | A3 f3 || g3 g3 | d3 d3 | c3 d3 | g3 G2 |]

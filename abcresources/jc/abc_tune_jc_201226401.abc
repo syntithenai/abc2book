@@ -1,0 +1,29 @@
+X: 10251
+T: GREEN HILLS OF TYROL
+O: From the opera of "Guillaume Tell."
+C: Rossini.
+Q: "Allegretto."
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.25 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The segno and D.C. symbols are redundant.
+M: 3/4
+L: 1/8
+K: G
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!|: !p!DGA |\
+"^>"B3GBc | d3eBe | (dc)AFAe | (dB) GD GA |\
+B3GBc | d3eBe | (dc) AD FA | G2z2 H|]\
+!f!G2 |\
+"_>"g4fe | (ed).dz"_>"e2 | (dcc)zd2 | (cB)BzG2 |
+g4 (fe) | (ed)dze2 | (d^c).cz BA | d2zAfA |\
+e3A^cA | d3AfA | e3A^cA | (de^cede) |\
+(=cdBdAd) | G2!segno!z2 "^D.C.":|
+FGA |\
+B3FBF | B2zcBA | G3DBD | G2zFGA |\
+B3FBF | B2zcBA | G3DGD | G4G2 !f!|\
+g4fe | (ed)dz"_>"e2 | (dc)cz"_>"d2 | (cB)B2G2 |\
+"_>"g4fe | (ed)d2e2 | (dc)c2f2 | g4z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

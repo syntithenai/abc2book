@@ -1,0 +1,68 @@
+
+X: 1
+T: Ivanica    [C]
+T: Vie se vie
+R: lesnoto
+O: Bulgaria
+Z: John Chambers <jc:trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: C
+%%text N.B.: No extra measures!
+P: instr:
+|| "C"[EC][FD][GE] [GE][FD] [E2C2] | [GE][AF][BG] [BG][AF] [G2E2] |\
+  "G"[BG][cA][dB] "D"[dB][cA] [c/A/][B/G/][c/A/][d/B/] | "G"[B7G2] |
+  "G"[BG][cA][dB] [dB][cA] [cA][BG] | "G7"[B2G2][cA] [BG][AF] [AF][GE] |\
+  "F"[A2F2][BG] "G7"[GE][FD] [FD][EC] | "C"[E7C7]  ||
+P: verse:
+|| "F"[A2c2][Ac] [G2B2] [A2c2] | "G7"[B2d2][Ac] [G2B2] [F2A2] | "C"[E2G2][FA] "F"[A2c2] [Ac][GB] | "G"[G7B7] |
+w: 1.~Vi-*e se vi-e o-ro ma-*ke-don-*sko,
+w: 2.~Si-ot na-rod se na-so-bral ma-*ke-don-*ski,
+w: 3.~Da li ge-da\vs, mi-lo Sko-pje, da* li slu-*\vsa\vs,
+| "F"[A2c2][Ac] [G2B2] [A2c2] | "G"[B2d2][Ac] [G2B2] [F2A2] | "C"[E3G3] "G"[FA][EG] [DF][CE]  | "C"[C7E2] ||
+w: Go-lem so-bor mi se so-bral kraj Var-*da-*rot.
+w: Pre-gr-na-til brat-ski da se raz-ve-*se-*lat.
+w: Kak-va Ma-ke-don-ska pes-na se pe-***e.
+P: chorus:
+|: "Am"[c2e2][Bd] [A2c2] [A2c2] | "G"[B2d2][Ac] [G4B4] | "Dm"[A3c3] "(G)"[G2B2] "F"[A2c2] | "G"[FA][EG][FA] "C"[E4G4] |
+w: O-*ra i pes-*na, son-ce i lju-**bov,
+| "F"[A2c2][GB] [F2A2] [F2A2] | "G"[G2B2][FA] "C"[E4G4] | "G"[F2A2][FA] [EG][FA] [D2F2] | "C"[C7E7] :|
+w: to-*va e na-*\vsa Ma-ke-do-*ni-ja.
+%
+%%wordsfont Times-Roman 12
+W: 1. A Macedonian dance turns and twines, many people are by the Vardar River
+W: 2. The entire Macedonian nation comes together to rejoice.
+W: 3. Did you see, dear Skopje, did you hear what kind of Macedonian song has been sung?
+W: chorus: Dance and song, sun and love, this is our Macedonia.
+N:
+N: Translation from Richard Geisler.
+N: Music combined from 5 different transcriptions.
+N: The cool Bm at start of chorus from Patrick Yacono.
+
+%%sep 1 1 500
+
+X: 1
+T: Ivanica    [D]
+T: Vie se vie
+R: lesnoto
+O: Bulgaria
+Z: John Chambers <jc:trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: D
+%%text N.B.: No extra measures!
+"^instr:"\
+||\
+"D"[FD][GE][AF] [AF][GE] [F2D] | [AF][BG][cA] [cA][BG] [A2F] |\
+"A"[cA][dB][ec] "E"[ec][dB] [d/B][c/A][d/B][e/c] | "A"[c7A] |\
+"A"[cA][dB][ec] [ec][dB] [dB][cA] | "A7"[c2A][dB] [cA][BG] [BG][AF] |\
+"G"[B2G][cA] "A7"[AF][GE] [GE][FD] | "D"[F7D]  ||
+"^vocal:"\
+||\
+"G"[B2d][Bd] [A2c] [B2d] | "A7"[c2e][Bd] [A2c] [G2B] | "D"[F2A][GB] "G"[B2d] [Bd][Ac] | "A"[A7c] |\
+"G"[B2d][Bd] [A2c] [B2d] | "A"[c2e][Bd] [A2c] [G2B] | "D"[F3A] "A"[GB][FA] [EG][DF]  | "D"[D7F] ||
+|:\
+"Bm"[d2f][ce] [B2d] [B2d] | "A"[c2e][Bd] [A4c] |\
+"Em"[B3d] "(A)"[A2c] "G"[B2d] | "A"[GB][FA][GB] "D"[F4A] |\
+"G"[B2d][Ac] [G2B] [G2B] | "A"[A2c][GB] "D"[F4A] |\
+"A"[G2B][GB] [FA][GB] [E2G] | "D"[D7F] :|

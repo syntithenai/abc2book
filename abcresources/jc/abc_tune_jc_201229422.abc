@@ -1,0 +1,22 @@
+X: 12311
+T: the Shepherds Pipe % by Mr Oswald
+C: James Oswald
+%R: air, waltz
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.33 #1 (after top 2 staves continued from p.30)
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Dot added to g note in bar 7.
+M: 3/4
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"TB>A |\
+G4 A2 | {c}TB3 AG2 | g4 f2 | e3 f {ef}g2 |\
+d2(c>B)(A>c) | {c}B3 A (B/A/G) | g3 e{e}Td>B | A4 TB>A |
+G4 A2 | TB3 A (B/A/G) | (A2B2)d2 | e4 (d/e/)f |\
+g3 aba | g>ag{f}ed>B | (A<B)d2d>e | d4 :|
+|: g>f |\
+{f2}e4 d2 | B2d2e2 |(g>a) (Ta3g/a/) | b3 a (g/a/)b |\
+a3 g (e/g/)a | g3 e (d/e/)g | e3 d (e/d/c/B/) | A4 (d>c) |
+TB3 ABG | {f2}g4 (Tf>e) | (d>e)(d>B)(TA>G) | E4 b>a |\
+g4 b>a | (g>e)(dB)(TA>G) | (D<E)G2(G>A) | G4 :|

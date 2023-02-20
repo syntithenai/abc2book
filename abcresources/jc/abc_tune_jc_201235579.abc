@@ -1,0 +1,29 @@
+X: 21232
+T: JOHN O' BADENYON
+O: Scottish air.
+Q: "Slow."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.123 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+B>AF>A B>AFc | d>ed>B A3d |\
+B<Bd>e f>ed>A | B<Bd>e f3a |\
+b>fa>e f>de>B | d>AB>F d3e |\
+f>de>B d>Ad>F | E<EF>A B3 |]
+a |\
+b>af>a b>af>b | a>fe>f a3f |\
+b>af>a b>af>d | B<Bd>e f3a |\
+b>fa>e f>de>B | d>AB>F d3e |\
+f>de>B d>Ad>F | E<EF>A B3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The Rev. Mr. Skinner's song,
+%% beginning "When first I came to be a man,"
+%% was written for the above air.
+%%endtext
+%%sep 1 1 300

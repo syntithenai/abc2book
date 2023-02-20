@@ -1,0 +1,29 @@
+X:0203
+T:The Glasgow Highlanders
+P:The Glasgow Highlanders
+C:Traditional
+R:Strathspey (8x32)
+B:RSCDS 2-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+V:1
+%%staves (1 2)
+[V:1] "D"D>E"Bm"F>G "A"A2 [A2E2C2]|"A"A>c"D"d>e "D"f2 [a2d2]|\
+[V:1]      "A7"g>e"D"f>d "A"e>c"G"d>B|"A"A>B"D"A>F "Em"E>G"A"[FC]>E|
+[V:1] "D"D>E"Bm"F>G  "A"A2 [A2E2C2]|A>c"D"d>e   f2 a2|\
+[V:1]      "A7"g>e"D"f>d "A"e2 [a2c2]|"D"[dA]>A"A7"B>c "Bm"d>e"A7"f>g||
+[V:1] "D"[a2d2] "A7"[g2c2] "D"[f7/2d7/2] e/|"Bm"d>f"D"e>d "G"B4|\
+[V:1]      "Em"g>e"D"f>d "A"e2 "E7"d2|"A"(3cfe "A7"(3dcB "D"A2-"A"A2|
+[V:1] "D"a2 "A7"g2 "D"f7/2 "F#7"e/|"Bm"d>fe>d "G"B4|\
+[V:1]      "G"g>e"D"f>d "A7"e2 a2|"A7"A2 B>c "D"d4|]
+%V:2
+%[V:2]    x2     x6                |   x2    A2     z2 A2    |\
+%[V:2]          A8                    |   x8                        |
+%[V:2]    x2     D3/2x/  z2  x2     |A2    A3/2x/z2 A2|\
+%[V:2]          A6               A2   |   x8                          ||
+%[V:2]     A2         A2        A2    x2    |    F2    F2     G4|\
+%[V:2]          G2    A2     A2    ^G2|   A2    x6          |
+%[V:2]    z>AB>c       d7/2      x/|    F2 F2     G4|\
+%[V:2]         G2    A2      B2 A2|    x2 G2     F4|]

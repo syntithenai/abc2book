@@ -1,0 +1,43 @@
+X: 1
+T: Mr Staggin's Jigg
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.100 #135 (199)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.91 "I 4"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The only tune differences are that DMDfD lacks the fg notes in bar 3, and the the B in bar 8 has no accidental.
+N: The dances are the same except that DMDfD has the Honour+forward&back intro.
+M: 6/4
+L: 1/4
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f/g/ |\
+(a<f)a (g<e)g | f>ed ^c2d | e3 A2f/g/ |\
+(a<f)a (g<e)g | f>ed ^c>=B^c | d3 D2 |]
+E |\
+F>GA GEC | F>GA GA=B | c3 E3 |\
+F>GA =B>^cd | ^c>de e>d^c | d3 D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man cast off into the 2d Place, and then the 3d Man once round,
+%% then stand still in the 2d Place 'till his Wo. do the like on her Side,
+%% then cast off into the 1st Place, the 1st and 2d Men go round each other
+%% Back to Back, their two We. doing the same, then Back to Back with
+%% your own Wo. and cast off into the 2d Place. do this to the last.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% Honour to the Presence, then to your wo. Lead up forward and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. man cast off into the man's place, and turn the 3. man once round, then stand still in the 2.
+%% place till his wo. do the like on her side, then cast off into the 1. place, the 1. and 2. man go round
+%% each other back to back, their two we. doing the same, then back to back with your own wo. and cast
+%% off into the 2. place. Do this over to the end.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

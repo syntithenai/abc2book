@@ -1,0 +1,17 @@
+X: 1
+T: Jump Josie   [G]
+C:
+R: waltz
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+Q: "slow"
+B2 |\
+"G"d4B2 | d4B2 | AG-G4 | z4G2 | "C"E4F2 | G4E2 | "G"D6 | "(D7)"z4D2 |\
+"G"G4D2 | G4A2 | Bd-d4 | z2G2A2 | "G"B6 | "D7"A6 | "G"G6- | G2z4 |]
+Q: "faster"
+M: C
+[|\
+| "G"G2GG GGGG | B2A2 B2d2 | "G"G2GG GGGG | "Am"A2G2 "D7"E2d2 \
+| "G"G2GG GGGG | B2A2 B2d2 | "D7"d3 d B2A2 | "G"G8 |]

@@ -1,0 +1,29 @@
+X: 1
+T: Roger's Wish
+%R: reel+minuet
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (109)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the dance directions.
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D2d2 d2cB | AGFE D3E | FGAB c3d | cBAG F4 :: F2f2 f2ed | ^c2de A3A |
+B2^G2 ABcd | e2E2 A4 | A2BA GBAG | F2D2 ^c3e | f2^c2 d2GB | AGFE D4 :|[K:D][M:3/4]
+|:\
+fed2A2 | TF4E2 | D2g2f2 | e>de4 | fdecdB | ^G2B2d2 | c2TB4 | A4 :|
+|: A2e2g2 | A2d2f2 | A2g2f2 | (f2e2)A2 | G2F2=c2 | B2c2d2 | g2Te4 | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Note Each Strain is to be play'd twice over
+%%begintext align
+%% The 1st Cu. back to back with 2d Cu. and turn .| The 2d Cu. do the
+%% same with the 1st Cu :| The 1st Cu. cross over and half Figure thro
+%% the 2d Cu. and turn .| Lead thro the 3d Cu. and cast up in the 2d
+%% Cu. Place and turn :| The 1st Man and 2d Wo. Dance the Minuet
+%% Step .| 1st Wo. and 2d Man do the same :| The 1st and 2d Cu. Hands
+%% round into their Places .| The 1st Man lead his Partner round into
+%% the 2d Cu. Place
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,30 @@
+X: 44
+T: Huzza
+T: Longways for as many as will.
+%R: reel
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.22
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2th Strain has initial repeat but no final repeat; fixed to fit the dance.
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+defg a2a2 | b2a2 a4 | b4 a2g2 | agfe d4 |\
+defg f2A2 | ABcd c2F2 | FGA2 ABc2 | A2G2 F4 :|
+|:\
+FGAB c2F2 | EFG2 G4 | B4 A2D2 | ^CDE2 E4 |\
+AB^cd e2G2 | F2de f2A2 | G2ba gfed | e2d^c d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu foots it & turns .| first Cu. cross over
+%% & half figure at top :| The 1st Man goes round the 3d
+%% Man on the right hand side, 1st Wo. does the same at the
+%% same time round the 2d Wo. 1st Cu. turns in the
+%% 2d Cu. Place .| The 1st Man figures round the 3d
+%% Wo. 1st Wo. at the same Time figures round the
+%% 2d Man and turn again in the 2d Cu. Place.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

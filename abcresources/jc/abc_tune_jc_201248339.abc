@@ -1,0 +1,26 @@
+X:1
+T:Atholl Highlanders  "rpband"
+M:6/8
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+|: {g}c/4d3/4 | \
+{gef}e3{gef}e3/2c/2{d}A | \
+{gef}e3/2c/2{d}A{g}B3/2c/2d |
+{gef}e3{gef}e3/2c/2{d}A | \
+{g}B3/2c/2d{gcd}c3/2B/2{G}A | \
+{gef}e3{gef}e3/2c/2{d}A |
+{gef}e3/2c/2{d}A{g}B3/2c/2d | \
+{g}c/2a3/2e{g}f3/2e/2d | \
+{g}c/2d3/2{e}B{G}A2 ::
+e | \
+{g}A3/2{d}c/2e{g}A3/2{d}c/2e | \
+{g}B3/2d/2f{g}B3/2d/2f | \
+{g}A3/2{d}c/2e{g}A3/2{d}c/2e |
+{g}B3/2c/2d{gcd}c3/2B/2{G}A | \
+{g}A3/2{d}c/2e{g}A3/2{d}c/2e | \
+{g}B3/2d/2f{g}B3/2d/2f |
+{g}c/2a3/2e{g}f3/2e/2d | \
+{g}c/2d3/2{e}B{G}A2 :|

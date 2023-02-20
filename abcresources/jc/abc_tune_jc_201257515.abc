@@ -1,0 +1,28 @@
+X: 1
+T: Buford's March
+T: Jocky was a dowdy Lad
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.301 "D d"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Handwritten at bottom: Named "Buford's March" or, "the Private Wedding' in the 12th Edition 1703 
+M: C|
+L: 1/8
+K: Cm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+(ec) (eg) (fd) =B2 | c2 (c/d/e) G3 c |\
+(BG) (FE) F2 (F/G/A) | G2 =B2 c4 |\
+(ec) (eg) b3 g | f>g (f/g/) (f/d/) B3 B |
+c2 BG (B/c/) (B/G/) FB | (c/B/) (A/G/) (F/G/F/E/) E3 G |\
+(GB) (Be) B3 A | (FA) (cA) F3 B |\
+(GE) e>f (g/f/)(g/a/) g>a | (gf/e/) d>c c4 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1. man goes round the 3. wo. and the 1. wo. goes round the 2. man, and turn your Partner in the 2. cu.
+%% place, then lead up toward the 2. cu. and lead through the 3. cu. then cast up and go right and left with
+%% the 3. cu. then go the whole Figure through the 2. cu. and right and left quite round.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

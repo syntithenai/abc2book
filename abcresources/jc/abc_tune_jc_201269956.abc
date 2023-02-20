@@ -1,0 +1,63 @@
+X: 0
+T: Draper's Gardens
+%T: the Margravine's Waltz
+O: Playford 1721
+B: Playford 1721
+B: Barnes v.1 p.30
+R: waltz
+K:
+
+
+X: 1
+P: Draper's Gardens   (F)  (the Margravine's Waltz)
+B: Barnes p.30
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+|: C2 \
+| "F"F2 F2 F2 | A2 A2 A2 | c2 c2 c2 | "Bb"d4 de \
+| f2 e2 d2 | "F"c2 B2 A2 | "C7"G2 F2 E2 | "F"F4 :|
+AB \
+| "F"c2 c2 dc | "Gm"BA G2 GA | "C7"B2 B2 cB | "F"AG F2 AB \
+| c2 c2 f2 | "Bb"d4 f2 | "G7"ga gf ed | "C"c4 ||
+"C7"C2 \
+| "F"C2 F2 A2 | "C7"C2 G2 B2 | "F"C2 A2 c2 | "Bb"B4 AB \
+| "F"c2 A2 F2 | "Bb"D4 BA | "C7"G2 F2 E2 | "F"F4 |]
+
+
+X: 2
+P: Draper's Gardens   [G]  (the Margravine's Waltz)
+B: Barnes p.30
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+|: D2 \
+| "G"G2 G2 G2 | B2 B2 B2 | d2 d2 d2 | "C"e4 ef \
+| g2 f2 e2 | "G"d2 c2 B2 | "D7"A2 G2 F2 | "G"G4 :|
+Bc \
+| "G"d2 d2 ed | "Am"cB A2 AB | "D7"c2 c2 dc | "G"BA G2 Bc \
+| d2 d2 g2 | "C"e4 g2 | "A7"ab ag fe | "D"d4 ||
+"D7"D2 \
+| "G"D2 G2 B2 | "D7"D2 A2 c2 | "G"D2 B2 d2 | "C"c4 Bc \
+| "G"d2 B2 G2 | "C"E4 cB | "D7"A2 G2 F2 | "G"G4 |]
+
+
+X: 3
+P: Draper's Gardens   (A)  (the Margravine's Waltz)
+B: Barnes p.30
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+|: E2 \
+| "A"A2 A2 A2 | c2 c2 c2 | e2 e2 e2 | "D"f4 fg \
+| a2 g2 f2 | "A"e2 d2 c2 | "E7"B2 A2 G2 | "A"A4 :|
+cd \
+| "A"e2 e2 fe | "Bm"dc B2 Bc | "E7"d2 d2 ed | "A"cB A2 cd \
+| e2 e2 a2 | "D"f4 a2 | "B7"bc' ba gf | "E"e4 ||
+"E7"E2 \
+| "A"E2 A2 c2 | "E7"E2 B2 d2 | "A"E2 c2 e2 | "D"d4 cd \
+| "A"e2 c2 A2 | "D"F4 dc | "E7"B2 A2 G2 | "A"A4 |]
+

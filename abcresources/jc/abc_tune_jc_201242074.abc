@@ -1,0 +1,27 @@
+X: 503
+T: MAJOR MOLLE
+C: ANDw GOW
+R: Reel
+B: Glen Collection p.50 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: Bm
+%
+V: 1
+|:\
+Bf-f>e dcB^A | Bf-f>e Td2c2 | Bf-f>^g (a/g/f/g/) af | ecAc {f}e2dc :|
+B>F F/F/F dBc^A | B>F F/F/F ~d2cd | B>F F/F/F dBce | (cAA)>e {f}e2dc |
+B>F F/F/F dBc^A | B>F F/F/F ~d2cd | Bf-f>^g (a/g/f/g/) af | ecAc {f}e2dc |]
+%
+V: 2
+|:\
+b2[f'2d'2] f2[d'2b2] | b2[f'2d'2] f2[f'2d'2] |
+b2[d'2b2] [c'2a2][c'2a2] | a2[e'2c'2] e2[e'2c'2] :|
+[d'2b2][d'2b2] [d'2b2][e'2f2] | b2d'2 f2[f'2d'2] |
+b2[d'2b2] [d'2b2]f2 | a2[e'2c'2] e2[c'2a2] |
+[d'2b2][d'2b2] [d'2b2][e'2f2] | b2d'2 f2[f'2d'2] |
+b2[d'2b2] [c'2a2][c'2a2] | a2[e'2c'2] e2[e'2c'2] |]

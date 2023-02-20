@@ -1,0 +1,33 @@
+X:383
+T:Archie MacFarlane
+C:Joe Buchanan's Scottish Tome - Page 327.0
+I:327 0
+R:March
+Z:Carl Allison
+L:1/16
+M:2/4
+K:A
+"A" e>aa>f "C#m"B>cc>A |  "F#m" A2c>e "D"f>Af2 | \
+"A"e>a"E"a>f "F#m"e2c>e | "Bm" f2B2 "E" a>f"E7dim"e<c |
+e2 | "A" A>BB>A "Bm" B>cc>A | "A" A2"A7dim"c>e "D" f>Af2 | \
+"A" e>aa>f "F#mdim" e2c>e | "E" B2<"E7dim"B2 "A" A2 :|
+"A" A>aa>=g "G" g>a"Ddim"a>A | "A" A2"A7dim">ce "D" f>Af2 | \
+"A" e>a"Edim"a>f "F#m" e2c>e | "Bm" f2B2 "E" a>f"E7dim"e<c |
+"A" A>aa>=g "G" g>a"Ddim"a>A | "A" A2"A7dim">ce "D" f>Af2 | \
+"A" e>aa>f "F#mdim" e2c>"C#mdim"e | "E7" B2<B2 "A" A2 e2 |
+"A" A>aa>=g "G" g>a"Ddim"a>A | "A" A2"A7dim"c<e "D" f>Af2 | \
+"A" e>a"Edim"a>f "F#m" e2>ce | "Bm" f2B2 "E" a>f"E7"e<c |
+"A" A>aa>=g "Bm" g>aa>A | "A" A2"A7dim">ce "D"f>A"Ddim"f2 | \
+"A" e>aa>f "F#mdim" e2>ce | "E" B2"E7dim"B2 "A" A2 |]
+e2 | "F#m" A>ce>A "D" d>fA>c | "A"A>aa>f "F#m"e2a2 | \
+"A" A>a"Edim"a>f "F#m" e2c<e | "Bm" f2B2 "E" a>f"E7dim"e<c |
+"A" A>ce>A "Bm" d>fA>c | "A7dim" e>Aa>f "D" e2"Ddim"a2 | \
+"Bm" A>aa>f "C#m" e2c<e | "E7" B2<B2 "A" A2 :|
+"E7"e2 | "A" A2E>A "G"=g>Af>A | "Adim" A2c>e "Bm" f>Af2 | \
+"A" e>a"Edim"a>f "F#m" e2c>e | "Bm" f2B2 "E" a>f"E7dim"e<c |
+"A" A2E<C "G" =g>Af>A | "A" A2"A7dim"c<e "D" f>A"Ddim"f2 | \
+"A" e>aa>f "F#m" e2c>e | "E7" B2<B2 "A" A2 "E7" e2 |
+"A" A2E>A "G"=g>Af>A | "Adim" A2c>e "Bm" f>Af2 | \
+"A" e>a"Edim"a>f "F#m" e2c>e | "Bm" f2B2 "E" a>f"E7dim"e<c |
+"F#m" A>ce>A "D" d>f"F#m"A>c | "A"A>aa>f "Edim"e2a2 | \
+"F#m" A>a"Edim"a>f "Bm" e2c<"B7dim"e | "E" f2"E7"B2 "A"A2 |]

@@ -1,0 +1,32 @@
+X: 12
+T: Frisk it
+%R: reel
+B: Kitty Bridges "Collection of Country Dances 1745" p.12
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-bridges1745
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added missing bar line between bars 7, 8; removed extra bar line from last bar.
+N: Bar 10 has an extra quarter note; not fixed. (The AGFE should probably be 16th notes.)
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B2cB A2BA | G2AF GDB,G, |\
+(3BcB (3ABA (3GAG (3FGF | EAAF G2G,2 :|
+GBAc Bdce | d2ed/^c/ d2D2 |\
+gb2a/g/ fa2g/f/ | edA^c d2"D.C."D2 |]
+|:\
+g2a2 bgd2 | gdBG AGFE D2 |\
+g2a2 bgdg | {g}fe/d/ ed/^c/ d2D2 :|
+|:\
+GccB dBe2 | BA/B/ c/B/A/G/ A/G/F/E/ D2 |\
+GccB dBe2 | BA/B/ c/B/A/B/ G2G,2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center Frisk it
+%%begintext align
+%%   Set to y.r P.r cast off & turn, set again cast off
+%% another Coup.l & turn, lead up to the top, set, cast off, right
+%% & left w.th 3d Coup.l, Hands across w.th the 2d & 3d Woman
+%% then w.th the 2d and 3d Man, Then set to your P.r
+%% cast round Corners and turn her in the Middle.
+%%endtext

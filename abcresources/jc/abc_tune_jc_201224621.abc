@@ -1,0 +1,29 @@
+X: 85
+T: Day's Whim
+T: Longways for as many as will.
+%R: minuet
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.43
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the dance instructions.
+N: The tune should be played twice through (AABAAB) for once through the dance.
+M: 3/2
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+ABcd e2e2 e4 | defe dcBA ^G2E2 | A2AG F2ED E4 | E2A2 ABcd B2A2 :|
+cdef g2g2 g4 | gagf efed c2G2 | c2G2 G2FG E2DE | C2c2 BcdB c4 |
+efga gfed c4 | defe d2c2 B4 | cdef e2d2 e4 | E2A2 ABcd B2A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center First Strain twice, last but once.
+%%begintext align
+%% The 1st Man turns the 2d Wo. with his Right
+%% Hand .| 1st Wo. does the same with the 2d Man
+%% :| the 1st Cu. cross over and half figure at Top .|
+%% # The 1st and 2d Cu. Hands across half round
+%% with their Right Hands .| Back again with their
+%% Left :| 1st and 2d Cu. Right and Left all round.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

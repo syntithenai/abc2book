@@ -1,0 +1,24 @@
+X: 11083
+T: SALLY'S WALTZ
+C: Bob McQuillen 2 Aug 2000
+B: Bob's Note Book 11 #83
+R: waltz
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+AG \
+| "D"F2 D2 FA | d3 e fd | "G"B2 G2 B2 | g4 Bd | "A7"c2 ef ed | c2 A2 FA | "D"B2 A3 d | f4 AG |
+| "D"F2 D2 FA | d3 e fd | "G"B2 G2 B2 | g4 Bd | "A7"c2 ef ed | c2 f3 e | "D"d2 dcde | d4 :|
+|: fg \
+| "D"af d2 de | fd A2 ed | "G"c2 B3 A | B4 ef | "A7"g2 ef ed | cB A2 FA | "D"B2 A2 de | f4 fg |
+| "D"af d2 de | fd A2 ed | "G"c2 B3 A | B4 ag | "D"fd A2 g2 | "A7"f3 A ce | "D"d3 A FA | D4 :|
+%%begintext align
+%% Sally Freund is truly a
+%% dear friend of many years. She directs the Elderhostel
+%% Program during Dance Week at Augusta. She schedules a
+%% yearly mini-concert for me to come and tell a few stories
+%% and play a few tunes on the accordion. It's such a joy to do
+%% this and I look forward to it so much, Sally; it's always a
+%% pleasure to be there with you.
+%%endtext

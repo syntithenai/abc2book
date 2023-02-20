@@ -1,0 +1,23 @@
+X: 11682
+T: KILWINNING STEEPLE
+C: Reel.--By the late Hugh Gilmour.
+P: Printed for the first time.
+%R: reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.168 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g |\
+a2(ec) defg | afec dBBg |\
+a2(ec) defg | afec A2A :|\
+B |\
+{d}c2(cA) d2(dB) | efec dBBd |
+{d}c2(cA) defg | afec A2(AB) |\
+c2(cA) d2(dB) | efec dBBd |\
+ceae defg | afec A2A |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,27 @@
+
+X: 1
+T: Sikon
+T: Opa Nina Nai
+O: Greek
+R:
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+L: 1/16
+M: 4/4
+K: C
+%%scale 0.75
+% %continueall
+[| [GE][AF][BG][AF] [B2G2][AF][GE] [FD][GE][AF][BG] [G2C2][FD][EC] |\
+   [EC][FD][GE][FD] [G2E2][FD][EC] [GE][FD][FD][EC] [E2C2]z2 ||
+   [Ge][Af][Bg][Af] [B2g2][Af][Ge] [Fd][Ge][Af][Bg] [E2c2][Fd][Ec] |\
+   [Ec][Fd][Ge][Fd] [G2e2][Fd][Ec] [Ge][Fd][Fd][Ec] [E4-c4-] ||
+%
+"^Song"|| .[c2E2] Bc c2c2 (3c2c2c2 c3z | z2Bc d2B2 c2A2 G3z ||
+w: ~ Si-ko ho-rep-se kik-li mu, Na se dho na sek ha-ro,
+%
+|: (EF)G2 G2(FE) (DE)(FG) E2z2 | CD(ED) E2(DC) ED(DC) C2z2 :|
+w: Tsif-*te-te-li* tur-*ki-*ko, Ni-na nai* yav-rum* ni-na nai* nai.
+%
+"^Chorus"|:\
+   [GE][GE][GE][GE] [GE][GE][G2E2] [DB,][EC]([FD][GE]) [E2C2]z2 |\
+   [EC][FD]([GE][FD]) [G2E2]([FD][EC]) [GE][FD]([FD][EC]) [E2C2]z2 :|
+w: Ho-pa ni-na ni-na nai, Ni-na nai* nai, Ni-na nai* yav-rum* ni-na nai* nai.

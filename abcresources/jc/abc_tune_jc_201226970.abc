@@ -1,0 +1,54 @@
+X: 10541
+T: There was a little Woman
+T: Duetto
+C:
+Q: "Allegro Moderato"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.54-56
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: In bar 13, the beamed V:2 notes were 8th notes; changed to 16th notes to match the V:1 rhythm.
+M: 2/4
+L: 1/16
+K: G
+%%continueall
+[V:1] D2 | G A B c d2 d d | Te2 g2 d4 |
+w: There was a lit-tle Wo-man as I've heard tell
+[V:2] D2 | G F G A B2 B B |  c2 e2 B4 |
+[V:1] d3 c B2 G2 | {B/}A>G A> B G2 D2 | G2 B c d2 d d |
+w: Fal de ral lal lal* lal d3 dee She went to the Mar-ket her
+[V:2] B3 A G2 d2 | {d/}c>B c> d B2 D2 | G2 G A B2 B B |
+[V:1] e2 g e d4 | d3 c B2 G2 | {B/}A>G A> B G3 G |
+w: Eggs for to sell Fal de ral lal lal* lal de dee She
+[V:2] c2 e c B4 | B3 A G2 d2 | {d/}c>B c> d B3 G |
+% p.55
+[V:1] g2 g g G2 G G | g g g g G4 | g2 g> g f2 f2 |
+w: went to the Mar-ket all on a Mar-ket Day Fal lal de ral lal
+[V:2] B2 B B G2 G G | B B B B G4 | B2 B> B d2 d2 |
+[V:1] {f/}e>d e> f Hd2 G2 | GA B c d2 d2 | e2 g e d4 |
+w: lal* lal de dee  And she* fell a-sleep all on the high-way
+[V:2] {d/}c>B c> d HB2 G2 | GF GA B2 B2 | c2 e c B4 |
+[V:1] d3 c B2 G2 | {B/}A>G A> B G4 | cfag fedc | Bdgb D2f2 | g4 z2 |]
+w: Fal de ral lal lal* lal de dee.
+[V:2] B3 A G2 d2 | {d/}c>B c> d B4 | cfag fedc | Bdgb D2f2 | g4 z2 |]
+% p.56
+W: 2. There came by a Pedlar whose Name it was Stout Fal de ral &c.
+W: And cut her Pettycoats all round about Fal &c.
+W: He cut her Pettycoats up to her Knees Fal &c.
+W: Till this poor little Woman's Knees began for to freeze Fal &c.
+W: 
+W: 3. When this little Woman began for to awake Fal &c.
+W: She began to shiver and she began to shake Fal &c.
+W: She began to shake and she began to cry Fal &c.
+W: Lord ha' mercy on I this can't be I Fal &c.
+W:
+W: 4. If I be I as I suppose I be Fal 8^c 
+W: I've got a little Dog at home and he knows me Fal &c.
+W: If I be I he'll wag his little Tail Fal &c.
+W: But if it be not I he will bark and rail Fal &c.
+W:
+W: 5. Home went this little Woman all in the dark Fal &c.
+W: Up starts the little Dog and began to bark Fal &c.
+W: He began to bark and she began to cry Fal &c.
+W: Lord ha' mercy on I this is none of I Fal &c.
+%
+%%center -

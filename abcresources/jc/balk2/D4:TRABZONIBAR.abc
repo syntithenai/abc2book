@@ -1,0 +1,15 @@
+X: 444
+T: Trabzoni Bar
+O: Armenia
+M: 2/4
+L: 1/8
+Q: 1/4=180
+K: EPhr
+%%MIDI program 24
+%%MIDI beat 80 70 60 4
+|:EF^GA|BcAc |^GAFG |E4  |
+  A^GFE|DEFD |D2E2  |E4::
+  A4   |BcA2 |BcAc  |B4  |
+  ^GABc|^GAFA|^GAE2-|E4  |
+  A4   |BcA2 |Bcdc  |B2A2|
+  ^GABc|^GAFA|^GAE2-|E4  :|

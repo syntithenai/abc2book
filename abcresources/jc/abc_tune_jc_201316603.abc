@@ -1,0 +1,446 @@
+X:101
+T:A new Strathspey Reel
+B:CPC v3, p23
+N:David Greenberg says this is impossible on the fiddle - must be for flute
+N:final beats of each part fixed to match the anacruses
+M:C
+L:1/8
+Q:1/4=92 "Slow"
+K:E Minor
+g |  B<B TB>A     G<g  B>g|  a>AB>G  E<e   e>f|g>ab<a  (g<e)g>e   |d>A B>G E<e [1e  :|[2e3/||
+f/|  g>ab>a       g<b  b>g|  a>gb>g Ta>g   e2 |d>bg>b   e<g    B2 |d>A B>G E<e [1e3/:|[2e  ||
+g |(TB>G)(TA>G) (TB>G) A<g|(TB>G)A>B E<e   e>f|g>bTa>g Te>d    B<g|d>A B>G E<e [1e  :|[2e3/||
+f/|  g>G b>G      a>G  b>G|  a>Gb>g (Ta>g) e2 |d>bb>a  (g/e/d) B2 |d>A B>G E<e [1e3/:|[2e  |]
+
+X:102
+T:A new Strathspey Reel
+B:CPC v3, p23
+M:C
+L:1/8
+Q:1/4=92 "Slow"
+K:A Minor
+G<G    G>A  c<A    A2  | c2    g>c a>ce<g  |E>Gc>G     A<a    a2   |g>de>c  a>GA<c:|
+f>ga>g      g<e    e2  |(e<d)d>e   g>ce<g  |E>Gc>G     A<aa>g      |c'>ga>e g>GA<c:|
+GG/G/ (G>A) cA/A/ (A>c)| cc/c/ g>c a>c(e<g)|EE/E/  G>g FF/F/ (a>c')|g>de>c  a>GA<c:|
+ff/f/ (a>g) ge/e/ (e>d)| dc/c/ g>c a>ce<g  |E>Gc>G     A>a    a2   |g>de>c  a>GA<c:|
+
+X:103
+T:Miss Menzies of Culdare's Strathspey
+S:Museum for the German Flute v4 p49
+M:4/4
+L:1/8
+Q:1/4=112
+K:D
+f/e/ |dA B/A/G/F/ dAdf | fA/f/ B/A/G/F/ {F}E2 Ef/e/ |dA B/A/G/F/ A>Bd>b     | afe>f  d2d:|
+b/c'/|d'abd'      a>fdf| edfd              B2 Bb/c'/|d'abd'      a>fdf      |Te>def  d2d
+b/c'/|d'abd'      afdf |Tedfd              B2 B>d   |A>Bde       d>e dd'/c'/| afTe>f d2d|]
+
+X:104
+T:Orchall, A Strathspey
+S:Museum for the German Flute v4 p30
+M:4/4
+L:1/8
+Q:1/4=120
+K:G Dorian
+f|c>F Tc>F c>FA>f |c>F Tc>A      B>G-G>f|c>F Tc>A f>ga>g|f>dTc>A {A}G2G:|
+c|f>ga>g  f>c TA>F|f/e/f/g/ a>c cd d>e  |f>ga>f   g>afc |d>fc>A  {A}G2G:|
+
+X:105
+T:Sir John Whiteford's Strathspey
+S:Museum for the German Flute, NLS Mus.E.s.10
+M:4/4
+L:1/8
+N:bar 9 is |gb>gd  egTd>B| in the book
+Q:1/4=120
+K:G
+D |G>AGD  EFG<g |d<BA>G TE2E>F|G>AGD E>FGg  | d>BA>B  G2G:|
+c'|b>ga>f g>ed>B|A>cBG   E2Ec'|b>gfa g<eTd>B|TA<G AB  G2G
+b |g<bgd  egTd>B|A>cBD   E2E>F|G>AGD EFG>g  |d<B TA>B G2G|]
+
+X:106
+T:Gie the Lasses mair o'it
+S:Museum for the German Flute
+M:4/4
+L:1/8
+Q:1/4=120
+K:D
+F|A2A2  (d>ef>)e|(d<BA>F)       E>DEF |A2 A2  d>ef>e|(d<BA>F)      TE2D:|
+f|a<ffb  a>fTed |(c/d/e/f/) g>e b>eg>e|a<ff>b afed  |(c/d/e/f/ g)f Te2d2|
+  a<ff>b a>fTed |(c/d/e/f/  g)e b>eg>e|a>fe>d d>ef>e| d<B     TA>F TE2D:|
+
+X:107
+T:Mary and Donald, A Strathspey
+S:Museum for the German Flute
+M:C|
+L:1/8
+Q:1/4=120
+K:D Dorian
+e|c/c/c c>A G>Ac>E|G>B (cd/e/) f>(de>d) |cc/c/ c>A (G>A)c>E|G>Ac>d e<dd:|
+e|d>eg>a    g>ee>c|d>eg>a      e/e/e d>c|d>eg>a     g>ed>e |c>ed>f e<dd:|
+
+X:108
+T:John o' Badenyond
+S:Museum for the German Flute p5
+N:same tune as the Old-Time Wedding Dance from Cape Breton
+N:bar 11 is | b>ge>g Tb>af>d| in the book - correction taken from song in Gall & Inglis
+M:4/4
+L:1/8
+Q:1/4=120
+K:B Minor
+d| B>AFA   B>AFc |d>ed>B A3d | B<Bd>e  f>ed>f|B<Bd>e    f3
+a| b>fa>e  f>de>c|d>AB>F d3e | f>de>B  d>Ad>F|E<EF>A    B3:|
+a|Tb>af>a Tb>af>b|a>fe>f a3d'| b>af>a Tb>af>d|B/B/B d>e f3
+a| b>fa>e  f>de>B|d>Ad>F d3e |Tf>de>B  d>Ad>F|E<E   F>A B3:|
+
+X:109
+T:Short Life to Stepmothers, a Strathspey
+S:Hamilton Complete Repository
+M:4/4
+L:1/8
+Q:1/4=120
+K:G
+    (D<<G)(D<<G) (D<<G)(D<<G)|(EA)(A>E)           (GB) (TBd)|\
+    (D<<G)(D<<G) (D<<G)(D<<G)|(EA) A>F             G2    G2:|
+{^c'}d'2{^c'}d'2  bgg>f      | eaa>g               fdfb     |\
+{^c'}d'2{^c'}d'2  bgg>f      | eaa>f            {f}g2    G2 |
+{^c'}d'2{^c'}d'2  bgTg>f     | ea/b/ (c'/b/).a/.g/ fdgb     |\
+    (d'b).g.d    (bg).d.B    | ecAF             {F}G2    G2:|
+
+X:110
+T:Miss Admiral Gordon's Strathspey
+S:Hamilton Complete Repository
+M:4/4
+L:1/8
+Q:1/4=120
+K:D
+A|d/d/d d>d d>Ad>b|a<fe>f                 {c}B2 B>e|d/d/d d>d d>Ad>b|ab/c'/ d'f {f}a2ab|
+  aad'f     afe>d |(e/g/)(f/a/) (g/f/)(e/d/) a2 be |d/d/d d>d d>Ad>b|afe>f         d3 ||
+A|F>Ad>A    B>AdA | f>g         (g/f/)(e/d/) {c}B2  B>{c}d |\
+  F>Ad>A    B>AdA | f>g (a/b/)(c'/d'/)       {b}a2 (ab/c'/)|
+  d'>c'ba   b>agf |(e/g/)(f/a/) (g/f/)(e/d/) {c}B2 TBe     |\
+  d/d/d d>d d>Ad>b| afe>f                       d3        |]
+
+X:111
+T:Kinrara, a Strathspey
+C:William Marshall
+S:Hamilton Complete Repository
+M:4/4
+L:1/8
+Q:1/4=120
+K:D
+d   |D>d   d>e d>BA>F  |   D<d d(e/f/) d2 Ef/e/|Dda>f   b>a     d'>b|a<fTe>f d2 d       :|
+f/g/|a>ba<f    d>fA<d  |{c}B>ATG>F     E2 Ef/g/|a>ba>(f a/c'/c' d')f|gfgb   Tb2 a3/f//g//|
+    (a>f) .d.f a>(f df)|   B<ee>d  {de}f2 eE/D/|D>da>f Tb>a  {a}d'>b|a<fe>f  d2 d       :|
+
+X:112
+T:Marshall's Compliments to Neil Gow
+S:NLS MS 21752
+M:4/4
+L:1/8
+Q:1/4=120
+K:C
+G|c>dc>G  c<e c2|e>dc>G             ADD2|c>dc>G .A.cfa |a/g/f/e/ d/e/f/g/ ecc:|
+g|c'>cg>c c'>cg2|c'/b/a/g/ a/g/f/e/ dcd2|c'>cg>c c'>cg2|a/g/f/e/ d/e/f/g/ ecc:|
+g|c'>cg>c c'>cg2|c'/b/a/g/ a/g/f/e/ dcd2|c>dc>G  Acf>a |a/g/f/e/ d/e/f/g/ ecc:|
+
+X:113
+T:Grey day light
+T:Craigellachie Bridge
+S:Anderson's Pocket Companion, Perth 1807 (Glen.42) p73
+M:4/4
+L:1/8
+Q:1/4=120
+K:D
+D2(FD) ADFD|EFED   =c2(ce)|D2(FD) ADFD|EEdc d2(df) |
+D2(FD) ADFD|E2(EG) =c2(ce)|dcBd   AGFA|EEdc d2(df)||
+Adfd   gefd|efed    c3  d |Adfd   gefd|geaf d2(df) |
+Adfd   gefd|efed   =c3  e |dcBd   AGFA|Ddce d2 d2 |]
+
+X:114
+T:Dunrobin Castle
+S:Anderson's Pocket Companion v2 p71
+M:C
+L:1/8
+Q:1/4=120
+K:E Minor
+g|BGA>G  B>GA>g|d>GB>G E>eTe2|   g>be>g          d>g  B2|d>AB>G Eee :|
+d|g>gb>g a>gb>g|d>gbg  a>gTe2|   g>be>g          dg  TB2|d>AB>G Eee
+g|g>gb>g a>gb>g|d>gb>g a>g e2|(3(gbg) (3(ege) (3(dgd) B2|c>BA>G Eee2|]
+
+X:115
+T:Mrs Fraser of Foyer's Strathspey
+S:Anderson's Pocket Companion, Perth 1807 (Glen.42) p49
+M:4/4
+L:1/8
+Q:1/4=120
+K:E Minor
+d|E>ee>f   gefd|d>edD d3f|E>ee>f  g>efd|B>AG>F E2(Ed)|
+  E>ee>f   gefd|d>edD d3f|E>ee>f Tg>fga|b>agf  e2e  ||
+g/a/|bege be (c'/b/)(a/g/)|(f/g/).a/.b/ (a/g/).f/.e/ d2 d(g/a/)|\
+     bege be (c'/b/)(a/g/)|(g/f/).e/.d/ (b/a/).g/.f/ e2 e(g/a/)|
+     bege be (c'/b/)(a/g/)|(f/g/).a/.b/ (a/g/).f/.e/ d2 df     |\
+     g>ef>d   e>dB>d      | A>Fd>F                {F}E2 E     |]
+
+X:116
+T:The Honble. G. Carnegies Strathspey
+S:Anderson's Pocket Companion, Perth 1807 (Glen.42) p52
+M:4/4
+L:1/8
+Q:1/4=120
+K:A Minor
+A>Bc<A E<AA2|B>AG<d BG  G2 | A>BcA  EAc<e |d<BG<B (cA)A2:|
+a>ge<a g<ea2|g>ed>g B>G(dB)|a>ge>a  g<ea2 |g<eg>B (BA)A2 |
+a>ge<a g<ea2|g>ed>g B>GdB  |A>cB<d  c<ed<a|g<eg<B  BA A2|]
+
+X:117
+T:Lady Burnside's Strathspey
+S:Anderson's Pocket Companion v2 p78
+M:C
+L:1/8
+Q:1/4=120
+K:DDor
+A|d<dd<A F3      A   |c<cc<G E>GG>A      |d<dd<A (FA)(Aa)|f>d  f/e/d/^c/    d2d:|
+A|d>df>d a>df>d      |c>ce>c g>ce>g      |d>df>d  a>df>d |a>f (a/g/)(f/e/)  d2dA|
+  d<df<d a>d f/g/a/f/|c<ce>c g>c e/f/g/e/|a>fg>e  f>de>c |A>d  f/e/d/^c/ {c}d2d|]
+
+X:118
+T:The Breas of Bushby
+S:Anderson's Pocket Companion, Perth 1807 (Glen.42) p63
+M:C|
+L:1/8
+K:A Minor
+ E>AA>B (cB)(AG)  |D>GG>A  B>c     c/B/A/G/| A>Bc>d e>dc>e| d/c/B/A/     G/A/B/d/   (cA)A2:|
+Tc2(e>c) g>ce>c   |B>dg>e  d/c/B/A/ G>A     |Tc2 e>c g>ce>c| d>BG>B                  (cA)A2:|
+(a2e>a)  ea/b/ c'a|g2(d>g) dg/a/   bg      | a2(ea) e>dc>e|(d/c/)(B/a/) (G/e/)(B/d/) cA A2:|
+c>eA>e  A/B/c/d/ f/e/d/c/|B>dG>d             G/A/B/c/ e/d/c/B/|\
+c>eA>e  A/B/c/d/ f/e/d/c/|d>BG>B            (cA)(Ad)          |
+c>eA>e  A>ce>c           |B>dG>B             G>Bd>B           |\
+c>eg>c' g>ec>e           |d/c/B/A/ G/A/B/d/ (cA)      A2     |]
+
+X:119
+T:Colonel Belches Favorite Strathspey
+S:Anderson's Pocket Companion, Perth 1807 (Glen.42) p50
+M:4/4
+L:1/8
+Q:1/4=120
+K:A Minor
+e/>d/|c>BA>B c>d (ed/c/)     |.B.G.d.G        .e.G.d.G|\
+      c>BA>B c>d (f/e/)(d/c/)| B>G d3/(c//B//) BAA   :|
+e    |a>bc'a (ea).A.a|g>a  a/g/f/e/     d/c/B/A/    G>e|a>bc'a egac' | b>ge>g                 Ta2A
+e    |a>bc'a  eeae   |g>a (g/e/)(d/c/) (B/c/)(d/c/) BG |c>Ad>B e>cf>d|(e/c/B/A/) (^G/e/)(B/d/) cAA|]
+
+X:120
+T:Lord John Campbell's Strathspey
+S:Andrew Small
+M:4/4
+L:1/8
+Q:1/4=108
+K:G
+D    | G<G      ({GA}B>)G    (FA)A>B       |      G<GB>G        d>GB>G       |\
+       c(e/c/)       B(d/B/) (c/B/A/G/) F>A|      G<G ({ga}b>)a gGG         :|
+b/c'/|(d'/c'/b/a/)   g>b      c'e'/a/ (bc')|({bc'}d'>b)(c'>a)  (b>g) {b}(a>f)|\
+      (g/f/e/d/) ({f}g)G      F>AA>B       |      G<G ({ga}b>)a gGG         :|
+
+X:121
+T:The Miller of Drone
+S:Andrew Small of Carrickfergus's music book, NLS MS 21738 (1835)
+M:4/4
+L:1/8
+Q:1/4=120
+K:D
+(f/e/)|(d<B) Bd A>BAF|D<D Df feef      |dB Bd A>BAF |G>BA>c d2 d
+(f/e/)| dBBd    A>BAF|D<D gf fe e(f/g/)|aefc  d>AB>F|A<A AB d2 d||
+b|affd' aa (b/a/).g/.f/|af fd' b3(c'/d'/)|   affd'              aa      (b/a/).g/.f/|gefd ({d}B2)B
+b|affd' aa (b/a/).g/.f/|af fd' b3 c'     |(3(d'c'b) (3(abc') (3(d'ag) (3(fed)       |gefd     B2 B|]
+
+X:122
+T:The Marquis of Huntly's Farewell
+S:Andrew Small of Carrickfergus, NLS MS 21738
+M:4/4
+L:1/8
+Q:1/4=96
+K:D
+F|D2D>F A<A A>B|d>e ({de}f>)e ({e}d2) df|D2D>F A<A A>f|e>f (g/f/).e/.d/ ({c}B2)Bd|
+  D2DF  A<A A>B|d>e ({de}f>)e     dBBf  |g2gb  a<ff>a |e>f (g/f/).e/.d/ ({c}B2)B||
+b|(b/a/g/f/)       d'>f        e'>f           {c'}d'2   |(b/a/g/f/) d'>f         (ba)gf           |\
+   ee'e'>b                    (e'/d'/c'/b/) ({^d'}e'2)  | be'e'c'            ({e'}d'>)c' ({c'}b>)a|
+  (b/a/g/f/)       d'>f        e'>f          ({c'}d'>)c'|(b/a/g/f/) d'>f         (ba)gf           |\
+  (g/a/b/c'/) ({e'}d'>)c' ({c'}b>)a           ({a}g>)f  | e>f      (g/f/e/d/) ({c}B2)         B  |]
+
+X:123
+T:Black Watch
+S:Andrew Small
+Q:1/4=80 "Andante"
+M:4/4
+L:1/8
+K:A Dorian
+(A>B)|(c<A)  A>B   c<A   A(e/d/)  | c>A   (A/G/).F/.E/     G2   \
+ A>B |(c<A)  A>B  (c<A) ~A>B      |~c>d   (e/d/)(c/B/) ({B}A3)B|
+       c>d   e>d   e>d   c>d      | ed    (d/c/B/A/)       G2   \
+ c>B | A>B   c>d   e>d   c<a      | g>e   (e/d/).c/.B/  {B}A2 ||
+ a>b |(c'<a) a>b   c'a   a(e'/d'/)| c'>a  (a/g/).f/.e/     g2   \
+ a>b | c'>a  a>b   c'>a  a>b      | c'>d' (e'/d'/).c'/.b/  a3b |
+       c'>d' e'>d' e'>d' a>d'     | e'>d' (d'/c'/)b/a/     g2   \
+ c'>b| a>b   c'>d' e'>d' c'>a     | g>e   (e/d/).c/.B/ ({B}A2)|]
+
+X:124
+T:The Highland Watch
+S:Robertson, Caledonian Museum book 3 p67
+M:C
+L:1/8
+Q:1/4=60 "Slow and Majestic"
+N:first note is a crotchet in the book
+K:A Minor
+e|\
+c<AA>B      cAA({e}f)|     c<AA>E        G2 G>e    |(c<A)(A>B) (cA)(A>B)    |(c>d)(ec)    ({B}A3)B |
+c>d(ed) ({f}e>d)(cd) |({cd}e>d)(cE) ({^F}G2)G(c/B/)|TA>Bcd  ({f}e>d)c({^g}a)| g>e({e}d>c) ({B}A2)A:|
+(a/b/)|\
+({ab}c'a)(a>Tb)             (c'a)a({^d'}e')|      (c'>a){a}(g>e)              g2  Tg({^fg}a/b/) |\
+    (c'a)Tab                (c'a)a>b       |       c'>d'({c'd'}e')c'      ({b}a2) (ab)          |
+    (c'>d')({d'}e'd') ({c'd'}e'>d')(c'>d') |({c'd'}e'>d') (d'/c'/b/a/)        g2  Tg(c'/b/)     |\
+    Ta>bc'>d'         ({c'd'}e'c')(d'e')   |      (c'>a){c'}(b>^g)            a2   a>b          |
+     c'aaTb                   c'aa({^d'}e')|  ({d'}c'>a)  (a/g/)({g}f/e/) ({e}g2) Tga/b/        |\
+     c'>aa>b                  c'aa(e/^g/)  |       a>e^gB                 ({B}A2) (AB)          |
+     c>de({a}g)           ({f}e>)d(cd)     |  ({cd}e>d)cE                     G2   G(c/B/)      |\
+    TA>BTc>d              ({f}e>)d(ca)     |      (g>e)({e}d>)c           ({B}A2)  A2          |]
+
+X:125
+T:Tullochgorum
+S Cameron's Flute Music (Glasgow) NLS Mus.D.s.116 p26
+N:original printed in 2 sharps with accidentals on all c's
+M:C|
+L:1/8
+Q:1/4=120
+K:D Mixolydian
+Hg||\
+f>(da>)(d           g>)(c e2)|   f>(da>)(d    f>)g(a<d')    |\
+f>(da>)(d           g>)(c e2)|[1 f>(d a>)(d   e/f/)g e>g   :|\
+                              [2 f>da>d      (e/f/)g e>f   ||
+d>d'a>b             c'>(c e2)|   d>d'a>(d'    d>)(d'a>)(d'  |\
+d>)d'a>d'           c'>(c e2)|   d>d'a>d'  (3(efg)   f>e    |
+d>d'a>b             c'>(c e2)|   d>d'a>b      c'>d'e'>d'    |\
+e'/.d'/.c'/b/ c'>a (g<c)e>e' |   d'>a(d'<f') (b<d')(a<d') H|]
+
+X:126
+T:Bothwell Castle
+S:James Davie: Davie's Caledonian Flutist, Aberdeen c.1842
+N:first anacrusis is A3G in original
+M:C
+L:1/16
+Q:1/4=72 "Slowly and Energetic"
+K:D
+A>G|F3G A3G    F2d2(d2f2) |F3G  AFED CEAc e2f2|\
+    F3G A>GA>G F2d2 A2(fa)|gfed cbag f2d2 d2 :|
+A2|f'2- (3f'e'd' (3c'ba (3gfe     d2a2f2{c'}d'2       | a>fd'>a f'>d' (3afd c2e2e2a2                 |\
+   f'3e'           d'c'd'b     {b}a^gab      c'abc'   | d'bc'd' e'>c'd'>b   a2d'2d'2 d'e'            |
+  .f'(d'c'd')     .e'(c'bc')     .d'(b^ab)  .c'(=a^ga)|.b(gfg)  a>db>d      c2e2 (e/d/e/f/ g/a/b/c'/)|\
+   d'4             b4             e3a    {g}Hf2 (3dfa | g3f   (3efd (3cdB   A2d2d2                  |]
+
+X:127
+T:Miss Graham of Inchbrakie
+S:James Davie: Davie's Caledonian Flutist, Aberdeen c.1842 (NLS MH.s.11)
+M:C
+L:1/16
+Q:1/4=72 "Slowly and Energetic"
+K:D
+A2|d3e ({de}f3)e ({e}d2)B2A2F2          |D2d2 ({e}d2)cd         e2E2E2A2|\
+   d3e ({de}f3)e     edcB        BAGF   |A2A2     B2c2     ({de}d6)
+A2|d3e ({de}f3)e    (ed)(cB)    (AG)(FE)|D2d2  {e}d2cd          e2E2E2A2|\
+   d3e ({de}f3)e    (ed)(c{e}d) (BA)(GF)|A2A2     B2(Tc2{Bc})   d6     ||
+fg|a3b              bagf         d'2a2f2d2           |g2({agfg})b>g  f2({gfef})a>f        Te3d  e2(fg) |\
+   a3b             (ba)(gf) ({c'}d'2)a2({g}f2)d2     |g2({agfg})b>g (fe)(dc)               d3e (de)(fg)|
+   a3({baga})b     (ba)(gf)     (d'c')(c'b) (ba)(af) |ga/b/     a>g (f/a/d'/c'/ b/a/g/f/) Te3d  e2f2   |\
+   A3({BA^GA})d ({d}f3)e        (ed)(cB)    (BA)(=GF)|A3A            B2Tc2             ({e}d6)        |]
+
+X:128
+T:Duncan McQueen's
+S:MS.22170 (music book compiled by J. Crichton Donaldson, 1853-1855)
+N:p46 #466
+N:bar 6 originally |e>fed cAA2 d/e/|
+N:third part marked as repeated in MS
+M:C
+L:1/8
+Q:1/4=120
+K:B Minor
+  F<BB>B       dBBf       |  f>ee>d    cA A2   |F<BB>c dBBf      |f>def          dBB2  :|
+  f>dBf        d<Bf>d     |  e>fed     cA Ad/e/|f>dBd  d>Bf>d    |e>gfe          dBB2  :|
+  B>bba        ab    b2   |  A>aae     ea a2   |B>bba  a>b bc'/b/|af/g/ f/e/d/c/ B2  B>a|
+(3bc'b (3aba (3faf   d>e  |(3faf (3efd c>AAd   |F>Bd>e f>deb     |afe>g          d<B B2||
+  A>dA>d       A>d   Fd/e/|  fded      c<AAd   |A>dF>d A>d Fd/e/ |f>def          d<B B2:|
+
+X:129
+T:Wap 'em all Wally, or up an war them all Wally
+S:R. Bremner, The Delightful Pocket Companion for the German Flute
+A:opposite Somerset House in the Strand, London
+B:NLS Glen.186
+N:vol 2nd part 5th p.14
+M:C
+L:1/8
+Q:1/4=120
+K:D
+d2(f<d) g2  (g<b)  |d2(f<d) e2 (e<a)   |d2(f<d) gabg|agfe [1 d2 (d<a)   :|\
+                                                          [2 d2  db/=c'/||
+d'baf   g>a gb/=c'/|d'baf   e>f eb/=c'/|d'baf   gabg|agfe [1 d2  db/=c'/:|\
+                                                          [2 d2  d<a    ||
+D2(F<D) G2 (G<B)   |D2(F<D) E2 (E<A)   |D2(F<D) GABG|AGFE [1 D2  D<A    :|\
+                                                          [2 D2  DB/=c/ ||
+dBAF    G>A EB/=c/ |dBAF    E>F GB/c/  |dBAF    GABG|AGFE [1 D2  DB/=c/ :|\
+                                                          [2 D2  D<A    ||
+
+X:130
+T:Wap 'em all Wally, the Irish Way
+S:R. Bremner, The Delightful Pocket Companion for the German Flute
+A:opposite Somerset House in the Strand, London
+B:NLS Glen.186
+N:vol 2nd part 5th p.14
+M:C|
+L:1/8
+Q:1/2=90
+K:D
+ddfd g2 a/g/f/e/|ddfd e2 (c<A)|ddfd gefd|f/g/a/f/ e/f/g/e/ f2 (e<d):|
+fgBg BgdB       |fgBg Be  c<A |fgBg BgdB|e/f/g/e/ f/g/a/f/ e2  c<A :|
+
+X:131
+T:Miss Baird's Strathspey
+S:N. Gow and Sons Complete Repository, adapted for German flute, Book 2, c.1812
+B:Glen.46
+M:C
+L:1/8
+Q:1/4=84 "Slow"
+K:E Minor
+e   |E>FG>A B<e Te2|d>ed>A  F/G/A/G/    F>D|E>FG>A B>e Te2|f>c'     (b/a/)(g/f/) g<ee>G |
+     E>FG>A B>e Te2|d>ed>A (F/G/)(A/G/) F>D|E>FG>A B<e Te2|bg       (b/a/)(g/f/) gee   ||
+g/a/|b>eg>e b<e Tg2|f<aa>g  f/g/a/g/    f<d|b>eg>e b<e Tg2|f/g/a/g/ (b/a/)(g/f/) g<eTe>g|
+     b>eg>e b>e Tg2|f<aa>g (f/g/.a/.g/) f<d|b>ge>B e>cB>G |A>c      (B/A/)(G/F/) GEE   |]
+
+X:132
+T:The Countess of Mansfield's Strathspey
+S:N. Gow and Sons Complete Repository, adapted for German flute, Book 2, c.1812
+B:Glen.46
+M:C
+L:1/8
+Q:1/4=90 "Slow"
+K:E Dorian
+(g/f/)|e>EE>F      TG>ABc  |Td>e  dA/G/       FDD (Tg/f/)| e>EE>F    TG>AB>G |Ee  {g}fe/^d/     TeEE
+(g/f/)|e>EE>F      TG>AB>c |Td>e  d(A/G/)     FDD (Tg/f/)|.E.e.F.e   .G.e.A.e|B>g {g}fe/^d/      eEE||
+ g/f/ |Te>fg>a ({ga}b>)age | d>d (f/g/)(a/g/) fdd  (g/f/)|Te>fg>a {ga}b>ag>e |B>g {g}f(e/^d/)    eEE
+(g/f/)|Te>fg.a ({ga}b>)ag>e| d>d (f/g/)(a/g/) fdd (Tg/f/)|.E.e.F.e   .G.e.A.e|Eg    (f/g/)(a/f/) gee|]
+
+X:133
+T:Willie Galbreath
+S:NLS MS.21733
+M:C
+L:1/8
+Q:1/4=80
+N:original last part is too short:
+N:G>d'b>g (3dgb (3d'bg|d>c'a>f (3dfb (3c'af|G>d'b>g (3dgb (3d'bg|(3egc' (3dgb (3c'af (3gdB||
+N:last part reconstructed from version in the Skye Collection
+P:ABA
+K:G
+P:A
+G>GB>d    g>de<g       |{e}d>Bd<g    a/g/a/b/ g<b    |G<GB>d    g>de<g      |  c'/b/a/g/    (e/g/)d/B/  dggb      :|
+d'bgd     egc'e'       |   d'g'bd'  (gb)     (dg/>b/)|d'>bgd    egc'e'      | (e'/d'/)c'/b/ (c'/b/)a/g/ dggb      :|
+P:B
+G>dB>g    db   (gb/d'/)|   A>dc>e    Ac'      ab/c'/ |G>dB>g    db    gb/d'/|  c'/b/a/g/    (e/g/)d/B/  dggb      :|
+G>d'b>g (3dgb (3d'bg   |   d>c'a>f (3dfb    (3c'af   |G>d'b>g (3dgb (3d'bg  |  c'/b/a/g/    (e/g/)d/B/  dggb       |
+G>d'b>g (3dgb (3d'bg   |   d>c'a>f (3dfb    (3c'af   |G>d'b>g (3dgb (3d'bg  |(3egc'        (3dgb      (3c'af (3gdB||

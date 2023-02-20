@@ -1,0 +1,21 @@
+X: 160
+T: Guhneega
+O: Armenia
+Z: Deborah Jones
+F: http://www.youtube.com/watch?v=xLZS6JJYv2I
+M: 2/4
+L: 1/8
+Q: 1/4=120
+K: Dm
+%%MIDI program 43
+%%MIDI bassprog 35
+%%MIDI chordprog 32
+%%MIDI bassvol 80
+%%MIDI chordvol 80
+|:"F" AA/G/ AB| c2 z2|"C7" cc/d/ cB|"F" A2 z2 ::"Bb" dd dd|
+dc cB| "C7" c c/d/ cB|[1 "F" A2z2 :|[2 "F" A2 cc|
+"F" c4-|c4-|c4-|c4|:.c/c3/2 c2|.c/c3/c2|"C"B B/d/ cB|
+"F" A2z2 :: "Bb" dd dd| dc cB| "C7" c c/d/ cB|"F" A2 z2 ::
+"F"[FA][F/A/][E/G/] [FA][GB]| [A4c4]|"C7" [Ac][A/c/][B/d/] [Ac][GB]|
+"F" [F2A2]z2 ::"Bb"[Bd][B/d/][B/d/] [Bd][Bd]| [Bd][Ac] [Ac][GB]|
+"C7" [GB][A/c/][B/d/] [Ac][GB]| "F" [F2A2] z2 :|

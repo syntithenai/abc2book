@@ -1,0 +1,27 @@
+X: 1
+T: Tombigbee Waltz
+C: trad. arr. by Jay Ungar
+R: waltz
+S: Fiddle Hell Online 2021-5-16 Jay Ungar workshop handout
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - -
+(uBA) | "G"G2 B2 B2 | d4 BA | G2 B2 B2 | (d4 B2) |\
+"D"(B2 A2) A2 | (A2 B2) d2 |1 "C"e4 d2 | "G"(B3 c) :|2 "C"(e2 d2) uF2 | "G"G4 ||
+|: d2 | "G"g4 d2 | "G7"g4 d2 | "C"e3 d c2 | "G"(d4 B2) |\
+"D"(B2 A2) A2 | (A2 B2) d2 |1 "C"e2 d2 | "G"B4 | :|2 "C"(e2 d2) F2 | "G"G4 |]
+% - - - - - - - - - -
+P: Rhythmic, melodic and bowing variations
+(uBA) | "G"G (B3 MB2) | d3 A BA | G (B3 MB2) | d3 B Bc |\
+"D"B (A3 MA2) | (A2 B2) ud2 |1 "C"e4 d2 | "G"B3 c :|2 "C"(e2 d2) uF2 | "G"G4 ||
+|: ud2 | "G"g4 d2 | "G7"g4 d2 | "C"e3 d ce | "G"d4 (uBc) |\
+"D"(B/c/B A2) A2 | (A2 B2) d2 |1 "C"e3 (d ed) | "G"B4 | :|2 "C"(e2 d2) F2 | "G"G4 |]
+% - - - - - - - - - -
+P: Double stops
+BA | "G"[G2B,2][B2G2][B2G2] | [d4F4]BA | "G"[G2B,2][B2E2][B2E2] | [d4=F4] [B2F2] |\
+"D"[B2^F2][A2F2][A2F2] | [A2F2][B2F2][d2F2] |1 "D"[e4G4][d2F2] | "G"[B4D4] :|2 "C"[e2G2][d2F2][F2A2] | "G"[G4B,4] d2 ||
+|: "G"[g4B4]d2 | "G7"[g4B4][d4G4] | "C"[e3G3][dG][c2E2] | "G"[d4G4][B2G2] | "D"[B2F2][A2F2][A2F2] | [A2F2][B2F2][d2F2] |\
+[1 "C"[e4G4][d2F2] | "G"[B4D4][d2G2] :|2 "C"[e2G2][d2F2][F2A,2] | "G"[G4B,4] |]
+% - - - - - - - - - -

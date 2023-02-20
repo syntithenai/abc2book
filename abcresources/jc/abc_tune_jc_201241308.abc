@@ -1,0 +1,24 @@
+X: 4312
+T: the Argyll Bowling Green.   a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.4 p.31 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+E !segno!|\
+C2c2 Tc>ded | cdcA GFED | C2c2 Tc>dec | d>B c>E {E}D3E ||\
+C2c2 Tc>ded | cdcA GFED | C2c2 Tc>dec | d>B c>E {E}D3 |]
+A |\
+G<Ec>E GEEA | GEcG E3A | GEcE GEEF | GAGE D3a ||\
+gec'e geef | gec'g {f}e3a | gec'e geef | gage d3!segno!e |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z !segno!|\
+C2c2 c2c2 | c2c2 e2g2 | a2e2 c2c2 | B2c2 [b3g3G3]z || C2c2 c2c2 |
+c2c2 e2g2 | a2e2 c2c2 | B2c2 [b3g3G3] |] z | c2c2 c2c2 | c2c2 "^sf"c2c2 | c2c2 c2c2 |
+B2c2 G3z || c'2c'2 c'2c'2 | c'2c'2 "^sf"c'2c'2 | c'2c'2 c'2c'2 | b2c'2 g3 !segno!z |]

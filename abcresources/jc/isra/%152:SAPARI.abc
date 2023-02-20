@@ -1,0 +1,26 @@
+X: 152
+T: Sapari
+T: Bat Teiman
+O: Israel
+C: Shlomo Shai 1970
+F: http://www.youtube.com/watch?v=0aCX341XpFc
+F: http://www.youtube.com/watch?v=KRkCy7kP_nc
+M: 4/4
+L: 1/8
+K: Em
+Q: 1/4=180
+%%MIDI program 73 flute
+%%MIDI gchord fz2ffzfz
+%%MIDI bassprog 34 Electric Bass (pick)
+ E2            |:"Em"G2 FE D2EF|G2 AG FE F2|\
+ G2 FE D2 EF   | G2 FE EF D2-  |\
+ D4 z2 E2      |
+ G2 FE D2EF    |G2 FE EF E2    |\
+ E8-           |E6 E2          :|
+ G2A2 BABG     |AGFE FEFD      |\
+ G2AG FEFD     |FE G4DE        |
+ G2 AGFEFE     |FEFE E4-       |\
+ E8-           |E4 D2EG        |\
+ "Am"A8-       |A4- AGFE       |
+ "Em"G2 FEDE-ED|"Am"EFGA BABG  |\
+ AGFE DEFD     |"Em"E8-        |E8         |

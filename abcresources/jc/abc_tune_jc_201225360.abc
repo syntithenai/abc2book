@@ -1,0 +1,23 @@
+X: 093	% unnumbered
+T: Irish Washer Women
+T: (Virginia Reel)
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.9 #3
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Shortened the initial pickup notes to fix the rhythm of repeats.
+N: The 2nd strain has no initial repeat, but 2 final repeat; fixed to get the usual 32 bars.
+N: The endings can be moved to the (g/a/) pickup notes to the start of the 2nd strain, eliminating alternate endings.
+M: 6/8
+L: 1/8
+K: G
+V: 1 name=" "
+"Moderate"y\
+|: (d/c/) |\
+"^^"BGG "^^"DGG | BGB dcB | cAA DAA | cBc edc |\
+BGG DGG | BGB dcB |
+cBc Adc |1 BGG G2 :|2 BGG G2 (g/a/) \
+|:\
+bgg dgg | bgb bag | aff dff |
+fdf agf |\
+egg dgg | cgg Bgg | dcB Adc |1 BGG G2 (g/a/) :|2 BGG H[G2B,2] |]
+%%text Won the states championship 1926

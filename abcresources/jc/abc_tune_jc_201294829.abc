@@ -1,0 +1,17 @@
+X: 293
+T: the Jug and It Full
+R: air, waltz
+%S: s:3 b:24(8+8+8
+B: O'Neill's 1850 #293
+O: F.O'Neill
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+Q: "Slow"
+N: This tune has 6-bar phrases.
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+F>G | (A2 f2) (ef) | d2 (cA) (Bc) | d3 (efd) | (dc) A2 (AG) | {DF}E2 D2 D2 | D4 || (F>G) | (A2 f2) (ef) | d2 (cA) (AB/c/) |
+| d3 (efd) | (dc) A>B AG | {DF}E2 D2 D2 | D4 |]| (DE) | F2 G2 (AB) |=c2 (dc) (AG) | F2 D2 DE | (.F.G.A.B) (cA) |
+| dc A2 A2 | A3 || (.G.F.G) | (A2 f2) (ef) | d2 (cA) (Bc) | d3 (efd) | dc A2 AG | {DF}E2 D2 D2 | D4 |]

@@ -1,0 +1,30 @@
+X: 21081
+T: MARSHALL SETT (tune 1)
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.108 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="1"
+F2 |\
+B2df gfed | c2c2 c2dc | B2AB G2c2 | BAGA F2GA |\
+B2df gfed | c2c2 c2dc | Bdfb gecA | B2B2B2 H|]
+AB |\
+cAfd bagf | edcB AGFE | B,CDE GABA | B2B2 B2cd |\
+cAfe dBgf | ecag fedc | dfed cBAG | F2F2"^D.C."F2 |]
+c2 |\
+d2c2 d2c2 | B4 F2GA | B2AB c2BA | d2cB c2de |\
+f3gf2e2 | d3ed2c2 | B2dB F2GA | B2B2"^D.C."B2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First four right and left,
+%% balance four,
+%% ladies chain,
+%% promenade four sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

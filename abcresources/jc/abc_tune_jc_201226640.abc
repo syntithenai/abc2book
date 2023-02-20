@@ -1,0 +1,48 @@
+X: 10381
+T: NEW STOP WALTZ
+C:
+%R: waltz
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.38 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Note/rest lengths at strains' ends aren't all correct; not fixed.
+M: 3/8
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+!p!C2DE |\
+F2F2F2 | A2A2A2 | c2f2c2 | c4A2 |\
+c2B2G2 | c2A2F2 | !f!A2G2G2 | G4!p!C2 |\
+F2F2F2 | A2A2A2 | cagfed | c4A2 |\
+Bd .g2.g2 | Ac .f2.f2 |
+gba.gfe | f4 :: !pp!c2 |\
+c4A2 | A4c2 | f2e2d2 | d2c2c2 |\
+c2B2g2 | B2A2f2 | A2G2G2 | G2A2B2 |\
+c4A2 | A4c2 | b2g2e2 | f2a2Hz2 |\
+B2g2g2 | A2f2f2 | gba.gfe | f4z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z4 |\
+z6 | F2F2F2 | A2A2A2 | A4A2 |\
+A2G2E2 | A2F2C2 | !f!F2E2E2 | E4!p!z2 |\
+z6 | F2F2F2 | AfedcB | A4F2 |\
+G2B2B2 | F2A2A2 | 
+BdcBAG | A4 :: !pp!A2 |\
+A4F2 | F4 A2 | d2c2B2 | B2A2A2 |\
+A2G2B2 | G2F2A2 | F2E2E2 | E2F2G2 |\
+A4F2 | F4A2 | g2e2c2 | A2A2Hz2 |\
+G2B2B2 | F2A2A2 | BdcBAG | A4z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z4 |\
+z6 | z6| f2f2f2 | f4f2 |\
+c6 | f4A2 | !f!c2c2c2 | c4!p!z2 |\
+z6 | z6 | f2f2f2 | f4f2 |\
+B6 | z6 |
+c2c2c2 | f4 :: !pp!f2 |\
+f4f2 | f4f2 | f2f2f2 | f6 |\
+c6 | f6 | c2c2c2 | c6 |\
+f4f2 | f4f2 | c2c2c2 | f2f2Hz2 |\
+B2B2B2 | c2c2c2 | c2c2c2 | F4z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,52 @@
+%%text RJ Set 012 Jigs
+
+
+X: 1
+T: Irishman's Heart to the Ladies
+M: 6/8
+R: jig
+K: A
+a |\
+"A"ecA "D"BAF | "A"AFE EFA | "Bm"Bdc BAB | "E"cBB B2a |\
+"A"ecA "D"BAF | "A"AFE EFA | "Bm"Bdc "E7"BAB | "A"cAA A2 :|
+|: A |\
+"A"cee "D"dff | "A"cee ecA | cde "D"eaf | "A"ecA "E"B2A |\
+"A"cee "D"dff | "A"cee ecA | "Bm"Bdc "E7"BAB | "A"cAA A2 :|
+% text Roaring Jelly  J-17
+% text 05/27/09
+
+
+X: 2
+T: Connaught-Man's Ramble
+I: RJ D jig
+M: 6/8
+R: jig
+K: D
+A/G/ |\
+"D"FAA dAA | "G"BAB "D"dAG | FAA dfe | "Bm"dBB BAG |\
+"D"FAA dAA | "G"BAB "D"def | "G"gfe "D"dfe | "Bm"dBB B2 :|
+|: g |\
+"Bm"fbb faa | "D"fed deg | "Bm"fbb faa | fed "A"e2g |\
+"Bm"fbb faa | "D"fed def | "G"gfe "D"dfe | "Bm"dBB B2 :|
+
+
+X: 3
+T: Calliope House
+I: Calliope House	J-39	E	jig
+C: Dave Richardson
+M: 6/8
+R: jig
+K: E
+B |\
+"E"eBB gBB | fBB gBB |\
+"A"cff f2e | "B"fge cec ||\
+"E"BcB B2G | B2c e2f |
+[1 "A"gbg gfe | "B"f3 f2 :|\
+[2 "A"gbg "B"fec | "E"e3 ega |:\
+"E"b3 gbb | fbb gbb |\
+"A"a3 gag |
+"B"fgf fec ||\
+"E"BcB B2G | "C#m"B2c e2f |\
+[1 "A"gbg gfe | "B"f3 fga :|\
+[2 "A"gbg"B"fec | "E"e3-e2 |]
+

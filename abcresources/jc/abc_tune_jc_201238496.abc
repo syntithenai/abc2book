@@ -1,0 +1,32 @@
+X: 30901
+T: COTILLION No. 7. BLACKSTONE SETT tune 1
+N: This set isn't named on its first page (90), but its name is in the index at the end of the book.
+%R: march, reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.90 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Rhythm mismatched between strains 1 and 3 fixed by adding initial rest to strain 3.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+c2 |\
+c2fg a3g | f2AB c4 | (e2c2)(c2G2) | (B2A2) A2F2 |\
+c2fg a3g | f2AB c4 | G^FGA Bcde | f6 H|]
+F2 |\
+F6 G2 | A2 B2 c4 | (c2a2) .f4 | c2a2f2c2 |\
+[G2B,2][GB,][GB,] [G2B,2][G2B,2] | G2B2 d4 | (d2c2)(e2c2) | (a2g2)"^D.C.".f2 |]
+z2 |\
+(Tc2A2) "^>"f4 | (Tc2A2) "^>"a4 | (TB2G2) "^>"d4 | dc=Bc A2A(_B |\
+A2) (a4 e2) | g2 ("^>"f4 c2) | (d2c2)(c2G2) | B2A2"^D.C."F2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 forward and back,
+%% back to back,
+%% balance 4 and turn partners,
+%% ladies chain,
+%% promenade 4.
+%% Side couples the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

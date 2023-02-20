@@ -1,0 +1,67 @@
+X: 029
+T: la Damoselle   [D]
+O: c.1775
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.15 #29
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The interior repeat has 4 dots on each side of the double bar; the final repeat has only two.
+N: There's an oddly-placed comma in the 3rd strain of the dance description.
+N: The 2nd strain of music is 14 (6+4+4) bars long.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F/G/ |\
+"D"A2A AFA | "G"B2G G2B | "A7"ABG FGE | "D"D2D D(FG) |\
+"D"A2A AFA | "G(Em)"B2G G2B | "A7"ABG FGE | "D"D3- D2 :|
+|: A |\
+"D"d2d dcd | "A"e2A A2c/d/ | "A7"e2e ede | "D(Bm)"f2d d2f |\
+"E7"efd cdB | "A"{B}A3- "(A7)"A2F/G/ |
+y4 |\
+"D"A2A AFA | "G"B2G G2B | "A7"A2G F2E | "D"DED D2F/G/ |\
+"D"A2A AFA | "G(Em)"B2G G2B | "A7"ABG FGE | "D"D3- D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st 3 Cu. Balance par di Rigadoon & change places .|
+%% D.o back again :| the 1st Man figure on the Wo.s side
+%% the Wo. on the Man's, side up again on your own sides
+%% to the top & turn .|. cross over 1 Cu. turn your Part:
+%% and right & left :|:
+%%endtext
+
+%%sep 1 1 500
+
+X: 029
+T: la Damoselle   (G)
+O: c.1775
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.15 #29
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+%N: The interior repeat has 4 dots on each side of the double bar; the final repeat has only two.
+%N: There's an oddly-placed comma in the 3rd strain of the dance description.
+N: The 2nd strain of music is 14 (6+4+4) bars long.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B/c/ |\
+"G"d2d dBd | "C"e2c c2e | "D7"dec BcA | "G"G2G G(Bc) |\
+"G"d2d dBd | "C(Am)"e2c c2e | "D7"dec BcA | "G"G3- G2 :|
+|: d |\
+"G"g2g gfg | "D"a2d d2f/g/ | "D7"a2a aga | "G(Em)"b2g g2b |\
+"A7"abg fge | "D"{e}d3- "(D7)"d2B/c/ |
+y4 |\
+"G"d2d dBd | "C"e2c c2e | "D7"d2c B2A | "G"GAG G2B/c/ |\
+"G"d2d dBd | "C(Am)"e2c c2e | "D7"dec BcA | "G"G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%begintext align
+% 1st 3 Cu. Balance par di Rigadoon & change places .|
+% D.o back again :| the 1st Man figure on the Wo.s side
+% the Wo. on the Man's, side up again on your own sides
+% to the top & turn .|. cross over 1 Cu. turn your Part:
+% and right & left :|:
+%endtext
+
+%%sep 1 1 500

@@ -1,0 +1,19 @@
+X: 1
+T: Air du Saguenay
+O: Trad Qu\'ebec
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+Q: 1/4=160
+K: D
+|: "D"A2 f2 (f/g/f) ef | a2 d2 (f/g/f) ed \
+| "Em"cd ef "A"gf ga | "F7"b3 f "D/F#"a2 (B/c/B) |
+|  "D"A2 f2 (f/g/f) ef | a2 "[C7"d2 "B7]"(f/g/f) ed \
+| "E7"cd ef "A7"ge cd |1 "A7"e3 f "D"d2 (B/c/B) \
+:|2[M:6/4] "A7"e3 f "D"d3 d2 "D#7"def ||
+M: 4/4
+|:"Em"g2 e e2 "F7"f ed | "D/F#"f2 d d2 "Bm"d ef \
+| "Em"gf ga "A"b3 f | "F7"a3 a2 "D/F#"d ef |
+| "Em"g2 e e2 "A/C#"f ed | "D(C7)"f2 d d2 "B(m)7"d ef \
+| "Em(Bb7)"ge ce "A7"e3 f |1 "D"d3 d2 "D#7"d ef :|2 "D"d6 (B/c/B) |]

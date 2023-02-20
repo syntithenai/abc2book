@@ -1,0 +1,15 @@
+X: 254
+T: the Cruiskeen Lawn
+R: air, march
+%S: s:3 b:16(5+5+6
+B: O'Neill's 1850 #254
+O: J.O'Neill
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+Q: "With expression"
+N: Bar 2 doesn't add; last 2 notes changed to 16-nots.
+M: C
+L: 1/8
+K:Gm
+(G/^F/) | (D<G)(GA) B2(AB) | .c.B.A.G F3(D/C/) | (D<G)(GA) (B>A)(Bc) | d6 || zd | (d>B)(B<d) f2(ed) |
+| .c.B.A.B Hc2(Bc) | (d>c)(B<G) "^>"d2"^>"D2 | "^>"G2"^>"A2 "^>"B2 || Bc | (d>c)(B<G) "^>"d2D2 | G6 z |]
+| (G/A/) | (B>A)(B<d) (f<d)f2 | (c>A)(F<A) (c<A) || c2 | (d>c)(B<G) "^>"d2"^>"D2 | "^>"G2"^>"A2 "^>"B2Bc | (d<Hg)(d>c) "^>"B2A2 | G6 |]

@@ -1,0 +1,92 @@
+X: 1531
+T: ADMIRED WALTZ BY BEETHOVEN
+O: Arranged by Adam Kurek
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.153-155
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: The pp in bar 39 V:3 probably belongs on the pickup notes, but it's on the bar line in the MS.
+N: Fixed a few wrong or omitted rests.
+M: 3/4
+L: 1/8
+K: C
+%%scale 0.50
+% -------------------------
+V: 1
+"1st VIOLIN"|:!ff!\
+"_>"{^f}g6 | "_>"{^f}g6 | [e2G2][e2G2][e2G2] | [e6G6] |\
+!p!(DFDFDF) | (EGEGEG) | (DFDFDF) | E3!trem1!G3 |\
+D3!trem1!F3 | E3!trem1!G3 | D3!trem1!F3 | [E6G,6] :|
+|:!ff!\
+[e6B6^G6] | [e6B6^G6] | [e6B6^G6] | [e4B4^G4]e>e |\
+(ef)d3B | (ag)e3c | BdG3B | cc'2 (ge).c |\
+(ef)d3B | age3c | (Bd)G2{^f}g2 | c6 H:|
+|:!p!\
+z2[F2G,2][F2G,2] | z2[E2G,2][E2G,2] | z2F2F2 | E2G2E2 |\
+z2[F2G,2][F2G,2] | z2[E2G,2][E2G,2] | z2[F2G,2][F2G,2] |1 [E4G,4]z2 :|2 [E4G,4] |
+!ff!e>e |\
+[^g2B2]e2e>e | [a2c2]e2e>e | [b2e2][b2e2][b2e2] | [c'4e4]z2 |\
+!pp![c'd][c'd][c'2d2][c'2d2] | bbb2b2 | !ff![d'd]>[d'd][d'2d2][d'2d2] | [g4B4]z2 !pp!|\
+E2D2E2 | F4G2 |
+(G2F2E2) | D4G2 | (G2F2E2) | D6 |\
+!ff!(ef)d3B | age3c | (Bd)G3B | cc'2gec |\
+(ef)d3B | age3c | BdG2{^f}g2 | c4 H|]
+% -------------------------
+V: 2
+"2d VIOLIN"|:!ff!\
+[E2G,2][E2G,2][E2G,2] | [E2G,2][E2G,2][E2G,2] | [E2G,2][E2G,2][E2G,2] | [E2G,2][E2G,2][E2G,2] |\
+!p!(B,DB,DB,D) | (CECECE) | (B,DB,DB,D) | C3!trem1!E3 |\
+B,3!trem1!D3 | C3!trem1!E3 | B,3!trem1!D3 | C6 :|
+|:!ff!\
+[E6B,6] | [E6B,6] | [E2B,2][E2B,2][E2B,2] | [E4B,4]z2 |\
+z2[F2G,2][F2G,2] | z2[E2G,2][E2G,2] | z2[F2G,2][F2G,2] | [GG,]"_>"[c2E2]zz2 |\
+[F2G,2][F2G,2][F2G,2] | [E2G,2][E2G,2][E2G,2] | B,3!trem1!D3 | [E6G,6] H:|
+|:!p!\
+z2D2D2 | z2C2C2 | z2[D2G,2][D2G,2] | C2E2C2 |\
+z2D2D2 | z2C2C2 | z2D2D2 |1 C4z2 :|2 C4 |
+!ff!z2 |\
+^G3!trem1!B3 | A3!trem1!c3 | ^G3!trem1!B3 | AcAzz2 |\
+!pp!AAA2A2 | BBB2B2 | !ff![cD]>[cD][c2D2][c2D2] | [B4G,4]z2 !pp!|\
+C2G,2C2 | G,4G2 |
+(E2D2C2) | G,4E2 | (E2D2C2) | G,6 |\
+!ff!D3!trem1!F3 | E3!trem1!G3 | D3!trem1!F3 | E3!trem1!G3 |\
+D3!trem1!F3 | E3!trem1!G3 | D3!trem1!F3 | [E4G,4] H|]
+% -------------------------
+V: 3
+"C CLARINET"|:!ff!\
+{^d}e6 | "^>"{^d}e6 | g2g2g2 | g6 |\
+!p!agf3d | (^de)c3e | (Bd)G3B | (ce)(eg)gc' |\
+agf3d | "^>"(^de)c3c | (Bd)G2{^f}g2 | c6 :|
+|:!ff!\
+e6 | e6 | e2e2e2 | e4z2 |\
+z2B2B2 | | z2c2c2 | z2B2B2 | G"^>"e3z2 |\
+B2B2B2 | fec3E | D3!trem1!F3 | G6 H:|
+|:!p!|\
+"^>"^c(d^def)^f | (ag^fg)ec | ^c(dedB)G | .=c.d.e.fg2 |\
+"^>"^cd^def^f | ag^fgec | "^>"^cdedBG |1 c4z2 :|2 c4 |
+!ff!z2|\
+B2B2B>B | c2c2c>c | ^g2g2g2 | a4z2 |\
+!pp!^fff2f2 | ggg2g2 | !ff!^f>ff2f2 | g4g>g !pp!|\
+g2g2g2 | g4g2 |
+{^f}Tg6 | {^f}g6 | {^f}g6 | {^f}g6 |\
+!ff!efd3B | (fe)c3G | B2B2B2 | Ge2ecG |\
+B2B2B2 | fec3G | B2B2B2 | c4 H|]
+% -------------------------
+V: 4 clef=bass middle=d
+"BASE"|:!ff!\
+c2c2c2 | c2c2c2 | c2c2c2 | c2c2c2 |\
+G2g2g2 | c2c2c2 | G2g2g2 | c2c2c2 |\
+G2g2g2 | c2c2c2 | g4G2 | c6 :|
+|:!ff!\
+e2^g2b2 | "^>"e'3d'c'b | ^abc'bab | e4z2 |\
+G2z2z2 | c2z2z2 | G4z2 | c"^>"c3z2 |\
+G2g2g2 | c2c2c2 | g2z2G2 | c6 H:|
+|:!p!\
+G2z2z2 | c2z2z2 | G2z2z2 | c2z2z2 |\
+"^>"G4z2 | "^>"c4z2 | G2G2G2 |1 c4z2 :|2 c4 |
+!ff!z2 |\
+e2e2e2 | e2e2e2 | e2e2e2 | A4z2 |\
+!pp!ddd2d2 | ggg2g2 | !ff!d>dd2d2 | G4z2 !pp!|\
+G6- | G6- |
+G6- | G6- | G6- | G6- |\
+!ff!G2g2g2 | c2c'2c'2 | G2g2g2 | cc3z2 |\
+G2g2g2 | c2c'2c'2 | G2g2g2 | c'2c2 H|]

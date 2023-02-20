@@ -1,0 +1,44 @@
+%abc-2.2
+
+%%bgcolor        white
+%%scale           1.0
+%%pageheight     21.0cm
+%%pagewidth      29.7cm
+%%leftnargin      1.0cm
+%%rightmargin     1.0cm
+%%topmargin       2.0cm
+%%titlefont       Times-Roman 24
+%%subtitlefont    Times-Roman 18
+%%composerfont    Times-Italic 10
+%%titleformat     T, C-1 O1
+%%tempofont       Times-Roman 9
+%%textfont        Times-Roman 10
+%%dblrepbar :||:
+%%header East Anglian Traditional Music Trust
+%%headerfont      Times-Roman 11
+%%footer $F  --:-   © EATMT   $d  -:--   printed $D
+%%footerfont      Times-Roman 11
+%%writefields P 0
+
+X:0602
+T:Money Musk
+R:fhp 16=4*2+4*2
+C:Trad. ed. PJHeadford
+O:UK, Norfolk, Cawston and Norwich
+S:NWHCM : 1942 105.2 – Norfolk Museums Service SCN0944
+N:page 6 tune 2 of MS
+Z:abc-copyright©PJHeadford_2021
+M:C|
+L:1/8
+Q:2/4=70
+K:G
+%%MIDI program 75
+g|dGBG dGBe|eGBG ((3ABA) ce|eGBG ((3Bcd) dg|ecAd BG G:||:d|
+g2dg Bgeg|gdcg BgA2|gdfg egcg|ecAd BG G:||:XXX
+%%begintext
+%%The original author has a habit of writing noteheads slightly high.
+%%All notes above the stave are uncertain, but ledger lines are usually distinct.
+%%The MS has no figure 3 on either of the two triplets.
+%%endtext
+
+

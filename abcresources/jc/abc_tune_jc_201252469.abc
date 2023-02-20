@@ -1,0 +1,49 @@
+%%center Billy Budd + Billy Bones
+%X: 0
+%T: Billy Budd + Billy Bones
+%C: 100624
+%P: billybudbon.mix
+%K:
+
+
+X: 1
+T: Billy Budd
+P: piffero primo b0053
+O: Roy Watrous
+%R: reel
+S: http://ancients.sudburymuster.org/mus/ssp/pdf/billybudF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+ec |\
+A2A2 cecA | defg a2gf | eaec dfdB | cecA B2ec |\
+A2A2 cecA |
+defg a2gf | eaec fdB=G | A2A2 A2 :: cd |\
+ecfc ecfc | ecaf e2cd |
+eaec dfdB | cecA B2cd |\
+ecfc ecfc | ecaf e2cd | eaec fdB=G | A2A2 A2 :|
+
+
+X: 2
+T: Billy Bones
+P: piffero primo a0783
+O: Roy Watrous
+%R: reel
+S: http://ancients.sudburymuster.org/mus/med/pdf/billybudbonC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+A2 |\
+d2dc defd | efec A2A2 | B2ba gfed | cdef egfe |\
+d2dc defd |
+efec A2A2 | B2ba gfed | cABc d2 :|\
+|: fg |\
+afdf afba | gece geag |
+fdAd fdgf | ecAc egfe |\
+d2dc defd | efec A2A2 | B2ba gfed | cABc d2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

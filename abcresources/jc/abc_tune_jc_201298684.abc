@@ -1,0 +1,16 @@
+X: 1
+T: L\aangdans fr\aan Soller\"on
+O: Sweden
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+V: 1 staves=2
+|: A2 ^c2 d2 | e3 g f2 | d2 fe d^c | d3 ^c A2 \
+|  A2 ^c2 d2 | e3 g f2 | d2 fe d^c | d4 d2 :|
+|: .a2 .g2 .e2 | g3 e f2 | .f2 .a2 .g2 | .e2 ge f2 | d2 fe d^c | d4- d2 :|
+V: 2
+|: "A7"AG [A2E2] "Dm"[AF][GA] | "A7"A^c ec "Dm"[d2D2] | F2 DE "A7"FG | "Gm"F2 B2 "A7"AG \
+|  "A7"F2 [A2E2] "Dm"[A2F2] | "A7"B2 A^c "Dm"[d2D2] | F2 D2 "A7"B2 | "Dm"AG FE [A2D2] :|
+|: "A7".[f2A2] .[e2A2] .^c2 | A^c ec "Dm"d2 | DE F2 "Gm"B2- | "A7"B2 A^c "Dm"[d2D2] \
+|  "Gm"[B2D2] "Dm"[A2D2] "A7"[A-G][AE] | "Dm"[A4F4][A2D2] :|

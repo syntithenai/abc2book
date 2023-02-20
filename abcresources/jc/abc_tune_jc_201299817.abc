@@ -1,0 +1,25 @@
+X:3
+T:L'a\'eroplane d'Erquy (en mineur)
+G:Groilh
+R:A\'eroplane d'Erquy (scottish ?)
+C:Traditionnel, arrangement http://kazimodal.trad.org
+M:2/4
+L:1/16
+Q:C4=90
+P:C4
+M:2/4
+K:Dm
+P:C
+M:2/4
+L:1/16
+Q:C4=90
+%%MIDI gchord fzccfzcf
+%%MIDI chordprog 67
+%%MIDI bassprog 70
+%%MIDI bassvol 127
+%%MIDI program 71
+|: "Dm"A2A2 "Gm"B2A2 | "Dm"A2DE "F"F4 | "Gm"FAGF "Am"E2FG |1\
+	"Bb"AGFE "C"F2D2 :|2 "Bb"AGFE "C"D4 ||
+|: "F"F2F2 "Gm"G2E2 | "Am"E2DE "Bb"F4 | "Gm"FAGF "C"E2FG |1\
+	"Am"AGFE "Dm"F2D2 :|2 "Am"AGFE "Dm"D4 ||
+%%text Refaire un coup de A

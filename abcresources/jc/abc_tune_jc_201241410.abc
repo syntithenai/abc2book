@@ -1,0 +1,22 @@
+X: 4343
+T: Now or never
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/8
+L: 1/8
+K: C
+%
+V: 1
+|: c2c BAG | ABc dBG | cdc BAG | AG^F G3 :: c2c e2g | f2e d2c |
+   c2c e2f | g2f g3 | c2c e2g | f2e d2c | cac BgB | ABc dBG | cdc BAG | A2B c3 |]
+%
+V: 2 clef=bass middle=d
+|: c2z g2z | f2z g2z | a2z g2z | d2D G3 :: e2z c2z | d2c g2z |
+   e2z c2z | A2z G2z | e2z c2z | d2c g2z | a2z g2z | f2z g2z | a2z g2z | f2g c3 |]
+%%begintext align
+First Cu. foot and cast off .|
+load thro' 3d Cu. and cast up :|
+First Man turn 3d Wo. while 1st Wo. turns 2d Man, foot it to your Partners and turn .|
+1st Man turn 2d Wo. while 1st Wo. turns 3d Man, foot to your Partner and turn proper
+%%endtext

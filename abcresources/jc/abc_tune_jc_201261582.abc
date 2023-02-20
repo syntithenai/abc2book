@@ -1,0 +1,21 @@
+X: 1
+T: Chesed
+%T: Kindness, Love, Mercy
+C: Shana Aisenberg
+R: horra
+S: Fiddle Hell Online 2020-11-09 handout for Klezmer Jam led by Shana Aisenberg
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dphr	% actually D freygish (and G minor)
+%%continueall
+"^A"|:\
+"D"DE E>D | DC D2 | ^FG G>F | ^FE F2 |\
+AB B>A | AG A>G | "Cm"^FC DE | "D"D4 :|
+"^B"|:\
+"Gm"GB B>A | AG G2 | "F"FA A>G | GF F2 |\
+"Gm"GB B>A | AG GA/G/ | "Cm"^FC DE | "D"D4 :|
+"^C"|:\
+"D"A4 | d4 | A2 d2 | d2 d2 |\
+"D"Ac c>B | BA A2 | "Gm"GB B>A | AG G2 |\
+"D"^FA A>G | G^F F>G | "Cm"^FC DE | "D"D4 :|

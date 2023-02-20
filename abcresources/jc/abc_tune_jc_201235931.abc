@@ -1,0 +1,28 @@
+X: 21482
+T: GRAND MILITARY SETT (tune 2)
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" 1843 p.148 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="2"
+[|\
+c2 Bc | ed d2 | ~d2 ef | ag g2 |\
+~g2 c'g | (eg) .c.e | GdBG | c3 z H|]
+e2 ^de | (fe) .d.B | ce ae | be ae |\
+c2 Bc | (dc).A.c | Bd^fd | g3  "^D.C."z :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance four,
+%% next two, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

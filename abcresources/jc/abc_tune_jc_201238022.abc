@@ -1,0 +1,22 @@
+X: 3011
+T: the_Highland_Chieftain
+C: by Nath. Gow.
+%R: air, strathspey
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.1 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+g |\
+!p!Tf>e{c}d>B AFFd | (A<F)A>E {E}F2Fg | Tf>ed>B A>B {B}d>B | (A<F)F>D {D}[E2C2][EC]g || Tf>de>f d>fB>d |
+A>dAF {F}A2AB/!f!c/ | Td>f {e}dc/B/ AFFd | !p!(A<F)TF>D {D}[E2C2][EC] |]| B | !f!A<FTF>B A<FF>d | AF {F}A>E {E}TF2FB | A<FA>B
+Td>e{e}f>e | {c}d>BAF {F}[E2C2][EC]B || (A<F)F>d (A<F)F>B | (A<F){F}A>E {E}F2F>B | !f![AD]>B [dF]>f e<fHd>B | A>B {AB}dF {F}[E2C2][EC] |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | !p!d2fg f2d2 | d2c2 dA D2 | d2bg f2dg | f2d2 AaAz || d2a2 b2g2 |
+f2d2 Dd f!f!g | fd aA d2D2 | !p!d2B^g aeA |]| =g | !f![f3d4]g [f2d2]D2 | d2c2 dA D2 | d2fg
+fedc | BGFD AaA2 || d2[d2a2] d3[dg] | d2c2 dA dg | !f![F2f2] [D2d2] [A2a2] Hbg | f2d2 AaA |]

@@ -1,0 +1,58 @@
+%% text RJ Set 127
+
+
+X: 1
+T: The Hare    [D]
+O: Qu\'ebec
+R: reel
+S: Debbie Knight, Sep 2015 RJ
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+   BAF |\
+"D"DFAd  "G"(3BdB AG | "A7"FABc  "D"dcd2 |\
+"D"DFAd "Bm"(3BdB AF | "Em"BFAF "A7"EGFE |
+"D"DFAd  "G"(3BdB AG | "A7"FABc  "D"dcde |\
+"D"~f2fa  "G(Em)"gfed | "A7"cABc  "D"d   :|
+|: efg |\
+ "D"a2fd Adfa | "Em"g2ec "A7"Acef |\
+"A7"gece aece | "A7"bgec  "D"defg |
+ "D"a2fd Adfa | "Em"g2ec "A7"Acef |\
+"A7"gece aece | "A7"bgec  "D"d   :|
+
+
+X: 2
+T: Evit Gabriel
+C: Daniel Thonon
+R: reel
+Z: transcribed to ABC by Debby Knight
+M: C|
+L: 1/8
+K: Em
+|:\
+"Em"EFGF EFGF | EFGA B2AB |\
+"Am"cBAG F2GA | "B7"BAGB F4 |\
+"Em"EFGF EFGF | EFGA B2AB |
+"Am"cBAG "B7"FBGF | "Em"EG"B7"FD "Em"E4 ::\
+"Am"eAAe "D"dcBc | "G"dGGd "C"cBAG |\
+"F#m"FGAc "B"BAGF | "Em"GFGA "E7"B2cd |
+"Am"eAAe "D"dcBc | "G"dGGd "C"cBAG |\
+"F#m"FGAc "B"BAGF |["Normal" "Em"GA"B7"FG "Em"E4 :|\
+["Trans" "No Chord" .Bz3 z4 |]
+
+
+X: 3
+T: Reel \`a Gilbert
+M: C|
+L: 1/8
+R: reel
+K: A
+|:\
+"A"EAcA "D"BAFA | "A"EAcA "D"BAFA | "A"e3f "A#dim"ecBA | "Bm7"BAcA "E7"BAFA |
+"A"EAcA "D"BAFA | "A"EAcA "D"BAFA | "A"e2ef "Bm" ecBA |1 "E7"BABc "A"A2AF :|[2 "E7"BABc B2cd ||
+|:\
+"A"e3f eca2 | "D"f3a f2ed | "A"cdef "A#dim"ecAB | "Bm7"BABc "E7"BAF2 |
+"A"e2ef eca2 | "D"f2fg f2ed | "A"cdef "Bm7"ecAB |1 "E7"BABc B2cd :|[2 "E7"BABc "A"A2AF |]
+%%text Ending: Stop on that A quarter-note.
+

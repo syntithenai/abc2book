@@ -1,0 +1,23 @@
+X: 4310
+T: Black Jack
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: C|
+L: 1/8
+K: D
+%
+V: 1
+|: d>efd ecdf | ecdB AFE2 | d>efd ecdf | ecdB AFD2 :|
+|: DEFG ABAF | ABAF d>edB | ABAF d>efe | dBAB AFE2 |
+   DEFG ABAF | ABAF defe | dBAB ABAF | dBAB AFD2 |]
+%
+V: 2 clef=bass middle=d
+|: d'2d2 a2bd' | c'abg a2a2 | d'2d2 a2bd' | c'abg d2d2 :|
+|: d2d2 d2d2 | d2d2 d2d2 | d2d2 d2d2 | d2d2 a2A2 |
+   d2d2 d2d2 | d2d2 d2d2 | d2d2 d2d2 | d2d2 d2d2 |]
+%%begintext align
+Foot it cross ways, First Cu. cross over two Cu. lean up to the top and foot a
+little, cast of one Cu. foot it and back to back and right hands and left with
+the uppermost Cu.
+%%endtext

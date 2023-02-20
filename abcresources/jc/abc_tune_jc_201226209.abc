@@ -1,0 +1,20 @@
+X: 10142
+T: TOM HANDFORD'S HORNPIPE
+R: hornpipe
+B: K\"ohler's Violin Repository, v.1, 1885 p.14 #2
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: There's a strange "O" symbol between the last note (e') and the final repeat symbol.
+M: C|
+L: 1/8
+K: A
+((3EFG) |\
+A>(Bc)>(d e)>(ca)>(e | f)>(da)>(f e)>(ca)>(e |\
+f)>(da)>(f e)>(cA)>(c | (3B)cB (3AGF E2 ((3EFG) |
+A>(Bc)>(d e)>(ca)>(e | f)>(da)>(f e)>(ca)>(e |\
+f)>(ag)>(f e)>(dc)>B | A2 {g}a2 A2 :|
+|: c2 |\
+(B>c)d>e (d>B)G>B | (A>c)e>g a2e>a |\
+(g>f)d>f (e>c)A>c | (3BcB (3AGF E2 c2 |
+(B>c)d>e (d>B)G>B | (A>c)e>g a2e>g |\
+(3fba (3gfe (3^dcB (3AGF | (3EGB (3egb e'2 :|

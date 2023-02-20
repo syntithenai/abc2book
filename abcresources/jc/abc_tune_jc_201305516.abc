@@ -1,0 +1,59 @@
+X: 1
+T: Madge on a Tree
+P: Round for eight
+%R: waltz
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.14 #29
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.6
+Z: 2012-2013 John Chambers <jc:trillian.mit.edu>
+N: The actual time signature is "3I"
+N: The next-to-last bar has e sharp, but Walsh regularly uses sharps for naturals.
+N: The key is a big ambiguous between Bb and G minor/dorian.
+N: DMDfD lacks the flat signs in bars 1 and 9.
+M: 3/4
+L: 1/4
+K: _B
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+B>c d/_e/ | fdB | cAF | c2A |\
+B>cd | d>_ed | B>AG | d2G |
+B>c d/_e/ | fdB | cAF | c2A |\
+Bcd | e^fg | ^f>=e^f | g2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands and meet a D. back again, sett and turn single .|  That
+%% again :|  Men meet in the midst, turn Back to Back, come to your
+%% Places, and turn to the co. We. .:|  We. meet, turn Back to Back,
+%% come to your Places, and turn to your own :|.:|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Sides all, sett and turn S .|  That again :|  Men go towards the
+%% left Hand before the co. We. and behind the next We. Meet and
+%% turn S :|  That again to your Places :|:|  Then the We. as much .:|.:|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Arms all, sett and turn S .|  That again :|  Turn all the co. We.
+%% turn all the next We. .:|  Turn all the next, turn all your own :|:|
+%% [CCDM1]
+%%endtext
+%%sep 1 8 500
+%% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands and meet a D. back again, set and turn S. .| That again :| Men meet in the midst, turn
+%% back to back, come to your places and turn to the cu. we. .:| We. meet, turn back to back, come
+%% to your places, and turn to your own :|.:|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Sides all, set and turn S. .| That again :| Men go towards the left hand before the co. We. and behind
+%% the next We. meet and turn S. :| That again to your places :|:| Then the We. as much .:|.:|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Arms all, set and turn S. .| That again :| Turn all the co. We. turn all the next We. .:| Turn all the
+%% next, turn all your own :|:|
+%% [DMDfD]
+%%endtext
+%%sep 1 5 500

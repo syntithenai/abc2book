@@ -1,0 +1,28 @@
+X: 5
+T: the Regency Waltz
+O: 1812
+%R: waltz
+B: A Musical Souvenir of the Royal Pavilion - Brighton"
+F: https://www.mediafire.com/folder/d9iv45ggjx1fu/Royal_Pavilion_-_Brighton
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+{a}g4e2 | {a}g4e2 | (gfef)d2 | (gfef)d2 |\
+{a}g4e2 | {a}g4e2 | d2(dcde) | c6 |]
+ag^fgaf | gfefgf | fedefe | e4d2 |\
+{a}g4e2 | {a}g4e2 | d2(dcde) | c6 |]
+K: G
+d2 |\
+g2(gdgb) | d4Bd | c2(cBcd) | B4d2 |\
+g2(gdgb) | d4Bd | c2(cBcA) | G4 :|
+(DEFGAB) | c2a2a2 | D2f2f2 | g2(fgag) |\
+(DEFGAB) | c2a2a2 | D2f2f2 | g6 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands four round and back again. Lead
+%%    down the Middle up again and
+%%             Allemande.
+%%endtext
+% %sep 2 2 400

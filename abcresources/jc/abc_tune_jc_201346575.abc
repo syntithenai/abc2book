@@ -1,0 +1,28 @@
+X: 1
+T: a Trip to Wimbleton
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (58)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+fg |\
+a2f2 c2f2 | f4 A4 | BcdB GABG | ABAG F2fg |\
+a2f2 b2a2 | g4 f4 | efg2 G2=B2 | c6 :|
+|: cB |\
+A2c2 f2c2 | d4 c4 | Bcd2 g2b2 | e4 c4 |\
+a2 f4 d2 | b2 g4 f2 | efg2 c2e2 | f6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man cast off below the 2d Man the 2d Wo. cast
+%% up at the same time and turn 2d Man .| then 1st Wo.
+%% and 2d Man do the same :| the 1st Man change place with
+%% the 2d Wo. and the 1st Wo. with the 2d Man and follow
+%% quite round and cast off .| then lead through 3d Cu.
+%% right and left quite round with the 3d Cu. and turn
+%% Partners :|
+%%endtext
+%%sep 1 8 500

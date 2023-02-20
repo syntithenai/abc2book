@@ -1,0 +1,41 @@
+
+X: 1
+T: Bat Carmel  [Gm]
+O: Israel
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Gm
+"^Intro"| "Bb"B3c d2 fd | "Cm"cd cG c2 BA \
+| "Gm"BA Bc "F"A2 GA | "Dm"F2 "Gm"G2 z2 ||
+|: F2 \
+| "Gm"G3 F B3 A | "Cm"Bc "D7"AF "Gm"G2 G2 \
+| "Cm"c2 dc "F"A2 F2 | "Eb"BA G4 "Gm"G2 |
+| "Cm"c3 d e2 c2 | "Bb"de dc "Gm"B2 G2 \
+| "F"A2 AB "Dm"c2 F2 | "Gm"BA G4 G2 |
+| "Bb"d3 e f2 B2 | "Cm"e2 ed G2 c2 \
+| "Bb"d2 e2 "G7"f2 g2 | "Cm"ed c4 c2 |
+| "Bb"d2 de f2 d2 | "Cm"ed dc c2 z2 \
+| "Gm"BA Bc "F"A2 GA | "Dm"F2 "Gm"G2 z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Bat Carmel  [Am]
+O: Israel
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+"^Intro"| "C"c3d e2 ge | "Dm"de dA d2 cB \
+| "Am"cB cd "G"B2 AB | "Em"G2 "Am"A2 z2 ||
+|: G2 \
+| "Am"A3 G c3 B | "Dm"cd "E7"BG "Am"A2 A2 \
+| "Dm"d2 ed "G"B2 G2 | "F"cB A4 "Am"A2 |
+| "Dm"d3 e f2 d2 | "C"ef ed "Am"c2 A2 \
+| "G"B2 Bc "Em"d2 G2 | "Am"cB A4 A2 |
+| "C"e3 f g2 c2 | "Dm"f2 fe A2 d2 \
+| "C"e2 f2 "A7"g2 a2 | "Dm"fe d4 d2 |
+| "C"e2 ef g2 e2 | "Dm"fe ed d2 z2 \
+| "Am"cB cd "G"B2 AB | "Em"G2 "Am"A2 z2 :|

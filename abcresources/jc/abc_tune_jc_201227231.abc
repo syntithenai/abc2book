@@ -1,0 +1,26 @@
+X: 10684
+T: KILLIECRANKIE
+O: Scottish air.--Old set.
+Q: "Very slow."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.68 #4
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Two 32nd-notes in bar 3 changed to 16th-notes, to fix the rhythm. (Or you can add a dot to the final B note.)
+M: C
+L: 1/16
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+EF |\
+G3A{A}G2E2 (GE).G.A G3E | (GF)(ED) (CD).E.F TG4 G2EG |\
+A3cA2GA c2A2A2 GAB2 | Tc3d{cd}e2dc A4 A2eg |\
+a2ge g2ed {f}e2dc d2e2 |
+Tc3A (GA).c.E {E}G4 G2cB |\
+!f!A2GA c2Ac (.d2.d2) {d}e3d | {B}"_dim. . . ."c3A (GA)cE TD4 C2 :: ef |\
+Tg3ag2e2 (ge)ga {a}g3e | (gf).e.d (cde)f Tg4 g2(e.g) |
+Ta3c' a2g2 (ag)ac' {a}a2g2 | a2ge d2eg Ta4 a2eg |\
+(ag).e.a (ge)dg (fe)(dc) d2e2 | ~c3A (GA).c.E {E}G4 G2cB |\
+A2GA c2Ac (.d2.d2) {d}e3d | {d}"dim. . . ."Tc3A (GA)cE TD4 C2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

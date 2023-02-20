@@ -1,0 +1,23 @@
+X: 1
+T: Widows shall all have Husbands
+P: Longways for as many as will.
+%R: jig
+B: "Twenty Four New Country Dances for the Year 1713" John Walsh, London 1713
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the phrasing of the dance.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+G2G d>ed | c2A B>AG | d2G G2A | ^F3 G2 :| |: d | e2d efg | f2e d2d | e2d efg |
+f3 d2d | g2f edc | B2B B2B/B/ | c2c c>de | dBc d>ef | egG G2A | A3 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The two first Couple lead to the Wall, back again .| The first Couple lead up, and the second down,
+%% back again :| The first Couple cross over, do the half Figure through the second Couple, turn Hands
+%% round .| The first Man turn the third Woman (at the same time), the first Woman turn the second
+%% Man, then turn his Partner, then the first Man turn the third Man, and the first Woman turn the
+%% second Woman, and fall into the second Couple Place :|
+%%endtext
+%%sep 1 8 500

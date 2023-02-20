@@ -1,0 +1,20 @@
+X: 282	% 77
+T: I Like Sugar In My Coffe
+T: (Called Cotton Eyed Joe)
+N: Handwritten: "/a lot like Dandy Jim/".
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.28 #2
+R: polka
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="77"
+[| "Polka tempo"\
+D2G2 BcBG | A2B2 c4 | D2G2 BcBG | B2A2 G4 |\
+D2G2 BcBG | A2B2 c4 | D2G2 BcBG | B2A2G4 ||
+"^(Omit second time alternate)"\
+e2d2 BBdd | e2f2g4 | e2d2 BBGG | B2A2A4 |\
+e2d2 BBdd | e2f2g4 | e2d2 BBGG | A2G2 G4 ||
+"^(take this)"\
+e2d2 BBdd | e2f2g4 | e2d2 BcBG | B2A2 A4 |\
+e2d2 BcBd | e2f2g4 | e2d2 DEGB | A2G2G4 |]

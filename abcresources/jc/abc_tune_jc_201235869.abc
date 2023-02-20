@@ -1,0 +1,18 @@
+X: 2142
+T: Follow her over the border
+%R: slip-jig
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.14 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: F
+% - - - - - - - - - -
+% Voice 1 reformatted for 1 8-bar line, for compactness and proofreading.
+V: 1 staves=2
+d | Tc2A AFA AFA | Tc2A- AFA c2f | Tc2A AFA AFA | TB2G GAG B2 :: d |\
+TcAA fAA cAA | cAA fAA Tc2d | cAA fAA cAA | TB2G GAG B2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | f3 f3 f3 | f3 f3 a3 | f3 f3 f3 | g3 e3 c2 :: z |
+f3 f3 f3 | f3 f3 a2b | a3 f3 f3 | g3 e3 c2 :|

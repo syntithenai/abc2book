@@ -1,0 +1,15 @@
+X:79
+T:Huntington
+C:1938 Fife-Colin Stearn
+M:2/4
+Q:1/4=100
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A|d>d df|e/f/g f/e/d|B>B Bd|A/B/A/F/ AA|f>f fa|g/f/e d/e/f|B>B Bd|
+c/d/e/c/ d::A|d/e/f e/f/g|f/g/a ge|dd ee|f/a/g/f/ e/f/g|a/g/f g/f/e|f/e/d eA|d/d/e/f/ gf|dc d:|
+|:z|A2 FA|B/c/d- dB|A2 FA|G/F/E- EA|A2 FA|B/c/d- de|f/e/d e/d/c|d2 d:|

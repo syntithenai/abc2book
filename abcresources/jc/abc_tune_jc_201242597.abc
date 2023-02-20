@@ -1,0 +1,39 @@
+X: 621
+T: Lady Elgin's Reel
+R: reel, strathspey
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.62 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Added initial pickup rest to fix the rhythm on repeats.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+z |\
+D2DF TE>DB,2 | D2DF AdD2 |\
+G>AFd TE>DB,2 | {Bc}dB AF A2-A :|
+|: a |\
+fd-df g>fea | fddf a>baf |\
+g>af>g Te>def | d>edF A2-A :|
+|: B |\
+AFd>F TE>DB,B | A<Fd>F A>Fd>F |\
+GdFd TE>DB,B | dBAF A2-A :|
+|: (g |\
+Tf)ddf g>fea | fddf a>baf |\
+g>af>g Te>def | dedF A2-A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 e2e2 | d2d2 d2f2 |\
+g2f2 e2e2 | d2A2 D2D :|\
+|: z |\
+d2d2 e2e2 | d2d2 d2d2 |
+g2f2 e2e2 | d2A2 D2D :|\
+|: z |\
+d2d2 e2e2 |d2d2 d2d2 |\
+d2d2 B2B2 | d2A2 D2D :|
+|: z |\
+d2d2 e2e2 | d2d2 d2d2 |\
+g2f2 e2e2 | d2A2 D2D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

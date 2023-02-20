@@ -1,0 +1,22 @@
+X: 1
+T: the Black Cat Jig
+C: Daniel Compton 1996
+R: jig
+S: The Portland Collection v.1 p.31
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Suggested tune for The Bishop's Halloween (with "the Witch Under the Stairs")
+M: 6/8
+L: 1/8
+K: Dm
+|:\
+"Dm"d2A DEF | ABA "Am"E2F | "Gm"G3 GFE | "A7"A,^CE GFE |\
+"Dm"DdA DEF | ABA "Am"E2F | "Gm"G3 "A7"A,^CE | GFE "Dm"D2c :|
+|:\
+"Dm"d2e fgf | "A7"e^cA Ace | "Gm"g3 gfe | gba "A7"gfe |\
+"Dm"d2e f3 | "A"ea^g a3 !coda!| A^ce Ace | gfe "Dm"d3 :|
+!coda!|\
+"Gm"abb bag | "Dm"gaa agf [| "A7"fgg gfe | "Dm"def fed |\
+"A7"^cde g3 | "Dm"def ~a3 | "Gm"abb bag | "Dm"gaa agf |
+"A"A^ce Ace | gfe "Dm"d3 |]\
+x3 x3 x3 x3 x3 x3 x3 x3 x3 x3 x3 x3 x3 x3 x3
+%%text Last time play first 6 measures of B1, then go to the coda.

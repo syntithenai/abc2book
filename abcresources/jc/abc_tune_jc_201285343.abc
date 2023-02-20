@@ -1,0 +1,21 @@
+X: 1
+T: Heading for Zero
+C: tune and dance by Jenny Beer (2004)
+R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+B: Barnes v.2 p.57
+F: https://www.youtube.com/watch?v=cOpF5So9g8k
+M: 9/8
+L: 1/8
+K: D
+|:\
+"D"d3 "(A7)"A2G "D"FED | "Em"B3 e2B "A"c3 |\
+"D"d3 "A/c#"A2G "Bm"FGA | "Em"Bcd "A"ecA "D"d3 :|
+|:\
+"G"B3 d3 "A"ecA | "D"fef "Em"g2f "A"e3 |\
+"D"f3 "G"g3 "A"ecA | "G(Em)"Bcd "A"ecA "D"d3 :|
+|:\
+"D"FED FED "G"G3 | "D"FED DEF "A"E3 |\
+"D"FED "G"G2F "A"ECA, | "G(Em)"B,CD "A"E2C "D"D3 :|
+
+%%sep 1 1 500

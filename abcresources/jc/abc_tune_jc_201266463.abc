@@ -1,0 +1,29 @@
+X: 55
+T: the Dairy Maid
+T: Bhanarach dhonn a'chruidh
+C:
+O:
+R: air, waltz
+B: Version from the Concord Slow Scottish Jam session binder 2.
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/8
+Q: "Slow and Tender."
+K: Gm
+% - - - - - - - - - -
+V: 1 staves=2
+G/>^F/ |\
+G>Ac | T~d>cd | fdc | {F}A>GF |\
+G>AB | d>^fHg | d>cB | G2 \
+|: (3(d/=e/^f/) | gd(g/a/) |
+{ga}b>ag | fdc | {F}A>GF |\
+[1 gdg/a/ | {ga}b>ag | dg^f | g2 :|\
+[2 G>Ac | d^fHg | d>cA | G2 |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+!p!z |\
+Ggg | Ggg | Fff | Fff |\
+Ggg | GgHg | bc'd' | [B2G2] |: z | !p!G"_cres."gg |
+Ggg | "_dim."Fff | Fff |\
+[1 Ggg | Ggg | bc'd' | [b2g2] :|\
+[2 Ggg | GgHg | bc'd' | [b2g2] |]

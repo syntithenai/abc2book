@@ -1,0 +1,606 @@
+X: 0
+T: Twenty Four Country Dances for the Year 1791
+N: Publisher: Saml. Ann & Peter Thompson, London, 1791
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+F: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1791_(Various)
+K:
+%%center With proper Tunes & Directions to each Dance as they
+%%center are Perform'd at Court, Bath, & all Publick Assemblys
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 49
+T: Ching Chit Quaw Dance
+R: reel
+M: 2/4
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Saml. Ann & Peter Thompson "Twenty Four Country Dances for the Year 1791", London 1791, p.25 #1
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+B2B2d2d2 | A2A2c2c2 | B2G2c2A2 | F2A2d2 :||: d2 |
+dcB2 BAG2 | G2c2 e2g2 | dcBc dede | d2g2d2G2 |
+B2B2d2d2 | A2A2c2c2 | Bcdc Bcdc | B2g2G2 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Cast off one Cu: .|.
+%% up again :|.
+%% cross over two Cu: lead up one Cu: Right & left at top .|: :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 50
+T: The Savoyards Dance
+R: jig
+M: 6/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Saml. Ann & Peter Thompson "Twenty Four Country Dances for the Year 1791", London 1791, p.25 #2
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+AAA |\
+d2d e2f | e2d d2c | B2B c2A | d3 AAA |\
+d2d e2f | d2d def | g2e d2c | d3 :|
+|: ABc |\
+d2d e2e | g2g e2e | f2e f2d | a3 fga |\
+g2g e2e | f3  fga | g2g e2e | d3 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Cast off two Cu: and up again .|.
+%% cross over two Cu: up again and cast off :|.
+%% hands four quite round at bottom .|:
+%% Right and left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 51
+T: Ding Dong Bell
+R: reel
+M: 2/4
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Saml. Ann & Peter Thompson "Twenty Four Country Dances for the Year 1791", London 1791, p.26 #1
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+GABc d2B2 | ABcd e2c2 | GABc d2B2 | c2A2 A4 |\
+GABc d2B2 | ABcd e2c2 | B2g2 d2c2 | B2G2 G4 :|
+|:\
+g2b2 g2d2 | e2g2 d2B2 | c2e2 d2B2 | c2A2 A4 |\
+g2b2 g2d2 | e2g2 d2B2 | A2e2 d2c2 | B2G2 G4 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% 1st & 2d Cu: change sides & back again .|.
+%% hands 4 across & back again :|.
+%% lead down the middle up again and cast off .|:
+%% then Allemande :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 52
+T: The Hurry Scurry
+R: hornpipe
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Saml. Ann & Peter Thompson "Twenty Four Country Dances for the Year 1791", London 1791, p.26 #2
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: d>AF>D d>AF>D | d>AF>D [A2A,2][A2A,2] | E>FG>A B>AG>F | F2TE2 D4 :|
+|: d2df B2Bd | A2Ac d>AF>D | d2df B2Bd | A2Ac d4 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% 1st Gent: turn the 2d Lady .|.
+%% 1st Lady turn the 2d Gent: :|.
+%% Cross over one Cu: .|:
+%% Right and Left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 53
+T: New Highland Reel
+R: hornpipe
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Saml. Ann & Peter Thompson "Twenty Four Country Dances for the Year 1791", London 1791, p.27 #1
+K: E
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+E>FG>A B>cd>B | e>gb>g e>dc>B | c>ed>f e>gf>a | g>eb>g Tg2f2 |
+E>FG>A B>cd>B | e>gf>g e>dc>B | c>ed>f e>gf>a | g2Tf2 e4 :|
+|:\
+b>gb>g a>fa>f | g>eb>g e>dc>B | c>ed>f e>gf>a | g>eb>g Tg2f2 |
+b>gb>g a>fa>f | g>eb>g e>dc>B | c>ed>f e>gf>a | g2Tf2 e4 :|
+|:\
+E>BG>B E>BG>B | E>eg>e b>eg>e | E>BG>B E>eg>e | a>fd>f f>ed>e |
+E>BG>B E>BG>B | E>eg>e b>eg>e | E>BG>B E>eg>e | b>ga>f e4 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu: up again .|.
+%% Right hands across left back again :|.
+%% lead down the middle up again and cast off .|:
+%% Hands 6 quite round :|:
+%% Hands 6 back again .|:.
+%% foot it and lead out sides :|:.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 54
+T: Blue and Buff
+R: reel
+M: 2/4
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The ties in bars 8 & 16 have a dot, making them look like fermata signs.
+B: Saml. Ann & Peter Thompson "Twenty Four Country Dances for the Year 1791", London 1791, p.27 #2
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+Addd | fddd | gfee | (f/g/a) (f/g/a) |\
+Addd | fddd | edef | d2-d2 :|
+afga | gefg | fdef | ec A2 |\
+afga | gefg | fdfb | a2-a2 "D.C."y|]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% 1st Cu: Allemande .|.
+%% 2d Cu: do the same :|.
+%% Promenade 3 Cu: round :|.
+%% 1st and 2d Cu: Poussett :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 55
+T: Trip to Barking Mill
+R: jig
+M: 6/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Saml. Ann & Peter Thompson "Twenty Four Country Dances for the Year 1791", London 1791, p.28 #1
+N: To make the rhytm correct, you can make the initial pickup a triplet.
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F/G/A/ |\
+BBB Bdf | ccc ceg | BBB Bdf | cAF F2F |\
+BBB Bdf | ccc ceg | fdB cBc | BBB B2 :|
+|: f |\
+bbb bfd | ggg gec | eee ecA | ABc F2F |\
+GAB ABc | def gab | fdB cBc | BBB B2 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Right Hands across .|.
+%% Left Hands back again :|.
+%% 1st 2d & 3d Cu: Promenade round .|:
+%% cross over Right & Left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 56
+T: The Whim of the Moment
+R: march, reel
+M: 2/4
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Saml. Ann & Peter Thompson "Twenty Four Country Dances for the Year 1791", London 1791, p.28 #2
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D>FGA | B2BG | cABG | BGE2 |\
+D>FGA | BcdB | ecAG | FAHG2 :|
+eeeg | d2B2 | ccde | B2G2 |\
+ABcA | BcdB | ecAG | FAFD "D.C."y |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Right Hands across left hands back again .|.
+%% change sides & back again :|.
+%% lead down the middle up again & cats off .|:
+%% Allemande with both hands :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 57
+T: The Ranting Highlandman
+R: march, reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Saml. Ann & Peter Thompson "Twenty Four Country Dances for the Year 1791", London 1791, p.29 #1
+N: This tune is a version of the White Cockade.
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+GA |\
+B2B2 {c}B2AG | BABc B2g2 | {e}d2{c}B2 {c}B2AG | AGAB A2GA |\
+B2B2 cBAG | A2B2 g2fg | a2gf {a}g2fe | d2B2 B2 :|
+|: Bc |\
+d2B2 g2Bc | d2B2 d2e2 | d2B2 g2fg | a2A2 A2GA |\
+B2B2 {c}B2AG | A2B2 g2fg | {b}a2gf {a}g2fe | d2B2 B2 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% 1st 2d & 3d Gentn take Hands & go round their Partners .|.
+%% the Ladies the same :|.
+%% 1st Cu: go round with the Allemand till they come in their places again the 2nd & e3 Cu: follow .|":
+%% cross over Right & left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 58
+T: The Haunted Tower
+R: reel
+M: 2/4
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Saml. Ann & Peter Thompson "Twenty Four Country Dances for the Year 1791", London 1791, p.29 #2
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+dfaf | geee | ff/e/ df | (f2e)A |\
+dfaf | {a}gf/g/ e>g | ff/g/ ee/f/ | d2d H:|
+A |\
+Adcd | (cB)AA | Bg-gB | (B2A)A |\
+Adcd | cBAf | gefd | a2-a "D.C."y|]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% 1st Cu: Allemande .|.
+%% 2d Cu: do the same :|.
+%% Promenade 3 Cu: all round .|:
+%% the 1st & 2d Cu: Poussett :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 59
+T: Little Jeannette
+R: reel
+M: 2/4
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Saml. Ann & Peter Thompson "Twenty Four Country Dances for the Year 1791", London 1791, p.30 #1
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2fa | d2fa | gbef | dcBA |\
+d2fa | d2fa | (g/a/b/g/) (e/f/g/e/) | d2D2 :|
+|:\
+[AF][AF][A2F2] | [BG][BG][B2G2] | cBcA | d/e/f/g/ aa |\
+[AF][AF][A2F2] | [BG][BG][B2G2] | ceAc | dA FD :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% 1st Cu: Allemane .|. 2d Cu: do the same :|.
+%% Promenade 3 Cu: round .|:
+%% 1st and 2d Cu: Poussett :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 60
+T: Quoz
+R: jig
+M: 6/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Saml. Ann & Peter Thompson "Twenty Four Country Dances for the Year 1791", London 1791, p.30 #2
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+ded g2d | B2d G2A | B2B Bcd | dAA A2d |\
+ded g2d | B2d G2A | B2d AGA | B2G HG2 :|
+B |\
+e2f gaf | e2B B2^c | d2e fge | d2A A2B |\
+=c2c edc | B2B dcB | a2a abg | f2d d2 "^D.C."|]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 3 Ladies go round the 3 Gent: .|.
+%% the 3 Gent: go round the 3 Ladies :|.
+%% lead down the middle up again & cast off .|:
+%% hands 6 round :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 61
+T: The Spanish Dollars
+R: jig
+M: 6/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Saml. Ann & Peter Thompson "Twenty Four Country Dances for the Year 1791", London 1791, p.31 #1
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+d2d d2f | e2A A2A | B2G E2A | FEF D2A |\
+d2d d2f | e2A A2A | B2G E2A | F3  D2 :|
+|: a |\
+f2d D2f | e2c [c2C2]e | d2B [B2B,2]d | cBc ABc |\
+d2d d2f | e2A A2A | B2G E2A | F3 D2 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Hey contray sides .|.
+%% then on your own sides :|.
+%% 1st 2d and 3d Cu: Promenade all round .|:
+%% lead thro' the bottom & cast up lead thro' the top & cast off :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 62
+T: Bonne Bonche
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Saml. Ann & Peter Thompson "Twenty Four Country Dances for the Year 1791", London 1791, p.31 #2
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B2B2 dBdB | A2A2 cAcA |\
+B2B2 e2e2 | dcBA G2G2 :|
+|:\
+D2Dd (dc)(cB) | D2Dc (cB)(BA) |\
+B2B2 e2e2 | dcBA G2G2 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Cast off two Cu: .|.
+%% lead up again and cast off |:.
+%% hands 4 at bottom .|:
+%% Right & Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 63
+T: Punch's Wedding
+R: reel
+M: 2/4
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Saml. Ann & Peter Thompson "Twenty Four Country Dances for the Year 1791", London 1791, p.32 #1
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D2F2 ABAF | Bdce dfdA |\
+D2F2 ABAF | Bdce d2D2 :|
+|:\
+defe dBAF | defg e2A2 |\
+defe dBAF | afef d2d2 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% 1st Cu: set to the 2d Lady and hands 3 round .|.
+%% the same to the 2d Gent: :|.
+%% cross over one Cu: .|:
+%% Right and Left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 64
+T: Pray what is that to you
+R: hornpipe
+M: 2/4
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Saml. Ann & Peter Thompson "Twenty Four Country Dances for the Year 1791", London 1791, p.32 #2
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+d>BB>d | d>BB>d | e>cc>e | g2e2 |\
+d>BB>d | d>BB>d | e>aA>f | g2G :|
+|: g |\
+g>ee>c | d>BB>G | g>ee>c | faAd |\
+d>BB>d | d>BB>d | e>aA>f | g2G :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Cast off one Cu and Foot it .|.
+%% cast up again and foot it :|.
+%% lead down two Cu: up again and cast off .|:
+%% hands 4 quite round :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 65
+T: The Monster
+R: reel
+M: 2/4
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Saml. Ann & Peter Thompson "Twenty Four Country Dances for the Year 1791", London 1791, p.33 #1
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2 Bc | d2 BG | e2 cA | FA D2 |\
+G2 Bc | d2 BG | ec AF | G2 G2 :|
+|:\
+b/g/d/B/ Gb | a/f/d/A/ Fa | g/e/B/G/ Eg | f/d/A/F/ D2 |\
+G2 Bc | d2 BG | ec AF | G2 G2 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Hey contrary sides .|.
+%% then on your own sides :|.
+%% Hands 6 quite round .|:
+%% lead thro' the 3d Cu and cast up one lead to the top and cast off :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 66
+T: The Duke of Yourk's Cottillion
+R: jig
+M: 6/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Saml. Ann & Peter Thompson "Twenty Four Country Dances for the Year 1791", London 1791, p.33 #2
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+BBB B2d | c2c c2d | BAB G2c | (B3 A2)F |\
+BBB B2d | c2c cde | fdB ecA | HB3 B,2 :|
+F |\
+GAB FGF | GAB FGF | GAB FGF | (G3 F2)f |\
+f3 d2 | B3 Bdf | fdB Bcd | (d3 c2) "D.C."y|]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% 1st Gent. set to the 2d Lady and turn .|.
+%% his Partner do the same with the 2d Gent :|.
+%% cross over two Cu. lead up to the top and cast off .|:
+%% hands round at bottom Right & Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 67
+T: The Change Assembly
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Saml. Ann & Peter Thompson "Twenty Four Country Dances for the Year 1791", London 1791, p.34 #1
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2fd ceAc | d2fd ceAc | defg agfe | gfed dcBA |
+d2fd ceAc | d2fd ceAc | defg fedc | Bdce d2D2 :|
+|:\
+Adcd efge | gfed dcBA | Adcd efge | fedc d2D2 |
+Adcd efge | gfed dcBA | Adcd efge | fedc d4 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Cast off two Cu: up again .|.
+%% lead down the middle up again and cast off :|.
+%% turn corners .|:
+%% lead out sides :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 68
+T: Dibdin's Fancy
+R: reel
+M: 2/4
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Saml. Ann & Peter Thompson "Twenty Four Country Dances for the Year 1791", London 1791, p.34 #2
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+AEAE CEE2 | FDDD | d2BG |\
+AEAE CEE2 | FDBG | A2-A2 :|
+|:\
+ecde | fgaf | ecBA | e2e2 |\
+ecde | fgaf | ecBA | e2-e2 "^D.C."y|]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% 1st Gent: turn the 2d Lady .|.
+%% 1st Lady turn the 2d Gent: :|.
+%% cross over one Cu: .|:
+%% Right and Left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 69
+T: The Welch Jig
+R: jig
+M: 6/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Saml. Ann & Peter Thompson "Twenty Four Country Dances for the Year 1791", London 1791, p.35 #1
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+e2e e2e | efd cBA | d2d fed | cAc e3 |\
+e2e e2e | efd cBA | d2g faf | gec d2 :|
+|: f/g/ |\
+afa geg | fed cBA | d2d fed | cAc efg |\
+afa geg | fed cBA | d2g (f/g/a)f | gec d2 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% 1st Lady set to the 2d Gent & turn the 3d .|.
+%% the Gent. do the same :|.
+%% lead down the middle up again & cast off .|:
+%% Right & left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 70
+T: The Merry Archers
+R: jig
+M: 6/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Saml. Ann & Peter Thompson "Twenty Four Country Dances for the Year 1791", London 1791, p.35 #2
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D2E G2A | B2B B2G | c2A B2G | B2G E3 |\
+D2E G2A | B2c d2B | e2c A2G | F2A G2 :|
+|: d |\
+e2e f2g | d2d d2B | c2c d2e | B2B B3 |\
+A2B c2A | B2c d2B | e2c A2G | F2A D3 "^D.C."y|]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% 1st Cu. set to the 2d Lady Hands round .|.
+%% the same to the 2d Gent :|.
+%% lead down the middle up again & cast off .|:
+%% Allemande with your Partner :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 71
+T: The Mandarin Dance
+R: jig
+M: 6/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Saml. Ann & Peter Thompson "Twenty Four Country Dances for the Year 1791", London 1791, p.36 #1
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D2A D2c | dcB AGF | G2B E2B | G2B E2B |\
+D2A D2c | dcB AGF | GAB Adc | d3- d3 :|
+|:\
+A2a A2g | A2f ecA | (f/g/a)f ecA | (f/g/a)f ecA |\
+(B/c/d)B AFD | (B/c/d)B A2g | fed edc d3 D3 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu: and turn .|.
+%% cast up and turn :|.
+%% Cross over two Cu: lead up one .|:
+%% Right and Left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 72
+T: The Jovial Tar
+R: reel
+M: 2/4
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Saml. Ann & Peter Thompson "Twenty Four Country Dances for the Year 1791", London 1791, p.36 #2
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(cBcd) c2G2 | (efef) e2c2 | gfga g2a2 | (g2f2)(f2e2) |\
+(cBcd) c2G2 | (efef) e2c2 | gfga g2f2 | e2d2 c4 :|
+|:\
+(GAGA) G2F2 | E2F2G2c2 | B2c2d2g2 | Te4 d4 |\
+(GAGA) G2F2 | E2F2G2c2 | g2f2e2d2 | (d4 c4) :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Turn Right hands and cast off .|.
+%% turn left hands and cast off another Cu: :|.
+%% lead up to the top and cast off .|:
+%% Right and Left :|:
+%%endtext

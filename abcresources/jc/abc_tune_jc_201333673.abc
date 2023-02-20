@@ -1,0 +1,30 @@
+X:1
+T: Sally from Poland
+N:
+C:Tune is "Poolsche Sara"
+S:
+A:
+O:
+R:
+M:3/4
+K:D
+I:speed 150
+%W: A1                                                       A2
+% voice 1 (1 lines, 22 notes)
+K:D
+M:3/4
+L:1/16
+f3 A8 f3 |A8 B4 |c2 B2 c2 A2 d4 |D8 |f3 A8 f3 |A8 B4 |c2 B2 c2 A2 d4 |D8
+%W: B1
+% voice 1 (1 lines, 23 notes)
+f4 |f4 e2 d2 g4 |g8 f4 |f4 e2 d2 e4 |A8 f3 A8 |f3 A8 B4 |c2 B2 c2 A2 d4 |D8
+%W: B2
+% voice 1 (1 lines, 23 notes)
+f4 |f4 e2 d2 g4 |g8 f4 |f4 e2 d2 e4 |A8 f3 A8 |f3 A8 B4 |c2 B2 c2 A2 d4 |D8
+%W: C1                                                     C2
+% voice 1 (1 lines, 46 notes)
+d2 a2 |g2 f2 g2 e2 e f g2 |f2 e2 f2 c2 d e f2 |e f g2 f2 e2 f4 |f8 |d2 a2 g2 f2 g2 e2 |e f g2 f2 e2 f2 c2 |d e f2 e f g2 f2 e2 |f4 f8 |
+%W: D1
+% voice 1 (1 lines, 22 notes)
+f3 e d4 c4 |d2 e f g8 |f3 e d4 c4 |d2 e f g8 |f2 e2 d6 c2 |d4 D8 |
+%W: D2

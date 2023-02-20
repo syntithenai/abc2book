@@ -1,0 +1,23 @@
+X: 1361
+T: Robie donna gorach.   Daft Robin.   An Old Highland Song.
+%R: song, air
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.36 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "Slow"
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+(A3B) | {AB}c4TB2A2 F4A3F | E4 F2A2 TB6 AB | c2(3(cde) (dcBA) F4 A3F | E4 F2A2 A4 :: (A2Bc) | (Td2c2)(d2e2) f6a2 |
+(ec3)TB2A2 e6f2 | (ec3)B2A2 (TF4 {F}A3)F | E4F2A2 A4 :: (A3B) | (c2B2)c2A2 (F2G2)A2GF | (E2F2)(G2A2) (TB6AB) |
+(c2a2) (dcBA) TF4 A3F | E4  F2A2 A4 :: (A2Bc) | (Td3c)(d2e2) (f3g)a2gf | {f}e2dc (3(edB) (3(cBA)  e6 f2 | (.e.a.g.f .e.c.B.A) TF4 A3F |
+E4 F2A2 A4 :: (A3B) | (TcBcd) (cBcA) (TFEFG) (FGAF) | (A,CE).e (cA)(eA) (TBABc) (BdcB) | (ca).g.e (Bc).B.A .E(FE).D (CB,)CA, |
+(dc)BA {c}TB3A A4 :: (A2Bc) | (df)af (ce)ae Tf6 a2 | (ef)af (ecBA) e6 f2 | eaTa2 caTa2 F4 A3F | E4 F3A A4 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z4 | A4B2c2 d8 | c4A4 e4z4 | A4B2c2 d8 | e4d2e2 A4 :: z4 | f6e2 d4d4 | c4A4 a6d2 | c4B2c2
+d8 | e4d2e2 A4 :: z4 | A8 d8 | c4B2A2 e4z4 | A6c2 d8 | e4d2e2 A4 :: z4 | f6e2 d8 | c2A2f2^d2 e6d2 |
+c8 d4c3d | e4d2e2 A4 :: z4 | A4A4 d4d4 | z4A4 e8 | A2Bc d4 c4A4 |
+e4E4 A4 :: z4 | A4A4 d6c2 | A4A4 c2e2a2d2 | c4e4 d4e2d2 | e4d2e2 A4 :|

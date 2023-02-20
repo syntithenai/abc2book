@@ -1,0 +1,16 @@
+X: 28
+T: Chamoti
+C: Dani Shoshan
+O: Israel
+M: 2/4
+L: 1/8
+Q: 1/4=192
+K: Dm
+%%MIDI drum d2z2 35
+%%MIDI drumon
+  G2GF|G2G2 |ABAB|GzGz|FGE/F/G|GFGA|FEFG|E2C2 |
+  z2FE|GzGz |GFGA|FzFz|EFE/F/E|FzFz|FEFG|D2D2 |
+|:z2AA|A2A2 |A2A2|d2d2|A2z2   |A2G2|F2A2|A2G2-|G2z2|
+  G2G2|A2A2 |F2F2|G2G2|_E2E2  |F2F2|D4  |z4   :|
+|:z2G2|G2F2 |A2A2|G2z2|F4     |G4  |F4  |_E4  |
+  z2F2|F2_E2|G2G2|F2z2|_E4    |F4  |_E4 |D4   :|

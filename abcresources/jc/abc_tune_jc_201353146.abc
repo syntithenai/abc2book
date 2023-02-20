@@ -1,0 +1,14 @@
+X: 360
+T: the Windy Height   #2
+R: jig, air
+%S: s:2 b:12(6+6)
+B: O'Neill's 1850 #360
+O: J.O'Neill.
+Z: Chris Falt, cfalt@trytel.com
+Q: "With spirit."
+N: Compacted via repeats and multiple endings [JC]
+M: 6/8
+L: 1/8
+K: D
+"^A"[|] A |: d2d def | e2d c2{B}A |1 B2B BAF | A2A ABc :|2 (B<e)d cBc | d3 d2 |]
+"^B"|: B | A2G FEF | A2A A2 [1g | f2d edB | d2d d2 :| [2 A | (B<e)d cBc | d3 d2 |]

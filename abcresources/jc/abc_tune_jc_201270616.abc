@@ -1,0 +1,12 @@
+X: 1164
+T: Dublin Streets   #2
+R: slipjig
+%S: s:2 b:9(4+5)
+B: O'Neill's 1850 Music of Ireland #1164
+O: Ennis
+Z: Stephen Foy (shf@access.digex.net)
+%: abc 1.6
+M: 9/8
+K: Em
+"^A"|: E2F G2A BGE |1,3 ^D2E F2G AFD :|[2,4 dcB AF^D E2 "B":: e2f g2a bge |
+[1 fef ^def afd :|[2 fed B^c^d e2d :|[3 fef def afd | bag agf gfe | dcB AF^D E2 |]

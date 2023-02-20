@@ -1,0 +1,36 @@
+X: 1
+T: Row well, ye Mariners
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.65 "G 2"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The rhythms at the ends of the strains don't match.
+N: The dance description is odd, with two sections, the first having four columns, the second being full width.
+N: ## is used to mark the columns of the first section.
+N: All four (short) sections of the tune are probably repeated.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G | F2E F2G | A3- A2B | cdc BAB | A2G G2 |][| d | ded A2B | cdB A2 |]
+G | GAG F2G | AFD G2 |][| d3 A3 | d3 A3 | d2e d2c | B2A G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up a D. forwards and back .| That again.
+%% ##
+%% First man two slips cross the room one way, the woman the other .| Back again to your places :|
+%% ##
+%% Fall back both .| Meet again :|
+%% ##
+%% Clap both your own hands, then clap each other's right-hands against one-anothers; clap both your own hands again, then clap
+%% left-hands, then clap both hands again, then clap your breasts, then meet both your hands against one-another .| The same
+%% again, only clap left-hands first :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First man sides with the next wo. and his wo. with the next man, doing the like till you come to
+%% your own places, the rest following and doing the same.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

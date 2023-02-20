@@ -1,0 +1,25 @@
+X: 3204
+T: the Irish Wedding.   a Jig.
+%R: jig
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.3 p.20 #4 (and top 4 staves of p.21)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: Mismatched note lenghts in last bar; fixed so they match the other cadences.
+M: 5/8
+L: 1/8
+K: C
+% - - - - - - - - - -
+V: 1 staves=2
+(G//A//B/) |\
+c2G GEG | TA2G GAB | c2c d2d | e2c cde | f2z/f/ e2z/e/ | d2z/d/ BGB | cBA EFG | TA2G G2 :|
+e/f/ |\
+g2g e2e | g2g e2e | ggg eee | f2d def | g2z/e/ f2z/d/ | e2z/c/ d2z/B/ | cBA EFG | A2G G2 e/f/ |
+gc'g ece | gc'g ece | gc'g ece | f2d def | {ef}g2e f2d | e2c d2B | {b}c'2A GEG | A2c c2 |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+c3 c3 | [f3c3-] [e3c3] | e3 g3 | c'3 c'3 | [d'3g3-] [c'3g3] | b3 g3 | e3 c3 | [f3c3] c2 :|
+z |\
+e'3 c'3 | e'3 c'3 | e'2e' c'2c' | d'3 g3 | [e'3g3-] [d'3g3] | [c'3g3-] [b3g3] | e3 c3 | [f3c3] c3 |\
+[e'3g3-] [c'3g3] | [e'3g3-] [c'3g3] | [e'3g3-] [c'3g3] | d'3 g3 |\ 
+[e'3g3-] [d'3g3] | [c'3g3-] [b3g3] | "^sf"e3 c3 | [f3c3] [e2c2] |]

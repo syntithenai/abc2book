@@ -1,0 +1,395 @@
+
+X: 0
+T: Klezmer Jam Session Tunes - Bb instruments
+N: Fiddle Hell 2012
+K:
+
+%%sep 1 1 500
+
+X: 1
+T: Melodica Bulgar
+T: Bender's Bulgar
+C: Brian Bender (2005)
+M: C
+L: 1/8
+K: Ephr^G
+"A"|:"E"E>G Be dcBA | "Dm"(3GAB (3AGF "E"E3 E |  "E"GA GA Bc BA | "E"B4 e4 |
+   | "E"E>G Be dcBA | "Dm"(3GAB (3AGF  ED- D2 | "(E)"EF GA "Dm"(3BAG (3AGF | "E"E6 z2 :|
+"B"|:"E"ee dc Bc de | "(Am)"(3cBA "E"BG "Am"A4 | "Am"c3 d ee dc | "E"eB- B4 z2 |
+   | "E"ee dc Bc de | "(Am)"(3cBA "E"BG "Am"A4 | "Dm"D=C DE FA GF | "E"E6 z2 :|
+"C"|:"Am"(3AEA (3cAc ec BA | "Dm"d>A de fe dc | "E"Bc ^de dc BA | "Am"^de- e4 E2 |
+   | "Am"(3AEA (3cAc ec BA | "Dm"d>A de fe dc | "E"Bc ^de dc Bc | "Am"A6 z2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Shapiro's Korohod    [Am]
+S: Steve Rauch
+D: Budowitz "Wedding Without a Bride"
+M: C
+L: 1/8
+K: Am
+E \
+| "Am"A2 c2 e2 a2 | c'2 ba ^g a3 | c'2 ba (3^gab (3agf | "Dm"(3efg f/e/d/^c/ d4 |
+| "C"cd ef g^f ga | _ba g^f _ed cB | "Dm"c d2 c "E7"(3edc c/B/A/^G/ | "Am"A7 :|
+|: E \
+| "Am"AE AB c4 | "E7"Bd c/B/A/^G/ "Am"A4 | "Dm"d2 f2 af df | "Am"e4 "E7"ed cB |
+| "Am"AE AB c4 | "E7"Bd c/B/A/^G/ "Am"A4 | "Dm"c d2 c "E7"(3edc c/B/A/^G/ | "Am"A7 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Freylekhs [Em]
+O: Goldenshteyn collection
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Em
+(3B^c^d \
+"A"\
+|: "Em"e(Bc)(A B)(GA)(F | "B7"G)(EF)(^D "Em"E4) | (EF)GA "D"(Bc)(Ac) | "G"B8 | "B"(Bc)^de (fe)(ed) |
+| "Am"(^dc)(cB) (BA)(AG) | "Em"(GA)(AG) "B7"(BA)GF |1 "Em"EFGA "B7"^AB^c^d :|2 "Em"E2z2 "D7"F4 ||
+"B"\
+|: "G"G2Bd z(GBd) | G2Bd z(GBd) | (^cd)(ed) (d=c)(cB) | (BA)(AG) (GF)ED |
+| "D"D2FA z(DFA) | D2FA z(DFA) | (dc)(cB) (BA)(AG) |1 "G"B2z2 "D7"d4 :|2 "G"G2z2 "B7/F#"^d4 y!d.C.!y:|
+
+% Written-out ending:
+"Coda"|| zB^AB c^cd^d | e2{^A}B2 e2z2 |]
+
+%%newpage
+
+%%sep 1 1 500
+
+X: 1
+T: Freylachs in D minor (1)
+M: C
+L: 1/8
+K: Em
+B,EG "B"\
+| "Em"B2 Bc B2 AG | "Am"A2 A_B A2 zG | "Em"GF FG "Dm"GE/G/ =F/E/D | "Em"^AB2A B/=A/G G/F/E |
+| "Em"B2 B{d}c B2 AG | "Am"A2 A_B A2 zG | "Em"GF FG "Dm"GE/G/ =F/E/D | "Em"E2 z3 :|
+|: B,EG "C"\
+| "Em"B2 AG "Am"A{B}A GF | "Em"G2 FE G/F/E "D"D2 | "D7"zD EF GF AF | "G"G4 zB B/A/G G/F/E |
+| "Em"B2 AG "Am"A{B}A GF | "Em"G2 FE G/F/E "D"DG | "Em"GF FG GE/G/ "Dm"=F/E/D | "Em"E2 z3 :|
+|: DEF "D"\
+| "G"G2 "D7"A2 "G"B2 "D7"c2 | "G"d6 zd | "D7"dc cd dB/d/ c/B/A | "G"B3 ^A B/=A/G G2 |
+| "Gm"G_B AG AB2 B | "A"^c/d/e d/c/_B A2 zG | "Em"GF FG "Dm"GE =F/E/D | "Em"E2 z3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Freylachs in D minor (2)
+M: C
+L: 1/8
+K: Em
+z2E "B"\
+| "Em"EB, EF GG FE | "Am"A A2 A "Em"GG FE | "Am"A A2 A "D7"GF     EF  |  "G"G2 B2 "B7"B/A/G G/F/E |
+| "Em"EB, EF GG FE | "Am"A A2 A "Em"GG FE | "Am"A A2 A "Em"GD "Dm"E=F | "Em"E2 z3 :|
+|: DGA "C"\
+| "G"^AB BB "D7"B=A c/B/A | "G"G2 z3    DGB | "G"d>e =f/e/d f/e/d  cB |  "G"^c{e}d z3 DGA |
+| "Gm"_B3 B  ^c/d/e d/c/B | "A"A2 z3 ZB c^c | "G"dB  =c{B}A BG "D7"AF |1 "G"G2 z3 :|2 "Em"G2 "B7"^d2 "Em"e4 |]
+"D"\
+|:"Em"^AB BB  AB AG |     FG GG FG FE | "B7"FB, ^DF AA   GF | "Em"E/^D/E/F/ G/F/G/A/ B2 z^d |
+| "Em"e B2 B ^AB AG | "Em"FG GG FG FE | "B7"FB, ^DF ^AB ^cB | "Em"B/A/G     G/F/E    E2 z2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Tish Nigun [Am]
+O: Sid Beckerman, Howie Leess
+D: Sid Beckerman, Howie Leess "Klezmer Plus
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+Z: 2008 Steve Rauch
+S: printed MS from Steve Rauch
+M: 2/4
+L: 1/16
+K: Am
+"^A"[|] E2 \
+| "Am"cBA2- A2c2 | "E"BA^G2- G2E2 \
+|1,3 "Am"A^GAB cBAc | "E"BA^GF E2 \
+:|2,4 "Am"A^GAB "(E7)"cBAG | "Am"A6 :|
+"^B"|: E2 \
+| "Am"EAAB c2cA | "Am"c2cA c4 \
+| "Dm"d3c "E"cBBA |1,3 "Am"Ac"E"Bd "Am"c2 :|2,4 "Am"A6 :|
+"^C"|: G2 \
+|  "C"edcd c3G | edcd c4 \
+|1,3  "C"eddc "Am"cBBA | "G"Bd"Am"c2- c2 \
+:|2,4 "Am"eddc "E"cBBA | Bc"Am"A2- A2 :|
+%%text Often played ABCB. The extra repeats aren't always played.
+
+%%newpage
+
+%%sep 1 1 500
+
+X: 1
+T: In Odess'  (freilach)
+O: SB13
+R: freylach
+M: 2/4
+L: 1/8
+K: ^G
+|: "E" GA B>d | "Dm"(3cBA "E"B2 | "E"(3GAB "Dm"(3AGF | "E"EG Be \
+|  "E" GA B>d | "Dm"(3cBA "E"B2 | "E"(3GAB "Dm"(3AGF | "E"E4 :|
+K: E
+|: "E"ez B>A | G/A/ B2 G | "B7"A/G/ F2 A | "E"GA "B7"^AB \
+|  "E"ez B>A | G/A/ B2 G | "B7"A/G/F- F/A/G/F/ |1 "E"E2 zB :|2 "E"EE "E7"AB ||
+K: A
+|: "A"c4- | cB "E7"(3dcB | c A3 | zA B=c \
+|  "Am"^de d=c | "Am"^de d=c | "E"B4 | "E7"zE AB |
+|  "A"c4- | cB "E7"(3dcB | "A"c A2 =c- | "Am"c3 B \
+|  "E"BA AG | GE/G/ "Dm"=FED |1 "E"E4 | "E7"zE AB :|2 "E"E4- | E4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: In Odess'
+R: jig
+M: 6/8
+L: 1/8
+K: ^G	% E freygish
+|: "E"G2A B2d | "Am"cBA "E"B3 | "E"GAB "Dm"AGF | "E"E2G B2e \
+|  "E"G2A B2d | "Am"cBA "E"B3 | "E"GAB "Dm"AGF | "E"E6 :|
+K: E
+|: "E"e2z B2A | GAB- B2G | "B7"AGF- F2A | "E"G2A "B7"^A2B \
+|  "E"e2z B2A | GAB- B2G | "B7"AGF- FGF |1 "E"E3 z2B :|2 "E"E2E "E7"A2B ||
+K: A
+|: "A"c6- | c2B "E7"dcB | "A"c2A- A3 | z2A "(Am)"B2=c \
+|  "B7"^d2e d2=c | ^d2e d2=c | "E"B6 | "E7"z2E A2B |
+|  "A"c6- | c2B "E7"dcB | "A"c2A- A2=c- | "Am"c3- czB \
+|  "E"B2A A2G | GEG "Dm"=FED |1 "E"E6 | "E7"z2E A2B :|2 "E"E6- | E6 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Khosidl
+T: Yismekhu
+M: 2/4
+L: 1/16
+Z: John Chambers <jc:trillian.mit.edu>
+K: Ephr^G
+|: "E"EFEF GAGF | G2E2 B,2E2 | GAGA BcBA | B2G2 E2G2 || EGBd cBAG | "Dm"AGFE D4 |
+| ^CDEF GAGF | "E"GFE6 :: "E"B8 | B8 | B4 B4 | B4 B4 || "E"BcBc B3A |
+| GAGA B4 | BcBc B3A | "(Dm)"GAGF "E"E4 || "E"BcBc B3A | GABc "Dm"d4 |
+| dccB BAAG | GAGF "E"E4 :: "E"G3F EDEF | GAGF E4 | EcBA GABc |
+| B4 e4 || "(Dm)"dcBA GABc | dcBA GFED | "Dm"^CDEF GAGF | "E"GFE6 :|
+
+%%newpage
+
+%%sep 1 1 500
+
+X: 1
+T: Monastritch  [Em]
+T: Dem Monastrishter Rebn's Chosid'l
+O: Dave Tarras recording
+S: handwritten MS of unknown origin labelled "I-20"
+S: Transcription from Steve Rauch of a Dave Tarras recording
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Em
+"A"\
+|: "Em"E2 G2 | B2 e2 \
+| B3 A | "Am"d/c/B/A/ ^GA \
+|  "Em"=G A2 G | "B7"(3B^AG (3GFE \
+| "Em"^A/^c/ B3- | "B7"B4 |
+| "Em"E2 G2 | B2 e2 \
+| B3 A | "Am"d/c/B/A/ ^GA \
+|  "Em"=G A2 G | "B7"(3B^AG (3GFE \
+| "Em"E4 |1 "B7"zB, ^C^D :|2 "D7"zD EF ||
+"B"\
+|: "G"G4 | zG AG \
+| B4 | zB cB \
+|  d4 | zd ed \
+| "G7"=f4- | f4 \
+| "C"e2 "G/B"d2 | "D7/A"c2 "G"B2 |
+| "D7"B3 A | "G"d/c/B/A/ G2 \
+| "D7"A>B cd | BG AF \
+| "G"G4 |1 "D7"zD EF :|2 "B7"ZB, EG ||
+"C"
+|: "Em"B>G "Am"A/B/c/A/ | "Em"B>G "Am"A>F | "Em"G>E "B7"F>^D \
+|1,3 "Em"EF "B7"GA :|2 "Em"E2 "B7"z/B,/E/G/ :|4 "Em"E2 z2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Rumanian bulgar(ish)    [Efr]
+%T: Moldavian tants
+%T: Andy's Tune
+R: bulgar, freylach
+D: State Ensemble of Jewish Folk Music of the Ukrainian S.S.R., Kiev 1930
+O: Abe Shwartz
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: EPhr^G
+"A"\
+|: "E"E2BB B2B2 | B2A2 G3F | E2F2 G2A2 | G2F2 E4 |  "E"E2BB B2A2 | G2A2 B2c2 | B8 | e8 |
+|  "E"E2BB B2B2 | B2A2 G3F | E2F2 G2A2 | "Dm"G2FE D4  | z2D2 ^C2D2 | E2F2 G2F2 | "E"E8- | E4 z4 :|
+"B"\
+|: "Dm"z2D2 ^C2D2 | E2F2 E2D2 | z2F2 E2F2 | G2A2 G2F2 | z2A2 G2A2 | B2c2 B2A2 | "E"B6 A2 | G2F2 E4 |
+| "Dm"z2D2 ^C2D2 | E2F2 E2D2 | z2F2 E2F2 | G2A2 G2F2 | B2A2 G2F2 | G2F2 E2D2 | "E"E8- |1 E4 z4 :|2 E2 ||
+"C"\
+|: [e2E2] c2B2 | "Am"A8 | z2E2 C2E2 | A2c2 B2A2 | "E"e2 B4 A2 | B8 | z2 B2 d2c2 | B2A2 G2A2 | B2E2 F2G2 |
+| "Am"A8 |  z2E2 C2E2 | A2c2 B2A2 | "E"e2 B4 A2 | G2A2 B2A2 | "Dm"G2D2 E2F2 | "E"E8- | E2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sadegurer Khosid   [Am]
+R: khosidl
+D: DRK-204 "Git Azoy" the 12 Corners Klezmer Band
+M: 4/4
+L: 1/16
+K: Am
+   z2E2 \
+| "Am"c3B A2A2 | z2cB AcBA | "E"B3A ^G2G2 | "Dm"^GAGF "E"E4 \
+| "E7"^GEGB "Am"AEAc | "E7"BEBd "Am"cAce | "Dm"d2d2 defd | "E7"e4 edcB |
+| "Am"c3B A2A2 | z2cB AcBA | "E"B3A ^G2G2 | "Dm"^GAGF "E"E4 \
+| "E7"e4 d4 | c4 B4 | "Am"A2A2 "E7"cBA^G | "Am"A4 :| [K:A]
+|: zEAB \
+|: "A"cdcd c2BA | B2c2 z4 | cdcd c2BA | BcA2 z4 \
+| "A"cdcd c2BA | B2c2 z4 | "Bm"B2B2 "E7"AGFG |1 "A"A4 z4 :|2 [K:Am]"Am"A4 ||
+|: z4 \
+| "Am"e8 | e8 | e4 e4 | e4 e4 \
+| z2e2 e2e2 | "Dm"d2z2 d4 | "Am"cdcB A^GAB | c2z2 e4 \
+| z2e2 e2e2 | "Dm"d2z2 d4 | "C"cGGc "Bb"c_BBA | "Am"A4 z4 :|
+
+%%newpage
+
+%%sep 1 1 500
+
+X: 1
+T: Nigun Sameach  [Am]
+R: bulgar, freylach
+O: Kammen 9#12
+B: Kammen 9#12
+M: 2/4
+L: 1/8
+K: Am
+|: "Am"A,z Cz | Ez Az | c4- | c4 \
+| dc Bc | BA ^GA | "E7"B4- | BE FE |
+| "E7"E3 ^G B3 A | "Dm"(3^GAB (3AGF | "E"E4 | BA ^GF \
+| "E7"ED CB, |1 "Am"A,4 | (3E^DC (3CB,A, :|2 "Am"A,4- | HA,4 |]
+|: "Am"EA "(E7)"cB | "Am"AG "A7"FE | "Dm"EF FF | F4 \
+| "(G7)"DF BA | "(E7)"^GF ED | "Am"^DE EE | E4 |
+| "E7"EF ^GA | Bc (3cBA | ^G4- | G4 \
+| BA ^GF | ED CB, | "Am"A,4- | A,2 z2 :|
+|: "Am"z2 e^d | e2 "Dm"f2 | "Am"e3 c | A4 \
+| "Dm"f3 e | "G7"de f[gd] | "C"e4- | e4 |
+| "Dm"fe d2  | dc B2 | "E7"dc B2 |  BA ^G2 \
+| EF ^GA | Bc  ^GB |1 "Am"A4 | (3e^dc (3cBA :|2 "Am"A4 | cA "da Capo"EC |]
+
+%%sep 1 1 500
+
+X: 1
+T: Yoshke (Ma Yofus; Tanz, Tanz, Yideleh)   [Efr]
+C: arr. Naftule Brandwein 1917
+Z: John Chambers <jc:trillian.mit.edu>
+O: Trad
+M: C|
+L: 1/8
+K: EPhr^G	% E freygish
+"A"[|] z2 \
+|  "E"EFGA BcBA | G2GE "Am"A4 | "E"B2B2 dcBA | G2GE "Am"A4 \
+|  "E"EFGA BcBA | G2GE "Am"A4 | "E"G2G2 "Dm"FEFD | "E"E6 :|
+K: C	% C, A minor
+"B"|: "G"[G2B] \
+|  "C"cde4 e2 | "G"dedB G4 | "G7"GABc defd | "C"e2ef "E"edcB \
+|  "Am"ABc4 c2 | "E"BcB^G E4 | EF^GA BcBG | "Am"A6 :|
+K: EPhr^G	% E freygish
+"C"|: GF \
+|  "E"E2G2 E2G2 | "Am"A2A2 dcBA | "E"G2G2 "Am"AGAc | "E"B2B2 ~e4 \
+|  "E"E2G2 E2G2 | "Am"A2A2 dcBA | "E"G2G2 "Dm"FEFD | "E"E6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Yos'l Yos'l [Em]
+M: 2/4
+L: 1/8
+K: Em
+B,EG \
+| "Em"B2 "Am"c2 | "Em"BB "B7"AG | "Em"c B3 | zB,EG \
+| "Em"B2 "Am"c2 | "Em"BA cB | "B7(Am)"A4 | "B7"zB,^DF |
+| "B7"A2 B2 | "(Am)"AA GF | "B7"A A3 | zB,^DF \
+| "B7"A2 B2 | AG BA | "Em"G4 | zB,EG |
+| "Em"B2 "Am"c2 | "Em"BB "B7"AG | "Em"c B3 | zB,EG \
+| "Em"B2 e2 | "E7"dc ed | "Am"c4- | c2 cd |
+| "Am"ee ee | e2 dc | "Em"BB BB | B2 AG \
+| "(B7)"B2 F2 | "B7"AA GF | "Em"E4- | E |]
+%%text The last 8 bars are often repeated, giving 40 bars; this is a 32-bar contradance version.
+
+%%newpage
+
+%%sep 1 1 500
+
+X: 1
+T: Flatbush Waltz [Am]
+C: Andy Statman
+D: Flatbush Waltz; Rounder 00116 (1980)
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 3/4
+R: Waltz
+S: Frets Magazine, Dec 1980
+K: Am
+[| "Am"e3 a ed | c2 A2 A2 | e3 a ec | "Dm"d3 f ed \
+| "Am"AB cd ec/e/ | "Dm"dA d2 d2 | "Am"c3 d "Bb"_Bc  | "Am"A3 E Ac ||
+|| "Am"[e3A] [ae] [ec][dB] | [c2A] [A2E] [A2E] | [e3c] [ae] [ec][cA] | "Dm"[d3A] g (3fed \
+| "Am"cd ef ge | "Dm"dA d2 d2 | "Am"c3 d "Bb"_Bc  | "Am"A6 ||
+|| "Am"[c'4e] [bd][ac] | "E7"[bd]E [e^G]B e^g | "F"[a2c] [g3B] [fA] | "C"[e6G] \
+| "Dm"[f2A] [e2G] [d2F] | "Am"[e2G] [a2c] [b2d] | [c'3e] [bd] [c'e][d'f] | "E7"[b6d] ||
+|| "Am"[c'4e] [bd][ac] | "E7"[bd]E [e^G]B e^g | "F"[a2c] [g3B] [fA] | "C"[e6G] \
+| "Dm"[f2A] [e2G] [d2F] | "Am"[e2G] [A2C] [d2F] |  "Am"[c3E] [dF] "Bb"[_BD][cE]  | "Am"[A6C] |]
+
+%%sep 1 1 500
+
+X: 1
+T: Hasidic Waltz
+S: Marianne Cygnel Oct 1999
+R: waltz
+M: 3/4
+L: 1/4
+K: Am
+E \
+| "Am"cBA | "E7"BA>^G | "F"Ac>A | "E7"^G/F/E>E \
+| "Am"A/A/AA | "G"BAB | "C"c3- | c2A |
+| "Dm"d/d/dd | "Am"cc2 | "E7"BcB | "Am"AE2 \
+| cBA | "E7"BA^G | "Am"A3- | A2 :|
+|: d/e/ \
+| "Am"eee | g^fe | "Cdim"^d>cB/A/ | "Am"B/c/A2 \
+|1 eee | "B7"^dBd | "E"e3- | e2 \
+:|2 "Am"e^dc | e^dc | "E"B/A/Bc | "E7"B3 ||
+|| "C"edc | "E"BE/^G/B | "E7"d e/d/ c/B/ | "Am"A/c/ e/c/ A \
+| "C"ccc | "G7"dcd | "C"e3- | e2 c/d/ |
+| "Am"edc | "E"BE/^G/B | "E7"d e/d/ c/B/ | "Am"A/c/ e/c/ A \
+| "F"cBA | "E7"BA^G/B/ | "Am"A3- | A2z |]
+
+%%sep 1 1 500
+
+X: 1
+T: LeMa'an Achai [Em]
+T: For the Sake of My Brothers and Friends
+C: Shlomo Carlebach
+Z: John Chambers <jc:trillian.mit.edu>
+N: Berachot 64A
+R: waltz
+M: 3/4
+L: 1/4
+K: Em
+|: B \
+| "Em"B ^A B | g f e | "Am"c3- | c2 c \
+| c B A | g f e | "Em"B3- | B2 B |
+w: Le-ma-'an a-chai ve-re-ay* le-ma-'an a-chai ve-re-ay* a-
+| "Em"(B ^A) B | (g f) e | "Am"(d c) B | A3 \
+| "B7"B3 | (f2 g) | "Em"e3- | ez :|
+w: dab-*ra na* a-dab-*ra na sha-lom* bach.
+|: (e/f/) \
+| "Em"g2 g | (g f) e | g2 g | g f e \
+| "Am"a2 a | (b2 a) | "Em"g3- | g2 (e/f/) |
+w: le-*ma-'an beyt* ha-shem elo-kei-nu a-vak-sha tov_ lach* le-
+| "Em"g2 g | (g f) e | g2 g | g f e \
+| "B7"f2 a | (g3/2 f/e/f/) | "Em"e3- | ez :|
+w: ma-'an beyt* ha-shem elo-kei-nu a-vak-sha tov___ lach
+W: On behalf of my brothers and friends, let me say "Peace unto you".
+W: For the sake of the house of the Lord our God, I pray for your good.

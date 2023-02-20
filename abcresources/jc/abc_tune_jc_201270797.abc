@@ -1,0 +1,27 @@
+X:185
+T: Duett X (no name)
+N: O'Farrell's Pocket Companion v.2 (Sky ed. p.94)
+M: 2/4
+L: 1/8
+R: march
+Q: 200
+V: 1 %%MIDI program 1 73 volume=70 % flute
+V: 2 %%MIDI program 1 40 % fiddle
+K: G
+[V:1] d2 dd |B2 G2 |A2 d2 |B2 G2 |e2 d2 |c2 B2 |
+[V:2] B2 BB |G2 DG |F2 D2 |G2 z2 |c2 B2 |A2 G2 |
+%
+[V:1] A2 BG |GF ED |d2 dd |B2 G2 |A3 d  |B2 G2 |
+[V:2] E2 E2 |D2 z2 |B2 BB |G2 DG |FE FD |G2 z2 |
+%
+[V:1] e2 ee |dg f/e/d/c/ |B2 A2 |Gz GA |[M:6/8][R:jig] B2B Bcd|
+[V:2] c2 cc |B2 d/c/B/A/ |G2 F2 |G2 z2 |[M:6/8][R:jig] G2G GGG|
+%
+[V:1] d2A A3 |GAB BAG |G3 F2 G/A/ |G2B Bcd |d2A A2g |fad eg^c |
+[V:2] F2F F3 |EFG GFE |E3 D2z     |G2G BAG |F2A F2E |D2F G2A  |
+%
+[V:1] d3 d2d |d^cd dcd |BdB GBG |ABA ded |B3 G3 |[M:2/4][R:march]
+[V:2] DFA D2z|B3   A3  |G3  D2G |F2A F3  |G3 z3 |[M:2/4][R:march]
+%
+[V:1] e2 e2 | dg f/e/d/c/ | B2 A2| G2 z2 ||
+[V:2] c2 c2 | B2 d/c/B/A/ | G2 F2| G2 z2 ||

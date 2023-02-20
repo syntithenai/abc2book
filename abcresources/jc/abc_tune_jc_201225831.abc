@@ -1,0 +1,18 @@
+X: 10012
+T: ROY'S WIFE OF ALDIVALLOCH
+Q: "Slow"
+%R: strathspey
+B: "Edinburgh Repository of Music" v.1 p.1 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: The rhythm isn't quite right between the strains.
+M: C
+L: 1/16
+K: D
+|:!segno!\
+AF3 F3E F3E FB3 | AF3 F3D E3DE2F2 |\
+A3F E3D d3ef3e | d3B A3F E3D E2F2 :|
+|: A2 |\
+A3B d3f edef d3A | A2Bc d3F E3DE2F2 |\
+A2Bc d3f edgf He2de | f3e d3F F2E2 F2dB !segno! |]

@@ -1,0 +1,22 @@
+X: 32831
+T: PRIDE OF THE NORTH QUADRILLE Part 3
+C: By W.C. Paton
+R: jig
+B: K\"ohler's Violin Repository, v.3, 1885 p.283 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Phrases 1 and 2 are from The Atholl Highlanders.
+N: Bar 20 has 16th-notes in the A-d run; changed to 32nd-notes as in the first phrase.
+N: There's a spurious segno on the first bar that's not matched by another; dropped.
+N: The initial x (invisible rest) is to put the anacrusis into the 2nd "voice" to agree with the 1st bar's e3.
+M: 6/8
+L: 1/8
+K: A
+x & v(A//B//c//d// | e6 & e3) (ecA) | e6 & (ecA) (Bcd) | e6 & e3 (ecA) | e6 & (Bcd) c2 \
+     (A//B//c//d// | e6 & e3) (ecA) | e6 & (ecA) (Bcd) | (c>a)ve Tfed | (cd)B A2(c/B/) |
+Ace Ace | Adf Adf | Ace Ace | Bcd c2c/B/ |\
+Ace Ace | Adf Adf | (c<a)ve Tfed | cdB A2vc/ud/ |]
+"^Coda" e6 & ve3 (ecA) | e6 & (ecA) (Bcd) | e6 & e3 (ecA) | e6 & (Bcd) c2(A//B//c//d// |\
+e6 & e3) (ecA) | e6 & (ecA) (Bcd) | (c<a)vf edB | A2z v[a2A2]z H|][K:D]
+vAFA dAd | f>ed d>cB | A>GF F>ED | E3- E2vA/uA/ |\
+AFA dAd | f>ed d>cB | A>GF E>FE | D3- D2 "^D.C."|]

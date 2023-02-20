@@ -1,0 +1,30 @@
+X: 4242
+T: Drum House   or Mr Hay's Favorite
+C: by Nath. Gow
+%R: march, air
+N: This is version 1, for ABC software that doesn't understand crescendo symbols.
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.24 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+Q: "Slowish"
+K: G
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 12-bar lines, for compactness and proofreading.
+V: 1 staves=2
+"_Distinct"\
+d/c/ |\
+BG~GB | cAA d/c/ | BG~GB | ~d2g>d ||\
+BG~GB | cAATf | g>e (e/d/)(c/B/) | ~d2d :|\
+g |\
+(ef)ga | fddg | (ef)ga | Tf2{ef}g>d ||
+(ef)g>a | (g/f/)(e/d/) {f}Hg>e | !p!(e/d/)(c/B/) AB | "^cresc. . . ."(c/B/c/).d/ (e/g/)(f/a/) ||\
+gG~G>B | cAA d/c/ | BG~GB | Td2g>d ||\
+BG~G>B | cAHA>Tf | {f}g>e (e/d/)(c/B/) | ~d2d |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+G2g2 | d2Dz | G2g2 | B2G2 || G2g2 | d2d2 | ecd2 | GgG :| B | cd e^c |
+d2dB | cde^c | d2B>b || c'd'e'^c' | d'2 Hb>c' | !p!bg fg | "^cresc. . . ."e2cd || B2G2 |
+d2Dz | G2g2 | B2G2 || G2B2 | ceHd2 | ec dD | G2g |]

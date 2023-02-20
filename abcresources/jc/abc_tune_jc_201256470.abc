@@ -1,0 +1,15 @@
+X:4
+T: Brenda Stubbert's (R-121, \251Jerry Holland)
+I: Brenda Stubbert's	R-121	A Dor	reel
+M: C|
+R: Reel
+K: ADor
+%%textfont Times-Bold 10
+%%text Play lower octave occasionally for dramatic effect.  Omit pickup on transition.
+%%staves (1 2)
+V:1 up
+B|"Am"A/A/A BA GAAB| A/A/A BA edde| "G"G/G/G BA BGGB| "F"[c2G2]BA "G"BGGB|
+  "Am"A/A/A BA GAAB| A/A/A BA edda| "G"gedB GABd| e2dB "Am"eAA:|
+V:2
+B,|A,/2A,/2A, B,A, G,A,A,B,| A,/2A,/2A, B,A, EDDE| G,/2G,/2G, B,A, B,G,G,B,| [C2G,2]B,A, B,G,G,B,|
+   A,/2A,/2A, B,A, G,A,A,B,| A,/2A,/2A, B,A, EDDA| GEDB, G,A,B,D| E2DB, EA,A,:|

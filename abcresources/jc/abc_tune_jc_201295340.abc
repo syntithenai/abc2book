@@ -1,0 +1,6 @@
+X: 1
+T: TEST: Bad K line
+%%staffwidth 150
+P: K: ^
+K: ^
+| CDEF GABc |

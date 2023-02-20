@@ -1,0 +1,36 @@
+X: 1
+T: Pray be civil
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.66 #326
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:66 #326
+M: C
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+GGG2 B2d2 g2d2B2G2 | DDD2 F2A2 d2A2F2D2 |\
+GGG2 B2d2 g2d2B2G2 | cBAG d2D2 G4 G,4 :|\
+|:\
+d2f2e2g2 f2a2g2b2 | d2f2e2g2 fga2 f2d2 |
+defg efga fgab gabg | defd efge fga2 f2d2 |\
+gab2 g2e2 fga2 f2d2 | efg2 d2B2 A3GF2D2 |\
+GGG2 B2d2 g2d2B2G2 | cBAG d2D2 G4 G,4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+G4z4 G4z4 | d4z4 d4z4 |\
+G4z4 G4z4 | cBAG d2D2 G4 z4 :|
+|:\
+d4z4 d4z4 | d4z4 d4z4 |\
+d4A4 d4g4 | f4   e4   d4 z4 |
+g4e4 d4z4 | g4z4 f4z4 |\
+g4z4 g4z4 | c'bag d'2d2 g4z4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu. foot it and cast off, the same again .|
+%% Lead up to the top, foot it and cast off :|
+%% Six hands round .|
+%% First and 2d Cu. Right and Left quite round.
+%%endtext

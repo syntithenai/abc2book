@@ -1,0 +1,31 @@
+X: 1
+T: Cupid disarm'd
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (160)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/4
+L: 1/4
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E |\
+AcA BdB | c3 zzB | cec dfd | e3 zzf/g/ |\
+afd gec | BeA ^GBE | Aed c2B | c3- c2 :|
+|: e/f/ |\
+gec c'ge | fae d2c | dBG gec | dfa d>cB |\
+A2z G2z | F2z E2f | eac B2A | A3- A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man cast off below the 2d Man, the 1st Wo. follow him,
+%% then take hands with the 2d Cu. and go half round .| Then
+%% Hands back again, the 1st Wo. go on the outside round the
+%% 2d Man to her Place, the 1st Man follow her to his Place :|
+%% The 1st Cu. slip outside below the 2d Cu. and change Places
+%% fall back sides with the 2d and 3d Cu. and turn single .|
+%% The 1st Man cast off below the 3d Cu. the 1st Wo. at the
+%% same time cast up to the Top and go on the out side below
+%% the 2d Wo. then take Hands sides as before and turn single :|
+%%endtext
+%%sep 1 8 500

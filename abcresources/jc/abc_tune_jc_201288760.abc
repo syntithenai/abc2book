@@ -1,0 +1,16 @@
+X:1
+T:Humours of Tuaimgr\'eine
+R:Reel, hornpipe
+K:Ador
+%%printtempo 0
+Q:"hornpipe, reel"
+(3efg "^A"|\
+"Am"a2 ab {a/b/}ageg | agab (3aba ge | "G"dega gedc | B2G2G2 (3efg |
+"Am"{b}a2 ab ageg | agab (3aba ge | "G"dega gede | "Am"~c2A2A2 (3efg |]
+"^B"[|\
+(3aga bg {a/b/}ageg | agab (3aba ge | "G"defg dedc | B2G2G2 cB |
+{AB}"Am"A3B AGEG | AGAB "C"c3 d | "Em"(3efg (3fga "G"gede | "Am"~c2A2A2 |]
+P: Alternate A part:
+ cB "^A'"|\
+"Am"A3B AGEG | AGAB "C"c3 d | (3efg (3fga gedc | "G"B2G2G2 cB |
+"Am"A3B AGEG | AGAB "C"c3 d | (3efg (3fga gede | "Am" ~c2A2A2 :|

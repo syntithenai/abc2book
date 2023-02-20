@@ -1,0 +1,16 @@
+X: 1488
+T: O'Reilly's Greyhound   #2
+T: cu ui ra\.gallai\.g.
+R: reel
+%S: s:2 b:14(6+4+4)
+O: O'Reilly
+B: "O'Neill's "Music of Ireland" 1850 #1488
+Z: transcribed by John B. Walsh, 8/22/96
+M: C|
+L: 1/8
+K: G
+"^A"[|] (gf) !segno!\
+|: edBA G2(BG) | Bdef gbag |[1 egdB GFGA | Beed BAAg :|\
+                           [2 ((3efg) (dB) GFGA | Beed BAHA2 |]
+"^B"[| eaag bgag | eaaf gdBd | eaag bgag | egdB GABd ||
+     | eaag bgag | eaaf g2(ga) | bgag edef | gbaf g2(fg) !segno! |]

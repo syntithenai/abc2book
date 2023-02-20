@@ -1,0 +1,22 @@
+X: 58
+T: O'er the Muir to Kettie
+N: The "Muir" in the title looks a lot like "Meir"; in the index, it's "moor".
+%R: reel, march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.27 #58
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+FE |\
+D3A ABAF | A2d2 d3A |\
+Bcde {g}f2(ed) | e2 E4 FE |\
+D3A ABAF | A2d2 d3A |\
+BcdB edce | d2D4 :|
+|: de |\
+fedB ABdA | B2d2 d3F |\
+GAB=c BAGF | E2 e4 ag |\
+fedf edce | dcBA BAGF |\
+EFGE AGFE | D2 d4 :|

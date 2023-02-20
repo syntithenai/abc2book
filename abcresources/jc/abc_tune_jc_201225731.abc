@@ -1,0 +1,29 @@
+X: 9
+T: the Brussels Waltz
+%R: waltz
+B: "Le Sylphe, Twenty Four Country Dances with Figures for the Year 1818", Button & Whitaker, p.5 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1818
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 3/8
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(c'a) |\
+f2f2 (c'a) | f2f2 (f'e') | d'2d'2 (e'f') | c'4 (ac') |\
+b2b2 ( gb) | a2a2 (fa) | agbgeg | f4 :|
+|: ef |\
+(ge)(ge)(c'b) | ac'f'e'd'c' | (bg)(bg)(af) | gedcef |\
+(ge)(ge)(c'b) | ac'f'e'd'c' | (bg)(bg)(af) | "_D.C."g4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center WALTZ FIGURE      (1st strain repeated 2d play'd straight thro' & D.C.)
+%%begintext align
+%% Swing with right hands round one Cu: then with left |: swing corners |.
+%% turn your partner and lead thro' the top couple |. .
+%%endtext
+%%center COUNTRY DANCE FIGURE        (Tune play'd as mark'd)
+%%begintext align
+%% Set & hands across with 2d Cu: & back again |: promenade 3 Cu: |.
+%% lead down the middle up again and turn your partner |. .
+%%endtext
+%%sep 1 1 450

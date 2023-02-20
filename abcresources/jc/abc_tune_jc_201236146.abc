@@ -1,0 +1,23 @@
+X: 21701
+T: GALA WATER
+O: Scottish air.
+Q: "Slow with expression."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.170 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: What does the "rinf." mean above the d in bar 5?
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+B2 A>G G3 B | d3 e (dB) (AG) |\
+B2 A2- {cB}A2 (Bd) | (ed) (gf) {f}He2 Hdd |\
+"rinf."d2 e>f g3 a | (b>a)(g>e) {e}g3 B |\
+B2 A2 {cB}A2 (Bd) | "^>"g2 !pp!f {f}He2 Hd2 |]
+%%begintext align
+%% Burns' song, "Braw, braw lads on Yarrow braes," is sung to the above air.
+%%endtext
+%%sep 1 1 300
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,20 @@
+X: 1
+T: Midnight on the Water
+C: Luke Thomasson (c.1900?)
+R: waltz
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: printed copy of unknown origin in Concord Slow Scottish Session collection
+N: The source page has an extra bar at the end with a high d, but it's not clear when this is played.
+N: Also, there's a repeat at the end of B2, but no matching begin-repeat symbol.
+M: 3/4
+L: 1/8
+K: D
+"^A"[|] A,DE |\
+"D"F4 F2 | "D/C#"F4 FE | "D/B"F2 A2- AB | "D/A"AF D2 DE |\
+F2 d2 "G"B2 | "D"A3 DED | "A7"FB AF ED | "D"D3 :|
+"^B"[|] ABc |\
+"D"d4- dd | "D/C#"dc BA Bc | "D/B"d3 B AF | "D"D4 d2 |\
+"Em"e4 ef | e2 d2 e2 | "Bm"f3 a fe | dc BA Bc |
+y8 |\
+"G"d4 de | d2 c2 B2 | "D"A3 B AF | FE DA, DE |\
+"D"F2 d2 "G"B2 | "D"A3 DED | "A"FB AF ED |1 "D"D3 :|2 "D"Hd3 |]

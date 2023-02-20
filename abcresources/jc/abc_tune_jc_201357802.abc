@@ -1,0 +1,18 @@
+X:1
+T:Rienlenderen hass Ola Byrkveen
+R:schottis
+C:etter Hans Brimi
+M:4/4
+L:1/16
+Q:70
+K:Am
+% Intro
+| e3f e2d2 c4 c4 | B3d c2B2 A6 E2 \
+P:A
+|: "Am" A3^G A2B2 c4 c4 | c3B c2d2 e4 e4 | e3f e2d2 c4 c4 | "E" B3d c2B2 "Am"A4 A2E2 \
+|  "Am" A3^G A2B2 c4 c4 | c3B c2d2 e4 e4 | e3f e2d2 c4 c4 | "E" B3d c2B2 "Am"A6 E2 :|
+P:B
+|: "A7" g4 g2e2 "Dm" f4 f2d2 | "Am" e4 e2c2 A6 E2 | A3^G A2B2 c4 c4 | c3B c2d2 e4 e4 \
+| "A7" g4 g2e2 "Dm" f4 f2d2 | "Am" e4 e2c2 "F"A6 B2 \
+| "Am" c4 c2A2 "E" B4 B2^G2 | "Am" A4 A4 A6 e2  :||
+

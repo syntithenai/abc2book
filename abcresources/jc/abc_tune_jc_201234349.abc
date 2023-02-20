@@ -1,0 +1,19 @@
+X: 20442
+T: BENTON'S HORNPIPE
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" 1843 p.44 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The half measure at the end of strain 2 is a bit odd; it might be better with just | fedc d2 :|
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+dfaf gfef | fdBG FAAc | BABG FAAf | gfge dcBA |\
+dfaf gfef | fdBG FAAc | BABG FAAg | fdec d2 :|
+|: a2 |\
+a2fa dafa | dafa bagf | g2eg cgeg | cgeg aggf |\
+a2fa dafa | dafa bagf | g2gg gbag | fedc | d2d2 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

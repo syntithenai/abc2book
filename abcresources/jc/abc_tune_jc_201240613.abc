@@ -1,0 +1,19 @@
+X: 4032
+T: Mrs Drummond of Logiealmonds   Reel
+C: By Niel Gow
+%R: reel
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.3 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Em
+% - - - - - - - - - -
+V: 1 staves=2
+B |\
+(efg).e ^dfTB2 | {^c}d2(.B.d) Ad FD | efge ^dfBe | =dBdF E/E/E E :| B | GBEB GBe^c | dfBd Ad FD |
+GBEB GEBd | T^cAdF E/E/E EB || GBEB GBe^c | dfBd AdFD | GBEB GEE>a | gef^d e/e/e e |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | e2e2 B2e2 | d2d2 d2d2 | e2e2 B2G2 | B2B2 E2E :| z | E2E2 E2A2 | d2d2 d2d2 |
+e2e2 e2e2 | A2B2 E2E2 || E2E2 E2A2 | d2d2 d2d2 | e2e2 G2G2 | A2B2 E2E |]

@@ -1,0 +1,26 @@
+X: 21282
+T: GALOP DES JUIFS
+%R: polka, march
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.128 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+c2cc c2e2 | a2g2e2c2 |\
+B2BB B2d2 | g2f2d2B2 |\
+c2cc c2e2 | a2g2e2c2 |\
+g2gg g2g2 | c4- c2 :|\
+|: G2 |\
+c2d2e2f2 | {e}d2^c2d2c2 |\
+d2f2e2d2 | cBcd c2G2 |
+c2d2e2f2 | {e}d2^c2d2c2 |\
+d2f2e2d2 | c4- c2 :|\
+|: G2 |\
+G2ga g2g2 | g2ga g2g2 |\
+G2ga g2ga | g2f2e2d2 |\
+c2d2e2f2 | {e}d2^c2d2c2 |\
+d2f2e2d2 | c4 c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

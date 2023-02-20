@@ -1,0 +1,32 @@
+X: 20863
+T: HAMILTON SETT (tune 3)
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" 1843 p.86 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+c2 |\
+f>ef>e f>ga>f | b>ab>a b>ag>f |\
+e>fg>f e>dc>B | ABcB F2c2 |\
+f>ef>e f>ga>f |
+b>ab>a b>ag>f |\
+e>fg>f e>cd>e | f2a2f2 H|]\
+c2 |\
+g>fe>f g2c2 | a>gf>g a2c2 |
+b>ab>a a>ga>f | g>fe>d c4 |\
+f>ed>c B>AG>F | d>cB>A G>FE>D |\
+C>DE>F G>AB>G | F2A2"^D.C."F2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All alamand corners,
+%% partners same,
+%% balance corners,
+%% turn partners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

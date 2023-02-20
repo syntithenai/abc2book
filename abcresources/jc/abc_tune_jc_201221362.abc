@@ -1,0 +1,33 @@
+X: 47
+T: Hay-Making Song
+N: (A Game Song. For directions, see p. 8.)
+C: Alfred Scott Gatty
+Q: "Quickly."
+%R: air, jig, march
+N: This is version 2, for ABC software that understands diminuendo symbols.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: Verse numbers added in 2nd staff to simplify reading.
+M: 6/8
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - -
+[| E2 E D2 B, | E2 G B2 z | A2 c B2 A |
+w: 1.~Boys and girls, come out to-day,     We must go a-
+w: 1.~While the bright warm sun doth shine Rake the new-mown
+w: 3.~When the bright warm sun is out,     Toss the new-mown
+w: 4.~Now that it is fair-ly dry,          Let us pile the
+w: 5.~Load the wag-ons with the hay,       Drive them to the
+w: 6.~If you want hay sweet and fine,      Make it while the
+%
+G2 B e2 z | Qe3 qB2 z | Qe3 qc2 z | B2 QG qA2 F | E3- E2 z |]
+w: 1.~mak-ing hay.    Heigh-o! Heigh-o! out a-mak-ing hay.*
+w: 2.~hay in line.    Heigh-o! Heigh-o! rake it in-to line.*
+w: 3.~hay a-bout,     Heigh-o! Heigh-o! toss it well a-bout.*
+w: 4.~hay-cocks high. Heigh-o! Heigh-o! pile the hay-cocks high.*
+w: 5.~stack a-way.    Heigh-o! Heigh-o! to the stack a-way.*
+w: 6.~sun doth shine. Heigh-o! Heigh-o! while the sun doth shine.*
+% - - - - - - - - - - - - - - -

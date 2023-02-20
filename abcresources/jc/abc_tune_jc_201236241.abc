@@ -1,0 +1,22 @@
+X: 2181
+T: the Braes of Athol.   a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.2 p.18 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+d |\
+{c}B2(.A.G) (B/c/d) (e/f/g) | TB>AGB A/A/A A>d | {c}B2AG (B/c/d) (e/f/g) | D3B G/G/G G :: f | gdBg dgdB |
+gdBg Tf2 Ae/f/ | gdBg dgdB | (c/B/A/G/) F>A G/G/G G :: c | BGBG BG (B/c/d) | BG (B/c/d) (e/f/g) A>c | BG (B/c/d) (e/f/g) (f/g/a) |
+D3B G/G/G G :: f | gdBg dgdB | (g/f/e/d/) Bg Tf2 Ae/f/ | gdBg dgdB | (c/B/A/G/) F>A G/G/G G :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+g2g2 g2g2 | g2G2 d2d2 | g2g2 g2c2 | d2d2 G2G :: z | g2g2 g2g2 |
+g2g2 d2c2 | B2G2 G2G2 | c2d2 G2G :: z | G2G2 G2G2 | G2G2 c2d2 | g2g2 c2d2 |
+d2d2 G2G :: z | g2g2 g2g2 | g2g2 d2c2 | B2G2 G2B2 | c2d2 G2G :|

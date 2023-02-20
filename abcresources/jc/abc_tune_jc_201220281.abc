@@ -1,0 +1,18 @@
+X: 033	% 4
+T: Opera Reel
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.3 #3
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Both parts have final repeat but no initial repeat; fixed with added initial repeats.
+N: Bar 12 is only length 5/8; fixed by adding dot to first note (f).
+N: Printed with 3 sharps; handwritten note says "Comp???? Key of D".
+N: The 4th part lack repeats, but it is usually repeated to get 32 bars.
+M: 2/4
+L: 1/16
+K: D
+V: 1 name=4
+|: D2D2 FAFA | D2D2 EDEF | D2D2 FDFA | BdAF E2E2 :|
+|: d2d2 dAFA | d2d2 egfe | d2d2 dAFA | BdAF E2E2 :|
+|: afaf gfge | faed cBA2 | afaf gfge | faec d2d2 :|
+[| defd efge | defd ecBA | defd efge | faec d2d2 |]
+

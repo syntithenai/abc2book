@@ -1,0 +1,30 @@
+X: 20851
+T: MELLOW HORN SETT (tune 4)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.85 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+(3(fed) |\
+c2F2 A2GF | ABAG Afed | c2F2 A2c2 | f2ef gfed |\
+c2F2 A2GF | ABAG A2c2 | f3g a2f2 | f2a2f2 H|]
+f3g a2g2 | f2d2 c2B2 | f3g a2b2 | (g4 c2)c2 |\
+f3g a3g | f2d2 c2A2 | fefg a2g2 | f2ef gfe"^D.C."d |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All alamand corners,
+%% partners the same,
+%% balance corners,
+%% turn partners,
+%% -- first four lead to the right,
+%% chassa out,
+%% form lines,
+%% all forward and back.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

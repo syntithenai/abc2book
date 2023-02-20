@@ -1,0 +1,31 @@
+X: 083
+T: MISS URCUHART OF MELDRUM
+T: re-named Miss Gordon of Nethermuir
+C: I. COOPER
+R: Strathspey
+B: Glen Collection p.8 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: D
+%
+V: 1
+|:\
+D3A F3A (TBABc) d3B | AF3 TF3D E3A, C3A, |\
+D3A F3A (TBABc) d3B | AF3 G3E {E}D4 D4 :|
+(d3c) (c3B) (B3A) (A3F) | G3e F3d E3A, C3A, |\
+(d3c) (c3B) (TB3A) A3g | (3f2a2f2 (3e2c2e2 d4 d4 |
+(d3c) (c3B) (B3A) (A3F) | G3e F3d E3A, C3A, |\
+D3A F3A (BABc) d3B | AF3 G3E {E}D4 D4 |]
+%
+V: 2
+|:\
+[f4d4][a4d4] [g4d4][b4d4] | [f4d4][a4d4] [g4c4A4][g4c4A4] |\
+[f4d4][a4d4] [g4d4][b4d4] | [f4d4][a4e4A4] [a4f4d4][a4f4d4] :|
+[d'4a4d4][d'4a4d4] [d'4a4d4][d'4a4d4] | [a4c4][a4d4] [g4e4A4][g4e4A4] |\
+[f4d4][d'4a4d4] [d'4a4d4][c'4a4] | [d'4a4][g'4e'4a4] [f'4d'4][d'4d4] |
+[d'4a4d4][d'4a4d4] [d'4a4d4][d'4a4d4] | [a4c4][a4d4] [g4e4A4][g4e4A4] |\
+[f4d4][a4d4] [g4d4][b4d4] | [d'4a4d4][c'4a4] [a4f4d4][a4f4d4] |]

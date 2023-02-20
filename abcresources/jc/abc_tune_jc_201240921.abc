@@ -1,0 +1,32 @@
+X: 4171
+T: Wandering Willie
+%R: air, waltz
+N: This is version 1, for ABC software that doesn't understand voice overlays. or tremolo notation.
+B: Niel Gow & Sons "Complete Repository" v.4 p.17 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: double bars added to make the phrasing visible.
+M: 3/4
+L: 1/8
+Q: "VERY SLOW"
+K: F	% and Dm
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+[|\
+c3 B AG | F3 G F2 | [G3E3] [FD][G2E2] | [A2F2] "_sf"d4 ||\
+[c3A3] [BD] [AC][GB,] | [F3A,3] [GC] [A2F2] | A3 ^G A2 | [D6A,6F,6] ||\
+c3 BAG | F3 G F2 |
+[G3E3] [FD] [G2E2] | [A2F2] "_sf"d4 ||\
+[c3A3] [BD] [AC][GB,] | [F3A,3] [GC] [A2F2] | A3 ^G A2 | [D6A,6F,6] |]|\
+!p!A2 d2 ^c2 | ~d3 e f2 | [c3G4] d[cG2]B | [A3F3] [BG] [c2A2] || A2 d2 ^c2 |
+H~d3 e Hf2 | A3 ^G A2 | [D6A,6F,6] || A2 d2 ^c2 | d3 e f2 | [c3G3] d[cG]B | A3 B c2 || A2 d2 e2 |\
+H[f3D3] [gE] H[a2F2] | {^G}A3 ^G A2 | [D6A,6F,6] |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+[|\
+zF f4 | [a2f6] b2 a2 | c'2 c2 c'2 | f2 (Bc)(de) || f2 F2 f2 | f2 e2 f2 | a3 ^g a2 | d2 .D(dcB) || A2 f2 z2 | [a2f6] b2 a2 |
+c'2 c2 c'2 | f2 (Bc)(de) || f2 F2 f2 | f2 e2 f2 | a3 ^g a2 | zDFA d2 |]| [f'4d'4] [g'2e'2] | [a'3f'3] [g'e'] [f'2d'2] | e'2 c'2 [e'2e2] |\
+[f2c'] e2 f2 || [f4a4d'4] [g'2e'2] |
+H[a'3f'3] [g'e'] H[f'2d'2] | a3 ^g a2 | dDFA de || f2 (f'a)(e'a) | (d'a)(^c'a) d'2 | e'2 c'2 e'2 | f'2 fg a2 ||\
+[f4a4] [a2^c'2] | a6 | {^g}a3 ^g a2 | dDFA d2 |]

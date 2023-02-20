@@ -1,0 +1,51 @@
+% D whistle scales
+
+X: 1
+T:1. D Major
+N:2 sharps - F#, C#
+M:4/4
+L:1/4
+K:D
+D E F G | A B c d | d e f g | a b c' d' || D F A d | d f a d' |]
+
+X: 2
+T:2. G Major
+N:1 sharp - F#
+M:4/4
+L:1/4
+K:G
+G A B c | d e f g || G B d g |]
+
+X: 3
+T:3. A Major
+N:2 sharps - F#, C#, G#
+M:4/4
+L:1/4
+K:A
+A B c d | e f g a || A c e a |]
+W:(G# = XXOXXX or XXxOOO)
+
+X: 4
+T:4. B Minor
+N:2 sharps - F#, C#
+M:4/4
+L:1/4
+K:BMin
+B c d e | f g a b || B d f b |]
+
+X: 5
+T:5. E Minor
+N:1 sharp - F#
+M:4/4
+L:1/4
+K:EMin
+E F G A | B c d e || E G B e |]
+
+X: 6
+T:6. F# Minor
+N:3 sharps - F#, C#, G#
+M:4/4
+L:1/4
+K:F#Min
+F G A B | c d e f || F A c f |]
+W:(G# = XXOXXX or XXxOOO)

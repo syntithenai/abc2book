@@ -1,0 +1,41 @@
+X: 30983
+T: COTILLION No. 11. METAMORA SETT tune 3
+C:
+%R: jig
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.98 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: This tune is written oddly:  The first two staves both have key and time signatures; the 3rd staff doesn't.
+N: Also, the first two staves both end with a fermata, while the 3rd has a "D.C.".  It's as if it's really
+N: a 2-strain tune, with the 2nd staff and the bottom voice on staff 3 are a harmony to the 1st staff and 
+N: the top voice on staff 3.  Also, the rhythms are messed up at the start of the 3rd staff.
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+c/d/ |\
+e3 {f}e^de | c3 A3 | B2B e2e | {d}cBc A2z |\
+fga ega | dga cea | Bdc BAG | AAA A2 H|]
+a/b/ |\
+c'3 {d'}c'^bc' | a3 e2c | z(.B.B) z(.e.e) | z(.c.c) a2e |\
+fga ega | dga cea | Bdc BAG | AAA A2 H|]
+z |\
+c2c c^de & zAA zAA | e2B BcB & zGG zGG |\
+AGA cBA & zFF zFF | GBG E2x & zB,B, EGB |\
+cAe ^dBf | egf e^dc | BcB AGF | EGB e>ga/"^D.C."b/ |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 right and left,
+%% balance to partners,
+%% ladies chain,
+%% promenade 4.
+%%
+%% First 2 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

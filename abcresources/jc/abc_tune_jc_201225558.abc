@@ -1,0 +1,52 @@
+X:97
+T:The Fairfield Muster
+C:John McDonagh 6/65
+M:2/4
+Q:1/4=100
+L:1/16
+%%staves [1 2]
+U:M=!tenuto!
+U:R=!breath!
+K:D
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+B2|:A2FG A2df|a2fd RA2Mf2|efge cABc|dfec dcB_B|A2FG A2df|a2fd RA2df|
+efge cABc|[1 dfec Rd2B2:|[2 Rd2dc M=c4||\
+K:G
+M:4/4
+.B2.B2 .B2.B2 A^GAB =GABc|
+Rd2Md2 cBMc2 MB2FG ABcd|Re2Me2 cdMe2 Md2dc BcMd2|(3ccc(3AAA (3ccc(3eee Rd4 Md4|
+.g2.g2 Mg2ab Ma2fe Md3=f|Re2Me2 cdMe2 Md2dc RB4|(AB)cd efga (GA)Bc defg|
+(FG)AB cdef Mg2dB RG2B2||\
+K:D
+M:2/4
+A2FG A2df|a2fd RA2Mf2|efge cABc|dfec dcB_B|
+A2FG A2df|a2fd RA2df|efge cABc|(3dfg(3abc' .d'2z2||
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+B2|:A2FG A2df|a2fd RA2Mf2|efge .c2MA2|.F2MG2 RA2FG|
+A2FG A2df|a2fd RA2Md2|efge .c2MA2|[1 .d2MA2 Rd2B2:|[2 Rd2dc M=c4||
+K:G
+M:4/4
+.B2.B2 .B2.B2 .A2.A2 GABc|Rd2Md2 cBMc2 MB2z2 G4|Re2Me2 cdMe2 Md2dc MB4|\
+.A2.A2 .E2.A2 RD4 MD4|
+.g2.g2 Mg2ab Ma2fe Md3B|Rc2Mc2 ABMc2 MB2BA RG4|A8 G8|F8 MG2GG RG2B2||
+K:D
+M:2/4
+A2FG A2df|a2fd RA2Mf2|efge .c2MA2|.F2MG2 RA2FG|
+A2FG A2df|a2fd RA2Md2|efge .c2MA2|dfec .d2z2||
+%%begintext
+The second version of this selection is written on the second line and is arranged
+to blend with the lead, or first, version.  The last measure has an additional variation
+for those who prefer it.  While the second version is not a harmony part in the strict
+sense, it will produce effects of "part" fifing in certain measures.  The selection will produce
+the most pleasing effect when all fifers are playing the first version.
+%%endtext

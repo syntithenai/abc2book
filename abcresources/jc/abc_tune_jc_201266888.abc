@@ -1,0 +1,64 @@
+
+X: 1
+T: Danny Boy
+T: The (London)Derry Air
+C: music: traditional Irish
+C: words: Frederic Weatherly (1910)
+M: 4/4
+L: 1/8
+K: F
+  "C7"zEFG | "F"A3 G     Ad "F7"cA | "Bb"GF       D2 "C7"zFAB | "F"c3 d cA "(G7)"FA | "C"G4
+  "C7"zEFG | "F"A3 G     Ad "F7"cA | "Bb"GF "(Gm)"D2 "C7"zEFG | "F"A3 B AG   "C7"FG | "F"F4
+  "C7"zcde | "F"f3 e "Bb"ed "(C7)"cd |  "F"cA F2 "C7"zcde | "F"f3 e "Bb"ed cA | "C"G4
+  "C7"zcdc | "F"a3 g "Bb"gf       df |  "F"cA F2 "Dm"zE"Bb"FG | "F"Ad cA "Bb"GF "C7"DE | "F"F4 |]
+%
+W: 1. Oh, Danny boy, the pipes, the pipes are calling
+W:     From glen to glen, and down the mountain side.
+W:     The summer's gone, and all the flowers are dying.
+W:    'Tis you, 'tis you must go, and I must bide.
+W:     But come you back when summer's in the meadow,
+W:     Or when the valley's hushed and white with snow.
+W:    'Tis I'll be there in sunshine or in shadow
+W:     Oh, Danny boy, oh, Danny boy, I love you so.
+%
+W: 2. And if you come, when all the flowers are dying,
+W:    And I am dead, as dead I well may be,
+W:    You'll come and find the place where I am lying,
+W:    And kneel and say an "Ave" there for me.
+W:    And I shall hear, tho' soft you tread above me,
+W:    And all my dreams will warm and sweeter be,
+W:    If you'll not fail to tell me that you love me,
+W:    I simply sleep in peace until you come to me.
+W:
+
+
+X: 1
+T: Danny Boy    [G]
+T: The (London)Derry Air
+C: Traditional
+M: 4/4
+L: 1/8
+K: G
+"D7"zFGA | "G"B3 A Be "G7"dB | "C"AG "(Am)"E2 |\
+[1 "D7"zGBc | "G"d3 e dB "(A7)"GB | "D"A4 :|\
+[2 "D7"zFGA | "G"B3 c BA "D7"GA | "G"G4 |] "D7"zdef |
+"G"g3 f "C"fe "(D7)"de | "G"dB G2 "D7"zdef |\
+"G"g3 f "C"fe dB | "D"A4 "D7"zded |\
+"G"b3 a "C"ag eg | "G"dB G2 "Em"zF"C"GA |\
+"G"Be dB "C"AG "D7"EF | "G"G4 |]
+
+
+X: 1
+T: Danny Boy    [D]
+T: The (London)Derry Air
+C: Traditional
+M: 4/4
+L: 1/8
+K: D
+"A7"zCDE | "D"F3 E FB "D7"AF | "G"ED "(Em)"B,2 |\
+[1 "A7"zDFG | "D"A3 B AF "(E7)"DF | "A"E4 :|\
+[2 "A7"zCDE | "D"F3 G FE "A7"DE | "D"D4 |] "A7"zABc |
+"D"d3 c "G"cB "(A7)"AB | "D"AF D2 "A7"zABc |\
+"D"d3 c "G"cB AF | "A"E4 "A7"zABA |\
+"D"f3 e "G"ed Bd | "D"AF D2 "Bm"zC"G"DE |\
+"D"FB AF "G"ED "A7"B,C | "D"D4 |]

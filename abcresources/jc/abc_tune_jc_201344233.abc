@@ -1,0 +1,26 @@
+X:1
+T: This Great World's A Trouble
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:C
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 29 notes)
+K:C
+M:4/4
+L:1/16
+c8 d8 |e4 f2 e2 d4 G4 |c4 G4 d4 G4 |e4 d2 c2 d8 |c8 d8 |e4 f2 e2 d4 g2 f2 |e2 d2 c2 B2 A8 |G16 |
+%W: A2
+% voice 1 (1 lines, 29 notes)
+c8 d8 |e4 f2 e2 d4 G4 |c4 G4 d4 G4 |e4 d2 c2 d8 |c8 d8 |e4 f2 e2 d4 g2 f2 |e2 d2 c2 B2 A8 |G16 |
+%W: B1
+% voice 1 (1 lines, 28 notes)
+g8 G8 |g4 f2 e2 f4 F4 |f8 F8 |f4 e2 d2 e4 E4 |e8 d8 |c4 d2 c2 B4 A2 B2 |c4 E2 F2 G4 G4 |c16 |
+%W: B2
+% voice 1 (1 lines, 28 notes)
+g8 G8 |g4 f2 e2 f4 F4 |f8 F8 |f4 e2 d2 e4 E4 |e8 d8 |c4 d2 c2 B4 A2 B2 |c4 E2 F2 G4 G4 |c16 ||

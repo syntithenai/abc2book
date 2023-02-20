@@ -1,0 +1,19 @@
+X:1
+T: Antarctica Bound
+C: Muriel Johnstone
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: RSCDS Cincinnati music for holiday 2008
+M: 6/8
+L: 1/8
+%
+K: F
+c \
+| "F"f2F "Gm"GAB | "C7"cdc "F"AGF | "F"f2F "Gm"GAB | "C7"cde "Dm"f2g \
+| "C7"aga "F"f2c | "Bb"dfd "C7"cdc | "Dm"AGF "Gm"GAB | "C7"cde "F"f2 :|
+e \
+| "Dm"d2D FGA | "G 7"GA=B "C7"c2_B | "A7"AGA "Dm"F2f | "C"edc c2"A7"^c \
+| "Dm"d2D FGA | "G 7"GA=B "C7"cde | "F"fga "Bb"def | "C7"cde "F"f2 |]
+e \
+| "Dm"d2D FGA | "G 7"GA=B "C7"c2_B | "F"AGA "Dm"F2f | "C7"ede "F"f2g \
+| "C7"aga "Dm"f2c | "Bb"dfd "C7"cdc | "Dm"AGF "Gm"GAB | "C7"cde "F"f2 |]

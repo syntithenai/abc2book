@@ -1,0 +1,66 @@
+X:1
+T:Nun bin ich einmal frey
+C:J. Regnart
+L:1/4
+M:2/2
+K:GDorian
+%
+%%sysstaffsep 30pt
+%%systemsep   65pt
+%%indent 1.5cm
+%
+V:S clef=treble name=Sopran bracket=3
+V:A clef=treble name=Alt
+V:T clef=treble8 name=Tenor
+V:L clef=frenchtab name=Laute
+%
+[V:S] B2  A   d | c   B   A2 | z B   A   d | c   B   A2 |
+w:1.~~Nun bin ich ein-mal frey,  nun bin ich ein-mal frey
+w:2.~~Kein trau-ren ist bey mir, kein trau-ren ist bey mir
+w:3.~~In lieb hab ich der gfahr, in lieb hab ich der gfahr
+w:4.~~Da-rumb all, die ir seit,  da-rumb all, die ir seit
+[V:A] G2  F   B | A   G  ^F2 | z G   F  B | A   G  ^F2 |
+w:   Nun bin ich ein-mal frey,  nun bin ich ein-mal frey
+[V:T] G2  d > e | f   g   d2 | z G   d > e | f   g   d2 |
+w:   Nun bin ich ein-mal frey,  nun bin ich ein-mal frey
+[V:L] [aabc2] [,da,c1] [,d/] [,,,,e] | [,d,a1] [,abc] [,aa,c2] | \
+    z1 [,abc] [,aa,c] [,d/] [,,,,e] | [,d,a1] [,abc] [,aa,c2] |
+%
+[V:S] B2  c   B | A2 G2 :| z d  d   d  | B  c d2-|d  d    _e    d |
+w:   von lie-bes ban-den,  und thu jetz-und al-lein* nach kurtz-weil
+w: nicht mehr vor-han-den, vor freu-den thut mir oft* mein hertz auff-
+w:   so vil er-stan-den, drein ich hin-f\"ur nicht mehr* werd sein zu
+w:   mit lieb umb-ge-ben,  zu  wen-den   wi-der-umb* be-fleist euch
+[V:A] G2  A   G |^F2 G2 :| z F  F   F  | G  A B2-|B  F     G    B |
+w:   von lie-bes ban-den,  und thu jetz-und al-lein* nach kurtz-weil
+[V:T]_e2  c  _e | d2 G2 :| z B  B   B  |_e  c B2 | B2     _e    g |
+w:   von lie-bes ban-den,  und thu jetz-und al-lein nach kurtz-weil
+[V:L] [,bbcd2] [,bd,a1] ,,,,d | [,ea,c2] [aa,c,a] :| \
+    [,dff2] [dd,,,d1] d | [ab,,d1] [c,,,a] [dab,,d2] | \
+    [,df,,d2] [ab,,d1] ,,,c |
+%
+[V:S] c2 B2 |: z d   d   d |(c/B/c/d/c) B | A2  z d |
+w:   rin-gen,   des mag ich  wol****  mit lust, des
+w:  sprin-gen,  des mag ich  wol****  mit lust, des
+w:  brin-gen,   des mag ich  wol****  mit lust, des
+w:    e-ben,    so lieb euch im*-**   mer ist,  so
+[V:A] A2 B2 |: z B   B   B |(A/G/A/B/A) G |^F2  z B |
+w:   rin-gen,   des mag ich  wol****  mit lust, des
+[V:T] f2 B2 |: z g   g   g |(f/_e/f/g/f) g| d2  z B |
+w:   rin-gen,   des mag ich  wol****  mit lust, des
+[V:L] [cdda2] [dab,,d] |: z1 [da,c] [da,c] [da,c] | \
+    [cdda/]acdc1 [a,bc] | [,ea,c2] z1 [dab] |
+%
+[V:S] d   d (c/B/c/d/|c) B  A    A |(B/c/d/B/ c/B/c/d/ |c)B A2 | B4 :|
+w:   mag ich wol****   mit lust ein lied***    -***     *lein sin-gen.
+w:   mag ich wol****   mit lust ein lied***    -***     *lein sin-gen.
+w:   mag ich wol****   mit lust ein lied***    -***     *lein sin-gen.
+w:  lieb euch im*-**   mer ist  eur leib***    ****     *und le-ben.
+[V:A] B   B (A/G/A/B/|A) G ^F    F |(G/A/B/G/ A/G/A/B/ |A)G^F2 | G4 :|
+w:   mag ich wol****   mit lust ein lied***    -***     *lein sin-gen.
+[V:T] B   B (f/_e/f/g/|f) g d2     | g2       f2-      |f_e d2 | G4 :|
+w:   mag ich wol****   mit lust     ein       lied-     *lein sin-gen.
+[V:L] [dab1] [dab] [cd,a2] | z1 [aa,c] [,ef,c2] | \
+    [aabc2] [cdda] | z1 [a,,,d] [,ea,c2] | [aa,c,a4] :|
+
+

@@ -1,0 +1,42 @@
+
+X: 1
+T: How Great Our Joy
+T: While By the Sheep We Watched
+C: trad. German carol
+S: https://hymnary.org/text/while_by_my_sheep_i_watched_at_night#authority_media_flexscores
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+V: S treble
+V: A treble
+V: T bass middle=D
+V: B bass middle=D
+%%staves (S A) | (T B)
+%%continueall 0
+M: 2/4
+L: 1/8
+K: C
+[V:S][| c2 BA | G3 G | A2 B2 | c4 | c2 BA |
+w: 1.~While by the sheep we watched at night, Glad tid-ings
+w: 2.~There shall be born, so he did say, In Beth-le-
+w: 3.~There shall the Child lie in a stall, This Child who
+w: 4.~This gift of God we'll cher-ish well, That ev-er
+      | G3 G | A2 B2 | c3 |[| !f!c | B3 B | A4 | !p!B3 B |
+w: brought an an-gel bright. How great our joy! | Great our
+w: \-hem a Child to-day. ******
+w: shall re-deem us all. ******
+w: joy our hearts shall fill. ******
+	  | A4 | !f!c2 d2 | e4 | !p!c2 d2 | e4 | !f!e2 dc | B2 A2 |
+w: joy! Joy, joy, joy! Joy, joy, joy! Praise we the Lord in
+	  | B2 ^G2 | A4 | !p! e2 dc | B2 A2 | B2 ^G2 | A4 |]
+w: Heav'n on high! Praise we the Lord in heav'n on high!
+[V:A][| c2 BA | G3 G | F2 F2 | E4 | A2 GF |
+      | E3 E | FE DF | E3 |[| E | E3 D | C4 | E3 D |
+	  | C4 | A2 B2 | G4 | A2 B2 | G4 | G2 FE | D2 CF |
+	  | F2 ED | C4 | E2 FE | D2 CF | F2 ED | C4 |]
+[V:T][| c2BA | G3 c | c2 G2 | c4 | e2 ec |
+      | c3 c | c2 G2 | G3 |[| A | ^G3 G | A4 | ^G3 G |
+	  | A4 | e2 g2 | e4 | e2 g2 | e4 | c2 GG | ^G2 A2 |
+	  | d2 B2 | A4 | G2 ^GA | ^G2 A2 | d2 B2 | A4 |]
+[V:B][| c2BA | G3 E | FE D2 | C4 | A2 EF |
+      | C3 C | F2 G2 | C3 |[| !f!A, | E3 E | A,4 | !p!E3 E |
+	  | A,4 | !f!A2 G2 | c4 | !p!A2 G2 | c4 | !f!C2 B,C | E2 F2 |
+	  | D2 E2 | A,4 | !p!C2 B,A, | E2 F2 | D2 E2 | A,4 |]

@@ -1,0 +1,102 @@
+% %continueall
+%%musicspace 5
+
+
+X: 1
+T: Epstein Bulgar v.3   [Dm]
+R: bulgar, freylach
+Z: John Chambers <jc:trillian.mit.edu>
+O: transcr: Steve Rauch 2016
+S: Steve Rauch 2016-12
+M: 4/4
+L: 1/8
+K: Dm
+"^A"[|] A^GA |\
+"Gm"B2 "Dm"A2 "Gm"G2 "Dm"F2 | "A"E4 zA,^CE |\
+"A"G3 ^G A/G/F F/E/D | "Dm"EF3 zABA |\
+"Dm"f2 "A"e2 "Dm"d2 "D7"c2 | "Gm"B2 "Dm"A2 "Gm"G3 G |
+"A"^GA2G A/G/F F/E/D | "Dm"D4 z "^B":: ABA |\
+"A"^c4 zABA | "Dm"d4 zAGF |\
+"A"E3A A/^G/F F/E/D |1,3 "Dm"EF3 z :|2,4 "Dm"D4 z :|[K:=B]
+[K:D] "^C"|: ABA |\
+"D"d2 zF A2 zG | F/G/A G/F/E DA^GA |\
+F>A BA dF AD | F4 zFED | "A7"E>F GA FE ED |
+"D"^GA3 zAGA | FA f=f e_e dc |\
+=cB _BA _AG FD | "A7"E>F GA FD EC | "D"D4 z :|
+
+%%sep 1 1 500
+
+
+X: 2
+T: Epstein Bulgar v.3   [Em]
+R: bulgar, freylach
+Z: John Chambers <jc:trillian.mit.edu>
+O: transcr: Steve Rauch 2016
+S: Steve Rauch 2016-12
+M: 4/4
+L: 1/8
+K: Em
+"^A"[|] B^AB |\
+"Am"c2 "Em"B2 "Am"A2 "Em"G2 | "B"F4 zB,^DF |\
+"B"A3 ^A B/A/G G/F/E | "Em"FG3 zBcB |\
+"Em"g2 "B"f2 "Em"e2 "E7"d2 | "Am"c2 "Em"B2 "Am"A3 A |
+"B"^AB2A B/A/G G/F/E | "Em"E4 z "^B":: BcB |\
+"B"^d4 zBcB | "Em"e4 zBAG |\
+"B"F3B B/^A/G G/F/E |1,3 "Em"FG3 z :|2,4 "Em"E4 z :| [K:E]
+"^C"|: BcB |\
+"E"e2 zG B2 zA | G/A/B A/G/F EB^AB |\
+G>B cB eG BE | G4 zGFE | "B7"F>G AB GF FE |
+"E"^AB3 zBAB | GB g=g f=f ed |\
+=dc =cB _BA GE | "B7"F>G AB GE FD | "E"E4 z :|
+
+%%sep 1 1 500
+
+
+X: 3
+T: Epstein Bulgar v.3   [Gm]
+R: bulgar, freylach
+Z: John Chambers <jc:trillian.mit.edu>
+O: transcr: Steve Rauch 2016
+S: Steve Rauch 2016-12
+M: 4/4
+L: 1/8
+K: Gm
+"^A"[|] d^cd |\
+"Cm"e2 "Gm"d2 "Cm"c2 "Gm"B2 | "D"A4 zD=FA |\
+"D"c3 ^c d/c/B B/A/G | "Gm"AB3 zded |\
+"Gm"b2 "D"a2 "Gm"g2 "G7"f2 | "Cm"e2 "Gm"d2 "Cm"c3 c |
+"D"^cd2c d/c/B B/A/G | "Gm"G4 z "^B":: ded |\
+"D"=f4 zded | "Gm"g4 zdcB | "D"A3d d/^c/B B/A/G |\
+[1,3 "Gm"AB3 z :|2,4 "Gm"G4 z :| [K:=B=e=A]
+[K:G]\
+"^C"|: ded |\
+"G"g2 zB d2 zc | B/c/d c/B/A Gd^cd |\
+B>d ed gB dG | B4 zBAG | "D7"A>B cd BA AG |
+"G"^cd3 zdcd | Bd b_b a_a gf |\
+=fe _ed _dc BG | "D7"A>B cd BG AF | "G"G4 z :|
+
+%%sep 1 1 500
+
+
+X: 4
+T: Epstein Bulgar v.3   [Am]
+R: bulgar, freylach
+Z: John Chambers <jc:trillian.mit.edu>
+O: transcr: Steve Rauch 2016
+S: Steve Rauch 2016-12
+M: 4/4
+L: 1/8
+K: Am
+"^A"[|] e^de |\
+"Dm"f2 "Am"e2 "Dm"d2 "Am"c2 | "E"B4 zE^GB |\
+"E"d3 ^d e/d/c c/B/A | "Am"Bc3 zefe |\
+"Am"c'2 "E"b2 "Am"a2 "A7"g2 | "Dm"f2 "Am"e2 "Dm"d3 d |
+"E"^de2d e/d/c c/B/A | "Am"A4 z "^B":: efe |\
+"E"^g4 zefe | "Am"a4 zedc |\
+"E"B3e e/^d/c c/B/A |1,3 "Am"Bc3 z :|2,4 "Am"A4 z :| [K:A]
+"^C"|: efe |\
+"A"a2 zc e2 zd | c/d/e d/c/B Ae^de |\
+c>e fe ac eA | c4 zcBA | "E7"B>c de cB BA |
+"A"^de3 zede | ce c'=c' b_b ag |\
+=gf =fe _ed cA | "E7"B>c de cA BG | "A"A4 z :|
+

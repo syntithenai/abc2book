@@ -1,0 +1,25 @@
+X: 10521
+T: Allegro
+C: Gaetano Brandi
+Q: "Allegro"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.52
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+%%graceslurs 0
+g |\
+gc'ge | f3(d/c/) | BGAB | cegc' |\
+gc'ge | f3(d/c/) | BGAB | c3 :|
+|: c |\
+(Bd)(GB) | cegc' | BdGB | cegc' |\
+aAgG | fFeE | {d/}dcde | "_Fine"c3 H:|
+|:[K:Cm] c |\
+e2(dc) | (c=BB).d | f2(ed) | (dcc).g |\
+a2g2 | f2e2 | d2{d/}c=B/c/ | =B3 :|
+|: G |\
+(=BdcB) | cegc' | (=BdcB) | cegc' |\
+c'2_b2 | a2g2 | {g}f2(ed) | "_Da Capo al Fine"c3 :|
+%
+%%center -

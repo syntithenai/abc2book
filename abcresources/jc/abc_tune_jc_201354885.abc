@@ -1,0 +1,17 @@
+X: 1
+T: The Young Widow  (A)
+O: 1788
+B: John Griffith "A Collection of the Newest and Most Fashionable Country Dances and Cotillions", 1788
+B: Hendrickson "John Griffiths Dancing Master"
+O: New England, USA
+%D:1788
+R: jig
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%Q: 3/8=108
+K: A
+|: "A"c2c cBc | "E7"ded "A"cBA |1,3 cBA cBA | cBA "E7"e3 :|2,4 "A"cde "D"fga | "E7"cdB "A"A3 :|
+|: "E"BGE BGE | "(A)"edc "E"BGE | BGE BGE | "(A)"edc "(B7)"B3 :|[K:D]
+K: E
+|: "E"g2g gfg | "B7"aba "E"gfe |1 gfe gfe | gfe "B7"b3 :|2 "E"efg "B7"fga | "B7"b2B "E"e3 |]

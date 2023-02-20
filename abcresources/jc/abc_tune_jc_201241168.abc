@@ -1,0 +1,20 @@
+X: 4272
+T: Lady Jean Montgomrie's     Strathspey
+C: by Niel Gow
+%R: strathspey
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.27 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - -
+V: 1 staves=2
+f !segno!|\
+c<FTc>A TG>AB>d | c<FTc>A c>df>a | f<dc>A TG>AB<d | cFTcA {A}F2F :| f | Ff-f>a Tg>fga |cf-f>a Tf>afc |
+d>fTc>A G>AB>d | c<FTc>A {A}F2Ff || Ff-f>a Tg>fga | cf-f>a f>afc | f>dTc>A G>AB>d | Ff/g/ ae {e}f2fd !segno!|]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z !segno!|\
+f2f2 g2g2 | f2f2 f2f2 | f2f2 g2g2 | f2c2 F2F :| z | f2f2 g2g2 | f2f2 f2a2 |
+b2a2 g2e2 | f2c2 F2F2 || f2f2 g2g2 | f2f2 f2a2 | b2a2 g2e2 | f2c2 f2[F2f2] !segno!|]

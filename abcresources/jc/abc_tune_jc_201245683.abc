@@ -1,0 +1,36 @@
+X: 1
+T: Albermarl's March
+N: It's spelled "Albemarl's" in the ToC, and "Albermarls" in the tune.
+%R: march, reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (95)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the dance instruction.
+N: It's not clear why the Bb in bar 14 is written as an A#.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+FGAB c2f2 | efge f2F2 | c2BA d2c2 | B4 A4 |\
+f2ga g2fe | d2ef =B2cd | BA=Bc dfed | Td4 c4 |\
+g2fe dfed | Td4 c4 :|
+[|\
+cdef g2c2 | B2AG A2GF | defg a2^c2 | dfed c2^A2 |\
+A=Bc2 cde2 | efge f2b2 | b2a2 dgfe | Te4 d4 |
+^fgaf g2de | fagf e2dc | B2AG A2fe | dcBA G4 |\
+FGAB c2f2 | b2ag a2gf | B2AG Afgd | e3f f4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center The 1st strain twice the last but once.
+% - - - - - - - - - - Dance description: - - - - - - - - - -
+%%begintext align
+%% All four lead up then back again the 2d C. go round the 1st Cu. into 
+%% their own Places the 1st Cu. turn hands at the same time .| then the 1st
+%% Cu. cast off and go the half figure thro the 2d Cu. into the 2d Cu.
+%% Places the 2d Man and 2d Wo. change places at the same time :| the 1st
+%% Cu. being in the 2d Cu. places improper the 1st Man change with
+%% the 2d Wo. then the 2d Man change with the 1st Wo. then lead to
+%% the Wall and back again then the 1st Cu. cast off back to back and
+%% turn .|
+%%endtext
+%%sep 1 8 500

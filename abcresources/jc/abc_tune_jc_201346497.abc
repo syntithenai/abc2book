@@ -1,0 +1,26 @@
+X:1
+T: A Trip to Orpington
+N:
+C:Pat Shaw
+S:3 times
+A:
+O:
+R:
+M:4/4
+K:A
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 33 notes)
+K:A
+M:4/4
+L:1/16
+E4 |A4 A4 c4 B2 A2 |e4 c8 f4 |e4 c4 e6 c2 |A4 F8 G4 |A4 A4 c4 B2 A2 |c4 e4 a4 g2 f2 |g2 f2 e4 B4 ^d4 |e12 E4 |
+%W: A2
+% voice 1 (1 lines, 33 notes)
+A4 A4 c4 B2 A2 |e4 c8 f4 |e4 c4 e6 c2 |A4 F8 G4 |A4 A4 c4 B2 A2 |c4 e4 a4 g2 f2 |g2 f2 e4 B4 ^d4 |e12 e2 f2 |
+%W: B1
+% voice 1 (1 lines, 39 notes)
+=g6 a2 g4 f2 e2 |f4 d8 e2 f2 |e4 d2 c2 B2 c2 B2 A2 |G4 E8 D4 |C2 D2 E4 F4 A4 |G2 A2 B4 c4 e4 |f2 e2 d2 c2 B4 e4 |c4 A8 e2 f2 |
+%W: B2
+% voice 1 (1 lines, 37 notes)
+=g6 a2 g4 f2 e2 |f4 d8 e2 f2 |e4 d2 c2 B2 c2 B2 A2 |G4 E8 D4 |C2 D2 E4 F4 A4 |G2 A2 B4 c4 e4 |f2 e2 d2 c2 B4 e4 |c4 A8 ||

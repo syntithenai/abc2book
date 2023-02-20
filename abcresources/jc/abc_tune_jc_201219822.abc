@@ -1,0 +1,31 @@
+X: 2
+T: Just a going
+%R: reel
+B: Kitty Bridges "Collection of Country Dances 1745" p.2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-bridges1745
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The capitalization is inconsistent between the tune and dance.
+N: All the notes in bar 3 are 8th notes; 4-note groups made 16th notes to give a correct total.
+N: The word "second" is sometimes capitalized, sometimes not, and sometimes the 's' is of intermediate size.
+N: The time signature should probably be C rather than C|, to avoid being hectic.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+f/g/a fd f/g/a fd | gecA gecA |\
+G/F/G/A/ Gg F/E/F/G/ Ff | edcA d2 D2 :|
+|: a |\
+fg/a/ bg ef/g/ af | de/f/ gf e/d/c/B/ AG |\
+FA df Aceg | fdAc d2 D :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center Just a Going
+%%begintext align
+%%   Set with y.r Partner to the Second
+%% Woman and turn all three, then to the
+%% second Man and turn all three, Lead thro'
+%% the second Coup.l and turn hands with
+%% the third, then right and left with the
+%% second Couple.
+%%endtext

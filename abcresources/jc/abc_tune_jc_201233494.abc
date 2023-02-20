@@ -1,0 +1,55 @@
+X: 19
+T: l'Impromptu.
+%R: march, reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #19
+M: 2/4
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+A2ce | aee2 | d2 e/d/c/B/ | c/B/c/d/ cc |\
+A2ce | aee2 | d2 e/d/c/B/ | A2 A2 :|
+|:\
+eAae | dBbd | cAac | B/A/G/F/ EB |\
+ecae | dBbd | cAac | B2B2 |
+A2ce | aee2 | c2 e/d/c/B/ | c/B/c/d/ cc |\
+A2ce | aee2 | d2 e/d/c/B/ | A2A2 :|
+Accc | Bddd | ce ed/c/ | B/A/B/c/ BB |\
+Accc | Bddd | ce ed/c/ | B2"_Da Capo"B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+a2a2 | c'2a2 | b2ge | a2A2 | a2a2 | c'2a2 |
+b2ge | a2A2 :||: c2c2 | B2G2 | A2A2 | e2z2 | c2c2 |
+B2G2 | A2A2 | e2E2 | a2a2 | c'2a2 | b2ge | a2A2 |
+a2a2 | c'2a2 | b2ge | a2A2 :| A2a2 | g2e2 | a2A2 |
+e2z2 | A2a2 | g2e2 | a2A2 | e2"_Da Capo"z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center L'impromptu.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Couple Queue du Chat,
+%% then Right hand and Left - - 1/2
+%%endtext
+%%begintext align
+%%   The second and fourth Couple do the same 1/2
+%%endtext
+%%begintext align
+%%   The first and second Couple Poussette and
+%% change places, while the third and fourth Couple
+%% do the same, then the first and fourth Couple
+%% Poussette and change places, while the third
+%% and second Couple do the same - - 1/3
+%%endtext
+%%begintext align
+%%   Half La Chaine - - - 1/1
+%%endtext
+%%sep 1 1 400

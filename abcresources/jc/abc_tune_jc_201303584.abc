@@ -1,0 +1,19 @@
+X: 1
+T: Lord Huntley's Cave
+C: J.S.Skinner
+B: BSFC
+B: Scottish Music Maker
+B: Harp & Claymore, p.25 (with two variations)
+B: The Scottish Violinist, J.S.Skinner, p.34 (with two variations)
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+R: march
+L: 1/8
+K: D
+"^A"\
+|: de | "D"f2A2 gfed | f2A2 d2cd |1,3 e2"A7"A2 agfe | "D"dcdf "A7"eA :|2,4 ea"A7"ca Aaca | "D"d6 :|
+"^B"\
+|: fg | "D"a3f  d2a2 | fAa2 d2cd |1,3 e2"A7"A2 agfe | "D"dcdf "A7"eA :|2,4 ea"A7"ca Aaca | "D"d6 :|
+%%begintext align
+%% Skinner published it this way, but the final B4 part is often replaced with an A4 part.
+%%endtext

@@ -1,0 +1,20 @@
+X: 1
+T: November Waltz
+T: Valse du Mois de Novembre
+O: Qu\'ebec
+R: waltz
+S: https://www.natunelist.net/november-waltz/
+P: ABACAB or ABABACAB or ...
+M: 3/4
+L: 1/8
+K: A
+"^A"|:\
+"A/C#"e2-ec ec |"Bm"d2-df ed |"A"cd Bc AB |"E"GA FG E2 |\
+"A"e2-ec ec |"D"d2-df ed |"A"cd B"E"c FG |[1"A"A6 :|[2"A"A3 |] D EF |
+[K:D]\
+"^B"|:\
+"G"G2-GF EF |"A"EE ED CE |"Em"DC B,A, G,B, |"A"A,B, CD EF |\
+"G"G2-GF EF |"A"EE ED CE |"G"DC B,"Em"A, G,B, |[1"A"A,2 (3A,B,C (3DEF :|[2"A"A,6 |
+"^C"|:\
+"Em"G2-GA Bc |"Bm"d2-df ed |"A"cg fe dc |"D"dc BA GF |\
+"G"G2-GA Bc |"D"d2-dA Bd |"A"cB A"E"F E^G |[1"A"A2 (3A,B,C (3DEF :|[2"A"A6 |]

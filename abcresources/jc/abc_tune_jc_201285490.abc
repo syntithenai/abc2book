@@ -1,0 +1,79 @@
+
+X: 1
+T: Hector the Hero   [A]
+C: J. Scott Skinner
+R: air, lament
+H: Written for Major-General Hector A. MacDonald
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: page from Concord Slow Scottish Session collection labelled "CAPE BRETON TUNES  SRSNH   10/91  4.11"
+N: "F. Brackley" at lower right.
+M: C
+L: 1/8
+K: A
+%%slurgraces
+A "A"|\
+"A"{A}c>BA {A}fec | "A"{c}e3- e2A | "A"{A}c>BA "D"{A}fec | "E7"{Ac}B3- B2A |
+"A"c>BA fec | "A7"e2A "D"{A}Ha2f | "A"(eA)c "E7"{Ac}B2A | "A"A3- A2 :|
+|: c "B"|\
+"F#m"f{a}gf {f}agf | "C#m"{f}e3- e2c | "D"fec "A"eAc | "E7"{Ac}B3- B3c |
+"F#m"f{a}gf "D"{f}agf | "A/c#"eAB "Bm7"c<Haf | "A"(eA)c | "E7"{Ac}B2A | "A"A3- A2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+T: Hector the Hero   [Bb]
+C: J.S.Skinner
+Z: 2000 John Chambers <jc:trillian.mit.edu>
+N: With help from versions of <martin@easyweb.co.UK> and James Allwright's ABC version of the Nottingham Music Database.
+H: Chronology from Nigel Gatherer <gatherer@argonet.co.uk> scots-l 2000-09-13:
+H: Major-General Hector A. MacDonald
+H: 1857 - Born in the Black Ilse
+H: 1870 - Enlisted in 92nd Gordon Highlanders
+H: 1879 - Served as a colour-sergeant in the Afghan War
+H: 1880 - Promoted to 2nd Lieutenant at end of Afghan War
+H: 1881 - Mentioned in despatches in 1st Boer Ware, South Africa
+H: 1885 - Led military expedition up Nile (Sudan)
+H: 1888 - Took part in Battle of Sunkin (Sudan)
+H: 1889 - Won Distinguished Service Order (DSO) medal (Sudan service)
+H: 1891 - Took part in Battle of Tokar (Sudan)
+H: 1896 - Led 2nd Infantry Brigade - the Dunglen Expeditionary Force (Sudan).
+H:        Was now a Brigadier-General.  May have been promoted about this time.
+H: 1897/98 - Khartoum - Battle of Omdurman
+H: 1898 - ADC (Ade de Camp) to the Queen (Victoria)
+H: 1899 - Served as a Brigadier-General in Sirhind area of India
+H: 1900 - Served as a Major-General with Highland Brigade in South Africa
+H: 1901 - Knighted
+H: 1902 - Served as a Major-General with forces in Ceylon
+H: 1903 - Accused of being a homosexual.  Committed suicide.
+H: Sources:  Campbell, David, "Major-Gneral Hector A. MacDonald", Douglas Howard, London, 1903.  Chambers Biographical Dictionary.
+M: 3/4
+L: 1/4
+K: Bb
+|: Bc \
+| "Bb"d3/c/B | "Eb"g2f/d/ | "Bb"f2-f/g/ | "Bb"f2B/c/ | "Gm"d2c/B/ | "Eb"g2f/d/ |
+| "Cm"c2-c/d/ | "F"c2d/f/ | "Gm"d3/c/B | "Eb"g2f/d/ | "Bb"f2B | "Eb"b2g | "Bb"f2B/d/ |
+| "F"c2B | "Bb"B3- | "Bb"B :: df | "Eb"g2e/g/ | "Eb"b2a/g/ | "Bb"f2-f/g/ | "Bb"f2d/f/ |
+| "Gm"g2f/d/ | "Gm"f2B/d/ | "Cm"c2-c/d/ | "F"c2d/f/ | "Gm"g2e/g/ | "Eb"b2a/g/ |
+|1 "Bb"f2e/d/ | "Eb"b2e | "Bb"d2B/d/ | "F"c2B | "Bb"B3- | "Bb"B :|2 "Bb"f2B | "Eb"b2g | "Bb"f2B/d/ | "F"c2B | "Bb"B3- | "Bb"B |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3
+T: Hector the Hero   [D]
+C: J. Scott Skinner
+R: air, lament
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: page from Concord Slow Scottish Session collection labelled "CAPE BRETON TUNES SRSNH 10/91 4.11"
+N: "F. Brackley" at lower right.
+M: C
+L: 1/8
+K: D
+%%slurgraces
+D "D"|\
+"D"{D}F>ED {D}BAF | "D"{F}A3- A2D | "D"{D}F>ED "G"{D}BAF | "A7"{DF}E3- E2D |
+"D"F>ED BAF | "D7"A2D "G"{D}Hd2B | "D"(AD)F "A7"{DF}E2D | "D"D3- D2 :|
+|: F "E"|\
+"Bm"B{d}cB {B}dcB | "F#m"{B}A3- A2F | "G"BAF "D"ADF | "A7"{DF}E3- E3F |
+"Bm"B{d}cB "G"{B}dcB | "D/F#"ADE "Em7"F<HdB | "D"(AD)F | "A7"{DF}E2D | "D"D3- D2 :|

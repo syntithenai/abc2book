@@ -1,0 +1,26 @@
+X: 431	% 123
+T: *Ragtime Annie
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.43 #1
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: "Rocking Bow"
+K: D
+V: 1 name="123"
+(3(DEF) |:\
+[AF][AF][BF][BF] [AF][AF][BF][BF] | [AF][AF][BF][BF] [A2F2](3(DEF) |\
+[AF][AF][BF][BF] [AF][AF][BF][BF] |
+[FA][c2G2][cG] [c2G2][c2G2] |\
+[AG4]BcA [BG4]cAB | [cG4]A2B c3B |\
+[AF4]Bcd egfe |[1 dcdB A2(3(DEF) :|[2 "_(Fine also)"d6 y3 ||
+|: (fg) |\
+a6 (fe) | [A6F6] (fg) |\
+a4 g4 | [B6G6] (ef) |\
+gfef gfef | gfed c4 |\
+[cG][cG][cG][cG] [BG][BG][BG][BG] | [A6F6] (fg) |
+a6 (fd) | [A6F6] (fg) |\
+a4 g4 | [B8G8] |\
+bb2b b2g2 | f[a2d2][ad] a2a2 |\
+ABcd egfe | [d4F4] [d2F2] :|
+%%text *Dedicated to Bill Norman Jack Bartlett

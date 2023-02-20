@@ -1,0 +1,730 @@
+X:5
+T: Old Man and His Dog
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+K: G
+B/c/ |"G"d2 B GDG | "D"A2 F D2 A | "G"ded "C"cBc | "G"d2 d "D"dBc |
+"G"d2 B GDG | "D"A2 F D2 A | "G"ded "D7"cBA | "G"GEF "G"G2 :|
+d|"G"gdg gdg | "D7"a2 f d2 c | "G"Bcd "C"ecB | "D"A3-ABc |
+"G"dGG DGG |"D" AFF DFF | "G"ded "D7"cBA |"G"GBA "G"G2 :|
+
+
+X:10
+T: One of Joe Burke's
+S: Mike Reynolds
+Z: B.Black
+R: jig
+M: 6/8
+L: 1/8
+K: Ddor
+AGA DED | AGA cBc | AGE C3 | EDC EFG |
+AGA DED | AGA cde | dcA GEC | DED D3 :|
+Add dcd | cde gec | dcA GEG | AGA cAG |
+Add dcd | cde gec | dcA AFE | DED D3 :|
+
+X:15
+T: Ordination (The)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+K: A
+c|"A"A2 c "Bm"BAB|"F#m"eaf "E"efg|"D"afe "A"ABc|"Bm"BFF F2 c|
+"A"A2 c "Bm"BAB|"F#m"eaf "E"efg|"D"afd "E7"Bed|"A"cAG "A"A2 :|
+e|"A"ecA "Bm"B2 A|"A"c2 A "Bm"B2 A|"A"ece "D"fga|"Bm"fBB "E"B2 e|
+"A"ecA "Bm"B2 A|"A"c2 A "Bm"B2 A|"D"afd "E7"Bed|"A"cAG "A"A2 :|
+
+
+X:20
+T: O'Sullivan's Infernal Hornpipe
+C: Jerry O'Sullivan
+Z: B.Black
+R: hornpipe
+M: 4/4
+L: 1/8
+K: A
+e2|ec (3AcA EFAe|feae fecA|ec (3AcA EFAe|\
+BAcA B2 af |
+ec (3AcA EFAe|feae fecA|(3eae ce (3dfd Bd|\
+(3cBA (3BAG A2 :|
+e2|Acef a3 b|(3cba (3bag afec|Acec fAeA|\
+B3 A BdcB |
+Acef a3 b|(3cba (3bag afec|(3Ace (3aec (3GBd (3gdB|\
+(3Ace (3aec A2 :|
+
+
+X:25
+T: Otter's Hole
+C: Junior Crehan
+Z: B.Black
+R: reel
+M: 4/4
+L: 1/8
+K: D
+de | fBBA F2 FB | A2 FB ABde | fBBA FEFA |\
+BdcA B2 de |
+fBBA F2 FB | A2 FB ABde | faaf e3 f | dBAF B2 :|
+Bc | d2 fd adfa | b2 af efdA | d2 fd adfa |\
+b2 af e2 Bc |
+d2 fd adfa | b2 af efde | fBBA FEFA | BdcA B2 :|
+
+X:30
+T: O'Keeffe's
+S: De Danann
+Z: B.Black
+R: polka
+M: 2/4
+L: 1/8
+K: D
+B/c | dB fB | de f>e | dB bB |\
+c/B/A/c/ ef/e/ |
+dB fB | de f>e | d>e f/e/d | B2 B :|
+e | ff/f/ ba | fe f>e | dB bB |\
+c/B/A/c/ ef/e/ |
+ff/f/ ba | fe f>e | d>e f/e/d | B2 B :|
+
+X:35
+T: Owen Thomas'
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+K: Edor
+"Em"EBBA GEFD|"Em"EB, (3B,=CB, EGFD|"Em"EBBc "D"dBAd|"G"Bdeg "D"fagf|
+"Em"eBBA "G"GFGA|"Em"Bded "Bm"BFAF|"Em"EB, (3B,=CB, "C"CDEG|"D"FGAF "Em"E4 :|
+"Em"Bdeg Bdeg|"D"fdfa "Bm"bfaf|"Em7"edBd "G"gfed|"Bm7"BFAF "C"GEG=c|
+"Em"Be (3efe "G"gfed|"C"eg (3gfg "Bm7"bfaf|"C"g2eg "D7"f2d=c|"Bm7"BADF "Em"E4 :|
+
+
+X:40
+T: O'Shaughnessy's
+S: Mike/Mary Rafferty
+Z: B.Black
+R: jig
+M: 6/8
+L: 1/8
+K: Dmix
+E | FEF DFA | dAF AFD | EDE CEG | cGE CEG |
+FEF DFA | dAF AFD | GFG EFG | AFD D2 :|
+e | f2 d d^cd | afd def | e2 c cBc | gec ceg |
+|1 f2 d d^cd | afd def | gfg efg | afd d2 :|
+|2 agf gfe | fed ^cAF | GFG EFG | AFD D2 ||
+
+X:45
+T: O'Brien's
+C: Mike Rafferty / Mary McDonagh Decker
+Z: B.Black
+R: jig
+M: 6/8
+L: 1/8
+K: Dmix
+D | F3 DFA | dAF AFD | E3 CEG | cGE GEC |
+F3 DFA | dAF AFD | GFG EFG | AFD D2 :|
+e | f2 d d^cd | afd def | e2 c cBc | gec ceg |
+|1 f2 d d^cd | afd def | gfg efg | afd d2 :|
+|2 agf gfe | fed ^cAF | GFG EFG | AFD D2 ||
+
+X:50
+T: Old Connemara Stockings
+S: Paddy O'Sullivan (fiddle), north Kerry
+Z: Paul de Grae
+R: reel
+M: 4/4
+L: 1/8
+N: Called Quinn's Reel in CRE 2, no. 171, from Denis Murphy,
+N: and on the RTE recording of Padraig O'Keeffe
+K: D
+FEFA ~B2 AB |d2 cd BE ~E2 |FEFA B2 Bc |1 dBAG FD D2 :|2\
+dBAG (3FED FA ||
+d2 fd Adfe |~d2 fA ~B2 AB |d2 fd Adfd |(3efg fg ed ~B2 |
+d2 fd Adfd |Adfd eB ~B2 |g2 fg (3efg fe |dBAG FD D2 ||
+
+
+X:55
+T: Orphan (The)
+S: Kathleen Collins
+Z: B.Black
+M: 6/8
+R: jig
+L: 1/8
+K: Em
+B | EFE EDB, | GFG AGA | BGB AFA | GEF EDB, |
+A,3 EDB, | GFG AGA |1 BGB AFA | GEE E2 :|2\
+BdB AdF | EFE E2 ||
+d | ege dBA | GAB d2 g | edB AGA | BGE DB,A, |
+B,EE EDB, | G3 AGA |1 BGB AFA | GEE E2 :|2\
+BdB AdF | EFE E2 ||
+d | e/f/ge ded | cBA B2 A | GAB dBA | B3 B2 A |
+EGF EDB, | GFG AGA |1 BGB AFA | GEE E2 :|2\
+BcB ABA | GEE E3 ||
+
+X:60
+T: Old Fashioned Habit
+S: "Treoir"
+Z: B.Black
+M: 4/4
+L: 1/8
+R: reel
+K: Dmix
+dc |: A2 AG FGAB | cBcG EFGB | (3AAA AD FGAc |\
+d2 eg fddc |
+(3AAA AG FGAB | cBcG ECEG | (3AAA AD FGAB |\
+d2 eg fd d2 :|
+d2 fd adfd|^cdef gage |d2 fd adfd|^cdeg fddA |
+d2 fd adfd|^cdef gage |abag fged|^cdeg fd d2 :|
+
+
+
+X:65
+T: One of Johnny O'Leary's
+S: "Treoir"
+Z: B.Black
+M: 12/8
+L: 1/8
+R: slide
+K: D
+B | A2 F DFA BEE BEE | d2 B AFA Bcd edB |
+AFE DFA BEE BEE | fg/a/f ede fdc d2 :|
+f | afe dfa bee ede | fef dfa gfg efg |
+a2 f dfd bee ede | f3 ede fdc d2 :|
+
+X:70
+T: One of Coleman's Favorites
+S: "Treoir"
+Z: B.Black
+M: 4/4
+L: 1/8
+R: reel
+K: G
+d>c|: B2 BA GB D2|GBAD G2 dc|BcdB G2 FG|AF F2 DF F2|
+B2 BA GB D2|GBAD G2 Bc|dBcA BGAF| DEFG ABcA||
+B2 dc dc d2|(3Bcd ef gfed|(3Bcd dc dc d2|(3Bcd ef g3 z|
+B2 dc dc d2|(3Bcd ef gfed|(3Bcd dc dgeg|f2 af g4||
+
+X:75
+T: O'Connell's Farewell to Dublin
+S: "Treoir"
+Z: B.Black
+M: 12/8
+L: 1/8
+R: slide (set dance)
+K: Ador
+AB |: c2 B c2 B c2 d e2 f | gfe agf gfe dBA |
+G2 B d3 edB dBA | G2 B dBd edB d2 B |
+c2 B c2 B c2 d e2 f | gfe agf gfe d2 d |
+eaa a2 b a2 g e2 d |1 c3 B3 A3 :|2 c3 B3 A2 ||
+AB | cBc A2 B cBc A>dc | BAB Gdc BAB G3 |
+c2 B c2 B c2 d e2 f | gfe agf gfe d2 B |
+cBc A2 B cBc A>dc | BAB G3 BAB G3 |
+eaa a2 b a2 g e2 d |1 c3 B3 A2 :|2 c3 B3 A3 :|
+
+X:80
+T: Old West Clare Jig
+S: "Treoir"
+Z: B.Black
+M: 6/8
+L: 1/8
+R: jig
+K: Ador
+AGE G2 E | c2 E EGE | DED D2 E | GED D2 D |
+AGE G2 E | C2 E DEG | A3 BAG | A3 A3 :|
+c2 B c2 d | eAA A2 d | BGG GAB | dBG G2 A/B/ |
+c2 B c2 d | eAA A2 c | BAG GAB | A3 A3 :|
+
+X:85
+T: O'Mealy's
+C: R.L. O'Mealy
+S: Treoir
+Z: B.Black
+M: 4/4
+L: 1/8
+R: hornpipe
+K: G
+(3DEF | GFGA BGBd | gfga bgdB | cBAG FAdc |\
+(3BAG (3AGF GFED |
+GFGA BGBd | gfga bgdB | cBAG FAdc | (3BAG (3AGF G2 :|
+(3Bcd | gd (3Bcd gd (3Bcd | gd (3Bcd g3 z |\
+agfd Adfd | Adfd Ad f2 |
+(3Bcd gd (3Bcd gd |(3Bcd gd (3Bcd g2 |agfd AFDc |\
+(3BAG (3AGF G2 :|
+
+X:90
+T: O¹Connell¹s
+S: J. O'Brien: "Irish Folk Dance Music"
+Z: B.Black
+M: 4/4
+L: 1/8
+R: reel
+K: Ador
+dc | BGGG DGGG |Bdef gedc |BGGG DGGG |BedB Aedc |
+BGGG DGGG | Bdef gfga | bgaf gfed |(3efe dB A2 :|
+Bd | e^def e=dBG | (3B^cd ef gedc | BGGG DGGG |\
+BedB A2 Bd |
+e^def e=dBG | (3B^cd ef gfga | bgaf gfed |\
+(3efe dB A2 :|
+
+
+X:95
+T: Ostenelli's
+M: 4/4
+L: 1/8
+S: Luke O'Malley vol 1
+Z: B.Black
+R: hornpipe
+K: A
+cd |eAfA eAaA |c'AaA eAfA |eagf edcd |(3efe ce BcdB |
+eAfA eAaA | c'AaA eAfA |eagf (3efe (3EFG |Aaec A2 :|
+ED |CAEc Aeca |ee'c'a ec'ac'|d'c'ba c'aec |dcBA GFED |
+CAEc Aeca |ee'c'a ec'af |eagf (3efe (3EFG |Aaec A2 :|
+
+X:100
+T: O'Driscoll's Favorite
+S: "Collection of the Dance Music of Ireland" (P. McNulty)
+Z: B.Black
+L: 1/8
+M: 4/4
+R: reel
+K: D
+E | FEDE FGAB | cedc BE (3EEE | FEDE FAdB |\
+cAGE FDDE |
+FEDE FGAB|cedc BEEd|(3cdc (3BcB (3ABA GF|\
+EFGE FD D :|
+g |: fgfe defd | (3efg fd ecAg | fgfe defg |\
+efga fddg |
+fgfe defd | (3efg fd ecAG | FGAB cdef |\
+gfeg fd d2 :|
+
+X:105
+T: O'Reilly's
+S: "First Collection of Traditional Irish Music" (M.Mulvihill)
+Z: B.Black
+L: 1/8
+M: 4/4
+R: reel
+K: D
+(3A,BC|D2 (3FED ADFA|BAFA (3Bcd AF|D3 F ABAF|G2 FG ECB,C|
+D2 (3FED ADFA|BAFA (3Bcd AF|D3 F ABAF|(3GGG FG E2 :|
+(3ABc|d3 f (3efe dB|AF (3FEF DFAB|dcdf (3efe dB|Adfd edBA|
+dcdf (3efe dB|AF (3FEF DFAc|BAGF GABc|dcdB AFEF :|
+
+X:110
+T: Old Brown Slipper
+S: "Ag Deanamh Ceoil" (CCE)
+Z: B.Black
+L: 1/8
+M: 9/8
+R: slipjig
+K: G
+B3 B2A GED|B2g g2e dBA|B3 B2A GED|EGG G2A G3 :|
+B2g g2e fed|B2e efe dBA|B2g g2e fed|Bee e2d e3|
+e2f g2e fed|B2e efe dBA|B3 B2A GED|EGG G2A G3 ||
+
+X:115
+T: Old Torn Jacket
+S: "Ag Deanamh Ceoil" (CCE)
+Z: B.Black
+L: 1/8
+M: 6/8
+R: jig
+K: G
+B2 AB GEDE|G2 BG dGBd|B2 AB GE D2|EA A2 EA A2|
+B2 AB GEDE|G2 BG dGBd|B2 AB GEDG|EGGF G3 z :|
+Bdef g2 ed|eaab aged| (3B^cd ef ge d2|eaag a3 z|
+Bdef g2 ed|ea a2 aged|B2 AB GEDG|EGGF G3 z :|
+
+X:120
+T: O'Donovan's
+S: Darley & McCall Collection
+Z: B.Black
+L: 1/8
+M: 4/4
+R: reel
+K: F
+Ac (3ccc cAcd|cfaf gfdf|Accd cAFA|GFGA G4|
+Ac (3ccc cAcd|cfaf gfdf|Acfd cAFA|GFGA F4 :|
+affa gece|gbag fddf|cf (3fff gf (3fff|cAfd cAGF|
+Ac (3ccc cAFA|cAcd c4|f3d cAFA|GFGA F4 :|
+w: %blank line
+K: D
+FA (3AAA AFAB|Adfd edBd|FAAB AFDF|EDEF E4|
+FA (3AAA AFAB|Adfd edBd|FAdB AFDF|EDEF D4 :|
+fddf ecAc|egfe dBBd|Ad (3ddd ed (3ddd|AFdB AFED|
+FA (3AAA AFDF|AFAB A4|d3B AFDF|EDEF D4 :|
+
+
+X:125
+T: Old Peadar Carthy's
+S: Darley & McCall Collection
+Z: B.Black (arr.)
+L: 1/8
+M: 4/4
+R: hornpipe
+K: G
+G3D GFGA|BdcB cB A2|G3D GFGA|BdcA G4|
+G3D GFGA|BdcB cB A2|G2 ED GFGA|BdcA G4 :|
+d3B dcde|g2 fa gf e2|d3B dcde|gafg e3B|
+d3B dcde|g2 fg ed B2|G2 ED GFGA|BdcA G4 :|
+
+
+
+X:130
+T: Other High Reel
+S: "Sully's Irish Music Book"
+Z: B.Black
+L: 1/8
+M: 4/4
+R: reel
+K: D
+fedf edAG|FD (3EFG A=cBA|GD (3EFG Adde|fded cdeg|
+fedf edAG|FD (3EFG A=cBA|G2 FG Addc|A2 GE FD D2 :|
+a2 fa dafa|a2 fa dafa|b2 gb ebgb|b2 gb ebgb|
+a2 fa dafa|a2 fa dafa|bgaf gedB|ABAG FD D2 :|
+
+X:135
+T: Out in the Ocean
+S: "Sully's Irish Music Book"
+Z: B.Black (arr.)
+L: 1/8
+M: 6/8
+R: jig
+K: G
+D2B BAG|BdB ABA|GED G2A|ABA AGE|
+D2B BAG|BdB ABA|GED G2A|1 BGG GFE :|2\
+BGG GBd||
+ege edB|ege edB|d^cd def|gfe dBA|
+G2A B2d|ege dBA|GED G2A|1 BGG GBd :|2\
+BGG GFE||
+
+X:140
+T: O'Kane's
+S: "Music from Ireland 1" (Bulmer & Sharpley)
+R: hornpipe
+M: 4/4
+L: 1/8
+K: G
+(3DEF|(3GFG dG BG (3Bcd|gd (3d^cd B=cdB|(3cBc ac bgag|\
+(3fga ef dcBc|
+dg (3gfg dBGB|cA A2 CEAG|(3FED cA FDEF|AG (3FGA G2 :|
+ef|(3gfg dg dBGB|AE E2 cBAG|(3FED FA d^c=cA|GBde fdcA|
+BDGB ce e2|dedB GB (3dcB|cdfd cADF|AG (3FGA G2 :|
+
+X:145
+T: Old Tipperary
+T: Sean-Tiobrad \'Arann
+S: "Ceol Rince na hEireann" 1/16
+Z: B.Black
+L: 1/8
+M: 6/8
+R: jig
+K: G
+d |: cAG G3|AAA GFG|cAG GFG|(3ABc A FGA|
+cAG G3|(3ABA A GGG|fdd edd|fdd cAG :|
+GBd g3|gag g2f|dgg gfg|a2g fga|
+bag agf|gfe f2e|dcA d2e|(3gfe d cAG :|
+
+X:150
+T: Old John's
+T: Port Shean tSe\'ain
+S: "Ceol Rince na hEireann" 1/22
+N: Named by B.Breathnach
+Z: B.Black
+L: 1/8
+M: 6/8
+R: jig
+K: Ador
+e/d/|cAA cAA|GEF GAB|cAA A2G|Add ded|
+cAA cAA|GEF GAB|cde e2d|1 cAA A2 :|2 cAA A3||
+efg eaa|ged cAA|efg eaa|bag a3|
+efg eaa|ged cAA|cde e2d|cAA A2 :|
+
+
+X:155
+T: Over the Hill
+S: "Ceol Rince na hEireann" 1/158
+Z: B.Black
+L: 1/8
+M: 4/4
+R: reel
+K: D
+D2 FA D2 FA|dfed cABc|d2 cA (3Bcd AF|GBAF GFEF|
+D2 FA D2 FA|dfed cABc|d2 cA (3Bcd AF|GBAG FD D2 :|
+a2 fd faaf|gfed cdef|a2 fd faaf|bgeg fddf|
+a2 fd faaf|gfed cdef|afge fded|cAGE FD D2 :|
+
+
+X:160
+T: Old Tipperary
+T: Sean Tiobraid \'Arann
+S: B.Breathnach: "Ceol Rince na hEireann" II/23
+Z: B.Black
+L: 1/8
+M: 6/8
+R: jig
+K: G
+d|cAF GGG|AGF DFA|cAF GGG|Ace fed|
+cAF GGG|AGF Dde|fed edc|Ad/d/d cAd|
+cAF GFG|AGF DFA|cAF GGG|Ace fed|
+cAF GFG|AGF Dde|f2d e2 d/c/|Ad/d/d cAF||
+GBd ggg|agf g2f|def ggg|fag fga|
+bag agf|geg fed|cAB cde|fed cAF :|
+
+
+X:165
+T: Orange and Green
+T: Glas agus Bu\'i
+S: B.Breathnach: "Ceol Rince na hEireann" II/25
+Z: B.Black
+L: 1/8
+M: 6/8
+R: jig
+K: G
+e|dBG AGE|EDE G2G|GBA ABd|edB d2e|
+dBG AGE|EDE G2G|GBA AGA|1 BGG g2 :|2\
+BGG G2||
+A|Bdd dBA|Bdd d2A|Bee ede|fee ede|
+fg/a/f efe|dBA d2e|dBG AGA|1 BGG G2 :|2\
+BGG g2||
+
+
+X:170
+T: O'Connell's Welcome to Dublin
+T: Father Morrison's Delight
+T: F\'ailte roimh \'O Conaill go Baile \'Atha Cliath
+T: Port Ard (An)
+S: B.Breathnach: "Ceol Rince na hEireann" II/35
+Z: B.Black
+L: 1/8
+M: 6/8
+R: jig
+K: Edor
+f|g2e faf|edB AFD|EE/D/E BAF|ABd edB|
+g2e faf|edB AFD|EE/D/E Bc/d/B|AFD e2 :|
+f|gfe ede|fed BAF|DFA d2z|dFA GFE|
+GGG AAA|BAB def|edB AFD|AB/c/d e2 :|
+
+
+X:175
+T: O'Connell's Welcome to Parliament
+T: F\'ailte roimh \'O Conaill sa bParlaimint
+S: B.Breathnach: "Ceol Rince na hEireann" II/62
+Z: B.Black
+L: 1/8
+M: 6/8
+R: jig
+K: G
+D|EDE G2A|Bee dBA|BdA BdA|BdA BAG|
+EDE G2A|Bee dBA|GAB A2A|G3 G2 :|
+A|BAB def|gag fed|Bee Bee|BdA BAG|
+EDE G2A|Bee dBA|GAB A2A|G3 G2 :|
+
+X:180
+T: O'Flynn's Fancy
+T: Rogha U\'i Fhloinn
+S: B.Breathnach: "Ceol Rince na hEireann" II/198
+Z: B.Black
+L: 1/8
+M: 4/4
+R: reel
+K: G
+dBGA B2 GB|dBGA BAAB|dBGA BABd|1 efge dB B2 :|2\
+efge dBB||
+d|g2 g2 a3f|gage dBBd|g2 g2 a2 ga|bage d2 Bd|
+g2 gb abaf|gage dBBA|GABc d2 ef|gage dB B2 ||
+
+
+X:185
+T: Over the Moor to Peggy
+T: Trasna an Mh\'ointe\'ain go Peige
+S: B.Breathnach: "Ceol Rince na hEireann" II/206
+Z: B.Black
+L: 1/8
+M: 4/4
+R: reel
+K: G
+ge|d2 BG dGBG|d2 BG efge|d2 BG dGBG|cBAB cdge|
+d2 BG dGBG|d2 BG efge|d2 BG dGBG|cBAB c2 ||
+Bc|dg g2 dgeg|dg g2 d2 Bc|dg g2 defe|dcAB c2 Bc|
+dg g2 dgeg|dg g2 d2 Bc|dg g2 aggf|dcAB cd ||
+
+
+X:190
+T: Old Slipper Shoe
+T: tSeanbhr\'oig\'in Bhog
+S: B.Breathnach: "Ceol Rince na hEireann" II/277
+Z: B.Black
+L: 1/8
+M: 4/4
+R: reel
+K: G
+Addc A2 GE|EDAB c2 AG|Addc A2 GE|EDG>E ED D2 :|
+f2 Ad e2 fe|dcAB cBcd|(3efg fg edcd|eaag edcd|
+(3efg fd e2 fe|dcAB c2 AG|Addc A2 GE|EDG>E ED D2 ||
+
+
+X:195
+T: Over the Hills and Far Away
+T: De Bharr na gCnoc is in Imig\'ein
+S: B.Breathnach:"Ceol Rince na hEireann" IV/82
+Z: B.Black
+L: 1/8
+N: N.B. no repeats
+M: 2/4
+Q: 280
+R: polka
+K: G
+Bd/B/ GB|BA A2|Ac/A/ FA|AG G2|
+Bd/B/ GB|BA A2|Ac/A/ FA|AG G2 ||
+B2 AG|FG AB|c2 BA|GA Bc|
+d2 g2|fe e2|dd/B/ cA|AG G2 ||
+
+
+X:200
+T: Owenmore
+S: B.Breathnach:"Ceol Rince na hEireann" IV/87 (gan ainm)
+Z: B.Black
+L: 1/8
+M: 2/4
+Q: 280
+R: polka
+K: G
+d/c/|BD BD|B/A/B/d/ ed|cA f/g/a/f/|gg g/e/d/c/|
+BD BD|B/A/B/d/ ed|cA f/g/a/f/|gg g :|
+e|: fg/f/ ef/e/|dD FA|Bc/B/ Ag|fg/f/ e2|
+fg/f/ ef/e/|dD FA|BB A/g/e/f/|dd d2 :|
+
+
+X:205
+T: Osborn's
+S: B.Breathnach:"Ceol Rince na hEireann" IV/92 (gan ainm)
+Z: B.Black
+L: 1/8
+M: 2/4
+N: N.B. No repeats
+Q: 280
+R: polka
+K: G
+GA Gc|GA Gc|Gc Gc|cB B2|
+GG/G/ Gd|GG/G/ Gd|Gd Gd|dc c2 ||
+Bd cA|G2 FG|A2 GA|Be d2|
+Bd cA|G2 FG|AA/A/ BA|G2 G2 ||
+dd/d/ dd|ed Bg|fA ce|dG B2|
+dd/d/ dd|ed Bg|fe cA|G2 G2 ||
+
+
+
+X:210
+T: O'Kane's
+T: R\'il U\'i Chath\'ain
+S: B.Breathnach:"Ceol Rince na hEireann" IV/133(i)
+Z: B.Black
+L: 1/8
+M: 4/4
+R: reel
+K: C
+CEGc dcec|AcGE ED D2|CEGc dcec|AcGc EC C2 :|
+ecBc acgc|fdec Bddf|ecBc AcGc|EGAB cC C2|
+ecBc acgc|fdec Bddf|ecBc AcGc|EGAB c2 c2 ||
+
+
+X:215
+T: O'Shaughnessy's
+T: R\'il U\'i Sheachnasaigh
+S: B.Breathnach:"Ceol Rince na hEireann" IV/148
+Z: B.Black
+L: 1/8
+M: 4/4
+R: reel
+K: G
+BGGG ABce|dggg agfe|dggg fgab|c'bag fedc|
+BGGG ABce|dggg agfe|dggf dedc|BG (3AcA G3 ||
+B|cBAG FGAF|DGGF DGGB|cBAG FGAB|cedc BGGB|
+cBAG FGAF|DGGG AGFE|DGGF DEDc|BGAF G4 ||
+
+
+X:220
+T: Old Blackguard Barndance
+S: "Passing Time" (Jim & Mary Coogan & friends)
+N: "Recorded by Joe Derrane and the Irish All Stars in the
+N: early 50's"
+L: 1/8
+M: 4/4
+Q: 350
+R: hornpipe
+K: D
+(3ABc | d2 F2 A2 BA | G2 C2 E3 D | CDEF GFGA | BAAG A2 (3ABc |
+d2 F2 A2 BA | G2 C2 E3 f | gfed cABc | e2 dc d2 :|
+AG | F2 A2 dfed | c2 B2 G4 | c2 B2 GFGA | B2 A2 A2 AG |
+F2 A2 dfed | c2 B2 G4 | gfed cABc | e2 dc d2 :|
+
+X:225
+T: Outdoor Relief
+S: "The Roche Collection of Traditional Irish Music" [I/63/161]
+L: 1/8
+M: 4/4
+R: reel
+K: G
+BAFD D2 FD | D2 FA BEED | BAFD D2 EF |1 ABde fedB :|2 ABde fd d2 ||
+a2 af a2 af | g2 ga be e2 | a2 af gedB | ABde fd d2 |
+a2 af a2 af | gfga be e2 | faef d2 dB | ABde fed>B |]
+
+X:230
+T: Over the Moor to Maggie HP
+S: "Roche Collection of Traditional Irish Music" [II/17/230]
+L: 1/8
+M: 4/4
+R: hornpipe
+K: D
+FE | D2 DE F2 ED | E2 e2 e2 de | fedB AFEF | DEFA dBAF |
+D2 DE F2 ED | E2 e2 e2 de | fedB AFEF | D2 d2 d2 :|
+z2 | d2 g2 fgaf | defg a2 gf | efga bagf | efga b2 a2 |
+gfga bagf | gfed BcdB | AFdB AFEF | D2 d2 d2 :|
+
+X:235
+T: O'Flaherty's Gamble
+S: "Roche Collection of Traditional Irish Music" [III/23/76]
+L: 1/8
+M: 4/4
+R: reel
+K: F
+F2 AF cFAF | BAGA BGdc | AGFG AFcA |1 BAGF EFGE :|2\
+dcAG F2 Fz ||
+a2 gf a2 gf | gfef gabg | a2 gf efdf | agfe f3f |
+a2 gf a2 gf | gfef gabg | afge fdec | dfcA cBGA ||
+P: version in D
+K: D
+D2 FD ADFD | GFEF GEBA | FEDE FDAF |1 GFED CDEC :|2\
+BAFE D2 Dz ||
+f2 ed f2 ed | edcd efge | f2 ed cdBd | fedc d3d |
+f2 ed f2 ed | edcd efge | fdec dBcA | BdAF AGEF ||
+
+
+
+X:240
+T: Over the Bridge to Peggy
+S: "Roche Collection of Traditional Irish Music" [III/25/82]
+L: 1/8
+M: 4/4
+R: reel
+K: Dmix
+dAAB cdBA | GEEB c2 Bc | dAAB cdBA | GEcE ED D2 :|
+dffa abaf | edef g2 fe | dffa abaf | dfaf e2 e2 |
+dffa abaf | edef g2 fg | afge fded | cAGE D2 D2 ||
+
+X:245
+T: Out Beyond the Moor HP
+T: Fraoch na n-A\'e
+S: "Roche Collection of Traditional Irish Music" [III/63/179]
+L: 1/8
+M: 4/4
+R: hornpipe
+K: Am
+ed | c2 A2 A2 GA | dcAG AGAc | defe dcAG | AGAc Acde |
+fdgf egfe | dcde abag | fede dcAG | A2 A2 A2 :|
+ef | g2 g2 gede | gfga gede | a2 ab ageg | agab ageg |
+fagf egfe | dcde abag | fede cdAG | A2 A2 A2 :|
+

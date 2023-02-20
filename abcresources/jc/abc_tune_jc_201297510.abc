@@ -1,0 +1,57 @@
+
+X: 1
+T: Klezmer Kerry Polka #1   [Dm]
+C: Rich Sobel
+R: polka
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Dm
+d2e2 |\
+"Dm"fedf "A"ed^ce | "Dm"d2A2 d2e2 |\
+fedf "A"ed^ce | "Dm"d4 d2e2 |
+"Dm"fedf "A"ed^ce | "Dm"d2A2 "Gm"BAG2 |\
+"Dm"AGF2 "A7"GFE2 | "Dm"D4 :|
+|: "D7"d4 |\
+"Gm"[g4B4] [g3B3]a | {a}b2g2 g4 |\
+"Dm"fefg a2f2 | d6 f2 |
+"A"e2a2 e2a2 | e2a2 a4 |\
+[1 "Dm"d^cde f2g2 | a2f2 :|\
+[2 "(Gm)"bag2 "A7"f2e2 | "Dm"d4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Kerry Polka #4    [G]
+M: C|
+Z: From Roaring Jelly collection; modified by John Chambers
+R: polka
+K: G
+|:\
+"G"D3E G2B2 | D3E G2B2 |\
+[1,3 "C"A2E2 E2DE | G2E2 "D"EGFE :| \
+[2,4"C"A2E2 "D"F2EF | "G"A2G2 G4 :|
+|:\
+"G"d2B2 B2AB | d2B2 B3A |\
+[1,3 "Em"G2E2 E2DE | "C"G2E2 "D"E2D2 :|\
+[2,4 "C"G2E2 "D"F2EF | "G"A2G2 G4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Klezmer Kerry Polka #2   [Dm]
+C: Rich Sobel
+N: Minor version of an Irish polka.
+R: polka
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Dm
+|:\
+"Dm"A2d2 A2d2 | A2d2 d3d | "Bb"B2G2 F2D2 | "(Gm)"B,6 CB, |
+"A7"A,2^C2 E2G2 | A4 A3B |1 A2G2 F2G2 | "Dm"A4 A4 :|2 A2G2 F2E2 | "Dm"D8 |]
+|:\
+"C(*)"C2E2 G3B | B2"F"A2 A4 | "D7"D2^F2 A3c | c2"Gm"B2 B4 |
+"Gm"DGBd g2g2 | "Dm"DFAd f2f2 | "A7"e2ag fe^cA | "Dm"d4 d4 :|
+%
+%%text (*) First four bars may be played up an octave in the repeat.

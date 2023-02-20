@@ -1,0 +1,31 @@
+X: 1
+T: Ever Happy
+%R: minuet
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (154)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the dance instructions.
+M: 3/2
+L: 1/8
+K: Cm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+c2 C4 c2 =B2c2 | d2 G,4 d2 c2d2 | e2G2 F2E2 D2=B2 :|\
+c2 C4 cd e2f2 | g2 E4 ef g2a2 | b2 B4 cd e2G2 | A2f2 G2e2 F2d2 |
+e2E4 ga b2e2 | _d2 b4 _d2 c2a2 | B2g2 A2f2 G2=e2 | f2 F4 fg a2b2 |\
+a2g2 f2e2 d2c2 | =B2 g4 d2 e2G2 | F2d2 E2c2 D2=B2 | c2C4 =B,2 C4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Note: The 1st strain is to be play'd twice and the last but once
+%%begintext align
+%% The 1st Man cross over and go Back to Back with the 2d Wo.
+%% and the 1st Wo. cross over and go back with the 2d Man
+%% at the same Time .| Meet and turn single then the 1st Man
+%% turn the 2d Wo. with his right Hand and the 1st Wo. turn
+%% the 2d Man with her right Hand at the same Time then
+%% the 1st Cu. take left Hands and turn into their own Places :|
+%% The 1st Cu. cross over into the 2d Cu. Place and go Back
+%% to Back with their Partners then all four lead up Hands
+%% abreast then go the Figure thro and cast off into the 2d
+%% Cu. Place .|
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,25 @@
+X: 20921
+T: SOLEMN MARCH FROM THE OPERA OF "LA GAZZA LADRA."
+C: Rossini.
+%R: march
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.92 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A>>G |:\
+e2 e>e ez dz | {e}d>cc>c cz A>>G |\
+f2 f>f fz ez | {f}e>dd>d dz A>>G |\
+e3 d/c/ B>cB>c | B>^FG>=A B>=Bc>^c |
+d>=a_b>g d3 =e/^f/ | gz G>G Gz A>G ::\
+f2 f>f f3 _e | {f}e>dd>d dz A>G |\
+f2 f>f f3 e | {f}e>dd>d dz _B>B |
+g3 f/e/ f3 e/d/ | {e}g3 f/e/ f3 e/d/ |\
+e3 d/c/ d3 c/=B/ | cz C>C Cz A>G :|\
+(3(gfg) (3(afd) cz dz | e2 A>G G2 F>E |
+(3(GFG) (3(AFD) Ez Dz | Cz A,>G, G,z A>G |\
+Gz a>g gz A>G | Gz z2 z4 |\
+[cC]z z2 z4 | [c2C2] Hz4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

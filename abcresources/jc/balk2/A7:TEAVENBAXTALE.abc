@@ -1,0 +1,19 @@
+X: 417
+T: Te Aven Baxtale
+O: Romania
+F: http://www.youtube.com/watch?v=6z8AggweC1w
+F: http://www.youtube.com/watch?v=jz6VbgrCg5E
+F: http://www.youtube.com/watch?v=WnS9FNNtekY
+M: 2/4
+L: 1/16
+K:Bm clef=treble
+Q:1/4=144
+%%MIDI program 45 Pizzicato String
+AAA4G2  |A2B2 B4 |c3B AAG2 |F8    |:\
+B6A2    |B2c2d2e2|f2f4e2   |f2g2a4|
+a2b4g2  |f4e4    |B8       :|\
+%%MIDI program 42 Cello
+D4D4    |F4F4    |F2F2F2E2 |B,8   |
+A,4A,4  |B,4B,4  |C2C2C2B,2|F,8   |\
+B2B2B2B2|B2B2B4  |F2F2F2F2 |F2F2F4|
+B2B2B4  |G4F4    |A4B2B2   |B8    |

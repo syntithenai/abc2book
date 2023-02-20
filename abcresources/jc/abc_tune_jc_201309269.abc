@@ -1,0 +1,19 @@
+X: 1843
+T: the Merry Merchant #2
+R: march
+%S: s:2 b:16(8+8)
+R: reel
+B: O'Neill's 1850 #1843
+O: F.O'Neill
+Z: should bars 4 and 8 of B part be "FDEC D2"? [Answer: Yes; fixed.]
+Z: Bob Safranek, rjs@gsp.org
+N: Both strains are 4 bars, repeated; it could be printed in one line.
+M: C
+L: 1/8
+K: D
+(AG) |\
+Addc ABAG | Addc TB2 (AG) | Addc ABAF | GFGA TB2 (AG) |\
+Addc ABAG | Addc TB2 (AG) | Addc ABAF | GFGA TB2     ||
+|| (Bd) |\
+cAAF GFGA | FDDG TB2 (Bd) | cAAF GFGA | FDEC  D2 (Bd) |\
+cAAF GFGA | FDDG TB2 (Bd) | cAAF GFGA | FDEC  D2     |]

@@ -1,0 +1,1654 @@
+New Dances
+
+Ka' Agadat Rivka
+Ashrei Hayish
+Bat Yiftach
+Bein Ne'har Prat
+Bisdot Bet Lechem
+Debka Dor
+Dilam Bazan
+Ei Hatal
+El Ginat Egoz
+Elu Tziporim
+Es Vakeves
+Hinach Yaffa
+Hora Hasor
+Hora Neurim
+Likrat Shabat
+Simhat He' Amel
+Simchu Na
+Taam Haman
+
+
+These transcriptions are limited to personal use
+as I am unable to guarantee that all of these tunes
+are free of copyright restrictions in all countries.
+For any other use, please contact me.
+I am grateful to Deborah Jones (inielsen@portal.ca) 
+and Vancouver International Folk Dancing for allowing
+me to place some of their transcriptions in abc format 
+on the web.
+
+Hints: if you are creating a midi file, the tunes sound
+best when the melody line is assigned to a none percussion
+instrument (which includes piano). Ideally the instrument
+should have a sustained tone like a cello or wind instrument.
+The tempo indication Q:1/4=.. indicates the desired speed.
+If you are using runabc.tcl or abcmidifier, it does not override
+the user setting providing most flexibility. If you wish it
+to override the user selection, then move the Q: command to
+after the first K: command (key signature indication) rather
+than before in each of the tunes.
+
+seymour.shlien@crc.ca
+
+X: 1
+T: Ad or haboker
+L: 1/8
+O: Israel 
+I: choreographer, M. Eskayo
+M: 4/4
+Q: 1/4=144
+K: Dm
+"Dm" D F2 D "Gm" G2 A2|"Dm" D F2 D "Gm"  GG A2 |"Dm" F A2 F "F" c2 d2|"Dm" A2 G2 "F" cB A2|\
+"Dm" D F2 D "Gm" G2 A2| "Dm" D F2 D "Gm" GG A2|"Dm" F A2 F "F" c2 d2|"Dm" A2 G2 "F" A4|
+"Dm" z A2 G "Gm" AB c2| "Dm" d2 c2 BA G2| z G2 F "Gm"  GA B2| "F" c2 B2 "Dm" AG F2|\
+"Dm" D F2 D "Gm"  G2 A2|"Dm" D F2 D "Gm" GG A2|"Dm" F A2 "F" F c2 d2|"Dm" A2 G2 d4|
+"Dm" z d2 c d4|"F" z c2 B cB A2|"Dm" z d2 c d2 e2|"F" z c2 B cB A2|\
+z"Gm" B2 A B2 d2|"Dm" z A2 G AG F2|"Gm" z B2 A B2 d2 |"Dm" A2 G2 A4|
+"Dm" D F2 D "Gm" G2 A2|"Dm" D F2 D "Gm"  GG A2 |"Dm" F A2 F "F" c2 d2|"Dm" A2 G2 "F" cB A2|\
+"Dm" D F2 D "Gm" G2 A2|"Dm" D F2 D "Gm"  GG A2 |"Dm" F A2 F "F" c2 d2|"Dm" A2 G2 d4|
+
+
+X: 2
+T:Agadelcha
+O:Israeli
+S:Israel Yakovee, Yemenite Jewish Folklore and Dance for educational purposes
+L:1/8
+M:4/4
+Q:1/4=120
+K:Am
+|:"Am"e4 e4| e e6 c/c/|e3 d c3 B | A6 z2|\
+ a4 e2 de|"Dm"f3 e d2 cd| "Am"e3 d c3 B | A8 :|
+e2 ga"C"gf e z| "C"e2 g3 f e2| "Dm"g2 f3 e d2|"Am"f f e4 z2|\
+"Dm"e2 f3 e d2| "Am"f2 e3 d c2| "Dm"d2 e2 d2 c2 | "Am"B2 A4 z2|
+|: "Am"a6 e2| "Dm"f4 "Am"a4| "Em"b2 a2 "E"^g2 a2| "Am"e8 :|\
+|: "Dm"z e f3 e d2| "Am"z f e3 d c2| "Dm"d2 e2 d2 c2|[1 "Em"B2 A2 "Am"c2 e2 :| [2 "Em"B2 "Am" A6 |
+
+
+X: 3
+T:Ahavat Hadassa
+C:Yemenite Tune
+S:Songs and Folk Dances arranged by Haim Kirsch. Book 4 (c) 1961 NEGEN
+S:chords by seymour (with the help of abcmus)
+O:Israel
+Q:1/4=72
+L:1/8
+M:2/4
+K:F
+|: "F"CF FF | G/A/F/G/ A>A| c B/A/ "C"GB| "F"A>G F2:|\
+"Bb"B>B B>B | "F"A/G/F/G/ A>F |
+ FA GF| c4| "Bb"B>B B>B | "F"A/G/F/G/ A>F | FA "C"GE| "F"F4|
+
+
+X: 4
+T:Al Gimali
+O:Israel
+Z:seymour.shlien@crc.doc.ca
+L:1/8
+M:4/4
+Q:1/4=120
+K:Gm
+"Gm"d3 c "Cm"e2 f2| "Gm"d2 BG AF G2| d3 c "Cm"e2 f2| "Gm"d2 BG "Dm"A4|\
+"Cm"c3 B "Bb"d2 ef| "Gm"d3e dcd2| dccB BABc| d8| 
+"Cm"c3 B "Bb"d2 ef| "Gm"d3e dcd2| dccB BAAG| G8|\
+"Gm"g3f "Cm"gfe2| "Gm"d2 c/B/c d/e/d/c/ d2| g3 f b2 a2| g2 dc d4|
+g3 f ef g2| Bcde dc d2| dc cB BA Bc| d8|\
+"F"ABcB "Gm"BAAG|G6 z2|
+
+
+X: 5
+T:Amalel Shir
+O:Israeli
+I:Choreographer: S. Maman 1981
+L:1/8
+M:4/4
+Q:1/4=120
+K:Gm
+"Gm".G2 .d2 .B2 .G2| "Dm"FG GF "Gm"B2 A2| .G2 .d2 .B2 .G2| "Dm"FG GF "Gm"G4|\
+"Gm".G2 .d2 BA G2| "Dm"FG GF "Gm"BA G2| .G2 .d2 .B2 .G2| "Dm"AG GF "Gm"G4|
+|:"Dm"FGAB "F"c2 d2| c2 B2 c2 z2| "Dm"FGAB  "Gm"d2 c2|[1 B2 A2 G2 z2:| [2 B2 A2 G2 zF|\
+"Dm"A2 B2 A2 zF| A2 B2 A2 zF |
+ ABAB  "Gm"d2 c2| B2 A2 G2 z2| d2 cd d4-|d8| "Bb"BF AB "Gm"d2 c2 | B2 A2 G2 z2|
+
+
+X: 6
+T: Ashrei Hayish
+O: Israel
+M: 2/4
+L: 1/8
+Q: 1/4=72
+K: Bm
+"Bm" z4|z4|:F2D2|AG/A/"G" G2|"Em"E3/2F/ GF/E/|[1 "Bm"F4:|[2"Bm"F2- FD/E/|:
+"D"FF G/F/E/D/|E/F/E2D/D/|"Em"DC B,C/E/|[1"D"D3D/E/:|[2 "Bm" B,3-B,/F/|
+|:"Bm"BBF3/2F/|BBF3/2F/|"D"d3/2e/ fe/d/|"Em"e/f/e2-e/B/|
+eeB3/2B/| eeB3/2B/|ed/e/f/e/d/e/|[1"D"d3-d/F/:|[2"D"d4|
+
+
+X: 7
+T:Balada le Mayan
+O:Israeli
+I:choreographer: S. Maman 1983
+Q:1/4=92
+L:1/8
+M:2/4
+K:Dm
+D4|F4|D2 DB,|C4| B,2 B,G,|A,2 G,2| F,2G,2|A,4|
+%%sep 10 10
+A,2 |: "Dm"DD"Am"ED| C=B,/C/ "Dm"DE| FF "Gm"GF| "C"ED/E/ "F"FE|\
+ "Bb"DD "Em"ED| "Am"C3 G|
+"Dm"AA "Am"cB| "Dm"AG/F/ "Gm"GE| "Gm"GF "C"ED| "F"C=B,/C/ A,A,| "Bb"DF "Em"EC| "Dm"D4:|
+"Bb"D2|"Ebm"^F3 G| "Am"AB "Dm"AG| AD A2| "Gm"G3 G|\
+"Dm"=F2 "Gm"GF| G3 F| "Dm"DC DC| A,3A,|
+"Gm"B,C DG| "Dm"D3C| "Gm"B,C DG| "Dm"A3F |\
+"Gm"BA Bc| "Dm"A3F| "Gm"G4| "Dm"A4|
+
+
+X: 8
+T:Bakramim
+O:Israeli
+M:2/4
+L:1/8
+Q:1/4=92
+K:Am
+%%MIDI gchord fzfz
+|:"Dm".d.d "F".c.c|"Dm"AG/F/AA| D>E FG|"G"B/d/B/G/"Dm"A2|\
+.d.d "F".c.c|"Dm"AG/F/A2|d>d "Am"e/f/e/c/|"Dm"d4 :|
+|:"F".c.c "Dm"A2|"G"B/dB/ "Dm"A2 | d/z/ A/dA/d|"G"B/A/G/B/ "Dm"A2|\
+"F"cc "Dm"A2|"G"B/dB/ "Dm"A2 | d/z/ A/dA/d|"Am"e/f/e/c/ "Dm"d2:|
+M:4/4
+L:1/8
+K:Gm
+%%MIDI gchordoff
+GA B2 -BA GA| BA A2 D4| G2-GF EF GB| A4  z2 GF| B2 -BA GA Bc| d2 HA2 G3F|
+ EF GB A4 |
+
+
+X: 9
+T:Ba Pardess
+O:Israel
+P:ABCDC
+L:1/8
+M:4/4
+Q:1/4=120
+K:Bm
+%%MIDI gchord zzczzzcz
+P:A
+z fgf g4|g4 g4-|gcde f4|f4 f4-|fBcd B3d| c3 d  B4|z4|
+P:B
+"Bm"Bcdc BAGF|"G"GABA "Em"GFED|"Bm"F3 F  "Em"E2 FE| "Bm"D4-  D4|\
+Bcdc BAGF|"G"GABA "Em"GFED|"F#m"A3 A "G" G2 AG| "Bm"F4- F4|
+P:C
+"F#m"c3 d  "A"e2 c2| "Bm"B^ABc  d2 B2| "F#m"A3 B  cA BG| "Bm"F4- F4|\
+"F#m"c3 d  "A"e2 c2| "Bm"Bdfd  B4| "C"=c3B  "F#"^A2 ^GA| "Bm"B4- B4|
+P:D
+"Bm"F4- F4| "G"G3 F  "Em"E4| "F#m"A3 B  AGGF| "Bm"F4- F4|\
+"F#"^A3B  c2F2|  "Bm"B3c  d2 B2 | "Bm"f2 ^e2  d2 cB|  "F#m"c4 z4|
+
+
+X: 10
+T: Bat Yiftach
+O: Israel
+M: 4/4
+L: 1/8
+Q: 1/4=160
+K: Ador
+|:"D"d3c d2e2|"Am"cBc4Bc|"G" dBcA B2G2|[1"C"c4 "Am"e3c:|[2"Am"A6z2|
+|:A2A2A2A2|"G"dcB4AB|"Am"cB A2 "Em"G2E2|"Am"A8:|
+"D"d3c d2e2|"Am"cBc4Bc|dBcA "Em"B2G2|[1"C"c4 e3c:|[2"Am"A6z2|
+|:"G"G2G2 "Am"A4|"G"GFG2 "Am"A4|c3B c2d2|"Em"B2G2 "Am"cBA2|
+"G"G2G2 "Am"A4|"G"GFG2 "Am"A4|[1 z2e2 "G"d2g2|"Am"e8:|[2 "Am" z2c2 B2A2|A2G2 A4|
+
+
+X: 11
+T:Bein Ne'har Prat
+C:Folk
+M:4/4
+L:1/8
+Q:1/4=120
+K:EMix
+"E"e2 e2 {e}e3 c |"Bm" dc dc B4|"Dm".d2 .d2 c3 B| "Bm".B.B cB "Am"A4|:
+"Am"=c3 B/c/ dcBA| "E"GABA G4| BA AG "Fm"G=F FE|[1 GAG=F "E"E B3:|[2 "Fm"GAG=F "E"E4|
+
+
+X: 12
+T:Belev Echad
+O:Israel 
+Q:1/4=102
+L:1/8
+M:2/4
+K:Cm
+|:"Cm"E F/F/"Fm"FF| "Cm"E F/F/"Fm"FF| "Cm"E F/F/"Fm"FF |FC F2:|\
+|:A2 "Cm"GF |G2 E2| G2 "Fm"FE| F4 :| 
+|:"Fm"c2 "Bb"BA| B2 "Cm"G2| "Bb"B2 "Fm"AG | A2 F2| A2 "Cm"GF | G2 "Bb"B2 | "Eb"GB "Fm"AG | F4 :|
+"Fm"c4-|c4|f4-|f4|: cd"Cm"ef| "Cm"ed "Fm"c2| cc"Bb"BA| "Fm"c4 |cc"Bb"BA| "Fm"c4 :|
+|:"Bb"B2 BB| B2 "Fm"AG| "Bb"BB"Fm"AG| A2 "Cm"GF| GA"Bb"Bc| B2 "Fm"AG| "Cm"GG"Fm"FE| F4| "Cm"GG"Fm"FE| F4 :|
+
+
+X: 13
+T: Bisdot Bet Lechem
+M: 2/4
+L: 1/8
+Q: 1/4=100
+K: Cm
+%MIDI gchord fzfz
+|:"Cm"C2 G,C|"Gm"DEDC|"Cm"E4-|E2 (3DEF|\
+"Gm"G3 F|E2D2|"Cm" EDC2-|C4:| "Fm"FzFz|FG/_A/GF|
+"Cm"_AB/c/BA|_AGGF|G2F/G/A|G3F|G3F|\
+E2D2|[1EFG2-|G2z2:|[2EDC2-|C4|
+
+
+X: 14
+T:Dayagim
+O:Israeli
+S:Deborah Jones, Vancouver International Folk Dance Music Book
+I:choreographer S. Hermon, 1969
+Q:1/4=132
+L:1/8
+M:4/4
+K:Dm
+"F" F2 c2 B c2 A|"Gm" GB AG "Dm" FG "Am" Ac| "Dm" fedc d4|\
+"Dm" DD AA "Gm" GB "Dm" A>G| FG AF "Am" GE "Dm" F>E| DD AA "Gm" GB "Dm" A2|\
+ d A2 c "Gm" G/A/G G2|
+ DD GA Bc d>c|"C7" Bc BG "F" A F2 G| AB c>A "Gm" BG "Dm" A>G|\
+ FG "Am" ED "Dm" D2 D z|
+"F" F2 c2 B c2 A|"Gm" GB AG "F" A F2 C| F2 c2 "Gm" Bc/B/ AG| G4-GD GA|
+B>c d2-dd cB| "F" A>B c2-cc BA| "Gm" G3 A BB AG| "Dm" A3 F G3 E|
+
+
+X: 15
+T:Debka Chaim
+O:Israeli
+M:2/4
+L:1/8
+Q:1/4=96
+K:EMin
+|:.E.B .B.B|B/d/^c/d/ BA|.G.G.G.G|AB G=F|
+.E.B .B.B|B/d/^c/d/ BA|.G.G.G.G|=FE z2:|
+|:E>e ee|AB/^c/ de|AB2A|^c/d/B Bz|
+A>c BA|G4|eE2G|=F/E/E E2:|
+
+
+X: 16
+T:Debka Daluna
+O:Israel
+I:choreographer Y.Ashriel, 1960
+L:1/8
+M:2/4
+Q:1/4=96
+K:Am
+|:"Am"Ae/e/ ee| Ae/e/ ed| c2 "Dm"d2| "Am"cd e/d/c/B/|\
+"Dm"Ad "Am"cB| c/d/c/B/ A2:|
+"C"GA "Am"AA| "C"Gc "G"B>A| "C"Gc "Am"Bc| "G"d c/B/ "Am"A2|\
+"C"GA "Am"AA| "C"Gc "G"B>A| "C"Gc "Am"Bc| "Gm"d/_B/B/A/ "Am"A2|
+
+
+X: 17
+T:Debka Dayagim
+O:Israel
+I:choreographer S.Hermon, 1969
+L:1/8
+M:2/4
+Q:1/4=120
+K:D
+"Em"B2 B2| E4| "D"A>B A>G| FE "Em"ED|\
+B2 B2| E2 "D"FG|FE "Em"ED| "D"A2 A2|
+A/G/A2 G| FGAG| FF "Em"ED| "D"F2 F2|\
+A/G/A2 G| FGAG| FF "Em"ED|E2 E2|
+G>F GA| "Bm"Bd "A"^cB| "D"A A2 B|\
+"Em"GA "D"F2| "Em"E2 E2 |"D"A2 "Em"GB| "D"A4|
+"Em"B2 B2| E4| "D"A>B A>G| FE "Em"ED|\
+B2 B2| E2 "D"FG| A2 "Em"GB| "D"A2 "Em"Bc|
+ "Bm"~d3 B| "D"A2 F2| "Em"~B3B| "D"~A3A|\
+"Em"~G3G| "D"F2 "Em"ED| "D"A2"Em"GB|"D"A3G|\
+F2 "Em"E2| "D"D4|
+
+
+X: 18
+T: Debka Dor
+S: Recording 'Dance with Moshiko' MIH Records
+O: Israel
+M: 4/4
+L: 1/8
+Q: 1/4=220
+K: Fmin
+%%MIDI drum d2ddd2d2 35 60 61 61 61
+!drum!z8|z8\
+M:2/4
+|:c3B|cBA2|{B}AGAB|c2z2|c3B|cBA2|{B}AGAB|c2z2|
+c3B|cBA2|{B}AGAB|c2z2| FGAB|cBAG|BAGF|F2z2:|
+|:A3G|AGF2|FEFG|A2zA|A3G|AGF2|FEFG|A2zA|
+A3G|AGF2|FEFG|A2zA|FGAB|cBAG|BAGF|F2z2:|
+
+
+X: 19
+T: Debka Druz
+O: Israel 
+I: choreographer V. Cohen 1969
+L:1/8
+M:2/4
+Q:1/4=132
+K:Am
+"Dm" D2 "Am" E2| E2 "Dm" D2|"Am" E2 ED|"Dm" F4|\
+DE "Am" ED| E2 "Dm" FE| DE "Am" C2|"Dm"D2 z2|
+"Dm" D2 "Am" E2| E2 "Dm" D2|"Am" E2 ED|"Dm" F4|\
+D E2 D|"Am" E2 "Dm" DE| FG "Am" E2|"Dm" F4|
+|:"Dm" A2 "C" G2 |G2 "Dm" FE| FG "Am" E2|"Dm" F2  z2|\
+DE "Am" ED| E2 "Dm" FE| DE "Am" C2|"Dm" D2 z2:|
+
+
+X: 20
+T:Debka Habir
+O:Israel
+I:choreographer, Moshiko 1959
+C:N. Sharabi
+Z:seymour.shlien@crc.ca
+S:from record Dance Along with Sabras (Tikva T-69)
+L:1/8
+M:2/4
+Q:1/4=160
+I:Percussion recommended for accompaniment
+%%MIDI gchord fzfz
+K:DMix
+|:"Bm"D3E|FEED|FEED|[1FEED:|[2D4|
+|:"Bm"D3E|FEED|FEED|[1FEED:|[2D4|
+|:"Gm"G3G|FED2|GEFD|[1GEF2:|[2FED2|
+|:"Gm"G3G|FED2|GEFD|[1GEF2:|[2FED2|
+
+
+X: 21
+T:Debka Halel
+O:Israel
+I:choreographer V. Cohen 1949
+L:1/8
+M:2/4
+Q:1/4=160
+K:Gm
+"Gm"G2 d2| ^cd B2| "F"ABAG| "Gm"B3 A|\
+G2 "Cm"cB | c2 "Gm"B2| "F"ABAG| "Gm"B2 "F"A2|
+"Gm"G2 d2| ^cd B2| "F"ABAG| "Gm"B3 A|\
+"Bb"F2 "Gm"G2| _ABAG| G4| G4|
+"Cm"c2 c2| cd c2| cd c2| c2 "Gm"B2|\
+"F"A2 "Gm"B2| "Cm"c2 "Gm"B2| "F"ABAG| "Gm"B4|
+"Cm"c2 c2 | cd "Eb"e2| "Bb"fe"Gm"dc| "Cm"c2 "Gm"B2|\
+"F"A2 "Gm"B2| "Cm"c2 "Gm"B2| "F"ABAG| "Gm"G4 | 
+
+
+X: 22
+T:Debka Hachamor
+O:Israel
+I:choreographer V.Cohen
+L:1/8
+M:4/4
+K:F
+Q:1/4=160 
+z3 a|"Dm"abag| "Dm"agfg|"Gm"g2fg| "Gm"ag/f/g2|\
+ "Dm"f3 e| "Gm"g2 e2 |"Dm"f2 e2|"Dm"d2 za|
+"Dm"abag| "Dm"agfg|"Gm"g2fg| "Gm"ag/f/g2|\
+ "Dm"f3 e| "Gm"g2 e2 |"Dm"f2 e2|"Dm"d3 z|
+|:"Dm"cddd| "Gm"d e/f/ gg|"Dm"de ff| "Dm"e d/c/ d2 :|\
+|:"Dm"ga aa| "Dm"ga aa| "Dm"ga aa | "Dm"ga a2 :|
+|:"Gm"g2 g2| "Gm"ga gf| "Gm"g2 g2| "Gm"gagf| "Dm"g f/e/d2|z4:|
+
+
+X: 23
+T: Debka Kafrit
+L:1/8
+O: Israel 
+M:2/4
+Q:1/4=160
+K:Bm
+z2 "D" D2|:"A" E2 EF|"D" D2 "A" CD| ED CD| E2 ED|\
+E2 EF|"Em" GA GF| GF "A"ED |E2 E2:|
+ z2 "A" E2|:A2 AB|"Em" G2 "D" FE|"A" AAAB|"Em" G2 "D" FE|\
+"A" AG "Em" GF|"D" FE "A" ED| EF "Em" GF|"A" E2 E2 :|
+
+
+X: 24
+T:Debka La'adama
+O:Israel 
+I:choreographer Y. Levy 1959
+Q:1/4=96
+L:1/8
+M:2/4
+K:Dm
+"Gm"d2 G2| "Dm"A2 "Gm"BA|G4-|G4|\
+|:"Dm"FG "Gm"GG | BG GG| "Dm"A G/A/ F/G/ A| "Gm"B/A/ GG z:|
+Gd dd| "Dm"fd "Gm"dd| "C"e d/e/c/d/ e| "Dm"f/e/ d d z|\
+"Gm"Gd dd| "Dm"fd "Gm"dd| "C"c d/c/"Cm"_e/d/ c| "Gm"B/A/G G z|
+g2 g2| g2 g2| "C"cd "Cm"_e/d/c| "C"cd "Cm"_e/d/c|\
+"Dm"f2 "Dm"f2| "C"e2 e2| "Gm"de "C"cd| "Gm"d4|
+g2 g2| g2 g2| "C"cd "Cm"_e/d/c| "C"cd "Cm"_e/d/c|\
+"Gm"d2 G2| "Dm"A2 "Gm"BA | G4|
+
+
+X: 25
+T:Debka Oud
+O:Israel 
+L:1/8
+M:4/4
+Q:1/4=144
+K:Am
+%%MIDI gchord f2zffzfz
+| "Am"z8|z8|\
+|:"Am"Aeee e2 e2|efde c2 B2|Aeee e2 e2|"C"g^fga "Am"^f2 e2|
+Aeee e2 e2|efde c2 B2|Ac2c "Em"BAG2|"Am"cdBA A4:|
+|:"Am"G A2 A A2 A2|"C"G^FGA "Am"^F2 E2|G A2 A "Em"AG B/A/G| "Am"A8|
+"Am"G A2 A A2 A2|"C"G^FGA "Am"^F2 E2|efde cdBA| A8 :|
+
+
+X: 26
+T: Debka Rafiah
+L:1/16
+O: Israel 
+I: choreographer, Moshiko
+S: Songs and Folk Dances Book 4 /Haim Kirsch (c) 1961 NEGEN
+M:2/4
+Q:1/4=120
+K:Am
+|:AGAF GFG2| FEF2 EDEF| GFG2 FEF2| E4 E4:|\
+|:EDEF GF G2| FEF2 E2AG| A2A2 GFG2|
+FEF2 EDEF| GFG2 FEF2 | E4 E4:|\
+A3B G4| A3B G4| A3B G2G2 | A2A2 G2G2  | A2A2 G2G2 |E4 E4|
+
+
+X: 27
+T:Debka Skayo
+O:Israel
+I:choreographer M. Eskayo 
+L:1/8
+M:2/4
+Q:1/4=160
+K:Am
+%%MIDI gchord fzzzfzzz
+|:"Dm"D2 AG|.A2.A2| "G"G4 | "Dm"A2 "G"G2|\
+"Dm"D2 AG|.A2.A2| "G"G4 | "Dm"A4|
+"Dm"D2 AG|.A2.A2| "G"G4 | "Dm"A2 "G"G2|\
+"Dm"FED2|"Am"E2 EF| "Dm"D4| D4 :|
+|:"Dm"d2 d2-|d2 "Am"c2| "G"BcBG| "Dm"A4|\
+d2 d2-|d2 "Am"c2| "G"BcBG| "Dm"A4|\
+"G"B3 c| B2 G2| "Dm"A4 | A4:|
+
+
+X: 28
+T: Dilam Bazan
+S: From recording, Dance with Moshiko, MIH-8
+O: Israel
+M: 6/8
+L: 1/8
+Q:1/4=180
+K: Am
+%%MIDI drum dd 41 41 60 60
+!drum! d3 d3|dcd cB2|c3 c3|cBc BA2|G3c3|cBc BA2|G3 A3|A6|
+A3 e3|ede dc2|d3 d3|dcd cB2|G3c3|cBc BA2|G3 GAG|A6|
+a3 a3|aga gf2|efg agf|gfe f3|g3 g3|gfg fe2|def gfe|fed e3|
+ede dc2|dcd dB2|cBc BA2|GAB d3|G3c3|cBc BA2|G3 A3|A6|
+
+
+X: 29
+T:Dror Yikra
+L:1/8
+S: H.Kirsch : Songs and Folk Dances bk 10 (c) 1969 NEGEN
+O: Israel
+I: choreographer Moshiko, E. Gamliel
+M:2/4
+Q:1/4=80
+K:C
+D|"Em" EE/2D/2 EF/2E/2|"Am" A>B "Em" G2 |"Dm" F/2E/2F "Em" ED |\
+ EE/2D/2 EF/2E/2|\
+M:3/4
+"Am" A/2G/2A/2B/2 "Em" G2 "Dm" F/2E/2F/2E/2 |"Em" E4-E D | \
+L:1/8
+M:2/4
+"Em" EE/2D/2 EF/2E/2 |"Am" A>B "Em" G2 |
+"Dm" F/2E/2F "Em" ED | EE/2D/2 EF/2E/2 |\
+M:3/4
+"Am" A/2G/2A/2B/2 "Em" G2 "Dm" F/2E/2F/2E/2 |\
+L:1/8
+M:2/4
+"Em" E4|\
+z "Am" E/2B/2 "Gm" BB| B2 B/2A/2c/2B/2 |"Am" A2 "Em" G>A| BA GF | E>F ED | EE/2D/2 EF/2E/2 |\
+"Am" A2 "Em" G2 |"Dm" F/2E/2F "Em" ED | EE/2D/2 EF/2E/2 |\
+M:3/4
+"Am" A/2G/2A/2B/2 "Em" G2 "Dm" F/2E/2F/2E/2 |\
+L:1/8
+M:2/4
+"Em" E4-|E3|
+
+
+X: 30
+T:Dundai
+O:Israel
+Z:seymour.shlien@crc.ca
+L:1/8
+M:2/4
+Q:1/4=180
+K:Dm
+|:"Dm"d2 dd| A2 A2| d2 dd| A4| F2 A2| "F"cB"Dm"AG| F2 "Am"E2 |"Dm"D4 :|
+|:"Dm"F2 A2| GFED| F2 A2| "Gm"G4| "Dm"F2 A2| "F"cB"Dm"AG| F2 "Am"E2| "Dm"D4 :|
+
+
+X: 31
+T: Ei Hatal
+C: Israel
+M: 4/4
+L: 1/8
+Z: D. Jones (VIFD Music Book)
+Q: 1/4=160
+K: G
+"Am"z4 c4| B2 BG A4|"Em" EF G4 F2| E2 EG "Am" A4| z2 cc B2 A2|\
+"Em" E2 F2 "Am" G2 A2| "G" B2 Bc "Am" A4|
+|: "Am" A4 A4| "G" Bc B2 A2"Am" GF| "Em" E2 E2 "D" FE D2| D2 E2 "Em" E2 G2|\
+"Am" A4 A4|"G" Bc B2 "Am" A2 GF| "Em"  E2 E2 F2 FA | "Em"  E8:|
+"Am" z4 c4|"G" B2 BG "Am" A4| "C" EF G2-"D"G2 F2| "Em" E2 EG "Am" A4|\
+c3 c B2 A2| "Em" E2 D2 "D" C2 D2| "Em" E2 EG "Am" A4|
+c3c "G" B2 G2 "Am" A4|  EF G2- "D" G2 F2| "Em" E2 EG "Am" A4-| A2 cc B2 A2|\
+"Em" E2 A2 "D" G2 A2| "G" B2 Bc "D" A4|
+
+
+X: 32
+T: El Ginat Egoz
+C: Sara Levi
+M: 2/4
+L: 1/8
+Q: 1/4=54
+K: Am
+c>d ee/d/ |d3 c/B/| AA/G/ A2-|A2 z d/c/| d2 eg| ae e/d/c/d/|d3 e|
+M:3/4
+A2 AA/G/EG| AB/A/ A2 zc|d e/c/ d3 d| BB/A/ A4| 
+
+
+X: 33
+T:Elijaho Hanavi
+O:Israeli
+L:1/8
+M:4/4
+Q:1/4=160
+K:Dm
+"Dm"a4 "Gm"ba g2| "Dm"ag f2 "A"e4| "A"e2 f2 "Gm"g3 a| "Dm"f2-fe d4|\
+f3 f "Gm"gfed| "A"ed ^cB "Dm"A4| dddd d2 ^cd | "A"e8|
+"Gm"g3 f gfed | "A"ed^cB "Dm"A4| dddd "Bbm"^cBcB| "Dm"A8 |\
+"Gm"gfgg-g4| gfge-"A"e4| "Gm"gfgg-g4| "Dm"agba-a4|
+"Dm"A2 A2 "Gm"BA G2| "Dm"A2 B2 "A"^c2 d2| "Gm"BA G2 "Dm"A4| "Gm"BA G2 "Dm"A4|\
+"Dm"A2 d2 d^c d2| "A"e2 ^c2 cB c2| "Dm"A2 B2 "Gm"BA B2| "Dm"d2 ^c2 "A"cA A2|
+"Dm"AB BA "A"e3 d| efed e2 e2| "Gm"g2 gf "A"e2 d2| "Bbm"^cdcB "Dm"A4|\
+|: "Dm"a3 a "Gm"ba g2| "Dm"a2 f2 "A"e4| e2 f2 "Gm"g3 a| "Dm"f2-fe d4|
+f3 f "Gm"gfed| "A"ed ^cB "Dm"A4|[1 dddd "A"^c2 cd| e8:|[2 "Dm"dddd "A"^c2 Bc| "Dm"A8 |
+"Gm"(3gfg g6| "A"(3gfg e6| "Gm"(3gfg g6| "Dm"(3agb a6|\
+"Dm"agfe ded^c|B2 A6 | A2 BA "Gm"G4|
+
+
+X: 34
+T: Elu Tziporim
+O: Israel
+M: 4/4
+L: 1/8
+Q: 1/4=120
+K: D
+FAFE D2 D2|FAFE D2 D2|E2 E2 FEDE|[1 F8:|[2D8 |: F5 EFE|D5 EFG|
+A5 BAG|F8|F5 EFE|D5 DEF|[1E5 DCD|E8:|[2 E5 DCE|D8|:
+AAAA B2 B2| FAFE E2 D2| EEEE FEDE|[1 F8:|[2 D8|
+
+
+X: 35
+T:Eretz Shel Zahov
+O:Israeli
+L:1/8
+M:2/4
+Q:1/4=96
+K:Dm
+"Dm"dd "Am"cB|c2 "Dm"A2| "Gm"BB "Dm"AG| A2 F2| z B AG| F2 "Am"E2 |"Dm" D4-|D4|\
+AF FD| DA,-A,2| FF ED| "Gm"B,2 "Dm"z C|
+"Dm"B,A, AA|GFED|EF3-  |F4|\
+"Dm"AF FD| DA,-A,2| FF ED| "Gm"B,2 "Dm"z C|\
+"Dm"B,A, AA|GF ED|E D3-|D4|
+"Gm"GG "Dm"DE| F2 z F| "Gm"GG "Dm"DE| F4| "Gm"BB "Dm"AG| A4| "Gm"BB "Dm"AG| A4|\
+"Dm"dd "Am"cB|c2 "Dm"A2| "Gm"BB "Dm"AG| A2 F2| z B AG| F2 "Am"E2 | "Dm"D4-|D4|
+
+
+X: 36
+T: Es Vakeves
+O: Israel
+M: 2/4
+L: 1/8
+Q: 1/4=180
+K: Dm
+%%MIDI drum dd 54 54
+|:FG2A|F/E/DD2|E3/2F/EC|D2D2:|:\
+!drum! CD.D.D|C=B,/C/D2|
+CFEG|ECD2:|:FG2A|F/E/DD2|E3/2F/EC|D2D2:|:
+A/G/GG2|A/G/GG2|E3/2F/EC|DCD2:|:\
+FG2A|F/E/DD2|E3/2F/EC|D2D2:|
+
+
+X: 37
+T:Et Dodim Kala
+O:Israel
+I:choreographer Moshiko 1959
+Z:seymour.shlien@crc.ca
+L:1/8
+M:2/4
+Q:1/4=90
+K:Am
+"E"EB2 B| B2 B2| cB cB| "Fm"~c>B "Am"A2|\
+ "D"dc "E"cB| BA ^GA| B3 c| BA B2|
+ EB2 B| B2 B2 | cB cB |"Fm"~c>B "Am"A2|\
+"Dm"dc "E"cB |BA ^GA| B4-|B4|
+BA A^G|"Fm"^GF "E"EF| ^G4-|^G4|\
+ BA A^G|"Fm"^GF FE|  "E"B4-|B4| BA A^G|
+"Fm"^GF "E"EF| ^G4-|^G4| BA A^G| "Fm"^GF "E"FE| E4|
+
+
+X: 38
+T:Harimon
+C:Trad
+O:Israel
+L:1/8
+M:3/4
+Q:1/4=120
+K:Dm
+|:"Dm"d2 dd d2| _ed"Bb"cB "F"c2| "Dm"A2 "Gm"GF "Dm"F2| FEFG D2 :|\
+|:D2 EF "Gm"G2 | "Gm"GFGA "Dm"F2| "Dm"FEFG "C"E2|"Dm"EDEF D2 :|
+
+
+X: 39
+T:Harimon 2
+O:Israel
+L:1/8
+M:3/4
+Q:1/4=120
+K:Am
+|:"Am"a2 aa a2|"C" _bagf g2| "Am"e2 "Dm"dc "Am"c2| cBcd A2:|\
+|:A2 Bc "Dm"d2| "Dm"dcde "Am"c2| cBcd "G"B2| "Am"BA Bc A2 :|
+
+
+X: 40
+T:Harabi Hameraked (Dancing Rabbi)
+O:Israeli 
+M:4/4
+L:1/8
+Q:1/4=240
+K:Em
+| "Am"c3 B "Am".A2.B2 | "Am".c2.e2 "Am"c3 z |\
+"Am"c3 B "Am".A2.B2 | "Am".c2.e2 "Am".c3 z|\
+|: "Am"z2 e2 "Dm"d2 c2 | "Am"z2 e2 "Dm"d2 c2 |\
+"Am"z2 e2 "Dm"=f3 e | "Dm"d2 e2 "Dm"d2 c2 |
+|"Am"z2 e2 "Dm"d2 c2 | "Am"z2 e2 "Dm"d2 c2 |\
+"Am"z2 e2 "Am"a3 g| "Dm"=f2 g2 "Am"e2 z2 |\
+"C"g4 "Em"b4 | "Am"a2 g2 "D"f2 g2 | "Am"e8-|"Am"e4 "Am"z2 g2|
+"C"g4 "Em"b4 | "Am"a2 g2 "D"^f2 g2 | "Am"e8-|"Am"e4 "Am"z4 :|\
+|: "Am"a4 "Am"a4 | "Am"e4 "Am"z2 e2|\
+"C"g2 =f2 "Am"e2 f2| "Dm"d2 e2 "Dm"=f2 g2|\
+"Am"a4 "Am"a4 | "Am"e4 "Am"z2 e2| "C"g2 =f2 "Am"e2 f2|
+"Dm"d4 "Am"z4 | "C"g4 "C"g4 | "Am"c4 "Am"z2 g2| "Dm"=f2 e2 "Dm"d2 c2 |\
+"Dm"d6 =f2 |"Am"e4 "Dm"z2 =f2 |"Am"e4 "Dm"z2 =f2|"Am"e2=f2"Am"e2f2|"Am"e4 "Am"z4 :|
+
+
+X: 41
+T:Hashachar
+O:Isreali
+L:1/8
+M:2/4
+Q:1/4=96 
+K:Dm
+|:"Gm"GA GF| G2 "Dm"D2| F3 E|[1 D2 F2 :|[2 D4 |\
+|:"Dm"D2 A2| A4| "F"c3  B| "Dm"ABAF |
+"Gm"G2 "Dm"A2|FG FE| F2 "Gm"G2| "Dm"EF ED| "F"C2 "Dm"D2 | D4 :|\
+|:"C"E4 |"C"E3 C| "Dm"FG FE| D4|
+"Gm"GA GF|G2 "Dm"D2| F4| F4|\
+"Gm"GA GF|G2 "Dm"D2| F3 E| D2 F2|\
+"Gm"GA GF| G2 "Dm"D2| D4| D2 z2 :|
+
+
+X: 42
+T: Hava Netze Bamachol
+L:1/8
+O: Israel 
+M:4/4
+Q:1/4=120
+K:Dm
+A>A|"Gm" BB GG "A" A2 A>A|"Bbm" Bd ^cB "A" c2 A>A|"Gm" BB GG A2 A>A|\
+"Bbm" Bd ^cB "Dm" A2 d>e| ff ed "A" e2 ^c>d|
+ ed ^cB "Dm"A2 d>e| ff ed "A"e2 ^c>d|\
+"A" ed ^cB AA de |"Dm" f4-fe df |"A" e4-ed ^cd| e4-ed ^cB|
+"A" A4-AA de|"Dm" f4-fe df|"A" e4-ed ^cd| e4-ed ^cB |A4-A z|
+
+
+X: 43
+T:Hava Neranena
+O:Israel
+L:1/8
+M:4/4
+Q:1/4=120
+K:Dm
+|:"Dm"D D2 F AA A2| D D2 F "Gm"GG G2| "Dm"F G2 F FEED|[1 F4 F4 :|[2 D4 D4|
+"F"c d2 c cB BA | "Dm"A2 d2 A4| "F"c d2 c "Dm"fedc| d4 d4|\
+"F"c d2 c cB BA| "C"c2 G2 "F"F2 C2| "Dm"F G2 F AGFE| D4 D4|
+"F"c>B BA c>B BA| c>B BA "Dm"AG GF| A2 B2 "F"c2 d2| c4 "Dm"f4|
+"F"c>B BA c>B BA| c>B BA "Dm"AG GF|F G2 F AGFE| D4 D2 z2|
+
+
+X: 44
+T: Hinach Yaffa
+O: Israel
+Z: adapted from John Chambers <jc@eddie.mit.edu> 
+L: 1/8
+M: 2/4
+Q: 1/4=100
+K: G
+%%MIDI gchord fzcz
+%%MIDI drum dddd 54 54 54 54 70 50 60 50
+!drum! "D7"zDGA | "G"B4 |"G7"BcBA |"C"c3d/2c/2 | "G"B4-| B2A2|
+ B2c2 | "G7"d4-| d2 d2 | "C"e3d | ccde | "G"d4-| d4- | d2B2|
+ B2c2 | d4| d2de | "Am"c3B| A4- | "D7"A2AG| AAB2 | "D7"c2dc|
+ B2c2 | "G"d4-| d4- | d2B2| "G7"c2d2 | "C"e3e|e2e2 | "D7"dedc |
+"Em"B4-| B2BA| BBc2 | "Am"d2ed| c2B2 | "D7"A4-| A4- | A2AG|
+F2D2 | "G"B4-| B4 |"D7"ABAG | "G"G4-| G4- | Gz3 |
+
+
+X: 45
+T:Hineh Ma Tov
+O:Israel
+Z:seymour.shlien@crc.doc.ca
+S:derived from Deborah Jones, VIFD Book
+L:1/8
+M:4/4
+Q:1/4=144
+K:Dm
+D2|:"Gm" .G2 .G2 .G2 AG|"Dm" F2 FE D4| F2 ED "Am" E2 C2|\
+[1 "Dm" D2 D4 D2 :|[2 "Dm" D2 D3 C =B,C| |:"Dm" D2 D2 "Am"DC =B,C
+|"Dm" D6 EF| "C" G2 FE "Bb"FEDC|[1 "Dm" D4-DC =B,C:|[2 "Dm" D6 z2| "F" A2 A2 A2 cA| "Eb" GF G4 FG|
+"F" A2 A2 A2 cA| "Gm"GF G4 FE| "Dm" F2 F2 F2 GF| "C" ED E4 DC| "Bb" D2 D2 "Am" DC =B,C| D6 z2|
+
+
+X: 46
+T: Hora Hasor
+O: Israel
+M: 2/4
+L: 1/8
+Q: 1/4=150
+K: Ddor
+|:CCG,G,|CCG,2|A,A,2B,|C2D2|\
+CCG,G,|CCG,2|_B,B,A,A,|D2D2:|:
+CCDD|A,A,B,B,|B,3B,|CDE2|CCDD|A,A,B,B,|G2FE|C4:|
+
+
+X: 47
+T:Hora Hemed
+O:Israel
+I:choreographer Moshiko
+L:1/8
+M:2/4
+Q:1/4=160
+K:Gm
+|:DD EC|DE ^FD|^FG AF| G/^F/G/A/ Bz|\
+ ABcA| BG A^F| G z2 E |^F/E/D/C/ D2:|
+|:ddec|ccdB|BBcA|B/A/G/A/ d2|\
+ddec|ccdB|cz2A| B/A/G/^F/  G2:|
+
+
+X: 48
+T:Hora Hadera
+O:Israeli
+Q:1/4=120
+L:1/8
+M:2/4
+K:Bm
+"Bm" A B2 A| "F#m"AG"Bm"GF| "F#m"A2 E2| "G"D4| "G"D E2 D| "D"FE"G"DC| "Bm"B,4-|B,4|
+%%sep 10 10
+"Bm"B, B,2 D | FF F2| B, B,2 D |FE "Em"E2| "Bm"D E2 D | DC "Em"B,E| "Bm"D4-|D4|
+B, B,2 D | FF F2| B, B,2 D |FE "Em"E2| "Bm"D E2 D | DC B,C| B,4-|B,4|
+A B2 A| "F#m"AG "Bm"GF| F2 B2| F4| A B2 A| dcBA| B4-| B4|
+A B2 A| "F#m"AG"Bm"GF| "F#m"A2 "Em" E2| "G"D4| "G"D E2 D| "Bm"FEDC| B,4-|B,4|
+"D"A>G "G"G~A| "D"A>G "G"GA| "D"A>G "G"GA|"D"FE "G"D2| "D"F2 "G"G2| "D"A2 "G"B2| "D"Ad"G"cB| "D"A4|
+"D"A>G "G"GA| "D"A>G "G"GA| "D"A>G "G"GA|"D"FE "G"D2| "G"D E2 D| "D"FE "Bm"DC| B,4-|B,4|
+%%sep 10 10
+K:Dm
+"Dm"D D2 F | AA A2| D D2 F |AG "Gm"G2| "Dm"F G2 F | FE "Gm"DG| "Dm"F4-|F4|
+D D2 F | AA A2| D D2 F |AG "Gm"G2| "Dm"F G2 F | FE DE| D4-|D4|
+c d2 c| "Am"cB "Dm"BA| A2 d2| A4| c d2 c| fedc| d4-| d4|
+"Dm"c d2 c| "Am"cB"Dm"BA| "Am"c2 "Gm"G2| "Bb"F4| F G2 F| "Dm"AGFE| "Dm"D4-|D4|
+"F"c>B "Bb"B~c| "F"c>B "Bb"Bc| "F"c>B "Bb"Bc|"F"AG "Bb"F2| "F"A2 "Bb"B2| "F"c2 "Bb"d2| "F"cf"Bb"ed| "F"c4|
+"F"c>B "Bb"Bc| "F"c>B "Bb"Bc| "F"c>B "Bb"Bc|"F"AG "Bb"F2| "Bb"F G2 F| "F"AG "Bb"FE| "Bb"D4-|"Bb"D4|
+
+
+X: 49
+T:Hora Cheffer
+O:Israel
+I:choreographer Y. Dekel 1980
+L:1/8
+M:2/4
+Q:1/4=120
+K:Em
+"D"DD A2 |"G"GA B2| "Dm"G A2 =F| "Em"GE "D"D z|\
+"D"DD A2 | "G"GA B2| "Am"c B/A/ "G"BG|[1  "D"A2 A2:|[2 "D"A4|
+"D"d4-|d2 "Am"(3cBc| "D"d4-|d2 "Am"(3cBc|"D"dd "Am"(3cBc| "D"dd "Am"(3cBc| "D"dd "Am"cc|"G"BB "D"AA|
+d4-|d2 "Am"(3cBc| "D"d4-|d2 "Am"(3cBc|"D"dd "Am"(3cBc| "D"dd "Am"(3cBc|"D".d2 .d2|.d2 .d2|
+|: "D"df"G"gf|df"G"gf|"D"df"G"gf|gagf| "Cm"d _e3|d _e3| "D"d_e"G"gf| "D"_ed d2:|
+
+
+X: 50
+T: Haroa Haktana
+L:1/16
+O: Israel 
+M:2/4
+Q:1/4=120
+S:Adapted from Debra Jones, Vancouver Int. Folk Dance Book
+K:Am
+fdec|"Dm" d4-dcBc|d4-dcBc|"D" d2e2 ^f2g2|\
+^f2e2 "Dm" =fdec| d4-dcBc | d4 "E7" e2c2 |\
+L:1/8
+M:3/4
+"Am" BA A4| 
+%%sep 10 10
+L:1/8
+M:2/4
+"Am" A2 A2 |"D" d2 cd| "Dm" ed dd | d>c de|"Am" cB AG|\ 
+A2 "G" c/B/A/B/ |"Am" c4-|c2 z2| A2 A2 |"D" d2 cd|"Dm" ed dd|
+"G" d2 gf|"C" e>d ce |"G" d2 G2 |"Am" A4-|A2 ee|\
+"C" g4-|g2 e^f| g2 gg|"D" ^f2 ed|"G" g4-|g2 cd|
+"C" eg f/e/d/c/|"G" d2 GG |"C" c3 e|"A7" gf ed|"Dm" d4-|d2 ef|\
+"Am" d e2 A|"G" B d2 c/B/|"Am" A4-|A2 z2|
+%%sep 10 10
+K:Bm
+"Bm" B2 B2 |"E" e2 de |"Em" fe ee| e>d ef|"Bm" ~dc BA|\
+B2 "A" d/c/B/c/ |"Bm" d4-|d2 z2 | B2 B2 |"E" e2 de|"Em" fe ee|
+e2 "A" ag|"D" f>e df|"A" e2 A2|"Bm" B4-|B2 ff|\
+"D" a4-|a2 f^g| a2 aa|"E" ^g2 fe|"A" a4-|a2 de|
+"D" fa g/f/e/d/|"A" e2 AA|"D" d3 f|"B7" ag fe|"Em" e4-|e2 fg|\
+"Bm" ef2B|"A" ce2 d/c/|"Bm" B4-|B2 z2|
+
+
+X: 51
+T: Hora Habikah
+O: Israel 
+I: choreographer Y. Levy 1978
+L:1/8
+M:4/4
+Q:1/4=144
+K:Dm
+"Gm" G3 G  "Am" E2 C2 | "Dm" D2 E2 F2 A2\
+|:"Bb" B2 B2 "Gm" B2 AG |"Dm"  A3 G F4 | "Bb" B2 B2"Gm"  B2 AG | "Dm" A4 "F" c4|\
+"Bb" B2  "Gm" B2 B2 AG | "Dm" A3 G F4| "Gm" z G2 "Dm" F E2 D"F" C| "Dm" D4 z4|
+"Dm" DDD^C "Am" EEED| "A" ^CCCD "Dm"EF D2| FFFE "Gm" GGGF| "Am"EEEF "Dm"GA F2|
+d3 f "Am" e2 c2| "Bb" BBBA Bc d2| "Dm" de f2 "Am" edcA| "Bb" B2 B2 "Dm" AGFG | A4 A4 :|
+
+
+X: 52
+T:Hora Mamtera
+O:Israel
+I:choreographer V.Cohen
+C:M.Wilensky 
+Z:seymour.shlien@crc.ca
+L:1/8
+M:3/4
+Q:1/4=90
+K:Am
+ A,E DG E/D/ E| z/ A,C/ B,D C/B,/A,/G,/|\
+ A,EDG E/D/ E2| z/ E G/^F A F/G/F/E/|
+ AA AB G/^F/G| z/AB/ cB A/G/E/G/|\
+AA AB G/^F/G| z/ A B/ c B A/G/^F/E/|
+L:1/8
+M:2/4
+ ~E2 ~E2| EE EE| z/D C/ DE| CA,G,2|\
+z/C C/ DG|E/F/ E/D/ D E/F/| GG GF| E4|
+|z/ A B/c/B/ A| GE G2|z/ F G/A/G/ F| EA DC/D/|\
+EG ^F/E/F/D/| E2 G2| Ac B/A/B/G/| A2 A2|
+
+
+X: 53
+T:Hora Mechudeshet
+C:Trad
+O:Israel
+L:1/8
+M:4/4
+Q:1/4=150
+K:F
+|:"Dm"zD2 D F2 D2| z F2 F G2 F2| z G2 F FEED|[1 F4 F4:|[2 D4 D4|
+"Dm"FGAG "Gm"GG G2|"Dm"GFAG FF F2| F G2 F FEED| F4 F4| FG AG "Gm"GG G2|
+"Dm"GF AG FF F2| FG2F FEED| D4 D4| F3G F3 G| FGFG F4|
+FD GF FF F2| FD GF FF F2| "Bb"FD BA "Gm"GG G2| "Gm"GD BA GG G2|
+"Gm"GA B2 "Dm"AG A2| "Gm"GF G2 "Dm"FE D2| "Gm"G2 G2 "Dm"GF AG| "F"F2 c2 "Dm"A2 F2|
+"Dm"FGAG "Gm"GG G2|"Dm"GFAGFF F2| F G2 F FEED| F4 F4| "Dm"FG AG "Gm"GG G2|
+"Dm"GF AG FF F2| FG2F FEED| D4 D4|
+
+
+X: 54
+T: Hora Neurim
+O: Israel
+M: 4/4
+L: 1/8
+Q:1/4=160
+K: Bmin
+%%MIDI drum dzdd 41 41 41
+B2F2 AG/F/GA|BF2D EDEA|D2CD2B,=C/B,/A,|B,4 B,4|
+!drum!B,F2E F2B,2|B,CB,A, B,2B,2|EF2E FAA2|BAGE F2F2|
+%%MIDI drum ddddz12d8d8 54 54 54 54 54 54
+|:E3B, E2F2|^G2F2 GFE2|D2CD2B,C/B,/A,|B,8:|
+
+
+X: 55
+T:Hora Nirkoda
+O:Israel
+L:1/8
+M:2/4
+Q:1/4=160
+K:Am
+a>b g>a|^fgfe|e>^f ga| g2 g2|\
+"Dm".A2 z2| A>A "Am"c/B/A| "Dm"A2 z2| A>A "G"G2|
+"Dm".A2 z2| A>A A2| .A.B"Am".c.d| "Dm"BA "G"B/A/G|\
+ "Dm".A2 z2 | A>A "Am"c/B/A| "Dm"A2 z2| A>A "G"G2|
+"Dm"A2 z2| A>A A2 |.A.G"Am".c.B| "Dm".A2 .A2|\
+ "Am".E.F"Dm".D.E| "Am".C.D "Gm"_B,2| "Am"CD_B,C|"Dm"A,_B, "Am"C2|
+"Am".E.F"Dm".D.E| "Am".C.D "Gm"_B,2| "Am"E2 "Dm"F2|"G"G2 "Dm"A2|\
+.D2 z2| D>D "Am".C2| "Dm"D2 z2 |D>D F2|
+.D2 z2| D>D "Am".C2| "Dm"GFGA| "G"B2 "G"B2|\
+|:"Dm"A d2 A| dd "Am"c2| "Dm"A d2 A| dd "Am"c2| "Dm"A d2 A| dd "Am"c2|
+[1 "Dm"AB"Am"cd|"Dm"BA "G"B/A/G:|[2 "Dm"AG"Am"cB|"Dm"A2 A2|
+
+
+X: 56
+T:Inbalim
+C:S.Levy
+S:Songs and Folk Dances arranged by Haim Kirsch. Book 4 (c) 1961 NEGEN
+S:chords by seymour (with the help of abcmus)
+O:Israel
+Q:1/4=72
+L:1/8
+M:2/4
+K:Dm
+"F"CF A/2G/2F|"C" Gc "F" F2| "C" G3 (3A/G/F/| G4 | "C"CF "F" A/2G/2F|\
+"C" Gc "F" F2|"Gm" G3 (3A/2G/2F/2|"Gm" G4 |
+ "Gm"Bc dc| "Dm"Bc F2| "Gm"GA Bc| AF G2 | ~GF GA| Bc d2| "C"cd cB|\
+"Gm"FA G2| "C"c4|
+ "F"CF A/2G/2F | "F"Gc F2|\
+ "Cm"G3 (3A/G/F/ | "Gm"G4| "C"CF A/G/F | "F"Gc F2| "F"G/A/B/c/ AF | "C"G4|
+
+
+X: 57
+T:Israeli Mazurka
+O:Israeli
+L:1/8
+M:3/4
+Q:1/4=132
+K:Dm
+%MIDI gchord c2c2c2
+"Gm"(3BAG (3BAG (3BAG|"Dm"(3AGF (3AGF (3AGF|"Gm"(3EFG (3ABG (3GFE|"Dm"D2 D4|\
+"Dm"A,2 D2 F2|A2 A4|
+A2 G2 F2|"A"E2 E4| "Dm"A,2 "A"^C2 E2|"Gm"G2 G4|"Gm"G2 F2 E2|"A"E2 "Dm"D4|\
+"Dm"A,2 D2 F2|"Dm"A2 A4|"Dm"c2 B2 A2|"Am"c2 "Gm"B4|
+"Gm"(3BAG (3BAG (3BAG|"Dm"(3AGF (3AGF (3AGF|"Gm"(3EFG (3ABG (3GFE|"Dm"D2 D4|\
+"Dm"D>D "A"^CD CB,|"Dm"A,2 A,4|
+"Dm"D>D "A"^CD CB,|"Gm"G,2 G,4| GG "A"AG "Dm"AG|"A"^c2 c4|\
+"Dm"AA "Gm"BA "G"=BA|"Dm"d2 d4| "Dm"D>D "A"^CD CE|"Eb"B2 "Bb"B4|
+"F"c2 "Bb"B2 "F"A2|"F"c2 "Bb"B4|\
+"Gm"(3BAG (3BAG (3BAG|"Dm"(3AGF (3AGF (3AGF|"A"(3EFG "Dm"(3ABG "Gm"(3GFE|"Dm"D2 D4|
+
+
+X: 58
+T: Ka' Agadat Rivka
+O: Israel
+M: 2/4
+L: 1/8
+Q: 1/4=110
+K: Am
+|:dGAd |B/B/BAG|AA2A|AGAA|cBcd|cBAc/B/
+|AGAA| zAzA:|:dcde|d f/e/d2|dcdd|d2 d2|
+d2 d2|dd/d/c_B|A/_B/A A2| dcd2-|d2c_B/A/|_BA3:|
+
+
+X: 59
+T:Khan Badarom
+O:Israeli
+Q:1/4=108
+L:1/8
+M:2/4
+K:Em
+%%MIDI gchord fzfz
+E|"Em"B3A|"B"F2 "Em"GA|"Em"BE3-|"Am"E z2 E|\
+"D"FF"Am"E^D|"D"F2"D"A2|"G"G4|"D"z3E|
+|"G"B3A| "D"F2 "D"GA|"Am"BE3-|"Am"E z2 E|\
+"D"FF"Am"E^D|"D"F2 "D"F2|"Am"E4-|"Am"E2"D"z2|
+|:"D"zB "G"BB| "D"d2 "G"B2|"D"A4-|"D"A2"D"z2|\
+"D"zA "D"AA| "Am"c2 "D"A2| "G"B4-|"G"B2"D"z2|
+"D"zG "G"GG| "G"B2 "G"G2| "D"F4-|"D"F2"D"z2|\
+"D"zF"D"FG|"D"F ^D2 z |"D"F3 E| "Am"E4:|
+
+
+X: 60
+T:Klezmer
+O:Israeli
+L:1/8
+M:2/4
+Q:1/4=120
+K:Cm
+|:"Cm"c2 e2|g2  fe|c2 e2|"Gm"d2 "Cm"G2|c2 e2|g2 "Fm"fe|"Bbm"bb "Fm"aa|"Cm"g4|
+"Fm"f2 a2-|aa "Cm"gf|c'2 c2-|ce "Fm"dc|"Cm"cG ce|gg "Fm"fe|ff "Cm"ed|c4:|
+"Cm"c'g gg|"Fm"ag "Cm"gg|c'g gg|"Fm"ag "Cm"gg|"Fm"c'2 "Bbm"b2|\
+"Fm"a2 "Cm"g2|"Fm"ff f/g/a/g/|f2 fg|
+"Cm"egeg|"Fm"f3 f|cf cf|"Cm"e2 e2|"Fm"ba "Cm"gf|ef ed|"Fm"c4|
+K:Fm
+|:"Fm"z CDC|F2 A2-|A c BA|F2 A2|G2 EC|F2 A2-|A cBA|"Cm"ee dd|
+"Cm"c4|"Bbm"B2 d2-|df ed|"Fm"ff F2-|"Dbm"F B"Abm"AG|"Db"FC FA|\
+"Ab"cc "Eb"BA|"Bbm"BB "Fm"AG|"Fm"F4:|
+"Fm"fc cc|dc c2|fc cc|dc c2|f2 "Cm"e2|"Gb"d2"Cm"c2|\
+"Gm"BB "Cm"B/c/d/c/|"Gm"B3 c|"Db"Ac"Ab"Ac|
+"Eb"B3 B|"Bbm"FB FB|"Fm"A4|"Cm"ed "Fm"cB|"Fm"AB AG|"Fm"F4|
+
+
+X: 61
+T:Korim Lanu Lalechet
+O:Israeli
+L:1/8
+M:2/4
+K:Dm
+Q:1/4=160
+"Dm"z3 D|D3 E| F2 "Am"ED| "Gm"G2 "Dm"FE| F2 "Am"ED| "Dm"z G2 A| "Gm"B2 GF| "Am"E2 "Dm"DC| A4|
+"Gm"G2 GA|B2 GF|"Am"E2 "Dm"FG| A2 D2| "Am"E3 F| "Gm"G2 "Am"ED| "A"^C2 "Dm"DE | F4|
+"Gm"G2 GA|B2 GF|"Am"E2 "Dm"FG| A2 D2| D3 E| F2 DF| "Gm"G2 "C"EG| "Dm"A4|
+"Dm"AD "D"^FA| "Dm"dA ^GA| dc "Gm"BA| G3 z| "F"c3 d| cB "Gm"BA | "Dm"A4 |A4 |
+"Dm"AD "D"^FA| "Dm"dA ^GA| dc "Gm"BA| G3 z| "Dm"A3 B|AGFE|D4 | D2 z2|
+
+
+X: 62
+T: Laner Velevsamim
+L:1/8
+O: Israel 
+M:4/4
+Q:1/4=132
+K:Gm
+GA|"Gm" B3 B BAGA| B6 GA| B3 B "Cm" c2 B2|"D" A6 AB|\ 
+"Cm" c3 c "Gm" cBAB|"Cm" c6 Bc|"Gm"  d3 c B2 A2| B6 GA|
+B3 B BAGA| B6 GA| B3 B "Cm" c2 B2|"D" A6 AB|\ 
+"Cm" c3 c "Gm" cBAB|"Cm" c6 Bc|"Gm" d3 c B2 A2| B8|
+"Gm" d3 d dc B2| d3 d dc B2| d3 c "Eb" e2 d2 |"Cm" c8 |\
+ c3 c c"Dm"B A2|"Cm" c3 c cB A2| c3 B "Gm" d2 c2 |BcBc d4|
+"Gm" d3 d dc B2| d3 d dc B2| d3 c "Eb" e2 d2 |"Cm" c8 |\
+ c3 c c"Dm"B A2|"Cm" c3 c c"D" B A2|"Cm" B3 B "D" AG ^F2|"Gm" G8|
+
+
+X: 63
+T: Le'or chi yu chech
+C: A. Ne'eman, 1959
+S: from record Pecurcka goes underground (P.U.1 Oct 1975) 
+O: Israel
+L: 1/8
+M: 4/4
+Q: 1/4=120
+K: Am
+E2|: "Am"c2 Bc A4| "G"BcdB "Am"cBAG| c2 Bc A4| "G"GFGB "Am"A4 :|\
+|:"Dm"d2 ef"Am"edcA| "Dm"d e2 f "C"gedc| "Am"A2 AG A2 AG|[1 "Am"A2 c2 "Dm"d4:|[2"Am"A2 c2 "G"B4|
+
+
+X: 64
+T: Likrat Shabat
+O: Israel
+M: 2/4
+L: 1/8
+Q:1/4=90
+K: C
+G,|:{CD}C4|B,DCG,-|G,3E|{GF}G3F|E2DF|E2D2|C3B,|
+{DE}D2D2-|D2C2|B,2A,2-|A,2G,2|{CD}C4|B,CD2|C4-|[1C3G,:|[2 C3D|:
+{ED}E4|DE3|FE3|{DC}D4|{CB,}C4|G,2A,2|G,A,3|C2B,C|D2C2-|C4:|
+
+
+X: 65
+T:Li Lach
+O:Israeli
+L:1/8
+M:2/4
+Q:1/4=120
+K:Em
+|:"Em"B2 GA|B2 E2|ed"Am"cB|cB A2|A2 "Em"Bc|d2 "Am"c2|[1 "Em"BAGA|B4:|[2 "Em"BAGF|E4|
+|:"Em"e2 fg|"Bm"f2 f2|f2 f2|"Em"g2 e2|e2 ed|"Am"cB A2|"Em"A B2 A|[1 B2 B2:|[2 E2 E2|
+|:"Em"e3 B|e3 g|"Bm"fede|"Em"B3 B|"Am"A2 "Em"Bc|"Bm"d3 e|dc"Em"BA|[1 B4:|[2 E4|
+
+
+X: 66
+T:Lo Ahavti Dai
+O:Israeli
+I:choreographer Y.Levy
+Q:1/4=132
+L:1/8
+M:4/4
+K:Em
+"G"B2 d2 "D"GF z2| "G"G G2 F/E/"D"F z3| "Em"E2 E2 "D"D2 G2| FE F2 "Em"E2 z D|
+%%sep 10 10
+|: "Em"GG GG G2 z G| "Bm"FF FF "Em"E2 z F| GG GG G2 z G| "Am"AA DD "Em"B2 z2|
+"Em"BB BB "Am"c2 BB| "D"AA dd B2 z A|\
+ "G"GG GG "D"A2 G2| FF BB "Em"E2 z2|
+B3 G/G/ "Am"A4| "Em"GGGG "Bm"F2 zD| "Em"E2 E2 "Bm"D2 G2 | "F#m"A2 GA "Bm"B2 z2|
+"Em"B3 G/G/ "Am"A4| "Em"GGGG  "Bm"F2 zD |"Em"E2 E2 "Bm"D2 G2 | FD D2 "Em"E2 z2:| 
+
+
+X: 67
+T:Ma Avarech
+O:Israeli
+C:Ya'ir Rosenblum
+L:1/8
+M:4/4
+Q:1/4=96
+K:Em
+"Em"E2 BA "Em"B2 cB| "Am"AA GA-"Am"A2 Bc| "G"dcBA "Em"G2 F2|\
+[1 "Em"E8 :|[2 "Em"E6 FG|\
+"D"A3 F "Em"BAGF| "Em"GE EE-"Em"E2 EG|
+ "Am"A2 AGB"D"A GF| "Em"G4 "Em"Bc|\
+"Em"e2 fd "G"d2 B2| "Am"c2 dc "Em"B2 G2 | "Am"A2 BA "D"F2 E2 | "Em"E8|
+
+
+X: 68
+T: Mechol Halachat
+L:1/8
+O: Israel 
+M:2/4
+Q:1/4=96
+K:Am
+a2 a2 |^f/e/d/f/ e2| f/e/ f2 g| aa ^f/e/d|\
+a2 a2 |^f/e/d/f/ e2| f/e/ f2 g| a2 a2|
+|:"Dm" d/e/f/f/ "Am" ee|"Dm" d/d/d fa |"C" gg "Dm" f/e/d |"Am" e4|\
+"Dm" d/e/f/f/ "Am" ee|"Dm" d/d/d "Am" ec |"Dm" dd "Em" B/A/G |"Am" A4:|
+"Am" a2 a2 |"D" ^f/e/d/f/ "Am" e2|"Dm" f/e/ f2 g|"Am" aa ^f/e/d|\
+"Am" a2 a2 |"D" ^f/e/d/f/ "Am" e2|"Dm"  f/e/ f2 g|"Am" a4|
+
+
+X: 69
+T:Mechol Ovadia
+C:Trad.
+O:Israel
+L:1/8
+M:4/4
+Q:1/4=120
+K:Am
+|:"Am"cB AB cB A2| "F"GA FG "Am"A2 A2| cB AB cB A2| "F"GA FG "Am"A2 A2:|
+"Am"Ae2 e e2 e2| z e2 e e2 e2|"Dm"z d2 d d2 d2| z d2 d d2 d2|\
+"Am"A c2 c c2 c2| z c2 c c2 c2| "G"z B2 B B2 B2|"A" c/B/A- A4 z2 |
+
+
+X: 70
+T:Ma Navu
+L:1/8
+O:Israel
+C:J.Spivak
+S:V. Pasternak : Great Songs of Israel
+M:4/4
+Q:1/4=60
+K:Bm
+"Em"EB/2A/2 B>G "Am" AB "Em" GF/2E/2 | "Am" F/2G/2A "Em"GF/2E/2 F G2 F|
+"Em"EB/2A/2 B>G "Am" AB "Em" GF/2E/2 | "Am" F/2G/2A "Em"GF/2E/2 D E2 D/2C/2| \
+|"Bm" DE "A" ^C>A, "D" D/2C/2D "Em" ED/2C/2|
+"D" DE "A" C>A, "Bm" D/2C/2 B,2 D/2C/2 | \
+|"Bm" DE "A" ^C>A, "D" D/2C/2D "Em" ED/2C/2|\
+ "D" DE "A"^C>A, "Bm" D/2C/2 B,3 |
+
+
+X: 71
+T: Naomi No Yume
+O: Israel-Japan
+M: 2/4
+L: 1/8
+Q: 1/4=140
+K:Cm
+%%MIDI gchord dddd
+%%MIDI drumsound 40 37 40 37
+%%MIDI drumvelocity 60 60 60 60
+|:"C" z4|GFG2|GFG2|GFFE|FEFG|zGC2|C2EF-|FF2G-|
+GzcB|c2GF|G2G2|G2G2|F2E2|C4|z2B,2|C4:|
+zCDE|F2F2|FE3|G2C2|zCDE|F2F2|F2B2|G4|
+zEFG|A2A2|A2G2|B2E2|\
+K:G
+zFGA|B2B2|B2c2|d4|
+
+
+X: 72
+T:Niguno Shel Yossi
+L:1/8
+O: Israel
+I: choreographer R. Spivak, 1960
+M:2/4
+Q:1/4=120
+K:Am
+d|"Dm" dc BA|"Am" cB A^G|"Dm" BA ^GF|"Em" E2 z2\
+|:"E7" BB ^Gz|"Am" AA ^GF| EE F/2E/2D |
+ E2 z2|"E7" BB ^Gz| "Am" AA dc|"E7" BA ^GA| B2 z2 :|\
+|:"Am" A2 c2 |"Dm" dc Bz|
+"Am" A2 c2 |"Dm" dc Bz| dc BA|"Am" cB A^G|\
+[1 "Dm" BA ^GA|"Em" B2 z2 :|[2 "Em" BA ^GF|"Em" E2 z2|
+
+
+X: 73
+T:Perach Zahav
+O:Israeli
+Q:1/4=120
+L:1/8
+M:4/4
+K:Am
+%%MIDI gchord f4z4
+"Dm"AA d3 c/B/A A| "Bm"Bc B3 G F2| "Em"FE E2 E2 E2| "Em"^G2 A2 z2 EE|\
+"Am"c3 c BA^GA| "Ab7"B3A1 ^G2 GA| "Dm"F3 A ^G2 F2 | "Cm"E6 EE|
+"Am"c3 c BABc| "Dm"d2 c2 B2 z A| "Bm"^G3 A B2 cB| "Am"A6 z2 "A"AA|\
+"Gm"G3 F/E/ D2 EF| "Em"E4 z2 cB| "Am"A3 A ^G2 AB| "Am"A4 z2 AA|
+"Fm"d3 c/B/ A2 Bc| "Bm"B2 G2 F2 z F| "Cm"E2 E2 E2 D2 | "Cm"E4 z2 AA|\
+"Fm"d3 c/B/ A2 Bc| "Bm"B2 G2 F2 z F| "Cm"E2 E2 E2 ^G2 |"Am"A6 z2|
+
+
+X: 74
+T:Rachel
+O:Israeli
+C: M. Wilensky
+I:choreographer D.Dassa 1970
+L:1/8
+M:4/4
+Q:1/4=144
+K:F#m
+f=gfe f6| f=gfe f6| fe f2 ff e| de f6|
+z6 fe | f6 fe |f2 d2 c2 cB| B6 A2|c2 ce dcBA|
+d2 dc e4-|e4 z2 e2| aa a2 ab| ag g2 fe g2-|
+g6 z2 gf| g2 a2 f4| e2 ec f2-|f2 z2 f2|
+ b2 bc' a2 b2| gagf f2 fe|f2 g2 c2 cB| c6 c2|
+g2 gf b4-|b6 b2| c,2 ga f4|f4 z2 f2 |
+g2 a2 g2 f2| f2 fg e2 z2| c2 d2 dc c2-|c6 c2|
+g2 gf b4-|b6 b2 | c'2 ga f2-|f6 f2|
+ b2 bc' a2 g2|f2 e2 c2 e2|g2 gf g4|g6 c2|
+e2 z2 gfge| f8 |
+
+
+X: 75
+T:Rav Brachot
+O:Isreali
+L:1/8
+M:4/4
+Q:1/4=120 
+K:Em
+"Em"E2 ED E2 G2| "D"FGFE "Em"E3 z| "Em"E2 ED E2 G2| "D"FGFE "Em"E3 z|\ 
+"Am"A2 AG A2 B2| A6 z2   |
+ A2 AG A2 c2| "Em"Bd BG "D"A2 z F|\
+|:"Em"G2 GF "Am"A2-AG| "D"F2 FE "Em"G3 F| E2 E2 EF GA| "D"F2 FE "Em"E2 z2 :|
+
+
+X: 76
+T:Roa Halaila
+T:Atza Aleenu
+O:Israel
+L:1/8
+M:2/4
+Q:1/4=120
+K:Am
+|: "Am"z A z A| c2 A2| z c z c| "Dm"d2 "Am"c2|\
+"Dm"d2 "Am"z c| cB BA|[1 c4-|c2 z2:|[2 A4-|A2 z2|
+|:cded| "Dm"dd d2| dc"Am"ed| cc c2|\
+c d2 c|cBBA|[1 c4-|c4 :|[2A4-|A4|
+c3 d| c3 d| cdcd| c4|\
+cA "Dm"dc|"Am"cc c2| cA "Dm"dc| "Am"cc c2| 
+"Am"cA "F"fe| "Dm"dd d2| "Am"cA "F"fe| "Dm"dd d2|\
+de "F"f2| "Am"ed e2| "Dm"dc d2| "Am"cB A2|
+"Dm"d2 d2| dc "Am"ed| c4-|c4|\
+"Am"cd ed|"Dm"dd d2| dc "Am"ed| cc c2|\
+c d2 c| cBBA| A4-|A4|
+
+
+X: 77
+T:Sapari Tamar
+O:Israeli
+L:1/8
+M:2/4
+Q:1/4=120
+K:Dm
+%%MIDI gchord f2z2
+c'3 f| g2f2|g2 ab|ag g2-|g4|c'4|f2g2|f2g2| abag| g4| a4|
+K:EDor
+|: "D"D2 "A"CD| EF E2| "D"D2 "A"CD| E4 :|\
+"D"EF G2-|G2 "D"F2|"D"A4|"A"E4\
+|:"D"A4|"D"D2 "G"E2|"D"D2 "G"E2|"D"FGFE|"E"E4-|E4:|
+
+
+X: 78
+T:Se'e Yona
+O:Israeli
+I:choreographer, Moshiko
+L:1/8
+M:4/4
+Q:1/4=180
+K:Am
+%%MIDI gchord zzczzzcz
+|:"Am"AB c2 d2 e2|cded dcBA|AB c2 dcBA| c2 B2 A4 :|\
+|:"Am"ABcd "G".B2 .B2| "Am"ABcd "G"B4| "Am"AB c2 dcBA| c2 B2 A4 :|
+
+
+X: 79
+T:Shabhe Yerushalayim
+O:Israel
+M:4/4
+L:1/8
+Q:1/4=140
+K:Aphr
+|"C"G3A "Am"A2z2| "C"G3A "Am"A2zG|c4B2A2|A4z4|
+"C"G3A "Am"A2z2| "C"G3A "Am"A2zG|c4B2A2|"Gm"d2cB"Am"A2G2|A6z2|
+|:"Am"A,A,E4FE|"C"G4"Am"E2D2|C4D2E2|D4z4|\
+D4E2D2|"C"G2E2"Am"D2C2|D4C2B,2|A,4z4:|
+"Am"A6G2|A6G2|c4B2A2|B2A4z2|\
+A6G2|A6G2|c4B2A2|d2A4z2|
+"Am"GFFEE4|GFFEE4|E2D2"C"G2E2|"Dm"D4"Am"C2D2|\
+"C"E2G2"Am"c2B2|B2A2A4|
+
+
+X: 80
+T:Sharm-A-Sheich 
+C:Raffi Gabai
+S:Songs and Folk Dances Bk 9 (c) NEGEN 1967  
+O:Israel
+Q:1/4=102
+L:1/8
+M:6/8
+K:Dm
+A "Dm"AGF| D3 D3-|D2 A"Gm"dcG| "Dm"A3 A3-|A2 A "F"cAF|\ 
+"Gm"G3 G3-| G2 G GDG| "Dm"A3-A3-|A2 A AGF| D3 D3-|
+"Dm"D2 A "Gm"dcG| "Dm"A3-A3-|A2 A "F"cAc| "Dm"d3 d3-|"Bb"d2 B Bcd|\
+"A"e3-e3-|e2 f"Dm"fed| f3-f3-|f2 f fed| "Am"ecd "A"e3-| e3 efe| "Dm"d3 d3-|\
+d2 d ded| "A"^c3-c3-|^c6| "Bbm"^c2 "Dm"[fA] "C"[fA][eG][dF] |\
+ [f6-A6-] |[f2A2] [fA] "Gm"[fA][eG][dF] | [Ge][Ec][Fd] [G3-e3-]|\
+[G3e3] [Ge][Af][ce]|
+"Dm"[d3B3][d3-B3-] |[d2B2] [dB] [dB][ec][dB]| "A"[^c6-A6-]|\
+ [^c2A2] [fA] "Dm"[fA][eG][dF]| "Dm"[d6-F6-] | [d2F2]
+
+
+X: 81
+T:Sh'charochoret
+O:Israel
+M:4/4
+L:1/8
+K:Am
+cB |: "Am"c2 B2 "Am"c4 "D"d4|"Am"e4 "G"dcBA| "C"G2 ^FE "D"F4|
+ "Am"c4 "Em"B2 AB| "D"A2 G^F "C"G4| "Am"A2 BA "Am"A4|[1 "Am"A4 "Am"cB :|[2 A6 "Am"z2|
+"Em"BAG^F "Am"E3 F| "D"D8| "Em"BAG^F "Am"E2 FE| "D"D6 DD| "Am"E2 ^F2 "C"G2 A2| "G"B2 cd "Em"B2 A2|
+"C"G3 F "F"A2 F2| "Am"E6 DD| "Am"E2 ^F2 "C"G2 A2| "G"B2 cd "Em"B2 A2| "C"G3 F "F"A2 F2 | "Am"E6|
+
+
+X: 82
+T:Sheleg Al Iri
+O:Israeli
+L:1/8
+M:4/4
+Q:1/4=120
+K:Dm
+"Dm"DEFG "Dm"A2 GF|"A7"E4 "Dm"D4 |\
+"Dm"d A2 f f2 f2|"Am"efed e4| "Dm"d A2 a a2 ba| "Gm"g2 f2 g4|
+|:"F"c' a2 c' c'4|c' d'2 c' "Bb"b4| b c'2 b "Am"a2 gf|"A7"e4 "Dm"d4 :|
+K:Gm
+"Gm"G4 "Bb"B4| "Am"ABAG A4| "Gm"G4 "Dm"d2 ed| "Cm"c2 B2 c4|
+|:"F"f d2 d f4| f2 ed"Eb"ed c2| e2 dc"Dm"dc B2| "A7"A4 "Gm"G4 :|\
+K:Dm
+"Dm"d A2 f f2 f2|"Am"efed e4| "Dm"d A2 a a2 ba| "Gm"g2 f2 g4|
+|:"F"c' a2 c' c'4|c' d'2 c' "Bb"b4| b c'2 b "Am"a2 gf|"A7"e4 "Dm"d4 :|
+
+
+X: 83
+T:Shibolim
+O:Israel
+I:choreographer Y. Ashriel 1979
+Q:1/4=140
+L:1/8
+M:2/4
+K:Bm
+"Bm"B2 B2| "D"z A"Bm"Bd | "A"e2 e2 | "D"z ~f"A"ed|\
+"A"z c2 d | e2 "D"A2| d2 "A"~c2 |"Bm"B2 "D"z2|
+d2 d2| "A"z e"D"fd| "G"g2 g2| "D"z a~fe|\
+ "D"z d2 e| "A"f ed2| "D"a2 "G"g2 |"D"a2 z2|
+"Bm"b2 b2| b2 "D"ab| "E"^g2 "D"fe| f4|\
+z g2 f | "A"e2 "Bm"B2| "A"e2 "D"f2 |"G"gf"A"e z|
+"D"a3 g| f2 "A"e2 | "D"d2 "A"e2| "D"fed2|\
+z d2 e| fed z| "A" c4  |"Bm"B4|
+
+
+X: 84
+T:Shir al Etz
+C:Trad.
+O:Israel
+L:1/8
+M:3/4
+Q:1/4=160
+K:Dm
+|:"Dm"DD "Dm"A4| "Gm"GG"Dm"F4| "Gm"GG"Dm"F2"C"E2| "Dm"F2"Dm"F4| "Dm"DD "Dm"A4| "Gm"GG"Dm"F4| "Gm"GG"Dm"F2"C"E2|"Dm"D2"Dm"D4:|
+"F"cc"Dm"d3d|"F"cc"Dm"F4| "F"c3B"F"cB|"Dm"A2"Dm"A4|"F"cc"Dm"d3c|"Dm"fe"Dm"d4| "F"c3B"F"cB|"Dm"A2"Dm"A4|
+"Dm"FA"F"c3A|"Dm"AG "Gm"G4| "Dm"A3F "Dm"FD| "Dm"D2"F"C4|"Dm"FE "Gm"G3F|"Dm"AG "Gm"G4|
+"Dm"FE"Gm"G2"Gm"G2|"Dm"D2"Dm"D4|:"Dm"D2 AG GF|FG GF FE| EF FE ED|DF "C"EG "Dm"F2|
+"Dm"D2 AG GF| FG GF FE| EF FE ED| D2 D2 z2 :|
+
+
+X: 85
+T:Shir Noded
+O:Israel
+L:1/8
+M:4/4
+Q:1/4=120
+K:Am
+|:"Am"[A,2E2][C2A2][C2A2] AB| [A6c6] cB|dc cB "E"BA ^GA| "E"[E6B6] z2:|
+|:"Am"[A3e3]f ed c2| "Dm"[F3d3]e "G"dc B2|[1 "Am"dc cB "E"BA ^GA|\
+ "E"[D6B6] z2:|[2 "Am"dc cB "E"BA ^GB| "Am"A8|
+
+
+X: 86
+T: Simhat He' Amel
+O: Israel
+M: 2/4
+L: 1/16
+Q:1/4=140
+K: Dm
+%%MIDI gchord fzff
+|:"D"D2z2 F2D2-|D2A2 ^G4|D2z2 F2D2-|D2A2 ^G2A2|\
+D2z2 F2D2|^G4 A4|FED2 E2C2|D2E2 F2 G2:|
+%%MIDI gchordoff
+K:Em
+%%MIDI drum dd 46 46 50 50
+|:!drum! A2c4c2|B4 A4|A2c4c2|B4 A4|A2c4A2|[1c4B2A2|B8-|B4z4:|[2c4^d4|e8-|e4z4|
+
+
+X: 87
+T: Simchu Na
+O: Israel
+M: 2/4
+L: 1/8
+Q: 1/4=160
+K: C
+%%MIDI drum dd 47 47
+!drum!"D"dAz2|dAz2|d2d2|d2d2|\
+|:"Am"AA2A|AAA2|"Am"Ac"G"BG|"Dm"A2z2:|
+|:"Dm"Ad2d|ddd2|Ad2d|efd2:|\
+"G"g2f2|e2d2|gd3-| d2d2|
+"C"e2c2|c2c2|e2"G"d2|"F#"^c_B"A"A2| "G"_BGG2|\
+"D"^FG"Am"A2|"D"_BG"Em"G2|
+"D"^FG"Dm"A2|"D"dAz2|dAz2|d2d2|d2d2|
+
+
+X: 88
+T:Sulam Yacov
+O:Israeli
+A:Nurat Hirsch
+L:1/8
+M:2/4
+Q:1/4=110
+K:Am
+e |"F"f2 ff| "C"e2-ee|"G"d2 "Dm"dd| "Am"c2-cc|"Dm"d2 dd|\
+ "Am"c3 c| "Em"B2-BB|"Am"A2-AE|
+%%sep 10 10
+|:"Am"A2-AE| "Am"A2AB| "Am"c2cB|A4| "Em"B2 B2 |\
+ "Em"B2 "Am"cB| A4- | A3 E|
+"Am"A2 AE| A2 AB|c2 Bc| e d2 c|c2 Bc|\
+"Dm"d2 "Am"cB| A4 | A3 E|
+A2 GA| "Em"G E2G| "Am"A2 AA| A2zA| A2 A2|\
+ "Dm"d3A| "G"B2 BB | "C"e2 "F"ze|
+"F"f2 ff| "C"e2-ee|"G"d2 "Dm"dd| "Am"c2-cc|"Dm"d2 dd| "Am"c3 c|\
+ "Em"B2-BB|[1"Am"A2-AE:|[2 "Am"A2-A|
+%%sep 10 10
+M:3/8
+L:1/8
+E|:"Am"A2 f| e2 e| "Dm"dcd| "Am"e2 E|A2 f|\
+ "Am"e2 e| "Dm"dc"B"B| "Am"A2 "G"G|
+"C"c2 a|"G"g2 g| "F"fef| "C"g2 e| "F"f2 f| da"C"e|\
+ "C"e3-|e2 e| "F"fe"Bm"d|
+ "Em"e2 "Am"e| "Dm"dc"G"B |"Am"A2 "G"B|"C"c2 "F"A |f2  "C"e| "F"dc"Bm"d|\
+ "Em"e2 "Am"e| "Dm"fed|
+ "Am"e2 e| "Dm"dc"G"B|"Am"A2 "G"G |"C"c2 "F"A| "F"f2 "C"e|\
+ "F"dc"Bm"B| "Am"A3:|
+
+
+X: 89
+T: Taam Haman
+M: 3/4
+L: 1/4
+Q: 1/4=200
+K: C
+ F2F|F2E|G2G|E2z|D2D|D2C|E2D|C3|
+|:"C"C2G|G2E|"F"F2A|"G7"G3|"C"C2D|"G7"E2D|"F"FE"G"D|"C"C3:|
+"C"c2c|c2G|"Am"A2B|cBA|"G7"G2F|"C"EDC|"F"FED|"C"C3|:
+"F" F2F|F2E|"G7"G2G|"C"E2z|"Dm"D2D|D2C|"C"E2D|"C"C3:|
+"C"GFE|GFE|GFE|E2z|G3|"F"A3|"G"BAG|"C"c3|
+
+
+X: 90
+T:Tzadik Katamar
+O:Israeli
+I:choreographer Y. Gaby
+Q:1/4=180
+L:1/8
+M:4/4
+P:ABCB 
+K:Dm
+P:A
+f2 e2 d2 ^c2| =B2 ^c2 A2 c2| e2 d6-| d2 z6|
+P:B
+|: "Dm"d2 .d.e .f2 .d2| "A"^c2 .c.d .e2 c2| "Dm"d2 .d.e .f2 .d2| a4 z4:|\
+"Gm".g4 .g4| .g2 fg e2 ef| "Dm"a2 a2 a2 g2 | f2 e2 d2 f2|
+ e2 d2 "Am"^c2 =B2| ^c2 A2 "Am"c2 e2| "Dm"f8| "D"^f4 g2 a2|\
+"Gm".g4 .g4| .g2 fg e2 ef| "Dm"a2 a2 a2 g2 | f2 e2 d2 f2|\
+ "Dm"e2 d2 "A"^c2 =B2| "A"^c2 A2 c2 e2| "Dm"d8|d4 z4|
+P:C
+K:Em
+|: "Em"e2 .e.f .g2 .e2| "B"^d2 .d.e .f2 d2| "Em"e2 .e.f .g2 .e2| b4 z4:|\
+"Am" .a4 .a4| .a2 ga f2 fg| "Em" b2 b2 b2 a2| g2 f2 e2 g2|
+f2 e2 "Bm" ^d2 =c2|^d2 B2 "Bm"d2 f2| "Em"g8| "E"^g4 a2 b2|\ 
+"Am".a4 .a4| .a2 ga f2 fg| "Em" b2 b2 b2 a2| g2 f2 e2 g2|\
+"Em"f2 e2 "B"^d2 =c2| "B"^d2 B2 d2 f2| "Em"e8|e4 z4|
+
+
+X: 91
+T:Tzur Chassidi
+O:Israel
+M:4/4
+L:1/8
+Q:1/4=140
+K:F#m
+|:"F#m"CF2G AGGF|AGGF "C#".G2.G2|"F#m"CF2G AGGF|[1AGF^E "F#m"F4:|\
+[2 AGF^E "F#m" F3 B|:
+ "C#"c3B c3B|cBcB c4|"Bm"B3A B3A|"F#m"AGcA "C#"G4:|:
+ cc2G "Bm"BAGF|"C#"GGF^E G2G2|cc2G "Bm"BAGF|"C#"GGF^E "F#m"F4:|
+
+
+X: 92
+T:Vayven Usiyahu
+O:Israel
+Z:seymour.shlien@crc.ca
+L:1/8
+M:2/4
+Q:1/4=160
+K:Cm
+"F"ff fe/c/| "Cm"eec2| "F"ff fe/c/| "Cm"eec2| 
+"F"fffz|ze/c/"Cm"ef|g4-| g4|
+|: "Cm"eeee|eeez|e>eee|e>dee|
+"F"ze"Cm"de|c4|"F"ze"Cm"de|c4:|
+|: "F"ff/z/ff |"Cm"e/c/e2z| "F"ff/z/ff|"Cm"e/c/ee2|
+"Cm"eeez|"F"fffe/c/|"Cm"eec2|"F"fffe/c/|"Cm"eec2:|
+
+
+X: 93
+T:Ya Abud
+O:Arabia
+L:1/8
+M:4/4
+Q:1/4=120
+K:Gm
+|:GGGG_ABAG|GGGG_ABAG| GGGG_ABAG|dc/B/_AGABAG:|
+BG_AFGAB2| BG_AFGAB2| BG_AFGAB2| BG_AFGAB2|
+BB_A/G/A BB_A/G/A| BB_A/G/A B_AB2| BB_A/G/A BBA/G/A| BB_A/G/A BAc2|
+c2BB c2BB|c2Bc dcc2| c2BB c2BB|c2Bc dcc2|
+GBBB _c2B2| GBBB _c2B2| GBBB _c2B2| GBBB _c2B2|
+BG_AGAGAG|GABdcBB2|BG_AGAGAG|GABdcBB2|
+
+
+X: 94
+T:Yedid Nefish
+O:Israel
+M:3/4
+L:1/8
+Q:1/4=180
+K:Em
+| "Em"G6|E4 G2| "Am"A3 G AG| A4 "Em"G2|\
+ "Em"G6|E4 G2| "Am"A3 G AG| A6| 
+A4 A2| A2 "Em"G2 "D"F2| "Em"G6-|G6|\
+ "Am"A4 A2| A2 "Em"G2 "D"F2| "Em"B6-|"Em"B6|
+"Am"A4 A2| A2 "Em"G2 "D"F2| "Em"G2 "Am"zE"Em"GA| "Em"B2 "Am"A2 "Em"G2|\
+"Am"A4 "Am"A2| "Am"A2 "Em"G2 "D"F2| "Em"E6-|E6|
+|: "Am"c4 "Em"B2| "Am"c4 "Em"B2| "Em"B4 "Am"A2| "Em"G6|\
+"Am"c4 "Em"B2| "Am"e2 "D"d2 c2| "Em"B4 "Am"A2| "Em"G6|
+"Am"A4 A2| A2 "Em"G2 "D"F2| "Em"G2 "Am"z E"Em"GA| B2 "Am"A2 "Em"G2|\
+"Am"A4 A2| A2 "Em"G2 "D"F2| "Em"E6-|E6:|
+
+
+X: 95
+T:Zemer Baal Gilboa
+O:Israel
+Z:seymour.shlien@crc.doc.ca
+L:1/8
+M:4/4
+K:Am
+Q:1/4=120
+|:"Dm"AdcA "F"BGAF| "Dm"D2 D6| "F"AdcB "Am"AGcB| "F"A8|\
+ "Dm"FGAG "F"cGGF| "Dm"F8|EFGE GEED| D8:|
+L:1/8
+M:2/4
+K:Dm
+Q:1/4=160
+|:"Dm"z2 "F"F>G| "Dm"A2 "F"A2| "Dm"GF"F"GA| "Dm"F2 "Bb"D2|\
+"Dm"z2 "F"F>G| "Dm"A2 "F"A2| "Dm"GF"F"cB| "Dm"A4|
+"F"zA2c|"Dm"d2 "Bb"d2|"Gm"cB"Bb"cB| "Dm"A2 "F"A2|\
+"Dm"zF2G| "F"A2 "Dm"A2 |"C"GE"Am"GE|"Dm"D4:|
+
+
+X: 96
+T:Zemer Shirim
+O:Israeli
+L:1/8
+M:4/4
+Q:1/4=120
+K:Dm
+"Dm"A2 de f2 ed| "F"c2 Bc "Dm"A2 BA| "Gm"GGGG G2 FG| "Dm"A4 A4|\
+"Dm"A2 de f2 ed| "C"g2 fe "Dm"d2 z d| d2 d2 c2 ce| d8|
+"Dm"A2 de f2 ed| "F"c2 Bc "Dm"A2 BA| "Gm"G6 FG| "Dm"A8|\
+A2 de f2 ed| "C"g2 fe "Dm"a4| "Gm"ba g4 eg| "Dm"a4 z2 ba|
+"Gm"g2 dg "Dm"f2 ed| "F"c2 Bc "Dm"A4| d2 ef "C"g2 fe| "Dm"f4 z2 ba|\
+"Gm"g2 dg "Dm"f2 ed| "F"c2 Bc "Dm"A4| A3 A "Am"e2 dc| "Dm"d4 d4|
+
+
+X: 97
+T:Zemer Zemer Lach
+C:Trad.
+O:Israel
+L:1/8
+M:4/4
+Q:1/4=150
+K:Am
+|:"Am"z A2 A EE A2| "Dm"z B2 d"Am"cB A2| z e2 e "Dm"f>e df|"Am"~e>d ef e4:|
+"Am"z c2 d e2 e2| e d2 e d2 c2| Bc de d c2 B| c8|\
+A A2 B c2 c2| c B2 c B2 A2| "E"^GA Bc "Am"B A2 G | A8|
+
+
+

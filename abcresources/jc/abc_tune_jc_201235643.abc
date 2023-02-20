@@ -1,0 +1,20 @@
+X: 21281
+T: TRIP TO PARIS -- Jig
+R: jig
+B: K\"ohler's Violin Repository, v.2, 1885 p.128 #1
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Inconsistent note lengths for ends of phrases.  (Not fixed.)
+N: All initial repeats are missing. (Fixed.)
+M: 6/8
+L: 1/8
+K: G
+u(dc) |\
+B3 GAB | A3 EFG | FEF DEF | GAB ABc |\
+BAB GAB | A3 EFG | FGA EFG | G3 G3 :|
+|: B |\
+G2g- gdc | Bcd GAB | A2a- abg | fga def |\
+G2g- gdc | Bcd efg | dcB AGF | G3 G3 :|
+[|\
+(.G2.g) dcB | Bcd GAB | A2a- abg | fga def |\
+gab afd | efg fdB | edc BcA | G3 G3 "_D.C."|]

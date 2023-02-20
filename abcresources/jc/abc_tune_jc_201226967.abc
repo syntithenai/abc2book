@@ -1,0 +1,35 @@
+X: 10541
+T: FOREST OF BONDI
+C:
+%R: polka, reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.54 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+FG |\
+A2A2A2A2 | ABAG F2A2 | BGBd cABc | d2d2 defd |\
+A2A2A2A2 | ABAG F2A2 | BGBd cABc | d4 z2 :|
+|: fg |\
+a4 a2b2 | b2a2f2a2 | b2a2f2d2 | edef efge |\
+a4 a2b2 | b2a2 f4 | a2f2 edef | d4 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+DE |\
+F2F2F2F2 | FGFE D2F2 | G2G2 E2E2 | F2F2 FGA2 |\
+F2F2F2F2 | FGFE D2F2 | G2G2 E2E2 | F4 z2 :|
+|: de |\
+f4 f2g2 | g2f2d2f2 | g2f2d2A2 | cBcd cdec |\
+f4 f2g2 | g2f2 d4 | F2A2 GFGA | F4 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+d2d2d2d2 | d2d2 d2d2 | G2G2 A2A2 | d2A2F2A2 |\
+d2d2d2d2 | d2d2d2d2 | G2G2 A2A2 | d4 z2 :|
+|: d2 |\
+d4 d2d2 | d2d2d2d2 | d2d2d2f2 | a2a2a2z2 |\
+d4 d2d2 | d2d2 d4 | d2d2A2A2 | d4 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

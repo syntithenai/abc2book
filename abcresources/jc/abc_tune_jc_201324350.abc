@@ -1,0 +1,26 @@
+X: 973
+T: Planxty Davis
+T: (Battle of) Killiecrankie
+C: Thomas Connellan (164?-1698)
+O: Ireland
+R: hornpipe, reel; long dance, set dance
+%S: s:4 b:32(8+8+8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #973
+Z: by Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0973/oneill-1001-0973-1.abc
+M: 2/4
+L: 1/16
+K: D
+"^A"[|]\
+  (FG) | A2(AB)  A2(FG) | AFAB   A3B    | AGF(E  DE)FG | A2(AB) A2 |\
+| (dc) | B2(Bd)  B2(Ac) | BABd   B2(dB) | AGFE   DEFA  | B2(Bd) B2 ||
+"^B"\
+|| b2  | bag(b   a)feg  | fedf   e2(de) | fedB   B(AdF)| A2(AB) A2 |\
+| (dc) | (B2A)(B d2)Bd  |(e2d)(e f2)ed  | B(ABc) d2F2  | E4     D2 :|
+"^C"\
+|:(fg) | a2(ab)  a2(fg) | agab   a2(fg) | agf(e  de)fg | a2(ab) a2 |\
+| (fa) | b3b     b2(fa) | bafa   b2(bg) | agf(e  de)fa | b2(ba) b2 ||
+"^B"\
+||(fa) | baf(b   a)feg  | fedf   e2(de) | f(edB) BAdF  | A2(AB) A2 |\
+| (dc) | (B2A)(B d2)cd  | e2(de) f2(ed) | B(ABc) (d2F2)| E4     D2 :|
+%%text Often played without the repeats.

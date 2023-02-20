@@ -1,0 +1,22 @@
+X: 1
+T: Captain Keelers Reel
+R: reel
+S: Fiddle Hell Online 2020-11-05 Se\'an Heel Slow Airs Workshop
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb	% and Gm
+% - - - - - - - - - -
+V: 1 staves=2
+A |\
+TB2(d/c/B) fBbB | TB2 (d/c/B) AFcA | TB2(d/c/B) fBbB | cAFA BGG :: B | (DG)(.B.G) dGBG | (DG)(.B.G) AFcA |
+(DG)(.B.G) dGBG | cAFA BGGB | (DG)(.B.G) dGBG | (DG)(.B.G) AFcA | (DG)(.B.G) dGBG | cAFA BGG |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+B2B2 B2B2 | B2B2 F2F2 |\
+B2B2 B2B2 | c2d2 G2G :| z |\
+[g2G2][g2G2] [g2G2][g2G2] | [g2G2][=e2=E2] [f2F2][f2F2] |
+[g2G2][g2G2] [g2G2][g2B2] | c2d2 G2G2 |\
+[g2G2][g2G2] [g2G2][g2G2] | [g2G2][=e2=E2] [f2F2][f2F2] |\
+[g2G2][g2G2] [g2G2][g2B2] | c2d2 G2G |]

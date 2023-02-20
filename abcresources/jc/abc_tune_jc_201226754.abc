@@ -1,0 +1,24 @@
+X: 1042
+T: the Lees of Luncartie or Lady Baird's delight
+%R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.4 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gmix
+% = = = = = = = = = =
+% Voice 1 reformatted for 2 6-bar lines, for compactness and proofreading.
+V: 1 staves=2
+B |\
+D>GB>G c>AB>G | A/A/A B>G c>AF<A |\
+D>GB>G c>ABG | A/A/A d>c B>GG :| ^f |\
+g>d-d>e =f>g{fg}ag | f>dTc>_B AFF>^f |
+g>d-d<e g>a{ga}ba | g>d-d>e g/^f/g/a/ gb ||\
+g>d-d>e f>efa | f>dTc_B A<F-F(e/f/ |\
+g)>ef>d e>cd>B | A<g^f<a g<g-g |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | g2g2 g2g2 | a2g2 f2f2 | g2g2 g2g2 | d2d2 G2G :| z |
+g2g2 g2g2 | f2f2 f2f2 | g2g2 g2g2 | d2d2 g2g2 || g2g2 g2g2 |
+f2f2 f2f2 | g2d2 e2B2 | c2d2 G2G |]

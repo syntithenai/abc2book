@@ -1,0 +1,31 @@
+X: 10701
+T: COTILLION No. 2. tune 1
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.70 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!f!{c}d2 |\
+!p!A2F2F2 (3(FED) | A2A2A2 !f!{c}d2 | !p!A2F2F2 (3(FED) | A2A2A2 z>A |\
+!f!d3e d3e | !f![f6A6] (3(fga) | d2(3(fga) d2(3(fga) | d2d2d2 H|]
+A2 |\
+!p!d2d2d2 !f!f2 | (f2A2) z2!p!A2 | e2e2e2 !f!g2 | (g2A2) z2!p!A2 |\
+A2 f2f2f2 | f2 "^>"g4 fe | !f!dAfA eAgA | fAaf "^D.C."d2 |]
+!f!{d}d'2 |\
+!p!a2f2f2 (3(fed) | a2f2f2 !f!{d}d'2 | !p!a2f2f2 (3(fed) | a2A2 AA,B,C |\
+DEFG ABcd | edcB AGFE | FA^GA EAGA | DdAF DEF"^D.C."G |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 chassa across and back,
+%% forward and back 4,
+%% turn partners,
+%% ladies chain,
+%% promenade 4.
+%% side couples the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

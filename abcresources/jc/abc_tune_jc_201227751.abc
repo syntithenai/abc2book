@@ -1,0 +1,34 @@
+X: 10962
+T: ALL'IDEA WALTZ
+C: Rossini
+Q: "Dolce."
+%R: waltz
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+N: This is version 2, for ABC software that understands crescendo/diminuendo symbols.
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.96 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The entire first strain is an octave higher.
+N: The rhythms between the strains are wrong; not fixed.
+N: The first strain should also be a repeated 8-bar strain with 2 endings.
+M: 3/8
+L: 1/16
+K: G
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|"^8va   _   _   _   _   _   _   _"\
+d2(dedc) | d2"_>"g4 | B2(BcB^A) | B2"_>"d4 |\
+(pGABcdPe) | e4F2 | (Q^cdedq=cA) | G2D4 |\
+d2(ded^c) | d2"_>"g4 | B2(BcB^A) | B2"_>"d4 |\
+(pGABcdPe) | e4F2 |  (^cded=cA) | G4 |]
+|: "^loco."dd |\
+!f!("_>"^c2d2)dd | ("_>"^c2d2)dd | ("_>"^c2d2)dd | (B2c2)cc |\
+(B2c2)cc | (B2c2)cc | (B2c2)cc | B4 ::\
+e2e2e2 | (e4d2) | c2c2c2 | (c4B2) |\
+A2A2A2 | (e4d2) | {d}c2B2A2 |[1 (G2ABcd) :|[2 G4z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

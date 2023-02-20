@@ -1,0 +1,53 @@
+X: 21385
+T: WHEN THE ROSY MORN APPEARING.
+T: From the opera of "Rosina."
+Q: "Moderate."
+%R: march
+N: This is version 2, for ABC software that uses suppressed empty staves in staff systems.
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.138 #5 (and p.139 #1)
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+%%staffnonote 0	% Suppress staffs with no notes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff system 1:
+P: SOLO.
+[V:1 nm="V1" snm="v1"] [|"A1"\
+g3a g2c'2 | g2f2 f2e2 | c3e e2d2 | d2(df) (f2e2) |\
+g3a g2c'2 | g2f2 f2e2 | c3e d2(3(def) | e2d2 c2z2 |]
+[V: 2] Z8 |
+[V: 3] Z8 |
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff system 2:
+P: DUET.
+[V:1 staves=2] [|"B1"\
+e3f e2e2 | (dc)(de) c4 | G3G A2d2 | B2B2 c4 |\
+e3f e2e2 | (dc)(de) c4 | G3G A2d2 | c2B2 c2z2 |]
+[V:2 nm="V2" snm="v2"] [|"A2"\
+g3a g2c'2 | g2f2 f2e2 | c3e e2d2 | d2(df) (f2e2) |\
+g3a g2c'2 | g2f2 f2e2 | c3e d2(3(def) | e2d2 c2z2 |]
+[V: 3] Z8 |
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff system 3:
+[V:1] [|"A3"\
+g3a g2c'2 | g2f2 f2e2 | c3e e2d2 | d2(df)(f2e2) |\
+g3a g2c'2 | g2f2 f2e2 | c3e d2(3(def) | e2d2 c2z2 |]
+[V:2] [|"B2"\
+e3f e2e2 | (dc)(de) c4 | G3G A2d2 | B2B2 c4 |\
+e3f e2e2 | (dc)(de) c4 | G3G A2d2 | c2B2 c2z2 |]
+[V: 3] Z8 |
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff system 4:
+P: TRIO.
+[V:1 staves=3] |:"A4"\
+g3a g2c'2 | g2f2 f2e2 | c3e e2d2 | d2(df f2e2) |\
+g3a g2c'2 | g2f2 f2e2 | c3e d2(3(def) | e2d2 c2z2 :|
+[V:2] |:"B3"\
+e3f e2e2 | (dc)(de) c2c2 | G3G A3d | B2B2 c2z2 |\
+e3f e2e2 | (dc)(de) c2c2 | G3G A3d | c2B2 c2z2 :|
+[V:3 nm="V3" snm="v3"] |:"C1"\
+c3c c2c2 | B3G A2A2 | E3E F2F2 | G3G c4 |\
+c3c c2c2 | B3G A2A2 | E3E F2F2 | G3G c2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

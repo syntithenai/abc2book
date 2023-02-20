@@ -1,0 +1,16 @@
+X: 17
+T: the Eavesdropper   #2
+%S: s:3 b:13(5+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #17
+R: double jig
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0017/oneill-1001-0017-1.abc
+N: Compacted via repeats and multiple endings [JC]
+M: 6/8
+L: 1/8
+K: G
+"^A"[|]\
+ D |: GBB BAG | Bdd dBG | cee dB [1,3 G | BAA A2B :|[2,4 A | BGG G2 :|
+"^B"\
+|: d | gfg afd | efg d2B | cee dBG | BAA Ad ||
+|  f | gab afd | efg dBG | cee dBA | BGG G2 :|

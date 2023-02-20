@@ -1,0 +1,25 @@
+X:13
+T:Bulgarian (?) 1
+S:Ian McArdle
+R:Other
+O:Bulgaria ?
+N:the 'turn' symbol is a trill
+M:11/16
+K:Am
+"Am"e2{dc}d2e3 {dc}~d2dc|de{dc}d2 c2B ~A2AG|\
+(AB)~c2{dc}d3 ~c2cB|(dG)A2 "Dm"A3 "A"(A2A2) ::
+"Am"(AB)~c2{dc}d3 {dc}d2dc|\
+e2{dc}d2 c2B ~(A2AG)|\
+(AB)~c2{dc}d3 ~c2cB|"E"(BG)"Am"A2A3 (A2A2) ::
+"Am"(AB)~c2 (cBA) "Em"~B2(BG)|\
+"A"~A2"Am"(Ad) (cBA) "E"~B2"Em"(BG)|\
+"A"(AB)"Am"~c2 (cBA) "E"~B2"Em"(BG)|\
+(BG)"A"~A2 "D"A3 "A"(A2"Am"A2) ::
+"C"(fg)~e2 (edc) (cG)(gG)|\
+(fg)~e2 (ed)c (cG)(cG) :: \
+"Am"(de)~c2 (cBA) (AE)(eE)|\
+(de)~c2 cBA (AE)A2 ::
+"Am"(ABcE) (cBA) "Em"~B2(BG)|\
+"Am"(G~AAE) (cBA) "Em"~B2(BG)|\
+"Am"(ABcE) (cBA) "Em"~B2(BG)| \
+"Am"(AeA2) "D"A3 "A"(A2"Am"A2):|

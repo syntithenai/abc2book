@@ -1,0 +1,22 @@
+X: 1272
+T: BRATTLEBORO' WALTZ
+C: Geo. Hews
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.127 #2
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: The last phrase has final repeat but no initial repeat sign.  Fixed.
+M: 3/8
+L: 1/16
+K: C
+G>c |\
+e2e2 f>d | c2c2 d>B | c2c2c2 | e4 c>e |\
+g2g2 a>f | e2e2[fd]>[dB] | c2c2 d>B | c4 :|
+|: G>e |\
+g4 ag | ge3 ce | ed3 Bd | dc3 G>e |\
+g4 ag | ge3 ce | e3d Bd | c4 :|
+|: GB |\
+Bd3 Bd | df3 ag | ge3 ag | ge3 GB |\
+Bd3 Bd | df3 ag | fd3 Bd | c4 :|
+|: ef |\
+g3agf | eg3 c'2 | bd'3 d'2 | c'e'3 ef |\
+g3agf | eg3 g2 | fd3 Bd | c4 H:|

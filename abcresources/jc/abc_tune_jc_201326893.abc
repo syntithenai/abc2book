@@ -1,0 +1,629 @@
+I:abc-charset utf-8
+%%titlefont Times-Bold 24
+%%subtitlefont Times-Bold 18
+%%gchordfont Times-Bold 14
+%%composerfont Times-Italic 16
+%%notationfont Times-Bold 16
+%%annotationfont Times-Bold 16
+%%textfont Times-Italic 16
+%%partsfont Times-Bold 14
+%%printtempo 0
+%%printparts 1
+%%partsbox 1
+%%bstemdown 1
+%%withxrefs 1
+%%pageheight 11in
+%%%staffsep .01
+%%topspace .25in
+%%botspace .25in
+%%notespacingfactor 1
+%%stretchlast 0
+%%titleformat  T, R-1 C1
+%%scale .685
+%%footer "Miscellaneous\n$P0.		$P1."
+%%newpage 733
+
+X:0
+%%%footer "Section D"
+%%withxrefs 0
+%%lineskipfac 8
+%%textfont Times-Bold 48
+%%begintext center
+%%Miscellaneous
+%%endtext
+%%titlefont Times-Bold 1
+I:0
+T:_Miscellaneous_
+M:1/1
+K:C
+%%newpage
+
+X:1070
+T:Shoals of O'Herrin, The 
+C:Joe Buchanan's Scottish Tome - Page 046.1
+I:046 1
+R:Folk
+Z:Carl Allison
+L:1/4
+M:4/4
+K:C
+"
+G/ c d/4e/4 f2 | e/2d/4 c/2B/2 GF | E/ C C/2<E/2 G/2G/4 | E/G/ F/2E/2 D/ C |]
+C E G2| G> G A> G | F EG2 | C E G2 |
+c> d e c | d B G2 | c> d e c | d c> A |
+G F E/ (C> | C6) | C E G2 | E> C F E || D2 (C2 | C2) |
+
+X:1071
+T:Barnyards O'Delgaty, The 
+C:Joe Buchanan's Scottish Tome - Page 055.1
+I:055 1
+R:Folk
+Z:Carl Allison
+L:1/8
+M:2/4
+K:D
+d | "D" f>e dA | "G" Bd "A" BA | "D" f>e dA | "Em" (Bd) "A7" e2 |
+"D" f>e dA | "G" Bd B"A" A | "D" AA "Bm" a>g | "A" (fe) "D" d2 :|
+"D" A>D DD | "D" FE "Bm" FB | "D" A>D "Bm" DD | "D" FA "A" E2 |
+"D" A>D DD | "D" FE "Bm" FB | "D" AA a>g | "G" f"A"e "D" d2 :|]
+
+X:1072
+T:Just A Wee Deoch An Doris 
+C:Joe Buchanan's Scottish Tome - Page 093.2
+I:093 2
+R:Folk
+Z:Carl Allison
+L:1/8
+M:4/4
+K:Bb
+D/E/ | "Bb"F F2 E | D F2 B/c/2 | d d2 c | B3 G/A/ |
+|"Eb" B B2 A |"Eb" G F2 F | GF BD |"F7" C3 D/E/ |
+| "Bb"F F2 E | D F2 B/c/ | d d2 c | (B2 B)(3A/B/c/ ||
+| dB/d/ "F7"cA |"Eb" BG "Bb"FG/A/2 |"Cm" B B2 "F7"c |1"Bb" B2 "F7"D/E/ :|2 "Bb"BF"F7"GA |]
+
+X:1073
+T:Para Handy 
+C:Joe Buchanan's Scottish Tome - Page 249.0-250.0
+I:249 0
+Z:Carl Allison
+C:Ben Gourby
+R:Folk
+L:1/8
+M:C
+K:G
+"^Intro" z4 | z4 z2 (dc) |B2 G2 ((3GAG) (FG) | D2 d z d4 | D2 d z d4 |
+(DEDE) (FGFG) | (ABA)B (cdef) | .g2 .G2 .G2 .G2 | .G2 .G2 .G2 |]
+"^Main Theme"|: (dc) | "G"B2 G2 "D"((3GAG) "G"(FG) | "G"D2 d z "D"d4 | "Am"c2 A2 "E"((3ABA) "Am"^GA | "Am"E2 e z e2 (dc) |
+"G"B2 G2 "D"((3GAG) "G"(FG) | "G"D2 d z "E7"((3ded) ^cd | "Am7"=cBAG "D7"FAdc | "G"B2 G2 G2  :|
+((3def) |"C" g2 (fe) "E"d2 c2 |"G" B2 (Be) "G"d4 |"D7" A2 (Ad) "D7"c4 |"C" G2 (Gc) "G"B>c ((3def) |
+"C"g2 (fe) "G"d2 "C"c2 |"G" B2 (Be) "G#dim"d4 |"Am7" cBAG "D7"FAdc | "G"B2 G2 G2 :|
+dc |"G" B2 G2 "D"((3GAG) "G"(FG) | "G"D2 d z "D"d4 | "Am"c2 A2 "E"((3ABA) "Am"(^GA) | "Am"E2 e z e2 "E7"(dc) |
+"G"B2 G2 "D"((3GAG) "G"(FG) |"G" D2 d z "E7"((3ded) (^cd) |"Am7" cBAG "D7"FAdc | "G"B2 G2 G2 z2 |]
+"G"D8 | "F"C2 CD ED C2 | "G"D8 | "F"C2 CD ED C2 |
+"G"D8 | "F"C2 CD ED C2 | "Bb" _B2 z Bcdc B2 | "A7"A2 z ab agfe |
+[K:D]"D"(f2 a2) "D"(a2 f2) |"C#" e2 (ef "A"ec A2) | "Dm"(d2 f2) "D"(f2 "Bm"d2) | "F#m"c2 (cd "C#"cA "F#m"F2) |
+"G"(B2 d2) "G"(d2 B2) | "D" (A^GAd "Bm"f4) |"E7" e z ef edcB |  "A7"c2 "Bm7"d2 "C#"^d2 "A7"e2 |
+"D"(f2 a2) "D"(a2 f2) |"C#" e2 (ef "A"ec A2) | "dm"(d2 f2) "D"(f2 "Bm"d2) | "F#m"c2 (cd "C#"cA "F#m"F2) |
+"G"(B2 d2) "G"(d2 B2) | "D" (A^GAd "Bm"f4) | "F7"BGed "A7"cAfe | "D"d2 "G"d2 "D"d2 |]
+[K:Bb]f2 | ("Bb"d2 f2) ("Bb"f2 d2) | "F7"c2 (cd "F"cA F2) | ("Gm"B2 "Bb"d2) ("Gm"d2 B2) | "Dm"F2 (FG "A"AF "Dm"D2) |
+"Eb"(G2 B2) "G"(B2 "Eb"G2) |"Bb" (F=EFB "Gm"d4)| "C7"c z cd cBAG | A2 B2 =B2 c2 |
+"Bb"(d2 f2) "Bb"(f2 d2) |"F" c2 (cd cA F2) |"Gm" (B2 d2) "Bb"(d2 "Gm"B2) |"Dm" F2 (FG "A"AF "Dm"D2) |]
+"Eb"(G2 B2) "G"(B2 "Eb"G2) |"Bb" (F=EFB "Gm"d4)|"C7" GEcB "F7"AFdc | "Bb"B2 "Eb"B2 "Bb"B2 |
+[K:G]dc |"G" B2 G2 "D"((3GAG) "G"FG |"G" D2 d z "D"d4 |"Am" c2 A2 "E"((3ABA) "Am"^GA |  "Am"E2 e z e2 "D7"dc |
+"G"B2 G2 "D"((3GAG) "G"FG |"G" D2 d z "E7"((3ded) ^cd |"Am7" cBAG "D7"FAdc | "G"B2 G2 G2 z2 |]
+"G"D2 d z d4 |"G" D z d2 d4 | d2 d' z d'4 | d2 d' z d'4 |
+"Am7" c'bag "D7"fdef | "G"[Bg]2 "Cm"[cg]2 "G"[Bg]2 z2 |]
+W:Errata: Added repeat symbol at start of main theme, changed three notes at beginning of line three
+W:in the main theme to a triplet.
+
+X:1074
+T:Teddy Bears Picnic, The 
+C:Joe Buchanan's Scottish Tome - Page 425.0
+I:425 0
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:4/4
+K:C
+e | aza ac'b | azc' b z E | Azc BcB | Azc B z E |
+[0T[c3e6] B3 | [e6A3] G2 | [e6F3] ^E2 | [e6D3] [Ee] z E |]
+|: Azc BcB | Azc Bzc | ABc Bzc | A3- A2 z G |
+[K:F] cze ded | cze dze | cde dze | c3- c2 z g |
+azg azg | deg e2 d | dzc dzc | GAc A2 G |
+[1 A2 c G2 c | ABc G2 e | d6 | cfe dcB :|3 !fine!c2 |]
+[2 A2 c G2 c | ABc G2 e | d6 | cge geg |]
+azg a3- | age geg | dzB d3- | dGA BcG |
+B3- B2 A | G3- G2 e | dcd egb | age geg |
+azg a3- | age geg | dzB d3- | dGA Bdc |
+[1 _e3- ecd | _e3- ecd | edc az^f | gge geg :|
+[2 c3- cAB | c3- cAB | cBA az^d | e2 zzz2 E |]
+%%newpage
+Azc BcB | Azc Bzc | ABc Bzc | A3- A z G |
+cze ded | cze dze | cde dze | c3- c z g |
+azg azg | deg e2 d | dzc dzc | GAc A2 G |
+A2 c G2 c | ABc G2 e | d6 | c3- c z E |]
+[CA]3 A3 | ^G3 A3 | dzA c3- | czA ^GzA |
+dzA czA |  dcA ^G2 A | czG B3- | BCD EDE ||
+C3 B3 | F3 G3 | ezG d3- | dzd ^czd |
+e3 d3 | c3 B3 | Azc c3- | cC=D EFG |
+[CA]3 A3 | ^G3 A3 | dzA c3- | czA ^GzA |
+dzA czA | dcA G2 F | f6- | f3  f z F |
+fze fze | fef gfd | czB czd | czF G2 A |
+B3 c2 d | A3 G3 | F6- | F3 E |]
+W:Errata: Added a "[0" at beggining of second line and closing brace at end of second line.
+
+X:1075
+T:Teddy Bears Picnic #2, The 
+C:Joe Buchanan's Scottish Tome - Page 427.0
+I:427 0
+Z:Carl Allison
+R:Two-step
+L:1/8
+M:6/8
+K:C
+E | Azc BcB | Azc Bzc | ABc Bzc | A3- A G |
+c ze ded | cze dze | cde dze | c3- c g |
+"D"azg "G"azg | "D"deg "G"e2 d | "C"dzc "G"dzc | "C"GAc A2 G |
+(G2 c) (A2 c) | GAc A2 e | d6 |1 c2 edcB :|2 c3 c E2 |][
+K:F]
+[|T"F"C3 "C"A3 | "F"^G3 "C"A3 | "F"^G3 "C"A3 | "F"dzA "C"c3- | czG ^GzA |
+dzA czA | dcA ^G2 A | czG B3 | BCD EDE |
+C3 "C"B3 | ^F3 "C"G3 | "G"ezG "C"d3- | "G"dzd ^czd |
+e3 d3 | c3 B3 | Azc c3- | "F"cC=D "C"EAG |
+"F"C3 "C"A3 | "F"^G3 "C"A3 | "F"dzA "C"c3- | "F"czA "C"^G2 A |
+"F"dzA "C"czA | "F"dcA "F"G2 F | "Bb     F     G"f6- | "Bb"f3 "C"f z "D"F |
+fze fze | fef gfd | cz^B czd | czF G2 A |
+B3 c2 d | A3 G3 | F3 C =B, C | F3 z z E2 |]
+
+X:1076
+T:I've Got A Lovely Bunch of Cocoanuts
+C:Joe Buchanan's Scottish Tome - Page 464.1
+I:464 1
+Z:Carl Allison
+R:Jig
+L:1/8
+M:6/4
+K:C
+G3 | "C"E3 ^D2 E | ((3ccc) B2 A | E2 E2> E2- | E6 | E2 E^D2 E | c2 cB2 A | "G7"F6- | F3 z3 | 
+"G7"B3 B3 | B3 B3 | B2 B ((3BBB) | B6 | ((3AAA) A2 A | "D7"((3AAA) A2 A | d2 c B2A | "G"G6 | 
+"C"E3 ^D2 E | ((3ccc) B2 A | E2 E2> E2- | E6 | "C"((3EEE) E^D2 E | c2 cB2 A | "G7"F6- | F3 z3 | 
+B3 B2 ^A | B3- B2 ^A | B2 B B2 ^A | B3 B2 =A | G2 A B2 A | G2 F ((3EED) | "C"C6- | C2 z G2 A | 
+"C"c2 c c2 c | c2 c ((3cBA) | c6- | c2 z G2 A | c2 c c2 c | c2 c ((3cBA) | "G7"B6- | B6 | 
+"G7"B2 B B2 B | B6 | B2 B B2 B | B3 B2 A | G2 A B2 A | G2 G ((3GAB) | "C"c6- | c3 "G7"G2 :|
+
+X:1077
+T:Waiting At The Church 
+C:Joe Buchanan's Scottish Tome - Page 464.2
+I:464 2
+R:Folk
+Z:Carl Allison
+L:1/8
+M:6/8
+K:C
+|: "C"E3- E2 F | G6 | "F"F2 E F2 G | A6 | "D7"^F2=F^F2 G | A6 | "G"G2 ^F G2 A | B6 |
+"C"c3- c2 A | G3- G2 A | "B7"B2 c B2 A | "Em"G6 | d3 c2 B | A3 d3 | "G"B3 G3 | "G7"F3 D3 |
+"C"E3- E2 F | G3- G2 E | "F"F2 E F2 G | A6 | "D7"^F2=F^F2 G | A6 | "G"G2 ^F G2 A | B6 |
+"C"c3 G2 A | "A7"G3 E3 | "Dm"F2 G A2 F | D6 | "C"G3 c3- | c3 E3 |1 "B"D3 "C"C3 | "Bm"A3 "G"G3 :|
+%%leftmargin 442 cm
+|2 "G"D3 "C"C3 | |]
+
+X:1078
+T:Here We Are Again 
+C:Joe Buchanan's Scottish Tome - Page 465.1
+I:465 1
+R:Folk
+Z:Carl Allison
+L:1/8
+M:6/8
+K:C
+|: "C"C2 B, C3 | E2 ^D E3 | "G7"E2 ^C D2 E | "C"C3- C2 C | "G7"G2 A B2 A | "D7"ABA  ^F2 D | "G"G6- | G6 | 
+"G7"D2 E F2 E | "C"E2 G- G3 | "D"^F2 G A2 F | "G"G2 B- B2 B | "D"B3 A3 | ^F3 D3 | "G"G3 c2 A | B3 G3 | 
+"C"C2 B, C3 | E2 ^D E3 | D2 ^C D2 E | "C"C3- C2 C | "G"G2 A B2 A | "D7"((3ABA)  ^F2 D2 | "G"G6- | G6 | 
+"C"c2 B c2 A | "G7"B2 G G3 | "C"c2 B c2 A | "G"B G2- G2 G | "C"c3- c2 G | "F"c6 | "Dm"c2 B "G7"A2 B |1 "C"c3 "G7"G3 :| 
+%%leftmargin 520 cm 
+|2"C"c3 "G7"B3 |] 
+
+X:1079
+T:Let's All Go Down The Strand 
+C:Joe Buchanan's Scottish Tome - Page 465.2
+I:465 2
+R:Folk
+Z:Carl Allison
+L:1/8
+M:6/8
+K:C
+|: "C"c3 G3- | G2 F E2 F | G4 ((3GAB) | "Am"A3 G3 | A3 E3- | E2 D D2 D | E6 | E6 |
+"G"G3 G3 | G3 D3 | "C"E2 D E2 F | G6 | "G"B3 B3 | B3 F3 | "Dm"G2 ^F G2 A | "G7"B6 |
+"C"c3 G3 | G2 F E2 F | G4 ((3GAB) | A3 G3 | "Am"A3 E3- | E2 D C2 D | "E"E6 | E6 |
+"Am"E2 A A2 B | "Am"A3 G2 E | "Am"E2 A A2 B | "G7"A2 G E2 G | "C"c3 G3- | G2 A E2 D | "C"C3 G3 | "G7"A3 B2 :|
+W:Errata: Changed the note preceding each triplet to a count of 4.
+
+X:1080
+T:Quartermaster's Store, The 
+C:Joe Buchanan's Scottish Tome - Page 466.1
+I:466 1
+R:Folk
+Z:Carl Allison
+L:1/8
+M:4/4
+K:F
+"F"C>F | "F"A4 A3 A | A>G F>D C E>F | "C"G4 F>G | "F"A6 C>F |
+"F"A4 A3 A | A>G F>D C E>F | "C"G2 B2 A2 G2 | "F"F6 D2 |
+"F"F2 A>F F2 E2 | "Bb"D2 D2 "D7"D2 D2 | "Gm"G2 B>A G2 F2 | "C"E2 c2 (cB) (AG) |
+"F"F4 A4 | "Bb"B4 G4 | "C"c4 c4 | "F"F6 :|
+
+X:1081
+T:Roll Me Over 
+C:Joe Buchanan's Scottish Tome - Page 466.2
+I:466 2
+R:Folk
+Z:Carl Allison
+L:1/8
+M:4/4
+K:G
+"D"D2 | "G"G>G G>G G2 F>G | "Am"A>B A>G E2 A>G | "D7"F>F F>F EE ((3EEE) | "G"D6 D>D |
+"G"GG G>G G2 F>G | "Am"AB A>G E2 A>G | "D7"F>F F>E D>D ((3DEF) | "G"G6 d>d |
+"G"d4 B2 G>G | "C"G4 c2 c>c | "G"B>B B>B "D"A>A ((3AAA) | "G"G6 :|
+
+X:1082
+T:I Do Like To Be Beside The Seaside 
+C:Joe Buchanan's Scottish Tome - Page 466.3
+I:466 3
+R:Folk
+Z:Carl Allison
+L:1/8
+M:4/4
+K:F
+"C7"c>^c | "F"d2 c>A GF EF | "C7"c2 c4 c2 | "F"d2 cA GF EF | "Bb"d6 d2 |
+"C7"e2 d>B A>G ^F>G | "F"d2 c2 B2 "D7"A>F | "G"A2 G2 A2 ((3G^FG) | "C7"A2 G2 E2 c2 |
+"F"d2 c>A G>F E>F | "C7"c2 c6 | "F"d2 c>A G>F E>F | "Bb/D/Gm"d6 ^c>d |
+"E7"e>d e>d e2 =d>=B | "Am"d>c d>c "D"d>c B>A | "Gm"G2 d2- d>A G>A | "F"F6 |
+
+X:1083
+T:Silver Wave, The 
+C:Joe Buchanan's Scottish Tome - Page 469.0
+I:469 0
+R:Folk
+Z:Carl Allison
+L:1/8
+M:2/4
+K:G
+d | g2 (dg) | B/>c/d/>B/ GB | Aa a>g | f/>g/a/>f/ dd |
+g2 (dg) | B/>c/d/>B/ GB | Ae d/>c/B/>A/ | GB G :|
+[K:D] (A/>G/) | F/>D/F/>A/ f/>e/d/c/ | B/>A/B/>d/ g/>f/e/>d/ | c/>A/c/>e/ a/>g/f/>e/ | d/>c/d/>f/ e (A/>G/) |
+F/>D/F/>A/ f/>e/d/c/ | B/>A/B/>d/ g/>f/e/>d/ | c/>A/c/>e/ a/>g/f/>e/ | df d :|
+(A/>G/) | FA d(g/>f/) | eB B(e/>d/) | c/>c/c/>c/ Bc/>B/ | BA A(A/>G/) |
+FA d(g/>f/) | eB B(e/>d/) | c/>c/c/>c/ Bc | (d2 d) :|
+(d/>e/) | f/>g/f/>e/ d/>c/d/>B/ | AF FA | BG Ge | fd d(d/>e/) |
+f/>g/f/>e/ d/>c/d/>B/ | AF FA | B/>G/B/>d/ c/>A/c/>e/ | df d :|
+
+X:1084
+T:Maggie Watson's Farewell To Blackhamm 
+C:Joe Buchanan's Scottish Tome - Page 470.0
+I:470 0
+R:Folk
+Z:Carl Allison
+L:1/8
+M:2/4
+K:D
+B | Ad f/>e/f/>g/  | af (f/>e/)d  | Ac e/>f/g/>e/  | df (f/>g/)a  | 
+Ad f/>e/f/>g/  | af (f/>e/)d  | Ac e/>f/g/>e/ | dd d :| 
+B | Ad f/>e/d/>B/  | AF F/>G/A | GE E/>F/G/>B/ | AF (F/>E/)D  | 
+Ad f/>e/d/>B/  | AF (F/>G/)A  | GE c/>A/B/>c/  | dd d :| 
+B | Ad f/>e/f/>g/  | af (f/>e/)d  | Ac e/>f/g/>e/  | df (f/>g/)a  | 
+Ad f/>e/f/>g/  | af (f/>e/)d  | Ac e/>f/g/>e/  | dd d z |]
+[K:G] 
+(B2> c2) | (d2> c2) | Bd g>a | (gf) f2 | 
+(A2> B2) | (c2> d2) | f>e dc | (d/c/)B  B2 | 
+(B2> c2) | (d2> c2) | Bd g>b | (ba) a2 | 
+(a2> g2) | (f2> e2) | da e>f | (ag) g> z :|
+[K:D] B | Ad f/>e/f/>g/  | af (f/>e/)d  | Ac e/>f/g/>e/  | df (f/>g/)a  | 
+Ad f/>e/f/>g/  | af (f/>e/)d  | Ac e/>f/g/>e/  | df d |] 
+
+X:1085
+T:Palais Glide, The 
+C:Joe Buchanan's Scottish Tome - Page 482.0
+I:482 0
+R:Folk
+Z:Carl Allison
+L:1/8
+M:C
+K:C treble
+W:Intro
+%%vskip 0
+"C"EF | G>^FG>A G>ed>c | "Dm"A>^GA>B A>fe>d | "C7"B2 a2 g2 B2 | [EGc]6 |]
+%%vskip 50
+E>F | "C"G>^FG>A G>ed>c | "Dm"A>^GA>B A>fe>d | "G7"B2 a2 d2 ^d2 | "C"e>d"F#dim"B>A G2 "C"E>F |
+"C"G>^FG>A G>ed>c | "Dm"A^GAB A>fe>d | "C7"B2 a2 g2 B2 | "C"[EGc]6 |]
+c>B | "F"A>^GA>B c2 A2 | "C"G2 E4 e>g | "G7"f2 d4 d>f | "C"e2 c4 c>B |
+"F"A>^GA>B c2 A2 | "C"G2 E4 "Cm"G>A | "G7"B>^AB>d "D7"=A>^GA>B | "G"G6 |]
+E>F | "C"G>^FG>A G>ed>c | "Dm"A>^GA>B A>fe>d | "G7"B2 a2 d2 ^d2 | "C"e>cB>A A2 "C"E>F |
+"C"G>^FG>A G>ed>c | "Dm"A>^GA>B A>fe>d | "G7"B2 a2 g2 B2 | "C"[EGc]6 |]
+%%vskip 50
+[K:F] ((3c^B=B) | "F"A4 B>A"C7"B>G | "F"A2 "F7"c6 | "Bb"d4 f>ef>d | "F"c4- c4 |
+"C7"B4 G>A B2 |"F"A4 F>"D"G A2 | "C"G2 e2 "C7"d>^cd>e | "C7"c6 ((3c_BB) |
+"F"A4 B>A"C7"B>G A2 | "F"A2 "F7"c6 | "Bb"d4 f>ef>d | "F"c4- c4 |
+"C7"B4 G>A B2 |"F"A4 F>"D"G A2 | "Gm"G>AB>d "C7"c2 E2 | "F"F6 |]
+%%newpage
+((3FED) | "A7"^C A4 ((3GFE) | "Dm"F2 D4 D>E | "Gm"F>EF>E F2 D2 | "F"C4 ((3FED) | 
+"A7"^C2 A4 ((3GFE) | "Dm"F2 D4 D>E | "Gm"F>ED>E F2 G2 | "Am"A2 z2 "C7"[EBc]2 :|
+((3c^B=B) | "F"A4 B>A"C7"B>G | "F"A2 c6 | "Bb"d4 f>ef>d | "F"c4- c4 | 
+"C7"B4 G>A B2 | "F"A4 "D"F>G A2 | "C"G2 e2 "C7"d>^cd>e | "C7"c4 ((3c^B=B) |
+"F"A4 B>A"C7"B>G | "F"A2 "F7"c6 | "Bb"d4 f>ef>d | "F"c4- c4 | 
+"C7"B4 G>A B2 | "F"A4 "D"F>G A2 | "Gm"G>AB>d "C7"c2 E2 | "F"F6 |]
+%%vskip 50
+[K:C] E>F | "C"G>^FG>A G>ed>c | "Dm"A>^GA>B A>fe>d | "G7"B2 a2 d2 ^d2 | "C"e>dB>A G2 "C"E>F |
+"Dm"G>^FG>A G>ed>c | "Dm"A>^GA>B A>fe>d | "C7"B2 a2 g2 B2 | "C"c2 [Bfg]2 [cec']2 |]
+%
+W:Errata: Changed the "Dm" chord first measure, second line to "C".
+
+X:1086
+T:Cancan
+C:Joe Buchanan's Scottish Tome - Page 487.0
+I:487 0
+Z:Carl Allison
+C:Jacques Oppenback
+R:Quadrille
+L:1/8
+M:2/4
+K:C
+"G"G.d.d.e | "C"dcce | "F"fac'a | "C"ag g2 |
+"G"aBBa | "C"gcce | "D"eded |1 "G"eded :|2 "G"dc c2 |]
+|: "C"e2 c2 | "C"A2 G2 | "G"GDEF | "C"ED C2 |
+"C"e2 c2 | "C"A2 G2 | "G"^FGAB | "C"dc c2 :|
+|: "C"cG"G"BG | "C"cGBG | "C"cG"G"BG | "C"cG"G"BG |
+"C"cc"G"cc | "C"cc"G"cc | "C"cccc | "C"cc C2 |]
+[K:F] C2 | "F"F4 | "C"GBAG | "F"c2 c2 | "F"cdAB |
+"C"G2 G2 | "C"GBAG | "F"Ffed | "C"cBAG |
+"F"F4 | "C"GBAG | "F"c2 c2 | "F"cdAB |
+"C"G2 G2 | "C"GBAG | "F"Fc"G"GA | "F"F2 z F2 z :|
+%
+W:Errata: Added repeat symbol at start of line 3.
+
+X:1087
+T:When Irish Eyes Are Smiling
+C:Joe Buchanan's Scottish Tome - Page 540.2
+I:540 2
+Z:Carl Allison
+R:Folk
+L:1/4
+M:3/4
+K:D
+A | "D"F2 F | "G"E2 D | "D"F A2 | A F D | "G"G2 B | d2 B | "D"A3- | A B c |
+"G"d2 c | "B g"d2 c | "D"B A2- | "B"A G F | "E"B2 E | "E7"E2 F | "A"E3- | "A7"E2 A |
+"D"F2 F | "G"E2 D | "D"F A2 | "F# d"A F D | "G"G2 B | d2 B | "D"A3- | "A d"A B c |
+"G"d2 c | "B g"e2 d | "D"f3 | "A d"A ^G A | "E"B c d | "A7"e2 d | "D"d3- | "D7"d2 |]
+
+X:1088
+T:Irish Lullaby #1
+C:Joe Buchanan's Scottish Tome - Page 540.3
+I:540 3
+Z:Carl Allison
+R:Folk
+L:1/4
+M:3/4
+K:C
+"C"E2 D | "G7"C2 D | "C"E2 G- | "E c7"G3 | "F"A2 ^G | "A f"A2 B | "Am"c3- | "C7"c3 |
+"F"c2 B | "A f"c2 A | "C"G E2- | "E c"E2 G | "D7"A2 D | "F# d7"D2 E  | "G"D3- | "G"D2 "G7"^D |
+"C"E2 D | "G7"C2 D | "E"E G2- | "E c7"G3 | "F"A2 ^G | "A f"A2 B | "Am"c3- | "C7"c3 |
+"F"c2 B | "A f"c2 A | "C"G E2- | "A7"E G ^G | "D7"A2 c | "G7"c2 d | "C"c3- | "C"c3 |]
+
+X:1089
+T:Cradle Some
+C:Joe Buchanan's Scottish Tome - Page 571.1
+I:571 1
+Z:Carl Allison
+C:F. Scott Skinner
+R:Folk
+L:1/8
+M:4/4
+K:A
+(AcBA) (e2 f2) | (e4 c2) z | (AcBA) (e2 c2) | {c}B6 c2 |
+(AcBA) (e2 f2) | (e4 c2) A2 | {FG}(FEAB) {AB}c2 {Ac}B2 | A6 z |
+(fdAd) (f2 a2) | (e4 c2) z | (AcBA) (e2 c2) | {c}B6 z |
+(AcBA) (ef).g.a | (e4 c2) A2 | {FG}(FEAB) {AB}c2 {Ac}B2 | A6 z |]
+
+X:1090
+T:O Sing To Me The Auld Scotch Sangs
+C:Joe Buchanan's Scottish Tome - Page 577.1
+I:577 1
+Z:Carl Allison
+U:T=!tenuto!
+R:Folk
+L:1/4
+M:3/4
+K:D
+D | (F2 B) | (A2 F) | (E2 F) | B2 A | B d2 | A3- | A2 E |
+F2 B | A2 F | (E2 F) | (D2 B) | B2 F | F2 ^G | B3- | B2 c | 
+(d2 A) | (c2 A) | A2 F | D2 B | (A2 F) | (E2 D) | E3 | c (B c) |
+(F2 A) | (d2 A) | (B2 d) | (A2 F) | (TE2 TE) | (e2 B) | (d3 | c) (B c) |
+(d2 A) | (B2 d) | (A2 F) | (D2 E) | (F2 d) | (E2 F) | D3- | D2 |]
+
+X:1091
+T:o' A The Airts
+C:Joe Buchanan's Scottish Tome - Page 577.2
+I:577 2
+Z:Carl Allison
+R:Folk
+L:1/4
+M:3/4
+K:G
+D/E/ | G2 G | G2 G | (G2 D) | (d2 B) | (A2 G) | (F E2)- | E2 (D/E/) |  
+G2 G | G2 G | (G2 D) | (G2 B) | (d2 e) | (g2 B) | d3- | d2 e | 
+(d2 e) | (g2 B) | (d2 B) | (A2 G) | (A2 B) | (c3/2 (3B/A/G/) | F E2- | E2 (D/E/) | 
+G2 G | G2 D | (G2 e) | (G2 d) | (d B2) | (A2 B) | G3- | G2 (D/C/) | 
+(B,2 D) | (G2 d) | (E2 D) | (G2 A) | (B2 d) | (c3/2 ((3B/A/G/)) | F E2- | E2 (D/C/) | 
+(B,2 D) | (G2 D) | (E2 D) | (G2 A) | (B2 c) | (d3/2 ((3e/f/g/)) | d3- | d2 (e/f/) | 
+(g2 f) | (e2 d) | (e2 d) | (c2 B) | (A2 B) | (c3/2 ((3B/A/G/)) | F E2- | E2 (D/E/) | 
+G2 G | G2 G | (G2 D) | (G2 e) | (d B2) | A2 B | G3- | G2 |] 
+
+X:1092
+T:A Rosebud By My Early Walk
+C:Joe Buchanan's Scottish Tome - Page 578.1
+I:578 1
+Z:Carl Allison
+U:T=!tenuto!
+R:Folk
+L:1/4
+M:3/4
+K:C
+F/D/ | (C2 D) | (E2 F) | (G2 c) | (c B G) | A> B c | (G F E) | D E C | (B, A, G,) |
+(C2 D) | (E2 F) | (G2 c) | (c B G) | A>B c | (d c B) | c3- | c2 (c/d/) |
+(Te2 Te) | (d c B) | (Tc2 Tc) | (c B G) | A>B c | (G F E) | (D E C) | B,2 G |
+(Te2 Te) | (d c B) | c>d c | (c B G) | A>B c | (d c B) | c3 | C2 |]
+
+X:1093
+T:Wind In The Willows, The
+C:Joe Buchanan's Scottish Tome - Page 625.1
+I:625 1
+Z:Carl Allison
+R:Folk
+L:1/4
+M:4/2
+K:C
+V:2 treble
+C | "C"C2 E/G/ | "Dm"A<F E | "G7"D2 E/F/ | "Em"G3- | G2 E | "Am"C2 D/E/ | "Dm"F<D D/C/ | "G7"B,2 C/D/ |
+"C"C3- | C2 z | C E G | "Dm"A F>E | "G7"D E2 | "G7"D/ E2 F/ | "Em"G3- | G E/D/ | "Am"C D/E/ |
+"Dm"F D>C | "G7"B,2 C/D/ | "C"C3- | C2 B/c/ | "F"d>c A | "C"A<G B/c/ | "F"d>c A | "C"G2 B/c/ |
+"F"d c>A | "C"A G G | "Dm"A<c E | "G7"D3- | D2 D | "C"C E>G | "Dm"A<F F/E/ | "G7"D2 E/F/ | 
+
+X:1094
+T:Spinning Wheel Song
+C:Joe Buchanan's Scottish Tome - Page 625.2
+I:625 2
+Z:Carl Allison
+R:Folk
+L:1/4
+M:3/4
+K:Eb
+"Eb"E G>B, | E G>B, | E G B | "Bb7"B/ A/-A2 | D F>B, | D F>B, | D F A | "Eb"A/ G/- G2 |
+B G>A | B>B B | "G#"c A A | "Eb"B/ G/- G2 | "G#"A>B A | "Eb"G>F E | "Bb7"F B F | "Eb"G/ E/- E2 |
+G>G G | E>E E | B, E G | "Bb7"B/ A/- A2 | F>F F | B,>B, B, | B, D F | "Eb"A/ G/- G2 |
+B>B B | "Eb"G>A B | "G#"c A A | "Eb"B/ G/- G2 | "Bb7"A>A A | "Eb"G>F E | "Bb7"F B F | "Eb"G/ E/- E2 |]
+
+X:1095
+T:Wild Rover, The
+C:Joe Buchanan's Scottish Tome - Page 626.1
+I:626 1
+Z:Carl Allison
+R:Folk
+L:1/4
+M:3/4
+K:G
+A | "G"G>A G | E D B | B A B | "C"c2 (B/c/) | "G"d>B d | "D7"c A F | D B A | "G"G2 G |
+G>A G | E D B | B A B | "C"c2 (B/c/) | "G"d>B d | "D7"c A F | D B A | "G"G F G |
+"D"A3 | A3 | F D2- | D3 | "G"D B B | B A B | "C"c3- | c B c |
+"G"d3- | d B G | "C"F E2- | E E/E/ | "G"D !fermata!B A | G3- | G3 | x3 |]
+
+X:1096
+T:Galway Shawl, The
+C:Joe Buchanan's Scottish Tome - Page 626.2
+I:626 2
+Z:Carl Allison
+R:Folk
+L:1/4
+M:3/4
+K:G
+"G"G | G2 F | E D2- | D3 | D2 G/G/ | G2 A | "Bm"B d2- | d3 | d2 d |
+d2 e | "Em"B2 A | G3- | G G B | "A7"A2 G | "D7"E3- | E3- | E2 G |
+"G"G2 F | E D2- | D3- | D2 E/F/ | G2 A | "Bm"B d2- | d3 | d2 d |
+d2 e | "Em"B2 A | G3- | G G B | "A7"A2 G | "G"G3- | G3- | G3 |
+
+X:1097
+T:Love Is Teasing
+C:Joe Buchanan's Scottish Tome - Page 626.3
+I:626 3
+Z:Carl Allison
+R:Folk
+L:1/4
+M:3/4
+K:G
+d | "G"g f g | "G"G3 | "G"B2 d | "D"f2 e | "D"d2 c | "D"A3- | "D"A d | "D"d ^c d |
+"D7"f3 | "D7"e2 d | "D7"d e d | "G"B3- | "E7"B3 | "A7"B2 d | "D7"g f g | "G"G3 |
+"G"B2 d | "D"f2 e | "D"d2 c | "D"A3- | "D"A2 d | "D"d ^c d | "D7"f3 | "D6"e2 d |
+"D7"c F A | "G"G3- | "G"G- | "G"G2 |]
+
+X:1098
+T:Gentle Maiden, The
+C:Joe Buchanan's Scottish Tome - Page 627.1
+I:627 1
+Z:Carl Allison
+C:Pride of erin Waltz
+R:Folk
+L:1/4
+M:3/4
+K:G
+D | "G"G>A G | "D"F E D | "G"d3 | "C"e f g | "G"d>c B | "A"(A2 G) | "C"E3- | E2 F |
+"G"G>A G | "D"F E D | "G"d3 | "C"e f g | "G"d>c B | "D7"(A2 G) | "G"G3- | G2 d |
+"G"d>e f | "C"g2 g | g3 | "C"g f e | "G"d>c B | "A"(A2 G) | "C"E3- | E2 F |
+"G"G>A G | "D"F E D | "G"d3 | "C"e f g | "G"d>c B | "D"(A2 G) | "G"G3- | G2 :|
+
+X:1099
+T:Skillerdon
+C:Joe Buchanan's Scottish Tome - Page 627.2
+I:627 2
+Z:Carl Allison
+R:Folk
+L:1/4
+M:3/4
+K:G
+|: B | "Em"A2 G | "Em"A2 B | "Bm"e2d | "Em"B2 A/G/ | "Am"A2 G | "C"E2 E | "Em"E3- | "Bm"E2 B | 
+"Em"e2 f | g2 f | e2 B | "Bm"d2 e | "Em"B2 A | "G"G2 A | "Em"B3- | "Bm"B2 B |  
+"Em"A2 G | "Em"A2 B | "Bm"e2d | "Em"B2 A/G/ | "Am"A2 G | "C"E2 E | "Em"E3- | "Bm"E2 :|
+%
+W:Errata: Changed meter to 3/4.
+
+X:1100
+T:Shores of Amarthoy, The
+C:Joe Buchanan's Scottish Tome - Page 627.3
+I:627 3
+Z:Carl Allison
+R:Folk
+L:1/4
+M:3/4
+K:C
+|: G | "C"G>E D | C2 E/G/ | "F"c d B | "C"c2E/F/ | "G"G2 F/D/ | "G"B,2D | "C"C3- | C2 B/c/ |
+"G"d3 | "G"G A B | "Am"c d>B | "F"c2 B/A/ | "C"G3 | "Am"E D C | "G"D3 | "G"D2 B/c/ |
+"G"d3 | "G"G A B | "Am"c d>B | "F"c2 B/A/ | "C"G3 | "Am"E D C | "G"D3- | D2 E/F/ |
+"C"G>E D | "Am"C2 E/G/ | "Em"c d>B | "Am"c2 E/F/ | "G"G2 F/D/ | "G7"B,2 D | "C"C3- | C2 :|
+%
+W:Errata: Deleted all of the B chords. Changed meter to 3/4.
+
+X:1101
+T:Black Velvet Band, The
+C:Joe Buchanan's Scottish Tome - Page 639.1
+I:639 1
+Z:Carl Allison
+R:Folk
+L:1/8
+M:6/8
+K:E
+B | "E"B2 B/B/ GAB | A (G2 G) GF | "A"EFG EDC | "B7"(B,2> B,2) BA |
+"E"G>GG B,CD | (E2 F) "C#m"G2 E | "B7"FGA DEF | "E"(E3 E2) :|
+W:Chorus
+%%vskip 0
+B | B2 B GAB | A (G2 G) (GF) | "A"EFG EDC | "B7"B,2>B,2 BA |
+"E"G2 G B,CD | (E2 F) "C#m"G2 E | "F#m"FGA "B7"DEF | "E"E3 E2 |]
+
+X:1102
+T:Wild Colonial Boy, The
+C:Joe Buchanan's Scottish Tome - Page 639.2
+I:639 2
+Z:Carl Allison
+R:Folk
+L:1/4
+M:3/4
+K:C
+"C"G | C2 E | "C7"G2 G | "F"A2 F | "Dm"D2 C | "G7"B, G,2 | E2 D | "C"C3- | C E F |
+G2 G | c2 B | "G7"(B2 A) | D2 D/E/ | "F"F2 G | "G7"B2 A | "C"G3- | G2 G |
+G2 c | c2 B | "G7"B2 A | D2 E | "F"F G2 | "G7"B2 A | "C"G3- | G2 G |
+C2 E | "C7"G2 G | "F"A2 F | "Dm"D2 C | "G7"B,2 G, | E2 D | "C"C3- | C2 |
+
+X:0
+%%newpage
+%%withxrefs 0
+%%lineskipfac 30
+%%begintext center
+%%This page intentionally left blank
+%%endtext
+K:

@@ -1,0 +1,93 @@
+X: 1
+T: Saturday Night and Sunday Morning
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.148 #195 (295)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.49 "F"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The dance description is in four sections and two columns; ## is used here to indicate columns.
+N: DMDfD doesn't have the c naturals; CCDM1 does, but of course they're written as c flats.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f  | f>ed a2A  | eee e2g  | f>ed a2A  | ddd d2 |]\
+=c | B>AG F>ED | eee e2=c | B>AG F>ED | ddd d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up all a D. forward and back .| That again.
+%% ##
+%%		Sett and turn S .| That again :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First and 2d Cu. go about your own, not turning yr
+%% faces .| Men the like about each other, and we.
+%% about each other :|
+%% ##
+%%		First Man and 2d Wo. change across, 1st Wo
+%%		and 2d Man as much .| Each change with his
+%%		own, sett :| So forward, the rest following
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First man lead his Wo. with his left Hand downward
+%% under the 2d Cu. Arms, lead up again, 2d Cu. coming under
+%% your Arms .| First Man take the 2d Man by the left
+%% Hand with his right, cast off and come to your
+%% Places, We. do so at the same Time.
+%% ##
+%%		Change Places with your own, Men change 
+%%		Places, We changing at the same Time .| 
+%%		Change each with his own, sett :| And so
+%%		forward to the rest :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%%  First and 2d Cu. meet, Men Hands, We. Hands,
+%% lead to the Wall .| Meet again, take your own
+%% We. and lead from each other.
+%%		Change with your own, Men change and
+%%		We change at the same Time .| Change
+%%		again with your own, Sett .| And so to
+%%		the rest :|
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% Lead up all a D. forward and back .| That again :|
+%%		Set and turn S. .| That again :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First and 2. cu. go about your own, not turning your faces .|
+%% Men the like about each other, and we. about each other :|
+%% ##
+%%		First man and 2. wo. change across. 1. wo. and
+%%		2. man as much .| Each change with his own,
+%%		set :| so forward, the rest following in order.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First man take his wo. in his left-hand and lead her downward under
+%% the 2. cu. arms, lead up again, the 2. cu. coming under your arms .|
+%% First man take the 2. man by the left-hand with his right, cast off and
+%% come to your places, we. doing the like at the same time,
+%% ##
+%%		Change places with your own, men change places,
+%%		we. changing at the same time .| Change each
+%%		with his own, set :| and so forward to the rest :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First and second cu. meet, men hands, we. hands, lead to the wall .|
+%% Meet again, take your own we. and lead from each other.
+%% ##
+%%		Change with your own, men change and we. change
+%%		at the same time .| Change again with your own
+%%		set :| and so on to the rest :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

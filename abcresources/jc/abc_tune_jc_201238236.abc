@@ -1,0 +1,27 @@
+X: 3042
+T: Lady Ann Hope's Favourite    Strathspey
+%R: air, strathspey
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.4 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "Slow"
+K: G
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 6-bar lines, for compactness and proofreading.
+V: 1 staves=2
+ge |\
+Td3B G2Bc (dc)BA G2Bc | {Bc}d3B{B}g3B {B}[A4F4] [A2F2]Bc |\
+{Bc}d3BG2B2 d2ga {ga}b3a | {f}g3ed2B2 TG4 G2 :|\
+a2 |\
+(ga)ba Tg2d2 (ef)gf {e}d2cB | d2ef (ge)dB {B}[A4F4] [A3F2]a |
+(ga)ba Tg3d efgf {f}e2dB | Td2ef (ge)dB {B}d4 d3a ||\
+(ga)ba g3d (ef)gf {f}e2dB | d2(e/g/)(f/a/) gedB{B}A4 A2ge |\
+~d3BG2B2 d2ga {ga}b3a | g3e{e}d2B2 G4 TG2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | g4G4 g4G4 | b4g4 d'4d4 | g4G4 g4G4 | B2c2 d2D2 G2g2G2 :|
+z2 | g6B2 c6G2 | B2c2 B2G2 d2A2 D4 | G2g2G2B2 c4B2G2 | B2c2d2D2 G2g2G4 ||
+G2g2 b2g2 c2c'2c2g2 | b2c'2 b2g2 d2d'2 d4 | g4G4 B4G2c2 | B2c2 d2D2 G2g2G2 |]

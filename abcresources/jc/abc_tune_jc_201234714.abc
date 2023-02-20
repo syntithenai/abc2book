@@ -1,0 +1,26 @@
+X: 20723
+T: STACK IN VIRGO
+O: Irish air.
+Q: "Slow and with feeling."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.72 #3 (and p.73 #1)
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(GA) |\
+{GA}B2D2E2 | G4G2 | A4(AG) | A2B2G2 |\
+c4(BA) | B2d2g2 | G4E>F | G2c4 |\
+F3G (AF) | E3F (GE) | D2E2G>A | G4 :|\
+|: (G>A) |\
+{GA}B2 GABc | d2B2d2 | edefge | edcBAG |
+B2GABc | d2B2d2 | g4eg | edcBAG |\
+g4 g/a/b | B4(d>B) | A4(AG) | A2B2G2 |\
+c4 B>A | B2d2g2 | G4(EF) | G2cBAG |\
+F/G/A/B/ cFED | E/F/G/A/ BEDC | D2E2(G>A) | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

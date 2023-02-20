@@ -1,0 +1,29 @@
+X: 1
+T: Farewell To Nigg
+C: D. Johnstone
+R: air, march, waltz
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+F: http://ocsession.eu/?p=1185
+S: Chords from Concord Slow Scottish Session collection
+Q: 80
+M: 3/4
+L: 1/16
+K: Bm
+% - - - - - - - - - -
+V: A nm=A
+V: B nm=B
+V: C nm=C
+V: D nm=D
+% - - - - - - - - - -
+[V:A]|: B3c |\
+"Bm"d4 c3B "A"A2c2 | "Bm"B4- B4 d3e | "D"f4 d3e "A7"f2a2 | "D"f4- f4 f2a2 |\
+"Bm"f4 B4 "G"d2e2 | "A"c3B A4 c2e2 | "G"f4 e3c "A"A2c2 | "Bm"B4- B4 :|
+[V:B]|: d3e |\
+"^D"f4 f4 "A"a3e | "Bm"f4 B4 d3e | "D"f4 f2a2 "E7"f3e | "A"c4- c4 c2e2 |\
+"Bm"f4 B4 "G"d2e2 | "A"c3B A4 c2e2 | "G"f4 e3c "A"A2c2 | "Bm"B4- B4 :|
+[V:C]|: B3c |\
+"Bm"d4 e4 "A"c2A2 | "Bm"B4- B4 d3e | "D"f4 d3e "A7"f2a2 | "D"f4- f4 "A"a3e |\
+"Bm"f4 B4 "G"d2e2 | "A"c3B A4 c2e2 | "G"f4 e3c "A"A2c2 | "Bm"B4- B4 :|
+[V:D]|: d3e |\
+"D"f4 f2a2 "A"f3e | "Bm"f4 B4 d3e | "D"f4 f2a2 "E7"f3e | "A"c4- c4 a3e |\
+"Bm"f4 B4 "G"d2e2 | "A"c3B A4 c2e2 | "G"f4 e3c "A"A2c2 | "Bm"B4- B4 :|

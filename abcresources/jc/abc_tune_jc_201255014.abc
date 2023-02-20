@@ -1,0 +1,398 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 13
+B: RSCDS Book 13
+K:
+%%center Book13/1300-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1301
+T: The Duran Ranger
+P: Duran Rangers
+C:Traditional
+R:Reel (8x32)
+B:RSCDS 13-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:D
+A|"D"FDFA d2ef|"G"gefd "A"c2BA|"G"BcdB "D"ABAF|"A"G2E2E3 A|
+  "D"FDFA d2ef|"Em"gefd "A"c2BA|"G"BcdB "A7"ABAG|"D"F2D2D2||
+fg|"A"afaf d2 ga|"G"bgbg "Em"e2 fg|"D"afaf abaf|"A7"g2e2e3 A|
+  "D"FDFA d2ef|"Em"gefd "A"c2BA|"G"BcdB "A7"ABAG|"D"F2D2D2|]
+%%center Book13/1301-Duran_Ranger-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1302
+T: Miss Cahoon's Reel
+P: Miss Cahoon's Reel
+C:Traditional
+R:Jig (8x48) ABABAB
+B:RSCDS 13-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:F
+C|"F"F2G A2B|cfd cAF|"Gm"B>AB "F"cAF|"C7"E>FG G2F|
+  "F"FCF AFA|cf"Bb"d "F"cAF|"Gm"B>AB "C7"GcB|"F"AFF F2||
+c|"Dm"f>ef "C"gec|"Bb"dfd "F/A"cAF|"Gm"B/c/dB "F"A/B/cA|"C"E>FG G2 c|
+  "Dm"faf "C"ece|"Bb"dfd "F/A"cAF|"Gm"B>AB "C7"GcB|"F"AFF F2|]
+%%center Book13/1302-Miss_Cahoons_Reel-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1303
+T: Mrs Stewart's Strathspey
+P: John Roy Stewart
+C:MacGlashan, c. 1800
+R:Strathspey (8x48) ABABAB
+B:RSCDS 13-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:Dm
+f|"C"c>B A>G "F"F<G A2|"C"c>G "F"A>F "C"c>G "F"A<f|\
+  "C"c>B "A7"A>G "Dm"F>G A<F|D<d "Am"[dE]>c "Dm"[d2F2][dF] f|
+  "C"c>B A>G "F"F<G A2|"C"c>G "F"A>F "C"c>G "F"A<f|\
+  "C"c>B "A7"A>G "Dm"F>G A<F|D<d "Am"[dE]>c "Dm"[d2F2][dF]||
+f|"F"c>d f>g a<f g>a|"Bb"f>d d/c/B/A/ "F/A"f<c c>f|\
+  c>d f>g "Dm"a<f g>a|"Am"c>a g>f "Dm"d3 f|
+  "F"c>d f>g a>f g>a|"F/A"f>c "Bb"d/c/B/A/ "F/A"f>c cf/g/|\
+  "F"a>f "Gm"g>d "F/A"f>c "Bb"d<f|"Dm/A"A<d "Am"[dE]>c "Dm"[d2F2][dF]|]
+%%center Book13/1303-Mrs_Stewarts_Strathspey-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1304
+T: Barley Bree
+P: Barley Cakes
+C:Bremner, c. 1757 (Here from Gow 3rd Repository)
+R:Jig (4x40) AABAB
+B:RSCDS 13-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+|:c|"G"B2G B/c/dB|"F"A2=F A/B/cA|"G"B2G B/c/dB|d3 g3|
+    "G"B2G B/c/dB|"F"A2=F ABc|"G"dcB "D"cBA|"G"G3 G,3:|
+  d|"C"gag "G"fgf|"C"e2d B3|gag "A7"f2g|"D"a3 d3|
+    "Am"c2a "G"B2g|"C"ABG "Dm"F>ED|"G"G>AB "D7"AGF|"G"G3 "D.C."G2|]
+%%center Book13/1304-Barley_Bree-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1305
+T: The Highland Reel
+P: Lady Hunter Blair's Reel
+C:Gow's Collection
+R:Reel (nx32)
+B:RSCDS 13-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:Am
+a|"Am"e2AA e2ea|"G"g2eg dGBG|"Am"e2AA e2eg|"D"^fd"Em"gB "Am"A2 Aa|
+  "Am"e2AA e2ea|"G"g2eg dGBG|"Am"e2AA e2eg|"D"^fd"Em"gB "Am"A2 A||
+c|"Am"A2EE ABcB|"G"GABc dedB|"Am"A2EE ABcd|"Em"e^fgB "Am"A2Ac|
+  "Am"A2EE ABcB|"G"GABc dedB|"C"ecgc "G/B"dBgB|"Am"cA"E7"B^G "Am"A2A|]
+%%center Book13/1305-Highland_Reel-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1306
+T: A Kiss for Nothing
+P: Oh! as I was kissed yestreen
+C:Bremner (here from Gow)
+R:Jig (8x32)
+B:RSCDS 13-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Am
+|:E|"Am"A>BA ABd|"G"e/^f/gB "Am"A2 c|"Em"BAB GAG|"G"BAB GAB|
+    "Am"cBc "G"dcd|"C"ede "F"a2g|"C"edB "E7"ABd|"Am"e2A A2:|
+|:^g|"Am"a2A ABA|a2A A2^f|"G"g2G GAG|BAB GAB|
+    "Am"cBc "G"dcd|"C"ede "F"a2g|"C"edB "Dm"ABd|"Am"e2A A2 :|
+%%center Book13/1306-Kiss_for_Nothing-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1307
+T: The Nether Bow Has Vanished
+P: The Marquis of Huntly's Snuff-mill/The Royal Gift
+C:Niel Gow
+R:Strathspey (8x48) ABABAB
+B:RSCDS 13-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:F
+D|"F"C<F F>A "Bb"G>F D2|"F"C<F F>A "C"cd/e/ "F/A"f>c|\
+  "Bb"d>c "F/A"f>A "Gm"B/A/G/F/ "Bb"D2|"F"C>F A>F "C7"G2 "F"FD|
+  "F"C<F F>A "Bb"G>F D2|"F"C<F F>A "C"cd/e/ "F/A"f>c|\
+  "Bb"d>c "F/A"f>A "Gm"B/A/G/F/ "Bb"D2|"F"C>F A>F "C7"G2 "F"F||
+d|"F"c>f f>a "Bb"g>f d2|"F"c>f f>a "C7"g>a "F"f<c|\
+  "Bb"d>f "F"c>A "Gm"B/A/G/F/ "Bb"D2|"F"C>F A<F "C7"G2 "F"Fd|
+  "F"c>f f>a "Bb"g>f d2|"F"c>f f>a "C7"g>a "F"f<a|\
+  "Bb"d>f "F"A>c "Gm"B/A/G/F/ "Bb"D f/g/|"F"a>F c>A "C7"G2 "F"F|]
+%%center Book13/1307-Nether_Bow_Has_Vanished-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1308
+T: Fly Not Yet
+P: Bide ye yet
+C:Old Scottish Song (taken here from Surenne)
+R:Jig (8x48) ABABAB
+B:RSCDS 13-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Dm
+c/B/|"F"A>GA F2G|A2c BAG|A>GA F2G|"Dm"A2d d2 c/B/|
+     "F"A>GA F2G|A2c BAG|"Dm"A2d d>ef|A2d d2||
+A|"Dm"A2d d>ef|"Am"A2c c2 B|"Dm"A2d d>ef|A2d d2 c/B/|
+  "F"A2f f>ga|A2c c2B|[A2F2][GE] "Bb"[F2D2][GE]|"Dm"[A2F2-][dF-][d2F2]|]
+%%center Book13/1308-Fly_Not_Yet-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1309
+T: Strathglass House
+P: Mr Muir Mackenzie's Favourite
+C:Mr Sharpe of Hoddom
+R:Strathspey (8x32)
+B:RSCDS 13-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:D
+f|"D"d2 A>G F<D DE/F/|"Em"G>F E>D "A7"C<A, B>c|\
+  "D"d>e d>B A>F "Em"G>B|"D"A<F "A7"E>G "D"F<D D f|
+  "D"d2 A>G F<D DE/F/|"Em"G>F E>D "A7"C<A, B>c|\
+  "D"d>e d>B A>F "Em"G>B|"D"A<F "A7"E>G "D"F<D D||
+f/g/|"D"a>b a>g "Bm"f>e f<d|"Em"g>f e>d "A7"c>B c<A|\
+  "D"a>b "A"a>g "Bm"f>e f<d|"Em"g>e "A7"a>f "D"d2 f/g/|
+  "D"a>b a>g "Bm"f<d e>f|"Em"g>f e>d "A7"c<A B>c|\
+  "Bm"d>e f<d "Em"e>f g<e|"A7"f<a c>e "D"d2|]
+%%center Book13/1309-Strathglass_House-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1310
+T: The Reel of the 51st Division
+P: The Drunken Piper/Highland Rory
+C:Alex. McLeod, c. 1880
+R:Reel (8x32)
+B:RSCDS 13-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:ADor
+|:e2|"Am"AAAB e4|edBd e2g2|"G"GGGB d4|dBGB d2e2|\
+  "Am"AAAB e4|edBd e2a2|
+                        "Em"g2eg efed|"Am"B2A2 A2:|\
+e2|"Am"a4 e2a2|edef g2a2|"G"GGGB d3e|dBGB d2e2|
+   "Am"a4 e2a2|edef g2a2|"Em"g2eg efed|"Am"B2A2 A2e2|\
+   "Am"a4 e2a2|edef g2a2|
+                         "G"GGGB d3e|dBGB d2e2|\
+   "Am"AAAB e4|edBd e2a2|"Em"g2eg efed|"Am"B2A2 A2|]
+%%center Book13/1310-Reel_of_the_51st_Division-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1311
+T: Bridge of Nairn
+P: The old man will never die
+C:Bremner, here from Gow
+R:Strathspey (8x32)
+B:RSCDS 13-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:Bm
+D|"G"G>B d>B "C"e2 e>g|"G"d/c/B/A/ G>B "D"A2 A>B|\
+  "G"G>B d>B "Em"e2 e>f|"C"g>a g>e "Bm"B2 BD|
+  "G"G>B d>B "C"e2 e>g|"G"d/c/B/A/ G>B "D"A2 A>B|\
+  "G"G>B d>B "Em"e2 e>f|"C"g>a g>e "Bm"B2 B||
+d|"G"g>a g>e d>e d<B|g>a g>e "D"a>g a<b|\
+  "G"g>a g>e "Em"d>e g<b|"D"a>f "C"g>e "Bm"B2 B>d|
+  "G"g>a g>e d>e d<B|g>a g>e "D"a>g a<b|\
+  "G"g<b "Am"e<g "G"d>e g<b|"D"a>f "Em"g>e "Bm"B2 B|]
+%%center Book13/1311-Bridge_of_Nairn-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1312
+T: Ladies' Fancy
+P: Peggie's Wedding
+C:Bremner, here from Gow
+R:Jig (8x32)
+B:RSCDS 13-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:C
+G|"C"c>dc "(Em/B)"c2c|"Am"ceg "C/G"gec|"F"c>dc "C/E"c2c|"Dm"Bcd "G7"dBG|
+  "C"c>dc "(Em/B)"c2c|"Am"ceg "C/G"gec|"F"faf "C"ege|"G7"B>cd dBG||
+  "C"c>dc g2c|e2c g2c|c>dc g2c|"G"B>cd "G7"dBG|
+  "C"c>dc "C/B"gec|"Am"edc "C/G"gec|"Am"faf "G"ege| "G7"B>cd dB|]
+%%center Book13/1312-Ladies_Fancy-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 13011
+T: The Duran Rangers
+O: Old MS
+B: RSCDS 13-1
+M: 4/4
+L: 1/8
+%--------------------
+K: D
+AG |\
+"D"FDFA d2ef | "G"gefd "A7"c2BA |\
+"G"BcdB [1,3 "D/F#"ABAF | "Em"G2E2 "A7"E2 :|\
+        [2,4 "A7"ABAG | "D"F2D2 D2 :|
+|: fg |\
+"D"afaf d2ga | "G"bgbg "A7"e2fg |\
+"D"afaf "Bm"abaf | "Em"g2e2 "A7"e2 ||
+AG |\
+"D"FDFA d2ef | "G"gefd "A7"c2BA |\
+"G"BcdB "A7"ABAG | "D"F2D2 D2 :|
+%%center Book13/13011-Duran_Rangers.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 13121
+T: Peggie's Wedding
+R: jig
+B: RSCDS 13-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: C
+G \
+|: "C"c>dc       c2c |     ceg     gec \
+|     c>dc "(Am)"c2c | "Dm"Bcd "G7"dBG \
+| "C"c>dc    c2c |     ceg     gec |
+|  "F"faf "C"ege | "Dm"Bcd "G7"dBG \
+::  "C"c>dc       g2c |     e2c     g2c \
+|      c>dc "(Am)"g2c | "Dm"Bcd "G7"dBG |
+|   "C"c>dc   gec |     edc     gec \
+|1  "F"faf "C"ege | "Dm"Bcd "G7"dBG \
+:|2 "F"faf "C"gfe | "G7"dcB  "C"c3 |]
+%%center Book13/13121-Peggies_Wedding-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Duran Rangers
+O: Old MS
+B: RSCDS 13-1
+M: 4/4
+L: 1/8
+K: D
+AG |\
+"D"FDFA d2ef | "G"gefd "A7"c2BA |\
+"G"BcdB [1,3 "D/F#"ABAF | "Em"G2E2 "A7"E2 :|\
+        [2,4 "A7"ABAG | "D"F2D2 D2 :|
+|: fg |\
+"D"afaf d2ga | "G(Em)"bgbg "A7"e2fg |\
+"D"afaf "Bm"abaf | "Em"g2e2 "A7"e2 ||
+AG |\
+"D"FDFA d2ef | "G(Em)"gefd "A7"c2BA |\
+"G"BcdB "A7"ABAG | "D"F2D2 D2 :|
+%%center Book13/DuranRangers.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Peggie's Wedding
+R: jig
+B: RSCDS 13-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+G \
+|: "C"c>dc       c2c |     ceg     gec \
+|     c>dc "(Am)"c2c | "Dm"Bcd "G7"dBG \
+| "C"c>dc    c2c |     ceg     gec |
+|  "F"faf "C"ege | "Dm"Bcd "G7"dBG \
+::  "C"c>dc       g2c |     e2c     g2c \
+|      c>dc "(Am)"g2c | "Dm"Bcd "G7"dBG |
+|   "C"c>dc   gec |     edc     gec \
+|1  "F"faf "C"ege | "Dm"Bcd "G7"dBG \
+:|2 "F"faf "C"gfe | "G7"dcB  "C"c3 |]
+%%center Book13/PeggiesWedding-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Peggie's Wedding
+R: jig
+B: RSCDS 13-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+G \
+|: "C"c>dc       c2c |     ceg     gec \
+|     c>dc "(Am)"c2c | "Dm"Bcd "G7"dBG \
+| "C"c>dc    c2c |     ceg     gec |
+|  "F"faf "C"ege | "Dm"Bcd "G7"dBG \
+::  "C"c>dc       g2c |     e2c     g2c \
+|      c>dc "(Am)"g2c | "Dm"Bcd "G7"dBG |
+|   "C"c>dc   gec |     edc     gec \
+|1  "F"faf "C"ege | "Dm"Bcd "G7"dBG \
+:|2 "F"faf "C"gfe | "G7"dcB  "C"c3 |]
+%%center Book13/PeggiesWedding_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Peggie's Wedding
+R: jig
+B: RSCDS 13-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+G \
+|: "C"c>dc       c2c |     ceg     gec \
+|     c>dc "(Am)"c2c | "Dm"Bcd "G7"dBG \
+| "C"c>dc    c2c |     ceg     gec |
+|  "F"faf "C"ege | "Dm"Bcd "G7"dBG \
+::  "C"c>dc       g2c |     e2c     g2c \
+|      c>dc "(Am)"g2c | "Dm"Bcd "G7"dBG |
+|   "C"c>dc   gec |     edc     gec \
+|1  "F"faf "C"ege | "Dm"Bcd "G7"dBG \
+:|2 "F"faf "C"gfe | "G7"dcB  "C"c3 |]
+%%center Book13/PeggiesWedding_JC.abc

@@ -1,0 +1,31 @@
+X: 392
+T: Balgeny's Bouling Green
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.39 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The notes in the bass line are all quarter notes, without dots; fixed.
+M: 12/8
+L: 1/8
+K: Ddor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+(D>ED) D2c GEC C2E | (DED) D2f Te2d ecA |\
+(fgf) Te2d cAc C2E | (DED) D2f (e/f/g)e d3 :|
+|:\
+(ded) d2a gec c2e | ded d2a g2e gec |\
+(fgf) Te2d cAc C2E | (DED) D2f (e/f/g)e d3 :|
+|:\
+dAd cAc GEC CDE | dAd cAc dAd cAc |\
+fed cAc GEC C2E | (DED) D2f (e/f/g)e d3 :|
+|:\
+{fg}afd afd gec efg | afd afd afd afd |\
+(fgf) Te2d cAc C2E | (DED) D2f ( e/f/g)e d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d3 d3 c3 c3 | d3 d3 A3 A3 | d3 d3 c3 c3 | d3 d3 A3 D3 :| |: d3 d3 c3 c3 |
+d3 d3 c3 c3 | d3 d3 c3 c3 | d3 d3 A3 D3 :| |: d3 d3 c3 c3 | d3 d3 d3 d3 | d3 d3
+c3 c3 | d3 d3 A3 D3 :| |: d3 d3 c3 c3 | d3 d3 d3 d3 | d3 d3 c3 c3 | d3 d3 A3 D3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

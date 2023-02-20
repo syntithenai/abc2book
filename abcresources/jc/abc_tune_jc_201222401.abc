@@ -1,0 +1,33 @@
+X: 5
+T: Leister House
+%R: reel
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed.
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+|:\
+(gfed) c2a2 | (gfed) c2g2 | {f}e2(dc) B2c2 | d4 G4 |\
+(gfed) c2a2 | (gfed) c2e2 | A3c BcdB | c4 C4 :|\
+|:\
+(GFEF) G2c2 |
+(GFEF) G2c2 | A2c2 ^F4 | G4 G,4 |\
+a2^f2 g4- | g2e2 f4 | e2dc BcdB | c4 C4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+c4 c4 | c4 c4 | c2"6"a2g2"6;5"^f2 | "5;3"g4 g4 | c4 c4 | c4 "6"e4 | "6;5"f2d2 "4"g2"3"G2 | c8 :|\
+|:\
+c4 "6"e4 |
+c4 "6"e4 | f4 "7;#"d4 | "5;3"g4 G4 |\
+"#"d4 z2e2 | c4 z2d2 | "6"e2f2g2G2 | c8 :|
+%%begintext align
+%% First Cu. foot it and cast off one Cu. & turn. the 2d Cu. do the same || Cast off & lead up a Breast
+%% with the 2d Cu. & cast off into the 2d Couple's Place & Right Hand & left all Round.
+%%endtext

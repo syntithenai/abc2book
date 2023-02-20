@@ -1,0 +1,31 @@
+X: 14171
+T: the Blossom of the Rasberry
+%R: air, march, reel
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.4 p.17 #1
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The next tune ("Gig") might be intented as part of this tune, but they're not very similar.
+M: C
+L: 1/16
+K: D
+%%slurgraces 1
+%%graceslurs 1
+|: "_Slow"\
+f4 fga2 g2f2(e2d2) | a3g f2(ga) A8 |\
+B4 (A2G2) (F2A2) (d2F2) | (G2F2)(E2D2) {D}E8 |\
+f2(ga) g2f2 (e2d2)(e2c2) | (dcde) f2A2 (FDFA) d2D2 |
+f4 Te3d (B2A2) .d(BAG) | F4 TE4 {DE}D8 ::\
+a3ba2g2 (Tf3e)d4 | (a3b)(e3g) Tf4(e2d2) |\
+f2a2d'2a2 (b2a2)(g2f2) | (g2f2)(e2d2) {d}e8 |
+f2(ga) g2f2 e2d2e2c2 | (dcde) f2A2 (FDFA) d2D2 |\
+f4 (afed) (B2A2) (dBAG) | F4 TE4 {DE}D8 ::\
+(fga2) d2b2 (af3) Te3d | {de}f4 (edef) A6d2 |
+B3d (cBAG) (F2A2) (d2f2) | g3f (ba)(gf) Te4 d2e2 |\
+(f2a2) (g2f2) e2(fg) (fe)(dc) | (dfeg) f2A2 F(DEF GABc) |\
+{de}f4 Te3d B2(AB) .d(BAG) |
+F4 {A}G2(FE) D8 ::\
+a3b agfe fdAF DFAd | fdab agfe Tf3e d4 |\
+f2a2d'2f2 b2(gb) afec | d2(ef) gfbg {f}e8 |
+f2ga bgfe a(fed) .g(edc) |\
+d(efg) a2A2 FDEF GABc |\
+(d/e/f3) (e/f/g3) f(dce) d(BAG) | F4 {A}G2(FE) D8 :|

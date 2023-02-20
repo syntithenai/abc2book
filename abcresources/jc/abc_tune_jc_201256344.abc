@@ -1,0 +1,22 @@
+X:83
+T:Braye's Magott
+M:9/8
+L:1/8
+Z:2011 John Chambers jc:trillian.mit.edu
+B:Thomas Bray's Country Dances 1699 p.26
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=100 "  rather quickly"
+F:http://trillian.mit.edu/~jc/music/book/ThomasBraysCountryDances1699/11_BrayesMagott.abc
+K:A
+V:1
+|: AcA ecA BGE | AcA ecA B2E | Acf ecf eca | ecf ece a2c :|
+dfd afd ecA | dfd afd e2A | dfd afd ecA | dfd afd e2c |
+dfd ecd BcA | BFA FBA G2E | AcA ecf eca | ecf ece Ha2A |]
+V:2
+|: C2E C2E D2E | C2E C2E D2E | C2D C2D CEF | E2D C2B, C2E :|
+F2A F2A =G2A | F2A F2A =G2A | F2A F2A =G2A | F2A F2A C2E |
+F3 E2F E2F | ^G3 F3 E2=D | C2E C2E CEF | E2D C2B, HC2E |]
+V:3 bass octave=-2
+|: "A"A3 A3 "E"e>dc/B/ | "A"A3 A3 "E"e3 | "A"A3 A3 A3 | "A"A2"D"d "E"e3 "A"A3 :|
+"D"d3 d3 "A"a>=gf/e/ | "D"d3 d3 "A"a3 | "D"d3 d3 "A"a3 | "D"d3 d3 "A"a3 |
+"D"d3 "A"c2B "E"G2"A"A | "E"e3 "B7"^d3 "E"e>=dc/B/ | "A"A3 A3 A3 | "D"A2"D"d "E"e3 "A"A3 |]

@@ -1,0 +1,37 @@
+X: 20131
+T: VOLUNTEER'S MARCH
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" 1843 p.13 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The first notes have different lengths; added initial rest to voice 1 to fix the rhythms.
+N: Perhaps voice 1's first note should be lengthened instead, to agree with voice 2's pickup.
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+zG |\
+c2c>c c2df | e2e>e e2gf | edcd egfe | d2d>d d2G2 |\
+c2c>c c2df | e2e>e e2gf | edcd e2d2 | [c2A2]c>c c2 :|
+|: ef |\
+g2g>g g2(fe) | f2d>d d2(de) | f2f>f f2(ed) | e2c>c c2d2 |\
+ecGc ecGc | d2d>d d2(gf) | edcd e2d2 | c2c>c c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+G2 |\
+E2E>E E2Bd | c2c>c c2ed | cGEG cedc | B2B>B B2G2 |\
+E2E>E E2G2 | c2c>c c2ed | cGEG c2G2 | E2E>E E2 :|
+|: cd |\
+e2e>e e2(dc) | d2B>B B2Bc | d2d>d d2(cB) | c2E>E E2G2 |\
+cGEG cGEG | B2B>B B2ed | cGEG c2G2 | E2E>E E2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+c2c>c c2d2 | c2c>c c2G2 | cccc cccc | G2G>G G2G2 |\
+c2c>c c2d2 | c2c>c c2G2 | c2c2 g2G2 | c2c>c c2 :|
+|: c2 |\
+[e2c2][ec]>[ec] [e2c2]c2 | G2G>G G2c2 | f2f>f f2d2 | c2c>c c2G2 |\
+cccc cccc | G2G>G G2g2 | c2c2 g2G2 | c2c>c c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

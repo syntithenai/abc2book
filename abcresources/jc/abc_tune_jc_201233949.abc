@@ -1,0 +1,67 @@
+X: 20181
+T: FAVORITE SCOTCH MARCH
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" 1843 p.18 #1 (and p.19 #1)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: In bar 27, voice 2, the 2nd a should probably be g.
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has staffs reformatted for easier proofreading.
+V: 1 staves=3
+C2 |\
+F3 A c>A f>d | c3 A c>A f>d |\
+c>d f>g a2 g>f | d2 d>d cBAG |\
+F3 A c>A f>d | c3 A c>A f>d |
+c>a g>f d>c d>e | f2 f>f f2 :|\
+|: f>g |\
+f>a gf d3 e | f>e f>g f>a F>G |\
+A< c a>g fdcA | G2 G>G G2 c/B/A/G/ |
+F3 A c>A f>d | c3 A c>c f>d |\
+c>a g>f d>c d>e | f2 f>f "^Fine"f2 H:|\
+|: F>G |\
+A2 B>c d2 f>d | c>A G>B A2 A>G |\
+F2 F>G A2 c>A |
+G>F G>A G2 G>B |\
+c>f a>g f2 A>B | c>f a>g f2 g>a |\
+b>g a>f c>a g>f | g2 g>g g2 :|\
+|: b>c' |\
+b.a.g.f .f.e.d.c | cdfc d2 c'>c' |
+c'2 b/a/g/f/ aac'a | g>f g>a g2 FG |\
+A2A>B c2 f>d | c>A G>B A2 A>B |\
+c/d/e/f/ e/f/g/a/ g/e/f/d/ c/A/B/G/ | F2 f>f "^D.C."f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the oroginal staff layout.
+V: 2
+z2 |\
+C3 F A>F d>B | A3 F A>F d>B | A>B A>B c2 B>A | B2 B>B AGFE |\
+C3 F A>F d>B | A3 F A>F d>B | A>f B>A B>A G>B | A2 A>A A2 :|
+|: A>B |\
+A>c BA B3 G | A>G A>B A<c C>E | F< A f>e dBAF | E2 E>E E2 z2 |\
+C3 F A>F d>B | A3 F A>A d>B | A>f e>d B>A B>c | A2 A>A A2 :|
+|: z2 |\
+F2 G>A B2 d>B | A>F E>G F2 F>E | D2 D>E F2 A>F | E>D E>F E2 E>G |\
+A>c f>e c2 F>G | A>c f>e d2 e>f | g>e f>d A>f e>d | [e2c2] [ec]>[ec] [e2c2] :|
+|:g>a |\
+gfed dcBA | ABdA B2 a>a | a2 a/f/e/d/ ffaf | e>d e>f e2 CE |\
+F2 F>G A2 d>B | A>F E>G F2 F>G | A/B/c/d/ c/d/e/f/ e/c/d/B/ A/F/G/E/ | [A2F2] A>A "^D.C."A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the oroginal staff layout.
+V: 2
+V: 3 clef=bass middle=d
+z2 |\
+f2 f2 f2 f2 | f2 f2 f2 f2 | f2 f2 f2 c2 | B2 B2 c2 c2 |\
+f2 f2 f2 f2 | f2 f2 f2 f2 | f2 f2 f2 B>c | f2 f>f f2 :|
+|: z2 |\
+f2 f2 B3 c | f2 f2 f2 f2 | f< f f2 b2 c'2 | c2 c>c c2 z2 |\
+f2 f2 f2 f2 | f2 f2 f2 f2 | f2 f2 f2 bc' | f2 f>f f2 :|
+|: z2 |\
+f2 B2 B2 f2 | f2 c2 f2 c2 | f2 f2 f2 f2 | c2 c2 c2 c2 |\
+f2 f2 f2 f2 | f2 f2 f2 f2 | b2 a2 f2 c2 | c2 c>c c2 :|
+|: z2 |\
+B2 c2 f2 bf | f2 f2 B2 c2 | c2 B2 f2 f2 | B2 c2 c2 z2 |\
+f2 f2 f2 f2 | f2 c2 f2 f2 | c2 c2 B2 c2 | f2 f>f "^D.C."f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

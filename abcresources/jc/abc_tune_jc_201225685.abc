@@ -1,0 +1,28 @@
+X: 9
+T: Drops of Brandy
+%R: slip-jig
+B: Name "Kauntze's Collection of the most favorite Dances, Reels, Waltzes, &c."
+F: http://imslp.org/wiki/Kauntze%27s_Collection_of_Dances,_Reels,_Waltzes_etc._%28Various%29
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+GAB BAB BAB | GAB gdB d2g |\
+GAB BAB BAB | FGA ABG F2D :|
+|:\
+GAB gdB gdB | GAB gdB cBA |\
+GAB gdB gdB | FGA ABG F2D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+G3 G3 G3 | G3 g3 b3 | G3 G3 G3
+d3 d3 d3 :||: G3 g3 b3 | g3 b3 d3 |
+G3 g3 b3 | d'3 d3 d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Foot it to your Partner and lead twice down the middle up again turn your Partner with
+%% the Right hand and with the Left.
+%%endtext

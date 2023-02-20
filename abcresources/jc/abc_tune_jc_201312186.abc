@@ -1,0 +1,90 @@
+
+X: 1
+T: Moj Dragane   [D]
+O: Croatia
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Pinewoods International Collection v.2 p. 191
+M: 6/8
+L: 1/8
+K: D
+"^instr."
+[|\
+"D"F2F FEF | "A7"AGG GFE | "D"F2F FED | "A"E2E E3 "intro"||\
+"D"F2F ABA | "A7"AGG GFE |"E7"F2F FED | "A"E2E E2z |]
+|:"solo:"\
+F2F FE"tutti:"F | "A"[A2E2A,2][GEA,] [GE2A,2]F[ECA,] |\
+"D"[F2D2][FD] [FD2A,2]E[DA,] | "A"[E2A,2][EA,] [E2A,2][EA,] ||
+w: 1.~Moj dra-ga-*ne, moj ne-ve-*ne ka-ko \vzi-*vi\vs ti bez me-ne?
+w:    Ja bez te-*be ka-ko ta-*ko ti bez me-ne ba\vs ni-ka-ko.
+w: 2.~Oj, di-voj-*ko \vzu-ta kru\vs-*ko bil' vo-li-*la da si mu\vs-ko?
+w:    Bil' vo-li-*la da si mo-*\vce da po-lju-*bi\vs ti dje-voj-\vce.
+[F2D2A,2][ADA,] [AF2D2]B[AFD] | "A7"[AE2A,2]G[GEA,] [GE2C2]F[ECA,] |\
+"D"[F2D2A,2][FDA,] [FD2A,2]E[DA,] | "A"[E2A,2][EA,] [E2A,2]"fine"[EA,] :|
+w: 1.~Moj dra-ga-*ne, moj* ne-ve-*ne ka-ko \vzi-*vi\vs ti bez me-ne?
+w:    Ja bez te-*be ka-*ko ta-*ko ti bez me-*ne ba\vs ni-ka-ko.
+w: 2.~Oj, di-voj-*ko \vzu-*ta kru\vs-*ko bil' vo-li-*la da si mu\vs-ko?
+w:    Bil' vo-li-*la da* si mo-*\vce da po-lju-*bi\vs ti dje-voj-\vce.
+
+%%sep 1 1 400
+
+
+X: 1
+T: Moj Dragane   [A]
+O: Croatia
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Pinewoods International Collection v.2 p. 191
+M: 6/8
+L: 1/8
+K: A
+"^instr."
+[|\
+"A"c2c cBc | "E7"edd dcB | "A"c2c cBA | "E"B2B B3 "intro"||\
+"A"c2c efe | "E7"edd dcB |"B7"c2c cBA | "E"B2B B2z |]
+|:"solo:"\
+c2c cB"tutti:"c | "E"[e2B2E2][dBE] [dB2E2]c[BGE] |\
+"A"[c2A2][cA] [cA2E2]B[AE] | "E"[B2E2][BE] [B2E2][BE] ||\
+[c2A2E2][eAE] [ec2A2]f[ecA] | "E7"[eB2E2]d[dBE] [dB2G2]c[BGE] |\
+"A"[c2A2E2][cAE] [cA2E2]B[AE] | "E"[B2E2][BE] [B2E2]"fine"[BE] :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Moj Dragane   [C]
+O: Croatia
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Pinewoods International Collection v.2 p. 191
+M: 6/8
+L: 1/8
+K: C
+"^instr."
+[|\
+"C"E2E EDE | "G7"GFF FED | "C"E2E EDC | "G"D2D D3 "intro"||\
+"C"E2E GAG | "G7"GFF FED |"D7"E2E EDC | "G"D2D D2z |]
+|:"solo:"\
+E2E ED"tutti:"E | "G"[G2D2G,2][FDG,] [FD2G,2]E[DB,G,] |\
+"C"[E2C2][EC] [EC2G,2]D[CG,] | "G"[D2G,2][DG,] [D2G,2][DG,] ||\
+[E2C2G,2][GCG,] [GE2C2]A[GEC] | "G7"[GD2G,2]F[FDG,] [FD2B,2]E[DB,G,] |\
+"C"[E2C2G,2][ECG,] [EC2G,2]D[CG,] | "G"[D2G,2][DG,] [D2G,2]"fine"[DG,] :|
+
+%%sep 1 1 400
+
+
+X: 1
+T: Moj Dragane   [G]
+O: Croatia
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Pinewoods International Collection v.2 p. 191
+M: 6/8
+L: 1/8
+K: G
+"^instr."
+[|\
+"G"B2B BAB | "D7"dcc cBA | "G"B2B BAG | "D"A2A A3 "intro"||\
+"G"B2B ded | "D7"dcc cBA |"A7"B2B BAG | "D"A2A A2z |]
+|:"^solo:"\
+B2B BA"tutti:"B | "D"[d2A2D2][cAD] [cA2D2]B[AFD] |\
+"G"[B2G2][BG] [BG2D2]A[GD] | "D"[A2D2][AD] [A2D2][AD] ||\
+[B2G2D2][dGD] [dB2G2]e[dBG] | "D7"[dA2D2]c[cAD] [cA2F2]B[AFD] |\
+"G"[B2G2D2][BGD] [BG2D2]A[GD] | "D"[A2D2][AD] [A2D2]"fine"[AD] :|

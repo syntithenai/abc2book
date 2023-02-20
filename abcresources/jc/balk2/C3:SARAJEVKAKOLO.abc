@@ -1,0 +1,19 @@
+X: 433
+T:Sarajevka Kolo
+O:Serbia
+F: http://www.youtube.com/watch?v=6Y_yd4fnbAA
+F: http://www.youtube.com/watch?v=5aw-RyIxE8o
+M:2/4
+L:1/16
+Q:1/4=72
+K:Edor
+%%MIDI program 41 Viola
+%%MIDI bassprog 24 Acoustic Guitar
+%%MIDI chordprog 24 Acoustic Guitar
+"D"F2A2 A^GAF|"G" EFG2 GFED| EFG2 "D"FEFD|"Em"E4"A"A4|
+"D"F2A2 A^GAF|"G" EFG2 GFED|"A"B2A2 "D"GFED|"Em"E4-EFG^G|:
+Q:1/4=84
+"A"A2B2c4|cdBc A4|"A"e2^de d=cBA|  [1"Bm"B4-B4:|[2"Bm"B4 B2c2|:
+"D"d3e d=cBA|"G"BGA2 "D"GFED|"G"EFG2 "D"FEFD|[1"Em"E4 e4:|[2 E4 E2E2|
+W:
+W:adapted from  http://www.folkloretanznoten.de/

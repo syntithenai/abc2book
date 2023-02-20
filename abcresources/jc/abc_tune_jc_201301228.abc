@@ -1,0 +1,899 @@
+
+X: 0
+T: RSCDS Leaflets
+T: Scottish Country Dances
+K:
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 021
+T: Broadford Bay
+P: The Man from Skye
+R:Reel (8x32)
+B:RSCDS L32-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:Am
+Bd|"Am"e2 ed de ed|Be ed "D7"B2 A2|"G"GG GB G2 B2|GB Bd B2 d2|\
+   "Am"e2 ed de ed|Be ed "Em"B2 AG|
+                                   "Am"AA AB "E7"e2 dB|"Am"A4 A2:|\
+Bd|"Am"e2 g2 a2 e^f|g^f ed "D7"B2 A2|"G"GG GB G2 B2|GB Bd B2 d2|
+   "Am"e^f ge a2 Aa|g^f ed "G"B2 AG|"F"AA AB "E7"e2 dB|"Am"A4 A2 Bd|\
+   "Am"e2 g2 a2 e^f|g^f ed "D7"B2 A2|
+                                     "G"GG GB G2 B2|GB Bd B2 d2|\
+   "Am"e2 ed de ed|Be ed "G"B2 AG|"F"AA AB "E7"e2 dB|"Am"A4 A2||
+|:Bd|"Am"e2 A2 A2 Bd|eg ed "D7"B2 AB|"G"dG G2 BA BG|Bd Gd B2 d2|\
+     "Am"eA A2 BA Bd|eg de "Em"B2 AG|
+                                     "Am"AA AB "E7"e2 dB|"Am"A4 A2:|\
+Bd|"Am"e2 ed e2 e^f|g^f eg "D7"B2 A2|"G"GG GB G2 B2|GB Bd B2 d2|
+   "Am"e2 ed e2 e^f|g^f ed "G"B2 AG|"F"AA AB "E7"e2 dB|"Am"A4 A2 Bd|\
+   "Am"e2 ed e2 e^f|g^f eg "D7"B2 A2|
+                                     "G"GG GB G2 B2|GB Bd B2 d2|\
+   "Am"eA A2 BA Bd|eg de "G"B2 AG|"F"AA AB "E7"e2 dB|"Am"A4 A2|]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 031
+T: The Collonel
+O:David Young's Collection of 1740
+N:Originally a 9/8 slip jig, adapted by RSCDS
+N:Play ABCBC
+Z:arranged and transcribed by Peter Price  (at) gmail (dot) com> 9 February, 2007
+M:6/8
+R:Jig
+L:1/8
+%Q:1/4=168
+P: ABCBC
+%--------------------
+K:G
+P: A
+c | "G" B/c/dB "G/B"G2g | "C"e/f/ge "D7"ABc | "G"B/c/dB "G/B"G2B | "D7/F#"AFD D2 :|
+P: B
+c |\
+"Em"B2E "Em/G"EFE | "Em"B2E "Em/G"EFE | "Em"B2E "A7"EFG | "D"ABA "D/F#"AFD |
+"Em"B2E "Em/G"EFE | "Em"EFE "D7"D2c | "Em"B2E "A7/C#"EFG | "D"AFD "D7/F#"D2 ||
+P: C
+c |\
+"G"Bcd "G/B"dBG | "C"efg "G/B"dBG | "G"Bcd "G/B"dBG | "D"ABA "D/F#"AFD |
+"G"Bcd "G/B"dBG | "C"efg "D7"ABc | "G"Bcd "G/B"dBG | "D"AFD "D7/F#"D2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 051
+T: The Earl of Mansfield
+P: The Earl of Mansfield's March
+C:John McEwan
+R:Reel (4x48) AABBC
+B:RSCDS L-15
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/8
+K:D
+|:f/e/|"D"d>e dA|d/e/f/g/ a g/f/|"A"e>f eA|c/d/e/f/ g f/e/|\
+       "D"d>e dA|d/e/f/g/ a g/f/|
+                                 "A7"ge cA|d2 d::\
+a/g/|"D"f>g fA|d/e/f/g/ a g/f/|"A"e>f eA|c/d/e/f/ g a/g/|
+     "D"f>g fA|d/e/f/g/ a e/f/|"A7"ge cA|d2 d:|\
+a/g/|"D"fd d a/g/|fd d e/f/|
+                            "A7"gA ce|"A"cA A a/g/|\
+     "D"fd d a/g/|fd d e/f/|"A7"ge cA|"D"d2 d||\
+a/g/|"D"fd d a/g/|fd d e/f/|
+                            "A"gA ce|c/e/A A B/c/|\
+     "D"d>e dA|d/e/f/g/ a g/f/|"A7"ge cA|d2 d|]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 061
+T: The Countess of Cassilis' Strathspey
+O:Trad
+R:strathspey
+B:RSCDS Leaflet 6
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C
+L:1/8
+K:A
+|: E \
+| "A"A>A A>A A>B c>B | A>B A/F/E/C/ "E7"B,B Bc/B/ \
+| "A"A>A A>A A>B c>B | "D"A>B "E7"A/F/E/C/ "A"A,A A :|
+|| c/d/ \
+| "A"e>e d/c/B/A/ "Bm"f>g b/a/g/f/ | "A"e>c d/c/B/A/ "E7"GB Bc/d/ \
+| "A"e>e d/c/B/A/ "Bm"f>g b/a/g/f/ | "A"e>E "E7"F/G/A/B/ "A"cA Ac/d/ |
+| "A"ef/e/ d/c/B/A/ "Bm"f>g b/a/g/f/ | "A"ea/e/ "(B7)"d/c/B/A/ "E7"GB Bc/B/ \
+| "A"A>c "D"F>A "A"E>F E/D/C/B,/ | A,A "E7"c/B/A/G/ "A"AA, A, |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 062
+T: The Galway Hornpipe
+O:Trad
+R:hornpipe, reel
+B:RSCDS Leaflet 6
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C
+L:1/8
+K:D
+A2 \
+| "D"D2FA dAFD | "A7"CDEF  G2FE |  "D"D2FA     dcdf | "E7"edcB "A7"AGFE |
+y3 \
+| "D"D2FA dAFD | "A7"CDEF  G2FG |  "D"AdcB "A7"AGFE |  "D"D2F2     D2  :|
+|: de \
+| "D"fefg fedc | "Em"B^ABc B2cd | "E7"e^def   e=dcB |  "A"~A2ce aABc |
+y4 \
+| "D"dcde fdAF |  "G"GFGA  BdcB |  "D"AdcB "A7"Agec |  "D"d2f2  d2  :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 63
+T: The Galway Hornpipe
+O:Trad
+R:hornpipe, reel
+B:RSCDS Leaflet 6
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C
+L:1/8
+K:D
+A2 \
+| "D"D2FA dAFD | "A7"CDEF G2FE | "D"D2FA dcdf | "E7"edcB "A7"AGFE | "D"D2FA dAFD |
+| "A7"CDEF G2FG | "D"AdcB "A7"AGFE | "D"D2F2 D2 :: de | "D"fefg fedc | "Em"B^ABc B2cd |
+| "E7"e^def e=dcB | "A"~A2ce aABc | "D"dcde fdAF | "Em"GFGA BdcB | "D"AdcB "A7"Agec | "D"d2f2 d2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 64
+T: The Galway Hornpipe
+O:Trad
+R:hornpipe, reel
+B:RSCDS Leaflet 6
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C
+L:1/8
+K:D
+A2 \
+| "D"D2FA dAFD | "A7"CDEF G2FE | "D"D2FA dcdf | "E7"edcB "A7"AGFE |
+| "D"D2FA dAFD | "A7"CDEF G2FG | "D"AdcB "A7"AGFE | "D"D2F2 D2 ||
+|| de \
+| "D"fefg fedc | "Em"B^ABc B2cd | "E7"e^def e=dcB | "A"~A2ce aABc |
+| "D"dcde fdAF | "Em"GFGA BdcB | "D"AdcB "A7"Agec | "D"d2f2 d2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 071
+T: Fraser Patrick's Reel
+C:Stan Watts
+R:polka, reel
+Z:2010 John Chambers <jc:trillian.mit.edu>
+N:The tied notes are half notes in the original, but more polka-like if split into two quarters.
+B:RSCDS Leaflet 7
+B:RSCDS "Originally Ours" 2005
+M:C|
+L:1/8
+K:A
+cB \
+| "A"A2cB A2c2 | "A"e2e2 e4 | "A"e^def e=dcA | "E7"GABc d4 \
+| "E7"E2GB d2e2 | "E7"g2g2 g4 | "E7"gfed cBAG | "A"ABcd e4 |
+| "A"A2cB A2c2 | "A"e2e2 e4 | "A"e^def efga | "Bm"b2f2 f4 \
+| "Bm"b2b2 bagf | "A"e2e2 e4 | "Bm"B^ABc "E7"defg | "A"a2-a2 a4 |]
+[| "A"c'4 a4 | "A"e2ef e4 | "A"ABcB ABcA | "D"f2-f2 f4 \
+| "Bm"b4 f4 | "Bm"d2de d4 | "E7"GABc defe | "A"c2-c2 c4 |
+| "A"c'4 a4 | "A"e2ef e4 | "A"ABcB ABcA | "D"f2-f2 f4 \
+| "Bm"b^abc' b=agf | "A"e^def e4 | "Bm"B^ABc "E7"defg | "A"a2-a2 a2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 72
+T: Fraser Patrick's Reel
+C:Stan Watts
+R:polka, reel
+Z:2010 John Chambers <jc:trillian.mit.edu>
+N:The tied notes are half notes in the original, but more polka-like if split into two quarters.
+B:RSCDS Leaflet 7
+B:RSCDS "Originally Ours" 2005
+M:C|
+L:1/8
+K:F
+AG \
+| "F"F2AG F2A2 | "F"c2c2 c4 | "F"c=Bcd c_BAF | "C7"EFGA B4 \
+| "C7"C2EG B2c2 | "C7"e2e2 e4 | "C7"edcB AGFE | "F"FGAB c4 |
+| "F"F2AG F2A2 | "F"c2c2 c4 | "F"c=Bcd cdef | "Gm"g2d2 d4 \
+| "Gm"g2g2 gfed | "F"c2c2 c4 | "Gm"G^FGA "C7"Bcde | "F"f2-f2 f4 |]
+[| "F"a4 f4 | "F"c2cd c4 | "F"FGAG FGAF | "Bb"d2-d2 d4 \
+| "Gm"g4 d4 | "Gm"B2Bc B4 | "C7"EFGA Bcdc | "F"A2-A2 A4 |
+| "F"a4 f4 | "F"c2cd c4 | "F"FGAG FGAF | "Bb"d2-d2 d4 \
+| "Gm"g^fga g=fed | "F"c=Bcd c4 | "Gm"G^FGA "C7"Bcde | "F"f2-f2 f2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 73
+T: Fraser Patrick's Reel
+C:Stan Watts
+R:polka, reel
+Z:2010 John Chambers <jc:trillian.mit.edu>
+N:The tied notes are half notes in the original, but more polka-like if split into two quarters.
+B:RSCDS Leaflet 7
+B:RSCDS "Originally Ours" 2005
+M:C|
+L:1/8
+K:G
+BA \
+| "G"G2BA G2B2 | "G"d2d2 d4 | "G"d^cde d=cBG | "D7"FGAB c4 \
+| "D7"D2FA c2d2 | "D7"f2f2 f4 | "D7"fedc BAGF | "G"GABc d4 |
+| "G"G2BA G2B2 | "G"d2d2 d4 | "G"d^cde defg | "Am"a2e2 e4 \
+| "Am"a2a2 agfe | "G"d2d2 d4 | "Am"A^GAB "D7"cdef | "G"g2-g2 g4 |]
+[| "G"b4 g4 | "G"d2de d4 | "G"GABA GABG | "C"e2-e2 e4 \
+| "Am"a4 e4 | "Am"c2cd c4 | "D7"FGAB cded | "G"B2-B2 B4 |
+| "G"b4 g4 | "G"d2de d4 | "G"GABA GABG | "C"e2-e2 e4 \
+| "Am"a^gab a=gfe | "G"d^cde d4 | "Am"A^GAB "D7"cdef | "G"g2-g2 g2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 74
+T: The Reel of the Royal Scots
+C:Pipe Major C.T.Clark
+R:reel
+B:RSCDS Leaflet (1983)
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+N:Devised by Roy Goldring to celebrate the 350th Anniversary of The Royal Scots (The Royal Regiment) in 1983.
+M:C|
+L:1/8
+K:D
+   f2 | "D"Adde def2 | Aafd "A7"e2cA |1 "D"d2de "Bm"defd | "Em"Beed "A7"e2 :|2 "D"d2de "Bm"f2ed | "A7"egfe "D"d2 ||
+|: fg | "D"afAd f2A2 | defd "A7"cecA |1 "D"d2f2 "Bm"defd | "Em"Beed "A7"e2 :|2 "D"d2de "Bm"f2ed | "A7"egfe "D"d2 ||
+|: fe | "D"d2dB A2AB | A2af "A7"egfe |1 "D"d2de "Bm"defd | "Em"Beed "A7"e2 :|2 "D"d2de "Bm"f2ed | "A7"egfe "D"d2 ||
+|: fg | "D"a2af Aaf2 | Aaaf "A7"egfe |1 "D"d2f2 "Bm"defd | "Em"Beed "A7"e2 :|2 "D"d2de "Bm"f2ed | "A7"egfe "D"d2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 75
+T: Reel of The Royal Scots, The
+R:Reel
+N:Devised by Roy Goldring to celebrate the 350th Anniversary
+N:of The Royal Scots (The Royal Regiment) in 1983.
+B:RSCDS Leaflet (1983)
+Z:Pipe Major C.T.Clark
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+Z:trillian.mit.edu/~jc/
+M:2/2
+L:1/8
+%
+K:D
+f2 |\
+"D" Adde def2 | Aafd "A7" e2cA | "D" d2de "Bm" defd | "Em" Beed "A7" e2f2   |
+"D" Adde def2 | Aafd "A7" e2cA | "D" d2de "Bm" f2ed | "A7" egfe "D"  d2 fg ||
+|| \
+"D" afAd f2A2 | defd "A7" cecA | "D" d2f2 "Bm" defd | "Em" Beed "A7" e2 fg  |
+"D" afAd f2A2 | defd "A7" cecA | "D" d2de "Bm" f2ed | "A7" egfe "D"  d2 fe ||
+|| \
+"D" d2dB A2AB | A2af "A7" egfe | "D" d2de "Bm" defd | "Em" Beed "A7" e2 fe  |
+"D" d2dB A2AB | A2af "A7" egfe | "D" d2de "Bm" f2ed | "A7" egfe "D"  d2 fg ||
+|| \
+"D" a2af Aaf2 | Aaaf "A7" egfe | "D" d2f2 "Bm" defd | "Em" Beed "A7" e2 fg  |
+"D" a2af Aaf2 | Aaaf "A7" egfe | "D" d2de "Bm" f2ed | "A7" egfe "D"  d2 ze  |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 76
+T: The Reel of the Royal Scots
+P: The Reel of the Royal Scots
+C:P.M. C. T. Clark
+R:Reel (8x32)
+B:RSCDS L-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:D
+|:f2|"D"Adde def2|Aafd "A"e2 cA|1 "D"d2 de defd|"Em"Beed "A7"e2 \
+                              :|2 "D"d2 de f2 ed|"A7"egfe "D"d2||
+|:fg|"D"afAd f2 A2|defd "A"cecA|1"D"d2f2 defd|"Em"Beed "A7"e2 \
+                              :|2"D"d2 de f2 ed|"A7"egfe "D"d2||
+|:fe|"D"d2 dB AAAB|A2 af "A"egfe|1"D"d2 de defd|"Em"Beed "A7"e2 \
+                               :|2"D"d2 de f2 ed|"A7"egfe "D"d2||
+|:fg|"D"a2 af Aa f2|Aaaf "A"egfe|1"D"d2 f2 defd|"Em"Beed "A7"e2 fg \
+                                |2"D"d2 de f2 ed|"A7"egfe "D"d2|]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 77
+T: The Reel of the Royal Scots
+C:Pipe Major C.T.Clark
+R:reel
+B:RSCDS Leaflet (1983)
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+N:Devised by Roy Goldring to celebrate the 350th Anniversary of The Royal Scots (The Royal Regiment) in 1983.
+S:version from Mike Briggs
+M:C|
+L:1/8
+K:D
+f2 |\
+"D"Adde def2 | Aafd "A7"d2cA |\
+[1 "D"Adde "Bm"defd | "Em"Beed "A7"e2 :|\
+[2 "D"d2de "Bm"f2ed | "A7"egfe "D"d2 ||
+|: fg |\
+"D"afAd f2A2 | defd "A7"cecA |\
+[1 "D"d2f2 "Bm"defd | "Em"Beed "A7"e2 :|\
+[2 "D"d2de "Bm"f2ed | "A7"egfe "D"d2 ||
+|: fe |\
+"D"d2dB A2AB | A2af "A7"egfe |\
+[1 "D"d2f2 "Bm"defd | "Em"Beed "A7"e2 :|\
+[2 "D"d2de "Bm"f2ed | "A7"egfe "D"d2 ||
+|: fg |\
+"D"a2af Aaf2 | Aaaf "A7"efed |\
+[1 "D"d2f2 "Bm"defd | "Em"Beed "A7"e2 :|\
+[2 "D"d2de "Bm"f2ed | "A7"egfe "D"d2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 78
+T: Reel of the Royal Scots
+T: 8 x 32 R 3C (Roy Goldring, RSCDS leaflet)
+%
+P: Reel of the Royal Scots
+R:reel
+C:P/M C.T. Clark, from B. McOwen
+O:arr. T. Traub 8-23-2004
+M:4/4
+L:1/8
+K:D
+f2|"D"Adde de f2|"D"Aafd "A"e2 cA|"D"d2 f2 "Bm"defd|"Em"Beed "A"e2 f2|"D"Adde de f2|"D"Aafd "A"e2 cA|"Bm"d2 de "D"f2 ed|"A7"egfe "D"d2 ||
+fg|"D"afAd f2 A2 |"Bm"defd "A"cecA|"D"d2 f2 "Bm"defd|"Em"Beed "A"e2 fg|"D"afAd f2 A2|"D"defd "A"cecA|"D"d2 de "G"f2 ed|"A"egfe "D"d2 ||
+fe|"D"d2 dB A2 AB|"D"A2 af "A"egfe|"D"d2 f2 "Bm"defd|"Em"Beed "A"e2 fe|"D"d2 dB A2 AB|"D"A2 af "A"egfe|"Bm"d2 de "D"f2 ed|"A"egfe "D"d2 ||
+fg|"D"a2 af Aa f2|"D"Aaaf "A"egfe|"D"d2 f2 "Bm"defd|"Em"Beed "A"e2 fg|"D"a2 af Aa f2|"D"Aaaf "A"egfe|"D"d2 de "G"f2 ed|"A7"egfe "D"d2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 101
+T: Georgie's Jig
+P: The West Port
+R:Jig (4x32)
+B:RSCDS L32-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Bb
+F|"Bb"DEF G2 F|DEF B3|DEF "Bbo"G2 F|"Cm"A2 G "F"C3|\
+  "Cm"C2 D E2 F|EDC D2 E|"F7"F2 G A2 B|
+                                       AGF GFE|\
+  "Bb"DEF G2 F|DEF B3|DEF "Bbo"G2 F|"Cm"A2 G "F7"C3|\
+  "Cm"C2 D E2 F|EDC "C7"DE=E|
+                             "F"F=EF "F7"ABc|"Bb"BFG "F7"ABc||\
+  "Bb"d2 c BFD|"A7"A2 G "Bb"F3|B,DF "Gm"GAB|"Cm"A2 G "F"C3|\
+  "F7"A2 A ABc|
+               "Cm"G2 G GAB|"F"ABc FGA|CFG "F7"ABc|\
+  "Bb"d2 c BFD|"A7"A2 G "Bb"F3|
+                               B,DF "G"GAB|"Cm"A2 G "F"C3|\
+  A2 A ABc|"Cm"G2 G GAB|"F"AGF "F7"edc|"Bb"B3-B2|]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 111
+T: Tribute to the Borders
+%
+P: Daggs of Creighouse
+C:Moira Reekie
+R:Jig (8x32)
+B:RSCDS Leaflet 11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:A
+|: E |\
+"A"A2c E2A | cBA e3 |\
+"D"f2d "A"e2c | "E"BcB BGE |\
+"A"A2c E2A | cBA e3 |
+"D"f2d "A"e2c | "E7"BcB "A"A2 :|\
+G/A/ |\
+"E"B2E EFE | "A"ABc e3 |\
+"D"f2d "A"e2c | "E"BcB "A"BGA |
+"E"BGE EFG | "A"ABc e3 |\
+"D"f2d "A"e2c | "E"BcB "A"AGA |\
+"E"BGE EFE | "A"ABc e3 |
+"D"fed edc | "E"BcB BGE |\
+"A"A2c E2A | cBA e3 |\
+"D"f2d "A"e2c | "E7"BcB "A"A2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 112
+T: Tribute to the Borders
+T: 32J 3C x 8 (Roy Goldring/RSCDS Leaflet)
+%
+P: The Daggs of Craighouse
+C:Moira Reekie
+R:jig
+B:RSCDS Leaflet
+N:arr John Chambers 1997, mods by T. Traub 4-29-2007
+M:6/8
+L:1/8
+K:A
+E |\
+"A"A2c E2A | cBA e3 |\
+"D"f2d "A"e2c | "B7"B>cA "E7"BGE |\
+"A"A2c E2A | cBA e3 |\
+"D"f2d "A"e2c | "E7"B>cB "A"A2 :|
+G/A/ |\
+"E7"B2E E>FE | "A"ABc e3 |\
+"D"f2d "A"e2c | "B7"B>cA "E7"B>GA |\
+"E7"BGE E>FE | "A"ABc e3 |\
+"D"f2d "A"e2c | "E7"B>cB "A"A3 ||
+| "E7"BGE E>FE | "A"ABc e3 |\
+"D"f>ed "A"e>dc | "B7"B>cA "E7"BGE |\
+"A"A2c E2A | cBA e3 |\
+"D"f2d "A"e2c | "E7"B>cB "A"A2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 161
+T: Miss Allie Anderson
+C:Susan Inglis
+R:jig
+B:RSCDS Leaflet 16
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+N:"Coltbridge"
+M:6/8
+L:1/8
+K:D
+   A \
+| "D"f2f d2d | "G"Bcd "D"A2A | "D"f2f "Bm"def | "Em"g>fg "A7"ecA \
+| "D"f2f d2d | "G"Bcd "D"A2A | "G"Bcd "D"Adf | "A7"[e3G3] "D"[d2F2] :|
+|: c/d/ \
+| "A7"e3 c2A | "D"FAd fdA | "G"GBd "D"Adf | "E7"faf "A7"efg \
+| "D"a3 f2d | "G"Bcd "D"A3 | "G"Bcd "D"Aaf | "A7"[e3G3] "D"[d2F2] :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 181
+T: Miss Gibson's Strathspey
+P: The Music o' Spey
+C:J. Scott Skinner
+R:Strathspey (8x32)
+B:RSCDS L-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:A
+E2|"A"c2 B>A E2 E2|"D"F>E F<A "A"E2 FG|"a"A2 "g#"A2 "f#"A2 "e"A2|"E"B4 e2 E2|
+   "A"c2 B>A E2 E2|"D"F>E F<A "A"E2 FG|A2 A2 "E"B2 e2|"A"A6||
+E2|"Bm"d2 d>c "E"{c}B2 E2|"C#m"e2 e>d "F#m"c2 de|"d"f2 "c#"e2 "b"d2 "a"c2|\
+                                           "A"c2 "E"{dc}B2 e>d|
+   "A"c2 B>A E2 E2|"D"F>E F<A "A"E2 F>G|"A"A2 A2 "E7"B2 e2|"A"A6|]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 182
+T: Miss Gibson's Strathspey
+T: 8 x 32S
+B: RSCDS Leaflet
+%
+P: The Music o' Spey
+C: J.S.Skinner
+R: air, strathspey
+C: arr. John Chambers, T. Traub
+N: Scottish Violinist p.35; Hardie p.55; BSFC II-3; Caledonian Companion, p.49.
+N: The Fiddle Music of Scotland, James Hunter, #36.
+M: 4/4
+L: 1/8
+%--------------------
+K: A
+E2 \
+| "A"c2 B>A "A/C#"E2 E2 | "D"F>E F<A "E7"E2 FG | "A"A2 "A/G#"A2 "A/F#"A2 "A/E"A2 | "B"B4 "E7"e2 E2 | "A"c2 B>A "A/C#"E2 E2 |
+"D"F>E F<A "E7"E2 FG | "A"A2 A2 "Bm"B2 "E7"e2 | "A D A"A6 || E2| "Bm"d2 d>c "E7"B2 E2 | "A"e2 "E"e>d "F#m"c2 de |
+"D"f2 "A"e2 "E"d2 "A"c2 | "B7"c4 {dc}"E"B2 e>d | "A"c2 B>A "A/C#"E2 E2 | "D"F>E F<A "E7"E2 FG | "A"A2 "F#m"A2 "Bm"B2 "E"e2 | "A D A"A6 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 183
+T: The Music o' Spey
+C:J.S.Skinner
+B:RSCDS Leaflet
+N:Suggested tune for Miss Gibson's Strathspey
+R:air, strathspey
+C:arr. John Chambers, T. Traub
+N:Scottish Violinist p.35; Hardie p.55; BSFC II-3; Caledonian Companion, p.49.
+N:The Fiddle Music of Scotland, James Hunter, #36.
+M:4/4
+L:1/8
+K:A
+E2 \
+| "A"c2 B>A "A/C#"E2 E2 | "D"F>E F<A "E7"E2 FG | "A"A2 "A/G#"A2 "A/F#"A2 "A/E"A2 | "B"B4 "E7"e2 E2 | "A"c2 B>A "A/C#"E2 E2 |
+"D"F>E F<A "E7"E2 FG | "A"A2 A2 "Bm"B2 "E7"e2 | "A D A"A6 || E2| "Bm"d2 d>c "E7"B2 E2 | "A"e2 "E"e>d "F#m"c2 de |
+"D"f2 "A"e2 "E"d2 "A"c2 | "B7"c4 {dc}"E"B2 e>d | "A"c2 B>A "A/C#"E2 E2 | "D"F>E F<A "E7"E2 FG | "A"A2 "F#m"A2 "Bm"B2 "E"e2 | "A D A"A6 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 191
+T: Jubilee Jig
+T: 8 x 32J 3C
+%
+P: Miss Gordon of Liverpool
+O:RSCDS Leaflet 19
+B:RSCDS Leaflet 19
+C:William Marshall (orig. 9/8)
+C:Arr. T. Traub 8-29-03, from B. McOwen
+R:Jig
+M:6/8
+L:1/8
+K:F
+|: C |\
+"F"F3 F2 A | "F"cAF F3 | "C"EFG "G7"GAF | "C"EDE CDE |\
+"F"F3 "Dm"F2 d | "C"cde "F"f2 c | "Bb"d/e/fd "C"e/f/ge | "F"f3 F2 :|
+g |\
+"F"afc "C"bge | "F"a2 f c2 c | "Bb"def "G7"gaf | "C"e3 c3 |\
+"F"afc "C"bge | "F"afc "Dm"AFC | "Bb"D2 F "C"E/F/GE | "F"F3 F2 |]
+f |\
+"F"afc "C"bge | "F"a2 f c2 c | "Bb"def "G7"gaf | "C"e3 c3 |\
+"Bb"dBf "F"cAf | "F"cAF C2 C | "Bb"D2 F "C"E/F/GE | "F"F3 F2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 192
+T: Miss Gordon of Liverpool
+C:William Marshall
+R:jig
+B:RSCDS Leaflet
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+N:Originally in 9/8
+M:6/8
+L:1/8
+K:F
+C \
+| "F"F3 "Bb"F2d | "F"cAF F3 | "C7"E{F}GG GAF | EDE CDE \
+| "F"F3 "Dm"F2d | "C7"cde "F"f2c | "Bb"d{e}fd "C7"e{f}ge | "F"f3- f2 :|
+g \
+| "F"afc "C7"bge | "F"afc c3 | "Bb"def "G7"gaf | "C7"e3 c3 \
+| "F"afc "C7"bge | "F"afc "Dm"AFD | "F"C2F "C7"E{F}GE | "F"F3- F2 |]
+g \
+| "F"afc "C7"bge | "F"afc c3 | "Bb"def "G7"gaf | "C7"e2d c3 \
+| "Bb"dBf "F"cAf | "Bb"dcB "F"cAF | "F"C2F "C7"E{F}GE | "F"F3- F2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 193
+T: Miss Gordon of Liverpool
+C:William Marshall
+R:jig
+B:RSCDS Leaflet
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+N:Originally in 9/8
+M:6/8
+L:1/8
+K:F
+C \
+| "F"F3 "Bb"F2d | "F"cAF F3 | "C7"E/F/GG GAF | EDE CDE \
+| "F"F3 "Dm"F2d | "C7"cde "F"f2c | "Bb"d/e/fd "C7"e/f/ge | "F"f3- f2 :|
+g \
+| "F"afc "C7"bge | "F"afc c3 | "Bb"def "G7"gaf | "C7"e3 c3 \
+| "F"afc "C7"bge | "F"afc "Dm"AFD | "F"C2F "C7"E/F/GE | "F"F3- F2 ||
+g \
+| "F"afc "C7"bge | "F"afc c3 | "Bb"def "G7"gaf | "C7"e2d c3 \
+| "Bb"dBf "F"cAf | "Bb"dcB "F"cAF | "F"C2F "C7"E/F/GE | "F"F3- F2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 194
+T: Miss Gordon of Liverpool
+R:Jig
+C:William Marshall
+N:Originally in 9/8
+B:RSCDS Leaflet
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:6/8
+L:1/8
+K:F
+|: G \
+| "F"F2 F  cAF | "F"FGF "Bb"d3 | "F "cAF "Dm"F2 A | "C"GEC  CDE |
+| "F"F2 F  cAF | "F "FGF  a3 | "Gm"gaf efd |1 "C"cdB ABG :|2 "C"c3 c2 B ||
+| "C"c2 c gec | "C"cdc c2 a | "Bb"b2 g "F"a2 f | "Gm"g f "C"edc |
+| "C"c2 c gec | "C"cdc "Gm"b3 | "F"agf "C7"cde | "F"f3 f2 c |
+| "C"c2 c gec | "C"cdc c2 a | "Gm"b2 g "F"a2 f | "Gm"g2 f "C"edc |
+| "Dm"f3 cAc | "Gm"d3 B2 d | "C7"cBA GFE | "F"F3 F2 ||
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 195
+N:Jubilee Jig
+N:8 x 32J 3C (RSCDS Leaflet)
+T: Miss Gordon of Liverpool
+C:William Marshall (orig. 9/8)
+C:Arr. T. Traub 8-29-03  (from B. McOwen)
+R:Jig
+M:6/8
+K:F
+L: 1/8
+|: C |\
+"F"F3 F2A | "F"cAF F3 | "C"EFG "G7"GAF | "C"EDE CDE |\
+"F"F3 "Dm"F2d | "C"cde "F"f2c | "Bb"d/e/fd "C"e/f/ge | "F"f3 F2 :|
+g |\
+"F"afc "C"bge | "F"a2f c2c | "Bb"def "G7"gaf | "C"e3 c3 |\
+"F"afc "C"bge | "F"afc "Dm"AFC | "Bb"D2F "C"E/F/GE | "F"F3 F2f ||
+"F"afc "C"bge | "F"a2f c2c | "Bb"def "G7"gaf | "C"e3 c3 |\
+"Bb"dBf "F"cAf | "F"cAF C2C | "Bb"D2F "C"E/F/GE | "F"F3 F2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 201
+T: Mrs Milne of Kinneff
+P: The Rose of Allandale
+R:Strathspey (4x32)
+B:RSCDS L32-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:C
+G2|"C"e2 ed c3 B|"F"dc BA "C"G3 G|\
+        [G2E4] c2 "D7"[c2F4] de|"G"[d6B6G6] [G2F2B,2]|\
+"C"e2 "E7"ed "Am"c3 B|"F"dc BA "C"G3 G|
+        "F"A c2 A "G7"Bc de|"C"[c6G6E6] G2|\
+"G"d2 dB "G7"G2 G2|"C"e2 ec G3 G|\
+        "Dm"[f2A2] "G7"[fG2]d "C"[e2G2] "D7"[eA2]c|"G"[d6B6] G2|
+"C"e2 "E7"ed "Am"c3 B|"F"dc BA "C"G3 G|\
+        "F"A c2 A "G7"Bc de|"F"[c4A4F4]"C"[c2G2E2]|:"G7"[g2f2d2B2]|\
+"C"[g3e3c3] e [e2G2] "E7"[c2^G2D2]|"F"[B2F2C2] [A4F4C4] [A2F2]|
+        "Dm"[f3A3] e "D7"d2 c2|"G"B2 G4 "E7"[^G2D2]|\
+"F"[A3C3] B "D7"dc BA|"C"G2 c2 "C#dim"e3 G|\
+        "F"A c2 A "G7"Bc de|"C"[c6G6E6]:|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 211
+N:Miss Milligan
+N:8 x 32S 3C (RSCDS Golden Jubilee)
+T: Miss L. Montgomery of Skelmorlie's Strathspey
+R:strathspey
+B:RSCDS Jubilee Leaflet 21
+N:arr. by Barbara McOwen Feb 1990
+N:mods by T. Traub 11-22-2005
+M:C
+L:1/8
+%--------------------
+K: D
+|: F \
+| "D"D2 D>d "Bm"d>cB>A | "G"B>AB>d "A7"e<EE>F |\
+"D"D2 D>d "Bm"d>cB>A | "G"B/c/d "A7"e/f/g "D"f<d d :|
+f/g/ \
+| "D"a>Aa>f a>d"G"b>a | "D"a<da>f "A7"f<e ef/g/ |\
+"D"a>da>f a<d"G"b>a | "D"A<d"A7"ed/e/ "D"f<d d ||
+f/g/ \
+| "D"a>Aa>f a>d"G"b>a | "D"a<Aa>f "A7"f<eef|\
+"D"D2 D>d "Bm"d>cB>A | "G"B/c/d "A7"e/f/g "D"f<d d |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 212
+T: Miss L. Montgomery of Skelmorlie
+O:Aird's 4th Coll.
+R:strathspey
+B:RSCDS Jubilee Leaflet 21
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C
+L:1/8
+%--------------------
+K:D
+F \
+| "D"D2 D>d "Bm"dc BA | "G"BA Bd "A7"eE EF \
+| "D"D2 D>d "Bm"dc BA | "G"B/c/d "A7"e/f/g "D"fd d :|
+f/g/ \
+| "D"a>A a>f a>d "G"b>a | "D"a>d a>f "A7"fe ef/g/ \
+| "D"a>d a>f a<d "G"b>a | "D"A>d "A7"ed/e/ "D"fd d|]
+f/g/ \
+| "D"a>A a>f a>d "G"b>a | "D"a>d a>f "A7"fe ef \
+| "D"D2 Dd "Bm"dc BA | "G"B/c/d "A7"e/f/g "D"fd d |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 251
+T: The Periwig
+P: The Pirriwig
+C:Trad. (Athole Coll.)
+R:Reel (4x48) ABABAB
+B:RSCDS L33-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:G
+B|:"G"g3 b "D"agfa|"Em"gfeg "Bm"dB B2|"Em"g3 b "D"agfa|"B7"gef^d "Em"e/e/e g2|
+   "G"g3 b "D"agfa|"Em"gfeg "Bm"dBBd|\
+                         "Em"gggb "D"agfa|"C"ge"B7"f^d "Em"e/e/e g2||
+   "G"dB B/B/B "G/B"dBBg|"Em"eBBA "Em/B"GEEg|\
+                         "G"dB B/B/B "Bm"dB"Am"Ba|"B7"gef^d "Em"e/e/e g2|
+   "G"dB B/B/B "G/B"dBBg|"Em"eBBA "Em/B"GEEF|\
+                         "G"GABc "Em"dBBa|"B7"gef^d "Em"e/e/e g2:|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 321
+T: The Kelloholm Jig
+C:Peter Hyssett
+R:Jig (8x32)
+B:RSCDS Leaflet 32 #1
+P: For the dance of the same name
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+G |:\
+"G"D2B B^AB | d^cd BGE | D2B B^AB | "D7"dcB c3 | D2A A^GA | cBc AFE |
+"D7"D2A A^GA |1 "G"ed^c d2 G :|2 "D7"cBA "G"G3 |] "G"DGB d2d | ed^c dBG | DGB dcB | "D7"c2A A3 |
+"D7"DFA c2c | dcB cAF | DFA c3c | "G"ed^c d3 |]| "G"DGB d2d | ed^c dBG |
+"G"DGB dBG | "C"F2E E3 | "Am"EAc ecA | "G"DGB dBG | "D7"FAc e2F | "G"G3-G2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 322
+T: The Kelloholm Jig
+C: Peter Hyssett
+R: Jig (8x32)
+B: RSCDS Leaflet 32 #1
+P: For the dance of the same name
+Z: 2013 John Chambers <jc:trillian.mit.edu> (checked against Anselm Lingnau's transcription)
+M: 6/8
+L: 1/8
+K: G
+G |\
+"G"D2B B^AB | d^cd BGE | D2B B^AB | "D7"dcB c3 |\
+D2A A^GA | cBc AFE | "D7"D2A A^GA |1 "G"ed^c d2 :|2 "D7"cBA "G"G3 |]
+[|\
+"G"DGB d2d | ed^c dBG | DGB dcB | "D7"c2A A3 |\
+"D7"DFA c2c | dcB cAF | DFA c3c | "G"ed^c d3 |]
+[|\
+"G"DGB d2d | ed^c dBG | "G"DGB dBG | "C"F2E E3 |\
+"Am"EAc ecA | "G"DGB dBG | "D7"FAc e2F | "G"G3-G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+W:1-4: 1st couple set to each other and cast off to second place.
+W: 2nd couple step up on Bars 3-4.
+W:5-8: Staying in the side lines, 1st couple set to first corners,
+W: and then, giving right hands, change places with them.
+W:9-12: On opposite sides, 1st and 3rd women, and 2nd and 1st men,
+W: set to each other, and then, giving left hands, change places.
+W:13-16: 1st couple turn each other with the right hand one and a
+W: half times to finish in second place on own sides.
+W:17-20: Staying in the side lines, 1st couple set to second corners,
+W: and then, giving right hands, change places with them.
+W:21-24: On opposite sides, 1st and 3rd men, and 2nd and 1st women,
+W: set to each other, and then, giving left hands, change places.
+W:25-32: 3rd, 1st and 2nd couples, joining nearer hands, advance and
+W: retire and then dance six hands half way round to the left.
+W:
+W: Repeat, having passed a couple.
+W:Devised by Peter Hyssett of Ayr, who also composed the tune.
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 323
+T: Rose of Allandale
+R:strathspey
+O:RSCDS Leaflet 32 #2
+N:arr. T. Traub 12-20-2001
+P: For the dance "Mrs Milne of Kinneff"
+N:based on an arrangement by Muriel Johnstone
+M:4/4
+L:1/4
+K:C
+G |\
+"C"e e/d/ c > B | "F"d/c/B/A/ "C"G > G | "C"G c "D7"c d/e/ | "G"d3 "G7"G |\
+"C"e "E7"e/d/ "Am"c > B | "F" d/c/B/A/ "C"G > G | "F"A/ c A/ "G7"B/c/d/e/ | "C"c3 ||
+G |\
+"G"d d/B/ G G | "C"e e/c/ G > G | "Dm"f "G7"f/d/ "C"e "D7"e/c/ | "G"d3 G |\
+"C"e "E7"e/d/ "Am"c > B | "F"d/c/B/A/ "C"G > G | "F"A/ c A/ "G7"B/c/d/e/ | "F  C"c3 ||
+|: "G7"g |\
+"C"g > e e "E7"c | "F"B A2 "A7"A | "Dm"f > e "D7"d c | "G"B G2 "E7"^G |\
+"F"A > B "D7" d/c/B/A/ | "C"G c "C#dim"e > G | "Dm7"A/ c A/ "G7"B/c/d/e/ | "C F C"c3 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 324
+T: The Man from Skye
+C: P. M. Donals MacLeod
+R: reel
+O: RSCDS Leaflet 32 #3
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+P: For the dance "Broadford Bay"
+M: 4/4
+L: 1/4
+K: Am
+Bd |\
+"Am"e2 ed de ed | Be ed "D7"B2 A2 | "G"GG GB G2B2 | GB Bd B2 d2 |
+"Am"e2 ed de ed | Be ed "Em"B2 AG | "Am"AA AB "E7"e3 dB | "Am"A4 A2 :| Bd |
+"Am"e2 g2 a2 e^f | g^f ed "D7"B2 A2 | "G"GG GB G2 B2 | GB Bd B2 d2 |
+"Am"e^f ge a2 Aa | g^f ed "G"B2 AG | "F"AA AB "E7"e2 dB | "Am"A4 A2 Bd |
+"Am"e2 g2 a2 e^f | g^f ed "D7"B2 A2 | "G"GG GB G2 B2 | GB Bd B2 d2 |
+"Am"e2 ed de ed | Be ed "G"B2 AG | "F"AA AB "E7"E2 dB | "Am"A4 A2 z2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 325
+T: The West Port
+C: Billy Anderson
+R: jig
+O: RSCDS Leaflet 32 #4
+P: For the dance "Georgie's Jig"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+F |\
+"Bb"DEF G2F | DEF B3 | DEF "Bdim"G2F | "Cm"A2G "F"C3 |\
+"Cm"C2D E2F | EDC D2E | "F7"F2G A2B | AGF GFE ||
+"Bb"DEF G2F | DEF B3 | DEF "Bdim"G2F | "Cm"A2G "F7"C3 |\
+"Cm"C2D E2F | EDC "C7"DE=E | "F"F=EF "F7"ABc | "Bb"BFG "F7"ABc |]
+"Bb"d2c BFD | "A7"A2G "Bb"F3 | B,DF "Gm"GAB | "Cm"A2G "F"C3 |\
+"F7"A2A ABc | "Cm"G2G GAB | "F"ABc FGA | CFG "F7"ABc ||
+"Bb"d2c BFD | "A7"A2G "Bb"F3 | B,DF "Gm"GAB | "Cm"A2G "F"C3 |\
+"F7"A2A ABc | "Cm"G2G GAB | "F"AGF "F7"edc | "Bb"B3- B2 |]
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 326
+T: Kelloholm Jig
+C:Peter Hyssett
+M:6/8
+L:1/8
+S:RSCDS Leaflet 32
+R:Jig
+K:G
+|: "G"D2B B^AB | d^cd BGE | D2B B^AB | dcB "Am"c3 \
+| "D7"D2A A^GA | cBc AFE | D2A A^GA |1 ed^c "G"d3 :|2 "D7"cBA "G"G3 |]
+[| "G"DGB d2d | ed^c dBG | DGB dcB | "Am"c2A A3 \
+| "D7"DFA c2c | dcB cAF | DFA c2c | ed^c "G"d3 |]
+[| "G"DGB d2d | ed^c dBG | DGB dBG | "C"F2E E3 \
+| "Am"EAc ecA | "G"DGB dBG | "D7"FAc e2F | "G"G3- G3 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 327
+T: Kelloholm Jig
+C:Peter Hyssett
+M:6/8
+L:1/8
+S:RSCDS Leaflet 32
+R:Jig
+K:G
+G |\
+ "G"D2B B^AB |   d^cd BGE |     D2B B^AB | "D7"dcB  c3  |\
+    D2A A^GA |    cBc AFE |     D2A A^GA |1 "G"ed^c d2 :|2 cBA "G"G3 ||
+    DGB  d2d |   ed^c dBG |     DGB  dcB | "D7"c2A  A3  |\
+    DFA  c2c |    dcB cAF |     DFA  c2c |  "G"ed^c d3  ||
+    DGB  d2d |   ed^c dBG |     DGB  dBG |  "C"F2E  E3  |\
+"Am"EAc  ecA | "G"DGB dBG | "D7"FAc  e2F |  "G"G3-  G2  |]

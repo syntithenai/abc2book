@@ -1,0 +1,15 @@
+X:1
+T:Beatrice, Reel
+R:reel
+M:C|
+L:1/8
+%%printtempo 0
+Q:180
+K:C
+A,B,|\
+"Am"CCA,C EECE|AEED EGAB|cAAc ecce|!1!aeea eaab|
+"Am"c'bag fedc|"Dm"BddB d3 !0!e|"E"e^def e=dcB|1"Am" A3 A,A,A,2 :|2 A6 ^g2||
+|:"Dm"a2 fa b2 ff|"Am"fede a2ee| "E"ee^de ffe=d| "Am"cdcB A2 ^g2|
+"Dm"a2 fa b2 ff|"Am"fede a3 e-| "E"e^def e=dcB|1"Am" A6 ^g2:|2 "Am"A4 G4||
+|:"C"c2 Gc EGce|cGGG EGce|"G"dBBB GBdB|"C"ceba "G"gfed|
+"C"c2 Gc EGce|cGGG EGce|"G"dBBB GBdB|1"C" cBcd c2 GB:|2 cBcd c2 |]

@@ -1,0 +1,23 @@
+X: 199
+T: Hora Leganata
+O: Romania
+F: http://www.youtube.com/watch?v=r5OR-TxN2nk
+M: 2/4
+L: 1/8
+P:ABA
+K: Em
+Q: 1/4=180
+%%MIDI gchord Hf
+%%MIDI program 41 % Viola
+%%MIDI bassprog 45 % Pizzicato Strings
+%%MIDI bassvol 50
+%%MIDI chordprog 45 % Pizzicato Strings
+%%MIDI chordvol 80
+P:A
+"D"FG A2|A2 "Bm"Bc|d3/2c/ cB|B3/2A/ Bc|B2 AG|"Em"G2 =FE|"Bm"=F2 DE|"D"D4-|D4|
+"D"FG A2|A2 Bc|d3/2c/ cB|B3/2A/ Bc|B2 AG|"Em"G2 =FE|"D"=F2 DE|"Em"E4-|E4:|
+P:B
+K:Am
+%%MIDI program 57  % Trombone
+|:"Dm"A, B,2 ^C|D2 A,D|FAA2|"G"FGG2|G2G2|"Am"FEEF|"Dm"D4-|D4|
+  "G"A, B,2 ^C|D2 A,D|"Dm" FAA2|"G" FGG2|G2G2|GF2D|"C"E4-|E4:|

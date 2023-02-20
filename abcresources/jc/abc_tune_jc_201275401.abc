@@ -1,0 +1,1586 @@
+%%textfont Helvetica-Bold 21
+
+%%titleleft
+%%textfont Helvetica 16
+%%infoline 1
+
+
+%%footer $D   Galouvielle-MBe 2007 \n-- (--)
+X:1
+T:Au printemps, la mère Ajasse
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-04-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+L:1/4
+K:C
+%%staves [1 2 3]
+V:1
+c/c/cG | A/B/AG | c/c/cG | A/B/AG |
+c/e/ d/d/ c/e/ | d/e//d// c G |[P:Intro] c/e/ d/d/ c/e/ | d/e//d// c2 |]
+V:3
+GEE | F/E//G//FE | GEE | F/E//G//FE |
+cBA | Gc/B//A//B | cBA | G/c G/ A/B/ |]
+V:2
+G/G/GB | c/d/cB | G/G/GB | c/d/cB |
+e/g/ f/f/ e/g/ | f/g/4f/4 ec | e/g/ f/f/ e/g/ | f/g/4f/4 e2 |]
+
+%%footer $D   Galouvielle-MBe 2007 \n-- (Vendée)
+X: 2
+T:Boulangère des Plainauds
+O:Vendée
+C:Trad.
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-04-23
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Cmaj
+%%continueall 1
+%%staves [1 2]
+V:1
+|: G>G Gc | e3c | eg ec | d2d2 |1 G>G GB | d3e | fe fd | e2c2 :|2 d>d de | f3f | gf ed | Hg2 ||
+g>f ed | ef g2 | fe f2 | ed ec | g>f ed | ef g2 | fe fd | ce/2g/2 c'2 |]
+V:2
+|: G>G Gc | c3A | ce cA | B2 B2 | G>G GB | B3c | dc AB | c2c2 :| B>B Bc | f3a | ec c=B | Hc2 ||
+c'>b ag | a/2b/2a/2g/2 c'2 | a/2g/2a/2b/2 a2 | gf/2a/2 ge/2g/2 | c'>b ag | a/2b/2a/2g/2 c'2 | a/2g/2a/2b/2 a/2g/2f/2d/2 | cz z2 |]
+
+%%text Accordéon G/C - Violon - Galoubet C
+
+%%footer $D   Galouvielle-MBe 2007 \nBranle (France)
+X:3
+T:Branle de Gouloux
+R:Branle
+A:Morvan
+C:D'après la version collectée auprès de Lucien Léger, violoneux à Gouloux
+O:France
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-05-12
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+K:Cmaj
+G |: c2e d2c | Bcd c2G | c2e d2c | Bcd d3 :| [M:2/4] |:
+d2 d>c | BA G2 | GA Bc |1 de fe :|2 dB c2 |]
+T:Autre version (UGMM)
+M:6/8
+c2ed2c|Bcd c2 G|c2 ed2c|Bcd c3:|
+d3d2c|B2AG3|G2cB2c|d2ef2d|d3d2c|B2AG3|G2cB2B|c2dc3|]
+
+%%footer $D   Galouvielle-MBe 2007 \nBransle (France)
+X: 4
+T:Branle de la Montarde
+R:Bransle
+C:Trad.
+S:Thoinot Arbeau
+N:0181.gif
+B:Orchesographie (1589)
+O:France
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-11-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:8/2
+L:1/2
+Q:1/2=220
+K:Fmaj
+V:1
+[P:A]|: d>efd gefd  dddd cBAG | defd gefd |
+cd/2c/2BA/2G/2 G A/2 F/2 G z+fine+ :: [P:B1,B2] g a/2g/2 fefdc2 :: [P:B3,B4]g a/2g/2 fefdc2 ::
+V:2
+|: d>cBA dcdB  B/2A/2B/2c/2B/2A/2B/2c/2 GddB | dcBA dcdB |
+eg/2e/2fe/2d/2 dd/2c/2d z :: dd/2d/2 dg a/2g/2a/2f/2 e2 :: d/2e/2d/2c/2 dg/2a/2 dd/2f/2 e2 ::
+%%text B est est joué autant de fois que de danseur dans une chaine.
+
+
+%%text Vielle à roue : bourdon do
+%%text Intro : galoubet sans tambour
+%%text Galoubet en do
+
+
+%%footer $D   Galouvielle-MBe 2007 \n-- (Bretagne)
+X:5
+T:Branle des lavandières
+O:Bretagne
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-04-23
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+K:C
+G |: c2B c2d | e3 e2e | g2e d2e |1 d3 c2G :|2 d3c2z ||
+ggg e2g | f2e d3 | ggg e2g | f2e d3 |: [P:Intro]gge c3 | cBc d2d | d2e g2e |d3 c3 :|
+%%begintext
+Accordéon G/C - Galoubet do
+Intro : Accordéon
+4 x + sortie
+%%endtext
+
+
+%%footer $D   Galouvielle-MBe 2007 \n-- (Limousin)
+X:6
+T:Branle du petit Limousin
+O:Limousin
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-04-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/4
+K:G
+%%continueall 1
+V:1
+GG/>A/ | B B/>B/ | A A/>A/ | GD | G G/>A/ | Bd | B/G/ A/A/ | G2 ||
+w:Dan-sons lou bran-le, lou bran-le, lou bran-le, dan-sons le branle du pe-tit li-mou-sin.
+GGGLdG | GGGLddG | GGGGLdG | GGGLddG | GGGGLdG |
+w:un pe-tit sau-ta un pe-ti tour-ni-qua les mains sur la tê-ta les mains sur l'é-pau-la les mains sur la han-cha
+GGGGLddG | GGGGLddG |]
+w:les mains sur la ge-nouil-la les mains sur la che-vil-la
+
+V:2
+x2  | x2  | x2  | x2 | x2 | x2  | x2 | x2 ||
+x5 | x6 |  x6 |  x6 |
+x6 |  x7 |  x7 |]
+%%text Vielle à roue : bourdon do sur partie récitée
+
+%%footer $D   Galouvielle-MBe 2007 \nBranle (France)
+X:7
+T:Branle du Rat
+R:Branle
+C:Trad.
+O:France
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-03-17
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C|
+L:1/16
+Q:1/4=90
+K:G
+B2B2 B2AB|c2B2 A4|A2A2 A2GA|G2A2 B2G2|\
+B2B2 B2AB|c2B2 A4|d2d2 d2cc|B2A2 G4||
+[M:6/8][L:1/8]
+Q:3/8=90
+B2G B2G|DEF E2D|B2G B2G|DEF G3:|
+T:Version Saulieu
+M:2/4
+%%text D'après la version notée par Lucie Augias (Saulieu - 1936)
+%%continueall 1
+cd ed/c/ | dg g2 | cd ed/c/ | dg c2 :: gg gg | g/a/g/f/ ed/e/ |1
+ff ff | f/g/f/e/ de/f/ :|2 ff ed | g/f/e/d/ c2 |]
+T:Version Haut-Morvan
+%%text D'après la version collectée en 1938 auprès de Simon Guénard dit "Le Chaicrot", vielleux à Anots
+%%continueall 1
+M:2/4
+ee ed/e/ | fe d2 | dd dc/d/ |  ed c2 :| [M:6/8] e2c e2c | GAB A2G | e2c e2c | GAB c3 :|
+
+%%footer $D   Galouvielle-MBe 2007 \nBranle des chevaux (--)
+X:8
+T:Bransle des chevaulx
+R:Branle des chevaux
+C:Arbeau
+R:Branle
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-09
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C|
+L:1/4
+Q:1/2=120
+K:C
+%%staves [1 2 3 4]
+V:1
+c>d ee | fedf | edcB | A2G2 | c>dee | fedf | ecd2 | c4 |
+gf/e/ dd/e/ |  fe/d/ ce | dcBc | d2d2 | gf/e/ dd/e/ | fe/d/ ce | dccB | c4 |:
+_ed/c/ ed/c/ | _Bcd2 | GA_Bc | d_edc  |_ed/c/ ed/c/ | _Bcd2 | GA_Bc | cBc2 :|
+V:2
+G2cc | c2Bc- | cBE/^F/G- | G^FG2 | G2cc | dcBc | c3B | G4 |
+_B2BB | A2Gc | _BAdG/A/ | B2B2 | _B2BB | A2G>A | _BGG2 | G4 |:
+c2cc | dcBG- | GF/_E/DG/A/ | BcBG | c2cc | dcBG- | GF/_E/DG | _AGE2 :|
+V:3
+E>FGG | AGGA | GGCD | D2B,2 | C/D/E/F/ GG | _BGGA | GGG2 | G4 |
+D2GG | C>DE/F/G | GE/F/GE | G2G2 | D2GG | C>D E/F/G/E/ | FED2 | E4 |:
+GF/_E/GF/_E/| D_ED2 | D2G_E | DG2_E | GF/_E/GF/_E/| D_ED2 | D2G_E | FDC2 :|
+V:4
+C2CC | F,CG,F, | CG,A,G, | D,2G,2 | C2CC | _B,CG,F, | CC,G,2 | C,4 |
+G,2G,G, | F,2CC, | G,A,G,C, | G,2G,2 | G,2G,G, | F,2CC | _B,CG,2 | C,4 |:
+C2CC | G,CG,2 | G,2G,C, | G,C,G,C, | C2CC | G,CG,2 | G,2G,C, | F,G,C,2 :|
+%%begintext
+Galoubet do grave
+
+Intro
+Unisson
+Vielle : 1ère ; galoubet : 3e
+Vielle : 2ème ; galoubet : 1ère
+Unisson
+%%endtext
+
+%%footer $D   Galouvielle-MBe 2007 \nDivers (France)
+X: 9
+T:Calibeurdaine, La
+R:Divers
+C:Trad.
+O:France
+A:Morvan
+Z:Michel BELLON
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-09-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+Q:1/4=120
+K:Cmaj
+cd e>g|fe dd|cd e>g|fe d2::
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-09-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+Q:3/8=120
+g2e g2e |gfe def|g2e g2e|fed c3:|
+
+
+
+%%footer $D   Galouvielle-MBe 2007 \nCercle circassien (Irlande)
+X:10
+T:Cercle circassien
+R:Cercle circassien
+O:Irlande
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-03-17
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:C
+V:1
+"C"C>D EG|cB AG|"F"AD DE|"G"FG/F/ ED|"C"C>D EG|cB AG|"F"Ad "G"AB|"C"c2 c2::
+"D"dA dA|dA A2|"C"cG cG|cG G2|"D"dA dA|dA AB|"C"cA GE|"G"D2 D2:|
+
+%%footer $D   Galouvielle-MBe 2007 \nCercle circassien (Irlande)
+X: 11
+T:Cercle circassien
+R:Cercle circassien
+O:Irlande
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-03-17
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Gmaj
+V:1
+"G"G>A Bd|gf ed|"C"eA AB|"D"cd/2c/2 BA|"G"G>A Bd|gf ed|"C"ea "D"ef|"G"g2 g2::
+"A"ae ae|ae e2|"G"gd gd|gd d2|"A"ae ae|ae ef|"G"ge dB|"D"A2 A2:|
+
+
+
+%%footer $D   Galouvielle-MBe 2007 \nCercle circassien (Irlande)
+X:12
+T:Cumberland reel (Cercle Rosbif)
+R:Cercle circassien
+O:Irlande
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-03-17
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:G
+V:1
+"G"G>A BA|GA BG/B/|dB GB|[1 "D"A/G/A/B/ A2 :|[2 "D"A2 "G"G2|:
+"G"de/f/ gf/e/|de ed|de/f/ gf/e/|dc B>c|dd "C"e>d|"Am"cB "D"AB/c/|"G"dB GB|"D"A2 "G"G2:|
+
+%%footer $D   Galouvielle-MBe 2007 \n-- (France)
+X:13
+T:Le Chibeurli
+C:Trad.
+O:France
+A:Morvan
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-09-08
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:C
+%%D'après la version notée par Lucie Augias (Saulieu - 1936)
+%%continueall 1
+e/f/ |: g3 e/f/ | g3g | ag fe | f2 dd/e/ | f3d/e/ | f3f | gf ed |1 e2 ce/f/ :|2
+c3 e/f/ |: gg gg | a/g/f/e/ dd/e/ |1 ff ff | g/f/e/d/ ce/f/ :|2 ff ed | g/f/e/d/ c2 |]
+
+%%footer $D   Galouvielle-MBe 2007 \n-- (--)
+X: 15
+T:Coucou
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-04-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+Q:1/4=120
+K:Cmaj
+%%continueall 1
+V:1
+z4 | z2 ze |: c2Ge | c2 Ge |
+w:Cou-cou Ah cou-cou Ah cou-
+ef/2e/2 de/2d/2 | c2 Ge | c2 Ge | c2 Ge |
+w:cou je te vois tu me vois Ah cou-cou Ah cou-cou Ah cou-
+ef/2e/2 de/2d/2 | c2 z2 || eg ge | df fd |
+w:cou je te vois tu me vois Tra-la la la la la la la
+ce ec | Bd d2 |[P:Intro] eg ge |
+w:la la la la la la la  Tra-la la la
+df fd | ce ec | B2d2 | c2 ze :|
+w:la la la la Ah qu'il est drôl' ce jeu là Cou-
+V:2
+z4 | z2z2 |: e2 gg | e2 gg | aa/2g/2 fg/2f/2 | e2 ge | e2 ge | e2 ge | aa/2g/2 fg/2f/2 | e2z2 ||
+e3g | d3f | c3e | B/2A/2B/2c/2 d2 | e3g | d3f | c3e | B/2A/2B/2c/2 d/2c/2d/2e/2 | c2z2 :|
+
+%%begintext
+Galoubet do grave
+
+Intro
+Galoubet seul (coucou)
+G1 / A / V2
+G2 / A / V1
+...
+%%endtext
+
+%%footer $D   Galouvielle-MBe 2007 \nDivers (--)
+X: 16
+T:De Kolom
+R:Divers
+C:Trad. (Flandres)
+Z:J.M HENRY
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-04-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/8
+Q:1/4=120
+K:Cmaj
+V:1
+"G7"G| "C"c2 e2| "C"c3 e|"C"ce ge|"C"c3 e/2e/2|"C"e dd f/2f/2|"F"f ee f|"G7"gf ed|"C"e2 cG|!
+"C"c2 e2|"C"c3 e|"C"ce ge|"C"c3 e/2e/2|"C"e dd f/2f/2|"F"f ee f|"G7"gf ed |"C"c2 de|!
+"F"fg/2f/2 ed|"G7"gg de|"F"fg/2f/2 ed|"C"cc de|"F"fg/2f/2 ed|"G7"gg de|"F"fg/2f/2 ed|"C"c3|]
+V:2
+G | e2g2 | e3e | ce/2g/2 ee/2c/2 | g3a/2a/2 | ab ba/2a/2 | ac' c'a | ba gf | g2 eg |
+e2g2 | e3e | ce/2g/2 ee/2c/2 | g3a/2a/2 | ab ba/2a/2 | ac' c'a | ba gf | e2z2 |
+c'e cB/2c/2 | d/2e/2f/2g/2 fa | ce cB/2c/2 | e/2d/2c/2B/2 z2 | c'e cB/2c/2 | d/2e/2f/2g/2 fa | ae cB/2c/2 | c3 |]
+
+
+
+%%%"C"cd/2c/2 BA|"D7"dd AB|"C"cd/2c/2 BA|"G"GG AB|"C"cd/2c/2 BA|"D7"dd AB|"C"cd/2c/2 BA|"G"G2 [P:Intro]AB|!
+%%%gB GF/G/ | A/B/c/d/ ce | GB GF/G/ | B/A/G/F/ z2 | gB GF/G/ | A/B/c/d/ ce | GB GF/G/ | B/A/G/F/ z2 |
+
+%%text Transposé pour Galoubet en sol
+
+%%footer $D   Galouvielle-MBe 2007 \nDivers (--)
+X:17
+T:De Kolom
+R:Divers
+C:Trad. (Flandres)
+Z:J.M HENRY
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-04-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/8
+Q:1/4=120
+K:G
+V:1
+"D7"D| "G"G2 B2| "G"G3 B|"G"GB dB|"G"G3 B/2B/2|"G"B AA c/2c/2|"C"c BB c|"D7"dc BA|"G"B2 GD|!
+"G"G2 B2|"G"G3 B|"G"GB dB|"G"G3 B/2B/2|"G"B AA c/2c/2|"C"c BB c|"D7"dc BA |"G"G2 AB|!
+"C"cd/2c/2 BA|"D7"dd AB|"C"cd/2c/2 BA|"G"GG AB|"C"cd/2c/2 BA|"D7"dd AB|"C"cd/2c/2 BA|"G"G3|]
+V:2
+D | B2d2 | B3B | GB/d/ BB/G/  |  d3e/e/ | ef fe/e/ | eg ge | fe dc | d2 Bd |
+B2d2 | B3B | GB/d/ BB/G/ | d3e/e/ | ef fe/e/ | eg ge | fe dc | B2z2 |
+gB GF/G/ | A/B/c/d/ ce | GB GF/G/ | B/A/G/F/ z2 | gB GF/G/ | A/B/c/d/ ce | eB GF/G/ | G3 |]
+
+
+
+%%%"C"cd/2c/2 BA|"D7"dd AB|"C"cd/2c/2 BA|"G"GG AB|"C"cd/2c/2 BA|"D7"dd AB|"C"cd/2c/2 BA|"G"G2 [P:Intro]AB|!
+%%%gB GF/G/ | A/B/c/d/ ce | GB GF/G/ | B/A/G/F/ z2 | gB GF/G/ | A/B/c/d/ ce | GB GF/G/ | B/A/G/F/ z2 |
+%%text 4x , Intro : Accordéon, Tutti, cordes, tutti, vents, tutti
+
+
+%%footer $D   Galouvielle-MBe 2007 \nRondanse (France)
+X:18
+T:En faisant le tour du moulin
+R:Rondanse
+A:Normandie
+O:France
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-09-10
+Z:Pour toute observation mailto:galouvielle@free.fr
+%%continueall 1
+M:6/8
+Q:1/4=104
+K:G
+V:1
+BBB | d3cBA | G3 [P:Intro]BBB|d2 G A3|!breath!G3 BBB| d3 cBA|G3 BBB|d2 G A3| G3 z2
+w:En fai-sant le tour du mou-lin j'a-per-çois la meu-niè-re En fai-sant le tour du mou-lin j'a-per-çois la meu-niè-re
+ B|d2 e d2 B| d2 e d2 B|d2 e d2 B|d2 e !breath!Hd2B | c2d e2 e|d2 c HB3|:
+w: Qui cul-ti-vait dans son jar-din Qui cul-ti-vait dans son jar-din Rose à la bou-ton-niè_re
+ddd e2 d|cBc A2A|c2d e2c|ddd G3 :|
+w:Je lui ai dit belle en_ pas-sant n'vou-drais tu pas cau-ser un ins-tant~!
+V:3 clef=perc stafflines=1  staffscale=0.6
+B2B | B3 B2B | B3 B2B | B3 BBB | B3 B2B | B3 B2B | B3 B2B | B3 BBB | B3
+
+V:2
+x16
+x16
+x16
+x16
+x16
+x16
+x16
+%%text Transposé pour galoubet en Fa
+
+%%footer $D   Galouvielle-MBe 2007 \nFarandole (France)
+X: 19
+T:Farandole di Tarascaïre
+O:France
+A:Provence
+C:Trad.
+C:2e partie M. Maréchal
+R:Farandole
+M:6/8
+Q:3/8=90
+K:Gmaj
+V:1
+GBd|GBd gfe|(d2d) ece|dcB Adc|B2G GBd|GBd gfe|(d2d) gfg|(a2a) gfe|
+d3 ded|dcB Adc|B2G B2B|B2d dcB|A3 ded|dcB Adc|B2G gfe|edB dcA|
+G3 ||[K:Cmaj]gag|g2e gag|g2e eee|edc dcB|d2c gag|g2e gag|g2e eee|edc dcB|c3|]
+V:2
+B2B| B2A B2c| (B2B) c3| A2G f2e| d2+breath+B B2B| B2A B2c| (B2+breath+B) B3| c3 edc|
+B2z .f2.f|.f2.d .f2.a|.g2+breath+.g .d2.d| .d2.B .A2.G| +breath+F3 .f2.f|.f2.d .f2.a|(g2+breath+g) e2a| .g2.g .f2.f|
+g2z ||[K:Cmaj] e2e|Le2 ((3c/2e/2g/2) e2e| (Le2c) g2g| (g2e) f2g| (f2e) e2e| Le2 ((3c/2e/2g/2) e2e| (Le2c) g2g| (g2e) f2g|e3|]
+
+
+%%footer $D   Galouvielle-MBe 2007 \n--- (--)
+X:20
+T:Galopede
+R:---
+% Nottingham Music Database
+P:AABC
+S:Eric Foxley
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-10-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/4
+Q:1/2=120
+K:G
+P:A
+d/2c/2|"G"BB/2c/2 "D7"AA/2B/2|"G"GG GA/2B/2|"C"c/2B/2c/2d/2 e/2d/2c/2B/2|\
+"Am"cA "D7"Ad/2c/2|
+"G"BB/2c/2 "D/f+"AA/2B/2|"Em"GG "Em7/d"GA/2B/2|\
+"Am/c"c/2B/2A/2G/2 "D7"F/2G/2A/2F/2|"G"GG G:|
+P:B
+d/2c/2|"G"Bg/2f/2 "C"ee/2d/2|"Am"d/2c/2B/2c/2 "D7"Ad/2c/2|\
+"G"Bg/2f/2 "C"e/2d/2c/2B/2|
+"Am"cA "D7"Ad/2c/2|"G"Bg/2f/2 "C"ee/2d/2|"Am"d/2c/2B/2c/2 "D7"Ad/2c/2|\
+"G"B/2d/2c/2B/2 "D7"A/2c/2B/2A/2| "G"GG "D7"G ||
+P:C
+B/2c/2|"G"dd/2d/2 dg|"G"dd/2d/2 dg|"G"dd "C"e/2d/2c/2B/2|\
+"Am"cA "D7"AB/2c/2|
+"G"dd/2d/2 dg|"Em"dd/2d/2 d[P:Intro]g|"Am"e/2d/2c/2B/2 "D7"d/2c/2B/2A/2|"G"GG G|]
+%%begintext
+Accordéon G/C - Vielle à roue - Galoubet en do
+Intro : Accordéon
+4 x
+Sortie sur partie C
+%%endtext
+
+
+%%footer $D   Galouvielle-MBe 2007 \nGigue (France)
+X:21
+T:Gigouillette
+R:Gigue
+A:Normandie
+O:France
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-09-08
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+Q:1/4=220
+K:G
+D2G2|B3A|B2c2|B2A2|D2F2|A3G|A2B2|G4::\
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-09-08
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+DGB DGB|DGB B2A|DFA DFA|DFAG3:|
+K:Cmaj
+G2c2|e3d|e2f2|e2d2|G2B2|d3c|d2e2|c4::\
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-09-08
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+Gce Gce|Gce e2d|GBd GBd|GBdc3:|
+W:C'est la fille de la meunière
+W:Qui dansait avec les gars
+W:Elle a perdu sa jarretière
+W:Sa jarretière qui n'tenait pas
+W:Qui n'tenait, qui n'tenait, qui n'tenait guère
+W:Qui n'tenait, qui n'tenait, qui n'tenait pas
+W:
+W:Venez donc danser la gigue
+W:Toutes les filles et tous les gars
+W:Z'avez peur qu'cà vous fatigue
+W:J'vous dis qu'vous n'en mourrez pas.
+W:
+W:Y a trois gars qui veulent ma fille
+W:Y en a deux qui n'l'auront pas
+W:Le troisième est d'bonne famille
+W:J'suis sûr qu'il la battra pas.
+%%text 6x Tutti, flûtes, vielles+perc, flûtes, tutti, tutti
+
+%%footer $D   Galouvielle-MBe 2007 \n-- (--)
+X:22
+T:Gigue
+C:Steve Waring
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-10-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+F:http://simonwascher.info/TradArchiv_sechsachteltakt/gigue.cBAGABA2EA2BcBAd3-d.abc	 2006-10-06 05:23:46 UT
+K:A minor
+E |\
+A2B cBA | GAB A2E | A2B cBA | d3-d cB | A2B cBA | GAB AEF | GFG E2B | A3-A3 :|
+eae dgd | c2B cBA | eae dgd | c2B A3 :: [P:Intro]cde cBA | cde cBA | cde cBA |1 GAB A2A :|2 GAB A2 |]
+
+%%footer $D   Galouvielle-MBe 2007 \n-- (--)
+X: 23
+T:Gigue
+C:Steve Waring
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-10-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+F:http://simonwascher.info/TradArchiv_sechsachteltakt/gigue.cBAGABA2EA2BcBAd3-d.abc	 2006-10-06 05:23:46 UT
+K:Dmin
+A |\
+d2e fed | cde d2A | d2e fed | g3-g fe | d2e fed | cde dAB | cBc A2e | d3-d3 :|
+ad'a gc'g | f2e fed | ad'a gc'g | f2e d3 :: [P:Intro]fga fed | fga fed | fga fed |1 cde d2d :|2 cde d2 |]
+%%text Galoubet en sol
+
+%%footer $D   Galouvielle-MBe 2007 \n-- (--)
+X:24
+T:Gigue 2
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-10-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+%%measurenb 4
+K:Am
+V:1
+AB |: c2c cde | dBG GAB | cAA ABc | BEE EAB | c2c cde | dBG GAB | cBA BAG |1 A3- AAB :|2 A3- Aef |:
+g2g gfe | dBG G3 | a2a aba | gee eef | gce gfe | dBG GAB | cBA BAG |1 A3- Aef :|2 A3- A |]
+V:2
+x2 |: x6 | x6 | x6 | x6 | x6 | x6 | x6 | x6 | x6 |:
+x6 | x6 | x6 | x6 | x6 | x6 | x6 | x6 | x6 |
+
+%%footer $D   Galouvielle-MBe 2007 \nEn dro (France)
+X:25
+T:J'ai vu le loup, le renard et la belette
+C:Trad.
+O:France
+A:Bretagne
+R:En dro
+Z:Michel BELLON
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-09-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:C
+%%continueall 1
+cB/A/ GA/B/|c/B/c/d/ ec|cB/A/ GA/B/|cd c2::
+w:J'ai vu le loup, le re-nard et la be-let-te, j'ai vu le loup, le re-nard dan-ser
+cd ef | ed e2|cc/B/ AA/G/|A/G/A/B/ AG|cd ef | ed e2|cc/B/ AB/c/|dB c2:|
+w:J'les ai vu ta-per du pied, j'ai vu le loup, le re-nard et la be-let-te.  J'les ai vu ta-per du pied, j'ai vu le loup, le re-nard dan-ser.
+
+%%footer $D   Galouvielle-MBe 2007 \nRonde (--)
+X:26
+T: Jean Petit qui danse
+R:Ronde
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-04-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M: 2/4
+L: 1/8
+K: Am
+V: 1
+Ae "Am"ed | e2 c2 | "E7"dd ed | (cB) "Am"A2 |
+w: Jean pe-tit qui dan-se, Jean Pe-tit qui dan-*se
+Ae ed | e2 c2 | "E7"dd ed | (cB) "Am"A2||
+w: De son pied il dan-se, De son pied il dan-*se
+AB"Am"c2 | "E7"B2"Am"A2|| AB "Am"c2 | "E7"d2 "A"He2 || e>f "E7"ed | cB "A"A2 |]
+w: De son pied, pied, pied, De son pied, pied, pied, Ain-si dan-se Jean Pe-tit.
+V:2
+Ac BA | E2 G2 | BG AG | E/E/F/G/  A2 |
+Ac BA | E2 G2 | BG AG | E/E/F/G/  A2 ||
+AG E2 | G2 A2 || ED E2 | F2 HE2 || c>c  BG | EG A2 |]
+
+%%footer $D   Galouvielle-MBe 2007 \n-- (--)
+X:27
+T:La boulangère a des écus
+C:Paroles : Nicolas Gallet
+C:Musique anonyme (env. 1720)
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+Q:3/8=90
+L:1/8
+K:G
+V:1
+|: "G"GGG "C"c2c | c2c c2c | "D"d2d A2B | "C"(c2B) "D"A2z :| A2AA2c |
+"C"B2A G2G |: "D"F2E F2G | ABA "G"D2G | "D"F2E F2G | "D7"(B2A) "G"G3 :|
+V:2
+|: EDE G2G | G2G G2G | AGB A2G | G2B A2z :| d2e c2e |
+d2c B2G |: A2B A2B | c2e GAB | A2B A2B | (G2F) G3 :|
+T:Autre
+d2c B2G | A2B A2B |cec d2B  | A2B A2B | (G2F) G3 |]
+%%text A deux violons (par exemple)
+
+%%footer $D   Galouvielle-MBe 2007 \n--- (--)
+X: 28
+T:La chaussette
+R:---
+C:Limousin ?
+I:abc2nwc
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-03-17
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+K:Cmaj
+P:A
+G2G2 c2c2|d2e2 c4|d2cB A2G2| [1G2B2 A2G2:| [2A2B2 c4
+P:B
+|:g2fe d2c2|d2f2 e2c2|g2fe d2c2|d2B2 c4:|
+%%text B en quantité suffisante ...
+%%newpage
+
+
+%%footer $D   Galouvielle-MBe 2007 \n--- (--)
+X:29
+T:La chèvre
+R:---
+C:Limousin ?
+I:abc2nwc
+L:1/8
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-09-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+K:C
+%%continueall 1
+G | c2d e2f | d2e !breath!c2G | c2d e2f | d3- d2 ::
+w:Elle a man-gé des choux la chèvre elle a man-gé des choux_
+z | e2d c2B | A3 G2G | G2c B2c | d3 d3 | e2d c2B | A3 G3 | G2c B2d | c6 :|
+w:Des choux des choux ra-ves d'la chi-co-rée sau-va-ge des choux des choux ra-ves et des pis-sen-lits.
+%%text 6x
+
+%%footer $D   Galouvielle-MBe 2007 \nEnfants (France)
+X:30
+T:La fille du coupeur de paille
+O:France
+R:Enfants
+C:Trad.
+%%continueall 1
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-09-10
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:C
+(3ecd e2 (3|ecd e2|ee/e/ eg|fe ed|(3dBc d2|(3dBc d2|dd/d/ df|ed c2||\
+w:Sur mon che-min j'ai ren-con-tré la fi-le du cou-peur de pail-le Sur mon che-min j'ai ren-con-tré la fi-le du cou-peur de  blé\
+g2 g2|(3gfe d2|dd/d/ df|ed ec|g2 g2|(3gfe d2|dd/d/ df|edc2|]
+w:Oui oui J'ai ren-con-tré la fil-le du cou-peur de pail-le Oui oui J'ai ren-con-tré la fil-le du cou-peur de blé
+%%newpage
+
+
+%%footer $D   Galouvielle-MBe 2007 \n--- (--)
+X:31
+T:La Fougère
+R:---
+C:Bretagne
+I:abc2nwc
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-04-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/8
+K:C
+%%staves [1 2]
+V:1
+cd e2c2dd|cd e2c2d2| cd e2c2d2 ||
+"doublé ou triplé"e2ed ef g2|e2ed ef !breath!g2||[P:Intro]e2eg fe d2|de fe d2c2|e2eg fe d2|de fe d2c2H|]
+V:2
+cG c2A2GG | cG c2A2G2 | cG c2A2G2 ||
+c2cG cde2 | c2cG cde2 || c2ce dc G2 | GA Bc BG c2 | c2ce dc G2 | GA Bc BG c2 |]
+%%text Galoubet en la
+
+%%footer $D   Galouvielle-MBe 2007 \n--- (--)
+X: 32
+T:La Fougère
+R:---
+C:Bretagne
+I:abc2nwc
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-04-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/8
+K:Gmaj
+%%staves [1 2]
+V:1
+GA B2G2AA|GA B2G2A2| GA B2G2A2 ||
+"aoublé ou triplé"B2BA Bc d2|B2BA Bc +breath+d2||[P:Intro]B2Bd cB A2|AB cB A2G2|B2Bd cB A2|AB cB A2G2|]
+V:2
+GD G2E2DD | GD G2E2D2 | GD G2E2D2 ||
+G2GD GAB2 | G2GD GAB2 || G2GB AG D2 | DE FG FD G2 | G2GB AG D2 | DE FG FD G2 |]
+%%begintext
+Violon - Accordéon G/C - Galoubet en sol
+Intro : Violon
+1: V
+2: V + A
+3, 4, 5 : V + A + GT
+%%endtext
+
+
+%%footer $D   Galouvielle-MBe 2007 \n-- (Provence - tradition militaire)
+X:33
+T:La fricassée
+O:Provence - tradition militaire
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-04-24
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:G
+%%continueall 1
+P:Intro
+V:1
+D | G>A BG | c2 Bd | BG AF | G2 zD ||
+P:A
+G>A BG | c2 BA | GF EF | A/G/F/E/ DD |
+G>A BG | c2 Bd | BG AF | G2 zB/c/ |
+P:B
+dd cB | c2 zB/c/ | dd cB | A2 zB/c/ |
+dd cB | cd ed | cB AG | A/G/F/E/ DD |]
+P:Sortie
+dB dB/c/ | dB dB/c/ | dd BB | A/B/c/A/ BB/c/ |
+dB dB/c/ | dB dB/c/ | dd BB | A/B/c/A/ HG2 |]
+
+
+V:2
+x16
+x16
+x16
+x16
+x16
+
+%%footer $D   Galouvielle-MBe 2007 \n-- (Provence - tradition militaire)
+X: 34
+T:La fricassée
+O:Provence - tradition militaire
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-04-24
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Cmaj
+%%continueall 1
+P:Intro
+V:1
+G | c>d ec | f2 eg | ec dB | c2 zG ||
+P:A
+c>d ec | f2 ed | cB AB | d/2c/2B/2A/2 GG |
+c>d ec | f2 eg | ec dB | c2 ze/2f/2 |
+P:B
+gg fe | f2 ze/2f/2 | gg fe | d2 ze/2f/2 |
+gg fe | fg ag | fe dc | d/2c/2B/2A/2 GG |]
+P:Sortie
+ge ge/2f/2 | ge ge/2f/2 | gg ee | d/2e/2f/2d/2 ee/2f/2 |
+ge ge/2f/2 | ge ge/2f/2 | gg ee | d/2e/2f/2d/2 Hc2 |]
+
+
+
+
+%%footer $D   Galouvielle-MBe 2007 \n--- (--)
+X:35
+T:La Fricassée 1793
+R:---
+C:Tradition militaire
+Q:1/2=100
+I:abc2nwc
+M:2/2
+L:1/8
+K:C
+V:1
+G2||c3d (edec)|f4f2(gf)|(fede) (fedc)|(dcBA) G3G|
+c3d (edec)|f6(gf)|(fede) (fede)|c6|]
+(ef)||g2g2f2e2|f6(ef)|g2g2f2e2|f6(ef)|
+g2g2f2e2|f2g2a2g2|f2e2d2c2|(dcBA) G2|]
+V:2
+G2||c2G2c2G2|A2(cA) B4|c2Bc (AcBc)|(dcBA) G3G|
+c2(G2c2^A2|A2)AB c2B2|c2(Gc) A2B2|c6|]
+(cd)||e2G2A2c2|B2(GA) B2(cd)|e2G2A2c2|(BAGA) B2cd|
+e2e2d2c2|d2e2f2e2|d2c2B2A2|(BcBA) G2|]
+
+%%footer $D   Galouvielle-MBe 2007 \nRonde (--)
+X:36
+T:La ronde du looby
+R:Ronde
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-04-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+Q:3/8=114
+K:G
+V:1
+""z4  |:"C" GGG B2G | "G"d3 z2z |
+w:Nous chan-tons nous dan-sons
+"G"GGG B2G | "D7"A3 z2z | "G"GGG B2G |
+w:la ron-de du loo-by Nous chan-tons nous don-
+"D7"d3 z2d | "D7"d2c B2A | "G"G3 z2D  || "G"G2G G2G |
+w:sons ain-si chaqu' mer-cre-di Mets ta main droite de-
+"G"G3 z2D | "G"B2B B2B | "G"B3 z2G |
+w:vant Mets ta main droite der-rière se-
+"D7"ddd ddd | "D7"d3 z2B | "D7"D2A G2F | "G"G3 g3 :|
+w:coue cou cou cou cou cou cou  un tour et puis voi-là Youp
+V:2
+z4 |: CDE  G2E | D3 z2z |
+CDE G2E | F3 z2z |  CDE  G2E |
+D3 z2 D | B2A G2F | G3 z2D || B2B B2B |
+B3 z2D | D2D D2D | D3 z2B |
+BGB BGB | B3 z2 G | B2c B2A | G3 G3 :|
+%%text A deux violons
+
+%%footer $D   Galouvielle-MBe 2007 \n--- (Italie)
+X:37
+T:La vinca
+R:---
+O:Italie
+C:Trad.
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-09-11
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:G
+P:Intro
+GGG2 | AAA2 | BB AB | ccc2 |:
+P:A
+GG/A/ GG/A/ | GG/A/ B2 | cc/B/ A2 | BB/A/ G2 :|
+P:B
+d^c/d/ ed | AA A2 | d^c/d/ ed | GGG2 |
+dd d2 | ee e2 | ff/f/ ef | gg g2 |]
+
+%%footer $D   Galouvielle-MBe 2007 \n--- (--)
+X:38
+T: L'alouette est sur la branche
+R:---
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-11-26
+Z:Pour toute observation mailto:galouvielle@free.fr
+M: 2/4
+L: 1/8
+K: Dm
+V: 1
+DA AF|G3 A|(FE) D2:| C>C DE|F2
+w: L'a-lou-ette est sur la bran-*che, Faites un pe-tit saut,
+G>F|EE FE|D2 C2| C>C DE|F2 G>F|EE FE|D2 z2|
+w: L'a-lou-et-te, L'a-lou-et-te, Faites un pe-tit saut, L'a-lou-et-te comme il faut.
+
+%%footer $D   Galouvielle-MBe 2007 \nRonde (--)
+X:39
+T:L'Andouille
+R:Ronde
+Z: Yves BELOTTEAU
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-04-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/8
+Q:1/4=60
+K:G
+%%continueall 0
+V:1
+|:BB/2B/2 d3/2B/2 G/2G/2A/2A/2 BG  | BB/2B/2 d3/2B/2 G/2G/2A/2A/2G2:|
+|: dB/2d/2 cA/2c/2 BA/2G/2 AA/2A/2 | dB/2d/2 cA/2c/2 BAG2:|
+V:2
+|: x8 | x8 ::
+x8 | x8 :|
+
+%%footer $D   Galouvielle-MBe 2007 \n-- (--)
+X:40
+T:Le bon tabac
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-04-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+Q:1/4=112
+L:1/8
+K:G
+V:1
+P:Intro
+Z8 S || [P:A] GA BG | A2 AB | c2 c2 |
+w: J'ai du bonc ta-bac dans ma ta-ba-
+B2B2 | GA BG | A2AB | c2d2 | G2z2 ||
+w:tiè-re j'ai du bon ta-bac tu n'en au-ras pas
+P:B
+d2dc | B2 AB | c2d2 | A4 | d2dc |
+w:J'en ai du fin et du bien râ-pé mais ce n'est
+B2AB | c2d2 | A4 [P:C] |: G/A/B/G/ AA/B/ |
+w:pas pour ton vi-lain nez J'ai du bon ta-bac dans ma
+cc BB | G/A/B/G/ AA/B/ | cd G2 :| z2 z2 S ||
+w:ta-ba-tiè-re j'ai du bon ta-bac tu n'en au-ras pas
+T:Double
+Z8 || GA BG | AG AB | cB cA |
+Bc BA | GA BG | AG AB | cB cd | BA Bc |
+de dc | BA Bc | Bd cB | ADFA | de dc |
+BA Bc | Bd cB | A4 [P:C] |: G/A/B/G/ A/G/A/B/ |
+c/B/c/A/ B/c/B/A/ | G/A/B/G/ A/G/A/B/ | c/B/c/d/ G2 :| z2z2 ||
+%%galoubet do grave
+
+%%footer $D   Galouvielle-MBe 2007 \n-- (--)
+X:41
+T:Le furet
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-04-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+Q:1/4=132
+K:C
+V:1
+P:Intro
+""Z4 | ""z4 S || ""zG cd [P:A] | e2 dd |
+w:Il court il court le fu-
+"F"A2 cB | "F"AG AB | "C"cG cd | "C"e2 dd |
+w:ret le fu-ret du bois Ma-dam' il court il court le fu-
+"F"A2 cB | "F"AG AB | "G7"!breath!c2 cB [P:B]|| "F"AG AB |
+w:ret le fu-ret du bois jo-li Il a pas-sé par i-
+"C"c2 cB | "F"AG AB | "C"c2 cB | "F"AG AB |
+w:ci il re-pas-se-ra par là Il a pas-sé par i-
+"C"cG cB | "F"AG AB | "G7"!breath!c2 e2 | "C"c2 z2 S |]
+w:ci_ le fu-ret du bois jo-li qui l'a
+V:2
+Z4 | z4 || z2z2 |zG cd |
+e2 ed | A2 cB | AG AB | cG dd |
+e2 ed | AB cd | !breath!c2 z2 || z4 |
+z2 CB, | A,G, A,B, | C2 z2 | z4 |
+zG, CB, | A,G, A,B, | !breath!C2 G2 | E2 z2 |]
+%%text Galoubet en do
+%%text Vielle en do
+
+%%footer $D   Galouvielle-MBe 2007 \n-- (France)
+X:42
+T:Le soleil
+T:Het so
+C:Trad.
+O:France
+A:Ariège
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-09-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:C
+e | e2e g2f | e2d c2e | e2e g2c | d3 c2 ::
+B | B2B d2c | B2A G2B | B2B d2G | A3 G2 :|
+%%text Changements de tonalité à l'inspiration
+%%text Commencé lentement, puis accéléré
+
+%%footer $D   Galouvielle-MBe 2007 \nFarandole (France)
+X:43
+T:Les bougnettes
+O:France
+A:Savoie
+C:Trad.
+R:Farandole
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-06-26
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+G2B d2e|d2B G3|GFG A2A|AGA B2G|G2B d2e|d2B G3|GFG A2c|B2 A G3::
+ddd d2B|ddd d2B|ddd e2d|c2B c3|ccc c2A|ccc c2A|ccc d2c|1 B2A B3:|2G6|]
+
+
+w:En pas-sant par le Bo-nant, Y'a des bou-gnet-tes, Y'a des bou-gnet-tes, En pas-sant par le Bo-nant, Y'a des bou-gnet-tes,et ma-ta-fan
+w:En pas-sant les Py-ré-nnées Y'a de la nei-ge, Y'a de la nei-ge, En pas-sant les Py-ré-nnées Y'a de la nei-ge jus-qu'au nez
+w:En pas-sant le ca-ni-gou Y'a de la nei-ge, Y'a de la nei-ge, En pas-sant le ca-ni-gou Y'a de la nei-ge jus-qu'au cou
+w:En pas-sant l'Hi-ma-la-ya Y'a de la nei-ge, Y'a de la nei-ge, En pas-sant l'Hi-ma-la-ya Y'a de la nei-ge jus-que là
+
+W:En passant le canigou
+W:En passant le ...
+
+%%footer $D   Galouvielle-MBe 2007 \nDanse trad. (France)
+X:44
+T:Les cordelles
+O:France
+A:Provence
+R:Danse trad.
+C:Trad.
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-03-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Bb
+A>G Fc | cB A2 | A>G AB | G2 Fz :| ff ee | dd c2 |
+cc cd | cB AA/B/ | cc cA/B/ | cc c>z | A>B cc | d2 cz | F>G AB | G2 Fz |]
+
+%%footer $D   Galouvielle-MBe 2007 \n--- (--)
+X:45
+T:Les septs sauts
+R:---
+C:Alsace
+I:abc2nwc
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-04-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+K:C
+V:1
+cdef g2g2|f2d2 e2c2|cdef g2g2|f2d2 c4:|
+|:d2dd d2d2|e2g2 c4|d2dd d2d2|e2g2 c2
+|:g2||e6:|g2 |]
+T:Version CDPF
+L:1/8
+P:Intro
+eg ec | d/e/f/d/ ec | eg ec | d/e/f/d/ c2 |:
+P:Promenade 1
+c/G/c/e/ gg | fd ec | c/G/c/e/ gg | fd c2 :|
+P:Ritournelle
+dd/d/ dd | eg c2 | dd/d/ dd | eg c |: g | [P:Comptes] e3 :| [P: Sauts] g4 |:
+P:Promenade 2
+c/d/e/f/ gg | fd ec | c/d/e/f/ gg | fd c2 ::
+P:Promenade 3
+eg ec | d/e/f/d/ ec | eg ec | d/e/f/d/ c2 :|
+
+V:2
+x16
+x16
+x16
+x16
+x16
+x16
+x16
+x16
+x16
+x16
+x16
+x16
+x16
+x16
+x16
+%%begintext
+Promenade 1 x 2
+Promenade 2 x 2
+Promenade 3 x 2
+Promenade 1 x 1
+%%endtext
+
+%%footer $D   Galouvielle-MBe 2007 \n--- (France)
+X:46
+T:L'escloupeto
+R:---
+O:France
+A:Auvergne
+C:Trad.
+I:abc2nwc
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-11-26
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+L:1/8
+Q:3/4=80
+K:C
+c2 Bc de|f2 d2 g2|f2 g4|d6|c2 Bc de|
+f2 d2 g2|f2 g4|d4g2|ag f2 e2|d3 e f2|
+ed c2 d2|e2 d2 g2|ag f2 e2|d3 e f2|ed c2 B2|c6|]
+
+%%footer $D   Galouvielle-MBe 2007 \nDanse trad. (France)
+X: 47
+T:Li coco
+O:France
+A:Provence
+C:Trad.
+R:Danse trad.
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-03-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Cmaj
+ABcd | e2az | efed | c2Az | ABcd | ed ef | ed cB | A2az |
+cBce | d2c2 | cBce | d2gz | ABcd | edef | edcB | A2az |]
+
+
+
+%%footer $D   Galouvielle-MBe 2007 \n-- (--)
+X:48
+T:Lou pichin ome
+C:Trad. comté Nice
+C:Transcription J.-G. Maurandi
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-01-30
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+Q:3/8=112
+K:Bb
+%%continueall 1
+(F2F | d2d c2c | B3) (BAB | c2c cBc |
+w:Ai un o-me qu'es pi-chin, pouo-di bèn di-re, pouo-di bèn
+d2!breath!B) (F2F | d2d c2c | B3) (BAB | c2e d2c | HB3) (d2d |
+w:di-re, ai un o-me qu'es pi-chin, pouo-di ben di-re qu'es ma-lin~! D'un pan
+d2c c2B | B2B) (d2d | d2c c2B |  B2!breath!B) (F2F |
+w:et d'mi d'é-car-la-te, Je lui fais l'man-teau, la ca-pe. J'en re-
+B2B d2d | f3) (eee |  d2d c2c | B3) |]
+w:ti-re~un p'tit mor-ceau Pour lui fai-re le ca-pu-chon.
+W:
+W:Refrin
+W:Ai un ome qu'es pichin,
+W:pouodi bèn dire, pouodi bèn dire,
+W:ai un ome qu'es pichin,
+W:pouodi ben dire qu'es malin !
+W:
+W:D'un pan et d'mi d'écarlate,
+W:Je lui fais l'manteau, la cape.
+W:J'en retire un p'tit morceau
+W:Pour lui faire le capuchon.
+W:
+W:D'une tête de sardine,
+W:Il(e) soupe puis il dîne.
+W:Il en garde un p'tit morceau
+W:Pour s'en faire un souper.
+W:
+W:Quand il s'en va à la chasse,
+W:A cheval sur une limace.
+W:Quand il s'en va au festin,
+W:A cheval sur un lapin.
+W:
+W:Le lapin s'met à courir,
+W:Le petit homme s'affale.
+W:Le lapin a trop couru,
+W:Le petit homme s'est perdu.
+W:
+W:Allez dire à la voisine
+W:Que les poules soient enfermées,
+W:Car mon homme est sorti,
+W:Qu'elles n'aillent pas le picorer.
+W:
+W:Avec une aiguille usée
+W:Il se fait sabre et épée.
+W:Il en reste encore assez
+W:Pour se faire un coutelet.
+W:
+W:Avec une coque de noisette
+W:Il se fait une cabane.
+W:Il en reste encore assez
+W:Pour se faire la cheminée.
+W:
+W:Avec un pan de toile grise
+W:Il se fait douze chemises.
+W:Il en reste encore assez
+W:Pour se faire un pantalon.
+W:
+%%newpage
+
+%%footer $D   Galouvielle-MBe 2007 \nMarin congo (France)
+X:49
+T:Marin congo
+R:Marin congo
+O:France
+A:Languedoc
+C:Trad.
+M:2/4
+L:1/8
+Q:1/4=106
+K:G
+"G"GA BA/G/|"D"AA D2|"G"GA Bd|[1 d/c/B/A/ BG :|[2 d/c/B/A/ G2|:
+"G"dd/c/ BB/c/|de d2|GA Bd|[1 d/c/B/A/ BG:|[2  d/c/B/A/ G2|]
+
+%%footer $D   Galouvielle-MBe 2007 \nMarin congo (France)
+X: 50
+T:Marin congo
+R:Marin congo
+O:France
+A:Languedoc
+C:Trad.
+M:2/4
+L:1/8
+Q:1/4=106
+K:Cmaj
+"C"cd ed/2c/2|"G"dd G2|"C"cd eg| [1 g/2f/2e/2d/2 ec :| [2 g/2f/2e/2d/2 c2|:
+"C"gg/2f/2 ee/2f/2|ga g2|cd eg| [1 g/2f/2e/2d/2 ec:| [2 g/2f/2e/2d/2 c2|]
+
+
+
+%%footer $D   Galouvielle-MBe 2007 \n--- (--)
+X: 51
+T:Meunier, tu dors
+R:---
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-09-08
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/4
+K:Cmaj
+V:1
+G|c3 e|c3 B/2>c/2|d d/2>d/2 d c/2>d/2|e2 c G|c3 e|c3 B/2>c/2|d d/2>d/2 d e/2>d/2|c
+(3e/2e/2e/2 (3e/2e/2e/2 e/2e/2|g/2g/2 (3d/2d/2d/2 (3d/2d/2d/2 g/2g/2|e (3e/2e/2e/2 (3e/2e/2e/2 e/2e/2|g/2g/2 (3d/2d/2d/2 (3d/2d/2d/2 g/2g/2 c2 ||
+%%text Inutilisé
+%%continueall 1
+G/2c/2 c/2c/2 c|c/2e/2 e/2e/2 c|B/2c/2 d/2d/2 d|d/2d/2 c/2d/2 e c|
+G/2c/2 c/2c/2 c|c/2e/2 e/2e/2 c|B/2c/2 d/2d/2 d|d/2f/2 e/2d/2 c|]
+
+
+%%footer $D   Galouvielle-MBe 2007 \nRonde (France)
+X:52
+T:Mon père a tué le loup
+R:Ronde
+C:Recueillie par Madame Messager,
+C:à Saint-Léonard de Wains (Avranchin)
+A:Normandie
+O:France
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-05-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+Q:110
+K:G
+z3 [P:A]G2A|B2c B2A|G3 B2c|d2 d B2c|!breath!d3 GGA|B2 c B2A|!
+w:Mon pèr' a tu-é le loup Mon pèr' a tu-é le loup a-vec son grand be-zi be-
+G3 BBc|d2 d B2c|d3-d2Hz|[P:B]d2 d d2 d|dcB c2-c|A2B c2c|!
+w:zou A-vec son grand pas-se par-tout_ Ah~! Dan-sons en-core un pe-tit_ Ce gen-til pe-
+cBA B2!breath!G|B2c d2d|dcB c3|ABc d3|cBA G3||
+w:tit pe-tit bran-le Ah~! Dan-sons en-core un pe-tit Ce pe-tit bran-le si jo-li.
+
+%%footer $D   Galouvielle-MBe 2007 \n-- (--)
+X:53
+T:Nous n'irons plus au bois
+C:Paroles traditionnelles du XVIIIe siècle sur l'air du Kyrie grégorien de la messe "De angelis"
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:F
+V:1
+z>F AB |: "F"c2f2 | c>d cB | "C7"A2G2 |1 "F"F> F AB :|2 F>z F>F || FG F2 |
+"C"C2 "F"F>F | FGF2 | "C"C2 "F"c2 | A2c2 | A2 "C7"G>A | BAGc | "F"Fz z2 |]
+T:Version CDPF
+%%continueall 1
+K:Gmaj
+Z4 | z4 |: [P:A]zG Bc | d2g2 |
+d>e dc | B2A2 | GG Bc | d2g2 |
+d>e dc | B2A2 | G2z2 || [P:B] G>G GA |
+G2D2 | G>G GA | G2D2 | d2B2 |
+d2B2 | A>B cB | A2d2 | G2z2 |]
+
+%%footer $D   Galouvielle-MBe 2007 \nRonde (France)
+X:54
+T:Nous n'irons plus au bois
+O:France
+R:Ronde
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-09-10
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+Q:1/4=116
+K:D
+Z4 | z4 |: [P:A] zD FG | A2d2 | A>B AG | F2 E2 | DD FG | A2d2 | A>B AG | F2E2 | D2z2 ||
+P:B
+D>D DE | D2 A,2 | D>D DE | D2A,2 | A2F2 | A2F2 | E>F GF | E2A2 | D2 z2 |]
+
+%%footer $D   Galouvielle-MBe 2007 \n--- (--)
+X:55
+T:Polka des bébés ou badina
+R:---
+C:Bresse
+%%continueall 1
+I:abc2nwc
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-09-10
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+K:G
+D2||G3A B2c2|d3e d2B2|c3d c2A2|[G2B2] z2z2D2|G3A B2c2|d3e d2B2|c3d c2A2|[GB] zd2 e3d|B3G G2F2|F zd2 e3d|c3A A2G2|G zd2 g2g2|g3d f2f2|f3d fedc|B2A2 B2B2|B zd2 e3d|B3G G2F2|F zd2 e3d|c3A A2G2|G zd2 g2g2|g3d f2f2|f3d fedc|B2A2[G2B2][G2B2] |[G2B2] z2z2z2|]
+w:Je t'ai ben vu Mar-gol~! Cli-gnant de l'oe pou-rihe au-to Moai, je t'ai vu toi-not~! Re-lu-quant la voi-sine ai-to Te vout m'lais-si, bra-va Mar-got~! Je t'ai sur-pris, lor-gnant Jean-not~! Bein, faes l'dan-si, Ma chère A-mie Moai je m'en vas chan-gi de com-pa-gnie que tes donc niais, Mon grous Toi-not~! Je le con-nais il est d'ves-nos Mais, c'que t'as dit mon cher A-mi faet que, drait voir, av'
+
+%%footer $D   Galouvielle-MBe 2007 \n-- (--)
+X:56
+T:Pour bien danser la ridée
+C:Yann Dour
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-09-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/8
+K:G
+%%continueall 1
+DD GG BB A2 | GF G2 z2 z2 :| [P:Refrain]Bc dB de c2 | AB cB cd B2 | GA BA Bc AA | GF G2 z2z2 |]
+w: Pour bien dan-ser la ri-dée tap' des pieds Mais pour bien sa-voir dan-ser il ne faut pas ou-bli-er ce qu'on fait a-vec les mains a-vec les pieds
+W:
+W:Pour bien danser la ridée, tap' des pieds (bis)
+W:
+W:Refrain
+W:Mais pour bien savoir danser, il ne faut pas oublier
+W:Ce qu'on fait avec les mains, avec les pieds.
+W:
+W:Pour bien danser la polka, claque des doigts
+W:
+W:Pour danser le sacristain, claque des mains
+W:
+W:Pour bien danser l'avant-deux, cligne des yeux
+W:
+W:Pour le rond de Saint Vincent, claque des dents
+W:
+W:Et quand on a bien dansé, trois baisers
+W:
+W:Dernier refrain
+W:Car après qu'on a dansé, il ne faut pas oublier
+W:D'embrasser son cavalier, trois baisers.
+
+%%footer $D   Galouvielle-MBe 2007 \n--- (--)
+X:57
+T:Pour passer le Rhône
+R:---
+C:Provence
+I:abc2nwc
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-04-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+K:C             %transposed from Eb
+%%continueall 1
+%%staves [1 2 4 3]
+V:1
+A2e2 e4|d4e2e2|B2d2 c4|B4c2A2|
+A2e2 e4|d4e2e2|B2d2 c4|B4A4|
+A2B2 c2c2|B2B2 A2E2|A2B2 c4|B4A4|
+A2B2 c2c2|B2B2 A2E2|A2B2 c4|B4A4|]
+V:4 name=Basse
+z4 A,4- | A,2B,2 B,4- | B,2D2 C4 | D4 A,4- |
+A,2G,2 A,4- | A,2B,2 B,4- | B,2D2 C4 | D4 A,4 |
+E4E4 | G4G4 | A4A4 | E4C4 |
+E4E4 | G4G4 | A4A4 | E8 |]
+V:2
+A2eg f2e2 | d2c2 g2e2 | Bcde e2c2 | B2A2 c2A2 |
+A2eg f2e2 | d2c2 g2e2 | Bcde e2c2 | B4 A4 |
+cdef egfe | dcBc e4 | cdef e2dc | d2B2 A4 |
+cdef egfe | dcBc e4 | cdef e2dc | dcBc A4 |]
+V:3 name="Autre basse"
+A,6C2 | D6E2 | B,6C2 | E4A,4  |
+A,6C2 | D6E2 | B,6C2 | E4A,4  |
+E4E4 | G4G4 | A4A4 | E4E4 |
+E4E4 | G4G4 | A4A4 | E8 |]
+
+%%footer $D   Galouvielle-MBe 2007 \n--- (--)
+X:58
+T:Ramalinho
+R:---
+C:Portugal
+I:abc2nwc
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-09-08
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+K:C
+g2g2 g3e|g2e2 d4|g2g2 g3f|e2d2 c4|g2g2 g3e|
+g2e2 d4|g2g2 g3f|e2d2 c4 ||c2d2 e2fe|d2c2 d2B2|B2c2 d2ed|
+c2B2 c4|c2d2 e2fe|d2c2 d2B2|B2c2 d2ed|c2B2 c4|]
+
+%%footer $D   Galouvielle-MBe 2007 \nRonde (--)
+X:59
+T:Ronde de St Veran
+R:Ronde
+C:Trad.
+A:Queyras - Hautes-Alpes - France
+B:Répertoire "Pays-Gavot"
+G:Accordion
+Z:Transcrit par Alex avec l'aide de TablEdit http://www.tabledit.com/
+%%MIDI program 21 %Accordian
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-04-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+%%continueall 1
+V:1
+P:Intro
+D | G2A B2c | d3 e3 | d2c B2A | G3- G2 ||
+P:A
+D|:G2 AB2c | d3e3 | c2c e2e |1 d2z z2D :|2 d2z z2B ||
+P:B
+d2d dcB | c3A2A | c2c cBA | B3 G2D | \
+G2A B2c | d3 e3 | d2c B2A |  G2z z3 |]
+V:2
+K:C
+G:Flute
+%%MIDI program 74 %Flute
+z | Z3 | z3 z2 || D |: G2D G2A | B3c3 | A2A d2c |1 B2zz2D :|2 B2zz2G ||
+B2B BAG | A2z ^F2E | D2D DE^F | G2E D2D | G2D G2A | B3c3 | A2Ad2c | B2zz3|]
+V:3
+z | Z3 | z3 z2 || D, |:G,2D,D,2D,| G,2G, D,2D, | D,2D, D,2D, |1 G,2G, G,2G, :|2 G,2G, G,2G, ||
+G,2G, G,2G, | D,2D, D,2D, | D,2D, D,2D, | G,2G, G,2G, | \
+G,2D, G,2D, | G,2G, D,2D, | G,2D, G,2G, | G,2G, G,2G, |]
+
+%%footer $D   Galouvielle-MBe 2007 \n-- (--)
+X: 60
+T:Ronde des lavandières
+A:Ile-de-France
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-04-23
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:Cmaj
+P:Intro
+g | c2d e2f | g3 g3 | def e2d | c3- c2 || g | \
+c2d e2f | g3 g2g | a2a g2f | g3 +breath+g2e |
+g2f e2f | d6 | def e2d | e3 +breath+c2G | \
+c2d e2f | g6 | def e2d | c6 |]
+
+
+%%footer $D   Galouvielle-MBe 2007 \nRondeau (France)
+X:61
+T:Saute lapin
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-09-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+O:France
+R:Rondeau
+Z:Richard Robinson <URL:http://www.leeds.ac.uk/music/Info/RRTuneBk/contact.html>
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000072f.html
+%%ID:0000072f
+K:G
+GFG A2A | ABc d3 | dBd e2d | cBA B2G|\
+GFG A2A | ABc d3 | dBd e2d | cBA G3 ::
+ded A3 | ded A3 | c2c B2B | AGA B2G | \
+ded A3 | ded A3 | c2c B2B | AGF G3 :|
+
+%%footer $D   Galouvielle-MBe 2007 \nRonde (France)
+X: 62
+T:Savez-vous planter les choux
+O:France
+R:Ronde
+C:Trad.
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-11-20
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+K:Bbmaj
+%%continueall 1
+CC AA GA F2 |=EF GG FG AF|CC AA GA F2 |=EF GB AG HF2|]
+w:Sa-vez vous plan-ter les choux, à la mo-de à la mo-de, sa-vez vous plan-ter les choux, à la mo-de de chez nous~?
+w:On les plante a-vec le doigt, à la mo-de à la mo-de, on les plante a-vec le doigt, à la mo-de de chez nous~!
+W:On les plante avec la main
+W:
+W:On les plante avec le coude
+W:
+W:On les plante avec le pied
+W:
+W:On les plante avec le genou
+W:
+W:On les plante avec le front
+W:
+W:On les plante avec le nez
+
+
+
+%%footer $D   Galouvielle-MBe 2007 \nTrimazo (France)
+X:63
+T:Trimazo
+R:Trimazo
+O:France
+A:Lorraine
+C:Trad
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-04-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+K:C
+V:1
+""z2c2 e2f2|"G7"g2gf e2d2|"C"c2c2 e2f2|"G7"g2gf e2d2|"C"c4c2d2|"C"c2B2 A2B2|"C"c2G2 c2d2|"C"c2B2 A2B2|
+"C"c6g2|"C"e4d4|"C"c4e2c2|"G7"d2dd d2f2|"C"e4e2c2|"G7"d2dd d2B2|"C"c4[P:Intro]e2c2|"G7"d2dd d2f2|"C"e4d4|"C"c6g2|"C"e4d4|"C"c8|]
+V:2
+z2G2 c2d2 | e2ed B2G2 | c2G2 c2d2 | e2ed c2G2  | c2z2 z4 | e4c4 |  e4c4 | e4c4 |
+e6 e2 | B4B4 | c4 G2E2 | F2FF F2A2 | G4 G2E2 | F2FF F2D2 | E2C2 g2e2 | f2ff f2a2 | g4f4 | e6c2 | c4B4 | c8  |]
+
+%%footer $D   Galouvielle-MBe 2007 \nRonde (France)
+X:64
+T:Une cigale
+O:France
+R:Ronde
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-09-10
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+Q:1/4=116
+K:G
+Z8 S |: [P:A] G2 AB | A2D2 | GA BG | A4 :|
+w:U-ne ci-ga-le, le beau temps pas-sé le beau temps pas-sé
+[P:B] AA AA | dc BA | G2G2 | [P:Intro]AA AA dc BA | G4 S |]
+w: u-ne ci-ga-le, le beau temps pas-sé n'a rien gar-dé.
+%%text Ton réel
+
+%%footer $D   Galouvielle-MBe 2007 \nRonde (France)
+X: 65
+T:Une cigale
+O:France
+R:Ronde
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-09-10
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+Q:1/4=116
+K:Cmaj
+Z8 S |: [P:A] c2 de | d2G2 | cd ec | d4 :|
+w:U-ne ci-ga-le, le beau temps pas-sé le beau temps pas-sé
+[P:B] dd dd | gf ed | c2c2 | [P:Intro]dd dd gf ed | c4 S |]
+w:u-ne ci-ga-le, le beau temps pas-sé n'a rien gar-dé.
+%%text Transposé pour galoubet en sol
+
+%%footer $D   Galouvielle-MBe 2007 \n--- (--)
+X:66
+T: Voici le menton
+R:---
+M: 3/4
+L: 1/4
+K: G
+V: 1
+G/B/ d/g/ d|G/B/ d/g/ d|
+w: Voi-ci le men-ton, voi-ci ton p'tit nez,
+d/d/ e d|c A|c/c/ d c|B G|
+w: Pe-tits doigts qui dan-sent, Pe-tits doigts qui dan-sent,
+G/B/ d/g/ d|G/B/ d/g/ d|
+w: Voi-ci le men-ton, voi-ci ton p'tit nez,
+d/d/ e d|c A|c/c/ B A|G2|]
+w: Pe-tits doigts qui dan-sent, Pe-tits doigts dan-sez!
+
+%%footer $D   Galouvielle-MBe 2007 \n--- (--)
+X:67
+T:Yesh
+R:---
+C:Israël
+I:abc2nwc
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-09-08
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+K:C
+z2gg g4|z2gg g4|z2gg g2gg|g2gg g4|g4||
+P:A
+g4g2g2|a2 g4e2|f2f2 e2d2|e2 c6|g4g2g2|a2 g4e2|f2f2 e2d2|c4c4||
+P:B
+e2g2 c4|e2g2 c4|a2 a4a2|g8|c2e2 g4|f2e2 d4|
+d2f2 e2d2|g8|c2e2 g4|f2e2 d4|d2f2 e2d2|c8|]
+%%text B suffisamment pour que tout le monde passe
+
+%%footer $D   Galouvielle-MBe 2007 \nBranle à Six (France)
+X:68
+T:J'ai peur du loup
+T:Branle à Six
+R:Branle à Six
+O:France
+A:Bresse
+C:Trad.
+S:Decitre
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-05-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:C
+(c/d/) |: ez fz | d2 z{e}d | cB cd | e2 c(c/d/) |
+w:j'ai_ peur du loup Ren-trons vi-te~en fa-mil-le J'ai_
+ez fz | d2 zg | {a}gf ed |1 c2 z(c/d/) :|2 c3G |:
+w:peur du loup Ga-lant près de ce bois J'ai_ bois J'ai
+Z:Transcrit et/ou corrigé par Michel BELLON - 2007-05-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+g2f e2g | g2f e2g | f2e f2g | (a3 g)z[P:Intro]g |
+w:peur du loup j'ai peur du loup je ren-tre vers ma mè-re J'ai
+g2f e2g | g2f e2g | a2f d2B | c3- czz :|
+w:peur du loup, j'ai peur du loup, E-loi-gnons nous du bois.
+
+%%footer $D   Galouvielle-MBe 2007 \n-- (--)
+X:69
+T:Programme du 18/11/2007
+%%begintext
+
+
+
+Programme du Bal des mioches (Entrepont - 18/11/2007)
+
+Une cigale
+De kolom
+La chèvre (cornemuse)
+Les 7 sauts (Alsace)
+La vinca
+Ramalinho
+La fougère
+Le soleil
+Pour passer le Rhône
+La fricassée
+En faisant le tour du moulin
+Galopède
+%%endtext

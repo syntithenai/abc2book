@@ -1,0 +1,29 @@
+X: 4352
+T: Mrs Kinloch's Favorite
+C: by Mr Kinloch
+%R: air, waltz, jig
+N: This is version 2, for ABC software that understands voice overlays.
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.35 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slow"
+K: Bb
+% - - - - - - - - - -
+V: 1 staves=2
+B !segno!|\
+d>cB (F<D)F | (G<E)G (F<D)B, | {Bc}d>cB (F<D)F | ~G2A B2B ||\
+{Bc}d>cB (F<D)F | (G<E)G (FD).B, | {Bc}d>cB (Ge).d | {d}cBA B2 :: f |\
+f6 & d2d c2c | f6 & BAB A2A |
+[1 f6 & d2d c2c | [=ec][ec][ec] [f2A2] :|2 d2d cba | {g}gf=e Hf2 "_D.C."e/_e/ !segno!|]| f |\
+f6 & d2d c2c | f6 & BAB A2A | f6 & d2d c2c | [=ec][ec][ec] [f2A2]Tf ||\
+!f!g2g f2f & B6 | e2e d2d | !p!{Bc}d>cB .G(eg) | {g}f2A H[B2F2D2] |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z !segno!|\
+B2B B3 | [B3e3] [B3d3] | B3 d3 | e2c d3 ||\
+B2B B3 | [B3e3] [B3d3] | B>cd e3 | f2F B2 :: z | b2b a2a | gfg f2f |
+[1 b2b a2a | ggg f2 :|2 B2B ABB | ccC HF2 "_D.C"G/A/ !segno!|]| z |\
+b2b a2a | gfg f2f | b2b a2a | ggg f2z ||\
+!f!e2e d2d | c2c B2B | !p!B>cd e2e | f2F B2 |]

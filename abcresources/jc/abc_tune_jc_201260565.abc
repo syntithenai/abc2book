@@ -1,0 +1,20 @@
+X: 1
+T:Castle Jig, The
+T:Lonesome Jig, The
+T:Sean Ryan's Jig
+C:Sean Ryan
+R:jig
+H:Also played with 2nd part the same both times through: version 2
+D:De Dannan: Selected Jigs and Reels.
+Z:id:hn-jig-15
+M:6/8
+K:Ador
+cBA BAG|AGE DB,G,|~A,3 ~E3|DEG A2B|cBA BAG|AGE DB,G,|~A,3 ~E3|DB,G, A,2B:|
+cBA ~a3|bag edB|GBd ~g3|age dBG|Ace ~a3|bag edB|GBd ~g3|edB A2B|
+cBA ~a3|bag edB|GBd ~g3|GBd GBd|~c3 dcd|ede gab|age dBG|EFG A2B||
+"Version 2:"
+|:cBA BAG|AGE DB,G,|~A,3 ~E3|DEG A2B|cBA BAG|AGE DB,G,|~A,3 ~E3|DB,G, A,2B:|
+|:cBA ~a3|bag edB|GBd ~g3|GBd cBA|~c3 dcd|ede gab|age dBG|EFG A2B:|
+"Version 3:"
+|:cBA BAG|AGE DB,G,|~A,3 EDB,|DEG AGE|c2A B/c/dB|AGE DB,G,|~A,3 ECE|DB,G, A,2B:|
+|:cBA ~a3|bag edB|GBd ~g3|G,B,D GBG|cBc d^cd|ede gab|age dBG|EFG A2B:|

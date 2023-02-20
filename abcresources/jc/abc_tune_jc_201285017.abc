@@ -1,0 +1,59 @@
+X: 1
+T: Haste to the Wedding
+O: Arr: Peter White
+R: jig
+B: Hugh Foss "DANCES to SONG TUNES" 1966 (music: Peter White)
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+B |\
+"D"AFA "F#m"Aaf | "Em"ede "D"fdB | "D"AFA AdF | "Em"EFE "A7"E2A | "D"AFA "F#m"Aaf |
+"Em"ede "D"fdB | "D"AFA "A7"faf | "D"ded d2f/g/ |]| "D"afa "B7"afa | "Em"bgb "A7"bgb |
+"D"afa "B7"agf | "E7"efe "A7"e2f/g/ | "D".a3 "F#m"kf3 | "Em"ede "D"fdB | "D"AFA "A7"faf | "D"ded d2 :|
+
+%%sep 1 1 500
+X: 2
+T: Haste to the Wedding
+O: 1760
+M: 6/8
+L: 1/8
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: Cole p.53
+B: Called "The Small Pin Cushion" in J. Oswald's "Caledonian Pocket Companion" (bk. 10, c 1760)
+B: Called "Carrick Fergus" in J. Brysson's "A Curious Collection of Favourite Tunes" (Edinburgh 1791)
+N: "The tune 'Come, Haste to the Wedding,' of Gaelic origin, was introduced in the pantomime, The Elopement, staged in London in 1767." (Linscott, 1939)
+K: D
+F/G/ \
+| "D"A>BA Agf | "G"ede "A7"fdB | "D"A>BA "Bm"AdF | "Em"GFG "A7"EFG | "D"A>BA Aaf |
+| "G"ede "A7"fdB | "D"A>BA "A7"faf | "D"d>ed d2 :: f/g/ | "D"a>fa afa | "G"b>gb "(A7)"bag |
+| "D"fga "Bm"agf | "Em"g>fg "A7"efg | "D"a2z "Bm"f2z | "Em"ede "A7"fdB | "D"A>BA "A7"faf | "D"d>ed d2 :|
+
+%%sep 1 1 500
+X: 3
+T: Haste To The Wedding
+O: from Viola Ruth
+B: Lee Owens "Advanced Square Dance Figures of the West and Southwest" p.116
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+(FG) |\
+"D"AFA Afe | "G"dcd fdB | "D"AFA AGF | "A7"EFE E2(F/G/) | "D"AFA Afe |
+"G"dcd fdB | "A7"AFA Afe | "D"d3- d2 :: (f/g/) | afa afa | afa bgg |
+"G"geg geg | geg afg | "D"a3 f3 | "G"ede fdB | "A7"AFA Afe | "D"d3- d2 :|
+
+%%sep 1 1 500
+X: 4
+T: Haste to the Wedding
+O: British Isles, New England
+S: Roaring Jelly collection
+M: 6/8
+R: jig
+K: D
+A |\
+"D"AFA Aaf | "A7"ede "Bm"fdB | "D"AFA AdF | "A7"EFE E2 A | "D"AFA Aaf |
+"A7"ede "Bm"fdB | "D"AFA "A7"faf | "D"ded d2 :: a | "D"afa afa | "G"bgb bgb |
+"D"afa agf | "A"gfg efg | "D"a3 f3 | "G"ede "Bm"fdB | "D"AFA "A"faf | "D"ded d2 :|

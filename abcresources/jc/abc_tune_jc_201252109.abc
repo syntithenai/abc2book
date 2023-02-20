@@ -1,0 +1,27 @@
+X: 1
+T: Betty's Maggot
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.179
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat added to satisfy the "Each Strain twice" instruction.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+G>AG D2D | G>AG d2B :: (cE)c (BG)B | (AF)A c2A | ggd eeB |\
+ggd eeB | c>d e/f/ gdB | A>BA c2A | G>AG D2D | G>AG d2B :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1. cu lead through the 2. and 3. cu. and back again through the 2. cu. and cast off into the 2 cu.
+%% place :| The 1. man being in the 2. wo. place, turn the 2. wo. once round, the first wo. being in the
+%% 2. man's place, turn the 2. man round at the same time till they meet above, then take left hands and
+%% change to their own sides, and cast off into the 2. cu. place .| Then all four take right-hands a-cross
+%% half round, and left-hands half round back again, and so cast off :|
+%% [DMDfD]
+%%endtext
+%%sep 1 1 300
+%%text Note: Each Strain is to be played twice over.
+%%sep 1 8 500

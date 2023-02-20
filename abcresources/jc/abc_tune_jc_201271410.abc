@@ -1,0 +1,16 @@
+X:214
+T:The Dusky Night
+C:Apted Book (Thompson 1774-1779)
+N:Used in the Apted Book for the dance "The Happy Captive"
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=110
+M:6/8
+L:1/8
+%%MIDI ratio 3 1
+K:D
+P:A
+A | "D"d2 d "A7"A2 G | "D"F>EF "/"D2 A | "G"B2 A "Em"G2 F | "A7"F3 "/"E2E | "F#m"A2A "E"B2B | "A"c>Bc A2 A |
+"Bm"d2d "A7"e2e | "D"f>ef "/"d2A | "G"B>cd "Em"e>fg | "A"A>Bc "Bm"d2 A | "Em"B2 B "A7"A>GA | "D"D3- "/"D2 :|
+P:B
+|: F/D/ | "A"A2A "/"A2A | "/"A3- "/"A2B/A/ | "D"d2d "/"d>ef | "/"d3- "/"d2A |\
+"G"B>cd "Em"e>fg | "A"A>Bc "Bm"d2 A | "Em"B2G "A7"A2 A | "D"D3- "/"D2 :|

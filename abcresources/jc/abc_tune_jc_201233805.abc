@@ -1,0 +1,77 @@
+
+X: 0
+T: Lantti
+O: trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+P: F2 Bb2 ... (4-6 times)
+K:
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Lantti   [F]
+M: 2/4
+L: 1/16
+K: F
+|: "F"A2AA A2B2 | c2c2 c3c | "C7"c2a2 g3c | "F"c2g2 f3B \
+|  "F"A2AA A2B2 | c2c2 c3c | "C7"c2a2 g3e | "F"f2f2 f4 :|
+|: "F"a4 f4 | c2c2 c4 | "F"a4 f4 | c2c2 c4 \
+| "Bb"b2b2 b4 | "F"a2a2 a4 | "C7"g2g2 gbge | "F"g2f2 f4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Lantti   [Bb]
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+|: "Bb"D2DD D2E2 | F2F2 F3F | "F7"F2d2 c3F | "Bb"F2c2 B3E \
+|  "Bb"D2DD D2E2 | F2F2 F3F | "F7"F2d2 c3A | "Bb"B2B2 B4 :|
+|: "Bb"d4 B4 | F2F2 F4 | "Bb"d4 B4 | F2F2 F4 \
+| "Eb"e2e2 e4 | "Bb"d2d2 d4 | "F7"c2c2 cecA | "Bb"c2B2 B4 :|
+
+
+X: 1
+T: Kahdeksan miehen engeliska
+T: \AAttaman engelska
+M: 2/4
+L: 1/16
+K: D
+P: Polka (3x)
+|: "G"b3a g2f2 | "A7"A2ce cAce | a3g f2e2 |1,3 "D"d2fa fdfa :|2,4 "D"d2d2 d4 :|
+|: "D"D2FA FDFA | "G"G2Bd BGBd "I"| "A7"A2ce cAce |1,3 "D"fedc dcBA :|2,4 "D"d2d2 d4 :|
+P: Polska (2x)
+M: 3/4
+L: 1/16
+|: "A7"A4 | "D"DCDE FEDE F2D2 | FEFG AGFG A2F2 | A2FA d2Ad f2df | "A7"fedc "D"d4 :|
+|: "A7"A4 | "D"d2fd "A"Acec Acec | "D"Adfd "A"Acec Acec | ABcd efge "D"fafd | "A"egec "D"d4 :|
+
+
+X: 1
+T: Penttil\"an sillalla
+T: At the Penttil\"a bridge
+C: Konsta Jylh\"a
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Em
+|:\
+"Em"e>f ge B2 B2 | G>A GE "Am"F4 | "B7"F>G Ac B2 BF | "Em"A2 G2 GF E2 | e>f ge B2 B2 |
+B>e ge "Am"f4 | "B7"fg ag fe ^dB | "Em"e2 e2 "fine"e4 :: "D7"D2 FA cB ce | "G"d2 dg B2 Bd |
+"D7"c2 ce AG FD | "G"G2 B2 d4 | "C"e2 ef ~g2 fe | "G"d2 dg B2 Bd | "D7"c2 ce fd ef | "G"g2 g2 g4 :|
+
+
+X: 1
+T: Nuuskapolkka
+M: 2/4
+L: 1/8
+P: G2 D2 ...
+K: G
+"G:"[|]\
+"D7"D \
+|: "G"GG/A/ BB | "D7"AA/B/ cc | "G"BB "D7"AA |1 "G"GB D2 :|2 "G"GB G ||
+G/B/ \
+|| "G"dd BG | "C"e2 z2 | "D7"cc Ae | "G"d2 z2 \
+"I"\
+| dd BG | "C"ez "G"dz | "D7"cz Az | "G"G2z |]
+[K:D]"D:"[|]\
+"A7"A \
+|: "D"dd/e/ ff | "A7"ee/f/ gg | "D"ff "A7"ee |1 "D"df A2 :|2 "D"df "fine"d ||
+d/f/ \
+|| "D"aa fd | "G"b2 z2 | "A7"gg eb | "D"a2 z2 \
+| aa fd | "G"bz "D"az | "A7"gz ez | "D"d2z |]

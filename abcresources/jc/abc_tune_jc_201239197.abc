@@ -1,0 +1,42 @@
+X:1
+T: The Aberdeen Schottische
+T: dance: Highland Schottische
+C: Bert Murray M.C.P.S.
+R: shottish
+S: Handwritten MS
+B:
+D: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000)
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+N: This was included on the CD as a bonus for those who like to dance a schottische.
+M: C
+L: 1/8
+%
+K: G
+"A1"[|]\
+"D7"D2 \
+| "G"(3DED B,>E (3DED B,>D | B2 B2 B2 B>c | d>^c d>e d>B G>B | "A7"A>^G AB "D7"A>=G F>E |
+y8\
+| "G"(3DED B,>E (3DED B,>D | B2 B2 B2 B>c | d>^c d>e "D7"d>=c B>A | "G"G2 G2 G2 |]
+K: D
+"B"[|]\
+"A7"A2 \
+| "D"f2 f2 f>e d>B | A2 F2 F2 Ad | "A7"c2 E>F G>A B>c | "Ddim7"B>A ^GB "A7"A2 F>A |
+y8\
+| "D"f2 f2 "D7"f>d ef | "G"g2 g2 "Em"g2 a>g | "D"(3fgf d>f "A7"(3efe c>e | "D"d2 d2 d2 |]
+K: G
+"A2"[|]\
+"D7"D2 \
+| "G"(3DED B,>E (3DED B,>D | B>A G>A B2 A>B | "C"c2 e>c "G"B2 d>B | "A7"A>^G AB "D7"A>=G F>E |
+y8\
+| "G"(3DED B,>E (3DED B,>D | B>A G>A "G7"B2 A>B | "C"(3cde gfe "D7"dcB AGF | "G"G2 G2 G2 |]
+K:D
+"C"[|]\
+"A7"A2 \
+| "D"(3ABA F>E D>F Ad | f2 f2 f2 f>g | a>^g a>b "(Bm)"a>f d>f | "E7"e>^d e>f "A7"e>=d c>B |
+y8\
+| "D"(3ABA F>E D>F Ad | f2 f2 f2 f>g | a>f (3def "A7"g>e (3cde | "D"d2 d2 d2 |]
+"A3"[|]\
+"D7"D2 \
+| "G"(3DED B,>E (3DED B,>D | B2 B2 B2 B>c | d>^c d>e "(Em)"d>B G>B | "A7"A>^G AB "D7"A>=G F>E |
+y8\
+| "G"(3DED B,>E (3DED B,>D | B>A G>A "G7"B2 A>B | "C"(3cde (3gfe "D7"(3d^cd e>f | "G"g2 g2 g2 |]

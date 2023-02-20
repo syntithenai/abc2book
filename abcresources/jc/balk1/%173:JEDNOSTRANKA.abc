@@ -1,0 +1,28 @@
+X: 173
+T:Jednostranka
+O:Bulgaria
+F: http://www.youtube.com/watch?v=hb_Vl7QHDeA
+M:2/4
+L:1/8
+Q:1/4=144
+K:Am
+%%MIDI chordprog 26
+%%MIDI bassprog 26
+%%MIDI program 23
+%%MIDI gchord fg
+|:"F"[AF][cA][BG][cA]      |\
+  [AF][G/E/][A/F/][_BG][AF]|\
+  [AF][GE][FD][GE]         |\
+  [A2F2][A2F2]             |\
+  [AF][cA][BG][cA]         |\
+  [AF][G/E/][A/F/][_BG][AF]|\
+  [AF][GE][FD][GE]         |\
+  "G"[GEC]2[GEC]2          :|
+|:"F"[AF][GE][_BG][AF]     |\
+  [AF][GE][FD][GE]         |\
+  [AF][GE][FD][GE]         |\
+  [A2F2][A2F2]             |\
+  [AF][GE][_BG][AF]        |\
+  [AF][GE][FD][GE]         |\
+  [AF][GE][FD][GE]         |\
+  "Gm"[GEC]2[GEC]2         :|

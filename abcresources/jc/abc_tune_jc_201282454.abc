@@ -1,0 +1,22 @@
+X:291
+T:The Grandparents' Waltz
+%%staffsep 50
+%%MIDI program 71     Clarinet
+%%MIDI chordprog 23   Tango Accordion
+%%MIDI bassprog 23    Tango Accordion
+C:Colin Hume, 2003 - schmaltzy ma non troppo
+M:3/4
+L:1/4
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%MIDI beat 100 95 80
+Q:1/4=125
+%%MIDI chordname dim 0 3 6 9
+H:For Barbara and Malcolm Shaffer on the arrival of their second grandchild.
+K:Am
+P:A
+|: "Am"Ace | "Dm"d2c | "B7"BcA | "E7"B3 | "Am"Ace | "A7/C#"a2g | "Dm"f3 | "Fdim/G#"fed |
+"Am"e3 | "E7"dcB | "Am"c3 | "Dm"DEF | "Am"EFc |1 "B7"B2 ^F | "E7"^G=FE |\
+"/"^G=FE :|2 "E7"B2E | "Am"A3 | "A7/C#"AB^c |
+P:B
+|: "Dm"dag | "/"fed | "A7"^cde | "/"_BAG | "Dm"FGA | "D7/F#"d2 A | "Gm"_Bcd | "A7"g2a |
+"Gm"_bag | "Bb7"fed | "A7"^c_BA | "/"GFE | "Dm"FAd |1 "E7"DF^G | "A"A3 | "A7"AB^c :|2 "Ebdim"cBA | "E7"B3 | "Am"A3 |]

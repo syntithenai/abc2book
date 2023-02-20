@@ -1,0 +1,26 @@
+X: 22
+T: Pretty Miss's Fancy    [D]
+O: T.Davis 1748
+%R: reel
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+P: Play: AA BB CC D
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"A"|:\
+"D"fgaf d4 | "Em"gabg "(A7)"e4 | "D"fgaf "E7"e2d2 | "A"cdec A4 |\
+"D"fgaf d4 | "Em"gabg "(A7)"e4 "I"| "D"f2a2 "A7"cdec | "D"d4 D4 :|
+"B"|:\
+"D"F2A2 F2D2 | "G"G2B2 "(A7)"G2E2 | "D"F2A2 "(Bm)"F2D2 | "A"CDEC A,4 |\
+"D"F2A2 "(Bm)"F2D2 | "Em"G2B2 "(A7)"G2E2 | "D"F2d2 "A7"cdec | "D"d4 D4 :|
+K: Dm
+"C"|:\
+"Dm"f2d2 "A7"^c2A2 | "Dm"f2ed "A7"^c2A2 | "Gm"def2 "A7"efg2 | "Gm"Tf4 "A7"e4 |\
+"Dm"f2d2 "A7"^c2A2 | "Dm"fed2 "A7"^c2A2 | "Dm"agf2 "Gm"bag2 | "A7"Te4 "Dm"d4 :|
+"D"[|\
+"Dm"A2F2 E2D2 | "Gm"B2G2 "(A7)"TF2E2 | "Dm"A2F2 "(E7)"TE2D2 | "A7"^C4 A,4 |\
+"Dm"A2F2 E2D2 | "Gm"B2G2 "(A7)"TF2E2 | "Dm"A2d2 "A7"^cdec | "D(m)"d4 D4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

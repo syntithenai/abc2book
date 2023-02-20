@@ -1,0 +1,26 @@
+X:1
+T: Home Again
+N:
+C:Tune is "Le Brandevin"
+S:
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 34 notes)
+K:G
+M:6/8
+L:1/16
+d4 e2 |f2 g2 f2 e2 =f2 e2 d6 A4 B2 c2 B2 A2 G4 E2 B6 A4 B2 |d4 d2 c4 B2 A6 F4 G2 A2 B2 A2 G4 F2 E6 d4 e2 |
+%W: A2
+% voice 1 (1 lines, 34 notes)
+f2 g2 f2 e2 =f2 e2 d6 A4 B2 c2 B2 A2 G4 E2 B6 A4 B2 |d4 d2 c4 B2 A6 F4 G2 A2 G2 F2 E2 F2 E2 D6 D2 F2 A2 |
+%W: B1
+% voice 1 (1 lines, 34 notes)
+d4 B2 A4 F2 G6 E2 G2 A2 c4 B2 A4 G2 F6 D2 F2 A2 |d4 B2 A4 F2 G6 F2 E2 D2 c2 B2 A2 G2 F2 E2 D6 D2 F2 A2 |
+%W: B1
+% voice 1 (1 lines, 31 notes)
+d4 B2 A4 F2 G6 E2 G2 A2 c4 B2 A4 G2 F6 D2 F2 A2 |d4 B2 A4 F2 G6 F2 E2 D2 c2 B2 A2 G2 F2 E2 D6 ||

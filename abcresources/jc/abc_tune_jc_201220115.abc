@@ -1,0 +1,34 @@
+X: 031
+T: Minuetto 1
+C: Ignatius Sancho (1775)
+B: "Minuets Cotillons & Country Dances", 1775 p.3 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+N: For ABC version 2, which handles multiple voices on a staff.
+N: The booklet's Corni parts have a C-clef on the 2nd line (middle=E).
+N: Change che clef= and middle= fields to get your preferred clef notation.
+R: minuet
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+V: 1 nm=Corni1 snm=C1 clef=alto   middle=E staves=2
+V: 2 nm=Corni2 snm=C2 clef=alto   middle=E
+V: 3 nm=Viol1  snm=V1 clef=treble middle=B staves=2
+V: 4 nm=Viol2  snm=V2 clef=treble middle=B
+V: 5 nm=Bassi  snm=B  clef=bass   middle=d
+%%score (1 2) (3 4) 5
+% - - - - - - - - - -
+[V:1] |: c>B A2 G2 | F2 C2 F>G | A2 F2 c>d | c2 B2 A2 | c6- | c6 | z2 G2 A2 |1 A2 G4 :|2 A2 G4 :|
+[V:2] |: A>G F2 C2 | A,2 F,2 B,>C | F2 B,2 A2 | A2 G2 F2 | C6- | C6 | z2 C2 F2 |1 F2 C4 :|2 F2 C4 :|
+[V:3] |: c>B A2 G2 | F2 C2 F>G | A2 F2 c>d | c2 B2 A2 | !f!G>A !p!B2 A2 | !f!G2 !p!e2 f2 | g>a b2 a2 |1 a2 g4 :|2 a2 g4 :|
+[V:4] |: A>G F2 E2 | F2 C2 F>G | A2 F2 A2 | A2 G2 F2 | !f!E>F !p!G2 F2 | !f!E2 !p!G2 A2 | B2 g2 f2 |1 f2 e4 :|2 f2 e4 :|
+[V:5] |: f2 a2 c'2 | f4 f2 | f2 a2 f2 | c'2 c2 f2 | !f!.c2 !p!(e2 f2) | !f!c2 !p!b2 a2 | !f!g.f e2 f2 |1 c2 c'bag :|2 c2 C4 :|
+% - - - - - - - - - -
+[V:1] |: c6- | c6 | c2B2A2 | A2G2z2 | c6- | c6 | B2A2G2 | {G}A4z2 | c6- | c6 | B2A2G2 | F6 :|
+[V:2] |: C6- | C6 | C4F2   | F2C2z2 | C6- | C6 | G2F2C2 | F,4z2 | C6- | C6 | G2F2C2 | A,6 :|
+[V:3] |: gec2b2 |  b2a2g2 | gabagf | f3 edc  | !f!C2!p!(b2a2) | !f!C2!p!(b2a2) |\
+      {a}g2f2e2 | {e}f4z2 | !f!.C2 !p!(B2A2) | !f!.C2 !p!(B2A2) | (3(dcB)A2G2 | F6 :|
+[V:4] |: gec2g2 |  g2f2e2 | efgcBA | A2G2z2  | !f!C2!p!(g2f2) | !f!C2!p!(g2f2) |\
+    (3(dcB)A2G2 | {G}A4z2 | !f!.C2!p!(G2F2)  !f!.C2!p!(G2F2) | (3(BAG)F2E2 | F6 :|
+[V:5] |: c2c2c2 |  c2c2c2 | c2e2f2 | c'2c2z2 | !f!z2!p!(e2f2) | !f!z2!p!(e2f2) |\
+      !f!B2c2c2 |  d3 agf | !f!e4 !p!.f2 | !f!e4!p!.f2 | !f!B2c2C2 | F6 :|

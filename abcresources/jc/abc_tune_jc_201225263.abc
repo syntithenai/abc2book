@@ -1,0 +1,40 @@
+X: 09261
+T: WILL YOU SAY YES. SAY YES.
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.9 p.26 #1
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The pickup notes don't agree with the preceding notes.
+M: 9/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+d !segno!|:\
+cAF G2A G2d | cAF [G2E2][BG] [cF]AF |\
+cAF [G2E2][AF] [G2E2]A | FAc fed cAF :|\
+d |\
+d2^f gaf g2d | de^f gab a=fd |
+d2e =fge f2d | cBA fed cAF |\
+cAF G2A G2d | cAF [G2E2][BG] [cF]AF |\
+cAF [G2E2][AF] [G2E2]A | FAc fed cAF |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z !segno!|:\
+F2A B2d g2B | F2f F2f F2f |\
+F2f F2f F2f | F3 A2B f3 :|
+z |\
+d'2c' b2a g3 | d'2c' bag d3 |\
+b3 a2g f3 | f3 A2B f3 |
+F2A B2d g2B | F2f F2f F2f |\
+F2f F2f F2f | F3 A2B f3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & change sides, back again,
+%% down the mid: up again,
+%% cast off, set cross Corners,
+%% turn round and Hey.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

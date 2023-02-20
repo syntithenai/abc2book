@@ -1,0 +1,32 @@
+X:1
+T: St. George's Day
+N:
+C:Thomas Morley
+S:It Was a Lover and His Lass.
+A:
+O:
+R:
+M:2/4
+K:G
+I:speed 110
+%W:                                                                                                         Piano          intro
+% voice 1 (1 lines, 15 notes)
+K:G
+M:2/4
+L:1/16
+z8 |z8 |z8 |z8 |z8 |z2 z2 z2 G2 |F3 F E2 E2 |D4 z2 |
+%W:  A
+% voice 1 (1 lines, 31 notes)
+D2 |F3 G A2 A2 |G2 F2 E2 E F |G2 G A B2 B ^c |d4d2 ^c B |A2 F G A4|A2 G F G2 E2 |D6 A2 |
+%W:  B
+% voice 1 (1 lines, 24 notes)
+A2 A2 B2 A2 |G2 F2 E2 E2 |B4 ^G2 E2 |A4 F2 A2 |d4 B2 G2 |B2 A2 G2 F2 |A4 F2 D2 |
+%W:  C
+% voice 1 (1 lines, 29 notes)
+G2 F2 E2 A2 |A G F E D2 d2 |d c B A G2 B2 |B A G F E2 G2 |F3 F E2 E2 |D4 z2 D2 |
+%W:  D
+% voice 1 (1 lines, 17 notes)
+A4 F2 A2 |d4 B2 G2 |B2 A2 G2 F2 |A4 F2 D2 |G2 F2 E2 A2 |
+%W:
+% voice 1 (1 lines, 24 notes)
+A G F E D2 d2 |d c B A G2 B2 |B A G F E2 G2 |F3 F E2 E2 |D4 z2 ||

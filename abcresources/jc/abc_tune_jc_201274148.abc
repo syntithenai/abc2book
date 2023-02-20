@@ -1,0 +1,16 @@
+X: 857
+T: the Fair Maidens   #2
+R: hornpipe
+%S: s:2 b:9(5+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #857
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0857/oneill-1001-0857-1.abc
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play (A1A2)x2 + (BA2)x2
+%m: Mn = (3n/o/n/
+M: C|
+L: 1/8
+K: G
+D2 "^A"|: GDGA BGBd | gfed cBAG | ABcd ecA [1,3 G | FGAF  D2EF :|[2,4 F | G2~GF "^fine"G2 :|
+"^B"|:  FG | ADFD ADFD | cABG A2GA | BDGD BDGD | dBcA  B2"^->A2"A2 |]

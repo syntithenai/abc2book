@@ -1,0 +1,45 @@
+X: 0
+T: Glayva
+T: 8x32J2
+C: John Drewry (1976)
+B: The Canadian Book of Scottish Country Dances #20
+B: Scottish Country Dances in Diagrams, Eds. 6-8
+K:
+%%begintext
+ 1-8 : 1C+2C 1/2 DblFig8 (1C cross down to begin) ; 1C turn 2C easy hand on side (1C inwards) (1x,2x)
+ 9-16: Repeat from new positions (1,2)
+17-24: 1C+2C RHA and dance to centre ; pull RSh back, dance out to places; all set (facing in)
+25-32: 1C+2C Espagnole
+
+(Espagnole: both W lead RHJ to M side, cross and cast out to exchanged places -while- Men cross to
+W side, cast in and cross RH to exchanged places ; all turn P easy hand, to (2,1))
+%%endtext
+
+X: 1
+P: Bobby Jack's Compliments to Mary Prentice
+C:Jack, Bobby
+S:George Meikle
+S:Anselm Lingnau <anselm:strathspey.org> 2008-10-16
+R:Jig
+M:6/8
+L:1/8
+K:Amix
+e \
+| "A"A>cf e2A | "D"a>fe "A"f>ec | "D"a>fe "A"f>ec | "G"B>GB "(E7)"e>dB | "A"A>cf e2A |
+| "D"a>fe "A"f>ec | "D"a>Af "A"e2c  | "G"B>GB "A"A2 :: c/d/ | "A"e>AA A>ce | "D"f>dd d>fa |
+| "A"e>AA    A>ce | "G"B>GB "(E7)"e>dB | "A"e>AA A>ce | "D"f>dd d>fa | "A"A>ce "G"B>Ge | "A"A>AA  A2 :|
+
+X: 2
+M:none
+K:C clef=none
+x4
+x4
+x4
+x4
+x4
+x4
+x4
+x4
+x4
+x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4
+

@@ -1,0 +1,68 @@
+%%center Devil's Flute + O'Connor's QS medley
+
+
+X: 0
+T: Devil's Flute
+P: piffero primo a0533
+O: Bill Krug
+%R: quick-step, polka
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/devilsfC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+(3(DEF) |\
+G2B2 D2(3(DEF) | G2B2 d4 | edcB cBAG | BAGF GFED |\
+G2B2 D2(3(DEF) |
+G2B2 d4 | edcB cBAG | BAGF G2 :: GA |\
+B2d2 g2fe | dgdB A2BA |
+GABG ABcA | BcdB A2GA |\
+B2d2 g2fg | agfe d2ef | g2Bc d2D2 | G6 :: (3(DEF) |
+G2GA B2G2 | A2AB c2A2 | Bcdg dBGg | dBGB A2(3(DEF) |\
+G2GA B2G2 | A2AB c2A2 |
+Bcdg dBGA | B2A2 G2 :: d2 |\
+(gfg)e dBGB | (gfg)e d2ef | (gfg)e dBGB |
+dgdB A2d2 |\
+(gfg)e dBGB | (gfg)e d2ef | (gfg)e dBGA | B2A2 G2 :|
+
+
+X: 1
+T: O'Connor's Quick Step
+P: piffero primo a0725
+%P: piffero primo b0052 in another set
+O: Bill Krug
+%R: quick-step, polka
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/billybudF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+ed |\
+c2ec Acec | d2fd fagf | e2a2 a2ga | b2B2 BdcB |\
+c2ec Acec | d2fd fagf | e2c2 BdcB | A2c2 A2  :|
+|: z2 |\
+ABcd e2e2 | fa2f ecA2 | ABcd e2e2 | cA2c B2z2 |\
+ABcd e2e2 | fa2f ecA2 | c2ec BdcB | A2c2 A2  :|
+
+
+X: 2
+T: Devil's Flute
+P: piffero primo a0533
+O: Bill Krug
+%R: quick-step, polka
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/devilsfC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+(3(DEF) |:\
+G2B2 D2(3(DEF) | G2B2 d4 | edcB cBAG |1,3 BAGF GFED :|2,4 BAGF G2 :|
+|: GA | B2d2 g2fe | dgdB A2BA | GABG ABcA | BcdB A2GA |\
+B2d2 g2fg | agfe d2ef |
+g2Bc d2D2 | G6 :: (3(DEF) | G2GA B2G2 |\
+A2AB c2A2 | Bcdg [1,3 dBGg | dBGB A2 :|[2,4 dBGA | B2A2 G2 :|
+|: d2 | (gfg)e dBGB | (gfg)e d2ef | (gfg)e [1,3 dBGB | dgdB A2d2 :|[3,4 dBGA | B2A2 G2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

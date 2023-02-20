@@ -1,0 +1,15 @@
+X: 906
+T: the Fairies' Hornpipe
+R: hornpipe
+%S: s:3 b:14(4+4+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) no. 906
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0906/oneill-1001-0906-1.abc
+M: 2/4
+L: 1/16
+K: G
+"^A"[|]\
+    D2  | GFGA BdcB | AGAB G2Bc | dgfg edcB | cedB A2 ||
+|   Bc  | dgfa g2fe | dedc B2AG | ABcA dcAF | G2GG G2 :|
+"^B"\
+|: (Bc) | eggf g2fe | dedc B2AG | ABcA [1,3 edcB | A2dd d2 :|[2,4 dcAF | G2GG G2 :|

@@ -1,0 +1,20 @@
+X: 20771
+T: JEFFERSON AND LIBERTY
+C:
+N: Version of The Gobby O
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.77 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: About half the published versions have f# as the keysig, i.e., A Dorian.
+M: 6/8
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A/B/ |\
+c2A AGA | E2A ABc | B2G GBc | dBG GAB |\
+c2A AGA | E2A A2e | edc BAB | [E2A2]A A2 :|
+|: c |\
+A2B c2d | e2f g3 | e2f g2e | dBG G2E |\
+A2B c2d | efg a3 | edc BAB | [E2A2]A A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

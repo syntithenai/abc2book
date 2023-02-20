@@ -1,0 +1,329 @@
+X: 1
+T:Fairy Boy, The
+T:Fairy Child, The
+O:Gerry's Air
+B:O'Neill's 243
+N:"Moderate"
+N:"Collected by F.O'Neill"
+Z:1997 by John Chambers <jc@trillian.mit.edu>
+R:air
+M:3/4
+L:1/8
+K:G
+D2 \
+|(GB) D2 EF|GB e2 d2|ed B3 G|(AG E2) F2 |(GB) D2 (EF)|(GB e2) d2|(ed) B3 G|(B>A) G2||
+|d2 |(dB) (e3 d)|(BG) (A3 G)|BG e3 d|BG A3 (B/A/) |(GB) (D2 EF)|(GB e2) d2|ed (B3 G)|B>A G2|
+
+X: 2
+T:Merrily Kiss the Quaker's Wife
+O:Gerry's Jig after The Fairy Child
+R:single jig
+Q:3/8=115
+M:6/8
+L:1/8
+K:G
+D|"G"GAB D2 B|"Am"c2A "Em"BGE|"G"GAB DEG|"D"~A3 "Am"AGE|"G"GAB D2 B|"Am"c2A "Em"BGE|"G"GAB D2 E|G3 G2:|
+|:c|"G"BGG AGG|BGG "Am"AGE|"G"GAB DEG|"D"A3 AGA|"G"BGG AGG|BGG "Am"AGE|"G"GAB D2 E|G3 G2:|
+|:d|"G"~g3 "D"aga|"Em"bge "G"dBd|~g3 gab|"D"~a3 aba|"G"gbg "D"faf|"Em"ege "G"dBA|GAB D2E|G3 G2:|
+
+X: 3
+T:Father O'Flynn
+T:Top of the Cork Road, The
+S:Gerry Strong, Ir-Trad, 5/97
+Z:Another very widely known tune.
+M:6/8
+L:1/8
+R:jig
+K:D
+A|dAF DFA|dfe dcB|dcd efg|fdf ecA|dAF DFA|dfe dcB|dcd efg|fdd d2:|
+g|fdf fga|ecA ABc|dcd Bed|cAA A2=c|BGB Bcd|AFD DFA|dcd efg|fdd d2:|
+
+X: 4
+T:Haste to the Wedding
+M:6/8
+R:jig
+O:Aharon's Jig #1
+L:1/8
+K:D
+A|"D"AFA Agf|"G"ede "A7"fdB|"D"AFA "Bm"AGF|"Em"GFG "A7"EFG|"D"AFA Agf|"G"ede "A7"fdB|"D"AFA "A7"faf|"D"ded d2:|
+a|"D"afa afa|"G"bgb bgb|"D"afa "Bm"afa|"Em"gfg "A7"efg|"D"a3 "Bm"~f3|"Em"ede "A7"fdB|"D"AFA "A7"faf|"D"ded d2:|
+
+X: 5
+T:Caliope House
+R:jig
+M:6/8
+O:Aharon's Jig #2
+L:1/8
+K:D
+A|"D"dAA fAA|"A"eAA "D"fAA|"Em"Bee e2d|"D"efd "Bm"BdB|"D"ABA A2F|
+A2 B d2 e|1"D"f2 a fed|"Em"e3 "A"e2:|2"D"faf "Em"edB|"D"d3 d2 f||:"D"a2 faa|"A"eaa "D"faa|
+"Em"g3 "D"fgf|"Em"efe edB|"D"ABA A2 F|A2 B d2 e|1"D"f2 a fed|"Em"e3 efg:|2"D"faf "Em"edB|"D"d3 d2||
+
+X: 6
+T:Frost Is All Over, The
+R:jig
+M:6/8
+O:Aharon's Jig #3
+L:1/8
+K:D
+A|"D"def "G"edB|"D"AFD "A"E2D|"D"FAA AFA|"G"Bee "A"edB|"D"def "G"edB|"D"AFD "A"E2D|"D"FAA AFA|"G"Bdc "D"d2:|
+|:g|"D"fef afd|"G"gfg "Em"bag|"D"fef afd|"Em"gfg "A7"efg|"D"fef afd|"G"gfg "Em"bag|"D"fga "A7"efg|"D"fdc d2:|
+
+X: 7
+T:Kesh Jig
+R:jig
+C:(Al's Jig #1)
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+D|"G"~G3 GAB|"D"ABA ABd|"G"edd gdd|"Em"edB "G"dBA|~G3 GAB|"D"ABA ABd|"G"edd gdB|"D"AGF "D"G2:|
+|:A|"G"~B3 dBd|ege dBA|~B3 dBG|"D"ABA AGA|"G"BAB dBd|"Em"ege "G"dBd|gfg "D"aga|"G"bgf g2:|
+
+X: 8
+T:Blackthorn Stick
+R:Jig
+C:(Al's Jig #2)
+S:Kevin Briggs, Nottingham Music Database
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+f|"G"gfg "C"ege|"G"dBG "C"AGE|"G"DGG "D7"FGA|"G"BAG "D7"A2d|"G"gfg "C"age|"G"dBG "C"AGE|"G"DGG "D7"FGA|"G"BGF G2:|
+d|"G"edd gdd|edd gdd|ede "C"gfg|"Am"edB "D7"A2d|"G"gfg "C"age|"G"dBG "C"AGE|"G"DGG "D7"FGA|"G"BGF G2:|
+
+X: 9
+T:Morrison's Jig
+T:Porth Mhuirgheasa
+R:Jig
+C:(Al's Jig #3)
+M:6/8
+L:1/8
+Q:3/8=120
+K:Edor
+~E3 BEB|EBE AFD|~E3 BEB|dcB AFD|~E3 BEB|EBE AFD|~G3 FGA|BAG FED:|
+Bee fee|aee fed|Bee fee|a2g fed|Bee fee|aee fed|gfe d2A|BAG FED|
+Bee fee|aee fed|Bee fee|a2f def|~g3 gfe|def g2d|edc d2A|BAG FED|
+
+X: 10
+T:Out on the Ocean
+M:6/8
+L:1/8
+Q:3/8=120
+O:Gerry's Jig #1
+R:jig
+K:G
+B3 BAG|BdB A2 B|GED G2A|BdB AGA|B3 BAG|BdB A2 B|GED G2 A|BGF G3:|!
+|:e3 edB|e3 edB|d3 def|gfe dBA|G2A B2d|ege dBA|GED G2A|1 BGF GBd:|2 BGF G3|
+
+X: 11
+T:Miko Doyle's
+T:Old Favourite, The
+R:slide
+H:Also played in A, #60
+D:Sean Ryan: Siuil Uait
+Z:id:hn-slide-22
+O:Gerry's Jig #2
+Q:3/8=120
+M:6/8
+L:1/8
+K:G
+B3  BAB|dBA G2d|ded d2B|ded B2A|B3 BAB|dBA G2d|
+ded B2A|1 G3 G3:|2 G3 GBd||:g3 f3|efe d2B|ded d2B|
+ded B2d|g3 f3|efe d2B|1ded B2A|G3 GBd:|2 ded ded|ded ded|
+
+X: 12
+T:Going to the Well for Water
+R:jig
+D:Sean Ryan: Siuil Uait
+Z:id:hn-slide-14
+O:Gerry's Jig #3
+M:6/8
+L:1/8
+Q:3/8=120
+K:D
+A2f A2f|A2f fed|B2g B2g|B2g gfe|c3 ~B3|A3 a2f|
+gfe ABc|1 d3 dcB:|2 d3 d2e||:f3 fed|e3 edc|d3 dcB|
+c3 cBA|GBB GBB|FAA FAA|EFE e2d|1 cBc d2e:|2 cBc dcB|
+
+X: 13
+T:Dan O'Keefe's slide
+R:Slide
+S:Charlie Saksena
+O:Aharon's Slide #1
+M:12/8
+L:1/8
+Q:3/8=100
+K:ADor
+"Am"A2e "D"e2d "G"BAB d2B|"Am"A2e e2d "G"B2G GFG|"Am"A2e e2d "D"BAB "G"d3|"D"BAB "G"d2e B2A "Am"A3:|
+|:"Am"e2a a2b "Em"a2g "D"e2d|"Am"e2a a2b "Em"a2f "D"e2f|"G"g2a "C"g2e "G"dBA "Am"G3|"D"BAB "G"d2e B2A "Am"A3:|
+
+X: 14
+T:Denis Murphy's Slide
+R:slide
+O:Aharon's Slide #2
+M:12/8
+L:1/8
+Q:3/8=100
+K:D
+B|"D"A2D FED F2A A2f|"G"gfe "D"f2d "Em"e2d "A"BdB|"D"A2D FED F2A A2f|"a"a2f "A"efe "D"d3 d2:|
+|:A|d2e f2f "G"gfe "D"f3|"G"gfe "D"f2d "Em"e2d "A"BAB|"D"d2e f3 "G"gfe "D"f2g|"A"a2f efe "D"d3 d2:|
+
+X: 15
+T:Dingle Regatta
+R:slide
+C:Folk Camp, via EF
+S:Nottingham Music Database
+O:Aharon's Slide #3
+M:12/8
+L:1/8
+Q:3/8=100
+K:G
+"G"d^cd e2d "Em"BAB d2B|"Am"A2A "D7"G2d "G"B2A GBc|d^cd e2d "Em"BAB d2B|
+"Am"A2a "D7"B2A "G"G3 G3:|d3 def "Em"g3 gfg|"Am"a3 "D7"aga "G"b2a "D7"gfe|
+"G"d3 def "Em"g3 gfg|"Am"a2g f2e "D7"def "G"g3:|gfg dgd BdB GBG|
+"D7"FGA DEF "G"G2B "D7"def|"G"gfg dgd BdB GBG|"D7"FGA DEF "G"G3 -G3:|
+
+X: 16
+T:Around the House and Mind the Dresser
+C: (Patrick & Don's Slide #2)
+R:slide
+D:Chieftains "Live" and "Bonaparte's Retreat"
+Z:Gary Chapin
+M:12/8
+L:1/8
+K:D Major
+g|f2d A2=c B2A G2g|f2d ABc d3 d2g|f2d A2=c B2A G3|fag fBc d3 d2:|
+|:a|f2g agf e2f gfe|f2g agf e3 g3|f2g agf e2f g2{a}g|gfe ABc d3 d2:|
+
+X: 17
+T:Cuil Aodha Slide
+T:Connie Walsh's
+C: (Patrick & Don's Slide #1)
+R:slide
+M:12/8
+L:1/8
+F:http://www.slowplayers.org/MPSP/pdf/MPSP_Slides.abc  2005-05-23 14:06:56 UT
+K:D
+"Bm" Bcd Bcd "A" c2 B A2 A | "Bm" Bcd "A" e2 f "G" g3 f2 g | "D" agf "A" gfe "D" f2 d A2 A | "G" Bcd "A" e2 c "D" (d3 d3) :|
+"D"  a2 f "A" gfe "D" f2 d A2 A | "Bm" Bcd "A" e2 f "G" g3 f2 g | "D" agf "A" gfe "D" f2 d A2 A | "G" Bcd "A" e2 c "D" (d3 d3) :|
+
+X: 18
+T:Scartaglen
+R:jig
+C:(Patrick & Don's Slide #1)
+Z:Transcribed by Dave Marshall
+M:6/8
+L:1/8
+K:Amix
+|:"Am"A2a aga | A2g gfg | A2a aga | efg efg |A2a aga | A2g gfg | agf gfe | ~d3 dcB :|
+|:"A"c3 cBc | dfd cec | c3 cec | B2B BAB |c3 cBc | dfd cec | B2B gfe | ~d3 dcB :|
+
+X: 19
+T:Off She Goes!
+R:jig
+C:(Patrick & Don's Slide #3)
+M:12/8
+L:1/8
+Q:3/8=120
+K:D
+|:F2A G2B ABc d3|F2A G2B AFD E3|F2A G2B ABc d3|f2d g2f edc d3:|
+|:faf def gbg efg|faf def ecA A3|faf def gbg efg|fed g2f|edc d3:|
+
+
+X: 20
+T:Denis Murphy's Polka
+R:polka
+S:John B. Walsh
+O:Don's Polka #1
+M:2/4
+L:1/16
+K:D
+fgfe d3B|A2D2 F2A2|G2E2 e3f|e2d2 B2A2|
+fgfe d3B|A2D2 F2A2|G2E2 e3f|e2d2 d3:|
+|:B|A2f2 fef2|B2g2 gfg2|A2f2 fef2|efed B2A2|
+A2f2 fef2|B2g2 g3a|b2a2 g2c2|e2d2 d3:|
+
+X: 21
+T:Scartaglen Polka
+R:polka
+D:Davy Spillane: Atlantic Bridge
+O:Don's Polka #2
+Z:id:hn-polka-11
+M:2/4
+L:1/8
+K:G
+G2 G>A|Bd de/f/|gB B/A/G/A/|BA AB/A/|G2 G>A|Bd de/f/|gB AB/A/|G2 G>A:|
+|:Bd g2|fe e/f/g/e/|dB B/A/G/A/|BA AG/A/|Bd g2|fe e/f/g/e/|dB AB/A/|[1 G2 G>A:|[2 G2 Gd||
+|:g2 a2|b2> a|g2 a2|b2> a|ge e/f/g/e/|dB g>e|dB AB/A/|[1 G2 Gd:|[2 G2 G>A|
+
+X: 22
+T:John Ryan's Polka
+T:Forty Pound Float
+R:Polka
+C:Trad
+S:Black Book
+O:Don's Polka #3
+M:2/4
+L:1/16
+K:D
+d2d2 BcdB|A2F2 A2F2|d2d2 BcdB|A2F2 E2D2|d2d2 BcdB|A2F2 A2de|f2d2 edc2|d4 d4:|
+|:f2d2 d2ef|g2f2 e2de|f2d2 A2d2|f2df a3g|f2d2 d2ef|g2f2 e2de|f2d2 edc2|d4 d4:|
+
+X: 23
+T:Planxty Irwin
+C:Turlough O'Carolan
+O:Rob & Sue's #1
+R:planxty
+M:3/4
+L:1/8
+K:G
+d2|g4f2|e3fg2|d4c2|B3AG2|c4A2|B3cd2|F4 G2|A4 d2|g4f2|e3f g2|
+d4 c2|B3A G2|c4A2|B3cd2|G4F2|G4:||:d2|g4g2|g3fg2|a3ba2|a2f2d2|
+b4b2|a3bg2|f3ge2|d3ef2|g4f2|e3fg2|d4c2|B3AG2|c4A2|B3cd2|G4F2|G4:|
+
+X: 24
+T:Planxty Fanny Power
+C:Turlough O'Carolan
+O:Rob & Sue's #2
+R:planxty
+E:8
+M:3/4
+L:1/8
+K:G
+D2|G4D2|G3AB2|c4B2|A4G2|F4E2|D3ED2|F4G2|A4c2|B3AG2|B3cd2|e4A2|
+A4G2|F3ED2|D2G2F2|G6|G4:||:Bc|d2Bcd2|d2Bcd2|G3AG2|G2B2d2|e2cde2|e2cde2|
+A3BA2|A2B2c2|B3cd2|e2f2g2|f2g2a2|d4c2|B3AG2|B4A2|G6|G4:|
+
+X: 25
+T:South Wind
+O:Rob & Sue's #3
+H:from Robin C.
+M: 3/4
+L:1/8
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+F:http://jc.tzo.net:1742/~jc/music/abc/Contra/RJ/waltz/SouthWind.abc  2004-10-15 11:03:42 UT
+K: G
+dc| "G"B3 A G2| B3 c d2| "D7"A4 AB| A4 dc|"G"B3 A G2| "C"E2 D2 E2| "G"G4 G2| G4:|
+d2| "G"g4 g2| "C"g3 f e2| "G"d4 d2| d4 c2| B3 A G2| B3 c d2| "D7"A4 AB| A4 d2|
+"C"g4 g2| g3 f e2| "G"d4 BA| B4 dc| B3 A G2| "D7"A c3 F2| "G"G6| G4|
+
+
+X: 26
+T:Dancing with Mrs. White
+S:Form: ABABACDCD
+O:Patrick's Newfie Singles Set
+R:Newfoundland singles
+M:2/4
+L:1/16
+K:D
+A2|"D"d2e2 f2dA|"G"B3c B2A2|"D"d2e2 f2d2|"A"a2f2 e2c2|\
+"D"d2e2 f2dA|"G"B3c B2A2|"A"d2F2 E2G2|"D"F2D2 D2:|
+|:DE|"D"+A3F3++BG+ +A2F2+D2|F2A2 A2FA|"G"B3c B2A2|"A"d2F2 E2B2|\
+"D"+A3F3++BG+ +A2F2+D2|F2A2 A2FA|"G"B3c B2A2|"D"F2E2 D2:|z2
+K:EDor
+|:"Em"G3E G2A2|B2A2 B2c2|"D"d2A2 F2A2|d2c2 B2A2|\
+"Em"G3E G2A2|B2A2 B2c2|"D"d2A2 F2D2|"Em"E4 E4:|
+|:"Em"e2e2 Bcd2|e2d2 B3c|"D"d2A2 F2A2|d2c2 B2A2|\
+"Em"e2e2 Bcd2|e2d2 B3c|"D"d2A2 F2D2|"Em"E4 E4:|

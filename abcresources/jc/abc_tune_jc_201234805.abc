@@ -1,0 +1,19 @@
+X: 2079
+T: FIGHT ABOUT THE FIRESIDE
+C:
+Q: "Reel."
+R: Reel.
+%R: reel
+B: James Kerr "Merry Melodies" v.2 p.11 #79
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The book has a [fc] chord labelled "1st" and "2nd" at the end, which merely duplicates the pickup notes to both strains.
+N: This "multiple ending" has been deleted, and the "segno" signs removed, giving valid ABC for all software.
+M: C
+L: 1/8
+K: C
+uc |\
+GcEc Dddc | GcEc GcEc |\
+FcEc DddB | cGAF ECC ::\
+uf |\
+ecgc eddf | ecgc acgc |\
+fage dcde | GAcd e2d :|

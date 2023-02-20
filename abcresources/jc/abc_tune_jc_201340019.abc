@@ -1,0 +1,53 @@
+X:692
+T:Spring Blossom: Tune and piano
+C:Colin Hume, 2008
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=82
+%%MIDI chordname 7sus 0 5 7 10
+K:Am
+V:1
+P:A
+%%MIDI gchordoff
+%%MIDI program 50
+[| E | "Am"c3 E | "Em/G"B3 E | "F"AGFA | "Gsus"G2- "G"GE |\
+"Am"e3 A | "Dm"d2ed | "B7/D#"cBAc | "E"B2- "E7"BE |
+V:2 treble
+%%MIDI program 32
+[| z | z [E,A,C] [E,A,C] [E,A,C] | z [G,B,E] [G,B,E] [G,B,E] | z [A,CF] [A,CF] [A,CF] | [CD-G-]2 [B,DG]2 |\
+z [A,CE] [A,CE] [A,CE] | z [A,DF] [A,DF] [A,DF] | z [A,B,^F] [A,B,F] [A,B,F] | z [B,E^G] z [B,DG] |
+V:3 bass octave=-2
+%%MIDI program 4
+[| z | A3 z | G3 z | F3 z | G3 z |\
+A3 z | D3 z | ^D3 z | E2 ^G2 |
+P:B
+V:1
+"Am"c3 E | "Em/G"B3 E | "F"edce | "D/F#"d3c |\
+"G"BcdD | "C"E2^FG | "Am"ABcE | "Dsus"^F2- "D7"F2 |
+V:2
+z [E,A,C] [E,A,C] [E,A,C] | z [G,B,E] [G,B,E] [G,B,E] | [CFA]2 [CEA]2 | [CDA]2 [D^FA]2 |\
+z [G,B,D] [G,B,D] [G,B,D] | z [E,G,C] [E,G,C] [E,G,C] | z [A,CE] [A,CE] [A,CE] | [A,-E]2 [A,-D][A,C] |
+V:3
+A3 z | G3 z | F2 F2 | ^F2 D2 |\
+G2 B2 | c2 B2 | A3 z | D3 z |
+P:C
+V:1
+"Em"G^FGB | "Bm"d2B2 | "Am"A3G | "D7"E2^F2 |\
+"Em"G^FGB | "Bm"d2B2 | "C"e2 "(A7/C#)"g2 | "D"^f2- "(B7/D#)"f2 |
+V:2
+[E,G,B,][E,G,B,]2[E,G,B,] | [B,D^F][B,D^F]2[B,D^F] | [A,CE][A,CE]2[A,CE] | z [A,CE] z [^F,A,C] |\
+[G,B,E][G,B,E]2[G,B,E] | [B,D^F][B,D^F]2[B,D^F] | [CEG]2 [A,EG]2 | [D^FA]2 [B,FA]2 |
+V:3
+E3 z | B3 z | c3 z | d2 D2 |\
+E3 z | B3 z | c2 ^c2 | d2 ^d2 |
+P:D
+V:1
+"Em"g^feB | "Am"c3e | "Dm"=fedA | "E7"B4 |\
+"Am"cBce | "Dm"dcBA | "E7sus"B2- "E7"BA | "Am"A3 |]
+V:2
+[EG]3 [EG] | [Ac][GB][^FA][EG] | [D=F]3 [DF] | [^GB][^FA][EG][D=F] |\
+[CE]3 [CA] | [DFA]4 | [B,-D-EA]2[B,DE^G]2 | [A,CEA]3 |]
+V:3
+e3 e | a2 A2 | d3 d | e2 E2 |\
+A3 A | d2 f2 | e2 E2 | A2 A, |]

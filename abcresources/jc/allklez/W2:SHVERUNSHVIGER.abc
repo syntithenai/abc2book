@@ -1,0 +1,33 @@
+X: 572
+T: Shver un shviger
+O:klezmer
+M:2/4
+L:1/8
+%Q:1/4=85-90
+K:Em
+P:A
+|: "Em"E2 B2 | "Am"A/B/A "Em"G2 \
+| z"Am"A/G/ AB | "B7"A G2 F :| \
+P:B
+|: "Em"Ec ~BA | "G"GA ~GF \
+| "D7" ED EF
+| "G"G2 "B7"GF  \
+| "Em"Ec ~BA | "Am"GA ~GF \
+| "D"~ED "B7"GF | "Em"E4 "^fine" :|\
+| "G"B4 | B4 \
+| B2 B2 | B2 B2
+P:C
+|: "G"Bc/B/ Bc/B/ | Bc/B/ ~BA \
+| "Am"(AE) (EA) | A4 \
+| "D"AB/A/ AB/A/ | AB/A/ ~AG \
+| "G"(GD) (DG) | G4 |
+| "Em"GA GA | "Em"GA "B"~GF \
+| "Em" E2   GE | "D"D4 \
+| "G"G2 "D"A2 | "G"B2 "D"A/G/A \
+|1 "G"G3 B | ~d4 \
+:|2 "Em"G2 "Dm"=F/E/D/=F/ | "Em"E4
+P:D
+|: "Em"EE c/B/A/G/ | "Am"A4 \
+| "Am"EA A"B7"G/F/ | "Em"G4 \
+| "Am"EA ~AG/A/ | "Em"~GF/G/ "B"FE \
+| "Em"E/F/G "B"F/G/A |1 "Em"G3 E :|2 D4 |]

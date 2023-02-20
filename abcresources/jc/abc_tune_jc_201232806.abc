@@ -1,0 +1,32 @@
+X: 17
+T: Countess of Sutherland's Reel
+%R: reel
+B: Name "Kauntze's Collection of the most favorite Dances, Reels, Waltzes, &c."
+F: http://imslp.org/wiki/Kauntze%27s_Collection_of_Dances,_Reels,_Waltzes_etc._%28Various%29
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+d |\
+B2FB GBFB | EBDB C(ccd) |\
+B2FB Ggfe | dfce cBB :|\
+|: (f/g//a//) |\
+bfdf egce | dfBd cF-F (f/g//a//) |
+bfdf egce | dfce dB-B f/g//a// |\
+bfdf egce | dfBd cFFf |\
+g>fga bgfe | dfce dBB |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+B2d2 e2d2 | c2B2 f2F2 | B2d2 e2c2 | f2F2 B2B :|
+|:z |\
+b2b2 c'2c'2 | b2b2 f2f2 | b2b2 c'2c'2 | f2f2 b2b2 |
+b2b2 c'2c'2 | b2b2 f2f2 | e2e2 e2e2 | f2f2 B2B |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    Foot it and hands across half round, the same back again, lead down the middle, up
+%% again, Foot it to your Partner and turn with both hands.
+%%endtext

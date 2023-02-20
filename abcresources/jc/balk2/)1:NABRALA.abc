@@ -1,0 +1,21 @@
+X: 291
+T: Nabrala
+O: Croatia
+F: http://www.youtube.com/watch?v=OvHu_HjtSig
+F: http://www.youtube.com/watch?v=OdjDi5qVSUs
+F: http://www.youtube.com/watch?v=MAujh3RDoKI
+F: http://www.youtube.com/watch?v=cSlP0B0_gVs
+M: 2/4
+L: 1/8
+Q: 1/4=120
+K: Cm
+%%MIDI program 110
+%%MIDI bassprog 32
+%%MIDI chordprog 32
+  "Fm"FF FF|"Dm"ED E2|"Fm"FF FF   |"Dm"ED E2|\
+  "Cm"C2 F2|ED C2    |D C2 =B,    |C2 C2    |
+|:"Gm"G3 c |G3 c     |"Bb"BAGF    |G2 E2    |\
+  "Fm"FE D2|"Cm"C4   :|
+|:"Eb"ED EF|ED EF    |"Gm"G2 c2   |G4       |\
+  "Fm"FF FF|ED E2    |FF FF       |ED E2    |
+  "Fm"C2 F2|ED C2    |"Cm"D C2 =B,|C2 C2    :|

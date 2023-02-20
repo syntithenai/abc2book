@@ -1,0 +1,38 @@
+X: 1
+T: Gavotte de l'Aven
+C: Traditionnel Bretagne
+O: arr. Jean-Loup Sacchettine et Jean-Pierre Sarzier
+R: gavotte
+S: handout at NEFFA 2016 from Mark Vidor p.13
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Ddor	% and Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has staff breaks for compact 2-staff layout.
+V: 1 staves=4
+P: Th\`eme
+|: "Dm"Ad d>e | d"C/E"c "F"AA/B/ |\
+   "Am"c>d cA | "Dm"d4 :|\
+|: "Am"Ae/e/ e>f | "G"gf "C"e2 |\
+[1 "F"c/B/A "Am"ef | "Dm"df "Am"d2 :|
+[2 "G7"dB/c/ de | Bc "Am"A2 ||\
+|: "Am"Ac c>d | "Fmaj7"cA/B/ c2 | "Dm7"f/d/e c>c |\
+[1 "G"dB "Am"cA :|2 "G7"d/B/c "Am"A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voices 2,3 preserve the original staff breaks.
+V: 2
+|: A,A, A,2 | A,G, C2 | C3 E | A,4 :|
+|: C2 A,2 | G,B, C2 |1 C2 E2 | F2  E2 :|2 B,4 | B,2 C2 ||
+|: C4 | A,4 | A,4 |1 B,2 C2 :|2 B,2 A,2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3
+|: FF F2 | FG A2 | E3 E | F4 :|
+|: E2 C2 | B,D G2 |1 A2 AE | F2 CD :|2 FE/D/ B,C | D2 C2 ||
+|: E4 | E4 | FG A2 |1 G/A/G E2 :|2 F2 E2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 4 clef=bass middle=d
+|: d4 | de f2 | A4 | d4 :|
+|: A4 | G2 c2 |1 F2 A2 | d2 A2 :|2 G4- | G2 A2 ||
+|: A4 | F4 | d4 |1 G2 A2 :|2 G2 A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

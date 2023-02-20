@@ -1,0 +1,22 @@
+X: 2292
+T: Old Lee Rig or Rose Tree Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.29 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: C
+% - - - - - - - - - -
+V: 1 staves=2
+e>c |\
+{Bd}c3AG2E2 G4 G2A2 | Tc3d {e}d2cd e2d2Td3e/d/ |\
+{Bd}c3AG2E2 ~G4 G2A2 | Tc4 {e}d2cd e2c2c2 :|
+|: Tc>d |\
+e2d2e2f2 {ef}g4 Tf2e2 | fa3Ta3g a2d2Hd2 (g/f/e/d/) |\
+Tc3AG2E2 TG4 G2A2 | Tc3d {e}d2cd e2c2Tc2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |\
+c'4c4 e6f2 | e4c4 G2g2G2z2 | c'4c4 e6f2 | e2c2g2G2 c2c'2c2 :||: z2 |
+c'4c2d2 e4c4 | f2d2^c2A2 d2A2HD2z2 | c4c'4 e2c2e2f2 | e2c2g2G2 c4C2 :|

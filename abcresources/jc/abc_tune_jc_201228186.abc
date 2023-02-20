@@ -1,0 +1,29 @@
+X: 11101
+T: AIR
+C: Weber.
+Q: "Slow and pathetically."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.110 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Eb
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B2 |\
+B4 (e3G) | B4 z2zG | A4 (f3F) | A4 z2zA |\
+(G2A2 B2)=B2 | c4 {g}f4 | (e4 ed) (fe) | d6 {c}B2 |\
+B4 (e3G) | B4 z2zG | A4 (f3F) | A4 z2zA |
+(G2A2 B2)=B2 | c4 d4 | (e2 e/c/A/F/ D2) ~c>B | E4 z2G2 |\
+G4 (A3G) | (G4 c3)G | G4 (A3G) | ("^>"F4 E2) zE |\
+F4 (G3F) | (F4 B2)F2 | F4 (G3F) | (E4 D2) zd |
+(d4 dc) (B=A) | (=A4 G2)z2 | (d4 de) (dc) | (c4 B2) zd |\
+(d4 cB) (=AG) | G4 F2z2 | (F4 FE) (DC) | (B,4 HB2) B2 |\
+B4 (e3G) | B4 z2zG |
+A4 (f3F) | A4 z2zA |\
+(G2A2 B2)=B2 |  c4 d4 | (e2 e/c/)(A/F/ D2) (c>B) | E4 z2zB |\
+B4 (_c3B) | (B4 G2) zB | (HB4 ~c2)d2 | e4 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

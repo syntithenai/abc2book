@@ -1,0 +1,24 @@
+X: 10372
+T: la CATINA
+O: Quadrille par Rose.
+Q: "Allegro."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.37 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+e2e |\
+(e2a) c2c | (c2e) A2A | (BG)B (ed)B | c2A e2e |\
+(e2a) c2c | c2e A2A | B2G (ed)B | "^Fin."A3 H:|\
+B2B |\
+GBe gfe | e2^d f2f | e^dc Bcd | e2g B2B |
+GBe gfe | e2^d a2a | gfe {e}^dcd | "^D.C."e3 |]\
+c2c |\
+f2c g2c | aga f2c' | g2g b2b | a2f c2c |\
+f2c g2c | aga f2c' | g2g bga | "^D.C."f3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,30 @@
+X: 322
+T: the Dorsetshire March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.32 #2 & p.33 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has more compact staff layout.
+V: 1
+D2 |\
+F2D>F A2F>A | d2A>d f2d>f |\
+a2b>a g2 (3(fef) | e2e>e e2D2 |\
+F2D>F A2F>A |
+B>cd>e {d}c2B>A |\
+B>cd>g f2Te2 | d2d>d d2 :: A2 |\
+d2f>d B2d>B | AFdB AFED |
+FAdc BAGF | E2E>E E2D2 |\
+F2D>F A2F>A | B2g>e {d}c2B>A |\
+B>ba>g f2Te2 | d2d>d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 has staff layout matching the book's.
+V: 2
+z2 |\
+z2D2 F2D>F | A2F>A d2A>d | f2g>f e2 (3(dcd) | c2c>c c2z2 |
+z2D2 F2D>F | G2F>G E2G>F | G>AB>e d2Tc2 | d2d>d d2 :: F2 |
+F2d>B G2B>G | FDG2 Fdcd | ABA2 GFEd | c2c>c c2z2 |
+z2D2 F2D>F | G2B>G E2G>F | G>gf>e d2Tc2 | d2d>d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

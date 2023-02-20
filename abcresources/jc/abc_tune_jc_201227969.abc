@@ -1,0 +1,79 @@
+X:11021
+T: Monymusk
+T: 8x32S3
+O: RSCDS 11-2
+R: strathspey
+%--------------------
+K:
+P: Sir Archibald Grant of Monymusk's Reel
+C: Daniel Dow (1775)
+Z: 1998 John Chambers <jc:trillian.mit.edu>
+B: Daniel Dow's Thirty-Seven New Reels and Strathspeys (c. 1776)
+B: H&C p.196
+B: Hunter (in G) 84
+B: OTDT p.75
+B: Allan's p.8
+B: second Kennedy tune-book p.17
+B: Kerr's 2nd p.14
+B: SFT p.5 (in G)
+B: Sir Archibald Grant of Money Musk in Skye p.97
+D: Alex ("Alick") Gillis / The Inverness Serenaders: Decca 14023
+D: "Little" Jack MacDonald: CX 022
+D: John A. MacDonald: RLP 75 as Monny Musk
+D: Carl MacKenzie: CLM 1006 as Sir Archibald Grant of Mony Musk, Strathspey
+D: David Greenberg: MAR 181
+D: Willy Kennedy: WMT002 [Wendy MacIsaac's CD]
+D: Donald Angus Beaton: DAB4-1985
+D: Natalie MacMaster: ACC-49290 as Traditional Strathspey
+D: Doug MacPhee (piano): NQD-5447
+D: Jep Bisbee (Michigan): Edison 51381-R (reel)
+D: Jean Carignan (Quebec): Philo 2012 (reel)
+D: Alan Jabbour (Florida-Virginia): Kanawha 311 (reel)
+D: Ron West (Vermont): JEMF-105 (reel)
+D: Fiddlesticks & Ivory - "Ghillies On The Golden Gate" F&I 001 (as a  4-part strathspey)
+D: Don Bartlett & The Scotians - "Play Favourites" TAC002 (as Sir Archibald Grant Of Monymusk)
+D: Bobby Crowe "Step in Time"
+M: 4/4
+L: 1/8
+K: G
+e | "G"d-<G B>G d>G "C"c>e | "G"d-<G B>G "Am"~A-<A "D7"c>e | "G"d-<G B>G B/c/d d>g | "Am"e>c "D7"A>d "G"B-<G G :|
+f | "G"~g2 d>g B>g "D7"d>f | "G"g>d "C"c>g "G"B>g "D7"A>f | "G"g>d "C"e-<g "G"d-<g B-<g | "Am"e>c "D7"A>d "G"B-<G G |]
+f | "G"~g2 d>g B>g "D7"d>f | "G"g>d "C"c>g "G"B>g "D7"A>f | "G"g>d "C"e-<g "G"d-<g "C"c-<g | "G"B-<g "D7"A>d "G"B-<G G |]
+P: Miss Drummond of Megginch
+O: Wighton Collection
+Z: John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: 4/4
+L: 1/8
+K: C
+   e | "C"c-<G A-<G c-<G A>G | E-<G c>E "G7"D-<d d>e \
+     | "C"c-<G A-<G c-<G "(F)"c>a | g-<c "G7"g>f "C"e-<c c :|
+e/f/ | "C"g-<c e-<c g-<c "(F)"a-<c | "C"g-<c f/e/d/c/ "G7"B-<d de/f/ \
+     | "C"g-<c e-<c g-<c "(F)"a-<c | "C"G>c "G7"f/e/d/c/ "C"G-<c c |]
+e/f/ | "C"g-<c e-<c g-<c "(F)"a-<c | "C"gc f/e/d/c/ "G7"B-<d d>e \
+     | "C"c-<G B/A/G/F/ E-<G "F"c>a | "C"g-<c "G7"g>f "C"e-<c c |]
+P: Miss Sarah Drummond of Perth
+R: strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+C: Niel Gow
+N: Gow p.144; Hunter 68; Scots Guard 177; Skye p.115; OTDT  p.77; BSFC I-49, V-8; Allan's p.12
+M: C
+L: 1/8
+K: ADor
+ e | "Am"A<A e>d B<d e2  | "G"d>g B>g d>g B<G | "Am"A<A e>d     B<d e>g |    a<e "G"g>B "Am"A3 :|
+^g | "Am"a<a e>a c<a e>f | "G"g<g d>g B<g d>g | "Am"a<a e>a     c<a e>g |    a<e "G"g>B "Am"A3 |]
+^g | "Am"a<a e>a c<a e>f | "G"g<g d>g B<g d>g | "Am"a<a e>a "Em"g<b e>g | "F"a<e "G"g>B "Am"A3 |]
+P: Muir Mackenzie's Favourite
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+f>e \
+| "D"d2 A>G "Bm"F-<D DE/F/ | "Em"G>F E>D "A7"C-<A, B>c \
+| "D"d>e d>B A>F "G"G>B | "A7"A-<F E>G "D"F-<D :|
+f>g \
+| "D"a>b a>g "Bm"f>e f-<d | "Em"g>f e>d "A7"c>B c-<A \
+| "D"a>b a>g "Bm"f>e f-<d | "Em"g>e "A7"a>f "D"~d2 |]
+f>g \
+| "D"a>b a>g "Bm"f-<d e>f | "Em"g>f e>d "A7"c-<A B>c \
+| "Bm"d>e f-<d "Em"e>f g-<e | "A7"f-<a c>e "D"d2 |]

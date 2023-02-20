@@ -1,0 +1,28 @@
+X: 1
+T: Montague House
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (129)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/4
+L: 1/4
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f/e/ |\
+f2F F>GA | B2G G>AB |\
+c2C C>DE | F2F F2 :|\
+|: A/B/ |\
+c2c c>dc | d2d d>ef |
+g2g g>ag/f/ | e3 c2a |\
+b>ag f>ed | e>fg c>BA |\
+B>cd dfc | A3 F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. setts and casts off then sett and Cast up again
+%% then cross over and Figure in the single and then turn
+%% your Partner then lead your Partner thro the 3d Cu. and
+%% cast up and turn it out
+%%endtext
+%%sep 1 8 500

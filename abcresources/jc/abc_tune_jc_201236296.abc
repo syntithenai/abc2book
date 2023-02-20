@@ -1,0 +1,19 @@
+X: 2191
+T: Old Simon Brodie    Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.19 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Em
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+E<EG>A FDFA | E<EG>A BEGB | dd e/d/^c/B/ ADFA | E<EG>A BEGB :||:
+e>f (g/b/).a/.g/ fdfa | e<ege bgeB | dd (e/d/).^c/.B/ ADFA |[1 E<EG>A BEGB :|[2 TE>F (G/B/)(A/c/) BEGB |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+e2e2 d2d2 | e2e2 e2e2 | f2g2 f2d2 | e2B2 e2e2 :||:
+e'2e'2 d'2d'2 | e'2e'2 e2e2 |f2g2 f2d2 |[1  e2B2 e2e2 :|[2 e2B2 e2e2 |]

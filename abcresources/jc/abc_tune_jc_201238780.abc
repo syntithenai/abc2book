@@ -1,0 +1,32 @@
+X: 31311
+T: COTILLION No. 24. EXTRAVAGANT SETT tune 4
+C:
+%R: reel
+N: This is version 1, for ABC software that doesn't understand voice overlays. (It works for keyboardists, too.)
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.131 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+AB |\
+c2c2c2 de | fefg a2ga | b2ba g2gf | eg=Bd c2A_B |\
+c2c2c2 de | fefg a2ga | b2bg ecde | fefg f2 H|]
+gf |\
+e2ed c2gf | e2ed c2AB | c2f2e2f2 | a4 g2AB |\
+cABc d2gf | ecde f2af | d2bg ecde | g4 "^D.C."f2 |]
+c2 |\
+[c2A2]c2[a2A2][g2c2] | [f2-A2][f2-c2][f2A2][a2c2] | [d2B2-][g2B2][e2G2-][c'2G2] | [b4B4][a2A2]c2 |\
+[c2A2]c2[a2A2][g2c2] | [f2-A2][f2-c2][f2A2][c2c2] | [d2B2][g2d2]{f}[e2c2][c'2B2] | [g4B4] "^D.C."[f2A2] |]
+CC |\
+C2CC C2CC | C2C2C2 A2 | G2A2G2A2 | G4 z4 |\
+[c'4A4] [e4B4] | [f2-c2] [f4A4] [d2F2] | [c2A2][a2c2][g2B2][e2G2] | [g4B4] "^D.C."[f2A2] |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 lead to right,
+%% chassa out and form lines across the hall,
+%% all right and left.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

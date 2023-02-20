@@ -1,0 +1,31 @@
+X: 203
+T: Weavers Triumph
+T: Tha bhuaidh aig on fhioghdair
+R: jig
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" 1816 p.94 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The book has the first note of every beat in the bass part doubled an octave higher; not transcribed here.
+N: The 2nd strain has a final repeat but no initial repeat; not fixed.
+M: 6/8
+L: 1/8
+Q: "Dance & Song."
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for 3 8-bar lines, for compactness and proofreading.
+V: 1 staves=2
+d !segno!|:\
+TB2F- FDF | FDF FDF | ~F2G B2c | d2f edc || TB2G- G^FG G^FG G^FG | ~G2A B2c | d2f edc :|
+{fga}b2B Tf2e | d2B fdB | {fga}b2B Tf2e | d2B fdB || {ga}b2c Tg2c | {d}e2c gec | {ga}b2c Tg2c | {d}e2c gec ||
+{fa}b2B Tf2e | Td2B fdB | {ga}b2B Tf2e | d2B fdB || bag fed | edc dcB | BAG FED | d2f edc !segno!:|
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z !segno!|:\
+Bdf Bdf | Bdf Bdf | Bdf Bdf | Bdf Acf || Beg Beg | Beg Beg | Bdf Bdf | Bdf Acf :|
+Bfb Bfb | Bfb Bfb | Bfb Bfb | Bfb Bfb || ceg ceg | ceg ceg | ceg ceg | ceg ceg || Bfb Bfb |
+Bfb Bfb | Bfb Bfb | Bfb Bfb || Beg Bdf | Acf Bdf | Beg Bdf | B3 fga :|
+% = = = = = = = = = =
+%%begintext align
+%%endtext

@@ -1,0 +1,31 @@
+X: 21072
+T: BAYADERS SETT (tune 5)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.107 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+D/E/ |\
+F3 GF=E | F3 GF=E | FBc d(FG) | F3 ECD |\
+EcB AGF | BB/A/B/c/ dcB | F2F F/A/G/B/A/c/ | BBB B2 H|]
+c/d/ |\
+e2d cgf | f2e dGA | BAG Fdc | B3 ACD |\
+E2D CGF | F2E D2F | E2E EDE | B3- "^D.C."B2 |]
+d |\
+d3 edc | d2B G2B | ccc cBc | BB/c/A/B/ G2d |\
+d3 edc | d2B G2B | ABc D=E^F | G3 "^D.C."G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Four ladies forward and back,
+%% gentlemen the same,
+%% all balance partners,
+%% grand chain,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

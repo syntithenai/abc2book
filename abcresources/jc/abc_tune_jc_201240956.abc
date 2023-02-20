@@ -1,0 +1,19 @@
+X: 4191
+T: Lady Mary Stopford's    Reel
+%R: reel
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.19 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+B |\
+AFdF {B}A2FA | BGAF GE-E>G | FADF GBEd | (c/d/)e (.A.c) dDD :| g | fdad {g}f2df | gfed ceAg |
+fdad fadf | (g/a/b) ag fddg || fdad {g}f2df | gfed ceA=c | TB2GB ceAc | dfeg fd d |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | D2d2 f2f2 | e2d2 c2A2 | d2f2 e2g2 | a2A2 d2D :| z | d2f2 d'2d2 | e2^g2 a2c'2 |
+d'2f2 d2f2 | g2a2 d2d2 || d2f2 d'2d2 | e2^g2 a2A2 | G2g2 A2a2 | f2a2 d2d |]

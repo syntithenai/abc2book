@@ -1,0 +1,41 @@
+X:1
+T:MacCann's Fiddle
+M:C|
+L:1/8
+Q:80
+C:
+S:Hornpipe
+K:HP
+|: {g}f | \
+{g}A/2B/2{Gdc}d/2e/2{g}f/2e/2{gde}d/2c/2 | \
+{g}B/2e/2{a}g/2B/2{gAGAG}A{gde}d/2c/2 |
+{g}B/4e3/4{a}g/2B/2{g}A/2d/2{g}f/4a3/4 | \
+g/2f/2{g}e/2d/2{g}c/4e3/4{ag}a{g}A/2B/2{Gdc}d/2e/2{g}f/2e/2{gde}d/2c/2 | \
+{g}B/2e/2{a}g/2B/2{gAGAG}A{gde}d/2c/2 |
+{g}B/2e/2{a}g/2e/2{g}f/4a3/4{fg}f/2d/2 | \
+{gef}ed{gdc}d :: \
+{gf}g |
+{a}f/2g/2a/2g/2{a}f/2e/2{gde}d/2c/2 | \
+{g}B/4d3/4{g}B/4g3/4{a}f/2e/2{gde}d/2c/2 | \
+B/4e3/4{a}g/2B/2{g}A/2d/2{g}f/4a3/4 |
+g/2f/2{g}e/2d/2{g}c/4e3/4{ag}a{a}f/2g/2a/2g/2{a}f/2e/2{gde}d/2c/2 | \
+{g}B/4d3/4{g}B/4g3/4{a}f/2e/2{gde}d/2c/2 | \
+{g}B/2e/2{a}g/2e/2{g}f/4a3/4{fg}f/2d/2 |
+{gef}ed{gdc}d :: \
+{g}f | \
+{g}A/2d/2{g}f/2d/2{g}A/2e/2{a}g/2e/2 | \
+{g}f/2d/2a/2f/2{gef}e/2c/2a/2c/2 |
+{g}B/4e3/4{a}g/2B/2{g}A/2d/2{g}f/4a3/4 | \
+g/2f/2{g}e/2d/2{g}c/4e3/4{ag}a{g}A/2d/2{g}f/2d/2{g}A/2e/2{a}g/2e/2 | \
+{g}f/2d/2a/2f/2{gef}e/2c/2a/2c/2 |
+{g}B/2e/2{a}g/2e/2{g}f/4a3/4{fg}f/2d/2 | \
+{gef}ed{gdc}d :: \
+{g}((3e/2f/2g/2) |
+a3/4d/4{g}f/4a3/4g/2e/2{g}B/4e3/4 | \
+{a}g/2B/2{g}e/2g/2{a}f/2d/2{g}A/2e/2 | \
+{a}g/2A/2{g}e/2g/2{a}f/2A/2{g}d/2f/2 |
+{gef}e/2d/2{g}c/2d/2{gef}((3e/2A/2{g}e/2f/2g/2)a3/4d/4{g}f/4a3/4g/2e/2{g
+}B/4e3/4 | \
+{a}g/2B/2{g}e/2g/2{a}f/2d/2{g}A/2e/2 | \
+{g}B/2e/2{a}g/2e/2{g}f/4a3/4{fg}f/2d/2 |
+{gef}ed{gdc}d :|

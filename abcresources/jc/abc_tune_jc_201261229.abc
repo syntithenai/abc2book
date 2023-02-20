@@ -1,0 +1,42 @@
+X:1
+T: Charlene's Celebration
+N:
+C:Charlene E. Thomson
+S:Tune is "Elizabethan Tango Man"
+A:
+O:
+R:
+M:3/2
+K:Am
+I:speed 220
+%W: A1
+% voice 1 (1 lines, 24 notes)
+K:Am
+M:3/2
+L:1/16
+z4 A2 |B2 c4 |e4 d4 |c4 d6 |d2 d4 |c4 B8 |z4 e2 |^d2 e4 |=d4 c4 |B4 c6 |d2 c4 |B4 A8 |
+% voice 2 (1 lines, 6 notes)
+K:Am
+M:3/2
+L:1/16
+%W:
+% voice 1 (1 lines, 25 notes)
+G6 |G2 g4 |f4 e4 |d4 e6 |f2 e2 d2 |c2 B2 A8 |f4 d2 |B2 e4 |c4 A4 |F4 E6 |E2 c4 |B4 A8 |
+%W: A2
+% voice 1 (1 lines, 24 notes)
+ 6r| 2r 4r| 4r 4r| 4r 6r| 2r 2r 2r| 2r 2r 8r| 4r 2r| 2r 4r| 4r 4r| 4r 6r| 2r 4r| 4r 8r|z4 A2 |B2 c4 |e4 d4 |c4 d6 |d2 d4 |c4 B8 |z4 e2 |^d2 e4 |=d4 c4 |B4 c6 |d2 c4 |B4 A8 |
+%W:
+% voice 1 (1 lines, 25 notes)
+G6 |G2 g4 |f4 e4 |d4 e6 |f2 e2 d2 |c2 B2 A8 |f4 d2 |B2 e4 |c4 A4 |F4 E6 |E2 c4 |B4 A8 |
+%W: B1
+% voice 1 (1 lines, 27 notes)
+ 6r| 2r 4r| 4r 4r| 4r 6r| 2r 2r 2r| 2r 2r 8r| 4r 2r| 2r 4r| 4r 4r| 4r 6r| 2r 4r| 4r 8r|z4 E2 |E2 F4 |E4 B4 |d4 z4 |c2 d2 c4 |B4 c4 |e4 z4 |e2 f2 e4 |d4 B4 |d4d4 |d2 c2 d4 |B4 A8 |
+%W:
+% voice 1 (1 lines, 28 notes)
+z4 E2 |E2 F4 |E4 ^G4 |B4 z4 |c2 d2 e4 |f4 f4 |e4 e4 |e2 E2 e4 |e2 E2 e4 |E4 e4 |d4 c4 |B4 A4 |^G4
+%W: B2
+% voice 1 (1 lines, 27 notes)
+z4 |E2 E2 F4 |E4 B4 |d4 z4 |c2 d2 c4 |B4 c4 |e4 z4 |e2 f2 e4 |d4 B4 |d4d4 |d2 c2 d4 |B4 A8 |
+%W:                                                                                                         Ending
+% voice 1 (1 lines, 33 notes)
+z4 E2 |E2 F4 |E4 ^G4 |B4 z4 |c2 d2 e4 |f4 f4 |e4 e4 |e2 E2 e4 |e2 E2 e4 |E4 e4 |d4 c4 |B4 A4 |^G4 e6 |d2 c4 |B4 A8 |||

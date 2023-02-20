@@ -1,0 +1,20 @@
+X: 11524
+T: HARD IS THE FATE OF HIM WHO LOVES.
+O: Gaelic air.
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.152 #4
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gm
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+G2A B2c | (dc)B {B}A2^F | G2A B2c | (d>c)d f2g |\
+(a>g)f (d>e)d | (c>d)B A2G/^F/ | G2A (Bcd) | ({d}cB)A G2 |]
+d |\
+g2g f2d | (c>d)B A2G/^F/ | G2g (ga)b | (a>g)^f g2a |\
+(ba)g a2g/f/ | d2c/B/ A2G/^F/ | G2A (B>c)d | ({d}cB)A G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

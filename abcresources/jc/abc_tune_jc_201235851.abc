@@ -1,0 +1,19 @@
+X: 21413
+T: the WAES O' SCOTLAND
+O: Jacobite melody.
+Q: "Slow."
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.141 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+B3 c d2 (ec) | B3 F G2 F>F | B3 c d2 {f}e2 | (d4 c2) z2 |\
+B2 (Bc) d2 (ec) | B2 (FB) G3 F | F3 D (F2 GA) | {c2}B4 z2 |]
+(Bc) |\
+d3 e f2 d2 | g3 f (fd) zf | e3 d c2 B2 | {A2}G4 z2 (Bc) |\
+d3 c B2 (FB) | {A}G3 F D2 z2 | F2 (FD) F2 (GA) | {c2}B4 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

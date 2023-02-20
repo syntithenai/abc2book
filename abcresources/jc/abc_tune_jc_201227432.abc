@@ -1,0 +1,25 @@
+X: 10791
+T: the BALDERSTON QUADRILLES No. 4.--la Trenise.
+%R: march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.79 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: This uses only the 2nd strain of "My Love she's but a Lassie Yet".
+M: 2/4
+L: 1/16
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: the King shall enjoy his ain again.
+d2 |\
+F2F2B2B2 | c>dec {e}d2cd | e2G2A2c2 | c2B2 B2cd |\
+F2F2B2B2 | c>dec {e}d2cd | e2G2A2c2 | c2B2"^Fin."B2 H:|
+cd |\
+c>BAB c2d2 | c>BAB c2d2 | c2f2 =efge | f2F2F2 DE |\
+F2F2B2B2 | cdec {e}d2cd | e2G2A2c2 | c2B2"^D.C."B2 :|
+P: My Love she's but a Lassie Yet.
+de |\
+f2fd e2ec | d2B2 Bcde | f2fd efed | c2F2F2 de |\
+f2fd e2ec | edcB c2(dc) | BAGF GBAc | BABc "^D.C."B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

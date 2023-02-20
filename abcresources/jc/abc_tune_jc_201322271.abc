@@ -1,0 +1,44 @@
+X:1
+T:A Parcel of Rogues in a Nation
+%%staves {1 2}
+B:McGibbon (Rutherford) v.3 p.21
+M:C
+L:1/8
+K:Dm
+V:1
+"_Slow"(Ac)| d>e (cA)d3e | (fd)(c>A)F2GA | BAGF G2(A>c) | d4A2 :: fg |
+a>cagf2(e>d) | (cA) T(G>F)c2(de) | f2edg2fg | a4d2fg |
+ac'ga f>g fe/d/ | (cA) T(G>F)f2(ac) | (BA)TG>FG2(Ac) | d4A2 :|
+V:2 clef=bass middle=d % transpose=-24
+z2 | d2f2babg | a2f2A2BA | G3A Bbag | fd'afd2 :: z2 |
+f3ga2zb | a2e2f2d^c | dd ef e2de | fgag  fd ze |
+f2g2a3b | a3BA2zf | G2zA Bbag | fd'afd2 :|
+%
+C: words: Robert Burns 1791
+%
+W: Fareweel to a' our Scottish fame,
+W: Fareweel our ancient glory;
+W: Fareweel ev'n to the Scottish name,
+W: Sae fam'd in martial story.
+W: Now Sark rins over Solway sands,
+W: An' Tweed rins to the ocean,
+W: To mark where England's province stands-
+W: Such a parcel of rogues in a nation!
+W:
+W: What force or guile could not subdue,
+W: Thro' many warlike ages,
+W: Is wrought now by a coward few,
+W: For hireling traitor's wages.
+W: The English stell we could disdain,
+W: Secure in valour's station;
+W: But English gold has been our bane-
+W: Such a parcel of rogues in a nation!
+W:
+W: O would, or I had seen the day
+W: That Treason thus could sell us,
+W: My auld grey head had lien in clay,
+W: Wi' Bruce and loyal Wallace!
+W: But pith and power, till my last hour,
+W: I'll mak this declaration;
+W: We're bought and sold for English gold-
+W: Such a parcel of rogues in a nation!

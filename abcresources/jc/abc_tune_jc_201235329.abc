@@ -1,0 +1,31 @@
+X: 21090
+T: Glinquich's Bush [standard tuning]
+%R: air, reel
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.109 #0
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The book has A,EA^c scordatura tuning, and the tune uses two-voice notation.
+N: This transcription is converted to "standard" tuning, and single-voice chords for ABC version 1 software.
+M: C
+L: 1/8
+K: A
+%%continueall
+|:"_Slow"\
+e3f ecTBA | e3f ecTBA | e2Tdc (dc)(BA) | G2A2 [B4E4] ::\
+e3f dBBc | d3e | cAAB |
+=c2BA e=cBA | E2BG [A4E4A,4] ::\
+E2EF A2AB | cecA TBABc | E2EF A2AB | cecA [B4E4] :|
+|:\
+e2dc TBABc | d2TcB AGAB | =c2A,B, CEed | =cBAG [A4E4A,4] ::\
+EAcA eAfd | cAGA BAGE |
+EAcA eAfd | cAGA [B4E4] ::\
+aAgA fAeA | dcBA GABE | aAgA fAeE | FdcB [A4E4A,4] :|
+|: [M:3/4]"_Brisk"\
+(c/d/)e Ae f2 | (c/d/)e AecA | (c/d/)e Ae fd | cA GABE |\
+(c/d/)e Ae f2 | (c/d/)e AecA | (c/d/)e Ffed | dABG B2 :|
+|:\
+(C/D/)E EE (F/G/)A | C/D/E DC TB,A, | C/D/E EE (F/G/)A | GFED E2 |\
+aAgA fA | eAdA cA | eEFfed | dABG [A2E2A,2] :|
+%%begintext align
+%% The book has A,EA^c scordatura tuning; this transcription is converted to standard G,DAe tuning.
+%% This tune uses voice overlays, transcribed here with full chords.
+%%endtext

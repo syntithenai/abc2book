@@ -1,0 +1,41 @@
+X: 30101
+T: MISS MAGOUN'S WALTZ
+C:
+%R: waltz
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.10
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The first note (F) in voice 1 bar 5 is almost certainly wrong; fixed by making it like bar 6.
+M: 3/8
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+d'b |\
+gdBG d'b | gdBG d'b | c'afdef | g4 bg |\
+eBGE bg | eBGE bg | fa^dfBd | e2E2 :|
+|: d2 |\
+d2g2g2 | B4B2 | B2e2e2 | A4F2 |\
+G2c2B2 | B2e2d2 | dcB2A2 | G4 :|
+|: bd' |\
+c'afd bd' | c'afd bd' | c'afdef | g4 gb |\
+af^dB gb | af^dB gb | af^dB^cd | e4 :|
+|: d2 |\
+d2c2c2 | a2c2c2 | c2B2c2 | g2B2B2 |\
+^GABcde | fgabc'a | gfedef | g4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+G2g2z2 | G2g2z2 | D2d2c2 | B4z2 |\
+E2e2z2 | E2e2z2 | B2B2A2 | G2E2 :|
+|: B2 |\
+B4B2 | G4E2 | E4G2 | F4z2 |\
+z6 | G2c2B2 | BAG2F2 | G4 :|
+|: z2 |\
+D2d2z2 | D2d2z2 | D2d2c2 | B4z2 |\
+B2B2z2 | B2B2z2 | B2B2A2 | G4 :|
+|: B2 |\
+B2A2A2 | c2A2A2 | A2G2G2 | B2G2G2 |\
+E2z2 Bc | ABcdec | d4c2 | B4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

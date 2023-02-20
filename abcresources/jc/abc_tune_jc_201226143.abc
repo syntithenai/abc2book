@@ -1,0 +1,20 @@
+X: 10111
+T: BONNIE WEE THING
+Q: "Slow."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.11 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Bar 4 has a g-f slur and also an f-d slur; the first looks parly erased, so I ignored id.
+M: C
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(fd3)(c3B) G3A B4 | (fd3)(c3B) (e2fg) f4 |\
+({f}e2d2) ({d2}c2B2) G3A B4 | F4 G3A B8 ::\
+B6 g2 (fd3)(c3B) | (fd3) ({d}c2B2) c2de d4 |
+B6 !pp!A2 (B2c2)(d2e2) | (f4 e3d)  d4 c4 |\
+B6 g2 (fd3) g4 | (fd3) g4 (fd3) {d}c3B |\
+({f}e2d2) ({d}c2B2) (G3A) B4 | !p!F4 G3A B8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

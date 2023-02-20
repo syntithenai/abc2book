@@ -1,0 +1,19 @@
+X: 499
+T: the Heart Bowed Down
+R: air
+%S: s:3 b:22(4+3+3+4+4+4)
+B: O'Neill's 1850 #499
+O: (Balfe.)
+N: First phrase has 10 bars.
+N: Typo: Bar 10 needs D6 rather than D4.
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+Q: "Slow"
+M: C
+L: 1/8
+K:G
+D2 | B2(.B2 .B2.B2) | ((3BAD) A4 d2 | d2B2 d>c ((3AEF) | G4 z2 ||
+| D2 | B2(.B2 .B2.B2) | ((3BAD) A4 d2 | d2B2 ^c2({dc}BA) |
+| A2^A2 B2 (^cd) | (dF) "rall."(BA) ((3^ABC) HF>E | D6 z2 |]
+|| A2(.A2 .A2.A2) | ((3AGB,) D4 G2 | F2F2 G2(cB) | HA6 ||
+| D2 | B2(.B2 .B2.B2) | ((3BAD) A4 d2 | d2B2 d2(cA) | _B6 ||
+| G2 | =B3B c3A | (^d4 He2)(GA) | B3A Hc3B | G4 z2 |]

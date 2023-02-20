@@ -1,0 +1,12 @@
+X:206
+T:The Duchess Tree
+C:J. Scott Skinner
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=56
+%%MIDI chordname dim 0 3 6 9
+M:4/4
+L:1/8
+K:A
+|: A>B | "A"c2 c2 c2 Bc | "D"d2 F2 F2 G>F |1 "A"E2 A2 e2 c2 | "E7"(c2B4) :|2 "A"EF GA "E7"c2 B2 | "A"A6 B>c |
+| "D"d2 d2 d2 A>B | "A"c2 c2 c2 A>F | "A"E2 A2 "F#m"e2 c2 | "Bm"(c2B2- "E7"B2) A>B |
+"A"c2 c2 "A7"c2 B>c | "D"d2 F2 "Adim/D#"F2 GF | "A/E"EF GA "E7"c2 B2 | "A"A6 |]

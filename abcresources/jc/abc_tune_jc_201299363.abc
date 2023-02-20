@@ -1,0 +1,46 @@
+X: 1
+T: Lady Day
+P: Longways for as many as will
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.75 #107 (149)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.21
+N: Repeats added to satisfy the "Each Strain is to be play'd twice over" instruction.
+N: There are odd underscores several places before "side", the meaning isn't clear.
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+FE |\
+(DE) F2 F2 B2 | G4 G2 (FE) | (DE) F2 F2 (de) | c4 c2 FE |\
+(DE) F2 F2 B2 | G4 g4 | (fg) (fd) c2 B2 | B6 :|
+|: FE |\
+D2 B,2 (DE) (FD) | E2 C4 D2 | (ED) (EF) (GA) B2 | A2 c4 f2 |\
+d2 (ed) (cB) (cA) | B2 (AG) F2 f2 | (ga) b2 (a3 g/a/) | b6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Note: Each Strain is to be play'd twice over.
+%%begintext align
+%% First Man take Hands with the 1st and 2d We. half round; We. break Hands,
+%% and cast off; turn the 1st Wo. into the 2d Wo. Place, 1st Man at the same
+%% Time turn the 2d Man into his Place, then the 2d Man take Hands with
+%% the two We. and do as before, 1st Cu. being in their own Places, slip down
+%% the Wo. within _ side, and the  Man without _side) into the 2d Cu. Place,
+%% they slip up at the same time; turn single all four, right and left into
+%% their own Places; then slip down as before, the Man within _side, and the
+%% Wo. without side, turn single, and Men turn by themselves, the Wo.
+%% doing the like at the same time.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%%   First man take hands with the 1. and 2. wo. half round; wo. break hands, and cast off; turn the
+%% 1. wo. into the 2. wo. place, 1. man at the same time turn the 2. man into his place; than [sic] the 2. man
+%% take hands with the two women, and do as before; first cu. being in their own places, slip down, the
+%% we. within-side, and the man without side into the 2. cu place, they slip up at the same time; turn
+%% single all four, right and left into their own places, then slip down as before, the man within-side, and
+%% the wo. without-side, turn single, and men turn by themselves, and wo. doing the like at the same time.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

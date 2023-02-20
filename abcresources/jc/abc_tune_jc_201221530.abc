@@ -1,0 +1,51 @@
+X: 04
+T: KORNBLUMENBLAU
+C: musik: Gerh.Jussenhofen
+C: text: Jupp Schl\"osser
+C: arr: Georg Bauer
+%R: waltz
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+B: Fl\"ugelhorn Duets
+U: K=!accent!
+M: 3/4
+L: 1/4
+K: C
+%%score (1|2)
+%%gchord below
+%%abc2pscompat yes
+%%continueall 1	% Useful when printing at different scales
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+[| E3 | F2A | G3 | c3 | cGE | F>ED | Czz | z3 \
+"^Verse:"[|!mf!\
+EEE | GGG | F3 | D3 | FFF | AAA | G3- | G3 |
+EEE | GGG | F3 | B3 | c>dc | B2A | G3- | G(AG) |
+D>DD | DEF | E3 | (A2G) | F3 | (B2A) | G3 | zcB |
+d>cc | D3 | A>GG | E3 | D>ED | cBA | G>AG | FED \
+"Kehrreim:"|:\
+E3 | !mf!F2!f!A | G3- | GEF | GGG | GF>E |
+w: Korn-blu-men-blau* ist der Him-mel am herr-li-chen
+G3 | D3 | F3 | G2B | A3- | AFG | AAA |
+w: Rhei-ne, korn-blu-men-blau* sind die Au-gen der
+AG>F | A3 | G3 | C3 | E2G| c3 | G3 |
+w: Frau-en beim wei-ne. Da-rum trinkt Rhein-wein
+c3 | B2c | A3- | A3 | D3 | E2F | GE>F |
+w: M\"an-ner, seid schlau,* dann seid am En-de auch
+G3 | d3 | c2B ||[1 cG/G/G | BAG :|[2 cz"^>"G | "^>"czz |]
+w: ihr korn-blu-men-blau. ~ ~ ~ ~ ~ ~ blau. ~ ~
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+[| C3 | D2^D | E3 | ^F3 | E2E | F>ED | Czz | z3 \
+"^Verse:"[|!mf!\
+CCC | EEE | DDD | DDD | DDD | FFF | E3- | E3 |
+CCC | EEE | D3 | D3 | E>FE | D2^F |
+G3- | G(=FE) | B,>B,B, | B,CD | E3 E3 | F3 |
+^F3 E3 | zEE | F>FF | D3 | E>EE | E3 | D>ED |
+^FFF | G>AG | FED \
+"^Kehrreim:"|:!mf!\
+C3 | !f!D2^D | E3 | ECD |
+EEE | EF>E | G3 | D3 | F3 | F2F | F3- | FDE |
+FFF | FE>D | ^F3 | E3 | C3 | C2E | E3 |
+E3 | E3 | E2E | F3- | F3 | D3 | E2D | EC>D |
+E3 | ^F3 | =F2F ||[1 EG/G/G | =FFF :|[2 Ez"^>"F | "^>"Ezz |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

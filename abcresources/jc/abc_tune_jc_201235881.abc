@@ -1,0 +1,22 @@
+X: 2143
+T: Lady Wallace.   a Reel.
+C: by R. Mackintosh
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.2 p.14 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: Several of the slurs have ambiguous endings, so play them as you like.
+N: The slurs transcribed here may not be what was intended.
+N: The final G notes in the bass part's strains are converted to 8th-notes, to match the melody's endings.
+M: C
+L: 1/8
+K: Gm
+% - - - - - - - - - -
+V: 1 staves=2
+d | (B/A/)G (.G,.GB,)G G,d | cfdB AFfc | B/A/G (.G,.GB,)G G,d | cD (d/c/B/A/) BGG :| g | (b/a/g) (.G.d) gdbg | afTc>B AFaf |
+T(g^fg).d Bdgb | a^fdf g/g/g Tg>a || bgda gecg | fBgB AFfc | .d(TBAG) .e(TcBA) | dD (d/c/B/A/) BGG |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+[g2G2]G2 G2G2 | [f2F2]F2 F2F2 | G2G2 G2G2 | D2D2 G2G :| z | [g2G2]g2 g2g2 | f2f2 f2f2 |
+g2g2 g2e2 | d2d2 G2G2 || g2f2 e2e2 | d2e2 f2f2 | g2B2 c2c2 | d2d2 G2G |]

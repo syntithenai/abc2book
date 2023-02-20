@@ -1,0 +1,47 @@
+
+X: 1
+T: The Star-Spangled Banner    [C]
+C: Music: John Stafford Smith
+C: Words: Francis Scott Key
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+(GE) | "C"C2 E2 G2 | "Am"c4 "E7"ed | "Am"c2 E2 "D7"^F2 | "G"G4
+w: Oh,_ say, can you see by the dawn's ear-ly light,
+GG | "C"e3 d c2 | "G7"B4 AB | "C"c2 c2 G2 | E2 C2 |]
+w: What so proud-ly we hailed at the twi-light's last gleam-ing?
+GE | "C"C2 E2 G2 | "Am"c4 "E7"ed | "Am"c2 E2 "D7"^F2 | "G"G4
+w: Whose broad stripes and bright stars thro' the pe-ri-lous fight,
+GG | "C"e3 d c2 | "G7"B4 AB | "C"c2 c2 G2 | E2 C2 |]
+w: O'er the ram-parts we watched were so gal-lant-ly stream-ing;
+ee | "C"e2 f2 g2 | g4 fe | "G7"d2 e2 f2 | f4
+w: And the rock-ets' red glare, the bombs burst-ing in air,
+f2 | "C"e3 d c2 | "G7"B4 AB | "Am"c2 E2 "D7"^F2 | "G"G4 |]
+w: Gave proof thro' the night that our flag was still there.
+G2 \
+| "C"c2 c2 (cB) | "F"A2 A2 "A7"A2 | "Dm"d2 (fe) (dc) | "C"(c2 "G7"HB2)
+w: Oh, say, does that_ star\- span-gled ban-ner_ yet_ wave_
+GG | "C"(c3 d)ef | Hg4 "C"cd | "C"e3 f "G7"d2 | "C"c4 |]
+w: O'er the  land_ of the free, and the home of the brave?
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Star-Spangled Banner    [D]
+C: Music: John Stafford Smith
+C: Words: Francis Scott Key
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+AF \
+| "D"D2 F2 A2 | "Bm"d4 "F7"fe | "Bm"d2 F2 "E7"^G2 | "A"A4 AA \
+| "D"f3 e d2 | "A7"c4 Bc | "D"d2 d2 A2 | F2 D2 :|
+ff \
+| "D"f2 g2 a2 | a4 gf | "A7"e2 f2 g2 | g4 g2 \
+| "D"f3 e d2 | "A7"c4 Bc | "Bm"d2 F2 "E7"^G2 | "A"A4 |]
+A2 \
+| "D"d2 d2 dc | "G"B2 B2 "B7"B2 | "Em"e2 gf ed | "D"d2 "A7"Hc2 AA \
+| "D"d3 efg | Ha4 "D"de | "D"f3 g "A7"e2 | "D"d4 |]

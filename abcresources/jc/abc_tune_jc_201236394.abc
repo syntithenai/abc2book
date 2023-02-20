@@ -1,0 +1,27 @@
+X: 2201
+T: Mr Cha.s Graham's Welcome home
+%R: air, jig
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.20 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slow"
+K: Am
+% - - - - - - - - - -
+V: 1 staves=2
+TA/G/ |\
+(EA)A TA2G | (BA)A TA2B | d2Te dBg | BGG G2TA/G/ || (EA)A TA2G | (BA)A TA2B | d2e dBg | (BA)A A2 :| e |
+{^g}Ta>^ga a2e | {^g}Ta>^ga a2e | =g>bg e>ge | dBTG G2e || {^g}Ta>^ga a2e | {^g}Ta>^ga a2e | =g>ag ege | {e}d>BA A2e ||
+{^g}Ta>^ga a2e | {^g}Ta>^ga a2e | =g>bg e>ge | dBG G2"_~~"TA/G/ || (EA)A TA2G | (BA)A TA2B | d2Te dBg | BAA TA2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | a3 a3 | a3 a2b | g2c' b2d' | g3 G2z || a3 a3 | a3 c2d | B2c e2E | A3 A2 :| z |
+a3 ac'e' | a3 ac'a | g2B c2c | GBd g2z || a3 Ace | a3 A2c | B2c e2E | A3 a3 ||
+a3 A2e | a3 A2c | B3 c3 | g3 G2z || a3 a3 | a3 c2d | B2c e2E | A3 A2 |]
+%%begintext align
+%% ~~ Note between the staffs of the 1st strain:
+%% N.B. The 1st Strain of this tune ought to be play'd upon the full shift and from this mark 
+%% [two large tilde symbols arranged vertically] in the second strain in the end.
+%%endtext
+N: There seems to be no standard way to duplicate in ABC the position or symbol referred to by this note.

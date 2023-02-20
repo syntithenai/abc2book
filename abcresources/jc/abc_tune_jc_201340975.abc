@@ -1,0 +1,26 @@
+X:1
+T: Step Stately (Version II)
+N:
+C:
+S:Play  13  times
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 18 notes)
+K:G
+M:6/8
+L:1/16
+d2 |g4 d2 d2 c2 B2 c4 A2 A6 a4 f2 d2 g2 d2 B4 G2 G4 d2 |
+%W: A2
+% voice 1 (1 lines, 16 notes)
+g4 d2 d2 c2 B2 c4 A2 A6 a4 f2 d2 g2 d2 B4 G2 G6 |
+%W: B1
+% voice 1 (1 lines, 18 notes)
+a4 g2 f2 e2 d2 e2 g4 g2 a2 g2 f4 e2 d2 g2 d2 B4 G2 G6 |
+%W: B2
+% voice 1 (1 lines, 18 notes)
+a4 g2 f2 e2 d2 e2 g4 g2 a2 g2 f4 e2 d2 g2 d2 B4 G2 G6 ||

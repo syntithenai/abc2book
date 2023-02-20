@@ -1,0 +1,41 @@
+X:259
+T:Danza (CT 129)
+R:Danza
+C:Tradicional
+S:Música Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, transcrita en La Pola Siero.
+N:Intervienen personas de ambos sexos, y se ejecuta con un aire algo más movido que aquellas otras danzas cuya medida es la de seis por ocho.
+N:El conductor de la danza va desarrollando el romance en la forma en que aparece vajo la transcripción melódica, y el resto de los danzadores contesta invariablemente con el estribillo entero.
+A:Asturies
+O:La Pola Siero (Siero)
+Z:Cancioneru de Torner 129
+M:3/4
+L:1/8
+Q:1/4=132
+K:G
+"Solo"
+|[M:3/4]GA Bc d2|(gf)(ef) d2|
+"Coro"
+[M:2/4]gf ef|g2 Bc|dd cB|A2 G2|
+"Solo"
+[M:3/4]GA Bc d2|(gf) (ef) d2|
+[M:2/4]gf ef|g2 B2|A2 G2|
+"Coro"
+[M:3/4]GA Bc dd|gf (ef) d2|
+[M:2/4]gf ef|g2 Bc|dd cB|A2 G2 :||
+W:"Solo"
+W:¡Ai! un galán de esta villa.
+W:"Coro"
+W:No los puedo hallar
+W:si me duermo, si me duermo.
+W:
+W:"Solo"
+W:¡Ai! un galán de esta villa.
+W:¡Ai! un galán de esta casa.
+W:"Coro"
+W:De los caranquiños,
+W:madre, vengo;
+W:no los puedo hallar
+W:si me duermo, si me duermo.
+W:

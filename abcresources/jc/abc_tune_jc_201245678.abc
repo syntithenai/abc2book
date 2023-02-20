@@ -1,0 +1,26 @@
+X:1
+T: Albany Assembly
+N:
+C:
+S: Tune is "La Morisque"
+A:
+O:
+R:
+M:4/4
+K:C
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 26 notes)
+K:C
+M:4/4
+L:1/16
+e2 f2 g4 g4 g4 |g12 f4 |e4 c4 c4 d4 |B8 G8 |e2 f2 g4 g4 g4 |g12 f4 |e4 c4 c4 d4 |c8 c8 |
+%W: A2
+% voice 1 (1 lines, 27 notes)
+e2 f2 g4 g4 g4 |g12 f4 |e4 c4 c4 d4 |B8 G8 |e2 f2 g4 g4 g4 |g12 f4 |e4 c4 c4 d4 |c8 z4 e4 |
+%W: B1
+% voice 1 (1 lines, 30 notes)
+e4 c4 c4 d4 |e4 c4 f4 d4 |e4 c4 c4 d4 |B8 G4 e4 |e4 c4 c4 d4 |e4 c4 f4 d4 |e4 c4 c4 d4 |G8 z4 e4 |
+%W: B2
+% voice 1 (1 lines, 28 notes)
+e4 c4 c4 d4 |e4 c4 f4 d4 |e4 c4 c4 d4 |B8 G4 e4 |e4 c4 c4 d4 |e4 c4 f4 d4 |e4 c4 c4 d4 |G16 ||

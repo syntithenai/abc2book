@@ -1,0 +1,19 @@
+X: 1
+T: Michael Robinson
+C: David A. Kaynor (March 2017)
+%D:2017
+R: jig
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+S: https://www.natunelist.net/michael-robinson/
+M: 6/8
+L: 1/8
+K: Dm
+"A"|:\
+"Dm"fed d2A | d3 def | "C"ecA A2c | "Am"e3 efg |\
+"Dm"fed d2A | d3 def | "C"ecA ABc |1 "Dm"d3 d2"Am"e :|2 "Dm"d3 "A"e^fg |][K:D]
+"B1"[|\
+"D"a2f def | "G"g2B "Em"e2A | "A"cde    e2A | "D"f3 efg |\
+"D"a2f def | "G"g2B  "A"e2A | "G"Bcd "A"d2c | "D"d3 "A"efg |]
+"B2"[|\
+"D"a2f def | "G"g2B "Em"e2A | "A"cde    e2A | "D"fef gab |\
+"D"a2f def | "G"g2B  "A"e2A | "G"Bcd "A"d2c | "D"d3- d3 |]

@@ -1,0 +1,23 @@
+X: 04065
+T: NANCY'S FIDDLE
+C: Bob McQuillen 30 April 79
+B: Bob's Note Book 04 #65
+%R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G	% and Em
+d \
+| gdd edc | Bcd G2g | fga afd | gab b2a |\
+| gdd edc | Bcd G2g | fga afd | g3- g2 :|
+|: B \
+| eBB cBA | BGE EFG | FGA ABA | G2E E2B |\
+| eBB cBA | B2e ede | BcB AGF | E3- E2 :|
+%%begintext align
+%% With love to Nancy Pratt,
+%% Cape Breton Style Fiddler from
+%% Dublin, N.H. and Cape Breton,
+%% N.S. - I remember a _great_
+%% Monday night dance in
+%% Harrisville, Nancy!
+%%endtext

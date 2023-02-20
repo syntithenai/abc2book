@@ -1,0 +1,18 @@
+X: 197
+T: Jambolsko Pajdusko
+O: Bulgaria
+M: 5/8
+L: 1/8
+K: Dm
+Q: 1/4=192
+%%MIDI drum d2d3 45 45 70 70
+%%MIDI drumon
+%%MIDI program 41
+|:Ccccc|cBA2G|G2EF2|FFE3  |\
+  CDEFG|EF4  |F5   |E5    |
+  Ccccc|cBA2G|G2EF2|DEFE2 |\
+  CEEDC|DEFC2|EFEDC|D5    :|
+|:CF3G |A3G2 |EF2E2|DCDEF |EFED2|[1D5   |CDEFG :|D5-|D5|
+|:CF3G |A3G2 |EF2E2|DCDEF |EFED2|[1D3FG :|D5-  |D5  |
+|:G2CDE|FF2F2|EE2E2|CDEF2 |\
+  G2CDE|FF2F2|EFEE2|CDED2 :|

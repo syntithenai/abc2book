@@ -1,0 +1,36 @@
+X: 10932
+T: COTILLION No. 12. tune 5
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.93 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: All 3 strains end with a "D.C."; the meaning isn't obvious.
+N: The 2nd strain has only 7 bars; copy bar 2 to after bar 5 if you want 8 bars.
+N: The flats in the 2nd strain are completely redundant, and may be removed.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+f2f g2a | g2f edc | f2f g2a | g3 gaf |\
+ege dfd | c3 dcB | Acf age | c3- "^D.C."c2 |]
+K: Cm
+G |\
+c2c c2d | _e2d c2d | _e2d c2=B | c3 G2G |\
+c2c c2d | _e2d c2=B | c3- "^D.C."c2 |]
+K: Bb
+F |\
+B3 B2d | f3 f2f | gf=e gfe | gf_e dec |\
+B3 B2d | f3 fba | gfe dec | B2- "^D.C."B2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% 2 ladies back to back,
+%% 2 gentlemen the same,
+%% balance 4,
+%% ladies chain,
+%% promenade 4,
+%% side couples the same.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

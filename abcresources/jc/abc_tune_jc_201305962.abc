@@ -1,0 +1,19 @@
+X: 394
+T: the Maid of Templemore   #2
+R: air, march
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #394
+N: Ornaments (~) are turns over the dot.
+O: F.O'Neill
+Z: Chris Falt, cfalt@trytel.com
+N: Compacted by using labels and play order [JC]
+P: Play AA BCA
+Q: "Moderate."
+M: C
+L: 1/8
+K: C
+%%slurgraces 1
+%%graceslurs 1
+"^A"|: G2 | c2cd e2GA | ~_B3c dBGE | F2EG c2c2 | "^fine"c6 :|
+"^B"[| cd | e2c2 cdef | g3e f2gf | e2dc cBAG | G6 ||
+"^C"|| cd | e3d  cdef | g{ag}f eg f2gf | e2dc cBGF | ~G3A "^->A"_B2 |]

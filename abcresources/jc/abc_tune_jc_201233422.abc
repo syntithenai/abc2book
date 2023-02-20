@@ -1,0 +1,31 @@
+X: 198
+T: Zinzans Maggot
+T: Longways &c.
+%R: minuet
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.99
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: 3/2
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2 f2d2 |\
+a2 f4 b2 a2g2 | f2 d4 g2 bagf |\
+e2d2 c2a2 B2^g2 | a2 A4 :|\
+|: A2 d2A2 | B2 G4 ef gfed |
+c2 A4 a2 bagf |\
+e2d2 c2a2 B2^g2 | a2 A4 A2 d2A2 |\
+B2 G4 ef gfed | c2 A4 a2 bagf |\
+e2d2 c2Bc d2A2 | F4 D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st Man sett to the 2d Wo. and turn her, the
+%% 1st Wo. and 2d Man do the same :| then clap hands with
+%% your Partners and turn, then right and left half
+%% Round, and lead your Partner up to the Top and cast
+%% off, then right and Left quite round . .
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

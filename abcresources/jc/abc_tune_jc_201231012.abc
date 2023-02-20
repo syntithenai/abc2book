@@ -1,0 +1,37 @@
+X: 145
+T: the Good Fellow
+T: Longways for &c.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.73
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: 6/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+E>FG GcE | FDD D2G |\
+cec dBG | ADG E2G |\
+E/F/GA ^FDG | AG^F G2 :|\
+|: B |\
+Bcd GAB | cde A2e |
+fed edc | BA^G A2=G |\
+AcE FGA | AdA B2e |\
+edc BGc | GcB c2G |\
+AFD dBG | AFG C2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st Man take the 2d Wo. by the right hand,
+%% and lead between the 2d Man and 1st Wo. cast of
+%% in their places and turn, the 1st Cu. run the figure
+%% between the 2d, then turn their own 1st Man standing
+%% in his own place, 1st Man and 2d Wo. cross and go
+%% round. the 1st Man round his Wo. in his own place,
+%% & 2d Wo. round her Man into her place, hand half round;
+%% the 2d Cu. cast off; 1st Man cross over with 2d Wo. the 2d
+%% Man cross over with the 1st Wo. then turn your own
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

@@ -1,0 +1,34 @@
+X: 1
+T: Larry Grogan
+P: Longways for as many as will
+%R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.47
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Should the parts be repeated?
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c |\
+BGB BGB | AFA AFA | (B/c/d)B AFD | GGG G2 |]\
+=f3 edc | Bcd dBG |
+=f3 efg | AcA AcA |\
+=f3 edc | Bcd dBG | (B/c/d)B AFD | GGG G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g3 G3 | d3 f3 | g3 d3 | G3 zz  |]\
+A2B c3 | G3 g2B |
+A2B cde | f3 d3 |\
+A2B c2e | g3 B3 | G3 d3 | G3 zzz |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man take his own Wo. and the 2d Wo by their hands and to round 'till
+%% they come into their own Places, the 2d Man standing still, then the 1st Man &
+%% Wo with the 2d Man do the same the 2d Wo standing still, then fall back and turn
+%% then the two Men back to back, and the two We. back to back at the same time,
+%% then the 1st Cu. clap hands and cast off, the two Men clap hands on their side
+%% and the two We. clap hands on the other side; and so on to the next.
+%%endtext

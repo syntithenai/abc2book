@@ -1,0 +1,22 @@
+X: 2061
+T: Forrest    or the Dutchess of Hamilton's Delight
+%R: jig
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.6 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+|:\
+(DED) (TFEF) | d2d def | (DED) TF2G | AFD TE2D ||\
+DED TFEF | d2d d2e | fdTc B>cd |[1 AFD E2D :|[2 AGF EFA |]
+|:\
+B>cB TBAF | A>BA AFA | BcB TBAF | {B}AGF EFA ||\
+B>cB TBAF | AFG ABc |[1 dfe dcB | {B}AGF EFA :|[2 def efd | ABG FGE |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|: d3 d3 | f3 f3 | d3 d3 | a3 A3 || d3 d3 | f3 f3 | d3 g3 |[1 d2d a2z :|[2 d3 a2z |]
+|: g3 g3 | d3 d3 | g3 d3 | a3 A3 || g3 g3 | f3 d3 |[1 d3 d3 | a3 A3 :|[2 d3 d3 | a3 A3 |]

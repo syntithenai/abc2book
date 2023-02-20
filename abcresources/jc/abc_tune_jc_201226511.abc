@@ -1,0 +1,20 @@
+X: 10303
+T: QUICK STEP No. 3.
+C:
+%R: quickstep
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.30 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain has 8.5 bars.  You may "fix" this however you like, or not.
+N: The 2nd staccato and slur in bar 7 are in conflict; not fixed.
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g |\
+g2e cea | g2f def | g2e c>fe | d2d def |\
+gBc ceg | g^fa g=fd | .c(fe) (.da)g | c2c c2 :|
+|: d |\
+e2f g2a | gef gec | d2e f2g | fde fed |\
+e2f g2e | f2g a2f | efg GAB | c2c c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

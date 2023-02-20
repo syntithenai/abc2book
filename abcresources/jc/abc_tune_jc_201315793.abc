@@ -1,0 +1,38 @@
+X: 1
+T:Nancy Lee
+M:C
+L:1/8
+Q:80
+C:Neil Dickie
+S:March
+K:HP
+[| f|
+{g}B4{GdGe}B2{g}c3/2d/2|
+{gef}e2{g}d3/2e/2{gfg}f4|
+{e}f2{g}e3/2f/2{gde}dB{g}c3/2B/2|  !
+{gAGAG}A2{g}c3/2d/2{gef}e2-ef{g}B4{GdGe}B2{g}c3/2d/2|
+{gef}e2{g}d3/2e/2{gfg}f4|
+{e}f2{g}e3/2f/2{gde}dB{g}c3/2{e}A/2|  !
+{GdG}B2{g}((3cB{G}A){GdG}B2-B{g}A|] [|
+{GdG}B2{g}c3/2d/2{gef}e2{g}d3/2e/2|
+{gfg}f2{g}e3/2d/2{gcd}c2{Gdc}d3/2e/2|  !
+{gfg}f2{g}e3/2f/2{gde}dB{g}c3/2B/2|
+{gAGAG}A2{g}c3/2d/2{gef}e2-e{g}A{GdG}B2{g}c3/2d/2{gef}e2{g}d3/2e/2|
+{gfg}f2{g}e3/2d/2{gcd}c2{Gdc}d3/2e/2|  !
+{gfg}f2{g}e3/2f/2{gde}dB{gcd}c{e}A|
+{GdG}B2{g}((3cB{G}A){GdG}B2{g}d3/2e/2|] [|
+{gfg}f2{g}e3/2f/2{gf}g2a3/2g/2|  !
+{fg}fdg3/2f/2{gef}e2{g}d3/2e/2|
+{gfg}f2{g}e3/2f/2{gde}dB{g}c3/2B/2|
+{gAGAG}A2{g}c3/2d/2{gef}e2{g}d3/2e/2{gfg}f2{g}e3/2f/2{gf}g2a3/2g/2|  !
+{fg}fdg3/2f/2{gef}e2{g}d3/2e/2|
+{gfg}f2{g}e3/2f/2{gde}dB{gcd}c{e}A|
+{GdG}B2{g}((3cB{G}A){GdG}B4|] [|  !
+{g}B2{g}((3cd{e}A){GdG}B2-B{e}A|
+{GBG}B2{g}((3B{d}cd){gef}e2{g}d3/2e/2|
+{gfg}f2{g}e3/2f/2{gde}dB{g}c3/2B/2|  !
+{gAGAG}A2{g}c3/2d/2{g}d/2e3/2-e{AGAG}A{g}B2{g}((3cd{e}A){GdG}B2-B{e}A|
+{GBG}B2{g}((3B{d}cd){gef}e2{g}d3/2e/2|
+{gfg}f2{g}e3/2f/2{gde}dB{gcd}c{e}A|  !
+{GdG}B2{g}((3cB{G}A){GdG}B4|]
+

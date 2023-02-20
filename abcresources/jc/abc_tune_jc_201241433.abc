@@ -1,0 +1,26 @@
+X: 4351
+T: The Cabinet
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 2/4
+L: 1/16
+K: F
+%
+V: 1
+|:\
+c2AB c2f2 | d2B2  Tc4 | c2BA B2AG | A2GF G2E2 |\
+c2AB c2f2 | d2B2   c4 | f2ed e2dc | d2c=B c4 :|
+|:\
+g2ef g2a2 | b2ag a2f2 | cdef g2a2 | gfed c4 |\
+c2AB c2f2 | d2cB c2A2 | b2ag a2gf | g2fe f4 |]
+%
+V: 2 clef=bass middle=d
+|: f4a4 | b4a4 | f4e4 | f4c4 | f4a4 | b4a4 | =b4c'4 | g4c4 :|
+|: c4c4 | e4f4 | c4c4 | c4c4 | f4a4 | b4f4 |  e4f4  | c4f4 |]
+%%begintext align
+First Cu. hands round with the 2d Cu. .|
+First Cu. foot it and cast off and turn Partners :|
+Cross round the 2d Cu. into the 2d Cu.s Place .|
+Right and Left quite round.
+%%endtext

@@ -1,0 +1,65 @@
+
+X: 1
+T: Yankee Doodle
+O: 1730
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+N: When sung the parts might not be repeated.
+K: D
+% - - - - - - - - - -
+|: "D"dd  ef |    df "A7"eA |  "D"dd     ef |    d2 "A7"c2 \
+|  "D"dd  ef | "G"gf     ed | "A7"cA     Bc | "D"d2     d2 :|
+|: "G"B>c BA |    Bc     d2 |  "D"A>B    AG |    F2     A2 \
+|  "G"B>c BA |    Bc     dB |  "D"Ad "A7"ce | "D"d2     d2 :|
+% - - - - - - - - - -
+%%begintext align
+%% Originated in England as a song mocking Americans,
+%% who adopted it as a military march to taunt the British soldiers during the Revolution.
+%% Some versions of the tune are much older than the Revolutionary era song.
+%% The parts are often repeated in instrumental versions, but usually not for the song.
+%% It's also in some old collections in jig time, often as Kitty Fisher's Jig.
+%%endtext
+
+%%sep 2 1 500
+
+X: 1
+T: Yanky Doodle variations
+%N: parts numbered in the original
+N: Meter was 4/4; note values halved here to match current practice.
+O: Aird 1778
+Z: Jack Campin, July 1999 (Chords by John Chambers)
+B: Aird vol. 1, Glasgow, 1778
+M: 2/4
+L: 1/16
+K: D
+"1"|: z2 |\
+   "D"d2d2 e2f2 | d2d2 "A7"e2c2 | "D"d2d2 e2f2 | d4 "A7"c4 |\
+   "D"d2d2 e2f2 | d2d2 "A7"e2c2 | A2A2 B2c2 | "D"d4 d2 :|
+|: z2 |\
+   "G"d4 B2G2 | B2G2 B4 | "C"=c4 A2G2 | "D7"F2G2 A4 |\
+   "G"d4 B2G2 | B2G2 "Am"=c4 | "A7"A2B2 ^c2A2 | "D"d4 d2 :|
+"2"|: z2 |\
+   "D"d2f2 "A7"e2g2 | "D"f2d2 "A7"e2c2 | "D"d2f2 "A7"e2g2 | "D"f4 "(A7)"e2d2 |\
+   "D"d2f2 "A7"e2g2 | "D"f2d2 "A7"e2c2 | "A7"A2A2 B2c2 | "D"d4 d2 :|
+|: z2 |\
+   "G"d4 B2G2 | B2d2 =c2B2 | "D7"A2B2 A2G2 | F2G2 A2B2 |\
+   "Am"=c2d2 c2A2 | "G"B2d2 "Am"=c2A2 | "A7"A2B2 ^c2A2 | "D"d4 d2 :|
+"3"|: g2 |\
+   "D"f2d2 "A7"e2c2 | "G"d2B2 "A7"A2g2 | "D"f2d2 e2f2 | "G"B4 "A7"A2g2 |\
+   "D"f2d2 "A"e2c2 | "G"d2B2 "D"A2F2 | "A7"A4 B2c2 | "D"d4 d2 :|
+|: G2 |\
+   "D"F2A2 A2d2 | "G"B2A2 "A7"A2G2 | "D"F2A2 A2d2 | "G"B4 "A7"A2G2 |\
+   "D"F2A2 A2d2 | "G"B2A2 "D"A2F2 | "A7"A4 B2c2 | "D"d4 d2 :|
+"4"|: z2 |\
+   "D"f2a2 "A7"e2g2 | "D"f2d2 "A7"e2c2 | "D"f2a2 "A7"e2g2 | "D"f4 "(A7)"e2d2 |\
+   "D"f2a2 "A7"e2g2 | "D"f2d2 "A7"e2c2 | "A7"A2A2 B2c2 | "D"d4 d2 :|
+|: z2 |\
+   "D"(dcde) d2A2 | "G"B2A2 "D"A2F2 | "D"(dcde) d2A2 | "G"B4 "A7"A4 |\
+   "D"(dcde) d2A2 | "G"B2A2 "D"A2F2 | "A7"A4 B2c2 | "D"d4 d2 :|
+"5"|: z2 |\
+   "D"a4 a2f2 | "Em"g2f2 "A7"e2d2 | "D"a4 a2g2 | f4 "A7"e4 |\
+   "D"a4 a2f2 | "Em"g2f2 e2f2 | "A7"A4 B2c2 | "D"d4 d2 :|
+|: z2 |\
+   "G"(BABc) B2d2 | "D"(AGAB) A2d2 | "G"(BABc) B2d2 | "D"B2A2 G2F2 |\
+   "G"(BABc) B2d2 | "D"(AGAB) A2d2 | "A7"A4 B2c2 | "D"d4 d2 :|

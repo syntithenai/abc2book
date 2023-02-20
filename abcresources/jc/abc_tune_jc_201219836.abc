@@ -1,0 +1,58 @@
+X: 02
+T: SHINE ON HARVEST MOON
+C: Jack Norworth
+C: Nora Bayes
+O: Arr. by Will D. Moyer
+Z: 2013 John Chambers
+U: P=!crescendo(!
+U: p=!crescendo)!
+M: C
+L: 1/8
+P: Moderato
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 4/8-line and staff breaks:
+V: 1
+!mf!y|: {B,^C^D}"Em"E2 B2 "A9"(3(B_BA) G>E | "B7"G4 F2 B2 :|\
+!p!"Em"B>^AB>A "B7"B>AB>A | "Em"B2GE- "Am"E2EF |\
+"Em"(G2B2 "C7"G2E2) | "B7"B8 |
+"Em"B>^AB>A "B7"B>AB>A | "Em"B2GE- "A7"E2B2 |\
+"D"A4- "A7"A2B2 | "D7"A4- A2z2 |\
+"D7"c>Bc>B c>Bc>B | "D7"(c2A2 E2F2) |
+"G"G4- G>DG>B | "G"d8 |\
+"A7"A>B^c>A "D"B4 | "A7"A>B^c>A "D"B2- "B7"B2 |\
+"Em"B>^AB>^B "A7"^c>Bc>A | "Ddim"d4- "D7"d2 ||
+"^CHORUS"\
+"_p-mf"B2 |:\
+"E7"c4 B4 | c2B2 ^G2E2 |\
+"A7"^C4- C>^B,C>B | A4- A2z2 |\
+"D7"B4- B2A2 | B2Ad- dBA2 |
+"G"G>E "D7"Dz "Ddim"G>E"G"D>E | "C"G>E"G"D>G- "Gdim"G2"G"z2 |\
+"E7"c4 B4 | c2B2 ^G2E2 |\
+"A7"^C4 C>^B,C>=B | A4- A2A2 |
+"D7"B4 A4 | B3A d2B2 | "G"G3D "C"EDE2 |\
+[1 "G"G6 PB2p :|[2 "G"G4 [g2B2]z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks:
+V: 2
+|: ("Em"B,2G2 "A9"G2^C2) | "B7"B,4 ^D4 :|\
+"Em"G2G2 "B7"^D2D2 |
+"Em"E2B,2 "Am"C2C2 |\
+"Em"(E2G2 "C7"E2_B,2) | "B7"[^D8A,8] |\
+"Em"(G2G2 "B7"^D2D2) | "Em"(E2B,2 "A7"^C4) |
+"D"(F2[F2C2] "A7"[G4^C4]) | "D7"([D2=C2]^D2 E2=F2) |\
+"D7"^F2=F2 E2_E2 | "D7"[A2D2]C2 C2C2 |\
+"G"B,>DE>G B,4 |
+"G"z2G2 A2B2 |\
+"A7"(^C2G2 "D"F4) | "A7"(^C2G2 "D"F2-"B7"F2) |\
+"Em"G>GG>G "A7"G4 | "Ddim"(F2^G2 "D7"A2) ||
+D2 |:\
+"E7"^G4 G4 | ^G2G2 D4 |\
+"A7"G4- G2G2 | [G4-^C4-] [G2C2][G2C2] |
+"D7"[F4=C4] [D4C4] | C2DF- FDC2 |\
+"G"B,2"D7"C2 "Ddim"^C2"G"DE | "C"E2"G"D2 "Gdim"^C2"G"D2 |
+"E7"^G4 G4 | ^G2G2 D4 |\
+"A7"=G4 G2G2 | [G4-^C4-] [G2C2][G2C2] |
+"D7"[F4=C4] [D4C4] | F3C F2D2 |\
+"G"B,3B, "C"G,2C2 |[1 "G"B,6 PD2p :|[2 "G"B,4 d2z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

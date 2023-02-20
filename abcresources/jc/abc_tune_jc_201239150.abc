@@ -1,0 +1,26 @@
+X: 321
+T: Brose and Butter
+R: slip-jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.32 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+cde AcA AcA | cde AcA TB2G |\
+cde AcA ABc | TB2G Gge dBG :|
+|:\
+cde ege ege | cde ege dBG |\
+cde ege e^fg | T^f2d dge dBG :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+a3 a3 a3 | a3 a3 g3 |\
+a3 a3 a3 | g3 g3 g3 :|\
+|:\
+c3 c3 c3 | c3 c3 g3 |\
+c3 c3 c3 | d3 d3 g3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

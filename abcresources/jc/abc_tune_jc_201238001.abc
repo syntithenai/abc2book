@@ -1,0 +1,70 @@
+X: 30071
+T: RENODINE  OLD SONG. No. 1.
+C:
+%R: air, song
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.7 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(gf) |\
+e2 e2 c2 (BA) | B3 G E2G2 | A2 A2 G2F2 | G4 z2 :| G2 |\
+G2 d2 d2 (ef) | g3 a f3 d2 | e3 f (ed) (Bd) | e4 "^D.C."z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+T: No. 2.
+M: 4/4
+L: 1/8
+K: G
+|: G>B |\
+d2 d>c B>A B>d | (ef) (ge) (ed) c2 | B2 E2 B2 A2 | G4 z :| g |\
+f2 f>g a2 g>f | (ed) (ef) g2 (ef) | g2 f2 e2 d2 | e4 g3 e |\
+d2 (dc) (BA) (Bd) | (ef) (ge) (ed) c2 | B2 E2 B2 A2 | G4 z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+T: No. 3.
+L: 1/8
+K: Gm
+|: (Bc) |\
+d3 d c2 (BA) | G3 A (BA) (BG) | (FE) .D.C B,2 C2 | (D<G) G>^F G2 :| G2 |\
+.F2 .D2 .D2 .A2 | B3 c A2 G2 | c2 =B2 c2 d2 | =e2 c2 d3 c |\
+de ^f2 g3 =f | e2 (de) =f3 G | G3 F (DC) (D^F) | G2 G>^F G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+T: No. 4.
+M: 3/4
+L: 1/8
+K: Am
+|: E2 |\
+A2 {c}B2 A^G | A2 E2 E2 | A2 B2 cB | A4 :: (cd) |\
+e2 e3 (d/c/) | B2 d3 G | A2 A2 (AB) | (AG) E3 (c/d/) |\
+e2 B2 (cA) | G2 E2 (^CD) | E2 c2 {c}B2 | A4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+T: No. 5.
+M: 3/4
+L: 1/8
+K: Gm
+(fe)|\
+d3 c ( dB) | G2 G2 (BA) | GF D2 ^F2 | G4 |: !f!^F>F |\
+G2 B2 c2 | d2 Hg2 (fe) | d2c2 (de) | !f!f4 :| g2 |\
+d3 c (dB) | G2 G2 (BA) | GF D2 ^F2 | "^D.C."G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+T: No. 6.
+M: 4/4
+L: 1/8
+K: Am
+|: A2 |\
+A2 E2 E2 B2 | c3 d B2 B2 | A3B (cB) (A^G) | A4 z2 :| (cd) |\
+e2 c2 c2 g2 | (e4 d3) B | c3 d e3 A | (A2 G4) A2 |\
+E3 F D2 E2 | C4 B,2 A,2 | A3 B cB (A^G) | A4 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+T: No. 7.
+M: 3/4
+L: 1/8
+K: G
+|: (Bc) |\
+d2 d2 (dc) | B2 d2 d2 | G2 G2 G2 | A2 G2 F2 |\
+G2 G2 G2 | A2 G2 A2 | B4 :| (Bc) |\
+d2 d2 d2 | d4 .d.d | e2 d2 (dc) | B4 (cd) |\
+e2 d2 (dc) | B2 A2 D2 | G3 A (BG) | A4 (cd) |\
+e2 d2 GG | c2 B2 A2 | G4 |]

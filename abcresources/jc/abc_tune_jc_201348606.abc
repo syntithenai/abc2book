@@ -1,0 +1,39 @@
+X: 1
+T: Valiant Jockey
+P: Longways for as many as will
+%R: minuet
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.125 #186 (250)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.172
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: In CCDM1, the d in bar 3 is e; the d in DMDfD seems to fit the tune's style better.
+M: 3/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+d2 A2 (dA) | B2 (AF) (ED) | d2 (fd) (af) | e2 (dc) A2 | (BG) (Bd) (ce) | f2 (ed) A2 |
+(FA) (BA) (dA) | F2 (ED) D2 |][| f2 fg/a/ (fd) | (ec) (c/d/e) (cA) | (dB) (^Ge) (AB) |
+B4 A2 | (B/c/)d (AF) (Ad) | (f/g/)a (B/c/d) c2 | (dA) (FD) d>e | e4 d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. cast off below the 2d Cu. and go the Figure of 8, 'till they come
+%% to their own Places, then 2d Cu. cast up and go the Figure 'till they come
+%% into their own Places, then the two Men take Hands and lead through, and
+%% then go about their own Partners into their own Places, then the 1st Cu.
+%% take Hands and lead through below the 2d Cu. and cast up again, then the
+%% two We. lead through between the two Men, then the 1st Cu. cast off below
+%% the 2d Cu. and lead up through, and cast off again.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% The 1. cu. cast off below the 2. cu. and go the Figure of 8. till they come to their own places, then 2. cu.
+%% cast up, and go the Figure till they come into their own places, then the two men take hands and lead
+%% through, and then go about their own Partners into their own places; Then the 1. cu. take hands and
+%% lead through below the 2. cu. and cast up again, then the two we. lead through between the two men,
+%% then the 1. cu. cast off below the 2. cu. and lead up through, and cast off again.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

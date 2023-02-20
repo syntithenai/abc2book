@@ -1,0 +1,33 @@
+X: 361
+T: LADY DALRYMPLE. (North Berwick.)
+C: R. MACKINTOSH
+R: Strathspey
+B: Glen Collection p.36 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Gm
+%
+V: 1
+d2 |\
+BG3 G3F DG3 G3B | AF3 cF3 dF3 A3c | BG3 G3F D(G3 G3A) | B3A B3c d(g3 g3a) |
+bg3 a3^f gd3 =fc3 | edcB f2B2 AF3 c3d | BG3 G3F DG3 G3A | BABc dcBA B2G2G2 ||
+B2 |\
+Bg3 g3^f/g/ Gg3 Bg3 | Ff3 df3 cf3 AF3 | Gg3 g3^f/g/ Bg3 dg3 | ba3 g3^f ggg2 g3a |
+bg3 fd3 ge3 fB3 | ec3 dG3 ^Fd3 D3c | BG3 G3F DG3 G3g | fedc dcBA B2G2G2 |]
+%
+V: 2
+z2 |\
+G4[b4g4] [b4g4][b4g4] | f4[c'4a4] c4[a4f4] |\
+G4[b4g4] [b4g4][b4g4] | G4[d'4b4g4] [d'4b4g4][d'4b4g4] |
+d4[c'4a4] [d'4b4][c'4a4] | B4[d'4b4] f4[c'4a4] |\
+g4[d'4b4] g4[d'4b4] | d4[^f4d4] [g4G4][g2G2] ||
+z2 |\
+[d'4b4g4][d'4b4g4] [d'4b4]d4 | f4[a4f4] [a4f4][c'4a4] |\
+[d'4b4g4][d'4b4g4] [d'4b4g4][d'4b4g4] | [d'4b4g4][c'4a4d4] [b4g4][b4g4] |
+g4[d'4b4] [c'4a4][d'4b4] | [c'4a4][d'4b4] [d'4a4d4][^f4d4] |\
+G4[g4d4] B4[b4g4] | d4[^f4d4] [g4G4][g2d2B2G2] |]
+

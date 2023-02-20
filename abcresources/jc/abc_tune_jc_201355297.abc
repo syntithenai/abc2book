@@ -1,0 +1,47 @@
+X:1
+T: Zephyrs and Flora
+N:7 February 2000
+C:
+S:
+A:
+O:
+R:
+M:2/2
+K:G
+I:speed 232
+%W: A (Majore)
+% voice 1 (1 lines, 29 notes)
+K:G
+M:2/2
+L:1/16
+d4 ||B4 |G4 |B4 |d4 |g12 |a4 |b4 |g4 |a4 |f4 |g2 f2 |g2 a2 |g4 |d4 |B4 |G4 |B4 |d4 |g12 |a4 |b4 |g4 |a4 |f4 |g12 |d4 |
+z4 ||d4 |B4 |d4 |g4 |B12 |c4 |d4 |B4 |d4 |A4 |B2 A2 |B2 c2 |B4 |G4 |d4 |B4 |d4 |g4 |B12 |c4 |d4 |B4 |d4 |A4 |B12 |g4 |
+%W:
+% voice 1 (1 lines, 28 notes)
+B4 |G4 |B4 |d4 |g12 |a4 |b4 |g4 |a4 |f4 |g2 f2 |g2 a2 |g4 |d4 |B4 |G4 |B4 |d4 |g12 |a4 |b4 |g4 |a4 |f4 |g12 |d4 |
+d4 |B4 |d4 |g4 |B12 |c4 |d4 |B4 |d4 |A4 |B2 A2 |B2 c2 |B4 |G4 |d4 |B4 |d4 |g4 |B12 |c4 |d4 |B4 |d4 |A4 |B12 |g4 |
+%W: B
+% voice 1 (1 lines, 44 notes)
+B2 c2 |B2 c2 |d2 c2 |d2 e2 |B4 |G4 |G4 |G4 |c2 d2 |c2 d2 |e2 d2 |e2 =f2 |c4 |A4 |A4 |A4 |f2 g2 |f2 g2 |a2 g2 |a2 b2 |g4 |d4 |d4 |c4 |B2 A2 |G2 B2 |A4 |F4 |G12 |d4 |
+g2 a2 |g2 a2 |b2 a2 |b2 c'2 |d4 |B4 |G4 |B4 |e2 =f2 |e2 f2 |g2 f2 |g2 a2 |e4 |c4 |A4 |c4 |d2 e2 |d2 e2 |f2 e2 |f2 g2 |b4 |g4 |d4 |f4 |d2 c2 |B2 d2 |d4 |A4 |B12 |g4 |
+%W:
+% voice 1 (1 lines, 43 notes)
+B2 c2 |B2 c2 |d2 c2 |d2 e2 |B4 |G4 |G4 |G4 |c2 d2 |c2 d2 |e2 d2 |e2 =f2 |c4 |A4 |A4 |A4 |f2 g2 |f2 g2 |a2 g2 |a2 b2 |g4 |d4 |d4 |c4 |B2 A2 |G2 B2 |A4 |F4 |G12 |||
+g2 a2 |g2 a2 |b2 a2 |b2 c'2 |d4 |B4 |G4 |B4 |e2 =f2 |e2 f2 |g2 f2 |g2 a2 |e4 |c4 |A4 |c4 |d2 e2 |d2 e2 |f2 e2 |f2 g2 |b4 |g4 |d4 |f4 |d2 c2 |B2 d2 |d4 |A4 |B12 |||
+%W:  (Minore)
+% voice 1 (1 lines, 29 notes)
+K:Gm
+d4 ||B4 |G4 |B4 |d4 |g12 |a4 |b4 |g4 |a4 |^f4 |g2 ^f2 |g2 a2 |g4 |d4 |B4 |G4 |B4 |d4 |g12 |a4 |b4 |g4 |a4 |^f4 |g12 |d4 |
+B4 ||G4 |B4 |G4 |B4 |d12 |e4 |d4 |B4 |d4 |A4 |B2 A2 |B2 c2 |d4 |B4 |d4 |B4 |d4 |B4 |d12 |e4 |d4 |B4 |d4 |A4 |B12 |G4 |
+%W:
+% voice 1 (1 lines, 28 notes)
+B4 |G4 |B4 |d4 |g12 |a4 |b4 |g4 |a4 |^f4 |g2 ^f2 |g2 a2 |g4 |d4 |B4 |G4 |B4 |d4 |g12 |a4 |b4 |g4 |a4 |^f4 |g12 |d4 |
+G4 |B4 |G4 |B4 |d12 |e4 |d4 |B4 |d4 |A4 |B2 A2 |B2 c2 |d4 |B4 |d4 |B4 |d4 |B4 |d12 |e4 |d4 |B4 |d4 |A4 |B12 |G4 |
+%W: B
+% voice 1 (1 lines, 44 notes)
+B2 c2 |B2 c2 |d2 c2 |d2 e2 |B4 |G4 |G4 |G4 |c2 d2 |c2 d2 |e2 d2 |e2 f2 |c4 |A4 |A4 |A4 |f2 g2 |f2 g2 |a2 g2 |a2 b2 |g4 |d4 |d4 |c4 |B2 A2 |G2 B2 |A4 |^F4 |G12 |d4 |
+g2 a2 |g2 a2 |b2 a2 |b2 c'2 |d4 |B4 |d4 |B4 |e2 f2 |e2 f2 |g2 f2 |g2 a2 |a4 |f4 |c4 |F4 |d2 e2 |d2 e2 |f2 e2 |f2 g2 |B4 |g4 |a4 |f4 |d2 c2 |B2 d2 |d4 |A4 |B12 |B4 |
+%W:
+% voice 1 (1 lines, 43 notes)
+B2 c2 |B2 c2 |d2 c2 |d2 e2 |B4 |G4 |G4 |G4 |c2 d2 |c2 d2 |e2 d2 |e2 f2 |c4 |A4 |A4 |A4 |f2 g2 |f2 g2 |a2 g2 |a2 b2 |g4 |d4 |d4 |c4 |B2 A2 |G2 B2 |A4 |^F4 |G12 |||
+g2 a2 |g2 a2 |b2 a2 |b2 c'2 |d4 |B4 |d4 |B4 |e2 f2 |e2 f2 |g2 f2 |g2 a2 |a4 |f4 |c4 |F4 |d2 e2 |d2 e2 |f2 e2 |f2 g2 |B4 |g4 |a4 |f4 |d2 c2 |B2 d2 |d4 |A4 |B12 |||

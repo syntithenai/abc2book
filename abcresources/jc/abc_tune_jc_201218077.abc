@@ -1,0 +1,13 @@
+X:3
+T:Yankee Doodle (Old)
+M:2/4
+Q:1/4=100
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d2 ef|df ec|d2 ef|d2 c2|d2 ef|gfed|cA Bc|d2 d2::
+d2 BG|Bd =c2|A>B AG|FG A2|d2 BG|Bd =c2|AB cA|d2 d2:|

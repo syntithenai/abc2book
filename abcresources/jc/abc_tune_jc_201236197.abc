@@ -1,0 +1,19 @@
+X: 21772
+T: KITTY OF COLERAINE.
+O: Irish air.
+Q: "Moderate."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.177 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+Add dfa | (e>f)(e/d/) dcA | Add dfa | {a}g{f}e{d}c d2A |\
+Add dfa | e>fd dcA | dfa dgb | A>Bc d2 |]
+a |\
+afd ecA | afd ecA | aec Bdf | cdB A2(A/G/) |\
+FAd dfa | e>f(e/d/) dcA | dfa dgHb | A>Bc d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

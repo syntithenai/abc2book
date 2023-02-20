@@ -1,0 +1,25 @@
+X: 307
+T: Sev Acherov Aghcheek
+O: Armenia
+Z: Debra Jones VIFD I
+F: http://www.youtube.com/watch?v=TmVQU6vl1u8
+F: http://www.youtube.com/watch?v=AjlXcv5Kx8M
+F: http://www.youtube.com/watch?v=F92JbBIfDOo
+F: http://www.youtube.com/watch?v=YtLrDgocFgs
+M: 4/4
+L: 1/8
+Q: 1/4=144
+K: Em
+%%MIDI program 24
+%%MIDI bassprog 33
+%%MIDI chordprog 25
+"Em" B2 B2 "B7" B2 B2| "Dm" dc BA "Am" A4| "D" FG A2 "D#dim" A2 Ac|\
+"Em7" BA GF G4|
+G A/G/ FG "A7"A2 AF|"Em7"G A/G/ FG "A7" A4| "C" GG GB "Am" A2 AF|\
+"B 7" GA F/E/F "Em" E4|"Em" z2 EE "A"z2 A2|"Em" z2 GG "A" z2 A2|
+%%MIDI program 43
+|:"Em" B,2 E2 "B7" E2 ^DC|^DE F2 "Em" E4| "G" GG GB "A" A2 AF|\
+[1 "B7" GA FE "Em" E4:|[2 "Am" B2 AB "B7" B4|
+"E" B2 B2 B2 B2|"Am" dc BA A4|"D" FG A2 A2 Ac|"G"BA GF G4
+|:"Em7" G2 F2 "A7" FG AF|"Em7" F2 FG "A7"{G}A4|"C" G2 GB "Am7" A2 AF|\
+"B7" GA FE "Em" E4:|

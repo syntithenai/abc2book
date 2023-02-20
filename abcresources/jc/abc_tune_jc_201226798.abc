@@ -1,0 +1,26 @@
+X: 10452
+T: THREE CHILDREN SLIDING ON THE ICE
+O: Old English air.
+Q: "Maestoso e lachrymoso."
+%R: air, minuet, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.45 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Eb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"Symphony."F2 |\
+{A}G3F E6 F2 | {A}G3F E6 G2 |\
+A3cB2e2 {c}B2AG | {G}F8 z2G2 |\
+A3cB2e2g2e2 | b2g2e2B2G2B2 |\
+(c3d/e/) G4 TF4 | E8 z2"^Melody."F2 |\
+{A}G3F E6 F2 | {A}G3F E6 G2 |
+A3c {c}B6 AG | {G}F8 z2G2 |\
+A3c {c}B6 G2 | B3G E6 B2 |\
+c3e G4 TF4 | E8 z2"^Symphony."G2 |\
+A3cB2e2g2e2 | b2g2e2B2G2B2 |\
+(c3d/e/) G4 TF4 | E8 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

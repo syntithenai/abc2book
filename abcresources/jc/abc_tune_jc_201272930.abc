@@ -1,0 +1,22 @@
+X:224
+T:Emma's Waltz
+C:Brian Stone
+L:1/8
+M:3/4
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=112
+%%MIDI chordname 7sus 0 5 7 10
+%%MIDI program 50
+%%MIDI chordprog 45
+%%MIDI bassprog 45
+H:For Emma Darby (now Emma Wooders)
+K:D
+P:A
+|: DE | "D"F3A cd | "G"B4AG | "D/F#"FGA2GF | "A"E4DE | "Bm"F2A,2 DF |\
+[1"A/C#"E6 | "G"D3E FG | "A"E4 :|2 "A"E4 DC | "G"D3F Ac | "D"d3 ||
+P:B
+|:A de | "D"f2fe da | "A"e4 "(F#7/A#)"fe | "Bm"d3c de | "F#m"c2A4 |\
+"G"Bd3d2 | "D"Ad3 d2- | "Em"d3c df | "A"e4 fg |
+"Bm"f2a2gf | "A"e4 fe | "G"d3c de | "F#m"c4 A2 |\
+"Em"B2d2ga | "A"e4 fe | "G"d4 d/e/d/c/ | "D"d3 :|

@@ -1,0 +1,14 @@
+%%scale 1.4
+%%barsperstaff 4
+X:1
+T:Up Jumped the Devil
+C:Paul Andry (arrangement)
+M:4/4
+L:1/4
+K:D
+%%staves{RH1}
+V:RH1 clef=treble
+|"D"A A B B|A A B B|A A B B|"A"A A G2
+|A A B B|A A B B|A A B B|"D"A A F2
+|A A B B|A A B B|d d d c|"G"B B B2
+|d d d B|"D"A A A F|"A"A G F E|"D"D4||

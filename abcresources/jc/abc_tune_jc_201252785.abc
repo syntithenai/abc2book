@@ -1,0 +1,40 @@
+X: 1
+T: Bishop of Bangors Jigg
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.92 #138 (184)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.286
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B |\
+efg fge | ^def B2e |\
+dcB cBA | B3 B2 |]\
+B/c/ |\
+dBG cAF | BGE AFD |
+GAB A2G | G3- G2B |\
+ge^c af^d | bge af^d |\
+efg Be^d | e3- e3 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% All four hands half round and turn single, then back again to your
+%% own Places and turn single. the 1st Man change Places with the 2d
+%% Wo. and the 2d Man with the 1st Wo. then right Hand and left 'till
+%% you come into your own Places, then go the half Figure and cast up,
+%% then cross over and turn your Partner, and so forward.
+%% [CDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% All four hands half round and turn single, back again to your own places and turn single; The first
+%% man change places with the second woman, and the second man with the first woman, right-hand and
+%% left till you come into your own places, then go the half Figure and cast up, then cross over and turn
+%% your Partner, so forward.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

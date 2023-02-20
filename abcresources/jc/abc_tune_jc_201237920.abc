@@ -1,0 +1,30 @@
+X: 2
+T: Mr Guthrie of Craigie's Strathspey.
+C: by J. Boick.
+%R: strathspey
+B: "Tom Thumb a Favorite Dance with Three New Strathspeys and a Reel", R.RobertPurdie, ed. p.1 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=118869468
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F |\
+TB>cBF D>B,TB,D | E>F (G/F/).E/.D/ E>CC>A |\
+B>c {Bc}d>c B>FDB, | TE>GF>A B2B :|
+d/e/ |\
+f>ba>b Tg>bf>d | e>dTc>B Tc>dTg2 |\
+f>gfd b>fd>B | d>f (e/d/).c/.B/ Tc2B>d |
+(3(fga) (3(bab) (3(gab) (3(fdB) | (3(gfe) (3(dcB) Tc>B TGA |\
+TB>c {Bc}d>c B>FDB, | E>GF>A B2B |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+B2B2 B2B2 | c2c2 e2e2 |\
+B2B2 B2B2 | e2f2 B2B :| z |\
+B2B2 B2B2 | e2=e2 f2_e2 |
+d2d2 B2B2 | B2B2 f2B2 |\
+B2B2 B2B2 | B2B2 e2e2 |\
+B2B2 B2B2 | e2f2 B2B |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

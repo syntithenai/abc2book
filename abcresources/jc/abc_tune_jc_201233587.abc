@@ -1,0 +1,19 @@
+X: 20011
+T: SUL MARGINE D'UN RIO
+C: Paesillo.
+Q: "Andante."
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.1 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+C2 |\
+F2A>G F2A2 | c3BG2B2 | (Ac)(BG) (GF)(FE) | (G4 F).C.D.E |\
+F2A>G FAdc | (c2c/)(B/A/B/) G2B2 | AcBG F2E2 | G4 F2 |]
+C2 |\
+G4 FEDC | (A4 F2)A2 | B3G AGA{c}B | (A4 G).C.D.E |\
+F2A>G .F(fed) | c3B G3B | Ac ({c}B/A/B/G/) (GF)FE | G4 {FAG}F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

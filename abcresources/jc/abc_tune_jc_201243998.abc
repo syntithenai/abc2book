@@ -1,0 +1,22 @@
+X: 99999
+T: Health, Happiness, Pleasure
+R: song, round
+B: K\"ohler's Violin Repository, v.1, 1885 p.1 ("Musical Treasury")
+F: http://www.archive.org/details/klersviolinrepos01edin
+F: http://www.archive.org/details/klersviolinrepos02rugg
+%%indent 60
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: E
+V: 1
+"1."E3 F E F | G3 E3 || "2."G3 A G A | B3 G3 ||
+w: Health, hap-pi-ness, plea-sure, Peace, joy with-out mea-sure,
+V: 3
+"3."e3 d c d | e3 B3 || "4."B3 [B3B,3] | E3- E3 ||
+w: Good for-tune and trea-sure, All be thine!*
+%
+%%begintext align
+%% This is on the first page of all three "Musical Treasury" sections, after the tune pages.
+%% This 4-part round was transcribed for two "voices" to get the note alignment.
+%%endtext

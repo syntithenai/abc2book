@@ -1,0 +1,15 @@
+X:697
+T:The Star of the County Down
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=120
+M:3/4
+L:1/4
+%%MIDI ratio 3 1
+K:Am
+P:A
+E/G/ | "Am"A2A | "F"A>GA | "C"c2c | "G/B"d2c/d/ | "Am"e>dc | "/"A>GE | "Em"G3- | "G"GcB |
+"Am"A2A | "F"A>GA | "C"c2c | "G/B"d2c/d/ | "Am"e>dc | "Dm"A2A | "Am"A3- | A2e |
+P:B
+"C"g2e | "/"e>dc | "G"d2d | "/"d2c/d/ | "Am"e>dc | "/"A>GE | "Em"G3- | "G"GcB |
+"Am"A2A | "F"A>GA | "C"c2c | "G/B"d2c/d/ | "Am"e>dc | "Dm"A2A | "Am"A3- | "/"A2 |]

@@ -1,0 +1,26 @@
+X:1
+T: Christmas at Zeist
+N:
+C:Tune is "Sandy's Waltz" by Bob McQuillen
+S: Play  3  times
+A:
+O:
+R:
+M:3/4
+K:G
+I:speed 150
+%W: A
+% voice 1 (1 lines, 30 notes)
+K:G
+M:3/4
+L:1/16
+B2 c2 |d4 B4 G2 A2 |B4 d4 B2 A2 |G4 E4 E2 D2 |E4 G6 E2 |D4 G4 B4 |d4 B4 B2 A2 |G4 E6 G2 |A8 B2 c2 |
+%W:
+% voice 1 (1 lines, 36 notes)
+d4 B4 G2 A2 |B4 d2 c2 B2 A2 |G4 E4 E2 D2 |E2 G2 A2 G2 F2 E2 |D2 E2 G4 G2 B2 |d2 B2 A4 A2 B2 |A2 G2 E4 G4 |G8 G2 F2 |
+%W: B
+% voice 1 (1 lines, 28 notes)
+E4 G4 B2 e2 |d2 B2 A4 B2 A2 |G4 E6 D2 |E8 G2 A2 |B4 e4 g4 |f4 b4 b2 a2 |g4 e6 d2 |e8 g2 a2 |
+%W:
+% voice 1 (1 lines, 29 notes)
+b4 g4 g2 e2 |d4 B2 d2 B2 d2 |e2 d2 B4 G4 |A8 G2 A2 |B4 e4 g2 e2 |d2 B2 A4 B2 A2 |G4 E6 D2 |E8 ||

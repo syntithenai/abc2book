@@ -1,0 +1,23 @@
+X: 652
+T: Drown Drouth
+R: slip-jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.65 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Dropped dot on last bass note to fix the rhythm on repeats.
+M: 9/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F |\
+(D/E/F)D BFE TD2B, | (D/E/F)D ECC C2F |\
+(D/E/F)D Bcd TD2B, | (D/E/F)C DB,B, B,2 :|
+|: F |\
+BcB fdg fdB | TA2F (A/B/c)c c2d |\
+Bcd fga bag | fbd Tc2B B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z | B3 B3 B3 | B3 c3 c3 | B3 B3 B3 | f3 F3 B2 :|\
+|: z | b3 b3 b3 | f3 f3 f3 | B3 B3 B3 | f3 F3 B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

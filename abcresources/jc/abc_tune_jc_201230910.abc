@@ -1,0 +1,21 @@
+X: 14321
+T: Twas within a Furlong to Edinburgh
+T: Twas within a Furlong of Edinburgh Town
+%R: air, reel
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.4 p.32 #1
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Added beam to the quarter-notes F4 G4 in bar 28, to fix the rhythm (as in bar 12 and other similar bars).
+N: (Not reformatted, since that doesn't save any staves in this tune. The original is quite compact.)
+M: C
+L: 1/16
+K: Gm
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"D4 |\
+G2A2B2c2 {Bc}d4(c2B2) | c2A2 (Bcd2) G6A2 | (B2c2)(d2e2) {de}f4(e2d2) | c2B2f2d2 B4(d2e2) | (f2=e2)(f2g2) f4(_e2d2) | (e2d2)(c2B2) c4(B2c2) |
+d2B2c2A2 B2G2A2G2 | ^F2D2F2A2 d4 :: (d2e2) | f6g2 (g2f2)(e2d2) | (e2d2)(c2B2) c6A2 | (B2A2)(B2c2) d4(c2B2) | A2G2^F2G2 A6{AB}c2 | B2A2B2G2
+c6d2 | e2d2g2=e2 T^f6 (ed) | g2(d2e2)(c2 d2)(B2c2)(A2 | B2)G2D2^F2 G4 :: D4 | (G2B2)(d2g2) (^f2g2)(a2b2) | (.a.g.f.e .d.c.B.A) G6A2 | (B2d2)(f2b2)
+(agf4)g2 | (fdB2) (ecA2) B4 (d3e) | f4 {e}d3g {g}f4 {e}d3f | (g2f2)(e2d2) c6 (Bc) | d2(Bd) (c2Ac) (B2GB) (A2=EG) | (^F2D2F2)A2 d4 :: (d2e2) |
+f4 (gabg) {g}f6 e2 | d2(cd) (bgfd) {d}c6 (BA) | (B2A2)(c2B2) (d2c2)(e2d2) | (cBAG) ^F2G2 {G}A6{AB}c2 | (BAGB) (cA)A2
+(dB)B2 (ec)c2 | d2b2 (ag^fg) {g}^f6(ed) | (gd)d2 (ec)c2 (dB)B2 (cA)A2 | (dBAG) D2^F2 G4 :|

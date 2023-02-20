@@ -1,0 +1,19 @@
+X: 30774
+T: QUICKSTEP No. 2
+C:
+%R: jig, quickstep
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.77 #4
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Initial rest added to strain 2, to fix the rhythm.
+M: 6/8
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+(cA).A (eA).A | cBA GAB | (cA).A (eA).A | dcB A2 a |\
+(cA).A (eA).A | cBA GAB | A2a e2c | dcB A2 :|
+|: z |\
+G2g gfg | dBd GAB | A2a aga | gfg e2f |\
+gag gfg | dBd GAB | [a2A2][aA] e2c | dcB A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

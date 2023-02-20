@@ -1,0 +1,24 @@
+X:1009
+%%annotationfont Times 16
+T:Waltz For Tracy
+C:Joe Buchanan's Scottish Tome - Page 599.0
+I:599 0
+Z:Carl Allison
+R:Waltz
+L:1/4
+M:3/4
+K:G
+D |S "G"G2 A | "D7" A>B c | "G"d3 | "C"e2 g | "D7"f2 e | "G"d3- | "E7"d3 |
+"Am"c2 e | "D"d2 c | "B7"B2 A | "A7"A2 g | "A7"f2 e | "D7"d3 | "D7"c B A |
+"G"G2 B | "D"A>B c | "G"d3 | "G7"G3 | "C"e2 G | "D7"f2 e | "G"d3- | "E7"d3 |
+"Am"c2 e | "D7"d2 c | "G"B2d | "Em"g3 | "Am"A d>c | "D7"B2 A | "G"G3- | "G"G3 !fine!|]
+"Am"A/B/ c d | "D7"e2 f | "G"g3 | "G"d3 | "Am"c>B c/e/ | "D7"d2 c | "G"B3 | "E7"B3 |
+"Am"A/B/ c d | "D7"e>(d e/f/) | "G"g3 | "Gm"d2 e | "D"(f a f) | "A7"(e a e) | "D"(d f e) | "D7"d c A |
+"G"G2 B | "D7"A>B c | "G"d3 | "G7"G3 | "C"e2 g | "D7"f2 e | "G"d3- | "E7"d3 |
+"Am"c2 e | "D7"d2 c | "G"B2 d | "Em"g3 | "Am"A d>c | "D7"B2 A | "G"G3 | "G7"G F =F |]
+[K:C]"C"E3 | "G7"G3 | "C7"c d e | "F"d c A | "C"G3 | "G7"F2 G | "C"E3- | "E7"E3 |
+"Am" A3 | "D7"c2 A | "G"B d B | "Em"G A B | "Am"A c A | "D7"^F G A | "G"G B A | "G7"G =G F |
+"C"E3 | "G7"G3 | "C7"c d e | "F"d c A | "C"c3 | "G7"B c d | "Gm"e3- | e2 "A7"E |
+"Dm"F3 | "G7"G2 F | "C"E G c | "Am"e c A | "D7"c2 A | "G7"B c d |1 "C"c3 | "G7"c3 !D.S.!H:|2"C"c3 | "D7"d3 !fine!|]
+%
+W:Errata: Left out some annotation that caused pdf problems. Refer to scan 599.

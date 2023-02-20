@@ -1,0 +1,45 @@
+X:1
+T:Fox Chase [3]
+M:C
+L:1/8
+S:O’Neill – Music of Ireland (1903), No. 1850
+Z:AK/Fiddler’s Companion
+K:G
+DE | G2 GB d2d2 | dedB d3z | G2 GB edBG | A4 G2 (3def |
+g2 fe f2 ed | edBG A2 GE | GABG A^GAB | G4 G2 :|
+|| DE | G2 GA B2B2 | c2c2B2B2 | c2c2B2 BG | A4 G2 (def |
+g3a gfed | edBG A2 GE | GABG A^GAB | G4 G2 z2 ||
+G2 GB d2g2 | e2g2d2g2 | G2 GB dedB | A4 G2 (3def | gfga gfed |
+E2 dB A2 GE | GABG A^GAB | G4 G2 z2 || DEGA BGGG |
+AGGG BGGG | AGBG cGBG | A4 G2 (3def | g2 ba gfed | edBG A2 GE |
+GABG A^GAB | G4 G2 z2 || A3 ^G/A/ A3 G/A/ | A3 G/A/ A3 A/G/ |
+d3 ^c/d/ d3 c/d/ | d3 ^c/d/ d3c/d/ | F/E/ F3 F/E/F3 | F/E/F3 F/E/F3 |
+F/D/E/D/ F/D/E/D/ F/D/D/D/ F/D/E/D/ | F/D/d/D/ F/D/E/D/ F/D/E/D/ F/D/G/D/ |
+f/d/e/d/ f/d/e/d f/d/e/d/ f/d/e/d/ | f/d/g/d/ f/d/e/d/ f/d/g/d/ f/d/e/d/ |
+g/d/g/d/ f/d/f/d/ g/d/g/d/ f/d/f/d/ | .g.g.gz .f.f.fz | .e.e.ez .f.f.fz | A3 ^G/A/ A3 G/A/ |
+A3 ^G/A/ A3G/A/ | d3^c/d/ d3c/d/ | d3 ^c/d/ d3 (A/B/c/ ||
+M:3/4
+L:1/8
+d2F2A2 | d4 fe | d2F2A2 | {d}=c4 BA | B2F2A2 | G2 dc BA | B2F2A2 |
+B4A2 | F2d2d2 | F2 dc BA | BdcBAG | F4 FE | D2F2A2 | B4 ed | c2A2c2 | d4 ||
+fe | f2f2 af | f2e2d2 | f2dB2 | B4A2 | f2f2af | f2e2d2 | dc de fd | e4A2 | A2F2F2 |
+F2 dc BA | BdcBAG | F4 FE | D2F2A2 | B4 ed | c2A2c2 | d4 ||
+M:C
+L:1/8
+D2 | GABc d2d2 | dedB d2 BA | GABc dedB A2 G2 || (3def | g2g2 f2 ed |
+G2B2 A2 GE | GABG A^GAB | G4 G2 z2 ||
+M:6/8
+L:1/8
+|: DEF DEF | DEF DEF | DEF DEF DEF DEF :|
+M:C
+L:1/8
+|: DEFE DEFE | DEFE DEFE | DEFE DEFE | DEFE DEFE :|
+GABc d2d2 | dedB d2 BA | GABc dedB | A4 G2 || (3def |
+g2g2f2ed | g2B2A2 GE | GABG A^GAB | G4 G2 z2 ||
+M:9/8
+L:1/8
+|: FGF F2D G2E | FGF F2D E2D | FGF F2D G2B | AFD D2F E2D :|
+|: BcB BAG FGA | B2E E2F G2B | ABc dcB ABc | d2D D2F E2D :|
+|: fgf f2d g2e | fgf f2d e2d | fgf f2d g2b | afd d2f e2d :|
+|: gfe dcB AGF | B2E E2F G2B | ABc dcB ABc | d2D D2F E2D :|
+

@@ -1,0 +1,36 @@
+X: 1086
+T: the Honest Yorkshire Man
+P: Longways for as many as will
+R: reel+jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+BA |\
+B2BB B2B2 | B2A2 z2AB | c2cc c2cc | c2B2 z2d2 |\
+e2ee e2dc | d2dd d2cB | edcB c2BA | G6 :|[M:6/8][L:1/8]
+|: d |\
+ded def | g3 G2e | dBG A/B/cB | A3- A2d |\
+ecA dBG | cBc A3 | z2z g3 | dcB cA2 | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+g2 |\
+G6 G2 | d2dd d2z2 | e2f2 d2f2 | g2gg g2z2 |\
+c'4- c'2a2 | b6 g2 | c2G2 d2D2 | G6 :|[M:6/8][L:1/8]
+|: z |\
+g3 g2f | edc BGc | G2B A2G | dd'c' bag |\
+c'2f b2e | a2c d3 | z2z e'd'c' | bag d'd2 | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First & 2d Man lead thro the We. & hands half round. The We. lead thro'
+the Men & hands half round :|
+(The Jigg.) the 1st & 2d Cu. hands across quite round & turn all single,
+then hands across back & turn single .|
+First Man & 1st Wo. Back to Back & lead thro' the 3rd Cu. & thro' the 2d Cu.
+then Right & Left quite round with 2d Cu. & turn your Partner :|
+%%endtext

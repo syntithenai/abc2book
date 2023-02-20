@@ -1,0 +1,41 @@
+X: 30872
+T: COTILLION No. 5. ST. LOUIS SETT tune 4
+%R: march, reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.87 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Bar 4 is missing an 8th note; not fixed.
+N: There is a clef on the 2nd staff of the page, but not the first.
+N: This implies that the jig-time 1st staff is part of the preceding tune, so it was moved there.
+N: The "D.C." in the top staff and the fermata in staff 2 also imply that tune 4 starts with staff 2.
+N: Strains 2,3 might need "D.C.", too.  Figure it out with your dance leader.
+N: The first note in bar 2 is missing its head.
+N: The stem, leger lines and the ">" below imply the low G, which makes musical sense.
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(3CB,C) |\
+"_>"E4 z2(3(CB,C) | "_>"G,4 z2(3(CB,C) | E2C2G,2 (3(CB,C) | E2C2 G2E2 |\
+c2ed cBAG | ^GAAA A2fd | cBag ^fg=fd | c2e2c2 H|]
+ed |\
+c4 G2ed | c2cB ceag | f2fe d2ef | ag^fg e2ed |\
+c4 G2ed | c2cB ceag | f2fe d^cdB | c6 :|
+c2 |\
+.c'2.b2.a2.g2 | .f2.e2.d2.c2 | c3(3(ccc) c2c2 | c3(3(ccc) c2c2 |\
+c'2b2a2g2 | f2e2d2c2 | d3be3b | f6 |]
+K: F
+c2 |\
+(b2a2) g4 | (g2^f2)(g2e2) | f2cc c2c2 | cccc c2c2 | (b2a2) g4 | (g2^f2)(g2e2) | ecaf c'3e | f6 "^D.C."y|]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple lead to right and balance,
+%% swing round with the couple you balance,
+%% lead to the next,
+%% and so on till you come to your place,
+%% balance your partner and turn,
+%% promenade 4.
+%% The other couples the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

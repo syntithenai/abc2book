@@ -1,0 +1,66 @@
+X: 21291
+T: DUET FROM THE OPERA OF "THE PIRATES."
+C: Storace.
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.129 (thru p.131 #1)
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for proofreading at a small scale.
+V: 1 staves=2
+z2z z2D |\
+G2D G3 | z2z z2B | d2B d3 | z6 |\
+z6 | z6 | z6 | z2z z2d |\
+e2e (e>d)^c | d2d (d>c)B | c2c (c>B)A | B2z z2z |
+z6 | z6 | z6 | z6 |\
+z6 | z2z z2d | d2z B2e | cAz z2z |\
+a6 | zAB czz | z2d ge^c | d2z z2z |
+z2f ge^c | dAf ge^c | Hd2z "ad lib."z2d | cz c Bz B |\
+A2A HA2B | (dc)c (cB)B | (BA)A HA2 "a tempo."d | G2G ({A}G>F)G |\
+A2F D2D | B2B {c}B>AB | c2A F2D |
+d2d (d/c/B/c/) (d/g/) |\
+(g/f/a/g/f/e/ d/e/d/e/)(d/c/) | B2B (B>A)B | c2A F2D | G2z z2d |\
+(efg {a}gf).e | (dcB Bc).d | {ef}g2c B>cA | HG2 |]
+G ^c>cc |\
+d2z z2z | z2d ^ccz | z6 | z2z z2z/c/ |\
+B<Gz z2z | z2B/e/ dzz | z2d ge^c | d2z z2z |\
+z2f ge^c |
+dAf ge^c | Hd2z z2d | (ce)c (Bd)B |\
+A2A HA2d | {cd}e2(d/c/) {Bc}d2c/B/ | A2A HA2d | G2G {A}G>FG |\
+A2F D2D | B2B ({c}B>A)B | c2A F2D |
+d2d (d/c/B/c/) (d/g/) |\
+(g/f/a/g/f/e/ d/e/d/e/)(d/c/) | B2B (B>A)B | c2A F2D | G2z z2G |\
+e2e e>d^c | d2d d>cB | c2c (c>B)A | B2z z2G |
+c2c (c>B)^A |\
+B2B (B>A)G | A2A (DE)F | G2d d{g}f/e/f/d/ |\
+{a}g/f/g/a/g z{g}f/e/f/d/ | {a}g/f/g/a/g {ef}g>fe |\
+(dg)c (B>c)A | g2d {ef}g>fe |\
+(dg)c B>cA | G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout.
+V: 2
+z6 | z6 | z6 | z6 |\
+z2z z2d | e2e e>dc | d2d d>cB | c2c c>BA |
+B2z z2B | c2c (A>B)^A | B2B (B>A)G | A2A (A>G)F |\
+G2z z2A | B3 ^c3 | d3 z2d | e3 A3 | (fe)d ({e}d^c)B |
+A2d (ed)^c | d2z z2z | z6 |\
+z2z z2A | (B=fe) (dc)B | Azz zAd | BGz z2z |
+z2f ge^c | dAd ^ceg | f2d ^ceg | Hf2z z2z | z6 | z6 | z6 |
+z6 | z6 | z2z z2D | G2G {A}G>FG | A2F D2D | B2B (B>A)B |
+c2A F2D | d2d (d/c/B/c/) (d/g/) |\
+(g/f/a/g/f/e/ d/e/d/e/)(d/c/) | B2z z2B | (cde {f}ed).c |
+(BAG GA).B | {cd}e2A G>AF | HG2 |]\
+z z2z | z2d/^c/ BAA | (AF)z z2c | d2d/>^c/ BAA |
+AFd =c<Az | z2B ef^d | e2z zAc | BGz z2z | z2d ge^c | dAd d^ce |
+f2d ^ceg | Hf2z z2z | z6 | z6 | z6 | z6 |
+z6 | z2z z2D | G2G ({A}G>FG) | A2F D2D | B2B (B>A)B | c2A F2D |
+d2d (d/c/B/c/) (d/g/) | g/f/a/g/f/e/ d/e/d/e/d/c/ |\
+B2z z2G | c2c c>B^A | B2B B>AG | E2E F2F |
+G2z z2G | e2e (e>d)^c | d2d (d>=c)B | c2c c>BA |\
+G2B (cA)c | {c}B/A/B/c/B cAc |
+{c}B/A/B/c/B {cd}e>dc | B2A G>AF |\
+B2B {cd}e>dc | B2A G>AF | G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

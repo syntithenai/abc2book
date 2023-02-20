@@ -1,0 +1,27 @@
+X: 281
+T:Nabrala Je
+O:Croatia
+F: http://www.youtube.com/watch?v=OvHu_HjtSig
+F: http://www.youtube.com/watch?v=OdjDi5qVSUs
+F: http://www.youtube.com/watch?v=MAujh3RDoKI
+F: http://www.youtube.com/watch?v=cSlP0B0_gVs
+M:2/4
+L:1/8
+Q:1/4=132
+K:Eb
+%%MIDI program 110
+%%MIDI bassprog 32
+%%MIDI chordprog 32
+"Fm"[fd][fd] [fd][fd]|"Dm"[ec][d=B] [e2c2]|\
+"Fm"[fd][fd] [fd][fd]|"Dm"[ec][d=B] [e2c2]|\
+"Cm"[c2G2] [f2d2]|[ec][d=B] [c2G2] |\
+[dA] [c2G2] [=BG] |[c2G2] [c2G2] |
+|:"Gm"[g3c3] [c'g] |[g3c3] [c'g] |\
+"Bb"[bg][af][ge][fd] |[g2e2] [e2c2] |\
+"Fm"[fd][ec] [d2=B2]|"Cm"[c4E4] :|
+|:"Eb"ed ef|ed ef |\
+"Gm"g2 c'2 |g4 |\
+"Fm"ff ff|ed e2 |\
+ff ff |ed e2 |
+"Fm"c2 f2|ed c2 |\
+"Cm"d c2 =B|c2 c2 :|

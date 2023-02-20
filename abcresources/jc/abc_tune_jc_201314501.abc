@@ -1,0 +1,30 @@
+X: 1
+T: Mrs. Scott Skinner
+C: J.S. Skinner
+R: air
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: printed page of unknown origin from Concord Slow Scottish Session collection
+M: C
+L: 1/16
+Q: "With Dignity" 1/4=46
+K: D
+%%slurgraces
+A,2 |\
+([D3D4].F) ([A3A4].B) (BA)GF ({F}d3.e) | (fe)dc ({c}d2.[F2D2]) [E4-C4-] [E2C2] F2 |\
+(D3.F) (A3.B) (BA)GF (d2^G2) | (Ad3) (f3.e) (d4 [d2F2]) :|
+fg |\
+(a3.f) (d3.A) (B2g2) (g3.B) | (A2f2) {f}e2d2 {d}e6 fg |\
+(a3.f) (d3.A) (B2g2) (g3.[BG]) | ([A2F2][f2A2]) [f2A2][e2G2] [d4-F4] [d2F2] ||
+fg |\
+(^ga)ba (f2.d2) B(=g3~y g3.B) | (A2f2) ({f}e2d2) (e2c2) (HA3G) |\
+(FEFG) (A3.^A) (B=AGF) (d3^G) | (Ad3) ({d}f3.e) (d4 [d2F2]) |]
+%%indent 10
+|: A,2 |\
+(DE)FG (A^G)AB (BA)=GF ({F}d3.e) | (fe)dc ({c}d2.[F2D2]) [E4-C4-] [E2C2] F2 |\
+(DE)FG (A^G)AB (BA)=GF ({F}d2^G2) | (Ad3) (f3.e) (d4 [d2F2]) :|
+fg |\
+(^ga)ba (=gf)ed (B^d)ef (g2.[B2G2]) | ([A2F2]f2) {^G}e2=d2 [e6A6] f^g |\
+(^ga)ba (=gf)ed (B^d)ef (g2.[B2G2]) | ([A2F2][f2A2]) [f2A2][e2G2] [d6F6] ||
+fg |\
+(^ga)ba (=gf)ed (B^d)ef (g2.[B2G2]) | [A2F2][f2A2] ({^G}e2=d2) (e2c2) (HA3=G) |\
+F(EFG) A(^GA^A) B(=A=GF) (d2^G2) | (Ad3) (f3.e) (d4 [d2F2]) |]

@@ -1,0 +1,19 @@
+X: 124002
+T: DRAW THE SWORD SCOTLAND
+Q: "Reel."
+R: Reel.
+%R: reel
+B: James Kerr "Merry Melodies" v.1 p.24 s.0 #2
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+N: The (.*.*) notation is used for the straight-line slurs in this tune.
+|: (GA) |\
+BABc d2g2 | e2g2 d2g2 |\
+BABc d2(gf) | edcB A2 :|\
+(ga) |\
+b2ag (.a2.e2) | g2e2 d2B2 |\
+b2ag (.a2.e2) | egfa g2(ga) |\
+b2ag (.a2.e2) | gfge d2(dc) |\
+BABc d2(gf) | egfa g2 |]

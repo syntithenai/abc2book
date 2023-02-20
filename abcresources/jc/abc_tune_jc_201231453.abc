@@ -1,0 +1,21 @@
+X: 15251
+T: Williams Ghost
+%R: air, strathspey
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.5 p.25 #1
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+|: "_Slow"\
+F2 F>G A3 A | B2 {B}c>d Tc>B A2 |\
+d2 A>B {G}F3 A | (B>A) (d>F) {F2}E4 |\
+F2 F>G A3 A | B2 (B/c/d) Tc>B A2 |
+(dAB)d F2 (G/A/B) | (AG/F/) {F}E>D D4 ::\
+E2 E>F {F}G3 A | {GA}B2 (A>G) TF>E D2 |\
+{G}A2 B>c d2 (c/d/e/f/) |
+{d}c2 TB>A A4 |\
+d2 (3(dA=c) {c}B3 f | (g/f/e) b>d T^c2 (BA) |\
+d3 A (B/d/c/e/) dg | f2 {de}Tc>d d4 :|

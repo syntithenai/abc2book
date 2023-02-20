@@ -1,0 +1,23 @@
+X: 20681
+T: PRINCESS ROYAL'S POLKA A LA JULIEN
+C: Copyright.
+%R: polka
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.68 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain should probably be in the key of C.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B2(3(GAG) F2G2 | B2A2 c4 | c2(3(ABA) F2A2 | e2d2 .g4 |\
+g2(3(ded) ^c2d2 | b2a2 c'4 | c'2(3(aba) d2f2 | g2g2g2z2 :|
+d2(3(dHed) B2d2 | g2 "^>"f4 e2 | d2(3(ded) e2d2 | d2 "^>"B4 d2 |\
+b2(3(bc'b) a2g2 | g2 "^>"f4 e2 | d2 "^>"c4 A2 | BABc d2e2 |
+d2(3(ded) B2d2 | g2 "^>"f4 e2 | d2(3(ded) e2d2 | d2 "^>"B4 d2 |\
+b2(3(bc'b) a2g2 | g2 "^>"f4 e2 | d2 "^>"c4 A2 | GFGA "^D.C."G4 |]
+|: G2 |\
+c2G2 c2(3(efe) | g2a2 .g4 | f2G2 B2(3(ded) | c2e2 .G4 |\
+c2G2 c2(3(efe) | g2a2 g2(3(gag) | f2G2 B2(3(ded) | c2e2c2"^D.C."z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

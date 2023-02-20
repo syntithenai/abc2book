@@ -1,0 +1,31 @@
+X: 10933
+T: QUICK STEP
+N: Variant of "Davy Davy Nick Nack".
+%R: reel, quick-step
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.93 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Why were the meter and note length changed in the 3rd strain?
+M: 2/4
+L: 1/16
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+BABc d2d2 | {c}BABc d2d2 |\
+fede c2c2 | fede c2c2 |\
+{c}BABc d2d2 | {c}BABc d2d2 |\
+egfe dcBA | B2B2 B4 :|
+|:\
+f2f2 d2d2 | b2b2 f4 |\
+fede c2c2 | fede c2c2 |\
+{g}f2=ef d2d2 | b2b2 f4 |\
+egfe dcBA | "^Fin."B2B2 HB4 :|
+|:\
+[M:C][L:1/8]\
+d3e fgab | {a}g2g>g g2g/f/e/d/ |\
+c3d egfe | {e}d2d>d d2z2 |\
+d3e fgab | {a}g2g>g g3g |\
+f>bag fedc | B2B>B B2"^D.C."z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

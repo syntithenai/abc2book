@@ -1,0 +1,22 @@
+X: 2215
+T: the SCOTCHMAN IN AMERICA
+Q: "Highland Schottische."
+R: Schottishe.
+%R: shottish
+B: James Kerr "Merry Melodies" v.2 p.24 #215
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: G
+|:{DEF}\
+G2(G>A) (B<d)(b>a) | (g<e)(e>g) (d<B)(B>d) |\
+(e>c)(A>c) (d>B)(G>B) (A>G)(F>E) (D>C)(B,>A,) |\
+"^>"G,2(G>A) (B<d)(b>a) | (g<e)(e>g) (d>B)(B>d) |\
+(e>c)(A>c) (d>B)(G>B) | A>DE>F G2G2 :|
+|:\
+(B<d)(d>e) d>BA>G | (c>e)e>d e>fg>e |\
+(B<d)(d>e) (d>B)(G>B) | (A>G)(F>E) D>CB,>A, |\
+(B<d)(d>e) d>BA>G | (c>e)(e>d) e>fg>e |\
+(B<d)d>e d>BG>B | B>AG>F G2G2 :|

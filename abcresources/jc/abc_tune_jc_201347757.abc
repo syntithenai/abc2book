@@ -1,0 +1,36 @@
+X: 1
+T: Unchained Melody
+C: Music: Alex North
+C: Lyric: Hy Zaret
+N: Used in the movies Unchained and Ghost.
+M: C
+L: 1/4
+%%continueall 1
+K: G
+"Chorus"\
+[|\
+"G"G3 A | "Em"G3 A | "Cmaj7"B G2 G | "D7"DF AB |
+w: Oh, my love, my darl-ling, I've hun-gered for your
+"G"G3 A | "Em"G2 B, C | "D"D4- | "D7"D4 |
+w: touch a long lone-ly time._
+"G"G3 A | "Em"G3 A | "Cmaj7"B G2 G | "D7"DF AB |
+w: Time goes by so slow-ly and time can do so
+"G"G3 A | "Em"G3 G | "Bm"d4- | "D"d3 "D7"c |
+w: much, are you still mine?_ I
+"G"BG D2- | "D7"D2 A2 | "Em7"GD B,2- | "Gmaj7"B,2 F2 |
+w: need your love,_ I need your love,_ God
+"Am"EC A,2- | "D7"A,2 A2 | "G"G4- | !Fine!G4 |]
+w: speed your love_ to me._
+"Verse"|[|\
+"C"CD EG | "D"F2- (3FGF | "C"E2- (3ECE | "Bb"D4 |
+w: 1.~Lone-ly riv-ers flow_ to the sea,_ to the sea,
+w: 2.~Lone-ly moun-tains gaze_ at the stars,_ at the stars,
+"C"CD EG | "D"A2- (3ABA | "G"D4- | D4 |
+w: to the o-pen arms_ of the sea._
+w: Wait-ing for the dawn_ of the day._
+"C"CD EG | "D"F2- (3FGF | "C"E2- (3ECE | "Bb"D4 |
+w: Lone-ly riv-ers sigh,_ "Wait for me,_ wait for me!"
+w: All a-lone, I gaze_ at the stars,_ at the stars,
+"C"CD EG | "D"A2- (3ABA | "G"G4- | "d.C."G4 |]
+w: I'll be com-ing home,_ wait for me!_
+w: Dream-ing of my love_ far a-way._

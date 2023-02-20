@@ -1,0 +1,28 @@
+X:1
+T:Tidal Wave -- Jig
+R:reel
+C:EDDIE FOX.
+B:Ryan's Mammoth Collection
+N:112 629
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:2/4
+L:1/16
+K:F
+"^Segno"v(C4 E4) | (A4 c4) | (d>.c)(B>.d) e>gf>g | vcAz2 vafz2 | 
+(C4 E4) | (A4 d4) | f>d=B>a (3gag (3fed | (3cgf (3e_ed (3cBG (3FE_D |
+v(C4 E4) | (A4 c4) | d>cB>d e>gf>g | cAz2 afz2 | 
+zb<(va>u.b) (3de^f g2 | zva(u^g.a) (3AB=B c2 | zvd(^c.d) (E.=c)(=Bc) |\
+ (F.A)(c.e) f2 H|]
+K:C
+ua2|\
+(g>.f)(d>.B) A2>uG2 | ^F>Gc>e g2>ug2 | (=f>gB>)vg u(f>gB)>ug |\
+ v(e>gc)>"4"ve (E>Gc)>u"4"e | 
+(g>.f)d>B A2>uG2 | ^FGce vg2>(u^g2 |\
+ ba)u^cv(d ag)u=Bv(=c 
+|1 "4"e)>(dA>.B) c2:|2 "4"e>dA>B "_D.C fermat:a al Trio" c_BGE |]
+K:Bb
+v(F2^F2 G2)>uD2  | v(F2^F2 G2)>uD2 | F>Bd>f b>ag>f | (^fg)uA2 zv(e<uc>.A) | 
+v(F2^F2 G2)>uA,2 | (F2^F2 G2)>A,2 | C>FA>c a>gf>e | (^cd)F2 zf<d>B |
+(F2^F2 G2)>D2 | (F2^F2 G2)>D2 | =F>G=B>d g>_ag>d | c>=Bc>d ve2v(^f2 |
+g)>(de)>(=B c)>(de)>(=e | f)>(^cd)>(A B)>vcud2 | (f2^f2 g2)>A2 |\
+ B>df>b B2 z2 "D.S.""^Segno"|]

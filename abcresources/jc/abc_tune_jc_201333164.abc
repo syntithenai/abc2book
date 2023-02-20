@@ -1,0 +1,43 @@
+X: 1
+T: Sage Leaf
+P: Round for as many as will
+%R: jig
+B: "The Dancing-Master" printed by John Walsh, London
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.11 #19
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.1 "B"
+N: The first page of DMDfD is obscured by the Blen Collection label over part of the tune and the first line of the dance.
+N: The 3/4 of the tune that is visible in DMDfD is identical to the tune in CCDM1.
+Z: 2012-2013 John Chambers <jc:trillian.mit.edu>
+N: Fixed a missing 1/4 count at the end.
+M: 6/4
+L: 1/4
+K: Gmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+dgf ecf | d>c B/A/ BG2 ][ B2c d2B | e2d cdB | A2G ^F>E^F | G3- G3 |]
+d2c B>AG | de^f g3 | d2c B>AG | de^f g3 | d2c B>cd | e2d c>dB | A2G ^F>E^F | G3- G2 |]
+G | ^F>GA A^FD | G>AB B>AG | ^F>GA A^FD | G3- G2 ][ G | B2c d2B | e2d c>dB | A2G ^F>E^F | G3- G2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Take all Hands and go round, back again .|  All the Men go in and meet in
+%% the Middle, and back again; then We. do as much; then the first Cu. lead
+%% into the Middle, and back again; then give your right Hand to your Wo. and
+%% turn her round; the next Cu. do the same, and so to the last, the Musick
+%% playing the same Strain 'till they have led in :|:|  Then every Man gives
+%% his right Hand to his own Wo. and turns her once and a Half, and then goes
+%% on to the next, and so 'till he comes to his own :|.:|  So do all again, but
+%% leave out the first Strain, 'till every Couple has begun to lead in.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% Take all hands and go round, back again .|  All the men go in and meet in the middle, and back
+%% again; then we. do as much; then the first cu. lead into the middle, and back again; then give
+%% your right hand to your wo. and turn her round, so the next cu. do the same, and so to the last, the
+%% Music playing the same Strain 'till they have led in :|:|  Then every man gives his right hand to his
+%% own wo. and turns her once and a half, and then goes on to the next, and so 'till he comes to his own :|.:|
+%% So do all again, but leave out the first Strain 'till every couple has begun to lead in.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

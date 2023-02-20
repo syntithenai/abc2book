@@ -1,0 +1,27 @@
+X: 20413
+T: the HARDY SAILOR
+C: Dr. Arnold.
+Q: "With spirit."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.41 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The "D.C." and the end really should be "D.S.".
+M: 6/8
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D !segno!|\
+G2A B2c | dBg dBG | A2B cde | {e}dcB {B}A2z |\
+G2A B2c | dBg dBG | A2B dcB | B>cA G3 |\
+c2z z2z | B2z z2z | e2z z2z | Hd2z de=f |
+ede {g}=fed | d^fg a2c | B2B BcA | Bcd efg |\
+fed cBA | (g/b/a/g/f/e/) (d/e/d/c/B/A/) | Bcd efg | gdB gdB |\
+(B3 A2)G | G2z "^Fin."z2 H|]
+B |\
+e2f/^d/ e2B | AGF GAB | c2c c2c | BcB BAd |\
+GBd =fdB | G2=f f2e | e2e e2e | gfe {e}^d2d |\
+eBd cBA | dAc BAG | B^cd e2d | {f}ed^c "^D.C."d3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

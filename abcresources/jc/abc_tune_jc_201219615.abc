@@ -1,0 +1,16 @@
+X: 26
+T: Hornpipe
+%R: triple hornpipe
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.13 #26
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The bowings in bars 2,3 should probably be the same.
+M: 3/2
+L: 1/8
+K: D
+|:\
+(def).d bg(Tfe) .a(Tfed) | cdef e2B2 cdec |\
+(def).d .b(Tgfe) .a(fed) | Adce .d(TBAG) F2D2 :|
+|:\
+(d'c'd').a bagf efge | (=c'bc').a bagf efge |\
+(d'c'd').a bagf gfed | Adce .d(TBAG) F2D2 :|

@@ -1,0 +1,20 @@
+X: 10071
+T: PEERIE WEERIE
+R: Reel.
+%R: reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.7 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+BG-G>A G>AGc | BG-GB gdec |\
+BG-GA G>AGB | A=F-FA c3 :| A |\
+Bd-d>e d>edc | Bd-df gdec |
+Bd-d>e d>edB | A=FFA c3A |\
+Bd-de dedc | Bd-de gded |\
+gbeg dgBd | A=FFA c3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

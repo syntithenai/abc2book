@@ -1,0 +1,31 @@
+X: 931
+T: Jock's Lodge
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.93 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: The first bar line should probably be a start-repeat.
+M: C
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+e "^:S:"|\
+Tc>BAe cAeA | BGdB G/G/G TB2 |\
+Tc>BAe cAeA | dBgB A/A/A Te2 :|\
+|:\
+Tc>BA(^g a)baf | gedB G/G/G TB2 |
+Tc>BA^g abae | fdgB A/A/A Te2 |\
+Tc>BA(^g a)>baf | gedB G/G/G TB2 |\
+cAdA eAfA | ^gAac A/A/A Te2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+e |\
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | e2e2 A2A2 :|\
+|:\
+a2a2 a2a2 | g2g2 g2g2 |
+a2a2 a2a2 | d2e2 A2A2 |\
+a2a2 a2a2 | g2g2 G2G2 | A2B2 c2d2 | e2e2 A2A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

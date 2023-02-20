@@ -1,0 +1,22 @@
+X: 10881
+T: KATE KEARNEY
+O: Irish air.
+Q: "Moderate, with feeling."
+%R: air, waltz, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.88 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+FGA B>cd | ({d}c3 B2)B | Bdf (g/f/)(e/d/)(c/B/) | dcd c2B |\
+g>fg f2f | {f}ede dBc | d>cB BGF | (GBc) B2 |]
+F |\
+FGB B>cd | cBB B2B | Bdf (g/f/)(e/d/)(c/B/) | dcc c2f |\
+g>fg f2f | ede d2B/c/ | d>cB BGF | GBB B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

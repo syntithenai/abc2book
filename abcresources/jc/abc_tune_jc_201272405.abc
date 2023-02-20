@@ -1,0 +1,43 @@
+%%center Eel Pot Tavern + Stone's Mongrel medley
+
+
+X: 0
+T: The Eel Pot Tavern
+P: piffero primo a0781
+O: Roy Watrous
+%R: jig
+S: http://ancients.sudburymuster.org/mus/sng/pdf/eelpotC0.pdf
+S: http://ancients.sudburymuster.org/mus/med/pdf/eelpotstonesC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Ador
+E |\
+A2A ABc | B2A G2E | ABc BAG | e3- e2f |\
+g2g gfe | d2B GAB | cBA G2E | A3- A2 :|
+|: z |\
+e3  a3  | gfe d2B | efg bag | a3- a2b |\
+g2g gfe | d2B GAB | cBA G2E | A3- A2 :|
+
+
+X: 1
+T: Stone's Mongrel
+P: piffero primo a0796
+O: Greg Bacon
+%R: jig
+S: http://ancients.sudburymuster.org/mus/med/pdf/eelpotstonesC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Ador
+B |\
+cBA GED | EAA A2B | c2c dcd | e2a a2b |\
+a2a age | g2g ged | cBA dcB | e2e efg |\
+dcB cBA |
+EA^G A2 :: B |\
+cAA a2b | a2a age | dBA GBd | GBc dcB |\
+cBA dcB | e2e efg | efg dcB | cAA A2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

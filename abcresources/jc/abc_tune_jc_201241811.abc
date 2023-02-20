@@ -1,0 +1,31 @@
+X: 471
+T: the Maltman comes a Monday
+R: slip-jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.47 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+(E/F/G)G G2g dBG | TF2A ABA TF2D |\
+(E/F/G)G G2g def | g2G GAG TF2D :|\
+|:\
+dBd ece dBG | TF2A ABA TF2D |
+dBd ece def | g2G GAG TF2D :|\
+|:\
+gag Tf2e dBG | TF2A ABA TF2D |\
+gag Tf2e def | g2G GAG TF2D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g3 g3g3 | d3 d3 d3 |\
+g3 g3 g3 | g3 g3 d3 :|\
+|:\
+b3 c'3 b3 | a3 a3 a3 |
+g3 c3 d3 | g3 G3 d3 :|\
+|:\
+g3 g3 g3 | d3 d3 d3 | g3 g3 g3 | g3 G3 d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

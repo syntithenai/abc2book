@@ -1,0 +1,16 @@
+X: 1460
+T: the Ladies of Leinster
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #1460
+O: Dunphy
+Z: Bob Safranek, rjs@gsp.org
+M: C|
+L: 1/8
+K: G
+"^A"[|] (dc) \
+|  BGGB d2(cB) | ADDE FGAc | BGGB d2(cB) | cdeg fdcA ||
+|| BGGB d2(cB) | ADDE FGAc | BGGB d2(cB) | cdef g2 |]
+"^B"\
+[| d2 | gfdB GBdB | Aaag fedc | Bdgf edcB | cdef g2 ||
+|| dB | G2gf edcB | ADDE F2GA | BGGB cAAg | fdef g2 |]

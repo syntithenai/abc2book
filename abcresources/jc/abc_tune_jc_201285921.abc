@@ -1,0 +1,27 @@
+X:1
+T: The Herne Bay Dance
+N:
+C:
+S:3 times
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 42 notes)
+K:G
+M:4/4
+L:1/16
+g4 |d4 B4 d4 B4 |d4 e2 f2 g4 f2 e2 |d4 B4 d4 B4 |c2 d2 c2 B2 A4 g4 |d4 B4 d4 B4 |d4 e2 f2 g4 a2 b2 |c'4 a2 g2 f2 e2 d2 c2 |B4 G4 G4 g4 |
+%W: A2
+% voice 1 (1 lines, 41 notes)
+d4 B4 d4 B4 |d4 e2 f2 g4 f2 e2 |d4 B4 d4 B4 |c2 d2 c2 B2 A4 g4 |d4 B4 d4 B4 |d4 e2 f2 g4 a2 b2 |c'4 a2 g2 f2 e2 d2 c2 |B4 G4 G4 A4 |
+%W: B1
+% voice 1 (1 lines, 38 notes)
+K:D
+A4 d4 d4 e2 f2 |f4 e4 e4 B4 |c4 A4 B4 c4 |d2 e2 f2 g2 a2 f2 g2 e2 |d4 d4 d4 e2 f2 |g4 e4 e4 B4 |c4 b4 a2 f2 g2 e2 |d12 A4 |
+%W: B2
+% voice 1 (1 lines, 37 notes)
+A4 d4 d4 e2 f2 |f4 e4 e4 B4 |c4 A4 B4 c4 |d2 e2 f2 g2 a2 f2 g2 e2 |d4 d4 d4 e2 f2 |g4 e4 e4 B4 |c4 b4 a2 f2 g2 e2 |d12 ||

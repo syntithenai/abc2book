@@ -1,0 +1,35 @@
+X: 21152
+T: GAMBLER'S SETT (tune 5)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.115 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Rest "pickup" added to 3rd strain, to fix the rhythm.
+N: The turns in the 3rd strain are inconsistenly positioned, and should perhaps all be on the long B notes.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+(Bc) |\
+d2B2 b3a | gfge d2B2 | {g}e2d2e2f2 | {a}gfga b2Bc |\
+d2B2 b3a | gfge d2B2 | e2d2 {e}g2A2 | G6 z2 H|]
+(Bc) |\
+A2G2 {f}g2(Bc) | A2G2 d2(ef) | {a}gfga bfge | dBed gBAG |\
+{B}AGAB AcBA | B2G2 d3B | edgB {B}AGAB | G2B2"^D.C."G2 |]
+|: z2 |\
+GB~B2 d~BB2 | g~BB2 d~BB2 | G~BB2 d~BB2 | DAAG FAAB |\
+G~BB2 d~BB2 | g~BB2 d~BB2 | egfa gedc | BdcA "^D.C."G2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple promenade round,
+%% 2d, 3d and 4th couple the same,
+%% and form lines length ways the hall,
+%% 1st couple balance at the top,
+%% and chassa down ten steps,
+%% the others do the same in succession,
+%% all balance, swing to place.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

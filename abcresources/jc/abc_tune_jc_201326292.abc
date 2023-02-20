@@ -1,0 +1,16 @@
+X: 968
+T: the Priest and His Boots
+R: jig
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #968
+O: F.O'Neill
+Z: Dan G. Petersen, dangp@post6.tele.dk
+M: 6/8
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+   c/d/  | e2e e2e | efd cBA | dcd fed | cAc e2 ||
+|  c/d/  | efe efe | efd cBA | dcd fga | gec d2 :|
+|: f/g/  | afa geg | fdf ecA | dcd fed | cAc e2 ||
+| (f/g/) | a2{ba}f g2{ag}e | f2{gf}d ecA | dcd fga | gec d2 :|

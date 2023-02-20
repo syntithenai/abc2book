@@ -1,0 +1,29 @@
+X: 382
+T: Mrs WALTER BIGGAR
+T: re-named Miss Alicia Heggie
+C: D. Mc LAREN
+R: Strathspey
+B: Glen Collection p.38 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Gm
+%
+V: 1
+B/c/ |\
+d<B B<G d<B TB2 | A<c c>B A<F FB/c/ | d<B B<G [1 d<B B2 | c<f F>A BG G :|[2 G,>g Tg2 | f<d c>d B<G G ||
+|: d |\
+g>d d>c B<G Tg2 | f>d c>B A<F Tf2 |[1 g>d d>c B<d g2 | A<c cd/A/ BG G :|[2 g>d B<g f<c A<f | D<d c>d BG G, |]
+%
+V: 2
+z |\
+G2[g2d2]    B2[g2d2] | F2[a2f2] [c'2f2][a2f2] |\
+G2[g2d2] [1 B2[g2d2] | F2[c'2a2] [b2g2][bg] :|\
+         [2 B2[b2g2] | d2[a2f2] [b2g2][bg] ||
+|: z |\
+   g2[d'2b2] g2[d'2b2] | c2[a2f2] f2[c'2a2] |\
+[1 G2[b2g2] [b2g2][b2g2] | a2d2 [g2G2][gG] :|\
+[2 G2[b2g2] A2[f2c2] | [f2d2][a2f2] [b2g2][gdG] |]

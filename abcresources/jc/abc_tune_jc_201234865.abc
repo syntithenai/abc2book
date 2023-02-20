@@ -1,0 +1,26 @@
+X: 20842
+T: FAL-DE-RAL-TIT.
+T: "I LEARNT A PRETTY SONG IN FRANCE."
+Q: "Moderate."
+%R: march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.84 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+c2c>c A2A2 | B2c2 d2d>d |\
+e2e2 A2A2 | d2(dc) B2zG |\
+c2c2 A2A2 | d2(dc) B2e>f |\
+g2g2 a2^f2 | g2z2 z2e>f |\
+g2(gf) e2e2 | f2f>e d2z2 |\
+e2e>e AAA2 |
+d2(dc) {c}B2zG |\
+c2c>B A2A2 | d2d>c B2z2 |\
+g4 e2c2 | A>cB2 c2z2 |\
+d2d>d d2z2 | g2g>g g2z2 |\
+g4 e2c2 | A>cB2 c2z2 |\
+g4 e2c2 | A>c B2c2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

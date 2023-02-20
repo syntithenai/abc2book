@@ -1,0 +1,21 @@
+X:1
+T:Die Hobelbank
+K:
+%% partsbox 1
+% Stolen from Jo Reimer's TOTW, c.net Jan '17. RJH.
+M:2/4
+L:1/8
+K:G
+P:A
+|: z | "G"BB dd | "D"cc/B/ A2 | fd ef | "G"g/f/g/a/ b2 |
+"G"BB dd | "D7"cc/B/ A2 | "D7"fd ef | "G"g2 z :|
+P:B
+|: "D"A | d2 d/e/f/g/ | "D7"a3 f | "G"g>f g>f | g2 a/g/f/e/ |
+ "D"d2 d/e/f/g/ | "D7"a3 f | "G"gd "D7"ef | "G"g2 z :|
+P:C
+|: B | "D7"cd/c/ AB | cd/c/ AB | "C"ed cB | "D"A3 B |
+ "D7"cd/c/ AB | "C"cd/c/ Ae | "D7"dc BA | "G"G2 z :|
+P:D
+|: B | "Am"cB AG | "D"FG AB | "Am"cB AG | "D"A3 B |
+"C"cd/c/ AB | cd/c/ Ae | dc BA | G2 z :|
+

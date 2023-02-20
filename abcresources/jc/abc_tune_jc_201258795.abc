@@ -1,0 +1,25 @@
+X:1
+T:THE CRUSADERS'
+M:C
+L:1/8
+Q:80
+C:Traditional
+S:March
+K:HP
+{g}A3/2B/2 | \
+{g}c2{GdG}c2{gcd}c2{e}A3/2{d}c/2 | \
+{gef}e2{GdG}e3/2f/2{gef}e2{g}f3/2g/2 |
+{ag}a3/2g/2{fg}fe{gcd}ce{g}A3/2{d}c/2 | \
+{gcd}c{g}B{GdG}B3/2c/2{gBd}B2{e}A3/2B/2 | \
+{g}c2{GdG}c2{gcd}c2{e}A3/2{d}c/2 |
+{gef}e2{GdG}e3/2f/2{gef}e2{Gdc}df | \
+{gef}ec{gde}dB{gcd}ce{Gdc}dB | \
+{gBd}B{e}A{GAG}A3/2B/2{G}A2{g}A/2B/2{GdG}c/2d/2|] [ |
+{gef}e2{A}e3/2f/2{gef}ed{gcd}c{e}B | \
+{gBd}B{e}A{GAG}A3/2B/2{G}A2{g}f3/2g/2 | \
+{ag}a3/2g/2{fg}fe{gcd}ce{g}A3/2{d}c/2 |
+{gcd}c{g}B{GdG}B3/2c/2{gBd}B2{e}A3/2B/2 | \
+{g}c2{GdG}c2{gcd}c2{e}A3/2{d}c/2 | \
+{gef}e2{GdG}e3/2f/2{gef}e2{Gdc}df |
+{gef}ec{gde}dB{gcd}ce{Gdc}dB | \
+{gBd}B{e}A{GAG}A3/2B/2{G}A2|]

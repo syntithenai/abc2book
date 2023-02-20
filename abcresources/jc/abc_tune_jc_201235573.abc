@@ -1,0 +1,31 @@
+X: 2123
+T: He's aye Kissing me.
+%R: air, march
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.2 p.12 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+Q: "SLOWISH"
+K: D
+% - - - - - - - - - -
+V: 1 staves=2 clef=treble
+D |\
+([A2F2] [B2G2]) | ([AF]D)Dd | AF TE>D | [E3C3] D |\
+(F.A) (G.B) |A>F Dd/B/ | AF TE>F | [D3A,3F,3] :: B/c/ |\
+{c}d>c BA | TB>A F>c |
+(dc) BA | (B2 F)c |\
+.d.c .B.A | B>c Hd>B | .A.F.G.E | D2 (D/E/F/G/) ||\
+!p!([A2F2] [B2G2]) | A>F Dd | AF TED | [E3C3] D |\
+(FA) (.[AE].[AE]) | [AF][ge] HT[fd]>e | {c}d>B AF | [D3A,3F,3] :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+D2 d2 | D3 f | dfg^g | a2 Az |\
+d2 g2 | f3 g | a2 A2 | d2 D :: z |\
+[bd4]>a g>f | [gd2]>f d2 |
+[bd4]a gf | [g2d4] f^a |\
+[bd4]=a gf | ge Hf>g | a2 A2 | d4 ||\
+D2 d2 | D3 f | d2 g^g | a2 Az |\
+d2 c2 | dc Hd>g | fg aA | d2 D :|

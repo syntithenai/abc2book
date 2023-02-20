@@ -1,0 +1,22 @@
+X: 1
+T: Cadgers of the Canongate. a Reel
+R: reel
+S: Fiddle Hell Online 2020-11-05 Se\'an Heel Slow Airs Workshop
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+B |\
+GBGB (de/f/g).e | d<Bg>B A/A/A A>B |\
+GBGB (de/f/g).e | d>Bg>B G/G/G G :: g |\
+b>age g>edB | G>Bd>B A/A/A A>a |
+b>age g>edB | GBgB G/G/G Gg |\
+b>age g>edB | g>BgB A/A/A A>a |\
+!f!(b/a/g) (a/g/e) (g/e/d) (e/d/B) | d>Bg>B G/G/G G |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g2g2 g2g2 | g2g2 a2a2 | g2g2 g2g2 | d2d2 G2G :: z | g2g2 g2g2 | g2g2 a2a2 |
+g2g2 c2B2 | G2g2 G2G2 | g2g2 g2g2 | g2g2 a2a2 | !f!g2c'2 b2g2 | g2d2 G2G |]

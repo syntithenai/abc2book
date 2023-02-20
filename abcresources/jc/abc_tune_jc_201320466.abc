@@ -1,0 +1,23 @@
+
+X: 1
+T: Oriental Hora v.1    [Dm]
+R: zhok
+M: 3/8
+L: 1/16
+Q: 1/8=116
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+%%slurgraces
+K: Dm
+(a2 \
+| "Dm"^g3) a ba | ^g3 f ed | {^g=b}a6 | z4 (3dfa \
+| "Dm"d'3 c' ~=ba | ^g3 f ~ed | {^g=b}a4 a2 | a4 (a2 |
+| "Dm"^g3) a ba | ^g3 f ed | {^fa}"Gm"g4 (g2 | b6) \
+| "Dm"a3 A (3dfa | "A7"^g2 zf ef | "Dm".d2 zd' .a.f | .d2 z2 :|
+|: (A2 \
+| "Dm"d6)- | d4 (A2 | d6)- | d4 z2 \
+| "Dm"(e{g}f- f2) ed | (e{g}f- f2) ed | "A7"e^c- c4- | c2 zB BA |
+| "A7"A2 zB "/G"^cd | "/F"e2 zf "/E"^ga | "Dm"d2 z2 (a2 \
+| ^g3) f ed | (e{g}f- f2) ed | (e{g}f- f2) ed | "Gm"(g6 |  b6) |
+| "Dm"a3 A (3dfa | ^g3 zf ef | "Dm"d2 z.d' .a.f | .d2 z2 :| y6 y6 y6 y6 y6 y6
+

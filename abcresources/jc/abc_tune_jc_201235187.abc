@@ -1,0 +1,28 @@
+X: 21022
+T: BOSTON SETT (tune 2)
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.102 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="2"
+de |\
+f2e2 c2d2 | B4 F2B2 | c2B2 e2d2 | gf=ef c2de |\
+f2e2 c2d2 | B4 F2b2 | bagf fedc | B2d2B2 H|]\
+FD |
+B,>DF>B d>fd>B | F>Ac>d e>cB>A | B.cd>e f>ga>b | b>ag>f f4 |\
+B,>DF>B d>fd>B | F>Ac>d e>cB>A | f>dc>B g>fe>c | B2d2"^D.C."B2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance four.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

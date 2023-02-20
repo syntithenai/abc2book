@@ -1,0 +1,20 @@
+X: 2262
+T: Miss Ann Stewart East Craigs Reel
+%R: reel
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.26 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat symbol; not fixed.
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 6-bar lines, for compactness and proofreading.
+V: 1 staves=2
+F |\
+DG-G>A TB>cdf | AFcA FGAc | TBAGA Bcdf | A<Fc>A BGG :: A | (Bcd)e fdcB | AFcF dFcF |
+(Bcd)e fdcB | A<Fc<A B<GGA || Bfdf Bfdf | FcAc FcAc | Bfdf Bfdf | A<Fc>A BGG |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | g2g2 g2g2 | f2f2 f2f2 | g2g2 g2g2 | f2f2 g2g :: z | b2b2 b2b2 | f2f2
+f2f2 | b2b2 b2b2 | f2f2 g2g2 || b2b2 b2b2 | f2f2 f2f2 | b2b2 b2b2 | f2f2 g2g |]

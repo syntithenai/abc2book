@@ -1,0 +1,59 @@
+X: 1
+T: Moja diridika
+O: Croatia
+M: 2/4
+L: 1/16
+K: G
+%%text Men on repeat of A:
+"A"\
+|: "G"[d6B6] [B2G2] | "D7"[c2A2][c2A2] [c2A2][d2B2] | "G"[B2G2][B2G2] [cA][BG][AF][BG] | "D7"[c2A2][c2A2] [c2A2][d2B2] |
+w: 1.~Mo-ja di-ri-di-ka | jo-re na* vo-*lo-lo-lo-ve
+w: 3.~Me-ne di-ri-di-ka | zo-ve ve-*\vce-*ral-ga-ga-ti
+w: 5.~Be-la, be-la hle-ba | i \vzu-ta* pa-*sulj-gu-gu-lja
+w: 7.~Dva krum-pir-gir-gi-ra, | za lu-kom* ma-*\vsir-gir-gi-ra,
+%| "G"[B2G2][B2G2] [cA][BG][AF][BG] | "D7"[c2A2][c2A2] [c2A2][d2B2] |
+%w: jo-re na* vo-*lo-lo-lo-ve
+%w: zo-ve ve-*\vce-*ral-ga-ga-ti
+%w: i \vzu-ta* pa-*sulj-gu-gu-lja
+%w: za lu-kom* ma-*\vsir-gir-gi-ra,
+| "G"[B2G2][B2G2] [cA][BG][AF][BG] | "D7"[c2A2][c2A2] [c2A2][d2B2] | "G"[B2G2][B2G2] "A7"[A2F2][G2E2] | "D"[A4F4D4] [A4F4D4] :|
+w: jo-re na* vo-*lo-lo-lo-ve | jo-re na vo-lo-ve.
+w: zo-ve ve-*\vce-*ral-ga-ga-ti | zo-ve ve-\vce-ra-ti.
+w: i \vzu-ta* pa-*sulj-gu-gu-lja | i \vzu-ta pa-su-lja.
+w: za lu-kom* ma-*\vsir-gir-gi-ra, | za lu-kom ma-\vsi-ra.
+%| "G"[B2G2][B2G2] "A7"[A2F2][G2E2] | "D"[A4F4D4] [A4F4D4] :|
+%w: jo-re na vo-lo-ve.
+%w: zo-ve ve-\vce-ra-ti.
+%w: i \vzu-ta pa-su-lja.
+%w: za lu-kom ma-\vsi-ra.
+%%text Women first time; add men second time:
+K: D
+"B"\
+|: "D"[a6f6] [f2d2] | "A7"[g2e2][g2e2] [g2e2][a2f2] | "D"[f2d2][f2d2] [ge][fd][ec][fd] | "A7"[g2e2][g2e2] [g2e2][a2f2] |
+w: 2.~A ja i-gir-gi-gam | i pi-vam* na* nji-gir-gi-me
+w: 4.~Hva-la, di-ri-di-ko, | ja sam ve-*\vce-*ral-ga-ga-la
+w: 6.~Pa me, pa me ne-sto | po tr-bu-*vu* \vzulj-gu-gu-lja
+w: 7.~Dva krum-pir-gir-gi-ra, | za lu-kom* ma-*\vsir-gir-gi-ra,
+%| "D"[f2d2][f2d2] [ge][fd][ec][fd] | "A7"[g2e2][g2e2] [g2e2][a2f2] |
+%w: i pi-vam* na* nji-gir-gi-me
+%w: ja sam ve-*\vce-*ral-ga-ga-la
+%w: po tr-bu-*vu* \vzulj-gu-gu-lja
+%w: za lu-kom* ma-*\vsir-gir-gi-ra,
+| "D"[f2d2][f2d2] [ge][fd][ec][fd] | "A7"[g2e2][g2e2] [g2e2][a2f2] | "D"[f2d2][f2d2] "E7"[e2c2][d2B2] | "A"[e4c4A4] "fine"[e4c4A4] :|
+w: i pi-vam* na* nji-gir-gi-me | i pi-vam na nji-me.
+w: ja sam ve-*\vce-*ral-ga-ga-la | ja sam ve-\vce-ra-la.
+w: po tr-bu-*vu* \vzulj-gu-gu-lja | po tr-bu-vu \vzu-lja.
+w: za lu-kom* ma-*\vsir-gir-gi-ra. | za lu-kom ma-\vsi-ra.
+%| "D"[f2d2][f2d2] "E7"[e2c2][d2B2] | "A"[e4c4A4] "fine"[e4c4A4] :|
+%w: i pi-vam na nji-me.
+%w: ja sam ve-\vce-ra-la.
+%w: po tr-bu-vu \vzu-lja.
+%w: za lu-kom ma-\vsi-ra.
+%
+W: 1. My sweetheart is plowing with oxen
+W: 2. and I dance and sing after him.
+W: 3. My sweetheart invites me to dinner
+W: 4. Thank you, sweetheart, I have eaten
+W: 5. white bread and brown beans
+W: 6. but something in my belly pinches.
+W: 7. Two potatoes and an onion.

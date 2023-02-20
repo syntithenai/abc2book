@@ -1,0 +1,26 @@
+X:1
+T: Gleaners
+N:
+C:Tune is "Field of Dreams" by H Bexon
+S:
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 28 notes)
+K:Am
+M:4/4
+L:1/16
+E4 |A6 B2 c4 f4 |e4 B8 c4 |A6 B2 c4 a4 |^g4 e8 d4 |c6 B2 c4 d4 |e4 ^f4 ^g4 b4 |c'6 b2 a4 c'4 |f16 |
+%W: A2
+% voice 1 (1 lines, 32 notes)
+b6 a2 g4 b4 |e6 d2 c4 e4 |f4 e4 d4 c4 |B12 B4 |c4 A4 d4 B4 |e2 d2 c2 d2 e4 a4 |b4 c'8 b2 a2 |^g4 ^f4 e4 d4 |
+%W: B1
+% voice 1 (1 lines, 27 notes)
+^c6 c2 e4 c4 |B4 e8 d4 |^c6 c2 e4 c4 |B12 B4 |c6 A2 d6 B2 |e4 c4 f4 d4 |^g6 a2 b4 g4 |e12 d4 |
+%W: B2
+% voice 1 (1 lines, 31 notes)
+^c6 B2 A2 B2 c2 d2 |B4 e8 d4 |^c6 c2 B4 c4 |e12 a2 b2 |c'4 b4 a4 e4 |a2 b2 c'2 b2 a4 e4 |e6 d2 B4 c4 |A12 ||

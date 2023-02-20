@@ -1,0 +1,15 @@
+X:48
+T:Fairy Dance (Harm.), The
+R:Reel
+M:C|
+%%printtempo 0
+Q:180
+K:D
+V:1
+|:"D"vf2 fd f2fd|f2 fd "A7"(cd)eg|"D"f2 fd (ugf)ve(ud|1 "A7"cA)Bc "D"defg:|2 cABc "D"defg|:
+V:2
+|:D2A2D2A2|D2A2 A,4|D2A2 (BA)GF|1E2G2F2A2:|2E2G2 FAde|:
+V:1
+"F#m"a2af "B7"b2 ba|"Em7"g2ge "A7"a2ag|"D"f2fd "G"(ugf)ve(ud |[1 "A7" cA)Bc "D"defg:|[2"A7" cABc "D"defg|]
+V:2
+f2e2^d2B2|e2d2c2A2|d2A2 BAGF|[1 E2G2 FAdf:|[2 E2G2F2A2|]

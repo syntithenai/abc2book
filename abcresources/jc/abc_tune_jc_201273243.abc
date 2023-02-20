@@ -1,0 +1,63 @@
+
+X: 1
+T: Erets zavat chalav [Dm]
+C: E.Gamliel
+O: Deuteronomy 27:3
+W: * clap
+W: A land flowing with milk and honey.
+N: May be sung as a 2-part round
+M: C
+L: 1/8
+K: Dm
+[| "Dm"D2 DC CD D2 | "*"z2 "*"zD "C"ED/C/ "Dm"D2 |
+w: E-rets za-vat cha-lav cha-lav u-d'-vash
+   "Dm"D2 DC CD D2 | "*"z2 "*"zD "C"ED/C/ "Dm"D2 || "Gm"G2 AF "Dm"FF F2 |
+w: e-rets za-vat cha-lav cha-lav u-d'-vash.  E-rets za-vat cha-lav
+ "*"z2 "*"zF "A7"GF/E/ "Dm"F2 | "Gm"G2 AF "Dm"FF F2 | "*"z2 "*"zA "A7"GF/E/ "Dm"D2 |]
+w: cha-lav u-d'-vash e-rets za-vat cha-lav cha-lav u-d'-vash.
+[|"Dm"(d3 c)  d2 A2 | "Gm"(GF) G2 "Dm"F4 | "Dm"(d3 c)  d2 A2 | "Gm"(GF) AG "Dm"F4 |
+w: E-*rets za-vat* cha-lav za-*vat cha-lav* u-d'-vash
+| "F"(c3 B) A2 c2 | "Am"(ed) (ec) "Dm"d4 | "F"(c3 B) A2 c2 | "Am"(ed)  ec  "Dm"d4 |]
+w: E-*rets za-vat* cha-*lav za-*vat cha-lav* u-d'-vash.
+
+
+%%sep 3 1 500
+
+X: 2
+T: Erets zavat chalav [Em]
+C: E.Gamliel
+O: Deuteronomy 27:3
+N: May be played as a 2-part round
+M: C
+L: 1/8
+K: Em
+[| "Em"E2 ED DE E2 | "*"z2 "*"zE "D"FE/D/ "Em"E2 \
+|  "Em"E2 ED DE E2 | "*"z2 "*"zE "D"FE/D/ "Em"E2 \
+| "Am"A2 BG "Em"GG G2 |
+| "*"z2 "*"zG "B7"AG/F/ "Em"G2 \
+| "Am"A2 BG "Em"GG G2 | "*"z2 "*"zB "B7"AG/F/ "Em"E2 \
+[|"Em"(e3 d)  e2 B2 | "Am"(AG) A2 "Em"G4 |
+| "Em"(e3 d)  e2 B2 | "Am"(AG) BA "Em"G4 \
+| "G"(d3 c) B2 d2 | "Bm"(fe) (fd) "Em"e4 \
+| "G"(d3 c) B2 d2 | "Bm"(fe)  fd  "Em"e4 |]
+
+
+%%sep 3 1 500
+
+X: 3
+T: Erets zavat chalav [F#m]
+C: E.Gamliel
+O: Deuteronomy 27:3
+N: May be played as a 2-part round
+M: C
+L: 1/8
+K: F#m
+[| "F#m"F2 FE EF F2 | "*"z2 "*"zF "E"GF/E/ "F#m"F2 \
+|  "F#m"F2 FE EF F2 | "*"z2 "*"zF "E"GF/E/ "F#m"F2 \
+| "Bm"B2 cA "F#m"AA A2 |
+| "*"z2 "*"zA "C#7"BA/G/ "F#m"A2 \
+| "Bm"B2 cA "F#m"AA A2 | "*"z2 "*"zc "C#7"BA/G/ "F#m"F2 \
+[|"F#m"(f3 e)  f2 c2 | "Bm"(BA) B2 "F#m"A4 |
+| "F#m"(f3 e)  f2 c2 | "Bm"(BA) cB "F#m"A4 \
+| "A"(e3 d) c2 e2 | "C#m"(gf) (ge) "F#m"f4 \
+| "A"(e3 d) c2 e2 | "C#m"(gf)  ge  "F#m"f4 |]

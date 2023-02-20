@@ -1,0 +1,28 @@
+X: 1
+T: None such
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.223 "U 4"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f |\
+f2c A2B | c3 F2c | f>gf g>ab | a3 f2a |\
+c'a2 bg2 | af2 ge2 | dec c2=B | c3- c2 |]
+c |\
+(dB)B (Bc)d | c2B A2A | (Bc)d (d_e)d | g2f e2g |\
+(ab)d (eg)c | (df)A G2B | (AF)f f2e | f3- f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%    All four hands half round and fall back, the 1. man being in the 2. wo. place, cross over with the
+%% wo. into the 1. man's place .| All four hands half round again, and the 1. wo. change places with the 2.
+%% man :|
+%%    The 1. man being in the 2. wo. place, go back to back with the 2. wo. into the 1. man's place, the
+%% other two do the like .| The 1. cu. being in the 2. cu. place, go the half Figure above till they come
+%% into the 2. cu. place, the other do the like at the same time :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

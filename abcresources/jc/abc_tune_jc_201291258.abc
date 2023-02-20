@@ -1,0 +1,38 @@
+
+X: 1
+T: Ivanica    [C]
+R: lesnoto
+O: Bulgaria
+Z: John Chambers <jc:trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: C
+%%text N.B.: No extra measures!
+P: Instr:
+|| "C"[EC][FD][GE] [GE][FD] [E2C] | [GE][AF][BG] [BG][AF] [G2E] |\
+  "G"[BG][cA][dB] "D"[dB][cA] [c/A][B/G][c/A][d/B] | "G"[B7G] |\
+  "G"[BG][cA][dB] [dB][cA] [cA][BG] | "G7"[B2G][cA] [BG][AF] [AF][GE] |\
+  "F"[A2F][BG] "G7"[GE][FD] [FD][EC] | "C"[E7C]  ||
+P: Vocal:
+|| "F"[A2c][Ac] [G2B] [A2c] | "G7"[B2d][Ac] [G2B] [F2A] | "C"[E2G][FA] "F"[A2c] [Ac][GB] | "G"[G7B] |
+w: 1.~Vi-*e se vi-e o-ro ma-*ke-don-*sko,
+w: 2.~Si-ot na-rod se na-so-bral ma-*ke-don-*ski,
+w: 3.~Da li ge-da\vs, mi-lo Sko-pje, da* li slu-*\vsa\vs,
+| "F"[A2c][Ac] [G2B] [A2c] | "G"[B2d][Ac] [G2B] [F2A] | "C"[E3G] "G"[FA][EG] [DF][CE]  | "C"[C7E] ||
+w: Go-lem so-bor mi se so-bral kraj Var-*da-*rot.
+w: Pre-gr-na-til brat-ski da se raz-ve-*se-*lat.
+w: Kak-va Ma-ke-don-ska pes-na se pe-***e.
+|: "Am"[c2e][Bd] [A2c] [A2c] | "G"[B2d][Ac] [G4B] | "Dm"[A3c] "(G)"[G2B] "F"[A2c] | "G"[FA][EG][FA] "C"[E4G] |
+w: O-*ra i pes-*na, son-ce i lju-**bov,
+| "F"[A2c][GB] [F2A] [F2A] | "G"[G2B][FA] "C"[E4G] | "G"[F2A][FA] [EG][FA] [D2F] | "C"[C7E] :|
+w: to-*va e na-*\vsa Ma-ke-do-*ni-ja.
+%
+%%wordsfont Times-Roman 12
+W: 1. A Macedonian dance turns and twines, many people are by the Vardar River
+W: 2. The entire Macedonian nation comes together to rejoice.
+W: 3. Did you see, dear Skopje, did you hear what kind of Macedonian song has been sung?
+W: chorus: Dance and song, sun and love, this is our Macedonia.
+N:
+N: Translation from Richard Geisler.
+N: Music combined from 5 different transcriptions.
+N: The cool Bm at start of chorus from Patrick Yacono.

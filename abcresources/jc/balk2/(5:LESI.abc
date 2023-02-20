@@ -1,0 +1,22 @@
+X: 285
+T:Lesi
+O:Albania
+F: http://www.youtube.com/watch?v=D1xxhVHOlYM
+F: http://www.youtube.com/watch?v=5Fx7c24xZc0
+F: http://www.youtube.com/watch?v=RGc1qjdXDvA
+S:adapted from Deborah Jones, Vancouver Folk Dance Music Book
+L:1/8
+M:7/8
+Q:1/4=132
+%%MIDI gchord fzffzfz
+%%MIDI beatstring fpppmpp
+K:Dm
+|:"Dm" D3 [A4F4]               | "Gm6" [G2E2][FD][G4E4]        |\
+  "A7" [G2E2][DFA,][E2G2][F2A2]|\
+  "Dm"[D2A2][CG][D4A4]         | [DG,][EG,][A,CG,] [D2A,2] z2  :|\
+|:"F" [F3A3] [F2A2-][FA][Ac]   | "C7" [G3B3-] [GB][FA][E2G2]   |\
+  "F" [F3A3] [F2-A2-][FA][Ac]  |"C7" [G2B2] [FA] [E2G2] z2     |
+  "Gm"G3 G2 AB                 |"Dm" A2 G FE D2                |\
+  "A7" E2G FED^C               | "Dm" D3-D2  z2                :|\
+|:"A7" E2 G FED^C              |"Dm"DzBA^GAF                   |\
+  "A7"E2G FED^C                |"Dm" D3D2 z2                   :|

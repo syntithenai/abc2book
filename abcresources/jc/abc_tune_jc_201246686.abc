@@ -1,0 +1,49 @@
+X: 0
+T: An-Dro Retourn\'ee
+O: Br\'etagne
+%info:line
+M: 2/4
+Q: 1/4=96
+K:
+
+
+X: 1
+P: Changerais-tu?   [F]
+O: Bretagne
+M: 2/4
+L: 1/8
+K: F
+C2 | "F"AB AG | A2 FG-| "C7"GA BA | G2 C2 |
+w: J'ai huit \`a neuf mou-tons dans mon* m\'e-nage en haut, j'ai
+   | "F"AB AG | A2 FG-| "C7"GF EG | F2 :|
+w: huit \`a neuf mou-tons dans mon* m\'e-nage en bas.
+F2 | "Bb"BB "C7"AG | "F"A2 F2 | "Bb"BB "C7"AG | "F"A2 "C7"kc2 |
+w: Dans mon m\'e-nage en haut, dans mon m\'e-nage en bas. H\'e!
+|: "F"A2 c2 | F2 FF | "C7"GG GG | "F"A2 "C7"G2 |
+w: Change-rais tu, Ma-de-lei-ne, Ma-de-lei-ne?
+|  "F"A2 c2 | F2 AA | "C7"GG G2 | "F"F4 :| |: "(vamp)"z4 :|
+w: Change-rais tu, Ma-de-lei-ne, dors tu?
+%%begintext
+%%Decrease the numbers by one for each verse.
+%%The final bar may be stretched on for several more bars.
+%%endtext
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+
+X: 2
+P: Changerais-tu?    [G]
+O: Bretagne
+M: 2/4
+L: 1/8
+K: G
+D2 | "G"Bc BA | B2 GA-| "D7"AB cB | A2 D2 |\
+   | "G"Bc BA | B2 GA-| "D7"AG FA | G2 :|\
+G2 | "C"cc "D7"BA | "G"B2 G2 |
+   | "C"cc "D7"BA | "G"B2 "D7"kd2 |\
+|: "G"B2 d2 | G2 GG | "D7"AA AA | "G"B2 "D7"A2 |\
+|  "G"B2 d2 | G2 BB | "D7"AA A2 | "G"G4 :| |: "(vamp)"z4 :|\
+% %text The final bar may be stretched on for several more bars, depending on the singer.
+

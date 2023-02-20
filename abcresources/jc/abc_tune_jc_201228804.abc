@@ -1,0 +1,28 @@
+X: 11631
+T: SAE MERRY AS WE TWA HAE BEEN
+Q: "Slow."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.163 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(g>f) |\
+e3fg2 | B2A2(G>A) | G2F2(g>f) | e2(gf)g2 |\
+E3F (GA) | B4(ba) | g2(ag)(fe) | c2(ec)(BG) |\
+(A3B) (cd) | e3dc2 | (Bc)(BA)(GF) | E4 |]
+G>F |\
+E2(G>A)B2 | (E2GB) (eG) | (G2F2GF) | (E2GA)B2 |\
+(G2AB)c2 | B4(ba) | g2(ag)(fe) | c2(ec) (BA/G/) |\
+(A3B) (cd) | e3dc2 | (B>cB)A (G>F) | E4 |]
+(g>f) |\
+e3f{ef}g2 | e2f2(g>a) | (g2f2)(g>f) | e3fg2 |\
+(ed)(ef)(ga) | b4(ba) | g2(ag)(fe) | c2(ec) (BA/G/) |\
+A3B (cd) | (e>g)(fe)(dc) | (B>c) (BA)(GF) | E4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The above tune appears in the "Skene M.S.," 1598.
+%%endtext
+%%sep 1 1 300

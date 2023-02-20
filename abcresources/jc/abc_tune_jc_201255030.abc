@@ -1,0 +1,698 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 28
+B: RSCDS Book 28
+K:
+%%center Book28/2800-Title.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2801
+T: A Trip O'er The Tweed
+%
+P: The Misses Little's Fancy
+C:George Jenkins (?-1806)
+R:Jig (4x48) AABBAB
+B:RSCDS 28-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:A
+|: A//B//c//d// |\
+"A"e3 "D"f2e | "A"eaf ecA | "E7"dcB "A"cBA | "Bm"FBB "E7"B2 c |
+"A"AcA "E"BdB | "A"cec "D"faf | "A"ecA E2[EC] | "D"[FD]AA "A"[A2E2C2] :|
+|: E |\
+"A"CEE "Bm7"DFF | "A7"EGG "D"FAA | "E"GBB "F#m"Acc | "E7"dBB B3 |
+"A"AcA "E"BdB | "A"cec "D"faf | "A"ecA "D"F2 E | "D"FA[AD] "A"[A2C2] :|
+%%center Book28/2801-Trip_Oer_The_Tweed-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2802
+T: Pretty Polly
+%
+P: Miss Rose's Strathspey
+C:Athole Coll.
+R:Strathspey (8x32)
+B:RSCDS 28-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:A
+%
+e |\
+"A"A/A/A c>A "E7"d>B "A"e>c | "Bm"(3def (3edc "E7"d<BB>c |\
+"A"A/A/A c>A "E7"d>B "A"e>c | "Bm"d/c/B/A/ "E"G>B "A"A/A/A Ae |
+"A"A/A/A c>A "E7"d>B "A"e>c | "Bm"(3def (3edc "E7"d<BB>c |\
+"A"A/A/A c>A "E7"d>B "A"e>c | "Bm"d/c/B/A/ "E"G>B "A"A/A/A A ||
+e |\
+"A"a>b a>b e<c c>A | "D"(3def "A"(3edc "E7"d>B B>e |\
+"A"a>b a>b e<c c>A | "Bm"d/c/B/A/ "E"G>B "A"A/A/A A>g |
+"F#m"(3aba "E"(3gag "D"(3fgf "A/C#"e>c | "Bm"(3def "A"edc "E7"d>B B>c |\
+"A"(3AEA (3cAc "Bm"(3dBd "A/C#"(3ece | "D"(3fdf "E"geg "A"a<A A |]
+%%center Book28/2802-Pretty_Polly-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2803
+T: Bonnie Lass
+P: Mr John Stewart
+C:Glen Coll.
+R:Reel (8x32)
+B:RSCDS 28-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:F
+A|"F"F2F2 AFcA|F2F2 "C7"AGGA|"F"F2F2 cAcA|"Bb"Bd"C7"GB "F"AF FA
+  "F"F2F2 AFcA|F2F2 "C7"AGGA|"F"F2F2 cAcA|"Bb"Bd"C7"GB "F"AF F||
+c|"F"f>a"Bb"fd "Am"cecA|"Dm"f2fa "Gm"gd"C7"de|\
+    "F"f>a"Bb"fd "C"ce"Dm"fg|"C7"fdcB "F"AFFc|
+  "F"f>a"Bb"fd "Am"cecA|"Dm"f2fa "Gm"gd"C7"de|\
+    "F"f>a"Bb"fd "C"ce"Dm"fg|"C7"fdcB "F"AFF|]
+%%center Book28/2803-Bonnie_Lass-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2804
+T: The Star
+P: Dod House
+C:Glen Coll.
+R:Strathspey (3x32)
+B:RSCDS 28-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:A
+C|"A"A,>C E>F A>B c>B|"D"A<FF>A "E"B<B,B,>C|\
+  "A"A,>C E>F A>B c>B|
+                      "D"F<D "E7"A/F/E/C/ "A"EA,A, c|\
+  "A"A>c e>f a>b c'>b|"D"a<ff>a "E7"b<BB>c|
+  "A"A>c e>f a>b c'>b|"D"a<f "E7"a/f/e/c/ "A"eAA||\
+c/d/|"A"ef/e/ d/c/B/A/ e<A "D"d>f|
+                                  "A"ed/c/ cB/A/ "E7"cBB c/d/|\
+  "A"ef/e/ cB/A/ "D"f/g/a/e/ d/c/B/A/|"E7"E<Ac>B "A"cAA c/d/|
+  "A"e/f/e/d/ d/c/B/A/ a>A cB/A/|"E7"d>B "A"c>A "E"B<B,B,>C|\
+  "A"A,>C E>F A>B c>B|"D"A>F "E7"A/F/E/C/ "A"EA,A,|]
+%%center Book28/2804-Star-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2805
+T: The New Petronella
+P: Hebridean Milking Song
+C:Trad.
+R:Reel (2x48) AABBAB
+B:RSCDS 28-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/4
+K:G
+|:d|"G"G>G GG|dd/d/ Bd|G/G/G/G/ DD/D/|"C"EG "D"BA|
+    "G"G>G GG|dd/d/ Bd|G/G/G/G/ DG|"D7"BA "G"G:|
+|:B|"G"d/d/d/d/ GG/G/|Bd "C"e"G"d|d/d/d/d/ "C"e"G"d/d/|"C"e"G"d B"D#o"A/B/|
+    "G"G>G GG|dd/d/ Bd|G/G/G/G/ DG|"D7"BA "G"G:|
+%%center Book28/2805-New_Petronella-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2806
+T: Mairi's Fancy
+P: Mrs Findlay of Haywood
+C:Kohler
+R:Strathspey (8x32)
+B:RSCDS 28-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+A,|"D"D<D F>A d>e f>a|"Em"g>f e>d "A"(3cBA "A7"(3GFE|\
+   "D"D<D F>A d>e f>a|
+                      "G"g/f/e/d/ "A"c/d/e/g/ "D"f<dd>A|\
+   "D"D<D F>A d>e f>a|"Em"g>f e>d "A"(3Bcd (3cBA|
+   "G"(3BGB (3dcB "F#m"(3cAf "G"(3gfe|"A"(3Bcd (3efg "D"f<dd||\
+f|"D"a>f d>B A>F D>F|
+                     "Em"G<B e>g "A"g/f/e/d/ c/B/A/G/|\
+  "D"F<DA>F "Em"G<Ee>f|"A"(3gfe (3cde "D"f<dd>f|
+  "D"a>f d>B A>F D>F|"Em"G>B e>g "A"g/f/e/d/ c/B/A/G/|\
+  "D"F<DA>F "Em"G<Ee>d|"A"(3cBA "A7"(3GFE "D"F<DD|]
+%%center Book28/2806-Mairis_Fancy-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2807
+T: Mrs Hill's Delight
+P: Mrs Hill's Delight
+C:Clarke's Collection
+R:Reel (8x32)
+B:RSCDS 28-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/8
+K:F
+|:c|"F"ff "C7"gg|"F"f/e/d/c/ cd/e/|"Dm"ff "Gm"gg|ba "C7"gc|
+    "F"ff "C7"gg|"F"f/e/d/c/ cd/e/|"Bb"ff "C7"g/f/g/a/|"F"[f3A3]:|
+|:a/b/|"F"c'c' aa|"C7"bb g2|"Dm"af "G"dg|"C"f/e/g/e/ "C7"c a/b/|
+    "F"c'c' aa|"C7"bb g2|"Dm"a/f/"Gm"d/g/ "C7"fe|"F"[f3A3]:|
+%%center Book28/2807-Mrs_Hills_Delight-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2808
+T: The Cumbrae Reel
+P: Willie was a Wanton Wag
+C:Burns
+R:Reel (8x32)
+B:RSCDS 28-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:D
+B/A/G|"D"F2A2 A2Bc|dcde dBAG|F2A2 A2ef|"Em"gfed "A7"B2 B/A/G|
+  "D"F2A2 A2Bc|d>cde dBAG|F2A2 A2"G"g2|"A7"faec "D"d2 z||
+g|"D"f3a "A7"e3f|"D"dcde gfed|fgaf "Em"e2ef|gfed "A7"B3g|
+  "D"fagf "A7"egfe|"Bm"d>cde "A7"f>efg|"D"a2A2 A2"G"g2|"A7"faec "D"d2|]
+%%center Book28/2808-Cumbrae_Reel-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2809
+T: Euan's Jig
+P: A Trip to St. Andrews
+C:Nath. Gow
+R:Jig (8x32)
+B:RSCDS 28-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:A
+|:"A"A2A Ace|"D"agf "A"ecA|A2A Ace|"E7"BGE "A"ECA,|
+  "A"A2A Ace|"D"agf "A"ecA|"D"dfd "A"ecA|"E7"EBG "A"A3:|
+|:"A"e2a ac'a|"E7"bd'b bge|"A"e2a ac'a|"E7"d'bg "A"a3|
+  "A"e2a ac'a|"E"bd'b bge|"E7"bd'b "A"ac'a|"E7"d'bg "A"a3:|
+%%center Book28/2809-Euans_Jig-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2810
+T: Miss Shaftesbury's Fancy
+%
+P: Lady Mary Murray
+C:Nath. Gow
+R:Strathspey (8x32)
+B:RSCDS 28-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:G
+%
+E |\
+"G"D>E G>B d/c/B/A/ BG | "Am"A>B c>B "D"A>G F>E |\
+"G"D>E G>B d/c/B/A/ BG | "C"A<B "D7"[gG]>B "G"G/G/G GE |
+"G"D>E G>B d/c/B/A/ BG | "Am"A>B c>B "D"A>G F>E |\
+"G"D>E G>B d/c/B/A/ BG | "C"A<B "D7"[gG]>B "G"G/G/G G ||
+g |\
+"G"d>e g>a b/a/g/f/ g>e | d<Bg>B "D"Ad FD |\
+"G"d>e g>a b/a/g/f/ "C"g>e | "G"d>B g>B G/G/G G>e |
+"G"d>e g>b "D"a<b"Em"g>a | "C"e<g "G"B>g "D7"A>G F>E |\
+"G"D>E G>B d/c/B/A/ BG | "C"A<B "D7"[gG]>B "G"G/G/G G |]
+%%center Book28/2810-Miss_Shaftesburys_Fancy-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2811
+T: Two To One
+P: Mrs Campbell of Monzies
+C:R. Mackintosh
+R:Jig (8x32)
+B:RSCDS 28-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Bb
+|:F|"Bb"D/E/FF F2B|"Eb"E/F/GG G2B|"F"A/B/cc "F7"c2e|"Bb"dfb fdB|\
+    "Bb"D/E/FF F2B|"Eb"E/F/GG G2B|
+                                  "F"[AF]>Bc "F7"[FE]GA|"Bb"[B3F3D3][B2F2D2]:|\
+  B|"Bb"d>ef fdB|"Eb"egb bge|"Bb"d>ef fdB|"F"A>Bc cAF|
+    "Bb"d>ef fdB|"Eb"egb bge|"Bb"def "F7"edc|"Bb"B3 B2e|\
+    "Bb"d>ef fdB|"Eb"egb bge|
+                             "Bb"def fdB|"F"ABc cFA|\
+    "Eb"GAB "F"ABc|"Gm"Bcd "F7/A"efg|"Bb"fed "F7"cBA|"Bb"B3 B2|]
+%%center Book28/2811-Two_To_One-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2812
+T: Not I
+%
+P: The Mill Burn
+C:Kerr's Coll.
+R:Reel (8x32)
+B:RSCDS 28-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:A
+E | "A"A2cA "E7"GABc | "Bm"dFBA "E7"GBEG | "A"A2cA "D"Bcdf | "E7"ecdB "A"A/A/A A :|
+B | "A"Aaga "D"fedc | "Bm"dFBA "E7"GBEG | "A"Aaga "D"fedc | "E7"dfec "A"A/A/A A |
+B | "A"Aaga "D"fedc | "Bm"dFBA "E7"GBEG | "A"Ac"E"Bd "A"ce"D"df | "E7"ecdB "A"A/A/A A |]
+%%center Book28/2812-Not_I-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 28011
+T: The Misses Little's Fancy
+C: George Jenkins (?-1806)
+R: jig
+B: RSCDS 28-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+A//B//c//d// \
+| "A"e3 "D"f2e | "A"eaf ecA | "E7"ecB "A"cBA | "Bm"FBB "E7"B2c \
+| "A"AcA "E7"BdB | "A"cec "D"faf | "A"ecA E2[EC] | "D"[FD3]AA "A"[A2E2C2] :|
+|: E \
+| "A"CEE "Bm"DFF | "C#m"EGG "D"FAA | "E7"GBB "F#m"Acc | "E7"dBB B3 \
+| "A"AcA "E7"BdB | "A"cec "D"faf | "A"ecA "D"F2E | FA[AD] "A"[A2C2] :|
+%%center Book28/28011-Misses_Littles_Fancy-1.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 28021
+T: Miss Rose's Strathspey
+R: strathspey
+B: RSCDS 28-2
+N: Recommented tune for Pretty Polly
+O: Athole Collection
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+   e \
+| "A"A/A/A c>A "E7"d>B "A"e>c | "Bm"(3def (3edc "E7"d<B B>c \
+| "A"A/A/A c>A "E7"d>B "A"e>c | "Bm"d/c/B/A/ "E7"G>B "A"A/A/A A :|
+   e \
+| "A"a>b a>b e<c c>A | "D"(3def "A"(3edc "E7"d>B B>e \
+| "A"a>b a>b e<c c>A | "Bm"d/c/B/A/ "E7"G>B "A"A/A/A A ||
+   g \
+| "F#m"(3aba "E"(3gag "D"(3fgf "A"e>c | "D"(3def "A"edc "E7"d>B B>c \
+| "A"(3AEA (3cAc "Bm"(3dBd "A/C"(3ece | "D"(3fdf "E7"geg "A"a<A A |]
+%%center Book28/28021-Miss_Roses_Strathspey-1.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 28031
+T: Mr John Stewart
+O: Glen Collection
+R: reel
+B: RSCDS 28-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Caledonian Country Dances" 1754
+M: C|
+L: 1/8
+%--------------------
+K: F
+|: A \
+| "F"F2F2 AFcA | F2F2 "C7"AGGA | "F"F2F2 cAcA | "Bb"Bd"C7"GB "F"AF F :|
+|: c \
+| "F"f>a"Bb"fd "Am"cecA | "Dm"f2fa "Gm"gd"C7"de | "F"f>a"Bb"fd "C"ce"Dm"fg | "C7"fdcB "F"AFF :|
+%%center Book28/28031-Mr_John_Stewart-1.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 28032
+T: Dod House
+O: Glen Collection
+R: strathspey
+B: RSCDS __-__
+N: The Hilton Manuscript
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: A
+C \
+| "A"A,>C E>F A>B c>B | "D"A<F F>A "E7"B<B, B,>C \
+| "A"A,>C E>F A>B c>B | "D"A<F "E7"EC "A"EA,A, ||
+c \
+| "A"A>c e>f a>b c'>b | "D"a<f f>a "E7"b<B B>c \
+| "A"A>c e>f a>b c'>b | "D"a<f "E7"ec "A"eAA ||
+c/d/ \
+| "A"ef/e/ d/c/B/A/ e<A "D"d>f | "A"ed/c/ cB/A/ "E7"cB Bc/d/ \
+| "A"ef/e/ cB/A/ "D"f/g/a/e/ d/c/B/A/ | "E7"E<A c>B "A"cA A ||
+c/d/ \
+| "A"ef/e/ d/c/B/A/ a>A cB/A/ | "E7"d>B "A"c>A "E7"B<B, B,>C \
+| "A"A,>C E>F A>B c>B | "D"A>F "E7"EC "A"EA,A, |]
+%%center Book28/28041-Dod_House.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 28051
+T: Hebridean Milking Song
+R: march
+B: RSCDS 28-5
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: d2 \
+| "G"G3G G2G2 | d2dd B2d2 | GGGG D2DD | "C"E2G2 "D"B2A2 \
+| "G"G3G G2GG | d2dd B2d2 | GGGG D2G2 | "D7"B2A2 "G"G2 :|
+|: B2 \
+| "G"dddd G2GG | B2d2 "C"e2"G"d2 | "G"dddd "C"e2"G"dd | "C"e2"G"d2 "B7"B2AB \
+| "Em"G3G G2GG | "G"d2dd B2d2 | "G"GGGG D2G2 | "D7"B2A2 "G"G2 :|
+%%center Book28/28051-Hebridean_Milking_Song-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 28081
+T: Willie Was a Wanton Wag
+R: reel
+B: RSCDS 28-8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Song by Robert Burns (Tune may be older)
+M: C|
+L: 1/8
+%--------------------
+K: D
+AG \
+| "D"F2A2 "(A)"A2Bc \
+| "D"dcde "(A)"dBAG \
+| "D"F2A2 A2ef \
+| "Em"gfed "A7"B2AG \
+| "D"F2A2 "(A)"A2Bc |
+| "D"dcde "(A)"dBAG \
+| "D"F2A2 A2"G"g2 \
+| "A7"faec "D"d2 \
+:: g2 \
+| "D"f3a "A7"e3f \
+| "Bm"dcde "A7"gfed |
+| "D"fgaf "Em"e3f \
+| "G"gfed "A7"B3g \
+| "D"fagf "A7"egfe \
+| "Bm"dcde "A7"fefg \
+| "D"a2A2 A2"G"g2 \
+| "A7"faec "D"d2 :|
+%%center Book28/28081-Willie_Was_a_Wanton_Wag-1.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 28082
+T: Willie Was a Wanton Wag
+R: reel
+B: RSCDS 28-8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Song by Robert Burns (Tune may be older)
+M: C|
+L: 1/8
+%--------------------
+K: D
+(3BAG \
+| "D"F2A2 A2Bc | dcde dBAG | F2A2 A2ef | "Em"gfed "A7"B2(3BAG |
+| "D"F2A2 A2Bc | dcde dBAG | F2A2 A2"G"g2 | "A7"faec "D"d2 ||
+|| g2 \
+| "D"f3a "A7"e3f | "D"dcde gfed | fgaf "Em"e2ef | gfed "A7"B3g |
+| "D"fagf "A7"egfe | "Bm"dcde "A7"fefg | "D"a2A2 A2"G"g2 | "A7"faec "D"d2 |]
+%%center Book28/28081-Willie_Was_a_Wanton_Wag-2.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 28083
+T: Willie Was a Wanton Wag
+R:Reel
+S:8 X 32 Reel 1,2,3,4,   2,3,4,1
+N:Song by Robert Burns (Tune may be older)
+B:RSCDS 28-8
+Z:1997 by John Chambers <jc@trillian.mit.edu>
+M:C
+L:1/8
+Q:116
+%--------------------
+K:D
+|:(3BAG \
+| "D"F2A2 A2Bc | dcde dBAG | F2A2 A2ef | "Em"gfed "A7"B2(3BAG |!
+| "D"F2A2 A2Bc | dcde dBAG | F2A2 A2"G"g2 | "A7"faec "D"d2 :||!
+|: g2 \
+| "D"f3a "A7"e3f | "D"dcde gfed | fgaf "Em"e2ef | gfed "A7"B3g |!
+| "D"fagf "A7"egfe | "Bm"dcde "A7"fefg | "D"a2A2 A2"G"g2 | "A7"faec "D"d2 :|]
+%%center Book28/28081-Willie_Was_a_Wanton_Wag-7.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 28091
+T: A Trip to Saint Andrews
+C: Nathaniel Gow
+R: jig
+B: RSCDS 28-9
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%
+K:  A
+|: "A"A2A Ace |  "D"agf "A"ecA |  "A"A2A    Ace | "E7"BGE "A"ECA, \
+|  "A"A2A Ace |  "D"agf "A"ecA |  "D"dfd "A"ecA | "E7"EBG "A"A3  :|
+|: "A"E2A AcA | "E7"BdB    BGE |  "A"E2A    AcA | "E7"dBG "A"A3   \
+|  "A"E2A AcA | "E7"BdB    BGE | "E7"BdB "A"AcA | "E7"dBG "A"A3  :|
+%%center Book28/28091-Trip_to_Saint_Andrews-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 28092
+T: Lady Mary Murray
+C: Nathaniel Gow
+R: strathspey
+B: RSCDS 28-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+E \
+| "G"D>E G>B d/c/B/A/ BG | "Am"A>B c>B "D7"A>G F>E \
+| "G"D>E G>B d/c/B/A/ BG | "C"A<B "D7"[gG]>B "G"G/G/G G :|
+|| g \
+| "G"d>e g>a b/a/g/f/ g>e | d<B g>B "D7"Ad FD \
+| "G"d>e g>a b/a/g/f/ "C"g>e | "G"d>B g>B G/G/G G ||
+|| e \
+| "G"d>e g>b "D7"a<b "Em"g>a | "C"e<g "G"B>g "D7"A>G F>E \
+| "G"D>E G>B d/c/B/A/ BG | "C"A<B "D7"[gG]>B "G"G/G/G G :|
+%%center Book28/28101-LadyMaryMurray-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 28093
+T: The Mill Burn
+R:reel
+B:RSCDS 28-12
+O:Kerr's Collection
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C|
+L:1/8
+K:A
+E | "A"A2cA "E7"GABc | "Bm"dFBA "E7"GBEG | "A"A2cA "D"Bcdf | "E7"ecdB "A"A/A/A A :|
+B | "A"Aaga "D"fedc | "Bm"dFBA "E7"GBEG | "A"Aaga "D"fedc | "E7"dfec "A"A/A/A A ||
+B | "A"Aaga "D"fedc | "Bm"dFBA "E7"GBEG | "A"Ac"E"Bd "A"ce"D"df | "E7"ecdB "A"A/A/A A |]
+%%center Book28/28121-Mill_Burn-1.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 28094
+T: Dod House
+O: Glen Collection
+R: strathspey
+B: RSCDS __-__
+N: The Hilton Manuscript
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: A
+C \
+| "A"A,>C E>F A>B c>B | "D"A<F F>A "E7"B<B, B,>C \
+| "A"A,>C E>F A>B c>B | "D"A<F "E7"EC "A"EA,A, ||
+c \
+| "A"A>c e>f a>b c'>b | "D"a<f f>a "E7"b<B B>c \
+| "A"A>c e>f a>b c'>b | "D"a<f "E7"ec "A"eAA ||
+c/d/ \
+| "A"ef/e/ d/c/B/A/ e<A "D"d>f | "A"ed/c/ cB/A/ "E7"cB Bc/d/ \
+| "A"ef/e/ cB/A/ "D"f/g/a/e/ d/c/B/A/ | "E7"E<A c>B "A"cA A ||
+c/d/ \
+| "A"ef/e/ d/c/B/A/ a>A cB/A/ | "E7"d>B "A"c>A "E7"B<B, B,>C \
+| "A"A,>C E>F A>B c>B | "D"A>F "E7"EC "A"EA,A, |]
+%%center Book28/Dod_House.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 28095
+T: Mr John Stewart
+O: Glen Collection
+R: reel
+B: RSCDS 28-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Caledonian Country Dances" 1754
+M: C|
+L: 1/8
+K: F
+|: A \
+| "F"F2F2 AFcA | F2F2 "C7"AGGA | "F"F2F2 cAcA | "Bb"Bd"C7"GB "F"AF F :|
+|: c \
+| "F"f>a"Bb"fd "Am"cecA | "Dm"f2fa "Gm"gd"C7"de | "F"f>a"Bb"fd "C"ce"Dm"fg | "C7"fdcB "F"AFF :|
+%%center Book28/JohnStewart-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 28096
+T: Mr John Stewart
+O: Glen Collection
+R: reel
+B: RSCDS 28-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Caledonian Country Dances" 1754
+M: C|
+L: 1/8
+K: F
+|: A \
+| "F"F2F2 AFcA | F2F2 "C7"AGGA | "F"F2F2 cAcA | "Bb"Bd"C7"GB "F"AF F :|
+|: c \
+| "F"f>a"Bb"fd "Am"cecA | "Dm"f2fa "Gm"gd"C7"de | "F"f>a"Bb"fd "C"ce"Dm"fg | "C7"fdcB "F"AFF :|
+%%center Book28/JohnStewart_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 28097
+T: Willie Was a Wanton Wag
+R: reel
+B: RSCDS 28-8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Song by Robert Burns (Tune may be older)
+N: Published as The Constitution March in early American sources.
+N: The original tune for Jefferson & Liberty.
+M: C|
+L: 1/8
+K: D
+AG \
+| "D"F2A2 "(A)"A2Bc \
+| "D"dcde "(A)"dBAG \
+| "D"F2A2 A2ef \
+| "Em"gfed "A7"B2AG \
+| "D"F2A2 "(A)"A2Bc |
+| "D"dcde "(A)"dBAG \
+| "D"F2A2 A2"G"g2 \
+| "A7"faec "D"d2 \
+:: g2 \
+| "D"f3a "A7"e3f \
+| "Bm"dcde "A7"gfed |
+| "D"fgaf "Em"e3f \
+| "G"gfed "A7"B3g \
+| "D"fagf "A7"egfe \
+| "Bm"dcde "A7"fefg \
+| "D"a2A2 A2"G"g2 \
+| "A7"faec "D"d2 :|
+%%center Book28/WillieWasAWantonWag-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 28098
+T: Willie Was a Wanton Wag
+R: reel
+B: RSCDS 28-8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Song by Robert Burns (Tune may be older)
+M: C|
+L: 1/8
+K: D
+(3BAG \
+| "D"F2A2 A2Bc | dcde dBAG | F2A2 A2ef | "Em"gfed "A7"B2(3BAG |
+| "D"F2A2 A2Bc | dcde dBAG | F2A2 A2"G"g2 | "A7"faec "D"d2 ||
+|| g2 \
+| "D"f3a "A7"e3f | "D"dcde gfed | fgaf "Em"e2ef | gfed "A7"B3g |
+| "D"fagf "A7"egfe | "Bm"dcde "A7"fefg | "D"a2A2 A2"G"g2 | "A7"faec "D"d2 |]
+%%center Book28/WillieWasAWantonWag_16-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 28099
+T: Willie Was a Wanton Wag
+R: reel
+B: RSCDS 28-8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Song by Robert Burns (Tune may be older)
+M: C|
+L: 1/8
+K: D
+(3BAG \
+| "D"F2A2 A2Bc | dcde dBAG | F2A2 A2ef | "Em"gfed "A7"B2(3BAG |
+| "D"F2A2 A2Bc | dcde dBAG | F2A2 A2"G"g2 | "A7"faec "D"d2 ||
+|| g2 \
+| "D"f3a "A7"e3f | "D"dcde gfed | fgaf "Em"e2ef | gfed "A7"B3g |
+| "D"fagf "A7"egfe | "Bm"dcde "A7"fefg | "D"a2A2 A2"G"g2 | "A7"faec "D"d2 |]
+%%center Book28/WillieWasAWantonWag_16_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 28100
+T: Willie Was a Wanton Wag
+R: reel
+B: RSCDS 28-8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Song by Robert Burns (Tune may be older)
+N: Published as The Constitution March in early American sources.
+N: The original tune for Jefferson & Liberty.
+M: C|
+L: 1/8
+K: D
+AG \
+| "D"F2A2 "(A)"A2Bc \
+| "D"dcde "(A)"dBAG \
+| "D"F2A2 A2ef \
+| "Em"gfed "A7"B2AG \
+| "D"F2A2 "(A)"A2Bc |
+| "D"dcde "(A)"dBAG \
+| "D"F2A2 A2"G"g2 \
+| "A7"faec "D"d2 \
+:: g2 \
+| "D"f3a "A7"e3f \
+| "Bm"dcde "A7"gfed |
+| "D"fgaf "Em"e3f \
+| "G"gfed "A7"B3g \
+| "D"fagf "A7"egfe \
+| "Bm"dcde "A7"fefg \
+| "D"a2A2 A2"G"g2 \
+| "A7"faec "D"d2 :|
+%%center Book28/WillieWasAWantonWag_JC.abc

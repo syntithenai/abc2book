@@ -1,0 +1,25 @@
+X: 1
+T:The Rose
+M:6/8
+C:
+S:Bacon (MDT)
+N:transposed from A to G
+A:Field Town
+O:English
+R:Jig
+%:
+%:
+%P:A/2.AB.(CB)$^2$
+P:A.AB.(CB)2
+L:1/16
+K:G
+Q:C6=100
+P:A
+DEF   |: G2D2G2 G4 A2     |  B2A2B2 c2d2e2 | d2B2G2 c2A2F2 \
+      |1 G3AG2  G4 (3DEF :|2 G3AG2  G4     ||\
+P:B
+|: Bc |  d2e2d2 d2B2G2    |  A2c2B2 A2F2D2 | E2F2G2 c2A2F2 | G3AG2  G4 :|\
+P:C
+DEF   |: (2G2D2 G6        |  G6     A6     | (2B2A2 B6     | (2c2d2 e6 |\
+         (2d2B2 G6        |  (2c2A2 F6     | (2G2A2 G6     \
+      |1 G6     D2E2F2   :|2 G6     G4     ||

@@ -1,0 +1,25 @@
+X: 21791
+T: LOCHERROCH SIDE
+O: Scottish air.
+Q: "Moderate."
+%R: march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.179 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+GF |\
+E2G2 G2AB c3dc2B2 | A3GA2c2 defe d2F2 |\
+E2G2 G2AB cBcd {c}e3d | cBAG c3E {E}D4 C2 :| gf |\
+e2g2 c2ef gfef g2fe | f2a2 d2fg agfg a2gf |
+e2g2 c2ef gfef g4 | G3ce3c d4 c2gf |\
+e2g2 c2ef gfef g2fe | f2a2 d2fg agfg a2gf |\
+e3gd3e c3de3d | cBAG ABcE {E}D4 C2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The favourite song of "The Lass of Gowrie" is sung to the above air.
+%%endtext
+%%sep 1 1 300
+% - - - - - - - - - - - - - - - - - - - - - - - - -

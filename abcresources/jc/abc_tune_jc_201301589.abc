@@ -1,0 +1,75 @@
+X: 1
+T: Lenochek
+R: khorovod
+S: transcription by J.Poirier
+S: http://www.youtube.com/watch?v=l3t7y2O12mA
+S: http://www.youtube.com/watch?v=49WrWW095Eo
+N: Presented by Radboud Koop at Pinewoods 2011
+M: C
+L: 1/4
+Q: "Slow"
+P: (A1BA2)x3+A2
+K: Cm
+P: A (intro, chorus):
+[|"Cm"[G3E3C3] ([F/D/][G/E/]) | [FD][EC] [EC][DB,] |\
+  "Bb"[F2D2] [BG][AF] | "Eb"[G2E2] [B2G2] |
+w:Oy, ty_ za-la-ti-stiy lyon, lye-*no-chek,
+  "C7"[c3=E3C3] [B/E/-][c/E/] | "Fm"[BF][AF] [AF][GE] |\
+  "Bb"([FD][AF]) "G7"([GE][FD]) |[1 "Cm"([c2G2E2C2] "Bb7"[B2A2F2D2]) |][2 "Cm"[c3G3E3C3] "^fine"z |]
+w:ty ras-*ty, lye-no-chek, ras-*tsvye-* | | \-tay.
+P: B (verse):
+|:"Eb"[B/G/][c/A/] [B2G2] [BG] | "Bb"[BG][AF] [cA][BG] |\
+  "Eb"[G2E2] [E2E2] | "Fm"[AF][AF] [1"Bb"[GD][FD] :|[2 "G7"[GE][FD] "d.C."y|]
+w:1.~Kak__ u bye-re-ga kru-to-va, okh kru-to-va,
+w:   U__ a-ko-lach-ka gu-sto-va, okh gu- || sto-va.
+w:2.~Uzh,__ kak o-se-nyu lye-no-chek, okh lye-no-chek,
+w:   Ya__ svya-zhu  te-bya v~sna-po-chek, okh sna- || po-chek.
+w:3.~Ya__ sat-ku s~te-bya lye-no-chek, okh lye-no-chek,
+w:   Dru-**gu mi-la-mu pla-to-chek, okh pla- || to-chek.
+%%text The A part is both chorus and instrumental interlude.
+
+%%sep 1 1 500
+X: 2
+T: Lenochek  [Dm]
+R: khorovod
+S: transcription by J.Poirier
+S: http://www.youtube.com/watch?v=l3t7y2O12mA
+S: http://www.youtube.com/watch?v=49WrWW095Eo
+N: Presented by Radboud Koop at Pinewoods 2011
+M: C
+L: 1/4
+%Q: "Slow"
+P: (A1BA2)x3+A2
+K: Dm
+"A"\
+[|"Dm"[A3F3D3] [G/E/][A/F/] | [GE][FD] [FD][EC] |\
+  "C"[G2E2] [cA][BG] | "F"[A2F2] [c2A2] |
+  "D7"[d3^F3D3] [c/F/-][d/F/] | "Gm"[cG][BG] [BG][AF] |\
+  "C"[GE][BG] "A7"[AF][GE] |1 "Dm"[d2A2F2D2] "C7"[c2B2G2E2] |][2 "Dm"[d3A3F3D3] "^fine"z |]
+"B"
+|:"F"[c/A/][d/B/] [c2A2] [cA] | "C"[cA][BG] [dB][cA] |\
+  "F"[A2F2] [F2F2] | "Gm"[BG][BG] [1"C"[AE][GE] :|[2 "A7"[AF][GE] "d.C."y|]
+%%text The A part is both chorus and instrumental interlude.
+
+%%sep 1 1 500
+X: 3
+T: Lenochek  [Em]
+R: khorovod
+S: transcription by J.Poirier
+S: http://www.youtube.com/watch?v=l3t7y2O12mA
+S: http://www.youtube.com/watch?v=49WrWW095Eo
+N: Presented by Radboud Koop at Pinewoods 2011
+M: C
+L: 1/4
+%Q: "Slow"
+P: (A1BA2)x3+A2
+K: Em
+"B"\
+[|"Em"[B3G3E3] [A/F/][B/G/] | [AF][GE] [GE][FD] |\
+  "D"[A2F2] [dB][cA] | "G"[B2G2] [d2B2] |
+  "E7"[e3^G3E3] [d/G/-][e/G/] | "Am"[dA][cA] [cA][BG] |\
+  "D"[AF][cA] "B7"[BG][AF] |1 "Em"[e2B2G2E2] "D7"[d2c2A2F2] |][2 "Em"[e3B3G3E3] "^fine"z |]
+"C"
+|:"G"[d/B/][e/c/] [d2B2] [dB] | "D"[dB][cA] [ec][dB] |\
+  "G"[B2G2] [G2G2] | "Am"[cA][cA] [1"D"[BF][AF] :|[2 "B7"[BG][AF] "d.C."y|]
+%%text The A part is both chorus and instrumental interlude.

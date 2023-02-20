@@ -1,0 +1,31 @@
+X: 31372
+T: COTILLION No. 27. CONCORD SETT tune 5
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.137 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(3(GAB) |\
+c2c2c2c2 | cCDE FGAB | cBcd e2e2 | d2d2 d4 |\
+dcde d2d2 | BGAB cdef | fagf egfd | c2e2c2 H|]
+EF |\
+G3E c3G | G2F2 F2dF | FEcB AGFE | dcBA G2EF |\
+G3E c3G | G2FF d2f2 | gefd cedB | c2e2"^D.C."c2 |]
+GF |\
+EGcG cGcG | FAcA cAcA | GABc defg | fe^de c2GF |\
+EGcG cGcG | FAcA cAcA | GABc dfdB | c2e2"^D.C."c2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies cross hands round and back,
+%% gentlemen the same,
+%% all balance to partners,
+%% turn,
+%% grand chain,
+%% promenade eight.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

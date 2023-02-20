@@ -1,0 +1,22 @@
+X: 378
+T: There's an End to My Sorrow   #2
+R: air, waltz
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #378
+O: F.O'Neill
+Z: Chris Falt, cfalt@trytel.com
+N: Compacted by using labels and play order [JC]
+P: Play AB AB CB
+Q: "Plaintively."
+M: 6/8
+L: 1/16
+K: Am
+"^A"|: (A>B) \
+| .c2(dcBA) .B2(cBAG) | (D>E).G2.G2 G4 (A>B) \
+| .c2(dcBA) (Be3) (A>G) | (E2A2)(A>B) A4 ||
+"^B"|| (A>B) \
+| (cBcde^f) (g3=fe2) | (edcB) ((3gab) G4 (A>B) \
+| .c2(dcBA) (B2e2) (AG) | (E2A2)(A>B) "^fine"A4 :|
+"C"[| (a>b) \
+| (c'3ba2) (b2a2g2) | (d>e).g2.g2 g4 (a>b) \
+| (c'3ba2) (b2a2g2) | (e2a2)(a>b) "^->B"a4 |]

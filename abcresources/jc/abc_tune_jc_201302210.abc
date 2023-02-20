@@ -1,0 +1,93 @@
+
+X: 1
+T: Lilli Burlero   [A]
+%T: Hush-a-bye Baby
+C: Henry Purcell 1689
+B: Barnes p.67
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: 24-bar duple minor longways
+N: Playford Ball
+M: 6/8
+L: 1/8
+K: A
+|: "A"A>BA "(F#m)"c2c | "Bm"B>cB "E7"d3 |\
+"A"ceA "Bm"d2c | "E7"BAG "A"A3 ::\
+"A"a2g a2e | "G"=g2g "D"f2e |
+| "A"ef^g a2e | "D"f>ec "E"B2e |\
+"D"f>ed "A"cde |"D"fed "A"cde |\
+"D"f>ec "Bm"d2c | "E7"BAG "A"A3 :|
+
+
+X: 1
+T: Lilli Burlero   [D]
+%T: Hush-a-bye Baby
+C: Henry Purcell 1689
+B: Barnes p.67
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: 24-bar duple minor longways
+N: Playford Ball
+M: 6/8
+L: 1/8
+K: D
+|: "D"D>ED "(Bm)"F2F | "Em"E>FE "A7"G3 |\
+"D"FAD "Em"G2F | "A7"EDC "D"D3 ::\
+"D"d2c d2A | "C"=c2c "G"B2A |
+| "D"AB^c d2A | "G"B>AF "A"E2A |\
+"G"B>AG "D"FGA |"G"BAG "D"FGA |\
+"G"B>AF "Em"G2F | "A7"EDC "D"D3 :|
+
+
+X: 1
+T: Lilli Burlero   [G]
+%T: Hush-a-bye Baby
+O: Henry Purcell 1689
+B: Barnes p.67
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: 24-bar duple minor longways English Country Dance
+M: 6/8
+L: 1/8
+K: G
+|: "G"G>AG "(Em)"B2B | "Am"A>BA "D7"c3 \
+| "G"BdG "Am"c2B | "D7"AGF "G"G3 \
+:| "G"g2f g2d | "F"=f2f "C"e2d |
+| "G"de^f g2d | "C"e>dB "D"A2d \
+| "C"e>dc "G"Bcd | "C"edc "G"Bcd \
+| "C"e>[gd]B "Am"c2B | "D7"AGF "G"G3 |]
+
+
+X: 1
+T: Lilli Burlero   [C]
+%T: Hush-a-bye Baby
+O: Henry Purcell 1689
+B: Barnes p.67
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: 24-bar duple minor longways English Country Dance
+M: 6/8
+L: 1/8
+K: C
+|: "C"C>DC "(Am)"E2E | "Dm"D>ED "G7"F3 \
+| "C"EGC "Dm"F2E | "G7"DCB, "C"C3 \
+:: "C"c2B c2G | "Bb"_B2B "F"A2G |
+| "C"GA=B c2G | "F"A>GE "G"D2G \
+| "F"A>GF "C"EFG | "F"AGF "C"EFG \
+| "F"A>[cG]E "Dm"F2E | "G7"DCB, "C"C3 :|
+
+
+X: 1
+T: Lilli Burlero   [F]
+%T: Hush-a-bye Baby
+C: Henry Purcell 1689
+B: Barnes p.67
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: 24-bar duple minor longways
+N: Playford Ball
+N: Many sets of words have been written to this tune.
+M: 6/8
+L: 1/8
+K: F
+|: "F"F>GF "(Dm)"A2A | "Gm"G>AG "C7"B3 |\
+"F"AcF "Gm"B2A | "C7"GFE "F"F3 ::\
+"F"f2e f2c | "Eb"_e2e "Bb"d2c |
+| "F"cd=e f2c | "Bb"d>cA "C"G2c |\
+"Bb"d>cB "F"ABc |"Bb"dcB "F"ABc |\
+"Bb"d>cA "Gm"B2A | "C7"GFE "F"F3 :|

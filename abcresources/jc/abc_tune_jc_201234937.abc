@@ -1,0 +1,31 @@
+X: 20901
+T: CINDERELLA SETT (tune 1)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.90 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="1"
+c |\
+{g}fef {g}fef | {g}fef {g}fef | b3 a3 | g[ec][ec] [e3c3] |\
+g^fg gfg | g^fg gfg | c'3 b3 | gfe f2 H|]
+c |\
+f2f f2f | e2e e2e | e2e e2e | f2f f2z |\
+f2f f2f | g2c c2c | d2d c2B | AcB "^D.C."A2 |]
+C |\
+FGF c2c | d2c E2F | d2c E2F | {G}F(GA) C3 |\
+FGF c2c | d2c =B2c | fga g2c' | f2a "^D.C."f2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First four right and left,
+%% balance to partners,
+%% ladies chain,
+%% promenade four,
+%% sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,41 @@
+X: 1
+T: Mr. Young's Delight
+P: Longways for as many as will
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.44 #79
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.205 "T"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c2 |\
+A2 F2 F2 G2 | A4 d4 | c3 d (cd) (cA) | B2 G4 B2 |\
+A2 F4 G2 | A4 d4 | f3 g (fg) (ag) | f2 c4 f2 |
+d3 c (de) (fd) | (cd) (cB) (Ac) (fc) | (de) (fd) (cd) (cA) | B2 G2 G2 B2 |\
+A2 F4 G2 | A4 d4 | c3 d (cd) (cA) | B2 G4 |]
+(ag) |\
+(fg) (af) (ga) (bg) | (ab) (ga) (fg) (ef) | (de) (fd) (ge) (ec) | G2 c4 B>A |\
+(Bd) (fd) (Ac) (fc) | (Bd) (fd) (Ac) (fc) | (dc) (BA) (GA) (GF) | F6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% All four Hands half round, fall back and turn round from each other
+%% single; then the 1st Man cross over with the 2d Wo. and the 1st Wo.
+%% with the 2d Man .| Fall all back, then meet and turn Back to Back, then
+%% take all Hands and turn half round; then the 1st Cu. lead down and
+%% back again, and the 2d Cu. lead up back again, and then turn your
+%% Partners in their proper Places.
+%% [CCDM1]
+%%endtext
+%%sep 1 8 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%    All four hands half round, then fall back and turn round from each another S. then the 1. man cross over with the 2.
+%% wo. and the 1. wo. with the 2. man.  This to the first Strain played once.
+%%    Fall all back, then meet and turn back to back, and then take all hands and turn half round; then the 1. cu. lead down
+%% and back again, and the 2. cu. lead up and back again, then turn your partners in their proper places.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

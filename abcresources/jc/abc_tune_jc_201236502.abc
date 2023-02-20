@@ -1,0 +1,16 @@
+X: 2223
+T: the GRINDER
+Q: "Irish Jig."
+R: Jig.
+%R: jig
+B: James Kerr "Merry Melodies" v.2 p.25 #223
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The A in bar 9 is probably a typo, and should be G.
+M: 6/8
+L: 1/8
+K: Ador	% and G
+|:\
+("_>"vABA) ("^>"A2B) "^>"G3 | ("^>"ABA) ("^>"A2B) ("^>"d2B) |\
+("^>"ABA) ("^>"A2B) G3 | (GAG) (GAB) (d2B) ::\
+gfg edc BAG | gfg efg (a2f) |\
+gfg edc BAG | (ABA) A2B (d2B) :|

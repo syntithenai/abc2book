@@ -1,0 +1,32 @@
+X:1
+T: Whitson Holiday
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 165
+%W: A1
+% voice 1 (1 lines, 37 notes)
+K:G
+M:6/8
+L:1/16
+d6 e6 d4 c2 B c d2 G2 G2 g2 G2 G2 g2 G2 F4 G2 A2 F2 D2 |d6 e6 d4 c2 B c d2 G2 G2 g2 G2 G2 g2 G2 f3 e f2 g6 |
+%W: A2
+% voice 1 (1 lines, 37 notes)
+d6 e6 d4 c2 B c d2 G2 G2 g2 G2 G2 g2 G2 F4 G2 A2 F2 D2 |d6 e6 d4 c2 B c d2 G2 G2 g2 G2 G2 g2 G2 f3 e f2 g6 |
+%W: B1
+% voice 1 (1 lines, 36 notes)
+A6 B6 A4 G2 F G A2 D2 D2 d2 D2 D2 d2 D2 D2 d2 c2 B6 |B6 c6 B4 A2 G A B2 E2 E2 e2 E2 E2 e2 E2 E2 e2 ^d2 e6 |
+%W:
+% voice 1 (1 lines, 32 notes)
+e6 g6 B4 c2 d2 D2 D2 E6 c6 F4 G2 A2 F2 D2 |d6 e6 d4 c2 B c d2 G2 G2 g2 G2 G2 g2 G2 G2 g2 f2 g6 |
+%W: B2
+% voice 1 (1 lines, 36 notes)
+A6 B6 A4 G2 F G A2 D2 D2 d2 D2 D2 d2 D2 D2 d2 c2 B6 |B6 c6 B4 A2 G A B2 E2 E2 e2 E2 E2 e2 E2 E2 e2 ^d2 e6 |
+%W:
+% voice 1 (1 lines, 32 notes)
+e6 g6 B4 c2 d2 D2 D2 E6 c6 F4 G2 A2 F2 D2 |d6 e6 d4 c2 B c d2 G2 G2 g2 G2 G2 g2 G2 G2 g2 f2 g6 ||

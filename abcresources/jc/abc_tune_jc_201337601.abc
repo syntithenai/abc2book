@@ -1,0 +1,12 @@
+X: 1
+T: Sir Reginald MacDonald
+B: Susie Petrov Her Book of Musick
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+%%staffsep 35
+f | "A"edcB A2Ac | "Bm"B2Bc "E7"defa | "A"edcB  "F#m"A2Ac | "E7"BEGB "A"A3 :|
+f | "A"eAcA eAcA | "Bm"B2Bc "E7"defa | "A"eAcA       eAcA | "E7"BEGB "A"A3 |]
+f | "A"eAcA eAcA | "Bm"B2Bc "E7"defg | "D"aefd "A"c[EA]Ac | "E7"BEGB "A"A3 |]

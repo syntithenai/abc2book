@@ -1,0 +1,22 @@
+X: 11033
+T: der ALPINE SANGER
+O: German air.
+%R: air, waltz, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.103 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c2B |\
+Acf a3- | a2e gfd | c2f F3- | F2A AGF |\
+EGB e3- | edc BAG | A2A {c}BAB | c3- cdB |\
+Acf a3- | a2e gfd | c2f F3- | F2A AGF |
+EGB e3- | edc BAG | FAG FAc | f3 H|: G2F |\
+EGB e3- | e(fd cdB) | FAc f3- | f(ge dec) |\
+=Bdf b3- | bag fed | ced ceg | "^D.C."[c'3c3] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

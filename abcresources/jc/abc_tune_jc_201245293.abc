@@ -1,0 +1,33 @@
+
+X: 1
+T: Agir Halay
+O: Turkey
+M: 10/8
+L: 1/8
+Q: 3/8 2/8 2/8 3/8
+K: Ephr bass
+%%indent 200
+"^Intro"\
+|: "Em"E2d e2d2 e3 | E3 e2d2 e2B | E2d e^cd2 e3 | E2B e2d2 e2B :|
+K: Ephr treble
+"A"\
+|: "Em"z2B cBcd ~B3     |     z2B cBcd    ~B3 \
+|      z2e decd BcA/B/  | "Am"ABA BGA2 "Em"B3 :|
+|: "Am"z2B cBcd BBA/B/  |  "G"AGA BBBc  AAG/A/ \
+|  "Dm"GFG AGAB GGF/G/  \
+|1 "Em"FEE B2 c/B/A/G/ "Am"A3 :|
+[2 "Em"FEA AGFE E3 |] \
+"B"\
+|: "Em"z2D E2E2     B3  |    B3     AGBA     B3 \
+|      cB2 B2-BA/G/ ABA | "G"A2B/A/ G2"Am"AG A3 :|
+"C"\
+[| "Am"z2G A2A2    ~A2G |  "G"G3  G2"Em"GF/G/ F3 \
+|1  "G"z2D GFGA     FGF | "Em"F2E E2"Am"AG    A3 \
+:|2 "G"EBA A2"Dm"AG FEF | "Em"G2G AFE2        B3 |]
+"D"\
+|:: "Em"z2E B2~B2 B3 |     dB2    B2~B2    B3 \
+|       e2d dccB B2A | "Am"AB/A/G A2"Em"BA B3 ::|
+P: Last time
+"E"\
+|:: "Am"z2B c2cd B2A | "G"AGA B2B2 A2G \
+| "Dm"z2G AGAB G2F |1 "Em"GAF FE"Am"BA A3 :|2 "Em"GAF FEE2 E3 |]

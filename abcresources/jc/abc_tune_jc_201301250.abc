@@ -1,0 +1,26 @@
+X:1
+T: The Leamington Dance
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 41 notes)
+K:D
+M:4/4
+L:1/16
+A4 |d4 d4 f4 a2 f2 |d4 d4 f4 a2 f2 |g4 b2 g2 e4 g2 e2 |c4 e2 c2 A4 A4 |d4 d4 f4 a2 f2 |d4 d4 f4 a2 f2 |g2 b2 g2 e2 c4 e2 c2 |d12 A4 |
+%W: A2
+% voice 1 (1 lines, 41 notes)
+d4 d4 f4 a2 f2 |d4 d4 f4 a2 f2 |g4 b2 g2 e4 g2 e2 |c4 e2 c2 A4 A4 |d4 d4 f4 a2 f2 |d4 d4 f4 a2 f2 |g2 b2 g2 e2 c4 e2 c2 |d12 c2 d2 |
+%W: B
+% voice 1 (1 lines, 51 notes)
+e4 e4 a2 ^g2 a2 f2 |e2 f2 e2 d2 c4 c2 e2 |e2 d2 c2 d2 B4 B2 d2 |d2 c2 B2 c2 A4 c2 d2 |e4 e4 a2 ^g2 a2 f2 |e2 ^g2 a2 b2 c'2 b2 a2 g2 |f4 f4 ^g4 g4 |a6 f2 a2 g2 e2 c2 |
+%W: A3
+% voice 1 (1 lines, 39 notes)
+d4 d4 f4 a2 f2 |d4 d4 f4 a2 f2 |g4 b2 g2 e4 g2 e2 |c4 e2 c2 A4 A4 |d4 d4 f4 a2 f2 |d4 d4 f4 a2 f2 |g2 b2 g2 e2 c4 e2 c2 |d12 ||

@@ -1,0 +1,21 @@
+X: 1
+T: Ahavat hadassah
+C: S.Shabazi
+O: Yemeni Jewish
+Z: 2006 John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+Q: "Slowly and sadly"
+%%staffsep 35
+W: The love of Zion is bound securely to my heart, but alas I am in the diaspora.
+K: C
+|: "C"G2 c2 c2 c2 | (de cd) e3 e | "Dm"g2 (fe) "G7"d2 f2 |1 "C"(e3 d c4) :|2 "C"e6 z2 ||
+w: Aha-vat ha-das-sah___ al l'- va-vi*  nik-she-ra,__ \-ra,
+|: "Dm"f3 e f3 e | "G7"(de) (cd) "C"e3 d | "F"c2 e2 [1 "G7"d2 c2 | "C"g8 :|2 "G7"(dc) (Bd) | "C"c8 |]
+w: va-a-ni be- toch* go-*la p'- a-may tso-le-lim. tso-*le-*lim.
+%%text in D:
+K: D
+|: "D"A2 d2 d2 d2 | ef de f3 f \
+| "Em"a2 gf "A7"e2 g2 |1 "D"f3 e d4 :|2 "D"f6 z2 ||
+|: "Em"g3 f g3 f | "A7"ef de "D"f3 e \
+| "G"d2 f2 [1 "A7"e2 d2 | "D"a4 :|2 "A7"ed ce | "D"d6 z2 |]

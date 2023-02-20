@@ -1,0 +1,15 @@
+X:1017
+T: Karakachansko
+O: Bulgaria
+M: 4/4
+L: 1/8
+K: C
+Q: 1/4=160
+%%MIDI program 111 % Shanai
+z7G,        |:CG,CD _EDC2 |D2_ED CB,C2|\
+CG,CD _EDC2 |D2_ED CB,C2::
+C2CB,C2D2   |_EDCB,C2D2   |\
+_EDCB,C2D2  |_EDCB, C4::
+K:C
+D2D=E A,2A,2|CB,CD A,2A,2 |\
+D2DE A,2A,2 |CB,CD A,2A,2 :|

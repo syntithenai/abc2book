@@ -1,0 +1,40 @@
+X: 6
+T: THE WOMAN'S THE MAN
+R: reel
+M: C|
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Thomas Bray's Country Dances 1699 p.16
+P: AB AB ad lib.
+Q: 1/2=80 "springy"
+K: G
+%----------------------------------------
+% V:1 arranged to give fewer, longer staff lines.
+V: 1
+"A"|:\
+GA BG d2B2 | e2fg f4 |\
+gd eB cA BF | GE AG F2D2 |\
+GA BG d2 B2 |
+e2fg f4 |\
+gfed ^cA dB | ^cded d4 :|\
+"B"|:\
+af df g2f2 | eg fe ^d4 |
+eB cA BGAB | AGFE E4 |\
+cB AG F2D2 | GA Bc d4 |\
+BcdB efed | cB AG G4 :|
+%----------------------------------------
+V: 2
+|:\
+B,2D2 B2G2 | E2C2 D4 | D2E2- E2F2 | E4 D2DC |
+B,2D2 B2G2 | G2AB A4 | B2G2 E2D2 | E2G2 F2D2 :|
+|:\
+F2A2 A2D2 | E2^DE F4 | G2AF GEC2 | B,2^D2 E4 |
+E2C2 D2A,2 | G,2G2 AG FA | GABG ED CB, | A,B, CB, B,4 :|
+%----------------------------------------
+V: 3 clef=bass middle=d
+|:\
+"G"G4 GA BG | "C"c2 "Am"A2 "D"dedc | "G"B2G2- G2"D"d2 | "D"d2"A"^c2 "D"d=cBA |
+"G"G4 GA BG | "C"c2"Am"A2 "D"dcBA | "G"G4 "A"A2"D"FD | "A"A4 "D"d4 :|
+|:\
+"D"d4 "G"B4 | "Am"c4 "B"BAGF | "Em"E6 "Am"A2 | "B"B4 "E"E4 |
+"Am"A4 "D"de dc | "G"B2G2 "D"F2D2 | "G"G4 "C"c4 | "D"d4 "G"G4 :|

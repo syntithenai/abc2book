@@ -1,0 +1,26 @@
+X:1
+T: Measured Obsession
+N:
+C: Purcell
+S:Tune is adapted from "The Animals"
+A:
+O:
+R:
+M:3/4
+K:Em
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 32 notes)
+K:Em
+M:3/4
+L:1/16
+e4 |g4 g2 f2 e2 B2 |d4 d4 B4 |c2 B2 A4 d4 |B8 B4 |e4 e2 f2 g2 f2 |^d2 ^c2 B4 g4 |f2 e2 ^d2 ^c2 B2 d2 |e8 e4 |
+%W: A2
+% voice 1 (1 lines, 31 notes)
+g4 g2 f2 e2 B2 |d4 d4 B4 |c2 B2 A4 d4 |B8 B4 |e4 e2 f2 g2 f2 |^d2 ^c2 B4 g4 |f2 e2 ^d2 ^c2 B2 d2 |e8 e4 |
+%W: B1
+% voice 1 (1 lines, 32 notes)
+e2 B2 A2 G2 F2 E2 |B6 c2 d4 |e4 e2 ^d2 e2 f2 |^d8 b4 |b2 a2 g2 a2 b2 a2 |g2 f2 e2 ^d2 e4 |B6 c2 B4 |e8 G4 |
+%W: B2
+% voice 1 (1 lines, 30 notes)
+E4 G2 ^d2 e4 |f2 e2 ^d2 ^c2 B4 |A4 a2 g2 f2 e2 |^d8 B4 |c4 c2 d2 e2 A2 |B4 B2 f2 g4 |^d6 e2 f2 e2 |e8 ||

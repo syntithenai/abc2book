@@ -1,0 +1,14 @@
+X: 11
+T: Alta es la Luna
+O: Greece
+M: 4/4
+L: 1/8
+K: Ephr
+Q:1/4 = 120
+%%MIDI program 42 % Cello
+%%MIDI beat 93 83  73 4
+%%MIDI drum d4dddd 60 64 61 64 61 40 40 40 40 40
+%%MIDI drumon
+cz ccBd z2|Az cBAG Fz|Az AAGz Bz|zGF2E2z2|
+E3D G2c2  |A3c BAGF  |E3FG2c2   |A2c2B2z2|
+cz ccBd z2|Az cBAG Fz|Az AAGz Bz|zGF2E2z2|

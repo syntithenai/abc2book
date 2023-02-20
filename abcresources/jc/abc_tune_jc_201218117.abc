@@ -1,0 +1,46 @@
+%%text RJ Set 004 Reels
+
+
+X: 1
+T: John Howett
+I: RJ R-83 D reel
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+%P: text Play part A 4 times
+fg |\
+"D"a2fd "A"g2ec | "D"d2AG FDDF | "Em"E2FG ABcd | [1,3 "A"eAfA g2 :|[2,4 "A"eABc "D"d2 :: z2 | "D"defg aAfA |
+"G"gfed "A"ceAe | "D"defg aAfA | "G"gba^g "A"a4 | "D"abaf "G"gfed | "Em"efgA "A"GFED | "D"F2AF "G"G2BG | "A"Addc "D"d2 :|
+
+
+X: 2
+T: Mason's Apron
+N: RJ	R-7	A	reel
+M: C|
+R: reel
+K: A
+ed | "A"c2A2 ABAF | EFAB dcBA |\
+[1,3 "Bm"d2B2 BcBA | Bcde gfed :|\
+[2,4 "D"Bcde "Bm"fefa | "E"edcB "A"A2 :|
+|: ed | "A"cAeA fAeA | cAeA fedc |\
+[1,3 "Bm"dBfB gBfB | dBfB "E"gfed :|\
+[2,4 "D"Bcde "Bm"fefa | "E"edcB "A"A2 :|
+% text 05/28/99
+
+
+X: 3
+T: Willafjord
+I: RJ	R-91	D	reel
+M: C|
+R: reel
+K: D
+z2 |: "D"A2FA zDFA |  "G"B2GB zDGB |\
+[1,3  "D"A2FA zDFA | "A7"EFGA GFED :|\
+[2,4 "A7"ABcd efge |  "D"f2d2 d2 :|
+|: e2 |:\
+     "D"f2df zAdf | "Em"geaf gfed |\
+[1,3 "D"f2df zAdf | "A7"e2ce zAce :|\
+[2,4 "A"ABcd efge |  "D"f2d2 d2   :|
+% text 10/17/11
+

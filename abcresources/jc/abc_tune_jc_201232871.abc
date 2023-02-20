@@ -1,0 +1,633 @@
+X: 000
+T: Twenty Four Country Dances (for the Year 1802)
+%C: Mr Gray
+N: Publisher: Charles & Samuel Thompson, London, 1802
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+K:
+%%sep 3 3 400
+%%center THOMPSON's Twenty four COUNTRY DANCES
+%%center (for the Year 1802)
+%%center With Figures to each as they are Performed at
+%%center Court, Bath, & all Publick Assemblys
+%%center -------- L O N D O N --------
+%%center Printed & Sold at the Publishers Warehouse No 75 S.t Pauls Church Yard
+N: File names and X: numbers have 3 digits: 2 for the page and 1 for the tune number.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 011
+T: Sir David Hunter Blairs Fancy
+N: has "or Reel" as handwritten insert above title
+%R: reel
+M: 2/4
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.1 #1
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+N: There's an odd squiggle above the final f that's not a common ornament symbol.
+K: F
+|:\
+fcde | cdcd | cfa2 | cfa2 |\
+b2ga | gaga | {a2}gfef | gec2 :|
+|:\
+afTf2 | cfAc | FAcf | egTg2 |\
+afTf2 | cfAc | FAcf | gef2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Right hands across Left hands back
+%% again lead down the middle up again
+%% and turn your partenr [sic]
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 012
+T: Lady Mary Ramsey
+%R: strathspey
+M: C|
+L: 1/16
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.1 #2
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+N: Rhythm fixed by adding an initial rest and fixing the E/E/EE2 ornaments.
+K: D
+z2 |\
+D6d2 AF3F3B | AF3B3G AF3Fd3 |\
+D6 B2 AF3FA3 | BD3A3F EEE2E2 :|
+de |\
+f2d2df3 e2c2ce3 | d2B2Bd3 A2F2F2de |\
+f2d2df3 e2c2cA3 | B2d2A2F2 EEE2E2 ||
+de |\
+f2d2df3 e2c2ce3 | d2B2Bd3 A2F2FA3 |\
+df3ce3 Bd3AB3 | Fd3A3F EEE2E2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast of two couple up again lead down the
+%% middle up again sett and turn corners lead
+%% out sides with your partner
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 021
+T: Parisots Hornpipe
+%R: hornpipe, reel
+M: C|
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.2 #1
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+K: G
+BA |\
+GFGA BABG | cdBc A2dc |\
+BdGB AcFc | GBdg G2 |]
+AG |\
+FGEF D2cB | ABGA F2ed |cBed cBed | cBcA G"^D.C."F |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change sides and back again lead down
+%% the middle up again and allemande
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 022
+T: The Weald of Sussex
+%R: hornpipe
+M: C|
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.2 #2
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+N: The slurs are rather poorly printed, and should probably be ignored.
+K: D
+|:\
+A>BA>F d>ed>A | B>cd>B A>BA>F |\
+A>BA>F d>fd>A | B>cd>B A4 :|
+|:\
+(a/b/a f)f (a/b/a f)f | (g/a/g) e/g/e (f/a/f) ez |\
+(a/b/a) ff (a/b/a) ff | (e/g/e) (c/e/c) d4 :|
+|:\
+A>Bc>d c>de>d | c>BA>G F>ED2 |\
+f>ga>b b>ag>f | e>fg>a f2 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change sides and back again lead down
+%% the middle up again and swing corners
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 031
+T: The Kentish Volunteers
+%R: reel
+M: 2/4
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.3 #1
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+K: G
+|:\
+FGAd | BGGB | AFFA | GFE2 |\
+FGAd | BGGB | ceAc | d2D2 :|
+|:\
+fddf | eca2 | dBBd | cAf2 |\
+BGGB | AFd2 | ceAc | d2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hand round three on the laydes Side
+%% The Same on the Gentleman lead down
+%% the Middle up again & turn your Partners
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 032
+T: The Union
+%R: slip-jig
+M: 9/8
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.3 #2
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+K: G
+|:\
+GAG B2c dBG | ABA c2d e2g |\
+GAG B2c dBG | e2e eag f2g :|
+|:\
+gfg gfg afd | gfg agf {f}e2d |\
+gfg gfg agf | gfe dcB {B}A2G :|
+|:\
+BGB BGB cAc | BGB BGB AFA |\
+BGB BGB cAc | def gdB {B}A2G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change Sides & back again lead down the middle
+%% up again & Swing corners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 041
+T: Lady Charlotte Campble's Reel
+%R: reel
+M: C|
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.4 #1
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+K: Bb
+F |\
+B3f dBfd | edcB AFcA |\
+B2bf dBfd | AGcA dBB :|\
+z |\
+f2db g2Ee | c2Aa f2Dd |
+B2Gg edcB | AF ec dBB2 |\
+fdba gfed | cAag fedc |\
+BGgf edcB | AF ec dBB |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Lady sett to the Second Gen.t turn the Third
+%% The Gen.t do the Same, lead down the Middle up
+%% again to the top & cast off.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 042
+T: Carrick Castle
+%R: slip-jig
+M: 9/8
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.4 #2
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+N: The B in bar 4 might be a c.
+K: G
+|:\
+dBG GAG BAG | dBG GBG efg |\
+dBG GBG BAG | ecA ABA cde :|
+|:\
+def gag fed | g2B BcB dcB |\
+def gag fed | a2A AcB cBA :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across & back again Lead down
+%% the Middle up again & Allemande.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 051
+T: Snug Moorings
+%R: waltz
+M: 3/8
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.5 #1
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+N: This page doesn't actually have a page number, so it could be wrong.
+K: C
+|:\
+(cG).G | (ec).c | f/e/d/e/f/d/ | (BG).G |\
+(cG)G | ec (d/c/) | (BG).G | c3 :|
+|:\
+c2g/e/ | (ef).f | B2(f/d/) | ^deg |\
+c'2g/e/ | Bce | dB/A/B/G/ | c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Turn Three with the first Lady the same with
+%% the first Gen.t lead down the Middle up
+%% again & Allemande.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 052
+T: Mrs Billingtons Fancy
+%R: reel
+M: C|
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.5 #2
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+N: This page doesn't actually have a page number, so it could be wrong.
+K: C
+|:\
+c/c/c ec Ac fa | gedc BdBG |\
+c/c/c ec AcGc | dcde c/c/cc2 :|
+|:\
+g/g/g ag agec | d/d/d de cA G2 |\
+A/A/A cA GA ca | ge de c/c/cc2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change sides & back again, lead down the
+%% Middle up again & Poussette.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 061
+T: Farmer Clarkes Frolic
+%R: reel
+M: 2/4
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.6 #1
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+K: F
+|:\
+c2 (f/e/f/g/) | afaf | bg2f | ec2e |\
+f2 (f/e/f/g/) | af2d | cbag | f2f2 H:|
+|:\
+afca | gecg | fd=Bf | {f}e2dc |\
+afc'a | gecg | fdc=B | "_ D.C."c4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Swing your Partner with your Right Hand
+%% and turn the Sides with your left then with
+%% your Right and your Partner with your left lead
+%% down the Middle up again & turn your Partner.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 062
+T: The Plowing Match
+%R: jig
+M: 6/8
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.6 #2
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+K: G
+|:\
+g2b g2b | afd def | gfe dcB | AFD D3 |\
+GBG EcA | FdB Gce | dcB AGF | G3 G3 :|
+|:\
+g3 bge | afd def | g3 bge | fdB B3 |\
+ceg Bdg | ceg Bdg | Aag fef | g3 G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across Quite round back again
+%% Lead down the Middle up again and
+%% Hands Six Round.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 071
+T: Nic Harrisons delight
+%R: slip-jig
+M: 9/8
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.7 #1
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+N: The B pickup note makes the rhythm not quite work between the strains.
+K: D
+B |\
+AFD dcd Bcd | egf efd cdB |\
+AFD dcd efg | afd cBc d3 :|
+|:\
+afd dcd afd | ecA AcA ecA |\
+afd bge afd | Bgf edc d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Whole Figure with the top Couple lead down
+%% the middle up again and Allemand
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 072
+T: Catton guil
+%R: march, reel
+M: 2/4
+L: 1/16
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.7 #2
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+K: D
+|: f2f2 |\
+d4 efge | dcBA f2f2 |\
+a2a2 gfge | d4 H:|\
+|: e2A2 |\
+g2e2 f2a2 | f2d2 e2A2 |\
+f2d2 ^gfge | "^ D.C."a4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across half round and back again
+%% lead down the middle up again  Right
+%% and left
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 081
+T: Trip to Cromer
+%R: reel
+M: C|
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.8 #1
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+K: A
+|:\
+e2ae cecA | dfdB GBGE |\
+e2(ae) f2(af) | (ec)(Be) (cA)A2 :|
+|:\
+Aece deBe | ceAc BGE2 |\
+agae fgaf | ecBe (cA)A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Half right and left and back again
+%% lead down the middle one Cu: and
+%% poussette
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 082
+T: Tom Towells Fancy
+%R: jig
+M: 6/8
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.8 #2
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+K: A
+|:\
+aec aec | fdB fdB | ecA ecA | BGE E3 |\
+aec afd | ecA fga | edc BAG | A3 A3 :|
+|:\
+BdB GBG | cec Ace | fed cBA | BGE E3 |\
+Ace Adf | Bdg aec | Bdc BAG | A3 A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change sides and back again lead down the
+%% middle up again, Hands four round at top
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 091
+T: The Rose in June
+%R: waltz
+M: 3/8
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.9 #1
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+N: rest added at start of 2nd strain to fix the rhythms.
+K: D
+A |\
+dAA | fdd | age | e>fg |\
+afd | d>cd | ecA | A2A |\
+dAA | e>fg | fad | ede |
+ddd | faf | ddd | d2 H:|\
+|: z |\
+fff | ecA | {Bc}dB^G | Ace |\
+fff | ecA | {Bc}dB^G | "_ D.C."A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu: Lead down through the Second Cu:
+%% to the top and Hands four Round lead down
+%% the Middle and Swing Corners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 092
+T: Heigh Ho
+%R: reel
+M: C|
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.9 #2
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+K: D
+|:\
+fgaf edda | bged cAA2 |\
+fgaf gbeg | fedc d2d2 :|
+|:\
+ecAg fafd | ecAg fga2 |\
+bgeb afda | gedc d2d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Whole figure with the top Cu: lead down
+%% the Middle up again and turn your
+%% Partner.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 101
+T: Honest Ben
+%R: jig
+M: 6/8
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.10 #1
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+N: The f in bar 3 has a dot, which was dropped to fix the rhythm.
+K: D
+|:\
+f2a dcd | Bcd ecA |\
+f2a (^g/a/b).g | aec A3 :|
+|:\
+g2e g2e | afd cBA |\
+Bcd egf | edc d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across back again lead down the
+%% middle up again and allemance
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 102
+T: Fye my Dear Fye
+%R: waltz
+M: 3/8
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.10 #2
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+K: G
+|:\
+gdb | gdb | eee | e2f | gG/A/B/c/ | dBG |\
+ADD | D2f | gdg | ece | dBd | cAc |
+BdG | AGF | GGG | G3 :||: ddd | eee |\
+ccc | ddd | BBB | cAG | FD/E/F/D/ | G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change sides and back again lead down the
+%% middle up again and allemande
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 111
+T: The Honey Moon
+%R: march, reel
+M: 2/4
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.11 #1
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+N: The 3rd strain has initial repeat but no final repeat; not fixed.
+N: There are two "D.C." notations.  Does this mean an ABACA repeat pattern?
+K: C
+cc |\
+g2 c'c | {c}BA/G/ eg | fc B/A/B/G/ | c2 H:|\
+|: de |\
+de f/e/f/d/ | ec de | fef^f | g2 "_D.C.":|
+[K:Cm]\
+|: ce |\
+dc =Bc | G2 ag | fedc | =B2 ce |\
+dG df | ec c'^f | g2 c'^f | g2 "_D.C."y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Half right & left & back again lead down the
+%% Middle up again Allemande & Swing corners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 112
+T: The Bucks Motto
+%R: slip-jig
+M: 9/8
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.11 #2
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+K: C
+|:\
+cgf edc dBG | ABc dec BAG |\
+cgf edc dBG | Afe dcB c3 :|
+|:\
+GEC cGE AFD | dBG GBd fed |\
+(g2a) (g2a) (ge).c | cfe dcB c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Swing your Partner with your right hand
+%% quite Round, the second Cu: do the same, lead
+%% down the Middle, & Allemande.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 121
+T: The Joke
+%R: reel
+M: 2/4
+L: 1/16
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.12 #1
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+K: F
+|:\
+cAFf dB2d | cAFA GD2A/B/ |\
+cAFf dB2d | cAGc AFF2 :|
+|:\
+fcac fcac | ecgc ecgc |\
+Acfa gecB | AGFE F2F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across & back again, Lead
+%% down the Middle up again, & turn
+%% your partner.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 122
+T: La Pipe de Tabac
+%R: hornpipe
+M: 2/4
+L: 1/16
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.12 #2
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+N: The f in bar 2 is crossed out with a handritten 'x'.
+N: The start of the 2nd strain has A>FA>B handwritten below the G>AB>c notes.
+K: G
+G>AB>c |\
+d2gf e2c2 | (ed)d2 dcAc | B2d2 A2BA |\
+G2D2 G>AB>c | d2g2 e3c | (ed)d2 dcA>c | B2d2 A>GA>B | G4 :|
+|: G>AB>c |\
+c2A2 G2B2 | A>FD2 F>GA>B | c2A2 G2B2 |\
+d4 G>AB>c | d2g2 e3c | (ed)d2 dcA>c | B2d2 A>GA>B | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change Sides & back again, right hands across half
+%% round & back again, lead down the Middle up again, &
+%% turn Corners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

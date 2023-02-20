@@ -1,0 +1,33 @@
+X: 4202
+T: Mrs Gordon's Favorite
+O: Ancient Irish.
+%R: air, strathspey
+B: Niel Gow & Sons "Complete Repository" v.4 p.20 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: "SLOW"
+K: Em
+% - - - - - - - - - -
+% Voice 1 formatted for to show the phrasing better.
+V: 1 clef=treble staves=2
+B,2 |\
+E3DE2F2 | B3A F4 | B4 (EG)FE | D3^C B,4 |\
+E3DE2F2 | (Bd3) T^c3B | B3B (BA)(FE) | [E6B,6G,6] :|
+B2 |\
+e3e (dB)(de) | f3f (gf)(ed) | T.B3A (ABd).F | [D6A,6F,6] B2 |\
+e3e (dB)(de) | f3f gfed | "^#tr"B3A (ABdf) | {f}e6 ||
+B2 |\
+e3e (dB)(de) | f3f (gf)(ed) | "^#tr".B3A (ABd).F | [D6A,6F,6] B,2 |\
+(ED)(EF) B2AF | E2D2 {D}Hd3A | B3B (BA)(FE) | [E6B,6G,6] |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z2 |\
+[e8E8] | g2b^c' d'4 | g2f2 e4 | f2F2 B4 |\
+[e8E8] | g2b2 a2g2 | z2a2 b2B2 | e4 E2 :| z2 |\
+[e4E4] z(gf^c) | d2d'2 d'4 | g4 a2A2 |
+D2FA d2z2 |\
+[e4E4] z(gf^c) | d4 e2f2 | g3a b2B2 | E2GB e2 || z2 |\
+[e4E4] z(gf^c) | d2d'2 d'4 | g4 a2A2 | D2FA d2z2 |\
+[e4E4] g2f2 | ^c2d2 HD4 | g2a2 b2B2 | e4 E2 |]

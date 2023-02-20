@@ -1,0 +1,26 @@
+X:1
+T: Baby Boomer's Birthday
+N:
+C:Tune is "Willie Wagtail" by John Stapledon
+S:
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 39 notes)
+K:G
+M:6/8
+L:1/16
+d2 c2 |B6 c2 A2 F2 G4 g2 d4 B2 c2 A2 B2 c2 d2 e2 =f4 c2 A4 c2 |B4 d2 c2 B2 A2 G4 g2 d4 B2 c2 B2 c2 d2 B2 A2 G6G2 d2 c2 |
+%W: A2
+% voice 1 (1 lines, 37 notes)
+B6 c2 A2 F2 G4 g2 d4 B2 c2 A2 B2 c2 d2 e2 =f4 c2 A4 c2 |B4 d2 c2 B2 A2 G4 g2 d4 B2 c2 B2 c2 d2 B2 A2 G6G2 d2 e2 |
+%W: B1
+% voice 1 (1 lines, 39 notes)
+=f4 f2 f2 e2 f2 g4 =f2 d4 B2 c2 B2 c2 A4 c2 B4 c2 d4 e2 |=f2 g2 f2 d2 e2 f2 g4 =f2 d2 c2 B2 c2 d2 e2 d2 B2 A2 G6G2 d2 e2 |
+%W: B2
+% voice 1 (1 lines, 37 notes)
+=f4 f2 f2 e2 f2 g4 =f2 d4 B2 c2 B2 c2 A4 c2 B4 c2 d4 e2 |=f2 g2 f2 d2 e2 f2 g4 =f2 d2 c2 B2 c2 d2 e2 d2 B2 A2 G6G2 ||

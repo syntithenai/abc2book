@@ -1,0 +1,20 @@
+X: 1
+T: John Donald Cameron
+C: John Campbell
+R: jig
+S: handwritten copy from Barbara McOwen in Concord Slow Scottish Session collection
+S: printed copy of unknown origin in Concord Slow Scottish Session collection
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The c sharps are natural in some versions.
+M: 6/8
+L: 1/8
+K: G
+B, |\
+"G"G,B,D GBd | "G"B2G {A}GFG | "C"E2c {d}cBc | "D7"D2d {e}d^cd |\
+"G"DB,D GBd | "G"B2G GFG | "C"EcB "D7"AFD | "G"{F}G3 G2 :|
+a |\
+"G"gdB {d}BAB | "G"gBB "D7"agf | "G"{a}gdB {d}BAB | d3 d2a |\
+"G"gdB {d}BAB | "G"gBB "D7"agf | "G"{a}gdB "D7"{d}cAF | "G"{F}G3 G2 |]
+a |\
+"G"gdB {d}BAB | "G"gBB "D7"agf | "G"{a}gdB {d}BAB | "D7"d3 d2f |\
+"G"{a}gfa gdB | "A(m)"d^ce "G"dBG | "D7"AFD DBA | "G"{F}G3 G2 |]

@@ -1,0 +1,54 @@
+X: 30141
+T: MORRIS WALTZ
+C: E. L. White
+%R: waltz
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.14 #1 (and p.15 #1)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+!p!c>c |\
+f2a2!f!g2 | f2c2!p!c>f | a2c'2!f!b2 | a4 c>c |\
+g2g2a2 | b2g2a2 | g>ec>ed>=B | c4 !p!c>c |\
+fcacg!f!c | f2c2c>!p!f |
+acc'c!f!bc | a4 ce |\
+gcgcac | bcbcgc | fcafeg | f4 |: z2 |\
+z2z2!p!c>c | cgg2z2 | z2z2!p!c>c | caa2c>c |
+% p.15 - - - - -
+b>ab>ag>^g | a>^ga>=gf>^f | g>^fg>=fe>g | f4 :: a>a |\
+a2a2a>g | f>ed2g>g | g2g2g>f | e>dc2c>c |
+f2f2a2 | c'2a2c>c | f2f2a2 | g2e2c>c |\
+d2d>ef>d | c2f2a2 | c'>ba>gf>e | f4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+z2z2!f!B2 | A2A2z2 | z2z2 !f!e2 | f4 z2 |\
+e2e2f2 | g2e2f2 | e>BG2F2 | E4 z2 |\
+z2z2!f!B2 | A2A2z2 |
+z2z2!f!e2 | f4z2 |\
+e2e2f2 | g2g2ec | A2c2B2 | A4 |: (3(ccc) |\
+c2c2!p![E2G,2] | [E2G,2][E2G,2]!f!(3(ccc) | c2c2!p![F2A,2] | [F2A,2][F2A,2]z2 |
+% p.15 - - - - -
+[E2G,2][E2G,2]z2 | [F2A,2][F2A,2]z2 | [E2G,2][E2G,2][E2G,2] | [F4A,4] :: !f!A>A |\
+A2A2^c2 | d>AF2G>G | G2G2=B2 | c>GE2z2 |
+A2A2c2 | A2F2z2 | A2A2F2 | E2G2z2 |\
+B2B>cd>B | A2A2F2 | G2c>BA>G | A4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+z2z2!f!c2 | f2F2z2 | z2z2!f!c2 | f2F2z2 |\
+c2c2c2 | c2c2f2 | g2g2G2 | c4z2 |\
+z2z2!f!c2 | f2F2z2 |
+z2z2c2 | f4z2 |\
+c2c2c2 c2c2c2 | f2f2c2 | f4 |: !f!(3(c'c'c') |\
+c'2c'2!p!c2 | c2c2!f!(3(c'c'c') | c'2c'2!p!c2 | c2c2z2 |
+% p.15 - - - - -
+c2c2z2 | f2f2z2 | c2c2c2 | f4 :: z2 |\
+z2z2a2 | d'2d2z2 | z2z2g2 | c'2c2z2 |
+f2f2f2 | f2f2z2 | f2f2f2 | c2c2z2 |\
+B2B2B2 | f2f2f2 | c2c2c2 | f4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

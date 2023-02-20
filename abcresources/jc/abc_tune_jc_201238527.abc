@@ -1,0 +1,29 @@
+X: 30953
+T: COTILLION No. 9. HORN POND SETT tune 6
+C:
+%R: jig+reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.95 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The fermata at the end of strain 1 implies that strain 3 should also have a "D.C." at its end.
+M: 6/8
+L: 1/8
+K: E	% and D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+B |\
+g2f ede | a2g fef | b2a gfe | afe dcB |\
+g2f ede | a2g fga | {ga}b2g {ga}b2g | fef e2 H|]
+d/e/ |\
+f2f agf | b3 gfe | {ga}b2g {ga}b2g | b2a gfe |\
+f2f agf | b2a gfe | b2a gfe | fed "^D.C."e2 |]
+K: D
+M: C|
+F/E/ |\
+DFAc AGAd | DFAB AFEF | DFAB AFAd | faeg fdd |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right and left 4,
+%% alamand partners, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

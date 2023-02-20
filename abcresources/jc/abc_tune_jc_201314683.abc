@@ -1,0 +1,19 @@
+X: 1
+T: the Muffled Drum
+P: piffero primo a0587
+O: Bruce & Emmett
+%R: march, reel
+F: http://ancients.sudburymuster.org/mus/sng/pdf/muffledC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+d2 |\
+d2(gf g2)B2 | B2(d^c d2)G2 | FAce d3c | BABc d2zd |\
+d2(gf g2)B2 | B2(d^c d2)G2 | FAce d2F2 | G4 z2 :|
+|: d2 |\
+d2(f=f ^f2)d2 | d2(gf g)d2 | d2(a^g a2)d2 | d2(b^a b2)d2 |\
+d2(gf g2)B2 | B2(d^c d2)G2 | FAce d2F2 | G4 z2 :|
+|: d2 |\
+(^cdcd) e2f2 | (agfg) d2B2 | dcBc A2F2 | GFGB d2zd |\
+(^cdcd) e2f2 | (agfg) d2B2 | dcBc A2F2 | G2B2 G2 :|

@@ -1,0 +1,22 @@
+X: 1
+T: Fiddler's Dream
+%T: Da Aw Fiddler's Dream
+C: Arthur Smith
+R: reel
+S: Fiddle Hell Online 2021-11-7 handout
+B: Darol Anger's Artistworks School of Fiddle
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+Q: 1/4=200 "moderate"
+K: G	% and D
+% %continueall
+"^A"[|] GA !segno!|\
+"G"BAGE DCB,A, | G,B,DG EFGA | Bdef gfga | bgag edg2 |
+bgag edef | gedB AGEF | GDED B,DGA | "D"BGAF "G"G2 :| DE
+"^B1"[|]\
+"D"F2 JA4 A2            | ABde fedA | "A"^cded cABc | "D"dcBd "A"AGFE |
+"D"D[A-F-][A2F2] [A4F4] | ABde fedA | "A"^cded cAcd | "D"d2[fd]e [f2d2]A2 ||
+"^B2"[|]\
+"D"F2 JA4 A2            | ABde fedA | "A"^cded cABc | "D"dcdB "A"AGFE |
+"D"D[A-F-][A2F2] [A4F4] | ABde fedA | "A"^cdeg aecA | "D"d3e "C"c3"^D.S."d |]

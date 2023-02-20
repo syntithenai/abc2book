@@ -1,0 +1,12 @@
+X:1
+T:Out On the Ocean
+M:6/8
+K:G
+L:1/8
+V:2 clef=alto middle=C
+E, | "G"D,2 B, B,A,G, | B,DB, "D"A,B,A, | "G"G,E,D, G,2 A, | +turn+B,3 "D"A,G,E, |
+"G"D,2 B, B,A,G, | B,DB, "D"A,B,A, | "G"G,E,D, G,2 A, |1 "D7"B,G,F, "G"G,2 :|2 "G"B,G,F, G,B,D |
+"Em"+turn+E3 EDB, | EFE EDB, | "D"+turn+D3 DB,A, | D2 D DB,A, |
+"G"G,2 A, B,2 D | "C"EGE DB,A, | "G"G,E,D, "D"G,2 A, | "G"B,G,F, G,B,D |
+"Em"+turn+E3 EDB, | EFE EDB, | "D"+turn+D3 DEF | GFE DB,A, |
+"G"G,2 A, B,2 D | "C"EGE DB,A, | "G"G,E,D, "D"G,2 A, | "G"B,G,F, G,2 |]

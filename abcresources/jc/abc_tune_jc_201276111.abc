@@ -1,0 +1,24 @@
+X: 1
+T: the First No\"el [G]
+O: French
+S: SAFD collection
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+BA |\
+G3ABc | d4ef | g2f2e2 | d4ef | g2f2e2 | d2e2f2 | g2d2c2 | B4BA |
+G3ABc | d4ef | g2f2e2 | d4ef | g2f2e2 | d2e2f2 | g2d2c2 | B4 ||
+BA G3ABc | d4gf | e4e2 | d6 | g2f2e2 | d2e2f2 | g2d2c2 | B4 |]
+% - - - - - - - - - -
+% V: 2
+% % - - - - - - - - - -
+% d2 |\
+% B2G2fe | d2d2c2 | B4ef | g2f2e2 | d4ef | g4d2 | GABcdf | g2d2c2 |
+% B2G2fe | d2d2c2 | B4ef | g2f2e2 | d4ef | g4d2 | GABcdf | g2d2 ||
+% d2 |\
+% B2G2fe | d2dcB2 | cdefga | b2g2f2 | e2d2c2 | B2c2A2 | GABcdf | g4 |]
+% % - - - - - - - - - -

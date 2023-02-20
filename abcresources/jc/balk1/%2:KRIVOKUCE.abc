@@ -1,0 +1,22 @@
+X: 252
+T:Krivo Kuce
+O:Serbia
+W: adapted from Martin Junghans/Jutta Weber-Karn transcription
+W: http://www.folkloretanznoten.de/
+M:2/4
+L:1/8
+K:Amix
+Q:1/4=160
+%%MIDI gchord czcz
+%%MIDI program 23 Tango Accordian
+%%MIDI chordprog 24 Acoustic Guitar (nylon)
+|:"D"A,D ~F2 |A,D ~F2     |A,D FA     |\
+  "G"G2"D" F2|^GA GA      |B=c BA     |
+  ^GA GA     |"G"TG2"D" F2|A,D F2     |\
+  A,D F2     |A,DFA       |"G"G2 "D"F2|
+  "A"GF ED   |"D" FE DC   |"A"E2 C2   | A,4::
+  "G"_BA G2  |"D"GA F2    |A,B,CD     |\
+  F2 F2      |"G"_BA G2   |"D"GA F2   |
+  A,B, CD    | F2 F2      |"G"_BA G2  |\
+  "D"GA F2   |D2 EF       |"G"G2 FD   |\
+  "D"GF ED   |FE DF       |"A"E3C     |A,4 :|

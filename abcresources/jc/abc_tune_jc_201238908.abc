@@ -1,0 +1,31 @@
+X: 31551
+T: COTILLION No. 39. CONCERT HALL SETT tune 4
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.155 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The natural sign in bar 9 is probably a typo.
+N: There were extra bar lines in the middle of bars 21,22; not transcribed.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+.D(AF) .A,(EC) | .D(AF) .A,(EC) | DFA def | g>Be d>cB |\
+.D(AF) .A,(EC) | .D(AF) .A,(EC) | DFA def | g>Be d3 H|]
+A |\
+f>ff {=g}a3 | d>dd {e}f3 | A>AA {A}B2A | FAd eA{c}d |\
+f>ff {^g}a3 | d>dd {e}f3 | A>AA B2A | A<fe "^D.C."d2 |]
+{^g}a2z {^e}f2z | {^c}d2z {^A}B2z | FA/A/A Ade | fgf AAd |\
+{^g}a2z {^e}f2z | {^c}d2z {^A}B2z | FA/A/A Ade | fg[ec] "^D.C."d3 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All forward and back,
+%% all balance to corners,
+%% half promenade,
+%% swing round,
+%% grand chain,
+%% promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

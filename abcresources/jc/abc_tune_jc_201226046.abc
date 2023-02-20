@@ -1,0 +1,25 @@
+X: 10084
+T: PETER'S BIRTHDAY
+C: Bob McQuillen 15 June 93
+B: Bob's Note Book 10 #84
+%R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D	% and Bm
+A \
+| dcB AFA | dcB AFA | Bdf edB | A3- A2F | GFG BAG | FGA Bcd | fgf edB | e3- e2A |
+| dcB AFA | dcB AFA | Bdf ede | f3- f2f | gfg bag | faf dcB | Agf edc | d3- d2 ||
+K: Bm
+|| c \
+| dcB Bdf | dcB Bde | fdB ecA | B3- B3A | Bcd cdc | Bcd ede | dfa bag | f3 f2f |
+| gfe efg | fdB Bde | fga bag | fed cBA | Bdf ecA | Bdf efa | fdB ecA | "^*"B3- B2 |]
+%%begintext align right
+%% * F chord _last time_ thru only.
+%%endtext
+%%begintext align
+%% I was truly sorry to be
+%% away on the occasion of great New England contra dance
+%% pianist Peter Barnes' birthday celebration, so what you
+%% see is what he got, along with much love, from me.
+%%endtext

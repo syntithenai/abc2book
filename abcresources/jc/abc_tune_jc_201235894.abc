@@ -1,0 +1,19 @@
+X: 2144
+T: Hon.ble Cap.n Maitland's Strathspey.
+C: by Nath. Gow
+%R: straathspey
+B: Niel Gow & Sons "Complete Repository" v.2 p.14 #4 (and top 2 staves of p.14)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+D |\
+G<GB>G c>AFD | G<GB>G dGBG | c<a B<g ADFD | G<GB>A G2G :| B/c/ | dgBg ADFD | .d.g .B.g .d.g .B.g |
+ca Bg AD FD |G<GTB>A G2 GB/c/ || dg Bg AD FD | dg Bg dg Bg | ca Bg AD FD | G<GTB>A G2G |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | g2g2 d2d2 | g2g2 g2g2 | f2g2 d2d2 | g2d2 G2G :| z | g2g2 d2d2 | g2g2 g2g2 |
+f2g2 d2d2 | g2d2 G2G2 || g2g2 d2d2 | g2g2 g2g2 | f2g2 d2d2 | g2d2 G2G |]

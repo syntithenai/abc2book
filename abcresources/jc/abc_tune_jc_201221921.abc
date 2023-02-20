@@ -1,0 +1,30 @@
+X: 052
+T: LADY CHARLOTTE BRUCE
+C: Wm SHEPHERD
+R: Strathspey
+B: Glen Collection p.5 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: 2nd part had open repeat but no close repeat at end.
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: A
+%
+V: 1
+E |\
+AB {AB}cA e>cA>E | FB/c/ (d/c/).B/.A/ G>BB>c | AB {AB}cA e>cA>E | FB/c/ (B/A/).G/.F/ EAA :|
+|: c |\
+A>Tce>c a>cTe>c | fdeA GBTBc | A>Tce>c a>cTe>c | f>de>E F>AA>c |
+A>ce>a (a/g/).f/.g/ ae | f>dcA B/A/G/F/ E/D/C/B,/ | .C.A.D.B .E.c.F.d | d/c/B/A/ G/F/E/D/ CA,A, :|
+%
+V: 2
+z |
+A2[c'2a2e2] [c'2a2e2][c'2a2e2] | [b2f2d2][b2f2d2] [b2g2e2][b2g2e2] |\
+A2[c'2a2e2] [c'2a2e2][c'2a2e2] | [b2f2d2][b2g2e2] A2[c'ae] |]
+|: z |\
+A2[c'2a2e2] [c'2a2e2][c'2a2e2] | [d'2g2e2][c'2a2e2] [d'2b2e2][d'2g2e2] |\
+A2[c'2a2e2] [c'2a2e2][c'2a2e2] | [b2g2][c'2a2] [c'2a2f2][c'2a2e2] |
+A2[c'2a2e2] [c'2a2e2][c'2a2e2] | [b2g2e2][c'2a2e2] e2A2 |\
+[e2A2][e2B2] [a2c2][a2d2] | [g2e2][b2g2d2] [e2A2][eA] :|

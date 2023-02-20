@@ -1,0 +1,16 @@
+X:1680
+T:Rory MacLeod
+R:jig
+Z:Converted from Piob Mhor format rorymacl.bgp by Abcmus 1.1 beta
+M:6/8
+L:1/8
+Q:3/8=130
+K:Hp
+|: {gcd}c2A {g}ce{A}e | {g}fe{A}e {g}fa{g}a | {cd}c2A {g}ce{A}e |
+| {g}fc{G}c {g}cB{G}B | {gcd}c2A {g}ce{A}e | {g}fe{A}e {g}fa{g}a | fc{G}c {gef}ecB | {g}c{d}A{e}A |1 {GAG}A3 :|2 {GAG}A2 ||
+|: e | {g}Ae{A}e {g}fe{A}e | ae{A}e {g}fe{A}e | {g}ce{A}e {g}fe{A}e |
+| ae{A}e {g}ef{e}f | {g}Ae{A}e {g}fe{A}e | ae{A}e {g}fe{A}e | fc{G}c {gef}ecB | {g}c{d}A{e}A {GAG}A2 :|
+|: a | Ac{G}c {g}cd{c}d | {g}dc{G}c {gcd}c2B | {g}Ac{G}c {g}cd{c}d |
+| {g}dc{G}c {g}cB{G}B | Ac{G}c {g}cd{c}d | {g}dc{G}c {gcd}c2A | fc{G}c {gef}ecB | {g}c{d}A{e}A {GAG}A2 :|
+|: g | {a}fa{g}a {g}a2f | {g}fe{A}e {gef}e2c | {g}cB{G}B {g}cf{e}f |
+| {g}fe{A}e {g}ec{G}c | {g}fa{g}a {g}a2f | {g}fe{A}e {gef}e2c | fc{G}c {gef}ecB | {g}c{d}A{e}A {GAG}A2 :|

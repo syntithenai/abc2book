@@ -1,0 +1,31 @@
+X:1
+T:The Banshee
+M:C
+L:1/8
+Q:80
+C:Arranged by T. Tully
+S:Reel
+K:HP
+|: B | \
+d{e}d{c}dA{gBd}BAGA | \
+d{e}d{c}de{gfg}f2df | \
+"flick"a3f{g}ef{g}de |
+{g}fe{g}dB{g}B{d}A{e}A :: \
+f | \
+{g}fa{g}afaf{g}ef | \
+{gef}ed{c}de{gfg}f2ag |
+{a}fa{g}af{g}ef{g}de | \
+{g}fe{g}dB{g}B{d}A{e}A :: \
+B |
+{gdedc}d2{g}dA{g}B{d}A{e}AB | \
+d{e}d{c}de{g}fA{g}df | \
+{g}Aa{g}af{g}ef{g}de |
+{g}fe{g}dB{g}B{d}A{e}A:| [ | \
+f | \
+{g}fa{g}af"flick"a3f | \
+{g}ed{c}de{gfg}f2de |
+{g}fd{gdedc}d2gd{gdedc}d2 | \
+{g}fd{c}de{gfg}f2de{g}fa{g}af"flick"a3f | \
+{g}ed{c}de{gfg}f2de |
+{g}fa{g}af{g}ef{g}de | \
+{g}fe{g}dB{g}B{d}A{e}A|]

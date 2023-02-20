@@ -1,0 +1,26 @@
+X:1
+T: Footy Agyen the Wa'
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:Am
+I:speed 165
+%W: A1
+% voice 1 (1 lines, 32 notes)
+K:Am
+M:6/8
+L:1/16
+b2 |c'4 a2 b4 g2 a4 g2 e4 b2 c'4 a2 b4 g2 e6 e4 b2 |c'4 a2 b4 g2 a4 b2 c'4 a2 g2 e2 c2 d4 e2 A6 A4 B2 |
+%W: B1
+% voice 1 (1 lines, 31 notes)
+c4 d2 e4 g2 f4 d2 e4 d2 c4 c2 e4 g2 a6 a4 b2 |c'4 a2 b4 g2 a4 b2 c'4 a2 g2 e2 c2 d4 e2 A6 A4 b2 |
+%W: A2
+% voice 1 (1 lines, 31 notes)
+c'4 a2 b4 g2 a4 g2 e4 b2 c'4 a2 b4 g2 e6 e4 b2 |c'4 a2 b4 g2 a4 b2 c'4 a2 g2 e2 c2 d4 e2 A6 A4 B2 |
+%W: B2
+% voice 1 (1 lines, 30 notes)
+c4 d2 e4 g2 f4 d2 e4 d2 c4 c2 e4 g2 a6 a4 b2 |c'4 a2 b4 g2 a4 b2 c'4 a2 g2 e2 c2 d4 e2 A6 A4 ||

@@ -1,0 +1,29 @@
+X: 101
+T: Mrs GREGORY
+C: WHITE
+R: Strathspey
+B: Glen Collection p.10 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: D
+%
+V: 1
+D2 |\
+FA3A3B A3Bd3g | fd3g3e B4B3d | FA3A3B A3Bd2B2 | AF3E3F D4D2 :|
+fg |\
+a2d2f2d2 defga4 | B3Bg3f e4e2fg | a2d2Tf2e2 defg a2f2 | dB3A3F {F}A4A2fg |
+a2d2Tf3e defga4 | B3Bg3f e4e2fg | a2d2Tf3e d2A2B2d2 | A2d2 AGFE {E}D4D2 |]
+%
+V: 2
+z2 |\
+d4[a4f4] [a4f4][a4f4] | [d'4a4][e'4b4g4] [e'4b4g4][b4g4] |\
+d4[a4f4] [a4f4][a4f4] | [a4f4][g4e4A4] [f4d4][f2d2] :|
+z2 |\
+d4[d'4a4] [d'4a4][d'4a4] | e4[b4g4] [c'4a4][c'4a4] |\
+d4[d'4a4] [d'4a4][d'4a4] | d4[d'4a4] A4[e4c4] |
+d4[d'4a4] [d'4a4][d'4a4] | e4[b4g4] [c'4a4][c'4a4] |\
+d4[d'4a4] [d'4a4f4][d'4b4g4] | [d'4a4f4][c'4a4e4] [a4f4d4][a2f2d2] |]

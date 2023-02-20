@@ -1,0 +1,32 @@
+X: 4122
+T: the Belfast Allmanack     a Favorite Irish Air
+%R: jig, air
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.12 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slowish"
+K: G
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 8-bar lines, for easier proofreading.
+V: 1 staves=2
+D |\
+G2G {G}FED | TE2F G2A | B2G "_sf"c2A | B2G c2A ||\
+TB>cd E2E | ABG {G}FED | TE>FG AFD | {F}[G3D3B,3] [G2D2B,2] :|
+|: c  |\
+TB>cd def | {f}.g2.g Tg3 | .B2B Bcd | {cd}e2e Te3 ||\
+{e}dcB cde | {e}dBd D2D | TE>FG AFD | {F}[G3D3B,3] [G2D2B,2] :|
+|: A |\
+"_sf"B2G {AB}"_sf"c2A | "_sf"B2G {AB}"_sf"c2A | ~B>cd E2E | ABG {G}FED ||\
+"_sf"B2G {AB}"_sf"c2A | B2G ~B>cd | TE>FG AFD | {F}[G3D3B,3] [G2D2B,2] :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+g3 d3 | c2A B2F | G3 "_sf"d3 | g3 [d3f2] |\
+g3 c3 | A2^c d2B | [=c3C3] [d3D3] | gdB G2 :||:
+z |\
+G3 g3 | GBd g3 | g3 =fed | cGE C3 ||
+[B3B,3] [c3C3] | B2G [B3B,3] | [c3C3] [d3D3] | gdB G2 :||: z |
+"_sf"[g3G3] "_sf"[d3D3] | "_sf"[g3G3] "_sf"[d3D3] | G2B c2B | A2^c d3 ||
+"_sf"[g3G3] "_sf"[d3D3] | g2B G2B | [c3C3] [d3D3] | gdB G2 :|

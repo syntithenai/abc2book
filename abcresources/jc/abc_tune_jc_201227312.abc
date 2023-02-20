@@ -1,0 +1,20 @@
+X: 107202
+T: the MULINDHU
+Q: "Reel."
+R:  Reel.
+%R: reel
+B: James Kerr "Merry Melodies" v.1 p.7 s.2 #2
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Ador
+a |\
+edef g2(fe) | dGdB dGdg |\
+edef g2(fe) | dBgB A2A>a |\
+edef g2(fe) | dGdB dGdg |\
+edef gage | dBgB A2-A |]
+a |\
+eAed eAAB | dGdB dGGg |\
+eAed eAAB | dGdB A2A>a |\
+eAed eAAB | dGdB dGGg |\
+edef gbge | dBgB A2-A |]

@@ -1,0 +1,39 @@
+X: 1
+T: Kemp's Jigg
+P: Round for six
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.93 #142 (186)
+N: Right edge partly illegible, corrected from http://www.archive.org/stream/dancesofoldentim00moff/dancesofoldentim00moff_djvu.txt
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g |\
+g>ag =e^fg | ^f>=e^f d=e^f | gab abg | ^f3 d2 |][| A |\
+B3 c3 | d3- d2A |
+B3 c3 | d3- d2A |\
+BAB cBc | ded d>c B/c/ | A2G G^F2 | G3- G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% One Man lead in two We. forwards and back :| Honour to one, honour
+%% to the other, then turn the third .| Lead your own with your left Hand,
+%% and the Woman you turn'd, as much :| Then as much with the other two
+%% We. turning your own The next Man as much :|:| Then the 3d as
+%% much :|:|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First Man lead the We. as before, turn half round, holding both Hands,
+%% and his own as much to the other, turn the 3d Wo. .| Do thus to all,
+%% the rest following and doing the like.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First Man take the We. as before by the contrary Hands behind,
+%% then lead them forwards and back, pull one half about and kiss her,
+%% as much with the other, turn the 3d .| Do thus to all, the rest following
+%% and doing the like.
+%%endtext
+%%sep 1 8 500

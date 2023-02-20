@@ -1,0 +1,30 @@
+X: 77
+T: Wright's humour
+T: Longways for as many as will.
+%R: reel
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.39
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+N: Actually, in this tune it saye "Each stain twice."
+M: 2/2	% The book has just "2".
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2d2 g2fg | agfe d4 | d2e2 c2d2 | A2B2 A2D2 |\
+d2d2 g2fg | agfe d4 | d2cB A2GF | E2A2 D4 :|
+|:\
+DEFG A2A2 | d2c2 B4 | Bcdc B2A2 | G2A2 F2D2 |\
+defe g2fe | d2c2 B4 | d2c2 B2AG | A2F2 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man sett to the 2d Wo. and turn single,
+%% then turn his Partner .| The 1st Wo. do the same :|
+%% Then 1st Cu. cross over and half Figure a Top,
+%% with the 2d Cu. .| Then the whole Figure at the
+%% Bottom, with the 3d Cu. and turn your Partner.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

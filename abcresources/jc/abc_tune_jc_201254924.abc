@@ -1,0 +1,82 @@
+
+X: 1
+T: the Bonny Lass    [A]
+T: Under the Water
+O: Walsh, London, 1748
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+V: 1 staves=2
+|: agfe dcBA | agfe f2a2 | agfe dcBA | aaAA "(E7)"c2e2 :|
+|: A/B/c/d/ ec ecec | B/c/d/e/ fd fd a2 | A/B/c/d/ ec ecec | agfe f2a2 :|
+V: 2 clef=bass middle=d
+|: "A"a4 A4 | c'2a2 "D"d'2d2 | "A"c'4 a4 | c2e2 a2A2 :|
+|: "A"a4 A4 | "Bm"d'4 "D"d4 | "A"a4 A4 | c4 "D"d2"(A)"A2 :|
+%%begintext align
+%% The 1st Cu. cast off two Cu. .|
+%% cast up again :|
+%% Gallop down one Cu. up again & cast off .|.
+%% hands round all six :|:
+%%endtext
+
+%%sep 1 1 500
+
+X: 1
+T: the Bonny Lass    [D]
+T: Under the Water
+O: Walsh, London, 1748
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: "D"dcBA GFED | dcBA "G"B2d2 | "D"dcBA GFED | ddDD "(A7)"F2A2 :|
+|: "D"D/E/F/G/ AF AFAF | E/F/G/A/ BG "G"BG d2 | "D"D/E/F/G/ AF AFAF | dcBA "G"B2"(D)"d2 :|
+% %begintext align
+% % The 1st Cu. cast off two Cu. .|
+% % cast up again :|
+% % Gallop down one Cu. up again & cast off .|.
+% % hands round all six :|:
+% %endtext
+
+%%sep 1 1 500
+
+X: 1
+T: the Bonny Lass    [G]
+T: Under the Water
+O: Walsh, London, 1748
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: "G"gfed cBAG | gfed "C"e2g2 | "G"gfed cBAG | ggGG "(D7)"B2d2 :|
+|: "G"G/A/B/c/ dB dBdB | A/B/c/d/ ec "C"ec g2 | "G"G/A/B/c/ dB dBdB | gfed "C"e2"(G)"g2 :|
+% %begintext align
+% % The 1st Cu. cast off two Cu. .|
+% % cast up again :|
+% % Gallop down one Cu. up again & cast off .|.
+% % hands round all six :|:
+% %endtext
+
+%%sep 1 1 500
+
+X: 1
+T: the Bonny Lass    [C]
+T: Under the Water
+O: Walsh, London, 1748
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+|: "C"cBAG FEDC | cBAG "F"A2c2 | "C"cBAG FEDC | ccCC "(G7)"E2G2 :|
+|: "C"C/D/E/F/ GE GEGE | D/E/F/G/ AF "F"AF c2 | "C"C/D/E/F/ GE GEGE | cBAG "F"A2"(C)"c2 :|
+% %begintext align
+% % The 1st Cu. cast off two Cu. .|
+% % cast up again :|
+% % Gallop down one Cu. up again & cast off .|.
+% % hands round all six :|:
+% %endtext

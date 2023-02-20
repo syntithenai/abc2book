@@ -1,0 +1,24 @@
+X: 1
+T: the Old Polka
+C: traditional
+R: pokka
+S: Fiddle Hell Online 2022-4-10 handout for Jennifer Wrigley workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The phrase endings don't quite match; ABC software won't align them properly.
+M: 4/4
+L: 1/8
+K: D
+%%continueall
+F>A |\
+"D"B2 A2 A>f e>d | "G"c2 B2 B2 e>d | "A"c>d e>f g2 B>c | "D"d>e f<d A2 F>A |
+"D"B2 A2 A>f e>d | "G"c2 B2 B2 e>d | "A"c>d e>f g>e B>c | "D"d2 d2 d2 :|
+|: f>g |\
+"D"a>f d>f A>f d<f | "D"a2 g>f "A"g2 e>f | "A"g>e c>e A>e c<e | "A"g2 f>e "D"f2 f>g |
+"A"a>f d>f A>f d<f | "D"a2 g2 "G"B2 e>d | "A"c>d e>f g>e B>c | "D"d2 d2 d2 :|
+P: Harmony I
+|: F6 F2 | G8 | A6 A2 | F8 | F6 F2 | G8 | A6 A2 | F4 F2 :|
+|: A8 | A4 G4 | G4 | G4 F4 | A8 | A4 G4 | G8 | F8 :|
+P: Harmony II
+|: d2 f4 d2 | g8 | c2 e4 a2 | f8 | d2 f4 d2 | g8 | c2 e4 a2 | f6 f2 :|
+|: a2 f2 d2 f2 | a4 g4 | g2 e2 c2 e2 | g4 f4 |\
+a2 f2 d2 f2 | a4 g4 | c2 e4 a2 |1  d4 d4 :|2 d2 f2 d2 :|

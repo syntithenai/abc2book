@@ -1,0 +1,32 @@
+X:1
+T: The Knott
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 210
+%W: A1
+% voice 1 (1 lines, 36 notes)
+K:D
+M:4/4
+L:1/16
+G8 F4 E4 |F2 G2 A2 F2 D4 A4 |d8 c4 B4 |c2 d2 e4 e4 f2 g2 |a8 f6 e f |g2 f2 e2 d2 c6 B2 |A4 g4 f2 e2 d2 c2 |d8 D8 |
+%W: A2
+% voice 1 (1 lines, 36 notes)
+G8 F4 E4 |F2 G2 A2 F2 D4 A4 |d8 c4 B4 |c2 d2 e4 e4 f2 g2 |a8 f6 e f |g2 f2 e2 d2 c6 B2 |A4 g4 f2 e2 d2 c2 |d8 D8 |
+%W: B1
+% voice 1 (1 lines, 38 notes)
+G6 A2 B2 A2 B2 c2 |B2 c2 d4 D8 |d4 F4 F4 E2 D2 |E12 e2 f2 |g6 a2 b2 a2 b2 c'2 |b2 c'2 d'4 f8 |g2 f2 e2 d2 f2 e2 d2 c2 |d8 D8 |
+%W: B2
+% voice 1 (1 lines, 39 notes)
+G6 A2 B2 A2 B2 c2 |B2 c2 d4 D8 |d4 F4 F4 E2 D2 |E12 e2 f2 |g6 a2 b2 a2 b2 c'2 |b2 c'2 d'4 f8 |g2 f2 e2 d2 f2 e2 d2 c2 |d8 D4 b4 |
+%W: C1
+% voice 1 (1 lines, 40 notes)
+=c'8 b4 a4 |b4 f4 a2 g2 f2 e2 |e4 b4 b2 c'2 d'4 |c'8 a4 b2 c'2 |d'2 c'2 b2 a2 a2 g2 f2 e2 |=c'4 b2 a2 g2 f2 e2 d2 |c4 d4 e4 c4 |d4 D8 b4 |
+%W: C2
+% voice 1 (1 lines, 39 notes)
+=c'8 b4 a4 |b4 f4 a2 g2 f2 e2 |e4 b4 b2 c'2 d'4 |c'8 a4 b2 c'2 |d'2 c'2 b2 a2 a2 g2 f2 e2 |=c'4 b2 a2 g2 f2 e2 d2 |c4 d4 e4 c4 |d4 D12 ||

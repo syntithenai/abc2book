@@ -1,0 +1,23 @@
+X: 1
+T: Gianna (with low harmony)
+C: by David A. Kaynor, 2019
+R: reel
+S: https://natunelist.net/gianna/ 2021-6-7
+B: David A. Kaynor "Living Music and Dance" 2021
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+% - - - - -
+V: 1 staves=2
+|: DC |\
+"G"B,DG2 G2DC | B,D G2 G2AB | "C"c3A "Am"BGAG |[1,3 "D"FDED D2 :|[2,4 "D"DGGF "G"G2 :|
+|: ef |:\
+"G"g3a g2Bc | dgag [1,3 g2fg | "Am"a3b aeag | fded "D"d2ef :|\
+                   [2,4 "Em"e2AB | "C"c3A "Am"BGAG | "D"DGGF "G"G2 :|
+% - - - - -
+V: 2
+|: B,A, |\
+G,B,D2 D2B,A, | G,B,D2 D2EG | G3E ECEC |[1,3 DA,CA, A,2 :|[2,4 A,DDC B,2 :|
+|: Ac |:\
+d3d d2GA | Bded [1,3 d2dd | e3e ecec | dAcA A2cd :|[2,4 e2EG | G3E ECEC | A,DDC B,2 :|

@@ -1,0 +1,16 @@
+X: 774
+T: Johnny Allen's Reel
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #774
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0774/oneill-1001-0774-1.abc
+M: C|
+L: 1/8
+K: D
+"^A"[|]\
+   (FG) | A=cBG AGFG | Addc d2(FG) | A=cBG AGFD | AGGF G2 \
+|| (FG) | A=cBG AGFA | d2(ef) g2(fg) | (3(agf) ge dfec | dcAF G2 |]
+"^B"\
+[| (AB) | =cBAg fde^c | dcAB =c2(AB) | =cBAg fde^c | dcAF G2 \
+|| (AB) | =cBAg fde^c | d2(ef) g2(fg) | (3(agf) ge dfec | dcAF G2 |]

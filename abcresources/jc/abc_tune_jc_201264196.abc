@@ -1,0 +1,30 @@
+X: 1
+T: Constant Leander
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (159)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B2f2 c2f2 | d2fe d2B2 | f2ab b2a2 | g4 fedc |\
+B2f2 c2f2 | d2fe d2B2 | f2ga b2a2 | g4 f4 :|
+|:\
+c2e2 d2^f2 | gbag ^f=efd | g^fgd edcB | A4 G2DC |\
+B,2E2 C2F2 | D2FE D2B,2 | faga babc | c4 B4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st and 2d Cu. each take Hands, meet all four, dance and
+%% turn single then 1st Cu. figure thro the 3d Cu. .| Then
+%% Meet as before with the 2d Cu. then 1st Cu. cross up to
+%% the Top :| The 1st Man and 2d Wo. take right then left
+%% Hands across, the 1st Wo. and 2d Man do the same, then
+%% go all four half round and turn single .| Then right
+%% Hands and left round, all four meet, lift up your Hands
+%% and clap once with your Partners, the 1st Cu. cast off :|
+%%endtext
+%%sep 1 8 500

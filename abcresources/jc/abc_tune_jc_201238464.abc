@@ -1,0 +1,30 @@
+X: 30831
+T: COTILLION No. 3. OPERA SETT tune 5
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.83 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+FdB Ffd | (f2e) c2c | dcB ABc | BdB F2F |\
+FdB Ffd | f2e c2c | dcB ABc | B3 z2 H|]
+f |\
+f=ef (g2f) | a2f b2d | dcd e2c | cBc d2f |\
+f=ef g2f | a2f b2d | dcd fec | fga "^D.C."b2 |]
+D |\
+DGA Bcd | d3- d2d | ded c2A | BdB G2D |\
+DGA Bcd | d3- d2d | ded c2A | G3- "^D.C."G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 forward and back,
+%% back to back,
+%% balance 4 and turn partners,
+%% ladies chain,
+%% promenade 4.
+%% Side couples the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

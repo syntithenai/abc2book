@@ -1,0 +1,19 @@
+X: 792
+T: the Cup of Tea
+R: reel
+%S: s:3 b:24(8+8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #792
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0792/oneill-1001-0792-1.abc
+M: C|
+L: 1/8
+K: D
+"^A"[|]\
+   A | B(AGF) GEE(F | GE)BE GEEA | B(AGF) GEE(G | FD)AG FDD ||\
+|| A | B(AGF) GEE(F | GE)BE GEEA | B(AGF) GAB(c | d)BAG FDD |]
+"^B"\
+[| A | d2(eg) fde(c | d2)eg f(BBc) | d2(eg) fde(c | d)BAG FDD ||\
+|| A | d2(eg) fde(c | d)faf g2(fg) | afg(e fd)e(c | d)BAG FDD |]
+"^C"\
+[| G | F(AdA) FABA  | F(AdA) (FE)(EG) | F(GdA) FAB(c | d)BAG (FD)D ||\
+|| G | F(AdA) FAB(A | F)AdA  (FE)(Ee) | f2(ec) dBA(F | G)BAG FDD |]

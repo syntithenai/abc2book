@@ -1,0 +1,60 @@
+
+X: 1
+T: Guilderoy    (Am)
+O: Thomas Nixon 1778
+B: Thomas Nixon, Copybook, 1778
+C: Harmony by Emily Watson 2006
+R: reel
+Z: 2016 John Chambers <jc:trillian.mit.edu> (chords added 2020)
+M: C|
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - -
+V: 1 staves=2
+zE |\
+A2 A>B cB cd | e2 dc d2 cd | e2 A2 cA G<E | G6 cB |
+A>G AB cB cd | e>d ef e2 a>g | f>e d>c B2 c2 | A6 :|
+|: ef |\
+g>f ga g2 fe | fe dc d2 (3Acd | e2 A2 cA G<E | G6 cB |
+A>G AB cB cd | e>d ef e2 a>g | f>e d>c B2 c2 | A6 :|
+% - - - - - - - - - - - - - - -
+V: 2
+zE |\
+"Am"A,^G, A,B, CD EF | e2 zC "Dm"D2 A,2 | "Am"CE EA A4 | "Em"G2 F2 E2 E2 |
+"Am"A2 E2 A,2 E2 | A2 B2 c2 z>E | "Dm"D4 "Em"B,2 E2 | "Am"A,6 :|
+|: A2 |\
+"C"G3 F E2 zC | "G"D2 G2 A2 (3AFD | "Am"E2 A,2 C2 G2 | "Em"G3 E G2 zE |
+"Am"A2 E2 AB cd | "C"G3 A g2 z>E | "Dm"F2 D2 "Em"G2 E2 | "Am"C2 B,2 A,2 :|
+% - - - - - - - - - - - - - - -
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2
+T: Guilderoy    [Bm]
+O: Thomas Nixon 1778
+B: Thomas Nixon, Copybook, 1778
+C: Harmony by Emily Watson 2006
+R: reel
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bm
+% - - - - - - - - - - - - - - -
+V: 1 staves=2
+zF |\
+B2 B>c dc de | f2 ed e2 de | f2 B2 dB A<F | A6 dc |
+B>A Bc dc de | f>e fg f2 b>a | g>f e>d c2 d2 | B6 :|
+|: fg |\
+a>g ab a2 gf | gf ed e2 (3Bde | f2 B2 dB A<F | A6 dc |
+B>A Bc dc de | f>e fg f2 b>a | g>f e>d c2 d2 | B6 :|
+% - - - - - - - - - - - - - - -
+V: 2
+zF |\
+"Bm"B,^A, B,C DE FG | f2 zD "Em"E2 B,2 | "Bm"DF FB B4 | "F#m"A2 G2 F2 F2 |
+"Bm"B2 F2 B,2 F2 | B2 c2 d2 z>F | "Em"E4 "F#m"C2 F2 | "Bm"B,6 :|
+|: B2 |\
+"D"A3 G F2 zD | "A"E2 A2 B2 (3BGE | "Bm"F2 B,2 D2 A2 | "F#m"A3 F A2 zF |
+"Bm"B2 F2 Bc de | "D"A3 B a2 z>F | "Em"G2 E2 "F#m"A2 F2 | "Bm"D2 C2 B,2 :|
+% - - - - - - - - - - - - - - -
+

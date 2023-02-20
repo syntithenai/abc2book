@@ -1,0 +1,24 @@
+X: 4013
+T: Earl of Eglintouns Reel
+C:
+%R: reel
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.1 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - -
+V: 1 staves=2
+B |\
+FB (d/c/B) (.F.B)DB | FB (d/c/B) cCCB | FB (e/d/B) (.F.B)DF |\
+[1 (E/F/G) (TF>.E) DB,B, :|[2 (Ge)Td>c dB-B |]\
+f | Td>fBf dfbf | (d/e/f) B>d
+cF-F.e | dfBf dfbd | F(eTd>c) dB-Bf ||\
+TdfBf dfbf | (d/e/f) B>d cF-F>f | gecg fdBf | ecFe dB-B |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | B2B2 B2B2 | B2d2 e2f2 | d2B2 B2d2 |\
+[1 e2f2 B2B :|[2 e2f2 b2B |] z | b2b2 b2b2 | b2b2
+a2f2 | b2b2 b2d2 | e2f2 B2B2 || b2b2 b2b2 | b2b2 a2f2 |\
+[e2e'2][e2e'2] [d2d'2][d2d'2] | [c2c'2][A2a2] [B2b2][Bb] |]

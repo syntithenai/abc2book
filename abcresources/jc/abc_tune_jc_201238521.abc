@@ -1,0 +1,35 @@
+X: 30941
+T: COTILLION No. 9. HORN POND SETT tune 1
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.97 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The lydian key signature is a bit odd; it might be better written as C major, and bar 7 should probably have f natural.
+N: The 4-bar pickup to strain 2 conflicts with the ending of strain 1; not fixed.
+M: 2/4
+L: 1/16
+K: Clyd
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+c2e2c2e2 | (g^f)(ag) (=fedc) | d2f2A2B2 | cBce G2AB |\
+c2e2c2e2 | g^fag =fedc | f3d cBAB | d4 c2 H|]
+agfg |\
+d2Tg2B2Tg2 | cBcd e2g2 | (3(fgf) (3(efe) d2g2 | e4 c2Tg2 |\
+d2g2B2g2 | cBcd e2g2 | ^fgab c'2^f2 | a4 "^D.C."g2 |]
+e2 |\
+a>bc'>b a>e (3e^de | b>c'd'>c' b>e (3(e^de) |\
+c'>e (3(e^de) b>e (3(e^de) | a>ec'>a b>ee'>e |
+a>bc'>b a>e (3e^de | b>c'd'>c' b>e (3e^de |\
+c'>ba>c' b>ef>^g | a2c'2"^D.C."a2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Forward 2 cross over,
+%% chassa de chassa,
+%% cross back,
+%% ladies chain,
+%% promenade 4.
+%% Next two, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

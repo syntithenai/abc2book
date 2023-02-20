@@ -1,0 +1,36 @@
+X: 10471
+T: IRISH AIR
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.47 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The final note of voice 2 should probably be E, not F.
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+G |\
+cdc cGE | GAG GAB | cdc cGE | Ddd ded |\
+cdc cGE | GAG g2f | ede dBG | AcB c2 :|
+|: G |\
+ceg gec | GBd dBG | ceg gec | egg g2G |\
+ceg gec | Bcd dgf | ede dBG | AcB c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+G |\
+EFE E2C | EFE EFD | EFE E2C | B,B,B, B,GF |\
+EFE E2C | EFE e2d | cBc BGG | FED E2 :|
+|: G |\
+E3 E3 | F3 F3 | E3 E3 | cee e2z |\
+E3 E3 | DEF FED | CB,C B,2F | FED F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z |\
+c3 c3 | c3 c3 | c3 c2e | ggg g2z |\
+c3 c3 | c3 c3 | c3 d2e | fgG c2 :|
+|: z |\
+c3 c3 | B3 B3 | c3 c3 | ccc c2z |\
+c3 c3 | g3 g3 | c3 d2e | fgG c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

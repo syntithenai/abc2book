@@ -1,0 +1,16 @@
+X: 603
+T: Beside the White Rocks   #2
+T: cois na carraige baine
+R: jig
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #603
+Z: John Walsh (walsh@math.ubc.ca)
+N: Compacted by using labels and play order [JC]
+P: Play AB CB
+Q: "Animated."
+M: 6/8
+L: 1/8
+K: D
+"^A"[|](F/G/)| (A>Bc) (d2e) |(f2d) (ecA) | (A>GE) (GAB) |=c3 A2 |]
+"^B"[| G | (A>Bc) d3/(e/f/g/) | f2d (ecA) | (A>GE) (GAE) | D3 "^fine"D2 |]
+"^C"[| G | (AGE) (GAB) |=c2B A2G | (AGE) (GAB) |=c3 "^->B"A2 |]

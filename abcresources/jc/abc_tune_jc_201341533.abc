@@ -1,0 +1,189 @@
+
+X: 0
+T: STRUBE'S REVEILLE
+%C: 071229
+K:
+
+%%textfont Times-Italic 12
+
+
+X: 1
+T: The Three Camps
+P: piffero primo a0461
+O: strube
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/struberevF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+zc |\
+B2 A2 G2 g2 | f2 e2 d3 c | B2 A2 G2 g2 | f2 e2 d3 c |\
+B2 A2 G2 g2 | f2 e2 d3 c | B2 A2 G2 g2 |
+f2 e2 d2 |: zd |\
+g>d (3(BAG) e3 e | (3(def) (3(gdB) A3 c | B2 A2 G2 g2 | B2 A2 G2 :|\
+zc | B3 A G3 g | f2 e2 d3 c |
+B3 A G3 g | f2 e2 d2 |: zd |\
+g>d (3(BAG) e3 e | (3(def) (3(gdB) A3 c | B2 A2 G2 g2 |[1 B2 A2 G2 :|\
+[2 (3(faf) (3(def) g2 |]
+
+%%slurgraces 1
+%%graceslurs 1
+%%center (7-beat roll)
+
+
+X: 2
+T: The Slow Scotch
+P: piffero primo a0462
+O: strube
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/struberevF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+D |\
+G2 GA | G2 D2 | GA BA | G2 z2 |\
+d2 ef | g2 d2 | de dc | B2 z :: B |\
+dB dB | e2 e2 | cA cA | d2 z2 |\
+GA Bc |
+dg fg | BG AF | G2 z :: D |\
+G2 GA | G2 D2 | GA BA | G2 z2 |\
+d2 ef | g2 d2 | de dc | B2 z :: B |\
+dB dB | e2 e2 |
+cA cA | d2 z2 |\
+GA Bc | dg fg | BG AF | G2 z :| D |\
+G2 GA | G2 D2 | GA BA | G2 z2 |\
+d2 ef | g2 d2 | BG AF | G2 z |]
+
+%%slurgraces 1
+%%graceslurs 1
+%%center (7-beat roll)
+
+
+X: 3
+T: The Austrian
+P: piffero primo a0463
+O: strube
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/struberevF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+D2 |\
+G>AB>c d>ef>d | g2g2 f3d | e2e2 d3B | c>ec>A B>dB>G |\
+A>Bc>A G>FE>D | G>AB>c d>ef>d |
+g2g2 f3d | e2e2 d3B |\
+c>ec>A B>dB>G | A>cA>F G2 |: e2 | d>BG>B A>FD>e |\
+d>BG>B A2e2 |
+d>BG>B A>FD>e | d>BG>B A2D2 | G>AB>c d>ef>d |\
+g2g2 f3d | e2e2 d3B | c>ec>A B>dB>G | A>cA>F G2 :|
+
+%%slurgraces 1
+%%graceslurs 1
+%%center (7-beat roll)
+
+
+X: 4
+T: The Dawning of the Day
+P: piffero primo a0464
+O: strube
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/struberevF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+D2 |\
+G3A BAGF | E4 z2d2 | e3f gfed | B4 z2A2 | G3F G3A | Bdef gfed |
+B3G A3F | G4 z2 :: (3(Bcd) | e3d e2f2 | gfga gfed | e3d e3f | agfe edB2 |
+e3d e2f2 | gfga gfed | e3d g3B | Hd4 z2 (3(Bcd) | e3d e2f2 | gfga gfed |
+B"^>"g2 B2"^>"g2 | ABAG GFED | G3F G2A2 | Bdef gfed | B3G A3F | G4 z2 :|
+
+%%slurgraces 1
+%%graceslurs 1
+%%center (7-beat roll)
+
+
+X: 5
+T: The Hession
+P: piffero primo a0465
+O: strube
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/struberevF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+c2 |\
+B2e2 d>ed>c | B2e2 d3c | B2e2 d>ed>c | B2e2 d2 :: e2 | d>cB>A G>FG>A | B2e2 d3e |
+e>cB>A G>FG>A | B2A2 G2 :: D2 | G>BA>G F>EF>D | G2A2 B3G | cc (3(cBA) BB (3(BAG) |
+d2D2 G2 :: B2 | cc (3(cdc) c3B | dd (3(dcB) A3B | cc (3(cBA) BB (3(BAG) | d2D2 G2 :|
+
+%%slurgraces 1
+%%graceslurs 1
+%%center (7-beat roll)
+
+
+X: 6
+T: The Dutch
+P: piffero primo a0466
+O: strube
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/struberevF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: D
+d2 |\
+A4FA | d4Ad | e2d2e2 | fefga2 |\
+A4FA | d4Ad | e2d2e2 | d4 :|
+|: de |\
+f2fedc | B4cd | efedcB | A4A2 |\
+dAFAdf | ecAceg | f2fgfe | d4 :|
+
+%%slurgraces 1
+%%graceslurs 1
+%%center (the rolls)
+
+
+X: 7
+T: The Quick Scotch
+N: aka the Fairy Dance Reel
+P: piffero primo a0467
+O: strube
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/struberevF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+de |\
+f2fd f2fd | gfed cde2 | f2fd gfed | cABc d2de |\
+f2fd f2fd | gfed cde2 |
+f2fd gfed | cABc d2 || fg |\
+a2af b3a | g2ge a3g | f2fd gfed | cABc d2fg |\
+a2af b3a |
+g2ge a3g | f2fd gfed | cABc d2 :| de |\
+f2fd f2fd | gfed cde2 | f2fd gfed | cABc d2 |]
+
+
+X: 8
+T: The Three Camps (reprise)
+P: piffero primo a0468
+O: strube
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/struberevF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+c |\
+B2 A2 G2 g2 | f2 e2 d3 c | B2 A2 G2 g2 | f2 e2 d3 d |\
+g>d (3(BAG) e3 e | (3(def) (3(gdB) A3 c | B2 A2 G2 g2 |\
+(3(faf) (3(def) g2 |]
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

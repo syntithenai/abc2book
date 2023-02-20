@@ -1,0 +1,15 @@
+X: 1
+T: Haihintulo Marssi
+R: march
+S: http://dickatlee.com/music/finnish/abc/all_raw_tunes.abc 2018-1-6
+M: 4/4
+L: 1/16
+%Q: 1/4=100
+K: C
+|:\
+"C" c4 G2c2 e3d cdef | g2^fg agfg e4 g2e2 | "G" f3e d2f2 "C" e2d2 c2c2 | "G" Bcd2 dedc B2G2 A2B2 |
+"C" c4 G2c2 e3d cdef | g2^fg agfg e3d c2c2 | "G" Bcde f2a2 "D" g4 ^f2d2 | "G" g4 ~g2^f2 g6 G2 :|
+|:\
+"G" Bcd2 d2^c2 d4 e4 | f3d B2G2 f2d2 BGAB | "C" cdcB c2d2 e4 f2ef | g2c2 e2g2 c'2g2 e2c2 |
+[1 "F" f2a2 c'2b2 "C" ~a2g2 g3e | "G" fefg a2g2 "C" ~f2e2 edfe | "G" d3e fedc B2G2 A2B2 | "C" c3d ~c2B2 c4 G4 :|
+[2 "F" a4 a4 "C" g6 e2 | "G" f3g a2f2 "C" e2c2 e2g2 | "G" d3e fedc B2G2 A2B2 | "C" c3d ~c2B2 c8 |]

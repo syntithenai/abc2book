@@ -1,0 +1,115 @@
+%%center SHOTGUN MEDLEY
+%P: shotgun.mix
+%C: 100728
+
+
+X: 1
+T: Give Me the Girl That's Ripe for Joy  v.1
+P: piffero primo a0292
+O: retrospective
+F: http://ancients.sudburymuster.org/mus/med/pdf/shotgunC1.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+dc |\
+B2B>B BdcB | A2A>A A2Bc |\
+ddcB (Ac)BA | G2G>G G2 ::\
+gf |\
+e2dd d2(3(GBd) |
+c2BB B2gf |\
+e2d>d d2cB | (AG)FE D2dc |\
+B2B>B BgdB | A2A>A ABcd |\
+(eg)dB (Ac)BA | G2G>G G2 :|
+
+
+X: 2
+T: Give Me the Girl That's Ripe for Joy  v.2
+P: piffero secondo a0293
+C: John Benoit
+F: http://ancients.sudburymuster.org/mus/med/pdf/shotgunC1.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+F2 |\
+G2G>G GBAG | F2F>F F2GA |\
+BBAG (FE)DC | B,2B,>B, B,2 ::\
+Bd |\
+c2BB B2(3(DGB) |
+A2GG G2Bd |\
+c2B>B B2AG | (FE)DA, F,2F2 |\
+G2G>G GdBG | F2F>F FGAB |\
+(cB)AG (FE)DC | B,2B,>B, B,2 :|
+
+
+X: 3
+T: The Unfortunate Rake  v.1
+P: piffero primo a0294
+O: unk
+F: http://ancients.sudburymuster.org/mus/med/pdf/shotgunC1.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+E |\
+(EB)B BAG | FDF AGF | (EB)B BAG | FDF E2E |\
+(EB)B BAG | FDF AGF |  GAB  AdB | AGF E2 :|
+|: B |\
+(Be)e efg | fdB AGF | (Be)e efg | fdB d2B |\
+(Be)e efg | fdB AGF |  GAB  AdB | AGF E2 :|
+
+
+X: 4
+T: The Unfortunate Rake  v.2
+P: piffero secondo a0296
+C: Karen Lucetti
+F: http://ancients.sudburymuster.org/mus/med/pdf/shotgunC1.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+E |\
+(EG)G GAB | FDF FEF | (EG)G GFG | AFA E2E |\
+(EG)G GFG | AFA FEF |  GFE  FGG | FGA E2 :|
+|: B |\
+(GE)G GAG | AFD FEF | (BG)E GAG | FGG F2B |\
+(GE)G GAG | AFD FEF |  GFE  FGG | FGA E2 :|
+
+
+X: 5
+T: Haste to the Wedding  v.1
+P: piffero primo a0295
+O: cfd bk 2
+F: http://ancients.sudburymuster.org/mus/med/pdf/shotgunC1.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A |\
+AFA Aaf | ede fdB | AFA AGF | GFG EFG |\
+AFA Aaf | ede fdB | AFA faf | d3  d2 :|
+|: a |\
+afa afa | bgb bgb | afa agf | gfg efg |\
+a3  f3  | ede fdB | AFA Aaf | edc d2 :|
+
+
+X: 6
+T: Haste to the Wedding  v.2
+P: piffero secondo a0825
+C: Dan Moylan
+F: http://ancients.sudburymuster.org/mus/med/pdf/shotgunC1.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+c |\
+cAc dfd | cBc dfd | cAc ABc | Bcd GAB |\
+cAc dfd | cBc dfd | cAc ABc | F3  F2 :|
+|: f |\
+fdf dBA | geg cAG | fdf dBA | edc cde |\
+f3  d3  | cBA FBd | cAc dfd | cBA F2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

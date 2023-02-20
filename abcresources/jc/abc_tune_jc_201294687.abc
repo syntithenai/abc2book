@@ -1,0 +1,23 @@
+X:1
+T: Joy to the Person of My Love
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 200
+%W: A1                                                                      A2
+% voice 1 (1 lines, 36 notes)
+K:Am
+M:4/4
+L:1/16
+a4 e2 f2 g4 c4 |d2 e2 f2 d2 e6 e2 |d2 c2 B2 A2 B6 A2 |A16 |a4 e2 f2 g4 c4 |d2 e2 f2 d2 e6 e2 |d2 c2 B2 A2 B6 A2 |A16 |
+%W: B1
+% voice 1 (1 lines, 41 notes)
+A2 B2 c2 d2 e4 a2 b2 |c'2 a2 b2 ^g2 a4 e2 f2 |g4 c2 d2 e4 d3 c |c12 e2 f2 |g4 e2 c2 g6 g2 |a2 A2 c2 d2 e6 e2 |d2 c2 B2 A2 B6 B2 |A16 |
+%W: B2
+% voice 1 (1 lines, 41 notes)
+A2 B2 c2 d2 e4 a2 b2 |c'2 a2 b2 ^g2 a4 e2 f2 |g4 c2 d2 e4 d3 c |c12 e2 f2 |g4 e2 c2 g6 g2 |a2 A2 c2 d2 e6 e2 |d2 c2 B2 A2 B6 B2 |A16 ||

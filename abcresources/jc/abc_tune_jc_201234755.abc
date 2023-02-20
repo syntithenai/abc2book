@@ -1,0 +1,25 @@
+X: 20761
+T: WRIGHT'S QUICK STEP
+C:
+N: Version 1 for ABC software that doesn't understand diminuendo annotations.
+%R: march, polka, reel
+B: Elias Howe "The Musician's Companion" 1843 p.76 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Initial rest added to fix the rhythm of repeats.
+N: There's an '8' below the long slur in bar 20, between the 3rd d and the c; the meaning isn't obvious.
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+z2 |\
+c2cc c2c2 | e2c2 G4 | G2GG G2G2 | .c2A2 E4 |\
+E2F2G2A2 | B2"dim..."c2d2e2 | f2dB G2AB | c6 z2 :|
+|: (cd) |\
+e2e2 gfde | c4 G2c2 | d2d2e2e2 | g3f d2z2 |\
+f4 "dim..."gfed | e2Gc e2e2 | dcBA GABG | c6 z2 :|
+K: F
+|: z2 |\
+.c2(fg) "^>"a4 | .c2(fg) "^>"a4 | .g.g(3(ag^f) g2e2 | (d3d dcAF) |\
+.c2(fg) "^>"a4 | .c2(fg) "^>"a4 | .g.a(3(g^fg) [d'd][c'c]de | f6 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

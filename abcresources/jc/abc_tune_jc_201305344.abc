@@ -1,0 +1,22 @@
+X:212
+T:Mackenzie's Farewell to Sutherland (harmonized)
+R:Jig
+M:6/8
+%%printtempo 0
+Q:160
+K:D
+V:1 clef=treble
+V:2 clef=alto
+V:3 clef=bass
+%
+[V:1] A|: A>BA f2d | e>fa  fed | A>BA f2d | edA B2d | A>BA f2d | efa fed |
+[V:2] z|: F3    D3 | G3     D3 | F3    D3 | G2F  D3 | F3    D3 | G3  D2F |
+[V:3] z|: "D"D,3 A,G,F,|"Em"G,3 "Bm"B,,3|"D"D,3 A,G,F,|"Em"E,2F, "G"G,3|"D"D,3 A,G,F,|"Em"E,3 "Bm"B,,3|
+%
+[V:1] efa f2e | dBA A2 :: f | a>Aa f>ed | a>Aa f>ed | a>Aa fed|
+[V:2] B3   A3 | G2F E2 :: z | F2E    D3 | C3     D3 | F3    D3|
+[V:3] "Em"C3"F#m"B,3|"G"G,3"A"A,2:: z |"D"D,2C,"Bm"B,,3|"F#m"F,3"Bm"B,,3|"D"D,2C,B,,2F,|
+%
+[V:1] f2e e2f | a>Aa fed | e>AA f2d | efa f2e | dBA A2:|
+[V:2] B3   c3 | F2E   D3 | C3    A,3 | B3  A3 | G2F E2:|
+[V:3]"Em"E,D,B,, "A"A,,3|"D"D,2C,"Bm"B,,3|"A"A,,3"D"D,3|"Em"E,3"F#m"F,3|"G"G,3 A,2:|

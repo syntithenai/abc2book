@@ -1,0 +1,50 @@
+
+X: 1
+T: Fun Tashlich (WKJ)   [Dm]
+S: printed MS of Steve Rauch (Watertown Ktelzmer Jam) 2020-7-11
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: A & B parts shifted down an octave for easier reading; use whatever octave works for you.
+M: 2/4
+L: 1/16
+K: Dm
+"A"[|]"A7"z2 A,2 |\
+"Dm"D2D2 _AGF2 | "A7"EFGE "Dm"F4 |\
+EFG_A =Bcdc | dc=B_A BAGF |\
+"Dm"D2D2 _AGF2 | "A7"EFGE "Dm"F4 |
+"F"FCCF "Cm"F_EED | "Dm"D4 :|\
+"B"|: "C7"zcde |\
+"F"f2ff _edcB | AcAc BAGF |\
+"C7"GABc AFGE | "F"=Bdc2 "C7"zcde |
+"F"f2ff _edcB | AcAc BAGF |\
+"C7"GABc AFGE | "F"F4 :|\
+"C"|: "C7"zEFG |\
+"Fm"_AGAG Ac=BA | "G"G2G2 G2-G2 |
+"F"FEEF "Cm"F_EED | "Dm"D2F2 A2d2 |\
+"Fm"_A3z _edc=B | c=B_AG AGFE |\
+"F"FCCF "Cm"F_EED | "Dm"D4 :|
+
+
+X: 2
+T: Fun Tashlich (WKJ)   [Em]
+S: printed MS of Steve Rauch (Watertown Kelzmer Jam) 2020-7-11
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: A & B parts shifted down an octave for easier reading; use whatever octave works for you.
+M: 2/4
+L: 1/16
+K: Em
+"^A"[|]"B7"z2 B,2 |\
+"Em"E2E2 _BAG2 | "B7"FGAF "Em"G4 |\
+FGA_B ^cded | ed^c_B cBAG |\
+"Em"E2E2 _BAG2 | "B7"FGAF "Em"G4 |
+"G"GDDG "Dm"G=FFE | "Em"E4 :|\
+"^B"|: "D7"zdef |\
+"G"g2gg =fedc | BdBd cBAG |\
+"D7"ABcd BGAF | "G"^ced2 "D7"zdef |
+"G"g2gg =fedc | BdBd cBAG |\
+"D7"ABcd BGAF | "G"G4 :|\
+"^C"|: "D7"zFGA |\
+"Gm"_BABA Bd^cB | "A"A2A2 A2-A2 |
+"G"GFFG "Dm"G=FFE | "Em"E2G2 B2e2 |\
+"Gm"_B3z =fed^c | d^c_BA BAGF |\
+"G"GDDG "Dm"G=FFE | "Em"E4 :|
+

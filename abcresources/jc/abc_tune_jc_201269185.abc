@@ -1,0 +1,49 @@
+X:1
+T:Donald MacLennan's Tuning Phrase  "CYMRU"
+M:6/8
+L:1/8
+Q:80
+C:D. MacLeod
+S:Jig
+K:HP
+|: a | \
+ef{g}cd{e}B{d}c | \
+{g}A{d}B{e}G{d}A2{d}B | \
+{g}A{d}A{e}A{g}c{d}c{e}c |
+{g}A{d}A{e}A{gcd}c2a | | \
+ef{g}cd{e}B{d}c | \
+{g}A{d}B{e}G{d}A2{d}B |
+{g}A{d}A{e}A{g}efc | \
+{gef}e3{A}e2 :: \
+c |
+{g}efg{a}f/2a3/2f | \
+{g}efd{gcd}c2a | \
+ef{g}cd{e}B{d}c |
+{g}A{d}B{e}G{d}A2{d}c | | \
+{g}efg{a}f/2a3/2f | \
+{g}efd{gcd}c2B |
+{g}A{d}A{e}A{g}efc | \
+{gef}e3{A}e2 :: \
+a |
+A{d}A{e}A{g}c{d}c{e}c | \
+e{g}c{e}B{gcd}c2a | \
+ef{g}cd{e}B{d}c |
+{g}A{d}B{e}G{d}A2a | | \
+A{d}A{e}A{g}c{d}c{e}c | \
+e{g}c{e}B{gcd}c2B |
+{g}Ae{A}e{g}efc | \
+{gef}e3{A}e2 :: \
+c |
+{g}ef{g}A{g}faA | \
+{g}df{g}A{gcd}c2a | \
+ef{g}cd{e}B{d}c |
+{g}A{d}B{e}G{d}A2|1 {d}c|1  | \
+{g}ef{g}A{g}faA | \
+{g}df{g}A{gcd}c2B |
+{g}A{d}A{e}A{g}efc | \
+{gef}e3{A}e2:|2
+a |
+c{d}A{e}A{g}faf | \
+{g}ec{d}B{gcd}c2B | \
+{g}A{d}A{e}A{g}efc |
+{gef}e3{A}e2|]

@@ -1,0 +1,40 @@
+X: 4351
+T: the Dutch Skipper
+O: This was a favorite Dance in my young Days.
+%R: air, march, reel; jig
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.35 #2 (top 4 staffs continued from p.34)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+%S: s:3 b:35(11+12+12)
+L: 1/8
+Q: "Slow Bold"
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted slightly to make note spacing more similar on 3 staffs
+% Note the strains' lengths: 7+14+8+6=35 bars (all repeated = 70 bars).
+V: 1 staves=2
+(3(.A.B.c) |\
+d4 c3d | TB4 A2Bc | {e}d2c2 d2e2 | ~f3e defg |\
+a4 d3e | fede Te3d | [d6F6] :: ~d>e |\
+f2f2 (gf).e.d | c6 cd | e2[af][^ge] [fd][ec][dB][cA] | [B4G4] Tc3d |
+e4 A3B | cBAB TB3A | [A6C6] ~d>e | f2f2 gfed |\
+g6 fg | {b}a2gf g2a2 | "^sf"b4 f3g | "^sf"a4 d3e |\
+fede Te3d | "_Fine"H[d6F6] ::[M:6/8] "^Quick"a | {g}fe"_Pia"d {f}edc | d2d def |
+d2d def | e2e eag | {f}fed {f}edc | d2d "_For"def | ^gea Ta2g | [a3-A3] [a2A2] :: e |\
+{e}cBA {d}cBA | e2e efg | {g}fed {g}fed | g2g gab | Bcd ecA | [d3-F3] "_DC"[d2F2] :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |\
+[d4f4a4] [A4e4a4] | [e4^g4b4] a2=g2 | f2e2 f2c2 | d2d'2 z4 |\
+f2a2 B2c2 | d2f2 a2A2 | d2A2 D2 ::\
+z2 |\
+d2f2 a2d'2 | A2c>e a2z2 | A2a2 c'2a2 | e'2e2 a2b2 |
+c'2e'2 f2^g2 | a2cd e2E2 | A2E2 A,2z2 | d2f2 a2d'2 |\
+efed cAde | f2ed e2f2 | g2G2 d2e2 | f2a2 B2c2 | d2f2 a2A2 | d2A2 D2 ::\
+[M:6/8] z | [f'2d'2][f'd'] [e'2a2][e'a] |
+[f'2d'2][f'd'] [f'3d'3] | [f'2d'2][f'd'] [f'3d'3] | [e'2a2][e'a] [e'3a3] |\
+[f'2d'2][f'd'] [e'2a2][e'a] | [f'2d'2][f'd'] [f'2d'2]z | e'2a e'2e | a3 A2 :: z |\
+[a3c'3e'3] [a3c'3e'3] | [a2c'2e'2][ac'e'] [a3c'3e'3] |\
+[f'3d'3] [f'3d'3] | [g2b2d'2][gbd'] [g3b3d'3] | z2z [a3A3] | dAF "_DC"D2 :|
+

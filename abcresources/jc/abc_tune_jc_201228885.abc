@@ -1,0 +1,45 @@
+X: 11721
+T: RONDEAU,
+T: From the Overture to "The Duenna."
+Q: "Allegro."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.172 #1 (and p.173 #1)
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Many of the dynamics (p,f) are ambiguous; placed on pickup note or downbeat as seems appropriate.
+N: This "tune" could use some double-bar lines to mark the strain boundaries.
+M: 6/8
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!pp!A |\
+dA(f e)cA | BF(d c)AF | GD(B A)FD | CEE E2A |\
+dA(f e)cA | BF(d c)AF | GD(B A)dF | {F}E3 D2!f!A |\
+dA(f e)aA | BF(d c)fF | GD(B A)FD | CEE E2A |
+dA(f e)aA | BF(d c)fF | GD(B A)dD | {F}E3 D3 |!p!\
+(g2e) (f2d) | (c2A) (d2f) | (g2e) (f2d) | cee e2e |\
+(g2e) (f2d) | (c2A) (d2f) | (g2e) f2d | cee e2A |
+dA(f e)cA | BF(d c)AF | GD(B A)FD | CEE E2A |\
+!f!dA(f e)aA | BF(d c)fF | GD(B A)dD | {F}TE3 D3 |\
+fdB ecA | ^GBd cBA | fdB ecA | ^GBd cBA |
+"_>"a2e fdB | "_>"a2e fdB | "_>"a2e fBd | {c}TB3 A3 |\
+!p!cBc d2c | BAB c2z | a^ga b2a | ^gfg a2z |\
+fa^g fff | fa^g fff | fcf dcB | AB^G F3 |
+fa^g fff | fa^g fff | fcf {e}dcB | AB^G F2z |\
+"_>"a3- a2f | b2f g2e | !p!g3- g2e | a2e f2d |\
+A2=c B2g | a2=c c2B | B2d ^c2a | b2d d2c |!pp!
+(g2e) (f2d) | (c2A) (d2f) | (g2e) (f2d) | cee e3 |\
+(g2e) (=f2d) | (c2A) (d2=f) | (g2e) (=f2d) | caa a2!pp!A |\
+dAf ecA | BFd cAF | GDB AFD | CEE E2A |
+dAf ecA | BFd cAF | GDB AdD | {F}E3 D2!f!A |\
+dAf eaA | BFd cfF | GDB AFD | CEE E2A |\
+dAf eaA | BFd cfF | GDB AdD | E3 D3 |!pp!
+(g2e) (f2d) | (c2A) (d2f) | (g2e) (f2d) | cee e2e |\
+(g2e) (f2d) | (c2A) (d2f) | (g2e) (f2d) | cee e2A |\
+dAf ecA | BFd cAF | GDB AFD | CEE E2!f!A |
+dBf eaA | BFd cfF | GDB AdD | E3 D3 |\
+A,B,C DFG | ABc dfa | A,B,C DFG | ABc dfa |\
+bae ad'd | {f}e3 f[d'd][d'd] | [d'd][d'd][d'd] [d'd][d'd][d'd] | [d'3d3] z2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,22 @@
+X:49
+T:The Birthday Waltz
+C:Colin Hume, 1996
+L:1/8
+M:3/4
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=120
+%%MIDI chordname 7sus 0 5 7 10
+K:G
+P:A
+[| "G"d2 Bc BA | "Em"A2 G3D | "C"E2 c3B | "D"A4 GF | "C"E3F GE | "G/B"D2 d2 B2 | "Am"A3G EG | "D7"A6 |
+P:B
+"G"d2 Bc BA | "Em"A2 G3D | "C"E2 e3d | "Cm/Eb"c4 GA | "G/D"B4 FG | "D"A4 D2 | "C"E2G3A | "G"G6 |
+K:D
+P:C
+"D"FG A2D2 | "Em"B2 G2 E2 | "A7"C2A3G | "D"F6 | "E"^GA B2E2 | "E7"e2d2B2 | "A"A2c2- "E7"cB | "A"A4 =G2 |
+P:D
+"D"F3G A2 | "F#m"A2 G2 F2 | "A7sus"E3F G2 | "A7"G2 F2 E2 | "D7"F3G A2 | "G"B2 c2 d2 | "A7"A,2F3E | "D"D4 "D7"DD |
+K:G
+P:E
+"G"E2 DB AG | "D"F4 DD | "D7"E2 Dc BA | "G"G4 "D7"dc | "G"B2 BA GF | "C"E2C2 "Am"E2 | "G/D"D2 Dc BA | "G"G6 |]

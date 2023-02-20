@@ -1,0 +1,30 @@
+X: 1
+T: Love for Love: Danc'd in the Play
+P: Longways for as many as will
+%R: march, reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.212
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the dance instruction. The first strain has 7 bars; the second strain has 10 bars.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2 |\
+g2G2 Bcd2 | d3e =f2A2 | ABc2 c3d | efge d3c | BcdB A3G | FGAB (AF) (ED) | D6 :: A2 | ABD2 F2A2 |
+BcE2 G2B2 | e2fg B2e2 | e6 fg | a2A2 A3B | cBcd e3=f | e2E2 E3F | GFGA B2d2 | g2G2 (Bc)d2 | g6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man put his wo. from him, and the 2. man pull his wo. to him and set, then the 1. man and 2 wo. back to
+%% back and go round their Partners both on the left-hand at the same time, then the 2. man and 1. wo. turn right-hands
+%% round, to the Figure of a Diamond. This to the first Strain played once. The 1. man turn the 2. wo. and right-hands
+%% round, then each to their own Partners and left-hands round till they come to the Diamond again. This to the first Strain
+%% played twice. Each man cross over with his own wo. with their left-hands one to the other; then back again to the left
+%% till they come all on a row longways, then clap both hands against each other; the 1. man cast off to the left-hand and
+%% his wo. follow him, the 2 wo. cast off to the left-hand and her man follow her, then each cross over with his own Partner,
+%% the 1. cu. being in the 2. rank. This to the second Strain played once. Then move to the left-hand to each others places
+%% and clap hands, the same back again, then right and left twice, each beginning with his own Partner; then hands
+%% half-round to the left.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,16 @@
+X: 1
+T: the Kelloholm Jig
+M: 6/8
+L: 1/8
+C: Peter Hyssett
+S: RSCDS Leaflet 32
+R: Jig
+K: G
+[| "G"D2B B^AB |  d^cd BGE |    D2B B^AB |    dcB "Am"c3 \
+| "D7"D2A A^GA |  cBc  AFE |    D2A A^GA |   ed^c  "G"d3 ||
+|| "G"D2B B^AB |  d^cd BGE |    D2B B^AB |    dcB "Am"c3 \
+| "D7"D2A A^GA |  cBc  AFE |    D2A A^GA |"D7"cBA  "G"G3 |]
+[| "G"DGB d2d  |  ed^c dBG |    DGB dcB  |"Am"c2A     A3 \
+| "D7"DFA c2c  |  dcB  cAF |    DFA c2c  |   ed^c  "G"d3 ||
+|| "G"DGB d2d  |  ed^c dBG |    DGB dBG  | "C"F2E     E3 \
+| "Am"EAc ecA  |"G"DGB dBG |"D7"FAc e2F  | "G"G3-     G3 |]

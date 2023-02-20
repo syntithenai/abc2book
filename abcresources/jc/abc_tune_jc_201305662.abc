@@ -1,0 +1,32 @@
+X:1
+T: A Maggot for Mr. Purcell
+N:21 August 2000
+C:Last time, end with  C.
+S: Play  AAAB first time, then  AAB.
+A:
+O:
+R:
+M:3/2
+K:D
+I:speed 190
+%W: A
+% voice 1 (1 lines, 23 notes)
+K:D
+M:3/2
+L:1/16
+A8 |G2 A2 B4 |A6 |G2 A4 |F4 D4 |F4 A8 |d8 |d2 e2 f4 |e6 |d2 e4 |c4 A4 |c4 d4 |A4
+%W:
+% voice 1 (1 lines, 21 notes)
+B4 |G4 E4 |B4 A4 |F4 G4 |E4 C4 |^E4 F4 |D4 E4 |A4 A2 |B2 c4 |B6 |A2 A16|A8 ||
+%W: B
+% voice 1 (1 lines, 30 notes)
+c8 |c2 d2 e4 |d6 |c2 f4 |d4 B4 |f4 e4 |c4 d4 |f4 g4 |d4 c4 |f4 B4 |f4 e4 |c4 d4 |B4 ^A4 |f4 e4 |d4 c4 |B4
+%W:
+% voice 1 (1 lines, 24 notes)
+B12 |B4 A6 |G2 F6 |G2 F2 G2 |A4 E4 |A4 D4 |d4 c4 |f4 c2 |d2 e4 |A4 d4 |d12 |c4 d16|d8 ||
+%W: C
+% voice 1 (1 lines, 23 notes)
+A8 |G2 A2 B4 |A6 |G2 A4 |F4 D4 |F4 A8 |d8 |d2 e2 f4 |e6 |d2 e4 |c4 A4 |c4 d4 |A4
+%W:
+% voice 1 (1 lines, 18 notes)
+B4 |G4 E4 |B4 A4 |F4 G4 |E4 ^C4 |E4 F4 |D4 A,4 |D4 D12 |C4 D16|D8 ||

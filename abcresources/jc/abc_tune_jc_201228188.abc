@@ -1,0 +1,21 @@
+X: 11101
+T: GIGA
+Q: "Allegro"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.110
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%%continueall
+%%graceslurs 0
+% Staff lines are as in the MS; the phrasing is irregular.
+[|\
+f3 a3 | {a/}(gfg) e3 | fag fed | egf edc | d3 f3 | e3 A3 |
+f3 a3 | {a/}gfg e3 | fag fed | egf edc | d3 z2z | e3 geg |
+fdf a2z | e3 geg | fdf a3 | b3 bgb | afd Td3{cd} | b3 bgb |
+afd Td3{cd} | g3 geg | fdf afa | bag fed | (d3 c2)z | f3 a3 |
+{a/}gfg e3 | fag fed | egf edc | d3 f3 | e3 A2z | f3 a3 | {a/}gfg e3 |
+fag fed | egf edc | d3 afd | bge c'af | d'3 d'3 | d'3 z2z |]
+%
+%%center -

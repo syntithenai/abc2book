@@ -1,0 +1,27 @@
+X: 11
+T: Middling thank you.
+%R: jig
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.6 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+dcB d2B | d2B gfe | dcB d2B | c2A FED |\
+dcB d2B | d2B gfe | dcB c2A | FEF G3 |]
+[|\
+gag f2f | efe dBG | gag f2g | afd g3 |\
+gag f2f | efg dBG | ABA e2e | dcA G3 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Tune play'd straight thro')
+%%begintext align
+%% Chain figure 6 round .| lead down the mid: up again cast round the top Cu: & turn .| .
+%%endtext
+%%text DOUBLE FIGURE (Each strain repeated)
+%%begintext align
+%% Set & half right & left set & back again .| whole poussette |:
+%% lead round bottom and top .| and turn corners |: .
+%%endtext

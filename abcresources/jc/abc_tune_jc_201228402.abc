@@ -1,0 +1,33 @@
+X: 11243
+T: AWAY TO THE COPSE
+O: Old English hunting song.
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.124 #3 (and p.125 #1)
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+E2 C2 G2 | c2 (cd) (ef) | g2 g2 f2 | e4 g2 |\
+c2 d2 e2 | f2 f2 e2 | {e}d4 d2 | e2 d2 c2 |\
+d2 ^f2 g2 | c2 B2 A2 | B4 d2 | g2 (^fe) (dc) |
+B>c d2 D2 | (EGcBAG | FAdc) (BA) | B2d2g2 |\
+c2 A2 d2 | G4 d2 | g2 g2 g2 | g3 f e2 |\
+f2 f2 f2 | f3 e d2 | e2 (fe) (dc) | g2 (ag) (fe) |
+{e}d4 G2 | c2 (ed) (cB) | A2 A2 A2 | (d2 f)(e dc) |\
+{c}B4 dd | g3 f e2 | f2 e2 d2 | c4 G2 |\
+E2 C2 G2 | c4 c2 | e2 e2 e2 | e4 e2 |
+g2 g2 g2 | z2 z2 G2 | E2 C2 G2 | E2 C2 G2 |\
+g3 ag>a | f2 f2 f2 | f3 gf>g | e2 e2 e2 |\
+e3 fe>f | Hd4 gf | e2 d2 c2 | (e>f) g2 G2 |\
+c2z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Bars 38-40 (first note) have a high-g drone note that merges with the first note in bar 41.
+%%endtext
+%%sep 1 1 300

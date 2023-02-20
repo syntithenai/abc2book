@@ -1,0 +1,64 @@
+X: 1631
+T: HANDWERKER'S QUICK-STEP
+O: Arranged by A. F. Knight
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.163
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: There's an extra half-beat of rests between the 2nd and 3rd parts.  Fixed with initial rests.
+N: There are ambiguously-placed p and f annotations; moved to the most obvious notes.
+%%staves [1 2 3 4]
+M: 2/4
+L: 1/16
+K: Bb
+% -------------------------
+V: 1
+K: C
+"^B\b POST HORN OR CLARINET PRIMO"z2 |\
+"_>"c'2g2g2g2 | g(agf) e2e2 | (cd).e2 (cd).e2 | fed^c d2z2 |\
+"^>"a2f2f2f2 | (fgfe) d2d2 | (Bc)d2 (Bc)d2 | (edcB) c2 "_FINE"H:|
+|: z2 |\
+c3e g3e | {e}d2dc d4 | d3f a3f | {f}e2e^d e4 |\
+ce3 g3e | d2gb d'3b | (a^gab) c'2^f2 | (a4 g2) "^D.C.":|
+K: F
+|: "^TRIO"(fg)|\
+!//!.a4 a2b2 | c'2=b2c'2b2 | c'2=b2c'2f2 | e'3d' (c'_bag) |\
+!//!a4 a2b2 | c'2=b2c'2b2 | c'2=b2c'2e2 | g2f2f2 "^D.C.":|
+% -------------------------
+V: 2
+K: C
+"^B\b POST HORN OR CLARINET SECONDO"z2 |\
+e4e2e2 | e(fed) c2c2 | EFG2 EFG2 | G2G2 B2z2 |\
+A2d2A2d2 | (dedc) B2G2 | DEF2 DEF2 | F2E2E2 "_FINE"H:|
+|: z2 |\
+c3c c3c | B2B^A B4 | B3d d3d | c2cB c4 |\
+c3c c3c | !/!d8 | d4 c2c2 | (c4 B2) "^D.C.":|
+K: F
+|: "^TRIO"z2|\
+!//!.f4 f2g2 | a2^g2a2g2 | a2^g2a2a2 | =g4z4 |\
+!//! f4 f2g2 | a2^g2a2g2 | a4e2c2 | B2A2A2 "^D.C.":|
+% -------------------------
+V: 3 clef=bass middle=D
+K: Bb
+"^TENOR TROMBONE"z2 |!f!\
+[B4F4][B2F2][B2F2] | [B4F4][B2F2][B2F2] | [B2F2]z2 [B2F2]z2 | [A2F2][A2F2][A2F2]z2 |\
+[c4G4][c2G2][c2G2] | [c4G4][c2G2][c2G2] | [c2F2]z2 [c2F2]z2 | [B2F2]z2 [B2F2] "_FINE"H:|
+|: z2 |\
+z2!p![F2D2][F2D2][F2D2] | z2[F2E2][F2E2][F2E2] | z2 [E2C2][E2C2][E2C2] | z2 [F2D2][F2D2][F2D2] |\
+z2[B2F2][B2F2][B2F2] | z2[A2F2][A2F2][A2F2] | z2[B2=E2][G2E2][B2G2] | ([B4F4][A2F2] "^D.C.":|
+K: Eb
+|: "^TRIO"z2 |!p!\
+z2!/![B6G6] | [B2G2]z2 [B2G2]z2 | [B2G2]z2 [B2G2]z2 | [B2F2][B2F2][B2F2]z2 |\
+z2!/![B6G6] | [B2G2]z2 [B2G2]z2 | [B2G2]z2 [A2F2]z2 | [A2E2][G2E2][G2E2] "^D.C.":|
+% -------------------------
+V: 4 clef=bass middle=d
+K: Bb
+"^OPHICLEIDE"z2 |!f!\
+B4B2B2 | B4B2B2 | B2z2 B2z2 | F2 f2f2z2 |\
+c4c2c2 | c4e2e2 | f2z2 F2z2 | B2z2 B2 "_FINE"H:|
+|: z2 |!p!\
+B4z4 | A4z4 | F4z4 | B4z4 |\
+B4B4 | c4c4 | c4c4 | f4-f2 "^D.C.":|
+K: Eb
+|: "TRIO"z2 |!p!\
+e4z4 | e2z2 e2z2 | e2z2 e2z2 | B2B2B2z2 |\
+E4e4 | E4e4 | e4B4 | E2 e2 E2 "^D.C.":|

@@ -1,0 +1,24 @@
+X:16
+T:An Dro 906
+Q:1/4=120
+M:4/4
+L:1/16
+%%MIDI gchord fcHcfcIc
+C:Traditional Breton
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+R:An Dro
+N:Play entire tune twice, then 907 twice and back to 906
+K:C
+|: "G"GABc d3c B2G2 d2d2 | "/"GABc d3c B2G2d4 :|
+|: "G"B2cd B3d "C"cBA2 "G"B2G2 | "G"B2cd B3d "C"cBA2 "G"G4 :|
+N:Replace by blank line and X field
+T:An Dro 907
+Q:1/4=120
+M:4/4
+L:1/8
+%%MIDI gchord fcHcfcIc
+C:Tradition Breton
+R:An Dro
+K:C
+|: "G"GG d2 "F"cd c/B/A | "G"GG d2 "F"cd/c/A2 :|
+|: "F"cd/c/ "G"BG "F"AB"G"Gd | "G"GA/B/ "F"c>d "F"c/B/A "G"G2 :|

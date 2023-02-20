@@ -1,0 +1,21 @@
+X: 1
+T: a Kholum Fun Yid    [Dm]
+R: waltz
+Q: 1/4=120
+S: G+ "WC Klezmer Jam" folder
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+DFA |\
+"Dm"^cddddd | d3c=BA | c3c=BA | A4A2 |\
+^G3AGF | F3EED | ^GA-A4- | A3 ||
+DFA |\
+^cddddd | d3c=BA | c3c=BA | A4E2 |\
+"Am"c3c=BA | "E"^G3EG=B | "Am"A6- | A3 |]
+FAB |\
+"F"c3BAG | A3AGF | "Gm"FG3G2 | G4G2 |\
+"C"c3BAG | G3FAG | "F"F6- | F3 ||
+AGF |\
+"Gm"^F2G2G2 | G4G2 | "Cbm"_e2-(3edc (3BAG | "Dm"FED2F2 |\
+A3BAG | F3G^GA | D6- | D3 :|

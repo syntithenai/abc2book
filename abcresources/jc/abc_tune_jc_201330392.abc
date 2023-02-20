@@ -1,0 +1,13 @@
+X: 1
+T: Ringlender fr\aa Hede
+O: Norway
+R: shottish
+M: 4/4
+L: 1/8
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+K: A
+|: "A"c>(e a)>(c "D"d)>(e f)>(d | "A"c)>(e a)<b a>e c>A \
+|  "E7"B2 B2 B<d c>B |1,3 "A"A2 A2 A>B c>d :|2,4 "A"A2 A2 A4 :|
+|: "A"c>A c>e "D"d>c d>f | "A"e2 A2 c>B c>a \
+|1,3 "E7"g2 B2 d>c d>f | "A"e2 A2 c>B A2 \
+:|2,4 "E7"g2 f2 e>d cB | "A"A2 A2 A4 :|

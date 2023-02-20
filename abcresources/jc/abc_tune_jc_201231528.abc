@@ -1,0 +1,32 @@
+X: 153
+T: MISS CATHRINE CHALMERS
+C: NATH. GOW
+R: Reel
+B: Glen Collection p.15 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: G
+%
+V: 1
+[|\
+(B/c/d) cB (c/d/e) dc | BEAG {G}F2(ED) | BGDB, CEAc | BGAF G2(Gc) |
+(B/c/d) cA (c/d/e) dc | BEAG {G}F2(ED) | BGDB, CEAc | BGAF G2(Gd) ||
+||\
+gbge ^dfbd | eged ^ceac | d>efd Bgeg | fde^c d2D2 |
+{e}dc/B/ bB caAc | BgGB .A(FED) | (dB).B.d (cA).A.c | BGAF G2G2 |]
+%
+V: 2
+[|\
+G2[g2d2] [f2d2][f2d2] | G2c2 d2[a2f2] |\
+[g2d2][g2d2] [a2e2c2][a2e2c2] | [b2g2d2][c'2a2d2] [b2g2d2][b2g2d2] |
+G2[g2d2] [f2d2][f2d2] | G2c2 d2[a2f2] |\
+[g2d2][g2d2] [a2e2c2][a2e2c2] | [b2g2d2][c'2a2d2] [b2g2][b2g2] ||
+||\
+e2[b2g2] B2[a2f2] | [g2e2][g2e2] [a2e2A2][a2e2A2] |\
+d2[a2f2] G2[e2B2] | A2[g2e2] [f2d2][f2d2] ||
+[g2d2G2][g2d2G2] [f2d2][f2d2] | [g2G2][b2g2d2] [c'2a2d2][c'2a2d2] |\
+[b2g2d2][b2g2d2] [a2f2d2][a2f2d2] | g2[c'2d2] [b2g2][g2d2G2] |]

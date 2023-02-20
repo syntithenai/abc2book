@@ -1,0 +1,65 @@
+
+X: 1
+T: Dedo Mili Dedo
+O: Macedonia
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Gm
+"instr."[|\
+"Gm"[g2B2][gB][ac] [bd][gB][ac][fA] | ~[g2B2][gB][fA] [gB][ac][bd][fA] |\
+[gB][dF][gB][ac] [bd][gB][ac][fA] | [g2B2]z2 "Cm"[ec][dB][cA][BG] |
+"Gm"[B2G2][BG][cA] [dB][BG][cA][AF] | ~[B2G2][BG][AF] [BG][cA][dB][AF] |\
+[BG][GD][cA] ~[d2B2][dB][cA] | ~[B2G2][BG][AD] [G2G2]!fine!z2 |]
+"verse"|:\
+"Bb"c2d2 d2d2 | ~d2c2 ~c2B2 | "Cm"d2c2 c2B2 | B2A2 ~G2F2 ||
+w:1.~De-do o-di na pa-zar,* ko-nja ja-va be sa-mar.*
+w:   Ba-ba ja-va na mu-le,* De-do pu-\vse so lu-le,*
+"chorus"||\
+"Gm"G2A2 B2A2 | "Cm"c3G G4 | "Gm"G2~F2 "Dm"=E2F2 | "Gm"G4 G4 |\
+"Gm"G2A2 B2A2 | "Cm"c3G G4 | "Gm"G2~F2 "Dm"=E2F2 | "Gm"G4 G4 :|
+w: De-do mi-li, zla-t-ni, ba-bin pr-va lju-bov.  De-do mi-li, zla-t-ni, ba-bi-no-vo mon-\vce.
+%
+W:2.Dedo odi na bostano baba pra\vsa sa pustano, Dedo mili zlatni, ...
+W:  Baba ide od nivata, Dedo gleda vo tavata, Dedo mili zlatni, ...
+W:
+W:3.Dedo ide na ru\vcok baba pe\vce cel krav\vcok, Dedo mili zlatni, ...
+W:  Baba prede na vreteno, Dedo jade pe\vceno, Dedo mili zlatni, ...
+W:
+W:4.Dedo odi za piperki baba gali dvete kerki, Dedo mili zlatni, ...
+W:  Baba jade piperka, Dedo sviri na \vsupelka, Dedo mili zlatni, ...
+W:
+W:Translation:
+W:1.Grandpa goes to market, Riding a horse bareback,
+W:     Dear Grandpa, golden one, Grandma's first love, Dear Grandpa, golden one, Grandma's boy,
+W:  Grandma rides a mule, Grandpa smokes a pipe, Dear Grandpa, ...
+W:
+W:2.Grandpa goes to the melon patch, Grandma dusts off her apron, Dear Grandpa, ...
+W:  Grandma comes in from the field, Grandpa looks in the pot, Dear Grandpa, ...
+W:
+W:3.Grandpa goes to breakfast, Grandma's roasting a whole cow, Dear Grandpa, ...
+W:  Grandma's spinning with a spindle, Grandpa's eating baked goods, Dear Grandpa, ...
+W:
+W:r.Grandpa goes for peppers, Grandma caresses the two daughters, Dear Grandpa, ...
+W:  Grandma's eating peppers, Grandpa's playing a whistle, Dear Grandpa, ...
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Dedo Mili Dedo   [Am]
+O: Macedonia
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Am
+"instr."[|\
+"Am"[a2c2][ac][bd] [c'e][ac][bd][gB] | ~[a2c2][ac][gB] [ac][bd][c'e][gB] |\
+[ac][eG][ac][bd] [c'e][ac][bd][gB] | [a2c2]z2 "Dm"[fd][ec][dB][cA] |
+"Am"[c2A2][cA][dB] [ec][cA][dB][BG] | ~[c2A2][cA][BG] [cA][dB][ec][BG] |\
+[cA][AE][dB] ~[e2c2][ec][dB] | ~[c2A2][cA][BE] [A2A2]!ginf!z2 |]
+"verse"|:\
+"C"d2e2 e2e2 | ~e2d2 ~d2c2 | "Dm"e2d2 d2c2 | c2B2 ~A2G2 ||
+"chorus"||\
+"Am"A2B2 c2B2 | "Dm"d3A A4 | "Am"A2~G2 "Em"=F2G2 | "Am"A4 A4 |\
+"Am"A2B2 c2B2 | "Dm"d3A A4 | "Am"A2~G2 "Em"=F2G2 | "Am"A4 A4 :|

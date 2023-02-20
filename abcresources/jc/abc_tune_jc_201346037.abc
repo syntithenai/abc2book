@@ -1,0 +1,21 @@
+X: 1
+T: The Train Journey North
+M: 4/4
+L: 1/8
+C: Tom Anderson
+B: Scots Guards Vol. II
+%R: Hornpipe
+F: http://home.usit.net/~bhooper/SCOT5.ABC	 2004-08-25 19:33:34 UT
+K: D
+"A"|: A |\
+"D"d2 fA dfAd | fAdf A2 df | "A7"g2 ec AceA | ceAc eAfe |\
+"D"d2 fA dfAd | fAdf A2 df | "A7"g2 ec AceA | "A"c2 eg "D"fd d :|
+"B"|: f |\
+"D"a2 fd A2 fA | dfaf gfef | "A7"g2 ec A2 eA | ceAg "D"fAdf |\
+"D"a2 fd A2 fA | dfaf gfef | "A"g2 ec AceA | "A"c2 eg [1 "D"fA d :|[2 "D"fd d ||
+"C"|: A |\
+"D"d2 fA dfAd | d2 fA dfAd | "A"c2 eA c2 eA | "D"d2 fA d2 fA |\
+d2 fA dfAd | d2 fA dfAd | "A"c2 ef g2 eA | "A"c2 eg [1 "D"fd d :|[2 "D"fA d ||
+"D"|: f |\
+"D"a2 fd d2 af | "A"gfed cdef | g2 ec c2 eA | "D"d2 fg a2 fg |\
+a2 fd d2 af | "A"gfed cdef | g2 ec AceA | "A"c2 eg [1 "D"fA d :|[2 "D" fd d |]

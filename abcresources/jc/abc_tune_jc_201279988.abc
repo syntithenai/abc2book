@@ -1,0 +1,26 @@
+X:1
+T: Gender Bender
+N:
+C:Haydn
+S:4 times
+A:
+O:
+R:
+M:2/4
+K:G
+I:speed 105
+%W:  A1
+% voice 1 (1 lines, 32 notes)
+K:G
+M:2/4
+L:1/16
+G2 B2 B2 B2 |B A B c d4 |e2 f2 g2 ^c2 |e4 d4 |A2 c2 c2 c2 |c d e d c4 |B2 c A G2 A F |A4 G4 |
+%W:  A2
+% voice 1 (1 lines, 32 notes)
+G2 B2 B2 B2 |B A B c d4 |e2 f2 g2 ^c2 |e4 d4 |A2 c2 c2 c2 |c d e d c4 |B2 c A G2 A F |A4 G4 |
+%W:  B1
+% voice 1 (1 lines, 37 notes)
+e2 e2 e f g e |e d ^c d d4 |c2 c2 c d e c |c4 B4 |A2 A2 A B c A |A G F G G4 |c2 d e d2 F2 |A4 G4 |
+%W:  B2
+% voice 1 (1 lines, 37 notes)
+e2 e2 e f g e |e d ^c d d4 |c2 c2 c d e c |c4 B4 |A2 A2 A B c A |A G F G G4 |c2 d e d2 F2 |A4 G4 ||

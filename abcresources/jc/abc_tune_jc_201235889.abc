@@ -1,0 +1,32 @@
+X: 21442
+T: ALGERINE SETT (tune 2)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.144 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="2"
+g/f/ |\
+e2g fde | (c3 G2)c | d2d e2e | fef dgf |\
+e2g fde | (c3 G)ce | d2c BAB | c3- c2 H|]
+e/f/ |\
+g2a gfe | gfe d2e | f2e dec | BcA Gce |\
+g2a gfe | f2e d2e | f2e dec | g3- g^f"^D.C."=f |]
+(_e3 d)cB | (c3 G2)c | d2d _e2e | d2d dgd |\
+(_e3 d)c[dB] | (c3 G2)c | d2c BAB | cGA Bc"^D.C."d |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% cross over,
+%% chassa de chassa,\
+%% cross back,\
+%% ladies chain,
+%% promenade four,\
+%% next two forward, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

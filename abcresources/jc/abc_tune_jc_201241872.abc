@@ -1,0 +1,22 @@
+X: 481
+T: Washington's March 2
+%R: march, reel
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+B: John Treat - "Gamut for the Fifes", 1779, p.48 #1
+F: https://archive.org/details/GamutFortheFifes
+N: This appears be a harmony line to tune 431 "Washington's March No.2", aka "The President's New March" in some collections.
+N: The first bar seems to be missing a beat, unless it's a 3-beat pickup. There are no other bars like the first two.
+N: The initial G (with a ? above) was added so fix the rhythm and set the key. Maybe it should be a rest in this voice.
+M: C|
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"?"G4 A4 G4 D3G | B4 G3B d4 B3G | c2G2c2G2 B2G2 B2G2 | B3AG3F G2B2c2g2 |\
+c2G2c2G2 B2G2B2G2 | B2A2G2F2 G2B2d2f2 | BcBc A2B2 c2B2A2G2 | F4 F3F G2A2F2D2 |
+GFGA B2B2 c2B2A2G2 | F4 F3F F6 B2 | B2A2G2F2 A2G2F2E2 | F4 F3F F4 z4 ::\
+(FG)(FG) A3A B2A2G2F2 | GAGA B2B2 c2B2A2G2 | (FGFG) A2A2 B2A2G2F2 |
+A4 F3F F2c2B2A2 |\
+G4 (dedc) B4 B4 | B2d2c2B2 c8 | c4 efed ^c4 c4 | ^c2e2d2c2 d4 =c4 |\
+B4 B3B B4 B4 | B4 G3G G4 B2cA | B2e2d2c2 B2A2G2F2 | G4 B3B B4 z4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

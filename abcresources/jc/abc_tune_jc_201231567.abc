@@ -1,0 +1,31 @@
+X: 154
+T: Snibsons Maggot
+T: Longways for &c.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.77
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: 6/8
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(c2e2)g2 (B2d2)g2 | (G2d2)f2 efedc2 |\
+edcdef g4B2 | (c2A2)d2 BcBAG2 ::\
+gfefg2 B2ABG2 | agfga2 d2cdB2 |
+gfefg2 B2ABG2 | edcdef g6 |\
+gfefg2 cBABc2 | agfga2 dcBcd2 |\
+gfefg2 cBABc2 | G2c2B2 c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st and 2d Cu. take hands across and go
+%% half round .| then the same back again :| then
+%% the 1st Cu. cross over and go the figure of 8
+%% and turn .| then the 1st Cu. lead down betweeen
+%% the 3d Cu., and up again through the 2d
+%% Cu. and cast off :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

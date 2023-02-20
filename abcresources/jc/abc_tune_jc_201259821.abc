@@ -1,0 +1,34 @@
+X: 1
+T: TEST: Capo
+L: 1/8
+M: NONE
+N: Should play with the chords sounding in tune with the monotonous air. You
+N: are welcome to extend this with all other chord types, e.g. Bm, B7, Bm7,
+N: Mmaj7, Bdim, Baug, B6, not to mention the stuff that jazz guitarists play.
+N: Guitarists might find negative capo positions tricky
+K:
+"B"B\
+[K: capo=1]"Bb"B"A#"B\
+[K: capo=2]"A"B\
+[K: capo=3]"Ab"B"G#"B\
+[K: capo=4]"G"B\
+[K: capo=5]"Gb"B"F#"B\
+[K: capo=6]"F"B\
+[K: capo=7]"E"B\
+[K: capo=8]"Eb"B"D#"B\
+[K: capo=9]"D"B\
+[K: capo=10]"Db"B"C#"B\
+[K: capo=11]"C"B\
+[K: capo=12]"B"B\
+[K: capo=-1]"C"B\
+[K: capo=-2]"C#"B"Db"B\
+[K: capo=-3]"D"B\
+[K: capo=-4]"D#"B"Eb"B\
+[K: capo=-5]"E"B\
+[K: capo=-6]"F"B\
+[K: capo=-7]"F#"B"Gb"B\
+[K: capo=-8]"G"B\
+[K: capo=-9]"G#"B"Ab"B\
+[K: capo=-10]"A"B\
+[K: capo=-11]"A#"B"Bb"B\
+[K: capo=-12]"B"B\

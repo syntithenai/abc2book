@@ -1,0 +1,18 @@
+X:1
+T:My old Kentucky home
+C:Stephen Foster
+V:1 clef=treble %%MIDI program 1
+V:2 clef=bass %%MIDI program 1
+Z:Lionel Coates, abcusers 2013-8-26
+M:4/4
+L:1/8
+Q:"Slowly and simply "1/8=112
+K:G
+[V:1]!p!(B | B2B2G2)(AB | cBced3)(c | BA2)(G GF2) (G | (A6)A)A | 
+[V:2]!p!z | [D,4G,4B,4][=F,4G,4B,4] | [E,4G,4][D,4G,4B,4] | [E,4G,4B,4][^C,4A,4] | [D,2F,2C2](D2_D2C2) | 
+[V:1](B2B2G2)(AB | cBced2)(GA | B2B2AGBA | G8) | 
+[V:2][D,4G,4B,4][=F,4G,4B,4] | [E,4G,4][D,2G,2B,2](E,_E, | D,4)[D,4C4] | [D,2G,2B,2]([F,2D2][E,2C2][D,2B,2]) | 
+[V:1]!mf!!<(!([G3d3][GB][G3c3][Ge]!<)! | !>(![Gd][GB]-[G4B4])!>)!!mp!([^D2A2] | G3AG3E\&E4E4 | G6)(GA\&D2C2B,2z2 | 
+[V:2]!mf!!<(!B,,3G,,A,,3C,!<)! | !>(!B,,G,,-G,,4!>)!!mp!B,,2 | C,4C,4 | B,,2A,,2G,,2(E,_E, | 
+[V:1][G2B2][G2B2]G2)!<(!([GA][GB] | [Gc][GB][Gc][Ge]!<)!!mf![G2d2])!mp!(GA | BG cB"^poo rit."[Q:1/8=100]A2AF\&zz^G2^C z=C | !fermata!G8)\&B,2C2!fermata!B,4 |] 
+[V:2]D,2D,2B,,2)!<(!C,D, | E,D,E,C,!<)!!mf!B,,2!mp!_E,2 | D,2E,2"^poco rit."[Q:1/8=100]_E,2D,2 | [G,,2D,2][G,,2E,2]!fermata![G,,4D,,4] |] 

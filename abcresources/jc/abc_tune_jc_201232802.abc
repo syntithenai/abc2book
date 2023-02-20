@@ -1,0 +1,34 @@
+X: 17
+T: We are all a Coming
+%R: reel
+B: Kitty Bridges "Collection of Country Dances 1745" p.17
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-bridges1745
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Version for ABC software that understands voice overlays.
+N: The initial Segno symbol makes no sense.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!\
+dcBc |\
+dcBc d2ga | b4 agfe |\
+dcBA G2FE | D4 dcBc |\
+dcBc d2ga | b4 agfe |\
+dcBA BAGF | HG4 :|\
+|: GABc |
+Bcd2 efg2 | d4 efa2 |\
+agfe d2c2 | Tc2B2 g4 |\
+x4 e4 & g4 cBc2 | A4 agfg |\
+agfg a2b^c' | d'4 agfg |\
+agfg agfe | d4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center We are all a Coming
+%%begintext align
+%%   First Man foot it to the 2d Wo. and turn
+%% Single then turn his Part.r .| first Wo. do
+%% the same :| 1st Cu. cross over and half figure
+%% at the top w.th the 2d Cu. .| then the whole
+%% figure at bottom w.th the 3d Cu. and turn
+%% Partners.
+%%endtext

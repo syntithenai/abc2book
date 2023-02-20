@@ -1,0 +1,21 @@
+X: 125
+T: Hora de la Bascov
+M: 2/4
+L: 1/8
+Q: 1/4=240
+P:AB2C2
+K: F
+P:A
+%%MIDI program 48
+|:cBcA |_BABA |AFFG |ABcd   |
+  cBcA |_BABA |ABcA |[1FGAB :|[2 F2Bc|
+P:B
+%%MIDI program 72
+K: F octave=1
+  dzdz |dzdc  |cAB2 |BGAB   |\
+  AFAB |c2AB  |AFAB |cd2z   |
+  dzdz |dzdc  |cAB2 |BGAB   |\
+  AFAB |c2AB  |AFAF |F2z2   |
+P:C
+|:EFG2 |G2G2  |c2_AG|_AFG2- |\
+  G2c=B|c=Bc_A|GFGc |G4     :|

@@ -1,0 +1,36 @@
+%%text RJ Set 042 Petronella reels
+
+
+X: 1
+T: Petronella
+I: RJ R-13 D reel
+M: C|
+R: reel
+K: D
+|: dA |:\
+"D"F2AF "A"E2AF | "D"D2D2 D2FA |\
+[1,3 d2cd "E"e2d2 | "A"cdBc A2 :|\
+[2,4 d2cd "A"e2c2 | "D"d6 :|
+|: dA |:\
+"D"F2fd "D7"A2af | "G"g2gf "Em"edcB |\
+[1,3 "A"A2ec A2ge | "D"f2fd AdAF :|\
+[2,4 "A"A2ec Agec | "D"d6 :|
+% text Roaring Jelly  R-13
+
+
+X: 2
+T: Green Mountain Petronella
+I: RJ R-42 G reel
+M: C|
+R: reel
+K: G
+z2 |\
+"G"D2G2 GFGE | D2B2 BGAB |\
+[1,3 "D"c2cB ABcd | "C"e2d2 "G"d4 :|\
+[2,4 "D"c2A2 AGFG | "G"A2G2 G2 :|
+|: Bd |\
+"G(Em)"gggz  "D(Bm)"fffz |\
+"C"efge "G"dBGB | "C"edef "G"g2B2 |\
+[1,3 "D"B2A2 A2 :|[2 "(D7)"A2G2 "G"G2 :|[4 "D7"A4 "G"G2 |]
+% text 09/30/98
+

@@ -1,0 +1,20 @@
+X: 118204
+T: CUTTYMAN AND TRELADLE
+Q: "Reel."
+R: Reel.
+%R: reel
+B: James Kerr "Merry Melodies" v.1 p.18 s.2 #4
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: A
+|:\
+ceea e2(cA) | cee=g d2(B=G) |\
+ceea ceae | =gbeg d2(B=G) :|\
+e2(cA) eAcA | e2(cA) d=GBG |
+e2(cA) eAcA | =gbeg d2(B=G) |\
+e2(cA) eAcA | e2(cA) d=GBG |\
+e2(cA) ceae | =gbeg d2(B=G) |]\
+"_Fin"{A}A4 ||

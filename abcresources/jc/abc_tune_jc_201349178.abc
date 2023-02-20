@@ -1,0 +1,27 @@
+X: 1
+T: Vendosme's Retreat
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (179)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+ef |\
+g4 g4 | g6 ef | g2fe a2gf | e3d c2d2 |\
+e2dc fedc | d2G2 d4 | d3e e3d | d6 :|
+|: Bc |\
+d4 d4 | d6 e2 | d2cB A2d2 | B3A G2AB |\
+c2Bc d2cd | e2de f2ef | g2c2 c3B | c6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man cast off behind the 2d Man and turn to
+%% his own Place again .| The 1st Wo. do the same :|
+%% Then go the whole figure of eight with the 2d Cu. .|
+%% Then being at the Top clap hands with your Partner
+%% and cast off and turn her :|
+%%endtext
+%%sep 1 8 500

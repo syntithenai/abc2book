@@ -1,0 +1,39 @@
+X: 13101
+T: O dear Mother what shall I do
+%R: air, waltz, minuet | jig
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.3 p.10 (and top staff of p.11)
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+|: "_Slow"\
+D3 E D2 | {E}F2 A2 (TB3/A//B//) | d3e e (d/e/f) | {e}Td3 B A2 |\
+d2 BdAd | B4 b2 | (Ta3/g//a//) (ba)(gf) | {d}Te4 d2 |\
+TF3E (F/E/)D | {E}F2 A2 B2 |
+(dc)(de)(fe) | {e}Td3 B A2 |\
+B3 A {A}Bd | {B}A2 {G}F2 A2 | Bc d2 (FG) | {F}TE4 D2 ::\
+(fg) a2 (ab) | {b}a2 f2 a2 | {a}b2 {b}a2 {a}g2 | Tf3 e d2 |
+fa b2 (b/c'/d') | {c'}Tb4 a2 | Bd(ba)d'f | {d}Te4 d2 |\
+f(e/f/) defg | a(dcd) d'2 | b2 adcg | Tf2 (ef) d2 |\
+Bc d2 B2 | A2 {G}F2 A2 | (Bd) (AB) (DG) |
+{F}TE4 D2 ::\
+D F2 A2 (Bc) | dAeAfA | gAfAeA | Tf2 (e/d/e/f/) d2- |\
+d c2 B2 b- | b a2 g2 f- | fg/a/ (gf)(bg) | {f}Te4 d2 |\
+D F2 A2 (Bc) |
+.d/(A/B/A/) .e/(A/B/A/) .f/(A/B/A/) | .g/(A/G/A/) .f/(A/G/A/) .e/(A/B/A/) | .f/(a/g/f/) .e/(g/f/e/) .d/(f/e/d/) |\
+TB3 A {A}Bd | {B}A2 {G}F2 A2 | B>c (d/c/B) (A/G/F) | {F}TE4 D2 :|
+|:\
+fgaaEa | DaFaDa | GbFaEg | (fe)(dc)d2 |\
+f(g/a/) bbDb | GbGbFa | f/e/d (g/f/)e (b/a/)g | {f}Te4 d2 |
+f/g/f/e/ d/A/d/f/ a/d/f/a/ | d'aFaDa | GbFaEg | Tf2 ef d2 |\
+b>c' d'2 b2 | a2 f2 A2 | B>c d2 F>G | TE4 D4 :|
+P: Giga
+[M:6/8]|: "_Brisk"\
+D2D FAB | def d2A | (dB)B B2a | baf Te2d |\
+D2D FAB | def d2A | B3 AFA (B/c/d)F TE2D :|
+|:\
+(f/g/a)a a2d | baf Te2d | fbb b2d' | baf Te2d |\
+(f/g/a)d afd | baf efd | TB3 AFA | (B/c/d)F TE2D :|

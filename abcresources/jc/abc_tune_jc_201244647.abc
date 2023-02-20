@@ -1,0 +1,41 @@
+X: 1
+T:Nightmare on Ringhaddy Avenue  "Composed by Richard Parkes"
+M:6/8
+L:1/8
+Q:80
+C:
+S:Jig
+K:HP
+|: ec|
+{gcd}ce{A}e{gcd}cB{G}A|
+a{g}a{g}afed|  !
+{gcd}ce{g}Ae{g}Ae|
+Af{e}f{g}Bcd{gcd}ce{A}e{gcd}cB{G}A|
+a{g}a{g}afed|  !
+{gcd}cec{g}dBe|
+{g}A{d}A{e}A{g}A:| |:
+ed|  !
+{gcd}ca{g}a{g}age|
+f{g}f{e}f{g}fga|
+{cd}ce{g}Ae{g}Ae|  !
+Af{e}f{g}Bcd|1 {gcd}ca{g}a{g}age|
+f{g}f{e}f{g}fga|
+{cd}cec{g}dBe|  !
+{g}A{d}A{e}A{g}A:| |:
+ed|
+{gcd}ce{g}Ae{g}Ae|
+{g}Af{g}AaAf|  !
+{gcd}ce{g}Ae{g}Ae|
+{g}dBc{gde}dcB{gcd}ce{g}Ae{g}Ae|
+{g}Af{g}AaAf|  !
+{gcd}cec{g}dBe|
+{g}A{d}A{e}A{g}A:| |:
+ed|  !
+{gcd}ce{g}AaAe|
+{g}Af{g}AaAf|
+{gcd}ce{g}AaAe|  !
+{g}dBc{gde}dcB{gcd}ce{g}AaAe|
+{g}Af{g}AaAf|
+{gcd}cec{g}dBe|  !
+{g}A{d}A{e}A{g}A:|
+

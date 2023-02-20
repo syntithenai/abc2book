@@ -1,0 +1,38 @@
+X: 1
+T: Himnusz
+T: National Anthem of Hungary
+C: music: Ferenc Erkel (1810-1893
+C: words: Ferenc K\"olcsey (1790-1838)
+M: C
+L: 1/8
+K: Bb
+V: 1
+%%indent 50
+"intro:"B,4- B,(D FG) |\
+[FB,4]E {F}E>D [E2B,2] [D2B,2] |\
+[C4-B,4] [CA,4]=B, CD |\
+[CA,][B,F,] {C}[B,F,]>[A,_G,] [B,4F,4] ||
+"verse:"[D3B,3] [EC] [F2D2] [B2D2] |\
+[F2D2B,2] [E2C2] [D4B,4] |\
+[G2E2] [F2D2] [E2C2] [D2=B,2G,2] |\
+[C2G,2] [D2=B,2] [E4C4] |
+[C3A,3] [DB,] [E2C2] [c2E2] |\
+[E2C2] [D2B,2] [C4A,4] |\
+[F2D2] [E2C2] [D2B,2] [C2A,2] |\
+[B,2F,2] [C2A,2] [F4D4] |
+[B3D3] [AD] [G2D2] [^F2D2] |\
+[G2D2] [A2^C2] [D4A,4] |\
+[d3F3] [cE] [B2D2] [A2C2] |\
+[B2D2] [c2=E2] [F4C4] |
+[e3G3] [dF] [c2E2] [B2G2] |\
+[A3F3C3] [GE] [F2D2] [E2C2A,2] |\
+[D2B,2] [D2B,2G,2] [C2B,2G,2] ([CA,2]D) |\
+[B,4-B,4] "instr:"B,(D FG) |
+[FB,4]E {F}E>D [E2B,2] [D2B,2] |\
+[C4-B,4] [CA,4]=B, CD |\
+[CA,][B,F,] {C}[B,F,]>[A,_G,] [B,4F,4] |] y8 y8 y8
+%
+%W: Isten, áldd meg a magyart  Jó kedvvel, bőséggel,
+%W: Nyújts feléje védő kart,   Ha küzd ellenséggel;
+%W: Bal sors akit régen tép,   Hozz rá víg esztendőt,
+%W: Megbűnhődte már e nép      A múltat s jövendőt!

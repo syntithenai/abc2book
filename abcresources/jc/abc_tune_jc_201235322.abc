@@ -1,0 +1,27 @@
+X: 21083
+T: MARSHALL SETT (tune 3)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.108 #3 (and top 2 staffs of p.109)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+F2 |\
+B4 d2B2 | c4 e2c2 | B2b2g2e2 | d4 c2F2 |\
+B4 d2B2 | c4 e2c2 | d2f2c2A2 | B2B2B2 H|]
+Bc |\
+d3c B2B2 | c2B2 B2Bc | d2cB f2ed | c2c2 c2^c2 |\
+d3c Bcde | fefg fedc | BABd cABG | F2F2 "D.C."F2 |]
+Bc |\
+d2cB f2ga | b2f2 f2^f2 | g2f2 e2d2 | d4 B2BB |\
+d2cB f2ga | b2f2 f2gf | .e2.d2 .c2.B2 | =fefg f_ed"^D.C."c |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% (This tune has no dance description.)
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

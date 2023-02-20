@@ -1,0 +1,59 @@
+X: 20701
+T: To Fly like Birds from Grove to Grove
+C: Haydn
+Q: "Allegretto"
+B: "Man of Feeling", Gaetano Brandi, ed. v.2 p.70-72
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+%%continueall
+G2 | (E2G2) (G2c2) | {Bcd}c6 d2 | (e2c2) (f2d2) |
+w: Go fly* like* Birds from Grove* to* 
+(c2B2) (A2G2) | (E2G2) (c2e2) | (g3e) (d3c) | (e8 | d4) z2G2 |
+w: Grove,* to* wan-*der* like* the* Bee* To
+(E2G2) (G2c2) | c6 ^f2 | (a2^f2) (d2c2) | {c}B6 d2 |
+w: sip* the* sweets and taste* of* Love, is
+(e^fgf) (gedc) | (B2d2) (^F2A2) | G6 G2 | f4 (edcB) |
+w: not*** e-***nough* for* me; No flut'-tring***
+(c2e2) g2z2 | f4 (edcB) | c6 d2 | (e2a2) (f2d2) |
+w: pas-*sion wakes my*** Breast, I wish* the*
+(c2e2) (d2B2) | A4 z2G2 | c6 _B2 | A6 A2 |
+w: place* to* find; Where fate may give me
+d6 c2 | {c}B4 z2G2 | c6 d2 | e4 (g2f2) |
+w: peace and rest, One Shep-herd to my*
+He4 Hd2 G2 | (c2e2) (G2c2) | (g2f2) (d2B2) | (c2e2) (G2c2) |
+w: mind:* where fate* may* give* me* peace* and*
+(g2f2) (d2B2) | (^gaga) (=gfed) | c4 B4 | c4 z2G2 |
+w: rest,* One* Shep-***herd*** to my mind.
+cdef gabc' | b2d'2d2f2 | e2d2c2B2 | c4 z2 |]
+%
+W: 2. To ev'ry Youth I'll not be gay
+W: \t Nor try on all my power
+W: Nor future pleasures throw away
+W: \t In toying for an Hour
+W: I would not reign the general Toast
+W: \t Be prais'd by all the Town
+W: A thousand Tongues on me are lost
+W: \t I'll hear but only one.
+W:
+W: 3. For which of all the flattering Train
+W: \t Who swarm at beauty's Shrine
+W: When Youths gay charms are in the wane
+W: \t Will court their sure decline
+W: Then Fops and Wits and Beaus forbear
+W: \t Your arts will never do
+W: For some fond Youth shall be my care
+W: \t Lifes checquer'd Season thro'.
+W:
+W: 4. My little heart shall have a Home
+W: \t A warm and shelter'd Nest
+W: No giddy Flight shall make me roam
+W: \t From where I am most blest
+W: With Love and only that dear Swain
+W: \t What tranquil Joys I see
+W: Farewell ye false inconstant Train
+W: \t For one is all to me.
+%
+%%center -

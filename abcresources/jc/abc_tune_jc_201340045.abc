@@ -1,0 +1,16 @@
+X: 888
+T: the Spring Garden
+R: hornpipe
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #888
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0888/oneill-1001-0888-1.abc
+M: 2/4
+L: 1/16
+K: G
+"^A"[|]\
+  (3(ABc) | dfdf ecAF | GFGB AFDC | B,DGF E2(cB) | (3(ABG) (3(FGE) D2 |\
+| (3(ABc) | dfdf ecAF | GFGB AFDC | B,DGF EcAF | G2G2G2 :|
+"^B"\
+|:   (cB) | AGAB cBcd | edef g2(3(def) | gfed cBAG | Add^c d2 |\
+| (3(ABc) | dfdf ecAF | GFGB AFDC | B,DGF EcAF | G2G2G2 :| 

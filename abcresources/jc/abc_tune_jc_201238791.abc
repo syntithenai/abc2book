@@ -1,0 +1,27 @@
+X: 3132
+T: Mr Lumsdeane of Blanerne's    Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.13 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: F
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 6-bar lines, for compactness and proofreading.
+V: 1 staves=2
+AB |\
+cF3dF3 cF3TB3d | c2F2 {B}A2GF E2G2G2 AB |\
+cF3dF3 cF3TB3d | (EFG2) (GAB2) A2F2TF2 :|\
+ag |\
+(fgag) f3c df3Tf3g | (fgag) f3d e3fTg3a |
+(fgag) f2c2 d2f2Tc3A | (Bcd2) (GAB2) A2F2F2ag ||\
+(fgag) f2c2 d2f2Tf3g | (fgag) f2d2 e2g2-g3b |\
+ab3ga3 fg3df3 | (Bcd2) (GAB2) A2F2TF2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |\
+[f4a4][f4b4] [f4a4][f4b4] | a4f4 c'4c4 | [f4a4][f4b4] [f4a4][f4b4] | c'4c4 f4f2 :|\
+z2 | f4a4 [f4b4][f4a4] | f4b4 
+c'4c4 | f4a4 [f4b4][f4a4] | b4c'4 f4f4 ||\
+f4a4 [f4b4][f4a4] | f4b4 c'4c4 | f4e4 d4B4 | B4c4 F4F2 |]

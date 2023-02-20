@@ -1,0 +1,16 @@
+X:264
+T:The Gallant Enterprize
+C:Daniel Wright
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=102
+%%MIDI gchord fcfcfcfc
+M:4/4
+L:1/8
+K:Dm
+P:A
+|:A | "Dm"FD "Gm".B.B "A7"B "Dm"A2 A | "G"dG "A7"GG "Dm"G/F/E Ff- |\
+"C"fe2 d "A7"^cd/e/ GF/E/ | "Dm"Fd "A7"E^c "Dm"d3 :|
+P:B
+|:f | "Am"eA "G"d=B "A7"^c A2 G | "D"^FAdA "Gm"BG2 =F | "C"EGcG "F"Af2 A | "Gm"Bg2 B "Am"c a2 c |
+"Gm"dg "C"ce "F"f3 a | "D7"^fd2 "Gm"c'2 b/a/ bg | "C7"ec2 "F"b2 a/g/ af |
+"Gm"dB2 "Dm"g2 f/e/ fe | "Bb"db "Dm"ad "A7"^c3 a | "Gm"BG2 e "A7"^cA2 a | "A7"^cdec "Dm"d3 :|

@@ -1,0 +1,60 @@
+X: 10901
+T: Tempo di Minuetto con Variazioni
+C: Campini
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.90-94
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: C
+%%scale 0.60
+%%graceslurs 0
+|:\
+e8 {f/}(e2dc) | (f6 d2 B4) | d4 d4 {g/}(f2ed) | (g6 e2 c4) |\
+(B3dc3ed3f) | e4 {b/}(a2g2) g4 | f4 (f3de3c) | (e8 d4) |
+d8 (^f2g2) | {^f}e4 (d2c2B2A2) | (d3e) G4 ^F4 | (^F8 G4 ) :|\
+|:\
+(B3d) G4 G4 | f8 {e/}(d2cB) | g6 (a2b2c'2) | {c'}b4 (a2g2^f2g2) |
+a2A2 A6 d2 | (c4 B4 c4) | (^g2a2=g2f2e2d2) | (c4 B4 c4) |\
+c'6 (g2b2g2) | (c'2b2a2g2f2e2) | {d}d4 c4 T(B3A/B/) | (B8 c4) :|
+P: Variazioni 1
+|:\
+(3E2G2c2 (3e2g2f2 (3e2d2c2 | (f2g2).e2 (d2e2).c2 .B4 |\
+(3.G2(B2d2) (3f2a2g2 (3f2e2d2 | (3(g2a2).f2 (3(e2f2).d2 .c4 |\
+(3B2g2B2 {d/}(3(c2B2c2) (3d2g2f2 | (3.e2(a2g2) (3.c2(a2g2) (3.e2(a2g2) |
+(3.f2(d2B2) (3.d'2.b2.f2 (3.e2.d2.c2 | (3.B2(^f2g2) (3G2G2G2 {A/}(3G2^F2G2 |\
+(3d2d'2c'2  (3b2a2g2 (3^f2e2d2 | ((3^d2e2)e2 ((3B2c2)c2 ((3^G2A2)A2 |\
+(3d2(^d2e2) (3B2=d2g2 (TA3G/A/) | (3G2B2d2 (3g2b2d'2 G4 :|
+|:\
+((3G2D2).d2 (3B2G2D2 (3G2B2d2 | ((3f2d2).d'2 (3b2g2d2 (3B2c2d2 |\
+(3c2e2f2 (3g2a2b2 (3c'2d'2e'2 | ((3d'2b2).g2 (3g2g2g2 {a/}(g2^f2g2) |\
+(3a2A2^c2 (3d2e2f2 {g/}(3f2e2d2 | ((3g2e2).c2 (3B2g2.B2 (3.c2.e2.g2 |
+(3a2A2^c2 (3d2e2f2 {g/}(3f2e2d2 | ((3g2e2).c2 (3B2g2B2  (3.c2.e2.g2 |\
+(3c'2(e'2d'2) (3c'2b2a2 (3g2a2b2 | (3c'2b2a2 (3g2f2e2 (3d2c2_B2 |\
+(3A2f2d2 c4 TB3A/B/ | (d8 c4) :|
+P: Variazioni 2
+|:\
+.c'2.g2 z2(ag) (fedc) | (Bcde) (fgag) .f2z2 | .d'2.g2 z2(Bc) (defg) | (egfe) (fgab) .c'2z2 |
+g3B g3c g3d | g3e .c'.b.a.g .f.e.d.c | f2f2 z2(dB) (cGce) | (dg^fg) .a(gfg) G4 |
+.d2d'2 z2(c'b) (ag^fg) | .e2.e'2 z2(d'c') (ba^ga) | =gedc BcdB TA3(G/A/) | G2(GD) (BG)(dB) g2z2 :|
+|:\
+.g2.d'2 z2(GA) (Bcde) | .f2.d'2 z2(fe) (dcBd) | .c2.c'2 z2(c'b) (agfe) | (decd) BcAB G2z2 |
+a_bag (fed^c) (dfed) | .=c2.g2 {g2}f2ef e4 | (a_bag) (fed^c) (dfed) | .=c2g2 {g/}f2ef e4 |
+.c'2g2 z2(d'c') (bgab) | .c'(g^fg) (fg=fg) (egec) | .A2.a2 z2(fd) (ecdB) | c3(B/c/) .e.c.g.e c'2z2 :|
+P: Variazioni 3
+|:\
+.e2(ed) .c2(cB) .A2(AG) | (F6 E2 D4) |\
+.f2(fe) .d2(dc) .B2(BA) | (G6 F2 E4) |\
+.D2(dB) .c2(ec) .f2(fd) | .g2ge .c'2c'g .e2ec |
+.f2(fd) .B2(Bd) .c2(ce) | (g6 e2) d4 |\
+(dcBc) (de^fg) (abc'd') | e'6 \
+| (d'3c') b4 Ta2ga | (a8 g4) :|
+|:\
+.G2(GD) .B2(BG) .d2(dB) | (f6 e2 d4) |\
+.c2(cG) .e2(ec) .g2(ge) | (d6 g2) G4 |\
+.A2(^cd) .A2(ef) .A2(^ga) | .=g2(gc') .b2(bg) c'2c2 |
+.A2(^cd)  .A2(ef) .A2(^ga) | .=g2(gc') .b2(bg) c'2c2 |\
+c'bag fedc BGAB | (cc')(Bb) (cc')(dd') (ee')(g_b) |\
+(agfe) .c2(ce) {e/}d2cB | (B8 c4) :|
+% 
+%%center -

@@ -1,0 +1,25 @@
+X: 10844
+T: WALTZ
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.84 #4 (and p.85 #1)
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+(GF)(AG)(BA) | (cB)(dc)(ed) | (gfe)(dc)B | (dc)A3F |\
+DEFGAB | cdefga | b^abgf=a | g2z2 :|
+|: d2 |\
+d'(^c'd')(^ab)(f | g)(^cd)(^AB)G | (FAd)faf | (ga)bgd2 |\
+d'(^c'd')(^ab)(f | g)(^cd)(^AB)(G | F)Adfab | g2z2 :|
+|: df |\
+gBdBgB | bdgdbd | acfcaf | gabgdf |\
+gBdBgB | bdgdbd | acfcaf | g2z2 :|
+|: g2 |\
+fAcAfA | gBdBgB | acfcac | b2{f}g2dg |\
+fAcAfA | gBdBgB | bagfed | g2z2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

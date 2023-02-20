@@ -1,0 +1,26 @@
+X:1
+T: Aye Me
+N:
+C:aka "The Symphony"
+S:Play 3 times
+A:
+O:
+R:
+M:4/4
+K:C
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 33 notes)
+K:C
+M:4/4
+L:1/16
+g8 e8 |d4 B2 A2 G4 A2 B2 |c4 c4 d4 d4 |e12 e2 e2 |e4 f2 g2 a4 c2 c2 |c4 d2 e2 f4 A2 A2 |B2 G2 e4 d6 c2 |c16 |
+%W: A2
+% voice 1 (1 lines, 33 notes)
+g8 e8 |d4 B2 A2 G4 A2 B2 |c4 c4 d4 d4 |e12 e2 e2 |e4 f2 g2 a4 c2 c2 |c4 d2 e2 f4 A2 A2 |B2 G2 e4 d6 c2 |c16 |
+%W: B1
+% voice 1 (1 lines, 38 notes)
+A4 A2 B2 c4 B2 c2 |d4 G4 G4 e2 e2 |e4 d2 e2 f2 g2 e2 d2 |d12 g2 g2 |a4 e2 e2 f4 ^f2 f2 |g4 d2 c2 B4 g2 g2 |a4 e4 d6 c2 |c16 |
+%W: B2
+% voice 1 (1 lines, 38 notes)
+A4 A2 B2 c4 B2 c2 |d4 G4 G4 e2 e2 |e4 d2 e2 f2 g2 e2 d2 |d12 g2 g2 |a4 e2 e2 f4 ^f2 f2 |g4 d2 c2 B4 g2 g2 |a4 e4 d6 c2 |c16 ||

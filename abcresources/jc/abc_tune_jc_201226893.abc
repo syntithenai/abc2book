@@ -1,0 +1,22 @@
+X: 10501
+T: the MAID OF LODI
+Q: "Andantino"
+%R: jig, air
+B: "Edinburgh Repository of Music" v.1 p.50 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: There's a faint ':' after the first strain's double bar, but no final repeat symbol.
+N: Bar 7 has a 7-note run with 5 notes; fixed to be like bar 13.
+N: The melisma in bar 18 is written out two ways in the two transcriptions; here as small notes.
+M: 6/8
+L: 1/8
+K: G
+%%slurgraces
+%%slurgraces
+D |\
+G2G B2G | FEz z2c | BdG AdF | G3 z2D |\
+G2G B2G | FEz z2c | BdG AdF | G3 z2 :|
+G |\
+F2D d2F | AGz z2G | F2D d2F | {A}G3 z2D |\
+d2d {e}d{c}B {A}G | FEz g2e | dBG AdF | G3 z2D |
+d2d (e/d/)(c/B/)(A/G/) | FEz Hg3 z/{GAB} {~cd} {~e3f} {g4^f4g4f4Hg4} e | dBG AdF | G3 z2 |]

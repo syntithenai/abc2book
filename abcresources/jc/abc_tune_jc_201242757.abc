@@ -1,0 +1,16 @@
+X:681
+T:Col. Andrews'
+C:Walch
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 68
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+(3(ABc)|d>ec>e d>ec>e|d>FA>d Tf4|e>Ac>e a3g|f>de>c d>cB>A|d>Ac>A d>Ac>A|
+d>FA>d f>Ad>f|e>Ac>e a>ge>c|d4 z2::dc|B2dc B2dc|B4 F4|f2f^e f2=e2|
+d>ec>d B4|b2bb b2a2|g>ag>f e2g2|f>ed>B ^A2c2|B4z2::A2|g3e d2f2|
+e>^de>f e3=d|c>de>f e3c|d>ef>g f2d2|f2f>e d>cd>f|e>^de>f e3=d|
+c>de>f e3c|d4 z2::Md2|g2Md2 b2Md2|g2Md2 b2Md2|f2Md2a2Md2|
+f2Md2 a>fb>a|g>ag>f e>fe>d|c>dc>B A>BA>G|F>Ad>f E>Ac>e|d4 z2:|

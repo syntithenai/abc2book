@@ -1,0 +1,20 @@
+X: 21341
+T: la FINALE
+N: "HERZ QUADRILLES."
+%R: reel
+B: "Edinburgh Repository of Music" v.2 p.134
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Dmix
+[|\
+D2.E.F .G.A.B.c | .d2.g2 B4 | .d.c.A2 .d.c.A2 | .d2.g2 d4 |\
+D2EF GABc | d2g2 B4 | dcA2 dcA2 | G2B2G2z2 |]
+"^8va _ _ _"D2EF GABc | d2g2 B4 | dcA2 dcA2 | d2g2 d4 |\
+D2EF GABc | d2g2 B4 | dcA2 dcA2 G2B2"_ _ _8va"G2z2 H|]
+[| "loco."\
+a4 g2e2 | f2d'2 a4 | baa2 baa2 | f2a2d'2f'2 |\
+a4 g2e2 | f2d'2 a2zf | edef gab^c' | d'2d'2d'2z2 |
+f2ff f2e2 | d2^c2 B4 | e2ee e2d2 | ^c2B2 A2(3(Ace) |\
+a2aa a2g2 | f2e2d2B2 | A2(3(FAd) f2(e2 | d2)f2d2z2 |]"<D.C."y

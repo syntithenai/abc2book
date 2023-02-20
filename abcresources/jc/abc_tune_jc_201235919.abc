@@ -1,0 +1,34 @@
+X: 21471
+T: Spanish Sett (tune 4)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.147 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+e/f/ |\
+g2g {g}g^fg | g2e ede | g2f fef | a3 gef |\
+g2g {g}g^fg | g2e ede | g2f fed | c3 z2 H|]
+a/g/ |\
+g2B {c}BAB | d2c c2c/c/ | _a2a g2^f | g3 z2e/f/ |\
+g2e {a}g^fg | g2e {f}ede | fag fed | c3 z2e/f/ |
+g2g {a}g^fg | g2e {f}ede | g2f fef | a3 gef |\
+g2g {a}g^fg | g2e {f}ede | g2f fed | c3 z2G |
+GAB cde | f2d d2f | edc {B}cBc | dc/B/A/G/ G2g |\
+a2a abc' | g3 z2e/g/ | g2e gfd | c3 "^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All alamand corners,
+%% partners the same,
+%% ladies cross hands round,
+%% and back,
+%% gentlemen the same,
+%% all balance partners and turn,
+%% repeat once.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

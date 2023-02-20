@@ -1,0 +1,18 @@
+X: 2103
+T: Stormont Lads    Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.10 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - -
+V: 1 staves=2
+f |\
+c<FTc>A FA/B/ c2 | d<Gd<B GB/c/ d2 | Tf>adf .c.F.A.c | {e}dc/d/ fA TG2 F :| A | Ff-f>e fFA2 | Gg-g>f gGg2 |
+Tf>adf cFAc | d<cf>A {A}G2F2 || Ff e/f/g/e/ fF A2 | Gg f/g/a/f/ gG g2 | fa/f/ df/d/ cFAc | dc/d/ fA/B/ {A}TG2 F |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | f2f2 f2f2 | g2g2 g2g2 | f2f2 f2f2 | b2af c2f :| z | f2f2 f2f2 | g2g2 g2g2 |
+f2f2 f2f2 | b2af c2fz || f2f2 f2f2 | g2g2 g2g2 | f2f2 f2f2 | b2a2 c'2f |]

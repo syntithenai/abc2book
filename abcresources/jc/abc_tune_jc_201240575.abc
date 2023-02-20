@@ -1,0 +1,32 @@
+X: 401
+T: Mrs JAMES ERSKINE OF KIRKWALL
+C: D. MACINTYRE
+R: Reel
+B: Glen Collection p.40 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Gm
+%
+V: 1
+d |\
+BGdG DGGB | AFcF {B}A2FA | BGdG DGB,D | ECA,^F GG,G,d |
+BGdG DGGB | AFcF {B}A2FA | BGcA dBec | dBA^f gGG ||
+a |\
+bga^f g=fdg | fdcd fgaf | db^fg egce | dBA^f gGGa |
+bgdg egce | dfBd caAc | B<Gc>A dBec | dBA^f gGG |]
+%
+V: 2
+z |\
+G2[g2d2] B2[g2d2] | f2[c'2a2] c2[c'2a2] |\
+G2[g2d2] B2[g2d2] | c2d2 G2[g2d2] |
+G2[g2d2] B2[g2d2] | f2[c'2a2] c2[c'2a2] |\
+d'2[e'2c'2] [d'2b2][c'2a2] | [b2g2][c'2a2] [b2g2][bg] ||
+z |\
+[d'2b2g2][e'2c'2g2] [d'2b2][d'2b2] | [d'2b2f2][d'2b2f2] [c'2a2f2][c'2a2f2] |\
+[b2g2][d'2b2g2] [e'2c'2g2][c'2a2g2] | [b2g2][c'2d2] [b2g2][b2g2] |
+g2[d'2b2] c2[c'2g2] | b2[f'2d'2] f2[a2f2] |\
+g2^f2 g2ce | d2[c'2a2] [b2g2][gdG] |]

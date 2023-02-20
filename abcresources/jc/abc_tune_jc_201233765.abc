@@ -1,0 +1,26 @@
+X: 20104
+T: O 'TIS PLEASANT TO FLOAT ON THE SEA.
+T: From the Opera of "Oberon."
+C: Weber.
+Q: "Slow and softly."
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.10 #4 (and p.11 #1)
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: E
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+B3- B2c | B3- BGe | d3- dcd | e3- edc |\
+B3- B2c | B3- BGe | d3- {e}dcd | e3- e2z |\
+e3- edc | B3- BAG |
+F3- FGA | G3- G2z |\
+e3- edc | B3- BAG | F2F (FG)F | B3- B2z |]|\
+=G3- GFE | ^A3 AAB | c3- cdc | B3 z2z |\
+f3- fdB |
+=G3- GFE | c3- cdc | B3- B2z |\
+B3- B2c | B3- BGe | d3- dcd | e3- e2z |\
+e3- edc | B3- BGE | (DcB) ({B}AG)F  | E3 E2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

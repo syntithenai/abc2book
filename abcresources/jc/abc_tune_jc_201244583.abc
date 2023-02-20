@@ -1,0 +1,41 @@
+X: 1
+T:Tom Anderson
+M:6/8
+L:1/8
+Q:80
+C:Michael Grey
+S:Jig
+K:HP
+|: a/2f/2|
+{gef}e2A{g}A{d}B{e}A|
+{g}Bd{c}d{g}efg|  !
+{aef}e2A{g}A{d}B{e}A|
+{g}edB{g}dB{d}G{gef}e2A{g}A{d}B{e}A|
+{g}Bd{c}d{g}efg|  !
+aef{a}gdB|
+{g}A3{GAG}A2:| |:
+G|  !
+{g}Ag{f}g{ag}a3|
+{g}a2f{a}gag|
+{aef}e2d{g}B{d}B{e}B|  !
+{g}edB{g}dB{d}G|1 {g}Ag{f}g{ag}a3|
+{g}a2f{a}gag|
+{a}de{A}e{a}gdB|  !
+{g}A3{GAG}A2:| |:
+G|
+{g}A{d}A{e}A{gAGAG}A3|
+{g}de{A}e{g}B{d}B{e}B|  !
+{g}G{d}G{e}G{g}GBd|
+{g}edB{g}dB{d}G{g}A{d}A{e}A{gAGAG}A3|
+{g}de{A}e{g}B{d}B{e}B|  !
+aef{a}gdB|
+{g}A3|1 {GAG}A2:|2
+{GAG}A3|] |:  !
+{g}gaeaeg|
+{a}gag{a}edB|
+{gef}e2d{g}B{d}B{e}B|  !
+{g}edB{g}dB{d}G|1 {g}gaeaeg|
+{a}gag{a}edB|
+{g}de{A}e{a}gdB|  !
+{g}A3{GAG}A3:|
+

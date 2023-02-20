@@ -1,0 +1,29 @@
+
+X: 1
+T: Billy in the Lowground 1
+R: reel
+Z: John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: C|
+L: 1/8
+K: C
+|: G,A,CD EGAB | cBcd cGEG | AcAG EGAB |1 cBcd cAGE :|2 cAGE DC3 :|
+|: eg2e g2g2 | gagf edc2 |1 fa2f a2a2 | abag edcd :|2 e2e2 cdcA | GAGE DC3 :|
+
+%%sep 1 1 500
+
+X: 0
+M:none
+K:C clef=none
+x4
+x4
+x4
+x4
+x4
+x4
+x4
+x4
+x4
+x4
+x4
+x4
+x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4

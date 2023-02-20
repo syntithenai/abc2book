@@ -1,0 +1,33 @@
+X: 11161
+T: TELL ME MY LUTE.
+T: Serenade from "The Duenna."
+Q: "Slow."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.116 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+A4 A4 z2A2 | F4 D4 A4 | (d3e f4) Te4 | d8 A4 |\
+(f4 B4) c4 | (d3e/d/ c4) B4 | (e4 A4) B4 | {B}c8 c4 |\
+(d4 {c}B4) {A}^G4 | (e4 c4) A4 | (d4 {c}B4) {A}^G4 | (e4 c4) A4 |\
+(G4 F4) E4 | (D4 d4) =c4 |
+(B3d G4) A4 | B4 z4 c4 |\
+d4 z4 c4 | ({e}d2cd e6) G2 | (G4 F4) z2["^Sym."B2 | B2 B4 A4 [|] A4 |\
+(^GAGF EFGA Bc)(dB) | (e2de f4) d4 | (6:4:6(cedcBA) B8 | A8 z4 |\
+e4 z4 (dc)(BA) | d4 A4 z4 | e4 A4 z4 | (f3g a4) A4 |
+B8 {cd}e4 | (A2Bc defe d4) | G4 (F4 E3)D | D8 z4 |\
+e4 z4 (dc)(BA) | ({e}d2cd) A4 z4 | e4 A4 z4 | (f3g a4) A4 |\
+B8 {cd}e4 | (A2Bc defe d4) | G4 (F4 E3)D | D8 z4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The [|] is used to end the brackets around the "Sym." annotation.
+%% It didn't work in another tune in this collection; I don't know why.
+%% Some ABC software might not understand it, though.
+%% The meaning of the "Sym." annotation isn't defined anywhere that I can find.
+%%endtext

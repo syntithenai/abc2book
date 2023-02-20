@@ -1,0 +1,32 @@
+X: 1
+T: the Smart
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.48 #308
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:48 #308
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+d2g2 d2BA | G4 D4 | G2g2 d2cB | fga2 A3B |\
+G2g2 d2cB | cBcd e2dc | B2AG FGAB | G4 D4 :|
+|:\
+B2AG c2BA | G4 D4 | B2AG c2BA | fga2 A3c |\
+B2AG c2BA | cBcd e2dc | B2AG FGAB | G4 D4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+G4 z4 | B2g2 f2ed | e2c2 B2g2 | d4 f2g2 |\
+e4 b2g2 | a4 g2f2 | g4 d4 | G4 z4 :|
+|:\
+z4 e2f2 | g2d2 B2G2 | z2g2 a2z2 | d2f2 a2d'2 |\
+g2b2 a2f2 | d6 f2 | g2c2 d2D2 | G4- G4 |]
+%%begintext align
+%% First and 2d Man lead thro' sides and turn .|
+%% Their Partners does the same :|
+%% First Cu. double figure thro' the 2d Cu. .|
+%% First and 2d Cu. foots it Right and Left half round.
+%%endtext

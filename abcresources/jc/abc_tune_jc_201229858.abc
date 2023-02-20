@@ -1,0 +1,26 @@
+X: 12
+T: Walcheren Waltz
+%R: waltz
+B: "Twenty Four Country Dances with Figures for the Year 1810", Button & Whitaker, p.6 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1810
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain has final repeat but no initial repeat; fixed by adding the initial repeat.
+M: 3/8
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+f4a2 | f4a2 | g2e2c2 | fefga2 |\
+c2f2a2 | c2f2a2 | gagfeg | f6 :|
+|:\
+c2B2A2 | f2e2d2 | c2f2a2 | gfgag2 |\
+f2e2d | g2e2c2 | d2g2=B2 | c6 :|
+|:\
+gagfed | c2d2e2 | f2c2A2 | B2G2G2 |\
+A2B2c2 | d2b2a2 | g2f2e2 | f6 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%  1st Lady set to 2d Gent: & turn 1st Gent: do the
+%% same, down the mid: up again, Allemande and
+%% swing corners.
+%%endtext

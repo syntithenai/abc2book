@@ -1,0 +1,26 @@
+X:1
+T: Dance of the Lakes
+N:
+C:Tune is "Ayre" by Jerimiah Clarke
+S:Play  3 times
+A:
+O:
+R:
+M:4/4
+K:C
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 46 notes)
+K:C
+M:4/4
+L:1/16
+G4 |c4 G4 A4 G2 F2 |E4 C4 z2 B2 c2 d2 |e4 d2 e2 A2 d2 c2 d2 |B4 G4 z2 G2 A2 B2 |c4 G2 _B2 A2 c2 d2 e2 |f4 A2 d2 B2 d2 e2 f2 |g2 B2 c2 d2 d8 |c12 G4 |
+%W: A2
+% voice 1 (1 lines, 45 notes)
+c4 G4 A4 G2 F2 |E4 C4 z2 B2 c2 d2 |e4 d2 e2 A2 d2 c2 d2 |B4 G4 z2 G2 A2 B2 |c4 G2 _B2 A2 c2 d2 e2 |f4 A2 d2 B2 d2 e2 f2 |g2 B2 c2 d2 d8 |c12 e4 |
+%W: B1
+% voice 1 (1 lines, 43 notes)
+B4 c4 A2 c2 B2 A2 |^G4 B4 E2 e2 d2 c2 |B2 c2 B2 c2 c4 B2 A2 |A8 z2 A2 G2 F2 |E4 G4 c2 e2 d2 c2 |B4 d4 g2 a2 g2 f2 |e2 g2 c2 d2 d8 |c12 e4 |
+%W: B2
+% voice 1 (1 lines, 42 notes)
+B4 c4 A2 c2 B2 A2 |^G4 B4 E2 e2 d2 c2 |B2 c2 B2 c2 c4 B2 A2 |A8 z2 A2 G2 F2 |E4 G4 c2 e2 d2 c2 |B4 d4 g2 a2 g2 f2 |e2 g2 c2 d2 d8 |c12 ||

@@ -1,0 +1,22 @@
+X:256
+T:Danza (CT 085)
+R:Danza
+C:Tradicional
+S:Música Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, transcrita en Candás.
+N:Se la llama "Danza de San Pedro", por ser en el día de esta festividad cuando preferentemente se ejecuta.
+N:Intervienen solamente mujeres.
+N:Antes de cada estrofa, compuesta siempre de dos versos octosílabos asonantados, se canta una invocación religiosa, dirigida ya a San Pedro, ya a la Soberana, la Magdalena, etc.
+N:El resto de los danzadores contesta al conductor de la danza con la misma letra que éste haya entonado, colocando la melodía a la distanciade una tercera inferior armónica respecto de la primera posición, como en la señalada con el número CT 078.
+A:Asturies
+O:Candás
+Z:Cancioneru de Torner 085
+M:6/8
+L:1/8
+Q:3/8=80
+K:C
+"Solo"
+e2 e|d3 cde|d3 B2 z|B2 B B2 c|d3 B2 c|d6|B2 B B2 c|(d>ce) d2 d|B2 z
+"Coro"
+c2 c|B3 ABc|B3 G2 z|G2 G G2 A|B3 G2 A|B6|G2 G G2 A|(B>Ac) B2 B|G2 z ||

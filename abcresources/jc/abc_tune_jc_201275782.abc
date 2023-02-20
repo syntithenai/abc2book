@@ -1,0 +1,25 @@
+X:1
+T:Fighting Irish of Notre Dame
+M:C
+L:1/8
+Q:80
+C:Seosaimh O'Broithe
+S:March
+K:HP
+|: {g}e | \
+{g}c/2{G}c{d}c/2{e}B{d}c{g}d/2{G}d{g}c/2{gde}d2 | \
+{g}d/2{G}d{e}d/2{g}c{e}d{g}e/2{A}ef/2{gef}e2 |
+{g}f{ag}a{f}gf{gef}e{g}c{G}A2 | \
+{g}c/2{e}B{G}A/2{g}c/2{e}BA/2c{gcG}c{g}e3/2{g}e/2 | \
+{g}c/2{G}c{d}c/2{e}B{d}c{g}d/2{G}d{g}c/2{gde}d2 |
+{g}d/2{G}d{e}d/2{g}c{e}d{g}e/2{A}ef/2{gef}e2 | \
+{g}f{ag}a{f}gf{gef}e{g}c{G}A2 | \
+{g}c/2e{g}f/2{g}c{e}B{G}A3/2{g}e/2{A}e/4d/4{g}c/4B/4 |
+{g}c2{e}B{d}c{g}d/2{G}d{g}c/2{gde}d2 | \
+{g}d/2{G}d{e}d/2{g}c{e}d{g}e/2{A}ef/2{gef}e2 | \
+{g}f{ag}a{f}gf{gef}e{g}c{G}A2 |
+{g}c2{e}B{G}A/2{g}c/2{e}BA/2c{gcG}c{g}e3/2{g}e/2 | \
+{g}c2{e}B{d}c{g}d/2{G}d{g}c/2{gde}d2 | \
+{g}d/2{G}d{e}d/2{g}c{e}d{g}e/2{A}ef/2{gef}e2 |
+{g}f{ag}a{f}gf{gef}e{g}c{G}A2 | \
+{g}c/2e{g}f/2{g}c{e}B{G}A3 :|

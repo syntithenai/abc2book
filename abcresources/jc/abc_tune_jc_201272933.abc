@@ -1,0 +1,16 @@
+X:1
+T:Emma's Waltz (traditional Finnish)
+C:W-49
+M:3/4
+L:1/8                        % length of shortest note
+K:Am
+EA c|:"Am"e3 f e2|"Am/G#"c2 AE Ac|"Am/G"e3 f ed|"Am/F#"c2 AB cA|
+"Dm"B3^A Bc|"E7"dE cE B2|"Am"A3 B cd|"E7"eE Ac ef|
+"Am"e3 f ed|"Am/G#"c2 AE Ac|"Am/G"e3 f ed|"Am/F#"c2 AB cd|
+"B7"B3 ^A Bc|"E7"dE cEB2|"Am"A3B A^G|[1AE Ac ef:|2
+AB cd e^g||"Dm"a3 a aA|"G7"a2 gG f2|"C"e3 e ef|"Am"eEd2c2|
+"B7"B3 ^A Bc|"E7"dE cEB2|"Am"A3 B cd|"A7"eE Ac e^g|
+"Dm"a3 a aA|"G7"aA g2 f2|"C"e3 e ef|"Am"(3efe d2c2|
+"B7"B3 ^A Bc|"E7"dE cEB2|"Am"A3 B A^G|A3|]
+%%scale .5
+%%text For use only by Roaring Jelly members

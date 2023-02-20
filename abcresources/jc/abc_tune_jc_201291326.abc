@@ -1,0 +1,167 @@
+I:abc-charset utf-8
+%%titlefont Times-Bold 24
+%%subtitlefont Times-Bold 18
+%%gchordfont Times-Bold 14
+%%composerfont Times-Italic 16
+%%notationfont Times-Bold 16
+%%annotationfont Times-Bold 16
+%%textfont Times-Italic 16
+%%partsfont Times-Bold 14
+%%printtempo 0
+%%printparts 1
+%%partsbox 1
+%%bstemdown 1
+%%withxrefs 1
+%%pageheight 11in
+%%%staffsep .01
+%%topspace .25in
+%%botspace .25in
+%%notespacingfactor 1
+%%stretchlast 0
+%%titleformat  T, R-1 C1
+%%scale .685
+%%footer "Scottische\n$P0.		$P1."
+%%newpage 505
+
+X:0
+%%%footer "Section D"
+%%withxrefs 0
+%%lineskipfac 8
+%%textfont Times-Bold 48
+%%begintext center
+%%Scottische
+%%endtext
+%%titlefont Times-Bold 1
+I:0
+T:_Scottische_
+M:1/1
+K:C
+%%newpage
+
+X:738
+T:Balkan Hills, The 
+C:Joe Buchanan's Scottish Tome - Page 339.0
+I:339 0
+R:Schottische
+Z:Carl Allison
+L:1/16
+M:2/4
+K:D
+a>g | "D" f>Af>e d2A2 | "G" B>Gd>B "D" A2d>e | "D" f>d(f<a) "E7" g<fe>d | "D" {fg}f2e2 "A" e2(a>g) |
+"D" f>Af>e d2A2 | "G" B<Gd>B "D" A2d>e | "D" f>a(^g<a) "A7" =g>e(c<A) | "D" {c}d4 d<d :|
+f>g | "D" a>d(f<a) f2e>d | "G" B<Gd>B "D" A2d>e | "D" a>f(g<a) "E7" g>fe>d | "D" {fg}f2e2 "A" d2(f>g) |
+"D" a>d(f<a) f2e>d | "G" B><Gd<B "D" A2f>g | "D" f>a(^g<a) "A7" =g>f(e<d) | "D" {c}d4 "A" d<df>g |
+"D" a>d(f<a) f2e>d | "G" B<Gd>B "D" A2f>g | "D" a>df<a "E7" g>fe>d | "D" {c}f2e2 "A" e2(a>g) |
+"D" f>Af>e d2A2 | "G" B<Gd>B "D" A2d>e | "D" f>a(^g<a) "A7" =g>e(c<A) | "D" {c}d4 d<d |]
+(A>B) | "D" {c}d2>e2 {g}f2(e>d) | "G" B>Gd>B "D" A2d>e | "D" f>d(f<a) "E7" g>fe>d | "D" {fg}f2d2 "A" e2(A>B) |
+"D" {c}d2>e2 {g}f2(e>d) | "G" B<Gd>B "D" A2d>e | "D" f>a^g<a "A7" =g>ec<A | "D" {c}d4 d<d :|
+f>g | "D" a>d(f<a) A>d(f<a) | "G" f>d(f<a) {g}f2e>d | "D" a>df<a "E7" g>fe<d | "D" {c}f2e2 "A" d2(f>g) |
+"D" f>Af>e d2A2 | "G" B<Gd>B "D" A2d>e | "D" f>a(^g<a) "A7" =g>e(c<A) | "D" {c}d4 "A" d<d(f>g) |
+"D" a>d(f<a) A>d(f<a) | "D" f>d(f<a) {g}f2e>d | "D" a>d(f<a) "E7" g>fe<d | "D" {fg}f2e2 "A" d2(a>g) |
+"D" f>Af>e d2A2 | "G" B<Gd>B A2d>e | "D" f>a(^g<a) "A7" =g>e(c<A) | "D" {c}d4 d<d |]
+
+X:739
+T:Helen Black of Inveran 
+C:Joe Buchanan's Scottish Tome - Page 412.0
+I:412 0
+C:Jimmie Ritchie
+R:Schottische
+Z:Carl Allison
+L:1/8
+M:4/4
+K:A
+e>d | "A"(c>d)(c>B) "E7"(B>A)"A"(A>c) | "E7"e>fe<c "A"e2 (f>g) | "D"(a>g)(g>f) "D"f>e"E7"e>c | "D"e>f"A"e<c "E7"B2 (e>d) |
+"A"c>dc>B "E7"B>AA>c | "E7"e>fd<c "A"e2 (f>g) | "D"a>f"Bm"d<B "E7"e>dc<B | "A"{d}c2 "D"A2 "A"A<A :|
+e2 | "A"c>e ((3eee) "D"(f>e)"A"e>c | "A"c>ee>f "A"e2 f>g | "D"(a>g)(g>f) "D"(f>e)"E"(e>c) | "D"c>f"A"e>c "E7"B2 e2 |
+"A"c>e ((3eee) "D"(f>e)"A"e>c | c>f"D"f>e "E7"f2 (f>g) | "D"a>fd"Bm"<B "E7"e>dc<B | "A"{d}c2 "D"A2 "A"A/>A/ :|
+a2 | "A"(e>c)(c>B) (A>c)(c>e) | (f>c)(c>B) "A"c2 (f>g) | "D"(a>f)(f>d) (A>d)(d>f) | "D"(f>e)"A"(e>c) "E7"B2 a2 |
+"A"e>c"E7"c>B "A"(A>c)(c>e) | "D"f>cc>B "A"c2 (f>g) | "D"a>fd<B e>dc<B | "A"{d}c2 "D"A2 "A"A>A :|
+a2 | "A"A>c ((3ccc) (A>c)(c>A) | "D"(A>f)e>d "A"c2 (f>g) | "D"(a>g)(f>d) (A>d)(d>f) | "D"(f>e)"A"(e>c) "E7"B2 a2 |
+"A"A>c ((3ccc) (A>c)(c>A) | "D"(A>f)e>d "A"c2 (f>g) | "D"(a>f)"Bm"(d<B) "E7"(e>d)(c<B) | "A"{d}c2 "D"A2 "A"A>A a2 |
+"A"A>c ((3ccc) (A>c)(c>A) | "D"(A>f)e>d "A"c2 (f>g) | "D"(a>f)(d>B) (A>d)(d>f) | "D"(f>e)"A"(e>c) "E7"B2 a2 |
+"A"(A>B)(B>c) "E7"(c>d)(d>e) | "A"(e>d)"D"(d>c) "A"c2 (f>g) | "D"a>f"Bm"d<B "E7"e>dc<B | "A"{d}c2 "D"A2 "A"A<A |]
+
+X:740
+T:Ubhaidh Abaidh 
+C:Joe Buchanan's Scottish Tome - Page 413.3
+I:413 3
+R:Schottische
+Z:Carl Allison
+L:1/8
+M:2/4
+K:D
+"Bm"BB B>B "Bm"B>B B>B | "Bm"F>F F>E "Bm"D>E F>A | "Bm"B>B B>B "Bm"B>B B>B | "A"(A>B) (c/B/A) "Bm"B2 B2 :|
+"Bm"Bd "D"fb "Bm"f>f f>e | ""d>e f>a "Bm"Bd "D"fb | "A"(A>B) (c/B/A) | "Bm"B2 B2 :|
+
+X:741
+T:Katie Bairdie 
+C:Joe Buchanan's Scottish Tome - Page 413.4
+I:413 4
+R:Schottische
+Z:Carl Allison
+L:1/8
+M:2/4
+K:D
+"D"a2 a>g f>g a2 | "Em"e>fg>f e>f "A7"g2 | "D"a2 a>g f>g a2 | "Bm"d>ef>d "A7"e2 "D"d2 :|
+"D"g>dA>e (f<d) f2 | "Em"g>ec>e g>e "A7"g2 | "D"f>dA>d f>d f2 | "Bm"d>ef>d "A7"e2 "D"d2 :|
+
+X:742
+T:Lad o' The Plaidie, The 
+C:Joe Buchanan's Scottish Tome - Page 415.2
+I:415 2
+R:Schottische
+Z:Carl Allison
+L:1/8
+M:4/4
+K:D
+"D"f>gf>e d>ed>B | "D"A>FA>d "A7"c<e e2 |
+"D"f>gf>e d>ed>B | "A7"c>de>a "D"f<d d2 :|
+"D"A2 ((3FED) F>A A<d | "G"B>AB>d "A7"c<e e2 |
+"D"A2 ((3FED) F>A A<d | "A7"c>de>a "D"f<d d2 :|
+"D"f2 ((3agf) "A7/C#"e2 ((3gfe) | "Bm"d2 ((3fed) "F#m"c2 ((3edc) |
+"G"B2 ((3dcB) "D"A>df>a | "Em"g>fe>d "A7"c<a a2 |
+"G"((3fdf) ((3agf) "A7/C#"((3ece) ((3gfe) | "Bm"((3dBd) ((3fed) "F#m"((3cAc) ((3edc) |
+"G"((3BGB) ((3dcB) "D"A>df>a | "Em"g>f"A7"e>a "D"f<d d2 |]
+
+X:743
+T:Cathkin Braes 
+C:Joe Buchanan's Scottish Tome - Page 416.1
+I:416 1
+R:Schottische
+Z:Carl Allison
+L:1/8
+M:4/4
+K:A
+"A"(E>A) A2 (c>A) A2 | "A"E>FE>D "F#m"(CA,) A,2 | "Bm"(F>B) B2 (d>B) B2 | "Bm"F>GF>E "E7"D(B, B,2) |
+"A"(E>A) A2 (c>A) A2 | "A"E>FE>D "F#m"CA,A,C | "D"D>EF>G "A"A>Bc>d | "E7"e>fe>d "D"(c>A) A2 :|
+"A"(c>e) e2 "A"(a>e) e2 | "A"c>de>d "F#m"(c>A) A2 | "Bm"(d>f) f2 (b>f) f2 | "Bm"d>ef>e "E7"(d>B) B2 |
+"A"(c>e) e2 (a>e) e2 | "A"c>de>d "A7"c>AA>c | "D"d>ef>g "A"a>ec>d | "E7"e>fe>d "A"(c>A) A2 :|
+(A>G) | "D"(F>E) F2 (E>D) | "D"F>AA>B A>Bd>e | "Bm"f2 (e>d) f2 (e>d) | "G"(B>d) "D"(A>F) "A7"E2 "A7"A>G |
+"D"F2 (E>D) F2 (E>D) | "D"F>AA>B A>Bd>e | "D"f>ed>A "G"B>d"D"A>d | "A7"F2 (E>D) "D"D4 :|
+
+X:744
+T:Dark Lochnagar
+C:Joe Buchanan's Scottish Tome - Page 541.1
+I:541 1
+Z:Carl Allison
+R:Schottische
+L:1/4
+M:3/4
+K:C
+(G/E/) | "C"C3 | "C"C2 E | "G7"G3- | "G7"G A B | "Am"c3 | "E7"e2 d | "Am"d c2 | "C7"(c2 G) |
+"F"A3 | "F"c2 G | "C"G E2 | "C"E2 C | "Dm"D2 D | "Dm"D2 E | "G7"D3- | "G7"D G E |
+"Am"C3 | "Am"C2 E | "Em"G3- | "G7"G A B | "Am"c3 | "E7"e2 d | "Am"d c2 | "C7"c2 G |
+"F"F3 | "F"c2 A | "C"G E2 | "C"E2C | "Dm"D3 | "G"(D2 E) | "C"C3- | "C"C2 G |
+"C"c3 | "E7"(e2 d) | "Am"d c2 | "C7"c2 G | "F"A3 | "F"(c2 A) | "C"G E2- | "C"E2 F |
+"C"G2 E | "E7"D2C | "Am"C "F"c2 | "F"c2 A | "C"G2 E | "C"D2 C | "G7"D3- | "G"D e f |
+"C"g2 f | "G7"e>d c/B/ | "C"d c2- | "C"c2 G | "F"A2 A | "F"f e d | "G7"c>B A | "G7"G>E F |
+"C"G2 G | "F"A2 G | "C"G "Am"A B | c "Fm"g f | "C"e2 e | "G7"d2 c | "C"c3- | "C"c2 |]
+
+X:0
+%%newpage
+%%withxrefs 0
+%%lineskipfac 30
+%%begintext center
+%%This page intentionally left blank
+%%endtext
+K:

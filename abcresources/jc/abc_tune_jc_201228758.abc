@@ -1,0 +1,21 @@
+X: 11584
+T: MASTER CUPID
+C: W. Reeve.
+Q: "May be played as a Jig."
+%R: air, slip-jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.158 #4
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Bb
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f |\
+dBB BAB GEF | GAB cdB A2f/f/ |\
+dBB BAB GE(e/d/) | ccd e2c B2f |\
+geB Gef gee | fdB Fde f2d/d/ |
+ecA Fcd ecc | dBA Gf=e f2f/f/ |\
+bBB BcB AGF | GAB cde f2f/f/ |\
+bBB BcB AFF | Ged ecA B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

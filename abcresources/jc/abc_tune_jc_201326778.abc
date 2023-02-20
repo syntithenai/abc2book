@@ -1,0 +1,103 @@
+X: 1
+T: Pur ti miro
+O: L'Incoronazione di Poppea
+C: Claudio Monteverdi 1642
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/8
+Q: 1/4=120
+K: G
+V: 1 name="Poppea"
+V: 2 name="Nerome"
+V: 3 name="basso"  clef=bass middle=d
+% %staves [1|2|3]
+%====================
+V: 1
+z12 | z12 | z12 | z12 ||
+   z4Bcd2 A2z2 | z4 Bcdc/B/ A2z2 | z4 Bc A6- | A4 G2 A4 dc |
+w: Pur ti mi-ro pur ti mi-ro-** pur ti strin-*go* pur ti
+   B2G2 z4 z2DD | EFGE FGFG AFGA | G2G2 BB B6- | B2c2d2 c4B2 |
+w: strin-go Pur t'an-no-____________do Pi\`u non pe-*no, non pe-*
+   B2B2B2 B6- | B4 AG F4 G2 | G4 Bc d2 A2 z2 | z2z B ^cd d4 c2 |
+w: \-no, pi\`u non mo-*ro, non mor-*ro, O mia vi-ta o mio te-so-ro,
+   d2dc BAB2 B2z2 | z2ed cBB2 A3A | G12 | z12 ||
+w: * o* mia* vi-ta o mio te-so-__ro.*
+   z2d2 c2B2 z4 | z2c2 B2A2 z4 | z2c2d2 e2z4 | z2A2G2 F2z4 |
+w: Io son tua Spe-me mia dil-lo, d\`i spe-me mia
+   z2e2B2 ^c2z4 | z2d2c2 B2z4 | z2c2B2 A2z4 | z2c2G2 A2z4 |
+w: dil-lo, d\`i L'i-dol mio Tu sei pur Si, mio ben,
+   e2d2e2 ^c2B2c2 | d2z4 z2G2D2 | E2z4 F2E2F2 | G2A4 B2^c4 |
+w: mia vi-ta, s\`i s\`i s\`i s\`i S\`i, mio cor, mia vi-ta s\`i s\`i s\`i s\`i
+   d4 z4 d2c2 | B2B2A2 G4B2 | B2A2B2 G4z2 || z2d2c2 B2z4 |
+w: s\`i s\`i, mio ben, s\`i, mio cor, mia vi-ta_ s\`i Io son tua
+   z2c2B2 A2z4 | z2c2d2 e2z4 | z2A2G2 F2z4 | z2e2B2 ^c2z4 |
+w: spe-me mia dil-lo, d\`i  spe-me mia dil-lo, d\`i
+   z2d2c2 B2z4 | z2c2B2 A2z4 | z2c2G2 A2z4 | e2d2e2 ^c2B2c2 |
+w: l'i-dol mio, tu sei pur s\`i, mio ben, mia vi-ta s\`i s\`i s\`i
+   d2z4 z2G2D2 | E2z4 F2E2F2 | G2A4 B2^c4 | d4 z4 d2c2 |
+w: s\`i s\`i, mio cor mia vi-ta s\`i s\`i s\`i s\`i s\`i s\`i, mio
+   B2B2A2 G4B2 |[M:3/4] B2A2B2 ||[M:6/4] G4Bc d2A2z2 | z4 Bcdc/B/ A2z2 |
+w: ben, s\`i mio cor, mia vi-ta_ s\`i Pur ti mi-ro pur ti mi-ro__
+   z4Bc A6- | A4G2 A4dc | B2G2 z4 z2DD | EFGE FGFG AFGA |
+w: pur ti strin-_go_ pur ti trin-go Pur t'an-no-___________
+   G2G2BB B6- | B2c2d2 c4B2 | B2B2B2 B6- | B4AG F4G2 |
+w: \- do Pi\`u non pe-_no, non pe-_no, pi\`u non mo-_ro, non mo-*
+   G4 Bcd2 A2z2 | z2zB ^cd d4 c2 | d2dc BAB2 B2z2 |[M:C] z4 ze/d/ cB |
+w: \-ro, O mia vi-ta o mio te-so-ro,_ o* mia* vi-ta o_ mio te-
+   B2 A4 A2 | G8 |]
+w: \-so-_ro._
+%====================
+V: 2
+z12 | z12 | z12 | z12 ||
+   z4 z4 z2AB | c2G2 z4 z2GA | BB/A/ G2 z4 z2DD | EFGE FGFG AFGA |
+w: Pur ti go-do pur ti go-do** pur t'an-no-___________
+   G2G2 Bc A6- | A4 G2 A4 dc | B2G2 z4 G2G2 | G8 F2G2 |
+w: \- do, pur ti strin-*go* pur ti strin-go pi\`u non mo-__
+   G2 z4 z2 c2c2 | c8- c2B2 | B4 z4 z2 GA | B2 GA GF E4 E2 |
+w: \-ro pi\`u non pe-__no, O mia vi-ta o mio te-so-ro-
+   D4 z4 G=FED | E2EE FG G4 F2 | G12 | z12 ||
+w: \- o* mia* vi-ta o mio te-so-ro.*
+   z4 z4 G2=F2 | E2 z4 z2 d2c2 | d2z4 z2e2B2 | ^c2z4 z2B2A2 |
+w: Tuo son io dil-lo, d\`i tu sei pur L'i-dol
+   ^G2z4 z2A2=G2 | F2z4 z2G2=F2 | E2z4 z2d2c2 | B2z4 z2d2A2 |
+w: mio tu sei pur dil-lo, d\`i l'i-dol mio si, mio
+   B2z4 A2G2A2 | F2d2A2 B2z4 | c2B2c2 A2B2A2 | G2z4 G2A4 |
+w: cor mia vi-ta s\`i s\`i mio ben mia vi-ta s\`i s\`i s\`i s\`i s\`i s\`i
+   F4 z4 B2A2 | G2G2F2 E4G2 | G2F2G2 G4z2 || z4 z4 G2=F2 |
+w:	s\`i s\`i mio ben s\`i mio cor, mia vi-ta_ s\`i Tuo son
+   E2z4 z2d2c2 | B2z4 z2e2B2 | ^c2z4 z2B2A2 | ^G2z4 z2B2=G2 |
+w: io dil-lo, d\`i, tu sei pur l'i-dol mio tu sei
+   F2z4 z2G2=F2 | E2z4 z2d2c2 | B2z4 z2 d2A2 | B2z4 A2G2A2 |
+w: pur dil-lo, d\`i l'i-dol mio s\`i, mio cor mia vi-ta,
+   F2d2A2 B2z4 | c2B2c2 A2B2A2 | G2z4 G2A4 | F4 z4 B2A2 |
+w: s\`i s\`i mio ben mia vi-ta s\`i s\`i s\`i s\`i s\`i s\`i s\`i s\`i, mio
+   G2G2F2 E4G2 |[M:3/4] G2F2G2 ||[M:6/4] G6 z4AB | c2G2 z4 z2GA |
+w: ben, s\`i mio cor, mia vi-ta_ s\`i Pur ti go-do pur ti
+   BB/A/G2 z4 z2DD | EFGE FGFG AFGA | G2G2Bc A6- | A4G2 A4dc |
+w: go-do__ pur t'an-no-____________do, pur ti strin-_go_ pur ti
+   B2G2 z4 G2G2 | G8 F2G2 | G2z4 z2c2c2 | c8- c2B2 |
+w: string-go pi\`u non mo-__ro pi\`u non pe-__
+   B4 z4 z2GA | B2GA GF E4E2 | D4 z4 G=FED |[M:C] E4 EEFG |
+w: \-no, O mia vi-ta o mio te-so-ro_ o_ mia_ vi-ta o mio te-
+   G6 F2 | G8 |]
+w: \-so-ro._
+%====================
+V: 3
+g6 f6 | e6 d6 | g6 f6 | e6 d6 ||
+g6 f6 | e6 d6 | g6 f6 | e6 d6 |
+g6 f6 | e6 d6 | g6 f6 | e6 d6 |
+g6 f6 | e6 d6 | g6 f6 | e6 d6 |
+d6 g6 | c6 d6 | g6 f6 | e6 d6 ||
+G2g2a2 b6 | c'4c2 d6 | g6 ^g6 | a6 b2B4 |
+e6 A6 | d6 G6 | c6 d6 | g2d4 =f6 |
+g6 a4A2 | d6 g2B4 | c6 d6 | G2F4 E6 |
+d6 z2B4 | e2B4 c4G2 | d2D4 G4z2 || z2g2a2 b6  |
+c'4c2 d6 | g6 ^g6 | a6 b2B4 | e6 A6 |
+d6 G6 | c6 d6 | g2d4 =f6 | g6 a4A2 |
+d6 g2B4 | c6 d6 | G2F4 E6 | d4 z4 B4 |
+e2B4 c4G2 |[M:3/4] d6 ||[M:6/4] g6 f6 | e6 d6 |
+g6 f6 | e6 d6 | g6 f6 | e6 d6 |
+g6 f6 | e6 d6 | g6 f6 | e6 d6 |
+g6 f6 | g6 a6 | d6 g6 |[M:C] c8 |
+d8 | G8 |]
+%====================

@@ -1,0 +1,28 @@
+X: 1
+T: Hot Cockles
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.62 #322
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:62 #322
+N: The dance seems too short for the music.
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: c>de e>de | e>de e>de | c>de dBG | c>de dBG |\
+   c>de e>de | e>de e>de | c>de dBG | c3   C3 :|
+|: g>a_b b>ab | b>ab b2g | f>ga gec | f>ga gec |\
+   g>a_b b>ab | b>ab b2g | f>ga gec | d3   c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: c3 z3 | c3 z3 | c3 g3 | c3 g3 |\
+   c3 z3 | c3 z3 | c3 g3 | c'2g c3 :|
+|: c3 z3 | c3 z3 | f3 c3 | f3 c3 |\
+   c3 z3 | c3 z3 | f3 c3 | g3 c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu. half figure thro' the 2d Cu. and cross over .|
+%% First Cu. leads thro' the 3d Cu. and foot it :|
+%% turn Corners, and turn your Partner each time.
+%%endtext

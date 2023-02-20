@@ -1,0 +1,27 @@
+X: 1
+T:Unknown Jig  " "
+M:6/8
+L:1/8
+Q:80
+C:Arr. Arch Ott
+S:Slow Jig
+K:HP
+|: d|
+{g}c3/2e/2{A}e{g}e3/2f/2a|
+{fg}f3/2e/2{g}d{e}e3/2d/2{e}B|
+d3/2{g}d/2{c}df3/2{g}f/2{e}f|  !
+{gef}e3/2d/2e{gBd}B2{e}A|
+{g}c3/2e/2{A}e{g}e3/2f/2a|
+{fg}f3/2e/2{g}d{e}e3/2d/2{e}B|  !
+A3/2{g}A/2{G}A{gcd}c2e|
+{gde}d3/2B/2e{g}A2:| |:
+{g}d|  !
+{g}c3/2e/2{A}e{g}e3/2f/2g|
+a2{GdG}a{fg}f3|
+d3/2{g}d/2{c}df3/2{g}f/2{e}f|  !
+{gef}e3/2d/2e{gBd}B2{e}A| |
+{g}c3/2e/2{A}e{g}e3/2f/2g|
+a2{GdG}a{ef}e3/2d/2{e}B|  !
+A3/2{g}A/2{G}A{gcd}c2e|
+{gde}d3/2B/2e{g}A2:|
+

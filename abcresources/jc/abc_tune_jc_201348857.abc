@@ -1,0 +1,26 @@
+X:1
+T: Valse
+I:
+C: W-33
+M: 3/4
+Z:
+R: waltz
+% %staffsep 41pt
+K: D
+A2| "D"f4 e2| "G"d4 c2| B2 c2 d2| "D"A4 A2| f4 e2| "G"d4 c2| "A"B2 a2 a2| a6|
+    "D"f4 e2| "G"d4 c2| B2 c2 d2| "D"A4 d2| "Em"B2 e2 d2| "A"c2 f3e| "D"d2 a2 f2| d4 :|
+\
+A2| "D"ff f2 A2| ff f2 A2| f2 a2 f2| d4 A2| "A"ee e2 e2| ee e2 e2| e2 d2 e2| "D"f2 d2 A2|
+    "D"f4 e2| "G"d4 c2| B2 c2 d2| "D"A4 d2| "G"B2 e2 d2| "A"c2 f3e| "D"d2 a2 f2| d4 |]
+%
+|:\
+"Bm"B2 d2 e2| f6| "Em"d2 c2 d2| e6| "Bm"d2 B2 d2| "A"c6| B2 c2 A2| "Bm"B6 :|
+|:\
+"Bm"f3e de| f2 d2 B2| "A"e3d cd| e2 d2 B2| "Bm"f3e de| f2 d2 B2| "A"d2 c2 A2| "Bm"B6 :|
+
+% %begintext ragged
+% %The Waltz in Brittony, as in the rest of France, is played at a brisk pace, at
+% %approximately 72 bars per minute.   The first tune given here is a Breton version
+% %of the Scottish tune "Mrs. Elder's Welcome".
+% %endtext
+%

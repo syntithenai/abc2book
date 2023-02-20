@@ -1,0 +1,29 @@
+X: 211
+T: MISS CHRISTIE OF DURRIE
+C: J. WALKER
+R: Reel
+B: Glen Collection p.21 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: C
+%
+V: 1
+B |\
+c2Bc GcBc | defd cBAG | c2Bc defd ecdB c2c :|
+f |\
+g2eg f2df | afed cBAG | c2Bc defd ecdB d2df |
+g2eg f2df | afed cBAG | cedf egfa | gefd c2c |]
+%
+V: 2
+z |\
+c2[c'2g2] e2[c'2g2] | d2[d'2a2] g2[f'2d'2] |\
+[e'2c'2][e'2c'2] f2[d'2a2] | g2G2 c2[gec] :|
+z |\
+e2[c'2g2] d2[b2g2] | d2[a2f2] g2[f'2d'2] |\
+[e'2c'2][e'2c'2] f2[d'2a2] | g2G2 c2[g2e2c2] |
+e2[c'2g2] d2[b2g2] | d2[a2f2] g2[f'2d'2] |\
+[e'2c'2][b2g2] [c'2g2][d'2g2] | [e'2c'2][b2g2] [c'2c2][c'gec] |]

@@ -1,0 +1,26 @@
+X:1
+T: Mrs. Pomeroy's Pavane
+N:
+C:Charles Bolton
+S:3 times
+A:
+O:
+R:
+M:4/4
+K:Em
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 37 notes)
+K:Em
+M:4/4
+L:1/16
+B4 |A4 G4 F4 E4 |G2 A2 B4 E4 A4 |G4 F2 G2 E4 F2 G2 |A2 B2 c8 A4 |F4 E2 F2 D4 E2 F2 |G2 A2 B8 G4 |F2 G2 A4 G4 F4 |E12 B4 |
+%W: A2
+% voice 1 (1 lines, 36 notes)
+A4 G4 F4 E4 |G2 A2 B4 E4 A4 |G4 F2 G2 E4 F2 G2 |A2 B2 c8 A4 |F4 E2 F2 D4 E2 F2 |G2 A2 B8 G4 |F2 G2 A4 G4 F4 |E12 B4 |
+%W: B1
+% voice 1 (1 lines, 35 notes)
+A4 ^G4 =G4 E4 |A2 B2 c2 d2 e4 c4 |B2 c2 d4 c4 B4 |c2 B2 A8 E4 |A4 B4 c4 G4 |F4 E2 D2 G4 B4 |E2 F2 G4 D4 F4 |G12 d4 |
+%W: B2
+% voice 1 (1 lines, 32 notes)
+g4 f4 e4 d4 |B4 A2 B2 G4 D4 |G4 A4 B4 e4 |^d2 ^c2 B8 A2 B2 |c4 B4 A4 G4 |F4 E4 ^D4 c4 |B2 A2 G4 A4 F4 |E12 ||

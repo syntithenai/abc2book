@@ -1,0 +1,28 @@
+X: 0991
+T: KEITH'S QUICK-STEP
+C: S. Knaebel
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.99 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: The repeat pattern is ambiguous.  Fixed in one obvious way, but it may not be "correct".
+M: 2/4
+L: 1/16
+K: C
+G2 |\
+c4 G3c | e4 c3e | a4 agfe | gfef d2z2 | B4 G3B | d4 B3d | g4 gfed | fede c2z2 |\
+A6 Bc | c4 G2 Bc | d4 G2 cd |
+e4 c2 Bc | A6 Bc | c4 cdef | g4 gfde c4 z2 :| gg |\
+g2dd d2ff | f2BB B2dd | d2G2 ^F2G2 | A4 G2 gg | g2dd d2ff | f2BB B2dd |
+d2Bc d2de | f4 E2F2 | G4 c>de>E | G2F2 d>cB>A | A2G2 B>AG>F | E4 E2F2 | G4 c>de>E | G2F2 d>cB>A |\
+A2G2 B>AG>F | E2 e>f g4- | g2a>g e2d>e |
+f2d>e f4- | f2g>f d2c>d | e2d>e c2B>c | A2f>d c>BA>G |\
+c2e>f g4- | g2a>g e2d>e | f2d>e f4- | f2g>f d2c>d |\
+e2de c2Bc | A2fd cBAG |
+|:\
+c2c'c' c'4- | c'2c'c' c'4- | c'2c'c' c'4- | c'2c'c'c'4 |\
+z2c'2 z2c'2 | z2b2 z2b2 :| c'3ge3d | c3ge3d | c2z2 c'2z2 | c'2z2z2 |
+|: C2 |\
+F6 A2 | c6 f2 | e2c2 B2G2 | E6 C2 |\
+E6 G2 | d6 c2 | =B2c2 _B2G2 | A6 C2 |\
+F6 A2 | c6 f2 | g2f2 d2c2 | B6 d2 |\
+c6 d2 | c6 d2 | c2G2 B3A |"_da Capo"F6 :|

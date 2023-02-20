@@ -1,0 +1,34 @@
+X: 3
+T: Ramah Droogh
+%R: march
+B: Name "Kauntze's Collection of the most favorite Dances, Reels, Waltzes, &c."
+F: http://imslp.org/wiki/Kauntze%27s_Collection_of_Dances,_Reels,_Waltzes_etc._%28Various%29
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Raised last measure in V:2 by one note; it was obviously wrong. Bars 9,10,13,14 might also be a C chord.
+N: Perhaps the 2nd strain was intended to have a treble clef?
+M: 2/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+[e2G2][dF][cE] | [c3E3]^c | dgfd | cBAG |\
+[e2G2][dF][cE] | [c3E3]^c | dfBd | c4 :|
+|:\
+g2ec | g2ec | Bcde | g/f/e/f/ dd |\
+g2ec | g2ec | BcdB | cec2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+cc'cc' | cc'cz | f2^f2 | g2G2 |\
+cc'cc' |
+cc'cz | g2G2 | cGC2 :|\
+|:\
+[EG]B[EG]B | [EG]B[EG]B | [DF]B[DF]B |
+[DF]B[DF]B |\
+[EG]B[EG]B | [EG]B[EG]B |\
+[DF]B[DF]B | [EG]c[E2G2c2] :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Set, Hands across and back again, down the middle, up again, Allemand.
+%%endtext

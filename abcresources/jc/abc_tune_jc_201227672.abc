@@ -1,0 +1,23 @@
+X: 1091
+T: the Caledonian Hunt.   Strathspey.
+C: by Sir Alex.r Don.
+N: Actually, it says "The Caledonian Hunt. by Sir Alex.r Don. Strathspey." with no extra spacing.
+%R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.9 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+A |\
+F>AdA B<dA>F | G<BA>F BE-E>G | .F.A.d.A BdFA | G<BA>G FD-D>G || F>AdA B<dA>F | G<BTA<F BE-E>G |
+F>Ad>A B/c/d A>G | F>AD>(g f)>dd |]| f | (d/e/f/g/ a)>f b<ga<f | (d/e/f/g/ a)<f g<e-e>f | (d/e/f/g/ a)>f b<ga<f |
+A<a-Ta>g fdd>f || (d/e/f/g/ a)<f b<ga<f | (d/e/f/g/a)>f ge-e>g | f>de<f Td>BA<F | A>Bd>e f>dd |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d2d2 d2d2 | g2f2 e2e2 | d2d2 d2d2 | g2a2 d2d2 || d2d2 d2d2 | g2f2
+e2e2 | d2d2 d2d2 | a2A2 d2d |]| z | d2d2 d2d2 | d2f2 e2[A2e2] | d2d2 d2d2 |
+a2A2 d2d2 || d2d2 d2d2 | d2f2 e2[A2e2] | d'2c'2 b2f2 | a2A2 d2d |]

@@ -1,0 +1,70 @@
+
+X: 24
+T: Success to the Fleet
+B: London Magazine 1756, p.189
+B: Kate Van Winkle Keller & George A. Fogg, "Contra Dances of New Hampshire 1783" p.24
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Also in G major (Whittier Perkins, 1790)
+M: 6/8
+L: 1/8
+P: AAB, 24 bars, 8,8,8
+K: Gm
+"A"[|] D |\
+"Gm"GBd dBG | "Gm"g^fg dBG | "Cm"cde edc | "Gm"Bcd BAG |\
+"Gm"GBd dBG | "Gm"g^fg dBG | "Cm"cde/c/ "Gm"dBG | "D"A^FD "Gm"G2 :|
+"B"[|] G |\
+"Gm"BcB gdB | "Dm"afd "Bb"fdB | "Cm"cdc gec | "F"ABc "D"A^FD |\
+"Gm"GBd dBG | "Gm"g^fg "Cm"cde | "Gm"dBd dBd | "D"A^FD "Gm"G2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 40
+T: Black Joke
+B: Thompson's Compleat Collection of 200 Favourite Country Dances, v.2 #187 (London, 1765)
+B: Kate Van Winkle Keller & George A. Fogg, "Contra Dances of New Hampshire 1783" p.40
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+P: AAB, 22 bars, 6.6.10
+K: G
+|:\
+"G"D>EF G2G | "D7"A>BA AGA | "G"B>cB BAG | "D"A>BA AGF | "C"G3 E3 | "D7"D>EF "G"G3 :|
+"G"B2c d2d | "C"e>fe "G"d2c | B>cd ded | "C"e>fg "D"f>ed | "D7"c2g "G"B2g |
+"Am"A>BA "D7"AGA | "G"B>cB BAG | "D"A>BA AGF | "G"G3 "C"E3 | "D7"D>EF "G"G3 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 68
+T: The Morning Star
+B: J. Miller MS, 1799, p.76
+B: Kate Van Winkle Keller & George A. Fogg, "Contra Dances of New Hampshire 1783" p.68
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+P: AAB, 16 bars, 4,4,8
+K: G
+"A"[|] GA | "Em"BABG  E2FG | "D"AGAF D2GA | "G"BABG "C"EFGE | "D"D2"G"G2 G2 :|
+"B"[|] GA | "G"B2d2   d2ef |    gfed cBAG |    B2d2 "C"efge | "D"f2d2  d2dc |
+            "G"B2e2 "D"d3c | "G"BdBA GFGA | "Em"BABG   EFGE | "D"D2"G"G2 G2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 69
+T: The Wild Irishman
+B: Kate Van Winkle Keller & George A. Fogg, "Contra Dances of New Hampshire 1783" p.68
+B: Thompson's Compleat Collection of 200 Favourite Country Dances, v.3 p. 69 #138 (London, 1773)
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+P: AABB, 32 bars, 8,8,8,8
+K: E
+|:\
+"E"e2f g2e | "B7"a2f "E"g2e | "E"e2f     gfe | "B"d3 f3 |\
+"E"e2f g2e | "B7"a2f "E"g2d | "E"egb "B7"afd | "E"e3 E3 :|
+|:\
+"E"bge "A"c3 | "B"Bdf fdB | "B"Bdf     fdB | "B7"f2g a3 |\
+"E"bge "A"c3 | "B"Bdf fdB | "E"egb "B7"afd |  "E"e3  E3 :||

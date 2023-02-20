@@ -1,0 +1,27 @@
+X: 20391
+T: the Country Farmer
+%R: jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.38 #`
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: In bar 37 (strain 7 bar 1) the tie over the dots is a squiggle.
+M: 6/8
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+"_Brisk"A |\
+Bcd ded | cde efg | fed ecA | d2d d2 :: a |\
+fga bgb | a2a agf | bgb agf | e2e e2f |
+g2g gab | BcB g2a | fdf ecA | d2d d2 :: A |\
+FAd def | ecA efg | faA Bec | d2D D2 :|
+|: a |\
+fga dgb | Ace dfa | bgb agf | b2e e2f |\
+gbe fad | ceA g2a | fdA Bec | d2D D2 :|
+|: A |\
+d3 afd | ceg bge | afd gec | d2d d2 :: a |\
+fda fda | eca eca | dBg fad | e2A A2G |
+FAd BGe | cAf dBg | (f/g/a)f gec | d2D D2 :: A |\
+(B/c/d)d (.d.d.d) | (c/d/e)e (e/f/g)g | (f/g/a)f ecA | (B/c/d)d d2 :|
+|: a |\
+(f/g/a)a (g/a/b)b | (f/g/a)a (e/f/g)g | fdb agf | Te2e e2f |\
+g2g g/a/bB | (c/d/e)A g2a | fdf ecA | {Bc}d2d d2 :|

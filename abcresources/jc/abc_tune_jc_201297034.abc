@@ -1,0 +1,26 @@
+X:1
+T: The King's Penny
+N:
+C:
+S:Play  3  times
+A:
+O:
+R:
+M:6/8
+K:Em
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 37 notes)
+K:Em
+M:6/8
+L:1/16
+E2 |E4 B2 c4 A2 B3 ^c d2 e4 f2 d4 B2 B3 ^c d2 ^c4 A2 A3 G F2 |E4 B2 B4 A2 B3 ^c d2 e4 f2 d3 e f2 g4 f2 e6e4 E2 |
+%W: A2
+% voice 1 (1 lines, 36 notes)
+E4 B2 c4 A2 B3 ^c d2 e4 f2 d4 B2 B3 ^c d2 ^c4 A2 A3 G F2 |E4 B2 B4 A2 B3 ^c d2 e4 f2 d3 e f2 g4 f2 e6e4 f2 |
+%W: B1
+% voice 1 (1 lines, 43 notes)
+f2 d2 e2 f2 d2 e2 f3 e d2 ^c2 A4 B2 G2 A2 B2 G2 A2 B3 A G2 F2 D4 |f2 d2 e2 f2 d2 e2 f3 g a2 b3 a g2 f3 e d2 c3 B A2 E6 B4 f2 |
+%W: B2                                                                                                     Final
+% voice 1 (1 lines, 43 notes)
+f2 d2 e2 f2 d2 e2 f3 e d2 ^c2 A4 B2 G2 A2 B2 G2 A2 B3 A G2 F2 D4 |f2 d2 e2 f2 d2 e2 f3 g a2 b3 a g2 f3 e d2 c3 B A2 E6 B4 ||E12 |

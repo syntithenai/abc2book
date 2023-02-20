@@ -1,0 +1,17 @@
+X: 20201
+T: WATERS OF ELLE
+Q: "Andt.e"
+%R: reel, march
+B: "Edinburgh Repository of Music" v.2 p.20 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Bars 4 and 15 have 5 beats; not fixed.
+N: This version uses voice overlays to show the strange note+rest notation at the end of a few measures.
+M: C
+L: 1/8
+K: D
+[|\
+d2 (3(cde) d2e2 | ffge (d3/e//d//) c2 | d2 (3(cde) d2B2 | x8 e2 & A2A2 (3(ABc) d2 z2 | e2ff g3f |
+e>e (3(def) (f2e2) | f2ee a2 (3(agf) | x6 e2 & ddee Tf2z2 | f2ee a2- (3agf | x6 A2 & dd f>e d2 z2 |
+d2 (3(cde) d2e2 | ffge (d2{ed}c2) | d2 (3(cde) d2B2 | A2A2 (3(ABc) d2A2 | d2ff g3f |
+e>e (3(def) f2e2 | f2ee a2- (3age | x6 f2 & dd Te2 {de}f2z2 | f2ee a2- (3age | ddfe d2z2 |]

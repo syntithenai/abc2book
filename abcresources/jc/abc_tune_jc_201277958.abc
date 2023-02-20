@@ -1,0 +1,51 @@
+
+X: 1
+T: Freylekhs fun der Khupe    [Cm]
+O: 1920s recording
+R: freilach
+S: handout as Watertown Klezmer jam
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Cm
+"^A"|:\
+"Cm"C4 DE^FE | ^F2G2 G2G2 | B=AG2 G^FE2 | G^FE2 EDDC |\
+[1,3 "Cm"C4 DE^FE | ^F2G2 G2G2 |
+c6 G2 | c2B2=A2G2 :|\
+[2,4 "Cm"B=ABA BAG2 | cBA2 G^FE2 | "G7"GFE2 EDC2 | "Cm"C8 :|
+"^B"::\
+"Cm"c6 G2 | c6 G2 | c2G2 c2G2 | c2G2 c2G2 |\
+"Cm"c2B2 =A2G2 | ^F3E FEDC | c2B2 =A2G2 | ^F2 G6 |
+"Cm"c2B2 =A2G2 | ^F3E FEDC |\
+"G"d2d2 edc=B |[1 "Dm"c4 zG^FG :|[2 "Cm"c8 [K:=e=A][K:Cmix]\
+"^C"|:\
+"C"E2G2 GFFE |
+E2G2 GFFE | G^FGA BAGF | G4 c4 |\
+"C"E2G2 GFFE | "F(m)"F6 ^F2 | "G7"G^FF_E EDDC | "Cm"C8 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Freylekhs fun der Khupe    [Dm]
+O: 1920s recording
+R: freilach
+S: handout as Watertown Klezmer jam
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dm
+"^A"|:\
+"Dm"D4 EF^GF | ^G2A2 A2A2 | c=BA2 A^GF2 | A^GF2 FEED |\
+[1,3 "Dm"D4 EF^GF | ^G2A2 A2A2 |
+d6 A2 | d2c2=B2A2 :|\
+[2,4 "Dm"c=BcB cBA2 | dcB2 A^GF2 | "A7"AGF2 FED2 | "Dm"D8 :|
+"^B"::\
+"Dm"d6 A2 | d6 A2 | d2A2 d2A2 | d2A2 d2A2 |\
+"Dm"d2c2 =B2A2 | ^G3F GFED | d2c2 =B2A2 | ^G2 A6 |
+"Dm"d2c2 =B2A2 | ^G3F GFED |\
+"A"e2e2 fed^c |[1 "Em"d4 zA^GA :|[2 "Dm"d8 [K:=B][K:Dmix]\
+"^C"|:\
+"D"F2A2 AGGF |
+F2A2 AGGF | A^GAB cBAG | A4 d4 |\
+"D"F2A2 AGGF | "G(m)"G6 ^G2 | "A7"A^GG=F FEED | "Dm"D8 :|

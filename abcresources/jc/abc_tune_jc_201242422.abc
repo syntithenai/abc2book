@@ -1,0 +1,26 @@
+X: 591
+T: Hoble about
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.59 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+G |\
+(F/G/)AA d2A | d>ed Tc2A | (B/c/d)B AFD | GEE E2G |\
+(F/G/)AA d2A | d>ed Tc2A | (B/c/d)B AFd | AFD D2 :|
+|: f/g/ |\
+afd afd | efd Tc2A | (G/A/B)G (F/G/A)F | BGE E2f/g/ |\
+afd afd | efd Tc2A | (B/c/d)B AFd | AFD D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d3 d3 | d3 d3 | g3 f3 | e3 e3 |\
+d3 d3 | d3 d3 | g3 a3 | d3 d2 :|\
+|: z |\
+d3 d3 | A3 A3 | d3 d3 | e3 e3 |\
+d3 d3 | e3 f3 | g3 a3 | d3 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

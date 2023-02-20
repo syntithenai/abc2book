@@ -1,0 +1,27 @@
+X: 2052
+T: Joy gae wi my Love
+O: A very Old Highland Tune
+%R: jig, march
+B: Niel Gow & Sons "Complete Repository" v.2 p.5 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "SLOWISH"
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+=g |\
+(g<f).A (Ae).A | (ed).B Bd=g | (g<f).A (Ae).A | (e<d)A (Ae).=g ||\
+(g<f).A (A<e).A | (ed).B Bd=g | (g<f).d (fe).B | d2A A2 :|
+|: =g |\
+Tf>=ga aeg | Tf>ed Bd=g | Tf>=ga aeg | Tf>=ga aAg ||\
+Tf>=ga aeg | Tf>ed Bd=g | (gf).d (fe).B | d2A A2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+[a3A3] [a3A3] | [b3B3] [b3B3] | [a3A3] [a3A3] | [a3A3] [a3A3] ||\
+[a3A3] [a3A3] | [b3B3] [b3B3] | [a3A3] [a3A3] | [a3A3] [a2A2] :|
+[K:A clef=treble]|: z |\
+[F3D3] [E3C3] | [F3D3] [=G3D3] | [F3D3] [E3C3] | [F3d3] [E3A,3] ||\
+[F3D3] [E3C3] | [F3D3] [=G3C3] [K:A clef=bass middle=d]| [a3A3] [a3A3] | [a3A3] [a2A2] :|

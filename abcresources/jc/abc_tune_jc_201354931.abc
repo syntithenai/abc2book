@@ -1,0 +1,26 @@
+X:1
+T:The Young Composer
+M:C|
+L:1/8
+Q:80
+C:Composed by Terry Tully
+S:March
+K:HP
+|: B/2 | \
+{g}A{Gdc}d{g}d3/4c/4{g}d3/4e/4 | \
+{g}d{e}B{GdG}c3/2B/2 |
+{g}A{gf}g{a}g3/4f/4{g}e3/4f/4 | \
+{g}d3/4f/4{g}e3/4d/4{gcd}c3/2B/2 | \
+{g}A{Gdc}d{g}d3/4c/4{g}d3/4e/4 |
+{g}d{e}B{GdG}c3/2B/2 | \
+{g}A{gf}g{a}g3/4f/4{g}e3/4f/4 | \
+{Gdc}d2{gdc}d3/2 ::
+{g}f3/4g/4 | \
+{ag}a{Gdc}d{g}d3/4e/4{g}d3/4B/4 | \
+{g}c{Gdc}d{gef}e3/2f/2 |
+{gf}g{BG}B{g}e3/4f/4{g}e3/4d/4 | \
+{g}c2{GdGe}c|1 {g}f3/4g/4|1
+{ag}a{Gdc}d{g}d3/4e/4{g}d3/4B/4 |
+{g}c{Gdc}d{gef}e3/2B/2 | \
+{g}A{gf}g{a}g3/4f/4{g}e3/4f/4 | \
+{Gdc}d2{gdc}d :|

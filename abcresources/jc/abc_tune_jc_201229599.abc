@@ -1,0 +1,21 @@
+X: 1261
+T: ALPINE WALTZ
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.126 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Bb
+.d(de) |\
+f3(fd')c' | (b2d2)g>f | f2(Acg>f) | (f2B2)(de) |\
+~f3(fd')c' | (b2d2)g>f | f=egf_ec | B2z2 :|
+g>f |\
+(fA) (Acgf) | (fB) (Bdgf) | (fA) ((3Acf (3a)gf | f2z.d(de) |\
+~f3(fd')c' | (b2d2)g>f | f=egf_ec | B2z2 H|]
+|: f2 |\
+(gf) (dF)B2 | (Acec)a2 | (gf) (eF)A2 | (Bdfd)b2 |\
+(gf) (dF)B2 | (Acec)a2 | (gf) (eF)A2 | B4 :|
+FB |\
+.d2.d2zd | .d2.d2zd | dgg3f | fee2z2 |\
+{A}c2c2zc | c2c2zc | {A}g3(feA) | B4 "^D.C."|]
+

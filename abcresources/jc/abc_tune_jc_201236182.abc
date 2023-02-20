@@ -1,0 +1,26 @@
+X: 21751
+T: GREIG'S STRATHSPEY
+Q: "Slow."
+%R: strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.175 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+E2G2G4 c2G2G4 | c3GA3G (cAGE) G4 |\
+A,2A2 A3B cBA^G A4 | A,2A2A3B cBA^G A4 |\
+C2c2c4 e2g2g4 | e2a2a3g e2c'2 Hc'4 |\
+c'2ba a2ge e2dc c2de | A,3B,C3D E2A2A4 :|
+|:\
+e2g2g4 c'2g2e4 | e2g2g4 c'2g2g4 |\
+e2a2 a3b c'ba^g a4 | A2a2a3b c'ba^g a2b2 |\
+c'3ba3g a3gf3e | f3ed2c2 GEGc HA3B, |\
+A,3B,C3D EDCD E4 | A,3B,C3D E2A2A4 :|
+%%begintext align
+%% Nathaniel Gow said of this tune, "it is the best strathspey that ever was written."
+%%endtext
+%%sep 1 1 300
+% - - - - - - - - - - - - - - - - - - - - - - - - -

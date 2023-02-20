@@ -1,0 +1,366 @@
+
+X: 1
+T: Mi Chamocha   [Em]
+S: Jewish liturgical
+O: Exodus 15:1-18
+L: 1/4
+M: 4/4
+K: Em
+|:\
+"Em"e B e B | z/ e f/ g/f/ e | "D"d A d A | z/ d e/ f/e/ d/e/ |
+w: Mi cha-mo-cha, mi cha-mo - cha, mi cha-mo-cha, mi cha-mo - cha,
+w: Mi cha-mo-cha, ne-dar ba-ko-desh, mi cha-mo-cha, ne dar-ba-ko-desh.
+"Em"e B e B | z/ e f/ g/f/ e | "D"f f g f |1 "Em"e4 :|2 "Em"e3 ||
+w: Mi cha-mo-cha, mi cha-mo - cha ba'e-lim A-do-nai
+w: Mi cha-mo-cha, ne-dar ba-ko-desh \- \- \- \- | | \-
+|: e/g/ | "Am"a3 b/a/ | "Em"g3 a/g/ | "D"f3 g/f/ |1 "Em"e f g :|2 "Em"e3 z |]
+w: No - ra t'hi - lot o - seh fe - leh. | \-leh.
+
+
+X: 2
+T: Aneinu 2  [D]
+M: 4/4
+L: 1/8
+K: D
+"^A"|: "D"DD DE | "D"FE D2 | "D"A2 GF | "A7"E4 \
+"^B":: "G"GG G2 | "D"FF F2 | "A7"ED EF |1 "D"DA GF :|2 "D"D2 z2 |]
+w: Slow*** | | | | Fast
+%%center Repeat the B part as many times as needed.
+
+
+X: 1
+T: Lo Yissa Goy [Dm]
+T: Vine and Fig Tree
+O: Trad Jewish
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dm
+%%staffsep 40
+A,DE \
+| "Dm"F2 "A7"E-E "Dm"D2 "A7"E2 | "Dm"F2-F2 zA, DE \
+| "Dm"F2 "A7"E2 "Dm"D2 "A7"^C2 |1 "Dm"D4 z :|2 "Dm"D6 z2 ||
+|: "Dm"A2 AA A2 A2 | "Gm"B2 A2 G4 \
+| "C(A7)"G2 G-G G2 A2 |1 "F(Dm)"F2 G2 A4 :|2 "Dm"F2 "A7"E2 "Dm"D :|
+
+
+X: 1
+T: Yismechu hashamayim  [Dm]
+C: Psalm 96:11
+O: Trad Hassidic
+M: C
+L: 1/8
+K: Dm
+"^A"\
+|: "Dm"DD A,D F2 "A7"E2 | "Dm"D6 "C7"z2 | "F"FF CF A2  "C7"G2 | "F"F6 z2 |\
+| "F"AA FA c2 "D7"(BA) | "Gm"(G4 d3) F | "Dm"(AG) (GF) "A7"(FE) (ED) | "Dm"D6 "fine"z2 :|
+"^B"\
+|: "Dm"(FG) "Gm"GF "Dm"F4 | "Dm"(FG) "Gm"GF "Dm"F4 |  "Dm"(FG) "Gm"GF "Dm"(FE) ED |\
+[1 "Gm"G2 "Dm"F4 z2 :|[2 "A7"(EF) "Dm"D4 z2 ||
+"^C"\
+|: "F"(AB) "C7"BA "F"A4 | "F"(AB) "C7"BA "F"A4 |  "F"(AB) "C7"BA "F"(AG) GF |\
+[1 "C7"B2 "F"A4 z2 :|[2 "C7"(AG) "F"(F4 "A7"E2) |]
+%%text Sometimes ends with another part B.
+
+
+X: 1
+T: Mayim  [Bm]
+T: Water
+O: Israel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: Bm
+|: B/c/ \
+|  "Bm"Bc d/c/B | de f>e | "D"df ag | fe "F#7"ff/f/ |\
+|  "Bm"Bc d/c/B | de f2 | "G"bb "D"aa | "F#m"fa "Bm"b2 ||
+|| "Bm"bb bb | "G"bb bb | "D"za aa | "F#m"fa "Bm"b2 |\
+|  "Bm"bb bb | "G"bb bb | "D"za aa | fe f2 || "A7"a2 a2 | a2 a2 ||
+|| "A7"aa g/f/e | aa g/f/e | "D"de f>f | ed "(A7)"a2 |\
+|  "A7"aa g/f/e | aa g/f/e | "F#7"ff "Bm"d/c/B | "F#7"dc "Bm"B2 :|
+%"Coda" \
+%|| "Am"a2a2 | za "G"gg | "Am"a2a2 | za "G"gg | "Am"a2a2- | a4 |]
+
+
+X: 1
+T: Hine ma tov   [Bm]
+O: Trad Jewish
+M: 2/4
+L: 1/16
+%: How good and pleasant it is for brothers to live together as one.
+P: AABBAAC...AA (rondo)
+K: Bm
+"^A"[|]\
+B2 | "Em"e2e2 e2(fe) | "Bm"d2(dc) B4 | "Bm"d2cB "A"c2A2 | "Bm"B2 B4 :|\
+"^B"\
+|: A^GA | "Bm"B2B2 "A"BA^GA | "Bm"B6 cd | "Em"e2dc "A"dcBA | "Bm"B4 z :|
+"^C"\
+[| de | "D"f2f2 f2(af) | "A"ede2- e2de | "D"f6 af | "A"ede2- "F#7"e2 \
+|| (dc) | "Bm"d2d2 d2(ed) | "A"cBc2- c2(BA) | "G"B2B2 "A"BA^GA | "Bm"B6 |]
+
+
+X: 1
+T: Hava Nagila   [Efr,Am]
+O: Klezmer
+Z: John Chambers <jc:trillian.mit.edu>
+N: At end, the last bar is often played at half speed, with note values doubled.
+M: C
+L: 1/8
+%%continueall
+K: Am
+|: "E"E2 E3 ^G FE | ^G2 G3 B AG | "Am"A2 A3 c BA |
+w: Ha-va na-gi-la, ha-va na-gi-la, ha-va na-gi-la,
+"E"^G2 "Dm"F/E/F [1 "E"G4 :|[2 "E"E4 |: "E"^GG2F EE E2 |
+w: ve ne-s'-ma-cha. \-cha. Ha-va na-re-ne-na,
+  "Dm"FF2E DD D2 | D2F3E DD A2 | "E"^G2 "Dm"F/E/F [1"E"G4 :|
+w: ha-va na-re-ne-na, ha-va na-re-ne-na, ve ne-s'-ma-cha.
+[2 "E"E4 |] "Am"A4 c4 | A2 c2 A2 c2 |]
+w: \-cha. U-ru! U-ru a-chim,
+   "Am"A/A/A c>B Ac BA | A/A/A c>B Ac BA |
+w: U-ru a-chim ba-lev sa-me-ach, u-ru a-chim ba-lev sa-me-ach,
+  "Dm"B/B/B d>c Bd cB | B/B/B d>c Bd cB |
+w: U-ru a-chim ba-lev sa-me-ach, u-ru a-chim ba-lev sa-me-ach,
+y "Dm"B/B/B "E"e2 "Dm"B/B/B "E"e>E |"^rit..."y "E7"EE (c/B/A/^G/) "Am"A4 |]
+w: U-ru a-chim! U-ru a-chim! Ba-lev sa-me-***ach.
+
+
+X: 1
+T: the Flowers of Edinburgh #1   [A]
+O: Oswald, c.1742
+Z: John Chambers <jc:trillian.mit.edu>
+N: Probably the best-known Scottish reel.
+B: Oswald "Curious Collection of Scots Tunes (II)" c.1742
+B: The Universal Magazine, April 1749, as "Flowers of Edinburgh".
+R: reel
+M: C|
+L: 1/8
+K: A
+AF | "A"E2EF A2AB | cAce dcBA | "E7"GAGF EFGA | BGeG F2AF || "A"E2EF A2AB |
+| "A"cAce "D"fgaf | "A"edcB "E7"AGAB | "A"c2A2 A2 :: e2 | "A"a2ae ac'ba | "E7"g2ge gbag |
+| "F#m"f2fg agfe | c2f2 "(D)"f2af || "A"ecAc e2e2 | "D"fefg a2gf | "A"edcB "E7"AGAB | "A"c2A2 A2 :|
+
+
+X: 1
+T: Petronella   [D]
+M: C|
+R: reel
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+K: D
+|: dA |:\
+"D"F2AF "A"E2AF | "D"D2D2 D2FA |\
+[1,3 d2cd "E"e2d2 | "A"cdBc ABAG :|\
+[2,4 d2cd "A"e2c2 | "D"d2[f2d2] d2 :|
+|: dA |:\
+"D"F2fd "D7"A2af | "G"g2gf "Em"edcB |\
+[1,3 "A"A2ec Aceg | "D"f2{a}fd AdAF :|\
+[2,4 "A"A2ec Agec | "D"d2[f2d2] d2 :|
+
+
+X: 1
+T: Ships Are Sailing   [Em]
+B: New England Fiddler's Repertoire (Randy Miller et al)
+B: O'Neill's "1001"
+N: arr. T. Traub 11-19-2002
+R: Reel
+M: 4/4
+L: 1/8
+K: Edor
+ed |\
+"Em"Beed BcdB | "D"ADF{E}D ADFD | "Em"E2{D}EF GFGA |\
+[1,3 "Em"Beef "Bm"gf :|[2,4 "B"Bee^d "Em"e2 :|
+|: ef |\
+"Em"gfga bgeg | "D"fefg afdf |\
+[1,3 "Em"gfga bgeg | "D"afdf e2 :|\
+[2,4 "G"g2bg "D"f2af | "Bm"edef "Em"e2 :|
+
+
+X: 1
+T: the Mason's Apron
+O: Trad
+N: In most old collections
+R: reel
+M: C|
+L: 1/8
+Z: 1996 by John Chambers <jc:trillian.mit.edu>
+K: A
+ed | "A"c2A2 ABAF | EFAB dcBA |\
+[1,3 "Bm"d2B2 BcBA |     Bcde "E7"gfed :|\
+[2,4  "D"Bcde fefa | "E7"edcB  "A"A2  :|
+|: ed | "A"cAeA fAeA | cAeA fedc |\
+[1,3 "Bm"dBfB gBfB |     dBfB "E7"gfed :|\
+[2,4  "D"Bcde fefa | "E7"edcB  "A"A2  :|
+
+
+X: 1
+T: Yoshke (Ma Yofus; Tanz, Tanz, Yideleh)
+C: arr. Naftule Brandwein 1917
+Z: John Chambers <jc:trillian.mit.edu>
+O: Trad
+M: C|
+L: 1/8
+P: Play AABBCC or AABBCCBB.
+K: ^G	% E freygish
+"A"[|] z2 \
+|  "E"EFGA BcBA | G2GE "Am"A4 | "E"B2B2 dcBA | G2GE "Am"A4 \
+|  "E"EFGA BcBA | G2GE "Am"A4 | "E"G2G2 "Dm"FEFD | "E"E6 :|
+K: C	% C, A minor
+"B"|: "G"[G2B] \
+|  "C"cde4 e2 | "G"dedB G4 | "G7"GABc defd | "C"e2ef "E"edcB \
+|  "Am"ABc4 c2 | "E"BcB^G E4 | EF^GA BcBG | "Am"A6 :|
+K: EPhr^G	% E freygish
+"C"|: GF \
+|  "E"E2G2 E2G2 | "Am"A2A2 dcBA | "E"G2G2 "Am"AGAc | "E"B2B2 ~e4 \
+|  "E"E2G2 E2G2 | "Am"A2A2 dcBA | "E"G2G2 "Dm"FEFD | "E"E6 :|
+
+
+X: 1
+T: Heveynu Shalom Aleychem [Em]
+Z:2008 John Chambers <jc:trillian.mit.edu>
+M:4/4
+L:1/8
+K:Em
+B,EG \
+| "Em"B4 | "B7"G3F | "Em"F E3 | zEGB | "Am"e4 | c3B | "Am"B A3 | zABc |
+| "B7"B3F | B3A | "Em"A G3 | zFGA | "B7"B2 B2 | B2 B2 |1 "B7"B>A GA | B :|2 "B7"B>A GF | "Em"E |]
+
+
+X: 1
+T: Nigun Sameach  [Am]
+R: bulgar, freylach
+O: Kammen 9#12
+B: Kammen 9#12
+M: 2/4
+L: 1/8
+K: Am
+%%continueall 1
+|:\
+"Am"A,z Cz | Ez Az | c4- | c4 |\
+dc Bc | BA ^GA | "E7"B4- | BE FE |
+"E7"E3 ^G | B3 A | "Dm"(3^GAB (3AGF | "E"E4 |\
+BA ^GF | "E7"ED CB, |1 "Am"A,4 | (3E^DC (3CB,A, :|2 "Am"A,4- | HA,4 |]
+|:\
+"Am"EA "(E7)"cB | "Am"AG "A7"FE | "Dm"EF FF | F4 |\
+"(G7)"DF BA | "(E7)"^GF ED | "Am"^DE EE | E4 |
+"E7"EF ^GA | Bc (3cBA | ^G4- | G4 |\
+BA ^GF | ED CB, | "Am"A,4- | A,2 z2 :|
+|:\
+"Am"z2 e^d | e2 "Dm"f2 | "Am"e3 c | A4 |\
+"Dm"f3 e | "G7"de f[gd] | "C"e4- | e4 |
+"Dm"fe d2 | dc B2 | "E7"dc B2 | BA ^G2 | EF ^GA |\
+Bc ^GB |1 "Am"A4 | (3e^dc (3cBA :|2 "Am"A4 | cA "da Capo"EC |]
+
+
+X: 1
+T: Odessa Bulgar #1   [Em]
+C: Abe Schwartz 1922
+R: bulgar, freylach
+M: 2/4
+L: 1/8
+B: Henry Sapoznik "The Compleat Klezmer" 1987
+D: Abe Schwartz Orchestra
+K: Edor^A
+"^A"[|] B,EG |:\
+"Em"B2 A2 | B2 c2 | d2 c2 | BA G2 |\
+A/c/B2 B | BA GA | Bc BA | GF GA ||\
+"Em"B2 A2 | B2 c2 | d2 c2 | BA G2 |
+"B7"FG B/A/G | A2 B2 | "Em"E3 B | B/A/G G2 |\
+"B7"FG B/A/G | A2 B2 |[1 "Em"E4- | HE B,EG :|\
+[2 "Em"E4- | E4 \
+"^B"|:\
+"Em"ze ee | ee ee |
+"F#7"ed ce | "Bm"dc Bd |\
+"F#7"cB Ac | "Em"BA G2 | "B7"FG B/A/G | A2 B2 |\
+"Em"E3 B | B/A/G G2 | "B7"FG B/A/G | A2 B2 |\
+"Em"E4- | E4 :|
+"^C"|:\
+"Em"E E2 B | B/A/G G2 | "B7"G/F/E FG | "Em"AB G/F/E |\
+E E2 B | B/A/G G2 | "B7"FE FG | "Em"F E3 :|
+
+
+X: 1
+T: Odessa Bulgar #2 [Efr]
+M: 2/4
+L: 1/8
+K: Ephr
+% %continueall
+"^A"|:\
+"E"E2 F2 | ^G2 A2 | ^G3 F | ^GF E2 |\
+^G2 A2 | B2 c2 | B3 A | BA ^G2 ||\
+"E"Bc dc | dc BA |
+^GA BA | BA ^GF |\
+"Dm"ED EF | ^G{B}A GF | "E"E2 ^G2 | B2 e2 ||\
+"E"Bc dc | dc BA | ^GA BA | BA ^GF |
+"Dm"ED EF | ^G{B}A GF | "E"E4- |1 E4 :|2 "E"EE F^G |]\
+"^B"|: "Am"A3 A | AE cB | A3 A | AE cB |\
+AB cd | e[dA] fe |
+"Dm"{e}d4- | d2 dc ||\
+"E"{c}B4- | BA BA | {A}^G4- | GF^GF |\
+"Dm"ED EF | ^G{B}A GF | "E"E4- |1 "E"EE F^G :|2  E2 z2 |]
+
+
+X: 1
+T: Odessa Bulgar #3   [Em]
+R: Bulgar, Frailach
+N: from handwritten MS, slightly simplified by John Chambers
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Em
+"A"[|] B, CB, \
+| "Em"E2 B,2 G2 B,2 | E4 zE FG \
+| "Am"AG FE ^DE DC | "B"B,8 \
+| B,^D DD DC {D}CB, | "Em"B,E EE E4 |
+| "Am"FA GF "B"GF E^D | "Em"E4 z \
+"B":: "D7"zD2 | "G"GB BB BA {B}AG \
+| GB BB BA {B}AG | B2 c2 B2 A=G | "D"A6 zF |
+| FA AA AG {A}GF | FA AA AG {A}GF | A2 B2 A2 GF \
+| "G"G4 z "C":: G F^D \
+| "Em"E4 "Am"zA "B7"GF | "Em"G4 zG FE |
+| "Em"E4 "E7"zc BA | "Am"A6 "D7"D2 \
+| "G"G3 B dc BA | "B7"GA FG "Em"EF GA \
+| "Em"~BG "B7"~AF "Em"~GE "B7"~F^D | "Em"E4 z :|
+%|["Coda" "D"dB cA zd/^c/ d/e/=e/^f/ | "Gm"Hgz "D7"Hdz "Gm"HG4 |]
+
+
+X: 1
+T: V'ha'er eyneynu [Em]
+C: Shlomo Carlebach
+M: C
+L: 1/8
+K: Em
+%%continueall
+E |\
+"Em"(EB,) G>G "B7"G F2 E | "Em"(EB,) G2 "B7"G F2 E | "Em"(EF) G>G (GA) B>B | "Am"AB (cB) A4 ||
+"Am"(AB c2) "B7"BA2 A | "Em"(GA B2) AG2 E | EB, E2 "C"EF G2 | "B7"FE (^DF) "Em"E3 :|
+|: B |\
+"Em"(B2 e2 ^d2) e2 | "Am"c6 zc | (c2 e2) ^d2 e2 | "Em"B6 zB |\
+| "Em"(B2 e2) ^d2 e2 | "Am"(f2 e2 c4) | e2 f2 e2 c2 | "B7"B6  z :|
+
+
+X: 1
+T: Etz Chayim, (It Is a) Tree of Life   [Bm]
+M: C
+L: 1/8
+K: Bm
+fff |:\
+"Bm"B2B2 "D"d2d2 | "Em"e2ef- "F#"ffff |\
+"Bm"B2B2 "D"d2d2 | "Em"z2e2 "F#"f4 :| Hz8 |]
+|:\
+"Bm"z2b2 "A"a4   | "Em"gfef- "F#"ffff |\
+"Bm"z2b2 "A"a4   | "Em"gfef- "F#"f4 :| Hz8 |]
+
+
+X: 1
+T: Etz chayim hi'  [Bm]
+T: It is a Tree of Life
+M: C
+L: 1/8
+K: Bm
+%%continueall
+F |\
+"Bm"Bc de f3 f | "Em"g>g bg "Bm"f3 d | "Bm"f2 ed "F#7"f2 c2 | "Bm"d2 ed "F#7"c3 F |
+"Bm"Bc de f3 f | "Em"g>g bg "Bm"f3 d | "Bm"f2 {f}ed "F#7"f2 c2 | "F#7"ef/e/ dc "Bm"B3 |]
+[| F |\
+"Bm"B3 c dc dB | "Bm"f2 f2 "(F#)"f4 | "Bm"B3 c dc dB | "Bm"f2 f2 "F#7"f4 |
+"Bm"f3 b Hb4 | "Bm"bd' c'b "F#7"b2 H^a2 | "Bm"b2 ff "Em"ag fe | "Bm"d2 "F#7"c>B "Bm"B3 |]
+

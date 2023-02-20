@@ -1,0 +1,18 @@
+X: 2213
+T: HAPPY WE'VE BEEN A THE-GITHER
+Q: "Highland Schottische."
+R: Schottishe.
+%R: shottish
+B: James Kerr "Merry Melodies" v.2 p.24 #213
+N: This tune is actually unnumbered; X:213 puts it in the right place on the page.
+N: The slur on the first 2 notes in the last bar is faint, but it matches the others.
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+uA |\
+(F<A) uA>uB d>ed>A | (F<A) uA>uf e>dB>A |\
+(F<A) A>B d>ed>A | (F<A) A>f e>f d :|
+|: e |\
+f<a e>f d>ef>d | f<a e>f g/f/e/d/ B>g |\
+f<a e>f d>ef>g | (a<A) A>f e>f d :|

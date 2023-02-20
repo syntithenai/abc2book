@@ -1,0 +1,29 @@
+X: 189
+T: Flatering Mirtilla
+T: Longways &c.
+%R: reel
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.95
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: C|
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G4 |\
+E2C2 G2B2 cBc2 z2GB | AGFE D2G2 E2C2 z2e2 |\
+A2^F2 D2d2 cBAG ^F2dc | B2g2 A2^f2 g2D2 :|
+|: d4 |\
+B2G2 d2g2 fef2 z2df | edcB A2d2 B2G2 z2gf |\
+e2c2 A2ag fedc B2GF | E2A2 D2B2 c2C2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st Cu cross over and lead thro' the 3d
+%% Cu. .| then cast up between the 2d and 3d Cu :|
+%% then cross over to the top, and single right and
+%% left .| then lead thro' the 3d Cu. and cast up and
+%% turn :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

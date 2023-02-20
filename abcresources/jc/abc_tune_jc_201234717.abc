@@ -1,0 +1,29 @@
+X: 2072
+T: Widow are ye waking
+O: Adapted for the Harp & Piano Forte.
+%R: air, march
+B: Niel Gow & Sons "Complete Repository" v.2 p.7 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 1st 3 bass notes of the 2nd strain were transcribed as a triplet to fix the rhythm;
+N: They might have been meant as a 2:1:1 ratio. Play whichever you prefer; it's clearly a typo.
+M: C
+L: 1/16
+Q: "SLOW"
+K: Eb
+% - - - - - - - - - -
+% Voice 1 reformatted for 4 4-bar lines, to satisfy several formatting programs.
+V: 1 staves=2
+B,2 |\
+[E6B,6G,6]F2 ~G3FG2B2 | c4 [F3C4]G (G2F2) E2C2 | E6F2 (G2B2) ~F3G | TE8 B,8 ||
+~A6B2 .G3FG2B2 | c4 [F3C3]G (G2F2)E2C2 | E4 e3c (BG3)~F3G |[1 E8 B,6 :|[2 E8 B,8 |]
+|: ~e6f2 (e2f2)g2e2 | (f2e2)f2g2 {g}f4e2c2 | ~B3c~e3f (e2f2g2)f2 | {d2}e8 B4e2f2 ||
+(g2f2e2)c2 (e2c2B2)[G2=E2] | (A2G2)F2E2 {G}F4E2C2 | ~e3fe2c2 BG3~F3G |[1 E8 B,8 :|[2 E8 B,6 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |
+E4e4 E8 | a4=a4 b4c'2_a2 | (g2a2)g2f2 e2z2 [d2B2]z2 | (GB)(eB) (ge)(Be) (EG)(Be) (Ee)(Dd) |
+C2c2d2B2 E8 | a4=a4 b4c'2_a2 | g2e2 c2A2 G2E2 A4 |[1 (GB)(eB) (ge)(Be) EGBe E2 :|[2 (GB)(eB) geBe (EG)(Be) EeDd |] |:\
+(3C2c2=B2 cdef g2a2_b2g2 | a4 f4 b4 g2a2 | g2a2g2f2 g2z2 [d2B2]z2 |
+gbe'b g'e'be' egbe' g2a2 || b2a2g2a2 b2d2e2c'2 | f2g2a2=a2 b4c'2_a2 | g2a2 g2a2 b4 b4 |\
+[1 (GB)(eB) (ge)(Be) (EG)Be (Ee)(Dd) :|[2 (GB)(eB) (ge)(Be) (EG)(Be) E2 |]

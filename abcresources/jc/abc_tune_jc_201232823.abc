@@ -1,0 +1,29 @@
+X: 17
+T: Lord Amherst's Return
+%R: march, reel
+B: "Le Sylphe, Twenty Four Country Dances with Figures for the Year 1818", Button & Whitaker, p.9 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1818
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 2/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(e2g2) | (d2g2) | (cedc) | (Bdg2) |\
+(e2g2) | (d2g2) | cedB | c2z2 :|
+|:\
+.G2.c2 | "_>"e4 | (fede) | (fedc) |\
+.B2.d2 | "_>"g4 | (gf).d.B | c2z2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center SINGLE FIGURE        (Each strain repeated)
+%%begintext align
+%% Whole figure on your own sides |: lead down
+%% the mid: up again & lead thro the top |: .
+%%endtext
+%%center OR THUS
+%%begintext align
+%% The 1st Lady meets & turns 2d Gent: 1st Gent: meets & turns 2d Lady |:
+%% swing with right hands round 2d Cu: & turn your partner |: .
+%%endtext
+%%sep 1 1 450

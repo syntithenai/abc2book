@@ -1,0 +1,53 @@
+%%text RJ Set 113 NEFFA 2013 Jigs
+
+
+X: 1
+T: The Puppeteer
+S: Roaring Jelly collection
+M: 6/8
+L: 1/8
+K: G
+D |:\
+"G"G2 G "D"ABA | "G"G3 G2 A | B2B "Am7"cde | "G/B"d3 "Am7"dBc |\
+"G"d2 d "D/F#" def | "Em"gdc "G/B"BAG | "C"cde "Am7"dcB |1 "D"A3ABA :|2 "D"A3 ABc ||
+|:\
+"G"B2g gfg | agf gfg | "D"a2 d d2 b | a3 aga |\
+"Em"b2 b "D"agf | "C"gfe"G/B" dcB | "C"cde "Am7"dcB |[1 A3 "D"ABc :|[2 "D"A3 "D7"AGF |]
+%["Trans" "D"A3z3 |]
+%%text Play B part an octave down occasionally.
+%|: B,2G GFG | AGF GFG | A2 D D2 B | A3 AGA |
+%B2 B AGF | GFE DCB, | CDE DCB, | [1A,3 A,B,C :| [2A,3 z2 D ||
+%%%text If ending with this tune, play this after the second ending
+%"G"G2 G "D"ABA | "G"G6 |
+% text 5/15/13
+
+
+X: 2
+T: The Hag at the Churn
+M: 6/8
+L: 1/8
+R: jig
+K: Dmix
+|:\
+"D"A2G ADD | "D"A2G "Am"Adc | "D"A2G ADD | "C"EFG EFG |\
+"D"A2G ADD | "D"A2G "Am"Adc | "D"A2G ADD | "C"EFG EFG :|
+|:\
+"D"AdB "C"c3 | "D"Add "Am"efg | "D"AdB "C"c3 | "Em"GEG "Am"AED |\
+"D"AdB "C"c3 | "D"Add  "C"efg | "D"age dcA |["." "Am"GEG "(D)"AED :|\
+|["Trans" "n.c."Az2"E7"e3 ||
+
+
+X: 3
+T: Myra's Jig
+C: Ian Lowthian and Acoustic Radio 1991
+M: 6/8
+L: 1/8
+R: jig
+K: A
+e |\
+"A"c>BA AfA | eAf ecA | c>BA "C#m/G#"ECE | "F#m"F3-"D"F2 e |\
+"A"c>BA "D"AfA | "A"eAf "F#m"afe | "Bm"c>BA "E7"FEF |[1 "A"A3- A2 :|[2"A"A3-A2 ||
+|:f | \
+"A"e2-e/f/-f2 a- | afe cBA | e2f-"F#m" feA | "Bm"cBB "E7"B2f |\
+"A"e2-e/"E/G#"f/-f2 "F#m"a- | afe cBA | "Bm"B>Ac "E7" BAF |1 "A"A3- A2 :|[2 "A"A3 z2 |]
+

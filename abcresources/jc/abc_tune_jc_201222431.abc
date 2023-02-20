@@ -1,0 +1,38 @@
+X: 06
+T: the Esplanade
+%R: jig
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Thompson "A Favourite Collection of Country Dances 1800", p.6
+F: https://deriv.nls.uk/dcn23/1205/2168/120521683.23.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has an initial repeat but no final repeat; fixed to match the dance.
+M: 6/8
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for a US-letter/A4 page size.
+V: 1
+|:\
+b>ag gab | bc'a f2a | g>fe ede | f3 B2B |\
+c>de Bee | c>de Bee | d/c/ag gfe | e3 d2z :|
+|:\
+b>ag gab | bc'a f2a | g>fe ede | f3 B2B |\
+c>de Bee | c>de Bee | d/c/ag fed | d3 e3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+[g3e3] [g3e3] | a3 b3 | [g3e3] [g3e3] | [f3d3] [f2d2]e |\
+[a2e2][ae] [g2e2][ge] | [a2e2][ae] [g2e2][ge] | a3 a3 |
+b3 B2z :||:\
+[g3e3][g3e3] | a3 b3 | [g3e3] [g3e3] | [f3d3] [f2d2]e |\
+[a2e2][ae] [g2e2][ge] | [a2e2][ae] [g2e2][ge] | a3 b3 | e3 E3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off [... illegible ...]
+%% lead down the middle & up again .|.
+%% cast off & Allemand :|:
+%% hands 6 round & back again .|.
+%% lead outsides with your Partner. .:|:.
+%%endtext
+%%sep 2 2 400

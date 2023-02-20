@@ -1,0 +1,26 @@
+X: 32241
+T: LORD HAWICK'S MARCH
+R: march
+B: K\"ohler's Violin Repository, v.3, 1885 p.224 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+N: The 2nd part has an initial repeat but no final repeat; fixed by making it not repeated.
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+(ud>c) !segno!|\
+B2(.B>.B) B2(.B>.B) | B2(B>d) gdcB | A2(.A>.A) AA/A/ A>B | A2A>B cedc |
+B2(.B>.B) BB/B/ (.B>.B) | B2(B>d) gdcB | cedc BAGF | G2(.G>.G) G2 :|
+(.d'>.d') |\
+d'2 (d'>.d') d'd'/d'/ d'd' | b2(g/a/b/c'/) d'4 |\
+d2(.d>.d) dd/d/ dd | B2(G/A/B/c/) d4 |
+(.d'>.d')d'2 (.d>.d)d2 | (.d'>.d')d'2 (.d>.d)d2 |\
+d'd'/d'/ d'd'/d'/ d'd'/d'/ (.d'>.d') | d'2d'>d' d'=c'ba "^D.C."!segno!||
+uD2 |\
+G4 (D3G) | B2 (d/c/B/A/) G2 (.B>.c) |\
+d2 (.g>.d) B2 (.d>.B) | G2 (.B>.G) D4 |
+b2 (b/a/b/c'/) d'd'd'd' | b2 (g/a/b/c'/) d'd'd'd' |\
+bd'bg bd'bg | d'd'/d'/ d'd'/d'/ d'2 ||
+(u.d>.d) |\
+dd/d/ dd dd/d/ dd | c'4 (c'af2) | dd/d/ dd dd/d/ dd | d'4 (d'bg2) |
+dd/d/ dd dd/d/ dd | c'z bz d'z bz | c'2b2 a2g2 | f2e2 d2"^D.C."c2 |]

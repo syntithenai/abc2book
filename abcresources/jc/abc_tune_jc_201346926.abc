@@ -1,0 +1,44 @@
+
+X: 1
+T: Tu Scendi Dalle Stelle
+C: Alfonso Maria de' Liguori 1744
+M: 6/8
+L: 1/8
+K: G
+[dB] |\
+"G"[d2B2][ec] [d2B2][cA] | "G"[cA][B2G2]- [B2G2][AF] |\
+"G"[BG][cA][dB] [dB][cA][BG] | "D7"[A3F3]- [A2F2][BG] |\
+"D7"[A2F2][BG] [c2A2][BG] | "D7"[A3F3] "C"[e2c2][ec] |\
+"D7"[dB][ec][dB] [cA][BG][AF] | "G"[B3G3]- [B2G2][BG] |
+"D7"[A2F2][BG] [c2A2][BG] | "D7"[A3F3] "C"[e2c2][ec] |\
+"D7"[dB][ec][dB] [cA][BG][AF] | "G"[G3D3]  [B2G2][dB] |\
+"D7"[c2A2][cA] [AF][BG][cA] | "G"[B2G2][BG] [BG][cA][dB] |\
+"D7"[c2A2][cA] [AF][BG][cA] | "G"[B3G3]- [B2G2][BG] |
+"G"[BG][AF][BG] [dB][cA][BG] | "D7"[A3F3]- [A2F2][BG] |\
+"D7"[A2F2][BG] [c2A2][BG] | "D7"[A3F3] "C"[e3c3] |\
+"D7"[dB][ec][dB] [cA][BG][AF] |\
+"G"[B3G3]- [B2G2][BG] | "D7"[A2F2][BG] [c2A2][BG] |\
+"D7"[A3F3] "C"[e3c3] | "D7"[dB][ec][dB] [cA][BG][AF] | "G"[G3D3] z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+T: Tu Scendi Dalle Stelle
+C: Alfonso Maria de' Liguori 1744
+M: 6/8
+L: 1/8
+K: A
+[ec] |\
+"A"[e2c2][fd] [e2c2][dB] | "A"[dB][c2A2]- [c2A2][BG] |\
+"A"[cA][dB][ec] [ec][dB][cA] | "E7"[B3G3]- [B2G2][cA] |\
+"E7"[B2G2][cA] [d2B2][cA] | "E7"[B3G3] "D"[f2d2][fd] |\
+"E7"[ec][fd][ec] [dB][cA][BG] | "A"[c3A3]- [c2A2][cA] |
+"E7"[B2G2][cA] [d2B2][cA] | "E7"[B3G3] "D"[f2d2][fd] |\
+"E7"[ec][fd][ec] [dB][cA][BG] | "A"[A3E3]  [c2A2][ec] |\
+"E7"[d2B2][dB] [BG][cA][dB] | "A"[c2A2][cA] [cA][dB][ec] |\
+"E7"[d2B2][dB] [BG][cA][dB] | "A"[c3A3]- [c2A2][cA] |
+"A"[cA][BG][cA] [ec][dB][cA] | "E7"[B3G3]- [B2G2][cA] |\
+"E7"[B2G2][cA] [d2B2][cA] | "E7"[B3G3] "D"[f3d3] | "E7"[ec][fd][ec] [dB][cA][BG] |\
+"A"[c3A3]- [c2A2][cA] | "E7"[B2G2][cA] [d2B2][cA] |\
+"E7"[B3G3] "D"[f3d3] | "E7"[ec][fd][ec] [dB][cA][BG] | "A"[A3E3] z2 |]

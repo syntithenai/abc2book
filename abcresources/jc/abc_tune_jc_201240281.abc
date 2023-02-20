@@ -1,0 +1,28 @@
+X: 382
+T: the Humours of Cullen.   a Jig.
+R: jig
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c."
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+E |\
+~B,2E- EFA | {c}TB2A B^cd | AFD DFA | BdB AFD || ~B,2E- EFA | {c}TB2A B^cd | edB BAF | EFE TE2 :| B |
+e>fe (TB2^d) | e^de efg | Tfef ~d2e | faf def || e>fe (TB2^d) | e^de fe=d | BAB dAF | EFE TE2B ||
+e>fe (TB2^d) | e^de efg | {g}Tfef ~d2e | faf def || .g.a.g .f.e.^d | .e.f.e. .=d.B.A | BdB BAF | EFE TE2 :|
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+[e3E3] [e3E3] | [e3E3] [e3E3] | [d3D3] [f3F3] | [g3G3] [f3F3] ||\
+[e3E3] [e3E3] | [e3E3] [e3E3] | b3 B3 | e3 E2 :| z |
+[e3E3] [b3B3] | [e'3e3] [e'3e3] | [d'3d3] [d'3d3] | [d'3d3] [d'3d3] ||\
+[e'3e3] [e'3e3] | [e'3e3] [a3A3] | b3 B3 | e3 E3 ||
+[e3E3] [b3B3] | [e'3e3] [e'3e3] | [d'3d3] [d'3f3] | [d'3d3] [d'3d3] ||\
+[e'3e3] [b3B3] | [e3E3] [f3F3] | [g3G3] [B3B,3] | [e3E3] [e2E2] |]
+% = = = = = = = = = =

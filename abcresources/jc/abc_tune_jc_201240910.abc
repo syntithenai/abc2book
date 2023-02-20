@@ -1,0 +1,31 @@
+X: 4163
+T: Miss Maule of Panmure's    Reel
+C: By Nath. Gow
+N: This is version 2, for ABC software that understands voice overlays and cres/diminuendo symbols
+N: The 2-voices in bars 4,8,12 work slightly better in ABC1's "chord" method.
+% dim/cres..endo symbols:
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+%R: reel
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.16 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+% - - - - - - - - - -
+V: 1 staves=2
+c |\
+p(A/B/c)P Q(d/c/B/A/)q GE-E>c | GcEc GE-E>c |\
+(A/B/c) (d/c/B/A/) GEEc | G<Ec>E EDD & x4 CB,B, :|\
+f | (e/f/g) Tg>f ecc.e | (A/B/c) Gc EcGc |
+(e/f/g) Tg>f ecce | x2 c>E (EDD)f & dBx2 CB,B,x ||\
+(e/f/g) Tg>f ec-ce | (A/B/c) Gc EcGc |\
+egfd ecdB | x2c>E EDD & (c/B/A/B/) x2 CB,B, |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | p[c2F2]P Q[c2F3]q [c2E2][c2C2] | [c2C2][c2C2] [c2C2][c2E2] |\
+[c2F2][c2F2] [c2E2][c2C2] | e2c2 G2G :| z | c'2c'2 c'2c'2 | f2e2 c2e2 |
+c2c2 c2c2 | B2c2 G2G2 || c'2c'2 c'2e2 | f2e2 c2c2 | c'2b2 c'2g2 | e2c2 G2G |]

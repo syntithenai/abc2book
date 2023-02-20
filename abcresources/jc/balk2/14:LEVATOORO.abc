@@ -1,0 +1,13 @@
+X: 314
+T: Levato Oro
+O: Macedonia
+M: 8/8
+L: 1/8
+Q: 1/4=150
+K: Em
+%%MIDI program 23
+%%MIDI drum ddd2 35 35 35
+%%MIDI drumon
+|:E4B3A   |BAGFE4 |FGABAGFD|E3GFED2|
+  E4B3A   |BAGFE4 |FGABAGFD|E4E4   :|
+|:FGABAGFD|E3GFED2|FGABAGFD|E4E4   :|

@@ -1,0 +1,27 @@
+X: 1
+T: Double the Cape
+%R: minuet
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (115)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the dance description
+M: 3/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+g2 d4 B4 A2 | Bcd2 ABc2 B4 |\
+g2 d4 B4 A2 | Bcd2 G2F2 G4 :|\
+f2 a4 f4 d2 | gab2 efg2 f4 |
+f2 a4 f4 d2 | def2 AB^c2 d4 |\
+Bcd2 Bcd2 e4 | efg2 efg2 f4 |\
+g2 d4 B4 c2 | BAG2 A2F2 G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Note The 1st strain is to be play'd twice and the last but once over
+%%begintext align
+%% The 1st Cu. cross over and the 2d Cu. casts off .| Then
+%% change Places across and cast up into your own Places :|
+%% Then Back to Back then right and left quite round and
+%% cast off and turn.
+%%endtext
+%%sep 1 8 500

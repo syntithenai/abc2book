@@ -1,0 +1,84 @@
+
+X: 1
+T: di Goldene Khasene #2   [Cm]
+T: the Golden Wedding #2
+R: freylach
+Z: John Chambers <jc:trillian.mit.edu>
+D: Di bostoner Klezmer: "Nakhes fun Klezmer"
+D: H Kandel ...
+N: Handwritten MS by ??; Transcription by S.Rauch
+M: 4/4
+L: 1/8
+K: Cm
+|: zG,CE \
+| "Cm"G2c2 =Bc "(C7)"GA | "Fm"F4 zAG^F | "G7"G4 zFEF | "Cm"G4 zG,CE \
+||"Cm"G2c2 =Bc "(C7)"GA | "Fm"F4 z2F^F | "G7"G2 E2 FG/F/ ED | "Cm"C4 :|
+|: z2"(G7)"G2 \
+| "Cm"e2 dc e2 dc | G4 z2G_G | "Fm"F2 F2 F>G A/G/F | "Cm"G4 z2"(G7)"cd \
+|| e2 dc e2 "(C7)"dc | "Fm"A4 zFGA | "G7"GF FE ED DC | "Cm"C4 :|
+|: z2G2 \
+| "Cm"e/d/c e/d/c [cG][cG] [c2G2] | e/d/c e/d/c "Fm"FF F2 \
+| A2A2- AG BA | "Cm"G4 z2"C7"z2 \
+||"Fm"FG A2 DE F2 | "Cm"EF G2 CD E2 |
+  "G7"GF FE ED DC | "Cm"E4 z2 "C7"z2 \
+||"Fm"FG A2 DE F2 | "Cm"EF G2 CD EG \
+| "G7"GF FE ED DC | "Cm"C4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: di Goldene Khasene #2   [Dm]
+T: the Golden Wedding #2
+R: freylach
+Z: John Chambers <jc:trillian.mit.edu>
+D: Di bostoner Klezmer: "Nakhes fun Klezmer"
+D: H Kandel ...
+N: Handwritten MS by ??; Transcription by S.Rauch
+M: 4/4
+L: 1/8
+K: Dm
+|: zA,DF |\
+"Dm"A2d2 ^cd "(D7)"AB | "Gm"G4 zBA^G | "A7"A4 zGFG | "Dm"A4 zA,DF |\
+"Dm"A2d2 ^cd "(D7)"AB | "Gm"G4 z2G^G | "A7"A2 F2 GA/G/ FE | "Dm"D4 :|
+|: z2"(A7)"A2 |\
+"Dm"f2 ed f2 ed | A4 z2A_A | "Gm"G2 G2 G>A B/A/G | "Dm"A4 z2"(A7)"de |\
+f2 ed f2 "(D7)"ed | "Gm"B4 zGAB | "A7"AG GF FE ED | "Dm"D4 :|
+|: z2A2 |\
+"Dm"f/e/d f/e/d [dA][dA] [d2A2] | f/e/d f/e/d "Gm"GG G2 |\
+B2B2- BA cB | "Dm"A4 z2"D7"z2 |\
+"Gm"GA B2 EF G2 | "Dm"FG A2 DE F2 |
+"A7"AG GF FE ED | "Dm"F4 z2 "D7"z2 |\
+"Gm"GA B2 EF G2 | "Dm"FG A2 DE FA |\
+"A7"AG GF FE ED | "Dm"D4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: di Goldene Khasene #2
+T: the Golden Wedding #2
+R: freylach
+Z: John Chambers <jc@trillian.mit.edu>
+D: Di bostoner Klezmer: "Nakhes fun Klezmer"
+D: H Kandel ...
+N: Handwritten MS by ??; Transcription by S.Rauch
+N: Modified slightly for contra dance.
+M: 4/4
+L: 1/8
+K: Em
+   zB,EG \
+| "Em"B2e2 ^de "(E7)"Bc | "Am"A4 zcB^A \
+| "B7"B4 zAGA | "Em"B4 zB,EG \
+| "Em"B2e2 ^de "(E7)"Bc | "Am"A4 z2A^A |\
+| "B7"B2 G2 AB/A/ GF | "Em"E4 :|
+|: z2"(B7)"B2 \
+| "Em"g2 fe g2 fe | B4 z2B_B \
+| "Am"A2 A2 A>B c/B/A | "Em"B4 z2"(B7)"ef |\
+| g2 fe g2 "(E7)"fe | "Am"c4 zABc \
+| "B7"BA AG GF FE | "Em"E4 :|
+|: z2"(B7)"B2 \
+| "Em"g/f/e g/f/e [eB][eB] [e2B2] | g/f/e g/f/e "Am"AA A2 |\
+| c2c2- cB dc | "Em"B4 z2"E7"z2 |\
+| "Am"AB c2 FG A2 | "Em"GA B2 EF GB |
+| "B7"BA AG GF FE | "Em"G4 |\
+| "Am"AB c2 FG A2 | "Em"GA B2 EF GB \
+| "B7"BA AG GF FE | "Em"E4 |]

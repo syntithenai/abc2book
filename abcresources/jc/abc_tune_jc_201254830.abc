@@ -1,0 +1,14 @@
+X:75
+T:Bonny Nell
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=120
+M:6/8
+L:1/8
+%%MIDI ratio 3 1
+K:G
+P:A
+d | "G"B3 G2c | "D"A3 F2B | "Em"GFG E2A | "D"F3 D2D |\
+"Em"G2G ABc | "G"B2B B^cd | "A7"ed2 d2^c | "D"d3- d2 :|
+P:B
+|: A | "D"A>BA ABc | "G"d>ed d2c | "B7"B>AG G2F | "Em"E3- E2B, |\
+"Am"C2D EFG | "D"G2A F2G | "Am"ABc "D7"A2F | "G"G3- G2 :|

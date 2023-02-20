@@ -1,0 +1,53 @@
+X: 1
+T: With an honest old friend, and a merry old song
+C: Henry Carey (d.1743)
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+S: Copy of printed song of unknown origin, from Darlene Wigton 2020-2-27
+M: 3/4
+L: 1/8
+K: C
+%%continueall 1
+% = = = = = = = = = =
+V: 1 staves=2
+cB | (cd) (ef) g2 | d4 ag | (ag) (fe) (dc) |
+w: With an hon-*est* old friend, and a mer-*ry* old*
+w: I* en-*vy* no mortal tho'* ev-*er* so*
+w: Then* dare* to* be generous,** daunt-*less,* and*
+%
+d4 Bc | d2 G2 e2 | d3 c B2 | A2 g2 ^f2 |
+w: song, And a flask of old port, let me sit the night
+w: great, Nor* scorn I a wretch for his low-ly es-
+w: gay, Let us merri-ly pass life's* re-main-der a-
+%
+g4 :: g2 | g2 (fe) f2 | f2 (ed) e2 | e2 (dc) d2 |
+w: long: And laugh at* the an-ger* of those who* re-
+w: tate; But what I* ab-hor and* es-teem as* a
+w: way; Up-held by* our friends, we* our foes may* des-
+%
+(BA G2) g2 | a2 A2 d2 | (BA G2) c2 |
+w: pine** That they must swig por-*ter, while
+w: curse,** Is poor-ness of spi-*rit, not
+w: pise,** For~the more we are en-*vied, the
+(3(fed) d3 c | c4 |]
+% = = = = = = = = = =
+w: I** can drink wine.
+w: poor-**ness of purse.
+w: high-**er we rise.
+% = = = = = = = = = =
+V: 2 clef=bass middle=d
+c' g |\
+e2 d2 c2 | g4 fe | (fe) (dc) a2 | g4 ga |\
+b2 b2 c'2 | b3 a g2 | c'2 d'2 d2 | g4 :: e'2 |\
+ab c'2 d'2 | (gf b2) c'2 | (fg) a2 ^f2 | (g2 f2) e2 |\
+f2 fe f2 | (g2 gf) e2 | d2 g2 G2 | c4 |]
+% = = = = = = = = = =
+%%
+%W: I envy no mortal tho' ever so great,
+%W: Nor scorn I a wretch for his lowly estate;
+%W: But what I abhor and esteem as a curse,
+%W: Is poorness of spirit, not poorness of purse.
+%W: 
+%W: Then dare to be generous, dauntless, and gay,
+%W: Let us merrily pass life's remainder away;
+%W: Upheld by our friends, we our foes may despise,
+%W: For the more we are envied, the higher we rise.

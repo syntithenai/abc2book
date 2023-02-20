@@ -1,0 +1,49 @@
+X: 1
+T: \vZensko za raka   [Cm]
+O: Macedonia
+S: presented by Yves Moreau
+P: (A)ABCD,ABCD,taksim,CD
+M: C
+L: 1/8
+K: Cm
+"A"[|\
+"Cm"cdcB cz cd | "Cm"ez ef "Bb"~e2d2 | "Eb"e6 f2 | "Eb"gagf ~e2ed |\
+"Cm"cdcB cGcd  | "Cm"eBef  "Bb"~e2d2 | "Eb"e6 f2 | "Eb"bagf ~e2ed |]
+"B"|:\
+"Cm"deed ~c2cB | "Bb"cddc ~B2=AB |[1,3 "Cm"c6 B2 | "Fm"gagf ~e2ed \
+                                 :|[2  "Cm"c6 f2 | "Cm"cB=AB ~c2cG \
+                                 :|[4  "Cm"c6 f2 | "Cm"cB=AB ~c2cz |]
+"C"|:\
+"Eb"GABc BAGF | "Fm"FEGF ~E2ED | "Cm"EDCE "Bb"DCB,D |[1,3 "Cm"CG,DG, EG,FG, \
+                                                   :|[2,4 "Cm"~C3B, =A,B,Cz :|
+"D"|:\
+"Cm"EDCE "Bb(Gm)"DCB,D | "Cm"~C3B, =A,B,CD | "Cm"EDCE "Bb(Gm)"DCB,D |[1,3 "Cm"~C3G, "Fm"EFFG, \
+                                                                   :|[2,4 "Cm"~C2CG, C2z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: \vZensko za raka   [Dm]
+O: Macedonia
+S: presented by Yves Moreau
+P: (A)ABCD,ABCD,taksim,CD
+M: C
+L: 1/8
+K: Dm
+"A"[|\
+"Dm"dedc dz de | "Dm"fz fg "C"~f2e2 | "F"f6 g2 | "F"abag ~f2fe |\
+"Dm"dedc dAde  | "Dm"fcfg  "C"~f2e2 | "F"f6 g2 | "F"c'bag ~f2fe |]
+"B"|:\
+"Dm"effe ~d2dc | "C"deed ~c2=Bc |[1,3 "Dm"d6 c2 | "Gm"abag ~f2fe \
+                                :|[2  "Dm"d6 g2 | "Dm"dc=Bc ~d2dA \
+                                :|[4  "Dm"d6 g2 | "Dm"dc=Bc ~d2dz |]
+"C"|:\
+"F"ABcd cBAG | "Gm"GFAG ~F2FE | "Dm"FEDF "C"EDCE |[1,3 "Dm"DA,EA, FA,GA, \
+                                                 :|[2,4 "Dm"~D3C =B,CDz :|
+"D"|:\
+"Dm"FEDF "C(Am)"EDCE | "Dm"~D3C =B,CDE | "Dm"FEDF "C(Am)"EDCE |[1,3 "Dm"~D3A, "Gm"FGGA, \
+                                                             :|[2,4 "Dm"~D2DA, D2z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500

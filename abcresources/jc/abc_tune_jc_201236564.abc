@@ -1,0 +1,18 @@
+X: 2242
+T: the High Road to Linton,   a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.2 p.24 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: Many versions of this tune have 2 more strains.
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+d | ce-e>f a2ae | Tf2fe a2aB | ce-e>f a2ae | faec TB2A ::
+d | ce-e>=g fddf | ecce fBBd | ce-e>=g fddf | ecac TB2A :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | a2a2 a2a2 | a2a2 a2a2 | a2a2 c2c2 |
+d2e2 E2A :: z | a2c'2 d'2b2 | c'2a2 b2e2 | a2c'2 d'2b2 | c'2a2 e2a :|

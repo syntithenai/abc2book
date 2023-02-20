@@ -1,0 +1,20 @@
+X:04061
+T: the Marquis of Huntly's Highlanders
+T: the 92nd
+N: Pinewoods Alternates, notated "Marquis of Huntly RSCDS 4)
+R: strathspey
+B: RSCDS 4-6
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+%--------------------
+K: A
+"(E7)"f \
+| "A"e3A cBA2 e3A c2A | "G"B=G3 G3B d3G G3B \
+| "A"e3A cBA2 e3A c2A | "G"B3=G E3d "A"cA3 A3 :|
+B \
+| "A"A3a g3a f3a e3d | "G"Bg3 d3=c B=G3 G3B \
+| "A"A3a g3a e3A c3A | "D"f3a "E7"e3d "A"cA3 A3 |]
+B \
+| "A"A3a g3a f3a e3d | "G"Bg3 d3=c B=G3 G3B \
+| "A"c3A e3A a3A e3A | "G"d3B =G3B "A"cA3 A3 |]

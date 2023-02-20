@@ -1,0 +1,17 @@
+X: 1
+T: the Nameless Lassie
+C: William Marshall
+R: air
+Q: "Slow Air"
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+S: handout for Anne Hooper's 2021-5-2 zoom session (handwritten)
+N: Thin double-bars added every 4 bars to bring out the phrasing.
+M: C
+L: 1/8
+K: G
+%
+"^A"[|] D2 |\
+"G"(G3F) (E2D2) | "C"E2F2 G3A | "G"(v{Bc}B3G) "C"(u{G}c3B) | "Am"(B3{cB}A) "D"(A2D)(vE/F/ || "G"G3F) (E2D2) |
+"C"(E2F2) "G/B"G2"C"dc | "G(D)"(B3c) "D7"({B}A3G) | "G"G6 G2 || "G"(d3G) G2G2 | "C"(e3d) c2B2 |
+"Am"(c2B2) (A2G2) | "D"(F2A2) Hd2D2 || "G"(G3F) (E2D2) | "C"(E2F2) (G3A) | "G"(v{Bc}B3G) "C"({G}c3B) |
+"Am"(B4 "D"{cB}A2)G2 || "G/B"(d3G) G2G2 | "C"(e3d) (c3B) | "Am"(A3E) "D7"{EG}F3D | "G"{D}G6 |]

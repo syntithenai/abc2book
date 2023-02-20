@@ -1,0 +1,50 @@
+
+X: 1
+T: Bukoviner chusid'l    [Gfr]
+R: khusidl
+S: Handwritten MS of unknown origin, in 2018 NEFFA Klezmer Jam handout.
+N: "II-6" at left of title;  "Archives" and "LL 103-10 Slavo" at lower left.
+L: 1/16
+M: 2/4
+K: =B_e_A	% G freygish
+"A"|:\
+"G"G4 "Fm"AGAF | "G"G2G2 "Fm"AGAF |\
+"G"G2A2 B2c2 | "G"dcBA "Fm"BAGF |\
+"G"G4 "Fm"AGAF | "G"G2G2 "Fm"AGAF |
+"Fm"=EFGA BcBA | "G"A2 G6 :|\
+"B"|:\
+"F"=A6 GF | "C7"G2G2 Gc_c_B |\
+"F"=A6 GF | "C7"=EFGE C2FG | "F"=A6 GF |
+"C"G2G2 GccB | "G"B4 "Fm"AGAF | "G"G8 :|\
+"C"|:\
+"G"[B8-G8] | [B8-G8] |\
+[B4-G4] [B4-G4] | [B4-G4] [B4G4] | "G"B2AB A2G2 |
+B2AB A2G2 | "G7"G2G2 BGBd | "Cm"c6 c2 |\
+"G"BcB2 "Fm"ABA2 | "G"GAG2 "Fm"F4 |\
+"Fm"=EFGA BcBA | "G"A2 G6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Bukoviner chusid'l    [Afr]
+R: khusidl
+S: Handwritten MS of unknown origin, in 2018 NEFFA Klezmer Jam handout.
+N: "II-6" at left of title;  "Archives" and "LL 103-10 Slavo" at lower left.
+L: 1/16
+M: 2/4
+K: _B^c	% A freygish
+"A"|:\
+"A"A4 "Gm"BABG | "A"A2A2 "Gm"BABG |\
+"A"A2B2 c2d2 | "A"edcB "Gm"cBAG |\
+"A"A4 "Gm"BABG | "A"A2A2 "Gm"BABG |
+"Gm"^FGAB cdcB | "A"B2 A6 :|\
+"B"|:\
+"G"=B6 AG | "D7"A2A2 Ad_d=c |\
+"G"=B6 AG | "D7"^FGAF D2GA | "G"=B6 AG |
+"D"A2A2 Addc | "A"c4 "Gm"BABG | "A"A8 :|\
+"C"|:\
+"A"[c8-A8] | [c8-A8] |\
+[c4-A4] [c4-A4] | [c4-A4] [c4A4] | "A"c2Bc B2A2 |
+c2Bc B2A2 | "A7"A2A2 cAce | "Dm"d6 d2 |\
+"A"cdc2 "Gm"BcB2 | "A"ABA2 "Gm"G4 |\
+"Gm"^FGAB cdcB | "A"B2 A6 :|

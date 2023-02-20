@@ -1,0 +1,69 @@
+
+X: 1
+T: Di Rayze Nukh Amerike
+O: Dave Tarras with the Abe Schwartz Orchestra 1929
+N: Arranged for contra dance by John Chambers
+M: 2/4
+L: 1/16
+P: Play AABBACDAB
+K: Dm
+%%staffsep 45
+P: A
+A,2 \
+|: "Dm"D2E2 F2G2 | A2B2 A2d2 | A8- | A6 A,2 | D2E2 F2G2 | "D7"A2c2 B2A2 | "Gm"G8- | G8 | "C7"G2d2 d2d2 | "F"cdcB A2G2 |
+| "B"F2B2 B2B2 | "A7"ABAG F2E2 | "Dm"D4 F2E2 | D2F2 A2d2 | A8- | A8 | "C7"G2d2 d2d2 | "F"cdcB A2G2 | "B"F2B2 B2B2 |
+| "A7"ABAG F2E2 | "Dm"D2F2 A2d2 | "A7"cBAG F2E2 |1 "Dm"D2DD D2D2 | D2cB AGFE :|2 "Dm"D8 | "F"z2c2 B2A2 |
+P: B
+|: "F"c2c2 c4 | z2c2 B2A2 | "Gm"G2G2 D4 | z2D2 G2B2 | "C7"d2 d4 d2 | dede d2e2 | "F"c8 |
+| z2c2 B2A2 | c2c2 c4 | z2 c2 B2A2 | "B"d2d2 d4 | z2d2 ^c2d2 | "F"f2>>A2 c2>>F2 | A2>>C2 F2A2 | "C7"G8 |1 "F"F2c2 B2A2 :|2 "F"F2AA "A7"A2A2 :|
+%%text Repeat A
+P: C
+M: 6/8
+|| "Dm"F2F F3- | FFF AGF | "A7"G2G G3- | GGG ED^C | "Dm"D2A ^G2A | D2E F2D | "A"EA,A, A,A,A, | AAA AAA |
+|  "Dm"F2F F3- | FFF AGF | "A7"G2G G3- | GGG ED^C | "Dm"D2^C D2E | "B"F2E F2G | "A7"AGF GFE | "Dm"D3/2(A,/=B,/^C/D3) ||
+P: D
+| "F"F2F FED | C3 F3 | "Dm"F2F FED | A,3 D3 | "F"A^GA F2A |A^GA F3 | AGF "F7"=E2E | "C7"=E3 z3 |
+| "F"F2A AGF | C3 F3 | "Dm"F2F FED | A,3 D3 | "F"CA,C F3 | FCF A3 | "C7" cBA GAG | "F"F3 "A7"G3 ||
+M: 2/4
+| "Dm"{A,=B,^C}D2z2 "(vamp)"z4 | "da Capo"z4 z4 |]
+
+
+X: 2
+%%wordsfont Helvetica 10
+W: Arrangement by John Chambers http://trillian.mit.edu/~jc/music/abc/Klezmer/
+K: C
+
+
+X: 3
+T: Di Rayze Nukh Amerike
+O: Dave Tarras with the Abe Schwartz Orchestra 1929
+N: Arranged for contra dance by John Chambers
+M: 2/4
+L: 1/16
+P: Play AABBACDAB
+K: Em
+%%staffsep 45
+P: A
+B,2 \
+|: "Em"E2F2 G2A2 | B2c2 B2e2 | B8- | B6 B,2 | E2F2 G2A2 | "E7"B2d2 c2B2 | "Am"A8- | A8 | "D7"A2e2 e2e2 | "G"dedc B2A2 |
+| "C"G2c2 c2c2 | "B7"BcBA G2F2 | "Em"E4 G2F2 | E2G2 B2e2 | B8- | B8 | "D7"A2e2 e2e2 | "G"dedc B2A2 | "C"G2c2 c2c2 |
+| "B7"BcBA G2F2 | "Em"E2G2 B2e2 | "B7"dcBA G2F2 |1 "Em"E2EE E2E2 | E2dc BAGF :|2 "Em"E8 | "G"z2d2 c2B2 |
+P: B
+|: "G"d2d2 d4 | z2d2 c2B2 | "Am"A2A2 E4 | z2E2 A2c2 | "D7"e2 e4 e2 | efef e2f2 | "G"d8 |
+| z2d2 c2B2 | d2d2 d4 | z2 d2 c2B2 | "C"e2e2 e4 | z2e2 ^d2e2 | "G"g2>>B2 d2>>G2 | B2>>D2 G2B2 | "D7"A8 |1 "G"G2d2 c2B2 :|2 "G"G2BB "B7"B2B2 :|
+%%text Repeat A
+P: C
+M: 6/8
+|| "Em"G2G G3- | GGG BAG | "B7"A2A A3- | AAA FE^D | "Em"E2B ^A2B | E2F G2E | "B"FB,B, B,B,B, | BBB BBB |
+|  "Em"G2G G3- | GGG BAG | "B7"A2A A3- | AAA FE^D | "Em"E2^D E2F | "C"G2F G2A | "B7"BAG AGF | "Em"E3/2(B,/^C/^D/E3) ||
+P: D
+| "G"G2G GFE | D3 G3 | "Em"G2G GFE | B,3 E3 | "G"B^AB G2B |B^AB G3 | BAG "G7"=F2F | "D7"=F3 z3 |
+| "G"G2B BAG | D3 G3 | "Em"G2G GFE | B,3 E3 | "G"DB,D G3 | GDG B3 | "D7" dcB ABA | "G"G3 "B7"A3 ||
+M: 2/4
+| "Em"{B,^C^D}E2z2 "(vamp)"z4 | "^da Capo"z4 z4 |]
+
+
+X: 4
+%%wordsfont Helvetica 10
+W: Arrangement by John Chambers http://trillian.mit.edu/~jc/music/abc/Klezmer/
+K: C

@@ -1,0 +1,35 @@
+X: 401
+T: Mr Fletchers Strathspey
+C: by Wm Christie
+R: strathspey
+N: This is version 2, for ABC software that understands voice overlays.
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c."
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+c |\
+B<G~G>c {Bc}d>cB<g | d<b c<a B<g A>c |\
+B<G~G>c {Bc}d>cB<g | d<b d>f Tg>agd ||\
+B<GG>c {Bc}d>cB<g |
+d<b c<a B<g A>c |\
+B>GA>F G>DE>C | B,<G D>F ~G2 G, |[| B |\
+GB/c/ (.d.B) G<g d<b | d>gb>g ~f>a (g/f/).e/.d/ |\
+(g/a/b) (.d.b) (.c.a) (.B.g) |
+A>fa>f Tg>agd ||\
+B<b.g.d A<a.f.d | D<d.B.G ~F>A (G/F/).E/.D/ |\
+B,<G C<A D<B E<c | B<D {B}A>F ~G2 G, |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+z2g2 g2g2 & G8 | [b2B2][a2A2] [g2G2][d2D2] | z2g2 g2g2 & G8 | d'2d2 g2B2 || z2g2 g2g2 & G8 |
+[b2B2][a2A2] [g2G2][f2F2] | [g2G2][d2D2] [B2B,2][c2C2] | d2D2 G2G |[| z |\
+G2g2 b2g2 | b2g2 d'2d2 | g2b2 a2g2 |
+d'2d2 g2G2 || g2b2 d'2d2 | g2G2 d2D2 | g2f2 g2c2 | d2D2 G2G |]
+% = = = = = = = = = =

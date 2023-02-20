@@ -1,0 +1,63 @@
+
+X: 1
+T: Obama's March to the White House
+C: Greg Canote 2007
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+P: Simplified version
+K: A
+c2e2 |\
+f4 e2c2 | B6 AB | c2c2 cBAG | F2E2 c2e2 | f4 e2c2 | B4 A2B2 | c4 c3d | c2B2 A2e2 |
+f4 e2c2 | B6 AB | c2c2 cBAG | F2E2 E2FG | A4 A3F | E2C2 B,2A,2 | A,4 A,3B, | A,4 :|
+E2A2 |\
+F6 F2 | E4 ABc2 | B4 [B4G4] | A4   E2FG | A4 A3F | E2C2 B,2A,2 | B,4 B,3C | B,2B,2 E2A2 |
+F4 F4 | E4 ABc2 | B4 [B4G4] | A2E2 E2FG | A4 A3F | E2C2 B,2A,2 | A,4 A,3B, | A,4 |]
+
+%%sep 1 1 500
+
+X: 2
+T: Obama's March to the White House
+C: Greg Canote 2007
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+P: Ornamented version
+K: A
+c2e2 |\
+{e}f4 e2{fe}c2 | [B4E4] B2{cB}A2{B}y | c2c2- cBAG | F2{GF}E2 c2{c}e2{c}y |\
+{e}f4 e2{fe}c2 | [B4E4] AB3 | c4 c3d | cABc A2e2 |
+{e}f4 fec2 | [B4E4] B2{cB}AB | c2cd cBAG | F2E2 E2FG |\
+A4 A2AF | E2C2 B,2{CB,}A,2{B,}y | [E4A,4] [E3A,3][EB,] | [E4A,4] :|
+E2A2 |\
+F6 F2 | E4 ABc2{A}y | B4- [B4G4] | A4 E2FG |\
+A4 A2AF | E2C2 B,2{CB,}A,2{C}y | B,4 B,2{A,}B,C | B,2{A,}B,2{C} A,2A2 |
+F4 F2AF | E4 ABc2{A}y | B4{c} d2{c}B2{c}y | A2E2 E2FG |\
+A4 A2AF | E2C2 B,2{CB,}A,2{B,}y | A,4 A,3B, | A,4 |]
+
+%%sep 1 1 500
+
+X: 3
+T: Obama's March to the White House
+C: Greg Canote 2007
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+F: http://info.therealschoolofmusic.com/Portals/13037/docs/ObamasMarch.pdf 2012-11-13
+F: http://www.mne.psu.edu/lamancusa/tunes/ObamasMarch.pdf
+F: http://www.youtube.com/watch?v=VlseV_lIhYs
+P: AEAC# Tuning
+M: C|
+L: 1/8
+K: A
+c2e2 |\
+ef3 (3efec2 | [B4E4] (3BcBAB |  c2c2- cBAG | (3FGFEE ccec |\
+f3e (3efec2 | B3B AB3 | c4 c3d | cABc A2ec |
+f3e fec2 | [B4E4] (3BcBAB | c2cd cBAG | F2E2 EEFG |\
+A3(A, A2)AF | E2C2 (3B,CB,A,B, | [E4A,4] [E3A,3][EB,] | [E4A,4] :|
+E2A2 |\
+F6 F2 | E4 ABcA | B4 G4 | A4 E2FG |\
+A3(A, A2)AF | E2C2 (3B,CB,A,C | B,4 B,A,B,C | B,A,B,B, A,2A2 |
+F2FE FGAF | ECA,C ABcA | B2Bc dcBc | A2E2 E2FG |\
+A3(A, A2)AF | E2C2 (3B,CB,A,B, | A,4 A,3B, | A,4 |]

@@ -1,0 +1,30 @@
+X: 1
+T: \vSano Du\vso  [A]
+T: Vranjanka
+N: (Lesnoto)
+O: Srbija
+R: lesnoto
+Z: 1998 John Chambers <jc:trillian.mit.edu>
+N: This song is traditionally sung in both waltz and lesnoto rhythms.
+M: 7/8
+L: 1/8
+K: A
+"^instr"\
+|: "Dm"[a=f][ge][=fd] "E"~[g2e2] [f/d/][e/c/][dB] | "A"[e2c2][dB] [ec][=fd] [ge][a=f] \
+|  "Dm"[a=f][ge][=fd] "E"~[g2e2] [f/d/][e/c/][dB] | "A"[e3c3] [e2c2] z2 :|
+"^verse"\
+|: "Dm"[a2=f][af] [a2f] [a2f] | "E"[g2e][=fd] [ec][fd] [ge][af] | "Dm"[g2e][=fd] [g2e] [f2d] | "A"[e3c] [e4c] :|
+w: 1.~\vSa-no du-\vso, \vSa-no mo-*ri,* ot-vo-ri mi vra-ta.
+w: 2.~No\'c li ho-di, div-no \vSa-*no,* ja si tu-ga vi-jem.
+w: 3.~Tvo-je li-ce be-lo, \vSa-*no,* sneg je za pla-ni-ne.
+w: 4.~On-na us-ta tvo-ja, \vSa-*no,* ka-ko ruj-ne zo-re.
+[| "D"[^f2d][fd] [f2d] [f2d] | [f2d][ec] [fd][ge] [a2f] | "E7"[e2c][fd] [e2c] [d2B] | "A"[c3A] [c4A] |]
+w: 1.~Ot-vo-ri mi, \vSa-no, vra-*ta, da ti dam du-ka-ta.
+w: 2.~U-ba-vi-nja tvo-ja, \vSa-*no, ne da mi da spi-jem.
+w: 3.~Tvo-je \'ce-lo gi-di, \vSa-*no, ka-ko me-se-\'ci-ne.
+w: 4.~On-no o-ko, du-\vso mo-*ja, me-ne me iz-go-re.
+"^chorus"\
+[| "A"[c2A][dB] [e2c] [dB][cA] | "Bm"[BG][B2G] [f4d] | "E7"[e2c][fd] [e2c] [d2B] | "A"[c3A] [c4A] |
+w:    Oj, le le le le le le le, iz-go-re za te-be,
+|  "A"[c2A][dB] [e2c] ([dB][cA]) | "Bm"[B3G] [f4d] | "E7"([e2c2][fd]) [e2c] [d2B] | "A"[c3A] [c4A] |]
+w:    Iz-go-re mi,* \vSa-no, sr-*ce za te-be.

@@ -1,0 +1,30 @@
+X: 76
+T: Miss Murphy
+C: Carolan
+%R: march, reel
+B: "The Hibernian Muse" p.47 #2
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Fixed missing beat between the strains.
+P: No. LXXVI.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+gf |\
+e2g2 d2g2 | c2g2 B2g2 | fedc B2d2 | cBTAG G2cB |\
+A2c2 G2c2 | F2d2 cBAG | FGA2 D2G2 | {F}E2TDC C2 |]| z2 |\
+(GAGF) E2C2 | EFG2 G2c2 |
+Bcd2 (dedc) | B2G2 G4 |\
+Tg2f2 Tg2f2 | efge dcB2 | a2a2 Tg2f2 | (fgfe) d2g2 |\
+{f}e2dc c'2c2 | f2a2 a2gf | edec {e}d2cB | c2c2 c2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+b2 |\
+c'4 b4 | a4 g4 | d2f2 g2B2 | c2d2 e2c2 |\
+f4 e4 | d4 g2G2 | d2c2 B2d2 | g2G2 c2 |]| z2 |\
+b2g2 c'2c2 |
+c'4c4 | g4 f2d2 | g2G2 G4 |\
+b2a2 b2e2 | c'2c2 g2G2 | f2d2 e2d2 | b2g2 b2g2 |\
+c'2c2 e2c2 | a2f2 d2g2 | c2e2 f2g2 | c2c'2 c2 |]

@@ -1,0 +1,22 @@
+X: 311
+T: Sila Kale Bal
+O: Serbia
+F: http://www.youtube.com/watch?v=gGUGJK9w544
+F: http://www.youtube.com/watch?v=wAHuPfddiO8
+F: http://www.youtube.com/watch?v=m81i87-u8HQ
+M: 7/8
+L: 1/8
+P: AB
+Q: 1/4=132
+K: Em
+P: A
+%%MIDI program 110
+%%MIDI gchord f2zfzfz
+|:"E" E2E/E/ E2 E2      | e/f/e6         |"B"dfe de cd      |"Bm"B3 B2 B2   |\
+  "A"A2A/A/ A2 A2       | c2A/A/ A2 A2   |"B"G2A B2 G2      |"E"E3 E2 E2    :|
+P:B
+%%MIDI program 65
+|:"E" E,2E,/E,/ E,2 E,2 |E3 FE3          |"D" DFE D2 C2     |"B"B,3 z4      |\
+  "A" C2C B,2 A,2       |"Bm" G,3 F,2 E,2|"F#m"F,2G, A,2 G,2|"F#m"F,3 F,2 z2|
+  "G"G,G,2"F#m" F,2 F,2 |"Em"E,3 E,2 E,2 |"D"DD2 "C"E2 C2   |"Bm"B,3 B,2 z2 |\
+  "D"DD2 D2 D2          |"Em"E3 "D"D2 z2 |"Bm"G,G,2 F,2 F,2 |"Em"E,3-E,4    :|

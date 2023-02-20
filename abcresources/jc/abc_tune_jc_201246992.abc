@@ -1,0 +1,45 @@
+
+X: 1
+T: Aneinu 1  [Bm]
+C: Yitzy Bald
+F: http://www.dovidgabay.net/gabay/images/Aneinu.pdf
+M: 4/4
+L: 1/16
+K: Bm
+"Intro"\
+[| "Bm"c3d- d4 c3d- d4 | "G"f2gd- d2eB- B8 | "A"B3c- c4 B3c- c4 | "G"d4 f4 "A"e3E ABc2 |
+"Bm"cd2d- d4 | cd2d- d3f | "G"f2gd- d2eB- B8 | "A"Bc2c- c4 "G"cd2B- B2AB- | "Bm"B12 z2 ||
+"A"\
+|: F2 |\
+"Bm"B,2F2 F3F F4 E3D | "A"E4 D2C2 "Bm"B,4- B,3F | "Em"E2B2 B3B B4 A2G2 | "Bm"F12 z3B |
+"G"d4 B4 "D"A6 DE | "Bm"F4 F4 "E"EDB,2- B,3-B, | "G"D3B, D3B, "Em"D2E2 "F#m"F2GE | "F#"F12 z2 :|
+"B"\
+|: F2 |\
+"F#m"A4 A3A A2B2 c2e2 | "Bm"d12 z3F | "F#m"A4 A2A2 A2B2 c2e2 | "G"d4 "A"cBce "Bm"d4- d3B |
+"Em"e4 d2e2 "Bm"d4- d3B | "Em"e2e2 f2e2 "Bm"d4 B2A2 | "G"B4 e2d2 "A"c4 B2A2 | "Bm"B12 z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+T: Aneinu 2  [C]
+M: 4/4
+L: 1/8
+K: C
+"A"|: "C"CC CD | "C"ED C2 | "C"G2 FE | "G7"D4 \
+"B":: "F"FF F2 | "C"EE E2 | "G7"DC DE |1 "C"CG FE :|2 "C"C2 z2 |]
+w: Slow*** | | | | Fast
+% %center Repeat the B part as many times as needed.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+T: Aneinu 2  [D]
+M: 4/4
+L: 1/8
+K: D
+"B"|: "D"DD DE | "D"FE D2 | "D"A2 GF | "A7"E4 \
+"C":: "G"GG G2 | "D"FF F2 | "A7"ED EF |1 "D"DA GF :|2 "D"D2 z2 |]
+w: Slow*** | | | | Fast
+% %center Repeat the B part as many times as needed.

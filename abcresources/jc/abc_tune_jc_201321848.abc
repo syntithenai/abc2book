@@ -1,0 +1,21 @@
+X: 954
+T: Paddy O'Rafferty
+R: jig
+%S: s:10 b:40(4+4+4+4+4+4+4+4+4+4)
+B: O'Neill's 1850 #954
+O: F.O'Neill
+Z: Dan G. Petersen, dangp@post6.tele.dk
+N: Should the 1st bar in the 3rd strain have ^c like bars 3 and 5? [JC]
+M: 6/8
+L: 1/8
+K: G
+|: GAB  DED | DcB AGE | GAB  DED | GAG GED |
+|  GAB  DED | DcB ABc | dcB  AGE | GAG GED :|
+|: DBB  DAA | DBB AGE | DBB  DAA | GAG GED |
+|  DBB  DAA | DBB ABc | dcB  AGE | GAG GED :|
+|: dcd  efg | ded dBG | d^cd efg | GAG GED |
+|  d^cd efg | ded def | gfe  dcB | GAG GED :|
+|: BDD  EDD | BGB AGE | BDD  EDD | GAG GED |
+|  BDD  EDD | BGB ABc | dcB  AGE | GAG GED :|
+|: B2G  A2G | B2G AGE | B2G  AGE | GAG GED |
+|  BGG  AGG | BGG ABc | dcB  AGE | GAG GED :|

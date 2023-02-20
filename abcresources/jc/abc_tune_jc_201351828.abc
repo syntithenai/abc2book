@@ -1,0 +1,16 @@
+X: 16
+T: When Sick Is It Tea You Want?
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #16
+R: double jig
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0016/oneill-1001-0016-1.abc
+M: 6/8
+L: 1/8
+K: D
+"^A"\
+|: Add dcB | ABA AFA | Add d2e | fdB B2 || A \
+|  Add dcB | ABA AFA | dfd ege | fdd d2 z :|
+"^B"\
+|: afd dcd | BGG G2g | bge ede | cAA A2 || A \
+|  Add dcB | ABA AFA | dfd ege | fdd d2 z :|

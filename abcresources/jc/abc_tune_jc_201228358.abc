@@ -1,0 +1,25 @@
+X: 11212
+T: COME O'ER THE STREAM CHARLIE.
+O: Jacobite air.
+Q: "Moderate."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.121 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Final rest added to fix the rhythm of repeats. Lengthening the initial pickup note would work as well.
+M: 3/4
+L: 1/4
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G/ |\
+G>Bd | dBe | dB{f}g | dBA |\
+G>Bd | dBG/E/ | DBA | G2 :|\
+d |\
+g>fg | e>fg |
+ea>g | fdd |\
+g>fg | (edc) | (BAG) | d2B |\
+c>dc | Bdg | d>BG | BAd |\
+g>fe | dge | dgf | g2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

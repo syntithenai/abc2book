@@ -1,0 +1,30 @@
+X: 1
+T: le Pouvoir de la Beaut\'e   [G/Gm]
+N: The book has a handwritten accent-grave over the final 'e', but that's bogus French.
+R: march
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755
+M: 2/4
+%V: 1 clef=treble middle=B
+%V: 2 clef=bass   middle=d
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+"G"G2G2 |\
+"C"A2Bc "D"B2A2 | "Em"G4 gfed | "C"ef"G"gd "Am"c2"G"B2 | "D"{B}A4 "G"G2G2 |\
+"C"A2Bc "D"B2A2 | "Em"G4 gfed | "C"efga "D"g2f2 | "G"Hg4 :|
+"G"B2B2 |\
+"D"A2A2 d2"Em"ed | "A"^c2A2 "D"f2gf | "E7"e2d2 "A"^cdec | "A"A4 "D"d2fd |\
+"A"^c2BA "D"d2fd | "A"^c2BA "G"B^c"D"dA | "G"B^cdG "A"F2E2 | "D"D4"_d.C."y|]
+P: Mineur
+K: Gm
+|:\
+"Gm"B2c2 |\
+"Bb"d4 "Cm"e2dc | "Bb"d4 "Gm"{e}d2cB | "C"A2"A7"G2 "D"^FGAF | "D"D4 "Gm"B2"F"c2 |\
+"Bb"d4 "Cm"e2dc | "Bb"d4 "Gm"{e}d2cB | "Cm"A2G2 "D7"A2^F2 | "Gm"HG4 :|
+"Bb"B2d2 |\
+"F"f4 "Eb"edcB | "F"A2F2 "Bb"Bcde | "Bb"fgab "F"d2c2 | "Bb"B4B2d2 | "F"f4 "Eb"edcB |\
+"F"A2F2 "Bb"Bbag | "Eb"edcB "F"F2A2 | "Bb"B4"_d.C."y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

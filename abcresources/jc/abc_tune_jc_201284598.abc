@@ -1,0 +1,25 @@
+X: 1
+T: the Happy Miller
+P: Longways for as many as will
+%R: march, reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.214
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The ":S:" symbol is an early "segno", meaning to repeat the last 4 bars.  (But the dance seems to require only 16 bars.)
+M: C|
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g |\
+g2 fe | d2 cB | cB AG | d2 cB |\
+e2 fg | f2 fg | a2 A2 | d2 cB |\
+A2 AB | c2 cd | ef ge | f3 "^:S:"f |\
+gf ed | dc Bc | d2 D2 | G6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man change places with the 2. wo. and the 1. wo. change places with the 2. man, then
+%% cross over into your own places and clap hands with your own Partners, then lead up above and
+%% cast off.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

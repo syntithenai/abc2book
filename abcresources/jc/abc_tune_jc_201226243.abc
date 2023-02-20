@@ -1,0 +1,27 @@
+X: 10171
+T: CALEDONIAN HUNT'S MARCH
+Q: "Pompously."
+%R: march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.17 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Moved the rest in bar 8 to after the repeat, to fix the rhythms.
+N: The first g in bar 12 should probably also be staccato.
+M: C
+L: 1/16
+K: C
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G3G |\
+{E}c4G3G {E}c4G3G | c3cd3d e8 |\
+d3de3d c4A3A | B3Bc3c d8 |\
+{E}c4G3G {E}c4G3G | c3cd3d e8 |\
+d3de3f g6c2 | e4Td3c c4 :|
+|: z4 |\
+~e3fg4 ~e3fg4 | a3b c'3a g4e4 |\
+e3fg4 e3fg3e | (fa)g.f (eg).f.e (e4d4) |\
+e3fg4 e3fg4 | a3b c'3a (g4e4) |\
+g8- g3fe3d | c4TB4 c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

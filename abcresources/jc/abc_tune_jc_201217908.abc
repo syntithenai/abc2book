@@ -1,0 +1,59 @@
+%%text RJ Set 000 Barbour Fee Salon
+
+X: 1
+T: Barbour's Cordial + F\'ee de Dents + Gigue de Salon
+K:
+
+
+X: 2
+T: Barbour's Cordial
+C: Keith Murphy (Black Isle Music III)
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dm
+|: "Dm"D2A, DEF | "A7"GFE "Dm"DFA \
+|  "Bb"d2d dcA | "Am"c3 cAc \
+|  "Bb"dfe dcA | "F"cAG F3 |\
+[1 "Gm"B2d "(F)"c2A | "C"G3 GFE :|\
+[2 "Gm"GBA "A7"GFE | "Dm"D3 "(A7)"DAe |]
+|: "Dm"f2d "(Am)"ecA | "Dm"f2d "(Am)"ecA \
+|  "Dm"f2d "(Am)"edc | "Dm"A3 ABc \
+| "Bb"d2B "Am(F)"c2A | "Gm"B2G "F"A2F |\
+[1 "Gm"G2B "(Dm)"AGF | "A7"E3 EAe :|\
+[2 "Gm"GBA "A7"GFE | "Dm"HD2A, "(A7)"DFE |]
+
+
+X: 3
+T: La F\'ee des Dents
+C: Andr\'e Brunet
+R: jig
+M: 6/8
+L: 1/8
+K: G
+|:\
+"G"B2D- DGA | Bdc BAG | "Am" c2 E- EFG | "D7" FAG FED |\
+"G" B3 DGA | "Em" Bdc Bgf | "C"egd- dcB | "D7"AGF "G"G3 :|
+|:\
+"C6"~e3 edB | ced dBc | "Bm" d2 B- BAG | Bdc BAG |\
+"C"e2c efg | "D7"afd- dcB | "C"ced cBA | "D7"AGF "G"G3 :|
+
+
+X: 4
+T: Gigue Du Salon
+T: Living Room Jig
+C: Pascal Gemme (2013)
+%D:2013
+S: handout at Roaring Jelly practice 2022-5-24
+R: jig
+M: 6/8
+L: 1/8
+K: A
+"^A"\
+|: "A"EAB c2e | "D"d2e "A"cBA | "Bm"BcA [1,3 B2A | BcA "E7"GFE :|[2,4 BAF | "E7"EFG "A"A2A :|
+"^B"\
+|: "A"e2e cBA |    efe    cBA | "Bm"BcA B2A |     BcA "E7"GFE |
+|1 "A"e2e cBA |    efe    cBA | "Bm"BcA BAF | "E7"EFG  "A"A2A :|
+|2 "A"EAB c2e | "D"d2e "A"cBA | "Bm"BcA BAF | "E7"EFG  "A"A2A |]
+

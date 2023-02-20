@@ -1,0 +1,25 @@
+X: 10421
+T: BEGONE DULL CARE
+%R: jig
+B: "Edinburgh Repository of Music" v.1 p.42
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 arranged for a wider 8-bar staff.
+V: 1 clef=treble
+A |\
+d3 e3 | f3 z2g | aba gfg | f3 z2A |\
+d3 e3 | f2z zgg | fgf ede | d3 z2 :|
+|: f/g/ |\
+a2a a2f | g2g g2e | f2f fed | {f}e2z zAA |\
+d3 e3 | f3 z2g | fgf ede | d3 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=treble
+A |\
+F3 A3 | d3 z2e | fgf ede | d3 z2A | F3 A3 |
+d2z zee | ded AAG | F3 z2 :||: d/e/ | f2f f2d | e2e e2c |
+d2d d2F | A2z zAG | F3 A3 | d3 z2e | ABA GFG | F3 z2 :|

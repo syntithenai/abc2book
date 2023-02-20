@@ -1,0 +1,29 @@
+X: 10402
+T: MARTINI'S MINUET
+%R: minuet, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.40 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d3fe2 | e3gf2 | d2e2f2 | .g2.e2z2 |\
+gfedcB | A4Bc | dgf2Te2 | d6 :|\
+|:\
+a2abag | f2fdfa | g2g3f | fedcBA |
+d2(d/c/d/e/)f2 | B2(B/A/B/c/)d2 | efgefd | cdecBA |\
+d3fe2 | e3gf2 | d2e2f2 | .g2.e2z2 |\
+gfedcB | A4BTc | dgf2Te2 | Hd6 :|
+|:\
+(FA.d).d.d.d | (GB.e).e.e.e | (FAd3d) | {f}e2dcBA |\
+(FA.d).d.d.d | (GB.e).e.e.e | FAd2Tc2 | d6 :|\
+|:\
+A4Bc | d4fd | A4GF | FEE4 |
+A4Bc | d4fd | Aaag(gf) | Tf2e2z2 |\
+(FA.d).d.d.d | (GB.e).e.e.e | FAd3f | {f}e2dcBA |\
+(FA.d).d.d.d | (GB.e).e.e.e | FAd2Tc2 | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

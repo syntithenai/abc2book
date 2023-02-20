@@ -1,0 +1,27 @@
+X: 1
+T: New Roger
+T: Don Boin
+%R: slip-jig, triple hornpipe
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (156)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 9/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: F>GA BAB d3 | e2E E2F GFE | F>GA BAA B3 | AFD DEF E2D :|
+|: d>ef/e/ d>ef/d/ e3 | gBB Bcd ecA | dAF F/G/AF B3 | AFD DEF E2D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. lead thro the 2d Cu. and cast up then cast off
+%% and lead thro the 3d Cu. and cast up again then the 1st Man
+%% turn the 3d Wo. and the 1st Wo. turn the 2d Man then turn
+%% Partners then the whole Figure of Eight at the Top and
+%% the whole Figure of Eight at the Bottom which brings you
+%% in the 2d Cu. Place then cross over and the Wo. go
+%% between the Top Cu. and the Man at the Bottom then sett
+%% and turn your Partner.
+%%endtext
+%%sep 1 8 500

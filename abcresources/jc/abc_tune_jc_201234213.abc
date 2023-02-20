@@ -1,0 +1,21 @@
+X: 20343
+T: WALTZ
+C: M. P. King.
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.34 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+d>cd>ef>g | a2(a2f2) | b2(b2g2) | a2(a2f2) |\
+d>cd>ef>g | a2(a2f2) | efgedc | "^Fin."d4 H:|\
+|: f2 |\
+e2a2a2 | f2d2d2 | e2a2a2 | f4f2 |
+e2a2a2 | f2d2d2 | efgedc | d4 :|\
+|: A2 |\
+F>EF>GA>B | A2F2F2 | G2E2E2 | F2A2d2 |\
+F>EF>GA>B | A2F2F2 | EDEFGE | "^D.C."D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

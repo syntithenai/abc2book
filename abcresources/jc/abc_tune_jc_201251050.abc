@@ -1,0 +1,15 @@
+X:41
+T:Bayswater Breakdown
+C:Colin Hume, 1980
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=116
+%%MIDI program 40
+%%MIDI bassprog 32
+%%MIDI chordprog 105
+K:A
+P:A
+|: [=cg] | "A"[^ca][ca] "/"ee | "D"f/e/d/f/ "A"eA/B/ | "F#m"cc "B7"BA | "E"e/^d/e/f/ "E7"e[=cg] | "A"[^ca][ca] "/"ee | "D"f/e/d/f/ "A"eA/B/ | "A"c/^B/c/e/ "F#m"c/=B/A/G/ | F "E7"G "A"A :|
+P:B
+|: c/d/ | "A"e/A/f/A/ "/"e/A/a/A/ | "D"g/A/f/A/ "A"ec/B/ | "D"A/D/B/D/ "/"A/D/F/D/ | "E7"B/D/c/D/ "/"Bc/d/ | "A"e/A/f/A/ "/"e/A/a/A/ | "D"g/A/f/A/ "A"eA/B/ | "A"c/^B/c/e/ "F#m"c/=B/A/G/ | F "E7"G "A"A :|

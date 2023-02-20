@@ -1,0 +1,101 @@
+X:278
+T:Gilbert and Sullivan Reels
+T:The Ruler of the Queen's Navee (H.M.S. Pinafore)
+%%subtitlefont Times-Roman 20
+L:1/4
+M:2/2
+Q:1/2=110
+%%MIDI chordname dim 0 3 6 9
+K:A
+V:1
+|:E | "A"AA AA | "/"GG GG | "Adim"FF F/^E/F/G/ | "E7/A"FE E3/E/ | "A"AA AA | "Am"GG GG | "B7"FF B/c/B/A/ | "E"GE E3/E/ |
+"A"cA AE | "/"AE EE | "D"F/F/F/F/ F/A/G/F/ | "A"EC CE |\
+"A"cA AE | "/"AE EE | "D"F/A/G/F/ "E7"G/B/A/G/ |1 "A"AA, A, :|2 "A"AA, A,2 |]
+V:2
+X32 | x |
+N:Replace by blank line and X field
+T:Climbing over rocky mountains (The Pirates of Penzance)
+%%titlefont Times-Roman 20
+%%writefields Q 0
+L:1/4
+M:2/2
+Q:1/2=110
+K:A
+V:1
+"A"EE E/^D/E/F/ | "/"Ec BA | "A"EE E/^D/E/F/ | "/"Ec BA | "Bm/A"FF F/^E/F/G/ | "/"Fd cB | "E7"e4 | "/"E4 |
+"A"EE E/^D/E/F/ | "/"Ec BA | "C#m"GG G/^^F/G/A/ | "C#m"Ge ^dc | "B7"BB B/c/B/c/ | "E7"Be "F#7"EF | "E/B"G2 "B7"F2 | "E"E4 |
+"B7"BB B/^A/B/c/ | "E"BG EB, | "B7"BB B/^A/B/c/ | "E"BG EB, | "A"ee ^dc | "E"B^A "B7"B^D | "E"E4 & E2=D2 | "E7"E4 & C2B,2 |
+"A"EE E/^D/E/F/ | "/"Ec BA | "A7"AA A/^G/A/B/ | "D"Af ed | "A"cA EA | "/"cA eE | "E7"c3 B | "A"A3 |]
+V:2
+X31 | x3 |
+N:Replace by blank line and X field
+T:The Soldiers of our Queen (Patience)
+%%titlefont Times-Roman 20
+%%writefields Q 0
+L:1/4
+M:2/2
+Q:1/2=110
+V:1
+K:D
+|: A | "D"d3/d/ dd | "/"d3 d | "A7"cB AG | "D"FA zA | "D"[df]3/[df]/ [df][df] | "D"[df]2- "Bm"[df][df] | "A"[ce][Bd] "E7"[Ac][^GB] | "A"[Ac]A zA |
+"A7"BA Bc | "D"BA zA | "A7"BA Bc | "D"BA zA | "Bb7"d3/d/ dd | "F"=c2 "Gm"_B2 | "D/A"Ad "A7"^ce | "D"dD z :|
+V:2
+X32 |
+N:Replace by blank line and X field
+T:So please you, sir, we much regret (The Mikado)
+%%titlefont Times-Roman 20
+%%writefields Q 0
+%%scale 0.7
+L:1/4
+M:2/2
+Q:1/2=110
+V:1
+K:G
+d | "G"d/d/d/d/ dd | "/"gd BB | "D7"BA BA | "G"G3 d | "G"d/d/d/d/ dd | "/"gd BB | "A7"BA BA | "D"d3 d |
+"A7"d^c cB | "D"BA AA | "Gm"=c3/_B/ BB | "D"_B3/A/ AD | "Em/D"ED ED | "Em"Ez "A7"Az | "D"D4 & DD D/D/D/D/ | "D7"z3 d & DD D/D/D/D/ |
+"G"g2 e2 | "D7"c3 B | "D7"c/d/e c/d/e | "G"d^c dd | "G"g2 e2 | "Em"^c3 ^B | "F#7"^c/d/e c/d/e | "Bm"d^c Bd |
+V:2
+K:G
+x | X16 |
+DD D/D/D/D/ | DD D/D/D/D/ | DD D/D/D/D/ | DD D/D/D/D/ | DD D/D/D/D/ | EE E/E/E/E/ | FF F/F/F/F/ | BF B,z |
+V:1
+"G"[Bg]2 [Be]2 | "D7"[Ac]3 [^GB] | "D7"[Ac]/[Bd]/[ce] [Ac]/[Bd]/[ce] | "G"[Bd][^A^c] [Bd]G |\
+"G7"G/A/G/A/ GG | "C"Ge- ee | "D"Ld "^BREAK"z z2 | "D"Ld "^BREAK"z zD |
+V:2
+DD D/D/D/D/ | DD D/D/D/D/ | DD D/D/D/D/ | D^C DG | G/A/G/A/ GG | Ge- ee | d/d/d/d/ d/d/d/d/ | d/d/d/d/ dd |
+V:2
+N:Replace by blank line and X field
+T:The Captain of the Pinafore (H.M.S. Pinafore)
+%%titlefont Times-Roman 20
+%%writefields Q 0
+%%scale 0.7
+L:1/4
+M:2/2
+Q:1/2=110
+%%MIDI chordname dim 0 3 6 9
+K:G
+V:1
+"G"GB "D7"B/A/G/F/ | "G"GB "D7"B/A/G/F/ | "G"G/A/B/c/ "D7"BA | "G"G3 G |\
+"C"c/c/c/c/ "G"BB | "Gdim"^A/A/A/A/ "G"BB | "D"AG/F/ "A7"EA | "D"D3 D |
+"C"E/E/E/E/ "Am"EE | "B"F/F/F/F/ "B7"FB, | "Em"G/G/G/G/ "A7"GF/G/ | "D"A3D |\
+"G"B/B/B/B/ "A7"^c3/c/ | "D"d/d/d/d/ "E7"D3/D/ | "D/A"A/A/G/F/ "A7"EA | "D"D3 D |
+"A7/D"^C/A/-A- AA | "D"A/D/-D- DD | "A7/D"^C/A/-A- A2 | "A7/E"A,4- |\
+"A7/E"A,2 A3/A/ | "D/F#"A/d/-d- dD | "D7"D/E/F/G/ "^BREAK" A [^GB] | "D7"[Ac]3 [^A^c] |
+"G"[Bd][Be] [Bd][Be] | "/"[Bd][Be] [Bd][Be] | "D7"[Ad]A A/c/B/A/ | "G"BG G3/d/ |\
+"G"[Gd][Be][Gd][Be] | "/"[Gd][Be][Gd]Lg | "G"d/B/e/d/ "D7"cA | "G"G3 z/ |]
+V:2
+g4- | g2 z2 | "^Unison"X30 |
+N:Replace by blank line and X field
+T:Hornpipe (Ruddigore)
+%%titlefont Times-Roman 20
+%%writefields Q 0
+%%scale 0.7
+L:1/4
+M:2/2
+Q:1/2=110
+V:1
+K:C
+|: (3G/4A/4B/4 | "C"cg e/f/e/d/ | "/"cC Cc/B/ | "Dm"Ad/e/ f/e/d/c/ | "G7"BG G3/ (3G/4A/4B/4 |\
+"C"cg e/f/e/d/ | "/"cC Cc/B/ | "Dm"Ad/c/ "G7"B/d/G/B/ | "C"cG cG/A/ |
+"C"_B/A/B/A/ B/d/c/B/ | "F"Ac FA/=B/ | "D"c/B/c/B/ c/e/d/c/ | "G"Bd Gz/(3g/4a/4b/4 |\
+"C"c'/b/c'/g/ "F"a/g/f/a/ | "C"g/f/e/g/ "G"f/e/d/f/ | "C"e/c/"G/D"f/d/ "C/E"g/e/"F"a/f/ | "G7"Td"C"c "C"c3/ :|

@@ -1,0 +1,26 @@
+X: 4387
+T: "BLUE DANUBE" WALTZ
+C: Strauss
+R: Waltz
+%R: waltz
+B: James Kerr "Merry Melodies" v.4 p.42 #387
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: It's not clear whether the downbeat is in the 1st or 2nd measure.
+N: The rhythms of repeats aren't quite right; not fixed.
+M: 3/4
+L: 1/4
+K: G
+(G,B,D) | Dzd | dzB | BzG, | (G,B,D) | Dzd | dzc | czF  |\
+(FAc) | cze | ezc | czF  | (FAc)   | cze | ezB | BzG, |
+(G,B,D) | Gzg | gzd | dzG, | (G,B,D) | Gzg | gze | ezA  |\
+(Ace) | e3- | e^cd | b3- | bgB | (B2A) | e2d | Gz/G/G |\
+z H|]
+|: gf |\
+fee | ze^d | ^dee | zAA | (B2A) | zAA | (e2d) | zgf |\
+fee | zef | agg | z^ce | (e2d) | (^c>BG/E/) | B/B/BA |[1 D :|[2 D"_D.C."zz |]
+[K:D] A |\
+GzA | GzA | f3- | feA | FzA | FzA | e3- | edA |\
+GzA | GzA | f3- | feA | def | (a2g) | f/f/fe | dz H:|
+[K:=f=c][K:Gm] |: d |\
+d3- | ded | cBA | G3 | czc | cG>F | Fdf | edc |\
+d3- | ded | cBA | G3 | ^FzF | zGB |[1 Add | ddd :|[2 AAA | A"_D.C."A |]

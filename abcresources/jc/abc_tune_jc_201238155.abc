@@ -1,0 +1,25 @@
+X: 302	% 84
+T: Run Johnny Run
+T: Chapel Hill Serenade
+T: Green Willes [?]
+N: Alternate titles in pencil
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.30 #2
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The repeat indications are a bit odd, and the rhythms don't work at the boundaries. Not fixed.
+M: 6/8
+L: 1/8
+K: G
+V: 1 name="84"
+|:\
+DGG GGB | GGG GGB | ADD DFG | ADD DEF |\
+GGG GGB | GGG GGB | ADD DEF | G3- G2 :|
+|: (B/c/) |\
+ddB ddB | GGG G2(c/d/) | eee eec | AAA A2(B/c/) |\
+ddB ddB | GGG G2B | ADD DEF | G3 G3 ||
+[K:D]\
+Add ddf | ddd ddf | eAA ABc | eAA ABc |\
+ddd ddf | ddd ddf | eAA ABc | d3 d2 ||
+(f/g/) |\
+aaf aaf | ddd d2(g/a/) | bbg bbg | eee e2(f/g/) |\
+aaf aaf | ddd d2f | eAA ABc | d3 d3 :|

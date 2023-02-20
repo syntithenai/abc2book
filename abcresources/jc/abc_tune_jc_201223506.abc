@@ -1,0 +1,29 @@
+X: 072
+T: MISS JESSY CUMING
+C: R. MACKINTOSH
+R: Strathspey
+B: Glen Collection p.7 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: D
+%
+V: 1
+d |\
+A>F D<d A>F D<B | A>F G/F/E/D/ Ee- ef/g/ | a<f g<e f<d e<c | d>B A<F A<d d :|
+g |\
+f<a d<a c<a A<a | f<a d<f ge- ef/g/ | f<a d<a c<a A<g | f<d f/e/d/c/ d<D- Dg |
+f<a d<a c<a A<a | f<a d<f ge- ef/g/ | f<d e<c d<B A<F | G>B A<F D<d- d |]
+%
+V: 2
+z |\
+d2[a2f2] [a2f2][a2f2] | [d'2a2f2][d'2a2f2] [c'2a2][c'2a2] |\
+[d'2a2f2][e'2c'2a2] [f'2d'2a2][g'2e'2a2] | d2[d'2a2f2] [d'2a2f2][daf] :|
+z |\
+d2[f'2d'2a2] [g'2e'2a2][g'2c'2a2] | [f'2d'2a2][f'2d'2a2] [e'2c'2a2][e'2c'2a2] |\
+d2[d'2a2f2] [c'2a2e2][c'2a2e2] | [d'2a2f2][c'2a2g2] d2[a2f2d2] |
+d2[f'2d'2a2] [g'2e'2a2][g'2c'2a2] | [f'2d'2a2][f'2d'2a2] [e'2c'2a2][e'2c'2a2] |\
+[d'2a2d2][c'2a2e2] [d'2a2f2][d'2a2d2] | A2[c'2a2g2] d2[d'af] |]

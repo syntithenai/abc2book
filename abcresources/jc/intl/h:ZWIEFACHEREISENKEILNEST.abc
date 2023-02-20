@@ -1,0 +1,18 @@
+X: 68
+T: Zwiefacher Eisenkeilnest
+O: Germany
+M: 3/4
+L: 1/8
+Q: 1/4=192
+K: Eb
+%%MIDI program 66
+%%MIDI bassprog 57
+%%MIDI chordprog 20
+|:[M:2/4]"Eb"z2B,2|EDEF              |\
+  GFGA            |[M:3/4]"Bb"BzBABc |
+  B2 zB AB        |[M:2/4]c2 B2      |\
+  "Ab"A2 G2       | [M:3/4]GFFEFG    |
+  "Bb"F2z4        | "Eb"B2G2E2       |\
+  [M:2/4]"Bb"F2z2 | [M:3/4]"Eb"B2G2E2|
+  "Bb"F2z2B,2     |[M:2/4]"Eb"EDEF   |\
+  GFGA            | [M:3/4]"Bb"BBBAGF|"Eb"E4z2 :|

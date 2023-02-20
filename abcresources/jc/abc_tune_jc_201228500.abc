@@ -1,0 +1,20 @@
+X: 1131
+T: Mary Gray.   a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.1 p.13 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: It's really in D mixolydian, not  D major.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+B/c/ |\
+dGBG c=FA2 | dGBd gdTB2 | dGBG c=FAB/c/ | dcTBA G2[GG,] :| B | DD=FA cFA2 | GGBd gdTB2 |
+DD=FA cFAc | dcTBA G3B || DD=FA cATA2 | GGBd gdTB2 | .D.D.D.E =FGAc dBcA G2G |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | g2g2 =f2f2 | g2g2 g2g2 | g2g2 =f2f2 | g2d2 G2G :| z | d2d2 =f2f2 | g2g2 g2g2 |
+d2d2 =f2f2 | g2d2 G2G2 || d2d2 =f2f2 | g2g2 g2g2 | d2d2 =f2f2 | g2d2 G2G |]

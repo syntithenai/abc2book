@@ -1,0 +1,85 @@
+
+X: 0
+T: Reels for St. Patrick's Day 2020
+K:
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Father Kelly's Reel
+%T: Father Kelley's Reel
+T: The Rossmore Jetty
+C: Father PJ (Patrick Joseph) Kelly 1976
+%D:1976
+N: Father Patrick Joseph Kelly, 1925/9/16 - 2006/?/?
+O: Ireland
+Z: John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: G
+GA \
+| "G"B2GB "C"AGEG | "D7"DGGF "G"GABd | "Am"c2AB cBAG | "D7"FGAG FDDA |  "G"B2GB "C"AGEG |
+| "D7"DGGF "G"GABd | "C"cdef "(G)"gedc | "D7"BGAF "G"G2 :: Bc | "G"d2Bd gdBd | d2Bd gdBd |
+| "C(Am)"e2ce agfe | "D7"defg agfe |  "G"d2Bd gdBd | d2Bd gdBd | "Am"cBAc "G"BAGB | "D7"AGFA "G"G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Musical Priest   [Bm]
+T: The Broom of the Cowden Knowes
+P: (32-bar version)
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bm
+|: BA | "Bm"FB~B2 BABd | "A"cBAf    ecBA | "Bm"FB~B2 BABd | "A"cBAc "Bm"B2 :|
+|: Bc |  "D"d2dc  dfed | "A"c{B}AeA fAeA | "Bm"dcBc  defb | "A"afec "Bm"B2 :|
+|: Bc | "Bm"dB~B2 bafb | "A"afec    ABce | "Bm"dB~B2 bafb | "A"afec "Bm"B2 ||
+y  Bc | "Bm"dB~B2 bafb | "A"afec    ABce |  "G"dcBc  defb | "A"afec "Bm"B2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Tam Lin   [Am]
+T: The Howling Wind
+T: The Glasgow Reel
+C: Davey Arthur
+O: 1989?
+S: Elke Baker's version
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+(F |\
+"Am"~E2) AE cEAE | "F"~F2 AF cFAF | "G"~G2 BG dGBd | "Am"cBAG "G"AGED || "Am"~E2 AE cEAE |
+"F"~F2 AF cFAF | "G"~G2 BG dGBd | "G"cBAG "Am"A3 :: (^g | "Am"a)ged c2A(^g | "Am"a)ged c2A(^f |
+"G"~g2)dg Bgd(^f | ~g2)dg Bgd(^g || "Am"a)ged c2A(^g | a)ged c2AG | "F"FEFG AGAB | "G"cBAG "Am"A3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The King of the Fairies
+R: march, hornpipe
+%T: King William or Orange
+%T: Bonny Charlie
+O: Ireland, Scotland
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS by John Chambers (1970s)
+M: 2/4
+L: 1/16
+K: Edor
+B,2 |\
+"Em"EDEF GFGA | B2B2 G3A | "Em"B2E2 EFGE | "D"FGFE "(Bm)"D2B,2 |\
+"Em"EDEF GFGA | BAGB "D"d3=c | "Em"B2E2 "D"GFED | "Em"E6 :|
+d2 |\
+"Em"e2e2 "Bm"Bdef | "Em"gagf e3f | "Em"e2B2 BABc | "D"dedc "(Bm)"BcdB |\
+"Em"e2B2 "Bm"Bdef | "Em"gagf efed | "Em"Bdeg "D"fedf | "Em"e6 ||
+ef |\
+"G"g3e "D"f3d | "G"edBc "D"d3e | "D"dBAF "G"GABc | "D"dBAF GFED |\
+"Em"B,2E2 EFGA | B2e2 edef | e2B2 "D"BAGF | "Em"E6 |]

@@ -1,0 +1,8 @@
+X: 1
+T: TEST: ABC2WIN ! at end of line.
+%%staffwidth 200
+K: C
+[| CDE FGA |!
+Bcd efg |]
+W:[| CDE FGA |!
+W:Bcd efg |]

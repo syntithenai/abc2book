@@ -1,0 +1,53 @@
+X: 330
+T: the Scholar
+B: O'Neill's "Waifs and Strays" #330 p.171
+R: hornpipe
+%S: s:8 b:26(6+6+6+6)
+S: John Kelly, San Francisco
+M: 4/4
+L: 1/8
+K: D
+% = = = = = = = = = =
+V: 1 staves=2
+(3ABc |\
+(df)af (gf)eg | (fd)AG (FG)Ac | BGBG E2 (ef) | (gfe)c dcBA || defa (g2 fg) | ecAG (FG)Ac |
+BGBG E2 ef | gfec d2 :: A2 | dfaf dfaf | db (3bbb bagf | gfed cded | cded cABc ||
+dfaf dfaf | db (3bbb bagf | gfef gbag | (3fga ec d2 :: fa | (3aaa fd Adfa | (3aaa fa bafa |
+(3ggg ec A2 (eg) | (3ggg eg bafa || (3aaa (fd) Adfa | (3aaa (fa) bafa | gfef (gb)ag | (3fga (ec) d2 :|
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+Z: 2022 John Chambers <jc:trillian.mit.edu> [V:2]
+V:2 clef=bass middle=d
+z2 |\
+[d2D2][d'2f2] e2[c'2a2] | d2[a2f2] A2[a2f2] |\
+G2[b2g2] a2[c'2a2] | e2[c'2a2] [g2G2][b2g2] ||\
+[d2D2][d'2f2] e2[c'2a2] | d2[a2f2] A2[a2f2] |
+G2[b2g2] a2[c'2a2] | e2[c'2a2] [d'2d2] :: z2 |\
+[d2D2][d'2f2] A2[d'2f2] | G2[b2g2] d2[b2g2] |\
+A2[c'2a2] e2[c'2a2] | A2[c'2a2] e2[c'2a2] ||
+[d2D2][d'2f2] A2[d'2f2] | G2[b2g2] d2[b2g2] |\
+A2[c'2a2] e2[c'2a2] | A2[c'2a2] [d'2d2]  :: z2 |\
+[d2D2][a2f2] d2[a2f2] | [d2D2][a2f2] d2[a2f2] |
+A2[c'2a2] e2[c'2a2] | A2[c'2a2] e2[c'2a2] ||\
+[d2D2][a2f2] d2[a2f2] | [d2D2][a2f2] d2[a2f2] |\
+a2[c'2a2] e2[c'2a2] | a2[c'2a2] [d'2d2] :|
+% = = = = = = = = = =
+%%begintext align
+%% Long before I had any idea of publishing a work of this character,
+%% the fame of John Kelly, and Joseph P. Tamony, as phenomenal
+%% fiddlers, had reached Chicago. The measured score of their tunes,
+%% for which I am indebted to our mutual friend Francis E. Walsh of
+%% San Francisco, is incapable of doing justice to the spirit and
+%% excellence of their execution, for all gifted Irish musicians
+%% instinctively embellish their performance with peculiar trills, turns
+%% and graces, more easily recognized than described.
+%%endtext
+%%begintext align
+%%    "The Scholar" was first printed in Levey's Dance Music of
+%% Ireland, Vol.1, London 1858; and not since then until the publication
+%% of the O'Neill Collections in recent years. The tune seems to have=
+%% been a favorite with fiddlers and pipers of Longford, Leitrim and
+%% Roscommon, as early as the second quarter of the 19th Century;
+%% and, by the way, our talented contributor Mr Kelly hails from the
+%% latter county.
+%%endtext

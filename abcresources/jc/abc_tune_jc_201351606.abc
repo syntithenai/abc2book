@@ -1,0 +1,25 @@
+X: 1
+T: Wha'll be King but Charley   [Am]
+T: Se'n' Riogh a'tha aguin is fear linn.
+C:
+O:
+S: email from Darlene Wigton 2022007010
+R: jig
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am	% and C
+% = = = = = = = = = =
+V: 1 staves=2
+"^A1"[|] E |\
+"Am"c2B c2d | e2f e2d | c2B c2d | "Em"e3 E3 ||\
+"Am"c2d e2a | "G"g2e d2e | "Am"c2A "Em"AGE | "Am"A3 A2 |]
+"^A2"|[| B |\
+"Am"c2c c2d | "C"e2e "G/B"e2d | "Am"c2c c2d | "Em"e3 E2B ||\
+"Am"c2d e2a | "G"g2e d2e | "Am"c2A "Em"AGE | "Am"A3 A2 |]
+"^B1"|[| B |\
+"Am"c2A AGE | c2A AGE | c2A AGE | "G"G3 G2B ||\
+"Am"c2d e2a | "G"g2e d2e | "Am"c2A "Em"AGE | "Am"A3 A2 |]
+"^B2"|[| B |\
+"Am"c2A AGE | c2A AGE | "C"edc "G"dcB | "Am"cBA "Em"GFE ||\
+"Am"c2d e2a | "G"g2e d2e | "Am"c2A "Em"AGE | "Am"A3 A2 |]

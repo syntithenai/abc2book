@@ -1,0 +1,43 @@
+X:1702
+T:Keppoch's Rant
+%
+P:Glen Grant
+C:Charles Grant
+R:Strathspey (8x32)
+B:RSCDS 17-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:A
+% %scl 0.84
+E/D/|"A"C>E A>E "D"F>E "A"C>E|C>E A>c "D"d/c/B/A/ F>A|\
+     "A"C>E A>E "D"F>E "A"C>E|"Bm"[FD]>D "E7"[BD]>G "A"[A2C2][AC] E/D/|
+     "A"C>E A>E "D"F>E "A"C>E|C>E A>c "D"d/c/B/A/ F>A|\
+     "A"C>E A>E "D"F>E "A"C>E|"Bm"[FD]>D "E7"[BD]>G "A"[A2C2][AC]||
+c/d/|"A"e>A c>e "D"d/c/B/A/ F>f|"A"e>A c>e "D"f/e/f/g/ "D7"a>f|\
+     "A"e>A c>e "F#m"A<c "D"F>A|"E"G<B E>G "A"A2 A>f|
+     "A"e>A c>e "D"d/c/B/A/ F>f|"A"e>A c>e "D"f/e/f/g/ "D7"a>f|\
+     "A"e>a e/d/c/B/ "D"A>c F>A|"E"G<B E>G "A"A2 A|]
+%
+P: Miss Campbell of Saddell's Strathspey
+C: R.Mackintosh
+R: strathspey
+B: RSCDS 17-2(II)
+M: 4/4
+L: 1/16
+C: Robert Mackintosh
+B: RSCDS Coronation Book
+Z: Nigel Gatherer <gatherer@argonet.co.uk> 1997
+Z: Chords by John Chambers <jc:trillian.mit.edu> 2004
+M: 4/4
+L: 1/8
+K: Bb
+d/c/ \
+| "Bb"B>d d>c "Gm"BA B2 | "Cm"Ge/d/ c>B "F7"A<F F>c \
+| "Bb"d>e "D7"d>c "Gm"B>A "Bb"B>F | "Eb"G>E "F7"C>F "Bb"D<B, B, :|
+B/c/ \
+| "Bb"d>B "Cm"g>e "F7"cd/e/ "Bb"f>d | "Gm"B>G "Cm"e/d/c/B/ "F7"A<F F>B \
+| "Eb"G>E c>E "F7"FG/A/ "Bb"B>D | "Cm"EF/G/ "F7"F>E "Bb"DB, B, ||
+B/c/ \
+| "Bb"d<B "Cm"g>e "F7"c<A "Bb"f>d | "Gm"B<G "C7"c>B "F7"A<F F>B \
+| "Eb"G<E g>e "Bb"f>A "Gm"B>F | "Eb"G>E "F7"C>F "Bb"D<B, B, |]

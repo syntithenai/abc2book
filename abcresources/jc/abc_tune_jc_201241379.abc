@@ -1,0 +1,26 @@
+X: 4333
+T: Morag
+O: a very old Gallic Air
+%R: air, strathspey
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.33 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Very Slow"
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 9,8-bar lines, for compactness and proofreading.
+V: 1 staves=2 clef=treble
+"_with Expr.n"f |\
+d>cAG TF2G>A | B>GA>F D3 f | d>cAG TF2GA | ~B>G A>F [D3A,3F,3] f |\
+d>cAG TF2G>A | {A}B>GA>F D3 f |\
+d>cAG TF2GA | ~B>G A>F [D3A,3F,3] |: A | d>ef>g (eA) (.A.A) |
+(df)ed {d}^c>=B A>A | ~d>e~f>g (fe) (.e.e) | d>cAA {A}~f3g | {g}a>gfe ~d>efd |\
+{d}c>B AG TF2G>A | ~B>GA>F [D3A,3F,3] !p!f | d>cAG TF2GA | {A}B>GA>F [D3A,3F,3] :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d3e f2ef | g2a2 d2Dz | d>efg a2ba | g2aA d3z | d3e f2ef | g2a2 d2Dz |
+d>efg a2ba | g2aA d3 |: z | d2d'2 a2a2 | d'2_b2 a3g | fed2 A2A2 | D2d2
+d>Ade | f2a2 b2b2 | [af3]b c'[^c'e] [d'2d2]ba | g2a2 d2!p!D2 | d>efg a2ba | g2a2 d3 :|

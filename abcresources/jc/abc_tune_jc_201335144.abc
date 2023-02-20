@@ -1,0 +1,33 @@
+X: 1
+T: Se Rasplakal Star Bel Dedo
+R: kopanica
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+D: "ayde Mori" Muammer Ketenco\uglu, Brenna MacCrimmon, Sumru A\ugiry\"ur\"uyen, Cevdet Erek
+D: https://www.youtube.com/watch?v=Cp7hHOI6b5Q
+N: Various recordings have different instrument parts for CDEF, or none at all.
+L: 1/8
+M: 11/8
+P: AB AB AB CDEF AB
+K: _E^F	% D hijaz
+P: Instr.
+"A"|:\
+"D"~D2CB, A,B,C ~D2DA, | D2GF "Cm"EDC "D"~D2DA, |\
+   ~D2CB, A,B,C ~D2DA, | DA,FA, "Cm"EDC "D"~D2Dz :|
+P: Vocal.
+"B"|:\
+"D"C2D2 (D2E) "Gm"(FG3) | "Cm"GAGF E3 "D"F3z ::\
+"Cm"G2F2 (ED2) E4 | "D"F2EF "Cm"(ED2) "D"D3z |]
+P: Instr.
+"C"[|] "D"A4-A3-A4 | D4-D3-D4 |:\
+"D"c_BAG ~A2D FGAD | c_BAG ~A2D FGAD |\
+"D"c_BAG ~A2D FGAD | FAGF "Cm"EDC "D"~D2Dz :|
+"D"|:\
+"Cm"(B,C)CG, CG,A GFEA | GFED (DE)C "D"~D2DA, |\
+"Cm"(B,C)CG, CG,A GFEA | GFED (DE)C "D"~D2Dz :|
+"E"[|] "(G)"d4-d3-d4 | "G"G4-G3-G4 |:\
+"G"dcBA ~B2G "D"~A2AG | "G"dcBA ~B2G "D"~A2AG |\
+"G"dcBA ~B2G "D"~A2AG | "Gm"GA_BG (AB)G "D"~A2Az :|
+"F"|:\
+"Gm"(A_B)BB B2d ^cBAG | "Cm"(FG)GG G2_B AGFE |\
+"Cm"(DE)EE E2A GFEA | "Cm"GFED (DE)C "D"~D2Dz :|
+%%text https://www.youtube.com/watch?v=Cp7hHOI6b5Q

@@ -1,0 +1,29 @@
+X: 30793
+T: COTILLION No. 1. FANNY JONES' SETT tune 6
+%R: reel, march
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.79 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: It's not obvious why the d notes have natural signs.
+M: 2/4
+L: 1/16
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+B2 |\
+e3B g3e | b4 bagf | e2e2 fe=de | f3=d B2B2 |\
+e3B g3B | b4 bagf | e3e f3=d | e2e2e2 H|]
+e2 |\
+f4 a4 | agfg e2e2 | =d2e2f2g2 | f4 z2B2 |\
+f4 a4 | c'8 | c'bba aggf | f4 "^D.C."e2 |]
+e2 |\
+eBgf eBge | fBag fBaf | g2g2 agfe | b6 B2 |\
+edgf eBge | fBag fBaf | g2g2 f[ge]fg | (f4 "^D.C."e2) |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 chassa across partners and back,
+%% forward and back 4,
+%% balance and turn partners.
+%% Side couples the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

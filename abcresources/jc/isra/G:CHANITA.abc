@@ -1,0 +1,18 @@
+X: 47
+T: Chanita
+O: Israel
+C: Ami Gilad 1971
+F: http://www.youtube.com/watch?v=fIQ3_jOs60c
+M: 2/4
+L: 1/16
+K: Eb
+Q:1/4=160
+%%MIDI program 21 % Accordian
+%%MIDI bassprog 32 % Acoustic Bass
+%%MIDI gchord ff
+"Ab"A4 z4           |A4 z4        |\
+"Bb"B3A "Eb"G2E2    |[1 E2=E2 G4  :|[2 E2=E2 E4|:\
+"Eb"GAB2- B2B2      |=B2A2 _B4    |
+B3A G2B2            |"Ab"A2=E2 _E4|\
+"Eb"GAB2- B2B2      |=B2A2 _B4    |\
+"Ddim"_d3c "Bb"B2=A2|B8           :|

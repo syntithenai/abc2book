@@ -1,0 +1,33 @@
+X: 99
+T: Kismei Shaul
+C: Nadav Medina 1982
+O: Israel
+F: http://www.youtube.com/watch?v=Rq0-K9LU1IQ
+F: http://www.youtube.com/watch?v=LTLsoUmRUxM
+F: http://www.youtube.com/watch?v=lNhAz6U0My8
+M: 2/4
+L: 1/8
+K: Dm
+Q: 1/4=160
+%%MIDI program 66 Tenor Sax
+%%MIDI chordprog 24 Acoustic Guitar (nylon)
+%%MIDI bassprog 32 Acoustic Bass
+%%MIDI gchord g2f2
+| "Am"A4  |"Dm"d4   |"Am"cB2A  |"Bb"B4 |\
+  "Gm"G4  |"Am"c4   |BA2G      |A4     |
+  A4      |d4       |^c2d2     |e4     |\
+  e3f     |gffe     |ed2^c     |"Dm"d4 |
+| "Am"A,4 |"Dm"D4   |"Am"CB,2A,|"Bb"B,4|\
+  "Gm"G,4 |"Am"C4   |B,A,2G,   |A,4    |
+  A,4     |D4       |^C2D2     |E4     |\
+  E3F     |GFFE     |ED2^C     |"Dm"D4 |
+|:"Dm"D3E |F2F2     |FEFG      |"Am"E4 |\
+  zE2D    |^C2A,2   |EDEF      |"Dm"D4 :|
+  "Am"zCFG|A2A2     |A2GF      |"Gm"G4 |\
+  zGFG    |"Am"ABc2 |BAA2-     |A4     |
+  "Gm"zCFG|"Am"A2A2 |A2GF      |"Gm"G4 |\
+  zGFG    |"Am"ABc2-|c3B       |A4     |z4|
+  A2A2    |"Gm"B2G2 |"Am"A2B2  |c4     |\
+  A3B     |c2d2     |e2c2      |"Dm"d4 |
+  "Am"A2A2|"Gm"B2G2 |"Am"A2B2  |c4     |\
+  A3B     |c2d2     |edc2      |"Dm"d4 |

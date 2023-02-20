@@ -1,0 +1,38 @@
+X: 1053
+T: the Hermitage
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+N: The c pickup for the 2nd phrase's bass is a bit odd, since the harmony is a G chord; d is better.
+N: Added "editorial" sharp to bass g note in bar 10.
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c |\
+B>AB GAB | cGF EFG | cGF DEF | GFG Cdc |\
+B>AB GAB | cGE AFD | GEA DG^F | G3- G2 :|
+|: d/c/ |\
+Bcd GAB | cde ^GEB | cBA BA^G | A3- A2c/B/ |\
+cGE AFD | GEG AFA | BAB GAB | c3- c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+c |\
+g3- g2f | e2d c3 | zgf def | gfg c2c |\
+g3- g2f | e3 f3 | e2c d3 | G2A B2 :|
+|: c |\
+g3 zzg | cBA e2"^#"g | a2c d2e | A2a/_b/ agf |\
+e3 f3 | e3 f3 | g3 G3 | c2d e2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+First Man take the 2d Wo. by the Right Hand and lead between the 2d Man
+and 1st Wo. cast off in their Places, and turn the 1st Cu. run the figure between the 2d
+turn your own, 1st Man standing in his own Place, 1st Man and 2d Wo cross
+and go round. 1st Man round his Wo. in his own Place & 2d Wo. round her Man
+in her Place. Hands half round, 2d Man cross over with 1st Wo. then turn their own & cast off.
+%%endtext

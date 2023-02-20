@@ -1,0 +1,20 @@
+X: 21414
+T: 'TWAS WHEN THE SEAS WERE ROARING
+O: Old ballad air.
+Q: "Slow."
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.141 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Added dot to final G in each strain, to fix the rhythm.
+M: 2/4
+L: 1/16
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+dc |\
+B2G2 G2FG | B4 c2Bc | d2B2 c2BG | F4 d2c2 |\
+B2G2 G2FG | B2B2 c2Bc | d2B2 cBG2 | G6 |]
+de |\
+f2d2 d2cB | c2c2 d2Bc | d2G2 (GF)(DE) | F4 B2A2 |\
+G2G2 G2FG | B4 c2Bc | d3B cBG2 | G6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

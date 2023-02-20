@@ -1,0 +1,16 @@
+X: 911
+T: Spellan the Fiddler
+R: hornpipe
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #911
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0911/oneill-1001-0911-1.abc
+M: C|
+L: 1/8
+K: G
+(3DEF \
+| G>DB>G d>Bg>d | b>g (3ded c>BA>G | .F(d^cd) .A(dcd) | d>ce>d c>AF>D ||
+| G>DB>G d>Bg>d | b>g (3ded c>BA>G | f>ec>A e>dB>G | FA (3DEF G2 :|
+|: g2 \
+| b>gd>B G>Bd>g | a>fc>A F>Ac>f | a>gb>a c'>ba>g | f>ed>c B>AG>F ||
+| G>DB>G d>Bg>d | b>g (3ded c>BA>G | f>ec>A e>dB>G | FA (3DEF G2 :|

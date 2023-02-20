@@ -1,0 +1,20 @@
+X: 1786
+T: Woods' Lamentation
+T: ucill-\'cu\'ma \'mic-coillte
+R: lament, hornpipe, "long dance"
+%S: s:5 b:20(4+4+4+4+4)
+S: 1786 O'Neill's Music of Ireland
+B: O'Neill's 1850 #1786
+O: F.O'Neill
+Z: Robert Thorpe (thorpe@skep.com)
+Z: ABCMUS 1.0
+M: 2/4
+L: 1/16
+K: G
+(GA) \
+| BcBA B2g2 | dcBd B2(AG) | ded^c d2(gf) | e^deg A2(gf) |
+| edcB dcBA | cBAG A2GE   | GFGA  BGdB   | A^GAB =G2   :|
+|: d2 \
+| e^def  g2G2 | gabg e3d  | B2d2   efgf | ed^ce d2(Bd) |
+| efga   gfef | gabg e3d  | BABc   dcde | fdef  g2(ef) |
+| g2(eg) edeg | dBde dcBA | G2(ge) dgdB | A^GAB =G2   :|

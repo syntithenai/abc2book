@@ -1,0 +1,15 @@
+X: 1677
+T: Julia's Wedding
+R: hornpipe
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #1677
+O: F.O'Neill
+M: 4/4
+L: 1/8
+K: G
+d>c \
+| B>Gc>G B>GA>F | {A}G>FG>A B>de>f | {a}g>fg>e d>BA>c | B>GA>F G>DE>F |
+| G2B>G  A>GE>F | {A}G>FG>A B>de>f | {a}g>fg>e d>BG>B | A>DE>F G2 :|
+|: B>c \
+| d>BG>B e>cA>c | {a}g>fg>a g>dB>d | b>ag>b a>gf>a | g>fg>e d>cB>c |
+| d>BG>B e>cA>c | {a}g>fg>a g>dB>d | b>ag>b a>gf>a | f>de>f g2 :|

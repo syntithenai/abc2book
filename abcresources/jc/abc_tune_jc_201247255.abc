@@ -1,0 +1,18 @@
+X: 1
+T: Annie Shaw's tune
+O: from Sally Sloane
+R: waltz
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: https://sallysloane.wordpress.com/tunes/annie-shaws-tune/
+N: The source copy has a final repeat symbol, but no matching begin-repeat symbol.
+M: 3/4
+L: 1/8
+K: D
+%%continueall
+|: "D"f6- | f2 e2 zd | A6 | z2 d2 f2 | a3za2 | a2 b3f | a6 | "A7"g6 ||
+[1 "Em"B6- | B2 e2 f2 | "D"A6- | A2 (3ege d2 | "A"c2 e2 d2 | c2 B2 A2 | "Em"B6 | "A"A6 :|
+[2 "Em"B6- | B2 g2 f2 | "D"A6- | A2 e2 d2 | "A"c2 B2 A2 | "Em"B4 c2 | "D"d6- | d4 ze |]|
+   "D"f2 ff f2 | "A"e2 a4 | "D"f2 ff f2 | "A"e2 a4 | "D"f3 f f2 | "A7"g4 e2 | "D"d6 | "A7"c2 B2 A2 ||
+   "D"f2 ff f2 | "A"e2 a4 | "D"f2 zfff | "A7"e2 b4 | "D"a2 f2 g2 | f4 e2 | d6- | d4 (3BcB |]|
+   "D"A6 | "Em"B6 | "A7"c2 B2 c2 | "D"d6 | "A7"g6 | "D"f6 | "A7"e2 B3 d | c4 (3BcB ||
+   "D"A6 | "Em"B6 | "A7"c2 B2 c2 | "D"d4 f2 | "A"e4 e2 | "Em"B4 A2 | "A7"(c2 B2 c2) | "D"d6 |]

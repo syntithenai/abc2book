@@ -1,0 +1,17 @@
+X:1
+T: Barb's Piano
+C: David A. Kaynor \251 2014
+%D:2014
+M: 6/8
+L: 1/8
+R: jig
+K: G
+"^A"|: D |\
+"G"G2G "D"AGA | "G"Bd2 d2c | BAG "D"A2F | "G"G3 G2D |\
+"G"G2G "D"AGA | "G"B2d "C"edc | "G"BAG "Em"GAB |1 "Am"A3 "D"A2 :|2 "Am"A2d "D"def ||
+"^B1"[|\
+"G"g2d Bcd | "Am"e2c ABc | "G"dBG "Em"GAB | "Am"A3 "D"def |\
+"G"g2d Bcd | "Am"e2c ABc | "G"dBG "Em"GAB | "Am"ABc "D"def |]
+"^B2"[|\
+"G"g2d Bcd | "Am"ecA ABc | "G"dBG GAB | "Am"AFD "D"DEF |\
+"G"G2G "D"AGA | "G"Bd2 "C"d2c | "G"BAG "D"A2F | "G"G3 G2|]

@@ -1,0 +1,22 @@
+X: 2373
+T: the Swallow.  a Reel
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.2 p.37 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+A |\
+(F/E/D) (F/E/D) d2dg | Tf2df eE-EA |\
+(F/E/D) (F/E/D) d2-dg | faef dDD :| g |\
+fdfg aeeg | fdgf eEEg |
+fdfg aeeg | fdec dDDg |\
+fdfg aeeg | fdgf eEEg |\
+fdfg abag | fdec dDD |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | d2d2 d2d2 | d2d2 e2e2 | d2d2 f2g2 | a2A2 d2d :| z |
+d'2d'2 c'2c'2 | b2b2 a2a2 | d'2d'2 c'2c'2 | d'2a2 d2d2 |\
+d'2d'2 c'2c'2 | b2b2 a2a2 | d'2d'2 c'2c'2 | d'2a2 d2d |]

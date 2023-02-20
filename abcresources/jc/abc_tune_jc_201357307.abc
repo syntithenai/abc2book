@@ -1,0 +1,42 @@
+%%scale 1.3
+X:1
+T:Feliz Navidad
+C:Jose Feliciano, 1970
+M:4/4
+L:1/4
+K:D
+%%titlefont Times-Bold 14
+%%gchordfont Helvetica-Bold 12.0
+%%partsfont Times-Roman 11.0
+%%vocalfont Times-Bold 13.0
+%%wordsfont Times-Roman 12.0
+%%StrTabFont Times-Bold 14.0
+%%stretchstaff yes
+|A d c/2d/2|:"Em"B4-|"A7"B3/2 B/2 e d/2B/2
+w:Fe-liz Na-vi-dad,_ Fe-liz Na-vi-
+|"D"A4-|A3/2 A/2 d c/2d/2|"Em"B3/2 G/2 B B
+w:dad,_ Fe-liz Na-vi-dad, Pros-pe-ro
+|"A7"A/2A/2B/2A/2 G G|1 "D"F4-|F3/2 A/2 d c/2d/2:|2 "D"F4||
+w:a-no y fe-li-ci-dad,_ Fe-liz Na-vi- dad.
+|"D"f/2f/2f/2f/2 e3/2 d/2|"G"d B B d
+w:I want to wish you a Mer-ry Christ-mas,
+|"A7"e e/2e/2 e d/2B/2|"D"B A ^G A
+w:with lots of pres-ents to make you hap-py.
+|f/2f/2f/2f/2 e3/2 d|"G"d B B/2B/2e/2d/2
+w:I want to wish you a mer-ry Christ-mas from the
+|"A7"c c d e|(3"D"e/2f/2e/2 "G"d3
+w:bot-tom of my heart.___
+|"D"f f/2f/2 f e/2d/2|"G"d B ^A B
+w:I want to wish you a Mer-ry Christ-mas,
+|"A7"e e/2e/2 e d/2B/2|"D"B A ^G A
+w:with mis-tle-toe and_ lots of cheer._
+|f f/2f/2 f/2e/2 d|"G"d B B e/2d/2
+w:with lots of laugh-ter through-out the years from the
+|"A7"c c d e|(3"D"e/2f/2e/2 "G"d3-
+w:bot-tom of my heart.____
+|"D"d3/2 A/2 d c/2d/2|"Em7"B4-|"A7"B3/2 B/2 e d/2B/2
+w:_ Fe-liz Na-vi-dad_ Fe-liz Na-vi-
+|"D"A4-|A3/2 A/2 d c/2d/2|"Em"B3/2 G/2 B B
+w:dad._ Fe-liz Na-vi-dad. Pros-pe-ro
+|"A7"A/2A/2B/2A/2 G G|"D"F4-|F||
+w:a-no y fi-li-ci-dad._

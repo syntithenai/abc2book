@@ -1,0 +1,178 @@
+
+X: 0
+T: Who'll Be King But Charlie variations
+K:
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 1
+T: Wha'll Be King But Charlie
+O:Cape Breton version
+S:Sandy MacIntyre
+R:Jig
+M:6/8
+L:1/8
+K:Am
+B |\
+c2(uB A)GE | c2(uB A)GE | c2(uE E)DE | G3 GAB |\
+c2d e2a | age ded | c2(uA A)GE | A3 A2 :|
+|: B |\
+c2A c2d | eag ue2ud | c2Ac2d | e3 (uGAB) |\
+c2d e2a | age ded | c2(uA A)GE | A3 A2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2
+T: Wha'll be King but Charley
+T: Se'n' Riogh a'tha aguin is fear linn.
+C:
+O:
+S: email from Darlene Wigton 2022007010
+R: jig
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am	% and C
+% = = = = = = = = = =
+V: 1 staves=2
+"^A1"[|] E |\
+T[c2E2]B c2d | e2f {f}e2d | T[c2E2]B c2d | {cd}e3 E3 |\
+Tc2d e2a | {a}g2e {c}d2e | {B}Tc2A AGE | [A3E3C3] [A2E2C2] |]
+"^A2"[| B |\
+[c2E2][cE] [c2E2]d | [e2c2][ec] [e2c2]d | [c2E2][cE] [c2E2]d | {cd}e3 E2B |\
+Tc2d e2a | {a}g2e {c}d2e | {B}Tc2A AGE | [A3E3C3] [A2E2C2] |]
+"^B1"[| B |\
+{B}Tc2A AGE | {B}Tc2A AGE | {B}Tc2A AGE | G3 TG2B |\
+Tc2d e2a | {a}g2e {c}d2e | {B}Tc2A AGE | [A3E3C3] [A2E2C2] |]
+"^B2"[| B |\
+{B}Tc2A AGE | {B}Tc2A AGE | edc dcB | cBA GFE |\
+Tc2d e2a | {a}g2e {c}d2e | {B}Tc2A AGE | [A3E3C3] [A2E2C2] |]
+% = = = = = = = = = =
+V: 2 clef=bass middle=d
+   z | c3 c'3 | c3 c'3 | c3 c'3 | c6 | e2d c3 | c'3 b2c' | e'3e3 | a3 A2 ||
+|| z | c3 c'3 | c3 c'3 | c3 c'3 | c6 | a2b c'2d' |e'2c' b2^g | a2f e3 | [a3-A3-] [a2A2] |]
+[| z | A3 a3 | A3 a3 | A3 a3 | c3 c'2z | e2d c3 | c'3 b2c' | e'3 e3 | a3 [a2A2] ||
+|| z | A3 a3 | A3 a3 | A3 B3 | c3 c'3 | a2b c'2d' | e'2c' b2^g | e3 E3 | [a3-A3-] [a2A2] |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 3
+T: Wha'll be King but Charlie?
+C:
+R:Jig
+K:D
+M:6/8
+L:1/16
+|: F2 |\
+d4c2 d4e2 | f4g2 f4e2 | d2d2c2 d4e2 | f6 F4F2 |\
+d4e2 f4b2 | a4f2 e4f2 | d4B2 B2A2F2 | B6 B4c2 ||
+d4B2 B2A2F2 | d4B2 B2A2F2 | d4B2 B2A2F2 | A6 A4c2 |\
+d4e2 f4b2 | a4f2 e4f2 | d4B2 B2A2F2 | B6 B4 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 4
+T: Wha'll be King but Charlie?
+%C:
+%D:1745
+R: Jig
+S: Bruce Shawyer 2011-3-1
+M: 6/8
+L: 1/16
+K: D
+|: F2 |\
+d4c2 d4e2   | f4g2 f4e2   | d2d2c2 d4e2 | f6 F4F2 |\
+d4e2 f4b2   | a4f2 e4f2   | d4B2 B2A2F2 | B6 B4c2 ||
+d4B2 B2A2F2 | d4B2 B2A2F2 | d4B2 B2A2F2 | A6 A4c2 |\
+d4e2 f4b2   | a4f2 e4f2   | d4B2 B2A2F2 | B6 B4 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 5
+T: What'll Be King But Charlie
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:jig
+K:Am
+|:\
+"Am"c2B AGE | c2B AGE | c2E EDE | "G"G3 GAB ||\
+"C"c2d e2a | age ded | c2A "G"BAG | "Am"A3 A2B :|
+|:\
+"C"c3 c2d | eag e2d | c2A c2d | ez2 "G"G2A ||\
+"C"c2d e2a | "G"age ded | "C"c2A "G"BAG | "Am"A3 A2B :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 6
+T: Who'll be King But Charlie
+T: Behind the Bush in the Garden
+T: Royal Charlie
+S: O'Neill's
+M: 6/8
+L: 1/8
+K: C
+B |\
+c2A AGE | c2A AGE | G2G GAE | G3 E2B |
+c2d e2a | g2e d2e | c2A BAG | A3 A2 :|
+|: B |\
+c2B c2d | efe e2d | c2B c2d | e3 G2G |
+|[1 c2B c2d | efe e2d | cBA BAG | A3 A2 :|
+|[2 c2d e2a | g2e d2e | c2A BAG | A3 A2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 7
+T: Who'll be King but Charlie.
+B:The Penguin Book of Canadian Folk Songs.
+S:
+M:6/8
+L:1/8
+K:F
+(D2E) [| F2D DCA, | F2D DCA, |
+w:Come *round the hea-ther, Come o'er the hea-ther, You're
+C2D F2A, | C3 C2D | F2G A2d |
+w:wel-come late and ear-ly, A-round him fling your
+c2A G2A | F2D (ED)C | D3 D3 |[|
+w:roy-al king, For who'll be king *but Char-lie.
+F2D F2G | A2^c A3 | F2F G2G |
+w:Char-lie likes to kiss the girls, Char-lie likes the
+A3 A,2z | F2G A2d | c2A G2A |
+w:bran-dy, Char-lie likes to kiss the girls When
+F2 D (ED) C | D3 D2 E |]
+w:e-ver they *come han-dy. Come
+% W:Chorus.
+% W:Come round the heather,
+% W:Come o'er the heather,
+% W:You're  welcome late and early.
+% W:Around him fling your royal king,
+% W:For who'll be king but Charlie?
+% W:
+% W:Charlie likes to kiss the girls,
+% W:Charlie likes the brandy,
+% W:Charlie likes to kiss the girls
+% W:Whenever they come handy.
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 8
+T: Who'll be King But Charlie
+T: Behind the Bush in the Garden
+T: Royal Charlie
+M:6/8
+L:1/8
+S:O'Neill's
+K:C
+B|c2A AGE|c2A AGE|G2G GAE|G3 E2B|
+c2d e2a|g2e d2e|c2 A BAG|A3 A2:|
+B|c2B c2d|efe e2d|c2B c2d|e3 G2G|[1 c2B c2d|efe e2d|\
+cBA BAG|A3 A2:|[2 c2d e2a|g2e d2e|c2 A BAG|A3 A2||
+

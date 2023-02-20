@@ -1,0 +1,42 @@
+X: 1
+T: Christmass Cheer
+T: Christmas Cheer
+P: Longways for as many as will
+%R: waltz
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.147 #202 (194)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.295 "C c 3"
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+N: The last note of bar 10 is a in CCDM1 and g in DMDfD. Neither sounds wrong.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+(df)d | (^cA)^c | (df)d | ^c2A | (df)d | (eg)e | (fa)^c | d2e |\
+(fa)f | (gb)[ag] | (ab)a | g2a | (ba)g |(ac)f | (ga)e | f2 :|
+|: c |\
+(Ac)A | (Gc)G | (Ac)A | G2c | Acf | def | efd | ^c2a |\
+fad | ^cAa | fad | ^c2a | fad | ^cAd | d>e^c | d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Note, Each Strain is to be play'd twice over.
+%%begintext align
+%% The 1st Cu. sett and cast off, and take both Hands, 1st Man turn his Partner
+%% up the Middle, the 2d Cu. sett and turn round S. and stand still, the 1st Cu.
+%% sett and do the same; then the 1st Man follow his Partner quite round,
+%% then all four fall back, then meet, turn your Backs and clap Hands, then
+%% turn your Faces and clap Hands, then all four take Hands and turn
+%% quite round.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% The first cu. set and cast off, and takes both hands and turns her up in the middle, the second cu. set
+%% and turns round single and stands still, the first cu. set and do the same: Then the first man follows his
+%% Partner quite round, then all four fall back, then all four meet and turn your backs and clap hands, then
+%% turn your Faces and clap hands, take all four hands and turn quite round. Each Strain twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

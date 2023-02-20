@@ -1,0 +1,44 @@
+X: 1
+T: Leaving Lerwick Harbour
+C: Willie Hunter (1970)
+%D:1970
+R: air
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+S: PDF of unknown origin found on google drive dated 2020-12-05
+N: "Parts Private Tunebook" at bottom center
+N: Endings adjusted to fix repeats
+N: pickup notes attached to following phrase to get (slightly) more compact score.
+M: C
+L: 1/8
+Q: 1/4=80
+K: Bb
+% - - - - - - - - - -
+V: 1 staves=3	% Formatted to fit in a small "landscape" window
+"^A"[|]FG/A/ |\
+"Bb"B3d/c/ "Gm"B3F | "Eb"G2B2 "Bb"F3D | "Cm"{ED}E3F/G/ "Bb"F2D2 | "F"C6 FG/A/ |\
+"Bb"B3d/c/ "Gm"B3F | "Eb"G2B2 "Bb"F2D2 | "Cm"E2C2 "F"F2D2 |[1 "Bb"B,6 :|[2 "Bb"B,6 ||
+"^B"[|] d>e |\
+"Bb"f3d "Gm"B3F | "Eb"G2B2 "Cm"e3g | "Bb"{fg}f3d/B/ "Gm7"F2D2 | "Cm"C6 d>e |\
+"Bb"f3d "Gm"B3F | "Eb"G2B2 "Cm"E2g2 | "F"f3F "F7"d2c2 | "Bb"B6 ||
+d>e |\
+"Bb"f3d "Gm"B3F | "Eb"G2B2 "Cm"e3g | "Bb"{fg}f3d/B/ "Gm7"F2D2 | "Cm"C6 FG/A/ |\
+"Bb"B3d/c/ "Gm"B3F | "Eb"G2B2 "Bb"F2D2 |["Back" "Cm"E2C2 "F"F2D2 | "Bb"B,6 :|["Out" "Cm"E2C2 "F"F2A2 | "Bb"B6 :|
+% - - - - - - - - - -
+V: 2	% preserves the staff layout of the source page
+"^A"[|]DE |\
+F2BA G2D2 | E2GE D2B,2 | G2E2 D2B,2 | A,3B, C2DE |
+F2BA G2D2 | E2GE D2B,2 | C2G,2 A,2B,C |[1 D3E D2 :|[2 D4 G,2 ||
+"^B"[|]B,2 |\
+B2F2 GFED | E2G2 c2e2 | d2B2 D2B,2 | E2FG Acf2 | d2B2 GBGA | B2G2 E2D2 |
+C4 B2G2 | F2E2 D2 || B,2 | B2F2 GFED | E2G2 c2e2 | d2B2 D2B,2 | E2FG Acf2 |
+F2BA G2D2 | E2GE D2B,2 |["Back" C2G,2 A,2B,C | D6 :|["Out" C2G,2 C2F2 | [B6D6] |]
+% - - - - - - - - - -
+V: 3 clef=treble-8	% also preserves the source's staff layout
+"^A"[|]z2 |\
+B6 d2 | B4 F4 | c4 B2D2 | F4 A4 |\
+B6 d2 | B4 F4 | g2e2 c2A2 |[1 B6 :|[2 B6- ||
+"^B"[|]B2 |\
+d6 B2 | e4 c4 | B4 D2B,2 | E4 C2F2 | B6 d2 | e4 c4 |
+A4 f2c2 | B6- || B2 | d6 B2 | e4 c4 | B4 D2B,2 | E4 C2F2 |
+B6 d2 | B4 F4 |["Back" g2e2 c2A2 | [B6F6] :|["Out" g2e2 c2A2 | [B6F6] |]
+% - - - - - - - - - -

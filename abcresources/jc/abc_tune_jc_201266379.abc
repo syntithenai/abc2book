@@ -1,0 +1,34 @@
+X:1
+T:Da Full Rigged Ship  "arr. Kent Hiestand"
+M:6/8
+L:1/8
+Q:80
+C:Traditional Shetland
+S:Jig
+K:HP
+|: e | \
+{A}e2a{g}aea | \
+{g}aea{g}aga | \
+{gef}e2f{gf}g2{GdG}g |
+{a}gag{a}f2d | \
+{gef}e2a{g}aea | \
+{g}aea{g}aga |
+{f}g2e{A}edB | \
+{g}A3{GAG}A2 :: \
+{g}efe{A}edB |
+{G}A2B{gcd}c3 | \
+{g}B2{d}G{g}B2{d}G | \
+{g}Bcd{GBG}A3 |
+{g}efe{A}edB | \
+{G}A2B{gcd}c2d | \
+{g}efe{g}dBG |
+{g}A3{GAG}A2 :: \
+{g}B | \
+{G}BdB{G}BdB | \
+{G}BdB{gf}g3 |
+{g}BdB{gBd}B2A | \
+{g}B2c{g}dBG | \
+{g}BdB{G}BdB |
+{G}BdB{gf}g2d | \
+{g}efe{g}dBG | \
+{g}A3{GAG}A2 :|

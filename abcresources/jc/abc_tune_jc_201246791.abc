@@ -1,0 +1,16 @@
+X: 1
+T: And when it rains ...
+C: Wouter Joubert (2019-10-38)
+%D:2019-10-38
+R: strathspey
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Wouter had "Bm" chords in bar 2; it's clearly "Bbm" (as in bar 4).
+M: C
+L: 1/8
+K: Fm
+|:\
+"Fm"c<F F>A "F"=A>c c>=e | "Bbm/F"f>c d>B "Bbm7/F"c>F =e<d |\
+"Fm"<F F>A "F"=A>c c>=e |1 "Bbm"d>B "C7"c>A "Fm"G<F F2: |2 "Bbm"d>B "C7"c>A "Fm"G<F F>E |
+|:\
+"Bb"=D<F B>=d "F"c<f =A<c | "Bb"-d>=e "F"=a<f f>e |\
+"Bb"=d<f B<f "F/A" c<f =A<f |[1 "Bb"=d>f "F"c=A "C7"AE]<G "Dm"f=E :|2 "Bb"=d>f "C7"c>A "Fm"G<F F2 |]

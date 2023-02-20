@@ -1,0 +1,50 @@
+
+X: 1
+T: Hora Fetelor    [G]
+O: Romania
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+N: Made by combining versions from Aubrey Jaffer, Tom Pixton and Seymour Shlien
+N: Aubrey plays Adim7 chords on his cimbalom, but I prefer Cm chords on my accordion.
+M: 6/16
+L: 1/16
+%Q: 3/8=100
+P: A+(ABB)x2
+K: G
+% - - - - - - - - - - - - - - -
+z3 z2D |\
+"G"D2G- G3 | "F"A2B- B3 | "E"c3- (4cBA^G | "Am"A3- A2G |\
+[1 "Cm"B2c c2c | d_ef edc |  "G"d6 :|\
+[2 "Cm"Bcd cB_A | "D7"cB_A AGF | "G"G6 |]
+|: z2B c2d |\
+"Cm"_e3- edc | "G"d3- d2c | "E7"Bcd c2B | "Am"cBA A3 |\
+"Cm"zBc c2c | d_ef edc | "G"d6 | z2d _e2f | "Cm"g3- g2f |
+"Cm"(4_e2d2 c2B2 | "E7"gf_e dcB | "Am"cBA A3 | "Cm"Bcd cB_A |\
+"Fm"cB_A AGF |["1-n" "G"G6 :|["Last" "G"Gz2 "D7"Dz2 | "G"Gz2 |]
+% - - - - - - - - - - - - - - -
+% %text John Chambers' merged version
+
+%%sep 1 1 500
+
+X: 1
+T: Hora Fetelor    [A]
+O: Romania
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+N: Made by combining versions from Aubrey Jaffer, Tom Pixton and Seymour Shlien
+N: Aubrey plays Adim7 chords on his cimbalom, but I prefer Cm chords on my accordion.
+M: 6/16
+L: 1/16
+%Q: 3/8=100
+P: A+(ABB)x2
+K: A
+% - - - - - - - - - - - - - - -
+z3 z2E |\
+"A"E2A- A3 | "G"B2c- c3 | "F#"d3- (4dcB^A | "Bm"B3- B2A |\
+[1 "Dm"c2d d2d | e=fg fed |  "A"e6 :|\
+[2 "Dm"cde dc_B | "E7"dc_B BAG | "A"A6 |]
+|: z2c d2e |\
+"Dm"=f3- fed | "A"e3- e2d | "F#7"cde d2c | "Bm"dcB B3 |\
+"Dm"zcd d2d | e=fg fed | "A"e6 | z2e =f2g | "Dm"a3- a2g |
+"Dm"(4=f2e2 d2c2 | "F#7"ag=f edc | "Bm"dcB B3 | "Dm"cde dc_B |\
+"Gm"dc_B BAG |["1-n" "A"A6 :|["Last" "A"Az2 "E7"Ez2 | "A"Az2 |]
+% - - - - - - - - - - - - - - -
+% %text John Chambers' merged version

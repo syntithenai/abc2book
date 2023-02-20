@@ -1,0 +1,41 @@
+X: 1
+T: Mermaid
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.108 #155 (215)
+B: "The Dancing-Master: Containind Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.105
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Illegible words on left edge deciphered using http://deriv.nls.uk/dcn30/8975/89752483.30.jpg
+N: The dance descriptions in DMDfD and CCDM1 are identical except for minor spelling and punctuation differences.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G/A/ |\
+B>cd e>dc | BG2- G2A/B/ | c2E E>FG | F3- F2F/G/ |\
+A>Bc B>cd | eE2 E>FG | F>GA A>GF | G3- G2 |]
+F/G/ |\
+A2B AFG | A2A A>Bc | dBe e2^d | e3 g3 |\
+dBG E>FG | AD2- D>dB | eA/B/c A2G | G3- G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the Presence, then to your We. lead up forward
+%% and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1st Cu. give right Hands to one another, then their Left to the
+%% 2d Cu. and fall back, then Face to Face, then Back to Back with your
+%% own We., then the two We. cast off into their own Men's Places, and
+%% the Men follow them, making no Stop till they come into their own
+%% Places; then the two Men Back to Back, and the two We. Back to
+%% Back; the two Men put their right Hands across and turn the We. 'till
+%% you come into their own Places, and turn S. then the 1st Cu. cast off
+%% into the 2d Cu. Places, then into their own, and go the Figure of 8;
+%% then the Men take right Hands, and We. right Hands at the same
+%% Time, and turn round into the 2d Cu. Place, then turn your own
+%% with your left Hand, and so on 'till you come into your own Places.
+%%endtext
+%%sep 1 8 500

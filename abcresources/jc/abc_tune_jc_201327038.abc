@@ -1,0 +1,5 @@
+X: 1
+T: TEST: Q:slow
+Q:"slow"
+K: C
+[| CDEF GABc | cBAG FEDC |]

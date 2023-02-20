@@ -1,0 +1,1052 @@
+
+X: 0
+T: English Country Dance repertoire
+K:
+%%begintext align
+%% This is a list of "common" English COuntry Dance tunes.
+%% The intent is a list of tunes that any (aspiring) ECD
+%% musician should be able to play on short notice.
+%% It was collected from several similar lists online,
+%% and shouldn't be concidered a real authority. The
+%% best approach is to make up your own list by talking
+%% to your local ECD leaders.
+%%endtext
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Apley House 1   [F]
+O: 1703
+B: Barnes v.1 p.4
+M: C
+L: 1/8
+K: F
+|:\
+"F"A2F2 ABc2 | "Gm"d2B2 "C7"G2B2 |\
+"F"A2F2 f2F2 | "F"A4 c4 ::\
+"C"e2g2 agfe | "G7"d2f2 f2ed |
+"C"e2g2 "F"agfe | "G7"d4 "C"c4 :: \
+"Bb"d2B2 BcdB | "F"c2A2 ABcA |\
+"F"f2F2 "C7"F2G2 | "F" A4 c4 :|
+
+
+X: 1
+T: Apley House 1   [G]
+O: 1703
+B: Barnes v.1 p.4
+M: C
+L: 1/8
+K: G
+|:\
+"G"B2G2 Bcd2 | "Am"e2c2 "D7"A2c2 |\
+"G"B2G2 g2G2 | "G"B4 d4 ::\
+"D"f2a2 bagf | "A7"e2g2 g2fe |
+"D"f2a2 "G"bagf | "A7"e4 "D"d4 :: \
+"C"e2c2 cdec | "G"d2B2 BcdB |\
+"G"g2G2 "D7"G2A2 | "G" B4 d4 :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: Bare Necessities
+R: waltz
+N: English country dance (longways)
+C: Pat Shaw
+M: 3/4
+L: 1/8
+K: DDor
+%%text ERROR 451 -- Tune removed by request of the copyright holder (Christopher Shuldham-Shaw css@onyx.go-plus.net)
+
+
+X: 1
+T: Bare Necessities
+R: waltz
+N: English country dance (longways)
+C: Pat Shaw
+M: 3/4
+L: 1/8
+K: EDor
+%%text ERROR 451 -- Tune removed by request of the copyright holder (Christopher Shuldham-Shaw css@onyx.go-plus.net)
+
+%%sep 1 1 500
+
+
+X: 1
+T: Miss Dolland's Delight  [A]
+%T: The Bishop
+M: C|
+O: Thompson's Compleat Collection, v.4 p.92 #184 1780
+L: 1/4
+K: A
+|: "A"Aa- ag- | "D"gf- "A"fe | "D"fa "A"ec | "Bm"dB "E7"AG \
+|  "A"Aa- ag- | "D"gf- "A"fe | "D"fa "B7"B^d | "E"e2 E2 :|
+|: "E7"Ed- dc/B/ | "A"ce- ed | ca Ac | "E7"BE E2 \
+"I"\
+|  "A"Ac- cB/A/ | "D"Ba gf | "E7"ed cB | "A"A2 A2 :|
+
+
+X: 1
+T: the Bishop
+O: Thompson's Compleat Collection, v.4 p.72 #144 (1780)
+M: 6/8
+L: 1/8
+K: G
+|: "G"g3 d3 | B3 G2D | "C"EGE "D7"FAF | "G"GBc "D7"def \
+|  "G"g3 d3 | B3 G2D | "C"EGE "D7"FAF | "G"G3 [G3B,3G,3] :|
+|: "G"ded bgd | "D7"cdc afc | "G"BcB gdB | "D7"AFD AFD \
+|  "G"ded bgd | "D7"cdc afc | "G"BcB "D7"cAF | "G"G3 G3 :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: Childgrove    [Dm]
+O: Playford 1701
+R: reel
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+B: Karpeles & Schofield p.22,52; Playford Ball; Raven p.23; Barlow #426
+L: 1/8
+N: Sometimes played in dorian rather than minor.
+K: Dm
+|: A \
+| "Dm"Ad de | f2 ed | "Gm"gf ed | "Am"e>d c/B/A \
+| "Dm"Ad de | f2 ea | "Gm"g>f "A7"e/f/e/d/ | "Dm"d3 :|
+|: f/g/ \
+| "F"af fa | "C"ge eg | "Dm"fd d/e/f/d/ | "Am"eA Af/g/ \
+| "F"a>g f/g/a/f/ | "C"g>f e/f/g/e/ | "Dm"fe/d/ "A7"ed/^c/ | "Dm"d3 :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: Come Let's Be Merry   [D]
+O: Playford 1726
+R: waltz
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: Playford "The Dancing Master, or Directions for Dancing Country Dances..." 1728
+B: Peter Barnes "english country dance tunes" 1996
+M: 3/4
+L: 1/8
+%P: 3 times
+K: D
+|: "D"A2 d2 e2 | f2 ef d2 | "G"d4 "(A)"A2 |"D"F2 EF D2 \
+|  "D"d4 c2 | "E7"B2 e2 "(A)"A2 | "E7"B2 ^G4 | "A"A6 :|
+[| "A"e2 e2 d2 | c4 A2 | "D"d4 f2 | "G"B6 \
+| "Em"g4 f2 | "E7"e4 d2 | "A"c2 d2 e2 | A6 ||
+|| "D"F2 E2 D2 | "(Bm)"dc de d2 | "Em"G2 F2 E2 | "A7"ed ef e2 \
+|  "D"F2 E2 D2 | "G(Bm)"dc d2 "Em"e2 | "A7"A2 d2 c2 | "D"d6 |]
+
+%%sep 1 1 500
+
+
+X: 1
+T: Dick's Maggot
+N: from the Nottingham Music Database
+S: Playford
+B: Cecil J Sharp "Country Dance Tunes" Set XI #15
+M: 3/2
+L: 1/8
+F: http://www.guitarnut.com/nmd/playford.txt
+K: G
+|: "G"g2d2-    d2B2- "D7"B2A2 |  "G"Bcd2 "D7"ABc2   "G"B4 \
+|  "G"g2d2-    d2B2-  "C"B2A2 | "Am"Bcd2 "D7"G2F2   "G"G4 \
+:: "D"f2a2-    a2f2-     f2d2 |  "G"gab2 "A7"efg2   "D"f4 |
+| "Fm"f2a2-    a2f2- "Bm"f2d2 | "Em"def2 "A7"AB^c2 "D7"d4 \
+|  "G"Bcd2 "G7"Bcd2   "C"e4   | "Am"efg2     efg2  "D7"f4 \
+|  "G"g2d2-    d2B2-  "C"B2c2 | "Am"A4-  "D7"A4     "G"G4 :|
+
+%%sep 1 1 500
+
+
+X: 36
+T: the Dress'd Ship   [G]
+O: Thompson 1774
+R: reel, polka
+M: C
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.18 #2
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d/c/ |\
+"G"BG DB "C"c2 (c/d/e) | "G"dB gB "Am"cA- "D7"Ad/c/ "I"|\
+"G"BG DB "C"c{d}e "G"dg | "Am"ec "D7"Ad "G"BG- G :|
+|: e/f/ |\
+"G"gd BG "C"e/f/g/e/ "G"dB | "C"c{d}e "G"dB "Am"cA- "D7"Ae/f/ |\
+"G"gd BG "C"e/f/g/e/ "G"dB | "Am"ec "D7"Ad "G"BG- G :|
+% - - - - - - - - Dance description - - - - - - - -
+% %begintext align
+% % 1st Man set to the 2d Wo. & turn .|. 1st
+% % Wo. do the same :|. cast off 1 Cu. &
+% % Allemand .|: cast up & Allemand & lead
+% % down in the 2d Cu.s place :|:
+% %endtext
+
+
+X: 36
+T: the Dress'd Ship   [A]
+O: Thompson 1774
+R: reel, polka
+M: C
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.18 #2
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+e |\
+"A"cAEc "D"d2(d/e/f) | "A"ecac "Bm"dB-"E7"Be "I"|\
+"A"cAEc "D"df"A"ea | "Bm"fd"E7"Be "A"cA-A :|
+|: f/g/ |\
+"A"aecA "D"f/g/a/f/ "A"ec | "D"df"A"ec "Bm"dB- "E7"Bf/g/ |\
+"A"aecA "D"f/g/a/f/ "A"ec | "Bm"fd"E7"Be "A"cA-A :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% 1st Man set to the 2d Wo. & turn .|. 1st
+%% Wo. do the same :|. cast off 1 Cu. &
+%% Allemand .|: cast up & Allemand & lead
+%% down in the 2d Cu.s place :|:
+%%endtext
+
+%%sep 1 1 500
+
+
+X: 1
+T: the Duke of Kent's Waltz   [G]
+O: 1802
+R: waltz
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+|:"G"gf ga g2 | "D7"f2 de fd | "G"g2 G2 G2 | G4 d2 \
+| "C"e2 e2 "(D)"f2 | "G"g2 d2 B2 | "Am"c2 c2 B2 | "D7"B2 A4 :|
+| "D"D2 cB c2 | "G"Bd cB AG | "D"D2 cB c2 | "G"Bd cB AG \
+| "C"ed cd ef | "G"gf ed cB | "Am"ed cB AG | "D7"FA GF ED |
+| "G"GF GA Bc | "D"d^c de fd | "Em"g2 G2 G2 | G4 "I"[|]e2 \
+| "C"^d2 e2 e2 | "G"^c2 d2 d2 | "D7"c2 A2 F2 | "G"G6 |]
+
+
+X: 1
+T: the Duke of Kent's Waltz   (A)
+O: 1802
+R: waltz
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+|:"A"ag ab a2 | "E7"g2 ef ge | "A"a2 A2 A2 | A4 e2 \
+| "D"f2 f2 "(E)"g2 | "A"a2 e2 c2 | "Bm"d2 d2 c2 | "E7"c2 B4 :|
+| "E"E2 dc d2 | "A"ce dc BA | "E"E2 dc d2 | "A"ce dc BA \
+| "D"fe de fg | "A"ag fe dc | "Bm"fe dc BA | "E7"GB AG FE |
+| "A"AG AB cd | "E"e^d ef ge | "F#m"a2 A2 A2 | A4 "I"[|]f2 \
+| "D"^e2 f2 f2 | "A"^d2 e2 e2 | "E7"d2 B2 G2 | "A"A6 |]
+
+%%sep 1 1 500
+
+
+X: 0
+T: Faithless Nancy Dawson
+O: 196?
+M: C|
+K:
+P: A-Rovin'   [A]
+K: A
+E \
+| "A"AA "E7"GE | "A"AA "E7"GE | "A"A>B cd | e3 e | "D"ff df | "A"ee ce |
+| "D(Bm)"dc BA | "F#m"cA "E7"FE | "A"A>B cd | "A"ea "D"fd | "A"c2 "E7"B2 | "A"A3 e | "D"f>e df |
+| "A"e>d ce | "Bm"dc BA | "F#m"cA "E7"FE | "A"A>B cd | "A"ea "D"fd | "A"c2 "E7"B2 | "A"A3 |]
+P: A-Rovin'   [D]
+K: D
+A \
+| "D"dd "A7"cA | "D"dd "A7"cA | "D"d>e fg | a3 a | "G"bb gb | "D"aa fa |
+| "G(Em)"gf ed | "Bm"fd "A7"BA | "D"d>e fg | "D"ad' "G"bg | "D"f2 "A7"e2 | "D"d3 a | "G"b>a gb |
+| "D"a>g fa | "Em"gf ed | "Bm"fd "A7"BA | "D"d>e fg | "D"ad' "G"bg | "D"f2 "A7"e2 | "D"d3 |]
+P: A-Rovin'   [G]
+K: G
+D \
+| "G"GG "D7"FD | "G"GG "D7"FD | "G"G>A Bc | d3 d | "C"ee ce | "G"dd Bd |
+| "C(Am)"cB AG | "Em"BG "D7"ED | "G"G>A Bc | "G"dg "C"ec | "G"B2 "D7"A2 | "G"G3 d | "C"e>d ce |
+| "G"d>c Bd | "Am"cB AG | "Em"BG "D7"ED | "G"G>A Bc | "G"dg "C"ec | "G"B2 "D7"A2 | "G"G3 |]
+
+%%sep 1 1 500
+
+
+X: 1
+T: Fandango   [C]
+O: Thompson 1780
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+B: Thompson, Twenty Four Country Dances, 1780
+B: Playford Ball
+B: Barnes 1986
+M: 6/8
+L: 1/8
+N: Play 6 times
+K: C
+|: "C"c2c cBc | "F"A2F "G7"EFG | "C"c2c "F"c2d | "G7"ecg "C"e2G \
+|  "C"c2c cBc | "F"A2F "G7"EFG | "C"c2c "F"c2f | "G7"d2g "C"e2c :|
+|: "C"gag e2c | G2c G2c | gag e2c | "F"A2c A2c \
+|  "C"gag e2c | "F"A2F "C"E2G | "F"A2c "G7"d2B | "C"c3- cz2 :|
+
+
+X: 1
+T: Fandango   [D]
+O: Thompson 1780
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+B: Thompson, Twenty Four Country Dances, 1780
+B: Playford Ball
+B: Barnes 1986
+M: 6/8
+L: 1/8
+N: Play 6 times
+K: D
+|: "D"d2d dcd | "G"B2G "A7"FGA | "D"d2d "G"d2e | "A7"fda "D"f2A \
+|  "D"d2d dcd | "G"B2G "A7"FGA | "D"d2d "G"d2g | "A7"e2a "D"f2d :|
+|: "D"aba f2d | A2d A2d | aba f2d | "G"B2d B2d \
+|  "D"aba f2d | "G"B2G "D"F2A | "G"B2d "A7"e2c | "D"d3- dz2 :|
+
+%%sep 1 1 500
+
+
+X: 0
+T: Freeford Gardens
+C: Kathryn & David Wright
+N: Tune: Edgeworth Bumpkins
+P: Edgeworth Bumpkins   [F]
+O: Daniel Wright 1740
+N: Tune for the dance Freeford Gardens
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" p.33 1740
+M: C|
+L: 1/8
+K: F
+c2 \
+| "F"A3G F2A2 | "C7"G2FE "F"F2f2 | "C7"e2dc "Bb"d2cB | "F"A2F2- F2A2 \
+| "C7"G2FE "F"F2A2 | "C7"G2FE "F"FGAB | c2B2- "Bb"B2A2 | "C7"G6 :|
+|: c2 \
+| "Bb"d2cB "F"ABc2 | FGA2 "Bb"B4 | "Gm"Bcd2 G2d2 | "C7"gab2 e4 \
+| "F"f2e2- "C"e2d2- | "Bb"d2c2- "C"c2B2- | "Bb"B2AB "C7"G2FE | "F"F6 :|
+P: Edgeworth Bumpkins   [G]
+O: Daniel Wright 1740
+N: Tune for the dance Freeford Gardens
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" p.33 1740
+M: C|
+M: C|
+L: 1/8
+K: G
+d2 \
+| "G"B3A G2B2 | "D7"A2GF "G"G2g2 | "D7"f2ed "C"e2dc | "G"B2G2- G2B2 \
+| "D7"A2GF "G"G2B2 | "D7"A2GF "G"GABc | d2c2- "C"c2B2 | "D7"A6 :|
+|: d2 \
+| "C"e2dc "G"Bcd2 | GAB2 "C"c4 | "Am"cde2 A2e2 | "D7"abc'2 f4 \
+| "G"g2f2- "D"f2e2- | "C"e2d2- "D"d2c2- | "C"c2Bc "D7"A2GF | "G"G6 :|
+
+%%sep 1 1 500
+
+
+X: 0
+T: Fenterlarick
+P: Duple longways proper
+C: dance: Joyce Walker 1997
+C: music: Fred Grimshaw
+N: tune: Nancy's Fancy by Fred Grimshaw
+K:
+P: Nancy's Fancy   [C]
+C: Fred Grimshaw
+N: For the dance Fenterlarick by Joyce Walker
+N: The titles for the dance and the tune are a bit confused.
+N: Playford published a different "Nancy's Fancy" tune and dance.
+B: Barnes p.33
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+|: G \
+| "C"cg -gc | B>A GG | "C"cc "G7"de/f/ | "C"e2 "G7"dG \
+| "C"cg -gc | B>A Gf | "F"ed/c/ "G7"GB | "C"c3  :|
+|| c \
+| "Am"ce- eA | "E7"c>B "Am"AA | cc "Dm"de/f/ | "C"e2 "G7"dG \
+| "C"ce- eg | "Dm"f>e de | "F"fa- ac' | "G7"b>a gg |
+| "C"c'g- gf | e>f gg | "F"af- fe | "Dm"d2- "G7"dG \
+| "C"cG- Gc | "G7"B>c dG | "F"Ac- "G7"cB | "C"c3 |]
+P: Nancy's Fancy   (G)
+C: Fred Grimshaw
+N: For the dance Fenterlarick by Joyce Walker
+B: Barnes p.33
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+|: D \
+| "G"Gd -dG | F>E DD | "G"GG "D7"AB/c/ | "G"B2 "D7"AD \
+| "G"Gd -dG | F>E Dc | "C"BA/G/ "D7"DF | "G"G3  :|
+|| G \
+| "Em"GB- BE | "B7"G>F "Em"EE | GG "Am"AB/c/ | "G"B2 "D7"AD \
+| "G"GB- Bd | "Am"c>B AB | "C"ce- eg | "D7"f>e dd |
+| "G"gd- dc | B>c dd | "C"ec- cB | "Am"A2- "D7"AD \
+| "G"GD- DG | "D7"F>G AD | "C"EG- "D7"GF | "G"G3 |]
+
+%%sep 1 1 500
+
+
+X: 1
+T: Gathering Peascods   [G]
+O: Playford 1651
+B: Playford "Dancing Master" 1st Ed. 1651
+B: J.Barlow p.22 #27
+B: Barnes (in A)
+B: Playford (in G)
+B: Keller p.38 (in A)
+B: Karpeles p.12 (in A)
+B: Raven p.22 (in A)
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: G
+   z | "G"d2 dd | B>c dd | "C"ed cB | "D7"A3 B | AG GF | "G"G3 :|
+|: G | "D"FD FG | A2 BA | "G"G/A/B AG | "D"F3 F | "A7"ED ~E>D | "D"D3 :|
+|: d | "G"BG GA/B/ | "C"c2 zd | "G"BG GA/B/ | "C"c2 zd  | "G"BG GA/B/ | "C"c>de d/c/ | "G"Bc/B/ "D7"~A>G | "G"G3 :|
+
+
+X: 1
+T: Gathering Peascods   [A]
+O: Playford 1651
+B: Playford "Dancing Master" 1st Ed. 1651
+B: J.Barlow p.22 #27
+B: Barnes (in A)
+B: Playford (in G)
+B: Keller p.38 (in A)
+B: Karpeles p.12 (in A)
+B: Raven p.22 (in A)
+Z: 1998 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: A
+   z | "A"e2 ee | c>d ee | "D"fe dc | "E7"B3 c | BA AG | "A"A3 :|
+|: A | "E"GE GA | B2 cB | "A"A/B/c BA | "E"G3 G | "B7"FE ~F>E | "E"E3 :|
+|: e | "A"cA AB/c/ | "D"d2 ze | "A"cA AB/c/ | "D"d2 ze  | "A"cA AB/c/ | "D"d>ef e/d/ | "A"cd/c/ "E7"~B>A | "A"A3 :|
+
+%%sep 1 1 500
+
+
+X: 0
+T: The Geud Man of Ballangigh
+O: Playford 1709
+B: Playford 1709 #30 ("Squirrel")
+R: jig
+N: Tune: Hunt the Squirrel
+M: 6/8
+L: 1/8
+K:
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Hunt The Squirrel   (G)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: The pickups are optional.
+K: G
+BA \
+|:"G"Gd-d d2e | d3 B3 | GAB "C"A2G | "G"GAB "D7"A2G \
+| "G"Gd-d d2e | "Em"d3 B3 | "C(Am)"GAB "D7"A2G | "G"G3 z3 :|
+GAB \
+|:"C"c2d edc | "Bm"c2d edc | "Am"c2d e2f | "Em"g3 gfe \
+| "G"dB2 dB2 | "Bm"dB2 d3 | "Am"GAB "D7"A2G | "G"G3 z3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Hunt The Squirrel   [A]
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+K: A
+cB \
+|:"A"Ae-e e2f | e3 c3 | ABc "D"B2A | "A"ABc "E7"B2A \
+| "A"Ae-e e2f | "F#m"e3 c3 | "D(Bm)"ABc "E7"B2A | "A"A3 z3 :|
+ABc \
+|:"D"d2e fed | "C#m"d2e fed | "Bm"d2e f2g | "F#m"a3 agf \
+| "A"ec2 ec2 | "F#m"ec2 e3 | "Bm"ABc "E7"B2A | "A"A3 z3 :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: Hole in the Wall   [G]
+C: Henry Purcell 1698
+R: minuet
+Z: John Chambers <jc:trillian.mit.edu>
+B: Playford Ball
+B: Douglas and Helen Kennedy, 1929
+M: 3/4
+L: 1/8
+N: Longways duple minor, (AAB)n
+K: G
+|: "G"B>c B/c/d "D7"Ad | "Em"G>A G/A/B "B7"FB | "C"E>F E/F/G "G"DB | "D7"AG- GF "G"G2 :|
+[| "Em"g>f e/f/g fe | "B7"^d>e d/e/f Bf | "Em"g>f e/f/g fe | "B7"fe- e^d "Em"e2 |
+| "C"E>F E/F/G "D7"F/G/A | "G"G>A G/A/B "D7"A/B/c | "G"B>c B/c/d Dd | "D7"cB- BA/B/ "G"G2 |]
+
+
+X: 1
+T: Hole in the Wall   [Bb]
+C: Henry Purcell 1698
+R: minuet
+Z: John Chambers <jc@trillian.mit.edu>
+B: Playford Ball
+B: Douglas and Helen Kennedy, 1929
+M: 3/4
+L: 1/8
+N: Longways duple minor, (AAB)n
+K: Bb
+|: "Bb"d>e d/e/f "F7"cf | "Gm"B>c B/c/d "D7"Ad | "Eb"G>A G/A/B "Bb"Fd | "F7"cB- BA "Bb"B2 :|
+[| "Gm"b>a g/a/b ag | "D7"^f>g f/g/a da | "Gm"b>a g/a/b ag | "D7"ag- g^f "Gm"g2 |
+| "Eb"G>A G/A/B "F7"A/B/c | "Bb"B>c B/c/d "F7"c/d/e | "Bb"d>e d/e/f Ff | "F7"ed- dc/d/ "Bb"B2 |]
+
+%%sep 1 1 500
+
+
+X: 1
+T: the Indian Queen  [C]
+O: 1701
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Barnes p. 57 (dated 1701); Hunt p.12 #39 (in C)
+M: 2/4
+L: 1/16
+K: C
+|: ef \
+| "C"g2e2 c2e2 | "G7"d4 G4 | "C"E2G2 G2e2 | "G7"d4- d2ef \
+| "C"g2e2 c2e2 | "G7"d4 G4 | "C"E2G2 "G7"G2e2 | "C"c6 :|
+|: Bc \
+| "G"dcBA G2d2 | "Em"e2B2 "Am"c2A2 | "(C)"efg2 "D7"a2^f2 | "G"g4- g2de "I"\
+| "F"fedc "G"B2g2 | "F"A2f2 "C"G2ef | "Dm"d2c2 "G7"d2B2 | "C"c6 :|
+
+
+X: 1
+T: The Indian Queen  [D]
+O: 1701
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Barnes p. 57 (dated 1701); Hunt p.12 #39 (in C)
+M: 2/4
+L: 1/16
+K: D
+|: fg \
+| "D"a2f2 d2f2 | "A7"e4 A4 | "D"F2A2 A2f2 | "A7"e4- e2fg \
+| "D"a2f2 d2f2 | "A7"e4 A4 | "D"F2A2 "A7"A2f2 | "D"d6 :|
+|: cd \
+| "A"edcB A2e2 | "F#m "f2c2 "Bm"d2B2 | "(D)"fga2 "E7"b2^g2 | "A"a4- a2ef "I"\
+| "G"gfed "A"c2a2 | "G"B2g2 "D"A2fg | "Em"e2d2 "A7"e2c2 | "D"d6 :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: Jack's Health
+R: jig
+P: Bolt the Door
+M: 6/8
+L: 1/8
+K: Am
+g2f |\
+"Am"ecA A2B | "Em"G2E  E2B | "Am"c2A  "G"B2G | "Am"A2B c2d |\
+"Am"ecA A2B | "Em"G2E  E2B | "Am"c2A  "G"B2G | "Am"A3  :|
+A2B |\
+ "C"cBA G2d | "C"e3 "G"d2B | "Am"c2A "Em"B2G | "Am"A2B c2d |\
+"Am"ecA A2d | "C"e3 "G"d2B |  "F"c2A     B2A |  "G"G3  |]
+g2e |\
+ "G"dBG G2d | "C"e3 "G"d2B | "Am"c2A "Em"B2G | "Am"A2B c2d |\
+"Am"ecA A2d | "F"e2a  a2^f |  "G"g2e     d2B | "Am"A3 |]
+
+%%sep 1 1 500
+
+
+X: 1
+T: Jack's Maggot [C]
+O: Playford 1702
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Duple minor longways
+B: Playford Ball
+B: Playford, "Twenty Four New Country Dances", 1702
+M: C|
+L: 1/8
+K: C
+   cB \
+| "C"c2C2 E2G2 | "F"AGAB "G7"c2d2 | "C"efg2 "F"ABc2 | "Dm"d3e "G7"d2cB \
+| "C"c2C2 E2G2 | "F"ABc2 "G7"B2gf | "C"e2c2 "G7"d2B2 | "C"c4- c2 :|
+|: ef \
+| "C"g2e2- e2g2 | "Am"e2c2- c2de | "Dm"fedc B2c2 | "G7"d3e d2ef \
+| "C"g2e2 c2e2 | G2c2 E2G2 | "F"c3d "G7"~d3c | "C"c4- c2 :|
+
+
+X: 1
+T: Jack's Maggot [D]
+O: Playford 1702
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Duple minor longways
+B: Playford Ball
+B: Playford, "Twenty Four New Country Dances", 1702
+M: C|
+L: 1/8
+K: D
+   dc \
+| "D"d2D2 F2A2 | "G"BABc "A7"d2e2 | "D"fga2 "G"Bcd2 | "Em"e3f "A7"e2dc \
+| "D"d2D2 F2A2 | "G"Bcd2 "A7"c2ag | "D"f2d2 "A7"e2c2 | "D"d4- d2 :|
+|: fg \
+| "D"a2f2- f2a2 | "Bm"f2d2- d2ef | "Em"gfed c2d2 | "A7"e3f e2fg \
+| "D"a2f2 d2f2 | A2d2 F2A2 | "G"d3e "A7"~e3d | "D"d4- d2 :|
+
+%%sep 1 1 500
+
+
+X: 0
+T: Jacob Hall's Jig
+O: Playford 1695
+N: to the tune Under and Over
+R: jig
+M: 6/8
+L: 1/8
+K:
+P: Under and Over   [Dm]
+N: Tune for the English dance "Jacob Hall's Jig"
+B: Playford 1695  (in F minor)
+K: Ddor
+|:\
+"Dm"D2d c2B | "F"A3 "C"G3 | "Dm"F3/2G/A G2F | "C"E3 C3 |\
+"Dm"D2d c2d | "Am"e3 A2A | "G"B3/2c/d "Am"dc2 | "Dm"d3- d2z :|
+|:\
+"F"c2c c3/2B/A | "C"G2G G2E | "Dm"F3/2G/A G2F | "Am"E3 C3 |\
+"Dm"D2d c2d | "Am"e3 A2A | "G"B3/2c/d "Am"dc2 | "Dm"d3- d2z :|
+
+X: 2
+P: Under and Over   [Em]
+K: Edor
+|:\
+"Em"E2e d2c | "G"B3 "D"A3 | "Em"G3/2A/B A2G | "D"F3 D3 |\
+"Em"E2e d2e | "Bm"f3 B2B | "A"c3/2d/e "Bm"ed2 | "Em"e3- e2z :|
+|:\
+"G"d2d d3/2c/B | "D"A2A A2F | "Em"G3/2A/B A2G | "Bm"F3 D3 |\
+"Em"E2e d2e | "Bm"f3 B2B | "A"c3/2d/e "Bm"ed2 | "Em"e3- e2z :|
+
+X: 3
+P: Under and Over   [Gm]
+K: Gdor
+|:\
+"Gm"G2g f2e | "Bb"d3 "F"c3 | "Gm"B3/2c/d c2B | "F"A3 F3 |\
+"Gm"G2g f2g | "Dm"a3 d2d | "C"e3/2f/g "Dm"gf2 | "Gm"g3- g2z :|
+|:\
+"Bb"f2f f3/2e/d | "F"c2c c2A | "Gm"B3/2c/d c2B | "Dm"A3 F3 |\
+"Gm"G2g f2g | "Dm"a3 d2d | "C"e3/2f/g "Dm"gf2 | "Gm"g3- g2z :|
+
+X: 4
+P: Under and Over   [Am]
+K: Ador
+|:\
+"Am"A2a g2f | "C"e3 "G"d3 | "Am"c3/2d/e d2c | "G"B3 G3 |\
+"Am"A2a g2a | "Em"b3 e2e | "D"f3/2g/a "Em"ag2 | "Am"a3- a2z :|
+|:\
+"C"g2g g3/2f/e | "G"d2d d2B | "Am"c3/2d/e d2c | "Em"B3 G3 |\
+"Am"A2a g2a | "Em"b3 e2e | "D"f3/2g/a "Em"ag2 | "Am"a3- a2z :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: Juice of Barley
+C: Henry Purcell (1690)
+B: Cecil Sharp (1916)
+R: jig
+M: 6/8
+L: 1/8
+K: Am
+[|"Am"A2A     e2d | "C"efg G2G | "F"A2A  "C"e2c | "Dm"A3 "Am"c3 \
+|  "F"A2A "G7"e2d | "C"efg G2G | "F"A2A "Dm"e2c | "Am"A3     c3 |]
+|: "C"c2c      c2B/c/ |  "G"d2d "G7"d2d | "C"e2e  "F"a2g |  "C"e3  g3 \
+|  "F"c2c "C/E"c2B/c/ | "Dm"d2d    d>ef | "C"e>dc "G"BcG | "Am"HA3 e3 :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: Knives and Forks  [G]
+O: Playford 1726
+M: 3/2
+L: 1/8
+K: G
+|:\
+"G"g2ag "D7"f2gf "C"efge | "D7"f2d2- d2f2 e2d2 |\
+"C"c2dc "G"B2cB "D7"ABcd | "G"B2G2- "(D7)"G2B2 "G"A2G2 :|
+|:\
+"G"GABc d2G2 "D7"F4 | "Am"E2A2- A2G2 "D7"F2ED |\
+"G"GABc d2G2 "D7"F4 | "G"D2 G2- "(D7)"G2B2 "(G)"A2G2 :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: Knole Park 2  (C)
+O: 1788
+M: 2/4
+L: 1/16
+K: C
+  EF \
+| "C"G3A G2E2 | G2c2 e2c2 | "Dm"A2de f2d2 | "G7"c2B2 A2G2 \
+| "C"G3A G2E2 | G2c2 e2c2 | "Dm"A3f "G7"d2B2 | "C"c6 :|
+|: ef \
+| "C"g2e2 G2ge | "G7"f2d2 G2f2 | "Dm"f2e2 "D7"d2c2 | "G"B2A2 G2G2 \
+| "F"A2f2 "C"G2e2 | "G7"F2d2 "C"E2c2 | "Dm"D2f2 "G7"edcB | "C"c6 :|
+
+
+X: 1
+T: Knole Park 2  [D]
+O: 1788
+M: 2/4
+L: 1/16
+K: D
+  FG \
+| "D"A3B A2F2 | A2d2 f2d2 | "Em"B2ef g2e2 | "A7"d2c2 B2A2 \
+| "D"A3B A2F2 | A2d2 f2d2 | "Em"B3g "A7"e2c2 | "D"d6 :|
+|: fg \
+| "D"a2f2 A2af | "A7"g2e2 A2g2 | "Em"g2f2 "E7"e2d2 | "A"c2B2 A2A2 \
+| "G"B2g2 "D"A2f2 | "A7"G2e2 "D"F2d2 | "Em"E2g2 "A7"fedc | "D"d6 :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: Lilli Burlero   [D]
+%T: Hush-a-bye Baby
+C: Henry Purcell 1689
+B: Barnes p.67
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: 24-bar duple minor longways
+N: Playford Ball
+M: 6/8
+L: 1/8
+K: D
+|: "D"D>ED "(Bm)"F2F | "Em"E>FE "A7"G3 |\
+"D"FAD "Em"G2F | "A7"EDC "D"D3 ::\
+"D"d2c d2A | "C"=c2c "G"B2A |
+| "D"AB^c d2A | "G"B>AF "A"E2A |\
+"G"B>AG "D"FGA |"G"BAG "D"FGA |\
+"G"B>AF "Em"G2F | "A7"EDC "D"D3 :|
+
+
+X: 1
+T: Lilli Burlero   [G]
+%T: Hush-a-bye Baby
+O: Henry Purcell 1689
+B: Barnes p.67
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: 24-bar duple minor longways English Country Dance
+M: 6/8
+L: 1/8
+K: G
+|: "G"G>AG "(Em)"B2B | "Am"A>BA "D7"c3 \
+| "G"BdG "Am"c2B | "D7"AGF "G"G3 \
+:| "G"g2f g2d | "F"=f2f "C"e2d |
+| "G"de^f g2d | "C"e>dB "D"A2d \
+| "C"e>dc "G"Bcd | "C"edc "G"Bcd \
+| "C"e>[gd]B "Am"c2B | "D7"AGF "G"G3 |]
+
+%%sep 1 1 500
+
+
+X: 1
+T: Mad Robin
+O: 1686
+M: C|
+L: 1/8
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Mad Robin [Bb]
+K: Bb
+|: f2 \
+| "Bb"f2 d4 "(Eb)"g2 | "Bb"f2 B4 c2 | "Bb"d2ed "(Gm)"c2B2 | "F7(Cm)"cBAG "F7"F4 \
+| "Bb"f2 d4 "(Eb)"g2 | "Bb"f2 B4 c2 | "Bb"d2ed "F7"c3B | "Bb"B6 :|
+|: f2 \
+| "Gm"b3a "(Dm)"g2f2 | "Gm"g2 d4 =e2 | "D7"d2g2 g3^f | "Gm"g6 f2 \
+| "Eb"f2 e2- "F7"e2d2 | "Bb"f2 d4 cB | "F7"A2G2 c3B | "Bb"B6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Mad Robin (F)
+K: F
+|: c2 \
+| "F"c2 A4 "(Bb)"d2 | "F"c2 F4 G2 | "F"A2BA "(Dm)"G2F2 | "C7(Gm)"GFED "C7"C4 \
+| "F"c2 A4 "(Bb)"d2 | "F"c2 F4 G2 | "F"A2BA "C7"G3F | "F"F6 :|
+|: c2 \
+| "Dm"f3e "(Am)"d2c2 | "Dm"d2 A4 =B2 | "A7"A2d2 d3^c | "Dm"d6 c2 \
+| "Bb"c2 B2- "C7"B2A2 | "F"c2 A4 GF | "C7"E2D2 G3F | "F"F6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Mad Robin (C)
+K: C
+|: g2 \
+| "C"g2 e4 "(F)"a2 | "C"g2 c4 d2 | "C"e2fe "(Am)"d2c2 | "G7(Dm)"dcBA "G7"G4 \
+| "C"g2 e4 "(F)"a2 | "C"g2 c4 d2 | "C"e2fe "G7"d3c | "C"c6 :|
+|: g2 \
+| "Am"c'3b "(Em)"a2g2 | "Am"a2 e4 ^f2 | "E7"e2a2 a3^g | "Am"a6 g2 \
+| "F"g2 f2- "G7"f2e2 | "C"g2 e4 dc | "G7"B2A2 d3c | "C"c6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Mad Robin (G)
+K: G
+|: d2 \
+| "G"d2 B4 "(C)"e2 | "G"d2 G4 A2 | "G"B2cB "(Em)"A2G2 | "D7(Am)"AGFE "D7"D4 \
+| "G"d2 B4 "(C)"e2 | "G"d2 G4 A2 | "G"B2cB "D7"A3G | "G"G6 :|
+|: d2 \
+| "Em"g3f "(Bm)"e2d2 | "Em"e2 B4 ^c2 | "B7"B2e2 e3^d | "Em"e6 d2 \
+| "C"d2 c2- "D7"c2B2 | "G"d2 B4 AG | "D7"F2E2 A3G | "G"G6 :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: Mister Isaac's Maggot
+O: Playford 1695
+B: Barnes v.1 p.79
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 3/2
+L: 1/8
+K: C
+[|\
+"C"g4 e4 "G"d4 | "C"cde2 "F"d2c2 "G"d2G2 |\
+"C"G2 c4 B2 "F"A4 | "Dm"A2 d4 A2 "G"B2G2 |\
+"C"g4 e4 "G"d4 | "C"cde2 "F"d2c2 "G"d2G2 |\
+"C"G2 c4 B2 "F"A2fe | "G"d2c2 d2B2 "C"c4 |]
+"C"E2G2- G2"(F)"A2 G4 | "C"E2G2- "G"G2AB "C"c2G2 |\
+"C"E2G2- G2"(F)"A2 G4 | "C"E2G2- "G"G2AB "C"c2G2 |\
+"C"g3f/g/ "F"a3g/f/ "C"g3f/g/ | "F"agfe "Dm"fedc "G"d2G2 |
+"C"g3f/g/ "F"a3g/f/ "C"g3f/g/ | "F"agfe "G"defg "C"e2c2 |\
+"C"e4 "Dm"f3e/f/ "C"g4 | "C"cde2 "F"d2c2 "G"d2G2 |\
+"C"e4 "Dm"f3e/f/ "C"g4 | "C"G2c2- "F"cde2 "G(C)"d2c2 |]
+
+%%sep 1 1 500
+
+
+X: 1
+T: the Mulberry Garden   [Dm]
+T: the Maid in the Mill
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+O: Playford 1670
+B: Barlow #204 p.54 (with repeat in B part)
+B: Barnes v.1 p.83 (without repeat in B part)
+M: 6/8
+L: 1/8
+K: Dm
+A \
+| "Dm"d2e "F"fcA | "Gm"GAF "C"c2A | "Dm"d2e fd2 | "A7"a3- a2A \
+| "Dm"d2e "F"fcA | "Gm"GAF "C"c2A | "Bb"d2e fd2 | "F"a3- a2 |]
+a \
+| "Gm"bag "A7"a2e | "Dm"fd2 "Gm"g2f | "C"efg "Bb(Dm)"fed | "A7"^c3- c2B "I"\
+| "A7"A2G F2E | "Dm"Dd2 ^c2d | "Gm"eAf "A7"e2d | "Dm"d3- d2 |]
+
+%%sep 1 1 500
+
+
+X: 1
+T: Orleans Baffled [C]
+O: Playford 1721
+M: 3/2
+L: 1/4
+B: The Round Band Book of Playford
+B: Barnes "English Country Dace Tunes" p.93
+K: C
+[|"C"c2 g2 e2 | "F(Dm)"fa2 A "G7"BG \
+| "C"cB/c/ "G7"dc/d/ "C"ed/e/ | "F"fe/f/ "G7"dg "C"ec |
+| "G"G2 d2 B2 | "C(Am)"ce2 E "D7"^FD \
+| "G"G^F/G/ "D7"AG/A/ "G"BA/B/ | "C"cB/c/ "D7"Ad "G"BG |
+| "C"Gc "C7"c_B "F"AF | "D"Ad "D7"dc "G"BG \
+| "C(Am)"cB/c/ "G7"dG "C"eG | "F(Dm)"fA "G7"dB "C"c2 |]
+
+
+X: 1
+T: Orleans Baffled [D]
+O: Playford 1721
+M: 3/2
+L: 1/4
+B: The Round Band Book of Playford
+B: Barnes "English Country Dace Tunes" p.93
+K: D
+[|"D"d2 a2 f2 | "G(Em)"gb2 B "A7"cA \
+| "D"dc/d/ "A7"ed/e/ "D"fe/f/ | "G"gf/g/ "A7"ea "D"fd |
+| "A"A2 e2 c2 | "D(Bm)"df2 F "E7"^GE \
+| "A"A^G/A/ "E7"BA/B/ "A"cB/c/ | "D"dc/d/ "E7"Be "A"cA |
+| "D"Ad "D7"d=c "G"BG | "E"Be "E7"ed "A"cA \
+| "D(Bm)"dc/d/ "A7"eA "D"fA | "G(Em)"gB "A7"ec "D"d2 |]
+
+%%sep 1 1 500
+
+
+X: 1
+T: Prince William [G]
+O: 1731
+M: C|
+L: 1/8
+K: G
+|: D2 \
+| "G"G4 B2AG | "D7"A6 c2 | "G"B4 "D7"A4 | "G"GFGA "(D7)"G2A2 \
+| "G"B2G2 D2B2 | "D"A6 G2 | "D"F2d2 "A7"E2^c2 | "D"d6 :|
+|: Bc \
+| "G"d4 "C"e3d | "D7"c2B2 A2d2 | "(C)"c2B2 A2G2 | "D7"F2A2 D4 \
+| "G"G2FG "D7"A2GA | "G"B2AB "C"c2dc | "G"B2AG "D7"D2F2 | "G"G6 :|
+
+
+X: 1
+T: Prince William [A]
+O: 1731
+M: C|
+L: 1/8
+K: A
+|: E2 \
+| "A"A4 c2BA | "E7"B6 d2 | "A"c4 "E7"B4 | "A"AGAB "(E7)"A2B2 \
+| "A"c2A2 E2c2 | "E"B6 A2 | "E"G2e2 "B7"F2^d2 | "E"e6 :|
+|: cd \
+| "A"e4 "D"f3e | "E7"d2c2 B2e2 | "(D)"d2c2 B2A2 | "E7"G2B2 E4 \
+| "A"A2GA "E7"B2AB | "A"c2Bc "D"d2ed | "A"c2BA "E7"E2G2 | "A"A6 :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: the Queen's Jig
+R:
+O: England
+B:
+D:
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+|: G \
+| "C"c2d ede | "F"f3 "G7"efg | "C"efe "D(m)"d2c | "G7"d2G G2G \
+| "C"c2d ede | "F"f3 "G7"efg | "C"efe "G7"d2c | "C"c3 z2 :|
+|: e/f/ \
+| "C"gag f2e | "F"f3 "G7"efg | "C"efe "D(m)"d2c | "G7"d2G G2g \
+| "C"gag f2e | "F"f3 "G7"efg | "C"efe "G7"d2c | "C"c3 z2 :|
+
+
+X: 1
+T: the Queen's Jig
+R:
+O: England
+B:
+D:
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: A \
+| "D"d2e fef | "G"g3 "A7"fga | "D"fgf "E(m)"e2d | "A7"e2A A2A \
+| "D"d2e fef | "G"g3 "A7"fga | "D"fgf "A7"e2d | "D"d3 z2 :|
+|: f/g/ \
+| "D"aba g2f | "G"g3 "A7"fga | "D"fgf "E(m)"e2d | "A7"e2A A2a \
+| "D"aba g2f | "G"g3 "A7"fga | "D"fgf "A7"e2d | "D"d3 z2 :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: the Shropshire Lass
+M: 4/4
+L: 1/8
+%Q: 200
+O: Playford 1713
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: The Dancing Master Vol II 1713
+B: The Dancing Master Vol II 1713
+B: The Fallibroome Collection, book 4 (1791), selected and edited by Bernard Bentley
+B: Barnes I p.117
+K: D
+(3ABc |\
+"D"d2d2 "(A7)"c2B2 | "D"A4 A2BA | "G"G2F2 "A7"E2FG | "(D)"AGFE "D"D2
+(3ABc |\
+"D(Bm)"d2d2 c2B2 | "A(Em)"e4 e2f2 | "G"gfed "A7"cdec | "D"d6 :|
+|: de |\
+"D"f2f2 e2d2 | "G"g3a gagf | "Em"efef gfge | "A7"a4 a2
+bg |\
+"A7"fgef "D"d2ag | "A7"fgef "D"dfga | "G"bagf "A7"e3d | "D"d6 :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: Siege of Limerick
+O: Purcell 1698
+R: minuet
+B: Barnes v.1 p/118
+L:1/8
+M: 3/2
+K:Dm
+|:\
+"Dm(Bb)"d3e f2d2 "A(F)"a4 | "Gm"e3f "A7"g2^c2 "Dm"f4 |\
+"G"=B3d "A"^c2e2 "Bb"def2 | "A7"A2 d4 ^c2 "Dm"d4 :|\
+"F"c3d cBA2 ABc2 |
+"Bb"d3e def2 "C"efg2 |\
+"F"a2 f4 c2 "Bb"d2(cB) | "C"(AB) c4 e2 "F"f4 ||\
+"Dm"a3b a2f2 "Gm"d4 | "Em"g3a g2e2 "A7"^c4 |
+"Dm"f3g f2d2 "G"=B2e2 | "A7"^c2 A4 ^c2 "Dm"d4 ||\
+"F"a3b a2f2 "Bb"d4 | "Em"g3a g2e2 "A7"^c4 |\
+"Dm"f3g f2d2 "G"=B2e2 | "A7"^c2 A4 ^c2 "Dm"d4 |]
+
+%%sep 1 1 500
+
+
+X: 1
+T: Take a Dance [Am]
+O: 1765
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+|: "Am"A2B     c2d |     edc "G(Em)"B3 | "Am"A2B c2d | "(F)"e2f "(G)"ecA \
+|  "Am"A2B     c2d |     edc   "Em" B3 |  "G"G2A B2c |  "G" d2g      dBG :|
+|:  "C"g2e "G7"f2d | "Am"e2c   "Em" B3 | "Am"A2B c2d | "(F)"e2f "(G)"ecA \
+|   "C"gge "G7"ffd | "Am"eec   "Em" B3 |  "G"G2A B2c |  "G" d2g      dBG :|
+
+
+X: 1
+T: Take a Dance (Bm)
+O: 1765
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bm
+|: "Bm"B2c     d2e |     fed "A(F#m)"c3 | "Bm"B2c d2e | "(G)"f2g "(A)"fdB \
+|  "Bm"B2c     d2e |     fed   "F#m" c3 |  "A"A2B c2d |  "A" e2a      ecA :|
+|:  "D"a2f "A7"g2e | "Bm"f2d   "F#m" c3 | "Bm"B2c d2e | "(G)"f2g "(A)"fdB \
+|   "D"aaf "A7"gge | "Bm"ffd   "F#m" c3 |  "A"A2B c2d |  "A" e2a      ecA :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: a Trip to Paris
+C: Andr\'e Campra 1710
+O: Playford 1726
+R:
+Z: 2009 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+P:
+K: Am
+A |\
+"Am"c>d ee | c>d ee | ce ce | cB/c/ AA |\
+c>d ee | c>d ee | cA "E7"B^G | "Am"A3 ||
+e |\
+"F"a2 a^g | "Am"ag/f/ ee | "F"a2 a^g | "Am"ag/f/ ee |\
+"Dm"f>e "G"dg | "C"e3 f | "G"d3 e | "Am"c3 d ||
+"Dm"dc "G"dB | "C"c3 c ||\
+"G"Bc de | "Am"cB/c/ Ac | "G"Bc de | "Am"cB/c/ Ac |\
+"C"EF GA | "G"B2 "F"a2 | "C"ed/c/ "G"dc/B/ | "Am"A3 |]
+
+%%sep 1 1 500
+
+
+X: 1
+T: a Trip to Tunbridge
+O: 1793
+R: march
+N: Variant of Green Grow the Rashes O.
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Em
+B2 |\
+"Em"GGG2 B3A | "Em"B2G2 G2B2 | "Am"AAA2 "(E7)"e3d | "Am"e2A2 A2B2 |\
+"C"c6 e2 | "D"dcBA "Em"B2G2 | "Am"AAA2 "(B7)"B3A | "Em"G2E2 E2 :|
+|: B2 |\
+"G"GGG2 g3f | "G"g2d2 d2g2 | "Am"eee2 a3g | a2e2 e3g |\
+"C"g2a2 e2=f2 | "G"dcBA B2G2 | "Am(D)"AAA2 "(B7)"B3A | "Em"G2E2 E2 :|

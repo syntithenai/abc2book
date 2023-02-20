@@ -1,0 +1,34 @@
+X: 20802
+T: COQUETTE SETT (tune 2)
+C:
+%R: reel, hornpipe
+B: Elias Howe "The Musician's Companion" 1843 p.80 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="2"
+ef |\
+g4 agec | d4 edcB |\
+c2cB c2d2 | e2f2 g2e2 |\
+g4 f2d2 | a4 g2ed |
+cBAG ^FGAB | c2e2c2 H|]\
+A,2 |\
+C>B,C>D E>FG>E | F>EF>G A>Bc>A |\
+G>ce>d c>BA>G | F>ED>C B,>DB,>G, |
+C>B,C>D E>FG>E | F>EF>G A>Bc>A |\
+G>Ec>e dcBd | c2e2"^D.C."c2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% -- balance four,
+%% and turn,
+%% -- next two, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

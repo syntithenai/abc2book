@@ -1,0 +1,16 @@
+X:1
+T:Maggie Brown's Favorite
+R:Jig
+M:6/8
+L:1/8
+%%printtempo 0
+Q:1/4=180
+K:G
+g|\
+"G"dBG "Em"GAB|"C"E2E "Am"E2c|"D"AFD DEF|"G"GDB, G,2g|
+dBG "Em"GAB|"C"E2E "Am"E2c|"D"AFD DEF|"G"G3 G2:|
+|:a|\
+"G"bgb "D"afd|"C"efg gfe|"G"dBg dBG|"D"AFD Dga|
+"G"bgb "D"afd|"Em"efg gfe|"D"faf "A"ge^c|"D"d3 de=f|
+"C"ece "G"dBd|"D7"cac "G"BgB|"Am"Ace "G"dBG|"D"FAF "D7"DEF|
+"G"GAB "Em"EFG|"Am"ABc "D"def|"G"gdB "D7"cAF|"G"G3 G2:|

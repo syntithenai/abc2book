@@ -1,0 +1,23 @@
+X: 3322
+T: Earl of Hyndfords   Reel
+%R: reel
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.32 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Cm
+% - - - - - - - - - -
+V: 1 staves=2
+G, |\
+TC2EG (cde).c | .B(GTFE) DB,B,D | TC2GE (cde).c | .B(GFD) ECCE ||\
+TC2EG  (cde).c | .B(GTFE) DB,B,D | ECFD GEAF | GEFD ECC |]
+G |\
+cG Ee cgec | Bbfg dfBd | e<cge dBGc | BEDG ECCG ||\
+cG Ee cgec | BdFB DFB,D | ECFD GEAF | GEFD ECC |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+c2c2 c2c2 | e2f2 B2B2 | c2c2 c2c2 | g2G2 c2c2 || c2c2 c2c2 |
+e2f2 B2B2 | c2G2 c2f2 | g2G2 c2c |] z | c'2c'2 c'2c'2 | b2b2 b2b2 | c'2c'2 g2g2 |
+e2g2 c2c2 || c'2c'2 c'2c'2 | b2b2 B2B2 | c2G2 c2f2 | g2G2 c2c |]

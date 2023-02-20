@@ -1,0 +1,29 @@
+X: 1
+T: Yerakina
+T: Gerakina
+O: Greece
+R: kalamatianos
+D:
+D: Tradition TLP1037 "Songs of Greece" by Theodore Alevizos
+D: Alshire S-5242 "Greek Folk Songs & Dance" (various groups)
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+W: Yerakina goes to the well for water and falls in.  Her boyfriend comes
+W: by, and says he will pull her out if she will promise to marry him.
+M: 7/8
+L: 1/8
+K: C
+[| "C"([G2E][AF]) ([BG][cA][BG][AF]) | [G7E] \
+| [G2E][AF] [BG][cA][BG][AF] | [G2E][FD] [GE][FD][E2C] \
+| "Am"([E2C][EC]) ([FD][GE][FD][EC]) | "Dm"[F7D] |
+w: 1.~Ki-*ni- | se i* Ye-*ra-*ki-*na | ya* ne- | ro
+w: 2.~Ke-*pe- | se mes*to* pi-*ga-*di | ke ev-ga- | le
+w: 3.~Ke-*tre- | xe o* kos-*mos* o-*los, | ke-*tre- | xa
+w: 4.~Ye-*ra- | ki- na* tha* se* vga-*lo | ke* gi- | neka
+| "G7"([G2E][FD]) ([FD][GE])([FD][EC]) | "C"([E2C][FD]) ([GE][AF])([BG][AF]) \
+|: "G7"[G3E] [F2D]([FD][EC]) | "C"[G3E] ([GE][AF])([BG][AF]) |
+w: kri-*o* na* fe-*ri.* Droum,* droum, droum, droum,* droum, ta* vra-*
+w: fo-*ni* me-*ga-*li.* Droum,* droum, droum, droum,* droum, ta* vra-*
+w: ke~e-*go* kai-*me-*nos.* Droum,* droum, droum, droum,* droum, ta* vra-*
+w: tha* se*** ka-* no.* Droum,* droum, droum, droum,* droum, ta* vra-*
+| "G7"[GE][G2E] ([FD][GE])([FD][EC]) |1 "C"([E2C][FD]) ([GE][AF])([BG][AF]) :|2 "C"[E7-C7-] | [E7C7] |]
+w: chio-lia tis* vron-*doun.* Droum,* droum* doun.

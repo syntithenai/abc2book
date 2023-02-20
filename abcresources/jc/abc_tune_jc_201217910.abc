@@ -1,0 +1,82 @@
+%%text Paul Milde's tunes
+
+
+X: 1
+T: Medway Jig #1
+I: Medway Jigs I, The	J-43	G	jig
+C: Paul Milde 1994
+M: 6/8
+R: jig
+K: G
+GA |\
+"G"BAB "C"cBc | "G"dBG "C"EFG | "G"DGA BAG | "D"ded dGA |\
+"G"BAG "C"cBA | "D"def "G"gdB | "C"ecA "D"FAF | cAF "G"G2 ||
+D |\
+"G"GFG "C"ABG | "G"dBG "C"EFG | "G"DGA "Em"BAG | "D"ded dGA |\
+"G"BAG "C"cBA | "D"def "G"gdB | "C"ecA "D"FAF | DAF "G"G2 |]
+d |\
+"G"cAf "C"edg | "D"fef "G"gfg | "D"aga "G"bag | "A"fge "D"d2B |\
+"G"b2g "D"agf | "C"efg "G"d2g | "C"efg "D"agf | "G"g3- g2 ||
+d |\
+"G"cAf "C"edg | "D"fef "G"gfg | "D"aga "G"bag | "A"fge "D"d2B |\
+"G"b2g "D"agf | "C"age "G"d2B | "C"ced "D"cAF | "G"G3- G |]
+
+
+X: 2
+T: Medway Jig #2
+I: Medway Jigs II, The	J-43	G	jig
+C: Paul Milde 1994
+M: 6/8
+R: jig
+K: G
+[|\
+"G"BAG BAG | BAG d2G | B2G "C"AGE | "D"D3 C3 |\
+"G"B,CD D2G | D2E G2A | B2d dcB | "D"(A3 A2)G |
+"G"BAG BAG | BAG d2G | B2G "C"AGE | "D"D3 C3 |\
+"G"B,CD D2E | D2E G2 A | "D"B2B AGA | "G"(G3 G2) |]
+d |\
+"G"Bcd dcB | "C"c2d g2d | "G"Bcd e2d | "C"c2B "D"A3 |\
+"G"B2c dcB | "D"A2B c2A | "Em"GAB BAG | "D"A2F "G"G2d |
+"G"Bcd dcB | "C"c2d g2d | "G"Bcd e2d | "C"c2B "D"A3 |\
+"G"Bcd "D"c2A | "G"B2G "D"ABc | ABc "G"B2G | "D"A2F "G"G3 |]
+%%text Roaring Jelly  J-43
+
+
+X: 3
+T: Medway Jig #3
+I: Medway Jig #3	J-54	D	jig
+C: Paul Milde 1997
+M: 6/8
+R: jig
+K: G
+D |\
+"G"G3 "D"FGA | "G"G3 D2G | B2d dcB | "D"AGA "G"B2d |\
+d2c B2A | GAB "D"A2D | "G"G2G "D"F2G | AGF "G"G2 :|
+d |\
+"C"e3 efg | "G"d3 dcB | "D"cBA "G"BAG | "Am"ABe "D"d2d |\
+"C"e3 efg | age "G"d2B | "C"cde "G"dcB | "D"FGA "G"G2d |
+"C"e3 efg | "G"d3 dcB | "D"cBA "G"BAG | "Am"ABe "D"d2d |\
+[1 "C"e3 gfe | "G"ded B2G | "D"A2c "G"BAG | "D"FGA "G"G2 |]
+P: Last time
+[| "C"e3 gfe | "G"d3  B2d | "D"A2c "G"BAG | "D"FGA "G"G3 |] \
+y6 y6 y6 y6 y6 y6 y6 y6
+
+
+X: 4
+T: Jelly Side Up
+I: Jelly Side Up	R-111	G	reel
+C: Paul Milde 1998
+M: C|
+R: reel
+K: G
+D2 |\
+"G"GFGA B2AG | d2Bc dcBd | g2fg "C"agef | agfe "G"d3B |\
+"Am"cBcd "D"ecA2 | "G"B2GA B2G2 | "D"A2Ac "G"B2AG | "D"FGAF "G"G3D |
+"G"GFGA B2AG | d2Bc d2f2 | g2fg "C"agfe | "G"d2Bc d3B |\
+"Am"cBcd "D"e2c2 | "G"B2GA B2G2 | "D"A2Ac "G"B2AG | "D"FGAF "G"G2 |]
+Bc |\
+"G"d2d2 g3d | "C"e2ge "G"d3B | "D7"cBce "G"d2cB | "Em"GABG "D"A2Bc |\
+"G"d2B2 g2d2 | "C"egfe "G"d3B | "C"cedc "G"B2GB | "C"AG"D"FA "G"G2Bc |
+"G"d4 g3d | "C"ecge "G"d3B | "D7"cBce "G"dcBA | "Em"GABG "D"A2d2 |\
+"G"g3a "Em"gfed | "D"gfed "C"fedc | "G"B2GB "D"AGFA | "G"G6 |]
+

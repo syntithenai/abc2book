@@ -1,0 +1,21 @@
+X: 15
+T: the Glass house
+%R: jig
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.8 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|:\
+gfe dcB | ABG FED | GAG BdB | ABA c2e |\
+gfe dcB | ABG FED | gfe afd | Ad^c d3 :|
+|:\
+dBd cAc | BGB AFD | GAG BGB | dcB A3 |\
+gfe dcB | ABG FED | GAG BdB | cAd G3 :|
+%%begintext align
+%%   Cast down 1 Cu. & 4 Hands with the 3d .| Cast
+%% up again and 4 Hands at top :| lead down two
+%% Cu. up again and Cast off :|. lead thro' the 3d
+%% Cu. and Right and Left at top :|:
+%%endtext

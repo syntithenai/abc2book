@@ -1,0 +1,54 @@
+X: 10641
+T: THE EAST NEUK OF FIFE -- Variations
+R: reel
+B: K\"ohler's Violin Repository, v.1, 1885 p.64
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Added P: lines to separate the variations.
+M: C|
+L: 1/8
+K: G
+uD2 |\
+G4 G2Bc | dBGB dBGB | A4 A2gf | e3d (ef)g2 |\
+dcBA GABc | dBGB d3B | ABcd BcAB | G2[E2G,2] [E2G,2] :|
+|: u(dc) |\
+B2G2 G2(dc) | B2G2 G2(ed) | c2A2 A2(ed) | c2A2 A2(dc) |\
+B2G2 d2G2 | g2G2 d2(cB) | ABcd BcAB | G2E2 E2 :|
+P: Var. 1
+|: u(D/E/F) |\
+(GF)GA (BA)Bc | (dc)BA (GA)BG | A^GAB cBcd | (ed)cB (AB)cA |\
+(GF)GA (BA)Bc | (dc)BA (GA)BG | ABcd BcAB | G2E2 :|
+|: (dc) |\
+B2G2 G,2(dc) | (B/c/).B (A/B/).A G2(ed) | c2A2 A,2(ed) | (c/d/).c (B/c/).B A2(Bc) |\
+dGFG BGFG | g(GFG) d2(cB) | ABcd BcAB | G2E2 E2 :|
+P: Var. 2
+|: u(D/E/F) |\
+G2G,A, (B,A,)B,C | DCB,A, G,A,B,G, | A2A,B, (CB,)CD | EDCB, A,B,CA, |\
+G2G,A, (B,A,)B,C | DCB,A, G,A,B,G,| ABcA dcBA | G2E2 E2 :|
+|: (ef) |\
+(gf)gd (Bc)dB | (gf)gd (Bc)dB | (a^g)ae (cd)ec | (a^g)ae (cd)ec |\
+(gf)gd (Bc)dc | g>age dBGB | ABce dcBA | G2E2 E2 :|
+% %center (To be continued.)
+P: Var. 3
+u(G,/A,/B,/C/) |\
+D(B,G,B, G)(B,G,B, | D)(B,G,B, G)(B,G,B, | E)(CA,C A)(CA,C | E)(CA,C A)(CA,C |\
+D)(B,G,B, G)(B,G,B, | G,)(Bce) dBGB | ABcA (d/c/)BcA | G2E2 E2 :|
+|: u(dc) |\
+(BG) (dG) (eG) (dG) | (BG) (dG) (eG) (dG) | (cA) (eA) (aA) (eA) | (cA) (eA) (aA) (eA) |\
+(BG) (dG) (eG) (dG) | (g>a)ge (d/c/B/A/) GB | ABcd BcAB | G2E2 E2 :|
+P: Var. 4
+|: u((3DEF) |\
+["2nd time, 8va. 3rd position."\
+GG, (B,/A,/G,) DG, (B,/A,/G,) [|] | GG, (B,/A,/G,) DG, (B,/A,/G,) |\
+AA, (C/B,/A,) EA, (C/B,/A,) | AA, (C/B,/A,) EA, (C/B,/A,) |
+GG, (B,/A,/G,) DG, (B,/A,/G,) | GG, (B,/A,/G,) DG, (B,/A,/G,) | ABcd BcAB | G2E2 E2 :|
+|: u(Bc) |\
+dBGB gBGB | dBGB gBGB | ecAc acAc | ecAc acAc |\
+dBGB gBGB | d(gfe) dBGB | ABce dBcA | G2E2 E2 :|
+P: Var. 5
+|: (gf) |\
+egdg Bgdg | egdg Bgdg | eaca Aaca | eaca Aaca |\
+egdg Bgdg | efge dBGB | AB (c/B/).A (d/c/).B (c/B/).A | G2E2 E2 :|
+uD2 |\
+G4 G2Bc | dBGB dBGB | A4 A2gf | e3d (ef)g2 |\
+dcBA GABc | dBGB d3(B | AB)cd BcAB | G2E2 "^Fine."E2 |]

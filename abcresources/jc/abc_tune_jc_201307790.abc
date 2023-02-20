@@ -1,0 +1,36 @@
+X: 1
+T: Mask
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.148
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+cde2c2 d2B2G2 | ABc2E2 D4C2 | EFG2E2 G4G2 | cde2c2 d6 |\
+cde2c2 d2B2G2 | ABc2E2 D4C2 | EFG2G2 ABc2c2 | efg2e2 c6 |]
+[|\
+efg2e2 g2e2c2 | fga2f2 a4a2 | efg2e2 g2e2c2 | d2G2d2 d6 |\
+efg2e2 g2e2c2 | fga2f2 a3gf2 | efg2e2 d2B2G2 | ABc2E2 C6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man go above the 1. wo. into the 2. wo. place, the 2. wo. into the 2. man's place, and the 2. man
+%% into the 1. man's place, then all four turn S.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. wo. go above the 2. man into the 2. place, the 2. man into the 1. wo. place, and the 2. wo.
+%% into the 2. man's place, then all four turn S.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% All four hands a-cross half round, then fall back and hands a-cross half round, then back again, then the
+%% two men and two we. lead to the wall at the same time, the other do the like, then all four meet, jump,
+%% and clap hands, then take hands half round, and so cast off, then lead down the other lead up, then all
+%% four meet and jump, and clap hands all together, then turn their own Partners.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

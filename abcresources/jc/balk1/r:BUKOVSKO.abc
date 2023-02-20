@@ -1,0 +1,28 @@
+X: 72
+T: Bukovsko
+O: Macedonia
+M: 11/8
+N: 2,2,2,2,3/8
+L: 1/8
+K: Gm clef=treble
+Q: 1/4=180
+%%MIDI gchord GzHzIzHzGzz
+%%MIDI chordprog 45 Pizzicato String
+P:A
+:TD2 CD EF GA TBAG|F2 DF ED C2 D (3DEF|\
+D2 CD EF GA BAG|F2 DF ED C2 Dzz:|
+P:B
+AB cB AG FG AGF|F2 ED CD D2 DEF|\
+AB cB AG FG AGF|F2 ED CD D2 D2z:|
+P:C
+M: 9/8
+%%MIDI gchord GzHzIzHzz
+D2 B,D CB, A,Cz |B,2 B,F, B,C Dz2|\
+D2 B,D CB, A,Cz |B,2 B,F, B,C B,z2:|
+P:D
+K:CPhr=E clef=treble
+CD EF GF EDz|CD EF GF EDz|\
+CD EF GA BAz|GF E/F/E/D/ ED C2z:|
+P:E
+BA GF ED EFz|ED/E/ D/C/B, CG, C2z|\
+BA GF ED EFz|ED/E/ D/C/B, CG, C2z:|

@@ -1,0 +1,19 @@
+X: 11271
+T: TINK A TINK.
+T: From the opera of "Blue Beard."
+Q: "With spirit."
+%R: air, hornpipe, shottish
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.127 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4	% Actually, no time signature is shown.
+L: 1/8
+K: F
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+F2c>A | F2c>A | B>cB>A | G>FE2 |\
+F2c>A | F2c>A | B>GF>E | F2[fF]z :|\
+c2f>e | d>cB>A | G>AB>c | AGFz |\
+c2f>e | d>cB>A | G>BE>G | F2[fF]z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

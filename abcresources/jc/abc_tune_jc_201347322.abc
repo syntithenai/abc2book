@@ -1,0 +1,39 @@
+X: 1
+T: the Twenty-ninth of May
+T: the 29th. of May
+P: Longways for as many as will
+%R: reel, march
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.39 "E 2"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The title is given in both forms to improve the chance of successful lookups.  (Why "29th." has a period is unknown.)
+N: Repeat added to first strain to match the dance description.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+a2f2 g2f2 | edcB A2f2 | g2B2 c3B/c/ | d2A2 F2(ED) :| F2 A4 (GF) | G2 B4 B2 |
+cde2 cde2 | c2Bc A2de | f2ef d2ef | g2fg e2fg | a2B2 c3B/c/ | d2A2 F2(ED) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First cu. take hands, the 2. cu. doing the like at the same time; then the 1. man puts back his wo. and slips down behind
+%% the 2. wo. into the 2. cu. place, while the 2. man draws his wo. to him and slips into the 1. cu. place. Do this back again
+%% the same way; Which is the first Strain of the Tune play'd twice over. Then the 1. man change places with the 2. wo. and
+%% the 1. wo. with the 2. man; then hands round and back, and when the 1. cu. are at the top, they cast into the 2. cu. place.
+%% This ends the Tune.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First man and 2. wo. fall back, then lead up to each other and turn back to back, then the 1. wo. and 2. man do the
+%% like.  This is the first Strain played twice.  Then take all hands and go round, till the men are in the we. place, and the
+%% we. in the men's, then men and we. change places. This ends the Tune.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First man and wo. cross over, and 1. man go round behind the 2. wo. and 1. wo. round behind the 2. man, and slip between
+%% them; then take hands, and lead up all a-breast and back again. This to the First Strain played twice. Then honour
+%% to each other's wo. then to your own, then turn each other's wo. and then your own, the 1. cu. turning into the 2.
+%% cu. place. This ends the Tune.
+%%endtext
+%%sep 1 8 500

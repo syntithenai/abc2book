@@ -1,0 +1,54 @@
+X: 1
+T: TEST: Builtin fonts
+%%scale 0.80
+%%staffwidth 200
+%%partsspace 0
+K: C
+P:Avant-Garde-Demi 18 font:
+%%vocalfont Avant-Garde-Demi 18
+[| G2 E2 C4 |]
+w: Avant-Garde-Demi
+P:Bookman-Demi 18 font:
+%%vocalfont Bookman-Demi 18
+[| G4 C4 |]
+w: Bookman-Demi
+P:Courier 18 font:
+%%vocalfont Courier 18
+[| G4-C4 |]
+w: Courier
+P:Gothic 18 font:
+%%vocalfont Gothic 18
+[| G4-C4 |]
+w: Gothic
+P:Helvetica 18 font:
+%%vocalfont Helvetica 18
+[| G4-C4 |]
+w: Helvetica
+P:Helvetica-Narrow 18 font:
+%%vocalfont Helvetica-Narrow 18
+[| G4 C4 |]
+w: Helvetica-Narrow
+P:Palatino 18 font:
+%%vocalfont Palatino 18
+[| G4-C4 |]
+w: Palatino
+P:Times 18 font:
+%%vocalfont Times 18
+[| G4-C4 |]
+w: Times
+P:Times-Narrow 18 font:
+%%vocalfont Times-Narrow 18
+[| G4 C4 |]
+w: Times-Narrow
+P:Times-Courier 18 font:
+%%vocalfont Times-Courier 18
+[| G4 C4 |]
+w: Times-Courier
+P:Times-New-Roman 18 font:
+%%vocalfont Times-New-Roman 18
+[| G2 E2 C4 |]
+w: Times-New-Roman
+P:Times-Roman 18 font:
+%%vocalfont Times-Roman 18
+[| G4 C4 |]
+w: Times-Roman

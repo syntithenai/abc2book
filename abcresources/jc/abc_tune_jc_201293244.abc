@@ -1,0 +1,53 @@
+X: 1
+T: The Puppeteer
+C: Keith Murphy
+R: jig
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D !segno!|:\
+"G"G2G "D7"ABA | "G"G3 G2A | "G"B2B "(C)"cde | "D7"d3 dBc |\
+"G"d2d "D7"def | "Em"gdc "G"BAG | "C"cde "G"dcB | "Am"A3 [1 "D7"ABA :|2 "D7"ABc ||
+|:\
+"G"B2g gfg | "D7"agf "G"gfg | "D"a2d "(G)"d2b | "D"a3 aga |\
+"Em"b2b "D"agf | "C"gfe "G"dcB | "Am"cde "G"dcB | "D7"A3 [1 ABc :|[2 AGF !segno!|]
+
+%%sep 1 1 500
+
+X: 1
+T: Chamonix
+C: Keith Murphy
+R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: printed copy of unknown origin, from Paul Lizotte
+M: 6/8
+L: 1/8
+K: D
+|:\
+"A7"ABc "D"d2d | "A7"ABc "D"def | "G"g2d dcB | BcB BAG |\
+"A7"ABc "D"d2d | "A7"ABc "D"def | "G"g2b "D7"agf | "G"gdB [1 GAB :|2 G3 ||
+|:\
+"G"G,A,B, DEG | BdB BAG | "C"c2B AGA | "G"BGE "D7"DB,A, |\
+"G"G,A,B, DEG | BdB BAG | "C"c2B "Am"AGA | "D7"BGF [1 "G"GDB, :|2 "G"G3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: The Farmer's Joy
+C: Adam Broome
+R: jig
+S: Paul Lizotte's Joy of Sets collection
+S: printed copy of unknown origin
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: z3 |\
+"A"efa c2c | "E7"dcB "A"c2A | c2A cde | "D"f3 "A"e3 |\
+"A"efa c2c | "E7"dcB "A"c2A | cde "E7"dcB | "A"A3 :|
+|: AGA |\
+"E7"B2E B2B | BcA B2E | B2E "(D)"Bcd | "A"c2A "E"B3 |\
+"E7"B2E B2B | BcA B2e | "D"efa "E7"c2B | "A"A3 :|
+
+%%sep 1 1 500

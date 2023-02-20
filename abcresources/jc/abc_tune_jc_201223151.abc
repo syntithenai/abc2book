@@ -1,0 +1,23 @@
+X: 07005
+T: ANDY'S REEL
+C: Bob McQuillen 13 Dec'82
+B: Bob's Note Book 7 #5
+%R: reel
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+BA \
+| G2DE G2Bd | edBA BdBA | G2BG EDGA | BdBG A2BA |
+| G2DE GABd | edBA Bdeg | agbg e2ge | dBAB G2  :|\
+|: ge \
+| d2Bd edge | dedB edeg | a2eg a2ge | Bdeg dBGA |
+| B2dB AGED | B,DEG | AGBd | egdB edBd | BGAB G2 :|
+%%begintext align
+%% This tune is for
+%% Andy Davie of So. Acworth, N.H. He's a real
+%% find piano player who also plays accordion
+%% in the group "Noel Sing We Clear", along with Tony
+%% Barrand, John Roberts, and Fred Breunig. I hope
+%% this tune sounds O.K. on your squeezebox, Andy!
+%%endtext

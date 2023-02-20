@@ -1,0 +1,27 @@
+X: 130029
+T: DASHING WHITE SERGEANT
+%R: march, reel
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+N: The ending was changed, from one bar with the held d plus the run downwards, to two endings.
+B: James Kerr "Merry Melodies" v.1 p.30 s.0 #29
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd G in bar 8 should have a natural sign.
+M: 2/4
+L: 1/16
+K: D
+(FE) :|\
+D2D2 DEFG | A2A2 A2(fe) |\
+d2B2 A2F2 | B2E2E2 (FE) |\
+D2D2 DEFG | A2A2 A2f2 |\
+e2d2c2B2 |[1 A^GAB AGFE :|
+[2 A4- A2 ||\
+uE2 |\
+A2AB c2cd | efec A2A2 |\
+B2Bc d2de | fgfd B2B2 |\
+c2AA d2AA | e2AA f2AA |\
+g2f2e2d2 | c2B2A2G2 ||
+F2d2 dcde | d2A2 A4 |\
+vB2e2 e^def | e2B2 B4 |\
+vA2d2 dcde | f2d2 dcde |\
+f2z2 a2z2 |["1-N" d2(cB) AGF"_D.C."E |]\
+["fine"d4- d2 |]

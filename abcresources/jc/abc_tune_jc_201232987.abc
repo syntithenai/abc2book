@@ -1,0 +1,16 @@
+X:18192
+T: Maxwell's Rant II
+R: march
+B: RSCDS 18-19(II)
+Z: 1997 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music
+Z:bc/
+M: 2/4
+L: 1/8
+%--------------------
+K: A
+|: c2 \
+| "A"A3E C2E2 | A3E C2c2 | A3E "D"FEDC | "E7"c2B4 c2 \
+| "A"A3E C2E2 | A3F E2C2 | "D"D3F "E"E2G2 | "A"A6 :|
+|: E2 \
+| "A"A3A c2e2 | "E7"d2B2 G2B2 | "A"c2A2 "F#m"e2c2 | "Bm"c2B2- "E7"B2G2 \
+| "A"A3F E2C2 | "D"D3E F2f2 | "E7"e3d c2B2 | "A"c2A4 :|

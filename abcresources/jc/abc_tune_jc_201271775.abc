@@ -1,0 +1,45 @@
+X: 1
+T:Exercises - Page 5
+M:C
+L:1/8
+Q:80
+C:
+S:Exercise
+K:HP
+{fg}fa{fg}f|
+Aa{fg}fdg{fg}f|
+a{fg}fg{fg}fa{fg}f|  !
+e{ag}ae{ag}a|
+e{ag}ag{ag}af{ag}ad{ag}aB{ag}ac{ag}aA{ag}a|
+d{gdG}dd{gdG}d|  !
+ed{gdG}dAd{gdG}dad{gdG}dcd{gdG}dAd{gdG}d|
+e{Gdc}de{Gdc}d|
+A{Gdc}df{Gdc}dc{Gdc}da{Gdc}dg{Gdc}dG{dc}d|  !
+e{g}A{d}B{Gdc}d3/2e/2{g}d{ag}ag/2f/2{g}e/2d/2{g}f2|
+e{Gdc}d3/2e/2{Gdc}d{e}A{g}Bd{gdG}d2|
+e{ag}ae{A}e3/2g/2{fg}fd{gdG}d2|  !
+e{Gdc}d2{ag}a2{fg}f2{g}ed{gdG}d2{g}ef{g}A2|
+M:C| |:
+e|  !
+{Gdc}d{e}A{Gdc}d3/2e/2|
+{g}fa{fg}fd|
+{a}g3/2f/2{g}e3/2d/2|  !
+{g}ce{g}c{e}A|
+{Gdc}d{e}A{Gdc}d3/2e/2|
+{g}fa{fg}fd|  !
+{a}g3/2f/2{g}ea|
+{fg}fd{gdG}d:| |:
+g|  !
+{ag}a2{g}a3/2g/2|
+{fg}fa{fg}fd|
+{a}g3/2f/2{g}e3/2d/2|  !
+{g}ce{g}c{e}A|1
+{ag}a2{g}a3/2g/2|
+{fg}fa{fg}fd|  !
+{a}g3/2f/2{g}ea|
+{fg}fd{gdG}dg:|2
+{Gdc}d{e}A{Gdc}d3/2e/2|  !
+{g}fa{fg}fd|
+{a}g3/2f/2{g}ea|
+{fg}fd{gdG}d2|]  !
+

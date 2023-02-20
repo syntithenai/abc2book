@@ -1,0 +1,30 @@
+X: 133
+T: College Hornpipe
+B: Thomas Wilson "A Companion to the Ballroom" 1820
+S: http://contrafusion.co.uk/Dances/EFDS2609-TheCollegeHornpipe.html
+R: reel
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+Q: "Allegro"
+K: Bb
+%%continueall
+BA |\
+B2B,2 B,2FE | D2B2 BdcB | c2C2 C2cB | A2f2 f2ga |\
+bagf gfed | ecdf BAGF | GBAc Bdce | d2B2 B2 |]
+FE |\
+DFBF DFBF | G2E2 E2GF | =EGcG EGcG | A2F2 F2z2 |\
+B2f2 f2ed | ecdf BAGF | GBAc Bdce | d2B2 B2 |]
+%%begintext 
+%% SINGLE FIGURE   (Tune played straight thro')
+%%   Set & hands across quite round with 2d Cu: set & back again .| lead down
+%% the middle up again & right & left with top Cu: .|
+%%
+%% OR THUS The 3 ladies join hands the 3 gent: join hands set & lead thro'
+%% set & back again .| whole poussette .|
+%%
+%% DOUBLE FIGURE   
+%% The 3 ladies lead round the 3 gent: .| the 3 gent: lead round the 3 la_
+%% dies :| lead down the middle up again set to top Cu: & the double triangle
+%% .|
+%%endtext

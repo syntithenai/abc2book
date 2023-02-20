@@ -1,0 +1,23 @@
+X: 31
+T: Balta Dreapta
+O: Romania
+F: http://www.youtube.com/watch?v=exiPS_nMr4w
+M: 2/4
+L: 1/8
+Q: 1/4=240
+K: D
+%%MIDI gchord fz
+%%MIDI program 110
+%%MIDI bassprog 115
+|:"a"a2 eg  |"d"f2 e2|"a"a2 eg|"d"f2 e2  |\
+  "a"a2 eg  |"d"f2 e2|eg f2   |"a"eA3   |
+  "a"a2 eg  |"d"f2 e2|"a"a2 eg|"d"f2 e2  |\
+  "a"a2 eg  |"d"f2 e2|eg f2   |"a"eA3   :|
+|:"a"c2 de  |"e"f2 de|"a"f2 e2|"e"c2 e2  |\
+  "a"c2 de  |"e"f2 de|"a"f2 e2|"e"c2 e2  |
+  "a"c2 de  |"e"f2 de|"a"f2 e2|"e"c2 e2  |\
+  "a"c2 de  |"e"f2 de|"a"f2 e2|"e"c2 e2  :|
+|:"a"A2 A2|A2 eg  |"e"f2 e2|c2 e2     |\
+  "a"A2 A2|A2 eg  |"e"f2 e2|c2 e2     |
+  "a"A2 A2|A2 eg  |"e"f2 e2|c2 e2     |\
+  "a"A2 A2|A2 eg  |"e"f2 e2|c2 e2     :|

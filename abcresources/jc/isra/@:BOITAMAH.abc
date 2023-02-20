@@ -1,0 +1,24 @@
+X: 40
+T: Bo'i Tamah
+C: Effi Netzer 1969
+O: Israel
+M: 3/8
+L: 1/8
+K: Em
+P:A
+Q:1/4=100
+%%MIDI drum dzzzdz 81 81 90 90
+%%MIDI drumon
+GGF|G2F|G/F/G2-|G2z|\
+AA^G|A2^G|A/^G/A2-|A2z|
+BBA|B2A|^G3|A3|:\
+=FFA|G2=F|E3|G3:|
+P:B
+Q:1/4=96
+K:Ephr
+C2B,|C2D|E2=F|G3|\
+F2A|G2F|E3-|E3:|
+c2c|B2A|G2F|E3|\
+A2c|B2A|G3-|G3|
+c2c|B2A|^G2G|A3|\
+F2A|G2F|E3-|E3|

@@ -1,0 +1,43 @@
+X: 1096
+T: New Pierot
+P: Longways for &c.
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The time signature is just "2".
+N: Some phrase boundaries have incorrect rhythm; adjust final notes appropriately.
+N: The unusual use of Segno means to repeat the last 4 bars of the last phrase, within the repeat of the phrase.
+M: 2/2
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has staff breaks at phrase boundaries.
+V: 1
+A2Bc |\
+d2d2 c2B2 | A4 (Bc)d2 | (cd)e2 A2c2 | d4 :|\
+|: f2A2 |\
+TA4 g2A2 | TA4 f2A2 | TA4 a2A2 | TA4 cde2 |
+Bcd2 GAB2 | TA4 E2A2 | TA4 E2G2 | TG4 F2E2 | DBcd e2c2 | d4 :|\
+|: fg |\
+a2gf efge | f2ef d2fg | a2gf efge | Tf6 :|
+|: ef |\
+g2g2 g2g2 | Tg2f2 f2f2 | Tf2e2 e2f2 | e2dc B2e2 |\
+c2B2 A2!segno!dc | B2ed c2fe | d2gf e2ag | fede A2c2 | d6 !segno! :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+d'2c'2 | b2b2 a2g2 | f2d2 g4 | a2g2 a2A2 d2D2 :|\
+|: d'4 | c'4 b4 | c'4 d'4 | c'4 b4 | a4 A4 | d4 e4 |
+A4 a4 | b4 b4 | a4 a2g2 | f4 g2a2 | d4 :|\
+|: d'2 | f2g2 a2A2 | d6 d'2 | f2g2 a2A2 | d6 :|\
+|: A2 |
+B4 c4 | d4 d'4 | g4 g4 | ^g2f2 ^g2f2 |\
+a6 !segno!f2 | g4 a4 | b4 c'4 | d'2g2 a2A2 | d6 !segno!:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+Set and cast off & cast up again, then set across and turn single. 2d Cu. do the
+same. then all four Hands round & back again the Two Men and two We. fall
+back meet and turn Hands with their Partners then fall back again as
+before, then Right Hand and Left.
+%%endtext

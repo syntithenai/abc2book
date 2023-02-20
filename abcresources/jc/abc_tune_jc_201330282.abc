@@ -1,0 +1,34 @@
+X: 1
+T: the Ridotta
+P: Longways for as many as will
+%R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.79
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+G2G2 G2FE | DCB,A, G,A,FG | A2A2 A2Bc | dBAF E3F |\
+G2G2 G2FE | DCB,A, G,A,B,C | dBcA BGAF | GEDB, G,4 :|
+|:\
+d2d2 d2ef | gfgd e4 | d2cB cBAG | ABcE F2ED |\
+G2e2 F2d2 | E2c2 D2EF | G2FE DCB,A, | B,GA,F G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g2g2 g2fe | dcBA G2z2 | a2a2 a2GA | B2cd edef |\
+g2g2 g2fe | dcBA G2z2 | b2a2 g2d2 | g2z2 G4 :|
+|:\
+d'2d'2 d'2c'2 | b2g2 c'2c2 | B2G2 c2e2 | d4 z2=f2 |\
+e2c2 B2G2 | c2A2 B2c2 | Bgfe dcBA | G2d2 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. figure thro' the 2d Cu. & cast up and foot it at the Top .|
+%% the 2d Cu. do the same :|
+%% then all four take hands, the 1st Cu. lead up and 2d Cu lead down at the same time .|
+%% then the 1st and 2d Cu Minuet step and 1st Cu. cast off :|
+%%endtext

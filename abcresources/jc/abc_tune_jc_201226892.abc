@@ -1,0 +1,30 @@
+X: 10501
+T: the BLUE EYED YOUTH
+T: From the comic Opera of "Oh! this Love, or the Masqueraders."
+C: M. P. King.
+Q: "Moderate."
+%R: air, march, reel
+N: This is version 1, for ABC software that doesn't understand trailing grace notes.
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.50 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: B
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+B2B2 (Bc)(dB) | e3c {B}A2z2 |\
+B2A>B c2(Bc) | d2Hf2 Hc4 |\
+B2B2 (Bc)(dB) | f3c c2z2 |\
+d2f>d c2A2 | (G>F)(GA) F2zc |
+c2A2 f2zA | B2c2 d2zd |\
+(dB)g2 (e2cA) | B2(A>d) HG2(3(FGE) |\
+(DF) zB (Ac) zA | (Bd) zB (cf) zF |\
+D(F zB) (Ac) zA |
+(Bd) zB (cHf) (=e_e) |\
+(Td>c)(Td>e) c2f2 | (Td>c)(Td>e) c2zF |\
+(G>A)(B>c) (d>e)f2 | d2(c>f) f3F |\
+(G>A)(B>c) (d>e) Hf2 b | (B2{d}c)>B B2z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

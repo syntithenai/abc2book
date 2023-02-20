@@ -1,0 +1,84 @@
+%%abc 2.0 [abcm2ps]
+
+X: 1
+T: Londonderry Air [Eb]
+T: Air from County Derry
+C: trad. Ireland
+N: Arrangement from Miss Jane Ross of Limavady, County Londonderry.
+B: "Ancient Music of Ireland", George Petrie (editor), 1855
+F: https://archive.org/stream/petriecollection01petr#page/56/mode/2up
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: C
+L: 1/8
+Q: "Andante."
+K: Eb
+%%continueall 1
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+DEF |\
+G3F (Gc) (BG) & !p!zB,CD EA GE | (FE)C2 zE(.G.A) & C2C2 z2"_cres."E2 |\
+B3c (BG)(.E.G) & F2D2 "_dim."E2B,2 | F4 z"_cres."D(.E.F) & D4 x4 |
+%
+G3F (Gc) (.B.G) &zB,CD EA GE | (F"_dim."E.C=B,) (CDEF) |\
+!p!G3A (GF)(EF) | E4 z |] (.B.c.d) & "_cres."EEA |
+%
+e3d (dc)(.B.G) & QG3qF E2E2 | (BG)E2 z(.B.c.d) & QGqEB,2 z"_cres."EEA |\
+e3d (dc)(.B.G) & QG3qF "_dim."E2E2 | F4 z("_cres.".B.B.B) & D4 x4 |
+%
+g3f (fe) (ce) & !f!QB3qA QG2 A2 | (BG)E2 z(D.E.F) & GE qB,2 z2 z2 |\
+(Gc) (BG) (FE) (.C.D) & !p!E3 B, C2 x2 | E4- E |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+zz2 |\
+e4 E4 | A2a2 g2e2 | d2B2 e2(.g.e) | B2(df) (ba)(.g.f) |\
+e4 E4 | g4- g2c'2 & c2d2 e2=A2 | b3c' (baga) & B4 B4 | g4 z & e2B2 E |] (.g.a.f) |
+c2g2 a2g2 | e2(gf) (eg)(af) | e4 a2ge | B2f2 (b.a.g.f) |
+e4- eE(Ac) | e2(ge) (ba.g.f) | x6 a2 & e2G2 A2B2 | g4- g & e2B2 E |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%abc 2.0 [abcm2ps]
+%%sep 1 1 500
+
+X: 1
+T: Londonderry Air    (F)
+T: Air from County Derry
+C: trad. Ireland
+N: Arrangement from Miss Jane Ross of Limavady, County Londonderry.
+B: "Ancient Music of Ireland", George Petrie (editor), 1855
+F: https://archive.org/stream/petriecollection01petr#page/56/mode/2up
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: C
+L: 1/8
+Q: "Andante."
+K: F
+%%continueall 1
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+EFG |\
+A3G (Ad) (cA) & !p!zCDE FB AF | (GF)D2 zF(.A.B) & D2D2 z2"_cres."F2 |\
+c3d (cA)(.F.A) & G2E2 "_dim."F2C2 | G4 z"_cres."E(.F.G) & E4 x4 |
+%
+A3G (Ad) (.c.A) &zCDE FB AF | (G"_dim."F.D^C) (DEFG) |\
+!p!A3B (AG)(FG) | F4 z |] (.c.d.e) & "_cres."FFB |
+%
+f3e (ed)(.c.A) & QA3qG F2F2 | (cA)F2 z(.c.d.e) & QAqFC2 z"_cres."FFB |\
+f3e (ed)(.c.A) & QA3qG "_dim."F2F2 | G4 z("_cres.".c.c.c) & E4 x4 |
+%
+a3g (gf) (df) & !f!Qc3qB QA2 B2 | (cA)F2 z(E.F.G) & AF qC2 z2 z2 |\
+(Ad) (cA) (GF) (.D.E) & !p!F3 C D2 x2 | F4- F |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+zz2 |\
+f4 F4 | B2b2 a2f2 | e2c2 f2(.a.f) | c2(eg) (c'b)(.a.g) |\
+f4 F4 | a4- a2d'2 & d2e2 f2=B2 | c'3d' (c'bab) & c4 c4 | a4 z & f2c2 F |]  (.a.b.g) |
+d2a2 b2a2 | f2(ag) (fa)(bg) | f4 b2af | c2g2 (c'.b.a.g) |
+f4- fF(Bd) | f2(af) (c'b.a.g) | x6 b2 & f2A2 B2c2 | a4- a & f2c2 F |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

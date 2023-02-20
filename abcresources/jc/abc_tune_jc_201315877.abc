@@ -1,0 +1,48 @@
+
+X: 1
+T: Aunt Mary's Canadian Jig
+S: Roaring Jelly collection
+M: 6/8
+R: jig
+K: D
+z2A |\
+"D"f2f fga | d2d dcB | ABA "B7"AGF | "Em"E2E E2A |
+"A7"e2e efg | e2d c2B | ABA ABA |1 "D"F3 :|2 "D"d3 |]
+|: z2A |\
+"D"ABA faf | e2d d2z | AFA "B7"BcB | "Em"A2G G2z |
+"A7"GFG efe | d2c c2B |1 ABA ABA | "D"F3 :|2 "A7"ABA ABc | "D"d3 |]
+
+%%sep 1 1 500
+
+X: 2
+T: Scarce o' Tatties
+T: Cion a'Bhunta'ta
+C: Norman MacLean
+R: jig
+N: jig-time variant of the old tune "The Banks of the Devon"
+L: 1/8
+M: 6/8
+K: ADor
+|:"Am"A>ee efg | "G"e>dB dBG | "Am"A>ee efg | "G"edB "Am"A3 |
+| ~a3 "(C)"gag | "D"f>gf "Am"eAA | A>ee efg | "G"edB "Am"A3 :|
+|:"Am"a>eg a2e | "G"g2f "Am"eAA | a>eg a2e | "G"g2f "E(m)"e3 |
+| "Am"~e3 ~A3 | "D"d>ff "Am"fee | A>ee efg | "G"edB "Am"A3 :|
+W: A major chords also work.
+
+%%sep 1 1 500
+
+X: 3
+T: Calliope House   [D]
+C: Dave Richardson
+N: Originally in E, which works well on fiddle, but others might prefer D.
+N: Calliope House is a folk center in Pittsburgh.
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+zA \
+| "D"dAA fAA | "A7"eAA "D"fAA | "Em"Bee e2d | "A"efd BdB | "D"ABA A2F |
+| A2B d2e |1 "G"faf fed | "A7"e3- e :|2 "G"faf "A7"edB | "D"d3- d |]
+|: fg \
+| "D"a3 faa | "A7"eaa "D"[fd]aa | "G"g3 fgf | "A7"efe edB | "D"ABA A2F |
+| A2B d2e |1 "G"faf fed | "A7"e3- e :|2 "G"faf "A7"edB | "D"d3- d |]

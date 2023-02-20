@@ -1,0 +1,25 @@
+X: 20333
+T: the SHIPWRECKED BOY
+C: J. Moulds.
+Q: "Slow."
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.33 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/16
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+d3e (fg) a2f2d2 | A3G (FE) D4D2 |\
+DC(DE)F^G (AG)(ABcA) | d2A2 (FD) A4 (ed) |\
+c3BA2 e4 ed | c3BA2 e4e2 |\
+a2c2d2 e2(dc)(BA) | c3dB2 A4 |]
+e2 |\
+e3fg2 a4 eg | f3ed2 {f}e4 ee |\
+e3fg2 a4 eg | f3ed2 {f}e4 af |\
+e2e2f2 g3ab2 | (af)(dB)(ge) {d}c4 ag |\
+(fe)(dc)(BA) G2b2 (eg) | (fa)(fd)(ec) d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

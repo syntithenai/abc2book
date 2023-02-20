@@ -1,0 +1,22 @@
+X: 548
+T: the Banquet
+R: waltz, air
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #548
+Z: Dave Wooldridge
+Q: "Moderate"
+M: 3/4
+L: 1/8
+K: G
+(de/f/) \
+| (g2d2c2) | B3 A G2 | (A2d2c2) | B3 A G2 \
+| B2 c2 d2 | e3 f g2 | g2 f2 e2 | d4 ||
+| d2 \
+| (g2 d2 c2) | B3 A G2 | (A2 d2 c2) | B3 A G2 \
+| B2 c2 d2 | e2 a2 g2 | e2 f2 d2 | g4 |]
+|| g2 \
+| (a2 b2 g2) | f3 e d2 | f2 (bagf) | e2 d2 B2 \
+| G2 B2 e2 | d2 f2 g2 | a2 e2 g2 | f4 ||
+| zg \
+| a3 b g2 | f2 e2 d2 | g2 (bagf) | e2 d2 B2 \
+| G2 B2 e2 | d2 c2 B2 | A2 G2 F2 | G4 |]

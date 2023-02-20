@@ -1,0 +1,31 @@
+X: 20121
+T: the Hare in the Corn
+%R: jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.12
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: In bar 27 there is a G that should probably be G natural, to be consistent.
+M: 6/8
+L: 1/16
+K: A
+"_Brisk"(cd) |\
+e4A2 e4=g2 | f2e2d2 Tc4A2 | d4f2 e2d2c2 | d2B2B2 B4(cd) |\
+e4A2 e2f2=g2 | f2e2d2 c2B2A2 |
+B2b2a2 g2f2g2 | a2A2A2 A4 :|\
+|: (cd) |\
+e2(cdec) A2c2a2 | e2(cdec) A2c2a2 | d2(BcdB) =G2B2=g2 | d2(BcdB) =G2B2=g2 |
+e2(cdec) f2(defd) | g2(efge) a2(fgaf) | e2d2c2 B2a2g2 | a2A2A2 A4 :|\
+|: (cd) |\
+e6 Tf6 | Te4d2 c2B2A2 |
+d2f2a2 c2e2a2 | g2B2B2 B4cd |\
+e2c2A2 f2d2B2 | g2e2c2 a4g2 | f2e2d2 (cde2)B2 | c2A2A2 A4 :|
+|: (cd) |\
+e2c2A2 E2(ABcd) | e2c2A2 a2c2A2 | =g2B2G2 D2(GABc) | d2B2=G2 =g2B2G2 |\
+e2c2A2 E2(ABcd) | e2c2A2 a2e2c2 |
+d2c2B2 b2a2g2 | a2A2A2 A4 :|\
+|: (ed) |\
+(cde2)A2 c2e2A2 | (def2)A2 d2f2A2 | (cde2)A2 c2e2A2 | (GAB2)E2 G2B2G2 |
+(cde2)A2 d2f2B2 | (efg2)e2 (fga2)f2 | (gab2)g2 a2B2e2 | c2A2A2 A4 :|\
+|: (fg) |\
+(agfe)c2 (agfe)A2 | (agfe)c2 (agfe)A2 |
+(Bcdefg) a2e2c2 | f2B2B2 B4(cd) |\
+e2(ce)A2 f2(df)B2 | g2(eg)c2 a3gf2 | Te3dc2 B2a2g2 | a2A2A2 A4 :|

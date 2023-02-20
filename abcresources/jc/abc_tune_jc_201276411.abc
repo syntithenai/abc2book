@@ -1,0 +1,28 @@
+X: 1
+T: Fjell-Trall
+T: Mountain Tune
+C: Egil Storbekken
+R: g\aangl\aat
+M: 2/4
+L: 1/16
+S: printed MS of unknown origin
+%P: I+(AABB)xN+A
+K: C
+%%indent 400
+"Intro"[|]\
+G2 \
+| "C"c2cG E2EG | "G7"GFDE C3E |
+| "C"G2GF E2EG | "F"cAFA "C"G3G \
+| "C"c2cA "F"F3A | "C"AGGE C3E \
+| "G7"EDDG GBBd | "C"d2cB c2 ||
+"A"\
+|: GF \
+| "C"E2Gc "G7"edBd | "Am"dcc2- c3c \
+| "Em"cBGB "F"BAFA | "C"AGGE G3A | "G7"AGGB d3d |
+| "C"dccd e3c | "G7"cBBd GBdf \
+| "C"feef g3e | "C"c2de "G7"fdBd | "C"c4- "fine"c2 :|
+"B"\
+|: cd \
+| "Em"e2ee e2ge | "Am"c6 AB \
+|1 "Am"c2cc c2de | "G7"eddB G2 \
+:|2 "D7"c2cc cdec | "G7"d2g2 G2 "->A"[|]|]

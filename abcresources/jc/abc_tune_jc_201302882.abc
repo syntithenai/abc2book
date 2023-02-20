@@ -1,0 +1,22 @@
+X: 816
+T: the Liverpool Hornpipe
+%T: crannciuil li\.berpuil
+R: hornpipe
+%S: s:3 b:18(6+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #816
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0816/oneill-1001-0816-1.abc
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play (A1A2)x2 + (BA2)x2 + (CA3)x2
+M: C|
+L: 1/8
+K: D
+(AG) "^A"|:\
+FDFA dfaf | gfec dcBA |[1,3 G2BG F2AF | EDEF GFED :|[2,4 dfaf bgec | d2d2 d2 :|
+"^B"|: A2 |\
+d2fd c2ec | BABc dcBA | G2BG F2AF | EDEF GF"^->A2"ED |]
+"^C"|: A2 |\
+dfdf cece | Bcde dcBA | GBGB FAFA | EFGA GFED ||
+"^A3"||\
+FDFA dfaf | gefe dcBA | afdf gece | d2d2 d2 :|

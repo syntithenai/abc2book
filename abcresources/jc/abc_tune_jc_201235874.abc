@@ -1,0 +1,28 @@
+X: 21431
+T: Up in the morning Early
+%R: waltz
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.143 #1
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+"_Slow" E2 |\
+A3 B A2 | c4 (e/d/)c | (d2 e2) g2 | G4 G2 |\
+A3 B (cd) | e3 d (cB) | A6 | e4 :: (AB) |\
+c3 d c2 | c4 (e/d/)c | d3 e d2 | d4 d2 |
+e3 d ef | g3 a gf | Te6 | g4 G2 |\
+c3 d c2 | (e2 d2) c2 | (d2 e2) g2 | a4 c'2 |\
+e3 d c2 | (ed)(cB)(A^G) | A6 | e4 :|
+|: E2 |\
+(Ac)(Bd)(ce) | (Ac)(Bd)(ce) | G2 g2 e2 | (ed)(cB)(A^G) |\
+(A2 a2) g2 | (ec)(fd)(cB) | A6 | e4 :: (AB) |\
+c2 (e/d/)c (e/d/)c |
+(g2 e2) c2 | d2 D2 (d/e/)f | (e2 d2) (cd) |\
+(e2 a2) b2 | (c'b)(c'b)(ag) | e6 | g4 (G/A/)B |\
+c2 Tc3 (B/c/) | d2 Td3 (c/d/) | (e2 a2) ^g2 |
+a4 (c'a) | T=g2 e2 c2 | (ed)(cB)(A^G) | A6 | e4 ::\
+[M:6/8] "_Brisk"E |\
+ABA c2c | deg G2G | ABA edc | A3 c2 :|
+|: G |\
+(A/B/)cc c2c | (B/c/)dd d2d | cde gag | e3 g2G |\
+cBc dcd | ede a2g | Te>dc BA^G | A3 e2 :|

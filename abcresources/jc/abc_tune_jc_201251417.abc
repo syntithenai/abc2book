@@ -1,0 +1,18 @@
+X:180
+T: Begone Dull Care ("duett VI")
+N: O'Farrell's Pocket Companion v.2 (Sky ed. p.92)
+M: 6/8
+L: 1/8
+R: jig
+Q: 240
+V: 1 %%MIDI program 1 73 volume=70 % flute
+V: 2 %%MIDI program 1 40 % fiddle
+K: D
+[V:1] A|d3 d3|f3 z2g|aba gfg|f3 z2A|d3 e3|f3 z2g|
+[V:2] A|F3 A3|d3 z2e|fgf ede|d3 z2A|F3 A3|d3 z2e|
+%
+[V:1] fgf ede|d3 z2 :|f/g/|a2a a2f|g2g g2e|f2f fed|
+[V:2] ded A2A|F3 z2 :|d/e/|f2f f2d|e2e e2c|d2d dcB|
+%
+[V:1] {f}e3 z2A|d3 e3|f3 z2g|fgf ede|d3 z2 :|
+[V:2] A3 z2A   |F3 A3|d3 z2B|ABA GFG|F3 z2 :|

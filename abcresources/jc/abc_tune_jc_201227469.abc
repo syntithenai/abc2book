@@ -1,0 +1,37 @@
+X: 10803
+T: COTILLION No. 7. tune 3
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.80 #3 (and p.81 #1)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+G2d2 dBed | cBAG GFEF | D2c2 cAed | cBAG FDEF |\
+GABc dBed | cBAG GFEF | D2c2 cAed | cBAB G4 H|]
+d2B2A2B2 | c2A2B2c2 | d2B2e2c2 | (c2B2)(B2A2) |\
+d2B2A2B2 | c2A2B2c2 | d2ef gbgd | edcB B2A2 |\
+dDBD ADBD | cDAD BDcD |
+dDBD eDdD | cDBD BDAD |\
+dDBD ADBD | cDAD BDcD | d2ef gbgd | edcB B2A2 |\
+A2a2 agba | gfed dcBc | A2g2 gfba |
+gfed cABc |\
+defg agba | gfed dcBc | A2g2 gfba | gfef d4 |\
+d2e2=f2d2 | B2^G2 A2AB | c2cd e2c2 | A2G2 ^FDD"^D.C."F |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First lady swing the right hand gent. with right hand,
+%% next with left hand,
+%% and so with the others,
+%% swinging partner last,
+%% chassa across partner,
+%% and back,
+%% back to back,
+%% balance partner and turn,
+%% other ladies the same, &c.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

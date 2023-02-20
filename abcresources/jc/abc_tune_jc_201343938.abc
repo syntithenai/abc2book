@@ -1,0 +1,30 @@
+X: 1
+T: Teton Mountain Stomp (D/G)
+Z: Original from Deborah Jones; edited by John Chambers
+D: Windor 4615 (45 RPM); FolKraft 1482
+M: 2/4
+L: 1/8
+K: D
+%%indent 280
+"^Intro"|| [A2e2][A2D2] | [G,D][G,D] [A2D2] | "A"AA/A/ "E7"B=c | ^cz "A7"k[Aa]z ||
+"A1"\
+|: "D"a2 a>^g | ba f2 | "G"ee/e/ ed | ed [B2G2] \
+| "D"AA d2 | "A7"cc e2 | "D"f/e/d/f/ "A7"e/d/c/e/ | dz d2 :|
+"B"\
+|| "G"gg/g/ gg/d/ | ga b2 | "D"aa/a/ a/a/b | af d2 \
+| "A"ee/e/ a2 | "E7"^gg/g/ b2 | "A7"aa gg | ff e2 ||
+"A2"\
+|| "D"a2 a>^a | ba f2 | "G"ee/e/ ed | ed [B2G2] | "D"AA d2 \
+| "A7"cc e2 | "D"f/e/d/f/ "A7"e/d/c/e/ | "D"Hdz "D7"d2 |]
+%%sep 5 5 100
+K: G
+"C1"\
+[| "G"GG/G/ GG | G/F/G/A/ B2 | GG/G/ GA | GE D2 \
+| GG B2 | GG B2 | cB AG | "D7"F2 D2 |
+| "D7"AA/A/ AA | A2 D2 | AA/A/ AA | AF D2 \
+| AA c2 | AA c2 | dcBA | "G"G2 "D7"d2 ||
+"C2"\
+|| "G"GG/G/ GG | GA B2 | GG/G/ GG | GE D2 \
+| GG B2 | GG B2 | "C6"BA A^G | A2 A2 |
+| "C"ee/e/ ee | ec A2 | "G"dd/d/ dd | dB G2 \
+| "D7"AA c2 | AA c2 | "G"BB "D7"AA | "G"Gz "A7"A2 |]

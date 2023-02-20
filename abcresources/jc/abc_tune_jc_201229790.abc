@@ -1,0 +1,50 @@
+X: 129
+T: a Merry Heart
+T: (Funiculi-Funicula.)
+C: music: L. Denza.
+C: words: E. Oxenford.
+%R: air, jig
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The verses have braces at the start and end of their two lines, but ABC can't represent this.
+M: 6/8
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+"Solo."B | !f!e6- | e2e d2d | B2B c2c | G3 G3- | G2G F2E |
+w: 1.~Some think* the world is made for fun and frol-ic,*         And so do
+w:   ~Some think* it well to be all mel-an-chol-ic,*              To pine and
+w: 2.~Some think* it wrong to set the feet a-danc-ing*            But not so
+w:   ~Some think* that eyes should keep from coy-ly glanc-ing*    Up-on the
+w: 3.~Ah me!*    'tis strange that some should take to sigh-ing,* And like it
+w:    For me,*    I have not tho't it worth the try-ing*          So can-not
+%
+E6- | Ez "Chorus."G F2E | E6- | Ez z2 :| "Solo."G | G6- | G2G =A2A| G2G =A2A |
+w: I!*    And so do I!* |    But I,* I love to spend my time in
+w: sigh;* To pine and sigh;***********
+w: I!*    But not so I!*     But oh!* to me the ma-zy dance is
+w: sly!*  Up-on the sly!***********
+w: well!* And like it well!* With laugh* and dance and song the day soon
+w: tell!* So can-not tell!***********
+%
+G3 G3- G2D D2D | D6- | Dz "Chorus."D D2D | D6- | Dzz z2"^Solo."B | B6- | B2B c2c |
+w: sing-ing*   Some joy-ous song;* Some joy-ous song;* To set* the air with
+w: charm-ing,* Di-vine-y sweet!*   Di-vine-ly sweet!*  And sure-*ly there is
+w: pass-es,*   Full soon is gone;* Full soon is gone;* For mirth* was made for
+%
+B2B c2c | B3 B3- | B2F F2F | F6- | Fz "^Chorus."F F2F | F6- | Fzz z2z |]
+w: mu-sic brave-ly ring-ing,* Is far from wrong!* Is far from wrong!*
+w: naught that is a-larm-ing* In nim-ble feet?*   In nim-ble feet?*
+w: joy-ous lads and lass-es*  To call their own!* To call their own!*
+%
+|: "^>"[d3B3] [cA]zz |  "^>"[d3B3] [cA]zz | [e2c][dB] [c2A2][ec] | [d3-B3-] [dB]zz | "^>"[d3B3] [cA]zz |  "^>"[d3B3] [cA]zz |
+w: Hark-en!  Hark-en! 1)Ech-oes sound a-far!* Hark-en!  Hark-en!
+%
+[e2c2][dB] [c2A2][ec] | [BG]z [GE] [G2E2][GE] | [G2F2][GF] [G2F2][GF] | [G2E2][GE] [G2E2][GE] |
+w: Ech-oes sound a-far! Tra la la la, tra la la la, tra la la 
+%
+[G2G2][GG] [G2G2][GG] | [e6c6] | [f2d2] [ec] [c2A2][ec] | [BG]z [GE] [G2E2][AF] | [B2G2][AF] [G2E2][FD] | [EE]zz z2 :|
+w: la, tra la la la! Ech-oes sound a-far! Tra la la la, tra la la la!
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text 1) 2nd Verse: Music sounds afar, etc. 3rd Verse: Hark the soft guitar, etc.

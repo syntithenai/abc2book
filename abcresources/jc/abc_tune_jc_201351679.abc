@@ -1,0 +1,62 @@
+X: 1
+T: What you Please
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.73 #99
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.50
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The actual time signature is "3I".
+N: The repeat pattern is unclear, but may be AABB, possibly with more repeats of B.
+N: The dance description is in four sections and two columns; ## is used here to indicate columns.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[| d2e f>ga | A2d ^c>de | dB2 A>GF | GAF E2D ][ D2E F>GA | EEF G>AB | B>ed c>BA | afg e2d |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% (The dance in CCDM1 is mostly illegible, especially the right 2/3 of the page.
+%% There are OCR versions online, but they are also quite garbled.
+%% The following description of the dance was found at:
+%%   http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751821
+%% It seems identical to the CCDM1 version except for capitalization 
+%% and abbreviations in all the legible parts. )
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% Lead up all, fall back, that again; set to your own,
+%% fall back, that again :| The 1. man cross over
+%% with his wo. then take the 2. wo. by the right-hand,
+%% the 1. wo. take the 2. man by the right Hand,
+%% and fall back :|
+%% ##
+%% Meet your own and fall back, 1. man go in the Figure of 8 about
+%% the 2. man and and 1. wo. go in the Figure of 8 about the 2. wo. and
+%% down in the 2. cu. place, set to your own and fall back, the rest
+%% following and doing the same.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. cu. cross over and fall back, and the 1. man
+%% take the 2. wo. by the right-hand, the 1. wo. take
+%% the 2. man by the left-hand, and lead up all four
+%% a-breast and fall back :|
+%% ##
+%% The 2. cu. go in the Hey, the 1. cu. following the Hey down into
+%% the 2. cu. place, and arms with your own, the rest following and
+%% doing the same.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. cu. fall back, and slip down, the 2. cu. slip
+%% up into the 1. cu. place, the 1. man cross over with
+%% the 2. wo. and change places, the first wo. cross over
+%% with the 2. man and change places :|
+%% ## 
+%% hands half round all four and fall back, set to your own and fall
+%% back, the rest following and doing the same.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

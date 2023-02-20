@@ -1,0 +1,15 @@
+X:1
+T:Valse de Mary Poppins
+C: fichier abc : Bernard Loffet
+L:1/8
+Q:330
+M:3/4
+K:C
+ [A2A,,2] [eA,]e [e2A,2] | [e2A,,2] [eA,]e [e2A,2] | [e2A,,2] [f2A,2] A,e | [d2D,,2] D,2 [dD,]d | \
+ [d2F,,2] [e2F,2] [d2F,2] | [c2A,,2] [d2A,2] [c2A,2] | [B2D,,2] [_B2D,2] [=B2D,2] | \
+ [e2E,,2] E,2 E,2 | [A2A,,2] [eA,]e [e2A,2] | [e2A,,2] [eA,]e [e2A,2] | [e2A,,2] [f2A,2] A,e | \
+ [d2D,,2] D,2 [dD,]d | [d2F,,2] [e2F,2] [d2F,2] | [c2A,,2] [d2A,2] [c2A,2] | [B2E,,2] [c2E,2] [B2E,2] | \
+ [A2A,,2] A,2 [aA,]a | [a2D,,2] [g2G,2] [f2D,2] | [a2A,,2] [e2A,2] [eA,]e | [^g2E,,2] [a2A,2] [b2E,2] | \
+ [a2A,,2] A,2 [aA,]a | [a2D,,2] [g2A,2] [f2D,2] | [a2A,,2] [e2A,2] [BA,]B | [B2E,,2] [c2E,2] [B2E,2] | \
+ [A2A,,2] A,2 A,2 | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet

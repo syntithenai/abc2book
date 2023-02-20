@@ -1,0 +1,18 @@
+X: 146
+T: Miss Buchan of Kellos Strathspey
+R: strathspey
+B: William Shepherd "1st Collection" 1793 p.14 #6
+F: http://imslp.org/wiki/File:PMLP73094-Shepherd_Collections_HMT.pdf
+C: William Shepherd (17??-1812)
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Some long beams broken to improve readability.
+M: C
+L: 1/16
+K: D
+A2 !segno!|:\
+Td3BA2F2 (DEFG) A3F | Td3BA3F E3e c3A |\
+d3BA2F2 D2FG A3F | G3BA3F E3e c2A2 :|
+Tdd3f3d (fga2) f3d | Tdd3f3d e3f c3A |\
+Tdd3f3d fga2 f2d2 | g3af3g e3f c3A ||
+Tdd3f3d (fga).g f3d | dd3f3d e3f c3A |\
+Td3fc3e (Bc)d3 A3F | G3BA3F E3e c2e2 !segno!|]

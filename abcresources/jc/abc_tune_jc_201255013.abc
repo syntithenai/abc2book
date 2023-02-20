@@ -1,0 +1,1019 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 12
+B: RSCDS Book 12
+K:
+%%center Book12/1200-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1201
+T: Grant's Rant
+P: Grant's Rant
+C:Rutherford, 1772
+R:Reel (8x48) ABABAB
+B:RSCDS 12-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:D
+FG|"D"A3B AFDF|AFdB AFDF|"(Em)"GBGE "D"FAFD|"A"E2E2E3 A|
+   "D"FDFA d3f|"Em"edcB "D"A2Bc|"F"d2cB "E7"c2B2|"A"A2A2A2||
+cd|"A"e3 f ecac|ec"D"af "A"ecAc|"E7"dfdB "A"eceA|"E7"B2B2B2 A/B/c|
+   "D"d3B AFDF|"G"GABc "D"d2cB|"G"BAGF "A7"EGFE|"D"D2D2D2|]
+%%center Book12/1201-Grants_Rant-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1202
+T: Green Grow the Rashes/John Black's Daughter
+P: Green Grow the Rashes
+C:MacGibbon, 1742, here from Nath. Gow's Repository
+R:Strathspey (8x32)
+B:RSCDS 12-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:Em
+D/|"G"G>G B>A B<G G>B|"Am"A>A e>d e<A A>B|\
+   c>d ec "Bm"B>c dB|"Am"A>c "Bm"B>A "Em"G<E E>D|
+   "G"G>G B>A B<G G>B|"Am"A>A e>d e<A A>B|\
+   c>d ec "Bm"B>c dB|"Am"A>c "Bm"B>A "Em"G<E E3/2||
+F/|"G"G2 g>f g<d d>g|"Am"e2 a>g a<e e>f|\
+   "Em"g>a ge "G"d/c/B/A/ G>B|"Am"A>c "G"B>A "Em"G<E E3/2 F/|
+   "G"G2 g>f g<d d>g|"Am"e2 a>g a<e e>f|\
+   "G"g>b "Am"e>g "G"d<g B>g|"Am"A/B/c "B"B>A "Em"G<E E3/2|]
+%%center Book12/1202-Green_Grow_the_Rashes_John_Blacks_Daughter-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1203
+T: Jenny dang the Weaver/Musselburgh
+P: Jenny dang the Weaver
+C:Orpheus Caledonius, 1733 (here from Gow)
+R:Reel (8x32)
+B:RSCDS 12-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:D
+g|"D"fAAA "A"ABAg|"D"fAAA "A"f2ef|"Bm"dBBB "G"BcdB|"D"ABde "A"f2eg|
+  "D"fAAA "A"ABAg|"D"fAAA "A"f2ef|"Bm"dBBB "G"BcdB|"D"ABde "A"f2ed|
+  "D"defd "Em"efge|"D"defd "Bm"e2dB|"D"defd "A"efge|"D"faAa "A"f2ed|
+  "D"defd "Em"efge|"D"defd "Bm"e2dB|"D"defd "A"efge|"D"faAa "A"f2ed|]
+%%center Book12/1203-Jenny_dang_the_Weaver_Musselburgh-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1204
+T: The Laird of Dumbiedykes' Favourite
+P: Johnnie's Friends are never pleased
+C:Niel Gow's Repository, Part 4
+R:Reel (8x40) ABABB
+B:RSCDS 12-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:G
+F|"G"G3g BGB2|"Am"BEBA GE"D7"EF|"G"G3g BGB2|"Am"AE"A7"AG "D"FDDF|
+  "G"G3g BGB2|"Am"BEBA GE"D7"EF|"G"GF"G/F"GA "Em"GAB^c|"D/A"dA"A7"BG "D"FD D||
+g|"C"e/f/g"G"dg BGB2|"B7"BEBA "Em"GE E g|\
+  "C"e/f/g"G"dg BGB2|"A7"AEAG "D"FD D g|
+  "C"e/f/g"G"dg BGB2|"B7"BEBA "Em"GE E g|\
+  "C"eg"G/B"dg "Am"cg"G"Bg|"D"Ad"A7"AG "D"FD D|]
+%%center Book12/1204-Laird_of_Dumbiedykes_Favourite-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1205
+T: Fiddle Faddle
+P: Stumpie
+C:Aird's Collection, 1782
+R:Strathspey (8x32)
+B:RSCDS 12-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:G
+d|"G"B>d g2 "A"a/g/f/e/ "G"g2|B<d g2 "D"a<A A>c|\
+  "G"B<d g2 "A"a/g/f/e/ "G"g2|B>d "D"A>c "G"B<G Gd|
+  "G"B>d g2 "A"a/g/f/e/ "G"g2|B<d g2 "D"a<A A>c|\
+  "G"B<d g2 "A"a/g/f/e/ "G"g2|B>d "D"A>c "G"B<G G||
+c|"G"B<d dc/B/ "C"ce ed/c/|"G"Bddc/B/ "D"e<A A>c|\
+  "G"B<d dc/B/ "C"ce ed/c/|"G"B<g "D"A>c "G"B<G Gc|
+  "G"B<d dc/B/ "C"ce ed/c/|"G"Bddc/B/ "D"e<A A>c|\
+  "G"B<d dc/B/ "C"ce ed/c/|"G"B<g "D"A>c "G"B<G G|]
+%%center Book12/1205-Fiddle_Faddle-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1206
+T: Kiss me quick, my Mither's coming
+P: Kiss me quick, my Mither's coming
+C:Johnson's Caledonian Country Dances, 1748
+R:Reel (8x32)
+B:RSCDS 12-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:D
+|:Bc|"D"d4 A4|F2D2 FGAF|"C"E2=c2 E2c2|E2=C2 EFGE|
+     "D"d4 A4|F3E D2F2|"C"GFED =C2E2|"D"D2D2 D2:|
+|:ag|"D"f3e d2a2|f2d2 fgaf|"C"e3d c2g2|e2c2 efge|
+     "D"f2d2 "Em"g2e2|"D7"a2f2 "G"g2e2|"C"gfed "Am"=c2e2|"D"d2d2 d2:|
+%%center Book12/1206-Kiss_me_quick_my_Mithers_coming-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1207
+T: The Yellow-Haired Laddie
+P: The Yellow-Haired Laddie
+C:Orpheus Caledonius, 1725
+R:Minuet (4x64)
+B:RSCDS 12-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:3/4
+L:1/8
+V:1
+K:D
+%%staves {(1 2) 3}
+%%staffsep 40pt
+D>E |\
+"D"F2 A2 "C#/A"Bc  | "Bm"d3 e f2 | "D"A2 "G"BA "Em"GF | "A7"[E4C4] D>E |\
+"D"F2 A2 "C#/A"B>c | "Bm"dc de f2 | "D"AB AF "A7"E>D | "D"D4 D>E |
+y4\
+"D"F2 A2 "C#/A"Bc  | "Bm"d3 e f2 | "F#m"A2 "G"BA "Em"GF | "A7"[E4C4] D>E |\
+"D"F2 A2 "C#/A"B>c | "Bm"dc de f2 | "F#m"A2 "G"gf "A7"ed | "D"[d4F4] ||
+d>e |\
+"D"f2 gf "Em"ed | "A"c2 ec "F#m"BA | "G"Bc dB "D"AF | "A7"[E4C4] DE |\
+"D"F2 A2 "C#/A"Bc | "Bm"dc de f2 | "D"A>B AF "A7"ED | "D"D4 d>e |
+y4\
+"D"f2 gf "Em"ed | "A"c2 ec "F#m"BA | "G"Bc dB "D"AF | "A7"[E4C4] DE |\
+"D"F2 A2 "C#/A"Bc | "Bm"dc de f2 | "F#m"A2 "G"gf "A7"ed | "D"[d4F4] |]
+%%center Book12/1207-Yellow_Haired_Laddie-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1208
+T: The Reel of Glamis/The Clever Lad
+P: Gin I was a Bonny Lad
+C:Johnson's Caledonian Country Dances, 1748
+R:Strathspey (8x32)
+B:RSCDS 12-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:A
+e|"A"c>B Aa "D"f/g/a "A"e>c|"Bm"d>f "A"e>c "E"B<B B>e|\
+  "A"c>B Aa "E"g/a/b "A"e>c|"Bm"d>f "E"e>c "A"A<A Ae|
+  "A"c>B Aa "D"f/g/a "A"e>c|"Bm"d>f "A"e>c "E"B<B B>e|\
+  "A"c>B Aa "E"g/a/b "A"e>c|"Bm"d>f "E"e>c "A"A<A A||
+e|"A"c>A e>A "D"f<A "A"e>A|"Bm"d>f "A"e>c "E"B<B B>e|\
+  "A"c>A e>A "D"f<A "A"e>c|"Bm"d>f "A"e>c A<A Ae|
+  "A"c>A e>A "D"f<A "A"e>A|"Bm"d>f "A"e>c "E"B<B B>e|\
+  "A"c>A e>A "D"f<A "A"e>c|"Bm"d>f "A"e>c A<A A|]
+%%center Book12/1208-Reel_of_Glamis_The_Clever_Lad-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1209
+T: Sodger Laddie
+P: Sodger Laddie
+C:Walsh's Complete Country Dances, 1731
+R:Jig (8x32)
+B:RSCDS 12-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+K:F
+|:f|"F"A>GF FCD|"Bb"G>AG "F"GAc|"Bb"d/e/fF "F"FCD|"(C)"F>GF "F"A2F|
+    "Bb"B>cB "F"A>BA|"Gm"G>AG "F"GAc|"Gm"d/e/fF "F"FCD|"C7"F>GF "F"Ac:|
+|:d/e/|"Dm"f>gf "F"fcA|"Bb"Ggg "Gm"g2g|"C7"c>de "F"fcA|f>ge "F"fcA|
+    "Bb"B>cd/e/ "F"fcA|"Gm"G>AG "F"GAc|"Bb"d/e/fF "F"FCD|"C7"F>GF "F"Ac:|
+%%center Book12/1209-Sodger_Laddie-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1210
+T: The Black Dance
+P: The Black Dance
+C:Adapted from Rutherford, 1772
+R:Reel (8x32)
+B:RSCDS 12-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:F
+cA|"F"F2F2 "C"GABG|"F"cd"C7"cB "F"A2cA|"F"F2F2 "Bb"GABG|"C"c6 cA|
+   "F"F2F2 "C"GABG|"F"cd"C7"cB "F"A2cA|"F"F2F2 "Bb"GABG|"F"F6||
+de|"Bb"f2f2 f2ed|"F"c2c2 c2AG|"Dm"F2GA "F"c2BA|"C"G2G2 G2de|
+   "Bb"f2f2 f2ed|"F"c2c2 c2AG|"Dm"F2GA "C7"B2AG|"F"F2F2 F2|]
+%%center Book12/1210-Black_Dance-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1211
+T: The Earl of Home
+P: The Earl of Home
+C:Nathaniel Gow
+R:Strathspey (8x32)
+B:RSCDS 12-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:D
+d|"D"A>D A>F "G"B>E G<B|"D"A>D A>F "G"B>G "D"A>F|\
+  "Em"G>B "D"F>A "Em"E>F G<B|"D"A>D A>F A>D F d|
+  "D"A>D A>F "G"B>E G<B|"D"A>D A>F "G"B>G "D"A>F|\
+  "Em"G>B "D"F>A "Em"E>F G<B|"D"A>D A>F A>D F||
+A|"D"d>e f>d "A"c>d e>f|"Bm"d>e f>d "A"e>c "Bm"d>B|\
+  "D"A>F d>F "E7"E>F G>B|"D"A>D "A"A>F "D"A<D F>A|
+  "Bm"d/c/d/e/ f>d "Em"c>d e>f|"Bm"d>e f>d "A7"e>c "Bm"d>B|\
+  "D"A<F d>F "E"E>F G<B|"D"A>F A>B "Bm"d>A B/d/|]
+%%center Book12/1211-Earl_of_Home-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1212
+T: The Machine without Horses
+P: The Machine without Horses
+C:Trad.
+R:Jig (8x32)
+B:RSCDS 12-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+D|"G"G3/2A/B/c/ dBG|Gge dBG|"Am"cec "G/B"dBd|"C"AB"A7"G "D7"FED|\
+  "G"G3/2A/B/c/ dBG|Ggf "Em"efg|
+                                "D/A"afd "A7"ge^c|"D"d3 "D7"D2:|\
+d|"G"dBd dBd|"D/F#"cAc cAc|"G"Bdg "G/B"dBG|"C"AB"A7"G "D7"FED|
+  "G"dBd dBd|"D/F#"cAc cAc|"G"Bdg "G/B"dBG|"D7"cAF "G"G3||\
+  "G"dBd dBd|"D/F#"cAc cAc|
+                           "G"Bdg "G/B"dBG|"C"AB"A7"G "D7"FED|\
+  "G"GDG BGB|dBd "G7/B"g2 d|"C"efg "D7"agf|"G"g3 G2|]
+%%center Book12/1212-Machine_without_Horses-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 12071
+T: Wandering Willie
+R: waltz
+B: Gow's Collection
+B: RSCDS 12-7
+N: Alternative tune for The Yellow Haired Laddie
+M: 3/4
+L: 1/8
+%--------------------
+K: F
+|: "C7"c3BAG | "F"F3GF2 \
+| "C7"G3FG2 | "F"A2"Bb"d4 \
+|  "C7"c3BAG | "F"F3GA2 \
+| "A"A3^GA2 | "Dm"D6 \
+:: "Dm"A2d2"A7"^c2 | "Dm"d3ef2 |
+| "C7"c3dcB | "F"A3Bc2 \
+|1  "Dm"A2d2"A7"^c2 | "Dm"d3ef2 | "A"A2^G2A2 | "Dm"D6 \
+:|2"Dm"A2d2e2 | f3ga2 | "A"A3^GA2 | "Dm"D6 |]
+%%center Book12/12071-Wandering_Willie-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 12071
+T: The Yellow Haired Laddie
+R: waltz
+B: Orpheus Caledonius 1725
+B: RSCDS 12-7
+M: 3/4
+L: 1/8
+%--------------------
+K: D
+D>E \
+| "D"F2 A2 Bc | d3 e f2 \
+| A2 BA GF | "A7"E4 D>E \
+| "D"F2 A2 B>c | "Bm"dc de f2 \
+|1 "A7"AB AF E>D | D4 \
+:|2 "A7"A2 gf ed | "D"d4 ||
+|: d>e \
+| "D"f2 gf ed | "A7"c2 ec BA \
+| "Bm"Bc dB AF | "A7"E4 DE \
+| "D"F2 A2 Bc | "Bm"dc de f2 \
+|1 "A7"AB AF ED | D4 \
+:|2 "A7"A2 gf ed | "D"d4 |]
+%%center Book12/12071-Yellow_Haired_Laddie-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 12101
+T: The Black Dance
+O: Rutherford 1772
+R: march
+B: RSCDS 12-10(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Adapted from Rutherford 1772"
+M: C|
+L: 1/8
+%--------------------
+K: F
+cA \
+| "F"F2F2 "Gm"GABG | "C7"cdcB "F"A2cA | "Bb"F2F2 "Gm"GABG | "C7"c6 cA \
+| "F"F2F2 "Gm"GABG | "C7"cdcB "F"A2cA | "Dm"F2F2 "C7"GABG | "F"F6 |]
+yde \
+| "Bb"f2f2 f2ed |  "F"c2c2 c2AG | "Dm"F2GA "Am"c2BA | "Gm"G2G2 "C7"G2de \
+| "Dm"f2f2 f2ed | "Am"c2c2 c2AG | "Bb"F2GA "C7"B2AG | "F"F2F2 F2 |]
+%%center Book12/12101-Black_Dance.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 12101
+T: The Black Dance  (A)
+O: Rutherford 1772
+R: march
+B: RSCDS 12-10(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Adapted from Rutherford 1772"
+M: C|
+L: 1/8
+%--------------------
+K: A
+ec \
+| "A"A2A2 "Bm"BcdB | "E7"efed "A"c2ec | "D"A2A2 "Bm"BcdB | "E7"e6 ec \
+| "A"A2A2 "Bm"BcdB | "E7"efed "A"c2ec | "F#m"A2A2 "E7"BcdB | "A"A6 |]
+yfg \
+| "D"a2a2 a2gf |  "A"e2e2 e2cB | "F#m"A2Bc "Cm"e2dc | "Bm"B2B2 "E7"B2fg \
+| "F#m"a2a2 a2gf | "Cm"e2e2 e2cB | "D"A2Bc "E7"d2cB | "A"A2A2 A2 |]
+%%center Book12/12101-Black_Dance_A.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 12101
+T: The Black Dance  [F]
+O: Rutherford 1772
+R: march
+B: RSCDS 12-10(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Adapted from Rutherford 1772"
+M: C|
+L: 1/8
+%--------------------
+K: F
+cA \
+| "F"F2F2 "Gm"GABG | "C7"cdcB "F"A2cA | "Bb"F2F2 "Gm"GABG | "C7"c6 cA \
+| "F"F2F2 "Gm"GABG | "C7"cdcB "F"A2cA | "Dm"F2F2 "C7"GABG | "F"F6 |]
+yde \
+| "Bb"f2f2 f2ed |  "F"c2c2 c2AG | "Dm"F2GA "Am"c2BA | "Gm"G2G2 "C7"G2de \
+| "Dm"f2f2 f2ed | "Am"c2c2 c2AG | "Bb"F2GA "C7"B2AG | "F"F2F2 F2 |]
+%%center Book12/12101-Black_Dance_F-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 12101
+T: The Black Dance  [F]
+O: Rutherford 1772
+R: march
+B: RSCDS 12-10(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Adapted from Rutherford 1772"
+M:2/4
+L:1/16
+%--------------------
+K: F
+cA \
+| "F"F2F2 "Gm"GABG | "C7"cdcB "F"A2cA | "Bb"F2F2 "Gm"GABG | "C7"c6 cA \
+| "F"F2F2 "Gm"GABG | "C7"cdcB "F"A2cA | "Dm"F2F2 "C7"GABG | "F"F6 |]
+yde \
+| "Bb"f2f2 f2ed |  "F"c2c2 c2AG | "Dm"F2GA "Am"c2BA | "Gm"G2G2 "C7"G2de \
+| "Dm"f2f2 f2ed | "Am"c2c2 c2AG | "Bb"F2GA "C7"B2AG | "F"F2F2 F2 |]
+%%center Book12/12101-Black_Dance_F-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 12101
+T: The Black Dance  (G)
+O: Rutherford 1772
+R: march
+B: RSCDS 12-10(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Adapted from Rutherford 1772"
+M: C|
+L: 1/8
+%--------------------
+K: G
+dB \
+| "G"G2G2 "Am"ABcA | "D7"dedc "G"B2dB | "C"G2G2 "Am"ABcA | "D7"d6 dB \
+| "G"G2G2 "Am"ABcA | "D7"dedc "G"B2dB | "Em"G2G2 "D7"ABcA | "G"G6 |]
+yef \
+| "C"g2g2 g2fe |  "G"d2d2 d2BA | "Em"G2AB "Bm"d2cB | "Am"A2A2 "D7"A2ef \
+| "Em"g2g2 g2fe | "Bm"d2d2 d2BA | "C"G2AB "D7"c2BA | "G"G2G2 G2 |]
+%%center Book12/12101-Black_Dance_G.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 12102
+T: Su(c)k(e)y bids me
+O: 1747
+R: reel
+B: Johnson's "200 Country Dances" 1751
+B: Rutherford's "200 Country Dances" 1756 p.25
+B: The Imperial Magazine (1761),
+B: RSCDS 12-10(II)
+B: Gow's Repository
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+%--------------------
+K: F
+A \
+| "F"F2CD "Bb"F2d2 | "F"cAFA "C7"GEDC \
+| "F"F2CD "Bb"F2d2 | "C7"cABG "F"F3 :|
+A \
+|  "F"c2AB     c2f2 |  "C"egec  "G7"dfd=B \
+| "C7"c2AB  "F"c2f2 | "G7"efd=B "C7"c3 |]
+d \
+|  "F"cfed     cBAF | "G9"A2AF  "C7"GEDC \
+|  "F"F2CD "Bb"F2d2 | "C7"cABG   "F"F3 |]
+%%center Book12/12102-Suckey_bids_me-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Black Dance
+R: march
+O: Rutherford 1772
+B: RSCDS 12-__(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Adapted from Rutherford 1772"
+M: 2/4
+L: 1/16
+K: F
+cA \
+|  "F"F2F2 "Gm"GABG | "C7"cdcB "F"A2cA | "Bb"F2F2 "Gm"GABG | "C7"c6 cA \
+|  "F"F2F2 "Gm"GABG | "C7"cdcB "F"A2cA | "Dm"F2F2 "C7"GABG |  "F"F6 :|
+|: de \
+| "Bb"f2f2 f2ed | "F"c2c2 c2AG | "Dm"F2GA "Am"c2BA | "Gm"G2G2 "C7"G2de \
+| "Dm"f2f2 f2ed |"Am"c2c2 c2AG | "Bb"F2GA "C7"B2AG |  "F"F2F2 F2  :|
+%%center Book12/BlackDanceM_F2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Black Dance   [F]
+O: 1760
+B: M.Landrin, Paris 1760
+B: R.Bride "Twenty Four Country Dances for the Year 1769"
+B: David Rutherford, London 1772
+R: march
+B: RSCDS 12-10(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Adapted from Rutherford 1772"
+M: C|
+L: 1/8
+K: F
+cA |\
+"F"F2F2 "Gm"GABG | "C7"cdcB "F"A2cA |\
+[1 "Bb"F2F2 "Gm"GABG | "C7"c6 cA :|\
+[2 "Dm"F2F2 "C7"GABG | "F"F6 |]
+de |\
+"Bb"f2f2 f2ed |  "F"c2c2 c2AG |\
+"Dm"F2GA "Am"c2BA | "Gm"G2G2 "C7"G2de |\
+"Dm"f2f2 f2ed | "Am"c2c2 c2AG |\
+"Bb"F2GA "C7"B2AG | "F"F2F2 F2 |]
+%%center Book12/BlackDanceM_F2_16-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Black Dance   [F]
+O: 1760
+B: M.Landrin, Paris 1760
+B: R.Bride "Twenty Four Country Dances for the Year 1769"
+B: David Rutherford, London 1772
+R: march
+B: RSCDS 12-10(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Adapted from Rutherford 1772"
+M: C|
+L: 1/8
+K: F
+cA |\
+"F"F2F2 "Gm"GABG | "C7"cdcB "F"A2cA |\
+[1 "Bb"F2F2 "Gm"GABG | "C7"c6 cA :|\
+[2 "Dm"F2F2 "C7"GABG | "F"F6 |]
+de |\
+"Bb"f2f2 f2ed |  "F"c2c2 c2AG |\
+"Dm"F2GA "Am"c2BA | "Gm"G2G2 "C7"G2de |\
+"Dm"f2f2 f2ed | "Am"c2c2 c2AG |\
+"Bb"F2GA "C7"B2AG | "F"F2F2 F2 |]
+%%center Book12/BlackDanceM_F2_16_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Black Dance   [F]
+O: 1760
+B: M.Landrin, Paris 1760
+B: R.Bride "Twenty Four Country Dances for the Year 1769"
+B: David Rutherford, London 1772
+R: march
+B: RSCDS 12-10(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Adapted from Rutherford 1772"
+M: C|
+L: 1/8
+K: F
+cA |\
+"F"F2F2 "Gm"GABG | "C7"cdcB "F"A2cA |\
+[1 "Bb"F2F2 "Gm"GABG | "C7"c6 cA :|\
+[2 "Dm"F2F2 "C7"GABG | "F"F6 |]
+de |\
+"Bb"f2f2 f2ed |  "F"c2c2 c2AG |\
+"Dm"F2GA "Am"c2BA | "Gm"G2G2 "C7"G2de |\
+"Dm"f2f2 f2ed | "Am"c2c2 c2AG |\
+"Bb"F2GA "C7"B2AG | "F"F2F2 F2 |]
+%%center Book12/BlackDanceM_F2_16_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Black Dance
+R: march
+O: Rutherford 1772
+B: RSCDS 12-__(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Adapted from Rutherford 1772"
+M: 2/4
+L: 1/16
+K: F
+cA \
+|  "F"F2F2 "Gm"GABG | "C7"cdcB "F"A2cA | "Bb"F2F2 "Gm"GABG | "C7"c6 cA \
+|  "F"F2F2 "Gm"GABG | "C7"cdcB "F"A2cA | "Dm"F2F2 "C7"GABG |  "F"F6 :|
+|: de \
+| "Bb"f2f2 f2ed | "F"c2c2 c2AG | "Dm"F2GA "Am"c2BA | "Gm"G2G2 "C7"G2de \
+| "Dm"f2f2 f2ed |"Am"c2c2 c2AG | "Bb"F2GA "C7"B2AG |  "F"F2F2 F2  :|
+%%center Book12/BlackDanceM_F2_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Earl of Seaforth's Reel
+R: reel
+B: RSCDS 12-__(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: c \
+| "D"d2Ad "Bm"FDDF | "Em"EB,ED "A7"CA,A,A \
+| "D"FDFA "G"dGBd | "A7"ceAc "D"d2d :|
+|| g \
+| "D"f2df "Em"geeg | "E7"fded "A7"cAAg \
+| "D"f2df "Em"geeg | "A7"fdec "D"d2 dg |
+| "D"f2df "Em"geeg | "E7"fded "A7"cAAg \
+| "Bm"fedf "Em"gfeg | "A7"faef "D"d2d |]
+%%center Book12/EarlOfSeaforthsR-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Earl of Seaforth's Reel
+R: reel
+B: RSCDS 12-__(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: c \
+| "D"d2Ad "Bm"FDDF | "Em"EB,ED "A7"CA,A,A \
+| "D"FDFA "G"dGBd | "A7"ceAc "D"d2d :|
+|| g \
+| "D"f2df "Em"geeg | "E7"fded "A7"cAAg \
+| "D"f2df "Em"geeg | "A7"fdec "D"d2 dg |
+| "D"f2df "Em"geeg | "E7"fded "A7"cAAg \
+| "Bm"fedf "Em"gfeg | "A7"faef "D"d2d |]
+%%center Book12/EarlOfSeaforthsR_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Earl of Seaforth's Reel
+R: reel
+B: RSCDS 12-__(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: c \
+| "D"d2Ad "Bm"FDDF | "Em"EB,ED "A7"CA,A,A \
+| "D"FDFA "G"dGBd | "A7"ceAc "D"d2d :|
+|| g \
+| "D"f2df "Em"geeg | "E7"fded "A7"cAAg \
+| "D"f2df "Em"geeg | "A7"fdec "D"d2 dg |
+| "D"f2df "Em"geeg | "E7"fded "A7"cAAg \
+| "Bm"fedf "Em"gfeg | "A7"faef "D"d2d |]
+%%center Book12/EarlOfSeaforthsR_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Johnnie's friends are never pleased
+R: reel
+B: RSCDS 12-__(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Neil Gow's Repository Part 4
+M: C|
+L: 1/8
+K: G
+F \
+| "G"G3g BGB2 | "Em"BEBA "Am"GE"D7"EF \
+| "G"G3g BGB2 | "A7"AEAG "D"FDDF |
+| "G"G3g BGB2 | "Em"BEBA "Am"GE"D7"EF \
+| "G"GF"/F"GA "Em"GAB^c | "A7"dABG "D"FD D ||
+|| g \
+| "C"e/f/g"G"dg BGB2 | "B7"BEBA "Em"GE E g \
+| "C"e/f/g"G"dg BGB2 | "A7"AEAG "D"FD D g |
+| "C"e/f/g"G"dg BGB2 | "B7"BEBA "Em"GE E g \
+| "C"eg"G"dg "Am"cg"G"Bg | "A7"AdAG "D"FD D |]
+%%center Book12/JohnniesFriendsAreNeverPleased-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Johnnie's friends are never pleased
+R: reel
+B: RSCDS 12-__(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Neil Gow's Repository Part 4
+M: C|
+L: 1/8
+K: G
+F \
+| "G"G3g BGB2 | "Em"BEBA "Am"GE"D7"EF \
+| "G"G3g BGB2 | "A7"AEAG "D"FDDF |
+| "G"G3g BGB2 | "Em"BEBA "Am"GE"D7"EF \
+| "G"GF"/F"GA "Em"GAB^c | "A7"dABG "D"FD D ||
+|| g \
+| "C"e/f/g"G"dg BGB2 | "B7"BEBA "Em"GE E g \
+| "C"e/f/g"G"dg BGB2 | "A7"AEAG "D"FD D g |
+| "C"e/f/g"G"dg BGB2 | "B7"BEBA "Em"GE E g \
+| "C"eg"G"dg "Am"cg"G"Bg | "A7"AdAG "D"FD D |]
+%%center Book12/JohnniesFriendsAreNeverPleased_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Johnnie's friends are never pleased
+R: reel
+B: RSCDS 12-__(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Neil Gow's Repository Part 4
+M: C|
+L: 1/8
+K: G
+F \
+| "G"G3g BGB2 | "Em"BEBA "Am"GE"D7"EF \
+| "G"G3g BGB2 | "A7"AEAG "D"FDDF |
+| "G"G3g BGB2 | "Em"BEBA "Am"GE"D7"EF \
+| "G"GF"/F"GA "Em"GAB^c | "A7"dABG "D"FD D ||
+|| g \
+| "C"e/f/g"G"dg BGB2 | "B7"BEBA "Em"GE E g \
+| "C"e/f/g"G"dg BGB2 | "A7"AEAG "D"FD D g |
+| "C"e/f/g"G"dg BGB2 | "B7"BEBA "Em"GE E g \
+| "C"eg"G"dg "Am"cg"G"Bg | "A7"AdAG "D"FD D |]
+%%center Book12/JohnniesFriendsAreNeverPleased_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Sodger Laddie
+R: jig
+B: RSCDS 12-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Walsh's Complete Country Dances 1731.
+M: 6/8
+L: 1/8
+K: F
+|: f \
+| "F"A>GF FCD | "Bb"G>AG "F"GAc | "Bb"d/e/fF "F"FCD | "(C)"F>GF "F"A2F |
+| "Bb"B>cB "F"A>BA | "Gm"G>AG "F"GAc | "Gm"d/e/fF "F"FCD | "C7"F>GF "F"Ac :|
+|: d/e/ \
+| "Dm"f>gf "F"fcA | "Bb"Ggg "Gm"g2g | "C7"c>de "F"fcA | "(C)"f>ge "F"fcA |
+| "Bb"B>cd/e/ "F"fcA | "Gm"G>AG "F"GAc | "Bb"d/e/fF "F"FCD | "C7"F>GF "F"Ac :|
+%%center Book12/SodgerLaddieJ-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Sodger Laddie
+R: jig
+B: RSCDS 12-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Walsh's Complete Country Dances 1731.
+M: 6/8
+L: 1/8
+K: F
+|: f \
+| "F"A>GF FCD | "Bb"G>AG "F"GAc | "Bb"d/e/fF "F"FCD | "(C)"F>GF "F"A2F |
+| "Bb"B>cB "F"A>BA | "Gm"G>AG "F"GAc | "Gm"d/e/fF "F"FCD | "C7"F>GF "F"Ac :|
+|: d/e/ \
+| "Dm"f>gf "F"fcA | "Bb"Ggg "Gm"g2g | "C7"c>de "F"fcA | "(C)"f>ge "F"fcA |
+| "Bb"B>cd/e/ "F"fcA | "Gm"G>AG "F"GAc | "Bb"d/e/fF "F"FCD | "C7"F>GF "F"Ac :|
+%%center Book12/SodgerLaddieJ_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Sodger Laddie
+R: jig
+B: RSCDS 12-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Walsh's Complete Country Dances 1731.
+M: 6/8
+L: 1/8
+K: F
+|: f \
+| "F"A>GF FCD | "Bb"G>AG "F"GAc | "Bb"d/e/fF "F"FCD | "(C)"F>GF "F"A2F |
+| "Bb"B>cB "F"A>BA | "Gm"G>AG "F"GAc | "Gm"d/e/fF "F"FCD | "C7"F>GF "F"Ac :|
+|: d/e/ \
+| "Dm"f>gf "F"fcA | "Bb"Ggg "Gm"g2g | "C7"c>de "F"fcA | "(C)"f>ge "F"fcA |
+| "Bb"B>cd/e/ "F"fcA | "Gm"G>AG "F"GAc | "Bb"d/e/fF "F"FCD | "C7"F>GF "F"Ac :|
+%%center Book12/SodgerLaddieJ_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Sodger Laddie
+R: jig
+B: RSCDS 12-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Walsh's Complete Country Dances 1731.
+M: 6/8
+L: 1/8
+K: F
+|: f \
+| "F"A>GF FCD | "Bb"G>AG "F"GAc | "Bb"d/e/fF "F"FCD | "(C)"F>GF "F"A2F |
+| "Bb"B>cB "F"A>BA | "Gm"G>AG "F"GAc | "Gm"d/e/fF "F"FCD | "C7"F>GF "F"Ac :|
+   d/e/ \
+| "Dm"f>gf "F"fcA | "Bb"Ggg "Gm"g2g | "C7"c>de "F"fcA | "(C)"f>ge "F"fcA |
+| "Bb"B>cd/e/ "F"fcA | "Gm"G>AG "F"GAc | "Bb"d/e/fF "F"FCD | "C7"F>GF "F"Ac |]
+
+%%center Book12/Sodger_Laddie_F24-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Sodger Laddie
+R: jig
+B: RSCDS 12-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Walsh's Complete Country Dances 1731.
+M: 6/8
+L: 1/8
+K: F
+|: f \
+| "F"A>GF FCD | "Bb"G>AG "F"GAc | "Bb"d/e/fF "F"FCD | "(C)"F>GF "F"A2F |
+| "Bb"B>cB "F"A>BA | "Gm"G>AG "F"GAc | "Gm"d/e/fF "F"FCD | "C7"F>GF "F"Ac :|
+   d/e/ \
+| "Dm"f>gf "F"fcA | "Bb"Ggg "Gm"g2g | "C7"c>de "F"fcA | "(C)"f>ge "F"fcA |
+| "Bb"B>cd/e/ "F"fcA | "Gm"G>AG "F"GAc | "Bb"d/e/fF "F"FCD | "C7"F>GF "F"Ac |]
+
+%%center Book12/Sodger_Laddie_F24_2-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Sodger Laddie
+R: jig
+B: RSCDS 12-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Walsh's Complete Country Dances 1731.
+M: 6/8
+L: 1/8
+K: F
+|: f \
+| "F"A>GF FCD | "Bb"G>AG "F"GAc | "Bb"d/e/fF "F"FCD | "(C)"F>GF "F"A2F |
+| "Bb"B>cB "F"A>BA | "Gm"G>AG "F"GAc | "Gm"d/e/fF "F"FCD | "C7"F>GF "F"Ac :|
+   d/e/ \
+| "Dm"f>gf "F"fcA | "Bb"Ggg "Gm"g2g | "C7"c>de "F"fcA | "(C)"f>ge "F"fcA |
+| "Bb"B>cd/e/ "F"fcA | "Gm"G>AG "F"GAc | "Bb"d/e/fF "F"FCD | "C7"F>GF "F"Ac |]
+
+%%center Book12/Sodger_Laddie_F24_JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Su(c)k(e)y bids me
+O: 1747
+R: reel
+B: Johnson's "200 Country Dances" 1751
+B: Rutherford's "200 Country Dances" 1756 p.25
+B: The Imperial Magazine (1761),
+B: RSCDS 12-10(II)
+B: Gow's Repository
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F
+A \
+| "F"F2CD "Bb"F2d2 | "F"cAFA "C7"GEDC \
+| "F"F2CD "Bb"F2d2 | "C7"cABG "F"F3 :|
+A \
+|  "F"c2AB     c2f2 |  "C"egec  "G7"dfd=B \
+| "C7"c2AB  "F"c2f2 | "G7"efd=B "C7"c3 |]
+d \
+|  "F"cfed     cBAF | "G9"A2AF  "C7"GEDC \
+|  "F"F2CD "Bb"F2d2 | "C7"cABG   "F"F3 |]
+%%center Book12/SuckyBidsMe-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Su(c)k(e)y bids me
+O: 1747
+R: reel
+B: Johnson's "200 Country Dances" 1751
+B: Rutherford's "200 Country Dances" 1756 p.25
+B: The Imperial Magazine (1761),
+B: RSCDS 12-10(II)
+B: Gow's Repository
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F
+A \
+| "F"F2CD "Bb"F2d2 | "F"cAFA "C7"GEDC \
+| "F"F2CD "Bb"F2d2 | "C7"cABG "F"F3 :|
+A \
+|  "F"c2AB     c2f2 |  "C"egec  "G7"dfd=B \
+| "C7"c2AB  "F"c2f2 | "G7"efd=B "C7"c3 |]
+d \
+|  "F"cfed     cBAF | "G9"A2AF  "C7"GEDC \
+|  "F"F2CD "Bb"F2d2 | "C7"cABG   "F"F3 |]
+%%center Book12/SuckyBidsMe_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Su(c)k(e)y bids me
+O: 1747
+R: reel
+B: Johnson's "200 Country Dances" 1751
+B: Rutherford's "200 Country Dances" 1756 p.25
+B: The Imperial Magazine (1761),
+B: RSCDS 12-10(II)
+B: Gow's Repository
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F
+A \
+| "F"F2CD "Bb"F2d2 | "F"cAFA "C7"GEDC \
+| "F"F2CD "Bb"F2d2 | "C7"cABG "F"F3 :|
+A \
+|  "F"c2AB     c2f2 |  "C"egec  "G7"dfd=B \
+| "C7"c2AB  "F"c2f2 | "G7"efd=B "C7"c3 |]
+d \
+|  "F"cfed     cBAF | "G9"A2AF  "C7"GEDC \
+|  "F"F2CD "Bb"F2d2 | "C7"cABG   "F"F3 |]
+%%center Book12/SuckyBidsMe_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Yellow Haired Laddie
+R: waltz
+B: Orpheus Caledonius 1725
+B: RSCDS 12-7
+M: 3/4
+L: 1/8
+K: D
+D>E \
+| "D"F2 A2 Bc | d3 e f2 \
+| A2 BA GF | "A7"E4 D>E \
+| "D"F2 A2 B>c | "Bm"dc de f2 \
+|1 "A7"AB AF E>D | D4 \
+:|2 "A7"A2 gf ed | "D"d4 ||
+|: d>e \
+| "D"f2 gf ed | "A7"c2 ec BA \
+| "Bm"Bc dB AF | "A7"E4 DE \
+| "D"F2 A2 Bc | "Bm"dc de f2 \
+|1 "A7"AB AF ED | D4 \
+:|2 "A7"A2 gf ed | "D"d4 |]
+%%center Book12/YellowHairedLaddie_D.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1207
+T: The Yellow-Haired Laddie
+P: The Yellow-Haired Laddie
+C:Orpheus Caledonius, 1725
+R:Minuet (4x64)
+B:RSCDS 12-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:3/4
+L:1/8
+V:1
+K:D
+% %staves {(1 2) 3}
+% %staffsep 40pt
+D>E |\
+"D"F2 A2 Bc | d3 e f2 | A2 BA GF | "A"[E4C4] D>E | F2 A2 B>c | dc de f2 | AB AF E>D | D4 D>E |
+F2 A2 Bc | d3 e f2 | A2 BA GF | [E4C4] D>E | F2 A2 B>c | dc de f2 | A2 gf ed | [d4F4] ||
+d>e |\
+f2 gf ed | c2 ec BA | Bc dB AF | [E4C4] DE | F2 A2 Bc | dc de f2 | A>B AF ED | D4 d>e |
+f2 gf ed | c2 ec BA | Bc dB AF | [E4C4] DE | F2 A2 Bc | dc de f2 | A2 gf ed | [d4F4] |]
+% V:2
+% [V:2] x2 | D6 | D6 | D4    D2 | x6 | x4    [F2D2] |
+% [V:2] [B2F2] z2 [c2A2] | D2 B,2 C2 | x6 | D6 | D6 |
+% [V:2] D4    D2 | x6 | x4    [F2D2] | [B2F2] z2 [c2A2] | x2 B2 c2 | x4 ||
+% [V:2] A2 | [d2A2][d2A2][B2G2] | [A2E2][A2E2]C2 | [F2D2][F2D2]D2 | x6 | x4[F2D2] |
+% [V:2] [B2F2] z2 [c2A2] | D2  B,2 C2 | x4    A2 | [d2A2][d2A2][B2G2] | [A2E2][A2E2]C2 |
+% [V:2] [F2D2][F2D2]D2 | x6 | x4    [F2D2] | [B2F2]z2 [c2A2] | x2 B2 c2 | x4 |]
+% V:3 clef=bass middle=D
+% [V:3] z2 | d'c' ba g2 | f2 e2 d2 | f2 d2 f2 | ab ag  fe | d2 z2 c2 |
+% [V:3] B2     z2 AG | F2 G2  A2 | de fa bc' | d'c' ba g2 | f2 e2 d2 |
+% [V:3] f2 d2 f2 | ab ag  fe | d2 z2 c2 | B2     z2 AG | F2 G2 A2 | dB AG ||
+% [V:3] FE | D2    F2    G2 | AB    c2    g2 | fe    dG    FG | AB cg  fe | d2 z2 c2 |
+% [V:3] B2     z2 AG | F2  G2  A2 | dB AG FE | D2    F2    G2 | AB    c2    g2 |
+% [V:3] fe    dG    FG | AB cg  fe | d2 z2 c2 | B2    z2 AG | F2 G2 A2 | d2 D2 |]
+%%center Book12/Yellow_Haired_Laddie-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1207
+T: The Yellow-Haired Laddie
+P: The Yellow-Haired Laddie
+C:Orpheus Caledonius, 1725
+R:Minuet (4x64)
+B:RSCDS 12-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:3/4
+L:1/8
+V:1
+K:D
+% %staves {(1 2) 3}
+% %staffsep 40pt
+D>E |\
+"D"F2 A2 Bc | d3 e f2 | A2 BA GF | "A"[E4C4] D>E | F2 A2 B>c | dc de f2 | AB AF E>D | D4 D>E |
+F2 A2 Bc | d3 e f2 | A2 BA GF | [E4C4] D>E | F2 A2 B>c | dc de f2 | A2 gf ed | [d4F4] ||
+d>e |\
+f2 gf ed | c2 ec BA | Bc dB AF | [E4C4] DE | F2 A2 Bc | dc de f2 | A>B AF ED | D4 d>e |
+f2 gf ed | c2 ec BA | Bc dB AF | [E4C4] DE | F2 A2 Bc | dc de f2 | A2 gf ed | [d4F4] |]
+% V:2
+% [V:2] x2 | D6 | D6 | D4    D2 | x6 | x4    [F2D2] |
+% [V:2] [B2F2] z2 [c2A2] | D2 B,2 C2 | x6 | D6 | D6 |
+% [V:2] D4    D2 | x6 | x4    [F2D2] | [B2F2] z2 [c2A2] | x2 B2 c2 | x4 ||
+% [V:2] A2 | [d2A2][d2A2][B2G2] | [A2E2][A2E2]C2 | [F2D2][F2D2]D2 | x6 | x4[F2D2] |
+% [V:2] [B2F2] z2 [c2A2] | D2  B,2 C2 | x4    A2 | [d2A2][d2A2][B2G2] | [A2E2][A2E2]C2 |
+% [V:2] [F2D2][F2D2]D2 | x6 | x4    [F2D2] | [B2F2]z2 [c2A2] | x2 B2 c2 | x4 |]
+% V:3 clef=bass middle=D
+% [V:3] z2 | d'c' ba g2 | f2 e2 d2 | f2 d2 f2 | ab ag  fe | d2 z2 c2 |
+% [V:3] B2     z2 AG | F2 G2  A2 | de fa bc' | d'c' ba g2 | f2 e2 d2 |
+% [V:3] f2 d2 f2 | ab ag  fe | d2 z2 c2 | B2     z2 AG | F2 G2 A2 | dB AG ||
+% [V:3] FE | D2    F2    G2 | AB    c2    g2 | fe    dG    FG | AB cg  fe | d2 z2 c2 |
+% [V:3] B2     z2 AG | F2  G2  A2 | dB AG FE | D2    F2    G2 | AB    c2    g2 |
+% [V:3] fe    dG    FG | AB cg  fe | d2 z2 c2 | B2    z2 AG | F2 G2 A2 | d2 D2 |]
+%%center Book12/Yellow_Haired_Laddie_AL.abc

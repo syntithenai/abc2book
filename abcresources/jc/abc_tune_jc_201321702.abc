@@ -1,0 +1,18 @@
+X: 1
+T:Paddy Fahy's Jig
+C:Paddy Fahy
+R:jig
+H:See also #208
+D:Martin Hayes
+Z:id:hn-jig-309
+M:6/8
+K:Gdor
+DGA _B2c|c_Bc d2g|g=fd _Bcd|cAG =FDC|
+DGA _B2c|c_Bc d2g|g=fd _Bcd|1 cA=F G2F:|2 cA=F G_Bd||
+|:g3 =fga|g=fd _Bcd|=BcA =f3|ag=f de=f|
+g2a _bag|=fdg =fdc|A_BG Adc|1 AG=F G_Bd:|2 AG=F G2F||
+"version 2"
+DGA ~_B3|c=Bc d2g|^fdg gfd|cAG ~=F3|
+DGA _BAG|c=Bc d2g|^fdg gfd|1 cA^F ~G3:|2 cA^F G=Bd||
+|:g2d ^fga|g^fd ~c3|A_BA ~=f3|ag^f de^f|
+g2a =bag|^fdg ^fdc|=B2G Adc|1 AG^F G=Bd:|2 AG^F ~G3||

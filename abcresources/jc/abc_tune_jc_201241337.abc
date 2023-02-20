@@ -1,0 +1,37 @@
+X: 4321
+T: Major Logans Favorite
+C: by Nath. Gow
+%R: strathspey, air
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.32 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slowish"
+K: Bb
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+D |\
+B,2 B>F T.B.F dB | B,2 {Bc}d>B cG~G>B |\
+B,2 {B}d>B c>G BF | G>B(FB) DB,B, :|\
+f |\
+(df)Tg>f (Bf)g>a |
+b>Bg>B {Bc}dcTc>f | (df)Tg>f Tg>aTb>c' |"_Expr.o"\
+{c'}d'>a{a}b>g {g}fdd>f || (d<f)Tg>f .B(fga) |\
+b>Bg>B {Bc}dc cf/e/ | d>BG>B (FB)(DB) |
+(Ac)f>e {e}dBB |:[L:1/16]\
+"^Dolce"f2 | (dB!p!FB DBFB) (dBfB gBfB) | (dB)(FB) (DB)(FB) {Bc}d2c2 ~c2fe |\
+(dBFB DBFB) (dB)(fB) Tg2Ta2 | b>fg>B f>B(.A.e) d2B2B2 :| 
+f2 |\
+(df)(Tgf) (Bf)(Tgf) .b(fTgf) (df)(Bf) | (df)Tga (bB)(gB) {Bc}d2c2Tc2(fe) |\
+(df)(Tgf) .B(fga) (ba)(Tgf) .g(abc') | "^Expr.o"d'>ga>f {c'}b>abg f2d2d3f ||
+(df)(Tgf) (Bf)(Tgf) .b(fTgf) (df)(Bf) | (df)Tga (bB)(gB) {Bc}d2c2Tc2(fe) |\
+(df).e.d (cB).A.G (FG)(FE) .D(fbf) | (ge)dc (BA)f>c {c}d2B2B2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | B2B2 B2B2 | d2B2 e2-e2 | d2B2 e2d2 | e2f2 B2B :| z | b2ed B2ef |
+g2e2 f2F2 | B2ed efga |"_Expr.o" b>f g>e d2B2 || B2ed B2ef | g2e2 f2F2 | B2e2 d2B2 |
+f2F2 B2B |: "^Dolce"z | (B!p!d) (Bd) Bd ed | Bd Bd f2F2 | Bd Bd Bd ef | de fF B2B :|
+z | Bb Bb de dB | Be de f2 F2 | Bb Be d2 e2 |"_Expr.o"f^f ge d2 B2 ||
+Bb Bb de dB | Be de f2 F2 | Bc/d/ e2 dc Bd | ee fF B2B |]

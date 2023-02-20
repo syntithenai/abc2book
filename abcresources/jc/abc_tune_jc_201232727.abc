@@ -1,0 +1,1103 @@
+
+X: 0
+T: 24 American Country Dances (1785)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+N: Full table of contents at:
+N:   http://www.archive.org/stream/bibliographyofea00sonnrich/bibliographyofea00sonnrich_djvu.txt
+N:   http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+N: This alleviated the full or partial clipping and poor quality of some of the titles.
+N:
+N: The notation in this book is sometimes a bit unusual, and difficult to interpret or reproduce
+N: with ABC or any other computerized music notation.  At times, the notation has been translated
+N: to a reasonable interpretation that should be accepted by any ABC software.  A particular case
+N: is the use of :||: throughout for all repeate, including at the end of a tune, but no initial
+N: repeat indicator; these have been rewritten as |: ... :| at the start and end of each part, to
+N: match the modern preferred notation.
+N:             John Chambers  December 2010
+K:
+%%center Twenty Four
+%%center AMERICAN COUNTRY DANCES
+%%center as Danced by the BRITISH during their Winter Quarters
+%%center at
+%%center PHILADELPHIA, NEW YORK, & CHARLES TOWN.
+%%center Collected by Mr. CANTELO Musician at BATH, where they
+%%center are now Dancing for the first time in Britain, with the addition
+%%center of SIX FAVORITE MINUETS
+%%center now performing this present Spring Season
+%%center -------- 1785 --------
+%%center LONDON. Printed by LONGMAN & BRODERIP No 26 Cheapside & 13 Hay Market.
+
+%%sep 5 1 500
+
+%%sep 2 1 500
+
+X: 01
+T: The Hamiltonian __ Lady Amelia Murray's Choice.
+C: (by the Hon. C.G.)
+R: jig
+M: 6/8
+L: 1/8
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+K: F#m
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+F2G A2f | ecA A>Bc | F2G A2f | e>cA [B3E3] |\
+F2G A2B | .c.d.e .f.^g.a | a>ea ecA | TB3 A3 :|
+|:\
+d>Bd c>Ac | B>GB AFD | C>DE EGA | (f>ac) [B3E3] |\
+d>Bd c>Ac | B>GB AFD | a>ec ecA | TB3 A3 :|
+|:\
+e2c [f2A2D2]a | .e.c.A .e.c.A | e2c [f2A2D2]a | ecA [B3E3] |\
+e2c [f2A2D2]a | agf ecA | d>ef d>ac | TB3 A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d2e f2g | a2A c2A | d2e f2g | a3 =gfe | d2e f2^g | a3 d3 | c3 A3 | e3 A3 :|
+|:\
+b2g a2A | d3 c2B | A3 a3 | A3 e3 | b2g a2A | e2d c2B | A3 c3 | e3 A3 :|
+|:\
+A3 d3 | a3 A3 | A3 d3 | a3 e3 | A3 d3 | c3 a2=g | f2d c2A | e3 A3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First Lady foots it with the 2d Gen: and turns .|. 1st Gen: Ditto
+%% with the 2d Lady :|: Gallop down two Couple, up again, and cast off .|.
+%% foot it and go the Allemande round to the right :|: foot it and turn
+%% four hands the round to the right with the 3d couple .|. Right and
+%% Left with the first couple :|:
+%%endtext
+
+%%sep 2 1 500
+
+X: 02
+T: The Monckton __ or British white Feathers.
+C: (Hon: C.G.)
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: a2a fef | d3 A3 | .B.c.d .e.f.g | e>fd cBA \
+|  a2a fef | d3 A3 | B>.gf edc | d3 D3 :|
+|: D>FD D>FD | E>GE E>GE | .F.G.A .B.A.G | FED CB,A, \
+|  D>FD D>FD | E>GE E>GE | {c}BAG F>GE | D3 D3 :|
+|: (d2e) (c2d) | (B2d) (A2d) | .A.F.D .A.F.D | .[EA,].[EA,].[EA,] .[E2A,2]z \
+|  (d2e) (c2d) | (B2d) (A2d) | Bcd {g}f2e | f>dd d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: d2f a2f | d2d def | g3 c3 | d2f a3 \
+|  d2f a2f | d2d def | g3 a2a | d3 D3 :|
+|: f3 d3 | c3 A3 | def g3 | d3 a3 \
+|  f3 d3 | c3 A3 | g2e a2A | d3 D3 :|
+|: "p"b3 a3 | g3 f3 | "f"d3 d3 | Ace A2z \
+|  "p"b3 a3 | g3 f3 | g3 ABc | dfa d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First Lady Foot's it to the 2d Gen.n and turns him to the Right .|.
+%% First Gen: Ditto with the 2d Lady :|: Gallop down two Couple and
+%% foot it .|. Gallop up and cast off :|: Four hands the round with
+%% the 3d Couple .|. Right and Left at the top. :|:
+%%endtext
+
+%%sep 2 1 500
+
+X: 03
+T: Lady George Murray's Reel
+C: (Hon. C.G.)
+R: reel
+M: C
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu> (dance)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: .D>FAF .D>GBG | .D>FAF T.E>DEF | .D>FAF .DGBd | A>FEF D/D/DD2 :|
+|: (DF)(FA) (Ad)(df) | f>daf Te>def | (DF)(FA) (Ad)(df) | {f}Te>def d/d/dd2 :|
+|: a>bg>a f>ae>f | dda>f Te>def | a>ba>f .a.a(a>b) | a>fef d/d/dd2 :|
+|: (A>F)(A>F) (B>G)(B>G) | .A.G.F.E D>CDE | A>FA>F [BDG]>BBd | A>GFE D/D/DD2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: d2f2 d2g2 | d2f2a2A2 | d2f2 d2g2 | a2A2 dAD2 :|
+|: d2d'2 d2d'2 | d2f2 a2A2 | d2d'2 d2d'2 | g2a2 d'ad2 :|
+|: d2e2 f2g2 | f2d2 a2A2 | d2d'2 f2g2 | a2A2 dAD2 :|
+|: f2d2 g2e2 | agfe d2A2 | f2d2 g2g2 | a2A2 dAD2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands across the round to the Left .|. Ditto to the Right :|:
+%% Gallop down two Couple and foot it .|. up again & cast off :|:
+%% set cross corners and turn .|. Ditto :|: Hey on opposite sides .|.
+%% and turn to place :|: or lead outsides and turn proper :|:
+%%endtext
+
+%%sep 2 1 500
+
+X: 04
+T: La Buona Figuiliola __ Lady Jean Murray's Dance
+C: (from Piccini)
+R: reel, march
+M: 2/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: [c2E2]ec | .B.d.G.B | [c2E2]ec | BdGB | [c2E2]cG | c>ege | d>cBA | (3GGG G2 :|
+|: G>ceg | {f}f2ed | G>Bdf | {f}e2dc | .G.c.e.g | .A.c.f.a | {a}g>fed | (3ccc c2 :|
+|: E2{G}FE/F/ | G3c | GFED | {F}E2DC | E2{G}FE/F/ | G3c | .G.F.E.D | C4 :|
+|: e | f>a.d.f | .e.g.c.e | d>e (g/f/)(e/d/) | c>BAG | [f4A4] | e2c2 | (e>d).c.B | [c4E4G4] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: c2c2 | g2g2 | c2c2 | g2g2 | c2c2 | c2c2 | d2D2 | GGG2 :|
+|: e2c2 | g2G2 | B2G2 | c2C2 | e2e2 | f2f2 | g2G2 | cGc2 :|
+|: cccc | cccc | cccc | cccc | cccc | cccc | g2G2 | cGC2 :|
+|: z | g2b2 | c'2e2 | f2d2 | g2G2 | fgab | c'2ef | g2G2 | cGC2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First Cu: foot it with the 2d Lady & turn -- Ditto with the 2d Gen.t --
+%% Gallop down two Cu: & foot it -- go up one Cu: Allemande &
+%% turn round to the right -- foot it 6 in hand -- go the compleat round
+%% to the right -- foot it to your partner and turn with the right hand
+%% half round -- Ditto and turn with the left --
+%%endtext
+
+%%sep 2 1 500
+
+X: 05
+T: The Fair Emigrant __ or Mrs Dawsons delight
+C: (Hon. C.G.)
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: f2a a>gf | e>fd Tc2A | f2a {b}a>gf | f>ge d3 :|
+|: aAa a>gf | {b}a>gf c>BA | aAa b>ag | f>gA d3 :|
+|: (A2c) (d2e) | {a}g>fe d2A | (A2c) (d2e) | f>^ga d3 :|
+|: B,B,B, DDD | {fg}a>fd e>fd | B,B,B, DDD | {g}f>ge d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: d3 d3 | a3 A3 | d3 d3 | a2A d3 :|
+|: cde f>ed | f2d a2A | def g>fe | a2A D3 :|
+|: Aag f2g | c2A d3 | Aag f2g | a2A d3 :|
+|: z6 | "Vio:"f2d [a2A2]z | z6 "Vio:"a2A d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First Lady foot it & turn the 2d Gen: -- First Gen: Ditto with the
+%% 2d Lady -- Gallop down two Cu: & foot it -- go up one Cu: -- & turn
+%% -- foot it & half turn with the right hand -- Ditto with the left hand
+%% -- foot it 6 in hand -- go the compleat round to the Right --
+%%endtext
+
+%%sep 2 1 500
+
+X: 06
+T: General Abercromby's reel or the Light Bob
+C: (Hon. C.G.)
+R: reel, hornpipe
+M: C
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B | G>Bd>B .g.d.B.G | .B.G.d.B TA>GAB | G>Bd>B .g.d.B.G | (d>e) BA G/G/G G :|
+|: [dD4]>Bd>B [cD4]>Ac>A | B>GFG (A/G/F/E/)D2 | [dD4]>Bd>B g>age | .d.c.B.A. GG/G/ G2 :|
+|: B,>D D>B, C>E E>C | B,>D D>B, TA,>G,A,B, | (B,>D) (D>G) G>B d>e | (d<B) (A>B) GG/G/ G2 :|
+|: g>aba (g>d)(g>d) | .e.d.c.B. TA>GAB | g>aba (g>b) (e>g) | d>B A>B GG/G/ G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | g2g2 g2g2 | g2G2 d2d2 | g2g2 g2g2 | a2d2 gdG :|
+|: g2b2 a2f2 | g2G2 d2d2 | b2b2 c'2c'2 | d'2d2 gdG2 :|
+|: B2B2 c2c2 | B2G2 d2D2 | G2g2 G2g2 | d2D2 GGG2 :|
+|: g2g2 g2B2 | c2c2 d2D2 | g2g2 g2c2 | d2D2 GGG2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Cast down 2 Cu: and Foot it .|. up again and D.o :|: gallop
+%% down the middle two Cu: and foot it .|. up again and cast off :|:
+%% set Corners and turn .|. D.o :|: lead outsides .|. and turn to
+%% place :|: or Hey on opposite sides and turn proper.
+%%endtext
+
+%%sep 2 1 500
+
+X: 07
+T: The Walton
+C: (Capt. W.)
+R: march, reel
+M: 2/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+N: The 3rd part has a repeat sign at the beginning but not at the end.
+N: Since all the repeats in this collection are written :||:, I'm guessing that
+N: this is just poor notation, and the 3rd part was not meant to be repeated.
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: g4gfga | g2d2B2G2 | A3Bc2A2 | (ABcA)G4 | g4Tg2fg | b3gb3g | f2d2 A2B^c | d4 D4 :|
+|: dddd dddd | ^cccc cccc | =cccc cccc | BBBB BBBB | G2B2 d2g2 | b2g2d2B2 | G3B D2EF | G4G,4 :|
+[| [d6D8]B2 | [d3D8]Bd3B | d4d2c2 | (c4B4) | [g4B4D4G,4]d3e | d4B3d | d3cB2A2 | (A4B4 |
+   [d6D8]B2 | [d3D8]Bd3B | d4d2c2 | (c4B4) | [g4B4D4G,4]d3e | d4B3c | .d2.c2.B2.A2 | G4G,4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: g2G2B2d2 | g4z2B2 | c4d4 | g2d2G4 | g2G2B2d2 | g4^c4 | d4A4 | D2d2D4 :|
+|: d2d2 d2d2 | e2e2e2e2 | f2f2f2f2 | g2g2g2g2 | g4G4 | g4z4 | G4d4 | G2g2G4 :|
+[| g2G2B2d2 | g4g4 | g2G2B2d2 | g2d2G4 | g4G4 | g4G4 | d4D4 | G2g2G4 |
+   g2G2B2d2 | g4g4 | g2G2B2d2 | g2d2G4 | g4G4 | g4G4 | d4D4 | G4G4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% 1st and 2d couple lead round each : lead down the middle, up again,
+%% and cast off, right and left with the top couple: Allemande right
+%% and left hand.
+%%endtext
+
+%%sep 2 1 500
+
+X: 08
+T: Mrs. Lt. Col: Johnsons Reel __
+C: (Hon: C.G.)
+R: reel, hornpipe
+M: C
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+S: http://www.archive.org/stream/bibliographyofea00sonnrich/bibliographyofea00sonnrich_djvu.txt
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+N: The original omitted most of the triplet marking after the first bar(s).
+N: This doesn't work with multi-voice ABC, so I added the missing triplets.
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: E>Ac2 (3c>BA (3c>BA | F2EG Ac[B2E2] | E>A c2 (3cBA (3cBA | F2 EG A/A/AA2 :|
+|: e2e>e (e>d)(d>c) | (c>B)A>c cA[B2E2] | e2e>e (e>d)(d>c) | c>AB>c A/A/AA2 :|
+|: A,>B,CD .E.F.G.A | c>Af>d cA[B2E2] | A,>B,CD EFGA | (f<a) (e<c) A/A/AA2 :|
+|: (3efe (3eae (3edc (3cBA | (3c>BA (3c>BA (3FAd B2 | (3efe (3.eae (3edc (3cBA | (f/g/a) c>B A/A/AA2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: (3Ace (3Ace (3Ace (3Ace | (3Adf (3Bde (3AcA [e2E2] | (3Ace (3Ace (3Ace (3Ace | (3Adf (3Bde (3Ace A2 :|
+|: a2 c'2 b2 g2 | a2 A2 e2 E2 | a2 c'2 b2 g2 | a2 e2 ae A2 :|
+|: A>Bcd efga | (3Ace (3Adf (3Ace E2 | A>Bcd efga | (3Adf (3Ace (3Ace A2 :|
+|: A2 a2 A2 a2 | (3Ace (3Ace d>d e2 | A2 a2 A2 a2 | d2 e2 ae A2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right hands across to the Right round .|. Left hands D.o to the left :|:
+%% Gallop down 2 Cu: and foot it .|. up again and Cast off :|: set opposite
+%% corners and turn .|. D.o :|: Foot it and turn half round with right Hand .|.
+%% D.o & D.o with the left hand :|: or Hey opposite sides & turn to place.
+%%endtext
+
+%%sep 2 1 500
+
+X: 09
+T: La Belle Frene __
+O: Austrian Dance
+R: march, reel
+M: 2/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+S: http://www.archive.org/stream/bibliographyofea00sonnrich/bibliographyofea00sonnrich_djvu.txt
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: c4(edcd) | e6e2 | f3da2f2 | (f4e4) | c4(edcd) | e6c2 | (d2B2).A2.G2 | {G}A8 :|
+|: E4(e3d) | (d3c)(c3B) | (B3A)(A3G) | (ABcd) (efga) | E4(e3d) | (d3c)(c3B) | (B3A)(A3G) | {G}A8 :|
+|: c4c3c | (c2B2)(B2c2) | .d2.d2(f3d) | {e}d4c4 | f6g2 | a2e2d2c2 | {fg}a2e2d2c2 | c3BB4 |
+|  c4c3c | (c3B)(B3c) | .d2.d2(f3d) | {e}d4c4 | f8 | e4 =gfed | c4B4 | {B}A8 :|
+|: .A2.e2.c2.e2 | .f2.d2.B2.d2 | .c2.A2.B2.G2 | (AGAB) .A2.A2 | .A2.e2.c2.e2 | f2d2B2d2 | (dc)(BA) (cB)(AG) | {G}A8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: [a4A4][a4A4] | a2A2c2A2 | [d4D4][d4D4] | a4A4 | [a4A4][a4A4] | a2A2c2A2 | d4e4 | a4A4 :|
+|: E2e2E2e2 | E2e2E2e2 | E2e2E2e2 | a2e2 c2A2 | E2e2E2e2 | E2e2E2e2 | E2e2E2e2 | A2a2 A4 :|
+|: z2A2c2A2 | e4E4 | z2e2f2g2 | a4A4 | d8 | c8| A8 | e4E4 |
+|  z2A2c2A2 | e4E4 | z2e2f2g2 | a2A2B2c2 | d2e2f2g2 | a4 d4 | e4 E4 | A2a2e2c2 :|
+|: A4a4 | D4d4 | e4E4 | A2a2e2c2 | A4a4 | D4d4 | e4E4 | A2a2A4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands across & back again -- lead down the middle up again and cast
+%% off -- set 3. & 3. Top & Bottom & hand 4. round at top -- set
+%% 3. & 3. sideways -- and hands round 4 at Bottom swing Partners swing
+%% Corners --
+%%endtext
+
+%%sep 2 1 500
+
+X: 10
+T: Mrs S.Douglas' Reel
+C: (Royal Navy) Hon: CG
+R: hornpipe, reel
+M: C
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://www.archive.org/stream/bibliographyofea00sonnrich/bibliographyofea00sonnrich_djvu.txt
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: d3fa4- a3fg3e | f3dg3e c3ec2A2 | d3f {fg}a4 a3fg3e | A3cd3f ddd2d4 :|
+|: (D3F) (A3D) (B3D) (A3D) | (BABc) .B2.A2 .G2.F2.E2.D2 | (D3F) (A3D) (B3D) (A3D) | A,3DF3E DDD2D4 :|
+|: (f3d)(f3d) (g3e)(g3e) | {fg}a2g2f2e2 d3Ad3A | (f3d)(f3d) (g3e)(g3e) | a3fe3f ddd2d4 :|
+|: (A2F2)(B2A2) (G2F2)(E2F2) | A,3DB,3D {DE}F3D[E4C4] | (A2F2)(B2A2) (G3F)(E2D2) | A,3DE2F2 DDD2D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: d4f4 a4A4 | d4e4 c4a4 | d4f4a4A4 | a4A4 d2d2d4 :|
+|: d4[f4d4] [g4d4][f4d4] | g4g2f2 e2d2c2d2 | d4[f4d4] [g4d4][f4d4] | a4A4 d2d2d4 :|
+|: d4d'4 c'4a4 | f4a4 f4d4 | d4d'4 c'4a4 | d4A4 d2d2d4 :|
+|: d4D4 d4D4 | F4G4 ^G4A4 | d4D4 d4D4 | A4A4 d2d2d4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Foot it and Change sides .|. D.o back again :|: Gallop down the
+%% Middle 2 Cu: up one and turn your Partner :|: set cross
+%% Corners and turn .|. D.o :|: Lead outsides .|. Turn to place :|:
+%% or go the Hey opposite sides.
+%%endtext
+
+%%sep 2 1 500
+
+X: 11
+T: Capt. Oakes's Whim
+C: (33d Regt.)
+R: reel, polka
+M: 2/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://www.archive.org/stream/bibliographyofea00sonnrich/bibliographyofea00sonnrich_djvu.txt
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+N: Fixed several parts' last measures with short lengths.
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: Addf | f>dcB | A>GFE | {E}F2D2 | Addf | f>daf | Te>def | d3z :|
+|: agfe | .g.f.e.d | .f.e.d.c | {c}d2A2 | f2d>d | a3g | f2Te2 | d3z :|
+|: d2cB | {B}A4 | {c}B2AG | {G}F4 | dAFA | dAFA | A>GFE | D3z :|
+|: Adcd | Adcd | Adcd | AGFE | d>Adf | a2f2 | Te>def | d2z2 :|
+|: d>Ad>A | FDFD | ABcd | A2F2 | d>Ad>A | F>DF>D | TE>DEF | D3z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: [d'2a2f2d2]z2 | [d'2a2f2d2]g2 | a2A2 | dd'af | [d'2a2f2d2]z2 | d2f2 | g2a2 | d'ad2 :|
+|: c'2a2 | d'2b2 | g2a2 | f2d2 | d2d'2 | c'2a2 | d'2a2 | d3z :|
+|: d2e2 | fdef | gabc' | d'dfa | [d'2d2]z2 | [d'2d2]z2 | a2A2 | dAD2 :|
+|: d2z2 | d2z2 | d2z2 | fede | d2z2 | dAdf | a2A2 | d2z2 :|
+|: d4- | d4- | d4- | d4- | d4 | d2d2 | a2A2 | d3z :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Cast down 2 Cu: & up again -- lead down the Middle up again
+%% & Cast off -- all 4 Ballance & Allemande and hands 4 round --
+%% lead down thro' the Bottom Cu: up again thro' the Top, right & left --
+%%endtext
+
+%%sep 2 1 500
+
+X: 12
+T: The Belles about the Flat Bush __ (a Village on Long Island so called)
+R: reel, polka
+M: 2/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+N: Bar 16 ended with a C, clashing with the D in the bass. Fixed to agree with the bass.
+N: Bars 23,24 have poorly-printed low notes that might be E or D. Fixed to agree with the bass.
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: d2Ad | F2AF | D2FD | A,2DA, | B,DA,D | B,DA,D | DGFA | F2E2 |
+|  d2Ad | F2AF | D2FD | A,2DA, | B,DA,D | B,BAG | FEDC | D4 :|
+|: A>GFG | ABcd | d>fd>f | c2A2 | B>dB>d | A>dA>d | AGFE | D3F |
+|  A>GFG | ABcd | ef (a/g/)(f/e/) | dcBA | D>CDA, | B,>CD>B | A>FE>F | D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: d2d2 | d2d2 | [d2D2][d2D2] | [d2D2]F2 | G2F2 | G2F2 | E2D2 | ABcA |
+|  d2d2 | d2d2 | [d2D2][d2D2] | [d2D2]F2 | G2F2 | G2FG | A2A2 | D4 :|
+|: d2d2 | d2d2 | d2d2 | aecA | [g2d2][g2d2] | [f2d2][f2d2] | a2A2 | d2D2 |
+|  d2d2 | d2[f2d2] | g2g2 | a2A2 | d2D2 | G2G2 | A2A2 | d2D2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands across and back again, cast off 2 couple, up again, turn partners
+%% half round, and back again, lead down 2 couple, turn your partners, lead
+%% up again, and cast off --
+%%endtext
+
+%%sep 2 1 500
+
+X: 13
+T: La Belle Annette
+R: march, polka
+M: 2/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: d2fd | {b}a2fd | A>BcA | (d/c/d/e/)d2 | FDGE | AFBG | F>Adf | (e/d/c/B/)A2 :|
+|: ([E2A,2-]T[F2A,2]) | (G/A/G/F/)[E2A,2] | ([F2A,2-][G2A,2]) | (A/B/A/G/)F2 |\
+F>Adf | g>bge | {g}fedc | (d/c/d/e/)d2 :|
+|:[A3F3]G | .[F2A,2].[F2A,2] | G3F | .[E2A,2].[E2A,2] | [F3A,3]E | D>FAd | A>FG>E | [D4A,4] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: d2d'2 | c'2d'2 | a2A2 | dd'af | d2e2 | f2g2 | a2fd | a2A2 :|
+|: AaAa | AaAa | DdDd | DdDd | d2fd | g2b2 | a2A2 | dAD2 :|
+|: DdDd | DdDd | AaAa | AaAa | d2A2 | d2fd | a2A2 | d2D2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands across -- back again : cross over quite round the 2d & 3d
+%% Cu: lead up the middle & Cast off -- Ballance & Allemance --
+%% same back again --
+%%endtext
+
+%%sep 2 1 500
+
+X: 14
+T: The Yager Horn
+R: march, reel
+M: 2/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+a2 | a3ff3d | (d3A).A2.A2 | d2f2e2g2 | (fefg) f2a2 | a3ff3d | (d3A).A2.A2 | d3f egec | d4 D2 :|
+|: d2 |\
+[d4D4].A3.f | [d4D4].A3.f | .d2.f2.A2.f2 | [d4D4] (A/B/c/d/ e/f/g/a/) |\
+a3ff3d | d3AA2A2 | d3f egec | d4 D2 :|
+|: D2 |\
+D4A3D | D4A3D | D2A2F2A2 | D4 (A/B/c/d/ e/f/g/a/) |\
+a3ff3d | d3AA2A2 | d3f egec | d4 D2 :|
+|: D2 |\
+D4A3D | D4A3D | D2A2F2A2 | D4A3A | B3dc3e | d3ba2g2 | f3d fedc | d4 D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: z2 |\
+d'4d4 | d'2d2f2a2 | d4a4 | d'2a2f2a2 |\
+d'4d4 | d'2d2f2a2 | f2d2a2A2 | d2A2D2 :|
+|: z2 |\
+[d'6a6f6d6]z2 | [d'6a6f6d6]z2 | [d'4d4][a4A4] | d4D4 |\
+d'4d4 | d'2d2f2a2 | f2d2a2A2 | d2A2D2 :|
+|: z2 |\
+d4a4 | d'4a4 | d2a2f2a2 | f2d2f2a2 |\
+d'4d4 | d'2d2f2a2 | f2d2a2A2 | d2A2D2 :|
+|: z2 |\
+d4a4 | d'4a4 | d2a2f2a2 | f2d2f2d2 |\
+[g4G4][a4A4] | [b4B4] [c'4c4] | [d'4d4] [a4A4] | d2A2D2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands 3. round with 2d Lady. same with the 2d Gen.t -- set 3. & 3.
+%% top & bottom & turn your opposite Partners. set 3 & 3 sides &
+%% turn opposite partners -- Hands 6 round & back again --
+%%endtext
+
+%%sep 2 1 500
+
+X: 15
+T: How imperfect is Expression __
+C: (Capt. O__)
+R: reel, march
+M: 2/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: D4(DEFE) | D4A,4 | F2D2A2F2 | D4A,4 | d2A2f2A2 | d2A2f2A2 | e3dc2B2 | .A2.A2A4 :|
+|: (a3f)a2.a2 | (g3e).g2.g2 | (f3d).f2.f2 | .e2.e2 (dcBA) | (defe) d2A2 | (Bcdc) B2F2 | {A}G2FE A2A2 | D8 :|
+|: [A6F6][A2F2] | (B3A)(G3F) | [F6A,6][F2A,2] | (G3F)(E3D) | D3FA2=c2 | B3dE3G | F4TE4 | D8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: d4d4 | d4A4 | f2d2a2f2 | d4A4 | d4D4 | d4D4 | e4E4 | A2a2A4 :|
+|: [a8f8d8A8] | [a8f8d8A8] | [a8f8d8A8] | [a8f8d8A8] | d'4d'2a2 | b4b2f2 | {a}g2fe a2A2 | d4D4 :|
+|: D2d2D2d2 | D2d2D2d2 | D2d2D2d2 | D2d2D2d2 | D2d2f4 | g6b2 | a4A4 | d4D4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands across & hands 4 round. back again -- first Cu: lead
+%% down the middle & cast up into their places -- 3 Cu: lead
+%% up the middle & cast down into their places -- Ballance
+%% Pas Rigadoon & Allemande --
+%%endtext
+
+%%sep 2 1 500
+
+X: 16
+T: the Heredetary Prince
+R: march, reel
+M: 2/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A2 |\
+.d2.d2.d2.d2 | .d2.d2.d2.d2 | .e2.e2(e2g2) | (fgaf) d3A |\
+d2d2d2d2 | d2d2d2d2 | e3g (fedc) | d6 :|
+|: a2 |\
+a3dd3f | [f4A4D4]e2a2 | b3ee3g | g4f2A2 |\
+d2d2d2d2 | d2d2d2d2 | e3g (fedc) | d6 :|
+|: A2 |\
+(F3G).A2.A2 | (F3G).A2.A2 | B2B2B2c2 | (c4d2)A2 |\
+(F3G).A2.A2 | (F3G).A2.A2 | .B2.B2 (AGFE) | D6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+A2 |\
+d'2c'2b2a2 | g2f2e2d2 | c4A4 | d4D2a2 |\
+d'2c'2b2a2 | g2f2e2d2 | c4A4 | d4D2 :|
+|: z2 |\
+f4d4 | a4A2f2 | g4a4 | d'4d2a2 |\
+d'2c'2b2a2 | g2f2e2d2 | G4A4 | d4D2 :|
+|: z2 |\
+D2d2D2d2 | D2d2D2d2 | [g4G4][a4A4] | d2A2F2A2 |\
+D2d2D2d2 | D2d2D2d2 | G2g2a2A2 | d2A2D2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands across . quite round . Hands 4 round back again -- lead
+%% down the middle . up again & cast off -- swing partners -- swing
+%% corners --
+%%endtext
+
+%%sep 2 1 500
+
+X: 17
+T: Laurel Hill
+R: march, polka
+M: 2/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+N: Added missing half beat at end of 2nd part.
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: (BABc) .d2z2 | (BABc) .d2z2 | .e2.e2.c2.c2 | (BABc) d3c |\
+   (BABc) .d2z2 | (BABc) .d2B2 | .e2.e2.c2.c2 | B4 z4 :|
+|: (f3d).d2.d2 | b6ag | (f3d).d2.d2 | e2c2B2A2 |\
+   (f3d).d2.d2 | b6ag |  f3d (dcBc) | B4 z4 :|
+|: (b3f).f2.f2 | f2g2a2b2 | a3g(^f2g2) | g6e2 |\
+    c3de2=e2 | f2^f2g3e | e2d2g2f2 | f6z2 |
+   (b3f).f2.f2 | f2g2a2b2 | b3cc2c2 | c2d2e2g2 |\
+   f3gf2d2 | f2e2d2c2 | (Bcdc) (Bcdc) | B6z2 :|
+%
+V: 2 clef=bass middle=d
+|: B4b4 | B4b4 | f4F4 | B2f2b4 | B4b4 | B4b4 | f4F4 | B2b2d2B2 :|
+|: "p"B2d2f2b2 | "f"E2G2B2e2 | "p"B2d2f2b2 | "f"f4e4 | d4B4 | e6e2 | f4F4 | B2b2B2z2 :|
+|: B4d2B2 | d4B4 | e4z4 | e2g2b2g2 | e8 | d4A4 | B4B4 | B2b2f2d2 |
+   z2B2d2B2 | b4B4 | z2F2A2F2 | f4e4 | d4B4 | f4F4 | B4B4 | B6z2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% 1st Gen.t hands 3 round with 2 & 3 Ladies -- 1st Lady do the same
+%% with 2 & 3 Gen.tn -- lead down the middle up again & cast off --
+%% Ballance Rigadoon & hands 4 round at the Bottom Ballance &
+%% Pas. Rig.n & right & left at Top.
+%%endtext
+
+%%sep 2 1 500
+
+X: 18
+T: The Munichausen
+R: march, reel
+M: 2/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+N: Fixed the "strange" 1st/2nd ending notation of the 2nd part
+N: The note values don't add up right between parts 3 and 4.
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: f/e/d/c/ Bd | BdBd | cece | d/c/d/e/ f2 | f/e/d/c/ Bd | BdBd | c>eA>c | B3z :|
+|: fedc | edcB | dcBA | {A}B2F2 | fedc | edcB | dcBA |1 {A}B2z2 :|2 {A}B2z2 ||
+|: dede | dedg | e>cBA | B2G2 | dede | dedg | e>cBA | G3z :|
+|: f | (=ef)(c_e) | .d.B zf | (=ef)(c_e) | B2zf | (=ef)(c_e) | .d.B zf |  (=ef)(c_e) | B2zf :|
+|: d2e2 | .f.fed | .e.edc | B/c/d/e/ f/g/a/b/ | d2e2 | .f.fed | .e.ecA | [B3D3]z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: B2b2 | B2b2 | a2f2 | b2B2 | B2B2 B2B2 | e2f2 | Bbfd :|
+|: z2f2 | b2B2 | f2F2 | B2b2 | d2f2 | b2e2 | f2F2 |1 B4 :|2 B2ba ||
+|: g2d2 | B2G2 | c2d2 | g2G2 | g2d2 | B2G2 | c2d2 | [gG]d[gG]z :|
+|: a | b2f2 | b2B2 | b2f2 | dBdf | b2f2 | b2B2 | b2f2 | dBdf :|
+|: B2c2 | d2B2 | f2F2 | B2z2 | B2c2 | d2B2 | f2F2 | BbBz :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Cast down 2 Cu: up again lead down the middle up again. & cast off --
+%% set to your partner -- set to 2d Lady -- set to partner -- set to 1st Lady --
+%% Hands 4 round at bottom -- Right & Left at Top --
+%%endtext
+
+%%sep 2 1 500
+
+X: 19
+T: The Monmouth __ or the Victory.
+R: reel
+M: C
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+N: The fermata at the end of the 2nd part is a bit odd.
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: [f2B2d2]dB [f2B2d2]dB | g>abg .f.d.c.B | [f2B2d2]dB [f2B2d2]dB | g>fed Td2c2 :|
+|: .F.B.A.B .F.B.A.B | F>Ace dBAB | B>dfb b>gfe | d2Tc2 B4 :|
+|: F=EE2 _EDD2 | D>B,F>D D2C2 | G,>A,B,C .D.E.F.G | D2TC2 B,4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: [b2f2d2B2]z2 [b2f2d2B2]z2 | [e2E2]z2 b2B2 | [b2f2d2B2]z2 [b2f2d2B2]z2 | e2B2 f2F2 :|
+|: [b2f2d2B2]z2 [b2f2d2B2]z2 | a2f2 b2B2 | d4 e4 | f2F2 HBfdB :|
+|: f2ga b2B2 | B2de f2F2 | [e2E2]z2 Bcde | f2F2 B4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands across & back again -- lead down the middle up again & cast
+%% off -- right & left -- Ballance & turn your partner - Ditto Ditto --
+%%endtext
+
+%%sep 2 1 500
+
+X: 20
+T: The St. George __
+C: (Capt. Baker's Choise)
+R: waltz
+M: 3/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+%%slurgraces 1
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: A2G | F2c | c>fc | (cB)A | A2G | F2E | F>DG | C3 :|
+|: c2A/G/ | F2E | {EF}G2F |  {GA}B2A | cde | f2A | BGc | F3 :|
+|: [f2A2]a | [f2A2]a | f>ga | [f2A2]c | [f2A2]a | [f2A2]a | a>bg | [f3A3] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: fac' | f2z | faf | ecf | fac' | afe | f>dg | c3 :|
+|: FFF | FFF | FFF | FFF | F2b | afa | b>gc' | f3 :|
+|: f2a | f2a | f>ga | f2c | f2a | f2a | c'2c | [f3F3] :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right hands across half round and foot it .|. Left hands Ditto :|:
+%% Gallop down in hand 2 Cu: .|. up again one Cu: and go la Pironette
+%% :|: Right hands half round to the right and foot it .|. Ditto
+%% left hands and Ditto .|.
+%%endtext
+
+%%sep 2 1 500
+
+X: 21
+T: L'Escapade
+R: reel, polka
+M: 2/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: .B2.B2 (cB).c.A | .B2.B2 (cB).c.A | .B2.B2.c2.c2 | .d2.d2 (ec).A.F |\
+   .B2.B2 (cB).c.A | .B2.B2 (cB).c.A | .B2.B2.c2.c2 | de.c.A [B2D2]z2 :|
+|: B2b4(fd) | c2e4(dc) | B2d2B2d2 | cBAG FEDC |\
+   d2b4(fd) | c2e4(dc) | B2d2B2d2 | (fe)dc B2z2 :|
+|: F3ED2F2 | G2G2 E2z2 | c4 {B}A2GF | (Bc).d.c [B2D2][B2D2] |\
+   F3ED2F2 | .G2.G2 .E2z2 | c2c2 (AB).c.A. | B4 [B4B,4] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: [b4B4]f2F2 | [b4B4]f2F2 | B4f4 | b4f2F2 | [b4B4]f2F2 | B4f2F2 | B2d2e2f2 | b2f2B4 :|
+|: [b8f8d8B8] | e8 | d4B4 | f4F4 | [b8f8d8B8] | e8 | d4b4 | f2F2 B4 :|
+|: "p"d4B4 | e4g4 | f4F4 | b2f2 d2B2 | "f"d4B4 | e4g4 | f4F4 | b8 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% 1st 2d and 3d couple ballance with pas Rigadoon, hands six half
+%% round and back again: lead down the middle . up again, and cast off,
+%% Allemande right and left hand.
+%%endtext
+
+%%sep 2 1 500
+
+X: 22
+T: The Brandewine
+R: march
+M: 2/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: B2dB | cFF2 | c2ec | dBB2 | B2dB | eF Ff | G>edc | B2B2 :|
+|: (D>F)(BF) | (EG)(BG) | D>FBF | EDCB, | D>FBF | EGBG | F>edc | [B2D2][B2D2] :|
+|: B2dB | ((3AcA) F2 | f2gf | {f}e2d2 | B2dB | ((3AcA) Ff | bfbf | b2z2 :|
+|: (B/A/B/c/) .B.B | B>cd2 | (d/c/d/e/) .d.d | d>ef2 | F4 | G4 | e>cAF | [B4D4] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: b2B2 | f2F2 | a2f2 | b2B2 | [b2B2] [b2B2] | bBcd | e2f2 | b2B2 :|
+|: B2d2 | e2g2 | B2d2 | F2B2 | B2d2 | e2e2 | f2F2 | B2B2 :|
+|: B2dB | f2F2 | a2f2 | b2B2 | B2dB | f3f | bfbf | bfBz :|
+|: BbBb | BbBb | BbBb | BbBb | BcdB | efge | f2F2 | B4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% 1st Gentleman sets to the 2d Lady and turn the 3d, the 1st Lady
+%% the same: lead down the middle, up again, cast off and Allemande
+%% right and left.
+%%endtext
+
+%%sep 2 1 500
+
+X: 23
+T: The Donop __ Lady Mary Murray's Fantaisie
+R: march, reel
+M: 2/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+K: F
+V: 1
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+   F | c>cc>c | (d2B)d | {d}cBAG | {G}F/E/F/G/ FF | c>cc>c | (d2B)d | {d}.c.B.A.G | F3 :|
+|: f | ((3efg) GB | (A2G)f | ((3efg) GB | (A2G)F | c>cc>c | {Bc}d2cB | A2[G2C2] | [F3A,3] :|
+|: z | .c2z2 | .d2z2 | cBAG | (F/E/)(F/G/) [F2A,2] | .c2z2 | d2z{ga}b | a2Tg2 | f3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z | zfaf | b2B2 | c2C2 | FfcA | Ffaf | b2B2 | c2C2 | FfF :|
+|: z | c'cde | f2cf | c'cde | f2cA | Ffaf | b2ab | c'2c2 | fcF :|
+|: z | "p"[a2f2]z2 | [b2f2]z2 | c'2c2 | fcAF | [a2f2]z2 | [b2f2]z2 | c'2c2 | [f3F3] :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Foot it and change sides .|. Ditto returning :|: Gallop down in hand
+%% two Couple .|. up again and cast off :|: Allemande half round to the
+%% right and foot it .|. Ditto to the left and Ditto :|:
+%%endtext
+
+%%sep 2 1 500
+
+X: 24
+T: The Anspacher
+R: waltz
+M: 3/8
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: G4g2 | f2afd2 | D4c2 | B2dBG2 | G4g2 | f2afd2 | c4AF | G6 :|
+|: B4d2 | d4c2 | B2B2 ((3ABc) | B4G2 | B4 d2 | d4c2 | B2(cBAB) | G4z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: g2b2g2 | d2d2d2 | d2f2d2 | g2g2g2 | g2b2g2 | d4B2 | c2A2d2 | G6 :|
+|: g2b2g2 | d2d2d2 | d2d2d2 | g2d2B2 | G2B2G2 | d2d2d2 | d4D2 | G4z2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right hands across round to the right .|. left Ditto to the Left :|:
+%% cross over one Couple and foot it .|. Right and left at the top :|:
+%%endtext
+
+%%sep 2 1 500
+
+X: 25
+T: Lady Louisa Lenox's Minuet
+C: (Cantelo)
+R: minuet
+M: 3/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+S: http://www.archive.org/stream/bibliographyofea00sonnrich/bibliographyofea00sonnrich_djvu.txt
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+K: C
+%
+V: 1
+|:\
+"f"g8 "p"(feag) | g4 f4 e4 |\
+"f"e8 "p"(dcfe) | e4 d4 c4 |\
+"f"A3A A4 B4 | c2de (feag) g4 |\
+(g2^g2) (a2g2f2e2) | {e}d4 c2B2A2G2 |
+"f"g8 "p"(feag) | g4 f4 e4 |\
+"f"e8 "p"(dcfe) | e4 d4 c4 |\
+"f"A3A A4 B4 | c2de fgab c'2zg |\
+ac'af e4 d4 | [c8E3] z4 :|
+|:\
+B8 (dBdB) | c6 "Corni"[e2c2][e2c2][e2c2] |\
+d8 (fdfd) | e6 "Corni"[g2e2][g2e2][g2e2] |\
+^f8 (afaf) | g4 (ga)(ba) g^fed |\
+egAc B4 A4 | G8 z4 |
+"f"g8 "p"(feag) | g4 f4 e4 |\
+"f"e8 "p"(dcfe) | e4 d4 c4 |\
+"f"A3A A4 B4 | c2de fgab c'2zg |\
+ac'af e4 d4 | [c8E3] z4 :|
+%
+V: 2 clef=bass middle=d
+|: c2c2c2c2c2c2 | c2c2c2c2c2c2 | c2c2c2c2c2c2 | c2c2c2c2c2c2 |\
+   f8 d4 | c8 z4 | c4 f4 f2^f2 | g4 G4 z4 |
+   c2c2c2c2c2c2 | c2c2c2c2c2c2 | c2c2c2c2c2c2 | c2c2c2c2c2c2 |\
+   f8 d4 | c4 z4 c4 | f4 g4 G4 | Hc4 G4 C4 :|
+|: G4 z2G2G2G2 | c4 e2g2e2c2 | G4 z2G2G2G2 | c4 e2g2e2c2 |\
+   D4 z2d2d2d2 | g4 G4 z4 | c4 d4 D4 | G4 g2f2e2d2 |
+   c2c2c2c2c2c2 | c2c2c2c2c2c2 | c2c2c2c2c2c2 | c2c2c2c2c2c2 |\
+   f8 d4 | c4 z4 c4 | f4 g4 G4 | Hc4 G4 C4 :|
+%
+
+%%sep 2 1 500
+
+X: 26
+T: Mr. Dawsons New Minuet
+C: (Cantelo)
+R: minuet
+M: 3/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+S: http://www.archive.org/stream/bibliographyofea00sonnrich/bibliographyofea00sonnrich_djvu.txt
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+K: F
+%
+V: 1
+|:\
+((3F2A2c2) c6 B2 | ((3A2c2f2) (f6 ga) |\
+g2e2c2G2A2B2 | (BA^GA) A8 |\
+((3F2A2c2) c6 B2 |
+((3A2c2e2) f6 e2 |\
+(d3e/f/) A2(fe) ({e}d2c=B) | (=B8 c2)z2 :|\
+|:\
+(c3BA2)a2f2c2 | (B3AG2)g2e2B2 |
+(A3GF2)f2{d}c2{B}A2 | (c3A)(G2A2)(B2=B2) |\
+(c3BA2)a2f2A2 | (B2b2)(g2e2)(f2_e2) |\
+d3B G2(ba) {a}g2(fe) | (e8 f2)z2 :|
+%
+V: 2 clef=bass middle=d
+|: F4A4c4 | f4F4z4  | z4e4c4 | f2c2A2c2F4 | F4A4c4 | f4a4c'4 | f4d4g4 | c2c'2g2e2c4 :|
+|: f8z4 | e8z4 | f4a4f4 | c'4c4z4 | f8z4 | e4c4f4 | B4c4C4 | F2f2c2A2F4 :|
+
+%%sep 2 1 500
+
+X: 27
+T: Miss Cornish's Minuet
+C: (Cantelo)
+R: minuet
+M: 3/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+S: http://www.archive.org/stream/bibliographyofea00sonnrich/bibliographyofea00sonnrich_djvu.txt
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+N: ABC doesn't allow the double grace note in bar 4, so I rewrote it as a short 2-note chord.
+K: F
+%
+V: 1
+|:\
+A2 A3 B | {A}G2 FGAB |\
+[c2A2] [c3A3] [dB] | [cA]/2[B3/2G3/2] [AF]cde |\
+Tf2 (3agf (3ed^c | Td2 (3fed (3=cBA |
+TB2 (3dcB (3AGF |1 c2 C2 z2 :|2 c2 C2 z2 ||\
+|:\
+c2 cccc | (c=B) B4 |\
+(_B3/c//B//) g3 B | (BA) A4 |
+(G3/A//G//) d3 F | F2 EFGA |\
+(B2 A)cf>A | A2 G2 z2 |\
+A2 A3 B | {A}G2 FGAB |
+[c2A2] [c3A3] [dB] | [cA]/2[B3/2G3/2] [AF]cde |\
+f2 (3agf (3ed^c | d2 (3fed (3=cBA |\
+(3GBd F2 E2 |1 [F4A,4] z2 :|2 H[F4A,4] z2 |]
+%
+V: 2 clef=bass middle=d
+|: f2 F2 z2 | c2 F2 z2 | f2 F2 z2 | c2 F2 z2 |\
+[f2F2] z2 z2 | [b2B2] z2 z2 | Tb2 (3d'c'b (3agf |1 c'2 cBAG :|2 c'2 cfed ||
+|: c2 c2 c2 | d2 d2 d2 | e2 e2 e2 | f3 FGA |\
+B2 b4 | a2 g2 f2 | e2 fg a>f | c'2 cABG |
+F4 z2 | c2 F2 z2 | f2 F2 z2 | c2 F2 z2 |\
+[f2F2] z2 z2 | [b2B2] z2 z2 | Tb2 c'2 c2 |1 F3 GAB :|2 HF4 z2 |]
+
+%%sep 2 1 500
+
+X: 28
+T: Miss Wroughtons Minuet
+C: (Cantelo)
+R: minuet
+M: 3/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+S: http://www.archive.org/stream/bibliographyofea00sonnrich/bibliographyofea00sonnrich_djvu.txt
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+g4 (e2c2) (e2g2) | (g2f2) d8 |\
+f4 (e2c2) (A2d2) | (c2B2) G8 |\
+g4 e2c2 e2g2 | a3b c'6 zg |
+(g3a/g/) f4 e4 | ([e8c8] [d4B4] :|\
+|:\
+d8 (gfef) | (e4 c)(def) (gedc) |\
+(d4 d)(fef) (gfef) | (e4 c)(def) (gedc) |
+c3a (a3b/a/) g4 | B3f (f3g/f/) e4 |\
+d3e (fgag) (fedc) | (B3c/d/) (c2B2)(A2G2) |\
+g4 (e2c2) (e2g2) | (g2f2) d8 |
+f4 (e2c2) (A2d2) | (c2B2) G8 |\
+g4 (e2c2) (e2g2) | a3b c'2a2g2f2 |\
+(e3f/g/) [c4E4] [B4D4] | [B8D8] [c4E4] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: [e'2c'2][e'2c'2][e'2c'2][e'2c'2][e'2c'2][e'2c'2] | [d'2b2][d'2b2][d'2b2][d'2b2][d'2b2][d'2b2] |\
+   [c'2a2][c'2a2][c'2a2][c'2a2][c'2a2][c'2a2] | [b2g2][b2g2][b2g2][b2g2]g2f2 |\
+   e2e2e2e2e2e2 | f3g a6 z2 | z4 b4 c'4 | g4 d4 G4 :|[K:C clef=treble]
+|: (3B,2D2G2 (3B,2D2G2 (3B,2D2G2 | (3C2E2G2 (3C2E2G2 (3C2E2G2 |\
+   (3B,2D2G2 (3B,2D2G2 (3B,2D2G2 | (3C2E2G2 (3C2E2G2 (3C2E2G2 |\
+   (3C2E2G2 (3C2E2G2 (3C2E2G2 | (3G,2B,2D2 (3G,2B,2D2 (3G,2C2E2 |\
+   (3G,2B,2D2 (3G,2D2F2 (3G,2C2E2 |[K:C clef=bass middle=d] g4 G4 z4 |
+   [e'2c'2][e'2c'2][e'2c'2][e'2c'2][e'2c'2][e'2c'2] | [d'2b2][d'2b2][d'2b2][d'2b2][d'2b2][d'2b2] |\
+   [c'2a2][c'2a2][c'2a2][c'2a2][c'2a2][c'2a2] | [b2g2][b2g2][b2g2][b2g2]g2f2 |\
+   e2e2e2e2e2e2 | f3g a4 b4 | c'4 g4 G4 | c4 G4 C4 :|
+
+%%sep 2 1 500
+
+X: 29
+T: Mr Greville's Minuet
+R: minuet
+M: 3/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+S: http://www.archive.org/stream/bibliographyofea00sonnrich/bibliographyofea00sonnrich_djvu.txt
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+N: "Long apoggiatura" in bar 8 rewritten as two quarter notes.
+N: The 2-part bars 9-11 not quite doable in ABC; rewritten as a single part.
+K: E
+%
+V: 1
+|:\
+"f"G3G G4 "p"{B}A2GF | (F8 E2)z2 |\
+"f"B3B B4 "p"{d}c2BA | (G8 F2)z2 |\
+"f"B4 G4 {B}A2GA |
+(B3c/d/) e2d2 c2B2 |\
+[B4F8] A4 [G4E4] | ([G4G4E4] [F4D4]) z4 :|\
+|:\
+"f"B3B B2 "flute"b2g2e2 | "f"c3c c2 "flute"c'2a2e2 |
+"f"B3B [bB2]bag fedc | "FP"B4 A4 G4 |\
+(A2BA) G4 F4 | (B2cB) A4 G4 |\
+"f"(A3B/c/) G4 F4 | E8 z4 :|
+%
+V: 2 clef=bass middle=d
+|: e4 e4 B4 | z4 e4 E4 | e4 e4 A4 | z4 b4 B4 |
+   e2b2 g2b2 f2b2 | e2b2 g2b2 e2b2 | d8 e4 | HB4 b2a2 g2f2 :|
+|: e4 e4 z4 | [e4A4] [e4A4] z4 | e4 e4 z4 | e4 d4 e4 |
+   B8 B4 | e8 E4 | A4 B4 B4 | E8 z4 :|
+
+%%sep 2 1 500
+
+X: 30
+T: the Honorable Cole Cosmo Gordon's Minuet
+R: minuet
+M: 3/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+S: http://www.archive.org/stream/bibliographyofea00sonnrich/bibliographyofea00sonnrich_djvu.txt
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+K: D
+%
+V: 1
+|:\
+[d2F2] [d2F2] [d2F2] | [d4F4] {f}ed/e/ |\
+[f2A2] [f2A2] [f2A2] | [f4A4] {a}gf/g/ |\
+"p"a2 gfed | {f}e2 dcBA |\
+"f"[d2F2] [d2F2] [d2F2] | [d4F4] {f}ed/e/ |
+[f2A2] [f2A2] [f2A2] | [f4A4] {a}gf/g/ |\
+"p"a2 gfed | (d2 c2) d2 |\
+((3Ace) g2 ((3faf) | (f4 e2) ::\
+[e2c2A2] [e2c2A2] [e2c2A2] | [e4c4A4] {f}ed/e/ |\
+f2 gfed |
+{d}c2 Bc A2 |\
+[d2F2] [d2F2] [d2F2] | [d4F4] {f}ed/e/ |\
+f2 gfeg | {g}f2 ef d2 |\
+"p"a2 A3 =c | {c}B2 AB G2 |\
+b2 B3 d | {d}c2 Bc A2 |
+"f"((3Ace) .g.g.g.g | (f3/g//a//) (c2 d2) |\
+((3Ace) .g.g.g.g | (f3/g//a//) c2 d2 |\
+"f"[B2D2] ((3Bcd) ((3efg) | A2 ((3ABc) ((3def) |\
+{a}gf/e/ d2 c2 | c2 d4 :|
+%
+V: 2 clef=bass middle=d
+|: d2 f2 a2 | f2 d2 z2 | d2 f2 a2 | f2 d2 z2 | d2 f2 ^g2 | a2 A2 z2 |
+   d2 f2 a2 | f2 d2 z2 | d2 f2 a2 | f2 d2 z2 | d2 f2 ^g2 | a2 g2 f2 |
+   e2 c2 d2 | a2 e2 a2 :: A2 c2 e2 | c2 A2 z2 | d2 f2 g2 | a2 e2 A2 |
+   d2 f2 a2 | f2 d2 z2 | d2 a2 A2 | d2 A2 D2 | f2 f2 f2 | g2 d2 G2 |
+  ^g2 g2 g2 | a2 e2 A2 | A2 B2 c2 | d2 e2 f2 | A2 B2 c2 | d2 e2 f2 |
+   g2 g2 g2 | f2 f2 f2 | g2 a2 A2 | d2 A2 D2 :|

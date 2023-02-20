@@ -1,0 +1,41 @@
+X: 52111
+T: the Bon Viveur
+O: traditional
+R: strathspey+reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+P: Captain Campbell
+S: RSCDS 52-11 #1
+M: 4/4
+L: 1/8
+K: Am
+|: A |\
+"Am"E<A A>B c>A B<G | "G"D<G G>A B>d c/B/A/G/ |\
+"Am"E<A A>B "Dm7"c>B c<e | "G"d>B "Em7"g>B "Am"A3 :|
+B |\
+"Am"A<a a>g e>d c<e | "G"d>e g>e d/c/B/A/ G<B |\
+"Am"A<a a>g e>d c<e | "G"d>B "Em7"g>B "Am"A2A ||
+e |\
+"Am"A<a a>g e>d c<e | "G"d>e g>e d/c/B/A/ G<B |\
+"Am"c<A "B/G"d>B "C"e>d c<e | "G"d>B "Em7"g>B "Am"A2A |]
+X: 52112
+P: Stewart Adam - Bon Viveur
+C: Iain T MacPhail
+S: RSCDS 52-11 #2
+M: 4/4
+L: 1/8
+K: A
+cd |:\
+"A"eBcd cBAB | "C"=cBA=G E2"A"E"E7"D |\
+"A"CEAc "C#/A"EAce | "Em"Bee^d "E7"e2c=d |
+"A"eBcd cBAB | "C"=cBA=G E2"A"E"E7"D |\
+"A"CEAc "E7"^GBed |1 "A"cAA^G A2"E7"cd :|2 "A7"cAA^GA2=G2 ||
+|:\
+"D"(3FGF ^EF dEFd | "C#/A"(3EFE ^DE cEAc |\
+"Em"EBBE "E7"EBB2 | "A7"EccE Ecc2 |
+"D"(3FGF ^EF dEFd | "C#/A"(3EFE ^DE cEAc |\
+"Em"EBBE "E7"GBed |1 "A7"cAA^G A2=G2 :|2 "A"cAA^G A2 |]
+%
+%%begintext align
+%% Note: The tune Wing Commander Donald Mackenzie's Reel (Phil Cunningham)
+%% was originally proposed by the deviser for the reel.
+%%endtext

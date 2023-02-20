@@ -1,0 +1,27 @@
+X:573
+T:Picking of Sticks
+T:Lavena
+%%subtitlefont Times-Roman 24
+C:John Playford, 1651
+M:6/8
+L:1/8
+Q:3/8=120
+K:Dm
+%%textfont Times-Roman-Bold 20
+%%center Play 7 x Lavena, 3 x Original, 7 x Lavena.
+[| d | "Dm"d2d "A7"^c>=Bc | "Dm"d2d A2A | "Bb"d2d "A7"^c>=Bc | "Dm"d3 A2_B |\
+"Gm"B>dc "C7"B>cB | "F"A>BA "C"G>FE | "Dm"F>GA "Gm"G>AF | "A7"E3 "Dm"D2 |]
+%%vskip 20
+N:Replace by blank line and X field
+T:Picking of Sticks: Original tune
+%%titlefont Times-Roman 24
+C:John Playford, 1651
+M:6/8
+L:1/8
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+N:Sharp uses the tune Lavena.  This version of the original tune is from
+N:the 7th Edition and is more interesting than that in the first Edition.
+Q:3/8=120
+K:Gmix
+G | "G"B>cd d>cd | "Am"c2A A2A | "D7"A>Bc c>dc | "G"B2G G2G |\
+"Em"B>cd d>ed | "Dm"=f2A A2A | "G"B>cd "Dm"d>e=f | "G"g2G G2 |]

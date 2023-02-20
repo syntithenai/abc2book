@@ -1,0 +1,25 @@
+X: 11473
+T: ANNAN WATER
+O: Scottish melody.
+Q: "Slowly."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.147 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+G3A B2(g>e) | (d<B)(A>B) {B}A2(GE) |\
+G3A (BA)(Bd) | e2(dc) B2{c}gG |\
+G3A (Bc)(de) | (d<B)(A>G) A2GE |\
+(DE)(GA) (BA)(Bd) | (e>g)(d>g) B3g |]
+a |\
+(ba)(ge) (d>e)(ge) | (dB)(A>G) {B}A2(GE) |\
+(g>a)(ge) (de)(ge) | (eB)(dG) B2ga |\
+(ba)(ge) (de)(ga) | (ge)(dB) A3/B//c// (BA) |\
+G3A (BA)(Bd) | (eB)(dG) B2g |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

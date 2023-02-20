@@ -1,0 +1,32 @@
+X:1
+T: All the Young Folk
+N:
+C:
+S: Paly  3  times
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 18 notes)
+K:Am
+M:4/4
+L:1/16
+A4 |A6 B2 c6 d2 |e12 e4 |a6 g2 ^f4 e4 |^d8 e4 ^f4 |^f12 e4 |e12 A4 |
+%W: A2
+% voice 1 (1 lines, 17 notes)
+A6 B2 c6 d2 |e12 e4 |a6 g2 ^f4 e4 |^d8 e4 ^f4 |^f12 e4 |e12 e4 |
+%W: B1
+% voice 1 (1 lines, 15 notes)
+e12 e4 |f8 e4 d4 |^c6 d2 e4 c4 |d12 d4 |g6 f2 e4 d4 |
+%W:
+% voice 1 (1 lines, 13 notes)
+c12 c4 |d6 e2 f4 d4 |e8 d4 c4 |B12 A4 |A12 e4 |
+%W: B2
+% voice 1 (1 lines, 15 notes)
+e12 e4 |f8 e4 d4 |^c6 d2 e4 c4 |d12 d4 |g6 f2 e4 d4 |
+%W:
+% voice 1 (1 lines, 12 notes)
+c12 c4 |d6 e2 f4 d4 |e8 d4 c4 |B12 A4 |A12 ||

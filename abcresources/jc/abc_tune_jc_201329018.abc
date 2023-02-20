@@ -1,0 +1,27 @@
+X: 1
+T: Redwing [D]
+C: George F. Handel
+N: RJ	S-R	D	square
+Z: Transcribed to abc by Mary Lou Knack
+R: polka, square
+M: C|
+L: 1/8
+K: D
+V: 1 staves=2
+A,4 |:\
+"D"D3D D2F2 | A6 D2 | "G"G2B2 d2B2 | "D"A6 F2 |\
+"G"G2GF E2G2 | "D"F2FE D2F2 |\
+[1 "E"E2B,2 C2D2 | "A7"E6 A,2 :|[2 "E"E2B,2 "A7"C2E2 | "D"D4 |] 
+|: d2c2 |\
+"G"B4 B3B | B2d2 c2B2 | "D"A4 F4- | F2A2 B2A2 |\
+[1 "A7"A4 (E4 | E2) A2 B2A2 | "D"A4 F4- | F4 :|\
+[2 "A7"A4 G4 | F4 E4 | "D"D8- | D4 |] 
+% = = = = = = = = = =
+V: 2
+E4 |:\
+F4 (F2A2) | d4- d2A2 | B2(d2 g2d2) | [F4-d4-] [F2d2]A2 | (B2A2) G2B2 | (A2G2) F2A2 |\
+[1 ^G2G2 (A2B2) | A4 (=G2E2) :|[2 ^G2G2 (=G2E2) | F4 |] 
+|: f2e2 |\
+   d4 d4 | d2g2 (a2g2) | f4 d4- | d2d2 d2d2 |\
+[1 c4 G4-| G2c2 (d2c2) | d4 A4- | A4 :|\
+[2 c4 G4-| G2(B2 A2G2) | F8-    | F4 |] 

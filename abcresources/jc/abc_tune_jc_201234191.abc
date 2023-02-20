@@ -1,0 +1,27 @@
+X: 2032
+T: McLauchlanes Scotish Measure
+N: Yes, it's "Scotish" with one 't'.
+%R: Scotch measure, reel, march
+B: Niel Gow & Sons "Complete Repository" v.2 p.3 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "SLOWISH"
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+TF>E |\
+D3F (TEDE).F | A2E2- E2F>E | D3F (TEDE).F | (AF).E.D ~d3e |
+Tf>edf ~edBe | (dB)(AF) TE3F | (DE)(FG) ABdA | F2D2 D2 :|
+|: Tf>e |\
+d2a2 (fg).a.f | {f}.b2e2- e2Tf>e | d2a2 fgab | (agfe) ~d3e |
+Tf>edf Te>dBe | dBAF TE3F | (DE).F.G (AB)dA | F2D2 D2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z2 |\
+D2d2 d2d2 | A2A2 A4 | D2d2 d2d2 | d4 f2a2 |\
+d'4 g4 | f2d2 a2g2 | f2d2 a2A2 d4 D2 :|
+|: z2 |\
+d2d'2 d2f2 | g2b2 a2c'2 | d'4 c'4 | d'4 f2a2 |\
+d'4 g4 |f2d2 a2g2 | f2d2 a2A2 | d4 D2 :|

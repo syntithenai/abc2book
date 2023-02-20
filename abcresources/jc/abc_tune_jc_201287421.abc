@@ -1,0 +1,28 @@
+X: 1
+T: the Honest Miller
+%R: minuet
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #23 (35)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Initial and final repeats added to match the dance pattern, which is twice as long as the tune with both strains repeated.
+M: 6/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: dcde dcBA    GFED | dcdB efge dcBA | dcde dcBA  GFED | FGAF A,2C2 D4 :|
+|: f2d2 f2a2 {g}f2d2 | dcdB efge c4   | A2F2 B2d2 Tc2A2 | fgae fdec  d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. takes hands and leads down between the 2d
+%% Cu. and foot it and cast up | the 2d C. take hands and
+%% lead up between the 1st Cu. foot it and cast down :| Right
+%% hand and Left round || hands round all four and the 1st Cu.
+%% cast off :|| the 1st cu. hand round and the Man goes behind
+%% the 3d Man and his Partner goes round the 2d Wo. | Meet
+%% and turn again and the Man goes behind the 2d Wo. and his
+%% Partner behind the 3d Man :| the Man foots it with the 2d
+%% Wo. and goes behind the 2d Man his Partner footing to the
+%% 3d Man and going behind the 3d Wo. || then foot it to
+%% your Partner and turn :||
+%%endtext
+%%sep 1 8 500

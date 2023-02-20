@@ -1,0 +1,18 @@
+X: 32312
+T: MILLER LADS -- Strathspey
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.231 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Added missing initial repeat to 2nd part.
+M: C|
+L: 1/8
+K: F
+uA |\
+F<F A2 F<F (A<c) | G<G (A>c) d2 d<f |\
+[1 F<F A2 F<F (A>c) | G<G (A>F) D2D :|\
+[2 (.f>.g)(a>c) (.A>.G)(F>A) | G<G (A>F) D2 D ||
+|: ue |\
+f>c d/c/B/A/ fcca | f<c(c>A) d2de |\
+[1 (.f>.g) (a>c) A>GF<A | G<G (A>F) D2D :|\
+[2 f>ag<a A>GF<A | G<G (A>F) "_Segue Reel"D2D "^D.C."|]

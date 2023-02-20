@@ -1,0 +1,62 @@
+X:1
+T:The Stars and Stripes Forever
+M:2/2
+L:1/4
+P:Db Piccolo
+%%scale .65
+%%titlefont Helvetica utf-8 18
+%%subtitlefont Helvetica utf-8 18
+%%composerspace 0pt
+%%musicspace 0pt
+%%partsspace 0pt
+%%subtitlespace 0pt
+%%textspace 0pt
+%%titlespace 0
+%%topspace 0
+%%staffsep 0pt
+% %systemsep 0pt
+% %sysstaffsep 0pt
+% %portrait
+% Q:1/2=120
+C:John Philip Sousa 1896
+K:D
+%%continueall no
+Z |\
+z!>!!ff!d2e | !>!^e!>!f!>!g!>!^g | !>!az!>!a2 |: !>!!f!!crescendo(!fz/f/ff!crescendo)! |\
+!>!fz/f/gg | (e/^d/).e/.f/.e.=d | .c.B.c.A | !>!az/.a/.a.a | !>!az/.a/!crescendo(!.^a.a |
+(b/^a/).b/.d'/c'b!crescendo)! | ^a3a | !p!a/ z/z/a/ d'/ z/z/ b/ |\
+a/z/ ^g/z/ a/z/ f/z/ | !>!e/ z/(A/^G/ A/G/A) | !>!e/ z/!f!(A/^G/ A/G/A) | a/ z/z/a/ d'/ z/z/b/ |\
+a/z/ ^g/z/ a/z/ =f/z/ |
+!>!e/ z/(^G/^F/ G/F/G) | Az [1 !>!a2 :|2 (!ff!!>!a>g) |:\
+f2(b>a) | !>!c.c'!>!B.b | !>!A.a!>!G.g | Ff(e>f) | !crescendo(!g!>!b2d'!crescendo)! |\
+!f!!>!e.e'!>!d.d' | !crescendo(!(f4 | e2)!crescendo)!!>!(a>g) | f2(b>a) |\
+!>!c.c'!>!B.b | !>!A.a!>!G.g | Ff(e>f) | gb!>!e'>d' |\
+(fa)!>!(d>f) | e{^g}a{g}a{g}a | dz [1 !>!(a>g :|2 !p!d2 |]
+K:Gmaj
+"TRIO"\
+(d'2c'b) |\
+(b2!>!^ab) | (b4- | b2!>!^ab) | (b2!>!^ab) |\
+(d'2b>d') | (c'4 | a3)a | (a2!>!^ga) |\
+(a2!>!^ga) | (c'4- | c'2ba) | !crescendo(!(bd'3)!crescendo)! | !>!e'3(e' |\
+!crescendo(!a4-!crescendo)!) | !diminuendo(!a2d'2!diminuendo)! \
+| (d'2c'b) | (b2!>!^ab) | (b4- | b2^ab) | \
+(b2!>!^ab) | (c'b=a>f') | (a4 | g3)g | \
+(g2!>!fg) | (_b2ag) | g'4- | g'(gab | \
+d'/)z/(gab | d'/) z/(deb)
+| (a4 | g)zz2 |: z4 |\
+z2!ff!!>!e'!>!^d' | z2!>!e'!>!f' | !>!^d'zz2 | z4 |\
+z2!>!!crescendo(!g'!>!f'!crescendo)! | z!ff!!>!g!>!a!>!f
+| z2(d/e/a/c'/
+| _e')>.e'.e'.e' |\
+z4 | z4 | z2(!crescendo(!e/^g/b/d'/!crescendo)!!ff! | =f')>.f'.f'.f' | !>!=f'zz2 |\
+z4 | z2(^f/a/d'/f'/ | !>!a')>!>!a'!>!a'!>!a' | !>!a'!>!a'(f/a/d'/f'/ |\
+!>!a')>!>!a'!>!a'!>!a' | !>!a'!>!a'(f/a/d'/f'/) | a'>(a'^g')>(g' |\
+=g')>(=g'f')>(f' | =f'>)(f'e')>(e' | _e') !>!d' !>!=e' !>!d' ||\
+!ff!!trill!d'g'gg' | d'/e'/d'/b/gd | g/a/b/c'/d'g' |\
+!trill!d'4 | !trill!d'g'gg' | d'/e'/d'/b/gd | f/g/a/b/c'f' |\
+!trill!c'4 | !trill!c'f'ff' | c'/d'/c'/a/ff | f/g/a/b/c'f' |\
+!trill!c'4 | b/c'/d'/b/!trill!d'b | c'/d'/e'/c'/!trill!e'c' | a/b/c'/a/!trill!ff' |\
+!trill!e'd'c'a | !trill!d'g'gg' | d'/e'/d'/b/gg | g/a/b/c'/d'g' |\
+!trill!d'4 | ^d'f'bf' | a/b/c'/b/^d^d' | b/c'/b/e'/bg' | !trill!b4 |\
+!trill!c'g'c'g' | !trill!_bg'bg' | !trill!=bg'bg' | !trill!d'4- |\
+d'4- | d'4- |1 d'4 | g'zz2 :|2 !trill!d'4 | g'z!fff!g'z |]

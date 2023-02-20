@@ -1,0 +1,37 @@
+X: 1
+T: Joy After Sorrow  [Am]
+B: Barnes "English Country Dance Tunes" p.61
+R: waltz
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+P: 3 times
+K: Am
+c2 |\
+"E7"B2 A2 ^G2 | "Am"A2 AB cd | e2 A2 c2 | e2 A2 c2 |\
+"E7"B2 A2 ^G2 | "Am"A2 AB cd | "C(Dm)"e2 fe dc | "E"B3 :|
+|: gg |\
+"A7"g2 f2 e2 | "Dm"f4 ff | "G"f2 e2 d2 | "C"e4 ee |\
+"A7"e2 d2 ^c2 | "Dm"de fe dc | "B7/d#"Bc dc BA | "E"^G2 E2 dd |
+"E"d2 c2 B2 | "Am"c4 ee | "A"e2 d2 ^c2 | "Dm"d4 e2 |\
+f2 e2 d2 | "Am"e2 AB cd | "E"e2 E2 ^G2 | "Am"A4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2
+T: Joy After Sorrow  (Gm)
+B: Barnes "English Country Dance Tunes" p.61
+R: waltz
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+P: 3 times
+K: Gm
+B2 |\
+"D7"A2 G2 ^F2 | "Gm"G2 GA Bc | d2 G2 B2 | d2 G2 B2 |\
+"D7"A2 G2 ^F2 | "Gm"G2 GA Bc | "Bb(Cm)"d2 ed cB | "D"A3 :|
+|: ff |\
+"G7"f2 e2 d2 | "Cm"e4 ee | "F"e2 d2 c2 | "Bb"d4 dd |\
+"G7"d2 c2 =B2 | "Cm"cd ed cB | "A7/c#"AB cB AG | "D"^F2 D2 cc |
+"D"c2 B2 A2 | "Gm"B4 dd | "G"d2 c2 =B2 | "Cm"c4 d2 |\
+e2 d2 c2 | "Gm"d2 GA Bc | "D"d2 D2 ^F2 | "Gm"G4 :|

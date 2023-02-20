@@ -1,0 +1,24 @@
+X:691
+T:Spring Blossom
+C:Colin Hume, 2008
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=82
+K:Am
+P:A
+%%MIDI program 50
+%%MIDI gchord fcHc
+%%MIDI chordprog 46
+%%MIDI bassprog 46
+[| E | "Am"c3 E | "Em/G"B3 E | "F"AGFA | "Gsus"G2- "G"GE |\
+"Am"e3 A | "Dm"d2ed | "B7/D#"cBAc | "E"B2- "E7"BE |
+P:B
+"Am"c3 E | "Em/G"B3 E | "F"edce | "D/F#"d3c |\
+"G"BcdD | "C"E2^FG | "Am"ABcE | "Dsus"^F2- "D7"F2 |
+P:C
+"Em"G^FGB | "Bm"d2B2 | "Am"A3G | "D7"E2^F2 |\
+"Em"G^FGB | "Bm"d2B2 | "C"e2 "(A7/C#)"g2 | "D"^f2- "(B7/D#)"f2 |
+P:D
+"Em"g^feB | "Am"c3e | "Dm"=fedA | "E7"B4 |\
+"Am"cBce | "Dm"dcBA | "E7"B3A | "Am"A3 |]

@@ -1,0 +1,87 @@
+
+X: 1
+T: Rio Tango
+O: as played by BLT
+S: printed MS of unknown origin
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+P: I(ABAC)2
+M: C
+L: a/8
+K: Dm
+.D.E "Intro"|\
+"Dm"(F.A) zA A2 A2 | "Gm".B.c d4 .c.B |\
+"A7"(A.E) z.G F2 E2 | "Dm"D6 \
+!Segno!\
+|: .D.E "A"|\
+"Dm"(FA.) zA A2 A2 | "A7"GA/G/ E4 .E.F |
+"A7"(G.A) z.G F2 E2 | "Dm"EF/E/ D4 DE |\
+"Dm"(F.A) zA (A2 =B2) | "Am".c.d e4 .e.e |\
+"E7"(d^G2) A =B2 c2 | "A7"=B=c/B/ A2- .Az DE |
+"Dm"(F.A) zA A2A2 | "A7"GA/G/ E4 .E.F |\
+"A7"(G.A) z.G F2E2 | "Dm"EF/E/ D4 DE |\
+"Dm"(F.A) zA A2A2 | "Gm".B.c d4 .c.B |
+"A7"(A.E) zG F2 E2 | "Dm"D4- .Dz |]|\
+[K:D] ^FG "B"|\
+"D"(A.F) zG "Ddim"A2 B2 | "A7"G4 z2 GA |\
+"A7"(B.G) zA "Aaug"B2 c2 | "D"A4 zD FG |
+"D"(A.f) zf f2 {^g}a2 | "Em"e4 zd2c |\
+"A"(B.e) zc "Aaub"B2 c2 | "D"Bc/B/ A2 zD FG |\
+"D"(A.F) zG "Ddim"A2 B2 | "A7"G4 z2 GA |
+"A7"(B.G) zA "Aaug"B2 c2 | "D"A4 zD FG |\
+"D"(A.d) zd c2 ^B2 | "F#m"c4 zc AB |\
+"C#7"(c.d) zc (3B2 ^G2 c2 | "A7"c4 z2 !Segno!|]|
+[K:F] =c2 "C"|\
+"F"(3f2 f2 d2 "C"e4- | e4 d4 |\
+"F"(3cdc A6- | A4- A3 c |\
+"C7"(d2 c6- | c3) A (3A2 B2A2 |
+"F"(3GAG F6- | F2 z2 c4 |\
+"F"(3f2 f2 g2 (a4- | "F7"a4 f4) |\
+"Bb"(3efe d6- | "Bb"dz G2 A2 B2 | "F"(c.d) zc A2F2 |
+|[1 "C"(G.A) zG E2 C2 | {DE}"F"F8 | "F"z.F .G.^G "A7".Az \
+:|[2 "Gm"(3G2 A2 B2 "C7"(3c2 d2 e2 | "F"f8- | "F".f2 "C7"zc "F".fz |]
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: Rio Tango  [Em]
+O: as played by BLT
+S: printed MS of unknown origin
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+P: I(ABAC)2
+M: C
+L: a/8
+K: Em
+.E.F "Intro"|\
+"Em"(G.B) zB B2 B2 | "Am".c.d e4 .d.c |\
+"B7"(B.F) z.A G2 F2 | "Em"E6 \
+!Segno!\
+|: .E.F "A"|\
+"Em"(GB.) zB B2 B2 | "B7"AB/A/ F4 .F.G |
+"B7"(A.B) z.A G2 F2 | "Em"FG/F/ E4 EF |\
+"Em"(G.B) zB (B2 =c2) | "Bm".d.e f4 .f.f |\
+"F7"(e^A2) B =c2 d2 | "B7"=c=d/c/ B2- .Bz EF |
+"Em"(G.B) zB B2B2 | "B7"AB/A/ F4 .F.G |\
+"B7"(A.B) z.A G2F2 | "Em"FG/F/ E4 EF |\
+"Em"(G.B) zB B2B2 | "Am".c.d e4 .d.c |
+"B7"(B.F) zA G2 F2 | "Em"E4- .Ez |]|\
+[K:E] ^GA "B"|\
+"E"(B.G) zA "Edim"B2 c2 | "B7"A4 z2 AB |\
+"B7"(c.A) zB "Baug"c2 d2 | "E"B4 zE GA |
+"E"(B.g) zg g2 {^a}b2 | "Fm"f4 ze2d |\
+"B"(c.f) zd "Baub"c2 d2 | "E"cd/c/ B2 zE GA |\
+"E"(B.G) zA "Edim"B2 c2 | "B7"A4 z2 AB |
+"B7"(c.A) zB "Baug"c2 d2 | "E"B4 zE GA |\
+"E"(B.e) ze d2 ^^c2 | "G#m"d4 zd Bc |\
+"D#7"(d.e) zd (3c2 ^A2 d2 | "B7"d4 z2 !Segno!|]|
+[K:G] =d2 "C"|\
+"G"(3g2 g2 e2 "D"f4- | f4 e4 |\
+"G"(3ded B6- | B4- B3 d |\
+"D7"(e2 d6- | d3) B (3B2 c2B2 |
+"G"(3ABA G6- | G2 z2 d4 |\
+"G"(3g2 g2 a2 (b4- | "G7"b4 g4) |\
+"C"(3fgf e6- | "C"ez A2 B2 c2 | "G"(d.e) zd B2G2 |
+|[1 "D"(A.B) zA F2 D2 | {EF}"G"G8 | "G"z.G .A.^A "B7".Bz \
+:|[2 "Am"(3A2 B2 c2 "D7"(3d2 e2 f2 | "G"g8- | "G".g2 "D7"zd "G".gz |]

@@ -1,0 +1,14 @@
+X: 4
+T: Bach Minuet 1
+C: J. S. Bach (1685-1750)
+M: 3/4
+L: 1/8
+K: G
+|: \
+ "G""_mf".d2 .d2- .d2 |   B2 AB G2 |"D"A2 (.d2.c2) |"G"B4 "D"A2 |\
+ "G"      d2  cBAG    |"C"e2 cBAG  |"D"F2   ED F2  |"G"G6      :|
+|: \
+"Em""_p" B2  e4    |"A"^c2    Bc    A2 |"D" d2 e2 f2 |"A"ed^cB A2 |\
+ "D""_mf"a2  gfed  |"G" b2    gfed     |"A"^c2 A2 c2 |"D"d6       |
+ "G""_p" d2  cB A2 |    B2 "D"AB "G"G2 |"C" c4    cB |"D"A6   "^I"|\
+ "G""_mf"d2  cBAG  |"C" e2    cBAG     |"D" F2 ED F2 |"G"G6      :|

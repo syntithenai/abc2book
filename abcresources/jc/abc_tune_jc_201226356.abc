@@ -1,0 +1,42 @@
+X: 1021
+T: the Jubilee
+%R: jig
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1810, No. 10 p.2 #1
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances5
+%%slurgraces 1
+%%graceslurs 1
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+(F |\
+d2)B {c}BAB | c2G (G2A | B2c d2e | f2g f2e |\
+d2)B {c}BAB | c2G G2A | B2F ([d2A2]c) | B3- B2 |]
+"^+"B |\
+("3"g2B e2g | f2B b2B | g2B e2g | f2B b2f) |\
+gfe fed | edc dcB | cBA BAG | FAB cde |
+"^8va  _  _  _"\
+d2B {c}BAB | c2G (G2A | B2c d2e | f2g f2e |\
+d2)B {c}BAB | c2G G2A | B2F ("_fz>"[d2A2]c) | B3- B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=D
+z |\
+B3 d3 | "_fz"e6 | d3 B3 | A3 F3 |\
+B3 d3 | "_fz"e6 | d3 "_fz"[e3F3] |
+[d3B3] [B2B,2] |] z |\
+[e3B3] [e3B3] | [d3B3] [d3B3] | [e3B3] [e3B3] | [d3B3] [B3D3] |\
+[B3E3] [B3D3] | [A3C3] [B3B,3] | [F3A,3] [=E3G,3] | [F3-F,3-] [F2F,2]z |
+[K:Bb clef=treble]"^Dolce"\
+B,DF B,DF | B,EG B,EF | B,DF B,DF | A,CF A,CF |\
+B,DF B,DF | B,EG B,EF | B,DF B,EF | B,DF B,2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change sides back again
+%% down the middle up again
+%% and Pousette
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

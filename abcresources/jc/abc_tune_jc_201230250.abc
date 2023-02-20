@@ -1,0 +1,19 @@
+X: 135013
+T: GREEN FIELDS OF ERIN
+Q: "Irish Reel."
+R: Reel.
+%R: reel
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: James Kerr "Merry Melodies" v.1 p.35 s.0 #13
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Ador
+% The alternate endings are written as a chord with "2nd" above.
+|:\
+A2(^cA) eAcA | BGBd gedB |\
+A2(^cA) eAcA | BGEF GAB [1 G :|[2 d |]\
+eaag eaag | efgf efgf |
+eaag eaag | egfa gedB |\
+e!1!aab c'ab!2!g | egfa gfge |\
+dega bgaf | egfa gedB |]

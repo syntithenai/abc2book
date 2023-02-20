@@ -1,0 +1,20 @@
+X: 4
+T: the Yellow Flail
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) no. 4
+R: double jig
+%S: s:3 b:24(8+8+8)
+Z: Transcribed by Frank Nordberg - http://www.musicaviva.com
+M: 6/8
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+d/c/ \
+| BAG GFG | D2E {G}FEF | GAG GAB | {d}cAG FGA |\
+| BcB {c}BAG | ABA ABc | dcA {B}AGF | G3G2 :|
+|: D \
+| (GFG) BAG | GFG AFD | (GFG) BGB | {d}c2A F2A |\
+| (GFG) BAG | FGA ABc | dcA {B}AGF | G3 G2 :|
+|: D \
+| G2AB2c | ded d2c | {c}BAG FGA | cAG F2A |\
+| BcB {c}BAG | ABA ABc | dcA {B}AGF | G3 G2 :|

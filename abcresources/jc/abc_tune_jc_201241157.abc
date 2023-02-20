@@ -1,0 +1,19 @@
+X: 4268
+T: Jack's Delight
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has an start-repeat but no final-repeat symbol.
+N: The dance has four phrases, so the 2nd part is probably repeated.
+M: C|
+L: 1/8
+K: G
+V: 1
+|: ga/b/ ag f2ed | B2AG E/E/EE2 | ga/b/ ag f2ed | B2AG D/D/DD2 :|
+|: Bd-dc/d/ ecc2 | Ac-cB/c/ dBB2 | GB-BA/B/ cA-AB/c | dBcA G/G/GG2 |]
+V: 2 clef=bass middle=d
+%%begintext align
+The 1st Man casts off and turns the 3d Wo. and remains in the 2d Man's Place .|
+the 1st Wo. does the same :|
+Hands round all Six .|.
+Right and Left :|:
+%%endtext

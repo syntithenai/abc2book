@@ -1,0 +1,34 @@
+X: 102
+T: the Sutours of Selkirk
+%R: air
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.10 #2
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: There are repeats on both strains and segno symbols at three places; it's not obvious what this means.
+Q: "slow"
+M: 3/4
+L: 1/8
+K: G
+%%staves {1 2}
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1 brace=2
+G2 |\
+!segno!Bc d2 e2 | Td2 {c}B2 g2 | (ed)(cB)(AG) | Bc d2 Je2 |\
+Td2 {c}B2 g2 | {a}Tf4 A2 | Bc d2 e2 | Td2 {c}B2 g2 |
+(ed)(cB)(TAG) | c3 d Je2 | Td2 {c}B2 g2 | Tf4 A2 !segno!:|\
+|:\
+~g2 G2 B2 | g2 Tf2 e2 | Td2 (cB)(AG) | ~g2 G2 B2 |
+g2(ag)(fe) | Tf4 A2 | ~g2 G2 B2 | g2(ag)(Tfe) |\
+d2 g2 B2 | c3 d Je2 | Td2 B2 g2 | {a}Tf4 A2 !segno!:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+z2 |\
+!segno!ga "6"b2 c'2 | "6"b2 g2 b2 | c'4 d'2 | ga "6"b2 c'2 |\
+"6"b2 ga"6"bc' | d'6 | GA "6"B2 c2 | "6"B2 G2 B2 |
+c4 d2 | "6"e3 d c2 | "6"B2 GABc | d6 !segno!:|\
+|:\
+g4 "4;2"f2 | "5"e2 d2 c2 | "6"B6 | e4 "4;2"d2 | "5 6"c4 ^c2 | d2 D2 "4;2"c2 |
+"6"B4 g2 | e2 "6"c4 | "4;2"c2 "6"B2 G2 | "6"e3 d c2 | "6"B2 GA"6"Bc | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

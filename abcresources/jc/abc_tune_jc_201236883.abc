@@ -1,0 +1,33 @@
+X: 2344
+T: les Piadmontese
+%R: jig
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.34 #4 (and top 4 staffs of p.35)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The first 4 bars of the 4th strain have a Bb drone in V:1; it's not
+N: transcribed here. See the abc2 version, which includes the drone.
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - -
+V: 1 staves=2
+F |\
+(B/c/d).B .F.e.c | (B/c/d).B Fec | (B/c/d).B {g}fed | TcAF F2TF ||\
+(B/c/d).B  Fec   | (B/c/d).B Fec | fdB ecA | B3- B2 |]
+A/B/ |\
+cAF (c/d/e).d | cAF F2A/B/ | {AB}c2F {cd}e2d | (d3 c2)F ||\
+(B/c/d).B Fec | (B/c/d).B Fec | fdB ecA | B3- B2 |]
+f |\
+b3  {d'}c'bc' | d'2b b2c' | d'>e'd' c'bc' | d'2b b2f ||\
+b2F {d'}c'bc' | d'2b b2c' | d'>e'd' (Tc'bc') | b3- b2 |]
+f |\
+ {a}g2f Tg2a | b2b b2f | {a}g2f Tg2a | b3- b2f ||\
+{ef}g2g Tgfe | {de}f2f Tfed | cgf edc | (Tc3 B2) |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | b3 [f3a3] | b3 [f3a3] | b3 d2B | f3 F3 || b3 [f3a3] | b3 [f3a3] | b3 f3 | B2b B2 |] z | f3 a2b |
+f3 f3 | f3 a2b | f'3 f3 || b3 [f3a3] | b3 [f3a3] | b3 f3 | B2b B2 |] z |\
+[bB3]d'f' [aF3]c'f' | [bB3]d'f' [bB3]d'f' | [bB3]d'f' [ff3]c'f' | [bB3]d'f' [bB3]d'f' || [bB3]d'f'
+[aF3]c'f' | [bB3]d'f' [bB3]d'f' | [bB3]d'f' [aF3]c'f' | [bB3]d'f' [B2b2] |] z |\
+e2d e2c | B2B B2d | e2d e2c | B2b B2z || f3 a3 | b3 B3 | e3 f2F | B2b B2 |]

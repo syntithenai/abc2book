@@ -1,0 +1,18 @@
+X: 240
+T: Narino
+O: Turkey
+M: 2/4
+L: 1/8
+Q:1/4=100
+K: Dm
+%%MIDI drum d4d2d3d3 45 45 45 45 60 40 60 40
+%%MIDI drumon
+%%MIDI program 25
+| G2 d2 | dcdc|c4-  |c2 BA |\
+  G2 d2 | dcdc|c4-  |c2 BA |
+%%MIDI program 110
+| G2 d2 | dcdc|c4-  |c2 BA |\
+  G2 d2 | dcdc|c4-  |c2 BA |
+%%MIDI program 42
+|:d2 d2 | ddd2|d2cB |ccc2  |\
+  Gddd  |d2cB |ccc2 | Gddd |d2cB|ccc2 :|

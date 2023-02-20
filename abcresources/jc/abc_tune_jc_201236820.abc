@@ -1,0 +1,29 @@
+X: 231
+T: Mrs OSWALD. (of Auchincruives.) New.
+C: R. MACKINTOSH
+R: Strathspey
+B: Glen Collection p.23 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: F
+%
+V: 1
+AB |\
+cF3A3G F4F2AB | cF3A3c dcBA Gd3 | cF3A3F DF3CF3 | (EFG2) C3B AF3F2 :|
+c2 |\
+fc3a3g f4{g}f2ed | cF3A3f dcBA G3e | fc3af3 df3cf3 | (Bcd2) c3B A2F2F2c2 |
+fc3a3g f4{g}f2ed | cF3A3c dcBA G3B | Af3Bf3 cf3df3 | e2g2c2e2 f4{g}f2ed |]
+%
+V: 2
+z2 |\
+F4 [a4f4c4] [a4f4c4][a4f4c4] | A4[c'4f4] c4[b4e4] |\
+[a4f4][c'4f4] [b4f4][a4f4] | c4[g4e4c4] F4[a2f2c2] :|
+z2 |\
+[f4F4][f'4c'4a4] [f'4c'4a4][f'4c'4a4] | f4[c'4a4] c4[b4g4] |\
+[a4f4][a4f4c4] [b4f4d4][a4f4] | c4[g4e4] f4[a4f4] |\
+[f4F4][f'4c'4a4] [f'4c'4a4][f'4c'4a4] | f4[c'4a4] c4[b4g4] |\
+[f4F4][f'4g4] [f'4a4][f'4b4] | c'4c4 [a4f4][f4c4F4] |]

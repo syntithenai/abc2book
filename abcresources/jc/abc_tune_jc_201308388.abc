@@ -1,0 +1,16 @@
+X: 831
+T: McCarthy's Hornpipe
+R: hornpipe
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #831
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0831/oneill-1001-0831-1.abc
+M: C|
+L: 1/8
+K: A
+"^A"[|] (E2 \
+| A2)Ac ecAc | d2(fd) ecAc | d2fd c2ec | BAGA BdcB ||
+| A2Ac  ecAc | dcdf   edcB | Aagf edcB | A2A2 A2 :|
+"^B"|: (3(efg) \
+| aece fece | Aece fece | defd cdec | BAGA BdcB ||
+| A2(Ac) ecAc | dcdf edcB | Aagf edcB | A2A2 A2 :|

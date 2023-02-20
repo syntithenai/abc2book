@@ -1,0 +1,43 @@
+X:1
+T:ODE TO JOY
+M:C
+L:1/8
+Q:80
+C:Ludvig Von Beethoven
+S:March
+K:HP
+[| {g}c2{g}c2{g}d2e2 | \
+{gef}e2d2{gcd}c2B2 | \
+{g}A2{GAG}A2{g}B2{d}c2 |
+{gcd}c2-c{g}B{G}B4 | \
+{g}c2{g}c2{g}d2e2 | \
+{gef}e2d2{gcd}c2B2 |
+{g}A2{GAG}A2{g}B2{g}c2 | \
+{gBd}B2{G}A3{GAG}A3|]  |: \
+{g}B2{G}B2{g}c2{e}A2 |
+{g}B2{g}cd{gcd}c2{e}A2 | \
+{g}B2{gcd}cd{g}c2B2 | \
+{g}A2{g}B2{g}e2{gcd}c2 |
+{g}c2{g}c2{g}d2e2 | \
+{gef}e2d2{gcd}c2B2 | \
+{g}A2{GAG}A2{g}B2{d}c2 |
+{gcd}c2-c{g}B{e}B4:| [ | \
+{g}f2{g}f2{gf}g2a2 | \
+{a}a2g2{afg}f2e2 |
+{g}d2{gdc}d2{g}e2f2 | \
+{fg}f3e{g}e4 | \
+{g}f2{g}f2{gf}g2a2 |
+{a}a2g2{afg}f2e2 | \
+{g}d2{gdc}d2{g}e2f2 | \
+{gef}e2-ed{gdc}d4|] |:
+{g}e2{A}e2{gfg}f2d2 | \
+{g}e2fg{afg}f2d2 | \
+{g}e2fg{afg}f2e2 |
+{g}d2e2{GAG}A2{g}f2 | \
+{g}f2{g}f2{gf}g2a2 | \
+{a}a2g2{afg}f2e2 |
+{g}d2{gdc}d2{g}e2{gfg}f2|1
+{gef}e3d{gdc}d4:|2
+{gef}e3{g}d2 |
+{g}d4- | \
+d4-d|]

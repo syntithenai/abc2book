@@ -1,0 +1,29 @@
+X: 1
+T: la Royale   (C)
+O: c.1755
+R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" #29
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+"A"[|]\
+"G7"E3F |\
+"C"G2G2 "F"ABc2 | "C"G4 "(G7)"c2BA |\
+"C"GcBc "G7"defd | "C"e2c2 E3F |\
+"C"G2G2 "F"ABc2 | "C"G4 "D7"c2BA |
+"G"(3Bg^f "C"(3edc "D7"B2A2 | "G"G4 "B":|\
+"C"Gceg |\
+"G7"g2f2 GBdf | "C"f2e2 egec |\
+"G7"fafd "C"egec | "G"B2G2 "C"Gceg |
+"G7"g2f2 GBdf | "C"f2e2 "G7"fafd "I"|\
+"C"egec "G7"G2B2 | "C"c4 "C"|]\
+"C"EGcG |\
+"Dm"FAdA "C"EGcE | "G"DGBD "C"EGcE |
+"F"FAdc "G7"BAGF | "C"E2C2 EGcE |\
+"Dm"FAdA "C"EGcE | "G"DGBD "C"EGcE |\
+"F"FAdf "G7"ecdB | "C"c4 |] [a4C4]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

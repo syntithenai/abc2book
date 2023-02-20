@@ -1,0 +1,83 @@
+%%text RJ Set 083 Jigs
+
+
+X: 1
+T: Le Tourment
+C: Jean-Paul Loyer 1975
+I: RJ J-79
+R: jig
+D: From recording by J-P Loyer, Ojnab
+Z: Translated to abc by Debbie Knight
+Z: Chords by Bruce Rosen, after Pete Sutherland
+M: 6/8
+K: G
+|:\
+"G"G2G "D7"AGA |"G"Bdc BAG |"C"E2c cBc | "D"d3 def |\
+"Em"g2g d2d |"C" ede "G/B"B2B |"Am"cBA "G"BAG |[1 "D"A2F DEF :|[2 "D"DGF "G"G2F |
+|:\
+"C"E3 EFG |"G/B (Bm)"DGF GAB |"Am"d3 dcB |cBA "G/B"BAG |\
+"C"E3 EFG |"G/B (Bm)"DGF GAB |"C"d2B cBA|[1 "D7"DGF "G"G2F :|[2 "D7"DGF "G"G3 |]
+
+
+X: 2
+T: The Robin's Nest / Paddy Fahy's
+I: RJ J-80
+M: 6/8
+L: 1/8
+R: jig
+K: C
+|:\
+"C"c3 "G"dcB | "C"cGE "C/E"CEG | "F"F3 "Dm"DEF | "G"GAB ced |\
+"C"c3 "G"dcB | "C"cGE "C/E"CEG | "F"F3 "G"DGF | "C"ECC C3 :|
+|:\
+"C"c3 "C/G"g^fg | "C"ea^f "C/E"gec | "Dm"A2f fef | Adf "G"afd |\
+"C"c3 "C/G"g^fg | "C"ea^f "C/E"g2a | "C"gec "G"fdB | "C"cGE C3 :|
+
+
+X: 3
+T: The Reverend Brother's Jig [Am] / The Monk's Jig
+I: RJ J-81
+M: 6/8
+L: 1/8
+R: jig
+K: Ador
+|:\
+"Am"ABA c2e | dcd ege | ABA c2e | "G"dcA AGE |\
+"Am"ABA c2e | dcd ege | a3 ged | "G"cAG "Am"A3 :|
+|:\
+"Am"eaa aba | "G"gef ged | "Am"eaa aba | "G"ged cAA |\
+"Am"eaa aba | "G"gef g3 | "Am"a3 ged | "G"cAG "Am"A3 :|
+%%text This works well on fiddle an octave lower, and/or in Em.
+
+
+X: 4
+T: The Reverend Brother's [Em] / the Monk's Jig
+M: 6/8
+L: 1/8
+R: jig
+K: Edor
+|:\
+"Am"EFE G2B | AGA BdB | EFE G2B | "G"AGE EDB, |\
+"Am"EFE G2B | AGA BdB | e3 dBA | "G"GED "Am"E3 :|
+|:\
+"Am"Bee efe | "G"dBc dBA | "Am"Bee efe | "G"dBA GEE |\
+"Am"Bee efe | "G"dBc d3 | "Am"e3 dBA | "G"GED "Am"E3 :|
+%%begintext ragged
+%% This may be played as a "harmony" to the A minor version.
+%%endtext
+
+
+X: 5
+T: The Reverend Brother's Jig (lower octave)
+N: aka the Monk's Jig
+M: 6/8
+L: 1/8
+R: jig
+K: Ador
+|:\
+"Am"A,B,A, C2E | DCD EGE | A,B,A, C2E | "G"DCA, A,G,B, |\
+"Am"A,B,A, C2E | DCD EGE | A3 GED | "G"CA,G, "Am"A,3 :|
+|:\
+"Am"EAA ABA | "G"GEF GED | "Am"EAA ABA | "G"GED CA,A, |\
+"Am"EAA ABA | "G"GEF G3 | "Am"A3 GED | "G"CA,G, "Am"A,3 :|
+

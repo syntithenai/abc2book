@@ -1,0 +1,67 @@
+X: 1171
+T: the Bull-Dog
+C:
+O: College Song
+Q:
+%R: song, march
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Ab
+%%continueall 1
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+"^MALE VOICES"\
+z2 AB | cc c>c | c-c z2 | z4 | z2 EG | BB B>B | B-B z2 | z4 | Hz2 |]
+w: 1.~Oh! the bull-dog on the bank,*         Oh! the bull-dog on the bank,*
+w: 2.~Oh! the bull-dog stoop'd to catch him, Oh! the bull-dog stoop'd to catch him,
+w: 3.~Says the mon-key to the owl:*          Says the mon-key to the owl:*
+w: 4.~Pha-raoh's daugh-ter on the bank,*     Pha-raoh's daugh-ter on the bank,*
+%
+"^CHORUS  Lively  (Male Quartette)"\
+!f![cA][dB] | [ec][ec] [ec]>[ec] | [e-c-][ec] [dB][cA] | [fd][fd] [fd]>[fd] | [f2d2] z[fd] |
+w: Oh! the bull-dog on the bank,*         And the bull-frog in the pool,    The
+w: Oh! the bull-dog stoop'd to catch him, And the snap-per caught his paw,  The
+w: Says the mon-key to the owl:*         "Oh!* what'll you have to drink?" "Why
+w: Pha-raoh's daugh-ter on the bank,*     Lit-tle Mo-ses in the pool,       She
+%
+   [e/-c/-][e/-c/-][ec] [ec]>[ec] | [ec][dB] z[dB] | [cA][dB] [ec][dB] | [c2A2] |:
+w: bull-*dog called the bull-frog,   A green old wa-ter-fool.
+w: pol-ly-wog died a laugh-ing,      To see him wag his jaw.
+w: since* you are so very kind,      I'll take a bottle of ink."
+w: fish'd* him out with~a tele-graph~pole, And sent him off to school.
+%
+   [EE][AA] | [c2c2][c2c2] | [cc]>[BB] [cA][dF] | ([c4-E4] | [c2A2]) [BG][cA] |
+w: ~    ~   ~   ~  ~  ~  ~  ~  ~  ~ ~    ~	% (spacer to align the rest of the words with the 2nd verse)
+w: Sing-ing tra la la la la la la,* Sing-ing
+w: ~    ~   ~   ~  ~  ~  leil-i-o,*  ~   ~	% It's not clear when this should be sung.
+   [d2B2] [d2B2] | [dB]>[fd] [ec]>[dB] | [e4-c4-] | [e2c2] [cA][dB] |
+w: ~   ~  ~  ~  ~  ~  ~  ~ ~    ~
+w: tra la la la la la la,* Sing-ing
+w: ~   ~  ~  ~  leil-i-o,* ~    ~
+   (3([ec][ec][ec]) [ec]>[ec] | [e2c2] [dB][cA] | (3([fd][fd][fd]) [fd]>[fd] | [f4d4] |
+w: ~   ~  ~  ~  ~  ~   ~    ~   ~   ~   ~  ~  ~ ~
+w: tra la la la la la, sing-ing tra la la la la la,
+%: ~ ~ ~ ~ ~ ~ ~ ~  ~ ~ ~ ~ ~ ~
+   (3([fd][ec][ec]) [e2c2] | (3([ec][dB][dB]) [d2B2] | (3([dB][dB][cA]) | [ec]>[dB] | !pp![c4A4] :|
+w: ~   ~  ~  ~   ~   ~  ~  ~   ~   ~  ~  ~  ~  ~.
+w: Tra la la la, tra la la la, tra la la la la la.
+w: ~   ~  ~  ~   ~   ~  ~  ~   ~   ~  ~  leil-i-o.
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z4 | z4 | z2 "^Solo, First Bass"ab | c'a c'a | e2 z2 | z4 | z2 "^Solo, Second Bass"ee | ed "^rit.ad lib."cB | HA2 |]
+w: | | And the bull-frog in the pool,     And the bull-frog in the pool,
+w: | | And the snap-per caught his paw,   And the snap-per caught his paw,
+w: | | "Oh!* what'll you have to drink?" "Oh!* what'll you have to drink?"
+w: | | Lit-tle Mo-ses in the pool.        Lit-tle Mo-ses in the pool.
+%
+!f![eA][eA] | [eA][eA] [eA]>[eA] | [e-A-][eA] [aA][aA] | [ad][ad] [ad]>[ad] | [a2d2] z[ad] |
+[a/-e/-][a/-e/-][ae] [ae]>[ae] | [ae][ge] z[ge] | [ae][ge] [eE][eE] | [e2A2] |:
+%
+   [cA][cA] | [e2A2] [e2A2] | [eA]>[dA] [eA][fA] | [e4-A4-] | [e2A2] [eA][eA] |
+   [e2e2] [e2e2] | [ee]>[ee] [ee]>[ee] | [e4-A4-] | [e2A2] [eA][eA] |
+   (3([eA][eA][eA]) [eA]>[eA] | [e2A2] [aA][aA] | (3([ad][ad][ad]) [ad]>[ad] | [a4d4] |
+   (3([ae][ae][ae]) [a2e2] | (3([ge][ge][ge]) [g2e2] | (3([ge][ge][ae]) [ge]>[ge] | !pp![e4A4] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,515 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 23
+B: RSCDS Book 23
+K:
+%%center Book23/2300-Title.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23011
+T: Hon Ms Fraser
+O:england
+S:RSCDS 23/1, via EF
+M:4/4
+L:1/4
+%--------------------
+K:Bm
+d/2e/2|"Bm"fe/2f/2 d/2f/2B/2d/2|"A"c/2A/2e/2c/2 a/2e/2c/2A/2|\
+"Bm"fe/2f/2 d/2f/2B/2d/2|"F#7"e/2f/2d/2c/2 "Bm"d/2B/2B|
+"Bm"fe/2f/2 d/2f/2B/2d/2|"A"c/2A/2e/2c/2 a/2e/2c/2A/2|\
+"Bm"B/2c/2d/2B/2 "Em"c/2d/2e/2g/2|"F#7"f/2d/2e/2c/2 "Bm"d/2B/2B||
+"Bm"bf/2d/2 bf/2d/2|"A"c/2e/2a/2^g/2 a/2e/2c/2A/2|"Bm"bf/2d/2 bf/2d/2|\
+"F#7"e/2f/2d/2c/2 "Bm"d/2B/2B|
+"Bm"bf/2d/2 bf/2d/2|"A"c/2e/2a/2^g/2 a/2e/2c/2A/2|\
+"Bm"B/2b/2^a/2b/2 "Em"g/2b/2e/2g/2|"F#7"f/2e/2d/2c/2 "Bm"d/2B/2B||
+%%center Book23/23011-Hon_Ms_Fraser-1.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23012
+T: Hon Ms Fraser
+S:RSCDS 23/1, via EF
+M:4/4
+L:1/4
+%--------------------
+K:Bm
+d/2e/2|"Bm"fe/2f/2 d/2f/2B/2d/2|"A"c/2A/2e/2c/2 a/2e/2c/2A/2|\
+"Bm"fe/2f/2 d/2f/2B/2d/2|"F#7"e/2f/2d/2c/2 "Bm"d/2B/2B|
+"Bm"fe/2f/2 d/2f/2B/2d/2|"A"c/2A/2e/2c/2 a/2e/2c/2A/2|\
+"Bm"B/2c/2d/2B/2 "Em"c/2d/2e/2g/2|"F#7"f/2d/2e/2c/2 "Bm"d/2B/2B||
+"Bm"bf/2d/2 bf/2d/2|"A"c/2e/2a/2^g/2 a/2e/2c/2A/2|"Bm"bf/2d/2 bf/2d/2|\
+"F#7"e/2f/2d/2c/2 "Bm"d/2B/2B|
+"Bm"bf/2d/2 bf/2d/2|"A"c/2e/2a/2^g/2 a/2e/2c/2A/2|\
+"Bm"B/2b/2^a/2b/2 "Em"g/2b/2e/2g/2|"F#7"f/2e/2d/2c/2 "Bm"d/2B/2B||
+%%center Book23/23011-Hon_Ms_Fraser-2.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23013
+T: Hon Ms Fraser
+% Nottingham Music Database
+S:RSCDS 23/1, via EF
+M:4/4
+L:1/4
+%--------------------
+K:Bm
+d/2e/2|"Bm"fe/2f/2 d/2f/2B/2d/2|"A"c/2A/2e/2c/2 a/2e/2c/2A/2|\
+"Bm"fe/2f/2 d/2f/2B/2d/2|"F#7"e/2f/2d/2c/2 "Bm"d/2B/2B|
+"Bm"fe/2f/2 d/2f/2B/2d/2|"A"c/2A/2e/2c/2 a/2e/2c/2A/2|\
+"Bm"B/2c/2d/2B/2 "Em"c/2d/2e/2g/2|"F#7"f/2d/2e/2c/2 "Bm"d/2B/2B||
+"Bm"bf/2d/2 bf/2d/2|"A"c/2e/2a/2^g/2 a/2e/2c/2A/2|"Bm"bf/2d/2 bf/2d/2|\
+"F#7"e/2f/2d/2c/2 "Bm"d/2B/2B|
+"Bm"bf/2d/2 bf/2d/2|"A"c/2e/2a/2^g/2 a/2e/2c/2A/2|\
+"Bm"B/2b/2^a/2b/2 "Em"g/2b/2e/2g/2|"F#7"f/2e/2d/2c/2 "Bm"d/2B/2B||
+%%center Book23/23011-Hon_Ms_Fraser-3.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23031
+T: Miss Mackenzie's Reel
+C: R.Mackintosh
+R: reel
+B: RSCDS 23-3
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: F
+B | "F"A{B}cAF "Bb"Bdfd     | "F"A{B}cAF  "C7"EGEC \
+  | "F"A{B}cAF "Bb"BdfB     | "F"Ac"C7"GB  "F"AFF :|
+g | "F"afef    "Bb"df"C7"cA | "F"afef     "Bb"df"C7"ec \
+  | "F"afef    "Bb"df"F"cf  |"Gm"Bd"C7"cB  "F"AFF |]
+g | "F"afef    "Bb"df"C7"cA | "F"afef     "Bb"df"C7"ec \
+  | "F"af"C"ge "Bb"fd"C7"ec | "Dm"fd"C7"cB "F"AFF |]
+%%center Book23/23031-Miss_Mackenzies_Reel-1.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23032
+N: 8 x 32J 3C
+T: The Stone Court
+C: Margaret T W Rae
+B: RSCDS Book 23-5
+N: Recommended tune for Miss Hadden's Reel
+N: arr. John Chambers, mod.by T. Traub 11-3-02
+R: jig
+M: 6/8
+L: 1/8
+K: D
+A \
+"D"d2d "A"edc | "D"d2A F2A | "D"d2d "A"edc | d3 d2d |\
+"A"e2A ABA | "D"f2A ABA | "A"c2e "E7"B2e | "A"A3 "A7"ABc ||
+"D"d2d "A"edc | "D"d2A F2A | "D"d2d "A"edc | "Bm"d3 d2f |\
+"Em"g2e Beg | "D"f2d A2F | "A7"ABA GFE | "D"D3 "A7"A3 |]
+"D"AFA d2F | "Em"GFG "A7"E2G | "D"FAd f2F | A3 A2A |\
+"G"B2B Bcd | "D"A2F d2F | "A"E2A "E7"^GAB | "A"A3 "A7"A3 ||
+"D"AFA d2F | "Em"GFG "A7"E2G | "D"F2A d2e | "Bm"f3 f2f |\
+"Em"g2e Beg | "D"f2d A2F | "A7"ABA ABc | "D"d3 D2 |]
+%%center Book23/23051-Stone_Court-2.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23033
+T: The Stone Court
+B:RSCDS 23-5
+M:6/8
+K:D
+A |\
+"D"d2d "A7"edc | "D"d2A F2A | "D"d2d "A7"edc | "D"d3 d2d |\
+"A7"e2A ABA | "D"f2A ABA | "A"c2e "E7"B2e | "A7"A3 ABc ||
+"D"d2d "A7"edc | "D"d2A F2A | "D"d2d "A7"edc | "D"d3 "D7"d2f |\
+"G"g2e "A7"Beg | "D"f2d "Bm"A2F | "Em"ABA "A7"GFE | "D"D3 "A7"A3 |]
+"D"AFA d2F | "G"GFG "A7"E2G | "D"FAd f2F | "A"A3 -A2"ab"A |\
+"G"B2B Bcd | "D"A2F d2F | "A"E2A "E7"^GAB | "A"A3 "A7"A2A ||
+"D"AFA d2F | "G"GFG "A7"E2G | "D"F2A d2e | "D7"f3 f2f |\
+"G"g2e "A7"Beg | "D"f2d "Bm"A2F | "Em"ABA "A7"ABc | "D"d3 d2 |]
+%%center Book23/23051-Stone_Court.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23061
+T: Miss Milligan's Reel
+R: reel
+N: originally strathspey
+B: RSCDS 23-6
+Z: 2006 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: G
+D | "G"GBdg     dGB2    | "Am"EAAG "D7"FAFD | "G"GBdg     dGB2     | "Am"EA"D7"Fd "G"BGG :|
+B | "G"dBgd  "C"eg"G"dB | "Am"cAag "D7"fafd | "G"dBgd  "C"eg"G"dB  | "Am"EA"D7"Fd "G"BGG ||
+B | "G"dBgf "Em"edcB    | "Am"EAAG "D7"FAdc | "G"BgdB "Am"Ec"D7"AF | "Am"EA"D7"Fd "G"BGG |]
+%%center Book23/23061-Miss_Milligans_Reel-1.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23062
+T: Miss Milligan's Reel
+R: reel
+N: originally strathspey
+B: RSCDS 23-6
+Z: 2006 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: G
+D | "G"GBdg     dGB2    | "Am"EAAG "D7"FAFD | "G"GBdg     dGB2     | "Am"EA"D7"Fd "G"BGG :|
+B | "G"dBgd  "C"eg"G"dB | "Am"cAag "D7"fafd | "G"dBgd  "C"eg"G"dB  | "Am"EA"D7"Fd "G"BGG ||
+B | "G"dBgf "Em"edcB    | "Am"EAAG "D7"FAdc | "G"BgdB "Am"Ec"D7"AF | "Am"EA"D7"Fd "G"BGG |]
+%%sep 3 1 500
+%%center Book23/23061-Miss_Milligans_Reel.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23063
+T: Miss Milligan's Strathspey
+R: strathspey
+B: RSCDS 23-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%
+K: G
+   D \
+| "G"G>B d<g d<G B2 | "Am"E<A A>G "D7"F>A F<D \
+| "G"G>B d<g d<G B2 | "Am"E>A "D7"D<d "G"B<G G :|
+   B \
+| "G"d>B g>d "C"e>g "G"d<B | "Am"c>A a>g "D7"f>a f<d \
+| "G"d>B g>d "C"e>g "G"d<B | "Am"E>A "D7"D<d "G"B<G G ||
+   B \
+| "G"d>B g>f "Em"e>d c<B | "Am"E<A A>G "D7"F>A d>c \
+| "G"(3Bdg (3dBG "Am"(3EAc "D7"(3AFD | "Am"E>A "D7"D<d "G"B<G G |]
+%%center Book23/23061-Miss_Milligans_Strathspey-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23064
+T: Miss Milligan's Strathspey
+T: 8 x 32S 3C (RSCDS Golden Jubilee)
+P: Miss L. Montgomery of Skelmorlie's Strathspey
+R: strathspey
+C: RSCDS Jubilee, arr. by Barbara McOwen Feb 1990
+C: mods by T. Traub 11-22-2005
+M: C
+L: 1/8
+%
+K: D
+|: F \
+| "D"D2 D>d "Bm"d>cB>A | "G"B>AB>d "A7"e<EE>F | "D"D2 D>d "Bm"d>cB>A | "G"B/c/d "A7"e/f/g "D"f<d d :|
+f/g/ \
+| "D"a>Aa>f a>d"G"b>a | "D"a<da>f "A7"f<e ef/g/ | "D"a>da>f a<d"G"b>a | "D"A<d"A7"ed/e/ "D"f<d df/g/ |
+| "D"a>Aa>f a>d"G"b>a | "D"a<Aa>f "A7"f<eef| "D"D2 D>d "Bm"d>cB>A | "G"B/c/d "A7"e/f/g "D"f<d d |]
+%%center Book23/23061-Miss_Milligans_Strathspey-TT.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23111
+T: Miss Elizabeth Ferguson's Favourite
+R: jig
+B: RSCDS 23-11
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+c/d/ \
+| "A"e2c "D"f2d | "A"e2c A2g | a2e c2A | "E7"GBB B2c/d/ \
+| "A"e2c "D"f2d | "E7"g2e "F#m"a2f | "A"eac "E7"BGE | "A"A3 A2 :|
+c/B/ \
+| "A"A2E C2A, | "D"F2D "Bm"B,2F | "E7"GBB B2c/B/ | "A"Acc c2B \
+| "A"AGF EDC | "E7"EAG "A"A2E | "D"FBA "E7"GFE | "A"A3 A2 |]
+c/B/ \
+| "A"A2E C2A, | "D"F2D "Bm"B,2F | "E7"GBB B2c/B/ | "A"Acc c2d \
+| "A"ecf "Bm"dBf | "E7"eag "A"acA | "D"Fdf "E7"eEG | "A"A3 A2 |]
+%%center Book23/23111-Miss_Elizabeth_Fergusons_Favourite-1.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23112
+T: Miss Elizabeth Ferguson's Favourite
+R: jig
+B: RSCDS 23-11
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+c/d/ \
+| "A"e2c "D"f2d | "A"e2c A2g | a2e c2A | "E7"GBB B2c/d/ \
+| "A"e2c "D"f2d | "E7"g2e "F#m"a2f | "A"eac "E7"BGE | "A"A3 A2 :|
+c/B/ \
+| "A"A2E C2A, | "D"F2D "Bm"B,2F | "E7"GBB B2c/B/ | "A"Acc c2B \
+| "A"AGF EDC | "E7"EAG "A"A2E | "D"FBA "E7"GFE | "A"A3 A2 |]
+c/B/ \
+| "A"A2E C2A, | "D"F2D "Bm"B,2F | "E7"GBB B2c/B/ | "A"Acc c2d \
+| "A"ecf "Bm"dBf | "E7"eag "A"acA | "D"Fdf "E7"eEG | "A"A3 A2 |]
+%%center Book23/MissElizabethFergusonsFavouriteJ-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23113
+T: Miss Elizabeth Ferguson's Favourite
+R: jig
+B: RSCDS 23-11
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+c/d/ \
+| "A"e2c "D"f2d | "A"e2c A2g | a2e c2A | "E7"GBB B2c/d/ \
+| "A"e2c "D"f2d | "E7"g2e "F#m"a2f | "A"eac "E7"BGE | "A"A3 A2 :|
+c/B/ \
+| "A"A2E C2A, | "D"F2D "Bm"B,2F | "E7"GBB B2c/B/ | "A"Acc c2B \
+| "A"AGF EDC | "E7"EAG "A"A2E | "D"FBA "E7"GFE | "A"A3 A2 |]
+c/B/ \
+| "A"A2E C2A, | "D"F2D "Bm"B,2F | "E7"GBB B2c/B/ | "A"Acc c2d \
+| "A"ecf "Bm"dBf | "E7"eag "A"acA | "D"Fdf "E7"eEG | "A"A3 A2 |]
+%%center Book23/MissElizabethFergusonsFavouriteJ_2-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23114
+T: Miss Elizabeth Ferguson's Favourite
+R: jig
+B: RSCDS 23-11
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+c/d/ \
+| "A"e2c "D"f2d | "A"e2c A2g | a2e c2A | "E7"GBB B2c/d/ \
+| "A"e2c "D"f2d | "E7"g2e "F#m"a2f | "A"eac "E7"BGE | "A"A3 A2 :|
+c/B/ \
+| "A"A2E C2A, | "D"F2D "Bm"B,2F | "E7"GBB B2c/B/ | "A"Acc c2B \
+| "A"AGF EDC | "E7"EAG "A"A2E | "D"FBA "E7"GFE | "A"A3 A2 |]
+c/B/ \
+| "A"A2E C2A, | "D"F2D "Bm"B,2F | "E7"GBB B2c/B/ | "A"Acc c2d \
+| "A"ecf "Bm"dBf | "E7"eag "A"acA | "D"Fdf "E7"eEG | "A"A3 A2 |]
+%%center Book23/MissElizabethFergusonsFavouriteJ_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23115
+T: Miss Mackenzie's Reel
+C: R.Mackintosh
+R: reel
+B: RSCDS 23-3
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+B | "F"A{B}cAF "Bb"Bdfd     | "F"A{B}cAF  "C7"EGEC \
+  | "F"A{B}cAF "Bb"BdfB     | "F"Ac"C7"GB  "F"AFF :|
+g | "F"afef    "Bb"df"C7"cA | "F"afef     "Bb"df"C7"ec \
+  | "F"afef    "Bb"df"F"cf  |"Gm"Bd"C7"cB  "F"AFF |]
+g | "F"afef    "Bb"df"C7"cA | "F"afef     "Bb"df"C7"ec \
+  | "F"af"C"ge "Bb"fd"C7"ec | "Dm"fd"C7"cB "F"AFF |]
+%%center Book23/MissMackenziesReel_F-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23116
+T: Miss Mackenzie's Reel
+C: R.Mackintosh
+R: reel
+B: RSCDS 23-3
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+B | "F"A{B}cAF "Bb"Bdfd     | "F"A{B}cAF  "C7"EGEC \
+  | "F"A{B}cAF "Bb"BdfB     | "F"Ac"C7"GB  "F"AFF :|
+g | "F"afef    "Bb"df"C7"cA | "F"afef     "Bb"df"C7"ec \
+  | "F"afef    "Bb"df"F"cf  |"Gm"Bd"C7"cB  "F"AFF |]
+g | "F"afef    "Bb"df"C7"cA | "F"afef     "Bb"df"C7"ec \
+  | "F"af"C"ge "Bb"fd"C7"ec | "Dm"fd"C7"cB "F"AFF |]
+%%center Book23/MissMackenziesReel_F_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23117
+T: Miss Milligan's Reel
+R: reel
+N: originally strathspey
+B: RSCDS 23-6
+Z: 2006 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+D | "G"GBdg     dGB2    | "Am"EAAG "D7"FAFD | "G"GBdg     dGB2     | "Am"EA"D7"Fd "G"BGG :|
+B | "G"dBgd  "C"eg"G"dB | "Am"cAag "D7"fafd | "G"dBgd  "C"eg"G"dB  | "Am"EA"D7"Fd "G"BGG ||
+B | "G"dBgf "Em"edcB    | "Am"EAAG "D7"FAdc | "G"BgdB "Am"Ec"D7"AF | "Am"EA"D7"Fd "G"BGG |]
+%%center Book23/MissMilliganR_G-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23118
+T: Miss Milligan's Reel
+R: reel
+N: originally strathspey
+B: RSCDS 23-6
+Z: 2006 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+D | "G"GBdg     dGB2    | "Am"EAAG "D7"FAFD | "G"GBdg     dGB2     | "Am"EA"D7"Fd "G"BGG :|
+B | "G"dBgd  "C"eg"G"dB | "Am"cAag "D7"fafd | "G"dBgd  "C"eg"G"dB  | "Am"EA"D7"Fd "G"BGG ||
+B | "G"dBgf "Em"edcB    | "Am"EAAG "D7"FAdc | "G"BgdB "Am"Ec"D7"AF | "Am"EA"D7"Fd "G"BGG |]
+%%center Book23/MissMilliganR_G_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23119
+T: Miss Milligan's Strathspey
+R: strathspey
+B: RSCDS 23-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+   D \
+| "G"G>B d<g d<G B2 | "Am"E<A A>G "D7"F>A F<D \
+| "G"G>B d<g d<G B2 | "Am"E>A "D7"D<d "G"B<G G :|
+   B \
+| "G"d>B g>d "C"e>g "G"d<B | "Am"c>A a>g "D7"f>a f<d \
+| "G"d>B g>d "C"e>g "G"d<B | "Am"E>A "D7"D<d "G"B<G G ||
+   B \
+| "G"d>B g>f "Em"e>d c<B | "Am"E<A A>G "D7"F>A d>c \
+| "G"(3Bdg (3dBG "Am"(3EAc "D7"(3AFD | "Am"E>A "D7"D<d "G"B<G G |]
+%%center Book23/MissMilliganS-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23120
+T: Miss Milligan's Strathspey
+R: strathspey
+B: RSCDS 23-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+   D \
+| "G"G>B d<g d<G B2 | "Am"E<A A>G "D7"F>A F<D \
+| "G"G>B d<g d<G B2 | "Am"E>A "D7"D<d "G"B<G G :|
+   B \
+| "G"d>B g>d "C"e>g "G"d<B | "Am"c>A a>g "D7"f>a f<d \
+| "G"d>B g>d "C"e>g "G"d<B | "Am"E>A "D7"D<d "G"B<G G ||
+   B \
+| "G"d>B g>f "Em"e>d c<B | "Am"E<A A>G "D7"F>A d>c \
+| "G"(3Bdg (3dBG "Am"(3EAc "D7"(3AFD | "Am"E>A "D7"D<d "G"B<G G |]
+%%center Book23/MissMilliganS_2-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23121
+T: Miss Milligan's Strathspey
+R: strathspey
+B: RSCDS 23-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+   D \
+| "G"G>B d<g d<G B2 | "Am"E<A A>G "D7"F>A F<D \
+| "G"G>B d<g d<G B2 | "Am"E>A "D7"D<d "G"B<G G :|
+   B \
+| "G"d>B g>d "C"e>g "G"d<B | "Am"c>A a>g "D7"f>a f<d \
+| "G"d>B g>d "C"e>g "G"d<B | "Am"E>A "D7"D<d "G"B<G G ||
+   B \
+| "G"d>B g>f "Em"e>d c<B | "Am"E<A A>G "D7"F>A d>c \
+| "G"(3Bdg (3dBG "Am"(3EAc "D7"(3AFD | "Am"E>A "D7"D<d "G"B<G G |]
+%%center Book23/MissMilliganS_G-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23122
+T: Miss Milligan's Strathspey
+R: strathspey
+B: RSCDS 23-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+   D \
+| "G"G>B d<g d<G B2 | "Am"E<A A>G "D7"F>A F<D \
+| "G"G>B d<g d<G B2 | "Am"E>A "D7"D<d "G"B<G G :|
+   B \
+| "G"d>B g>d "C"e>g "G"d<B | "Am"c>A a>g "D7"f>a f<d \
+| "G"d>B g>d "C"e>g "G"d<B | "Am"E>A "D7"D<d "G"B<G G ||
+   B \
+| "G"d>B g>f "Em"e>d c<B | "Am"E<A A>G "D7"F>A d>c \
+| "G"(3Bdg (3dBG "Am"(3EAc "D7"(3AFD | "Am"E>A "D7"D<d "G"B<G G |]
+%%center Book23/MissMilliganS_G_2-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23123
+T: Miss Milligan's Strathspey
+R: strathspey
+B: RSCDS 23-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+   D \
+| "G"G>B d<g d<G B2 | "Am"E<A A>G "D7"F>A F<D \
+| "G"G>B d<g d<G B2 | "Am"E>A "D7"D<d "G"B<G G :|
+   B \
+| "G"d>B g>d "C"e>g "G"d<B | "Am"c>A a>g "D7"f>a f<d \
+| "G"d>B g>d "C"e>g "G"d<B | "Am"E>A "D7"D<d "G"B<G G ||
+   B \
+| "G"d>B g>f "Em"e>d c<B | "Am"E<A A>G "D7"F>A d>c \
+| "G"(3Bdg (3dBG "Am"(3EAc "D7"(3AFD | "Am"E>A "D7"D<d "G"B<G G |]
+%%center Book23/MissMilliganS_G_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23124
+T: Miss Milligan's Strathspey
+R: strathspey
+B: RSCDS 23-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+   D \
+| "G"G>B d<g d<G B2 | "Am"E<A A>G "D7"F>A F<D \
+| "G"G>B d<g d<G B2 | "Am"E>A "D7"D<d "G"B<G G :|
+   B \
+| "G"d>B g>d "C"e>g "G"d<B | "Am"c>A a>g "D7"f>a f<d \
+| "G"d>B g>d "C"e>g "G"d<B | "Am"E>A "D7"D<d "G"B<G G ||
+   B \
+| "G"d>B g>f "Em"e>d c<B | "Am"E<A A>G "D7"F>A d>c \
+| "G"(3Bdg (3dBG "Am"(3EAc "D7"(3AFD | "Am"E>A "D7"D<d "G"B<G G |]
+%%center Book23/MissMilliganS_JC.abc

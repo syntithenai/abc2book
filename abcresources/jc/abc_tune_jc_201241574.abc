@@ -1,0 +1,26 @@
+X: 4428
+T: "ADELINA" SCHOTTISCHE
+C: Godfrey Parker
+R: Schottische
+%R: shottish
+B: James Kerr "Merry Melodies" v.4 p.48 #428
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Final rest in 1st ending of 3rd strain moved to the start, to fix the rhythms between strains.
+M: C
+L: 1/8
+K: C
+"_p 2nd f"(E>F) |\
+G>^FG>c A>^GA>=f | e>c G4 (E>F) |\
+G>^FG>c (3(edc) (3(g=fe) | d6 (E>F) |\
+G>^FG>c e>dc>g | =f>d A4 d>c |\
+B>fd>B (3(G^FG) (3(^GAB) | c2e2 c2 :|
+|: [K:G] B>c |\
+d2g2 e2g2 | d>ed>c B2d2 |\
+[1 c>dc>B A2e2 | d>ed>c B2 :|\
+[2 e>gf>e d>cB>A | G2g2 "_D.C."g2 |: [K:F]\
+z2 |\
+c4- c>=Bcf | A4- A>^GAc |
+B>AG>A B2e2 | d>cF>G A2c2 |\
+c4- c>=Bc>f |\
+[1 A4- A>c=B>A | G>ed>c =B>fe>d | c2c2 c2 :|\
+[2 d4- d>fe>d | c>=Bd>c _B>EA>G | F2f2 "_D.C."f2 |]

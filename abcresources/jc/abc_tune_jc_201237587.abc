@@ -1,0 +1,23 @@
+X: 272
+T: Mrs. Dr. Stewart's Reel
+C: by Wm. Christie
+R: reel
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c."
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+c | AE-TE>D ~C2(.A,.A) | GDBD ~G2(.D.B) | AE-TE>D CEA,A | GD B^G {G}A2A :| e | (e>^fg).e a2~a>e | gdBb ~g2(.d.g) |
+e>^fge (Ta>^ga).e | gdeB {B}A2Ae || (e>^fg).e (Ta>^ga).e | gdBb T(g>^fg).d | e^fge aegd | eB ^gb ~a2A |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+A2A2 A2A2 | B2G2 g2G2 | A2A2 A2A2 | B2E2 A2A :| z | c'2c'2 a2a2 | b2g2 b2g2 |
+c'2c'2 a2a2 | b2e2 a2A2 || c2c'2 a2c'2 | b2g2 d2B2 | c2c'2 a2b2 | e'2e2 a2a |]
+% = = = = = = = = = =

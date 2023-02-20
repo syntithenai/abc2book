@@ -1,0 +1,11 @@
+X:1
+T:Round the Horn
+R:Reel
+M:C|
+%%printtempo 0
+Q:180
+K:G
+(3DEF|: "G"G2G2 BAGA|Bd-de d4| "C"cdef e2g2 | "G"a6 ga|
+"Em"b2g2 "D"a2f2 | "C"gfed BAGB| "Am"A2d2 BAG2|1 "Em"E4-EDEF:|2"Em"E8||
+|:"C"e3 f e2d2 |"G"Bd2B d4 | "Am"A3AG2A2| "Bm"B2d2e2f2|
+"C"g3ag2e2| "G"dedc BAGB| "D"A2d2BAG2|1 "Em"E4-EGBd:|2 "Em"E6|]

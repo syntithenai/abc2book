@@ -1,0 +1,31 @@
+X: 041
+T: Busk ye busk ye my bonny bride
+%R: air
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.4 #1
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Q: "slow"
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1
+|:\
+A2(B/c/d) {B}TA3f | gf(Ted) B4 | A2(B/c/d) {B}A2f>g | a(g/f/) Te>d ~d2{de}f2 |
+A2(B/c/d) {B}TA3f | (gf)(eTd) B2Tf>e | (d/c/B) (A/G/F) (gf)(ed) | TB3A {A}B2d2 :|
+|:\
+Tfefg Ja3(g/f/) | (gf)(ed) {c}B4 | Tfefg Ja3g | (f/g/e/f/ de) Tfga2 |
+Tfefg a(g/f/) ba | gfTed B2Tf>e | (d/c/B) (A/G/F) (f/g/a) (f/e/d) | TB3A {A}B2d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+|:\
+d'2g2 "6"fefd | "6"B2z"6"f ga"6"bc' | d'2g2 "6"f3"6"e | dg"4"a"3"A d3e |\
+"6"fdgd "6"fefd |
+"6"B2z"6"f g2"6 5;4 3"a2 | b2zb e3"6"f | ga"6"b"6"f g2d2 :|\
+|:\
+d3"6"e "6"fefd | "6"B2z"6"f ga"6"bg | d3"6"e "6"fefc |
+d3A D2z"6"c |\
+d3"6"e "6"f2"6"d2 | e3"6"f g2"6 5;4 3"a2 | b2"6"c'2 d'3"6"f | ga"6"b"6"f g2d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

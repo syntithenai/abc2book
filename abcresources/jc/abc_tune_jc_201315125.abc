@@ -1,0 +1,77 @@
+N: Fiddle Hell 2021-11-4 tune set in Jenna Moyninan's Traditional Scottish Session
+
+
+X: 1
+T: Mutt's Favourite
+C: Jerry Holland
+R: reel
+S: MS from Barbara McOwen in the Concord Slow Scottish collection
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Ador
+G \
+"A"|:\
+"Am"EAAc B2Ac | "Am"BAAg feea |\
+"Am"EAAc B2Ac | "G"BGGA BcdD ||\
+"Am"EAAc B2Ac | "Am"BAAg feef |
+"G"gfgd e2eg | "(Em)"BGBc dBGB "B"::\
+"Am"EARA2 fARA2 | gARA2 aARA2 |\
+"Am"EAfA "D"gAaA | "G"fgdg "(Em)"BGGD :|
+
+
+X: 2
+T: Brenda Stubbert
+C: Jerry Holland
+O: Cape Breton
+R: reel
+N: BSFC VIII-9
+D: on Altan The Red Crow; Natalie McMaster tape?
+N: (get Jerry Holland's permission)
+Z: John Chambers <jc:trillian.mit.edu>
+N: <URL:http://www.interlog.com/~torocelt/hollandarchive.abc>
+N: This fine tune is already being mistakenly called "traditional"
+N: by people who don't realize that it's only a few years old.
+M: C|
+L: 1/8
+K: Am
+B \
+| "Am"RA2BA GAAB  | RA2B[dA] edd[eB] \
+| "G"RG2BA BGGB | c2BA "(Em)"BGGB |\
+| "Am"RA2BA GAAB  | RA2B[dA] edda    |
+| "G"gedB GABd  | "(Em)"e2dB "Am"eAA :| \
+   B \
+| "Am"RA2a2 RA2g2 | Aage age[gd]  \
+| "G"RG2BA BGGB | c2BA "(Em)"BGGB ||
+| "Am"RA2a2 RA2g2 | Aage agea     \
+| "G"gedB GABd  | "(Em)"e2dB "Am"eAA |] \
+   B \
+| "Am"RA2a2 RA2g2 | Aage age[gd]  |
+| "G"RG2BA BGGB | "G"c2BA "(Em)"BGGB |\
+| "Am"RA2BA  GAAB | RA2Bd edda    \
+| "G"gedB GABd  | "(Em)"e2dB "Am"eAA |]
+
+
+X: 3
+T: Frank's Reel
+C: John McCusker
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+E2 "A"|\
+"A"AcBA "D"F2 AF | "A"EFAB cABc |\
+"D"~d3f "A"eAce | "F#m"f{g}aec "E"B2{cd}cB |
+"A"AcBA "D"F2 AF | "A"EFAB cABc |\
+"D"~d3f "A"ecAc | "E"BAGB [1 "A"A2 :|2 "A"A ||
+"B1"|: e"(E7)"fg |\
+"A"aAAg "D"AAfA | "A"effe cABc |\
+"D"~d3f "A"ecAc |[1 "Bm"Bcde "E7"f :|[2 "E"BAGB "A"A ||
+"B2"[| e"(E7)"fg |\
+"A"aAAg "D"AAfA | "A"effe cABc |\
+"D"~d3f "A"eAce | "F#m"f{g}aec "E"B2{cd}cB |
+|\
+"A"AcBA "D"F2 AF | "A"EFAB cABc |\
+"D"~d3f "A"ecAc | "E"BAGB "A"A2 |]
+

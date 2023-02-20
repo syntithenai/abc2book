@@ -1,0 +1,27 @@
+X: 11521
+T: AUCHINCRUIVE HOUSE
+T: The seat of James Oswald, Esq., M.P.
+C: Reel.--Hugh Gilmour.
+%R: reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.152 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+BGA^F GABc | d=efd cAFA |\
+BGA^F GABG |[1 DCB,A, G,G^F :|[2 AFD^F G2G |]\
+A |\
+B>cd=e f>gfd |
+cdcB ABcA |\
+B>cd=e fgfd | gba^f g2ga |\
+bgfa gfdg | fdcf AFcA |\
+Bfcf d^fgb | BGA^F G2G |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Printed for the first time.
+%%endtext
+%%sep 1 1 300

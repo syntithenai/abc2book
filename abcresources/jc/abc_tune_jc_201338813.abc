@@ -1,0 +1,16 @@
+X: 493
+T: the Snow Storm   #2
+R: air, reel
+%S: s:2 b:16(8+8)
+B: O'Neill's 1850 #493
+O: F.ONeill
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+Q: "Moderate"
+M: C
+L: 1/8
+K: G
+D2 "^A"|: G3A B2AG   | F>GAB c2Bc |[1 d>e=fe dcA^F | G3F D2 ((3DEF) :|[2 d>e=fd cA^FA | G4 "^fine"G2 |]
+Bc "^B"[| dcde =f2ef | dggf  g2de | =f2ag  fedB  | {d2}cBAG F2 ((3DE"^->A2"F) |]

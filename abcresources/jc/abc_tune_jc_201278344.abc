@@ -1,0 +1,30 @@
+X: 1
+T: Furbelows and Aprecocks
+T: the Mad Frolick
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (155)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+B2b agf | g3 d2e | fed cAB | GdB AGF |\
+B2b agf | g3 d2f | =efg cf=e |  f3- f2 |]
+[| f |\
+cde dcB | bag ^f2d | gab g2^f | g3 b2a |\
+gfe dcB | fAB cfe | dgc c2B | A3 f2d |\
+gab c2B | B3- B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man figures between the 2d and 3d Men and come
+%% up in his own Place again and the Wo. double figures at
+%% the Top at the same Time .| Then the 1st Wo. figure between
+%% the 2d and 3d We. and her Partner figures at the Top :|
+%% Then change Places the 1st Man with the 2d Wo. his Partner
+%% change at the same Time with the 2d Man then lead
+%% his Partner thro the 3d Cu. and cast up then Hands half
+%% round then Right and Left to the Bottom.
+%%endtext
+%%sep 1 8 500

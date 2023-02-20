@@ -1,0 +1,16 @@
+X: 4160
+T: the PIPER'S GLASS
+%R: reel
+B: James Kerr "Merry Melodies" v.4 p.19 #160
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+|:\
+dB ({c}BA) fB {c}BA | dB ({c}BA) f2fe |\
+d2(cd) B2A2 | ceAc e2(fe) ::\
+d2(fd) adfd | d2fd f2{g}fe |\
+[1 d2(fd) adfd | ceAc e2(fe) |\
+[2 defg abaf | ecAc e2(fe) |]

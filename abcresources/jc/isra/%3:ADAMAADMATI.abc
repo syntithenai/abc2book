@@ -1,0 +1,23 @@
+X: 3
+T: Adama Admati
+C: folk
+O: Israel
+F: http://www.youtube.com/watch?v=YfqA3pg9H8Q
+F: http://www.youtube.com/watch?v=hM_oncPYOJE
+M: 2/4
+L: 1/8
+Q: 1/4=240
+K: Bm
+%%MIDI program 21
+%%MIDI drum dd 35 40
+%%MIDI drumon
+  B3 d |cd c2|B2 A2|G2 F2|\
+  E2 z2|D3 F |A2 FA|B4-  |B4 :|
+  c3 B |c2 Bc|de dc|BA B2|\
+  c3 B |c2 B2|B4-  |B4   |
+|:Bcde |e2B2 |e2f2 |gafg |\
+  e4   |e3B  |e2d2 |c2B2 :|
+  Bcde |e2B2 |e2f2 |gafg |\
+  e4   |e3B  |e2d2 |c2B2 |
+  c3 B |c2 Bc|de dc|BA B2|\
+  c3 B |c2 B2|B4-  |B4   |

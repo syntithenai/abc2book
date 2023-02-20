@@ -1,0 +1,29 @@
+X: 1
+T: Princock
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.52 #312
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:52 #312
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: B2GB | cecA | B2AG | FAc2 | B2GB | c2Ac | BGAF | G2G,2 :|
+|: B2GB | dBg2 | c2Ac | eafd | Bdg2 | dBAG | c2ec | B2A2  |
+   B2GB | cecA | B2AG | FAc2 | B2GB | c2Ac | BGAF | G2G,2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: z2g2 | g2f2 | g2c2 | d2z2 | gabg | a2f2 | g2d2 | G4  :|
+|: z2b2 | g2e2 | a2A2 | c2d2 | g4   | G4   | A2c2 | d2D2 |
+   z2g2-| g2f2 | g2c2 | d2z2 | gabg | a2f2 | g2d2 | G4  |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu. cast off and turn .|
+%% First Cu. leads thro' the 3d Cu. and foot it :|
+%% turn corners, 1st Man figures round the 3d Man,
+%% 1st Wo. at the same time figures round the 2d Wo. and foot it to her Partner in the 2d Cu.s Place .|
+%% turn the other corner, first Man figures round the 2d Man,
+%% 1st Wo. at the same time figures round the 3d Wo. and foot it to her Partner in the 2d Cu.s Place.
+%%endtext

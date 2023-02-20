@@ -1,0 +1,15 @@
+X: 48
+T: Bengi
+O: Turkey
+M: 2/4
+L: 1/8
+K: GDor
+%%MIDI program 6
+|:G2G2  |A2 BA  |G2 Ac |B2 A2|BA G2   |
+  G2 Ac |B2 A2  |BA G2 |A2 G2|G2 z2   :|
+|:G2 =B2|=B2 =B2|=B_Bc2|cBdc |=B_B =B2|
+  G2 =B2|=B2 =B2|=B_Bc2|cBdc |=B_B =B2|
+  G2 Ac |B2 A2  |BA G2 |A2 G2|G2 z2   |
+  G2 Ac |B2 A2  |BA G2 |A2 G2|G2 z2   :|
+|:D2_E2 |^F2 GA |G^F_EF|_EDC2|C2D2    |_E2^F2|
+  G3F   |G3A    |BAG2  |Ac_B2|A2G2    |G2z2  :|

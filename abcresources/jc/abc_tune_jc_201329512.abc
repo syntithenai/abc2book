@@ -1,0 +1,17 @@
+X:615
+T:Reel des Eboulement
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=120
+M:4/4
+L:1/8
+K:A
+%%MIDI program 41
+P:A
+|: "A"aA~A2 "/"cAeA | "Bm"Bcde "E7"f2fg | "A"aA~A2 "/"cAeA | "D"fd "E7"ge "A"~a3g |
+"A"aA~A2 "/"cAeA | "Bm"Bcde "E7"f2fg | "D"agfe "Bm"fedc |1 "D"df "E7"ec "A"A2fg :|2 "D"df "E7"ec "A"A2ed |
+P:B
+|: "A"cAEA "/"cAeA | "Bm"Bcde "E7"f2ed | "A"cAEA "/"cAeA | "Bm"fd "E7"ge "A"a2ed |
+"A"cAEA "/"cAeA | "Bm"Bcde "E7"f2fg | "D"agfe "Bm"fedc |1 "D"df "E7"ec "A"A2ed :|2 "D"df "E7"ec "A"A2AF |]
+P:C
+|: "A"EAAB "/"cABA | "E7"GABc "/"dBEB | "E7"GBEB "/"GBEB | "E7"GBEB "A"A2cA |
+"A"eAAB "/"c2BA | "E7"GABc "/"defg | "D"agfe "Bm"fedc |1 "D"df "E7"ec "A"A2AF :|2 "E7"defg "A"a2 |]

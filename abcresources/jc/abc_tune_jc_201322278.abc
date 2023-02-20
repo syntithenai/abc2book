@@ -1,0 +1,17 @@
+X:1
+T:Paresis
+R:Reel
+L:1/8
+Z:John Erdman <jperdman:agate.NET>
+Z:Terry Traub 2000-7-5
+M:C|
+C:Sandy's MacIntyre's Book
+K:GDor
+"A"\
+|: "Gm"{A}BAGF DGGB | "F"AFcF dFcF | "Gm"BAGF DGGA | "D7"BdcA "Gm"BGG2  :|
+"B"\
+|| "Gm"{A}B2g2 g2ga | "D7"bga^f "Gm"gdBG | "F"F2f2 fefg | "C"afge "F"fcAF |
+|  "Gm"G2g2 g^fga | "D7"bga^f "Gm"g2de | "F"f2fd cAFA | "D7"BGA^F "Gm"G2 |]
+%Variant of 2nd part:
+%|| {A}B2g2 g2ga | bga^f gdBG | CFA,F CFA,F | fefg afcA |
+%|  {F}G2g2 g2ab | bga^f g2de | fefd cAGF | DGGA G2 |]

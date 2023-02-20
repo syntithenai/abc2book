@@ -1,0 +1,29 @@
+X:897
+T:The lass of Paties Mill
+R:Reel
+O:Scotland
+S:Gibbon's Collection of Scots tunes
+B:Gibbon's Collection of Scots tunes
+Z:Transcription, chords:Mike Long
+M:C|
+L:1/8
+K:D
+V:1 stv=2
+V:1 clef=treble
+V:2 clef=bass
+[V:1]A>G|\
+[V:2]z2|\
+[V:1]"D"F2ED F2A2|d4     A3d|"G"BcdA "D"BAGF|"A"{F}E6 A>G|\
+[V:2]D4 z2    C2|B,2A,G, F,2 D,2|G,3F,        G,2G,,2|A,,2A,B,    A,G,F,E,|\
+[V:1]"D"F2ED F2A2|d3e/f/ A3d|
+[V:2]D,6        C,2|B,,2A,,G,, F,,2 F,2|
+[V:1]"G"BcdB "A"cdec|"D"d3e d2:|\
+[V:2]G,2F,G,       A,2A,,2|D,2 A,,2  D,,2:|\
+[V:1]|:f>g|\
+[V:2]|:D,2 |\
+[V:1]"A"{f}e3d c2BA|"D"d3e/f/ A3d|"G"BcdA "D"BAGF|
+[V:2]G,2E,2 A,2     G,2|F,2 F,E, F,2   D,2|G,3 F, G,2      G,,2|
+[V:1]"A"{F}E6 f>g|"D"a/g/f g/f/e "G"fdBg|\
+[V:2]A,,2 A,B,   A,G,F,E,|F,2 E,2 D,2            G,2|\
+[V:1]"A"~e4 A2GF|"G"G2G/A/B "A"A2~c2|"D"d3e d2:|
+[V:2]A,,2 A,G, F,2 D,2|B,2 G,2 A,2         A,,2|D,6       :|

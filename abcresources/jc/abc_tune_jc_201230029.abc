@@ -1,0 +1,20 @@
+X: 13191
+T: the Flower of Edinburgh
+%R: reel, Scots measure
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.3 p.19 #1 (top 4 staffs continued from p.18)
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+"_Mod.ly Quick"GE |\
+D3E G3A | BGBd TB2(AG) | TF3E (DE)(FG) | AF dF TE2D2 |\
+D2DE G3A | BABd e3g | dB AG E2(GA) | TB2(AG) G2 :: (d/e/f) |
+gfga {ga}b2ag | fefg a2(gf) | edef gfed | B2 e4 fg |\
+TB2AB Td2Bd | edef g2(g/a/b) | dBAG E2(GA) | TB2(AG) G2 :: FE |
+DEG2- GABd | edBg dBAG | FED2- DEFG |  AFdF TE2D2 |\
+DEG2- GBAG | AGAB Te3g | dB AG EG eg | TB2(AG) G2 :: (d/e/f) |
+(3(gfg) G2- Gbag | (a/g/f) F2- Fagf | egfe bgfe | dBAB e2(e/f/g) |\
+(TBA)B2 (TdB)d2 | Tede2 g3(a/b/) | dBAG E2GA | TB2(AG) G2 :|

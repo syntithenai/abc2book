@@ -1,0 +1,39 @@
+X: 1
+T: Nobe's Maggot
+P: Longways for as many as will
+%R: slip-jig, triple hornpipe
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.68 #101
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p. 302
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+c>dc e2f g3 | B2c d2e dBG |\
+c>BA GEc D2z | c2z C2D E>DC |]
+[|\
+F>GF A>Bc E3 | F>ED D>ED E>FE |\
+F>GF A>Bc E2z | c2z C2D E>DC |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. sett each right Elbows to one another,
+%% and then their left Elbows, and cast off, then lead
+%% thro' the 3d Cu. cast up, and clap Hands; then the
+%% 1st Man Hey with the 2d Cu. and 1st Wo. with the
+%% 3d Cu. at the same Time, then right and left
+%% with the 2d Cu. quite round.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. set each right Elbow to one another, and then with their left Elbows, and cast off, then
+%% the first cu. lead through the third cu. and cast up and clap hands, then the first man Hey with the
+%% second cu. and the first wo. with the third cu. at the same time, then right and left with the 2. cu.
+%% quite round.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

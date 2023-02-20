@@ -1,0 +1,73 @@
+
+X: 1
+T: l'Air de l'Allemande    [D]
+C: Andr\'e Campra 1702
+R: allemande, march
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Andr\'e Campra "Fragments de Mr. de Lully, Ballet" 1702 p._
+S: page image from Darlene Wigton 2018-11-4
+M: C|
+L: 1/8
+K: D
+A2 |\
+"D"d2A2 F2A2 | d2A2 F2d2 |\
+"A7"e2f2 gfef | "(D)"dcde "D"d2A2 |\
+"D"d2A2 F2A2 | d2A2 F2d2 |\
+"A7"e2f2 gfef | "D"d6 ::\
+cd |\
+"A7"e4 e4 | e4 "D"f4 |
+"G(Em)"g2f2 e2d2 | "A7"edcB A2cd |\
+e2c2 A2cd | edcB A2cd ||\
+"A7"e4e4 | e4 "D"f4 |\
+"Em"g2f2 "(E7)"e2d2 | "A7"a4 g4 |\
+"D"fga2 "A7"e4 | "D"d6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: l'Air de l'Allemande    (G)
+C: Andr\'e Campra 1702
+R: allemande, march
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Andr\'e Campra "Fragments de Mr. de Lully, Ballet" 1702 p._
+S: page image from Darlene Wigton 2018-11-4
+M: C|
+L: 1/8
+K: G
+D2 |\
+"G"G2D2 B,2D2 | G2D2 B,2G2 |\
+"D7"A2B2 cBAB | "(G)"GFGA "G"G2D2 |\
+"G"G2D2 B,2D2 | G2D2 B,2G2 |\
+"D7"A2B2 cBAB | "G"G6 ::\
+FG |\
+"D7"A4 A4 | A4 "G"B4 |
+"C(Am)"c2B2 A2G2 | "D7"AGFE D2FG |\
+A2F2 D2FG | AGFE D2FG ||\
+"D7"A4A4 | A4 "G"B4 |\
+"Am"c2B2 "(A7)"A2G2 | "D7"d4 c4 |\
+"G"Bcd2 "D7"A4 | "G"G6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: l'Air de l'Allemande    (C)
+C: Andr\'e Campra 1702
+R: allemande, march
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Andr\'e Campra "Fragments de Mr. de Lully, Ballet" 1702 p._
+S: page image from Darlene Wigton 2018-11-4
+M: C|
+L: 1/8
+K: C
+G2 |\
+"C"c2G2 E2G2 | c2G2 E2c2 |\
+"G7"d2e2 fede | "(C)"cBcd "C"c2G2 |\
+"C"c2G2 E2G2 | c2G2 E2c2 |\
+"G7"d2e2 fede | "C"c6 ::\
+Bc |\
+"G7"d4 d4 | d4 "C"e4 |
+"F(Dm)"f2e2 d2c2 | "G7"dcBA G2Bc |\
+d2B2 G2Bc | dcBA G2Bc ||\
+"G7"d4d4 | d4 "C"e4 |\
+"Dm"f2e2 "(D7)"d2c2 | "G7"g4 f4 |\
+"C"efg2 "G7"d4 | "C"c6 :|

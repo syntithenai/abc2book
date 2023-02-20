@@ -1,0 +1,44 @@
+X:1
+T:A Good Alberta Beer  "Warthog"
+M:C|
+L:1/8
+Q:80
+C:B. Cousins (1994)
+S:March
+K:HP
+|: e | \
+{g}Ae{BG}B3/4A/4{gcd}c3/4d/4 | \
+{gBd}B{e}G{g}d3/2e/2 | \
+{g}f3/4e/4{g}f/4a3/4e3/4c/4{g}B/4{d}A3/4 |
+{g}B3/4c/4{g}B3/4A/4{gBd}Be | \
+{g}Ae{BG}B3/4A/4{gcd}c3/4d/4 | \
+{gBd}B{e}G{g}d3/2e/2 |
+{g}f/4a3/4e3/4d/4{g}e3/4d/4{g}B/4{d}G3/4 | \
+{g}A3/4e/4{g}d/4e3/4{gAGAG}A :: \
+{gf}g |
+{ag}ae{gfg}fa | \
+e3/4c/4{g}B/4{d}A3/4{gcd}c{g}B/4{d}A3/4 | \
+{g}G3/4{d}G/4{e}G3/4B/4{g}d3/4{e}d/4{c}d |
+{gfg}f3/4d/4a3/4d/4{gBd}B{gf}g | \
+{ag}ae{gfg}fa | \
+e3/4c/4{g}B/4{d}A3/4{gcd}c{g}B/4{d}A3/4 |
+{g}f/4a3/4e3/4d/4{g}e3/4d/4{g}B/4{d}G3/4 | \
+{g}A3/4e/4{g}d/4e3/4{gAGAG}A :: \
+{gef}e |
+{g}A3/4{d}A/4{e}A3/4B/4{g}e3/4{f}e/4{A}e3/4f/4 | \
+{gef}e3/4c/4a3/4c/4{g}e3/4d/4{g}B/4{d}A3/4 | \
+{g}G3/4{d}G/4{e}G3/4B/4{g}A/4{d}G3/4{g}B/4d3/4 |
+{gf}g3/4d/4{g}B/4d3/4{gf}ga | \
+{g}A3/4{d}A/4{e}A3/4B/4{g}e3/4{f}e/4{A}e3/4f/4 | \
+{gef}e3/4c/4a3/4c/4{g}e3/4d/4{g}B/4{d}A3/4 |
+{g}f/4a3/4e3/4d/4{g}e3/4d/4{g}B/4{d}G3/4 | \
+{g}A3/4e/4{g}d/4e3/4{gAGAG}A :: \
+{gf}g |
+a3/4e/4{g}c/4{d}A3/4g3/4d/4{g}B/4{d}G3/4 | \
+a3/4e/4{g}c/4e3/4a3/4e/4{g}c/4{d}A3/4 | \
+{g}G3/4{d}G/4{e}G3/4B/4{gf}g3/4e/4a3/4e/4 |
+{g}B3/4d/4{g}e3/4f/4{gf}ge | \
+a3/4e/4{g}c/4{d}A3/4g3/4d/4{g}B/4{d}G3/4 | \
+a3/4e/4{g}c/4e3/4a3/4e/4{g}c/4{d}A3/4 |
+{g}f3/8a3/4e3/4d/4{g}e3/4d/4{g}B/4{d}G3/4 | \
+{g}A3/4e/4{g}d/4e3/4{gAGAG}A :|

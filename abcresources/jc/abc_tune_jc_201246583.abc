@@ -1,0 +1,67 @@
+
+X: 1
+T: The American Legion
+C: Carl D. Vandersloot
+C: arr. by Frank E. Barry
+M: C|
+L: 1/4
+P: DbPiccolo
+%Q: 1/2=120
+%C:
+%%staffwidth 7.5in
+%%borderwidth .5in
+% %leftmargin 0.5in
+%%topmargin 0.5in
+%%composerspace 0
+%%partsspace 0
+%%musicspace 0
+%%staffsep
+%%textfont helvetica 16
+%%scale .7
+K:E
+!>!!ff!Bzz!>!=c|!>!Bzz^c|!<(!!>!d!>!e!>!f!>!g!<)!|!>!az!>!b2||:!>!b(b/^a/b)!>!a|!>!=a(a/g/a)!>!f|!>!g(g/^^f/g).=f|.e.d.c.=c|
+(!<(!!>!B^A/B/)(!>!d^^c/d/!<)!)|/(!>!f^e/f/)!>!b2|(!>!ed/e/)(!>!g^^f/g/)|(!>!b^a/b/)!>!e'2|!>!b(b/^a/b)!>!a|=a(a/g/a)!>!f|!>!g(g/^^f/g).^f|.e.d.e.f|
+!>!=gz/.g/.gg|!>!^gzz2|z2(!>!d2|1 e).e'.d'.c':|2 e)zz2||||:T!trill(!b4-|b4-|b4-|!trill)!b(!<(!e/g/ b/g/b/e'/!<)!)|!>!!sfz!d'z/.d'/.d'.^c'|!>!bz/.^a/.b.=a|
+!>!gz/.g/.g.^f|.e.e.d.c|T!trill(!b4-|b4-|b4|-!trill)!b(e/g/ b/g/b/e'/)|!>!!sfz!e'z/.d'/.e'.c'|!>!bz/.^a/.b.g|b=c'^c'd'|e'zz2:|
+"TRIO"
+K:A
+!segno!z((3e/f/e/).c.e|z.e.e.e|z((3a/b/a/).e.a|z.a.a.a|z(e/f/ g/a/b/c'/)|.d'.b.^a.b|!<(!(e'>f'g').f'!<)!|
+!>(!.e'.^d'.=d'.b!>)!|z((3e/f/e/).c.e|z.e.e.e|z((3a/b/a/).e.a|z.a..aa|(Tb2b)z|(Tb2b)z|!<(!b=c'^c'^d'!<)!|!>!!f!e'z z2|z.!p!ez.=f|
+z!<(!.fz.g|z.az.b|z.c'z.d'!<)!|z(e'/^d'/.e')(e'/.d'/|.e').=d'.c'.b|z(c'/=c'/^c')(c'/b/|!>(!.c').=b.a.f!>)!|z.!p!ez.=f|
+z!<(!.fz.gz.az.^a|.b.c'.d'.^d'!<)!|!>!e'(e'/^d'/.e')(c'/=c'/|.c')(a/g/.a).f|.e.=f.^f.g|azaz!fine!!fermata!||!>!!ff!czz!>!d|!>!czz!>!d|
+!>!c!>!d!>!c!>!d|!>!cz!>!!sfz!c'z|!>!=ezz!>!=f|!>!ezz=!>!f|!>!e!>!=f!>!e!>!f|!>!ez!>!!sfz!e'z|!>!e3!>!f|!>!g3!>!a|!>!b!>!c'!>!d'!>!^d'|!>!e'z!>!!sfz!e'z!segno!|]
+
+%%sep 1 1 500
+
+X: 1
+T: The American Legion
+C: Carl D. Vandersloot
+C: arr. by Frank E. Barry
+M:C|
+L:1/4
+P: DbPiccolo
+%Q:1/2=120
+%C:
+%%staffwidth 7.5in
+%%borderwidth .5in
+% %leftmargin 0.5in
+%%topmargin 0.5in
+%%composerspace 0
+%%partsspace 0
+%%musicspace 0
+%%staffsep
+%%textfont helvetica 16
+%%scale .7
+%%continueall yes
+K:F
+!>!!gg!czz!>!=d|!>!czz^d|!<(!!>!e!>!f!>!g!>!a!<)!|!>!bz!>!c'2|:!>!c'(c'/=b/c')!>!b|!>!=b(b/a/b)!>!g|!>!a(a/^^g/a).=g|.f.e.d.=d|
+(!<(!!>!c=B/c/)(!>!e^^d/e/!<)!)|/(!>!g^f/g/)!>!c'2|(!>!fe/f/)(!>!a^^g/a/)|(!>!c'=b/c'/)!>!f'2|!>!c'(c'/=b/c')!>!b|=b(b/a/b)!>!g|!>!a(a/^^g/a).^g|.f.e.f.g|
+!>!=az/.a/.aa|!>!^azz2|z2(!>!e2|1 f).f'.e'.d':|2 f)zz2|:T!trill(!c'4-|c'4-|c'4-|!trill)!c'(!<(!f/a/ c'/a/c'/f'/!<)!)|!>!!sgz!e'z/.e'/.e'.^d'|!>!c'z/.=b/.c'.=b|
+!>!az/.a/.a.^g|.f.f.e.d|T!trill(!c'4-|c'4-|c'4|-!trill)!c'(f/a/ c'/a/c'/f'/)|!>!!sgz!f'z/.e'/.f'.d'|!>!c'z/.=b/.c'.a|c'=d'^d'e'|f'zz2:|
+"TRIO"
+K:Bb
+!sfano!z((3f/g/f/).d.f|z.f.f.f|z((3b/c'/b/).f.b|z.b.b.b|z(f/g/ a/b/c'/d'/)|.e'.c'.=b.c'|!<(!(f'>g'a').g'!<)!|
+!>(!.f'.=e'.=e'.c'!>)!|z((3f/g/f/).d.f|z.f.f.f|z((3b/c'/b/).f.b|z.b..bb|(Tc'2c')z|(Tc'2c')z|!<(!c'=d'^d'=e'!<)!|!>!!g!f'z z2|z.!p!fz.=g|
+z!<(!.gz.a|z.bz.c'|z.d'z.e'!<)!|z(f'/=e'/.f')(f'/.e'/|.f').=e'.d'.c'|z(d'/=d'/^d')(d'/c'/|!>(!.d').=c'.b.g!>)!|z.!p!fz.=g|
+z!<(!.gz.az.bz.=b|.c'.d'.e'.=e'!<)!|!>!f'(f'/=e'/.f')(d'/=d'/|.d')(b/a/.b).g|.f.=g.^g.a|bzbz!ginf!!gfrmbtb!||!>!!gg!dzz!>!e|!>!dzz!>!e|
+!>!d!>!e!>!d!>!e|!>!dz!>!!sgz!d'z|!>!=fzz!>!=g|!>!fzz=!>!g|!>!f!>!=g!>!f!>!g|!>!fz!>!!sgz!f'z|!>!f3!>!g|!>!a3!>!b|!>!c'!>!d'!>!e'!>!=e'|!>!f'z!>!!sgz!f'z!sfano!|]

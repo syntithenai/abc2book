@@ -1,0 +1,31 @@
+X: 1241
+T: the Soldier's Farewell
+C: Johanna Kinkel
+%R: air
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Bb
+%%continueall yes
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [| [F2D2][DB,]>[FD] [B3D3][BD] | [B2E2][A2E2] z2[F2E2] | [F3D3][BD] [e2G2][d2F2] | [d2F2][c2F2] z2[B2D2] | [F3D3][GE] [_A2F2][A2F2] | [_A2F2][G2E2] z2[G2=E2] |
+w: 1.~Ah, love, how can I leave thee? The sad tho't deep doth grieve me; But know what-e'er be-falls me, I
+w: 2.~No more shall I be-hold thee, Or to my heart en-fold thee; In war's ar-ray ap-pear-ing, The
+w: 3.~I'll think of thee with long-ing, When tho'ts with tears come throng-ing And on the field, if ly-ing, I'll
+[V:2] [| [b2B2][fB]>[fB] [f3B3][fB] | [f2B2][f2c2] z2[a2f2] | [b3B3][bB] [b2B2][b2B2] | [a2f2][a2f2] z2[b2B2] | [b3B3][bB] [b2B2][b2B2] | [b2e2][b2e2] z2[c'2c2] |
+%
+[V:1] [G3=E3][AF] [B2G2][B2G2] | [B2G2][A2F2] z2 ||[M:3/4]
+w: go where ho-nor calls me.
+w: foe's stern hosts are near-ing. 
+w: breathe thy dear name, dy-ing.
+[V:2] [c'3c][c'c] [c'2c2][c'2=e2] | [c'2f2][c'2f2] z2 ||[M:3/4]
+% The book has the following refrain on the same staff as the above 2 measures:
+[V:1] [F2E2] | [F4D4][B2D2] | [d4F4][B2F2] | [B4E4][G2E2] | [F4D4][B2F2] | [e4F4][d2F2] | ([d2F2][c2E2])[B2C2] | [B4D4][A2E2] | [B6D6] |]
+w: Fare-well, fare-well, my own true love! Fare-well, fare-well,* my own true love! 
+[V:2] [a2f2] | [b4B4][f2B2] | [b4B4][b2d2] | [g4e4][b2e2] | [b4B4][b2d2] | [a4c4][b2B2] | [g4e4][g2=e2] | [f4f4][f2F2] | [f6B6] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

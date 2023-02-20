@@ -1,0 +1,26 @@
+X:1
+T: Fast Friends
+N:
+C:by T. Arbeau
+S:tune is "Branle de Bourgogne"
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 208
+%W: A
+% voice 1 (1 lines, 17 notes)
+K:Am
+M:4/4
+L:1/16
+B2 |c4 c4 A4 A4 |B4 B4 G4 E4 |e4 e4 c4 c4 |d4 B4 A6 B2 |
+%W:
+% voice 1 (1 lines, 16 notes)
+c4 c4 A4 A4 |B4 B4 G4 E4 |e4 e4 c4 c4 |d4 B4 A6 z2 |
+%W: B
+% voice 1 (1 lines, 21 notes)
+A2 B2 c2 d2 e4 a4 |a4 a4 g4 e4 |d2 e2 f2 e2 d2 c2 B2 A2 |c4 c4 A8 |
+%W:
+% voice 1 (1 lines, 21 notes)
+A2 B2 c2 d2 e4 a4 |a4 a4 g4 e4 |d2 e2 f2 e2 d2 c2 B2 A2 |c4 c4 A6 |

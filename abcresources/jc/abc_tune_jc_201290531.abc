@@ -1,0 +1,32 @@
+X:1
+T:The Intercontinental Gathering  " "
+M:C
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+[| | {g}f2{g}f3/2g/2{ag}a2{fg}fd | \
+{g}B3/2c/2{Gdc}dg{fg}f3d | \
+{g}B2{Gdc}d2{gf}gf{gef}ed |
+{gcd}c2{Gdc}d2{gef}ea{f}ge | \
+{g}f2{g}f3/2g/2{ag}a2{fg}fd | \
+{g}B3/2c/2{Gdc}dg{fg}f3d |
+{gef}e2a2{g}ag{g}fe | \
+{g}fa{f}ge{Gdc}d2{g}e3/2d/2|]
+{g}c2{g}c3/2d/2{gef}e2{gcd}c{g}A |
+{Gdc}d2{g}d3/2e/2{g}f2{g}dB | \
+{g}e3/2f/2{gf}gf{g}ed{gcd}cB | \
+{g}c3/2d{g}ef{gef}e2{g}e3/2d/2 |
+{g}c2{g}c3/2d/2{gef}e2{gcd}c{g}A | \
+{Gdc}d2{g}d3/2e/2{g}f2{g}dB | \
+{gef}e2{gcd}ce{Gdc}df{gef}ed |
+{gcd}c2{Gdc}d2{gef}ea{f}ge|]
+{g}f2{g}f3/2g/2{ag}a2{fg}fd | \
+{g}B3/2c/2{Gdc}dg{fg}f3d |
+{g}B2{Gdc}d2{gf}gf{gef}ed | \
+{gcd}c2{Gdc}d2{gef}ea{f}ge | \
+{g}f2{g}f3/2g/2{ag}a2{fg}fd |
+{g}B3/2c/2{Gdc}dg{fg}f3d | \
+{gef}e2a2{g}ag{g}fe | \
+{g}fa{f}ge{Gdc}d4|]

@@ -1,0 +1,16 @@
+X: 314
+T: the Morning Sun
+T: grian na maidne
+R: air, march
+%S: s:2 b:12(6+6)
+N: Phrasing: 4+5+3+3+5 bars
+B: O'Neill's 1850 #314
+O: J.O'Neill
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+Q: "With spirit and feeling"
+M: 2/4
+L: 1/16
+K: C
+(D>E)\
+"^A"|: G4 (GABc) | d2G2 B4 | (gfge dBAG) |1 (A2E2) ({G}F2D2) :|2 A3G B3G | ({B}AGAB) "^fine"G2 |]
+"^B"[| d2 | (g2fe) .a2.g2 | f4 (Te4 | d6) "^C"|| (g>e) | d4 B3A | (B{cB}ABd) (edef) | Hg6 (D>"^->A2"E) |]

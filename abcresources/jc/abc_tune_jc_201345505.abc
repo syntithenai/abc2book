@@ -1,0 +1,16 @@
+X: 1
+T: Tomorrow Morning Hornpipe
+C: trad.
+%D:
+R: hornpipe, reel
+S: Fiddle Hell Online 2022-4-5 handout for Tom Morley's Irish Slow Jam
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+"^A"|: (ufe) \
+| "D"dAFA d(fed) | "A"ecAc e(gfe) | "D"fafd "G"Bged | "A"c2A2 A2 (fe) |
+| "D"dAFA d(fed) | "A"ecAc e(gfe) | "D"fafd "G"Bg"A"ec | "D"d2f2 d2 :|
+"^B"|: (vfg) \
+| "D"vafdf a2(gf) | "A"gece g2(fe) | "D"fafd "G"Bged | "A"c2A2 A2 (ufe) |
+| "D"dAFA  d(fed) | "A"ecAc e(gfe) | "D"fafd "G"Bg"A"ec | "D"d2f2 d2 :|

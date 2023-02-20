@@ -1,0 +1,18 @@
+X:658
+T:Schwarzerdner
+O:Austria c.1800
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=120
+M:3/4
+L:1/8
+K:D
+P:A
+|: A2 | "D"d3c de | "Bm"f4d2 | "Em"e3^d ef | "A&"g4e2 |\
+"D"fg fe f2 | "/"a2g2f2 | "A7"ef ed ce | "D"d2z2 :|[K:A]
+P:B
+|: cd | "A"ed ec fe | "Bm"d4Bc | "E7"dc dB ed | "A"c3E AB |\
+"F#m"cd cB c2 | "Bm"d4c2 | "E7"Bc BA GB | "A"A2z2 :|
+P:C
+|: A,B, | "A"C4D2 | "/"E4F2 | "E7"B,4E2 | "A"DC B,C A,2 |\
+"A"C4D2 | "/"E4F2 | "E7"B,E DC B,2 | "A"A,4 :|

@@ -1,0 +1,30 @@
+X: 1
+T: Noint the Teazer
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (99)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+N: Fixed incorrectly-placed flag in bar 2 to agree with bar 15 and other similar bars.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+G2d d2e | d3 B>AB | c>dB A>GF | G3- G2G |\
+A2B cAd/c/ | B3 A2f | g>af e>d^c | d3- d2 :|
+|: (d/e//f//) |\
+g>fg e2f | g3 B>AB | c>Bc B>cd | e3 d2e/f/ |\
+g>fg B>cd | G2G A2B | c>dB A>GF | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The two 1st Cu. fall back and forward again then single
+%% then the Men change Places with The We. .| The 1st Men
+%% change Place with the 2d Wo. and the 2d Man with
+%% the 1st Wo. :| The 1st Cu. being in the 2d Cu. Place
+%% cast up then all four lead to the Wall and back again .|
+%% The 1st Cu. go the half figure thro the 2d Cu. then
+%% turn Hands with your Partners half round and cast off :|
+%%endtext
+%%sep 1 8 500

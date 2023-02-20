@@ -1,0 +1,36 @@
+X: 181
+T: Sota
+O: Albania
+M: 4/4
+L: 1/16
+Q: 1/4=108
+K: Dm
+P: A
+%%MIDI program 22
+%%MIDI drum dddddddddddddddz 35 45 45 45 35 45 45 45 35 35 45 45 35 45 35
+!drum!\
+  A2z14    | A2A2z12   | A2A2z12    | A2A2z12    |
+!nodrum!\
+P: B
+M: 2/4
+L: 1/16
+  A2ee2A2A |B2AG AEAE  |A2ee2A2A    |B2AG AEAE   |
+  A2ee2A2A |B2AG ^cde2 |fedf2e2d    |ABGA3z2     |
+  A2ee3de  |fedeAA2z   |A2ee3de     |fedeAA2z     |
+  A2A2A4   |BAG2E4     |FEDFED3     |A,2G,A,3z2  |
+P: C
+|:D2AA2AA2 |cd2dcB2z   |BAG2FG2A    |B2AB2z3     |
+  AcBABGA2 |FGFG FGEF  |EFEF DECD   |B,2C2 B,2A,2:|
+P: D
+|:E2E6     |EDF2 ED^C2 |\
+  E2E6     |EDF2 ED^C2 |
+  E2E6     |EDF2 ED^C2 |\
+  FGFEFED^C|^C2B,2 A,4 :|
+P:E
+K: Gm
+  G8       |G8         |=BA^GF =EFGF|G3A =B4     |
+  =B4 B4   |=Bc_AB BdBe|cece5       |d8          |
+P:F
+  G2c6     |=B2cd _A2G2|G4 e4       |d4 c4       |
+  G4 g4    |f2gf e2d2  | c2dc =B2_A2|G8          |
+

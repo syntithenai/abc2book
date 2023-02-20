@@ -1,0 +1,32 @@
+X:750
+T:Trumpet Minuet
+C:Handel
+C:John Young, c.1719
+L:1/8
+M:3/4
+%%subtitlefont Times-Roman 28
+%%MIDI beat 100 95 80
+%%MIDI program 57
+%%MIDI chordprog 20
+%%MIDI gchord c2c
+Q:1/4=115
+K:D
+P:A
+|: "D"d2 AAAA | "D"A2 GFED | "D"de f2 f2 | "D"f6 | "D"fg a2 a2 | "D"a2 gfed | "Em"g2 "D"agfg | "A"e6 :|
+P:B
+|: "A"e2 eeee | "A"e2 a2 g2 | "D"f2 "G"b2 "D"a2 | "A7"g4 "D"f2 | "Em"e2 eeee | "A7"e2 a2 g2 | "D"f2 "G"gf "A7"ef | "D"d6 :|
+N:Replace by blank line and X field
+T:New Minuet
+C:John Young, c.1713
+L:1/8
+M:3/4
+K:Am
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%MIDI program 74
+%%MIDI chordprog 46
+P:A
+|: "Am"a2 "/"ef "E7"ed | "Am"c2 "/"A2 "G"B2 | "F"c2 "/"AB "Dm"cd | "Em"ed "/"ef "/"ge |\
+"Am"a2 "/"ef "/"ef | "G"g2 "/"de "/"de | "F"f2 "/"c2 "Dm/B"d2 | "E"e6 :|
+P:B
+|: "G"B2 "/"Bc "/"Bc | "G7"d2 "/"cB "/"AG | "C"c2 "/"cd "/"cd | "Am"e2 "/"dc "/"BA |\
+"Dm"d2 "/"de "/"de | "G7"f2 "/"ed "/"cB | "Am"cd "E7"B3A | "Am"A6 :|

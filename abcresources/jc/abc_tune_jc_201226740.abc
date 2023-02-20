@@ -1,0 +1,29 @@
+X: 10421
+T: Duetto - Andante
+C: 
+Q: "Andante"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.42-43
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Eb
+%%graceslurs 0
+%%continueall
+% This transcription matches the staff/line layout in the MS:
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] B2 | g4 (fefg) | e4 (defg) | a4 (gfga) | f4 z2B2 |
+[V:1] b4 (a2g2) | f2z2 {e/}d2cd | e4 z2B2 | g4 (fefg) | e4 (defg) | a4 (gfga) |
+[V:1] f4 z2f2 | f4 d2f2 | f2e2 d2c2  | B4 z2B2 | f6 z2(3=agf | f4- f2ed |
+[V:1] c3 e =A3c | B4 z2B2 | f4 z2(3=agf | f4- f2ed | Hd4 {ed}H c2 B2 | g4 (fefg) |
+[V:1] e4 (defg) | a4 (gfga) | f4 z2B2 | b4 a2g2 | f2z2 {e/}d2cd | e2z2 {g/}bgeg |
+[V:1]=e>fff af_ed | d>eeg bgeg |=e>fff af_ed | e4 e4 | e4 z4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:2] G2 | B4 (AGAB) | G4 (Bcde) | f4 (edef) | d4 z2G2 |
+[V:2] g4 (f2e2) | d2z2 {G/}F2EF | G4 z2G2 | B4 (AGAB) | G4 (Bcde) | f4 (edef) |
+[V:2] d4 z2d2 | d4 B2d2 | d2c2 B2=A2 | B4 z2F2 | d6 z2(3fed  | d4- d2cB |
+[V:2] E3 G F3=A | B4 z2F2 | d4 z2(3fed  | d4- d2cB | HB4 {cB}H=A2 B2 | e4 (AGAB) |
+[V:2] G4 (Bcde) | f4 (edef) | d4 z2G2 | g4 f2e2 | d2z2 {G/}F2EF | E2z2 {e/}geBG |
+[V:2] G>AAd fAGF  | F>GGe geBG | G>AAd fAGF  | G4 G4 | G4 z4 |]
+%
+%%center -

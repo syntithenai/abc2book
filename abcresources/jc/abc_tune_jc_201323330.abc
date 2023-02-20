@@ -1,0 +1,20 @@
+X: 1
+T: Peter D Scollay
+C: Margaret Scollay
+R: reel
+D: Fiddler's Bid "Naked and Bare" track 9
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: C|
+L: 1/8
+K: D
+%%staffsep 40
+c \
+| "D"dFAd "A7"cdAG | "D"FAdf afdf | "G"gbaf "Em"gfed \
+|1,3 "E7"ceBe "A7"A3 :|2,4 "A7"ceAc "D"d2 :| ed | "A"ceA^G Acec | "D"dfA^G Adfd |
+"G"gfgb "D"afdf | "E(m)7"ecdB "A"A2ed \
+| "A"ceA^G Acec | "D"dfA^G Adfd | "Em"efgb "A7"afde \
+| "A7"fddc "D"d2 |]| ed | "A"ceA^G Acec |
+| "D"dfA^G Adfd \
+| "G"gfgb "D"afdf | "E(m)"gfed "A7"ceAG | "D"FAdA "G"B{c}"A7"dAG \
+| "D"FAdf afdf | "G"gbaf "Em"gfed  | "A7"cAGE "D"D2 |]

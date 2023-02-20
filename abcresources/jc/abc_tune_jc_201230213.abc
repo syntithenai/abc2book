@@ -1,0 +1,53 @@
+X: 1341
+T: QUICK WALTZ For two Violins and Base
+C: J. H. Seipp
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.134 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: That "Base" is not a mistake; this collection spells it that way several times.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+U: P=!crescendo(!
+U: p=!crescendo)!
+M: 3/8
+L: 1/16
+K: G
+%----------
+V: 1
+!p!d2 |\
+d2c2.c2 | (c2B2).d2 | (d2c2).c2 | (c2B2).B2 |\
+Pe6p | (f2e2f2) | g6 | (f2g2f2) |\
+(e4B2 | Qg4)f2q | e6- | e4 :|
+|: !f!(dg) |\
+agfedc | (Bd)g4 | agfedc | (Bd)"^>"g4 |\
+(gd)b2 (gd) | g2(dBGB) | d2F2F2 | G4 H:|
+K: C
+"TRIO"\
+|: !p!(GB) |\
+(d2f2)B2 | c2(ed)c2 | .d2.e2.f2 | (a4g2) |\
+(gf)(fe)(ed) | (^d2e2) (=dc) | B2(fd)(Bd) | c4 "^D.C.":|
+%----------
+V: 2
+!p!B2 |\
+(B2A2).A2 | (A2G2).B2 | (B2A2).A2 | (A2G2).G2 |\
+P(G3!trem2!E3)p | (^D3!trem2!B3) | (E3!trem2!B3) | (FcAcAc) |\
+(G3!trem2!B3) | Q(A3!trem2!B3)q | [B6-G6-] | [B4G4] :| 
+|: z2 |\
+[D2C2][D2C2][D2A,2] | [D2B,2]"_>"[D4B,4] | [D2C2][D2C2][D2A,2] | [D2B,2]"_>"[D4B,4] | 
+[D2B,2] z2 [D2B,2] | [D2B,2] z2 [D2B,2] | !/![D6C6] | [D4B,4] H:|
+K: C
+|: !p!z2 |\
+z2[D2G,2][F2G,2] | z2[E2G,2][E2G,2] | .B,2.C2.D2 | z2[E2C2][E2C2] |\
+[D2G,2][D2G,2][F2G,2] | z2[E2G,2][E2G,2] | z2[D2G,2][F2G,2] | [E4G,4] "^D.C.":|
+%----------
+V: 3 clef=bass middle=d
+z2 |\
+d4 z2 | g4 z2 | d4 z2 | g4 z2 |\
+Pc6p | B6 | e6 | a6 | b6 | QB6q | e2g2b2 | e4 :|
+|: !p!z2 |\
+!/!d6 | g2 g4 | !/!d6 | g2 g4 |\
+g2 z2 g2 | g2 z2 g2 | !/!d6 | g4 H:|
+K: C
+|: !p!z2 |\
+g4 z2 | c4 z2 | g4 z2 | c4 z2 |\
+!/!B6 | c2z2e2 | g2z2g2 | c4 "^D.C.":|

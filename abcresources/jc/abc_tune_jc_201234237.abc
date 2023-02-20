@@ -1,0 +1,38 @@
+X: 20371
+T: LIGHT INFANTRY'S QUICKSTEP
+C:
+%R: quickstep, march, jig
+B: Elias Howe "The Musician's Companion" 1843 p.37 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+g |\
+gag e2e | ede c2G | cec dfd | ege d2g |\
+gag e2e | ede c2G | Afe dcB | (d3 c2) :|
+g |\
+gff faf | fee ege | gff faf | fee e2g |\
+gff feg | gff fee | .d.d.d .e.e.e | .d.d.d .e.e.e |\
+dgg ggg | g3 zdc | B3 d3 | g3 "^D.C."z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z |\
+efe c2c | cBc E2E | EGE BdB | cec B2e |\
+efe c2c | cBc E2E | FAG FED | (F3 E2) :|
+z |\
+edd dfd | dcc cec | edd dfd | dcc c2e |\
+edd dce | edd dcc | .B.B.B .c.c.c | BBB ccc |\
+Bee eee | [e3B3] z[BF]E | G3 B3 | B3 "^D.C."z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z |\
+c3 c3 | c3 c3 | c3 G3 | c3 G3 |\
+c3 c3 | c3 c3 | A3 B3 | (G3 c2) :|
+z |\
+g3 f3 | c3 G3 | f3 G3 | c3 c3 |\
+f3 g3 | f3 c3 | GGG ccc | GGG ccc |\
+GGG ggg | G3 z2z | [g3B3] d3 | G3 "^D.C."z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

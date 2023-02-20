@@ -1,0 +1,19 @@
+X: 1072
+T: Miss Robertson of Tullybelton's Reel
+%R: reel
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.7 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% = = = = = = = = = =
+V: 1 staves=2
+D |\
+B,3B cBGB | F<DBD C/C/C C>D | B,3B cBGg | fdcd B/B/B B :| g | fbdf Bdfd | ecdB G/G/G Gg |
+fbdf Bdfd | ecfd B/B/B Bg || fbdf Bdfd | ecdB G/G/G GB | FBDB FGBg | fdcd B/B/B B |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+B2B2 B2B2 | B2B2 c2c2 | B2B2 B2B2 | f2F2 B2B :| z | b2b2 b2b2 | b2b2 e2e2 |
+b2b2 b2b2 | f2F2 B2B2 || b2b2 b2b2 | b2b2 e2e2 | B2B2 B2e2 | f2F2 B2B |]

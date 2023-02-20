@@ -1,0 +1,16 @@
+X: 233
+T: a Lullaby   #2
+R: air, jig
+%S: s:2 b:9(5+4)
+B: O'Neill's 1850 #233
+O: F.O'Neill
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BB
+Q: "Moderate"
+M: 6/8
+L: 1/8
+K: D
+"^A"[|] z | d2f afd | Bcd A2{G}F | ABc d2e |1 {g}fed e2 :|2 {g}f2e d2 |]
+"^B"|: d/e/ | f2e/c/ A2d/B/ | G2A/F/ D3 | ceg fdB | A>Bc d2 :|

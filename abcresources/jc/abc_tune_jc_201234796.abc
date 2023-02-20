@@ -1,0 +1,28 @@
+X: 20791
+T: HARRISON SETT (tune 4)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.79 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+[|\
+c2G2 c2G2 | G2a2 g4 | feed dccB | BAAG GFFE |\
+c2G2 c2G2 | G2a2 g4 | g2fe d2B2 | d2c2 c4 H|]
+[|\
+d2Bc d2Bc | d2g2 b4 | d2gb d2gb | baag gffe |\
+d2Bc d2Bc | d2g2 b4 | d2gb d2gb | a4 g2"^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% swing between side couples,
+%% forward six,
+%% swing partners to place,
+%% balance four.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

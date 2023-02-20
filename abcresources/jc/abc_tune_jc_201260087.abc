@@ -1,0 +1,17 @@
+X: 627
+T: Captain O'Kane   #2
+T:uaill \.cu]\.ma eo\.gan ruai\.d ua niall
+C: Turlough O'Carolan
+%R: air, waltz
+%S: s:3 b:14(6+4+4)
+B: O'Neill's 1850 #627
+Z: 1999 by John Chambers <jc@eddie.mit.edu>
+Z: Ted Hastings, hastings@ndirect.co.uk
+N: Compacted via repeats and multiple endings [JC]
+Q: "Moderate"
+M: 6/8
+L: 1/16
+K: Em
+"^A"|: (ED) | (B,2E2F2) (G4FE) | (FGAGFE) (D2E2F2) |[1 (G2B2G2) (BAGFED) | (B,2E2).E2 E4 :|[2 (G2B2).B2 (BAGFED) | (B,2E2).E2 E4 |]
+"^B"[| (EF) | (G2B2).B2 B4(AG) | (F2A2).A2 A4(dc) | (B2e2^d2) (e3fg2) | (B2e2^d2) e4 ||
+"^C"||  (ef) | (g3fe2) (d3cB2) | (A2F2).d2 (D2E2F2) | (G2B2G2) (BAGFED) | (B,2E2).E2 E4 |]

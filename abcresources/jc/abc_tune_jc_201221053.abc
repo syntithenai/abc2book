@@ -1,0 +1,15 @@
+X: 42
+T: Hundred Pipers
+M: 6/8
+L: 1/8
+B: NEFR #42
+Z: Mary Lou Knack?
+N: Pickup notes moved to start of phrases.
+R: jig
+K: A
+A2B \
+| "A"c2E EFE | "D"F2A A2f | "A"e2c cBA | "E"B2B BAB \
+| "A"c2E EFE | "D"F2A A2f | "A"e2c "E"BcB | "A"A3 :|
+|: c2d \
+| "A"e2e ece | "D"f2a agf | "A"e2c cBA | "E"BcB Bcd \
+| "A"e2e ece | "D"f2a agf | "A"e2c "E"BcB | "A"A3 :|

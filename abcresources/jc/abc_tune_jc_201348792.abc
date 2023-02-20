@@ -1,0 +1,38 @@
+X:3
+T:Valse des Niglos (Dm/F/D)
+T:Waltz of the Hedgehogs (Dm/F/D)
+S:French Musette, 1920's  (transposed from Em/G/E, and slightly modified)
+C:Gusti Malha
+Z:ABC by Moshe Braner, 000825
+N:transposed to Dm, F, D (in parts A, B, C)
+N:modified ends of parts A and C, and added some swinging hints
+M:3/4
+L:1/4
+P:AABBAC (or other combinations, e.g., AABBACA or  ABBACABBA)
+K:Dm
+P:A
+|: "Dm"Af/z^c/ | edB | A>FE | D3 | DEF | FED | "A7"D/^C/ Ez/E/|E2z |
+"A7"Ae>d | ^cBA | G>ED | ^C3 | ^CDE | EF>^C | "Dm"E/D/ F2-|F2z |
+   "Dm"Af/z^c/ | edB | A>FE | D3 | "D7"DE^F | ^FG>A | "Gm"A/G/ B2-|B2-B/G/ |
+L:1/8
+"Gm"GA AB Bd | dB cB AG | (3"Dm"BcB AG A2 | F2 ED ^CD |\
+"Ddim"F2-"(A7)"F2-"(Bb7)"F2 | "A7"E6 |1 "Dm"D3 D D2 | D2 z4 :|2 "Dm"D2-DD FA | d2 z4 ||
+P:B
+K:F
+L:1/8
+"C"CD EF GA | B^F GA ed | (3"F"cdc Ad c2-|c2 df df |\
+"C"e2 dc B2-| Be Be Be | "F"d2 cB A2-|AA GF ED |
+"C7"CD EF GA | B^F GA ed | (3"F"cdc Ad c2-|c2 ^G2 A2 |\
+"Bb"d3 d d2 | f2 e2 d2 | "A"A6-|AA GF ED |
+"C"CD EF GA | B^F GA ed | (3"F"cdc Ad c2-|c2 df df |\
+"C"e2 dc B2-| Be Be Be | "F"d2 cB A2-|A2 ^G2 A2 |
+"Bb"d3 d d2 | f2 e2 d2 | "A"A^C EA ^ce |a2 ^G2 A2 |\
+"Bb"d3 d d2 | f2 e2 d2 | "A"A3 A A2 | A2 z4 ||
+P:C
+K:D
+L:1/4
+"D"AB>c | BAB | df>c | BAB | d3 | "G#dim(G7)"B3 | "A7"c3-|c2 z |
+"A7"AB>g | eBd | c>BA | G^DE | B3 | c3 | "(Ddim)"B3 | "D"A2 z |
+"D"A>Bc | BAB | df>d | BAB | d3 | "D7"e3 | "G6(C7?)"e3-|e z2 |
+"Gm"dc_B | _Bcd | "D"dA2-|A B/A/ F/D/ |\
+F3 | "A7"E3 | "D"D-D/D/ F/A/ | d2 z4 ||

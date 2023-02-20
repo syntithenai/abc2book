@@ -1,0 +1,37 @@
+X: 11
+T: Northampton Races
+C: Michael Dabney
+%R: reel
+B: Michael Dabney "Twelve Minuets and Twelve Dances" p.12 #1
+S: http://imslp.org/wiki/12_Minuets_and_12_Dances_(Dabney,_Michael)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces mostly 4- or 8-bar staffs.
+V: 1
+|:\
+B2(dB) c2(ec) | dfdB cAGF |\
+B2(dB) c2(ec) | dfAc B2B,2 :|
+|:\
+f>gf>d f>gf>d | e>cTc2 e>cTc2 |\
+f>gf>d f>gf>d | c>Bc>d B2B,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+|:\
+b4 f4 | b2B2 f2F2 |\
+d2B2 e2c2 | f2F2 B4 :|\
+|:\
+b4 b2B2 |
+f4 f4 |\
+b4 d4 | e2f2 B4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right hands & Left half round
+%% _ the same back again _ lead
+%% down the middle two Cu: _
+%% lead up again to the top cast
+%% off Right and left.
+%%endtext

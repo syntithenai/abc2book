@@ -1,0 +1,15 @@
+X: 96
+T: De La Mana
+C: Romania
+M: 9/16
+L: 1/16
+Q: 1/4=96
+K: F
+%%MIDI program 110
+%%MIDI gchord fzfzfz2fz
+%%MIDI bassprog 33
+%%MIDI bassvol 60
+"C"c>d e>f gz ag2|"F"f>g f>g fz ed2|"C"c>d e>f gz ae2|"F"gf3 gf ed2  |
+"C"c>d e>f gz ag2|"F"f>g f>g fz ed2|"G"g3 agfed2     |"C"c8z         |
+"F"a3 zgbagf     |a3 zgbagf        |"G"g3 agfed2     |"C"c2c'c'c'c'z3|
+"F"a3 zgbagf     |a3 zgbagf        |"G"g3 agfed2     |"C"c8z         |

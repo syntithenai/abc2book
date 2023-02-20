@@ -1,0 +1,21 @@
+X:184
+T: Love and a Pipe ("duett IX")
+N: O'Farrell's Pocket Companion v.2 (Sky ed. p.93-4)
+M: 2/4
+L: 1/8
+R: march
+Q: 200
+V: 1 %%MIDI program 1 73 volume=70 % flute
+V: 2 %%MIDI program 1 40 % fiddle
+K: G
+[V:1] G/A/B/c/|dd e>c |e/d/d d/c/A/c/|Bd AB/A/| Gz G/A/B/c/|
+[V:2] z   G/A/|BB c>A |B2    AA      |GB D2   | Gz z   G/A/|
+%
+[V:1] dg e>c |e/d/d d/c/A/c/ |Bd Ad |B2 d/c/A/c/ |Bg A/G/A/B/|
+[V:2] BB cA  |B2    AA       |GB DA |G2 DD       |GB DD      |
+%
+[V:1] G2 F/G/A/B/ | cA GB | A/F/D F/G/A/B/|cA GB |Hdz G/A/B/c/|
+[V:2] G2 D/E/F/G/ | AA DE | A2    D/E/F/G/|AA DG |HBz G/A/G/A/|
+%
+[V:1] dg e>c |e/d/d d/c/A/c/ |Bd Ad |Bz d/c/A/c/ |Bg A/G/A/B/| G4||
+[V:2] BB cA  |BB    AA       |GB DA |Gz DA       |GB Ad      | B4||

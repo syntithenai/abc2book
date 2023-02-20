@@ -1,0 +1,36 @@
+X: 1
+T: the Frier and the Nun
+T: the Fryar and the Nun
+P: Longways for as many as will
+%R: march, reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.54
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+dd dd | d3 d | ee cd | e3 g |\
+fd dd | d d2 d | cA AB | =c3 c |
+BG GA | B>c dd | AA FG | A3 =c |\
+BG GA | B>c dd | cd e>d | d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 500
+%%begintext align
+%% Lead up men a D. turn round, we. go up a D. and turn S. we. go down a D. and turn S. men down
+%% and turn S .:|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The two uppermost men fall back, and turn S. we. as much, changing over with your own, men
+%% change, we. change at the same time, then each change places with his own .| Do thus to all the
+%% rest following :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First and second man change places by both hands, we. as much, men and we. meet side-ways,
+%% turn all S. hands and go half round, turn S. hands and go half round, turn S. :|
+%% DMDfD]
+%%endtext
+%%sep 1 8 500

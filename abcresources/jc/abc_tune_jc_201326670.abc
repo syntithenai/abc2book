@@ -1,0 +1,32 @@
+X:1
+T: Puck's Deceit
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:C
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 19 notes)
+K:C
+M:4/4
+L:1/16
+e2 f2 g2 f2 e4 d4 |A4 f4 A4 f4 |e2 f2 g2 f2 e4 d4 |A4 f4 d8 |
+%W: A2
+% voice 1 (1 lines, 19 notes)
+e2 f2 g2 f2 e4 d4 |A4 f4 A4 f4 |e2 f2 g2 f2 e4 d4 |A4 f4 d8 |
+%W: B1
+% voice 1 (1 lines, 18 notes)
+e2 f2 g2 a2 g6 a2 |g6 a2 g4 e4 |f2 g2 a4 a4 _a4 |a12 f2 g2 |
+%W:
+% voice 1 (1 lines, 15 notes)
+a2 g2 f2 e2 d2 e2 f2 d2 |e8 A8 |F4 A4 A4 f4 |d16 |
+%W: B2
+% voice 1 (1 lines, 18 notes)
+e2 f2 g2 a2 g6 a2 |g6 a2 g4 e4 |f2 g2 a4 a4 _a4 |a12 f2 g2 |
+%W:
+% voice 1 (1 lines, 15 notes)
+a2 g2 f2 e2 d2 e2 f2 d2 |e8 A8 |F4 A4 A4 f4 |d16 ||

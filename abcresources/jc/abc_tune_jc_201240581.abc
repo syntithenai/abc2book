@@ -1,0 +1,23 @@
+X: 4021
+T: the Days o' Yore
+C: by Nath.Gow
+%R: air, slip-jig
+N: This is version 1, for ABC software that doesn't understand voice overlays or diminuendo symbols.
+B: Niel Gow & Sons "Complete Repository" v.4 p.2 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+Q: "SLOWLY"
+K: Dm
+% - - - - - - - - - -
+V: 1 staves=2
+~^c |\
+d2D D>ED FA=B | {d}c=Bc GEc C2~^c | d2D D>ED FAd | f>ed Ad^c d2e | ~f>ed Ad^c dA=B |
+~c>=BA GEc C2E | FED GFE AGF | GFE A2^C [D2A,2F,2] |]| e | ~f>ed A2A def | edc ege c2e | ~f>ed A2A def |
+g>fe {^g}a2f d2e | ~fed A2A def | edc ege c2a/g/ | "_dim."fed ed^c Hd2 !p!=c/B/ | A>GF E<A^C [D2A,2F,2] |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d3 D3 d2{g}f | [e3g3] c'3 c2A | d3 D3 d3 | a3 A3 d2z | d3 e3 f3 |
+e3 c3 C3 | [D3d3] [E3e3] [F3f3] | [G3g3] a2A [D2d2] |]| z | d'3 f'3 d'3 | c'3 g3 c3 | d3 f3 fed |
+g3 a2A d2z | d'3 f'3 d'3 | c'3 g3 c2z | [D3d3] [E3e3] H[F2f2] !p!G | A3 A,3 [D2d2] |]

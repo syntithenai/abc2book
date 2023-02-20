@@ -1,0 +1,26 @@
+
+X: 1
+T: Espan
+O: Russia
+R: waltz
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/16
+K: G
+  "D7"d2d2 \
+|  "G"b2bag2- g2f2e2  \
+| "G"d2dcB2- B2d2B2 \
+| "D7"A2ABc2- c2c2c2  \
+| "G"BABcd2- d2B2d2 \
+|  "G"b2bag2- g2f2e2  |
+| "G"d2dcB2- B2d2B2 \
+| "D7"A2ABc2- c2B2A2  \
+| "G"G4.d2 .g2 |: z2B2 \
+| "Em"B2^A2B2 g2f2e2  \
+| "B7"^def2z2 !(p)!def2z2 |
+| "B7"B2^A2B2 a2g2f2  \
+| "Em"efg2z2 !(p)!efg2z2 \
+| "Em"B2^A2B2 e2d2B2  \
+| "Am"cde2z2 !(p)!cde2z2 \
+| "Em"B2^A2B2 "B7"g4f2  \
+| "Em"e4.B2 .e2 :|

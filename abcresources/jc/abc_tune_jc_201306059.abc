@@ -1,0 +1,46 @@
+X: 1
+T: The Maids of Currie
+T: 8x32R3C (RSCDS Childrens-7)
+P: The Maids of Currie [2x]
+C: Helen Cruickshank (from John Chambers)
+R: reel
+M:C|
+L:1/8
+K:G
+BA|"G"G2g2 "D"dedc|"G"BcGA "D"B2BA|"Em"G2g2 "Bm"dedB| "Am"A4 "D7"A2BA | "G"G2g2 "D"dedc |
+"Em"BABc "D7"d2ef|"G"gddd dedB|"D7"AGAB "G"G2|| BA|"G"G2G2 "Em"GBAG|"A(m)"AGAB "D"A2 BA|
+"G"G2G2 "A7"GBAG|"D"A4 "D7"A2BA|"G"G2G2 "Em"GBAG|"A(m)"AGAB "D7"A2Bc|"G"dBcd "D7"BGAB|"G"G4 G2 |]
+
+X: 1
+P: Douglas Hornpipe [1x]
+C: Athole Colln, arr. T. Traub 6-30-2011
+C: a.k.a. Huntsmans' Hornpipe (in Ryan's)
+R: reel
+M: 4/4
+L: 1/8
+K: C
+|: GE|"C"C2 c2 c2 Bc|"G"dBGB "C"c2 cd|"C"ecec "F"fdfd|"Dm"gece "G"dBGE|"C"C2 c2 c2 Bc|
+"G"dBGB "Am"c2 Bc|"G"dBdB "D"cAGF|"G"G2 B2 G2 :||:ef|"C"gfed cBAG|"F"A2 F2 F2 fg|
+"Dm"agfe "(D)"dcBA|"G"B2 G2 G2 ef|"C"gege "F"fafa|"C"gege "F"fafa|"C"geaf "G"edcB|"C"c2 e2 c2 :|
+
+X: 0
+P: Quindaro Hornpipe [1x]
+R: reel
+C: New England
+C: arr. T. Traub 6-26-03
+M: 4/4
+L: 1/8
+K: G
+|: gf|"G"g2 G2 G2 BG|"D"FADF "G"G2 Bc|"G"dBed "C"cBAG|"D"FA D2 D2 gf|"G"g2 G2 G2 BG|
+"D"FADF "Em"G2 AB|"C"cedc "D"BAGF| "G"G2 B2 G2 :||: dc|"G"BgBc d2 cB|"Am"caAB "D7"c2 BA|
+"G"Bded "C"cBAG|"D"FA D2 D2 ga|"G"bgfg dgfg|"Em"bgfg dgfg|"C"edcB "D"AGFA |"G"G2 B2 G2 :|
+
+X: 1
+P: Bottom of the Punch Bowl [1x]
+C: Athole Colln., arr. T. Traub 11-25-98
+M: 4/4
+L: 1/8
+R: Reel
+K: D
+|: FE| "D"D2 D2 d3 e|d2 D2 FGAF|"Em"E2 E2 efgf|"A"e2 E2 FGAF|"D"D2 D2 "Bm"d3 e|"A"fedB "D"d3 A|"G"B3 F "A"A3 E|"D"F2 D2 D2 :|
+|: de|"D"fedB ABde |"A"fedB "D"d3 A|"Em"B2 e2 e2 de|"A"f2 e2 e2 de|"D"fedB ABde|"A"fedB "Bm"d3 A|"G"BdBF "A"ABAE|"D"F2 D2 D2 :|

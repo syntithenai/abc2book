@@ -1,0 +1,40 @@
+
+X: 203
+T: JUANITA
+C: words: Caroline Norton
+C: music: Spanish
+O: 1853
+%R: waltz
+N: This is version 2, for ABC software that understands voice overlays.
+B: "Songs of Affection", Chappell & Co. 1853
+F: https://hymnary.org/hymn/SPH1930/page/196
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+[|\
+"Eb"[B3G3]z[AF]>[GE] | "Bb7"[G2E2][F2D2]z2 | "Bb7"[FD]>[GE][A3F3][AF] | "Eb"[GE][cA][B2G2]z2 | "Eb"[B3G3]z[AF]>[GE] | "Bb7"[G2E2][F2D2]z2 |
+w: 1.~Soft o'er the moun-tain, Ling'-ring falls the south-ern moon; Far o'er the moun-tain
+w: 2.~When in thy dream-ing Moons like these shall shine a-gain, And day-light beam-ing
+%
+"Bb7"[FD]>[GE][A2F2][D2B,2] | "Eb"[E4B,4]z2 | "Eb"[GE][BG][e3G3][dB] | "Ab"[d2B2][c2A2]z2 | "Bb7"[FD]>[FD][B3G3][AF] | "Eb"[GE][cA][B2G2]z2 |
+w: Breaks the day too soon! In thy dark eyes' spen-dor, Where the warm light loves to dwell,
+w: Prove thy dreams are vain, Wilt thou not, re-lent-ing, For thine ab-sent lov-er sigh?
+%
+"Eb"[GE][BG] [e3G3][dB] | "Ab"[d2B2] [c2A2] z2 | "Bb7"[BF]>[BF][B2D2][G2D2] | "Eb"[E4E4]z2 | "Eb"[G2E2][G2E2] (3GFG & x4E2 | "Bb7"[A2D2][A2D2]z2 |
+w: Wea-ry looks, yet ten-der, Speak their fond fare-well. Ni-ta! Jua-**ni-ta!
+w: In thy heart con-sent-ing To a pray'r gone by?         Ni-ta! Jua-**ni-ta!
+%
+"Bb7"[FD]>[FD][B3G3][AF] | "Eb"[GE][cA][B2G2]z2 | "Eb"[G2E2][G2E2](3GFG & x4E2 | "Bb7"[A2D2][A2D2]z2 | "Bb7"[B,B,]>[B,B,][G2E2][F2D2] | "Eb"[E4E4]z2 |]
+w: Ask thy soul if we should part. Ni-ta! Jua-**ni-ta! Lean thou on my heart.
+w: Let me lin-ger by thy side.      Ni-ta! Jua-**ni-ta! Be my own fair bride.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+[B3E3]z[BE]>[Be] | [b2B2][b2B2]z2 | [bB]>[bB][b3B3][bf] | [be][e'e][e'2e2]z2 | [e'3e3]z[be]>[be] | [b2B2][b2B2]z2 |
+[bB]>[bB][b2B2][a2B2] | [g4e4]z2 | [be][e'e][e'3e3][e'g] | [e'2a2][e'2a2]z2 | [bb]>[bb][b3B3][bd] | [be][e'e][e'2e2]z2 |
+[be][e'e][e'3e3][e'g] | [e'2a2][e'2a2]z2 | [d'b]>[d'b][b2b2][a2B2] | [g4e4]z2 | [b2e2][b2e2][b2e2] | [b2f2][b2f2]z2 |
+[bB]>[bB][b3B3][bf] | [be][e'e][e'2e2]z2 | [b2e2][b2e2][b2e2] | [b2f2][b2f2]z2 | [bB]>[bB][b2B2][a2B2] | [g4e4]z2 |]
+%----------Dancedescription----------

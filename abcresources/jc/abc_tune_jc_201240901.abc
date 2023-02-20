@@ -1,0 +1,23 @@
+X: 4161
+T: North's (Milles Macphail) Farewell to the Caledonian Hunt
+%R: air
+N: This is version 2, for ABC software that understands voice overlays and crescendo symbols.
+U: p=!crescendo(!
+U: P=!crescendo)!
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.16 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 2-voice bass of strain 2 bars 1-3 can't be done in ABC2, but the ABC1 chord notation almost works.
+M: 6/8
+L: 1/8
+Q: "Very Slow with Expression"
+K: C
+% - - - - - - - - - -
+% Voice 1 reformatted for 1 12-bar staff, for compactness and proofreading.
+V: 1 staves=2
+G | TG>Ac {c}Td2c | (ec).e {e}d2c | !f!e>dc A2G | (G3 c2) :: e | !p!Tc>de g2e | (af).a {a}g2e |\
+Tc>de g2f | (e3 g2)!f!g || [af]fa {a}g2f | pedc PH[g2d2B2] c | !p!{cd}e>dc A2G | (G3 c2) :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | efe x3 & c3 g2e | c2c' e2c | !f![cC]>[dD][eE] [f2F2]e | (ef).d c2 :: z | !p![cc6]c'c' c'c'c' | [FF6]ff e2c | [CC6]cc c2B |
+cGE C2!f!z || Fff e2d | pcBA PHG2 z | !p!c>de f2e | (ef).d c2 :|

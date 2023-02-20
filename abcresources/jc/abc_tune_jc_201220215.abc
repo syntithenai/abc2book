@@ -1,0 +1,41 @@
+X: 32
+T: Ratcliff Cross
+T: Longways for as many as will.
+%R: minuet
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.16
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the Note.
+M: 3/2
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+:|\
+f2 c4 Bc A2 F2 | d2 Bd BG DF D2 C2 |\
+EG BA GFED C2 c2 | AF(EF) CF (EG) F4 :|\
+|:\
+(cf) (af) (ba)(gf) e2c2 | Bc (gd) (gf) (ed) c2B2 |
+(Ac) fc fedc B2c2 | AFEF C(FEF) F4 :|\
+|:\
+f2c2 _egf_e (dB)AB | g2d2 fagf ec=Bc |\
+a2e2 fagf edcB |
+A(FEF) C2E2 F4 :|\
+|:\
+afcf Ac fa d2B2 | bg dg Bd gb e2c2 |\
+dB FB DF Bd E2c2 | AF(EF) CF(EG) F4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Man turns 2d Wo. with his right hand, & his Partner with his left .| 1st
+%% Wo. turns 2d Man with her Right hand & her Partner with her left :| 1st
+%% Cu. cross over & half Figure at top with the 2d Cu. .| then whole figure at botom
+%% with the 3d Cu. :| 1st Man turns 3d wo. & his partner 2d man then turn one another
+%% .| 1st wo. turns 3d man with her Right hand & her Partner turns the 2d
+%% Wo. then turns Partner .| 1st Man crosses over on the out side of the 3d Wo. the
+%% 1st Wo. cross over on the out side of the 2d Man & both cast quite round
+%% into the 2d Cu. Place .| Then the 1st Man cross on the out side of the
+%% 2d Wo. & the 1st Wo. cross over on the out side the 3d Man and both
+%% cast quite round into the 2d Cu. Place and turn his Partner. :|
+%%endtext
+%%center: Note: Each Strain twice.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

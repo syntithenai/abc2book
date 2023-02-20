@@ -1,0 +1,36 @@
+X: 1052
+T: Hobson's Choice
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+N: The last note in both parts was missing its dot.
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+FGF B2F | B2c d2c | A2F A2F | c2F c2F |\
+def gfe | dcB A2F | Ggf =ecf | f2=e f3 :|
+|:\
+efe g2e | ded f2d | cdc edc | dcB AGF |\
+FGF B2F | B2c d2g | fed c2B | B3- B3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+z2z zzf | d2c B2e | f3 d3 | A3 B3 |\
+zcd edc | BAG F2A | B3 c2A | B2c F3 :|
+|:\
+c3 edc | B3 dcB | A2A G2A | BAG F3 |\
+z2z zzf | d2c B2e | d2e f3 | B3- B3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+First Man cast off in the 2d Wo. Place, she crossing over at the same time into
+his Place. The 1st Cu. run the figure thro' the 2d Hands all four a quarter
+round. 2d Cu. cast off and lead up the Middle, the 1st Cu casting down and
+Left till they come into their own Places then sett and cast off.
+%%endtext

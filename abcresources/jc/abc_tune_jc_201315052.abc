@@ -1,0 +1,16 @@
+X: 1
+T: Music for a Found Harmonium
+M: 4/4
+L: 1/8
+C: Simon Jeffes (1949-1997)
+%D:1982
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: Recording by Patrick Street, several other people's personal versions.
+N: Phrase 2 bar 2 has ^C or =C at different times in different recordings.
+R: reel
+K: D
+|: D | "D"FDGD FD~D2 | FDGD FD~D2 | FDGD FD~D2 | "A"EDCD "D"FDD :|
+|: D | "A"EDCD EDCD | "D"FDCD FD=CD | "G"GDED "A"CDGD | "D"FD~D2 "fine"D3 :| [K:F]
+|: F | "F"cFEF GFEF | cFEF "Dm"E3F | "F"cFEF GFEF | cFEF "Dm"D3 :|
+[| F | "Bb"BFDF GFDF | BFDF GFDF | BFDF "A7"GE2G | "Bb" BFDF "A7"GE2G | [K:D]
+| "A7"cGEG CG2G |cGEG CG2G | cGEG CG2G | cGEG "da Capo"CG2G |]

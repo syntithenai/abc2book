@@ -1,0 +1,41 @@
+X: 1
+T: Hunsdon House
+P: A Figure Dance for eight, thus,
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.34 #61
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.10
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+D2A F2B | AF2 E2D | def ec2 | B3 A3 |] a2g fc2 | d2c Bef |
+g2f ec2 | B3 ABc | d2c BF2 | G2F EAB | cde A2f | e3 d3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First and 3d Cu. meet, and taking the co. Wo. fall back into the
+%% 2d and 4th Place, whilst the 2d and 4th fall back each from their
+%% own, and meet the co. Wo. in the 1st and 3d Place .| As much again :|
+%% First and 3d Cu. meet and turn S .| Men cross over, then We. cross
+%% over :| The other four doing as much .| Then all this back again
+%% to your Places .:|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% This as before :|
+%% First and 3d Cu. meet, turning Back to Back, and Hands inward, and
+%% go half round :| The other four as much :| All this again, to
+%% your Places.:|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% This as before :|
+%% Meet and honour to your own, right Hand to the co. and
+%% left to your own :| The other four as much :| All this again,
+%% honouring to the co. Wo. :|
+%% [CCDM1] [DMDfD]
+%%endtext
+%%sep 1 8 500

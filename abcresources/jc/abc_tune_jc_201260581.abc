@@ -1,0 +1,74 @@
+X: 1
+T: the Castle Walk
+C: James Reese Europe and Ford T. Dabney
+R: TROT and ONE STEP
+N: This is version 1, for ABC software that doesn't understand voice overlays or tremolo notation.
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: F
+%%continueall
+z[FCA,][GCA,][^GD=B,] | [AFC][f-A-F-][f2A2F2] |\
+"Bb"[gdG][f2d2F2][d-B-F-] | [d4B4F4] | "A7"[a^cA][gcA]z2 |
+%
+"Dm"[fAF][dAF]z2 | "C7"[cEC][AEC]z2 | "F"[F2C2A,2]z3 |]\
+[| z[FCA,][GCA,][^GD=B,] | "F"[AFC][c-A-F-][cAF][AFC] | [dAF][c2A2F2][F-C-A,-] |
+%
+[F4C4A,4] | "C7"[dBE][c2B2E2][G-E-B,-] | [G4E4B,4] |\
+"F"[dAF][c2A2F2][F-C-A,-] | [F4C4A,4] | z[FCA,][GCA,][^GD=B,] |
+%
+"F"[AFC][c-A-F-][cAF][AFC] | [dAF][c2A2F2][F-C-A,-] | [F4C4A,4] |\
+("C"[^dc^F][ecG])z2 | ([^F^D][GE])z2 | ([^dc^F][ecG])z2 |
+%
+[cE]zz2 | z[FCA,][GCA,][^GD=B,] | "F"[AFC][c-A-F-][cAF][AFC] | [dAF][c2A2F2][F-C-A,-] |\
+[F4C4A,4] | "C7"[dBE][c2B2E2][G-E-B,-] | [G4E4B,4] \
+"P.3"|\
+"F"[dAF][c2A2F2][F-C-A,-] | [F4C4A,4] | z[FCA,][GCA,][^GD=B,] |\
+[AFC][f-A-F-][f2A2F2] | "Bb"[gdG][f2d2F2][d-B-F-] | [d4B4F4] | "A7"[a^cA][gcA]z2 |
+%
+"Dm"[fAF][dAF]z2 | "C7"[cEC][AEC]z2 | "F"[FCA,][c2F2C2][=BFD] |:\
+"C7"[c2_B2E2C2][^FC][G-C-] | [GC][e2B2E2][cBE] | [dBE][eBE][cBE][d-B-E-] | [dBE][c2B2E2][=BF] |
+%
+"F"[c2F2][^GC][A-C-] | [AC][e2A2F2][cAF] | [dAF][eAF][cAF][d-A-F-] | [d2A2F2]z2 |\
+"C7"z[dB=F][fBF][dBF] | [fBF]z[e2B2E2] | z[dB=F][fBF][dBF] |
+%
+[fBF]z[e2B2E2] | !p!"F"[cAF].d.c.A | [cAF].d.c.A | {AB=B}.c.d.c.A |\
+.c"F"[c2F2C2][=BFD] | "C7"[c2_B2E2C2] [^FC][G-C-] | [GC][e2B2E2][cBE] |
+%
+[dBE][eBE][cBE][d-B-E-] | [dBE][c2B2E2][=BF] | "F"[c2F2][^G2C2][A-C-] | [AC] [e2A2F2][cAF] |\
+[dAF][eAF][cAF][d-A-F-] | [d2A2F2]z2 | z[fdF][gdG][fdF] \
+"P.4"|\
+"G7"[g2d2G2].[f2d2F2] | "F/C"z[cAF][eAF][dAF] |\
+"E7"[e2^G2F2][d2-G2-F2-] | [dGF][AF][cAF][A^D] | [c2B2E2][A2E2B,2] |\
+[1 [F2C2A,2][f2F2] | [e2E2][d2D2] :|
+%
+[2 ("F"[F4C4A,4] | .[f2A2F2])z2 |[| z[FCA,][GCA,][^GD=B,] |\
+"F"[AFC][c-A-F-][cAF][AFC] | [dAF][c2A2F2][F-C-A,-] | [F4C4A,4] |"C7"[dBE][c2B2E2][G-E-B,-] |
+%
+[G4E4B,4] | [dAF][c2A2F2][F-C-A,-] | [F4C4A,4] | z[FCA,][GCA,][^GD=B,] |\
+"F"[AFC][c-A-F-][cAF][AFC] | [dAF][c2A2F2][F-C-A,-] | [F4C4A,4] |
+%
+([^dc^F].[ecG])z2 | ([^F^D].[GE])z2 | ([^dc^F].[ecG])z2 | [cE]zzz2 |\
+z[FCA,][GCA,][^GD=B,] |"F"[AFC][c-A-F-][cAF][AFC] | [dAF][c2A2F2][F-C-A,-] |
+%
+[F4C4A,4] | [dBE][c2B2E2][G-E-B,-] | [G4E4B,4] | [dAF][c2A2F2][F-C-A,-] | [F4C4A,4] |\
+z[FCA,][GCA,][^GD=B,] | [AFC][f-A-F-][f2A2F2] \
+"P.5"|\
+"G7"[gdG][f2d2G2][d-B-F-] | [d4B2F2] | "A7"[a^cA][gcA]z2 |\
+"Dm"[fAF][dAF]z2 | "C7"[cEC][AEC]z2 | "F"[FCA,]A^GA |: "A7"(E [G,/A,/]B, [G,A,][G,/A,/]B,/ |
+%
+[EG,A,]) [AA,][^G^G,][AA,] | (D [F,/A,/]B,/ [F,A,][F,/A,/]B,/ |  "Dm"[DA,F,]) [dD][^c^C][dD] |\
+"D7"(^F [C/D/]_E/ [CD][C/D/]E/ | [FDC]) [dD][^c^C][dD] | "Gm"G [D/B,/]_E/ [DB,]z | "Fdim7"[^G4F4D4=B,4] |
+%
+"A7"[A=G^C][A2G2C2][A-G-C-] | [AGC][G^CA,][FCA,][EA,G,] | "D"[AFA,][A2F2A,2][A-F-A,-] | [AFA,][FA,][EA,][DA,] |\
+"E7"[ED^G,][F2E2G,2][E-D-G,-] | [EDG,][=B,^G,][=CG,][DG,] | "A"[E2^C2A,2]A2 |
+%
+^G2A2 | "A7"(E [G,/A,/]B, [G,A,][G,/A,/]B,/ | [EG,A,]) [AA,][^G^G,][AA,] |\
+"Dm"(D [F,/A,/]B,/ [F,A,][F,/A,/]B,/ |  "D7"[DA,F,]) [dD][^c^C][dD] | "D"(^F [C/D/]_E/ [CD][C/D/]E/ |
+%
+[^FDC]) [dD][_e_E][dD] | "Gm"G [D/B,/][D/B,/] [DB,][DB,] | "C7"[B4E4B,4] |\
+"F"[AFC][A2F2C2][AFC] | "D7"[A4G4^C4] | "Db+"[A^F=C][A2F2C2][AFC] | [A4=F4A,4] |
+%
+"F"[AFC][B2F2C2][cAFC] | "G7"[d2=B2F2D2]"C7"[c2_B2E2] |\
+[1 "F"[F4-C4-A,4-] | [FCA,] [AA,][^G^G,][AA,] :|\
+[2 "F"[FCA,]G/A/ "C7"B/c/d/e/ | [fAF]z "^8-"[fAF] |]

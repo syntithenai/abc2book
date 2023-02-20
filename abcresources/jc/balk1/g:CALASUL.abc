@@ -1,0 +1,41 @@
+X: 67
+T: Calasul
+O: Romania
+M: 2/4
+L: 1/16
+K: A
+Q:1/4=120
+%%MIDI program 48 string ensemble 1
+|:"A"A2e2 A2e2            |c2c3/2^B/ c3/2^d/e2    |\
+  A2e2 A2e2               |c2A3/2^B/ c3/2A/E2     |
+  A2e2 A2e2               |c2c3/2^B/ c3/2^d/e3/2f/|\
+  =g2f3/2e/ f3/2^d/e3/2^B/|c3/2^d/e3/2c/ A4::
+  "A"c2A^B cAce           |=g2fe f^de2            |\
+  c2A^B c^de2             |a4 a4                  |
+  c2A^B cAce              |=g2fe f^de2            |\
+  c2A^B c^de2             |A4 A4::
+  c2A^B cAce              |=g2fe f^de^B           |\
+  c2A^B c^dec             |A4 A4::
+  "B"B8                   | feed dccB             |\
+  B8                      |feed dccB              |
+  B8                      |feed dccB              |\
+  "E"geed dccB            |
+"A"A2Bc A4::
+  "A"c2A^B cAce           |=g4 g3f/e/             |\
+  c2A^B c^de2             |a4 a4                  |
+  c2A^B cAce              |=g4 g3f/e/             |\
+  c2A^B c^de2             |A4 A4::
+  "B"B8                   |feed dccB              |\
+  B8                      |feed dccB              |
+  B8                      |feed dccB              |\
+  "E"feed dccB            |"A"A2 Bc A4::
+  A2ag fga2               |A2ag fga2              |\
+  A2ag fga2               |g2a2 g2a2::
+  A2c'^b abc'2            |A2c'^b abc'2           |\
+  A2c'^b abc'2            |^b2c'2 b2c2::
+  "B"feed dccB            |B4 B4                  |\
+  "E"feed dccB            |"A"A4 A4               |
+  "B"feed dccB            |B4 B4                  |\
+  "E"feed dccB            |"A"A4 A4               :|
+W: adapted from Martin Junghans/Jutta Weber-Karn transcription
+W: http://www.folkloretanznoten.de/

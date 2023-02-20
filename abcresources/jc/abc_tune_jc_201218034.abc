@@ -1,0 +1,22 @@
+X: 0031
+T: Faut Pers Vals I.
+P: K.E.F. 11.
+C: C.G.
+%R: waltz
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Redundant endings replaced with "pickup" notes and repeats.
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+A |\
+d2 (cd) (eg) | {g}Tf2 (ef) (3(dbb) | {b}a2 (fa) (ge) | f2 (df) A2 |\
+d2 (cd) (eg) | {g}Tf2 ef (3(dbb) | {b}a2 fa ge | d2 z3 :|
+|: g |\
+b2 bb bb | (ba) (af) (df) | {f}a2 aa aa | (ag) (fe) d2- |\
+d2 (cd) (eg) | {g}Tf2 (ef) (dbb) | {b}a2 (fa) (ge) | d2 z3 :|
+% - - - - - - - - - -
+%%text Jmf. S.L. nr 645.

@@ -1,0 +1,54 @@
+X: 19
+T: CUPID'S BRIDGE
+C: John Pratt
+M: 3/2
+L: 1/4
+Z: 2011,2014 John Chambers <jc:trillian.mit.edu>
+B: Thomas Bray's Country Dances 1699 p.44
+N: Duple minor longways
+P: AA BB ad lib.
+Q: 1/2=84 "stately"
+K: Bb
+%----------------------------------------
+% V:1 arranged to give fewer, longer staff lines.
+V: 1
+"A"[|] FDF |\
+B2 d2 cB | c3 ", "F DF |\
+B2 d2 cB | f3 ", "g fd |\
+e3 g f(e/d/) | c3 ", "F DF |\
+Bd fd e/d/c/B/ | B3 :|
+"B"|: bgb |\
+a2 ga g=e | f3 ", "g _eg |\
+fd bc dB | c3 ", "gGB |\
+c2 d2 Bc  | A3 ", "F DF |\
+Bd f(g/f/) (e/d/)(c/B/) | B3 :|
+%----------------------------------------
+V: 2
+DB,D |\
+D2 B,2 CD | A,3 ", "C B,D | D2 B,2 CD | A,2 AG B2 |
+G4 B2 | A3 ", "DB,C | DB, A,B, CA, | D3 :|
+|: DB,D |\
+CD =EF GB | A2 BG GG | c B2 F2 G | A2 G3 F |
+EF D2 FG | F2 CD B,D | B,2 A,G, A,/B,/C | D3 :|
+%----------------------------------------
+V: 3 clef=bass middle=d
+B"Bb"B2 |\
+"Bb"B2 B2 "F"A"Bb"B | "F"F4 "Bb"B2 | "Bb"B2 B2 "F"A"Bb"B | "F"F2 fe "Bb"d2 |
+"Cm"c2 "Eb"e2 "Bb"d"Eb"e | "F"f2 f2 "Bb"b"F"a | "Gm"g2 "Dm"d"Gm"g "Cm"c"F"f | "Bb"B3 :|
+|: "Bb"B"EB"e"Bb"B |\
+"F"f2 "C"c"F"f "C"=ec | "Dm"d2 "Gm"GB "Cm"cB | "F"A"Bb"B "Gm"G"F"A "Bb"B2 | "F"f2 "Cm"e3 d |
+"Cm"cA "Bb"Bb d"Cm"e | "F"f4 "Bb"f2 | "Gm"g2 "Dm"d"Eb"e "F7"fF | "Bb"B3 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%center Cupid's Bridge, a New Country Dance.
+%%begintext align
+%% The 1st Man and Wo. meet with their left shoulder to each other and turn half round with their
+%% right shoulder to each other; the 2d cu. doing the same after them, standing all on a row longways
+%% the Room; then slip by each other, the 1st Man and 2d Wo. with their backs to each other, till they
+%% come to a square and all foot it; then all turn to the left hand, the 1st cu. below, the 2d above, the
+%% Men improper .| The same again :| The 1st cu. cross over and turn the 2d cu. with the right hand,
+%% and slip by each other, holding right Hands as they pass by into a square, Men with their Faces up,
+%% We. down, Men pass over before their We. and turn back to the right Hand to the same place again,
+%% coming back behind their we. .| Then We. the same thing after them, only turning to the left Hand,
+%% and pass back again behind the Men as before; then each Man turn his Wo. with his right Hand round,
+%% and all lead up and turn S. 1st cu. below, 2d cu. above :| And so to the end.
+%%endtext

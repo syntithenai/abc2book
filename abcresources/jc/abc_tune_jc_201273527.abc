@@ -1,0 +1,26 @@
+X:1
+T: Every Lad His Lass
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:Em
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 27 notes)
+K:Em
+M:4/4
+L:1/16
+B4 |e8 f8 |g4 f2 e2 ^d4 B4 |A4 F4 G4 E4 |B12 B4 |e8 f8 |g4 f2 e2 ^d4 B4 |A4 F4 G4 E4 |B12 B4 |
+%W: A2
+% voice 1 (1 lines, 26 notes)
+e8 f8 |g4 f2 e2 ^d4 B4 |A4 F4 G4 E4 |B12 B4 |e8 f8 |g4 f2 e2 ^d4 B4 |A4 F4 G4 E4 |B12 d4 |
+%W: B1
+% voice 1 (1 lines, 19 notes)
+B8 d8 |f4 e4 ^c4 A4 |^c8 d8 |a4 f2 e2 ^d4 B4 |e4 g4 B4 ^d4 |e12 d4 |
+%W: B2
+% voice 1 (1 lines, 18 notes)
+B8 d8 |f4 e4 ^c4 A4 |^c8 d8 |a4 f2 e2 ^d4 B4 |e4 g4 B4 ^d4 |e12 ||

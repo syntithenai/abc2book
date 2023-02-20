@@ -1,0 +1,68 @@
+X: 1
+T: La Ronde des voyageurs
+S: Fortunat Malouin
+M: C|
+L: 1/8
+Z: Contributed 20050219210518 by John Chambers jc:trillian.mit.edu
+K: Am
+|: "Am"E3E A2c2 \
+| e4- eede \
+| "Dm"f3f f2a2 \
+| "Am"e3a "D7"a4 \
+| "G"G3G B2cd |
+| d4- "/F"dBde \
+|1 "E7"f3d d2B2 \
+| "Am"~c2AB "E7"~A2E2 \
+:|2"E7"f2d2 B2e2 \
+| "Am"A6 "E7"AB ||
+[| "A"c3c c2e2 \
+| A4- AAcd \
+| "A"e2a2 g2f2 \
+| "E7"g2eg f2ec \
+| "Bm"d3f d2c2 |
+| "E7"B2GB EGBe \
+| "E7"g3a gfeg \
+| fedf "(A)"ecAB \
+|[| "A"c3c c2e2 \
+| A4- AAcd |
+| "A"e2a2 g2f2 \
+| "D"b4 f3g \
+| "D"a2ga "B7"g2fg \
+| "E"f2ef "F#(m)"eAce \
+| "B(m)"[d'2f2]b2 "E7"f2g2 \
+| "A"afec A4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: The Hare
+T: Reel Souci
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: The Portland Collection v.2 p.85
+M: C|
+L: 1/8
+K: D
+|: BAF |\
+"D"DFAd (3BdB "A7"AG | "D"FABc dcd2 | "D"DFAd "Bm"BdB AF | "Em"BFAF "A7"EGFE |
+"D"DFAd (3BdB "A7"AG | "D"FABc dcde | "D"f2fa "G"gfed | "A7"cABc "D"d :|
+|::: efg |\
+"D"a2fd Adfa | "A7"g2ec Acef | "A7"gece aece | "A7"bgec "D"d :::|
+
+%%sep 1 1 500
+
+X: 1
+T: Clog de Pariseau
+R: reel
+B: Danse ce soir #63
+M: 4/4
+L: 1/8
+K: A
+|:\
+"F#m"F2 GA F2 GA | FGAB c2cc | fgag "F#m/E"~f2 cc | "F#m/D"fgag  "C#7" ~f2 cc |
+"F#m"F2 GA F2 GA | FGAB c2cc | "Bm"fgag "C#dim"f2 cc | "C#"~f2 c2 "F#m"f4 :|
+|:\
+"A"e2 fe cAAA | aaAa "C#dim" g2 ~f2 | "E/B"EFGA "E"Bcde | "C#dim"fdfe "A/C#"~c2 AA |
+"A"e2 fe ~c2AA | aaAa "C#dim" g2 ~f2 | "E/B"EFGA "E"Bcde |1 "E/G#"Aaec "A"A2 ee :|[2 "E/G#"Aaec "A"A4 |]
+
+%%sep 1 1 500

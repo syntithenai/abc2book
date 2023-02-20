@@ -1,0 +1,45 @@
+X: 6
+T: A Dreidele Far Alle - Freilachs
+O: Abe Schwartz Orchestra (March 1929)
+R: Freilach
+M: 2/4
+L: 1/16
+K: G
+"D7"D2 \
+|: "G"G8- | GDGA ^ABGD \
+| "D7"{^G}A8 | zA^GA ^ABc^c \
+| "G"d2cd c2B2 | TB2AB A2G2 \
+| ^cdd2 =fed2 | "D7"=c2{dc}B2 ^A2B2 |
+| "G"G8- | GDGA ^ABGD \
+| "D"{^G}A8 | zA^GA "^-> Coda"^ABc^c \
+| "G"d2cd c2B2 | "D7"B2A2 cBA2 \
+|1 "G"G8 | g8 \
+:|2 "B7"F2G2 ^A2B2 | B^AG2 GFE2
+| "Em"z2EF G2^A2 | B2^c2 dcB2 \
+| ^c2d6- | d8  \
+| e2d2 ^c3B | ^AB^cB AGFE \
+| ^A2B2- B4- | B4 "B7"zB,^C^D |
+| "Em"E2EF G2^A2 | B2^c2 dcB2 \
+| ^d2e6- | e8 \
+| e2d^c dcB2 | ^ABA2 GFE2 \
+| E8- | E4 "B7"zB,^C^D
+| "Em"E2EF G2^A2 | B2^c2 dcB2 \
+| ^c2d6 | "B7"zB^AB c^cd^d \
+| "Em"ed^cB dcB^A | ^cB^AG AGFE \
+| ^A2B6- | B4 "B7"zB,^C^D |
+| "Em"E2EF G2^A2 | B2^c2 dcB2 \
+| ^d2e2- e4- | e8 \
+| "F7"e2d2 ^c2B2 | "B7"B^AG2 GFE2 \
+| E8- | E2E2 G2B2 |
+|: "Em"e2Be d^cB2 | ^A2{BA}G2 GFE2 \
+| ^A2B2- B4 | z2EG BEGB \
+| e2d2 ^c2B2 | B^AG2 GFE2 \
+| F2G2- G4 | z2E2 G2B2 |
+| e2Be d^cB2 | B^AG2 "E7"GFE2 \
+| "Am"^G2A2- A4 | c8 \
+| "Em"^AB^c2 BAG2 | "B7"B^AG2 GFE2 \
+|1 "Em"E8 | z2E2 G2B2 \
+:|2 "Em"E4 _E4 | "D7"D4 "^d.C."z4  |
+"^Coda"\
+ "G"d2cd c2B2 | "D7"zd^cd ^de=f^f \
+| "G"g4 "D7"d4 | "G"G8 |]

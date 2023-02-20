@@ -1,0 +1,38 @@
+X: 20031
+T: the LAST LINK IS BROKEN
+C:
+%R: _
+B: Elias Howe "The Musician's Companion" 1843 p.3 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+c |\
+c2 cd | dc cc | cB BB | Ac fa |\
+a2 ab | ba aa | ag fa | a2 ab |\
+ba aa | ag gg | f2 zc | c2 cc |
+df ff | fe ee | ff ff | ff ff |\
+ga be | ff ff | gb ae | ff fe |\
+dd dc | BB BA | GG GG | HG2 zc |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z |\
+AA AB | BA AA | AG GG | FA cf |\
+f2 fg | gf ff | fe Af | ff fg |\
+gf ff | fe ee | A2 zA | A2 AA |
+Bd dd | dc cc | A2 AA | A2 AA |\
+ef gB | A2 AA | eg fB | A2 Ac |\
+B2 BA | G2 GF | E2 EE | HE2 zF |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z |\
+f2 f2 | b2 a2 | e2 c2 | f2 f2 |\
+f2 [f2d2] | A2 c2 | c2 f2 | f2 fd |\
+df f2 | f2 c2 | f2 zf | f2 f2 |
+B2 BB | c2 cc | f2 ff | f2 ff |\
+cf dc | f2 ff | cd fc | f2 fc |\
+B2 Bc | d2 d2 | c2 cc | Hf2 zf |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,30 @@
+X: 4
+T: Mrs. Elisabeth Hunter
+C: Alastair Hunter
+B: Roy Goldring "14 Social Dances"
+P: Tune for "Elisabeth Hunter's Strathspey"
+R: air, reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+"A7"DE |\
+"D"F3G "A7"E3F | "D"DFAd "D7"f3e | "G"d2cB "D/F#"A2FD | "Em7"D2CE "A7"B,2A,2 |
+"D"F3G "F#7"E3F | "Bm7"DFAd "D7"f3e | "G"d2cB "D/F#"A2FD | "Em"D2-"A7"DC "D"D2 ||
+"A7"A2 |\
+"D"d2ef "A"e2dc | "Bm"d3c/B/ "F#m"A2F2 | "G"GABG "D/F#"FGAF | "Em7"EG,B,D "A7"D2C2 |
+"D"f2ed "F#7"cedc | "G"dcBA "D/F#"GFED | "G"B,2CD "Em"DC "A7"F>E | "D"D2-"G"D2- "D"D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[g2A2] |\
+D2[d'2a2f2] A2[c'2a2g2] | d2[f'2d'2a2] D2[f'2d'2=c'2a2] |\
+G2[g'2d'2b2] F2[a2d2] | E2[g2e2] A,2[g2c2] |
+D2[d'2a2f2] F2 [c'2^a2f2] | B2[d'2b2] D2[f'2d'2=c'2a] |\
+G2[g'2d'2b2] F2[a2d2] | [e2E2][g2A2] [f2D2] ||
+[c'2a2g2] |\
+d2[d'2a2f2] A2[c'2a2e2] | B2[d'2b2f2] F2[c'2a2] |\
+G2[b2g2d2] F2[a2d2] | E2[g2e2] A,2[a2g2e2] |
+D2[f'2d'2a2]F2[e'2^a2f2] | G2[d'2g2] F2[a2d2] |\
+G2[b2g2] [e2E2][g2A2] | [D2D6][b2g2d2] [a2f2d2] |]

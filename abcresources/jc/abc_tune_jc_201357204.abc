@@ -1,0 +1,15 @@
+X:1
+T:Titre du morceau
+C:Compositeur
+O:Origine
+M:3/4
+Q:1/4=72 "  Tempo du morceau"
+L:1/8
+K:Bb
+%%staves [1 2]
+%%tablature #5
+V:1 name=Galoubet
+d | c2 BA GF | B2 B2 cd | ((3ed).c ((3dc).A G2 | HB4z2 |]
+V:2 clef=perc stafflines=1 name=Tambourin
+B | B2 B2 B2 | B4B2 | B2B4 | B4z2 |]
+

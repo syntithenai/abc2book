@@ -1,0 +1,24 @@
+X: 381
+T: Miss Kelman's Reel
+C: by Wm Christie
+R: reel
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c."
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+D |\
+~G2BG (DG)BG | ~F2AF (CF)AF | ~G2BG (DG)BG | (A^F)DF {F}G2G :| d | ~g2bg (dg)bg | fgfd cdfa |
+~g2.b.g .d(^fga) | bga^f g2~g>d || gbgd fafc | df {d}Tc>B AcAF | ~G2BG (DG).B.G | A^FDF {F}G2G |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+G2G2 B2G2 | F2F2 A2F2 | G2G2 B2G2 | d2D2 G2G :| z | G2g2 b2g2 | f2b2 a2f2 |
+g2G2 d2d2 | g2d2 G2g2 || g2b2 f2a2 | b2g2 f2a2 | g2G2 B2G2 | d2D2 G2G |]
+% = = = = = = = = = =

@@ -1,0 +1,74 @@
+X:27081
+T: John McAlpin
+T: 8x32S3
+O: Hugh Foss
+B: The Galloway Album
+N: Original tune: John M(a)cAlpin(e)
+R: strathspey
+%--------------------
+K:
+P: John M(a)cAlpin(e)
+O: trad Scotland
+R: strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+N: All four variants of the name are seen in various publications.
+N: The tune dates to at least 1884 (Athole Coll.), and may be much older.
+N: It is well-known in Scotland and Ireland as a march, song, polka and strathspey.
+M: 4/4
+L: 1/8
+K: A
+|: A/B/ \
+| "A"c2 c>B "D"A-<F F>A | "A"E>F A>B "E7"c-<B BA/B/ \
+| "A"c2 c>B "D"A-<F F>A | "A"E>A e>c "E7"B2 "A"A :|
+|: d \
+| "A"c-<e e>f        e>f a>f |       e-<c c>a  e-<c "E7"B2 \
+| "A"c-<e e>f "(F#m)"e>f a>f | "(Bm)"e-<c c>A "E7"B2 "A"A :|
+P: Lochnagar Strathspey
+B: Kerr's Violin #2
+Z: John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: 4/4
+L: 1/8
+K: D
+A>F \
+| "D"D2 D>F A2 A>B | "D"d>e f>e e-<d d>B | "D"A>B d>B "Bm"A-<F F>D \
+|1 "Em"E>D E-<F "A7"E2 :|2 "A7"E>D E-<F "D"D2 |]
+yA2 \
+| "D"d2 f>e e-<d d>A | "G"B2 d>B "D"B-<A F>G \
+| "D"A-<F E>D "Bm"D-<d d>B | "Em"A-<F F>D "A7"E2 |]
+f>g \
+| "D"a>g f>e f-<d d>e | "G"f>e d>B "A7"A2 F>G \
+| "D"A2 B>A "Bm"A2 a>g | "Em"f2 "A7"e>d "D"d2 |]
+%
+P: Lord of the Isles
+R: strathspey
+B: RSCDS 27-8(a)
+O: Kerr's Collection
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+   d \
+| "G"g<g d>B "Em"G2 G>F | "Am"E<A A>G "D7"F<D D>d \
+| "G"g<g d>B "Em"G2 G>F | "Am"E>A "D7"G/F/E/D/ "G"G2- G :|
+|: B \
+| "G"d>B g>f "Em"e>d c>B | "Am"c<A a>g "D7"f<d d>f \
+| "G"g<g d>B "C"c>d "G"B>G | "Am"E>A "D7"G/F/E/D/ "G"G2- G :|
+%
+P: the Banks of Spey
+C: William Marshall
+N: Caledonian Companion p.88.
+N: Wm. Marshall p.48; Hardie p.88; SFT p.3; BSFC II-21
+N: played by Ed Pearlman on BH 4A; Dancing Strings tape Siegal/Payne
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: ADor
+E | "Am"{E}[A2A] A>B A>B c>e | "G"d<c B->A ~G3 E \
+  | "Am"[A2A] A>B A>B c>d | "C"e<c d->e "G"~g4 |
+y | "Am"a>g e-<c d<e g-<a | "Em"e-<g g>B "G"~G3 B \
+  | "Am"A-<E A>B "(F)"c>d e-<g | "Dm"e-<d "E7"c>B "Am"A3 |]
+c | "Am"A-<E A>c A-<E A>c | "G"B>c d>{c}B {A}~G3 B \
+  | "Am"A-<E A>c A-<E c>d | "C"e>c d-<e "G"~g4 |
+y | "Am"a>g e-<c d<e g-<a | "Em"e-<g g>B "G"~G3 B \
+  | "Am"A-<E A>B "(F)"c>d e-<g | "Dm"e-<d "E7"c>B "Am"A3 |]

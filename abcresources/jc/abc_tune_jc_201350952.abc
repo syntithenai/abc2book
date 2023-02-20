@@ -1,0 +1,15 @@
+X: 1
+T: We Wish a Happy Birthday
+C: words: Dorothy Dushkin 1952
+C: music: William Shield 1828
+O: Kinhaven, Vermont, spread by contra-dance crowd
+M: 2/4
+L: 1/8
+K: G
+"1"[|] D2 | "G"G2 B2 | "D7"(BA) (GF) | "G"G2 G2 | z2 "2"[|] zA | "G"B d2 B | "D7"dc BA | "G"B2 c2 | B2
+w: We wish a hap-*py* birth-day  A joy-ous and ce-le-brat-ed birth-*day
+"3"[|] d2 | "G"d4 | "D7"d4 | "G"d2 d2 | z2 "4"[|] zc | "G"B2 GG | "D7"D2 D2 | "G"B, G,3- | G,2 |]
+w: To our dear ~_  May you have a long, long, life.
+%
+%%text The underscore should be filled with a name, or "friends" for multiple birthdays.
+%%text The "you" may be "he", "she" or "they" as appropriate.

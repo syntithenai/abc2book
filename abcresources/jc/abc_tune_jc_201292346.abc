@@ -1,0 +1,22 @@
+X: 1
+T: Jean's Reel [ABCB]
+C: Bobby MacLeod
+R: Reel
+N: Tune for Glastonbury Tor
+B: RSCDS 47-11
+M: 4/4
+K: G
+%%staffsep 40
+"A"[|] B2 |\
+"G"G2GA BGBd | gB (3BBB "Em"eBdB | "Am"AGAB AGE2 | AcBA "D7"GFED |
+y6 |\
+"G"G2GA BGBd | gabg "C"ageg | "G"d2Bd "Em"gedB | "D7"AGFA "G"G2 |]
+"B"[|] Bd |\
+"G"gBdg BdgB | dgBd gBdg | "D7"fdda fdad | "G"gfga "D7"bdga |
+y6 |\
+"G"bgaf gfed | "C"efgf "G"edBd | "C"e2dB "G"gedB | "D7"AGFA "G"G2 !fine!|]
+"C"[|] GA |\
+"G"BDDB DDBD | GBDG BDGB | "D7"FDDA FDAD | dD^cd =cAFA |
+y6 |\
+"G"BDDB DDBD | GBDG BDGB | "D7"ADFA dD^cd | cAFA "G"G2 "->B"|]
+P: Repeat B

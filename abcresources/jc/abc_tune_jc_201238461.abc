@@ -1,0 +1,22 @@
+X: 3082
+T: Miss Rae's    Strathspey
+C: by And.w Gow.
+%R: air, strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.8 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: "Slow"
+K: Eb
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+D2 | TE3DC2D2 | TE3F (AG)FE | TD3B,TF2B,2 | G2TB,2F2TB,2 || TE2D2C2D2 | TE3F AGFE | (DA3) G3=B, | {B,}C4 C2 :|
+G2 | Tc3de2f2 | Tg3a (ag).f.e | (fgag) fedc | (=BcdB) TG4 || Tc3de2f2 | g3ag2f2 | g2(3(edc) f2(3(dc=B) | Tc4{=Bc} C2G2 ||
+     Tc3de2f2 | g3a a(gfe) | (fga).g (fe)dc | (=BcdB) G4 || [E3G,3]"_Expre.o"eg3e | c2G2 E4 | (DA3) G2=B,2 | {B,}C4 C2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | c4 G4 | C8 | B4 [B4d4] | [B4e4] [B4d4] || c4 G4 | c6 e2 | f4 g2G2 | c4 C2 :| z2 | C2A2C2A2 |
+C2c2C2c2 | d2e2 f3a | g2d2 G4 || z3Gc2d2 | e2d2e2f2 | e2f2 g2G2 | c2G2 C4 || z3Gc2d2 |
+e2e2 e2c2 | d2e2 f3a | g2G2 gfed || c4 C4 | c4 C4 | f4 g2G2 | c4 C2 |]

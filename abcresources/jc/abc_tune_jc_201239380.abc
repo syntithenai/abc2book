@@ -1,0 +1,25 @@
+X: 32701
+T: DUET FOR TWO VIOLINS
+C: By Robert Baillie	
+B: K\"ohler's Violin Repository, v.3, 1885 p.270 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+P: Violino Primo
+Q: "Modto."
+K: C
+|:\
+vc4 e4 | (g3e) (agfe) | d2d2 {e/}(dcde) | (c4 G2)z2 |\
+vc4 e4 | (g3e) (agfe) | (v.d2v.d2) (ede^f) | g4 z2u^g2 |
+a2e2 a2=g2 | f4 z2u^f2 | g2d2 g2=f2 | e4 z2ue2 | f2c2 f2e2 |\
+d2g2 e2a2 | g2[g2B2](^f2ef) & x4 A4 | [g2B2][g2B2][g2B2] z2 |
+v"^>"d(g^fg) "^>"b(gfg) | (ed)(cB) (dc)(BA) | (Gd^cd) (g^fga) |\
+g2[g2d2] [^f2d2]z2 | "^>"d(g^fg) "^>"b(gfg) |
+(ed)(cB) (dc)(BA) | (Gded) (cBcd) | c2[^f2c2] [g2B2]z2 :|\
+z4 (u^fa).b.g | e2ed (cAB^G) |
+[B2A2][B2A2] [B2A2][B2A2] | [B2^G2][B2G2] [B2G2]z2 | z4 (u^fa).b.g |\
+e2ed (cAB^G) | [B2A2][B2A2] [B2^G2][e2d2] | [e2c2][e2c2] [d2=G2][d2G2] |
+"^>"e(g^fg) "^>"c(gfg) | (ecBc) (feag) | (bag^f) (=fefg) | (efe^d) (ecf=d) |
+"^>"g(cBc) "^>"e(cBc) | (^cde=c) (feag) | (.f2.f2) {g/}(fefg) |\
+([ec]fge) [f4B4] | [e4c4] [c4E4] | H[c6E6] z2 H|]

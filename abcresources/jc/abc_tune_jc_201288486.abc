@@ -1,0 +1,17 @@
+X: 913
+T: the Humors of Castle Comer   #2
+R: jig
+%S: s:2 b:12(6+6)
+B: O'Neill's 1850 #913
+Z: Tom Keays (htkeays@mailbox.syr.edu)
+N: Compacted via repeats and multiple endings [JC]
+N: The book has EFA in bar 1 and EFG in bar 5; EFA used here.
+N: Other transcriptions use either or both of these, in either order.
+N: EFA seems more likely for "trad" Irish tunes in D.
+N: Note that the endings are identical in both strains (as is also common).
+%abc 1.6
+M: 6/8
+L: 1/8
+K: Em
+"^A"|: G/F/ |: EFE EFA | BcB B2^c |[1,3 ded dcB | ABA FED :|[2,4 dcB AFD | E3 E2 :|
+"^B"|: e    |: eBe eBe | efg f2e  |[1,3 ded dcB | ABA FED :|[2,4 dcB AFD | E3 E2 :|

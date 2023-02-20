@@ -1,0 +1,23 @@
+X: 10074
+T: MRS. McCLINTOCK'S JIG
+C: Bob McQuillen 27 June 93
+B: Bob's Note Book 10 #74
+%R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+DEF \
+| G2B ABA | G2E DEF | GBe dBd | gdB AFD |\
+| G2B AGA | B2G D2D | EFG AGF | G3 :|
+|: G2A \
+| B2A GBd | e2g d2c | Bdg dBG | cBc AFD |\
+| BAB GBd | gfe d2c | BAG A2D | G3 :|
+%%begintext align
+%% Doris McClintock
+%% lives up in Concord and she was April's mother. She's always
+%% been real nice to me, and we all have a great deal
+%% to thank her for. Perhaps this tune will help you to know
+%% how I feel, Doris -- Best wishes always to you + love from 
+%% Bob--
+%%endtext

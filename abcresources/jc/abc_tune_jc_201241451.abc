@@ -1,0 +1,30 @@
+X: 4358
+T: Petticoat tight
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/8
+L: 1/8
+K: D
+%
+V: 1
+D |\
+FGA FGA | Bcd d2A | Bcd d2A | BGE E2D |\
+FGA FGA | Bcd d2A | Bcd d2A | AFD D2 :|
+|: e |\
+f2d ecA | faf ecA | Bcd d2A | BGE E2A |\
+BGB AFA | GEG F2A | BGB cAc | dAF D2 |]
+%
+V: 2 clef=bass middle=d
+z |\
+d'3 c'3 | b3 f3 | g3 f3 | g3 a3 |\
+d'3 c'3 | b3 f3 | g3 a3 | d3 d2 :|
+|: a |\
+d3 a3 | d3 a2f | g3 f3 | g3 a2f |\
+g2e f2d | e2c d2f | g2e a2A | d3 D2 |]
+%%begintext align
+First Cu. Set 3 with the 2d Wo. and turn .|
+the same to the Man :|
+cast off and turn .|
+Lead thro' the 3d Cu. cast up and turn :|:
+%%endtext

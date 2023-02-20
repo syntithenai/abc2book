@@ -1,0 +1,3292 @@
+This was found at http://blackrosetheband.googlepages.com/ABCTUNES.ABC in May
+2009.   I've done a bit of editing to convert the weird abc2win notation into
+standard abc.  This file had a timestamp of Feb  2007.   Is  there  a  better
+version somewhere?
+  -- John Chambers
+
+%%BSET%
+%%DSET%Highland set,3,2,4,1
+%%DSET%Julia Delaney,114,5,6
+%%DSET%Jimmy Wards,7,9,10,8
+%%DSET%Mountain Road,14,15,16
+%%DSET%Up Sligo,19,18,17
+%%DSET%Blacksmith's Fancy,20,21
+%%DSET%Highlandman,22,23,24
+%%DSET%Trip to Cullenstown,25,26,27,28
+%%DSET%Frankie Kennedy's,29,30,31
+%%DSET%Tommy Peoples,37,36,35
+%%DSET%Arthur Darley's,39,40,41,42
+%%DSET%Drummond Castle,46,48,47
+%%DSET%Butterfly,38,49,45
+%%DSET%Job of Journeywork,51,52,53
+%%DSET%Paddy Fahy's,27,60
+%%DSET%Thru the Window,62,61,63
+%%DSET%Blackberry Blossom,65,66,67
+%%DSET%Slieve Russel,68,69,7
+%%DSET%Walter Sammon's Grandmother,70,71,72
+%%DSET%Cillian's Midnight Dip,74,76,75
+%%DSET%Brian O'Lynn,77,78
+%%DSET%Andy De Jarlis,94,95,96
+%%DSET%Blackbird,99,98
+%%DSET%Carpathian Tune,102,103
+%%DSET%Germans,106,108,105
+%%DSET%High Part of the Road,109,110,111
+%%DSET%Mari's Wedding,113,112
+%%DSET%Kesh Jig,117,118,116
+%%DSET%Old Man Dillon,122,123,121
+%%DSET%Flowing Bowl,126,128,127,125
+%%DSET%Killavil Set,131,130,129
+%%DSET%Paddy's Return,138,139,140
+%%DSET%The Curlew,153,154,155,156
+%%DSET%The Okarina,157,158
+%%DSET%Rockbridge Blues,159,171
+%%DSET%1st August,163,164
+%%DSET%Yell in the Shoats,167,168
+%%DSET%Paddy on the Handcar,169,170
+%%DSET%Snug in the Blanket,177,176
+%%DSET%Campbell's Farewell to Redcastle,179,180,181
+%%DSET%The Duck,183,182,184
+%%DSET%Itchy Fingers,188,190,189
+%%DSET%Lady on the Island,195,196,198,197
+%%DSET%Warlock,199,200,201
+%%DSET%Chloe's Passion,202
+%%DSET%99 March,203,204
+%%DSET%Rizla,206,207,209,208
+%%DSET%Dumbarton Castle,210,211,212
+%%ESET%
+X: 1
+T:The Wild Irishman
+T:Glenties , The
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+S:Altan: The Blue Idol - Track 09, Tune 4
+R:reel
+K:Dmaj
+|"D"d2fd gdfd|dfed "A"cdec|"D"d2fd gdfd|"G"fgfe "A"dcBc|
+"D"d2fd gdfd|dfed "A"cdeg|"D"f3f "G"g2ge|"D"dcdf edcB|
+|"A"A3f eAAA|eAfA edcB|Acde "D"fgfe|"G"dcdf edcB|
+"A"A2gf eAAA|eAfA edcB|Acde "D"fgfe|"G"dcBc|
+
+X: 2
+T:The Moneymusk
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Altan: The Blue Idol - Track 09, Tune 2
+R:highland
+K:Amaj
+|:"A"eAcf eAcf|eAcA "D"Bcdf|"A"eAcf eAce| 1 "D"fdBd "A"cA (3agf:|2 "D"fdBd "A"cA A2|
+|"A"aece fece|aece "D"fBB2|"A"aece fece|"D"fdBd "A"cA A2|
+|"A"aece fece|aece "D"fBBg| "A"(3aba (3gag (3fgf ec|"D"defg "A"a2 af||
+
+X: 3
+T:The Low Highland
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Altan: The Blue Idol - Track 09, Tune 1
+R:highland
+K:Ador
+"Am"A,2 A,2 EA,B,A,|"G"G,B,DG D<G, B,G,|"Am"A,2 A,2 EA,B,A,|"G"G,A, (3B,A,G, A,2 G,B,|
+"Am"A,2 A,2 EA,B,A,|"G"G,B,DG D<G, B,G,|"Am"A,2 A,2 EA,B,A,|"G"G,A, (3B,A,G, A,2 G,B,|
+"Am"A, bag edef|"G"g2 g2 dgBG|"Am"Abag edef|"G"(3gfe dB (3ABA ^GB|
+"Am"Abag edef|"G"g2 g2 dgfg|"Am"(3agf ge fdAF|"G"(3GFE DB, (3A,B,A, G,B, |
+
+X: 4
+T:Duncan Davidson's
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Altan: The Blue Idol - Track 09, Tune 3
+R:highland
+K:Dmaj
+"D"DFAB A<F d2|DFAB A<F "A"E2|"D"DFAB A<F d>e|(3fga "A"(3efg "D"f<d d2|
+"D"DFAB A<F d2|DFAB A<F "A"E2|"D"DFAB A<F d>e|(3fga "A"(3efg "D"f<d d>e|
+"D"f<d fa gfed|"A"c<A AB cdeg|"D"f<d fa gfed|"A"(3Bcd (3efg "D"f<d d>e|
+"D"f<d fa gfed|"A"c<A AB cdeg|"D"(3fga (3agf "G"(3gab (3bag|"D"(3fga "A"(3efg "D"f<d d2|
+
+X: 5
+T:Star Of Munster, The
+T:Bright Star Of Munster, The
+T:Star Of Munster
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+M:4/4
+L:1/8
+R:reel
+K:Ador
+ed|:"Am"c2Ac "G(Em)"B2GB|"Am"AGEF "G"GEDG|"Am"EAAB cBcd|eaaf "G"gfed|
+"Am"cBAc "G(Em)"BAGB|"Am"AGEF "G"GEDG|"Am"EAAB cded|1 "Am"cA "G"BG "Am"A2AB:|2 "Am"cA"G"BG "Am"A2de||
+"Am"eaab ageg|agbg agef|"G"gfga gfef|"(Em)"gfaf gfdf|
+"Am"eaab ageg|agbg agef|"G"g2ge "Am"a2ga| "Em"bgaf gedB:|
+T:last time
+"Am"c2Ac "G"BAG2|"Am"A4 A4||\
+
+X: 6
+T:The Merry Blacksmith
+T:Paddy On The Railroad
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+R:reel
+K:Dmaj
+"D"d2dA BAFA|ABdA BAFA|ABde "Em"fded|"G"Beed "A"egfe|
+"D"d3A BAFA-|ABdA BAFA-|ABde "G"fd"A"ec|"D"dBAF D2 D2:|
+|:"D"a2ag f2fe|d2dA BAFA-|ABde "Em"fded|"G"Beed "A"egfg|
+"D"abag fgfe|dcdA BAFA|ABde "G"fd"A"ec|"D"dBAF D2 D2:|
+
+X: 7
+T:Jimmy Ward's
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Traditional
+K:G
+||:"G"~G3 GAB|"C"AGE "D"GED|"G"~G3 "C"AGE|"D"GED ~D3|
+"G"~G3 GAB|"C"AGE "G"GAB|"Am"cBA "G"BGE|"D"DED ~D3:|
+|:"Am"cBA "G"BAG|"D"~A3 AGE|"Am"cBA "G"BGE|"D"GED "G"GAB|
+"Am"c2c "G"BAG|"D"A3 ABc|"Am"dcA "G"{B}AGE|"D"GED D3:||
+
+X: 8
+T:Laington's
+T:Dillon Brown
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+R:reel
+K:Amaj
+cB|:"A"[A4E4] ABce|fece faaf|ec~c2 acec|fcec "E"ABcB|
+"A"AFEF A3e|fece faaf|ec(3ccc acec|1"E"BABc "A"A2cB:|2"E"BABc "A"A2ed||
+|"A"ceAe ceAc|"E"BE~E2 BcdB|"A"cAAA Acec|"E"BE~E2 BcdB|
+"A"AccB cedc|"E"~B3A BcdB|"A"ABce "D"faaf|"A"eccB "E"cdcB|
+
+X: 9
+T:Morning Star, The
+T:Morning Star
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+R:reel
+K:G
+"G"BGAG EGDE|G2 Bd ed"D"gd|"G"B2 Ac "C"BEED|"D"GBAF G2 dc |
+"G"B2 Ac BGED | GABd ed"D"ge | "G"B2 Ac "C"BEED |"D"GBAF G2 z A|
+"Em"Bdef gfeg|"D"fedf eBBA|"Em"Bdef gfeg|"D"fddd "Em"e2 z d|
+"Em"Bdef gfeg|"D"fedf edBA|"C"Bd(3ddd d3 e|"D"faaf gfed||
+
+X: 10
+T:Star of Munster, The
+M:C|
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:Reel
+N:Also in Edor, #626
+D:Chieftains Live.
+Z:id:hn-reel-11
+K:Ador
+|:"Am"c2cA "G"B2BG|"Am"AGEA "G"GEDG|"Am"EAAB cBcd|"G"e2ge "(Em)"dBGB|
+"Am"(3cde cA "G"(3Bcd BG|"Am"EAAF "G"GEDG|"Am"EAAG "(D)"ABcd|"Em"(3efg "(G)"dB "Am"~A3z:|
+|:"Am"eaab ae~e2|aebe aeef|"G"g2fa gede|geae gedB|
+"Am"Aaab ae~e2|aebe agef|"G"~g3e "D"a2ga|1 "Em"~b3a "G"gedg:|2 "Em"bgaf "G"gedB||
+
+X: 11
+T:Bonnie Kate
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Kevin Burke Live - Track 2
+K:D
+dB|A2 dA B2 AF|DFAF EA,=CE|DFAF GBed|cABc d3B|
+A2 dA (3Bcd AF|DFAF GFEF|DFAF GBed|cABc d2 Bc|
+(3dcB (cBA BdAF|(3GFE (3FED EA,CE|DFAF GBed|cABc d3B|
+AF ~F2 dF ~F2|AF ~F2 EA,=CE|DFAF GBed|cABc defg|
+a2 fd Adef|gfed cdef|g z gf gbag|fgfe defg|
+a2 fd Adef|gfed cdef|g z gf gbag|fgfe defg|
+ad (3ddd adbd| ad (3ddd cdef|g=c (3ccc gcac|g=c (3ccc defg|
+ad (3ddd adbd| ad (3ddd cdef|gfed cbag|(3fgf (3efe defg| 
+"A Variation"
+AF|DFAF DGBG|DFAF EA,CE|DFAF GBed|cABc d2 Bc|
+d2 (3cdc (3BcB (3ABA|(3GAG (3FGF EA,CE|DFAF GBed|cABc d2 Bc|
+
+X: 12
+T:Jenny's Chickens
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Kevin Burke Live - Track 2
+K:Bm
+[c3f3] f f{fgf}ece|f2 fa eAce|f2 fa fece|fgaf eAce|
+f2 fa fece|f2 f2 eAce|f2fa fece|fgaf eAce||"or"a2 ^ga eAce|
+fBBA [F3B3] a|fBBB ABce|fBBA [F3B3] e|fgaf eAce|
+fBBB [FB]BBB|fBBB eABe|fBBA [F3B3] e|fgaf eA(3cBA|
+BB bB aB^gB|faaf eA (3cBA|BB bB aB^gB|f^gaf eA (3cBA|
+BB bB aB^gB|faaf eA (3cBA|BB bB aB^gB|f^gaf eAce|
+
+X: 13
+T:The Cottage Groves
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Kevin Burke Live - Track 4
+K:G
+"A Part"E|D2 D2 AD (3FED|E2 cE dE cE|(3DED FA d3B|BAG E EDCE|
+[A,3D3]  B AD (3FED|E2 cE dE cE|(3DED FA dcdB|BAGE EDDE|
+D2 (3DED AD (3FED|E2 cE dE cE|(3DED FA [F3d3] B|(3BcB AE EDCA,|
+[A,3D3] BA D(3FED|E2 cE dE cE|(3DED FA [F3d3] B|BAGE EDDg|
+"B Part"fd (3dcd faaf|ec (3cBc eg (3gfe|fddc dcAB|cAGE EDDg|
+fd (3dcd faaf|ec (3cBc eg (3gfe|dz (3efg fagb|afge fdde|
+fa (3aga fd (3dcd|efgf ec (3cBc|fgag fddB|BAGE EDD2|
+fa (3aga fd (3dcd|efgf ec (3cBc|dz (3efg fagb|afge fdde|
+:"C Part"f2 df fedf|(3efe ^ce Aece|f2 de (3fgf af|ge^cf eddf|
+fedf fedf|(3efe ^ce Aece|d2 (3efg fagb|afge fdde:|
+"Alt A"dcAG FGAB|[G3c3] z[Gc] AGE|DEFG Addc|(3ABc GE EDCA,|
+[A,4D4] [A,2D2] (3FED|E2 cE dE cE|(3DED FA d3 B|BAGE EDCA,|
+[A,3D3] B AD(3FED|E2 cE dE cE|D2 FA (dcd)B|BAGE EDCA,|
+"Alt A2"e|=f2 df (3efe ^cA|d2 AG FGEF|DEFG Addc|(3ABc GE EDCA,
+
+X: 14
+T:The Mountain Road
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Kevin Burke Live - Track 7
+R:reel
+K:D
+F2 AF BFAF|F2 AF EFDE|F2 AF BFAF|GBAF EDB,D|
+F2 AF BFAF|(3FFF AF EFDE|FA (3AAA BAFB|ABde fddc|
+d3B ADFA|dcde f2fe|dcdB AFDF|(3GFE ED EDB,D|
+d3B ADFA|dcde fzfe|dcdB AFDF|(3GFE ED EDB,D|
+d3e fded|dcde fBBA|d2 fd efdB|(3ABA FD EB,B,z|
+d3e fded|dcde fBBz|g2fg (3efe dB|ABde fdAG|
+
+X: 15
+T:Dr. Gilbert's
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Kevin Burke Live - Track 7
+R:reel
+K:Em
+df|:"A"eBBA B2eB|dBAc BAGF|EB,B,z (3GFE ED|EB,B,A, B,2 A,B,|
+DEED EB,B,z|(3GFE ED EFGA|(3Bcd ed Bdgb|afdf efgf:|
+eB (3BAB gB (3BBB|defa afdf|g2bg f2af|egfd eB (3BAB|
+afdf edBc|(3dcB AF AFDG|(3EFG Ac Bdgb|afdf [B3e3]f|
+eB (3BBB gB (3BAB|defa afdf|[d4g4] [d4f4]|[e3e3]f eB (3BAB|
+afdf edBc|(3dcB AF AFDG|(3EFG Ac Bdgb|afdf [B2e2] gf|
+
+X: 16
+T:McFadden's Handsome Daughter
+M:4/4
+R:reel
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:A
+E3F Az cf|ez cA BFAF|E2 EF AB(3cBA|BF (3FEF BFAF|
+[C3E3]F Az cf|(3efe cA BFAF|(3EFE CE ABcA|BAFB A3B|
+(3ABA ce fecf|(3efe cA BAFE|ABce fecf|ecBc A3z|
+ABce faaf|ec (3cdc BAFA|a3e faec|B2 cA BFAF|
+
+X: 17
+T:Out With the Boys
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Kevin Burke Live - Track 6
+K:G
+Gz2 g2e|dBG AGE|DEG AGG|BAA ABA|
+GFG (3gag e|dBG AGE|DEG AGA|1 BGG G2D:|2 BGG G2z||
+efe gfe|efe gfe|efe gfe|fdB B3|
+efe gfg|agf gfe|BcB AGA|1 BGE E3:|2 BGE DEF||
+T:alt B-Part
+efe gfe|Beg bge|Beg bge|fdB B3|
+
+X: 18
+T:The Rollicking Boys Around Tandaragee
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Kevin Burke Live Track 6
+K:Em
+"Em"BEB E2B|BAB d2B|BAF DED|FED FGA|
+BEB EzB|BAB def|edB AFA| BEE EFA:|
+Bee efe|def afd|efe ~d3|~B3 dBA|
+B e3 fe|def afd|ezB AFA|BEE EFA:|
+
+X: 19
+T:Up Sligo
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Kevin Burke Live - Track 6
+K:Em
+EBB BAG|FDF AFD|EBB GBB|AGF E2D|
+E2B BAG|FDF AB^c|ded ~B3|1 AGF E2D:|2 AGF E2 A|
+:Bee ede|fef dBA|Bee ede|fe^c d2A|
+Bee ede|faf dBA|(3B^cd B GBd|1 AGF E2A:|2 AGF E2D|
+
+X: 20
+T:Rogha An Ghabha (The Blacksmiths Fancy)
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+Q:1/4=200
+S:Altan - Altan Track 7
+R:reel
+K:D
+d2 =c2|:A2 GE FDDF|G2 E=C G,CEG|AFGE FDDC|DEFG Add=c|
+A2 GE FDDF|G2 E=C G,CEC|DEFG Adde|1 fage fdd=c:|2 fage fdde:|
+|:fd ~d2 dfaf|ecAG FD de|fd ~d2 dfaf|efga fdde|fd ~d2 dfaf|
+ecAG FDDC|DEFG Adde|1 fage fdde:|2 fage fdd=c|
+
+X: 21
+T:Charlie O'Donnel's
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+Q:1/4=200
+S:Altan - Altan Track 7
+R:reel
+K:D
+|EBBA BABc|d2 AG FEDF|EBBA BABc|dBAc BEED|
+(3EFE cE BEBc|d2 AG FEDF|EBBA FABc|dBAc BEE2|
+Beed egfe|d2 fd adfd|Beed egfe|dAFA BE ~E2|
+Beed egfe|defg abaf|gage fgfe|d2 AF DEFD|
+
+X: 22
+T:The Highlandman
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Traditional
+S:Altan Track 1
+K:A
+|:A2 {AB}A2 3)Bcd ec | ABce dBGB | A2 {AB}A2 3)Bcd eg | afge dBGB :|
+K:C
+cg ~g2 afge | cege dBGB | cg ~g2 afgb | afge dBGB :|
+
+X: 23
+T:The Cliffs of Glencolumbkille
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Traditional
+S:Altan Track 1
+K:D
+|: ADFD FAAB | ADFA BG 3)Bcd | ADFD FAAB |1 ddfd efdB :|2 ddfd edBA |
+| df {fg}f2 dfaf | dgfd edBA | df {fg}f2 dfaf | gafd edBA |
+df {fg}f2 dfaf | defd e2 fg | a^gab a=gfe | defd efdB ||
+
+X: 24
+T:Old Cuffe Street
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Traditional
+S:Altan Track 1
+K:G
+|: G2 Bd gbag | {eg}e2 dB eBdB | G2 3)Bcd gbag | {eg}e2 dB cBAF |
+ G2 3)Bcd gbag |edef gfga | 3)bag af gfed |1 egdB cBAF :|2 3)efg dB Agfg |
+K:Am
+|eA 3)AAA egfg | eA 3)AAA egfg eA | 3)AAA edef gedB Agfg |
+ eA 3)ABA eAfA | eA 3)AAA edBA | 3)GBd gb afgd | 3)efg dB cBAF||
+
+X: 25
+T:The Trip to Cullenstown
+S:Altan - The Blue Idol Track 6
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:reel
+K:G
+G2BG E2AG | FDFA dcBA | GABG EcAG | FDEF G3(3DEF |
+|:G2BG EcAG | FDFA dcBA | GABG EcAG | FDEF G3 A|
+BddB cd(3efg | dedc BGGA | BddB cd(3efg | dcBA G3A |
+BddB cd(3efg | dedc BGdc | Bdfa gedc | BGAF GFED |
+FA(3AAA ABAG | FDFA dcBA | GABG EcAG | FDEF G3(3DEF :|
+
+X: 26
+T:The Ashplant
+S:Altan - The Blue Idol Track 6
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:reel
+K:F#m
+AB | cF(3FFF cBAB| cFFF EFAB | c2cB cefg | afec BcAB |
+cF(3FFF cBAB | cFFA EFAB | (3cdcBd cefg | afec BcdB |
+(3cdc ac bcac | (3ccc ac cBAB |(3cdc ac bcac | afec BcdB |
+(3cdc ac bcac | (3ccc ac cBAB | cefg a3a | afec BcdB |
+
+X: 27
+T:Phil Murphy's
+S:Altan - The Blue Idol Track 6
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:reel
+K:G
+d3d dB(G2 | G)BBB AGEG | Bdde dBGA | BAAG A3c |
+Bddd eddB | dedB AGEG | B2GB AGEG |1 DGGF GABc :|2 DGGF GBdc|
+|:BddB (3cde ec | Bdde dBGA | BddB cdef | gedc BAGA |
+Bddd eddB | dedB AG(3EFG | B2GB AGEG |1 DGGF GBdc :|2 DGGF GABc |
+
+X: 28
+T:Phil Murphy's in A
+S:Altan - The Blue Idol Track 6
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:reel
+K:A
+e3f ec(A2 | A)ccc BAFA | ceef ecAB | cBBA B3e |
+ceee feec | efec BAFA | ~c3A BAFA |1 EAAB ABcd :|2 EAAG Aced|
+|:ceec dffc | e2ef ecAB | ceec defg | afec BcAe |
+ceee feec | efec BAFA | ~c3A BAFA |1 EAAG Aced :|2 EAAG ABcd |
+
+X: 29
+T:Frankie Kennedy's
+S:Altan The Blue Idol Track 5
+M:6/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:jig
+K:D
+a2g |: fdA dfa | fga b2a | geg fdf | ecA A2a |
+fga fga | fga b2a | geg fdf |1 ecA d2a :|2 ecA dcB |
+|: Add dcd | Bee ede | fdB AFA | BAF DFG |
+Add dcd | Bee ede | fdB ABc |1 dfe dcB :|2 dfe d2a |
+
+X: 30
+T:The Blue Idol
+S:Altan - The Blue Idol Track 2
+M:6/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:jig
+K:ADor
+e2A ABA | gab age | d2B BAB | g2e a2g |
+e2A ABA | gab age | dBB gBB |1 ABA Aag :|2 ABA Aga||
+b2a agf | gab age | d2B BAB | g2e fga |
+b2a agf | gab age | dBB gBB | ABA Aga |
+b2a agf | gab age | d2B BAB | g2e a2g |
+e2A ABA | gab age | dBB gBB | ABA Aag ||
+
+X: 31
+T:The Butcher's March
+S:Altan - The Blue Idol Track 5
+M:6/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:jig
+K:G
+d3 B3 | dBA A2B | ded BAB | dBG GBc |
+d3 B3 | dBA A2g | ~f3 gfe |1 dBG GBc :|2 dBG G(3Bcd||
+eAA fAA | eAA ABd | eAA gfe | dBG GBd |
+eAA fAA | eAA Aag | faf gfe |1 dBG GBd :|2 dBG GBc ||
+
+X: 32
+T:Roaring Waters
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Cirran Tourish
+S:Altan - The Blue Idol
+R:jig
+K:Dmix
+T:A Part
+"D"{G}FDD "C"E3|"D"DEF GAB|ABc ded|{d}cAF "G"GAG|
+"D"{G}FDD "C"E3|"D"DEF GAB|ABc "G"dcA|"C"GED "D"D3:|
+T:B Part
+"D"{G}FDD A3|(3ABc B AGF|"G"GAG GFG|"D"ABA FED|
+"D"{G}FDD ADD|(3ABc A d2B|"G"cdc BAG|1 "A"BAA A2G:|2 "A"BAA AGF||
+T:C Part
+"G"G3 GFG|"A"ABB AFD|"D"DED AFD|"C"EFE "D"DEF|
+"G"G3 GFG|ABB AFD|"D"DED AFD|1 "C"EFE "D"DEF:|2 "C"EFE "D"D2 B||
+T:D Part
+"C"cdc BAG|"A"BAA A2G|"D"FDD "G"GEE|"D"FGA BAB|
+"C"cdc BAG|BAA A2G|"D"FDD ADD|1 DEF "G"G2 B:|2 DEF "G"G2 (3ABc||
+T:E Part
+"D"d^cd AFA|"C"cde "D"d2 e|"D"fAA "G"gAA|"D"age "C"cde|
+"D"d^cd AFA|cde d2 B|"C"cBc EFG|1 "D"FGA "G"B2 (3ABc:|2 "G"FGA BAG||
+
+X: 33
+T:Ormond Sound
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Altan - The Blue Idol track 8
+R:reel
+K:Ador
+A2 ed BAdB | AGGG AG(3EFG | A2 ed (3B^cd ef | g2fa gedg |
+eA (3ABA AedB | AGEF G2 AG | EA (3AAA GABd |1 gedB BAGB :|2 gedB A2 Ag |
+|: efge agfg | eaag ed(3Bcd | (3efg fa gfge | dg (3ggg dBGB |
+c2 c2 d2 ^cd | efge a4 | bg (3gfg agab |1 gedB BAAg :|2 gedB BA(3EFG ||
+
+X: 34
+T:Road to Durham
+R:Jig
+S:Altan: Horse with a Heart
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+Z: Alf Warnock - alf0@rogers.com - http://members.rogers.com/alf0
+M:6/8
+L:1/8
+Q:3/8=120
+K:D
+|:FAA ABd|BAG AGD|GFG B2B|AGA E2D|
+FAA ABd|BAG AGE|DED F2A|GEA D3:|
+:FAA AB=c|ded B2A|GFG B2B|AGA E2D|
+FAA AB=c|dAd AFE|DED F2A|GED D3:|
+
+X: 35
+T:Fintan McManus
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Trad
+S:Altan: Island Angel
+R:Reel
+K:G
+|:EA ~A2 ABcA| EAFA GEED|EA ~A2 ABcd|egdB BAAG:|
+|:ABcd eAAe|gedc BGGB|ABcd eaaf|gedc BA A2:|
+|:egdB A2 eg|M:3/4dB GA (3Bcd|M:4/4eBdB Aa2f|gedB BAA2:|
+
+X: 36
+T:The Windmill
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Ciaran Tourish
+S:Altan: Island Angel
+R:Reel
+K:D
+|:d2 fd ceAc|dBGB AFDE|FB ~B2 Adfd|eAce afge|
+d2 fd ceAc|dBGB AFDF|GFGA Bdfa|1gece d2 (3ABc:|2gece defg
+|:eA ~A2 a3 f|gA ~A2 dFAd| ~B2 AB G3 F|EB,EF GABc|
+dA ~A2 eAaA|fddc dfed|cdef gfga|1gece defg:|2gece dz3||
+
+X: 37
+T:Tommy Peoples
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Trad
+S:Tommy Peoples
+R:Reel
+D:Altan: Island Angel
+K:D
+|B3 c dBAF|B3 c dfed|B3 c d3 B| ABde fded|
+B3 c dBAF|B3 c dfed|B3 c d3 B|ABde fdec|
+dfaf bfaf|dfaf ~g2 fg| afge d3 B|ABde fdec|
+dfaf bfaf|dfaf ~g2 fg| afge d3B|ABde fded|
+
+X: 38
+T:Butterfly, The
+T:Red Monarch Butterfly, The
+T:Red Admiral Butterfly, The
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+M:9/8
+L:1/8
+R:slip jig
+K:Emin
+|:"Em"B2E G2E "D"F3|"Em"B2E G2E "D"FED|"Em"B2E G2E "D"F3|"Bm"B2d d2B "D"AFD:|
+|:"C"B2d e2f g3|B2d g2e "D"dBA|"C"B2d e2f g2a|"D"b2a g2e dBA:|
+|:"Em"B3 B2A "D"G2A|"Em"B3 BAB "D"dBA|"Em"B3 B2A G2A|"D"B2d g2e dBA:|
+
+X: 39
+T:Arthur Darley's Jig
+T:Swedish Jig, The
+T:Bruckless Shore
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+M:6/8 % But second bar is 9/8
+L:1/8
+C:Arthur Darley
+R:jig
+D:Paddy Glackin: Ceol ar an bhFidil le Paddy Glackin
+D:Arty McGlynn: McGlynn's Fancy
+H:"Bruckless Shore" is the original title.
+Z:id:hn-jig-68
+K:D
+"D"~A3 AGF|"A"EDC "D"D3 | d2e "(G)"fgf | "A"edc "D"d3 |
+"D"d2e "(G)"fgf | "A"edc "D"dAA | "(G)"BAG "D"FED|M:9/8 "A"EDC "D"DA,B, "A"CDE|
+M:6/8 "D"Ddd "A"Aee|"D"Aff "G"Agg|"D"fed "A"edc|"D"d2d dcB:|
+|:"Dm"A=ff fef|A=ff fef|A=ff Agg|Aaa "Bb"A_bb|
+"Dm"A=ff fef|A=ff f2g|=fed "A"ed^c|1 "Dm"d2d d=c_B:|2 "D"d2d d2e|
+|:"D"fgf "A"edc|"D"dAA "(G)"BAG|"D"FED "A"EDC|"D"DA,B, CDE|
+Ddd "A"Aee|"D"Aff "G"Agg|"D"fed "A"edc|1 "D"d2d d2e:|2 "D"d2d dcB||
+
+X: 40
+T:Connaughtman's Rambles, The
+T:Connaught Man's Rambles, The
+T:Connachtman's Rambles
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+M:6/8
+L:1/8
+R:jig
+K:Dmaj
+|:"D"FAA dAA|"G"BAA dAG|"D"FAA dfe|"Bm"dBB "G"BAG|
+"D"FAA dAA|"G"BAA def|"D"gfe "G"dfe|1 "Bm"dBB "G"BAG:|2 "Bm"dBB B3|
+K:Bmin
+|:"Bm"fbb faa|"G"fed ede|"Bm"fbb faf|"G"fed "A"e3|
+"Bm"fbb faa|"D"fed def|"G"gfe "D"dfe|1 "Bm"dBB B3:|2 "Bm"dBB "G"BAG|
+
+X: 41
+T:Cliffs Of Moher, The
+T:Cliffs Of Moher
+M:6/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+R:jig
+K:Ador
+|:"Am"a3 bag| eaf ged| c2A "Em"BAG| "G"EFG ABd|
+"Am"eaa bag| eaf ged|c2A "Em"BAG| "G"EFG "Am"A3:|
+"Am"e2e dBA| e2e dBA| "G"GAB dBA| "Em"GAB dBd|
+"F"e2e dBA| e2e dBA| "G"GAB dBA| "Em"EFG "Am"A3|
+"Am"efe dBA| efe dBA|"G"GAB dBA| "Em"GAB dBd|
+"Am"efe "G"ded| "Am"cec "G"BeB| "Em"EFG AGE| "G"DB,G, "Am"A,3|
+
+X: 42
+T:Old Hag, You Have Killed Me
+T:Old Hag You Have Killed Me
+T:Oh Hag You've Killed Me
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+M:6/8
+L:1/8
+R:jig
+K:Dmix
+"D"FDD "C"cAA|"D"ded "C"cAG|"D"A3 ABG|ABA A2G|
+"D"FDD "C"cAA|"D"ded "C"cAF|"G"G3 GcA|1 GAG G2E:|2 GAG G2e||
+|:"D"f3 "G"gfg|"D"afd "C"cAG|"D"A3 ABG|ABA A2e|
+"D"f3 "G"gfg|"D"afd "C"cAF|"G"G3 GcA|1 GAG G2e:|2 GAG G2E||
+
+X: 43
+T:Carolan's Draught
+T:O'Carolan's Draught
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+R:reel
+K:Gmaj
+D2 |: "G"GABc "D"defd | "G"g2"D"fe "G"d2Bd | "C"e2ce "G"d2Bd | "C"c2Bc "D"AcBA |
+"G"GABc "D"defd | "G"gfed "A"^cbag | "D"gfed "A"A2^c2 |1 "D"d3e dcBA :|2 "D"d6 f>g||
+"D"afga "G"bagf | "C"e/f/gfe "G"ed=cB | "C"edef "D"gfga | "Em"bagf "C"efga |
+"Em"bBbB "D"aBaB | "Em"gBgB "D"fBfB | "Em"edef gfed | "C"e2ed e3f |
+"G"gfed cBAG | "C"e2"G"d2 d2BG | "C"c2Bc ABGA | "D"FGAF DEFD |
+"Em"EFGE "D"FGAF | "Em"GABG "D"ABcA | "G"d2g2 "D"bagf | "G"g2"C"gf "G"g2 ||
+
+X: 44
+T:Carolan's Quarrel with the Landlady
+O:Ireland
+M:6/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/16
+C:Turlough O'Carolan
+K:Em
+BA|"G"G3AB2 g4ga|"Em"bagfed g4gf|"C"e3fed e2f2gf|"Am"edcBAG "D"A4BA|
+"G"G3AB2 g4ga|"Em"bagfed g4gf|"C"e2fedB "D"d2edBA|"Em"Bee e4gf| "C"e2fedB "D"d2edBA|"Em"B2e2e2 e4:||
+ga|"G"b2g2b2 bagfed|"D"d2f2g2 a4(3abc'|"G"bagfed "G"e2f2gf|"C"edcBAG "D"A3cBA|
+"G"G3AB2 g4ga|"Em"bagfed g4f2|"C"e2fedB "D"d2edBA|"Em"Bee e4gf| "C"e2fedB "D"d2edBA|"Em"B2e2e2 e4:|]
+
+X: 45
+T:Dinkey's
+T:Dinkie Dorian's
+T:Dinkies
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+M:4/4
+L:1/8
+R:reel
+K:Amix
+|:ed|"A"c2B2 ABcd|egfg edBd|"G"gBBB gBaB|gBBB gfed|
+"A"cdBc ABcd|egfg edBd|"G"gfgd "D"efed|"E"c2B2 "A"A2:|
+||eg|"A"aAAA aAbA|aAAA agef|"G"gBBB gBaB|gBBB gfeg|
+"A"aAAA aAbA|aAAA agef|"G"gfgd "D"efed|"E"cdBc "A"A2|
+|eg|"A"aAAA aAbA|aAAA agef|"G"gBBB gBaB|gBBB gfeg|
+"A"aAAA "G"gAAA|"D"fAAA "A"e2ef|"G"gfgd "D"efed|"E"cdBc "A"A2||
+
+X: 46
+T:Drummond Castle
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:Jig
+K:Am
+"Am"ABA a3|age "G"g z2|"C"c2c edc|"G"Bdg dBG|
+"Am"ABA a3|age "G"g2g|"C"ege "G"deg|"Em"edB "Am"A2B:|
+"C"c2c cec|"G"d2d ded|"C"c2c edc|"G"Bdg dBG|1 "C"ccc edc|
+"G"deg "Am"a2g|"Em"ege deg|edB "Am"A2B:|2 "Am"ABA a3|
+age "G"g2g|"C"ege "G"deg|"Em"edB "Am"A2B||
+
+X: 47
+T:Jerry's Pipe Jig
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Jerry Holland
+R:Jig
+K:Am
+"Am"edB AAA|eee e^fg|edB cAc|"G"BGB Bcd|\
+"Am"edB AAA|ABd e2^f|"C"gab age|1 "G"dBd eg^f:|2 "G"dBd egg||
+|:"Am"eaa eaa|"D"dBd "G"egg|"Am"eag "D"^f3|"G"ege "Em"dBd|\
+"Am"eaa eaa|"D"dBd "G"egg| |1 "Am"eag "D"^f2d|"Em"edB "Am"BAA :|2  "G"g^fe dBd|"Em"egd Bcd||
+
+X: 48
+T:What'll Be King But Charlie
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:Jig
+K:Am
+"Am"c2B AGE|c2B AGE|c2E EDE|"G"G3 GAB|"C"c2d e2a|age ded|c2A "G"BAG|"Am"A3 A2B:|
+"C"c3 c2d|eag e2d|c2A c2d|e z2 "G"G2A|"C"c2d e2a|"G"age ded|"C"c2A "G"BAG|"Am"A3 A2B:|
+
+X: 49
+T:Roscommon
+T:Master Crowley's #2
+T:Crowley's
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+M:4/4
+L:1/8
+R:reel
+K:Edor
+"Em"EFGA B2GB|"D"AF~F2 dFAF|"Em"EFGA "(G)"B2dB|1 "D"AFDE "Em"FEE:|2 "D"A
+FDE "Em"FEd2||
+"Em"eB~B2 efge|"D"fa~a2 bfaf|"Em"eB~B2 efge|"D"fagf "(Bm)"efgf|
+"Em"eB~B2 efge|"D"fa~a2 bgaf|"G"~g3e "D"~f3e|"G"dBAF "D"EFGA||
+"Em"B2BA BcdB|"D"AF~F2 BFAF|"Em"EFGA B2dB|"D"AFDE "Em"FEED|
+"Em"dBBA B2dB|"D"AF~F2 "(Bm)"BFAF|"Em"EFGA "D"B2dB|"(Bm)"AFDE "Em"FEED||
+
+X: 50
+T:Josephine's
+T:Josefin's
+T:Josephine's Christening
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+M:3/4
+L:1/8
+C:Roger Tallroth
+S:Dervish - At the end of the Day
+R:waltz
+K:Gmaj
+"G"DGA|Bdc|BAG|D2 E|"C" C2 C/2C/2|EGF|E3|"D"D3|
+"G"DGA|Bdc|BAG|D2 E|"C"C2 C/2C/2| EFG|"D"A3|1 A3 :|2ABc|
+|:"G"dBd|g2f|"C"e3|"G"d3|"C"ced|cBA|"G"B>c B|"D"ABc:|
+|"Em"BAG|"D"F2G|"C"G3|CDC|"G"B,DG|"D"FEF|"C"G3|G3|
+T:Last Time
+|:"G"dBd|g2f|"C"e3|"G"d3|"C"ced|cBA|"G"B>c B|"D"ABc:|
+|"Em"BAG|"D"F2G|"C"G3|CDC|"G"B,DG|"D"FEF|"C"G3|
+CDC|"G"B,DG|"D"FEF|"G"G3|G3|
+
+X: 51
+T: The Job of Journeywork
+M:4/4
+R:
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:D
+fe| "D"dcAG FGAB | "C"=cABG "A"A2 fe | "D"d2 cA "G"BGAF | "Em"GBAF "Bm"DEFG |
+ "F#m"A3 F "A"GFEF | "Em"D2 DE "D"F2 "G"G2 | "A"A2 d2 cdef | "D"d2 d3/2c1/2 d2 :|
+|:de | "D"f2 ef gfef | dcAG "A"A2 de | "D"f2 ef "A"gfef | "D"d2 d3/2c1/2 d2 cd |
+ "A"eaaf g2 fe | "D"dcde f2 ed | dcAG FGAB | "C"=cABG "A"A2 fe |"D"d2 cA "G"BGAF |
+"Em"(3GAB AF "Bm"DEFG | "F#m"ABAF "A"GFEF | "Em"D2 DE "D"(3FEF "G"(3GFG | "A"A2 d2 cdef | "D"d2 d3/2c1/2 d2:|
+
+X: 52
+T:Peacock's Feather
+C:Arrangement by Rick Weidley
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:
+K:C
+e>d|:"Am"(3cBA "Em"(3BAG "Am"A2 A>B|(3cdc B>c "G"d2 c>d|"Am"e>a a>b a>g e>d| c2 E>F G2 e>d|
+"Am"(3cBA "Em"(3BAG "Am"A2 A>B|(3cdc B>c "G"d2 c>d|"Am"e>a a>b a>g e>d|c2 A2 A2 z2:||
+|: "G"B>d g>B "F"A>c a>g| a>g e>^c "G"d2 e>f| g2 e>g "Am"a>g e>d|(3cdc E>F "G"G2 e>d|
+"Am"(3cBA "Em"(3BAG "Am"A2 A>B|(3cdc B>c "G"d2 c>d|"Am"e>a a>b a>g e>d|c2 A2 A4:||
+
+X: 53
+T:Mason's Apron, The
+T:Mason Laddie
+T:Mason's Apron
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+M:4/4
+L:1/8
+R:reel
+K:Amaj
+|:ef|aAA2 ABAF|EFAc dcBA|dBB2 BcBA|Bcde fefg|
+aAA2 ABAF|EFAc dcBA|dcde fefa|A2 cB A2:|
+|:ed|cAeA fAeA|cAeA fedc|dBfB aBfB|defg afed|
+cAeA fAeA|EFAc dcBA|d2dc defa|A2 cB A2:|
+
+X: 54
+T:King George IV
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Trad?
+S:Deanta - Ready for the Storm - Track 1
+R:Reel
+K:Am
+T:Part A
+"Am"A2 A2 A3B | cBAB e3d | A3d e3A | dedB "G"BAGB |
+"Am"A2 Ad e3A | Bcd2 e3d | "G"B2 d2 gz2 e | "Em"dedB BAGB |
+"Am"A2 Ad e3A | Bcd2 e3d | A3d e3A | "G"dedB BAGB |
+"Am"A2 Ad e3A | Bcd2 e3d | "G"B2 d2 gz2 e | "Em"dedB BAGz |
+T:Part B
+"Am"e4 "D"A3B | cBAB e2 A2 | "Am"e4 "D"A2^ff | "G"gz ag ^fedf |
+"Am"e2 ee "Dsus"A2 AB | cBAc e2d2 | "G"B2d2 g3e | "Em"dedB BAGB |
+"Am"e2 e2 "D"A3B | cBAc e2 d2 | "Am"e2 e2 "D"A2 ^ff | "G"g2ag ^fedB |
+"D"a3^f "G"g3e | "D"^f2 fd B2 A2 | "G"B2 d2 "Em"g3e | dedB "G"BAGz |
+
+X: 55
+T:Chicago, The
+T:Chicago , The
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+R:reel
+K:Ador
+cded cAGE|(3GAG GE G2 cd|ecgc acgc|eaag eged|
+cded cAGE|(3GAG GE G2 cd|eaag (3efg ed|cA (3BAG A2zB:|
+|:cdef g2ef|g2zd BG G2|cdef gdBg|eaag aged|
+cdef ~g3e|~a3f g2 ag|~f3d eged|1cABG A3B:|2 cABG A2AB||
+
+X: 56
+T:Lively and Happy
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Klezmer Conservatory Band
+K:Am
+T: Intro
+"E"(3e_e=e fe dcBe ||
+T: Part A
+||"Am"ABc B2 ABc | e_ef =e2 _ecB | ABc B2 ABc | e_e "Dm"(3f=e_e "Am"=eE^"E"F^G|
+"Am"ABc B2 ABc | e_ef =e2 _ecB | ABc "E"B2 ABc | "Am"(A4A) Ace |
+K:ADor
+"Am"a2 a2 a2 ab | "G"(3gfe e e2 Ace |"Am"a2 a2 a2 ab | "G"(3gfe e "E"e2 EF^G|
+T: Goto end last time
+K:Am
+"Am"ABc B2 ABc | e_ef =e2 _ecB | ABc "E"B2 ABc | "Am"(A4A) Ade |
+T: Part B
+K:D
+|:"D"(f4f) efe | d A4 Ade | f{=gf}e f{gf}e f{gf}e f{gf}e | d A4 Ade |
+|"D"f4 "Dm"=f4 | "E"edc B2 Bcd | "A"ec"D"dB "A"cA"E"B^G |1 "A"(A4A) Ade :|2 A2 E2 "E"E2 E2 ||
+T: Last Time
+K:Am
+"Am"ABc B2 ABc | e_ef =e2 _ecB | ABc "E"B2 (7e_e=ef^fg^g | "Am"a2 z6 | "E"e2 z6 | "Am"A2z6 ||
+
+X: 57
+T:Smeceno Horo
+T:Bulgarian Dance Tune
+M:8/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+C:Traditional
+O:M9/8
+K:G
+"D"^cdd {=c/2d/2}=c2 {c/2d/2}B2 A|M:7/8 cBA {Bc}B2 AG|M:11/8 FFFD ED FF EED|M:7/8|1 cBA "G"B^G "D"A2:|2 FFD "A"E^C "D"Dz:||
+M:11/8 "D"FFFD ED FF EED|M:7/8 cBA "G"{Bc}B2 AG|M:11/8 "D"FFFD ED FF EED |M:7/8|1 cBA "G"B^G "D"A2:|2 FFD "A"E^C "D"Dz:||
+M:8/8 "D"{AB}A2 {AB}AD E=F ^GA|M:7/8 cBA "G"{Bc}B2 A=G|M:11/8  "D"FFFD ED FF EED|M:7/8|1 cBA "G"B^G "D"A2:|2 FFD "A"E^C "D"Dz:||
+M:11/8 "D"FFFD ED FF EED|M:7/8 FFD "A"E^C "D"DE|M:11/8 FFFD ED FF EED|[M:7/8] FFD "A"E^C "D"Dz:||
+M:9/8 "D"ABBA AG FFD|FGA BA AG F2|ABBA AG FFD|FGA BA AG F2:||
+M:9/8 "D"Bdc "G"{Bc}B2 D "D"AAG|F2 G2 FFG A2|Bdc "G"{Bc}B2 D "D"AAG|F2 G2 FFD "E"Ez:||
+M:9/8 "E"E=F^GA BE "F"cBA|Bc "E"BBA ^GA Bc|"F"d c2 B2 A cBA|"E"^GA "F"GG=F GD "E"Ez:||
+M:9/8 "F"d c2 B2 A cBA|"E"^GA "F"GGF GA Bc|d c2 B2 A cBA|"E"^GA "F"GGF GD "E"Ez:||
+
+X: 58
+T:Kathleen's Waltz
+M:3/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Konnarock Critters
+K:Bm
+|:"Bm"[B3f3] ([Bf][B2b2]) | [B3b3] fd2|"A"e3 fed|cAB c/2B/2 A2|"D"F4 A2|
+"G"B3 c d2|"A"c3 B {cB}A2|1 "F#"F4 A2:|2 "Bm"B4 A2|
+|:"G"G4 {Bc}B2|"Bm"F4 {Bc}B2|"A"efg f{gf}ed|cAB c/2B/2 A2|"G"G4 {Bc}B2|"Bm"F4 {Bc}B2|"A"efe dcA|1 "D"d4 A2:|2 "D"d6||
+
+X: 59
+T:Paddy Fahy's Jig
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:Gm
+"Gm"DGA BAB|cBc d2g|gfd Bcd|"F"cAG FDC|
+"Gm"DGA BAB|cBc d2g|gfd Bcd|1 "F"cAF "Gm"G3:|2 "Dm"cAF "G"GBd||
+"Gm"g3 "F"fga|"Gm"gfd Bcd|"F"BcA f3|"(Dm)"agf def|
+"Gm"g2a bag|"F"fdg fdc|"Dm"B2G Adc|1 AGF "Gm"GBd:|2 AGF "Gm"G3||
+%  ABC2Win Version 2.1 7/8/2002
+
+X: 60
+T:Sean Ryan's Jig
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Martin Hayes
+K:Dm
+"Dm"f3 edc|dcA GEC|"Dm"DED AcA|GAc dcA|
+fdf ece|dcA GEC|DED AcA|GEC D3|
+"G"f3 edc|dcA GEC|"Dm"DED AcA|GAc dcA|
+fdf ece|dcA GEC|DED AcA|GEC D3|| 
+|:"Dm"FED d3|edc AGE|"C"CEG c=Bc|CEG FED|
+"Bb"F2F GFG|"A"AGA cde|"Bb"dcA GEC|1"C"A,B,C "Dm"D3:|2 "C"A,B,C "G"D3||
+
+X: 61
+T:Red Haired Lass
+C:Rick Weidley
+M:6/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:
+K:Em
+D |: "Em"EBB BAB | dBA BAG | "Bm"FBB BAB | dBA BAF |
+"C"Gcc cde | edc cde | "D"fga def | ABd FGA :||
+|: "G"BAB dcB | "C"cde A2G | "D"FAc edc | "G"dBG "D"cAF|
+"G"BAB dcB | "C"cde g2e | "D"fga def |1 "G"gdB G2A :|2 "G"gdB G3 ||
+
+X: 62
+T:Thru The Window
+M:6/8
+C: Rick Weidley
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:
+K:D
+"D"fga gfe | "Bm"f2d B2A | "G"Bdg bag | "A"abf gfe |
+"D"fga gfe | "Bm"f2d B2A | "G"GBd gab | "A"fge "D"d3 : ||
+K:G
+"G"gab agf | "Em"efg fed | "C"cde dcB | "D"cBc A3 |
+"G"gab agf | "Em"efg fed | "C"cde dcB | "D"ABA "G"G3 :||
+
+X: 63
+T:Wind in the Trees
+C:Rick Weidley
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:
+K:C
+"Am"EGA2 AGAB| cBcd e2dc | "G"Bdd2 dedc | "(Em)"BAGD EGBA |
+"Am"A2AB A2AB | cBcd "G"edcd | "Am"eabg aegd | "G"edBA "Am"A2 A2 :|
+|: "Am"e2cA EAce | "G"d2BG DGBd | "C(Am?)"cBcd edcA | "G"Bcde dcBd |
+"Am"cBcd e2dc | "G"Bdeg edcd | "Am"eabg aegd | "G"eBdB "Am"A2A2:|
+
+X: 64
+T:Amelia
+M:3/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:D
+||:A,2|"D"D3 E D2|D2 F3 E|D2 F2 B2|A4 A2|
+"G"B3 G B2|"D"A2 F2 E2|"Bm"D2 B,3 B,|"G"B,4 A,2|
+"D"D3 E D2|D2 F3 E|D2 F2 B2|A4 A2|
+"G"B3 c d2|d2 e2 f2|"A"e3 c A2|A4:|
+|:a2|"D"f2 a3 f|a2 f2 d2|"A"e3 c A2|A4 fe|
+"Bm"d3 B d2|f2 d2 B2|"F#m"c3 A F2|F4 A2|
+"G"G2 B3 G|"D"F2 A2 d2|"A"e3 c A2|"D"d4 f|
+"G"g3 f e2|"D"a2 f2 d2|"A"d3 e c2|"D"d4:||
+
+X: 65
+T:Blackberry Blossom
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Planxty "After the Break"
+K:G
+ge|"G"dBAc BGGA|~B2 BA (3B^cd ge|dBAc BAGA|"Am"eaag a2 ge|
+"G"dABc BGGA|~B2 BA (3B^cd ge|dBAc BGGA|"Am"eaag agef||
+"G"~g2 gf gaba|"C"~g3 b "D7"agef|"G"~g2 gf gabg|"Am"eaag agef|
+"G"~g2 gf gaba|"C"~g3 b "D7"a2 ga|"G"bgaf "D7"gfed|"Am"eaag a2 z||
+
+X: 66
+T:Lucky in Love
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:G
+"G"G2 AG EGDE|G2 BG "Em"AE ~E2|"G"G2 AG EGAB|1 "C"cedc "D7"BGAF:|2 "C"cedc "G"BG G2||
+"G"gedg edBA|"Em"~B3 G AE ~E2|"G"~g3 d edBA|"D"(3B^cd ge "G"BG G2|
+"Em"eg ~g2 eB ~B2|"G"dBAB "Em"GE ~E2|"G"DB,DE GABc|"C"dedc "D7"BGAF||
+||"last time"z4||"C"dedc "G"BG G2||"or"z4||"C"dedc "D7"BGAF|"G"G2||
+
+X: 67
+T:The Dairymaid
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:D
+"D"AF ~F2 DFBD|AFDE "A7"FE ~E2|"D"AF ~F2 BFAF|"A7"~E2 DE FD D2|
+"D"AF ~F2 DFBD|AFDE "A7"FE ~E2|"G"~G3 E "D"~F3 D|"A7"~E2 DE "D"FD D2||
+"D"~d3 f ~a3 g|"Bm"fgef dB ~B2|"D"dfaf "G"~g2 ag|"A7"(3f^ga e=g "D"fd d2 |
+"D"dfaf "G"~g2 ag|"D"fgef "Bm"dB ~B2|"D"dfaf "G"g2 ag|"A7"faeg "D"fd d2 ||
+
+X: 68
+T:Slieve Russel
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Trad.
+K:G
+||:"Am"eAA Bcd|eaf "G"ged|"Am"edB cBA|"G"BAG "(Em)"Bcd|
+"Am"eAA Bcd|eaf "G"ged|"Am"edB "G"cBA|"Em"BAG "Am"~A3:|
+|:"Am"eaa "G"efg|"Am"agf "G"ged|"Am"eaa afg|"D"fed "G"~g3|
+"Am"eaa "G"efg|"Am"age "G"ged|"Am"edB "G"cBA|"Em"BAG "Am"~A3:||
+
+X: 69
+T:Macallum's
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Traditional
+K:C
+"Dm"ADD DEG|Add "C"c2e|"Dm"dcA "C"AGE|"(G)"c2A "C"GED|
+"Dm"ADD D/2E/2FG|Add "C"c2e|"Dm"dcA "G"AGE|"C"GED "Dm"D3:|
+|:"Dm"Add dcd|cde "C"e2d|"Dm"cAA "G"AGE|"C"c2e "G"dcA|
+"Dm"Add dcd|1 cde "C"e2d|"Dm"cAA "G"AGE|"C"GED "Dm"D2G:||
+|2 cde "Am"a2g|"Dm"edc "G"AGE|"C"GED "Dm"D2||
+
+X: 70
+T:Walter Sammon's Grandmother
+M:C|
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:reel
+D:Patrick Street 1.
+Z:id:hn-reel-34
+K:D
+FAAB A2dB|AFDE FE~E2|FAAB A2dB|AFEG FDD2:|
+|:FAdA BAdA|FAdA FE~E2|1 FAdA BAdA|F2EG FDD2:|2 dcBA BcdB|AFEG FDD2||
+
+X: 71
+T:Concertina Reel, The
+M:C|
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:reel
+D:Patrick Street 1.
+D:Noel Hill & Tony McMahon: I gCnoc na Grai.
+Z:id:hn-reel-33
+K:D
+A2FA BAFA|A2FA BAFA|B2 (3cBA BAcA|BAcA BAFA|
+A2FA BAFA|A2FA BAFE|FABc dedB|AFEF D2 (3EFG:|
+|:Ad~d2 Ad~d2|AddA BAFA|B2 (3cBA BAcA|BAcA BAFA|
+Ad~d2 Ad~d2|Addc d2dB|A2FA BcdB|AFEF D2 (3EFG:|
+
+X: 72
+T:Brendan McMahon's
+M:C|
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:reel
+D:Patrick Street 1.
+Z:id:hn-reel-35
+K:Edor
+B2~B2 BAFB|A2FA DAFA|B2~B2 BAFB|ABde fded|
+B2~B2 BAFB|A2FA DF~F2|~G3E F2dB|AFDE FE~E2:|
+|:~G3F GBdB|A2FA DAFA|~G3F GBdB|AFDE FEEF|
+~G3F GBdB|AF~F2 DF~F2|~G3E F2dB|AFDE FE~E2:|
+
+X: 73
+T:Geese in the Bog (2)
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:G
+f||:"G"gBB dBB|gBB dBB|gBB dBA|"Em"Bee e2f|
+"G"gBB dBB|gBB def|gfe dBA|"Em"Bee e2d:||
+|:"Am"e2a "G"e2g|"Am"e2a "G"ged|"Am"e2a "G"e2g|"Am"e2a "D"bag|
+"Am"aaa "G"g2g|"Am"e2a "G"ged|"Em"gfe dBA|"G"Bee "Em"e2d:||
+
+X: 74
+T:Cillian's Midnight Dip
+S: Lunasa - Redwood Track 5
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:reel
+K:F
+|:d3c d2fd | cAAA FAGF | Gz gf gbag | fdcA GABc |
+d3c d2fd | cAAA FAGF | Gz gf gbag |1 fdcA GABc :|2 fdcA AGG2||
+|:gf (3def g2 c'b | addd b2ab | gabg c'3b | (3gfe dc dggg|
+gf (3def g2 c'b | addd b2ab | c'3b ga (3bag |1 fdcA AGG2 :|2 fdcA AGAc||
+
+X: 75
+T:Spoil The Dance
+M:4/4
+R:reel
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Lunasa - Redwood Track 5
+K:Ador
+A3G ABBA | GBdB AGEG | A3G ABBA | GBdB AGEG |
+A3G ABBA | GBdB AGEG | A3G ABBA | GBdB A2 ef |
+ge (3eee gede | geee a2ba | ge (3eee gedB | GABG A2 ef |
+ge (3eee gede | geee a2ga | (3bag af g2 fd | eBdB AGEG |
+
+X: 76
+T:Tuttle's (The Windy Gap)
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Lunasa - Redwood Track 5
+K:Ddor
+A,DDE FEFG | AcGc Ad d2 | D3E FAdc | cAGE EDEC |
+A,DDE FEFG | AcGc Ad d2 | efed dcAc |1 cAGE EDEC :|2 cAGE ED DA||
+d3A Acc2 | AddA cAGA | d3A AccA | GEcE EDDA |
+d3A Ac2 | AddA cAde | efed dcAc |1 cAGE ED DA :|2 cAGE EDEC||
+
+X: 77
+T:Brian O'Lynn
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Patrick Street - 3 Irish times 3 - Track 3
+K:G
+"C"cBc A2G|EcB cde|"D"dcA A2G|Ade fed|
+"C"cBc A2G|EcB cde|"D"dcA AGE|GED D3:|
+:"C"g3 ged|cAB c2d|"E"e2a age|ed^c def|
+"C"g3 ged|cAB cde|"D"fed cAG|EAG A3:||
+
+X: 78
+T:The Woods of Old Limerick
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Patrick Street - 3 Irish times 3 - Track 3
+O:B
+K:G
+"G"B2G ABc|"D"dgg fdc|"G"B2G ABc|"D"ADD ABc|
+"G"B2G ABc|"D"dgg fdc|"G"B2G "D"Adc|1 "G"AGF G2A:|2 "G"AGF G2 a|
+|:"G"bgf "C"gag|"D"fd^c dga|"G"bgf "C"gab|"D"c'af "G"g2a|
+bag "D"afd|"G"gag "D"fdc|"G"B2G "D"Adc|"G"AGF G3:|
+
+X: 79
+T:The Dark Island
+M:3/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Celtic Fiddle Festival - Encore - Track 12
+R:Air
+K:Am
+DE |: "Am"A4 BA | "G"G4 AG | "C"E3D EG | "D"D4 GA | "G"B3A GA | Bd3 dd | "Em"B3d dB | "D"A4 DE |
+"Am"A4 BA | "G"G4 AG | "C"E3D EG | "D"D4 GA | "G"B3d dB | "D"A3D BA | "C"G6 |1 "G"G4 E2 :|2 "G"G3 AB c|
+|:"Em"d3 D D2 | "G"B3 D D2 | "C"E G3 E2 | "D"D4 GA | "G"B2 BAGA | Bd4 d | "Em"B3 d dB | "D"A4 E2|
+"Am"A4 BA | "G"G4 AG | "C"E3D EG | "D"D4 GA | "G"B3d dB | "D"A3D BA | "C"G6 |1 "G"G3 AB c :|2 "G"G3 G2E||
+
+X: 80
+T:Amhran Dochais & C\'ait Ni Dhuibhir
+T:Hope
+C:Traditional
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+N:First part by Osborn OhAimhirgin (early 20th century)
+N:Second part is a traditional munster song. (18th Century)
+N:Transcribe by R. S. Doiel.  Originally Heard on a Chieftain's CD
+N:I think ether Chieftains' 7 or 8
+R:Slow Air
+M:4/4
+L:1/8
+Q:1/4=60
+K:G
+BA | "G" G3 E "D" DE FD | "G" G2 GF GA BG | "C" c2 BA GE D/E/F | "Em" E6 BA |
+"G" G3 E "D"DE FD |"G" G2 GF GA Bc | d2 {d}e2 "D"B2 A2 |"G" G2 GF G2 Bd |
+"C" e2 c2 A2 Bc | "G"d2 {d}e2 BA G2  | "C" c2 BA GE D/E/F | "Em" E6 BA |
+"G"G3 E "D"DE FD | "G"G2 GF GA Bc | d2 {d}e2 "D"B2 AG | "G" G2 GF G4 :||
+% Segue to the second tune in Dochas
+"G" G4 "D"F2 D2 | "G" G2 GF GA BG | "C" c2 B2 c2  d2 | "D" ed d^c d2 B=c |
+"G" dg gf "C"g2 fe | "D" de dc "Bm" B2  AG | "Am" AB cA "D" d2 BA | "G"G2 A2 B2 Bc |
+"G" dg gf "C"g2 fe | "D" de dc "Em" B2  AG | "C" AB cA "D"d2 BA | "G" G2 F2 G4 ||
+
+X: 81
+T:Brian Boru's March
+T:Brian Boru March
+T:Tullinahaw
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+M:6/8
+L:1/8
+R:jig
+K:Amin
+T:Part A
+ed |: "Am"c3/2B/A Aed | cBA Adc | "G"B3/2A/G Gdc | BAG Ged |
+"Am"c3/2B/A Aed | cBA A3 | "(C)"Acd "G"e2 d |1 "Am"cBA Aed :|2 "Am"cBA A2 G |
+T:Part B
+|: "C"Acd e2 d | e2 d e3/2c/A | "G"GAB d2 B | d2 B d3/2B/G | "Am"Acd e2d |
+e2 d e3/2c/A | A3/2c/d "G"e2 d |1 "Am"c3/2B/A A2 G :|2 "Am"c3/2B/A A2 B |
+T:Part C
+|: "Am"c3/2B/A a2 a | c3/2B/A a2 a|"G"B3/2A/G g2 g | B3/2A/G g2 B |
+ "Am"c3/2B/A a2 a | c3/2B/A a2 b | "C"c'ba "G"gfe | "Am"dcB A2 B :|
+T:Part D
+|: "C"cde g2 e | g2 e g3/2e/c | "G"GAB d2 B | d2 B d3/2B/G |
+ "Am"cde g2 e | g2 e g3/2e/c |Acd "G"e2 d |1 "Am"c3/2B/A A2 B :|2 "Am"c3 /2B/A A2 ||
+
+X: 82
+T:Canyon Moonrise
+M:3/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:John McGann
+R:W
+D:The Celtic Fiddle Festival
+K:G
+T:A Part
+B,|"E"E4 ^GA|"G"B6|"C"B4 AB|"F"G2 E2 D2|
+"C"E2 G2 E2|"B7"D2 B,2 D2|"C"E6-|"B7"E4 zB,|
+"E"E4 ^GA|"G"B6|"C"B4 AB|"F"G2 E2 D2|
+"C"E2 G2 E2|"B7"D2 B,2 zG|"Em"E6-|E4 z2||
+T:B Part
+"C"e2 g2 a2|"D"b2 a2 f2|"Em"a2 g2 f2|"C"e4 zd|
+"G"e2 d2 B2|"Em"A2 G2 g2|"C"e6-|e4 ga|
+"D"b2 a2 f2|"Em"a2 g2 f2|"C"g2 f2 d2|"G"B4 AB|
+"C"e2 d2 B2|"F"A2 G2 g2|"F#m7"f6-|"B7"f4 gf|
+"Am"e2 d2 A2|"G"B4 gf|"C"e2 d2 B2|"F"A2 G2 D2|
+"C"E2 G2 E2|"B7"D2 B,2 zG|"Em"E6-|E6||
+
+X: 83
+T:Carolan's Concerto
+T:Mrs. Poer
+T:Mrs. Power
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+T:O'Carolan's Concerto
+M:4/4
+L:1/8
+R:reel
+K:Dmaj
+|:(3ABc|"D"d2 dd d2 cB|"A"ABGA F2A2|"A"E2A2"D"D2A2|"Bm"Bc"D"de dcBA|
+d2a2 fgaf|"A7"efge fgaf|ga"Bm"bg fdfa|"A7"gfed dcBA|
+"Bm"BdBd "G"gdgd|"D"Ad Ad fAfA|"G"GB"Em"GB efed|"A7"c2 Bc A3G|
+"F#m"FG"A7"AF EFGE|"F#m"FG"A7"AF GABG|"A"A2 "D"d2 fedc|d6 :|
+|:(3ABc|"D"d2"Em"b2 agfe|"D"d2"A"a2c2a2|"G"B2 gB ABcd|"A7"ecBA"D"d2 df|
+"A"edcB caaa|"G"Bggg "D"Afff|"A"edcB caaa|"G"Bggg bgbg|
+"D"afaf "A"edcB|cA"Em"BG AFGE|"D"DAFA DAFA|"Em"GEBE GEBE|
+"D"FAdc BAGF|"A7"EFGA Bcde|A2"D"d2 fedc|d6:|
+
+X: 84
+T:Give Me Your Hand
+T:Tabhair Do'm Do L�mh
+T:White, Orange, And Green
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+M:3/4
+L:1/8
+R:waltz
+K:Gmaj
+D2|"C"E2 G2 G2| "G"G4 D2|"C"E2 G2 G>A| "G"G4 D2|"C"E2 G2 G2| "G"G2 A2 B2 |"D"B2 e2 de| "Em"B4 AG|
+"Am"A2 A2 ed| "Em"B2 B2 dB|"Am"A2 AB AG| "D"E4 D2|"C"E2 G2 G2| "G"G4 D2| "C"E2 G2 G2| "G"G4 D2|
+"C"E2 G2 G2| "G"G2 A2 B2|"D"de dB AB| "G"G4 D2|"C"E2 G2 G2| "G"G2 A2 B2| "D"B2 e2 d2| "Em"B4 AG|
+"Am"A2 A2 ed| "Em"B2 B2 dB|"Am"A2 AB cd| "C"e4 dB|"G"d2 d2 e2| "Em"g4 ed |"C"e2 e2 (3geg| "D"a4 de|
+"G"g2 g2 de| "Em"g2 g2 de|"C"g2 g2 (3aga| b6| "G"b2 b2 b2| b4 ag|"D"a2 a g ab| a4 gf|
+"C"e3 f2 (3gfe| "G"d2 d2 g2|"Em"B3 d cB| "D"A4 (3cBA|"G"G2 GA Bd|"F" =f4 ed|"C"e2 e2 g2| "Am"e4 dB|
+"G"d2 d2 g2| "Em"B2 B2 dB|"D"A2 AB (3cBA| "G"G6 ||
+T:Last Time
+D2|"C"E2 G2 G2 | "G"G4 D2 | "C"E2 c2 A2 | "G" B6||
+
+X: 85
+T:Inisheer
+T:Inis Oirr
+T:Old Arm Chair, The
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+M:3/4
+L:1/8
+R:waltz
+K:Dmix
+T:Part A
+D2|:"G"B3A Bd | "Bm"B3A Bd | "C"E3B AB | "D"D3B AG |
+"G"B3A Bd | "Bm"B3A Bd | "C"G3B "D"A/2G/2F |1 "G"G3E DG :|2 "G"G3A Bd ||
+T:Part B
+"C"e3f ed | "G"B3A Bd | "EM(C)"ef ed "(Bm)"B/2c/2d |"Em"e3A Bd |
+"C"e3f ed | "G"B3A Bd | "D"G3B A/2G/2F |"G"G3A Bd |
+"C" e3f ed | "G"B3A Bd | "Em(C)"gf ed "(Bm)"B/2c/2d |"Em"e3A Bd |
+"C" e3f ed | "G"B3A Bd | "D"D3B A/2G/2F | "G"G6 ||
+
+X: 86
+T:Lord Inchiquin
+M:3/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Turlough O'Carolan
+R:Air
+O:Ireland
+K:D
+T:Part A
+A2|"D"d2 de fe|d2 ed cB|A2 F2 A2|f4 e2|
+d2 ed cB|A2 G2 F2|"G"G2 BA GF|"A"E4 ag|
+"D"f3e d2|d2 c2 B2|A2 F2 A2|f4 e2|
+d2 ed cB|Ad3 F2|"A"E4 D2|"D"D4:|
+T:Part B
+|:A2|"A"AB cd e2|e2 d2 e2|"D"f2 d2 f2|"A"e4 d2|
+"D"de fg a2|"G"a2 b2 g2|"D"f3d f2|"A"e4 d2|
+"D"de fg a2|"G"a2 b2 g2|"D"f3g "A"e2|"D(Bm)"d4 f2|
+"Em"gf e2 e2|"E"e2 f2 d2|"A"c2 d2 B2|A2 a2 g2|
+"D"f3e d2|"G"d2 c2 B2|"D"A2 F2 A2|"G"g4 fe|
+"D"d2 ed cB|Ad3 F2|"A"E4 D2|"D"D4:|
+
+X: 87
+T:Morgan Magan
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:O'Carolan
+R:Air
+K:G
+D2|"G"D2G2 G2AB|cBAG Bcd2|"C"e2A2 "A"A3G|"D"GFEF D2EF|
+"G"G3A GFEF|"C"G2FE "G"D2G2|"D"FGA2 "A"A3G|"D"F2EF D2d2|
+"G"G2B2 "D"AGA2|"G"G6B2|"C"c3B ABc2|"G"d4 "C"e4|
+"G"d2B2 "Am"cBAG|"D"AGFE D2EF|"G"G2B2 "D"AGAF|"G"G6dc|
+"G"B2d2 d2ef|g2G2 Bcdf|g2G2 Bcd2|"C"edcB "D"A2c2|
+"G"BABc d2B2|"C"e2c2 "G"d2B2|"Am"c2A2 "G"B2G2|"D"F2D2 D3D|
+"C"E2C2 C3D|E2C2 C3E|"D"F2D2 D2AG|FGEF D2Bc|
+"G"d2B2 "C"edcB|cBAG "D"AGFE|"G"D2G2 "D"AGAF|"G"G8|
+T:Last Time
+"G"d2B2 "C"edcB|cBAG "D"AGFE|"G"D2G2 "D"AGAF|"G"G8|
+
+X: 88
+T:Planxty Fanny Power
+M:3/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Turlough Carolan
+R:planxty
+K:G
+T:Part A
+D2|"G"G4D2|G3 AB2|"C"c4B2|A4G2|"D"F4E2|D3 ED2|F4G2|A4c2|
+"G"B3 AG2|B3 cd2|"C"e4A2|A4G2|"D"F3 ED2|D2G2F2|"G"G6|G4:|
+T:Part B
+|:Bc|"G"d2B cd2|d2B cd2|G3 AG2|G2B2d2|"C"e2c de2|e2c de2|"D"A3 BA2|A2B2c2|
+"G"B3 cd2|"C"e2f2g2|"D"f2g2a2|d4c2|"G"B3 AG2|"D"B4A2|"G(C)"G6|"G"G4:|
+
+X: 89
+T:Planxty Hewlett
+T:A Fine Toast To Hewlett
+T:Slainte Bhreagh Hiulit (Hewlett)
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+M:3/4
+L:1/8
+R:waltz
+K:Dmaj
+T:Part A
+A2|"D"D2 D2 FG|"A"AB c2 A2|"D"d2 f2 fg|fe d3B|
+A2 F2 F2|"G"G2 GBAG|"D"AF D2 D2|D4:||
+T:Part B
+|:AB | "D"A2 D2 AB|A2 D2 AB|A2 d2 d2|dc BA GF|
+"G"G2 G,2 GA|G2 G,2 GA|G2 GA BG|"D"AF D3E|
+FE F2 G2|"A"AB c2 A2|"D"fe fg ag|fe d3B|
+A2 F2 F2|"G"G3A BG|"D"AF D2 D2|D4:||
+
+X: 90
+T:Planxty Irwin
+T:Colonel John Irwin
+M:6/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+R:jig
+K:D
+T:Part A
+|:A|"D"d2 c "G"Bcd|"D"A2 G "(Bm)"FED|"G"G2 E "D"FGA|"A"C2 D E2 A|
+"D"d2 c "G"Bcd|"D"A2 G "(Bm)"FED|"G"G2 E "D"FGA|"A"D2 C "D"D2:|
+T:Part B
+|:A|"D"d2 d dcd|"A"e2 e ecA|"D(Bm)"f2 f "E"e2 d|"A"c2 B ABc|
+"D"d2 c "G"Bcd|"D"A2 G "(Bm)"FED|"G"G2 E "D"FGA|"A"D2 C "D"D2:|
+
+X: 91
+T:Si Bheag Si Mhor
+M:3/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Turlough Carolan
+R:planxty
+Z:Probably the first tune composed by Carolan.  Si Bheag and Si Mhor
+Z:are two hills in Co. Leitrim associated in the local folklore with two
+Z:bands of fairies continually at war with each other.
+K:D
+T:Part A
+de|"D"f3 ed2|d3 ed2|"G"B4A2|"D"F4A2|"G"BAB cd2|"A"e4de|"D"f4e2|d4f2|
+"G"B4e2|"D"A4d2|F4"A"E2|"D"D4f2|"G"B4e2|"D"A4dc|"(A)"d6-|"D"d4:|
+T:Part B
+de|"D"f3 ed2|ede fa2|"G"b4a2|"D"f4ed|"A"e4a2|"D"f4e2|"G"d4B2|B4BA|
+"D"F4"A"E2|"D"D4f2|"G"B4e2|"D"A4a2|"G"bag fed|"A"e4dc|"D"d6|d4:|
+
+X: 92
+T:South Wind
+M:3/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:Air
+O:Ireland
+K:G
+T:Part A
+c2|:"G"B3 AG2|B3 cd2|"D"A4A2|A4c2|
+"G"B3 AG2|"C"E3 D"E"E2|"G"G4G2|G4:|
+T:Part B
+|:d2|"G"g4g2|"C"g3 fe2|"G"d4d2|"(D)"d4c2|
+"G"B3 AG2|[1 B3 cd2|"D"A4A2|A4:|[2 "D"Ac3F2|("C"G6|"G"G4)|]
+
+X: 93
+T:Taco Bell Canon
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:D
+|:"D"f8 | "A"e8 |"Bm"d8 | "F#m"c8 | "G"B8 | "D"A8 | "G"B8 | "A"c8 :||
+
+X: 94
+T:Andy De Jarlis
+M:6/8
+R:J
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Altan: Island Angel
+C:Mike McDougall
+K:E
+EGB EGB|EGB c2B|EGB EGB|=DFA B2A|
+EGB EGB|EGB c2a|gfe Bcd|1 efe e3:|2 efe ez a
+|:g2e efg|aba c2e|f2f fge|dfB Bdf|
+g2e efg|aba c2e|fgf Bcd|1efe ega:|2 efe e3||
+
+X: 95
+T:Ingonish
+M:6/8
+R:J
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Altan: Island Angel
+C:Mike McDougall
+K:D
+A|:Bee efg|faf dBA|Bee efg|fdc d2A|
+Bee efg|faf dBA|B2B Bcd|AGF E2A:|
+|:BEE BEE|FEF DFA|BEE BEE|FED E2c|
+BEE BEE|FEF DFA|B2B Bcd|AGF E2A:||
+
+X: 96
+T:Mrs. McGhee
+M:6/8
+R:J
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Altan: Island Angel
+C:Mike McDougall
+K:G
+|:G2G BGB|dBG Ge=f|cA=F FEF|c2d cBA|
+G2G B2B|dBG Ge=f|cBc edc|dBG G2D:|
+|GBd gab|agf g2B|cA=F FEF|c2d cBA|
+GBd gab|agf g2B|cBc edc|dBG G2D|
+GBd gab|agf g2B|cA=F FEF|c2d cga|
+bgb afa|gfe d2B|cBc edc|dBG G2D||
+
+X: 97
+T:Behind the Haystack
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:jig
+Z:id:hn-jig-63
+K:D
+"D"d2e fdB|d2e fdB|"A"AFE ~E3|AFE EFA|
+"Bm"d2e fdB|d2e fdB|"D"AFD ~D3|AFD DFA:|
+|:"G"~B3 BAF|"D"ABc dcB|"A"AFE ~E3|AFE EFA|
+"G"~B3 BAF|"D"ABc dcB|AFD ~D3|1 AFD DFA:|2 AFD D2f||
+|:"G"~g3 "D"faf|"A"ede "D"fdB|"A"AFE ~E3|AFE E2f|
+"G"~g3 "D"faf|"A"ede "D"fdB|AFD ~D3|1 AFD D2f:|2 AFD DFA||
+
+X: 98
+T:Blackbird II
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Sharon Shannon
+K:G
+"G"dGB d2 GBd|"C"gce g2 age|"G"dGB d2 GBG|"D"AGGE DEGB|
+"G"dGB d2 GBd|"C"gce g2 age|"G"dGBG "D"AGED|1 "G"EGG G2 DGB:|2 "G"EGG G2 dBd||
+"G"bdb b2 dbd|"D"ada a2 dad|"G"bdb b2 dbd|"C"c'dc' c'2 dc'd|
+"G"bdb b2 dbd|"D"ada a2 dad|"G"bdb b2 dbd|"C"c'dbd adge||
+
+X: 99
+T:Blackbird I
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Sharon Shannon
+K:D
+"D"F2A ABA|"G"G2B BAG|"D"F2A A2F|"A"E2F D2E|
+"D"F2A ABA|"G"G2B BAG|"A"e2d cBA|1 "D"d2A B2A:|2 "D"d2A d2e||
+f2A f2A|"G"g2B g2f|"A"e2d c2d|e2d cBA|
+"D"f2A f2A|"G"g2B g2f|"A"e2d cde|1 "D"d2A d2e:|2 "D"d2A B2A||
+
+X: 100
+T:Boffyflow and Spike
+M:4/4
+L:1/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Van Morrison
+R:R
+D:The Chieftans; A Celebration
+K:A
+"E"(V)G3A Bcde|dc"D"BA BAGE|"E"G3A Bcde|dc"D"BA d2D2|
+"E"G3A Bcde|dc"D"BA BAGE|"E"GABc BAGE|DB,"D"D2 "E"E4:|
+K:D
+"E"e2ef edBA|Bdef e2ef|"C"gfed edBA|"D"ABde d4|
+"E"e2ef edBA|Bdef e2ef|"C"gfed edBA|BA"D"G2 "E"E4:|
+K:G
+"C"g3a gece|gfga gec2|"F"c3B ABcd|"G"e2de dBG2|
+"C"g3a gece|gfga gec2|"F"c3B ABcd|"C"e4{fe} "B"^d4||
+K:A
+T:Last time
+"E"gedf eBAd|BA"D"=G2 "E"E4||
+
+X: 101
+T:Brenda Stubbert's
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Jerry Holland
+R:R
+K:ADor
+"Am"A2BA GAAB|A2Bd edde|"Em"G2BA BGGB|"G"BcBA BGGB|
+"Am"A2BA GAAB|A2Bd edda|"Em"gedB GABd|"G"(3egedB eAAG:|
+"Am"(3AAAa2 (3AAAg2|"Dsus2"Aage ageg|"Em"G2BA BGGB|"G"BcBA BGGB|
+"Am"(3AAAa2 (3AAAg2|"Dsus2"Aage agea|"Em"gedB GABd|"G"(3ege dB eAAG|
+"Am"(3AAAa2 (3AAAg2|"Dsus2"Aage ageg|"Em"G2BA BGGB|"G"BcBA BGGB|
+"Dsus2"A2BA GAAB|"Em"A2Bd edda|"F"gedB GABd|"G"(3ege dB eAAG||
+
+X: 102
+T:Carpathian Tune
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:Am
+"Am"A2 A2 e2 e2|^d2 d2 e2 =d2|cB A2 B2 c2|"E"B4 B4|
+"Am"A2 A2 e2 e|^d2 d2 e2 =d2|cB A2 "E"B2 c2|"Am"A4 A4:|
+"Dm"d2 A2 d2 A2|"Am"cB A2 cB A2|"Dm"d2 A2 d2 A2|"Am"cB A2 A4|
+"Dm"d2 A2 d2 A2|"Am"cB A2 A2 B2|cB A2 "E"B2 c2|"Am"A4 A4:|
+
+X: 103
+T:Plaka
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Trad.
+R:R
+K:Am
+"Am"E2 A2 c2 e2|^dfe=d cB A2|E2 A2 c2 e2|"E"^dfed e2 e2|
+"Am"E2 A2 c2 e2|^dfe=d cB A2|"E"Bcdf edcB|"Am"AE^F^G A2 A2:|
+|:"Dm"a2 g2 "Am"f2 e2|"E"^dfe=d "Am"cB A2|"Dm"a2 g2 "Am"f2 e2|"E"^de^f^g "Am"aefg|
+"Dm"a2 g2 "Am"f2 e2|"E"^dfe=d "Am"cB A2|"E"Bcdf edcB|"Am"AE^F^G A2 A2:|
+|:"Am"e^dcd cB A2|"Dm"f2 f2 f2 f2|"E"Bcdf edcB|"Am"ABcd e2 e2|
+e^dcd cB A2|"Dm"f2 f2 f2 f2|"E"Bcdf edcB|"Am"AE^F^G A2 A2:|
+|:"Am"e2 e2 a2 e2|"Dm"fe d2 "Am"ed c2|"E"Bcdf edcB|"Am"ABcd e2 e2|
+e2 e2 a2 e2|"Dm"fe d2 "Am"ed c2|"E"Bcdf edcB|"Am"AE^F^G A2 A2:||
+
+X: 104
+T:Dusty Windowsill, The
+T:Austin Barratts
+M:6/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+C:Sean Harling
+R:jig
+Z:id:hn-jig-91
+K:Ador
+"Am"A2B cBA|eAB cBA|"G"~G3 EGG|DGG EGG|
+"Am"A2B cBA|e2d efg|"D"age "Em"dBe|1 "Am"ABA A2G:|2 "Am"ABAA2g||
+|:"Am"aga bge|def "G"g2f|~g3 gfe|dBA ~G3|
+EGG DGG|EGG ABc|"Em"Bed "G"BAG|1 "Am"BAG A2g:|2 "Am"BAG A2G||
+|:"Am"~A3 gAf|~A3 edB|"G"~G3 eGd|~G3 edB|
+"Am"~A3 gAf|ABA efg|"D"age "G"dBe|"Am"ABA A2G:|
+
+X: 105
+T:Germans III
+M:4/4
+K:D
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+FG|:"D"ABAF DE (3FED|"G"+D2B,2+ +D2B,2+ "D"+D2A,2+ DE|FEFA BAFD|"A"E2 ED E2 FG|
+"D"ABAF DE (3FED|"G"+D2B,2+ +D2B,2+ "D"+D2A,2+ DE|FEFD "A"EDEF|1 "D"D2 D2 D2 FG:|2 "D"D2 D2 D2 FA|
+|:"G"B2 BA BcdB|"D"A2 AB AFDF|AFAF BAFD|"A"E2 ED E2 FG|"D"ABAF DE (3FED|
+"G"+D2B,2+ +D2B,2+ "D"+D2A,2+ DE|FEFD "A"EDEF|1 "D"D2 D2 D2 FA:|2 "D"D2 D2 D2 FG||
+
+X: 106
+T:Germans I
+M:4/4
+K:D
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+FG|:"D"AFAd f2 f2|AFAd f2 ef|"G"gfed c2 d2|"A"(3efe (3dcB A2 FG|
+"D"AFAdf2 f2|AFAd f2 ef|"G"gfed "A"cABc|1 "D"d2 f2 d2 FG:|2 "D"d2 f2 d2 d2||
+|:"D"fgaf d2 d2|fgaf d2 ef|"G"gfedc2 d2|"A"(3efe (3dcB A2 A2|
+"D"fgaf d2 d2|fgaf d2 ef|"G"gfed "A"cABc|1 "D"d2 f2 d2 d2:|2 "D"d2 f2 d2 FG||
+
+X: 107
+T:Germans II
+M:4/4
+K:D
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+FG|:"D"ABAF A2 de|fgfe d2 A2|"G"BcdB "D"ABAF|"A"G2 E2 E2 FG|
+"D"ABAF A2 de|fgfe d2 A2|"G"BcdB "A"ABAG|1 "D"F2 D2 D2 FG:|2 "D"F2 D2 D2 g2|
+|:"D"fefg afde|fefg a2 f2|"G"gabg "D"fgaf|"A"edef e2 FG|
+"D"ABAF A2 de|fgfe d2 A2|"G"BcdB "A"ABAG|1 "D"F2 D2 D2 g2:|2 "D"F2 D2 D2 FG||
+
+X: 108
+T:Germans II - A
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Traditional
+R:Reel
+K:G
+B,C|:"G"DEDB, D2 GA|BcBA G2 D2|"C"EFGE "G"DEDB,|"D"C2 A,2 A,2 B,C|
+"G"DEDB, D2 GA|BcBA G2 D2|"C"EFGE "D"DEDC|1 "G"B,2 G,2 G,2 B,C:|2 "G"B,2 G,2 G,2 c2|
+|:"G"BABcdBGA|BABc d2 B2|"C"cdec "G"BcdB|"D"AGAB A2 B,C|
+"G"DEDB, D2 GA|BcBA G2 D2|"C"EFGE "D"DEDC|1 "G"B,2 G,2 G,2 c2:|2 "G"B,2 G,2 G,2 B,C||
+
+X: 109
+T:High Part of the Road
+M:6/8
+K:G
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+A|"G"BAB cAc|d2d cAG|"D"F2D DED|A,DG FGA|
+"G"BAB cBc|d^cd d2e|"D"fed cAF|1 "G"AGF G2A:|2 "G"AGF GBd|
+|gfg def|gfg bag|"D"fef dfa|afd cAF|
+"G"gfg def|gfg bag|"D"fed cAF|1 "G"AGF GBd:|2 "G"AGF G3||
+
+X: 110
+T:The Tipsy Sailor
+M:6/8
+K:Em
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+D|"Em"E2B BAB|E2B BAB|"D"d2d dcB|"Bm"A2D DEF|"Em"E2B BAB|E2B BAB|"D"AdB AFA|1 "Bm"B2E "Em"E2D:|2 "Bm"B2E "Em"E3|
+|"Em"eBe gfe|Bef gfe|"D"fdA FAd|"Bm"f3 agf|"Em"eBe gfe|Bef gfe|"D"fef "Bm"gfg|"Em"bge e3|
+|"Em"eBe gfe|Bef gfe|"D"fdA FAd|"Bm"f3 agf| "Em"gba gfe|"D"fag fed|"Bm"(3Bcd B AFA|"Em"BEE E3||
+
+X: 111
+T:Out on the Ocean
+M:6/8
+K:A
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+F|"A"E2 c cBA|cec BAB|"D"AFE A2 B|"E"c2 c BAF|
+"A"Ecc cBA|cec BAB|"D"AFE"E"A2 B|1 "A"cAA A2 F:|2 "A"c2 A Ace|
+|:"D"f2 f fec|fgf fec|"A"e2 e efg|agf ecB|
+A2 B c2 e|"D"(3fga f ecB|"E"AFE A2 B|1 "A"cAF Ace:|2 "A"cAF A3||
+
+X: 112
+T:Highland Laddie
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:A
+"A"A3 B c2 e2|dcBA c3 c|"E"c2 B2 B2 AB|c2 B2 B4|
+"A"A3 B c2 e2|dcBAc3 B|"F#m"A2 F2 F2 EF|1 "E"A2 F2 F2 E2:|2 "F#m"A2 F2 F4|
+|:"D"f2 af "A"e2c2|"E"dcBA "F#m"c3 c|"E"c2 B2 B2 AB|c2 B2 B2 A2|
+"D"f2af "A"e2 c2|"E"dcBA "F#m"c3 B|"E"A2 F2 F2 EF|1 A2 F2 F2 E2:|2 "Fm"A2 F2F4||
+
+X: 113
+T:Mary's Wedding
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:D
+"D"A,2 A,A, A,2B,2| "Bm"D2E2 F3F|"G"E2 D2 B,2 D2|"A"F2 E2 F2 A2|
+"D"A,2 A,A, A,2B,2| "Bm"D2E2 F3F|"Em"E2 D2 B,2 G,2|"A"A,4 A,4:|
+"Bm"A4 A2B2| "D"A2G2 F3F|"Em"E2 D2 B,2 D2|"A"F2 E2 F2 A2|
+"Bm"A4 A2B2| "D"A2G2 F3F|"Em"E2 D2 B,2 G,2|"A"A,4 A,4:||
+
+X: 114
+T:Julia Delaney
+M:C|
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:reel
+D:Paddy Glackin: Ceol ar an bhFidil le Paddy Glackin.
+D:Bothy Band 1975.
+Z:id:hn-reel-78
+K:Ddor
+"Dm"dcAG ~F3D|"Am"~E3C "Dm"~F3A|dcAG FDFG|"Am"Addc "Dm"defe|
+dcAG ~F3D|"Am"~E3C "Dm"~F3A|dcAG FDFG|"Am"Addc "Dm"d2de:|
+|:"Dm"fede fagf|"C"ecgc acgc|"Dm"fede fagf|"Am"edcB "Dm"Adde|
+fede fagf|"C"ecgc acgc|"Dm"fedf edce|"Am"Addc "Dm"d2de:|
+
+X: 115
+T:Janet Munson's
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Oliver Schroer
+S:Celtic Dance
+K:G
+|:"G"B3G AGGB|d2dc Bdde|"C"g2 (3gfe "G"dBGB|"C"cBAG "D"EDDG|"G"B3G AGGB| dedc Bdde|"C"g2 (3gfe "G"dBGB|"C"cBAG "D"A4:|
+|:"Em"GBAF GEED|"D"FAAG FEDF|"Em"EBef "C"g3e|"G"dBGA "D"BAAD|"Em"GBAF GE (EDE|"D"D2 FA BAFD|"Em"Eeed "G"(3B^cd AF|"C"GBAF "D"D4:|
+
+X: 116
+T:Saddle the Pony
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Traditional
+R:j
+K:G
+"G"GBA G2B|def gdB|GBA G2B|"D"AFD AFD|
+"G"GBA G2B|def gfg|"Em"e/2f/2ge "D"dBA|"G"BGG G3:|
+|:"Em"e2e edB|def gfg|e2e edB|"D"dBA ABd|
+"Em"efe edB|def gfg|"C"e/2f/2ge "D"dBA|"G"BGF G3:||
+
+X: 117
+T:Kesh Jig
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Traditional
+R:J
+K:G
+"G"G3 GAB|"D"ABA ABd|"G"edd gdd|edB "D"dBA|
+"G"GAG GAB|"D"ABA ABd|"G"edd gdB|1"D"AGF "G"G2D:|2 "D"AGF "G"G2A|
+|:"G"B3 dBd|"C"ege "G"dBG|B3 dBG|"D"ABA AGA|
+"G"B3 dBd|"C"ege "G"dBd|gfg "D"aga|"G"bgg g3:||
+
+X: 118
+T:LITB
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:E. Haskell
+R:J
+K:G
+D|"G"G2B dBG|"Am"A2c e2d|"G"^cdg e2=c|"D"A3A2 D|
+"G"G2B dBG|"Am"A2c e2d|"G"^cdg "D"e=cA|"G"G3 G2:|
+|"B"BcB ABA|GAG F2F|"Em"EFG ^GA^A|B3 B3|
+"A"ABA GAG|FGF E2E|"D"FG^G AfA|d3 d2D|
+"G"G2B dBG|"Am"A2c e2d|"G"^cdg e2=c|"D"A3A2 D|
+"G"G2B dBG|"Am"A2c e2d|"G"^cdg "D"e=cA|"G"G3 G2D||
+
+X: 119
+T:Khosid Wedding Dances
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Musik'as: The Lost Jewish Music of Transylvania
+R:R
+K:F
+cde|:"F"f2 c2 f2 g2|a2 a3 ^fga|b2 a2 g2 f2|a2 fa gfae|
+f2 c2 f2 g2|a2 a3 ^fga|b2 a2 g2 e2|1 fcAc fcde:|2 fcAc fef^g||
+"Dm"a2 a2 (3^gag e2|f2 f2 e2 e2|f2 f2 e2 ^c2|def^g aefg|
+a2 a2 (3^gag e2|f2 f2 e2 e2|f2 f2 ed^ce|1 d2 d3 ef^g:|2 d2 d3 =cde||
+
+X: 120
+T:Lost in the Loop
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Liz Carroll
+S:Lost in the Loop
+K:C
+|:"C"CDEF "Dm"DA,A,F | "Em"EFGA "F"FDD^F | "G"GABc dcBd | dDcD BAG A, | "C"CDEF "Dm"DA,A,F | "Em"EFG
+A "F"FDD^F | "G"GABc d2 GF |1 "C"DA,CD "Dm"FDDD :|2 "C"DA,CD FDDA||%
+|: "Dm"dDDc "G"BG ~G2 | "Dm"ADDF "C"ECCD | "Dm"dDcD "G"BAG A, | "C"CDEF DA,A,D | "Dm"dDDc "G"BG ~G2 | "Dm"A
+DDF "C"ECCE | "G"GABc d2 GF |1 DA,CD FDDD :|2 DA,CD FDDA||
+|: "Dm"d2 dd gadc | d2 dc AGAc | "G"dGGd GGdG | "C"CDEF DA,A,D | "Dm"d2 dd gadc | d2 d
+c AGAc |1 "G"dDcD GABc | "C"dD (3DDD "G"A,DDA :|2 "G"decA G2 (3ABc | "C"(4dcBc C "Dm"A,DDD ||
+"G"decA G2 (3ABc | "C"(4dcBc D ADDC | "Dm"D8 || % last time only
+
+X: 121
+T:Tripping Up the Stairs
+T:Tripping Upstairs
+M:6/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+R:jig
+Z:id:hn-jig-47
+K:D
+"D"FAA "G"GBB|"D"FAd fed|"A"cBc ABc|"D"dfe "A"dAG|"D"FAA "G"GBB|"D"FAd f
+ed|"A"cBc ABc
+|1 "D"dfe "A"d "D"2A:|2 "D"dfe d2c||
+|:"Bm"dBB fBB|faf fed|"A"cAA eAA|efe edc|"Bm"dBB fBB|faf fed|"A"cBc ABc|
+|1 "D"df"A"e d "D"2c:|2 "D"dfe "A"d2 "D"A||
+
+X: 122
+T:Old Man Dillon
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:jig
+D:Terry Bingham
+Z:id:hn-jig-116
+K:Ador
+"Am"EAA ABd|edB c2A|"G"BGG DGG|Bdc BAG|"Am"EAA ABd|ede a2g|"C"edc "G"Bcd
+|1 "Am"ecA A2G:|2 "Am"ecA A2a|
+|:"C"gef g2a|gef ged|"G"BGG DGG|Bdc BAG|1 "C"gef g2a|"Am"gef ged|edc "G"Bcd|"Am"ecA A2a:|
+||2 "Am"EAA ABd|ede a2g|"C"edc "G"Bcd|"Am"ecA A2G||
+
+X: 123
+T:Humours of Ennistymon, The
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:jig
+Z:id:hn-jig-142
+K:G
+A|"G"~B3 GBd|"C"cBc ABc|"G"~B3 GBd|"C"cAG "D"FGA|"G"~B3 GBd|"C"cBc ABc|"G"ded "C"cAF|"D"AGF "G"G2:|
+|:e|"D"~f3 fed|cAG FGA|"G"dgg gfg|"C"afd "D"d2e|~f3 fed|cAG FGA|"G"~B3 "C"cAF|"D"AGF "G"G2:|
+d|"G"gdB gdB|"C"ecA ecA|"G"~B3 GBd|"C"cAG "D"FGA|"G"gdB gdB|"C"ecA ecA|"G"~B3 GBd|"D"cAF "G"G2d|
+ "G"gdB gdB|"C"ecA ecA|"G"~B3 GBd|"C"cAG "D"FGA|~"G"B3 GBd|"C"cBc ABc|"G"ded cAF|"D"AGF "G"G2||
+%  ABC2Win Version 2.1 11/3/98
+
+X: 124
+T:Maids of Mitchelstown
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Bothy Band
+K:Dm
+||:"Dm"DEFG "Am"E4|"Dm"DEFG "Am"EG=BG:||%Guitar Vamp
+||"Dm"F3 D "Am"E4|"Dm"DFED "Am"CA, A,2|"Dm"F3 D "Am"E3 F|"C"GAGE "Am"(3FED D2|
+|"Dm"F3 D "Am"E4|"Dm"DFED "Am"CA, A,2|"Dm"F3 D "Am"E3 F|"C"GAGE "G"(3FED D2|
+|"C"C2 AG G4|"D"AG^FA "Gm"G4|"C"ECDG, "Am"C3 C|"G"=B,CDE A,D D2|
+|"C"C2 AG G4|"D"AG^FA "Gm"G4|"C"ECDG, "Am"C3 C|"G"=B,CDE "Am"A,CEC|
+|:"Dm"DEFG "Am"E4|"Dm"DEFG "Am"EG=BG:|%Guitar Vamp
+|:"Dm"D2 AG "C"EG G2|"Dm"A2 GA "Am"cAGE|"Dm"D2 AG "C"EG G2|"Am"A2 GE "C"ED D2|
+"Dm"D2 AG "C"EG G2|"Dm"A2 GA "Am"cAGE|"Dm"D2 AG "C"EG G2|"Am"A2 GE "G"ED D2|
+"C"EGA=B c2 =BG|"Dm"Adde "Bbm7"f2 ed|"Am7"cAGE "Am"F3 G|"C"AcGE "G"ED D2 |
+"C"EGA=B cEGc|"Dm"^FAde "Bbm7"=f2 ed|"Am7"cAGE "Am"F3 G|"C"(3A=Bc (3Bcd 
+"Am"cAGE:||
+
+X: 125
+T:The Mason's Men
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:John Williams
+S:Solas
+K:D
+"G"dGBd "A"cdeg|"D"a2 ge fdec|"G"dGBd "A"cdeg|"D"fdec dgfe|"G"dGBd "A"cd
+eg|"D"a2 ge fdec|"G"dGBd cdeg|"A"fffe d2eg|
+|:"Bm"fBBB FBdB|"A"ceae fceg|"G"fBBB FBdB|1"A"cBcd B3 e:|2 "A"cBcd B3 c ||
+
+X: 126
+T:The Flowing Bowl
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:D
+|"A"gfed cAAB|(3cBA dc cAAf|gfed cAAA|fage "D"d2 ef|"A"gfed cAAB|(3cBAdc cAAf|gfed cAAA|fage "D"d2 (3ABc|
+d2 fd adfd|d2 fa "G"gece|"D"d2 fd adfd|"G"gfge "A"cABc|"D"d2 fd adfd|d2 
+fa "G"gece|"D"fefd "G"g2 ge|"A"fage "D"d2 ef:|
+
+X: 127
+T:The Doon
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:D
+|:"D drone"DFAF BFAF|DFAF GFEF|DFAF BAFA|1 (3Bcd ec dBAF:|2 (3Bcd ec d2AB|
+|d2 fd Adfd|ddfd BAFA|dd (3ddd Adfg|afed BAFA|Adfd Adfd|Adfd edef|gfec dcBA|(3Bcd ec dBAF||
+
+X: 128
+T:Maire Breathnach's #1
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:Am
+|:AB|"Am"c2 Bc AGED|"G"CDEF GABd|"Am"c2 Bc AGE^F|"G"GEDC A,2 AB|"Am"c2 Bc AGED|CDEF GABc|"G"dB (3BBB BcBA|"Em"GEDC "Am"A,2:||
+|:K:A"A"c3 B ABcd|eAce =g3 f|"G"eaaa a=gea|"D"=gedB BAAB|"A"c3 B ABcd|eAce =g3 a|"G"ba=gb agea|"D"=gedB BAAB:|
+
+X: 129
+T:Martin Hayes' Jig
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:D
+A|:"D"DFA d2e|dcA "C"GFG|AFD =c2d|ed=c "G"(3Bcd B|
+"D"DFA dfe|dcA "C"~G3|AdB cAG|1 "G"~E3 "D"DFE:|2 "A"~E3 "D"D3|
+|:"D"d2e fed|"A"c2A ABA|"C"=cBcedc|"G"B2G GAG|
+"D"FAd fed|"A"ceA EFG|AdB cAG|1 EDC "D"DFG:|2 EDC "D"DFE||
+
+X: 130
+T:Unknown Jig
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:G
+AG|:"D"F2D DAG|F2D DAG|F2D DED|"C"C2 A, A,AG|
+"D"F2D DAG|F2D DED|"G"BAB "C"cAF|1 AGF "G"GAF:|2 AGF "G"G2A
+|:"G"B2B "C"cBc|"G"d2d ABc|B2G GAG|"D"FGF DED|
+"G"BAB "C"cBc|"G"d2d ABc|BAB "(C)"cAF|1 "D"AGF "G"G2A:|2 "D"AGF "G"G3||
+
+X: 131
+T:The Killavil Jig (or Sligo Jig)
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Trad.
+S:Dervish
+K:Em
+d2^c|:"Em"BEE BEE|Bdf edB|"D"BAF FGF|"(Bm)"DFA dBA|
+"Em"BEE BEE|Bdf edB|"D"BAF dAF|1 "(Bm)"FED "Em"E3:|2 FED "Em"E2B
+|:eef gag|fgf edB|"D"BAF FGF|"(Bm)"DFA dBA|
+"Em"Bef gfe|fed edB|"D"BAF dAF|1 FED "Em"E2B:|2 FED "Em"Ed^c||
+
+X: 132
+T:Mazltov
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Traditional
+S:The Chicago Klezmer Ensemble
+O:c
+K:Gm
+|:d2 =e^f|"Gm"g2 B2 B3 B|"D"AD^FG "Gm"G4|GABc "Cm"dece|"D"d6 cB|
+"Gm"dgbg "F"cgac|"Bb"Bdfd "Cm"c6 BA|"Gm"Bdfd "D"cB{B}AG|"Gm"G6:|
+(d2|d)"Gm"g (3bag (g4 |g)b (3d'c'b (b4|b)d' (3f'=e'd' (3d'c'b d'2|"D"(3d'c'b (3bag "Gm"(d4|
+d)g (3bag (g4|g)b  "Bbm"(3_d'c'b (b4|b) d' "Gm"(3f'=e'd' (3d'c'b d'2|"D"(3d'c'b (3bag "Gm"g2 (D2|
+D)G (3BAG (G4 |G)B (3dcB (B4|B)d (3f=ed (3dcB d2|"D"(3dcB (3BAG "Gm"(D4|
+D)G (3BAG (G4|G)B  "Bbm"(3_dcB (B4|B) d "Gm"(3f=ed (3dcB d2|"D"(3dcB (3BAG "Gm"GF Bd|
+|:"Bb"(f4 f)e de|d4 c2 B2|f2 g2 {b}_agf=e |f6 (ff')|
+f'e'd'c' e'd'c'b|d'c'ba c'bag|bagf agfe|gfed fedc|
+"F"c2 d2 e2 =e2|f2 g2 c2 _e2|"Bb"d6 cB|B c'd' B"F"A =bc' A|
+"Gm"G abg "F"fedc|(BA) Ag gf Ac|"Bb"(cB) B3 FBd:|
+c2|:{e}"Bbm"_dcdc dfed|"C"(_dc) c4 BA|"Bbm"BABA BcF_A|"Gm"G4 g4|
+"Bb"ba_ag ^ff=ee|d_dc=B _B=dfd|"Cm"c6 BA|"Gm"Bd fd "D"cB AG|"Gm"G6 c2:|
+
+X: 133
+T:Tall Trees, Long Shadows
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Oliver Schroer
+S:Celtic Dance
+K:Em
+|:"Em"E3 F GABd|"C"e2 ed cBAG|"G"B2 BG DGBD|"D"BAAG (3ABA GF|"Em"EDEF GABd|"C"efed BAGF|"Em"G2GE "D"F2FD|"C"E6 ED:|
+||"Em"G2GE "D"F2FD|"C"E2 Bc BAGF|"Em"G2GE "D"F2FD|"C"GFED E2 EF|"Em"G2GE "D"F2FD|"C"E2 Bc BAGF|"Em"G2GE "D"F2FD|"C"GFED EFGA||
+|:"Em"Beed efed|"Bm"B3 A "G"Bdde|dBAG "Am"A2 AG||M:2/4 L:1/8 "C"EFGA||[M:4/4] "Em"Beed efed|"G"Bdde BAGE| "D"A4 A3 B|1"Am"(3ABA GB "C"AGED:|
+|"Am"(3ABA GB "Bm"AGED|"C"E8||
+
+X: 134
+T:The Burning Bench
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Oliver Schroer
+S:Celtic Dance
+K:Dm
+D2 E2|:"Dm"FDA,D FAGF|"C"ECG,C "Am"EGFE|"Dm"DA, (3A,A,A, DEFD|"C"EGce "G
+"dcAG|"Dm"FDA,D FAGF|"C"ECG,
+C EGFE|"Dm"DA, (3A,A,A, "Bm"DFAG|1 "C"FDEC "Dm"D3 E:|2 "C"FDEC "Dm"D4||
+|:"Dm"Addc defd|Addc defd|adgd fded|"C"c2ec Gcec|"Dm"dAAG AGFD|"C"(3EFG
+cG FEDC|"Dm"DD DC 
+"Bm"DAGE|1 "C"FDEC "Dm"D3 F:|2 "C"FDEC "Dm"D3 E||
+
+X: 135
+T:The Rolling Hills of Bellvue
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Oliver Schroer
+S:Celtic Dance
+K:Dm
+|:"Dm"D2A AGF|"C"E2G GFE|"Dm"FGF "C"EFE|"Dm"DFA d2e|\
+"F"f2g afd|1 cAG "Dm"Azd|"F"cAG "Bm"FEF|AGG "C"GFE:|2 cAG "Dm"Ade| "Bm"fed "C"cAG|"Dm"ADD D2E||
+|:"F"FGF dFc|FGF "C"AGE|"F"FGF dFc|"Dm"Add def|\
+"F"FEF dFc|FEF "C"AGE|1 "Dm"D2A "C"AGE|"Bm"FDD D2E:|2 "Dm"DAA "C"AGE|"Dm"FDD D3||
+
+X: 136
+T:Old Man Winter
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Pete Sutherland
+S:Metamora
+R:Jig
+K:Am
+E|:"Am"ABc BGE|FED E3|A3 GAB|cde de^f| "Em"g2 e e2 d|e3 edB|"F"ABc dBG|1 A3 A2 E:|2 "Em"A3 Ace|
+|:"Am"azA BAB|cBc A2 g|"D"^fdd d2^c|d3 de^f| "Am"gzABAB|GAB e2d|"D"cAA A2G|1 "G"A3 Ace:|2 "Em"A3 A2E||
+
+X: 137
+T:Orphan, The
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:jig
+D:Kevin Burke: Up Close
+Z:id:hn-jig-121
+K:Edor
+~E3 EDB,|GFG AGA|~B3 ABA|GEF EDB,| ~A,3 EDB,|~G3 AGA|BdB ABA|1 GED EGF:|2 GED E2B|
+|:ege dBA|GAB d2d|e/f/ge dBA|BGE DB,D| EAG EDB,|~G3 AGA|BdB ABA|1 GED E2B:|2 GED EGF||
+
+X: 138
+T:Paddy's Return
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Willy Coleman
+S:Kevin Burke & Micheal O' Domhnaill
+R:Jig
+K:D
+d2 B|:"D"AFD DFA|"G"B2d BAF|"D"ABA FED|"G"FEE "A"EFG| "D"AFD DFA|"G"B2d BAF|"A"ABA FFE|1 "D"FDD d2B:|2 "D"FDD D2e|
+|:"Bm"fdd dcd|fdd d2e|fef def|"G"gbg e2g| "Bm"fed B2d|A2d F2G|"A"ABA F2E|1 "D"FDD Dze:|2"D"FDD d2B||
+
+X: 139
+T:Williy Coleman's
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Willy Coleman
+S:Kevin Burke & Micheal O' Domhnaill
+R:Jig
+K:G
+"C"B3 AGE|GED GBd|"G"edB dgb|"C"age "G"dBA| "C"(3Bcd B AGE|GED "G"GBd|edB "C"dBA|BGG "G"G3:|
+|:"G"gfg edB|dgb "C"age|"G"gfg edB|GBd "C"e2d| "G"gag edB|dgb "C"age|"G"d^cd gdB|"Dsus2"AGE GBd:|
+
+X: 140
+T:Up In The Air
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Kevin Burke/Micheal O' Domhnaill
+R:Jig
+K:Bm
+|:"Bm"FBB BAB|"A"c3 AFE|"G(Bm)"FBB BAB|"A"cBA B3| "Bm"FBB BAB|"A"cBc ABc|"G"def "A"ecA|1 "Bm"FBB B2A:|2 "Bm"FBB B3|
+|:"Bm"dcd "A"ede|"G"fdB BAB|dcd ede|"Em"fdA B3| "Bm"dcd "A"ede|"G"fdB def|"Em"gfe dBA|"G"FBB B2A:|
+
+X: 141
+T:Red Crow
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:ADor
+"Am"A,2A,A, "G"B,G,G,B,|"Am"A,2EG "D"FDEG|"Em"AGED EA,A,D|"G"ECDC B,G,G,B,|
+"Am"A,2A,A, "G"B,G,G,B,|"Am"A,2EG "D"FDEG|"Em"AGED EA,CE|1"G"DB,G,B, "Am"(3A,A,A, ^G,B,:|2"G"DB,G,B, "Am"A,4|
+|A2eA ceAc|eAce dcBA|"G"G2dc BdGB|dGBd edcB| "Am"A2eA ceAc|eAcb "D"ageg|"Em"age^c d=fed|"G"cAB^G A2(3EFG|
+"Am"A2eA ceAc|eAce dcBA|"G"G2dc BdGB|dGBd edcB| "Am"(3AAA aA gAfA|"D"(3AAA cA BAGB|"G"cBAG AGED|"Em"ECDB, CA,B,G,||
+
+X: 142
+T:Rosewood Waltz
+M:3/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Elke Baker: Scottish Dance Music
+R:W
+K:Am
+E|"Am"A3 BA2|"(C)"c2 B2 A2|"G"G2 E2 D2|"Em"EG4 B|
+"Am"A3 B A2|"(C)"c4 d2|"G"e2 a2 g2|"Em"e6|
+"Am"A3 B A2|"C"c2 B2 A2|"G"G2 E2 D2|B,2 A,2 G,2|
+"F"A,2 B,2 D2|EA4 G|"Em"Ez Dz G,z|"Am"A,6:|
+|:"Am"e3 AeA|"G"d2 B2 G2|"Am"A3 BA2|"F"c4 cd|
+"Am"e3 Ae2|"G"d2 B2 G2|"F"c4 Bc|"Dm"d3 dcd|
+"Am"e2 a2 g2|"G"e3 d B2|"F"A4 GA|"Dm"c3 dcB|
+"Am"A3G A2|"F"c2 dcBc|"Em"dB4 G|"Am"A6:||
+
+X: 143
+T:Saddam's Reel
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:The House Band
+K:D
+"F#"FGBd cBcd|cBcd "G"cBAB|"F#"FGBd cBcd|(3cBA "A"dc "Bm"B2 B2|
+"F#"FGBd cBcd|cBcd "G"cBAB|"F#"FGBd cBcd|1 (3cBA "A"dc "Bm"B2 B2:|2 (3cBA "A"dc "Bm"B2 Bf|
+|"G"gfeg fBBc|"D"dcde faaf|"G"gfeg fBBc|(3dcB "A"cA "Bm"B2 Bf|
+"G"gfeg fBBc|"D"dcde faaf|"G"gfeg fBBc| (3dcB "A"cA "Bm"B2 B2|
+
+X: 144
+T:Tango
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:C
+"Gm"G g2 ^f g4|z g^fg ag=f_e|"D7"_e d2 ^c d4|d6 z2|
+"G7"G f2e f4|zfef gf_ed|"Cm"f_e2d e4|e6 z c|
+"C7"c e2 g g4|z4 z ceg|"Fm"_b_a2g ba2g|_a6 za|
+"Cm"_ag2_e g3 g|"G7"gf2d B3 B|"Cm"d_e2d c4|z6 _B2|
+"Bb"_B4 c d2 _e|f d2 _B B _A2 A|"Eb"_A G2 ^F G4|z6 G2|
+"G7"G B2 cd d3 d|z4 B d2 f|"Cm"f _e2d fe2d|c4 z4|
+"Fm"_A f2 e f4|z fef gf_ed|"Cm"G_e2de4| z _edegecG|
+"D7b5"^F d2 ^c d3 F|"G7b9"=F d2 ^c d2 d_e|"Cm"d c2c c4|c4 z4||
+
+X: 145
+T:Tenpenny Bit, The
+T:Three Little Drummers, The
+M:6/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+R:jig
+Z:id:hn-jig-16
+K:Ador
+"Am"eAA eAA|"G"BAB GBd|"Am"eAA eAA|"G"def gfg|
+"Am"eAA eAA|"G"BAB GBd|"Em"~e3 gdB|"G"BAG "Am"A3:|
+|:"Am"eaa aga|"G"bab ged|"Am"eaa aga|"G"bgf ~g3|
+"Am"eaa aga|"G"bab ged|"Em"~e3 gdB|"G"BAG "Am"A3:|
+
+X: 146
+T:The Beare Island Reel
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Dale Russ
+S:Kevin Burke/Micheal O' Domhnaill
+R:r
+K:D
+|:"E"EB^GB A^GEA|dBcA Beec|d2fd AFDF|(3GFE ED EDB,A,|
+"Em"B,EEF GFGA|(3BBB GA Bdef|"C"g2fg ef (3gfe|"D"dBAF "E"E4:|
+|:"Em"Beef "C"(3gfe fd|B2AG "D"FD (3FED|"Em"Beef "C"gefd|"D"Be^df "Em"e2 ef|
+edBc "Bm"d3c|BcdB "D"AFDF|"Em"GB (3BBB "D"AFDF|(3GFE ED "Em"E4:||
+
+X: 147
+T:The Piper's Despair
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:reel
+K:G
+AG|EFGA BAFA| (3B^cd ed BdAF|D2 (3FED ADFA|Bd ed dBAF|
+E2 FA BAFA|(3B^cdec BdAF|D2 FA dfaf|gfed Be e2|
+|EFGA BAFA|{^c}BA d{ded}d dBAF|D2 (3FED ADFA|Bd ~d2 dBAF|
+E2 FA {^c}BAFA|(3Bcd Ad BdAd|dBAF DFAf|gfed B^cdd|
+|:e2 ge beaf|efga ba (3aba f|df (3fgf af (3fgf|df (3fgf afdA|
+e2 ge beaf|efga ba (3aba f|~d2f abaf|gfed Be e2:||
+
+X: 148
+T:Tom Billy's
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Tommy Peoples, Donegal (fiddle)
+R:Jig
+N:As played
+D:From a 70's demo tape
+Z:Bernie Stocks
+K:D
+~a3 Ace | {f}edB {d}BAA | eaa Ace | edB Ace | ~a3 Ace | edB BAB | GBd (3gfge |(3.f.f.dB Ace :|
+|:~g3 ~a3 | bag fed | (3.f.f.af (3gfge | fdB def | ~g3 ~a3 |bge gab | age dBe |1 ABA A3 :|2 (3.A.A.AA (3.a.a.ed |
+|: c3 ~d3 | edB dBA|A3 cBA | (3.A.A.AA aed | ~c3 ~d3 | ede gab | age dBe | ABA A3 :|
+
+X: 149
+T:Tommy Bhetty's Waltz
+M:3/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:G
+D|"G"G3 BdB|G3 BdB|d2 b3 a|"C"ga fg ef|
+"G"d3 e d2|B3 ABG|"D"D2 F2 A2|c2 B2 A2|
+"G"d2 Bc dB|d2 b3 a|"C"g2 b3 a|ga fg ef|
+"G"d2 g2 Bc|"D"d3 cAF|"G"G2 B2 "C"A2|1 "G"G4 D :|2 "G"G3 gfg|
+|:"D"a2 f2 d2|A2 F2 D2|"C"C2 b3 a|ga fg ef|
+"G"d3 e d2|B3 ABG|"D"D2 F2 A2|c2 B2 A2|
+"G"d2 Bc dB|d2 b3 a|"C"g2 b3a|ga fg ef|
+"G"d2 g2 Bc|"D"d3 cAF|"G"G2 B2 "C"A2|1 "G"G3 g fg:|2 "G"G6||
+
+X: 150
+T:Yellow Barber
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:R
+K:D
+|:A,B, D2 D2 A,B,|D2 DE FE D2|E4 E2 EF|GFEG FE D2|
+F A2 B A2 Ad|BAGB ABde|fdec dBAG|FDEF D2 D2:|
+|:AB d2 d2 de|fedf edBd|e4 e2 ef|gfeg fe d2|
+fdecdBAd|BAGB ABde|fdec dBAG|FDEF D2 D2:||
+
+X: 151
+T:Stranger in the Garden
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Dave Landreth
+K:ADor
+"Am"EGAG A2 A2 | c3B cBAA | "G"EGAG G2 G2 |c3B cBAA|
+"Am"EGAG A2 A2 | c3B c2 d2 | "G"efgf gfed | BA^GB A2 A2 :|
+"Am"efgf gfef | gfe2 aeae |"G"efgf gfef | gfed BAGB |
+"Am"efgf gfef |gfef a2 a2 | "G"efgf gfed | BA^GB A2 A2 |
+"Am"cdec "G"d2 A2 | "Am"cdec "G"d2 d2 | "Am"efgf afgf | edBA GA A2 | "E"B4 B4 | EG GA "Am"A2 A2 |
+
+X: 152
+T:Lost Indian
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Tuning = GDGB
+S:Gandydancer
+N:Tuning = GDG
+K:G
+T:Part A
+d2B2d2B2|eBdB (3ABA G2|B3d BAGA|BAGA BAGE|DEDC B,G,A,B,|G,4|
+d2B2d2B2|eBdB (3ABA G2|B3d BAGA|BAGA BAGE|DEDC B,G,A,B,|
+G,2 G,A, B,2 D2|EDED G^FGA|G2 G,A, B,2 D2|EDED G^FGA|G2 G2|
+B3d BAGA|BAGA BAGE|DEDC B,G,A,B,|
+G,2 G,A, B,2 D2|EDED G^FGA|G2 G,A, B,2 D2|EDED G^FGA|G2 G2|
+B3d BAGA|BAGA BAGE|DEDC B,G,A,B,|G,4||
+T: Part B
+|:B2 G2 B2 G2|eBdB (3ABA G2|B2 G2 B2 G2|eBdB (3ABA G2|
+B3c BAGA|BAGA BAGE|DEDC B,G,A,B,|
+G,2 G,A, B,2 D2|EDED G^FGA|G2 G,A, B,2 D2|EDED G^FGA|G2 G2|
+B3c BAGA|BAGA BAGE|DEDC B,G,A,B,|G,4:|
+
+X: 153
+T:Curlew, The
+M:C|
+C:Josephine Keegan
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:reel
+D:Altan: Horse with a Heart
+Z:id:hn-reel-367
+K:Bdor
+fB~B2 Bcde|fece ~a3e|(3fga ed cA~A2|^GAce a^gba|
+fB~B2 Bcde|fece ~a3f|~=g3e ~f3e|dBBA FB~B2:|
+|:(3Bcd cd BF~F2|DF~F2 Bcdf|ecBc AE~E2|CEAB cedc|
+(3Bcd cd BF~F2|DF~F2 Bcdf|ecBA fcec|dcBA FB~B2:|
+
+X: 154
+T:McDermott's
+M:C|
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Josie McDermott (1925-1992)
+R:reel
+D:Josie McDermott: Darby's Farewell
+D:Altan: Horse with a Heart
+Z:id:hn-reel-368
+K:D
+Adde fded|ABAG EFDe|fded cAAG|EFGE D2de|
+fded ~A3G|EFGE ABde|fded cAAG|EFGE D2FG:|
+|:Adde fage|dfed cAAF|~G3A GE~E2|edcA GE~E2|
+Adde fage|dfed cAAe|f2df gece|fage d2FG:|
+
+X: 155
+T:Three Scones of Boxty, The
+R:reel
+H:See also #748
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+D:Altan: Horse with a Heart
+Z:id:hn-reel-182
+M:C|
+K:Amix
+EF|:GFEd cBAc|BAGB A2EF|GFEd cBAc|1 BAGE EDEF:|2 BAGE EDD2||
+|:cded cA~A2|BG~G2 A2AB|1 cded cA~A2|BAGE EDD2:|2 cdef g2ed|cAGE EDEF||
+
+X: 156
+T:Untitled
+M:4/4
+S:Altan Horse with a Heart
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:
+K:D
+D2 FA GEFE|(3DED FA d2 ef|geag f2dc|AG (3GGG EFGE|
+D2 FA GEFE|(3DED FA d2 ef|geag edcd|1eddc dBAF:|2eddc d2zg||
+|:fdfa g2 ag|fdfa g2 ag|fd=cA BG (3GGG|ABcA dcAg|
+fdfa g2 ag|fdfa g2 ag|fd=cA BG (3GGG|1ABcA d2zg:|2ABcA dBAF||
+
+X: 157
+T:The Okarina
+M:7/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Kevin Burke Open House
+K:Dm
+T:A Part
+def ef d2|cde A2 A2|GAB AB GA|FGE FGA^c|
+def ef dA|cde A2 A2|GAB AB GA|FG_E D2 A,2:|
+M:4/4
+L:1/8
+T:B Part
+|:DFA G2 BAG|DFAF GE (3EEE|DFA G2 ABd|^cBAG FGE_E|
+DFA G2 BAG|DFAF GE (3EEE|_EGB EGB AG|FG_E D2 A,2:|
+T:Note: Last time, repeat B Part 4x
+
+X: 158
+T:The Tattoo
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Kevin Burke's Open House
+K:EMix
+T:A Part
+"E"EGB E2 GBd|"F"=cBAc "E"BAGB|EGB E2 GBd|"F"=cBAc "E"B2 B2|
+"E"EGB E2 GBd|"F"=cBAc "E"BAGE|"Dm"DE^E G2 E=E^E|GA"E"B=c "Am"A2 A2:|
+T:B Part
+K:Am
+"Am"a^ga e2 dcA|"Dm"dfed "E"cdB2|"Am"Aca e2 dcA|"Dm"defa "E"^gfec|
+"Am"Aca e2 dcA|"Dm"dfed "E"cdBA|"Dm"DEF ^G2 FEF|"E"^GABc "Am"A4||
+T:Note: Last time, repeat A Part 4x and end
+
+X: 159
+T:Rockbridge Blues
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Tuning = GDGD
+S:Troublesome Creek String Band
+K:GMix
+c|"G"d2 fd dcc2|_B4 G4|"F"F3D FDFD|"G"_B4 G3 (d|c2)_B2 GDFD|G4 G4|"F"FD_BG GDF(G|"G"G4 G3 :|
+(c|"G"d2 d2 fd d2|g4 g3(f|g2 ff dc_B2|G4 G3 d|f2 d fd fdd|g4 g3f|ggf2 dc_B| "D"d4 d4|
+d2 d2 fd d2|"G"g4 g3(f|g2 ff dc_B2|G4 G4|F3D FDFD|_B4 G3 (d|"F"c2) _B2 GDFD|"G"G4 G4||
+
+X: 160
+T:Loftus Jones
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Turlough O'Carolan
+Z:id:hn-carolan-5
+K:G
+"G"g4 "D"f2e2 | "G"d2c2  BcdB |"C"cB"D"AB  "G"G2 z2 | BcBA "D"G2A2 |
+"G"BcdB "C"cdec | "G"d2cB "C"cBAG | "D"FGFE D3F | "Em"GAGF "C"E2c2 |
+"G"dcdB "C"cB"D"cA | "Em"G2D2 E2F2 | "C"G2E2 F2G2 | "D"A2F2 G2A2 |"G"B2G2 A2B2 |
+"C"c4 "D"d4 | "C"cBAG "D"FGAF | "G"G2DC "D"B,2D2 | "G"G3 A G4 :|
+|: "D"A2F2 "G"G2E2 | "D"F2D2 E2F2 | "Em"G2B2 "D"F2B2 | "Em"E4"D"F4 |
+"G"BcB2 "D"ABA2 | "G"GABc "D"B3A | "G"GABc "D"dcBA | "G"G2"D"F2 "Em"E4 |
+"Em"B,EGE B,EGE | "D"DFDF DFDF | "Em"EGEG EGEG | "D"FAFA FAFA |
+"Em"GBGB GBGB | GBGB GBGB | efg2 "D"f2gf | "C"e4 e2f2 |
+"G"gbgb "D"fafa | "C"ecec "G"dBdB | "C"cAcA "G"BGBG | "D"AGFE DEFD |
+"G"G2DC B,2D2 | "D"AGFE D2d2 | "G"cBAG "D"FGAF | "G"G3 A G4:|
+
+X: 161
+T:Larmor Plage
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Deanta
+K:Gm
+B,3G, A,B,CA,|B,DCF DFGA|BAGA Bcdg|bgfa g3a|
+bg (3ggg fd (3ddd|cAdA cfdc|BG (3GGG FDCD|1 FdcA GEDC:|2 FdcA G4||
+gfga gd (3ddd|gbaf gfdc|BG (3GGG FGAc|dAcA GFDF|
+GD (3DDD B2 (3BBB|cBGF GABc|dg (3gag bgdc|1 BdAF GABd:|2 BdAF GDA,C||
+
+X: 162
+T:Misirlou
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:Dm
+"D"D4 ^F2 G2 | A4 ^c2 B2 | (A8 | A8) |
+D4 ^F2 G2 | A4 ^c2 B2 | (A8 | A8) |
+"Cm"B A2 B A2 G2 | A G2 A G2 ^F2 | "D"(^F8 | ^F8) |
+"Cm"A G2 A G2 ^F2 | G ^F2 G F2 _E2 | "D"(D8 | D8) :||
+"Gm"(G8 | G6) ^F G | "Am"(A8 | A6) G A |
+"Bb"B6 A B | "C"^c4 B2 c2 |"D" (d8 | d8) |
+"Eb"_e2 de d2 c2 | d2 cd c2 B2 | "D"(A8 | A8) |
+"Cm"c2 Bc B2 A2 | A2 ^FA F2 _E2 | "D"(D8 | D8)|
+
+X: 163
+T:1st August
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Donogh Hennessy
+K:EDor
+"Em"DE2E GDEG|"G"ABBB BAGB|"D"BAAB AGEG|"A"(3Bce dB AGEA|
+"Em"GEEE GDEG|"G"ABBB BAGB|"A"BAAB AGED|"Am"EGA EGA EG|
+"Em"DE2E GDEG|"G"ABBB BAGB|"D"BAAB AGEG|"A"(3Bce dB AGEA|
+"Em"GEEE GDEG|"G"ABBB BAGB|"D"BAAB AGED|"A"EGAG ABde|
+|:"C"fgag "D"fedB|"Em"e3d BAGD|"C"EGGG "D"AAGA|"G"BBBd BAGD|
+"Em"EGGG "D"AGGA|"C"(3Bce dB AGEG|"D"DEGB A^GAB|1 "G"GzGF GA (3ABd:|2 "G
+"G2 GF "D"GBFG||
+T:2nd Ending (Last Time)
+"C"=cBAG "D"ABFG
+
+X: 164
+T:Windbroke
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Mike McGoldrick
+K:Em
+"Em"BEEE GAB(E|E) GAd B2AG|BEEE GAB"C"(c|c)BAG "D"B2AG|
+"Em"BEEE GAB(E|E) GAd B2AB|"C"edde B3G|1 "D"A3G FGAc:|2 "D"A3G FGAz|
+|:"Em"Begf efde|zedf efed|Begf efg"Am"a|za2g "D"fede|
+"Em"Begf efde|zedf efeB| "C"c3A "G"B3G|1 "D"ABAG FGAz:|2 "D"ABAG FGAc||
+T:Last Line Last Time
+"Em"Begf efde|zedf efeB|"C"(c8|c)dAG "D"FGFD|"Em"E8||
+
+X: 165
+T:Edelweiss
+M:3/4
+R:
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:G
+"G"B2d "D7"a3|"G"g2d "C"c3|"G"B2 B "Em"Bcd|"C"e3 "D"d3|
+"G"B2d "D7"a3|"G"g2d "C"c3|"G"B2 d "D"def|"G"g3 g3|
+"D"a2 d "D7"fed|"G"B2d "Em?"g3|"C"e2g a2g|"D"f3 d3"D7"|
+"G"B2d "D7"a3|"G"g2d "C"c3|"G"B2d "D"def|"G"g3 g3||
+
+X: 166
+T:Cataloochee Ranch
+M:3/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:A
+E2|:"A"A3Bc2|"D"d3ed2|"A"c3B (3cBA|A4 a2|
+"D"f4e2|d4 (3edc|"E"B4A2|G4 (4FGFE|
+"A"A3Bc2|"D"d2e2d2|"A"c3B (3cBA|A4 e2|
+"D"f3ed2|"E"(4cdcB Az Gz|"A"A4E2|A,4 E2:|
+
+X: 167
+T:Yell in the Shoats - ADAD
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Troublesome Creek String Band
+K:D
+"D"d3 dd2 d2-|dABA A3A|d2d2 dABA|"A"AFEF "D"D2D2|
+d3 d d2d2-|d ABA ABAB|d2 d2 ABBd|AF"A"EF "D"D2 DD|
+D2AG FGAD|D2AF "A"EF"D"DD|D2AG FGAA|"G"BdAF "A"EFDD|
+"D"D2AG FGAD|D2AF "A"EFDD|"D"D2AG FGAA|"G"Bd"D"AF "A"EF"D"DA|
+dBAG FGAA|dBAF "A"EF"D"DA|dBAG FGAA|"G"BdAF "A"EFDA|
+"D"dBAG FGAA|"G"dBAF "A"EFDA|"D"dBAG FGAA|"G"BdAF "A"EFD2|
+
+X: 168
+T:Piney Ridge - ADAD
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Troublesome Creek String Band
+K:D
+"D"D3f edBd|d3f edB2|Dzdf "A"(3efe de|"D"f2d2d2 zD-|
+D2df fede|f3f e2 f2|"G"a2 a2 dfed|1 "A"B2A2A3 D:|2 "A"B2A2A2 DE|
+|:"D"F2 FE FEDE|
+M:6/4
+FAAB A3A A2DE|
+M:4/4
+L:1/8
+FDFD EFDF| "A"A2 D4 DE| "D"F2 FE FEDE|FAAB A3A|"G"ABdB AGFG|1"A"A2D2D2 DE:|2"A"A2D2D3D||
+
+X: 169
+T:Paddy On The Handcar - GDGD
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Troublesome Creek String Band
+K:GMix
+GF|:"G"DEGG G2B2-|BGAG BGAF|"F"CDFF F3F|AFGF AFGF|"G"DEG2 G3A|
+BAGB AGD2|G3A Bcdf|"C"ecec "G"d2GA|BAGB "F"AFAF|1 "G"G3A GAGG:|2"G"G3A GAGD||
+|:"G"D2g2 gagf|d2ga g3f|dcde fedf|"C"ecec "D"d4|
+"G"G3A Bcdf|"C"ecec "G"d2GA|BAGB "F"AFAF|1"G"G3A G2GD:|2 "G"G3A G2GF||
+
+X: 170
+T:Georgia Horseshoe - GDGD
+M:4/4
+R:
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Troublesome Creek String Band
+K:GMix
+"G"g3a gfde|"F"fgag fc2e|"G"dg2a gzG"D"A-|A)GAG "G"BG3|
+"G"g3f gfde|"F"fzfg fc2e|"G"dg2a gzG"D"A-|A)GAG "G"BG3|
+"G"(c-d3) D2d2|"D"d3d AFA2|"G"GABc "C"ded2|"D"AG^FG "G"AGd2|
+"G"(c-d3) (D-d3)|"D"d3d AFA2|"G"GABc "C"ded2|"D"AG^FG "G"AGdd|
+"G"D2GG GABG|"D"AAcc AF3|"G"GABc dedd|"D"AG^FG "G"BGdd|
+"G"D2GG GABG|"D"A2cA GF3|"G"G2GG dedd|"D"AG^FG "G"BGdz|
+"G"dzdzdzdz|"D"ABcc AF3|"G"GABC dedd|"D"AG^FG "G"BGdz|
+"G"dzdzdzdz|"D"A3c AF3|"G"G3G dedd|"D"AF^FG "G"BGdd:||
+
+X: 171
+T:Brushy Forks of John's Creek
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Tuning: GDGD
+C:Source: Troublesome Creek String Band
+S:Troublesome Creek String Band
+K:DDor
+"G"AGAc|"D"d3 d (3cdc AG|A2c2 AGAc|d3d dcAc|
+"G"G4 A2c2|"D"d3c AG3|Ac3 AGAc|dcd2 dcA2|
+"G"G4 "D"d4|d3f dcAG |Ac3 AGAc |d3c dcAc|
+"G"G4 A2c2|"D"d3c dcdc|AG3 Ac3|AGAc dcdc|dc A2 "G"G4|
+G4 g4|"F"f3g fc3|dcdf gfgf|"D"dc Ac "G"G4|
+G4 g4|"F"a3g fc3|dcdf gfgf|"D"dcAc "G"G4:|
+
+X: 172
+T:Keny Gilles of Portnalong
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Composer: P. MacFarquhar
+S:Source: The Angus Sessions Podcast
+R:jig
+K:A
+A2A e2c|efa f2e|faa AAA|fec c2B|
+A2A e2c|efa f2e|eff fec|ecB A3:|
+a3 A2A|cea f2e|faa A2A|fec c2B|
+a3 A2A|efa f2e|eff fec|ecA A3|
+a3 A2A|cea f2e|faa A2A|fec c2B|
+A2A e2c|efa f2e|eff fec|BAA A2e|
+|:AAA cBc|Ace fee|faa ABA|fec cBB|
+ABA cBc|Ace fee|eff fec|BAA Ace:|
+c2e aga|Ace fee|faa ABA|fec cBB|
+c2e aga|Ace fee|eff fec|BAA A3:|
+
+X: 173
+T:The Curlew (jig)
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Composer: Donald McPherson
+S:Source: Angus Sessions Podcast
+R:jig
+K:D
+"D"d3 A2d|BAA dBA|d3 A2d|"A"BAA aef|
+"D"d3 A2d|BAA dBA|""g2f efd|"A"cAA aef:|
+"D"d3 f2d|"A"aef dBA|"D"d3 f2f|"A"aza edf|
+"D"d3 f2d|"A"aef dBA|"G"g2f efd|"A"cAA aef:|
+"G"d3 GBA|"A"dBd ecA|"G"d3 GBB|"A"Ace aef|
+"G"d3 GBA|"A"dBd ecA|"G"g2f efd|"A"cAA aef:|
+"D"d3 a2f|"G"dfd "A"ecA|"D"d3 a2f|"G"dfd "A"afA|
+"G"d3 GBA|dBd "A"ecA|"G"g2f efd|"A"cAA aef|
+"D"d3 a2f|"G"dfd "A"ecA|"D"d3 a2f|"G"dfd "A"aef|
+"G"gfg efd|"A"ABd ecA|"G"g2f efd |"A"cAA aef||
+
+X: 174
+T:Cajun Fire
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:by Rick Weidley
+S:copyright September 20, 1994
+R:jig
+K:D
+|: "D"f2f fed | "G"g2g gfe | "D"f2f fed | "G"g2g gfe |
+"D"f2f fed | "G"g2g gfe |1 "D"Adf afd | "A"(e3e) z2 :|2 "D"Adf "A"ecA |
+"D"(d3d) z2 ||
+"G"ggg gab | "D"afd afd | "G"ggg gab | "D"a>aa a3 |
+"G"ggg gab | "D"afd afd | "G"Bdg bgd | "A"ceg a z2||
+"D"f2f fed | "G"g2g gfe | "D"f2f fed | "G"g2g gfe |
+"D"f2f fed | "G"g2g gfe | "D"Adf "A"ecA | "D"(d3d) z2||
+
+X: 175
+T:Fiddler's Walk
+M:2/4
+L:1/16
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:by Rick Weidley
+S:copyright September 26, 1994
+K:A
+|:"A"(cd)dd (cd)dd | (cd)dd "D"(3(dcB) (3(dcB) | "A"(cd)dd (cd)dd | (cd)dd "D"(3(dcB) (3(dcB) |
+"A"(cd)dd (cd)dd | (cd)dd "D"(3(dcB) (3(dcB) |1 "A"(cd)dd edcd | "E"B2 BB B z2 :|2 "A"(cd)dd "E"edcB | "A"A2 AB A2z2||
+"D"(fg)gg agfa | "G"gfga "D"f2 ff | "D"(fg)gg agfa | "A"efge cBA2 | 
+"D"(fg)gg agfa | "G"gfga "D"f2 ff | "D"(fg)gg agfa | "E"e2 ee e2 ee || 
+"A"(cd)dd (cd)dd | (cd)dd "D"(3(dcB) (3(dcB) | "A"(cd)dd (cd)dd | (cd)dd "D"(3(dcB) (3(dcB) |
+"A"(cd)dd (cd)dd | (cd)dd "D"(3(dcB) (3(dcB) | "A"(cd)dd "E"edcB | "A"A2 AB A2z2 ||
+
+X: 176
+T:Snug in the Blanket (Jig)
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:The Angus Sessions Podcast
+R:jig
+K:G
+|:"D"A2B cBc|DDD c2A|"G"BdB cBF|GFG B2G|
+"D"A2B cBc|DDD c2A|"G"BdB cBF|GBA G3:|
+|:"D"F2G ADD|ADB AFD|F2G ADD|"C"E2F GEC|
+"D"F2G ADD|ADB AFD|"G"BdB cAF|GBA G3 :|
+
+X: 177
+T:Snug in the Blanket (Reel)
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Source: The Angus Sessions Podcast
+R:reel
+K:G
+"D"A2 B2 c2 Bc|AddB cBAG|"G"GFG B2A G2|GFG A2 cBc|
+"D"A2 B2 c2 Bc|AddB cBAG|"G"BddB cBAG|GB2A G4:||
+|:"D"F3G AFD2|ADBA AFD2|F3G AFD2|"C"E2F2 GEC2|
+"D"F3G AFD2|ADBA AFD2|"G"BddB cBAG|GB2A G4:||
+
+X: 178
+T:Spootiskerry
+C:Composer:Samual Ian Rothmar Burns
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:reel
+S:Source: The Angus Sessions Broadcast
+K:G
+DE|:G2 DE GDEG|DEGA B2 AB|G2 DE GABd|eged B2 AB|
+G2 DE GDEG|DEGA B2 AB|g2 ed edBA|1 B2 G2 G2 DE :|2 B2 G2 G2 ef||
+g2 ed edBA|BdBG E2 DE|GABd eged|B2 A2 A2 ef|
+g2 ed edBA|BdBG E2 DE|GABd eged|B2 G2 G2 ef|
+g2 ed edBA|BdBG E2 DE|GABd eged|B2 A2 A2 BA|
+G2 DE GDEG|DEGA B2 AB|g2 ed edBA| B2 G2 G2 DE|
+
+X: 179
+T:Campbell's Farewell to Redcastle
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Source: The Angus Sessions Podcast
+R:March
+K:DMix
+A2|:"D"D3E F2G2|A2 d2 A3G|F2 D2 D2 EF| "C"G3EC2 E2|
+"D"D3E F2G2|A2 d2 A3G|F2 ED "C"C2 E2|1 "D"D4 D2 A2 :|2"D"D4 D2 cB||
+"D"A2d2d2cB|A2d2A3G|F2D2D2EF|G3E"C"C2 cB|
+"D"A2d2d2cB|A2d2A3G|F2 ED "C"C2 E2|"D"D4 D2 cB|
+"D"A2d2d2cB|A2d2A3G|F2D2D2EF|"C"G3EC2 E2|
+"D"DEFG "C"FGAB|"D"ABcd A3G|F2 ED "C"C2 E2|"D"D4 D4||
+
+X: 180
+T:The Battle of Waterloo
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Source: The Angus Sessions Podcast
+R:March
+K:DMix
+A|"D"D>D DE "C"DCCD|"D"F>G AF "G"G2 (3ABc|"D"d>c AG AGED|"C"C>C CD C2 (3 AGE|
+"D"D>D DE "C"DCCD|"D"F>G AF "G"G2 (3ABc|"D"d>c AG "C"AGEC|"D"D4 D2 AB|
+"D"d>c AG "G"F>G AB|"D"c>d cA "C"c2 (3ABc|"D"d>c AG AGED|"C"C>C CD C2 (3AGE|
+"D"D>D DE "C"DCCD|"D"F>G AF "G"G2 (3ABc|"D"d>c AG "C"AGEC|"D"D4 D4||
+
+X: 181
+T:The Shores of Loch Bee
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Source: Angus Sessions Podcast
+K:D
+A|"D"D>D DF A>F E F/2E/2|D>C DF A2 A F/2A/2|"G"B A/2B/2 d>A "D"Bd A B/2A/2|FD F A/2F/2 "A"E2 EA|
+"D"D>C DF A>F E F/2E/2|D>C DF A2 A F/2A/2|"G"B A/2B/2 d>A "D"Bd A B/2A/2 |FD "A"FE/2F/2 "D"D2 DA|
+"G"B>c BA BddF|"D"A>B AF A2 A F/2A/2|"G"B>c BA Bdd B/2A/2|"D"FD F A2/F/2 "A"E2 EA|
+"G"B>c BA BddF|"D"A>B AF A2 A F/2A/2|"G"B A/2B/2 "D"d>A Bd A B/2A/2|FD "A"F E/2F/2 "D"D2 D2||
+
+X: 182
+T:Rory Macleod
+M:4/4
+R:jig
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Composer: Donald MacLeod
+S:Source: Angus Sessions Podcast
+K:A
+e|:cAA cee|fee faa|cAA cee|fcc cBB|
+cAA cee|fee faa|fcc ecB|cAA A2e:||
+|:Aee fee|aee fee|cee fee|aee eff|
+Aee fee|aee fee|fcc ecB|1 cAA A2e:|2 cAA A3||
+|:Acc cdd|dcc cBA|Acc cdd|dcc cBB|
+Acc cdd|dcc cBe|fcc ecB|1 cAA A2A:|2 cAA A2=g||
+|:faa aff|fee ecc|cBB cff|fee ecc|
+faa aff|fee ecc|fcc ecB|1 cAA A2=g:|2 cAA A2A||
+
+X: 183
+T:The Duck
+M:6/8
+R:jig
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Composer: Donald MacLeod
+S:Source: The Angus Sessions Podcast
+K:D
+d|:def e2d|def e2d|def e2d|eff A2d|
+def e2d|def e2d|fed B2A|1 Bdd A2d:|2 Bdd A2a||
+|:f2e fdd|d2e fdd|dde fdd|faa A2a|
+f2e fdd|d2e fag|f2e B2A|1 Bdd A2a:|2 Bdd A2c||
+|:cef e2c|cef e2c|cef e2c|eff A2c|
+cef e2c|cef e2c|fec B2A|1 Bcc A2c:|2 Bcc A2a||
+|:f2e faa|f2e faa|f2e faa|fea A2a|
+f2e faa|f2e faf|fec B2A|1 Bcc A2a:|2 Bcc A2d||
+
+X: 184
+T:The Seagull
+M:4/4
+R:jig
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Composer: Donald MacLeod
+S:Source: The Angus Sessions Podcast
+K:A
+e|:a=ga fae|fec Bce|a=ga fae|fec Ace|
+a=ga fae|fec Bce|afe fae|fec Ace:||
+|:fcc cBB|fec Bce|fcc cBB|fec Ace|
+fcc cBB|fec Bce|afe fae|fec Ace:||
+|:zfe Bce|fec Bce|zfe Bce|fec Ace|
+zfe Bce|fec Bce|afe fae|fec Ace:||
+|:aec Bce|fec Bce|aec Bce|fec Ace|
+aec Bce|fec Bce|afe fae|fec Ace:||
+
+X: 185
+T:Donald MacLean's Farewell to Oban
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Composer: Archibald MacNeill
+S:Source: The Angus Sessions Podcast
+R:March
+K:A
+"A"A>B|:c2 B<A e2 f>e|c<e A>B c2 a2|f>e a>f e<f A>c|e>c B<A "E"B2 A>B|
+"A"c2 B<A e2 f>e|c<e A>B c2 a2|f>e a>f "E"e<f A>B|1 "A"c2 A2 A2 A>B :|2 "A"c2 A2 A2 c>d||
+"A"e2 c>d e2 f>g|"D"a2 f>g a3 f|"A"e>c a>f "D"e<f A>c|"A"e>c B<A "E"B2 c>d|
+"A"e2 c>d e2 f>g|"D"a2 f>g a3 f|"A"e>c A>F "E"E<F A>B|"A"c2 A2 A2 c>d|
+"A"e2 c>d e2 f>g|"D"a2 f>g a3 f|"A"e>c a>f "D"e<f A>c|"A"e>c B<A "E"B2 A>B|
+"A"c<e c>d e2 f>g|"D"a2 f>g a3 f|"A"e>c a>f "E"e<f A>B|"A"c2 A2 A2 A>B||
+|:"A"c<A c>d e>A d>e|"D"f>A e>A "A"c2 f>g|"D"a>A d>A "A"c>A c>d|e>c B<A "E"B2 A>B|
+"A"c<A c>d e>A d>e|"D"f>A e>A "A"c2 f>g|"D"a2 a>f "E"e<f A>B|1 "A"c2 A2 A2 A>B:|2 "A"c2 A2 A2 c>d||
+"A"e2 c>d c2 a>e|"D"f>g a>f d2 a>f|"A"e2 f>e c2 A>c|e>c B<A "E"B2 c>d|
+"A"e2 a>e c2 a>e|"D"f>g a>f d2 a2|"A"f>e a>f "E"e<f A>B|"A"c2 A2 A2 c>d|
+"A"e2 a>e c2 a>e|"D"f>g a>f d2 a>f|"A"e2 f>e c2 A>c|e>c B<A "E"B2 c>d|
+"A"c<e "D"d<f "A"e>c B<d|"A"d>c B<A c2 a2|f>e a>f "E"e<f A>B|"A"c2 A2 A2 A>B||
+
+X: 186
+T:Whistle Ower the Lave O't
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Source: Angus Sessions Podcast
+K:Amix
+e|:A2 A>B cB c2|e f/2g/2 ac BAAG|A2 A>B cB ca|1 A>c ec cBAe :|2 A>c ec cBA2||
+e f/2g/2 a>g fec2|e f/2g/2 ac BAAG|e f/2g/2 a>g fe (3fga|1 A>c ec cBA2 :|2 A>c ec cBA<a||
+A2 A>B cB c2|dc e>c cBAG|A2 A>B cB c<a|1 A>c ec cBA<a :|2 A>c ec cBA2||
+e f/2g/2 a>g feec|e f/2g/2 ac BAAG|e f/2g/2 a>g fe (3fga|1 A>c ec cBA2 :|2 A>c ec cBA<a||
+
+X: 187
+T:Miss Admiral Gordon's Strathspey
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:William Marshall (1748 - 1833), Transcribed by Rick Weidley
+K:G
+"G"G2 G2 G3/2D1/2 G1/2e3/2|d1/2B3/2 A3/2G1/2 "C"(E2 E3/2)D1/2|\
+"G"G2 G2 G3/2D1/2 G1/2e3/2|d3/2e1/2 "Am"g1/2B3/2 "G/B"(d2 d2)|
+"Em"d3/2e1/2 g1/2B3/2 "G/B"d1/2B3/2 A1/2G3/2|"Am"A3/2B1/2 c/2B/2A/2G/2 "C"(E2 E3/2)D/2|\
+"G"G2 "Am"G2 "G/B"G3/2D/2 "C"G/2e3/2|"G/B"d/2B3/2 "Am"A3/2B/2G2 "G"G2:||
+"G"B3/2d/2 g/2d3/2 e/2d3/2 g/2d3/2|B3/2d/2 c/2B/2A/2G/2 "C"(E2 E3/2)D/2|\
+"G"B3/2d/2 g/2d3/2 e/2d3/2 g/2d3/2|B3/2c/2 "Am"d/2e/2f/2g/2 "G/B"d2 d2|
+"Em"g/2f3/2 e/2d3/2 "D"e/2d3/2 c/2B3/2|"Am"A3/2B/2 c/2B/2A/2G/2 "C"(E2 E3/2)D/2|\
+"G"G2 "Am"G2 "G/B"G3/2D/2 "C"G/2e3/2|"G/B"d/2B3/2 "Am"A3/2B/2 "G"G2 G2||
+
+X: 188
+T:Itchy Fingers
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Composer: Pipe Major Rab Pinkman
+S:Source: Angus Sessions Podcast
+R:Reel
+K:A
+cd|:"A"e2ef eAce|"D"fAdf "A"e2cd|e2ef eAce|cAdc "E"B2cd|
+"A"e2ef eAce|"D"fAdf "A"e2ce|"D"dc cB "E"Bfed|1 "A"c2A2A2 cd:|2 "A"c2A2A2 ce||
+|"A"a2 (Aa) caAa|"D"fAdf "A"e2ce|a2 Aa caAa|cAdc "E"B2 ce|
+"A"a2 (Aa) caAa|"D"fAdf "A"e2ce|"D"dc cB "E"BfeB|"A"c2A2A2 ce|
+"A"a2 Aa caAa|"D"fAdf "A"e2ce|a2 Aa caAa|cAdc "E"B2 cd|
+"A"e2ef eAce|"D"fAdf "A"e2ce|"D"dc cB "E"Bfed|"A"c2A2A2 cd||
+
+X: 189
+T:Jenny Dang the Weaver
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Angus Sessions Podcast
+R:reel
+K:D
+|:"D"dA (3AAA A3B|ABde f2ef|"G"dBBB BABd|"A"ABde f2ef:||
+|:"D"d2fd "G"efge|"D"d2fd "A"e2BA|"D"d2fd "G"efge|"D"aAAA "A"f2ef:||
+
+X: 190
+T:The High Road to Linton
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Source: Angus Sessions Podcast
+R:Reel
+K:Amix
+|:"A"ceef "D"a2ae|f2fe faaf|"A"ceef a2ae|"D"faec "E"(3BcBA2:|
+|:"A"ceeg "D"fddf|"A"ecce "E"dBBd|"A"ceeg "D"fddf|"A"ecac "E"B2A2:|
+|:"A"a2a2 ef a2|efae "D"faef|"A"a2a2 efae|"D"faec "E"(3BcBA2:|
+|:"A"c2ec "D"defd|"A"c2ec "E"BcdB|"A"c2ec "D"def^g|"A"afec "E"(3BcB A2:|
+
+X: 191
+T:The Streaker
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Composer: Duncan Johnstone
+S:Angus Session Podcast
+R:Reel
+K:AMix
+|:"A"e2ef edBd|edef g3e|"G"d3e defg|"D"afda fdaf|
+"A"e2ef edBd|edef gefe|"G"defg "D"adgf|"A"efed e4:|
+|:"A"efed Bded|edBd efge|"G"dedB defg|"D"afda fdaf|
+"A"efed Bded|edBd efge|"G"defg "D"adgf|"A"efed e4:|
+|:"A"e2ef Bee2|Beef gefe|"G"d2de Bdd2|"D"Bdde gefd|
+"A"e2ef Bee2|Beef gefe|"G"defg "D"adgf|"A"efed e4:|
+|:"A"egfg edBd|edef gefe|"G"d2d2 defg|"D"afda fdaf|
+"A"egfg edBd|edef gefe|"G"defg "D"adgf|"A"efed e4:|
+
+X: 192
+T:Duncan Johnstone
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Composer: Donald McLeod
+S:Source: Angus Session Podcasts
+R:Hornpipe
+K:AMix
+"Am"Aeed edde|eABd e2fg|"G"GddB dBBd|egde BdGB|
+"Am"Aeed edde|eABd e2fg|"G"eaag egBd|1 "Am"e2 A2 A2 e2:|2 "Am"e2 A2 A3 B ||
+"Am"Aaag aeef|gefd e2dB|"G"GddB dBBd|egde BdGB|
+"Am"Aaag aeef|gefd e2dB|"G"Aeed "Em"egBd|"Am"e2 A2 A3 B|
+"Am"Aaag aeef|gefd e2dB|"G"GddB dBBd|egde BdGB|
+"Am"Aeed edde|eABd e2fg|"G"eaag egBd| "Am"e2 A2 A2 gf||
+"Am"eA (3AAA Ae2d|BAAB e2ge|"G"dGGG dBBd|egde BdGB|
+"Am"eAAA Ae2d|BAAB e2fg|"G"eaag egBd|1 "Am"e2A2A2 gf :|2 "Am"e2A2A2 fg||
+"Am"aaag aeeg|aaag a2ef|"G"gage degf|egde BdGB|
+"Am"aaag aeeg|aaag a2ef|"G"gaag "Em"egBd|"Am"e2A2A2 fg|
+"Am"aaag aeeg|aaag a2ef|"G"gage degf|egde BdGB|
+"Am"e2de Aeed|BAAB e2fg|"G"eaag egBd|"Am"e2A2A4||
+
+X: 193
+T:Sommarvals
+C:composed by Ale Moller
+T:Sensommarvals  ( By;Ale Möller)
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+M:3/4
+L:1/8
+R:waltz
+K:Gmaj
+|:d2c2|"G"B3A G2|"D"A4F2|"Em"G6|"C"E3FE2|"G"D2G2A2|"C"c4B2|B2A2G2|"D"A2d3c|
+"G"B3A G2|"D"A4F2|"Em"G6|"C"E3FE2|"G"D2E2G2|"D"G4F2|"G"G6|G2:||
+|:F2G2|"D"A3AA2|A2F2D2|"Am"c6|"G"B3AG2|"C"E2ABc2|"D"d3cBA|"G"G2F2G2|"Am"A2B3A|
+"G"G3AG2|"D"F3GF2|"C"E3FE2|"G"D2G2A2|1B3AG2|"D"A2d2F2|"C"G6|"G"G2:|2"C"c3BAG|"D"A2d2F2|"G"G6|G2||
+
+X: 194
+T:Niel Gow's Lament For His Second Wife
+T:Niel Gow's Lament For The Death Of His Second Wife
+M:6/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+R:jig
+K:Dmaj
+D/B,/|"D"A,>B,D "Bm"D>ED|"A"EF"D"A "G"B2d|"D"A>FD "A"E>DE|"Bm"FDB, "G"B,2D/B,/|
+"D"A,>B,D "Bm"D>ED|"A"EF"D"A "G"d2c/B/|"D"A>FD "G"B,2 A,|"G"B,D>"A"D "D"D2:||
+(3A/B/c/|"D"d>fd "A"ecA|"G"B/A/B/c/d "D"B/A/G/ F/E/D/|"A"E>DE "Bm"F>ED|FDB, "G"B,2 (3A/B/c/|
+"D"d>fd "A"ecA|"G"B/A/B/c/ d "D"B/A/G/ F/E/D/|"A"E>DE "Bm"FDB,|"G"A,<DD "D"[D2A,2](3A/B/c/|
+"D"d>fd "A"ecA|"G"B/A/B/c/ d "D"B/A/G/ F/E/D/|"D"F/D/ A/F/ d/A/ "Bm"B/A/G/ F/E/D/|"Em"FEE "A"E2D/B,/|
+"D"A,B,D "Bm"D>ED|"A"EFA "G"d2c/B/|"D"A>FD "G"B,2A,|"A"B,<DD "D"[D2A,2]|]
+
+X: 195
+T:The Lady On The Island
+T:Windwood
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+R:reel
+K:Dmaj
+dB|:"D"BAFB "A"AFEF|"D"D2FA BAdB|BAFB ~A3B|1 "G"d2fd "A"efdB:|2 "G"d2fd "A"e2(3ABc||
+"D"d2fd "G"efge|"D"afdf "A"edBc|"D"d2fd "G"efge|"D"afdf "A"e2(3ABc|
+"D"d2fd "G"efge|"D"afdf "A"edBc|"D"defg afbf|"G"afdf "A"efdB||
+
+X: 196
+T:The Gatehouse Maid
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:reel
+K:ADor
+"Am"A2(3Bcd edBA|"G"G2GA GEDz/2B/2|"Am"A2(3Bcd edBd|1"G"egdB BABG:|2"G"egdB "Am"BAA2||
+"Am"a2ea agef|"G"(3gag dg (3gag dg|"Am"a2ea agab|"G"gedB "Am"BAA2|
+"Am"(3aba ab agef|"G"(3gag ga g2 ge|dega (3bag ab|gedB BABG||
+
+X: 197
+T:Callaghan's
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:reel
+K:Dmaj
+|AF(3FFF FEDE|~F3E F2dB|AFFF FEDE|FBBA FEE2|
+AF(3FFF FEDE|~F3E F2dB|AFFF FEDE|F2EG FDD2||
+FAAA AGFG|ABde fee2|fedc BcdB|ABde fddB|
+A3B AFFF|ABde fee2|fedc BcdB|ABde fddB||
+
+X: 198
+T:The Virginia
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:reel
+K:Dmaj
+"G"DBBA ~B3A | BAdB AFEF | "D"DF~F2 ~A3B | AFBF AFEF | 
+"G"DBBA ~B3B | BAdB ABde | "D"~f3e dffe | "(Bm)"dBAF "A"BE~E2 :||
+|:"D"defe d3A | "G"BAFA "A"dAFA | "D"defe defg | "G"a2bf "A"afeg |
+"D"fedf "A"efdB | "D"AF~F2 ABde | ~f3e dffe | dBAF "A"BE~E2 :||
+
+X: 199
+T:The Warlock
+M:4/4
+R:Strathspey
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:D
+(3EFG|A>B A>F D2 (3DEF|G>E F>D {E}e2 e>f|g>e f>d e2 (3edF|E2 G>F E2 (3EFG|
+(3AFB A>F D2 (3DEF|G>E F>D {E}e2 e>f|g>e f>d e2 B2||
+(3efg B>g e<B g>e|(3fga d>a f<d a>f|(3efg B>g e<B g>e|d>B A<F E2 E>B|
+(3efg B>g e<B g>e|(3fga d>a f<d a>f|e>g f>e d>B A>F|G>B A>F DE E2||
+|:B<E G>F E2 (3EFG|A>B A>F D2 (3DEF|G>E F>D {E}e2 e>f|1g>e f<d e2 e2:|2 g>e f<d e2 B2||
+(3efg B>g e<B g>e|(3fga d>a f<d a>f|(3efg B>g e<B g>e|d>B A<F E2 E>B|
+(3efg B>g e<B g>e|(3fga d>a f<d a>f|e>g f>e d>B A>F|G>B A>F DE E2||
+
+X: 200
+T:Captain Campbell
+M:4/4
+R:Strathspey
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:Am
+A2 A>B c>A B>G|D<G G>A B>d c/2B/A/2G/2|E<A A>B c>B ce|d<B g>B A2 A>G|
+E<A A>B c>A B>G|D<G G>A B>d c/2B/2G|E<A A>B c>B ce|d<B g>B A2 A2||
+e<a a>g e>d c<e|d>e g>e d/2c/2B/2A/2 G>B|A<a a>g e>d c>e|d<B g>B A2 AB|
+A<a a>g e>d c<e|d>e g>e d/2c/2B/2A/2 G>B|c<A d>B e>d c<e|d<B g>B A2 A2||
+
+X: 201
+T:Bracken Highland (Cutting Bracken)
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:Strathspey
+K:Am
+A2 a2 g>e a<g|e>d B>A G>A B<G|A2 a2 g>e g2|1 e>d B<e A2 A2:|2 e>d B<e A2 A>g||
+|:e>d B>A G>A B<G|e>d B>A B2 B<g|e>d B>A G>A B<G|1 e>d B<g A2 A>g :|2 e>d B<g A2 A>B||
+
+X: 202
+T:Chloe's Passion
+C:composed by Dr. Angus MacDonald
+M:9/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:Slip Jig
+S:Angus Sessions Podcast
+K:Em
+|:Bde gaf gee|Bde gee fdd|Bde gaf gee|fdd agf gee:||
+|:ABB gfe gaa|ABB gfe fdd|ABB gfe gaa|fdd agf gee:||
+|:B2B GzB AAA|BBB GBe Beg|fde faf gee|fdd agf gee:||
+fge edB ege|fdd dBA ABB|fge edB ege|fdd agf gee|
+fge edB ege|fdd dBA ABB|ggg fga gee|ABd fBA B3||
+
+X: 203
+T:The Ninety-Nine March
+C:Randal Bays: The Salmon's Leap
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+R:reel
+K:Emin
+Bc|B2E2G2A2|B3cB2G2|A3BA2F2|B2E2G2Bc|
+B2E2G2A2|B3cB2G2|A2F2d2F2|E4E2:||
+|:(3Bcd|e2B2B2de|f2{gf}e2d2B2|d3ed2B2{cB}|A2F2A2Bd|
+e2B2B2de|f2{gf}e2d2B2|d2 {Bc}B2 A2F2|E4E2:||
+
+X: 204
+T:The Ninety-Eight March
+C:as played by Randal Bays: The Salmon's Leap
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+R:reel
+K:Emin
+g2f2|e3f e2d2|e2 B2 B2 A2|B2 e2 e2 d2|e4 e2 d2|
+B3c (3BcB A2|G2E2E2D2|E8-|E4 e2f2|
+g3a {ga}g2e2|d4e2f2|(3gag e2 d2B2|e4 e2d2|
+B3c (3BcB A2|G2E2E2D2|E8-|E2 EE G2A2|
+B3d e2 f2|g4(3fgf e2|d3e (3ded B2|A4 G2A2|
+B2e2 e2 (3fgf|e2d2d2B2|e8-|e4 f2ef|
+g3a (3gag e2|d4 e3f|g2e2d2B2|e4e2d2|
+B3c (3BcB A2|G2 z2 E4|E8-|E4||
+
+X: 205
+T:Twin Sisters
+C:as played by the Reed Island Rounders
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:Reel
+K:D
+e2a2a3g|e2f2 gfgd|e2a2-abaf|gfec A2 ea|
+e2a2a3g|e2f2 gfgf|e2a2-abaf|gfec A2 [eA]A||
+edBA G2 G2-|GABd e2d2|edBA G2 BB|d B-B2 A2 [e2A2]-|
+[eA]dBA G2 G2-|GABd e2d2|edBA G2 BB|d B-B2 A2-[e2A2]|
+edBA G2G2|edBd e2>d2|edBA G2 BB|d B-B2 A2 [e2A2]-|
+[eA]dBA G2 G2|edBd e2d2|edBA G2 BB|d B-B2 A2 A2||
+|:E2A2[A3E3]G|E2F2 GFGF|E2A2-ABAG|EDED A,2A,2:||
+|:EDB,A, G,2G,2|EDB,D E3D|EDB,A, G,2 B,B,|DB,3 [E4A,4]:|
+EDB,A, G,2 [D2G,2]-|[DG,]DB,D [E2G,2][D2G,2]|EDB,A, G,2 B,B,|DB,3 [E4A,4]:||
+
+X: 206
+T:The Rizla
+C:Charlie McKerron
+S:Angus Sessions Podcast
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+M:4/4
+R:Reel
+K:Am
+B|:c2cA B2BA|Beed BAAB|c2cA B2BA|GEDE GDEG|
+ABBA B2BA|Beed BAAB|cABG AGEG|1EDEG A2 AB:|2 EDEG A2A2||
+|:DEFA E2AB|(3cBA BG AGEG|DEFA G2DE-|E DEA EA,A,2|
+DEFA E2AB|(3cBA Bc edBc-|cABG AGEG|EDEG A2A2:||
+c2cA B2BA|GEDE GDEG|ABBA B2BA|Bded BAAB|
+c3A B3A|GEDE GDEG|ABBA B2BA|Bded BAGA||
+|:DEAE cEAE|DEeE dEeE|DEAB (3cBA ce|aged cAGA|
+DEAE cEAE|DEeE d2AB|c2cA B2BA|1 Bded BAGA :|2 Bded BAAB||
+
+X: 207
+T:The Tongadale Reel
+C:Farquhar McDonald
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:Reel
+K:Am
+AB|:cBcB AEAB|cBcB AFAc|BGDG EDEG|DEGB- B2AB|
+cBcB AEAB|cBcB AFAc|BGDG EDEG|1 EDCB, A,2 AB :|2 EDCB, A,2 A,B,||
+|:CA,EA, FA,EA,|GA,EA, FA,DC|B,G,DG, EG,DG,|F2ED DCA,B,|
+CA,EA, FA,EA,|GA,EA, FA,DC|B,G,DG, EG,CB,|1 CA,A,G, A,3B,:|2 CA,A,G, A,2 AB||
+
+X: 208
+T:Bulgarian Red
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:Charlie McKerron
+R:reel
+K:DDor
+Addc d2dB|c2cA BGGB|Addc d2de|f2fa geef|
+Addc d2dB|c2cA BGGB-|BBBG c2ce|f2fa geef:|
+|:dA (3AAA fAeA|dAAA dece|dAAA fAeA|f2fa geef|
+dA (3AAA fAeA|dAAA decA|B2BG c2ce|f2fa geef:|
+
+X: 209
+T:Tam Lin
+C:Davey Arthur?
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:
+K:Dm
+|:A,2 DA, FA,DA,|B,2 DB, FB,DB,|C2EC GCEC|FEDF EDCG,|
+A,2 DA, FA,DA,|B,2 DB, FB,DB,|C2EC GCEC|1FEDC D2z2 :|2FEDC D2Ac||
+|:dA (3ABA FADA|dA (3AAA FADA|cG (3GGG EGGG|cG (3GGG cdec|
+dA (3AAA FDDA|dA (3AAA FEDC|B,2 B,C D2 DE|1 FEFE D2Ac :|2 FEFE D2z2||
+
+X: 210
+T:Dumbarton Castle
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:James Scott Skinner
+K:A
+G|A>E CA,E2-E F/2G/2|A/2B/2c/2d/2 eA cBBc|A>E CA,E2-E F/2G/2|A/2B/2c/2d/2 Be/2d/2 cAA:|
+e|a>g fa e2-cA|A/2B/2c/2d/2 eA cBBe|a>g fa e/2<e/2c AF|A/2B/2c/2d/2 eA cAAe|
+a>g fa e2-cA|A/2B/2c/2d/2 f/2e/2d/2c/2 B/2A/2G/2A/2 B/2d/2c/2B/2|A>E CA,E2-E F/2G/2|A/2B/2c/2d/2 Be/2g/2 aAA||
+T:Variation
+E|A/2G/2F/2E/2 D/2C/2B,/2A,/2 E/2A,/2B,/2C/2 D/2E/2F/G/2|A/2B/2c/2d/2 f/2e/2d/2c/2 B/2A/2G/2A/2 B/2d/2c/2B/2|A/2G/2F/2E/2 D/2C/2B,/2A,/2 E/2A,/2 B,/2C/2 D/2E/2F/2G/2|A/2B/2c/2d/2 Be/2d/2 cAA:||
+e|a/2g/2a/2g/2 f/2a/2e/2a/2 e/2c/2a/2f/2 e/2c/2A/2F/2|A/2B/2c/2d/2 f/2e/2d/2c/2 B/2A/2G/2A/2 B/2e/2f/2g/2|a/2g/2a/2g/2 f/2a/2e/2a/2 e/2c/2a/2f/2 e/2c/2A/2F/2|A/2B/2c/2d/2 Be/2d/2 cAAe|
+a/2A/2a/2g/2 f/2a/2e/2a/2 e/2c/2a/2f/2 e/2c/2A/2F/2|A/2B/2c/2d/2 f/2e/2d/2c/2 B/2A/2G/2A/2 B/2d/2c/2B/2|A/2G/2F/2E/2 D/2C/2B,/2A,/2 E/2A,/2B,/2C/2 D/2E/2F/2G/2|A/2B/2c/2d/2 Be/2g/2 aAA||
+
+X: 211
+T:Forbes Morrison
+C:James Scott Skinner
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:Strathspey
+K:A
+|:d|c<A E>D C>E A,>C | D2 B>A (3Bfe (3dcB | c<A E>D C>E A,>C | (3DFB (3GEG A2-A:||
+g|a>f g>e f<d e>c | d>B c>A (3Bcd (3efg | a>f g>e f<d e>c | (3Gfe (3dcB A2-A>g|
+(3afa (3geg (3fdf (3ece | (3dBd (3cAc (3Bcd (3efg | (3aga (3efg (3aed (3cBA | (3GFE (3DCB, A,2-A,||
+
+X: 212
+T:Left Handed Fiddler, The
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:composed by James Scott Skinner
+R:reel
+K:Amaj
+d | cAce {g}a2(ed) | cAEA GBBd | cAce aefd | ecdB cAAd |
+cAce {g}a2 (ed) | cAEA GBBG | AcBd cedf | ecdB cAAg ||
+~a2 (Aa) caAa | caAa BcdB | ~a2 (Aa) caAa | BcdB cAAg |
+~a2 (Aa) caAa | caAa BcdB | AEcA dBec | fdge aA [A2E2] ||
+
+X: 213
+T: Dancing Bear, The
+C: Bob McQuillen  2/22/78
+N: Bob wrote:
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+N: I have a wonderful friend who is a Bear named Oso and this tune is for
+N:m because he
+N: likes it. Barry Nielson likes it too, and so its for him, too, with lov
+N:from Mac.
+Z: John Chambers <jc@trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: Em
+|: "Em"EFGF EFGF | EFGA G2E2 |  "A"EFGF EFGF |     EFGA G2E2 |
+|  "Em"EFGF EFGF | EFGA B4   | "B7"B2Bc BAGF | "Em"G2E2 E4  :|
+|: "Em"e2ef gfef | gfe2 e4   |  "A"e2ef gfef |     gfe2 e4   |
+|   "C"e2ef gfef | gfe2 e2dc | "B7"B2Bc BcBA | "Em"GFE2 E4  :|
+
+X: 214
+T:Liberty
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:as played by Willie Jones
+K:D
+ea|:f2A2f2A2|f3g fedf|g2B2g2B2|g3a geag|
+f2A2f2A2|{e}f3a fedB|ABcd egfe|1d4-d2 ag:|2 d4 dc/2B/2A2||
+|:{F}A3B A2FE|D2DF f2d2|{F}A3B AFDF|E3F E4|
+{F}A3B AGFE|DEFA f2d2|efed cABc|1d4 dc/2B/2A2:|2d4 d2 ag||
+T:alt 7th measure of B Part
+ez2d cABc
+
+X: 215
+T:Pretty Polly Ann - AEAE Tuning
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+S:Source - Brad Leftwich, Rounder Fiddle
+K:A
+AB|c2 cc BcAB|c2 c2 E3 E|c2 cA BcAF|EEFE A2 AB|
+c2 cc BcAB|c2 c2 E3 E|c2 cA BcAF|EEFE Az [A,2E2]||
+|:[A,E] EFE A2 Ac|BAFG Az [A,2E2]|[A,E] EFE A2 Ac|BAFG Ez [A,2E2]|
+[A,E] EFE A2 Ac|BAAB c2 Bc|cz e2 ecAB|1 cABG A2 [A,2E2]:|2 cABG A2 A2||
+e3e e2fe|ceef e3 e|c2 ee e2 fe|cAFA E2 A2|
+e3e e2fe|ceef e3 e|c2 ee e2 fe|cAFA E2 AB||
+
+X: 216
+T:Thunderhead
+C:composed by Grey Larsen
+S:source: Angus Session Podcast
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+M:6/8
+R:jig
+K:Bm
+ABB fBB| eBB dBA|BBB fgf|edB ABd|
+ABB fBB| eBB def|gfe f3|edB ABd:||
+|:afd edB|ABd ccc|Bcc Bcc|dcB c3|
+afd edB|ABd cBc|d2B c2a|1 gec dfg:|2 gec dc=c||
+%1st time thru B Part, play 2nd ending w/no repeat
+%2nd time, play second ending gec d3, then to beginning
+
+X: 217
+T:Johnny and Dorothy Livingston
+C:as played by Mari Campbell
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:March
+K:D
+D2 E2|:{E}FA,A,B, A,B,DF|EDEF D2EF|{F}G>F GB {c}BAdF|{G}F>E DF E2 D>E|
+FA,A,B, A,B,DF|GABc {c}d2c>B|AB/2c/2 dF GEA[AG]|1[A2F2] [A2D2][AD] z [AD]>[AE] :|2 [A2F2] [A2D2][AD] z AB/2c/2|
+|:d2 e>f A3f|g>f ed Bc/2B/2 AB|d2 e>f A2 ag|fg/2f/2 e2 e2 d>e|
+fedc d2cB|AB/2c/2 dF G2 A>G|FAdF GEA[AG]|1 [A2F2] [A2D2][AD] z AB/2c/2 :|2[A2F2] [A2D2] [A4D4] ||
+
+X: 218
+T:Crested Hens
+T:Cockscomb Bouree
+T:Les Poules Huppees
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+M:3/4
+L:1/8
+R:waltz
+K:Dmaj
+(GFD)|  (V)E3G FE | B4 B-c | dc Be dc | (V)(dc) (U)B-A (V)G(U)F |
+|  E3G FE | B4 B-c | dc BA GA | B3 (GFD) |
+|  E3G FE | B4 B-c | dc Be dc | d-c B-A GF |
+|  E3G FE | B4 B-c | dc BA GA | B4    e-f ||
+|| g-B Bg gB | (U)=c3 (V)c(U)e-f | gf ag fe | ^d2e2 -f2 |
+|  g-B Bg gB | (U)=c3 c e-f | gf ag 3)(fed) |  (U)e3 (V)B  (U)e-f |
+|  g-B Bg gB | (U)=c4 (V)e(U)f | gf ag fe | ^d2e2 -f2 |
+|  g-B Bg gB | =c4ef | gf ag fd |  e3 (GFD) ||
+
+X: 219
+T:Crested Hens (Harmony)
+M:3/4
+R:
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:Bm
+EDA,|:B,3 EDB,|E4 E2|F6-|F3 EDB,|
+B,3 EDB,|E4 E2|F6-|1 F3 EDB,:|2 F6||
+EG GE EG|GA-A2 GA|BA d=c BA|F2G2A2|
+EG GE EG|GA-A2 GA|BA d=c BA|B4 GF|
+EG GE EG|GA-A2 GA|BA d=c BA|A2G2F2|
+EG GE EG|GA-A2 GA|BA d=c BF|G6||
+
+X: 220
+T:Hickory Jack
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:as played by Matt Brown
+K:AMix
+|:"A"e-a2 aa2 g-a|bage "E"d-e2e|"G"gfed "D"BAGD|1"E"EGAB "A"A2A2:|2"E"EG
+AB "A"A3A||
+|:"A"A c2-B A2 A-B|cBAG "E"E(DEF)|"G"GAGD "D"EDCD|"E"E-GAB "A"A2A2-:||
+A-B)cd e2ef|"G"gfed "D"BAGD|"E"EGAB "A"A3A|
+"A"A c2-B A2 A-B|cBAG "E"E(DEF)|"G"GFGF "D"EDCD|"E"E-GAB "A"A2A2-|
+A-Bcd e2ef"G"|gfed "D"BAGD|"E"EGAB "A"A2A2||
+
+X: 221
+T:Bo Mhin Na Toitean
+T:Bó Mhín Na Toitean
+T:John Doherty's
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+M:4/4
+L:1/8
+R:strathspey
+K:Ador
+|:"Am"A2 e2 e2 d-B|"D"d2 ef "G"ge a2|"Am"A2 e2 e2 d-B|"G"eg ed BA GB|
+"Am"A2 e2 e2 d-B|"G"d2 ef ge a2|"Em(C)"eg ed "(G)"(e/f/g) e-d|"Am"B2 A2 A2 B-G:||
+|:"Am"A2 a2 a2 g-e|"D"d2 ef "G"ge a2|"Am"A2 a2 a2 g-e|"G"dg ed BA GB|
+"Am"A2 a2 a2 g-e|"G"d2 ef ge a2|"Em(C)"eg ed "(G)"(e/f/g) e-d|"Am"B2 A2 A2 B-G:||
+
+X: 222
+T:Break O' Day
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:as played by The Monks
+K:G
+Bc|:dBcA BAGB|ABAG FDBc|dBcA BAGB|ABAF G2 Bc|
+dBcA BAGB|ABAG FDEF|DFAB AGFG|1 ABAF G2 Bc:|2ABAF G2ef||
+gagf ed3|c4 A3G|FDEF DEFD|EDFD ED D2|
+gagf ed3|c4 A3G|FDEF DEF2|1[G3B3][G3B3] ef:|2[G3B3][G3B3] Bc||
+
+X: 223
+T:Bridal March (from "Lohengrin")
+C:Wagner
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:
+K:G
+"G"D4 G3G|G8|D4 "D"A3F|"G"G8|D4 G3c|"C"c4 B3A|"G"G4 F3G|"D"A8|
+"G"D4 G3G|G8|D4 "D"A3F|"G"G8|D4 G3B|"Bm"d4 B3G|"C"E4 "D"A3F|"G"G8||
+"C"c4 B3A|E4 E4|"D"F4 G3A|A8|"C"c4 B3A|E4 E4|E4 "D"F3^G|"E"^G8||
+"G"D4 G3G|G8|D4 "D"A3F|"G"G8|D4 G3B|"Bm"d4 B3G|"C"E8| e8|"D"d4c4|B4A4|"G"G8|
+
+X: 224
+T:Ding Dong Merrily On High
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+K:D
+d2d2 edcB|A6 A2|B2d2d2c2|d4d4|
+d2d2 edcB|A6 A2|B2d2d2c2|d4d4|
+|:a3g fgaf|g3f efge|f3e defd|e3d cdec|
+d3c BcdB|c3B A2A2|B2d2d2c2|d4d4:||
+T:Low Harmony
+A2A2 BBGG|E6 A2|A2 G2 E2 A2|A4A4|
+A2A2 BBGG|E6 A2|A2 G2 E2 A2|A4A4|
+|:z2A4d2|dcBA BA G2|z2AG F2B2|BAGF GF E2|
+z2FE D2 G2|EFGF E2 A2|A2G2E2A2|A4A4:||
+
+X: 225
+T:Henry King's Reel
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+C:as played by Trevor and Travis Stuart
+K:G
+DF|:G2 DCB,G, B,C|ECDG FDFG|A2 Ac BAFF|AcAF DFDF|
+G2 DCB,G, B,C|ECDG FDFG|A2 Ac BAFF|AGGG G2DF:||
+|:GzGz [G4B4]|[G6c6] [GB][GB]|[D3A3]G FDFG|AcAF DFDF|
+[G,4G4] [G4B4]|[G6c6] {D}cB|ABAF DFAc|BG2GG2 DF:||
+
+X: 226
+T:Flying Home To Shelly
+C:Paul Gitlitz
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:
+K:G
+|:"G"D2 dD cDBD|"Am"E2 cE BEAE|"Bm"D2 BD ADGD|"C"FGAF DFED|
+"G"D2 dD cDBD|"Am"E2 cE BEAE|"Bm"D2 BD "Am"ADGD|1 "D"FGAF "G"G2 GE :|2 "D"FGAF "G"G2 Bc||
+|:"G"d3 B AGAB|"Am"c3 B AG E2|"C"e3d "Bm"B2 dB|"Am"ABcB "D"A2 Bc|
+"G"d3 B AGAB|"Am"c3 B AG E2|"C"e3d "Am"B2 dB|1 "D"ABcA "G"GABc :|2 "D"ABcA "G"G2 GE||
+
+X: 227
+T:Drumshambo Jig
+M:6/8
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:Jig
+K:Em
+"Em"BEF G2A|Bee dBA|BEF G2B|"D"AFD AFD|
+"Em"BEF G2A|Bee dBc|"C"BEF G2B|"D"AFD "Em"E3:|
+|:"Em"gfe "D"fed|"Em"Bee Bee|gfe "D"fed|"Em"Bed e2f|1 gfe "D"fed|
+"Em"~e3 dBA|"C"BEF G2B|"D"AFD "Em"~E3:|2 "(G)"~g3 "D"~a3|
+"Em"bge "(D)"dBc|"C"BEF G2B|"D"AFD "Em"E3||
+
+X: 228
+T:Drowsie Maggie
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:reel
+K:Edor
+|:E2BE dEBE|E2BE AFDF|E2BE dEBE|BABc dAFD:|
+K:D
+d2fd c2ec|defg afge|d2fd c2ec|BABc dAFA|
+d2fd c2ec|defg afge|afge fdec|BABc dAFD||
+
+% Output from ABC2Win  Version 2.1 i on 2/3/2007

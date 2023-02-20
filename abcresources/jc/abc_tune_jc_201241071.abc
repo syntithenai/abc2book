@@ -1,0 +1,27 @@
+X: 4223
+T: Go to Berwick Johnny.   Jig time.
+%R: ???
+B: Niel Gow & Sons "Complete Repository" v.4 p.22 #3 (and top staff of p.23)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 3/2
+L: 1/8
+K: F
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+|:\
+c2F2 F2c2 dcBA | c2F2 F2c2 A2f2 | c2F2 F2c2 dcBA | B2G2 ~G3A B2d2 :| Tf3g f2F2 ABcA | Tf3g f2F2 A2c2 | Tf3g f2F2 ABcA |
+~g3a g2G2 B2d2 | Tf3g f2F2 ABcA | Tf3g f2F2 A2c2 | f3g fgag agfe | d2g2 g2G2 B2d2 |: c3c .d.c.B.A dcBA | c3c dcBA c2f2 |
+c3c dcBA dcBA | B2G2 ~G3A (B2d2) :: !p!(c2.A2) (f2.A2) (a2.A2) | (c2.A2) (f2.A2) (c2.f2) | (c2.A2) (f2.A2) (a2.A2) | B2G2 ~G3A (B2d2) :|
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+|:\
+f4 f4 f4 | f4 f4 f4 | f4 f4 f4 | g4 e4 c4 :| f4 f4 f4 | f4 f4 f4 | f4 f4 f4 |
+g4 e4 c4 | f4 f4 f4 | f4 f4 f4 | f4 f4 f4 | g4 e4 c4 |: F4 f4 f4 | F4 f4 f4 |
+F4 f4 f4 | g4 e4 c4 :: !p!F4 f4 f4 | F4 f4 f4 | F4 f4 f4 | g4 e4 c4 :|
+%%text Note between the staffs of the last 4-bar strain:
+%%begintext align
+%% In Part 2.d of Repository, "Go to Berwick Johnny" was
+%% printed but the two last parts were omitted.
+%%endtext

@@ -1,0 +1,22 @@
+X: 10301
+T: SAW YE MY WEE THING
+Q: "Slow."
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.30 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Ignored the dot on the 1st strain's last note, to agree with the 2nd strain's pickup notes.
+M: 6/8
+L: 1/8
+K: A
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+EAA (A>B)c | {c}B>AG Bd2 | e<ee (d<e)g | e>d (c/B/) A3 |\
+EAA A>Bc | {c}B>AG Bd2 | eee deg | e>d (c/B/) A2 |]
+(B/A/) |\
+GBd g>ab | {c}B>AG Bd2 | eaa a>ga | {ga}b>a (g/^f/) e3 |\
+d>e^f g>ab | {c}B>AG Bd2 | efe d>eg | e>d (c/B/) A3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

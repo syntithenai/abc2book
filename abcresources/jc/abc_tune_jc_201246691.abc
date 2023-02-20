@@ -1,0 +1,40 @@
+
+X: 1
+T: Saint Patrick's An Dro   [Am]
+T: As Covas Do Rei Cintolo
+O: Breton
+S: http://thesession.org/tunes/display/2290
+S: http://www.youtube.com/watch?v=Cn9vbcZ0brg
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+R: andro
+%Q: 1/4=90
+K: Am
+|: "Am"{G}ABcB A2e2 | "Am"c2A2 "Em"B2e2 \
+|1,3 "Dm"dedc "G"B2AB | "F"c2Ac "Em"B4 \
+:|2,4 "Dm"dedB "F"c2AB | "G"cABG "Am"A4 :|
+|:"Am" {G}ABcd e3e  | "G"d2g2 "C"e2c2 \
+|1,3 "F"ABce "G"d3e | "Dm"dedc "Em"B4 \
+:|2,4 "F"ABce "G"d3B  | "Em"cABG "Am"A4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Saint Patrick's An Dro   [Em]
+T: As Covas Do Rei Cintolo
+O: Breton
+S: http://thesession.org/tunes/display/2290
+S: http://www.youtube.com/watch?v=Cn9vbcZ0brg
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+R: andro
+%Q: 1/4=90
+K: Em
+|: "Em"{D}EFGF E2B2 | "Em"G2E2 "Bm"F2B2 \
+|1,3 "Am"ABAG "D"F2EF | "C"G2EG "Bm"F4 \
+:|2,4 "Am"ABAF "C"G2EF | "D"GEFD "Em"E4 :|
+|:"Em" {D}EFGA B3B  | "D"A2d2 "G"B2G2 \
+|1,3 "C"EFGB "D"A3B | "Am"ABAG "Bm"F4 \
+:|2,4 "C"EFGB "D"A3F  | "Bm"GEFD "Em"E4 :|

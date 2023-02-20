@@ -1,0 +1,22 @@
+X: 20433
+T: LULLABY
+T: or "PEACEFUL SLUMBERING ON THE OCEAN."
+C: Storace.
+Q: "Slow with feeling."
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.43 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+z2z d2f | (af)d B2d | A2F (A>B)c | d2e fed |\
+He2A d2f | (af)d (B>c)d | A2F (A>B)c | d2{a}g f2e |\
+d3 d/e/f2 | e/c/A2 d/B/G2 | A/F/D2 (ceg) | (fd)B A2c |\
+d2z2z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

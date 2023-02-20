@@ -1,0 +1,21 @@
+X:405
+T:Lavender's Blue
+C:Traditional English
+L:1/4
+M:3/4
+%%MIDI beat 100 95 80
+H:For the dance by Charles Bolton
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=120
+K:G
+P:A
+[| "G"GBc | "/"d c/B/ A/G/ | "D"ADD | "/"A3 | "G"GBc | "/"d c/B/ A/G/ | "D"ADD | "G"G3 |
+P:B
+|: "Em"BGG | "Am"c B/A/ G/F/ | "D"ADD | "/"A3 | "G"GBc | "/"d c/B/ A/G/ | "D"ADD | "G"G3 :|
+N:Replace by blank line and X field
+T:Lavender's Blue: Second tune
+K:F
+P:A
+[| "F"Fcc | "F7"c B/A/ G/F/ | "Bb"Fdd | "/"d3 | "F"Fcc | "/"c B/A/ G/F/ | "C7"BA G | "F"F3 |
+P:B
+|: "Dm"AFA | "F"c B/A/ G/F/ | "C"GCG | "C7"G3 | "F"Fcc | "Dm"c B/A/ G/F/ | "Gm"BA "C7"G | "F"F3 :|

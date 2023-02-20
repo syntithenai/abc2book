@@ -1,0 +1,35 @@
+X: 18532
+T: VOULEZ VOUS DANSEZ MADEMOISELLE
+T: the Portuguese Dance
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.18 p.53 #2
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+[|]\
+e2e e2e | {e}dcd c2c | B2c d2B | c2d e2c |\
+e2e e2e | {e}dcd cde | f2e dec | cdB c3 |]
+d2d B2G | cde d2d | d2d B2G | cde d3 |\
+g2g {a}g^fg | (^fe).e (ed).d | (dc).c {c}B2(d/c/) | B2A G3 |]
+{ef}g2g g2g | {f}fef e2e | d2e f2d | e2f g2e |\
+{ef}g2g g2g | {f}fef efg | a2g fge | efd c3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+[|]"1st strain 8va . . ."\
+ceg ceg | Bdg ceg | dfg dfg | ceg ceg |\
+ceg ceg | Bdg cfg | a2g fge | efd e3 |]
+Bdg Bdg | edc B2z | Bdg Bdf | edc B3 |\
+gbd' gbd' | (gc').c' (c'b).b | (ba).a {a}g2c' | d'2d g3 |]
+!p!{c'd'}e'2e' e'2e' | {e'}d'c'd' c'2c' | b2c' d'2b | c'2d' e'2c' |\
+   {c'd'}e'2e' e'2e' | {e'}d'c'd' c'2e | f2e d2c | g2G c3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Half right & left, down the mid: up again, Allemande & hands six round.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

@@ -1,0 +1,20 @@
+X: 30421
+T: TAUNTON ASSEMBLY
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.42 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Initial note lengthened to fix the rhythms.
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E2 |\
+A2cA ecBA | BcdB AGFE | AA,CE Acec | fdBA GBGE |\
+A2cA ecBA | BcdB AGFE | AGAB cdea | fdBG A2 :|
+|: e2 |\
+a2ag aece | fdBA GBGE | AGAB cBce | dcBA GFED |\
+CA,CE DB,DF | BcdB AGFE | AGAB cdea | fdBG A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,26 @@
+X: 1123
+T: Sir Alex.r Don's Strathspey
+T: Sir Alexander Don's Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.12 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 7,6-bar lines, for compactness and proofreading.
+V: 1 staves=2
+|:\
+D<D D>F TE>DEF | D<D D>F A3d |\
+D<D D>F TE>DEF |[1 DB,B,A, D3A, :|[2 DB,B,A, D3B |]\
+A<FF>D FEEF | A<FF>D [F3D3]B |
+A<FF>D TE>DEF | DB,B,A, D3B ||\
+A<FF>D TF>EEF | A<FF>D [B3D3G,3]d |\
+(B/A/G/)F/ (G/F/E/)D/ TE>DEF | D<B,B,>A, D3A, |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+d2d2 A2A2 | d2d2 d2d2 | d2d2 A2A2 |[1 f2g2 f2d2 :|[2 f2g2 f2d2 |]
+d2d2 A2A2 | d2d2 d2d2 | d2d2 A2A2 | f2g2 f2d2 || d2d2 A2A2 |
+d2d2 g2G2 | d2d2 A2A2 | f2g2 f2d2 |]

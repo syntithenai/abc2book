@@ -1,0 +1,45 @@
+X: 1
+T: Inno di Mameli
+C: words: Goffredo Mameli 1847
+C: music: Michele Novaro 1847 
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+S: Helene Criscio, Tony Santorella "Italian Favorites for Accordion" 1997
+S: https://en.wikipedia.org/wiki/Il_Canto_degli_Italiani
+M: 4/4
+L: 1/8
+K: F
+%%continueall 1
+% - - - - - - - - - -
+C2 |\
+"F"(CD)C2 z2A2 | (AB)A2 z2A2 | (cB)A2 "C7"z2G2 |
+w: Fra-tel - li d'I-ta - lia, l'I-ta - lia s'\`e
+%
+(AG)F2 z2C2 | (CD)C2 z2A2 | (AB)A2 z2A2 |
+w: de - sta; dell' el - mo di Sci - pio s'\`e
+%
+(cB)A2 "C7"z2G2 | "F"(AG)F2 z2A2 | "A7"A2E2 z2(FG) |
+w: cin - ta la te - sta Do-v'\`e la Vit -
+%
+"Dm"(FE)D2 z2F2 | "A7"(EF)G2 z2A,2 | "Dm"A4 "C7"B2C2 |
+w: to - ria	 Le por - ga la cio-ma ch\'e
+%
+"F"(CD)C2 z2A2 | (AB)A2 z2A2 | (cB)A2- "C7"(Ac) (Gc) |
+w: schia - va di Ro - ma Id-dio* la__ cre -
+% - - - - - - - - - -
+"F"F2 FF F2 FF | F2 FF F^F GA | "Bb"B2(BD) D2 DC ||[K:Bb]
+w: o. | |  Fra-tel - li di I-
+%
+"Eb"E2"Bb"DF F2F=E | "Eb"G2"Bb"FF F2GA | B2DE "Eb"G2"Bb"FD |
+w: ta-lia L'I-ta-lia se de-sta dell' el-mo di Sci-pio s'\`e cin-ta la
+%
+"F7"E2CC C2C=B, | "Bb"D2"F7"CE E2ED | "Bb"F2"F7"Ec c2cB |
+w: te-sta dov' \`e la Vit-to-ria? Le por-ga la chio-ma chi schia-va di
+%
+A2AG F2FE | "Bb"D3D "Gm"D2D^C | "Cm"E2"Gm"DD D2=CB, |
+w: Ro-ma Id-dio la cre-\`o. Strin-giam-ci a~co-or-te, siam pron-ti alla
+%
+"D7"C2A,D "Gm"D2D^C | "Cm"E2"Gm"DD D2CB, | "D"A,3D "Bb"D2DC |
+w: mor-te, siam pron-ti alla mor-te, l'I-ta-lia chiam-m\`o strin-giam-cia co-
+%
+"Eb"E2"Bb"DF F2=EF | "Cm"A2 GG GABc | "Bb"d2dd "F7"c2cc | "Bb"B2-"^>"B2 z2 |]
+w: or-te siam pron-ti alla mor-te siam pron-ti al-la mor-te l'Ital-lia cia-m\`o. S\`i!*

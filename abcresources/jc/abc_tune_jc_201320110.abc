@@ -1,0 +1,20 @@
+X: 639
+T: On the Sly   #2
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #639
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0639/oneill-1001-0639-1.abc
+%m: Tn3 = n(3n/o/n/ m/n/
+N: Compacted via repeats and multiple endings (and ignoring slurs) [JC]
+M: C|
+L: 1/8
+K: Ador
+"^A"\
+|: gf | eA (3AAA (3efg dc | BAGA Bc \
+[1 df | eA (3AAA (3efg dc | BAGB A2 :|\
+[2 d2 | eaag (3efg dc | BAGB A2 |]
+"^B"\
+|:   dc | BGBd Tg3a | bgaf \
+[1 ged2 | eaag a2ga | bgaf ge :|\
+[2 gfed | eaag (3efg dc | BAGB A2 |]

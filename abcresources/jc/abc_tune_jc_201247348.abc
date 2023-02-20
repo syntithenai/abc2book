@@ -1,0 +1,26 @@
+X:1
+T:Chorus Angelorum
+T:Antiphon - VIII Mode
+C:Gregorian chant - Public domain
+G:Gregorian chant
+G:Antiphon
+G:Eighth mode
+S:Abbaye Saint-Pierre de SOLESMES. _Graduale Triplex_.  Paris-Tournai:
+Abbaye Saint-Pierre de Solesmes & Desclée, 1979. p. 697.
+Z:ABC transcription by Paulo Eleutério Tibúrcio abcusers 2002-12-1
+% Dotted notes in the original square notation generally trancribed as
+1/4.
+% Original episematic notes generally transcribed as tenuto signed ones;
+% quilismatic notes indicated by a general gracing sign (i.e., the tilde
+'~');
+% original liquencence notation is indicated by "^liq.".
+L:1/8
+U: H=!fermata!
+U: T=!tenuto!
+K:C
+TGTc A A"^liq."G F TGTA  !shortphrase!G2 TBTc TdcA c c !longphrase!B2
+w:Cho_rus an_ge-ló_rum\* te_ sus__cí-pi-at,
+B c TdTe c TA c B"^liq."G A G !longphrase!F2
+w:et cum Lá_za-ro quon-dam_ páu-pe-re
+F A"^liq."G TGTA~BTcTBTA G A AB G G HG2||
+w:ae-tér_nam_____ há-be-as_ ré-qui-em.

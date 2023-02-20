@@ -1,0 +1,31 @@
+X: 1242
+T: the Three Fishermen
+C: College Song
+%R: air, march
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Ab
+%%continueall 1
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [EE] | [AA][AA] [AA][BB] | [c2c2] [B2B2] | [A3A3] [AA] | [ec][ec] [ec][ed] | [e2e2] [e2d2] | [e4c4] | [ee][ec] [ee][ec] |
+w: 1.~O once there were three fish-er-men,* Once there were three fish-er-men, Fish-er, fish-er,
+w: 2.~The first one's name was I-sa-ac, The first one's name was I-sa-ac, I-sa, I-sa,
+w: 3.~The second one's name was Ja-a-cob, The second one's name was Ja-a-cob, Ja-a, Ja-a,
+w: 4.~The third one's name was A-bra-ham, The third one's name was A-bra-ham, A-bra, A-bra,
+w: 5.~They all sailed out for Am-ster-dam, They all sailed out for Am-ster-dam, Am-ster, Am-ster,
+[V:2] [EE] | [AA][AA] [AA][BB] | [c2c2] [B2B2] | [A3A3] [AA] | [AA][AA] [AA][BA] | [c2G2] [B2E2] | [A4A4] | [cA][AA] [cA][AA] |
+%
+[V:1] [ed][eB] [e2B2] | [ed][eB] [ed][eB] | [ec][cA] [cA][eE] | [cA][cA] [cA][dB] | [e2c2] [d2B2] | [c2A2]z |]
+w: men, men, men Fish-er, fish-er, men, men, men, O once there were three fish-er-men.
+w: ac, ac, ac I-sa, I-sa, ac, ac, ac The first one's name was I-sa-ac.
+w: cob, cob, cob Ja-a, Ja-a, cob, cob, cob The second one's name was Ja-a-cob.
+w: ham, ham, ham A-bra, A-bra, ham, ham, ham The third one's name was A-bra-ham.
+w: sh, sh, sh Am-ster, Am-ster, sh, sh, sh They all sailed out for Am-ster-dam.
+[V:2] [BE][GE] [G2E2] | [GE][GE] [GE][GE] | [AA,][EA,] [EA,][EE] | [AA][AA] [AA][GE] | [A2E2] [G2E2] | [E2A,2] z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,23 @@
+X: 32853
+T: ARTHUR'S SEAT WALTZ #3
+C: Louis J. Collins, Edinburgh
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.285 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd phrase has unusual repeat notation.
+N: There is a "Repeat 8va" note on the right, between the 1st and 2nd staffs, but no clue what it applies to.
+N: You could play the 1st phrase an octave higher, or the 2nd phrase an octave lower.
+M: 3/4
+L: 1/8
+K: D
+uA,2 !segno!|\
+(A,2D2F2) | (A3^GA2) | (B2A3D) | C6 |\
+(C2E2F2) | (G3FG2) | (B2A3E) | (F4A,2) |\
+(A,2D2F2) | (A3^GA2) | (B2A3D) | d6 |
+(d2c2B2) | (A3DG2) | (F4E2) | D6 :|\
+ua2 !segno!|\
+(a^gagag) | (.a4d'2) | (d'c')c'c'c'c' | (.c'4.g2) |\
+(gfgfgf) | (.g4.b2) | (ba)aaaa | (.a4.a2) |
+(a^gagag) | (.a4.f'2) | (f'e')e'e'e'e' | (e'4d'2) | (d'c')c'c'c'c' | (.c'4e'2) |\
+[1 d'd'd'd'd'd' | d'2(f2g2) !segno!||[2 d'4d'd' | d'6- | "_Fine."d'2z2 "_D.C."|] 

@@ -1,0 +1,27 @@
+X:1
+T:Ton simple fisel
+G:Kazimodal
+R:Da\~ns fisel
+C:Traditionnel, arrangement http://kazimodal.trad.org
+Q:C3=156
+S:Tonioù Breizh-Izel 1128 (Gro\~nvel)
+P:A(BC)4BD
+M:12/8
+K:C
+P:A
+%%MIDI gchord fzzczzfzcfzz
+%%MIDI gchord fzfczzfzzfzc
+%%MIDI chordprog 41
+%%MIDI bassprog 42
+%%MIDI program 0
+"Em"G \
+P:B
+|: "Am"A2 ({de}d) c2 ({de}d) "G"B2 c "F"A3 | c2 d "C"(ed)c "Dm"d3 "Em"e3 :|
+P:C
+|: "Am"A>Bc "Dm"d2 B c2 A "Em"G2 c |1 "F"B2 d ({Bc}B2) c "G"A3 "Am"A3 :|2\
+	"F"B2 d ({Bc}B2) c "G"A3 "Am"A2 "Em"G ||
+P:D
+|: "Am"A>Bc "Dm"d2 B c2 A "Em"G2 c |1 "F"B2 d ({Bc}B2) c "G"A3 "Am"A3 :|2\
+	"F"B2 d ({Bc}B2) c "G"A3 "Am"A2 \
+K:G
+D ||

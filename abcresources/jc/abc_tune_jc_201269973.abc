@@ -1,0 +1,27 @@
+X: 1
+T: Drapers Gardens
+P: Longways for as many as will
+%R:
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.189
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: 3/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+AF Ad AF | dA dfdA | fd fagf | e3 d e2 |\
+AF Ad AF | dA dfdA | fd fagf | e3 d d2 :|
+|:\
+ec/d/ ec Ae | fd/e/ fd fa | ^g2 e2 ga | a3 g a2 |\
+aa/g/ fafd | ff/e/ dfdA | df eagf | e3 d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text Note: Each Strain twice over.
+%%begintext align
+%% The 1. man and 2. wo. set and turn single, then back to back and turn .| The other two do the
+%% same :| Then the 1. and 2. wo. change places, the other two do the same; then hands half round,
+%% and right and left half round, and lead through the bottom, then through' the top, and cast off and
+%% turn :|
+%% [DMDfD]
+%%endtext

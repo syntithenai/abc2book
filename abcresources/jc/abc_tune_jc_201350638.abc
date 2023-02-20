@@ -1,0 +1,33 @@
+X: 1
+T: Ward's Drop
+P: Longways for as many as will
+%R: slip-jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.71
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+M: 9/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B, |\
+D/E/FE BFE DCB | c/d/ec GAB    A2e | d/e/fd bfg  fed  | cde FBA B2 :|
+|: d |\
+B/c/dB gde dcB | Ag^f   g/a/ba g2d | B/c/dG gd=e f=ed | cBA BAG F2F |
+D/E/FD BFE ECE | c/d/ec GAB    A2f | d/e/fd bfg  fed  | cde FBA B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+B |\
+B3 d2c BAG | F2f =e3 f2A | B3  d2e dcB  | edc f2F B2 :|
+|: B |\
+d3 edc BAG | d3   D3 G2B | G3 =B2c dc_B | GFE F2c F3 |
+B3 d2c BAG | F2f =e3 f2A | B3  d2e dcB  | edc f2F B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man turns the 2d Wo. with his Right hand, and the 1st Man casts off,
+%% and the 2d Wo. casts up at the same Time .|
+%% the 1st Wo. does the same with the 2d Man :|
+%% Cross over and half figure, right and left quite round :|
+%% Foot it at Corners and turn, foot it at the other Corners and turn your Partners :|:
+%%endtext

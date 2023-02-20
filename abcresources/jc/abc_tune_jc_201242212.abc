@@ -1,0 +1,30 @@
+X: 532
+T: Merrily dance the Quaker
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.53 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+(GAB) D2B | A2G TE2D |\
+(GAB) D2D | E3 G3 :|\
+|:\
+dcB edc | dcB ABc |
+dcB efg | TB3 d3  |\
+dcB gfe | dcB A2A |\
+GAB D2D | E3  G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g3 g3 | d3  d3  |\
+G3 B3 | cBA G3 :|\
+|:\
+G3 c3 | B3  d3  |
+g3 g3 | gdB GBd |\
+g3 c3 | B3  d3  |\
+G3 B3 | cBA G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

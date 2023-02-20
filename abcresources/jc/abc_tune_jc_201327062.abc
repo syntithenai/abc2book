@@ -1,0 +1,32 @@
+
+X: 1
+T: Quadrille Bouchard - 1\`ere partie
+T: Quadrille de l'\^Ile d'Orl\'eans, Partie 2
+C: Joseph Bouchard
+R: jig
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A |\
+"D"dfd "F#m"cfc | "Bm"B2B B2A | "D"dfd "F#m"cfc | "Em"B2B B3 |\
+"A7"ege "G"dgd | "A"c2c c2B | "A7"ABA ABc |1 "D"dAB "A7"AF :|2 "D"d3 d2 ||
+|: A |\
+"D"ABA FAd | f3- f2d | "A"e2d c2d | "Em"g3 g2f |\
+"A7"e2e e2d | c2c c2B | A2A ABc |1 "D"dAB "A7"A2 :|2 "D"d3 d2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Quadrille de l'\^Ile d'Orl\'eans, Partie 2
+T: Quadrille Bouchard - 1ère partie
+C: Joseph Bouchard
+R: jig
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: "D"dfd "F#m/c#"cfc | "Bm"B2B B2A | "D"dfd "F#dim"cfc | "Em"B2B B2A |\
+  "A7"ege "Bm"dfd | "A/c#"c3 c2B | "A"A2A ABc |1 "D"dcB "A7"AFA :|2 "D"dAF D3 ||
+|: "D"F3 FAd | f3- f2d | e2d "B7"c2d | "Em"g3- g2f |\
+  "A7"e2e e2d | c2c c2B | A2A ABc |1 "D"dcB "A7"A2G :|2 "D"dAF D3 |]

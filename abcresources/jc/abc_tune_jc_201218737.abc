@@ -1,0 +1,40 @@
+%%text RJ Set 014 Jigs
+
+
+X: 1
+T: Jig of Slurs $1(J-40)
+I: RJ J-40	D/E Dor	jig
+C: G. S. MacLellan
+M: 6/8
+R: jig
+K: D	% and G/Em
+A |\
+"D"Add dcd | "G"Bdd "D"Add | "G"Bdd "D"Add | "Em"Bee "A"edB |\
+"D"Add dcd | "G"Bdd "D"Add | "G"Bdd "A"cde | "D"fdd d2 :|
+|: B |\
+"D"Aff fef | aff fed | "Em"Bee ede | "G"fed "A"edB |\
+"D"Aff fef | aff fed | "G"Bdd "A"cde | "D"fdd d2 :|
+|: B |\
+"G"Ggg gfg | "Em"age "G/D"gdB | "G"Ggg gfg | "D"age "G"g2 B |\
+"G"Ggg gfg | "Em"age "G"ged | "Em"Bee efg | fed e2 :|
+|: G |\
+"G"GBB Bdd | dee "Em"edB | "G"GBB Bdd | dee "Em"efg |\
+"G"GBB Bdd | dee edB | "Em"Bee efg | "D"fed "Em"e2 :|
+
+
+X: 2
+T: Maggie Brown's Favorite
+I: RJ J-27 G jig
+M: 6/8
+R: jig
+K: G
+g |\
+"G"dBG GAB | "C"E2E E2c | "D"AFD DEF | "G"G2G G2g ||\
+"G"dBG Bcd | "C"E2E E2c | "D"AFD DEF |"G"GBA G2 :|
+g/a/ |\
+"G"bgb "D"afd | "C"efg gfe | "G"dBg dBG | "D"AFD D ga ||\
+"G"bgb "D"afd | "Em"efg "D"gfe | faf "A"ge^c | "D"d3 "(G7)"de=f ||
+||\
+"C"ece "G"dBd | "C"cac "G"BgB | "Am"Ace "G"dBG | "D"FAF DEF ||\
+"G"GAB "Am"EFG | ABc "D"def | "G"gdB "D"cAF | "G"G3 G2 |]
+

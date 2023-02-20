@@ -1,0 +1,22 @@
+X: 1
+T: Sk\"ankl\aat, "Sk\aalarna"   [G]
+O: #9 in 57 L\aatar efter Byss-Kalle
+C: Trad.
+R: polska, hambo
+S: http://www.nyckelharpa.org/archive/written-music/american-allspel-list/ 2022/10/24
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Compacted from 7-staff version with all but the A part's repeat written out.
+M: 2/4
+L: 1/16
+Q: 1/4=70
+K: G
+"^A"|:\
+G2d2 d2d2 | cBcd c2Ac | B2B2 (dB)GB |[1 A2D2 D4 :|[2 A2D2 (DG)FG ||
+"B"[|\
+A2A2 (AB)GB | A2D2 (DE)FG | A2A2 (AB)GB | A2D2 D2Ac |
+(BA)GF G2Ac | BAGF G2A2 | (BG)dG (BA)dF | G4 "^fine"G4 |]
+"C"[|\
+_B2d2 d2Bd | (dc)cc (ec)Ac | (c_B)BB (Bd)cB |[1 _B2AB A4 :|[2 _B2AB (AG)F"^->C"G |]
+%"B"[|\
+%A2A2 (AB)GB | A2D2 (DE)FG | A2A2 (AB)GB | A2D2 D2Ac |
+%(BA)GF G2Ac | BAGF G2A2 | (BG)dG (BA)dF | G4 G4 |]

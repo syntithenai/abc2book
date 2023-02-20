@@ -1,0 +1,40 @@
+X:1
+T:Harry's Broken Item  "Composed by Terry Tully"
+M:6/8
+L:1/8
+Q:80
+C:
+S:Jig
+K:HP
+|: B | \
+c{e}c{G}c{g}cef | \
+{g}eBdc{e}c{G}c | \
+f{g}Ad{g}cef |
+{g}eA{d}c{gBd}B2Ac{e}c{G}c{g}cef | \
+{g}eBdc{e}c{G}c | \
+f{g}Ad{g}cef |
+{g}ec{d}A{GAG}A2 :: \
+e | \
+{ag}a2d{g}ce{g}A | \
+dcf{g}eA{d}c |
+f{g}Ad{g}cef | \
+{g}eA{d}c{gBd}B2A|1 {ag}a2d{g}ce{g}A | \
+dcf{g}eA{d}c |
+f{g}Ad{g}cef | \
+{g}ec{d}A{GAG}A2 :: \
+B |
+c{e}c{G}c{gcd}cB{G}A | \
+{g}efd{gcd}cB{G}A | \
+aAd{g}ce{g}A |
+fAc{gcd}cB{G}Bc{e}c{G}c{gcd}cB{G}A | \
+{g}efd{gcd}cB{G}A | \
+f{g}Ad{g}cef |
+{g}ec{d}A{GAG}A2 :: \
+e | \
+a{g}a{g}aca{g}a | \
+dcf{g}eA{d}c |
+f{g}Af{g}ef{g}c | \
+aA{d}c{g}ef{g}Ba{g}a{g}aca{g}a | \
+dcf{g}eA{d}c |
+f{g}Ad{g}cef | \
+{g}ec{d}A{GAG}A2 :|

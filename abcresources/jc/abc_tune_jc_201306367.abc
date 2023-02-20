@@ -1,0 +1,46 @@
+
+X: 1
+T: Makazice
+R:
+O: Srbija
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+P: in G:
+|: "G"[d2B2][dB][dB] [dB][ec][c2A2] | [cA][dB][B2G2] [BG][AF][G2D2] \
+| [B2G2][BG][GD] "D7"[c2A2][cA][AD] | "G"[cA][dB][B2G2] [BG][AF][G2D2] |
+| "G"[B2G2]z2 "D7"[c2A2]z2 | "G"[cA][dB][B2G2] [BG][AF][G2D2] \
+| "G"[B2G2]z2 "D7"[c2A2]z2 | "G"[cA][dB][B2G2] "fine"[BG][AF][G2D2] :|
+%%sep 5 5 200
+P: in D:
+K: D
+|: "D"[a2f2][af][af] [af][bg][g2e2] | [ge][af][f2d2] [fd][ec][d2A2] \
+| [f2d2][fd][dA] "A7"[g2e2][ge][eA] | "D"[ge][af][f2d2] [fd][ec][d2A2] |
+| "D"[f2d2]z2 "A7"[g2e2]z2 | "D"[ge][af][f2d2] [fd][ec][d2A2] \
+| "D"[f2d2]z2 "A7"[g2e2]z2 | "D"[ge][af][f2d2] [fd][ec][d2A2] :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Bela Rada
+O: Srbija
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+P: Play 5 times: G,D,G,D,G
+K: G
+|: "G"[B2G2][dB][dB] [dB][^c^A][d2B2] | [dB][ec][d2B2] [d2B2][B2G2] \
+| "D7"[d2B2][c2A2] [cA][BG][A2F2] | "G"[d2B2][B2G2] [BG][AF][G2D2] :|
+|: "C"{B}[c4A] [cA][BG][A2F2] | "D7"[d2B2][A2F2] [AF][GD][AF][BG] \
+|  "C"{B}[c4A] [cA][BG][A2F2] | "D7"[d2B2][A2F2] "fine"[A4F] :|
+%%sep 5 5 200
+K: D
+|: "D"[f2d2][af][af] [af][^g^e][a2f2] | [af][bg][a2f2] [a2f2][f2d2] \
+| "A7"[a2f2][g2e2] [ge][fd][e2c2] | "D"[a2f2][f2d2] [fd][ec][d2A2] :|
+|: "G"{f}[g4e] [ge][fd][e2c2] | "A7"[a2f2][e2c2] [ec][dA][ec][fd] \
+|  "G"{f}[g4e] [ge][fd][e2c2] | "A7"[a2f2][e2c2] [e4c] :|

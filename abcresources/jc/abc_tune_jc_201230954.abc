@@ -1,0 +1,65 @@
+X: 1441
+T: JEWETT'S GALOPADE
+O: Arranged by S. Knaebel
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.144-145
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+%----------
+V: 1 nm="C CLAR"
+c2 |!p!\
+c2{g}fe .f2.g2 | .a2.c2 f4 | c2{g}f.e f2g2 | a2c2 f4 |\
+.c'2(bg) c'2(bg) | .c'2(d'c') b(agf) | (^fgag) (=fede) | .f2.a2.f2 :|
+|: !f!z2 |\
+A2 c4 A2 | c2A2 c2A2 | z2BB B2B2 | z2AA A2A2 |\
+A2 c4 A2 | c2A2 c2A2 | z2BB B2B2 | A4 z2 "_FINE"H:|
+K: Bb
+|: f2 |!p!\
+(=e2f2) .d2.B2 | A2g2 f4 | (=e2f2) .a2.c'2 | .d'2.b2 f4 |\
+(=e2f2) .d2.B2 | A2g2 f4 | (=e2f2) .d'2c'2 | b4z2 :|
+|: !mf!f2 |\
+(=e2f2) (e2f2) | .g2.f2 d4 | (^c2d2) (c2d2) | ._e2.d2 B4 |\
+!p!B2b2 a2g2 | f2B2 d4 | _e2F2 A2c2 | "^D.C. AL FINE."B4z2 :|
+%----------
+V: 2 nm="1st VIOLIN"
+z2 |!p!\
+z2[A2F2][A2F2][A2F2] | z2[A2F2][A2F2][A2F2] | z2[A2F2][A2F2][A2F2] | z2[A2F2][A2F2][A2F2] |\
+z2[B2G2] z2[B2G2] | z2[A2F2][A2F2][A2F2] | !/!"_...."[B8G8] | [A2F2][A2F2][A2F2] :|
+|: !f!cc |\
+(cf).A2 (Ac).F2 | (FA).C.C C2C2 | (GB).C.C C2C2 | (FC).F.A c2cc |\
+(cf)A2 (Ac)F2 | (FA)CC C2C2 | (GB)CC C2C2 | F4 z2 H:|
+K: Bb
+|: z2 |!p!\
+z2[B2F2][B2F2][B2F2] | z2[A2F2][A4F4] | z2[E2C2] z2[E2C2] | z2[B2F2][B2F2][B2F2] |\
+z2[B2F2][B2F2][B2F2] | z2[A2F2][A4F4] | z2[A2F2] z2[A2F2] | [B4F4]z2 :|
+|: !mf!d2 |\
+(^c2d2) (c2d2) | .e2.d2 B4 | (=E2F2) (E2F2) | .G2.F2 D4 |\
+!p!z2G2F2E2 | D2F2 B,2B2 | [A4F4][A2F2][A2F2] "^D.C. AL FINE."[B4F4]z2 :|
+%----------
+V: 3 nm="2d VIOLIN"
+z2 |!p!\
+z2[F2C2][F2C2][F2C2] | z2[F2C2][F2C2][F2C2] | z2[F2C2][F2C2][F2C2] | z2[F2C2][F2C2][F2C2] |\
+z2[E2C2] z2[E2C2] | z2[F2C2][F2C2][F2C2] | !/!"_...."[E8C8] | [F2C2][F2C2][F2C2] :|
+|: z2 !f!|\
+z2[F2A,2] z2[F2A,2] | z2[FA,][FA,] [F2A,2][F2A,2] | z2[FA,][FA,] [F2A,2][F2A,2] | !/![F8A,8] |\
+z2[F2A,2] z2[F2A,2] | z2[FA,][FA,] [F2A,2][F2A,2] | !/![E8G,8] | [F4A,4]z2 "_FINE"H:|
+K: Bb
+|: z2 |!p!\
+z2[D2B,2][D2B,2][D2B,2] | z2[E2C2][E4C4] | z2[E2C2] z2[E2C2] | z2[D2B,2][D2B,2][D2B,2] |\
+z2[D2B,2][D2B,2][D2B,2] | z2[E2C2][E4C4] | z2[E2C2] z2[E2C2] | [D4B,4]z2 :|
+|: !mf!z2 |\
+z2[F2B,2] z2[F2B,2] | z2[F2B,2][F2B,2][F2B,2] | z2[F2B,2] z2[F2B,2] | z2[F2B,2][F4B,4] |\
+!p!z2B,2B,2B,2 | B,2D2 F2F2 | [E4C4][E2C2][E2C2] | "^D.C. AL FINE."[D4B,4]z2 :|
+%----------
+V: 4 nm="BASE" clef=bass middle=d
+z2 |!p!\
+f6z2 | f6z2 | f6z2 | f6z2 | c4c'4 | f4a4 | c'4c4 | f2f2f2 :|
+|: z2 |\
+f4f4 | f4f2f2 | !/!c8 | !/!f8 | f4 f4 | f2c2 f2a2 | c'2c2 c'2c2 | f4z2 H:|
+K: Bb
+|: z2 |!p!\
+B4z4 | F4z4 | F2z2 F2z2 | B4z4 | B4z4 | F4z4 | F2z2 F2z2 | B4 z2 :|
+|: !mf!z2 |\
+B4B4 | !/!B8 | B4B4 | B2B2B4 | !p!e4e4 | B4z4 | F4F2F2 | "^D.C. AL FINE."B4z2 :|

@@ -1,0 +1,35 @@
+X: 10561
+T: HULL'S VICTORY
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.56 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+c2 |\
+fcfa fcfg | (agfe f2)(AB) | {d}c=Bcd (cd)(_Bc) | (AB)(GA) Fcde |\
+(fcfa) (fcfa) | g2g2g2 (ag) | (fedc =Bcd)B | c2c2c2 :|
+|: (3(cde) |\
+(fefg agfe) | d2B2B2 ef | (gfga bagf) | e2c2c2 de |\
+(fcfa) (fcfa) | (gcgb) (gcgb) | (ag).f.a (gf).e.g | f2f2f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+c2 |\
+AcAc AcAc | (cBAG A2FG) | ({B}A^GAB) (AB)(GA) | FGCF A,2 (cB) |\
+(AcAc) (AcAc) | c2c2c2 cB | AGFE (DEFD) | E2E2E2 :|
+|: cB |\
+(AcAc fedc) | B2D2D2 z2 | (BdBd gfed) | c2E2E2 z2 |\
+(AcAc) (AcAc) | (BcBc) (BcBc) | (cB).A.c (BA).G.B | A2A2A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+f2f2f2f2 | c'2c2 f2z2 | f4 f2B2 | c2c2f2z2 |\
+f2f2f2f2 | e2e2e2z2 | f4 g2g2 | c2c2c2 :|
+|: z2 |\
+f2F2 (f2ga) | b2b2b2z2 | g2G2 g2a=b | c'2c'2c'2z2 |\
+f2f2c2c2 | e2e2c2c2 | f2a2 c'2c2 | f2f2f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

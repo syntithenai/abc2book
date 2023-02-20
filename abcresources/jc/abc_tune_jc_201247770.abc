@@ -1,0 +1,26 @@
+X:1
+T: Arnold's Circle
+N:
+C:Tune is "Little Burnt Potato" (trad.)
+S:
+A:
+O:
+R:
+M:6/8
+K:D
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 42 notes)
+K:D
+M:6/8
+L:1/16
+f2 g2 ^g2 |a2 ^g2 a2 b2 a2 g2 a2 f2 d2 A4 d e f4 f2 g4 f2 e4 B2 B2 c2 d2 |e4 f2 e4 c2 A2 c2 e2 a6 a2 ^g2 a2 b2 a2 =g2 f6 f2 g2 ^g2 |
+%W: A2
+% voice 1 (1 lines, 38 notes)
+a2 ^g2 a2 b2 a2 g2 a2 f2 d2 A4 d e f4 f2 g4 f2 e4 B2 B2 c2 d2 |e4 f2 e4 c2 A2 c2 e2 a6 a2 ^g2 a2 b4 c2 d6d2 a2 g2 |
+%W: B1
+% voice 1 (1 lines, 37 notes)
+f4 A2 f4 A2 f6f4 e2 d2 e2 f2 a2 g2 f2 g6g2 e2 f2 |g2 b2 a2 g2 f2 e2 d2 c2 B2 A6 a2 ^g2 a2 b2 a2 =g2 f6f2 a2 g2 |
+%W: B2
+% voice 1 (1 lines, 33 notes)
+f4 A2 f4 A2 f6f4 e2 d2 e2 f2 a2 g2 f2 g6g2 e2 f2 |g2 b2 a2 g2 f2 e2 d2 c2 B2 A6 a2 ^g2 a2 b4 c2 d6 ||

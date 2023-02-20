@@ -1,0 +1,12 @@
+X: 450
+T: Patch Tanz
+O: Hassidic
+M: 2/4
+L: 1/16
+K: Am
+ | "Am"c4 cddc | cddc "E7"cBBA | "Am"c4 cddc | "E7"cBBA "Am"A4 \
+ | "Am"[c4E4] [cE][dF][dF][cE] | [cE][dF][dF][cE] "E7"[cE][BD][BD][AC] | "Am"[c4E4] [cE][dF][dF][cE] | "E7"[cE][BD][BD][AC] "Am"[A4C4] ||
+|| "G7"defd "C"e4 | .[e2c2] .[e2c2] .[e2c2] z2 | "G7"Bcdc d4 | "G".[B2G2] "D7".[c2A2] "G".[d2B2] z2 \
+ | "G7"gfed "C"e4 | .[e2c2] .[e2c2] .[e2c2] z2 | "G7"Bcdc d4 | "G".[B2G2] "D7".[c2A2] "G".[d2B2] z2 ||
+|| "G7"GAB2 "C"cde2 | "E7"dcB2 "Am"A4 | "C"cGGc "Bb"c_BBA | "Am"A8 \
+ | "G7"GAB2 "C"cde2 | gfe2 "Dm"d4 | "C"cGGc "Bb"c_BBA | "Am"A8 |]

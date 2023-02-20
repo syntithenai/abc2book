@@ -1,0 +1,22 @@
+X: 1101
+T: the Fife Hunt
+%R: reel
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.10 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The c in bar 6 should probably be sharp.
+N: (Or you could play the c in bar 2 unsharpened, for a mixolydian sound.) 
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 6-bar lines, for compactness and proofreading.
+V: 1 staves=2
+(f |\
+e)cTc2 GETE2 | Dd2^c d2-d(f | e)cTc2 GETE2 | Cc2B c2-c :| (f | e)cgc acgc | Dd2c d2d(f |
+e)cgc acgc | Gc2c c2-cf || ecgc acgc | Dd2^c d2-df | egcg fadf | Gc2B Tc2c |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | c2c2 c2c2 | d2d2 d2d2 | c2c2 c2c2 | G2G2 c2c :| z | c2c2
+c2c2 | d2d2 d2d2 | c2c2 c2c2 | G2G2 c2c2 || c2c2 c2c2 |
+d2d2 d2d2 | c2c2 d2d2 | G2G2 c2c |]

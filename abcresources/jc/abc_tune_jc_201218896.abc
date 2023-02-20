@@ -1,0 +1,21 @@
+X:99018
+T:Wedderburn's Reel
+P:Duncan Gray
+C:Traditional
+R:Reel (8x32)
+B:RSCDS Gr-18
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/4
+K:A
+V:1
+V:2 clef=bass middle=D
+%%staves (1 2)
+[V:1]"A"EA "E7"[GD]"A"[AE]|"Bm"Bc "E"[G2E2]|"A"[A2E2] "E7"B>d|"A"[cE][AC][AC]z|
+[V:2]   C2     x2         |    F2    x2    |   x2         E2 |   x4           |
+[V:1]"A"EA "E7"[GD]"A"[AE]|"Bm"Bc "E"[G2E2]|"A"[A2E2]"E7"B>d|"A"[cE][AC][AC]z||
+[V:2]   C2     x2         |    F2    x2    |   x2        E2 |   x4           ||
+[V:1]"A"ce ed/c/|"Bm"dd d2|dc "B7"BA|"E"G"B7"[BF] "E7"E2|
+[V:2]   x4      |    x4   |x4       |   x4              |
+[V:1]"A"ef/e/ "E7"d"A"c|"Bm"B/c/d/B/ "E7"G2|"A"[A2E2]"E7"B>d|"A"[cE][AC][AC]z|]
+[V:2]   x4             |    x4             |   x2        E2 |   x4           |]

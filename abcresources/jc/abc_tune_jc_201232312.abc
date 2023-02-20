@@ -1,0 +1,51 @@
+X: 16
+T: LOVE AND A BOTTLE
+%R: reel, march
+M: C|
+L: 1/4
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Thomas Bray's Country Dances 1699 p.38
+N: Duple minor longways
+P: AA BB ad.lib.
+Q: 1/2=88 "lyrical"
+K: G
+%----------------------------------------
+V: 1
+"A"|:\
+BG DG | (cB) A2 | dcBc | A4 |\
+AF GA | B3 A | GF E/F/E/D/ |1 D3 D :|2 D3 |]
+"B"|: A |\
+FA Dd | B2 B2 | ^GB Ee | ^c2 ", "BA |\
+d2 ef | B2 ^cd | e2 d^c | d3 ", "A |
+AA AB | c2 ed | (cB) (AG) | F2 ED |\
+G2 z2 | D2 z2 | G2 D2 |1 G3 :|2 G4 |]
+%----------------------------------------
+V: 2
+|: GD B,D | EG FE | DF GA | FE DE | FD EF |
+G2 D2 | ^CD DC |1 DA, DF :|2 DA, D |] |: F | DF DF |
+GD B,D | ED ^CB, | A,E D^C | EA, ^CD | DG EF |
+G2 FE | F2 DE | FF FG | ED CB, | A,2 E2 |
+D2 =CD | B,B,/C/ DC | B, B,/C/ DC | B,D B,D |1 B,3 :|2 B,4 |]
+%----------------------------------------
+V: 3 clef=bass middle=d
+|: "G"g4 | "C"c2 "D"d2 | "G"B2 G2 | "D"dA FA | "D"dc BA |
+"G"Gd gf | "A7"e"D"d "A"A2 |1 "D"d3 z :|2 "D"d3 |] |: z | "D"d2- d2 |
+"G"G4 | "E"E4 | "A"A4 | "D"F2 ED | "G"G2- GF |
+"Em"E2 "A"A2 | "D"D4 | "D"d4 | "Am"c4 | "Am"c2 "A"^c2 |
+"D7"d4 | "G"GG/A/ BA | "G"GG/A/ BA | "G"G"D"D "G"G "D"D |1 "G"G3 :|2 "G"G4 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%center Love and a Bottle, a New Country Dance.
+%%begintext align
+%% The 1st Man turn his Wo. with the right Hand half round, and both move to the 2d Man and take
+%% Hands with him, and all three go round to the left Hand, till the 1st Man comes to his own place
+%% as at first, 1st Wo. and 2d Man to each others places as at first, 2d Wo. stands still all this while .|
+%% The same again only the We. change places with the right Hand, and go to the 2d Man and take Hands
+%% and go round to the left Hand, each to his own place as at first, the 1st Man standing still as they go
+%% round :| The 1st Man turn the 2d Wo. round with the right hand, and fall back from her, the other
+%% cu. turn right Hand round as they fall back, then the 1st and 2d Wo. meet, and each Man turn his Wo.
+%% round with the left Hand, till they come all to their places as at first; Then Men Kiss their Wemens
+%% Hands, and there We. make a sign of Drinking immediately after, by lifting their left Hands, to their
+%% Mouths .| The 1st Man take his Wo. by the right Hand, and then by the left, and change places with
+%% her, the 2. cu. the same after them, 1st cu. cross over and meet below, the 2d cu. lead up the middle and
+%% turn single, then Kiss the Wemens Hands as before :| And so to the end.
+%%endtext

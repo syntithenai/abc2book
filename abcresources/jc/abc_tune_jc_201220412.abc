@@ -1,0 +1,29 @@
+X:360
+T:Dainty Davy
+R:Reel
+O:Scotland
+S:Gibbon's Collection of Scots tunes
+B:Gibbon's Collection of Scots tunes
+Z:Transcription, chords:Mike Long
+M:C|
+L:1/8
+K:F
+V:1 stv=2
+V:1 clef=treble
+V:2 clef=bass
+[V:1]f2|\
+[V:2]z2|\
+[V:1]"F"c3B A2GA|"Dm"GFED F4|"F"F2c2 ABcA|"Dm"F2c2 A2f2|\
+[V:2]F,6 E,2      |D,4 A,,2     A,G, | F,2 F,,2 F,,4      |F,2   F,,2 F,G,A,F, |\
+[V:1]"F"c3B A2GA|"Dm"GFED F4|\
+[V:2]F,6 E,2      |D,4 A,,4        |\
+[V:1]"F"F2f2 "C"gfef|"Bb"d4 f2:|
+[V:2]D,,2 D,2 G,,2 A,,2       |D,2 A,,2 D,,2 :|
+[V:1]|:c2|\
+[V:2]|:z2|\
+[V:1]"F"f2a2 fga2|fg ab a2 gf|"C"e2g2 c2g2|\
+[V:2]F,,6 F,2       |A,2 F,2 F,,2 F,2|C,6 C,2       |\
+[V:1]"C"efga "(Bb)"g2fe|"F"f3g a2ga|"Gm"bagf "C"e2dc|\
+[V:2]C,2 C2E,2      C,2|A,,4 F,4      |G,4 C,2 E,2        |\
+[V:1]"Bb"defg "Dm"ag~fe|"Bb"d4 f2:|
+[V:2]F,2 D,2 A,2 A,,2         |D,2 A,,2 D,,2 :|

@@ -1,0 +1,29 @@
+X:8261
+T:The Baggpipe tune
+C:anon.
+O:Scotland
+S:NLS MS.9454 c.1675
+N:B naturals are sharps in the MS
+N:the naturals on the Cs were added by Jack Campin
+Z:Jack Campin 2001
+F:http://abc.musicaviva.com/tunes/scotland/baggpipe-tune/baggpipe-tune-vln1.abc
+%Posted November 9th 2001 at abcusers by Jack Campin as an example of
+%scoradtura tuning and some rather unconventional ABC notation.
+V:1
+V:2 merge down transpose = +2
+M:6/4
+L:1/8
+K:D Maj
+V:1  D2 x4         D2  E3  D | x2 (E2E2)  A2  x4 | D2  x4        D2 E2(DE)|F2 (D2D2) x2   D4||
+V:2 =C2(B,A,) G,2 =C2  x4    |=B,2 x4     x2 =B,4|=C2 (B,A,)G,2 =C2 x4    |x2  x4   =B,2 =C4||
+%
+V:1  DEFG     A2   E2  F2(ED)| x2 (E2E2)  A2  x4 | DEFG     A2   E2(FG)A2 |F2 (D2D2) x2   D4||
+V:2  x4       x2   x2  x4    |=B,2 x4     x2 =B,4| x4       x2   x2 x4    |x2  x4   =B,2 =C4||
+%
+V:1  D2(d2    d2) (cB) A2(GF)| G2  E2(FG) A2  x4 | D2(d2    d2)  cB cd ef |d2 (D2D2) x2   D4|]
+V:2  x2 x4         x2  x4    | x2  x4     x2 =B,4| x2 x4         x2 x4    |x2  x4   =B,2 =C4|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

@@ -1,0 +1,19 @@
+X: 10641
+T: the ROUT
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.64 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added flag to pickup note of 2nd strain, to fix the rhythm.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(B/c/) |\
+d2g B2c | d2B G3 | A2B cBA | d2B G2 (B/c/) |\
+d2g B2c | d2B G3 | AcB AGF | G3 !fine!G2 :|
+d |\
+gag fef | gfe def | gag fef | gdB GBd |\
+gag fef | gfe def | gag fef | g3 "^D.C."g2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

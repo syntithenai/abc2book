@@ -1,0 +1,28 @@
+
+X: 1
+T: Sadi Moma [C]
+O: Macedonia
+M: 7/8
+L: 1/8
+K: C
+"^Inst."\
+|:y"F"F2G A2- AG | "F"c2F G2- GF | "C"(4FEDE C4 \
+|  "C"C3 "G"D2 DE | "F"F3 "C"E2 G2 | "Gm"D3 D4 | "Dm"D3 D4 :|
+"^Vocal"\
+|: "C"[G2E2][FD] [E2C2] "G"[D2G,2] | "C"[E2C2][FC] ([EC][DB,]) [C2G,2] | "C"[C3C3] "G"[D2G,2] ([DG,][EC]) |\
+ "F"[F3C3] "C"[E2C2] [G2C2] |1 "G"[D3G,3] [D4G,4] | "C"([G2C3]F [E4C4]) :|2 "Gm"[D3_B,3] [D4B,4] | "Dm"[D7A,7] |]
+
+%%sep 1 1 500
+
+X: 1
+T: Sadi Moma [D]
+O: Macedonia
+M: 7/8
+L: 1/8
+K: D
+"^Inst."\
+|:y"G"G2A B2- BA | "G"d2G A2- AG | "D"(4GFEF D4 \
+|  "D"D3  "A"E2  EF | "G"G3  "D"F2  A2 | "Am"E3 E4 | "Em"E3 E4 :|
+"^Vocal"\
+|: "D"[A2F2][GE] [F2D2] "A"[E2A,2] | "D"[F2D2][GD] ([FD][EC]) [D2A,2] | "D"[D3D3] "A"[E2A,2] ([EA,][FD]) |\
+  "G"[G3D3] "D"[F2D2] [A2D2] |1 "A"[E3A,3] [E4A,4] | "D"([A2D3]G [F4D4]) :|2 "Am"[E3=C3] [E4C4] | "Em"[E7B,7] |]

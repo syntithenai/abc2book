@@ -1,0 +1,42 @@
+X: 30091
+T: the SAXON DRAGOON GRAND MARCH
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.8
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+c>c |\
+c2c>c f2c>c | c2c>c g2c>c | a3g .f.e.d.c | {c}B2A2 G2c>c |\
+c2c>c f2c>c | c2c>c g2c>c | a3c' g>fe>d | c2c>c c2 :|
+|: c>d |\
+.e.f.g.a b2c>e | .f.g.a.b c'2(d'>c') | (c'b) (c'>b) (ba) (b>a) | g2g>g g3^g |\
+a3g .f.g.a.f | b3a .g.a.b.g | c'3b (ag).f.e | f2f>f "^FINE."f2 :|
+K: Bb
+|: d>d |\
+f2d>d f2d>d | (b4 f2)zd | (dc).c.c (cg).f.e | (e4 d2)d>d |\
+f2d>d f2d>d | b4 d4 | =e2e>e e>fg>e | f2f>f f2 :|
+|: f2 |\
+(=efgf) (_edcB) | (BA)AA A3A | B2c2 d2f>e | (d3e/d/ c2)f2 |\
+(=efgf) (_edcB) | (abc'b agfe) | (ed) (^fg) (BA) (G>A) | B2B>B "^D.C."B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+A2z2 A2z2 | G2z2 E2z2 | f3e .d.c.B.A | G2F2 E2z2 |\
+A2z2 A2z2 | F2z2 E2z2 | f3f e>dc>=B | c2E>E E2 :|
+|: c2 |\
+.c.d.e.f g2c>B | .A.c.f.g a2(^f2 | g2)(e2 f2)g>f | e2e>e e3e |\
+f3e f2_e2 | d3c .B.c.d.B | A3d .c.B.A.G | A2A>A A2 :|
+K: Bb
+|: B>B |\
+d2B>B d2B>B | d4- d2zB | (BA).A.A (Ae).d.c | (c4 B2)B>B |\
+d2B>B d2B>B | d4 B4 | G2G>G G>AB>G | A2A>A A2 :|
+|: z2 |\
+z8 | .c.d.e.f .g.a.b.c' | d'2c'2 b2d'>c' | (b3c'/b/ a2)z2 |\
+z8 | (cded) (fedc) | (cBAG F2)_E2 | D2D>D D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

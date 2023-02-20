@@ -1,0 +1,28 @@
+X: 20721
+T: VIVE HENRI QUATRE
+%R: reel, march
+B: "Edinburgh Repository of Music" v.2 p.73
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Dm
+[|\
+d4 d2d2 | c6 f2 |\
+e2d2^c2d2 | A2AB (c=BcA) |\
+d4 d2d2 | c6 f2 |\
+e2(d2^c2)d2 | A4- A4 |]\
+f4 e2d2 | e6 e2 |\
+d2d2^c2d2 | A4 A2B2 |
+F6 F2 | G2G2A2A2 | d4- d4 |]\
+d3e ({g}fefd) | a6 (ac') |\
+(d'c')(d'a) (aag)(gf) | (f4 e4) |\
+d3e ({g}fefd) | a6 (ad') |\
+(d'c')(d'a) (ag)(gf) | (f4 e4) |]\
+a3b/a/ g2^f2 | ^f4 g2(ag) |
+(g^fef) (gfed) | ^c2c'b agfe |\
+(fgab) a2f2 | e2b2a2^c2 |\
+d4 d4 | a2(ba) g2^f2 |\
+^f4 g2ag | (g^fef) (gfed) |\
+^c2c'b (agfe) | (fgab) c'2f2 |\
+e2b2a2^c2 | d4 "_D.C."d4 |]

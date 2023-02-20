@@ -1,0 +1,44 @@
+
+X: 1
+T: Pig Ankle Rag
+M: 4/4
+L: 1/8
+K: D
+af \
+| "A7"gecA- A2af | gecA- AABA \
+| "D"dABA dABA | dBAF- F2af \
+| "A7"gecA- A2af | gecA- AABA |
+| "D"dABA dABA | dBAd- dBdA \
+| "G"B4 d3e | "D"fa2a bafd \
+| "A7"Acea fdec |1 "D"d2 a3^g :|2 "D"d6 |]
+|: cB \
+| "A7"ABcA BcAB | cABc- cBAF \
+| "D"D2dA BdAB | dABd- dBAF \
+| "A7"ABcA BcAB | cABc- cBAF |
+| "D"D2dA BdAB | dABd- dBdA \
+| "G"B4 d3e | "D"fa2a bafd \
+| "A7"Acea fdec |1 "D"d2 [f4d4] :|2 "D"d6 |]
+
+
+%%sep 2 1 500
+
+X: 2
+T: Stone's Rag
+M: 4/4
+L: 1/8
+K: C
+|: "C"cdeg- gage | ageg- gage \
+| "F"FGAc- cdcA | "D7"dcAc- cdcA \
+| "G7"BdBG- G^FGA | BdBG- G^FGB |
+|1 "C"cdeg- gage | "G7"g4 zABc \
+:|2 "G7"gega- age2 | "C"c6 g2 \
+[| "A7"agea- age2 | agea- age2 \
+| "D7"dcAd- dcA2 |
+| dcAd- dcA2 \
+| "G7"BdBG- G^FGA |BdBG- G^FGB \
+| "C"cdeg- gage | g4 "E7"^g4 \
+|| "A7"agea- age2 |
+| agea- age2 \
+| "D7"dcAd- dcA2 | dcAd- dcA2 \
+| "F"c'4 "D7/f#"a4 | "C"gage- "A7/c#"edcA \
+| "D7"GAce- "G7"ecd2 | "C"c8 |]

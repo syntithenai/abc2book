@@ -1,0 +1,26 @@
+X:1
+T: Kill Him With Kindness
+N:
+C:
+S:
+A:
+O:
+R:
+M:3/2
+K:Am
+I:speed 200
+%W: A
+% voice 1 (1 lines, 19 notes)
+K:Am
+M:3/2
+L:1/16
+e4 a8 |b4 ^g8 |a4 e8 |d4 c2 |d2 e4 |f4 d8 |c4 B2 |c2 d4 |c12 |B4 A8 |
+%W:
+% voice 1 (1 lines, 19 notes)
+e4 a8 |b4 ^g8 |a4 e8 |d4 c2 |d2 e4 |f4 d8 |c4 B2 |c2 d4 |c12 |B4 A8 |
+%W: B
+% voice 1 (1 lines, 19 notes)
+c4 e8 |f4 g4 |a4 g4 |d8 |e4 f8 |g4 f2 |g2 a4 |g4 f4 |e4 d12 |c4 c8 |
+%W:
+% voice 1 (1 lines, 22 notes)
+c4 c2 |d2 e4 |a4 e8 |B4 B2 |c2 d4 |g4 d8 |e4 f2 |e2 d4 |c4 B4 |e4 c12 |B4 A8 ||

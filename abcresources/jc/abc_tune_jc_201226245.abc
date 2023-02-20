@@ -1,0 +1,21 @@
+X: 10171
+T: MISS FORBES'S FAREWELL TO BANFF
+%R: reel
+B: "Edinburgh Repository of Music" v.1 p.17 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Halved the length of the pickup notes to strain 2.
+N: The beaming in bar 11 is unusual; transcribed as-is.
+M: 2/4
+L: 1/16
+K: D
+D>E |\
+F3A GFED | F2A2 B3d |\
+A3B AFED | F2E2 E2D>E |\
+F3A GFED | F2A2 B3d |\
+A3B AFED | F2D2 D2 :|
+|: (AB/c/) |\
+(dc)(de) (dcBA) | B/A/B/c/ dB A3G |\
+(FA) (BA)(GF) (ED) | F2E2 E2(3ABc |\
+dcde dcBA | BABc d3B |\
+A3B AFED | F2D2 D2 :|

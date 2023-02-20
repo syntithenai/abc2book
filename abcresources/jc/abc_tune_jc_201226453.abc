@@ -1,0 +1,22 @@
+X: 10291
+T: Air - Grazioso
+C: Bossi
+Q: "Grazioso"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.29
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The b in bar 2 should probably be an a, as in bar 10.
+N: 28 bars; to convert to a 32-bar jig, insert a copy of bars 17-20 before bar 25.  [jc]
+M: 6/8
+L: 1/8
+K: A
+[|\
+c3 {e/}dcd | e3 bec | B2B c2c | dfd B2c |\
+A2A {B/}AGA | B2B B2B | (GE)G (AE)c | (e^d)f (ed=d) |
+c3 {e/}dcd | e3 aec | B2B c2c | dfd B2^B |\
+c2c {e/}dcd | e2(^e f2)a | A2A {c/}BAB | A3- A2a |
+(g2b) (e2g) | a2(e c2)f | (e2d) (B2c) | A3- A2a |\
+(g2b e2g) | (a2e c2f) | (e2d B2c) | A2(e/f/e/f/) e.g.g |
+.a(e/f/e/f/) e.g.g | (a2c') (a2c') | .a3 .a3 | .a3 z2z |]
+%
+%%center -

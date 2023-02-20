@@ -1,0 +1,13 @@
+X:272
+T:Quick Step
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 27, on which a "Sample of Dotted Notes" are presented.
+M:2/4
+L:1/16
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+F>G|A2d2 A2f2|a4 a>gf>e|^d>ef>e =d>cB>A|f3e d>BA>^G|A2d2 A2f2|a4 a>gf>e|
+^d>ef>e =d>cB>A|d2f2d2:|F>G|A>BA>F A4-|A2 f4 d2|A>BA>F A4-|A2 f4 d2|
+e>fe>B e4|e>fe>B e4|e2g>f e>fe>d|c>dc>B A>BA>G|F>BA>F A4-|A2 f4 d2|
+B>cB>G B4-|B2 g4 e2|a>gf>e g^fe>g|f>cd>B A4|B>Ag>e c>AG>E|D2d2d2|

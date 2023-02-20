@@ -1,0 +1,58 @@
+
+X: 1
+T: Guhnega
+O: Armenia
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS from VIFD Music Book
+M: 2/4
+L: 1/16
+%Q: 1/8 1/16 1/16 1/8 1/8=56
+%%slurgraces
+K: F
+P: Vocal - verse
+|: "F"A2AG A2B2 | c4 z4 | "C7"c2cd c2B2 | "F"A4 z4 :|
+w: 1.~Ash-ka-rin us-giz-ben, ais-be-su guh-ni-ga.
+w: 2.~Gun-ga-nu ha-mar-hech, pa-gu-vadz toor che-ga.
+w: 3.~In-ku* sa-da-na, o-tsi* sha-bi-gov.
+|: "Bb"d2d2 d2de | d2c2 c2B2 | "C7"{B}c2cd c2B2 |1 "F"A4 z4 :|2 "F"A4 c2c2 |
+w: Mar-toos kul-khoon misht ba-doo-has, ba-di-zhu* guh-ni-ga. ga. A-man
+w: A-me-nu too-rin meg pa-na-li, oo-ni* guh-ni-ga. ga. A-man
+w: Kheghj a-ta-mu* Khunts-rovu kha-pets, ye-va* guh-ni-ga. ga. A-man
+P: Vocal - chorus
+"F"c8- | c8- | c8- | c8 \
+|: "F"cc3 c4 | cc3 c4 | "C7"{B}c2cd c2B2 | "F"A4 z4 :|
+w: ah-h-h-h Guh-ni-ga, guh-ni-ga, ais-be-su guh-ne-ga.
+|: "Bb"d2d2 d2de | d2c2 c2B2 | "C7"c2cd c2B2 | "F"A4 z4 :|
+w: Mar-toos kul-khoon* misht ba-doo-has, ba-di-zhu guh-ni-ga.
+P: Interlude
+|: "F"[A2F2][AF][GE] [A2F2][B2G2] | [c4A4] z4 \
+| "C7"[c2A2][cA][dB] [c2A2][B2G2] | "F"[A4F4] z4 :|
+|: "Bb"[d2B2][d2B2] [d2B2][dB][ec] | [d2B2][cA][dB] [c2A2][B2G2] \
+| "C7"[B2G2][cA][dB] [c2A2][B2G2] | "F"[A4F4] z4 :|
+
+
+%%sep 3 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: Guhnega
+O: Armenia
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS from VIFD Music Book
+M: 2/4
+L: 1/16
+%Q: 1/8 1/16 1/16 1/8 1/8=56
+%%slurgraces
+K: G
+P: Vocal
+|: "G"B2BA B2c2 | d4 z4 | "D7"d2de d2c2 | "G"B4 z4 :|
+|: "C"e2e2 e2ef | e2d2 d2c2 | "D7"{c}d2de d2c2 |1 "G"B4 z4 :|2 "G"B4 d2d2 |
+"G"d8- | d8- | d8- | d8 \
+|: "G"dd3 d4 | dd3 d4 | "D7"{c}d2de d2c2 | "G"B4 z4 :|
+|: "C"e2e2 e2ef | e2d2 d2c2 | "D7"d2de d2c2 | "G"B4 z4 :|
+P: Interlude
+|: "G"[B2G2][BG][AF] [B2G2][c2A2] | [d4B4] z4 \
+| "D7"[d2B2][dB][ec] [d2B2][c2A2] | "G"[B4G4] z4 :|
+|: "C"[e2c2][e2c2] [e2c2][ec][fd] | [e2c2][dB][ec] [d2B2][c2A2] \
+| "D7"[c2A2][dB][ec] [d2B2][c2A2] | "G"[B4G4] z4 :|

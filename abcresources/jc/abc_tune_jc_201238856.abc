@@ -1,0 +1,30 @@
+X: 31442
+T: COTILLION No. 31. PANTHEON SETT tune 2
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.144 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain has only 7 bars.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+Bc |\
+dedc BcdB | G2G2 A4 | Bdef g2f2 | e4{fg} d2Bc |\
+dedc BcdB | FGAc BcAB | G2FG G2 H|]
+FG |\
+A2AB A2B2 | c2Bc A2GA | B2BA B2c2 | dedc Bdef |\
+g2fg edcB | cdec A2c2 | BcAc G2F2 | G4 "^D.C."G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% ladies chain,
+%% promenade 4.
+%% Next 2 forward, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

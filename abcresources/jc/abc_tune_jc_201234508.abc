@@ -1,0 +1,23 @@
+X: 20563
+T: WHISTLE O'ER THE LAVE O'T.
+O: Scottish air.
+Q: "Briskly."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.56 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G>DE<G B>AB2 | d>eB>g A>GE2 |\
+G>DE<G B>AB>g | G<GB>G A2G2 ::\
+(de/f/) g>d e>dB2 | d>eB>g A>GE2 |\
+g>be>g d>eB>g | G<GB>G A2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The above air was composed about the year 1720,
+%% by John Bruce, musician, in Dumfries.
+%%endtext
+%%sep 1 1 300

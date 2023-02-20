@@ -1,0 +1,26 @@
+X:1
+T:THE GERITOL KID
+M:12/8
+L:1/8
+Q:80
+C:Davey Laws
+S:March
+K:HP
+{g}AB[ | \
+{GdG}c3-c3/2{e}B/2{d}c{gef}e2c{gBd}B2{G}A | \
+{gcd}c2e{A}e3/2f/2c{gef}e3-e3/2{g}A/2B |
+{GdG}c2e{A}e3/2f/2c{gfg}f2e{gef}e3/2d/2c | \
+{g}B3-B3{GdGe}B3/2B/2{g}A3/2B/2 | \
+{GdG}c3-c3/2{e}B/2{d}c{gef}e2c{gBd}B2{G}A |
+{gcd}c2e{A}e3/2f/2c{gef}e3{g}A2B | \
+{GdG}c2e{gef}e3/2d/2c{gde}d2B{g}B3/2{d}G/2{e}G | \
+{g}A3-A3{GAG}A3|]
+{g}e3/2f/2g/2 | \
+{ag}a3-a2e{g}f2e{gef}e3/2d/2c | \
+{gef}e2{A}e{g}f2c{gef}e3{A}e3/2f/2g/2 |
+{ag}a3-a2e{g}f3/2e/2{A}e{gef}e3/2d/2c | \
+{g}B3-B3{GdGe}B2{g}A3/2B/2 | \
+{GdG}c3-c3/2{e}B/2{d}c{gef}e2c{gBd}B2{G}A |
+{gcd}c2e{A}e3/2f/2c{gef}e3{g}A2B | \
+{GdG}c2e{gef}e3/2d/2c{gde}d2B{g}B3/2{d}G/2{e}G | \
+{g}A3-A3{GAG}A3|]

@@ -1,0 +1,30 @@
+X: 108
+T: Esmer
+O: Turkey
+Z: Lyuben Dossev
+S: http://www.dunav.org.il/balkan_music_scores.html
+F: http://www.youtube.com/watch?v=1b4se3dei84
+F: http://www.youtube.com/watch?v=XPrDoza-qv8
+F: http://www.youtube.com/watch?v=fS3ZlKHo-jA
+M: 4/4
+L: 1/16
+P:B
+K: C clef=treble
+P:A
+ z B,C ~D4 DF_ED C3/2B,/C z                                              |\
+ F_EED DCCB, B,_A,A,G, G,2D2-                                            |\
+ D2B,C ~D2~D2 DF_ED D3/2_B,/C z                                           |
+ F_EED DCCB, B,_A,A,G, G2z2                                              |\
+ z2 [B,B][Cc] [Dd][G,G][D-d-]2 [Dd][Ff][_E_e][Dd] [Cc]3/2[B,B]/[Cc]z2    |
+ [Ff][_E_e][Ee][Dd] [Dd][Cc][Cc][B,B] [Dd][_A,_A][A,A][G,G] [G,G]2[D-d-]2|\
+ [Dd]2[B,B][C,c] [Dd][G,G][D-d-]2 [Dd]2[Ff][_E_e][Dd] [Cc]3/2[B,B]/[Cc] z|
+ [Ff][_E_e][Ee][Dd] [Dd][Cc][Cc][B,B] [B,B][_A,_A][A,A][G,G] [G,G]3 z    |
+P:B
+ {F}G2 G2 G G3 F FE E3 z                                                 |\
+ EF G2 G2 G2 F F3 E3 z                                                   |
+ EF G2 G D3 F _E D3 z                                                    |\
+ F2 _E2 D C3 B, _A,3 G,2 D z                                             |\
+ z2 B,C D4 DF_ED C3/2B,/ C z                                             |
+ F _E3 D2 C2 B, _A,3 G,2 D2-                                             |\
+ Dz B,C D4 DF_ED C3/2B,/ D z                                             |\
+ F _E3 D2 C2 B, _A,3 A,3 z                                               |

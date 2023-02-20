@@ -1,0 +1,12 @@
+X: 1
+T: TEST: Continued line with continued words
+N: The last line is continued, too.
+K: C
+|CDEF \
+ GABc\
+|cBAG \
+ FEDC|
+w:C D E F \
+  B A B c\
+  c B A G \
+  F E D C\

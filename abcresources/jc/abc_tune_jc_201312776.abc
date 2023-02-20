@@ -1,0 +1,18 @@
+X: 668
+T: the Mooncoin Reel   #2
+R: reel
+%S: s:4 b:13(7+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #668
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0668/oneill-1001-0668-1.abc
+M: C|
+L: 1/8
+K: D
+"^A"[|] (3(ABc) \
+|: d2(AF) DFAc | dced cA \
+[1 Ac | BAGF GABc | dced cABc :|\
+[2 Bc | BAGF GABc | dcec d2 |]
+"^B"[| de \
+|: fdad fdad | fdad fddf |\
+[1 ecgc ecgc | ecgc ecce :|\
+[2 g2(gf) gbag | fdec d2 |]

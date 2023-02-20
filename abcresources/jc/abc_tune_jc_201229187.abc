@@ -1,0 +1,22 @@
+X: 12051
+T: the Banks of Tay
+C: James Oswald
+%R: air, waltz
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.5 #1
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"G>E |\
+(D2 E2) G2 | G3 A (G/A/)B | A2 (TG>A) (TA>G) | E4 (G>E) |\
+(D2 E2) G2 | {E2}D4 E2 | G3 A (Bc) | {Bc}d4 c2 |\
+(B2 A2) B2 | D3 E G>A | B2 (cB)(AG) |
+E4 (d/e/)f |\
+g3 e (d/e/)g | (ed)(cB)(AG) | (DE) G2 (G>A) | G4 :: (B>c) |\
+d4 (e/f/)g | {e}d3 B (A>B) | G3 A (TA>G) | E4 (DE) |\
+G4 TB>A | G4 (g>f) |
+e2 (d3/c//B//) A>d | B3 A (B/A/G) |\
+c3 g (e/d/)B | A2 B2 (d/e/)g | (ed)(cB)(AG) | E4 (d/e/)f |\
+g3 e (d/e/)g | (ed)(cB)(AG) | (DE) G2 (TG>A) | G4 :|

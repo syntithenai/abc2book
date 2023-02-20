@@ -1,0 +1,32 @@
+X: 20983
+T: PHANTOM SETT (tune 3)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.98 #3 (and top 2 staves of p.99)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+[|\
+FGF AGF | c2c c2B | Acf c2B | B2A G2D |\
+FGF AGF | c2c c2f | efe dc=B | c3- c2 H|]
+g2c b2a | gfe fef | g2c b2a | gfe fef |\
+dbb caa | Bgg Aff | BAG c2E | F3 "^D.C."F2 |]
+A3  GFG | F2F FAc | c3  BAB | A2A A2e |\
+f2e e2d | d2c c2B | ABc cBA | (A3 G2)"^D.C."z |]
+f3 fd=B | cdc ceg | b3  age | fgf f3  |\
+f2e d2c | d2c B2A | BAG c2E | F3 "^D.C."F2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% [Below 1st strain:]
+%% Ladies all forward to the centre and balata,
+%% back and balata.
+%% [Below 3rd strain:]
+%% All chassa across partners and back,
+%% Gentlemen the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

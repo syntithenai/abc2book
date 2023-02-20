@@ -1,0 +1,85 @@
+
+X: 0
+T: Trip to Paris
+O: Playford
+K:
+W: All set to partners and cross over turning single 3/2; repeat to places.
+W: 1st couple cross over, make a wide cast down (sk.s.);
+W: cross below 2nd couple, cast up to places and turn single.
+W: 1st corners cross, 2nd corners cross; hands-4 half way round,
+W: 1st couple cast down while 2nd couple move up.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: a Trip to Paris    [Am]
+C: Andr\'e Campra 1710
+O: Playford 1726
+%Q: 1/4=120
+M: 2/4
+L: 1/16
+K: Am
+A2 |\
+"Am"c3d e2e2 | "Am"c3d e2e2 | "Am"c2e2 c2e2 | "Am"c2Bc A2A2 |\
+"Am"c3d e2e2 | "Am"c3d e2e2 | "Am"c2A2 "E7"B2^G2 | "Am"A6 ||
+e2 |\
+"F"a4 a2^g2 | "Am"a2gf e2e2 | "Dm"a4 a2^g2 | "Am"a2gf e2e2 |\
+"Dm"f3e "G"d2g2 | "C"e6 f2 | "G"d6 e2 | "Am"c6 ||\
+d2 |\
+"G"d2c2 d2B2 | "C"c6 ||
+c2 |\
+"G"B2c2 d2e2 | "Am"c2Bc A2c2 | "G"B2c2 d2e2 | "Am"c2Bc A2c2 |\
+"C"E2F2 G2A2 | "G"B4 "F"a4 | "Am"e2dc "E7"d2cB | "Am"A6 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: a Trip to Paris
+C: Andr\'e Campra 1710
+O: Playford 1726
+R:
+Z: 2009 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+P:
+K: Am
+A |\
+"Am"c>d ee | c>d ee | ce ce | cB/c/ AA |\
+c>d ee | c>d ee | cA "E7"B^G | "Am"A3 ||
+e |\
+"F"a2 a^g | "Am"ag/f/ ee | "F"a2 a^g | "Am"ag/f/ ee |\
+"Dm"f>e "G"dg | "C"e3 f | "G"d3 e | "Am"c3 d ||
+"Dm"dc "G"dB | "C"c3 c ||\
+"G"Bc de | "Am"cB/c/ Ac | "G"Bc de | "Am"cB/c/ Ac |\
+"C"EF GA | "G"B2 "F"a2 | "C"ed/c/ "G"dc/B/ | "Am"A3 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: a Trip to Paris    (Bm)
+C: Andr\'e Campra 1710
+O: Playford 1726
+%Q: 1/4=120
+M: 2/4
+L: 1/16
+K: Bm
+B2 |\
+"Bm"d3e f2f2 | "Bm"d3e f2f2 |\
+"Bm"d2f2 d2f2 | "Bm"d2cd B2B2 |\
+"Bm"d3e f2f2 | "Bm"d3e f2f2 |\
+"Bm"d2B2 "F#"c2^A2 | "Bm"B6 ||
+f2 |\
+"G"b4 b2^a2 | "Bm"b2ag f2f2 |\
+"Em"b4 b2^a2 | "Bm"b2ag f2f2 |\
+"Em"g3f "A"e2a2 | "D"f6 g2 |\
+"A"e6 f2 | "Bm"d6 ||\
+e2 |\
+"A"e2d2 e2c2 | "Bm"d6 ||
+d2 |\
+"A"c2d2 e2f2 | "Bm"d2cd B2d2 |\
+"A"c2d2 e2f2 | "Bm"d2cd B2d2 |\
+"D"F2G2 A2B2 | "A"c4 "G"b4 |\
+"Bm"f2ed "F#"e2dc | "Bm"B6 |]

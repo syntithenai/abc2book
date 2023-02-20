@@ -1,0 +1,43 @@
+%%center Ecumenical Hornpipe
+%D: 091220
+
+
+X: 0
+T: Catholic Boys
+T: The Blackthorn Stick
+P: piffero primo a0792
+O: safd 133
+%R: jig
+S: http://ancients.sudburymuster.org/mus/med/pdf/catholic_medleyC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+d |\
+gfg ege | dBG AGE | DGG AGA | BAA A2d |\
+gfg ege | dBG AGE | DGG AGA | BGG G2 :|
+|: d |\
+Bdd edd | gdd edd | Bdd gfg | eaa a2d |\
+gfg ege | dBG AGE | DGG AGA | BGG G2 :|
+
+
+X: 1
+T: Kick the Pope
+P: piffero primo a0794
+O: safd 134
+%R: jig
+S: http://ancients.sudburymuster.org/mus/med/pdf/ecumenicalC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Edor
+z |\
+E>FE E2-E//F//G//A// | B2A Bcd | DED D2E | F2E FED |\
+E>FE E2-E//F//G//A// | B2A Bcd | dcd AFD | TE3- E2 :|
+|: A |\
+B2e e2d | e2d B2c | dcd e2d | c2B A3 |\
+B2e e2d | e2d B2c | dcd AFD | TE3- E2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

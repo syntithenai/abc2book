@@ -1,0 +1,28 @@
+X: 31463
+T: COTILLION No. 32. LA SOMNAMBULA SETT tune 3
+C:
+%R: Rjig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.147 #3 (and p.147 #1)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+dBc def | gba gfe | dBc dBG | FAF DBc |\
+dBc def | g2g (gf)e | (dc)B (Ad)F | [G2B,2][GB,] [G2B,2] H|]
+F/G/ |\
+A2A F2D | d2d d^cd | e2e a2g | fef d2F/G/ |\
+A2A F2D | d2d (d^cB) | A2a (ag)e | (df)e d(B"^D.C."c) |]
+"Minor Key."G/F/ |\
+EGB e2f | g2g (gf)e | ^d2c B2e | ^d2c BAG |\
+EGB e2e | g2g (gf)e | b2b ^d2d | e3 Bc"^D.C."^c |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 lead to right,
+%% chassa out and form lines across the hall,
+%% all right and left.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

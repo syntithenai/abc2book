@@ -1,0 +1,33 @@
+X: 21282
+T: WESTMINSTER SETT (tune 2)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.128 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Version 1 for ABC software that doesn't understand !diminuendo*! annotations.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="2"
+A, |\
+D2F A2F | d2A f2d | cde gec | d/f/e/c/d/B/ A2A, |\
+D2F A2F | d2A f2d | Bge ceA | (e3 d2) H|]
+e/f/ |\
+gec AGE | DFA d2c | B^AB gfe | (d3 c2)e/f/ |\
+gec AGE | DFA d2c | Bgf edc | (e3 "^D.C."d2) |]
+A |\
+"_>"B3 "_>"d3 | f3 z2f | f(fg) f(fg) | fed c2"_>"F |\
+"_>"^A3 "_>"^c3 | "_>"e3 z2g | fed cB^A | (c3 "^D.C."B2) |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies all forward and back,
+%% gentlemen the same,
+%% all balance to partners,
+%% all chain,
+%% all promenade,
+%% repeat the figure.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

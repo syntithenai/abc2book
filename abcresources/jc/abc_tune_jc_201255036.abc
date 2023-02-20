@@ -1,0 +1,1052 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 33
+B: RSCDS Book 33
+K:
+%%center Book33/3300-Title.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 3301
+T: The Music Makars
+P: At the Fair
+C:Trad. (Harding's Coll.)
+R:Reel (8x32)
+B:RSCDS 33-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:C
+|:"C"c2ec g2ec|c2ec "G"Bcde|"C"c2ec g2fe|"Dm"fedc "G7"Bcde|
+  "C"c2ec g2ec|c2ec "G7"Bcde|\
+      "Am"c2ec "Em"g2fe|"Dm/F"fe"D7/F#"dc "G"Bc"E7/G#"de|
+  "Am"c2ec "Em/G"B2eB|"F"A2cA "C/E"G2AG|"G7/D"F2GF "C"EGce|"D7"dABc "G"edBG|
+  "Am"c2ec "Em/G"B2eB|"F"A2cA "C/E"G2AG|\
+    "Dm"F2"G7"GF "C"EGce|1 "F"Ad"G"BG "C"c2G2:|2 "F"Ad"G"BG "C"c2z2|]
+%%center Book33/3301-Music_Makars-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 3302
+T: Stuttgart Strathspey
+P: Mr Michie's
+C:J. Scott Skinner
+R:Strathspey (8x32)
+B:RSCDS 33-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:G
+D|"G"G>A B<d "Am"c<A E>G|"D7"F>G A<e "G"d<B B<g|\
+  "G"G>A B<d "Am"c<A E>G|"D7"F<A d>B "G"G2 Gd|
+  "G"G>A B<d "Am"c<A "A7"E>G|"D7"F>G A<e "G"d<B B<g|\
+  "Em"G>A B<d "Am"c<A E>G|"D7"F<A d>B "G"G2 G||
+d|"G"g>d "C"e<g "G"d<B B>G|"Am"c>d e/d/c/B/ "D7"A<a a>f|\
+  "G"g>d "C"e<g "G"d<B B>G|"D7"(3FDF (3Adc "G"B>G G>d|
+  "G"g>d "C"e<g "G"d<B B>G|"Am"c>d e/d/c/B/ "D7"A<a a>f|\
+  "Em"(3gbg "G"(3dgd (3BdB "Em"(3GBG|"D7"(3FDF (3Adc "G"B>G G|]
+%%center Book33/3302-Stuttgart_Strathspey-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 3303
+T: Macleod's Fancy
+P: Capt. William McLeod's Fancy
+C:Wm. Marshall
+R:Jig (4x32)
+B:RSCDS 33-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:F
+|:"F"f2 c "C7"cdB|"F"A2 G F3|"Gm"gab "G7"agf|"C"{f}e2 d c2|
+  "Gm"d2B b2B|"F"c2A a2A|1 "Gm"GAB "G7"AGF|"C"EGF "C7"EDC:|2 \
+                           "F"{B}AGF "C7"CDE|"F"[F3A,3] F3||
+|:"C"CCC C2 f|"C7"ef/g/e c2 z|"F"CCC C2 f|fg/a/f c3|
+  "C7"b2g "F"a2f|"C7"g2e "F"f2c|"Bb"{e}dcB "C7"ABG|"F"{E}F3 F3:|
+%%center Book33/3303-Macleods_Fancy-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 3304
+T: The Golden Wedding Strathspey
+P: Sundrum Castle
+C:Muriel A. Johnstone
+R:Strathspey (4x40) ABABB
+B:RSCDS 33-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:G
+%
+(3DEF|"G"G2 b>a "C"c<e e>g|"D7"(3fed (3cBA "G"B<G (3GFG|\
+  "D"D2 f>e d<A A>d|"A7"(3^cBA (3GFE "D7"(3FED (3CB,A,|
+  "G"G2 b>a "C"c<e e>g|"D7"(3fed (3cBA "Em"B<G (3GFG|\
+  "C"e>G "G"d>G "Am"(3cc'b (3abc'|"D7"b<g a>f "G"g2-g||
+B|"G"d<d B>d e>d B<G|"G7"d<d B>d "C"e>d (3efg|\
+  "G"d<d B>d "Em"e>d B<G|"A7"A>B ^c>e "D7"A<a a2|
+  "G"d<d B>d e>d B<G|"G7"d<d B>d "C"e>d (3efg|\
+  "G"d2 d'>b "C"a>g "A7"(3efg|"D7"d>B A>G "G"G2-G|]
+%%center Book33/3304-Golden_Wedding_Strathspey-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 3305
+T: John of Bon Accord
+P: John of Bon Accord
+C:George Meikle
+R:Reel (8x32)
+B:RSCDS 33-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:A
+|:AB|"A"c2Bc eAAB|cBcd ecBA|"Bm"d2cd fddc|dcde fd"E7"BG|
+     "A"c2Bc eAAB|cBcd ecBA|"Bm"dcdf "E7"Bcde|"A"cA"D"AA "A"A2:|
+|:"E7"cd|"A"e2^de fece|a2ga fece|"Bm"f2ef defa|"B7"bagf "E7"edcd|
+     "A"e2^de fece|a2ga fece|"Bm"d2cd "E7"Bcde|"A"cA"D"AA "A"A2:|
+%%center Book33/3305-John_of_Bon_Accord-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 3306
+T: It's Just for Fun
+P: Quickstep
+C:Nathaniel Gow
+R:Jig (8x32)
+B:RSCDS 33-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Bb
+%%staffsep 45
+|:F|"Bb"B2 B "F/A"cde|"Bb"fdB "Bb7/D"Bcd|"Cm/Eb"e2e "C7"GAB|"F"cAF "F7/Eb"FGA|\
+    "Bb"B2 B "F7/C"cde|"Bb"fdB Bcd|
+                                   "Cm"e2 e "F7"FGA|"Bb"B3 B2:|\
+f|"Gm"b2 b gab|"Dm"afd def|"Eb"g2 g "F7/C"efg|"Bb/D"fdB "Bb"B2 f|
+  "Gm"b2 b "C7"gab|"Dm"afd "Bb"d2 "Gm"b|"F/C"agf "C7"gf=e|"F"f3-"F7/A"f2 f|\
+  "Gm"b2 b "C7"gab|"Dm"afd "Bb7/D"def|
+                                      "Eb"g2 g "F7/C"efg|"Bb/D"fdB "Bb7"B2 f|\
+  "Eb"gfg "D7"aga|"Gm"bag "Bb/D"fed|"Cm/Eb"ced "F7"cBA|"Bb"B3-B2|]
+%%center Book33/3306-Its_Just_for_Fun-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 3307
+T: Bedrule
+P: The Annandale Strathspey
+C:Anna Robertson
+R:Strathspey (8x32)
+B:RSCDS 33-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:D
+%
+A2|:"D"D2 D>E F<D F>G|A3 B A>B "G"d>e|\
+       "D"f3 d "Bm"g>f e<d|"Em7"B2 e2 "A7"e2 F>E|
+    "D"D2 D>E F<D F>G|A3 B A>B "G"d>e|"D"f3 d "D7"g>f e<d\
+    |1 "G"B2 "Em7"d2 "D"d2 "A7"F>E:|2 "G"B2 "Em7"d2 "D"d2||
+"A7"A2|"D"a2 a>g f>g a>f|"Em"g>a g>f "A7"e2 A2|\
+              "Bm"f3 e "E7"d>e f<d|"Em7"e4-"A"e2 "D7"A2|\
+       "G"B3 c d>c d>B|
+                       "D"A>B A>F D2 F2|\
+              "A"E2 A>B "B7"c>A "E7"B<^G|"A"A6 "A7"A2|\
+       "D"a2 a>g f>g a>f|"Em"g>a g>f "A7"e2 A2|
+       "Bm"f3 e "E7"d>e f<d|"Em"e4 "A7"A>G F>E|\
+       "D"D2 D>E F<D F>G|A3 B A>B "G"d>e|\
+               "D"f3 d "D7"g>f e<d|"G"B2 "Em7"d2 "D"d2|]
+%%center Book33/3307-Bedrule-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 3308
+T: Milton's Welcome
+P: Gipsy Hornpipe
+C:Astor's 24 Country Dances for the year 1803
+R:Reel (8x32)
+B:RSCDS 33-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:C
+|:c|"C"BcBc GcBc|ecgc "F"acgc|"C"GcBc GcBc|"D7"e2d2 d4|
+    "C"BcBc GcBc|ecgc "F"acgc|"G"GcBd "Dm"ca"G7"gf|"C"e2"F"c2"C"c3:|
+|:e|"C"gagf efed|"Am"cdcB "F"AG"G7"FE|"C"EGcG EFGE|"Dm"F2D2 D3 f|
+    "C"ga"G7"gf "C"ef"G"ed|"Am"cd"G"cB "F"AG"G7"FE|\
+         "C"EGcG "Dm"Fa"G7"gf|"C"e2c2 c3:|
+%%center Book33/3308-Miltons_Welcome-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33011
+T: At the Fair
+O: Trad
+R: reel
+B: RSCDS 33-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Harding's Collection
+M: C|
+L: 1/8
+%--------------------
+K: C
+G2 \
+|| "C"c2ec g2ec | c2ec "G7"Bcde | "C"c2ec g2fe | "Dm"fedc "G7"Bcde |
+ | "C"c2ec g2ec | c2ec "G7"Bcde | "Am"c2ec "Em"g2fe | "Dm"fe"D7"dc "G"Bc"E7"de ||
+|| "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG | "G7"F2GF "C"EGce | "D7"dABc "G"edBG |
+ | "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG | "Dm"F2"G7"GF "C"EGce | "F"Ad"G7"BG "C"c2z2 |]
+%%center Book33/33011-At_the_Fair-1.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33012
+T: At the Fair
+O: Trad
+R: reel
+B: RSCDS 33-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Harding's Collection
+M: C|
+L: 1/8
+%--------------------
+K: C
+G2 \
+|| "C"c2ec g2ec | c2ec "G7"Bcde | "C"c2ec g2fe \
+| "Dm"fedc "G7"Bcde || "C"c2ec g2ec |
+| c2ec "G7"Bcde | "Am"c2ec "Em"g2fe | "Dm"fe"D7"dc "G"Bc"E7"de \
+|]| "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG |
+| "G7"F2GF "C"EGce | "D7"dABc "G"edBG || "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG \
+| "Dm"F2"G7"GF "C"EGce | "F"Ad"G7"BG "C"c2 |]
+%%center Book33/33011-At_the_Fair-2.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33013
+T: At the Fair
+O: Trad
+R: reel
+B: RSCDS 33-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Harding's Collection
+M: C|
+L: 1/8
+%--------------------
+K: C
+|: "C"c2ec g2ec | "C"c2ec "G7"Bcde \
+|1 "C"c2ec g2fe | "Dm"fedc "G7"Bcde \
+:|2 "Am"c2ec "Em"g2fe | "Dm"fe"D7"dc "G"Bc"E7"de |]
+|: "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG \
+|1 "G7"F2GF "C"EGce | "D7"dABc "G"edBG \
+:|2 "Dm"F2"G7"GF "C"EGce | "F"Ad"G7"BG "C"c2z2 |]
+%%center Book33/33011-At_the_Fair-4.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33014
+T: At the Fair
+O: Trad
+R: reel
+B: RSCDS 33-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Harding's Collection
+M: C|
+L: 1/8
+%--------------------
+K: C
+G2 \
+|| "C"c2ec g2ec | c2ec "G7"Bcde | "C"c2ec g2fe | "Dm"fedc "G7"Bcde | "C"c2ec g2ec |
+| c2ec "G7"Bcde | "Am"c2ec "Em"g2fe | "Dm"fe"D7"dc "G"Bc"E7"de || "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG | "G7"F2GF "C"EGce |
+| "D7"dABc "G"edBG | "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG | "Dm"F2"G7"GF "C"EGce | "F"Ad"G7"BG "C"c2z2 |]
+%%center Book33/33011-At_the_Fair-8.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33071
+T: The Annandale Strathspey
+C: Anna Robertson
+R: strathspey
+B: RSCDS 33-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+%--------------------
+K: D
+A2 \
+| "D"D2 D>E F<D F>G | A3 B A>B "(G)"d>e \
+| "D"f3 d "Bm"g>f e<d | "Em"B2 e2 "A7"e2 F>E |
+| "D"D2 D>E F<D F>G | A3 B A>B "(G)"d>e \
+| "D"f3 d "D7"g>f e<d |1 "G"B2"Em"[d2G2] "D"[d2F2] "A7"F>E :|2 "G"B2"Em"[d2G2] "D"[d2F2] "A7"A2 ||
+|| "D"[a2f2d2A2] a>g f>g a>f | "Em"g>a g>f "A7"e2 A2 \
+| "Bm"f3 e "E7"d>e f<d | "A7"e4- e2A2 |
+| "G"B3 c d>c d>B | "D"A>B A>F D2 F2 \
+| "A"E2 A>B "(B7)"c>A "E7"B<^G | "A"A6 "A7"A2 |
+|| "D"[a2f2d2A2] a>g f>g a>f | "Em"g>a g>f "A7"e2 A2 \
+| "Bm"f3 e "E7"d>e f<d | "A7"e4 A>G F>E |
+| "D"D2 D>E F<D F>G | A3 B A>B "(G)"d>e \
+| "D"f3 d "D7"g>f e<d | "G"B2"Em"[d2G2] "D"[d2F2] |]
+%%center Book33/33071-Annandale_Strathspey-1.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33081
+T: Gipsy Hornpipe
+T: Master Erskine
+C: Niel Gow
+R: reel, hornpipe
+B: RSCDS 33-8
+B: Astor's 24 Country Dances for the yer 1803
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: C
+   G2 \
+| "C"GcBc GcBc | "C"ecgc "F"ac"C"gc | "C"GcBc GcBc | "D7"e2d2 "G7"d4 |
+| "C"GcBc GcBc | "C"ecgc "F"ac"C"gc | "G"GcBd "/A"ca"/B"gf | "C"e2"F"c2 "C"c2 :|
+|: ef \
+| "C"gagf efed | "F"cdcB "G7"AGFE | "C"EGcG "Am"EFGE | "Dm"F2D2 "G7"D2ef |
+| "C"gagf efed | "F"cdcB "G7"AGFE | "C"EGcG "G7"Fagf | "C"e2"F"c2 "C"c2 :|
+%%center Book33/33081-Gipsy_Hornpipe-1.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33082
+T: Gipsy Hornpipe
+T: Master Erskine
+C: Niel Gow
+R: reel, hornpipe
+B: RSCDS 33-8
+B: Astor's 24 Country Dances for the yer 1803
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: C
+|: c2 \
+| "C"GcBc GcBc | ecgc "F"ac"C"gc | GcBc GcBc | "D7"e2d2 "G7"d4 | "C"GcBc GcBc |
+| ecgc "F"ac"C"gc | "G"GcBd "/A"ca"/B"gf | "C"e2"F"c2 "C"c2 :: ef | "C"gagf efed | "F"cdcB "G7"AGFE |
+| "C"EGcG "Am"EFGE | "Dm"F2D2 "G7"D2ef | "C"gagf efed | "F"cdcB "G7"AGFE | "C"EGcG "G7"Fagf | "C"e2"F"c2 "C"c2 :|
+%%center Book33/33081-Gipsy_Hornpipe.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33083
+T: Gipsy Hornpipe (Master Erskine)
+C: Niel Gow
+R: reel, hornpipe
+B: RSCDS 33-8
+B: Astor's 24 Country Dances for the yer 1803
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: C
+|: c2 \
+| "C"GcBc GcBc | ecgc "F"ac"C"gc | GcBc GcBc | "D7"e2d2 "G7"d4 | "C"GcBc GcBc |
+| ecgc "F"ac"C"gc | "G"GcBd "/A"ca"/B"gf | "C"e2"F"c2 "C"c2 :: ef | "C"gagf efed | "F"cdcB "G7"AGFE |
+| "C"EGcG "Am"EFGE | "Dm"F2D2 "G7"D2ef | "C"gagf efed | "F"cdcB "G7"AGFE | "C"EGcG "G7"Fagf | "C"e2"F"c2 "C"c2 :|
+%%center Book33/33081-Gipsy_Hornpipe_Master_Erskine-1.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33084
+T: Gipsy Hornpipe (Master Erskine)
+C: Niel Gow
+R: reel, hornpipe
+B: RSCDS 33-8
+B: Astor's 24 Country Dances for the yer 1803
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: C
+   G2 \
+| "C"GcBc GcBc | "C"ecgc "F"ac"C"gc | "C"GcBc GcBc | "D7"e2d2 "G7"d4 |
+| "C"GcBc GcBc | "C"ecgc "F"ac"C"gc | "G"GcBd "/A"ca"/B"gf | "C"e2"F"c2 "C"c2 :|
+|: ef \
+| "C"gagf efed | "F"cdcB "G7"AGFE | "C"EGcG "Am"EFGE | "Dm"F2D2 "G7"D2ef |
+| "C"gagf efed | "F"cdcB "G7"AGFE | "C"EGcG "G7"Fagf | "C"e2"F"c2 "C"c2 :|
+%%center Book33/33081-Gipsy_Hornpipe_Master_Erskine-2.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33085
+T: The Annandale Strathspey
+C: Anna Robertson
+R: strathspey
+B: RSCDS 33-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+A2 \
+| "D"D2 D>E F<D F>G | A3 B A>B "(G)"d>e \
+| "D"f3 d "Bm"g>f e<d | "Em"B2 e2 "A7"e2 F>E |
+| "D"D2 D>E F<D F>G | A3 B A>B "(G)"d>e \
+| "D"f3 d "D7"g>f e<d |1 "G"B2"Em"[d2G2] "D"[d2F2] "A7"F>E :|2 "G"B2"Em"[d2G2] "D"[d2F2] "A7"A2 ||
+|| "D"[a2f2d2A2] a>g f>g a>f | "Em"g>a g>f "A7"e2 A2 \
+| "Bm"f3 e "E7"d>e f<d | "A7"e4- e2A2 |
+| "G"B3 c d>c d>B | "D"A>B A>F D2 F2 \
+| "A"E2 A>B "(B7)"c>A "E7"B<^G | "A"A6 "A7"A2 |
+|| "D"[a2f2d2A2] a>g f>g a>f | "Em"g>a g>f "A7"e2 A2 \
+| "Bm"f3 e "E7"d>e f<d | "A7"e4 A>G F>E |
+| "D"D2 D>E F<D F>G | A3 B A>B "(G)"d>e \
+| "D"f3 d "D7"g>f e<d | "G"B2"Em"[d2G2] "D"[d2F2] |]
+%%center Book33/AnnandaleS-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33086
+T: The Annandale Strathspey
+C: Anna Robertson
+R: strathspey
+B: RSCDS 33-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+A2 \
+| "D"D2 D>E F<D F>G | A3 B A>B "(G)"d>e \
+| "D"f3 d "Bm"g>f e<d | "Em"B2 e2 "A7"e2 F>E |
+| "D"D2 D>E F<D F>G | A3 B A>B "(G)"d>e \
+| "D"f3 d "D7"g>f e<d |1 "G"B2"Em"[d2G2] "D"[d2F2] "A7"F>E :|2 "G"B2"Em"[d2G2] "D"[d2F2] "A7"A2 ||
+|| "D"[a2f2d2A2] a>g f>g a>f | "Em"g>a g>f "A7"e2 A2 \
+| "Bm"f3 e "E7"d>e f<d | "A7"e4- e2A2 |
+| "G"B3 c d>c d>B | "D"A>B A>F D2 F2 \
+| "A"E2 A>B "(B7)"c>A "E7"B<^G | "A"A6 "A7"A2 |
+|| "D"[a2f2d2A2] a>g f>g a>f | "Em"g>a g>f "A7"e2 A2 \
+| "Bm"f3 e "E7"d>e f<d | "A7"e4 A>G F>E |
+| "D"D2 D>E F<D F>G | A3 B A>B "(G)"d>e \
+| "D"f3 d "D7"g>f e<d | "G"B2"Em"[d2G2] "D"[d2F2] |]
+%%center Book33/AnnandaleS_2-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33087
+T: The Annandale Strathspey
+C: Anna Robertson
+R: strathspey
+B: RSCDS 33-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+A2 \
+| "D"D2 D>E F<D F>G | A3 B A>B "(G)"d>e \
+| "D"f3 d "Bm"g>f e<d | "Em"B2 e2 "A7"e2 F>E |
+| "D"D2 D>E F<D F>G | A3 B A>B "(G)"d>e \
+| "D"f3 d "D7"g>f e<d |1 "G"B2"Em"[d2G2] "D"[d2F2] "A7"F>E :|2 "G"B2"Em"[d2G2] "D"[d2F2] "A7"A2 ||
+|| "D"[a2f2d2A2] a>g f>g a>f | "Em"g>a g>f "A7"e2 A2 \
+| "Bm"f3 e "E7"d>e f<d | "A7"e4- e2A2 |
+| "G"B3 c d>c d>B | "D"A>B A>F D2 F2 \
+| "A"E2 A>B "(B7)"c>A "E7"B<^G | "A"A6 "A7"A2 |
+|| "D"[a2f2d2A2] a>g f>g a>f | "Em"g>a g>f "A7"e2 A2 \
+| "Bm"f3 e "E7"d>e f<d | "A7"e4 A>G F>E |
+| "D"D2 D>E F<D F>G | A3 B A>B "(G)"d>e \
+| "D"f3 d "D7"g>f e<d | "G"B2"Em"[d2G2] "D"[d2F2] |]
+%%center Book33/AnnandaleS_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33088
+T: At the Fair
+O: Trad
+R: reel
+B: RSCDS 33-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Harding's Collection
+M: C|
+L: 1/8
+K: C
+G2 \
+|| "C"c2ec g2ec | c2ec "G7"Bcde | "C"c2ec g2fe | "Dm"fedc "G7"Bcde |
+ | "C"c2ec g2ec | c2ec "G7"Bcde | "Am"c2ec "Em"g2fe | "Dm"fe"D7"dc "G"Bc"E7"de ||
+|| "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG | "G7"F2GF "C"EGce | "D7"dABc "G"edBG |
+ | "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG | "Dm"F2"G7"GF "C"EGce | "F"Ad"G7"BG "C"c2z2 |]
+%%center Book33/AtTheFair-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33089
+T: At the Fair
+O: Trad
+R: reel
+B: RSCDS 33-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Harding's Collection
+M: C|
+L: 1/8
+K: C
+G2 \
+|| "C"c2ec g2ec | c2ec "G7"Bcde | "C"c2ec g2fe | "Dm"fedc "G7"Bcde |
+ | "C"c2ec g2ec | c2ec "G7"Bcde | "Am"c2ec "Em"g2fe | "Dm"fe"D7"dc "G"Bc"E7"de ||
+|| "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG | "G7"F2GF "C"EGce | "D7"dABc "G"edBG |
+ | "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG | "Dm"F2"G7"GF "C"EGce | "F"Ad"G7"BG "C"c2z2 |]
+%%center Book33/AtTheFair_2-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33090
+T: At the Fair
+O: Trad
+R: reel
+B: RSCDS 33-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Harding's Collection
+M: C|
+L: 1/8
+K: C
+G2 \
+|| "C"c2ec g2ec | c2ec "G7"Bcde | "C"c2ec g2fe | "Dm"fedc "G7"Bcde | "C"c2ec g2ec |
+| c2ec "G7"Bcde | "Am"c2ec "Em"g2fe | "Dm"fe"D7"dc "G"Bc"E7"de || "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG | "G7"F2GF "C"EGce |
+| "D7"dABc "G"edBG | "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG | "Dm"F2"G7"GF "C"EGce | "F"Ad"G7"BG "C"c2z2 |]
+%%center Book33/AtTheFair_3C-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33091
+T: At the Fair
+O: Trad
+R: reel
+B: RSCDS 33-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Harding's Collection
+M: C|
+L: 1/8
+K: C
+G2 \
+|| "C"c2ec g2ec | c2ec "G7"Bcde | "C"c2ec g2fe | "Dm"fedc "G7"Bcde | "C"c2ec g2ec |
+| c2ec "G7"Bcde | "Am"c2ec "Em"g2fe | "Dm"fe"D7"dc "G"Bc"E7"de || "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG | "G7"F2GF "C"EGce |
+| "D7"dABc "G"edBG | "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG | "Dm"F2"G7"GF "C"EGce | "F"Ad"G7"BG "C"c2z2 |]
+%%center Book33/AtTheFair_3C_2-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33092
+T: At the Fair
+O: Trad
+R: reel
+B: RSCDS 33-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Harding's Collection
+M: C|
+L: 1/8
+K: C
+G2 \
+|| "C"c2ec g2ec | c2ec "G7"Bcde | "C"c2ec g2fe | "Dm"fedc "G7"Bcde | "C"c2ec g2ec |
+| c2ec "G7"Bcde | "Am"c2ec "Em"g2fe | "Dm"fe"D7"dc "G"Bc"E7"de || "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG | "G7"F2GF "C"EGce |
+| "D7"dABc "G"edBG | "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG | "Dm"F2"G7"GF "C"EGce | "F"Ad"G7"BG "C"c2z2 |]
+%%center Book33/AtTheFair_3C_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33093
+T: At the Fair
+O: Trad
+R: reel
+B: RSCDS 33-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Harding's Collection
+M: C|
+L: 1/8
+K: C
+G2 \
+|| "C"c2ec g2ec | c2ec "G7"Bcde | "C"c2ec g2fe \
+| "Dm"fedc "G7"Bcde || "C"c2ec g2ec |
+| c2ec "G7"Bcde | "Am"c2ec "Em"g2fe | "Dm"fe"D7"dc "G"Bc"E7"de \
+|]| "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG |
+| "G7"F2GF "C"EGce | "D7"dABc "G"edBG || "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG \
+| "Dm"F2"G7"GF "C"EGce | "F"Ad"G7"BG "C"c2 |]
+%%center Book33/AtTheFair_C16-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33094
+T: At the Fair
+O: Trad
+R: reel
+B: RSCDS 33-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Harding's Collection
+M: C|
+L: 1/8
+K: C
+G2 \
+|| "C"c2ec g2ec | c2ec "G7"Bcde | "C"c2ec g2fe \
+| "Dm"fedc "G7"Bcde || "C"c2ec g2ec |
+| c2ec "G7"Bcde | "Am"c2ec "Em"g2fe | "Dm"fe"D7"dc "G"Bc"E7"de \
+|]| "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG |
+| "G7"F2GF "C"EGce | "D7"dABc "G"edBG || "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG \
+| "Dm"F2"G7"GF "C"EGce | "F"Ad"G7"BG "C"c2 |]
+%%center Book33/AtTheFair_C16_2-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33095
+T: At the Fair
+O: Trad
+R: reel
+B: RSCDS 33-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Harding's Collection
+M: C|
+L: 1/8
+K: C
+G2 \
+|| "C"c2ec g2ec | c2ec "G7"Bcde | "C"c2ec g2fe \
+| "Dm"fedc "G7"Bcde || "C"c2ec g2ec |
+| c2ec "G7"Bcde | "Am"c2ec "Em"g2fe | "Dm"fe"D7"dc "G"Bc"E7"de \
+|]| "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG |
+| "G7"F2GF "C"EGce | "D7"dABc "G"edBG || "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG \
+| "Dm"F2"G7"GF "C"EGce | "F"Ad"G7"BG "C"c2 |]
+%%center Book33/AtTheFair_C16_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33096
+T: At the Fair
+O: Trad
+R: reel
+B: RSCDS 33-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Harding's Collection
+M: C|
+L: 1/8
+K: C
+G2 \
+|| "C"c2ec g2ec | c2ec "G7"Bcde | "C"c2ec g2fe | "Dm"fedc "G7"Bcde |
+ | "C"c2ec g2ec | c2ec "G7"Bcde | "Am"c2ec "Em"g2fe | "Dm"fe"D7"dc "G"Bc"E7"de ||
+|| "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG | "G7"F2GF "C"EGce | "D7"dABc "G"edBG |
+ | "Am"c2ec "Em"B2eB | "F"A2cA "C"G2AG | "Dm"F2"G7"GF "C"EGce | "F"Ad"G7"BG "C"c2z2 |]
+%%center Book33/AtTheFair_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33097
+T: Gipsy Hornpipe
+T: Master Erskine
+C: Niel Gow
+R: reel, hornpipe
+B: RSCDS 33-8
+B: Astor's 24 Country Dances for the yer 1803
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+|: c2 \
+| "C"GcBc GcBc | ecgc "F"ac"C"gc | GcBc GcBc | "D7"e2d2 "G7"d4 | "C"GcBc GcBc |
+| ecgc "F"ac"C"gc | "G"GcBd "/A"ca"/B"gf | "C"e2"F"c2 "C"c2 :: ef | "C"gagf efed | "F"cdcB "G7"AGFE |
+| "C"EGcG "Am"EFGE | "Dm"F2D2 "G7"D2ef | "C"gagf efed | "F"cdcB "G7"AGFE | "C"EGcG "G7"Fagf | "C"e2"F"c2 "C"c2 :|
+%%center Book33/GipsyH-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33098
+T: Gipsy Hornpipe
+T: Master Erskine
+C: Niel Gow
+R: reel, hornpipe
+B: RSCDS 33-8
+B: Astor's 24 Country Dances for the yer 1803
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+|: c2 \
+| "C"GcBc GcBc | ecgc "F"ac"C"gc | GcBc GcBc | "D7"e2d2 "G7"d4 | "C"GcBc GcBc |
+| ecgc "F"ac"C"gc | "G"GcBd "/A"ca"/B"gf | "C"e2"F"c2 "C"c2 :: ef | "C"gagf efed | "F"cdcB "G7"AGFE |
+| "C"EGcG "Am"EFGE | "Dm"F2D2 "G7"D2ef | "C"gagf efed | "F"cdcB "G7"AGFE | "C"EGcG "G7"Fagf | "C"e2"F"c2 "C"c2 :|
+%%center Book33/GipsyH_2-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33099
+T: Gipsy Hornpipe
+T: Master Erskine
+C: Niel Gow
+R: reel, hornpipe
+B: RSCDS 33-8
+B: Astor's 24 Country Dances for the yer 1803
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+|: c2 \
+| "C"GcBc GcBc | ecgc "F"ac"C"gc | GcBc GcBc | "D7"e2d2 "G7"d4 | "C"GcBc GcBc |
+| ecgc "F"ac"C"gc | "G"GcBd "/A"ca"/B"gf | "C"e2"F"c2 "C"c2 :: ef | "C"gagf efed | "F"cdcB "G7"AGFE |
+| "C"EGcG "Am"EFGE | "Dm"F2D2 "G7"D2ef | "C"gagf efed | "F"cdcB "G7"AGFE | "C"EGcG "G7"Fagf | "C"e2"F"c2 "C"c2 :|
+%%center Book33/GipsyH_3C-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33100
+T: Gipsy Hornpipe
+T: Master Erskine
+C: Niel Gow
+R: reel, hornpipe
+B: RSCDS 33-8
+B: Astor's 24 Country Dances for the yer 1803
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+|: c2 \
+| "C"GcBc GcBc | ecgc "F"ac"C"gc | GcBc GcBc | "D7"e2d2 "G7"d4 | "C"GcBc GcBc |
+| ecgc "F"ac"C"gc | "G"GcBd "/A"ca"/B"gf | "C"e2"F"c2 "C"c2 :: ef | "C"gagf efed | "F"cdcB "G7"AGFE |
+| "C"EGcG "Am"EFGE | "Dm"F2D2 "G7"D2ef | "C"gagf efed | "F"cdcB "G7"AGFE | "C"EGcG "G7"Fagf | "C"e2"F"c2 "C"c2 :|
+%%center Book33/GipsyH_3C_2-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33101
+T: Gipsy Hornpipe
+T: Master Erskine
+C: Niel Gow
+R: reel, hornpipe
+B: RSCDS 33-8
+B: Astor's 24 Country Dances for the yer 1803
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+|: c2 \
+| "C"GcBc GcBc | ecgc "F"ac"C"gc | GcBc GcBc | "D7"e2d2 "G7"d4 | "C"GcBc GcBc |
+| ecgc "F"ac"C"gc | "G"GcBd "/A"ca"/B"gf | "C"e2"F"c2 "C"c2 :: ef | "C"gagf efed | "F"cdcB "G7"AGFE |
+| "C"EGcG "Am"EFGE | "Dm"F2D2 "G7"D2ef | "C"gagf efed | "F"cdcB "G7"AGFE | "C"EGcG "G7"Fagf | "C"e2"F"c2 "C"c2 :|
+%%center Book33/GipsyH_3C_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33102
+T: Gipsy Hornpipe
+T: Master Erskine
+C: Niel Gow
+R: reel, hornpipe
+B: RSCDS 33-8
+B: Astor's 24 Country Dances for the yer 1803
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+   G2 \
+| "C"GcBc GcBc | "C"ecgc "F"ac"C"gc | "C"GcBc GcBc | "D7"e2d2 "G7"d4 |
+| "C"GcBc GcBc | "C"ecgc "F"ac"C"gc | "G"GcBd "/A"ca"/B"gf | "C"e2"F"c2 "C"c2 :|
+|: ef \
+| "C"gagf efed | "F"cdcB "G7"AGFE | "C"EGcG "Am"EFGE | "Dm"F2D2 "G7"D2ef |
+| "C"gagf efed | "F"cdcB "G7"AGFE | "C"EGcG "G7"Fagf | "C"e2"F"c2 "C"c2 :|
+%%center Book33/GipsyH_4C-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33103
+T: Gipsy Hornpipe
+T: Master Erskine
+C: Niel Gow
+R: reel, hornpipe
+B: RSCDS 33-8
+B: Astor's 24 Country Dances for the yer 1803
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+   G2 \
+| "C"GcBc GcBc | "C"ecgc "F"ac"C"gc | "C"GcBc GcBc | "D7"e2d2 "G7"d4 |
+| "C"GcBc GcBc | "C"ecgc "F"ac"C"gc | "G"GcBd "/A"ca"/B"gf | "C"e2"F"c2 "C"c2 :|
+|: ef \
+| "C"gagf efed | "F"cdcB "G7"AGFE | "C"EGcG "Am"EFGE | "Dm"F2D2 "G7"D2ef |
+| "C"gagf efed | "F"cdcB "G7"AGFE | "C"EGcG "G7"Fagf | "C"e2"F"c2 "C"c2 :|
+%%center Book33/GipsyH_4C_2-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33104
+T: Gipsy Hornpipe
+T: Master Erskine
+C: Niel Gow
+R: reel, hornpipe
+B: RSCDS 33-8
+B: Astor's 24 Country Dances for the yer 1803
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+   G2 \
+| "C"GcBc GcBc | "C"ecgc "F"ac"C"gc | "C"GcBc GcBc | "D7"e2d2 "G7"d4 |
+| "C"GcBc GcBc | "C"ecgc "F"ac"C"gc | "G"GcBd "/A"ca"/B"gf | "C"e2"F"c2 "C"c2 :|
+|: ef \
+| "C"gagf efed | "F"cdcB "G7"AGFE | "C"EGcG "Am"EFGE | "Dm"F2D2 "G7"D2ef |
+| "C"gagf efed | "F"cdcB "G7"AGFE | "C"EGcG "G7"Fagf | "C"e2"F"c2 "C"c2 :|
+%%center Book33/GipsyH_4C_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33105
+T: Gipsy Hornpipe
+T: Master Erskine
+C: Niel Gow
+R: reel, hornpipe
+B: RSCDS 33-8
+B: Astor's 24 Country Dances for the yer 1803
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+|: c2 \
+| "C"GcBc GcBc | ecgc "F"ac"C"gc | GcBc GcBc | "D7"e2d2 "G7"d4 | "C"GcBc GcBc |
+| ecgc "F"ac"C"gc | "G"GcBd "/A"ca"/B"gf | "C"e2"F"c2 "C"c2 :: ef | "C"gagf efed | "F"cdcB "G7"AGFE |
+| "C"EGcG "Am"EFGE | "Dm"F2D2 "G7"D2ef | "C"gagf efed | "F"cdcB "G7"AGFE | "C"EGcG "G7"Fagf | "C"e2"F"c2 "C"c2 :|
+%%center Book33/GipsyH_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33106
+T: Gow's Quickstep
+C: Nathaniel Gow
+R: jig
+B: RSCDS 33-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2G "D7"ABc | "G"dBG GAB | "Am"c2c "A7"EFG | "D"AFD "D7"DEF \
+| "G"G2G "D7"ABc | "G"dBG GAB | "Am"c2c  "D7"DEF | "G"G3 G2 :|
+d \
+| "Em"g2g efg | "Bm"fdB Bcd | "C"e2e cde | "G"dBG G2d \
+| "Em"g2g efg | "Bm"fdB "Em"B2g | "D"fed "A7"ed^c | "D"d3 d2 ||
+d \
+| "Em"g2g efg | "Bm"fdB Bcd | "C"e2e cde | "G"dBG G2d \
+| "C"ede "D7"fef | "Em"gfe dcB | "Am"AcB "D7"AGF | "G"G3 G2 |]
+%%center Book33/GowsQuickstep-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33107
+T: Gow's Quickstep
+C: Nathaniel Gow
+R: jig
+B: RSCDS 33-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2G "D7"ABc | "G"dBG GAB | "Am"c2c "A7"EFG | "D"AFD "D7"DEF \
+| "G"G2G "D7"ABc | "G"dBG GAB | "Am"c2c  "D7"DEF | "G"G3 G2 :|
+d \
+| "Em"g2g efg | "Bm"fdB Bcd | "C"e2e cde | "G"dBG G2d \
+| "Em"g2g efg | "Bm"fdB "Em"B2g | "D"fed "A7"ed^c | "D"d3 d2 ||
+d \
+| "Em"g2g efg | "Bm"fdB Bcd | "C"e2e cde | "G"dBG G2d \
+| "C"ede "D7"fef | "Em"gfe dcB | "Am"AcB "D7"AGF | "G"G3 G2 |]
+%%center Book33/GowsQuickstep_2-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33108
+T: Gow's Quickstep
+C: Nathaniel Gow
+R: jig
+B: RSCDS 33-__
+Z: 2003 by John Chambers <jc:trillian.mit.edu>
+N: Chords from Barbara McOwen's transcription
+M: 6/8
+L: 1/8
+K: Bb
+F \
+| "Bb"B2B "F7"cde | "Bb"fdB "Bb7"Bcd | "Eb"e2e "(C7)"GAB | "F7"cAF FGA \
+| "Bb"B2B "F7"cde | "Bb"fdB "Bb7"Bcd | "Eb"e2e "F7"FGA | "Bb"B3 B2 :|
+f \
+| "Gm"b2b gab | "Dm"afd def | "Eb"g2g "(F7)"efg | "Bb"fdB B2f \
+| "Gm"b2b gab | "Dm"afd d2b | "F"agf "C7"gf=e | "F"f3- "F7"f2 ||
+f \
+| "Gm"b2b gab | "Dm"afd def | "Eb"g2g "F7"efg | "Bb"fdB "Bb7"B2f \
+| "Eb"gfg "F7"aga | "Gm"bag fed | "Cm"ced "F7"cBA | "Bb"B3- B2 |]
+%%center Book33/GowsQuickstep_Bb-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33109
+T: Gow's Quickstep
+C: Nathaniel Gow
+R: jig
+B: RSCDS 33-__
+Z: 2003 by John Chambers <jc:trillian.mit.edu>
+N: Chords from Barbara McOwen's transcription
+M: 6/8
+L: 1/8
+K: Bb
+F \
+| "Bb"B2B "F7"cde | "Bb"fdB "Bb7"Bcd | "Eb"e2e "(C7)"GAB | "F7"cAF FGA \
+| "Bb"B2B "F7"cde | "Bb"fdB "Bb7"Bcd | "Eb"e2e "F7"FGA | "Bb"B3 B2 :|
+f \
+| "Gm"b2b gab | "Dm"afd def | "Eb"g2g "(F7)"efg | "Bb"fdB B2f \
+| "Gm"b2b gab | "Dm"afd d2b | "F"agf "C7"gf=e | "F"f3- "F7"f2 ||
+f \
+| "Gm"b2b gab | "Dm"afd def | "Eb"g2g "F7"efg | "Bb"fdB "Bb7"B2f \
+| "Eb"gfg "F7"aga | "Gm"bag fed | "Cm"ced "F7"cBA | "Bb"B3- B2 |]
+%%center Book33/GowsQuickstep_Bb_2-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33110
+T: Gow's Quickstep
+C: Nathaniel Gow
+R: jig
+B: RSCDS 33-__
+Z: 2003 by John Chambers <jc:trillian.mit.edu>
+N: Chords from Barbara McOwen's transcription
+M: 6/8
+L: 1/8
+K: Bb
+F \
+| "Bb"B2B "F7"cde | "Bb"fdB "Bb7"Bcd | "Eb"e2e "(C7)"GAB | "F7"cAF FGA \
+| "Bb"B2B "F7"cde | "Bb"fdB "Bb7"Bcd | "Eb"e2e "F7"FGA | "Bb"B3 B2 :|
+f \
+| "Gm"b2b gab | "Dm"afd def | "Eb"g2g "(F7)"efg | "Bb"fdB B2f \
+| "Gm"b2b gab | "Dm"afd d2b | "F"agf "C7"gf=e | "F"f3- "F7"f2 ||
+f \
+| "Gm"b2b gab | "Dm"afd def | "Eb"g2g "F7"efg | "Bb"fdB "Bb7"B2f \
+| "Eb"gfg "F7"aga | "Gm"bag fed | "Cm"ced "F7"cBA | "Bb"B3- B2 |]
+%%center Book33/GowsQuickstep_Bb_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33111
+T: Gow's Quickstep
+C: Nathaniel Gow
+R: jig
+B: RSCDS 33-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2G "D7"ABc | "G"dBG GAB | "Am"c2c "A7"EFG | "D"AFD "D7"DEF \
+| "G"G2G "D7"ABc | "G"dBG GAB | "Am"c2c  "D7"DEF | "G"G3 G2 :|
+d \
+| "Em"g2g efg | "Bm"fdB Bcd | "C"e2e cde | "G"dBG G2d \
+| "Em"g2g efg | "Bm"fdB "Em"B2g | "D"fed "A7"ed^c | "D"d3 d2 ||
+d \
+| "Em"g2g efg | "Bm"fdB Bcd | "C"e2e cde | "G"dBG G2d \
+| "C"ede "D7"fef | "Em"gfe dcB | "Am"AcB "D7"AGF | "G"G3 G2 |]
+%%center Book33/GowsQuickstep_G-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33112
+T: Gow's Quickstep
+C: Nathaniel Gow
+R: jig
+B: RSCDS 33-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2G "D7"ABc | "G"dBG GAB | "Am"c2c "A7"EFG | "D"AFD "D7"DEF \
+| "G"G2G "D7"ABc | "G"dBG GAB | "Am"c2c  "D7"DEF | "G"G3 G2 :|
+d \
+| "Em"g2g efg | "Bm"fdB Bcd | "C"e2e cde | "G"dBG G2d \
+| "Em"g2g efg | "Bm"fdB "Em"B2g | "D"fed "A7"ed^c | "D"d3 d2 ||
+d \
+| "Em"g2g efg | "Bm"fdB Bcd | "C"e2e cde | "G"dBG G2d \
+| "C"ede "D7"fef | "Em"gfe dcB | "Am"AcB "D7"AGF | "G"G3 G2 |]
+%%center Book33/GowsQuickstep_G_2-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33113
+T: Gow's Quickstep
+C: Nathaniel Gow
+R: jig
+B: RSCDS 33-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2G "D7"ABc | "G"dBG GAB | "Am"c2c "A7"EFG | "D"AFD "D7"DEF \
+| "G"G2G "D7"ABc | "G"dBG GAB | "Am"c2c  "D7"DEF | "G"G3 G2 :|
+d \
+| "Em"g2g efg | "Bm"fdB Bcd | "C"e2e cde | "G"dBG G2d \
+| "Em"g2g efg | "Bm"fdB "Em"B2g | "D"fed "A7"ed^c | "D"d3 d2 ||
+d \
+| "Em"g2g efg | "Bm"fdB Bcd | "C"e2e cde | "G"dBG G2d \
+| "C"ede "D7"fef | "Em"gfe dcB | "Am"AcB "D7"AGF | "G"G3 G2 |]
+%%center Book33/GowsQuickstep_G_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33114
+T: Gow's Quickstep
+C: Nathaniel Gow
+R: jig
+B: RSCDS 33-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2G "D7"ABc | "G"dBG GAB | "Am"c2c "A7"EFG | "D"AFD "D7"DEF \
+| "G"G2G "D7"ABc | "G"dBG GAB | "Am"c2c  "D7"DEF | "G"G3 G2 :|
+d \
+| "Em"g2g efg | "Bm"fdB Bcd | "C"e2e cde | "G"dBG G2d \
+| "Em"g2g efg | "Bm"fdB "Em"B2g | "D"fed "A7"ed^c | "D"d3 d2 ||
+d \
+| "Em"g2g efg | "Bm"fdB Bcd | "C"e2e cde | "G"dBG G2d \
+| "C"ede "D7"fef | "Em"gfe dcB | "Am"AcB "D7"AGF | "G"G3 G2 |]
+%%center Book33/GowsQuickstep_JC.abc

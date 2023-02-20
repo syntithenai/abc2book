@@ -1,0 +1,1281 @@
+X: 0
+T: Button and Whitaker's Selection of Dances, Reels and Waltzes
+N: Published by Button & Whitaker, London 1810
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes"
+S: "http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)"
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+K:
+%%center - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center BUTTON and WHITAKER's
+%%center Selection of
+%%center Dances Reels and Waltzes
+%%center for the
+%%center Piano Forte, Harp, Violin or German Flute
+%%center With Figures
+%%center - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Printed by the Editors 75 5, St Paul's Church Yard.
+%%center - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500
+
+%%slurgraces no
+%%graceslurs no
+
+%%newpage
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 08221
+T: the LABYRINTH
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.8 p.22 #1
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+G/A/ |\
+B2B {c}BAB | c3 {d}cBc | A2A {B}AGA | B3 {d}cBA |\
+G2G {A}GFG | {B}A3- A2G | {G}FED DEF | G3- G2 :|
+|: B/c/ |\
+d2d {e}dcd | e2d {d}cBc | A2A Adc | B3 {d}cBA |\
+G2G {A}GFG | {B}A3- A2G | {G}FED DEF | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z |\
+gbd' gbd' | fad' fad' | dfd' dfd' | gbd' gbd' |\
+egb egb | cea ^cea | dac' dac' | gbd' g2 :|
+|: z |\
+gbd' gbd' | ^gbe' ac'e' | fad' fad' | gbd' gbd' |\
+egb egb | cea ^cea | dac' dac' | gbd' g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across back again,
+%% down the mid: up again,
+%% turn corners and lead outsides.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 08222
+T: LADY MARY BENTINCK'S FANCY
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.8 p.22 #2
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 1 clef=treble middle=B
+|:\
+dcdc dcdc | d2a2f2d2 | A^GAG A2=ge | d2c2d2z2 :: gfed cBAG | FDAF dAaf |
+gfed cBAG FdEc d2z2 :: a2ag f3a | g2gf e3g | fgfe d2f2 | egec d2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+|:\
+dafa dafa | dafa dafa | Aece Aece | [f2d2][g2e2][f2d2]z2 :: eaga eaga | dafa dafa |
+eaga eaga | [f2d2][g2e2][f2d2]z2 :: dafa dafa | caea caea | dafa dafa | Aaeg [f2d2]z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Half right & left, back again,
+%% down the mid: up again,
+%% right and left, and Swing Corners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 08231
+T: the NAMELESS
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.08 p.23 #1
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has a final repeat sign, but no initial repeat; not fixed.
+N: The rhythm isn't quite correct at the repeats.
+N: The bass line has whole notes for the first note in most measures, but most ABC software can't represent this correctly.
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 1 clef=treble middle=B
+AB |:\
+c2ag gfef | c2ag gfdf | cdcB A2Ac | cBAB G2AB | c2ag gfdf |
+c2ag gfdf | cdcB ABAG | FAcf "Fine"F2 H:| EF | GABc B2AG | ABcd c2BA | (3(GAB) AG (3(FGA) GF |
+(3(EFG) (3(FED) C2EF | GABc B2AG | Afef gfef | Bg^fg A=fef | edcd cB"D.C."AB :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z2 |:\
+F2[f2A2] [f2B2][f2B2] | F2[f2A2] [f2B2][f2B2] |\
+c2[c'2e2] [c'2f2][c'2f2] | c2c'2 c2z2 |\
+F2[f2A2] [f2B2][f2B2] |
+F2[f2A2] [f2B2][f2B2] |\
+A2F2 c2C2 | G2G,2 "Fine"G2 H |] z2 |\
+c2[c'2e2] [c'2e2]z2 | c2[c'2f2] [c'2f2]z2 |\
+e2c2 f2d2 |
+g2G2 c2z2 |\
+c2[c'2e2] [c'2e2]z2 | c2[c'2f2] [c'2f2]z2 |\
+e2e'2 f2f'2 | c2c'2 c2"D.C."z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & change sides, back again,
+%% down the mid: up again,
+%% cast off, set cross corners,
+%% turn round & Hey.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 08232
+T: SHADDIE
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.8 p.23 #3
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 1 clef=treble middle=B
+A |\
+f2e dcB | A2F D2E | F>GF FED | C<Ez z2A |\
+f2e dcB | A2F D2E | FGF {F}EDE | D3- "Fine"D2 H:|
+|: A |\
+g2e f2d | c2A d2f | g2e f2d | cez z2A |\
+gfe fed | cBA def | gfe fed | (f3 "D.C."e2) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z |\
+dfa dgb | dfa dfa | dfa Bd^g | Aea A2z |\
+dfa dgb | dfa dfa | dfa Aea | dfa "Fine"d2 H:|
+|: z |\
+Ace Adf | Aeg Adf | Ace Adf | Ace A2z |\
+Ace Adf | Aeg Adf | Ace Adf | A2a "D.C."A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & Hands 3 round, back again,
+%% down the mid: up again, & Allemande.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 08233
+T: LARGOS FAIRY DANCE
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.8 p.23 #3
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 1 clef=treble middle=B
+[f2A2](f>d) | [f2A2](f>d) | [f2A2](f>d) | (c>A)(e>c) |\
+[f2A2](f>d) | (g>f)(e>d) | (c>A)(e>c) | [d4F4] :|\
+!p!a2(a>f) | b2(b>a) | g2(g>e) | a2(a>g) |
+f2(f>d) | B2(g>e) | (c>A)(B>c) | [d4F4] |\
+!f!(a>b)(a>f) | {ga}b2(b>a) | (g>a)(g>e) | {fg}a2(a>g) |\
+(f>g)(f>d) | B2(g>e) | (c>A)(B>c) | [d4F4] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+|:\
+D2d2 | D2d2 | D2d2 | A2a2 |\
+d2d'2 | b2g^g | a2A2 | d2D2 :|\
+!p!d2f2 | g2f2 | e2d2 | c2A2 |
+d2f2 | g2e2 | a2A2 | d2D2 |\
+[d2D2][f2F2] | [g2G2][f2F2] | [e2E2][d2D2] | [c2C2][A2A,2] |\
+[d2D2][f2F2] | [g2G2][e2E2] | [a2A2][a2A2] | [d4D4] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead outsides, back again,
+%% hands 4 quite round, back again,
+%% right & left.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 08241
+T: PANDEAN DANCE  in TEKELI
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.8 p.24 #1
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has final repeat symbol but no initial repeat; not fixed.
+N: (The first and last bar lines have 4-dot "repeat" symbols, but the 1st strain ends with a 2-dot repeat symbol.)
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 1 clef=treble middle=B
+A |:\
+d2d {e}dcd | B2B Bed | cBA ABc | d2f a2A |\
+d2d {e}dcd | B2B Bed | cBA ABc | dAF "Fine"D2 H:|
+f |\
+g2e efe | c2A ABA | a2a aba | f2d d2A |\
+{e}dcd {f}ede | {g}fef {a}gfg | aba agf | ([f3d3] [e2c2]) "D.C."A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z |:\
+dfa dfa | dgb dgb | ega ega | dfa d2z |\
+dfa dfa | dgb dgb | ega ega | dfa "D.C."d2 H:|
+z |\
+cga ega | ega ega | dfa dfa | dfa d2z |\
+[d3d'3] [c3c'3] | [=c3=c'3] [B3b3] | fgf fg^g | a^ga A2"D.C"z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across, back again,
+%% down the mid: up again,
+%% turn Corners and lead outsides.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 08242
+T: AP SHENKIN
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.8 p.24 #2
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has final repeat symbol but no initial repeat; not fixed.
+N: (The first and last bar lines have 4-dot "repeat" symbols, but the 1st strain ends with a 2-dot repeat symbol.)
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 1 clef=treble middle=B
+A/G/ |:\
+F2F Fdc | B2B Bcd | ABA AGF | FEE E2A/G/ |\
+F2F Fdc | B2B Bcd | ABA GFE | D2D "Fine"D2 H:|
+d/e/ |\
+f2d e2c | dcB AGF | GAB AdF | {G}FEE E2d/e/ |\
+f2d e2c | dcB edc | fed cdB | Adc BA"D.C."G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z |:\
+dfa dfa | dgb dgb | dfa dfa | Aea A2z |\
+dfa dfa | dgb dgb | dfa Aea | dfa "Fine"d2 H:|
+z |\
+[d'3d3] [^a3^A3] | b=ag fed | c3 d3 | Ace a2z |\
+d'3 c'3 | b3 c'3 | d'3 e'3 | a3 z2"D.C."z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Lady set to 2d Gent: & turn round with both hands,
+%% 1st Gent: do the same,
+%% down the mid: up again,
+%% Pousette with 2d Couple.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 08243
+T: the TRIUMPH
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.8 p.24 #3
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The rhythms aren't correct at strain boundaries.
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+g |\
+dBBG | cAAF | Ggfe | (e2d)g |\
+dBBG | cAAF | G2A2 | G3 :|\
+|:\
+A2c2 | B2d2 | A2c2 | B2d2 |
+AAAc | BBBg | B2A2 | G4 :|\
+|:\
+B2Bd | dcBA | A2Ac | c2B2 |\
+BBcd | efge | dcBA | G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z |\
+G2g2 | A2a2 | b2c'2 | [c'2g4] b2 |\
+[b2g2][b2g2] | [c'2a2][c'2a2] | [b2g2][a2d2] | [b2g2][bg] :|
+|:\
+dfaf | dgbg | dfaf | dgbg |\
+dfaf | dgbg | d2f2 | g2G2 :|
+|:\
+gd'bd' | ad'c'd' | fd'ad' | gd'bd' |\
+gd'bd' | cgeg | d2f2 | g2G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across, back again,
+%% down the mid: up again,
+%% Right and left, and Swing Corners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 09251
+T: MAJOR (or Miss) SPICER
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.9 p.25 #1
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout not changed to fit our page size:
+V: 1 clef=treble middle=B
+f/e/ |\
+d2d ede | f2d b2g | f2d [B=E]AB | {AB}[c2F2]A F2f/e/ |\
+d2d ede | f2d b2g | fdB {d}cBc | B3- "Fine"B2 :|
+|: A/B/ |\
+c2c cde | {de}f2d B2B/A/ | G2G GAB | {AB}c2A F2A/B/ |\
+c2c cde | f2d b2g | fdB [B=E]AB | [d3B3F3] [c2A2F2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z |\
+b3 g3 | d3 d2e | d3 g3 | f3 f3 |\
+b3 g3 | d3 d2e | f3 F3 | bfd "Fine"B2 :|
+|: z |\
+f3 edc | d3 g3 | c3 C3 | F3 f2z |\
+f3 e3 | d3 d2e | d3 g3 | f3- f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across, back again,
+%% down the mid: up again,
+%% turn corners and lead outsides.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 09252
+T: TIME'S A TELL TALE
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.9 p.25 #2
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 1 clef=treble middle=B
+A |\
+d2d dcd | a2a age | d2d dcd | e2c ABc |\
+d2d dcd | a2a age | d3 {f}ede | d3- d2 :|
+|: F/G/ |\
+A2A Adc | B2B BGF | E2E EAG | G3 F2F/G/ |\
+A2A Adc | B2b bge | c2a ABc | d3- d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z |\
+dfa dfa | cea cea | dfa Be^g | Ace a2z |\
+dfa dfa | cea cea | dfa Aea | dfa d2 :|
+|: z |\
+FAd FAd | GBd GBd | Ace Ace | DFA d2z |\
+fad' fad' | gbd' gbd' | ac'e' ac'e' | dfa d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set and Hands 3 round, back again,
+%% down the mid: up again, and Allemande.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 09261
+T: WILL YOU SAY YES. SAY YES.
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.9 p.26 #1
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The pickup notes don't agree with the preceding notes.
+M: 9/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+d !segno!|:\
+cAF G2A G2d | cAF [G2E2][BG] [cF]AF |\
+cAF [G2E2][AF] [G2E2]A | FAc fed cAF :|\
+d |\
+d2^f gaf g2d | de^f gab a=fd |
+d2e =fge f2d | cBA fed cAF |\
+cAF G2A G2d | cAF [G2E2][BG] [cF]AF |\
+cAF [G2E2][AF] [G2E2]A | FAc fed cAF |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z !segno!|:\
+F2A B2d g2B | F2f F2f F2f |\
+F2f F2f F2f | F3 A2B f3 :|
+z |\
+d'2c' b2a g3 | d'2c' bag d3 |\
+b3 a2g f3 | f3 A2B f3 |
+F2A B2d g2B | F2f F2f F2f |\
+F2f F2f F2f | F3 A2B f3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & change sides, back again,
+%% down the mid: up again,
+%% cast off, set cross Corners,
+%% turn round and Hey.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 09262
+T: the JEW OF MOGADORE
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.9 p.26 #2
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+A |\
+Adf fed | dcB BAA | Adf fed | cde e2c |\
+def fed | cBB B2B | Bee ecc | dAd d2 :|
+|: d |\
+dBB B^AB | cBc dBB | dBB B^AB | cBc dBB |\
+BAA AGA | Add d2d | cde efg | fdd d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z |\
+dfa dfa | dgb dfa | dfa Be^g | Aea Aea |\
+dfa dfa | GBd GBd | GBe Aeg | dfa d2 :|
+|: z |\
+B3 b3 | f3 B3 | B3 b3 | f3 B3 |\
+c'3 c3 | d'3 d3 | a3 A3 | d3 D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change sides, back again,
+%% down the mid: up again,
+%% Right and Left at top.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 09263
+T: CARACTACUS
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.9 p.6 #3
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 1 clef=treble middle=B
+|:\
+[d3B3] dBd | G2[BG] [c2A2][ec] | [d3B3] dBd | [A2F2][BG] [c2A2]e |\
+[d3B3] dBd | G2[BG] [c2A2][ec] | gfe dcB | [A2F2][BG] [c2A2]e :|
+|:\
+gbg dBd | gbg dBd | gbg dcB | [A2F2][BG] [c2A2]e |\
+gbg a2c' | bag fed | gfe dcB | [A2F2][BG] [c2A2]e :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+|:\
+G3 g3 | G3 g3 |  G3 g3 | d3- d2z |\
+G3 g3 | G3 g3 |  G3 g3 | d3- d2z :|
+|:\
+G3 g3 | G3 g3 |  G3 g3 | d3- d2z |\
+g3 d3 | G3 g3 |  G3 g3 | d3- d2z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & change sides, back again,
+%% down the mid: up again,
+%% and Allemande.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 09271
+T: MISS GAYTONS FANCY
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.9 p.27 #1
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: This version modified for ABC software that can't put 2 voices on 1 staff.
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 1 clef=treble middle=B
+|:\
+[B2D4][BD][cE] [d2F2][B2D2] | [e2G2][c2E2] [c4E4] |\
+[BE4C4]AGF [G2E4C4]A2 | [B4D4] [d4F4] |\
+[B2D4][BD][cE] [d2F2][B2D2] | [e2G2][c2E2] [c4E4] |\
+[BE4C4]AGF [G2E4C4]A2 | [B4D4] [F4D4] :|
+|:\
+[d2B2][dB][ec] [f2d2][d2B2] | [g2B2][e2G2] [e4c4] |\
+[c2A2][cA][dB] [e2c2][c2A2]  | [f2B2][d2B2] [d4B4] |\
+B2Bc d2B2 | [e2G4]c2 [c4G4] |\
+[BE4C4]AGF [G2E4C4]A2 | [B4D4] [d4F4] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+|:\
+B,2B2B2B2 | B,2B2B2B2 | B,2B2B2B2 | B,2B2B2B2 |\
+B,2B2B2B2 | B,2B2B2B2 | B,2B2B2B2 | B4 b4 :|
+|:\
+b2b2b2b2 | e2e2e2e2 | f2f2f2f2 | d2d2g2g2 |\
+g2g2g2g2 | c2c2 e2e2 | f2f2f2f2 | b4 B4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead outsides, back again,
+%% down the mid: up again,
+%% Right & Left, & swing Corners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 09272
+T: WHO WINS
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.9 p.27 #2
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Added missing sharp on low C in bar 14.
+N: Final repeat symbol replaced with plain double bar with "D.C.".
+N: Some ABC software doesn't implement different note lengths on one stem.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+|:\
+GAG gfe | d2e dBG | cde dBG | FAA ABA |\
+GAG gfe | d2e dBG | cde dBG | {B}AGA G2"Fine"z H:|
+{AB}c2A B2G | FEF GAB | dcA cBG | FAA AGF |\
+GBG Eed | ^cec Aag | fad {f}ede | ded =cB"D.C."A |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+|:\
+[b3g6] c'3 | [b2g6]c' b3 | [e'2g3]c' [b2g2][^c'e] | [d'3d3] [=c'3d3] | [b3g3] [c'3g3] |
+[b2g6]c' b3 | [e'2g6]c' b3 | dac' [b2g2]"Fine"z H:|\
+fad' abd' | gc'd' gbd' | fad' gbd' |
+dfa d2z | [G3G,3] [^G3^G,3] | [A3A,3] [^c3^C3] | d2f a2A | d3- d2"D.C."z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Half right & left, back again,
+%% down the mid: up again,
+%% cast off & hands four.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 09273
+T: SIR GILBERT GO SOFTLY
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.9 p.27 #3
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 1 clef=treble middle=B
+|:\
+A>Bc>d c>Af2 | e>fg>f e>dc>B |\
+A>Bc>d c>A f2 | d>ge>c [f4A4] :|
+|:\
+c>=Bc>B c>eg>f | e>dc>d c>_BA>G |\
+A>GA>B c>fe>f | d>ge>c [f4A4] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+|:\
+F2f2F2f2 | C2c2C2c2 |\
+F2f2F2f2 | B2c2 f2F2 :|
+|:\
+c'2c2c'2=b2 | c'2g2c2z2 |\
+F,2F2A,2A2 | B2c2 f2F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu: up again,
+%% down the mid: up again,
+%% Allemande.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 11311
+T: the EXILE
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.11 p.31 #1
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+G |\
+e2g fdB | c2e dBG | ABc dfd | (c3 B2)G |\
+efg fdB | cde dBG | ABc [B2F2][dF] | [c3-E3-] [c2E2] :|
+|: B/c/ |\
+{e}d2G {f}e2G | fed gec | ABc dfd | (c3 B2)B/c/ |\
+dBG ecG | fBG gec | ABc [B2F2][dF] | [c3-E3-] [c2E2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z |\
+[c3C3] [d3D3] | [e3E3] [f2F2][eE] | [f2F2][eE] [d2D2][fF] | g^fg G2z |\
+[c3C3] [d3D3] | [e3E3] [f2F2][eE] | [f2F2][eE] [d2D2][gG] | ceg c2 :|
+|: z |\
+[B3g6] c3 | [d2g6]B c2e | f2e d2f | g^fg G2z |\
+[f3g6] e3 | [d3g6] c2e | f2e d2f | ceg c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set and change sides back again down the mid: up again Right & left.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 11312
+T: MORGIANA
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.11 p.31 #2
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+c |\
+(cAc) {fg}a2g | fed c2d | (cA).c (fc).a | (ba).g (gf).d |\
+ cAc      a2g | fed c2d | (cA).c (fc).f | (ag).e f2 |]
+g |\
+gag fed | ccc b2c | (ac).c (fc).c | acc g3 |\
+gag fed | dcc b2c | (ac).c (fc).c | gfe dcB |]
+AFG A2c | AFG A2c | B2d A2c | G3- GcG |\
+AFG A2c | AFG A2c | d2f e2g | f3 f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z |\
+f3 fac' | d'c'b afz | f3 f3 | c3 f2z |\
+f3 fac' | d'c'b afb | a3 f3 | c3 f2 |]
+z |\
+c3 G3 | c3 egc' | f3 a3 | f2a c'ge |\
+c3 G3 | c3 egc' | f3 a3 | c'3 z2z |]
+fac' f'c'a | fac' f'c'a | bd'b afa | c'ge c3 |\
+fac' f'c'a | fac' f'c'a | bd'b c'2c | fcA F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Lady change places with 2d Gent
+%% 1st Gent the same with 2d Lady
+%% Pousette & Right & left.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 13321
+T: the SPANISH PATRIOTS
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.13 p.32 #1
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Bass line slightly modified for software that doesn't implement voice overlays.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+(3ABc |\
+d>cd>A F>AF>A | d>cd>A F2 (3(def) |\
+g>fg>e f>ef>d | c2A2 A2B>c |\
+d>cd>A F>AF>A |
+d>cd>A F2 (3(def) | g>fg>e f>ef>d |\
+A2[d2F2] [d2F2] :: fg |\
+a3f a>fa>f | b>gb>g e2f>g |
+a3f (3(bag) (3(fed) | c2[A2C2] [A2C2]f>g |\
+a3f a>fa>f | b>gb>g e2f>g |\
+a>fa>f a>ge>c | A2[d2F2] [d2F2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z2 |\
+d2[d'2f2] [d'2f2][d'2f2] | d2[d'2f2] [d'2f2]z2 |\
+c'2a2 d'2d2 | a2A2 agfe |\
+d2[d'2f2] [d'2f2][d'2f2] | d2[d'2f2] [d'2f2]z2 |\
+a4 A4 | d2D2 d2 :|
+|: z2 |\
+D2d2 D2d2 | G2g2 Agfe | d2f2 g2^g2 | a2A2 a2z2 |\
+D2d2 D2d2 | G2g2 A2z2 | d2f2 a2A2 | d2D2 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hey on your own side then contrary sides
+%% down the mid: up again hand 4 round.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 13322
+T: LORD CATHCART'S WELCOME TO SCOTLAND
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.13 p.32 #2
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout not changed to fit our page size:
+V: 1 clef=treble middle=B
+D |\
+DGB d2d | dcB A2c | (BG).d (cA).e | (G3 F2)D |\
+DGA dDd | dcB {B}A2c | cBG BAF | G[gB][gB] [g2B2] :|
+d |\
+def gGg | {a}gfe d2d | ecB Ace | (G3 F2)G |\
+AB^c def | B2d gfe | fed ^cde | de^c def |
+gdB GBd | dcB A2c | BGd cAe | (G3 F2)D |\
+DGB dBd | dcB A2c | cBG BAF | G[gB][gB] [g2B2] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+N: Bass line slightly modified for software that doesn't implement voice overlays.
+z |\
+gbd' gbd' | ac'd' dfa | egb cea | dgb d'2z |\
+gbd' gbd' | ac'd' dfa | gbd' dfd' | gbd' g2 :|
+z |\
+[b2g6]c' b3 | [e'g6]d'c' b2z | c'2b c'2^c' | d'^c'd' d2z |\
+a2g f2d | g2f efg | a3 A3 | d3- d2z |
+GBd g2b | [bd6]ag f2^d | egb cea | dgb d'2z |\
+gbd' g2z | fad' d2z | gbd' dfd' | gbd' g2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Half right & left, back again,
+%% down the mid: up again, & swing corners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 13323
+T: CALLER HERRING
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.13 p.32 #3
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+A2 |\
+d2d>d (c2d)z/e/ | (fB)(ed) (cA)(Bc) |\
+d2d>d (c2d)z/e/ | (fd)(ec) d2 :|\
+d2 |\
+cBAG FEDd | cBAG FEDd |
+cBAG FFGA | B2e>d cABc |\
+d2d>d (c2d)z/e/ | (fB)(ed) (cA)(Bc) |\
+d2d>d (c2d)z/e/ | (fd)(ec) d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z2 |\
+D2d2 e2f2 | g2^g2 a2A2 |\
+d4 e2f>g | a2A2 d2 :| d'2 |\
+c'bag fddd' | c'bag fedd' |
+c'bag fdef | g2^g2 a2A2 |\
+d4 e2f2 | g2^g2 a2A2 |\
+d4 e2f>g | a2A2 d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands 3 round, back again, down the mid: up again, right & left.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 13331
+T: MARCHIONESS OF TAVISTOCK'S WALTZ
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.13 p.33 #1
+S: http://imslp.org/wiki/Button13 p.33 #1ker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: First two notes in bar 12 shortened to fix the rhythm.
+M: 3/8
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+(Bc) |\
+(dB)G2 (Bc) | (dB)G2 (gf) | e2e2e2 | e3(dcB) |\
+A2A2A2 | d3(cBA) | G2G2G2 | G4 :|
+|: (3(def) |\
+[g4B4] (af) | [g4B4] (af) | (gf)(ga)(bg) | (af)d2 (ef) |\
+[g4B4] (af) | [g4B4] (af) | (gf)(gb)(af) | [g4B4] :|
+|: (ga) |\
+(bagfed) | (edcBAB) | c2A2A2 | A4 (ab) |\
+(c'bagfe) | (dedcBA) | B2[G2B,2][G2B,2] | [G4B,4] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z2 |\
+gd'bd'bd' | gd'bd'bd' | ge'c'e'c'e' | g4z2 |\
+dd'fd'ad' | dd'fd'ad' | gd'bd'bd' | [b4g4] :|\
+|: z2 |\
+[bg]d'[bg]d'[c'g]d' | [bg]d'[bg]d'[c'g]d' | [b4g4] z2 |
+d2d'2z2 |\
+[bg]d'[bg]d'[c'g]d' | [bg]d'[bg]d'[c'g]d' | [bg]d'[bg]d'[ad]c' | [b4g4] :|\
+|: z2 |\
+[G2G6]g2g2 | [G2G6]g2g2 | d2f2a2 | d4z2 |\
+[D2D6]d2d2 | [D2D6]d2d2 | G2B2d2 | g4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands 4 round, back again,
+%% down the mid: up again,
+%% right & left, & Swing corners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 13332
+T: MISS BRISTOW'S CELEBRATED PAS SEUL
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.13 p.33 #2
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout not changed to fit our page size:
+V: 1 clef=treble middle=B
+[|\
+A>GA>G A>ce>c | A>GA>G A>df>d |\
+f>ec>e e>dB>d | d>cA>c B>EF>G | A>GA>G A>ce>c |
+A>GA>G A>df>d | f>ec>e e>dB>G | A>GA>G A2z2 H|]\
+[| e>^de>d e>=dc>B | A>Bc>d e>fg>a | g>ab>a g>fe>d |
+c>BA>G A>Bc>d | e>^de>d e>=dc>B | A>Bc>d e>fg>a |\
+a>gf>e g>fe>^d | e^de>f e>=dc>"D.C."B |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+[|\
+[A2A8]a2a2a2 | [A2A8]a2a2a2 |\
+[A2A4]a2[G2G4]g2 | [A2A4]a2e2z2 | [A2A8]a2a2a2 |
+[A2A8]a2a2a2 | [A2A4]a2[E2E4]e2 | A2a2A2z2 H|][|\
+E2e2E2e2 | A2a2A2a2 | E2e2E2e2 |
+A2a2A2z2 | E2e2E2e2 | A2a2A2a2 |\
+B2b2B2b2 | E2e2E2"D.C."z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change sides, back again, down the mid: up again, & Allemand.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 13333
+T: the FAIRY PRINCE
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.13 p.33 #3
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout not changed to fit our page size:
+V: 1 clef=treble middle=B
+|:\
+G3 BAG dcB | ABc BAG FED |\
+G3 BAG dcB | AcB AGF G3 ::\
+d^cd dcd cBA | d^cd ded cBA |
+d^cd dcd AGF | EGF ED^C D3 ::\
+g2G g2G g2G | edc BAG FED |\
+{a}gfg {a}gfg gfe | dcB AGF G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+|:\
+G3 g3 g3 | c3 ^c3 d3 |\
+G3 g3 g3 | c3 d3 G3 ::\
+dfa dfa Aea | dfa dfa Aea |
+dfa dfa def | g2g a2A d3 ::\
+[g3G3] [g3G3] [e3E3] | [c3C3] [^c3^C3] [d3D3] |\
+[G3G,3] [A3A,3] [B3B,3] | [c3C3] [d3D3] [g3G3] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead outsides, back again,
+%% down the mid: up again,
+%% right & left, & Swing corners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 18521
+T: MISS TILNEY LONG'S FAVORITE
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.18 p.52 #1
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Bar 15 is missing dots in the bass voice; fixed.
+M: 9/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+F |\
+f2d {e}dcd Bcd | f2d {e}dcd Bcd |\
+e3- efe dcB | ABc Bcd c2F |\
+f2d {e}dcd Bcd | f2d {e}dcd Bcd |
+ede cde fdB | G[ge][fd] [ec][dB][cA] B2 |]\
+B |\
+ABc FGF FGA | Bcd {e}dcd fdB |\
+Ggf edc BAG |
+FGA BFd c2B |\
+ABc FAG FGA | Bcd dcd fdB |\
+GAB cde fdB | G[ge][fd] [ec][dB][cA] B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z |\
+[B3B,3] [d'3b3] [d'3b3] | [B3B,3] [d'3b3] [d'3b3] |\
+[f3F3] [c'3f3] [d'3b3] | [e'3c'3] [d'3b3] [c'2f2]z |\
+[B3B,3] [d'3b3] [d'3b3] | [B3B,3] [d'3b3] [d'3b3] |\
+[f3F3] [c'3f3] [d'3b3] | [c'3e3] [c'2f2][c'f] [d'2b2] |]
+z |\
+[f3F3] [e'3c'3f3] [e'3c'3f3] | B3 [d'3b3] [d'3b3] |\
+ee'd' c'ba gfe | d2e d2B f2z |\
+[f3F3] [e'3c'3f3] [e'3c'3f3] | B3 [d'3b3] [d'3b3] |\
+[e6E6] [d3D3] | [e3E3] [f3F3] B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & hands across back again .|
+%% down the mid: up again
+%% cast round the top Cu: & turn your part.r .|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 18522
+T: the TANK
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.18 p.52 #2
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+|:\
+B2 b2 | G2 g2 | [c2A2] f>e | d>c B2 |\
+[dB]>[ec] [f2d2] | [ec]>[fd] [g2e2] | f2 [a2e2] | [b4d4] :|
+|:\
+[d2B2] [d2B2] | [f3d3] [dB] | (ge)(ec) | (cA)(AF) |\
+[d2B2] [d2B2] | [f3d3] [dB] | (ge)(cA) | B4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+|:\
+b2 B2 | e2 E2 | f2 F2 | B2 b2 |\
+[b4B4] | [e4E4] | f2F2 | B2 b2 :|
+|:\
+[d'4b4f4] | [d'4b4f4] | [e'4c'4f4] | [e'4c'4f4] |\
+[d'4b4f4] | [d'4b4f4] | [e'4c'4f4] | [d'4b4] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change sides back again, down the middle up again, & turn your partner.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 18531
+T: GUARACHA DANCE
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.18 p.53 #1
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: In the bass, the first note in each bar has two stems, one without a flag,
+N: but ABC seems to have no way to represent this in any tool that I use.
+M: 3/8
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+(efef) |\
+(a2g2).e2 | (g2f2).d2 | (f2e2).c2 | c2 (efef) |\
+(a2g2).e2 | (g2f2).d2 | c2 (cece) | c2 "Fine"yH:|
+(BcBc) |\
+(e2d2).B2 | (d2c2).A2 | (c2B2).G2 | G2 (BcBc) |\
+(e2d2).B2 | (d2c2).A2 | G2(GBGB) | G2 "D.C."y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z2z2 |\
+c'2e'2g'2 | g2d'2g'2 | c'2e'2g'2 | c'4 z2 |\
+c'2e'2g'2 | g2d'2g'2 | c'2e'2g'2 | c'2 "Fine"yH:|
+z2z2 |\
+g2b2d'2 | d2a2d'2 | g2b2d'2 | g4 z2 |\
+g2b2d'2 | d2a2d'2 | g2b2d'2 | g2 "D.C."y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands 4 half round back again, down the mid: up again, right & left.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 18532
+T: VOULEZ VOUS DANSEZ MADEMOISELLE
+T: the Portuguese Dance
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.18 p.53 #2
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+[|]\
+e2e e2e | {e}dcd c2c | B2c d2B | c2d e2c |\
+e2e e2e | {e}dcd cde | f2e dec | cdB c3 |]
+d2d B2G | cde d2d | d2d B2G | cde d3 |\
+g2g {a}g^fg | (^fe).e (ed).d | (dc).c {c}B2(d/c/) | B2A G3 |]
+{ef}g2g g2g | {f}fef e2e | d2e f2d | e2f g2e |\
+{ef}g2g g2g | {f}fef efg | a2g fge | efd c3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+[|]"1st strain 8va . . ."\
+ceg ceg | Bdg ceg | dfg dfg | ceg ceg |\
+ceg ceg | Bdg cfg | a2g fge | efd e3 |]
+Bdg Bdg | edc B2z | Bdg Bdf | edc B3 |\
+gbd' gbd' | (gc').c' (c'b).b | (ba).a {a}g2c' | d'2d g3 |]
+!p!{c'd'}e'2e' e'2e' | {e'}d'c'd' c'2c' | b2c' d'2b | c'2d' e'2c' |\
+   {c'd'}e'2e' e'2e' | {e'}d'c'd' c'2e | f2e d2c | g2G c3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Half right & left, down the mid: up again, Allemande & hands six round.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 18533
+T: HAVERSTOCK HILL
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.18 p.53 #3
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: This 3-voice version gives the lower treble notes and upper bass notes to the alto voice.
+N: This version is playable by three melody instruments, if you ignore the remaining double stops.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+(G/A/) |\
+BcA GDD | BcA GDD | GDD ADD | cdB A2(G/A/) |\
+BcA GDD | BcA GDD | GFG EAc | BcA G2 :|
+|: (B/c/) |\
+dgf {f}e^de | Adc {c}B^AB | EF^G ABc | ABG FED |\
+{A}GFG {B}AGA | {c}[BG]AB [cG]de | edc BcA | GAF G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=alto middle=c
+z |\
+d2c B2z | d2c B2z | Bz2 fz2 | a2g f2z |\
+d2c B2z | d2c B2z | d2d c2e | d2c B2 :|
+|: z |\
+G3- G2z | d3- d2z | c2d c2z | A3- A2z |\
+G3 F3 | =F3 E2z | g2f g2e | BcA B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 3 clef=bass middle=d
+z |\
+[g2G2]d [g2G2]z | [g2G2]d [g2G2]z | [g2G2]z [a2d2]z | f2g d2z |\
+[g2G2]d [g2G2]z | [g2G2]d [g2G2]z | B2B c2A | d2D G2 :|
+|: z |\
+B3- c2z | (f3 g2)z | c'2b a2z | c2^c d2z |\
+G3- G3 | G3- G2.c | B2A G2c | d2D G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Whole figure at top .| down the mid: up again allemande |: Swing Corners |. & hands 6 round |:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 18541
+T: MORGIANA IN SPAIN
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.18 p.54 #1
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout matches original:
+V: 1 clef=treble middle=B
+|:\
+D2E F2B | D2E F2B | G2G c2B | AcB AGF |\
+D2E F2B | D2E F2B | G2c AGA | B2B B3 "^Fine"H:|
+|:\
+c2B A2d | c2B A2d | c2BA2G | F2F F2d |\
+c2B A2d | c2B A2d | cdB ABG | FGE DEC "D.C."y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+|:\
+b3 b3 | b3 b3 | e3 e3 | f3 f3 |\
+b2c' d'3 | b2c' d'3 | e3 f3 | bfd B3 "^Fine"H:|
+|:\
+f3 f2b | a2g f2b | c'3 c3 | fac' f2b | a2g f2b | a2g f2b | c'3 c3 | f2z z2z "D.C."y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & hands 4 round, back again, Poussette with 2d Cu: right & left.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 18542
+T: MISS HILL'S FAVORITE
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.13 p.54 #2
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+|:\
+G>Bd>B d>Bc>A | G>Bd>B d>Bc>A |\
+G>Bd>B e>cA>G | F>GA>F D>dc>A |
+G>Bd>B d>Bc>A | G>Bd>B d>Bc>A |\
+G>ed>c B>AG>F | G>FG>A G2z2 :|
+|:\
+F>GA>B c>Bc>A | G>AB>c d>^cd>B |\
+e>AB>c d>GA>B | c>BA>G F>dc>A |
+G>AB>c d>Bc>A | G>AB>c d>Bc>A |\
+d>Bg>f e>ca>g | f>ga>b g2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+|:\
+[bg]d'[bg]d' [bg]d'[bg]d' | [bg]d'[bg]d' [bg]d'[c'a]d' |\
+[bg]d'[bg]d' [ec]a[e^c]a | [fd]a[fd]a [f2d2]z2 |\
+[bg]d'[bg]d' [bg]d'[c'a]d' |
+[bg]d'[bg]d' [bg]d'[c'a]d' |\
+[b2g2]c'2d'2d2 | [b2g2]d'2 [b2g2]z2 :|\
+|:\
+[fd]a[fd]a [fd]a[fd]a | [gd]b[gd]b [gd]b[gd]b |\
+[ec]a[ec]a [dB]g[dB]g |
+[ec]a[e^c]a [f2d2]z2 |\
+[bg]d'[bg]d' [bg]d'[c'a]d' | [bg]d'[bg]d' [bg]d'[c'a]d' |\
+[bg]d'[bg]d' [ec]a[ec]a | [ad]c'[fd]c' [b2g2]z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & change Places & back again .| Swing with right hand round 1 Cu: then with
+%% left |: set 3 across & 3 in your places .| & hands 6 half round & back again |: .
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 18543
+T: COUNTESS OF GOSFORD'S FANCY
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.18 p.54 #3
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+|:\
+d2de fgfe | d2de fgfe | d2B2 BcdB | c2F2 F2fe |
+d2de fgfe | d2de fgfe | dfBd ceAc | BABc B2z2 :|
+|:\
+babc' bfdf | babc' bfdf | babc' d'3b | agab c'agf |
+babc' bgeg | f=efg fdBd | c=Bcd ecAc | BABc B2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+|:\
+[b2B2][d'2b2][d'2b2][d'2b2] | [b2B2][d'2b2][d'2b2][d'2b2] |\
+[b2B2][d'2b2][d'2b2][d'2b2] | [f2F2][c'2f2][c'2f2]z2 |\
+[b2B2][d'2b2][d'2b2][d'2b2] | [b2B2][d'2b2][d'2b2][d'2b2] |\
+[b2B2][d'2b2][f2F2][c'2f2] | [b2B2][d'2b2][d'2b2]z2 :|
+|:\
+[b2B2][d'2b2][d'2b2][d'2b2] | [b2B2][d'2b2][d'2b2][d'2b2] |\
+[b2B2][d'2b2][=e'2g2][e'2g2] | [f'4f4] z4 |\
+[e'2e2][g'2e'2][g'2e'2][g'2e'2] | [b2B2][d'2b2][d'2b2][d'2b2] |\
+[c'2e2][c'2e2][c'2f2][e'2f2] | [d'2b2][d'2b2][d'2b2]z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across back again .| whole figure on your own side |: down
+%% the mid: up again, turn your partner & lead outsides |:.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

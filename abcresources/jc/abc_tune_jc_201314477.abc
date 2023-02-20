@@ -1,0 +1,26 @@
+X:1
+T: Mrs. Pike's Maggot
+N:
+C:Tune is "Planxty Irwin" by O'Carolan
+S: Play  4  times
+A:
+O:
+R:
+M:3/4
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 20 notes)
+K:G
+M:3/4
+L:1/16
+d4 |g8 f4 |e6 f2 g4 |d8 c4 |B6 A2 G4 |c8 A4 |B6 c2 d4 |F8 G4 |A8 d4 |
+%W: A2
+% voice 1 (1 lines, 19 notes)
+g8 f4 |e6 f2 g4 |d8 c4 |B6 A2 G4 |c8 A4 |B6 c2 d4 |G8 F4 |G8 d4 |
+%W: B1
+% voice 1 (1 lines, 20 notes)
+g8 g4 |g6 f2 g4 |a8 a4 |a6 f2 d4 |b8 b4 |a8 g4 |f4 g4 e4 |d4 e4 f4 |
+%W: B2
+% voice 1 (1 lines, 18 notes)
+g8 f4 |e6 f2 g4 |d8 c4 |B6 A2 G4 |c8 A4 |B6 c2 d4 |G8 F4 |G8 ||

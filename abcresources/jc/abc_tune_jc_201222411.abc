@@ -1,0 +1,35 @@
+X: 05
+T: Ramsgate Pier
+%R: reel, polka
+B: Thompson "A Favourite Collection of Country Dances 1800", p.5
+F: https://deriv.nls.uk/dcn23/1205/2168/120521683.23.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for a US-letter/A4 page size.
+V: 1
+|:\
+A2AB dcBA | d2d2 d4 | B2Bc edcB | c2c2 c4 |\
+A3B cBcA | B3c dcdB | c2ce dcdB |
+A2A2 A4 H:|\
+a3b gefg | a2e2c2A2 | a3b gefg | a6 c2 |\
+d2f2e2c2 | B2d2c2A2 | [G2D2][G2D2] [A2C2][A2C2] | [B6G6E6] (3(EF"^D.C."G) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=D
+|:\
+Aece Aece | Bede Bede | GeBe GeBe | Aece Aece |\
+CAEA CAEA | DBFB DBFB | EcAc EeGe |
+Aece A4 H:|\
+Aece Bede | cece Aece | Aece Bede | cece A2E2 |\
+FAGA EAGA | C2G2E2C2 | B,2B,2A,2A,2 | E6 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st & 2d Cu: set & hands Cross & back again .|
+%% Lead down the middle & up again .|.
+%% Allemand :|:
+%% Swing Corners & lead outsides :|:
+%%endtext
+%%sep 2 2 400

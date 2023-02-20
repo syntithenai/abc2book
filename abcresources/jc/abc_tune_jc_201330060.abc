@@ -1,0 +1,20 @@
+X:140
+T:Reveille, Daybreak - Camp Duties #1
+B:American Veteran Fifer - Camp Duties #1
+M:C
+L:1/16
+Q:1/4=100
+K:D t=8
+Td8 -d4 z4|Te8 -e4 z4|Tg8 Te8|Td8 z8||
+M:2/4
+Q:1/8=160
+K:G t=8
+c2|B>c A>B G2g2|f>d e>c d2>c2|B>c A>B G2g2|f>d e>c d2>c2|
+B>c A>B G2g2|f>d e>c d2>c2|B>c A>B G2g2|f>d e>c d2(3def||
+"^Second Camp."\
+g>d B>G e2e2|d>e d>B A2>c2|B>c A>B G2g2|B>G A>F G2(3def|
+g>d B>G e2e2|d>e d>B A2>c2|B>c A>B G2g2|B>G A>F G2||
+"^Third Camp"\
+c2|B2>A2 G2 z g|f>d e>c d2>c2|B2>A2 G2 z g|f>d e>c d2(3def|
+g>d B>G e2>e2|d>e (3dcB A2>c2|B>c A>B G2g2|B>G A>F G2(3def|
+g>d B>G e2e2|d>e (3dcB A2>c2|B>c A>B G2g2|f>g a>f g2 z2||

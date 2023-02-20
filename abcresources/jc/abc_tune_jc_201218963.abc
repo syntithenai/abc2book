@@ -1,0 +1,39 @@
+X: 01
+T: The Hamiltonian __ Lady Amelia Murray's Choice.
+C: (by the Hon. C.G.)
+R: jig
+M: 6/8
+L: 1/8
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+K: F#m
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+F2G A2f | ecA A>Bc | F2G A2f | e>cA [B3E3] |\
+F2G A2B | .c.d.e .f.^g.a | a>ea ecA | TB3 A3 :|
+|:\
+d>Bd c>Ac | B>GB AFD | C>DE EGA | (f>ac) [B3E3] |\
+d>Bd c>Ac | B>GB AFD | a>ec ecA | TB3 A3 :|
+|:\
+e2c [f2A2D2]a | .e.c.A .e.c.A | e2c [f2A2D2]a | ecA [B3E3] |\
+e2c [f2A2D2]a | agf ecA | d>ef d>ac | TB3 A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d2e f2g | a2A c2A | d2e f2g | a3 =gfe | d2e f2^g | a3 d3 | c3 A3 | e3 A3 :|
+|:\
+b2g a2A | d3 c2B | A3 a3 | A3 e3 | b2g a2A | e2d c2B | A3 c3 | e3 A3 :|
+|:\
+A3 d3 | a3 A3 | A3 d3 | a3 e3 | A3 d3 | c3 a2=g | f2d c2A | e3 A3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First Lady foots it with the 2d Gen: and turns .|. 1st Gen: Ditto
+%% with the 2d Lady :|: Gallop down two Couple, up again, and cast off .|.
+%% foot it and go the Allemande round to the right :|: foot it and turn
+%% four hands the round to the right with the 3d couple .|. Right and
+%% Left with the first couple :|:
+%%endtext

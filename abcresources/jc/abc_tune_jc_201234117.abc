@@ -1,0 +1,17 @@
+X: 20281
+T: LODOISKA.     Quadrille.
+%R: _
+B: "Edinburgh Repository of Music" v.2 p.28 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: There are odd half bars between the strains. Try shifting the bar lines left in either of the strains.
+M: C
+L: 1/8
+K: D
+A>Bc>A |\
+d2d2 d>AB>c | d2d2 d>AB>c | d2Te2 f>edf | e>dc>B A>Bc>A |\
+d2d2 d>AB>c | d2d2 d>AB>c | d2e2 f>ed>f | e2z2 A>Bc>A |
+d2d2 d>ABc | d2d2 d>AB>c | d2Te2 f>ed>f | e>dc>B A>Bc>A |\
+d2d2 d>AB>c | d2d2 d>AB>c | d2e2 f>ed>e | A>Bc>d |]
+.e2.a2 .a2.a2 | a>gf>e d>ef>d | .A2.A2 .A2B>c | d>cd>e f>ed>f |\
+e2a2 a2a2 | a>gf>e (d2{c'}d'2) | (d2{c'}d'2) a>gf>e | (d4 d'2)z2 |]

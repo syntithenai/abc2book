@@ -1,0 +1,25 @@
+X: 1
+T: Lady Harriet Clive's Favorite
+%R: reel
+B: "Twenty Four Country Dances with Figures for the Year 1810", Button & Whitaker, p.1 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1810
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+dcdA F2F2 | GBed cABc |\
+def2 efg2 | fdge dcBA |\
+dcdA F2F2 |
+GBed cABc |\
+def2 efg2 | fdec d2z2 |][|\
+ABcd efge | fefg adef |
+gaba gfed | cdec ABcA |\
+dcdA F2F2 | GBed cABc |\
+defd efge | fdec d2z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%  Change sides, back again, lead down the middle,
+%% up again, and Allemande.
+%%endtext

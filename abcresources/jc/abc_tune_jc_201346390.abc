@@ -1,0 +1,31 @@
+X: 1
+T: Trip to Birmingham
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.64 #324
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:64 #324
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B/c/ |\
+d2A FED | BGB A2d | cde fed | e3 e2d/e/ |\
+fdf ece | dBd cBA | ^GAB EA^G | A3 A2 :|
+|: A/B/ |\
+cde ecA | Bdc dAF | BGB AFD | E3 E2F/G/ |\
+AFA BGB | cAc dcB | Agf edc | d3 d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2e f2d | g3 f2d | a3 d'3 | a2b c'2a |\
+d'3 a3 | b3 a2d | e3 E3 | a3 A2 :|
+|: z |\
+a3 g3 | f3 d3 | g3 d3 | a2g f2e |\
+d3 g3 | a2g f2g | a3 A3 | d3 D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands round with the 1st Cu. cast off and hands round with the 3d Cu.
+%% gallop up, foot, cast off, lead down, foot, cast up and turn.
+%%endtext

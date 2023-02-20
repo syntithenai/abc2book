@@ -1,0 +1,79 @@
+
+X: 1
+T: Hommage \`a Joseph Bouchard
+O: Qu\'ebec
+C: Philippe Bruneau
+M: 6/8
+L: 1/8
+K: C
+"G7"G3 \
+|: "C"E3 "(F)"EFA \
+| "C"G3 "G7"GAB \
+| "C"cBc "F"dcA \
+| "C"G2G EGc \
+| "G7"B2B GBd \
+| f2f GBd |
+| "G7"bag fed \
+|1 "C"cdc "G7"BAG \
+:|2 "C"c3 "/B"zAB \
+|: "Am"c2c cBc \
+| AEE EAB \
+| c2c cBc |
+| "E7"BEE E3 \
+| d2d dcd \
+| BEE E^GB \
+|1 "E7"eEE "/F#"dEE \
+| "/G"cEE " /G#"BAB \
+:|2 "E7"efe dcB \
+| "Am"A3 |]
+
+%%sep 1 1 500
+
+X: 2
+T: Hommage \`a Jos. Bouchard
+I:Hommage a Jos. Bouchard	J-69	C/Am	jig	Set 57 [RJ]
+R:jig
+O:Quebec
+C:Philippe Bruneau
+H:Written by Philippe Bruneau, in honor of Joe Bouchard
+D:From Sam Bartlett, then Mario Loiselle
+Z:Translated to abc by Debbie Knight
+M:6/8
+K:C
+"C"E3 EFA| G3GAB| cBc "F"dcA| "A"G2G "Am7"EGc| \
+"Dm"B2B "G"GBd|
+ "Dm"f2f "G"GBd|1 "Dm"bag "G"fed| "C"cdc "G7"BAG:|\
+[2 "G"bag fed| "G"c3-"E7"cAB|]
+\
+K: Am
+\
+"Am"c2c cBc| AEE EAB| c2c cBc| "Bm7"BEE "E7"E3| \
+"Bm7"d2d dcd| \\"E7"BEE E^GB| "E"eEE "Fdim"dEE| "F#dim"cEE "E7/G#"BAB |\
+"Am"c2c cBc| AEE EAB| c2c cBc| \\"Bm7"BEE "E7"E3| \
+"Bm7"d2d dcd| "E7"BEE E^GB| "E7"efe dcB|1 "Am7"A3 "G7"G3 |][2 "A"A3-A3|]
+%%text 11/10/00. RJ Set 57
+
+%%sep 1 1 500
+
+X: 90
+T: Hommage \`a Jos Bouchard
+C:Philippe Bruneau
+B:Philippe Bruneau - Musique traditionnelle pour accord\'eon diatonique
+S:Montreal Session collection
+Z:robin.beech@mcgill.ca
+M:6/8
+L:1/8
+K:D
+|: !segno!\
+F3 FGB | A3 ABc | dcd edB | A2A FAd |\
+c2c Ace | g2g Ace | c'ba gfe | fed cBA |
+F3 FGB | A3 ABc | dcd edB | A2A FAd |\
+c2c Ace | g2g Ace | !coda!c'ba gfe |1 dAF D2G :|2 dAF D2c ||
+|:\
+ddd dcd | BFF F2c | ddd dcB | cFF F3 |\
+eee ede | cFF FFF | fFF eFF | dFF cFF |
+ddd dcd | BFF F2c | ddd dcB | cFF F3 |\
+eee ede | cFF FFF | fgf edc |1 BFD B2c :|
+[2 B2A-A2 "D.S" F//A//F//A// |]\
+!coda!c'ba gfe | [F3A3d3] !fine![F3A3d3] |]\
+y6 y6 y6 y6 y6 y6 y6 y6

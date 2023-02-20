@@ -1,0 +1,30 @@
+X: 31353
+T: COTILLION No. 26. PAUL JONES' SETT tune 5
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.135 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4	% Actually, there's no time signature in this tune.
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+g2 |\
+gfed c2c2 | ^c4 d2d2 | dcBA G2AB | cdef g2g2 |\
+gfed c2c2 | ^c4 d2d2 | dcBA G2AB | c4 c2 H|]
+Bc |\
+d2d2 ag^fg | e2c2 c2c'b | a2a2 d'2d'2 | c'bab g2Bc |\
+d2d2 ag^fg | e2c2 c2c'b | a2a2 agab | g4 "^D.C."z2 |]
+Ac |\
+e2e2 e2fe | d2d2 d2ed | dcBc ABcA | B2e2 E2Ac |\
+e2e2e2a2 | gfef d2ef | fedc cBA^G | "^D.C."A6 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right and left 4,
+%% balance 4,
+%% ladies chain,
+%% promenade 4.
+%% Sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

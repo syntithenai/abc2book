@@ -1,0 +1,20 @@
+X: 1
+T: Caro Nome Rigoletto    [Eb]
+C: Giuseppe Verde
+O: Italy
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Eb
+%%continueall 0
+ed |\
+"Eb"c2B2 A2G2 | "Bb7"F6 dc | B2A2 G2F2 | "Eb"E6 gf |\
+e2d2 c2B2 | "Fm"F6 dc | "Bb7"B2A2 G2F2 | "Eb"E6  G=A |
+"Gm"B2c2 B2c2 | "Bb"B6 G=A | "Gm"B2"F7"c2 "Bb"d2"F7"e2 | "Bb7"f6 gf |\
+"Eb"e2d2 c2B2 | "Bb7"F6 dc | B2A2 G2F2 | "Eb"E4 "Cdim"(^F=A)(ce) |
+"Bb7"dddd "Eb"B4 | "Bb7"zFF2 FFFF | f6 gf | "Eb"e2d2 c2BB |\
+"Bb7"F6 dc | B2A2 G2F2 | "Eb"E4 "Cdim"(^F=A)(ce) | "Bb"dddd "Eb"B4 |
+"Bb"zFF2 FFFF | f6 gf | "Eb"e2d2 c2BB | "Bb7"F6 dc |\
+B2A2 G2F2 | "Eb"E4 "Cdim"(^F=A)(ce) | "Bb7"dddd "Eb"B4 | "Bb7"zFF2 FFFF |
+f6 Be | "Eb"edcB B2Be | edcB B2Be | "Eb"edcB B2Be |\
+edcB B2Be | "Ab"AGGF FFFE | "Eb"B6 z2 |]

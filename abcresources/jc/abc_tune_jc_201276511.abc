@@ -1,0 +1,16 @@
+X:1
+T:Flatworld
+M:3/4
+L:1/8
+R:Waltz
+C:Andy Cutting
+K:Am
+%%printtempo 0
+Q:160
+e de|\
+"Am"ce Be Ae|"F"F2 AB cA|"Dm"f2 fe dc|"E"B3 e de|
+"Am"ce Be Ae|"F"F2 fe dc |"E"BA Bd cB|1 "Am"A3:|2A4 E2|
+"Am"AB cA ag|"Dm" f2 fe dc |"G"Bc dB gf|"C"e2 ed cB|
+"F"AB cA fe|"Dm"d2 dc BA|"E"B2 Bd ^cd|"E7"B3B cB|
+"Am"AB cA ag|"Dm"f2 fe dc|"G"Bc dB gf|"C"e2 ed cB|
+"F"AB cA fe|"Dm"d2 dc BA|"E"BA Bd cB |"Am"A3|]

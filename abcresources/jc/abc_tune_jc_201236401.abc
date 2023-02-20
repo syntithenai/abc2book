@@ -1,0 +1,28 @@
+X: 2202
+T: Mc Vicars Strathspey
+C: by Nath.Gow
+%R: strathspey, air
+B: Niel Gow & Sons "Complete Repository" v.2 p.20 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - -
+V: 1 staves=2
+c |\
+G<ETE>c G<ETE>c | G<Ec>E {E}D2Dc | GEE>G Tc>(d {cd}e)>d | {B}Tc>A GE {E}D2D :| e | ce/f/ ge c<ge<a |g<cTg>e {e}d2de |
+ce/f/ ge c<gTe>d | {B}c>A cE {E}D2De || ce/f/ ge c<ge<a | g<cTg>e {e}Td2de/f/ | g>ef>d e>c d>B | c>A GE {E}D2D |: E |
+C>GEc GcEc | C>GEc {E}D2DE | C>GEG Tc>(d {cd}e)>d | {B}c>A cE {E}D2D :| e/f/ | g<cTe>c g<cTf<a | g<cTg>e {e}d2de/f/ |
+g<cTe>d Tc>d {cd}e>d | {B}c>A GE {E}D2De/f/ || g<cTe>c g<cTf>a | g<cTg>e {e}d2dc/d/ | e>cd>B {B}Tc>A GE | F<dE<c {E}D2D |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+c2c2 c2c2 | c2c2 G2G2 | c2c2 c2c2 | c2c2 G2G :| z | c'2c'2 c'2c'2 | c'2c'2 g2g2 |
+c'2c'2 c'2g2 | f2c2 G2G2 || c'2c'2 c'2c'2 | c'2c'2 g2g2 | e2g2 a2g2 | f2c2 G2G |: z |
+[c2C2][c2C2] [c2C2][c2C2] | [c2C2][c2C2] [g2G2][g2G2] |\
+[c2C2][c2C2] [c2C2][c2C2] | [f2F2][c2C2] [g2G2][gG] :| z |\
+[c'2c2][c'2c2] [c'2c2][f2F2] | [e2E2][c2C2] [g2G2][g2G2] |
+[c'2c2][c'2c2] [e2E2][g2G2] | [f2F2][c2C2] [g2G2][g2G2] ||\
+[c'2c2][c'2c2] [c'2c2][f2F2] | [e2E2][c2C2] [g2G2][g2G2] |\
+[e2E2][g2G2] [f2F2][e2E2] | [d2D2][c2C2] [g2G2][gG] |]

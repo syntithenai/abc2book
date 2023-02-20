@@ -1,0 +1,22 @@
+X: 07102
+T: Rich 'n' Lucy
+C: Bob McQuillen 19 Feb'83
+B: Bob's Note Book 7 #102
+%R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G	% and D
+B2c \
+| d2g dBd | e2c Ace | dBG EFG | A2F DEF |\
+| GBd gdB | ABc eag | fed cBA | G3 :|
+K: D
+|: F2G \
+| A2d dfa | g2f e2B | Acd efg | a2f dcB |\
+| AFA dfd | BGB e2g | fed Adc | d3 :|
+%%begintext align
+%% After this happy
+%% day was over, Rich Blazej and Lucy Spahr-Blazej
+%% were man and wife, and a good time was
+%% had by all!
+%%endtext

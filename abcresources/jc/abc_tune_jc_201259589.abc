@@ -1,0 +1,45 @@
+%%header	-$P	Telemann Sonata im Kanon, Op 5 No 1 in Bb	$P
+
+X: 1
+T: Sonata im Kanon, Op 5 No 1  in Bb
+T: f\"ur zwei Altblockfl\"oten
+C: Georg Philipp Telemann
+Z: John Chambers <jc@trillian.mit.edu>
+M: 6/4
+L: 1/8
+K: Bb
+P: Vivace
+[| "1"z2f2 b2-b2 agfe | "2"dedcdB c2F2z2 | z2f2 b2-b2 abc'd' | e'2 (d'c')(d'e') {d'}Tc'3 bab |
+  c'2 (ba)(bc') a(f/g/) abc'd' | e'2 d'c'd'e' {d'}Tc'4 z2 | zf ffff fFfF f/e/d/c/ |
+  d/e/d/c/ dBec d/e/d/c/ dBcA | B3 bc'a b3 dec | d/e/d/c/ dga^f g/a/g/^f/ gbag |
+  ^fa Td2 z2 db Td2 z2 | dc'2(d'/c'/) ba bd'2 c'/b/ ag | a2 d2 T^f2 g2 G2 z2 | z4 c'2- c'2 =bc' d' |
+  g2 (e'd')(e'c') d'2 g2 f2 | Ted c2 z2 z4 =b2 | c'g=ec g(f/e/) fcAF f(=e/d/) | =e2 g2 b2 ag f2 z2 |
+  zccc (c/d/=e/c/) fF ff (f/g/a/f/) | b2 z2 b2- b2 agfe | dedcdB c2 F2 z2 |  z2f2 b2-b2 abc'd' |
+  e'2 (d'c')(d'e') {d'}Tc'3 bab | c'2 (ba)(bc') a(f/g/) abc'd' | e'2 d'c'd'e' {d'}Tc'4 z2 | zf ffff fFfF f/e/d/c/ |
+  d/e/d/c/ dBec d/e/d/c/ dBcA | B3 bc'a b3 dec | ((3_dec) d2z2 ((3=dec) d2z2 | ((3bc'a) ((3bc'a) ((3bc'a) b3 a/g/ fe' |
+  ((3d'e'c') ((3d'e'c') ((3d'e'c') d'(c'/b/) c'2 Ta2 | bfbfbf bd e2 Tc2 | HB(d/c/) B(d/c/) B(d/c/) B2 c2 TA2 | HB4 z2 z6 |]
+%%vskip 20
+P: Adagio
+M: 2/4
+L: 1/16
+K: Gm
+[| "1"G2(d'<b) ^F2(c'<a) | "2"B2(b<g) A2(a<^f) | G2e2 z2d>c | B>Gg>a T^f4 | g>db>c' Ta2d'>a | b>ag2 z2f2- |
+  f2=e>d T^c2d2 | G2g2- g>=ef>d | b>ab>g ^c'2d'2 | z2(g<=e) z2(f<d) | =e2T^c2 d2a2- | a2 g4 ^f>A|
+  B2(d'<b) A2(c'<a) | G2(b<g) ^F2(a<^f) | z2 e4 d>c | B>Gg>a T^f4 | g>db>c' Ta4 | Hg2G2 c2d2 | HG4 z4 |]
+%%newpage
+P: Allegro
+M: 2/4
+L: 1/8
+K: Bb
+[| "1"fb2a | "2"dg2f | Be2d | g2 f2 | e(d/c/) dB | TA2 B2 | cf dB | F2 z2 |
+  fb2a | dg2f | Be2d | g2 f2 | e(d/c/) dB | TA2 B2 | cf dB | F2 f2- | f(e/d/) e(d/c/) |
+  d(c/B/) c(B/A/) | Bd ef | B2 z2 || (B/c/)d (d/c/)B | fffb | (a/b/)c' (d'/c'/)b | c'f fg |
+  (a/b/)a ab | (c'/d'/)c' c'd' | T=e2 f2 | gc ac | b2 c'(b/a/) | d'd c'2 | b(a/g/) af | T=e2 f2 |
+  gc' af | c2 c'2- | c'(b/a/) b(a/g/) | a(g/f/) g(f/=e/) | fA Bc | F2 z2 || fb2a | dg2f |
+  Be2d | g2 f2 | e(d/c/) dB | TA2 B2 | cf dB | F2 z2 | fb2a | dg2f | Be2d | g2 f2 |
+  e(d/c/) dB | TA2 B2 | cf dB | F2 f2- | f(e/d/) e(d/c/) | d(c/B/) c(B/A/) | Bd ef | B2 z2 ||
+|| b(b/a/) bc' | d'2 g2 | ^fd bg | d'2 g2 | ^fd b2 | Ta2 d(=e/d/) | ^cA f2 | =e2 d(e/d/) | ^cA f2 |
+  =e2 d(e/f/) | g(f/=e/) f(g/a/) | b2 a2 | g(d' ^c'=c') | (=b_b a)d | g2 f2 | =e(d/^c/) da | Aa Aa |
+  a(g/f/) g(f/=e/) | f(=e/d/) e(d/^c/) | dF GA | d2 zc | B(c/d/) _e/g/f/e/ || fb2a | dg2f |
+  Be2d | g2 f2 | e(d/c/) dB | TA2 B2 | cf dB | F2 z2 | fb2a | dg2f | Be2d | g2 f2 |
+  e(d/c/) dB | TA2 B2 | cf dB | F2 f2- | f(e/d/) e(d/c/) | d(c/B/) c(B/A/) | HBd ef | HB2 z2 |]

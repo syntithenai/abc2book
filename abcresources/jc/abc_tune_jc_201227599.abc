@@ -1,0 +1,34 @@
+X: 10882
+T: COTILLION No. 10. tune 2
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.88 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(3(G,A,B,) |\
+C>B,C>D E>DE>D | C>B,CE G>EG>E |\
+F>EF>D E>DE>C | D>^CD>B, G,>A,C>G, |\
+C>B,C>B, E>DE>D |
+C>B,C>E G>EG>E |\
+F>EF>D E>DE>C | D>B, (3(G,A,C) C4 H|] \
+|:\
+G>FE>D C>EA>G | F>ED>C B,>CD>E |
+F>ED>C B,>DG>F  | E>DC>B, C>G,C>E |\
+G>CE>G c>EG>c | e>Gc>e g>ce>g |\
+c'>ge>g f>ed>c | g>^fg>f "^D.C."g4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance 4,
+%% turn partners,
+%% next 2, &c.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,35 @@
+X: 21541
+T: DEATH OF KOSCIUSKO
+T: German air arranged as a trio.
+C: T.H.
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.154
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+c>c |\
+c2c>c c2c>c | f2c2 z2c>c | B2B2 B2(c>B) | A2z2 z2c>c | c2c>c (cd)(ef) | f2d2 z2Bd |
+(dc)cc c2BG | F2z2 z2AA | G2=Bd f2dB | c2c2 z2cc | =B2Bd g2de | Hc4 z2 |: c>c |\
+A2c>c A2c>f |
+f2d2 z2B>d | (dc)cc c2dB | A2z2 z2c>c | A2c>c A2c>f | f2d2 z2B>d | (dc)cc c2de | f2z2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+A>A |\
+G2G>G A2B>B | A2A2 z2A>A | G2G2 G2(A>G) | F(Ac>B A2)A>A | A2A>A B2B2 | A2B2 z2GB |
+A2AA G2GE | F2z2 z2^FF | G2GG G2G=F | E2E2 z2EE | FGFG FGFG | E4 z2 |: A>A |
+F2A>A F2A>A | A2B2 z2G2 | A2GG A2BG | FAcB A2A>A | F2A>A F2A>A | A2B2 z2G2 | A2AA B2BB | A2z2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3
+F>F |\
+E2D>D F2G>E | F2F2 F2C>C | E2G2 E2C2 | F2(A>G F2)C>C | F2F>F G2C2 | F2F2 z2EE |
+F2FF E2C2 | FfeA F2DD | G2DD D2=B,D | C2C2 z2CC | D2DD D2=B,2 | C4 z2 |: F>F |
+F2F>F F2F>F | F2F2 F2E2 | F2EE F2FE | F2AG F2F>F | F2F>F F2F>F | F2F2 F2E2  | F2FF E2C2 | F2z2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The song, "Let the Toast be dear Woman," is adapted from this air.
+%%endtext
+%%sep 1 1 300

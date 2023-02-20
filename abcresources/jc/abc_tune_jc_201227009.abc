@@ -1,0 +1,26 @@
+X: 10571
+T: Largo Espressivo
+C: Gaetano Brandi
+Q: "Largo Espressivo"
+B: "Man of Feeling", Gaetano Brandi, ed. v.2 p.57
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: removed unneeded dots in bars 8, 11 to fix the rhythm.
+M: 2/4
+L: 1/16
+K: C
+"_mezzo voce"G |\
+c3G (c2d2) | (e3f) d2zG | d3G (d2e2) | (f3g) e2z!mf!g |\
+a3!f!f c'3z!mf!a | g3e !f!c'2zg | g2eg {a/}gf{g/}fe | (e4 d3) :|
+|: !p!G |\
+(B3c) d2e2 | .c2!f!(Tg^f/g/) .c'2(Tgf/g/) | e2z!p!e (fedc) | (B3c) d2e2 |\
+.c2!f!(Tg^f/g/) c'2Tgf/g/ | e2z!p!e (fedc) | "_crex"(A3B) c2d2 | (e3f) g2z!f!c' |\
+e4 {e/}(d2cd) | c4 "^Fine"z3 :|
+|:[K:Cm] !p!G |\
+"_assai"(c3=B) c2d2 | (e3d) c2zc | e3d e2f2 | (g3f) e2z!f!g |\
+(!p!g3!f!a) f2z!f!f | (!p!f3g) !f!e2z!f!e | (f2e2d2c2) | (c4 =B3) :|
+|: !f!G |\
+!p!(=B3c) d2B2 | (c!f!gag) (fedc) | !f!(=B3c d2)B2 | (c!f!gag) (fedc) |\
+!f!(a3g) f2z!p!f | !f!(g3f) e2z!f!e | {e/}d2 c4 =B2 | (B4 "_Da Capo al Fine"c3) :|
+%
+%%center -

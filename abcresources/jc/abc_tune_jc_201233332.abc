@@ -1,0 +1,22 @@
+X: 191
+T: l'Etourderie de Catos.          F.
+C: Ignatius Sancho 1775
+B: "Minuets Cotillons & Country Dances", 1775 p.19 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: (3CEG (3GEC | (3CEG cG | (3FAF (3EGE | D2 G,2 | (3CEG (3GEC | (3CEG cG | (A/B/c/A/) (B/c/d/B/) | c2 C2 :|
+[V:2] |: c2 z2 | c2 e2 | f2 c2 | (3GBd (3fed | A2 z2 | c2 e2 | f2 g2 | c4 :|
+[V:1] (3ceg (3gec | (3Bcd (3dBG | (3AcA (3GEG | F2 D2 | (3ceg (3gec | (3dfa (3afd | (e/f/g/e/) (3dBd | c2 C2:|
+[V:2] c'2 c2 | g2 G2 | f2 c2 | g4 | c2 c'2 | f2 d2 | c2 g2 | c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% All round, back again, the first four Chassee and hands across in the middle the other four at the
+%% same time Ballance and the Gentlemen turn their Partners under their Arms, the other 4 the same.
+%%endtext

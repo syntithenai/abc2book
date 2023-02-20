@@ -1,0 +1,28 @@
+X: 1
+T: Vigo
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.328
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the dance instructions (including the missing instruction after the last dance phrase).
+M: 6/4
+L: 1/4
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B |\
+f>gf d>cB | (eg)a b2g | (fd)B (EG)c | A3 F2c |\
+f>gf dcB | (ef)g _a2g | fAc FBc | d3 B2 :|
+|: A/B/ |\
+c>dB AdG | F2E D2f | gBd Gcd | d3 c2c |\
+f>gf dcB | (ef)g _a2g | fAc FBc | d3 B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. cast off, and the 2. cu. follow them; stand all abreast, Present and Fire: The 1. cu. cross
+%% over and come in the 2. cu's place; the 2. cu. do the same. The first Strain twice. Fall back to the wall,
+%% the men stand before the we. longways face to face, holding both hands and change places, holding both
+%% hands longways as you were before, turn single to your own places. Second Strain once. Right-hands
+%% a-cross half round and turn S. lead all to the wall and face about, then cross over to your own places.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

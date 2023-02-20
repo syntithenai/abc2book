@@ -1,0 +1,23 @@
+X: 07120
+T: CLAYBORN'S JIG
+C: Bob McQuillen 7 June 89	
+B: Bob's Note Book 7 #20
+%R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Some of the dotted quarter notes are dotted half notes in the booklet; fixed.
+M: 6/8
+L: 1/8
+K: D
+A2B \
+| dfd cde | d2A FGA | DFA GAB | B3 Ade |\
+| fdf edc | Bcd AFA | Bgf edc | d3 :|
+|: f2g \
+| aba afd | edB Afg | aba fga | gfg eag |\
+| fdB AFA | BdB Adf | afd efe | d3 :|
+%%begintext align
+%% Well, I had company last night.
+%% I was watching the tube, when in she came, all by herself,
+%% Clayborn, tail wagging up a storm! She's the cute doggie
+%% owned jointly by Little Buff and Michelle, and she gets a
+%% warm welcome here, I can tell you!
+%%endtext

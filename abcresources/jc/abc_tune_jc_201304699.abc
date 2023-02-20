@@ -1,0 +1,26 @@
+X:1
+T:THE MAPLE LEAF FOREVER
+M:C
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+[| A|
+{gBd}B2{e}A2{Gdc}d2A2|
+{gBd}B2d2{e}A4|
+{g}c2d{gef}e3d2|  !
+{gcd}c2{e}B2{G}A3{GAG}A|
+G2{d}A2{Gdc}d3A2|
+{gfg}f2d2{e}B2{g}c3/2d/2|  !
+{gef}e2{Gdc}d2{gcd}c2{e}B2|
+{G}A4A3{g}A|] [|
+{gBd}B2{e}A2{Gdc}d2A2|  !
+{gBd}B2{Gdc}d2{e}A3{GAG}A|
+{g}B2{g}B2{gf}g3f|
+{gfg}f2e2{A}e2A2|  !
+{ag}a2f2{Gdc}d3c|
+{gBd}B2{Gdc}d2{e}A3{GAG}A|
+{g}B2{gf}g2{fg}f3e|  !
+{g}ed2{gdc}d6|]
+

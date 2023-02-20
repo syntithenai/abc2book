@@ -1,0 +1,12 @@
+X:614
+T:Circus Rider
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 61
+M:6/8
+L:1/8
+Q:1/8=270
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+D|DFA (d2B)|(g2f) (b2a)|agf fed|dcB AFD|DFA (d2B)|(g2f) (b2a)|agf fed|cAc d2::
+d|:Te3-ecA|^GBB B2c|dfe dB^G|BAA A2c/d/|e2e ecA|a2a agf|fec edB|[1 A^GA Bcd:|[2 ABA G!D.C.!FE|]

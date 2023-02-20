@@ -1,0 +1,27 @@
+X: 4122
+T: Fy let us a' to the Wedding
+O: Very Old.
+%R: slip-jig
+B: Niel Gow & Sons "Complete Repository" v.4 p.12 #2 (and top 2 staffs of p.13)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+Q: "SLOWLY AND DISTINCTIVE"
+K: F
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+C |\
+F2F .A/.B/.cF cAF | G2G GAc ~d2f |\
+~F>GA fed cAF | ~G>AB AGF D2 :| a/g/ |\
+fcf fgf {f}edc | dcA fga {a}g2a/g/ |
+fcf f>gf {f}edc | def cAF D2 a/g/ |\
+fcf f>gf {f}edc | dcA f>ga {a}Hg2 e |\
+Hf>ga g>af gec | (d/e/f).d cAF [D2A,2F,2] |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z |\
+FAc f3 F2z | e3 f2A B2z | A2F dcB A2F | G2G A3 D2 :| d |
+f3 ab=b c'2a | b2d d'2=b c'2e' | f'3 ab=b c'2a | b3 a2f b2e |
+f3 ga=b c'2a | gaf d2=b Hc'2 [K:F clef=treble] _B | HA>GF E>FD [K:F clef=bass middle=d] c'2a | b3 a2A d2 |]

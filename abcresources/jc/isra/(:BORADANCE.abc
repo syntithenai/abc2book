@@ -1,0 +1,22 @@
+X: 28
+T:Bora Dance
+O:Israel /Turkey
+F: http://www.youtube.com/watch?v=PJcrvEWzsKQ
+M:2/4
+L:1/8
+K:Bbdor
+Q:1/4=180
+%%MIDI program 81
+%%MIDI drum dddd 40 36 35 36
+%%MIDI drumon
+|:B2F2|B2F2 |A2Bc|B2_AG|\
+  B2F2|B2F2 |A2Bc|B2_AG|
+  B2F2|B2F2 |A2Bc|B2_AG|\
+  c2cc|cBcd |c2B2|z4::
+  cde2|f2ff |f2ff|f2z2 |\
+  c2e2|c2cc |c2BB|B2z2::
+  cde2|f2ff |f2ff|f2z2 |\
+  c2e2|c2cc |c2BB|B2z2 :|
+  B4- |B2A2 |B4  |B2c2 |\
+  d4  |=B2A2|A4- |A4   |\
+  A4  |A2B2 |=B4 |B2A2 |B4-|B4|

@@ -1,0 +1,14 @@
+X: 1
+T: Corelli's Gavot
+C: A. Corelli
+R: march
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+"^A"|: c2 |\
+"F"f2c2 f2c2 | "C"g6 c2 | "F"a2fg agfa | "C"g6 c2 |\
+"F"a2c2 a2gf | "C"g2ag "F"agfe | agfe "G7"d3c | "C"c6 :|
+"^B"|: c2 |\
+"F"fefg agfe | "Bb"d2F2 B,2d2 | "Gm"gfga bagf | "C"e2G2 C2g2 |\
+"F"c'2f2 "Bb"b2ag | "F"a2c2 "Bb"f4 | "F"fagf "C7"c2fe | "F"f6 :|

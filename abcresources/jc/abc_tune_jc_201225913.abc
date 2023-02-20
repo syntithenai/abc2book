@@ -1,0 +1,21 @@
+X: 10043
+T: PADDY CAREY
+O: Irish.
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.4 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |:\
+G2c {d}cBc | e2c {d}cBc | A2d d2e | f2d B2G |\
+G2c {d}cBc | e2c {d}cBc | dBG GAB | cde {e}d2c ::\
+c2e f2a | g2a gec | c2e f2a | gec d3 |
+c2e f2a | g2a gec | cBA GAB | cde {e}d2c ::\
+f2d {e}dcd | e2c {d}cBc | dBG GAB | cdB cde |\
+f2d {e}dcd | e2c {d}cBc | dBG GAB | cde {e}d2c :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,13 @@
+X: 1175
+T: Paddy O'Snap   #2
+R: slipjig
+%S: s:2 b:8(4+4)
+B: O'Neill's 1850 Music of Ireland #1175
+Z: Stephen Foy (shf@access.digex.net)
+N: The final notes were missing their dots.
+N: Compacted via repeats and multiple endings [JC]
+%: abc 1.6
+M: 9/8
+K: D
+"A^"|: f2d {e}dcd fed |1,3 g2e efd cBA :|2,4 efg ABc d3 \
+"^B":: {A}a2A ABG FAd |1,3 B2e efd efg :|2,4 efg ABc d3 :|

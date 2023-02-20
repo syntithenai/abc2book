@@ -1,0 +1,27 @@
+X: 21493
+T: GRAND MILITARY SETT (tune 6)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.149 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="6"
+[|\
+g6 (ef) | g2(cd) e2(ce) | d2(GA) B2c2 | .d2.e2 (f2^f2) |\
+g6 (ef) | g2(cd) e2(Bc) | d2G2 A2B2 | c6 z2 H:|
+G2e2^d2e2 | f2e2 a3g | (gf).d.B G4 | gfdB G2GG |\
+G2e2 ^d2e2 | f2e2 a3g | gfdB | G2AB | c4 "^D.C."z2 |]
+K: G
+G2AB cdef | g2(ba) g2(fe) | d2(fe) d2(fe) | d2(fe) dcBA |\
+G2AB cdef | g2(ba) g2(fe) | d2fe dcBA | GABc de=f"^D.C."^f |]
+%%begintext align
+%% Grand right and left,
+%% all balance partners,
+%% grand chain, all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

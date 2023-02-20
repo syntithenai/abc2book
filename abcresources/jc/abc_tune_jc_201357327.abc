@@ -1,0 +1,185 @@
+X:256
+T:Reel Boule de Neige
+C:Joseph Allard
+M:C|
+L:1/8
+Z:<http://tunes.nhcountrydance.com>.
+K:G
+Bc\
+| "G" d2B2 g2>B2 | "C" d2c2 cBAB | "D7" c2A2 d2>A2 | "G" c2B2 BAGB |
+  "G" d2B2 g2>d2 | "C" f2e2 edef | "D7" e2c2 a2>f2 |1 "G" g2b2 g2:|2 "G" g2b2 g2z2 |]
+K:D
+| "D" ABAG F2A2 | fefg f2d2 | "A7" efed c2e2 | "D" a^gab a4 |
+  "D" ABAG F2A2 | fefg f2ed | "A7" c2e2 a2c2 |1 "D" e2d2 d2z2 :|2 "D" e2d2 "D7"d2 |]
+
+
+X:304
+T:Caribou Reel
+T:As written by Andy De Jarlis, Canadian Fiddle Tunes, p. 5
+M:2/4
+L:1/16
+C:Andy De Jarlis
+Z:abc originally from Bruce Osborne,
+Z:modified by Phil Katz (to match book including most chords) & 
+Z:Peter Yarensky (formatting & A7, A8 chords to match book).
+Z:<http://tunes.nhcountrydance.com>.
+K:Em
+|:"Em" Be2e efed | Be2e efed | "G"  Bd2d dedc  | BGBc      dedc |
+  "Em" Be2e efed | Bdef g2fg | "D/D" af"A7/E"ge "D/F#" fd"A/A"e^c \
+|1 "Bm"dB"B7"AF "Em"E2 z2 :|2 "Bm"dB"B7"AF "Em"E2Bc |]
+|:"Em" BGE2 EFGA | BGE2 Ec"tr"B2 | "D"D3D D2DD    | A,DDD D2Bc |
+  "Em" BGE2 EFGA | BGBe e3e      | "Em"efed B^cdB \
+|1 "B7"AGF^D "Em"E2Bc :|2"B7"AGF^D "Em"E2 z2 |]
+
+X:305
+T:Caribou Reel
+T:As played by Andy De Jarlis, Favorite Old Time Fiddle Tunes
+M:2/4
+L:1/16
+C:Andy DeJarlis
+Z:abc originally from Bruce Osborne, modified by
+Z:Bob Kuzak (notation of Andy's recording, presented as PDF) & 
+Z:Peter Yarensky (conversion back to abc with
+Z:a couple modifications based on the recording).
+Z: (Prints correctly; slide doesn't display correctly in BarFly)
+Z:<http://tunes.nhcountrydance.com>.
+K:Em
+|:"Em" !slide![e2e2]>e2 efed | Beee efed | "G"  Bddd dedc  | BGBd  dedc |
+  "Em" Be2e efed  | Bdef g2fg | "D" afge fde^c \
+|1 "B7"dBAF "Em"E2 z2 :|2 "B7"dBAF "Em"E2B"+"c |]
+|:"Em" BGE2 EFGA | BE({F}E)D EGFE | "D"D2[DA]D [DA]EFD    | A,DDD D2A"+"c |
+  "Em" BGE2 EFGA | BGBe e3e      | "Em"efed "D"B^cdB \
+|1 "B7"AGFD "Em"E2B^c :|2"B7"AGFD "Em"E2 z2 |]
+
+X:306
+T:Caribou Reel
+T:As played by Marcel Meilleur, Memories with Andy DeJarlis, Track 14
+C:Andy De Jarlis
+M:2/4
+L:1/16
+Z:abc originally from Bruce Osborne, modified by
+Z:Peter Yarensky to match Marcel Meilleur's playing and backup as well as possible.
+Z:Chords are best guesses from listening to the recording; "+" = sharped but <1/2-step.
+Z: (Prints correctly; slide doesn't display correctly in BarFly)
+Z:<http://tunes.nhcountrydance.com>.
+K:Em
+|:"Em" !slide![e2e2]>e2 efed | (Be)e2 efed |"G" Bddd ded^c | BGBd ded^c |
+  "Em"  Be2e efed        | Bdef g2fg   | "Am" afge "Em" fde^c \
+|1 "B7" dBAF "Em"E4 :|2 "B7" dBAF "Em" E2B^c |]
+|: "Em" B^GE2 EF"+"=GE | B^GE2 (3(E^GE)E2  | "D" D3D D2D2 | A,DDD D2B^c |
+   "Em" B^GE2 EF"+"=GE | B^GBe e3e | "Am" efe^d "Em" B^c=dB \
+|1 "B7" AGFD "Em" E2 :|2 "B7" AGFD "Em" E4 |]
+
+
+X:332
+T:Reel de Chateauguay
+C:Joseph Allard
+M:2/4
+L:1/16
+Z:abc by Bruce Osborne
+R:Reel
+Z:<http://tunes.nhcountrydance.com>.
+K:G
+dg|b2bg a2af|ggbg d2dg|fdAB cBce|dBGA B2dg|!
+b2bg a2af|ggbg d2dg|fdAB cdef|g2b2 g2:|!
+|:BA|G2GB d2g2|efge d2dg|fdAB cBce|dBGA B2BA|!
+G2GB d2g2|efge d2dg|fdAB cdef|g2b2 g2:|!
+
+X:636
+T:Fireman's Reel
+M:2/4
+L:1/16
+S:April Limber, New England Tradition
+Z:<http://tunes.nhcountrydance.com>.
+K:A
+|:E2 | "A" AcBc AcE2| "A" A2ce f2e2|\
+"A" agae "F#m" fecA|"Bm" BcBA "E7" F2EF|
+"A" AcBc AcE2|"A" A2ce "A7"f2e2|\
+"D" agae "E7" fecA|"E7" B2A2 "A" A2:|
+(3(efg)|"A" a2ab agfe|"A" fece fece|\
+"A"a2ab "F#m" agfe|"Bm" fecA "E7" B2(3(efg)|
+"A" a2ab agfe|"A"fece "A7" fece|\
+"D" f2af "E7" ecBA|"E7" GEFG "A" A2:|
+
+X:1020
+T:Reel Jean Luc Paradis
+C:Rjean Lizotte
+M:2/4
+L:1/16
+R:reel
+Z:<http://tunes.nhcountrydance.com>.
+K:D
+|:A,D |\
+FGFE DA,DF | ABAG FDFA | cdcB ABAG | FDEF E2A,D |
+FGFE DA,DF | ABAG FDFA | cdcB ABAG | FDEF D2 :|
+|:FA |\
+dedc B2GB | dedc B2cd | efed ceAc | efed c2(3ABc |
+d2>c2 B2GB | dedc B2cd | efed cABc | dBAF D2 :|
+
+X:1256
+T:Logger's Breakdown 
+M:4/4 
+L:1/8 
+R:Reel
+Z:<http://tunes.nhcountrydance.com>.
+K:Bb 
+"Bb"B,2DF BFDF | "Eb"E2GB eBGB   | "F7"F2Ac fcAc   |"Bb"BdcA BGFD| 
+"Bb"B,2DF BFDF | "Eb"E2GB eBGB   | "F7"F2Ac fcAc   |"Bb"BdcA B4:| 
+"Bb"B2df b2fb  | "Eb"a2g2 g^f g2 | "F7"A2 cf a2 fa | "Bb"g2f2f=ef2|
+"Bb"B2df b2fb  | "Eb"a2g2 g^f g2 | "F7"f2 fg afcA  | "Bb"BdcA B4 :|
+
+X:1258
+T:Louis Cyr
+M:2/4
+L:1/16
+C:Jean-Claude Mirandette
+S:Jean Marie Verret and Guy Bouchard
+Z:<http://tunes.nhcountrydance.com>.
+K:G
+|: G,2G,B, D2B,D | EDEF G2GA | BAGB AGED | EDEF (3(EFE)DB, |
+   G,2G,B, D2B,D | EDEF G2GA | BAGB AGED |1 EGFA G2DB,    :|2EGFA G2GA |]
+|: BAGB A2GA    | BAGB A2AB | cBAc B2AB | cABG A2GA |
+   BAGB A2GA    | BAGB AGED | E z [eB][eB] [eB] z [FA,][FA,] |1 [FA,]z [EB,][EB,] [EB,] z GA:|2 [FA,]z [EB,][EB,] [EB,] z D |]
+
+X: 1548
+T:Old French
+M:C|
+L:1/8
+R:reel
+Z:<http://tunes.nhcountrydance.com>.
+K:D
+|:((3ABc)|\
+"D" d2cd BdAF | "D" DFAd f2ed | "A7" cdef gece | "D" defd A2  ((3ABc) |
+"D" d2cd BdAF | "D" DFAd f2ed | "A7" cdef gece | "D" d2 f2 d2 :|
+|:cd|\
+"A" efed c2A2 | "A" AEAc e2dc | "G"  BGBd gfed | "A" cA ce a2 cd |
+"A" efed c2A2 | "A" AEAc e2dc | "G"  BGBd gfed | "A" c2 A2 A2 :|
+
+X:2068
+T:Trumpet Reel
+S:George Wilson
+L:1/16
+M:2/4
+R:reel
+Z:<http://tunes.nhcountrydance.com>.
+K:Eb
+CD\
+|: "Eb" E2E/2E/2E E2E/2E/2E | GEGB eBGE | "Bb" B,2B,/2B,/2B, B,2B,2 | DB,DF BFDF |
+|  "Eb" E2E/2E/2E E2E/2E/2E | GEGB eBGE | "Bb" Fgfe "F" dcB=A   |1 "Bb" B2B=A B_AGF :|2 "Bb" B2dc B2B2 |]
+|: "Eb" (=AB)BB DBBB | "Ab" cded cBAG | "Fm" ABcB AGFE | "Bb" DEFE DB,CD |
+| "Eb" E2(DE) "Eb/Db" CEB,E | "Eb/C" E2(DE) "Eb//Cb" CEB,E | "Bb" EcBA GFED |1 "Eb" (F2E2) E2BB :|2 "Eb" (F2E2) E2 |]
+
+X: 2332
+T:Whalen's Breakdown
+M:2/4
+L:1/16
+C:Don Messer
+R:Breakdown
+Z:abc by Chris Falt, modified by Peter Yarensky
+Z:<http://tunes.nhcountrydance.com>.
+K:C
+e>f| "C"g2^f2 a2g2 | gage c2dc | "G7"B2G2 A2B2 | "C"cBcd e2ef |
+     "C"g2^f2 a2g2 | gage c2dc | "G7"B2G2 A2B2 | "C"c4-c2 :|
+|: GF | "C"E2C2 D2E2 | "F"FEFG A2dc | "G7"B2G2 A2B2 | "C"cBcd e2GF |
+        "C"E2C2 D2E2 | "F"FEFG A2dc | "G7"B2G2 A2B2 | "C"c4-c2 :|]
+Photo by Evelyn Roberts, 4/06, used with her permission.

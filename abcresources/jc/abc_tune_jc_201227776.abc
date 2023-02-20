@@ -1,0 +1,23 @@
+X: 10981
+T: le PETIT TAMBOUR
+Q: "May be played as a Quadrille."
+%R: march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.98 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain has only an initial repeat; the 2nd & 3rd strains have only final repeats; fixed.
+N: (Perhaps a repeat pattern like 121213131 was intended, but there are no clues, and the rhythms of repeats don't add up.)
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+ed !segno!|:\
+c2G2E2G2 | c6 Bc | d2d2d2d2 | d6 cd |\
+e2e2e2e2 | egfe dfed | cedc BcdB | c6 H:|
+|: cB |\
+A2A2B2c2 | d3cB2 cB | A2A2B2c2 | d6 cB |\
+A2A2B2c2 | d2dd c2cc | B2BB A2AA | G4 efed !segno!:|
+|: G2 |\
+c2cc c2c2 | c6 G2 | c2G2E2C2 | G4 z2G2 |\
+c2cc c2c2 | c4 z2e2 | edcB dcBA | G4 efed !segno!:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

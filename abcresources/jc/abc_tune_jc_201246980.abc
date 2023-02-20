@@ -1,0 +1,31 @@
+X:1
+T:Andy's Lullaby
+M:C|
+L:1/8
+Q:80
+C:
+S:Slow Air
+K:HP
+e |: \
+{g}c3/4d/4e3/4{ag}a/4-ae | \
+{g}d3/4c/4B3/4{g}c/4-ce | \
+{g}d3/4c/4B3/4{g}c/4-c/2B/2A |
+{g}B2{GdG}e{A}e | \
+{g}c3/4d/4e3/4{ag}a/4-ae | \
+{g}d3/4c/4B3/4{g}c/4-ce |
+{g}d3/4A/4d3/4{g}c/4-c{e}B | \
+{G}A2{GAG}A :: \
+a |
+{g}a3/2f/2-fd | \
+{ag}a3/2e/2-ec | \
+{ag}a3/2d/2-dB |
+{g}c3/4B/4c3/4d/4{g}ea|1
+{g}a3/2f/2-fd | \
+{ag}a3/2e/2-ec |
+{g}d3/4A/4d3/4{g}c/4-c{e}B | \
+{G}A2{GAG}A:|2
+M:6/8 {g}a2f{Gdc}d2a |
+{g}a2e{gcd}c3 | \
+M:C| e2-e2 | \
+d/2A/2d/2{g}c/2-c{e}B |
+{G}A2{GAG}A|]

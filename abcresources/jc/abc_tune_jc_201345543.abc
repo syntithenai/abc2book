@@ -1,0 +1,33 @@
+X:5
+T:Ton double gavotte
+%T:TD1
+C:Padrig Sicard
+D:Portland
+Q:C3=156
+P:G2H8I4
+M:12/8
+K:Em
+%%text Introduction
+P:G
+%%MIDI gchordoff
+%%MIDI program 36
+%%MIDI transpose -36
+E3 E3 E2 e E3 | E3 E3 E3 z3 ||\
+%%MIDI transpose 0
+P:H
+%%MIDI gchordon
+%%MIDI gchord fzzczzfzcfzz
+%%MIDI chordprog 105
+%%MIDI chordvol 40
+%%MIDI bassprog 36
+%%MIDI program 73
+	"Em"E3-E2 E "D"D3-D2 D | "G"G3-G2 G "A"A3-A2 "Bm"B ||
+%%text La fl\^ute d\'emarre au 3\`eme H
+P:I
+|: "Em"E3 "D"F2 G A3/2B3/2 "G"G3/2B3/2 |\
+	 "D"A3/2F3/2 "Bm"A3/2G3/2 "C"E3 "Em"E3 :|
+|: "Em"B2 c B3/2"D"A3/2 G3/2A3/2 "G"B3 |\
+	B2 A/2G/2 "D"F3/2G3/2 "Am"A3/2B3/2 "C"G3/2B3/2 |\
+	"Em"E3 "D"F2 G A3/2B3/2 "G"G3/2B3/2 |\
+	"D"A3/2F3/2 "Bm"A3/2G3/2 "C"E3 "Em"E3 :|
+%%text mont\'ee de la basse sur la fois 3 et la 4

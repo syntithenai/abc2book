@@ -1,0 +1,19 @@
+X: 62
+T: Fair Haired Girl
+R: air
+%S: s:3 b:16(5+5+6)
+B: O'Neill's 1850 #62
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+Q: "Very slow"
+O: J.O'Neill
+M: 3/4
+L: 1/16
+K: G
+(d2 .g2.g2) \
+| (g>ab)(a/g/) (g2fe) d2B2 | c4 .B2(Bc) .d2(cB) \
+| (B2G2) (TA3G) (.G2.G2) | G6 (d2 .g2.g2) | (g>ab)(a/g/) (g2fe) d2B2 |
+| c4 .B2(Bc) (dg)(dc) | (B3G) (TA3G) (.G2.G2) | G6 |]| G2 (GABc) \
+| .d(e/f/).g.a b2(c'b) a2f2 | (g3a b2)(ag) f2d2 |
+| e3d e2({fe}de) (.d2.d2) | d6 (d2e3f) \
+| (g>ab)(a/g/) (g2fe) d2B2 | (c4 B)c(Bc dg)(dc) \
+| (B2G2) (TA3G) (.G2.G2) | G6 |]

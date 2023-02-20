@@ -1,0 +1,35 @@
+%%font Helvetica-Narrow-Bold
+%%topspace -.75cm
+%%textfont       Times-Bold 13.0
+%%textfont       Times-Roman 7.0
+%%scale .76
+%%stretchlast 0
+%%stretchstaff 0
+X: 1
+T: Kilimarsko (Paidusko)
+T:
+T: Order ABAB CDCD EFGG ABCD
+M: 5/8
+K: G
+|:c"^A"d de2|ed c2B|c2 B2A|B2B3|cd de2|ed c2B|c2 B2A|A2A3:|
+|:F"^B"G A2G|AB c2B|cd cBA|B2B3|FG A2G|AB c2B|cd cBA|A2A3:|
+|:G2"^C"A3|(B2B2) G|AB c2E|cB A2G|(B2B2) A|G2A3|(B2B2) G|Bd c2E|cB A2G|(A2A3):|
+|:c"D"dddc|cdcBG|A2 GAB|c2c3|cdddc|cdcBG|A2 GAA|A2A3:|
+K: A mix
+|:d"^E Gaida"G d2c|cG c2B|BG B2A|AE ABc|dG d2c|cG c2B|BG B2A|AE A2A:|
+K: G
+|:=cG B2A|c2d A2A|cG B2A|_BG A2A|cG B2A|c2d A2A|cG B2A|_BG A2A:|
+K: A
+|:G"G Gadulka"A B2A|dA cEE|GA B2A|=cA BEE|GA B2A|dA cEE|GA B2A|=cA BEE:|
+|:dA c2A|BAABc|de c2A|BA eAA|dA c2A|BAABc|de c2A|BAAEA:|
+|:ed c2A|BAABc|de c2A|BA eAA|ed c2A|BAABc|de c2A|BAAEA:|
+K: A mix
+|:e"^GKaval"A d2e|cecBA|ABAGA|GAFEA|ABede|cecBA|AB G2A|(F2F3):|
+|:ABGAA|AB E2A|AB G2A|FAFEA|ABGAA|AB E2A|AB G2A|(F2F3):|
+
+
+
+
+
+
+

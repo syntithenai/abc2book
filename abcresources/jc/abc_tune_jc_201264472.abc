@@ -1,0 +1,83 @@
+X: 0
+T: Corelli's Maggot
+C: dance: Cathy & John Miller
+C: music: Arcangelo Corelli
+O: Barnes v.1 p.23 K:F
+%Q: 1/4=100
+R: reel
+K:
+
+
+X: 1
+P: Corelli's Maggot  [F]
+O: tune: Arcangelo Corelli ca.1700
+N: Based on the 4th movement (Gavotte) of Arcangelo Corelli's Violin Sonata in F, op.5 no.10, ca.1700.
+Z: 2002 John Chambers <jc:trillian.mit.edu>
+%Q: 1/4=100
+M: 2/4
+L: 1/16
+K: F
+c2 |\
+"F"f2c2 f2c2 | "C"g6 c2 | "F"a2fg a2gf | "C"g6 g2 |\
+"F"a2fg a2gf | "C"g2ag agfe | "F"f2c'2 "G"d2=b2 | "C"c'6 :|
+|: c2 |\
+"F"f2fg agfe | "Bb"d2B2 B2d2 | "Gm"g2ga bagf | "C"e2c2 c2g2 "I"|\
+"F"c'2f2 "C"b2ag | "F"a2c2 f2A2 | "Bb"Bagf "C"e3f | "F"f6 :|
+%%sep 1 1 400
+
+
+X: 2
+P: Corelli's Maggot  [C]
+O: tune: Arcangelo Corelli ca.1700
+N: Based on the 4th movement (Gavotte) of Arcangelo Corelli's Violin Sonata in F, op.5 no.10, ca.1700.
+Z: 2002 John Chambers <jc:trillian.mit.edu>
+%Q: 1/4=100
+M: 2/4
+L: 1/16
+K: C
+G2 |\
+"C"c2G2 c2G2 | "G"d6 G2 | "C"e2cd e2dc | "G"d6 d2 |\
+"C"e2cd e2dc | "G"d2ed edcB | "C"c2g2 "D"A2^f2 | "G"g6 :|
+|: G2 |\
+"C"c2cd edcB | "F"A2F2 F2A2 | "Dm"d2de fedc | "G"B2G2 G2d2 "I"|\
+"C"g2c2 "G"f2ed | "C"e2G2 c2E2 | "F"Fedc "G"B3c | "C"c6 :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+
+X: 3
+P: Corelli's Maggot  [G]
+O: tune: Arcangelo Corelli ca.1700
+N: Based on the 4th movement (Gavotte) of Arcangelo Corelli's Violin Sonata in F, op.5 no.10, ca.1700.
+Z: 2002 John Chambers <jc:trillian.mit.edu>
+%Q: 1/4=100
+M: 2/4
+L: 1/16
+K: G
+D2 |\
+"G"G2D2 G2D2 | "D"A6 D2 | "G"B2GA B2AG | "D"A6 A2 |\
+"G"B2GA B2AG | "D"A2BA BAGF | "G"G2d2 "A"E2^c2 | "D"d6 :|
+|: D2 |\
+"G"G2GA BAGF | "C"E2C2 C2E2 | "Am"A2AB cBAG | "D"F2D2 D2A2 "I"|\
+"G"d2G2 "D"c2BA | "G"B2D2 G2B,2 | "C"CBAG "D"F3G | "G"G6 :|
+%%sep 1 1 400
+
+
+X: 4
+P: Corelli's Maggot  [D]
+O: tune: Arcangelo Corelli ca.1700
+N: Based on the 4th movement (Gavotte) of Arcangelo Corelli's Violin Sonata in F, op.5 no.10, ca.1700.
+Z: 2002 John Chambers <jc:trillian.mit.edu>
+%Q: 1/4=100
+M: 2/4
+L: 1/16
+K: D
+A2 |\
+"D"d2A2 d2A2 | "A"e6 A2 | "D"f2de f2ed | "A"e6 e2 |\
+"D"f2de f2ed | "A"e2fe fedc | "D"d2a2 "E"B2^g2 | "A"a6 :|
+|: A2 |\
+"D"d2de fedc | "G"B2G2 G2B2 | "Em"e2ef gfed | "A"c2A2 A2e2 "I"|\
+"D"a2d2 "A"g2fe | "D"f2A2 d2F2 | "G"Gfed "A"c3d | "D"d6 :|
+

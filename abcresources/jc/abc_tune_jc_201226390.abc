@@ -1,0 +1,20 @@
+X: 10241
+T: Lancers Part 1 (Jig)
+B: K\"ohler's Violin Repository, v.1, 1885 p.24 #1
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+ucdc |\
+(.a2.a) (.g2.g) | f3 cdc | (.b2.b) (.a2.a) | g3 cdc |\
+(.a2.a) (.g2.g) | f3 cdc | (d2g) ce | f3 ||
+uCDC |\
+(.E2.E) (.F2.F) | (^F2G) CDC | B,CB, A,B,A, | G,3 cdc |\
+(.a2.a) (.g2.g) | (.f2.f) fed | (c2A) (B2G) | F3 ||
+uABA |\
+(.d2.d) (.f2.f) | e3 ABA | (.d2.d) (.f2.f) | e3 ABA |\
+(.f2.f) (.e2.e) | (.d2.d) (._e2.e) | (.d2.d) (.^c2.c) | d3 ||
+uABA |\
+(.^c2.c) (d2.d) | (^d2e) ABA | GAG FGF | E3 ABA |\
+(.f2.f) (.e2.e) | (.d2.d) (._e2.e) | (.d2.d) (.^c2.c) | d3 "_D.C."|]

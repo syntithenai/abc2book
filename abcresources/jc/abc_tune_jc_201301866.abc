@@ -1,0 +1,116 @@
+
+X: 1
+T: Let's shak her Weall    [G]
+P: Longways for as many as will
+N: A variant of "The Wood of Fyvie"
+O: Walsh, 1740s
+%R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.26
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+N: Fixed incorrect length of V:2's final low Gs in both parts.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%V: 1
+g |\
+"G"dG BG "Am"AB "(D7)"ce | "G"dG BG dG BG "I"|\
+"G"dG BG "Am"AB "(D7)"ce | "G"dB "C"ge "D7"d2 "G"G :|
+|: e/f/ |\
+"G"g/f/e/d/ B/c/d/B/ "Am"AB"(D7)"ce | "G"g/f/e/d/ B/c/d/B/ g/f/e/d/ B/c/d/B/ |\
+"C"cg "G"Bg "D"AB "C"ce | "G"dB "C"ge "D7"d2 "G"G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | g2G2 A2a2 | g2G2 g2G2 | g2G2 A2a2 | g2c2 d2G :|
+|: z | g2G2 A2a2 | g2G2 g2G2 | a2g2 d2c2 | B2c2 d2G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man turn his Partner half round and foot it.  then hold both hands and pull
+%% round the 2d Wo. into the 2d Cu Place. the 2d Cu do the same .| The 1st and 2d Cu.
+%% take their Partners by both hands.  then one slip up and the other down. and back
+%% again, then fall back and turn S.  the 2d Cu slip up the middle, and the 1st Cu.
+%% down. the 1st Cu slip up the middle, and the 2d Cu. down. then the 1st Cu cast off into
+%% the 2d Cu. Place, and the 2d Cu. lead up.
+%%endtext
+
+%%sep 1 1 500
+
+X: 1
+T: Let's shak her Weall    (C)
+P: Longways for as many as will
+N: A variant of "The Wood of Fyvie"
+O: Walsh, 1740s
+%R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.26
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+N: Fixed incorrect length of V:2's final low Gs in both parts.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%V: 1
+c |\
+"C"GC EC "Dm"DE "(G7)"FA | "C"GC EC GC EC "I"|\
+"C"GC EC "Dm"DE "(G7)"FA | "C"GE "F"cA "G7"G2 "C"C :|
+|: A/B/ |\
+"C"c/B/A/G/ E/F/G/E/ "Dm"DE"(G7)"FA | "C"c/B/A/G/ E/F/G/E/ c/B/A/G/ E/F/G/E/ |\
+"F"Fc "C"Ec "G"DE "F"FA | "C"GE "F"cA "G7"G2 "C"C :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 1
+T: Let's shak her Weall    (A)
+P: Longways for as many as will
+N: A variant of "The Wood of Fyvie"
+O: Walsh, 1740s
+%R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.26
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+N: Fixed incorrect length of V:2's final low Gs in both parts.
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%V: 1
+a |\
+"A"eA cA "Bm"Bc "(E7)"df | "A"eA cA eA cA "I"|\
+"A"eA cA "Bm"Bc "(E7)"df | "A"ec "D"af "E7"e2 "A"A :|
+|: f/g/ |\
+"A"a/g/f/e/ c/d/e/c/ "Bm"Bc"(E7)"df | "A"a/g/f/e/ c/d/e/c/ a/g/f/e/ c/d/e/c/ |\
+"D"da "A"ca "E"Bc "D"df | "A"ec "D"af "E7"e2 "A"A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 1
+T: Let's shak her Weall    (D)
+P: Longways for as many as will
+N: A variant of "The Wood of Fyvie"
+O: Walsh, 1740s
+%R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.26
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+N: Fixed incorrect length of V:2's final low Gs in both parts.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%V: 1
+d |\
+"D"AD FD "Em"EF "(A7)"GB | "D"AD FD AD FD "I"|\
+"D"AD FD "Em"EF "(A7)"GB | "D"AF "G"dB "A7"A2 "D"D :|
+|: B/c/ |\
+"D"d/c/B/A/ F/G/A/F/ "Em"EF"(A7)"GB | "D"d/c/B/A/ F/G/A/F/ d/c/B/A/ F/G/A/F/ |\
+"G"Gd "D"Fd "A"EF "G"GB | "D"AF "G"dB "A7"A2 "D"D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

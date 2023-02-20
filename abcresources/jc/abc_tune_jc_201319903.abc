@@ -1,0 +1,15 @@
+X: 1
+T: the Old Year Now Away Is Fled   [Dm]
+T: tune:  Greensleeves
+O: Francis Coles "New Christmas Carols" London 1642
+R: air, jig
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dm
+"^Verse"[|]\
+d | "Dm"f2g (a>b)a | "C"g2e (c>de) | "Dm"f2d (d>^c)d | "A"e2^c A2 ||\
+d | "Dm"f2g (a>b)a | "C"g2e (c>de) | "Dm"(f>e)d "A"(^c>=B)c | "Dm"d3 d2 |]
+"^Chorus"[|]\
+c' | "F"c'2c' (c'>b)a | "C"g3e (c>d)e | "Dm"f2d (d>^c)d | "A"e2^c A2 ||\
+c' | "F"c'2c' (c'>b)a | "C"g3e (c>d)e | "Bb"(f>e)d "A"(^c>=B)c | "Dm"d3 d2 |]

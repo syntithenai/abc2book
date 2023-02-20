@@ -1,0 +1,25 @@
+X: 370
+T: Opsaj Diri
+S: Deborah Jones, VIFD Book 1
+O: Croatia
+F: http://www.youtube.com/watch?v=cx5NwnE03q4
+F: http://www.youtube.com/watch?v=MmPLM3HtBGw
+M: 2/4
+L: 1/8
+Q: 1/4=100
+K: Edor
+%%MIDI program 25
+%%MIDI bassprog 36
+    "D" [A,D][DF] [DFA][DFA]                      |"A7" [EG][E/G/][F/A/] "D" [D2F2]              |\
+    "D" [A,D][DF] [DFA][DFA]                      |"A7" [EG][E/G/][F/A/] "D" [D2F2]              |
+    [A,D][DF] [DFA][DFA]                          |"A7" [E/G/][F/A/][E/G/][D/F/] [C3/2G3/2][D/F/]|\
+    [E3/2G3/2][D/F/] "E7" [CE][B,F]               |"A" [A,CE][A,CE] [A,CE] z                     |
+|:  "D" [A,D][DF] [DFA][DFA]                      |"A7" [EG][E/G/][F/A/] "D" [D2F2]              |\
+    [A,D][DF] [DFA][DFA]                          |"A7" [EG][E/G/][F/A/] "D" [D2F2]              |\
+    [A,D][DF] [DFA][DFA]                          |"A7"[A,EG][A,DF] [A2C2E2]                     |
+    [A,3/2E3/2G3/2][A,/D/F/] "E7"[^G,CE][G,CE]    |"A"[A,CE][A,CE] [A,CE]z                       :|
+K: Em
+|:  [DG][GB] [GBd][GBd]                           |"D7"[Ac][A/c/][B/d/] "G" [G2B2]               |\
+    [DG][GB] [GBd][GBd]                           |"D7"[A/c/][G/B/][A/c/][B/d/] "G" [G2B2]        |
+    [DG][GB] [GBd][GBd]                           |"D7"[A/c/][B/d/][A/c/][G/B/] [F3/2A3/2][G/B/] |\
+    [A3/2c3/2][G/B/] "A7" [F/A/][G/B/][F/A/][E/G/]|"D" [DFA][DFA] [DFA] z                        :|

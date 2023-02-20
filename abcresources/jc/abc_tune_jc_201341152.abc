@@ -1,0 +1,28 @@
+X: 1
+T: the Stone Frigate
+C: Pipe Major Donald M Carrigan 1983
+N: The composer's name is often spelled "Kerrigan"
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS labelled "Arr. by B.McOwen & G.Aucoin & M.Lepley, March 2013"
+S: Concord Slow Scottish Session collection
+D: Alasdair Gillies CD
+M: C|
+L: 1/8
+K: D
+"A"[|]\
+B |\
+"D"AddA d2Ad | "D7"AddG "G"B2dB |\
+"D"AddA "Bm"dABd | "Em"feef "A7"e2dB |\
+"D"AddA d2Ad | "D7"AddG "G"B2dB |
+"D"AddA "Em"Beed | "A7"caac "D"d3 "B1":|\
+g |\
+"D"faaf a2fa | "D7"aAdG "G"B2dB |\
+"D"AddA "Bm"dABd | "Em"feef "A7"e2fg |
+"D"faaf a2fa | "D7"aAdG "G"B2dB |\
+"D"AddA "Em"Beed | "A7"caac "D"d3 "B2"|]\
+g |\
+"D"faaf a2fa | "D7"aAdG "G"B2dB |
+"D"AddA "Bm"dABd | "Em"feef "A7"e2dB |\
+"D"AddA d2Ad | "D7"AddG "G"B2dB |\
+"D"AddA "Em"Beed | "A7"caac "D"d3 |]

@@ -1,0 +1,26 @@
+X:1
+T:The Gap of Dunloe  "(County Cork)"
+M:C|
+L:1/8
+Q:80
+C:T. Crowley
+S:March
+K:HP
+|: e | \
+{gAGAG}A{ag}a{ef}e3/2d/2 | \
+{gcd}c3/4B/4{g}c/4A3/4{gef}ed/2B/2 | \
+{gGd}G{gf}g{Gdc}d3/2c/2 |
+{gBd}B3/4A/4{g}B/4{d}G3/4{Gdc}d{g}e/2c/2 | \
+{gAGAG}A{ag}a{ef}e3/2d/2 | \
+{gcd}c3/4B/4{g}c/4A3/4{gef}ed/2B/2 |
+{g}B3/4c/4{g}d3/4B/4{g}e3/4c/4{g}d3/4G/4 | \
+{gBd}B{e}A{GAG}A :: \
+{g}((3e/2f/2g/2) |
+{ag}a3/2f/2{gef}e3/2d/2 | \
+{gcd}c3/4B/4{g}c/4A3/4{gef}ed/4B3/4 | \
+{gf}g3/2{e}A/2{Gdc}d3/2c/2 |
+{gBd}B3/4A/4{g}B/4{d}G3/4{Gdc}d{g}e | \
+{ag}a3/2f/2{gef}e3/2d/2 | \
+{gcd}c3/4B/4{g}c/4A3/4{gef}ed/4B3/4 |
+{g}B3/4c/4{g}d3/4B/4{g}e3/4c/4{g}d3/4G/4 | \
+{gBd}B{e}A{GAG}A :|

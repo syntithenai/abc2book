@@ -1,0 +1,31 @@
+X: 21362
+T: SALLY IN OUR ALLEY
+C: Henry Carey.
+Q: "Andante."
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.136 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Fixed missing 1/8 count in bar 13 in one of the two possible ways, to match similar later bars.
+N: The entire tune has only 31 bars.
+M: 3/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+AAd |\
+(d2 c)d ge | (d2 c)z d2 |\
+BA A3 G | Fdz AAd | (d2 c)d ge |\
+(d2 c)z d2 | BA (A2 G/F/G/E/) |\
+Dd z!f!A AF | A3 =c BG |\
+Bf g>f {f}e>d | ce z!p!A GF |
+(F2 E)f gf | (f2 e2) zf/g/ |\
+aB {d}c3 (B/A/) | Ad z |]\
+(a/g/) fg | (f2 e)(f/e/) de |\
+(d2 c2) z(d/c/) | BA A3 G |\
+Fd z(a/g/) fg | (f2 e)(f/e/) de |\
+(d2 c2) z(d/c/) | BA (A>B A)G |
+Fd z(f/g/ a)f | (ba g)f ge |\
+(ag f)e fd | (gf e2) d2 |\
+cA z!f!(a/g/) fg | (f2 e)(f/e/) de |\
+(d2 Hc2) zf/g/ | ad gf ed | Ad z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

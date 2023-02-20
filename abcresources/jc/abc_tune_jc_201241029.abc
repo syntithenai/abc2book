@@ -1,0 +1,17 @@
+X: 4207
+T: DEVIL IN DUBLIN
+R: Jig
+%R: jig
+B: James Kerr "Merry Melodies" v.4 p.23 #207
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+|:\
+{DEF}G2B d2B | e2c A3 | BdB GBG | FAF D3 |\
+{DEF}G2B d2B | e2c ABc | dBG DGF | G3- G2z :|
+|:\
+AGA FGA | BAB GAB | cBc ABc | dcd Bcd |\
+ede cde | def gfe | dBG DGF | G3- G2z :|

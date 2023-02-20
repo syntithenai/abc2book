@@ -1,0 +1,26 @@
+X: 82
+T: Hagvaot Hakchulot
+C: Dovi Zeltzer 1986
+O: Israel
+F: http://www.youtube.com/watch?v=yT1tPldHCoc
+F: http://www.youtube.com/watch?v=N5U1RAGUOIY
+F: http://www.youtube.com/watch?v=fs7VDw0_DbI
+M: 3/4
+L: 1/4
+K: CDor
+Q: 1/4=144
+%%MIDI program 67
+%%MIDI bassprog 32
+%%MIDI chordprog 24
+%%MIDI chordvol 60
+%%MIDI bassvol 70
+%%MIDI gchord fzgzgz
+"Cm"E3  |"F"F3      |"Dm"DEF  |"Gm"G3  |\
+"Cm"EFE |"Gm"G,A,=B,|"Cm"C3-  |C2 z    |
+"Eb"FG2 |"Cm"F/E/C2 |"Bb"B,EF |"Cm"EC2-|\
+C3      |"Bb"CDF    |"Cm"DC2  |CDF     |
+"Gm"DG2-|G3         |GBG      |FG2     |\
+GBG     |"Cm"F3-    |F3       |
+"Gm"GC2 |B,G,2      |"Cm"B,C2-|C3      |\
+E3      |"Dm"F3     |"Gm"DEF  |G3      |\
+"Cm"EFE |G,A,=B,    |C3-      |C3      |

@@ -1,0 +1,16 @@
+X: 898
+T: the Boys of Bluehill
+R: hornpipe
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #898
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0898/oneill-1001-0898-1.abc
+M: 2/4
+L: 1/16
+K: D
+"^A"[|]\
+  (FG) | BAFA D2(FA) | BABd e2(de) | faaf egfe | dfed B2 ||
+| (dB) | BAFA D2(FA) | BABd e2(de) | faaf egfe | d2dd d2 :|
+"^B"\
+|:(fg) | afdf a2(gf) | gfga b2(ag) | faaf egfe | dfed B2 ||
+| (dB) | BAFA D2(FA) | BABd e2(de) | faaf egfe | d2dd d2 :|

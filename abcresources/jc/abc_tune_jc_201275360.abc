@@ -1,0 +1,24 @@
+X:1
+T:Fencewalker
+M:9/8
+L:1/8
+Q:80
+C:Michael Grey
+S:March
+K:HP
+|: a | \
+{fg}f3/2e/2c{gcd}c3{gBd}B2{G}A | \
+{g}c/2e3/2f{gef}e3{gAGAG}A3 | \
+{g}f3/2g/2a{gef}e3{ag}a2A |
+{g}d/2f3/2a{ef}e3{A}e2a{fg}f3/2e/2c{gcd}c3{gBd}B2{G}A | \
+{g}c/2e3/2f{gef}e3{gAGAG}A3 | \
+{g}f/2a3/2f{gef}e3{gcd}c2a |
+B/2{d}c3/2{e}B{G}A3{GAG}A2 :: \
+e | \
+a3/2g/2a{fg}f3{ag}a2A | \
+a3/2f/2{e}f{gef}e3{gcd}c3 |
+{g}f3/2g/2a{fg}f3{ag}a2A | \
+{g}d/2f3/2a{ef}e3{A}e2aa3/2g/2a{fg}f3{ag}a2A | \
+a3/2f/2{e}f{gef}e3{gcd}c3 |
+{g}f/2a3/2f{gef}e3{gcd}c2a | \
+B/2{d}c3/2{e}B{G}A3|1 {GAG}A2 :|

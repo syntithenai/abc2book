@@ -1,0 +1,40 @@
+%%text RJ Set 006 Jigs
+
+
+X: 1
+T: Captain White
+C: James Kerr
+I: RJ J-34 D jig
+M: 6/8
+R: jig
+K: D
+A/F/ |\
+"D"DFA d2f | "Em"edc "G"B2d | "D"A2d "Bm"F2B | "G"AGF "A7"E2F |\
+"D"DFA d2f | "Em"edc "G"B2d | "D"A2d F2B | "A7"ABc "D"d2 :|
+f |\
+"A"e^de A2f | e^de "D"a2f | "A"efe "E7"dcB | "A"A2B c2f |\
+"A"e^de A2f | e^de a2f | "E7"efe dcB | "A"ABA "A7"GFE ||
+"D"D2f fef | d2A A2A | "D"A2f fef | "A7"g2e e2e |\
+"D"A2f fef | "Bm"d2A A2A | "G"Bcd "A"edc | "D"(d3 d2) |]
+
+
+X: 2
+T: Portland Fancy
+I: RJ J-42 A/D jig
+M: 6/8
+R: jig
+K: A
+|:\
+"A"E2A E2A | EAB c2c | "D"dcd "E"Bcd | "D"f2e "E"cAF |\
+"A"E2A E2A | EAB c2c | "D"dcd "E"EFG | "A"AcB [1 AGF :|2 Ace |]
+|:\
+"A"a2a gag | "D"fdf e2c | dcd "E"Bcd | "A"cde "E"f2e |\
+"A"a2a gag | "D"fdf e2c | dcd "E"EFG | "A"AcB [1 Ace :|2 "A7"AF=G |][K:=g]
+K: D
+|:\
+"D"ABc d2e | f2g a3 | "G"efg "A"Ade | "D"f2d "A"AFG |\
+"D"ABc d2e | f2g a3 | "A"efg ABc | "D"d2f d3 :|
+|:\
+"D"F2A F2A | FAd f3 | "A"ece gec | "D"dfe dAG |\
+"D"F2A F2A | FAd f3 | "A"ece gec | "D"d3 d3 :|
+

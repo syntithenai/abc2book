@@ -28,6 +28,10 @@ export default function Abc(props) {
       isPlayingRef.current = val
       setIsPlayingInner(val)
     }
+    var timer = new Date().getTime()
+    function logtime(a) {
+        console.log("LOGTIME",a,new Date().getTime() - timer)
+      }
     //const [isWaiting, setIsWaiting] = useState(false)
     const [seekTo, setSeekTo] = useState(false)
     const [forceSeekTo, setForceSeekTo] = useState(false)
@@ -155,7 +159,8 @@ export default function Abc(props) {
          restart()
        } else if (parseInt(props.repeat) === 0) {
          stopPlaying()
-         
+         if (gtimingCallbacks && gtimingCallbacks.current) gtimingCallbacks.current.setProgress(0)
+         if (gmidiBuffer && gmidiBuffer.current)  gmidiBuffer.current.seek(0)
          if (props.onEnded) props.onEnded()
          if (gtimingCallbacks && gtimingCallbacks.current) gtimingCallbacks.current.setProgress(0)
          if (gmidiBuffer && gmidiBuffer.current)  gmidiBuffer.current.seek(0)
@@ -178,6 +183,7 @@ export default function Abc(props) {
            incrementPlayCount()
          } else {
             stopPlaying()
+            setPlayCount(0)
             if (props.onEnded) props.onEnded()
             if (gtimingCallbacks && gtimingCallbacks.current) gtimingCallbacks.current.setProgress(0)
             if (gmidiBuffer && gmidiBuffer.current)  gmidiBuffer.current.seek(0)
@@ -314,7 +320,7 @@ export default function Abc(props) {
   
 
   function startPrimedTune() {
-    //console.log('start primed tune')
+    logtime('start primed tune',gtimingCallbacks.current,gmidiBuffer.current,getForceStop())
     var emergencyStop = getForceStop()
     if (!emergencyStop) {
       if (gtimingCallbacks && gtimingCallbacks.current && gmidiBuffer && gmidiBuffer.current) {
@@ -331,7 +337,7 @@ export default function Abc(props) {
             gmidiBuffer.current.start()
             gtimingCallbacks.current.start()
           } else {
-            //console.log('start',gvisualObj)
+            console.log('start',gvisualObj)
             if (gvisualObj && gvisualObj.current)
             var o = gvisualObj.current
             //console.log('RENDERED TUNE tempo',props.tempo,'pickup', o.getPickupLength(), 'beatlenght',o.getBeatLength(), 'beats per measure',o.getBeatsPerMeasure(), 'bar length',o.getBarLength(), 'bpm',o.getBpm(), 'mspermeasure',o.millisecondsPerMeasure(), o.getTotalBeats(), o.getTotalTime())
@@ -366,7 +372,7 @@ export default function Abc(props) {
             //console.log('metro beats','PICKUP LENGTH',o.getPickupLength(),'BEAT LENGTH',o.getBeatLength(), 'BEATS PER MEASURE',o.getBeatsPerMeasure(), 'MS PER MEASURE',o.millisecondsPerMeasure(), 'METRONOME BEATS',metronomeBeats, 'BEAT OVERFLOW',beatOverflow,'BEAT DURATION', beatDuration, 'DELAY',delay)
             
             function startWithMetronome() {
-              //console.log('start with metro')
+              console.log('start with metro')
                 if (props.metronomeCountIn) {
                   var warp =  props.warp > 0 ? props.warp : 1
                   metronome.current = new Metronome(props.tunebook.abcTools.cleanTempo(props.tempo * warp), o.getBeatsPerMeasure(), metronomeBeats , function() {
@@ -378,8 +384,10 @@ export default function Abc(props) {
                       gtimingCallbacks.current.start()
                     },delay)
                   });
+                  logtime('start metronome')
                   metronome.current.start()
                 } else {
+                    logtime('start NO metronome')
                     gmidiBuffer.current.start()
                     gtimingCallbacks.current.start()
                 }
@@ -388,7 +396,9 @@ export default function Abc(props) {
             //var tune = props.tunebook.abcTools.abc2json(props.abc)
             //console.log('speak',props.speakTitle,tune)
             // SPEAK THE TITLE ?
-            if (props.speakTitle && tune) {
+            var speakTitle = localStorage.getItem('bookstorage_announcesong') === "true" ? true : false
+             //console.log('speak',speakTitle)
+            if (speakTitle && tune) {
               //console.log('speak',tune)
               var toSpeak = tune.name
               if (tune.composer) toSpeak += " by " + tune.composer
@@ -493,6 +503,12 @@ export default function Abc(props) {
                options:{
                  soundFontUrl: a + '/midi-js-soundfonts/abcjs',
                  soundFontVolumeMultiplier: 1.6,
+                 //program: 21,
+                 chordsOff: true,
+                 //options: {
+                     //program: 21,
+                     //chordsOff: true
+                 //},
                  warp: getWarp(),
                  programOffsets: {
                     "bright_acoustic_piano": 40,
@@ -572,21 +588,38 @@ export default function Abc(props) {
             function primeAndResolve() {
                //logtime('preinit primresolve',force)
                 if (force) { 
-                  midiBuffer.init(initOptions).then(function (response) { 
+                  midiBuffer.init(initOptions).then(
+                  function (response) { 
                     //console.log('iniprime',initOptions)
                     //logtime('preinit pr inited')
-                    midiBuffer.prime()
+                    midiBuffer.prime(
+                        //function(a) {
+                            //console.log("CdB",a)
+                            //gtimingCallbacks.current = new abcjs.TimingCallbacks(visualObj, {
+                                //beatCallback: beatCallback,
+                                //eventCallback: function(ev) {eventCallback(ev)},
+                                //qpm: getWarpTempo(),
+                                ////lineEndCallback	: function() {
+                                  ////if (isPlayingRef && isPlayingRef.current) global.window.scrollBy(0,90)
+                                ////},
+                                ////lineEndAnticipation: 500
+                              //})
+                              //gcursor.current = createCursor()
+                              //gmidiBuffer.current = midiBuffer
+                              //startPrimedTune()
+                        //}
+                    )
                     .then(function(presponse) {
                       //logtime('preinit prime tune primed AAA')
                       //console.log('preinit prime tune primed', presponse, midiBuffer)
                       //if (props.setMidiData) props.setMidiData(abcjs.synth.getMidiFile(visualObj, { midiOutputType: 'binary', bpm: tune.tempo ? tune.tempo : 100 }))
                       if (tune && tune.id) { 
                         saveAudioToCache(getAudioHash(tune),midiBuffer.audioBuffers, midiBuffer.duration).then(function() {
-                          //console.log('created audio')
+                          //logtime('created audio')
                           resolveWithTimingAndCursor(midiBuffer)
                         })
                       } else {
-                        //console.log('audio from cache???')
+                        //logtime('audio from cache???')
                         resolveWithTimingAndCursor(midiBuffer)
                       }
                     })
@@ -603,10 +636,7 @@ export default function Abc(props) {
                 }
              }
 
-              var timer = new Date().getTime()
-              function logtime(a) {
-                console.log("LOGTIME",a,new Date().getTime() - timer)
-              }
+              
               if ((tune && tune.id)) {
                //logtime('preget audio')
                 getAudioFromCache(getAudioHash(tune)).then(function(audioResult) {

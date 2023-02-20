@@ -1,0 +1,21 @@
+X: 1
+T: Roy's Reel [ABCDD]
+C: Muriel Rimmer
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D2 \
+"A"\
+[|"G"G2DG BGFG | e2d2 d4 | d^cde d2B2 | "Am"B2c2 c4 \
+| "D7"F2DF AFDF | e2d2 d4 | d^cde d2^A2 | "G"^A2B2 B2D2 |]
+"B"\
+[|"G"G2DG BGFG | e2d2 d4 | d^cde d2G2 | "C"f2e2 e4 \
+| e^def "A/C#"e2^c2 | "G"d^cde "E7"d2B2 | "Am"cBcd "D7"B2A2 | "G"G4 "D7"D4 |]
+"C"\
+[| "G"B4 G3D | E2D2 D4 | GDGB d2B2 | "Am"B2c2 c4 \
+| "D7"c4 A3D | E2D2 D4 | "D7"EDEF G2A2 | "G"^A2B2 B4 |]
+"D"\
+|: "G"B4 G3D | E2D2 D4 | GDGB d2^d2 | "C"^d2e2 e4 \
+| e^def "A/C#"e2^c2 | "G"d^cde "E7"d2B2 | "Am"cBcd "D7"B2A2 | "G"G4 z2 :|

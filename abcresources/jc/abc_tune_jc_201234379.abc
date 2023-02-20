@@ -1,0 +1,19 @@
+X: 2046
+T: ROB AN LUGI
+C:
+Q: "Strathspey."
+R: Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.2 p.8 #46
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+%%slurgraces yes
+%%graceslurs yes
+K: A
+ue2 !segno!|:\
+AAA2 c4 ve3va uc3uA | AAA2 c4 d3=g B3=G |\
+AAA2 c4 e3ac3a | =g3ae3f =g3dB3=G :|
+|:\
+{g}va4 (e2fg) va3veuc3uA | {g}a4 (e3f) =g3dB3=G |\
+{g}a4 (e2fg) ae3f3ud | e3ac3a d2=g2B2=G2 :|

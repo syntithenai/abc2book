@@ -1,0 +1,31 @@
+X: 3042
+T: the Marriage Knot
+O: Very Old
+%R: air, strathspey
+B: Niel Gow & Sons "Complete Repository" v.3 p.4 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: V:1 has an odd G4 note in the next-to-last bar, between the 1st and 2nd beats.
+N: It's added to the e note here, perhaps to be held for some length.
+M: C
+L: 1/8
+Q: "Slowly"
+K: G
+% - - - - - - - - - -
+V: 1 staves=2 clef=treble
+[|\
+C>D TB,>A, (3B,CD G,2 | G2- GG/F/ (EA) AB/c/ |\
+!p!{Bc}d2 Tc>B (c/B/A/G/) (G/F/E/D/) | GA/B/ (B/A/G/F/) {F}G2 G,>B, ||
+C>D ED (3EFG B,2 | ED/C/ (C/B,/).A,/.G,/ T[A,2F,2] [A,F,]>B |\
+Tc>d ed (3efg B2 | (c/B/A/)G/ F/G/A/B/ {F}G2G,2 |]
+|:\
+=f2 {f}e(d//e//f/) ecc e/^g/ | !p!aeea/g/ {g}T^f2 de/f/ |\
+g>d (e/d/)(c/B/) ~g>d (e/d/)(c/B/) | (c/B/)(A/G/) (F/G/)(A/B/) G2 G,>B, ||
+CD TE>D (3EFG B,2 | ED/C/ (C/B,/)(A,/G,/) T[A,2F,2] [A,F,]>B |\
+~c>d [eG8]>d (3efg B2 | (c/B/).A/.G/ (F/G/)(A/B/) G2 G,2 :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+[e2E2] [f2F2] g2 G2 | B4 c2 d2 | !p!B2 e2 A2 dc | BG dD (G/B/d/g/) G>"^sf"=f || e>d cB c2 G2 | c2 e2 d2 D>=f' |
+e'>d' c'b c'2 g2 | c'2 d'd g2 G2 |]
+|: [c'2g4] c'd' [e'2c'2g2] [e'c'g]b | !p!a2 ^c'2 d'2 =c'2 | b2 g'2 (b2 e'2) |
+c'2 d'd g3 "^sf"=f || e>d c>B c2 G2 | c2 e2 d2 D>=f' | e'>d' c'>b c'2 g2 | c'2 d'd g2 G2 :|

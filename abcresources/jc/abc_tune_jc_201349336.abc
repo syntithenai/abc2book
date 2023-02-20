@@ -1,0 +1,36 @@
+X: 1
+T: Viksta-Lasses vals
+T: G\aas-Anders vals
+O: Sweden
+R: waltz
+D: Falu Spelmanslag (MC 1991)
+S: http://www.folkloretanznoten.de/Viksta-LassesA-DurVals_Gas-AndersVals.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+P: 2xAB+2xCB
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 staves=2
+E2 "A"|\
+"A"E2 AA A2 | "E7"BA GF E2 | "A"E2 cc c2 | Tc2 TB2 A2 |\
+"D"Ad d2 f2 | fA df af | "A"Tfe ^de Tfe | c4 :|
+A2 "B"|:\
+"D"Ad fd fd | AF Ad fd | "A"cc ec ec | AE Ac ec | "E7"cB BB B2 |\
+Bc de fg |1 "A"a2 aece | a2 ca ec :|
+[2 ae ce "E7"dB | "A"HA4 \
+|: "D"Tf2 "C"|\
+"A"e3 a ec | A2 E2 "D"Tf2 | "A"e3 a ec | A4 a2 |\
+{a}"A"c'2 c'2 c'2 | e4 e2 | ae ce ae |1 c4 :|2 c2 B2 A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+A,2 "A"|\
+C2 E2 E2 | GF ED C2 | C2 AA A2 | TA2 TG2 F2 |
+Ad d2 d2 | AA Bd fd | Tdc Bc Tdc | A4 :|
+E2 "B"|:\
+FB dB dB | FD FB dB | AA cA cA | EC EA cA | AG GG G2 |
+GA Bc de |1 e2 ec Ac | e2 Ae cA :|2 ec Ac BG | HE4
+|: d2 "C"|\
+c3 e cA | E2 C2 Td2 | c3 e cA | E4 c2 |
+{c}e2 e2 e2 | A4 A2 | ec Ac ec |1 A4 :|2 A2 G2 E2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

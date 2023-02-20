@@ -1,0 +1,1222 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 35
+B: RSCDS Book 35
+K:
+%%center Book35/3500-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3501
+T: Mrs Stewart's Jig
+P: Captain Charles Stewart's Jigg
+C:Malcolm MacDonald
+B:RSCDS 35-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Jig (8x32)
+M:6/8
+L:1/8
+K:G
+|:D|"G"G3 G2 c|B/c/de "C"g2 e|"G"dBG "Am"ABA|GEE "C"E2 "D7"D/E/|\
+  "G"G3 G2 c|B/c/de "C"g2 e|
+                            "G"dBG "D7"ABc|"G"BG"C"G "G"G2:|\
+d|"G"d^cd "C"e=ce|"Am"efg "C"g2 e|"G"dBG "D7"ABc|"G"BAG "C"EDE|
+  "G"d^cd "C"e=ce|"C"efg "A7"g2 e|"G"dBG "D7"ABc|"G"BGG G2 d|\
+  "G"d^cd "C"e=ce|"Am"efg "C"g2 e|
+                                  "G"dBG "D7"ABc|"G"BAG "C"EDE|\
+  "G"G3 G2 c|B/c/de "C"g2 e|"G"dBG "D7"ABc|"G"BG"C"G "G"G2|]
+%%center Book35/3501-Mrs_Stewarts_Jig-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3502
+T: Inverneill House
+P: MacLeod and MacKay
+C:J. Scott Skinner
+R:Reel (8x32)
+B:RSCDS 35-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:G
+|:dc|"G"BGFG DGFG|"Am"E^GAB c2ed|cA^GA "A7"EAGA|"D"FAd^c "D7"d=cBA|
+     "G"BGFG DGFG|"Am"E^GAB c2ed|"D7"cBAG FDEF|"G"AGDB, G,2:|
+|:dc|"G"Bgfg dBGB|"Am"ca^ga ec"D7"Ac|"G"Bgfg dBGB|"D"Fd^cd "D7"AFD=c|
+    |"G"Bgfg dBGB|"Am"ca^ga ec"D7"Ac|"G"BgdB "Am"AecA|"D7"FDEF "G"G2:|
+%%center Book35/3502-Inverneill_House-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3503
+T: Argyll Strathspey
+P: Mrs. Stewart's Strathspey
+C:Wm. Marshall
+R:Strathspey (8x32)
+B:RSCDS 35-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+|:"D"D<D F>D "Bm"d/c/B/A/ F2|"Em"BE EF "G"G>A B<d|\
+  "D"D<D F>A "Bm"d/c/B/A/ FD|"A7"Adce "D"dD df|
+  "D"D<D F>D "Bm"d/c/B/A/ F2|"Em"BE EF "G"G>A B<d|\
+  "D"D<D F>A "Bm"d/c/B/A/ FD|"A7"Adce "D"dD df||
+  "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2|"Em"e<E E>F G>A "(A)"Bc|\
+  "D"{c}d>A F>A d/e/f/g/ "A7"ag|"Bm"fd"A7"AG "D"FD"A7"FA|
+  "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2|"Em"e<E E>F G>A "A"Bc|\
+  "Bm"df"A"ec "G"dB"D"AF|"Em"GB"A7"Ac "D"dD D2|]
+%%center Book35/3503-Argyll_Strathspey-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3504
+T: Major Ian Stewart
+P: The Scottish Horse
+C:The Marchioness of Tullibardine
+B:RSCDS 35-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Jig (8x32)
+M:6/8
+L:1/8
+K:A
+A/B/|"A"c3 e>cA|"D"d>ef a2 f|"A"e>dc cAe|"E"B3 B2 A/B/|\
+     "A"c3 e>cA|"D"d>ef afd|
+                         "A"e>cA "E7"B2 e|"A"A3 A2:|\
+e|"A"a2 e A2 e|"D"d2 f a2 f|"A"e>dc cAe|"E"B3 B2 A/B/|
+     "A"c3 e>cA|"D"d>ef a2 f|"A"e>cA "E7"B2 e|"A"A3 A2 e|\
+  "A"a2 e A2 e|"D"d2 f a2 f|
+                      "A"e>dc "F#m"cAe|"Bm"[B3F3D3] "E"[B2G2E2] e/d/|\
+  "A"caA eaA|"D"faA dfA|"A"ceA "E7"B2 e|"A"A3 A2|]
+%%center Book35/3504-Major_Ian_Stewart-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3505
+T: The Gentleman
+P: The Ceilidh Umbrella
+C:Muriel A. Johnstone
+B:RSCDS 35-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Strathspey (8x32)
+M:C
+L:1/8
+K:Bb clef=treble
+%
+F|"Bb"D<F B>d "Cm"c>B "F7"c<d|"Bb"B>F DF B,D F,B,|\
+      "Eb"G,>B, E<G "Bb"F<D F>B|"D7"A<D d>c "Gm7"B2 (3Bcd|
+  "Cm"(3edc "Bb"d>B "Eb"c>B G<B|"Bb"F<D B<D "F"C>B, "D7"C<D|\
+      "Gm"B,2 B>A "Eb"G2 (3gfe|"F7"d<b d>c "Bb"B2||
+"Bb7"(3Bcd|"Cm"e2 c>e "F7"A<F f>e|"Bb"d>c (3Bcd "Eb"G<E e>d|\
+      "Ao"c>B (3ABc "D7"^F<D d>c|"Gm"(3BAG "Eb"(3gfe "F7"d>c A<F|
+  "Bb"D<F B>d "Cm"c>B "F7"c<d|"Bb"B>F DF "Bb7"B,D F,_A,|\
+      "Eb"G,>B, E<G "Bb"F<D "Eb"(3gfe|"F7"d<b d>c "Bb"B2|]
+%%center Book35/3505-Gentleman-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3507
+T: St. Andrews Gardens
+P: Miss Reay of Killingworth's Favourite Jig
+C:Abr. Mackintosh
+R:Jig (8x32)
+B:RSCDS 35-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+"G"g3 "D"f3|"G"g2b "D7"def|"Em"gfe "G"dcB|"Am"AB"A7"G "D"FED|\
+"G"g2g "D"f2f|"G"g2b "D7"def|
+                            "Em"gfe "D"agf|"Em"ed"A7"^c "D"d3||\
+|:"G"d3 "E7"b2d|"Am"{d}cBc "D7"a2c|"G"Bdg dcB|"Am"AB"A7"G "D7"FED|
+  "G"d2b "E7"dcB|"Am"c2a "D7"cBA|"G"Bdg "D7"agf|"G"g3 G3:|\
+  "G"gfg "Em"efg|"A7"abg "D"fed|
+                                "C"efg "G"dcB|"Am"AB"A7"G "D7"FED|\
+  "C"EFG "D7"FGA |"Em"GAB "D7"ABc|"G"d2b "D7"agf|"G"g3 G3|]
+%%center Book35/3507-St_Andrews_Gardens-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3508
+T: The Summer Assembly
+P: The Oddfellows
+C:J. Scott Skinner
+R:Reel (1x88)
+B:RSCDS 35-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:A
+|:ED|"A"CEA2 A2cA|"D"B2A2 "A"A2ED|CEAc "F#m"fecA|"Bm"c2B2 "E7"B2ED|
+     "A"CEA2 A2cA|"D"BAAF "A"E2A2|"D"F2EC "A"EFAE|"D"[F2D2][A2D2]"A"[A2C2]:|
+cd|"A"ecA2 "D"fdA2|"A"ecA2 a2cA|CEAc "F#m"fecA|"Bm"c2B2 "E7"B2 cd|
+   "A"ecA2 "D"fdA2|"A"ecA2 a2cA|CEAc "F#m"fecA|"E7"B2A2 "A"A2 cd|
+   "A"ecA2 "D"fdA2|"A"ecA2 a2cA|CEAc "F#m"fecA|"Bm"c2B2 "E7"B2 ED|
+   "A"CEA2 A2cA|"D"BAAF "A"E2A2|"D"F2EC "A"EFAE|"D"[F2D2][A2D2]"A"[A2C2]|]
+K:D
+|:B|"D"A2F2 {f}d3A|"G"B2d2 "D"A3F|"F#m"A2Bc "Bm"d2A2|"Em"B2"E7"e2 "A7"e3f|
+  "D"A2F2 {f}d3A|"G"B2d2 "D"A2d2|"Em"edcB "D"A2FA|"G"[B2G2][d2B2G2]"D"[d2A2F2]:|
+|:f2|"D"edcB A2FA|"G"B2d2 "D"A2f2|"Em"edcB "D"A2FA|"Em"B2"E7"e2 "A7"e2f2|
+     "D"edcB A2FA|"G"B2d2 "D"A2d2|"Em"edcB "D"A2FA|"G"[B2G2][d2B2G2]"D"[d2A2F2]:|
+%%center Book35/3508-Summer_Assembly-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 35011
+T: Captain Charles Stewart's Jig
+R:JIG
+C:Malcolm MacDonald
+S:8 X 32 JIG 1,2,3,4, 2,3,4,1
+B:RSCDS 35-1
+Z:1997 by John Chambers <jc@trillian.mit.edu>
+M:6/8
+L:1/8
+Q:116
+%--------------------
+K:G
+|: D \
+| "G"G3  G2c | "G" B/c/de "C" g2e | "G"dBG "Am"ABA | "C"GEE "D7"E2D/E|!
+| "G"G3  G2c | "G"B/c/de "C"g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 :|!
+|| d \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "G"BAG "C"EDE |!
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 ||!
+|| d \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "G"BAG "C"EDE |!
+| "G"G3  G2c | "G"B/c/de "C"g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 |]
+%%center Book35/35011-Captain_Charles_Stewarts_Jig.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 35011
+T: Captain Charles Stewart's Jigg
+C: Malcolm MacDonald
+R: jig
+B: RSCDS 35-1
+N: arr. 1997 by John Chambers
+N: mod. by T. Traub 10-2002
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+|: D \
+| "G"Gz2 "C"G2c | "G"B/c/de "C"g2e | "G"dBG "Am"ABA | "C"GEE "D7"E2D/E/ \
+| "G"Gz2 "C"G2c | "G"B/c/de "C"g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 :|
+d \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "G"BAG "C"EDE \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 |]
+d \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "G"BAG "C"EDE \
+| "G"Gz2 "C"G2c | "G"B/c/de "C"g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 |]
+%%center Book35/35011-Captain_Charles_Stewarts_Jigg-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 35011
+T: Captain Charles Stewart's Jigg
+C: Malcolm MacDonald
+R: jig
+B: RSCDS 35-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+D \
+| "G"Gz2 "C"G2c | "G"B/c/de "C"g2e | "G"dBG "Am"ABA | "C"GEE "D7"E2D/E/ \
+| "G"Gz2 "C"G2c | "G"B/c/de "C"g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 :|
+d \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "G"BAG "C"EDE \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 |]
+d \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "G"BAG "C"EDE \
+| "G"Gz2 "C"G2c | "G"B/c/de "C"g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 |]
+%%center Book35/35011-Captain_Charles_Stewarts_Jigg-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 35011
+N: Mrs. Stewart's Jig
+N: 8 x 32J 3C (RSCDS Book 35)
+T: Captain Charles Stewart's Jigg
+C: Malcolm MacDonald
+R: jig
+B: RSCDS 35-1
+C: arr. 1997 by John Chambers
+C: mod. by T. Traub 10-2002
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+|: D \
+| "G"Gz2 "C"G2c | "G"B/c/d e "C"g2e | "G"dBG "D"ABA | "C"GEE "D7"E2D/E/ \
+| "G"Gz2 "C"G2c | "G"B/c/d e "C"g2e | "G"dBG "D"ABc | "G"BGG G2 :|
+d \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "D"ABc | "G"BAG "C"EDE \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "D"ABc | "G"BGG G2 ||
+d \
+| "G"d^cd "C"e=ce | efg "D"g2e | "G"dBG "D"ABc | "G"BAG "C"EDE \
+| "G"Gz2 "C"G2c | "G"B/c/d e "C"g2e | "G"dBG "D"ABc | "G"BGG G2 |]
+%%center Book35/35011-Captain_Charles_Stewarts_Jigg.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 35011
+T: Mrs. Stewart's Jig
+T: 8 x 32J 3C (RSCDS Book 35)
+P: Captain Charles Stewart's Jigg
+C: Malcolm MacDonald
+R: jig
+B: RSCDS 35-1
+C: arr. 1997 by John Chambers
+C: mod. by T. Traub 10-2002
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+|: D \
+| "G"Gz2 "C"G2c | "G"B/c/d e "C"g2e | "G"dBG "D"ABA | "C"GEE "D7"E2D/E/ \
+| "G"Gz2 "C"G2c | "G"B/c/d e "C"g2e | "G"dBG "D"ABc | "G"BGG G2 :|
+d \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "D"ABc | "G"BAG "C"EDE \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "D"ABc | "G"BGG G2 ||
+d \
+| "G"d^cd "C"e=ce | efg "D"g2e | "G"dBG "D"ABc | "G"BAG "C"EDE \
+| "G"Gz2 "C"G2c | "G"B/c/d e "C"g2e | "G"dBG "D"ABc | "G"BGG G2 |]
+%%center Book35/35011-Mrs_Stewarts_Jig.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 35011
+T: Mrs. Stewart's Jig (8x32J)
+T: RSCDS Book 35
+P: Captain Charles Stewart's Jigg
+C: Malcolm MacDonald
+R: jig
+B: RSCDS 35-1
+C: arr. 1997 by John Chambers <jc@trillian.mit.edu>,
+C: mod. by T. Traub 10-2002
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+|: D \
+| "G"Gz2 "C"G2c | "G"B/c/de "C"g2e | "G"dBG "Am"ABA | "C"GEE "D7"E2D/E/ \
+| "G"Gz2 "C"G2c | "G"B/c/de "C"g2e | "G"dBG "D"ABc | "G"BGG G2 :|
+|| d \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "G"BAG "C"EDE \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 ||
+|| d \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "G"BAG "C"EDE \
+| "G"Gz2 "C"G2c | "G"B/c/de "C"g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 |]
+%%center Book35/35011-Mrs_Stewarts_Jig_8x32J.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 35021
+T: MacLeod and MacKay
+C: J. Scott Skinner
+R: reel
+B: RSCDS 35-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: G
+|: dc \
+| "G"BGFG DGFG | "Am"E^GAB c2ed | cA^GA "A7"EAGA | "D"FAd^c "D7"d=cBA |
+| "G"BGFG DGFG | "Am"E^GAB c2ed | "D7"cBAG FDEF | "G"AGDB, G,2 :|
+|: dc \
+| "G"Bgfg dBGB | "Am"ca^ga ec"D7"Ac | "G"Bgfg dBGB | "D"Fd^cd "D7"AFD=c |
+| "G"Bgfg dBGB | "Am"ca^ga ec"D7"Ac | "G"BgdB "Am"AecA | "D7"FDEF "G"G2 :|
+%%center Book35/35021-MacLeod_and_MacKay-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 35021
+T: MacLeod and MacKay
+C: J. Scott Skinner
+R: reel
+B: RSCDS 35-2
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: G
+|: dc \
+| "G"BGFG DGFG | "Am"E^GAB c2ed | cA^GA "A7"EAGA | "D"FAd^c "D7"d=cBA |
+| "G"BGFG DGFG | "Am"E^GAB c2ed | "D7"cBAG FDEF | "G"AGDB, G,2 :|
+|: dc \
+| "G"Bgfg dBGB | "Am"ca^ga ec"D7"Ac | "G"Bgfg dBGB | "D"Fd^cd "D7"AFD=c |
+| "G"Bgfg dBGB | "Am"ca^ga ec"D7"Ac | "G"BgdB "Am"AecA | "D7"FDEF "G"G2 :|
+%%center Book35/35021-MacLeod_and_MacKay.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 35031
+T: Mrs. Stewart's Strathspey
+T: Argyll Strathspey
+C: W.Marshall
+R: strathspey
+B: RSCDS 35-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: D
+|: "D"D<D F>D "Bm"d/c/B/A/ F2 | "Em"BE EF "G"G>A B<d \
+|  "D"D<D F>D "Bm"d/c/B/A/ FD |1 "D"Ad "A7"ce "D"dD DA :|2 "D"Ad "A7"ce "D"dD df ||
+|| "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2 | "Em"e<E E>F "(A)"G>A Bc \
+|  "D"{c}d>A F>A d/e/f/g/ "A7"ag | "Bm"fd "A7"AG "D"FD "A7"FA |
+|  "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2 | "Em"e<E E>F "(A)"G>A Bc \
+|  "Bm"df "A"ec "G"dB "D"AF | "Em"GB "A7"Ac "D"dD D2 |]
+%%center Book35/35031-Mrs_Stewarts_Strathspey-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 35031
+T: Mrs. Stewart's Strathspey
+T: Argyll Strathspey
+R:STRATHSPEY
+C:W.Marshall
+S:8 X 32  1,2,3,4,  2,3,4,1
+B:RSCDS 35-3
+Z:1997 by John Chambers <jc@trillian.mit.edu>
+M:C
+L:1/8
+Q:126
+%--------------------
+K:D
+|:A |  "D" D<DF>D d/c/B/A/ F2 | "Em" BEEF "A" G>A B<d | "D" D<D F>A d/c/B/A/ FD | "D" Ad"A"ce "D" dD D:|!
+F| "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2 | "Em"e<E E>F "A"G>A Bc \
+|  "D"{c}d>A F>A d/e/f/g/ "A7"ag | "D"fdAG FDFA |!
+|  "D"{c}d>A F>A d/c/B/A/ {c}d2 | "Em"e<E E>F "A"G>A Bc \
+|  "Bm"dfec dBAF | "G" GB"A"Ac "D"dD D2 |]
+%%center Book35/35031-Mrs_Stewarts_Strathspey-9.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 35031
+T: Mrs. Stewart's Strathspey (Argyll Strathspey)
+C: W.Marshall
+R: strathspey
+B: RSCDS 35-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: D
+|: "D"D<D F>D "Bm"d/c/B/A/ F2 | "Em"BE EF "G"G>A B<d \
+|  "D"D<D F>D "Bm"d/c/B/A/ FD |1 "D"Ad "A7"ce "D"dD DA :|2 "D"Ad "A7"ce "D"dD df ||
+|| "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2 | "Em"e<E E>F "(A)"G>A Bc \
+|  "D"{c}d>A F>A d/e/f/g/ "A7"ag | "Bm"fd "A7"AG "D"FD "A7"FA |
+|  "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2 | "Em"e<E E>F "(A)"G>A Bc \
+|  "Bm"df "A"ec "G"dB "D"AF | "Em"GB "A7"Ac "D"dD D2 |]
+%%center Book35/35031-Mrs_Stewarts_Strathspey_Argyll_Strathspey.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 35051
+T: The Ceilidh Umbrella
+C: Muriel A. Johnstone
+R: strathspey
+%%staffsep 50.0pt
+B: RSCDS 35-5
+M: C
+L: 1/8
+%--------------------
+K: Bb
+F2 \
+| "Bb"D<F B>d "Cm"c>B "F7"c<d \
+| "Bb"B>F DF B,D [FF,]B, \
+| "Eb"G,>B, E<G "Bb"F<D F>B \
+| "D7"A<D d>c "Gm"B2 ((3Bcd) |
+| "Cm"((3edc) "Bb"d>B "Eb"c>B G<B \
+| "Bb"F<D B<D "F"C>B, "D7"C<D \
+| "Gm"B,2 B>A "Eb"G2 ((3gfe) \
+| "F7"d<b d>c "Bb"B2 "Bb7"((3Bcd) ||
+|| "Cm"e2 c>e "F7"A<F f>e \
+| "Bb"d>c ((3Bcd) "Eb"G<E e>d \
+| "Am"c>B ((3ABc) "D7"^F<D d>c \
+| "Gm"((3BAG) "Cm"((3gfe) "F7"d>c A<F |
+| "Bb"D<F B>d "Cm"c>B "F7"c<d \
+| "Bb"B>F DF B,D [FF,]_A, \
+| "Eb"G,>B, E<G "Bb"F<D ((3gfe) \
+| "F7"d<b d>c "Bb"B2 |]
+%%center Book35/35051-Ceilidh_Umbrella-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 35051
+T: The Ceilidh Umbrella
+C: Muriel A. Johnstone
+R: strathspey
+%%staffsep 50.0pt
+B: RSCDS 35-5
+M: C
+L: 1/8
+%--------------------
+K: Bb
+F2 \
+| "Bb"D<F B>d "Cm"c>B "F7"c<d \
+| "Bb"B>F DF B,D F,B, \
+| "Eb"G,>B, E<G "Bb"F<D F>B \
+| "D7"A<D d>c "Gm"B2 ((3Bcd) |
+| "Cm"((3edc) "Bb"d>B "Eb"c>B G<B \
+| "Bb"F<D B<D "F"C>B, "D7"C<D \
+| "Gm"B,2 B>A "Eb"G2 ((3gfe) \
+| "F7"d<b d>c "Bb"B2 "Bb7"((3Bcd) ||
+|| "Cm"e2 c>e "F7"A<F f>e \
+| "Bb"d>c ((3Bcd) "Eb"G<E e>d \
+| "Adim"c>B ((3ABc) "D7"^F<D d>c \
+| "Gm"((3BAG) "Eb"((3gfe) "F7"d>c A<F |
+| "Bb"D<F B>d "Cm"c>B "F7"c<d \
+| "Bb"B>F DF B,D F,_A, \
+| "Eb"G,>B, E<G "Bb"F<D ((3gfe) \
+| "F7"d<b d>c "Bb"B2 |]
+%%center Book35/35051-Ceilidh_Umbrella-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 35051
+T: The Ceilidh Umbrella
+C: Muriel A. Johnstone
+R: strathspey
+%%staffsep 50.0pt
+B: RSCDS 35-5
+M: C
+L: 1/8
+%--------------------
+%--------------------
+K: Bb
+F2 \
+| "Bb"D<F B>d "Cm"c>B "F7"c<d \
+| "Bb"B>F DF B,D F,B, \
+| "Eb"G,>B, E<G "Bb"F<D F>B \
+| "D7"A<D d>c "Gm"B2 ((3Bcd) |
+| "Cm"((3edc) "Bb"d>B "Eb"c>B G<B \
+| "Bb"F<D B<D "F"C>B, "D7"C<D \
+| "Gm"B,2 B>A "Eb"G2 ((3gfe) \
+| "F7"d<b d>c "Bb"B2 "Bb7"((3Bcd) ||
+|| "Cm"e2 c>e "F7"A<F f>e \
+| "Bb"d>c ((3Bcd) "Eb"G<E e>d \
+| "Adim"c>B ((3ABc) "D7"^F<D d>c \
+| "Gm"((3BAG) "Eb"((3gfe) "F7"d>c A<F |
+| "Bb"D<F B>d "Cm"c>B "F7"c<d \
+| "Bb"B>F DF B,D F,_A, \
+| "Eb"G,>B, E<G "Bb"F<D ((3gfe) \
+| "F7"d<b d>c "Bb"B2 |]
+%%center Book35/35051-Ceilidh_Umbrella.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 35071
+T: Miss McPherson Grant of Ballindalloch
+T: The Nurseryman
+C: William Marshall
+R: jig
+B: RSCDS 35-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+E \
+| "A"E2A A2F | "E7"GAB Bcd | "A"c2E "F#m"AGA | "Bm"B3 "E7"E3 \
+| "A"E2e e2c | "Bm"dcd "E7"Bcd | "A"cde "D"fed | "A"cBA "E7"GFE |
+| "A"E2A A2F | "E7"GAB Bcd | "A"c2E "F#m"AGA | "Bm"B3 "E7"E3 \
+| "A"E2e e2c | "Bm"dcd "E7"Bcd | "A"cBA "E7"EFG | "A"A3- A2 ||
+|| E \
+| "A"C2E "A7"A2=G | "D"FEF D2F | "Bm"d2c "B7"BcA | "E"G3 E2E \
+| "D"FGA Bcd | "A"cde fga | "E"gfe "B7"Bc^d | "E"e3- e2z |
+| "D"f2D fed | "A"e2c ecA | "D"FGA "B7"BcA | "E"G3 E3 \
+| "D"F2d "A"E2c | "E7"D2B "A"C2e | cBA "E7"EFG | "A"A3- A2 |]
+%%center Book35/35071-Miss_McPherson_Grant_of_Ballindalloch-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 35071
+T: Miss McPherson Grant of Ballindalloch (the Nurseryman)
+C: William Marshall
+R: jig
+B: RSCDS 35-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+E \
+| "A"E2A A2F | "E7"GAB Bcd | "A"c2E "F#m"AGA | "Bm"B3 "E7"E3 \
+| "A"E2e e2c | "Bm"dcd "E7"Bcd | "A"cde "D"fed | "A"cBA "E7"GFE |
+| "A"E2A A2F | "E7"GAB Bcd | "A"c2E "F#m"AGA | "Bm"B3 "E7"E3 \
+| "A"E2e e2c | "Bm"dcd "E7"Bcd | "A"cBA "E7"EFG | "A"A3- A2 ||
+|| E \
+| "A"C2E "A7"A2=G | "D"FEF D2F | "Bm"d2c "B7"BcA | "E"G3 E2E \
+| "D"FGA Bcd | "A"cde fga | "E"gfe "B7"Bc^d | "E"e3- e2z |
+| "D"f2D fed | "A"e2c ecA | "D"FGA "B7"BcA | "E"G3 E3 \
+| "D"F2d "A"E2c | "E7"D2B "A"C2e | cBA "E7"EFG | "A"A3- A2 |]
+%%center Book35/35071-Miss_McPherson_Grant_of_Ballindalloch_the_Nurserym.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Summer Assembly (1st tune)
+T: The Oddfellows
+C: J.Scott Skinner
+N: Skinner published this with a "Trio" section that's transcribed as a second tune.
+R: reel
+B: RSCDS __-8(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+%--------------------
+K: A
+"E7"\
+ED | "A"CEA2    A2cA | "D"B2A2 "A"A2ED | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 ED |
+y4 | "A"CEA2    A2cA | "D"BAAF "A"E2A2 | "D"F2EC   "A"EFAE | "D"[F2D2][A2D2] "A"[A2C2] :|
+cd | "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 cd |
+y4 | "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "E7"B2A2 "A"A2 cd |
+y4 | "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 ED |
+y4 | "A"CEA2    A2cA | "D"BAAF "A"E2A2 | "D"F2EC   "A"EFAE | "D"[F2D2][A2D2] "A"[A2C2] |]
+%%center Book35/35081-Summer_Assembly_1st_tune-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Summer Assembly (1st tune)
+T: The Oddfellows
+C: J.Scott Skinner
+R: reel
+B: RSCDS __-8(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+%--------------------
+K: A
+"E7"\
+ED | "A"CEA2    A2cA | "D"B2A2 "A"A2ED | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 ED |
+y4 | "A"CEA2    A2cA | "D"BAAF "A"E2A2 | "D"F2EC   "A"EFAE | "D"[F2D2][A2D2] "A"[A2C2] :|
+cd | "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 cd |
+y4 | "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "E7"B2A2 "A"A2 cd |
+y4 | "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 ED |
+y4 | "A"CEA2    A2cA | "D"BAAF "A"E2A2 | "D"F2EC   "A"EFAE | "D"[F2D2][A2D2] "A"[A2C2] |]
+%%center Book35/35081-Summer_Assembly_1st_tune-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Summer Assembly (1st tune) (The Oddfellows)
+C: J.Scott Skinner
+N: Skinner published this with a "Trio" section that's transcribed as a second tune.
+R: reel
+B: RSCDS __-8(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+%--------------------
+K: A
+"E7"\
+ED | "A"CEA2    A2cA | "D"B2A2 "A"A2ED | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 ED |
+y4 | "A"CEA2    A2cA | "D"BAAF "A"E2A2 | "D"F2EC   "A"EFAE | "D"[F2D2][A2D2] "A"[A2C2] :|
+cd | "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 cd |
+y4 | "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "E7"B2A2 "A"A2 cd |
+y4 | "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 ED |
+y4 | "A"CEA2    A2cA | "D"BAAF "A"E2A2 | "D"F2EC   "A"EFAE | "D"[F2D2][A2D2] "A"[A2C2] |]
+%%center Book35/35081-Summer_Assembly_1st_tune_The_Oddfellows.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Summer Assembly (2nd tune)
+R: reel
+B: RSCDS __-8(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+%--------------------
+K: D
+|: "A7"B2 \
+ | "D"A2F2 d3A | "G"B2d2 "D"A3F | A2Bc "Bm"d2A2 | "E7"B2e2 "A7"e3f |
+y6 \
+ | "D"A2F2 d3A | "G"B2d2 "D"A2d2 | "G"edcB "D"A2FA | "G"[B2G2][d2G2] "D"[d2F2] :|
+|: f2 \
+ | "G"edcB "D"A2FA | "G"B2d2 "D"A2f2 "G"edcB "D"A2FA | "E7"B2e2 "A7"e2f2 |
+y6 \
+ | "D"edcB "D"A2FA | "G"B2d2 "D"A2d2 | "G"edcB "D"A2FA | "G"[B2G2][d2G2] "D"[d2F2] :|
+%%center Book35/35082-Summer_Assembly_2nd_tune-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Summer Assembly (2nd tune)
+T: The Oddfellows (Trio)
+C: J.Scott Skinner
+R: reel, hornpipe
+B: J Scott Skinner "The Logie Collection" p.117
+B: RSCDS __-8(II)
+N: This is the "Trio" section of "The Oddfellows", which Skinner published as a dotted hornpipe.
+N: Since both parts function as separate tunes, I've transcribed them separately here.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+%--------------------
+K: D
+|: "A7"B2 | "D"A2F2    d3A  | "G"B2d2 "D"A3F  |    A2Bc "Bm"d2A2 | "E7"B2e2       "A7"e3f     |
+y6        | "D"A2F2    d3A  | "G"B2d2 "D"A2d2 | "G"edcB  "D"A2FA | "G"[B2G2][d2G2] "D"[d2F2] :|
+|:     f2 | "G"edcB "D"A2FA | "G"B2d2 "D"A2f2 | "G"edcB  "D"A2FA | "E7"B2e2       "A7"e2f2    |
+y6        | "D"edcB "D"A2FA | "G"B2d2 "D"A2d2 | "G"edcB  "D"A2FA | "G"[B2G2][d2G2] "D"[d2F2] :|
+%%center Book35/35082-Summer_Assembly_2nd_tune.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Summer Assembly (2nd tune) (The Oddfellows (Trio))
+C: J.Scott Skinner
+R: reel, hornpipe
+B: J Scott Skinner "The Logie Collection" p.117
+B: RSCDS __-8(II)
+N: This is the "Trio" section of "The Oddfellows", which Skinner published as a dotted hornpipe.
+N: Since both parts function as separate tunes, I've transcribed them separately here.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+%--------------------
+K: D
+|: "A7"B2 | "D"A2F2    d3A  | "G"B2d2 "D"A3F  |    A2Bc "Bm"d2A2 | "E7"B2e2       "A7"e3f     |
+y6        | "D"A2F2    d3A  | "G"B2d2 "D"A2d2 | "G"edcB  "D"A2FA | "G"[B2G2][d2G2] "D"[d2F2] :|
+|:     f2 | "G"edcB "D"A2FA | "G"B2d2 "D"A2f2 | "G"edcB  "D"A2FA | "E7"B2e2       "A7"e2f2    |
+y6        | "D"edcB "D"A2FA | "G"B2d2 "D"A2d2 | "G"edcB  "D"A2FA | "G"[B2G2][d2G2] "D"[d2F2] :|
+%%center Book35/35082-Summer_Assembly_2nd_tune_The_Oddfellows_Trio.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Capt. Charles Stewart's Jig
+C: Malcolm MacDonald
+R: jig
+B: RSCDS 35-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"Gz2 "C"G2c | "G"B{c}de "C"g2e | "G"dBG "Am"ABA | "C"GEE "D7"E2D \
+| "G"Gz2 "C"G2c | "G"B{c}de "C"g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 :|
+d \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "G"BAG "C"EDE \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 |]
+d \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "G"BAG "C"EDE \
+| "G"Gz2 "C"G2c | "G"B{c}de "C"g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 |]
+%%center Book35/CaptCharlesStewartsJ-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Capt. Charles Stewart's Jig
+C: Malcolm MacDonald
+R: jig
+B: RSCDS 35-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"Gz2 "C"G2c | "G"B{c}de "C"g2e | "G"dBG "Am"ABA | "C"GEE "D7"E2D \
+| "G"Gz2 "C"G2c | "G"B{c}de "C"g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 :|
+d \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "G"BAG "C"EDE \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 |]
+d \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "G"BAG "C"EDE \
+| "G"Gz2 "C"G2c | "G"B{c}de "C"g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 |]
+%%center Book35/CaptCharlesStewartsJ_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Capt. Charles Stewart's Jig
+C: Malcolm MacDonald
+R: jig
+B: RSCDS 35-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"Gz2 "C"G2c | "G"B{c}de "C"g2e | "G"dBG "Am"ABA | "C"GEE "D7"E2D \
+| "G"Gz2 "C"G2c | "G"B{c}de "C"g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 :|
+d \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "G"BAG "C"EDE \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 |]
+d \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "G"BAG "C"EDE \
+| "G"Gz2 "C"G2c | "G"B{c}de "C"g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 |]
+%%center Book35/CaptCharlesStewartsJ_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Captain Charles Stewart's Jigg
+C: Malcolm MacDonald
+R: jig
+B: RSCDS 35-1
+N: arr. 1997 by John Chambers
+N: mod. by T. Traub 10-2002
+M: 6/8
+L: 1/8
+K: G
+|: D \
+| "G"Gz2 "C"G2c | "G"B/c/de "C"g2e | "G"dBG "Am"ABA | "C"GEE "D7"E2D/E/ \
+| "G"Gz2 "C"G2c | "G"B/c/de "C"g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 :|
+d \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "G"BAG "C"EDE \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 |]
+d \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "G"BAG "C"EDE \
+| "G"Gz2 "C"G2c | "G"B/c/de "C"g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 |]
+%%center Book35/CaptainCharlesStewartsJ_G.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Ceilidh Umbrella
+C: Muriel A. Johnstone
+R: strathspey
+% %staffsep 40.0pt
+B: RSCDS 35-5
+M: C
+L: 1/8
+K: Bb
+F2 \
+| "Bb"D<F B>d "Cm"c>B "F7"c<d \
+| "Bb"B>F DF B,D [FF,]B, \
+| "Eb"G,>B, E<G "Bb"F<D F>B \
+| "D7"A<D d>c "Gm"B2 ((3Bcd) |
+| "Cm"((3edc) "Bb"d>B "Eb"c>B G<B \
+| "Bb"F<D B<D "F"C>B, "D7"C<D \
+| "Gm"B,2 B>A "Eb"G2 ((3gfe) \
+| "F7"d<b d>c "Bb"B2 "Bb7"((3Bcd) ||
+|| "Cm"e2 c>e "F7"A<F f>e \
+| "Bb"d>c ((3Bcd) "Eb"G<E e>d \
+| "Am"c>B ((3ABc) "D7"^F<D d>c \
+| "Gm"((3BAG) "Cm"((3gfe) "F7"d>c A<F |
+| "Bb"D<F B>d "Cm"c>B "F7"c<d \
+| "Bb"B>F DF B,D [FF,]_A, \
+| "Eb"G,>B, E<G "Bb"F<D ((3gfe) \
+| "F7"d<b d>c "Bb"B2 |]
+%%center Book35/CeilidhUmbrellaS.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: MacLeod and MacKay
+C: J. Scott Skinner
+R: reel
+B: RSCDS 35-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: dc \
+| "G"BGFG DGFG | "Am"E^GAB c2ed | cA^GA "A7"EAGA | "D"FAd^c "D7"d=cBA |
+| "G"BGFG DGFG | "Am"E^GAB c2ed | "D7"cBAG FDEF | "G"AGDB, G,2 :|
+|: dc \
+| "G"Bgfg dBGB | "Am"ca^ga ec"D7"Ac | "G"Bgfg dBGB | "D"Fd^cd "D7"AFD=c |
+| "G"Bgfg dBGB | "Am"ca^ga ec"D7"Ac | "G"BgdB "Am"AecA | "D7"FDEF "G"G2 :|
+%%center Book35/MacLeodAndMacKay-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: MacLeod and MacKay
+C: J. Scott Skinner
+R: reel
+B: RSCDS 35-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: dc \
+| "G"BGFG DGFG | "Am"E^GAB c2ed | cA^GA "A7"EAGA | "D"FAd^c "D7"d=cBA |
+| "G"BGFG DGFG | "Am"E^GAB c2ed | "D7"cBAG FDEF | "G"AGDB, G,2 :|
+|: dc \
+| "G"Bgfg dBGB | "Am"ca^ga ec"D7"Ac | "G"Bgfg dBGB | "D"Fd^cd "D7"AFD=c |
+| "G"Bgfg dBGB | "Am"ca^ga ec"D7"Ac | "G"BgdB "Am"AecA | "D7"FDEF "G"G2 :|
+%%center Book35/MacLeodAndMacKay_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: MacLeod and MacKay
+C: J. Scott Skinner
+R: reel
+B: RSCDS 35-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: dc \
+| "G"BGFG DGFG | "Am"E^GAB c2ed | cA^GA "A7"EAGA | "D"FAd^c "D7"d=cBA |
+| "G"BGFG DGFG | "Am"E^GAB c2ed | "D7"cBAG FDEF | "G"AGDB, G,2 :|
+|: dc \
+| "G"Bgfg dBGB | "Am"ca^ga ec"D7"Ac | "G"Bgfg dBGB | "D"Fd^cd "D7"AFD=c |
+| "G"Bgfg dBGB | "Am"ca^ga ec"D7"Ac | "G"BgdB "Am"AecA | "D7"FDEF "G"G2 :|
+%%center Book35/MacLeodAndMacKay_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss McPherson Grant of Ballindalloch
+T: The Nurseryman
+C: William Marshall
+R: jig
+B: RSCDS 35-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"E2A A2F | "E7"GAB Bcd | "A"c2E "F#m"AGA | "Bm"B3 "E7"E3 \
+| "A"E2e e2c | "Bm"dcd "E7"Bcd | "A"cde "D"fed | "A"cBA "E7"GFE |
+| "A"E2A A2F | "E7"GAB Bcd | "A"c2E "F#m"AGA | "Bm"B3 "E7"E3 \
+| "A"E2e e2c | "Bm"dcd "E7"Bcd | "A"cBA "E7"EFG | "A"A3- A2 |]
+E \
+| "A"C2E "A7"A2=G | "D"FEF D2F | "Bm"d2c "B7"BcA | "E"G3 E2E \
+| "D"FGA Bcd | "A"cde fga | "E"gfe "B7"Bc^d | "E"e3- e2z |
+| "D"f2[AD] fed | "A"e2[cA] ecA | "D"FGA "B7"BcA | "E"G3 E3 \
+| "D"F2d "A"E2c | "E7"D2B "A"C2e | "A"cBA "E7"EFG | "A"A3- A2 |]
+%%center Book35/MissMcPhersonGrantsJ-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss McPherson Grant of Ballindalloch
+T: The Nurseryman
+C: William Marshall
+R: jig
+B: RSCDS 35-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"E2A A2F | "E7"GAB Bcd | "A"c2E "F#m"AGA | "Bm"B3 "E7"E3 \
+| "A"E2e e2c | "Bm"dcd "E7"Bcd | "A"cde "D"fed | "A"cBA "E7"GFE |
+| "A"E2A A2F | "E7"GAB Bcd | "A"c2E "F#m"AGA | "Bm"B3 "E7"E3 \
+| "A"E2e e2c | "Bm"dcd "E7"Bcd | "A"cBA "E7"EFG | "A"A3- A2 |]
+E \
+| "A"C2E "A7"A2=G | "D"FEF D2F | "Bm"d2c "B7"BcA | "E"G3 E2E \
+| "D"FGA Bcd | "A"cde fga | "E"gfe "B7"Bc^d | "E"e3- e2z |
+| "D"f2[AD] fed | "A"e2[cA] ecA | "D"FGA "B7"BcA | "E"G3 E3 \
+| "D"F2d "A"E2c | "E7"D2B "A"C2e | "A"cBA "E7"EFG | "A"A3- A2 |]
+%%center Book35/MissMcPhersonGrantsJ_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss McPherson Grant of Ballindalloch
+T: The Nurseryman
+C: William Marshall
+R: jig
+B: RSCDS 35-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"E2A A2F | "E7"GAB Bcd | "A"c2E "F#m"AGA | "Bm"B3 "E7"E3 \
+| "A"E2e e2c | "Bm"dcd "E7"Bcd | "A"cde "D"fed | "A"cBA "E7"GFE |
+| "A"E2A A2F | "E7"GAB Bcd | "A"c2E "F#m"AGA | "Bm"B3 "E7"E3 \
+| "A"E2e e2c | "Bm"dcd "E7"Bcd | "A"cBA "E7"EFG | "A"A3- A2 |]
+E \
+| "A"C2E "A7"A2=G | "D"FEF D2F | "Bm"d2c "B7"BcA | "E"G3 E2E \
+| "D"FGA Bcd | "A"cde fga | "E"gfe "B7"Bc^d | "E"e3- e2z |
+| "D"f2[AD] fed | "A"e2[cA] ecA | "D"FGA "B7"BcA | "E"G3 E3 \
+| "D"F2d "A"E2c | "E7"D2B "A"C2e | "A"cBA "E7"EFG | "A"A3- A2 |]
+%%center Book35/MissMcPhersonGrantsJ_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Scottish Horse
+C: The Marchioness of Tullibardine
+R: jig
+B: RSCDS 35-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: A/B/ \
+| "A"c3 ecA | "D"def a2f | "A"edc "F#m"cAe | "Bm"B3 "E7"B2A/B/ \
+| "A"c3 ecA | "D"def afd | "A"ecA "E7"B2e | "A"A3- A2 :|
+|| e \
+| "A"a2e A2e | "D"d2f a2f | "A"edc "F#m"cAe | "Bm"B3 "E7"B2A/B/ \
+| "A"c3 ecA | "D"def afd | "A"ecA "E7"B2e | "A"A3- A2 ||
+|| e \
+| "A"a2e A2e | "D"d2f a2f | "A"edc "F#m"cAe | "Bm"B3 "E7"B2e/d/ \
+| "A"caA eaA | "D"faA dfA | "A"ceA "E7"B2e | "A"A3- A2 |]
+%%center Book35/ScottishHorse-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Scottish Horse
+C: The Marchioness of Tullibardine
+R: jig
+B: RSCDS 35-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: A/B/ \
+| "A"c3 ecA | "D"def a2f | "A"edc "F#m"cAe | "Bm"B3 "E7"B2A/B/ \
+| "A"c3 ecA | "D"def afd | "A"ecA "E7"B2e | "A"A3- A2 :|
+|| e \
+| "A"a2e A2e | "D"d2f a2f | "A"edc "F#m"cAe | "Bm"B3 "E7"B2A/B/ \
+| "A"c3 ecA | "D"def afd | "A"ecA "E7"B2e | "A"A3- A2 ||
+|| e \
+| "A"a2e A2e | "D"d2f a2f | "A"edc "F#m"cAe | "Bm"B3 "E7"B2e/d/ \
+| "A"caA eaA | "D"faA dfA | "A"ceA "E7"B2e | "A"A3- A2 |]
+%%center Book35/ScottishHorse_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Scottish Horse
+C: The Marchioness of Tullibardine
+R: jig
+B: RSCDS 35-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: A/B/ \
+| "A"c3 ecA | "D"def a2f | "A"edc "F#m"cAe | "Bm"B3 "E7"B2A/B/ \
+| "A"c3 ecA | "D"def afd | "A"ecA "E7"B2e | "A"A3- A2 :|
+|| e \
+| "A"a2e A2e | "D"d2f a2f | "A"edc "F#m"cAe | "Bm"B3 "E7"B2A/B/ \
+| "A"c3 ecA | "D"def afd | "A"ecA "E7"B2e | "A"A3- A2 ||
+|| e \
+| "A"a2e A2e | "D"d2f a2f | "A"edc "F#m"cAe | "Bm"B3 "E7"B2e/d/ \
+| "A"caA eaA | "D"faA dfA | "A"ceA "E7"B2e | "A"A3- A2 |]
+%%center Book35/ScottishHorse_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mrs. Stewart's Strathspey
+T: Argyll Strathspey
+C: William Marshall
+R: strathspey
+B: RSCDS 35-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|: "D"D<D F>D "Bm"d/c/B/A/ F2 | "Em"BE EF "G"G>A B<d \
+|  "D"D<D F>D "Bm"d/c/B/A/ FD |1 "D"Ad "A7"ce "D"dD DA :|2 "D"Ad "A7"ce "D"dD df |]
+[| "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2 | "Em"e<E E>F "(A)"G>A Bc \
+|  "D"{c}d>A F>A d/e/f/g/ "A7"ag | "Bm"fd "A7"AG "D"FD "A7"FA |
+|  "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2 | "Em"e<E E>F "(A)"G>A Bc \
+|  "Bm"df "A"ec "G"dB "D"AF | "Em"GB "A7"Ac "D"dD D2 |]
+%%center Book35/StewartsStr-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mrs. Stewart's Strathspey
+T: Argyll Strathspey
+C: William Marshall
+R: strathspey
+B: RSCDS 35-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|: "D"D<D F>D "Bm"d/c/B/A/ F2 | "Em"BE EF "G"G>A B<d \
+|  "D"D<D F>D "Bm"d/c/B/A/ FD |1 "D"Ad "A7"ce "D"dD DA :|2 "D"Ad "A7"ce "D"dD df |]
+[| "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2 | "Em"e<E E>F "(A)"G>A Bc \
+|  "D"{c}d>A F>A d/e/f/g/ "A7"ag | "Bm"fd "A7"AG "D"FD "A7"FA |
+|  "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2 | "Em"e<E E>F "(A)"G>A Bc \
+|  "Bm"df "A"ec "G"dB "D"AF | "Em"GB "A7"Ac "D"dD D2 |]
+%%center Book35/StewartsStr_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mrs. Stewart's Strathspey
+T: Argyll Strathspey
+C: William Marshall
+R: strathspey
+B: RSCDS 35-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|: "D"D<D F>D "Bm"d/c/B/A/ F2 | "Em"BE EF "G"G>A B<d \
+|  "D"D<D F>D "Bm"d/c/B/A/ FD |1 "D"Ad "A7"ce "D"dD DA :|2 "D"Ad "A7"ce "D"dD df |]
+[| "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2 | "Em"e<E E>F "(A)"G>A Bc \
+|  "D"{c}d>A F>A d/e/f/g/ "A7"ag | "Bm"fd "A7"AG "D"FD "A7"FA |
+|  "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2 | "Em"e<E E>F "(A)"G>A Bc \
+|  "Bm"df "A"ec "G"dB "D"AF | "Em"GB "A7"Ac "D"dD D2 |]
+%%center Book35/StewartsStr_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mrs. Stewart's Strathspey
+T: Argyll Strathspey
+C: William Marshall
+R: strathspey
+B: RSCDS 35-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|: "D"D<D F>D "Bm"d/c/B/A/ F2 | "Em"BE EF "G"G>A B<d \
+|  "D"D<D F>D "Bm"d/c/B/A/ FD |1 "D"Ad "A7"ce "D"dD DA :|2 "D"Ad "A7"ce "D"dD df |]
+[| "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2 | "Em"e<E E>F "(A)"G>A Bc \
+|  "D"{c}d>A F>A d/e/f/g/ "A7"ag | "Bm"fd "A7"AG "D"FD "A7"FA |
+|  "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2 | "Em"e<E E>F "(A)"G>A Bc \
+|  "Bm"df "A"ec "G"dB "D"AF | "Em"GB "A7"Ac "D"dD D2 |]
+%%center Book35/StewartsStrathspey-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mrs. Stewart's Strathspey
+T: Argyll Strathspey
+C: William Marshall
+R: strathspey
+B: RSCDS 35-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|: "D"D<D F>D "Bm"d/c/B/A/ F2 | "Em"BE EF "G"G>A B<d \
+|  "D"D<D F>D "Bm"d/c/B/A/ FD |1 "D"Ad "A7"ce "D"dD DA :|2 "D"Ad "A7"ce "D"dD df |]
+[| "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2 | "Em"e<E E>F "(A)"G>A Bc \
+|  "D"{c}d>A F>A d/e/f/g/ "A7"ag | "Bm"fd "A7"AG "D"FD "A7"FA |
+|  "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2 | "Em"e<E E>F "(A)"G>A Bc \
+|  "Bm"df "A"ec "G"dB "D"AF | "Em"GB "A7"Ac "D"dD D2 |]
+%%center Book35/StewartsStrathspey_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mrs. Stewart's Strathspey
+T: Argyll Strathspey
+C: William Marshall
+R: strathspey
+B: RSCDS 35-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|: "D"D<D F>D "Bm"d/c/B/A/ F2 | "Em"BE EF "G"G>A B<d \
+|  "D"D<D F>D "Bm"d/c/B/A/ FD |1 "D"Ad "A7"ce "D"dD DA :|2 "D"Ad "A7"ce "D"dD df |]
+[| "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2 | "Em"e<E E>F "(A)"G>A Bc \
+|  "D"{c}d>A F>A d/e/f/g/ "A7"ag | "Bm"fd "A7"AG "D"FD "A7"FA |
+|  "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2 | "Em"e<E E>F "(A)"G>A Bc \
+|  "Bm"df "A"ec "G"dB "D"AF | "Em"GB "A7"Ac "D"dD D2 |]
+%%center Book35/StewartsStrathspey_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Summer Assembly (1st tune)
+T: The Oddfellows
+C: J.Scott Skinner
+N: Skinner published this with a "Trio" section that's transcribed as a second tune.
+R: reel
+B: RSCDS __-8(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+"E7"\
+ED "A" | "A"CEA2    A2cA | "D"B2A2 "A"A2ED | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 ||
+ED     | "A"CEA2    A2cA | "D"BAAF "A"E2A2 | "D"F2EC   "A"EFAE | "D"[F2D2][A2D2] "A"[A2C2] :|
+cd "B1"| "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 ||
+cd     | "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "E7"B2A2 "A"A2  |]
+cd "B2"| "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 ||
+ED     | "A"CEA2    A2cA | "D"BAAF "A"E2A2 | "D"F2EC   "A"EFAE | "D"[F2D2][A2D2] "A"[A2C2] |]
+
+%%center Book35/SummerAssembly_1.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Summer Assembly (2nd tune)
+T: The Oddfellows (Trio)
+C: J.Scott Skinner
+R: reel, hornpipe
+B: J Scott Skinner "The Logie Collection" p.117
+B: RSCDS __-8(II)
+N: This is the "Trio" section of "The Oddfellows", which Skinner published as a dotted hornpipe.
+N: Since both parts function as separate tunes, I've transcribed them separately here.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|: "A7"B2 "A"| "D"A2F2 d3A | "G"B2d2 "D"A3F | A2Bc "Bm"d2A2 | "E7"B2e2 "A7"e3 ||
+        f    | "D"A2F2 d3A | "G"B2d2 "D"A2d2 | "G"edcB "D"A2FA | "G"[B2G2][d2G2] "D"[d2F2] :|
+|:     f2 "B"| "G"edcB "D"A2FA | "G"B2d2 "D"A2f2 | "G"edcB "D"A2FA | "E7"B2e2 "A7"e2 ||
+       f2    | "(G)"edcB "D"A2FA | "G"B2d2 "D"A2d2 | "G"edcB "D"A2FA | "G"[B2G2][d2G2] "D"[d2F2] :|
+
+%%center Book35/SummerAssembly_2.abc

@@ -1,0 +1,21 @@
+X: 142
+T: Lady Carmichael
+R: strathspey
+Q: "Slow"
+B: William Shepherd "1st Collection" 1793 p.14 #2
+F: http://imslp.org/wiki/File:PMLP73094-Shepherd_Collections_HMT.pdf
+C: William Shepherd (17??-1812)
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Fixed many missing dots that may have been due to overlap caused by 2-staff format.
+N: Some long beams broken to improve readability.
+M: C
+L: 1/16
+K: Bb
+dc |\
+B3G TF3B D3F B,2TF2 | TB3c edcB d2c2 c2dc |\
+B3G TF3B D3F B3d | TG3c {B}A2GF B4 TB2 :|
+dc |\
+TB3d f3d g3a {ga}b3g | f3d B3d cBAG F2dc |\
+B3d f3d g3a {ga}b3g | d3g {b}a2g^f g4 (g2a).b |
+(f3b) (d3f) TB3d f3d | e3Tc d3TB (BA).c.A F2dc |\
+d3B G3B E3G e2fg | (ed).c.B (AB).c.A B4 TB2 |]

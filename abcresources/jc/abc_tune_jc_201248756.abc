@@ -1,0 +1,70 @@
+
+X: 1
+T: Avokatrilli  (Am)
+O: Finland
+F: http://www.youtube.com/watch?v=ti25VV9nJ8Y
+F: http://www.youtube.com/watch?v=tCswsPXjSi0
+R: polka
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Am
+[|\
+"Am"AB cd | e2 e2 | "Dm"fe fa | "Am"ez e2 |\
+"Dm"dd zd | "Am"cc zc | "E7"ed cB | "Am"A2 A2 ||
+||\
+"C"e2 e2 | gg ze | "G7"gf ed | "C"e2 e2 |\
+"Dm"fa zf | "Am"ea ze | "E7"ed cB | "Am"A2 A2 |]
+
+%%sep 1 1 500
+
+X: 2
+T: Avokatrilli  [Dm]
+O: Finland
+F: http://www.youtube.com/watch?v=ti25VV9nJ8Y
+F: http://www.youtube.com/watch?v=tCswsPXjSi0
+R: polka
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Dm
+[|\
+"Dm"DE FG | A2 A2 | "Gm"BA Bd | "Dm"Az A2 |\
+"Gm"GG zG | "Dm"FF zF | "A7"AG FE | "Dm"D2 D2 ||
+||\
+"F"A2 A2 | cc zA | "C7"cB AG | "F"A2 A2 |\
+"Gm"Bd zB | "Dm"Ad zA | "A7"AG FE | "Dm"D2 D2 |]
+% %text http://www.youtube.com/watch?v=ti25VV9nJ8Y
+% %text http://www.youtube.com/watch?v=tCswsPXjSi0
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 3
+T: Rasputin
+R: shottish
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+|: "Am"A2 Ac e2 e2 | "Dm"f2 fa "Am"e2 e2 | "E7"d2 d2 "Am"c2 c2 | "E7"B2 e2 e>d cB | "Am"A2 Ac e2 e2 |
+| "Dm"f2 fa "Am"e2 e2 | "E7"d>c B2 Bd cB | "Am"A2 c2 A2 z2 :: "G7"g2 g2 g3 f | "C"f>e e"(#)"d e4 |
+| "E7"e2 e2 e3 d | "Am"d>c cB c4 | "Dm"f2 {e}de fe d2 | "Am"e2 {d}cd ed c2 | "E7"~E2 ^DE c2 B2 | "Am"B>A A^G A2 z2 :|
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 4
+T: Ha-tikva
+O: Eastern European Jewish
+%%musicspace 0.20cm
+M: C
+L: 1/8
+K: Dm
+| "Dm"DE FG A2 A2 | "Gm"BA Bd "Dm"A4 | "Gm"G2 GE "Dm"F2 F2 | "A7"ED EF "Dm"D2 zA, |
+| "Dm"DE FG A2 A2 | "Gm"BA Bd "Dm"A4 | "Gm"G2 GE "Dm"F2 F2 | "A7"ED EF "Dm"D2 z2 |
+| "Dm"D2 d2 "Bb"d2 d2 | "C7"cd cB "F"A2- "A7"A2 | "Dm"D2 d2 "Bb"d2 d2 | "C7"cd cB "F"A4 |
+| "F"c2 cc F2 F2 | "C7"GA Bc "F"AG F2 | "Gm"G2 G2 "Dm"F2 FF | "A7"ED EF "Dm"D4 |
+| "Gm"G2 GE "Dm"F2 F2 | "C7"GA Bc "F"AG F2 | "Gm"G2 G2 "Dm"F2 FF | "A7"ED EF "Dm"D4 |]

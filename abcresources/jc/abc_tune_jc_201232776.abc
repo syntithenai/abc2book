@@ -1,0 +1,609 @@
+X: 0
+T: Twenty Four new Country Dances for the Year 1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Thomas Skillern "Twenty Four Country Dances for the Year 1799", London 1799
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+K:
+%%center Twenty four new
+%%center COUNTRY DANCES
+%%center for the Year 1799
+%%center With proper Directions to each Dance,
+%%center as they are performed at
+%%center COURT, ALMACKS BATH PANTHEON
+%%center and all Public Assemblies
+%%center -----------------------------------
+%%center London Printed for T.Skillern No.17 St Martins Lane, corner of St Martins Church Yard.
+%%begintext align
+%% Transcription notes:
+%% The tunes are are unnumbered; their count (01-24)
+%% is used in the file name to preserve the publication order.
+%% Some abbreviations use small superscript letters with a dot underneath.
+%% The dots are mostly ignored, and the letters typed as-is.
+%% Some abbreviations end with ":", which is transcribed.
+%% Original staff breaks are ignored; the ABC is formatted to have 2 or 4 bars per line,
+%% which are joined into staffs to look good at a small scale.
+%% Feel free to reformat the staffs for your own use.
+%% Dances are transcribed with the original line breaks, which isn't significant.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1
+T: Cambro Britons
+%R: march, reel
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.1 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+d |\
+Bdcd | dBAG | GgdB | (.A.A.A) d |\
+Bdce | dBAG | BdAd | (BGG) :|
+|: d |\
+g2dB | g2dB | GgdB | (.A.A.A) d |\
+g2dB | g2dB | BdAd | BGG :|
+%%begintext align
+%% Hay contrary sides, Then on your own side, lead
+%% down the middle up again, right and left.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2
+T: Knights of Malta
+%R: march, reel
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.1 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+|:\
+G>A Gg | fd ce | dBAG | FAD2 |\
+G>A Gg | fd ce | dBcA | G2G,2 :|
+|:\
+d>edB | c>dcA | BdBG | FAFD |\
+d>edB | c>dcA | BGAF | G2G,2 :|
+%%begintext align
+%% Lead down the middle, up again, Hands across
+%% and back again, Right hands and left.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3
+T: Lord Cornwallis Trip to Castlebar
+%R: march, reel
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.2 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+g |\
+gBce | A/A/A AB | cedc | B/G/G Gg |\
+gBce | A/A/A AB | cedc | B/G/G G :|
+|: d |\
+gdgb | egec | dgdB | A/A/A Ad |\
+gdgb | egec | BdcA | G/G/G G :|
+%%begintext align
+%% Right hands across half round, left hands back
+%% again, Change sides and back again, Cross over
+%% and turn your Partner, right and left.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 4
+T: Larkens Fancy
+%R: march, reel
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.2 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+d |\
+BGGG | dgfe | dBgB | (BAA) d |\
+BGGG | dgfe | dBcA | GD G, :|
+|: d |\
+(dgfg) | (GBGB) | dgfg | (ecce) |\
+(dgfg) | (GBGB) | dBcA | GD G, :|
+%%begintext align
+%% Sett and Hands 3 round with the 1st Lady the
+%% same with the 1st Gent. lead down the middle up
+%% again, Cast off and Allemand.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 5
+T: Shaccabac's Fancy
+%R: march, reel
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.3 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+|:\
+G2d>B | G2d>B | c>dcB | AGF2 |\
+G2d>B | G2d>B | cA GF | G2z2 :|
+|:\
+dgfg | edcB | ABcd | B2G2 |\
+dgfg | edcB | AcAF | G2z2 :|
+|:\
+GBdB | Gcec | GBdB | cAGF |\
+GBdB | Gcec | BAGF | G2z2 :|
+%%begintext align
+%% Hands X back again, Down middle up again,
+%% Allemande, 1st Lady Hey with the 2d and 3rd
+%% Gent., 1st Gent. (at same time) Hey with the 2 and
+%% 3rd Lady.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 6
+T: Gen.l Lake's Waltz
+%R: waltz
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.3 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: C
+((3GAB) |\
+c2c2c2 | A2A2A2 | f>dc2B2 | cegege |\
+c2c2c2 | A2A2A2 | d2f2B2 | c4 :|
+|: gf |\
+e2g2g2 | fgagaf | d2f2f2 | efgfge |\
+g2c'2e2 | g2c'2e2 | gfe2d2 | c4 :|
+|: c2 |\
+B2d2f2 | c2e2g2 | B2d2f2 | c4c2 |\
+B2d2f2 | c2e2g2 | B2dcdB | [c4E4] :|
+%%begintext align
+%% Hands across half round and back again, Cast
+%% off and hands 4 round with 2d Cu: turn your
+%% Partner, Poussette with the top Cu:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 7
+T: The Gipsy Hat
+%R: jig
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.4 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Bar 5 is missing a count; added dot to fix it.
+M: 6/8
+L: 1/8
+K: C
+a |\
+a2e e2c | cde d2G | cBc dcd | e3 {e}d2g |\
+g2e e2c | cde d2G | cBc dcd | {d}c3 c2 |]
+C |\
+CDE CDE | GAB cBc | CDE CDE | GAB c2C |\
+CDE CDE | GAB cBc | g2e e2c | dcd c2 |]
+%%begintext align
+%% First Cu: foot it cast off 2 Cu: and cross up to
+%% the top, Gallop down, up again and cast off,
+%% Right and left at top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 8
+T: False and True
+%R: jig
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.4 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The high Gs in bars 9, 11 should maybe be As, but they don't have leger lines.
+M: 6/8
+L: 1/8
+K: D
+A |\
+d>cd AFD | dfe d2A | d>cd AFD | (F2G/F/ E2)A |\
+d>cd AFD | dfe d2A | Bge c>Bc | d3- d2 |]
+d/e/ |\
+fed gfd | ecA A2d/e/ | fed gfd | (f3{gf} e2)e |\
+fdc BcA | ^GBd e2d | cdc BAB | A3- "D.C."A2 |]
+%%begintext align
+%% Cast off 2 Cu: up again, Cross over 2 Cu: lead
+%% thro' top and cast off, set corners and turn,
+%% lead outsides.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 9
+T: Windfor Camp
+%R: reel
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.5 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+|:\
+cded cded | c2c2 c2z2 |\
+dede dede | f2d2 d2z2 |\
+e/f/g cc e/f/g cc | fdec fdec |
+(ABcd) (Bcde) | Hc2G2 C2z2 ::\
+G2(GA) BABc | dfdf ecc2 |\
+G2(GA) BABc | dfec H[g2B2]"_D.C."z2 :|
+%%begintext align
+%% Half right and left, the same back again, lead
+%% down the middle up again, Cast off and right
+%% and left.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 10
+T: Napper Tandy
+%R: march, reel
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.5 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+|:\
+Ggfe | dcBA | (GBdB) | gAAB |\
+Ggfe | dcBA | (dedc) | (BGG)z :|
+|:\
+(Bgdg) | (Bgdg) | (GBdB) | (GBdB) |\
+Bgdg | Bgdg | BGAF | G2 Gz :|
+%%begintext align
+%% Turn your Partner with the right hand, Cast
+%% off 1 Cu: and turn with the left, Sett and 3
+%% top and Bottom, then sideways.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 11
+T: Mc Arthur's Jigg
+%R: slip-jig
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.6 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Dm
+e |\
+f2d e^cA A2e | f2d ge^c d2e |\
+f2d e^cA A2e | faf ge^c d2 :|
+|: e |\
+fga agf edc | fga agf {f}e2e |\
+fga agf efg | fed ed^c d2 :|
+%%begintext align
+%% The Lady cast off 2 Cu: the Gent. (at same time)
+%% dance down the middle, The Gent. cast up on the
+%% out side. the Lady (at same time) dance up the
+%% middle, Cross over 1 Cu: Allemand, the Lady
+%% hands 3 with the 3rd Cu:, Gent. hands 3 with the
+%% top Cu:, Half right and left back again.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 12
+T: The Brothers
+%R: march, strathspey
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.6 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+a |\
+e<c cB | A>BAE | F<A E<A | F<A Ea |\
+e<c cB | ABAE | Eee^d | e2e :|
+|: e |\
+f<ddB | c>def | d<B BG | A>BcE |\
+F<A E<A | F<A Ed | cA {c}B{A}G | A2A :|
+%%begintext align
+%% Half right and left, same Back again, X over 1 Cu:
+%% and to your places, Poussette.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 13
+T: Jock's to be Married to morrow.
+%R: slip-jig
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.7 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: F
+C |\
+F2F Acd cAF | G2F GAc d2f |\
+F>GA fed cAF | GAc AGF D2 :|
+|: a/g/ |\
+fef f>gf edc | dcA f>ga g2f |\
+fga gaf edc | d/e/fd cAF D2 :|
+%%begintext align
+%% First Cu: Hands 3 with 2d Lady, same with 2d
+%% Gent., down middle up again, Allemande.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 14
+T: Brighton Camp
+%R: march
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.7 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+f |\
+e>cc>B | c>A TF2 | {EF/G/}AA A/B/c/d/ | {^d}e2c>f |\
+e>cc>B | {AB}c>A F>A | GB E/F/G/E/ | A2A :|
+|: B |\
+cefg | aecA | cefg | Ta2gb |\
+agaf | eccB | cFGE | A2A :|
+%%begintext align
+%% Set and Hands 3 round with the 2d Lady, the
+%% same with the 2d Gent., lead down the middle
+%% up again, Cast off and Allemand.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 15
+T: Buonaparte's Expedition
+%R: march, reel
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.8 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+G |\
+c>dce | (dcc).e | (dcc).e | g3G |\
+c>dce | (dccc) | A>GAB | c3 :|
+g |\
+(gec).a | (fdB).g | (ecA).f | (dBG).G |\
+c>dce | dc-ce | A>GAB | c3 :|
+%%begintext align
+%% Right hands across quite round, Left hands back
+%% again, Cross over 1 Cu: and turn, Right and Left.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 16
+T: Lucy Rhode's Delight
+%R: reel, strathspey
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.8 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+A,1 |\
+D3E DEFG | A2F2 f3e | dB3 AF3 | EDEF E2A,2 |\
+D3E DEFG | A2F2 f3d | dB3 AF3 | D4 D2 :|
+|: B2 |\
+AF3 d3B | AF3 f3e | d2B2A2F2 | EDEF E2B2 |\
+AF3 d3B | AF3 f3e | df3 e2a2 | d4 d2 :|
+%%begintext align
+%% Sett and half Right and Left, same back again,
+%% lead down 2 Cu: up one Cu., Poussette.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 17
+T: Haran's Waltz
+%R: waltz
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.9 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: A
+AB |\
+c2c2c2 | cBcdec | d2d2d2 | B4BA |\
+G2G2G2 | G2GABG | A2A2A2 | A4 :|
+|: e2 |\
+aeceae | geBege | aeceae | geBege |\
+agfedc | BAGFED | CEAcBG | A4 :|
+e2 |\
+e4c2 | c3de2 | e2d2B2 | B4d2 |\
+c3de2 | e2d2c2 | c2B2B2 | B4e2 |
+e4c2 | c3de2 | e2d2B2 | B4d2 |\
+c3dc2 | B2A2B2 | A2A2A2 | A4 |]
+%%begintext align
+%% Hands across same back again lead down the
+%% middle up again Allemande Swing Corners.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 18
+T: Whaland's Fancy
+%R: reel
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.9 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The rhythms at strain boundaries don't all match, mostly due to the initial pickup notes.
+M: 2/4
+L: 1/16
+K: G
+dc |\
+BdcB AcBA | GBAG {G}F2ED |\
+EFGE FGAF | GABc B2Ac |\
+BdcB AcBA | GBAG {G}F2ED |
+EFGE FGAF | GBAF G4 :|\
+|:\
+!p!B2B2B2A2 | c2c2c2B2 |\
+e2e2d2g2 | fgaf g4 |\
+B2B2B2A2 | c2c2c2B2 |
+e2e2d2g2 | fgaf g4 :|\
+|:\
+!f!b2B2B2b2 | a2g2 {g}f4 |\
+g2G2G2g2 | f2e2 {e}^d2 |\
+e2E2E2e2 | d2c2 {c}B4 |\
+cBAG FGAF | G6 :|
+%%begintext align
+%% First Cu: lead thro' the 2d Cu: cast off below the 3d
+%% Cu: and turn, lead up thro' the 3rd Cu: cast up to
+%% the top and turn, Down middle up again, Allemande,
+%% Hands 4 at bottom, Right and left at top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 19
+T: Croppies lie down
+%R: jig
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.10 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+g |\
+dBG GFG | ABA ABd | ef/g/e dBd | gGG Gge |\
+dBG GFG | ABA ABd | ef/g/e dBd | gGG G2 ||
+|: e |\
+def gfg | efg a2f | gab efg | dBG AGF |\
+G>AG BGG | cGG dGG | ecd efg | dBG G2 :|
+%%begintext align
+%% Right hands across half round, left hands
+%% back again, down the middle up again and Cast
+%% off, Hands 6 round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20
+T: The Fly go
+%R: reel
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.10 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+fg |\
+afaf dfed | cdea ABAG |\
+FAdf gfed | ceAA A2fg |\
+afaf dfaf |
+edcB ABAG |\
+FAdf Bgec | d2d2 d2 :|\
+|: cd |\
+eAA2 eAgA | fAA2 fAaA |
+gfed dcB^A | ^ABBB B2=AG |\
+FAd=c BGed | cAfe dBgf |\
+eAag fedc | d2d2 d2 :|
+%%begintext align
+%% Swing your Partner with right hand and Cast off
+%% 1 Cu: and swing with left hand, 2d Cu: do the same,
+%% Down middle up again and sett to the top Cu:,
+%% Hands 4 at bottom Right and left at top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 21
+T: Go to the Devil and shake your self
+%R: jig
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.11 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+G |\
+Gcc cBA | GAG GEG | Gcc c2d | ecA A2G |\
+Gcc cBA | GAG GEG | cec dfd | ecc c2 :|
+|: e/f/ |\
+gec cBc | AFF F2f/g/ | afd dec | BGG G2G |\
+Gcc cBA | GAG GEG | cec dfd | ecc c2 :|
+%%begintext align
+%% First and 2d Cu: sett and turn round seperately [sic]
+%% from each other, sett and turn seperately to each
+%% other, lead down middle up again, right & left.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22
+T: Blue Beard
+%R: reel
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.11 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+|:\
+efed cdcB | A2Ac B2Bd |\
+c2ce fedc | cBBB B4 |\
+efed cdcB | A2Ac B2Bd |\
+cBcd cBAG | A2A2 A4 :|
+B3AG2A2 | B2AB c2Bc |\
+dcde fedc | cBBB B4 |\
+B3AG2A2 | BABc B2c2 |\
+B^dfa gefd | e2e2e2"^D.C."z2 |]
+%%begintext align
+%% Sett and change sides, same back again, Cast off
+%% 2 Cu: and come up the middle, right and left.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 23
+T: Harlequin Highlander
+%R: jig
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.12 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+d |\
+BGG BGG | dgf edc | cAA cAA | eag fed |\
+cec BdB | cec BdB | FcB AGF | GDB, [G2G,2] :|
+|: g |\
+(gfe) (dcB) | (edc) (BAG) | cBA GFE | (DEF G2)g |\
+(gfe) (dcB) | (edc) (BAG) | cBA GFE | DEF G2 :|
+%%begintext align
+%% The 1st Lady set to the 2d Gent. and turn the
+%% 3d, The 1st Gent. the same to 2d Lady, set 3 & 3
+%% sideways, and Hands 3 round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 24
+T: Irish Invasion
+%R: jig
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.12 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+G |\
+ccc cBc | ddd def | gec BAG | ccc c2G |\
+ccc cBc | ddd def | gec BAG | ccc c2 :|
+|: e/f/ |\
+ggg ece | ddd BGB | ggg ece | ddd d2e/f/ |\
+ggg ece | ddd BGB | gec BAG | ccc c2 :|
+%%begintext align
+%% First and 2d Cu: foot it and change sides, the
+%% same back again, lead down the middle up again
+%% and Cast off, Hands 6 round.
+%%endtext

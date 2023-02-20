@@ -1,0 +1,29 @@
+X: 152
+T: Billy Kings Bass Minuet
+T: Longways
+%R: minuet
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.76
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A2EDCB, | A,2cBcA | B2G2G2 | G2edcB |\
+c2^G2A2 | E2C2F2 | DFEDCB, | A,6 H:|
+e2c2c2 | d4G2 | cedfeg | e3def |\
+g2c2d2 | BAG2c2 | d2B4 | c3dc"d.C."B |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center The first strain twice, the second but once and end with the 1st strain
+%%begintext align
+%% Minuet step) The 1st Cu. go hands across
+%% half round with the 2d Cu., and lead thro'
+%% the 3d Cu. and cast up .| then hands across
+%% half round with the 3d Cu., and cast up
+%% to the top :| the 1st and 2d Cu. take hands
+%% and go quite round, then the 1st Cu. cast
+%% of in the 2d Cu. place.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

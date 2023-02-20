@@ -1,0 +1,1631 @@
+
+X: 76
+T: 1814 Sl\"angpolska
+O: S\"odermanland
+S: handwritten copy from Paul Milde June 2013
+S: http://www.folksweden.com/files/1814.pdf 2021-5-28
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Z: (2021: slightly modified after several other versions)
+M: 3/4
+L: 1/8
+K: G
+"^A"|: dc B2 G2 | cB A2 D2 | G>F GA Bc |[1,3 d>e dc Bc :|[2,4 AF A4 :|
+"^B1 *"|: DD DD D^D | ^DE EE EF | G>A BA GF |[1,3 G2 D/E/D/C/ B,C :|[2,4 G2 G4 :|
+"^B2"|: G,>B, B,B, B,B, | B,>C CC CF | G>A BA GF |[1,3 G2 DC B,A, :|[2,4 G2 G4 :|
+%%text * B1 and B2 are from two different sources.
+
+%%sep 1 1 500
+
+X: 1
+T: Brudpolska efter Wilhelm Gelotte (G)
+T: aka Polska efter Byss-Kalle (nr 31)
+R:Sl\"angpolska
+S:Rob L <rlindx:sbcglobal.net> 2014-2-4 abcusers
+O:Uppland
+M:3/4
+L:1/16
+K:G
+|:\
+D3G B3d (cB)cA | G3B D4 E3F | G4 (cB)ce d3d | B2d2 (dc)Ac B2G2 |
+D3G B3d (cB)cA | G3B D4 E3F | G4 (cB)ce (de)dc | (Ac)AF G8 :|
+|:\
+g4 (Bc)dB c2c2 | a3g (fg)ag f2a2 | g2B2 (cB)ce d3c | B2d2 (dc)Ac B2d2 |
+g4 (Bc)dB c2c2 | a3g (fg)ag f2a2 | g2B2 (cB)ce d3c | (Ac)AF G8 :|
+|:\
+D2B2 B2AB (cB)AG | F2A2 A2BA (GF)ED | D2B2 B2AB (cB)AG | (FG)AB A4 G4 :||
+
+%%sep 1 1 500
+
+X: 1
+T: Polska efter G Lungstr\"om
+N: Learned from David Bastviken, April 1997, in Boston.
+Z: John Chambers <jc@trillian.mit.edu>
+B: Svenska L\aatar (N\"arke) p.52 #119
+R: slangpolska
+M: 3/4
+L: 1/16
+K: D
+|: "D"A2d2 FDFA dcdf | "A7"e2c2 Acec Aceg | "D"f2ag "A7"e2gf "D"d2fa | "A7"agec d2A2 "D"FDFA |
+|  "D"A2d2 FDFA dcdf | "A7"e2c2 Acec Aceg | "D"f2ag "A7"e2gf "D"d2fa | "A7"agec c2d2 "D"d4 :|
+|: "D"a2a2 fdfa fdfa | "G"g2b2 "Bm"b2b2 "Em"b4 | "A7"g2g2 eceg eceg | "D"f2a2 a2a2 a4 |
+|  "D"A2d2 FDFA dcdf | "A7"e2c2 Acec Aceg | "D"f2ag "A7"e2gf "D"d2fa | "A7"agec c2d2 "D"d4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Himlens polska   (Em)
+O: trad. Finland
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+R: Sl\"angpolska
+M: 3/4
+L: 1/16
+K: Em
+B,2D2 "A"|\
+E3F E2D2 E2F2 | G3A G2F2 G2A2 | B2AB c2BA B2AG |1,3 G2FE (DE)FD :|2,4 (GF)ED E4 :|
+|: EFGA "B"|\
+B4 B3c B2A2 | G2F2 F2D2 B,4 | d4 d3e d2c2 | B2A2 A2GA G4 | f4 f4 e4 |
+d3e f2d2 B2G2 | g2g2 f2f2 e2e2 | d3e f2d2 B2dB | c3B A2G2 F2E2 | (GF)ED E4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Himlens polska   [Gm]
+O: trad. Finland
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+R: Sl\"angpolska
+M: 3/4
+L: 1/16
+K: Gm
+D2F2 "A"|\
+G3A G2F2 G2A2 | B3c B2A2 B2c2 | d2cd e2dc d2cB |1,3 B2AG FGAF :|2,4 BAGF G4 :|
+|: GABc "B"|\
+d4 d3e d2c2 | B2A2 A2F2 D4 | f4 f3g f2e2 | d2c2 c2Bc B4 | a4 a4 g4 |
+f3g a2f2 d2B2 | b2b2 a2a2 g2g2 | f3g a2f2 d2fd | e3d c2B2 A2G2 | BAGF G4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Hins Polska
+N: efter Erik August Sallin, Tysslinge, N\"arke
+N: learned from David Bastviken, Aug 1996
+Z: John Chambers <jc@trillian.mit.edu>
+O: N\"arke
+R: Sl\"angpolska
+M: 3/4
+L: 1/8
+K: A
+|: c2 A2 E2 | c2 B>d c2 | c2 A2 E2   | c2 B>d c2 \
+|  e2 d2 c2 | B2 AG E2  | F2 G>A B>G | A2 A2 z2 :|
+|: A2 GA F>G | A2 A>F E2 | A2 GA F>G | A2 A>B c2 \
+|  A2 GA F>G | A2 A>F E2 | EC DB, CA, | B,>C A,2 z2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Lapp-Nisses polska
+T: Sl\"angpolska fr\aan En\aanger/Bjur\aaker
+O: efter Bengt Jonsson
+S: Bengt Jonsson
+R: polska, mazurka
+%Q: 1/4=126
+M: 3/4
+L: 1/8
+K: A
+|: "A"E>A A>A A>e | f>e c4 | E>A A>A A>e | "Bm"f>e d4 \
+| "E7"E>G G>B B>e | g2 g4 | "D"a>f d>f d>f | "A"fe c4 :|
+|: "A"e2 f>e c>B | A>c c>c c>c | "E7"B>B B>B B>B |1,3 "A"c>c c>c c>c :|2,4 "A"A2 A4 :|
+|: "D"~a>g a2 f2 | "(Bm)"~d>c d2 B2 | "E7"E>G B>[eE] G>B |1,3 "A"A>B c<d e2 :|2,4 "A"A2 A4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Polska efter August Nyholm, Delsbo
+R: slang-polska
+B: SvL H\"alsingland 255
+N: Arr Hans-Ers online PDF file
+M: 3/4
+L: 1/16
+K: G
+|:"G"d3B G2AB "F"c2AB | "G"G2B2 d2Bd g4 \
+| "G"d3B G2AB "F"c2AB |1,3 "G"G2A2 "D7"F2AF D4 :|2,4 "G"G2"D7"AF "G"G8 :|
+|:"Em"g3f e2^de "D"f2a2 | "Em"g2fg e2^de "(B)"B4 \
+| "Em"g2f2 e2f2 g2a2 | "(D)"a2g2 g2f2 "D"f4 |
+| "Em"g3f e2^de "D"f2a2 | "Em"g2fg e2^de "(B)"B4 \
+| "G"B2c2 "F"A2cB "G"G2AB | "D7"c2AF "G"G8 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Polska efter August Nyholm, Delsbo
+R: slang-polska
+B: SvL H\"alsingland 255
+N: Arr Hans-Ers online PDF file
+M: 3/4
+L: 1/16
+K: G
+%%sysstaffsep 30
+V: 1
+|: d3B G2AB c2AB |  G2B2 d2Bd g4 \
+|  d3B G2AB c2AB |1,3 G2A2 F2AF D4 :|2,4 G2AF G8 :|
+|: g3f e2^de f2a2 | g2fg e2^de B4 \
+|  g2f2 e2f2 g2a2 | a2g2 g2f2 f4 |
+|  g3f e2^de f2a2 | g2fg e2^de B4 \
+|  B2c2 A2cB G2AB | c2AF G8 :|
+V: 2
+|: "G"B3G D2DE "F"=F2FD |  "G"B,2D2 G2DG B4 \
+|  "G"B3G D2DE "F"=F2FD |1,3 "G"B,2C2 "D7"D2DC B,4 :|2,4 "G"B,2"D7"DC "G"B,8 :|
+|: "Em"e3d B2Bc "D"d2f2 | "Em"e2de B2BA G4 \
+|  "Em"e2B2 G2B2 e2f2 | "Em"f2e2 e2d2 "D"d4 |
+|  "Em"e3d B2Bc "D"d2f2 | "Em"e2de B2BA G4 \
+|  "G"G2A2 "F"=F2FD "G"B,2B,D | "D7"=F2DC "G"B,8 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Polska efter Manne Stj\"arnsten
+T: Sl\"angpolska fr\aan Torp
+O: Sweden
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: 3/4
+L: 1/8
+K: G
+D \
+| "G"G2 G>(A B)>c | "G"d2 d>(B "Am"c)>A | "D7"f2 f>(A c)>B | "G"g2 g>(B d)>B \
+| "G"G2 G>(A B)>c | "G"d2 d>(B "Am"c)>A | "D7"f2 f>(e c)>A | "G"G2 G3 :|
+|: g \
+| "G"b2 G>(B d)>(g | "D7"f)>(A d)>(f a2) | "D7"c'2 A>(f a)>(f | "G"g2) G>(B d)>(g \
+| "G"b2) G>(B d)>(g | "D7"D7""f)>(A d)>(f a2) | "D7"c'2 [AD]>(f a)>(f | "G"g2) g3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Polska efter Manne Stj\"arnsten
+T: Sl\"angpolska fr\aan Torp
+O: Sweden
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: 3/4
+L: 1/8
+K: G
+V: 1
+|: G2 G>(A B)>c | d2 d>(B c)>A \
+| f2 f>(A c)>B | g2 g>(B d)>B |\
+|  G2 G>(A B)>c |
+| d2 d>(B c)>A | f2 f>(e c)>A \
+|1 G2 G3 D :|2 G2 G3 g \
+|: b2 G>(B d)>(g | f)>(A d)>(f a2) |
+| c'2 A>(f a)>(f | g2) G>(B d)>(g |\
+| b2) G>(B d)>(g | f)>(A d)>(f a2) \
+| c'2 [AD]>(f a)>(f | g2) g3 z :|
+V: 2
+|: B,2 B,>(D G)>A | B2 B>(G A)>F \
+| d2 d>(F A)>G | B2 B>(G B)>G |\
+|  B,2 B,>(D G)>A |
+| B2 B>(G A)>F | d2 d>(c A)>F \
+|1 G>(D B,)>(A, B,)C :|2 G>(D B,)>(D G)B \
+|: (G2 D2 B2) | D2 F>A F2 |
+| (A2 D2 c2) | B6 |\
+|  (G2 D2 B2) | D2 F>A F2 \
+| (A2 D2 c2) | B2 B3 z :|
+
+%%sep 1 1 500
+
+X: 1
+T: Polska efter Manne Stj\"arnsten
+T: Sl\"angpolska fr\aan Torp
+O: Sweden
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: 3/4
+L: 1/8
+K: G
+V: 1
+|: G2 G>(A B)>c | d2 d>(B c)>A | f2 f>(A c)>B \
+| g2 g>(B d)>B ||  G2 G>(A B)>c | d2 d>(B c)>A |
+| f2 f>(e c)>A |1 G2 G3 D :|2 G2 G3 g \
+|: b2 G>(B d)>(g | f)>(A d)>(f a2) | c'2 A>(f a)>(f |
+| g2) G>(B d)>(g || b2) G>(B d)>(g | f)>(A d)>(f a2) \
+| c'2 [AD]>(f a)>(f |1 g2) g3 z |2 g2) g3 z |]
+V: 2
+|: B,2 B,>(D G)>A | B2 B>(G A)>F | d2 d>(F A)>G \
+| B2 B>(G B)>G ||  B,2 B,>(D G)>A | B2 B>(G A)>F |
+| d2 d>(c A)>F |1 G>(D B,)>(A, B,)C :|2 G>(D B,)>(D G)B \
+|: (G2 D2 B2) | D2 F>A F2 | (A2 D2 c2) |
+| B6 ||  (G2 D2 B2) | D2 F>A F2 \
+| (A2 D2 c2) |1 B2 B3 z :|2 B2 B3 z |]
+V: 3 clef=alto middle=c
+|: (G2 d2) D2 | (G2 d2) d2 | (D2 d2) d2 | (G2 g2) G2 ||  (G2 d2) D2 | (G2 d2) d2 |
+| (D2 d2) d2 |1 [d2G2] [d3G3] d :|2[d2G2] [d3G3] d |: (G2 d2) g2 | (d2 A2) d2 | (d2 F2) d2 |
+| (G2 g2) G2 || (G2 B2) g2 | (d2 A2) d2 | (d2 F2) d2 |1 g>f e>d c>B :|2  [d2G2] [d3G3] z |]
+
+%%sep 1 1 500
+
+X: 1
+T: Polska efter Skrap Ollas
+T: Skrap Ollas polska
+T: River jag s\"onder i kras
+R: sl\"angpolska
+H: efter Karl Fahlstr\"om "Glysen", som bodde i Karlskoga-Grythyttans bergslag.
+H: Nedtecknad i V\"astg\"otetorp, Loka 1910. D-bas. Jfr #188.
+A: V\"astmanland
+D: Anders Norudde: Kan sj\"alv! (spelas i A p{\aa} skivan)
+D: lydia & Andrea: Fika
+Z: id:hn-sp-215
+M: 3/4
+L: 1/16
+K: D
+|:\
+"D"f3d A2A2 "A7"G2G2 | "D"FDEF "G"GFGB "A7"A2A2 |\
+"D"f3d A2A2 "A7"G2G2 | "D"FDEF "G"GFGB "D"B2A2 |\
+"G"B3A B2c2 d2B2 | "D"A2AG F2G2 A4 |
+"G"B2BA B2c2 d2B2 | "D"ABAG F2G2 A4 |\
+"G"B2B2 g2f2 "A7"e2d2 | "/b"c2Bc "/c#"e4 "D"Hd4 :|\
+|:\
+"D"A2A2 "A7"GFEG "D"F2F2 | "D"F2F2 "(A)"FDEF "D"D2F2 |
+"D"A2A2 "A7"GFEG "D"F2D2 | "D"F2F2 EDEF D4 |\
+"G"B2B2 g2f2 "A7"e2d2 | "/b"c2Bc "/c#"e4 "D"d4 :| [K:=f=c][K:Dm] \
+|:\
+"Dm"A2a2 a2ga "A"a2e2 | e2fg "Dm"f2ef f2d2 |
+"Dm"d2d^c d2e2 e2f2 | "A"f2ef "/b"d2ed "/c#"^c2A2 |\
+"Dm"A2a2 a2ga "A"a2e2 | e2fg "Dm"f2ef f2d2 |\
+"Dm"d2d^c d2e2 "A"f2e2 | "/b"d2^cd "/c#"e4 "Dm"d4 :|
+
+%%sep 1 1 500
+
+X: 74
+T: Polska efter Johan Jacob Bruun
+O: S\"arsl\"ov, Sk\aane, Sweden
+R: sl\"angpolska
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: Facebook video, abcnotation.com image.
+S: http://www.folksweden.com/files/Polska_efter_Johan_Jacob_Bruun.pdf (Tim Rued) 2021-4-2
+M: 3/4
+L: 1/16
+K: Dm
+|:\
+A2d2 d2^c2 c2A2 | A=B^cd e6 c2 |\
+d2d^c d2e2 f2g2 | a2a2 gabg a4 |\
+A2d2 d2^c2 c2A2 |
+A=B^cd e6 c2 |\
+d2^c2 d2e2 f2ed | e2d^c d4 D4 ::\
+f2a2 f2a2 (ba)gf | e2g2 e2g2 (ag)fe |
+f2a2 f2a2 (ba)gf | e2g2 e2g2 (ag)fe |\
+(d^c)de (fe)fg (ab)ag | (fe)d^c e4 d4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Rullande Gubben
+T: (Sl\"angpolska)
+C:Trad.
+Z:Bart Brashers, bart@hpcc.epa.gov
+M:3/4
+L:1/8
+Q:1/4=96
+K:Am
+ A-c cd/c/ B-G | G-B Bc/B/ A2   :|
+ e2  ee/f/ ec  | e-g gg/a/ ge    |
+ e2  ee/f/ ec  | cd/c/ Bc/B/ A2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Polska efter August Nyholm, Delsbo
+R: slang-polska
+B: SvL H\"alsingland 255
+N: Arr Hans-Ers online PDF file
+M: 3/4
+L: 1/16
+K: G
+%%sysstaffsep 30
+V: 1
+|: d3B G2AB c2AB |  G2B2 d2Bd g4 \
+|  d3B G2AB c2AB |1,3 G2A2 F2AF D4 :|2,4 G2AF G8 :|
+|: g3f e2^de f2a2 | g2fg e2^de B4 \
+|  g2f2 e2f2 g2a2 | a2g2 g2f2 f4 |
+|  g3f e2^de f2a2 | g2fg e2^de B4 \
+|  B2c2 A2cB G2AB | c2AF G8 :|
+V: 2
+|: "G"B3G D2DE "F"=F2FD |  "G"B,2D2 G2DG B4 \
+|  "G"B3G D2DE "F"=F2FD |1,3 "G"B,2C2 "D7"D2DC B,4 :|2,4 "G"B,2"D7"DC "G"B,8 :|
+|: "Em"e3d B2Bc "D"d2f2 | "Em"e2de B2BA G4 \
+|  "Em"e2B2 G2B2 e2f2 | "Em"f2e2 e2d2 "D"d4 |
+|  "Em"e3d B2Bc "D"d2f2 | "Em"e2de B2BA G4 \
+|  "G"G2A2 "F"=F2FD "G"B,2B,D | "D7"=F2DC "G"B,8 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Pols efter Axel Axelsson, \"Osttorp
+T: Sl\"angp. fr S\"odermanland
+O: Magnus Gustafsson
+N: Aug 1993 workshop
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: A
+|: "A"(AB)cd e3(a g2)a2 \
+| "D"(fg)Tfe (fg)af "E7"f2e2 \
+| "A"(cA)ce (ag)ae "(D)"(dc)BA \
+|1,3 "E7"(~cB)AG "A"A2E2 C2A,2 \
+:|2,4 "E7"(cB)AG (G2A2) "A"A4 :|
+|: "A"(AE)(Ac) (AE)(Ac) "Bm"d2B2 \
+| "E7"(BG)(Bd) (BG)(Bd) "A"d2c2 \
+| "A"(AE)(Ac) (AE)(Ac) "Bm"d2B2 \
+| "E7"(BG)(Bd) (BG)(Bd) "A"d2c2 |
+| "A"(AB)cd e3(a g2)a2 \
+| "D"(fg)Tfe (fg)af "E7"f2e2 \
+| "A"(cA)ce (ag)ae "(D)"(dc)BA \
+| "E7"(cB)AG (G2A2) "A"A4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska efter Byss-Calle
+S: Peter "Puma" Hedlund at ANA St\"amma 1999
+N: Version of No. 36 in "57 Låtar efter Byss-Kalle"
+N: From a transcription by Matt Fichtenbaum
+M: 3/4
+L: 1/8
+K: C
+z |\
+"C"e>g "F"fa "C"eg | "G7"f{gf}e/f/ g4 |\
+"C"e>g "F"fa "C"eg | "G7"gf/e/ fe/d/ "C"ec |\
+"C"e>g "F"fa "C"eg | "G7"f{gf}e/f/ g2 ga/b/ |
+"C"c'>g eg "G7"f{gf}d | BA/B/ "C"c3 :|\
+|: B/c/ |\
+"G7"d>B Bd df | "C"fe eg/e/ c2 |\
+"C"e>c ce eg | "G7"gf fa/f/ d2 |
+"G7"d>B Bd df | "C"fe eg/e/ c2 |\
+"C"e>c ce eg | "G7"gf fa/f/ d2 |\
+"C"e>g "F"fa "C"eg | "G7"f{gf}e/f/ g2 ga/b/ |
+"C"c'>g eg "G7"f{gf}d | BA/B/ "C"c3 :|\
+y8 y8 y8 \
+"^Variant of bar 1 and similar:"y8|\
+ee/g/ ff/a/ ee/g/ |\
+y8 y8 y8
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska efter Byss-Calle
+D: JPP "String Tease" Northside
+M: 3/4
+L: 1/16
+K: G
+|: "G"d3B G2G2 BABd | "D7"A2AB "G"G2G2 BABd |\
+"C"cBce "G"d2Bd "Am"cBAG |"D7"FGAB [1,3 AGFE D4 :|[2,4 A2BA "G"G4 :|
+|: "G"d2d2 "D7"d2ef "G"g4 | "C"g2fe "D7"d2ef "G"g2B2 |\
+"C"cBce "G"d2Bd "Am"cBAG | "D7"FGAB [1,3 AGFE D4 :|[2,4 A2BA "G"G4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska efter Carl Viktor Rulin
+B: Svenska L\aatar, #162
+O: from David Bastviken (N\"arke) Oct 1996
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: A
+|: "A"e2ce a2e2 c2e2 | "(D)"e2de "D"f2d2 d2f2 | "A"fece "E7"edBd "A"dcAc | "E7"B2A2 "(A)"GAcA "E7"E3e |
+|  "A"e2ce a2e2 c2e2 | "(D)"e2de "D"f2d2 d2f2 | "A"fece "E7"edBd "A"dcAc | "E7"B2G2 G4 "A"A4 :|
+|: "A"c2E2 E2c2 dcBc | "E7"d2E2 E2d2 "(A)"d2c2 | "A"A2ce a2e2 "D"f2d2 | "E7"d2B2 ~B2AB "A"A2c2 |
+|  "A"c2E2 E2c2 dcBc | "E7"d2E2 E2d2 "(A)"d2c2 | "A"A2ce a2e2 "D"f2d2 | "E7"dBAG G2A2 "A"A4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Pols fr\aan Djursdala
+O: Magnus Gustafsson
+N: Aug 1993 workshop
+Z: 2001 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L:  1/16
+K: Dm
+|: "Dm"D3F "A"A2^c2 "Dm"{c}~d2e2 \
+| "Dm"{g}Tf2ef gfed "A"^c2c2 \
+| "Dm"(d^c)de (Tf3e) d2f2 \
+| "C"(ef)ed "Am"(cd)cB "A7"AGFE |
+| "Dm"D2F2 A2d2 f2a2 \
+| "Gm"a2{ba}ga {a}b2a2 "A7"~g2e2 \
+| "Dm"{e}f2af "A7"e2ge "Dm"(d^c)df \
+| "A7"a2gf ^c2d2 "Dm"d4 :|
+|: "F"f4 {gfe}f4 {gfe}f2fg \
+| "C"e2ed e2ed "(A)"e2{e}f2 \
+| "Dm"d2d^c {c}~d2dc d2(3fgf \
+| "C"(ef)ed "Am"(cd)cB "A7"AGFE |
+| "Dm"D2F2 A2d2 f2a2 \
+| "Gm"a2{ba}ga {a}b2a2 "A7"~g2e2 \
+| "Dm"{e}f2af "A7"e2ge "Dm"(d^c)df \
+| "A7"a2gf ^c2d2 "Dm"d4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska efter Vingel-Anders
+T: Sl\"angpolska fr\aan Ovan\aaker
+R: polska
+F: http://www.bluerose.karenlmyers.org/media/trans/1610.pdf
+N: His real name was Anders Jansson-Wikstr\"om, from Sj\"osveden, Sk\aalsjon in H\"alsingland
+M: 3/4
+L: 1/16
+K: A
+(f \
+|: e3)(d c3)(e a3)c' | e3(d c2)(e2 (3g2)b2g2 | e3(c d3)(B c2)(A2 |1,3 E2)GB e4 f4 :|2,4 E2GB A8 :|
+|: E4 e3(d (3c2)e2c2 | D4 f3e (3d2(f2d2) | B4 (b3g) e3g |1,3 (a3c') (e3a) c3e :|2,4 (ag)fg a8 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Flypolska
+C: s\"av. Teija Niku
+O: Finland
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Edor
+"A"|:\
+"Em"E4 EFGA B2e2 | "G"d2Bd "A"c2Ac "B7"BAGF | "Em"E4 EFGA B2e2 | "G"d2Bd "A"c2A2 "B7"B4 |
+"Em"E4 EFGA B2e2 | "G"d2Bd "A"c2Ac "B7"BAGF | "Em"E3D EFGA "(G)"B2G2 | "D"F2ED "Em"E4 E4 :|
+"B"|:\
+"D"f4 f2ef "Bm"d2ef | "Em"g3a g2f2 gfeg | "D"f4 f2ef "Bm"d2ef | "Em"g3a g2fg efga |
+"G"b4 b2gb "D"a2fa | "Em"g2eg "(Bm)"f2d2 "Bm"B4 | "Em"E4 EFGA "(G)"B2G2 | "D"F2ED "Em"E4 E4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Polska efter G Lungstr\"om
+N: Learned from David Bastviken, April 1997, in Boston.
+Z: John Chambers <jc@trillian.mit.edu>
+B: Svenska L\aatar (N\"arke) p.52 #119
+R: slangpolska
+M: 3/4
+L: 1/16
+K: D
+|: "D"A2d2 FDFA dcdf | "A7"e2c2 Acec Aceg | "D"f2ag "A7"e2gf "D"d2fa | "A7"agec d2A2 "D"FDFA |
+|  "D"A2d2 FDFA dcdf | "A7"e2c2 Acec Aceg | "D"f2ag "A7"e2gf "D"d2fa | "A7"agec c2d2 "D"d4 :|
+|: "D"a2a2 fdfa fdfa | "G"g2b2 "Bm"b2b2 "Em"b4 | "A7"g2g2 eceg eceg | "D"f2a2 a2a2 a4 |
+|  "D"A2d2 FDFA dcdf | "A7"e2c2 Acec Aceg | "D"f2ag "A7"e2gf "D"d2fa | "A7"agec c2d2 "D"d4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Himlens polska   [Gm]
+O: trad. Finland
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+R: Sl\"angpolska
+M: 3/4
+L: 1/16
+K: Gm
+D2F2 "A"|\
+G3A G2F2 G2A2 | B3c B2A2 B2c2 | d2cd e2dc d2cB |1,3 B2AG FGAF :|2,4 BAGF G4 :|
+|: GABc "B"|\
+d4 d3e d2c2 | B2A2 A2F2 D4 | f4 f3g f2e2 | d2c2 c2Bc B4 | a4 a4 g4 |
+f3g a2f2 d2B2 | b2b2 a2a2 g2g2 | f3g a2f2 d2fd | e3d c2B2 A2G2 | BAGF G4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Hins Polska
+N: efter Erik August Sallin, Tysslinge, N\"arke
+N: learned from David Bastviken, Aug 1996
+Z: John Chambers <jc@trillian.mit.edu>
+O: N\"arke
+R: Sl\"angpolska
+M: 3/4
+L: 1/8
+K: A
+|: c2 A2 E2 | c2 B>d c2 | c2 A2 E2   | c2 B>d c2 \
+|  e2 d2 c2 | B2 AG E2  | F2 G>A B>G | A2 A2 z2 :|
+|: A2 GA F>G | A2 A>F E2 | A2 GA F>G | A2 A>B c2 \
+|  A2 GA F>G | A2 A>F E2 | EC DB, CA, | B,>C A,2 z2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Huggaremamma
+T: Wood-chopping momma
+O: David Bastviken Oct 1996
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Am
+E2 \
+|: "Am"c2Ac "E"B2^GB "Am"A2=g2 | "B"^fe^df "E"e2e2 B3B | "Am"cBcd e2fe dcBc | A^GAB "(E)"cABG "E"E4 |
+|  "Am"c2Ac "E"B2^GB "Am"A2=g2 | "B"^fe^df "E"e2e2 B3B | "Am"cBcd e2c2 "E"B3A | ^GABc "Am"A8 :|
+|: "Am(F)"a2ba "C"g2c'g e2c2 | "E"e2fe dcBc "(Am)"A2^G2 | "Am"A3B cBcd e2g2 | "B"^fe^df "E"e4 e3e |
+|  "Am(F)"a2ba "C"g2c'g e2c2 | "E"e2fe dcBc "(Am)"A2^G2 | "Am"A3B cBcd e2c2 | "E"BA^GB "Am"A8 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska efter Johann Olsson
+O: Leif Alpsj\"o
+R: bond-polska
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+F \
+|: "C"E2 CE G>c \
+| e2 cd B>d \
+|1,3 "Dm"f>e dc B>A \
+| "G7"A<G G2 F>F \
+:|2,4 "Dm"fe/f/ ag "G7"f>c \
+| BA/B/ "C"c4 :|
+|: "C"{e}g2 ge c>e \
+| "G7"d>c Bc d>e \
+| f2 fG B>d \
+| "C"c>B cd e>f \
+| "C"g2 ge c>f \
+| "Dm"a2 af d>g |
+| "G7"b2 ba g>f \
+| "C"e>a ge c>e \
+| "C"g2 ge c>f \
+| "Dm"a2 af d>g \
+| "G7"b2 ba g>B \
+| "C"{B}c2 c4 :|
+
+%%sep 1 1 500
+
+X: 2
+T: Slängpolska #1 efter John-Erik Mattson, Rätan
+M:3/4
+L:1/8
+%Q:1/4=150
+R:sydjämtsk slängpolska
+O:Sweden
+A:Rätan, s. Jämtland
+N:De första två polskor John-Erik lärde sig
+N:(The first two polskas John-Erik learnt)
+Z:Lennart Sohlman, Älta, Sweden
+K:D
+|:\
+"D"a^g/a/ b>a (f>d) | "A"(3fgf (e>d) e>f |\
+"A7"(3gfg (a>g) e>c |[1,3 "D"(cd) db a2 :|[2,4 "D"(cd) d4 :|
+|:\
+"D"f2 Af Af | {g}f>e (e>d) e>f |\
+[1,3 "G"g2 Bg Bg | "D"(gb) a^g a2- :|\
+[2,4 "A7"(3gfg (a>g) e>c | "D"(cd) d4 :|
+
+%%sep 1 1 500
+
+X: 2
+T: Slängpolska #2 efter John-Erik Mattson, Rätan
+M:3/4
+L:1/8
+%Q:1/4=150
+R:sydjämtsk slängpolska
+O:Sweden
+A:Rätan, s. Jämtland
+N:De första två polskor John-Erik lärde sig
+N:(The first two polskas John-Erik learnt)
+Z:Lennart Sohlman, Älta, Sweden
+K:D
+|: "D"f2 (fg) eg | "D"(fd) (dF) Ad | "A"(dc) (ce) Ac | "D"(cd) (dF) Ad |
+| "D"(df) (fg) eg | "D"(fd) (dF) Ad | "A7"(dc) (ce) Ac | "D"(cd) d4 :|
+|: "D"f2 {g}(3fef df | "G"g2 {a}(3gfg b2 | "A7"c2 ce ac | "D"(cd) df a2 |
+| "D"f2 {g}(3fef df | "G"g2 {a}(3gfg b2 | "A7"c2 ce ac | "D"(cd) d4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska efter Juringius  [Am]
+T: Polon\"as ur Sexdregasamlingen
+T: Sl\"angpolska fr\aan Kalmar
+%date: 1693
+O:Sweden 1693
+A:Sm\aaland
+R:sl\"angpolska
+S:http://archive.folx.org/tune/polska/slangpolska-efter-juringius-87
+K:Am
+M:3/4
+L:1/8
+z |\
+"Am"e>e Ae Ae | "Dm"~f>e de fg |\
+"G"d>d Gd Gd | "C"e>d cd ef |\
+"(Am)"e>e dc "G"B>A | (G/A/)B/G/ "Am"A2 :: G/A/ |\
+"Em"~B>B EB EB |
+"Am"~c>B AB cd |\
+"Em"~B>B EB EB | "Am"~c>B AB cd |\
+"G"d>d Gd Gd | "C"e>d cd ef |\
+"(Am)"e>e dc "G"B>A | (G/A/)B/G/ "Am"A3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska efter Juringius  [Bm]
+T: Polon\"as ur Sexdregasamlingen
+T: Sl\"angpolska fr\aan Kalmar
+%D: 1693
+O:Sweden 1693
+A:Sm\aaland
+R:sl\"angpolska
+S:http://archive.folx.org/tune/polska/slangpolska-efter-juringius-87
+K:Bm
+M:3/4
+L:1/8
+z |\
+"Bm"f>f Bf Bf | "Em"~g>f ef ga |\
+"A"e>e Ae Ae | "D"f>e de fg |\
+"Bm"f>f ed "A"c>B | (A/B/)c/A/ "Bm"B2 :: A/B/ |\
+"F#m"~c>c Fc Fc |
+"Bm"~d>c Bc de |\
+"F#m"~c>c Fc Fc | "Bm"~d>c Bc de |\
+"A"e>e Ae Ae | "D"f>e de fg |\
+"Bm"f>f ed "A"c>B | (A/B/)c/A/ "Bm"B3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska efter Juringius  [Dm]
+T: Polon\"as ur Sexdregasamlingen
+T: Sl\"angpolska fr\aan Kalmar
+%D: 1693
+O:Sweden 1693
+A:Sm\aaland
+R:sl\"angpolska
+S:http://archive.folx.org/tune/polska/slangpolska-efter-juringius-87
+K:Dm
+M:3/4
+L:1/8
+z |\
+"Dm"A>A DA DA | "Gm"~B>A GA Bc |\
+"C"G>G CG CG | "F"A>G FG AB |\
+"Dm"A>A GF "C"E>D | (C/D/)E/C/ "Dm"D2 :: C/D/ |\
+"Am"~E>E A,E A,E |
+"Dm"~F>E DE FG |\
+"Am"~E>E A,E A,E | "Dm"~F>E DE FG |\
+"C"G>G CG CG | "F"A>G FG AB |\
+"Dm"A>A GF "C"E>D | (C/D/)E/C/ "Dm"D3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska efter Juringius  [Em]
+T: Polon\"as ur Sexdregasamlingen
+T: Sl\"angpolska fr\aan Kalmar
+%D: 1693
+O:Sweden 1693
+A:Sm\aaland
+R:sl\"angpolska
+S:http://archive.folx.org/tune/polska/slangpolska-efter-juringius-87
+K:Em
+M:3/4
+L:1/8
+z |\
+"Em"B>B EB EB | "Am"~c>B AB cd |\
+"D"A>A DA DA | "G"B>A GA Bc |\
+"Em"B>B AG "D"F>E | (D/E/)F/D/ "Em"E2 :: D/E/ |\
+"Bm"~F>F B,F B,F |
+"Em"~G>F EF GA |\
+"Bm"~F>F B,F B,F | "Em"~G>F EF GA |\
+"D"A>A DA DA | "G"B>A GA Bc |\
+"Em"B>B AG "D"F>E | (D/E/)F/D/ "Em"E3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska efter Juringius  [Gm]
+T: Polon\"as ur Sexdregasamlingen
+T: Sl\"angpolska fr\aan Kalmar
+%D: 1693
+O:Sweden 1693
+A:Sm\aaland
+R:sl\"angpolska
+S:http://archive.folx.org/tune/polska/slangpolska-efter-juringius-87
+K:Gm
+M:3/4
+L:1/8
+z |\
+"Gm"d>d Gd Gd | "Cm"~e>d cd ef |\
+"F"c>c Fc Fc | "Bb"d>c Bc de |\
+"Gm"d>d cB "F"A>G | (F/G/)A/F/ "Gm"G2 :: F/G/ |\
+"Dm"~A>A DA DA |
+"Gm"~B>A GA Bc |\
+"Dm"~A>A DA DA | "Gm"~B>A GA Bc |\
+"F"c>c Fc Fc | "Bb"d>c Bc de |\
+"Gm"d>d cB "F"A>G | (F/G/)A/F/ "Gm"G3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska fr\aan Kumla
+O:efter Olov Larsson, Hidinge
+O: David Bastviken Feb 1997
+Z: John Chambers <jc@trillian.mit.edu>
+M:3/4
+L:1/16
+K:D
+A2 \
+|: "D"dedc d2A2 F3A | dcde d2A2 f4 | "Em"e3f g2e2 "D"f2d2 |1,3 "(E7)"d2cd "A7"e2c2 A3c :|2,4 "A7"cdec c2d2 "D"d4 :|
+|: "D"fafd fafd fafd | "A7"eaec eaec eaec | "G"{c}d2c B2c2 "E7"d2e2 | d2cB "A"A4 A2A2 |
+| "G"BdBG BdBG BdBG | "D"AdAF AdAF AdAF | "Em"{F}G3F E2g2 "D"f2d2 | "A7"fedc c2d2 "D"d4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Lapp-Nisses polska
+T: Sl\"angpolska fr\aan En\aanger/Bjur\aaker
+O: efter Bengt Jonsson
+S: Bengt Jonsson
+R: polska, mazurka
+%Q: 1/4=126
+M: 3/4
+L: 1/8
+K: A
+|: "A"E>A A>A A>e | f>e c4 | E>A A>A A>e | "Bm"f>e d4 \
+| "E7"E>G G>B B>e | g2 g4 | "D"a>f d>f d>f | "A"fe c4 :|
+|: "A"e2 f>e c>B | A>c c>c c>c | "E7"B>B B>B B>B |1,3 "A"c>c c>c c>c :|2,4 "A"A2 A4 :|
+|: "D"~a>g a2 f2 | "(Bm)"~d>c d2 B2 | "E7"E>G B>[eE] G>B |1,3 "A"A>B c<d e2 :|2,4 "A"A2 A4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska efter Leif Alpsj\"o
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+A \
+|: "D(A7)"AB AG FE \
+| "D"DF Ad f-f \
+| "A7"fa ag ec \
+|1,3 "D"df ed cB \
+:|2,4 "D"d4 zA :|
+|: "D"A{Bc}d d2 dB \
+| BA {^g}a2 A2 \
+| A{Bc}d d2 dB \
+| BA {c}d2 F2 \
+| "G"GA B2 AG \
+| "D"FA df a-a \
+| "A7"ab ag ec \
+| "D"d6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Polska efter Manne Stj\"arnsten
+T: Sl\"angpolska fr\aan Torp
+O: Sweden
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: 3/4
+L: 1/8
+K: G
+V: 1
+|: G2 G>(A B)>c | d2 d>(B c)>A \
+| f2 f>(A c)>B | g2 g>(B d)>B |\
+|  G2 G>(A B)>c |
+| d2 d>(B c)>A | f2 f>(e c)>A \
+|1 G2 G3 D :|2 G2 G3 g \
+|: b2 G>(B d)>(g | f)>(A d)>(f a2) |
+| c'2 A>(f a)>(f | g2) G>(B d)>(g |\
+| b2) G>(B d)>(g | f)>(A d)>(f a2) \
+| c'2 [AD]>(f a)>(f | g2) g3 z :|
+V: 2
+|: B,2 B,>(D G)>A | B2 B>(G A)>F \
+| d2 d>(F A)>G | B2 B>(G B)>G |\
+|  B,2 B,>(D G)>A |
+| B2 B>(G A)>F | d2 d>(c A)>F \
+|1 G>(D B,)>(A, B,)C :|2 G>(D B,)>(D G)B \
+|: (G2 D2 B2) | D2 F>A F2 |
+| (A2 D2 c2) | B6 |\
+|  (G2 D2 B2) | D2 F>A F2 \
+| (A2 D2 c2) | B2 B3 z :|
+
+%%sep 1 1 500
+
+X: 1
+T: Polska fr\aan M\"oklinta
+R: slang-polska
+C: efter klockare Robert Landin (1850-1907)
+A: V\"astmanland
+D: SW\AAP: [sic]
+Z: id:hn-sp-52
+M: 3/4
+L: 1/16
+K: D
+|: A2d2 cdec d4   | A2f2 efge f4   | a2gf g2fe f2ed | cdcB ABAG FGFE |
+|  D2d2 cdec d4   | A2f2 efge f4   | a2gf e2d2 c2B2 | cBA^G A8      :|
+|: A2e2 a2gf g2ed | B2f2 g2fe f2ed | c2a2 B2g2 A2f2 | efed cdcB A4   |
+|  A2d2 cdec d4   | A2f2 efge f4   | a2gf g2fe f2ed | cdec d8       :|
+
+%%sep 1 1 500
+
+X: 1
+T: Polska fr\aan M\"oklinta
+O: Trad
+N: (Nummer 3 i R\"oda h\"aftet)
+S: http://www.v-dalaspelmanslag.se/pdf/vdala035.pdf
+M: 3/4
+L: 1/16
+K: A
+|: agfg a2a2 f3a  | agbg e4   B4   | c2cd e2ef g2e2 | gfe^d e2B2 =dcBc |
+|  A2a2 g2a2 f3a  | agbg e4   B4   | c2cd e2ef g2e2 | gfe^d e8 :|
+|: ecec BdBG A2A2 | cAce dcdf e3e  | ecec BdBG A2A2 |
+|  cAce dcdf e3a  | agfg afdf fece | edBG A8 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Polska fr\aan M\"oklinta
+T: efter klockare Nystr\"om
+S: Nyckelharpa version by Petrus Hyvonen
+D: Sw\aap
+M: 3/4
+L: 1/16
+K: A
+|:A2ce  a2g2 a2f2 \
+| f3e   e2d2 d2c2 \
+| cdef  agfe dcBA \
+|1,3 cBAG G2A2 E4 \
+:|2,4 cBAG G2A2 A4 :|
+|:c2c2- d2d2- c2c2 \
+| d2d2- c2c2 a2a2 \
+| c3c-  d2d2- c3c \
+| d2d2  c2c2 a2a2 \
+| B3A   B2d2 cBAG |
+| A2c2  e2fe dcBA \
+| B2B2- B2d2 cBAG \
+| A2c2  e2fe dcBA \
+| ABcd  e2a2 e3d \
+| cBAG  B4   A4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska fr\aan N\"arke
+O: David Bastviken Feb 1997
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+|: "D"D>F Ad fa | ag/f/ "A7"gf/e/ "D"fa |  D>F Ad fa | ag/f/ "A7"e4 :|
+|: "D"f>a gf "(A)"ed | "A7"cd ed cB/A/ | "D"f>a gf "(A)"ed | "A7"cd/e/ A4 | "D"f>a "G"Bc "D"de | "A7"ed/c/ "D"d4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska fr\aan N\"arke
+O: David Bastviken Feb 1997
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+|: "G"dg gf fe | "D7"{e}fa/f/ d3 c | "G"BA/B/ "C"cB AG |1,3 " D7"B/A/G/F/ "G"GD B,G, :|2,4 " D7"AF F2 "G"G2 :|
+|: "G"GB BA "D7"A2 | Ac cB "G"B2 | Bd dc "C"c2 | ce ed "D7"d2 |
+| "G"dg gf fe | "D7"{e}fa/f/ d3 c | "G"BA/B/ "C"cB AG | "D7"AF F2 "G"G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Dansen Ungdom
+T: Old Bagpipe Tune (sl\"angpolska)
+O: efter Magnus Gustafsson (Sm\aaland)
+N: Aug 1993 workshop
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: G
+z2 \
+| "G"{B}B2B2 G4 B4 | (Bd)cB "D"A2A2 "G"{A}B4 \
+| "Em"B2G2 E3F G2F2 |1,3 " D"~E2D2 "Em"{D}E4 B4 :|2,4 " D"~E2D2 "Em"{D}E4 E2 :|
+|: Bc \
+| "G"d2dB G2BG "D"F2BF | "G"G2GF G2A2 "(D7)"B2Bc \
+| "G"d2dB G2BG "D"F2BF | "Em"G2GF "D"(~E2D2) "Em"E2Bc |
+| "G"d2dB G2BG "D"F2BF | "G"G2GF G2A2 B4 \
+| "Em"E3F G2F2 "D"~E2D2 | "Em"{D}E4 E6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska efter Per Erik Olsson, Hidinge, N\"arke
+O: from David Bastviken Aug 1996
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K:A
+|: "A"e4 cAce "D"dcdf | "A"e2e2 cAce "D"dcdf \
+| "A"e2e2 agfe "D"fedc |1,3 "E7"~c2B2 B2Be "A"c2A2 :|2,4 "E7"~c2Bc B4 "A"A4 :|
+|: "A"E3A A2c2 c2e2 | "E7"e2d2 dBGB "A"d2c2 \
+|1,3 E3A A2c2 c2e2 | e2a2 "D"afdf "E7"e4 :|2,4 "A"A2ce agfe "D"fedc | "E7"~c2Bc B4 "A"A4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Polska efter Petter Dufva
+O: Sm\aaland, Sweden
+M: 3/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+S: printed MS from Matt Fichtenbaum (March 2009)
+K: D
+|: "D"d>c df A2 | "G"GF "A"EG "D"FD \
+|  "D"d>c df A2 | "A7"GF/E/ "D"F2 D2 :|
+|: "D"f>d df df | "Em"g>e eg "A7"eg \
+|  "D"f>d df df | "Em"g>e eg "A7"eg \
+|  "D"f>a "G"gf "(A7)"ed | "A7"ed/c/ "D"d4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Pinnin polska
+O: trad. Finland
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: D
+"A"|:\
+A2d2 d2eg f2ed | "A"c2A2 Acec Acec | "G"B3B d2c2 B2A2 \
+|1,3 "A"B2A2 A2B2 c2A2 :|2,4 "A"BABc A4 A4 :|
+"B"|:\
+"D"A2a2 afdf afdf | "A7"g2g2 gece gece | "Em"g2ba gagf efed \
+|1,3 "A7"c2d2 e2ge dcBA :|2,4 "A"c2Ac e4 "D"d4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Seijarin polska
+O: trad. Finland
+P: polska
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: G
+|:\
+"G"g2ba g3e "C"e2d2 | "G"d2ef gfge "C"e2d2 |\
+"G"d2gf "Em"g2B2 "Am"A2c2 | "D7"BcAF "G"G4 G4 :|
+|:\
+"G"BABd edBd "Am"c2Bc | "D7"A2AB c2Ac "G"B2G2 |\
+"G"B2d2 edBd "Am"c2Bc | "D7"A2AB c2Ac "G"B2G2 |\
+"Em"G2gf g2B2 "Am"A2c2 | "D7"BcAF "G"G4 G4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: sl\"angpolska efter Skinner Albin
+T: Sj\"o och Land
+O: efter Ulla K\"onig
+D: Anders Ros\'en, Kalle Alml\"of "Stamp, Tramp och L\aangkut"
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+|: "Dm"f>e d^c d>f | "A7"e<^c A4 | A>G FE D>^C |1,3 "D"D>E FG A2 :|2,4 "D"{^C}D2 D4 :|
+|: "A7"{D}^CD {D}E3 E | "Dm"DE F3 F \
+| "C7"EF G3 E | "F"FG {G}A3 A \
+| "Gm"B>A G^F G>B | "Dm"A<G F3 F \
+| "A7"E>D ^CD E>C | "Dm"{^C}D2 D4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Polska efter Skrap Ollas
+T: Skrap Ollas polska
+T: River jag s\"onder i kras
+R: sl\"angpolska
+H: efter Karl Fahlstr\"om "Glysen", som bodde i Karlskoga-Grythyttans bergslag.
+H: Nedtecknad i V\"astg\"otetorp, Loka 1910. D-bas. Jfr #188.
+A: V\"astmanland
+D: Anders Norudde: Kan sj\"alv! (spelas i A p{\aa} skivan)
+D: lydia & Andrea: Fika
+Z: id:hn-sp-215
+M: 3/4
+L: 1/16
+K: D
+|:\
+"D"f3d A2A2 "A7"G2G2 | "D"FDEF "G"GFGB "A7"A2A2 |\
+"D"f3d A2A2 "A7"G2G2 | "D"FDEF "G"GFGB "D"B2A2 |\
+"G"B3A B2c2 d2B2 | "D"A2AG F2G2 A4 |
+"G"B2BA B2c2 d2B2 | "D"ABAG F2G2 A4 |\
+"G"B2B2 g2f2 "A7"e2d2 | "/b"c2Bc "/c#"e4 "D"Hd4 :|\
+|:\
+"D"A2A2 "A7"GFEG "D"F2F2 | "D"F2F2 "(A)"FDEF "D"D2F2 |
+"D"A2A2 "A7"GFEG "D"F2D2 | "D"F2F2 EDEF D4 |\
+"G"B2B2 g2f2 "A7"e2d2 | "/b"c2Bc "/c#"e4 "D"d4 :| [K:=f=c][K:Dm] \
+|:\
+"Dm"A2a2 a2ga "A"a2e2 | e2fg "Dm"f2ef f2d2 |
+"Dm"d2d^c d2e2 e2f2 | "A"f2ef "/b"d2ed "/c#"^c2A2 |\
+"Dm"A2a2 a2ga "A"a2e2 | e2fg "Dm"f2ef f2d2 |\
+"Dm"d2d^c d2e2 "A"f2e2 | "/b"d2^cd "/c#"e4 "Dm"d4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska fr. Sm\aaland
+S: Andrea Hoag's 5th workshop 10/6/93 A-2
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+N: handwritten MS
+M: 3/4
+L: 1/16
+K: D
+|: dcdc dcdc dcde |    f2fe d2dc B4  | BABA BABA BABc | d2dc B2BA G4  | E2G2 B2e2 fge2 |
+|  eddc e4   d4  :: {e}fgef d2fd e3e | f2ef g2g2 e3e  | fgef d2fd e3f | gfed c2d2 d4  :|
+
+%%sep 1 1 500
+
+X: 1
+T: Syrj\"al\"an Kaapoon polska  (A)
+O: Matti Haudanmaan (ohjelmistoa)
+R: polska
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: A
+e2- |\
+"A"efed c2d2 "E/G#"e2fg | "F#m"a2gb a2g2 "E"f2e2 | "D"fgfe d2c2 "Bm"B2A2 | "E"GABG E4 "A"A4 :|
+|:\
+"E"B3A GABc d2B2 | "A"A2AG ABcd e2c2 | "Bm"B3A GABc "E"d2B2 | "A"A2AG ABcd e2ec |
+"D"f2fe d2c2 "Bm"B2A2 |1 "E"GABG E4 "A"A4 :|2 "E"GEGB B4 "A"A4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Syrj\"al\"an Kaapoon polska  [C]
+O: Matti Haudanmaan (ohjelmistoa)
+R: polska
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: C
+g2- |\
+"C"gagf e2f2 g2ab | "F"c'2bd' c'2b2 a2g2 | "Dm"abag f2e2 d2c2 |
+"G"BcdB G4 "C"c3e | gagf e2f2 g2ab | "F"c'2bd' c'2b2 a2g2 |
+"Dm"abag f2e2 d2c2 | "G"BcdB G4 "C"c4 |: "G"d3c Bcde f2d2 |
+"C"c2cB cdef g2e2 | "Dm"d3c Bcde "G"f2d2 | "C"c2cB cdef g2gf |
+"F"a2ag f2e2 "Dm"d2c2 |1 "G"BcdB G4 "C"c4 :|2 "G"BGBd d4 "C"c4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska etter Tone Hulb\aekmo
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+g \
+| "G"ba g3 f \
+| "C"ed c3 B \
+| "D7"AF DF Ac \
+|1,3 "G"(3BdB GB d \
+:|2,4 (3BdB "G"G3 :: D \
+| "G"GB d2 BG |
+| "D7"Fz F3 D \
+| FA c3 B \
+| "G"Gz G3 D \
+| "G"GB d3 d \
+| "C"ed cB cB \
+| "D7"Ag fd fa \
+| a{ba}f "G"g3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska fr\aan Torp
+O: efter Mandis Nilsson
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+|: "G"d(c  B)G Bd \
+| "Am"dc (c<e) A2 \
+| "D7"ag fd fa \
+| "G"ag (g<b) d2- \
+| d(c  B)G Bd \
+| "Am"dc (c<e) A2 \
+| "D7"ag fd ef \
+| "G"g2 g4 :|
+|: "G"ba gB dg \
+| "Am"gf (f<a) a2- \
+| "D7"a(g f)d fa \
+| "G"ag (g<b) b2- \
+| ba gB dg \
+| "Am"gf (f<a) a2- \
+| "D7"ag fd ef \
+| "G"g2 g4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Tuoltape kuuluu lehm\"ankello   [Am]
+O: trad. Finland
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Am
+"A"|:\
+"Am"ABcd e4 a4 | "Em"agbg e6 g2 |\
+"Dm"f2e2 d2c2 B2A2 | "Am"ABcd "D"ed^fd "E"e2e2 :|
+"B"|:\
+"Am"cBdc "(E)"BAcB "Am"A^GAB | "Am"cBAc "Dm"B2A2 "E"E4 |\
+"Am"c2Bc "Dm"d2cd "Am"e2e2 |1 "E7"cBA^G B4 "Am"A2B2 :|2 "E7"cBA^G B4 "Am"A4 |]
+"C"|:\
+"C"g4 gfed "G7"cdef | "C"g2ag "G"a2b2 "Am"c'4 |\
+"Am"c4 "Dm"d4 "Am"e4 | "E7"cBA^G B4 "Am"A2B2 |
+"Am"cBdc "(E)"BAcB "Am"A^GAB | "Am"cBAc "Dm"B2A2 "E"E4 |\
+"Am"c2Bc "Dm"d2cd "Am"e2e2 | "E7"cBA^G B4 "Am"A4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Tuoltape kuuluu lehm\"ankello   [Gm]
+O: trad. Finland
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Gm
+"A"|:\
+"Gm"GABc d4 g4 | "Dm"gfaf d6 f2 |\
+"Cm"e2d2 c2B2 A2G2 | "Gm"GABc "C"dc=ec "D"d2d2 :|
+"B"|:\
+"Gm"BAcB "(D)"AGBA "Gm"G^FGA | "Gm"BAGB "Cm"A2G2 "D"D4 |\
+"Gm"B2AB "Cm"c2Bc "Gm"d2d2 |1 "D7"BAG^F A4 "Gm"G2A2 :|2 "D7"BAG^F A4 "Gm"G4 |]
+"C"|:\
+"Bb"f4 fedc "F7"Bcde | "Bb"f2gf "F"g2a2 "Gm"b4 |\
+"Gm"B4 "Cm"c4 "Gm"d4 | "D7"BAG^F A4 "Gm"G2A2 |
+"Gm"BAcB "(D)"AGBA "Gm"G^FGA | "Gm"BAGB "Cm"A2G2 "D"D4 |\
+"Gm"B2AB "Cm"c2Bc "Gm"d2d2 | "D7"BAG^F A4 "Gm"G4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Tuoltape kuuluu lehm\"ankello   [Am]
+O: trad. Finland
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Am
+"A"|:\
+"Am"ABcd e4 a4 | "Em"agbg e6 g2 |\
+"Dm"f2e2 d2c2 B2A2 | "Am"ABcd "D"ed^fd "E"e2e2 :|
+"B"|:\
+"Am"cBdc "(E)"BAcB "Am"A^GAB | "Am"cBAc "Dm"B2A2 "E"E4 |\
+"Am"c2Bc "Dm"d2cd "Am"e2e2 |1 "E7"cBA^G B4 "Am"A2B2 :|2 "E7"cBA^G B4 "Am"A4 |]
+"C"|:\
+"C"g4 gfed "G7"cdef | "C"g2ag "G"a2b2 "Am"c'4 |\
+"Am"c4 "Dm"d4 "Am"e4 | "E7"cBA^G B4 "Am"A2B2 |
+"Am"cBdc "(E)"BAcB "Am"A^GAB | "Am"cBAc "Dm"B2A2 "E"E4 |\
+"Am"c2Bc "Dm"d2cd "Am"e2e2 | "E7"cBA^G B4 "Am"A4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Tuoltape kuuluu lehm\"ankello   [Gm]
+O: trad. Finland
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Gm
+"A"|:\
+"Gm"GABc d4 g4 | "Dm"gfaf d6 f2 |\
+"Cm"e2d2 c2B2 A2G2 | "Gm"GABc "C"dc=ec "D"d2d2 :|
+"B"|:\
+"Gm"BAcB "(D)"AGBA "Gm"G^FGA | "Gm"BAGB "Cm"A2G2 "D"D4 |\
+"Gm"B2AB "Cm"c2Bc "Gm"d2d2 |1 "D7"BAG^F A4 "Gm"G2A2 :|2 "D7"BAG^F A4 "Gm"G4 |]
+"C"|:\
+"Bb"f4 fedc "F7"Bcde | "Bb"f2gf "F"g2a2 "Gm"b4 |\
+"Gm"B4 "Cm"c4 "Gm"d4 | "D7"BAG^F A4 "Gm"G2A2 |
+"Gm"BAcB "(D)"AGBA "Gm"G^FGA | "Gm"BAGB "Cm"A2G2 "D"D4 |\
+"Gm"B2AB "Cm"c2Bc "Gm"d2d2 | "D7"BAG^F A4 "Gm"G4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska fr\aan N\"arke
+O: David Bastviken Feb 1997
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+|: "D"D>F Ad fa | ag/f/ "A7"gf/e/ "D"fa |  D>F Ad fa | ag/f/ "A7"e4 :|
+|: "D"f>a gf "(A)"ed | "A7"cd ed cB/A/ | "D"f>a gf "(A)"ed | "A7"cd/e/ A4 | "D"f>a "G"Bc "D"de | "A7"ed/c/ "D"d4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska fr\aan N\"arke
+O: David Bastviken Feb 1997
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+|: "G"dg gf fe | "D7"{e}fa/f/ d3 c | "G"BA/B/ "C"cB AG |1,3 " D7"B/A/G/F/ "G"GD B,G, :|2,4 " D7"AF F2 "G"G2 :|
+|: "G"GB BA "D7"A2 | Ac cB "G"B2 | Bd dc "C"c2 | ce ed "D7"d2 |
+| "G"dg gf fe | "D7"{e}fa/f/ d3 c | "G"BA/B/ "C"cB AG | "D7"AF F2 "G"G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska efter Johann Olsson
+O: Leif Alpsj\"o
+R: bond-polska
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+F \
+|: "C"E2 CE G>c \
+| e2 cd B>d \
+|1,3 "Dm"f>e dc B>A \
+| "G7"A<G G2 F>F \
+:|2,4 "Dm"fe/f/ ag "G7"f>c \
+| BA/B/ "C"c4 :|
+|: "C"{e}g2 ge c>e \
+| "G7"d>c Bc d>e \
+| f2 fG B>d \
+| "C"c>B cd e>f \
+| "C"g2 ge c>f \
+| "Dm"a2 af d>g |
+| "G7"b2 ba g>f \
+| "C"e>a ge c>e \
+| "C"g2 ge c>f \
+| "Dm"a2 af d>g \
+| "G7"b2 ba g>B \
+| "C"{B}c2 c4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Dansen Ungdom
+T: Old Bagpipe Tune (sl\"angpolska)
+O: efter Magnus Gustafsson (Sm\aaland)
+N: Aug 1993 workshop
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: G
+z2 \
+| "G"{B}B2B2 G4 B4 | (Bd)cB "D"A2A2 "G"{A}B4 \
+| "Em"B2G2 E3F G2F2 |1,3 " D"~E2D2 "Em"{D}E4 B4 :|2,4 " D"~E2D2 "Em"{D}E4 E2 :|
+|: Bc \
+| "G"d2dB G2BG "D"F2BF | "G"G2GF G2A2 "(D7)"B2Bc \
+| "G"d2dB G2BG "D"F2BF | "Em"G2GF "D"(~E2D2) "Em"E2Bc |
+| "G"d2dB G2BG "D"F2BF | "G"G2GF G2A2 B4 \
+| "Em"E3F G2F2 "D"~E2D2 | "Em"{D}E4 E6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska efter Leif Alpsj\"o
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+A \
+|: "D(A7)"AB AG FE \
+| "D"DF Ad f-f \
+| "A7"fa ag ec \
+|1,3 "D"df ed cB \
+:|2,4 "D"d4 zA :|
+|: "D"A{Bc}d d2 dB \
+| BA {^g}a2 A2 \
+| A{Bc}d d2 dB \
+| BA {c}d2 F2 \
+| "G"GA B2 AG \
+| "D"FA df a-a \
+| "A7"ab ag ec \
+| "D"d6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska etter Tone Hulb\aekmo
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+g \
+| "G"ba g3 f \
+| "C"ed c3 B \
+| "D7"AF DF Ac \
+|1,3 "G"(3BdB GB d \
+:|2,4 (3BdB "G"G3 :: D \
+| "G"GB d2 BG |
+| "D7"Fz F3 D \
+| FA c3 B \
+| "G"Gz G3 D \
+| "G"GB d3 d \
+| "C"ed cB cB \
+| "D7"Ag fd fa \
+| a{ba}f "G"g3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\angpolska
+R: sl\angpolska
+S: Janet Gage, Oct 1998
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+M: 3/4
+L: 1/8
+K: G
+|: GG/A/ Bd gd | ec Ad BG | G>A Bc A>B | GF/G/ TBA FD |
+|  GG/A/ Bd gd | ec Ad BG | A>B ce dc | B/c/A/F/ G4 :|
+|: {A}a>a fd d2 | b>a ge cd/e/ | T=fe dc BA/B/ | cd/e/ =fd d2 |
+|  a>a fd d2 | b>a ge cd/e/ | T=fe dc Bd/B/ | AG/F/ G4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska fr\aan Kumla
+O:efter Olov Larsson, Hidinge
+O: David Bastviken Feb 1997
+Z: John Chambers <jc@trillian.mit.edu>
+M:3/4
+L:1/16
+K:D
+A2 \
+|: "D"dedc d2A2 F3A | dcde d2A2 f4 | "Em"e3f g2e2 "D"f2d2 |1,3 "(E7)"d2cd "A7"e2c2 A3c :|2,4 "A7"cdec c2d2 "D"d4 :|
+|: "D"fafd fafd fafd | "A7"eaec eaec eaec | "G"{c}d2c B2c2 "E7"d2e2 | d2cB "A"A4 A2A2 |
+| "G"BdBG BdBG BdBG | "D"AdAF AdAF AdAF | "Em"{F}G3F E2g2 "D"f2d2 | "A7"fedc c2d2 "D"d4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska efter Byss-Calle
+D: JPP "String Tease" Northside
+M: 3/4
+L: 1/16
+K: G
+|: "G"d3B G2G2 BABd | "D7"A2AB "G"G2G2 BABd |\
+"C"cBce "G"d2Bd "Am"cBAG |"D7"FGAB [1,3 AGFE D4 :|[2,4 A2BA "G"G4 :|
+|: "G"d2d2 "D7"d2ef "G"g4 | "C"g2fe "D7"d2ef "G"g2B2 |\
+"C"cBce "G"d2Bd "Am"cBAG | "D7"FGAB [1,3 AGFE D4 :|[2,4 A2BA "G"G4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska efter Carl Viktor Rulin
+B: Svenska L\aatar, #162
+O: from David Bastviken (N\"arke) Oct 1996
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: A
+|: "A"e2ce a2e2 c2e2 | "(D)"e2de "D"f2d2 d2f2 | "A"fece "E7"edBd "A"dcAc | "E7"B2A2 "(A)"GAcA "E7"E3e |
+|  "A"e2ce a2e2 c2e2 | "(D)"e2de "D"f2d2 d2f2 | "A"fece "E7"edBd "A"dcAc | "E7"B2G2 G4 "A"A4 :|
+|: "A"c2E2 E2c2 dcBc | "E7"d2E2 E2d2 "(A)"d2c2 | "A"A2ce a2e2 "D"f2d2 | "E7"d2B2 ~B2AB "A"A2c2 |
+|  "A"c2E2 E2c2 dcBc | "E7"d2E2 E2d2 "(A)"d2c2 | "A"A2ce a2e2 "D"f2d2 | "E7"dBAG G2A2 "A"A4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska efter Per Erik Olsson, Hidinge, N\"arke
+O: from David Bastviken Aug 1996
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K:A
+|: "A"e4 cAce "D"dcdf | "A"e2e2 cAce "D"dcdf \
+| "A"e2e2 agfe "D"fedc |1,3 "E7"~c2B2 B2Be "A"c2A2 :|2,4 "E7"~c2Bc B4 "A"A4 :|
+|: "A"E3A A2c2 c2e2 | "E7"e2d2 dBGB "A"d2c2 \
+|1,3 E3A A2c2 c2e2 | e2a2 "D"afdf "E7"e4 :|2,4 "A"A2ce agfe "D"fedc | "E7"~c2Bc B4 "A"A4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: sl\"angpolska efter Skinner Albin
+T: Sj\"o och Land
+O: efter Ulla K\"onig
+D: Anders Ros\'en, Kalle Alml\"of "Stamp, Tramp och L\aangkut"
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+|: "Dm"f>e d^c d>f | "A7"e<^c A4 | A>G FE D>^C |1,3 "D"D>E FG A2 :|2,4 "D"{^C}D2 D4 :|
+|: "A7"{D}^CD {D}E3 E | "Dm"DE F3 F \
+| "C7"EF G3 E | "F"FG {G}A3 A \
+| "Gm"B>A G^F G>B | "Dm"A<G F3 F \
+| "A7"E>D ^CD E>C | "Dm"{^C}D2 D4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska fr. Sm\aaland
+S: Andrea Hoag's 5th workshop 10/6/93 A-2
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+N: handwritten MS
+M: 3/4
+L: 1/16
+K: D
+|: dcdc dcdc dcde |    f2fe d2dc B4  | BABA BABA BABc | d2dc B2BA G4  | E2G2 B2e2 fge2 |
+|  eddc e4   d4  :: {e}fgef d2fd e3e | f2ef g2g2 e3e  | fgef d2fd e3f | gfed c2d2 d4  :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska fr\aan Torp
+O: efter Mandis Nilsson
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+|: "G"d(c  B)G Bd \
+| "Am"dc (c<e) A2 \
+| "D7"ag fd fa \
+| "G"ag (g<b) d2- \
+| d(c  B)G Bd \
+| "Am"dc (c<e) A2 \
+| "D7"ag fd ef \
+| "G"g2 g4 :|
+|: "G"ba gB dg \
+| "Am"gf (f<a) a2- \
+| "D7"a(g f)d fa \
+| "G"ag (g<b) b2- \
+| ba gB dg \
+| "Am"gf (f<a) a2- \
+| "D7"ag fd ef \
+| "G"g2 g4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska efter Vingel-Anders
+T: Sl\"angpolska fr\aan Ovan\aaker
+R: polska
+F: http://www.bluerose.karenlmyers.org/media/trans/1610.pdf
+N: His real name was Anders Jansson-Wikstr\"om, from Sj\"osveden, Sk\aalsjon in H\"alsingland
+M: 3/4
+L: 1/16
+K: A
+(f \
+|: e3)(d c3)(e a3)c' | e3(d c2)(e2 (3g2)b2g2 | e3(c d3)(B c2)(A2 |1,3 E2)GB e4 f4 :|2,4 E2GB A8 :|
+|: E4 e3(d (3c2)e2c2 | D4 f3e (3d2(f2d2) | B4 (b3g) e3g |1,3 (a3c') (e3a) c3e :|2,4 (ag)fg a8 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska efter Juringius  [Am]
+T: Polon\"as ur Sexdregasamlingen
+T: Sl\"angpolska fr\aan Kalmar
+%date: 1693
+O:Sweden 1693
+A:Sm\aaland
+R:sl\"angpolska
+S:http://archive.folx.org/tune/polska/slangpolska-efter-juringius-87
+K:Am
+M:3/4
+L:1/8
+z |\
+"Am"e>e Ae Ae | "Dm"~f>e de fg |\
+"G"d>d Gd Gd | "C"e>d cd ef |\
+"(Am)"e>e dc "G"B>A | (G/A/)B/G/ "Am"A2 :: G/A/ |\
+"Em"~B>B EB EB |
+"Am"~c>B AB cd |\
+"Em"~B>B EB EB | "Am"~c>B AB cd |\
+"G"d>d Gd Gd | "C"e>d cd ef |\
+"(Am)"e>e dc "G"B>A | (G/A/)B/G/ "Am"A3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska efter Juringius  [Bm]
+T: Polon\"as ur Sexdregasamlingen
+T: Sl\"angpolska fr\aan Kalmar
+%D: 1693
+O:Sweden 1693
+A:Sm\aaland
+R:sl\"angpolska
+S:http://archive.folx.org/tune/polska/slangpolska-efter-juringius-87
+K:Bm
+M:3/4
+L:1/8
+z |\
+"Bm"f>f Bf Bf | "Em"~g>f ef ga |\
+"A"e>e Ae Ae | "D"f>e de fg |\
+"Bm"f>f ed "A"c>B | (A/B/)c/A/ "Bm"B2 :: A/B/ |\
+"F#m"~c>c Fc Fc |
+"Bm"~d>c Bc de |\
+"F#m"~c>c Fc Fc | "Bm"~d>c Bc de |\
+"A"e>e Ae Ae | "D"f>e de fg |\
+"Bm"f>f ed "A"c>B | (A/B/)c/A/ "Bm"B3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska efter Juringius  [Dm]
+T: Polon\"as ur Sexdregasamlingen
+T: Sl\"angpolska fr\aan Kalmar
+%D: 1693
+O:Sweden 1693
+A:Sm\aaland
+R:sl\"angpolska
+S:http://archive.folx.org/tune/polska/slangpolska-efter-juringius-87
+K:Dm
+M:3/4
+L:1/8
+z |\
+"Dm"A>A DA DA | "Gm"~B>A GA Bc |\
+"C"G>G CG CG | "F"A>G FG AB |\
+"Dm"A>A GF "C"E>D | (C/D/)E/C/ "Dm"D2 :: C/D/ |\
+"Am"~E>E A,E A,E |
+"Dm"~F>E DE FG |\
+"Am"~E>E A,E A,E | "Dm"~F>E DE FG |\
+"C"G>G CG CG | "F"A>G FG AB |\
+"Dm"A>A GF "C"E>D | (C/D/)E/C/ "Dm"D3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska efter Juringius  [Em]
+T: Polon\"as ur Sexdregasamlingen
+T: Sl\"angpolska fr\aan Kalmar
+%D: 1693
+O:Sweden 1693
+A:Sm\aaland
+R:sl\"angpolska
+S:http://archive.folx.org/tune/polska/slangpolska-efter-juringius-87
+K:Em
+M:3/4
+L:1/8
+z |\
+"Em"B>B EB EB | "Am"~c>B AB cd |\
+"D"A>A DA DA | "G"B>A GA Bc |\
+"Em"B>B AG "D"F>E | (D/E/)F/D/ "Em"E2 :: D/E/ |\
+"Bm"~F>F B,F B,F |
+"Em"~G>F EF GA |\
+"Bm"~F>F B,F B,F | "Em"~G>F EF GA |\
+"D"A>A DA DA | "G"B>A GA Bc |\
+"Em"B>B AG "D"F>E | (D/E/)F/D/ "Em"E3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sl\"angpolska efter Juringius  [Gm]
+T: Polon\"as ur Sexdregasamlingen
+T: Sl\"angpolska fr\aan Kalmar
+%D: 1693
+O:Sweden 1693
+A:Sm\aaland
+R:sl\"angpolska
+S:http://archive.folx.org/tune/polska/slangpolska-efter-juringius-87
+K:Gm
+M:3/4
+L:1/8
+z |\
+"Gm"d>d Gd Gd | "Cm"~e>d cd ef |\
+"F"c>c Fc Fc | "Bb"d>c Bc de |\
+"Gm"d>d cB "F"A>G | (F/G/)A/F/ "Gm"G2 :: F/G/ |\
+"Dm"~A>A DA DA |
+"Gm"~B>A GA Bc |\
+"Dm"~A>A DA DA | "Gm"~B>A GA Bc |\
+"F"c>c Fc Fc | "Bb"d>c Bc de |\
+"Gm"d>d cB "F"A>G | (F/G/)A/F/ "Gm"G3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Polska efter Skrap Ollas
+T: Skrap Ollas polska
+T: River jag s\"onder i kras
+R: sl\"angpolska
+H: efter Karl Fahlstr\"om "Glysen", som bodde i Karlskoga-Grythyttans bergslag.
+H: Nedtecknad i V\"astg\"otetorp, Loka 1910. D-bas. Jfr #188.
+A: V\"astmanland
+D: Anders Norudde: Kan sj\"alv! (spelas i A p{\aa} skivan)
+D: lydia & Andrea: Fika
+Z: id:hn-sp-215
+M: 3/4
+L: 1/16
+K: D
+|:\
+"D"f3d A2A2 "A7"G2G2 | "D"FDEF "G"GFGB "A7"A2A2 |\
+"D"f3d A2A2 "A7"G2G2 | "D"FDEF "G"GFGB "D"B2A2 |
+"G"B3A B2c2 d2B2 | "D"A2AG F2G2 A4 |\
+"G"B2BA B2c2 d2B2 | "D"ABAG F2G2 A4 |
+"G"B2B2 g2f2 "A7"e2d2 | "/b"c2Bc "/c#"e4 "D"Hd4 :|\
+|:\
+"D"A2A2 "A7"GFEG "D"F2F2 | "D"F2F2 "(A)"FDEF "D"D2F2 |
+"D"A2A2 "A7"GFEG "D"F2D2 | "D"F2F2 EDEF D4 |\
+"G"B2B2 g2f2 "A7"e2d2 | "/b"c2Bc "/c#"e4 "D"d4 :| [K:=f=c][K:Dm]
+|:\
+"Dm"A2a2 a2ga "A"a2e2 | e2fg "Dm"f2ef f2d2 |\
+"Dm"d2d^c d2e2 e2f2 | "A"f2ef "/b"d2ed "/c#"^c2A2 |
+"Dm"A2a2 a2ga "A"a2e2 | e2fg "Dm"f2ef f2d2 |\
+"Dm"d2d^c d2e2 "A"f2e2 | "/b"d2^cd "/c#"e4 "Dm"d4 :|

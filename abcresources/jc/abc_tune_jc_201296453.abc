@@ -1,0 +1,26 @@
+X:1
+T: Key to the Cellar
+N:
+C:
+S:aka Locked out Again, aka No Key to the Church
+A:
+O:
+R:
+M:3/2
+K:Em
+I:speed 250
+%W:         A
+% voice 1 (1 lines, 24 notes)
+K:Em
+M:3/2
+L:1/16
+G4 E4 |E4 D4 |E8 |G4 E4 |E4 G4 |F2 G2 A4 |G4 E4 |E4 D4 |E8 |F4 D4 |D4 B4 |A4 G2 |F2
+%W:
+% voice 1 (1 lines, 24 notes)
+G4 |E4 E4 |D4 E8 |G4 E4 |E4 G4 |F2 G2 A4 |G4 E4 |E4 D4 |E8 |F4 D4 |D4 B4 |A4 G2 |F2
+%W:         B
+% voice 1 (1 lines, 25 notes)
+E4 |e4 e4 |d4 e8 |E4 e4 |e4 f4 |g4 e4 |E4 e4 |e4 d2 |c2 d6 |B2 A4 |F4 D4 |B4 A4 |G2 F2
+%W:                                                                                                              End
+% voice 1 (1 lines, 27 notes)
+E4 |e4 e4 |d4 e8 |E4 e4 |e4 f4 |g4 e4 |E4 e4 |e4 d2 |c2 d6 |B2 A4 |F4 D4 |B4 A4 |G2 F2 |z4 ||E12 |||

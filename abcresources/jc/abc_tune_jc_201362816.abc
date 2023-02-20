@@ -1,0 +1,16 @@
+X: 92
+T:The Drunken Piper
+T:Highland Rory
+N: page 31
+N: hexatonic
+R: Reel
+M:C|
+L:1/8
+K:Ador
+|: "Am"~A2AB e3f | edBd e2g2 | "G"~G2GB d3e | dBGB "E7"d2e2 |\
+   "Am"~A2AB e3f | edBd e2a2 | "G"~g2eg eged |[1 "Am"B2A2 A4 :|
+[2 "Am" B2A2 A2| e2|\
+  "Am"a4 e2a2 | edef "(D)"g2a2 | "G"~G2GB d3e | dBGB "E7"d2e2 |\
+  "Am"a4 e2a2 | edef "(D)"g2a2 | "G"g2eg eged | "Am"B2A2 A2e2 ||
+   "Am"a4 e2a2 | edef "(D)"g2a2 | "G"~G2GB d3e | dBGB "E7"d2e2 |\
+   "Am"~A2AB e3f | edBd e2a2 | "G"~g2eg eged | "Am"B2A2 A4 |]

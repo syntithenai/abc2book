@@ -1,0 +1,26 @@
+X: 10983
+T: JESSIE THE FLOWER OF DUMBLANE
+C: R. A. Smith
+Q: "Not too fast--with feeling."
+%R: air, waltz, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.98 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(c/d/) |\
+e>fe d<ge | c>Bc (d<B) c/A/ |\
+G>AF EGc | c>de (ed) c/d/ |\
+e>fe d<ge | c>Bc d<B c/A/ |\
+G>AF EGc | dAB c2 |]
+e |\
+ecd e<ag | ec>d ecd |\
+dBc dge | d<B {B}A/>G/ G2G |\
+ced e<cd | ege f<de |\
+f>ga g<ec | dAB c2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

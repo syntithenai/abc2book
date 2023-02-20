@@ -1,0 +1,24 @@
+X: 21201
+T: the Highland Queen
+%R: air, strathspey
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.120 #1
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+N: Added dot to the d note in bar 1.
+M: 3/4
+L: 1/16
+K: D
+"_Slow"A2 |\
+(FA3) (df3) d6 A2 | B3d (dF3) {F}E6 D2 |\
+(FA3) (Ad3) Td6 d2 | (Ae3) e3f e6 e2 |\
+(fd3) (fd3) f6 d2 | (ec3)(ec3) e6 f2 |
+e4 d4 (3(c2B2c2) (3(d2c2B2) | (cA3) TA3A/B/ A6 :: A2 |\
+d4 (T=c3B/c/) B6 B2 | e4 (Td3^c/d/) Tc6 A2 |\
+(3(d2e2f2) (e2f2g2) f4 z2"_Pia"A2 | d3f e2(fg) (g4 f2)"_For"A2 |
+B4 (3(d2c2B2) A4 (3(B2A2G2) | F4 (TE3D/E/) D6 :: A2 |\
+(FDEF GABc) (d3A)(d3A) | (Bdce) (dAGF) (F4 E2)A2 |
+(FDEF GABc) (d2f2) (Te2d2) | {cd}e4 e3f e6 e2 |\
+(fedc) (def^g) (a2f2)(Te2d2) | c4 TB3A e6 c2 |
+d2(df) e2e=g f2(a^g) (ba)(gf) | (ec3) TB3A A6 :: A2 |\
+(defg) (afd=c) (c4 B2)B2 | (egfe) (bgfe) (d4 ^c2)A2 |
+(Bdce) (dfeg) (g4 f2)"_Pia"A2 | (Bdce) (dfeg) (g4 f2)"_For"a2 |\
+b2B2 (edcB) A2(Bc) (dfeg) | f4 (agfe) d6 :|

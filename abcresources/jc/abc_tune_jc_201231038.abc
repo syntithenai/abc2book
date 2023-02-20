@@ -1,0 +1,28 @@
+X: 146204
+T: DUET FOR TWO VIOLINS.
+B: James Kerr "Merry Melodies" v.1 p.46 s.2 #4
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+V: 1 staves=2
+"^1st Violin."G2 |:\
+B4 c2d2 | d4 B2d2 |\
+c3B c2A2 |[1 B4 z2G2 :|[2 G6 ||\
+ud2 |\
+g4 f2e2 |
+d4 B2d2 |\
+c3B c2A2 | B4 z2d2 |\
+g4 f2e2 | d4 B2d2 |\
+c3B c2A2 | G6 |]
+V: 2
+"^2nd Violin."(Bc) |:\
+d2b2 c2a2 | B2g2 gdBG | F2e2 edcA |[1 (GB) (Ac) (Bd) (ce) :|[2 G2B2G2 ||\
+(AG) |\
+FGAB cdef | g2B2 BAB2 | e2A2 AGA2 | d2G2 G2(AG) |\
+FGAB cdef | g2B2 BAB2 | e2A2 c2F2 | G2B2G2 |]
+%%begintext align
+%% Home Sweet Home and a German Schottische,
+%% played at the the same time
+%% the players to change parts alterately
+%%endtext

@@ -1,0 +1,32 @@
+X: 572
+T: Links of Leith
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.57 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: There's a footnote "Number 8."
+N: Fixed lengths of last notes in each strain to account for following pickup notes.
+M: C|
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+e |\
+TcA c/d/e AecA | BGgd (B/c/d) Ge |\
+TcA c/d/e aecA | BGgB A/A/A A :|\
+g |\
+a>bag egab | g>age dBGg |
+a>bag egab | gegB A/A/A Ag |\
+a>bag egab | gage dBGg |\
+afge fdec | dBgB A/A/A A |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | e2e2 A2A :|\
+z |\
+a2a2 a2a2 | g2g2 g2g2 |
+a2a2 a2a2 | e2e2 A2A2 |\
+a2a2 a2a2 | g2g2 g2g2 |
+a2a2 a2a2 | e2e2 A2A |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

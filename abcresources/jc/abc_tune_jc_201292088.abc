@@ -1,0 +1,18 @@
+X: 442
+T: James My Thousand Treasures - 1st Setting   #2
+N: Irish title: seamus mo .mile stor
+R: jig, air
+%S: s:2 b:7(3+4)
+B: O'Neill's 1850 #442
+O: J.O'Neill
+Z: henrik.norbeck@mailbox.swipnet.s
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play AB1 B2A
+N: 3-bar phrases.
+Q: "With expression"
+M: 6/8
+L: 1/8
+K: F
+"^A"[|] (A/B/) | (c>dc) (cA).f | d2(c/A/) G2F | F3- F"^fine"z |]
+c "^B"|: f>ef def | gec d2 [1 c | c3- cz (3(c/d/e/) :|[2 e | f3- "^->A"f2 |]

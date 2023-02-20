@@ -1,0 +1,33 @@
+X: 1
+T: a Soldier's Life.
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.48
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+f>ga f>ed | e2c A2e  | f>ga d>ef | e3- e2e |\
+f>ga f>ed | e2c A>GF | G>AB A>Bc | d3- d2  |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up all a D. forward and back, set and turn S .| That again :| First man set to his own wo.
+%% then set to the 2. man, turn the 2. wo. .:| Set to the 2. wo. then to the 3. man, turn the 3. wo. :|:|
+%% Set to the 3. wo. then to the 4. man, turn the 4. wo. :|:| Do this to the last, your wo. following
+%% you in the same manner, every cu. do thus.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First man lead down his wo. a D. then give his right-hand to the 2. wo. while his wo. does the like
+%% to the 2. man, turn them, and then your own with your left-hand; the same forward till you come
+%% to the bottom.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First man go about the 2. wo. while his wo. do the like to the 2. man; they meet and go about 
+%% one-another and turn, taking hands. The same again till they come to the bottom.
+%%endtext
+%%sep 1 8 500

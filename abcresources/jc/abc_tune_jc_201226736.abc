@@ -1,0 +1,23 @@
+X: 10421
+T: FHIR A BHATA--"THE BOAT OF MY LOVER."
+O: Gaelic air.
+Q: "Slow and plaintive."
+%R: air, waltz
+N: This is version 1, for ABC software that doesn't understand trailing grace notes.
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.42 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed.
+M: 3/4
+L: 1/8
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F>G |\
+B2 g2 (f>F) | G2 B2 (B>F) | G2 B2 (B>F) | G2 B2 (f>=e) |\
+f2 g2 (fe) | d2 g2 ({d}f>e) | d2 (f>d) c2 |{Bc} B4 :|
+|: d>c |\
+B4 ({Bc}d>F) | G2 B2 g>f | {d}f4 f>c | d2 f2 ({ga}b>a) |\
+g2 (f>d) (B>F) | G2 B2 d>c | d2 f>d c2 |{Bc} B4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

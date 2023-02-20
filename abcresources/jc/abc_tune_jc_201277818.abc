@@ -1,0 +1,29 @@
+X: 1
+T: Freeman's Yard
+%R: minuet
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (173)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat signs left as-is, to illustrate the illogical uses of repeats in this document.
+M: 3/2
+L: 1/4
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+d>e dc BA | B>c BA G^F | Gg ^fd ga | b d2 =e f2 |\
+c>d cd e(d/c/) | B>c Bc d(e/f/) | gf bB AG | F B2 d cB :|
+|:\
+b a2 d2 g- | g f2 B2 e- | e d2 G2 c- | cB B2 A2 |\
+B f2 d2 g- | g =e2 a2 d- | d b2 g2 a | ^f>g a^f g2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Note Each strain is to be play'd but once over
+%%begintext align
+%% The two Men lead thro the two We. and cast off and
+%% Back to Back and turn .| Then the two We. do the
+%% same :| The 1st Man change Places with the 2d Wo. and
+%% 1st Wo. with the 2d Man and Hands half round and
+%% cast off then lead thro the 3d Cu. and cast up .| Then
+%% right and left quite round with the 2d Cu. ???
+%%endtext
+N: The end of the dance directions seems to have faint text behind the "(173)".
+%%sep 1 8 500

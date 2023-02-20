@@ -1,0 +1,19 @@
+X: 03012
+T: BOIL THE SAP
+C: Bob McQuillen 10 Mar 77
+B: Bob's Note Book 03 #12
+%R: jig
+%D:1977
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A, \
+| DFE DFA | dfe d2A | Bcd AFD | GAB ECA, |\
+| DFE DFA | dfe d2A | GAB AdF | E3 D2 :|
+|: A \
+| fgf fgf | edB A2G | FAd dfg | f3 ede |\
+| fgf fgf | edB A2G | FAd def | e3 d2 :|
+%%begintext align
+%% Sap's runnin' real good today.
+%%endtext

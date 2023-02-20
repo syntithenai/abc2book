@@ -1,0 +1,37 @@
+X: 11
+T: the New German Waltze
+%R: waltz
+B: Name "Kauntze's Collection of the most favorite Dances, Reels, Waltzes, &c."
+F: http://imslp.org/wiki/Kauntze%27s_Collection_of_Dances,_Reels,_Waltzes_etc._%28Various%29
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: This is the "No voice Overlay" version, for ABC software that doesn't support two voices on one staff.
+N: Added flag to high f in bar 6.
+M: 3/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c/B/ |\
+AAG | F>(fe/d/) | cc=B | c2c/_B/ | AAG | TF2f | {g}fed | c2 :||: c | (gc).c |
+(ac).c | (cb).a | (ag).e | (fe).d | (cef) | {a}gfe | Tf2 :||: A/B/ | cAc | fed | dcc | c2A/c/ |
+cBB | B2G/B/ | BAA | A2A/B/ | cAc | fed | dcc | c2A/c/ | cBB | B2G/E/ | F[fF][fF] | [f2A2] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+fc'c | d2z | cg=B | c2z |\
+fc'c | B/d/B/d/=B/d/ | cgG | c2 :|\
+|: z |\
+c/d/e/d/e/c/ |
+f/g/a/g/a/f/ | e/f/g/f/e/f/ | cg/e/c |\
+dcB | AGF | Bcc | fF :|\
+|: z |\
+[af2]fa | [d'f2]c'b | [bf2]aa | [fa2]Fz |
+[ac2]gg | [g2c2]g | [gc2]ff | [Ff2]fz |\
+[af2]fa | [d'f2]c'b | [bf2]aa | [fa2]Fz |\
+[ac2]gg | [g2c2][gc] | F/A/c/f/c/A/ | Ff |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   Set and Hands cross and back again, Lead down the middle up again to the top turn your
+%% Partner with the Right hand quite round the same with the Left. Hands 4 round at bottom
+%% Right and Left.
+%%endtext

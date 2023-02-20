@@ -1,0 +1,20 @@
+X: 377
+T: Sweet Molly
+R: air, waltz, jig
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #377
+O: F.O'Neill
+N: Grace notes are slurred to following note (which is then
+N: sometimes slurred to the note after that.)
+Z: Transcribed by Chris Falt, cfalt@trytel.com
+Q: "With feeling."
+M: 6/8
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+A | (d>ed) (c>BA) | (d>e.d) (f<a).c | d<dd {d}c>BA | (d>e.d) (f<a) ||
+a | (a/g/).g.g (gf).f | (e>fg) (b/a/g/f/g/e/) | (d>ed) ({d}c>BA) | (Bdc) d2 ||
+a | (a/g/).g.g (gf).f | (e>fg) (b/a/g/f/g/e/) | (d>ed) ({d}c>BA) | (Bd>c) d2 |]
+%%text O'Neill had K:A, but it's probably a typo, others have K:D so I fixed it. [JC]
+%%text But try it with all the g notes sharp, and see if you prefer it like that.

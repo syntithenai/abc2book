@@ -1,0 +1,15 @@
+X: 288
+T: the Old Cloak
+R: air
+%S: s:2 b:16(8+8)
+B: O'Neill's 288
+O: J.O'Neill
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+Q: "Very slow"
+M: 3/4
+L: 1/8
+K: Gm
+   A | (.B>.c) (.B3 .d) | (c>B) (.A2 z.A) | (B>A) (.G2 z.A) | (^F=E) (.D2 z. |\
+| A) |  (B>c)  (.B3 .d) | (c>B) ({B}A2 z{d}c) | (B>A) (.G3 .G) | (^F>A) G2 z :|
+|: A | (B>=F) (.F2 z.E) | (D>F) (.F2 z.F) | (D>G) (.G3 .A) | (B>c) ({c}.d2 z. |\
+| c) | (.B>.B) (.B3 .B) | cd ">"{g}f2 zd | d^f ">"g2 dc | (BA) G2 z :|

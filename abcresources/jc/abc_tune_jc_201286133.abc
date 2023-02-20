@@ -1,0 +1,16 @@
+X: 822
+T: Hick's Hornpipe
+R: hornpipe
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #822
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0822/oneill-1001-0822-1.abc
+M: C
+L: 1/8
+K: G
+"^A"[|]\
+   B>c | d>BG>B d>BG>B | c>BA>G F>AD>c | d>BG>B c>BA>G | F>AD>D D2 ||
+|| B>c | d>BG>B d>Be>d | c>BA>G F>AD>c | B>cB>G D>FA>F | G2 G>G G2 :|
+"^B"\
+|: d>c | B>GB>d e>ce>g | f>df>a g>fe>d | g>fg>B g>ba>g | f2 d2 d2 ||
+|| d>c | B>GB>d e>ce>g | f>df>a g>fe>d | b2 b>g d>fa>f | g2 g>f g2 :|

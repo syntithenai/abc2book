@@ -1,0 +1,31 @@
+X: 1055
+T: the Major
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: B2G GBG | dBG ABc | B2G GBG   | cAF ABc :|
+|: B2d ded | efg gfg | B2d de=f  | e2A ABc :|
+|: BAG g3  | dBG ABc | BAG =fe=f | cAF ABc :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: G3 z2z | G3 d3 | g3 B3 | A3 d3 :|
+|: G3 B3  | c3 B3 | G3 B3 | c3 d3 :|
+|: g3 BAG | g3 f3 | g3 B3 | A3 d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+The 1st Cu. lead thro' cast up and cast off .|
+Then lead thro' the 3d Cu. and cast up and cast off :|
+Then the 1st Cu. lead thro' the Top .|
+Turn your Partner in the 2d Cu. Place :|
+then the 1st Man set to the 2d Wo. and turn single, then the 1st Wo. and 2d Man the same .|
+Back to Back and turn your Partner :|
+%%endtext

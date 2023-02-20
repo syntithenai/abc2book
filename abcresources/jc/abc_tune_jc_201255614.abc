@@ -1,0 +1,39 @@
+X: 1
+T: Box and Dice
+T: Boscomb Bucks
+P: Longways for as many as will
+%R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.8
+S: 3: CCD3  http://javanese.imslp.info/files/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.14
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: "The first Strain twice, and the last but once."  (Repeats modified to match.)
+N: The 2nd part has 14 bars.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 4 staffs rather than 2, showing the 4/6/4/4-bar phrasing.
+V: 1
+|:\
+B2 A/B/c/A/ BG Gg | dd de B3 d |\
+BGAF gfed | ^c/d/e Ac d4 :|
+A2 G/A/B/G/ AA2A | B3/c//d// cB B2 A2 |\
+GG Gg GG G2 | AA Aa AA A2 |\
+cc (c/B/)A Bedc | B2A2 G4 |
+^cccc dD DD | cc cB/A/ Bg2g |\
+ac cB/A/ Bedc | B2A2 G4 |
+B2 A/B/c/A/ BGFG | B2 A/B/c/A/ BGFG |\
+Dc cB/A/ Bedc | B2A2 G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout.
+V: 2 clef=bass middle=d
+|: g2d2 G4 | b2g2 g2f2 | g2d2 ed^cB | A2a2 d4 :| d2e2 f2d2 | g2fg d4 | g4 e4 | f4 d4 | e2f2
+ec'ba | g2d'2 g4 | g4 f4 | e2f2 g4 | f2d2 gc'ba | g2d'2 g4 | g2d2 G2z2 | g2d2 G2z2 | f2d2 gcBA | G2B2 G4 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1st Cu. sett and cast off, clap Hands and turn sides; the 2d Cu. do the same :|
+%% Then the 1st Cu. turn the 2d Cu. across, and turn Partners :|
+%% The 1st Man change Places with the 2d Wo. and the 1st Wo. with the 2d Man.
+%% Then all four sett and turn single, then right & left half round, then sett and cast off .|
+%%endtext

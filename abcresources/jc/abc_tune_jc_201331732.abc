@@ -1,0 +1,37 @@
+X: 1
+T: Rosemary_Lane.abc
+P: Longways for as many as will
+%R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.62
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The first "strain" should apparently be played twice, which fits the dance.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+eg |\
+f2 c4 Bc | A2 F4 AB | G2F2 EFGE | E2 C4 eg |\
+f2 c4 Bc | A2 F4 c2 | defd efge | f2 F4 :|
+e2 |\
+fcAc F2f2 | ga b4 f2 | agfe defd | efde c2A2 |\
+BcdB GABG | ABcA FGAF | EFGE CFEG | F6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+c2 |\
+f4 d2e2 | f4 A2F2 | B4 G4 | c4 c4 |\
+f4 d2e2 |f4 A4 | B4 c4 | f4 F2 |]
+c2 |\
+f4 A2F2 | c4 d2e2 | f4 =B4 | c2d2 e2f2 |\
+g4 e4 | f4 d4 | c4 c4 | f6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center The last Strain but once.
+%%begintext align
+%% The 1st Cu. cross over below the 2d Cu. and lead thro' the 3d Cu.
+%% and Hands half round with the 2d Cu. and cast off .|
+%% The 2d Cu. do the same :|
+%% Then 1st Wo. change Places with the 2d Man, and 1st Man with the 2d Wo.
+%% then Hands half round & cast off & turn your Partner,
+%% the 2d Cu. turns about at the same Time.
+%%endtext

@@ -1,0 +1,31 @@
+%%staffwidth 300
+%%leftmargin 140
+
+X: 1
+T: TEST: 2/4 and 3/4 meters test 1 (2+3 numerator)
+M: 2+3/4
+L: 1/8
+K: C
+[| CD EF | GA Bc de | fg ab| Hc'4 |]
+
+X: 2
+T: TEST: 2/4 and 3/4 meters test 2 (23/44)
+M: 23/44
+L: 1/8
+K: C
+[| CD EF | GA Bc de | fg ab| Hc'4 |]
+
+X: 3
+T: TEST: 2/4 and 3/4 meters test 3 (2/4+3/4)
+M: 2/4+3/4
+L: 1/8
+K: C
+[| CD EF | GA Bc de | fg ab| Hc'4 |]
+
+X: 4
+T: TEST: 2/4 and 3/4 meters test 4 ("2/4 3/4")
+M: "2/4 3/4"
+L: 1/8
+K: C
+[| CD EF | GA Bc de | fg ab| Hc'4 |]
+

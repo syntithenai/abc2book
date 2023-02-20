@@ -1,0 +1,30 @@
+X: 332
+T: the Duke of Gloster's March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.33 #2
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has more compact staff layout.
+V: 1
+f>g |\
+a>fd>d d3f | e>dc>B A>GF>E |\
+F>A d>=c B>ge>d | c2A>A A2f>g |\
+a>fd>d d3f |
+e>dc>B A>GF>E |\
+F>A d>=c B>ge>^c | d2d>d d2 :: f>g |\
+a>ga>b =c'>ab>c' | b>ag>f g2b>a |
+b>ag>f e>dc>B | c>dc>B A>GF>E |\
+F>Ad>A G>Be>B | c>ea>c d>fa>f |\
+b>gb>g f>ed>c | d2d>d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 has staff layout matching the book's.
+V: 2
+d>e |\
+f>af>f f3a | g2e2 c2A2 | D>FB>E G>ec>B | A2F>F F2d>e |
+f>af>f f3a | g2e2 c2A2 | D>FB>E G>ec>A | F2F>F F2 :: z2 |
+z2f>g a>fg>a | g>fe>d e2g2 | g2e2 c>BA>G | A>BA>G F2D2 |
+A>cB>c B>GE>G | A>cf>e f2d2 | g>eg>e d>cB>A | F2F>F F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

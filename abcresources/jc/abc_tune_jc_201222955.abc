@@ -1,0 +1,24 @@
+X: 066
+T: Saw you my Father
+R: hornpipe
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.33 #66
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Both strains have only 7 bars.
+N: The rthythm between the strains is wrong.
+M: 2/4
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+|: D>EF>G | A2A2 | B2g>e | dcTBA  | d2(dc) | TcBTBA | A2z2 :|
+|: G/ | F>EF>d | {G}F2ED | E>DEF | G2G>B | BAFA | AGFE | D3 z/ :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands round 4 at top .| back
+%% again :| cross over 1 Cu. lead
+%% up the iddle cast off &
+%% Right and Left
+%%endtext

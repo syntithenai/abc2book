@@ -1,0 +1,32 @@
+X: 10
+T: Belc\'ele
+%R: waltz
+B: "Le Sylphe, Twenty Four Country Dances with Figures for the Year 1818", Button & Whitaker, p.5 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1818
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 3/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(e2d2c2) | d4G2 | (Geed)c2 | (Gffe)d2 |\
+(e2d2c2) | d4g2 | ^fac'2f2 | (gb)(ba)g2 :|
+|:\
+(df)fed2 | ec'c'4 | .b.d'(d'c').b.d' | .c'.b.a.g.f.e |\
+(dffe)d2 | ec'c'4 | (bd'd'c'd'b) | c'2z2z2 :|
+|:\
+c2cdcB | (Aagfef) | d2dedc | Bbagfg |\
+c2c'd'c'b | agfedc | Bdfgbd' | c'2z2z2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center WALTZ FIGURE        (Each strain repeated)
+%%begintext align
+%% The 3 Gent: & 3 Ladies set to each other with waltz setting step |:
+%% waltz whole poussette |: lead thro' bottom & chain figure 4 round at top |:
+%%endtext
+%%center COUNTRY DANCE FIGURE        (Each strain repeated)
+%%begintext align
+%% Set & hands across quite round with 2d Cu: set & back again |: cross
+%% over 2 Cu: |: cross up one Cu: & half figure round the top Cu: |: .
+%%endtext
+%%sep 1 1 450

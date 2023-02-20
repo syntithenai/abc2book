@@ -1,0 +1,24 @@
+X: 364
+T:Radomirsko Horo
+O:Bulgaria
+S:Folk Dances from Bulgaria collected by Yves Moreau
+F: http://www.youtube.com/watch?v=aqLiazeV6TI
+L:1/8
+M:2/4
+Q:1/4=120
+P:AABBCCDDCCEE
+K:Cdor
+%%MIDI program 21 Accordian
+P:A
+|:"Eb"G>F G/F/E|"Bb" FDE2    |"F" E/D/C "Cm"DB,  |[1"F" CD EF     :|[2 "F"C2 C2 |
+P:B
+|"Bb" B,CDD         |DDDD     |"Eb"EEED        |FEED         |\
+"Bb"  B,CDD         |DDDD     |"Cm"CB,CC       |CCC2         |
+P:C
+|"Bb" D2 DD         | DDDD    |"Cm" E2 FE      |\
+  FE E2         |"Bb"D2 DD    | DDDD       |"F" =A,/B,/C2 B,|"Cm"C2 C2     |
+P:D
+|"Bb" B,2 B,/C/D    |"Cm"EEEE     |"Bb"DDDD        |DDCB,        |\
+ "Bb" B,2 B,/C/D    |"Cm"EEEE     |"F"FCCB,       |"Cm"C2 z2        |
+P:E
+|:"Cm"G/F/=E E/D/C  | C>B, C=E|G/F/=E E/D/C|[1 C2 G2     :|[2 C2 C2 |

@@ -1,0 +1,23 @@
+X: 1
+T: (C'\'e la) Luna Mezzo Mare   [Bb]
+O: Sicilian folk tune
+R: jig, tarantella
+S: https://www.youtube.com/watch?v=n9FMvfvkBro [Lou Monte]
+S: https://www.youtube.com/watch?v=Pflp9MdhXSM [Patrizio Buanne]
+S: https://www.youtube.com/watch?v=yb2KwewOBEA [Dean Martin]
+S: https://www.youtube.com/watch?v=onr3Kn7UUgE [Toni di Marti]
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+"Verse"|:\
+z3 z3 | z3 z3 | z3 z3 | z3 d2d |\
+"Bb"B2B "(F7)"c2c ||["Nx" "Bb"B2B "(F7)"c2c || "Bb"B2A G2F |
+"F7"F3 C3- | C3 z3 | z3 z3 | z3 e2e |\
+"F7"c2c c2B | A2A A2G | F2F G2A | "Bb"B3 z3 :|
+"Chorus" [|\
+"Bb"d3 "(F7)"c3 | "Bb"B3 G2F | B2A G2F | "F7"A6 |\
+c3 B3 | A3 A2G | F2F G2A | "Bb"B3 z3 |]
+"Coda"[|\
+"Bb"d3 "(F7)"c3 | "Bb"B3 z2d | "Bb7"e2d c2d | "Eb"e3 z3 ||\
+["Nx" "Eb"e2e f2e | "Bb"d2d B2B | "F7"c2c B2A | "Bb"B3 z3 |]

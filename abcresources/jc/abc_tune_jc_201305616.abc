@@ -1,0 +1,31 @@
+X: 1
+T:Maggie Lawder,with Variations.Pt1. WCl.69
+M:C|
+L:1/8
+Q:100
+S:William Clarke MS,Lincoln,1770.
+R:Air
+O:Lincoln
+A:England
+Z:vmp.Barry Callaghan
+K:D
+|:\
+"1"d>edf d>edf | e>f (g/f/e/d/)c2 (e3/2f/4g/4) |\
+fddd d>edf | a>b (a/b/a/g/)f2 a2 |
+g>agb f>gfa | e>f (g/f/e/d/) ~c2e2 |\
+(d/c/B/A/) (B/A/G/F/) | (G/F/E/D/) E>g | (f/g/a) e>fd2D2 :|
+|:\
+"2"(f/g/a )da (f/g/a/f/) d>f | e>f (g/f/e/d/)~c2e2 |\
+(f/g/a) dg (f/g/a) d>f | ab (a/b/a/g/)~f2a2 |
+(g/f/g/a/) gb (f/e/f/g/) fa | e>f (g/f/e/d/)~c2e2 |\
+(d/c/B/ A/) (B/A/G/F/) (G/F/E/D/) E>g | (f/g/a) e>fd2D2 :|
+|:\
+"3"D>EDg (a/g/f/e/) d>f | e>f (g/f/e/d/) ~c2e2 |\
+D>EDg f/g/a/f/ d/e/f/g/ | a/g/a/b/ a/b/a/g/ f2a2 |
+(g/d/)(b/d/) (g/d/)(b/d/) (f/d/)(a/f/) (f/d/)(a/f/) | !e>f g/f/e/d/ ~c2e2 |\
+(d/c/B/A/) (B/A/G/F/) (G/F/E/D/) E>g | (f/g/a) e>f d2D2 :|
+|:\
+"4"(f/g/a/f/) d/A/e/g/ (f/g/a/f/) d/A/d/f/ | e>f (g/f/e/d/) c2 e2 |\
+f/g/a/f/ d/A/e/g/ (f/g/a/f/) d/e/f/g/ | a/d'/c'/b/ a/g/f/g/ f2a2 |
+gb2a/g/ fa2g/f/ | e>f g/f/e/d/ ~c2e2 |\
+(d/c/B/A/) (B/A/G/F/) (G/F/E/D/) E>g | "Cont.."(f/g/a) ~e>f d2D2 :|

@@ -1,0 +1,23 @@
+X: 20851
+T: MR. JAMES McNICHOL, INVERARY
+C: Alexander McKay, Islay
+Q: "Strathspey."
+%R: strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.85 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Added missing bar line between bars 11,12.
+M: C
+L: 1/8
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(e/d/) |\
+c>GE>G c>d {cd}e>d | c>GEc Dd de/d/ |\
+c>GE>G c>de>c | f>dB>g ecc :| e/f/ |\
+g>ca>c G>c Ea | g>ca>c Bd de/f/ |
+g>ca>c G>cE>c | AFDg ec ce/f/ |\
+g>ca>c G>cEa | g>ca>c Bd de/f/ |\
+g>ed>g e>cB>d | cG Eg ecc |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

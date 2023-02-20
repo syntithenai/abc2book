@@ -1,0 +1,63 @@
+X: 1
+T: Spanish Gypsie
+P: Longways for eight
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.35 #65
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.31 "D 4"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The ":S:" is presumably an early form of "segno", meaning to repeat from that note.
+N: The three dance phrases are mostly the same, with small differences.
+N: The key signature in DMDfD is [K:^f^F], with the single c having a sharp.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+d>ef d>ef | d3- d2A | d>ef d>ef | d3- d2d |  e>fe e2d |\
+c3 B3 | A>BA A2G | F3- F2"^:S:"D | F2G A2F | B2A d2A | F>GA GAF | E2D D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up forward and back .| That again :| Turn all Back to Back,
+%% Faces again, go all about your We. not turning your Faces, that again
+%% the other Way .| First and last Cu. meet a Double, back again, turn
+%% all Back to Back, Faces again, go about each other not turning your
+%% Faces, the other Way as much :| The other four as much .:|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Sides all .| That again :| Turn Back to Back, Faces again, go about
+%% your own as before .| First and last Cu. meet and go back; turn
+%% Back to Back, Faces again; take Hands and go round, back again :|
+%% Then the other four as much .:|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Arms all .| That again :| Turn Back to Back, Faces again, go about
+%% your own as before .| First and last Cu. meet and go back; turn
+%% Back to Back, Faces again; right Hands across and go round, then left
+%% round :| The other four as much .:|
+%% [CCDM1]
+%%endtext
+%%sep 1 8 500
+%%begintext align
+%% Lead up forward and back .| That again :| Turn all back to back, faces again, go all about your
+%% we. not turning your faces, that again the other way .| First and last cu. meet a D. back again, turn
+%% all back to back, faces again, go about each other not turning your faces, the other way as much :|
+%% The other four as much .:|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Sides all .| that again :| Turn back to back, faces again, go about your own as before .| First and
+%% last cu. meet and go back, turn back to back, faces again, take hands and go round, back again :|
+%% Then the other four as much .:|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Arms all .| That again :| Turn back to back, faces again, go about your own as before :| First and
+%% last cu. meet, back again, turn back to back, faces again, right hands across and go round, then left
+%% round :| The other four as much :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

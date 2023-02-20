@@ -1,0 +1,30 @@
+X: 1
+T: King of Damascus Reel
+P: Longways for as many as will
+%R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.51
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 is formatted for 4-bar staff lines.
+V: 1
+g |\
+G/G/G Bc eAAg | G/G/G BG dG BG | cdBd eAAg | G/G/G GE E2 G |]
+e/f/ |\
+gage agab | gage gage | gage agab | gage g2b2 |
+G/G/G Bc eAAg | G/G/G BG dG BG | cdBd eA Ag | G/G/G GE G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z | G2zB c2zc | B2G2 z2g2 | efgB c2zB | c2zc dDG |] z | c2z2 c2z2 | c2z2 c2z2 |
+c2z2 c2z2 | c2z2 B2gG | z2GB c2zc | B2G2 z2g2 | efgB c2zB | c2zc G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man Jump to the 2d Wo. and turn her .|
+%% The 2d Man do the same to the 1st Wo. :|
+%% Then Hands all four across, and go round and turn all four single .|
+%% Then Right and Left and turn your Partners :|
+%%endtext

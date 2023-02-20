@@ -1,0 +1,14 @@
+X: 250
+T: Gypsy Bulgar
+B: Kammen 9 #9
+C: (Kammen 9#9)
+R: Bulgar
+Z: John Chambers <jc:trillian.mit.edu>
+%%musicspace 8
+M: 2/4
+L: 1/8
+K: Gmix
+|: "G"[Bd][Bd] [Bd][Bd] | [ce][df] [ce][Bd] | dc2 B | "D7"d/c/B/c/ "G"B2 :| [K:Gm] \
+|: "Gm"[GB][GB] [GB][GB] | ^cd cB | BA2 G | "D7"B/A/G/^F/ "Gm"G2 :|
+|: "Gm"BB BA | "Eb"AG2 G | "Gm"BB BA | "Eb"AG2 G | "Gm"AB cB | "D7"_dc2 B | "Gm"(3=dcB (3BAG | [GB]G AB :|
+|: "Cm"c2 G(c | c)c BA | "Gm"B2 G(B | B)B AG | "D7"A2 ^F(A | A)A G^F | "Gm"G2 D(G | G) z3 :|

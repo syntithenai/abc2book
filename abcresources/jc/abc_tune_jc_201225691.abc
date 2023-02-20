@@ -1,0 +1,35 @@
+X: 9
+T: Ken Green
+%R: slip-jig
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The only repeat sign is in the middle; not fixed because it's not obvious what's correct.
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+|:\
+G3  B2c dBG | gfe dcB A3 |\
+cBc EFG AFD | EFG AGF G3 :|
+|:\
+AFD DFA AFD | dBG GBd dBG |\
+ede EFG F3  | G3 D2=F ECE |\
+A3  E2G FDc | (Bd)E FDF G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+g3 G3 g3 | "6"e3 g2G d3 |\
+"6;4"e3 "6;5"^c3 "5;3"d3 | "6;4"g3 "4;3"d3 G3 :|\
+|:\
+d3 d3 d3 | g3 G3 "5;3"g3- |
+"6;4"g3 "6;5"^c3 "5;3"d3 | "6"B3 "b7;5"G3 "5;3"c3 |\
+"6"^c3 "7;#"A3 "5;3"d3 | g2c d2D G3 |]
+%%begintext align
+%% First Couple cast off one Couple and Back to Back then cast up into their Places & Back to Back |
+%% Take Hands and lead down the Middle below the 3d Couple & cast up into the 2d Couple's Place
+%% then lead up a breast with the 2d Cu. & cast off into the 2d Couple's Place & turn |
+%%endtext

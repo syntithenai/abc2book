@@ -1,0 +1,34 @@
+X: 184
+T: Blew Cap
+T: Longways for &c.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.92
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+BBf bbd | c2B G2d |\
+BBf ddg | c>f=e f2 :|\
+|: f |\
+ddB ccG | F2d e2g |
+ffd fga | bfd c2f |\
+ddB ccG | F2d e2g |\
+ffd fab | bfd B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up all a D. forwards and back .| that again :|
+%% sides all .| that again :| Arms all .| that again :|
+%% 1st Man sett to his own, the last Man to his own,
+%% the 2d Man salute his own and turn her .| that
+%% again, the last Man beginning :| 1st Man set to his
+%% Wo. the 2d Man the same, the 3d Man salute his
+%% own and turn her .| that again, last Man beginning
+%% :| 1st Man and last Wo. change places; 1st
+%% Wo. and last Man change, middle Man salute,
+%% and turn his own :| all this again, to their places
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

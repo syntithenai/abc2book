@@ -1,0 +1,36 @@
+X: 4
+T: Jacky Bull
+O: "In the Agreeable Surprize"
+%R: jig
+B: "The Hibernian Muse" p.2 #3 - p.3 #1
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain is missing its pickup note; not fixed.
+P: No. IV.
+M: 6/8
+L: 1/8
+K: D
+%%slurgraces 0
+%%graceslurs 0
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+(d>ef) A2f | {a}g2f {f}e2d | d>ef A2A | B3 d2z |\
+d>ef A2f | {a}g2f e2d | d>ef A2A | B3 d2 :|
+|: B |\
+(d2f) (a2=c') (b2g) (f2e) | (d2f) (a2f) | (g3 a2)=c' |\
+(b2g) e>fg | (a2f) Te2d | (d>ef) A2A | TB3 d2 :|
+|: d |\
+(d>ed) A2A | (A>BA) A2A | (d>ed) d2e | (f3 a2)d |\
+(d>ed) A2A | (A>BA) A2f/g/ | (a>ba) afd | Te3 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d3 f2a | b2a g2f | d3 f2d | g3 d2z |\
+d3 f2a | b2a g2f | f2d f2d | g3 d2 :|
+|: z |\
+d3 d3 | d3 d3 | d3 d'2=c' | b2g f2d |\
+g3 a2g | d3 d'3 | d'd'd' d'd'd' | ggg d2 :|
+|: z |\
+d'3 d'3 | d'3 d'3 | d'3 f2a | dfa dfa |\
+d'2z d'2z | d'2z d'2z | d3 d2f | a2A d2 :|

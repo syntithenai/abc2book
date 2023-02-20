@@ -1,0 +1,23 @@
+X:1
+T: Short and Sweet
+N:
+C:"The Gordian Knot Untied" by Purcell
+S:
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 150
+%W: A1                                                      A2
+% voice 1 (1 lines, 44 notes)
+K:G
+M:6/8
+L:1/16
+g2 d2 e2 d2 G2 g2 g2 a g f2 e4 a2 a g f2 b2 a2 d2 g2 g4 f2 g6 |g2 d2 e2 d2 G2 g2 g2 a g f2 e4 a2 a g f2 b2 a2 d2 g2 g4 f2 g6 |
+%W: B1
+% voice 1 (1 lines, 44 notes)
+d2 B2 d2 B2 d2 B2 A2 d2 A2 G2 d2 F2 G2 A2 B2 c2 B2 A2 G2 A2 B2 c2 B2 A2 |B4 c2 d2 e2 f2 g2 f2 e2 d2 =f2 e2 c4 B2 c B A2 G2 G4 F2 G6 |
+%W: B2
+% voice 1 (1 lines, 44 notes)
+d2 B2 d2 B2 d2 B2 A2 d2 A2 G2 d2 F2 G2 A2 B2 c2 B2 A2 G2 A2 B2 c2 B2 A2 |B4 c2 d2 e2 f2 g2 f2 e2 d2 =f2 e2 c4 B2 c B A2 G2 G4 F2 G6 ||

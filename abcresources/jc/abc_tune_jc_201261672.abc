@@ -1,0 +1,15 @@
+X: 3
+T: Chez Seychelles
+R: waltz, mazurka
+S: http://abcnotation.com/tunePage?a=thesession.org/tunes/5052.no-ext/0003
+S: https://thesession.org/tunes/5052
+M: 3/4
+L: 1/8
+K: D
+"^A"|: d/ d>c \
+| "G"B2 Bc dc | B2 Bc de | "D"f2 fe dc \
+|[1,2 "G"B2 Bc dc || B2 BA FG |
+| "A7"AB AG FE | "D"D7/ :|\
+"^B"|: E/ FG | "D"A2 d2 f[dA] | e2{fe} d2 [d2A2] | "G"B{c}d BA GF | "Em"ED EF G{A}B |
+|[1 "A"c2 e2 c{d}e | "(G)"d2{ed} c2 B2 | "A7"AB cB AG | "D"FE F3/ :|\
+ [2 "A"c2 e2 c{d}e | "(G)"d2 c2 B2 | "A7"AB AG FE | "D"D7/ |]

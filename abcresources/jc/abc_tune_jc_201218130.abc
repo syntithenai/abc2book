@@ -1,0 +1,58 @@
+X: 0051
+T: HYKSHOS MARCH
+C: Composed by S. Knaebel
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.5-7
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+M: C
+L: 1/8
+V: 1 clef=treble nm="FIRST CORNOPEAN\nor BUGLE in Bb"  snm="B1"
+V: 2 clef=treble nm="SECOND CORNOPEAN\nor BUGLE in Bb" snm="B2"
+V: 3 clef=bass middle=d nm="TROMBONE"   snm="T"
+V: 4 clef=bass middle=d nm="OPHICLEIDE" snm="O"
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+U: P=!crescendo(!
+U: p=!crescendo)!
+K: Eb
+%----------
+V: 1
+K: F
+|:\
+"_ff>"A4 "_>"c4 | "_>"f6 e>e | d2 d>d c>d B>c | A4 G2 c>c |
+"_>"a4 "_>"e4 | "_>"f4 g>fe>d | e2 e>e {d}d>c d>e | (d4 c2) z2 :|
+|:\
+!p!f2 f>f a2 f2 | f4 e2 g2 | ^c2 Pc>cp !f!d>Qf e>dq | .^cz "_fz>"a2 z4 |
+!p!_b4- b>a g>b | a4- Pa>gp f>d | !f!c2 c>c (~c2 d>e) | f2 f>f f2 z2 "_FINE."H:|
+|:\
+[K:Bb] !p!d2 f4 d2 | e2 g4 e2 | d2 d>e f>d e>d | .cz .Az "^>"F4 |
+d2 f4 d2 | e2 g4 a>g | ((3fgf) d2 ((3efe) c>d | B2 [bB]>[bB] [b2B2] z2 :|
+|:\
+!ff!Az A>A Az Az | Bz B>B Bz Bz | Az A>A Az Az | B2 ((3dcB) A2 z2 |
+!p!d2 f4 d2 | e2 g4 a>g | (3fgf d2 (3efe c>d | B2 [Bb]>[bB] [b2B2]"_D.C. al Fine." z2 :|
+%----------
+V: 2
+K: F
+|:\
+"_ff>"F4 "_>"G4 | "_>"A6 A>A | _B2 F>F F2 F2 | F4 E2 z2 | "_>"c4 "_>"_B4 | "_>"A4 z2 G>G |
+G2 G>G {G}F>E F>G | (F4 E2) z2 :: !p!d2 d>d f2 d2 | d4 ^c2 e2 | A2 PA>Ap !f!Q^G4q | .Az "_fz>"^c2 z4 | !p!g4- g>f e>g |
+f4 PF>Gp _A>A | !f!=A2 A>A B2 B2 | A2 A>A A2 z2 H:: [K:Bb] !p! B2 d4 B2 | G2 B4 G2 | F2 B>c d>B c>B | .Az .Fz "^>"C4 |
+B2 d4 B2 | G2 B4 f>e | d2 ((3BcB) c2 ((3ABA) | B2 D>D D2 z2 :: !ff!FF/F/ FF FFFF | FF/F/ FF FFFF |
+FF/F/ FF FFFF | FF/F/ FF F2 z2 | !p!B2 d4 B2 | G2 B4 f>e | d2 (3BcB c2 (3ABA | B2 D>D D2 z2 :|
+%----------
+V: 3
+K: Eb
+|:\
+"_ff>"e'4 d'4 | c'2c'>c' c'2b>b | a2a>a g2f>b | b4- b2z2 | "_>"e4 "_>"f4 | e2c'>c' "_>"c'4 |
+b2b>b =a2a2 | z2(=a2 b2)z2 :: !p!z2g>g g2g2 | z2g>g g2g2 | z2Pf'>f'p !f!Qe'4q | .g'z"_fz>"g2 z4 | !p!d'4- d'>e' f'>d' |
+e'2Pc'4pc'2 | !f!z2e'>e' d'2f'2 | e'2e'>e' e'2z2 H::[K:Ab] z2e'>e' e'2e'2 | z2f'>f' f'2f'2 | z2e'>e' e'2e'2 | z2e'2- "_>"e'>[e'e][f'f]>[g'g] |
+[a'a]z e'>e' e'2e'2 | z2f'>f' f'2f'2 | z2e'2 z2_d'2 | c'2c'>c' c'2z2 :: !ff!"^>"bz b>b bz bz | c'z c'>c' c'z c'z |
+bz b>b bzbz | c'2(3e'_d'c' b2z2 | !p!z2e'>e' e'2e'2 | z2f'>f' f'2f'2 | z2e'2 z2d'2 | c'2c'>c' c'2z2 :|
+%----------
+V: 4
+K: Eb
+|:\
+"_ff>"e4 "_>"d4 | c2 c>c c2 B>B | A2 A>A G2 F2 | z>EG>E B2 z2 | "_>"e4 "_>"=B4 | c2 c>c "_>"=A4 |
+_B2B>d f2f2 | b2f2 B2z2 :: !p!c2c>c c2c2 | G2g4G2 | G2Pg>gp !f!Q_a4q | .gz "_fz>"g2 z4 | !p!=B2B>B B2B2 |
+c2z2 c2P=A2p | !f!_B2b4B2 | e2E2e2z2 H::[K:Ab] !p!(3.A.c.e (3.a.e.c A2z2 | (3A_df (3afd A2z2 | Az a>a a2a2 | ez "_>"e2- (3e.f.e (3._d.c.B |
+(3Ace (3aec A2z2 | (3A_df (3afd A2z2 | Az A>c e2E2 | A>ae>c A2z2 :: !ff![_d'4_d4]- (3[d'd].[gG].[aA] (3.[bB].[gG].[eE] | "^>"[a4A4]-(3[aA].[e'e].[d'd] (3.[c'c].[bB].[aA] |
+[eE]z "^>"[d'2d2]-(3[d'd].[gG].[aA] (3.[Bb][gG].[eE] | [a2A2](3[aA].A.c e2z2 | !p!(3Ace (3aec A2 z2 | (3Adf (3afd A2z2 | Az A>c e2 E2 | A>ae>c A2z2 :|

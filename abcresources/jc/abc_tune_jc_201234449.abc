@@ -1,0 +1,36 @@
+X: 20521
+T: CLARIONET HORNPIPE
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" 1843 p.52 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+c2 |\
+cfaf gcde | fegf afga | bgaf gdbg | fedc cBAB |\
+cfaf gcde | fcgf gcde | fefd cBAG | F2F2F2 :|
+|: cB |\
+Acfc dcBA | BAgf edcB | Acag fedc | cBAB G2cB |\
+Acfc dBgf | ecag fedc | d2ba gfeg | f2f2f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+Acfc eABc | AGBA cABc | dBcA [dB]Bdc | AGBA AGFG |\
+AAcA BABc | AABA BABG | AGAB AGFE | F2F2F2 :|
+|: z2 |\
+FAcA BAGF | GFed cBAG | FAcB AGFE | AGFG E2AG |\
+FAAA BGed | cA.cB AGFE | B2.d.c BAGB | A2A2A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+f2f2 c2B2 | f2c2 f2f2 | B2f2 B2B2 | f2f2 c2c2 |\
+f2f2 c2B2 | f2c2 c2B2 | f2f2 c2c2 | f2f2f2 :|
+|: z2 |\
+f2f2 [g2B2][b2d2] | [g2d2][e2c2] d2c2 | f2f2 f2f2 | f2f2 c2z2 |\
+f2f2 b2c'2 | c2f2 f2f2 | b2 c'c' c2c2 | f2f2f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %sep 1 1 300

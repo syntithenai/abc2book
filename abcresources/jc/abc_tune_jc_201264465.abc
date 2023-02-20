@@ -1,0 +1,28 @@
+X: 1
+T: Corelis Gavot
+%R: gavotte
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (202)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+e2 g2 c'2 c2 | f>g e>f d2 c2 |\
+e2 g2 d2 G2 | c>d B>c A2 G2 :|\
+|:\
+d2 g>f e2 a>g | f>e d>c B2 A2 |\
+e>f g>G A>B c>g | f>g e>f d2 c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. Hands across with the 2d Cu. and go the half
+%% round .| then the same back again :| then the 1st Man
+%% change Places quick with the 2d Wo. and the 1st Wo.
+%% with the 2d Man at the same time then all four go
+%% round in their proper places then right and left
+%% with the 2d Cu. :|
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,73 @@
+%%center ADAMS & YORK MEDLEY
+
+
+X: 1
+T: City Guards
+P: piffero primo a0826
+O: Ancient Mariners
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/adamsyorkC0.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+d |\
+b2a gfe | d2B G2B/B/ | BcB BAG | BAA A2d |\
+b2a gfe | d2B G2B/B/ | BcB AGF | G3  z2 :|
+|: d |\
+g2a bag | f2g afd | g2a bag | f2g a2d |\
+g2a bag | f2g afd | efg fga | g3  z2 :|
+
+
+X: 2
+T: The Peeler and the Goat
+P: piffero primo a0827
+O:
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/adamsyorkC0.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Ador
+A/B/ |\
+c2A {c}B2G | ~A2B c2d | ~e2e d2c | B2G/A/ GAB |\
+c2A {c}BAG | ~A2B c2d | ~efg fed | ~e2A A2 :|
+|: f |\
+g2e c2d | e2f g2(3(e/f/g/) | a2f {a}gfe | d2(3(B/c/B/) GAB |\
+c2A {c}BAG | ~A2B c2d | ~efg fed | ~e2A A2 :|
+
+
+X: 3
+T: The Boston Pilot
+P: piffero primo a0828
+O:
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/adamsyorkC0.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bm
+F |\
+B2~B BAF | d2e (f<a)f | edB BAF | A3 A2F |\
+B2~B BAF | d2e (f<a)f | ~fdB B2{cB}A | B3- B2 :|
+|: F |\
+a2f d2f | a2B/B/ b2a | ~fed ~edB | A3 F3 |\
+{GFEF}B2~B BAF | d2e (f<a)f | ~fdB B2{cB}A | B3- B2 :|
+
+
+X: 4
+T: The Irishman's Heart to the Ladies
+P: piffero primo a0829
+O:
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/adamsyorkC0.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+a |\
+ecA    BAF | AEE E2A/B/ | cdc ~cBA | cBB B2a |\
+ecA    BAF | AEE E2A/B/ | cdc ~BAB | cAA A2 :|
+|: z |\
+cee {c}dff | cee ~ecA   | cee  eaf | ecA B2z |\
+cee {c}dff | cee ~ecA   | cdc ~BAB | cAA A2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

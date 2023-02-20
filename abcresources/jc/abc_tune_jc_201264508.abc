@@ -1,0 +1,31 @@
+X: 1
+T: Corie
+C: David A. Kaynor (Jan 2019)
+S: http://www.natunelist.net/corie/
+S: Youtube video of David and friends playing it.
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% = = = = = = = = = =
+V: 1 staves=2
+DE |\
+"D"F6 EF | "G"G6 EG | "D"F3F E2D2 | A,6 A,2 |\
+"G"B,4 D4 | "D"A,4 D3E | "A"E8- | E6 DE |
+"D"F6 EF | "G"G6 EG | "D"F3F E2D2 | A,6 A,2 |\
+"G"B,4 G3F | "A"E3D C2D2 | "D"D8- | D2A2 "A"B2c2 ||
+"D"d3d c2A2 | "G"B6 cd | "A"e3d c2d2 | "D"d4 f2g2 |\
+"D"a4 g2f2 | "G"g3f e2d2 | "A"A8- | A6 fg |
+"D"a3a g2f2 | "G"g6 eg | "D"f3f "A"e2d2 | "D"A6 A2 |\
+"G"B4 g4 | "A"e3d c2d2 | "D"d8- | d6 |]
+% = = = = = = = = = =
+V: 2
+A,2 |\
+D6 D2 | D4 B,4 | D3D A,2A,2 |D6 D2 |\
+G,4 B,4 | D4 A,3A | C8- | C6 A,2 |
+D6 A,2 | D6 CE | D3D A,2A,2 | D6 D2 |\
+G,4 D3D | C3B, A,2A,2 | A,8- | A,2F2 G2A2 ||
+A3A A2F2 | G6 AB | c3B A2G2 | [A6F6] de |\
+f3f e2d2 | d3d B2G2 | E8- | E6 Ae |
+f3f e2d2 | d6 Bd | d3d A2G2 | F6 F2 |
+G4 d2d2 | c3B A2G2 | [A8-F8-] | [A6F6] |]

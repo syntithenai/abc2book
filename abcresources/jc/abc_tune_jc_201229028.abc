@@ -1,0 +1,26 @@
+X: 1922
+T: Welcome to your feet again.   a Reel.
+C: by John Riddle.
+%R: strathspey, air
+B: Niel Gow & Sons "Complete Repository" v.1 p.19 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: Oddly, both strains end on an F chord.
+N: What does that "Expr.o" mean in bar 12?
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+|:\
+C>EG>A c>E[D2B,2] | C>EGA c>GTA>G | F<dE<c d>ED>E | C>EG>A {B}c>GA<c || C>EG>A c>E[D2B,2] |
+C>EG>A c>GTA>G | F<dE>c d>ED>E | C>EG>A {B}c>GA<a |[| g<cg>a Tg>ede | g<cg>a Tg>age | Tf>g (a/g/).f/.e/ Td>cde |
+{B}c>GA>G {B}c>GA<a || g<cg>a Tg>ede | g<cga Tg>age | Tf>g (a/g/).f/.e/ Td>cde | ~c>d {cd}e>d {B}c>GA>c |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+|:\
+c2c2 c2[g2G2] | c2c2 e2c2 | d2c2 g2G2 | c2c2 [c2C2][c2C2] ||\
+c2c2 c2[g2G2] |c2c2 e2f2 | d2c2 g2G2 | c2c2 e2f2 |[|\
+e2c2 g2G2 | c2c2 e2c2 | d2c2 G2g2 |
+"^Expr.o"e2c2 e2f2 || e2c2 g2G2 | c2c2 [c2E2][c2E2] | [d2D2][c2C2] G2g2 | c2c2 [c2e2][c2f2] |]

@@ -1,0 +1,20 @@
+X:0
+T:Clefs
+L:1/8
+M:NONE
+% This goes through all possible clef transitions.
+% treble->bass, bass->treble etc
+% In each case the first note in the new clef is on the middle line
+% and the preceding note has the same musical pitch but expressed
+% in the old clef.
+K:C
+B2 C2 [K: clef=alto] C2
+[K: treble]A,2[K: clef=tenor]A,2
+[K: treble]D,2[K: bass]D,2
+A,2 [K: clef=tenor] A,2
+C2 [K: clef=alto] C2
+D,2[K: bass]D,2
+C2 [K: clef=alto] C2
+A,2 [K: clef=tenor] A,2
+D,2[K: bass]D,2
+B2 [K: treble] B2

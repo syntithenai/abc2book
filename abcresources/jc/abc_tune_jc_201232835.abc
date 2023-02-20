@@ -1,0 +1,53 @@
+X: 17
+T: THE LOVER'S LUCK
+C: attributed to Thomas Tollett
+%R: minuet
+M: 3/4
+L: 1/16
+Z: 2011,2014 John Chambers <jc:trillian.mit.edu>
+B: Thomas Bray's Country Dances 1699 p.40
+N: Duple minor longways
+P: AA BB ad lib.
+Q: 1/4=96
+K: Gm
+%----------------------------------------
+% V:1 arranged to give fewer, longer staff lines.
+V: 1
+"A"|:\
+G2dc d2ed c2dc | B2cB A2BA G2AG |\
+^F2 A4 B4 cd | e2d2 e2c2 d4 |\
+G2dc d2ed c2dc |
+B2cB A2BA G2AG |\
+^F2 B4 cd edcB | A6 G2 G4 :|\
+"B"|:\
+d2B2 F2B2 d2B2 | c2f2 c2A2 c2F2 |
+B2G2 D2B2 A2G2 | ^F6 G2 A4 |\
+B2cd c2de d2=ef | =e2ab a2g2 ^f2d2 |\
+b2 g4 d2 c2d2 | B6 A2 G4 :|
+%----------------------------------------
+V: 2
+|: B,4 B,4 A,4 | G,4 A,4 B,2C2 | D4 ^F4 G4 | G4 G2A2 ^F2D2 |
+   B,4 B,4 A,4 | G,4 A,4 B,2C2 | D4 G4 G4 | G4 ^F4 G2D2 :|
+|:=F2D2 B,2D2 F4 | F2C2 A,2C2 F4 | D2B,2 G,2D2 E4 | D2A,2 D2=E2 D2C2 |
+   B,2D2 F4 B2A2 | G4 c2B2 A2^F2 | G2B2 G4 A2B2 | B2D2 ^E2^F2 G4 :|
+%----------------------------------------
+V: 3 clef=bass middle=d
+|: "Gm"g8 "D"^f4 | "Gm"g4 "Dm"=f4 "Eb"e4 | "D"d8 "Gm"B4 | "Cm"c4 "Adim"A4 "D"d2^f2 |
+   "Gm"g8 "D"^f4 | "Gm"g4 "Dm"=f4 "Eb"e4 | "D"d4- "Gm"d4 "Cm"c4 | "D"d4 D4 "Gm"G4 :|
+|: "Bb"B8 b4 | "F"a8 a4 | "Gm"g8 "Cm"c4 | "D"d8 ^f4 |
+   "Gm"g4 "F"a4 "Bb"b4 | "C"c'4 "Am"a4 "D"d'4 | "Gm"g4 b4 "Cm"c'4 | "Gm"d'4 "D"d4 "Gm"g4 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%center The Lovers Luck, a New Country Dance.
+%%begintext align
+%% The 1st Man turn his Wo. with his right Hand, and fall betwixt the 2d cu. with his Face to his
+%% Wo. and his Wo. fall from him at the same time; 1st Man turn the 2d Wo. with the left Hand,
+%% till he comes to the middle of the Room above, his Wo. turns the 2d Man at the same time with the left
+%% Hand, till she comes into the middle of the Room below, then 1st Man and 1st Wo. go round each other to the
+%% left Hand, till they come to their places as at first, and then cast off .| The 2d cu. do the same after them :|
+%% Then 1st cu. lead up, 2d cu. lead down, and all turn S. then back again and turn S. then each Man turn his
+%% Wo. round with the right Hand, .| 1st The Wo. cast off with the right Hand to the 2d Mans place, the
+%% 2d Man cast up to the 1st Womans place at the same time, the other cu. following their own Partners
+%% till they come all in a row, the 1st Man and 2d Wo. with their backs to each other, then all four turn to
+%% the left Hand, 1st cu. down, 2d cu. up, and each Man cross over with his own :| And so to the
+%% end.
+%%endtext

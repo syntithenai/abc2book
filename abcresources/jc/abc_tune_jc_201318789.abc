@@ -1,0 +1,45 @@
+
+X: 1
+T: Odeno Oro
+O: Macedonia
+M: 6/8
+L: 1/8
+S: Moshe Braner
+P: D drone
+K: Dm
+"A"\
+|: D3 D2E | F2E D3 | E3 EDC | E3 EFE |\
+   D3 D2E | F2E D3 | E3 EDC | D3 D3 :|
+"B"\
+|: A3 G2A | F2E D3 | E3 EDC | E3 EFG |\
+   A3 G2A | F2E D3 | E3 EDC | D3 D3 :|
+"C"\
+|: DEC D2E | FGE FGE | DEC D2E | FGE D2A, \
+|  DEC D2E | FGE FGE | DEC D2E | FGE D3 :|
+"D"\
+|: FGE FGE | DEC D2E | FGE FGE | DEC D2E \
+|  FGE FGE | DEC D2E | FGE FGE | DEC D3 :|
+
+
+%%sep 3 1 500
+
+X: 2
+T: Odeno Oro
+O: Macedonia
+M: 6/8
+L: 1/8
+S: Moshe Braner
+P: A drone
+K: Am
+"A"\
+|: A3 A2B | c2B A3 | B3 BAG | B3 BcB |\
+   A3 A2B | c2B A3 | B3 BAG | A3 A3 :|
+"B"\
+|: e3 d2e | c2B A3 | B3 BAG | B3 Bcd |\
+   e3 d2e | c2B A3 | B3 BAG | A3 A3 :|
+"C"\
+|: ABG A2B | cdB cdB | ABG A2B | cdB A2E \
+|  ABG A2B | cdB cdB | ABG A2B | cdB A3 :|
+"D"\
+|: cdB cdB | ABG A2B | cdB cdB | ABG A2B \
+|  cdB cdB | ABG A2B | cdB cdB | ABG A3 :|

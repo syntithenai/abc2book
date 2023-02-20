@@ -1,0 +1,26 @@
+X:3
+T:R\oragenvalsen
+R:vals
+C:Sven Nyhus
+Z: John Chambers <jc@trillian.mit.edu>
+Z:reworked for abc2win
+M:3/4
+L:1/8
+K:A
+|: zE2 \
+| "A"[E3c3]([Fd][E2c2]) | "E7"[D3B3][Ec]-[F2d2] \
+| "A"[E4c4][D2B2] | [C3A3][DB][=G2E2c2] \
+| "D"[F3d3][Ge]-[A2f2] | "E7"[G2e2][G2B2][F2d2] \
+| "A"[E6c6]- | [E3c3][CA][DB][Ec] |
+| "D"[F2d2]z[DF][D2F2] | [D2F2][F2A2][A2d2] \
+| "A"[A3c3]BAc | [c3e3][ce][c2e2] \
+| "Bm"[B2d2]-[A2c2][GB][Ac] | "E7"[B2d2]zE[DF]G \
+| "A"[C3A3][CA][C2A2] | [C3A3] :|
+|: efg | "A"[e2a2]z[ea][e2a2] | "C#aug"[^e2a2][c2a2][B2g2]  \
+| "D"[B4g4][A2f2] | "(Bm)"[A4f4]B2 \
+| "E7"[B4g4]B2 | [B4g4][A2f2] \
+| "A"[A3e3]^def | "E7"[G4e4][B2d2] |
+| "A"[A3c3]ABc | "Bm"[B4d4][A2c2] \
+| [F2B2][D4F4] | [F3B3]ABd \
+| "A"[A3c3]BAc | "E7"[E3B3]E[DF]G \
+| "A"[C3A3][CA][C2A2] | [C3A3] :|

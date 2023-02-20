@@ -1,0 +1,34 @@
+X: 1
+T: Don't Ye.
+%R: polka, march
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Thomas Wilson & Willian Harmony "Four New Country Dances", 1812
+F: https://ia600206.us.archive.org/26/items/Wilson4NewCountryDances/Wilson%20-%204%20New%20Country%20Dances.pdf
+M: C
+L: 1/8
+Q: "Allegretto"
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+|: fccB AFF2 | AFF2 ECC2 | fccB AFF2 | Cc cB AF F2 :|
+|: d^cdc ddef | =BABG cde2 | d^cdc def>d | ecgf ecc2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: FfFf FfFf | FfFf CcC2 | FfFf FfFf | CcCc FfF2 :|
+|: fefe fed2 | g2f2 edc2 | f2e2 d2d>f | g2G2 c2c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text  SINGLE FIGURE (each strain repeated)
+%%begintext align
+%% The 1st Lady turns the 2d Gentleman the 1st Gent:
+%% turns the 2d Lady |: lead down the middle up
+%% again and half poussette |:.
+%%endtext
+%%center --
+%%text  DOUBLE FIGURE (the tune played twice tho' with rep.ts)
+%%begintext align
+%% Swing with right hands (round the 2d Couple)
+%% then with left |: set 3, then set in your places
+%% |: hands 6 round & back again |: & lead outsides |: .
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

@@ -1,0 +1,29 @@
+X: 022
+T: MISS MARGARET CAMPBELL. (of Saddell's.)
+C: R. MACKINTOSH
+R: Reel
+B: Glen Collection p.2 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: A
+%
+V: 1
+c |\
+AEcA ecae | fdec d(BBc) | AEcA ecae | fdBe cAA :|
+e |\
+(aga)e cAec | B(bba) bffg | (aga)e cAec | dfed c(AAe) |
+(aga)e cAec | B(bba) bffg | afbg afed | ceBd cAA |]
+%
+V: 2
+z |\
+A2[c'2a2e2] [c'2a2e2][c'2a2e2] | [d'2a2d2][c'2a2e2] [b2g2e2][b2g2e2] |\
+A2[c'2a2e2] [c'2a2e2][c'2a2e2] | [d'2a2d2][d'2g2e2] [a2e2][c'ae] :|
+e |\
+A2[c'2a2e2] [c'2a2e2][c'2a2e2] | B2[d'2b2f2] [d'2g2e2][d'2b2e2] |\
+[c'2a2e2][c'2a2e2] [c'2a2e2][c'2a2e2] | e2[d'2g2] A2[c'2a2] |
+A2[c'2a2e2] [c'2a2e2][c'2a2e2] | B2[d'2b2f2] [d'2g2e2][d'2b2e2] |\
+[c'2a2e2][d'2b2e2] [c'2a2e2][c'2a2e2] | [a2e2][g2e2] [a2e2A2][aeA] |]

@@ -1,0 +1,23 @@
+X:998
+%%stretchlast 1
+T:John Robertson's Scottish Waltz
+C:Joe Buchanan's Scottish Tome - Page 583.0
+I:583 0
+Z:Carl Allison
+U:T=!tenuto!
+R:Waltz
+L:1/4
+M:3/4
+K:D
+W:Intro
+%%vskip 0
+d3 | B3 | A2 F | A3 |]
+%%vskip 20
+|: D>C D | (F2 A) | (F2 F) | D3 |
+(D>C D) | (F2 A) | (B A F) | E3 |
+(D>C D) | (F B d) | (f2 e) | (d2 B) |
+(A d2) | (F2 F) | D3- | D3 :|
+|: d3 | (B2 d) | (A2 F) | A3  |
+d3 | ((3B/A/B/) e/ z/ d | (c2 B) | A2 TB/ Tc/ |
+d3 | B3 | (A2 F) | (D2 E) |
+(F2 d) | (F2 F) | D3- | D3 :|

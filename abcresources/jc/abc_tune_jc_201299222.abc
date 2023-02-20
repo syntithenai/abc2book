@@ -1,0 +1,17 @@
+X:416
+T:Lady Ann Carnegie's Favorite
+R:Slow Air
+M:6/8
+%%printtempo 0
+Q:1/8=90
+K:D
+V:1
+|:"D"!pp!F>E"_on repeat"D D2"G"B| "D"A>Fd F>ED| "A7"F>EE E>F"D/F#"A| "G"d>cB "D"A2F|
+"F#m"A>B"D/F#"d "Em"e>dB| "G"B>A"D"F A>Bd| "Bm"F>EF d>"G"cB| "D/A"(A<D)F "A7"HE2 "D"HE::
+!crescendo(!"D"d2 A "A"e2A!crescendo)!|!ff!"D"fe>d (d<A)"G"B|"D"A>F"D/C"D "Bm"!tenuto!D2d/!mf!e/|"D"f(g/f/)e/d/ "A"e2d|
+"D"d2A "A"e>fg| "D7"f>ed "G"d>cB| "D/A"A>BA "Bm"(A<D)E| "D/A"(F<A)F "A"HE2 "D"HD:|
+V:2
+|:!pp!A>G"_on repeat"F F2G| F2F A>GF| B,>CC C>DF|G2GF2D|
+F2FG2G|G2DF2F|D>CD F2G| (F<D)FHC2H[A,F]:|
+!crescendo(!F2DC3|D2!crescendo)!F!ff!F2G|F>DA,!tenuto!B,2C|DFA c2D|
+F2DC3|=C2B B,>A,G,|F2FF2B,|A,2A,HC2 HA,:|

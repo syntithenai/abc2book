@@ -1,0 +1,18 @@
+X: 941
+T: Ask My Father
+%S: s:2 b:16(8+8)
+R: jig
+B: O'Neill's 1850 #941
+O: Ennis
+Z: Tom Keays (htkeays@mailbox.syr.edu)
+%abc 1.6
+M: 6/8
+L: 1/8
+K: D	% ending on G
+"^A"\
+|: A2G | F2D DED | A2D DED | ABA B2G | ABA |\
+|  A2G | F2D DED | A2D DED | G2B A2F | G3 :|
+"^B"\
+|: z2g \
+| f2d efg | f2d cAG | ABA B2G | ABA |\
+| B2g | f2d efg | f2d cAF | G2B A2F | G3 :|

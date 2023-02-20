@@ -1,0 +1,22 @@
+X: 348
+T: Sarba Batuta
+O: Romania
+F: http://www.youtube.com/watch?v=WFtOHCk1AIs
+F: http://www.youtube.com/watch?v=1YXvpBsLSyw
+W: originally transcribed by Miamon Miller
+W: http://balkantunes.org/music/folklore2011/
+M: 2/4
+L: 1/16
+K: F
+Q: 1/4=144
+%%MIDI program 40 violin
+%%MIDI bassprog 32 acoustic bass
+%%MIDI chordprog 32 acoustic bass
+"F" F2F2 C2F2  |GABG A2AG          |\
+F2F2 C2F2      |GAFG A2AG          |
+F2F2 "F/A" C2F2|"Bb" GABG "Bm" A2AG|\
+"C"F2F2 C2c2   |"F"cBAG F z z2::
+"F" ABc2 d2c2  |ABc2 ABc2          |\
+ABc2 d2c2      |ABc2 ABc2          |
+ABc2 "F/A" d2c2|"Bb"d2c2 "Bm"ABc2  |\
+"C"d2c2 ABcA   |"F"F2FE Fz z2      :|

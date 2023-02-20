@@ -1,0 +1,23 @@
+X: 15
+T: Miss Jessy Dalrymples Reel
+%R: reel
+B: "Twenty Four Favourite Dances for the Year 1783", Thomas Straight, ed. p.8 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1783
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C|
+L: 1/8
+K: Bb
+A |\
+B2dB fBdB | Gcec gcec |\
+A/c/f a>f bgaf | =e/f/g ce fFF :: E |\
+D/E/F BF GEeg | FdDF ECce |
+D/E/F BF GEce | d/c/B F>A BB,B,E |\
+D/E/F BF GEeg | FdDF ECce |\
+DFBb acdg | fBAe dBB2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st & 2d Cu set & change sides .|. back
+%% again :|. hands across quite round back
+%% again .|: cross over 1 Cu right & left at top :|:
+%%endtext

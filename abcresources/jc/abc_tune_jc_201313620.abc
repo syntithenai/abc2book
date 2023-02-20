@@ -1,0 +1,20 @@
+X:497
+T:Mr Mozart's Rant
+C:Mozart
+N:From Piano Concerto no. 17 K453, third movement
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=105
+K:G
+P:A
+|: B,/C/ | "G"DD "/"DG | "D"FF "Em"GG | "C"AA "D7"A/B/c/A/ | "G"B2- "/"Bd/B/ |\
+"D"AA "B7"AB/A/ | "Em"GG "Bm"FF | "Em/G"EE "A7"^C/D/E/C/ | "D"D2- "/"D :|
+P:B
+|: D/F/ | "A"AA "/"AA | "D"GF- "/"FD/F/ | "A"^G/A/G/A/ "/"G/A/B/A/ | "D"GF- "D7"FA/D/ |\
+"G"dd "D7"cc | "Em"BB "Am"AA | "G/D"GG "D7"F/G/A/F/ | "G"G2- "/"G :|
+%%textfont Times-Roman-Bold 20
+%%center Last time, replace final bar by...
+P:Coda
+|| "G"G2 "-"d/e/f/d/ | "-"g2 "D7"dd | "G"B2 "-"d/e/f/d/ | "-"g2 "D7"[Dd][Dd] | "G"[G,G]4 |]
+%%center where the dashes mean no chord.

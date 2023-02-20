@@ -1,0 +1,18 @@
+X: 1
+T: Louden's Bonnie Banks (and Braes)    [G]
+T: Lord Moira
+B: James Kerr "Merry Melodies" v.3 p.19 #161
+S: BSFC Tune Book p.68 #1 ("Lord Moira", in F)
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+"A"|:\
+"G"G2  G2     B<d d2  | "C"c>A    B>G "D"A>G F<D |\
+"G"G2  G2     B<d d2  | "C"e>g "D"f<a "G"g2  g2 :|
+"B1"[|\
+"G"g>a b>g "D"a>g f<d | "C"e>f    g>e "G"d<B B<G |\
+"G"g>a b>g "D"a>g f<d | "C"e<g "D"f<a "G"g2  g2 |]
+"B2"[|\
+"G"g>a b>g "D"a>g f>d | "C"e>f    g>e "G"d<B B>A |\
+"G"G2  G2     B<d d2  | "C"e<g "D"f<a "G"g2  g2 |]

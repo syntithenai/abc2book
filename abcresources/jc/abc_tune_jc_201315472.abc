@@ -1,0 +1,24 @@
+X:1
+T:My Land  "rpb"
+M:3/4
+L:1/8
+Q:80
+C:D
+S:Retreat March
+K:HP
+|: {g}A3/2c/2{gef}e2{A}e2 | \
+ac{gef}e2{A}e2 | \
+{Gdc}d3/2c/2{g}B2-B{g}f |
+{gef}e3/2d/2{g}c2-c2 | \
+{g}A3/2c/2{gef}e2{A}e2 | \
+ac{gef}e2{A}e2 |
+{Gdc}d3/2c/2{g}B2-B{g}f | \
+{gef}eG{g}A2{GAG}A2 :: \
+{gcd}c{e}A{gef}e2{A}e2 |
+{g}f3/2g/2{ag}a2{g}a2 | \
+{Gdc}df{g}e2-ec | \
+{Gdc}d3/2c/2{gBd}B2-B2 |
+{g}A3/2c/2{gef}e2{A}e2 | \
+{ag}ac{gef}e2{A}e2 | \
+{Gdc}d3/2c/2{g}B2-B{g}f |
+{gef}eG{g}A2{GAG}A2 :|

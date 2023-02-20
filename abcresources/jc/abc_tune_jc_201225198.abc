@@ -1,0 +1,32 @@
+X: 91
+T: Barley Straw
+T: Longways for as many as will.
+%R: reel
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.46
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: It's not clear how the 24-bar tune fits with the dance.
+N: The first strain ends with a dotted quarter note; changed to half note to fix the rhythm.
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+GABG ABcA | d2c2 B2A2 | G4 ^F4 | GBAG F2D2 |\
+G2B2 ABc2 | d2c2 B2A2 | G4 ^F4 | GDB,D G4 |]
+BABc d2f2 | d2B2 A2F2 | B4 A4 | B2FE D2F2 |\
+dcBc d2f2 | d2B2 A2F2 | B2d2 FBAc | B6 d2 |
+g2d2 f2d2 | gdgd fdfd | gfga b2g2 | ^f6 dc |\
+B2G2 A2F2 | BGBG AFAF | B2d2 DG^FA | G8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st and 2d Cu. set across and turn all
+%% 4 round single .| then set again and turn
+%% to your own Places :| then cross below the
+%% 2d Cu. and up again to your own Places .|
+%% the 1st Man change Places with the 2d Wo.
+%% and the 1st Wo. with the 2d Man, then
+%% Hands half round and cast off.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

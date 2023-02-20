@@ -1,0 +1,26 @@
+X: 21311
+T: BEAUTIFUL DANUBE -- Waltz 3
+C: Strauss
+R: waltz
+B: K\"ohler's Violin Repository, v.2, 1885 p.131 #1
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd ending of the 1st part is missing a measure.
+U: P=!crescendo(!
+U: p=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: 3/4
+L: 1/8
+K: G
+!segno!!p!(vD2 |"Divisi."\
+[B2G2]) z2 u[B2-G2-] | [B2G2] "_>"([d3B3] [cA]) | [B2G2] [DB,]z v[DB,]z | [D4B,4] ([D2B,2] |\
+[B2G2]) z2 u[B2-G2-] | [B2G2] "_>"([e3c3] [dB]) | ([c2A2] [FD])z v[FD]z | u[F6D6] |
+[c2A2] z2 u[c2-A2-] | [c2A2] ([f3d3] [ec]) | {e}([g2e2] [BG])z v[BG]z | [B4G4] "Uniss."uB2 |\
+!p!(.[A2F2] z2 .[A2F2]) | (.[.^A2F2] z2 .[A2F2]) |[1 [B6-F6-] | [B2F2] z2 :|\
+[2 B2 z2 !f!u((3BcB) ||
+|: v(BA^GABA) | A=GFG d2- | du[cD] [cD]z [cD]z | [cD]z (u.[BD]z u.[BD])z |\
+(BA^GABA) | (AGFG) "_>"g2- | guf fz fz | ez udz udz |
+(BA^GABA) | (A=GFG) d2- | du[cD] [cD]z u[cD]z | [cD]z (u.[BD]z u.[BD]) |\
+(BA^GABA) !f!| (A=G) (.bz z.g) | "_>"(f3 ecA) |\
+[1 G2 z2 u((3BcB) :|[2 G2 z2 !segno! "_D.C."|]["Last." G2 z2 z2 H|]

@@ -1,0 +1,26 @@
+X:1
+T: The Punch Bowl
+N:
+C:
+S:
+A:
+O:
+R:
+M:3/2
+K:G
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 37 notes)
+K:G
+M:3/2
+L:1/16
+G8 |G2 A2 B4 |A6 |G2 E8 |E2 F2 G4 |D4 B,4 |d8 |e4 d4 |e2 f2 g4 |f16 |f8 |g8 |e4 f4 |g4 e4 |c8 |A8 |A8 |a8 |b2 a2 g2 |f2 e4 |d4 d12|d12 |
+%W: A2
+% voice 1 (1 lines, 37 notes)
+G8 |G2 A2 B4 |A6 |G2 E8 |E2 F2 G4 |D4 B,4 |d8 |e4 d4 |e2 f2 g4 |f16 |f8 |g8 |e4 f4 |g4 e4 |c8 |A8 |A8 |a8 |b2 a2 g2 |f2 e4 |d4 d12|d12 |
+%W: B1
+% voice 1 (1 lines, 43 notes)
+a8 |b2 a2 g2 |f2 g4 |a4 b8 |B8 |B8 |g8 |a2 g2 f2 |e2 B6 |^d2 e16 |e2 f2 g4 |d4 B4 |A4 G4 |A2 B2 c4 |G4 E4 |D4 B,4 |A,4 G,4 |d8 |e2 d2 c2 |B2 A4 |G4 G12|G12 |
+%W: B2
+% voice 1 (1 lines, 43 notes)
+a8 |b2 a2 g2 |f2 g4 |a4 b8 |B8 |B8 |g8 |a2 g2 f2 |e2 B6 |^d2 e16 |e2 f2 g4 |d4 B4 |A4 G4 |A2 B2 c4 |G4 E4 |D4 B,4 |A,4 G,4 |d8 |e2 d2 c2 |B2 A4 |G4 G12|G12 ||

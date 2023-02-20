@@ -1,0 +1,12 @@
+X:46
+T:Evan's Hornpipe
+R:Hornpipe
+M:C
+%%printtempo 0
+Q:180
+K:G
+(Bc)|"G"dgfe (dc)(BA)|GBDG "D"TB2(AG)|FADF {B}A2 (GF)|"G"GBDG "D"TB2(Bc)|
+"G"dgfe (dc)(BA)|GBDG "D"TB2 (AG)|FGAB cdef|"G"[g2B2][g2B2][g2B2]::
+(ag)|\
+"D"fadf {/^g}a2(=gf)|"G"gbdg {ga}b2 (ag)|"D"(fa)df {/^g}a2 =gf|"G"gbdg {ga}b2Bc|
+"D"dgfe (dc)(BA)|"G"GBDG TB2 (AG)|"D"FGAB cdef|"G"g2[g2B2][g2B2]:|

@@ -1,0 +1,56 @@
+X: 10761
+T: Ye that groan beneath the weight of dissipation pride and state
+C: Dibdin
+Q: "Grazioso"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.76-78
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Bar 2 is missing the slur on its first two notes.
+M: C
+L: 1/8
+K: C
+%%continueall
+[|\
+G3 F E2 c2 | c2 B A (GA) (Bc) | (de) (fd) (ec) (Bc) |
+w: Ye that groan be-neath* the weight* of* dis-*si-*pa-*tion 
+d2 (e>d) d2 z2 | G3 F E2 c2 | (c2 B) c d2 z2 |
+w: pride and* state,  Ye that fain would plea-*sure find
+e3 d e2 c2 | g2 d2 {d}c2 z2 | (cB) (cd) (ec) (BA) |
+w: led by for-tune e-ver blind, led* by* for-*tune*
+G2 (T^F>G) G2 z2 | G3 G c3 _B | A2 G2 (A2 c2) |
+w: e-ver* blind, come and sit a-long with me*
+f2 a2 (ge) (dc) | (c2 B) A G2 z2 | G3 G c3 _B |
+w: come and taste* tran-*qui-*li-ty, come and sit a-
+A2 G2 (A2 c2) | f2 a2 (ge) (dc) | (c2 B) A G2 z2 |
+w: long with me* come and taste* tran-*qui-*li-ty,
+e3 d c2 B2 | A3 c f2 z2 | f3 e d2 c2 |
+w: come and taste tran-qui-li-ty, come and taste tran-
+B3 d g2 z2 | (gf) (ed) c3 c | {c}B2 (d>c) c2 z2 |
+w: qui-li-ty, come* and* sit a-long with* me,
+(gf) (ed) c3 c | B3 B Hf3 a | (af) (ge) (fd) (cB) |
+w: come* and* sit a-long with me,* come* and* taste* tran-
+c3 d c2 z2 & x4 cefg | a3 b c'2 c'2 | c'bd'f fegc | Adef edcB | c3 d c2 z2 |]
+w: qui-li-ty.
+%
+W: 2. Would you chearful health restore 
+W: When advice can do no more 
+W: Seek the fresh reviving breeze 
+W: Or the fanning of the trees 
+W: Come and sit along with me 
+W: Come and taste tranquility 
+W: 
+W: 3. Ye that th'warted are by love 
+W: Come and murmur with the Dove 
+W: Shun the false ungrateful maid 
+W: Seek the sweet sequester'd shade 
+W: Come and sit along with me 
+W: Come and taste tranquility 
+W: 
+W: 4. Ye that harrass'd are by fate 
+W: To a wild and frantic state 
+W: Or moping wander like a loon 
+W: Dreading oft the wayward moon 
+W: Come and sit along with me 
+W: Come and taste tranquility
+%
+%%center -

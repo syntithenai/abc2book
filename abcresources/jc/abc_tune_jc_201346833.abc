@@ -1,0 +1,29 @@
+X:751
+T:Trumpet Voluntary
+C:Jeremiah Clarke
+M:2/2
+L:1/8
+S:Henry Playford, 1701
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=90
+N:Unless you're an authenticity fanatic I recommend that you stick to this tune,
+N:which is certainly what people will expect.  It's also a lot faster than you might expect!
+%%MIDI program 57
+%%MIDI chordprog 20
+%%MIDI gchord c2cc
+K:D
+P:A1
+[| "D"d4 "A"Te3d/e/ | "D"f3g f2 "(A)"e2 | "D"d2e2f2ed | "A"e2A2 "A7"A2A2 |\
+"D"d4 "A"Te3d/e/ | "D"f3gf2 "(A)"e2 | "D"de "G"de "A7"Te3d | "D"d8 |
+P:B
+"D"f4 "E7"T^g3f/g/ | "A"a3b a2g2 | "D"f2d2d2A2 | "D"d2A2F2D2 |\
+"D"f4 "E7"T^g3f/g/ | "A"a3b a2g2 | "D"f2ed defg | "A"e4- "A7"e4 |
+P:A2
+"D"d4 "A"Te3d/e/ | "D"f3g f2 "(A)"e2 | "D"d2e2f2ed | "A"e2A2 "A7"A2A2 |\
+"D"d4 "A"Te3d/e/ | "D"f3gf2 "(A)"e2 | "D"de "G"de "A7"Te3d | "D"d8 |
+P:C
+"D"A2FGA2d2 | "D"A2FGA2d2 | "D"A2def2d2 | "A"c3BA4 |\
+"A"e2cde2 "D"f2 | "A"e2cde2 "D"f2 | "A"e2dc "E7"B3A | "A"A4- "A7"A4 |
+P:A3
+"D"d4 "A"Te3d/e/ | "D"f3g f2 "(A)"e2 | "D"d2e2f2ed | "A"e2A2 "A7"A2A2 |\
+"D"d4 "A"Te3d/e/ | "D"f3gf2 "(A)"e2 | "D"de "G"de "A7"Te3d | "D"d8 |]

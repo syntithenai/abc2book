@@ -1,0 +1,21 @@
+X: 142107
+T: the RECRUIT
+Q: "Hornpipe."
+R:  Hornpipe.
+%R: hornpipe
+B: James Kerr "Merry Melodies" v.1 p.42 s.1 #7
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: There's a 4-dot partial repeat symbol at the beginning.
+M: C
+L: 1/8
+K: D
+(F>G) |\
+A3B A>FD>F | A>Fd>B A>FD>F |\
+G>BG>E F>AF>D | E2 (3EEE E2 (A>G) |\
+F>DF>A d2(e>f) | e>dc>B A2(e>d) |\
+c>ec>A B>dB>^G | A2 (3AAA A2 :|
+(c>d) |\
+e3f e>cA>c | e>ca>f e>cA>c |\
+d>fd>B c>ec>A | B2 (3BBB B2 (3(ABc) |\
+d3B A>FD>F | G>AB>c d2(c>B) |\
+A2(G>F) E>GF>E | D2 (3ddd d2 H|]

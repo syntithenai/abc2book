@@ -1,0 +1,36 @@
+X: 09
+T: Lady Charlotte Durham's Waltz
+%R: waltz
+B: Thompson "A Favourite Collection of Country Dances 1800", p.9
+F: https://deriv.nls.uk/dcn23/1205/2168/120521683.23.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain has 9 bars.
+M: 3/8
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for a US-letter/A4 page size.
+V: 1
+E2 |\
+A2c2B2 | A2e2d2 | c2a2e2 | e4cA |\
+f4dB | e4cA | BcdcBA | BcdBAG | A4 :|
+|: cd |\
+e2ecAc | B2BGEF | GABcde | fgabc'd' |\
+e'4c'a | e2a2c'2 | bc'd'bag | a4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z2 |\
+A4e2 | a4e2 | A2e2c2 | A4a2 |\
+d4b2 | c4a2 | g2e2a2 | d2e2E2 | A4 :|
+|: z2 |\
+A2a2a2 | E2e2e2 | [e6-E6-] | [e4E4][d2D2] |\
+[c4C4]z2 | A2c2A2 | d2e2E2 | A4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First & 2d Cu: half right & left & back again .|
+%% lead down the middle & up again .|.
+%% cross over one Cu: :|.
+%% right & left at Top. :|:
+%%endtext
+%%sep 2 2 400

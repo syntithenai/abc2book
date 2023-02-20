@@ -1,0 +1,24 @@
+X: 10771
+T: HENRY'S COTTAGE MAID
+C: Pleyel
+Q: "Andante Pastorale"
+%R: jig, air
+B: "Edinburgh Repository of Music" v.1 p.77 - p.78 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+[|\
+!p!"^Sy."B3 (Bc)A | d3 B2B | B3 (Bc)A | G3 D2z |\
+!f!(e2f {a}gfe) | d3 B2G | A2B {d}cBA | GGG G2z |\
+"^So."B3- BcA | d3 B2B | B3- BcA | G3 D2z |
+e2f {a}gfe | d3 B2G | A2B cBd | (B3 A2)z |\
+B3- BcA | d3 B2B | B3 BcA | G3 D3z |\
+e2f {a}gfe | d3 B2G | A2B cBA | "^Sy."[GG2]g/a/b/a/ gg/a/b/a/ |
+ggg g2"^So."d | A2B {d}cBA | (B3 d2)B | A2B {d}cBA |\
+[GG2]"^Sy."G/A/B/A/ GB "^So."d | A2B {d}cBA | B3 dBG | FAd GFE |\
+D6 | B3- BcA | (d3 B2)z | B3- BcA |
+G3 D3 | e2f {a}gfe | d4 "^Express."zB | A2B {d}cBA |\
+G3 G2"^Sy."g | f2g agf | g2b g2b | f2g agf |\
+g2b g2b | gBA GGG | G4 z2 |]

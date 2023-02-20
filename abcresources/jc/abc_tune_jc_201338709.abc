@@ -1,0 +1,17 @@
+X: 1504
+T: the Smoky House
+T: an tea.c toitea.c.
+R: reel
+%S: s:4 b:16(4+4+4+4)
+O: Stack
+B: O'Neill's 1850 "Music of Ireland" #1504
+Z: John B. Walsh, walsh@math.ubc.ca 8/23/96
+M: C|
+L: 1/8
+K: Am
+"^A"[|]\
+   (AB) | cAeA cAeA | BGGA BcdB | cAeA cAeA  | dBGB A2 ||
+|| (AB) | cAeA cAeA | BGGA BcdB | cBAB cde^f | gedB A2 |]
+"^B"\
+[| (ab) | c'bag age^f | gedc BGGb | c'bag aged | ((3e^fg) ab a2 ||
+|| (ab) | c'ba^f gbaf | gedc BGG2 | ABcd ede^f | gedB A2 |]

@@ -1,0 +1,18 @@
+X: 1182
+T: Marquis of Tullibardine's Giga
+%R: slip-jig
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.18 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Gm
+% - - - - - - - - - -
+V: 1 staves=2
+D |\
+G2G (B/c/d).G dBG | F2F (A/B/c).F cAF | G2G (B/c/d).G dBG | FDF D>CB,/A,/ G,2 :| d | gdg (g/a/b).a geg | fcf (f/g/a)f fcf |
+gdg (g/a/b)a gdg | fdf cAF G2d || gdg (g/a/b).a gdg | fcf (f/g/a).g fcf | (g/a/b).a gdg fcf | (f/g/a).d cAF G2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | g3 g3 g3 | f3 f3 f3 | g3 g3 g3 | d3 d3 G2 :| z | g3 g3 g3 | f3 f3 f3 |
+g3 g3 g3 | d3 d3 G3 || g3 g3 g3 | f3 f3 f3 | g3 g3 f3 | d3 d3 G2 |]

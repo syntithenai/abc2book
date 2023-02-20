@@ -1,0 +1,16 @@
+X: 1
+T: Half Past Four
+M: C|
+L: 1/8
+R: reel
+K: A
+(3efg |\
+"A"a2-ab aecA | "D"defd "E"edce | "A"agab aecA | "D"defg "A"a2ef |
+"G"=gabf gfge | "D"defd "E"efed | "A"c2AB cABA | "E"GABG "A"A2  :|
+|: zA- |\
+"A"A2cA dAcA | "G"BA=GA BcdB | "A"A2cA dAcA | "G"BA=GB "A"A3A- |
+   A2cA dAcA | "G"BA=GA Bcd2 | "A"e3e- efec | "E"BA^GB "A"A2  :|
+% %begintext ragged
+% % When Debby so signals, play the B part in A major, ignoring the natural signs.  And play E chords instead of those G chords. (It's written out at the end of the set.)
+% %endtext
+% text 4/28/12

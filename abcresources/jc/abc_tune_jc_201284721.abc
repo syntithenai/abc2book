@@ -1,0 +1,28 @@
+X: 1
+T: the Hare's Maggot
+P: Longways for as many as will
+%R: triple hornpipe, minuet
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.255 "Z 2"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/2
+L: 1/4
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+e2 A2 a2 | g/a/b e^g a2 |\
+eg/f/ eg ec | d g2 d BG |\
+ce f2 ef | d4 c2 |][|\
+e c2 e ge |
+d B2 d gd |\
+ce Ac EA | ^G3 A B2 |\
+c e2 B cA | ^f b2 ^f ^ge |\
+ae f/e/d e/d/c | c2B A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man goes in between the 2. cu. round the 2. man, and turn the 2. wo .| His Partner does the
+%% same likewise on her side :| Both clap sides and cast off, right and left quite round .| Then go the
+%% double Figure in the third cu. then turn his Partner :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

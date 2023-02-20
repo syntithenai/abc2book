@@ -1,0 +1,21 @@
+X: 1
+T: Tea Gardens Jig
+C: Angus Chisolm
+D: Buddy MacMaster "Traditional Music from CB Island"
+N: arr. T. Traub 6-30-2011
+R: Jig
+M: 6/8
+L: 1/8
+K: G
+"D7"B2c \
+| "G"d^cd b2 a | "G"g2 d B2 d | "Am"cBc e2 c | "Am"A3 A2 G \
+| "D"FDF A2 d | "D"f2 e A2 B | "D7"cBc e2 d | "G"B3 ||
+"D7"B2c \
+| "G"d^cd b2 a | "G"g2 d B2 d | "Am"cBc e2 c | "Am"A3 A2 G \
+| "D"FDF A2 d | "D"f2 e A2 B | "D7"cBc bfa | "G"g3 |]
+"D7"d3 \
+| "G"B,DG BGD | "G"B,DG Bdg | "G"e^de "E7"B2 d | "Am"c3 c2 B \
+| "Am"ABc ABc | "D"a2 g f2 e | "D"d^cd edc | "G"B3 ||
+"D7"D3 \
+| "G"B,DG BGD | "G"B,DG Bdg | "G"e^de "E7"B2 d | "Am"c3 c2 B \
+| "Am"ABc ABc | "D"a2 g f2 e | "Am"c'bc' "D"e2 f | "G"g3 |]

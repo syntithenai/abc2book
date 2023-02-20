@@ -1,0 +1,70 @@
+X:11051
+T: Sleepy Maggie
+T: 8x32R3
+C: Alexander Bowman (1758)
+O: RSCDS 11-5
+B: RSCDS 11-5
+%--------------------
+K:
+P: Sleepy Maggie
+O: Trad
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+N: Neil Gow Collection
+N: Skye p.62
+N: O'Neill's p.135
+N: Williamson p.62
+N: Hunter 220
+N: Kerr's 3rd p.6
+N: Winston Scotty Fitzgerald on Celtic 17,
+N: second Kennedy tune-book p.20
+M: C|
+L: 1/8
+K: BDorian
+|: "Bm"f2Bb fBde | f2Ba "A"eAce | "Bm"f2Bb fBde | "(D)"fgaf "A"eAce :|
+[| "Bm"fBdB fBde | fBdB "A"eAce | "Bm"fBdB fBde | "(D)"fgaf "A"eAce ||
+|| "Bm"fBdB fBde | fBdB "A"eAce | "Bm"fBbB aBgB | "(D)"fgaf "A"HeAce |]
+P: Dick Gossip's Reel
+R: reel
+N: The parts are played in either order
+O: trad Ireland
+N: Origin unknown.  "Dick Gossip" was 19th C UK slang for a man who liked to talk.
+B: the Gunn MS
+B: BSFC X-22
+B: Bulmer & Sharpley (Music from Ireland), 1974, Vol. 1, No. 17
+B: Mallinson (Essential), 1995; No. 1, pg. 1
+D: Flying Fish FF-250, Battlefield Band - "Home is Where the Van Is" (1981)
+D: Wild Asparagus 003, Wild Asparagus - "Tone Roads" (1990)
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+   e2 |: "D"f2af   gfed | "D"f2af  gfed |1 "A"e2ef  gfed | edef gfed :|2 "A"cdef gece | "D"df"A"ec "D"d2 ||
+|: ef |  "G"gB ~B2 gBaB | "G"gB~B2 gfed |1 "A"cA eA fAeA | cAef gf   :|2 "A"cdef gece | "D"df"A"ec "D"d2 |]
+P: Lexy McAskill
+C: Dr.John McAskill
+R: reel
+Z: John Chambers <jc:trillian.mit.edu> (from Barbara McOwen)
+M: C|
+L: 1/8
+K: Ador
+   a "A"| "Am"e2e2 deed |     e2dB "G"GBBd | "Am"e2e2 deed |  "G"egfd "Am"e2e :|
+|: f "B"| "Am"g2f2 e2dB | "D7"AAdB "G"GBBe | "Am"g2f2 e2dB | "Em"egfd "Am"e2e :|
+|: g "C"| "Am"e2e2 e2dB |     AAAB "G"GABd | "Am"e2e2 e2dB |  "G"egfd "Am"e2e :|
+|: g "D"| "Am"aeea e2dB | "D7"AAdB "G"GBBe | "Am"aeea e2dB | "Em"egfd "Am"e2e :|
+P: the Sound of Sleat
+C: D.MacKinnon
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+f \
+"A"|: "D"A2AB "Bm"Bdd2 | "Em"e2ed "A7"eff2 |  "D"A2AB "Bm"Bdde | "Em"fded "A7"B2A2 :|
+"B"|: "D"f2fe faa2 | "Em"e2de "A7"fdBA  |1 "D"f2fe faae | "Em"fded "A7"B2A2 \
+                                       :|2 "Em"e2ed "A7"effa | "D"fded "A7"B2A2 |]
+"C"|: "D"A2AG "G"B2BA | "D"d2df "A7"edef | "D"A2AG "G"B2BA | "D"fded "A7"B2A2 :|
+"D"|: "D"a2fa afa2 | "Em"e2de "A7"fdBA  |1 "D"a2fa afa2 | "D"fded "A7"B2A2 \
+                                       :|2 "D"d2df "Em"edef | "D"fded "A7"B2A2 |]
+%%textfont Times-Roman 10
+%%text Arranged by Christine Anderson

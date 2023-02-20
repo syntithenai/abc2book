@@ -1,0 +1,121 @@
+
+X: 1
+T: the World Turned Upside Down   [D]
+T: When the King Receives His Own Again
+O: England 1632
+C:
+M: C|
+L: 1/8
+F: http://everythingdulcimer.com/tab/turned.abc	 2005-01-28 18:45:20 UT
+K: D
+ cB \
+| "D"A2 A2 d2 d2 | "A7"efga "D"f2 ef | "G"g2 B2 c2 f2 | "A7"e3 c A4 \
+| "D"A2 A2 d2 d2 | "A7"efga "Bm"f2 ef | "Em"g2 B2 "A7"c2 f2 | "A7"e3 d "D"d2 :|
+|: "D"d2 \
+| "A"e2 cd e2 A2 | "A"edef e2 A2 | "A"edef e2 dc | "E7"B3 A "A"A4 \
+| "D"a3  g f2 ed | "Em"efga "Bm"f2 ef | "Em"g2 B2 "A7"c2 f2 | "A7"e3 d "D"d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: the Girl I Left Behind Me
+T: Brighton Camp
+O: 1758
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+B: E.Hunt p.13(F)
+B: Karpeles & Schofield P.31(F), p.55(G)
+B: Nan Fleming-Williams and Pat Shaw "English Dance Airs" Book 3 p.5 (1968, 1984)
+N: Many versions exist from all over the British Isles. Commonly used for sword dances.
+M: C
+L: 1/4
+K: G
+g/f/ \
+| "G"ed/c/ BA | "C"BG E>F | "G"GG G/A/B/c/ | "D7"d2 Bg/f/ \
+|  "G"ed/c/ BA | "C"BG E>G | "D7"FA DE/F/ | "G"G2 G :|
+|: d/c/ \
+| "G"Bd "D7"ef | "G"gd "D7"B>A | "G"Bd "Em"ef | "C"g2 "D7"fg/f/ \
+|  "G"ed/c/ BA | "C"BG E>G | "D7"FA DE/F/ | "G"G2 G :|
+
+%%sep 1 1 500
+
+X: 1
+T: The Indian Queen  [D]
+O: 1701
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Barnes p. 57 (dated 1701); Hunt p.12 #39 (in C)
+M: 2/4
+L: 1/16
+K: D
+|: fg \
+| "D"a2f2 d2f2 | "A7"e4 A4 | "D"F2A2 A2f2 | "A7"e4- e2fg \
+| "D"a2f2 d2f2 | "A7"e4 A4 | "D"F2A2 "A7"A2f2 | "D"d6 :|
+|: cd \
+| "A"edcB A2e2 | "F#m "f2c2 "Bm"d2B2 | "(D)"fga2 "E7"b2^g2 | "A"a4- a2ef "I"\
+| "G"gfed "A"c2a2 | "G"B2g2 "D"A2fg | "Em"e2d2 "A7"e2c2 | "D"d6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Hampshire March
+O: England 1770?
+%Q: 140
+S: Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R: March
+O: England
+A: x
+Z: vmp.John Bagnall
+M: 2/4
+L: 1/8
+K: G
+|: "G"gg "D7"ff | "G"gg d2 | "C"cd/c/ "G"Bc/B/ | "D7"A2 "G"G2 \
+|  "G"gg "D"fg | "A7"aa g2 | "D"fe/d/ "A7"ed/^c/| "D"d4 :|
+|: "G"gg dd | "C"e/d/c/B/ c2 | "A7"aa gg | "D"f>e d2 \
+|  "G"gg "D7"ff | "G"gg "D7"dc | "G"BA/G/ "D7"AD | "G"G4 :|]
+
+%%sep 1 1 500
+
+X: 1
+T: Yankee Doodle
+O: 1730
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+P: Both parts may be repeated.
+K: D
+% - - - - - - - - - -
+[| "D"dd  ef |    df "A7"eA |  "D"dd     ef |    d2 "A7"c2 \
+|  "D"dd  ef | "G"gf     ed | "A7"cA     Bc | "D"d2     d2 |]
+[| "G"B>c BA |    Bc     d2 |  "D"A>B    AG |    F2     A2 \
+|  "G"B>c BA |    Bc     dB |  "D"Ad "A7"ce | "D"d2     d2 |]
+% - - - - - - - - - -
+%%begintext align
+%% Originated in England as a song mocking Americans,  who  adopted  it  as  a
+%% military  march  to  taunt  the  British  soldiers  during  the Revolution.
+%% Variants of the tune are much older than the Revolutionary-era song.
+%% The parts are often repeated in instrumental versions, but not for the song.
+%% Also in some old collections in jig time, as Kitty Fisher's Jig.
+%%endtext
+
+%%sep 1 1 500
+
+X: 1
+T: the White Cockade
+O: 1745
+B: RSCDS 5-11
+B: The Caledonian Companion, Alastair J. Hardie, 1981, p.29.
+B: Skye, p.170.
+R: march
+N: Military citations include this tune as one of two tunes (along with "St.
+N: Patrick's  Day  in  the  Morning") played by pipers attached to the Irish
+N: Brigade in the service of France which helped to turn the tide of  battle
+N: against the English troops in the battle of Fontenoy on May 11, 1745. Are
+N: there any earlier citations?
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+   GA | "G"B2B2 B2AG | B2B2 B2ge | d2B2 "Em"cBAG | "Am"B2A2 "D7"A2GA \
+      | "G"B2Bd cBAG | B2d2 "Em"g3a | "C"bagf "D7"agfe | "G"d2B2 B2 :|
+|: Bc | "G"d2B2 g2Bc | d2d2 "D7"d3e | "G"d2B2 "Em"g2fg | "Am"a2A2 "D7"A2GA \
+      | "G"B2Bd cBAG | B2d2 "Em"g3a | "C"bagf "D7"agfe | "G"d2B2 B2 :|

@@ -1,0 +1,25 @@
+X: 4212
+T: Lady Matilda Bruce's Reel
+C: by Nath:Gow.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.4 p.21 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+b |:\
+a(bag) Tf2ed | cfAa gabg | abag Tf2ed | cdAf cFAF :| (ABc).A fAcA | dBfd  gdec |
+(fga).f dBbg | afge fFAF | (ABc.A) fAcA | dBfd gdec | fcaf dBbg | afge Tf2F |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z |:\
+[f'2f2][c'2c2] [d'2d2][b2B2] | [a2A2][f2F2] [e2E2][c2C2] |\
+[f'2f2][c'2c2] [d'2d2][b2B2] | [a2A2][f2F2] [f2F2][f2F2] :|\
+[f2F2][f2F2] [f2F2][f2F2] | [b2B2][b2B2] "^sf"[=b2=B2][c'2c2] |
+[a2A2][a2A2] [b2B2][b2B2] | [c'2c2][c'2c2] [f2F2][f2F2] |\
+[f2F2][f2F2] [f2F2][f2F2] | [b2B2][b2B2] [=b2=B2][c'2c2] |\
+[a2A2][a2A2] [b2B2][b2B2] [c'2c2][c'2c2] [f2F2][fF] |]

@@ -1,0 +1,37 @@
+X: 4051
+T: the Duchess of Buccleughs Favorite
+C: By Nath. Gow
+%R: strathspey, air
+N: This is version 2, for ABC software that understands diminuendo symbols.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+N: We also preserve the clef changes in the bass part, which are somewhat less readable than pure bass cleff.
+N: The single-note clef change in bar 12 is especially silly.
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.5 #1 (top 2 staffs continued from p.4)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "Slow"
+K: Bb
+% - - - - - - - - - -
+V: 1 staves=2
+DE |\
+~F3G (GF).E.D F2D2D2B2 | ~F3GB2D2 F4 F2G2 |\
+TF3G (GF)ED B2F2 "^sf"{Bc}d3c | Q{c}B3G {G}F3D {D}C4 qC2DE ||\
+TF3G{G}F2{E}D2 F2D2D2B2 |
+TF3GB2D2 F4 F2de |\
+f3de3c {Bc}d3B {AB}c3A | .B2.G2.F2.D2 C4C2 |[| g2 |\
+f2d2~d2g2 f2d2~d2g2 | f2d2b3d {d}f4 f2g2 |\
+f2d2~d2g2 f2d2 .d(fga) |
+{a}b3g{g}f2{e}d2 (d2c2) c2g2 |\
+f2d2~d2g2 f2d2~d2g2 | (gf)(ed) b2d2 f4 ~f2ga |\
+Q(bag)q.f Q(gfe)q.d Q(edc)q.B Q(dcB)q.A | Q(cBA).G (GFE).D {D}C4 qC2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | B4b4 B4b4 | B4B4 d2B2d2e2 | d4B4 B4"^sf"b3a | Qg2e2 d2B2 f4qF4 || B4b4 B4b4 |
+d2e2d4 B2b2B4 | d'3bc'3a b3g a3f | g2e2d2B2 F2f2F2 |[| z2 |[V:2 clef=treble middle=b']\
+[b6d'6f'6][b2e'2g'2] [b6d'6f'6][b2e'2g'2] | [b4d'4f'4][b4d'4f'4] d'2b2d'2e'2 | [b6d'6f'6][b2e'2g'2] d'4 b2e'2 |
+d'2e'2d'2b2 f'4 [V:2 clef=bass middle=d]f4 |[V:2 clef=treble middle=b']\
+[b6d'6f'6][b2e'2g'2] [b6d'6f'6][b2e'2g'2] |[b8d'8f'8] d'2b2d'2e'2 |[V:2 clef=bass middle=d]\
+(Q[d4d'4]q Q[e2e'2])qz2 (Q[A4a4]q Q[B2b2])qz2 | Qd2e2d2B2 F4q F2 |]

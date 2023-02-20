@@ -1,0 +1,14 @@
+X: 908
+T: Young Tom Ennis   #2
+R: jig
+%S: s:2 b:12(6+6)
+B: O'Neill's 1850 #908
+O: Ennis
+Z: Tom Keays (htkeays@mailbox.syr.edu)
+N: Compacted via repeats and multiple endings [JC]
+%abc 1.6
+M: 6/8
+L: 1/8
+K: Am
+"^A"|: (A/B/) | cBA B>cB | AGE G>AB |[1,3 cBA Bed | BAA A2 :|[2,4 cde ded | cAA A2 :|
+"^B"|: (e/^f/) | g^fe age | dBG G2 [1,3 (e/^f/) | g^fe agf | e^f^g a2 :|[1,2 (A/B/) | cBA Bed | BAA A2 :|

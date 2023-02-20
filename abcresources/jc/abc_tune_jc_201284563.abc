@@ -1,0 +1,26 @@
+X:1
+T: The Happy Captive
+N:
+C:
+S:3 times
+A:
+O:
+R:
+M:6/8
+K:D
+I:speed 150
+%W: A1/2
+% voice 1 (1 lines, 26 notes)
+K:D
+M:6/8
+L:1/16
+A2 |d4 d2 A4 G2 F3 E F2 D4 A2 B4 A2 G4 F2 A6 E4 E2 |A4 A2 B4 B2 c3 B c2 A4 A2
+%W:
+% voice 1 (1 lines, 27 notes)
+d4 d2 e4 e2 f3 e f2 d4 A2 |B3 c d2 e3 f g2 A3 B c2 d4 A2 B4 B2 A3 G A2 D6D4 |
+%W: B1
+% voice 1 (1 lines, 37 notes)
+F D |A4 A2 A4 A2 A6A4 B A d4 d2 d3 e f2 d6d4 A2 |B3 c d2 e3 f g2 A3 B c2 d4 A2 B4 G2 A4 A2 D6D4 F D |
+%W: B2
+% voice 1 (1 lines, 33 notes)
+A4 A2 A4 A2 A6A4 B A d4 d2 d3 e f2 d6d4 A2 |B3 c d2 e3 f g2 A3 B c2 d4 A2 B4 G2 A4 A2 D6D4 ||

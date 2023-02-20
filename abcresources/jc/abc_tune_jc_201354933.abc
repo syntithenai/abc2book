@@ -1,0 +1,32 @@
+X:1
+T: Young Damon's Flight
+N:
+C:
+S: Play  3  times
+A:
+O:
+R:
+M:9/8
+K:Em
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 31 notes)
+K:Em
+M:9/8
+L:1/16
+b4 f2 g3 f e2 b4 f2 g2 f2 e2 g2 f2 e2 ^d4 c2 B2 g2 f2 A2 f2 e2 G2 c2 B2 A2 G2 F2 E2 e2 ^d2 e6 |
+%W: A2
+% voice 1 (1 lines, 31 notes)
+b4 f2 g3 f e2 b4 f2 g2 f2 e2 g2 f2 e2 ^d4 c2 B2 g2 f2 A2 f2 e2 G2 c2 B2 A2 G2 F2 E2 e2 ^d2 e6 |
+%W: B1
+% voice 1 (1 lines, 35 notes)
+b4 g2 b2 c'2 d'2 a2 b2 c'2 b3 c' b2 a2 b2 g2 f2 g2 a2 b2 c'2 d'2 b2 g2 f2 e2 d2 c2 B2 g2 B2 A2 g2 f2 g4 b a |
+%W:
+% voice 1 (1 lines, 30 notes)
+g4 b2 f4 b2 e4 B2 e3 f g2 a2 b2 g2 f2 g2 a2 b2 e'2 b2 a2 d'2 b2 g2 c'2 a2 b2 e'2 f2 f4 e2 e6 |
+%W: B2
+% voice 1 (1 lines, 35 notes)
+b4 g2 b2 c'2 d'2 a2 b2 c'2 b3 c' b2 a2 b2 g2 f2 g2 a2 b2 c'2 d'2 b2 g2 f2 e2 d2 c2 B2 g2 B2 A2 g2 f2 g4 b a |
+%W:
+% voice 1 (1 lines, 30 notes)
+g4 b2 f4 b2 e4 B2 e3 f g2 a2 b2 g2 f2 g2 a2 b2 e'2 b2 a2 d'2 b2 g2 c'2 a2 b2 e'2 f2 f4 e2 e6 ||

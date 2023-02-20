@@ -1,0 +1,67 @@
+X: 314
+T: Freilakhs "Sem Sorok" (Seven forty)
+R: freilachs
+Q: 1/4=120
+B: German Goldenshteyn "Shpilt klezmorimlach klingen zoln di gesalach" New York 2003 v.3 #14
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(ga)b2- b2ag | (be')b2 b2b2 |\
+(ga)b2- b2ag | (fg)e2 e2e2 |\
+(ga)b2- b2ag | (be')b2 b2b2 |\
+(^gfeg fe^df | e2)z2 z4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(^df)e2 B2e2 | B2e2 B2e2 |\
+(fa)g2 d2g2 | d2g2 d2g2 |\
+~b4 g2b2 | ~a4 f2a2 |\
+[1 ~g4 e2g2 | f4 b4 :|\
+[2 g4 f4 | e4 d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+z2B2c2d2 | ~c2B2 A2G2 |\
+z2B2c2d2 | ~c2B2 A2G2 |\
+z2B2c2d2 | e2d2 c2B2 |\
+A4 E2A2- | A8 |
+z2A2B2c2 | ~d2c2 B2A2 |\
+G4 D2G2- | G8 |\
+~g2d2 d2g2 | (~g2=f2) (~f2e2) |\
+[1 e8- | e2B2c2d2 :|\
+[2 e8- | e2e2 f2g2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+a2g2 ~f2e2 | a2g2 ~f2e2 |\
+(fa)g2- g4- | g2e2 f2g2 |\
+a2g2 ~f2e2 | a2g2 ~f2e2 |\
+(^a^c')b2- b4- | b2e2 f2g2 |
+a2g2 ~f2e2 | a2g2 ~f2e2 |\
+a8 | c'8 |\
+(~b2a2) (~a2g2) | (~g2f2) (~f2e2) |\
+[1 e8- | e2e2 f2g2 :|\
+[2 e8- | e2b2g2f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+e8- | e2f2g2a2 |\
+b8- | b8 |\
+e2f2 g2f2 | e2d2 c2B2 |\
+A8- | A2 a2^g2=g2 |
+f8- | f2a2 d'2c'2 |\
+b8- | b2a2 b2c'2 |\
+(b2a2) (a2g2) |\
+(g2f2) (f2e2) \
+[1 e8- | e2b2g2f2 :|\
+[2 e8- | e4 z2B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B2c2 d2e2 | ~d2c2 c2B2 |\
+(^cd)A2 A2A2 | A6 G2 |\
+F2G2 ^A2B2 | ^A2G2 F2E2 |\
+^A2 B6 | (3(B2^A2)G2 (3(G2F2)E2 |
+B2c2 d2e2 | d2c2 c2B2 |\
+(^cd)A2 A2A2 | A6 G2 |\
+(~B2^A2) (~A2G2) | (~G2F2) (~F2E2) |\
+[1 E8- | E4 z2B2 :|\
+[2 E8- | E4 z2 |]

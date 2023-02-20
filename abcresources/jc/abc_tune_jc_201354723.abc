@@ -1,0 +1,30 @@
+X: 1
+T: York' Assembly
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (79)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The repeat instructions are nonsense. Maybe the 2nd strain should be two 8-bar strains?
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+dcBA G2e2 | d4 g4 | dcBA G2B2 | A4 D4 |\
+dcBA G2d2 | d2g2 f2g2 | edcB A3G | G8 :|
+|:\
+AGFE D2d2 | A4 d4 | ^c2d2 e2d2 | ^c3B A2f2 |\
+e2d2 ^c2B2 | A4 d^cde | fefg e3d | d6 ef |
+g2d2 c2B2 | c6 d2 | edcB A2G2 | F4 G2B2 |\
+A2G2 F2E2 | D4 GABc | d2e2 A3G | G8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice and the last but once
+%%begintext align
+%% First Cu. cross below the 2d Cu. then below 3d Cu. .|
+%% 1st Wo. cast up and go round the 2d Man to her Place
+%% 1st Man follow her to his Place :| first Man takes his
+%% Wo. by both Hands and pulls her below 2d Man and
+%% lead through the 3d Cu. and cast up. Sett, slip outside
+%% to the top and turn your Partner .|
+%%endtext
+%%sep 1 8 500

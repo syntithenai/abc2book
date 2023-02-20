@@ -1,0 +1,23 @@
+X:17
+T:Amy
+%%MIDI gchord fHIg
+C:Colin Hume, 2006
+M:2/2
+L:1/4
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=92
+%%MIDI chordname 7sus 0 5 7 10
+H:For Amy Lund
+K:Em
+P:A
+[| "Em"e2 B2 | zefg | "Am"f2 e2 | c2 e2 |\
+"Em"B2 G2 | zGAB | "Am"A2 G2 | "B7"F4 |
+P:B
+"Em"e2 ef | "C"gf e2 | "D"d2 A2 | "G"B2 G2 |\
+"Am"A2 ag | "B7"fgaf | "Em"g2 "B7"f2 | "Em"e4 |
+P:C
+"G"g2 dc | Bc d2 | "C"e2 cB | "D7"AB c2 |\
+"G"B2 AG | "Em"B2 AG | "Am"B2 AG | "B7sus"A2- "B7"A B |
+P:D
+"Em"G2 FG | "C"g2 e2 | "D7"d2 A2 | "G"B2 G2 |\
+"Am"c2 EF | "Em"GABE | "Em/B"G2 "B7"F2 | "Em"E4 |]

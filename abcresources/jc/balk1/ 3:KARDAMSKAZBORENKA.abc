@@ -1,0 +1,23 @@
+X: 203
+T: Kardamska Zborenka
+O: Bulgaria
+F: http://www.youtube.com/watch?v=qZINL35UrLs
+M: 2/4
+L: 1/8
+K: Em
+Q:1/4=180
+%%MIDI program 21
+%%MIDI drum dzzzdzzz 61 60 50 60
+%%MIDI drumon
+|:B2 G2|GFFD |E3D  |EFG2 |\
+  B2 G2|GFFD |E3D  |E4   |
+  B2 G2|GFFD |E3D  |EFG2 |\
+  B2 G2|GFFD |E3D  |E4::
+  G2 G2|A3G  |A3G  |G=FE2|\
+  G2 G2|E3D  |E4   |A2G2 |
+  G2 G2|A3G  |A3G  |G=FE2|\
+  G2 G2|E3D  |E4   |E4::
+  GA A2|GA A2|GA A2|GA F2|\
+  GA F2|GA F2|E4   |AAz2 |
+  GA A2|GA A2|GA A2|GA F2|\
+  GA F2|GA F2|E4   |E4   :|

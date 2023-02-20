@@ -1,0 +1,31 @@
+X: 1042
+T: Prince or Princess Dolgorucki
+%R: march
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1810, No. 10 p.4 #2
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances5
+M: 2/4
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+[|\
+dB~B2 | dB~B2 | [c2B2][f2A2] | [d2B2]B2 |\
+dB~B2 | dB~B2 | [c2B2][f2A2] | [d2B2]z2 |]| c2f2 | d2B2 | c2f2 |
+d2B2 | ge~eg | fddf | e2c2 | B4 |[| (FABc | dFdc | BABG | F2)f2 |(dcBc) |
+dcBd | cBAc | B4) |]| "^8va . . ."F2BA | G2cB | A2dc | BFDE | F2BA | G2cB | AFGA | B4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=D
+[|\
+B2A2 | G2F2 | E2F2 | B,2z2 | B2A2 | G2F2 | E2F2 | B,2z2 |]| Afcf | Bfdf | Afcf |
+Bfdf | Ageg | Bfdf | Afef | [d4B4] |[| [d2B2][d2B2] | [d2B2][d2B2] | [e2B2][e2B2] | [d2B2][d2B2] | "^fz"[d2B2G2][d2B2G2] |
+[B2D2][B2D2] | [c2B2E2][e2c2F2] | [d4B4] |[| DBFB | EcGc | Fece | [d2B2]z2 | DBFB | EcGc | Fece | [d4B4] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change sides back again
+%% lead down 2 Couple up one
+%% Allmand and swing corners
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

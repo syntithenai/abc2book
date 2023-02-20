@@ -1,0 +1,34 @@
+X: 11
+T: Capt. Oakes's Whim
+C: (33d Regt.)
+R: reel, polka
+M: 2/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://www.archive.org/stream/bibliographyofea00sonnrich/bibliographyofea00sonnrich_djvu.txt
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+N: Fixed several parts' last measures with short lengths.
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 
+|: Addf | f>dcB | A>GFE | {E}F2D2 | Addf | f>daf | Te>def | d3z :|
+|: agfe | .g.f.e.d | .f.e.d.c | {c}d2A2 | f2d>d | a3g | f2Te2 | d3z :|
+|: d2cB | {B}A4 | {c}B2AG | {G}F4 | dAFA | dAFA | A>GFE | D3z :|
+|: Adcd | Adcd | Adcd | AGFE | d>Adf | a2f2 | Te>def | d2z2 :|
+|: d>Ad>A | FDFD | ABcd | A2F2 | d>Ad>A | F>DF>D | TE>DEF | D3z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: [d'2a2f2d2]z2 | [d'2a2f2d2]g2 | a2A2 | dd'af | [d'2a2f2d2]z2 | d2f2 | g2a2 | d'ad2 :|
+|: c'2a2 | d'2b2 | g2a2 | f2d2 | d2d'2 | c'2a2 | d'2a2 | d3z :|
+|: d2e2 | fdef | gabc' | d'dfa | [d'2d2]z2 | [d'2d2]z2 | a2A2 | dAD2 :|
+|: d2z2 | d2z2 | d2z2 | fede | d2z2 | dAdf | a2A2 | d2z2 :|
+|: d4- | d4- | d4- | d4- | d4 | d2d2 | a2A2 | d3z :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Cast down 2 Cu: & up again -- lead down the Middle up again
+%% & Cast off -- all 4 Ballance & Allemande and hands 4 round --
+%% lead down thro' the Bottom Cu: up again thro' the Top, right & left --
+%%endtext

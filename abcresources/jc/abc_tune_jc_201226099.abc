@@ -1,0 +1,33 @@
+X: 100
+T: Plangsty Bourk
+C: Carolan
+%R: jig
+B: "The Hibernian Muse" p.63 #2
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. C.
+M: 6/8
+L: 1/8
+K: Gdor
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+GA(B/c/) d2c | Bcd cAF | FAF fAF | FAF cAF |\
+(G/A/B)G dBG | GBG gBG | f2f fga | f3 f3 :|
+f/g/ |:\
+agf gfe | fed cde | fed gfe | fed cAF |\
+(G/A/B)G dBG | GBG dBG | f2f fga | f3 f3 :|
+|:\
+(d/e/f)f fg/f/e | f(g/f/e/d/) cAF | g2g ga/g/f | gde f2g |\
+agf edc | (d/e/f)d cAF | {e}f2c (d/e/f)d | B3 G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+G2z g2a | b3 a3 | f3 a3 | f3 a3 |\
+g3 b3 | g3 b3 | d'3 z3 | dfa d3 :|
+z |:\
+d2z d2z | d2z c2z | d2z c2z | B2z A2z |\
+B3 G3 | B3 G3 | d3 z3 | dfa d3 :|
+|:\
+b2z c'2z | a2b f2z | B3 b3 | B3 b3 |\
+f3 a3 | b3 f3 | d2z d2z | gBd G3 :|

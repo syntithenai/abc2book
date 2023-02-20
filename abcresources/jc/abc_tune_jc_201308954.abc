@@ -1,0 +1,28 @@
+X:1003
+T:Memories of Willi Snaith of Hexam
+C:Joe Buchanan's Scottish Tome - Page 591.0
+I:591 0
+Z:Carl Allison
+C:Jimmy Shand
+R:Waltz
+L:1/4
+M:3/4
+K:D
+W:Play (1)2x, (2)2x, (1)1x, (3)2x, (1) 1x
+%%vskip 0
+P:1
+D | "G"G D>B | "D"G2 D | "G"B A>"G"B | "D"d2 "G"d |
+"A"d c "D7"A | "D"d2 d | "A"e d c | "G"B2 "C"D |
+"G"G D "G"B | "D"G2 "G"D | "G"B>"G"G | "D"d2 "G"d |
+"A"d c "D7"A | "D"d f "D7"e | "A"d (d/c/) "D7"A/B/ | "G"G3 :|
+P:2
+"(A/G/) | "D"F A "D"A | "A"f d "D"d | "D"F A>F | "E"G2 "Em"(G/F/) |
+"A"E e "A7"c | "E"A G "A7"E | "D"D (D/A,/) "D"(D/F/) | "A"A2 (A/G/) |
+"D"F A "D"A | "A"f d "D"d | "D"F A>"D#"F | "E"G2 "Em"(G/F/) |
+"A"E e "A7"c | "E"A G "A7"E | "A"((3A/B/A/) (^G/A/) "A7"(f/e/) | "D"d3 :|
+[K:G]
+P:3
+(d/^d/) | "C"e c G | "C"(E/G/) C E | "G"D G "G"B | "D"d2 "G"((3d/d/d/) |
+"A"(d/c'/) a "D7"((3d/d/d/) | "D"(d/c'/) a "D7"((3d/d/d/) | "G"(d/b/) g "G"((3d/d/d/) | "D"(d/b/) g "G"(d/^d/) |
+"C"e c G | "C"(E/G/) C E | "G"D G "G"B | "D"d2 "G"((3d/d/d/) |
+"A"(d/c'/) a ((3"D7"d/d/d/) | "D"(d/c'/) a "D7"((3d/d/d/) | "A"(f/e/) (d/c/) "D7"(B/A/) | "G"G3 :|

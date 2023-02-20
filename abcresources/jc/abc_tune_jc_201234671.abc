@@ -1,0 +1,21 @@
+X: 20694
+T: LITTLE NELL'S REQUIEM
+C: Copyright.
+Q: "Slow and solemn."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.69 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+B3A (G2B2) | e3d B3d | g3f (e2B2) | d3c B3G |\
+B3A(G2g2) | a3g (f2e2) | d3B {d}c3A | G2F2 {A}G2 :|
+|: D2 |\
+A3G (F2c2) | B3A G3D | (E2G2) (B2c2) | d3e (d2B2) |\
+c3d e2f2 | (ag)(fe) (dc)(BA) | G3B (A2c2) | E2D2 {A}G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

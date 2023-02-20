@@ -1,0 +1,22 @@
+X: 1321
+T: Brechin Castle.   a Strathspey
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.1 p.32 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Bb
+% - - - - - - - - - -
+V: 1 staves=2
+F2 !segno!|:\
+BBB2 TB4 {AB}B3df2d2 | BBB2 TB4 {AB}Ac3A3F |\
+BBB2 TB4 {AB}.B3df2d2 | eg3df3 Tc3BA2F2 :|\
+f3B (ed).c.B f2B2eg3 | f3B (ed).c.B A2c2A3F |
+f3B (ed).c.B .f2.B2.d2.f2 | eg3df3 Tc3BA2F2 ||\
+f3B (ed).c.B f2B2e2g2 | f3B (ed).c.B (ABcB) A2F2 |\
+f3B ed.c.B .f2.B2.d2.f2 | eg3db3 Tc3BA2F2 !segno!|]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 !segno!|:\
+B4B4 B4B4 | B4B4 F4F4 | B4B4 b4b4 | a4b4 f4f4 :| b4b4 d4e4 | d4B4 f4f4 |
+b4b4 b4b4 | a4b4 f4f4 || b4b4 d4e4 | d4B4 f4F4 | B4b4 b4b4 | a4b4 f4f4 !segno!|]

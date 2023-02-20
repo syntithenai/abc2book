@@ -1,0 +1,18 @@
+X: 20911
+T: Col. Gardiner's Lament
+%R: air, lament
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.91 #1
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Added missing dot to final c note.
+M: 3/4
+L: 1/8
+K: C
+%%slurgraces yes
+%%graceslurs yes
+|:\
+G4 A2 | .c2 .A2 z2 | c4 (e/d/c) | .e2 .g2 z2 |\
+E4 G2 | A2 a2 c'2 | (g<e)(g<e) Td>c | c6 :: f4 {fg}a2 |\
+.g2 .e2 z2 | (d2 c2) d2 | .e2 .g2 z2 | f3 g a2 |
+g3 e Td>c | d3 c (de) | g6 | f4 (a/g/f) |\
+e4 (a/g/e) | Td2 c2 d2 | .e2 .g2 z2 | E4 G2 |\
+(c2 A2) a2 | (g<e)(g<e) Td>c | c6 :|

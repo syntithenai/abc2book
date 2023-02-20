@@ -1,0 +1,18 @@
+X: 20882
+T: I'VE KISS'D AND I'VE PRATTLE.
+Q: "Allegretto"
+%R: jig
+B: "Edinburgh Repository of Music" v.2 p.88 #2 - p.89 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 6/8
+L: 1/8
+K: C
+G |\
+(Gc).c (ce)c | (Bc)d g2e/c/ | AAA ABG | c3- c2 |: G |\
+(Gc)c (ce)c | Bcd g2(e/c/) | AAA (AB)G | c"_F."c'c' c'2"_P."G |
+Gcc cec | Bcd g2B | AAA ABA | G"_F."gg "_P."g2G |\
+Gce g>ag | gfe f2e | (ed)e (fg)a | c3 B2G |
+ABc f2d | (Bc).d {G}Hg2 (e/c/) | AAA ABG | c2z |] "_Sym:"(e2g) |\
+c2g e2g | c2g e2"_F."c' | (c'a)a (ab).g | c'3- c'2 |]

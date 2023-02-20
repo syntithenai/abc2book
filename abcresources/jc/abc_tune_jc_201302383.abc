@@ -1,0 +1,42 @@
+X: 1
+T: Lincoln's Inn
+T: Lincolns-Inn
+P: Longways for as many as will
+%R: reel, march
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.67 #97
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.297
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain play'd twice" instructions.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f |\
+f4 A3B | cBAG F2f2 | g2a2 b2g2 | a2f2 f2a2 |\
+g>f e>f g>a g2 | f>e d>e f>g f2 | e>d c>d d3 c | c6 z :|
+|: g |\
+g2e2 a3a | e>f e>d ^c2 (BA) | d2e2 (fg)(ae) | e4 d2z2 |\
+g2d2 e2z2 | f2c2 d2z2 | b2g2 c'2fg | g4 f3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain is to be play'd twice over.
+%%begintext align
+%% The two 1st Cu. take Hands and go all four quite round, then
+%% the 1st Man go Back to Back with the 2d Wo. then all four hands
+%% quite round Back again, and the 1st Wo. and 2d Man go back to
+%% Back :| The 1st Cu. take Hands and go half round and back
+%% again, then right and left, then lead down the 3d Cu. and thro'
+%% the 1st Cu.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First take all four hands quite round, then the first man goes back to back with the second woman,
+%% then all four hands quite back again, the first woman and second man goes back to back. The first cu.
+%% takes both hands and half round and back again, then right-hands and left, then lead down the third cu.
+%% and then through the first cu.  Each Strain play'd twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

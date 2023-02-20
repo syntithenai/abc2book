@@ -1,0 +1,36 @@
+X: 221
+T: the Ancient sports of the glen.
+T: Sealg is sugradh nan gleann.
+C: 
+N: This is version 2, for ABC software that understands cres/diminuendo symbols.
+R: air, waltz
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.100 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+% dim/cres..endo symbols:
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: 3/8
+L: 1/16
+Q: "Sow & Expressive."
+K: Bdor
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+(c>B) |\
+AF3A2 |!p! Tf2(ed)(cB) | AF3^A2 | [B3D3](cdB) |\
+"_cres"AF3A2 | f2(ed)(cB) | QF2d2Tc2 | q{c}B4 |]\
+(de) |\
+!p!f2(ed)(cB) | e2(dcd)e | f2(ed)(cB) | Hc4 p(gPa) |
+!f!f3"_dim"B (c>B) | A2B2 (c>B) | QAF3^A2 | qH[B4D4] |]\
+(de) |\
+!p!f2(ed)(cB) | e2(Tdc)(de) | Tf2(ed)(cB) | Hc4 p(gPa) |\
+!f!f3B (cB) | QA3G(TFq^E) | QF2d2Tc2 | q[B4D4] |]
+% = = = = = = = = = =
+V: 2 clef=bass middle=d
+z2 | [d6f6] |!p! f2g2g2 | f4e2 | d4e2 |"_cres"[c6f6a6] | f2g2g2 | def2F2 | B4 |]
+z2 | !p!d4e2 | g4z2 | d4e2 | Hd4 z2 |!f! d4 z2 | f2d2e2 | f4F2 | HB4 |]
+z2 | !p!d4e2 | g4z2 | d4g2 | Ha4 z2 |!f! d4 z2 | d4c2 | def2F2 | B4 |]
+% = = = = = = = = = =

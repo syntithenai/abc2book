@@ -1,0 +1,28 @@
+X: 1
+T: Man was for Woman made
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.193 "S"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat added to satisfy the "first Strain twice" instruction.
+N: The rhythms aren't right between the strains, due to only the 2nd having a pickup note. (Not fixed.)
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+c4 e4 | d6 e2 | (fe) (dc) (dc) (BA) | G6 (gf) | (ef)g2 (GA)B2 | c6 :| GF | E2c2 G2E2 | G6 GF | E2c2 G2E2 | G6 GF |
+E2c2 G2E2 | G6 GF | E2c2 G2E2 | G6 G2 | c4 e4 | d6 e2 | (fe) (dc) (dc) (BA) | G6 (gf) | (ef)g2 (GA)B2 | c8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%    The two men go to the two we. and bring them back into the middle of the Room, then all turn
+%% round S. into their places: then the two we. go to the two men and bring them back into the middle
+%% of the Room, then all turn round S. into their places.  This to the first Strain played twice.
+%%    Turn your Partners half round, and cast off to each others Partner and clap hands, then turn again
+%% each others Partners half round, then cast off and clap hands, then all cross over, the 1. cu. leading up,
+%% and the 2. cu. leading down; then the 1. cu. cast off, and the 2. cu. lead up.  This to the second Strain
+%% played once.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

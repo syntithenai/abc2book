@@ -1,0 +1,30 @@
+X: 118
+T: Tweed Side
+T: Longways for as many as will.
+%R: minuet
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.59
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+cB |\
+A2E2F2 | F3B (A/B/c) |\
+B4cB | A2E2F2 |\
+A3B cB | A4 |] cd |\
+e2(dc)(BA) | e2(fe)(dc) |
+B4cd | e2c2A2 |\
+AGABcd | e4 (f/g/a)  |\
+e2(dc)(BA) | f2(ed)(cd) |\
+B4AB | c2(dc)(BA) | d2B3A | A4 |] % - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Man dance the minuet step with 2d Wo. .|
+%% Right and Left with the 3d Cu. :| then the 1st man
+%% turn the 3d Wo. and the 1st Wo. with the 2d man
+%% and then his own Partner .| then the 1st man
+%% turn the 2d Wo. and the 1st Wo. the 3d Man
+%% and then turn Partners :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

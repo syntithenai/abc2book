@@ -1,0 +1,30 @@
+X: 06
+T: COVENT GARDEN ROW
+%R: slip-jig
+B: Button & Whitaker "Twelve Elegant New Dances for the Year 1810", London 1810
+F: http://imslp.org/wiki/Button_and_Whitaker's_Elegant_New_Dances_for_1810_(Various)
+Z: 2018-6-25  John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for compactness.
+V: 1 staves=2
+|:\
+d2A AFA AFA | d2d def g3 | e2e efd cde | A2A ABc d3 ::\
+a2a aba ^g3 | =g2g gag f3 | d2d dcd efg | A2A ABc d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+d3 d3 d3 | f3 dc=c B3 | ^c3 f3 edc |
+c3 A3 d3 :: A3 A3 B3 | c3 c3 d3 |
+f3 fed c=cB | A3 A3 d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Allemande with your partner, remain in your places,
+%% while the 2d Cu: does the same,
+%% down the mid: up again & turn round.
+%%endtext
+% %center -------------------------
+% %center Button & Whitaker "Twelve Elegant New Dances for the Year 1810"

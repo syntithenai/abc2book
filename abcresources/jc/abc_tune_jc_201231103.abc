@@ -1,0 +1,122 @@
+X:147
+T:Telemann To Vivaldi
+T:Concerto fo the Fife
+C:Arr. by A. Terreri
+M:2/4
+L:1/16
+Q:1/4=100
+%%staves (1 2 3)
+K:A
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+!bigac!a4 ABcd|e2a2 A4|e4 EFGA|B2e2 E4|f4 f=gfe|d2f2 B4|e4 efed|c2a2 B2g2|aEFGABcd||
+!bigbc!ea"^Tutti Forte"ga caga|Aaga ABcd|ee^de Bede|Ee^de f=gfe|defd BcdB|GABA efed|c2a2 B2g2||
+!bigcc!aga2 A2ag|a2B2 aga2|c2ag a2d2|aga2 [f4-A4-D4-]|[f2A2D2] dc d2F2|dcd2 G2dc|d2A2 d2cd|[g4-B4-D4-][g2B2D2] gf|
+g2B2 gfg2|=c2gf g2d2|gfg2 [e4-c4-A4-]|[e2c2A2] =ga g2e2|cdc2 =G2cd|B2=G2 cdBd|efdf cdBd||
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+x8|x8|x8|x8|x8|x8|x8|x8|x8||x8|x8|x8|x8|x8|x8|x8||x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8||
+V:3
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+x8|x8|x8|x8|x8|x8|x8|x8|x8||x8|x8|x8|x8|x8|x8|x8||x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8||
+%%staves [1 2 3]
+V:1
+|:!bigdc!efdf efdf|efdf efdf|efdf efdf|efdf efdf:|
+V:2
+|:z4     cdBd|EBGB EBGB|EBGB EBGB|EBGB EBGB:|
+V:3
+|:[e4B4=G4-][e4B4=G4-]|[e4B4=G4-][e4B4=G4-]|[e4c4=G4-][e4c4=G4-]|[e4c4=G4-][e4c4=G4]:|
+%%staves [1 (2 3)]
+V:1
+!bigec!d2D2 zEFG|AFdA fAdA|a2A2 zBcd |ecaA  cAae|f4-  fgfe|defd BcdB|
+e2E2 zfed|cdec ABcA|d4-  ded=c|B=cdB GABG|efed cdec|gagf efge|
+V:2
+d2D2 z4  |zEFG AFdA|a2A2 z4   |zBcd ecaA|f2F2 z4  |BcdB defe|
+efed cdcB|A4   cdec|B4-  B=cBA|GABG BcdB|cdeB GABA|cccc efge|
+V:3
+x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|
+%%staves (1 2 3)
+V:1
+"^Unison"=cgBg ^AgBg|=cgBg ^AgBg|^cgdg Bgdg|^cgdg Bgdg|
+V:2
+x8|x8|x8|x8|
+V:3
+x8|x8|x8|x8|
+%%staves [1 (2 3)]
+V:1
+!bigfc!
+Bgdg Bgdg|Bg dg Bg dg|Af cf Af cf|Af cf Af cf|Ge Be Ge Be|
+Ge Be Ge Be|Fe ce Fe ce|Fe ce Fe ce|Df Bf Df Bf|Df Bf Df Bf|
+Dg Bg Dg Bg|Dg Bg Dg Bg|D^g Bg Dg Bg|D^g Bg Dg Bg|
+V:2
+G4 GAB=c|dBgB d4|F4 FGAB|cAfA f4|E4-EFGA|
+BGeE B4|F4-F^G^A^B|cFeF ^A4|B4-Bcde|fBdB f4|
+B4-Bdef|gBdB g4|B4-Bdef|^gBdB g4|
+V:3
+x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|
+%%staves (1 2 3)
+V:1
+"^Unison"[^a2d2^G2][a4d4G4][a2-d2-G2-]|[^a2d2^G2][a4d4G4][a2d2G2]|bfdB fdBF|[M:2/8]DF Bd|
+V:2
+x8|x8|x8|[M:2/8]x4|
+V:3
+x8|x8|x8|[M:2/8]x4|
+%%staves [1 (2 3)]
+V:1
+M:2/4
+L:1/4
+^G//B//d//f// [^g-BD]|[^g-BD][g-BD]|[^g/B/D/][g/B/D/][f-AD]|[f-AD][f-AD]|[f/-A/D/][f/A/D/][^g-BD]|[^g-BD][g-BD]|
+[^g/B/D/][g/B/D/][f-AD]|[f-AD][f-AD]|[f/-A/D/][f/A/D/][^g-BD]|[^g-BD][gBD]|\
+L:1/16
+!biggc!ceee eeee|Beee deee|
+ceee eeee|Beee deee|ceee eeee|ceee eeee|Beee eeee|Beee eeee|
+dfff ffff|=ceee eggg|dfff ffff|=ceee eggg|dfff ffff|dfff ffff|
+=ceee eeee|=ceee eeee|[^g8-B8D8]|[^g4-B4D4][g2B2D2][g2B2D2]|[f8-A8D8]|[f4-A4D4][f2A2D2][f2A2D2]|
+[^g8-B8D8]|[^g4-B4D4][g2B2D2][g2B2D2]|[f8-A8D8]|[f4-A4D4][f2A2D2]([f2A2D2]|[^g8B8D8])|[^g4B4D4] z4||
+V:2
+L:1/16
+z4[^GE][GE][GE][GE]|[^GE][GE][GE][GE] [GE][GE][GE][GE]|[^GE][GE][GE][GE] [FD][FD][FD][FD]|[FD][FD][FD][FD] [FD][FD][FD][FD]|
+[FD][FD][FD][FD] [^GE][GE][GE][GE]|[^GE][GE][GE][GE] [GE][GE][GE][GE]|[^GE][GE][GE][GE] [FD][FD][FD][FD]|
+[FD][FD][FD][FD] [FD][FD][FD][FD]|[FD][FD][FD][FD] [^GE][GE][GE][GE]|[^GE][GE][GE][GE] E4|[c8(A8]|[G4)(B4] [d4B4]|
+[c8)(A8]|[G4)B4] [d4B4]|[c8(A8]|[c8A8)]|[B8(G8]|[B8G8)]|[d8(F8]|[E4)(=c4][e4)G4]|[d8(F8]|[E4)(=c4][(e4)G4]|
+[d8)A8-]|[d8A8-]|[=c8A8-]|[=c8A8]|z[^GE][GE][GE] [GE][GE][GE][GE]|[^GE][GE][GE][GE] [GE][GE][GE][GE]|[AF][AF][AF][AF] [AF][AF][AF][AF]|
+[AF][AF][AF][AF] [AF][AF][AF][AF]|^GGGG GGGG|^GGGG GGGG|AAAA AAAA|AAAA AAAA|BBBB BBBB|B4 z4||
+V:1
+!bighc!ceAe ceAe|ceAe ceAe|[e8-c8A8]|[e4c4A4][e4c4A4]|dfAf dfAf|dfAf dfAf|[f8-d8D8]|
+[f4-d4D4][f4d4D4]|e^gBg egBg|e^gBg egBg|[^g8-B8D8]|[^g4-B4D4][^g4B4D4]||
+V:2
+ceAe ceAe|ceAe ceAe|AAAA AAAA|=GGGG GGGG|F8-|F8|BBBB BBBB|
+AAAA AAAA|^G8-|G8|[e^G][eG][eG][eG] [eG][eG][eG][eG]|[d^G][dG][dG][dG] [dG][dG][dG][dG]||
+V:1
+!bigic!
+[ac]ccc ccdd|eeee ee (3(fed)|[ac]ccc ccdd|eeee ee (3(edc)|BBBB BBcc|
+dddd dd (3(edc)|BBBB BBcc|dddd dd (3(fdA)||!bigjc!FFFF AA dd|f4 z4|GGGG BB dd|g4 z4||
+|:!bigkc!FFFF AA dd|GGGG BB ee:|\
+L:1/8
+FA LdG|BLe FA|LdG BLe|(3FALd (3GBLe|(3FALd (3GBLe|
+L:1/16
+FAdG BeFA|dGBe FAdG|[g8-B8D8]|[g8B8D8]|"^Finale"[acE]ccc cc dd|e4-e2 (3(fed)|[acE]ccc cc dd|
+e4-e2 (3(fed)|[ac][ac][ac][ac] [ac][ac][ac][ac]|\
+[aB][aB][aB][aB] [gB][gB][gB][gB]|[a4c4] z4|"^Unison"c2a2B2g2|a4 z4|ceAe ceAe|ceAe ceAe|[e8-c8A8]|[e8-c8A8]|[e4c4A4] z4||
+V:2
+AAAA AABB|cccc cc (3(dcB)|AAAA AABB|cccc cc (3(cBA)|GGGG GGAA|
+BBBB BB (3(cBA)|GGGG GGAA|BBBB BB (3(dAF)||DDDD FF AA|d4 z4|EEEE GG BB|d4 z4||
+|:DDDD FFAA|EEEE GG [BG][BG]:|\
+L:1/8
+DF AE|GG DF|AF GG|(3DFA (3DGG|(3DFA (3DGG|\
+L:1/16
+FAdG BeFA|dGBe FAdG|
+EEEE EEEE|DDDD DDDD|AAAA AA BB|c4-c2 (3(dcB)|AAAA AA BB|c4-c2 (3(dcB)|EEEE EEEE|
+EEEE EEDD|[A4E4] z4|c2a2B2g2|a4 z4|ceAe ceAe|ceAe ceAe|[e8-c8A8]|[e8-c8A8]|[e4c4A4] z4||

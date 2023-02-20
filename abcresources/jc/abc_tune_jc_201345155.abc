@@ -1,0 +1,11 @@
+X: 1
+T:Tobin's
+R:Jig
+O:Ireland
+M:6/8
+L:1/8
+K:D
+DFA dcd|ecA efg|fef gfg|ecA GFE|!
+DFA dcd|ecA efg|faf gec|edc d3:|!
+|:f3 gfg|ecA Ace|fef gfg|ecA GFE|!
+DFA dcd|ecA efg|fdf gfg|edc d3:|!

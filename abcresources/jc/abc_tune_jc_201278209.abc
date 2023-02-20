@@ -1,0 +1,19 @@
+X: 1
+T: Frosty the Snowman   [C]
+C: music: Steve Nelson
+C: words: Jack Rollins
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+"A"|:\
+"C"G4 E3F | G2 c4 "C7"Bc |\
+"F"d2c2 "G7"B2A2 | "C"G6 Bc |\
+"F"d2c2 "D7/f#"B2AA | "C/g"G2c2 "C"E2GA |\
+"Dm"G2F2 [1 "G7"E2F2 | "C"G6 "G7"z2 :|\
+         [2 "G7"E2D2 | "C"C6 ||
+"C7"C2 "B"|\
+"F"A2A2 "D7/f#"c2c2 | "C"B2A2 G2E2 |\
+"Dm"F2A2 "G7"G2F2 | "C"E6 E-E |\
+"G"D2D2 B2B2 | B2B2 "E7/g#"d2Bc |\
+"Am"d2c2 "D7"B2A2 | "G"G2z2 "G7"G4 "^d.C."|]

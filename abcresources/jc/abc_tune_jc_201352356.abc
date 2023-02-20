@@ -1,0 +1,42 @@
+X: 1
+T: Whitehall Minuet
+T: White-Hall Minuet
+P: Longways for as many as will
+%R: minuet
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.63 #96
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.294
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: CCDM1 says "Each Strain is to be play'd twice over", but DMDfD says "Each Strain once".  Which is right?
+N: The time signature is just "3".
+M: 3/4
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+d2 A2 G2 | F4 E2 | F2 DEFG | AG A=B ^cA |\
+d2A2 G2 | F4 E2 | F2 DEFG | A6 |]
+[|\
+fg a2 a2 | a4 a2 | gfga g2 | g2 b4 |\
+a2 bagf | e2 a4 | f2 gfed | ^c3 B A2 |
+fg a2 a2 | a4 a2 | gfga ga | g2 b4 |\
+a2 bagf | e2 a4 | f2 gfef | d6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain is to be play'd twice over.
+%%begintext align
+%% The two first Cu. Hands all four half round, then back
+%% again into their own Places; then the 1st Cu. cross over
+%% the 2d Cu. and over the 3d Cu. and lead up thro the 3d Cu.
+%% and so thro' the 2d Cu. and cast of into the 2d Cu. Place.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% All four hands half round, then back again into their own places; Then the first couple cross over
+%% the 2d. couple, and over the 3d. couple, and lead up through the 3d. couple, and so through the 2d.
+%% couple, and cast off into the 2. couple place.  Each Strain once.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

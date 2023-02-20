@@ -1,0 +1,16 @@
+X: 1
+T: Ducks on the Pond
+R: reel
+B: PC1 p.73
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+%%continueall
+"^A"|:\
+"Am"[E4A,4] [e4A4] | edef g4 | "G"B2Bc BAGA | BABc BAG2 |
+"Am"[E4A,4] [e4A4] | edef gaba | "G"g2e2 d2B2 |"Am"A3B [1 A4 :|[2 A2 ||
+"^B"|: e2 |\
+"Am"aebe a2g2 | edef g2g2- | "G"gfga bagf | edeg age2 |
+"Am"aebe a2g2 | edef g2ba | "G"g2e2 d2B2 |"Am"A3B [1 A2 :|[2 A4 |]

@@ -1,0 +1,20 @@
+X: 1
+T: Father Kelly's (Jig)
+T: Lough Derg Jig
+C: Father Patrick Joseph Kelly
+S: https://www.ibiblio.org/fiddlers/FARG_FAY.htm
+S: Paul O'Shaughnessy
+Z: Juergen.Gier:post.rwth-aachen.de
+M: 6/8
+L: 1/8
+R: Jig
+K: G
+"^A"|: D |\
+GFG BAG | F2G AFD | GFG BAG | BdB cAF |\
+G2c BAG | ~F3 AFD | d^cd fed | cAF G2 :|
+"^B"|: A |\
+B2d gdB | dgB dgB | c2e gec | egc ege | d2f afd |\
+fad fad |1 gfg efg | afd cB :|
+|[2 d^cd fed | cAF G2 \
+"^C"|: c |:\
+~B3 BGE | F2G AFD |1,2 BdB BAG | BdB cAF :|3,4 d^cd fed | cAF G2 :|

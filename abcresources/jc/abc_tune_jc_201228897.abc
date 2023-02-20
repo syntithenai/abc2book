@@ -1,0 +1,22 @@
+X: 11742
+T: ARNE'S WELL
+C: J. Harkin --Copyright.
+Q: "Strathspey."
+%R: strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.174 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A, !segno!|:\
+D>D F>A d>c d2 | (3(.d.c.B) (3(.B.A.G) (3(.G.F.E) (3(.E.D.A,) |\
+D>D F>A d>c d2 | c>e (3(cBA) d2d :| a |\
+f>d a2 f>d a2 | e>=c g2 e>c g2 |
+{a}f>d a2 f>d a2 | c>e (3(cBA) d2 d>a |\
+f>d a2 f>d a2 | e>=c g2 e>c g2 |\
+(3(fag) (3(fed) (3(cBA) (3(GFE) | (3(DEF) (3(ABc) (3(dcB) (3("^D.C."AGF) !segno!:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

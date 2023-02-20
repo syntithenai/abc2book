@@ -1,0 +1,26 @@
+X:1
+T:Morrison Avenue  "(c) Iain MacCrimmon Book 1"
+M:C
+L:1/8
+Q:80
+C:Iain MacCrimmon
+S:March
+K:HP
+[| f | \
+{g}A2{GdGe}Ad{g}d/2f3/2{g}fa | \
+B/2d3/2{gf}g3/2d/2{gBd}B3/2A/2{g}G{d}B | \
+{g}A2{GdGe}Ad{g}d/2f3/2{g}fa |
+e3/2f/2{g}eB{gef}ed{gcd}cB | \
+{g}A2{GdGe}Ad{g}d/2f3/2{g}fa | \
+B/2{d}G3/2{g}B/2d3/2{gf}g3/2d/2{gBd}Be |
+{gcd}c2{GBG}A{d}c{gef}eA{d}ce | \
+{gf}g3/2e/2{g}Ae{Gdc}d3|] [ | \
+{e}A |
+{g}f2{GdG}f3/2g/2{ag}a3/2g/2{a}fd | \
+{g}B/2d3/2{gf}g3/2d/2{gBd}B3/2A/2{g}G{d}B | \
+{gAGAG}A2{g}A{Gdc}d{gfg}f2{g}fa |
+e3/2f/2{g}eB{gef}ed{gcd}cB | \
+{g}f2{GdG}f3/2g/2{ag}a3/2g/2{a}fd | \
+{g}B/2{d}G3/2{g}B/2d3/2{gf}g3/2d/2{gBd}Be |
+{gcd}c2{GBG}A{d}c{gef}eA{d}ce | \
+{gf}g3/2e/2{g}Ae{Gdc}d3|]

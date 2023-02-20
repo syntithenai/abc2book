@@ -1,0 +1,20 @@
+X:1
+T: Eileen's a Dear
+N:
+C:Tune is "Ellen a Roon" (18th cent.)
+S:
+A:
+O:
+R:
+M:6/4
+K:A
+I:speed 135
+%W:
+% voice 1 (1 lines, 26 notes)
+K:A
+M:6/4
+L:1/16
+E4 F4 G4 A6 B2 c4 |E A3 F A3 G B3 A12 |E4 F4 G4 A6 B2 c4 |E A3 F A3 G B3 A12 |
+%W:
+% voice 1 (1 lines, 31 notes)
+c4 c4 c4 e6 E2 E4 |c4 c2 e2 e d B G A6 F2 E4 |e4 d2 c2 B2 A2 A6 B2 c4 |E A3 F A3 G B3 A12 ||

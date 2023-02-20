@@ -1,0 +1,24 @@
+X: 1
+T: Gut Nacht Vals  [Gm/G]
+R: waltz
+S: printed MS from Steve Rauch
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+O: Budowitz
+D: Budowitz "Wedding Without a Bride" (in Gm/G)
+M: 3/4
+L: 1/8
+K: Gm
+D \
+| "Gm"G2 G2 (3BAG | "D"A2 A2 BA | "Gm"B4 f2 | d2 ^c2 BA \
+| "Gm"G2 G2 (3BAG | "D"A2 A2 BA | "D"^c2 d2 c2 | d>^c d2 D2 |
+| "Gm"G2 G2 (3BAG | "D"A2 A2 BA | "Gm"B4 f2 | d2 ^c2 BA \
+| "Gm"B2 B2 AG | "D7"^F3 DFA | "Gm"G3 gdB |1 G6 :|2 G3 |] [K:=B=e]
+K: G
+|: FGA \
+| "G"B3 GAG | B3 GAG | "D7"c3 ABA | c3 ABA \
+| "D7"A2 B2 cd | e2 dc BA |1 "G"=B2 =B2 B2 | B3 :|2 "G"G2 G2 G2 | G6 ||
+|:"G"D2 G2 A2 | B6 | B3 GAB | "D7"c3 B (3cBA \
+| "G"G6- | G6 | D2 G2 B2 | d2 B2 |
+| "C"e3 dcB | "D7"A6 | "C"E2 A2 B2 | c2 B2 A2 \
+| "G"B2 d2 g2 | g6 | "D7"B2 c2 c2 | c3 B (3cBA \
+| "G"G6- | G6 :|

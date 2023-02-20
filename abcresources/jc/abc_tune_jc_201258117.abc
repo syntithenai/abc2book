@@ -1,0 +1,26 @@
+X: 1
+T: Butter Fingers
+C: by PM Donald MacLeod
+R: jig
+S: Leslie Paterson's book.
+S: SRSNH 1.3-B 1988-09
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+"^A"|:\
+"Bb"fdd d2c | cBB B2d | fdd d2f | "Eb"gff "F7"f2g ||\
+[1 "Eb"bgg g2b | "Bb"fdd dBB | "C"dcc cdf | "F"g3 b2g :|\
+[2 "Eb"bgg gab | "Bb"fdd dff | "C"gcc cdf | "F"g3 fga ||
+"^B"|:\
+"B"b3 "Eb" gab | "Bb"gfd BBB |    fdd BBB |   bdd BBB ||\
+[1 "Eb"b3  gab | "Bb"g2f dBB | "C"dcc cdf | "F"g3 fga :|\
+[2 "Eb"bgg gab | "Bb"fdd dff | "C"gcc cdf | "F"g3 gab ||
+"^C"|:\
+"Eb"g3 "Bb"f3 | d2c dBB | fdd dBB | dbB dBB ||\
+[1 "Eb"b3 gab | "Bb"g2f dBB | "C"dcc cdf | "F"g3 gab :|\
+[2 "Eb"b3 gab | "Bb"g2f dBB | "C"gcc cdf | "F"g3 fga ||
+"^D"|:\
+"Bb"b3 abb | gbb fbb | ebb dbb | "F7"cbb "Bb"Bbb ||\
+[1 "Bb"b3 gbb | fbb ebb | "C7"dcc cdf | "F"g3 fga :|\
+[2 "Eb"bgg gab | "Bb"fdd dff | "C"gcc "C7"cdf | "F7"g3 "Bb"bz2 |]

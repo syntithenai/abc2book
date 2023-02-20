@@ -1,0 +1,16 @@
+X: 1
+T: Hitterdalingen, pols
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: taught by Loretta Kelley, workshop 2018-11-18
+F: BlueRoseMusic.org (#2732) (Karen Myers)
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+|: {AB}A>(G FG) (3A(Bc) | d>(f (3ece) d>B |\
+[1 A(G FG) A>B | G2 (3(FDF) E2- :|\
+[2 B>(c (3dBd) (3c(Ac) | (B^G) A4 :|
+|: a>(g f<a) g>a | b>(g e<a) fd | e>(f (3geg) f(df) |\
+[1 e>(d B<e) c>A :|[2 (ec) d4 :|
+

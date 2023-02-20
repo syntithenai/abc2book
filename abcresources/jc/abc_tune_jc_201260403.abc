@@ -1,0 +1,44 @@
+X:1
+T:Carradale Bay
+M:C|
+L:1/8
+Q:80
+C:T. Muirhead
+S:2/4 March
+K:HP
+|: {ag}a | \
+A3/4d/4{c}d3/4f/4{ag}af/4a3/4 | \
+{f}g{a}f3/4e/4{Gdc}d{e}A |
+{g}B3/4g/4{f}g3/4f/4{gef}e{g}d/4e3/4 | \
+{Gdc}d{g}c/4e3/4{gBd}B{G}A | \
+{g}A3/4d/4{c}d3/4f/4{ag}af/4a3/4 |
+{f}g{a}f3/4e/4{Gdc}d{e}A | \
+{g}B3/4e/4{gde}d3/4B/4{g}c/4e3/4f/4{g}A3/4 | \
+{Gdc}d2{gdc}d ::
+f | \
+{gef}e3/4A/4{d}c/4e3/4{gf}g{a}f3/4e/4 | \
+a3/4A/4{g}d/4f3/4{ag}af/4a3/4 | \
+{g}af/4{g}e3/4{Gdc}d{g}e3/4d/4 |
+{gde}d{g}c/4e3/4{gBd}B{G}A | \
+{gef}e3/4A/4{d}c/4e3/4{gf}g{a}f3/4e/4 | \
+a3/4A/4{g}d/4f3/4{ag}a{fg}f3/4d/4 |
+{g}B3/4e/4{gde}d3/4B/4{g}c/4e3/4f/4{g}A3/4 | \
+{Gdc}d2{gdc}d :: \
+e |
+{g}B3/4A/4{gAGAG}A{g}d3/4A/4{gAGAG}A | \
+{g}f{g}d3/4f/4{ag}ad | \
+{g}e3/4B/4{gBeBG}B{a}g3/4B/4{gBeBG}B |
+{g}e{g}d3/4e/4{gBd}B{G}A | \
+{g}B3/4A/4{gAGAG}A{g}d3/4A/4{gAGAG}A | \
+{g}f{g}d3/4f/4{ag}a{AGAG}A |
+{g}B3/4e/4{gde}d3/4B/4{g}c/4e3/4f/4{g}A3/4 | \
+{Gdc}d2{gdc}d :: \
+{gf}g |
+{a}f{g}d3/4A/4{a}g3/4e/4{g}A | \
+{ag}aG3/4{d}B/4{gAd}A{ag}a | \
+{f}g{a}f/4g3/4{ef}e{g}d/4e3/4 |
+{Gdc}d{g}c/4e3/4{gBd}B{G}A | \
+{g}f{g}d3/4A/4{a}g3/4e/4{g}A | \
+{ag}aG3/4{d}B/4{gAd}A{ag}a |
+{g}B3/4e/4{gde}d3/4B/4{g}c/4e3/4f/4{g}A3/4 | \
+{Gdc}d2{gdc}d :|

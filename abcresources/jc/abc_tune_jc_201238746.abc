@@ -1,0 +1,33 @@
+X: 31253
+T: COTILLION No. 21. WOONSOCKET SETT tune 7
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.125 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Instead of a final "D.C.", the 1st strain probably should have a fermata.
+N: Change the last 2 notes in bar 11 from 8th-notes to 16th-notes, to match the rhythm of other such measures.
+N: The natural in bar 21 before the c is odd; perhaps it shoud be B.
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+F2 |\
+B2G2A2F2 | B2=ef (gf)dB | B2=ef gf_ec | B2=ef gfaf |\
+b2f2a2e2 |b2=ef gfed | c2Bc dcAF | B4 "^D.C."z2 |]
+f2 |\
+=efgf d2b2 | f2d'2 c'2b2 | a2 e'4 c'a | babc' f'2[f2d2] |\
+=efgf d2b2 | f2 f'4 c'b | a2 e'4 c'a | b4 "^D.C."z2 |]
+F2 |\
+G2F2G2A2 | BABc d2B2 | c2B2c2d2 | edef a2^f2 |\
+g2^f2g2=c2 | c=Bcd e2=e2 | f2=e2f2 Ac | B4 "^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First lady swing the gent on her right with right hand,
+%% the next gent with left hand, &c.,
+%% then swing partner last,
+%% balance partner.
+%% The others the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

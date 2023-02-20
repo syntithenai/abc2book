@@ -1,0 +1,43 @@
+X: 30131
+T: CRANE'S MARCH
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.13
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Should the B in voice 2's bar 3 be c, like the 2nd have of the bar?
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 arranged for 3 staffs, for a compact format at a small scale.
+V: 1 staves=2
+G2 |\
+c2c>c c2G>c | e2e>e e2e>e | g2e>c g2e>c | G2g>g g2z2 |\
+e2c>G e2c>G | f>ed>c B>AGz | f2d>B f2d>B | g>fe>d c2c2 |\
+a2a>a a2a>a | b2b>b c'2c'2 |
+d'2d'>c' b>ga>b | c'2c'>c' c'2 :| \
+|: G2 |\
+d2d>d g2g>f | e>de>f g2e2 | d2d>d g2g>f | e>de>f g>ef>g |\
+a2a>a c'3a | g>^fg>f g2e2 | c2c>e d>cd>e | c2c>c c2 :|
+|: ef |\
+g2g2 e2e2 | f2f2 d3e | c2c>c d>ef>d | B2B>B cdef |\
+g2g2 e2e2 | f2f2 d3e | g2e>c d>ef>d | c2c>c c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original 4-staff layout.
+V: 2
+G2 |\
+E2E>E E2E>G | c2c>c c2G>c | eBGE ecGE | G2B>B B2z2 |\
+cGEG cGEG | d>cB>A G2gz | d2B>G d2B>G |
+e>dc>B c2c'2 |\
+f2f>f f2f2 | d2d>d e2e2 | f2f>e d>Bc>d | e2e>e e2 :| \
+|: G2 |\
+B2B>B B2B2 | c>Bc>d e2c2 |
+B2B>B B2B2 | c>Bc>d e>cd>e |\
+f2f>f a3f | e>^de>d e2c2 | EGEG FGFG | E2E>E E2 :| \
+|: cd |\
+eGeG cGcG |
+dGdG BGBG | EGEG B>cd>B | G2G>G EGcd |\
+eGeG cGcG | dGdG BGBG | EGcG BGBG | E2E>E E2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

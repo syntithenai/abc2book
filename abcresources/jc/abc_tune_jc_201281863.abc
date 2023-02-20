@@ -1,0 +1,26 @@
+
+X: 1
+T: Good Man of Cambridge
+C:Mozart: "Rondo Alla Turca"
+L:1/4
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=120
+M:2/2
+K:Am
+P: A
+|: B/A/^G/A/ |\
+"Am"c2 d/c/B/c/ | e2 f/e/^d/e/ | b/a/^g/a/ b/a/g/a/ | c'2 ac' |\
+"Em"ba ga | ba ga | "B7"ba g^f | "Em"e2 :|
+P: B
+ef |\
+"C"gg "F"a/g/f/e/ | "G"d2 ef | "C"gg "F"a/g/f/e/ | "G"d2 cd |\
+"Am"ee f/e/d/c/ | "E"B2 cd | "Am"ee f/e/d/c/ | "E7"B2 ||
+P: A'
+B/A/^G/A/ |\
+"Am"c2 d/c/B/c/ | e2 f/e/^d/e/ | b/a/^g/a/ b/a/g/a/ | "F7"c'2 ab |\
+"Am/C"c'b "E7"a^g | "Am"ae "Dm"fd | "Am"c2 "E7"B2 | "Am"A2 ||
+P: C
+K:A
+|: ab |\
+"A"c'2 ab | c'b ag | "D"fg "B7/D#"ab | "E"ge ab |\
+"A"c'2 ab | c'b ag | "D"fb "E7"ge | "A"a2 :|

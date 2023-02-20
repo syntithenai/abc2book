@@ -1,0 +1,17 @@
+X: 1
+T: Mrs Jamieson's Favorite
+C: Charles Grant
+B: RSCDS 17-5(II)
+B: BSFC Session Tune Book 2016 p.72 #1
+B: BSFC Tune Book VIII-16
+R: air, jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+"A"[|\
+"A"E>AB ({A}c2E) | "D"F2E FA2 | "A"E>Ac "F#m"(e2Tf) | "D"e2c "E"TB2c |\
+"A"E>AB ({A}c2E) | "D"F2E "Bm"FA2 | "A"EAB "F#m"(c<ef) | "E"{A}c2B "A"[A3E3] |]
+"B"[|\
+"A"e2A "D"{fa}f2A | "A"{ef}e2E "D"FA2 | "A"e2A "F#m"{fa}f2A | "D"Ha2c "E"B2c |\
+"A"e>AA "A7"ABc | "D"F2E "Bm"FA2 | "A"E>AB "F#m"(c<ef) | "E"{A}c2B "A"[A3E3] |]

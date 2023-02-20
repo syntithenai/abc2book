@@ -1,0 +1,14 @@
+X:285
+T:Forth Brig, The
+C:W. Blyth
+R:Strathspey
+M:C
+%%printtempo 0
+Q:130
+K:D
+uA,|\
+"D"D<(D F>D) A>DF>D|(A,>D)(F>A) "Bm"(3DFA (3Bcd|"A"A,>(A, C>E) A>EC>E|"E7"(3efe (3dcB (3ABG (3FGE|
+"D"D<(D F>D) A>DF>D|(A,>D)(F>A) "Bm"(3DFA (3Bcd|"G"(G>AB>)G "D"(F>GA)F|"G"(3GAB "A"(3ABc "D"d<D D||
+ug|\
+"D"f<d d>g (3fed (3cBA|(f>g)"A"(c>a) "G"(B>g)"D"(A>F)|"Em"G>Be>G "D"F>Ad>F|"Em"G<E e>d "A7"(3cde (3efg|
+"D"f<d d>e (3fed (3cBA|d<b "A"A<a "G"B<g "D"A>F|"Em"G<e "D"F<d "A"E<c|"D"(3fed "A"(3cde "D"f<d d|]

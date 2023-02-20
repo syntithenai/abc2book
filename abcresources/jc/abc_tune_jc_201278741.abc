@@ -1,0 +1,65 @@
+
+X: 1
+T: The Gael  [Dm]
+C: tune: Dougie MacLean
+C: descant: Trevor Jones
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Ddor
+|:\
+"Dm"~A,2A, FED | EDC DCG, | "Dm"~A,2A, FED | EDC DCA, |\
+"C"~C2C ~E2E | GEE EDE | "C"~C2C ~E2E | GEE EDE |
+"Dm"~F2F FEF | GFF FED | "C"~E2E EDE | GEE EDC |\
+"Dm"~D2D DCD | FED A,DD | ~D3 DCD | FED "C"EDC :| "Dm"HD6 |]
+%
+P: (Descant)
+M: 6/8
+|: f3- f3- | f3 (2ed | A3- A3- | A3 (2df | (2eg- g3- | g3- (2gf | e3- e3- | e3- e3 |
+(2fa- a3- | a3 (2gf | (2eg- g3- | g3- g2e | (2ed- d3- | d3- d3- | d3- d3- | d3 z3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: The Gael  [Am]
+C: tune: Dougie MacLean
+C: descant: Trevor Jones
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Ador
+|:\
+"Am"~E2E cBA | BAG AGD | "Am"~E2E cBA | BAG AGE |\
+"G"~G2G ~B2B | dBB BAB | "G"~G2G ~B2B | dBB BAB |
+"Am"~c2c cBc | dcc cBA | "G"~B2B BAB | dBB BAG |\
+"Am"~A2A AGA | cBA EAA | ~A3 AGA | cBA "G"BAG :|["Fine""Am"A6 |]
+%
+P: Descant
+M: 6/8
+|: c3- c3- | c3 (2BA | E3- E3- | E3 (2Ac | (2Bd- d3- | d3- (2dc | B3- B3- | B3- B3 |
+(2ce- e3- | e3 (2dc | (2Bd- d3- | d3- d2B | (2BA- A3- | A3- A3- | A3- A3- | A3 z3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: The Gael  [Em]
+C: tune: Dougie MacLean
+C: descant: Trevor Jones
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Edor
+[|\
+"Em"~B2B gfe | fed edA | "Em"~B2B gfe | fed edB |\
+"D"~d2d ~f2f | aff fef | "D"~d2d ~f2f | aff fef ||
+||\
+"Em"~g2g gfg | agg gfe | "D"~f2f fef | aff fed |\
+"Em"~e2e ede | gfe Bee | ~e3 ede | gfe "D"fed |]
+%
+P: (Descant)
+M: 6/8
+[| g3-   g3- | g3 (2fe |   B3- B3- | B3 (2eg | (2fa- a3- | a3- (2ag | f3- f3- | f3- f3 ||
+|| (2gb- b3- | b3 (2ag | (2fa- a3- | a3- a2f | (2fe- e3- | e3- e3-  | e3- e3- | e3  z3 |]

@@ -1,0 +1,19 @@
+X: 1
+T: Invertita
+O: Bessarabia, Romania
+P: the time signature is more like 10/16: 4+3+3
+R: invertita
+S: Fiddle Hell Online 2022-4-10 handout for Bahia Cohen workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Gm
+"^A"|:\
+"Gm"G,B,DG B,2D2 G2B2 | "Gm"DGBd ^c2B2 A2G2 | "D"ABTc2- c2A2 B2^c2 | "Gm"dABd T^c2B2 A2G2 ||
+"Gm"G,B,DG B,2D2 G2B2 | "Gm"DGBd ^c2A2 B2c2 | "D"d2(^cB) A2G2 D2^F2 |[1 "Gm"G2z2 z4 (uB,2TA,2) :|[2 "Gm"G2z2 z4 z4 ||
+"^B"[|\
+"Bb"(=efg)f b2a2 g2f2 | "Bb"(=efg)f _e2d2 c2B2 | "F"ABc2- c2A2 B2c2 | "Bb"dABd c2B2 F4 ||
+"Bb"(=efg)f b2a2 g2f2 | "Bb"(=efg)f _e2d2 c2B2 | "D"ABcB A2G2 D2^F2 | "Gm"G2z2 z4 z4 |]
+"^C"|:\
+"F"f=e_ed c2B2 F2(d2=e2) | "Bb"f=e_ed c2B2 F2B2 | "F"ABc2- c2A2 B2^c2 | "Bb"dABd c2B2 F2(d=e) ||
+"F"f=e_ed c2B2 F2(d=e) | "F"f=e_ed c2B2 A2G2 | "D"^cdcB A2G2 D2^F2 | |[1 "Gm"Gzzd e4 (=e2g2) :|[2 "Gm"G2z2 z8 |]

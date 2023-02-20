@@ -1,0 +1,24 @@
+X: 11443
+T: the TRENT WALTZ
+C: Beethoven.
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.144 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"^f"|:\
+(DCDCD).C | .D2(A2F2) | D2F2A2 | d4A2 |\
+f4e2 | d2c2B2 | A3c .B>^G | A4z2 \
+"^fp"::\
+(f4e2) | (d4A2) | (f4e2) | (d4A) |\
+B2B2B2 | c4d2 | e2d2c2 | d4z2 :|
+"^p"|:\
+a2a2a2 | f4z2 | g2g2g2 | e6 |\
+a2a2a2 | (a2g2f2) | e2d2c2 | dcedfe \
+"^p":: "^8va  -  -  -  -"\
+(DCDE)D2 | A^GABA2 | (dcde)d2 | (cdcB)A2 |\
+(d>cd>e)d2 | .A>^GA>BA2 | E>F.E>^DE2 | =D2d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

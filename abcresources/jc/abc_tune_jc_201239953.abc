@@ -1,0 +1,45 @@
+X: 351
+T: Sir ALEXANDER DON
+C: R. MACKINTOSH
+R: Strathspey
+B: Glen Collection p.35 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Gm
+%
+V: 1
+d2 |\
+BG3 G3D B,2A,2 G,2B2 | AGF2 cBA2 f2c2 A2f2 | BG3 G3D B,A,3 G,g3 | fedc dcBA B2G2G2 :|
+d2 |\
+gd3 BG3 bg3 dB3 | fc3 AF3 af3 cA3 | gd3 BG3 bg3 dB3 | c3e dcBA B2G2 G2d2 |
+gd3 BG3 bg3 dB3 | fc3 AF3 af3 cA3 | db3 ca3 Bg3 A^f3 | ge3 dcBA B2G2G2 ||
+D2 |\
+G,D3 B,G3 Dd3 BG3 | A,F3 CF3 A,c3 AF3 | G,D3 B,G3 Dd3 BG3 | c3e dcBA BG3 G2D2 |
+B,D3 B,G3 Dd3 BG3 | A,F3 CF3 A,c3 {B}A{G}F3 | GB3 DG3 B,3D C3E | D3C B,3A, B,2G,2G,2 ||
+d2 |\
+BAG2 dcB2 b3g dB3 | AGF2 cBA2 a3f cA3 | BAG2 dcB2 b3g dB3 | ABc2 dcBA B2G2 G2d2 |
+BAG2 dcB2 b3g dB3 | AGF2 cBA2 a3f cA3 | db3 ca3 Bg3 A^f3 | g3e (dcBA) B2G2G2 |]
+%
+V: 2
+z2 |\
+G4[d4B4] [g4B4][d4B4] | F4[a4f4] [a4f4][c'4f4] |\
+G4[d4B4] [g4B4][d4B4] | d4^f4 g4[g2G2] :|
+z2 |\
+g4[d'4b4] d4[b4g4] | F4[c'4f4] c4[c'4f4] |\
+G4[d'4b4g4] [d'4b4g4][d'4b4g4] | f4^f4 g4[b4g4] |
+g4[d'4b4] d4[b4g4] | F4[c'4f4] c4[c'4f4] |\
+g4^f4 g4d4 | c4[^f4d4] [g4G4][g2G2] ||
+z2 |\
+G4[g4d4] [b4d4][g4d4] | F4[f4A4] [f4c4][f4c4] |\
+G4[g4d4] [b4d4][g4d4] | f4^f4 g4G4 |
+G4[g4d4] [b4d4][g4d4] | F4[f4A4] [f4c4][f4c4] |\
+G4B4 d4g4 | [^f4d4][f4d4] [g4G4][d2G2] ||
+z2 |\
+g4[b4g4] [d'4g4][b4g4] | f4[a4f4] [c'4f4][a4f4] |\
+g4[b4g4] [d'4g4][b4g4] | f4^f4 g4G4 |
+g4[b4g4] [d'4g4][b4g4] | f4[a4f4] [c'4f4][a4f4] |\
+g4^f4 g4d4 | c4[^f4d4] [g4d4G4][g2d2G2] |]

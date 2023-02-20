@@ -1,0 +1,38 @@
+X: 71
+T: Buenek
+O: Bulgaria, Dobrudza
+Z: Birgitt Karlson http://www-linux.gsi.de/~karlson/index_e.htm
+F: http://www.youtube.com/watch?v=X5E7XWorgzo
+M: 4/4
+L: 1/8
+Q: 1/4=160
+P:ABABCDABEFCDFF
+K: Am
+%%MIDI program 23
+%%MIDI chordprog 23
+%%MIDI bassprog 117
+%%MIDI chordvol 65
+%%MIDI bassvol 65
+%%MIDI beat 110 100 90 4
+P:A
+|:"Am" de ed e3 d          |"E7" d2 AB "Am"c4                  |\
+  "D/F#" de ed "Dm/F" d2 AB|"E7" cd cB A4                      :|
+P:B
+  "Am"ec dB cA BG          | "G" AG AB "C"cd ec                |\
+  "Dm" ec dB cA BG         |"Am"A2 "Em"GA "Am" A4              |
+  "Am"A2 dB cA BG          | "G" AG AB "C"cd ec                |\
+  "Dm"  ec dB cA BG        |"Am"A2 "Em"GA "Am" A4              |
+P:C
+|:"A"[A4^c4] [e2g2] [^c2e2]|"Dm"[d6f6] [eg][df]                |\
+  "A"[^c6e6] [e2g2]        | "Bb"[d4f4] "Gm"[^ce][df] [ce][_Bd]|\
+  "A" [A4^c4] [A4c4]       :|
+P:D
+|:"Gm" _B6 d2              |^c2 z2 ef ge                       |\
+  "Gm"fd e2 d_B "A"^A2     | "Gm"_BA BG ^c2 c2                 :|
+P:E
+K:G
+|:"C"c8                    |"G"dc BA GF GA                     |\
+  B8                       |[1"D" c2 AB "G" GA BG              :|[2"D" c2 AB"G" G2 G2|
+P:F
+|:"A" c3 A "Gm" _B2 A2     |GA _BG "A" A2 e2                   |\
+  ^c3 G "Gm" _B2 A2        |"A" A2 EA A2 A2                    :|

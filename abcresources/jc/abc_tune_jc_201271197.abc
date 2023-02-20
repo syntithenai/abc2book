@@ -1,0 +1,26 @@
+X:1
+T: Dunham Oaks
+N:
+C:Brian Wedgbury
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 232
+%W: A1
+% voice 1 (1 lines, 24 notes)
+K:G
+M:4/4
+L:1/16
+G8 B8 |c12 B4 |A6 B2 A4 G4 |F4 A4 d4 D4 |G8 A8 |B6 A2 G4 F4 |E4 A4 A4 F4 |D12 z4 |
+%W: A2
+% voice 1 (1 lines, 24 notes)
+G8 B8 |c12 B4 |A6 B2 A4 G4 |F4 A4 d4 D4 |G8 A8 |B6 A2 G4 F4 |E4 A4 A4 F4 |G12 z4 |
+%W: B
+% voice 1 (1 lines, 24 notes)
+d8 B8 |e12 B4 |c4 c4 c4 A4 |d12 z4 |B4 G4 B4 z4 |c4 A4 c4 z4 |B4 A4 G4 E4 |A8 D8 |
+%W:
+% voice 1 (1 lines, 26 notes)
+G8 B8 |c12 B4 |A6 B2 A4 G4 |F4 A4 d4 D4 |G6 A2 B4 G4 |A6 B2 c4 A4 |B4 G4 A4 F4 |G12 z4 ||

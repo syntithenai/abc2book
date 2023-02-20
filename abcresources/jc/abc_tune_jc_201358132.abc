@@ -1,0 +1,26 @@
+%%scale .96
+%%barsperstaff 4
+X:1
+T:I'll Be Somewhere Working For My Lord
+T:In the Highways
+C:Maybelle Carter
+M:4/4
+L:1/4
+K:D
+%%staves{RH1}
+V:RH1 clef=treble
+|D E|("D"F3 E)|D2 "G"G3/2 G/2|(F3 E)|"D"D2 D D
+w:v1,3~In the high-_ways in the hedg-_es, in the
+w:v2~If He calls_ me, I will ans-_ wer, If He
+|("A"E3 D)|C2 G3/2 G/2|("D"F3 E)|D z D E|(F3 E)|D2 "G"G3/2 G/2
+w:high-_ways in the hed-_ges, in the high-_ways in the
+w:calls-_ me I will ans-_wer, If He calls-_ me I will
+|("D"F3 E)|D z D F|"A7"E E2 F|G G F E|"D"D4-|D z||
+w:hed-_ges, I'll be some-where a work-ing for my Lord._
+w:ans-_wer, I'll be some-where a work-ing for my Lord._
+|E F|"G"G G3|G B A G|"D"F F3|F A G F|"A7"E E2 E
+w:ch~I'll be some-where work-ing, I'll be some-where work-ing, I'll be some-where a
+|G G F E|("D"F3 E|D) z E F|"G"G G3|G B A G|"D"F F3
+w:work-ing for my Lord.__ I'll be some-where work-ing, I'll be some-where
+|F A G F|"A7"E E2 F|G G F E|1,2"D"D4-|D z:|3"D"D4||
+w:work-ing, I'll be some-where a work-ing for my Lord._ Lord.

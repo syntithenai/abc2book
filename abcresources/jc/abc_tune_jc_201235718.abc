@@ -1,0 +1,20 @@
+X: 21323
+T: POLKA QUADRILLES. No. 3.--la Poule.
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.132 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Rest added to end of 1st strain, to fix the rhythm.
+N: Initial grace notes moved to after the bar line, to satisfy ABC software that doesn't like grace notes without a main note.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!f![|\
+({B^c}d3 B)dg | f3 e3- | eAB c2e | dGA (Bc^c) |\
+d3 Bdg | f3 ec'b | a>gf agf | g3- g2z H|]
+!p!d2z c2z | B2z Aed | cBA Ggf | edc c2z |\
+A2z F2z | "^cresc."GAB ABc | Bcd cde | dcB AG"^D.C."F |]
+c2z e2z | g3 (fe)d | (e2g) (c2e) | TG3- G2z |\
+c2z e2z | g2z (fe).d | fed agB | (d3 "^D.C."c3) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

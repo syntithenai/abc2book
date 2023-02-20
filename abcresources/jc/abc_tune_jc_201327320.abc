@@ -1,0 +1,16 @@
+X: 752
+T: the Queen's Shilling
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #752
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0752/oneill-1001-0752-1.abc
+M: C|
+L: 1/8
+K: G
+"^A"[|] D2 !segno!\
+| G2(G>B) dBGB | dBeB dBAB | G2(GB) d2(Bd) | (3(efg) (dB) AcBA ||
+| G2(GB)  dBGB | dBeB dBAB | G2(GB) dBGB | (3(efg) dBA2 |]
+"^B"\
+[| (ga) | b2(gb) a2(fa) | g2(eg) (fd)B2 | b2gb a2fa | gfef d2 ||
+|| (ga) | bagb agfa | gfeg dega | bgaf gfed | (3(efg) dB AcB!segno!A |]

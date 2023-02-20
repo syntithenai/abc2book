@@ -1,0 +1,26 @@
+X:1
+T: Paston's Maggot
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 210
+%W: A1
+% voice 1 (1 lines, 33 notes)
+K:D
+M:4/4
+L:1/16
+D4 D4 F4 A4 |d8 A4 B2 c2 |d4 F4 E4 D4 |E8 A8 |D4 D4 F4 A4 |d8 A4 B2 c2 |d4 f4 a2 f2 a2 f2 |d4 A4 F4 E2 F2 |
+%W: A2
+% voice 1 (1 lines, 32 notes)
+D4 D4 F4 A4 |d8 A4 B2 c2 |d4 F4 E4 D4 |E8 A8 |D4 D4 F4 A4 |d8 A4 B2 c2 |d4 f4 a2 f2 a2 f2 |d4 A4 F4 D4 |
+%W: B1
+% voice 1 (1 lines, 51 notes)
+d4 f4 a2 f2 a2 f2 |d2 f2 a2 f2 d4 A4 |c4 e4 g2 e2 g2 e2 |c2 e2 g2 e2 c4 A4 |d2 f2 a2 f2 c2 e2 g2 e2 |d2 f2 a2 f2 c2 e2 g2 e2 |f4 e2 d2 c2 d2 e2 c2 |d4 A4 F4 D4 |
+%W: B2
+% voice 1 (1 lines, 49 notes)
+d4 f4 a2 f2 a2 f2 |d2 f2 a2 f2 d4 A4 |c4 e4 g2 e2 g2 e2 |c2 e2 g2 e2 c4 A4 |d2 f2 a2 f2 c2 e2 g2 e2 |d2 f2 a2 f2 c2 e2 g2 e2 |f4 e2 d2 c2 d2 e2 c2 |d8 d8 ||

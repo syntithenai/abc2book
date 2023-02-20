@@ -1,0 +1,39 @@
+X: 1033
+T: Ross Meor
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: "Each Strain twice."  Repeats corrected to match this instruction.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 arranges the tune as 4/8/12-line lines/staffs.
+V: 1
+|:\
+G4 B4 | G2d2 B2AG | F4 A4 | F2c2 A2GF |\
+G4 B4 | A2d2 B2AG | B2AG A2F2 | G8 :|
+|:\
+B3A GABc | Td6 g2 | Td6 g2 | Td6 gf |\
+g2d2 d2ef | g2d2 d2ef | g2d2 edcB | A6 D2 |\
+FGA2 F2D2 | FGA2 F2ED | B2AG A2F2 | G8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+g4 G4 | g4 G4 | d4 D4 | d4 D4 |\
+g4 G4 | g4 G4 | g2c'2 d'2d2 | g2d2 B2G2 :|\
+|:\
+g4 G4 | g2d2 B2G2 |
+g2d2 B2G2 | g2d2 B2d2 |\
+g4 b2c'2 | g4 b2c'2 | b2g2 c'4 | d'2a2 f2d2 |\
+d4 z4 | d4 z4 | g2c2 d2D2 | g2d2 B2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+The 1st and 2d Men lead thro' the two We. the We. lead thro' the Men. and all turn S. .|
+the 1st Cu. whole figure thro' the 2d Cu. and sett and cast off :|
+cross over round 3d Cu. Lead thro' the 3d Cu. and thro' the 2d Cu. right and left with the 3d Cu :|
+%%endtext

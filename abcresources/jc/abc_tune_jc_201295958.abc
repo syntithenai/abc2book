@@ -1,0 +1,24 @@
+X: 1
+T: Katu\vse Mome
+T: \vSto mi je milo em drago
+O: Makedonia
+Z: John Chambers <jc@trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+"^Verse"\
+|: "D"[D2A,2] "G"[G2B,2][GB,] [G2B,2] [G2B,2] \
+| "D"[A2C2] [AC][GB,][AC] "G"[B4D4] \
+| [BD][cE] "D"[d2F2][eG] [dF][cE] [cE][BD] \
+|1 "D"[BD][AC] [cE][BD][AC] "G"[G2B,2] [FA,][EG,] \
+:|2 "D"[BD][AC] [cE][BD][AC] "G"[G4B,4] ||
+"^Chorus"\
+|: "G"[BD][cE] "D"[d2F2][eG] [dF][cE] [cE][BD] \
+| "D"[BD][AC] [AC][GB,][AC] "G"[B4D4] \
+| [B2D2] "D"[A2C2][AC] [AC][GB,] [dF][cE] \
+| [BD][AC] [cE][BD][AC] "G"[G4B,4] :|
+"^Inst."\
+|: "G"[dB][ec] [d2B2][cA] [BG][cA] [dB][ec] \
+| [dB][BG] "D"[cA][BG][AF] "G"[B/G/][c/A/][d/B/][e/c/] [d2B2] \
+| [dB][ec] [d2B2][cA] [BG][cA] [dB][ec] \
+| [dB][BG] "D"[cA][BG][AF] "G"[G4D4] :|

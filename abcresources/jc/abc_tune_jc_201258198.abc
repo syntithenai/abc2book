@@ -1,0 +1,79 @@
+%%partsspace 0
+
+X: 1
+T: Buv\vcansko
+O: Macedonia
+N: Start slow, around 92-100, and slowly speed up to 112 or faster.
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: EDorian
+|: DE E>F GA GF | GA BA AG GF | GA BA AG GF | G/F/E FD E2 E2 :|
+|: AB {A}BB ~B2 B2 | c/d/e d/c/B AG G2 | c/d/e d/c/B AG G>F | G/F/E FD E2 E2 :|
+
+%%sep 1 1 200
+
+%%partsspace 0
+
+X: 1
+T: Buv\vcansko
+O: Macedonia
+N: Start slow, around 92-100, and slowly speed up to 112 or faster.
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: F#Dorian
+|: EF F>G AB AG | AB cB BA AG | AB cB BA AG | A/G/F GE F2 F2 :|
+|: Bc {B}cc ~c2 c2 | d/e/f e/d/c BA A2 | d/e/f e/d/c BA A>G | A/G/F GE F2 F2 :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Orijent
+O: Srbija
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: GMix
+"A"|: "G"[B2G2][dB][cA] [BG][BG][BG][GD] |\
+  [BG][GD][fd][ec] [dB][dB][dB][BG] |\
+  "C"[g2e2][f2d2] [ec][cA][fd][ec] |\
+[1,3 "D7"[dB][BG][cA][A^F] "G"[BG][BG][BG][GD] :|\
+[2,4 "D7"[dB][BG][cA][A^F] "G"[B4G4] :|
+%
+"B"|: "C"[g2e2][f2d2] [ec][cA][fd][ec] |\
+  "G"[dB][BG][fd][ec] [dB][dB][dB][BG] |\
+  "(D)"[e2c2][d2B2] [dB][BG][dB][ec] |\
+[1,3 "D7"[cA][A^F][dB][cA] "G"[BG][BG][BG][GD] :|\
+[2,4 "D7"[cA][A^F][dB][cA] "G  fine"[B4G4] :|
+%
+"C"|: "C"ECEF G_B_AG | "Fm"GFEF G_A=Bc |\
+    "G"df_ed dcBc | "Cm"_edcB "Fm"_AGF2 :|
+    "C"ECEF G_B_AG | "Fm"GFEF G_A=Bc |\
+    "G"df_ed "Cm"cB_AG | "Fm"F4 z4 :|
+
+
+X: 2
+T: Orijent
+N: Serbian line dance
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: AMix
+"A"|: "A"[c2A2][ec][dB] [cA][cA][cA][AE] \
+| [cA][AE][ge][fd] [ec][ec][ec][cA] \
+| "D"[a2f2][g2e2] [fd][dB][ge][fd] \
+|1,3 "E7"[ec][cA][dB][B^G] "A"[cA][cA][cA][AE] \
+:|2,4 "E7"[ec][cA][dB][B^G] "A"[c4A4] :|
+"B"|: "D"[a2f2][g2e2] [fd][dB][ge][fd] \
+| "A"[ec][cA][ge][fd] [ec][ec][ec][cA] \
+| "(E)"[f2d2][e2c2] [ec][cA][ec][fd] \
+|1,3 "E7"[dB][B^G][ec][dB] "A"[cA][cA][cA][AE] \
+:|2,4 "E7"[dB][B^G][ec][dB] "A  fine"[c4A4] :|
+"C"|:\
+   "D"FDFG A=c_BA | "Gm"AGFG A_B^cd |\
+   "A"eg=fe edcd | "Dm"=fedc "Gm"_BAG2 |
+   "D"FDFG A=c_BA | "Gm"AGFG A_B^cd |\
+   "A"eg=fe "Dm"dc_BA | "Gm"G4 z4 :|

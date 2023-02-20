@@ -1,0 +1,24 @@
+X: 5
+T: Kitty's Rambles
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) no. 5
+R: double jig
+%S: s:2 b:16(8+8)
+%S: s:4 b:16(4+4+4+4)
+Z: Frank Nordberg - http://www.musicaviva.com
+M: 6/8
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+G \
+| FED {d}=cBA | dcd efg | fed {d}=cAF | GAF GFE |
+| {G}FED =c2A | dcd efg | fed {d}=cAG | Adc d2 :|
+|: A \
+| dfa dfa | dfa afd | =ceg ceg | =ceg gfe |
+| fef gfg | afa gfe | fed {d}=cAG | Adc d2 :|
+|: e \
+| fgf efe | ded =cAG | FGF EFE | DED GED |
+| AGA =cAG | dcd efg | fed {d}=cAG | Adc d2 :|
+|: f/g/ \
+| afd {e}dcd | dfa agf | ge=c {d}cBc | e=ce gfe |
+| fdf {a}geg | agf efg | fed {d}=cAG | Adc d2 :|

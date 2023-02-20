@@ -1,0 +1,29 @@
+X: 5
+T: the Swiss Waltz
+%R: waltz
+B: "Le Sylphe, Twenty Four Country Dances with Figures for the Year 1818", Button & Whitaker, p.3 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1818
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 3/8
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+d2A2f2 | d4(fg) | a2f2d'2 | (a^gab)a2 |\
+(A2d2).d2 | e4f2 | g2e2c2 | d4 :|
+|: A2 |\
+A2F2A2 | B4G2 | g2e2c2 | (defg).a2 |\
+A2F2A2 | B4G2 | g2e2c2 | d4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center WALTZ FIGURE        (Each strain repeated)
+%%begintext align
+%% The 1st Lady turns 2d Gent: a la waltz 1st Gent turns 2d
+%% Lady a la waltz |: & whole poussette with sauteuse step |: .
+%%endtext
+%%center COUNTRY DANCE FIGURE        (Each strain repeated)
+%%begintext align
+%% Hands 3 round with 2d Lady hands 3 round with 2d Gent: |: lead
+%% down the mid: up again & right & left with top Cu: |: .
+%%endtext
+%%sep 1 1 450

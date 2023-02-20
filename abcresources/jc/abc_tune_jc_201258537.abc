@@ -1,0 +1,25 @@
+
+X: 1
+T: Success to the Fleet
+T: A Country Dance
+O: London Magazine 1756
+B: London Magazine 1756, p.189
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Also in G major (Whittier Perkins, 1790)
+N: The 2nd part has an initial repeat but no final repeat symbol.
+N: It's a 24-bar dance, so the 2nd part has no repeats here.
+M: 6/8
+L: 1/8
+K: Gm
+D |\
+GBd dBG | g^fg dBG | cde edc | Bcd BAG |\
+GBd dBG | g^fg dBG | c/d/ec dBG | A^FD G2 :|
+B |\
+BcB fdB | bfd fdB | cdc gec | ABc A^FD |\
+GBd dBG | g^fg cde | dBd dBd | A^FD G2 |]
+%%begintext align
+First and second couple right hands across roud .|
+left hands back again :|
+lead down up again, cast off, and right and left :|:
+%%endtext

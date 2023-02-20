@@ -1,0 +1,60 @@
+X:694
+T:Song to the Moon
+C:Antonin Dvorak, 1848-1855
+C:Arranged and abbreviated by Colin Hume, 2016
+L:1/4
+M:3/4
+%%linebreak <none>
+%%linewarn 0
+%% barsperstaff 6
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com
+Q:1/4=100
+N:Originally in G flat and 3/8 time.
+%%staves 1 {2 3}
+K:G
+V:1
+%%MIDI program 68     Oboe
+|: Z :|
+V:2
+%%MIDI program 46     Orchestral Harp
+|: "^INTRO" "_PLAY 4 TIMES" [DGB]2[DFA]/[DGB]/ :|
+V:3 bass octave=-2
+%%MIDI gchordoff
+%%MIDI program 46
+|: "G"[gb]2d/g/ :|
+P:A
+V:1
+BBA | BdA | B/G/EG- | Gzz | AAB | AAB | c/A/-A2 | Z ]
+V:2
+[DGB]2[DFA]/[DGB]/ |[DGB]2[DFA]/[DGB]/ |[DGB][EGc][DGB]/[EGc]/ |[DGB][EA][EG] |[DFA]2[GB]/[FA]/ |[DFA]2[GB]/[FA]/ |[Ec]2[CA] |[DFB][Bd][DFc]/A/ ]
+V:3
+"G"[gb]2d/g/ | "G"[gb]2d/g/ | "G"[gb] "C"cg/c/ | "G"g"C"[cg]"Em"[eb] | "D"d2"G"g/d/ | "D"d2"G"g/d/ | "Am"[Aa]2[Ag] | "D7"[dc']2a/c'/ ]
+P:B
+V:1
+BBA | c2B | e/c/d2 | Z | dcB | BeF/G/ | B/A3/z | Z ]
+V:2
+[GB][GB][FA]/[Ac]/ |[Ac][Ac][GB]/e/ |[Ae]/[Ec]/[FAd]F/A/ |[Ae]/[Ec]/[FAd]2 |[Gd][Ac][GB] |[DB-][^CB]A/G/ |[GB][FA][GB] |[Ac][GB][FA] ]
+V:3
+"G"[gd']2 "D"[dd'] | "Am"[ae']2 "Em"[eb] | "Am"[ac'] "D"d'2 | "C"c' "D7"d'2 | "G"[bd'][gd']2 | "A7"[eg]-[Aeg]2 | "G/D"[dd']3- | "D"[dd']3 ]
+P:C
+V:1
+ddc | e2d | f/d/e2 | Z | edB | d/c/BA/D/ | AG2 | Z ]
+V:2
+[Dd]2[Ec] |[Ee]2[Gd] |[Ff]/d/[Ge]2 |[df]/[B^d]/[ce]2 |[=Fe]d[DB]/F/ |[CE]/=F/[D^F]2 |[B,A]G/F/ G/A/ | ^A/B/- B/c/ ^c/d/ ]
+V:3
+"G"[Bg]2 "Am"[Ag] | "C"[cg]2 "G"[Bg] | "Bm"[db]/B/ "C"[cg]2 | "/"[cg]3 | "E7"[^gb]3 | "Am"[Ae] "D"[Dd]2 | "G"[Gd]3- | "/"[Gd]zz ]
+P:D
+V:1
+Gg3/g/ | f/d/f2 | c/4d/4e/-ed/c/ | B2z | BAB | dcB/A/ | G/4A/4B/-B2 | A/F/G3/z/ ]
+V:2
+[B,DG][Bdg]3/[Bdg]/ | [Bdf]/[Bd]/[Bdf]2 | [EGc]/4d/4[Gce]/-[Gce][EGd]/[EGc]/ | [E^GB]2 E/^G/ | [E=GB][FA][EGB] | [EBd][EAc][DB]/[CA]/ | [B,DG]/4A/4[DGB]/-[DGB]2 | [CFA]/[CDF]/[B,DG]/D/ (3G/B/d/ ]
+V:3
+"G"G/B/ d/g/ b | "Bm"B/d/ f/b/ d' | "C"C/G/ c/e/ g | "E"E/B/ e/^g/ b | "Em"E/B/ e/f/ =g | "Am"A/e/ a/c'/z | "G/D"D/G/ d/g/ b | "D"[Dd] "G"[Gg] z ]
+P:E
+V:1
+gag | (3f/e/d/f2 | c/4d/4e/-ed/4e/4d/4c/4 | B2z | BAB | dcB/A/ | G/4A/4B/-B2 | AG3/z/ |]
+V:2
+[Beg][Bea][Beg] | (3[Bdf]/[e]/[d]/ [Bdf]2 | [EGc]/4d/4[Gce]/-[Gce][EGd]/4e/4d/4c/4 | [E^GB]2 E/^G/ | [E=GB][FA][EGB] | [EBd][EAc][DB]/[CA]/ | [B,DG]/4A/4[DGB]/-[DGB]2 | [CFA][B,DG]z |]
+V:3
+"Em"E/G/ e/g/ b | "Bm"B/d/ f/b/ d' | "C"C/G/ c/e/ g | "E"E/B/ e/^g/ b | "Em"E/B/ e/f/ =g | "Am"A/e/ a/c'/z | "G/D"D/G/ d/g/ b | "D"[Dd] "G"[Gg]z |]

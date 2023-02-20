@@ -1,0 +1,32 @@
+X: 123
+T: HONble MISS SEMPILL
+C: R. MACKINTOSH
+R: Reel
+B: Glen Collection p.12 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: G
+%
+V: 1
+f |\
+g2(dB) GBdB | a2(ec) Acea | g2(dB) GBdB | cedc (BGG)f |
+g2(dB) GBdB | a2(ec) Acea | g2(eg) dgBg | cA (d/c/B/A/ B)GG ||
+D |\
+(B,D)(GD) CEAE | DFAB cABG | (B,D)(GD) CEAE | DFAc B(GGD) |
+B,DGD CEAE | DFAB cedc | BdgB ceag | fdaf gGG |]
+%
+V: 2
+z |\
+g2[d'2b2] [d'2b2][d'2b2] | c2[c'2a2] [c'2a2][c'2a2] |\
+g2[d'2b2] [d'2b2][d'2b2] | d2[a2f2d2] G2[b2g2d2] |
+g2[d'2b2] [d'2b2][d'2b2] | c2[c'2a2] [c'2a2][c'2a2] |\
+G2[b2g2d2] [b2g2d2][b2g2d2] | d2[a2f2d2] G2[bgd] ||
+z |\
+[g2d2G2][g2d2G2] [g2e2G2][g2e2G2] | d2[f2d2] [a2f2d2][b2g2d2] |\
+[g2d2G2][g2d2G2] [g2d2G2][g2d2G2] | d2[f2d2] [g2d2][b2g2e2] |
+[g2d2G2][g2d2G2] [g2e2G2][g2e2G2] | d2[f2d2] [a2f2d2][a2f2d2] |\
+G2[b2g2d2] A2c2 | d2[c'2f2] [b2g2][gdG] |]

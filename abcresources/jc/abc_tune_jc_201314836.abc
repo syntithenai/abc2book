@@ -1,0 +1,27 @@
+X: 1
+T: Multnomah March
+C: Bob McQuillen 8 Apr 89
+B: Bob's Note Book 9 p. 82
+B: Portland Collection v.2 p.141
+R: march
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+AB |\
+"A"c>B AE | "D"F A2 B | "A"c>B AB | "C#m"c e2 c/e/ |\
+"D"f>e fa |"A"f<e c>B | "F#m"A>c BA | "E"F<E ||
+A>B |\
+"A"c>B AE | "D"F A2 B | "A"c>B AB | "C#m"c e2 c/e/ |\
+"D"f>e fa |"A"f<e c>A | "E7"B<A A>A | "A"A2 |]
+cd |\
+"A"e>f ec | e a2 f | e>c AB | "F#m"c f2 c/B/ |\
+"D"AF F>E |FA  A>F | "A"E>F Ac | "E"cB ||
+cd |\
+"A"e>f ec | e a2 f | e>c AB | "F#m"c f2 c/B/ |\
+"D"AF F>E |FA A>f | "E"e<c B>A | "A"A2 |]
+%%begintext align
+%% "What a wonderful weekend we all had at Jim Howe's very first
+%% Spring Festival, held at the Multnomah Art Center in Portland,
+%% OR. It was a great success, Jim - Contratulations!"
+%%endtext

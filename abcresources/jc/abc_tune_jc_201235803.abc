@@ -1,0 +1,28 @@
+X: 21391
+T: REPUBLICAN SETT (tune 4)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.139 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+AA |\
+d2AA d2AA | d2A2 z2aa | b2a2f2d2 | a2a2 z2AB |\
+cdef g2fe | defg a2gf | edcB Agec | d2f2d2 H|]
+dd |\
+d2dd d2dd | d2f2a2 d'd' | d'2b2g2 bb | a2f2d2 aa |\
+g2e2c2 gg | f2d2A2 ff | e2cc e2BB | e2c2A2 dd |
+d2dd d2dd | d2f2a2 d'd' | d'2b2g2 bb | a2f2d2 aa |\
+g2e2c2 gg | f2d2A2 ff | e2a2 e2^g2 | a2a2"^D.C."a2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies cross hands round and back,
+%% gentlemen the same,
+%% all balance partners and turn.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

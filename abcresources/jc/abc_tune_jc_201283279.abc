@@ -1,0 +1,14 @@
+X: 507
+T: the Groves of Blarney
+R: air, waltz
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #507
+Z: Dave Wooldridge
+Q: "Slow with expression"
+M: 3/4
+L: 1/8
+K: G
+"^A"[|](G>A) | B2 g2 (e>d) | (d B3) (G>A) | B2 (cB) ({B}A>G) | G4 ||
+"^B"|  (G>A) | B2 g2 ({f}e>d) | (d B3) (G>A) | B2 (c>B) ({B}A>G) | G4 |]
+"^C"|| (d>B) | g2 (g>f) ({f}e>d) | (d2 B2) (d>B) | g2 (gfe^d) | ~e2 Hg2 ||
+"^B"|  (G>A) | B2 g2 ({f}e>d) | (d B3) (G>A) | B2 ({d}c>B) ({B}A>G) | G4 |]

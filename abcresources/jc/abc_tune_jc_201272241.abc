@@ -1,0 +1,17 @@
+X: 1605
+T: the Echo
+%S: s:3 b:16(5+5+6)
+R: hornpipe
+B: O'Neill's 1850 #1605
+O: Tobin
+Z: Michael D. Long, 10/02/98
+Z: Michael Hogan
+M: C|
+L: 1/8
+K: D
+"^A"[|] T(fe) |\
+d>AF>A D2F>A | d>fe>c d>cB>c | A2c>e A2c>e | (3(fga) e>f d>cB>A ||
+d>AF>A D2F>A | d>fe>c d>cB>A | T(gf)g>b a>fd>f | e>AB>c d2 :|
+"^B"|: z2 |\
+d>(g (3{a}gfg) b>(g (3{a}gfg) | (3(gag) b>g a>gf>g | A2c>e A2c>e | (3(fga) e>f d>cB>A ||
+d>(g (3{a}gfg) b>(g (3{a}gfg) | (3(gag) b>g a>gf>a | Tg>fg>b a>fd>f | e>AB>c d2 :|

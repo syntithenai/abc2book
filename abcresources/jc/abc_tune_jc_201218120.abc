@@ -1,0 +1,18 @@
+X: 004
+T: Lillie Bulairie
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.2 #4
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+D |\
+G>AG TB2B | A>BA c3 |\
+(B/c/d)G c2B | {B}A>GF G2 :: d |\
+g2f g2d | =f>gf {f}e2d |
+de^f gfe | {e}dcB A2d |\
+edc Bcd | edc Bcd | (e/f/g)G (c2B) | {B}A>GF G2 :|

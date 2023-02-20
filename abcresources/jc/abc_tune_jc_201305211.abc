@@ -1,0 +1,63 @@
+X:1
+T:MacNeil of Ugadale
+M:6/8
+L:1/8
+Q:80
+C:John M. MacKenzie
+S:March
+K:HP
+|: a|
+c3/2d/2{e}B{g}A2{GdGe}A|
+{g}c/2e3/2{A}e{gef}e3/2c/2{G}A|
+{g}f3/2e/2{g}c{g}e3/2f/2a|  !
+{g}a3/2e/2{g}c{gBG}B2a|
+c3/2d/2{e}B{g}A2{GdGe}A|
+{g}c/2e3/2{A}e{gef}e3/2c/2{G}A|  !
+{g}c/2d3/2{e}B{g}e3/2f/2{g}c|
+{e}A3{GAG}A2:| |:
+e|  !
+a3/2g/2{a}f{g}e2{ag}a|
+e3/2f/2{g}e{gef}e3/2c/2{G}A|
+a3/2g/2{a}f{g}e2a|  !
+{g}a3/2e/2{g}c{gBG}B2|1 e|
+a3/2g/2{a}f{g}e2{ag}a|
+e3/2f/2{g}e{gef}e3/2c/2{G}A|  !
+{g}c/2d3/2{g}B{g}e3/2f/2{g}c|
+{e}A3{GAG}A2:| [|
+e|  !
+a3/2g/2{a}f{g}e2{ag}a|
+e3/2f/2{g}e{gef}e3/2c/2{G}A|
+a3/2g/2{a}f{g}e2a|  !
+{g}a3/2e/2{g}c{gBG}B2|2 a|
+c3/2d/2{e}B{g}A2{GdGe}A|
+{g}c/2e3/2{A}e{gef}e3/2c/2{G}A|  !
+{g}c/2d3/2{e}B{g}e3/2f/2{g}c|
+{e}A3{GAG}A2:| |:
+a|  !
+{cd}c3{G}A3|
+{g}c/2e3/2{A}e{gef}e3/2c/2{G}A|
+{g}f3{Gdc}d2a|  !
+{g}a3/2e/2c{gBG}B2a|
+{cd}c3{G}A3|
+{g}c/2e3/2{A}e{gef}e3/2c/2{G}A|  !
+{g}c/2d3/2{e}B{g}e3/2f/2{g}c|
+{e}A3{GAG}A2:| |:
+e|  !
+{gfg}f2{ag}a{dc}d2{ag}a|
+e3/2f/2{g}e{gef}e3/2c/2{G}A|
+{gfg}f2{ag}a{dc}d2a|  !
+{g}a3/2e/2{g}c{gBG}B2|1 e|
+{gfg}f2{ag}a{dc}d2{ag}a|
+e3/2f/2{g}e{gef}e3/2c/2{G}A|  !
+{g}c/2d3/2{e}B{g}e3/2f/2c|
+{e}A3{GAG}A2:| [|
+e|  !
+{gfg}f2{ag}a{dc}d2{ag}a|
+e3/2f/2{g}e{gef}e3/2c/2{G}A|
+{gfg}f2{ag}a{dc}d2a|  !
+{g}a3/2e/2{g}c{gBG}B2|2 a|
+c/2d3/2{e}B{g}e3/2f/2{g}c|
+a3/2g/2{a}f{gef}e2{ag}a|  !
+c/2d3/2{e}B{g}e3/2f/2{g}c|
+{e}A3{GAG}A2|]
+

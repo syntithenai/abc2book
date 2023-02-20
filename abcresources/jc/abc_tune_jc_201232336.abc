@@ -1,0 +1,70 @@
+X: 16
+T: les Plaisirs de Carel.
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #16
+M: 6/8
+L: 1/8
+P: Rondeau
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+!segno!A AAA |\
+FDd dfd | cAe {fg}aaa | fdd {e}dcd | e2A AAA |\
+FDd dfd | cAe {fg}a2a | fde fge | d2 :|
+A AA=c |\
+BGB (B/^c/d).B | AFA ABA | GEG AEA | F2A AA=c |\
+BGB BdB | AFA ABc | def g2f | "_Ca Capo"{f}e2 |]
+F FFF |\
+F2B dcB | cFc edc | dBd fed | c2f faf |\
+gee ege | fdd dfd | efg Tc2B | B2 !segno!|] [M:3/4]
+"Minuet"\
+f2 ffff | f2 e2 d2 | e2 d2 e2 | A6 | d2 dddd | e2 d2 a2 | f2 d2 g2 | {f2}e6 |
+f2 ffff | f2 e2 d2 | e2 d2 e2 | A6 | d2 dddd | e2 d2 a2 | f2 g2 e2 | d6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+!segno!z d'3 |\
+d3 f3 | a3 c'2a | d'3 b3 | a3 c'2a | d'3 d3 |
+a3 c'2a | d'3 a3 | d2 :| d f2d | g3 G3 | d3 f3 | e3 c3 |
+d2d f2d | g3 G3 | d3 f3 | b3 g2^g | "_Da Capo"a2 |] z d3 | B3 b3 |
+^a3 f3 | b3 B3 | f3 ^d3 | e3 c3 | d3 B3 | e3 f3 | B2 !segno!|] [M:3/4]
+"Minuet"\
+d2 f2 d2 | a2 g2 f2 | g2 f2 g2 | A2 agfe | d2 f2 d2 | g2 f2 c2 | d2 B2 G2 | A2 agfe |
+d2 f2 d2 | a2 g2 f2 | g2 f2 g2 | A2 agfe | d2 f2 d2 | g2 f2 c2 | d2 G2 A2 | D6 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Les Plaisirs de Carel.
+%%begintext align
+%%   Le Grand Rond. Then Fall in two
+%% Lines, the first and second Couple at the Top,
+%% the third and fourth Couple at the Bottom - - - - 2/1
+%%endtext
+%%begintext align
+%%   All Right advance with Contretems and
+%% Rigaudon, each Gentleman turns the opposite
+%% Lady, then all Retreat - - - 1/2
+%%endtext
+%%begintext align
+%%   The first and second Couple make half a
+%% Circle on the outside to the Left, while the
+%% third and fourth Couple do the same - 1/1
+%%endtext
+%%begintext align
+%%   The first and fourth Couple change places
+%% with Chass\'e and Rigaudon, then back again,
+%% while the second and third Couple do the same 1/3
+%%endtext
+%%begintext align
+%%   The First and second Couple make half a
+%% Circle on the outside, to the Right, while the
+%% third and fourth Couple do the same - 1/1
+%%endtext
+%%center M I N U E T.
+%%begintext align
+%%   All Eight Promenade with Minuet Steps,
+%% making an Allemande pass at each Quarter.
+%%endtext
+%%sep 1 1 400

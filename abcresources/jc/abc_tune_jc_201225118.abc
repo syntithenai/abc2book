@@ -1,0 +1,14 @@
+X:90
+T:Martin's Rattler
+C:Fife - Wm. Martin
+M:2/4
+Q:1/4=100
+L:1/16
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+ag|f2A2 d2fe|defg a2gf|e2A2 c2ed|cdef g2ag|f2A2 d2fe|defg a2f2|gfed cABc|d2f2d2::
+F2|FB2c d2cd|cBAc BAF2|FB2c d2cd|cBAc B2>F2|FB2c d2cd|cBAc BAF2|f2Le2 d2Lc2|B^ABc d2:|

@@ -1,0 +1,22 @@
+X: 1
+T: Constant Billy
+T: None So Pretty
+N:
+N: C part used only by Morris Dancers.
+N: Played with various phrasing.  Adderbury: 6x(AAB) and no capers.
+N: Karpeles&Schofield p.37 (in A), p. 59 (in G)
+N: Fleming-Williams & Shaw p.14 (in A)
+O: English
+Z: John Chambers <jc:trillian.mit.edu>
+R: Jig
+M: 6/8
+L: 1/8
+K: G
+"A"\
+|: D | G2d BGB | c>BA F2D | BAG EFG | DEF G2 :|
+"B"\
+|: G | Bcd e2A | ABc d2B | Bcd e2e | ABc def |
+| g2d BGB | c>BA F2D | BAG EFG | DEF G2 :|
+%Q: C3=88
+"C"\
+|: D | G3 d3 | B G2 B3 | c3 A3 | A F2 D3 | BAG EFG | DEF G2 :|

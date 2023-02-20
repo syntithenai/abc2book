@@ -1,0 +1,14 @@
+X: 21483
+T: the Old Bard
+%R: air, march
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.148 #3
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+%%slurgraces yes
+%%graceslurs yes
+|: "_Slow"\
+d4 Tc3B A4 (efg2) | {g2}f8 Hz4 e4 | d4 F3G A4 (AB=c2) | {=c2}B8 Hz4 A4 |\
+A4 F3G A4 d3e | {de}f4 Te3d A4 z2g2 | (f2a2) (b2ag) f4 Te3d | d8 Hz8 :|
+

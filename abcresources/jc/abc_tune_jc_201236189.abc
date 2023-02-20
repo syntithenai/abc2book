@@ -1,0 +1,55 @@
+X: 21761
+T: LIGHTLY TREAD 'TIS HALLOW'D GROUND
+C: G. Berg
+Q: "Andante."
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.176
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 arrange for a small-scale layout.
+V: 1 staves=3
+|:\
+(f>g).e | dz b | (a>b).g | f2z |\
+az a | d'z f | dz d | c2z |\
+(a>f)d | (b>g)e | (c'>b)c' | d'2z |\
+(d'>a)f | (b>c')d' | (a>b)g | f2z :|
+|: \
+z3 | z3 | z3 | z3 |\
+!mf!a2a | b2a | (ag)f | (fe)z |\
+(a>b)=c' | b2b | (b>^c')d' | c'2z |\
+(d'>a)f | (b>c')d' | (fg)e | d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout.
+V: 2
+|:\
+d>ec | dz d | d2c | d2z |\
+fz f | fz d | ^Gz G | A2z |\
+d2A | d2B | (Aa)g |
+f2z |\
+d2A | (g>a)b | (f>g)e | d2z :| \
+|:\
+!p!A2A | B>AB | (c>B)c | d2z |\
+!mf!f2f | g2f |
+e2d | (dc)z |\
+d2d | d2d | d>cB | A2z |\
+d2A | (g>a)b | (d>eG) | F3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 3 preserves the original staff layout.
+V: 3
+|:\
+d2A | Fz G | (FE).A | D2z |\
+dz d | Bz B | Bz B | A2z |\
+F2F | G2G | A2A |
+B2z |\
+F2D | G2G | A2A | D2z :| \
+|:\
+!p!A2A | ^G2G | =G2G | F2z |\
+!mf!d2d | d2d |
+c2d | A2z |\
+F2F | G2G | ^G2G | (AE=G) |\
+F2D | G2G | A2A | D3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

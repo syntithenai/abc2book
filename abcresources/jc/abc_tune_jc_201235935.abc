@@ -1,0 +1,20 @@
+X: 21483
+T: GREY DAYLIGHT -- Strathspey
+R: strathspey
+B: K\"ohler's Violin Repository, v.2, 1885 p.148 #3
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has an initial repeat but no final repeat.  Fixed by removing the initial repeat.
+N: The D.C. at the end really should be D.S.
+M: C|
+L: 1/8
+K: D
+uA, !segno!|\
+D<D(F>A) (D>A)F>A | A,<A,(C>E) (A,>E)C>E | D<D(F>A) (D>A)F>A |\
+[1(3Bcd (3efg (3fed (3cBA :|[2 (3Bcd (3efg f<dd ||
+uA |\
+d<d (f>d) (g>e) f>d | (3Bcd (3efg (3fed (3cBA |\
+d<d (f>d) (g>e) f>d | (3Bcd (3efg f<dd> ||
+A |\
+d<d (f>d) (g>e) f>d | (3Bcd (3efg (3fed (3cBA |\
+(3fga (3gfe (3dcB (3AGF | (3GAB (3ABc (3dAG "_Segue Reel."(3FGE "^D.C."|]

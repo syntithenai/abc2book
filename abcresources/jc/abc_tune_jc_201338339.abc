@@ -1,0 +1,33 @@
+
+X: 1
+T: The Slender Mountain Ash
+T: Tonkaya Ryabina
+O: Russia
+R: waltz
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: Em
+[| "Em"E2 G |     B2 c | "Am"B A2- | A2 z | "B7"^D2 F | c2 B | "Em"A G2- | G2 z |]
+|: "Em"EG B | "E7"e2 d | "Am"d c2- | c2 z | "B7" d2 c | B2 A | "Em"B E2- | E2 z :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2
+T: The Slender Mountain Ash
+T: Tonkaya Ryabina
+O: Russia
+R: waltz
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[| E2 G | B2 c | B A2- | A2 z | ^D2 F | c2 B | A G2- | G2 z |]
+|: EG B | e2 d | d c2- | c2 z |  d2 c | B2 A | B E2- | E2 z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+[| "Em"E2 E |     G2 A | "Am"G F2- | F2 z | "B7"B,2 ^D | A2 G | "Em"F E2- | E2 z |]
+|: "Em"EE G | "E7"c2 B | "Am"B A2- | A2 z | "B7"B2   A | G2 F | "Em"G E2- | E2 z :|

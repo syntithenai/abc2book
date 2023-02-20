@@ -1,0 +1,22 @@
+X: 1
+T: American Patrol
+C: Frank W Meacham
+R: march
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin, in Gordon Highlander medley.
+N: Remove the 'y' spacers if you want to change the staff layout.
+M: 4/4
+L: 1/8
+K: D
+"A"[|] z2 (3A,B,C |\
+"D"D2D2 DCDE | F2F2 F^EFG | A2A2 A^GAd | A4 z2F2 |\
+"A7"G2GF E2G2 | "D"F2FE D2F2 | "E7"E2B,2 C2D2 | "A7"E4 y||
+    y2 z2 (3A,B,C |\
+"D"D2D2 DCDE | F2F2 F^EFG | A2A2 A^GAd | A4 z2D2 |\
+"G"B2A2 G2F2 | E2D2 C2D2 | E2FG "A7"F2E2 | "D"D4 !fine!y|]
+"B"[|] CDEF |\
+"A7"G2G2 G2G2 | GF G4 "C#7"^G2 | "D"A2A2 AGFG | A4 z2F2 |\
+"A7"G2G2 G2G2 | GF G4 "C#7"^G2 | "D"A2A2 AGFG | A4 y||
+z6D2 |\
+"G"B2B2 d3B | "D"A2A2 AGF2 | "A7"G2G2 C3G | "D"F2F2 FED2 |\
+"G"B2B2 d3B | "D"A2A2 AGF2 | "A7"G2G2 C2E2 | "D"D4 "d.C."y|]

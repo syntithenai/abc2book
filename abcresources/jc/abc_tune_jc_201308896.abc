@@ -1,0 +1,71 @@
+
+X: 1
+T: Melisso    [Dm]
+S: Handout at Sladkaevent.
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 7/8
+K: Dm
+|: "Dm"CD DC FEC | "Dm"DC GC ~F2E |\
+[1 "Dm"CD DC FEC | "Dm"~D2 DA, ~D2A, :|\
+[2 "Bb"CD DC "C"FEC | "Dm"~D2 DA, ~D2z :|
+   "Dm"D4 G2 | "F"G2 F2-F3 | "Gm"G2 G2 "F"~F3 |\
+   "Dm"D4 G2 | "F"G2 F2-F3 | "Gm"G2 G2 "F"~F3 |
+|: "C"E4 F3 | "Dm"E2 D2- D3 | "Gm"G2 G2 "F"~F3 |\
+   "C"E4 F3 | "Dm"E2 D2- D3 | "C"C2 C2 "Dm"D3 :|
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 1
+T: Melisso    [Em]
+S: Handout at Sladkaevent.
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 7/8
+K: Em
+|: "Em"DE ED GFD | "Em"ED AD ~G2F |\
+[1 "Em"DE ED GFD | "Em"~E2 EB, ~E2B, :|\
+[2 "C"DE ED "D"GFD | "Em"~E2 EB, ~E2z :|
+   "Em"E4 A2 | "G"A2 G2-G3 | "Am"A2 A2 "G"~G3 |\
+   "Em"E4 A2 | "G"A2 G2-G3 | "Am"A2 A2 "G"~G3 |
+|: "D"F4 G3 | "Em"F2 E2- E3 | "Am"A2 A2 "G"~G3 |\
+   "D"F4 G3 | "Em"F2 E2- E3 | "D"D2 D2 "Em"E3 :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+%%sep 1 1 500
+
+X: 1
+T: Melisso    [Dm]
+S: Handout at Sladkaevent.
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 7/8
+K: Dm
+|: "Dm"CD DC FEC | DC GC ~F2E |\
+[1 "Dm"CD DC FEC | ~D2 DA, ~D2A, :|\
+[2 "Bb"CD DC "C"FEC | "Dm"~D2 DA, ~D2z :|
+|: "Dm"D4 G2 | "F"G2 F2-F3 | "Gm"G2 G2 "F"~F3 \
+::  "C"E4 F3 | "Dm"E2 D2- D3 |\
+[1 "Gm"G2 G2 "F"~F3 :|[2 "C"C2 C2 "Dm"D3 :|
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 1
+T: Melisso    [Em]
+S: Handout at Sladkaevent.
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 7/8
+K: Em
+|: "Em"DE ED GFD | ED AD ~G2F |\
+[1 "Em"DE ED GFD | ~E2 EB, ~E2B, :|\
+[2 "C"DE ED "D"GFD | "Em"~E2 EB, ~E2z :|
+|: "Em"E4 A2 | "G"A2 G2-G3 | "Am"A2 A2 "G"~G3 \
+::  "D"F4 G3 | "Em"F2 E2- E3 |\
+[1 "Am"A2 A2 "G"~G3 :|[2 "D"D2 D2 "Em"E3 :|

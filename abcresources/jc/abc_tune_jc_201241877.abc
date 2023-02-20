@@ -1,0 +1,16 @@
+X:482
+T:The Parley (and Church Call)
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 48
+M:2/4
+L:1/8
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A|dd/d/ dd|dd df|edcB|A2 zA|FAdA|BAdg|fa ea|f>e d::
+z|ff/f/ ff|fffa|gfed|e>f eA|d>cd>A|d>cd>F|G>EA>A|D2z::
+z|aa/a/ aa|aaaa|fagf|g2-g A|d>cdA|d>cdF|GEAA|D2z::
+Q:Allegro
+L:1/16
+Hz2|B>GA>F G2g2|f>de>^c d3^c|B>GA>F G2g2|f>de>^c d2 (3(def)|
+g>dB>G e3e|d>e (3(dcB) A3c|B>GA>F G2g2|f>ga>f g2||

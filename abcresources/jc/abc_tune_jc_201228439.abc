@@ -1,0 +1,46 @@
+X: 11291
+T: RONDO
+Q: "Andantino"
+C: Massinghi
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.129-131
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Is the [d'^c] clash in bar 30 correct?
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has the staff lines rearranged for our small-scale formatting.
+V: 1
+!segno!!p!(c>B) |\
+.A2.A2(.A2B2) | (d4 c2)(c>B) | .A2.A2(.A2B2) | (A4 G2) (a>g) |\
+.f2.f2(.f2g2) | (b4 a2)(a>g) | .f2.f2.c2.c2 | "_Fine"F4 |]
+z.A.B.c |\
+d2d2d2d2 | (cAF2) zabc' | d'2d'2d'2d'2 | c'af2 z.A.B.c |\
+d2d2c2c2 | !f!.e2!p!.e2.f2.f2 | d2d2c2e2 | f4 Hz2 (c>B) |
+.A2.A2.A2.B2 | (d4 c2)(c>B) | .A2.A2.A2.B2 | (A4 G2) (a>g) |\
+.f2.f2(.f2.g2) | (b4 a2)(a>g) | f2f2 c2c2 | F4 z2 |]
+|: !p!(a>f) |\
+.d.d.d.d .d.d.d.d | ^cdef g2(g>e) | ^cccc cccc | defg a2a>a |\
+(ad').a.a aaaa | (ad').a.a aaaa | (af)(fa) (ag)(gf) | {f}e6 :|
+|: (e>f) |\
+ggfe ggfe | (fa).d'.^c' d'agf | ggfe ggfe | (fg).a.b aad'a |\
+(ab).b.b bbd'b | (ba).a.a aad'a | bd'bg f2Te2 | "_Da Capo al Fine"d4 z2 !segno!:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff lines.
+V: 2
+!segno!!p!(A>G) |\
+.F2.F2(.F2G2) | (B4 A2)(A>G) | .F2.F2(.F2G2) | (F4 E2) (c'>b) | .a2.a2(.a2b2) |
+(d'4 c'2)(c'>b) | .a2.a2.g2.g2 | "_Fine"f4 |] z.F.G.A | B2B2B2B2 | A2F2 z.f.g.a |
+b2b2 .b.B.d.e | f2F2 z.F.G.A | B2B2A2A2 | !f!.G2!p!.G2.A2.A2 | B2B2c2c2 | FfcA HF2 (A>G) |
+% p.130
+.F2.F2(.F2G2) | (B4 A2)(A>G) | .F2.F2(.F2G2) | (F4 E2) (c'>b) | .a2.a2(a2b2) |
+c'4- c'2(c'>b) | a2a2g2g2 | f4 z2 |] |: z2 | DAFA D2z2 |
+EAGA E2z2 | EAGA EAGA | DAFA D2 f>f | (fd).f.f ffff |
+% p.131
+(e^c)ee (eg).g.g | (fd)(df) (fe)(ed) | {d}^c6 :||: (^c>d) |
+eed^c eed^c | (df).f.e ffed | eed^c eed^c | (de).f.g fd.f.f |
+(fg).g.g ggbg | (gf).f.f ffdf | gbge d2^c2 | "_Da Capo al Fine"d4 z2 !segno!:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%
+%%center -

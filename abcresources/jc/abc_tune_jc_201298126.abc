@@ -1,0 +1,19 @@
+X: 1
+T: Kyrkmarschen
+C: Olov Jansson
+R: g\aangl\aat, march
+S: http://www.nyckelharpa.org/archive/written-music/american-allspel-list/ 2022/10/24
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: 1/4=50
+K: Gm	% and Bb
+"^A"|:\
+d2de d2=e^f | g2g2 d4 | c2cA B2B2 | (AG)^FG A2D2 |
+d2de d2=e^f | g2g2 d4 | e2ed c2f2 | d6 d2 |
+c2cB A2d2 | B6 B2 (AB)AG (^FG)AB |[1 G8 :|[2 G6 F2 ||
+"^B"|:\
+F2d2 d2ed | c2f2 f3A | B2Bc d2cB | A2d2 d3A |
+G4 G2AG | F2B2 B2F2 | (GF)ED E2C2 | D6 F2 |
+F2d2 d2ed | c2f2 f3A | B2Bc d2cB | A2d2 d3A |
+G4 G2AG | F2B2 B2F2 | (GF)ED (CF)Ac | B8 :|

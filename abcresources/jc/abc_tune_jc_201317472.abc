@@ -1,0 +1,82 @@
+X: 1
+T: NoMaD 2005 Quadrille Set - Part 1
+K:
+%
+P: The Drunken Piper (Highland Rory)
+B: Scots Guards
+M: C|
+L: 1/8
+K: ADor
+e2 | "Am"~A2AB e3f  | edBd      e2g2 | "G"~G2GB d3e  |     dBGB "E7"d2e2 |
+y3 | "Am"~A2AB e3f  | edBd      e2a2 | "G"~g2eg eged | "Am"B2A2     A2  :|
+e2 | "Am"a4    e2a2 | edef "(D)"g2a2 | "G"~G2GB d3e  |     dBGB "E7"d2e2 |
+y2 | "Am"a4    e2a2 | edef "(D)"g2a2 | "G" g2eg eged | "Am"B2A2     A2  |]
+e2 | "Am"a4    e2a2 | edef "(D)"g2a2 | "G"~G2GB d3e  |     dBGB "E7"d2e2 |
+y2 | "Am"~A2AB e3f  | edBd      e2a2 | "G"~g2eg eged | "Am"B2A2     A2  |]
+
+%%sep 10 10 500
+
+X: 2
+T: NoMaD 2005 Quadrille Set - Part 2
+P: 4x(AABCD)
+K:
+%
+P: Lord Huntley's Cave
+C: J.S.Skinner
+M: C|
+L: 1/8
+K: D
+"A"|: de | "D"f2A2 gfed | f2A2 d2cd |1,3 "A7"e2A2 agfe | "D"dcdf "A7"eA :|2,4 ea"A7"ca Aaca | "D"d6 :|
+"B"|: fg | "D"a3f  d2a2 | fAa2 d2cd |1   "A7"e2A2 agfe | "D"dcdf "A7"eA :|2   ea"A7"ca Aaca | "D"d6 |]
+%
+P: The Flowers of Edinburgh
+O: Trad
+M: C|
+L: 1/8
+K: G
+"C"[|]\
+GE \
+| "G"D2DE G2GA | BGBd cBAG | "D7"FGFE DEFG | AFdF E2GE |
+| "G"D2DE G2GA | "G"BGBd "C"efge | "G"dcBA "D7"GFGA | "G"B2G2 G2 "D"|]
+d2 \
+| "G"g2gd gbag | "D7"f2fd fagf | "Em"~e2ef gfed | B2e2 "(C)"e2ge |
+| "G"dBGB d2d2 | "C"edef g2fe | "G"dcBA "D7"GFGA | "G"B2G2 G2 |]
+
+X: 3
+T: NoMaD 2005 Quadrille Set - Part 3
+P: 4x(ABB CDCD)
+K:
+%
+P: Balquidder Lasses
+C:Traditional
+M:4/4
+L:1/8
+K:Edor
+BA "A"\
+| "Em"G2FG  EFGA | B2B2e4 \
+| "D"d2A2 ABAF | DEFG A2 BA \
+| "Em"G2FG EFGA | B2B2e4 |
+| "D"d2A2 "(B7)"BAGF | "Em"E6 |] \
+B2 "B1"\
+| "Em"e2ef e2B2 | efgf e2 Bc \
+| "D"d2 de dAFA | DEFG A2B2 |
+| "Em"e2ef e2B2 | efgf e2 Bc \
+| "D"d2A2 "(B7)"BAGF | "Em"E6 |] \
+B2 "B2"\
+| "Em"e2ef e2B2 | efgf e2 Bc |
+| "D"d2 de dAFA | DEFG A2BA \
+| "Em"G2FG EFGA | B2B2 e4 \
+| "D"d2A2 "(B7)"BAGF | "Em"E6 |]
+%
+P: Father Kelley's Reel (The Rossmore Jetty)
+O: Ireland
+M: C|
+L: 1/8
+K: G
+GA "C"\
+| "G"B2GB "C"AGEG | "D7"DGGF "G"GABd | "Am"c2AB cBAG | "D7"FGAG FDDA |
+| "G"B2GB "C"AGEG | "D7"DGGF "G"GABd | "C"cdef "(G)"gedc | "D7"BGAF "G"G2 |]
+Bc "D"\
+| "G"d2Bd gdBd | d2Bd gdBd | "C(Am)"e2ce agfe | "D7"defg agfe |
+| "G"d2Bd gdBd | d2Bd gdBd | "Am"cBAc "G"BAGB | "D7"AGFA "G"G2 :|
+

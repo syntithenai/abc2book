@@ -1,0 +1,16 @@
+X:1
+T:McDermott's Barndance
+Z:Lorna LaVerne
+R:hornpipe
+D:John & James Kelly
+M:4/4
+L:1/8
+%%printtempo 0
+Q:160
+K:G
+(3DEF\
+|"G" GABc dg (3fga | g2B2 "D"d3B |"C" ceAB c2cA | "G"BdGA BcBA |
+"G"GABc dg (3fga | g2B2 "D"d3B | "C"ceAB cAFG |1 "D"AGGF "G"G2 :|2 "D"AGGF "G"GA |:
+(3B=c^c |\
+"G"d2b2 "C"c2a2 | "G"Bggf gdBG | "D"F2e2- edcA | "G"GBAc Bd (3B=c^c |
+"G"d2b2 "C"c2a2 | "G"Bggf gdBG | "D"FGAB "C"cAFG |1 "D"AGGF "G"GA :| "D"AGGF "G"G2 |]

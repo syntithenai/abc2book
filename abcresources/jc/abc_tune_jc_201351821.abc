@@ -1,0 +1,28 @@
+X:1
+T:VIII. When others sings Venite exaltemus,
+T:Third part.
+T:Canto.
+C: John Dowland
+Z: Laura Conrad <lconrad@laymusic.org> 2001-03-19
+B: From The Second Booke of songs or Ayres of 2/ 4/ amd 5/parts: with Tableture for the Lute or orpherian, with the Violl de Gamba.
+%%MIDI nobarlines
+%%font Times-Italic 13.0
+M:C
+L:1/4
+Q:1/2=120
+N:Original clef C on first line
+K:G mix
+z2 D2 D2 D2 D4 \
+w:When o- thers sings \
+%%vocalfont Times-Italic 13.0
+D2 G4 B2 A3 A G2 G2 |
+w:Ve- ni- te ex- al- te- mus, \
+%%vocalfont Times-Bold 13.0
+z2 E2 E2 \
+w:stand by
+E2 E4 E2 A4 c2 B3 B A2 A2 | z2 ^F2 ^F > F ^F ^F ^F2 ^F2 G2 B4 A4 A2 | z2 d3 c
+w:and turne to No- li e- mu- la- ri, For qua- re fre- mu- e- runt use o- re- mus Vi- vat
+B2 A2 A2 | z4 z2 d3 c B2 A2 A2 | z2 G A B G A2 G2 G2 |: z2 E2 D2 G2 ^F2 G2 |
+w:E- li- za, Vi- vat E- li- za, For an a- ve _ ma- ri, and teach those swains that
+A2 B2 c2 B2 A4 | z2 A2 B2 d3 A c2 | B2 e3 B d2 c2 B2 | A2 D2 E ^F G A B2 A2 HG4 :|
+w:lives a- bout thy cell, to say A- * * men A- * * * * men when thou _ dost pray so well.

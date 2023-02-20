@@ -1,0 +1,451 @@
+% téléchargé depuis/downloaded from http://perso.club-internet.fr/ocoronel/musique/
+
+%Suite de morceaux traditionnels des Alpes provençales (écrits pour accordéon diatonique Sol/Do)
+%Quelques précisions :
+%Certains morceaux proviennent des répertoires des groupes folkloriques locaux : le "Pays Gavot" de Gap et "la Taïole" de Tallard
+%Pour tout renseignement, commentaire, etc... mailez-moi:alex_coronel@yahoo.fr
+%Any question or comment at alex_coronel@yahoo.fr
+
+X:1
+T:Ronde de St Veran
+R:Ronde
+C:Trad.
+A:Queyras - Hautes-Alpes - France
+B:Répertoire "Pays-Gavot"
+G:Accordion
+%%MIDI program 21 %Accordian
+M:6/8
+L:1/8
+Q:400
+K:G
+z4zD|:[G2G,2][AD,][B2D,2][cD,]|[d2G,2]G,[e2D,2]D,|[c2D,2][cD,][e2D,2][eD,]|1[d2G,2]G,G,2[DG,]:|2[d2G,2]G,G,2[BG,]| \
+[d2G,2][dG,][dG,]c[BG,]|[c2D,2]D,[A2D,2][AD,]|[c2D,2][cD,][cD,]B[AD,]|[B2G,2]G,[G2G,2][DG,]| \
+[G2G,2][AD,][B2G,2][cD,]|[d2G,2]G,[e2D,2]D,|[d2G,2][cD,][B2G,2][AG,]|[G2G,2]G,G,2G,| \
+K:C
+Z:Transcrit par Alex avec l'aide de TablEdit http://www.tabledit.com/
+
+X:2
+T:Ronde de St Véran (2ème voix)
+R:Ronde
+C:Trad.
+A:Queyras - Hautes-Alpes - France
+B:Répertoire de "la Tayole"
+G:Flute
+%%MIDI program 74 %Flute
+M:6/8
+L:1/8
+Q:400
+K:C
+z4zD|:G2DG2A|B3c3|A2Ad2c|1B2zz2D:|2B2zz2G|B2BBAG|A2z^F2E|D2DDE^F|G2ED2D|G2DG2A|B3c3|A2Ad2c|B2zz3| \
+Z:Transcrit par Alex avec l'aide de TablEdit http://www.tabledit.com/
+
+X:3
+T:Quadrille d'Arvieux
+R:Quadrille
+C:Trad.
+A:Queyras - Hautes-Alpes - France
+B:Répertoire "Pays-Gavot"
+G:Accordion
+%%MIDI program 21 %Accordian
+M:4/4
+L:1/8
+Q:240
+K:C
+|:[G3/2G,3/2]A/[B3/2G,3/2]c/[d2G,2][d2G,2]|[dG,]c[dG,]e[dG,]c/B/[A2G,2]|[d3/2G,3/2]c/[B3/2G,3/2]A/[G2G,2][D2G,2]| \
+[GG,]A[BG,]B[BG,]A/G/[A2G,2]|[d3/2G,3/2]c/[B3/2G,3/2]A/[G2G,2][D2G,2]|[GG,]A[B2G,2][A2G,2][G2G,2]:| \
+Z:Transcrit par Alex avec l'aide de TablEdit http://www.tabledit.com/
+
+
+X:4
+T:Les Esclops
+C:Trad.
+A:Massifs montagneux - France
+B:Répertoire "Pays-Gavot"
+G:Accordion
+%%MIDI program 21 %Accordian
+M:3/8
+L:1/8
+Q:200
+K:G
+ z2D |: "Sol M (G)"[G2G,,2][GG,] | [GG,,]D[GG,] | [B2G,,2][BG,] | [BG,,]G[BG,] | [d2G,,2][dG,] | \
+ [dG,,]c[BG,] | [BG,,]A[GG,] | "Ré M (D)"[A2D,,2][AD,] | [A2D,,2][cD,] | "Do M (C)"[cC,,]e[cC,] | \
+ "Sol M (G)"[BG,,]d[BG,] | "Ré M (D)"[A2D,,2][AD,] | "Sol M (G)"[d2G,,2][dG,] | "Do M (C)"[cC,,]e[cC,] | \
+ "Sol M (G)"[BG,,]d[BG,] | "Ré M (D)"[A2D,,2][dD,] |1 "Sol M (G)"[G2G,,2][GG,] | [G2G,,2][DG,] :|3 G3 | \
+K:C
+W:1. Diço bergero,
+W:Diço, bergero,
+W:Cant te cousterou
+W:Lois esclots ?
+W:Canterou, canterou, canterou nô ?
+W:Canterou, canterou, canterou nô ?
+W:
+W:2. Quant te coustéron (ter)
+W:   Tis esclop ?
+W: Cant éron (ter)
+W:   Nou
+W: Cant éron (ter)
+W:   Nou
+W:
+W:3. Cinq sou coustéron...
+W:   Mis esclop
+W:
+W:4. Cinq de tacheto...
+W:   A mis esclop
+W:
+W:5. Cinq de courrejo...
+W:
+W:6. Cinq de ligneto...
+W:
+W:7. Bourda de rouge...
+W:
+W:8. La ganso verdo...
+W:
+W:9. Passant sus la glaço
+W:   Mis esclop
+W:Faguéron
+W:   Clo, Clo !
+
+X:5
+T:Rigodon de Gap
+T:Lou Coucou
+N:Ou rigodon de Charance, du Dauphiné...
+R:Rigodon
+C:Trad.
+A:Gapençais - Hautes-Alpes - France
+B:Répertoire "Pays-Gavot"
+G:Accordion
+%%MIDI program 21 %Accordian
+M:2/4
+L:1/8
+Q:240
+K:C
+|:[GG,][BG,][dG,][d/G,/]d/| \
+K:G
+[e/D,/]f/[g/G,/]e/[dG,][dG,]|[GG,][BG,][dG,][d/G,/]e/|[d/G,/]c/[B/G,/]A/[BG,][GG,]|[GG,][BG,][dG,][
+d/G,/]d/|[e/D,/]f/[g/G,/]e/[dG,][dG,]| \
+[GG,][BG,][dG,][d/G,/]e/|[d/G,/]c/[B/G,/]A/[GG,]G,:|:[G/G,/]B/[G/G,/]B/[BG,][AD,]|[A/D,/]c/[A/D,/]c
+/[cD,][BG,]|[e/D,/]f/[g/G,/]e/[dG,][d/G,/]e/| \
+[d/G,/]c/[B/G,/]A/[BG,][GG,]|[G/G,/]B/[G/G,/]B/[BG,][AD,]|[A/D,/]c/[A/D,/]c/[cD,][BG,]|[e/D,/]f/[g/G
+,/]e/[dG,][d/G,/]e/|[d/G,/]c/[B/G,/]A/[GG,]G,:| \
+W:1. Le printemps qui charme la bergère
+W:Le printemps ne dure pas longtemps
+W:Les beaux jours, amis, ne durent guère
+W:Les beaux jours mes frères sont bien courts !
+W:
+W:Refrain (bissé)
+W:Tira rira rire
+W:Il vaut mieux en rire
+W:Frère venez donc danser le rigodon
+W:
+W:2. Le printemps réjouit la bergère,
+W:Le printemps met la bergère aux champs.
+W:Aimable bergère, tu ne danses guère,
+W:Le printemps est court, profite des beaux jours
+W:
+W:3. On sait bien que la jeunesse est brève
+W:On sait bien qu'il n'en restera rien
+W:Nous passons rapide comme un rêve
+W:Nous passons ainsi que nos chansons
+W:
+W:4. Fraîches fleurs seront bientôt fanées
+W:Fraîches fleurs vont perdre leur couleur
+W:En passant mesdames les années
+W:En passant fuyez d'un pas glissant
+
+X:6
+T:Polka de Gap
+R:Polka
+C:Trad./Gapençais
+L:1/8
+G:Accordion
+%%MIDI program 21 %Accordian
+Q:200
+M:2/4
+K:G
+z2DG|GA/B/AG|AAd2|dc/B/Ac|BGDG|GA/B/AG|A2Ad|dc/B/AB|G2BB/c/|dddd|edBB/c/|dc/B/Ad|BGAB/c/|dddd|edBB/c/|dc/B/Ad|G4|z4| \
+K:C
+Z:Created with TablEdit http://www.tabledit.com/
+
+X:7
+T:La vacha malha (Corenta de la Val San Martin)
+R:Courente
+C:Trad. - Simondi
+A:Piemont (Italie)
+S:Lou Dalfin
+D:Gibous bagase e bandi
+G:Accordion
+%%MIDI program 21 %Accordian
+O:Val San Martin
+M:2/4
+L:1/8
+Q:240
+K:C
+|:[DG,]G,B[DG,]|B[DG,]AD,|A[BD,]c[d/D,/]c/|B[AD,]BG,|GG,[DG,]G,|B[DG,]B[DG,]|AD,A[BD,]|c[d/D,/]c/B[AD,]|GG,B[cG,]|d[d/G,/]d/d[dG,]| \
+c[BG,]A[BG,]|cD,[c2e2C,2C,2]|[d3B3G,3G,3][GG,]|B[GG,]B[GG,]|AD,A[BD,]|c[d/D,/]c/B[AD,]|BG,GG,|B[cD,]d[d/G,/]d/|d[dG,]c[BG,]|A[BG,]cD,| \
+[e2c2][B2d2]|z[GG,]B[GG,]|B[GG,]AD,|A[BD,]c[d/D,/]c/|3B[AD,]GG,:| \
+Z:Transcrit par Alex avec l'aide de TablEdit http://www.tabledit.com/
+
+X:8
+T:Le Rigodon de Veynes
+R:Rigodon
+C:Trad.
+A:Dévoluy - Hautes-Alpes - France
+B:Répertoire "Pays-Gavot"
+G:Accordion
+%%MIDI program 21 %Accordian
+M:2/4
+L:1/8
+Q:320
+K:C
+|:[BG,][AD,][GG,][DG,]|[GG,G,][GG,G,][GG,G,]D|[GG,][AD,][BG,][cD,]|[BG,]G,[GG,]G,|[BG,][AD,][GG,][DG,]|[GG,G,][GG,G,][GG,G,]D|[GG,][AD,][BG,][cD,]| \
+[dG,]G,[dG,]G,|[dG,][dG,][dG,][cD,]|[AD,]D,[dG,]D,/c/|4[BG,][AD,][BG,][GG,]:|[BG,][AD,][GG,][DG,]|[GG,G,][GG,G,][G2G,2G,2]| \
+Z:Transcrit par Alex avec l'aide de TablEdit http://www.tabledit.com/
+
+X:9
+T:Che a Vau
+R:Rigodon
+C:Roberto Fresia
+A:Piemont (Italie)
+S:Che a vau
+G:Accordion
+%%MIDI program 21 %Accordian
+M:2/4
+L:1/8
+Q:440
+K:C
+|:[AA,]B[cA,]d|[e2A,2][eA,]e|[d2G,2][g2G,2]|[e2D,2][e2D,2]|[AD,]B[cD,]d|[e2D,2][eD,]d|[c2D,2][B2G,2]|[A2D,2]D,2:|:[cC,]d[eC,]f|[g2G,2][gG,]g| \
+[aC,]g[fC,]e|[f2C,2][d2C,2]|[BC,]c[dC,]e|[f2C,2][fC,]f|1[gG,]f[eG,]d|[e2G,2][c2G,2]:|2[eG,]d[cG,]B|[A2A,2]A,2| \
+Z:Transcrit par Alex avec l'aide de TablEdit http://www.tabledit.com/
+
+X:10
+T:Troïca du Champsaur
+C:Trad. /Champsaur
+G:Accordion
+%%MIDI program 21 %Accordian
+L:1/8
+Q:160
+M:2/4
+K:C
+z2DG|:[AD,]D,/B/[cD,][dG,]|[eD,][dG,][BG,][GG,]|[cD,]D,/B/[AD,][FD,]|[AD,][GG,][DG,][GG,]|[AD,]D,/B/[cD,][dG,]|[eD,][dG,][BG,][GG,]| \
+[cD,][BG,][AD,][FD,]|[G2G,2][dG,]G,|[dG,]G,/e/[dG,][cD,]|[BG,]G,[GG,][BG,]|[AD,][cD,][AD,][cD,]|[BG,][GG,][dG,]G,|[dG,]G,/e/[dG,][cD,]| \
+[BG,]G,[GG,][BG,]|[AD,][cD,][BG,][AD,]|1[GG,]G,[DG,][GG,]:|2[GG,]G,G,G,| \
+Z:Created with TablEdit http://www.tabledit.com/
+
+X:11
+T:Anges
+R:Gigue
+C:Berardo
+G:Accordion
+%%MIDI program 21 %Accordian
+O:Gibous, bagase e bandits
+M:12/8
+L:1/8
+Q:360
+K:C
+|:[GG,]A[GG,]EF[^FD,][GG,]c[eD,]ed[cD,]|[AD,]B[AD,]AB[AD,][GG,]A[GG,]EG[GG,]|[GG,]A[GG,]EF[^FD,][GG,]c[eD,]ed[cD,]|[AD,]G[AD,]BA[BG,][cD,]e[dG,]c2D,:|:[eC,]c[GC,]dB[GC,]AB[cC,]cB[AD,]| \
+[EC,]G[cC,]FA[cC,]de[cC,]dB[GC,]|[eC,]c[GC,]dB[GC,]AB[cC,]cB[AD,]|[EC,]G[cC,]FA[cC,]de[dD,]c2C,:| \
+K:G
+Z:Transcrit par Alex avec l'aide de TablEdit http://www.tabledit.com/
+
+X:12
+T:Courente
+R:Courente
+C:Trad.
+A:Piemont (Italie)
+D:Che a vau
+G:Accordion
+%%MIDI program 21 %Accordian
+M:3/8
+L:1/8
+Q:360
+K:C
+|:DE[^FD,]|G^F[GG,]|BA[BG,]|d2[dG,]|dc[BG,]|c2[cG,]|cB[AD,]|1B2[GG,]:|2G2G,|:g2[gG,]|^f2D,|e^f[eD,]| \
+d2G,|d2[eD,]|^fe[dG,]|cB[AD,]|1BGG,:|2G2G,| \
+Z:Transcrit par Alex avec l'aide de TablEdit http://www.tabledit.com/
+
+X:13
+T:Scottisch d'Orcières
+R:Scottisch
+C:Trad.
+A:Champsaur
+B:Répertoire du "Pays Gavot"
+G:Accordion
+%%MIDI program 21 %Accordian
+M:2/4
+L:1/8
+Q:240
+K:D
+[DG,][BG,][BG,][AD,]|[G/G,/]A/[G/G,/]E/[DG,]G,|[D/G,/]E/[F/G,/]G/[AD,][AD,]|[G/G,/]F/[G/G,/]A/[BG,][GG,]| \
+[DG,][BG,][BG,][AD,]|[G/G,/]A/[G/G,/]E/[DG,]G,|[D/G,/]E/[F/=C,/]G/[AD,][AD,]|[G/G,/]F/[G/G,/]A/[GG,]G,| \
+[BG,][GG,][DG,]G,|[BG,][GG,][DG,]G,|[B/G,/]A/[B/G,/]=c/[BG,][AD,]|[A/D,/]G/[A/D,/]B/[AD,][GG,]| \
+[BG,][GG,][DG,]G,|[BG,][GG,][DG,]G,|[B/G,/]A/[B/G,/]=c/[BG,][AD,]|[ED,][FD,][GG,]G,| \
+Z:Transcrit par Alex avec l'aide de TablEdit http://www.tabledit.com/
+
+X:14
+T:Farandole de Briançon
+R:Farandole
+C:Trad.
+A:Briançonnais - Hautes-Alpes - France
+B:Repertoire du "Pays Gavot"
+G:Accordion
+%%MIDI program 21 %Accordian
+M:2/4
+L:1/8
+Q:200
+K:G
+z2GB|:[dG,][d/G,/]d/[eD,][dG,]|[BG,][GG,][GG,][GG,]|[GG,]G,/B/[AD,][AD,]|[AD,]D,[GG,][BG,]|[dG,][d/G,/]d/[eD,][dG,]|[BG,][GG,][gG,][gG,]| \
+[fD,][e/D,/]d/[eD,][eD,]|[dG,]G,[BG,][BG,]|[BG,][A/D,/]G/[AD,][AD,]|1[GG,]G,[GG,][BG,]:|2[GG,]G,z2| \
+K:C
+Z:Created with TablEdit http://www.tabledit.com/
+
+X:15
+T:Rigodon du temps passé
+R:Rigodon
+C:Trad.
+A:Gapençais - Hautes-Alpes - France
+D:Le violon traditionnel en France
+G:Accordion
+%%MIDI program 21 %Accordian
+M:2/
+L:1/8
+Q:160
+K:G
+|:[g/G,/]f/[g/G,/]e/[dG,][B/G,/]c/|[d/G,/]c/[B/G,/]A/[BG,][GG,]|[g/G,/]f/[g/G,/]e/[dG,][B/G,/]c/|[d/G,/]c/[B/G,/]A/[GG,]G,:|:[A/D,/]G/[A/D,/]B/[cD,][B/D,/]c/| \
+[d/G,/]c/[B/G,/]A/[BG,][GG,]|[A/D,/]G/[A/D,/]B/[cD,][B/D,/]c/|[d/G,/]c/[B/G,/]A/[GG,]G,:| \
+K:C
+Z:Created with TablEdit http://www.tabledit.com/
+
+X:16
+T:Scottisch de Rousset
+R:Scottisch
+C:Trad.
+A:Champsaur - Hautes-Alpes - France
+B:Répertoire du "Pays Gavot"
+G:Accordion
+%%MIDI program 21 %Accordian
+M:2/4
+L:1/8
+Q:220
+K:G
+|:[GG,][AD,][BG,][A/D,/]G/|[FD,][ED,][DG,]G,|[D/G,/]E/[F/D,/]G/[AD,][AD,]|[G/G,/]F/[G/G,/]A/[BG,][GG,]|[GG,][AD,][BG,][A/D,/]G/|[FD,][ED,][DG,]G,| \
+[D/G,/]E/[F/D,/]G/[AD,][A/D,/]F/|[DG,][AD,][GG,]G,|[B,G,][CD,][DG,][E/D,/]F/|[GG,][ED,][DG,]G,|[B,G,][CD,][A,D,][B,/G,/]C/|[D/G,/]C/[B,/G,/]A,/[CD,][B,G,]| \
+[B,G,][CD,][DG,][E/D,/]F/|[GG,][ED,][AD,]D,|[B/G,/]A/[G/G,/]E/[DG,][E/D,/]F/|[GG,][AD,][GG,]G,:| \
+K:F
+Z:Transcrit avec l'aide de TablEdit http://www.tabledit.com/
+
+X:17
+T:A San Bounet
+R:Rigodon
+C:Trad.
+A:Champsaur - Hautes-Alpes - France
+D:Le violon traditionnel en France
+G:Accordion
+%%MIDI program 21 %Accordian
+M:2/4
+L:1/8
+Q:160
+K:G
+z3z/G/|:[dG,][dG,][dG,][c/G,/]B/|[A/D,/]B/[c/D,/]A/[BG,][G/G,/]G/|[dG,][dG,][dG,][c/G,/]B/|[A/D,/]B/[c/D,/]A/[GG,]G,/G/:|:[A/D,/]B/[c/D,/]A/[BG,][A/D,/]G/| \
+[F/D,/]G/[A/D,/]F/[GG,]G,/G/|[A/D,/]B/[c/D,/]A/[BG,][A/D,/]G/|1[F/D,/]G/[A/D,/]F/[GG,]G,/G/:|2[F/D,/]G/[A/D,/]F/[GG,]G,| \
+K:C
+Z:Transcrit avec l'aide de TablEdit http://www.tabledit.com/
+
+X:18
+T:Scottisch du Père Escale
+R:Scottisch
+C:Emile Escale
+A:Champsaur - Hautes-Alpes - France
+G:Fiddle
+%%MIDI program 110 %Fiddle
+M:4/4
+L:1/8
+Q:200
+K:C
+|:[BG,]G[GG,]D/D/[DG,]B[BG,]A/B/|1[c/D,/]B/A/G/[AD,]A/d/[d/G,/]c/B/A/[BG,]G:|2[c/D,/]B/A/G/[AD,]A/d/[d/G,/]c/B/A/[GG,]G|:[G/G,/]A/B/c/[dG,]d[e/D,/]d/c/B/[A2D,2]| \
+|1[dG,]d/e/[dG,]d/e/[d/G,/]c/B/A/[BG,]G:|2[dG,]d/e/[dG,]d/e/[d/G,/]c/B/A/[G2G,2]| \
+K:G
+Z:Transcrit avec l'aide de TablEdit http://www.tabledit.com/
+
+X:19
+T:Scottisch del gatto
+R:Scottisch
+C:S. Berardo/Lou Dalfin
+D:W D'Jan D'L'Eiretto
+G:Accordion
+%%MIDI program 21 %Accordian
+M:4/4
+L:1/8
+Q:200
+K:G
+[AD,]A/B/[A/D,/]F/A/d/[c/D,/]B/A/G/[F/D,/]G/A/B/|[AD,]A/B/[A/D,/]F/A/d/[c/D,/]B/c/A/[B2G,2]|[AD,]A/B/[A/D,/]F/A/d/[c/D,/]B/A/G/[F/D,/]G/A/B/|[AD,]A/B/[A/D,/]F/A/d/[c/D,/]B/c/A/[B2G,2]| \
+[AD,]G[FD,]D[F/D,/]G/A/B/[A/D,/]G/F/G/|[AD,]G[FD,]D[F/D,/]G/A/B/[c2D,2]|[AD,]G[FD,]D[F/D,/]G/A/B/[A/D,/]G/F/G/|[AD,]G[FD,]D[F/D,/]G/A/B/[c2D,2]| \
+Z:Transcrit avec l'aide de TablEdit http://www.tabledit.com/
+
+X:20
+T:Aisoun
+R:Valse
+C:S. Berardo
+A:Piemont (Italie)
+S:Lou Dalfin
+D:Gibous bagase e bandi
+G:Accordion
+%%MIDI program 21 %Accordian
+M:3/4
+L:1/8
+Q:440
+K:C
+[A,2c2A,2][A,E]B[EAA,]B|[A,2c2A,2][A,E]B[EAA,]B|[A,2A2A,2][A,2E2][A,2E2]|[A,2A,2][A,2E2][A,2E2]|[G2D,2D,2][A,2D,2][E2A2A,2]|[c2D,2D,2][A,2B2D,2][A,2G2D,2]| \
+[A,2E2A,2][A,2E2][A,2E2]|[A,2E2A,2][A,2E2][A,2E2]|[A,2c2A,2][A,E]B[EAA,]B|[A,2c2A,2][A,E]B[EAA,]B|[A,2A2A,2][A,2E2][A,2E2]|[A,2A,2][A,2E2][A,2E2]|[G2D,2D,2][E2A2A,2][A,2G2D,2]| \
+[A,2c2A,2][A,2E2][A,2B2D,2]|[A,2A2A,2][A,2E2][A,2E2]|[A,2A,2][A,2E2][A,2E2]|[A,2c2A,2][A,E]B[EAA,]B|[A,2c2A,2][A,E]B[EAA,]B|[A,2A2A,2][A,2E2][A,2E2]| \
+[A,2A,2][A,2E2][A,2E2]|[G2D,2D,2][A,2D,2][E2A2A,2]|[c2D,2D,2][A,2B2D,2][A,2G2D,2]|[E2D,2D,2][A,2B2D,2][A,2c2D,2]|[d2D,2D,2][A,2c2D,2][A,2B2D,2]|[A,2c2A,2][A,E]B[EAA,]B| \
+[A,2c2A,2][A,E]B[EAA,]B|[A,2A2A,2][A,2E2][A,2E2]|[A,2A,2][A,2E2][A,2E2]|[G2D,2D,2][E2A2A,2][A,2G2D,2]|[A,2c2A,2][A,2E2][A,2B2D,2]|[A,2A2A,2][A,2E2][A,2E2]| \
+[A,2A,2][E2A2A,2][E2B2A,2]|[A,2c2A,2][A,2E2][E2A2A,2]|[A,2c2A,2][A,E]A[EcA,]d|[A,2e2A,2][A,2E2][A,2E2]|[A,2A,2][E2c2A,2][E2e2A,2]|[d2D,2D,2][A,2D,2][A,2D,2]| \
+[D,2D,2][A,2c2D,2][A,2B2D,2]|[A,2c2A,2][E2A2A,2][A,2E2]|[A,2A,2][E2A2A,2][E2B2A,2]|[A,2c2A,2][A,2E2][E2A2A,2]|[A,2c2A,2][A,E]A[EcA,]d|[A,2e2A,2][A,2E2][A,2E2]| \
+[A,2A,2][E2c2A,2][E2e2A,2]|[d2D,2D,2][A,2D,2][A,2D,2]|[D,2D,2][A,2c2D,2][A,2B2D,2]|[A,2A2A,2][A,2E2][A,2E2]|z6| \
+Z:Created with TablEdit http://www.tabledit.com/
+
+X:21
+T:Rigodon de Tallard
+R:Rigodon
+C:Stéphane Delval/La Taïole
+G:Accordion
+%%MIDI program 21 %Accordian
+L:1/8
+Q:200
+M:2/4
+K:C
+z3G|[EC,][EC,][FG,][FG,]|[GC,]C,[GC,][GC,]|[GC,][AG,][GC,][FG,]|[EC,]C,[DG,][GC,]|[EC,][EC,][FG,][FG,]|[GC,]C,C,C,|[GC,][AG,][GC,][^FG,]| \
+[GC,]C,C,C,|:[CC,][EC,][CC,][EC,]|[CC,][EC,][EC,][DG,]|[B,G,][DG,][B,G,][DG,]|1[B,G,][DG,][CC,]C,:|2[B,G,][DG,][CC,][GC,]| \
+Z:Created with TablEdit http://www.tabledit.com/
+
+X:22
+T:Les Quatre Rigodons
+R:Rigodon
+C:Trad.
+A:Hautes-Alpes - France
+B:Répertoire "Pays-Gavot"
+G:Accordion
+%%MIDI program 21 %Accordian
+M:2/4
+L:1/8
+Q:180
+K:C
+z3E|:[AA,][A/A,/]B/[cA,][c/A,/]B/|1[A/A,/]B/[c/A,/]B/[AA,][EA,]:| \
+K:G
+|2[A/A,/]B/[c/A,/]B/[AA,]A,|:[d/G,/]e/[d/G,/]e/[dG,][A/G,/]B/|[c/A,/]c/[B/E,/]A/[BG,][GG,]|[d/G,/]e/[d/G,/]e/[dG,][A/D,/]B/|1[c/A,/]c/[B/E,/]A/[GG,]G,:|2[c/A,/]c/[B/E,/]A/[GG,]E| \
+K:C
+Z:Transcrit par Alex avec l'aide de TablEdit http://www.tabledit.com/
+
+
+X:23
+T:Pioggia d'estate - mazurka
+C:(C. Aimar/Triolet)
+L:1/8
+Q:240
+G:Accordion
+%%MIDI program 21 %Accordian
+M:3/4
+K:G
+z4dc|:[AD,]c[BG,]A[GG,]F|[G2G,2][GG,]B[AD,]G|[FD,]D[FD,]G[AD,]B|[A2D,2][A2D,2][cD,]B|[AD,]D[AD,]B[cD,]d|[A2D,2][AD,]d[cD,]A|[cD,]B[AD,]G[BG,]A|1[G2G,2][G2G,2]dc:|2[G2G,2][GG,]D[GG,]F| \
+|:[ED,]B,[ED,]F[GD,]A|[B2G,2][BG,]B[cD,]B|[A2D,2][AD,]c[BG,]A|[B2G,2][GG,]D[GG,]F|[ED,]B,[ED,]F[GG,]A|[B2G,2][BG,]B[cD,]B|[A2D,2][AD,]c[BG,]A|1[G2G,2][GG,]D[GG,]F:|2[G2G,2]G,2G,2| \
+K:C

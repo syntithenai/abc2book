@@ -1,0 +1,25 @@
+X: 21541
+T: LENA Waltz 3
+C: Composed by J.C. Paton, Organist, Edinburgh
+R: waltz
+B: K\"ohler's Violin Repository, v.2, 1885 p.154 #1
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+U: P=!crescendo(!
+U: p=!crescendo)!
+M: 3/4
+L: 1/8
+K: F
+|: \
+!p!vA,6- | A,2{C}(B,3A,) | C6- | C(PDEFG^G) |\
+p(.A3.A)A2- | A2G2F2 | "_w"F6{EF} | E2z2z2 |\
+!p!G,6- | G,2{B,}(A,3G,) | (B,6 | C)P(DEFGA) |
+p(.B3.B)B2- | B2(A2G2) | (^G6 | A2)z2z2 |\
+!mf!vA6- | A2{c}(B3A) | c6- | c(defga) |\
+"_cres."(.c'3.c')c'2- | c'2b2a2 | c'6 | (b4g2) |
+f6- | f2g2^g2 | a2c2a2- | a2b2a2 |\
+(a4g2) | (d4e2) |[1 f6- | f2z2z2 :|[2 f6- | f2z2ua2 |]
+|: !ff!vbgecBG | E2(.b2.b2) | afcAFC | A,2(.a2.a2) |\
+(.a3.g)g2- | g2b2e2 | (g4f2) | c2c'2a2 |
+bgecBG | E2(.b2.b2) | afcAFC | A,2(.a2.a2) |\
+(.a3.g)g2- | g2b2e2 | f(Acfag) |[1 f2(.c'2.a2) :|2 f2z2z2 "^D.C."|]["Last time only."f2z2 "_Segue."H|]

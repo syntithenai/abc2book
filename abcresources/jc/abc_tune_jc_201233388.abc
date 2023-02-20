@@ -1,0 +1,33 @@
+X: 195
+T: London sally
+T: Longways for &c.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.98
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+B>AG GAB | AFF FBA | GEE EAG | FDD Ddc |\
+BGG GAB | Adc Bed | (^cA)d d2c | d3- d2 :|
+|: d/c/ |\
+B>AG gfe | dcB edc | BAG cBA | GFE AFB |\
+E2A D2d | G2A D2d | B>AG AF2 | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st and 2d Cu. each take hands, meet & dance,
+%% the 1st Cu. casting off .| then Meet as before, then
+%% 3d Cu. Dance, turn single, and turn sides quite
+%% round :| then 1st and 2d Men change Places with
+%% their Partners, then dance with your faces to
+%% the Wall, then meet and clap hands twice with their
+%% Partners and turn single .| then all four take
+%% hands, and go half round, dancing along, clap
+%% as before, then 1st Cu. cast off :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

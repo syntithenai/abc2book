@@ -1,0 +1,26 @@
+X:1
+T: Ore Boggy
+N:23 February 2004
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:C
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 31 notes)
+K:C
+M:4/4
+L:1/16
+c4 e2 g2 c4 e2 g2 |c2 c2 d c B A B2 G2 G4 |A2 d2 d2 ^c2 d4 d2 e2 |f2 e2 f e d c A4 A2 G2 |
+%W: A2
+% voice 1 (1 lines, 31 notes)
+c4 e2 g2 c4 e2 g2 |c2 c2 d c B A B2 G2 G4 |A2 d2 d2 ^c2 d4 d2 e2 |f2 e2 f e d c A4 A2 G2 |
+%W: B1
+% voice 1 (1 lines, 32 notes)
+c2 c2 d c B A B2 G2 G4 |c2 c2 d c B A G8 |A2 d2 d2 ^c2 d4 d2 e2 |f2 e2 f e d c A4 A2 G2 |
+%W: B2
+% voice 1 (1 lines, 31 notes)
+c2 c2 d c B A B2 G2 G4 |c2 c2 d c B A G8 |A2 d2 d2 ^c2 d4 d2 e2 |f2 e2 f e d c A4 A4 ||

@@ -1,0 +1,31 @@
+X: 1
+T: Kolo Kalendara  [C]
+O: Croatia
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+F: http://www.dunav.org.il/music_scores/017_croatia_kalendara_kolo.html
+F: http://www.phantomranch.net/folkdanc/songs/songs_croatia.htm
+M: 2/4
+L: 1/8
+K: C
+[| "C"[g2e][fd][ec] | [g2e][fd][ec] | [g2e][fd][ec] | "G7"[d3B3G3][ec] \
+|| "C"[g2e][fd][ec] | [g2e][fd][ec] | [g2e][fd][ec] | "G7"[d3B3G3][dBG] |]
+w: 1.~Me-ni* ka-\vzu* ka-len-*da-ri,    da s'u* ko-lu* svi be-*\'ca-ri.
+w: 2.~Me-ni* ka-\vzu* sta-re* knji-ge,  da s'u* ko-lu* sve ne-*bri-dje.
+w: 3.~Me-ni* ka-\vzu* sta-ri* lju-di,   da s'u* ko-lu* do-bo* su-di.
+w: 4.~Me-ni* ka-\vzu* sta-re* ba-be,    da s'u* ko-lu* sve ba-*ra-be.
+w: 5.~Me-ni* ka-\vzu* mla-de* sna-\vse, da s'u* ko-lu* \vsu-\vse* pla-\vse.
+|: "C"[cG][cG] [cG][d/B][e/c] | "G7"[fd][ec][fd][ge] \
+|  "C"[ec][ec] [ec][f/d][e/c] | "G7"[dBG][dBG][dBG][dBG] :|
+w: 1.~Me-ni ka-\vzu* ka-len-da-ri,    da s'u ko-lu* svi be-\'ca-ri.
+w: 2.~Me-ni ka-\vzu* sta-re knji-ge,  da s'u ko-lu* sve ne-bri-dje.
+w: 3.~Me-ni ka-\vzu* sta-ri lju-di,   da s'u ko-lu* do-bo su-di.
+w: 4.~Me-ni ka-\vzu* sta-re ba-be,    da s'u ko-lu* sve ba-ra-be.
+w: 5.~Me-ni ka-\vzu* mla-de sna-\vse, da s'u ko-lu* \vsu-\vse pla-\vse.
+%
+% Dick Oakes' translation:
+W:    1. Calendars tell me that in the kolo all men are cocky young fellows.
+W:    2. Old books tell me that in the kolo everyone is carefree.
+W:    3. Old men tell me that in the kolo one can judge well.
+W:    4. Old women tell me that in the kolo all are scoundrels.
+W:    5. Young wives tell me that nerds are afraid of the kolo.
+

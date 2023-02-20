@@ -1,0 +1,16 @@
+X:415
+T:Koljovo Horo
+O:Bulgaria, Dobrudza
+M:2/4
+L:1/8
+K:Am
+Q:1/4 = 144
+%%MIDI chordprog 24 % Acoustic Guitar (nylon)
+%%MIDI bassprog 32 % Acoustic Bass
+%%MIDI program 65 % Alto Sax
+%%MIDI beat 97 80  70 4
+%%MIDI chordvol 60
+%%MIDI bassvol 116
+|:"Dm"DEDE|A,4|"Am"CA,B,G,|A,B,CD|"Dm"DEDE|A,4|"Am"CA,B,G,|A,2z2|
+ "Dm" DEDE|A,4|"Am"CA,B,G,|A,B,CD|"Dm"DEDE|A,4|CA,B,G,|A,2z2:|
+|:"C"E3D|GFED|CDCB,|A,3G,|"Dm"D4 |CB,A,2|C3B,|CDE2|C3B,|"Am"CDCB,|A,4:|

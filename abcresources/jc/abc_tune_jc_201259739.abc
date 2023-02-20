@@ -1,0 +1,15 @@
+X: 1
+T: Canyon Jig
+C: Dave Reiner
+R: jig
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+"A"[|] B, |\
+"Em"(~E3 F)EF | (GFG) BG(E | B,)EG ({d}BA)(G | "D"F)DF AFD |
+"Em"(~E3 F)EF | (GFG) EG(B | "Am"c)Ac ecA | "D"BFD "Em"E2 :|
+"B"|: z |\
+"Em"gag fgf | efe ("D"def) | {a}gfg ~f3 | "D"dfa dfa |
+[1 "Em"gag fgf | efe "D"~d3 | "Am"cA(c e)c(A | "D"B)FD "Em"E2 :|
+[2 "C"gec "Bm"fdB | "Am"ec(A "G"d)B(G | "D"c)AF "Em"BGE | "D"AFD "Em"E2 |]

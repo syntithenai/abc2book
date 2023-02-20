@@ -1,0 +1,31 @@
+X: 3171
+T: Jack's Alive.   a Jig.
+%R: jig
+N: This is version 2, for ABC software that understands voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.3 p.17 #1 (top 2 staves continued from p.16)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: The 's' characters below the bass notes in bar 8 probably mean an octave lower.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+(GAG) "_sf"TB3 | (ABA) "_sf"Tc3 | (B/c/d).B c2A | B2G AFD ||\
+(GAG) TB3 | (ABA) Tc3 | (B/c/d).B cAF | G3 G3 :|
+.g2.g gag | .f2.f fgf | .e2.e efg | {fg}a2g fed |\
+.g2.g gag | .f.ff g2f | efg afd | g3 g2d ||
+gag gag | fgf fgf | efe efg | {fg}a2g fed |\
+"_sf"Tg3 Bcd | "_sf"e3 ABc | dBG cAF | G3 G3 |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+[g3G3] [g3G3] | [f3F3] [f3F3] | [g3G3] [a3A3] | [b3B3] [c'3c3] ||\
+[b3B3] [g3G3] | [f3F3] [d3D3] | [g3G3] [d3D3] | "_8"G3 "_8"G3 :| \
+[K:G clef=treble]\
+[E3C3] [E3C3] | [D3B,3] [D3B,3] | [C3^A,3] [C3A,3] |
+[D3B,3] [D3B,3] |\
+[E3C3] [E3C3] | [D3B,3] [D3B,3] |[K:G clef=bass middle=d] 
+=c'3 d'3 | g3 g3 ||[K:G clef=treble]
+E3 G3 | D3 F3 | ^C3 C3 | D3 [K:G clef=bass middle=d] d3 |
+"^sf"Bcd e3 & B3 x3 | "^sf"ABc d3 & A3 x3 | B3 d3 | G3 G3 |]

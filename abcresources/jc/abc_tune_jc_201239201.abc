@@ -1,0 +1,42 @@
+X: 322
+T: Gather and go.   a Jig.
+C: Old.
+R: jig
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c." p.32 #2
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slowly and Distinctly"
+O: Communicated by Mr Jaffrey Senior.
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+g |\
+d<BG ~d2e | dBG d2g | e<cA Te2d | ecA ceg ||\
+dBA GAB | g(e/f/).g/.e/ dBG | TA>BA A<ag | (e3 g2) :: e |\
+!p!ddg ddg | ddg dBG |
+!f!eea eea | e<ag Te2B ||\
+!p!ddg eeg | dge dBe | A>BA dBd | (e3 g2) :: e |\
+!f!d<B~B d<B~B | d<B~B d<BG | d<B~B d<B~B | B<ag Te2B ||\
+d<B~B g(a/g/).f/.e/ |
+dge dBe | A>BA dBd | (e3 g2) :: G |\
+!p!Ggg gdg | ege dBG | !f!Aaa Taga | {ga}b>ag edB ||\
+d<ee ga/g/f/e/ | dge dBe | TA>BA dBd | (e3 g2) :|
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+[G3g3] [B2g3]c | [B3g3] [G3g3] | [A3a3][A3a3] | [A3a3][A3a3] ||\
+[G3d3g3][G3d3g3] | [C3c3] [G3g3] | [D3d3] [D2d2]B | ([C3c3] [G2B2]) :: z |\
+[g3b3] [g3b3] | [g3b3] [g3b3] |
+[A3a3] [A3a3] | [A2a2][Bb] [c2c'2]z ||\
+[B3b3] [c3c'3] | b2c' g2c | d2f g2G | ([C3c3] [G2B2]) :: z |\
+G2g G2g | G2g G2g | G2g G3 | gab c'2z |\
+b2g e2c ||
+B2c G2g | f2d [B3g3] | ([c3c'3] [g2b2]) :: z |\
+g3 b3 | c'3 b3 | a3 [d3f3] | g3 G3 ||\
+c3 e2c | B2c G2g | f2d [B3g3] | ([c3c'3] [g2b2]) :|
+% = = = = = = = = = =

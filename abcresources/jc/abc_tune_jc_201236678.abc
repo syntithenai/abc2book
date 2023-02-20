@@ -1,0 +1,32 @@
+X: 229
+T: Malcolm of the Glen.
+T: Callum a ghlinne.
+R: air, jig
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.103 #2
+N: This is version 2, for ABC software that understands crescendo/diminuendo symbols.
+% dim/cres..endo symbols:
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The only repeat symbol is at the very end; not fixed.
+M: 6/8
+L: 1/8
+Q: "Slow but with a spirited Expression."
+K: Eb
+% %slurgraces yes
+% %graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+B,CE E>F(G/A/) | ~B2e GFE | CFG {G}A2F |_ded cB=A ||"_cres."\
+BcT=d{cdd}e2(B/c/) | !p!_d>ed Tc>Be |"_cres." B2(A/G/) p~A>BcP | pBePG pF>EPC |]
+!f!EB,D E>F(G/A/) | BGe GEB, | !p!AFG {G}A2F | _ded Qc/qB/ z3/ (3(B//c//d//) ||\
+!f!{d}eBd {d}eBd | {d}eB_d cBp{d}Pe | !p!B2(A/G/) (A/G/)pA/B/c/d/P | (Qe/qd/)Qc/qB/QA/qG/ pF>EPC :|
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+e2E e2f | g2a b2g | a2g f3 | b2B e2z ||"_cres."\
+e2d c2z | !p!B2b a2g |"_cres." e3 fga | g2b a3 |]
+!f!e2f g2f | e2E e2E | !p!d2e f2a | b2B e2z ||\
+!f!g2a g2a | g2b a2g | !p!e3 fga | g2b a3 :|

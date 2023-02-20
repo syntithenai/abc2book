@@ -1,0 +1,107 @@
+
+X: 1
+T: Danny Boy    [A]
+C: words: Frederic Weatherly 1913
+C: music: trad. Irish air
+R: air
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - -
+[V:1 clef=treble middle=B]
+[V:2 clef=bass   middle=D]
+% %scale 0.65
+%%continueall 1
+% - - - - - - - - - -
+[V:1] GAB | c3B cfec | (BA)F2 zAcd |
+w: Oh Dan-ny boy, the pipes, the pipes are call-*ing, from glen to
+w: But if you come when all the flow'rs are dy-*ing, and I am
+[V:2] EFG | A3G AdcA | GF F2 zFAB |
+% - - - - - - - - - -
+[V:1] e3f ecAc | B4 zGAB | c3B cfec |
+w: glen, and down the moun-tain side. The sum-mer's gone, and all the ro-ses
+w: dead, as dead I well may be, you'll come and find the place where I am
+[V:2] c3d cAGA | G4 zEFG | A3G AdcA |
+% - - - - - - - - - -
+[V:1] (BA)F2 zGAB | c3d cBAG | A4 zefg |
+w: fall-*ing, 'tis you, 'tis you must go and I must bide. But come ye
+w: ly-*ing, and kneel and say an A-ve there for me. And I will
+[V:2] GF F2 zEFG | A3B AGFG | A4 zcdd |
+% - - - - - - - - - -
+[V:1] a3g gfef | (ec)A2 zefg |
+w: back, when sum-mer's in the mea-*dow, or when the
+w: hear, though soft you tread a-bove* me, and oh my
+[V:2] d3e edcd | (cA)A2 zcdd |
+% - - - - - - - - - -
+[V:1] a3g gfec | B4 zeee | c'3b bafa |
+w: val-ley's hushed and white with snow, 'tis I'll be here in sun-shine or in
+w: grave will warm-er, swee-ter be, if you shall kneel and tell me that you
+[V:2] e3e edcA | (G2D2 C2)DG | G3B BBAB |
+% - - - - - - - - - -
+[V:1] ecA2 zGAB | cfec BAFG | A3z z :|
+w: sha-*dow, oh Dan-ny boy, oh Dan-ny boy, I love you so.
+w: love* me, and I can sleep in peace un-til you come to me.
+[V:2]BB F2 zEFG | AdcA GFFE | A3z z :|
+% - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 1
+T: Danny Boy    [G]
+C: words: Frederic Weatherly 1913
+C: music: trad. Irish air
+R: air
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - -
+[V:1] % clef=treble middle=B]
+[V:2] % merge clef=bass middle=D]
+%%staves {1 2}
+% %scale 0.65
+%%continueall 1
+% - - - - - - - - - -
+[V:1]
+     FGA | B3A BedB | (AG)E2 zGBc |
+w: Oh Dan-ny boy, the pipes, the pipes are call-*ing, from glen to
+w: But if you come when all the flow'rs are dy-*ing, and I am
+[V:2]
+     DEF | G3F GcBG | FE E2 zEGA |
+% - - - - - - - - - -
+[V:1]
+     d3e dBGB | A4 zFGA | B3A BedB |
+w: glen, and down the moun-tain side. The sum-mer's gone, and all the ro-ses
+w: dead, as dead I well may be, you'll come and find the place where I am
+[V:2]
+     B3c BGFG | F4 zDEF | G3F GcBG |
+% - - - - - - - - - -
+[V:1]
+     (AG)E2 zFGA | B3c BAGF | G4 zdef |
+w: fall-*ing, 'tis you, 'tis you must go and I must bide. But come ye
+w: ly-*ing, and kneel and say an A-ve there for me. And I will
+[V:2]
+     FE E2 zDEF | G3A GFEF | G4 zBcc |
+% - - - - - - - - - -
+[V:1]
+     g3f fede | (dB)G2 zdef |
+w: back, when sum-mer's in the mea-*dow, or when the
+w: hear, though soft you tread a-bove* me, and oh my
+[V:2]
+     c3d dcBc | (BG)G2 zBcc |
+% - - - - - - - - - -
+[V:1]
+     g3f fedB | A4 zddd | b3a ageg |
+w: val-ley's hushed and white with snow, 'tis I'll be here in sun-shine or in
+w: grave will warm-er, swee-ter be, if you shall kneel and tell me that you
+[V:2]
+     d3d dcBG | (F2C2 B,2)CF | F3A AAGA |
+% - - - - - - - - - -
+[V:1]
+     dBG2 zFGA | BedB AGEF | G3z z :|
+w: sha-*dow, oh Dan-ny boy, oh Dan-ny boy, I love you so.
+w: love* me, and I can sleep in peace un-til you come to me.
+[V:2]
+     AA E2 zDEF | GcBG FEED | G3z z :|
+% - - - - - - - - - -

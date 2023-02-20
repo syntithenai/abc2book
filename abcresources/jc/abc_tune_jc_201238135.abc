@@ -1,0 +1,30 @@
+X: 30282
+T: ANTWERP WALTZ
+C: Labitsky
+%R: waltz
+N: The book doesn't give the composer's name, but it's available from other sources.
+N: This is version 1, for ABC software that doesn't understand diminuendo symbols.
+N: The diminuendo symbols are placed inconsistently and sloppily; this transcription is a guess.
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.28 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Rhythm of repeats fixed with initial "pickup" rest, which obviates the need for multiple endings.
+N: The 2nd strain has only 7 bars. Other versions have | F2F2z2 | between bars 11 and 12, for 8 bars.
+M: 3/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+z2 !f!|\
+.F2.F.F.F.F | F2A2c2 | A2c2f2 | (fe)(ge)c2 |\
+.c2.c.c.c.c | c2e2g2 | b2d2e2  | f4 !p!:|\
+|: c2 |\
+d2c2B2 | G2G2c2 | d2c2B2 | F2FFF |\
+F2A2c2 | c2d2e2 | f4 :|
+|: F2 |\
+F2A2B2 | (c2f2).c2 | (d2f2).d2 | (c2f2).c2 |\
+"^dim."B2(dcdB) | "^dim."A2(cBcA) | "^dim."G2(AGBG) | "dim."F4 :|\
+|: c2 |\
+(d4c2) | (f4e2) | (g4^f2) | ("dim."a4g2) |\
+(bagfed) | (d2c2).c2 | c2d2e2 | f4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

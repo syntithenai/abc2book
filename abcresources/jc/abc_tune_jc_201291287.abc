@@ -1,0 +1,38 @@
+X: 1
+T: Ivor Scollay's Jig
+C: by Calvin Vollrath (Jan 2007)
+Z: Notation by Trent Bruner
+R: jig
+S: Fiddle Hell Online 2021-10-29
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%%continueall
+% = = = = = = = = = =
+V: 1 staves=2
+"^Intro"[|]\
+"G"z3 z3 | "C/G"z3 z3 | "G"z3 z3 | "C/G"z3 z3 | "G"z3 z3 | "C/G"z3 z3 | "G"z3 z3 | "C/G"z3 "D7"d2c ||
+"^A"[|]!segno!|:\
+"G"{Bc}BAB GF=F | "C"EGc efg | "G"dBG "E7"^GAB |\
+"Am"cAG "D7"Fdc | "G"{Bc}BAB GF=F | "C"EGc "Am"efg |\
+"G"ded "D7"cBA |1 "G"B[GG,][GG,] [G2G,2]c :|2 BGG GBd |]
+"^B"[|]\
+"G"g3 "B7"aga | "Em"bge "G7"d2g | "C"ece "G/B"dBd | "Am"{cd}cBc "D7"def |\
+"G"g3 "B7"aga | "Em"bge "G7"deg | "Am"fed "D7"cBA | "G"BGG GBd |
+"G"{ga}gfg "B7"aga | "Em"bge "G7"d2g | "C"ece "G/B"dBd | "Am"{cd}cBc "D7"ABc |\
+"G"{Bc}BAB GF=F | "C"EGc "Am"efg | "G"ded "D7"cBA !coda!|\
+"G"B[BG][BG] [B2G2] !segno!c |] !coda!y "G"BGG "G"G3- | G3 "G"[gBDG,] "^Tacet"z2y|]
+% = = = = = = = = = =
+V: 2
+"^Intro"[|] z3 z3 | z3 z3 | z3 z3 | z3 z3 | z3 z3 | z3 z3 | z3 z3 | z3 d2c ||
+"^A"[|]!segno!|:\
+{de}d^cd B_BA | =Gce gab | gdB c^cd |\
+ecB Afe | {de}d^cd B_BA | =Gce gab |\
+fgf edc |1 dBB B2e :|2 dBB Bdg |]
+"^B"[|]\
+g3 z3 | z6 | z6 | z6 |\
+z6 | z6 | z6 | z6 |\
+z6 | z6 | z6 | z6 |\
+z6 | z6 | z6 | z6 |] !coda!y z6 | z6y|]
+

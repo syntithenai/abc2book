@@ -1,0 +1,94 @@
+
+X: 1
+T: Aj\vsino Oro   [Dhj]
+O: Makedonija/Kosovo
+S: https://www.youtube.com/watch?v=4T05TpK7UZM
+S: https://www.youtube.com/watch?v=_Az6ZBZQh1g
+S: https://www.youtube.com/watch?v=6jeu0NszAvo
+M: 2/4
+L: 1/16
+K: _B_e^F	% E hijaz
+"I."
+[|\
+"D"A2B2 c2BA | "Gm"BcBA G2FE | "D"DED[EC] [F2D2][G2E2] | [A2F2][B2G2] A4 |\
+"D"A2B2 c2BA | "Gm"BcBA G2FE | "Cm"D2C2 A2G2 | FGFE "D"D4 |]
+"V."
+|:\
+"Cm"G2GF E2ED | E3D C4 | "D"F2G2 A2B{A}G | A8 |\
+"D"F2G2 A2B2 | "Cm"G3A "D"F2z2 | "Cm"C2DE FGFE | "D"D4 z4 :|
+|:\
+"D"A4 d4 | cBBA A4 | "Gm"G2AB cBAG | "D"F4z4 |\
+"Cm"C3D E2F2 | GAGF E4 | C2DE [AF]GFE | "D"D4 z4 :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: Aj\vsino Oro   [Ehj]
+O: Makedonija/Kosovo
+S: https://www.youtube.com/watch?v=4T05TpK7UZM
+S: https://www.youtube.com/watch?v=_Az6ZBZQh1g
+S: https://www.youtube.com/watch?v=6jeu0NszAvo
+M: 2/4
+L: 1/16
+K: ^G	% E hijaz
+"I."
+[|\
+"E"B2c2 d2cB | "Am"cdcB A2GF | "E"EFE[FD] [G2E2][A2F2] | [B2G2][c2A2] B4 |\
+"E"B2c2 d2cB | "Am"cdcB A2GF | "Dm"E2D2 B2A2 | GAGF "E"E4 |]
+"V."
+|:\
+"Dm"A2AG F2FE | F3E D4 | "E"G2A2 B2c{B}A | B8 |\
+"E"G2A2 B2c2 | "Dm"A3B "E"G2z2 | "Dm"D2EF GAGF | "E"E4 z4 :|
+|:\
+"E"B4 e4 | dccB B4 | "Am"A2Bc dcBA | "E"G4z4 |\
+"Dm"D3E F2G2 | ABAG F4 | D2EF [BG]AGF | "E"E4 z4 :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Aj\vsino Oro   [Ahj]
+O: Makedonija/Kosovo
+S: https://www.youtube.com/watch?v=4T05TpK7UZM
+S: https://www.youtube.com/watch?v=_Az6ZBZQh1g
+S: https://www.youtube.com/watch?v=6jeu0NszAvo
+M: 2/4
+L: 1/16
+K: _B^c	% A hijaz
+"I."
+[|\
+"A"e2f2 g2fe | "Dm"fgfe d2cB | "A"ABA[BG] [c2A2][d2B2] | [e2c2][f2d2] e4 |\
+"A"e2f2 g2fe | "Dm"fgfe d2cB | "Gm"A2G2 e2d2 | cdcB "A"A4 |]
+"V."
+|:\
+"Gm"d2dc B2BA | B3A G4 | "A"c2d2 e2f{e}d | e8 |\
+"A"c2d2 e2f2 | "Gm"d3e "A"c2z2 | "Gm"G2AB cdcB | "A"A4 z4 :|
+|:\
+"A"e4 a4 | gffe e4 | "Dm"d2ef gfed | "A"c4z4 |\
+"Gm"G3A B2c2 | dedc B4 | G2AB [ec]dcB | "A"A4 z4 :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: Aj\vsino Oro   [Bhj]
+O: Makedonija/Kosovo
+S: https://www.youtube.com/watch?v=4T05TpK7UZM
+S: https://www.youtube.com/watch?v=_Az6ZBZQh1g
+S: https://www.youtube.com/watch?v=6jeu0NszAvo
+M: 2/4
+L: 1/16
+K: ^d^f	% B hijaz
+"I."
+[|\
+"B"f2g2 a2gf | "Em"gagf e2dc | "B"BcB[cA] [d2B2][e2c2] | [f2d2][g2e2] f4 |\
+"B"f2g2 a2gf | "Em"gagf e2dc | "Am"B2A2 f2e2 | dedc "B"B4 |]
+"V."
+|:\
+"Am"e2ed c2cB | c3B A4 | "B"d2e2 f2g{f}e | f8 |\
+"B"d2e2 f2g2 | "Am"e3f "B"d2z2 | "Am"A2Bc dedc | "B"B4 z4 :|
+|:\
+"B"f4 b4 | aggf f4 | "Em"e2fg agfe | "B"d4z4 |\
+"Am"A3B c2d2 | efed c4 | A2Bc [fd]edc | "B"B4 z4 :|

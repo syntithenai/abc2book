@@ -1,0 +1,57 @@
+
+X: 1
+T: The Faithful Swain #1   [G]
+T: The Constant Lover
+Z: Bruce Shawyer (chords by John Chambers)
+M: C|
+K: G
+K:G
+M:4/4
+L:1/16
+dc |\
+"G"Bcde "D7"dcBA | "G"G2G2 G2g2 | "D7"f2e2 f2g2 | a4 A4 |\
+"G"Bcde "D7"dcBA | "G(Em)"G2G2 G2g2 | "D7"fad2 "C"eg"D"fa | "G"g6 :|
+|: ag |\
+"D7"fgab agfe | d2d2 d2f2 | "G"g2a2 b2ab | "C"c'4 "G"b4 |\
+"Am"abag "D7"fgfe | dedc "G"B2d2 | "C"e2"D"df "C"eg"D"fa | "G"g6 :|
+
+%%sep 2 1 500
+
+X: 1
+T: The Faithfull Swain #2   [G] DR 1759
+R: reel
+B: RUTHERFORD Complete Collection of 200 Country Dances Vol.2; 1759.
+Z: vmp.Mike Hicken 2015 www.village-music-project.org.uk
+M: 4/4
+%Q: 1/4=140
+K: G
+   c | "G"BGGB "Am"cA"D7"Af | "G"gbag "D7"aAAc | "G"BG"Am"cA "G"dB"C"ge | "G"dg"D7"dc "G"BGG :|
+|: c | "G"BGDG BGdG | "G"BgdB "Am"cA"D7"Ac | "G"Bd"Am"ce "D7"df"C"eg | "D7"fdef "G"gGG :|
+|: f | "G"gdBG DGBd | "C"gefg "D7"aAAf | "G"gfed "Em"edcB | "Am"cA"D7"dc "G"BGG :|
+%%begintext align
+%% The first Wo: cast off behind the 2d  her partner
+%% follow her and turn in the 2d Cu: place . | the
+%% same back round the 2d Man and turn in your own
+%% places :| set all 4 and change sides . | .  the
+%% same back again :| .  cross over half figure . |:
+%% right and left :|
+%%endtext
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+%%sep 2 1 500
+
+X: 1
+T: Hills of Glen Orchy
+C: Trad.
+M: 6/8
+Z: John Chambers 2003-11-25
+K: EDor
+L: 1/8
+d/c/ \
+| "Em"B2{G}E EFE | BAB d2B | "D"A2{F}D DED |  A2{F}D FAd \
+| "Em"B2{G}E EFE | BAB d2e | "G"dBd "D"AFD | "Em"EFE E2 :|
+|: B \
+| "Em"efe edB | efg "A7"gfe | "D"ded    dAF | "(Bm)"dfe dBd \
+| "Em"efe edB | efg     gfe | "G"dBd "D"AFD |   "Em"EFE E2 :|

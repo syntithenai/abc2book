@@ -1,0 +1,24 @@
+X: 2291
+T: Hornpipe
+%R: C
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.29 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has inital repeat but no final repeat symbol; not fixed.
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+(A,CEA) (ce)fg | (ag)fe (dc)BA | (df)Bd (ce)Ac |(dc)BA {A}G2FE ||\
+(A,CEA) (ce)fg | agfe dcBA | dfBd ceAc | dBAG A4 ::
+(ag)ae (fe)dc | (df)Bd {d}c2BA | (df)(Bd) (ce)(Ac) | (dc)BA {A}G2FE ||\
+(ag)(ae) fedc | (df)Bd {d}c2BA | (df)Bd (ce)Ac | (dB)AG A4 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+A2c2 A2d2 | c2e2 a2A2 | g2z2 a2z2 | Bcd^d e2E2 ||\
+A2a2 A2d2 | c2e2 a2A2 | b2g2 a2c2 | d2e2 A4 ::
+A2a2 a2a2 | b2g2 a2c2 | B2g2 a2c2 | Bcd^d e2E2 ||\
+A2a2 A2a2 | b2g2 a2A2 | B2g2 a2A2 | d2e2 A4 |]

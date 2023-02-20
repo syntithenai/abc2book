@@ -1,0 +1,27 @@
+X: 1
+T: Maple Leaf Rag
+C: Scott Joplin (1899)
+R: rag
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+P: AABBACC
+K: F
+"A"|: "(C7)"z2 |\
+"F"zFcF Ac2F | "C7"cEGc- c4 | "F"zFcF Ac2F | "C7"cEGc- c4 |\
+"Db"zF_A_d "C"zc2c | "Db"zF_A_d "C"zc3 |
+"n.c."(F_Acf) (f_ac'f') | (F_Acf) (f_ac'f') |\
+"Fdim"f2f2 f2ff- | "F"fcdA cd-d2 | "Db"FG_AF "F"G=A2F | "F"AF"C7".G2 "F".F2z2 |
+"Fdim"f2f2 f2ff- | "F"fcdA cd-d2 | "Db"FG_AF "F"G=A2F | "F"AF"C7".G2 "F".F2 \
+"B":: "(B/F#)"z2 |\
+"C7"zec'e g=b2e | _bega- acgc |
+"F"zAfA cd2c | "F"fAcd- dAd2 |\
+"C7"zceG Bd2c | eGBd- dBd | "F"zAfA cd2c | fAcd- dAd2 |
+"C7"z!f!ec'e g=b2e | "C7"_bega- acgc | "F"z!mf!AfA cd2c | "F"f2[f2A2] "E7"[e2^G2]"Eb"[_e2=G2]|\
+"D"zD^FA dAFD | "G"zDGB d2B2 |
+"G7"A2zA- "C7"AG3 | "F"zFAc "F"f2z2 "C"::\
+"Bb".f2.d2 .f2.d2 | f2ga- ag"/^G"fd | "F"cd2A- A4 | "F"zcdA cd2A |
+"C7"cd2G- G4 | "C7"zBdG Bd2A |  "F"AcdA cd2A- | "F"AcdA cd2c |\
+"Bb".f2.d2 .f2.d2 | "Bb"f2ga- "/G"ag"^/G#"fd |
+"F"f2d2 cf2A- | AcdA cd2F- |\
+"Db"FGF2 "/Bb"F2"/B"GF- | "C"FGAF GA2F- | FGAF- FG3 |1 "F"F2c2 c2c2 :|2 "F".f2z2 .[f2A2] |]

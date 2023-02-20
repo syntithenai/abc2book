@@ -1,0 +1,22 @@
+X: 10943
+T: the MINSTRL BOY
+O: Irish air.
+Q: "Slow."
+%R: air, march
+N: This is version 1, for ABC software that doesn't understand crescendo symbols.
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.94 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c2 !p!|\
+F3G BAGF | "_cres."A2c2 f2(ef) | d3c (ABc).A | G3A F2 zC |\
+F3G (BA).G.F | A2c2 "^>"f2(ef) | {e}d3c (ABc).A | G4 F2 |]
+|: c2 |\
+"^cres."f2e2 d2(ef) | e2d2 c2 zd | d3A A3c | Hd3e Hf2f2 |\
+F2(GA) (BAG).F | "_cres."A2c2 Hf2(ef) | d3c (AB).c.A | G4 F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

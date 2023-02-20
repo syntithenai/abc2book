@@ -1,0 +1,30 @@
+X: 263
+T: MISS CAMPBELL. (of Saddell.)
+C: R. MACKINTOSH
+R: Strathspey
+B: Glen Collection p.26 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: There's a missing 8th-note at the beginning/end of the first part.
+M: C
+L: 1/16
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: Bb
+V: 1
+|: Bd3d3c B2A2 B4 | G2ed c3B AF3F3c | d3edc3 B3ABF3 | GE3C3F D2B,2B,2 :|
+Bc |\
+dB3ge3 c2de f4 |  BG3 edcB AF3F3B | GE3cE3 F2GA B4 | E2FG F3E D2B,2B,2 ||
+Bc |\
+dB3ge3 cA3fd3 | BG3c3B AF3F3B | GE3ge3 f2A2BF3 | GE3C3F DB,3B,2 |]
+V: 2
+%
+|:\
+B4 [b4f4] d4 [b4f4] | e4 [c'4g4] f4 [c'4a4] |\
+B4 [b4f4] d4 [b4f4] | [b4e4] [a4f4] [b4B4] B2 :|
+z2 |\
+[b4f4d4] [b4g4e4] [a4f4] [a4f4] | e4 [c'4g4] f4 [c'4a4] |\
+e4 [c'4g4] d4 [b4f4] | c4 [a4f4] B4 [f2d2] ||
+z2 |\
+[b4f4d4] [b4g4e4] [a4f4] [b4f4] | e4 [c'4g4] f4 d4 |\
+e4 [c'4g4] d4 [b4f4] | [b4e4] [a4f4] [b4B4] [f2d2B2] |]

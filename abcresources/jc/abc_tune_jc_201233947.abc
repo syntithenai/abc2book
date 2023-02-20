@@ -1,0 +1,61 @@
+
+X: 1
+T: Constancy (G)
+T: the Ton
+O: 1788
+B: Hendrickson's "John Griffiths Dancing Master (1788)"
+R: march
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+%Q: 1/4=108
+K: G
+[| "G"G2 BG | "D"GF ED | "G"G2 BG | "D"d4 |\
+"Am"c2 Ac | "G"B2 GB | "A(m)7"A2 BG | "D"GF ED |
+y2"G"G2 BG | "D"GF ED | "G"G2 BG | "D"d4 |\
+"D"A2 "G"BG | "D"A2 "G"BG | "D"F2 "A7"E2 | "D"D4 |]
+[| "G"d2 Bd | "D7"c2 Ac | "G"B2 GB | "D7"A2 D2 |\
+"G"GB dg | "C"g2 eg | "A7"ag fe | "D"d4 |
+y"G"d2 Bd | "D7"c2 Ac | "G(Em)"B2 GB | "D7"[AA]F [DD]C "I"|\
+"G"B,D GB | "C"Ec BA | "G"BG "D7"AF | "G"G4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Rufty Tufty [D/G]
+N: Two couples facing.
+N: The title means swaggering, casual, or helter-skelter.
+B: Cecil Sharp 1911
+B: Playford 1651
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+%P: 3xAABBCC
+K: G
+"A"|: "D"d2 de | f2 ef | "G"gg "A7"f>e |1 "D"d4 :|2 "D"d3 e/f/ ||
+"B"|: "G"gf ed | "D7"dc "G"B>c | dd "(Am)"cB | "D7"A2 "G"G2 :|
+"C"|: "G"B>c dd | "C"ec "G(D7)"d2 \
+"I"|  "G"B>c dd | "C"ec "G(D7)"dB/c/ | "G"dd "C"cB | "D7"A2 "G"G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Cold and Raw   [Em]
+T: Oil of Barley
+T: Stingo
+O: 1651
+S: Barnes v.1
+%Q: 110
+R: Jig
+H: Many versions of this tune exist, with many titles.
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+|:\
+"Em"E2E B2A | "G"Bcd "(D)"D2D |\
+"Em"E2E "(G7)"B2G | "C"E3 [1 G3 :|2 "D7"F3 |:\
+"G"G2G G2F/G/ | "D"A2A A2A |
+"G"B2B "C"e2e | "G"B3 "D"d3 |\
+"Em"G2G G2F/G/ | "D"A2A A>Bc "I"|\
+"G"BA>G "D(Bm)"FGD | "Em"E3 [1 "D7"F3 :|[2 "(B7)"G3 :|

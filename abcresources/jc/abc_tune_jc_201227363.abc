@@ -1,0 +1,28 @@
+X: 10743
+T: BHANNERACH DHON NA CHRI'
+O: Gaelic air.
+Q: "Slow."
+%R: air, waltz, jig
+N: This is version 1, for ABC software that doesn't understand crescendo/diminuendo symbols.
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.74 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B, |\
+!p!E>FA "_cres."BAd | AD"_dim"G F>ED |\
+!p!E>F!p!A BAd | B"_dim."AF E2B,B, |\
+!f!E>F"_cresc."A BAd | A"_dim."DG F>ED |\
+E>FA !f!BAd | !p!BAF E3 |]
+!pp!eB(e/f/) g>fe | dAd F>ED/D/ |\
+!f!eB(e/f/) g>fe | Be^d e2B |\
+eB"_cres."e/f/ g>fe | dA"_dim."d F>>ED |\
+E>"_cres."FA BAd | "_dim."B>AF E3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Burns' song, "The Banks of the Devon," is set to this air.
+%%endtext
+%%sep 1 1 300

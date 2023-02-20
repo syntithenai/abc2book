@@ -1,0 +1,27 @@
+X: 1
+T: Duke d'Aumont's Delight
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (100)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+c>Bc A>dc | B3 G2g | f>ef d>gf | e3 c>cd |\
+e>de e>dc | g3 B2G | c>dB A>G^F | G3- G2 :|
+|: e/f/ |\
+g>fg g>ag | f>ef f>gf | e>de e>fe | d>^c d>ef |\
+g>fe f>ed | g3 B2A | B2c d/c/BG | c3- c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. figure in and cast up then cross ouer [sic]
+%% below the 2d Cu. .| The 2d Cu. do the same :| Right
+%% and left quite round then the 1st Cu. cast off .| Then
+%% Back to Back with your own Partners lead thro the 2d
+%% Cu. and cast off :|
+%%endtext
+%%sep 1 8 500

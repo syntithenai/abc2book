@@ -1,0 +1,22 @@
+X: 20612
+T: ONE BOTTLE MORE
+T: "ASSIST ME YE LADS WHO HAVE HEARTS VOID OF GUILE."
+O: Irish air.
+Q: "With spirit."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.61 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Bar 16 has an extra 16th note; not fixed. (Either remove the dot on the G, or add a flag to the last B.)
+M: 3/8
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+G2B2d2 | d3BG2 | c2e2e2 | e4(dc) |\
+B2d2g2 | d3BG2 | (AF) D2D2 | D4 |] D2 |\
+G3FG2 | E2F2G2 | (AB)(cd)(ef) | g4(fe) |
+d2f2g2 | (ag)(fe)(dc) | B2A2G2 | (G3BdB2) |\
+AF D2D2 | D4(FG) | (AB)(cd)(ef) | g4(fe) |\
+d2g2 (fg) | (ag)(fe)(dc) | B2G2G2 | G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

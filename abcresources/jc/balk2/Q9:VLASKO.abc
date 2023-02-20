@@ -1,0 +1,32 @@
+X: 519
+T: Vlasko
+O: Bulgaria
+Z: Birgitt Karlson  http://www-linux.gsi.de/~karlson/index_e.htm
+Z: some simplification
+F: http://www.youtube.com/watch?v=swCwW2yagwY
+M: 2/4
+L: 1/16
+Q: 1/4=108
+K: G
+%%MIDI program 23
+|:d_efg a2gf    |f_ege f2ed   |[1defg a2gf  |\
+  f_ege f2z2    :|[2daga faga |f2_ed d2z2   :|
+|:d_efg a2gf    |f_ege f2ed   |[1defg a2gf  |\
+  f_ege f2z2    :|[2daga faga |f2_ed d2z2   |:
+  dAgA fAgA     |f2_ed dAaA   |dAgA fAgA    |\
+  [1f2_ed dAdA  :|[2f2_ed d2 z2
+|:^gad'a gad'a  |^gada gaad   |=f^f^ga bgad |\
+  [1^gaad fdad  :|[2 ^gaaf d2z2
+|:^gaad fdad    |^gaad fded   |^gaad fdad   |\
+  [1^gaad f2z2  :|[2^faaf d2 z2
+|:=f^f^ga bgad  |^gaad fdad   |=f^f^ga bgad |\
+  [1^gaad fded  :|[2 ^gaaf d2 z2
+|:c2cz e2ez     |c2cz g2gz    |c2cG _edce   |\
+  [1dcBd c2cG   :|[2 dcBd c2z2
+|:efgz  dGfG    |e2dc efg2    |efgz dGfG    |e2dc c2z2 :|
+|:ceg_b abag    |^fgg=f eceg  |[1ceg_b abag |\
+  ^fgab c'cc2   :|[2fed^c defg|ecdB c2z2
+K: D
+|:dfa=c' bc'ba  |^gaad fdad   |[1dfa=c' bcba|\
+  ^gabc' d'dd'2 :|[2gfe^d efga|fdec d2z2
+|:gfe^d efga    |fdec d2a2    |gfe^d efga   |fdec d2z2 :|

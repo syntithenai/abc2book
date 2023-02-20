@@ -1,0 +1,22 @@
+X: 21073
+T: the AERIAL QUADRILLES. NO. 5.--la Finale.
+%R: march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.107 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The "D.C." at the end really should be "D.S.".
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+dd !segno!|!f!\
+d2^c2d2BB | B2^A2B2cc | A2^G2A2B2 | GDEF GABc |\
+d2^c2d2BB | B2^A2B2cc | A2^G2A2B2 | [1 G2z2 g2dd :|[2 G2z2 g2 |]
+K: D
+AA |!p!\
+A2f2e2d2 | e2A2TB2A2 | c2A2e2A2 | b2a^g a2A2 |\
+A2f2e2d2 | e2A2TB2A2 | c2A2e2A2 | d2d2d2 ||
+AA |!f!\
+A2f2e2d2 | e2A2TB2A2 | c2A2e2A2 | b2a^g a2A2 |\
+A2f2e2d2 | e2A2TB2A2 | c2A2e2A2 | d2dd d2d"^D.C."d !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

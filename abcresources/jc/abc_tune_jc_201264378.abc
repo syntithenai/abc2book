@@ -1,0 +1,26 @@
+X: 1
+T: Cooley's Reel
+C: trad. Irish
+O: arr. Clayton March
+R: reel
+S: Fiddle Hell Online 2020 handout for Clayton March's ornamentation workshop
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Edor
+% - - - - - - - - - -
+uD2 "^A1"|:\
+E(B{d}BA B2)E(B | {d}B2)AB dBA(G | FD)AD [BD]D[AD](D | FD)AD dAFD |
+E(B{d}BA B2)E(B | {d}B2)AB def(g | af)e(c dB)A(F |1 DE)FD E3D :|2 (DE)FD E2(gf) |
+"^B1"|:\
+e(B{d}B2) eBgB | e(B{d}B2) ged(B | A2)FA DAF(A | {B}A2)FA defg |
+e(B{d}B2) eBgB | e(B{d}B2) def(g | af)e(c dB)A(F |1 DE)FD E2(gf) :|2 (DE)FD E3D |
+% - - - - - - - - - -
+%%sep 3 3 200
+"^A2"|:\
+E(B{d}BA B2)E(B | {d}B2)AB dBAG | (3FE(vD A)(D[BD]D)[AD]D | (3FE(uD A)(D dA)FD |
+E(B{d}BA B2)E(B | {d}B2)AB def(g | af)e(c dB)A(F |1 DE) (3FED (E3D) :|2 DEFD E2 (gf) |
+"^B2"|:\
+e(~BB2) [eB](BgB) | e(~BB2) ged(B | A2)FA DAF(A | {B}A2)FA defg |
+eB (3BBB [eB](BgB) | eB (3BBB de(fg | af)e(c dB)(F |1 DE) (3FED E2 gf :|2 DEFD E2 |]
+% - - - - - - - - - -

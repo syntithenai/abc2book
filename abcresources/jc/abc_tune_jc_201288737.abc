@@ -1,0 +1,33 @@
+X: 1
+T: Humours of Marybon
+%R: jig
+B: John Walsh "Caledonian Country Dances" 1748
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/5/50/IMSLP98359-PMLP202128-walsh_caledonian_country_dance_vol2.1.pdf p.36 #296
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:36 #296
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+A3 fga | edc Bcd | cde  fdc | B2A GFE |\
+A3 fga | ecA Bcd | cag Tf2e | Be^d e3 :|
+|:\
+e3 =gec | ec^A c^AF | d3 fdB | dBG BGE |\
+c3  ecA | afd  ecA  | f3 edc | BAG A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+a3 a3 | a3 a3 | a3 d3 | e3 e3 |\
+a3 a3 | a3 a3 | a3 a3 | b3 e3 :|
+|:\
+e3 e3 | e3 e3 | d3 d3 | d3 d3 |\
+a3 a3 | a3 a3 | d3 d3 | e3 a3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Man cast off and turn 3 with the 3d Cu. .|.
+%% First Wo. cast off and turn 3 with the 2d Cu. :|:
+%% Hands Six round .|.
+%% Lead thro' the 2d Cu. cast off and turn.
+%%endtext

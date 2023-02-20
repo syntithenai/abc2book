@@ -1,0 +1,19 @@
+X: 10322
+T: OVER THE WATER TO CHARLIE
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.33 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+(GB)d (dB)d | (eg)B {B}A2G | (GB)d (dB)d | e3 g2G |\
+(GB)d (dB)d | (eg)B {B}A2G | (gb)g (af)d | e3 g2 |]
+g |\
+(gb)g (af)d | (eg)B (BA)G | (gb)g (af)d | e3 g2g |\
+(gb)g (af)d | (eg)B {B}A2G | (GB)d (dB)d | {d}e3 g2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

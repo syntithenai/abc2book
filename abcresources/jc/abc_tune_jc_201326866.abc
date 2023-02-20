@@ -1,0 +1,20 @@
+X:1
+T: Put on thy Smock on a Monday
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/4
+K:G
+I:speed 150
+%W:
+% voice 1 (1 lines, 15 notes)
+K:G
+M:6/4
+L:1/16
+g4 |g8 d4 B8 d4 |a12 a8 f4 |g8 f4 g8 a4 |b12 b8 g4 |
+%W:
+% voice 1 (1 lines, 17 notes)
+a6 b2 c'4 b6 a2 g4 |a8 f4 d6 e2 f4 |g8 d4 B8 d4 |g12 g8 ||

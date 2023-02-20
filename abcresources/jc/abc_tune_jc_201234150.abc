@@ -1,0 +1,16 @@
+X: 202
+T: The Baillies of Bennachie
+C: Bert Murray
+R: shottish
+B: Bert Murray's "Bon Accord Collection" 1999 p.20
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Missing half beat in last bar fixed by copying bar 8.
+M: 2/4
+L: 1/16
+K: A
+|: uc2 |\
+(e>c) (B<c) A2(c>e) | (f<a)(.d>.f) e2(c>d ) | (.e>.f) (.e>.c) (.a>.e) (.c>.A) | c2B2 B2(c>d) |
+(e>c) (B<c) A2(c>d) | (f<a)(.d>.f) e2(c>d) | e>ca>f (.e>.c) (B<e) | c2A2 A2 :|
+|: (cd) |\
+e2e2 (.e>.c) (e<a) | f2f2 (.f>.d) (f<a) | (.e>f) (e<c) a>ec>e | (f<a)e>c B2c>d |
+e>cA>c e>ca>e | f>dA>d f>da>f | e>ca>f (.e>.c) (B<e) | c2A2 A2 :|

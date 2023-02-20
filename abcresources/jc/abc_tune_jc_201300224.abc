@@ -1,0 +1,83 @@
+
+X: 1
+T: Landlord, Fill the Flowing Bowl
+R: song, march
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Bb
+%
+[FF] |\
+"Bb"[BD][FD] [DD][FD] | [BD][BD] [BD][BD] | "F"[cF][cF] [cF][fF] | "Bb"[d2F2] [BD] ||
+w: 1.~Come, Land-lord, fill the flow-ing bowk, Un-til it doth run o-ver,
+w: 2.~The man that drinks good whis-key punch, And goes to bed right mel-low,
+%
+[FD] | "Bb"[BD][FD] [DD][FD] | [BD][BD] [BD][BD] | "F"[cF][cF] [cF][fF] | "Bb"[d2F2] [BD] |]
+w: Come, land-lord, fill the flow-ing bowl, Un-til it doth run o-ver.
+w: ~ Lives* as he ought to live, And dies a jol-ly fel-low.
+%
+"Bb"[dF]>[dF] "Bb7"[dB][d_A] | "Eb"[eG][eG] [e2G2] | "F"[cF]>[cF] [cF][cF] | "Bb"[dF][dF] [d2F2] ||
+w: For to-night we'll merry, merry be, For to-night we'll merry, merry be,
+%
+"Bb"[BF]>[BF] [BF][BF] | "Cm"[cG][cG] "C7"[c=E][BE] | "F7"[AF][FF] [G=E][A_E] | [c2E2] "Bb"[BD] |]
+w: For to-night we'll merry, merry be, To-mor-row we'll be so-ber.
+
+%%sep 1 1 500
+
+X: 1
+T: Landlord, Fill the Flowing Bowl    [C]
+R: song, march
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+[GG] |\
+"C"[cE][GE] [EE][GE] | [cE][cE] [cE][cE] | "G"[dG][dG] [dG][gG] | "C"[e2G2] [cE] ||\
+[GE] | "C"[cE][GE] [EE][GE] | [cE][cE] [cE][cE] | "G"[dG][dG] [dG][gG] | "C"[e2G2] [cE] |]
+"C7"[eG]>[eG] "C7"[ec][e_B] | "F"[fA][fA] [f2A2] | "G"[dG]>[dG] [dG][dG] | "C"[eG][eG] [e2G2] ||\
+"C"[cG]>[cG] [cG][cG] | "Dm"[dA][dA] "D7"[d^F][cF] | "G7"[BG][GG] [A^F][B=F] | [d2F2] "C"[cE] |]
+
+%%sep 1 1 500
+
+X: 1
+T: Landlord, Fill the Flowing Bowl    [G]
+R: song, march
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+[DD] |\
+"G"[GB,][DB,] [B,B,][DB,] | [GB,][GB,] [GB,][GB,] | "D"[AD][AD] [AD][dD] | "G"[B2D2] [GB,] ||\
+[DB,] | "G"[GB,][DB,] [B,B,][DB,] | [GB,][GB,] [GB,][GB,] | "D"[AD][AD] [AD][dD] | "G"[B2D2] [GB,] |]
+"G7"[BD]>[BD] "G7"[BG][B=F] | "C"[cE][cE] [c2E2] | "D"[AD]>[AD] [AD][AD] | "G"[BD][BD] [B2D2] ||\
+"G"[GD]>[GD] [GD][GD] | "Am"[AE][AE] "A7"[A^C][GC] | "D7"[FD][DD] [E^C][F=C] | [A2C2] "G"[GB,] |]
+
+%%sep 1 1 500
+
+X: 1
+T: Landlord, Fill the Flowing Bowl    [D]
+R: song, march
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+[AA] |\
+"D"[dF][AF] [FF][AF] | [dF][dF] [dF][dF] | "A"[eA][eA] [eA][aA] | "D"[f2A2] [dF] ||\
+[AF] | "D"[dF][AF] [FF][AF] | [dF][dF] [dF][dF] | "A"[eA][eA] [eA][aA] | "D"[f2A2] [dF] |]
+"D7"[fA]>[fA] "D7"[fd][f=c] | "G"[gB][gB] [g2B2] | "A"[eA]>[eA] [eA][eA] | "D"[fA][fA] [f2A2] ||\
+"D"[dA]>[dA] [dA][dA] | "Em"[eB][eB] "E7"[e^G][dG] | "A7"[cA][AA] [B^G][c=G] | [e2G2] "D"[dF] |]
+
+%%sep 1 1 500
+
+X: 1
+T: Landlord, Fill the Flowing Bowl    [A]
+R: song, march
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+[EE] |\
+"A"[AC][EC] [CC][EC] | [AC][AC] [AC][AC] | "E"[BE][BE] [BE][eE] | "A"[c2E2] [AC] ||\
+[EC] | "A"[AC][EC] [CC][EC] | [AC][AC] [AC][AC] | "E"[BE][BE] [BE][eE] | "A"[c2E2] [AC] |]
+"A7"[cE]>[cE] "A7"[cA][c_G] | "D"[dF][dF] [d2F2] | "E"[BE]>[BE] [BE][BE] | "A"[cE][cE] [c2E2] ||\
+"A"[AE]>[AE] [AE][AE] | "Bm"[BF][BF] "B7"[B^D][AD] | "E7"[GE][EE] [F^D][G=D] | [B2D2] "A"[AC] |]

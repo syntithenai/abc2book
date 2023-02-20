@@ -1,0 +1,26 @@
+X: 1
+T: Wabamun Breakdown
+C: by Calvin Vollrath (1981)
+%D:1981
+R: reel
+S: Fiddle Hell Online 2022-4-3
+S: Fiddle Hell Online 2022-4-2 for Calvin Vollrath's workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+%%staffsep 40
+"^Intro"[|] c3B |\
+"A"AEAc "Bm"BFBd | "C#m"cGce "D"dAdf | "E tacet"eagf edcB | [e2A2][eA][eA] [e2A2]A,G, \
+"^A"|: "A"A,2CE FECE | A2cA ecAc | "E"(3(dcB)GB EGBG |
+"A"AcBA FAEC | "A"A,2CE FECE | A2cA ecAc | "E"(3(dcB)GB EGB!coda!G |\
+[1 "A"c[eA][eA][eA] [e2A2]A,G, :|[2 "A"c[eA][e2A2] Acde \
+"^B"|:\
+"D"f[f2d2][fd] "D#m"[f2d2](3(f=gf) |
+"A"e[e2c2][ec] "F#"[e2c2]Bc | "Bm"(3(edB)GB "E7"EGBG | "A"ABcd "A7"ecde |\
+"D"f[f2d2][fd] "D#m"[f2d2](3(f=gf) | "A"e[e2c2][ec] "F#"[e2c2]Bc |\
+"Bm"(3(edB)GB "E7"EGBd |[1 "A"c[eA][e2A2] Acde :|
+[2 "A"cABG AFE"(to A)"C |]\
+y4 !Coda!| "A"AcBG A2(3(EFG) | "A"AEAc "Bm"BFBd |\
+"C#m"cGce "D"dAdf | "E tacet"eagf edcB | A2z2 "A"H[E4A,4] |]
+%%text Named after the lake where the Grand North American Fiddle Contest was held from 1981 to 1985.

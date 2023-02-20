@@ -1,0 +1,52 @@
+
+X: 1
+T: The Rose in the Heather
+O: 1929
+R: jig
+Z: Transcribed to abc by Mary Lou Knack
+D: First recorded under this title in New York in 1929 by melodeon player Peter J. Conlon and fiddler James Morrison.
+B: O’Brien (Jerry O’Brien’s Accordion Instructor), 1949; #48.
+B: Breathnach (CRÉ I), 1963, #28, p.12.
+L: 1/8
+M: 6/8
+K: D
+|: "D"FAF "A7"EFE | "D"DFA BAF | "D"ABd "A7"ede | "D"fdB "A7"AFE \
+|  "D"FAF "A7"E[FD][EB,] | "D"DFA BAF | "D"AdB "A7"AFE | "(D)"FDC "D"D3 :|
+|: "D"fdB ABd | "D"faa afd | "G"gfg "D"fed | "Em"Bee "A7"efg \
+|  "D"fdB ABd | "D"faa afa | "G"baf "A7"gfe | "(D)"fdc "D"d3 :|
+
+%%sep 1 1 500
+
+X: 2
+T: Sean Ryan's Jig
+C: S\'ean Ryan (1987)
+R: jig
+S: Portland Collection v.2
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+B |\
+"Am"c3 "G"B3 | "Am"AGE DB,G, | A,2E EDB, | "G"DEG AGE |\
+"Am"c3 "G"B{c}dB | "Am"AGE DB,G, | A,2E EDB, | "G"DB,G, "Am"A,2 :|
+|: B |\
+"Am"cBA a2a | bag edB | "G"GBd g2g | GBd cBA |\
+"Am"~c3 dcd | ede gab | "Em"bae dBG | EFG "Am"A2 :|
+
+%%sep 1 1 500
+
+X: 3
+T: Timothy Clifford's Jig
+S: Portland Collection v.2
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|:\
+"G"G,B,D E2D | DB,D G3 | G,B,D "Am"C2B | "D7"AGF "G"FDB, |\
+"G"G,B,D E2D | DB,D GBc | ~d3 ~B2 | "D7"AGF [1 "G"GDB, :|[2 "G"G ||
+|: Bd |\
+"C"~e3 "D"~d3 | "G"BAG GBd | "C"ege d2B | "Am"BAG "D7"Agf |\
+"C"~e3 "D"~d3 | "G"BAG GAB | "Am"cec "G"BdB | "D7"AGF [1 "G"G :|[2 "G"G3 |]
+

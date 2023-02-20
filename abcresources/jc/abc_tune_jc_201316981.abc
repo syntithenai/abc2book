@@ -1,0 +1,27 @@
+X: 1
+T: New any thing
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (174)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+FG |\
+A2d2 A2d2 | A3G F2d2 | ABAG Fd cB | AGFE D2FG |\
+A2d2 A2d2 | A3G F2d2 | AdcB AGFE | D6 :|
+|: cd |\
+e2c2 A2cd | efed c2A2 | a2f2 d2fg | abag f2ed |\
+cdef gB cd | efed c2A2 | af df e2c2 | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man and 2d Wo. clap hands with each other
+%% and turn single then right and left half round .|
+%% The other Cu. do the same :| then cross over and
+%% half Figure .| Then lead thro the Bottom and thro
+%% the Top and cast off and turn :|
+%%endtext
+%%sep 1 8 500

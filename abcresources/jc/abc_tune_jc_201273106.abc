@@ -1,0 +1,41 @@
+X: 1
+T: English Paspy
+T: English Pasby
+P: Longways for as many as will
+%R: minuet
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.62 #91
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.276
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The "Paspy" spelling is in CCDM1; DMDfD uses "Pasby".
+M: 3/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+G2 d4 cB A2G2 | G2d2 e2f2 g4 |\
+A2 a4 gf e2d2 | A2d2 e2^c2 d4 |]
+B2 e4 ^d2 e2B2 | B2 e4 ^d2 e4 |\
+A2 d4 ^c2 d2A2 | A2 d4 ^c2 d4 |
+A2 c4 B2 c2(BA) | GABc defd g2G2 |\
+g2(fe) defd g2G2 | g2(fe) dcBA G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Right and left half round, the 1st Cu. lead thro' the 2d
+%% Cu. and cast off into their Places, the 2d Cu. do the same :|
+%% The 1st Cu. take both Hands and slide down the Middle and
+%% foot it, then slide up the Middle and foot it, then cast off,
+%% and go the whole Figure with the 2d Cu.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Right and left half round, the 1. man and 2. wo. lead through the 2. cu. and cast off in their places,
+%% the 2. man and 2. wo do the same. The 1. man and 1. wo. take both hands and slide down the midple [sic]
+%% and foot it, and then slide up the middle and foot it, then cast off and go the whole Figure with
+%% the 2. cu.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

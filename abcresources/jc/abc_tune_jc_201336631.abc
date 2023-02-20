@@ -1,0 +1,15 @@
+X: 1
+T: The Shingle Maker's Jig
+C: Bruce Osborne - Feb. 2005
+R: jig
+Z: abc by bosborne@kos.net
+M: 6/8
+L: 1/8
+K: D
+D |\
+FEF DFA | BAF A2d | cde fec | edB A2D |\
+FEF DFA | BAF A2d | cde fec | edc d2 :|
+|: f |\
+aff dAA | FDE F2d | cAA eAA | fAA e2f |\
+aff dAA | FDE F2d | cAA eAA | fec d2 :|
+

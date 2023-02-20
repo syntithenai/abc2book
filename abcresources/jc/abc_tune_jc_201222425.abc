@@ -1,0 +1,56 @@
+X: 5
+T: la Victoire
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #5
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+d |\
+B2B AGF | [G2G,2][GG,] [G2G,2]d |\
+B2B AGF | [G2G,2][GG,] [G2G,2]D |\
+EGc EGc | FAd FAd | c2B A2G | A2D D2d |
+B2B AGF | [G2G,2][GG,] [G2G,2]d |\
+B2B AGF | [G2G,2][GG,] [G2G,2]D |\
+EGc EGc | FAd FAd | c2B AGF | G2G, HG,2 |]
+d |\
+g2g gfe | a2a agf | efg fed | c2B A2a |\
+faf eae | faf eae | fgf ed^c | d2d "_Da Capo"d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z |\
+g2b d'2d | g2G G2f | g3 d3 | g3 G2B |
+c3 c3 | d3 d3 | fg2 c2e | d3 def | g2b d'2d |
+g2g g2f | g3 d3 | g2b g2b | c'3 c3 | d3 d3 |
+efg c2d | g3 HG2 |] z | e3 ^c3 | f3 d3 | g3 ^g3 |
+a3 A3 | d3 ^c3 | d3 ^c3 | d3 A3 | d3 "^Da Capo"d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Victoire.
+%%begintext align
+%%   Le Grand Rond. - - - 1/1
+%%endtext
+%%begintext align
+%%   The first and third Couple Contretems to the
+%% Right and Rigaudon, then turn Round four to
+%% their places - - - 1/2
+%%endtext
+%%begintext align
+%%   The four Ladies Contretems in the Attitude
+%% of Right hands cross and Rigaudon, then the
+%% four Gentlemen Contretems and inclose the
+%% Ladies by taking hold of each others hands, the
+%% Ladies go Round with their Right hands cross,
+%% while the Gentlemen go Round inclosing
+%% them - - - - 1/1
+%%endtext
+%%begintext align
+%%   Counter-part of the whole Figure
+%%endtext
+%%endtext
+%%sep 1 1 400

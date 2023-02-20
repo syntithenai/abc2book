@@ -1,0 +1,43 @@
+X: 21561
+T: AH PERDONA
+T: DUET FROM THE OPERA OF "LA CLEMENZA DI TITO."
+C: Mozart.
+Q: "Andante."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.156 #1 (and p.157 #1)
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted to fit a small-scale, compact page for proofreading.
+V: 1 staves=2
+[|\
+z4 f2a2 | d3(e/f/) (ag)(fe) | d2c2 d2f2 | B3c (de)(fg) |\
+f2e2 f2a2 | d3(e/f/) (ag)(fe) | d2c2 a2a2 | (3(a^ga) (3(b=ge) d2(e>f) |\
+{f}g2z2 g2f2 | (bg)(fe) (ed)(dc) | {e}d2z2 z4 |
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+z4 d3A | e3A f3(a/g/) | f2e2 z4 | z8 |\
+z8 | z4 (c'a)(ae) | e3c (dc)(de) | d2c2 (c'a)(ae) |\
+e3c (dc)(dB) | A4 z2^gg |
+(ae)e2 z^ggg | (ae)e2 z2^gg | (ae)(ac') Hd'3^g | Ha3=g f2a2 |\
+d3(e/f/) (ag)(fe) | d2c2 d2f2 | B3c (de)(fg) | f2e2f2a2 |\
+Hd'3c' (c'b)(ag) | f2e2 a2a2 |
+(3(afd') (3(d'bg) f2(e>f) | {a}g2z2 g3g |\
+(ge) (ea) a3a | ({b}ag/f/)f z4 |\
+z4 f2g2 | e4 z4 | z4 g2a2 | f4 z4 |\
+z4 z>b f2e2 | f4 z4 | z4 z>b f2e2 | d4 z4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff layout.
+V: 2
+[|\
+z4 z4 | z8 | z8 | z8 | z8 | z8 | z8 |
+z8 | z8 | z8 | z4 f2a2 | d3(e/f/) (ag)(fe) | d2c2 d2f2 |
+B3c (de)(fg) | f2e2 f2a2 | d3(e/f/) (ag)(fe) | d2c2 a2a2 | (3(a^ga) (3(b=ge) d2(e>f) | {f}g2z2 g2f2 |
+(bg)(fe) (ed)(dc) | d4 z4 | z8 | z8 | z8 | z4 a3a | (ac2)a (ad2)a | gfe2 (ae)(ec) |
+c3A (BA)(Bc) | B2A2 (ae)(ec) | c3A (BA)(B^G) | A4 z2dd | (ce)c2 zddd | (ce)c2 z2dd | e2ea H^g3d |
+{d}Hc4 d2c2 | B2F2 E2G2 | A2G2 F2D2 | G2E2 F2D2 | A2A2 d2e2 | f3a (ag)(fe) | d2c2 d2g2 |
+(3(fdf) (3(bge) d2c2 | d2z2 z2dd | (ec)c2 z2gg | ({g}fe/d/)d z4 | z4 d2G2 | A4 z4 | z4 e2A2 |
+B4 z4 | z4 z>d d2c2 | d4 z4 | z4 z>g d2c2 | d4 z4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

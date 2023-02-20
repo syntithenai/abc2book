@@ -1,0 +1,35 @@
+
+X: 1
+T: Norrala polskan v.1
+O: efter Anders Wallin, Bolln\"as, H\"alsingland
+O: efter Martin Larsson, H\"alsingland
+R: 16th-note polska
+N: The 2nd part has only 7 bars.
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: D
+|: A2 \
+| "D"d2dA F2FD "A7"E4 | "D"D3F A2d2 f2a2 | "G"b2bg "D"a2af "A7(Em)"g2ge |1,3 "E7"d-cdf e-dcB "A"A2 :|
+|2,4 "A7"A-cec "D"d6 :: g2 | "D"f2d2 A-df-d A-df-d | "A"e2c2 A-ce-c A-ce-c | "G"B2G2 D-GB-G D-GB-G |
+| "D"A2BA "E7"F2D2 "A7"E4 | "D"D3F A2d2 f2a2 | "G"b2bg "D"a2af "A7(Em)"g2ge |"A7"A-cec "D"d6 :|
+%%text https://www.youtube.com/watch?v=Cyi4-rpkECk
+
+%%sep 1 1 500
+
+X: 1
+T: Norrala polskan v.2
+O: efter Anders Wallin, Bolln\"as, H\"alsingland
+N: Version from Christine Anderson
+R: 16th-note polska
+N: The 2nd part has only 7 bars.
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: D
+|: A2 |\
+"D"d2dA F2FD "A7"E4 | "D"D3F A2d2 f2a2 |\
+"G"b2bg "D"a2af "G"g2ge |"A7"Acec [1,3 "D"d2dA F2A2 :|[2 "D"d6 :|
+|: g2 |\
+"D"f2d2 Adfd Adfd | "A"e2c2 Acec Acec | "G"B2G2 DGBG DGBG |
+"D"A2BA "G"G2AG "D"F4 | "D"D3F A2d2 f2a2 | "G"b2bg "D"a2af "G"g2ge |"A7"Acec "D"d6 :|

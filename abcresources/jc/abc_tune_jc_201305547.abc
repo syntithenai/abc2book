@@ -1,0 +1,18 @@
+X:434
+T:Mage on a Cree
+C:John Playford, 1651 (A-music)
+C:Pat Shaw, 1961 (B-music)
+N:4 B's in second figure.
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=120
+M:6/8
+L:1/8
+%%titleformat P-1 T N0 C1
+%%MIDI ratio 3 1
+K:F
+P:A
+|: "Gm"B>cd/e/ "F"f2c | "F"A2F c2A | "Bb"B>cd d>cd | "Gm"B>AG d2G |\
+"Bb"B>cd/e/ f2c | "F"A2F c2A | "Bb"B>cd "C7"e>fg | "D7"^f>ef "Gm"g3 :|
+P:B
+|: "Gm"g>^fg/a/ b2g | "Bb"f2d d>cB | "F"A>Bc c>Bc | "F"A>GA F3 |\
+"Gm"g>^fg/a/ b2g | "Bb"f2d d>cB | "F"c>BA "Gm"B>AG | "D7"^F>^EF "Gm"G3 :|

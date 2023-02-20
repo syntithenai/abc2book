@@ -1,0 +1,17 @@
+X:116
+T:Cheerily and Merrily
+M:3/4
+L:1/4
+%%MIDI gchord c2c
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+N:Sharp and Barlow have the tune in 6:8, but it's unplayable!  It's NOT a waltz, however.
+Q:1/4=120
+C:John Playford, 1651
+K:F
+P:A
+|: "F"c/B/AF | "Gm"G/A/GD | "F"F2 F | "Dm"a2 g |\
+"C"gec | "Gm"d/e/dB | "F/C"c3/e/ d/e/ | "C"c3 :|
+P:B
+|: "F"cd/e/f | "Dm"dcA | "Gm"G3/A/B/c/ | "C7"d2 c |\
+"F"cAF | "Gm"G/A/GD | "Bb"F3/A/ G/A/ | "F"F3 :|

@@ -1,0 +1,48 @@
+X: 1
+T: Ebb Tide
+B:Folk Music and Dances of Ireland, Breandan Breathnach
+S:John Kelly (senior), concertina
+R:hornpipe, reel
+M:4/4
+L:1/8
+Z:transcribed by Paul de Grae
+K:G
+dc |\
+BdAB GABc | d2 GG G2 bg | fdcA BcdB | cABG =F2 dc |
+(3BdB (3ABA GABc | defd gdge | fdcB ceAc | (3BdB GG G2 :|
+|: ga |\
+bgdG gGdG | DGBd gdbg | aBcA =fAcA | D=FcF fFeF |
+BdAB {B}GABc | defd gdge | fdcB ceAc | (3BdB GG G2 :|
+
+%%sep 1 1 500
+
+X: 3
+T: Ebb Tide
+M:2/4
+L:1/8
+R:hornpipe, reel
+S:Ryan's Mammoth Collection (1883)
+Z:AK/Fiddler's Companion
+K:C
+G2 |\
+c2 ce ga ge | ga ge ga ge | fa fd eg ec | de fd cB AG |
+c2 ce ga ge | ga ge ga ge | fa fd eg ec | Bd GB c2 :|
+|: ef |\
+ge ce ge  ag | fa fd B2 de | fd BG DG Bd | ec GE C2 ef |
+ge ce gc' eg | ag fe d2 de | fa gf ed cB | c2 c2 c2 :|
+
+%%sep 1 1 500
+
+X: 5
+T: Ebb Tide, The
+M: 4/4
+L: 1/8
+R: reel
+K: Emin
+d^c |:\
+BE~E2 {G}EDB,A, | D2FE DA,~A,2 | B,EED EFGA | {d}B2eB dBAc | BE{G}ED EDB,A, | D2FE DA,~A,2 |
+B,E{G}ED EFGA | B2AF GE{G}E2 :| {a}g2eg bgeg | f2df afdf | {a}g2eg bgeg | fedB e3d |
+{a}g2eg bgeg | f2df afdf | eB{d}BA ~B3^c | d^cdf e2ef |[| gbeg begb | {a}f2df afdf |
+g2eg bgeg | fedB e3f | {a}g2eg bgeg | f2df afdf | eB{D}BA ~B3^c | d^cdf e2 |]
+
+%%sep 1 1 500

@@ -1,0 +1,17 @@
+X:188
+T: Debka Kna'an
+O: Israel
+C: Arabic
+N: Tikva Records T104: Dance for Fun, Ayala Goren, Shai Burstyn, Geula Zohar
+F: http://www.youtube.com/watch?v=8d6hxz0yhGE
+M: 2/4
+L: 1/16
+K: EPhr
+Q: 1/4=108
+%%MIDI gchord ff3z4
+%%MIDI program 20 Reed Organ
+%%MIDI bassprog 117 Melodic Tom
+"Em"EzEF GzGz|"Dm"GAFz FGED|"Em"EzEE E2FA|GFED E2z2|
+%%MIDI program 69 English Horn
+EzEF GzGz|"Dm"GAFz FGED|"Em"EzEE E2FA|GFED E2z2::
+EzEE FzAz|"Dm"GFFE E2z2|"Em"EzEE FzAz|GFFE E2z2:|

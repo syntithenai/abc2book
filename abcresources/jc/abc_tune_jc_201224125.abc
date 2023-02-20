@@ -1,0 +1,21 @@
+X:0805
+T:The River Cree
+P:Jackson's Bottle of Claret
+C:From Cooke's Selection of Country Dances, 1796
+R:Jig (8x32)
+B:RSCDS 8-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+V:1
+%%staves (1 2)
+[V:1] |:G|"G"G2G "D"A>GA|"G"B2g gdB|"D"c2A "Em"BGE|"G"G>AG GED|
+[V:1]     "G"G2G "D7"A>GA|B2g gdB|"A"c2A "Em"BGE|"C"G>AG "G"G2:|
+[V:1] |:d|"Em"gfg efg|"Bm"fdB B3|"Em"gfg "A"efg|"D"afd d2f|
+[V:1]     "Em"gfe "A"agf|"Em"gf"D/F#"e "G"edB|"Am"cBA "Em"BGE|"C"G>AG "G"G2:|
+%V:2
+%[V:2] |:x|x6            |x6        |x6            |x6         |
+%[V:2]        x3      F3  |G2z z2z|   E6         |   E3      D2:|
+%[V:2] |:x|    B6     |    B3  B3|    B3     A3 |   x6     |
+%[V:2]         d3     c3 |    B2      c    B3 |    E6         |   E3      D2:|

@@ -1,0 +1,23 @@
+X: 44
+T: Beda Oro
+O: Macedonia
+W: originally from Martin Junghans/Jutta Weber-Karn transcription
+W: http://www.folkloretanznoten.de/
+W: some modifications introduced
+M: 7/8
+L: 1/8
+Q: 1/4=108
+K: Am
+%%MIDI gchord fz2czcz
+|:"C"{A}G^FG A_BAG|FGE {G}F2 EC|{A}G^FG "F"A_BAG|"C"FGE {G}F2 AB|
+"F"{D}cBd c_BAG|A_B/A/G "C"{G}F2 EC|CDE FGEC|"Dm"D2A G^FG3/2 A/4B/4|
+"F"{D}cBd c_BAG|A_B/A/G "C"{G}F2 EC|CDE FGEC|"Dm"DEC D2 z2:|
+"C"CDE FGEC|CDE FGEC|CDE FGEC|"Dm"D2A G^F G2|
+"C"CDE FGEC|CDE FGEC|CDE FGEC|"Dm"D2 GGA-|"D"A7-|A7|
+|:^FGG G2 G/F/G/A|^F2 _E DCDE|^FGG G2 G/F/G/A|^F2 _E DCDE|
+  ^FGG G2 G/F/G/A|^F2 _E DCDE|_EDC DE ^F2|_EDC D2 D2:|
+_EDC DE ^F2| _EDC DE ^F2| _EDC DE ^F2| _EDC D2 D2|
+Q:1/4=132
+_EDC DE ^F2| _EDC DE ^F2| _EDC DE ^F2| _EDC D2 D2|:
+Q:1/4=160
+^FGA F2 DE|^FDD FG A2|^FGA F2 DD|D2z z4:|

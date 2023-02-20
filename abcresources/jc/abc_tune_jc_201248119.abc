@@ -1,0 +1,24 @@
+X:1
+T:Aspenglow
+C:John Denver
+M:3/4
+L:1/4
+K:Am
+"^I"\
+| "Am"z6 | "Dm"z6 | "F"z6 | "C"z6 | "Am"z6 | "Dm"z6 | "F"z6 | "C"z6 \
+"^A"\
+|: "Am"A/G/A/G/A/G/ | "Dm"A3 | "F"A/G/A/G/A/E/ | "C"G3 |\
+| "Am"c/B/A/G/F/E/ | "Dm"D3 | "C"E/F/G2 | "G"E/F/G2 :|
+"^B"\
+[|"F"A/B/c/d/c/>E/ | "C"G3 | "F"c/c/c/c/c/>E/ | "C"G3 |\
+| "F"A/B/c/c/c/>E/ | "C"G3 | "D"A/B/c/c/B/A/ | "G"G3- | G3 |]\
+"^A"\
+|: "Am"A/G/A/G/A/G/ | "Dm"A3 | "F"A/G/A/G/A/E/ | "C"G3 |
+| "Am"c/B/A/G/F/E/ | "Dm"D3 | "C"E/F/G2 | "G"E/F/G2 :|\
+"^B"\
+[|"F"A/B/c/d/c/>E/ | "C"G3 | "F"c/c/c/c/c/>E/ | "C"G3 |\
+| "F"A/B/c/c/c/>E/ | "C"G3 | "D"A/B/c/c/B/A/ | "G"G3- | G3 |]
+"^A"\
+[|"Am"A/G/A/G/A/G/ | "Dm"A3 | "F"A/G/A/G/A/E/ | "C"G3 |\
+| "Am"c/B/A/G/F/E/ | "Dm"D3 | "C"E/F/G2 | "G"E/F/G2 |]\
+| "C"E/F/G2 | "G"E/F/G2- | "Am"A3- | A3 |]

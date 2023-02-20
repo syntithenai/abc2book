@@ -1,0 +1,62 @@
+X: 10281
+T: QUICK MARCH IN CYMON
+C: Michael Arne (1770)
+%R: march, quickstep
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.28,29 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: In bar 13, the clash of Bb and A is probably a typo; not fixed.
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 10 bars per staff.
+V: 1 staves=3
+|:\
+B2BB B2B2 | B2B2B2F2 | B2F2B2F2 | d2B2B2b2 |\
+f2f2f2b2 | d2d2d2f2 | B2cd edcB | f2F2F2 :: AB |\
+c3d c3d | e3d c2B2 |
+A2F2G2A2 | Bcde f4 |\
+c3d B3d | e3dc2B2 | A2F2 GBAc | B4 z2 :: !p!d2 |\
+g4 d2b2 | g4 d2b2 | g2b2d2b2 | g4 z2b2 |
+a2a2 agfe | d2d2defg | a2a2a2a2 | d4 z2 :: !f!de |\
+.f2.f2.f2 de | .f2.f2 .fedc | B2B2c2c2 | dcde d2de |\
+.f2.f2.f2 de | .f2.f2 .fedc |
+B2B2 cBcd | B4 z2 :: !p!Bc |\
+.d2.c2.d2.c2 | .B2.A2.G2.F2 | .G2.B2.A2.c2 | BABc B2Bc |\
+.d2.c2.d2.c2 | .B2.A2.G2.F2 | G2B2 ABcA | B4 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2
+|:\
+B2BB B2B2 | B2B2B2F2 B2F2B2F2 | d2B2B2f2 |\
+d2d2d2f2 | B2B2B2d2 | D2DE F2ED | F2F2F2 :: FG |\
+A3B A3B | c3B E2D2 | C2E2C2D2 |
+DFBc d4 |\
+A3BA3B | c3B E2D2 | C2F2 E2F2 | D4 z2 :: z2 |\
+B2d2B2d2 | B2d2B2d2 | B2d2B2d2 | B4 z2B2 |\
+A2A2 AGFE | D2D2 DEFG |
+A2A2A2A2 | D4 z2 :: Bc |\
+.d2.d2.d2 Bc | .d2.d2.d2 FE | D2D2A2A2 | BABc B2Bc |\
+.d2.d2.d2 Bc | .d2.d2.d2F2 |
+D2D2 EDEF | D4 z2 :: DF |\
+.B2.A2.B2.A2 | .G2.F2.E2.D2 | .E2.G2.C2.E2 | DCDE D2DF |\
+.B2.A2.B2.A2 | .G2.F2.E2.D2 | E2G2 F2E2 | D4 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 3 preserves the original staff breaks.
+V: 3 clef=bass middle=d
+|:\
+B2BB B2B2 | B2B2B2F2 | B2F2B2F2 | d2B2B2z2 |\
+b2B2B2z2 | b2B2B2z2 | b2B2B2b2 | f2F2F2 :: z2 |\
+f2f2f2f2 | f2f2f2f2 | f2f2f2f2 |
+b2b2b2B2 |\
+[a2f2][a2f2][a2f2][a2f2] | f2f2 f4 | f4 F4 | B4 z2 :: z2 |\
+g4 z4 | g4 z4 | g4 g4 | g4 z4 |\
+a4 z4 | d4 z4 |
+a2a2a2a2 | d4 z2 :: z2 |\
+.b2.b2.b2z2 | .b2.b2.b2z2 | b2b2 f2f2 | b2b2b2z2 |\
+.b2.b2.b2z2 | .b2.b2.b2z2 |
+b4 f4 | B4 z2 :: z2 |\
+.b2z2 .b2z2 | .b2z2 .b2z2 | .e4 .f4 | B2B2B2z2 |\
+.b2z2 .b2z2 | .b2z2 .b2z2 | e4 f4 | B4 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

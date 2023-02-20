@@ -1,0 +1,25 @@
+X: 2331
+T: the Lads of Dunse or Sir Alex.r Don's Delight
+%R: jig
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p33 #1 (top 8 staves continued from p.32)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 8-bar lines.
+V: 1 staves=2
+B |\
+{B}A2D- DED | (DED) TB2A | TB>cd AFA | BGE TE2d ||\
+{B}A2D- DED | (DED) TB2A | TB>cd AFd | AFD D2 :|
+g |\
+(Tfef) ~d2e | fga TB2A | TB>cd AFA | BGE E2g ||\
+(Tfef) ~d2e | fga TB2A | TB>cd AFd | AFD D2g ||
+(Tfef) ~d2e | fga TB2A | TB>cd AFA | BGE E2f/g/ ||\
+afa geg | fdf ece | ~d>cB AFd | AFD D2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d3 d3 | d3 g2f | g3 d3 | e3 e2z || d3 d3 | d3 g2f | g3 a3 | d'3 d2 :|
+z | d'3 d'3 | d'3 g2f | g3 f2d | e3 e3 || d'3 d'3 | d'3 g2f | g3 a3 | d3 d3 ||
+d'3 d'3 | d'3 g2f | g3 d3 | e3 e3 || d3 e3 | f3 g3 | a3 A3 | d3 d2 |]

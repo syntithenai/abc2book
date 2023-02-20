@@ -1,0 +1,18 @@
+X: 321	% 88
+T: Old Irish Reel
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.32 #1
+N: A variant of Over the Moor to Maggie, aka Waynesboro, aka Rambles in Sligo.
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Last note of first strain shortened from quarter to 8th note, to fix the rhythm.
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="88"
+D2 |\
+G3A BABd | gdeB cBAG | EAAB A2GE | EAAB A2GE |\
+G3A BABd |
+gfgd edBG | EGFA G2(ED) | EGFA G2 || (ga) |\
+b2bg a2af | gfgd edBG |
+eaab a2(ge) | faab a2ga |\
+b2bg a2(af) | gfgd edBG | EGFA G2ED | EGAB G2 |]

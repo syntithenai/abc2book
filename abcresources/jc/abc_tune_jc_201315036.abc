@@ -1,0 +1,16 @@
+X:2
+%%vskip .5cm
+T: Music In the Glen
+M: C|
+L: 1/8
+R: reel
+K:Amaj
+"A"A2cA "D"FAED|"A"CEAc BABc|"D"d2fd "A"c2ec|"Bm"dBcA "E"BAFE|
+"A"AcBA "D"FAED|"A"CEAc BABc|"D"defg "A"agaf|1 "E"ecBc "A"A3E:|\
+[2  "E"ecBc "A"A3B ||
+|:"A"cA eA "D"fA"A"ed|"A"cAec "E"dBGB|"A"cAeA "D"fefg|"A"aecA "E"BAFA|
+"A"cAeA "D"fefg|"A*"a2ga "E"bgeg|"A"a2ga "D"faec|1 "Bm"dBcA "E"BAFA:|\
+[2 "Bm"dBcA "E"BAFE|]
+%%begintext ragged
+Ending: After the A chord with the asterisk, backup drops out.  Tack on an A at the end.
+%%endtext ragged

@@ -1,0 +1,22 @@
+X: 3344
+T: Marchmont House.
+%R: jig
+B: Niel Gow & Sons "Complete Repository" v.3 p .34 #4 (and the top 6 staffs of p.35)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+   A | (F/G/A).F D2A | ~d>ed dAG | (F/G/A).F D2f | eEE TE2G | (F/G/AF) D2A | ~d>ed dAF | FdF Edc | dAF D2 :|
+|: g | (f/g/a)f Td2f | aba afd | (f/g/a)f ~d>ef | eEE TE2g | (f/g/a)f dfa | bag fed | (B/c/d)B AFd | AFD D2 :|
+|: !f!A | FAd FAd | dAF dAF | FAd ~d>ef | eEE TE2G | FAd FAd | fed cBA | (B/c/d)B AFd | AFD D2 :|
+|: !p!f | dfa dfa | afd afd | dfa def | eEE TE2f | dfa dfa | bag fed | (B/c/d)B AFB | AFD D2 :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | d3 d3 | d3 d3 | d3 d3 | e3 e3 | d3 d3 | d3 d3 | d3 A3 | D3 D2 :|
+|: z | c'3 c'3 | d'3 d'3 | d'3 d3 | e3 c'3 | d'3 d'3 | g3 f3 | g3 a3 | d3 d2 :|
+|: !f!z |\
+[d3D3] [d3D3] | [d3D3] [d3D3] | [d3D3] [d3D3] | [e3E3] [e3E3] |\
+[d3D3] [d3D3] | [d3D3] [f3F3] | [g3G3] [a3A3] | [d3D3] [d2D2] :|
+|: !p!z | d'3 d'3 | d'3 d'3 | d'3 d3 | e3 c'3 | d'3 d'3 | g3 f3 | g3 a3 | d3 d2 :|

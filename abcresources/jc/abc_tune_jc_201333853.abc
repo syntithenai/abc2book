@@ -1,0 +1,36 @@
+X: 1
+T: Sancho Pancho
+P: Longways for as many as will
+%R:
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.162
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The end-points for slurs are a bit vague, and are quite likely to be transcribed incorrectly.
+N: All the tune phrases have odd lengths.  The staff lengths have been left as in the book.
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+z4 G2 |\
+G2 A2 B2 | B2 c2 d2 | d2 e2 d2 | (A2 B2) c2 |\
+(Bc d2 e/)(f/g) | (g d3) B2 | c3 e d2 | B2 G4 |\
+z4 A2 | B2 c2 d2 | d2 c2 B2 | c2 d2 e2 |\
+e2 f2 g2 | (fg) a2 (ad) |
+(d2 e2 f2) | e3 f g2 | f2 d4 | z4 d2 |\
+e2 f2 g2 | d2 c2 B2 | c2 d2 e2 | e2 d2 c2 |\
+B2 A2 G2 | G2 A2 G2 | B2 c2 d2 | d2 c2 B2 |\
+A2 B2 c2 | c2 d2 e2 | e2 d2 c2 | B2 d2 g2 |\
+(g d3) (dB) |
+(B G3) D2 | GA B2 c2 | d4 (e/f/g) | (g d3) B2 |\
+(Bc d2) G2 | Bc d2 g2 | f4 A2 | G2 B2 d2 |\
+B2 d2 g2 | cB cd ef | g2 f2 e2 | d2 B2 g2 |\
+d3 c B2 | A2 G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man go round the 2. wo. and turn the 2. man till the 1. man comes into his own place, the 1. wo.
+%% go round the 2. man, and turn the 2. wo. till the 1. wo. comes into her own place; the 1. cu. cross over
+%% and go the Figure through till they come into the 2. cu. place, then lead through the 3. cu. and cast up,
+%% and go the Figure through the 1. cu. and so cast off.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

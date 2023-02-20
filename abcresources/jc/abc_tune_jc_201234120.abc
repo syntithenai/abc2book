@@ -1,0 +1,18 @@
+X: 20282
+T: la GAR\,CON VOLAGE.     Quadrille.
+%R: jig
+B: "Edinburgh Repository of Music" v.2 p.28 #2 - p.29 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+(d/B/) |\
+(Gd).B (Gd).B | (Ad).c (Ad).c | (Bd).g {a}gfg | aaa a2 (d/B/) |\
+(Gd).B (Gd).B | (Ad).c (Ad).c | (Bd).g {b}aga | ggg "_Fine."g2 H:|
+|: d |\
+b3 g3 | aaa a2z | a3 f3 | ggg g2z |\
+b3 g3 | aaa a2z | a3 f3 | ggg g2 :|
+|: G |\
+d3 {d}cBc | d3 {d}cBc | d2d g2b | (ba).g (fe).d |\
+c3 {c}BAB | c3 {c}BAB | (ce).d (cB).A | GGG "_D.C."G2 :|

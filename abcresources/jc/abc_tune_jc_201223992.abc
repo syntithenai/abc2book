@@ -1,0 +1,49 @@
+X: 7
+T: ROSAMOND'S POND
+R: march
+M: C|
+L: 1/8
+Z: 2011,2014 John Chambers <jc:trillian.mit.edu>
+B: Thomas Bray's Country Dances 1699 p.18
+P: AA BB ad lib.
+Q: 1/2=88 "wistful"
+K: Dm
+%----------------------------------------
+% V:1 arranged to give fewer, longer staff lines.
+V: 1
+"A"[|] e2 |\
+f2gf e2fe | d2e2 ^c2a2 |\
+e2g2 f2e2 | f2e2 d2 ",  "e2 |\
+f2c2 f2B2 | f2A2 G2g2 |\
+c2f2 g2e2 | f6 :|
+"B"|: A2 |\
+A2AB c2f2 | c2A2 c2f2 |\
+c2BA B2AG | F2E2 F2 ",  "g2 |\
+a4 g2ag | f2gf e2(fe/f/) |\
+g2ed ^c2ae | f2e2 d2 :|
+%----------------------------------------
+V: 2
+z2 | z4 z2E2 | F2GF E2^c2 | A2e2 d2B2 | "A"A2G2 "Dm"F2z2 |
+C4 B,4 | A,4 C4 | A,2C2 B,2G,2 | A,2C2 F2 :||: F2 |
+F2FG A2F2 | A2F2 A2F2 | A2GF G2D2 | C2B,2 A,2C2 |
+C4 ^C4 | D4 E2^C2 | D2G2 A2^CE | D2^C2 D2 :|
+%----------------------------------------
+V: 3 clef=bass middle=d
+z2 | "Dm"d'2d2 "Am"c2c'2 | "Bb"b2"Gm"g2 "A"a2A2 | "A"^c2A2 "D"d2"Edim"G2 | "A"A2a2 "Dm"d4 |
+"F"a4 "Gm"g4 | "F"f4 "C"e4 | "F"f2A2 "Gm"B2"C"c2 | "F"f6 :||: z2 |
+"F"f4 F4 | "F"f4 A4 | "F"f4 "Gm"B4 | "C"c4 "F"f2"C"e2 |
+"F"f4 "A"e4 | "Dm"d4 "A"^c2A2 | "Gm"G2B2 "A"A2ag | "A"a2A2 "Dm"d2 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%center Rosamond Pond, a New Country Dance.
+%%begintext align
+%% The 1st Man take Hands with the 2d Wo. and left Hands a cross and turn S. both to the right
+%% Hand to their own places again; the 1st Wo. and 2d Man go half round, to each others place
+%% at the same time, then the 1st Wo. and 2d Man take right hands, and left Hands a cross, and turn S. to
+%% the right Hand to the same place again, and the 1st Man and 2. Wo. go half round at the same time .|
+%% Then the same thing again till they all come to their proper place as at first :| The 1st Man and 2d
+%% Wo. change places with both Hands, and turn S. to the right Hand, to each others place, the 1st Wo. and
+%% 2d Man do the same after them .| 1st Man take his Wo. by both hands, and put her from him, till
+%% they come above, 2d Man take his Wo. by both Hands at the same time, and pull her to him till they come
+%% below, then the 1st cu. cross over and meet below; the 2d cu. cross up the middle and meet above .|
+%% And so to the end.
+%%endtext

@@ -1,0 +1,27 @@
+X: 062
+T: Lord Aboyne's welcome or Cumbernauld house
+%R: air
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.6 #2
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Q: "slow"
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1
+G>A |\
+B>AB>d {c}B2(TAG) | TE>DEG A2B>d | Te2(d>c) d(BTAG) | (D>E)(G>A) G2 :|
+|: TB>A |\
+G>AB>c {Bc}d3e | Td(c/B/) AB d2zd | e>fg>a | Tf2 (g/f/e/d/) | B2e>f Te3d |
+g>a (b/a/b) B2 (c/B/TA/G/) | AB {e}d(c/B/) A2B>d | Te2d>c d(BTAG) | (D>E)(G>A) G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+z2 |\
+G2d2 g2z"6"b | c'3g d2G2 | c>c'"6"b>a "6"b2 "6"c'2 | "6;4"d'2d2 g2 :|
+|: z2 |\
+g2g>a "6"b>ag>c' | "6"b2zg dd'"6"bg | c2z"6"^c "6"^dBe"6"a | "6;4"b2"5;#"B2 ee'd'c' | "6"b2z"6"d
+b2zG | "6"c2G2 d2G2 | c>c'"6"b>a "6"b2 "6"c'2 | "6;4"d'2"5;3"d2 g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

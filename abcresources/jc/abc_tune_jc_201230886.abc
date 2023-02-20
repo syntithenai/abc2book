@@ -1,0 +1,23 @@
+X: 142
+T: Miss Anderson's Favourite
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.14#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slow"
+R: jig
+M: 6/8
+L: 1/8
+K: F
+V: 1
+B |\
+A2c E2F | d2B G2F | ECA FDd | {d}cBA {A}G3 |\
+A2c A2F | d2f e2A | B2d c2E | F3 F2 :|
+|: e |\
+f2e d2a | b2a g3 | d'2c' {c'}b2a | gab afd | c2A B2d | c2e f2d' | {d'}c'2a d2e | f3 f2 :|
+V: 2 clef=bass middle=d
+z |\
+zfa bga | zbg ecf | ze^c dfB | AB=B c>_BA/G/ |\
+Ffe dfa | b2d' c'af | d2B c2C | FAc f2 :|
+|: z |\
+zd'^c' d'df | e2f cef | g2a bgf | e2[ec] f2z |\
+zf_e dcB | Afg afb | a2f bgc' | fcA F2 :|

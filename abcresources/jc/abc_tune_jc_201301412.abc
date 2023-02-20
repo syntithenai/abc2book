@@ -1,0 +1,29 @@
+X:1
+T:Lee's Waltz
+C:Doug Felt, 1997
+C:arr. David Holt, 2016
+L:1/4
+M:3/4
+Q:1/4=130
+I:linebreak $
+Z: Contributed 2016-06-19 19:56:12 by David bassracket@yahoo.com
+K:D
+V:1 name=Do
+"D"A A/A/ A/A/ |"F#m" A A/A/ A/A/ |"G" A G F |"A" E3 |"G" D3 |"A" E D E |"D" F3- | F3 | A3 |"F#m" A3 |
+$"G" A G F |"A" E3 |"G" D3 | "A"E D E |"D" D3- | D3 |1"C" e2 e/e/ | e f g |"G" d3 | B3 |
+$"D" A2 A/A/ | A B =c |"G" B3- | B3 |"C" e2 e/e/ | e f g |"G" d3 | B3 |"D" A2 A/B/ | =c B A |
+$"G" G3 |"A" A3 :|[2"G" B2 B/B/ | B c d |"D" A3 | F3 |"A" E2 E/E/ | E F G |"D" F3 |"D7" F3 |
+$"G"B2 B/B/ | B c d |"D" A3 | F3 |"A" E2 E/F/ | G F E |"D" D F A | D3 |]
+V:3 name=La
+F F/F/ F/F/ | F F/F/ F/F/ | F E D | C3 | B,3 | C B, C | D3- | D3 | F3 | F3 | F E D | C3 | B,3 |
+C B, C | A,3- | A,3 | =c2 c/c/ | =c d e | B3 | G3 | F2 F/F/ | F G A | G3- | G3 | =c2 c/c/ |
+=c d e | B3 | G3 | F2 F/G/ | A G F | D3 | F3 :| G2 G/G/ | G A B | F3 | D3 | C2 C/C/ | C D E |
+D3 | D3 | G2 G/G/ | G A B | F3 | D3 | C2 C/D/ | E D C | A, D F | A,3 |]
+
+V:2 name=Me
+c c/c/ c/c/ | c c/c/ c/c/ | c B A | G3 | F3 | G F G | A3- | A3 | c3 | c3 | c B A | G3 | F3 |
+G F G | F3- | F3 |1 g2 g/g/ | g a b | f3 | d3 | c2 c/c/ | c d _e | d3- | d3 | g2 g/g/ | g a b |
+f3 | d3 | c2 c/d/ | _e d c | B3 | c3 :|2 d2 d/d/ | d e f | c3 | A3 | G2 G/G/ | G A B | A3 | A3 |
+d2 d/d/ | d e f | c3 | A3 | G2 G/A/ | B A G | F A c | [Fcf]3 |]
+
+

@@ -1,0 +1,32 @@
+X: 342
+T: Mrs A. MACGLASHAN
+C: JOHN MACGLASHAN
+R: Jig
+B: Glen Collection p.34 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Gm
+%
+V: 1
+D |\
+G2G GB,G, | G,B,D BAG | F2c A2f | cdB {B}AGF |\
+G2G GB,G, | G,B,D BAG | F2f Tc2A | dBG G2 :|
+d |\
+g/a/ba gdB | GBd gab | f/g/ag fcA | FAc fga |\
+g/a/ba gdB | GBd gab | agf cAc | dBG G2d |
+g/a/ba gdB | GBd gab | f/g/ag fcA | FAc fga |\
+bgb a^fa | gdg fcf | dfd TcAc | dBG G2 |]
+%
+V: 2
+z |\
+G3 [g3d3] | B3 [g3d3] | F3 [f3c3] | A3 [f3c3] |\
+G3 [g3d3] | B3 [g3d3] | F3 [c'2a2] | [b3g3] [b3g3] :|
+z |\
+g3 [g'3d'3] | b3 [g'3d'3] | f3 [f'3c'3] | a3 [f'3c'3] |\
+g3 [g'3d'3] | b3 [g'3d'3] | f3 [c'3a3] | [g3G3] [d'3b3g3] |
+g3 [g'3d'3] | b3 [g'3d'3] | f3 [f'3c'3] | a3 [f'3c'3] |\
+g'3 d'3 | b3 a3 | b3 a3 | g3 [d'2b2g2] |]

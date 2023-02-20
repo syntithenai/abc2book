@@ -1,0 +1,43 @@
+X: 14041
+T: the Lady of the Flow'ry Field
+%R: air, waltz, minuet
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.4 p.1 (and top 2 staffs of p.5)
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Gm
+%%slurgraces 1
+%%graceslurs 1
+|: "_Plaintive"\
+G>D G2 A2 | {A}B4 (AB) | (c/B/A) d2 G2 | T^F3 E D2 |\
+d3 c B2 | {d}c2 (TBA)(TG^F) | G2 B2 (c/B/c/d/) | G4 z2 :|
+|:\
+(B>c) d2 d2 | (d>e) f4 | {B}A>B c2 (c/d/e) | {d}c3 B A2 |\
+{c}B2 (TA3/G//A//) G2 | ({ga}ba) g2 ^f2 | (gd)(ba)(g^f) | g4 a2 |
+(ba) (g^f) (ga) | {g}T^f3 _e d2 | (ed)(cB) (Ae) | {G}T^F3 E D2 |\
+d3 c (TB3/A//B//) | {AB}c2 (TBA)(TG^F) | G2 B2 (c/B/c/d/) | G4 z2 ::\
+(G/A/B) (B2 A2) |
+(A/B/c) (c2 B2) | e>d (3(cBA) (3(Gce) | {G}T^F3 E D2 |\
+b>a g2 d2 | b>a g2 ^f2 | g2 B2 c/B/c/d/ | G4 z2 ::\
+B>c d2 d2 | d>e f4- (f/e/d/c//B//) |
+A>B (c/B/A) (f/e/d) | c2 (TBA)(TG^F) |\
+(B/A/G) (c/B/A) (d/c/B) | (e2 d2) c2 | d(c'bag^f) | g4 a2 |\
+(b/a/g/f/ e/d/c/B/) A/(B/a/g/) | (^f/=e/f/g/ a/=b/)^c'/d'/ d2 |
+e>d (c/B/A) (d/B/G) | ^F2 (F/D/=E/^F/ G/A/B/c/) |\
+.d/(d/c/B/) .c/(c/B/A/) .B/(B/A/G/) | A/(e/d/c/) (TBA)(TG^F) | G2 B2 (c/B/c/d/) | G4 :|\
+[M:6/8]
+"^Gig"G |\
+DGA B2d | cAG ^FGA | fed cAF | .G.G.G G2 :: (B/c/) |\
+ded dcB | cdc cBA | d=e^f gfg |
+dg^f g2a |\
+bag fdf | cAG^FGA | =fed cAF | .G.G.G G2 :: G |\
+DGB TA2d | BGB TA2d |
+BAG ^FDF | .G.G.G G2 :: (B/c/) |\
+d2B fdB | fdB cAF | G2A Bcd | (g/a/b)a g2a |\
+b2a gfd |
+fdB cAF | (G/A/B/c/d) ^FDF | .G.G.G G2 :: d |\
+BGd BGc | AFf AFA | (B/c/d)G ^FDF | .G.G.G G2 :: f |\
+dBf dBf |
+cAf cAf | BGA Bcd | (g/a/b)a g2a |\
+(b/a/g/f/e/)d/ (g/f/e/d/c/)B | (e/d/c/B/A/G/) ^FAc | (B/c/d)B ^FDF | .G.G.G G2 :|

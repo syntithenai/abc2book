@@ -1,0 +1,32 @@
+X: 1022
+T: Sandy Laddy
+P: Longways for as many as will
+R: reel, march
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+d2 |\
+B2AG A2B2 | c6 e2 | d4 B4 | c2 A4 dc |\
+B2AG A2B2 | c4 c2de | g4 f4 | e2 c4 :|
+|: ef |\
+g4 f4 | e2c2 c2e2 | d4 B4 | c2 A4 dc |\
+B2AG A2B2 | c3d e2c2 | {ef}g4 f4 | e2 c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+g4 f4 | e4 c4 | g4 G4 | d4 D4 |\
+g4 f4 | e4 c4 | g4 G4 | c6 :|
+|: z2 |\
+g4 G4 | c8 | g4 G4 | d8 |\
+g4 f4 | e4 c4 | g4 G4 | c6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Man set to the 2d Wo. turn single .|
+the 1st Wo. and 2d Man do the same, hands round all four and turn single back to back and right hand and left .|
+half round :|
+%%endtext

@@ -1,0 +1,16 @@
+X:1028
+T:"Sgt Stack' Favourite"       (jig)             1028
+C:after Sg't Stack
+N:Added opening repeat in second section,  added DS mark
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:A
+(A/2B/2)"^Segno"|c3BcB|AGE GAB|c3dcd|(e/2f/2g).e (a/2f/2e).d|
+c3BcB|AGE GAB|{d}cBA GED|EAA A2:|
+(A/2B/2)|:(c/2d/2e).f {a}gfg|eaf ge(d/2B/2)|(c/2d/2e).f {a}gfg|eag a2(A/2B/2)|
+(c/2d/2e).f {a}gfg|eab ag(e/2d/2)|c3d3|.e {f}.ec .d.f"^Dal Segno"(e/2f/2):|
+

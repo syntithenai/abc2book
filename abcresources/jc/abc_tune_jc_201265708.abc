@@ -1,0 +1,24 @@
+X:1
+T:Cullen Bay  "CCPB Sep-1995"
+M:C
+L:1/8
+Q:80
+C:Ian Duncan - Shotts
+S:March
+K:HP
+|: {g}A3/2B/2{gcd}c{e}A{g}B{d}c{GBG}A4 | \
+{g}c3/2d/2{gef}ec{Gdc}d{g}e/4f3/4{gef}e4 | \
+{g}fa{ef}ec{Gdc}d{g}e3/4d/4{gcd}c4 |
+{g}A3/2B/2{gcd}c{e}A{g}B{d}c{GBG}A4 :: \
+{ag}ae{gef}e{g}c/4e3/4{gfg}fe/4{g}c3/4{gef}e4 | \
+{ag}ae{gef}e{g}c/4e3/4{gfg}fe/4{g}c3/4{gBG}B4 |
+{ag}ae{gef}e{g}c/4e3/4{gfg}fe/4{g}c3/4{gef}e4 | \
+{g}A3/2B/2{gcd}c{e}A{g}B{d}c{GBG}A4 :: \
+{gcd}c{e}A{GAG}AB/4c3/4{Gdc}dc/4B3/4{GdG}c4 |
+{gef}ec{GdG}c{g}d/4e3/4{Gdc}d{g}e/4f3/4{gef}e4 | \
+{g}fa{ef}ec{Gdc}d{g}e3/4d/4{gcd}c4 | \
+{g}A3/2B/2{gcd}c{e}A{g}B{d}c{GBG}A4 ::
+| {gef}e{g}c/4e3/4{ag}ae{gfg}fe/4{g}c3/4{gef}e4 | \
+{gcd}c{e}A{GAG}AB/4c3/4{gef}ed/4c3/4{gBG}B4 | \
+{gef}e{g}c/4e3/4{g}faf3/4e/4{g}d3/4f/4{gef}e4 |
+{g}A3/2B/2{gcd}c{e}A{g}B{d}c{GBG}A4 :|

@@ -1,0 +1,18 @@
+X: 15
+T: Raking Red Haired Pat   #2
+R: air
+%S: s:3 b:14(6+4+4)
+B: "O'Neill's 1850 #15"
+Q: "Tenderly"
+O: J.Ryan
+Z: Norbert Paap, norbertp@bdu.uva.nl
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 B1B2 CA2
+M: 2/4
+L: 1/16
+K: Gm
+(dc) \
+"^A"|: B3B (A2{B2A2}G2) | (Ad3) [1,3 c3A2 | G3G AB3 | (c3A) (F3G/A/) :|[2,4 (3(c2A2G2) | (.A3.A) (.G3.G) | "^fine"G6 :|
+D2 "^B"|: (G3A) (Bc3) | (d3=e) (fd3) | (g3f) (ec3) |1 (d3B) G7/D/ :|2 d4 ||
+"^C"[| (3(d2=e2^f2) | g3.f (=eg3) | (f3e)  (dc3) | (B3G) (A3B) | (c3A) (F3"^->A2"G/A/) |]

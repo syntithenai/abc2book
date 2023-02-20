@@ -1,0 +1,19 @@
+X: 8
+T: Al Harim
+C: Yosef Hadar 1977
+M: 2/4
+L: 1/8
+P:AAB
+K: Dm
+%%MIDI gchord zf
+P:A
+Q: 1/4=96
+|:"D" z2FG   |F2D2       |"C" A3G  |"B"G4    |\
+  [1 "D" z2FG|"C" F2D2   |"A" F3G  |"G" G4   :|\
+  [2"D"EFD2  |CED2-      |D4       |
+P:B
+Q: 1/4=144
+  "D" FGAB   |"Bb".G2.G2 |"Bb"F2EF |"G" G2z2 |\
+  "D" FGAB   |"Bb".G2.G2 |"Bb"F2EF |"G"G2z2  |
+  "Bb"EFGA   |"C" .F2.F2 |"G"E2DE  |"C"C2z2  |\
+  "D" DEFG   |"G  "E2E2  |"D"D2EC  |"D"D4    |

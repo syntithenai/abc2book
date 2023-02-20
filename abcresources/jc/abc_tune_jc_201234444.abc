@@ -1,0 +1,24 @@
+X: 2051
+T: Duplin House
+%R: jig, air
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.5 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slow"
+K: Bb
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+B,3 TB,CD | B>cd TB2F | BGG G2f | ~g>fd {d}Tc2B ||\
+B,2B, TB,>CD | B>cd/c/ {c}BGF | [B3G3] FDF | (FB).D {D}C2B, ::
+(Bd).f (fd).B | g>fd {d}Tc2B | (Bd).g Tg>ab | B>cd/e/ {d}Tc2B ||\
+(Bd).f (fd).B | Tg>fd {d}cBc | [B3G3] FDF | (FB).D {D}C2B, :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+B3 B3 | d3   B3  | e3-e2d | edB f2d || B3 B3 | d3  B3  | e3 d2B | B3 f2d ::
+b3 b3 | e>dB f2d | B3 e3  | d2B f2d || B3 B3 | edB f2z | e3 d2B | B3 f2d :|

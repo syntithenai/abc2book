@@ -1,0 +1,13 @@
+X:1
+T: Country Garden(s)
+Z: 1997 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/abc/
+P: A(A2B2C2B2)2
+M: C|
+L: 1/8
+K: C
+"A" | g2  g>f e2 e2 | d2  d>c B2 B>c | d2 G2  A2 c2 | B3A G4 \
+"B"[| g>a g>e f2 d2 | g>a g>e f4     | g2 g>f e2 a2 | f3e
+d2 B>c |
+   |  d2  g>f e2 e2 | d>e d>c B2 B>c | d2 G2  A2 c2 | B3A G4 \
+"C"[| G2  c2  c2 e2 | d>e d>c B2 B>c | d2 G2  A2 c2 | B3A G4 |]
+%(:abcmend:)

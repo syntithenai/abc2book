@@ -1,0 +1,16 @@
+X: 112
+T: Moll in the Wadd
+R: jig
+M: 6/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Abraham Mackintosh "A Collection of Strathspeys, Reels, Jigs &c.", Newcastle, after 1797, p.11
+F: http://imslp.info/files/imglnks/usimg/a/a8/IMSLP80796-PMLP164326-Abraham_Mackintosh_coll.pdf
+K: G
+V: 1
+   c | BAB G2F | E2F G2A | BAB G2B | AFD d2c | BAB G2F | E2F G2A | BGB dcB | AFD D2 :|
+|: c | BGB d2c | BGB d2c | BGB dcB | AFD D2c | BGB d2c | BGB def | gfe dcB | AFD D2 :|
+V: 2 clef=bass middle=d
+   z | g3 e3 | c2c' b2a | g3 G3 | d3 D3 | g3 e3 | c2c' b2a | g2d B2G | d3 D2 :|
+|: z | [d'3b3g3] [d'3a3f3] | [d'3b3g3] [d'3a3f3] | g2d B2G | d3 D3 |\
+       [d'3b3g3] [d'3a3f3] | g3 f2d | e2c B2G | d3 D2 :|

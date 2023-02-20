@@ -1,0 +1,49 @@
+X: 30231
+T: MARCH FROM MANSANELLO
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.23
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for a compact, small-size layout.
+V: 1 staves=3
+|:\
+d2B>A G2B>c | d6 e>f |\
+g2f>g B2c>d | (e4 d2)z2 |\
+d2c>B A2e>d | d2e>f g2f>e |\
+a2A>B ^c>de>f | d2d>d d2z2 ::\
+a3^g =gfed | b3g agfg |
+a3^g =gfed | d'2c'>b a>gf>e |\
+d2B>A G2B>c | d6 e>f |\
+g2 f>g B2c>d | e4 d2z2 |\
+d2c>B A2B>c | d2c>d f2e>c |\
+e2d>B d2c>A | G2g>g g2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voices 2,3 preserve the original 3-staff layout.
+V: 2
+|:\
+[G2B,2][G2B,2] [G2B,2][G2B,2] | [G2B,2][G2B,2] [G2B,2][G2B,2] |\
+[G2B,2][G2B,2] [G2B,2][G2B,2] | [F2A,2][F2A,2] [F2A,2][F2A,2] |\
+[F2A,2][F2A,2] [F2A,2][F2A,2] | [G2B,2][G2B,2] [G2B,2][G2B,2] |
+[F2A,2][F2A,2] [F2A,2][F2A,2] | [F2A,2][FA,]>[FA,] [F2A,2] z2 ::\
+[F2A,2][F2A,2] [F2A,2][F2A,2] | [G2B,2][G2B,2] [G2B,2][G2B,2] |\
+[F2A,2][F2A,2] [F2A,2][F2A,2] | [G2B,2] a>g f>ed>c |
+[G2B,2][G2B,2] [G2B,2][G2B,2] | [G2B,2][G2B,2] [G2B,2][G2B,2] |\
+[G2B,2][G2B,2] [G2B,2][G2B,2] | [F2A,2][F2A,2] [F2A,2][F2A,2] |\
+[F2A,2][F2A,2] [F2A,2][F2A,2] | [G2B,2]z2 [G2C2]z2 |\
+[G2B,2]z2 [F2A,2] z2 | [G2B,2] [BD]>[BD] [B2D2]z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+|:\
+G2G2 G2G2 | G2G2 G2G2 | G2G2 G2G2 | d2d2 d2d2 |\
+d2d2 d2d2 | g2g2 e2e2 |
+a2a2 A2A2 | d2d>d d2z2 ::\
+d2d2 d2d2 | g2g2 g2g2 | d2d2 d2d2 | g2z2 z4 |
+G2G2 G2G2 | G2G2 G2G2 | G2G2 G2G2 | d2d2 d2d2 |\
+d2d2 d2d2 | g2z2 c2z2 | d2z2 d2z2 | g2g>g g2 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,33 @@
+X: 1064
+T: the Yellow Hair'd Laddie
+P: Longways for &c.
+R: minuet, waltz
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+DE |\
+(FG) A2 (Bc) | (dc)(de) (d/e/f) | A2 (BA)(GF) | E4 (DE) |\
+(EF) A2 (Bc) | (dc)(de) (d/e/f) | A2 (gf)(ed) | d4 |]
+(de) |\
+(fg)(af)(ed) | (cd)(ec)(BA) | (Bc)(dB)(AG) | E4 (DE) |\
+(EF) A2 (Bc) | (dc)(de) (d/e/f) | ABAFED | D4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+d2 f2 g2 | f3  e d2 | c2 d2 G2 | A6 |\
+d2 f2 g2 | f3  e d2 | fg a2 A2 | d4 |]
+z2 |\
+d2 f2 d2 | A2 c2 A2 | G2 B2 G2 | A6 |\
+d2 f2 g2 | f3  e d2 | fg a2 A2 | d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. lead thro the 2d Cu. & turn in their own Places, then back to Back and turn .|
+The 2d Cu. do the same with the 3d Cu. :|
+Then the 1st Cu cast behind the 3d Cu. and lead up to the Top and turn :|
+then Back to Back and Right Hand & Left to the end of the Tune |
+%%endtext

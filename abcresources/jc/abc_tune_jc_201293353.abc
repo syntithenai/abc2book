@@ -1,0 +1,14 @@
+X:369
+T:Jock and Maggie's March
+C:Colin Hume, 2017
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=110
+%%MIDI program 21     Accordion
+%%MIDI chordprog 21
+K:G
+"G"d2 "G/F#"d>e | "G/E"dB "G/D"AG | "C"E<G "/"G>A | "G"G4 | "G"d2 "G/F#"d>e | "G/E"dB "G/D"AG | "F"A<c "F/E"c>B | "D"A2 "D7"Bc |
+"G"d2 "G/F#"d>e | "G/E"dB "G/D"AG | "C"E<G "/"G>A | "B7"B2 "/"zA | "Em"G2 "Em/D"E>F | "A7/C#"G2 "A7"B2 | "D7"d2 "/"A>B | "G"G4 ||
+"D"A2 "/"F>G | "/"A2 "/"zA | "G/D"B2 "/"G>A | "/"B2 "/"zd | "C"e2 "C/B"c>d | "Am"ed "Am/G"cB | "F"A2 "F/E"A>G | "D"A2 "D7"Bc |
+"G"d2 "G/F#"G>A | "G/E"Bd "G/D"zd | "C"e2 "C/B"c>d | "Am"eg "/"ze | "G"d2 "/"g>d | "C"ed "/"cB | "Am"AG "D7"B>A | "G"G4 |]

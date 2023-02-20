@@ -1,0 +1,44 @@
+X: 1
+T: Hit or Miss
+P: Longways for Eight
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.18
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The dance description is in 3 columns, indicated here with "##".
+M: 6/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+c2d ecA | G>A B/c/ dBG | e2f gec | dBG cGE |][|\
+c2c d>e f/g/ | e3- e2c | d2d e>f g/a/ | f3- f2 |][|\
+d | ed2 B2G | gf2 e2c | fd2 g2e | ag>f e>dc |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Meet all a D. back again .| That again :|
+%% ##
+%%     Meet all again, lead each other's woman
+%%     a D. to the left hand .| Change hands,
+%%     meet again, take your own we. and to your
+%%     places.
+%% ##
+%% The S. Hey all four :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Sides all .| That again :|
+%% ##
+%%     As before :|
+%% ##
+%% As before :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Arms all .| That again :|
+%% ##
+%%     As before :|
+%% ##
+%% As before :|
+%%endtext
+%%sep 1 8 500

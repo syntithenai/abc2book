@@ -1,0 +1,19 @@
+X: 37
+T: Baris Halayi
+O: Turkey
+F: http://www.youtube.com/watch?v=wPrQFEPlCEU
+M: 9/8
+L: 1/8
+K: Gdor octave=-1
+Q: 1/4=160
+%%MIDI program 67 % Baritone Sax
+%%MIDI drum d4d2d2z 41 41 41 70 50 50
+%%MIDI drumon
+|:G3FGFG2F|G3FGFG2F|G3FGFG2F|FB4A4   :|
+M: 4/4
+%%MIDI drum d4d2d2 41 41 41 80 60 60
+|:z2G2G2A2|B4A2G2  |z2c2c2A2|B4A2G2  |
+  z2c2c2A2|B4A2G2  |z2B2B2G2|A3FG2z2 :|
+%%MIDI drum dddd 36 36 41 41 70 40 70 40
+|:z2Bcdcdz|dcdcB2z2|z2Bcdcd2|c4d2z2  :|
+  c8-     |c8      |dcdcBA3-|A8      |cBcBA G3-|G8|

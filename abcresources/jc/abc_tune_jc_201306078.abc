@@ -1,0 +1,29 @@
+X: 1
+T: Maids Morris
+P: Longways for as many as will
+%R: reel, march
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.145 "O"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Both parts should probably be repeated.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+c2c2 ABc2 | B2 d4 cB | c2A2 A2^f2 | g6 |]\
+g2 |\
+a2 f4 f2 | g2 e4 e2 | f2A2 A2d2 | B2G2 G2g2 |\
+agf2 f2ef | gfed c2d2 | B2G2 g2e2 | c6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The two men take hands and fall back, then meet their Partners and turn S. the two we. doing the
+%% like afterwards.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% All four take hands and go half round and turn S. then half round and back again, then the double
+%% Figure, and the 1. cu. lead down the middle.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

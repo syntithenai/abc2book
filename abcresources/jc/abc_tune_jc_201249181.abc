@@ -1,0 +1,57 @@
+X: 1
+T:Bogan Lochan
+M:C
+L:1/8
+Q:80
+C:
+S:Strathspey
+K:HP
+{g}A2{GdGe}A3/2{d}B/2{g}A3/2B/2{gef}e3/2d/2|
+{g}A2{GdGe}A3/2{d}B/2{g}G3/2{d}B/2{Gdc}d3/2B/2|
+{g}A2{GdGe}A3/2{d}B/2{g}A3/2B/2{gef}e3/2d/2|  !
+{g}e/2f/2g{Gdc}d3/2g/2{Bd}B/2{e}G3/2{g}d3/2B/2|
+{g}A2{GdGe}A3/2{d}B/2{g}A3/2B/2{gef}e3/2d/2|
+{AGAG}A2{gcd}c/2{e}A3/2{gBd}B/2{e}G3/2{Gdc}d3/2B/2|  !
+{g}A2{GdGe}A3/2{d}B/2{g}A3/2B/2{gef}e3/2d/2|
+{g}e/2f/2g{Gdc}d3/2g/2{Bd}B/2{e}G3/2{g}d3/2B/2|]
+{g}e3/2A/2{gef}e3/2d/2{g}e3/2A/2{g}e/2a3/2|  !
+e3/2A/2{gef}e3/2d/2{gBd}B/2{e}G3/2{Gdc}d3/2B/2|
+{g}e3/2A/2{gef}e3/2d/2{g}e3/2A/2{gef}e3/2d/2|
+{g}e/2f/2g{Gdc}d3/2g/2{Bd}B3/2{e}G/2{Gdc}d3/2B/2|  !
+{g}e3/2A/2{gef}e3/2d/2{g}e3/2A/2{g}e/2a3/2|
+{AGAG}A2{gef}e3/2d/2{gBd}B/2{e}G3/2{Gdc}d3/2B/2|
+{g}e3/2A/2{gef}e3/2c/2{Gdc}((3d3/2e/2{g}fga)|  !
+g/2f/2e{gf}g3/2d/2{gBd}B3/2{e}G/2{Gdc}d3/2c/2|]
+{g}B2{GdGe}B3/2{d}c/2{e}B3/2{d}c/2{gfg}f3/2e/2|
+{g}B2{GdGe}B3/2a/2{cd}c/2{e}A3/2{gef}e3/2c/2|  !
+{g}B2{GdGe}B3/2{d}c/2{e}B3/2{d}c/2{gfg}f3/2e/2|
+{g}f/2g/2a{ef}e3/2a/2{cd}c/2{e}A3/2{g}e3/2c/2|
+{g}B2{GdGe}B3/2{d}c/2{e}B3/2{d}c/2{gfg}f3/2e/2|  !
+{g}B2{GdGe}B3/2d/2{cd}c/2{e}A3/2{gef}e3/2c/2|
+{g}B2{GdGe}B3/2{d}c/2{Gdc}d3/2{e}c/2{Gdc}d3/2e/2|
+{g}f/2g/2a{ef}e3/2a/2{cd}c/2{e}A3/2{g}e3/2c/2|]  !
+{g}f3/2B/2{gfg}f3/2e/2{g}f3/2B/2{g}f/2a3/2|
+f3/2B/2{gfg}f3/2e/2{gcd}c/2{e}A3/2{gef}e3/2c/2|
+{g}f3/2B/2{gfg}f3/2e/2f3/2{gBG}B/2{gfg}f3/2e/2|  !
+{g}f/2g/2a{ef}e3/2a/2{cd}c3/2{e}A/2{gef}e3/2c/2|
+{g}f3/2B/2{gfg}f3/2e/2{g}f3/2B/2{g}f/2a3/2|
+{BGdG}B2{g}f3/2e/2{gcd}c/2{e}A3/2{gef}e3/2c/2|  !
+{g}f3/2B/2{gfg}f3/2e/2{Gdc}((3d3/2e/2{g}fga)|
+g/2f/2e{gf}g3/2B/2{gBd}B/2{e}G3/2{gBd}B/2a3/2|]
+{AGAG}A2{g}e3/2d/2{gef}e2{AGAG}A3/2a/2|  !
+{AGAG}A2{g}e3/2d/2{gBd}B/2{e}G3/2{Gdc}d3/2B/2|
+{gAGAG}A2{g}e3/2d/2{gcd}c/2{e}A3/2{gef}e3/2d/2|
+{g}e/2f/2g{Gdc}d3/2g/2{Bd}B/2{e}G3/2{Gdc}d3/2B/2|  !
+{gAGAG}A2{g}e3/2d/2{gef}e2{AGAG}A3/2a/2|
+{AGAG}A2{g}e3/2d/2{gBd}B/2{e}G3/2{Gdc}d3/2B/2|
+{gAGAG}A2{g}e3/2d/2{gcd}c/2{e}A3/2{gef}e3/2d/2|  !
+{g}e/2f/2g{Gdc}d3/2g/2{Bd}B/2{e}G3/2{Gdc}d3/2B/2|]
+{GdG}a2{fg}f3/2e/2{g}f3/2B/2{A}B3/2c/2|
+{GdG}a2{fg}f3/2e/2{gcd}c/2{e}A3/2{gef}e3/2c/2|  !
+{GdG}a2{fg}f3/2e/2f{gBG}B{gfg}f3/2e/2|
+{g}f/2g/2a{ef}e3/2a/2{cd}c/2{e}A3/2{gef}e3/2c/2|
+{GdG}a2{fg}f3/2e/2{g}f{gBG}B{gfg}f3/2e/2|  !
+{GdG}a2{fg}((3f3/2e/2{g}c{d}A{e}A){gef}e3/2c/2|
+{GdG}a2{fg}f3/2e/2{GdG}d3/2e/2((3fga)|
+((3gfe){gf}g3/2d/2{gBd}B/2{e}G3/2{gBd}B3/2a/2|]  !
+

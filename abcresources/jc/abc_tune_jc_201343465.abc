@@ -1,0 +1,17 @@
+X: 1
+T: TATTHER JACK WELSH
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: "Rinnci na h-\'Eireann" Elizabeth Burchenal, ed. G.Schirmer (1925) p.135
+N: Corrected obvious typo in bar 5
+M: 6/8
+L: 1/8
+%Q: 3/8=126
+%%slurgraces 1
+K: D
+a/g/ \
+| "D"(fd)d ded | "D"cAB "D7"k=c2d | "D7"=cA"G"G {A}GFG | "D"(Add) d2a/g/ \
+| "D"fdd ded | "D"cAB "D7"k=c2d | "D7"=cA"G"G {A}GFG | "D"(Add) d2 :|
+|: A \
+| "D"(dfa) (afd) | "D"(dfa) a2g | "G"gag {a}gfg | "A7"ecd (efg) \
+| "D"(afd) ded | "D"(cA)B "D7"k=c2d | "D7"(=cA"G"G) {A}GFG | "D"(Add) d2 :|

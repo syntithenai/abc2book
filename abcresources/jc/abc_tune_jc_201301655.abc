@@ -1,0 +1,22 @@
+X: 1
+T: Lesnoto: Eleno kerko
+R: lesnoto
+O: Bulgaria
+Z: John Chambers <jc:trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: Am
+"^Instr"|:\
+"Am"[ec][ec][ec] [ec][dB] [cA][ec] | "E7"[d3-B3-] [d3B3] [cA] |\
+[B2^G2][cA] [dB][ec] [dB][cA] | "Am"[c3-A3-] [c4A4] :|
+|:\
+"F"[A2F2][AF] [AF][BG] [cA][AF] | "C"[G3-E3-] [G2E2] [GE][AF] |\
+"G7"[B2G2][AF] [GE][FD] [FD][EC] |1 "C"[E3C3] [F2D2] [G2E2] :|2 "C"[E3C3] z4 | z7 |]
+"^Vocal"[|\
+"C"[E3C3] "F"([A3F3] [GE]) | "C"[G3E3] [G2E2] ([GE][FD]) |\
+"C"[E3C3] "F"([A3F3] [GE]) | "C"[G3-E3-] [G4E4] | "G7"[G3G3] [A2_G2] [B2F2] |\
+"C"[c3E3] "F"[f4A4] | "C"[e3-G3-] [e4G4] | [EC][FD][GE] "(G7)"[AF][BG-] [cG-][dG] |]
+|:\
+"C"[e3G3] [e3G4]_e | "E7"[d3^G3] [d2G2] [dG2]_d | "F"[c3A3] ([cA][dB] [cA][BG]) |\
+"G7"[B3-G3-] [B4G4] | "F"[A3F3] ([AF][BG]) ([AF][GE]) | "G7"[G3E3] ([AF][GE] [FD][EC]) |\
+[1 "C"[E3-C3-] [E4C4] | [EC][FD][GE] "(G7)"[AF][BG-] [cG-][dG] :|[2 "C"[E3-C3-] [E4-C4-] | [E3C3] z4 |]

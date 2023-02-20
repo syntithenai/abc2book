@@ -1,0 +1,23 @@
+X: 311
+T: the Braes of Little Mill.   a Reel.
+C: Old.
+R: reel
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c." p.31 #1
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% = = = = = = = = = =
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+RB !segno!|\
+G2(Td>B) dBAB | G2(Td>B) degd | egdg aA-Aa | gdTed Bdd :| e | .g(ag).e gddg | abTag Te2(.d.e) |
+.g(ag).e gd-dg | Te>dgd Bd-de || .g(ag).e gddg | Ta>bab Te2(.d.e) | gbeg degb | edgd Bd-dg !segno!|]
+% = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z !segno!|\
+g2G2 g2d2 | B2G2 g2b2 | c'2b2 a2a2 | [g2b2][g2c'2] [g2b2][Gg] :| z | b2c'2 b2g2 | d'3b c'2b2 |
+g2c'2 b2g2 | c2B2 G2g2 || b2c'2 b2g2 | d3B c2g2 | b2c'2 b2g2 | g2d2 G2Gz !segno!|]
+% = = = = = = = = = =

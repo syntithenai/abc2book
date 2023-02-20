@@ -1,0 +1,26 @@
+X:1
+T: Ann Arbor Hornpipe
+N:
+C:
+S:
+A:
+O:
+R:
+M:3/2
+K:Am
+I:speed 200
+%W:
+% voice 1 (1 lines, 33 notes)
+K:Am
+M:3/2
+L:1/16
+A4 B4 |c4 e4 |d4 f4 |e8 |A16 |^G4 A4 |B4 d4 |c4 B4 |c8 |A8 |B8 |c4 d4 |e4 g4 |f4 a4 |g8 |a8 |f8 |e8 |d4 c4 |d4 B4 |c16|c8 |
+%W:
+% voice 1 (1 lines, 33 notes)
+A4 B4 |c4 e4 |d4 f4 |e8 |A16 |^G4 A4 |B4 d4 |c4 B4 |c8 |A8 |B8 |c4 d4 |e4 g4 |f4 a4 |g8 |a8 |f8 |e8 |d4 c4 |d4 B4 |c16|c8 |
+%W:
+% voice 1 (1 lines, 35 notes)
+c4 d4 |e4 f4 |g4 c4 |B8 |G16 |c4 d4 |e4 f4 |g4 c'4 |b8 |^g8 |e8 |a8 |g4 f4 |g4 e4 |f8 |e4 d4 |e4 B4 |c4 d4 |e4 c4 |B4 e4 |c8 |A16 |
+%W:
+% voice 1 (1 lines, 35 notes)
+c4 d4 |e4 f4 |g4 c4 |B8 |G16 |c4 d4 |e4 f4 |g4 c'4 |b8 |^g8 |e8 |a8 |g4 f4 |g4 e4 |f8 |e4 d4 |e4 B4 |c4 d4 |e4 c4 |B4 e4 |c8 |A16 ||

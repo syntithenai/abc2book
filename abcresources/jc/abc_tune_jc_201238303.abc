@@ -1,0 +1,27 @@
+X: 3053
+T: Miss L Johnston's Compliments to Neil Gow   (D)
+C: by Miss Johnston of Hilton
+%R: air, strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.5 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Published in E major; transcribed to D for the benefit of scale-limited instruments (or musicians).
+M: C
+L: 1/16
+Q: "Slow"
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+F2 |\
+[B6F4D4] FD {F}TE3F ({A}G2F)E | D3E {G}F2ED E2C2C2F2 |\
+[B6F4D4] FD {F}TE3F {EF}G2FE | (DE)FD (CD)EC {C}D2B,2B,2 :: F2 |\
+[B4F4D4] {d}f3d {e}g3e f3d | B3d gfed c2cB A2F2 |
+[B4F4D4] {d}f3d {e}g3e f3B | G3e dcBA {A}B4 B3F ||\
+B3df2b2 {b}a2ga b3Tf | e3cd3B (cB)TAG (FE)TDC |\
+D2B2 E2c2 F2d2 G2e2 | {e}d2cB (DE)FE TD2B,2B,2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | b4B4 c4A4 | B4B,4 F4f4 | b4B4 b4B4 | B4F4 B4B,2 ::\
+z2 | B4d4 e4d4 | B4e4 f4F4 |
+B4d4 e4d4 | e4f2F2 B2F2B,4 || B4b4 f4d4 | c2a2b2B2 f4F4 |
+[B4b4][c4a4] [d4_a4][e4g4] | d2e2 f2F2 B2F2B,2 |]

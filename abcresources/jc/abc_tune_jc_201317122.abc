@@ -1,0 +1,28 @@
+X: 1
+T: Niel Gow's Lament for the Death of his 2d Wife
+C: Niel Gow
+%date: 1809
+N: Bowings by Nath. Gow
+N: Chords: BMcO 4/96
+S: Barbara McOwen
+B: BSFC Session Tune Book 2016 p.77
+R: air, waltz
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "Slow and Pathetic"
+K: D
+"^A"[|] DB, |\
+"D"TA,3B,D2 ~D3ED2 | "D7"(E2F2A2) "G"TB4d2 |\
+"D"(A2F2D2) "Em"(TE3D)E2 | "F#m"{DE}F2D2B,2 "G"TB,4DB, |\
+"D"TA,3B,D2 TD3ED2 | "D7"(E2F2A2) "G"Hd4 cB |
+"F#m"(A2F2D2) "Bm"{=C}B,4A,2 | "G"B,2D2D2 "D"D4 "^B1":| (A/B/c) |\
+"D"(~d2f2d2) "A7"(e2c2).A2 | "G"TBABc{Bc}d2 "D"(BA)(GF)(ED) |\
+"Em"(E3DE2) "F#m"{DE}F3ED2 | "Bm"(F2D2B,2) "G"B,4 (A/B/c) |
+"D"(Td2f2).d2 "A7"(e2c2).A2 | "G"(BA)(Bc){Bc}d2 "D"(BA)(GF)(ED) |\
+"Em7"TE3DE2 "F#m"{DE}F2D2B,2 | "G"A,2D2D2 "D4"D4 "^B2"||\
+(A/B/c) |\
+"D"(~d2f2).d2 "A7"(e2c2).A2 | "G"(BA)(Bc){Bc}d2 "D"(BA)(GF)(ED) |
+"D"(FD)(AF)(dA) "Bm"(BA)(GF)(ED) | "Em7"{DE}F2E2E2 "A7"[E4C4] DB, |\
+"D"TA,3B,D2 D3ED2 | "D7"(E2F2).A2 "G"Hd4 cB |\
+"F#m"(A2F2)D2 "Bm"{=C}B,4A,2 | "G"B,2D2D2 "D"D4 |]

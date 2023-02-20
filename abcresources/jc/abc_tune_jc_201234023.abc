@@ -1,0 +1,22 @@
+X: 20211
+T: WHA'LL BE KING BUT CHARLIE
+Q: "Mod.o"
+%R: jig
+B: "Edinburgh Repository of Music" v.2 p.21
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+%%slurgraces
+%%graceslurs
+G |\
+{d}c2B c2d | e2{g}f e2d | {d}c2B c2d | {cd}e3 E3 |\
+c2d e2a | {a}g2e d2e | c2A AGE | A3- A2B |
+c2c c2d | e2e e2d | c2c c2d | {cd}e3 E2B |\
+c2d e2a | {a}g2e d2e | {B}c2A AGE | A3- A2 |]
+B |\
+{B}Tc2A AGE | {B}Tc2A AGE | {B}Tc2A AGE | G3- G2B |\
+c2d e2a | {a}g2e d2e | Tc2A AG.E | A3- A2B |
+{B}c2A (AG).E | {B}c2A (AG).E | (ed).c (dc).B | (cB).A (GF).E |\
+Tc2d e2a | {a}g2e d2e | {B}Tc2A (AG).E | A3- A2 |]

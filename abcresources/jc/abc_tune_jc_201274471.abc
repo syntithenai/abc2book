@@ -1,0 +1,32 @@
+X:1
+T: The Fancy
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:C
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 30 notes)
+K:C
+M:4/4
+L:1/16
+e6 d2 c4 c4 |e2 f2 g4 c4 g4 |B6 A2 G4 G4 |B8 d8 |e4 c4 g4 c4 |e2 f2 g4 c4 g4 |e4 c4 g4 c4 |e8 g8 |
+%W:
+% voice 1 (1 lines, 31 notes)
+e6 d2 c4 c4 |e2 f2 g4 c4 g4 |B6 A2 G4 G4 |B8 d4 c2 B2 |A4 c4 G4 c4 |A8 G8 |C2 D2 E2 F2 G4 C4 |E8 c8 |
+%W: A2
+% voice 1 (1 lines, 30 notes)
+e6 d2 c4 c4 |e2 f2 g4 c4 g4 |B6 A2 G4 G4 |B8 d8 |e4 c4 g4 c4 |e2 f2 g4 c4 g4 |e4 c4 g4 c4 |e8 g8 |
+%W:
+% voice 1 (1 lines, 31 notes)
+e6 d2 c4 c4 |e2 f2 g4 c4 g4 |B6 A2 G4 G4 |B8 d4 c2 B2 |A4 c4 G4 c4 |A8 G8 |C2 D2 E2 F2 G4 C4 |E8 c8 |
+%W: B
+% voice 1 (1 lines, 50 notes)
+e2 f2 g2 a2 g2 e2 d2 c2 |e2 f2 g2 a2 g2 e2 d2 c2 |B2 c2 d2 e2 d2 B2 A2 G2 |B8 d8 |e2 f2 g2 a2 g2 e2 d2 c2 |e2 f2 g2 a2 g2 e2 d2 c2 |c2 d2 e2 f2 g4 c4 |e8 g8 |
+%W:
+% voice 1 (1 lines, 41 notes)
+c'4 g4 a4 g2 f2 |e4 c4 g6 g2 |B6 A2 G4 G4 |B8 d4 c2 B2 |A2 c2 B2 c2 G2 c2 B2 c2 |A2 c2 B2 c2 G2 c2 B2 c2 |C2 D2 E2 F2 G4 C4 |E8 c8 ||

@@ -1,0 +1,13 @@
+X:241
+T:STONER HOUSE
+R:Jig
+S:8 x 32 Jig 1,2,3,4,  2,3,4,1
+M:6/8
+L:1/8
+Q:116
+K:G
+E| "G" DB,G, G,B,D | "G" B2 B B2 A | "G" GFE DCB, | "Am" C3 C2 B, |"D7"A,B,C A,B,C | "D7"  F2 F F2 E |!
+"D7" D^CD ED=C | "G" (B,3B,) E|"G" DB,G, G,A,B, | "G" D2 G G2 A | "G7"BcB BAG | "C" (E3E2) E| " Am" c2 c cBA |!
+"G" GFE D2 B, | "D7" DED CB,A, |"G" (G,3G,2)| D| "G" DGB dBG| "G" DGA BAG | "G" DGB dcB |!
+"Am" c3 c2 B | "D7" cBc A^GA | "D7" F^EF D^CD |   DFA d^c=c | "G" (B3B2) =c | "G" dBG DB,G, |!
+"G" B,DG B2 C | "G" d2 d dcB | "C" (e3e2) f | "G" gfe dcB | "C" edc BAG| "D7" ABc def| "G" (g3g2) ||

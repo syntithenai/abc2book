@@ -1,0 +1,24 @@
+X: 061
+T: Mrs David Maxwell's Favourite
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.6#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: jig, air
+M: 6/8
+L: 1/8
+K: A
+V: 1
+E |\
+A2c e2c | f2d B2d | c2F {F}d2c | cBA AGE |\
+A2c e2a | g2d c2f | {f}e2B B2~c | A3 A2 :|
+|: A |\
+A2F d2B | G2E e2d | c2f ~B2A | G2A B2e |\
+a3 g2f | {f}e2d c2e | f2B ~B2c | A3 A2 :|
+V: 2 clef=bass middle=d
+z |\
+A3 c3 | d3 e3 | a3 (d2^d) | e3- e(ed) |\
+cBA a2c | B2g a2^d | e3 E3 | Ace a2 :|
+|: z |\
+zfd Bc^d | e2(g/f/) efg | a3 d2^d | (eef gfe) |\
+(c'ba) ee'd' | (c'cB ABc) | d2^d e2E | Ace a2 :|

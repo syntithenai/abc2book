@@ -1,0 +1,30 @@
+X: 1
+T: Penelope
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (197)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+BABc dcBA | G2D2 D2B2 | A2G2 ^F2B2 | ABGA ^F2A2 |\
+BABc dcBA | GAB2 cde2 | d2cB A3G | G6 :|
+|: A2 |\
+Bcde fgfe | d2B2 B2d2 | e2d2 cBAG | ^F6 GA |\
+B2AG ^F2G2 | B2AG ^F2GA | B2Bc d2g^f | g2 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. cast off and lead thro the 3d Cu. and cast up
+%% to the 2d Cu. Place then cross up to the Top and figure
+%% in the 2d Couple :| The 1st Man casts off and his Partner
+%% slips down the Middle and casts up and he slips up at the
+%% same Time then the 1st Wo. casts off and the 1st Man slips
+%% down the Middle and casts up then the 1st Man takes his
+%% Woman by her right Hand and leads her round the 2d Man
+%% then up the Middle and cast off :|
+%%endtext
+%%sep 1 8 500

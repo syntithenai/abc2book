@@ -1,0 +1,36 @@
+X: 0942
+T: the New Spanish Patriots
+%R: jig
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1809, No. 9 p.4 #2
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances9
+N: The repeat symbols are especially strange in this tune.
+M: 6/8
+L: 1/8
+K: Fmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+[|"^8va  _  _  _"\
+FGF A2B | c2A cAF | G2A B2c | d3 f3 |\
+FGF A2B | c2A cAF | G2G A2F | D3 d3 |]
+[|"_loco"\
+fgf c2A | f2c a2f | b2g a2f | e3 g3 |\
+(agf efg | fed cBA) | G2~G A2F | D3 d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=D
+[|\
+FAc FAc | FAc FAc | FBd FBd | FBd FBd |\
+FAc FAc | FAc FAc | ^CEA CEA | DFA DFA |]
+[|\
+F,3 F3 | F,3 F3 | E3 F3 | CEG c3 |\
+([A3F3] [B3G3] | [c3A3] [A3F3]) | [E3^C3-] [A3C3] | [F3D3-] [A3D3] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across, back again,
+%% down the middle up again
+%% and All'mand.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

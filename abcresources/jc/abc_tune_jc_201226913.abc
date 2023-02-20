@@ -1,0 +1,24 @@
+X: 10511
+T: OLD TOWLER
+Q: "Con Spirito"
+C: Shield
+%R: jig
+B: "Edinburgh Repository of Music" v.1 p/51
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Bar 32 was missing a 1/8 note; fixed by removing a beam from the final 4 notes.
+M: 6/8
+L: 1/8
+K: D
+A |\
+d2d B2G | F2G A2=c | B2d ^ceg | {g}f3- f2A |\
+d2d "^>"f2d | !f!B2B "^>"e2d | c2c (TBA B) | A2z z2 |]
+!p!A |\
+e2c A2A | f2d A2A | c2d g2f | e3- e2A |\
+A^GA Bcd | ef =g afd | B2e d2c | d2z zDF |
+A3 A3 | Ad2- d2A | AFA AFA | Ad2- d2A/c/ |\
+e3 e3 | ea2- a2e | ece ece | eg2- gag |
+fdz zzf | eAz zz!f!g | fdz zzf | eAz zzA |\
+dff dff | d2z d2z | dff dff | fHaz zA/G/F/E/ |
+D2G F2B | A2g f2d | e2e (cBc) | d3 !f!g3 |\
+f2f (ede) | a3 Tg3 | f2f (ede) | d3- d2 |]

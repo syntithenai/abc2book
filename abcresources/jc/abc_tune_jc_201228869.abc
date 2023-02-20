@@ -1,0 +1,24 @@
+X: 11711
+T: HEBREW MELODY
+Q: "Slow."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.171 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+c2 A2 A2 A2 | c2 d/c/ B/A/ BG E2 |\
+c2 A2 A2 A2 | GEGB A4 |\
+c3 d e2 e2 | fe dc dB G2 |\
+A3 B c2 c2 | dc BA BG E2 |\
+E2 AE A2 A2 | GE GB A4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Taken down from the voice,
+%% and sent for insertion in the U. T. B.,
+%% by Mr. S. Barr, Glasgow.
+%%endtext
+%%sep 1 1 300

@@ -1,0 +1,17 @@
+X:673
+T:The Sleepless Swain
+T:Noch Dagh noch Nacht is mijne rust
+C:Old Dutch; arr. Pat Shaw
+N:Play AABBA x 3
+%%subtitlefont Times-Roman 20
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=120
+M:3/4
+L:1/8
+K:Am
+P:A
+|: "Am"e2 c2 A2 | "Dm"f6 | "G"d2 B2 G2 | "C"e6 |\
+"F"A3 c BA | "E"^G2 E2 e2 | "Dm"dc "E"!turn!B3A | "Am"A6 :|
+P:B
+|: "Am"c2 d2 e2 | "F"A6 | "G"B2 c2 d2 | "C"G6 | "F"A2 B2 c2 | "G"B2 G2 g2 | "F/A"fe "G/B"!turn!d3 c | "C"c6 :|

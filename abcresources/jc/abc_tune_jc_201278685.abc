@@ -1,0 +1,27 @@
+X: 1
+T:Gypsy Warning  " "
+M:3/4
+L:1/8
+Q:80
+C:
+S:Retreat
+K:HP
+|: {g}A[|
+{d}cea2{g}aA|
+{Gdc}dg{fg}f2{gef}e2|  !
+{g}A3/2c/2{gef}e2-e{g}f3/4e/4|
+{g}d{g}e3/4d/4{g}c2-c{g}A|
+{d}cea2{g}aA|  !
+{Gdc}dg{fg}f2{gef}e2|
+{g}A3/2c/2{gef}e2{A}e/2B3/2|
+{gde}d/2c3/2{g}A2-A:| |:  !
+{g}A|
+{d}B{e}G{d}B2{GdGe}Be|
+{gf}ga{f}g2{ef}e2|
+{g}e3/2f/2{gf}g2-g{a}e|  !
+{ag}a3/2g/2{ef}e2-e{g}A|
+{d}cea2{g}aA|
+{Gdc}dg{fg}f2{gef}e2|  !
+{g}A3/2c/2{gef}e2{A}e/2B3/2|
+{gde}d/2c3/2{g}A2-A:|
+

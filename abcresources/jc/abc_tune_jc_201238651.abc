@@ -1,0 +1,33 @@
+X: 31083
+T: COTILLION No. 16. EMMA QUADRILLE tune 3
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.108 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+d2 |\
+gfed gfed | d3c B2d2 | dcBA GFED | G2B2 G2d2 |\
+gfed gfed | d3c B2d2 | dcBA GFED | G2B2G2 H|]
+(BG) |\
+FA d4 cA | GB d4 BG | FAd^c ed=cA | GB d4 (ef) |\
+gfed gfed | d^cd=c Bc^cd | dcBA GFED | G2B2"^D.C."G2 |]
+d2 |\
+^ceg2 gec2 | d2df a2fd | ceag fedc | dfe^c d2d2 |\
+gfed gfed | edef agfe | dgBd dcBA | G2g2"^D.C."g2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 lead to the right,
+%% chassa out,
+%% form lines across the hall,
+%% all right and left across the hall,
+%% ladies all chain across the hall,
+%% all forward and back,
+%% swing partners to place.
+%% Sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

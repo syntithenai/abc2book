@@ -1,0 +1,19 @@
+X: 1
+T: the Butterfly
+C: trad. Tommy Potts?
+O: arr. by Tom Morley
+R: slip-jig
+S: Fiddle Hell Online 2021-11-04
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Em
+|:\
+"Em"vB2(E G2)(E "D"F3) | "Em"uB2(E G2)(E "D"F)ED |\
+"Em"vB2(E G2)(E "D"F3) | "Cmaj7"(uB2d) d2(B "D"A)FD ::\
+"Cmaj7"(vB2c) (e2f) g3 | (uB2c) (g2e) "D"(dBA) |
+"Cmaj7"(B2c) (e2f) (g2a) | "D"(ub2a) (g2e) (dBA) ::\
+"G"vB3 (B2A) "D"G2(A | "G"B3) BAB "D"(dBA) |\
+"G"vB3 (B2A) "D"G2(uA | "Em"B2d) (g2e) "D"(dBA) :|
+P:final ending
+"Em"B2(E G2)(E "D"HF3) |]

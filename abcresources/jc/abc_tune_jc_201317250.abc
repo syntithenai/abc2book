@@ -1,0 +1,43 @@
+
+X: 1
+T: Nigun #2  [Cfr]
+O: Velvel Pasternak
+B: Velvel Pasternak "The Best of Hassidic Song", p.33, Tara Pub., 1984
+M: C
+L: 1/8
+K: _B=E_A_d	% C freygish
+|: "C"zE2E "Fm"FEFG | "C"zE2E "Bbm"FEDC | "C"zE2E "Fm"FEFG |1 "C"E2"Bbm"D2 "C"E4 :|2 "C"E2"Bbm"D2 "C"C2zC ||
+"C"E2F2 GFAG | "Fm"F4 zFEF | "Bbm"G2F2 E2DC | "C"FE- E4 C2 |
+"C"E2F2 GFAG | "Fm"F4 "Bbm"B4 | BAGF GFED |1 "C"Cc/c/ cc cc !d.C.!cc :|["last" "C"C6 z2 |]
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: Nigun #2  [Dfr]
+O: Velvel Pasternak
+B: Velvel Pasternak "The Best of Hassidic Song", p.33, Tara Pub., 1984
+M: C
+L: 1/8
+K: _B_e^F	% D freygish
+|: "D"zF2F "Gm"GFGA | "D"zF2F "Cm"GFED | "D"zF2F "Gm"GFGA |1 "D"F2"Cm"E2 "D"F4 :|2 "D"F2"Cm"E2 "D"D2zD ||
+"D"F2G2 AGBA | "Gm"G4 zGFG | "Cm"A2G2 F2ED | "D"GF- F4 D2 |
+"D"F2G2 AGBA | "Gm"G4 "Cm"c4 | cBAG AGFE |1 "D"Dd/d/ dd dd !d.C.!dd :|["last" "D"D6 z2 |]
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 3
+T: Nigun #2  [Efr]
+O: Velvel Pasternak
+B: Velvel Pasternak "The Best of Hassidic Song", p.33, Tara Pub., 1984
+M: C
+L: 1/8
+K: ^G	% E freygish
+|: "E"zG2G "Am"AGAB | "E"zG2G "Dm"AGFE | "E"zG2G "Am"AGAB |1 "E"G2"Dm"F2 "E"G4 :|2 "E"G2"Dm"F2 "E"E2zE ||
+"E"G2A2 BAcB | "Am"A4 zAGA | "Dm"B2A2 G2FE | "E"AG- G4 E2 |
+"E"G2A2 BAcB | "Am"A4 "Dm"d4 | dcBA BAGF |1 "E"Ee/e/ ee ee !d.C.!ee :|["last" "E"E6 z2 |]

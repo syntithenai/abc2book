@@ -1,0 +1,176 @@
+X: 1
+A:Adam de la Halle
+T:De ma Dame/Diex coment/Omnes
+M:3/4
+L:1/4
+Q:1/4=110
+K:F Lydian
+%
+V:1 clef=treble-8 middle=B,
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+%%MIDI program 1       74 recorder
+%%MIDI program 2       72 piccolo
+%%MIDI program 3       70 bassoon
+%%sysstaffsep    28.0pt
+%
+%%%%%%%%%%%%%%%%%%%%%%%%% triplum %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[V:1]
+   C2 (3A,/G,/F,/|(G,A,) B,|(3:2:2C/   F
+w: De   ma**       Da-*  me     vient li
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+(3:2:2E/   C (3:2:2D/ B, | C2 z | F   F
+w:   dous maus    que je   trai   Dont je
+   F | E(3:2:2D/C   B, |(3:2:2A,/ C (3:2:2D/ C
+w: mor-rai,**      S'es-      pe-ran-    che ne
+ (3:2:2D/ E | F2 z | C2 (3A,/G,/F,/|(G,A,)   B, | C2
+w:     me re-tient;  Et   la**       grans* joi-  e
+   (3B,/A,/G,/ |((3:2:2A,/G,F,) z |((3:2:2CD/)  ((3:2:2C/B,) ((3:2:2A,B,/)| C
+w:   que**             j'ai;**            Car*         j'a-*        per-* choi
+    D   F |(3:2:2E/  C  ((3:2:2DC/)  B,|  C D
+w: bien et      sai C'on       m'a*  gre-vé et
+   E | F2 z |(3:2:2G/  G  (3:2:2F/  E  (3:2:2DE/|(3:2:2F/
+w: mel-lé,         Si qu'e-     le m'a       tout*    ein-
+    E   C (3:2:2D/  E | F2 z |(3:2:2F/ E   C ((3:2:2A,B,/) |
+w: si qu'en    tro-vul-lié          Qui en so-       loie*
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    C    D   G |((3:2:2E/DC)  B,| C2 ((3:2:2CB,/) |
+w: estre au  de-       seu-**re. Diex       quant*
+((3:2:2A,/G,F,) A,| G,2 A, | C2 ((3:2:2CB,/)|((3:2:2A,/G,F,)
+w:     ven-**  ra  l'eu-re  Qu'aie      à*          li**
+((3:2:2A,G,/)|((3:2:2A,/G,F,) z | F  F    E |   D   C
+w:     par-*         lé;**        Et de chou qu'on m'a
+   B, | C2 ((3:2:2D/E)| F ((3:2:2E/D) (3E/D/C/ | B,2 z |
+w: mis  seu-      re*   Mi       ex-*  cu-**     sé
+    A,    C ((3:2:2B,C/) | D   E   D |((3:2:2C/B,) A,
+w: Très douche     a-*    mie  A- yés        de*  moi
+    B, | C2 z |((3:2:2EF/) (3E/D/C/ ((3:2:2DE/)| F2 z | C
+w: pi-   té.          Pour*  Dieu**        mer-* chi    On-
+     D ((3:2:2EF/)| G (3G/F/E/ ((3:2:2DE/)| F ((3:2:2E/D) C |
+w: ques       n'a-* ma   Qui**        pour* si       pa-* u
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+((3:2:2B,/A,F,) A, | C2 ((3:2:2DE/) | F  E   D | C2 B, |
+w:     hai-**   ne   de-       ser-* vi ne l'ai  mi-e
+     C   D   E |(FE)  F |(3:2:2G/ F  E D | F
+w: Ains est par  en-*vi-       e C'on en a mes-
+((3:2:2E/DC)|(3:2:2A,/ G,  A,  B, | C2 z | F2  F |
+w:     dit**       et  en leur des- pit    Main-te-
+   E(3:2:2D/C B, | C2 z | F  E    F |  G ((3:2:2FE/)
+w: nant**     i-  rai    Et pour euls cré-      ver*
+((3:2:2D/E)| F2 z |  D    E   D | C2 (3C/B,/A,/ |
+w:     fe-*  rai.  Mail-leur san-lant que**
+  (CD) ((3:2:2F/E)|(DE)  D |((3:2:2C/B,C) D | F2
+w: je*        ne*   de-*ve-        roi-** e  Fui-
+    E |((3:2:2E/DC)   D | F2   E |(DC) D | F2
+w: te         gai-** té  fais me  voi-*e Par
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+      E |(DC) D |((3:2:2C/B,A,) B, | C2 C |(3:2:2E/   F
+w:   chi pas-*se        gent**  de  joi-e      Tart m'est
+    E  D |((3:2:2CB,/) A, G, |(3:2:2F,/ A, (3:2:2C/ B, (3:2:2D/E |
+w: que gi        soi-* e  En-       co- re       me a-      vés*
+    F ((3:2:2E/DC)| F2 z | C  D  C |(B,A,) B,|(3:2:2C/ B,
+w: vous      mu-**  si    Si se-rai  de*  miex      de li
+      D    E | F2 z |(3:2:2F/  F  E  D |(3:2:2C/  C
+w: Conques ne  fu          se seu-le-te       an cui
+   B, ((3:2:2A,B,/)|(CD)  E | (FG) (3F/E/D/ | E2
+w: en        un*    des-*tour Truis* ma-**   miet-
+  (3E/D/C/ | E   D   E | F2 z | F  E  D |
+w:  te**    La dou-che-  te    La sa-de-
+    C2   B, | C2  E | C  B, ((3:2:2A,B,/)| C2  F |
+w:  te Blon-  de-te  Sa-vé-        rou-*   se-te
+     E2 ((3:2:2DE/)| D(3:2:2C/B, ((3:2:2A,/B,)| C3 ||
+w:  Que      Diex*   doint**            bon-*  jour.
+%%%%%%%%%%%%%%%%%%%%%%%% duplum %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[V:2]
+    F2 ((3E/D/C/)| D2 ((3:2:2E/D)|(C2D)|
+w: Diex   co-**   ment      por-* roi-*
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   F   E   D | C2 (3:2:2CB,/ | A,2  B, |((3:2:2A,/G,F,)
+w: e trou-ver  joi-     e*     D'a-ler         a**
+((3:2:2A,/B,)| C3 |((3:2:2D/E) F E  | D  E  D | C2 z |
+w:     che-*   lui        qui* a-mi-  e-te je  sui
+     C    D  E | F ((3:2:2E/D) C | F ((3:2:2E/D)
+w: Chain-tu-re- le        va*  i   en       lieu*
+((3:2:2CD/)| E2 z | C   B, A, |(CD) E | D2  B, |
+w:     de*   mi,   Car tu fus  sie-*ve  de aus-
+   C  (3:2:2B,/ A,   B, |((3:2:2C/B,C)  E | C2 z |
+w: si       Si m'en con-        quer-**ra  miex;
+    F ((3:2:2E/D) C |  E  D   E | F2   F |
+w: Mais      co-*ment se-rai sans ti Dieus
+    F2    E |(DC) B, |(CD)   E | F2 z |
+w: chain-tu-  re-*le   mar* le   vi
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   F2  E | E(3:2:2D/C   B, |(DE)  D | C2
+w: Au des-chain-**     dre  m'o-*chi-  es
+    B, |(CB,)  A,|(3:2:2G,/ F, D,2| F,2 G, | A,2
+w:  De   mes* gri-      é- tés à   vous me  con-
+    B, | C2 D | F2   F |(EF) ((3:2:2GF/) |
+w: for- toi-e Quant je  vous*       sen-*
+((3:2:2E/DC) ((3:2:2D/E)| F2 z |D  C  B, | C2
+w: toie,**          Ai-*  mi!   A le sa-  veur
+((3:2:2B,/C)|(DC)  B, | C2 z | C2  B, |((3:2:2A,/G,F,)
+w:     de*    mon* a-   mi     Ne pour        quant**
+    E, | F,(3:2:2E,/D, E, | F,2 z | G,  A,    B, |
+w: d'au- tres**        en   ai      A cleus d'ar-
+    C   B,  C | D  E  D | C2
+w: gent et de  soi-e Pour m'en
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   B,|C2 z | A,   C ((3:2:2D/E)| F  E
+w: u- ser.  Mais las-      se*  co-ment
+    D | C2  B, | D2    B, |(CD) (3E/D/C/ | D2 z |
+w: po-  roi-e   Sans che-   li*   du-**    rer
+  (CD)  E | F2 (3E/D/C/ |((3:2:2D/CB,2)| C2 z |
+w: Qui* me tient en**           joi-**   e.
+    C2  B, |((3:2:2C/B,A,) B, | C2 ((3:2:2D/E)| F2 ((3:2:2E/D)|
+w: Can-chon-       è-**    te  che-       lui* proi-      e*
+   (CB,) A, |(G,F,) ((3:2:2E,/F,)|G,2 z | F2
+w:  qui* le   m'en-*       voi-*   a;     puis-
+    F |((3:2:2E/DC) B, | A, C  D |(3:2:2F/ E
+w: que        jou** ne puis a-ler      là Qu'il
+(3:2:2C/  D (3:2:2C/ B, | C2 z | C2 ((3:2:2CB,/) |
+w:    en vien-   gne à     moi   Chi      droit*
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+((3:2:2A,/G,A,) (3A,/G,/F,/ | E,2 z | F,   G, A, |
+w:     a*  jour   fail-**     li     Pour fai-re
+   C(3:2:2B,/A,  B, | B,2 z | A, D
+w: tous**       ses   bons.   Et il
+((3:2:2CB,/)|((3:2:2A,/G,F,) A, |((3:2:2C/B,C) D |
+w:     mor-*        ra**   quant        il**  ert
+    E2 ((3:2:2CD/)|((3:2:2C/B,A,) B,|((3:2:2C/B,C)
+w: poins      Can-*       ter**   à         hau-**
+   D | C2 z | F2 (3F/E/D/ | F2
+w: te vois:   Par  chi**    va
+   F |(FE) (3F/E/D/ | C2
+w: la  mi-*  gno-**   ti-
+   D |(ED) (3E/D/C/ |((3:2:2D/CD)
+w: se, Par*  chi**    ou**
+   E | F3 ||
+w: je vois.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% tenor %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[V:3]
+  F,3 | G,2 z | F,2 D, | F,2 z |
+w:Omnes.
+				 F,3 | F,2 z | A,2 G, | F,2 z |
+  F,3 | G,2 z | F,2 D, | F,2 z |
+				 F,3 | F,2 z | A,2 G, | F,2 z |
+  F,3 | G,2 z | F,2 D, | F,2 z |
+				 F,3 | F,2 z | A,2 G, | F,2 z |
+  F,3 | G,2 z | F,2 D, | F,2 z |
+				 F,3 | F,2 z | A,2 G, | F,2 z ||
+  F,3 | G,3 | F,3 | D,3 | F,2 z|
+				 F,2 F, | A,2 G, | F,2 z |
+  F,3 | G,3 | F,3 | D,3 | F,2 z|
+				 F,2 F, | A,2 G, | F,2 z |
+  F,3 | G,3 | F,3 | D,3 | F,2 z|
+				 F,2 F, | A,2 G, | F,2 z |
+  F,3 | G,3 | F,3 | D,3 | F,2 z|
+				 F,2 F, | A,2 G, | F,2 z ||
+  F,2 G, | F,2 D, | F,2 z | F,3 |
+				F,3 | A,3 | G,3 | F,2 z|
+  F,2 G, | F,2 D, | F,2 z | F,3 |
+				F,3 | A,3 | G,3 | F,2 z|
+  F,2 G, | F,2 D, | F,2 z | F,3 |
+				F,3 | A,3 | G,3 | F,2 z|
+  F,2 G, | F,2 D, | F,2 z | F,3 |
+				F,3 | A,3 | G,3 | F,2 z||
+%

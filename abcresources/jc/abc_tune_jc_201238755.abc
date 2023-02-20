@@ -1,0 +1,23 @@
+X: 3127
+T: LADY JANE TAYLOR
+Q:"Strathspey."
+R: Strathspey.
+%R:strathspey
+B: James Kerr "Merry Melodies" v.3 p.15 #127
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The barring in bar 8 is a bit unusual; the middle group should be split.
+N: Pickup notes 29 2nd half changed from 8th to 16th notes, to fix the rhythm.
+M: C
+L: 1/16
+K: C
+(GF) |\
+E3Gc3G E3Gc3G | (E3G) c2(Bc d)D3 D3G |\
+E3Gc3E F3Ad3f | (fe)dc (Gc)Bd cC3 C2(GF) |\
+E3Gc3G E3Gc3G | E3G c2(Bc d)D3 D3G |
+E3Gc3E F3Ad3f | (fe)dc (Gc)Bd cC3 C2 |]\
+(ef) |\
+g3c (ef)ge (ag)fe d2ef | g3c (ag)fe fd3 d2(ef) |\
+c3d (cd)ef (gf)ed c3G |
+c3A (GA)FG EC3 C2(ef) |\
+g3c (ef)ge (ag)fe d2ef | g3c (ag)fe fd3 d2(ef) |\
+(gf)eg (fe)df (ed)ce (dc)Bd | (cB)cA (GA)FG EC3 C2 |]

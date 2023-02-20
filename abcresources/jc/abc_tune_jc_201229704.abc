@@ -1,0 +1,38 @@
+X: 1281
+T: Alouette
+O: French Canadian Folk Song
+%R: air, _
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Ab
+%%continueall 0
+V: 1 brace=2
+V: 2 clef=bass middle=D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1][| [A3E3][BE] [c2A2][c2A2] | [BG]>[AA] [GB]>[cG] [A2E2][E2] |[A3E3][BE] [c2A2][c2A2] | [BG]>[AA] [BG]>[cG] "^FINE"[A4A4] |]
+w: 1.~ A-lou-et-te, gentile A-lou-et-te, A-lou-et-te, Je te plu-me-rae.
+w: 2.~ A-lou-et-te, gentile A-lou-et-te, A-lou-et-te, Je te plu-me-rae.
+[V:2][| [c3A3][dA] [e2A2][e2A2] | [dE]>[cE] [dE]>[eE] [c2A2][c2A2] | [c3A3][dA] [e2A2][e2A2] | [dE]>[cE] [dE]>[eE] [c4A4] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1]| [EE]>[EE] [AA]>[GG] [AA]>[cc] [e2e2] | [eG]>[fG] [eG]>[dG] [cG]>[BG] [A2A2] | [ee]>[ee] [e2] z4 | "_D.C."He8 |]
+w: 1.~Je te plu-me-rai la tete, Je te plu-me-rai la tete, Et la tete, "Oh!"
+w: 2.~Je te plu-me-rai la tete, Je te plu-me-rai la tete, Et la bec, *
+w:   |                        |                         | Et la tete, *
+[V:2]| [EE]>[EE] [AA]>[GG] [AA]>[cc] [e2e2] | [BE]>[BE] [BE]>[BE] [eE]>[dE] [c2A2] | z4 [EE]>[EE] [E2E2] | HE8 |]
+w: | | | 1.~Et la tete. *
+w: | | | 2.~Et la bec.  *
+w: | | |    Et la tete, *
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text 3. Le nez.  4. Le dos.  5. Les Pattes.  6.Le cou.
+%%vskip 10pt
+%%begintext align
+%% In the measure before the Oh!, and the D.C. where whe women's voices are echoed by the men's,
+%% a word is added as each verse is sung and the words of preceding verses are sung in reverse order.
+%% Thus, in the last verse, the duet between women and men would run as follows:
+%% Et le cou, et le cou; et les pattes, et les pattes; et le dos,  et le dos;
+%% et le nez, et le nez; et la  bec,    et la  bec;    et la tete, et la tete; Oh!
+%% and then back to the beginning to the Fine.
+%%endtext

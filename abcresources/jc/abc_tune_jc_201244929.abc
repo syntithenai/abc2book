@@ -1,0 +1,17 @@
+X: 1
+T: l'Acadienne
+O: Trad Qu\'ebec
+R: reel
+F: http://mustrad.udenap.org/partitions/TQ384.jpg
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+GA \
+| BGFG EGFG | DGFG BGFG |1,3 BGFG EGFG | DGBG AF :|2,4 BGAG GFED ^CDEF G2 :|[K:=f]
+K: C
+|: AB \
+| cGEG CGEG | FGEG DGAB |1,3 cGEG CGEG | FGEG DG :|2,4 cedc BAGF | EFED CG :|[K:_B]
+K: F
+|: AB \
+| cfaf cfaf | dgbg dfgf | eceg edcB |1,3 dcBc A2 :|2,4 dBGE F2 :|

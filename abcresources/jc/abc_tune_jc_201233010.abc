@@ -1,0 +1,28 @@
+X: 182
+T: Evening Hymn.
+C: Franz Abt.
+%R: jig, waltz
+N: This is version 1, for ABC software that doesn't understand cresc/diminuendo symbols.
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: Final note shortened to fix the rhythm.
+M: 6/8
+L: 1/8
+K: E
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+!p![| B2 G (FG) F | E3 B,2z | E2 E "cresc. . ."(EG) "dim. . ."F | F6 |
+w: 1.~Eve-ning spreads* her man-tle  O-ver lake* and lea;
+w: 2.~When the night* de-scend-eth   O-ver all* the land,
+%
+G2 G (GA) G | "^dim. . ."G3 c3 | !p!B2 B (BF) G | E3- Ezz |
+w: Now, while all* is si-lent, Let me tran - quil be!*
+w: Tran-quil is* my spir-it, Rest-ing in* they hand.*
+%
+!mf!G2 G G2 c | ^B3 G3 | G2 G (ed) c | ^B6 |
+w: Heed my child-ish sor-row,    Fa-ther, hear* my prayer;
+w: Thou wilt keep me, guard-ed,  Thou wilt hear* my prayer;
+%
+c2 B c2 B | (B2 e) G3 | !p!(F^E) F A2 G | "^dim. . ."E3- Ezz |]
+w: All my faith re-pos - es  In* Thy heav'n-ly care!*
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

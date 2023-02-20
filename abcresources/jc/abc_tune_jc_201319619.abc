@@ -1,0 +1,13 @@
+X: 167
+T: Old Leather Breeches
+R: jig
+%S: s:2 b:12(6+6)
+B: O'Neill's 1850 #167
+O: F.O'Neill
+Z: 1997 henrik.norbeck@mailbox.swipnet.se
+Q: "Spirited"
+M: 6/8
+L: 1/8
+K: C
+"^A"|: (B/c/) | "^>"d>BA "^>"d>BA | (GFE) (F2 (F/G/)) | A>BA [1 .A.B.c | B>AG c2 :|2 AHdc | BAG c2 |]
+"^B"|: (B/A/) | G>AG (EDHC) | F>GA (FEHD) | .E.F.G [1 .A.B.c | .B.A.G c2 :|[2 .AHdc | BAG c2 |]

@@ -1,0 +1,26 @@
+% From Stu Soloway on abcusers 2022-10-20
+% Fixed B's 1st ending by changing the final z3 to z6.
+% added missing bar line in A's 1st ending; deleted extra bar lines in the C part,
+% but these didn't affect the was that abc2midi handled them, and the MIDI file played well either way.
+X: 6
+T: Bride's Waltz
+C: trad.
+O: transcribed by Shana Aisenberg
+R: waltz
+S: Fiddle Hell Online 2020-11-09 handout for Klezmer Jam led by Shana Aisenberg
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/16
+K: Em
+%%continueall
+"^A"\
+|: "Em"b,6 e6 | {g}fe ^de fg ~g2 e2 e2 |\
+[1,3 "Em"b,6 e6 | ~fe ^dc BA B6 :|\
+[2,4 "Em"B4 d2 ~^c2 B2 ^A2 | B6 z6 :|
+"^B"|:\
+"Em"e2 B2 B2 ^AB G4 | ^AB G2 G2 FG E4 |\
+[1,3 "Em"B4 d2 ~^c2 B2 ^A2 | B6 z6 :|\
+[2,4 "C"G3 F AG "B" F3E FG | "Em"E3 e BG E6 :|
+"^C"|:\
+"Em"d^c dc dc de d2 ^c2 | B^A BA BA B^c B2 ^A2 |\
+B3 ^A AG | "(B)"G3 F FE |1,3 {^A^c}B6- | B6 :|2,4 "Em"E3 e BG | E6 :|

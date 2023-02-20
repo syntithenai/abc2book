@@ -1,0 +1,21 @@
+X:87
+T:Britches Full of Stitches
+Q:1/2=120
+M:2/2
+L:1/4
+%%MIDI ratio 3 1
+K:A
+P:A
+|: "A"A>B cA | "/"BA ce | "A"A>B cA | "D"BA F2 | "A"A>B cA | "/"BA ce | "D"A>B AF | "E"FE E2 :|
+P:B
+|: "A"e>f ec | "/"BA Bc | "A"e>f ec | "D"BA F2 | "A"e>f ec | "/"BA Bc | "D"A>B AF | "E"FE E2 :|
+N:Replace by blank line and X field
+T:Dublin City (Spanish Lady)
+M:2/2
+L:1/8
+Q:1/2=120
+K:A
+E2 | "A"E2E2 E2F2 | "F#m"A2A2 ABc2 | "D"d2B2 "A"c2A2 | "E7"F2E2 E4 |\
+"A"E2E2 E2F2 | "F#m"A2A2 ABc2 | "D"d2B2 "A"c2A2 | "E7"F2E2 E4 |
+"A"c2e2 e2c2 | "D"B2A2 A2B2 | "A"c2e2 e2c2 | "D"B2A2 "E7"B3E |\
+"A"c2e2 e2c2 | "F#m"B2A2 A2Bc | "D"d2B2 "A"c2A2 | "E7"F2E2 E4 |

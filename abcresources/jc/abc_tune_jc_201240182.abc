@@ -1,0 +1,19 @@
+X: 372
+T: The Peterson Rant
+C: Bert Murray
+R: strathspey
+B: Bert Murray's "Bon Accord Collection" 1999 p.37
+%
+N: This tune was written for I. & S. Peterson of Dollar.
+N: The 3rd B, in bar 1 might be a C, as in bar 5.
+N: The GB in bar 3 might be dotted, but the B lacks a flag.
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces
+[|\
+{CB,A,}vG,B,D>B, G,>B,E>C | B,>DG>D (3BAG (3FED | C>EA>C B,>D GB | (3cdc (3BAG (3FED (3CB,A, |
+G,>B,D>B, G,>CE>C | B,>G,D>B, G>DB>G | E>Gc>E D>GB>G | (3FED (3CB,A, (B,<G,)G,2 ||
+B,<E E>F G>FE>G | B>cB>A (G<E)E2 | A,D D>E F>ED>F | A>BA>G (F<D)D2 |
+B,<E E>F G>FE>D | B,>A,G,>A, B,2D2 | E>Gc>E D>GB>G | (3FED (3CB,A, (B,<G,) G,2 |]

@@ -1,0 +1,29 @@
+X: 11
+T: Mrs WHITBREAD'S WALTZ
+%R: waltz
+B: Button & Whitaker "Twelve Elegant New Dances for the Year 1810", London 1810
+F: http://imslp.org/wiki/Button_and_Whitaker's_Elegant_New_Dances_for_1810_(Various)
+Z: 2018-6-25  John Chambers <jc:trillian.mit.edu>
+N: The last word of the dance is very faint.
+M: 3/8
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for compactness.
+V: 1
+|: c4e2 | g4e2 | c2{d}cBce | d2B2G2 | cBcdef | g4e2 | d2{e}dcde | c4z2 :|
+|: d2B2G2 | g4=f2 | e2a2g2 | g^fedef | g2{a}g^fg2 | e2{a}g^fg2 | dedcBA | G4z2 :|
+|: fgf2d2 | efe2c2 | A2d2c2 | cBAGAB | cBcdef | g4e2 | d2{e}dcde | c4z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|: c'2e'2g'2 | c'2e'2g'2 | c'2e'2g'2 | g2d'2g'2 | c'2e'2g'2 | c'2e'2g'2 | g2d'2g'2 | c'4z2 :|
+|: G2B2d2 | B2d2g2 | c2e2a2 | d2a2c'2 | B2d2g2 | c2e2g2 | d4D2 | G4z2 :|
+|: B2d2g2 | c2e2g2 | f2a2d'2 | g2d'2f'2 | c'2e'2g'2 | c'2e'2g'2 | g2d'2g'2 | c'4z2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% 1st Lady set to 2d Gent: & turn round with both hands,
+%% 1st Gent: do the same, down the mid: foot it & swing [corners?].
+%%endtext
+% %center -------------------------
+% %center Button & Whitaker "Twelve Elegant New Dances for the Year 1810"

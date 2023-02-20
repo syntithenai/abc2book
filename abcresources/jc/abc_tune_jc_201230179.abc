@@ -1,0 +1,51 @@
+%%text RJ Set 133
+
+
+X: 1
+T: The Derry Reel
+R: reel
+M: C|
+L: 1/8
+K: A
+AB |\
+"A"c3B ABcA | "E" B2cB AFEF | "A"ABce a2ge | "D"(3fga ec "E"B2AB |
+"A"c3B ABcA | "E"B2cB AFEF | "A"ABce fec[1A | "E"BAGB "A"A2 :|2 e | "E"fefg "A"a2 |]
+|: ag |\
+"F#m"f3e ceag | "E"geBe geag | "F#m"f3e ceag | "E"gfeg "F#m"f2 fg |
+"A"aecB ABcA | "E"B2cB AFEF | "A"ABce fec[1e | "E"fefg "A"a2 :|2 "A"A | BAGB A2 |]
+
+
+X: 2
+T: Tongadale
+T: The Frozen Haddock
+R: reel
+C: Taigh na Teud/Farquhar MacDonald
+M: C|
+L: 1/8
+K: Amin
+|: AB |\
+"Am"cBcB AEAB | cBcB "F"AFAc | "G"BGDG EDEG | DEGA "Em"BG G/G/G |
+"Am"cBcB AEAB | cBcB "F"AFAc | "G"BGDG [1EDDd | "G7"dBcB "Am"A2:|2"Em"EDEG|EDCB,"Am" A,2 |]
+|: A,B, |\
+"Am"CA,EA, FA,EA, | GA,EA, "F"FEDC | "G"B,G,DG, EG,DG, | FG,EG, "Em"DCA,B, |
+"Am"CA,EA, FA,EA, | GA,EA, "F"FEDC | "G"B,G,DG, EDCB, | "Am"CA,A,G, A,2 :|["Trans""Am"A,2z2 "E7"A3E||
+
+
+X: 3
+T: The Road to Errogie
+S: Scottish reel, originally in B major
+Z:
+C: Adam Sutherland
+M: C|
+L: 1/8
+K: A
+AF |\
+"A"EA A2 "E"BABc | "A"eA A2 "E"Bcea | "D"f3f "A/C#"ecAc | "Bm"BABc "E"BAFA |
+"A"EA A2 "E"BABc | "A"eA A2 "E"Bcea | "D"f3f "A"ecAc | "E"BABc "A"A2 :|
+ce |\
+"A"a2-a a-a2ba | "A/C#"c'3b a3 e | "D"f2 ea- "A"ae f2- | "Bm"feae "E"fece |
+"A"a2-a a-a2ba | "A/C#"c'3b a3 e | "D"f3 a "A"ecAc | "E"BABc "A"A2 ce |
+"A"a2-a a-a2ba | "A7/C#"c'3b a3 e | "D"f2 ea- "A"ae f2- | "Bm"feae "E"fece |
+"A"EA A2 "E"BABc | "A"eA A2 "E"Bcea | "D"f3f "A"ecAc | "E"BABc "A"A2 |]
+%%text Ending: Choke the last note
+

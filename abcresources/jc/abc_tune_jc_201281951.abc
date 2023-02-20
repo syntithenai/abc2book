@@ -1,0 +1,18 @@
+X: 405
+T: Good Night
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #405
+R: single jig
+%S: s:4 b:16(4+4+4+4)
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0405/oneill-1001-0405-1.abc
+M: 6/8
+L: 1/8
+K: Em	% and G
+%%slurgraces 1
+%%graceslurs 1
+"^A"\
+|: {F}G2E {F}G2E | {F}G2A BGE | {F}G2E {F}G2E | FAd AFD ||
+|  {F}G2E {F}G2E | {F}G2A {A}B2c | ded BAG | FAd AFD :|
+"^B"\
+|: gdc B2A | {E}G2A BGE | gdc BAG | FAd AFD ||
+|  gdc B2A | {F}G2A {A}B2c | ded BAG | FAd AFD :|

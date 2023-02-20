@@ -1,0 +1,20 @@
+X: 4223
+T: Miss Ross's    Strathspey
+C: by Niel Gow
+%R: strathspey, air
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.23 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow"
+K: Bb
+% - - - - - - - - - -
+V: 1 staves=2
+G |\
+[F2B,2]~F>G F>G B>d | Tc>B d>B Tc>BG<B | [F2B,2]TF>G F>G B<g | (f<B){B}e>d Tc2B :| e | d<f-f>g (e3/g//a// b)>d | Tc>B d>B Tc>B G>e |
+d<f-f>g (f3/g//a// b)>d | Tc>B {B}e>d Tc2 B>e || df-f>g (f3/g//a// b)>d | Tc>B {B}d>B Tc>BG<B | FBDB TF>GB<g | (f<B) {B}e>d Tc2B |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | B2B2 B2B2 | d2B2 f2e2 | d2B2 B2e2 | d2gf e2d :| z | B2b2 B2b2 | a2b2 f2e2 |
+d2B2 b2B2 | e2AB F2B2 || B2b2 B2b2 | a2b2 f2e2 | d2B2 d2e2 | d2gf e2[Bd] |]

@@ -1,0 +1,61 @@
+
+X: 1
+T: Sirun A\,h\vcik  [Dm]
+T: Sweet Girl
+O: Armenia
+M: 4/4
+L: 1/8
+S: Pinewoods International Collection
+K: Ddor
+|: z"instr"C EF "Gm"G2 G2 | "(F)"~AG A{G}F "Gm"G4 | "(F)"GF AF "Cm"FE G_E | "Cm"_ED FE "Dm"D4 :|
+|: {GABc}dz "voice"Bc "Gm"d2 d2 | "F(Dm)"c2 Bc A4 | "Gm"GF EF G2 AF | "Cm"F_E ED "Dm"D4 :|
+|: z2 "voice"EF "Gm"G2 G2 | "(G)"AG AF G2 "Gm"z2 | "(F)"GF AF "Cm"FE G_E | "Cm"_ED FE "Dm"D4 :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: Sirun A\,h\vcik  [Em]
+T: Sweet Girl
+O: Armenia
+M: 4/4
+L: 1/8
+S: Pinewoods International Collection
+K: Edor
+|: z"instr"D FG A2 A2 | ~BA B{A}G A4 | AG BG GF A=F | =FE GF E4 :|
+|: {ABcd}ez "voice"cd e2 e2 | d2 cd B4 | AG FG A2 BG | G=F FE E4 :|
+|: z2 "voice"FG A2 A2 | BA BG A2 z2 | AG BG GF A=F | =FE GF E4 :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Sirun A\,h\vcik   [Gm]
+T: Sweet Girl
+O: Armenia
+M: 4/4
+L: 1/8
+S: Pinewoods International Collection
+K: Gdor
+|: "instr."zF AB "Cm"c2 c2 | "(B)"~dc d{c}B "Cm"c4 | "(B)"cB dB "Fm"BA c_A | "Fm"_AG BA "Gm"G4 H:|
+|: {cdef}kgz "voice"ef "Cm"g2 g2 | "B,(Gm)"f2 ef d4 | "Cm"cB AB c2 dB | "Fm"B_A AG "Gm"G4 :|
+|: z2 "vocal"AB "Cm"c2 c2 | "(B)"dc dB "Cm"c2 z2 | "(B)"cB dB "Fm"BA c_A | "Fm"_AG BA "Gm"G4 :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: Sirun A\,h\vcik   [Am]
+T: Sweet Girl
+O: Armenia
+M: 4/4
+L: 1/8
+S: Pinewoods International Collection
+K: Ador
+"instr."\
+|: zG Bc "Dm"d2 d2 | "(C)"~ed e{d}c "Dm"d4 | "(C)"dc ec "Gm"cB d_B | "Gm"_BA cB "Am"A4 H:|
+"vocal"\
+|: {defg}kaz "vocal"fg "Dm"a2 a2 | "C(Am)"g2 fg e4 | "Dm"dc Bc d2 ec | "Gm"c_B BA "Am"A4 :|
+|: z2 "vocal"Bc "Dm"d2 d2 | "(C)"ed ec "Dm"d2 z2 | "(C)"dc ec "Gm"cB d_B | "Gm"_BA cB "Am"A4 :|
+

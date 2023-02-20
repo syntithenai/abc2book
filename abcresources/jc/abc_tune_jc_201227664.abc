@@ -1,0 +1,20 @@
+X: 10912
+T: LANGOLEE
+O: Irish
+Q: "Slow"
+%R: jig
+B: "Edinburgh Repository of Music" v.1 p.91 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added initial rest to 2nd strain to fix the rhythm; A also works.
+M: 6/8
+L: 1/8
+K: G
+D |\
+DEF GAB | c>ed cBA |\
+BGE DEG | B>cA G2 :|\
+|: z |\
+B2c d2d | ece dBG |
+Bcd efg | GAG GED |\
+cec BdB | AGA BGE |\
+GFE Ddc | BcA G2 :|

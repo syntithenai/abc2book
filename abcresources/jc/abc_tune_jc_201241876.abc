@@ -1,0 +1,35 @@
+X: 482
+T: Faint and warily
+%R: march
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+B: John Treat - "Gamut for the Fifes", 1779, p.48 #2
+F: https://archive.org/details/GamutFortheFifes
+N: Bar 14 in the 1st voice is written above the staff; fixed in the ABC.
+N: Bar 15 in the 2nd voice is missing; copied from bar 11.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+|:\
+d6 ed | c2A2B2c2 | d4 g4 | a2g2e2c2 |\
+d6 ed | c2A2B2c2 | .d4 .f4 |
+.d4 z4 ::\
+(a2g2) e4 | a2f2 d4 | e2f2g2f2 | (f2e2) d4 |\
+(a2g2)e2e2 | a2f2 d2d2 | e2f2g2f2 | Hf4 {ef}He4 |
+d4 (e2d2) | c2A2B2c2 | "?"d4 f4 | (a2g2)e2c2 |\
+d6 ed | c2A2B2c2 | .d4 .f4 | .d4 z4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+|:\
+(FG)(FG) (FG)(FG) | (GA)(GA) (GA)(GA) |\
+(FA)(FA) (FA)(FA) | (EA)(EA) (EA)(EA) |\
+(FA)(FA) (FA)(FA) | (GA)(GA) (GA)(GA) |\
+(GA)(FA) (FA)(FA) | (FA)(FA) (FA)(FA) ::\
+(c8 | d8) | c2d2e2d2 | d2A2F2A2 |\
+c8 | d8 | c2d2e2d2 | Hd4 {cd}Hc4 |\
+(FA)(FA) (FA)(FA) | (GA)(GA) (GA)(GA) |\
+(FA)(FA) (FA)(FA) | (EA)(EA) (EA)(EA) |\
+(FA)(FA) (FA)(FA) | (GA)(GA) (GA)(GA) |\
+(FA)(FA) (FA)(FA) | F4 z4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

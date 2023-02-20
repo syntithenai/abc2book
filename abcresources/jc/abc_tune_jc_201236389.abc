@@ -1,0 +1,32 @@
+X:2201
+T:The Reel of Mey
+%
+P:The Reel of Mey
+C:James Aitken
+R:Jig (8x48)
+B:RSCDS 22-1(I)
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Em
+B,|:"Em"E2 F G2 A|B2 c B3|"D"AFD D2 F|"A"G2 E "B7"F2 B,|\
+    "Em"E2 F G2 A|B2 c B3|
+                          "B"AGF "B7"G2 F|"Em"E3 E2 D::\
+"G"G2 B dBG|"D7"F2 A c2 F|"G"G2 B dBG|"A"A3 "Bm"A2 D|
+"E"E2 G BGE|"B"^D2 F A2 D|"Em"EGA B2 c|"B"B3 B2 B,|\
+"Em"E2 F G2 A|B2 c B3|
+                      "D"AFD D2 F|"A"G2 E "B7"F2 B,|\
+"Em"E2 F G2 A|B2 c B3|"B"AGF E2 ^D|"Em"E3 E2:|
+%
+T: Lango Lee
+C: (Old Irish Melody)
+R: jig
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 22-1(II)
+N: Arr. Margaret Rae
+M: 6/8
+L: 1/8
+K: G
+D |: "D"D>EF "Em"G>AB | "C"c>ed "D7"cBA | "C/G"BGE  "G"DGA | "D7"B>cA "G"G2 :|
+c | "G"B2c "Em"d2d  | "C"e>dc "G"dBG | "G"Bcd "Em"efg | "A7"G>AG "D"FED |
+    ""C"cec "G"BdB | "Am"A>GA "Em"BGE | "C"GFE "G"Dd"C"c | "D7"B>eA "G"G2 |]

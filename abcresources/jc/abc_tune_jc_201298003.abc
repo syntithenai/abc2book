@@ -1,0 +1,36 @@
+X: 1
+T: KRUZIFUNGER
+O: Bavaria
+R: zwiefache
+M: 2/4
+L: 1/8
+N:A: 2(PPWWP)
+N:B: 3PWW2P3PWP
+N:This version of the tune is based on recordings by Squip!, and published notation by Wolfgang Jehn: jehnmusik.de/akkordeonspiele/music/kruzifunger.php, and the playing of another dance band.
+N:So, I believe that this version is "correct". It differs from all other ABC versions of this tune I've found in that bars 1 and 5 are 3 1/4 notes rather than 3 1/8 notes. In the other ABC versions, these bars are notated as 3/4, but only contain 3 1/8ths, another sign that this is a notation error, rather than intentional.
+N:For dancers, this means 3 pivot steps instead of one waltz step.
+A:Bavaria
+M:2/4
+Z: Contributed 2009-05-31 22:30:42 by Phillip Garrison pgarrison@pobox.com
+K: Am
+c4B4 |\
+M:3/8
+A4E2 |\
+M:5/8
+G3EG2 A4 |\
+M:2/4
+c4B4 |\
+M:3/8
+A4E2 |\
+M:5/8
+G3EG2 A4 :|
+M:3/4
+c4d4 e4 |\
+M:3/8
+f3ed2 | e3dc2 |\
+M:2/4
+d2B2 G2B2|\
+M:3/4
+c4d4 e4 |\
+M:5/8
+f3ed2 c4 :|

@@ -1,0 +1,365 @@
+X:1
+T:Mad Moll of the Cheshire Hunts
+R:hornpipe
+H:A variant of the tune in John Kirkpatrick's "Opus Pocus"
+H:Used as tune for Red Stags Morris dance "Titterstone Clee"
+C:John Locke.
+M:4/4
+K:G
+((3DEF) | G2 g>f e>dc>B | A>Bc>A B2 A2 | G2 g>f e>dc>B | d>cA>F G2 ((3DEF) |
+G2 g>f e>dc>B | A>Bc>A B2 A2 | e2 d2 c2 B2 | c>AF>A G4 |]
+D>GB>G D>GB>G | D>GB>d c2 A2 | D>FA>F D>FA>F | D>FA>c B2 G2 |
+D>GB>G D>GB>G | D>GB>d c2 A2 | e2 d2 c2 B2 | c>AF>A G2 |]
+
+X:2
+T:Morning Glory
+R:reel
+H:Used as tune for Red Stags Morris dance "Morning Glory"
+H:Dance also composed by Andy Anderson.
+C:Andy Anderson.
+M:4/4
+L:1/8
+K:G
+BA |: G2 d2 Bc d2 | GFGA G4 | edce d2 B2 |1 cBAG A2 BA :|2 cB A2 G4 |]
+d2 de d2 B2 | d^cde d2 B2 | e2 e=f e2 c2 | ede=f e2 c2 |
+d2 de d2 B2 | d^cde d2 B2 | edce d2 B2 | cB A2 G4 |]
+
+X:3
+T:Jack Off the Green
+R:single jig
+H:A variant of the tune in John Kirkpatrick's "Opus Pocus"
+H:Used a tune for Red Stags Morris dance "Weobley Hand-clapping Dance"
+C:William Preece.
+W:There was a young woman / As fine as ever was seen
+W:And with an old broomstick / She knocked Jack off the green
+M:6/8
+L:1/8
+K:G
+D | G2 G AGA | B2 B Bcd | G2 G AGA | B3 B2 A | G2 G AGA | B2 B Bcd |
+e3 dBG | A3 G3 |] d3 g3 | f2 e B3 | e2 f g2 g | a2 g e2 f | g2 g gfe |
+d2 c B3 | e2 e efe |\
+M:12/8
+d2 c (B3 B3) A3 |\
+M:6/8
+G2 G AGA | B2 B Bcd | e3 dBG | A3 G3 |]
+
+X:4
+T:Flowers of Edinburgh
+R:hornpipe
+H:Used as tune for Red Stags Morris dance "Weobley Hankie Dance"
+C:William Preece.
+M:4/4
+L:1/8
+K:G
+D2 | G2 DG B2 GB | d2 B2 g3 e | d2 B2 BAGA | B2 G2 E2 D2 | G2 DG B2 GB |
+d2 B2 g3 e | d2B2 BAGA | B2 G2 G2 f2 |] g4 f3 e | B2 e2 e3 f | g2 g2 fafd |
+B2 e2 e2 ge | dBGB d2 d2 | edef g2 fe | d2 B2 BAGA | B2 G2 G2 |]
+
+X:5
+T:Hunting the Squirrel
+R:single jig
+H:Used as tune for Red Stags Morris dance "Weobley Stick Dance"
+H:This version from John Kirkpatrick's Opus Pocus; not sure if same as Stags version
+C:William Preece.
+M:6/8
+L:1/8
+K:G
+G2 B d2 d | e3 d3 | B3 G3 | A3 D3 | G2 B d2 d | e3 d2 c | B2 G A2 F | G3 G3 :|
+Bcd e3 | Bcd e3 | Bcd e2 f | g3 e3 |d2 B G2 B  |d3 B2 A | G2 B A2 F | G3 G3 :|
+
+X:6
+T:George Green's College Hornpipe
+R:hornpipe
+H:Used as tune for Red Stags Morris dance "Mister Dolly"
+C:Traditional.
+M:4/4
+L:1/8
+K:G
+((3DEF) | G>BA>G F2 ((3DEF) | G>BA>G F2 d2 | c>BA>G F>DE>F |1 A>GF>E D2 :|
+|2 G2 B2 G2 A2 || B2 d2 B2 d2 | e>dc>B c4 | c>BA>G F>DE>F | A>GF>E D2 ((3DEF) |
+ G>BA>G F2 ((3DEF) | G>BA>G F2 d2 | c>BA>G F>DE>F | G2 B2 G2 |]
+
+X:7
+T:Off to California
+T:The Whiskey Hornpipe
+R:hornpipe
+H:Used as tune for Red Stags Morris dance "The Prisoner"
+C:Traditional.
+M:4/4
+L:1/8
+K:G
+((3DEF) | G>FG>B A>GE>D | G>Bd>g e2 e>f | g>fg>d e>dB>G |1 A>BA>G E2 :|2 ((3ABA) G>F G4 |]
+g>fe>g f>e d2 | e>de>f e>d B2 | g>fg>d e>dB>G | A>BA>G E2((3DEF) |
+G>FG>B A>GE>D | G>Bd>g e2 e>f | g>fg>d e>dB>G | ((3ABA) G>F G3 |]
+
+X:8
+T:The Idiot
+R:hornpipe
+H:Dance composed by the Hounds in the style of Red Stags
+C:Stan Rogers.
+M:4/4
+L:1/8
+K:G
+G/2A/2 | Bd dc/2B/2 ((3AGA) BD | EGGF E3 D | EG GF/2E/2 DG G>A |
+|1 ((3Bcd) cB A3 :|2 ((3Bcd) BA G3 |] G | ee ed/2c/2 dd d>c |
+((3BAG) GA B3 G | ee ed/2c/2 dd d>c | ((3BAG) cB A3 G/2A/2 |
+Bd dc/2B/2 ((3AGA) BD | EGGF E3 D | EG GF/2E/2 DG G>A | ((3Bcd) BA G3 ||
+
+X:9
+T:Rakes of Mallow
+R:reel
+H:Dance composed by the Mike Miller of the Hounds: Northumberland Gypsy
+C:Traditional.
+M:4/4
+L:1/8
+K:G
+G2 B2 G2 B2 | G2 B2 cBAG | F2 A2 F2 A2 | F2 A2 dcBA |
+G2 B2 G2 B2 | G2 B2 d3 B | cBAG FGAc | B2 G2 G4 :|
+g2 fe d2 c2 | B2 c2 d4 | g2 fe d2 c2 | B2 d2 A4 |
+g2 fe d2 c2 | B2 c2 d4 | cBAG FGAc | B2 G2 G4 :|
+
+X:10
+T:Rigs of Marlow
+R:hornpipe
+H:Used as tune for Red Stags Morris dance "Blake's Seven"
+C:Traditional.
+M:4/4
+L:1/8
+K:G
+G>A | B2 B2 B2 ((3dcB) | A2 A2 A2 ((3cBA) | B2 B2 B>cd>g | e>cA>F G2 G>A |
+B2 B2 B2 ((3dcB) | A2 A2 A2 ((3cBA) | B2 B2 B>cd>g | e>cA>F G4 |]
+g>ed>c B>c d2 | g>ed>c ((3Bcd) A2 | g>ed>c B>cd>c | B>GA>F G2 G2 |
+g>ed>c B>c d2 | g>ed>c ((3Bcd) A2 | g>ed>c B>cd>c | B>GA>F G2 |]
+
+X:11
+T:Morning Star
+R:hornpipe
+H:Used as tune for Shropshire Bedlams' "Morning Star"
+H:The Hounds use the Bledington version rather than the one transcribed
+H:in John Kirkpatrick's "Opus Pocus"
+C:Traditional.
+M:4/4
+L:1/8
+K:G
+GA | BcBG E2 FG | ABAF D2 GA | BcBG E2 AF | D2 G2 G2 :|
+GA | B2 B2 d2 d2 | egfe dcBA | GABc d2d2 | egfe d4 |
+B2 Bc d2d2 | egfe dB G2 | ABcA FGAF | D2 G2 G2 :|
+
+X:12
+T:Shave the Donkey
+T:Step 'N' Fetch Her
+H:Used as tune for Hounds "Northumberland Musketeers"
+H:Dance composed by Mike Miller
+H:Tune is the Bampton version
+C:Traditional.
+M:4/4
+L:1/8
+K:G
+d2 B2 d>c B>A | G2 g2 e2 g2 | d2 B2 d>c B>A | G2 B2 G4 :|
+A3 c B2 d2 | A3 c B2 d2 | A3 c B2 d>e | d>c B>A B2 G2 |
+A2 A>c B2 d2 | A2 A>c B2 d2 | A2 A>c B2 d>e | d>c B>A G4 |]
+
+X:13
+T:Not For Joe
+H:Used as tune for "Dilwyn Stick Dance"
+C:Traditional.
+M:4/4
+L:1/8
+K:G
+P:A
+D2 G2 D2 G2 | F2 E2 F2 E2 | D2 G2 D2 G2 | F2 G2 A4 |
+D2 G2 D2 G2 | F2 E2 F2 E2 | D4 B3 A | G2 F2 G4 :|
+P:B
+B3 A G2 B2 | c4 A4 | B3 A G2 B2 | A2 F2 D4 |
+B3 A G2 B2 | c4 A4 | D4 B3 A | G2 F2 G4 :|
+P:Song
+  G2  G2    DD     DD   | E2  E2   DD       DD     |
+w:My friend Bil-ly has a  ten foot wil-lie  And he
+  GG        GG     A2   F2 | G6     D2 |
+w:showed it to the girl next door.  She
+  GG         GG    D2    D2 | EE     EE     D2   D2 |
+w:thought it was a snake and  hit it with a rake and
+  GG       GG    A2   F2  | G8 |]
+w:now it's on-ly five foot  four.
+
+X:14
+T:Five In A Bed
+H:Dance written by James Allwright of Red Stags Morris
+H:Tune composed by Andy Anderson of Red Stags Morris
+C:Andy Anderson.
+M:4/4
+L:1/8
+K:G
+Bc | dgfe d2 c2 | BABc B2 G2 | ABcA B2 A2 | Bcde d2 Bc |
+dgfe d2 c2 | BABc B2 G2 | ABcA B2 A2 | G2 F2 G4 |]
+FA AA GB BB | FA GF GB BB | FA AA GB BB | FA GF G2 G2 |
+FA AA GB BB | FA GF GB BB | FA AA GB BB | FA GF G2 |]
+
+X:15
+T:Return From The Waterside
+R:reel
+H:Used as tune for Shropshire Bedlams dance "Dawley"
+H:Dance reconstructed by Andy Anderson of Red Stags Morris.
+C:Andy Anderson.
+M:4/4
+L:1/8
+K:G
+D2 | B2 B2 ABcA | G2 G2 FGAD | EFGE FGAF | GBAG F2 D2 |
+B2 B2 ABcA | G2 G2 FGAD | EFGE FGAF | G2 B2 G2 |]
+Bc | d2 d2 edcB | cBAG FGAF | GABG ABcA | BdBd A2 D2 |
+GABG ABcA | BcdB cedc | BGBG AFAF | G2 B2 G2 |]
+
+X:16
+T:Drowsy Maggie
+R:reel
+H:Used as tune for "Ockington"
+M:4/4
+L:1/8
+M:C|
+K:Edor
+|: ~E2BE dEBE | ~E2BE AFDF | ~E2BE dEBE | BABc dAFD | E2 E2 E4 :|
+d2fd c2ec | defg afge | d2fd cdec | BABc dAFD | E2 E2 E4 |]
+
+X:17
+T:Jenny Lind Polka
+R:polka
+H:Used as tune for "Hunt the Snark"
+M:2/4
+L:1/8
+K:D
+P:A
+FA GB | Af f/e/f | Ge e/d/e | Fd dA/G/ |
+FA GB | Af f/e/f | ge c/d/e/c/ | df d2 |]
+P:B
+dB B/c/d/B/ | AF F/G/A/F/ | GE E/F/G/E/ | FD DF/A/ |
+dB B/c/d/B/ | AF F/G/A/F/ | GE E/F/G/E/ | DF D2 |]
+P:C
+AA dF | AGG/F/G | AA gc | ed d/c/d |
+AA dF | AGG/F/G | AA gc | df d2 |]
+P:D
+K:G
+B/c/d B/c/d | eF F/E/F | eF F/E/F | ge d2 |
+B/c/d B/c/d | eF F/E/F | eF DF | GB GA/G/ |]
+
+X:18
+T:The Cuckoo's Nest
+R:hornpipe
+H:Used for the Hounds dance "The Cuckoo's Nest"
+H:Tune is the same as the Bampton-style "Binghamton Stick Dance"
+M:4/4
+K:G
+c>dc>B A2 a2 | e2 e2 d2> c | B>cB>A G2 A>B | c2 d2 A4 :|
+a2 a2 a2 b>a | ^g2 e2 e3 f | g2 g2 g2 a>g | f2 d2 d4 |
+c>dc>B A2 a2 | e2 e2 d2> c | B>cB>A G2 A>B | c2 d2 A4 |]
+
+X:19
+T:Donkey Ride
+R:hornpipe
+H:Used for the Hounds dance "Northern Star"
+H:Tune is the same as used for the Bledington-style dance
+H:  composed by the Binghamton Morris Men
+M:4/4
+L:1/4
+K:G
+E G B B/B/ | c A B B/B/ |1 B A A G/A/ | B A A F :|2 B G A F | E D E2 |]
+e e d B | c A B2 | B A A G/A/ | B A A2 |
+e e d B | c A B2 | B G A F | E D E2 :|
+
+X:20
+T:Four Lanes End
+R:hornpipe
+H:A Shropshire Bedlam dance for 4
+C:John Kirkpatrick
+M:4/4
+L:1/4
+K:G
+G G/B/ d c/B/ | c/e/ d/c/ B/G/ D/F/ | G G/B/ d c/B/ | c/e/ d/c/ G g/f/ |
+e g/e/ d/B/ G/B/ | A/B/ c/A/ B/c/ d | e/f/ g/e/ d/B/ G/B/ | B/G/ A/F/ G B/c/ |]
+d c B/G/ B/c/ | d/g/ d/c/ B/G/ B/c/ | d c B/G/ d/B/ |\
+A/B/ A/G/ F/A/ d/e/ | d c B/G/ B/c/ |
+d/g/ d/c/ B/d/ g/f/ | e d c B | A/B/ A/G/ F/A/ d/c/ |\
+"repeat 3x on 5th chorus"
+B/G/ c/A/ B/G/ c/A | B/G/ A/F/ G2 |]
+
+X:21
+T:Keel Row
+R:hornpipe
+H:Tune used for Wood House Bog
+M:4/4
+L:1/8
+K:G
+dc|B2GB c2Ac|B2GB AFDc|B2GB c2Ac|B/2G3/2A/2F3/2 G2:|
+GA|B/2d3/2dg e2dc|B2GB AFDc|B/2d3/2dg e2dc|B/2G3/2A/2F3/2 G2:|
+
+X:22
+T:Fandango
+R:jig
+H:Used as tune for Hounds dance "Not a Banana"
+Z:transcribed by Rich Holmes
+M:6/8
+K:D
+P:A
+"D"d2d dcd | "G"B2G "D"FGA | "D"d2d d3 | "Bm"fda f2 d |
+"D"d2d dcd | "G"B2G "D"FGA | "G"d2d d2g | "A"e2a "D"f2d  |]
+P:B
+"D"aba f2d | AFd AFd | aba f2d | "G"BGd BGd |
+"A"aba "D"f2d | "G"B2G "D"F2A | "G"B2d "A"e2c | "D"d6  |]
+
+X:23
+T:Durham Rangers
+R:hornpipe
+H:Used for "Alexandra Park Road Stick Dance, N.22"
+M:4/4
+K:D
+FG | ABAF A2 de | fgef d3 A | BcdB ABAF | G2 E2 E2 FG |
+ABAF A2 de | fgef d3 A | BcdB ABAG | F2 D2 D2 :|
+ag | fefg afdf | edcB A2 ef | ggag ffaf | g2 e2 e2 FG |
+ABAF A2 de | fgef d3 A | BcdB ABAG | F2 D2 D2 :|
+
+X:24
+T:Charles O'Connor
+R:jig
+C:Turlough O'Carolan (1670-1738)
+H:Used for "Just In Time"
+M:6/8
+K:D
+A | d2A d2A | BAG FGA | Bcd ecA | dfa a2g |
+fef BcB | ede ABA | dcB AFA |1 d3 d2 :|2 d3 dcB |]
+A2D FED | BGB AFA | DFA FDA | GEe c2A |
+f2f fef | fef fdB | e2e eae | eae ecA |
+dcB AFE | FAd f2e | dcB AFA | d3 d2 |]
+
+X:25
+T:Ring O' Bells
+R:Reel
+M:2/4
+S:Bacon (Jour EFDSS)
+A:Lichfield
+O:English
+P:(AB)2.A2B2
+H:transcribed by Steve Allen
+F:http://www.ucolick.org/~sla/morris/music/Lichfield/ringobel.lb.abc
+K:G
+I:speed 400
+P:A
+{A}B4  A4 | G2c2 B4   | A2G2 F2G2  | B4   A4 |
+   B4  A4 | G2c2 B4   | A2d2 d2^c2 | d8      |]
+P:B
+  d4  =c4 | B2g2 e4   | d4   c4    | B2g2 e4 |
+  d2G2 c4 | B2F2 G2c2 | B4   A3G   | G8      |]
+
+X:26
+T:Carpathian Tune
+R:reel
+H:Used for Belligerent Bluejay
+S:String Beings 11/98
+Z:Original transcription by John Chambers
+M:2/4
+L:1/16
+K:Em
+"Play as lead in" GFE2 F2G2 | E8 |: EFGA B2B2 | ^A2A2 B4 | GFE2 F2G2 |
+F8 | EFGA B2B2 | ^A2A2 B4 | GFE2 F2G2 | E8 :|
+A2{BA}E2 A2{BA}E2 | G2{AG}E2 G2{AG}E2 | A2{BA}E2 A3B | GAFG E4 |
+A2{BA}E2 A2{BA}E2 | G2{AG}E2 G2A2 | B4 B2Bc | B2A2 G2F2 :|
+
+ 

@@ -1,0 +1,52 @@
+X: 1
+T: Ransissi
+C: Soittanut Matti Rautiainen, Kaukola 1937
+N: "Soittanut" means "played" or "performed".
+S: Kes\"ajuhlat 2013, Saarij\"arvi; Suomalaisen Kansantanssin Yst\"av\"at r.y.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+P: Play: ABABA
+%P: Play: (AB)x4
+"A"|:\
+"C"C2 CC | E2 DC | "G"D2 D>D | D2 G,C | "F"F2 F>F | FF "G7"GF | "C"E2 E>D | E2(3G,A,B, |
+|\
+"C"C2 CC | E2 EC | "F"A,2 A,A, | "(Dm)"F2 ED | "C"C2 CC | "G7"B,2 B,B, | "C"C2 "(F)"C>C | "C"C3 z ||
+"B"||\
+"F"A2 AG | A2 AG | "Dm"F2 FE | F2 (3CEF | "G7"G2 GG | G2 GF | "C"E2 ED | E2 z2 |
+|\
+"F"A,2 A,C | "C"ED CB, | "F"A,2 A,C | "(Dm)"F2 ED | "C"C2 CC | "G7"B,2 B,B, | "C"C2 "(F)"CC | "C"C2 z2 :|
+P: Play: CCDD CCDD
+"C"|:\
+"C"CE Gc | "(G7)"e/d/c/B/ "C"c2 | "F"cB AF | "C"AG/G/ EC | "C"CE Gc | "(G7)"e/d/c/B/ "C"cG |1 "F"cB AF | "G7"A2 Gz :|2 "Dm"FE "G7"DB, | D2 "C"Cz |]
+"D"|:\
+"C"E3 C | G3 E | "(F)"c3 B | "F"cB "G7"AG | "C"E3 C | G3 E | "F"c2- "G7"c E/D/ | "C"C2 Cz :|
+P: Play EEFFE+6D
+"E"|:\
+"F"cA "G7"GF | "C"EC/E/ G2 | "G7"DB,/D/ F2 | "C"EC/E/ G2 | "F"cA "G7"GF | "C"EC/E/ G2 | "G7"DF ED | D2 "C"Cz :|
+"F"|:\
+"C"c2 c/B/c/d/ | "(Am)"ec A>B | "G7"dB G>B | "C"ec "G7"AG | "C"c2 c/B/c/d/ | "(Am)"ec A>B | "D7"dc B/c/B/A/ | "G"G2 Gz :|
+"E"|\
+"F"cA "G7"GF | "C"EC/E/ G2 | "G7"DB,/D/ F2 | "C"EC/E/ G2 | "F"cA "G7"GF | "C"EC/E/ G2 | "G7"DF ED | D2 "C"Cz |]
+"D"|:\
+"C"E3 C | G3 E | "(F)"c3 B | "F"cB "G7"AG | "C"E3 C | G3 E | "F"c2- "G7"c E/D/ | "C"C2 Cz "6x"y:|
+%%newpage
+P: Play GG CCDD CCDD
+"G"|:\
+"C"G>c cB | c4 | "G7"G>d dc | d4 | "C"Gc de | g2 ec |[1,3 "F"f2 "D7"e2 | "G7"d4 :|[2,4 "D7"e2 "G7"d2 | "C"c4 :|
+"C"|:\
+"C"CE Gc | "(G7)"e/d/c/B/ "C"c2 | "F"cB AF | "C"AG/G/ EC | "C"CE Gc | "(G7)"e/d/c/B/ "C"cG |1 "F"cB AF | "G7"A2 Gz :|2 "Dm"FE "G7"DB, | D2 "C"Cz |]
+"D"|:\
+"C"E3 C | G3 E | "(F)"c3 B | "F"cB "G7"AG | "C"E3 C | G3 E | "F"c2- "G7"c E/D/ | "C"C2 Cz :|
+P: Play GG HHDD A
+"G"|:\
+"C"G>c cB | c4 | "G7"G>d dc | d4 | "C"Gc de | g2 ec |[1,3 "F"f2 "D7"e2 | "G7"d4 :|[2,4 "D7"e2 "G7"d2 | "C"c4 :|
+"H"|:\
+"C"EE EE | "G7"ED/D/ DE | "F"FF FF | "C"FE/E/ EC | "C"EE EE | "G7"ED/D/ DE | "F"FA "G7"G/F/E/D/ | "C"CC Cz :|
+"D"|:\
+"C"E3 C | G3 E | "(F)"c3 B | "F"cB "G7"AG | "C"E3 C | G3 E | "F"c2- "G7"c E/D/ | "C"C2 Cz :|
+"A"[|\
+"C"C2 CC | E2 DC | "G"D2 D>D | D2 G,C | "F"F2 F>F | FF "G7"GF | "C"E2 E>D | E2(3G,A,B, |
+|\
+"C"C2 CC | E2 EC | "F"A,2 A,A, | "Dm"F2 ED | "C"C2 CC | "G7"B,2 B,B, | "C"C2 "(F)"C>C | "C"C3 z |]

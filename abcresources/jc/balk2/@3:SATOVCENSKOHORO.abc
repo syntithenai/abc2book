@@ -1,0 +1,14 @@
+X: 403
+T:Satovcensko Horo
+O: Bulgaria
+M:7/8
+L:1/8
+Q:1/4=160
+K:Gm
+%%MIDI gchord fz2fzfz
+%%MIDI program 25
+%%MIDI bassprog 45
+|:"G"Gdd d2d2|"Cm"edc c2c2   |"G"dc=B cB _A2|G2F G2=B2     |\
+  Gdd d2d2   |"Cm"edc c2c2   |"G"dc=B cB_A2 |G3 G4         :|
+|:FGG GGGG   |"Abm"=B2_A B2A2|"G"FGG GGGG   |"Ab"edc d2_A2 |\
+  "G"FGG GGGG|"Abm"=B2_A B2A2|"G"G_A=B cBA2 |G2F G4        :|

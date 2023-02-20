@@ -1,0 +1,27 @@
+X:1000
+T:Tater Walsen - Tinker's Waltz
+C:Joe Buchanan's Scottish Tome - Page 586.0
+I:586 0
+Z:Carl Allison
+U:T=!tenuto!
+R:Waltz
+L:1/4
+M:3/4
+K:G
+W:1st fiddle
+%%vskip 0
+D/C/ | B,( D G) | ((3B/c/B/)( A G) | E C>E | A2 ((3G/A/G/) | F( A>F) | D( E F) | G (B, E) | D2 (D/C/) |
+B,(>D G) | ((3B/c/B/)( A G) | E( C>E) | A2 ((3G/A/G/) | F( A>F) | D( E F) | G>G G | G3 :|
+(gf) | e (c>e) | g( f e) | d( G>B) | d>e d/B/ | c (D>F) | A (B A) | G (B, E) | D2 (g/f/) |
+e (c>e) | g (f e) | d (G>B) | d>e d/B/ | c D>F | A B>A | G>G G | G3 :|
+z | ((3D/E/D/) (B, D) | G,2 z | ((3E/F/E/) (C E) | A2 z |  F A>F | D (E F) | G (B>e) | d2 z |
+((3D/E/D/) (B, D) | G,2 z | ((3E/F/E/) (C E) | A2 z |  F A>F | D (E F) | G>G G | G2 :|
+%%vskip 20
+W:2nd fiddle
+%%vskip 0
+(D/C/) | G, (B, D) | G2 D | C (G, C) | C2 ^C | D (F>D) | C2 C | B, T(B, B,) | A, (B, C) |
+G, (B, D) | G2 D | C (G, C) | C2 ^C | D (F>D) | C2 C | B,>B, B, | B,3 :|
+G2 | C (E>C) | E (F G) | B/c/ d/c/ B/A/ | B2 G | F (A>D) | F2 F | B, G,>B, | B,2 B, |
+C (E>C) | E (F G) | B/c/ d/c/ B/A/ | B>c B/A/ | D F>D | F (D C) | B,>B, C | B,3 :|
+z | ((3B,/C/B,/) G, B, | B,2 z | ((3C/D/C/) (G, C) | C2 z | D (F>D) | A,2 C | B,2 G | F2 z |
+((3B,/C/B,/) G, B, | B,2 z | ((3C/D/C/) (G, C) | C2 z | D (F>D) | A,2 C | B,2 C | D2 :|

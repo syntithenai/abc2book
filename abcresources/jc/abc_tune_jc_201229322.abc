@@ -1,0 +1,75 @@
+%%text RJ Set 121 NEFFA 2015 Jigs set with optional reel
+
+
+X: 1
+T: The Rolling Waves
+O: Trad Irish
+R: jig
+M: 6/8
+L: 1/8
+K: D
+|:\
+"D"F2 E EDE | F2 D DED | "D"F2 E EFA | "Em7"d2 e "A"fdA |\
+"D"F2 E "D/E"EDE | "D/F#"F2 D "D"DED | "D"AFE "D/F#"EFA | "G"B3 d3 :|
+|:\
+"D"ABd e2 f | "Em7"d2c "A"B2 A | "D"ABd e2 f | "G"d2 A "A"B3 |\
+"D"ABd "D/C#"ede | "D/B"fdB "G"BAF | "D"AFE "D/F#"EFA |["Norm" "G"B3 d3 :|\
+["Trans" "G"B6 |]
+
+
+X: 2
+T: The Banks of Lough Gowna
+O: Trad Irish
+R: jig
+M: 6/8
+L: 1/8
+K: Bm	% and D
+[|:\
+"Bm"B3 BAF | "D"FEF DFA | "Bm"~B3 BAF | "D"d2 e fdc |\
+"Bm"~B3 BAF | "D"FEF DFA | "G"def "Em"gfe |1 "Bm"fdB BFA :|[2 "Bm"fdB B2A ||
+[|:\
+"D"def a2b | afb afe | "Bm"dFA def | "G"g2 g "A"fdB |\
+"D"def a2b | afb afe | "G"def "Em"gfe |1 "Bm"fdB B2A :|[2 "Bm"fdB B3 ||
+
+%%begintext ragged
+%% Transition: Play either Glen Echo or Sligo Creek next,
+%% depending on what our Beloved Leader says.
+%% If going to Sligo Creek, skip the pickups.
+%%endtext
+
+
+X: 3
+T: Glen Echo Jig
+C: Larry Unger
+M: 6/8
+L: 1/8
+R: jig
+K: G
+|:"G"B3   BAB | "Em"GED E2D | "C"EGD EGD |    EGB  "D"AGE |\
+| "G"B2B  BAB | "Em"GED E2D | "C"EGD EGB |  "D"AGE "G"G3 :|
+|:"G"B,2D DED |    B,DE D2D | "C"E2G GED | "Am"GED "D"B,A,G, |\
+| "G"B,2D DED |    B,DE D2D | "C"EGB AGE |  "D"DB,A, "G"G,3 :|
+
+%%text STOP. Do not play Sligo Creek after Glen Echo! This is not a four-tune set!
+%%sep 1 1 530
+
+
+X: 4
+T: Sligo Creek
+C: Danny Noveck (1988)
+R: reel
+Z: transcribed to abc by Mary Lou Knack
+M: C|
+L: 1/8
+K: Bm
+de |\
+"Bm"f2ef dB~B2 | f2ef df~f2 |\
+"A"a2ed cAAF | EFAB "F#m"c3e |\
+"Bm"f2ef dB~B2 |
+f2ef df~f2 |\
+"A"a2ed cAec | ABcA "Bm"B2 :: BA |\
+"G"GB~B2 Bcde | "D"f2ec defd |
+"A"eA ~A2 cAFA | EFAB "F#m"c2BA |\
+"G"GB~B2 Bcde | "D"f2ec defd |\
+"A"ea ~a2 faec | ABcA "Bm"B2 :|
+

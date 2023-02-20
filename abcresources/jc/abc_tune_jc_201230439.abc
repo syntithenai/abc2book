@@ -1,0 +1,18 @@
+X: 139039
+T: MORGAN RATTLER
+Q: "Irish Jig."
+R: Jig.
+%R: jig
+B: James Kerr "Merry Melodies" v.1 p.39 s.0 #39
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: G
+ue |\
+dcB ABc | BAB uG2ue | dcB ABd | ve2vd efg |\
+dcB ABc | BAB G2d | gfg agf | e2d efg :|
+|:\
+vG2vg {a}gfg | vA2va {b}aga | G2g {a}gfg | e2d efg |\
+G2g {a}gfg | A2{b}a {b}aga | bag fed | e2d efg :|

@@ -1,0 +1,49 @@
+X: 1
+T: Banatsko nadigravanje (Numero)
+S: Handwritten MS
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+P: Intro AB CD AB CD AB
+%%sysstaffsep 30
+M: 2/4
+L: 1/16
+K: G
+V: 1
+%%text Accel. gradually
+"Intro"
+|: c2d2 e2c2 | d4 d4 | c2d2 e2c2 |  d2z2 z4 \
+|  c2d2 e2c2 | d4 d4 | cBA2 B2G2 |1 A4   A4  :|2 A4 A2z2 ||
+V: 2
+|: "C"A2B2 "D7"c2A2 | "G"B4 B4 | "C"A2B2 "D7"c2A2 | "G"B2z2 z4 \
+|  "C"A2B2 "D7"c2A2 | "G"B4 B4 | "D"AGF2 "A7"G2E2 |1 "D"F4 F4 :|3 "D"F4 F2z2 ||
+%%sep 5 5 200
+V: 1
+"A"\
+|:    B4 B4 | cBA2 B4 | cBA2 cBA2 | B4 B4 \
+|     B4 B4 | cBA2 B4 | cBA2 cBA2 | G4 G2z2 :|
+V: 2
+|: "G"G4 G4 | AGF2 G4 | AGF2 AGF2 | G4 G4 \
+|     G4 G4 | AGF2 G4 | AGF2 AGF2 | G4 G2z2 :|
+V: 1
+"B"\
+|: c2d2 e2c2 | d4 d4 | c2cd e2c2 |  d2z2 z4 \
+|  c2d2 e2c2 | d4 d4 | cBA2 B2G2 | A4 A2"fine"z2 :|
+V: 2
+|: "C"A2B2 "D7"c2A2 | "G"B4 B4 | "C"A2AB "D7"c2A2 | "G"B2z2 z4 \
+|  "C"A2B2 "D7"c2A2 | "G"B4 B4 | "D"AGF2 "A7"G2E2 | "D"F4 F2"fine"z2 :|
+%%sep 5 5 200
+K: D
+V: 1
+"C"\
+|: f4 f4 | gfe2 f4 | gfe2 gfe2 | f4 f4 \
+|  f4 f4 | gfe2 f4 | gfe2 gfe2 | d4 d2z2 :|
+V: 2
+K: D
+|: "D"d4 d4 | edc2 d4 | edc2 edc2 | d4 d4 \
+|     d4 d4 | edc2 d4 | edc2 edc2 | d4 d2z2 :|
+V: 1
+"D"\
+|: g2a2 b2g2 | a4 a4 | g2ga b2g2 |  a2z2 z4 \
+|  g2a2 b2g2 | a4 a4 | gfe2 f2d2 | e4 e2z2 :|
+V: 2
+|: "G"e2f2 "A7"g2e2 | "D"f4 f4 | "G"e2ef "A7"g2e2 | "D"f2z2 z4 \
+|  "G"e2f2 "A7"g2e2 | "D"f4 f4 | "A"edc2 "E7"d2B2 | "A"c4 c2z2 :|

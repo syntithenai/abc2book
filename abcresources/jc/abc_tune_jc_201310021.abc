@@ -1,0 +1,21 @@
+X: 1
+T: The Minister of Birse
+O: Trad.
+R: strathspey
+B: Anselm Lingnau "Nine Weddings (And No Funeral)" p.19
+F: http://www.anselms.net/SCD/wbook/wbook.pdf
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A, |\
+"D"D2 F<A "G"B,2 "A7"C>A, | "D"D2 F>A d>A F<D |\
+"Em"G<B "D"F<A "A7"E>F G<E | "D"D<d A>F "A7"A3 A, |
+"D"D2 F<A "G"B,2 "A7"C>A, | "D"D2 F>A "(Bm)"d>A F<D |\
+"Em"G<B "D"F<A "A7"E>F G<E | "D"D<d A>F "A7"A2 ||
+(3ABc |\
+"D"d>e f>d A<F D>F | "Em"G<e e>d "A7"cA Bc |\
+"D"d>e f>d A<F D>F | "A"E<A "E7"A>^G "A"A2 ||
+(3ABc |\
+"D"d>e f>d A<F D>F | "Em"G<g g>f "A"eA Bc |\
+"Bm"d<f B<d "F#m"A>B F<A | "A7"E>D E<F "D"D3 |]

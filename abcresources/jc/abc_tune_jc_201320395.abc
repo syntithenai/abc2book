@@ -1,0 +1,15 @@
+X:550
+T:Orange Nan
+C:John Young, 1713
+%%MIDI gchord fcfcfc
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=110
+M:3/2
+L:1/4
+K:F
+P:A
+e |: "F"fcfAcA | "Gm"BG2gaf | "C/E"ge"Dm"fd"C"ec | "F"fF2c"C7"de :|
+P:B
+|: "F"fa"Gm"gb"F/A"a"(Bb)"f | "C"eg2c"C7"de | "F"fA"Gm"Bd"Gm/Bb"gd | "C"ec2B"C7"Ac |
+"F"fA"Gm"Bd"Gm/Bb"Gd | "C"eg"Dm"fa"C/E"gb | "F"aA"Gm"Bd"C7"ce | "F"f !fine! F2 c"C7"de :|

@@ -1,0 +1,31 @@
+X: 12
+T: The Belles about the Flat Bush __ (a Village on Long Island so called)
+R: reel, polka
+M: 2/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+N: Bar 16 ended with a C, clashing with the D in the bass. Fixed to agree with the bass.
+N: Bars 23,24 have poorly-printed low notes that might be E or D. Fixed to agree with the bass.
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 
+|: d2Ad | F2AF | D2FD | A,2DA, | B,DA,D | B,DA,D | DGFA | F2E2 |
+|  d2Ad | F2AF | D2FD | A,2DA, | B,DA,D | B,BAG | FEDC | D4 :|
+|: A>GFG | ABcd | d>fd>f | c2A2 | B>dB>d | A>dA>d | AGFE | D3F |
+|  A>GFG | ABcd | ef (a/g/)(f/e/) | dcBA | D>CDA, | B,>CD>B | A>FE>F | D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: d2d2 | d2d2 | [d2D2][d2D2] | [d2D2]F2 | G2F2 | G2F2 | E2D2 | ABcA |
+|  d2d2 | d2d2 | [d2D2][d2D2] | [d2D2]F2 | G2F2 | G2FG | A2A2 | D4 :|
+|: d2d2 | d2d2 | d2d2 | aecA | [g2d2][g2d2] | [f2d2][f2d2] | a2A2 | d2D2 |
+|  d2d2 | d2[f2d2] | g2g2 | a2A2 | d2D2 | G2G2 | A2A2 | d2D2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands across and back again, cast off 2 couple, up again, turn partners
+%% half round, and back again, lead down 2 couple, turn your partners, lead
+%% up again, and cast off --
+%%endtext

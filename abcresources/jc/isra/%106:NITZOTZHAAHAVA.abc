@@ -1,0 +1,13 @@
+X: 106
+T: Nitzotz Ha ahava
+C: Greek
+O: Israel
+M: 2/4
+L: 1/8
+Q: 1/4=160
+K: Am
+%%MIDI program 70
+%%MIDI bassprog 27
+%%MIDI gchord fz
+|:z3^C|"Am"E2 E2|E2 E2|F3 E    |D3 ^C |D2 FE  |D3 ^C |^C_B, A,2 :|
+|:z3^C|F2 FE    |D3^C |D^C_B,2-|_B,3A,|_B,2D^C|_B,3A,|A,4       :|

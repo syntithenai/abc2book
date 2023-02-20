@@ -1,0 +1,26 @@
+X:1
+T: Turn of the Tide
+N:
+C:
+S:Tune is: Moonlight Moorings
+A:
+O:
+R:
+M:3/4
+K:G
+I:speed 180
+%W: A
+% voice 1 (1 lines, 25 notes)
+K:G
+M:3/4
+L:1/16
+B8 G2 A2 |B8 G2 A2 |B4 e4 d4 |B4 A4 G4 |E4 F4 G4 |A4 B4 A4 |D4 E4 F4 |F4 E4 D2 B2 |
+%W:
+% voice 1 (1 lines, 23 notes)
+B8 G2 A2 |B8 G2 A2 |B4 e4 d4 |B4 A4 B4 |E4 F4 G4 |A4 B6 A2 |A4 G8|G8 d2 e2 |
+%W: B
+% voice 1 (1 lines, 23 notes)
+=f8 e2 g2 |g2 d2d8 |c4 B4 c4 |d2 G2G8 |=f8 e2 g2 |g2 d2d4 B4 |c4 B6 c2 |d12 |
+%W:
+% voice 1 (1 lines, 26 notes)
+=f8 e2 g2 |g2 d2d4 B4 |c4 B4 c4 |d2 G2G6 D2 |G2 A2 A2 B2 B2 c2 |A8 G2 F2 |F4 G8|G12 ||

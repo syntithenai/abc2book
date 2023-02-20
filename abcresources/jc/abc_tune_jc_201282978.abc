@@ -1,0 +1,32 @@
+X: 1
+T: Green Sleeves and Yellow Lace
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master,volume one, 17th edition" London: John Young, 1721 
+S: Google Books idBfwFfSNu5rYC p.113.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the dance instructions.
+M: 6/4
+L: 1/4
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+c2c c>de | dBG G>AB | c2A A>Bc | B>A ^G/F/ E2B |\
+c2c c>de | dBG G>AB | c>BA B^G2 | A3- A2 :|
+|: ^f |\
+g2g g>fe | dBG G2g | a2b c'>ba | gee e2^f |\
+g2g g>fe | dBG G2B | c>BA B^G2 | A3- A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Note: Each Strain is to be play'd twice, and the Tune twice through.
+%%begintext align
+%% The 1. cu. sett and cast off then sett and cast off 2. cu. .| Then the same to their places again : The 1. Man whole figure
+%% with the 3. cu. and the Wo. with the 3. cu .| Then the 1. Man whole Figure with the 2. cu. and the Wo. with the 3. cu. :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then the 1. Man hands half round with the 3. cu. and the 1. Wo. hands half round with the 2. cu. :| Then the 1. Wo.
+%% hands round with the 3. cu. and the Man hands round with the 2. cu. .| The first Man hay with the 3. cu. and the
+%% 1. Wo. hays with the 2. cu. :| Then the 1. Wo. hays with the 3. cu. and the Man hays with the 2. cu.
+%% [DM1-17]
+%%endtext
+%%sep 1 8 500

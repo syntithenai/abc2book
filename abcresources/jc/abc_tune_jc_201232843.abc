@@ -1,0 +1,70 @@
+X: 17
+T: le Pouvoir de la Beaut\`e
+N: The book has a handwritten accent-grave over the final 'e', but that's bogus French.
+R: march
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #17
+M: 2/4
+%V: 1 clef=treble middle=B
+%V: 2 clef=bass   middle=d
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+G2G2 |\
+A2Bc B2A2 | G4 gfed | efgd c2B2 | {B}A4 G2G2 |\
+A2Bc B2A2 | G4 gfed | efga g2f2 | Hg4 :|
+B2B2 |\
+A2A2 d2ed | ^c2A2 f2gf | e2d2 ^cdec | A4 d2fd |\
+^c2BA d2fd | ^c2BA B^cdA | B^cdG F2E2 | D4 |][K:Gm]
+|: "Mineur"\
+B2c2 |\
+d4 e2dc | d4 {e}d2cB | A2G2 ^FGAF | D4 B2c2 |\
+d4 e2dc | d4 {e}d2cB | A2G2A2^F2 | HG4 :|
+B2d2 |\
+f4 edcB | A2F2 Bcde | fgab d2c2 | B4B2d2 | f4 edcB |\
+A2F2 Bbag | edcB F2A2 | B4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass   middle=d
+g2g2 |\
+c4d2D2 | E4B4 | c2B2A2G2 | d4g2g2 | c4d2D2 |
+E4B4 | c4d2D2 | HG4 :| G2g2 | f2d2f2g2 | a4d2d'2 | g2^g2a4 |
+A2a2f2d2 | a4f2d2 | a2f2g2f2 | g2b2a2A2 | "_Da Capo"d4 |][K:Gm]
+|: "Mineur"\
+g2A2 |\
+b4c'4 | b4g4 | c'2^c'2d'4 | d4g2a2 | b4c'4 |
+b4g4 | c2e2d2D2 | HG4 :| B2b2 | a2f2g2e2 | f4d4 | B4f2F2 |
+B4B2b2 | a2f2g2e2 | f4d4 | e4f2F2 | "_Da Capo"B4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Pouvoire de la Beaut\`e
+%%begintext align
+%%    Le Grand Rond, - - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Couple half Right hand
+%% and Left, then Allemande, at the same time
+%% the second and fourth Couple Allemande, then
+%% Right hand and Left half Round - - 1/2
+%%endtext
+%%begintext align
+%%   All Eight, the Moulinet half Round - 1/1
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   Half La Chaine - - - 1/1
+%%endtext
+%%begintext align
+%%   All Balanc\'e, Rigaudon and Allemande with
+%% their Partners - - - 1/2
+%%endtext
+%%begintext align
+%%   Finish La Chaine - - - 1/2
+%%endtext
+%%begintext align
+%%   All Balanc\'e, Rigaudon and Alemande with their
+%% Partners - - - - 1/1
+%%endtext
+%%sep 1 1 400

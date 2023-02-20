@@ -1,0 +1,6 @@
+X: 1
+T: TEST: Keysig: D to Dmin in one line.
+%%staffwidth 12cm
+T: K: D
+K: D
+[| DEFG ABcd | [K:Dm] dcBA GFED |]

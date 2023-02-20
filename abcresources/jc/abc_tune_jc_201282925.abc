@@ -1,0 +1,32 @@
+X:1
+T: The Green Man
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 41 notes)
+K:G
+M:4/4
+L:1/16
+G4 G4 B2 c2 d2 B2 |A4 A4 c2 d2 e2 c2 |B2 c2 d2 B2 G4 B4 |A2 G2 F2 E2 D8 |B4 d4 g2 f2 g4 |g2 e2 f2 g2 a4 g4 |f2 g2 a4 A4 ^c4 |d8 D8 |
+%W: B1
+% voice 1 (1 lines, 42 notes)
+B4 d4 g2 f2 g4 |g2 f2 g4 e6 d2 |c4 e4 a2 g2 a4 |f2 g2 a2 f2 d6 f2 |g4 b4 a4 g2 f2 |g2 b2 a2 g2 f6 d2 |e2 f2 g2 e2 f2 g2 a2 f2 |g8 G8 |
+%W: B2
+% voice 1 (1 lines, 42 notes)
+B4 d4 g2 f2 g4 |g2 f2 g4 e6 d2 |c4 e4 a2 g2 a4 |f2 g2 a2 f2 d6 f2 |g4 b4 a4 g2 f2 |g2 b2 a2 g2 f6 d2 |e2 f2 g2 e2 f2 g2 a2 f2 |g8 G8 |
+%W: A2
+% voice 1 (1 lines, 41 notes)
+G4 G4 B2 c2 d2 B2 |A4 A4 c2 d2 e2 c2 |B2 c2 d2 B2 G4 B4 |A2 G2 F2 E2 D8 |B4 d4 g2 f2 g4 |g2 e2 f2 g2 a4 g4 |f2 g2 a4 A4 ^c4 |d8 D8 |
+%W: B3
+% voice 1 (1 lines, 42 notes)
+B4 d4 g2 f2 g4 |g2 f2 g4 e6 d2 |c4 e4 a2 g2 a4 |f2 g2 a2 f2 d6 f2 |g4 b4 a4 g2 f2 |g2 b2 a2 g2 f6 d2 |e2 f2 g2 e2 f2 g2 a2 f2 |g8 G8 |
+%W: B4
+% voice 1 (1 lines, 42 notes)
+B4 d4 g2 f2 g4 |g2 f2 g4 e6 d2 |c4 e4 a2 g2 a4 |f2 g2 a2 f2 d6 f2 |g4 b4 a4 g2 f2 |g2 b2 a2 g2 f6 d2 |e2 f2 g2 e2 f2 g2 a2 f2 |g8 G8 ||

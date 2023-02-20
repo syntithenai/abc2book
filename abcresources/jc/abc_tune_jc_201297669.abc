@@ -1,0 +1,56 @@
+X: 1
+T: Knot
+P: Longways for as many as will
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.88 #123 (175)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.136
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Illegible parts deciphered using the image at http://deriv.nls.uk/dcn3/8975/89752855.3.jpg
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+C4 B,2 A,2 | (B,C) (DB,) G,2 D2 | G4 F2 E2 | F2 A4 Bc |\
+d4 c2 B2 | (AB) (cA) F4 | (EB) (cA) F2 (ED) | G4 G,4 |]
+[|\
+C3 D (ED) (EF) | (EF) G2 D4 | G2 B,2 B,2 (A,G,) | A,6 AB |\
+c3 d (ed) (ef) | (ef) g2 d4 | B2 (cA) A2 G2 | G6 |]
+[| d2 |\
+=f4 e2 d2 | e2 (cB) c2 (BA) | a2 e2 (ef) g2 | f6 d(e/f/) |\
+g2 (fe) (dc) (BA) | =f2 (ed) (cB) (AG) | F2 G2 (AG) F2 | G6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu. cross over into the 2d Cu. place, and go the Figure thro' the 2d Cu. into their
+%% own places again; then they cross over below the 3d Cu. and go the Figure and the 1st
+%% Man turn the 3d Wo. and the 1st Wo. turn the 2d Man, and then turn their own, then 1st
+%% Man turn the 2d Wo. and the 1st Wo. turn the ed Man, then all four take left Hands and turn
+%% half round into their places again; the other Cu. do the same. This to the Tune once
+%% over.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then the 1st Cu. cast off into the next Cu. place, and lead thro' them round into their places
+%% again, then cast off and lead thro' them again, and turn his own; then 1st Man turn the 2d
+%% Wo. and 1st Wo. turn the 2d Man, and then each turn his own half round into their
+%% places again, the rest do the same.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First man and 1. wo. cross over into the 2. cu places, and go the Figure through the 2. cu. into their own places again,
+%% then they cross over below the 3. cu. and go the Figure, and the 1. man turn the 3. wo. and 1. wo. turn the 3. man,
+%% and then turn their own then 1. man turn the 2. wo. and 1. wo. the 2 man, then all four take left-hands and turn half
+%% round into their places again; Then the other cu. do the same over. This to the Tune played once over.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then the 1. man and 1. wo. cast off into the next cu. places, and lead through them round into their places again, then
+%% cast off and lead through them again, and turn his own, then 1. man turn the 2. wo. and 1. wo. turn the 2. man, and
+%% then each turn his own half round into their places again; The rest do the same over.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

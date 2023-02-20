@@ -1,0 +1,31 @@
+X: 6
+T: Cotillon VI.     le Biberon.
+%R: reel
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #6
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+G2(Tgf g2)G2 | e4 d4 | (cd)(ed) (cd)(Bc) | (AB)(GA) F2D2 |\
+G2(Tgf g2)G2 | c4 B4 | (AB)(cA) (BA)(GF) | G4 G,4 :|
+|:\
+dgfg dgBd | cede ceAc | Bded cBAG | FGEF D4 |\
+dgfg dgBd | cede ceAc | Bgec BAGF | G4 G,4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+g6 b2 | c'4 b4 | a6 g2 | f2e2 d4 | g6 b2 | a4 g4 | c'4 d'2d2 |
+g4 G4 :||: g4 b2g2 | c'4 a2f2 | g4 b2c'2 | d'2a2 d4 |
+g4 b2g2 | c'4 a2f2 | g2c'2d'2d2 | g4 G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round: Right hands & Left four, four lead up, turn their Ladies once round
+%% into their Places, the other four do the same: Every Gentleman turn his Partner.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.

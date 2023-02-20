@@ -1,0 +1,37 @@
+To: Shelley.Drowns@gmail.com
+Subject: The U.S. Air Force
+
+X: 1
+T: The U.S. Air Force
+M: 6/8
+L: 1/8
+P: Flute
+Q: 1/2=80
+C: Robert Crawford
+K: Bb
+% - - - - - - - - - -
+d2f(f3 | f3)edc | (dBd) (ece) | (=e^ce) (fdf) | g2b(b3 | b3)c'bg | f2f dfd | Tf6 | 
+w:Off we go* in-to the wild** blue** yon-**der,** Climb-ing high* in-to the sky; (sun)
+%
+d2f (f3 | f3) edc | (dBd)( ece) | (=e^ce) (f_df) | a2c' (c'3 | c'3)bag | (f6 | f6) | 
+w:Here they come,* zoom-ing to meet** our** thun-**der,** At 'em boys,* give 'er the gun!
+%
+d2f(f3 | f3)edc | (dBd)( ece) | (=e^ce) (f_df) | g2b(b3 | b3)gab | (a6 | a3)d3 | 
+w:Down we dive,* spout-ing our flame** from** un-**der,** Off with one* hell-uv-a roar!* We
+%
+(b3b2)b | (=b3b)gg | (c'3c'2)c' | ^c'6 | d'=c'b d'2b | d'2bc'3 | b3 |] 
+w: live* in fame* or go down* in flame, No-thing-'ll stop the U. S. Air Force.
+% - - - - - - - - - -
+%%textfont helvetica 10
+%%begintext
+%% OFF WE GO INTO THE WILD BLUE YONDER,   CLIMBING HIGH INTO THE SKY; (SUN)
+%% HERE THEY COME, ZOOMING TO MEET OUR THUNDER,   AT'EM BOYS, GIVE 'ER THE GUN!
+%% DOWN WE DIVE, SPOUTING OUR FLAME FROM UNDER,   OFF WITH ONE HELL-UV-A ROAR!
+%% WE LIVE IN FAME OR GO DOWN IN FLAME,   NOTHING'LL STOP THE U.S. AIR FORCE.
+%%endtext
+%%begintext
+%% Off we go into the wild blue yonder,   Climbing high into the sky; (sun)
+%% Here they come, zooming to meet our thunder,   At'em boys, give 'er the gun!
+%% Down we dive, spouting our flame from under,   Off with one hell-uv-a roar!
+%% We live in fame or go down in flame,   Nothing'll stop the U.S. Air Force.
+%%endtext

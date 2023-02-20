@@ -1,0 +1,42 @@
+
+X: 1
+T: Rumford Assembly
+B: Thompson's Compleat Collection of 200 Favourite Country Dances, vol. 1 (London, 1757)
+Z: Transcribed and edited by Flynn Titford-Mock, 2007; chords by Joyn Chambers 2015
+Z: abc's:AK/Fiddler's Companion
+M: C
+L: 1/4
+P: AA BC BC
+K: G
+"A"|:\
+"G"G B2 (d | d) g2 b | "D7"dc BA | "G"B/G/F/G/ "D7"AD |\
+"G"G B2 (d | d) g2 b | "D"(f/g/a) "Am"cB | "D"B A3 :|
+"B"|:\
+"A7"A ^c2 (e | e) g2 b | "D"ag "A7"fe | "D"f/d/^c/d/ "A7"eA |\
+"A7"A ^c2 (e | e) g2 b | "D"a/g/f "A7"Te2 | "D"d4 ||
+"C"||\
+"G"G B2 (d | d) g2 b | "D7"dc BA | "G"B/G/F/G/ "D7"AD |\
+"G"G B2 (d | d) g2 b | "D7"dc BA | "G"G2 G,2 :|
+
+%%sep 1 1 500
+
+X: 2
+T: Rumford Assembly
+M: 2/2
+L: 1/4
+S: Colin Hume's website, www.colinhume.com
+F: http://www.colinhume.com/ABC.txt
+%Q: 1/2=115
+C: Arranged Colin Hume, 2003
+H: The Universal Magazine of Knowledge and Pleasure, December 1754
+P: AA BB C
+K: G
+"A"|:\
+"G"G B2 d- | "/"d g2 b | "D7"dcBA | "G"B/G/F/G/ "D7"AD |\
+"G"G B2 d- | "/"d g2 b | "D"f/g/ a "Am"cB | "D"B A3 :|
+"B"|:\
+"A7"A ^c2 e- | "/"eg2 b | "D"ag "A7"fe | "D"f/d/^c/d/ "A7"eA |\
+"A7"A ^c2 e- | "/"eg2 b | "D"a g/f/ "A7"Te2 | "D"d4 :|
+"C"|\
+"G"G B2 d- | "/"d g2 b | "D7"dcBA | "G"B/G/F/G/ "D7"AD |\
+"G"G B2 d- | "/"d g2 b | "D7"dc BA | "G"G2 G,2 |]

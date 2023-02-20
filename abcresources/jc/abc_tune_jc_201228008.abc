@@ -1,0 +1,31 @@
+X: 11033
+T: COTILLION No. 17. Porter Sett tune 5
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.103 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!f!B,2 |\
+E2GF E2GF | EB,CD EFGA | BGed cBAG | F2F2 F2GF |\
+E2GF E2GF | EFGA Bcde | (ce)cA (GB)AF | E2G2E2 H|]
+!p!(GA) |\
+B2B2 (Be)BG | c2c2c2 FG | A2A2 (Ac)AF | EB,CD EFGA |\
+B2B2 (Be)BG | c2(cd) e2(cA) | GBGE BAFD | E2G2"^D.C."E2 |]
+!f!G2 |\
+c3G A3F | G3E F3D | E2G2B2E2 | D2=B,2 G,4 |!p!\
+e2(gf) e2c2 | B2G2 "^8va  .  .  . "E2F2 | G2GA GFED | C3D "^D.C."C2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All alamand corners,
+%% alamand partners,
+%% all balance to corners,
+%% turn partners,
+%% grand chain,
+%% all promenade.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

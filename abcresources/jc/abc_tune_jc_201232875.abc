@@ -1,0 +1,611 @@
+X: 0
+T: 24 Favorite Country Dances, Hornpipes & Reels
+C: Bland & Weller, eds. 1803
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes & Reels", 1803, London
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M:
+L:
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K:
+%%center 24
+%%center Favorite Country Dances, Hornpipes & Reels,
+%%center with their proper Figures,
+%%center for the German Flute or Violin,
+%%center As Performed at Court & all
+%%center PUBLIC ASSEMBLIES.
+%%center 1803
+%%center London Printed & Sold at Bland & Wellers Music Warehouse
+%%center No. 23 Oxford Street
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1
+T: Tarry awhile
+R: jig
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.1 #1
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: 6/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat, but no final repeat.
+N: The "Do." in the directions probably stands for "Ditto".
+N: Often played AABA.
+K: C
+|:\
+c>dc G2E | G2G G2e | f>gf edc | e3 d3 |\
+c>dc G2E | G2G Gce | bec d2e | c3 C2 :|
+|: f |\
+e2g gfe | fga def | edc {d}cBc | {^c}d2B G2f |\
+e2g gfe | fga def | edc {d}cBc | e3 d2 |]
+%%begintext align
+%% Set & turn hands 3 with the 2d Lady
+%% Do. with 2d Gent :
+%% down the middle up again & Allemand .
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2
+T: The Hamburg Waltz
+R: waltz
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.1 #2
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: 3/8
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K: A
+E |\
+AGABc2 | cBcde2 | fefga2 | e4cA |\
+d2fdB2 | c2ecA2 | B2dBG2 | A4 :|
+|:\
+E2dBdB | E2cAcA | E2BGBG | AGABA2 |\
+E2dBdB | E2cAcA | E2BGBG | A4 :|
+%%begintext align
+%% Set & hands across, back again
+%% down the middle up again &
+%% Allemand .
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3
+T: Lady Harriot Leslies Waltz
+R: waltz
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.2 #3
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: 3/8
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Missing beat in first part's last bar; fixed with pickup rest.
+N: The final repeat implies playing the 3rd part 4 times, but this doesn't seem to fit the dance.
+K: Bb
+z2 |\
+d2B2B2 | e2c2c2 | A2F2F2 | f2d2d2 |\
+d2BcdB | e2c2c2 | A2FGAF | B4 :|
+|: !p!f2 |\
+ed c2c2 | c4 e2 | def2f2 | def2f2 |\
+edc2c2 | c4 e2 | defedc | B4 :|
+|: f2 |\
+f2d2f2 | g2a2b2 | f2fgfe | d4 !f!(3FGA |\
+B2B2 (3FGA | B2B2 (3FGA |[1 BABGAB | c4 :|[2 BABFGA | B4 :|
+%%begintext align
+%% Set & hands across .|
+%% back again :|
+%% down the middle up again :|.
+%% Allemand :|:
+%% Swing Corners .:|:.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 4
+T: Miss Louisa Johnstones Fancy
+R: reel
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.2 #4
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: 2/4
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The "Do." in the directions probably stands for "Ditto".
+K: G
+|:\
+{Bc}d4 c2B2 | gabg d2B2 | Tc3de2e2 | (e4 d4) |\
+({Bc}d4 c2)B2 | gabg d2c2 | (BABc) B2A2 | (A4 G4) :|
+|:\
+.B2(Bc) B2d2 | .c2(cd) c2d2 | .B2(B2d2B2) | (B2A2).A2.c2 |\
+.B2(Bc) B2d2 | .c2(cd) c2A2 | (BA).B.c B2A2 | A4 G4 :|
+|:\
+Tg2bg Tf2af | Te2ge d2B2 | c3de2e2 | (e4d4) |\
+Tg2bg Tf2af | e2ge d2c2 | BABc B2A2 | (A4 G4) :|
+%%begintext align
+%% Set & hands 3 round on the Ladies side .|
+%% Do. on the Gents :|
+%% Lead down the middle & up again :|.
+%% Allemand :|:
+%% hands 4 at the bottom .:|:
+%% Right & left at top .
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 5
+T: Trip to Weymouth
+R: reel
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.3 #5
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K: Bb
+|:\
+fgab fdcB | AcTc2 ecTc2 |\
+fgab fdcB | AcTc2 dBTB2 :|
+|:\
+DFBd Tc>Bce | dfTf2 bfTf2 |\
+[1 DFBd cBce | d<fc<f dBTB2 :|\
+[2 (g<e)(f<d)  (e<c)(d<B) | A<cF<e dBB2 |]
+%%begintext align
+%% Set & half right & left .|
+%% back again :|
+%% Down the middle up again :|.
+%% Allemand :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 6
+T: Garnerins Waltz
+R: waltz
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.3 #6
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: 3/8
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Third part has final repeat but no initial repeat; added.
+K: Bb
+F2 |\
+B4d2 | f4d2 | g2gab2 | f4d2 |\
+e2gec2 | A2cAF2 | B2d2f2 | B4 :|
+|: !f!F2 |\
+FAcecA | FBdfdB | FAcecA | B2d2f2 |\
+FAcecA | FBdfdB | FAcecA | B4 :|[K:Eb]
+|: !p!de |\
+B2B2B2 | B4G2 | F2(AF)(AF) | EGBege |\
+B2B2B2 | B4G2 | A2F2D2 | E4 :|
+%%begintext align
+%% Set & hands across .|
+%% back again :|
+%% lead down the middle, up again :|.
+%% Allemand :|:
+%% Swing Corners .:|:. .
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 7
+T: The Fairies Revels
+R: jig
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.4 #7
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: 6/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K: G
+g |\
+dBG G2B | AFD D2g | dBG G2B | cde efg |
+dBG G2B | AFD D2D | EFG FGE | D3 D2 :||: c2 |
+Bcd d2c/B/ | cde e2c/B/ | ABc c2B/A/ | Bcd d2g |
+dBG G2B | AFD D2D | EFG FEF | G3 G2 :|
+%%begintext align
+%% Cast off Couples & up again .|
+%% Change Sides & back again :|
+%% down the middle up again :|.
+%% hands 6 round .
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 8
+T: The Parachute
+R: waltz
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.4 #8
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: 3/8
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Third part has initial repeat but no final repeat. Added final repeat to match the dance.
+N: But AABA may have been what was intended.
+K: A
+|:\
+a4e2 | c2ecA2 | B2BdcB | A2E2E2 |\
+a4e2 | c2ecA2 | B2(Bd)(cB) | A4z2 :|
+|:\
+.d2(Bd)(Bd) | .c2(Ac)(Ac) | B2g2g2 | a4ec |\
+.d2(Bd)(Bd) | .c2(Ac)(Ac) | B2g2g2 | a4z2 :|
+%%begintext align
+%% Set & half right & left .|
+%% back again :|
+%% down the middle up again :|.
+%% Allemand :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 9
+T: The Tars of the victory
+C:
+R:
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.5 #9
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M:
+L:
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K:
+%%begintext align
+%% -- Missing --
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 10
+T: King Street Assembly
+C:
+R:
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.5 #10
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M:
+L:
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K:
+%%begintext align
+%% -- Missing --
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 11
+T: Lord Collingwood
+C:
+R:
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.6 #11
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M:
+L:
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K:
+%%begintext align
+%% -- Missing --
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 12
+T: Mr. Robertson's Reel
+C:
+R:
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.6 #12
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M:
+L:
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K:
+%%begintext align
+%% -- Missing --
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 13
+T: Madame Ricamiers Waltz
+R: waltz
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.7 #13
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: 3/8
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K: F
+|:\
+{e}f2f2a2 | {e}f2f2a2 | g2gfga | b2g2g2 |\
+{e}f2f2a2 | {e}f2f2a2 | gagfed | c4 z2 :|
+|:\
+c4 Ac | f2c2c2 | {c}B2G2 GB | A2F2F2 |\
+c4 Ac | f2c2c2 | B2G2 EG | F4 z2 :|
+|:\
+!p!A2(AGAB) | c2A2A2 | B2(BABc) | d2B2B2 |\
+egbgec | fefcAF | EGBGFE | F4 :|
+%%begintext align
+%% Set & hands across back again :|
+%% lead down the middle, up again :|.
+%% Allemand :|:
+%% Swing Corners .
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 14
+T: The Aerial Flight
+R: reel
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.7 #14
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K: C
+g | {f}e2dc GBce | fdec fdec | {f}e2dc GBcd | egde c/c/c c :|
+|: f | ecce fddf | ecgc (B/c/d) BG | ecce fdgf | ecdB c2-c :|
+%%begintext align
+%% Set & Change Sides, .|
+%% back again - Cross over two Couple :|.
+%% right and left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 15
+T: The Eclipse
+C: Compos'd by Mr. W. Ware
+R: reel, march
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.8 #15
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: 2/4
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: 2nd part has extra 8th-note in repeat; fixed by shortening last note.
+K: Bb
+F |\
+B>cBd | BFFD | B>cBd | cAFA |\
+B>cBd | BFFD | GBAc | Bd B :|
+|: d |\
+e>fge dfBd | c>dcB | AGFA |\
+B>cBd | BFFD | GBAc | Bd B :|
+%%begintext align
+%% Set & half right & left .|
+%% back again :|
+%% down the middle :|.
+%% Poussette :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 16
+T: Mrs Hamiltons of Wishaws Strathspey
+R: strathspey
+Q: "Slow"
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.8 #16
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: C
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Bar 8 is missing a beat; fixed by making it like the last bar.
+K: A
+E2 |\
+A2A2A2A2 A3GE2G2 | A2A2c2A2 [B6E6]c2 |\
+A2A2A2F2 G3AB2c2 | F3B AGFE A4 A2 :|
+|: fg |\
+a3e agfb a3fe2c2 | A2A2c2e2 f2B2B2 fg |\
+a3e agfb a3fe2c2 | E2E2E2 FG A4 A2 ||
+fg |\
+a3e agfb a3fe2c2 | A2A2c2e2 f2B2B2 cd |\
+c2e2e2a2 | f2d2d2b2 | E2E2 E2FG A4 A2 :|
+%%begintext align
+%% The first Lady Set to 2d Gent: & turn .|
+%% the first Gent: set to the 2d Lady & turn :|
+%% down the middle up again :|.
+%% Allemand :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 17
+T: Earl of Northesks Strathspey
+R: strathspey
+Q: "Slow"
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.9 #17
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+N: In other collections as "Niel Gow's Lamentation for Dr. James Moray of Abercairney".
+N: The "Do." in the directions probably stands for "Ditto".
+M: C|
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K: G
+B,2 |\
+G,3B,D3G E2G2D2 FG | A^GAB cBA=G {F}E4 E2G2 |\
+G,3B,D2G2 E2G2D2 ge | d3B dcBA G4 G2 :|
+e2 |\
+d2ef g2d2 e2d2b2B2 | Tc2ac TB2gB A4 A3B |\
+G,3B,D2G2 E2G2D2 ge | d3B dcBA G6 ||
+e2 |\
+Td2ef g2d2 e2d2g2B2 | (TcBc)a (TBAB)g A6 Bc |\
+{e}d2cB {d}c2BA {c}B2AG {B}A2GF | G2FE DEDB, G,6 |]
+%%begintext align
+%% The 1st Lady leads down the middle & up again with the 2d Gent: .|
+%% the 1st Gent: Do. with 2d Lady :|
+%% Cross over :|.
+%% hands 6 round :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 18
+T: Mr John Shaw Stewards Strathspey
+R: strathspey
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.9 #18
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K: Gm
+G |\
+DGG>c {Bc}d2Tc>B | AFcF dFcF |\
+DGG>c d>efd | c<A fA G2G :|
+A |\
+Ggg>a {ga}b2ag | fcac fcaf |\
+dgg>a {ga}b2ag | fd cA G3 ||
+A |\
+Ggga {ga}b2ag | fcfg a>gfa |\
+gafg dfcf | AFcA {A}G2G |]
+%%begintext align
+%% Set & change Sides .|
+%% back again .|
+%% Down the middle & up again :|.
+%% Right & left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 19
+T: Earl of Eglintons Strathspey
+R: strathspey
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.10 #19
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: C
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K: D
+E2 |\
+D2A2A3F D2d2f3e | dB3A3G B2E2E2F2 | D2A2A3F D2d2f3d | B3cd3e {de}f2d2d2 :|
+g2 |\
+f3de3f g3ef3d | BA3g3f g2e2e3g | Tf3d c2A2 (BABc) d3B | A3ce3g f2d2d2 ||
+g2 |\
+f3dB2d2 Ad3A2F2 | GB3A2F2 B2E2E3F | D3FE3G F3AG3B | Ad3ce3 d2D2-D2 |]
+%%begintext align
+%% Set & hands across .|
+%% back again :|
+%% down the middle & up again :|.
+%% Allemand :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20
+T: The Gooseberry Bush or Epping Forest
+R: slip-jig
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.10 #20
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: 9/8
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+K: Gm
+D2 |\
+G4G2 (B/c/d3)G2 d2B2G2 | F4F2 (A/B/c3)F2 c2A2F2 |\
+G4G2 (B/c/d3)G2 d2B2G2 | F2D2F2 D3CB,A, G,4 :|
+|: d2 |\
+g2d2g2 g/a/b3a2 g2d2g2 | f2c2f2 f/g/a3g2 f2c2f2 |\
+g2d2g2 (g/a/b3)g2 g2d2g2 | f2d2f2 c2A2F2 G4 ||
+d2 |\
+g2d2g2 (g/a/b3)a2 g2d2g2 | f2c2f2 (f/g/a3)g2 f2c2f2 |\
+(g/a/b3)a2 g2d2g2 f2c2f2 | (f/g/a3)d2 c2A2^F2 G4 |]
+%%begintext align
+%% Half right & left .|
+%% back again :|
+%% Down the middle up again :|.
+%% Allemand :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 21
+T: Trip to Paris
+R: jig
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.11 #21
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: 6/8
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K: D
+FG |\
+A6 (Bcd2B2) | A4G2 F2G2A2 | B2c2d2 A2G2F2 | G2E2E2 E4FG |\
+A6 (Bcd2B2) | {B}A4G2 F2G2A2 | (B/c/d3)B2 (c/d/e3)c2 | d2D2D2 D4 :|
+|: fe |\
+d2c2d2 d2e2f2 | e2c2A2 A2B2c2 | d2c2B2 A2G2F2 | G2E2E2 E4fg |\
+a2g2f2 b2g2f2 | e2f2d2 c2B2A2 | (B/c/d3)B2 (c/d/e3c2) | d2D2D2 D4 :|
+%%begintext align
+%% Set & hands across .|
+%% back again :|
+%% down the middle up again :|.
+%% Allemand :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22
+T: This is not my ain House
+R: strathspey
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.11 #22
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: C
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K: D
+G2 |\
+FA3 D2a2 (g2f2e2d2) | (Bcd2) A2F2 B2E2E3G |\
+(FA3) D2a2 {g}f4 e2d2 | (Bc)d2 A3F A2D2D2 :|
+G2 |\
+(FGA2) D2A2 (FGA2) B3A | (FGA2) D2f2 e2E2E2G2 |\
+(FGA2) D2A2 (FGA2) TB3A | (Bcd2) (cde2) d2D2D2 ||
+G2 |\
+(FGA2) D3A (FGA2) TB3A | (FGA2) D2f2 e2 E4 fg |\
+af3ge3 fd3ec3 | d3BA2F2 A2D2D2 |]
+%%begintext align
+%% Cast off 2 Couple .|
+%% up again :|
+%% down the middle up again :|.
+%% Allemand :|:
+%% Turn Corners .:|:.
+%% lead outsides ::|::
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 23
+T: Miss Barbara Parkers Fancy
+R: strathspey
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.12 #23
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: C
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K: E
+EF |\
+G3AG2E2 G2B2B2e2 | f3g agfe {d}c6 {^d}e2 |\
+G3AG2E2 G2B2B2 {fg}a2 | g3e (gfe)d (d4 e2) :|
+|: (3(edc) |\
+BBB2 B3G B2G2B2e2 | ccc2 {b}a2gf e2d2Tc2B2 |\
+BBB2 B2G2 B2G2B2{^d}e2 | g3e gfed (d4 e2) :|
+%%begintext align
+%% Set & Change Sides .|
+%% back again :|
+%% lead down the middle up again :|.
+%% Allemand :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 24
+T: The General Election
+R: march, reel
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.12 #24
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: 2/4
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Missing half-beat in the last bar, fixed.
+N: The "Do." in the directions probably stands for "Ditto".
+K: E
+|:\
+g2g2 e2fg | a2a2 f4 | b2b2 g2ab | agfe d2B2 |\
+g2g2 e2fg | a2a2 f4 | b2g2e2 fg | fe^dc B4 :|
+|:\
+c2c2c2 ec | B2G2 G4 | A2A2 F2GA | G2E2 E4 |\
+c2c2 c2ec | B2G2G2c2 | B2G2 BAGF | E4 E4 :|
+|:\
+!p!(G6 F2) | F2E2 E4 | B6 A2 | A2G2 G4 |\
+F6 E2 | D2(B,2C2D2) | (E2G2)B2 zD | (D4 E2)z2 :|
+%%begintext align
+%% Hands 3 round on the Lady's side .|
+%% Do. on the Gents: :|
+%% down the middle up again :|
+%% Allemand :|:
+%% Swing Corners .:|:.
+%%endtext

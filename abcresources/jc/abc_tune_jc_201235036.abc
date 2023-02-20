@@ -1,0 +1,22 @@
+X: 20981
+T: DI TANTI PALPITI
+%R: march
+B: "Edinburgh Repository of Music" v.2 p.98 - p.99 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+%%slurgraces 0
+%%graceslurs 0
+|:\
+f4 f2f2 | f>ef>g a4 | (3(gag) (3(fgf) e2a2 | .f2.e2.d2z2 |\
+f4 f2f2 | f>ef>g a4 | (3(gag) (3(fgf) e2a2 | d4 "_Fine."z4 :|
+e4 (^dege) | (c4 A4) | ~d4 (f2a2) | (e3fe2)z2 |\
+e4 (^dege) | c4 A4 | ~d4 f2a2 | (e2"_ral:"a2^g2=g2) |
+"_Tempo 1mo."f4 f2f2 | {g}f>ef>g a4 | (3(gag) (3(fgf) e2a2 | f2e2d2z2 |\
+f4 f2f2 | f>ef>g a4 | (3(gag) (3(fgf) e4a4 | d4 z4 |]
+=f4 f2f2 | =f2_ba gfed | =c4 (3(ced) (3(cde) | =f4 z2a2 |\
+a3g/=f/ e2g2 | (g3=f/e/) d3_b/a/ | a3g/=f/ e2_b>a | g3=f/e/ d2d2 |
+(c2e2) z2d2 | (c2e2) z2=f>d | (c2e2) z2=f>d | HTa8 "_ad lib:"x{A^AB=c^cd^de^e}x "_D.C."|]\
+y8 y8 y8 y8 y8 y8 y8 y8

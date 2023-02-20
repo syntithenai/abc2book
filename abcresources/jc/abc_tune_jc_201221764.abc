@@ -1,0 +1,35 @@
+X: 50
+T: Old Folks at Home
+C: Stephen C. Foster. 1851.
+%R: air, march
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The book uses braces and extra spacing to separate the verses, but ABC doesn't have a way to do this.
+N: Instead, the verse numbers have been added to the 2nd staff's lyrics.
+M: 4/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - -
+[| F4 E D F E | D2 d2 B d3 | A4 F2 D2 | E6 z2 |
+w: 1.~'Way down up-on the Swa-nee Riv-er,    Far, far a-way,
+w:    All up and down de whole cre-a-tion,   Sad-ly I roam;
+w: 2.~All roun' de lit-tle farm I wan-dered, When I was young;
+w:    When I was play-ing with my broth-er,  Hap-py was I;
+w: 3.~One lit-tle hut a-mong de bush-es,     One that I love,
+w:    When will I see de bees a hum-ming,    All roun' de comb?
+%
+   F4 E D F E | D2 d2 B d3 | A4 F> D E2 E>- E | D6 z2 :|
+w: 1.~Dere's wha my heart is turn-ing ev-er,  Dere's wha de old folks* stay.
+w:    Still long-ing for de old plan-ta-tion, And for de old folks at home.
+w: 2.~Den ma-ny hap-py days I squan-dered,    Ma-ny de songs I* sung.
+w:    Oh! take me to my kind old moth-er,     There let me live and* die.
+w: 3.~Still sad-ly to my mem-'ry rush-es,     No mat-ter where i* roam.
+w:    When will I hear de ban-jo tum-ming,    Down in my good old* home?
+%
+"Refrain."c3 d e2 A2 | A3 B A2 d2 | d2 B2 G2 B2 | A6 z2 |
+w: All de world is sad and drear-y, Ev-'ry-where I roam;
+%
+   F4 E D F E | D2 d2 B d3 | A4 F> D E2 E> E | D6 z2 |]
+w: Oh! dark-ies, how my heart grows wear-y, Far from de old folks at home.
+% - - - - - - - - - - - - - - -

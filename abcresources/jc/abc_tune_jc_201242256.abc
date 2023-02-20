@@ -1,0 +1,26 @@
+X: 542
+T: Peggie's Wedding
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.54 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+cdc c2c | ceg gec | cdc cdc | Bcd dBG |\
+cdc c2c | ceg gec | fgf efe | Bcd dBG :|
+|:\
+cdc g2c | e2c g2c | cdc g2c | Bcd dBG |\
+cdc gcc | ecc gcc | afd gec | Bcd dBG :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+c3 c3 | c3 c3 | c3 c3 | G3 G3 |\
+c3 c3 | c3 c3 | c3 c3 | G3 G3 :|
+|:\
+c3 c3 | c3 c3 | c3 c3 | G3 G3 |\
+c3 c3 | c3 c3 | f3 e3 | d3 G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

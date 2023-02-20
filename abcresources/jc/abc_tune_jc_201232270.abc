@@ -1,0 +1,28 @@
+X: 169
+T: Summer Days
+C: words: R. A. Gatty
+C: music: A. S. Gatty
+Q: "Andante."
+%R: air, jig
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[| c3 c3 | c3 c3 | c B A G F G | A3 z2z |
+w: 1.~Broad leaves, broad leaves, Now fill the chest-nuts and limes;
+w: 2.~Cow-slips, cow-slips,       Bloom in the mead-ows a-round,
+%
+   d3 d3 | d3 f3 | e d c d A =B | c3 z2z |
+w: Swal-lows, swal-lows,   Build where the cle-ma-tis climbs.
+w: Blue-bells, blue-bells, Deep in the for-ests are found.
+%
+P: Chorus.
+   "^piw lento."d2 c (c2 A) | (GF) G (Ac) z | d2 c c2 A | (GF) G F2 z |
+w: Sum-mer days!* Sum-*mer days!*  Lit-tle child-ren sing* your praise,
+%
+   c2 c c3 | (GA) G c3 | d2 c c3 | "^rall."(cd) e f3- | f3 z2z |]
+w: Sum-mer days! Sing* your praise. Sum-mer days! Sum-*mer days!*
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

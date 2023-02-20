@@ -1,0 +1,28 @@
+X: 28
+T: Las Suriana
+O: Mexico
+M: 3/4
+L: 1/8
+%P:B
+K: Dm
+Q:1/4=180
+P:A
+%%MIDI beat 97 87  77 4
+%%MIDI program 11 % Vibraphone
+  B2 BA GA  |Bc dB AG |A2 AG FE|A6     |
+  G2 GFEF   |GB AG FE |F2 FE DF|F6     |
+  B2 BA GA  |B2- Bc dB|AG FA de|f4 de  |
+  ed ^cB AG |FE D^C D2|F2 A2 d2|
+P:B
+L:1/4
+%%MIDI program 42 % Cello
+%%MIDI chordprog 24 % Acoustic Guitar (nylon)
+%%MIDI bassprog 32 % Acoustic Bass
+%%MIDI chordvol 86
+%%MIDI bassvol 101
+%%MIDI gchord fzhziz
+|:"Dm"DFG   |AAA      |AGF     |ED2-   |DFG    |
+  A/z/ AA   |AG3/2F/  |"Am"E3- |EE"Dm"F|"Gm"GGG|
+  GFE       |D^C2-    |CGB     |AGG    |"F"GFE |F3    :|
+  "Dm"z2F   |A2F      |A3-     |A2G    |"Bb"B2G|B3-   |B2G    |
+  "Gm"B2B/B/|BAF      |A2A/A/  |[1FG2  |EF2    :|[2FG2|"Dm"ED2|

@@ -1,0 +1,24 @@
+X: 4433
+T: "MY POLLY" WALTZ
+C: Rose Smith
+R: Waltz
+%R: waltz
+B: James Kerr "Merry Melodies" v.4 p.49 #433
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+[|!p!\
+(d4 c2) | B6 | (B4 A2) | F6 |\
+(A2 F2 D2) | A,4 B,2 | C6- | C4 z2 |\
+(E4 ^D2) | E6 | (F4 ^E2) | F6 |\
+(E4 d2) | (c4 B2) | A6- | A2 (B2 c2) |
+(d4 c2) | B6 | (B4 A2) | F6 |\
+(F2 E2 D2) | (F2 G2 A2) | B6- | B2 (B2 c2) |\
+(d4 B2) | (G4 E2) | A6- | A2 (^G2 A2) |\
+B6 | c6 | d6- | d2z2 H||
+|: !f!(3(ded) |\
+c2 z2 g2 | g2 z2 (3(BcB) | A2 z2 f2 | f2 z2 (3(ABA) |\
+G2 z2 e2 | e2 z2 (3(GAG) | F2 B2 F2 | A2 z2 (3(ded) |\
+c2 z2 g2 | g2 z2 (3(BcB) | A2 z2 f2 | f2 z2 f2 |\
+ee e2 c2 | dd d2 ^G2 | A6- |[1 A2 z2 :|[2 A2 z2 z2 |]

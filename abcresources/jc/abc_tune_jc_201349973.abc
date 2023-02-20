@@ -1,0 +1,13 @@
+X:1
+T:Walk Home, The
+C:Dan Compton
+R:Jig
+M:6/8
+%%printtempo 0
+Q:180
+K:D
+G,|\
+"D"A,DD DEF|"Em7"EDD DEF|"G"G2 B "D"FGF|"Em7"EDB, B,CD|
+"D"A,DD DEF|"Em7"EDD DEF|"G"GFE "D"EDB,|1"A"~A,3 A,2:|2"A" ~A,3FG||
+|:"D"A3 AGF|DED DEF|"G"GAB "D"AFD|"A"FEE EFG|
+"D"A3 AGF|DED DEF|"Em/G"GFE "D"FDB,|1"A" ~A,3FG:|2"A"~A,3 A,2|]

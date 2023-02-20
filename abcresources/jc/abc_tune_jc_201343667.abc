@@ -1,0 +1,37 @@
+X: 1
+T: TELEPHONE POLKA
+O: arr. Gary Dahl
+S: Gary Dahl "Italian Songa & Arias for Accordion" pub. Mel Bay 2003 p.4
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: "Allegro"
+K: Am
+% %continueall 1
+% - - - - - - - - - -
+"^I"| "Bm"B^ABd a^f"E7"dB | "A"A^GA^c fe"/A"cA |\
+"E7"^GAB^c "E7"de^f^g | "Am"agfe "E7"dcBd |
+"^A"|:!segno!\
+"Am"e2A2 e2A2 | e2A2 "Dm"fgaf |\
+"Am"e2A2 "Dm"fgaf | "Am"e2A2 eABc |\
+"Dm"dcBc "E7"dBcd |
+"Am"cBAB "Dm"cABc |\
+"E7"BA^GA "to C 3rd time"BGAB |[1 "Am"A^GAB "E7"cBcd :|[2 "Am"AEAc "E7"[dB]cBA |
+"B"|:\
+"C"G^FAG EGAF | GABc Bcde |\
+"Dm"fege fedc | "G7"dBc^c dBA_A |
+"C"G^FAG EGAF | GABc Bcde |\
+"Dm"fege fedc |[1 "E7/g#"BcBc "G7"[dBF]cBA :|[2 "E7"BcAB "^D.S. al C"cBcd |]
+"C"[|]"A"AE^F^G AB^cd |:[K:A]\
+"A"e2[a2c2] [g2c2][e2c2] | [fc]gfe c2[g2c2] |\
+[fc]gfe c2[g2c2] | "E7"[fd]gfe dcd^d |
+e2[a2d2] [g2d2]e2 | [fd]gfe d2[g2d2] |\
+[fd]gfe d2[g2d2] | "A"[fc]gfe ABcd |
+e2[a2c2] [g2c2][e2c2] | [fc]gfe c2[g2c2] |\
+[fc]gfe cde^e | "F#7"f=gfe dedc |
+"Bm"B^ABd "E7"afdB | "A"A^GAc fecA |\
+"E7"^GABc defg |\
+[1 "A"agfe "E7"dcd^d :|[2 "F#7"f=gfe dedc |]
+"Coda"[|]\
+"Bm"B^ABd "E7"afdB | "A"A^GAc fecA |\
+"E7"^GABc defg | "A"a2[acA][acA] "^>"[a2c2A2]z2 |]

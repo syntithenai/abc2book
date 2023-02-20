@@ -1,0 +1,22 @@
+X: 07000
+T: Couple Down Center
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: [What's the title of this waltz tune?]
+R: waltz
+M: 3/4
+L: 1/8
+K: C
+[E2C2] |\
+"C"[E2C4]D2[E2C2] | "G7"[F2B,4]E2[F2D2] | "C"[G2E2][e3G3][cE] | [G6E6] |
+"G7"[A2G2][B3F3][A2F2] | [F6D6] | ([F2D2][A3D3])[GD] | "C"E6 | [E2C4]D2[E2C2] |
+"G7"[F2B,4]E2[F2D2] | "C"[G2E2][e3G3][cE] | [G6E6] | "G7"[G2F2][B3F3][AF] | [F2D2][A3F3][GF] |
+"G7"[G2F2D2][A3D3][BF] | "C"[c2E2]z2[c2G2E2] ||\
+"F6"[c3A3F3]F[AF][dAF] | [c3A3F3] [AF][FD][AF] |\
+"C"[G4E4][eG][cE] | [G4E4][cE][cE] |
+"G7"[e4B4F4][dF][BF] | [F4D4][BF][eF] |\
+"C"[d4E4][cE][GE] | [E4C4][c2G2E2] |\
+"F6"[c3A3F3]F[AF][dAF] | [c3A3F3] [AF][FD][AF] |
+"C"[G4E4][eG][cE] | [G4E4][cE][cE] |\
+"G7"[e4B4F4][GF][GF] | [e2B2F2]z2[d2B2F2] |\
+[c2-E2][c2-E2G2][c2-E2G2] | [c2G2E2]z2 |]

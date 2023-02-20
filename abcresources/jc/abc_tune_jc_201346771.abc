@@ -1,0 +1,17 @@
+X:2
+T:Tropiganda
+C:©Dave Bartley
+R:reel
+L:1/8
+M:C|
+K:G
+Q:1/2=110
+|: "G"GGGB z Gz(E | "C"E2) C2 "D"D2 F2 | "G"GGGB z GzE | "C"E2 C2 "D"D4 :| 
+|: "G"d3 d z2 z (c | "C"c2) B2 "D"A2 G2 | "G"GGGB z GzE | "C"E2 C2 "D"D4 :| 
+|: "D"a3 (a a)g f2 | "C"g3 (g g)f e2 | "G"dddB z dz(c | "C"c2) e2 "D"d4 :| 
+|: "G"B4 "C"c4 | "G"d4 "C"e4 | "G"dddB z dz(c |[1 "C"c2) e2 "D"d4 :|[2 "C"c2) a2 "G"g4 ]| 
+%%begintext ragged
+%%Because Stanley Crossing the Zambesi was so inaccessible, I set out to write a more useful
+%%African-sounding 32-bar reel.  Some people say this sounds Caribbean.  What do I know?
+%%endtext
+%%text 2015-02-01

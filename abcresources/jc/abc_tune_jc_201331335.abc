@@ -1,0 +1,1323 @@
+
+X: 0
+T: Scottish Reels 7 (G a)
+K: C
+
+% reel/HughShortiesR.abc
+
+%%sep 1 1 500
+
+X: 1
+P: Hugh Shortie's Reel
+C: John Wilmot
+O: Cape Breton
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: BSFC X-7
+K: G
+|: "G"~G2BG "D7"cAFA | "G"GABd g2fg | "C"ecAc "G"dBGB | "Am"cAAB "D7"AFD2 |
+|  "G"~DGBG "D7"cAFA | "G"GABd g2fg | "C"ecAc "G"dBGB | "D7"cAFA "G"G4 :|
+|| "G"~g2dg bgag | "C"ec~c2 "(Am)"efge | "G"dB~B2 "(Em)"dBGB | "Am"cAAB "D7"AFD2 |
+|  "G"~g2dg bgag | "C"ec~c2 "(Am)"efge | "G"dB~B2 "(Em)"dBGB | "D7"cAFA "G"G4 ||
+|| "G"~g2dg bgag | "C"ec~c2 "(Am)"efge | "G"dB~B2 "(Em)"dBGB | "Am"cAAB "D7"AFD2 |
+|  "C"G,CEC "G"B,DGB | "D7"cdef "G"g2fg | "C"ecAc "G"dBGB | "D7"cAFA "G"G4 |]
+
+% reel/MillBrae_A6.abc
+
+%%sep 1 1 500
+
+X: 2
+P: Millbrae
+C: Ronald Cooper (1934-1982)
+Z: John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: A
+   af \
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc dcBA | "E7"G2 B2 B2 af |
+y4 \
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc "E7"dBed | "A"c2 A2 A2 :|
+[| a2 \
+| "E7"g{a}beg beg[be] | "A"aAce agfe | "D"fedc dcBA | "E7"G2 B2 B2 a2 |
+y4 \
+| "E7"g{a}beg beg[be] | "A"aAce agfe | "D"fedc "E7"dBed | "A"c2 A2 A2 |]
+[| a2 \
+| "E7"g{a}beg beg[be] | "A"aAce agfe | "D"fedc dcBA | "E7"G2 B2 B2 af |
+y4 \
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc "E7"dBed | "A"c2 A2 A2 |]
+
+%%sep 1 1 500
+
+X: 0
+T: Scottish Reels 13 (D G A)
+K: C
+
+% reel/BarrowburnR.abc
+
+%%sep 1 1 500
+
+X: 1
+P: the Barrowburn Reel
+C: Addie Harper
+Z: John Chambers <jc:trillian.mit.edu>
+N: Addie Harper (who is this - Do we need permission?)
+L: 1/8
+K: D
+   z2 \
+|  "D"~D2DE FAAd | "G"~B2BA BddB | "D"~A2AB "Bm"d2de | "Em"fedB "A7"AFEF |
+y4 \
+|  "D"~D2DE FAAd | "G"~B2BA Bdde | "D"f2af "A7"e2fe | "G"dB"A7"AB "D"d2 :|
+|: cd \
+| "A7"~e2ef ecBA | "D"~f2fg fdBA | "Em"~g2ga gecA | "F#m"a2ag f2ef |
+y4 \
+| "G"g2ga gecA | "D"a2ag f2ef | "G"g2ag "D"f2ed | "G"dB"A7"AB "D"d2 :|
+
+% reel/BobMcQuillensR.abc
+
+%%sep 1 1 500
+
+X: 2
+P: Bob McQuillen's Reel
+C: Aly Bain
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+GA \
+| "G"B2Bc dcBA | GABG D2AB | "Am"cBcd edcB | "A7"AFG{F}E "D"D2GA |
+| "G"B2Bc dcBA | GABG DB,G,B, | "C"CDEC "D7"DGFA | "G"G2B2 G2 :|
+|: Bc \
+| "G"d2B2 gagf | "C"e2c2 c2AB | "Am"c2A2 "(A7)"abag | "D7"f2d2 d2Bc |
+| "G"d2B2 gagf | "C"ec~c2 "Am"ecec | "G"dBGB "D7"cAFA | "G"B2G2 G2 :|
+
+% reel/Tushker_A4.abc
+
+%%sep 1 1 500
+
+X: 3
+P: da Tushker
+O: Shetland
+C: Ronald Cooper (1934-1982)
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: cB \
+| "A"Aafa edcB | A2cA EAcA | cefg afec | "E7"d2 B2 B2 ag | "D"fgaf "E7"edcB | "A"A2cA EAcA |
+| "D"Bcde "E7"fefg | "A"a2 A2 A2 :| dc | "E7"BeGe BGEG | "A"AecA EAcA | cefg afec | "E7"d2 B2 B2 dc |
+| "E7"BeGe BGEG | "A"AecA EAcA | "D"Bcde "E7"fefg | "A"a2 A2 A2 |[| dc | "E7"BeGe BGEG | "A"AecA EAcA |
+| "A"cefg afec | "E7"d2 B2 B2  ag | "D"fgaf "E7"edcB | "A"A2cA EAcA | "D"Bcde "E7"fefg | "A"a2 A2 A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Anvil
+C: Ronald Cooper
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: PDF MS from Sylvia Miskoe
+M: C|
+L: 1/8
+K: A
+E2 \
+| "A"A2EA "(E7)"cAce | "A"agaf "F#7"eAce \
+| "Bm"dcde "a#/F#7"fAdf | "a/B7"bagf "g#/E7"edcB |
+y3 \
+| "A"A2EA "(E7)"cAce | "A"agaf "c#/A7"eAce \
+| "D"d2fd "E7"ecdB | "A"c2A2 A2 :|
+"E7"f2 \
+| "A"e2ce "g#/E7"agaf | "A"eAce "c#/A7"Acec \
+| "D"dcde "F#m"fBdf | "d#/B7"bagf "E7"e2f2 |
+y2 \
+| "A"e2ce "g#/E7"agaf | "A"eAce "c#/A7"Acec \
+| "D"d2fd "E7"ecdB | "A"c2A2 A2 |]
+"E7"f2 \
+| "A"e2ce "g#/E7"agaf | "A"eAce "c#/A7"Acec \
+| "D"dcde "F#m"fBdf | "d#/B7"bagf "E7"edcB |
+y2 \
+| "A"A2EA "(E7)"cAce | "A"agaf "c#/A7"eAce \
+| "D"d2fd "E7"ecdB | "A"c2A2 A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Anvil
+C: Ronald Cooper (1934-1982)
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: PDF MS from Sylvia Miskoe
+M: C|
+L: 1/8
+K: A
+E2 \
+| "A"A2EA cAce | "D"agaf "A"eAce \
+| "D"dcde fAdf | "B7"bagf "E7"edcB \
+| "A"A2EA cAce | "D"agaf "A"eAce \
+| "D"d2fd "E7"ecdB | "A"c2A2 A2 :|
+"(E7)"f2 \
+| "A"e2ce "D"agaf | "A"eAce Acec \
+| "D"dcde "Bm"fBdf | "d#/B7"bagf "E7"e2f2 \
+| "A"e2ce "D"agaf | "A"eAce Acec \
+| "D"d2fd "E7"ecdB | "A"c2A2 A2 |]
+"(E7)"f2 \
+| "A"e2ce "D"agaf | "A"eAce Acec \
+| "D"dcde "Bm"fBdf | "d#/B7"bagf "E7"edcB \
+| "A"A2EA cAce | "D"agaf "A"eAce \
+| "D"d2fd "E7"ecdB | "A"c2A2 A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Anvil
+C: Ronald Cooper
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: PDF MS from Sylvia Miskoe
+M: C|
+L: 1/8
+K: A
+E2 \
+| "A"A2EA cAce | "D"agaf "A"eAce \
+| "D"dcde fAdf | "B7"bagf "E7"edcB |
+y3 \
+| "A"A2EA cAce | "D"agaf "A"eAce \
+| "D"d2fd "E7"ecdB | "A"c2A2 A2 :|
+"(E7)"f2 \
+| "A"e2ce "D"agaf | "A"eAce Acec \
+| "D"dcde "Bm"fBdf | "d#/B7"bagf "E7"e2f2 |
+y2 \
+| "A"e2ce "D"agaf | "A"eAce Acec \
+| "D"d2fd "E7"ecdB | "A"c2A2 A2 |]
+"(E7)"f2 \
+| "A"e2ce "D"agaf | "A"eAce Acec \
+| "D"dcde "Bm"fBdf | "d#/B7"bagf "E7"edcB |
+y2 \
+| "A"A2EA cAce | "D"agaf "A"eAce \
+| "D"d2fd "E7"ecdB | "A"c2A2 A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Anvil
+C: Ronald Cooper
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: PDF MS from Sylvia Miskoe
+M: C|
+L: 1/8
+K: A
+E2 \
+| "A"A2EA "(E7)"cAce | "A"agaf "F#7"eAce \
+| "Bm"dcde "a#/F#7"fAdf | "a/B7"bagf "g#/E7"edcB |
+y3 \
+| "A"A2EA "(E7)"cAce | "A"agaf "c#/A7"eAce \
+| "D"d2fd "E7"ecdB | "A"c2A2 A2 :|
+"E7"f2 \
+| "A"e2ce "g#/E7"agaf | "A"eAce "c#/A7"Acec \
+| "D"dcde "F#m"fBdf | "d#/B7"bagf "E7"e2f2 |
+y2 \
+| "A"e2ce "g#/E7"agaf | "A"eAce "c#/A7"Acec \
+| "D"d2fd "E7"ecdB | "A"c2A2 A2 |]
+"E7"f2 \
+| "A"e2ce "g#/E7"agaf | "A"eAce "c#/A7"Acec \
+| "D"dcde "F#m"fBdf | "d#/B7"bagf "E7"edcB |
+y2 \
+| "A"A2EA "(E7)"cAce | "A"agaf "c#/A7"eAce \
+| "D"d2fd "E7"ecdB | "A"c2A2 A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Gordon's Favourite Reel
+C: Ronnie Cooper (1934-1982)
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D \
+| "G"G2GA BGBd | "C"edef "G"gdBd | "C"gfge "G"dBGB |"A7"ABAG "D7"E2DE |
+| "G"G2GA BGBd | "C"edef "G"g2ag | "D"fafd "A7"egfe | "D"d2f2 d3 :|
+|: d \
+| "C"e2ce gece | "G"d2Bd gdBd |"D7"c2Ac "G"B2GB |"A7"ABAG "D7"E2DE |
+| "G"G2GA BGBd | "C"edef "G"gfge | "G"dBGB "D7"AcBA | "G"G2B2 G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Gordon's Favourite Reel
+C: Ronnie Cooper (1934-1982)
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D \
+| "G"G3A BGBd | "C"edef "G"gdBd | "C"gfge "G"dBGB | "A7"ABAG "D7"E2DE \
+| "G"G2GA BGBd | "C"edef "G"g2ag | "D"fafd "A7"egfe | "D"d2f2 d3 :|
+|: d \
+| "C"e2ce gece | "G"d2Bd gdBd | "D7"c2Ac "G"B2GB | "A7"ABAG "D7"E2DE \
+| "G"G2GA BGBd | "C"edef "G"gfge | "G"dBGB "D7"AcBA | "G"G2B2 G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Gordon's Favourite Reel
+C: Ronnie Cooper (1934-1982)
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D \
+| "G"G3A BGBd | "C"edef "G"gdBd | "C"gfge "G"dBGB | "A7"ABAG "D7"E2D2 || "G"G2GA BGBd |
+| "C"edef "G"g2ag | "D"fafd "A7"egfe | "D"d2f2 d3 :: d | "C"e2ce gece | "G"d2Bd gdBd | "D7"c2Ac "G"B2GB |
+| "A7"ABAG "D7"E2D2 || "G"G2GA BGBd | "C"edef "G"gfge | "G"dBGB "D7"AcBA | "G"G2B2 G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Gordon's Favourite Reel
+C: Ronnie Cooper (1934-1982)
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D \
+| "G"G2GA BGBd | "C"edef "G"gdBd | "C"gfge "G"dBGB |"A7"ABAG "D7"E2DE |
+| "G"G2GA BGBd | "C"edef "G"g2ag | "D"fafd "A7"egfe | "D"d2f2 d3 :|
+|: d \
+| "C"e2ce gece | "G"d2Bd gdBd |"D7"c2Ac "G"B2GB |"A7"ABAG "D7"E2DE |
+| "G"G2GA BGBd | "C"edef "G"gfge | "G"dBGB "D7"AcBA | "G"G2B2 G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Gordon's Favourite Reel
+C: Ronnie Cooper (1934-1982)
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D \
+| "G"G2GA BGBd | "C"edef "G"gdBd | "C"gfge "G"dBGB |"A7"ABAG "D7"E2DE |
+| "G"G2GA BGBd | "C"edef "G"g2ag | "D"fafd "A7"egfe | "D"d2f2 d3 :|
+|: d \
+| "C"e2ce gece | "G"d2Bd gdBd |"D7"c2Ac "G"B2GB |"A7"ABAG "D7"E2DE |
+| "G"G2GA BGBd | "C"edef "G"gfge | "G"dBGB "D7"AcBA | "G"G2B2 G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Gordon's Favourite Reel
+C: Ronnie Cooper (1934-1982)
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D \
+| "G"G3A BGBd | "C"edef "G"gdBd | "C"gfge "G"dBGB | "A7"ABAG "D7"E2DE \
+| "G"G2GA BGBd | "C"edef "G"g2ag | "D"fafd "A7"egfe | "D"d2f2 d3 :|
+|: d \
+| "C"e2ce gece | "G"d2Bd gdBd | "D7"c2Ac "G"B2GB | "A7"ABAG "D7"E2DE \
+| "G"G2GA BGBd | "C"edef "G"gfge | "G"dBGB "D7"AcBA | "G"G2B2 G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Gordon's Favourite Reel
+C: Ronnie Cooper (1934-1982)
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D \
+| "G"G3A BGBd | "C"edef "G"gdBd | "C"gfge "G"dBGB | "A7"ABAG "D7"E2D2 || "G"G2GA BGBd |
+| "C"edef "G"g2ag | "D"fafd "A7"egfe | "D"d2f2 d3 :: d | "C"e2ce gece | "G"d2Bd gdBd | "D7"c2Ac "G"B2GB |
+| "A7"ABAG "D7"E2D2 || "G"G2GA BGBd | "C"edef "G"gfge | "G"dBGB "D7"AcBA | "G"G2B2 G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Gordon's Favourite Reel
+C: Ronnie Cooper (1934-1982)
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D \
+| "G"G2GA BGBd | "C"edef "G"gdBd | "C"gfge "G"dBGB |"A7"ABAG "D7"E2DE |
+| "G"G2GA BGBd | "C"edef "G"g2ag | "D"fafd "A7"egfe | "D"d2f2 d3 :|
+|: d \
+| "C"e2ce gece | "G"d2Bd gdBd |"D7"c2Ac "G"B2GB |"A7"ABAG "D7"E2DE |
+| "G"G2GA BGBd | "C"edef "G"gfge | "G"dBGB "D7"AcBA | "G"G2B2 G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Hayfield House
+C: Ronald Cooper
+F: http://www.thesession.org/tunes/display/7334 2009-3-4
+M: 4/4
+L: 1/8
+R: reel
+K: A
+A2 | A2 EA c2 Ac | eagf edcA | BE E/E/E BecA | Be^de =dBGE |
+A2 EA c2 Ac | eagf edcA | BE E/E/E BecA | BEGB A2 :|
+cd | eAce a2 gf | eagf edcA | BE E/E/E BecA | BAGB d2
+cd | eAce a2 gf | eagf edcA | BE E/E/E BecA | BAGB A2
+cd | eAce a2 gf | eagf edcA | BE E/E/E BecA | Be^de =dBGE |
+A2 EA c2 Ac | eagf edcA | BE E/E/E BecA | BEGB A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Hayfield House
+C: Ronald Cooper
+F: http://www.thesession.org/tunes/display/7334 2009-3-4
+M: 4/4
+L: 1/8
+R: reel
+K: A
+A2 | A2 EA c2 Ac | eagf edcA | BE E/E/E BecA | Be^de =dBGE |
+A2 EA c2 Ac | eagf edcA | BE E/E/E BecA | BEGB A2 :|
+cd | eAce a2 gf | eagf edcA | BE E/E/E BecA | BAGB d2
+cd | eAce a2 gf | eagf edcA | BE E/E/E BecA | BAGB A2
+cd | eAce a2 gf | eagf edcA | BE E/E/E BecA | Be^de =dBGE |
+A2 EA c2 Ac | eagf edcA | BE E/E/E BecA | BEGB A2 |]
+
+%%sep 1 1 500
+
+X: 3
+T: Jim Anderson's Delight
+C: Ronnie Cooper (1934-1982)
+M: 6/8
+L: 1/8
+R: jig
+F: http://www.thesession.org/tunes/display/7329/comments
+K: A
+|: a/f/ \
+| eAA cBA | efg aga | fBB fga | bag agf \
+| e2A cBA | efg a2f | edc dcB | cAA A2 :|
+|: a/f/ \
+| e2a c2a | efg aga | fBB fga | bag a2f \
+|[1 e2a c2a | efg agf | edc dcB | cAA A2 :|
+|[2 e2A cBA | efg agf | e2c dcB | cAA A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Jim Anderson's Delight
+C: Ronnie Cooper (1934-1982)
+M: 6/8
+L: 1/8
+R: jig
+F: http://www.thesession.org/tunes/display/7329/comments
+K: G
+|: g |\
+| dGG BAG | d>ef g2f | eAA efg | a>gf g2e \
+| dGG BGG | d>ef gfe | d>cB cBA | BGG G2 :|
+|: e |\
+| d2 g B2g | def g2g | eAA e>fg | a>gf g2e \
+|[1 dgg Bgg | d>ef g2e | d>cB c2A | BGG G2 :|
+|[2 dGG BGG | def g2e | d>cB cBA | BGG G2 |]
+
+%%sep 1 1 500
+
+X: 2
+T: Jim Anderson's Delight
+C: Ronnie Cooper (1934-1982)
+N: from Will Atkinson's recording, without B part's second ending
+M: 6/8
+L: 1/8
+R: jig
+F: http://www.thesession.org/tunes/display/7329/comments
+K: G
+|: g/e/ \
+| dGG BAG | def gfg | eAA efg | agf gfe \
+| dGG BAG | def gfe | dcB cBA | BGG G2 :|
+|: e \
+| d2 g B2 g | def gfg | eAA efg | agf gfe \
+| d2 g B2 g | def gfe | dcB cBA | BGG G2 :|
+
+%%sep 1 1 500
+
+X: 3
+T: Jim Anderson's Delight
+C: Ronnie Cooper (1934-1982)
+M: 6/8
+L: 1/8
+R: jig
+F: http://www.thesession.org/tunes/display/7329/comments
+K: A
+|: a/f/ \
+| eAA cBA | efg aga | fBB fga | bag agf \
+| e2A cBA | efg a2f | edc dcB | cAA A2 :|
+|: a/f/ \
+| e2a c2a | efg aga | fBB fga | bag a2f \
+|[1 e2a c2a | efg agf | edc dcB | cAA A2 :|
+|[2 e2A cBA | efg agf | e2c dcB | cAA A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Jim Anderson's Delight
+C: Ronnie Cooper (1934-1982)
+%C: arr. T. Traub 12-11-1997
+M: 6/8
+R: jig
+K: A
+L: 1/8
+|: a/f/|"A"eAA cBA|"A"efg aga|"Bm"fBB fga|"D"bag "E7"agf|"A"eAA cBA|efg "D"agf|"A"edc "E7"dcB|"A"cAA A2 :|
+f|"A"e2 a c2 a|"A"efg aga|"Bm"fBB fga|"D"bag "E7"agf|"A"e2 a c2 a|"A"efg "D"agf|"A"edc "E7"dcB|"A"cAA A2 ||
+f|"A"e2 a c2 a|"A"efg aga|"Bm"fBB fga|"D"bag "E7"agf|"A"eAA cBA|"A"efg "D"agf|"A"edc "E7"dcB|"A"cAA A2 |]
+
+%%sep 1 1 500
+
+X: 3
+T: Jim Anderson's Delight
+C: Ronnie Cooper (1934-1982)
+M: 6/8
+L: 1/8
+R: jig
+F: http://www.thesession.org/tunes/display/7329/comments
+K: A
+|: a/f/ \
+| eAA cBA | efg aga | fBB fga | bag agf \
+| e2A cBA | efg a2f | edc dcB | cAA A2 :|
+|: a/f/ \
+| e2a c2a | efg aga | fBB fga | bag a2f \
+|[1 e2a c2a | efg agf | edc dcB | cAA A2 :|
+|[2 e2A cBA | efg agf | e2c dcB | cAA A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Jim Anderson's Delight
+C: Ronnie Cooper (1934-1982)
+M: 6/8
+L: 1/8
+R: jig
+F: http://www.thesession.org/tunes/display/7329/comments
+K: G
+|: g |\
+| dGG BAG | d>ef g2f | eAA efg | a>gf g2e \
+| dGG BGG | d>ef gfe | d>cB cBA | BGG G2 :|
+|: e |\
+| d2 g B2g | def g2g | eAA e>fg | a>gf g2e \
+|[1 dgg Bgg | d>ef g2e | d>cB c2A | BGG G2 :|
+|[2 dGG BGG | def g2e | d>cB cBA | BGG G2 |]
+
+%%sep 1 1 500
+
+X: 2
+T: Jim Anderson's Delight
+C: Ronnie Cooper (1934-1982)
+N: from Will Atkinson's recording, without B part's second ending
+M: 6/8
+L: 1/8
+R: jig
+F: http://www.thesession.org/tunes/display/7329/comments
+K: G
+|: g/e/ \
+| dGG BAG | def gfg | eAA efg | agf gfe \
+| dGG BAG | def gfe | dcB cBA | BGG G2 :|
+|: e \
+| d2 g B2 g | def gfg | eAA efg | agf gfe \
+| d2 g B2 g | def gfe | dcB cBA | BGG G2 :|
+
+%%sep 1 1 500
+
+X: 3
+T: Jim Anderson's Delight
+C: Ronnie Cooper (1934-1982)
+M: 6/8
+L: 1/8
+R: jig
+F: http://www.thesession.org/tunes/display/7329/comments
+K: A
+|: a/f/ \
+| eAA cBA | efg aga | fBB fga | bag agf \
+| e2A cBA | efg a2f | edc dcB | cAA A2 :|
+|: a/f/ \
+| e2a c2a | efg aga | fBB fga | bag a2f \
+|[1 e2a c2a | efg agf | edc dcB | cAA A2 :|
+|[2 e2A cBA | efg agf | e2c dcB | cAA A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Jim Anderson's Delight
+C: Ronnie Cooper (1934-1982)
+C: arr. T. Traub 12-11-1997
+M: 6/8
+R: jig
+K: A
+L: 1/8
+f \
+| "A"eAA cBA | "E7"efg "A"aga | "Bm"fBB fga | "D"bag "E7"agf \
+| "A"eAA cBA | "E7"efg "D"agf | "A"edc "E7"dcB | "A"cAA A2 :|
+f \
+| "A"e2a c2a | "E7"efg "A"aga | "Bm"fBB fga | "D"bag "E7"agf \
+| "A"e2a c2a | "E7"efg "D"agf | "A"edc "E7"dcB | "A"cAA A2 ||
+f \
+| "A"e2a c2a | "E7"efg "A"aga | "Bm"fBB fga | "D"bag "E7"agf \
+| "A"eAA cBA | "E7"efg "D"agf | "A"edc "E7"dcB | "A"cAA A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Jim Anderson's Delight
+C: Ronnie Cooper (1934-1982)
+%C: arr. T. Traub 12-11-1997
+M: 6/8
+R: jig
+K: A
+L: 1/8
+|: a/f/|"A"eAA cBA|"A"efg aga|"Bm"fBB fga|"D"bag "E7"agf|"A"eAA cBA|efg "D"agf|"A"edc "E7"dcB|"A"cAA A2 :|
+f|"A"e2 a c2 a|"A"efg aga|"Bm"fBB fga|"D"bag "E7"agf|"A"e2 a c2 a|"A"efg "D"agf|"A"edc "E7"dcB|"A"cAA A2 ||
+f|"A"e2 a c2 a|"A"efg aga|"Bm"fBB fga|"D"bag "E7"agf|"A"eAA cBA|"A"efg "D"agf|"A"edc "E7"dcB|"A"cAA A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Left Handed Tushkar
+C: Ronnie Cooper
+F: http://www.thesession.org/tunes/display/7361 2009-5-31
+D: "Shetland Fiddle Music" by School Of Scottish Studies, University Of Edinburgh
+M: 4/4
+L: 1/8
+R: reel
+K: A
+|: EG | AGAc  BEE/E/E | AEAc  eAce | dcdf e<aga | fB^df e2 EG  |
+        AGAc  BEE/E/E | AEAc  eAce | dcdf efge  | a2 A2 A2    :|
+   cd | e<aga eAce    | df^ef Bfdf | eaga eAce  | fB^df e2 c=d |
+        eaga  eAce    | df^ef Bfdf | eagf efge  | a2 A2 A2    ||
+   cd | eaga  eAce    | df^ef Bfdf | eaga eAce  | fB^df e2 EG  |
+        AGAc  BEE/E/E | AEAc  eAce | dcdf efge  | a2 A2 A2    |]
+
+%%sep 1 1 500
+
+X: 2
+T: the Left Handed Tushkar
+C: Ronnie Cooper
+F: http://www.thesession.org/tunes/display/7361 2009-5-31
+D: "Shetland Fiddle Music" by School Of Scottish Studies, University Of Edinburgh
+M: 4/4
+L: 1/8
+R: reel
+K: G
+|: DF \
+| GFGB ADD/D/D | GDGB dGBd | cBce d<gfg | eA^ce d2 DF |
+| GFGB ADD/D/D | GDGB dGBd | cBce defd | g2 G2 G2 :|
+|: Bc \
+| dgfg dGBd | ce^de Aece | dgfg dGBd |
+[1 eA^ce d2 B=c | dgfg dGBd | ce^de Aece | dgfe defd | g2 G2 G2 :|
+[2 eA^ce d2 DF | GFGB ADD/D/D | GDGB dGBd | cBce defd | g2 G2 G2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Left Handed Tushkar
+C:Ronald Cooper
+F:http://www.ibiblio.org/fiddlers/LEA_LEG.htm 2009-5-31
+M:C
+L:1/8
+K:A
+E2 | "A"AGAc "E7"BEEE |  "A"AEAc "A7"eAce |    "D"dcdf  "A"eaga | "B7"fB^df       "E7"e2E2   |
+     "A"AGAc "E7"BEEE |  "A"AEAc "A7"eAce |    "D"dcdf "E7"efge |  "A"a2"D"[F2A2] "A"[E2A2] :|
+cd | "A"eafa     eAce | "Bm"df^ef    Bfdf |    "A"eafa     eAce | "B7"fB^df       "E7"e2cd   |
+     "A"eafa     eAce | "Bm"df^ef    Bfdf | "Adim"eagf "E7"efge |  "A"a2"D"[F2A2] "A"[E2A2] ||
+cd | "A"eafa     eAce | "Bm"df^ef    Bfdf |    "A"eafa     eAce | "B7"fB^df       "E7"e2E2   |
+     "A"AGAc "E7"BEEE |  "A"AEAc "A7"eAce |    "D"dcdf "E7"efge |  "A"a2"D"[F2A2] "A"[E2A2] :|
+
+%%sep 1 1 500
+
+X: 1
+T: the Left Handed Tushkar
+C: Ronnie Cooper
+F: http://www.thesession.org/tunes/display/7361 2009-5-31
+D: "Shetland Fiddle Music" by School Of Scottish Studies, University Of Edinburgh
+M: 4/4
+L: 1/8
+R: reel
+K: A
+|: EG | AGAc  BEE/E/E | AEAc  eAce | dcdf e<aga | fB^df e2 EG  |
+        AGAc  BEE/E/E | AEAc  eAce | dcdf efge  | a2 A2 A2    :|
+   cd | e<aga eAce    | df^ef Bfdf | eaga eAce  | fB^df e2 c=d |
+        eaga  eAce    | df^ef Bfdf | eagf efge  | a2 A2 A2    ||
+   cd | eaga  eAce    | df^ef Bfdf | eaga eAce  | fB^df e2 EG  |
+        AGAc  BEE/E/E | AEAc  eAce | dcdf efge  | a2 A2 A2    |]
+
+%%sep 1 1 500
+
+X: 2
+T: the Left Handed Tushkar
+C: Ronnie Cooper
+F: http://www.thesession.org/tunes/display/7361 2009-5-31
+D: "Shetland Fiddle Music" by School Of Scottish Studies, University Of Edinburgh
+M: 4/4
+L: 1/8
+R: reel
+K: G
+|: DF \
+| GFGB ADD/D/D | GDGB dGBd | cBce d<gfg | eA^ce d2 DF |
+| GFGB ADD/D/D | GDGB dGBd | cBce defd | g2 G2 G2 :|
+|: Bc \
+| dgfg dGBd | ce^de Aece | dgfg dGBd |
+[1 eA^ce d2 B=c | dgfg dGBd | ce^de Aece | dgfe defd | g2 G2 G2 :|
+[2 eA^ce d2 DF | GFGB ADD/D/D | GDGB dGBd | cBce defd | g2 G2 G2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Left Handed Tushkar
+C:Ronald Cooper
+F:http://www.ibiblio.org/fiddlers/LEA_LEG.htm 2009-5-31
+M:C
+L:1/8
+K:A
+E2 | "A"AGAc "E7"BEEE |  "A"AEAc "A7"eAce |    "D"dcdf  "A"eaga | "B7"fB^df       "E7"e2E2   |
+     "A"AGAc "E7"BEEE |  "A"AEAc "A7"eAce |    "D"dcdf "E7"efge |  "A"a2"D"[F2A2] "A"[E2A2] :|
+cd | "A"eafa     eAce | "Bm"df^ef    Bfdf |    "A"eafa     eAce | "B7"fB^df       "E7"e2cd   |
+     "A"eafa     eAce | "Bm"df^ef    Bfdf | "Adim"eagf "E7"efge |  "A"a2"D"[F2A2] "A"[E2A2] ||
+cd | "A"eafa     eAce | "Bm"df^ef    Bfdf |    "A"eafa     eAce | "B7"fB^df       "E7"e2E2   |
+     "A"AGAc "E7"BEEE |  "A"AEAc "A7"eAce |    "D"dcdf "E7"efge |  "A"a2"D"[F2A2] "A"[E2A2] :|
+
+%%sep 1 1 500
+
+X: 1
+T: Mickie Ainsworth
+C: Ronald Cooper (1934-1982)
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+FG \
+| "D"ABAF Adcd \
+| "G"B2BA BdcB \
+| "D"ABde "Bm"fedf \
+| "E7"e2E2 "A7"E2FG |
+| "D"ABAF Adcd \
+| "G"Bggf gBdg \
+| "D"fAdf "A7"eAce \
+| "D"d2"G"d2 "D"d2 :|
+|: cd \
+| "A7"ea^ga e=gfe \
+| "D"d2fd adfd \
+| "G"gfeg "D"f2df \
+| "Em"efed "G"B2dB |
+| "D"ABAF Adcd \
+| "G"Bggf gBdg \
+| "D"fAdf "A7"eAce \
+| "D"d2"G"d2 "D"d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Mickie Ainsworth
+C: Ronald Cooper (1934-1982)
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+FG \
+| "D"ABAF Adcd \
+| "G"B2BA BdcB \
+| "D"ABde "Bm"fedf \
+| "E7"e2E2 "A7"E2FG |
+| "D"ABAF Adcd \
+| "G"Bggf gBdg \
+| "D"fAdf "A7"eAce \
+| "D"d2"G"d2 "D"d2 :|
+|: cd \
+| "A7"ea^ga e=gfe \
+| "D"d2fd adfd \
+| "G"gfeg "D"f2df \
+| "Em"efed "G"B2dB |
+| "D"ABAF Adcd \
+| "G"Bggf gBdg \
+| "D"fAdf "A7"eAce \
+| "D"d2"G"d2 "D"d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Millbrae
+C: Ronald Cooper (1934-1982)
+Z: John Chambers <jc:trillian.mit.edu>
+N: Do we need permission?, Chambers, Pete Clark?
+R: reel
+M: C|
+L: 1/8
+K: A
+   af \
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc dcBA | "E7"G2 B2 B2 af |
+y4 \
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc "E7"dBed | "A"c2 A2 A2 :|
+[| a2 \
+| "E7"g{a}beg beg[be] | "A"aAce agfe | "D"fedc dcBA | "E7"G2 B2 B2 a2 |
+y4 \
+| "E7"g{a}beg beg[be] | "A"aAce agfe | "D"fedc "E7"dBed | "A"c2 A2 A2 |]
+[| a2 \
+| "E7"g{a}beg beg[be] | "A"aAce agfe | "D"fedc dcBA | "E7"G2 B2 B2 af |
+y4 \
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc "E7"dBed | "A"c2 A2 A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Mill Brae
+C: Ronald Cooper (1934-1982)
+Z: John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: A
+af \
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc dcBA | "E7"G2 B2 B2 af \
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc "E7"dBed | "A"c2 A2 A2 :|
+a2 \
+| "E7"g{a}beg beg[be] | "A"aAce agfe | "D"fedc dcBA | "E7"G2 B2 B2 a2 \
+| "E7"g{a}beg beg[be] | "A"aAce agfe | "D"fedc "E7"dBed | "A"c2 A2 A2 |]
+a2 \
+| "E7"g{a}beg beg[be] | "A"aAce agfe | "D"fedc dcBA | "E7"G2 B2 B2 af \
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc "E7"dBed | "A"c2 A2 A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Mill Brae
+C: Ronald Cooper (1934-1982)
+Z: John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: A
+   af \
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc dcBA | "E7"G2 B2 B2 af |
+y4 \
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc "E7"dBed | "A"c2 A2 A2 :|
+[| a2 \
+| "E7"g{a}beg beg[be] | "A"aAce agfe | "D"fedc dcBA | "E7"G2 B2 B2 a2 |
+y4 \
+| "E7"g{a}beg beg[be] | "A"aAce agfe | "D"fedc "E7"dBed | "A"c2 A2 A2 |]
+[| a2 \
+| "E7"g{a}beg beg[be] | "A"aAce agfe | "D"fedc dcBA | "E7"G2 B2 B2 af |
+y4 \
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc "E7"dBed | "A"c2 A2 A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Millbrae
+C: Ronald Cooper (1934-1982)
+Z: John Chambers <jc:trillian.mit.edu>
+N: Do we need permission?, Chambers, Pete Clark?
+R: reel
+M: C|
+L: 1/8
+K: A
+   af \
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc dcBA | "E7"G2 B2 B2 af |
+y4 \
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc "E7"dBed | "A"c2 A2 A2 :|
+[| a2 \
+| "E7"g{a}beg beg[be] | "A"aAce agfe | "D"fedc dcBA | "E7"G2 B2 B2 a2 |
+y4 \
+| "E7"g{a}beg beg[be] | "A"aAce agfe | "D"fedc "E7"dBed | "A"c2 A2 A2 |]
+[| a2 \
+| "E7"g{a}beg beg[be] | "A"aAce agfe | "D"fedc dcBA | "E7"G2 B2 B2 af |
+y4 \
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc "E7"dBed | "A"c2 A2 A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Mill Brae
+C: Ronald Cooper (1934-1982)
+Z: John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: A
+af \
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc dcBA | "E7"G2 B2 B2 af \
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc "E7"dBed | "A"c2 A2 A2 :|
+a2 \
+| "E7"g{a}beg beg[be] | "A"aAce agfe | "D"fedc dcBA | "E7"G2 B2 B2 a2 \
+| "E7"g{a}beg beg[be] | "A"aAce agfe | "D"fedc "E7"dBed | "A"c2 A2 A2 |]
+a2 \
+| "E7"g{a}beg beg[be] | "A"aAce agfe | "D"fedc dcBA | "E7"G2 B2 B2 af \
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc "E7"dBed | "A"c2 A2 A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Mill Brae
+C: Ronald Cooper (1934-1982)
+Z: John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: A
+   af \
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc dcBA | "E7"G2 B2 B2 af |
+y4 \
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc "E7"dBed | "A"c2 A2 A2 :|
+[| a2 \
+| "E7"g{a}beg beg[be] | "A"aAce agfe | "D"fedc dcBA | "E7"G2 B2 B2 a2 |
+y4 \
+| "E7"g{a}beg beg[be] | "A"aAce agfe | "D"fedc "E7"dBed | "A"c2 A2 A2 |]
+[| a2 \
+| "E7"g{a}beg beg[be] | "A"aAce agfe | "D"fedc dcBA | "E7"G2 B2 B2 af |
+y4 \
+| "A"eA ~A2 eAce | "D"fedf "A"eaga | "Bm"fedc "E7"dBed | "A"c2 A2 A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Miss Susan Cooper
+C: Ronnie Cooper (1934-1982)
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+   (3ABc \
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde "Bm"fa^ga | "G"=g2fd "A7"eAce |
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde fafd | "A7"eAce "D"d2 :|
+|: dc \
+| "Bm"Bcde fB~B2 | def^g "E7"a2gf | "A"eAce a2^ga | "Bm"=g2fd "A7"eAce |
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde fafd | "A7"eAce "D"d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Miss Susan Cooper
+C: Ronnie Cooper (1934-1982)
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+   (3ABc \
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde "Bm"fa^ga | "G"=g2fd "A7"eAce \
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde fafd | "A7"eAce "D"d2 :|
+|: dc \
+| "Bm"Bcde fB~B2 | def^g "E7"a2gf | "A"eAce a2^ga | "Em"=g2fd "A7"eAce \
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde fafd | "A7"eAce "D"d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Miss Susan Cooper
+C: Ron Cooper (1934-1982)
+C: Arr. John Chambers, mods by T. Traub 6-27-03
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+F: http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/SusanCooper.abc
+K: D
+|: (3ABc \
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde "Bm"fa^ga | "G"=g2fd "A7"eAce \
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde fafd | "A7"eAce "D"d2 :|
+|: dc \
+| "Bm"Bcde fB~B2 | def^g "E7"a2gf | "A"eAce a2^ga | "Em"=g2fd "A7"eAce \
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde fafd | "A7"eAce "D"d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Miss Susan Cooper
+C: Ronnie Cooper (1934-1982)
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+   (3ABc \
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde "Bm"fa^ga | "G"=g2fd "A7"eAce |
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde fafd | "A7"eAce "D"d2 :|
+|: dc \
+| "Bm"Bcde fB~B2 | def^g "E7"a2gf | "A"eAce a2^ga | "Bm"=g2fd "A7"eAce |
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde fafd | "A7"eAce "D"d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Miss Susan Cooper
+C: Ronnie Cooper (1934-1982)
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+   (3ABc \
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde "Bm"fa^ga | "G"=g2fd "A7"eAce \
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde fafd | "A7"eAce "D"d2 :|
+|: dc \
+| "Bm"Bcde fB~B2 | def^g "E7"a2gf | "A"eAce a2^ga | "Em"=g2fd "A7"eAce \
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde fafd | "A7"eAce "D"d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Miss Susan Cooper
+C: Ron Cooper (1934-1982)
+C: Arr. John Chambers, mods by T. Traub 6-27-03
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+F: http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/SusanCooper.abc
+K: D
+|: (3ABc \
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde "Bm"fa^ga | "G"=g2fd "A7"eAce \
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde fafd | "A7"eAce "D"d2 :|
+|: dc \
+| "Bm"Bcde fB~B2 | def^g "E7"a2gf | "A"eAce a2^ga | "Em"=g2fd "A7"eAce \
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde fafd | "A7"eAce "D"d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Ronas Voe
+C: Ronnie Cooper
+O: Shetland Islands
+F: http://www.thesession.org/tunes/display/7336 2009-6-3
+M: 3/4
+L: 1/8
+R: Waltz
+K: D
+F2 G2 |\
+A6 | f4 c2 | e2 d4 | A4 d2 | B4 d2 | e4 d2 | f6- | f2 F2 G2 |\
+A6 | f4 c2 | e2 d4 | d4 f2 | e6 | e4 B2 | e6- | e2 ||
+F2 G2 |\
+A6 | f4 c2 | e2 d4 | A4 d2 | B4 d2 | e4 d2 | f6- | f4 A2 |\
+B6 | c6 | d6 | g6 | f4 A2 | f4 e2 | d6- | d2 |]
+
+%%sep 1 1 500
+
+X: 2
+T: Ronas Voe
+C: Ronnie Cooper
+O: Shetland Islands
+F: http://www.thesession.org/tunes/display/7336 2009-6-3
+M: 3/4
+L: 1/8
+R: Waltz
+K: G
+|: B,2 C2 | D6 | B4 F2 | A2 G4 | D4 G2 | E4 G2 | A4 G2 | B6- | B2 B,2 C2 |
+D6 | B2 A2 F2 | A2 G2 F2 | G4 B2 | A6 | A4 E2 | A6- | A2 B,2 C2 |
+D2 B,2 D2 | B4 F2 | A2 G4 | D4 G2 | E4 G2 | A4 G2 | B6- | B4 D2 |
+E6 | F6 | G6 | c6 | B4 D2 | B4 A2 | G6- |1 G2 :|2 G4 ||
+K: D
+|: F>G | A3 F A2 | f2 c2 d2 | (3efe d3 B | A4 d2 | B4 d2 | e4 f2 | A6 | (3ABA F3 G |
+A4 F2 | (3fgf- f2 c>d | e2 (3ded c2 | d2 A2 d2 | e4 B2 | e4 d2 | c6 | (3efe E2 (3EFG |
+A6 | f3 c d2 | e2 d3 c | A2 d2 c2 | B4 d2 | e4 d2 | g6- | g4 B2 |
+B2 ^A2 B2 | c6 | d3 c d2 | e2 f2 g2 | f a3 f2 | (3efe a2 c2 | d3 A F2 |1 D4 :|2 D2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Ronas Voe
+C: Ronnie Cooper
+O: Shetland Islands
+F: http://www.thesession.org/tunes/display/7336 2009-6-3
+M: 3/4
+L: 1/8
+R: Waltz
+K: D
+F2 G2 |\
+A6 | f4 c2 | e2 d4 | A4 d2 | B4 d2 | e4 d2 | f6- | f2 F2 G2 |\
+A6 | f4 c2 | e2 d4 | d4 f2 | e6 | e4 B2 | e6- | e2 ||
+F2 G2 |\
+A6 | f4 c2 | e2 d4 | A4 d2 | B4 d2 | e4 d2 | f6- | f4 A2 |\
+B6 | c6 | d6 | g6 | f4 A2 | f4 e2 | d6- | d2 |]
+
+%%sep 1 1 500
+
+X: 2
+T: Ronas Voe
+C: Ronnie Cooper
+O: Shetland Islands
+F: http://www.thesession.org/tunes/display/7336 2009-6-3
+M: 3/4
+L: 1/8
+R: Waltz
+K: G
+|: B,2 C2 | D6 | B4 F2 | A2 G4 | D4 G2 | E4 G2 | A4 G2 | B6- | B2 B,2 C2 |
+D6 | B2 A2 F2 | A2 G2 F2 | G4 B2 | A6 | A4 E2 | A6- | A2 B,2 C2 |
+D2 B,2 D2 | B4 F2 | A2 G4 | D4 G2 | E4 G2 | A4 G2 | B6- | B4 D2 |
+E6 | F6 | G6 | c6 | B4 D2 | B4 A2 | G6- |1 G2 :|2 G4 ||
+K: D
+|: F>G | A3 F A2 | f2 c2 d2 | (3efe d3 B | A4 d2 | B4 d2 | e4 f2 | A6 | (3ABA F3 G |
+A4 F2 | (3fgf- f2 c>d | e2 (3ded c2 | d2 A2 d2 | e4 B2 | e4 d2 | c6 | (3efe E2 (3EFG |
+A6 | f3 c d2 | e2 d3 c | A2 d2 c2 | B4 d2 | e4 d2 | g6- | g4 B2 |
+B2 ^A2 B2 | c6 | d3 c d2 | e2 f2 g2 | f a3 f2 | (3efe a2 c2 | d3 A F2 |1 D4 :|2 D2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Scalloway Voe
+C: Ronnie Cooper
+F: http://www.thesession.org/tunes/display/4599 2009-6-4
+M: 3/4
+L: 1/8
+R: waltz
+K: G
+D2 | B4 d2 | B4 A2 | G2 F2 E2 | D4 D2 | c4 c2 | B4 d2 | d2 c2 B2 | A4 D2 |
+     B4 d2 | B4 A2 | G2 F2 E2 | D4 c2 | B2 d4 | A4 B2 | G6-      | G4   :|
+d2 | g6    | d4 G2 | c2 d2 e2 | d4 d2 | g6    | B4 d2 | d2 c2 B2 | A4 d2 |
+     g6    | d4 G2 | c2 d2 e2 | d4 c2 | B2 d4 | A4 B2 | G6-      | G4   ||
+d2 | g6    | d4 G2 | c2 d2 e2 | d4 d2 | g6    | B4 d2 | d2 c2 B2 | A4 D2 |
+     B4 d2 | B4 A2 | G2 F2 E2 | D4 c2 | B2 d4 | A4 B2 | G6-      | G4   |]
+
+%%sep 1 1 500
+
+X: 1
+T: Scalloway Voe
+C: Ronnie Cooper
+F: http://www.thesession.org/tunes/display/4599 2009-6-4
+M: 3/4
+L: 1/8
+R: waltz
+K: G
+D2 | B4 d2 | B4 A2 | G2 F2 E2 | D4 D2 | c4 c2 | B4 d2 | d2 c2 B2 | A4 D2 |
+     B4 d2 | B4 A2 | G2 F2 E2 | D4 c2 | B2 d4 | A4 B2 | G6-      | G4   :|
+d2 | g6    | d4 G2 | c2 d2 e2 | d4 d2 | g6    | B4 d2 | d2 c2 B2 | A4 d2 |
+     g6    | d4 G2 | c2 d2 e2 | d4 c2 | B2 d4 | A4 B2 | G6-      | G4   ||
+d2 | g6    | d4 G2 | c2 d2 e2 | d4 d2 | g6    | B4 d2 | d2 c2 B2 | A4 D2 |
+     B4 d2 | B4 A2 | G2 F2 E2 | D4 c2 | B2 d4 | A4 B2 | G6-      | G4   |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Shetland Fiddlers' Society
+C: Ronnie Cooper
+F: http://www.thesession.org/tunes/display/7366 2009-5-31
+M: 4/4
+L: 1/8
+R: strathspey
+K: D
+(3A,>B,C \
+| D2 D2 F>A D>A | (3d>cB (3A>Bc d>A F<D | E2 E>F G>B e>d | (3cde (3B>cd c<A AF |
+| D2 D>A F>A D>A | (3d>cB (3A>Bc d>A F<D | G>B E>G F>A DF | (3E>FG (3A>Bc dD Dg ||
+| (3fed (3e>dc d2 A2 | d>f (3efg fd df | (3gfe (3fed eB GB | (3cde (3B>cd c<A A>g |
+| (3fed (3e>dc d>A F>A | d>f (3efg fd AF | (3GAB (3E>FG (3FGA (3D>EF | (3E>FG (3A>Bc dD |]
+
+%%sep 1 1 500
+
+X: 2
+T: the Shetland Fiddlers Society
+R:strathspey
+D:John Campbell, Cape Breton Violin Music (1975-2006)
+C:Ronald Cooper
+O:Shetland
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+F:http://cranfordpub.com/tunes/abcs/campbell.abc
+L:1/8
+M:C
+%Q:300
+K:D
+A, \
+| D2 D>E D>F (3ABc | (3dcB (3ABc d>A F<D | E2 E<B G<B e>d | (3cde B>d c<A A>F |
+| D2 D>E D>F (3ABc | (3dcB (3ABc d>A F<D | G>B E>G F<A D>F | G>B (3ABc d<D D :|
+|: g \
+| (3fed (3edc d>A F<A | (3def e>g f<d d>f | (3gfe (3fe^d e>B G>=d | (3cde B>d c<A A>g |
+| (3fed (3edc d>A F<A | (3def e>g f>d A<F | G>B E>G F<A D>F | G>B (3ABc d<D D :|
+
+%%sep 1 1 500
+
+X: 1
+T: the Shetland Fiddlers' Society
+C: Ronnie Cooper
+F: http://www.thesession.org/tunes/display/7366 2009-5-31
+M: 4/4
+L: 1/8
+R: strathspey
+K: D
+(3A,>B,C \
+| D2 D2 F>A D>A | (3d>cB (3A>Bc d>A F<D | E2 E>F G>B e>d | (3cde (3B>cd c<A AF |
+| D2 D>A F>A D>A | (3d>cB (3A>Bc d>A F<D | G>B E>G F>A DF | (3E>FG (3A>Bc dD Dg ||
+| (3fed (3e>dc d2 A2 | d>f (3efg fd df | (3gfe (3fed eB GB | (3cde (3B>cd c<A A>g |
+| (3fed (3e>dc d>A F>A | d>f (3efg fd AF | (3GAB (3E>FG (3FGA (3D>EF | (3E>FG (3A>Bc dD |]
+
+%%sep 1 1 500
+
+X: 2
+T: the Shetland Fiddlers Society
+R:strathspey
+D:John Campbell, Cape Breton Violin Music (1975-2006)
+C:Ronald Cooper
+O:Shetland
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+F:http://cranfordpub.com/tunes/abcs/campbell.abc
+L:1/8
+M:C
+%Q:300
+K:D
+A, \
+| D2 D>E D>F (3ABc | (3dcB (3ABc d>A F<D | E2 E<B G<B e>d | (3cde B>d c<A A>F |
+| D2 D>E D>F (3ABc | (3dcB (3ABc d>A F<D | G>B E>G F<A D>F | G>B (3ABc d<D D :|
+|: g \
+| (3fed (3edc d>A F<A | (3def e>g f<d d>f | (3gfe (3fe^d e>B G>=d | (3cde B>d c<A A>g |
+| (3fed (3edc d>A F<A | (3def e>g f>d A<F | G>B E>G F<A D>F | G>B (3ABc d<D D :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sunset Over Foula
+C:Ronnie Cooper
+M:3/4
+L:1/8
+R:waltz
+F:http://www.thesession.org/tunes/display/7348 2009-5-31
+K:D
+A2 \
+| d4 e2 | d4 F2 | A6 | F4 A2 | B4- B>c | d4 F2 | A4- A>B | A4 A2 |
+| f4 g2 | f4 e2 | d6 | A4 d2 | B4- B>c | d4 A<F | E4- E>F | E4 ||
+A2 \
+| d4 e2 | d4 F2 | A6 | F4 A2 | B4- B>c | d4 F2 | A4- A>B | A4 A2 |
+| f4 g2 | f4 e2 | d6 | B4 dB | A4 d2 | f4 (3e>fe | d6- | d4 |]
+
+%%sep 1 1 500
+
+X: 2
+T: Sunset over Foula
+C:Ronnie Cooper
+F:http/www.thesession.org/tunes/display/7348 2009-5-31
+D:Iain Anderson "Silver Strings", track 1
+M:3/4
+L:1/8
+R:waltz
+K:D
+A2 |\
+d4 e2 | d4 F2 | A6 | F4 A2 | B4 c2 | d4 F2 | A6- | A4 A2 |
+f4 g2 | f4 e2 | d6 | A4 d2 | B4 c2 | d4 (3FGF | E6- | E4 ||
+A2 |\
+d4 e2 | d4 F2 | A6 | F4 A2 | B4 c2 | d4 F2 | A6- | A4 A2 |
+f4 g2 | f4 e2 | d6 | B4 d2 | A4 d2 | f4 e2 | d6- | d4 |]
+
+%%sep 1 1 500
+
+X: 3
+T: Sunset over Foula
+C:Ronnie Cooper
+L:1/4
+M:3/4
+O:Scotland
+R:Waltz
+Z:Richard Robinson
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000009de.html
+%%ID:000009de
+K:D
+A |\
+d2e | d2F | A3 | F2A | B2c | d2F | (A3 | A2)A |\
+f2g | f2e | d3 | A2d | B2c | d2F | (E3 | E2)A |
+d2e | d2F | A3 | F2A | B2c | d2F | (A3 | A2)A |\
+f2g | f2e | d3 | B2d | A2d | f2e | (d3 | d2) |]
+
+%%sep 1 1 500
+
+X: 1
+T: Sunset Over Foula
+C:Ronnie Cooper
+M:3/4
+L:1/8
+R:waltz
+F:http://www.thesession.org/tunes/display/7348 2009-5-31
+K:D
+A2 \
+| d4 e2 | d4 F2 | A6 | F4 A2 | B4- B>c | d4 F2 | A4- A>B | A4 A2 |
+| f4 g2 | f4 e2 | d6 | A4 d2 | B4- B>c | d4 A<F | E4- E>F | E4 ||
+A2 \
+| d4 e2 | d4 F2 | A6 | F4 A2 | B4- B>c | d4 F2 | A4- A>B | A4 A2 |
+| f4 g2 | f4 e2 | d6 | B4 dB | A4 d2 | f4 (3e>fe | d6- | d4 |]
+
+%%sep 1 1 500
+
+X: 2
+T: Sunset over Foula
+C:Ronnie Cooper
+F:http/www.thesession.org/tunes/display/7348 2009-5-31
+D:Iain Anderson "Silver Strings", track 1
+M:3/4
+L:1/8
+R:waltz
+K:D
+A2 |\
+d4 e2 | d4 F2 | A6 | F4 A2 | B4 c2 | d4 F2 | A6- | A4 A2 |
+f4 g2 | f4 e2 | d6 | A4 d2 | B4 c2 | d4 (3FGF | E6- | E4 ||
+A2 |\
+d4 e2 | d4 F2 | A6 | F4 A2 | B4 c2 | d4 F2 | A6- | A4 A2 |
+f4 g2 | f4 e2 | d6 | B4 d2 | A4 d2 | f4 e2 | d6- | d4 |]
+
+%%sep 1 1 500
+
+X: 3
+T: Sunset over Foula
+C:Ronnie Cooper
+L:1/4
+M:3/4
+O:Scotland
+R:Waltz
+Z:Richard Robinson
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000009de.html
+%%ID:000009de
+K:D
+A |\
+d2e | d2F | A3 | F2A | B2c | d2F | (A3 | A2)A |\
+f2g | f2e | d3 | A2d | B2c | d2F | (E3 | E2)A |
+d2e | d2F | A3 | F2A | B2c | d2F | (A3 | A2)A |\
+f2g | f2e | d3 | B2d | A2d | f2e | (d3 | d2) |]
+
+%%sep 1 1 500
+
+X: 1
+T: da Tushker
+O: Shetland
+C: Ronald Cooper (1934-1982)
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+cB "A"|\
+"A"Aafa edcB | A2cA EAcA |\
+cefg afec | "E7"d2 B2 B2 ag |\
+"D"fgaf "E7"edcB | "A"A2cA EAcA |
+"D"Bcde "E7"fefg | "A"a2 A2 A2 :|\
+dc "B"|\
+"E7"BeGe BGEG | "A"AecA EAcA |\
+cefg afec | "E7"d2 B2 B2 dc |
+"E7"BeGe BGEG | "A"AecA EAcA |\
+"D"Bcde "E7"fefg | "A"a2 A2 A2 \
+dc "B"| "E7"BeGe BGEG | "A"AecA EAcA |
+"A"cefg afec | "E7"d2 B2 B2  ag |\
+"D"fgaf "E7"edcB | "A"A2cA EAcA |\
+"D"Bcde "E7"fefg | "A"a2 A2 A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: da Tushker
+O: Shetland
+C: Ronald Cooper (1934-1982)
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+cB "A"|  "A"Aafa "E7"edcB | "A"A2cA EAcA |    cefg     afec | "E7"d2 B2 B2 ag |
+y4    |  "D"fgaf "E7"edcB | "A"A2cA EAcA | "D"Bcde "E7"fefg |  "A"a2 A2 A2   :|
+dc "B"| "E7"BeGe     BGEG | "A"AecA EAcA |    cefg     afec | "E7"d2 B2 B2 dc |
+y4    | "E7"BeGe     BGEG | "A"AecA EAcA | "D"Bcde "E7"fefg |  "A"a2 A2 A2   |]
+dc "C"| "E7"BeGe     BGEG | "A"AecA EAcA | "A"cefg     afec | "E7"d2 B2 B2 ag |
+y4    |  "D"fgaf "E7"edcB | "A"A2cA EAcA | "D"Bcde "E7"fefg |  "A"a2 A2 A2   |]

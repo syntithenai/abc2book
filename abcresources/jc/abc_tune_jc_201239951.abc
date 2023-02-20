@@ -1,0 +1,20 @@
+X:351
+T:Quick Scotch
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 35
+M:2/4
+L:1/8
+Q:Presto
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+DF|A2FA|d2Ad|fdaf|e2Ac|e2ce|g2eg|bgec|d2DF|A2FA|d2Ad|fdaf|e2ce|
+e2ce|g2eg|bgec|d2ef|gece|ABcA|dAFA|D2ef|gece|ABcA|d2f2|d2ef|gece|
+ABcA|dAFA|D2ef|gece|ABcA|d2f2|d2DF|A2FA|d2Ad|fdaf|e2Ac|e2ce|g2eg|
+bgec|d2DF|A2FA|d2Ad|fdaf|e2Ac|e2ce|g2eg|bgec|d2ef|gece|ABcA|dAFA|
+D2ef|gece|ABcA|d2f2|d2ef|gece|ABcA|dAFA|D2ef|gece|ABcA|d2f2|
+d2DF|A2FA|d2Ad|fdaf|e2Ac|e2ce|g2eg|bge^c||
+Q:Allegro
+L:1/16
+B>GA>F G2g2|f>de>^c d3=c|B>GA>F G2g2|f>de>^c d2(3(def)|
+g>dB>G e3e|d>e (3(dcB) A3c|B>GA>F G2g2|f>ga>F g2||

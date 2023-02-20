@@ -1,0 +1,26 @@
+X:1
+T: The Bonny Cuckoo
+N:
+C:O'Carolan
+S: tune is: Sheebeg and Sheemore
+A:
+O:
+R:
+M:3/4
+K:D
+I:speed 150
+%W: A
+% voice 1 (1 lines, 26 notes)
+K:D
+M:3/4
+L:1/16
+d2 e2 |f4 f2 e2 d4 |d4 d2 e2 d4 |B8 A4 |F8 A4 |B2 A2 B2 c2 d4 |e8 d2 e2 |f8 e4 |d8 f4 |
+%W:
+% voice 1 (1 lines, 15 notes)
+B8 e4 |A8 d4 |F8 E4 |D8 f4 |B8 e4 |A8 d2 c2 |d12 |d8 ||
+%W: B
+% voice 1 (1 lines, 26 notes)
+d2 e2 |f4 f2 e2 d4 |e2 d2 e2 f2 a4 |b8 a4 |f8 e2 d2 |e8 a4 |f8 e2 d2 |d8 B4 |B8 B2 A2 |
+%W:
+% voice 1 (1 lines, 19 notes)
+F8 E4 |D8 f4 |B8 e4 |A8 a4 |b2 a2 g2 f2 e2 d2 |e8 d2 c2 |d12 |d8 ||

@@ -1,0 +1,51 @@
+X: 10490
+T: NAPOLEON'S CORONATION MARCH
+C: Jean-Fran\,cois LeSueur
+R: march
+N: Performed for the first time on Sunday, 2 December, 1804.
+B: K\"ohler's Violin Repository, v.1, 1885 p.49-50
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: In bar 7, the last c maybe should be natural.
+M: C|
+L: 1/8
+K: G
+|:\
+v[B4G4G,4] [c4A4] | [d2G2G,2] (.[dG]>.[dG]) [d2G2] (c>B) |\
+[c2A2](.[cA]>.[cA]) [c2A2](de) | (d3c) (B/D/E/F/ G/A/B/c/) |\
+cB B4 ({cB}AG) | c4- c(d/c/ BA) |
+(Bc^cd) (^decA) | (G4 {AG}F)(edc) |\
+[B4G4G,4] [c4A4] | [d2G2G,2](.[dG]>.[dG]) [d2G2](c>B) |\
+[c2A2](.[cA]>.[cA]) [c2A2](de) | (d3c) (B/D/E/F/ G/A/B/c/) |
+cB B4 ({cB}AG) | d^c =c4 ({dc}BA) |\
+(^de) (c/B/c/A/) G2 TF2 | GG/G/ (.G.G) GDGB |\
+GDGB GDGB | GG/G/ (.G.G) GDGB |
+BGBd BGBd | [g4B4D4G,4] ud3 uB |\
+GG,B,D GBdB | cAag fadf |\
+[g4B4D4G,4] ud3 uB | GG,B,D GBdB |
+cAag fadf | g3(f/e/) d(d e/d/c/B/) |\
+c(c/B/) A(A/G/) [F3A,3]z | va3 g f(a/g/) fd |\
+g{a}g/f/ g{a}g/f/ gbgf | e{f}e/^d/ eg (eg)fe |
+A3 (g fed^c) | d3 (f/e/) d(f/e/) d(f/e/) |\
+d3 (a/g/) f(a/g/) f(a/g/) | fAdf dAdf |\
+[d4F4] u[d3F3] ud |[1 (d^ced) (d=cBA) :|[2 [d6F6] z2 ||
+v[B4G4] [B4G4] | [BG][B/G/][B/G/] [BG][BG] [BG][BG][BG][BG] |\
+[BG][B/G/][B/G/] [BG][BG] [BG][BG][BG][BG] | [B2G2](.[BG]>.[BG]) [B2G2]z2 |\
+[g4B4D4G,4] [g4B4] | [gB][g/B/][g/B/] [gB][gB] [gB][gB][gB][gB] |
+[gB][g/B/][g/B/] [gB][gB] [gB][gB][gB][gB] | [g2B2](.[gB]>.[gB]) [g2B2](Bc) |\
+ed(d2 d)(e/d/ ^c/d/e/f/) | gd B4 (dB) |
+.c(a/g/ f/e/d/c/) .B(g/f/ e/d/c/B/) | A4- A(GAB) |\
+c4 (BAGF) | d4 (^cdef) |
+g4 (fedc) | (B2 B/c/^c/d/) (A2B=c) |\
+edd2- d(e/d/ ^c/d/e/f/) | gd B4 (dB) |
+.c(a/g/ f/e/d/c/) .B(g/f/ e/d/c/B/) | A4- A(GAB) |\
+c4 (BAGF) | d4 (^cdef) |
+g3G F(edc) | (c4 B2)(AB) |\
+c4 (BAGF) | d4 (^cdef) |\
+g2(Be d^c=cA) | [G2B,2][B2G2] [G2B,2](.B>.c) |
+vd2v[g2B2D2G,2] v[b2B2D2G,2]v[g2B2D2B,2] | v[d4G4G,4] (^c/d/e/d/ =c/B/A/G/) |\
+v[F2A,2]v[A2F2D2] v[c2F2A,2]v[F2A,2] | [GG,]gfe dcBA |\
+GABc defa | g2B2 c2^c2 |
+d^cde d2F2 | [GB,]G/G/ GG GDGB |\
+[GB,]G/G/ GG GDGB | GDGB GDGB |\
+[G4B,4] u[G3B,3]v[GB,] | H[G6B,6] "_Fine."z2 |]

@@ -1,0 +1,75 @@
+X: 03
+T: eine SEEFAHRT DIE IST LUSTIG . . .  
+T: Marsch
+C: Paul Meinhold
+%R: march
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+B: Fl\"ugelhorn Duets
+U: K=!accent!	% Only works below the note
+%: k="^^"
+% dim/cres..endo symbols:
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+U: R=!uppermordent!
+M: C|
+L: 1/8
+K: G
+% %score (1 2)
+%%gchord below
+%%continueall 1
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+!f!z2 & D2 |\
+"^^"G2DG B2GB | ("^^"d4 B2)x2 & z4 !f!z2dd | "^^"d8- & z2"_Bösse"Kc2 KA2KF2 | d2z2 z4 & KD2K^D2 KE2KF2 |:\
+!mf!"^^"B2z^A "^>"B4 | "^^"A2z^G "^>"A4 | =G3F (A2G2) | F6 x2 & x2{DE}x2{FGAB)}x4 "^1"|\
+"^^"c2zB "^>"c4 | "^^"B2z^A "^>"B4 | A3^G B2A2 |
+G2z.D (EF).G.A | "^^"B2z^A "^>"B4 | "^^"A2z^G "^>"A4 | pG3F A2G2P "^2"|\
+!f!F6 AB | "^^"A6 AB & z2G2 E4 |\
+"^^"A6 AB & z2G2 D4 p| A2G2 F2E2P |\
+[1 !ff!D2z2 z4 & z2^D2Q E2F2q |[2 !ff! D2.d.d d2d2 \
+|: "_Bass-Solo" !ff!d2.d.d d2d2 & y2d8 | z2d2 z2d2 & c4 A4 "^3"|
+z2d2 z2d2 & B4 G4 | z2.d.d d2d2 & D8 | z2d2 z2d2 & A4 F4 |\
+z2.d.d d2d2 & D8 | z2d2 z2d2 & B4 G4 | z2.d.d d2d2 & D8 | d2y2.d.d d2d2 & y2d8  "^4"|\
+z2d2 z2d2 & c4 A4 | z2d2 z2d2 & B4 G4 | z2.d.d d2"^^"^d2 & QD8q!f! |\
+"^^"ez ^de Rg2e2 | "^^"dz  ^cd Rg2e2 | "^>"d2"^>"^d2 "^>"e2"^>"f2 |
+[1 "^>"g2.d.d "^^"d2"^^"d2 "^5":|[2 !ff!"^>"g2"^^"g"^^"g"^^"g2z2 \
+"^Trio"||[K:C clef=treble] !ff!"^>"g4 "^>"^f4 | "^>"=f6 Qe2 & z2"^^"G"^^"G"^^"G2x2  |\
+f2e2 d2c2q | B2z2 !mf!Q(E3F) !segno!|| q!f!.G2.G2 (E3!f!F) |\
+.G2.G2 (E3F) "^6"| .G2.G2 .c2.d2 | e4 (d3c) | .B2.B2 .B2.B2 | .B2.B2 (A2B2) |\
+.c2.c2 (B2A2) |
+G4 !f!E3F |: G8 & z4 [E3C3][FD] | G2z2 c3d & [G4E4] x4 "^7"|\
+e8- & z4 [c3E3][dF] | e2z2 d3c & [e4G4] x4 | (B2g2) .g2.g2 ||\
+[1 .g2.g2 (f2g2) | e2"^>"c2 "^>"B2"^>"A2 | "^>"G4 E3F :|\
+[2 .g2.g2 "^Folge"(f2B2) | c8- "^8"| c2z2 !f!"^>"c3B :|\
+["3. Fine."g2g2 (f2d2) |
+.c2z2 p(G3A/B/)P |!ff! c2.c.c c2 H|]\
+pA8- | A2Pz2Q B3qA | pG8- | G2Pz2 QA3Gq | F4 A4 | G4 F4 | QE8- q"^9"|\
+c2z2 c3B & E2 x6 | z2cc (3c2A2c2 & pA8- | f2 z6 & PA2z2 B3A | z2cc (3c2G2c2 & pG8- |P e2 z6 & G2z2 c3c |
+z2dd d4 & pd6 c2 | d2dd (3d2d2d2 & B4 A4P | !ff!(3G2"_poco rit."g2g2 (3g2g2g2 |\
+g2!f!z2 "^a tempo"(E3 "Trio D.S. mit Wiederholung al Fine."F) !segno!|]\
+y16 y16 y16 y16 y16 y16 y16 y16 y16 y16 y16 y16 y16 y16 y16 y16
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+!f!D2 |\
+"^^"B,2DB, "^^"D2B,D | (B4 G2)!f!DpD | "^^"D8- P| !ff!D2z2 z4 |:\
+!mf!"^^"D2z^C "^>"D4 | "^^"B,2zB, "^>"B,4 | pD3D E4P | QC6 z2q "_1"|
+"^^"E2zD "^>"E4 | "^^"D2z^C "^>"D4 | =C3B, D2C2 | B,2z.D (CD).E.C |\
+"^^"D2z^C "^>"D4 | "^^"B,2zB, "^>"B,4 | pB,3D ^C2E2P | !f!D6 A,B, "_2"|
+"^^"A,6 A,B, | "^^"A,6 A,B, p| (^C2D2) A,2C2P | |[1 !ff!D2z2 z4 :|[2 !ff!D2DD D2D2 |: F2FF F2F2 | z2F2 z2F2 | z2G2 z2G2 "_3"|
+z2GG G2G2 | z2F2 z2F2 | z2FF F2F2 | z2G2 z2G2 | z2GG G2G2 | F2FF F2F2 | z2F2 z2F2 | z2G2 z2G2 "_4"|
+z2GG G2!f!"^^"G2 | "^^"cz Bc Re2"^^"c2 | "^^"Bz ^AB RG2"^^"G2 | p"^>"F2"^>"^A2 "^>"=A2"^"c2P !ff! |\
+[1 "^>"B2 "^^"D"^^"D "^^"D2"^^"D2 :|[2 !ff! "^>"B2 "^^"B"^^"B "^^"B2z2 "_5"||[K:C clef=treble]
+!ff!"^>"B4 "^>"^d4 | "^>"=d6 QA2 | A2^c2 A2A2q | !f!G2z2 !mf!Q(C3D) !segno!||\
+q!f!.E2.E2 (C3D) | .E2.E2 (C3D) | .E2.E2 .E2.G2 | c4 (B3A) "_6"|
+.F2.F2 .F2.F2 | .F2.F2 (F2G2) | .E2.E2 (G2F2) | E4 !f!C3D |:\
+E8- | E2z2 E3G | c8- | c2z2 B3A | (G2B2) .B2.B2 "_7"||
+[1 .B2.B2 (d2B2) | G2"^>"c2 "^>"B2 "^>"A2 | "^>"G4 C3D :|\
+[2 .B2.B2 "^Folge"(A2G2) | E8- | E2z2 !f!"^>"E4 |]\
+["3. Fine.".B2.B2 (A2G2) | E2z2 "^>"p(F4 | P!ff!G2)GG G2 "_8"H|]
+pF8-P Q| [c2F2]qz2 "^>"^D4 | pE8-P Q| E2qz2 E4 | p"^>"D4 "^>"F4 | "^>"B,4 "^>"D4 |\
+z2EE (3E2C2E2 & PQC8- | E2 x6 & C2qz2 "^>"E4 | z2AA (3A2F2A2 & F8- | c2x6 & F2z2 "^>"^D4 "_9"|
+z2EE (3E2E2E2 & E8- | c2 z6 & E2z2 E3E | p^F6 E2 | ^F4 F4 | (3F2B2P!ff!B2 (3^c2c2c2 |
+d2z2 !ff!"^a tempo"(C3 "Trio D.S. mit Wiederholung al Fine."D) !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

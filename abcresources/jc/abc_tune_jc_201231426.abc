@@ -1,0 +1,26 @@
+X: 151
+T: the Parson & his Boots
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.15 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+G3 G2d | B2G (B/c/d)B | G3  Bcd | EFG AFD |\
+G3 G2d | B2G (B/c/d)B | gfe dcB | ABG AFD :| 
+|:\
+Bcd ded | ded dcB | cde efe | efe edc |\
+Bcd ded | ded def | gfe dcB | ABG AFD :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g3 g3 | g3 g3 | g3 g3 | e3 d3 |\
+g3 g3 | g3 g3 | g3 g3 | d3 d3 :|\
+|: g3
+g3 | g3 g3 | c3 c3 | c3 c3 |\
+g3 g3 | g3 g3 | g3 g3 | d3 d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,66 @@
+X: 21
+T: la Fantasie Liegeoise.
+%R: march, reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #21
+N: The final c grace note needs a sharp; not fixed.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+DFAd |\
+D2d2 D2d2 | D4 edcB | Acef gfge | f2d2 DFAd |\
+Dddd Dddd | D2D2 edcB | dcBA ^GABG | A4 :|
+|: Acea |\
+A2a2 A2a2 | A2A2 GAFA | GAEA FADA | A,2A,2 Acea |\
+Aaaa Aaaa | {a}g3f edcB | A2de fdec | {c2}d4 :|
+K: Dm
+|:"Mineur"DFAd |\
+D2d2 D2d2 | D2zd D2zd | D2zB AGFE | F2E2 DFAd |\
+DFAd DFAd | {f}e3d c=BA^G | AA=GF EDC=B, | A,4 :|
+|: FGAB |\
+Afac BAGF | C2C2 EFGA | BegB AGFE | F2F2 DFAd |\
+DFAd DFAd | Dddd FdEd | Dgfe fde^c | {c2}d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+d4 |\
+B4 G4 | F4 G4 | A4 A4 | D4 d4 | B4
+G4 | F4 ^G4 | A4 e4 | A4 :||: a4 | f4 d4 | A4 c2d2 |
+A2c2 d2D2 | A4 a4 | c4 d4 | B2A2 G2g2 | f2d2 a2A2 | d4 :|
+K: Dm
+|:"Mineur"d4 |\
+B4 G4 | F4 A4 | B2G2 A4 | d2A2 d4 | f4 d4 |
+a4 e4 | Aagf edc=B | A4 :||: f4 | A4 B4 | c4 c4 |
+c4 c4 | f4 f4 | d4 f4 | b4 a4 | b2g2 a2A2 | d4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+N: The dance has "Fontasie" rather than "Fantasie"
+%%sep 1 1 400
+%%center La Fontasie Liegeoise.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Couple Contretems
+%% Forward and Rigaudon, then Swing Round to
+%% their Places - - - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   The first and third Gentlemen Contretems
+%% Forward with the Ladies on their Left, then
+%% turn them to their places - - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/1
+%%endtext
+%%begintext align
+%%   La Chaine in the form of Allemande - 2/2
+%%endtext
+%%sep 1 1 400

@@ -1,0 +1,29 @@
+X:743
+T:A Time to Dance
+M:2/2
+L:1/4
+C:Colin Hume, 2002
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=112
+K:D
+P:A1
+[| "D"d2 "D/F#"d3/ d/ | "A"e e2 e | "Bm"f2 "G"g3/f/ | "A"ec A2 |\
+"Bm"d d2 d | "F#m"c c2 c | "E7"BBe3/d/ | "A"cABc |
+P:A2
+"D"d2 "D/F#"d3/ d/ | "A"e e2 e | "Bm"f2 "G"g3/f/ | "A"ec A2 |\
+"Bm"d d2 d | "A"e e2 f | "G"gg "A7"f3/e/ | "D"d4 |
+P:B
+"D"f e/f/ ed | "G"BA "D"AD/E/ | "Bm"FFBF | "Em"GGdB |\
+"A7"ccfe | "Bm"d3/c/ B/c/d/B/ | "D"Ad F/G/A/F/ | "A"E3 C/D/ |
+P:C
+"A"EEAE | "Bm"F3/E/ D E/F/ | "Em"GGeB | "A"c3/B/ "A7"A B/c/ |\
+"D"dA "A/C#"eA | "Bm"f/g/f/e/ "Bm/A"dc | "G"Be "A7"c3/d/ | "D"dABc |]
+%%textfont Times-Roman 18
+%%textfont Times-Roman-Bold 20
+%%center Fourth time through play A1, A2, B4, C4.
+P:B4
+"D"f e/f/ ed | "G"BA "D"AD/E/ | "Bm"FFBF | "Em"GGdB |\
+"A7"ccfe | "Bm"d3/c/ B/c/d/B/ | "D"Ad F/G/A/F/ | "A"EABc |
+P:C4
+"D"d2 "D/F#"d3/ d/ | "A"e e2 e | "Bm"f2 "G"g3/f/ | "A"ec A2 |\
+"Bm"d d2 d | "A"e e2 f | "G"gg "A7"f3/e/ | "D"d4 |]

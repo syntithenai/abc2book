@@ -1,0 +1,145 @@
+X:1
+B:Broadwood, L, 1893, English County Songs, London, Leadenhall Press
+S:Davies Gilbert's Ancient English Carols
+Z:Lucy Broadwood
+T:The Servingman and the Husbandman     %Tune name
+V:1    name="Servingman" sname="Serv." %
+%!STAVE 0 'Servingman' @
+%!INSTR 'Piano' 4 0 @
+M:2/4     %Meter
+L:1/16     %
+K:G
+G2 |B3A G2F2 |G6 G2 |A3A A2A2 | B4 B2
+w:Well met my bro-ther friend, all on the high-way rid-ing,
+     A2 |G4 F4 |E2F2 G2A2 |d8- |d4
+w:         So sim-ply all__ a-lone;
+ (B2c2) |d3c B2A2 |G4 G4 |A2G2 A2B2 |B6
+w:I_ pray you to tell me what may your call-ing be
+  A2 |B3c B2A2 |G4 F4 |E4 z4 |
+w:Or are_ you a serv-ing man?
+z8 |z8 |z8 |z8 | z2
+z6 |z8 |z8 |z8 | z2
+z6 |z8 |z8 |z8 | z2
+z6 |z8 |z8 |z8 |
+z4 z2 B2 |B2B2 B2B2 |g6 e2 |d2d2 d2d2 | d6
+w:I pray you to tell me what may your call-ing be,
+   B2 |c2d2 e2c2 |B4 A4 |G4 z4 |]
+w:Or are_ you a serv-ing-man?
+V:2   name="Husbandman" sname="Hus." %
+%!STAVE 0 'Husbandman' @
+%!INSTR 'Piano' 4 0 @
+M:2/4     %Meter
+L:1/16     %
+K:G
+z2 |z8 |z8 |z8 |
+z8 |z8 |z8 |z8 |
+z8 |z8 |z8 |z8 |
+z8 |z8 |z8 |z8 |
+z4 G,4 |D,3E, D,2C,2 |B,,6 A,,2 |G,,3A,, B,,2C,2 |
+w:O why my bro-ther dear, what makes you to en-
+D,6 D,2 |E,4 E,2E,2 |D,4 D,2C,2 |B,,8- |
+w:quire of a-ny such thing at my hand? *
+B,,4 z2 A,,2 |G,,2G,,2 G,,2G,,2 |G,6 E,2 |D,2D,2 D,2B,,2 |
+w:* But since you are so fain, then I will tell you
+D,6 B,,2 |C,2C,2 C,2A,,2 |B,,4 D,4 |G,,4 z4 |
+w:plain, I am a down-right hus-band-man.
+z4 z2 G,2 |G,2G,2 G,2G,2 |G,6 A,2 |D,2D,2 D,2D,2 |
+w:But since you are so fain, then I will tell you
+D,6 G,,2 |A,,2B,,2 C,2A,,2 |D,4 D,4 |G,,4 z4 |]
+w:plain I am a down-right hus-band-man.
+%End of file
+W:(Servingman)
+W:Well met my brother friend, all on the highway riding,
+W:So simply all alone;
+W:I pray you to tell me what may your calling be,
+W:Or are you a servingman?
+W:
+W:(Husbandman)
+W:O why my brother dear, what makes you to enquire
+W:Or any such thing at my hand?
+W:But since you are so fain, then I will tell you plain
+W:I am a downright husbandman.
+W:
+W:(S)
+W:If a husbandman you be, then go along with me,
+W:And quickly you shall see out of hand;
+W:Then in a little space, I will help you to a place
+W:Where you may be a servingman.
+W:
+W:(H)
+W:Kind Sir, I 'turn you thanks for your intelligence
+W:These things I receive at your hand;
+W:But something pray now show, that first I may plainly know
+W:The pleasures of a servingman.
+W:
+W:(S)
+W:Why, a servingman has pleasure beyond all sort of measure,
+W:With his hawk on his fist as he stands,
+W:For the game that he does kill and the meat that does him fill
+W:Are pleasures for the servingman.
+W:
+W:(H)
+W:And my pleasure's more than that, to see my oxen fat,
+W:And a good stock of hay by them stand;
+W:My ploughing and my sowing, my reaping and my mowing,
+W:Are pleasures for the husbandman.
+W:
+W:(S)
+W:Why, it is a gallant thing to ride out with a king,
+W:With a lord, duke, or any such man;
+W:To hear the horns to blow, and see the hounds all in a row,
+W:That is pleasure for the servingman.
+W:
+W:(H)
+W:But my pleasure's more, I know, to see my corn to grow,
+W:And so thriving all over my land;
+W:And therefore do I mean, with my ploughing, with my team,
+W:To keep myself a husbandman.
+W:
+W:(S)
+W:Why, the diet that we eat is the choicest of all meat,
+W:Such as pig, goose, capon and swan;
+W:Our pastry is so fine, we drink sugar in out wine,
+W:That is living for a servingman.
+W:
+W:(H)
+W:Talk not of goose or capon, give me good beef or bacon,
+W:And good bread and cheese now and then:
+W:With pudding, brawn, and souse, all in a farmer's house,
+W:That is living for the husbandman.
+W:
+W:(S)
+W:Why, the clothing that we wear is delicate and rare,
+W:With our coat, lace, buckles and band;
+W:Our shirts are white as milk, our stockings they are silk,
+W:That is clothing for the hasbandman.
+W:
+W:(H)
+W:But I value not a hair for delicate fine wear
+W:Such as gold is lac-ed upon;
+W:Give me a good great coat and in my purse a groat,
+W:That is clothing for the husbandman.
+W:
+W:(S)
+W:Kind Sir, it would be bad if none could be had
+W:Those tables for to wait upon;
+W:There is no lord, duke, or squire, nor ne'er a man of honour
+W:Can do without a servingman.
+W:
+W:(H)
+W:But Jack, it would be worse if there was none of us,
+W:The plough for to follow along;
+W:There is neither lord nor king, nor any other one
+W:Can do without the husbandman.
+W:
+W:(S)
+W:Kind Sir, I must confess and I humbly protest
+W:I will give to you the uppermost hand;
+W:Although your labour's painful it is so very gainful
+W:I wish I were a husbandman.
+W:
+W:(H)
+W:So come now let us all both great as well as small
+W:Pray for the grain of our land
+W:And let us whatsoever do all our best endeavour
+W:To maintain the good husbandman.

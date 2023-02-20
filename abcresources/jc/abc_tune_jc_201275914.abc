@@ -1,0 +1,2058 @@
+
+X: 1
+T: Aarne Tarvaisen masurkka
+O: Saarij\"arvi
+N: Soittanut Akseli M\"akel\"a, viulu 1950. Oppinut masurkan Aarne Tarvaiselta.
+M: 3/4
+L: 1/8
+K: Dm
+| "Dm"A>B AG FE | D>d d2 d2 | "A7"A>^c c2 c2 | "Dm"A>d d2 d2 \
+| "Dm(F)"A>B AG FE | "(Bb)"D>d d2 d2 | "A7"A>^c c2 cA | "Dm"d2 d4 :|
+|:"Dm"{e}f>e d2 d^c | "A7"e2 A4 | a2 g2 ge | "Dm"a>f d3 e \
+| "Dm"f>e d2 d=c | "Gm"B>A G2 F2 | "A7"E>A A2 A^c | "Dm"d2 d4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Alkumarssi
+O: Haapaveden purpurista
+S: Kes\"ajuhlat 2013, Saarij\"arvi; Suomalaisen Kansantanssin Yst\"av\"at r.y.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|:\
+"D"A2de f2f^g | "A"a2ea/^g/ "D"f2fa | "A7"g2eg "D"f2dc/d/ |\
+[1,3 "E7"e2Bc "A7"dcBA :|[2,4 "G"e2"A7"Bc "D"d2d2 :|
+|:\
+"D"Adfe eddc | "A"ceea a^ggf | "A7"g2g2 "D"feed |\
+[1,3 "E7"dcBc "A7"dcBA :|[2,4 "G"dc"A7"Bc "D"d2d2 :|
+
+%%sep 1 1 500
+
+X: 0
+T: Avokatrilli
+O: Finland
+F: http://www.youtube.com/watch?v=ti25VV9nJ8Y
+F: http://www.youtube.com/watch?v=tCswsPXjSi0
+R: polka
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Avokatrilli   [Am]
+[|\
+"Am"AB cd | e2 e2 | "Dm"fe fa | "Am"ez e2 |\
+"Dm"dd zd | "Am"cc zc | "E7"ed cB | "Am"A2 A2 ||
+||\
+"C"e2 e2 | gg ze | "G7"gf ed | "C"e2 e2 |\
+"Dm"fa zf | "Am"ea ze | "E7"ed cB | "Am"A2 A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Avokatrilli   [Dm]
+K: Dm
+[|\
+"Dm"DE FG | A2 A2 | "Gm"BA Bd | "Dm"Az A2 |\
+"Gm"GG zG | "Dm"FF zF | "A7"AG FE | "Dm"D2 D2 ||
+||\
+"F"A2 A2 | cc zA | "C7"cB AG | "F"A2 A2 |\
+"Gm"Bd zB | "Dm"Ad zA | "A7"AG FE | "Dm"D2 D2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Ellin polkka  [Em]
+O: trad Finland
+R: polka
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Em
+|:\
+"Em"B,2EE E2EF | GFE2 E2EF |\
+GFE2 E2EF | GFE2 E2"B7"F2 ||\
+"Em"B,2E2 "(/D#)"E2EF | "(/D)"GFE2 "(/C#)"E2EF |
+"(/C)"G2A2 "B7"G2F2 | "Em"E4 E4 :|\
+|:\
+"Em"BBB2 A2G2 | "B7"F2B,2 FB,FG |\
+AAA2 G2F2 |\
+[1,3 "Em"G2E2 EGEG :|\
+[2,4 "Em"E2G2 E4 :|
+|:\
+"Em"{GB}e2z2 "(E7)"d4 | "Am"cBAB c2A2 |\
+"D7"d2z2 c4 | "G"BAGA B2G2 ||\
+"Am"c2d2 c2B2 | ABAG F2A2 |\
+"B7"BcBA G2F2 | "Em"E2G2 E4 :|
+|:\
+"B7"F2FF F2F2 | "Em"E^DEF G2E2 |\
+[1,3 "B7"F2FF F2F2 | "Em"E^DEF G2E2 :|\
+[2,4 "B7"F2B,2 ^C2^D2 | "Em"E4 E4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Ellin polkka  [Am]
+O: trad Finland
+R: polka
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Am
+|:\
+"Am"E2AA A2AB | cBA2 A2AB |\
+cBA2 A2AB | cBA2 "E7"A2B2 ||\
+"Am"E2AA "(/G#)"A2AB | "(/G)"cBA2 "(/F#)"A2AB |
+"(/F)"c2d2 "E7"c2B2 | "Am"A4 A4 ::\
+"Am"eee2 d2c2 | "E7"B2E2 BEBc |\
+ddd2 c2B2 |\
+[1,3 "Am"c2A2 AcAc :|\
+[2,4 "Am"A2c2 A4 :|
+|:\
+"Am"a4 "(A7)"g4 | "Dm"fede f2d2 |\
+"G7"g4 f4 | "C"edcd e2e2 ||\
+"Dm"f2g2 f2e2 | dedc B2d2 |\
+"E7"efed c2B2 | "Am"A2c2 A4 :|
+|:\
+"E7"B2BB B2B2 | "Am"A^GAB c2A2 |\
+[1,3 "E7"B2BB B2B2 | "Am"A^GAB c2A2 :|\
+[2,4 "E7"B2E2 ^F2^G2 | "Am"A4 A4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Ellin polkka  [Dm]
+O: trad Finland
+R: polka
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Dm
+|:\
+"Dm"A,2DD D2DE | FED2 D2DE |\
+FED2 D2DE | FED2 "A7"D2E2 ||\
+"Dm"A,2D2 "(/C#)"D2DE | "(/C)"FED2 "(/B)"D2DE |
+"(/Bb)"F2G2 "A7"F2E2 | "Dm"D4 D4 :|\
+|:\
+"Dm"AAA2 G2F2 | "A7"E2A,2 EA,EF |\
+GGG2 F2E2 |1,3 "Dm"F2D2 DFDF :|2,4 "Dm"D2F2 D4 :|
+|:\
+"Dm"d4 "(D7)"c4 | "Gm"BAGA B2G2 |\
+"C7"c4 B4 | "F"AGFG A2F2 ||\
+"Gm"B2c2 B2A2 | GAGF E2G2 |\
+"A7"ABAG F2E2 | "Dm"D2F2 D4 :|
+|:\
+"A7"E2EE E2E2 | "Dm"D^CDE F2D2 |\
+[1,3 "A7"E2EE E2E2 | "Dm"D^CDE F2D2 :|\
+[2,4 "A7"E2A,2 =B,2^C2 | "Dm"D4 D4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Flypolska
+C: s\"av. Teija Niku
+O: Finland
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Edor
+"A"|:\
+"Em"E4 EFGA B2e2 | "G"d2Bd "A"c2Ac "B7"BAGF | "Em"E4 EFGA B2e2 | "G"d2Bd "A"c2A2 "B7"B4 |
+"Em"E4 EFGA B2e2 | "G"d2Bd "A"c2Ac "B7"BAGF | "Em"E3D EFGA "(G)"B2G2 | "D"F2ED "Em"E4 E4 :|
+"B"|:\
+"D"f4 f2ef "Bm"d2ef | "Em"g3a g2f2 gfeg | "D"f4 f2ef "Bm"d2ef | "Em"g3a g2fg efga |
+"G"b4 b2gb "D"a2fa | "Em"g2eg "(Bm)"f2d2 "Bm"B4 | "Em"E4 EFGA "(G)"B2G2 | "D"F2ED "Em"E4 E4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Hannun Hambo
+C: Hannu Sepp\"anen 2014
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The date on this tune is a bit dubious. ;-)
+M: 3/4
+L: 1/8
+K: Am
+e |:\
+"Am"a2 e>g "D"^f>d | "C"e2 c>e "D"d>B | "F"(3cdc A>c "G"B>G | "Am"A>G A<B c>e |\
+"Am"a2 e>g "D"^f>d | "C"e2 c>e "D"d>B | "F"(3cdc A>c "G"B>G | "Am"A2 A4 :|
+|:\
+"G"B2 G>B d>B | "F(Am)"c2 B>c A2 | "G"B2 G>B d>B | "C"c<d e4 |\
+"F"f2 f<g a>f | "C"e>f e<d c2 | "G"B>d c<B G>B | "Am"A2 A4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Himlens polska   [Gm]
+O: trad. Finland
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+R: Sl\"angpolska
+M: 3/4
+L: 1/16
+K: Gm
+D2F2 "A"|\
+G3A G2F2 G2A2 | B3c B2A2 B2c2 | d2cd e2dc d2cB |1,3 B2AG FGAF :|2,4 BAGF G4 :|
+|: GABc "B"|\
+d4 d3e d2c2 | B2A2 A2F2 D4 | f4 f3g f2e2 | d2c2 c2Bc B4 | a4 a4 g4 |
+f3g a2f2 d2B2 | b2b2 a2a2 g2g2 | f3g a2f2 d2fd | e3d c2B2 A2G2 | BAGF G4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Hura hura h\"ait\"a  [C]
+M: 2/4
+L: 1/8
+K: C
+[|\
+"C"GG GA | G2 E2 | GG GA | GG EE || "G7"F2 DD |
+w: Hu-ra, hu-ra h\"ai-t\"a, kel-lo l\"oi jo kak-si-tois-ta, kei-sa-ri
+"C"E2 C2 | "G7"DD B,2 | "C"C2 E2 || G2 GA | G2 EE | GG GA |
+w: sei-soo pa-lat-sis-saan, niin mus-ta kuin mul-ta, niin val-ke-a kuin
+G2 E2 || GG GG | "F"AA AA | "G7"GG GG | "C"E2 E2 ||
+w: lun-ta. Mi-t\"a var-ten so-ta-mies on pa-rem-pi kuin her-ra?
+"G7"FF DD | "C"EE CC | "G7"DD B,B, | "C"C2 z2 |]
+w: Se, ken tu-lee  vii-mei-sek-si, om-pi kuo-le-ma.
+
+%%sep 1 1 500
+
+X: 1
+T: Hura hura h\"ait\"a  [C]
+M: 2/4
+L: 1/8
+K: C
+[|\
+"C"GG GA | G2 E2 | GG GA | GG EE || "G7"F2 DD |
+w: Hu-ra, hu-ra h\"ai-t\"a, kel-lo l\"oi jo kak-si-tois-ta, kei-sa-ri
+"C"E2 C2 | "G7"DD B,2 | "C"C2 E2 || G2 GA | G2 EE | GG GA |
+w: sei-soo pa-lat-sis-saan, niin mus-ta kuin mul-ta, niin val-ke-a kuin
+G2 E2 || GG GG | "F"AA AA | "G7"GG GG | "C"E2 E2 ||
+w: lun-ta. Mi-t\"a var-ten so-ta-mies on pa-rem-pi kuin her-ra?
+"G7"FF DD | "C"EE CC | "G7"DD B,B, | "C"C2 z2 |]
+w: Se, ken tu-lee  vii-mei-sek-si, om-pi kuo-le-ma.
+
+%%sep 1 1 500
+
+X: 1
+T: Ievan polkka
+T: Savitaipaleen polkka
+C:Eino Kettunen (ca.1930)
+R:polka
+D:Kevin Burke: Up Close
+O:South Karelia
+Z:id:hn-polka-41	2005-8-8
+M:2/4
+L:1/8
+K:Dm
+"A"
+|: "Dm"A,D DE | FD DF |1,3 "C"EC CE | "Dm"FD D2 :|2,4 "A7"AG FE | "Dm"FD D2 :|\
+"B"\
+|: "Dm"AA GF | "C"EC CE | "C"GG FE |1,3 "Dm"FD DF :|2,4 "Dm"FD D2 :|
+"C"\
+|: "Dm"D>D DE | FD DF | "C"EC CE | "Dm"F/E/D/C/ DA, \
+|      D>D DE | FD D2 | "C"GA/G/ "A7"FE | "Dm"FD D2 :|
+"D"
+|: "F"A>F FA | "C"GE EF | "A7"GA/G/ FE | "Dm"DE FG \
+|  "F"A>F FA | "C"GE EF | "A7"GA/G/ FE | "Dm"FD D2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Is\"a-Jussin sottiisi
+C: Konsta Jylh\"a{}
+O: Finland
+M: 4/4
+L: 1/8
+K: C
+|: "C"C2EG c2Bc | e2cA GFED \
+| C2EG c2Bc | "Dm"B2A2 A4 \
+| "G7"f2fg fedc | B2B2 B3A |
+| GABc defg | "C"agge cAGE \
+|| "C"C2EG c2Bc | e2cA GFED \
+| C2EG c2Bc | "Dm"B2A2 A4 | "G7"f2fe d^cdf |
+| "C"e2c2 G4 | "G7"B2Bc BGAB | "C"c2eg g4 \
+| "Dm"f2fe "(G7)"d^cdf | "C"e2c2 G4 \
+| "G7"B2Bc BGAB | "C"c2c2 Hc4 :|
+|: "F(Dm)"faaf "G7"defa | "C"g2ge c2Bc \
+| "G7"e2G2 BGBd |1,3 "C"c2eg g3f :|2,4 "C"dc c2 c4 \
+:: "Am"EAc2 EAc2 | "Dm"cBdc BA^GA |
+| "E7"Bcd2 f3e | "Am"e2d2 cBA2 \
+|  "Am"EAc2 EAc2 | "Dm"cBdc BA^GA \
+| "E7"Bcdf e2^G2 |1 "Am"A4 A4 :|2 "Am"A4 "G7"G4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Kahdeksan miehen engeliska
+T: \AAttaman engelska
+M: 2/4
+L: 1/16
+K: D
+P: Polka (3x)
+|: "G"b3a g2f2 | "A7"A2ce cAce | a3g f2e2 |1,3 "D"d2fa fdfa :|2,4 "D"d2d2 d4 :|
+|: "D"D2FA FDFA | "G"G2Bd BGBd "I"| "A7"A2ce cAce |1,3 "D"fedc dcBA :|2,4 "D"d2d2 d4 :|
+P: Polska (2x)
+M: 3/4
+L: 1/16
+|: "A7"A4 | "D"DCDE FEDE F2D2 | FEFG AGFG A2F2 | A2FA d2Ad f2df | "A7"fedc "D"d4 :|
+|: "A7"A4 | "D"d2fd "A"Acec Acec | "D"Adfd "A"Acec Acec | ABcd efge "D"fafd | "A"egec "D"d4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Kapusta
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+P: Kapusta   [Gm]
+K: Gm
+|: "Gm"d2 "A7"^c>A | "Gm(D7)"dz d2 | "Gm"dd ^cB | "D7"AG D2 \
+| "Gm"BB d2 | "D7"AA D2 | "Gm"GB "D7"A^F | "Gm"Gz G2 :|
+P: Kapusta   [Dm]
+K: Dm
+|: "Dm"A2 "E7"^G>E | "Dm(A7)"Az A2 | "Dm"AA ^GF | "A7"ED A,2 \
+| "Dm"FF A2 | "A7"EE A,2 | "Dm"DF "A7"E^C | "Dm"Dz D2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Karjalan katrilli
+M: 2/4
+L: 1/8
+%Q: 1/4=116
+K: F
+P: F:
+|: "F"{e}dc c2 | dc c2 | "C7"{f}ed cB | "F"AG F2 :: "Dm"DA AA | "Gm"GF E2 | "A7"EG GG | "Dm"FE D2 :|
+P: C:
+K: C
+|: "C"{b}ag g2 | ag g2 | "G7"{c'}ba gf | "C"ed c2 :: "Am"Ae ee | "Dm"dc B2 | "E7"Bd dd | "Am"cB A2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Karjalan poikia (L\"oyly\"a liss\"a\"a)
+%%musicspace 0
+R: polka
+O: trad Finland
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Karjalan poikia   [D]
+|: "D"a2a2 a2a2 | ~a2ga b2a2 | f2f2 f2f2 | ~f2ef g2f2 \
+| "A7"e2[e2A2] c2Ac | e2[e2A2] c2Ac | e2g2 f2e2 |1 d2c2 B2A2 :|2 "D"e2d2 d4 |]
+|: "D"A2BA F2A2 | d6 e2 | f2gf e2f2 | "G"g2z2 "D"f4 \
+| "A7"e2[e2A2] c2Ac | e2[e2A2] c2Ac | e2g2 f2e2 |1 d2c2 B2A2 :|2 "D"e2d2 d4 |]
+w: | | | |~ Hej!
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Karjalan poikia   [G]
+K: G
+|: "G"d2d2 d2d2 | ~d2cd e2d2 | B2B2 B2B2 | ~B2AB c2B2 \
+| "D7"A2[A2D2] F2DF | A2[A2D2] F2DF | A2c2 B2A2 |1 G2F2 E2D2 :|2 "D"A2G2 G4 |]
+|: "G"D2ED B,2D2 | G6 A2 | B2cB A2B2 | "C"c2z2 "G"B4 \
+| "D7"A2[A2D2] F2DF | A2[A2D2] F2DF | A2c2 B2A2 |1 G2F2 E2D2 :|2 "D"A2G2 G4 |]
+w: | | | |~ Hej!
+
+%%sep 1 1 500
+
+X: 1
+T: Katariina's polkka
+R: polka
+O: Richard Koski
+B:
+D: "Saturday Night Sauna" with the Crumtown Ramblers
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+N:
+M: 2/4
+L: 1/16
+K: Am
+   "Am"e4 \
+| "Dm"fedc BcBA | "E7"c2B2 B3E  |     c2B2 Bcdc | "Am"B2A2 A4 \
+|     A2AB cBcd | "Dm"e2d2 d4   |     d3e  fefg | "Am"f2e2 e4 |
+y8\
+| "Dm"fedc BcBA | "E7"c2B2 B3E  |     c2B2 Bcdc | "Am"B2A2 A4 \
+| "Dm"d2de fga2 | "Am"A2AB cde2 | "E7"E2E2 c2B2 | "Am"A2z2 :|
+|:  "G7"G4 \
+| "C"C2EG c2B2 |     A2G2 G4   |     C2EG c2B2 | "Dm"B2A2 F4 \
+|  "G7"D2D2 G2G2 |     FEDE F2F2 |     D2D2 F2F2 |  "C"EDCD E2E2 |
+y8\
+|   "C"C2EG c2B2 |     A2G2 G4   |     C2EG c2B2 | "Dm"B2A2 F4 \
+|  "Dm"d2de fga2 | "Am"A2AB cde2 | "E7"E2E2 c2B2 | "Am"A2z2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Kaustisen polkka
+R: polka
+O: Finland
+M: 2/4
+L: 1/16
+K: Am
+|: "Am"ABcd e2a2 | e2c2 cBcd \
+| "E7"c2B2 B2AB |1,3 "Am"cBAc "E7"B2E2 :|2,4 "Am"cBA2 A2Hz2 :|
+|: "Am"ABcd e2a2 | "Dm"c'2b2 a2^ga \
+| "E7"b2e2 e^geg |1,3 "Am"b2{a}a2 a^ga2 :|2,4 "Am"b2{a}a2 a2z2 :|
+|: "C"g2ag eceg | c'2g2 eceg \
+| "G7"g2ag gdBd |1,3 "C"c2c2 cdef :|2,4 "C"c2c2 c2z2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Kazazok
+T: Kazat\vsok
+O: Finland, Russia
+K:
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Kazazok (Kazat\vsok)   [D,A]
+O: Finland, Russia
+M: 2/4
+L: 1/8
+K: D
+|: "D"DF FF | "A7"EG "D"F2 :|\
+|: "A"A2 E>D | CB, CA, "I"| A,B, CE | "E7"D{C}B, "A"A,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Kazazok (Kazat\vsok)   [G,D]
+O: Finland, Russia
+M: 2/4
+L: 1/8
+K: G
+|: "G"GB BB | "D7"Ac "G"B2 :|\
+|: "D"d2 A>G | FE FD "I"| DE FA | "A7"G{F}E "D"D2 :|
+
+%abcmedley: Xopt=.
+%%sep 1 1 500
+
+X: 0
+T: KERENSKI
+K:
+P: Kerenski  [Am]  (Karapyet)
+O: Finland, Russia
+M: 2/4
+L: 1/16
+K: Am
+[|\
+"Am"E2A2 A2A2 | "E7"^G4  E4 | B2B2 B2B2 | "Am"c2B2 A4 |\
+"Am"E2A2 A2A2 | "E7"^G4  E4 | e2d2 c2B2 | "Am"c2B2 A4 ||
+"Am"EAce EAce | "Dm"f4   d4 | "G7"f2f2 f2f2 | "C"e2d2 c4 |\
+"Am"E2e2 e2e2 | "Dm"d2c2 B4 | "E7"e2d2 c2B2 | "Am"A4 A4 |]
+P: Kerenski  [Dm]  (Karapyet)
+O: Finland, Russia
+M: 2/4
+L: 1/16
+K: Dm
+[|\
+"Dm"A2d2 d2d2 | "A7"^c4  A4 | e2e2 e2e2 | "Dm"f2e2 d4 |\
+"Dm"A2d2 d2d2 | "A7"^c4  A4 | a2g2 f2e2 | "Dm"f2e2 d4 ||
+"Dm"Adfa Adfa | "Gm"b4   g4 | "C7"b2b2 b2b2 | "F"a2g2 f4 |\
+"Dm"A2a2 a2a2 | "Gm"g2f2 e4 | "A7"a2g2 f2e2 | "Dm"d4 d4 |]
+P: Karapyet    [Am]  (Kerensky)
+O: Russia
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Am
+[| "Am"EA- AA | "E7"^G>F E2 |     EB- BB | "Am"c>B A2 \
+|  "Am"EA- AA | "E7"^G>F E2 |     ed  cB | "Am"A4     |]
+|: "Am"Ae- ee | "Dm"f>e  d2 | "G7"df- ff | "C"e>c  e2 \
+| " Am"ce- ee | "E7"d>c  B2 |     ed  cB | "Am"A4    :|
+K: A
+[| "E7"Bz  dz | "A"c3    A  | "E7"Bc  de | "A"c>B  A2 \
+|  "E7"Bz  dz | "A"c3    A  | "E7"ed  FG | "A"A4     |]
+|: "D"df- fa- | "A"ae-   ec | "E7"ed  Bd | "A"fe  c2 \
+|  "D"df- fa- | "A"ae-   ec | "E7"ed  FG | "A"A4    :|
+
+%%sep 1 1 500
+
+X: 1
+T: Kiikkuri kaakkuri
+O: Trad Finland
+R: shottish
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+P: D2 G2 = 4x
+K: D
+P: Kiikkuri kaakkuri   [D]
+|: "D"D2FA D2FA | AGFG "A7"E2E2 | "A7"A,2CE A,2CE | GFEF "D"D2D2 :|
+|: "D"DEFG A2Bc | "G"d2G2 B3B "I"| "A7"BAGF AGFE |1,3 "D"D2F2 A4 :|2,4 "D"D2F2 D4 :|
+P: Kiikkuri kaakkuri   [G]
+K: G
+|: "G"G2Bd G2Bd | dcBc "D7"A2A2 | "D7"D2FA D2FA | cBAB "G"G2G2 :|
+|: "G"GABc d2ef | "C"g2c2 e3e | "D7"edcB dcBA |1,3 "G"G2B2 d4 :|2,4 "G"G2B2 G4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Kikapu
+O: Finland
+R: polka
+Z: John Chambers <jc@trillian.mit.edu>
+N: First part not always repeated.
+M: 2/4
+L: 1/8
+K: Am
+|: "Am"ed cB | ed cB | c/B/A AA | c/B/A AA \
+|  "Dm"ag fe | ag fe | f/e/d dd | f/e/d dd |
+|  "E7"e2 Bc | d2 cB | "Am"e2 AB | c2 BA \
+|  "Dm"f/e/d dd | f/e/d dd | "E7"ee/e/ ee | e2 z2 :|
+K: A
+|: "A"e4 | "D"a2 f2 | "A"ee- ec | e4 \
+|  cc- cd | "E7"c2 B2 |1 "Am"e4- | "E7"e4 :|2 "A"A2 e2 | a2 z2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Kiper\"a  [A]
+O: Finland
+R: polka
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+%Q: 1/4=138
+P: Play IABABABA (3.5x)
+K: A
+%%indent 300
+"I"||\
+"E"g6 f2 | efed cdcB | "A"A2z2 "D"a4 | "A"A4 z2df ||
+"A"[|\
+"D"a2a2g2f2 | "A"a2ed cde2 | "E"e2e2 d2cB | "A"c2c2 A2Bc |\
+"D"d2d2 f2df | a2a2g2f2 | "A"a2ed cde2 | e2e2 cdef |
+"E"g6 f2 | efed cdcB | "A"A2A2 cABc | e3d cdef |\
+"E"g6 f2 | efed cdcB | "A"A2z2 e4 | e4 "fine"e4 |]
+"B"|:\
+"D"d2 f4 d2 | "A"c2 e4 e2 | "E"e2d2c2B2 | "A"A4 A4 |\
+"D"d2d2 f4 | "A"c2 e4 e2 | "E"e2d2c2B2 | [1 "A"A4 A4 :|[2 "A"A4 A2df |]
+
+%%sep 1 1 500
+
+X: 1
+T: Kulkurin Masurkka
+T: Vagabond's Mazurka
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+|: "Am"A,2 A,>B, C>D | E2 A2 c2 |1,3 "E7"E2 ^G2  B2  | "Am"c>B A^G A2 \
+                               :|2,4 "E7"E2 E>^G B>G | "Am"A2  A2  z2 :|
+|: "F"F2 FC FA | "C"E2 EC EG | "G7"G,2 G,B, DB, |1,3 "C"C2 CE G2 \
+                                               :|2,4 "C"C2 C2  z2 :|
+|: "C"E2  G3  c | e6        | "Dm"e2 d3  A | d6 \
+| "G7"G2  B3  d | f4  a2    |  "C"a2 g3 ^f | g6 |
+|  "C"E2  G3  c | e4  g2    | "Dm"g2 f3  e | d6 \
+| "G7"G>A Bc de | f>g a2 b2 |  "C"c'3 c' c'2 | c'6 :|
+
+%%sep 1 1 500
+
+X: 0
+T: Kuppari
+M: 2/4
+L: 1/16
+Q: 1/4=116
+K:
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Kuppari   [D]
+K: D
+[| "D"D2DD F2D2 | "A7"C2A,2 A,4 | A2A2 BBAG | "D"F2D2 D4 |]
+w: Ku-pa-ri is-tui uu-nil-la, pii-pun-ny-s\"a o-li huu-lil-la.
+|: "D"F2AA G2F2 | "Em"E2B,2 B,4 | "A7"A,A,A,A, B,2CA, | "D"D2D2 D4 :|
+w: Ky-se-li ky-l\"an | \"am-mil-t\"a, on-ko siel-l\"a sau-nas-sa l\"am-min-t\"a.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Kuppari   [G]
+M: 2/4
+L: 1/16
+K: G
+%Q: 1/4=116
+[| "G"G2GG B2G2 | "D7"F2D2 D4 | d2d2 eedc | "G"B2G2 G4 \
+|: "G"B2dd c2B2 | "Am"A2E2 E4 | "D7"DDDD E2FD | "G"G2G2 G4 :|
+
+%%sep 1 1 500
+
+X: 0
+T: Kutitus
+Q: 1/4=120
+M: 2/4
+L: 1/16
+K:
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Kutitus   [G]
+K: G
+|: "G"G4 B3A | G2E2 "(D7)"D4 :: "G"G2GG "D7"F2D2 | "G"G2GG "D7"F2G2 | "A"A2AB "A7"A2G2 | "A7"E2F2 "D"D4 :|
+w: Ai jee ku ku-tit-taa. Ei-k\"a se lak-kaa, ei-k\"a se lak-kaa, en-nen ko' si-t\"a pe-ra-taan.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Kutitus   [D]
+M: 2/4
+L: 1/16
+K: D
+|: "D"d4 f3e | d2B2 "(A7)"A4 :: "D"d2dd "A7"c2A2 | "D"d2dd "A7"c2d2 | "E"e2ef "E7"e2d2 | "E7"B2c2 "A"A4 :|
+w: Ai jee ku ku-tit-taa. Ei-k\"a se lak-kaa, ei-k\"a se lak-kaa, en-nen ko' si-t\"a pe-ra-taan.
+
+%%sep 1 1 500
+
+X: 1
+T: Kymmenen Kymmenen   [C]
+O: Kivijat dance version
+M: 2/4
+L: 1/8
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+K: F
+"A"|:\
+"F"AA BA | "C7"G2 c2 | cd ed |  c2 c2 |\
+"F"AA BA | "C7"AG G2 | GG AG | "F"GF F2 :|
+"B"|:\
+"F"cc dc | "C"e2 e2 | cc dc | "F"f2 f2 |\
+fe dc | "C7"ed c2 |1 ed BG | "F"dc A2 :|2 "C7"ed cd/e/| "F"ff f2 |]
+"C"[|\
+"F"A2 A2 | "C7"G2 B2 | "F"AA "C7"GG | "F"FA C2 |\
+"F"A2 A2 | "C7"G2 B2 | "F"AA "C7"GG | "F"F2 z2 |]
+"D"|:\
+"F"cc AF | "Bb"d2 d2 | "C7"BB GE | c2 c2 |\
+"F"cc AF | "Bb"d2 "F"c2 | "C7"B2 AG | "F"F2 z2 :|
+"A"[|\
+"F"AA BA | "C7"G2 c2 | cd ed |  c2 c2 |\
+"F"AA BA | "C7"AG G2 | GG AG | "F"GF F2 |]
+"C"[|\
+"F"A2 A2 | "C7"G2 B2 | "F"AA "C7"GG | "F"FA C2 |\
+"F"A2 A2 | "C7"G2 B2 | "F"AA "C7"GG | "F"F2 [f2c2A2] |]
+
+%%sep 1 1 500
+
+X: 1
+T: Langdans N\"arpi\"ost\"a    [G]
+T: L\aangdans fr\aan N\"arpi\"o
+P: I A4 B4 C2 A4 B4 C4
+R: masurkka
+M: 3/4
+L: 1/8
+%%partsspace 10
+K: G
+"A"\
+|: "G"G>c B>A B>c | d>g bz b2 \
+| G>c B>A B>c | "D"d>f az a2 |
+| "D7"A>B c>d c>A | d>f a2- a>g \
+"I"\
+| f>e d>c B>A |1,3 "G"G>A B>c d2 :|2,4 "G"G2 g2 z2 :|
+"B"\
+|: "C"g>e c>e c>e | "G"e>d B>d B>d \
+| "D7" d>B c>A F>A |1,3 "G"G>A B>c d2 :|2,4 "G"G2 G2 z2 :|
+"C"\
+|: "G"b2 b>a g>e | d>e d>B d>b \
+| "D7"a2 c'>a f>a |1,3 "G"g2 b>g d>B :|2,4 "G"g2 g2 z2 :|
+
+%%sep 1 1 500
+
+X: 0
+T: Lanssi
+O: Finland
+B: Tanhuvakka S\"avelmist\"o p.74
+M: 2/4
+L: 1/8
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Lanssi   [F/d]
+Z: John Chambers <jc@trillian.mit.edu>
+K: Dm
+| "C7"C>C C>C | C>C D>E | "F"F>F F>A | c3 c \
+| "Bb"d>c B>A | "C7"G>G c>B | "F"A>F F>G | "Dm"A3 A |
+| "Gm"B>A G>F | "A7"E>E F>E | "Dm"D>D D>F | A3 A \
+| "Gm"B>A G>F | "A7"E>E A>A | "Dm"Dz Dz | D2 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Lanssi   [G/e]
+O: Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Em
+| "D7"D>D D>D | D>D E>F | "G"G>G G>B | d3 d \
+| "C"e>d c>B | "D7"A>A d>c | "G"B>G G>A | "Em"B3 B |
+| "Am"c>B A>G | "B7"F>F G>F | "Em"E>E E>G | B3 B \
+| "Am"c>B A>G | "B7"F>F B>B | "Em"Ez Ez | E2 z2 |]
+
+%%sep 1 1 500
+
+X: 0
+T: Lantti
+O: trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+P: F2 Bb2 ... (4-6 times)
+K:
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Lantti   [F]
+M: 2/4
+L: 1/16
+K: F
+|: "F"A2AA A2B2 | c2c2 c3c | "C7"c2a2 g3c | "F"c2g2 f3B \
+|  "F"A2AA A2B2 | c2c2 c3c | "C7"c2a2 g3e | "F"f2f2 f4 :|
+|: "F"a4 f4 | c2c2 c4 | "F"a4 f4 | c2c2 c4 \
+| "Bb"b2b2 b4 | "F"a2a2 a4 | "C7"g2g2 gbge | "F"g2f2 f4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Lantti   [Bb]
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+|: "Bb"D2DD D2E2 | F2F2 F3F | "F7"F2d2 c3F | "Bb"F2c2 B3E \
+|  "Bb"D2DD D2E2 | F2F2 F3F | "F7"F2d2 c3A | "Bb"B2B2 B4 :|
+|: "Bb"d4 B4 | F2F2 F4 | "Bb"d4 B4 | F2F2 F4 \
+| "Eb"e2e2 e4 | "Bb"d2d2 d4 | "F7"c2c2 cecA | "Bb"c2B2 B4 :|
+
+%%newpage
+
+%%sep 1 1 500
+
+X: 0
+T: Lintunen
+O: Finland, Estonia
+P: Lintunen   [Dm/C]
+R: polka
+M: 2/4
+L: 1/8
+K: Dm
+|: "Gm"DG GG | GG G2 | "A7"GE FG | "Dm"F-F D2 :|
+w: Len-n\"a lin-n\"a lin-tu-nen len-n\"a kul-lan kau-*laan.
+w: Sil-lo-in on tal-lel-la, kun on k\"a-si-var-rel-la,
+K: C
+|: "G7"D>E FD | "C"CC EC | "G7"B,2 DD | "C"C2 C2 :|
+w: Kun on nuo-ret tans-si-mas-sa rai ri-tu ral-laa.
+w: ta-hi kul-lan kai-na-los-sa, rai ri-tu ral-laa.
+P: Lintunen   [Em/D]
+R: polka
+M: 2/4
+L: 1/8
+K: Em
+|: "Am"EA AA | A2 AA | "B7"AF GA | "Em"G2 E2 :|
+K: D
+|: "A7"E>F GE | "D"DD FD | "A7"C2 EE | "D"D2 D2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Lipan-Matin hahkahousut  (masurkka)
+R: mazurka
+S: Kes\"ajuhlat 2013, Saarij\"arvi; Suomalaisen Kansantanssin Yst\"av\"at r.y.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+|: "D"Ad f2 e2 | "G"dc B2 B2 | \
+[1,3 "A7"Ac c2 c2 | "D"Ad d2 d2 :|\
+[2,4 "A7"Ac c2 cA | "D"d2 d2 z2 :|
+|: "Gm"gf e2 g2 | "D(Bm)"fe d2 f2 |\
+[1,2 "A7"ed c2 e2 | "D"df a2 a2 :|\
+[2,4 "A7"ed c2 ce | "D"d2 d2 z2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Lokakuun polkka   [A]
+T: October polka
+C: Otto Hotakainen
+R: polka
+B: Otto Hotakaisen Nuotikirja
+%%slurgraces  1
+% %continueall yes
+M: 2/4
+L: 1/16
+K: A
+|: "A"A2ce a2gg    |    ~f2e2 edcB    |    A2ce     fedc | "Bm"e2d2     dcdc \
+| "E7"dcB2 b3a     |     a2g2 g2f2    |    ee"#"de  gfed |  "A"d2c2     cBcB |
+|  "A"A2ce a2gg    |    ~f2e2 edcB    |    A2ce     a2gg |  "D"agf2     feff \
+| "E7"B2B2 g3f     | "A"~f2e2 e"#"de2 | "D"effe "E7"egge |  "A"eaa2     a4  :|
+|: "A"c2EE EEAA    |     c2EE EEAA    |    cAcA     d2cc | "Bm"dcB2     B4   \
+| "E7"d2EE EEGB    |     d2EE EEGB    |    dcBd     e3B  |  "A"c2c2     cBAB |
+|  "A"c2EE EEAA    |     c2EE EEAA    |    cAce     d2cc | "Bm"dcB2     B4   \
+| "E7"g2gg gfe"#"d |     g2gg gfe"#"d |    gfed     edcB | "(A)"cBAG "A"A4  :|
+
+%%sep 1 1 500
+
+X: 1
+T: Martin Vappu
+R: polka
+S: Kes\"ajuhlat 2013, Saarij\"arvi; Suomalaisen Kansantanssin Yst\"av\"at r.y.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+P: 3x
+K: Eb
+P: Martin Vappu  [Eb]
+|: "Bb7"B,2B,2 C2D2 | "Eb"E2E2 D2C2 | "Bb7"B,2B,B, C2D2 | "Eb"E2E2 E4 :|
+w: Mar-tin Vap-pua moi-tit-tiin, vaan ei tuos-sa ol-lut vi-ko-ja.
+w: Mar-tin Vap-pu, hy-v\"a Vap-pu, kyl-l\"a se kel-paa mi-nul-le.
+|: "Bb7"F-FFG A2(Ac) | "Eb"B2(BG) E2EC | "Bb7"D2(DB,) | D2(DF) | "Eb"E2E2 E4 :|
+w: Sill'* o-li val-ke-a | a-lus-*ha me* | niin-ku-in muil-la-in li-koil-la.
+w: It-se mi-n\"a tans-saan,* | min-k\"a m\"a jak-san,* | lo-pun* an-nan* | si-nul-le.
+P: Martin Vappu  [F]
+K: F
+|: "C7"C2C2 D2E2 | "F"F2F2 E2D2 | "C7"C2CC D2E2 | "F"F2F2 F4 :|\
+|: "C7"G-GGA B2(Bd) | "F"c2(cA) F2FD | "C7"E2(EC) | E2(EG) | "F"F2F2 F4 :|
+
+%%sep 1 1 500
+
+X: 0
+T: Oravaisten Menuetti + Polska
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Menuett fr\aan Oravais (Oravaisten Menuetti)
+Z: John Chambers <jc@trillian.mit.edu>
+N: Oravais is a small town on the west coast of Finland, north of Vaasa.
+R: minuet
+M: 3/4
+L: 1/8
+K: Dm
+|: "Dm"A>A Ac "Gm"BG | "Dm"AF "A7"F/E/^C/E/ "Dm"D2 \
+|  "Dm"d>^c de fd | "Gm"ed ^cd "A7"A2 |
+|  "Dm"A>A Ac "Gm"BG | "Dm"AF "A7"F/E/^C/E/ "Dm"DE \
+|  F/E/F/G/ AA FF | "A7"EE "Dm"D4 :|
+|: "F"C>F FE "Bb"D2 | "C7"C>c cB "F"A2 \
+| A>B cB AA | "C7"GG "F"F4 |
+|  "Dm"A>A Ac "Gm"BG | "Dm"AF "A7"F/E/^C/E/ "Dm"DE \
+|  F/E/F/G/ AA FF | "A7"EE "Dm"D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Polska fr\aan \"Overmark
+N: trad, \"Overmark, \"Osterbotten
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: D
+|: "D"A3d "(A7)"d2eg "D"f2d2 | "D"fefg "A7"abag "D"a2f2 | "D"a2fa "A7"ageg "D"gfdf |
+|1,3 "A7"fece "D"d2d2 "A7"A2A2 :|2,4 "A7"fece "D"d2z2 d4 |: "D"f2df "A7"feec e2fg |
+| "D"gfdf "A7"feec e2fg |  "D"a2fa "A7"ageg "D"gfdf |1,3 "A7"fece "D"d2d2 "A7"A4 :|2,4 "A7"fece "D"d2z2 d4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Mets\"akukkia    [Dm]
+T: Woodland Flowers
+O: Trad Finland
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+z4 \
+| "Dm"A,2 D2 E2 | F2 E2 D2 | A6- | A6 \
+| A,2 D2 E2 | F2 E2 D2 | "Gm"B6- | B6 \
+| G2 A2 B2 | B2 A2 G2 | "Dm"A6- | [A6F6] |
+| "A7"A,2 ^C2 E2 | G2 F2 E2 | "Dm"D6- | D2 :: d3c \
+| "C7"c6- | c2 d3 B | "F"A6- | A2 B3 A \
+| "A7"G6- | G2 A3 G | "Dm"F6- | F2 A2 A2 |
+| "Dm"A6- | A2 G2 F2 | "A7"E6- | E2 F2 E2 \
+| A,2 ^G,2 A,2 | F4 E2 | "Dm"D6- | D2 :: z2 ~d>^c \
+| "Dm"d z3 ~A>^G | A  z3 ~F>E | F z3  ~D>^C | D4 A2 |
+| "Gm"B4 A2 | G2 B2 d2 | "Dm"A6- | A6 \
+| "A7"A2 ^c3 d | e6 | "Dm"A2 d3 e | f6 \
+| "A7"A2 ^c3 e | f4 e2 | "Dm"d6- | d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Mets\"akukkia    [Gm]
+T: Woodland Flowers
+O: Trad Finland
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Gm
+z4 \
+| "Gm"D2 G2 A2 | B2 A2 G2 | d6- | d6 \
+| D2 G2 A2 | B2 A2 G2 | "Cm"e6- | e6 \
+| c2 d2 e2 | e2 d2 c2 | "Gm"d6- | [d6B6] |
+| "D7"D2 ^F2 A2 | c2 B2 A2 | "Gm"G6- | G2 :: g3f \
+| "F7"f6- | f2 g3 e | "Bb"d6- | d2 e3 d \
+| "D7"c6- | c2 d3 c | "Gm"B6- | B2 d2 d2 |
+| "Gm"d6- | d2 c2 B2 | "D7"A6- | A2 B2 A2 \
+| D2 ^C2 D2 | B4 A2 | "Gm"G6- | G2 :: z2 ~g>^f \
+| "Gm"g z3 ~d>^c | d  z3 ~B>A | B z3  ~G>^F | G4 d2 |
+| "Cm"e4 d2 | c2 e2 g2 | "Gm"d6- | d6 \
+| "D7"D2 ^F3 G | A6 | "Gm"D2 G3 A | B6 \
+| "D7"D2 ^F3 A | B4 A2 | "Gm"G6- | G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Mora polskan  [hambo]
+O: Trad
+N: Taught by Bengt Jonsson as a hambo.
+N: Played in several different polska rhythms.
+R: polska, hambo
+M: 3/4
+L: 1/8
+K: Dm
+|: "Dm(A7)"A2 A>^G A>^c | "Dm"d2 d>^c d>e \
+|[1,3 "Bb(Gm)"f2 f>e (3d^cd | "A7"e2 e>^c A2 :|[2,4 "Bb(Gm)"f2 f>e f>g | "A7"a2 a4 :|
+|: "A7"a2 (3aba g>e | "Dm"f2 f>d "(A)"e2- \
+| "A7"e>f e>^c A>c |1,3 "Dm"d>^c d>e f>g :|2,4 "Dm"d2 d4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Morsiusmarssi
+T: Wedding march
+C: Konsta Jylh\"a
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|: "D"F3E DFFA | fgfe d2c2 | "G"dedc B2A2 | "Em"G3F E4 \
+| "A7"A2Ac e2f2 | g3f e4 | {efg}a2c2 cBA2 | "D"f2d2 dcd2 |
+| "D"F3E DFFA | fgfe d2c2 | "G"dedc B2AB | "Em"B3A G4 \
+| "A7"efgf e2e2 | "D"abag fedf | "A7"efed c2A2 | "D"d4-"fine"d4 :|
+K: Dm
+|: "Dm"d6 f2 | "A7"^c6 e2 | "Dm"d2A2 F2A2 | "A7"E2A2 "Dm"D2F2 \
+| "A7"A,6 ^C2 | E2G2 F2E2 | "Dm"FED2 "Gm"GFE2 | "A7"A8 |
+| "Dm"A6 (3ded | "A7"^c2d2 e2f2 | "Gm"g6 (3fgf | "A7"e2d2 ^c2_B2 \
+| A2^c2 e2g2 | a2g2 f2e2 | "Dm"d2f2 "A7"A2^c2 | "Dm"d4-"da Capo"d4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Nauhapolkka (Vironpolkka)
+M: 2/4
+L: 1/8
+K: G
+P: G:
+d/c/ |: "G"BB Bc/B/ | "D7"AA AB/c/ | dd d/c/B/A/ | "G"GG G2 :: "C"ce ce | "G"Bd Bd | "D7"cD DF | "G"AG G2 :|
+P: D:
+K: D
+a/g/ |: "D"ff fg/f/ | "A7"ee ef/g/ | aa a/g/f/e/ | "D"dd d2 :: "G"gb gb | "D"fa fa | "A7"gA Ac | "D"ed d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Nuuskapolkka
+M: 2/4
+L: 1/8
+P: G2 D2 ...
+K: G
+"G:"[|]\
+"D7"D \
+|: "G"GG/A/ BB | "D7"AA/B/ cc | "G"BB "D7"AA |1 "G"GB D2 :|2 "G"GB G ||
+G/B/ \
+|| "G"dd BG | "C"e2 z2 | "D7"cc Ae | "G"d2 z2 \
+"I"\
+| dd BG | "C"ez "G"dz | "D7"cz Az | "G"G2z |]
+[K:D]"D:"[|]\
+"A7"A \
+|: "D"dd/e/ ff | "A7"ee/f/ gg | "D"ff "A7"ee |1 "D"df A2 :|2 "D"df "fine"d ||
+d/f/ \
+|| "D"aa fd | "G"b2 z2 | "A7"gg eb | "D"a2 z2 \
+| aa fd | "G"bz "D"az | "A7"gz ez | "D"d2z |]
+
+%%sep 1 1 500
+
+X: 1
+T: Oikeo K\"asi
+S: Kes\"ajuhlat 2013, Saarij\"arvi; Suomalaisen Kansantanssin Yst\"av\"at r.y.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+P: 2X
+K: D
+|:\
+"D"df "A7"e2 | "D"df "A7"e2 | "D"dd/d/ "E7"cB | "A7"A2 A2 :|
+w: Vai* niin, vai* niin, vai jo se Vap-pu vie-tiin.
+|:\
+"D"fd df | "A7"gf ee | ge eg | "D"ba aa |
+w: Va-pun kans-sa mon-ta y\"o-t\"a, Va-pun kans-sa mon-ta y\"o-t\"a,
+"D"gf dd | "A7"fg fe | eg fe | "D"d2 d2 :|
+w: Va-pun kans-sa mon-ta y\"o-t\"a, vie-re-tys-ten maat-tiin.
+
+%%sep 1 1 500
+
+X: 1
+T: Pappilan pellolla
+O: trad Finland
+R: shottish
+Z: 2002 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+|: "C"g2 fa g2 fe | "G"e>d dB G2 Bd |\
+[1,3 "D7"d>c cA F2 Ac | "G"e>d dB G2 Bd :|\
+[2,4 "D7"d>c cA F2 FA | A2 G2 "G"G4 :|
+|: "D7"D2 FA c2 Bc | "G"e>d dB G2 Bd |\
+[1,3 "D7"d>c cA F2 Ac | "G"e>d dB GG FE :|\
+[2,4 "D7"d>c cA F2 FA | A2 G2 "G"G4 :|
+
+%%sep 1 1 500
+
+X: 0
+T: Parikkalalainen
+Q: 1/4=126
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Parikkalalainen   [Am]
+O: Finland
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+%Q: 1/4=126
+K: Am
+|: "Am"e2 a>a | a>e e>e | "Dm"g>f e>d | "E7"e2 e2 :|
+|: "Am"ee e>d | e>c A>B | c>c "E7"B>B | "Am"A2 A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Parikkalalainen   [Dm]
+O: Finland
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+%Q: 1/4=126
+K: Dm
+|: "Dm"A2 d>d | d>A A>A | "Gm"c>B A>G | "A7"A2 A2 :|
+|: "Dm"AA A>G | A>F D>E | F>F "A7"E>E | "Dm"D2 D2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Piiripolkka
+O: Trad Finland
+Z: 2002 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+%Q: 1/4=112
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Piiripolkka   [G]
+K: G
+|: "G"G2G2 GAB2 | G2G2 GAB2 | "D7"A4 F2EF |1,3 "G"G2E2 "(D7)"D4 :|2,4 "G"G2G2 G4 :|
+|: "G"{B}d2B2 d2B2 | "(Em)"G2G2 G4 | "C(Am)"{c}e2c2 e2c2 | "D7"A2A2 A4 |
+|  "G"{B}d2B2 d2B2 | "Em"G2G2 G4 | "D7"A2F2   D2EF |  "G"G2G2 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Piiripolkka   [D]
+K: D
+|: "D"d2d2 def2 | d2d2 def2 | "A7"e4 c2Bc |1,3 "D"d2B2 "(A7)"A4 :|2,4 "D"d2d2 d4 :|
+|: "D"{f}a2f2 a2f2 | "(Bm)"d2d2 d4 | "G(Em)"{g}b2g2 b2g2 | "A7"e2e2 e4 |
+|  "D"{f}a2f2 a2f2 | "Bm"d2d2 d4 | "A7"e2c2   A2Bc |  "D"d2d2 d4 :|
+
+%%sep 1 1 500
+
+X: 0
+T: Pilkku
+M: 2/4
+L: 1/8
+Q: 1/4=50
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Pilkku  [C]
+K: C
+|: "F"fA cc | fA cc | "Dm"fe dc | "G7"(BA) G2 :|
+w:1.~Il-lalla pil-kalla | pil-kis-tin ja | pil-kalla pis-tin | pii-*loon.
+w:2.~N\"ay-t\"a euk-ko, n\"ay-t\"a euk-ko, n\"ay-t\"a ty-t\"ar-t\"a-*si!
+|: "C"Gc cc | "G7"cB Bd | fe dc | BA G2 :|
+w: Sor-mien v\"alis-t\"a v\"ai-pis-tel-len hai-ke-as-ti kat-*soin.
+w: Tuos' on, tuoss' on, tuoss' on tuoss' on; pa-ne vaik-ka pan-*tiks'!
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Pilkku  [G]
+K: G
+|: "C"cE GG | cE GG | "Am"cB AG | "D7"FE D2 :|
+|: "G"DG GG | "D7"GF FA | cB AG | FE D2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Pinnin polska
+O: trad. Finland
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: D
+"A"|:\
+A2d2 d2eg f2ed | "A"c2A2 Acec Acec | "G"B3B d2c2 B2A2 \
+|1,3 "A"B2A2 A2B2 c2A2 :|2,4 "A"BABc A4 A4 :|
+"B"|:\
+"D"A2a2 afdf afdf | "A7"g2g2 gece gece | "Em"g2ba gagf efed \
+|1,3 "A7"c2d2 e2ge dcBA :|2,4 "A"c2Ac e4 "D"d4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Raatikkon
+O: Trad Finland
+M: 2/4
+L: 1/8
+%P: C2 G2 ...
+K: C
+P: Raatikkon   [C]
+[| "C"EG C2 | EG C2 | "G7"DE FG | "F"A2 "G7"G2 \
+|  "C"EG C2 | EG C2 | "G7"DE FB,| "G7"D2 "C"C2 ||
+|: "C(Am)"c2 c2 | "G7(Em)"B2 B2 | "F"AA/c/ BA | "C"G3 z \
+"I"\
+|  "F"FA GF | "C"EG FE | "G7"DF ED | "C"C3 z :|
+P: Raatikkon   [G]
+K: G
+[| "G"Bd G2 | Bd G2 | "D7"AB cd | "C"e2 "D7"d2 \
+|  "G"Bd G2 | Bd G2 | "D7"AB cF| "D7"A2 "G"G2 ||
+|: "G(Em)"g2 g2 | "d7(Bm)"f2 f2 | "C"ee/g/ fe | "G"d3 z \
+|  "C"ce dc | "G"Bd cB | "D7"Ac BA | "G"G3 z :|
+
+%%sep 1 1 500
+
+X: 1
+T: Ravit K\"apyl\"ass\"a  [A]
+C: Otto Hotakainen
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+|:\
+"A"E2CE A-AEA | cAce aefe | E2Ac .e2fe | "E7"e2G2 G4 |
+"E"E-EB,E G2EG | BGBe g2ga | baga bagf | "A"e2c2 c4 |
+"A"E2CE A-AEA | cAce aefe | E2Ac .e2ag | "D"agf2 "(Bm)"f4 |
+"E"b^abc' bgfe | "A"agab agfg | "E"efgf edcB | "(A)"cBAG "A"A4 :|
+|:\
+"A"agag "(D)"f2ze | "A"e6 c2 | cBcB A2zA | "D"F2[A2F2] [A4F4] |
+"E"EEE2 G2G2 | BBB2 g3f | e2d2 c2B2 |1-3 "A"A-AA2 cAce :|4 "A"A8 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Ravit K\"apyl\"ass\"a  (G)
+C: Otto Hotakainen
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|:\
+"G"D2B,D GGDG | BGBd gded | D2GB .d2ed | "D7"d2F2 F4 |
+"D"DDA,D F2DF | AAFA f2fg | agfg agfe | "G"d2B2 B4 |
+"G"D2B,D GGDG | BGBd gded | D2GB .d2gf | "C"gfe2 "Am"e4 |
+"D"a^gab afed | "G"gfga gfef | "D"defe dcBA | "(G)"BAGF "G"G4 :|
+|:\
+"G"gfgf "(C)".e2zd | "G"d6 B2 | BABA .G2zG | "C"E2[G2E2] [G4E4] |
+"D"DDD2 F2F2 | AAA2 f3e | d2c2 B2A2 |1-3 "G"GGG2 BGBd :|4 "G"G8 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Ravit K\"apyl\"ass\"a  [A]
+C: Otto Hotakainen
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+|:\
+"A"E2CE A-AEA | cAce aefe | E2Ac .e2fe | "E7"e2G2 G4 |
+"E"E-EB,E G2EG | BGBe g2ga | baga bagf | "A"e2c2 c4 |
+"A"E2CE A-AEA | cAce aefe | E2Ac .e2ag | "D"agf2 "(Bm)"f4 |
+"E"b^abc' bgfe | "A"agab agfg | "E"efgf edcB | "(A)"cBAG "A"A4 :|
+|:\
+"A"agag "(D)"f2ze | "A"e6 c2 | cBcB A2zA | "D"F2[A2F2] [A4F4] |
+"E"EEE2 G2G2 | BBB2 g3f | e2d2 c2B2 |1-3 "A"A-AA2 cAce :|4 "A"A8 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Ravit K\"apyl\"ass\"a  (G)
+C: Otto Hotakainen
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|:\
+"G"D2B,D GGDG | BGBd gded | D2GB .d2ed | "D7"d2F2 F4 |
+"D"DDA,D F2DF | AAFA f2fg | agfg agfe | "G"d2B2 B4 |
+"G"D2B,D GGDG | BGBd gded | D2GB .d2gf | "C"gfe2 "Am"e4 |
+"D"a^gab afed | "G"gfga gfef | "D"defe dcBA | "(G)"BAGF "G"G4 :|
+|:\
+"G"gfgf "(C)".e2zd | "G"d6 B2 | BABA .G2zG | "C"E2[G2E2] [G4E4] |
+"D"DDD2 F2F2 | AAA2 f3e | d2c2 B2A2 |1-3 "G"GGG2 BGBd :|4 "G"G8 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Reepakan polkka
+O: trad.
+R: polka
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+FG |\
+"D"A2AG F2FG | AAAF A2fg | "A7"fafg gaec |1,3 "(D)"e2d2 "D"dd :|2,4 "(D)"e2d2 "D"d2 :|
+|: A2 |\
+"D"d2dg gfga | "G"abb2 bagf | "A7"edcd cegb | "D"a2aa a2ab |
+"D"agfg a2Ac | "A7"cedc "G"d2B2 | "A7"A2Ag gfec | "(D)"e2d2 "D"d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Reepakan polkka
+O: trad.
+R: polka
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+FG |\
+"D"A2AG F2FG | AAAF A2fg | "A7"fafg gaec |1,3 "(D)"e2d2 "D"dd :|2,4 "(D)"e2d2 "D"d2 :|
+|: A2 |\
+"D"d2dg gfga | "G"abb2 bagf | "A7"edcd cegb | "D"a2aa a2ab |
+"D"agfg a2Ac | "A7"cedc "G"d2B2 | "A7"A2Ag gfec | "(D)"e2d2 "D"d2 :|
+
+%%sep 1 1 500
+
+X: 0
+T: Ryss\"a
+Q: 1/4=80
+K: C
+%
+P: Ryss\"a   [F]
+O: Finland
+R: polka
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+%Q: 1/4=80
+K: F
+|: "Bb"FB "F"Ac | "C7"GB "F"A2 :|\
+|: "C7"GF    ED | "F"CC     F2 :|
+%
+P: Ryss\"a   [C]
+O: Finland
+R: polka
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+%Q: 1/4=80
+L: 1/8
+K: C
+|: "F"cf "C"eg | "G7"df "C"e2 :|\
+|: "G7"dc   BA | "C"GG     c2 :|
+%
+P: Ryss\"a   [G]
+O: Finland
+R: polka
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+%Q: 1/4=80
+L: 1/8
+K: G
+|: "C"Gc "G"Bd | "D7"Ac "G"B2 :|\
+|: "D7"AG   FE | "G"DD     G2 :|
+%
+P: Ryss\"a   [D]
+O: Finland
+R: polka
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+%Q: 1/4=80
+L: 1/8
+K: D
+|: "G"dg "D"fa | "A7"eg "D"f2 :|\
+|: "A7"ed   cB | "D"AA     d2 :|
+%
+
+%%sep 1 1 500
+
+X: 0
+T: Ryss\"a
+Q: 1/4=80
+K: C
+%
+P: Ryss\"a   [F]
+O: Finland
+R: polka
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+%Q: 1/4=80
+K: F
+|: "Bb"FB "F"Ac | "C7"GB "F"A2 :|\
+|: "C7"GF    ED | "F"CC     F2 :|
+%
+P: Ryss\"a   [C]
+O: Finland
+R: polka
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+%Q: 1/4=80
+L: 1/8
+K: C
+|: "F"cf "C"eg | "G7"df "C"e2 :|\
+|: "G7"dc   BA | "C"GG     c2 :|
+%
+P: Ryss\"a   [G]
+O: Finland
+R: polka
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+%Q: 1/4=80
+L: 1/8
+K: G
+|: "C"Gc "G"Bd | "D7"Ac "G"B2 :|\
+|: "D7"AG   FE | "G"DD     G2 :|
+%
+P: Ryss\"a   [D]
+O: Finland
+R: polka
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+%Q: 1/4=80
+L: 1/8
+K: D
+|: "G"dg "D"fa | "A7"eg "D"f2 :|\
+|: "A7"ed   cB | "D"AA     d2 :|
+%
+
+%%sep 1 1 500
+
+X: 1
+T: Saimaanrannan Laulu
+P: 3x
+C: Raimo Turunen
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+|: "D"A, D F | A2 A | B A> G | "D"F2 D | "A7"A, C E |
+| G2 E | G F> E | "D"D3 :| "D"d c d | "G"B2 G \
+| d c B | "D"A3 | F ^E F | "Bm"B2 F |
+| "Em"A G F | "A7"E3 || "D"A, D F | A2 A | B A> G \
+| "D"F2 D "I"| "A7"A, C E | G2 E | G F> E | "D"D3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: S\"akkij\"arven polkka
+R: polka
+O: trad Finland
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+N: Probably the best-known traditional Finnish polkka tune.
+N: S\"akkij\"arvi is a small town between Leningrad/(Saint)Petersburg and the Finnish border.
+N: Fourth and fifth parts are often played, which are usually "accordion showoff" parts.
+N: This tune is sometimes attributed to Vili Vesterinen, but he learned it from others,
+N: and was the accordion player who popularized it.
+M: 2/4
+L: 1/16
+K: Am
+"A"\
+|: {Ace}"Am"a2e2 d2c2 | "E7"c2B2 B2cd | e2>d2 c2B2 | "Am"B2A2 A2ce \
+| a2e2 d2c2 | "E7"c2B2 B2cd | e2d2 c2B2 | "Am"A4 "fine"z2 :|
+e2 \
+"B"\
+|: "Am"ABcd e2a2 | "E7"a2^g2 gab2 | e^f^ga b2c'2 | "Am"b2a2 a^ga2 \
+| ABcd e2a2 | "E7"a2^g2 gab2 | e2e2 ^f2^g2 | "Am"a4 z2 :|
+Ac \
+"C"\
+|: "Am"e2ec A2Ac | e2ec A2Ac | e2e2 f2e2 | "E7"dedc B2Bc \
+| d2dc B2Bc | d2dc B2Bc | d2d2 e2d2 | "Am"cdcB A2Ac ||
+|| "Am"e2ec A2Ac | e2ec A2Ac | e2e2 "A7"a2g2 | "Dm"fgfe d2>e2 \
+| f2f2 e2d2 | "Am"cdcB A2Ac | "E7"BcBA ^G2B2 | "Am"A4 z2 :|
+% %text Other parts are often added, and the last part is often in Dm.
+
+%%sep 1 1 500
+
+X: 1
+T: S\"akkij\"arven polkka
+R: polka
+O: trad Finland
+Z: 2005 by John Chambers <jc@trillian.mit.edu>
+N: Probably the best-known traditional Finnish polkka tune.
+N: S\"akkij\"arvi is a small town between Leningrad/(Saint)Petersburg and the Finnish border.
+N: Fourth and fifth parts are often played, which are usually "accordion showoff" parts.
+N: This tune is sometimes attributed to Vili Vesterinen, but he learned it from others,
+N: and was the accordion player who popularized it.
+N: The "D" part here has a key change.  Some people play it like this; others stay in one key.
+M: 2/4
+L: 1/16
+K: Am
+"A"\
+|: {Ace}"Am"a2e2 d2c2 | "E7"c2B2 B2cd | e2>d2 c2B2 | "Am"B2A2 A2ce \
+| a2e2 d2c2 | "E7"c2B2 B2cd | e2d2 c2B2 | "Am"A4 "fine"z2 :|
+"B"\
+|: "Am"ABcd e2a2 | "E7"a2^g2 gab2 | e^f^ga b2c'2 | "Am"b2a2 a^ga2 \
+| ABcd e2a2 | "E7"a2^g2 gab2 | e2e2 ^f2^g2 | "Am"a4 z2 :|
+"C"\
+|: "Am"A^GAB "A7"cBc^c | "Dm"d^cde fedf | "E7"eE^GB edcB |1,3 A"Am"^GAB cBAE :|2,4 A2"Am"e2 A4 :|[K:Dm]
+"D"\
+|: "Dm"A2AF D2DF | A2AF D2DF | A2A2 B2A2 | "A7"GAGF E2EF \
+| G2GF E2EF | G2GF E2EF | G2G2 A2G2 | "Dm"FGFE D2DF |
+| "Dm"A2AF D2DF | A2AF D2DF | A2A2 "D7"d2c2 | "Gm"BcBA G2>A2 \
+| B2B2 A2G2 | "Dm"FGFE D2DF | "A7"EFED ^C2E2 | "Dm"D4 z2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: S\"akkij\"arven polkka
+R: polka
+O: trad Finland
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+N: Probably the best-known traditional Finnish polkka tune.
+N: S\"akkij\"arvi is a small town between Leningrad/(Saint)Petersburg and the Finnish border.
+N: Fourth and fifth parts are often played, which are usually "accordion showoff" parts.
+N: This tune is sometimes attributed to Vili Vesterinen, but he learned it from others,
+N: and was the accordion player who popularized it.
+M: 2/4
+L: 1/16
+K: Am
+"A"\
+|: {Ace}"Am"a2e2 d2c2 | "E7"c2B2 B2cd | e2>d2 c2B2 | "Am"B2A2 A2ce \
+| a2e2 d2c2 | "E7"c2B2 B2cd | e2d2 c2B2 | "Am"A4 "fine"z2 :|
+e2 \
+"B"\
+|: "Am"ABcd e2a2 | "E7"a2^g2 gab2 | e^f^ga b2c'2 | "Am"b2a2 a^ga2 \
+| ABcd e2a2 | "E7"a2^g2 gab2 | e2e2 ^f2^g2 | "Am"a4 z2 :|
+Ac \
+"C"\
+|: "Am"e2ec A2Ac | e2ec A2Ac | e2e2 f2e2 | "E7"dedc B2Bc \
+| d2dc B2Bc | d2dc B2Bc | d2d2 e2d2 | "Am"cdcB A2Ac ||
+|| "Am"e2ec A2Ac | e2ec A2Ac | e2e2 "A7"a2g2 | "Dm"fgfe d2>e2 \
+| f2f2 e2d2 | "Am"cdcB A2Ac | "E7"BcBA ^G2B2 | "Am"A4 z2 :|
+% %text Other parts are often added, and the last part is often in Dm.
+
+%%sep 1 1 500
+
+X: 1
+T: S\"akkij\"arven polkka
+R: polka
+O: trad Finland
+Z: 2005 by John Chambers <jc@trillian.mit.edu>
+N: Probably the best-known traditional Finnish polkka tune.
+N: S\"akkij\"arvi is a small town between Leningrad/(Saint)Petersburg and the Finnish border.
+N: Fourth and fifth parts are often played, which are usually "accordion showoff" parts.
+N: This tune is sometimes attributed to Vili Vesterinen, but he learned it from others,
+N: and was the accordion player who popularized it.
+N: The "D" part here has a key change.  Some people play it like this; others stay in one key.
+M: 2/4
+L: 1/16
+K: Am
+"A"\
+|: {Ace}"Am"a2e2 d2c2 | "E7"c2B2 B2cd | e2>d2 c2B2 | "Am"B2A2 A2ce \
+| a2e2 d2c2 | "E7"c2B2 B2cd | e2d2 c2B2 | "Am"A4 "fine"z2 :|
+"B"\
+|: "Am"ABcd e2a2 | "E7"a2^g2 gab2 | e^f^ga b2c'2 | "Am"b2a2 a^ga2 \
+| ABcd e2a2 | "E7"a2^g2 gab2 | e2e2 ^f2^g2 | "Am"a4 z2 :|
+"C"\
+|: "Am"A^GAB "A7"cBc^c | "Dm"d^cde fedf | "E7"eE^GB edcB |1,3 A"Am"^GAB cBAE :|2,4 A2"Am"e2 A4 :|[K:Dm]
+"D"\
+|: "Dm"A2AF D2DF | A2AF D2DF | A2A2 B2A2 | "A7"GAGF E2EF \
+| G2GF E2EF | G2GF E2EF | G2G2 A2G2 | "Dm"FGFE D2DF |
+| "Dm"A2AF D2DF | A2AF D2DF | A2A2 "D7"d2c2 | "Gm"BcBA G2>A2 \
+| B2B2 A2G2 | "Dm"FGFE D2DF | "A7"EFED ^C2E2 | "Dm"D4 z2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sappu Kirvusta
+P: D2 G2 D2 G2 D2 = 10x
+Z: John Chambers <jc@trillian.mit.edu>
+%Q: 1/4=108
+M: 2/4
+L: 1/8
+K: D
+P: Sappu Kirvusta   [D]
+"A7"A |\
+"D"de fg | a2 d2 | "A7"ce Bc | "D"dc BA "I"|\
+"D"de fg | a2 d2 | "A7"ce fe | "D"d3 |]
+|: f |\
+"D"a3 f | a3 f | "Em"eg b2 | e3 d |\
+"A7"c2 b2 | a2 g2 |1 "(D)"f2 "(A)"e2 | "D"dB A :|2 "D" dd/d/ "G"dd | "D"d3 |]
+P: Sappu Kirvusta   [G]
+K: G
+"D7"D |\
+"G"GA Bc | d2 G2 | "D7"FA EF | "G"GF ED "I"|\
+"G"GA Bc | d2 G2 | "D7"FA BA | "G"G3 ||
+|: B |\
+"G"d3 B | d3 B | "Am"Ac e2 | A3 G | \
+"D7"F2 e2 | d2 c2 |1 "(G)"B2 "(D)"A2 | "G"GE D :|2 "G" GG/G/ "C"GG | "G"G3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Sappu S\"akkij\"arvelt\"a
+P: Play ABAC
+O: Finland
+B: Tanhuvakka S\"avelmist\"o p.129
+Q: 1/4=108
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+"A"\
+|: "F"c2cd c2cd | "C7"c2c2 cBAG | "F"FEFD "C7"C2FE |1 "F"F4 C4 :|2 "F"F4 F2z2 ||
+"B"\
+[| "F"A4 F4 | AGAB c2c2 | "C7"B4 G4 | BABc d2d2 \
+|  "F"A4 F4 | AGAB c2c2 | "C7"B2cB A2G2 | "F"F4 F2"d.C."z2 |]
+"C"\
+[| "F"c4 c4 | "Bb"d4 d4 | "C7"e2e2 e2de | "F"f2a2 f2z2 \
+|  "F"c2cA c2cA | "Bb"d2dB d2dB | "C7"e2e2 e2de | "F"f4 f2z2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Seijarin polska
+O: trad. Finland
+P: polska
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: G
+|:\
+"G"g2ba g3e "C"e2d2 | "G"d2ef gfge "C"e2d2 |\
+"G"d2gf "Em"g2B2 "Am"A2c2 | "D7"BcAF "G"G4 G4 :|
+|:\
+"G"BABd edBd "Am"c2Bc | "D7"A2AB c2Ac "G"B2G2 |\
+"G"B2d2 edBd "Am"c2Bc | "D7"A2AB c2Ac "G"B2G2 |\
+"Em"G2gf g2B2 "Am"A2c2 | "D7"BcAF "G"G4 G4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Seni
+O: Finland
+K:
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Seni  [F]
+O: Finland
+M: 2/4
+L: 1/8
+K: F
+|: "Bb"BB BB | "F"AF FF | "Bb"BB BB | "F"A2 cc |\
+   "C7"Gc cc | "F"Ac cc | "C7"cB AG | "F"F2 F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Seni  [C]
+O: Finland
+M: 2/4
+L: 1/8
+K: C
+|: "F"ff ff | "C"ec cc |  "F"ff ff | "C"e2 gg |\
+  "G7"dg gg | "C"eg gg | "G7"gf ed | "C"c2 c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Seni  [G]
+O: Finland
+M: 2/4
+L: 1/8
+K: G
+|: "C"cc cc | "G"BG GG | "C"cc cc | "G"B2 dd |\
+   "D7"Ad dd | "G"Bd dd | "D7"dc BA | "G"G2 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Seni  [D]
+O: Finland
+M: 2/4
+L: 1/8
+K: D
+|: "G"gg gg | "D"fd dd | "G"gg gg | "D"f2 aa |\
+   "A7"ea aa | "D"fa aa | "A7"ag fe | "D"d2 d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Serberijanozka
+O: Finland
+R: polka
+K:
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Serberijanozka 1 [Dm]
+R: polka
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Dm
+"A"\
+|:\
+"Gm"c2B2 BABc | "Dm"B2A2 A^GAB | "A7"A2G2 G^FGA | "Dm"G2F2 F4 |\
+"Gm"F2E2 D2F2 | "Dm"E2 D4 D2 | "A7"D2^C2 =B,2C2 | "Dm"D4 D4 ||
+"B"||\
+"Gm"G4 B4 | "Dm"A4 [B4D4] | "A7"^C4 E4 | "Dm"D4 E2F2 "I"|\
+"Gm"G4 B4 | "Dm"A4 d4 | "A7"d2^c2 =B2c2 | "Dm"d4 d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Serberijanozka 2 [Dm]
+R: polka
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: Unknown recording
+M: 2/4
+L: 1/16
+K: Dm
+"A"\
+|:\
+"Gm"c2B2 c2B2 | "Dm"BA^GA B2A2 | "A7"A2G2 A2G2 | "Dm"GFEF G2F2 |\
+"Gm"F2E2 F2E2 | "Dm"ED^CD E2D2 | "A7"D2^C2 =B,2C2 | "Dm"D2D2 E2F2 ||
+"B"||\
+"Gm"G4 B4 | "Dm"A4 F4  | "A7"A2G2 F2E2  | "Dm"D4 F4 "I"|\
+"Gm"G4 B4 | "Dm"A4 F4 | "A7"A2A2 =B2^c2 | "Dm"d6 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 5 5 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Serberijanozka 1 [Am]
+R: polka
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Am
+"A"\
+|:\
+"Dm"g2f2 fefg | "Am"f2e2 e^def | "E7"e2d2 d^cde | "Am"d2c2 c4 |\
+"Dm"c2B2 A2c2 | "Am"B2 A4 A2 | "E7"A2^G2 ^F2G2 | "Am"A4 A4 ||
+"B"||\
+"Dm"d4 f4 | "Am"e4 [f4A4] | "E7"^G4 B4 | "Am"A4 B2c2 "I"|\
+"Dm"d4 f4 | "Am"e4 a4 | "E7"a2^g2 =f2g2 | "Am"a4 a4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Serberijanozka 2 [Am]
+R: polka
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: Unknown recording
+M: 2/4
+L: 1/16
+K: Am
+"A"\
+|:\
+"Dm"g2f2 g2f2 | "Am"fe^de f2e2 | "E7"e2d2 e2d2 | "Am"dcBc d2c2 |\
+"Dm"c2B2 c2B2 | "Am"BA^GA B2A2 | "E7"A2^G2 ^F2G2 | "Am"A2A2 B2c2 ||
+"B"||\
+"Dm"d4 f4 | "Am"e4 c4  | "E7"e2d2 c2B2  | "Am"A4 c4 "I"|\
+"Dm"d4 f4 | "Am"e4 c4 | "E7"e2e2 ^f2^g2 | "Am"a6 z2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: "Three-key" Shottis
+T: B\"ol-Olles schottis   (Dm,D,Bm)
+O: trad
+R: shottish
+Z: John Chambers <jc:trillian.mit.edu>
+N: All 3 parts are played in several other keys.
+W: All 3 parts are played in several other keys.
+M: 4/4
+L: 1/8
+K: DDor
+|: "Dm"d>e fg a2 a2 | "G"a>b gb "Dm"a2 f2 | "A7"f>e ge "Dm"f2 df |1,3 "A7"e>d ^ce "Dm"d2 "A7"A2 :|2,4 "A7"e>d ^ce "Dm"d4 :|
+K: D
+|: "D"d2 d2 d>f ed | "A7"c2 A2 A4 |1,3 "G"G>F EF G>A Bd | "A7"c2 A2 A4 :|2,4 "G"G>F EF "A7"G>A Bc | "D"d2 f2 d4 :|
+K: Bm
+|: "G"b2 b2 "A"a3 g | "Bm"fe fg fd Bc |1,3 "D"d2 df "A7"a>f ge | "D"f2 f2 "F#7"f4 :|2,4 "D"d2 df "A"e>d cd | "Bm"B2 B2 B4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Norsk Schottis
+T: "Three-key" Shottis
+T: B\"ol-Olles schottis   (Dm/F,D,Dm)
+O: trad Finland
+R: shottish
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: DDor
+A2 |\
+"Dm"DEFG A2A2 | "G"AGBG "Dm"A2F2 |\
+"C"FEGE "Dm"F2DF | "A7"ED^C2 "Dm"D4 :|
+|: A2 |\
+"F"FGAB c2c2 | "G"cBdB "Dm"c2A2 |\
+"C"AGBG "Dm"A2FA | "A7"GFE2 "Dm"F4 :|
+K: D
+|: ag |\
+"D"f2d2 f2ed | "A7"c2A2 A3A |\
+[1,3 "G"GFEF GABd | "A7"c2 A2 A4 :|\
+[2,4 "G"GFEF "A7"GABc | "D"d2dc d2 :|
+K: Dm
+|: A2 |\
+"Bb"d4 "C7"c3B | "F"ABAG "Dm"AFDE |\
+[1,3 "F"F2F2 "Gm"GABG | "Dm"A2A2 "A7"A3A :|\
+[2,4 "F"F2FG "A7"FED^C | "Dm"D2D2 D2 :|
+W: The 2nd part is a harmony to the 1st part; they can be played together.
+
+%%sep 1 1 500
+
+X: 1
+T: B\"olli-\"Olli sottiisi
+O: Trad (Suomi)
+R: Shottish
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The Swedish version usually has just 2 parts; the B and C parts here are variants of the Swedish B part.
+M: 2/4
+L: 1/16
+K: Bm
+F2 "A"|\
+"Bm"Bcde f2f2 | f2ed B2Bd | "A"c2A2 c2dc |1,3 "Bm"Bcdc B2 :|2,4 "Bm"B2BA B2 :|
+|: A2 "B"|\
+"D"f2fe "(Bm)"d2dc | "G"B2BA "(Em)"G2GF | "A7"E2c2 cABc |1,3 "D"dcde f2 :|2,4 "D"d2dc d2 |]
+|: A2- "C"|\
+"D"A2fe d2AF | "G"B2B2 B2ed | "A7"c2c2 c2fe |1,3 "D"d2dc d2 :|2,4 "D"d2[f2d2] d2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Henry Fordin sottiisi
+S: doc of Finnish origin
+R: shottish
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+"A"|:\
+"D"fgfc "A/C#"efec | "E/B"efec "A"A2A2 | "G"Abbf "A7"fgec | "D"d2b2 "A7"a2g2 |
+"D"fgfc "E7"efec | "A"efec A2A2 | "Bm"Abbf "A7/C#"fgec | "D"d2d2 d4 :|
+"B"|:\
+"D"A2FA Add2 | "G"BGGB g2g2 | "D"fgfc "A/C#"efec | "E7/B"efec "A7"A2FG |
+"D"A2FA Add2 | "G"BGGB "Em"g2g2 | "D"fgfc "A7"efec | "D"d2d2 d4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Norjalainen Sottiisi
+O: trad. Finland
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Amix
+"A"|:\
+"A"ABcd eege | feec A2Ac | "G"B2G2 GBdB |\
+[1,3 "A"c2AG A4 :|[2,4 "A"c2A2 A4 :|
+"B"|:\
+"A"{e}a2a2- aaba | "G"g2ed e3f |\
+[1,3 "A"edcB cdea | "Em"g2ed e3g :|\
+[2,4 "A"edcB "G"cBAG | "A"A2Ac A4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sk\"apparschottis
+C: Thore H\"ardelin
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+"A"|:\
+"D"D2FA d2BA | d2BA d2d2 | D2FA d2BA | d2BA "A"c2cB |
+A2ce g2fe | g2fe a2a2 | abaf gecA | eddc "D"d4 :|
+"G"|:\
+"D"{f}abaf dfA2 | abaf dfA2 | f2ed f2ed | fee^d "A"e3f |
+gage ceA2 | gage ceA2 | g2fe a2fe | eddc "D"d4 :|
+
+%%sep 1 1 500
+
+X: 0
+T: Sielunnestun polkka
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Sielunnestun polkka   [G]
+O: trad. Finland
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|:\
+"G"BGBd c2B2 | "D7"F2dd dddd | dFAc B2A2 |\
+[1,3 "G"G2ee eeee :|[2,4 "G"G2G2 G4 :|
+|:\
+"G"e2d2 B2G2 | "D7"FAcF dcAF |\
+[1,3 d2c2 A2F2 | "G"GBdG edBG :|\
+[2,4 dddd d2FA | "G"G2G2 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Sielunnestun polkka   [D]
+O: trad. Finland
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|:\
+"D"fdfa g2f2 | "A7"c2aa aaaa | aceg f2e2 |\
+[1,3 "D"d2bb bbbb :|[2,4 "D"d2d2 d4 :|
+|:\
+"D"b2a2 f2d2 | "A7"cegc agec |\
+[1,3 a2g2 e2c2 | "D"dfad bafd :|\
+[2,4 aaaa a2ce | "D"d2d2 d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 0
+T: Sielunnestun polkka
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Sielunnestun polkka   [G]
+O: trad. Finland
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|:\
+"G"BGBd c2B2 | "D7"F2dd dddd | dFAc B2A2 |\
+[1,3 "G"G2ee eeee :|[2,4 "G"G2G2 G4 :|
+|:\
+"G"e2d2 B2G2 | "D7"FAcF dcAF |\
+[1,3 d2c2 A2F2 | "G"GBdG edBG :|\
+[2,4 dddd d2FA | "G"G2G2 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Sielunnestun polkka   [D]
+O: trad. Finland
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|:\
+"D"fdfa g2f2 | "A7"c2aa aaaa | aceg f2e2 |\
+[1,3 "D"d2bb bbbb :|[2,4 "D"d2d2 d4 :|
+|:\
+"D"b2a2 f2d2 | "A7"cegc agec |\
+[1,3 a2g2 e2c2 | "D"dfad bafd :|\
+[2,4 aaaa a2ce | "D"d2d2 d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 1
+T: Syrj\"al\"an Kaapoon polska  (A)
+O: Matti Haudanmaan (ohjelmistoa)
+R: polska
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: A
+e2- |\
+"A"efed c2d2 "E/G#"e2fg | "F#m"a2gb a2g2 "E"f2e2 | "D"fgfe d2c2 "Bm"B2A2 | "E"GABG E4 "A"A4 :|
+|:\
+"E"B3A GABc d2B2 | "A"A2AG ABcd e2c2 | "Bm"B3A GABc "E"d2B2 | "A"A2AG ABcd e2ec |
+"D"f2fe d2c2 "Bm"B2A2 |1 "E"GABG E4 "A"A4 :|2 "E"GEGB B4 "A"A4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Syrj\"al\"an Kaapoon polska  [C]
+O: Matti Haudanmaan (ohjelmistoa)
+R: polska
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: C
+g2- |\
+"C"gagf e2f2 g2ab | "F"c'2bd' c'2b2 a2g2 | "Dm"abag f2e2 d2c2 |
+"G"BcdB G4 "C"c3e | gagf e2f2 g2ab | "F"c'2bd' c'2b2 a2g2 |
+"Dm"abag f2e2 d2c2 | "G"BcdB G4 "C"c4 |: "G"d3c Bcde f2d2 |
+"C"c2cB cdef g2e2 | "Dm"d3c Bcde "G"f2d2 | "C"c2cB cdef g2gf |
+"F"a2ag f2e2 "Dm"d2c2 |1 "G"BcdB G4 "C"c4 :|2 "G"BGBd d4 "C"c4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Syrj\"al\"an Kaapoon polska  (A)
+O: Matti Haudanmaan (ohjelmistoa)
+R: polska
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: A
+e2- |\
+"A"efed c2d2 "E/G#"e2fg | "F#m"a2gb a2g2 "E"f2e2 | "D"fgfe d2c2 "Bm"B2A2 | "E"GABG E4 "A"A4 :|
+|:\
+"E"B3A GABc d2B2 | "A"A2AG ABcd e2c2 | "Bm"B3A GABc "E"d2B2 | "A"A2AG ABcd e2ec |
+"D"f2fe d2c2 "Bm"B2A2 |1 "E"GABG E4 "A"A4 :|2 "E"GEGB B4 "A"A4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Syrj\"al\"an Kaapoon polska  [C]
+O: Matti Haudanmaan (ohjelmistoa)
+R: polska
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: C
+g2- |\
+"C"gagf e2f2 g2ab | "F"c'2bd' c'2b2 a2g2 | "Dm"abag f2e2 d2c2 |
+"G"BcdB G4 "C"c3e | gagf e2f2 g2ab | "F"c'2bd' c'2b2 a2g2 |
+"Dm"abag f2e2 d2c2 | "G"BcdB G4 "C"c4 |: "G"d3c Bcde f2d2 |
+"C"c2cB cdef g2e2 | "Dm"d3c Bcde "G"f2d2 | "C"c2cB cdef g2gf |
+"F"a2ag f2e2 "Dm"d2c2 |1 "G"BcdB G4 "C"c4 :|2 "G"BGBd d4 "C"c4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Talonpojan Tanssi
+O: Jyskyj\"arvi, Karjala, Russia
+R: polka
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Bb
+P: Talonpojan Tanssi   [Bb]
+|:\
+"Bb"B,B, F2 FF "Eb"G2 | "F7"FF FE "Bb"D2 B,2 | "Bb"B,B, F2 FF "Eb"G2 | "F7"FF FE "Bb"D2 B,2 ||
+"Eb"B,B, FF FF "Eb"G2 | "F7"FF2E "Bb"D2 B,2 | "Bb"B,B, FF FF "Eb"G2 | "F7"FF2E "Bb"D2 B,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Talonpojan Tanssi   [C]
+K: C
+|:\
+"C"CC G2 GG "F"A2 | "G7"GG GF "C"E2 C2 | "C"CC G2 GG "F"A2 | "G7"GG GF "C"E2 C2 ||
+"F"CC GG GG "F"A2 | "G7"GG2F "C"E2 C2 | "C"CC GG GG "F"A2 | "G7"GG2F "C"E2 C2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Talonpojan Tanssi   [D]
+K: D
+|:\
+"D"DD A2 AA "G"B2 | "A7"AA AG "D"F2 D2 | "D"DD A2 AA "G"B2 | "A7"AA AG "D"F2 D2 ||
+"G"DD AA AA "G"B2 | "A7"AA2G "D"F2 D2 | "D"DD AA AA "G"B2 | "A7"AA2G "D"F2 D2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Tavallisen taajaan
+S: Kes\"ajuhlat 2013, Saarij\"arvi; Suomalaisen Kansantanssin Yst\"av\"at r.y.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+P: 3x
+K: Am
+|: "Am"E2A-A A2E2 | "Dm"F-FD-D D2D2 | "E7"E2E-E E2B,-B, | "Am"C2A,2 A,2A,B, :|
+w: Hyp-p\"a\"an* tans-saan ta-val-li-sen taa-jaan ai, jai,* jai kun on lys-ti-\"a A-l\"a
+w: N\"ain si-t\"a men-n\"a\"an kie-*pu-*tel-laan o-man* kul-lan rin-nal-la**
+|: "Am"C2CC C2B,C | "Dm"D2D2 D4 | "E7"E2E-E E2B,-B, | "Am"C2A,2 A,4 :|
+w: sin-ne* mee, tu-le t\"an-ne vaan kans-sa-ni p\"u-ri a tans-saa-maan.
+w: Ei si-t\"a hei-li-\"a vai-het-tais' tu-han-*sit-ten* hin-nal-la.
+
+%%sep 1 1 500
+
+X: 1
+T: Tuoltape kuuluu lehm\"ankello   [Am]
+O: trad. Finland
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Am
+"A"|:\
+"Am"ABcd e4 a4 | "Em"agbg e6 g2 |\
+"Dm"f2e2 d2c2 B2A2 | "Am"ABcd "D"ed^fd "E"e2e2 :|
+"B"|:\
+"Am"cBdc "(E)"BAcB "Am"A^GAB | "Am"cBAc "Dm"B2A2 "E"E4 |\
+"Am"c2Bc "Dm"d2cd "Am"e2e2 |1 "E7"cBA^G B4 "Am"A2B2 :|2 "E7"cBA^G B4 "Am"A4 |]
+"C"|:\
+"C"g4 gfed "G7"cdef | "C"g2ag "G"a2b2 "Am"c'4 |\
+"Am"c4 "Dm"d4 "Am"e4 | "E7"cBA^G B4 "Am"A2B2 |
+"Am"cBdc "(E)"BAcB "Am"A^GAB | "Am"cBAc "Dm"B2A2 "E"E4 |\
+"Am"c2Bc "Dm"d2cd "Am"e2e2 | "E7"cBA^G B4 "Am"A4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Tuoltape kuuluu lehm\"ankello   [Am]
+O: trad. Finland
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Am
+"A"|:\
+"Am"ABcd e4 a4 | "Em"agbg e6 g2 |\
+"Dm"f2e2 d2c2 B2A2 | "Am"ABcd "D"ed^fd "E"e2e2 :|
+"B"|:\
+"Am"cBdc "(E)"BAcB "Am"A^GAB | "Am"cBAc "Dm"B2A2 "E"E4 |\
+"Am"c2Bc "Dm"d2cd "Am"e2e2 |1 "E7"cBA^G B4 "Am"A2B2 :|2 "E7"cBA^G B4 "Am"A4 |]
+"C"|:\
+"C"g4 gfed "G7"cdef | "C"g2ag "G"a2b2 "Am"c'4 |\
+"Am"c4 "Dm"d4 "Am"e4 | "E7"cBA^G B4 "Am"A2B2 |
+"Am"cBdc "(E)"BAcB "Am"A^GAB | "Am"cBAc "Dm"B2A2 "E"E4 |\
+"Am"c2Bc "Dm"d2cd "Am"e2e2 | "E7"cBA^G B4 "Am"A4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Viitatoista
+T: Viistoista
+M: 2/4
+L: 1/8
+P: D2 G2 D2 G2 = 4x
+K: D
+P: Viitatoista   [D]
+|: "D"f2 "G"d>B | "D"AA/A/ AF | "A7"AG FG/G/ | "D"AA A2 \
+:: "G"BB BB | "D"BA AA "I"| "A7"cc Bc | "D"dd d2 :|
+P: Viitatoista   [G]
+K: G
+|: "G"b2 "C"g>e | "G"dd/d/ dB | "D7"dc Bc/c/ | "G"dd d2 \
+:: "C"ee ee | "G"ed dd | "D7"ff ef | "G"gg g2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Vironpolkka
+T: Nauhapolkka
+P: 10x (G2D2G2D2G2)
+M: 2/4
+L: 1/8
+K: G
+P: G:
+d/c/ |: "G"BB Bc/B/ | "D7"AA AB/c/ | dd d/c/B/A/ | "G"GG G2 :: "C"ce ce | "G"Bd Bd | "D7"cD DF | "G"AG G2 :|
+P: D:
+K: D
+a/g/ |: "D"ff fg/f/ | "A7"ee ef/g/ | aa a/g/f/e/ | "D"dd d2 :: "G"gb gb | "D"fa fa | "A7"gA Ac | "D"ed d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Haapavesi valssi
+C: Keith Murphy
+R: waltz
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+AcA |\
+"D"cd dA cA | cd dA cd | "Em"e2 eg fd | "A7"e2 A2 Bc |\
+"D"cd dA cA | cd dA cd | "Em"e2 eg "A7"e{d}c | "D"d3 :|
+|: efg |\
+"D"a2 ag fd | "G"g3 f- fg | "A7"eA Ag fg | e2 A2 fg |\
+"D"a2 ag fd | "G"g3 f- fg | "Em"e2 eg "A7"e{d}c | "D"d3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Hannun ja Riitan h\"a\"avalssi
+T: Hannu and Riita's Wedding Waltz
+R: waltz
+C: Konsta Jylh\"a
+B:
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: 3/4
+L: 1/4
+K: Am
+|: "Am"[ec]>fe | "E7"[eB]>fe | "Am"[eA]dc | "E7"[B2^G2]B/c/ \
+| "Dm"[dF]>cB | "Am"[cE]BA | "G7"[GD]AF | "C"[E3C3] |
+| "Am"[ec]>fe | "E7"[eB]>fe | "Am"[eA][af][ge] | "Dm"[f3d3] \
+| "Am"[ec]>d[cA] | "E7"[d^G]eB | "Am"A3- | "fine"A2 :|
+|: "Dm"d/e/f/e/d | "G7"g2f | "C"e2-e/c/ | "Am"c3 \
+| "E7"e/^g/b/g/e | dcd | "Am"e3- | e3 |
+| "Dm"def | fed | "Am"c>de | "Dm"AGF \
+| "Am"E2E | "E7"^F2^G |1 "Am"A3- | A3 :|2 "Am"A3- | A2"G7"G ||
+|: "C"Gz/E/G/c/ | e/g/gf/e/ | "Dm"d/a/ a/z/a | a>af/d/ \
+| "G7"B/g/ g/z/g | g>fd/B/ | "C"G/e/ e/z/e | e2E/F/ |
+| "C"Gz/E/G/c/ | e/g/gf/e/ | "Dm"d/a/ a/z/a | a>gf/e/ \
+| "G7"d/g/ g/z/g | BgB |1 "C"c3- | c2E/F/ :|2 "C"c3 | "E7"e3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Kehruvalssi
+T: Spinning Waltz
+R: waltz
+O:
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+M: 3/4
+L: 1/4
+K: G
+|: "G"d2d | e2B | "D7"d2c | c3 | "A7"a2g | f2e | "D7"e2d | "G"B3 | "G"g2B | B2c |
+"D7"B2A | A3 | "D7"f2e | d2F | A2G | "G"G3 :: "B7"B2B | c2B | "Em"e2f g2e | "A7"a2g f2e |
+"D7"e3 | d3 | "G"g2B | B2c | "D7"B2A | A3 | "Am"e^df | ecA | "D7"A2G | "G"G3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Kes\"an tullessa
+T: Kes\"a tullee
+T: the Coming of Summer
+C: Konsta Jylh\"a
+R: waltz
+O: J.P.Nystr\"om
+D:
+B:
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: 3/4
+L: 1/8
+K: A
+|: EA \
+| "A"c3 c c2- | c2 cB AF | E3 E E2- | E2 CD EC | A3 A A2- | A2 AG FE | "E7"G6- | G2 GA Bc |
+| "Bm"d3 d d2- | d2 dc BA | "E7"G3 G G2- | G2 EF GA | B3 B B2 | ~B2 A2 B2 | "A"c6- | c4 EA |
+| "A"c3 c c2- | c2 cB AF | E3 E E2- | E2 CD EF | A3 A A2 | "A7"A2 B2 c2 | "D"d6- | d4 Bc |
+| "Bm"d3 d d2- | "E7"d2 dc BA | "A"c3 c c2- | "F#m"c2 BA GF | "E7"GF E2 F2 | D4 B,2 | "A"A,6- | "fine"A,2 z2 :| [K:Am]
+|: E2 \
+| "Am"E3 cBc | E3 cBc | "Dm"d4 c2 | "E7"B4 E2 | B2 B2 c2 | d2 c2 B2 | "Am"c4 d2 | e3 c A2 |
+| "Dm"f3 d B2 | "G7"g4 ~f2 | "C"e6- | "E7"e4 d2 \
+|1 "Am"c2 B2 A2 | "G7"G4 F2 | "C"E6- | "E7"E4 :|2 "Am"c2 e2 c2 | "E7"d2 ~c2 B2 | "Am"A6- | A2 z2 |]
+

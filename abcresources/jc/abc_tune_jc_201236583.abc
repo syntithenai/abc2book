@@ -1,0 +1,22 @@
+X: 2251
+T: the_Miller_of_Drone,   a Strathspey.
+C: by Nath.Gow.
+%R: strathspey, air
+B: Niel Gow & Sons "Complete Repository" v.2 p.25 #1 (top 2 staffs continued from p.24)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+c/B/ |\
+A<F-F>A TE>FEC A,A,A,>c {c}B2 Bc/B/ | AFFA TE>FEC | DFEG A2Ac/B/ || AFF>A TE>FEC |
+A,A, d>c {c}B2Bc/d/ | e>Bc>G A>EF>C | E<E E>F A2A |]| c/d/ | ecca (.e.e) (f/e/).d/.c/ | ecca Tf2f>a | ecca .e.e f/e/.d/.c/ |
+d>Bc>A ~F2 Fc/d/ || ecca ee (f/e/).d/.c/ | ecca Tf2f>g | (3agf (3efg (3aed (3cBA | d>B c>A ~F2F |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | A2A2 A2A2 | A2A2 E2E2 | A2d2 c2A2 | d2e2 A2A2 || A2A2 A2A2 |
+A2A2 E2E2 | A2E2 A2D2 | E2E2 A2A |]| z | a2a2 a2a2 | a2A2 d2d2 | a2a2 A2A2 |
+G2A2 d2D2 || A2a2 a2a2 | a2A2 d2d2 | A2c2 A2A2 | G2A2 D2D |]

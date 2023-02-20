@@ -1,0 +1,45 @@
+X: 1
+T: Six and Sevens
+P: Longways for as many as will
+%R: minuet, waltz
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.59
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (46)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+N: The versions of the tune and dance in CCDTB and CCDM2 are identical, even the capitalization.
+N: The 1st phrase has 13 bars.
+M: 3/8
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 preserves the original line breaks:
+V: 1
+|:\
+BdfdBd | cfAcFA | BdfdBd | c2F2f2 |\
+geeccA | fddBBG | eccAAF | fcgcac |\
+(fg)=e4 | f4z2 |
+fcgcac | (fg)=e4 | f6 :|\
+|:\
+cFAcfe | dfBdGB | EGcBAG | ^F4d2 |\
+gddBBG | eccedc |
+(Bc)A4 | G6 | BddggB | AccffA | (GB)BeeB |\
+AFBFcF | dFeFfF | BdfdBe | (dc) c3B | B6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original line breaks:
+V: 2 clef=bass middle=d
+|:\
+b4z2 | a4z2 | b4z2 | a4b2 | e2f4 | d2B2z2 |\
+A2f2z2 | d2B2z2 | A2f2z2 | d2B2z2 |
+d2e2z2 | f2e4 | f6 :|\
+|: f4z2 | B4z2 | e2cde2 | d4^f2 | g2b2g2 | ^f2d2g2 |
+c2d2D2 | G4z2 |\
+B4B2 | f4f2 | g2e2g2 | f2edc2 | B2A2B2 | b4z2 | B2f2F2 | B6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+%% The 1st Cu lead thro' the 2d Cu. and cast up to the Top and cast off .|
+%% the 2d Cu do the same :|
+%% then the 1st Cu cast off & go the half figure .|
+%% then Right & Left quite round and turn :|
+%%endtext

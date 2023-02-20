@@ -1,0 +1,16 @@
+X: 4302
+T: HARLEQUIN
+%R: hornpipe, reel
+B: James Kerr "Merry Melodies" v.4 p.32 #302
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+E2 |:\
+A2(A^G) ABcd | (e^d)ef ecA2 |\
+[1,3 BABc edcB | A^GAc BGE2 :|\
+[2,4 dfed cB(A^G) | A2a2 A2 |]
+G2 |:\
+c2(cB) cdef | (g^f)ga gec2 |\
+[1 dcde gfed | (cB)ce dBG2 :|\
+[2 dfed cBAB | d2c2 c2 |]

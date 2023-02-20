@@ -1,0 +1,33 @@
+X: 08
+T: Mrs. Lt. Col: Johnsons Reel __
+C: (Hon: C.G.)
+R: reel, hornpipe
+M: C
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+S: http://www.archive.org/stream/bibliographyofea00sonnrich/bibliographyofea00sonnrich_djvu.txt
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+N: The original omitted most of the triplet marking after the first bar(s).
+N: This doesn't work with multi-voice ABC, so I added the missing triplets.
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: E>Ac2 (3c>BA (3c>BA | F2EG Ac[B2E2] | E>A c2 (3cBA (3cBA | F2 EG A/A/AA2 :|
+|: e2e>e (e>d)(d>c) | (c>B)A>c cA[B2E2] | e2e>e (e>d)(d>c) | c>AB>c A/A/AA2 :|
+|: A,>B,CD .E.F.G.A | c>Af>d cA[B2E2] | A,>B,CD EFGA | (f<a) (e<c) A/A/AA2 :|
+|: (3efe (3eae (3edc (3cBA | (3c>BA (3c>BA (3FAd B2 | (3efe (3.eae (3edc (3cBA | (f/g/a) c>B A/A/AA2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: (3Ace (3Ace (3Ace (3Ace | (3Adf (3Bde (3AcA [e2E2] | (3Ace (3Ace (3Ace (3Ace | (3Adf (3Bde (3Ace A2 :|
+|: a2 c'2 b2 g2 | a2 A2 e2 E2 | a2 c'2 b2 g2 | a2 e2 ae A2 :|
+|: A>Bcd efga | (3Ace (3Adf (3Ace E2 | A>Bcd efga | (3Adf (3Ace (3Ace A2 :|
+|: A2 a2 A2 a2 | (3Ace (3Ace d>d e2 | A2 a2 A2 a2 | d2 e2 ae A2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right hands across to the Right round .|. Left hands D.o to the left :|:
+%% Gallop down 2 Cu: and foot it .|. up again and Cast off :|: set opposite
+%% corners and turn .|. D.o :|: Foot it and turn half round with right Hand .|.
+%% D.o & D.o with the left hand :|: or Hey opposite sides & turn to place.
+%%endtext

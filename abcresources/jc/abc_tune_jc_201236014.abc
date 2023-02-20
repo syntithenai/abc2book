@@ -1,0 +1,26 @@
+X: 21551
+T: JUST LIKE LOVE IS YONDER ROSE
+C: Dave.
+Q: "Slow with expression."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.155 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The final fermata is positioned equally over the e and d.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+c2c2 (cB)(AG) | (FA) (cf) {f}e4 | f3f (ge)(cB) | (Ac)(Bd) A2G2 |\
+c3c (cB)(AG) | (FA) (cf) f2e2 | f3f g3B |
+AF c2 Hd4 |\
+A2G2c2z2 | A2G2F2z2 | c2e2Hf2z2 | HA2HG2"^Fine."F2z2 H|] \
+e3(d/c/) {c}=B2(AG) | c3c d4 | G2G2G3G | f2e2d2z2 |
+G2A=B cezc | Acfd =B2zG | gez2 fddd | e3ed2z2 |\
+e2d2c2z2 | g2f2e2z2 | e2z2 d2z2 | Hc4 "^D.C. al Fine."z4 |]\
+A2AA d3d |
+f2e2 fdzd |\
+_e3ed3d | ^c2d2 f=ez2 | A3A =c3c | _e3c cBz2 |\
+G3G B3B | d3B BAz2 | A2^c2d2z2 | f2e2Hd2z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

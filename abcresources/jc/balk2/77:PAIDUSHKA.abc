@@ -1,0 +1,20 @@
+X: 377
+T:Paidushka
+O:Macedonia
+F: http://www.youtube.com/watch?v=GWxLLFOfTXM
+F: http://www.youtube.com/watch?v=R4-2tFnoq7M
+L:1/8
+M:5/8
+Q:1/4=200
+K:Am
+%%MIDI gchord fzf2z
+%%MIDI beatstring fpmpp
+|:"A" cde3|edc3    |c2B3 |B2B3|cde3    |edc3    |c2B3 |A2A3 :|
+|:G2A2G   |ABc3    |d2c2B|ABc3|G2A2G   |ABc3    |d2c2B|AGA3 :|
+|:G2A3    |c2B3    |A2c3 |B2A3|G2A2c   |BAB3    |A2c3 |B2A3 :|
+|:ccdc2   |ccdc2   |G2AA2|B2c3|ccdc2   |ccdc2   |G2AA2|B2A3 :|
+K:Amix
+|:A2B3    |d2c3    |A2B3 |B2B3|A2B3    |d2c3    |A2B3 |B2B3 :|
+|:e2c3    |B2A/B/ce|e2c3 |B2A3|e2c3    |B2A/B/ce|e2c3 |B2A3 :|
+|:e2d3    |c2B3    |A2G3 |F2E3|e2d3    |c2B3    |A2G3 |F2E3 :|
+|:A2G/A/A2|A2E3    |A2G3 |F2E3|A2G/A/A2|A2E3    |A2G3 |F2E3 :|

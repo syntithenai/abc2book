@@ -1,0 +1,27 @@
+X: 232
+T: LORD JOHN CAMPBELL
+C: D. MACINTYRE
+R: Reel
+B: Glen Collection p.23 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: F
+%
+V: 1
+|:\
+F2Ac f2fa | gfga gGGA | F/F/F Ac f2fa | gfga f/f/f f2 :|
+FGAB cAfc | dBcF EGGA | F/F/F Ac dBGF | ECGA F/F/F F2 |
+FGAB cAfc | dBcF EFGA | FfcA dBGF | ECga f/f/f f2 |]
+%
+V: 2
+|:\
+[f2F2] [f'2c'2a2] [f'2c'2a2][f'2c'2a2] | b2[g'2d'2b2] c'2[e'2c'2b2] |\
+[f2F2] [f'2c'2] [f'2c'2a2][f'2c'2a2] | c'2[e'2c'2b2] a2[f'2c'2f2] :|
+F2[a2f2c2] [a2f2c2][a2f2c2] | [g2e2c2][a2f2c2] [b2g2c2][g2e2c2] |\
+F2[a2f2] [b2f2][=b2d2] | [c'2c2][b2e2c2] [a2f2][a2f2] |
+F2[a2f2c2] [a2f2c2][a2f2c2] | [g2e2c2][a2f2c2] [b2g2c2][g2e2c2] |\
+[a2f2][a2f2] [b2f2][=b2d2] | [c'2c2][b2e2c2] [a2f2][f2F2] |]

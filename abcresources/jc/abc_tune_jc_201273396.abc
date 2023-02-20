@@ -1,0 +1,86 @@
+
+X: 1
+T: Esmeralda Waltz   [F]
+T: Castle Innovation Waltz
+C: C. de Mesquita 1914
+%date: 1914
+R: waltz
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+"I"[|\
+"F"[f6c6A6F6] | "C7"c6 | "F"[A6F6] | "C7"G6 |\
+"F"z2 cC D2- | "C7"D2 [c4B4E4] | "F"z2 cC D2- | "C7"D2 [c4B4E4]
+"A"|:\
+"F"A4 A2- | "C7"A2 G2 B2 | "F"A4 c2- | "C7"c2 G2 B2 |\
+"F"A4 A2- | "C7"A2 G2 A2 |1 "F"F4 C2- | "C7"C2 {E}D2 C2 :|2 "F"F6- | F4 z2
+"B"|:\
+"C7"G2 A2 B2 | G2 A2 B2 | "F"A2 B2 c2 | A2 B2 c2 | "C7"B2 c2 d2 |\
+[1 c2 d2 e2 | "F"cBAB c2- | c4 z2 :|[2 [e2c2] [g2c2] (3(gag) | "F"[f6A6] | "C7"[c6B6E6]
+"C"[|\
+"F"[A6F6] | "C7"G6 | "F"z2 cA d2 | "C7"z2 [c2B2E2] |\
+"F/A"z2 cFd2 | "C7/G"z2 [c4B4E4] | "F"z2 [cA]C D2 | "C7"z2 [c4B4E4]
+%
+"A'"|:\
+"F"a4 a2- | "C7"a2 g2 b2 | "F"a4 c'2- | "C7"c'2 g2 b2 |\
+"F"a4 a2- | "C7"a2 g2 a2 |1 "F"f4 c2 | "C7"c6 :|2 "F"f6- | f4 z2
+"B'"[|\
+"C7"g2 a2 b2 | g2 a2 b2 | "F"a2 b2 c'2 | a2 b2 c'2 |\
+"C7"b2 c'2 d'2 | e'2 g'2 (3(g'a'g') | "F"f'6 | "C7"c'6 |
+"F"a6 | "C7"g6 | "F"f6 | "C7"c6 |\
+"F"A6 | "C7"G6 | "F"z2 [cA]C D2 | "C7"z2 [c4G4]
+"A''"[|\
+"F"A4 A2- | "C7"A2 G2 B2 | "F"A4 c2- | "C7"c2 G2 B2 |\
+"F"A4 A2- | "C7"A2 G2 A2 | "F"F6 | "Dbdim"[_D6_C6_A,6F,6]
+[|\
+"F"z2 [cA]C D2- | "C7"D2 [c4B4E4] | "F"z2 [cA]C D2- | "C7"D2 [c4B4E4] |\
+"F"A4 A2- | "C7"A2 G2 B2 | "F"A4 A2- | "C7"A2 G2 c2 |\
+"F"[f6-A6] | [f2A2] z2 z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Esmeralda Waltz   (G)
+T: Castle Innovation Waltz
+C: C. de Mesquita 1914
+%O: arr. John Chambers
+%date: 1914
+R: waltz
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+%%continueall 0
+% - - - - - - - - - -
+"I1"[|\
+"G"[g6d6B6G6] | "D7"[d6A6] | "G"[B6G6] | "D7"[A6F6] |\
+"G"z2 dD E2- | "D7"E2 [d4c4F4] | "G"z2 dD E2- | "D7"E2 [d4c4F4] |]
+"A1"|:\
+"G"B4 B2- | "D7"B2 A2 c2 | "G"B4 d2- | "D7"d2 A2 c2 |\
+"G"B4 B2- | "D7"B2 A2 B2 |\
+[1 "G"G4 D2- | "D7"D2 {F}E2 D2 :|[2 "G"G6- | G4 z2 |]
+"B1"|:\
+"D7"A2 B2 c2 | A2 B2 c2 | "G"B2 c2 d2 | B2 c2 d2 | "D7"c2 d2 e2 |\
+[1 d2 e2 f2 | "G"dcBc d2- | d4 z2 :|\
+[2 [f2d2] [a2d2] (3(aba) | "G"[g6B6] | "D7"[d6c6F6] |]
+"I2"[|\
+"G"[B6G6] | "D7"[A6F6] | "G"z2 dB e2 | "D7"z2 [d4c4F4] |\
+"G/B"z2 dGe2 | "D7/A"z2 [d4c4F4] | "G"z2 [dB]D E2 | "D7"z2 [d4c4F4] |]
+"A2"|:\
+"G"B4 B2- | "D7"B2 A2 c2 | "G"B4 d2- | "D7"d2 A2 c2 |\
+"G"B4 B2- | "D7"B2 A2 B2 |[1 "G"G4 D2 | "D7"D6 :|[2 "G"G6- | G4 z2 |]
+"B2"[|\
+"D7"A2 B2 c2 | A2 B2 c2 | "G"B2 c2 d2 | B2 c2 d2 |\
+"D7"c2 d2 e2 | f2 a2 (3(aba) | "G"g6 | "D7"d6 |]
+"I3"[|\
+"G"B6 | "D7"A6 | "G"G6 | "D7"D6 |\
+"G"B,6 | "D7"A,6 | "G"z2 [dB]D E2 | "D7"z2 [d4A4] |]
+"A3"[|\
+"G"B4 B2- | "D7"B2 A2 c2 | "G"B4 d2- | "D7"d2 A2 c2 |\
+"G"B4 B2- | "D7"B2 A2 B2 | "G"G6 | "D7"D6 |]
+"I4"[|\
+"G"z2 [dB]D E2- | "D7"E2 [d4c4F4] | "G"z2 [dB]D E2- | "D7"E2 [d4c4F4] |\
+"G"B4 B2- | "D7"B2 A2 c2 | "G"B4 B2- | "D7"B2 A2 d2 ||\
+"G"[g6-B6-] | [g2B2] z4 |]

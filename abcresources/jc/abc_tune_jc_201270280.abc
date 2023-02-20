@@ -1,0 +1,18 @@
+X: 1425
+T: Drowsy Maggie
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #1425
+O: J.O'Neill
+Z: Bob Safranek, rjs@gsp.org
+N: Added the key change to the B part [JC]
+M: C|
+L: 1/8
+K: Em	% and D
+"^A"\
+[| E2(BE dEBE) | E2(BE AFDF) | E2(BE dEBE) | (TBAB)^c dAFD ||
+|| E2(BE dEBE) | E2(BE AFDF) | E2(BE dEBE) | (TBAB)^c dAFA |]
+K: D
+"^B"\
+[| d2(fd) c2(ec) | defg afge | d2(fd) c2(ec) | (TBAB)c dAFA ||
+|| d2(fd) c2(ec) | defg afge | afge fdec | (TBAB)c dAFD |]

@@ -1,0 +1,15 @@
+X: 20013
+T: IRISH JIG
+%R: slip-jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.1 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: F
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+c2A A2f edc | d2e f2g afd | c2A A2f edc |1 def gfe f3 :|2 def cAF F3 |] a2f f2a agf |\
+g2e e2g gfe | f2d d2f edc |1 def gfe f3 :|2 def cAF F3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

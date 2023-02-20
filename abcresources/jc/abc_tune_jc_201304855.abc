@@ -1,0 +1,43 @@
+X: 1
+T:These Are My Mountains  "CYMRU"
+M:6/8
+L:1/8
+Q:80
+C:S.Jones
+S:Slow Air
+K:HP
+|: e|
+{g}ABc{gBd}B3|
+{G}A3-A2{g}A|
+{Gdc}def{gef}e3|  !
+-e3-e3{A}e| |
+{g}fga{ef}e3|
+{gcd}c3-c2e|  !
+{g}ec{G}A{GdG}B3|
+-B3-B2e| |
+{g}edc{gBd}B3|  !
+{G}A3-A2{g}A|
+{GdG}cde{gfg}f3|
+-f3-f2a| |  !
+{g}agf{gef}e3|
+{gcd}c3-c2A|
+{Gdc}dcB{G}A3|  !
+-A3-A2|] |]
+e|
+{g}edc{gBd}B3|
+{G}A3-A2{g}A|  !
+agf{gef}e3|
+-e3-e3{A}e| |
+{g}fga{ef}e3|  !
+{gcd}c3-c2e|
+{g}ec{G}A{GdG}B3|
+-B3-B2e| |  !
+{g}edc{gBd}B3|
+{G}A3-A2{g}A|
+{GdG}cde{gfg}f3|  !
+-f3-f2a|
+{g}agf{gef}e3|
+{gcd}c3-c2A|  !
+{Gdc}dcB{G}A3|
+-A3-A2|]
+

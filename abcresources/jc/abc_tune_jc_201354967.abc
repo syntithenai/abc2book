@@ -1,0 +1,16 @@
+X: 237
+T: the Young Lady   #2
+R: air, waltz
+%S: s:2 b:16(8+8)
+B: O'Neill's 237
+O: J.O'Neill
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+Q: "Moderate"
+M: 3/4
+L: 1/8
+K:
+"^A"[|] D GA | (B>A G)B de | (=f>e d)B cc |1 B2 AG BA | A3 :|2 B2 G{B}A GG | G3 |]
+"^B"[| d dd | =f2 ed d^f | (g2 B)d =fe | (e2 d)B GB | "^->A2"A3 |]

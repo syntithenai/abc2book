@@ -1,0 +1,26 @@
+X:1
+T: Honeysuckle Cottage
+N:
+C:
+S:
+A:
+O:
+R:
+M:3/4
+K:C
+I:speed 240
+%W:
+% voice 1 (1 lines, 32 notes)
+K:C
+M:3/4
+L:1/16
+e2 |c4 a6 g2 |B6 g2 e2 d2 |c4 a6 g2 |A6 c2 B2 A2 |G4 d6 c2 |F4 d6 c2 |E2 G2 c2 e2 g2 f2 |e4 d2 g2 e2 d2 |
+%W:
+% voice 1 (1 lines, 30 notes)
+c4 a6 g2 |B6 g2 e2 d2 |c4 a6 g2 |A6 c2 B2 A2 |G4 d6 c2 |F4 d6 c2 |G2 f2 e2 d2 c2 B2 |c6 g2 e2 d2 |
+%W:
+% voice 1 (1 lines, 25 notes)
+c4 c'6 a2 |c4 d4 e4 |f4 a6 f2 |A6 c2 B2 A2 |G4 b6 a2 |d4 e4 f4 |a8 g4 |e6 g2 e2 d2 |
+%W:
+% voice 1 (1 lines, 31 notes)
+c4 c'6 a2 |c4 d4 e4 |f4 a6 f2 |A6 c2 B2 A2 |G4 d6 c2 |F4 g6 f2 |G2 f2 e2 d2 c2 B2 |c6 g2 e2 d2 |c6 z4 ||

@@ -1,0 +1,47 @@
+X: 501
+T: Adams and liberty
+T: the Boston Patriotick song
+N: Early version of the "To Anacreon in Heaven" song that was used for The Star-Spangled Banner.
+C: words: Thomas Paine A.M.
+%R: air, waltz
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+B: John Treat - "Gamut for the Fifes", 1779, p.50 #1
+F: https://archive.org/details/GamutFortheFifes
+N: Missing notes marked with "?" filled in from http://levysheetmusic.mse.jhu.edu/collection/002/016
+N: Aside from the key, these two versions are nearly identical.
+M: 3/4
+L: 1/8
+Q: "Allegro."
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+D>D |\
+D2 F2 A2 | d2 d2 f>e | d2 F2 G2 | A4 fa |\
+(agbg)(eg) | gfafdf | Ge Fd Ec | [d4A4F4] :: D2 |\
+D2 F2 A2 | d2 d2 (fe) | d2 F2 G2 |
+A4 AA |\
+f4 ed | c4 Bc | d2 A3 G | F2 D2 DD |\
+D2 F2 A2 | d d z2 (fe) | d2 F2 G2 | A4 AA |\
+f4 e d | c4 Bc |
+d2 A3 G | F2 D2 d> d |\
+[f3d3] [ge] [a2f2] | [a4f4] g f | [e3c3] [fd] [g2e2] | g4 f e |\
+f3 e d2 | c4 B c | d2 F2 G2 | A4 :: A2 |\
+d2 d2 d2 |
+B2 B2 B2 | e2 e2 e2 | c4 A A |\
+d2 (de)(fg) | a2 f2 d2 | d2 f2 e2 | d4 :|\
+fa | agbgcg | gfafBf | Ge Fd Ec | [d4A4F4] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+d>d |\
+d2 f2 a2 | f2 d2 z2 | d2 B2 e2 | a2 A2 ^d2 |\
+e4 A2 | d4 f2 | g2 a2 A2 | d2 D2 ::\
+z2 |\
+d2 f2 a2 | f2 d2 z2 | d2 B2 f2 |
+"?"c2 A2 z2 | [d4D4]ef | g2 G2 g2 | fg a2 A2 |\
+d2 D2 z2 | d2 f2 a2 | f/d/ D z2 c2 | d2 A2 e2 |
+c2 A2 z2 | [B4B,4]ef | g2 G2 g2 | fg a2 A2 | d2 D2 z2 |
+d2 d2 d2 | d2 f2 d2 | a2 a2 a2 | a2 c'2 a2 | d2 e2 f2 | g4 g2 | f2 d2 e2 | A4 ::\
+z2 |\
+dc (de) (fd) | gf ga gf | e^d ef ge | aA ag fe | d2 f2 a2 | d'2 d2 g2 |
+"?"a4 "?"A2 | D2 d2 :| z2 | [e'4e4] [c'2c2] | [d'4d4] [f2d2] | g2 a2 A2 | d'2 d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

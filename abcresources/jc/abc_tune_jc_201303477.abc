@@ -1,0 +1,54 @@
+
+X: 1
+T: It's a Long Way to Tipperary   [G]
+%R: march
+%D: 2012
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+S: printed image from Darlene Wigton 2019-3-2
+L: 1/8
+M: C
+K: G
+%%continueall 1
+D | "G"BB Bc BB AG | "C"AB AG "Am"E3 G | "D"AA AB "D7"AG ED | "G"GG GG "D"D2 z2 |
+w: * 1.~Up to migh-ty Lon-don came an I-rish man one day,* As the streets are paved with gold, sure ev'-ry one was gay.
+w: * 2.~Pad-dy wrote a let-ter to his I-rish Mol-ly-O, Saying "Should you not re-ceive* it,* write and let me know!"
+w: * 3.~Mol-ly wrote a neat re-ply to I-rish Pad-dy-O, Saying "Mike Ma-lon-ey wants to mar-ry me!** and so,
+    "G"BB Bc "Em"BB AG | "C"AB AG "Am"E2 G-G | "D"AA AB "D7"AG ED | "G"GG "C"GE "G"G2
+w: Sing-ing songs of Pic-ca-dil-ly, Strand and Lei-cester Square,* Till Pad-dy got ex-cit-ed, then he shout-ed to them there:
+w: "If I make mis-takes in spell-ing, Mol-ly Dear," said he.* "Re-mem-ber it's the pen that's bad, don't lay the blame on me!"
+w: Leave the Strand and Pic-ca-dil-ly or you'll be to blame.* For love has fair-ly drove me sil-ly, hop-ing you're the same!"
+"^Chorus"[| \
+B,C | "G"D2 D2 zDEF | G2 B4 BA | "C"G2 E4 G2 | "G"D4- "D"D2 B,C |
+w: It's a long way to Tip-per-ar-y, it's a long way to go.* It's a
+    "G"D2 D2 zDEF | "Em"G2 B4 FG | "A"A2 E2 "A7"F2 G2 | "D"A4- "D7"A4 |
+w: long way to Tip-per-ar-y to the sweet-est girl I know.*
+    "G"D2 D2 zDEF | G2B2- B4 | "C"c2 G2 G2 A2 | "B"B4- B2 GA |
+w: Good-by, to Pic-ca-dil-ly,* fare-well Lei-cester Square!* It's a
+    "G"B2 B2 BG AG | "C"E4 "G"D2 (GA) | "A7"B2 G2- "D7"G2 A2 | "G"G6 z |]
+w: long, long way to Tip-per-ar-y, But* my heart's* right there.
+
+%%sep 1 1 500
+
+X: 1
+T: It's a Long Way to Tipperary   [G]
+%R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+S: printed image from Darlene Wigton 2019-3-2
+L: 1/8
+M: C
+K: G
+%%continueall 0
+D |\
+"G"BB Bc BB AG | "C"AB AG "Am"E3 (G |\
+"D"A)A AB "D7"AG ED | "G"GG GG "D"D2 z2 ||\
+"G"BB Bc "Em"BB AG | "C"AB AG "Am"E2 G-G |
+"D"AA AB "D7"AG ED | "G"GG "C"GE "G"G2 |]\
+"^Chorus"[| B,C |\
+"G"D2 D2 zDEF | G2 B4 BA |\
+"C"G2 E4 G2 | "G"D4- "D"D2 B,C ||\
+"G"D2 D2 zDEF | "Em"G2 B4 FG |
+"A"A2 E2 "A7"F2 G2 | "D"A4- "D7"A4 ||\
+"G"D2 D2 zDEF | G2B2- B4 |\
+"C"c2 G2 G2 A2 | "B"B4- B2 GA ||\
+"G"B2 B2 BG AG | "C"E4 "G"D2 (GA) |\
+"A7"B2 G2- "D7"G2 A2 | "G"G6 z |]

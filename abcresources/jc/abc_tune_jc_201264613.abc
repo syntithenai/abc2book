@@ -1,0 +1,16 @@
+X: 762
+T: Corney is Coming
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #762
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0762/oneill-1001-0762-1.abc
+M: C|
+L: 1/8
+K: D
+"^A"[|] c \
+|  Add(c de)f(d | c)AGF E(FGE) | Ddd(c de)f(a | g)ece   fdec \
+|| Add(c de)fd  | c(AGF) EFGE  | Ddd(c de)f(a | g)ec(d e)dd |]
+"^B"\
+[|  c | d(efg) afd(B  | c)de(f g)ecA | d(efg) agf(a | g)ecd   edd \
+|| (f | a)fd(f a)fd(f | g)ec(e g)fge | d(efg) aba(f | g)ec(d e)dd |]

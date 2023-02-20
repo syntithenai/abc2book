@@ -1,0 +1,41 @@
+X: 1
+T: I often for my Jenny strove
+P: Longways for as many as will
+%R: jig, waltz
+B: "The Dancing-Master" printed by John Walsh, London
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.20 #41
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.160
+Z: 2012-2013 John Chambers <jc:trillian.mit.edu>
+N: The two versions are identical except for minor spelling and punctuation differences.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g |\
+(d<B)c A2G | (AB)c D3 | EG2 Bd2 | (ef)g f2g |\
+(d<B)c A2G | (AB)c D3 | (EF)G (Bc)d | A2G G2 |]
+z |\
+(ga)b (ef)g | (a<f)g e2d | (B^c)d (ef)g | e2d d3 |\
+(d/B/) (c/B/) (A/G/) Bd2 | FD2 FA2 | (Bc)d (ef)g | A2G G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first Man cross over with his Partner into the 2d Cu Place,
+%% and all four lead up Hands abreast, then fall back, and all four
+%% turn S. then cross over below the 3d Cu. and all four lead up
+%% Hands abreast, then the 1st Cu cast up into the 2d Cu. Place,
+%% and turn S. then go the Figure above thro' the 1st Cu. and
+%% turn your Partner, then figure thro' the 3d Cu. and cast up
+%% into the 2d Cu. Place, and turn your Partner.
+%% [CCDM1]
+%%endtext
+%%sep 1 8 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first man cross over with his Partner into the 2. cu. place, and all four lead up hands a-breast, then
+%% fall back and all four turn S. Then cross over below the 3. cu. and all four lead up hands a-breast, then
+%% the 1. cu. cast up into the 2. cu. place and turn S. then go the Figure above through the 1. cu. and turn
+%% your Partner then the Figure through the 3. cu. and cast up into the 2. cu. place, and turn your Partner.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

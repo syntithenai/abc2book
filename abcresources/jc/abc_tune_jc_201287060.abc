@@ -1,0 +1,16 @@
+X: 96
+T: Holland Is a Fine Place   #2
+R: march
+%S: s:2 b:9(5+4)
+B: O'Neill's 1850 #96
+Z: John Chambers <jc@trillian.mit.edu>
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+Q: "Moderate"
+O: F.O'Neill
+M: C
+L: 1/8
+K: A
+"^A"[|] dB | "^>"A2A2 B2d2 | (e^def) (g2ag) | e2dB A2[1 B2 | G6 :|[2 A2 | "^fine"A6 |]
+"^B"|| (ef) | "^>"g2B2 d2e2 | (a3f) (g2ag) | e2dB A2B2 | "->A2"G6 |]

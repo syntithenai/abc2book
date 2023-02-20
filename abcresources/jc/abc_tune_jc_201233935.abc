@@ -1,0 +1,21 @@
+X: 20173
+T: O MARY YE'SE BE CLAD IN SILK
+O: Scottish air.
+Q: "Slow."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.17 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E |\
+A>BA^G A>B {d}c(B/A/) | =G>AcE G2 zc/B/ |\
+A>BA^G A>Bcd | e>c {e}d(c/B/) {d}c3 |]
+c/d/ |\
+e>c d(c/B/) c>d cB/A/ | G>AcE G2 z(c/B/) |\
+A>BA^G A>Bc>d | e>cB{d}c {B}A3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

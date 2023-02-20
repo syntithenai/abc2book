@@ -1,0 +1,20 @@
+X:1
+T:  Mr. Playford's Roundabout
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:D
+I:speed 180
+%W: A                                                                               The Queen's Jig
+% voice 1 (1 lines, 33 notes)
+K:D
+M:6/8
+L:1/16
+A2 |d4 e2 f2 d2 f2 g6 f4 a f2 g2 f2 e4 d2 e6 A4 A2 d4 |e2 f2 d2 f2 g6 f4 a f2 g2 f2 e4 d2 d6d4 A2
+%W:
+% voice 1 (1 lines, 32 notes)
+d4 e2 |f2 d2 f2 g6 f4 a f2 g2 f2 e4 d2 e6 A4 A2 d4 e2 f2 |d2 f2 g6 f4 a f2 g2 f2 e4 d2 d6d4 a2

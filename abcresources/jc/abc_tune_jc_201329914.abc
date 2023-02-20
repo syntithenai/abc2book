@@ -1,0 +1,507 @@
+%%textfont Helvetica-Bold 21
+ %%begintext
+Ferme de Gally
+Fête de la moisson
+11 septembre 2005
+
+Animation Carrière-sous-Poissy
+Dimanche de Pentecôte 2006
+%%endtext
+%%titleleft
+%%textfont Helvetica 16
+%%infoline 1
+
+
+%%footer $D   Galouvielle-MBe 2006 \nBranle (France)
+X: 1
+T:Branle de Gouloux
+R:Branle
+A:Morvan
+O:France
+M:6/8
+K:C
+c2ed2c|Bcd c2 G|c2 ed2c|Bcd c3:|
+|d3d2c|B2AG3|G2cB2c|d2ef2d|d3d2c|B2AG3|G2cB2B|c2dc3|]
+
+%%footer $D   Galouvielle-MBe 2006 \nBranle (France)
+X: 2
+T:Branle du Rat
+R:Branle
+C:Trad.
+O:France
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-03-17
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/16
+Q:1/4=90
+K:C
+e2e2 e2de|f2e2 d4|d2d2 d2cd|c2d2 e2c2|\
+e2e2 e2de|f2e2 d4|g2g2 g2ff|e2d2 c4||
+[M:6/8][L:1/8]
+Q:3/8=90
+e2c e2c|GAB A2G|e2c e2c|GAB c3:|
+
+%%footer $D   Galouvielle-MBe 2006 \nCercle circassien (Irlande)
+X: 3
+T:Cercle circassien
+R:Cercle circassien
+O:Irlande
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-03-17
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:G
+V:1
+"G"G>A Bd|gf ed|"C"eA AB|"D"cd/2c/2 BA|"G"G>A Bd|gf ed|"C"ea "D"ef|"G"g2 g2::
+"A"ae ae|ae e2|"G"gd gd|gd d2|"A"ae ae|ae ef|"G"ge dB|"D"A2 A2:|
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (Douteuse)
+X:4
+T:Cochinchine
+R:---
+O:Douteuse
+C:Inconnu
+M:2/4
+L:1/16
+K:C
+V:1
+g2gg eceg |eceg gfdB| g2gg eceg| gfdB c4:|:
+e2ee cAAA|f2ff dBBB|g2gg eceg|gfdBc4:|
+T:Cochinchine
+C:Trad. ???
+O:France
+M:2/4
+L:1/8
+K:G
+"G"d2 dd|BG Bd|BG Bd|"D"dc AF|"G"d2 dd|BG Bd|"D"dc AF|"G"G4::
+"G"B2 BB|"Em"GE EE|"Am"c2 cc|"D"AF FF|"G"d2 dd|BG Bd|"D"dc AF|"G"G4:|
+
+%%footer $D   Galouvielle-MBe 2006 \nRondanse (France)
+X:5
+T:En faisant le tour du moulin
+R:Rondanse
+A:Normandie
+O:France
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-09-10
+Z:Pour toute observation mailto:galouvielle@free.fr
+%%continueall 1
+M:6/8
+Q:1/4=104
+K:G
+BBB | d3cBA | G3 BBB|d2 G A3|G3 BBB| d3 cBA|G3 BBB|d2 G A3| G3 z2
+w:En fai-sant le tour du mou-lin j'a-per-çois la meu-niè-re En fai-sant le tour du mou-lin j'a-per-çois la meu-niè-re
+ B|d2 e d2 B| d2 e d2 B|d2 e d2 B|d2 e !breath!d2B | c2d e2 e|d2 c B3|:
+w: Qui cul-ti-vait dans son jar-din Qui cul-ti-vait dans son jar-din Rose à la bou-ton-niè_re
+ddd e2 d|cBc A2A|c2d e2c|ddd G3 :|
+w:Je lui ai dit belle en_ pas-sant n'vou-drais tu pas cau-ser un ins-tant~!
+
+%%footer $D   Galouvielle-MBe 2006 \nFarandole (France)
+X: 6
+T:Farandole di Tarascaïre
+O:France
+A:Provence
+C:Trad.
+C:2e partie M. Maréchal
+R:Farandole
+M:6/8
+Q:3/8=90
+K:G
+V:1
+GBd|GBd gfe|(d2d) ece|dcB Adc|B2G GBd|GBd gfe|(d2d) gfg|(a2a) gfe|
+d3 ded|dcB Adc|B2G B2B|B2d dcB|A3 ded|dcB Adc|B2G gfe|edB dcA|
+G3 ||[K:C]gag|g2e gag|g2e eee|edc dcB|d2c gag|g2e gag|g2e eee|edc dcB|c3|]
+V:2
+B2B| B2A B2c| (B2B) c3| A2G f2e| d2+breath+B B2B| B2A B2c| (B2+breath+B) B3| c3 edc|
+B2z .f2.f|.f2.d .f2.a|.g2+breath+.g .d2.d| .d2.B .A2.G| +breath+F3 .f2.f|.f2.d .f2.a|(g2+breath+g) e2a| .g2.g .f2.f|
+g2z ||[K:C] e2e|Le2 ((3c/2e/2g/2) e2e| (Le2c) g2g| (g2e) f2g| (f2e) e2e| Le2 ((3c/2e/2g/2) e2e| (Le2c) g2g| (g2e) f2g|e3|]
+
+%%footer $D   Galouvielle-MBe 2006 \nGigue (France)
+X: 7
+T:Gigouillette
+R:Gigue
+A:Normandie
+O:France
+M:2/4
+L:1/8
+Q:1/4=220
+K:C
+G2c2|e3d|e2f2|e2d2|G2B2|d3c|d2e2|c4::\
+M:6/8
+Gce Gce|Gce e2d|GBd GBd|GBdc3:|
+W:C'est la fille de la meunière
+W:Qui dansait avec les gars
+W:Elle a perdu sa jarretière
+W:Sa jarretière qui n'tenait pas
+W:Qui n'tenait, qui n'tenait, qui n'tenait guère
+W:Qui n'tenait, qui n'tenait, qui n'tenait pas
+W:
+W:Venez donc danser la gigue
+W:Toutes les filles et tous les gars
+W:Z'avez peur qu'cà vous fatigue
+W:J'vous dis qu'vous n'en mourrez pas.
+W:
+W:Y a trois gars qui veulent ma fille
+W:Y en a deux qui n'l'auront pas
+W:Le troisième est d'bonne famille
+W:J'suis sûr qu'il la battra pas.
+
+%%footer $D   Galouvielle-MBe 2006 \nEn dro (France)
+X:8
+T:J'ai vu le loup, le renard et la belette
+C:Trad.
+O:France
+A:Bretagne
+R:En dro
+Z:Michel BELLON
+M:2/4
+L:1/8
+K:C
+cB/A/ GA/B/|c/B/c/d/ ec|cB/A/ GA/B/|cd c2::
+w:J'ai vu le loup, le re-nard et la be-let-te, j'ai vu le loup, le re-nard dan-ser
+cd ef | ed e2|cc/B/ AA/G/|A/G/A/B/ AG|cd ef | ed e2|cc/B/ AB/c/|dB c2:|
+w:J'les ai vu ta-per du pied, j'ai vu le loup, le re-nard et la be-let-te.  J'les ai vu ta-per du pied, j'ai vu le loup, le re-nard dan-ser.
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (--)
+X:9
+T: Jean Petit qui danse
+R:---
+M: 2/4
+L: 1/8
+K: Am
+V: 1
+Ae|"Am"ed e2|c2 "E7"dd|ed (cB)|"Am"A2
+w: Jean pe-tit qui dan-se, Jean Pe-tit qui dan-*se
+Ae|ed e2|c2 "E7"dd|ed (cB)| "Am"A2||
+w: De son pied il dan-se, De son pied il dan-*se
+AB|"Am"c2 "E7"B2|"Am"A2|| AB|"Am"c2  "E7"d2|"A"e2 ||e>f|"E7"ed cB|"A"A2 |]
+w: De son pied, pied, pied, De son pied, pied, pied, Ain-si dan-se Jean Pe-tit.
+
+%%footer $D   Galouvielle-MBe 2006 \nDivers (France)
+X:10
+T:La Calibeurdaine
+R:Divers
+C:Trad.
+O:France
+A:Morvan
+Z:Michel BELLON
+M:2/4
+L:1/8
+Q:1/4=120
+K:G
+GA B>d|cB AA|GA B>d|cB A2::
+M:6/8
+Q:3/8=120
+d2B d2B |dcB ABc|d2B d2B|cBA G3:|
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (--)
+X: 11
+T:La Chaussette
+R:---
+C:Limousin ?
+I:abc2nwc
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-03-17
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+K:C
+G2G2 c2c2|d2e2 c4|d2cB A2G2| [1G2B2 A2G2:| [2A2B2 c4
+|:g2fe d2c2|d2f2 e2c2|g2fe d2c2|d2B2 c4:|
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (--)
+X:12
+T:La chèvre
+R:---
+C:Limousin ?
+I:abc2nwc
+L:1/8
+K:C
+c2d2e2f2d2e2c2c2c2d2e2f2d2:||:e2d2c2B2A2G2c2c2d2e2d2:|
+w:T'as man-gé mon chou ma chè-vre T'as man-gé mon chou T'as man-gé les feuil-les T'as lais-sé l'tro-gon
+
+%%footer $D   Galouvielle-MBe 2006 \nEnfants (France)
+X:13
+T:La fille du coupeur de paille
+O:France
+R:Enfants
+C:Trad.
+%%continueall 1
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-09-10
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:C
+(3ecd e2 (3|ecd e2|ee/e/ eg|fe ed|(3dBc d2|(3dBc d2|dd/d/ df|ed c2||\
+w:Sur mon che-min j'ai ren-con-tré la fi-le du cou-peur de pail-le Sur mon che-min j'ai ren-con-tré la fi-le du cou-peur de  blé\
+g2 g2|(3gfe d2|dd/d/ df|ed ec|g2 g2|(3gfe d2|dd/d/ df|edc2|]
+w:Oui oui J'ai ren-con-tré la fil-le du cou-peur de pail-le Oui oui J'ai ren-con-tré la fil-le du cou-peur de blé
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (Italie)
+X:14
+T:La vinca
+R:---
+O:Italie
+C:Trad.
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-09-11
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:G
+P:Intro
+GGG2 | AAA2 | BB AB | ccc2 |:
+P:A
+GG/A/ GG/A/ | GG/A/ B2 | cc/B/ A2 | BB/A/ G2 :|
+P:B
+d^c/d/ ed | AA A2 | d^c/d/ ed | GGG2 |
+dd d2 | ee e2 | ff/f/ ef | gg g2 |]
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (--)
+X: 15
+T:L'alouette est sur la branche
+R:---
+M:2/4
+L:1/8
+K:Eb
+V:1
+dg ge|f3 g|(ed) c2:| B>B cd|e2
+w:L'a-lou-ette est sur la bran-*che, Faites un pe-tit saut,
+f>e|dd ed|c2 B2| B>B cd|e2 f>e|dd ed|c2 z2|
+w:L'a-lou-et-te, L'a-lou-et-te, Faites un pe-tit saut, L'a-lou-et-te comme il faut.
+
+%%footer $D   Galouvielle-MBe 2006 \nFarandole (France)
+X: 16
+T:Les bougnettes
+O:France
+A:Savoie
+C:Trad.
+R:Farandole
+M:6/8
+L:1/8
+Q:3/8=120
+K:C
+c2e g2a|g2e c3|cBc d2d|dcd e2c|c2e g2a|g2e c3|cBc d2f|e2 d c3::
+w:En pas-sant par le Bo-nant, Y'a des bou-gnet-tes, Y'a des bou-gnet-tes, En pas-sant par le Bo-nant, Y'a des bou-gnet-tes,et ma-ta-fan
+w:En pas-sant les Py-ré-nnées Y'a de la nei-ge, Y'a de la nei-ge, En pas-sant les Py-ré-nnées Y'a de la nei-ge jus-qu'au nez
+w:En pas-sant le ca-ni-gou Y'a de la nei-ge, Y'a de la nei-ge, En pas-sant le ca-ni-gou Y'a de la nei-ge jus-qu'au cou
+w:En pas-sant l'Hi-ma-la-ya Y'a de la nei-ge, Y'a de la nei-ge, En pas-sant l'Hi-ma-la-ya Y'a de la nei-ge jus-que là
+ggg g2e|ggg g2e|ggg a2g|f2e f3|fff f2d|fff f2d|fff g2f|1 e2d e3:|2c6|]
+W:En passant le canigou
+W:En passant le ...
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (--)
+X:17
+T:Les septs sauts
+R:---
+C:Alsace
+I:abc2nwc
+M:2/4
+L:1/16
+K:C
+cdef g2g2|f2d2 e2c2|cdef g2g2|f2d2 c4:|
+|:d2dd d2d2|e2g2 c4|d2dd d2d2|e2g2 c2
+|:g2||e6:|g2 |]
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (France)
+X:18
+T:L'escloupeto
+R:---
+O:France
+A:Auvergne
+C:Trad.
+I:abc2nwc
+M:3/4
+L:1/18
+Q:3/4=80
+K:C
+c2 Bc de|f2 d2 g2|f2 g4|d6|c2 Bc de|
+f2 d2 g2|f2 g4|d4g2|ag f2 e2|d3 e f2|
+ed c2 d2|e2 d2 g2|ag f2 e2|d3 e f2|ed c2 B2|c6|]
+
+%%footer $D   Galouvielle-MBe 2006 \nMarin congo (France)
+X: 19
+T:Marin congo
+R:Marin congo
+O:France
+A:Languedoc
+C:Trad.
+M:2/4
+L:1/8
+Q:1/4=106
+K:C
+"C"cd ed/2c/2|"G"dd G2|"C"cd eg| [1 g/2f/2e/2d/2 ec :| [2 g/2f/2e/2d/2 c2|:
+"C"gg/2f/2 ee/2f/2|ga g2|cd eg| [1 g/2f/2e/2d/2 ec:| [2 g/2f/2e/2d/2 c2|]
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (--)
+X: 20
+T:Meunier, tu dors
+R:---
+M:4/4
+L:1/4
+K:C
+V:1
+G|c3 e|c3 B/2>c/2|d d/2>d/2 d c/2>d/2|e2 c G|c3 e|c3 B/2>c/2|d d/2>d/2 d e/2>d/2|c
+(3e/2e/2e/2 (3e/2e/2e/2 e/2e/2|g/2g/2 (3d/2d/2d/2 (3d/2d/2d/2 g/2g/2|e (3e/2e/2e/2 (3e/2e/2e/2 e/2e/2|g/2g/2 (3d/2d/2d/2 (3d/2d/2d/2 g/2g/2 c2 ||
+G/2c/2 c/2c/2 c|c/2e/2 e/2e/2 c|B/2c/2 d/2d/2 d|d/2d/2 c/2d/2 e c|
+G/2c/2 c/2c/2 c|c/2e/2 e/2e/2 c|B/2c/2 d/2d/2 d|d/2f/2 e/2d/2 c|]
+
+%%footer $D   Galouvielle-MBe 2006 \nRonde (France)
+X:21
+T:Mon père a tué le loup
+R:Ronde
+C:Recueillie par Madame Messager,
+C:à Saint-Léonard de Wains (Avranchin)
+A:Normandie
+O:France
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-05-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+Q:110
+K:G
+z3 [P:A]G2A|B2c B2A|G3 B2c|d2 d B2c|!breath!d3 GGA|B2 c B2A|!
+w:Mon pèr' a tu-é le loup Mon pèr' a tu-é le loup a-vec son grand be-zi be-
+G3 BBc|d2 d B2c|d3-d2Hz|[P:B]d2 d d2 d|dcB c2-c|A2B c2c|!
+w:zou A-vec son grand pas-se par-tout_ Ah~! Dan-sons en-core un pe-tit_ Ce gen-til pe-
+cBA B2!breath!G|B2c d2d|dcB c3|ABc d3|cBA G3||
+w:tit pe-tit bran-le Ah~! Dan-sons en-core un pe-tit Ce pe-tit bran-le si jo-li.
+
+%%footer $D   Galouvielle-MBe 2006 \nRonde (France)
+X: 22
+T:Nous n'irons plus au bois
+O:France
+R:Ronde
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-09-10
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+Q:1/4=116
+K:C
+Z4 | z4 |: [P:A] zc ef | g2c'2 | g>a gf | e2 d2 | cc ef | g2c'2 | g>a gf | e2d2 | c2z2 ||
+P:B
+c>c cd | c2 G2 | c>c cd | c2G2 | g2e2 | g2e2 | d>e fe | d2g2 | c2 z2 |]
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (--)
+X: 23
+T:Polka des bébés ou badina
+R:---
+C:Bresse
+%%continueall 1
+I:abc2nwc
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-09-10
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+K:C
+G2||c3d e2f2|g3a g2e2|f3g f2d2|[c2e2] z2z2G2|c3d e2f2|g3a g2e2|f3g f2d2|[ce] zg2 a3g|e3c c2B2|B zg2 a3g|f3d d2c2|c zg2 c'2c'2|c'3g b2b2|b3g bagf|e2d2 e2e2|e zg2 a3g|e3c c2B2|B zg2 a3g|f3d d2c2|c zg2 c'2c'2|c'3g b2b2|b3g bagf|e2d2[c2e2][c2e2] |[c2e2] z2z2z2|]
+w:Je t'ai ben vu Mar-gol~! Cli-gnant de l'oe pou-rihe au-to Moai, je t'ai vu toi-not~! Re-lu-quant la voi-sine ai-to Te vout m'lais-si, bra-va Mar-got~! Je t'ai sur-pris, lor-gnant Jean-not~! Bein, faes l'dan-si, Ma chère A-mie Moai je m'en vas chan-gi de com-pa-gnie que tes donc niais, Mon grous Toi-not~! Je le con-nais il est d'ves-nos Mais, c'que t'as dit mon cher A-mi faet que, drait voir, av'
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (--)
+X:24
+T:Pour passer le Rhône
+R:---
+C:Provence
+I:abc2nwc
+M:2/4
+L:1/16
+K:Eb
+c2g2 g4|f4g2g2|d2f2 e4|d4e2c2|c2g2 g4|
+f4g2g2|d2f2 e4|d4c4|c2d2 e2e2|d2d2 c2G2|
+c2d2 e4|d4c4|c2d2 e2e2|d2d2 c2G2|c2d2 e4|d4c4|]
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (--)
+X:25
+T:Ramalinho
+R:---
+C:Portugal
+I:abc2nwc
+M:2/4
+L:1/16
+K:C
+g2g2 g3e|g2e2 d4|g2g2 g3f|e2d2 c4|g2g2 g3e|
+g2e2 d4|g2g2 g3f|e2d2 c4|c2d2 e2fe|d2c2 d2B2|B2c2 d2ed|
+c2B2 c4|c2d2 e2fe|d2c2 d2B2|B2c2 d2ed|c2B2 c4|]
+
+%%footer $D   Galouvielle-MBe 2006 \nRonde (France)
+X: 26
+T:Savez-vous planter les choux
+O:France
+R:Ronde
+C:Trad.
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-11-20
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+K:F
+GG ee de c2 |=Bc dd cd ec|GG ee de c2 |=Bc df ed c2|]
+w:Sa-vez vous plan-ter les choux, à la mo-de à la mo-de, sa-vez vous plan-ter les choux, à la mo-de de chez nous~?
+w:On les plante a-vec le doigt, à la mo-de à la mo-de, on les plante a-vec le doigt, à la mo-de de chez nous~!
+W:On les plante avec la main
+W:
+W:On les plante avec le coude
+W:
+W:On les plante avec le pied
+W:
+W:On les plante avec le genou
+W:
+W:On les plante avec le front
+W:
+W:On les plante avec le nez
+
+%%footer $D   Galouvielle-MBe 2006 \nTrimazo (France)
+X:27
+T:Trimazo
+R:Trimazo
+O:France
+A:Lorraine
+C:Trad
+I:abc2nwc
+M:2/4
+L:1/16
+K:C
+z2c2 e2f2|g2gf e2d2|c2c2 e2f2|g2gf e2d2|c4c2d2|c2B2 A2B2|c2G2 c2d2|c2B2 A2B2|
+c6g2|e4d4|c4e2c2|d2dd d2f2|e4e2c2|d2dd d2B2|c4e2c2|d2dd d2f2|e4d4|c6g2|e4d4|c8|]
+
+%%footer $D   Galouvielle-MBe 2006 \nRonde (France)
+X: 28
+T:Une cigale
+O:France
+R:Ronde
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-09-10
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+Q:1/4=116
+K:C
+Z8 S |: [P:A] c2 de | d2G2 | cd ec | d4 :|
+w:U-ne ci-ga-le, le beau temps pas-sé le beau temps pas-sé
+[P:B] dd dd | gf ed | c2c2 | dd dd gf ed | c4 S |]
+w:u-ne ci-ga-le, le beau temps pas-sé n'a rien gar-dé.
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (--)
+X:29
+T: Voici le menton
+R:---
+M: 3/4
+L: 1/4
+K: G
+V: 1
+G/B/ d/g/ d|G/B/ d/g/ d|
+w: Voi-ci le men-ton, voi-ci ton p'tit nez,
+d/d/ e d|c A|c/c/ d c|B G|
+w: Pe-tits doigts qui dan-sent, Pe-tits doigts qui dan-sent,
+G/B/ d/g/ d|G/B/ d/g/ d|
+w: Voi-ci le men-ton, voi-ci ton p'tit nez,
+d/d/ e d|c A|c/c/ B A|G2|]
+w: Pe-tits doigts qui dan-sent, Pe-tits doigts dan-sez!
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (--)
+X:30
+T:Yesh
+R:---
+C:Israël
+I:abc2nwc
+M:2/4
+L:1/16
+K:C
+z2gg g4|z2gg g4|z2gg g2gg|g2gg g4|g4||
+g4g2g2|a2 g4e2|f2f2 e2d2|e2 c6|g4g2g2|a2 g4e2|f2f2 e2d2|c4c4||
+e2g2 c4|e2g2 c4|a2 a4a2|g8|c2e2 g4|f2e2 d4|
+d2f2 e2d2|g8|c2e2 g4|f2e2 d4|d2f2 e2d2|c8|]

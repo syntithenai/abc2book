@@ -1,0 +1,25 @@
+X:125
+T:Toy 9
+C:anon.
+O:England
+B:Jane Pickeringe
+F:http://abc.musicaviva.com/tunes/england/pickeringe-38-gtr.abc
+V:1 Program 1 24 up %Classical guitar
+V:2 Program 1 24 merge down %Classical guitar
+M:6/4
+L:1/4
+Q:1/4=240
+K:A -8va
+V:1
+c2A c>de|f>ef B2B|c>de e>fg|[1a2e cA2:|[2a2e cA=g||
+V:2
+A,6|D3 E3|A,3 E3|[1A3 A,3:|[2A3 A,2z||
+V:1
+|:f2e dB=g|f2e dB=g|f2e f2g|[1a2e cA=g:|[2a2e cA2|]
+V:2
+|:D6|D6|D3- D2E|[1A3 A,2 z:|[2A3 A3|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

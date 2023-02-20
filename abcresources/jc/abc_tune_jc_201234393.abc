@@ -1,0 +1,24 @@
+X: 20482
+T: Carrallan's Lament
+%R: air, waltz
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.48 #2
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"(TAG) |\
+TE3 D E>G | {G2}A4 d2 | (TBA)(Bc)(TBA) | G4 (g>^f) |\
+e>de>ga>b | G3 A B>d | A4 G>B | A4 :: (b/a/g) |\
+Te3 d e>g | a3 gb>g |
+a3 gb>g | a4 g>a |\
+b2 (c'b)(ag) | e4 g>e | d>ed>B A>B | G4 (g>^f) |\
+(e>d)(e>g)(a>b) | G3 A B>d | A4 G>B | A4 :|
+|: (TA>G) |\
+E2 (ed)(cB) | TA4 B2 | d3 B TA>G | G3 A B2 |\
+b3 a b/a/g | G3 A B>d | A3 e Td>B | {B2}A4 :: a>g |\
+e3 d e>g | a3 g e>g |
+(a>g)(a>g) e>g | a4 (Tg>e) |\
+ga b2 Tag | e4 (d/e/g) | {e}d3 B A>B | G4 (g>a) |\
+{ga}b3 a g2 | G3 g (e/d/)B | A3 g (e/d/)B | A4 :|

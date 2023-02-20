@@ -1,0 +1,23 @@
+X: 2114
+T: Auld Springs (Tunes) gees nae Price
+%R: march, strathspey
+N: This is version 2, for ABC software that understands voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.2 p.11 #4
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: The sustained G bass in bars 7,9 might also be in bar 8; the PDF image is a bit fuzzy there (and in bars 9,11).
+N: The ABC1 version may be slightly more readable in bass bars 7,9, but this is closer to the book's 2-voice notation. 
+M: C
+L: 1/8
+Q: "SLOW"
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+G2 {G}g>e (e/d/)c/B/ d2 | GA/B/ gB TA>GAB | G2 {f}g>e e/d/c/B/ d2 | (g3/a//b//) ag Te>deg :| (gb)(eg) de {c}TB2 | de/f/ gB TA>GAB |
+gbeg de{c}TB2 | de/f/ gd Te>deg || (gb)(eg) de/d/ (c<B) | de/f/ gB TA>GAB | G2 {G}g>e (e/d/)c/B/ d2 | (g3/a//b//) ag Te>deg |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+G2G2 G2G2 | G2g2 d2D2 | G2g2 G2G2 | G2B2 c2G2 :| b2c'2 bc'g2 | g2G2 d2D2 |
+b2c'2 x4 & g4 bc'g2 | b2g2 c'2c2 || b2c'2 x4 & g4 bc'g2 | b2g2 d'2d2 | G2Bc B2G2 | b2g2 c'2g2 |]

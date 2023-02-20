@@ -1,0 +1,38 @@
+X: 2030
+T: the Green Room
+R: reel, march
+B: John Walsh "Caledonian Country Dances"
+S: http://petrucci.mus.auth.gr/imglnks/usimg/5/50/IMSLP98359-PMLP202128-walsh_caledonian_country_dance_vol2.1.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+N: The meter was actually just "2".
+N: The 2nd part has initial repeat but no final repeat.
+N: The dance description uses a thick _ character, apparently to separate dance phrases.
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+ed |\
+c2A2A2B2 | Tc4c2e2 | d2c2B2A2 | BAGF E2ed |\
+c2A2A2B2 | Tc4c2e2 | d2c2TB4 | A6 :|
+|: ba |\
+g2e2e2f2 | Tg4g2b2 | a2g2f2e2 | fe^dc B2ba |\
+g2e2e2f2 | Tg4g2b2 | a2g2Tf4 | e6 ga |
+b2d2Td4 | b2d2Td4 | b2d2d2d2 | c2B2 A2fg |\
+a2c2Tc4 | a2c2Tc4 |  a2c2B2A2 | G2F2 E2ed |
+Tc2A2A2c2 | Tc4c2e2 | d2c2TB4 | A6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+A8 | A8 | d4f4 | e4g4 | a4z4 | A4c4 | d4e4 | a6 :|
+|: z2 \
+e8 | e8 | f4c'4 | b4 z2^d2 | e8 | e8 | a4b4 | e8 |
+g8 | g8 | g4e4 | a4A4 | a8 | a8 | a4^d4 | e4g4 |
+a4z4 | A4c4 | d4e4 | A6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First and 2d Man foot it to their Partners and turn them to the Man's side _
+then foot it to their Partners and turn each into their Places _ First Cu.
+cast off one Cu. and lead up, footing it to the Top, and cast off to the 2d
+Cu.s Place, then the 1st Cu. foot it to the 2d Cu. then to themselves and turn _
+%%endtext

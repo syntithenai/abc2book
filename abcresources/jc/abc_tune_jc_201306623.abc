@@ -1,0 +1,16 @@
+X:443
+T:Manage the Miser
+C:John Young, 1713
+M:3/2
+L:1/4
+%%MIDI gchord fcHcfc
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=100
+K:F
+P:A
+|: "F"f2c2 "Bb"d2 | "F"cA2cAF | "Dm"f2d2 "C"g2 | "Dm"af "G7"dg "C"ec |
+"F"f2c2 "Bb"d2 | "F"cA2d "G7"=Bd | "C"Gg a/g/f/e/ "Dm"f/e/d/c/ | "G"=B/c/d "G7"GB "C"c2 :|
+P:B
+|: "C"g2e2 "C7"g2 | "F"cf2g "Dm"a2 | "A7"b/a/g/f/ e/f/g^c/d/e | "A7"Aae/f/g/a/ "Dm"fd |
+"Gm"b2d2 "C"e2 | "F"a/g/f/e/ "Dm"d/e/f/g/ "C"ec | "F"fcc/d/_e "Bb"d/=e/f | "C"e/f/g "C7"ce "F"f2 :|

@@ -1,0 +1,28 @@
+X: 12
+T: Cambridge Heath
+%R: reel
+B: Thompson "A Favourite Collection of Country Dances 1800", p.12
+F: https://deriv.nls.uk/dcn23/1205/2168/120521683.23.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The first staff's right end is illegible; the repeat is inferred from the dance.
+M: C
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for a US-letter/A4 page size.
+V: 1
+|: {B}b3f dfdB | edcB AcAF | {B}b3f dfdB | ecBA B2B2 :|
+|: c3e edcB | gfed cAGF | c3e defg | ecBA B2B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|: Bbfd B3d | e3=e f2z2 | Bbfd B3d | e2f2 B2z2 :|
+|: fgaf b2z2 | b2B2 f2z2 | fgaf b2z2 | e2f2 B2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First & 2d Cu: hands across & back again .|
+%% lead down the middle & up again .|.
+%% cast off :|.
+%% right & left at top. |
+%%endtext
+%%sep 2 2 400

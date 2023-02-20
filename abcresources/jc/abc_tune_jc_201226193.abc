@@ -1,0 +1,35 @@
+X: 10131
+T: JAVA MARCH
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.13 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+G>G |\
+c2c>c c2G>G | d2d>d d2G>G | edef g2fe | d2d>d d2 G>G |\
+c2c>c c2G>G | d2d>d d2G>G | egfd c2B2 | c2c>c c2 :|
+|: z2 |\
+B2B>c d2d>e | f2f>f f2z2 | c2c>c e2e>^f | g2g>g g2 G>G |\
+c2c>c c2G>G | d2d>d d2G>G | egfd c2B2 | c2c>c c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+G>G |\
+E2E>E E2G>G | G2G>G G2G2 | cBcd e2dc | B2B>B B2 G2 |\
+E2E>E E2c2 | B2B>B B2G2 | c2AF E2D2 | E2E>E E2 :|
+|: z2 |\
+G2G>A B2B>c | d2d>d d2z2 | E2E>G c2c>c | B2B>B B2 G>G |
+E2E>E E2G>G | B2B>B B2G>G | c2AF E2D2 | E2E>E E2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+g2 |\
+c2c>c c2z2 | G2G>G G2z2 | c2B2 c2c2 | G2G>G G2z2 |\
+c2c>c c2z2 | G2G>G G2z2 | c2f2 g2G2 | c2c>c c2 :|
+|: z2 |\
+g2g>g g2g>g | g2g>g g2z2 | c2c>B A2A>A | G2G>G G2z2 |\
+c2c>c c2z2 | G2G>G G2z2 | c2f2 g2G2 | c2c>c c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

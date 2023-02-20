@@ -1,0 +1,5338 @@
+X:2
+T: Hopak Katsatske
+O:klezmer
+T: Kasatske
+M: 2/4
+L: 1/16
+K: G
+|: "G"g4 B2d2 | "D7"cBcA B2G2 | "G"D2G2 B2d2 | "D7"cBcA B2G2 | "G"gfg2  B2d2 | "D7"cBcA B2G2 | "G"D2G2 B2d2 | "D7"dcBA "G"G4 :| [K:C]
+|: "C"G2c2 e4 | "G7"defd "C"e4 | g2g2 "F"a2a2 | "G7"gfed "C"e2c2 | G2c2 e4 | "G7"defd "C"e4 | g2g2 "F"a2a2 | "G7"gfed "C"c4 :|
+
+
+
+
+
+X:3
+T: Hava Nagila
+O:klezmer
+N: At end, the last bar is often played at half speed, with note values doubled.
+M: C
+L: 1/8
+K: Gm
+|: "D"D2 D3 ^F ED | ^F2 F3 A GF | "G"G2 G3 B AG |
+w: Ha-va na-gi-la, ha-va na-gi-la, ha-va na-gi-la,
+|1 "D"^F2 "Cm"E/D/E "D"F4 :|2 "D"^F2 "Cm"E/D/E "D"D4 |: "D"^FF2E DD D2 |
+w: ve ne-s'-ma-cha.  ve ne-s'-ma-cha. Ha-va na-re-ne-na,
+| "Cm"EE2D CC C2 | C2E3D CC G2 |1 "D"^F2 "Cm"E/D/E "D"F4 :|
+w: ha-va na-re-ne-na, ha-va na-re-ne-na, ve ne-s'-ma-cha.
+|2 "D"^F2 "Cm"E/D/E "D"D4 || "Gm"G4 B4 | G2 B2 G2 B2 ||
+w: ve ne-s'-ma-cha. U-ru U-ru a-chim,
+|| "Gm"G/G/G B>A GB AG | G/G/G B>A GB AG |
+w: U-ru a-chim ba-lev sa-me-ach, u-ru a-chim ba-lev sa-me-ach,
+| "Cm"A/A/A c>B Ac BA | A/A/A c>B Ac BA |
+w: U-ru a-chim ba-lev sa-me-ach, u-ru a-chim ba-lev sa-me-ach,
+| "Cm"A/A/A "D"d2 "Cm"A/A/A "D"d>D | "D7"DD (B/A/G/^F/) "Gm"G4 |]
+w: U-ru a-chim U-ru a-chim Ba-lev sa-me-ach.
+
+
+
+
+
+X:5
+T: Anniversary Waltz
+T: Chanesse Valts
+O:klezmer
+L: 1/4
+M: 3/4
+R: Waltz
+K: Bb
+|: "D7"D3- |D ^F G | A3-     | A ^F D | "Gm"B3- | B A  G | D3-     | "G7"D3 |
+|  "Cm"e3- | e d c | "Gm"d3- | d c B  | "D7"A3- | A B A  | "Gm"G3- | G3:|
+G/4A/4B/4 c/4d/4e/4f/4  |: "Eb"[ge] [ge]>[ge] | [ge] [ge]>[ge] | "Bb"[ge] [fd]>[=e^c] | [f3d]
+| "Cm"[ec] [ec]>[ec] | [ec] [ec]>[ec] | "Gm"[ec] [dB]>[^c^A] | [d3B] |
+| "D7"[cA] [cA]>[cA] | [cA] [cA]>[cA] | "Gm"[cA] [BG]>[A^F] | [G2D] [gB]
+| "Cm"[ec] [cG] [AE] | "D7"[B2D] [A^F] | "Gm"[G3G]- | [G3G] :|
+
+
+
+
+
+X:6
+T: Sherele
+O:klezmer
+L:1/8
+M:4/4
+Q:1/4=180
+K:Cm
+|"G" GF=EF G2 A2| G8 | =BAGA B2 c2 | d8 |de f2 f2 f2|
+fe ed dc c=B| =Bc d2 d2 d2| dc c=B BA AG| F=E FG Ac =BA| G8 :|
+"Cm" c3 G/2c/2 e3 c/2e/2 | g8 | gf fe ed dc | "G" d8|
+d3 e f3 g| a8 | gf fe ed dc | e4 (3g^fe (3edc |
+"Cm" c3 G/2c/2 e3 c/2e/2 | g8 | gf fe ed dc | "G" d8|
+d3 e f3 g| a8 | gf fe ed dc | c3 d/2e/2 c3 z|
+"G" dc =B2 BA G2| Gc=Bc d z g z| dc =B2 BA G2 |  AGFA "G" G4|
+"G" dc =B2 BA G2| Gc=Bc d z g z| dc =B2 BA G2 |  AGFc "G" G4|
+
+
+
+
+
+X:7
+T: Adir Hu
+O:klezmer
+R: freilach
+Z: John Chambers <jc@trillian.mit.edu>
+K: D_B_e^F
+|: "D"FG AB A4 | FG AB A2 A2 | FG AB "Cm"cc2 B | AG FE "D"D4 :|
+|: "D"D2 A2 A4 | "Cm"AG BA "Gm"G3 G |1 "Eb"G2 A2 F2 G2 | "D"A6 z2 :|2 "Eb"G2 A2 F2 E2 | "D"D6 d>c ||
+|: "D"d6 d>c | "Bb"d6 zd |1 "Cm"e2 d2 c2 B2 | "D"A6 d>c :|2 "Cm"e2 d2 c2 B2 | "D"A6 z2 ||
+|: "D"D2 A2 A4 | "Cm"AG BA "Gm"G3 G |1 "Eb"G2 A2 F2 G2 | "D"A6 z2 :|2 "Eb"G2 A2 F2 E2 | "D"D6 z2 |]
+
+
+
+
+
+X:9
+T: Anniversary Waltz (Chanesse Valts)
+O:klezmer
+Z: John Chambers <jc@trillian.mit.edu>
+L: 1/4
+M: 3/4
+R: Waltz
+K: Gm
+|: "D7"D3- |D ^F G | A3- | A ^F D | "Gm"B3- | B A G | d3- | "G7"d3 |
+| "Cm"e3- | e d c | "Gm"d3- | d c B | "D7"A3- | A B A | "Gm"G3- | G3 :|
+%G/4A/4B/4 c/4d/4e/4f/4 \
+|: {GABcdef}"Eb"[ge] [ge]>[ge] | [ge] [ge]>[ge] | "Bb"[ge] [fd]>[=e^c] | [f3d] \
+| "Cm"[ec] [ec]>[ec] | [ec] [ec]>[ec] | "Gm"[ec] [dB]>[^c^A] | [d3B] |
+| "D7"[cA] [cA]>[cA] | [cA] [cA]>[cA] | "Gm"[cA] [BG]>[A^F] | [G2D] [gB] \
+| "Cm"[ec] [cG] [AE] | "D7"[B2D] [A^F] | "Gm"[G3G]- | [G3G] :|
+
+
+
+
+
+X:11
+T:At va'ani
+O:klezmer
+M:4/4
+L:1/8
+S:Deborah Jones/Vancouver IFD 1982
+Z:Seymour.Shlien@crc.doc.ca
+K:E
+|: "E" B, E2 F EFGA | B8 | "C#m" cGGF G2 "F#m" GB | "G#" G8 |
+"E" B, E2 F EFGA | B8 |1 "D" AFE=D "C" =C2 EF | "E" E8 :|2 "D" AFFA "G#m" G2 GB | "C#m" c8 |
+"C#m" G2 cB c2 G2 |"F#" ^ABGF "G#m" G2 G2 | "D" =ABGF "E" E2 EG | "F#" F8 |
+"C#m" Gc cB c2 "^D" d2 | "G#m" B^A B2-B2 "C7" c2 | "F#7" ^ABGF EFAG | "G#" G8 |
+
+
+
+
+
+X:12
+T: Baym Rebin's Sude (At the Rabbi's Table)
+O:klezmer
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: E^G
+"(A)"ED \
+|: "E"^CDE2 E2E2 | E8 | "E"GAB2 "Dm"AGF2 | "E"E8 \
+| G4 "Am"A4 | "E"B4 "Am"A4 | "E"G6 F2 | G2F2 E2D2 |
+| "E"^CDE2 E2E2 | E8 | EFG2 "Dm"FED2 | D8 \
+| d2c2 B2A2 | G2D2 E2F2 | "E"E8- | E4 z4 :|
+|: "Am"E2A2 G2A2 | "E7"B2c2 B2E2 | "Am"A6 Bc | A8 \
+| "Dm"d4 "E7"e4 | "Dm"d4 "Am"c4 | "E"B6 A2 | B2A2 G4 |
+| "E"G4 "Am"A4 | "E"B4 "Am"A4 | "E"G6 F2 | G2F2 E2D2 \
+| "Dm"G2A2 A2A2 | GBAG FEDF | "E"E4- | EGBG | E8 :|
+|: "Am"cBcB cBA2 | "Dm"AGAG AGF2 | "E"EFG2 "Dm"FED2 | D8 \
+| G2A2 A2A2 | GBA2 G2A2 | "E"B4- BAGF | E8 |
+| "Am"cBcB cBA2 | "Dm"AGAG AGF2 | "E"EFG2 "Dm"FED2 | D8 \
+| "Dm"d2c2 B2A2 | G2D2 E2F2 | "E"E8- | E8 :|
+
+
+
+
+
+X:14
+T: la Belle Cath\'erine
+O:klezmer
+R: reel
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: C
+|: "C"EGce dcc2 | EGce dcc2 | "G7"Bcde fefg |1,3 ag^fg "C"ecc2 :|2,4 ag"G7"ed "C"c2z2 :|
+|: "C"eg~g2 gagf | eg~g2 "F"[a4f4] | "G"~g2^fg bagf |1,3 ag^fg "C"ecc2 :|2,4 ag"G7"ed "C"c2z2 :|
+%%sep 8 8 8cm
+
+
+
+
+
+X:16
+T: Epstein Bulgar (v.1)
+O:klezmer
+R: bulgar, freilach
+Z: John Chambers <jc@trillian.mit.edu>
+S: Ben Pasamanick
+M: 4/4
+L: 1/8
+K: Cm
+(5G/A/G/^F/G/ \
+| "Cm"A2 G2 F2 (3{F}EDE | "G7"D4 zG,=B,D \
+| F3 ^F (3GFE (3{F}EDC | "Cm"DE3- EA/G/ ^FG |
+| "Cm"e>e "G"d>d "Cm"c>c "C7"B>B | "Fm"A>A "G"G>G "Fm"F3 ^F \
+| "G7"^FG2=F (3GFE E/D/C/=B,/ | "Cm"C4 z :|
+|: (5G/A/G/^F/G/ \
+| "G"=B4 z(5G/A/G/^F/G/ | "Cm"c4 zG,=B,D \
+| "G7"F3 ^F (3GFE (3{F}EDC | "Cm"DE3- EGAG |
+| "G"=B4 z(5G/A/G/^F/G/ | "Cm"c3G GA/G/ FE \
+| "G"DB, =B,^F (3GFE {F}E/D/C/=B,/ | "Cm"C4 z :|
+K:C
+|: GAG \
+| "C"cz zE Gz zF | E/F/G/F/ ED CG _GF \
+| E>G AG cE GC | EG, CD EF/E/ DC | "G7"D>E FG EF/E/ DC |
+| "C"^FG3- G3G | EG e_e d_d cB \
+| _BA _AG F{GF}E DC | "G7"D>E FA G{AG}F E{FE}D | "C"C4 z :|
+
+
+
+
+
+X:18
+T: Epstein Bulgar (v.2)
+O:klezmer
+R: bulgar, freilach
+Z: John Chambers <jc@trillian.mit.edu>
+S: Rob Mendel <rammsw@email.msn.COM>
+M: 4/4
+L: 1/8
+K: Cm
+G^FG \
+| "Cm"A2 G2 F2 E2 | "G7"D4- DG,=B,D \
+| ^F G2 ^F G/F/E E/D/C | "Cm"^F G3- GG ^FG |
+| "Cm"e2 d2 c2 "C7"B2 | "Fm"A2 G2 F3 A \
+| "G7"^FG2F G/F/E E/D/C | "Cm"C4 z :|
+|: GAG \
+| "G"=B3c dGAG | "Cm"c3d eGce \
+| "G7"^FG2F (3GFE (3EDC |1 "Cm"^FG3 z :|2"Cm"C4 z || [K:C]
+|: z zG \
+| "C"cz zE Gz zF | (3EFG FED CG _GF \
+| EG AG cE GC | EG, CD EF/E/ DC | "G7"D>E FG EC DC |
+| "C"^FG3- G3G | EG e_e d_d cB \
+| _BA _AG _GF E_E | "G7"D>E FG EC DC |1 "C"^FG3 z:|2 "C"C4 z |]
+
+
+
+
+
+X:20
+T: Hasidic Waltz
+O:klezmer
+S: Marianne Cygnel Oct 1999
+R: waltz
+M: 3/4
+L: 1/4
+K: Gm
+D \
+| "Gm"BAG | "D7"AG>^F | "Eb"GB>G | "D7"^F/E/D>D \
+| "Gm"G/G/GG | "F"AGA | "Bb"B3- | B2G |
+| "Cm"c/c/cc | "Gm"BB2 | "D7"ABA | "Gm"GD2 \
+| BAG | "D7"AG^F | "Gm"G3- | G2 :|
+|: c/d/ \
+| "Gm"ddd | f=ed | "Bbdim"^c>BA/G/ | "Gm"A/B/G2 \
+|1 ddd | "A7"^cAc | "D"d3- | d2 \
+:|2 "Gm"d^cB | d^cB | "D"A/G/AB | "D7"A3 ||
+|| "Bb"dcB | "D"AD/^F/A | "D7"c d/c/ B/A/ | "Gm"G/B/ d/B/ G \
+| "Bb"BBB | "F7"cBc | "Bb"d3- | d2 B/c/ |
+| "Gm"dcB | "D"AD/^F/A | "D7"c d/c/ B/A/ | "Gm"G/B/ d/B/ G \
+| "Eb"BAG | "D7"AG^F/A/ | "Gm"G3- | G2z |]
+%%sep 5 5 5cm
+
+
+
+
+
+X:22
+T: Josefins dopvals
+T: Josefin's baptism waltz
+O:klezmer
+C: Roger Tallroth
+N: Josefin is Roger's niece.
+Z: John Chambers <jc@trillian.mit.edu>
+D: V\"asen, "Spirit"
+D: Dervish, "At the End of the Day"
+M: 3/4
+L: 1/4
+K: G
+|: z"D7"D \
+| "G"DGA | Bdc | BAG | D2E \
+| "C"C>CC |1,3 EGF | "Am"E3 | "D7"D3 \
+:|2,4 "C"[EC]FG | "D7"A3- | A :|
+|: Bc | "G"dBd | g2f | "C"e3 | "G"d3 \
+| "C"ced | cGA | "G"B>cB | "D7"ABc \
+| "G"dBd | g2f | "C"e3 | "G"d3 |
+| "C"ced | "D7"cBA | "G"B>cB | "D7"ABc \
+| "G"BAG | "D7"F2G | "C"G3 | C>DC \
+| "G"B,DG | "D7"FEF | "G"G3- | G :|
+
+
+
+
+
+X:23
+T: Od Yishoma
+O:klezmer
+C: Carlebach
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+N: Klez Camp 1998
+M: 2/4
+L: 1/8
+K: Em
+|: "Em"E2 E2 | B,E2E | G2 G>G | EG3 | "Am"A2 A2 | EA2c |1 "B7"BA GA | "Em"B4 :|2 "B7"BA GF | "Em"E4 |]
+|: "G"Bc dB | ed2c | "E7"Bc dB | "Am"c2-c2 | AB cA | "D7"dc2c |1 BA GA | "G"B4 :|2 "B7"BA GF | "Em"E4 |]
+%%sep 0 1 8cm
+
+
+
+
+
+X:25
+T: Khupa jig #2
+O:klezmer
+D: Abe Schwartz "Masters of Klezmer Music" v.1 (Global Village 126)
+Z: John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+|: E \
+| "Am"EA^G "E7"GBA | "Am"AcB "E7"Bdc | "Am"ced "Dm"dfe | "Am"e>dc/d/ e3 |
+| "Dm"dfB "(E7)"BdB | "Am"ceA AcA | "E7"e^Gd Tc2B | "Am"BcA- A2 :|
+|: (3G/A/B/ \
+| "C"Tc3- cGe | Tc3- cGe | cGe cGe | cGe f>ed/c/ |
+| "G7"TB3- BGd | TB3- B2g | gfe edc | "C"dec- c2 :|
+|: E \
+| "Am"e2c "E7"d2B | "Am"c2A "E7"B2E | "Am"A^GA cBA | "E"B>A^G/F/ E3 |
+| "Dm"fed "Am"edc | "E7"dcB "Am"cBA | "E7"edc  cBA | "Am"BcA- A2 :|
+
+
+
+
+
+X:27
+T: Khupa tanz #2
+O:klezmer
+D: Abe Schwartz "Masters of Klezmer Music" v.1 (Global Village 126)
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Am
+|: E2  | "Am"EAA^G "E7"GBBA | "Am"AccB "E7"Bddc | "Am"ceed "Dm"dffe | "Am"edcd e4 |
+| "Dm"dffB "(E7)"BddB | "Am"ceeA AccA | "E7"e^GBd Tc3B | "Am"BcA2- A2 :|
+|: (3GAB  | "C"Tc4- cGeG | Tc4- cGeG | cGeG cGeG | cGeG fedc |
+| "G7"TB4- BGdG | TB6 g2- | gffe eddc | "C"dec2- c2 :|
+|: E2  | "Am"e3c "E7"d3B | "Am"c3A "E7"B3E | "Am"A^GAB cBAc | "E"BA^GF E4 |
+| "Dm"fedf "Am"edce | "E7"dcBd "Am"cBA2 | "E7"eddc cBBA | "Am"BcA2- A2 :|
+
+
+
+
+
+X:29
+T: Kesh Jig (Kincora Jig)
+O:klezmer
+R: jig
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D  | "G"~G3 GAB | "D7"~A3 ABd | "G"edd gdd | "D7"edB dBA
+| "G"~G3 "(Em)"GAB | "Am"~A3 "D7"ABd | "G"edd gdB | "D7"AGF "G"G2 :|
+|: A  | "G"~B3 dBd | "C"ege "G"dBG | "G"~B3 dBG | "Am"~A3 "D7"AGA
+| "G"~B3 dBd | "C"ege "G"dBd | "C"~g3 aga | "D7"bgf "G"g2 :|
+
+
+
+
+
+X:30
+T: der Heyser Jig
+O:klezmer
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+B: Henry Sapoznik, "The Compleat Klezmer".
+D: Naftule Brandwein Orchestra, 1923
+N:
+N: Original in 2/4, but with many triplets in melody.
+N: 8 repeated bars deleted from A phrase.
+M: 6/8
+L: 1/8
+K: Am
+E ^G2A \
+| "E"B2B B3 | Bcd "Dm"cBA | "E"B2B ^G3- | G2E G2A | "E"B3 z2e | eBd "Dm"cBA | "E"B2B ^G3- | G2E ^G2A |
+| "E"B2A c2B | A2^G F2E | "Dm"A2A D3- | D2D F2A | def  edc | Bcd cBA | "(E)"^GAB "Dm"AGF | "E"E2E A2c |]
+[| "Am"^de2- e2e | e^dc c3 | B=dc c2c | ~B2A ^G2A | "E"^G2A B2c | "Dm"dBd cBA | "E"B6 | z2E A2c |
+|  "Am"^de2- e2e | e^dc c3 | B=dc c2c | ~B2A ^G2A | "E"^G2A B2c | "Dm"d2c cBA | A^GF FED | "E"E2z z2B, |]
+[| "E"Ez2 z3 | Bz2 "(Am)"cBA | "E"^GAB AGF | ^G2A ^A2B | "E"Ez2 z3 | Bz2 cBA | "E"^GAB "Am"cBA | "E"BA^G "Dm"FED |
+|  "E"Ez2 z3 | Bz2 "(Am)"cBA | ^G2A ^A2B | "Dm"=cd2- d3 | def  edc | Bcd cBA | "(E)"^GAB "Dm"AGF | "E"E2E E2_E |]
+[| "Dm"D3 E2F | FED A3 | ^GAB AGF | E2D ^G2A | D3 E2F | E2D d3 | dcB cBA | BA^G AGF |
+|  "Dm"D3 E2F | FED A3 | ^GAB AGF | E2D ^G2A | D3 E2F | E2D A3 | "E"^GAB "Dm"AGF | "E"E2 |]
+
+
+
+
+
+X:32
+T: Jump At the Sun
+O:klezmer
+C: John Kirkpatrick 1972
+M: 6/8
+Z: Transcribed to abc by Mary Lou KnackR: jig
+K: Em
+|: "Em"EGB ^A2B  | EGB ^A2B  | eBB eBB  |BAG "B"F3  |
+"Em"EGB ^A2B  | EGB ^A2B  |eBB "Am"cB=A  | "B7"GAF "Em"E3 :|
+|:"Em"eBB gfe  |"B7"fBB agf  | "Em"gfe gfe  | "B"f^dB "B7"c2B  |
+"Em"eBB gfe  | "B7"fBB agf  | "Em"eBB "Am"cBA  |"B7"GAF "Em"E3 :|
+
+
+
+
+
+X:34
+T: Bulgar: Charles Corman's
+O:klezmer
+C: Charles Corman (Kammen 9#15)
+B: Kammen 9 #15Z: John Chambers <jc@trillian.mit.edu>R: Bulgar
+M: 2/4
+L: 1/16
+K: Em
+B,2C2^D2  |: "Em"E2B,2 GFE2 | E2B,2 GFE2 | ^DF (E6 |
+E)E^DE ^EFG^G | "Am"A2E2 cBA2 | A2E2 cBA2 || ^GB (A6 |
+A2)^G2 A2^A2 | "B7"^A^c(B6 | B2)F2 G2A2 | "Em"({A}G8 |
+G2)Bd c2B2  | "(B7)"B2E2 F2G2 | "B7"(3B2^A2G2 (3G2F2E2 | "Em"E8- | E2z6 :|
+[K:D]E2G2B2  |: "Em"e2d2 c2B2 | ^A2B2 ced2 | c2B2 ^A2G2 |
+F2G2 ^A2B2 | c2B2 ^A2G2 | ^A2G2 F2E2 | ^Ac(B6 |
+B)B^AB "B7"^Bcd^d || "Em"e2d2 c2B2 | ^A2B2 ced2 | c2B2 ^A2G2 |
+F2G2 ^A2B2 | c2B2 ^A2G2 | ^A2G2 F2E2 | FG(E6 |1E2)"B7"B2 c2^d2 :|2 "E"E2z6 |]
+
+
+
+
+
+X:36
+T: Bulgar: Henry Weinstein's
+O:klezmer
+C: Henry Weinstein (Kammen 9 #19)
+B: Kammen 9 #19Z: John Chambers <jc@trillian.mit.edu>R: Bulgar
+M: 2/4
+L: 1/8
+K: Em
+|: EGB  | "Em"e^d eB- | B^A B2 | GF GE- |
+EE FG | "Am"A3 G | "B7"B/^A/G G/F/E | "Em"^A/=c/ B3- |
+BE GB | "Em"e^d eB- | B^A B2 |
+GF GE- | EE FG | "Am"A3 G | "B7"B/^A/G G/F/E |
+"Em"E4-        | E :||: "D7"d[e=c][f_c]  | "G"[gB][dB] [gB][bd]- |
+[bd][gB] [b2d] | [d'b][bg] [d'b][bg]- | [b4g]  | "D7"[a3f] [bg] | [c'a][d'/b][c'/a] [bg][af] |
+"G"[^af] [b3g]- | [bg]d "D7"[e=c][f_c] | "G"[gB][dB] [gB][bd]- |
+[bd][gB] [b2d] | [d'b][bg] [d'b][bg]- | [b4g]  |  "D7"[d'3b] [bg] | [d'/b][c'/a][bg] [c'/a/][b/g/][af] |
+"G"[g4g]- | g :||: G"B7"F^D  | "Em"E4- |
+E[F^D] [GE][AF] | [B4G]- | [BG]G FE | "B7"^D2 F2 |
+c3 ^A | "Em"B3 ^A | B/^A/G G/F/E |
+"Em"E4- | E[F^D] "E7"[GE][^G=D] | "Am"[A4C] | [c2E] z2 |
+"Em"BE FG | "B7"B/^A/G G/F/E | "Em"E4- | E :|
+
+
+
+
+
+X:38
+T: Russian Freilach (Bm)
+O:klezmer
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Bm
+|: "Bm"B2 FB | FB FB | d2 Bd | Bd Bd \
+| f2 df | "Em"e2 ce |1 "Bm"d2 Bd | "F7"c2 f2 :|2 "F7"d2 cB | "Bm"B4 |]
+[| "Bm"zf ga | gf ed | zf ga | gf ed | zf ga | "B7"ba gf | "Em"e2 gf | e4 |
+| "A7"ze fg | ag fe | "D"d2 fe | d3 d | dA Ad | "C/Am"d=c cB | "Bm"B4- | B4 |]
+
+
+
+
+
+X:39
+T: Russian Freilach (Am)
+O:klezmer
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Am
+|: "Am"A2 EA | EA EA | c2 Ac | Ac Ac \
+| e2 ce | "Dm"d2 Bd |1 "Am"c2 Ac | "E7"B2 e2 :|2 "E7"c2 BA | "Am"A4 |]
+[| "Am"ze fg | fe dc | ze fg | fe dc | ze fg | "A7"ag fe | "Dm"d2 fe | d4 |
+| "G7"zd ef | gf ed | "C"c2 ed | c3 c | cG Gc | "Bb/Gm"c_B BA | "Am"A4- | A4 |]
+
+
+
+
+
+X:40
+T: Bulgar: Joe Kutcher's #1
+O:klezmer
+C: Joe Kutcher (Kammen 9#13)
+Z: John Chambers <jc@trillian.mit.edu>
+N: (1) The original had several more bars of Cm here.
+B: Kammen 9 #13
+R: Bulgar
+M: 2/4
+L: 1/8
+K: Am
+E^GA \
+|: "E"B4-    | BB "Am"c/B/A        | "E"c B3-  | B^G  "Dm"{B}A/G/F \
+|  "E"A ^G3- | "E"^GE "Dm"{G}F/E/D | "E"EF ^GA | Bc ^de            |
+|  "E"B4-    | Bd "Am"c/B/A        | "E"c B3-  | B^G  "Dm"{B}A/G/F \
+|  "E"A ^G3- | ^GE "Dm"{G}F/E/D    | "E"E4-    | E :|
+"E7"E[cE][BD] \
+|: "Am"[A4C]-      | [AC][cE] [BD][AC]        | "E7"[BD] [^G3B,]- | [^GB,]E [cE][BD] \
+|  "Am"[A3C] e     | "B7"^d/e/^f/e/ ^d/c/B/A/ | "(E)"B4-          | "E7"BE [cE][BD]  |
+|  "Am"A^G "(G)"AB | "(Fc')"cB "(E)"c^c       | "Dm"[d4F]         | "(1)"[d2F] [d2F] \
+|  "E"dB "Am"c/B/A | "E"B^G "Dm"A/G/F         | "E"^GE "Dm"F/E/D  | "E"E  :|
+
+
+
+
+
+X:42
+T: der Shtiller Bulgar (And the Angels Sing)
+O:klezmer
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+B: Kammen 1#15
+B: Kammen 1#15
+M: 2/4
+L: 1/8
+K: D
+|: ABc \
+| "D"d4- | dd/f/ ed | f4- | fg/f/ ed | "A7"ef ga | "D"fd "A7"ec | "D"dd' c'b | ag fe |
+| "D"d4- | dd/f/ ed | f4- | fg/f/ ed | "A7"ef ga | "D"fd "A7"ec | "D"d4- | d :|
+|: dfa \
+| "D"b=c'2c' | =c'/b/a a2 | ^ga2a | a/g/f f2 | b=c'2c' | (3=c'ba ^gab | a4 | [d'3f3]z |
+| "D"b=c'2c' | =c'/b/a a2 | ^ga2a | a/g/f f2 | "A7"ef ga | "D"fd "A7"ec | "D"d4- | d :|
+|: ddc \
+| "Bm"B3 f | ed cd | "Em"e3 d | "(F#)"(3fed (3dcB | "Bm"B3 f | ed cd | f4 | [b3d3]z |
+| "Bm"B3 f | ed cd | "Em"e3 d | "(F#)"(3fed (3dcB | "Bm"c/e/d2d | (3dcB "F7"(3^ABc | "Bm"B4- | B :|
+
+
+
+
+
+X:43
+T: Bulgar: Joe Kutcher's #2
+O:klezmer
+C: Joe Kutcher (Kammen 9#14)
+B: Kammen 9 #14
+Z: John Chambers <jc@trillian.mit.edu>
+R: Bulgar
+M: 2/4
+L: 1/8
+K: Em
+EGB \
+|: "Em"e2 Be-           | eB (3d^cB        | ^A/^c/ B3-     | BE GB \
+|   "Em"e2 Be-          | eB (3d^cB        | ^A/^c/ B3-     | BD GB |
+|   "G"[d2B] [BG][dB]-  | [dB]B "D7"(3cBA  | "Am"^G/B/ A3-  | AF GA \
+|   "G"BG "D"AF         | "Em"GE "B7"F^D   | "Em"E4-        | E    :|
+"D7"d[e^c][f=c] \
+|: "G"[g2B] "D7"[a2c]   | "G"[b2d] [ac][gB]| [bd] [g3B]-    | [g3B] d \
+|  "G"[g2B] "D7"[a2c]   | "G"[b2d] ag      | ^c' d'3-        | d'3 d |
+|  "Gm"[g2_B] "D7"[a2c] | "Gm"[_b2d] ag    | d'^c'/e'/ (3d'^c'_b | "D"a4 \
+|  "Em"gf fg            | ge "Dm"(3=fed    | "Em"e4-        | e    :|
+
+
+
+
+
+X:45
+T: Od Yishoma #2
+O:klezmer
+C: S.Carlebach
+M: 2/4
+L: 1/8
+K: Bm
+| "Bm"B,F EF | "Em"G2 E2 | "Bm"F4- | "F#7"F4 \
+| "Bm"B,F EF | "A7"G2 E2 | "D"F4- | "F#7"F4 |
+| "G"Bd cB | d2 B2 |  "Em"zd cB | A2 G2 \
+| "A7"zA GA | B2 G2 | "D"F4- | "F#7"F4 |
+|: "Bm"Bd2 d | d2 cd | "Em"e2 d2 | "F#7"d2 c2 \
+| Fc2 c | c2 Bc | d2 c2 |1 "Bm"c2 B2 :|2 "Bm"B4 |]
+
+
+
+
+
+X:47
+T: Siman Tov
+O:klezmer
+R: freilach
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+|: "E7"E \
+| "Am"AAAE AAAE | AAAE AAA2 | cccA cccA | cccA ccc2 |
+| "Dm"dddc dddc | "(E7)"ddde "Am"cBA2 |1 "Dm"A2d2 "G7"d2cB | "C"c4 "(E7)"z3:|2 "Dm"A2d2 "E7"d2cB | "Am"A4 z3||
+|: "G7"G \
+| "C"cde2 e2ee | "F"f2f2 "C"e4 | "F"zf2e "G7"eddc |1 "C"e4 z3:|2 "C"c4 z3:|
+|: "E7"E \
+| "Am"ABc2 c2cc | "Dm"d2d2 "Am"c4 | "Dm"zd2c "E7"cBBA |1 "Am"c4 z3:|2 "Am"A4 z3:|
+
+
+
+
+
+X:49
+T: Sher (from Khevrisa)
+O:klezmer
+D: "KHEVRISA - european klezmer music" Smithsonian SFW CD 40486
+B: "Hebrew Wedding Melodies", Wolf Kostakowsky, Brooklyn 1916
+M: 4/4
+L: 1/8
+K: Bm
+|: "D"(fa)(ag) "A/C"(gf)fe | "Bm"efd2- d2e2 | "F#7"fg(fe) de(dc) \
+|1,3 "Bm"B2d2 f2b2 :|2,4 "Bm"B2 B4 B2 :|
+|: "Em"e4 e4 | "A"(ed)(dc) c4 | c2c2 a3g | "D"(gf)fe f2d2 \
+|  "Em"e4 e4 | "A"(ed)(dc) c3B | "(F#m)"(A^G)AB (ce)dc | "Bm"B2 B4 B2 :|
+|: "Bm"b6 f2 | b6 f2 | (fd')c'b (ab)ag | "Em"fae4 e2 \
+| "A"a6 e2 | a6 e2 | (ab)ag (fg)fe | "Bm"ef d4 f2 :|
+|: "Em"gg(gb) "Bm"ff(fb) | "Em"ee(eb) "Bm"d3e | "F#7"(fg)fe (de)dc \
+|1,3 "Bm"B2d2 f2b2 :|2,4 "Bm"B2 B4 B2 :|4 "Bm"B2 B6 :|
+
+
+
+
+
+X:51
+T: der Badchen Freylach
+O:klezmer
+M: 2/4
+L: 1/16
+B: Stacy Phillips, Mel May's Klezmer Collection p.79.
+K: Edor^A
+|: "Em"EB,EG ABAG | {A}B2{A}B2 GFE2 \
+| EB,EG ABAG | {A}B4 B4- \
+| BB,EG ABAG | {A}B2{A}B2 GFE2 |
+| "B7"FGAG FEFG | "Em"E8 \
+:: "Em"Bcdc edcB | ABcd B4 \
+| edcB ABcd | B4 B4 |
+| Bcdc edcB | ABcd B4 \
+|1 Bcdc "B7"Bc ((3GFE) | "Em"FGE2- E4 \
+:|2 ABcB "B7"ABGF | "Em"E8 |]
+
+
+
+
+
+X:52
+T: Flatbush Waltz
+O:klezmer
+C:Andy Statman
+D:Flatbush Waltz; Rounder 00116 (1980)
+Z:John Chambers <jc@trillian.mit.edu>
+L:1/8
+M:3/4
+R:Waltz
+S:Frets Magazine, Dec 1980
+K:Am
+[| "Am"e3 a ed | c2 A2 A2 | e3 a ec | "Dm"d3 f ed \
+| "Am"AB cd ec/e/ | "Dm"dA d2 d2 | "Am"c3 d "Bb"_Bc  | "Am"A2 A, CE Ac ||
+|| "Am"[e3A] [ae] [ec][dB] | [c2A] [A2E] [A2E] | [e3c] [ae] [ec][cA] | "Dm"[d3A] g (3fed \
+| "Am"cd ef ge | "Dm"dA d2 d2 | "Am"c3 d "Bb"_Bc  | "Am"A6 ||
+|| "Am"[c'4e] [bd][ac] | "E7"[bd]E [e^G]B e^g | "F"[a2c] [g3B] [fA] | "C"[e6G] \
+| "Dm"[f2A] [e2G] [d2F] | "Am"[e2G] [a2c] [b2d] | [c'3e] [bd] [c'e][d'f] | "E7"[b6d] ||
+|| "Am"[c'4e] [bd][ac] | "E7"[bd]E [e^G]B e^g | "F"[a2c] [g3B] [fA] | "C"[e6G] \
+| "Dm"[f2A] [e2G] [d2F] | "Am"[e2G] [A2C] [d2F] |  "Am"[c3E] [dF] "Bb"[_BD][cE]  | "Am"[A6C] |]
+
+
+
+
+
+X:54
+T: L'Ma`an Achai
+O:klezmer
+C: Slomo Carlebach
+Z: John Chambers <jc@trillian.mit.edu>
+R: waltz
+M: 3/4
+L: 1/4
+K: Em
+|: B \
+| "Em"B ^A B | g f e | "Am"c6- | c4 c \
+| c B A | g f e | "Em"B3- | B2 B |
+| "Em"B ^A B | g f e | "Am"d c B | A3 \
+| "B7"B3 | f2 g | "Em"e3- | ez :|
+|: e/f/\
+| "Em"g2 g | g f e | g2 g | g f e \
+| "Am"a2 a | b2 a | "Em"g3- | g2 e/f/|
+| "Em"g2 g | g f e | g2 g | g f e \
+| "B7"f2 a | g2 {fef}f | "Em"e3- | ez :|
+
+
+
+
+
+X:55
+T: LeMa`an Achai
+O:klezmer
+C: Slomo Carlebach
+Z: John Chambers <jc@trillian.mit.edu>
+N: Berachot 64A
+R: waltz
+M: 3/4
+L: 1/4
+K: Dm
+|: A \
+w: Le-
+| "Dm"A ^G A | f e d | "Gm"B6- | B4 B \
+w: ma-'an a-chai ve-re-ay le-
+| B A G | f e d | "Dm"A3- | A2 A |
+w: ma-'an a-chai ve-re-ay a-
+| "Dm"(A ^G) A | (f e) d | "Gm"(c B) A | G3 \
+w: dab-ra na a-dab-ra na
+| "A7"A3 | (e2 f) | "Dm"d3- | dz :|
+w: sha-lom bach.
+|: (d/e/) \
+w: le-
+| "Dm"f2 f | (f e) d | f2 f | f e d \
+w: ma-'an beyt ha-shem elo-kei-nu a-
+| "Gm"g2 g | (a2 g) | "Dm"f3- | f2 (d/e/) |
+w: vak-sha tov lach le-
+| "Dm"f2 f | (f e) d | f2 f | f e d \
+w: ma-'an beyt ha-shem elo-kei-nu a-
+| "A7"e2 g | (f2 {ede}e) | "Dm"d3- | dz :|
+w: vak-sha tov lach
+W: On behalf of my brothers and friends, let me say "Peace unto you".
+W: For the sake of the house of the Lord our God, I pray for your good.
+
+
+
+
+
+X:56
+T: A Nacht in Gan Eydn (A Night in the Garden of Eden)
+O:klezmer
+B: Sapoznik "The Compleat Klezmer" p.38
+D:
+M: 2/4
+L: 1/8
+K:Em
+|: B,EF \
+| "Em"G2 FE | G2 FE | FG E2 | "D7"zDGA | "G"B2 AG | B2 AG | AB G2 | "(D7)"zDGB |
+| "G"d2 "D7"c2 | "G"B2 AG | "B7"GA GF | "Em"E3 "D7"D | "G"GA2G | "B7"(3BAG (3GFE | "Em"E4- | E :|
+|: B \
+| "Em"Be ee | eB g/f/e | "E7"^de cB | "Am"A3 A | ^GA Bc | "B7"^de dc | "Em"B4- | B2 "D7"D2 |
+| "G"DG GB | dd "E7"cB | "Am"eA AA | AB/A/ "B7"GF | "Em"E2 BG |1 "B7"AA GA | "Em"B4 | ~e3 :|2 "Am"AA "B7"GF | "Em"E4- | E ||
+|: BcB \
+| "Em"~e4 | "B7"zBGF | "Em"E4 | "B7"ZBcB | "Em"g4- | (3gfe "B7"(3^def | "Em"e4 | zd^cd |
+| "E"e_f ed | "G"^cd =cB | ^cd =cB | "Am"A3G | "Em"GA2G | "B7"(3BAG (3GFE | "Em"E4- | E :|
+
+
+
+
+
+X:58
+T: the Rabbi's Hornpipe
+O:klezmer
+R: hornpipe, shottish
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Gm
+"D7"D2 \
+| "Gm"G>D (3GAB "D7"A>^F D>F | "Gm"G>A B>^c "(D7)"d2 c>d \
+|  "Gm"=e>d ^cB "A7"c>B A>G | "D7"d2 D2 D2 (3D=E^F |
+| "Gm"G>D (3GAB "D7"A>^F D>F | "Gm"G>A B>^c "(D7)"d2 c>d \
+|  "Gm"=e>d ^cB "A7"c>B A>B | "D7"=c>B A>B "Gm"G2 :|
+|: "D7"d2 \
+| "Gm"g>d g>d "G7"g>f e>d | "Cm"e>f e>d c4 \
+| "A7"a>b b>a a>g g>^f | "D7"^f>e e>d d2 d2 |
+| "Gm"g>d g>a b>a g>d | "Cm"e>f e>d c2{dc}=B>c \
+| "D7"^c>d c>d (3BAG A>B | "Gm"G6 :|
+%%sep 8 8 8cm
+
+
+
+
+
+X:61
+T: Shalom Aleichem
+O:klezmer
+D: Andy Statman & David Grisman "Songs of our Fathers"
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: a/8
+K: Am
+| "Am"E2 cB A2 A2 \
+| "E7"^GA BA GF E2 \
+| ^GG G2 "Am"AG Ac \
+| "E7"B4 e4 |
+| "Am"E2 cB A2 A2 \
+| "E7"^GA BA GF E2 \
+| "Dm"D2 A2 ^G2 F{EF}D \
+| "E7"E6 z2 |
+| "C"cd e2 e2 e2 \
+| "G7"dc Bc "E7"de d2 \
+| "Am"cB AB ce dc \
+| "E7"B6 z2 |
+| "Dm"B2 d2 d2 d2 \
+| "E7"df ed "Am"cB AE \
+| c2 BA "E7"B2 A^G \
+| "Am"A6 z2 |]
+
+
+
+
+
+X:68
+T: Baym Rebin's Sude
+T: At the Rabbi's Table
+O:klezmer
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: E^G
+"(A)"ED \
+|: "E"^CDE2 E2E2 | E8 | "E"GAB2 "Dm"AGF2 | "E"E8 \
+| G4 "Am"A4 | "E"B4 "Am"A4 | "E"G6 F2 | G2F2 E2D2 |
+| "E"^CDE2 E2E2 | E8 | EFG2 "Dm"FED2 | D8 \
+| d2c2 B2A2 | G2D2 E2F2 | "E"E8- | E4 z4 :|
+|: "Am"E2A2 G2A2 | "E7"B2c2 B2E2 | "Am"A6 Bc | A8 \
+| "Dm"d4 "E7"e4 | "Dm"d4 "Am"c4 | "E"B6 A2 | B2A2 G4 |
+| "E"G4 "Am"A4 | "E"B4 "Am"A4 | "E"G6 F2 | G2F2 E2D2 \
+| "Dm"G2A2 A2A2 | GBAG FEDF | "E"E4- | EGBG | E8 :|
+|: "Am"cBcB cBA2 | "Dm"AGAG AGF2 | "E"EFG2 "Dm"FED2 | D8 \
+| G2A2 A2A2 | GBA2 G2A2 | "E"B4- BAGF | E8 |
+| "Am"cBcB cBA2 | "Dm"AGAG AGF2 | "E"EFG2 "Dm"FED2 | D8 \
+| "Dm"d2c2 B2A2 | G2D2 E2F2 | "E"E8- | E8 :|
+
+
+
+
+
+X:70
+T: der Shtiller Bulgar
+T: And the Angels Sing
+O:klezmer
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+B: Kammen 1#15
+B: Kammen 1#15
+M: 2/4
+L: 1/8
+K: D
+|: ABc \
+| "D"d4- | dd/f/ ed | f4- | fg/f/ ed | "A7"ef ga | "D"fd "A7"ec | "D"dd' c'b | ag fe |
+| "D"d4- | dd/f/ ed | f4- | fg/f/ ed | "A7"ef ga | "D"fd "A7"ec | "D"d4- | d :|
+|: dfa \
+| "D"b=c'2c' | =c'/b/a a2 | ^ga2a | a/g/f f2 | b=c'2c' | (3=c'ba ^gab | a4 | [d'3f3]z |
+| "D"b=c'2c' | =c'/b/a a2 | ^ga2a | a/g/f f2 | "A7"ef ga | "D"fd "A7"ec | "D"d4- | d :|
+|: ddc \
+| "Bm"B3 f | ed cd | "Em"e3 d | "(F#)"(3fed (3dcB | "Bm"B3 f | ed cd | f4 | [b3d3]z |
+| "Bm"B3 f | ed cd | "Em"e3 d | "(F#)"(3fed (3dcB | "Bm"c/e/d2d | (3dcB "F7"(3^ABc | "Bm"B4- | B :|
+
+
+
+
+
+X:71
+T: Gypsy Bulgar
+O:klezmer
+B: Kammen 9 #9
+C: (Kammen 9#9)
+R: Bulgar
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Amix
+|: "A"[ce][ce] [ce][ce] | [df][eg] [df][ce] | ed2 c | "E7"e/d/c/d/ "A"c :| [K:=f=c]\
+K: Am
+|: "Am"[Ac][Ac] [Ac][Ac] | ^de dc | cB2 A | "E7"c/B/A/^G/ "Am"A2 :|
+|: "Am"cc cB | "F"BA2 A | "Am"cc cB | "F"BA2 A | "Am"Bc dc | "E7"_ed2 c | "Am"(3=edc (3cBA | [Ac]A Bc :|
+|: "Dm"d2 A(d | d)d cB | "Am"c2 A(c | c)c BA | "E7"B2 ^G(B | B)B A^G | "Am"A2 E(A | A) z3 :|
+
+
+
+
+
+X:73
+T:Flatbush Waltz
+O:klezmer
+C:Andy Statman
+D:Flatbush Waltz; Rounder 00116 (1980)
+Z:John Chambers <jc@trillian.mit.edu>
+L:1/8
+M:3/4
+R:Waltz
+S:Frets Magazine, Dec 1980
+K:Dm
+[| "Dm"A3 d AG | F2 D2 D2 | A3 d AF | "Gm"G3 B AG \
+| "Dm"DE FG AF/A/ | "Gm"GD G2 G2 | "Dm"F3 G "Eb"_EF  | "Dm"D3 A,DF ||
+|| "Dm"[A3D] [dA] [AF][GE] | [F2D] [D2A,] [D2A,] | [A3F] [dA] [AF][FD] | "Gm"[G3D] c (3BAG \
+| "Dm"FG AB cA | "Gm"GD G2 G2 | "Dm"F3 G "Eb"_EF  | "Dm"D6 ||
+|| "Dm"[f4A] [eG][dF] | "A7"[eG]A, [A^C]E A^c | "Bb"[d2F] [c3E] [BD] | "F"[A6C] \
+| "Gm"[B2D] [A2C] [G2B,] | "Dm"[A2C] [d2F] [e2G] | [f3A] [eG] [fA][gB] | "A7"[e6G] ||
+|| "Dm"[f4A] [eG][dF] | "A7"[eG]A, [A^C]E A^c | "Bb"[d2F] [c3E] [BD] | "F"[A6C] \
+| "Gm"[B2D] [A2C] [G2B,] | "Dm"[A2C] [D2F,] [G2B,] |  "Dm"[F3A,] [GB,] "Eb"[_EG,][FA,]  | "Dm"[D6F,] |]
+
+
+
+
+
+X:75
+T: Russian Freilach (Dm)
+O:klezmer
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Dm
+|: "Dm"d2 Ad | Ad Ad | f2 df | df df | a2 fa | "Gm"g2 eg |1,3 "Dm"f2 df | "A7"e2 a2 :|2,4 "A7"f2 ed | "Dm"d4 :|
+|: "Dm"za bc' | ba gf | za bc' | ba gf | za bc' | "D7"d'c' ba | "Gm"g2 ba | g4 |
+| "C7"zg ab | c'b ag | "F"f2 ag | f3 f | fc cf | "Eb/Cm"f_e ed | "Dm"d4- | d4 :|
+
+
+
+
+
+X:76
+T: Russian Freilach (Em)
+O:klezmer
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Em
+|: "Em"e2 Be | Be Be | g2 eg | eg eg | b2 gb | "Am"a2 fa |1,3 "Em"g2 eg | "B7"f2 b2 :|2,4 "B7"g2 fe | "Em"e4 :|
+|: "Em"zb c'd' | c'b ag | zb c'd' | c'b ag | zb c'd' | "E7"e'd' c'b | "Am"a2 c'b | a4 |
+| "D7"za bc' | d'c' ba | "G"g2 ba | g3 g | gd dg | "Fc'/Dm"g=f fe | "Em"e4- | e4 :|
+
+
+
+
+
+X:77
+T: Heyser Bulgar, der
+O:klezmer
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+B: Henry Sapoznik, "The Compleat Klezmer".
+D: Naftule Brandwein Orchestra, 1923
+N:
+N: Original in 2/4, but with mostly triplets in melody.
+N: 8 repeated bars deleted from A phrase.
+M: 6/8
+L: 1/8
+K: Gm
+D ^F2G \
+| "D"A2A A3 | ABc "Cm"BAG | "D"A2A ^F3- | F2D F2G | "D"A3 z2d | dAc "Cm"BAG | "D"A2A ^F3- | F2D ^F2G |
+| "D"A2G B2A | G2^F E2D | "Cm"G2G C3- | C2C E2G | cde  dcB | ABc BAG | "(D)"^FGA "Cm"GFE | "D"D2D G2B |]
+[| "Gm"^cd2- d2d | d^cB B3 | A=cB B2B | ~A2G ^F2G | "D"^F2G A2B | "Cm"cAc BAG | "D"A6 | z2D G2B |
+|  "Gm"^cd2- d2d | d^cB B3 | A=cB B2B | ~A2G ^F2G | "D"^F2G A2B | "Cm"c2B BAG | G^FE EDC | "D"D2z z2A, |]
+[| "D"Dz2 z3 | Az2 "(Gm)"BAG | "D"^FGA GFE | ^F2G ^G2A | "D"Dz2 z3 | Az2 BAG | "D"^FGA "Gm"BAG | "D"AG^F "Cm"EDC |
+|  "D"Dz2 z3 | Az2 "(Gm)"BAG | ^F2G ^G2A | "Cm"=Bc2- c3 | cde  dcB | ABc BAG | "(D)"^FGA "Cm"GFE | "D"D2D D2_D |]
+[| "Cm"C3 D2E | EDC G3 | ^FGA GFE | D2C ^F2G | C3 D2E | D2C c3 | cBA BAG | AG^F GFE |
+|  "Cm"C3 D2E | EDC G3 | ^FGA GFE | D2C ^F2G | C3 D2E | D2C G3 | "D"^FGA "Cm"GFE | "D"D2 |]
+
+
+
+
+
+X:78
+T: And the Angels Sing (der Shtiller Bulgar)
+O:klezmer
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+B: Kammen 1#15
+B: Kammen 1#15
+M: 2/4
+L: 1/8
+K: D
+|: ABc \
+| "D"d4- | dd/f/ ed | f4- | fg/f/ ed | "A7"ef ga | "D"fd "A7"ec | "D"dd' c'b | ag fe |
+| "D"d4- | dd/f/ ed | f4- | fg/f/ ed | "A7"ef ga | "D"fd "A7"ec | "D"d4- | d :|
+|: dfa \
+| "D"b=c'2c' | =c'/b/a a2 | ^ga2a | a/g/f f2 | b=c'2c' | (3=c'ba ^gab | a4 | [d'3f3]z |
+| "D"b=c'2c' | =c'/b/a a2 | ^ga2a | a/g/f f2 | "A7"ef ga | "D"fd "A7"ec | "D"d4- | d :|
+|: ddc \
+| "Bm"B3 f | ed cd | e3 d | (3fed (3dcB | B3 f | ed cd | f4 | [b3d3]z |
+| "Bm"B3 f | ed cd | e3 d | (3fed (3dcB | c/e/d2d | (3dcB "F7"(3^ABc | "Bm"B4- | B :|
+
+
+
+
+
+X:79
+T: Bulgar (Frailach)
+O:klezmer
+C: Joe Kutcher (Kammen 9#13)
+Z: John Chambers <jc@trillian.mit.edu>
+N: (1) The original had several more bars of Cm here.
+B: Kammen 9 #13
+R: Bulgar
+M: 2/4
+L: 1/8
+K: Gm
+D^FG \
+|: "D"A4-    | AA "Gm"B/A/G        | "D"B A3-  | A^F  "Cm"{A}G/F/E \
+|  "D"G ^F3- | "D"^FD "Cm"{F}E/D/C | "D"DE ^FG | AB ^cd            |
+|  "D"A4-    | Ac "Gm"B/A/G        | "D"B A3-  | A^F  "Cm"{A}G/F/E \
+|  "D"G ^F3- | ^FD "Cm"{F}E/D/C    | "D"D4-    | D :|
+"D7"D[BD][AC] \
+|: "Gm"[G4B,]-     | [GB,][BD] [AC][GB,]      | "D7"[AC] [^F3A,]- | [^FA,]D [BD][AC] \
+|  "Gm"[G3B,] d    | "A7"^c/d/=e/d/ ^c/B/A/G/ | "D"A4-            | AD [BD][AC]      |
+|  "Gm"G^F "(F)"GA | "(Eb)"BA "(D)"B=B        | "Cm"[c4E]         | "(1)"[c2E] [c2E]      \
+|  "D"cA "Gm"B/A/G | "D"A^F "Cm"G/F/E         | "D"^FD "Cm"E/D/C  | "D"D  :|
+
+
+
+
+
+X:83
+T:A glezele l'chaym
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:F
+V:1
+A,|"Dm" D DD DA, D2 E|"Bb" F G"A" F E"Dm" D zF G|"F" A2 FG AA FG |
+"D" A6 zD |"Gm" GG GG DG2 A|"Eb" B c"D7" B A"Gm" G2 Bc |"Bb" d2 Bc dd cB |
+"F" A6 zA |"D" dd dd d2 AA |"D7" dc BA "Gm" G/A/B zG/G/ |"C" cc cc c2 GG |
+cB AG "A" FG HFE |"Dm" DD DD A,D2 E|"Bb" F G"A" F E"Dm" D zF G|"F" A2 GA "Gm" cB "A" AG |
+"Dm" D6 z|]
+
+
+
+
+
+X:84
+T: A Nacht in Gan Eydn
+T: A Night in the Garden of Eden
+O:klezmer
+B: Sapoznik "The Compleat Klezmer" p.38
+D:
+M: 2/4
+L: 1/8
+K: Dm
+|: A,DE \
+| "Dm"F2 ED | F2 ED | EF D2 | "C7"zCFG | "F"A2 GF | A2 GF | GA F2 | "(C7)"zCFA |
+| "F"c2 "C7"B2 | "F"A2 GF | "A7"FG FE | "Dm"D3 "C7"C | "F"FG2F | "A7"(3AGF (3FED | "Dm"D4- | D :|
+|: A \
+| "Dm"Ad dd | dA f/e/d | "D7"^cd BA | "Gm"G3 G | ^FG AB | "A7"^cd cB | "Dm"A4- | A2 "C7"C2 |
+| "F"CF FA | cc "D7"BA | "Gm"dG GG | GA/G/ "A7"FE | "Dm"D2 AF |1 "A7"GG FG | "Dm"A4 | ~d3 :|2 "Gm"GG "A7"FE | "Dm"D4- | D ||
+|: ABA \
+| "Dm"~d4 | "A7"zAFE | "Dm"D4 | "A7"ZABA | "Dm"f4- | (3fed "A7"(3^cde | "Dm"d4 | zc=Bc |
+| "D"d_e dc | "F"=Bc _BA | =Bc _BA | "Gm"G3F | "Dm"FG2F | "A7"(3AGF (3FED | "Dm"D4- | D :|
+%%sep 5 5 100
+P:Bb instruments
+K:Em
+|: B,EF \
+| "Em"G2 FE | G2 FE | FG E2 | "D7"zDGA | "G"B2 AG | B2 AG | AB G2 | "(D7)"zDGB |
+| "G"d2 "D7"c2 | "G"B2 AG | "B7"GA GF | "Em"E3 "D7"D | "G"GA2G | "B7"(3BAG (3GFE | "Em"E4- | E :|
+|: B \
+| "Em"Be ee | eB g/f/e | "E7"^de cB | "Am"A3 A | ^GA Bc | "B7"^de dc | "Em"B4- | B2 "D7"D2 |
+| "G"DG GB | dd "E7"cB | "Am"eA AA | AB/A/ "B7"GF | "Em"E2 BG |1 "B7"AA GA | "Em"B4 | ~e3 :|2 "Am"AA "B7"GF | "Em"E4- | E ||
+|: BcB \
+| "Em"~e4 | "B7"zBGF | "Em"E4 | "B7"ZBcB | "Em"g4- | (3gfe "B7"(3^def | "Em"e4 | zd^cd |
+| "E"e_f ed | "G"^cd =cB | ^cd =cB | "Am"A3G | "Em"GA2G | "B7"(3BAG (3GFE | "Em"E4- | E :|
+
+
+
+
+
+X:86
+T:A dreidele far alle
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:C
+V:1
+G |:segno"C" c4 |zd _e/e/c |"Dm" d4 |
+z(^c/d/ _e/e/f/^f/) |"G" gf/g/ fe |~ed/e/ dc |"C" ^fg _b/a/g |
+~fe _ee |"C" c4 |z/G/c/d/ {_e/}ec |{^c/}"Dm" d4 |
+z(^c/d/ _e/e/f/^f/) |1 "G" gf/g/ fe |~ed f/e/d |"C" c4 |
+c'3 G:|2 fine"G7" g f/g/f e|~e d/e/d c|"C" B c_e e|
+"E7" e/_e/ cc/B/ A||  |:"Am" A3/2 B/cd |e^f g/^f/e |^f(g (g2) |
+g4) |ag ~^f3/2 e/|_e/e/^f/ e/_e/c/B/ A/|_e(e e2) |
+a4 |"Am" A3/2 B/cd |e^f g/^f/e |^f(g (g2) |
+g4) |1 "Am" ag/^f/ g/^f/e |"E7"  (3_ee_e  (3cBA |"Am" A4 |
+z_E/E/ F/^F/G/^G/ :|2 "Am" ag ~^fe |"E7" e/_e/c c/B/A |"Am" A4 |
+zA ce || |:"Am" .ae/a/ g/^f/e |~_ec c/B/A |_e(e e2) |
+zA/c/ e/A/c/e/ |.a.g ^f.e |"Am" e/_e/c c/B/A |B(c c2) |
+zA ce |"Am" ae/a/ g/^f/e |"Am" ~_ec "A7" c/B/A |"Dm" ^c(d d2) |
+f4 |"E7" _e/e/f e/_e/c |e/_e/c c/B/A |1 "Am" A4 |
+zA ce :|2 "Am" A2 "G#" ^G2 |"G7" G2 zG ||"C" gf/g/ fe |
+ed/e/ "G" dg |"C" Hc'z "G" Hgz |"C" Hc4 ||
+V:2          %C-klarinet
+c4 |  |z |:C3/2 E3/2 G|
+C3/2 E3/2 G|D2 ~a2 |~a2 ~a2 |GA B/c/d |
+ef g/a/b |(c'4 |c'4) |C3/2 E3/2 G|
+C3/2 E3/2 G|D2 ~a2 |~a2 ~a2 |1 G/A/B/c/ de/f/ |
+~gf/e/ dB |e4 |z4 :|2 fineG/A/B/c/ de/f/ |
+~gf/e/ f2 |e3 c|B2 ^G2 || |:A4 |
+c2 e2 |c'/d'/c'/b/ c'/d'/c'/b/ |c'/d'/c'/b/ c'/d'/c'/b/ |^fe ~_e3/2 c/|
+B/c/_e/ c/B/A/^G/ A/|B(c c2) |c'/d'/c'/b/ c'/d'/c'/b/ |A4 |
+c2 e2 |c'/d'/c'/b/ c'/d'/c'/b/ |c'/d'/c'/b/ c'/d'/c'/b/ |1 ^fe/_e/ e/_e/c |
+B3 ^G|A4 |z4 :|2 ^fe ~_ec |
+c/B/A A/G/A |A4 |a4 || |:A4 |
+c2 e2 |^f/g/a/b/ c'2 |c'2 c'2 |A4 |
+c2 e2 |d/e/^f/g/ a2 |a2 a2 |A4 |
+c2 e2 |A3/2 d3/2 f| (3a_ba  (3gag |^g4 |
+e2 d2 |1 c4 |z4 :|2 A2 ^G2 |
+G2 zz ||z4 |z4 |z4 |
+z4 ||
+
+
+
+
+
+X:87
+T:A glezele yash
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:Cm
+V:1
+"Cm" CC CE |"G" G2 GF |"Cm" G2 c2 |G4
+|"C7" GB GG |"Fm" F4 |"Bb" BG GF |1 "Eb" (G2 "G7" G2) :|2
+"Eb" E2 "G7" G2 ||  |:c2 G2 |"Ab" ed c2 |"Bb" BG GG |
+"Eb" B4  |"C7" Bc "Fm" G/G/F |"G7" zG "Cm" C2 |1 "Ab" EE "G7" DD |
+"G7" G4 :|2 "Ab" EE "G7" DD |"Cm" C4 ||
+V:2          %2e stem (acc.)
+C4 C8 C8 C8 |c4 |=B4 |c3 B|
+G G^F F|=E4 |FG GF |G2 G[GF]|
+|1 B2 =B2 :|2 E2 D2 || |:C4 |E4 |
+F4 |GF ED |=E2 FG |=B2 c2 |
+|1 G2 G2 |=B4 :|2 G2 =B2 |c4 ||
+V:3          %2e stem (sax)
+c4 c4 c4 c4 |C3 C|E3 F|G4 |
+cB GG |=E4 |CD EF |D4 |
+|1 GF ED :|2 GF ED || |:E2 G2 |c2 e/d/e |
+d2 B2 |G2 E/D/E |zE zF |zG c2 |
+|1 G2 =B2 |d2 =B2 :|2 G2 =B2 |c4 ||
+V:4          %2e stem
+c4 c4 c4 c4 |C3 C|E3 F|G4 |
+cB GG |=E4 |CD EF |D4 |
+|1 GF ED :|2 GF ED || |:E2 G2 |c2 e/d/e |
+d2 B2 |G2 E/D/E |G2 F2 |G2 E2 |
+|1 C2 F2 |GF ED :|2 C2 D2 |E4 ||
+
+
+
+
+
+X:88
+T:Albukerke
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:Gm
+V:1
+D=E ^F |:"Gm" G AB/A/ GA B2 d|^c d (3f=ed ^cd2 d|"Gm" .g .f.=e .d.^c .BB/A/ G|
+"Gm" G ^F/G/B A/B/d ^c/d/g2 |GA B/A/G AB2 d|^c d (3f=ed ^cd2 d|g f=e d"D7" d/^c/ BB/A/ G|
+|1 "Gm" G4 zD =E^F :|2 G4 zF GA || |:"Bb" BF/B/ dB/d/ fd/f/  (3^ggf |=ef2 f2 fg f|
+"Bb" .b .^g.g .f.e .d.^c .d|"Bb" =e f (3^ggf ed ^cd |"Bb" BF/B/ dB/d/ fd/f/  (3^ggf | (3=efg  (3^ggf =ef3/2 d/e/=e/|
+"F7" f d/f/e/d/ cd dc/d/ c|1 "Bb" B4 zF GA :|2 "Bb" B4 zc/B/ AB || |:"Cm" c3 Bc BA G|
+"Gm" G4 zA Bc |"Bb" d3 e"F" f e/d/c B/c/|"Bb" d4 zd ^cd |"Gm" g3 ab a/g/f/e/ d|
+"Cm" g cc (c2 c/)A/B/d/ ^c|"D7" d ^c/d/c BB/A/ BA G|1 "Gm" G4 zB AB :|2 "Gm" G4 z||
+
+
+
+
+
+X:89
+T:Ale Brider
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=150
+K:Gm
+V:1
+"Gm" D2 G2 G2 A2 |B2 B2 A2 G2 |B4 "Cm" c4 |"Gm" B2 B2 A2 G2 |
+D2 G2 G2 A2 |B2 B2 A2 G2 |B4 "D7" A4 |"Gm" (G4 G4) ||
+"Bb" F2 B2 B2 c2 |d2 d2 c2 B2 |"Bb" d4 "Eb" e4 |"Bb" d2 d2 c2 B2 |
+F2 B2 B2 c2 |d2 d2 c2 B2 |B4 "D7" A4 |"Gm" G2 d2 B2 d2
+|:"D7" c3 B(A4 |A2) c2 A2 c2 |"Gm" B3 A(G4 |G2) B2 G2 B2 |
+"D" A6 d2 |1 "D7" d2 c2 B2 c2 |"Gm" (d8 |d2) d2 B2 d2
+:|2 "D7" d2 c2 B2 A2 |"Gm" (G8 |G8) ||
+
+
+
+
+
+X:90
+T:Anushka
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:Cm
+V:1
+"Cm" C3/2 D/EE FE2 G|E ED/C/ =B,/D/C4 |"Fm" F3/2 G/GG BG2 c|G GG/F/ =E/G/F4 |
+"Cm" E3/2 F/GG "Fm" FG F2 |"Cm" E3/2 F/G/G/G/ F/ED C2 |c2 C3/2 D/"Ab" EF "G7" ED |1 "Cm" C6 G2 :|2
+"Cm" (C4 C)D EF || |:"Cm" G2 FE2 GF E|G2 FE2 GF E|"Fm" G2 GF2 CG G|
+F8 |"Cm" E3/2 F/GG "Fm" FG F2 |"Cm" E3/2 F/G/G/G/ F/ED C2 |c2 C3/2 D/"Ab" EF "G7" ED |
+|1 "Cm" (C4 C)D EF :|2 "Cm" C8 ||
+
+
+
+
+
+X:91
+T:Araber tanz
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=120
+K:Dm
+V:1
+A2 |"A" ^cd e2 e2 e2 |"Dm" f6 ed |"A" ^cd e2 "Bb" fe de |
+"A" d^c3 z2 A2 |"A" ^cd e2 e2 e2 |"Gm" (g4 g)f ed |"A" ^cd e2 "Bb" fe de |
+"A" d^c3 z4 |Aa2 ^ga2 e2 |"Dm" f3 ga2 g/f/e/d/ |"A" ^c(d3 d)^c B^c |
+BA3 zA  (3fed   |:
+M:8/8
+"A" ^c8 |"Dm" d8 |"A" ^cd e(^c ^c)A "Gm" BG |"A" AB ^cd ea ed |
+^c8 |"Dm" d4 zA  (3fed |"A" ^cd e(^c ^c)A "Gm" BG |1 "A" A4 zA  (3fed :|2
+A4 za "Gm" g/f/e/d/ || |:"A" (^cd e(^c ^c)A "Gm" B/A/B/G/ |"A" AB ^cd ea "Gm" g/f/e/d/ |"A" ^cd e(^c ^c)A "Gm" B/A/B/G/ |
+|1 "A" AA2 EA EA2 :|2 "A" A6 ||
+
+
+
+
+
+X:92
+T:Arum dem fayer
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=71
+K:Dm
+V:1
+A,D F |:"Dm" A2 A2 |"Gm" zB/A/ GB |"Dm" A2 A2 |
+"Gm" zA GD |"Dm" F2 F2 |"E7" zE/F/ "A7" GE |"Dm" D2 D2 |
+|1 zA, DF :|2 "F7" zA Bc || |:"Bb" (d4 |"D7" d)c BA |
+"Gm" B/A/G G2 |zG AB |"C" c2 c2 |"C7" zB AG |
+"F" A/G/(F F2) |zF GA |"Gm" (B4 |B)A GF |
+"E7" G/F/(E E2) |zE FG |"A7" (A4 |A)G FE |
+"Dm" F/E/(D D2) |1 "F7" zA Bc :|2 z||
+V:2          %2e stem
+F, A,D  |:F2 F2 |zG/F/ EG |F2 F2 |
+zF EB, |D2 D2 |zB,/D/ E^C |D2 D2 |
+|1 zF, A,D :|2 zA G^F || |:F4 |^F4 |
+G4 |z4 |C4 |E4 |
+F4 |zc BA |(G4 |G4) |
+(^G4 |^G2) B2 |(^c4 |^c)B AG |
+F4 |1 zA G^F :|2 z||
+
+
+
+
+
+X:93
+T:Ayli lyuli
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:Bb
+V:1
+"Gm" D2 B2 ^F2 G2 |D2 B2 ^F2 G2 |D2 B2 "Cm6" AA "D7" ^FD |"Gm" G6 "D7" z2  |:
+"Gm" Bc dd "Cm6" AB cc |"Eb" GA BB "D" A^F D2 |"Gm" G2 B2 "D" A2 ^FD |1 "Bb" d6 "D7" z2 :|2
+"Gm" G6 z2 ||
+
+
+
+
+
+X:94
+T:Baym rebns sude
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:Am
+V:1
+"E" ^C/D/E EE |E4 |"E" ^G/A/B "Dm" A/^G/F |"E" E4 |
+^G2 "Am" A2 |"E" B2 "Am" A2 |"E" ^G3 F|^G FE D|
+"E" ^C/D/ EE E|E4 |E/F/^G "Dm" F/E/D |D4 |
+dc BA |^GD EF |"E" (E4 |E2) z2 :| |:
+"Am" EA ^GA |"E7" Bc BE |"Am" A3 B/c/|A4 |
+"Dm" d2 "E7" e2 |d2 "Am" c2 |"E" B3 A|B A^G2 |
+"E" ^G2 "Am" A2 |"E" B2 "Am" A2 |"E" ^G3 F|^G FE D|
+"Dm" ^G AA A|^G/B/ A/^G/F/E/ D/F/|"E" (E2 E/)^G/B/^G/ |E4 :| |:
+"Am" c/B/c/B/ c/B/A |"Dm" A/^G/A/^G/ A/^G/F |"E" E/F/^G "Dm" F/E/D |D4 |
+^GA AA |^G/B/A ^GA |"E" (B2 B/)A/^G/F/ |E4 |
+"Am" c/B/c/B/ c/B/A |"Dm" A/^G/A/^G/ A/^G/F |"E" E/F/^G "Dm" F/E/D |D4 |
+"Dm" dc BA |^GD EF |"E" (E4 |E4) :|
+|]
+
+
+
+
+
+X:95
+T:Bei mir bistu shein
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:Em
+V:1
+z3/2 B,/E3/2 F/ |:"Em" G(G G)(G G)(F F)E |"Am" A2 (F2 "B7" F3/2) B,/E3/2 F/|"Em" G(G G)(G G)(F F)E |
+"Am" A4 "B7" z3/2 B,/E3/2 F/|"Em" G(G G)(G G)(F F)E |"Am" A(A A)(A A)(G G)F  |1 "C7" G(G G)(G G)(F F)E |
+"B7" F4 z3/2 B,/E3/2 F/:|2 "B7" B(B B)B "C7" _B2 _B2 |"B7" B2 z2 z2 || B,2 ||
+"Em" G4 F2 E2 |G6 B,2 |G4 F2 E2 |G6 G2 |
+"B7" F2 _E4 B,2 |F4 "C7" G2 "B7" F2 |"Em" E4 "D" z4 |"C" z4 "B7" z2 B,2 |
+"Em" G4 F2 E2 |G6 B,2 |G4 F2 E2 |G6 G2 |
+"B7" F2 _E4 B,2 |F4 "C7" G2 "B7" F2 |"Em" (E8 |E2) E2 F2 G2 |
+"Am" A4 E2 (A2 |A2) G2 F2 E2 |"Em" G2 z2 G2 E2 |G2 E2 F2 G2 |
+"Am" A4 E2 (A2 |A2) G2 F2 "C7" E2 |"B" B2 z2 "B" B2 B2 |"B7" B6 B,2 |
+"Em" G4 F2 E2 |G6 B,2 |G4 F2 E2 |G6 G2 |
+"B7" F2 _E4 B,2 |F4 G2 F2 |"Em" (E8 |E6) |]
+
+
+
+
+
+X:96
+T:Belz
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=86
+K:Dm
+V:1
+(3A,DE |"Dm" FD zD "Gm"  (3GGD |"Dm" F4  (3A,DE |"Dm" FD z2  (3DCD |
+(C2 C3/2) C/"C7"  (3CFG |"F" AF2 Ac/c/ B/A/|"Gm" G3 G (3dDD |"Dm" D/D/D zF "Eb"  (3GG_E |
+"Dm" D3 A (3cBA |"F" c3 A"C"  (3G/F/G/ F/G/|"F" F3 Ac/c/ d/c/|f3 cc/B/ A/B/|
+A3 A"D7"  (3BAG |"Gm" B3 A (3AGF |"Dm" A3 G (3GFE |"A7" G4 "Bb"  (3FED |
+"A" A3 A (3BAG |"Gm" B3 A (3AGF |"Dm" A3 G (3GFE |"A" G4  (3^GAF ||
+M:2/4
+"Dm" D2 z2 |z4 ||"Dm" (F4 |F)F "Gm" G/F/G |
+"Dm" (F4 |F)F "Gm" G/F/G |"F" AG/A/ "Gm" GF/G/ |"Dm" F/E/D "Gm"  (3GGD |
+"Dm" F4 |z/A/c/B/ "A7" A/B/A/G/ |"Dm" (F4 |F)F "Gm" G/F/G |
+"Dm" (F4 |F)F "Gm" G/F/G |"F" AG/A/ "Gm" GF/G/ |"Dm" F/E/D "Gm" FG |
+"Dm" (D4 |D)z "C7" z2 |"F" AA "Bb" B/A/B |"F" c2 "Bb" d/c/B |
+"F" AF "C" GC |"F" F2 zF |"F" AA "Gm" B/A/B |"F" cc H^c/c/B |
+"F" AA "Gm" G/F/G |"A7" A4 |"Dm" (F4 |F)F "Gm" G/F/G |
+"Dm" (F4 |F)F "Gm" G/F/G |"F" AG/A/ "Gm" GF/G/ |"Dm" F/E/D "Gm"  (3BBA |
+"Dm" (d4 |d2) z2 :|
+V:2          %2e stem
+M:3/4
+z2 |{^C/}D2 z2 {D/}E2 |{^C/}D4 z2 |{^C/}D2 z2 {^C/}D2 |
+{C/}E4 E2 |{E/}F4 ^F2 |{G/}{^G/}{A/}B4 G2 |{E/}F2 z2 {D/}_E2 |
+{E/}F4 G2 |{G/}A4 {A/}B2 |{G/}A4 FG |{G/}A4 G2 |
+{E/}F4 ^F2 |{^F/}G4 {A/}B2 |{E/}F4 {C/}D2 |{A,/}^C4 D2 |
+^C4 ^F2 |G2 F2 E2 |D2 C2 B,2 |^C4  (3EFD ||
+M:2/4
+A,2 z2 |z4 ||(D4 |D)D E/D/E |
+(D4 |D)D E/D/E |FE/F/ ED/E/ |D2 E2) |
+D4 |z4 |(D4 |D)D E/D/E |
+(D4 |D)D E/D/E |{B/}c2 {A/}B2 |{G/}A2 {F/}G2 |
+{E/}(F4 |F)z z2 |FF G/F/G |A2 B/A/G |
+F2 E2 |A2 zA |FF G/F/G |AA HB/A/G |
+FF E/D/E |^C4 |(D4 |D)D E/D/E |
+(D4 |D)D E/D/E |{E/}F2 {D/}E2 |{^C/}D2 {F/}G2 |
+{E/}(F4 |F2) z2 :|
+
+
+
+
+
+X:97
+T:Bb minor bulgar
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=90
+K:Bbm
+V:1
+F  |:=EF ^FF |^C=A, B,C |(C4 |
+C2) zF |=EF ^FF |=E^C/=E/  (3^CCB, |C(^C (^C2) |
+^C2) zF |=EF ^c=A |BF ^F=D |E4 |
+^F3 F|^F F=E F|^c cF c|1 (B4 |
+B2) zF :|2 B2 =A2 |=^G3 =^G|| |:^C3/2 F/=^G^c |
+
+
+
+
+
+X:98
+T:Bessarabyanke
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=50
+K:Am
+V:1
+"Am" z A2 Bc2 c2 |c2 B2 ~c4 |_ee2 e_e cB A|"E" B2 B2 e4 |
+z^G2 AB2 B2 |B2 B2 B4 |ee2 e_e cB ^G|1 "Am" A6 z2 :|2
+"Am" A6  (3cd_e || |:
+K:A
+{f/}"A" e2 a2 c3 c|"E7" B dc B"A" A B=c c|{f/}e2 a2 c3 c|"E7" B dc B"A" A4 :|
+V:2          %2e Stem
+K:Am
+zC2 DE2 G2 |^F2 F2 E4 |^FG2 G^F ED C|B,2 D2 E4 |
+zB,2 CD2 E2 |D2 E2 ^G4 |^GE2 DC ^CD _E|1 E2 F2 G2 ^GA :|2
+E6 z2 || |:
+K:A
+A2 E2 A3 E|D FE DC D_E E| (3A2G2F2 E4 | (3E2F2G2 A4 :|
+
+
+
+
+
+X:99
+T:Bessarabyanke/Shalom Aleichim
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:Am
+V:1
+"Am" zA2 Bc2 c2 |c2 B2 ~c4 |_ee2 e_e cB A|"E" B2 B2 e4 |
+z^G2 AB2 B2 |B2 B2 B4 |ee2 e_e cB ^G|1 "Am" A6 z2 :|2
+"Am" A6  (3cd_e || |:
+K:A
+{f/}"A" e2 a2 c3 c|"E7" B dc B"A" A B=c c|{f/}e2 a2 c3 c|"E7" B dc B"A" A4 :| |:
+K:Dm
+"Dm" A4 F3 E|E D3 zD FA |"Gm" d4 B3 A|A G3 zG AB |
+"A" A2 E2 A3 G|"Dm" G F3 zF ED |"A" .A2 .A2 "A7" .A2 .A2 |AG FE "Dm" D.A, .D.F :|
+
+
+
+
+
+X:100
+T:Blok1
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=88
+K:Am
+V:1
+E2 |"Am" (A2  (3A)GA "E7"  (3BAB |"Am" (c2  (3c)Bc  (3dcd |"Am" (c2 c)B Ac |
+"E" B4 E2 |"Am" A2 B2 c2 |"Dm" de/d/ c2 B2 |"Am" A3 c"E" B d|
+"Am" c4 E2 |"Am" (A2  (3A)GA "E7"  (3BAB |"Am" (c2  (3c)Bc  (3dcd |"Am" (c2 c)B Ac |
+"E" B4 e2 |e2 _e2 e/_e/c |"E7" c2 B2 e^G |"Am" A3 c"E" e c|
+fine"Am" A4 G2 |]"C" G2 c2 e2 |g4 e2 |ec Bc "G" gf |
+"C" e4 G2 |G2 c2 e2 |g4 e2 |ec Bc "Cm" d_e |
+"D" d6 |"Cm" g^f g^f _ed |"D7" ^f_e d4 |"E7" e_e ed cB |
+d2 "Am" c4 |"Cm" g^f g^f _ed |"D7" ^f_e d4 |"E7" ed dc cB |
+"Am" A4  |:
+M:2/4
+K:Cm
+"Cm" CC CE |"G" G2 GF |"Cm" G2 c2 |G4 |
+"C7" GB GG |"Fm" F4 |"Bb" BG GF |1 (G2 "G7" G2) :|2
+E2 "G7" G2 || |:"Cm" c2 G2 |"Ab" ed c2 |"Bb" BG GG |
+"Eb" B4 |"C7" Bc "Fm" G/G/F |"G7" zG "Cm" C2 |1 "Ab" EE "G7" DD |
+"Cm" C4 :|2 "Ab" EE "G7" DD |"Cm" C=E "E7" =Ac || |:
+M:4/4
+K:C
+"Am" e2 a2 ^ga ef |"Dm" d4 zf ~ed |"E" e4 z~d cd |"Am" e4 zE Ac |
+"Am" e2 a2 ^ga ef |"Dm" d6 "D#" _e2 |"E7" e2 c2 de/d/ cB |1 "Am" A4 zE Ac :|2
+"Am" A4 a4 || |:"Am" c'2 ~ba c'2 ~ba |e6 "A7" z_e |"Dm" d2 d2 d3/2 e/f/e/d |
+"Am" e6 ze |"Am" c'2 ~ba c'2 ~ba |"Dm" f6 "D#" z2 |"E" ~ed ~dc ~cB ~BA |
+|1 "Am" A6 e2 :|2 "Am" A6 ze || |:"Am" c'/b/a c'/b/a .a.a .a2 |c'/b/a c'/b/a "Dm" .d.d .d2 |
+{(d/}f2) f2 {(g/}f)e gf |"Am" e6 z2 |{(e}"Dm" d) ef2 "G" Bc d2 |"Am" cd e2 "F" AB c2 |
+"E" ~ed ~dc ~cB ~BA |{(A/}"Am" c4) zB/c/ d/c/B/A/ |"Dm" de f2 "G" Bc d2 |"Am" cd e2 "F" AB cd |
+"E" ~ed ~dc ~cB ~BA |1 "Am" A6 ze :|2 "Am" A4 zE Ac ||
+
+
+
+
+
+X:101
+T:Bobover wedding march
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:G
+V:1
+DE HF|"G" G3/2 A/B2 B2 B2 |"G" B/c3/2 "D" A/B3/2 "G" G4 |"D" A3/2 G/AB c(B "D7" B)A/G/ |
+"G" B4 B/c/B/A/ G/F/E/F/ |"G" G3 AB2 B2 |B/c3/2 "D" A/B3/2 "G" G4 |"D" (A2 A/)G/A/B/ c/(B3/2 "D7" B/)A/d |
+"G" G4 G/F/G/A/ B/A/B/c/  |:"G" B3 cd2 d2 |d/e3/2 d3/2 c/{d}c2 B2 |"D" c3/2 B/cB "D7" d2 ~cB/c/ |
+|1 "G" B4 B2 B/c/B/A/ :|2 "G" B4 B/A/G/F/ "G7/h" G/A/B/G/ ||
+Bd c2 c2 c/B/c/^c/ |"G" dB3 A2 G2 |"D" (A2 A/)G/A/B/ "D7" c/(B3/2 B/)A/G |"G" B4 B/d/c/B/ "G7/h" A/G/A/B/ |
+"G7/h" Bd "C" c2 c2 c/B/c/^c/ |"G" dB3 "A7" A2 G2 |"D" A3/2 G/AB "D7" cB A/d3/2 |"G" G4 z/D/E/F/ "A7" G/A/B/^c/ |]
+K:D
+"D" d3/2 e/f2 f2 f2 |"D" f/g3/2 "A" e/f3/2 "D" d4 |"A" e3/2 d/ef g(f "A7" f)e/d/ |"D" f4 f/g/f/e/ d/c/B/c/ |
+"D" d3 ef2 f2 |f/g3/2 "A" e/f3/2 "D" d4 |"A" (e2 e/)d/e/f/ g/(f3/2 "A7" f/)e/a |"D" d4 d/c/d/e/ f/e/f/g/  |:
+"D" f3 ga2 a2 |a/b3/2 a3/2 g/{a}g2 f2 |"A" g3/2 f/gf "A7" a2 ~gf/g/ |1 "D" f4 f2 f/g/f/e/ :|2
+"D" f4 f/e/d/c/ "D7" d/e/f/d/ ||
+"D7" fa g2 g2 g/f/g/^g/ |"D" af3 e2 d2 |"A" (e2 e/)d/e/f/ "A7" g/(f3/2 f/)e/d |"D" f4 f/a/g/f/ "D7" e/d/e/f/ |
+"D7" fa g2 g2 g/f/g/^g/ |"D" a2 f2 "E7" e2 d2 |"A" e3/2 d/ef "A7" gf e/a3/2 |"D" Hd6 |]
+
+
+
+
+
+X:102
+T:Braneles Chasene
+O:klezmer
+C:Dave Tarras
+M:2/4
+L:1/8
+Q:1/4=116
+K:F
+V:1
+"Dm" A2 d2 |f2 a2 |^ga ^gf |eg ed |
+"Gm" d'2 c'/b/a |^g/a/b c'/b/a |^ga3 |a4 |
+"A7" A2 ^c2 |e2 g2 |ab3 |be f^g |
+"Dm" ^ga2 ^g|"A7" a/^g/ ff/e/ d|1  (3e^ce  (3^c'ba |"Gm" gf/g/ "Dm" f/e/d :|2
+"Dm" d2 "C#" ^c2 |"C7" c3 z|| |:"F" f3/2 A/cf |"C7" ga gf |
+"F" c'3/2 f/ac' |"C7" ba gf |"F" bc'2 c'|"C"  (3bc'd' e'/d'/c' |
+"F" b/d'/c'3 |c'4 |f3/2 f/ga |"C7" bc' d'e' |
+"F" f'3/2 f/ac' |"C7" ba gf |"F" a2 d/e/f |"A7" a/^g/f f/e/d |
+|1 "Dm" d2 d2 |d3 z:|2 "Dm" d4 |dA df || |:
+"Dm" a2 a/^g/f |a/^g/f a2 |d'2  (3c'ba |a/^g/f f2 |
+d3/2 e/fa |"A7" ^g/a/b c'/b/a |"Dm" ^g/b/a3 |aA df |
+a2 a/^g/f |a/^g/f a2 |d'2  (3c'ba | (3a^gf f2 |
+"A7" eA ^ce |"Gm" gb a^g |"A7" a/^g/f f/e/d |"Dm" d3 z:|
+
+
+
+
+
+X:103
+T:Broyges Tantz
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:Dm
+V:1
+{^G/4}"Dm" ~A/A/A/A/ {A/}{d/}A {G/}{c/}G/F/ |G/A/F/F/ {D}F2 |"A7" E/F/^G/A/ ~^G/F/E/D/ |"Dm" ~E/F/D/D/ {E/4}{G/4}"A7" E2 |
+{A/4}{d/4}|"Dm" AA/ A/{A/4}{d/4}A G/F/|~G/A/ ~F/F/{E/}F2 |"A7" ~E/F/^G/A/ ~^G/F/ (3F/E/D/ |
+"Dm" ~E/F/~D/D/ {^C/}~D2  |:~A,/D/4A,/4D/A,/ ~D2 |"Bb" ~D/F/4D/4F/D/ ~F2 |"A7" ~E/F/^G/A/ ~^G/F/ (3F/E/D/ |
+|1 "Dm" ~E/F/D/D/ {D/4}"A7" E2 :|2 "Dm" ~E/F/D/D/ {^C/4}~D2 ||
+
+
+
+
+
+X:104
+T:Buhusher Chosidl
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:Dm
+V:1
+A/G/ |:"A" ^F/G/ AA A|A d^c2 |^c3/2 B/A/B/^c/ d/|
+^ce/ d/^c/B/A/ G/|"A" ^F/G/A AA |Ad ^c2 |^cB/A/ "Gm" G/A/B/G/ |
+|1 "A" A3 A/G/:|2 "A" A3 A|| |:"Dm" d3/2 e/ff/ f/|fA f2 |
+f/g/f e/f/e |~d^c/d/ "A" e2  |^c3/2 d/e(e |e)A e2 |
+~fe/d/ ^c/d/e/^c/ |1 "Dm" d2 z2 :|2 "Dm" d2 zA ||  |:^c3/2 A/^c/e/d/ ^c/|
+"Gm" B/A/G/ ^F/G/A/B/ G/|A^c/ e/A^c/ e/|"Dm" f/e/d/ ^c/d/e/d |^c3/2 A/^c/e/d/ ^c/|
+"Gm" B/A/G/ ^F/G/A/B/ G/|Aa g/f/e/d/ |1 ^c/d/e/d/ ^c/B/A/G/ :|2 ^c/d/B/^c/ A3/2 G/||
+a^c/ d/B/^c/A ||
+
+
+
+
+
+X:105
+T:Chasene valtz
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=120
+K:Cm
+V:1
+G2  |:"Cm" c4 ce |"G7" d4 df |"Cm" ed (c4 |
+"C7" c4) c2 |"Fm" f4 fg |"Bb" g4 f2 |"Eb" (g6 |
+"G7" g4) g2 |"C7" c'4 gb |"Fm" gg f4 |"G7" g4 df |
+"Cm" ed c4 |"G" d3 de g|"G7" g3 fd e|"Cm" (g6 |
+g4) g2 |"C7" c'4 gb |"Fm" gg f4 |"G7" g4 df |
+"Cm" ed c4 |"Fm" d3 ef g|"G7" g3 fd e|1 "Cm" (c6 |
+c4) G2 :|2 "Cm" c6 |"Bb" B6 |
+
+
+
+
+
+X:106
+T:Chava
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=120
+K:Am
+V:1
+"Am" A2 c2 |ze dc |A2 c2 |"E" zE FE |
+"Am" A2 c2 |ze dc |"G" g2 f/e/f |"C" e2 "A7" e2 |
+"Dm" d2 f2 |"B" zf ed |"Am" aa A2 |"G" zd cB |
+"F" AE Ac |"D" ee dc |"E7" dd cB |1 "Am" AE F^G :|2
+"Am" A2 ze || |:"Am" ae ee |fe2 e|c ee e|
+f ef g|"A7" a2 g2 |f2 e2 |"Dm" dd d/e/f/e/ |
+d3 d|"Am" c ec e|"D" d3 A|"Dm" A dc B|
+"Am" A3 e|"G" g fe d|"E7" c dc B|"Am" (A4 |
+A4) :|
+
+
+
+
+
+X:107
+T:Chosen
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=120
+K:C
+V:1
+"C" c3/2 d/ee |e/f/e e/f/e |"Dm" dd d2 |"E" cB "Am" A2 |
+cc Ac |"Dm" de/d/ "E" cB |"Am" A2 "Dm" d2 |"Am" c2 d2 |
+"C" e3/2 f/gg |g/a/g g/a/g |"Dm" ff f2 |"E" ed "Am" c2 |
+cc Ac |"Dm" de/d/ "E" cB |"Am" (A4 |fineA4) :|
+aa gf |ef ^ga |e3 _e|e/_e/ c/B/A2 |
+aa gf |ef ^ga |e3 _e|e Ac e||
+"F" a ag f|"C" e dc2 |"Dm" f3/2 g/a/g/f |"Am" ed c2 |
+cc Ac |"Dm" de/d/ "E" cB |"Am" A2 "Dm" d2 |"Am" c2 "Dm" d2 |
+"F" aa gf |"C" ed c2 |"Dm" f3/2 g/a/g/f |"Am" ed c2 |
+cc Ac |"Dm" de/d/ "E" cB |"Am" (A4 |A4)  |:
+"Am" Ac ea |"G" gf ed |"C" cd2 c|"E7" e/_e/ cc/B/ A|
+"Am" A3/2 B/c3/2 d/|"G" ef df |"C" e3 _e|e/_e/ cc2 |
+"G" GG AB |"C" cd ef |"G" gg/a/ gf |"C" ed c2 |
+"Dm" cd2 c|"E7" e/_e/ cc/B/ A|"Am" A3 e|e/_e/ cc2 |
+"Dm" cd2 c|"E7" e/_e/ cc/B/ A|"Am" (A4 |A4) :| |:
+"Am" e2 c'/b/a |"E7" ^g/a/b "Am" aa |c'/b/a "E7" ^g/a/b |"Am" aa a2 |
+"G" gg g2 |"C" cc ce |1 "E7" e/_e/c c/B/A |"Am" A4 :|2
+"E7" e/_e/c c/B/A |"Am" A2 z2) ||
+
+
+
+
+
+X:108
+T:Chupen tanz
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:Dm
+V:1
+A/d/d/^c/ ^c/e/e/d/ |d/f/f/e/ e/g/g/f/ |f/a/a/g/ g/b/b/a/ |a/g/f/g/ "D7" a2 |
+"Gm" g/b/b/e/ e/g/g/e/ |fine"Dm" f/a/a/d/ d/f/f/d/ |A/^c/e/g/ ~f3/2 e/|1 "Dm" ed zA :|2
+"Dm" ed z/c/d/e/ || |:"F" ~f3 .a|"F" ~f3 .a|"F" .f .a.f |]
+.a|.f .a|] b/a/ g/|] f/|
+"C" ~e3 g|~e3 c'|c'/b/ b/a/a/g/ g/f/|1 "F" g/a/ fz "C" c:|2
+"F" g/a/ (ff) z|| |:"F" ~a3/2 f/"A/e" ~g3/2 e/|"Dm" ~f3/2 d/"A/c#" ~e3/2 ^c/|d/^c/d/ e/f/e/d/ f/|
+"A" e/d/^c/ B/Az |"Gm/hb" b/a/g/b/ "Dm/a" a/g/f/a/ |"A/c#" g/f/e/g/ "Dm" f/e/d |"A" a/^g/^g/f/ f/e/e/d/ |
+"Dm" e/f/d zA :|"Dm" f/a/a a2 |"Dm" d'z "A" az |"Dm" dz z2 |]
+V:2          %Boventerts
+z2 | | 8 |D/F/F/E/ E/G/G/F/ |
+F/A/A/G/ G/B/B/A/ |A/c/c/B/ B/d/d/c/ |c/B/A/B/ c2 |B/d/d/G/ G/B/B/G/ |
+A/c/c/F/ F/A/A/F/ |^C/E/G/B/ A3/2 G/|1 GF zD :|2 GF z/E/F/G/ || |:
+~A3 .c|~A3 .c|.A .c.A .c|.A .cd/c/ B/A/|
+~G3 B|~G3 e|e/d/ d/c/c/B/ B/A/|1 B/c/ Az/E/ F/G/:|2
+B/c/ (AA) z|| |:c2 ^c2 |d2 e2 |f2 ed |
+^cA ^cz |d/c/B/d/ c/B/A/c/ |B/A/G/B/ A/G/F |EA BB |
+^cd z2 :|d/f/f f2 |Az ^cz |dz z2 |]
+
+
+
+
+
+X:109
+T:Dan's Freilach
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=148
+K:Dm
+V:1
+"D" D4 D2 |^F4 ^F2 |A4 A2 |"Cm" c6 |
+"Cm" c3 BB A|A3 GG ^F|"D" A6 |A6 :| |:
+M:4/4
+"Cm" cB cB dc BA |"Gm" BA BA cB AG |"Eb" AB AG ^F_E D_E |"D" [^F8D8]:| |:
+"D" d2 d_e ^f2 ^fg |a2 ab c'4 |"Cm" c'b ba ag g^f |"D" a8 :|
+
+
+
+
+
+X:110
+T:Dem Milners Trern
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=120
+K:C
+V:1
+G,C D|"C" E2 DG, CD |"G" E2 DG, CD |
+M:2/4
+"C" EC "Dm" FE |"G" (D4 |D)  |:A, DE |
+"Dm" FA (A2 |A)G, CD |"C" EG (G2 |G)G, CD |
+EC "G" DB, |"C" C4 |C:| |:A, DE |
+"Dm" FA A2 |AG, CD |"C" EG (G2 |G)G, CD |
+EC "G" DB, |"C" (C4 |C):|
+
+
+
+
+
+X:111
+T:Dem rebns nign
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:G
+V:1
+d |:"D" f2 g2 f_e/f/ _ed |f4 z_e/f/ _ed |f2 g2 ~ag _ba |
+"Gm" g4 zg (a_b) |~a2 g2 "D" .d'2 f2 |"Gm" g4 zg a_b |"D" ~ag ~gf ~f_e _ed |
+f4 zd _e/d/c |"Cm" c2 _b/a/g ~f_e/f/ _e/d/c |1 "D" d6 zd :|2 d8 ||
+(3f/g/f/ d (3f/g/f/ df/g/ ag/f/ _e|d2 f2 a2 d'2 | (3f/g/f/ d (3f/g/f/ df/g/ ag/f/ _e|d4 d'4 |
+zd' c'_b ag _ba |"Gm" g8 |"C" zc' _ba g=f ag |"F" =f8 |
+"D" ~ag ~gf ~f_e ~_ed |f4 zd ~_ed |~ag ~gf ~f_e/f/ _e/d/c |d2 f2 a2 d'2 |
+~ag ~gf ~f_e  (3_ed_e |f4 zd _e/d/c |fine"Cm" c2 _b/a/g f_e/f/ _e/d/"D" c |d8 |]
+c3/2 c/_b/a/g f^g/a/ _b/b/c'/^c'/ |"D" d'2 z2 "Cm" a2 z2 |"D" Hd4 ||
+|]
+V:2          %Ondersext
+d4 d4 d4 d4 |8 |F |:A2 _B2 AG/A/ GF |
+A4 zG/A/ GF |A2 _B2 ~c_B dc |_B4 z_B cd |~c2 _B2 .f2 A2 |
+_B4 z_B cd |~c_B ~_BA ~AG GF |A4 zF G/F/_E |_E2 d/c/_B ~AG/A/ G/F/_E |
+|1 F6 zF :|2 F8 || (3A/_B/A/ F (3A/_B/A/ FA/_B/ c_B/A/ G|F2 A2 c2 f2 |
+(3A/_B/A/ F (3A/_B/A/ FA/_B/ c_B/A/ G|F4 f4 |zf ed c_B dc |_B8 |
+ze dc _BA c_B |A8 |~c_B ~_BA ~AG ~GF |A4 zF ~GF |
+~c_B ~_BA ~AG/A/ G/F/_E |F2 A2 c2 f2 |~c_B ~_BA ~AG  (3GFG |A4 zF G/F/_E |
+fine_E2 d/c/_B AG/A/ G/F/_E |F8 |]E3/2 E/d/c/_B AB/c/ ^c/d/e/=f/ |f2 z2 c2 z2 |
+HF4 ||
+|]
+
+
+
+
+
+X:112
+T:Der Gasn nigun
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=120
+K:Dm
+V:1
+"Dm" f g3 g2 |"Gm" g4 f2 |"Dm" f(d4 (d)|d2) z2 f2 |
+"Dm" fg3 g2 |"C7" ~g3 fa g|"F" f3 ca c|f2 z2 c2 |
+"Fm" c3 fe f|g3 ^gb c'|"G" d'3 _e'd' c'|~b3 ^gg f|
+"Dm" f3 e"Gm" g e|"Dm" f3 d"Cm"  (3_edc |"Dm" d3 d'a f|1 "Dm" d2 z2 f2 :|2
+fine"Dm" Hd3 Ad f|| |:"Dm" ^g a3 a2 |a4 z^g |^ga3 a2 |
+a3 df a|"Dm7" c'3 b (3c'ba |c'3 b (3c'ba |"Dm" ^ga3 a2 |
+a3 Ad f|a3 ^g (3a^gf |a3 ^g (3a^gf |ef3 f2 |
+f3 Ad e|"Dm" f3 e (3fed |f3 e"C"  (3fed |1 "Dm" ^cd3 d2 |
+d3 Ad f:|2 "Dm" ^c d3 d2 |d6 |]
+
+
+
+
+
+X:113
+T:Der Yid in Yerusholayim
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=148
+K:Eb
+V:1
+"G" d3 c=B/c/ dg e|d3 c=B G=B c|d3 c=B/c/ dg e|d3 gg ^fg e|
+d3 Ge dc =B|"Cm" (c6 c)=B/c/ |"G" d3 =B/d/"Fm" c2 =BG |"G" G3 F/G/"Fm" G3 G/G/
+|"G" =B3 G/=B/"Cm" c3 =B/c/|"G" d3 =B/d/"Fm" c2 =BG |1 "G" G8 :|2 "G" G3 GG2 G2 ||
+|:"G" fe dc =BG G=B |"Cm" c4 c3 d/e/|f "Fm" ed c=B "G" GG =B|"Cm" c4 c3 =B/c/|
+"G" d3 =Bc "Fm" d/c/=B G|"G" G3 F/G/"Fm" G3 G/G/|"G" =B3 G/=B/"Cm" c3 =B/c/|"G" d3 =B"Fm" c d/c/=B G|
+"G" G3 GG2 G2  :| |:"Eb" Gz2 gg2 g2 |"Bb" fg gf "Eb" g4 |"G7" fe ed dc =Bc |
+d3 cd/e/ d/c/=B G|G z2 f"Fm" f ee d|"G" d3/2 c/c=B =BG GG |"Fm" F3 GG c=B/c/ =B/G/|
+"G" G3 GG2 G2 :|
+
+
+
+
+
+X:114
+T:Di Goldene Chasene
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=120
+K:Am
+V:1
+EA c |:"Am" e2 a3/2 a/^ga ef |"Dm" d4 zf ~ed |"E" e4 z~d cd |
+e4 zE Ac |"Am" e2 a2 ^ga ef |"Dm" d6 "D#" _e2 |"E7" e2 c2 de/d/ cB |
+|1 A4 zE Ac :|2 fine"Am" A4 a4 ||  |:"Am" c'2 ~ba c'2 ~ba |e6 "A7" z_e |
+"Dm" d2 d2 d3/2 e/f/e/d |"Am" e6 ze |"Am" c'2 ~ba c'2 ~ba |"Dm" f6 "D#" z2 |
+"E" ed dc cB BA |1 "Am" c4 z2 "E7" e2 :|2 "Am" A6 ze ||  |:"Am" c'/b/a c'/b/a .a.a .az |
+"Am" c'/b/a c'/b/a "Dm" .d.d .dz |{(d/}"Dm" f2) f2 {(g/}f)e gf |"Am" e6 z2 |{(e}"Dm" d) ef2 Bc d2 |
+"Am" cd e2 "F" AB c2 |"E" ed dc cB BA |{(A/}"Am" c4) [z^c4]E/F/G/A/ B/^c/|"Dm" d ef2 Bc d2 |
+"Am" cd e2 "F" AB c2 |{(d}"E" e) dd cc BB A|1 {^G/}"Am" A6 ze :|2 "Am" A4 zE Ac ||
+
+
+
+
+
+X:115
+T:Di Grine Kusine
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=120
+K:Dm
+V:1
+DA, DF |AA GF |A3 ^G|A3 z|
+"E7" c Bc B|c BA ^G|"Am" A3 ^G|A3 z
+|:"F" [Ac][^GB][Ac][^GB]|[Ac][GB][FA][EG]|"Dm" [F4A4]|"Gm" [G3B3]z|
+"A7" [A^c][A,A][A,A][A,A]|[FA][EG][DF][^CE]|1 "Dm" D2 "C" E2 |"Bb" F2 "A7" G2 :|2
+"Dm" D4 |D3 z||
+V:2          %2e stem
+A4 |A4 |zD/D/ DF |A (3A/B/A/ GF |
+^G4 |^G4 |AB cB |cB A^G  |:
+AA3 |cB AG |F4 | (3D_EE  (3F^FG |
+A4 |^c4 |1 d2 c2 |d2 e2 :|2
+d2 A2 |d4 ||
+
+
+
+
+
+X:116
+T:Di Zilberne Kasene
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=140
+K:Dm
+V:1
+Ad e |:"Dm" f4 zA de |ff3 zA de |f2 ed ee d^c |
+"A" a4 zA ^cd |e4 zA ^cd |ee3 zA ^cd |e2 g2 fe f/e/d |
+|1 "A" ^c/d/e "Bb" d/^c/B "A" AA de :|2 "A" ^c/d/e "Bb" d/^c/B "A" A2 z2 || |:"A" AB ^cd ef ga |"G" [b8e8 ^c8 g8]|
+"Dm" [a8f8 d8]|"A7" [g8^c8 e8]|"Bb" [(f4(d4 (B4][f2)d2) B2)]z2 |"A7" eA ^ce "Dm" d2 z2 |
+"A7" eA ^ce "Dm" dz ef |"Gm" g/f/e "Dm" f/e/d "A" e/d/^c "Bb" d/^c/B |"A" A8 :| |:"A" ^c/d/e d/^c/B AB (^c2 |
+^c)B ^ce d^c BA |^c/d/e d/^c/B AB ^cz |"A"  (3ed^c  (3d^cB A2 z2 :|
+
+
+
+
+
+X:117
+T:Dona dona
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=140
+K:Dm
+V:1
+"Dm" A2 D2 "A7" EF G2 |"Dm" A2 D2 "A7" EF G2 |"Dm" A2 D2 "Gm" B2 AG |1 "A7" F2 G2 A4 :|2
+"A7" F2 E2 "Dm" D4 |]"C" c2 c2 c3 B|"F" A GF4 z2 |"C" G2 G2 c2 cB |
+"F" A8 |"C" c2 c2 c3 B|"A7" A2 G2 "Dm" F2 FG |"A7" A3 GF E3 |
+"Dm" D8 ||"A" EE EE G2 G2 |"Dm" FG A4 z2 |"C" GG GG c2 B2 |
+"F" A8 |"A" EE EE G2 G2 |"Dm" FG A4 z2 |"A7" AE FG F2 E2 |
+"Dm" D8 |]
+
+
+
+
+
+X:118
+T:Drei Dreidele
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:F
+V:1
+"Dm" FA AA |AA A2 |"G" AG GG |"Gm"  (3GFE G2 |
+"F" GF2 A|c2 B2 |"F" B(A3 |"A7" A4)
+|"Dm" Ad dd |"F" c/B/A c2 |"Am" F/A/G "C" GG |"C7" G/F/E G2 |
+"Dm" F(F "Bb" F)D |"A" F2 "A7"  (3EDE |"Dm" (D4 |D2) "A7" z2 |
+:| |:"Dm" D3/2 E/FE |DD DC |"F" F3/2 G/AG |FF FF |
+F3/2 A/"C7" cB |"F" AG FG |1 "A7" AG FE |"Dm" D2 D2 :|2
+"A7" AB B^c |"Dm" d2 d2 || |] "Dm" d^c cB |BA ^GA |
+"Gm" BA ^GA |"A7" BA ^GA |"Dm" d^c cB |BA ^GA |
+"A7"  (3A/B/A/ ^G/A/B A|"A7" z ^c"Dm" d2 |]
+V:2          %2e stem
+d2 |  |8  |:F4 |
+F4 |B,4 |B,4 |A,4 |
+E4 |zF FF |E/F/E/D/ ^C2 |zA AA |
+zF FF |zE EE |B4 |A2 d2 |
+^c2 e2 |zd dd |d/^c/d/e/ fe :| |:F3/2 G/AG |
+FF FG |A3/2 B/cB |AA AA |A3/2 c/ed |
+cB AG |1 ^C^C DE |F4 :|2 AG FE |
+D2 D2 ||
+D4 |F4 |G4 |E4 |
+D4 |D4 |^C2 E2 |zE D2 |]
+
+
+
+
+
+X:119
+T:Essen esst zich
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=76
+K:Em
+V:1
+"Em" EB, E2 E2 |EB, E2 E3/2 E/|"C" EG "B" F3 E/E/|_E/_E C/B,4 |
+FB, F2 F2 |FB, F2 F3/2 F/|FA "Em" G2 FE | (3GGG E"B" F "C" G"D7" A |
+"G" BG B2 B2 |"Em" BG B2 B3/2 B/|"Em" Bd "F#" ^c3 B/B/|_B/_B G/F3 A|
+"F#" A FA2 A2 |"B7" AF A2 A3/2 A/|Ac "Em" B3 A/A/|"B7"  (3GGF "Em" E4 :|
+V:2          %2e stem
+GE GA BA |GE GA Bc |de cB AG |FE _EE FG |
+A_E AB cB |A_E AB c_e |f_e ec BG | (3BBB GA Bc |
+dB de dB |eB ef ga |gf ef ed |^c3/2 B/^c3 z|
+_e ef e_e c|_e fa ba g|f _ee fg f| (3_efa g4 :|
+
+
+
+
+
+X:120
+T:Freilag
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=131
+K:Gm
+V:1
+"D" d ^f/^f/^f/^f/ ^f/^f/|^f d/^f/a g|^f/g/ a^f/g/ a|^f e/^f/"Cm" e/d/ c|
+"D" d ^f/^f/^f/^f/ ^f/^f/|^f d/^f/a g|^f/g/ a"Cm" ^f/e/ d/c/|"D" (d2 d2) :| |:
+"D" db ag |^f2 g2 |ag ba |"Gm" g4 |
+zb ab |"Cm" c'2 b2 |ag ^fg |"D" a4 |
+zb ag |^f2 g2 |ag ba |"Gm" g4 |
+"Cm" c'4 |c'b ag |^fc de |"D" (d4 |
+d4)  :| |:"Gm" G3 A/B/|G3 A/B/|G A/B/G A/B/|
+G4 |"Cm" Bc cc |cB/c/ BA |"Gm" AB BB |
+BA/B/ AG |GF FG |"F7" Gc BA |"Bb" B4 |
+f4 |"Cm" Bc cc |cB/c/ BA |"Gm" AB BB |
+BA/B/ AG |"Eb" Ge dc |"Cm" Bc "D7" AB |"Gm" (G4 |
+G4) :|
+
+
+
+
+
+X:121
+T:Freitog nokh'n tsimes
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:Am
+V:1
+{^g}"Am" a2 {^g}a {^g}a A3 g|g/f/ ee/_e/ cc/B/ Ag2 |za ^ga A3 g|g/f/ ee/_e/ cc/B/ AA2 :| |:
+z"Am" e _ee "Em" B3 g|"Am" g/f/ ee/_e/ cc/B/ Ae2 |"Am" ze _ee "Em" B3 g|"Am" g/f/ ee/_e/ cc/B/ AA2 :| |:
+K:A
+"A" z (3A/B/A/ GA ~BA ~cA |~dA ~cA BA e2 |z (3A/B/A/ GA ~BA ~cA |~dA ~cA BA A2 :|
+
+
+
+
+
+X:122
+T:Freylekhs fun der khupe
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:Gm
+V:1
+"Cm" c2 d/e/^f/e/ |^fg gg |b/a/g g/^f/e |"G7" g/^f/e e/d/d/c/ |
+"Cm" c2 d/e/^f/e/ |^fg gg |~c'3 g|c' b"G7" ~a g|
+"Cm" c2 d/e/^f/e/ |^fg gg |b/a/g g/^f/e |"G7" g/^f/e e/d/c |
+"Cm" b/a/b/a/ b/a/g | (3c'ba  (3g^fe |1 "G7" a/g/^f e/d/c |"Cm" c3 G:|2
+finea/"G" g/ ^fe/c/ d/e/|"Cm" c2 z/g/^f/g/ ||  |:"Cm" ~c'3 g|~c'3 g|
+~c' g~c' g|~c' gc'  (3c/e/g/ |c'b ag |~^f3/2 e/^f/e/d/ c/|
+"Cm" c'b ag |^f/a/(g g)z |c'b ag |~^f3/2 e/^f/e/d/ "G" c/|
+|1 dd e/d/c/=B/ |c2 "Cm" z/g/^f/g/ :|2 "G" dd e/d/c/=B/ |c2 "Cm" z2 ||
+|:"C" =eg "Bb" g/f/f/=e/ |"C" =eg "Bb" g/f/f/=e/ |"C" g/^f/g/a/ b/a/g/^f/ |gz c'z |
+"C" =eg "C7" g/f/f/=e/ |"F" f3 ^f|"G" a/g/ ^f/e/^f/e/ d/e/|"Cm" c3 G:|
+"Cm" c' z"G" g z|"Cm" c' zz2 |]
+V:2          %2e stem
+z2 |  8  |:e2 g2 |^fe dc |
+g/^f/e e/d/c |e/d/c c/=B/=B/G/ |e2 g2 |^fe dc |
+~c3 e|c d~e g|e2 g2 |^fe dc |
+g/f/e e/d/c |e/d/c c/=B/G |g/^f/g/^f/ g/^f/e | (3agf  (3edc |
+|1 =B2 d2 |e3 c:|2 =B2 d2 |e2 z/c/=B/c/ || |:
+~c3 e|~c3 e|~c e~c e|~c ec z|
+c de g|~a3/2 g/a/g/f/ e/|cd eg |az b/a/g/^f/ |
+cd eg |~a3/2 g/a/g/^f/ e/|1 ^f^f g/^f/e/d/ |e2 z/g/^f/g/ :|2
+ff g/f/e/d/ |e2 z2 || |:c=e =e/d/d/c/ |c=e =e/d/d/c/ |
+=e/d/=e/^f/ g/^f/=e/d/ |cz Gz |c=e =e/d/d/c/ |c3 e|
+^f/e/ d/c/d/c/ =B/c/|e3 e:|e zd z|e zz2 |]
+
+
+
+
+
+X:123
+T:Freylekhe mekhutonim
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:Gm
+V:1
+"Gm" G4 B4 |"A7" A3/2 G/^FG "D" A4 |"D7" A4 c4 |"Gm" B3/2 A/GB d4 |
+"Cm" ze/d/ cd ed c2 |"Gm" dG AB "G" ^c3/2 B/B/A/G |"Eb" AB2 G"D7" B/A/ G^F/G/ A|1 "Gm" G4 zD =E^F :|2
+"Gm" G4 zD GA ||  |:"Gm" BA G2 zA Bc |BA G2 zd ed |"Cm6" cB A2 zA Bc |
+"Gm" B/A/G d3 BB/A/ G|"Cm" e dc2 zA Bc |"Gm" dc B2 zD GA |"Eb" AB2 G"D7" B/A/ G^F/G/ A|
+|1 "Gm" G4 zD GA :|2 "Gm" G6 z2 || |:
+K:G
+"G" B/d/^c/d/ e/d/^c/d/ gd cB |"D" AB c/B/A "G" A{c/}B3 |B/d/^c/d/ e/d/^c/d/ gd cB |1 "D" AB c/B/A "G" GD GA :|2
+"D" AB c/B/A "G" G3 D||
+V:2          %Boventerts
+D |  |8 |
+K:Gm
+B,4 D4 |^C3/2 B,/A,B, C4 |C2 D2 E2 ^F2 |G8 |
+zG/F/ EF GF E2 |G2 F2 =E4 |E4 D2 C2 |1 B,4 z4 :|2
+B,4 z4 || |:DC B,2 zC DE |DC B,2 zF GF |ED C2 zC DE |
+D/C/B, D3 DD/C/ B,|G FE2 zC DE |FE D2 z.G .F.=E |E4 D2 C2 |
+|1 B,4 z4 :|2 B,6 z2 || |:
+K:G
+G/B/_B/B/ c/B/_B/B/ dB AG |FG A/G/F FG3 |G/B/_B/B/ c/B/_B/B/ dB AG |1 D_E EF G3 A:|2
+D _EE FG3 z||
+
+
+
+
+
+X:124
+T:Hava Nagila
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=125
+K:C
+V:1
+"E" E2 z2 (E4 |E2) ^G2 F2 E2 |^G2 z2 (^G4 |^G2) B2 A2 ^G2 |
+"Am" A2 z2 (A4 |A2) c2 B2 A2 |"E" ^G4 FE F2 |1 ^G8 :|2
+E8 || |:"E" ^G2 ^G4 F2 |E2 E2 E2 z2 |"Dm" F2 F4 E2 |
+D2 D2 D2 z2 |D4 F3 E|D2 DD A4 |"E" ^G4 FE F2 |
+|1 ^G8 :|2 E8 |]"Am" A8 |c8 |
+A4 e4 |c4 A4 |AA A2 c3 B|A2 c2 B2 A2 |
+AA A2 c3 B|A2 c2 B2 A2 |"Dm6" BB B2 d3 c|B2 d2 c2 B2 |
+BB B2 d3 c|B2 d2 c2 B2 |"E" BB B2 (e4 |e4) z4 |
+BB B2 (E4 |E4) z4 |EE E2 |c4 B4 |
+A4 ^G4 ||"Am" A8) ||
+
+
+
+
+
+X:125
+T:Heyser Bulgar
+O:klezmer
+M:6/8
+L:1/8
+Q:1/4=
+K:Gm
+V:1
+D^F2 G|"D" A2 AA3 |AB c"Cm" B AG |"D" A2 A(^F3 |
+^F2) D^F2 G|"D" A3 z2 d|d Ac "Cm" BA G|"D" A2 A(^F3 |
+^F2) D^F2 G|"D" A2 GB2 A|G2 ^FE2 D|"Cm" G2 G(C3 |
+C2) CE2 G|c de dc B|A Bc BA G|^F GA "Cm" G^F E|
+"D" D2 DG2 B||"Gm" ^c (d2 d2) d|d ^cB B3 |Ac BB2 B|
+~A2 G^F2 G|"D" ^F2 GA2 B|"Cm" c Ac BA G|"D" A6 |
+z2 DG2 B|"Gm" ^c (d2 d2) d|d ^cB B3 |Ac BB2 B|
+~A2 G^F2 G|"D" ^F2 GA2 B|"Cm" c2 BB AG |G^F EE DC |
+"D" D2 zz2 A,|"D" D z2 z3 ||Az2 BA G|"D" ^F GA G^F E|
+^F2 G^G2 A|"D" D z2 z3 |Az2 BA G|"D" ^F GA "Gm" BA G|
+"D" A G^F "Cm" ED C|"D" D z2 z3 |Az2 BA G|^F2 G^G2 A|
+"Cm" =B (c2 c3) |cd ed cB |AB cB AG |^FG A"Cm" G ^FE |
+"D" D2 DD2 ^C|"Cm" C3 ^C2 E|E DC G3 |^FG AG ^FE |
+D2 C^F2 G|C3 D2 E|D2 Cc3 |cB AB AG |
+AG ^FG ^FE |"Cm" C3 D2 E|E DC G3 |^FG AG ^FE |
+D2 C^F2 G|C3 D2 E|D2 CG3 |"D" ^FG A"Cm" G ^FE |
+"D" D2 |] "Cm" C3 D2 E|E DC G3 |^FG AG ^FE |
+D2 C^F2 G|C3 D2 E|D2 CG3 |"D" ^FG A"Cm" G ^FE |
+"D" D2 |]
+
+
+
+
+
+X:126
+T:Roumanian Hora & Bulgar
+O:klezmer
+M:3/8
+L:1/8
+Q:1/4=76
+K:Dm
+V:1
+"Dm" ~^G3/2 A/B/A/|"D" ~^G3/2 F/E/D/|"Dm" A zA |A3/2 D/F/A/|
+~d3/2 c/B/A/|"D" ~^G3/2 F/E/D/|"Dm" A zA |Az A
+|~^G3/2 A/B/A/|~^G3/2 F/E/D/|"Gm" G GG |B3 |
+"Dm" ~A3/2 D/F/G/|"D" ~^G3/2 F/E/F/|"Dm" D3/2 d/A/F/|1 D zA :|2
+Dz A,||  |:"Dm" (D3 |D3) |FF E/D/|
+F FE/D/ |"A7" (^C3 |^C3) |A,B, ^C/D/|
+E F^G/A/ |"Dm" D2 A|"D" ^G FE/D/  |"Dm" FF E/D/|
+F FE/D/ |"Gm" ~G3 |~B3 |"Dm" ~A3/2 D/E/A/|
+"D" ~^G3/2 F/E/F/|"Dm" D3/2 d/A/F/|1 D2 A,:|2 D2 z||
+M:2/4
+|:!segno!"Dm" ~^G AB A|^G FE D|A AA A|A DF A|
+~d cB A|^G FE D|~A3 A|A3 A
+|~^G AB A|^G FE D|"Gm" G G2 G|B4 |
+"Dm" ~AD FA |"D" ~^GF EF |1 "Dm" ~Dd AF |Dz A2 :|2
+"Dm" (D4 |D2) A,2 ||  |:"Dm" D4 |D4 |
+FF ED |FF ED |"A" ^C4 |^C4 |
+A,B, ^CD |EF ^GA |"Dm" D3 A|A/^G/ FF/E/ D|
+F FE D|F FE D|"Gm" G4 |B4 |
+"Dm" AD FA |"A" ^GF EF |"Dm" DA FD |1 zA,2 :|2
+Dz [A2G2 ^C2]||"Dm" Hdz "A" HAz |"Dm" HD4 ||
+
+
+
+
+
+
+X:127
+T:Hob ich mir an altn dajm
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=76
+K:C
+V:1
+"C" CC EE |"Bb" GG "A7" (FE) |"Dm" D/E/(F "G7" F)G/F/ |"C" E2 .E2 |
+"C" CC E2 |"Bb" GG "A7" (FE) |"Dm" D/E/(F "G7" F)G/F/ |"C" E2 "C7" E2 |]
+"F" FA AA |"C" AG G2 |"G" GF "G#" FF |"Am" FE E"D7" z |
+"G" GD DD |CE G2 |"G" D/E/F2 E/D/|"C" C2 C2 |]
+V:2          %3e stem
+(3CCC  (3EEE | (3GAG (FE) |D/E/(F/G/) A/B/c/B/ |cc .ec |
+(3ccc  (3eee | (3gag (fe) |d/e/f/e/ d/c/B/d/ |cc B_B |]
+(3Aff  (3f2a|f  (3ede2 | (3ed^c  (3d2e|d  (3cB.cz |
+B.d zd |ce g2 |g/^f/f/e/ d/c/B/d/ |ce c2 |]
+
+
+
+
+
+X:128
+T:Hopkele
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=140
+K:C
+V:1
+GA B|"C" c _BA G|"F#" _B AG ^F|"C" .G zE (C|
+C) CD E|"G7" .F zD (B,|B,) FE D|"C" E zF z|
+^F zG G|"C" c _BA G|"F#" _B AG ^F|"C" .G zE (C|
+C) CD E|"Fm" F3/2 G/^G/G/F |"C" EC "G7" DB, |"C" C4 |
+zC EG  |]{A}"C7" (_B4 |_B4) |{A}(_B4 |
+_B3) z|"C7" _B3/2 A/GA |_BA G^F |.GE3 |
+zC FG |{G}"F" (A4 |A4) |{G}(A4 |
+A3) F|"Fm" .^G .^G.G .F| (3Bcd  (3cB^G |"G7" G4 |
+zG AB |"C" c_B AG |"F#" _BA G^F |"C" .Gz E(C |
+C)C DE |"G7" .Fz D(B, |B,)F ED |"C" Ez "G7/h" Fz |
+"D#o/a" ^Fz "G7/g" GG |"C" c_B AG |"F#" _BA G^F |"C" .Gz E(C |
+C)C DE |"Fm" F3/2 G/^G/G/F |"C" EC "G7" DB, |"C" HCz "G7" [HFG]z|
+"C" [HcGE]|]
+V:2          %2e Stem
+zz z|A GF E|G ^FE _E|.E zC (G,|
+G,) G,B, C|.D zB, (G,|G,) DC B,|C zD z|
+_E zE G|A GF E|G ^FE _E|.E zC (G,|
+G,) G,B, C|D3/2 E/F/E/D |C2 B,2 |C4 |
+zC CD  |](E4 |E4) |(E4 |
+E3) z|G3/2 F/EF |GF E_E |.EC3 |
+zC DE |(F4 |F4) |(F4 |
+F3) D|.F .F.E .D| (3GAB  (3AG^F |F4 |
+zE FG |AG FE |G^F E_E |.Ez C(G, |
+G,)G, B,C |.Dz B,(G, |G,)D CB, |Cz Dz |
+_Ez EG |AG FE |G^F E_E |.Ez C(G, |
+G,)G, B,C |D3/2 E/F/E/D |C2 B,2 |HCz HB,z |
+HC|]
+
+
+
+
+
+X:129
+T:Hora
+O:klezmer
+C:Traditioneel
+C:Arr: Trudi Broekema
+M:3/4
+L:1/8
+Q:1/4=104
+K:Dm
+V:1
+"Dm" D3 FA d|"Dm/c#" F3 Ad f|"Dm/c" A3 df a|"Dm/h" ^g3 fe d|
+"Bb" ^g3 ab a|"A7" ^g3 fe d|{^g/}"Dm" a3 AA A|{^g/}"A7" a3 AA A|
+"Dm/d" D3 FA d|"Dm/c#" F3 Ad f|"Dm/c" A3 df a|"Dm/h" ^g3 fe d|
+"Bb" ^g3 ab a|"A7" ^g3 fe d|"Dm" d3 d'a f|1 "Dm" d6 :|2
+"A" d4 "D7" d2 || |:"Gm" g2 g2 g2 |g3 fa g|"Dm" f2 f2 f2 |
+f3 eg f|"A" e2 e2 e2 |a3 AB ^c|"Dm" d3 ef g|
+"A" a3 gf e:|"Dm" d3 Af e|d6  |:"Dm" D3 FF E|
+"C" E3 GG F|"F" F3 AA G|"Gm" G3 BB A|"A" A3 GG F|
+"E" F3 EE D|"A" A6 |"A7" A3 GF E|"Dm" D3 FF E|
+"C" E3 GG F|"F" F3 AA G|"Gm" G3 BB A|"Dm" A3 GG F|
+"A" F3 EE D|"Dm" D3 dA F|D6 :| |:"Dm" Ad dc cB |
+BA A4 |"E" ^GB BA A^G |"Dm" ^GF F3 D|F3 AA ^G|
+"E" ^G3 BB A|"A" A6 |"A7" A6 |"Dm" Ad dc cB |
+BA A4 |"E" ^GB BA A^G |"Dm" ^GF F4 |F3 AA F|
+"A" E3 A,B, ^C|"Dm" D3 AF E|D6 :|
+V:2          %Variaties op 1e stem
+~Dz F4 |~Fz A4 |~Az d4 |dA fd a2 |
+^g3 a (3a^gf |e3 d (3def |^g2 a4 |^g3 f (3fed |
+~Dz F4 |~Fz A4 |~Az d4 |dA fd a2 |
+^g3 a^g f|e3 de f|d3 d'a f|1 d6 :|2
+d4 d2 || |:^f2 g2 g2 |g3 f (3agf |f2 f2 f2 |
+f3 e (3gfe |_e2 e2 e2 |a3 AB ^c|d3 ef g|
+(3aba  (3gag  (3fgf :|d3 Af e|d6  |:D3 F (3FEF |
+E3 G (3GFG |F3 A (3AGA |G3 B (3BAB |A3 G (3GFG |
+F3 E (3EDE |^G2 A4 |~az ~az ~az |D3 F (3FEF |
+E3 G (3GFG |F3 A (3AGA |G3 B (3BAB |A3 G (3GFG |
+F3 E (3EDE |D4 A,2 |D6 :| |:Ad dc cB |
+BA A4 |^GB BA A^G |^GF F3 D|F3 AA ^G|
+^G3 BB A|A6 |A6 |Ad dc cB |
+BA A4 |^GB BA A^G |^GF F4 |F3 AA F|
+E3 A,B, ^C|D3 AF E|D6 :|
+
+
+
+
+
+X:130
+T:Der Hoyfzinger
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=130
+K:Cm
+V:1
+G2 |"Cm" c2 c2 d2 |c4 G2 |"Eb" F2 (E4 |
+E4) EF |"Cm" G2 E2 G2 |"Bb" F2 E2 D2 |"Cm" (C6 |
+C4) |]G,2 |"Cm" C4 D2 |E4 F2 |
+ED (C4 |C4) B2 |"Bb" B2 B2 B2 |F2 G2 G2 |
+"Eb" (G6 |G4) B2 |"Bb" B2 B2 B2 |F2 G2 G2 |
+"Eb" (G6 |"G" G4) G2 |"Cm" c2 c2 d2 |c4 G2 |
+"Eb" F2 (E4 |E4) EF |"Cm" G2 E2 G2 |"Bb" F2 E2 D2 |
+"Cm" (C6 |C4)  |] EF |"Cm" G2 E2 G2 |
+"Bb" F2 E2 D2 |"Cm" (C6 |C4)  |]G,2 |
+"Cm" C4 D2 |E4 F2 |ED (C4 |C4) B2 |
+"Bb" B2 B2 B2 |F2 G2 G2 |"Eb" (G6 |G4) d2 |
+"G7" d2 d2 d2 |"G7" e4 d2 |"Cm" (c6 |c4) G2 |
+"Cm" c2 c2 d2 |c4 G2 |"Eb" F2 (E4 |E4) EF |
+"Cm" G2 E2 G2 |"Bb" F2 E2 D2 |"Cm" (C6 |C4)
+|] G,2 |"Cm" C4 D2 |E4 F2 |ED (C4 |
+C4) B2 |"Bb" B2 B2 B2 |F2 G2 G2 |"Eb" (G6 |
+G4) B2 |"Bb" B2 B2 B2 |F2 G2 G2 |"Eb" (G6 |
+"G" G4) G2 |"Cm" c2 c2 d2 |c4 G2 |"Eb" F2 (E4 |
+E4) EF |"Cm" G2 E2 G2 |"Bb" F2 E2 F2 |(G6 |
+G4) G2 |"Cm" c2 c2 d2 |e2 d2 c2 |"Fm" F2 (c4 |
+c4) G2 |"Cm" G2 c2 d2 |"G7" e2 e2 d2 |"Cm" (c6 |
+"Fm" (c6) |"Cm" (c4) "G" (c2) |"Cm" c4)  |]
+V:2          %2e stem
+z2 |z6 |z6 |z6 |
+z6 |z6 |z6 |z6 |
+z4  |] z2 |z6 |z6 |
+c4 d2 |e2 d2 c2 |d4 d2 |d2 e2 f2 |
+B4 ef |g2 f2 e2 |f2 f2 f2 |d4 c2 |
+B6 |=B2 G2 G2 |c4 d2 |e4 c2 |
+B4 G2 |E6 |E2 C2 E2 |D4 B,2 |
+C4 ED |C4  |] z2 |z6 |
+z6 |z6 |z4 |]z2 |
+z6 |z6 |c4 d2 |e2 d2 c2 |
+d4 d2 |d2 e2 f2 |B4 ef |g2 f2 g2 |
+f2 f2 f2 |g4 f2 |(e6 |e6) |
+c4 d2 |e4 c2 |B4 G2 |E6 |
+E2 C2 E2 |D4 B,2 |C4 ED |C4
+|] z2 |z6 |z6 |z6 |
+z6 |z6 |z6 |z6 |
+z6 |z6 |z6 |z6 |
+z6 |z6 |z6 |z6 |
+z6 |z6 |z6 |z6 |
+z6 |z6 |z6 |z6 |
+z6 |z6 |z6 |z6 |
+z6 |z6 |z4  |]
+
+
+
+
+
+X:131
+T:Itamar Freilach
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=140
+K:Dm
+V:1
+DF A |:"Dm" d4 |A2 F2 |D4 |
+zD FA |d3/2 ^c/ (3d^cB |"D7" B3/2 A/ (3BAG |"Gm" G4 |
+zG ^FG |"A7" e2 d2 |^c2 .B2 |A4 |
+zE F^G |"A7" ^GA z^G | (3AGF  (3FED |"Dm" D4 |
+|1 zD FA :|2 zD _ED ||  |:
+K:Gm
+"Gm" [D4G4]|[G4B4]|[(B4(d4]|[B4)d4)]|
+"Gm" [Ac][ce][(3Bd][A(3c][GB]|[(3Ac][B(3d][ce][(3Bd][A(3c][GB]|"D" [A4^F4]|z[D^F][EG][D^F]|
+D3 A,|^F3 A,|A3 A,|d4 |
+"D" ^cd z^c | (3d^cB  (3BAG |"Gm" B4 |zD ED |
+"Gm" D4 |G4 |(B4 |B4) |
+(3ABc  (3BAG | (3ABc BG |c4 |"G7" d4 |
+c2 Bc |zc BA |B2 GB |zB AG |
+"D7" A2 ^FA |zD B/A/G/^F/ |"Gm" (G4 |1 G)D ED :|2
+G2 "A7" z2 || ||
+K:D
+"D" FA FA |z"A7" G/A/ GE |"D" FA FA |"A7" zG/A/ GE |
+"D7" FG AB |"G" =c3/2 B/ (3=cBA |"D" ^G(A3 |A4) |
+"D" FA FA |"A7" zG FE |"D" FA FA |"A" zG FE |
+CD EG |FD EC |(D4 |1 D2) z2 :|2
+DD =FA ||
+(3A/^G/A/ _B/B/=c/c/ d||
+
+
+
+
+
+X:132
+T:Itsik hot khasene gehat
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:G
+V:1
+B,|"Em" E EE E|B2 GG |"Am" AA BA |
+"Em" GF EE |"Em" EE EE |"Am" EA GF |"Em" (G4 |
+G)z zB, |"Em" EE EE |B2 GG |"Am" AA BA |
+"Em" GF EB |"G" BB BB |"Am" cc BA |"Em" (E4 |
+E)z ze  |:"Em" ee dc |Bc de |(B4 |
+|1 B)z ze :|2 Bz zB || |:"C" ee "D7" dc |"G" BA GG |
+"Am" Ac "B7" BA |"Em" GF Ez |"G" BB BB |"Am" cc BA |
+|1 "B7" (B4 |B4) :|2 "Em" (E4 |E2) z||
+
+
+
+
+
+X:133
+T:Kamjensl Freilach
+O:klezmer
+C:Maarten Sijbers
+M:4/4
+L:1/8
+Q:1/4=144
+K:Bb
+V:1
+"Gm" (G4 G)B AG |d2 d2 d2 d2 |(G4 G)B AG |"Cm" e2 e2 e2 e2 |
+"D7" (^f4 ^f)^f ^fg |a2 a2 a2 ab |"F" c'b ag "D7" ^fe dc |"Gm" g2 g2 g2 g2 :| |:
+"Eb" (g4 g)f eg |"Bb" f2 f2 "G7" g2 f2 |"Cm" ee2 d"F" e f/g/f e|"Bb" B2 d2 f2 d2 |
+"F" cc2 de f/e/d c|"Bb" B2 d2 fb fd |"F" cc2 de f/e/d c|"Bb" B f"F" =e e"Bb" d4 :| |:
+"Cm" (g4 g)g gg |"D7" ^f2 ^f2 ^f2 ^f2 |"Cm" (g4 g)g "F" fe |"Bb" d2 d2 d2 d2 |
+f3 f"Eb" g g"F" f e|"Bb" d2 g2 "D7" d2 c2 |"Gm" Bd gd "F" cd/e/ "D7" dc |"Gm" B8 :|
+V:2          %2e stem
+|:G4 GB AG |B2 B2 B2 B2 |(G4 G)B AG |c2 c2 c2 c2 |
+(d4) d)d de |^f2 ^f2 ^f2 ^fg |ag ^fe dc BA |B2 B2 B2 B2 :| |:
+(e4 e)d ce |d2 d2 e2 d2 |cc2 Bc d/e/d c|F2 B2 d2 B2 |
+AA2 Bc d/c/B A|F2 B2 dd fd |AA2 Bc d/c/B A|B d^c cB4 :| |:
+(e4 e)e ee |d2 d2 d2 d2 |(e4 e)e dc |B2 B2 B2 B2 |
+d3 de ed c|B2 B2 B2 A2 |GB BB AB/c/ BA |G8 :|
+
+
+
+
+
+X:134
+T:Keshenever bulgar
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=130
+K:C
+V:1
+Gc e |:segno"C" [~ge][fd][e2c2]z[GE][cA][ec]|[~ge][fd][e2c2]z[GE][cA][ec]|"C" [g2e2]"F" [a2f2]"C" [g2e2]"G" [fd][ec]|
+"C" ^f(g g2) {b/}c'2 {b/}c'2 |[ge][fd][~e2c2]z"C#" [GE][cA][g^c]|"Dm" [fd][ec][~d2B2]z[dB][ec][fd]|"G" [~g3/2G2]e/[~f3/2^G2]d/[~e3/2A2]c/[~d3/2B2]B/|
+|1 "C" ~c4 zG/A/ B/"G" c/d/e/ :|2 fine"C" c8 || |:"C" ga ~_b2 "F" ag ~a2 |"C" gf ~g2 fe3 |
+(3g2f2e2  (3g2f2e2 |{^f}g4 {b/}c'4 |ga _bc' "F" a_b ga |"G" fg ef "C" e(d d)c |
+"G" ~ge ~fd ~ec ~dB |1 "C" c8 :|2 "C" c4 zG "G" ce ||
+"C" ~gf e2 zG ce |~gf e2 zG ce |"C/c" ~g2 "C/f" ~a2 "C/c" ~g2 "C/g" fe |"C" ^f(g g2) {b/}c'2 {b/}c'2 |
+~gf e2 zG "C#" cg |"Dm" ~fe d2 zd ef |"G" ~g3/2 e/~f3/2 d/~e3/2 c/~d3/2 B/|"C" ~c4 z.G "G" .A.B  |:
+"C" c4 c4 |c4 zg ab |"C" [~c'a]"F" [bg][bg][af][af]"C" [ge][~g2e2]|"F" [~af]"C" [ge][ge]"G" [fd][fd]"C" [ec][~e2c2]|
+[^f_e][ge]z[ge][_b/c2]a/g[fc2]e|"C" [^f_eB][(g(c (e][g2)c2) e2)]z[ge][a^f][bg]|"F" [~c'a][bg][~bg][af][~af][ge][~g2e2]|"F" [(3af]"C" [_b(3g][af][(3ge]"G" [a(3f][ge][f/d/]"C" [g/e/][fd][e2c2]|
+"Dm" [~dF]"G" [ac][gB][fA][eG][cA][dB][BG]|1 "C" ~c4 zG "G" AB :|2 "C" ~c4 "G" zG/A/ B/c/d/e/ ||
+
+
+
+
+
+X:135
+T:Khosn, kale mazeltov
+O:klezmer
+C:Klezmer
+M:4/4
+L:1/8
+Q:1/4=126
+K:Eb
+V:1
+Gc e |:"Cm" g2 g2 ^f2 g2 |ed c3 Gc e|g2 g2 ^f2 g2 |
+"Cm" =ab "G7" g3 g=a =b|"Cm" c'2 g2 ^f2 g2 |ed c3 cd e|e/"Fm" g/ (ff) e"G7" g/^f/ ee/d/ c|
+|1 "Cm" c4 zG "G" ce :|2 "Cm" c4 zG "Bb" eg || |:"Eb" b2 b2 =a2 b2 |~gf e3 Be g|
+b2 b2 =a2 b2 |"Eb" c'^c' b3 "Bb" bc' d'|"Eb" e'2 b2 =a2 b2 |~gf e3 cd e|
+"Fm" e/g/ (ff) e"G7" g/^f/ ee/d/ c|"Cm" c4 |1 zB "Bb" eg :|2 "Cm" c4 zG "G" ce |]
+e/"Fm" g/(f f)e z/"G" g/^f/g/ g/=a/b/=b/ |"Cm" c'z "G" gz c"Cm" z z2 |]
+
+
+
+
+
+X:136
+T:Klez
+O:klezmer
+C:Naftule Brandweins Orchestra (1924)
+C:Arr: Trudi Broekema (klar)
+M:4/4
+L:1/8
+Q:1/4=120
+K:Dm
+V:1
+Ad e |:"Dm" f2 ff2 ff/e/ d|"A7" d ee e2 ee d|^c/d/ e"Bb" f/e/ d"A" e/d/ ^cd/^c/ B|
+^c4 zA de |f2 ff2 ff/e/ f|g2 gg2 gg f|"G#" e f^g a"A7" a/^g/ ff/e/ d|
+|1 "Dm" d4 "A7" zA de :|2 "Dm" (d4 "C7" d)c fg ||  |:a2 aa2 gb/a/ g/a/|f2 ff2 cf g|
+a2 a(a a)b c'b |a2 a2 a2 a2 |b2 bb2 bb/a/ g/f/|"Dm" g aa a2 aa/^g/ f|
+"Gm" f g2 f"G#" a/^g/ f"A7" f/e/ d|1 "Dm" d4 zc fg :|2 d4 z4 ||  |:"Dm" dd Ad fe d2 |
+"F" cc FA cB AG |"C7" FG2 FA/c/ BA/G/ F/G/|"F" [z4A8]"A7" z4 |dd Ad fe d2 |
+"F" cc FA cB AG |FG2 F"G#" A/^G/ F"A7" F/E/ D|"Dm" D8 :|
+V:2          %acc.2e stem
+CF G |:A2 AA2 AA/G/ F|F GG G2 GG F|E/F/ GA/G/ FG/F/ EF/E/ D|
+E4 z^C FG |A2 AA2 AA/G/ A|B2 BB2 BB z|e (ee) d^c/B/ AA/^G/ F|
+|1 F4 zE FG :|2 (F4 F)G AB ||  |:c2 cc2 Bd/c/ B/c/|A2 AA2 GA B|
+c2 c(c c)d ed |c2 c2 c2 c2 |d2 dd2 dd/c/ B/A/|c dd d2 dd/c/ A|
+A B2 A^c/B/ AA/G/ F|1 F4 zG AB :|2 F4 z4 ||  |:FF EF AG F2 |
+AA FA cB AG |AB2 Ac/e/ dc/B/ A/B/|c8 | (3def  (3def  (3def  (3def |
+a6 F[GE]|[B4D2 F2][^G2B2 F2 D2][G2^c2 E2]|[F8d8 D8 A8]:|
+V:3          %klar. 2e stem
+cf g |:a6 a/g/f |~g3 ~g3 gf |a2 b2 ^c'2 d'2 |
+~^c'2 ^c'^c'2 b (3bag |a6 a/g/a |~b3 ~b3 ba |gf ed ^cB A/^G/F |
+|1 F4 zc fg :|2 (F4 F)e ab ||  |:~c'4 ~c'2 ~c'2 | (3aga  (3aga a2 ab |
+~c'4 ~c'2 ~c'2 |c'2 b2 a2 ^f2 |g2 gg2 gg/f/ e/d/|e ff f2 ff/e/ d|
+A B2 A^c/B/ AA/^G/ F|1 F4 zG AB :|2 F4 z4 ||  |:FF EF AG F2 |
+AA FA cB AG |AB2 Ac/e/ dc/B/ A/B/|~a8 |[(3df][e(3g][fa][(3df][e(3g][fa][(3df][e(3g][fa][(3df][e(3g][fa]|
+[~a8c'8]|[g2d'2][^g2b2]a/^g/f f/e/d |d8 :|
+
+
+
+
+
+X:137
+T:Lebedich un Freilech
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:Am
+V:1
+A^G/A/ _BA GF EA  |:"Dm" D3/2 D/F(E E)D EF |A^G B(A A)^G FE |D3/2 D/F(E E)D EF |
+|1 A^G B^G A.A, .B,.^C :|2 (D4 D)|| |]D FA |"Dm" d2 d2 d2 de |
+"Am" c/B/A A(A A)D FA |"Dm" d2 d2 d2 de |"Am" c/B/A A(A A)G FE |"Dm" D3/2 D/F(E E)D EF |
+A^G B(A A)^G FE |D3/2 D/F(E E)D EF |(D4 D) |:"Dm" D GA |
+"G" (B4 B)A BA |GD3 z.D .G.A |"D7" B3/2 A/B3/2 A/B3/2 A/B3/2 A/|"G" GD3 z.D .G.A |
+"G" B4 "Gm" _B4 |"A" .A.G .^F(E E).E .^F.G |"D" A.^F "A7" G.E "D" ^F.D "A7" E.^C |"D" (D4 D):|
+
+
+
+
+
+X:138
+T:Long live the nigun
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=90
+K:Gm
+V:1
+D2 |"Gm" D2 G2 G2 |G4 G2 |GD B2 A2 |
+G4 G2 |GD B2 A2 |G2 d4 |"D" ^FG A2 A2 |
+A4 cc |"Eb" BA G2 A2 |"D" ^F4 D2 |"Eb" E3 DE C|
+"D" D4 D2 |"Gm" D2 G2 G2 |G4 G2 |GD B2 A2 |
+G4 A2 |"Bb" BF d2 c2 |B2 f4 |"F" AB c2 c2 |
+c4 e2 |"D" d3 cd c|"Gm" B4 d2 |"Eb" ^c3 B^c B|
+"D" A6   |: (3BAG G2 G2 |"Eb"  (3BAG G2 A2 |"D" ^F3 D"Eb" E C|
+"D" D E^F GA c|"Gm"  (3BAG G2 G2 |"Eb"  (3BAG G2 A2 |"D" ^F3 D"Eb" E C|
+|1 "D" D2 A4 :|2 "D" D6 ||  |:
+K:G
+"G" [Bd][ce][d=f][ce][d=f][ce]|[d3=f3][ce][B2d2]|[B2d2][d2=f2][c2e2]|[d3=f3][ce][B2d2]
+|"Ab" [c2_e2][c2_e2][c2_e2]|[c3_e3][_Bd][^G2c2]|"G" [B2d2][B2d2][B2d2]|[(3Bd][A(3c][GB][B4d4]
+:| |:
+K:Gm
+"Ab" (c2 c)d cB |^G2 e4 |"Gm" d3 ed c|B4 G2
+|"Ab" ^G3 B^G G|"D7" ^F3 DB A|"Gm" G3 DD E|1 D2 d4 :|2
+"Gm" D6 ||
+
+
+
+
+
+X:139
+T:Mayn Rue Platz
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=76
+K:Dm
+V:1
+DF G|"Dm" A3 cd c|"F" A2 FE FG |"Am7" A3 GF E|
+"Dm" D3 DF A|d3 Af e|d2 "Am" c2 ed |"C" c3 GA B|
+"F" A4 AA |
+M:4/4
+"Dm" A3 G/A/"Gm" B2 G2 |"Dm" F3 E/F/"A7" G2 FE |
+M:3/4
+"Dm" (D6 |D6) |]
+
+
+
+
+
+X:140
+T:Mayn tayere Odessa
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=120
+K:Dm
+V:1
+DF A |:"Dm" d2 z2 A2 |"Gm" B2 z2 G2 |"Dm" ^GA3 F2 |
+"A7" ^FG3 E2 |"Dm" F2 z2 D2 |"A7" DE3 A,2 |"Dm" D3 EF G|
+G A3 z2 |^cd3 A2 |"Gm" AB3 G2 |"Dm" GA3 F2 |
+"A7" ^F/G3/2 zA, DE |"Dm" F2 z2 E2 |"Cm" FG3 _E2 |1 "Dm" D2 zA, F,A, |
+.D2 zD FA :|2 "Dm" (D6 |D2) zF D^C ||  |:C3 CF G|
+A3 GG F|A3 FG E|F2 z2 C2 |c3 d (3_edc |
+B3 AG F|B2 (c4 |c6) |C3 CF G|
+A3 GG F|A2 z2 G3/2 F/|F2 z2 E2 |"Dm" F4 FE |
+"Cm" FG3 _E2 |1 "Dm" (D6 |D2) z2 ^C2 :|2 "Dm" (D6 |
+D2) z2 A2 ||  |:"Gm" AB3 B2 |B4 AG |"Dm" G(A A2) A2 |
+A4  (3BAG |"Gm" F2 G2 G2 |G3 G (3BAG |"Dm" A2 z2 d2 |
+D2 z2 A2 |"Gm" AB3 B2 |B4 AG |"Dm" GA z2 A2 |
+{d}A2 zA, DE |"Dm" F4 E2 |"Cm" FG3 _E2 |1 "Dm" (D6 |
+D2) z2 A2 :|2 "Dm" (D6 |D2) ||
+
+
+
+
+
+X:142
+T:Mazltov
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=148
+K:Am
+V:1
+EA c |:segno"Am" e2 e2 |_e2 e2 |cB (A2 |
+A)E Ac |e2 e2 |_e2 e2 |"Am" ^fg (e2 |
+"E7" e)e ^f^g |az e2 |_e2 e2 |"Am" cB (A2 |
+A)A Bc |_e3 c|"E7" e/_e/ cc/B/ A|"Am" A4 |
+|1 zE "E" Ac :|2 fine"Am" zG "G" ce || |:"C" g2 g2 |^f2 g2 |
+~ed (c2 |c)G ce |g2 g2 |^f2 g2 |
+"C" a_b (g2 |"G" g)g ab |"C" .c'z g2 |^f2 g2 |
+"C" ~ed (c2 |c)A Bc |"Dm" d/f/(d d)c |"E7" e/_e/c c/B/A |
+"Am" A4 |1 zG "G" ce :|2 "Am" zE "E" Ac || |:"Am" _e3 e|
+(3e_ec  (3cBA |"B7" B4 |zg ^fe |_e3 e|
+"Am"  (3e_ec "E7"  (3cBA |1 "Am" e4 |zE Ac :|2 "Am" A4 |
+z^c "E7" dB ||  |:
+K:A
+"A" c2 c2 |cB BA |c2 c2 |cE AB |
+c2 d2 |cB BA |e4 |"G" [za4].c.d .B|
+"A" c2 c2 |cB BA |e4 |z_e ef |
+(3=gfe  (3e_e=c | (3e_e=c  (3=cBA |1 A4 |z.c .d.B :|2
+"E7" A2 e2 |"Am" aE A=c ||
+K:Am
+"E" z/e/_e/e/ f/^f/g/^g/ |"Am" a2 z2 |"E" e2 z2 |"Am" HA4 |]
+|]
+
+
+
+
+
+X:143
+T:Mechoeteneste Majne
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=120
+K:A
+V:1
+b2 |e'z b3/2 a/|g/a/(b b)g |aa g=f |
+eg/b/ e'e'/e'/ ||e'2 c'3/2 b/|g/a/b2 e/e/|a ag =f|
+e e3 |
+
+
+
+
+
+X:144
+T:Medyatsiner Walz
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=
+K:Am
+V:1
+E2 |"Am" (A2  (3A)GA "E7"  (3BAB |"Am" (c2  (3c)Bc  (3dcd |"Am" (c2 c)B Ac |
+"E" B4 E2 |"Am" A2 B2 c2 |"Dm" de/d/ c2 B2 |"Am" A3 c"E" B d|
+"Am" c4 "E" E2 |"Am" (A2  (3A)GA "E7"  (3BAB |"Am" (c2  (3c)Bc  (3dcd |"Am" (c2 c)B Ac |
+"E" B4 e2 |e2 _e2 e/_e/c |"E7" c2 B2 e^G |"Am" A3 c"E" e c|
+fine"Am" A4 G2 |]"C" G2 c2 e2 |g4 e2 |ec Bc "G" gf |
+"C" e4 G2 |G2 c2 e2 |g4 e2 |ec Bc "Cm" d_e |
+"D" d6 |"Cm" g^f g^f _ed |"D7" ^f_e d4 |"E7" e_e ed cB |
+d2 "Am" c4 |"Cm" g^f g^f _ed |"D7" ^f_e d4 |"E7" ed dc cB |
+"Am" A4 |]
+
+
+
+
+
+X:145
+T:Medyatsiner serie
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=
+K:Am
+V:1
+E2 |"Am" (A2  (3A)GA "E7"  (3BAB |"Am" (c2  (3c)Bc  (3dcd |"Am" (c2 c)B Ac |
+"E" B4 E2 |"Am" A2 B2 c2 |"Dm" de/d/ c2 B2 |"Am" A3 c"E" B d|
+"Am" c4 E2 |"Am" (A2  (3A)GA "E7"  (3BAB |"Am" (c2  (3c)Bc  (3dcd |"Am" (c2 c)B Ac |
+"E" B4 e2 |e2 _e2 e/_e/c |"E7" c2 B2 .e.^G |"Am" A3 .c"E" .e .c|
+fine"Am" A4 G2 |]"C" G2 c2 e2 |g4 e2 |ec Bc "G" gf |
+"C" e4 G2 |G2 c2 e2 |g4 e2 |ec Bc "Cm" d_e |
+"D" d6 |"Cm" g^f g^f _ed |"D7" ^f_e d4 |"E7" e_e ed cB |
+d2 "Am" c4 |"Cm" g^f g^f _ed |"D7" ^f_e d4 |"E7" ed dc cB |
+"Am" A4  |:
+M:2/4
+K:Cm
+"Cm" CC CE |"G" G2 GF |"Cm" G2 c2 |G4 |
+"C7" GB GG |"Fm" F4 |"Bb" BG GF |1 (G2 "G7" G2) :|2
+E2 "G7" G2 ||  |:"Cm" c2 G2 |"Ab" ed c2 |"Bb" BG GG |
+"Eb" B4 |"C7" Bc "Fm" G/G/F |"G7" zG "Cm" C2 |1 "Ab" EE "G7" DD |
+G4 :|2 "Ab" EE "G7" DD |C.=E .=A.c || |:
+M:4/4
+K:C
+"Am" e2 a2 ^ga ef |"Dm" d4 zf ~ed |"E" e4 z~d cd |"Am" e4 zE Ac |
+"Am" e2 a2 ^ga ef |"Dm" d6 "D#" _e2 |"E7" e2 c2 de/d/ cB |1 "Am" A4 zE Ac :|2
+"Am" A4 a4 || |:c'2 ~ba c'2 ~ba |e6 "A7" z_e |"Dm" d2 d2 d3/2 e/f/e/d |
+"Am" e6 ze |"Am" c'2 ~ba c'2 ~ba |"Dm" f6 "D#" z2 |"E" ~ed ~dc ~cB ~BA |
+|1 "Am" A6 e2 :|2 "Am" A6 ze || |:"Am" c'/b/a c'/b/a .a.a .a2 |c'/b/a c'/b/a "Dm" .d.d .d2 |
+{(d/}f2) f2 {(g/}f)e gf |"Am" e6 z2 |{(e}"Dm" d) ef2 "G" Bc d2 |"Am" cd e2 "F" AB c2 |
+"E" ~ed ~dc ~cB ~BA |{(A/}"Am" c4) zB/c/ d/c/B/A/ |"Dm" de f2 "G" Bc d2 |"Am" cd e2 "F" AB cd |
+"E" ~ed ~dc ~cB ~BA |1 "Am" A6 ze :|2 "Am" A4 zE Ac ||
+
+
+
+
+
+X:146
+T:Mekhuteneste Mayne
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=120
+K:Dm
+V:1
+"A" az e3/2 d/|^c/d/(e e)^c |"Gm" de/d/ ^cB |"A" ^cA2 A
+|"A" a ze3/2 d/|^c/d/(e e)^c |"Gm" de/d/ ^cB |"A" A3 A
+|] "Dm" d dd d|d Af e|d4 |d3 e
+|"F" f ff f|f eg f|"A" e4 |e3 f
+|:"Gm" g ab a|g z2 f|g fe d|"A7" e z2 ^c|
+^c de d|^c AB/A/ G|1 "A" A4 |a3 ^g:|2
+A4 |A4 ||  |:"A" [A3/2^c3/2][B/d/][^c3/2e3/2][B/d/]|[A/^c/][B/d/][A/^c/][B/d/][^c3/2e3/2][B/d/]|
+[A^c][Bd][^ce][df]|[e/g/][a/^c'/][a/^c'/][e/g/][e/g/][d/f/][^c/e/][B/d/]|[A3/2^c3/2][B/d/][^c3/2e3/2][B/d/]|[A/^c/][B/d/][A/^c/][B/d/][^c3/2e3/2][B/d/]|
+"Gm" [G/B/][^F/A/][G/B/][A/^c/][B/d/][d/f/][^c/e/][B/d/]|1 [z/A/]a/g/f/e/ d/^c/B/:|2 [A^c][^c/e/][e/g/]a a/a/||
+
+
+
+
+
+X:148
+T:Mitzva tants
+O:klezmer
+C:Arr: Trudi Broekema
+M:2/4
+L:1/8
+Q:1/4=96
+K:Dm
+V:1
+"Dm" z(a a)^g/a/ |~^gf e/f/d |z(a a)^g/a/ |^ga d'2 |
+"Dm" z(a a)^g/a/ |~^gf e/f/d |1 "Dm" ~fd/f/ ~_ec/"Cm" _e/ |"Dm" d3 "A" z:|2
+"Dm" a ^g/a/b/"A" b/ c'/^c'/|Hd' HaHd z||  |:"Dm" A/d/ ^c/e/d2 |d/f/e/g/ f2 |
+"Dm" fe/d/ "A" ed/^c/ |"Gm" d^c/B/ "A" ^cA |A/d/^c/e/ d2 |d/f/e/g/ f2 |
+"Dm" aa "Gm" ~ga/b/ |"A" a/g/f/e/ "Dm" d2 :| |:"F" f/g/a/b/ ag |ff f2 |
+f/g/a/b/ ag |ff f2 |"A" e/f/g/a/ ~gf |ee e2 |
+"Dm" d/e/f/g/ "A" fe |1 "Dm" da fd :|2 d3 z|| |:A ff ~e/d/|
+"Gm" d ^c/B/"A" ^c A|A ff ~e/d/|"A" e/f/ g/e/"Dm" f2 |Af f~e/d/ |
+"Gm" d~^c/B/ "A" ^cA |"Dm" aa g"Gm" a/b/ |"A" ~a/g/f/e/ "Dm" d2 :|
+V:2          %2e stem
+z(f f)e/f/ |~ed ^c/d/A |z(f f)e/f/ |ef a2 |
+z(f f)e/f/ |~ed ^c/d/A |1 ~dB/d/ ~cA/c/ |A3 z:|2
+z4 |z4 || |:(d2 d/)f/e/g/ |(f2 f/)a/g/b/ |
+d^c/B/ ^cB/A/ |BA/G/ A^c |(d2 d/)a/a/a/ |(f2 f/)d/d/d/ |
+dd ~B^c/d/ |^c/B/A/G/ F2 :| |:A/B/c/d/ cB |AA A2 |
+A/B/c/d/ cB |AA A2 |^c/d/e/f/ ~ed |^c^c ^c2 |
+A/^c/d/e/ d^c |1 da fd :|2 A3 z|| |:F dd ~^c/B/|
+B A/G/A F|F dd ~^c/B/|^c/d/ e/^c/d2 | (3A2B2^c2 |
+B2 ^c2 |~f~f d2 |f/e/d/^c/ d2 :|
+
+
+
+
+
+X:149
+T:Naftule shpil es nokh amol
+O:klezmer
+C:Naftule Brandwine (1925)
+M:4/4
+L:1/8
+Q:1/4=118
+K:C
+V:1
+"C" g zg2 "G" f/e/f/d/ "C" ec |e/f/g gg "G" f/e/f/d/ "C" ec |e/f/g gg "F" a4 |1 "C" ge/g/ "G" fd "C" c/d/e/f/ g/a/b/c'/ :|2
+"C" ge/g/ "G" fd "C" c3  (3c/d/e/ || |:
+K:F
+"F" f/e/f/g/ a2 "C" gg "F" f2 |fg a2 "C" g{(a/}g) "F" f2 |fg ab c'/b/c'/a/ "Bb" b/a/b/g/ |1 "F" a/^g/a/f/ "C" g/^f/g/e/ "F" f3  (3c/d/e/ :|2
+"F" a/^g/a/f/ "C" g/^f/g/e/ "F" f3  (3e/f/^f/ || |:
+K:C
+"C" gz g2 "G" f/e/f/d/ "C" ec |e/f/g gg "G" f/e/f/d/ "C" ec |finee/f/g gg "F" a4 |1 "C" ge/g/ "G" fd "C" c/d/e/f/ g/a/b/c'/ :|2
+"C" ge/g/ "G" fd "C" c3 z||  |:"F" b/(c'3/2 c'6) |c'2 c'2 c'c' c'c' |c'a _b_b a4 |
+af g{(a} g)f4 |fc d{(e} d)c4 |1 "C" cd ef ga {c'}_b/a/ g:|2 "C" z c/d/e fg a_b/a/ g/(f/|
+"F" f6) z2 ||
+"C" e/f/g gg "F" a3 a|"C7" g ga b"F" c' gc'2 |]
+
+
+
+
+
+X:150
+T:Nigun 13
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:Dm
+V:1
+"Dm" F3/2 E/DD DD DD |"Gm" DG GF/E/ "Dm" F2 F2 |"Dm" A3/2 G/FF FF FF |"Gm" DG "A7" GF/E/ "Dm" D2 D2 :| |:
+"Dm" AG AG GF/E/ F2 |FE "Gm" DG GF/E/ "Dm" F2 |"Dm" AG AG "Gm" GF/E/ F2 |1  (3FED "C7" BB "F" A4 :|2
+"Dm"  (3FED "A7" EE "Dm" D4 ||
+|]
+
+
+
+
+
+X:151
+T:Nigun#4
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:Cm
+V:1
+"Cm" c3 de2 e2 |e2 d2 c4 |"G7" =B3 cd2 c2 |=B2 G2 G4 |
+=B2 G2 =B2 G2 |"Fm" f2 gf "G7" e2 d2 |1 "Cm" (e8 |e8) :|2
+"Cm" (c8 |c8) ||  |:segno"Eb" [e3g3][fg][g2b2][g2b2]|[g2b2][f2g2][e4g4]|
+"Fm" [f4g4][g2b2][f2g2]|"Cm" [e2g2][d2f2][c4e4]|[e2g2][c2e2][e2g2][c2e2]|"Fm" [f2g2]"G7" [gb][fg][e2g2][d2f2]|
+|1 "Eb" [(e8g8]|[e8)g8]:|2 "Cm" [(c8(e8)]|fine[c8)e8)]||
+|:"Eb" [(g8(b8]|[g2)b2)][e2g2][f2g2][e2g2]|[g8(b8]|[g2b2)][e2g2][f2g2][e2g2]|
+"Bb7" [b4d'4][g4c'4]|"Eb" [g4b4][f2g2][e2g2]|1 "Bb7" [fg]"Eb" [gb][(e6g6]|[e2)g2]Bc de fg :|2
+"Bb7" [fd]"Eb" [ge](e6 |e4) "G7" z4 ||
+
+
+
+
+
+X:152
+T:Nig'n no 6
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:Em
+V:1
+"Em" EE/E/ EF |GG/G/ GA |BB/B/ BA |1 GF EB, :|2
+GF E2 || |:"Am" A2 A3/2 G/|FA FA |"Em" G2 G3/2 F/|
+EG EG |"Am" A2 A3/2 G/|FA FA |1 "B" B3/2 A/GA |
+B2 z2 :|2 "B7" B3/2 A/GF |"Em" E2 z2 ||
+
+
+
+
+
+X:153
+T:Nig'n no 7
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:Em
+V:1
+"Em" E3 FG2 G2 |G2 F2 E4 |"B" _E3 EF2 E2 |_E2 C2 B,4 |
+_E2 B,2 _E2 B,2 |"Am" A2 BA G2 F2 |1 "Em" (G8 |G8) :|2
+"Em" (E8 |E8) || |:"G" G3 AB2 B2 |B2 A2 G4 |
+"Am" A4 B2 A2 |"Em" G2 F2 E4 |G2 E2 G2 E2 |"D7" A2 BA G2 F2 |
+|1 "G" (G8 |G8) :|2 (E8 |E8) || |:
+"G" (B8 |B2) G2 A2 G2 |(B8 |B2) G2 A2 G2 |
+"D" d4 c4 |"G" B4 A2 G2 |1 "D7" AB "G" (G6 |G2) D2 G2 A2 :|2
+"D7" AB "G" (G6 |G4) z4 ||
+
+
+
+
+
+X:154
+T:Nye Zuritse Chloptsi
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=160
+K:Cm
+V:1
+"G" GG =BG G2 F2 |GG =BG G2 F2 |"G" GG "Fm" GG "G" =B=B "Cm" cc |"G" =B/c/=B "Fm" G/=B/G "G" G2 G2 :| |:
+"Cm" cc2 dc3/2 =B/ (3GGG |"G" =B/c/=B G/=B/G G/G/G "Fm" F2 |"Cm" cc2 dc3/2 =B/ (3GGG |"G" =B/c/=B "Fm" G/=B/G "G" G4
+:|"Fm" FF GG GG c2 |"G" =B=B GG G/G/G F2 |"Fm" FF GG GG c2 |"G" =B=B "Fm" G/=B/G "G" G4  |:
+"G" GG2 =BG3/2 G/G/G/F |"G" GG2 =BG3/2 G/G/G/F |GG2 dc3/2 =B/G/G/G |1 "G" =B=B G/=B/G G/G/G "Fm" F2 :|2
+"G" =B=B G/=B/G G4 ||
+
+
+
+
+
+X:155
+T:Odessa Bulgarish
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=120
+K:Dm
+V:1
+A df  |:"Dm" a2 "D" ^g2 a2 b2 |"Dm" c'2 "D" b2 a^g "D" f2 |"Dm" ^g/b/a aa a^g f^g |
+ab a^g fe f^g |"Dm" a2 "D" ^g2 "Dm" a2 "D" b2 |"Dm" c'2 "D" b2 a^g "D" f2 |"A7" ef a/^g/f ^g2 a2 |
+"Dm" d3 aa/^g/ ff2 |"A7" ef a/^g/f ^g2 a2 |1 "Dm" d4 zA df :|2 "Dm" d8 ||
+|:"Dm" zd' d'd' d'd' d'd' |"E7" d'c' bd' "Am" c'b ac' |"E7" ba ^gb "Dm" a^g f2 |"A7" ef a/^g/f ^g2 a2 |
+d3 aa/^g/ ff2 |"A7" ef a/^g/f ^g2 a2 |"Dm" d8  :| |:"Dm" .d.d za a/^g/f f2 |
+"A7" f/e/d ef "Dm" ^ga f/e/d |"Dm" .d.d za a/^g/f f2 |1 "A7" ed ef "Dm" d4 :|2 "A7" ed ef d||
+V:2          %2nd voice
+z3  |:.F2 .E2 .F2 .^G2 |.A2 .^G2 FE D2 |D4 F4 |
+D4 F4 |.F2 .E2 .F2 .^G2 |.A2 .^G2 FE D2 |A^G2 A^G2 F2 |
+F3 FF/E/ DD2 |A^G2 A^G2 F2 |1 D4 z4 :|2 D8 ||
+|:z[(F3(A3][F4)A4)]|[^G4B4][A4E4]|[^G4E4][F4A4]|A2 F2 E2 F2 |
+D3 DD/E/ FF ^G|A2 F2 E2 F2 |D8 :| |:.F.F z6 |
+A2 F2 E2 F2 |.F.F z2 z4 |1 E2 ^G2 A4 :|2 A2 E2 F||
+
+
+
+
+
+X:156
+T:Oh Yossel Yossel
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=128
+K:Dm
+V:1
+A df |a2 b2 aa gf |ba4 Ad f|a2 b2 ag ba |
+"A7" g4 zA ^ce |g2 a2 gg fe |gg4 A^c e|g2 a2 gf ag |
+f4 zA df |a2 b2 aa gf |ba4 a"D7" b c'|d'2 d'2 c'b d'c' |
+b4 zb bc' |d'2 d'd'2 d'c' b|d' aa a2 aa b|a2 ef gg ab |
+a4 za "D7" bc' |d'2 d'(d' d')d' c'b |d'a aa2 aa b|a2 b2 b2 ^c'2 |
+d'4 z||
+V:2          %2e stem
+F Ad |f2 g2 ff ed |gf4 FA d|f2 g2 fe gf |
+e4 zE A^c |e2 f2 ee d^c |ee4 EA ^c|e2 f2 ed fe |
+d4 zF Ad |f2 g2 ff ed |g(f f4) z2 |^f^f2 ^fg2 a2 |
+g4 zg ga |b2 bb2 ba g|a ff f2 ff g|f2 ^c2 d2 e2 |
+f4 z^f ga |b2 b(b b)b ag |af ff2 ff g|a2 g2 f2 e2 |
+d4 z||
+V:3          %3e stem
+z3 |zg de f2 e2 |de fe d4 |zg de f2 e2 |
+^cd ed ^c4 |ze ^cd .e2 .d2 |^cd ed .^c2 z2 |ze AB ^c2 e2 |
+de fg a2 z2 |zf fe d2 d2 |ef f4 z2 |^F^F2 ^FG2 A2 |
+G2 D2 G2 z2 |B2 G2 D2 B2 |.a.g .f.e .d.^c .c.B |.A.B .A.^G .G.F .E._E |
+D2 F2 ^F4 |B2 G2 D2 B2 |A2 F2 D2 A2 |A2 G2 F2 E2 |
+D2 A,2 D||
+
+
+
+
+
+X:157
+T:Oif'n Pripetshok
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=
+K:Eb
+V:1
+"Cm" CD EE E2 |"G7" DF "Cm" ED C2 |"Cm" ED "Ab" E2 "Bb7" F2 |"Eb" G6 |
+"Cm" cG "Bb7" BG FD |"Fm" FG "Cm" GE C2 |"G7" DF E2 F2 |"Eb" (G4 "G7" G2) |
+"C7" cG "Fm" BG FD |GG "Cm" GE "Ab" C2 |"Fm6" DF "Cm" E2 "G7" D2 |"Cm" C4 z2 |]
+=B,C D=B, G,2 |{(=B,/}D)F "Cm" ED C2 |"Cm" ED "Ab" E2 "Bb7" F2 |"Eb" G6 |
+"Cm" cG "Fm" BG FD |FG "Cm" GE C2 |DF "Cm" E2 D2 |"Cm" C4 z2 ||
+"C7" cG "Fm" BG FD |FG "Cm" GE C2 |"Fm" DF "Cm" E2 "G7" D2 |"Cm" C4 z2 |]
+|]
+V:2          %Gitaar Capo-III
+z2 |  | |
+K:C
+"Am" AB cc c2 |"E7" Bd "Am" cB A2 |"Am" cB "F" c"G7" d |"C" e|
+"Am" a e"G7" g fd B|"Dm" d f"Am" e cA |"E7" Bd "Am" c"G7" d |"C" (e"E7" e) |
+"A7" ae "Dm" gf dB |ff "Am" ec "F" A|"Dm6" B d"Am" c2 "E7" B2 |"Am" Az2 |]
+"E7" ^GA B^G E|B d"Am" c BA |"Am" cB "F" c2 "G7" d2 |"C" e|
+"Am" a e"Dm" g fd B|d f"Am" e cA |"Dm6" Bd "Am" c"E7" B |"Am" Az2 ||
+"A7" ae "Dm" gf dB |df "Am" ec A|"Dm" B d"Am" c "E7" B|"Am" A z2 |]
+|]
+V:3          %2e stem
+z2 |() 8 8 |
+K:Eb
+E FG2 B2 |=BG G2  (3GFE |C3 ED2 |E4  (3B,CD |
+{D}E2 {E}D4 |{C}D2 {D}E4 |F2 E2 D2 |{D}E2 B,C DE |
+{E}=E2 {=E}F4 |F2 G2 G2 |{c}d2 {d}c2 {c}=B2 |{=B}c4 z2 |]
+DE FD =B,2 |FG GF E2 |GF G2 {G/}G/G/G |{G}B4 =B/c/d/e/ |
+{f}e2 {e}d4 |{e}d2 {d}e4 |{G}=B2 G2 F2 |{D}(E4 E/4)F/4^F/4G/4G/4B/4=B/4c/4 ||
+{d/}c3 dc2 |{d/}c3 dc2 | (3ded  (3c=Bc  (3=BG=B |c4 z2 |]
+|]
+
+
+
+
+
+X:158
+T:Ojfn veg stejt a bojm
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=76
+K:Dm
+V:1
+"Dm" DD A4 |"Gm" GG "Dm" F4 |"Gm" GG "Dm" F3 E|"A7" E D"Dm" F4 |
+"Dm" DD AA3 |"C" GG "Bb" F4 |GG "A" F3 E|E2 "Dm" D4 :|
+"F" cc "Bb" d3 d|"C" c c"F" F4 |"C7" c3 Bc B|"F" B2 A4 |
+"F" cc "Bb" d3 c|"Dm" f e"G7" d4 |"C" c3 Bc B|"F" B2 A4 |
+"Dm" FA c3 A|"Gm" A GG4 |"Dm" AF F2 D2 |"C" D2 C4 |
+"Dm"  (3FFE G2 F2 |"Gm" ^GG G4 |"A7" F3 EE D|"Dm" D6  |:
+"Dm" zA AG GF |"Gm" zG GF FE |"A7" zF FE ED |"Dm" DF "A" EG "Dm" F2 |
+"Dm" z[Ac][Ac][GB][GB][FA]|"Gm" z [GB][GB][FA][FA][EG]|"A7" [F3A3][EG][EG][DF]|"Dm" [D6F6]:|
+
+
+
+
+
+X:159
+T:Oj Dortn
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=54
+K:F
+V:1
+D |"Dm" AG AF |D3  (3F/F/F/ |AG AF |
+D3 A|
+M:3/4
+"F" c c"C7" c2 d2 |"F" c/B/A/G/ "Dm" A3 A/B/|
+M:2/4
+"C" c3/2 c/cA |
+M:3/4
+"F" F3 A/B/"Dm" c/B/ A/G/|"Gm" A dd3 "C7" C|"F" F A (3cAA "Gm" BG |"Dm"  (3FFE D3 :|
+
+
+
+
+
+X:160
+T:Oj Tate
+O:klezmer
+C:Frankl's Orchestra 1919
+M:2/4
+L:1/8
+Q:1/4=76
+K:Gm
+V:1
+"D" ^F3/2 E/DD |"Cm" E/D/C/E/ "D" D2 |D/E/^F/G/ A/B/A/G/ |A3/2 G/^F/E/D |
+^F3/2 E/DD |"Cm" E/D/C/E/ "D" D2 |D/E/^F/G/ "Cm" A/G/^F/E/ |"D" ^F/E/D3 :| |:
+"D" ^F/G/A2 G|^F/G/ ^F/E/D2 |^F/G/^F/G/ BA/G/ |^F/G/(A A/)G/^F/E/ |
+^F/G/A2 G|^F/G/ ^F/E/D2 |"Cm" C/E/E/C/ A/G/^F/E/ |"D" ^F/E/D2 D:| |:
+"Gm" G/G/ G/G/B A/G/|"D" A/A/ A/A/A3/2 E/|D/D/D/ D/"Cm" G^F/ E/|"D" ^F/^F/^F/ ^F/^F2 |
+"Cm" C/C/C/C/ ED/C/ |E/E/E/E/ G^F/E/ |"D" ^F/G/A/G/ "Cm" ^F3/2 E/|"D" ED2 D:| |:
+"Gm" G/A/ BB B|"Cm" c c"Gm" B2 |"Cm" c2 G"Gm" G |B/c/B/A/ "Gm" G3/2 G/|
+"D" ^F/G/A2 c|"Cm" c/B/ A/G/"D" A3/2 G/|^F/G/A/ G/"Cm" ^F3/2 E/|"D" ED3 :|
+
+
+
+
+
+X:161
+T:Ot Azoy
+O:klezmer
+C:arr: Jeff Warschauer
+M:2/4
+L:1/8
+Q:1/4=102
+K:Dm
+V:1
+"Dm" d2 ~a3/2 g/|~g(f f)g |~ag fg |"A7" ~ag fe |
+"Dm" d2 ~a3/2 g/|g(f f)e |"Cm" fc d_e |1 "Dm" dc/B/ A/G/F/E/ :|2
+d3 g/f/|| |:"C" e/f/ (gg) f|"A7" ~a/g/ ~f/e/"Dm" f2 |"C" d/c/c/d/ d/f/f/g/ |
+"F" ~g/f/~f/e/ f2 |"C" e/f/(g g)f |"A7" a/g/f/e/ "Dm" d2 |"Cm" d/c/c/f/ f/d/ (3_e/d/c/ |
+|1 "Dm" dD Dd :|2 "Dm" d2 cf ||  |:"F" f4 |f4 |
+f2 f2 |f2 f2 |"F" ~a"C" g "F" f2 |z4 |
+"Gm" ~b"D" a "Gm" g2 |z3  (3g/a/b/  |"C7" c'(b b)(a |a)(g g)f |
+gf ~ag |fe dc  :|"Gm" dg/g/ g/g/g/g/ |"F" gf ed |
+cf/f/ f/f/f/f/ |f_e dc |"Dm" d3 e/f/|f/_e/ _e/d/"Gm" g2 |
+"Dm" d4 |f_e dc |fine"Dm" d3 e/f/||f/_e/ _e/d/"Gm" g2 |
+"A" fc d_e |"Dm" d3 A |] "Dm" f/_e/ _e/d/g/a/4^g/4 a/4b/4c'/4^c'/4|"Dm" d'2 z2 |
+"A7" a2 z2 |"Dm" Hd4 |]
+V:2          %2e stem
+d2 f3/2 e/|e(d d)e |fe de |fe d^c |
+d2 f3/2 e/|e(d d)e |c(G G)G |1 dc/B/ A/G/F/E/ :|2
+d3 d|| |:c (cc) c|B ^cd2 |d/c/c/d/ d/f/f/g/ |
+cc f2 |e/f/g gc |^cA d2 |d/c/c/f/ f/d/ (3_e/d/c/ |
+|1 d3 d:|2 d2 cc || |:A4 |A4 |
+A2 A2 |A2 A2 |fe f2 |AG F2 |
+g^f g2 |BA G2 |c(c c)(c |c)(c c)c |
+cc ee |fe dc :|BB/B/ B/B/B/B/ |BA G2 |
+FA/A/ A/A/A/A/ |AG F_E |F3 G/A/|A/G/ G/F/B2 |
+F4 |AG F_E |fineF3 G/A/||A/G/ G/F/B2 |
+FC D_E |D4 |] A/G/G/F/ B/A/4^G/4A/4B/4c/4^c/4 |d2 z2 |
+A2 z2 |HD4 |]
+
+
+
+
+
+X:162
+T:Papirossen
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=107
+K:Cm
+V:1
+C |:"Cm" CE EG Gc cd|ee dc G3z|ed dc "C7"cB BA|
+"Fm" AG "C7"GF "Fm"F3 F|"G7" FG Gd dc c=B |=BA AG GF FE|
+"Ab" EF FE "G7" GF ED|1 "Cm" E6 z C:|2 "Cm" (C4 C)G "G7" cd||
+|:"Cm" e3d"G7" ed c=B|"Cm" c2 G6 |c=B c=B "C7" c_B AG |"Fm" GA F6 |
+"G" FG Gd dc c=B |"G7" =BA AG GF FE |"Ab" EF FE "G7" GF ED |1 "Cm" (E4 E)G "G7" cd :|2"Cm" C8 ||
+
+
+
+
+
+X:163
+T:Patsh Tantz
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:C
+V:1
+"Am" c2 c/d/d/c/ |c/d/d/c/ c/B/A/B/ |c2 c/d/d/c/ |c/B/B/A/ ~c2 |
+[c2e2][c/e/][d/f/][d/f/][c/e/]|[c/e/][d/f/][d/f/][c/e/][c/e/][B/d/][A/c/][B/d/]|[c2e2][c/e/][d/f/][d/f/][c/e/]|[c/e/][B/d/][B/d/][A/c/][A2c2]:|
+"C" e/f/g/f/ e2 |.c.c .c2 |"G" B/c/d/c/ d2 |.G.G .G2 |
+"C" g/f/e/d/ e2 |.c.c .c2 |"G" B/c/d/c/ d2 |"G7" .G.G .G.g/.f/  |:
+"C" [e/c2]_e/e/g/"G7" [d/B2]^c/d/f/|"C" [ec][.g/G].g/"G7" [.g/A].a/[.g/B].f/|"C" [e/c2]_e/e/g/"G7" [d/B2]^c/d/f/|1 "C" [e/c]f/"G7" [e/B]d/"C" [cG]"G7" [.g/B].f/:|2
+"C" [e/c/]f/ "G7" [e/B/]d/"C" [c2E2]||  |:"C" cB/c/ "D7" d/c/B/"G" A/ |G2 G2 |G2 cd |
+G2 :| |:.G.G2 "F" f|e/f/ "G7" g/f/e/d/ "C" .c|.c .c2 :|
+
+
+
+
+
+X:164
+T:Regndl
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=140
+K:Dm
+V:1
+"Dm" D2 E2 F2 G2 |A2 F2 "A" E4 |"Bb" F2 E2 D2 ^C2 |"Gm" D2 B,2 "A7" A,4 |
+"Dm" D2 E2 F2 G2 |A2 F2 "Gm" E4 |"A7" E2 D2 ^C2 E2 |"Dm" D8  |:
+"D7" d^c d^c d2 c2 |"Gm" B8 |"C7" cB cB c2 B2 |"F" A8 |
+"Dm" A2 d2 A2 G2 |"A7" A2 G2 "Bb" F4 |1 "Gm" E2 DE "Bb" F2 "C" G2 |"F" (A4 "A7" A4)
+:|2 "Gm" E2 DE "A7" F2 E2 |"Dm" D8 ||
+
+
+
+
+
+X:165
+T:Reina
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=162
+K:F
+V:1
+z2 Ad e|"Dm" f4 fe ed |"Gm" g2 "Dm" (f2 f4) |fg fg f2 ed |
+df "C" eg "F" f4 |"C" ef gg g2 g2 |gf ed e/f/e/d/ c2 |"Dm" de f2 "A7" ed ag |
+"Dm" dd' c'b "A7" ag fe |"Dm" de (f2 f2) ed |g2 (f2 f4) |fg fg f2 ed |
+df "C" eg "F" f4 |"C" ef g2 g2 fg |"Fm" ^gg f^g "C" g4 |"Dm" f2 ed "A" ef ge |
+"Dm" (d4 d)"A" A B^c |
+
+
+
+
+
+X:166
+T:Rusishe Sher
+O:klezmer
+C:Kandel's Orchestra 1918
+M:2/4
+L:1/8
+Q:1/4=100
+K:G
+V:1
+"D" d2 z/c/B/c/ | (3_e/=f/_e/ dd d|"Cm" c/f/ f/c/c/f/ f/c/|c/f/ f/_e/_e/d/ d/c/|
+"D" d2 z/c/B/c/ | (3_e/=f/_e/ dz a/g/|f/g/ a/g/"Cm" ~f3/2 _e/|1 "D" d/_e/f/ g/"Cm" f/_e/d/ c/:|2
+fine"D" _e/d/(d d)z ||  |:"D" f/f/f/f/ "Gm" g/g/g/g/ |"D" a/_b/a/g/ a2 |"Gm" _ba/g/ "D" ag/f/ |
+"Cm" gf/_e/ "D" f/_e/d |"D" f/f/f/f/ "Gm" g/g/g/g/ |"D" a/_b/a/g/ ac' |"Cm" c'/_b/a/g/ f/g/f/_e/ |
+"D" _e/d/(d d)z  :| |:
+K:C
+"C" eg g/f/f/e/ |g2 zc' |c'/_b/_b/a/ a/g/g/^f/ |^f/a/g/^f/ _e/d/c |
+eg g/f/f/e/ |"F" f2 za/g/ |1 "D" ^f/g/a/g/ "Cm" ^f3/2 _e/|"D" _e/d/(d d)z :|2
+"D" ^f/g/a/g/ ^f/"Cm" g/^f/_e/ |"D" _e/d/(d d)z ||
+
+
+
+
+
+X:167
+T:Schwartz's Sirba
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:Am
+V:1
+"Am" a4 |a4 |a2 a2 |a2 a2
+|:"Am" _b/a/g/^f/ g/^f/g/a/ |_b/a/g/^f/ _e/d/c/B/ |c(c c/)A/B/c/ |Aa Aa |
+"Am" _b/a/g/^f/ "Am/g" g/^f/g/a/ |"D/f#" _b/a/g/^f/ "Dm/f" _e/d/c/B/ |"E" c(c c/)A/B/c/ |"Am" A2 A2 :| |:
+"Am" c3/2 c/c/A/B/ c/|A/B/c/ d/e/d/c/ B/|c3/2 c/c/A/B/ c/|Aa Aa |
+"Am" c3/2 c/c/A/B/ c/|"D/f#" A/B/c/ d/"Dm/f" e/d/c/ B/|"E" c(c c/)A/B/c/ |"Am" A2 AA :| |:
+"C" c3 G|e/d/ c/B/c g|c3 G|e/d/ c/B/c2 |
+"Cm" (c'4 |c'2) c'/^f/g/a/ |_b/a/g/^f/ _e/d/c/B/ |c/d/B/c/ "Am" A2 :|
+
+
+
+
+
+X:168
+T:Shabes in Vilna
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=120
+K:G
+V:1
+"G" D G/G/G GA Bc d|B GA GB cd2 |DG/G/ GG AB cd |"G" BG "D" AF "G" G4 :| |:
+"G" e=f ed de dc |BG AG Bc d2 |e=f ed de dc |"G" BG "D" AF "G" G4 :| |:
+"Em" A3/2 _B/)AG FG A2 |A/B/G F/G/E FG A2 |A3/2 _B/AG FG A2 |"Em" A/_B/G "B" F/G/E "Em" E2 z2 :|
+
+
+
+
+
+X:169
+T:Shalom Aleichim
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=120
+K:Am
+V:1
+"Am" e4 |c3 B|B A3 |zA ce |
+"Dm" a4 |f3 e|e d3 |zd ef |
+"E" e2 B2 |e3 d|"Am" d c3 |zc BA |
+"E" .e2 .e2 |"E7" .e2 .e2 |ed cB |"Am" A.E .A.c :|
+
+
+
+
+
+X:170
+T:Shiribim
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=120
+K:Am
+V:1
+cc |"Am" ed ed e2 cc |ed ed e2 cc |"E" e2 d2 c2 B2 |
+"Am" cB cd e2 cc |e6 cc |e6 cc |"E" e2 d2 c2 B2 |
+"Am" c8  |:"Dm" d2 ff ff ff |"C" g2 ee ee ee |"E" f2 dd dd dd |
+|1 "Am" e2 cc cc cc :|2 "E" ed cd e2 d2 |"Am" c6 c2 || |:"Am" e2 c2 c2 c2 |
+e2 c2 f2 "Am" e2 |e2 c2 c2 c2 |ed ec "E" d3 f|"Am" e2 c2 c2 c2 |
+e2 c2 f2 e2 |e2 c2 c2 c2 |ed ec "E" d4 ||"C" z8 |
+"G7" gg ff "C" (e2 "E7" e2) |"C" z8 |"G7" gg ff "C" (e2 "E7" e2) |"Am" c2 de "Dm" d2 cd |
+"E" c2 Bc B2 "Am" A2 |"E" cB cB ce ^f^g |"Am" a8 :|
+V:2          %2e stem
+AA |c2 cB c2 AA |cB cB c2 AA |c2 B2 A2 ^G2 |
+A^G AB c2 AA |c6 AA |cB BA c2 AA |c2 B2 A2 ^G2 |
+A8  |:A2 dd dd dd |e2 cc cc cc |d2 BB BB BB |
+|1 c2 AA AA AA :|2 cB AB c2 B2 |A6 A2 || |:c2 A2 A2 A2 |
+c2 A2 d2 c2 |c2 A2 A2 A2 |cB cA B3 d|c2 A2 A2 A2 |
+c2 A2 d2 c2 |c2 A2 A2 A2 |cB cA B4 ||c2 de d2 c2 |
+z8 |c2 de d2 c2 |z8 |e2 fg f2 ef |
+e2 de d2 c2 |ee ee ee ee |a8 :|
+
+
+
+
+
+X:171
+T:Sholem zol zajn
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=88
+K:Dm
+V:1
+{D/4}{F/4}DF AG |{G/4}{B/4}"Gm" GF ED |{F/}{A/}"Dm" (F2 D2) |{D/}{F/}D2 D2 |
+"Dm" ~DF AG |"A7" ~GF ED |"Dm" ~(F4 |F4) |
+"Dm" ~DF AG |"Gm" ~GF ED |"Dm" ~(F2 D2) |~D2 D2 |
+"Bb" ~FF EF |"A7" ~G2 FE |(D4 |D)E FG |]
+"Dm" AG FG |AG FG |A2 D2 |[E2D2][F2D2]|
+"Gm" z[B2G2][cA]|[d2B2][cA][BG]|"Dm" [A4(F4]|[zF2) A)]E "A7" FG  |:
+"Dm" A2 D2 |"Dm/c#" D2 D2 |"Dm/c" A2 D2 |"Dm/h" D2 D2 |
+"Bb" FF EF |"A7" G2 FE |1 "Dm" (F4 |F)E "A7" FG :|2
+"Dm" (D4 |D4) |]
+
+
+
+
+
+X:172
+T:Shpil zhe mir a lidele in yidish
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:C
+V:1
+"E" E3/2 F/^GA "Dm" ^G3/2 F/EF |"E" ^G(E E2) z2 zA |^GA Bc "Dm" BA ^G3/2 A/|"E" B(^G ^G2) z2 zB |
+"Dm" Bc de d2 zc |d3/2 c/BA "E" e2 zA |^GA BA "Dm" ^GD EF |"E" E6 z2 ||
+"C" e4 e4 |e2 d/c3/2 "G" d3 z|"Am" e3/2 d/cB cd ec |"E" B6 z2 |
+"Dm" d4 d2 de |fe dc Bz Bc |"B" dc BA ^G3/2 A/^G3/2 F/|"E" E6 z2 |]
+
+
+
+
+
+X:173
+T:Shpraiz ich mir
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=90
+K:Dm
+V:1
+"Dm" DE FE |"Gm" FG2 (F/E/)|"Dm" D/"Bb" D/ |"Dm" D2 z2 |
+"Am" AB cB |"E" cd2 c/B/|"Am" A/"Dm" A/ |"Am" A2 "A7" z2  |:
+"Dm" fe d^c |"Gm" ed2 c/B/|"A" A2 G2 |"Dm" (F3 A)|
+"C" c BA G|"Gm" F G2 F/E/|"Dm" D/"Bb" D/ |"Dm" D2 z2 :|
+V:2          %2e stem
+FG AG |AB2 (A/G/)|F2 F2 |FD/E/ F/G/A/B/ |
+cd ed |ef2 e/d/|c2 c2 |cA/B/ ^c/d/_e/e/  |:
+ag fe |gf2 e/d/|^c2 B2 |AF/G/ A/B/^c/d/ |
+ed cB |AB2 A/G/|F2 F2 |FG/A/ B/c/d/e/ :|
+V:3          %estam
+.D,2 .F,2 |.G,2 ^C,2 |.D,2 .B,2 |.D,2 .^G,2 |
+.A,2 .F,2 |.E,2 .^G,2 |.A,2 .F,2 |.A,2 .^C,2  |:
+.D,2 .F,2 |.G,2 .^G,2 |.A,2 .^C,2 |.D,2 .F,2 |
+.G,2 .E,2 |.D,2 .E,2 |.D,2 .B,2 |D,2 z2 :|
+V:4          %dÅvô
+(D,2 D,2) |(G,2 G,2) |(D,2 D,2) |(D,2 ^G,2) |
+(A,2 A,2) |(E,2 E,2) |(A,2 A,2) |(A,2 ^C,2)  |:
+(D,2 D,2) |(G,2 G,2) |(A,2 A,2) |(D,2 D,2) |
+(C,2 C,2) |(G,2 G,2) |(D,2 D,2) |D,2 z2 :|
+
+
+
+
+
+X:174
+T:Shver un shviger
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:Dm
+V:1
+"Dm" d2 a2 |"Gm" g/a/g "Dm" f2 |z"Gm" g/f/ ga |gf2 e|
+"Dm" d2 a2 |"Gm" g/a/g "Dm" f2 |z"Gm" g/f/ ga |"Dm" g"A7" f2 e |:
+"Dm" d b~a g|"F" f g~f e|"C7" d cd e|"F" f2 f"A7" e |
+"Dm" db ~ag |"Gm" fg ~fe |"A7" ~dc fe |fine"Dm" Hd4 |
+:|"F" a4 |a4 |a2 a2 |a2 a2 |
+|:"F" ab/a/ ab/a/ |ab/a/ ~ag |"Gm" (gd) (dg) |g4 |
+"C" ga/g/ ga/g/ |ga/g/ ~gf |"F" (fc) (cf) |f4 |
+"Dm" fg fg |"Dm" fg "A" ~fe |"Dm" d2 fd |"C" c4 |
+"F" f2 "C" g2 |"F" a2 g/"C" f/g |1 "F" f3 a|~c'4 :|2
+"Dm" f2 _e/"Cm" d/c/_e/ |"Dm" d4 || |:"Dm" dd b/a/g/f/ |"Gm" g4 |
+"Gm" dg g"A7" f/e/ |"Dm" f4 |"Gm" dg ~gf/g/ |"Dm" ~fe/f/ "A" ed |
+"Dm" d/e/f "A" e/f/g |1 "Dm" f3 e:|2 d4 ||
+V:2          %2e stem
+d4 d4 d4 d8 |a4 |b2 ~a2 |~b4 |
+z~^c'3 |d'4 |b2 a2 |~b4 |
+^c'4  |:D2 E2 |F2 G2 |A2 B2 |
+A2 AG |Fd ~cB |AB ~AG |~FE AG |
+fineHF4 :|z4 |z4 |z4 |
+z4  |:z4 |z4 |z4 |
+z4 |z4 |z4 |z4 |
+z4 |z4 |z4 |z4 |
+z4 |z4 |z4 |1 z4 |
+z4 :|2 z4 |z4 || |:z4 |
+z~d' ~d'~d' |z4 |~a4 |fb ~ba/b/ |
+~ag/a/ gf |f/g/a g/a/b |1 a3 g:|2 d'4 ||
+
+
+
+
+
+X:175
+T:Simchas Toyre
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:Cm
+V:1
+c |:segno"Cm" c {B/}{f/}^c c3/2 c/4^c/4|~c{B/} {f/}^cc3/2 c/|cd/ c/"Bb7" Bc/ d/|
+"Eb" e3 z/f/|"Bb"  (3f/g/f/ d/f/"Eb" e2 |"Bb"  (3f/g/f/ d/f/"Eb" e3/2 e/|"Cm" e/d/{f/} e"Bbm" ^c/B/ {e/}^c|
+|1 "Cm" c2 G3/2 c/:|2 "Cm" c2 ze || |:"Eb" ef "C7" ~g3/2 f/|"Fm" f/c/f/ c/fz |
+f3/2 e/{g/}|"Cm" g g|{g/}{g/} "Fm" f2 z"Bb"  (3B/c/d/ |"Eb" ef "C7" g3/2 f/|
+"Fm" f/c/{g/} f/c/f z|1 "Bb" ~b2 "Bb7" g/g/g |"Eb" g2 z3/2 B/:|2 "Cm" e/d/c "Bb" ff |
+"Eb" e3 z/B/|| |:"Cm" =A/B/ (cc) c/{g/}f/|{g/} {g/}f/e/e/ d/e3/2 z/|=A/B/(c c)c/e/ |
+"F" d/4e3/4 c/d/"Bb" B3/2  (3B/4c/4B/4 |"Cm" =A/B/(c c)c/f/ |g/f/f/e/ "Fm" e/4f/4f3/2 |"Cm" e/d/e "Bbm" ^c/B/^c |
+|1 "Cm" c2 G3/2 B/:|2 "Cm" cB "Bb" ef || |:"Eb" g4 |g3 b||
+{b/}g/ f/f/e/e3/2 =a/|{c'/}b/g/ {b/}g/g/g3/2 z/|g/f/{g/} f/e/"Bb" ~e/d/ e/d/|"Eb" e2 ef |
+~g/f/~f/e/ e2 |"Fm"  (3f/g/f/ e/d/"Cm" c z|g/(e/ {g/)}f/(d/{f/)} "Bbm" e/(c/{e/)}^c/ B/|1 "Cm" cB ef :|2
+"Cm" c2 G2 ||
+
+
+
+
+
+X:176
+T:Sirba
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=115
+K:Dm
+V:1
+"Dm" ^C/D/F/D/ ^C/D/F/D/ |^C/D/F/A/ "Dm7" c2 |"Dm" c/B/A/^G/ B/A/^G/F/ |^G3/2 F/^G/F/E/ D/|
+"Dm" ^C/D/F/ D/^C/D/F/ D/|^C/D/F/ A/"Dm7" c2 |"Dm" c/B/A/^G/ B/A/^G/B/ |1 Az d2 :|2
+A2 z/D/F/A/ || |:"Dm" c/B/A/^G/ B/A/^G/F/ |^G3/2 F/^G/F/E/ D/|c/B/A/ ^G/B/A/^G/ B/|
+A2 d2 |"Dm" c/B/A/^G/ B/A/^G/F/ |^G3/2 F/^G/F/E/ D/|c/B/A/ ^G/B/A/^G/ B/|
+|1 A2 z/D/F/A/ :|2 A2 z/A/^G/G/ || |:
+K:D
+"D" F/G/^G/A/ A/F/G/E/ |"A7" F3/2 E/"D" E/D/A |"D" F/G/^G/A/ A/F/G/E/ |"A7" F3/2 E/"D" E/D/A,/ D/|
+"D" F/G/^G/ A/A/F/G/ E/|"A7" F3/2 E/"D" E/D/A |"D" F/G/^G/A/ A/F/G/E/ |1 "A7" F/D/E/C/ "D" D3/2 F/:|2
+"A7" F/D/E/ C/"D" D/D/=F/ A/|| |:
+K:Dm
+"Dm" (d4 |d3) ^c|^c2 {(e}d2) |d2 d2 |
+d/c/B/A/ d/c/B/A/ |B/c/B/A/ d/c/B/A/ |^G/A/B/c/ d/c/B/A/ |d/A/f/e/ d/c/B/A/ |
+"Dm7" B2 c2 |c2 c2 |(c4 |c4) |
+"Dm" d/c/B/A/ ^G/F/E/D/ |^C/D/E/F/ ^G/A/B/c/ |d/c/B/A/ B/A/^G/F/ |^G3/2 F/^G/F/E/ D/|
+E2 F2 |F2 {(G}"Dm" F2) |(F4 |F4) |
+d/c/B/A/ ^G/F/E/D/ |^C/D/E/F/ ^G/A/B/c/ |d/c/B/A/ ^G/F/E/D/ |1 E/F/D z/D/F/A/ :|2
+"Dm" E/F/D z2 ||
+
+
+
+
+
+X:177
+T:Sonya
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=76
+K:Cm
+V:1
+"Cm" G2 G2 G2 G2 |"Fm" G3/2 B/cG "Cm" G4 |"Fm" G3/2 B/cc dc dc |"Cm" G8 |
+"Fm6" GD DD DG GF |"Cm" G2 E3/2 F/4E/4D2 C2 |"G" D3 D/D/D ED ^C|"G7" D8 |
+"Cm" G2 G2 G2 G2 |"Fm" G3/2 B/cG "Cm" G4 |"Fm" G3/2 B/cc dc dc |"Cm" G8 |
+"Fm" F3/2 c/ (3ccc  (3cFF FF |"Cm" Gc GE "G" D3 C|"G7" D2 DD F2 DE |"Cm" C8 |]
+
+
+
+
+
+X:178
+T:Sonya & Anoushka
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:Cm
+V:1
+"Cm" G2 G2 G2 G2 |"Fm" G3/2 B/cG "Cm" G4 |"Fm" G3/2 B/cc "Bb" dc dc |"Eb" (G4 "C7" G4) |
+"Fm6" GD DD DG GF |"Cm" G2 E3/2 F/4E/4D2 C2 |"G" D3 D/D/"D7" D ED ^C|"G7" D8 |
+"Cm" G2 G2 G2 G2 |"Fm" G3/2 B/cG "Cm" G4 |"Fm" G3/2 B/cc "Bb" dc dc |"Eb" (G4 "C7" G4) |
+"Fm" F3/2 c/ (3ccc  (3cFF FF |"Cm" Gc GE "G" D3 C|"G7" D2 DD F2 DE |"Cm" C8
+:| |:"Cm" C3/2 D/EE FE2 G|E ED/C/ =B,/D/C4 |"Fm" F3/2 G/GG BG2 c|G GG/F/ =E/G/F4 |
+"Cm" E3/2 F/GG "Fm" FG F2 |"Cm" E3/2 F/G/G/G/ F/ED C2 |c2 C3/2 D/"Ab" EF "G7" ED |1 "Cm" C6 G2 :|2
+"Cm" (C4 C)D EF ||  |:"Cm" G2 FE2 GF E|G2 FE2 GF E|"Fm" G2 GF2 CG G|
+F8 |"Cm" E3/2 F/GG "Fm" FG F2 |"Cm" E3/2 F/G/G/G/ F/ED C2 |c2 C3/2 D/"Ab" EF "G7" ED |
+|1 "Cm" (C4 C)D EF :|2 "Cm" C8 ||
+V:2          %gitaar
+C8 |.() |8 |e2 e2 e2 e2 |
+f3/2 g/gf e4 |f3/2 g/gg bg bg |(e4 =e4) |ff ff ff ed |
+e2 c3/2 d/4c/4d2 e2 |=B3 =B/=B/=B c=B B|=B2 =bc' =bg gf |e2 e2 e2 e2 |
+f3/2 g/gf e4 |f3/2 g/gg bg bg |(e4 =e4) |f3/2 g/ (3ggg  (3gdd cd |
+eg ec =B3 c|=B2 =Bc d2 =B2 |c8 :| |:z3/2 z/zz zz2 z|
+z zz/z/ z/z/z4 |z3/2 z/zz zz2 z|z zz/z/ z/z/z4 |z3/2 z/zz zz z2 |
+z3/2 z/z/z/z/ z/zz z2 |z2 z3/2 z/zz zz |1 z6 z2 :|2 z4 zz zz || |:
+z2 zz2 zz z|z2 zz2 zz z|z2 zz2 zz z|z8 |
+z3/2 z/zz zz z2 |z3/2 z/z/z/z/ z/zz z2 |z2 z3/2 z/zz zz |1 z4 zz zz :|2
+z8 ||
+
+
+
+
+
+X:179
+T:Tantz,Tantz Yidelekh
+O:klezmer
+C:Naftule Brandwein
+M:2/4
+L:1/8
+Q:1/4=105
+K:Dm
+V:1
+"A" A/B/^c/d/ e/f/e/d/ |^c^c/A/ "Dm" dd |"Gm" ee "G#" g/f/e/d/ |"A7" ^c^c/A/ "Dm" d2 |
+"A" A/B/^c/d/ e/f/e/d/ |"A7" ^c^c/A/ "Dm" dd |"A" ^c^c "Gm" B/A/B/G/ |1 "A" A4 :|2
+"A" A3 "C7" c|| |:"F" f/g/ (aa) a|"C7" g/a/ g/e/c2 |c/d/e/f/ g/a/b/g/ |
+"F" a3 "A7" a|"Dm" d/e/ (ff) f|"A" e/f/ e/^c/A2 |"A7" A/B/^c/d/ e/f/^c/e/ |
+|1 "Dm" d3 "C7" c:|2 "Dm" d4 ||  |:"A7" A^c A^c |"Dm" dd g/f/e/d/ |
+"A" ^c^c "Dm" d/^c/d/f/ |"A" ea a2  |"A7" A^c A^c |"Dm" dd g/f/e/d/ |
+"A" ^c^c "Gm" B/A/B/G/ |"A" A4 :|
+
+
+
+
+
+X:180
+T:Thalassa
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:Dm
+V:1
+"Gm" D GD GD GB/A/ G|D GD GD GB/A/ G|"Bbm" F BF BF B^c/c/ B|"A" [A^F]"F" [BG][cA][^cB][.cA]z z/e/f/g/ |
+"Db" ^g/g/f/e/ ^c/c/B/A/ G/d/^c/d/ G2  :| |:"Gm" [ec][f2d2][fd][ec][dB][^cA][BG]|[^cA][d2B2][^cA][d/B/][^c/A/][B/G/][^c/A/][B/G/][A/F/][GE]|[ec][f2d2][fd][ec][dB][^c/A/][d/B/][e/c/][f/d/]|
+[g3e3][bg][.ge][.fd][.e^c][.dB]|[ec][f2d2][fd][ec][dB][^cA][BG]|[^cA][d2B2][^cA][d/B/][^c/A/][B/G/][^c/A/][B/G/][A/F/][GE]|"A" [A^F]"F" [BG][cA][^cB][.cA]zz/e/ f/g/|
+"Db" ^g/g/ f/e/^c/c/ B/A/"Gm" G/d/ ^c/d/G2 :|
+V:2          %viool
+G2 | 8 8 |{(c/}[d4)G4]{(c/}d4) |{(c/}[d4)G4]{(c/}d4) |
+{(c/}[^c4)F4]{(c/}^c4) |c2 A^F Fz z/E/_E/D/ |^C2 F^C DG B2 :| |:AB2 BA GF D|
+F G2 FG/F/ E/F/E/D/ ^C|G4 F4 |E4 F2 G2 |{(A/}B4) {(F/}G4) |
+{(F/}G4) {(F/}G3) B|c2 A^F Fz z/E/_E/D/ |^C2 F^C DG B2 :|
+
+
+
+
+
+X:181
+T:Tish Nigun
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=90
+K:Gm
+V:1
+d||"Gm" b ag2 zd "Eb7" gb |"D7" ag ^f2 z2 d2 |"Gm" g^f ga ba "Eb7" gb |
+"D7" a3 ^fd2 d2  |"Gm" ba g2 zd "Eb7" gb |"D7" ag ^f2 z2 d2 |"Gm" g^f ga "D7" ba g^f |
+fine"Gm" g4 z2 "D7" zd   |:"Gm" dg ga b2 bg |"Gm7" b2 bg "Gm6" b3 =b|"Cm" .c'3 b"D7" b aa g|
+|1 "Gm" g b"D7" a c'"Gm" b3 d:|2 "Gm" g4 z2 "F7" f2 || |]"Bb" d'c' bc' "Bb" b3 f|"Bb6" d' c'b c'"Bb" b3 d'|
+"Bb" d' c'c' b"Cm7" b aa g|"Bb" a c'b2 z2 "F7" zf  |"Bb" d'c' bc' "Bb" b3 f|"Bb6" d' c'b c'"Bb" b3 d'|
+"Bb" d' c'c' b"Eb7" b a"D7" a g|"Gm" a bg2 z2 z"D7" d   |:"Gm" dg ga b2 bg |"Gm7" b2 bg b3 =b|
+c'3 bb aa g|1 "Gm" g b"D7" a c'b3 d:|2 "Gm" a bg2 ||
+V:2          %2e stem
+d||d cB2 z2 d2 |cB A2 z2 A2 |BA Bc dc Bd |
+d2 e2 dc BA |dc B2 z2 d2 |cB A2 z2 A2 |B2 d2 dc BA |
+G4 z2 zd  |:GB Bc d2 dB |d2 dB d4 |.e3 dd cc B|
+|1 B dc ed3 D:|2 B4 z4 |]F4 ^F4 |G4 ^F4 |
+F6 z2 |zf ed cB AG |F4 ^F4 |G4 ^F4 |
+fe ed dc cB |cd B2 z3 d|| |:G BB cd2 dB |d2 dB d4 |
+e3 dd cc B|1 B dc ed3 D:|2 c dB2 ||
+
+
+
+
+
+X:182
+T:Tshiribim
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:G
+V:1
+"Em" B,E GG GG G3/2 G/|"A" AG FE "Em" AG2 B,|B, EG GG GG3/2 G/|"A" AG "B7" FE "Em" F/G/E "D7" zD |
+"G" DG BB BB B3/2 B/|"C" cB AG "G" cB2 D|D G/G/B B"D" d AA A/G/|"Em" F E"B7" A G"Em" F Ez [E/G/][F/A/]||
+"Em" [G3B3][E/G/][F/A/][G3B3][E/G/][E/G/]|"Am" [Ac]"Em" [GB][FA][EG][F/A/][A/c/][G2B2][E/G/][F/A/]|[G3B3][E/G/][F/A/][G3B3][E/G/][F/A/]|"Am" [Ac]"Em" [GB][FA][EG][F/A/]"E7" [G/B/][EG]z2 |
+"Am" [A/c/]"Em" [A/c/][A/c/][A/c/][A/c/][A/c/][A/c/][A/c/][B/d/][G/B/][G/B/][G/B/][G/B/][G/B/][G/B/][G/B/]|"B" [A/c/]"Em" [F/A/][F/A/][F/A/][F/A/][F/A/][F/A/][F/A/][GB]"E7" [EG][B2G2]|"Am" [A/c/]"Em" [A/c/][A/c/][A/c/][A/c/][A/c/][A/c/][A/c/][B/d/][G/B/][G/B/][G/B/][G/B/][G/B/][G/B/][G/B/]|GD "Dm" E=F "Em" .E2 z/D/E/=F/ |
+.E2 z/D/E/=F/ =FE z"B7" B, |"Em" E2 z2 z4 |]
+
+
+
+
+
+X:183
+T:Tsto Bylo
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=128
+K:Am
+V:1
+E ||"Am" E2 A3 G|"Dm" F2 B3 A|"Em" G2 "E7" c2 B2 |
+"Am" A4 zE |"C" E2 (A2 "C#" A)G |"Dm" F2 B3 A|"G" G2 "Am7" c2 "G7" d2 |
+"C6" e4 "E" e2  |:"Bb" e2 "A7" f3 e|"D7" e2 d3 c|"G9" c4 Ge |
+"C6" d2 c2 zc |"F7" c2 F2 A2 |"Dm" c2 B3 B|"E9" B2 E2 B2 |
+|1 "Am" A4 ze :|2 "Am" A4 z||
+V:2          %lange noten
+z ||[E6C6]|[D6F6]|[D6E6]|
+[C4E4]z2 |C4 _B,2 |[B,6D6]|[B,2F2][E2G2][F2G2]|
+[G4E4][E2^G2] |:[G2E2][G4^c4]|[^F6A6 c6]|[F4A4 B4]F2 |
+[B2G2 E2][A4G4 E4]|[_E6A6]|[D6F6 A6]|[^G2^F2 D6]z2 E2 |
+|1 [C4E4]z[E^Gd]:|2 [E4C4 A4]z||
+
+
+
+
+
+X:184
+T:Tsu dayn geburtstog
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=120
+K:D
+V:1
+"D" D2 D3/2 D/D2 A,2 |DA, DF A4 |"A7" E3/2 E/G3/2 G/F2 E2 |"D" DC DB, A,2 z2 |
+"D" D2 D3/2 D/D2 A,2 |DA, DF A4 |"E7" ^G3/2 ^G/^G^G ^GE F^G |"A" A2 A2 A2 zA |
+"D" AF DF "A" EC A,A |"D" AF DF "A" EC A,A |"D" Ad AF "A7" G2 E2 |"D" D6 z2 |]
+V:2          %Onderterts
+A,2 A,2 A,2 A,2 |A,2 D2 F4 |C2 E2 D2 C2 |A,2 B,2 C2 z2 |
+A,2 A,3/2 A,/A,2 A,2 |A,A, A,D F4 |E2 E2 D2 D2 |C2 [C2E2][G2E2 C2]zF |
+D2 [F2D2][G2C2][A2C2]|D2 [D2F2][C2G2][C2A2]|D2 [D2F2][G2C2 E2][C2c2 A2]|[d6F6 D6 A6]z2 |]
+
+
+
+
+
+X:185
+T:Tumbalalaika
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=
+K:Eb
+V:1
+"Cm" G4 G2 |G4 G2 |G2 F2 E2 |"G" D6 |
+"G7" F4 F2 |F4 F2 |F2 E2 D2 |"Cm" C6 |
+C2 E2 G2 |c4 c2 |e2 d2 c2 |"C7" G4 G2 |
+"Fm" B2 G2 F2 |"G" D4 D2 |"G7" F2 E2 D2 |"Cm" C4 C2 |]
+"Cm" G3 GG2 |G3 GG2 |G2 F2 E2 |"G" D4 D2 |
+"G7" F3 FF2 |F3 FF2 |F2 E2 D2 |"Cm" C4 C2 |
+C2 E2 G2 |c4 c2 |e2 d2 c2 |"C7" G4 G2 |
+"Fm" B2 G2 F2 |"G" D4 D2 |"G7" F2 E2 D2 |"Cm" C6 |]
+
+
+
+
+
+X:186
+T:Unser Toirele
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=120
+K:Dm
+V:1
+"A" (A/B/)^c ^c(^c/A/) |"Dm" (^c/e/)d dd |"A" ^c3/2 d/(e/f/)(d/ f/)|e2 a2 |
+"A" (A/B/)^c ^c^c |"Dm" (^c/e/)d dd |"Gm" ^c/(G/A/B/) ^c3/2 B/|"A" (A/B/A) z2 :|
+"A" (g/f/)e e2 |(e/d/)^c ^ce |(e/d/)(d/^c/) "Gm" (^c/B/)(B/A/) |"A" A^c ea |
+(g/f/)e e2 |(e/d/)^c ^ce |"Gm" (e/d/)(d/^c/) ^c3/2 B/|"A" A2 z2  |:
+"Dm" (^c/e/)d dd |"Gm" (d/^c/)(B/A/) G2 |~(^F/G/)~(A/B/) ~(^c/d/)~(e/^f/) |"A" ~(g/f/)~(e/d/) "Gm" ~(^c/B/)~(A/G/) |
+"Dm" (^c/e/)d dd |"A" (g/f/e/d/ ^c)e |"A" (e/d/)(d/^c/) "Gm" (^c/A/)(B/G/) |1 "A" A4 :|2
+"A" A2 zA ||"Dm" d4 |d4 |d2 d2 |
+d2 d2 || |:"Dm" (f/e/)d da |(a/g/)f f2 |(gf) (gf) |
+fg (f/e/)d |"Dm" (f/e/)d da |(a/g/)f f2 |(f/e/)(e/f/) "Cm" (f/_e/)(_e/d/) |
+"Dm" d4 :| |:"A" ^c3/2 A/"Gm" (e/d/^c/ B/)|"A" ^cA EA |"A" (^c/d/)e "Gm" d/^c/B |
+"A" ^cA EA |^c3/2 A/"Gm" (e/d/^c/ B/)|"A" ^cA EA |"A" (^c/d/)e "Gm" (d/^c/)B |
+"A" A4 :|
+
+
+
+
+
+X:187
+T:Uralskaja Rjabinu\vska
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=
+K:Dm
+V:1
+"Dm" D4 D2 |F4 D2 |"Gm" G6 |D4 E2 |
+"A7" F4 E2 |A4 G2 |"Dm" (D6 |"A7" D2) z4 |
+"Dm" D4 A2 |A4 F2 |"Gm" G6 |"C7" D4 E2 |
+"F" F2 E2 F2 |"C7" A4 G2 |"F" (F6 |F2) z4 |
+"F7" c4 c2 |"D7" c2 B2 A2 |"Gm" G6 |D4 D2 |
+"C7" E4 F2 |G2 F2 G2 |"Dm" (A6 |"A7" A2) z4 |
+"Dm" F4 F2 |F2 G2 A2 |"F7" c6 |"Gm" B4 A2 |
+G4 E2 |"A7" A4 G2 |"Dm" (D6 |"A7" D2) z4
+|:"D7" D4 d2 |d2 c2 d2 |"Gm" c6 |B4 B2 |
+"C7" B4 c2 |(d2 c2) B2 |(A6 |A2) z4 |
+F4 F2 |F2 G2 A2  |c6 |B4 A2 |
+G4 E2 |A4 G2 |1 D6 |D2 z4 :|2
+"Dm" d6 |d6 ||
+V:2          %2e Stem
+d6 |8 8 8 |8 |z6 |
+z6 |z6 |z6 |z6 |
+z6 |z6 |z6 |z6 |
+z6 |z6 |z6 |z6 |
+z6 |z6 |z6 |z6 |
+z6 |z6 |z6 |z6 |
+z6 |z6 |z6 |z6 |
+z6 |z6 |z6 |z6 |
+z6 |z6 |z6  |:D4 B2 |
+B2 A2 B2 |A6 |G4 G2 |G4 A2 |
+B2 A2 G2 |(F6 |F2) z4 |D4 D2 |
+D2 E2 F2 |A6 |G4 F2 |E4 E2 |
+F4 E2 |1 D6 |D6 :|2 A6 |
+A6 ||
+V:3          %Tegenstem
+A6 |() |8 |D4 (D2 |
+D6) |D6 |B,6 |A,6 |
+^C6 |D2 A,D FA |A2 F2 E2 |D6 |
+C6 |(B,6 |B,6) |A,6 |
+z2 [E4B,4]|[(C6A,6]|[C)A,]CD EF G|[A4_E6]A2 |
+[A2D6]G2 D2 |[D6B,6]|D4 D2 |C4 D2 |
+E2 D2 E2 |z2 AD FA |[F2A,6][F2^C2]E2 |D4 D2 |
+D2 E2 F2 |[A6_E6]|[G4D4]F2 |E4 E2 |
+[F4^C4]E2 |z2 d2 [A2F2]|G2 F2 E2  |:z6 |
+z6 |z6 |z6 |z6 |
+z6 |z6 |z2 [G4E4]|D4 D2 |
+D2 E2 F2 |H_E6 |D4 F2 |E4 E2 |
+^C6 |1 D2 d2 [A2F2]|[cG2 E2]BA GF E:|2 [A6F6 D6]|
+[A6F6 D6]||
+
+
+
+
+
+X:188
+T:Uskudar
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=65
+K:Dm
+V:1
+"Dm" D3/2 A/AA |B/A/B/d/ A3/2 A/|"Gm" G3/2 G/FG |"A7" A/B/A/G/ F/E/D |
+"Dm" D3/2 A/AA |B/A/B/d/ A3/2 A/|"Gm" G3/2 G/FG |"A7" A/B/A/G/ F/E/D |
+"Dm" D3/2 E/FG |"A7" A/B/A/G/ F/E/D |"Gm" E/F/F/E/ G/F/E/D/ |"A7" E/F/E/D/ ^C/B,/A, |
+"Dm" D3/2 E/FG |"A7" A/B/A/G/ F/E/D |"Gm" E/F/F/E/ G/F/E/^C/ |"Dm" D4 :| |:
+"Dm" A/B/A/G/ F/E/F/G/ |A/B/A/G/ F/E/D |"Gm" E/F/F/E/ G/F/E/D/ |"A7" E/F/E/D/ ^C/B,/A, |
+"Dm" A/B/A/G/ F/E/F/G/ |A/B/A/G/ F/E/D |"Gm" E/F/F/E/ "A7" G/F/E/^C/ |"Dm" D4 :| |:
+{^c/}"Dm" d3/2 ^c/^c/B/B/ A/|A4 |"F" A/B,/F/A/ "D7"  (3c/B/A/ "Gm" G|G/d/ d/c/c/B/ B/A/|
+"Dm" A3 "C7" C|"F" F/G/ AA A|"C7" A/G/ A/B/"F" A/G/ F|z/4C/4D/4E/4 F/4G/4A/4B/4c/B/ B/A/|
+"C7" A/G/ A/B/"F" A/G/ F|"Cm" ^F/G3/2 ^F/_E/_E/D/ |"D" D_e/4d/4c/4B/4 A/4B/4A/4G/4^F/4G/4^F/4_E/4 |"Cm" ^F/G3/2 ^F/_E/_E/D/ |
+"D" D4 :|
+
+
+
+
+
+X:189
+T:Varshaver freylekhs
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=117
+K:Dm
+V:1
+A,D2 F|A D"Gm" B D|"Dm" A D"D" ^G D|"Dm"  (3FED A2 |
+A,D2 F|^G AB c| (3Bcd  (3cBA | (3A^GF "A7" A2 |
+A,D2 F|A D"Gm" B D|"Dm" A D"D" ^G D|"Dm"  (3FED A2 |
+A,B, ^CD |EF ^GA | (3A^GF  (3FED |"Dm" D4
+|]B/d/c2 B|d2  (3cBA |^G/B/A2 ^G| (3A^GF  (3FED |
+B/d/c2 B|d2  (3cBA |A4 |d4 |
+B/d/c2 B|d2  (3cBA |^G/B/A2 ^G| (3A^GF  (3FED |
+A,B, ^CD |EF ^GA | (3A^GF  (3FED |"Dm" D4  |:
+K:D
+"D" [DA][F2d2][Af]|[G_e][Fd][A2f2]|[A3/2f3/2][B/g/][(3=ca][B(3g][Af]|[G_e][Fd][A2f2]|
+[DA][F2d2][Af]|[G_e][Fd][A2f2]|"A7" [E3/2c3/2][F/d/][(3Ge][F(3d][Ec]|"D" [D4d4]:|
+V:2          %2e stem
+K:Dm
+AF2 ^G|A F2 ^G|A F2 ^G|A2 F2 |
+AF2 D|E F^G A|^G2 F2 |D2 ^C2 |
+AF2 ^G|A F2 ^G|A F2 ^G|A2 F2 |
+ED ^CB, |A,2 ^C2 | (3FED A,2 |D4 |]
+d4 |c4 |B4 |A4 |
+^G4 |F4 |E4 |D4 |
+[A2D2][AD][(A(D]|[A)D)][AD][AD][AD]|[A2D2][AD][(A(D]|[A)D)][AD][AD][AD]|
+[A2E2][AE][(A(E]|[A)E)][AE][AE][AE]|[A2D2][A2^C2]|[A4D4] |:
+K:D
+DD2 F|_E DF2 |F3/2 G/ (3AGF |_ED F2 |
+DD2 F|_E DF2 |G3/2 A/ (3_BAG |F4 :|
+
+
+
+
+
+X:190
+T:Vayn a glezele
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=120
+K:F
+V:1
+"Dm" DF Ad fa ge |f2 f2 ff f2 |"Dm" fe d2 "Gm" g3 f|"Dm" g2 fe fe d2 |
+DF Ad fa ge |f2 f2 ff f2 |"F" fc cf "Cm" f_e _ed |fine"Dm" d8 :| |:
+"Dm" (d4 d)c Bc |(d4 d)c Bc |dc Bc dc Bc |dc Bc d4 |
+"D" ab ag .^f2 .^f2 |"Cm" g2 g2 "D" ^f4 |ab ag .^f2 .^f2 |"Cm" g^f _eg "D" ^f4 |
+"C" cd ef ga bb |"F" c'a fa "Gm" g3 f|"F" f cc f"Cm" f _e_e d|1 "Dm" d6 A2 :|2
+"Dm" d6 "C7" c2 || |:"F" FG A4 AB |AB AB A4 |"C" G2 G2 FE DE |
+"F" F2 z2 c4 |FG A3 Bc d|"Fm" ._e .d.c .B.^G .G.F .E|"F" F CC FF "Cm" _E_E D|
+"Dm" D8 :| |:"Dm" D4 AG FG |(F4 "Cm" F)_E _E/D/C |"Dm" D2 D2 AG FG |
+(F4 "Cm" F)_E _ED |"Dm" D2 D2 AG FG |F2 F2 F2 z2 |"F" FC CF "Cm" F_E _ED |
+|1 "Dm" D2 z2 FE DC :|2 "Dm" D6 z2 ||
+
+
+
+
+
+X:191
+T:Vi shlekht un vi biter
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=99
+K:Em
+V:1
+B,|"Em" E2 EG |BB AG |"Am" A2 "B7" GF |
+"Em" GF HEB, |E2 EG |"G" B2 AG |"D" A2 GA |
+"B7" B3 B,|"Em" E2 EG |B2 AG |"Am" A2 "B7" GF |
+"Em" GF E2 |E2 EG |"G" B2 AG |"Am" A2 "B7" GF |
+"Em" E2 e2 ||"G" B2 dc |BA G2 |"D" A2 "B7" BA |
+"Em" GF E2 |"C" G2 EG |"D7" A2 GA |"G" (B4 |
+"B7" B4) |"G" B2 dc |BA G2 |"Am" A2 "B7" BA |
+"Em" GF E2 |"C" G2 EG |"B7" A2 GF |"Em" (E4 |
+E3) |]
+
+
+
+
+
+X:192
+T:Yidl mitn fidl
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:Cm
+V:1
+"Cm" CE GE |"Fm" F2 F2 |"Cm" CE GF/E/ |"Fm" F3 F|
+"Bb" B G/G/F G|"Eb" G2 "Ab" C2 |"Fm" FF "G7" FE/D/ |"Cm" C3 G|
+c cc c|c c3 |"Ab" cc "D7" cc |"G" G2 z2  |:
+"Cm" cG cG |c3/2 d/4c/4B=A |"Gm" B/=A/G GG |"G7" G3 G|
+"Cm" ^F Gc G|^F2 E/D/C |"Fm" =E/G/F FF |Fz "D7" ^F2 |
+"G" GG GG |GG GG |"G7" GF ED |"Cm" C2 z2 :|
+V:2          %2e stem
+z2 |  |(C2 C)B, |G,2 G,2 |
+C3 B,|G,3 C|D3 F|E4 |
+G,2 G,=B, |C4 |zE zE |zE zG |
+G2 ^F2 |.=B=A GF  |:E2 D2 |CD E^F |
+.G2 zE |DC =B,2 |C2 .G.E |D2 .C.B, |
+G,2 .B,.G, |G,z =A,2 |z.=B, z.D |z.=B, z.D |
+[FD][GD][=AC][=B=B,]|[c2G,2]z2 :|
+
+
+
+
+
+X:193
+T:Yidl mtn fidl
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=132
+K:Dm
+V:1
+A,|"Dm" D FA F|"Gm" G2 G2 |"Dm" DF AG/F/ |
+"Gm" G3 G|"C" c B/A/G B|"F" A2 "Bb" D2 |"Gm" GG "A7" GF/E/ |
+"Dm" D3 A|d dd d|d d3 |"Bb" dd "E7" dd |
+"A" Az z2  |:"Dm" dA dA |d3/2 e/4d/4cB |"Am" c/B/A AA |
+"A7" A3 A|"Dm" ^G Ad A|^G2 F/E/D |"Gm" ^F/A/G GG |
+Gz "E7" ^G2 |"A" AA AA |AA AA |"A7" AG FE |
+"Dm" D2 z2 :|
+
+
+
+
+
+X:194
+T:Yoshke fort avek
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:Am
+V:1
+"Am" Ec BA |Ec BA |Bc cc |c4
+|"Dm" Bc de |dc BA |"E" BB BB |B4
+|:"Dm" (BA) (A^G) |(^GF) (FE) |"E" E^G ^G^G |^G4
+|"Dm" BA A^G |^GF FE |1 "E" ^GE EE |E3 z:|2
+"E" .e EE E|E3 z||
+V:2          %2e stem
+z zz z|8 |E4 |^F4 |
+^G4 |A4 |^GA Bc |BA ^GF |
+^G2 B2 |d4  |:(^GF) (FE) |(ED) (DC) |
+B,2 D2 |E4 |^GF FE |BA A^G |
+|1 B2 c2 |d3 z:|2 .^G .A.B .d|e3 z||
+
+
+
+
+
+X:195
+T:Zog Maran
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=105
+K:Cm
+V:1
+"Cm" C3/2 E/G3 G|G3/2 E/G2 G2 |"Fm" F3/2 C/F3 G|"G7" G F"Cm" C2 CG  |:
+"C7" G3/2 G/"Fm" F4 |"Bb7" F3/2 G/"Eb" E2 E2 |"Cm" E3/2 F/"G7" D3 D|D3/2 E/"Cm" C2 CG :|
+"Cm" c3/2 B/c3 e|"Bb" d3/2 B/"Cm" c2 c2 |"Cm" c=B ce "D7" dc |"G7" G2 G4  |:
+"C7" c3/2 B/"Fm" G3 F|"Bb7" B3/2 G/"Eb" G2 E2 |"D" DG GF "G7" ED |"Cm" C2 C4 :|
+"D" DF "Cm" GG "D7" c=B |"G7" d6 |"Cm" c6 |]
+
+
+
+
+
+X:196
+T: Chanesse Valts
+O:klezmer
+Z: John Chambers <jc@trillian.mit.edu>
+L: 1/4
+M: 3/4
+R: Waltz
+K: Gm
+|: "D7"D3- |D ^F G | A3- | A ^F D | "Gm"B3- | B A G | d3- | "G7"d3 |
+| "Cm"e3- | e d c | "Gm"d3- | d c B | "D7"A3- | A B A | "Gm"G3- | G3 :|
+%G/4A/4B/4 c/4d/4e/4f/4 \
+|: {GABcdef}"Eb"[ge] [ge]>[ge] | [ge] [ge]>[ge] | "Bb"[ge] [fd]>[=e^c] | [f3d] \
+| "Cm"[ec] [ec]>[ec] | [ec] [ec]>[ec] | "Gm"[ec] [dB]>[^c^A] | [d3B] |
+| "D7"[cA] [cA]>[cA] | [cA] [cA]>[cA] | "Gm"[cA] [BG]>[A^F] | [G2D] [gB] \
+| "Cm"[ec] [cG] [AE] | "D7"[B2D] [A^F] | "Gm"[G3G]- | [G3G] :|
+
+
+
+
+
+X:197
+T: Freilach (Russian)
+O:klezmer
+M: 2/4
+L: 1/8
+K: Am
+|: "Am"A2 EA | EA EA | c2 Ac | Ac Ac \
+| e2 ce | "Dm"d2 Bd |1 "Am"c2 Ac | "E7"B2 e2 :|2 "E7"c2 BA | "Am"A4 |]
+[| "Am"ze fg | fe dc | ze fg | fe dc | ze fg | "A7"ag fe | "Dm"d2 fe | d4 |
+| "G7"zd ef | gf ed | "C"c2 ed | c3 c | cG Gc | "Bb/Gm"c_B BA | "Am"A4- | A4 |]
+P: in Dm
+K: Dm
+|: "Dm"d2 Ad | Ad Ad | f2 df | df df \
+| a2 fa | "Gm"g2 eg |1 "Dm"f2 df | "A7"e2 a2 :|2 "A7"f2 ed | "Dm"d4 |]
+[| "Dm"za bc' | ba gf | za bc' | ba gf | za bc' | "D7"d'c' ba | "Gm"g2 ba | g4 |
+| "C7"zg ab | c'b ag | "F"f2 ag | f3 f | fc cf | "Eb/Cm"f_e ed | "Dm"d4- | d4 |]
+
+
+
+
+
+X:198
+T: Expectation Waltz
+O:klezmer
+C: Russian
+R: Waltz
+L: 1/4
+M: 3/4
+K: Dm
+|: z A, || "Dm"B,2 A, | D2 E | F3- | F D E | F D E | F D F | "A7"E3- | E z A, | B,2 A, | E2 F |
+| G3- | G E F | G E F | G A B | "Dm"A3- | A Z A, | "Dm"B,2 A, | D2 E | F3- | F z D/E/ |
+| F z E/F/ | "C7"G z F/G/ | "F"A3- | A B A | "A7"G3- | G A G | "Dm"F3- | F G F | "A7"E2 B | A2 ^C | "Dm"D3- | "fine"D :|
+|: A F || "Dm"A3- | A A F | A3- | A B G | "Gm"B3- | B B G | B3- | B E F | "A7"G3- | G F G |
+| "Dm"A3- | A G F | "A7"E> AB/A/ | ^C> AB/A/ | "Dm"D3- | D :| \
+|: d c || "C7"c3- | c B G |"F"A> A A | z _e d |
+|"D7"d3- | d c A | "Gm"B> B B | z G A "C7"B3- | B G d | "F"c3- | c A F | "C7"C> EG/B/ | d2 c | "F"F3- | F :|
+
+
+
+
+
+X:202
+T: A Night in the Garden of Eden
+O:klezmer
+B: Sapoznik "The Compleat Klezmer" p.38
+D:
+M: 2/4
+L: 1/8
+K:Em
+|: B,EF \
+| "Em"G2 FE | G2 FE | FG E2 | "D7"zDGA | "G"B2 AG | B2 AG | AB G2 | "(D7)"zDGB |
+| "G"d2 "D7"c2 | "G"B2 AG | "B7"GA GF | "Em"E3 "D7"D | "G"GA2G | "B7"(3BAG (3GFE | "Em"E4- | E :|
+|: B \
+| "Em"Be ee | eB g/f/e | "E7"^de cB | "Am"A3 A | ^GA Bc | "B7"^de dc | "Em"B4- | B2 "D7"D2 |
+| "G"DG GB | dd "E7"cB | "Am"eA AA | AB/A/ "B7"GF | "Em"E2 BG |1 "B7"AA GA | "Em"B4 | ~e3 :|2 "Am"AA "B7"GF | "Em"E4- | E ||
+|: BcB \
+| "Em"~e4 | "B7"zBGF | "Em"E4 | "B7"ZBcB | "Em"g4- | (3gfe "B7"(3^def | "Em"e4 | zd^cd |
+| "E"e_f ed | "G"^cd =cB | ^cd =cB | "Am"A3G | "Em"GA2G | "B7"(3BAG (3GFE | "Em"E4- | E :|
+
+
+
+
+
+X:203
+T: Bulgar (Russian)
+O:klezmer
+C: Abe Schwartz
+R: bulgar
+D: Naftule's Dream Music
+M: 2/4
+L: 1/8
+K: GMix
+|: "G"B_A G2 | B_A G2 | B_A GA | "Fm"GF F2 | EF G_A | Bc B_A |1 "G"G2 B2 | d2 g2 :|2 "G"G4- | G4 |]
+[| "G"G2 _e2 | dc Bc | d3 c | B_A G2 | "G"G2 _e2 | dc Bc | d4 | g4 |
+| "Fm"c>B c>B | cB _AG | F2 G_A | G F3 | f_e dc | BF G_A | "G"G4- | G4 |]
+
+
+
+
+
+X:204
+T:Buhusher Khosid
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=97
+K:Am
+V:1
+E/D/  |:"E" ^C/D/E EE |EA ^G2 |"Dm" ^G3/2 F/E/F/^G/ A/|
+^GB/ A/^G/F/E/ D/|"E" ^C/D/E EE |EA ^G2 |^GF/E/ "Dm" D/E/F/D/ |
+|1 "E" E3 E/D/:|2 "E" E3 E||"Am" A3/2 B/cc/ c/|cc c2 |
+c/d/c B/c/B |~A^G/A/ "E" B2 |^G3/2 A/B(B |B)E B2 |
+cB/A/ ^G/A/B/^G/ |"Am" A2 z2 ||"Am" A3/2 B/c(c |c)C c2 |
+c/d/c B/c/B |~A^G/A/ "E" B2 |^G3/2 A/B(B |B)E B2 |
+cB/A/ ^G/A/B/^G/ |"Am" A2 zE || |:^G3/2 E/^G/B/A/ ^G/|"Dm" F/E/D/ ^C/D/E/F/ D/|
+"E" E^G/ B/E^G/ B/|"Am" c/B/A/ ^G/A/B/A |"E" ^G3/2 E/^G/B/A/ ^G/|"Dm" F/E/D/ ^C/D/E/F/ D/|
+"E" Ee d/c/B/A/ |1 ^G/A/B/A/ ^G/F/E/D/ :|2 "E" ^G/A/F/^G/ E3/2 D/||^G/A/F/ ^G/Ee ||
+V:2          %Akkoorden
+z |:z2 [E,2^G,2 B,2]|z2 [E,2^G,2 B,2]|z2 [D,2F,2 A,2]|
+z2 [D,2F,2 A,2]|z2 [E,2^G,2 B,2]|z2 [E,2^G,2 B,2]|z2 [D,2F,2 A,2]|
+|1 z2 [E,2^G,2 B,2]:|2 z2 [E,2^G,2 B,2]||z2 [A,2C,2 E,2]|z2 [A,2C,2 E,2]|
+z2 [A,2C,2 E,2]|z2 [E,2^G,2 B,2]|z2 [E,2^G,2 B,2]|z2 [E,2^G,2 B,2]|
+z2 [E,2^G,2 B,2]|z2 [A,2C,2 E,2]||z2 [A,2C,2 E,2]|z2 [A,2C,2 E,2]|
+z2 [A,2C,2 E,2]|z2 [E,2^G,2 B,2]|z2 [E,2^G,2 B,2]|z2 [E,2^G,2 B,2]|
+z2 [E,2^G,2 B,2]|z2 [A,2C,2 E,2]|| |:z2 [E,2^G,2 B,2]|z2 [D,2F,2 A,2]|
+z2 [E,2^G,2 B,2]|z2 [A,2C,2 E,2]|z2 [E,2^G,2 B,2]|z2 [D,2F,2 A,2]|
+z2 [E,2^G,2 B,2]|1 z2 [E,2^G,2 B,2]:|2 z2 [E,2^G,2 B,2]||z2 [E,2^G,2 B,2]||
+
+
+
+
+
+X:205
+T:Di Goldene Kazene
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=120
+K:Am
+V:1
+E Ac  |:"Am" e2 a2 ^ga ef |"Dm" d4 zf ~ed |"E" e4 z~d cd |
+"Am" e4 zE Ac |"Am" e2 a2 ^ga ef |"Dm" d6 "D#" _e2 |"E7" e2 c2 de/d/ cB |
+|1 "Am" A4 zE Ac :|2 "Am" A4 a4 ||  |:"Am" c'2 ~ba c'2 ~ba |e6 "A7" z_e |
+"Dm" d2 d2 d3/2 e/f/e/d |"Am" e6 ze |"Am" c'2 ~ba c'2 ~ba |"Dm" f6 "D#" z2 |
+"E" ~ed ~dc ~cB ~BA |1 "Am" A6 e2 :|2 "Am" A6 ze ||  |:"Am" c'/b/a c'/b/a aa a2 |
+c'/b/a c'/b/a "Dm" dd d2 |{(d/}f2) f2 {(g/}f)e gf |"Am" e6 z2 |{(e}"Dm" d) ef2 Bc d2 |
+"Am" cd e2 "F" AB c2 |"E" ~ed ~dc ~cB ~BA |{(A/}"Am" c4) zB/c/ d/c/B/A/ |"Dm" de f2 Bc d2 |
+"Am" cd e2 "F" AB cd |"E" ~ed ~dc ~cB ~BA |1 "Am" A6 ze :|2 "Am" A4 zE Ac ||
+
+
+
+
+
+X:207
+T:Sher
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=150
+K:Am
+V:1
+"Am" A4 c4 |"B7" B3/2 A/^GA "E" B4 |"E7" B4 d4 |"Am" c3/2 B/Ac e4 |
+"Dm" zf/e/ de fe d2 |"Am" eA Bc _e3/2 c/c/B/A |"F" Bc3 "E7" c/B/A ^G/A/B |1 "Am" A4 zE ^F^G :|2
+"Am" A4 zE AB ||  |:"Am" cB A2 zB cd |cB A2 ze fe |"Dm" dc B2 zB cd |
+"Am" c/B/A e3 cc/B/ A|"Dm" f ed2 zB cd |"Am" ed c2 zE AB |"F" cc3 "E7" c/B/A ^G/A/B |
+|1 "Am" A4 zE AB :|2 "Am" A4 ||
+
+
+
+
+
+X:208
+T:Uralskaja Rjabinuûka
+O:klezmer
+C:Muziek: E. Rodygina
+M:3/4
+L:1/8
+Q:1/4=130
+K:Dm
+V:1
+"Dm" D4 D2 |F4 D2 |"Gm" G6 |D4 E2 |
+"A7" F4 E2 |A4 G2 |"Dm" (D6 |"A7" D2) z4 |
+"Dm" D4 A2 |A4 F2 |"Gm" G6 |"C7" D4 E2 |
+"F" F2 E2 F2 |"C7" A4 G2 |"F" (F6 |F2) z4 |
+"F7" c4 c2 |"D7" c2 B2 A2 |"Gm" G6 |D4 D2 |
+"C7" E4 F2 |G2 F2 G2 |"Dm" (A6 |"A7" A2) z4 |
+"Dm" F4 F2 |F2 G2 A2 |"F7" c6 |"Gm" B4 A2 |
+G4 E2 |"A7" A4 G2 |"Dm" (D6 |"A7" D2) z4
+|:"D7" D4 d2 |d2 c2 d2 |"Gm" c6 |B4 B2 |
+"C7" B4 c2 |(d2 c2) B2 |(A6 |A2) z4 |
+F4 F2 |F2 G2 A2  |c6 |B4 A2 |
+G4 E2 |A4 G2 |1 D6 |D2 z4 :|2
+"Dm" d6 |d6 ||
+V:2          %2e Stem
+z6 |z6 |z6 |z6 |
+z6 |z6 |z6 |z6 |
+z6 |z6 |z6 |z6 |
+z6 |z6 |z6 |z6 |
+z6 |z6 |z6 |z6 |
+z6 |z6 |z6 |z6 |
+z6 |z6 |z6 |z6 |
+z6 |z6 |z6 |z6  |:
+D4 B2 |B2 A2 B2 |A6 |G4 G2 |
+G4 A2 |B2 A2 G2 |(F6 |F2) z4 |
+D4 D2 |D2 E2 F2 |A6 |G4 F2 |
+E4 E2 |F4 E2 |1 D6 |D6 :|2
+A6 |A6 ||
+V:3          %Tegenstem
+D4 (D2 |D6) |D6 |B,6 |
+A,6 |^C6 |D2 A,D FA |A2 F2 E2 |
+D6 |C6 |(B,6 |B,6) |
+A,6 |z2 [E4B,4]|[(C6A,6]|[C)A,]CD EF G|
+[A4_E6]A2 |[A2D6]G2 D2 |[D6B,6]|D4 D2 |
+C4 D2 |E2 D2 E2 |z2 AD FA |[F2A,6][F2^C2]E2 |
+D4 D2 |D2 E2 F2 |[A6_E6]|[G4D4]F2 |
+E4 E2 |[F4^C4]E2 |z2 d2 [A2F2]|G2 F2 E2  |:
+z6 |z6 |z6 |z6 |
+z6 |z6 |z6 |z2 [G4E4]|
+D4 D2 |D2 E2 F2 |H_E6 |D4 F2 |
+E4 E2 |^C6 |1 D2 d2 [A2F2]|[cG2 E2]BA GF E:|2
+[A6F6 D6]|[A6F6 D6]||
+V:4          %Bas
+D,2 z2 z2 |C,2 z2 z2 |B,2 z2 z2 |G,2 z2 z2 |
+A,2 z2 z2 |^C,2 z2 z2 |D,2 z2 z2 |A,2 z2 ^C,2 |
+D,2 z3 ^C,|C,2 z3 B,|B,2 z3 ^F,|G,2 z3 E,|
+F,2 z2 D,2 |C,2 z2 E,2 |F,4 z2 |A,2 z3 G,|
+F,2 z3 F,|^F,2 z3 ^F,|G,2 z3 _E,|D,2 z2 z2 |
+C,2 z2 z2 |G,2 z2 z2 |F,2 z2 z2 |A,2 z2 ^C,2 |
+D,2 z2 z2 |C,2 z3 B,|A,2 F,2 A,2 |B,2 z4 |
+G,2 z2 z2 |A,2 z2 ^C,2 |D,2 z2 z2 |A,2 B,2 ^C,2  |:
+D,2 z2 z2 |^F,2 z2 z2 |G,2 z2 z2 |D,2 z3 B,|
+C,2 z2 z2 |E,2 z2 ^C,2 |D,2 F,4 |A,2 ^C,4 |
+D,2 z2 z2 |C,2 z3 F,|H^F,6 |G,2 z2 z2 |
+B,2 z2 z2 |A,2 z2 ^C,2 |1 D,2 z2 z2 |G,2 A,4 :|2
+D,2 A,2 F,2 |D,4 z2 ||
+
+
+
+
+
+X:209
+T: Akdomes
+O:klezmer
+N: from handwritten MS
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Gphr
+[| "G"GG GG G4 | "Fm"FC FA "G"G4 | "G"G2 =B2 G2 d2 | =B2 f2 "Fm"d/c/B/A/ B/A/F |
+|  "G"GG GG G4 | c=B "Fm"c2 F4 | FG GA A=B Bc | "G"d=B "Fm"cA "G"G4 ||
+|: "Cm"g6 ^f2 | ed c6 | g2 "rit."c2 b2 =a2 | g2 ^f2 e2 d2 |
+| "G"d4 dg gd  | d=B BG G4 | "Fm"HF2 HF2 Hc2 =BA | "G"=BA G6 :|
+
+
+
+
+
+X:210
+T: der Badchen Freylach (high)
+O:klezmer
+M: 2/4
+L: 1/16
+B: Stacy Phillips, Mel May's Klezmer Collection p.79.
+K: Edor^A
+|: "Em"eBeg abag | {a}b2{a}b2 gfe2
+| eBeg abag | {a}b4 b4-
+| bBeg abge | {a}b2{a}b2 gfe2 |
+| "B7"fgag fefg | "Em"e8
+:: "Em"bc'd'c' e'd'c'b | abc'd' b4
+| e'd'c'b abc'd' | b4 b4 |
+| bc'd'c' e'd'c'b | abc'd' b4
+|1 bc'd'c' "B7"bc'((3gfe) | "Em"fge2- e4
+:|2 abc'b "B7"abgf | "Em"e8 |]
+
+
+
+
+
+X:211
+T: der Badchen Freylach (low)
+O:klezmer
+M: 2/4
+L: 1/16
+B: Stacy Phillips, Mel May's Klezmer Collection p.79.
+K: Edor^A
+|: "Em"EB,EG ABAG | {A}B2{A}B2 GFE2 \
+| EB,EG ABAG | {A}B4 B4- \
+| BB,EG ABGE | {A}B2{A}B2 GFE2 |
+| "B7"FGAG FEFG | "Em"E8 \
+:: "Em"Bcdc edcB | ABcd B4 \
+| edcB ABcd | B4 B4 |
+| Bcdc edcB | ABcd B4 \
+|1 Bcdc "B7"Bc((3GFE) | "Em"FGE2- E4 \
+:|2 ABcB "B7"ABGF | "Em"E8 |]
+
+
+
+
+
+X:212
+T: At the Rabbi's Table
+O:klezmer
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: ^f^c^A
+"(B)"FE \
+|: "F#"^DEF2 F2F2 | F8 | ABc2 "Em"BAG2 | "F#"F8 \
+| A4 "Bm"B4 | "F#"c4 "Bm"B4 | "F#"A6 G2 | A2G2 F2E2 |
+| "F#"^DEF2 F2F2 | F8 | FGA2 "Em"GFE2 | E8 \
+| e2d2 c2B2 | A2E2 F2G2 | "F#"F8- | F4 z4 :|
+|: "Bm"F2B2 A2B2 | "F#7"c2d2 c2F2 | "Bm"B6 cd | B8 \
+| "Em"e4 "F#7"f4 | "Em"e4 "Bm"d4 | "F#"c6 B2 | c2B2 A4 |
+| "F#"A4 "Bm"B4 | "F#"c4 "Bm"B4 | "F#"A6 G2 | A2G2 F2E2 \
+| "Em"A2B2 B2B2 | AcBA GFEG | "F#"F4- | FAcA | F8 :|
+|: "Bm"dcdc dcB2 | "Em"BABA BAG2 | "F#"FGA2 "Em"GFE2 | E8 \
+| A2B2 B2B2 | AcB2 A2B2 | "F#"c4- cBAG | F8 |
+| "Bm"dcdc dcB2 | "Em"BABA BAG2 | "F#"FGA2 "Em"GFE2 | E8 \
+| "Em"e2d2 c2B2 | A2E2 F2G2 | "F#"F8- | F8 :|
+
+
+
+
+
+X:213
+T: Billy's Freilach
+O:klezmer
+C: Bill Wise
+N: Taught at MIT Klez Workshop Jan 2001
+M: 4/4
+L: 1/8
+Q: 1/4=144
+K: Am
+"A"\
+|: "Am"zc2B A2A2 | zccB dcBA | "E"BB2A ^G2G2 | zBBA cBAB |
+|  "Am"cc2B A2A2 | zccB dcBA | "E"BB2A ^G2B2 |1 "Am"A8 :|2 "Am"A4- AE/E/ EE |]
+"B"\
+|: "E"^G2A2 B2c2 | "E"BB2A "E"B"Dm"A"E"^G2 | "E"E2F2 ^G2A2 | "E"^GG2F "E"G"Dm"F"E"E2 |
+|  "E"^G2A2 B2c2 | "Dm"dd2c dcB2 | "Bdim7"zB2A ^G2F2 |1 "E"E4- EE/E/ EE :|2 "E"E4- Ez Ez |]
+"C"\
+|: "E"E/F/^G zA GA.B2 | E/F/^G zA GF.E2 | E/F/^G zA GAB2 coda| "Dm"d>c BA "E"KBz kBz :|
+coda\
+| "Dm"D2D2 D2D2 | F2F2 F2F2 | A2A2 A2A2 | "Bdim7"dcBA BA^GF | A^GFG "E"(E2 K.e2) |]
+
+
+
+
+
+X:214
+T: Billy's Khosidl
+O:klezmer
+C: William Wise 1996
+M: 2/4
+L: 1/8
+K: Ephr
+|::: E/ \
+| "E"(3^GAB BB | "Am"(3cBA "E"B^G | (3EF^G GG | "Dm"(3A^GF "E"E z/ :::|
+|: E/ \
+| "Am"c/c/c/c/ c/B/A/B/ | cAA z/E/ | c/c/c/c/ c/B/A/B/ | "E"A^GG z/E/ |
+| B/B/B/B/ B/A/^G/A/ | ^GFE z/E/ | e/e/e/e/ e/d/c/B/ | "Am"cAA z/ :|
+|: E/ \
+| "Am"ze2 c | ec BA | ze2 c | cB "E"B2 \
+| zd2 B | dc BA | ^GA Bc |1"Am"BA A z/ :|2 "Am"BA Az/ |]
+
+
+
+
+
+X:215
+T: Odessa Bulgar #2
+T: Odessa bulgarish
+O:klezmer
+R: bulgar, freylach
+M: 2/4
+L: 1/8
+B: Henry Sapoznik "The Compleat Klezmer" 1987
+K: Edor^A
+A,DF "A"\
+|: "Em"B2 A2 | B2 c2 | d2 c2 | BA G2 | A/c/B2 B | BA GA |
+| Bc BA | GF GA || "Em"B2 A2 | B2 c2 | d2 c2 | BA G2 | "B7"FG B/A/G | A2 B2 |
+| "Em"E3 B | B/A/G G2 | "B7"FG B/A/G | A2 B2 |1 "Em"E4- | "fine"E B,EG :|2 "Em"E4- | E4 ||
+"C"\
+|: "Em"ze ee | ee ee | "F7"ed ce | "Bm"dc Bd | "F7"cB Ac | "Em"BA G2 |
+| "B7"FG B/A/G | A2 B2 | "Em"E3 B | B/A/G G2 | "B7"FG B/A/G | A2 B2 | "Em"E4- | E4 :|
+"D"\
+|: "Em"E E2 B | B/A/G G2 | "B7"FE FG | "Em"AB G/F/E \
+| E E2 B | B/A/G G2 | "B7"FE FG | "Em"F E3 :|
+
+
+
+
+
+X:216
+T: Odessa bulgarish
+O:klezmer
+R: bulgar, freylach
+M: 2/4
+L: 1/8
+B: Henry Sapoznik "The Compleat Klezmer" 1987
+K: Edor^A
+A,DF "A"\
+|: "Em"B2 A2 | B2 c2 | d2 c2 | BA G2 | A/c/B2 B | BA GA |
+| Bc BA | GF GA || "Em"B2 A2 | B2 c2 | d2 c2 | BA G2 | "B7"FG B/A/G | A2 B2 |
+| "Em"E3 B | B/A/G G2 | "B7"FG B/A/G | A2 B2 |1 "Em"E4- | "fine"E B,EG :|2 "Em"E4- | E4 ||
+"C"\
+|: "Em"ze ee | ee ee | "F7"ed ce | "Bm"dc Bd | "F7"cB Ac | "Em"BA G2 |
+| "B7"FG B/A/G | A2 B2 | "Em"E3 B | B/A/G G2 | "B7"FG B/A/G | A2 B2 | "Em"E4- | E4 :|
+"D"\
+|: "Em"E E2 B | B/A/G G2 | "B7"FE FG | "Em"AB G/F/E \
+| E E2 B | B/A/G G2 | "B7"FE FG | "Em"F E3 :|
+
+
+
+
+
+X:217
+T: The Day Before Spring
+O:klezmer
+C: Celia Louise Shneider 1987
+M: 3/4
+L: 1/8
+K: Bm
+F2 \
+| "Bm"B3 cde | fb ^af "Em"ec | "Bm"B4 c2 | "F#7"^A4 F2 \
+| "Bm"B3 cde | fb ^af =ab | "E"^g3 egb | "F#7"^a4 bc' |
+| "Bm(D)"d'3 c'd'e' | "A"c'3 bc'd' | "G"b2 bc' bc' | "F#7"^a>g fe dc \
+| "Bm"B2 Bc de | fb ^af "Em"ec | "Bm"B4 "F#7"^A2 | "Bm"B4 :|
+f2  \
+|: "Bm"b2 f3 b | "E"^g2 e2 (3efg | "A"a2 e3 a | "D"f2 d2 (3def \
+| "G"g2 d2 g2 | "C"e2 =c2 c2 | "F#7"^c3 F c2 |1 "Bm"d3 ef^a :|2 "Bm"B4 |]
+
+
+
+
+
+X:218
+T: Dem Trisker Rebns Khusid
+O:klezmer
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Em
+|: "Em"E2BA G2G2 | GAGF E4 | E2G2 B2e2 | e2dc B4 \
+| "G"BAdc B2AG | "Am"A_BAB A4 | "Em"GFFG "Dm"G=FFE | "Em"E8 :|
+|: "G"D2GA B4 | B2AB A2G2 | d4 "D7"c4 | "G"B2AB A2G2 \
+| zDEF GABc | de=fe dcBA | "Em"GFFG "Dm"G=FFE | "Em"E8 :|
+|: "Em"G8 | "Dm"A2=F2 "Em"E4 | G8 | "Dm"A2=F2 "Em"E4 \
+| "G"=fedc BAGF | GFGB "Am"A4 | "Em"GFFG "Dm"G=FFE | "Em"E8 :|
+
+
+
+
+
+X:219
+T: dos Tsigayner
+T: the Gypsy
+O:klezmer
+M: 2/4
+L: 1/16
+K: C
+|: "C"^F2G2 G2G2 | A2B2 A2G2 | "G7"G2 F4 E2 | "C"^FG E6 :| \
+K: Cm
+|: "Cm"D2_E2 E2E2 | ^F2G2 F2_E2 | "G7"_E2 D4 C2 | "Cm"_E2D2 C4 :|
+|: "Cm"D2E2 E2D2 | D2 C6 | D2E2 E2D2 | D2 C6 \
+| D2E2 F2_G2 | "Fm"_G2 F6 | "G7"G2F2 E2D2 | "Cm"C8 :|
+|: "Eb"G4 FEFA | G4 FEFA | G4 FEGF | E4 E2F2 \
+| G4 FGFE | "Fm"DE F6 | "G7"G2F2 E2D2 | "Cm"C8 :|
+|: "Eb"=ABc2 B3_A | A2 G4 FE | "G7"DEF2 E2D2 | "Cm"D2 C6 \
+| D2E2 F2_G2 | "Fm"_G2 F6 | "G7"G2F2 E2D2 | "Cm"C8 :|
+|: "Eb"G4 FEFA | G4 FEFA | G4 FEGF | E4 E2F2 \
+| G4 FGFE | "Fm"DE F6 | "G7"G2F2 E2D2 | "Cm"C8 :|
+|: "C"c4 B=ABc | "F"=A8 | "Bb"B2B2 _AGAB | "Eb"G8 \
+| "C"GABA AGGF | "Fm"F2F2 A4 | "G7"G2G2 F=EFG | "C"=E8 :|
+K: C
+|: "G7"G2F2 F2F2 | F8 | G2G2 F2ED | "C"EF G6 \
+| "G7"G2F2 F2F2 | "Fm"F4 _A4 | "Bbm"G2FE _DC_B,D | "C"C8 :|
+
+
+
+
+
+X:220
+T: the Gypsy
+O:klezmer
+M: 2/4
+L: 1/16
+K: C
+|: "C"^F2G2 G2G2 | A2B2 A2G2 | "G7"G2 F4 E2 | "C"^FG E6 :| \
+K: Cm
+|: "Cm"D2_E2 E2E2 | ^F2G2 F2_E2 | "G7"_E2 D4 C2 | "Cm"_E2D2 C4 :|
+|: "Cm"D2E2 E2D2 | D2 C6 | D2E2 E2D2 | D2 C6 \
+| D2E2 F2_G2 | "Fm"_G2 F6 | "G7"G2F2 E2D2 | "Cm"C8 :|
+|: "Eb"G4 FEFA | G4 FEFA | G4 FEGF | E4 E2F2 \
+| G4 FGFE | "Fm"DE F6 | "G7"G2F2 E2D2 | "Cm"C8 :|
+|: "Eb"=ABc2 B3_A | A2 G4 FE | "G7"DEF2 E2D2 | "Cm"D2 C6 \
+| D2E2 F2_G2 | "Fm"_G2 F6 | "G7"G2F2 E2D2 | "Cm"C8 :|
+|: "Eb"G4 FEFA | G4 FEFA | G4 FEGF | E4 E2F2 \
+| G4 FGFE | "Fm"DE F6 | "G7"G2F2 E2D2 | "Cm"C8 :|
+|: "C"c4 B=ABc | "F"=A8 | "Bb"B2B2 _AGAB | "Eb"G8 \
+| "C"GABA AGGF | "Fm"F2F2 A4 | "G7"G2G2 F=EFG | "C"=E8 :|
+K: C
+|: "G7"G2F2 F2F2 | F8 | G2G2 F2ED | "C"EF G6 \
+| "G7"G2F2 F2F2 | "Fm"F4 _A4 | "Bbm"G2FE _DC_B,D | "C"C8 :|
+
+
+
+
+
+X:221
+T: Drohobitsher Khusid
+O:klezmer
+D: S.Young's Yiddisher Orchestra, Feb.1921
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: EPhr^G
+|: "E"EEEE EcBA \
+| ABG2 G2G2 \
+| GGGG "(Dm)"GAGF \
+| "E"FGE2 E2E2 \
+| EAG2 "Am"GBA2 \
+| "E"AcB2 "Am"Bdc2 |
+| ceed dccB \
+| "E"B6 EE \
+|| "E"EEEE EcBA \
+| ABG2 G2G2 \
+| GGGG GAGF \
+| FGE2 E2E2 \
+| "Dm"FED2 BAG2 |
+| dcB2 BAG2 \
+| "E"BAAG "(Dm)"GFFE \
+| "E"E8 \
+:: "E"e8 \
+| e8 \
+| "Dm"dAdf "E"e2e2 \
+| "Dm"dAdf "E"e2e2 \
+| dcBA GABc \
+| TB8 |
+| "Dm"Bcdc dcBA \
+| GABA BAGF \
+| "E"BAAG "(Dm)"GFFE \
+| "E"E8 :| \
+[K:=G] \
+K: Em \
+:: "Em"BeeB B4 \
+| BeeB B4 |
+| Beed dccB \
+| "Am"BAA^G A4 \
+| "D"AddA A4 \
+| AddA A4 \
+| "Em"GABG "B7"A2GF \
+| "Em"E8 :|
+
+
+
+
+
+X:222
+T: Flaskadriga
+O:klezmer
+R: khodislD: Kandel's Orchestra, May 1921Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: BPhr^d
+|: "B"BBBB Bdc2  | cdB2 BcA2  | BBBB Bedc  | Bcd2 zBcA  ||
+"B"BBBB Bdc2  | cdB2 BcA2 || "Am"^GABc dedc  | "B"dcB2- B4  ::
+"B"dddd dfe2  | efd2 dec2  | dddd dgfe  | def2- f4 |
+|| "B"dddd dfe2  | efd2 dec2  | "Am"^GABc dedc  | "B"dcB2- B4  ::
+"Em"e6 fg  | e6 fg  | e2fg e2fg || e4 zA^GA  ||
+"D"=d6 ef  | =d6 ef  | =d2ef d2ef  | =d2z2 "B"^d4-  ||
+dfe2 efd2  | dec2 cdB2 || B3c dedc  | Bed2- d4  ||
+"B"dfe2 efd2  | dec2 cdBA  | "Am"^GABc dedc  | "B"dcB2- B4 :|
+
+
+
+
+
+X:223
+T: The Kesh Jig (The Kincora Jig)
+O:klezmer
+R: jig
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"~G3 GAB | "D7"~A3 ABd | "G"edd gdd | "D7"edB dBA \
+| "G"~G3 "(Em)"GAB | "Am"~A3 "D7"ABd | "G"edd gdB | "D7"AGF "G"G2 :|
+|: A \
+| "G"~B3 dBd | "C"ege "G"dBG | "G"~B3 dBG | "Am"~A3 "D7"AGA \
+| "G"~B3 dBd | "C"ege "G"dBd | "C"~g3 aga | "D7"bgf "G"g2 :|
+
+
+
+
+
+X:224
+T: The Huntsmen's Chorus
+O:klezmer
+R:reel
+M:2/4
+L:1/8
+K:A
+|: E || "A"AE A/B/c/d/ | e2 c2 |  "E7"Be Be | "A"c/d/c/B/ AE \
+| "A"AE A/B/c/d/ | e2 "D"d2 | "A"c/B/A/B/ "E7"cB | "A"A3 :|
+|: B || "A"c>c cB | "Fm"A2 Bc | "Bm"d>d dc | "E7"BG FE \
+| "A"cc/B/ A/B/c/d/ | e2 "D"d2 | "A"c/B/A/B/ "E7"cB | "A"A3 :|
+
+
+
+
+
+X:226
+T: The Crooked Stovepipe
+O:klezmer
+R:reel
+M: C|
+L:1/8
+K:G
+(3DEF \
+|: "G"G2B2 BcdB | G2B2 BcdB | G2B2 e3B  | "Am"d2c2 cBAG |
+| "D7"F2A2 ABcA | F2A2 ABcd | e2d2 e2f2 |1 "G"g2fe dcBA :|2 "G"g6 ||
+a2 \
+|: "G"[b6d] [a2c] | [g6B] [f2A] | "C"[e2G][e2G] [f2A][g2B] | "Am"[a6c] [b2d] |
+| "D7"[c'6f] [a2e] | [f6d] [e2c] | [d2B]d2 [e2_d][f2c] |1 "G"[g2B][^g2B] [a2c][^a2^c] :|2 "G"[g6B] ||
+
+
+
+
+
+X:229
+T: Patch Tanz
+O:klezmer
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/
+M: 2/4
+L: 1/16
+K: Am
+| "Am"c4 cddc | cddc "E7"cBBA | "Am"c4 cddc | "E7"cBBA "Am"A4 \
+| "Am"[c4E] [cE][dF][dF][cE] | [cE][dF][dF][cE] "E7"[cE][BD][BD][AC] | "Am"[c4E] [cE][dF][dF][cE] | "E7"[cE][BD][BD][AC] "Am"[A4C] ||
+|| "G7"defd "C"e4 | .[e2c] .[e2c] .[e2c] z2 | "G7"Bcdc d4 | "G".[B2G] "D7".[c2A] "G".[d2B] z2 \
+| "G7"gfed "C"e4 | .[e2c] .[e2c] .[e2c] z2 | "G7"Bcdc d4 | "G".[B2G] "D7".[c2A] "G".[d2B] z2 ||
+|| "G7"GAB2 "C"cde2 | "E7"dcB2 "Am"A4 | "C"cGGc "Bb"c_BBA | "Am"A8 \
+| "G7"GAB2 "C"cde2 | gfe2 "Dm"d4 | "C"cGGc "Bb"c_BBA | "Am"A8 |]
+
+
+
+
+
+X:231
+T: Ele chamda libi
+O:klezmer
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Em
+[| "Em"E2 E2 | EE (B,E) | G4- | G4 \
+w: E-le cham-da li-bi
+| GG GG | GG EG | B4- | B4 \
+w: chu-sa na ve-'al na tit-'a-lem.
+|: "Em"B2 G2 | "Am"A2 E2 |
+w: E-le cham-da
+| "Em"G(B- BA) | (GF) E2 | GG GG \
+w: cham-da li-bi chu-sa na ve-
+|1 "Am"AA     GA | "B7"B4- | B4 \
+w: 'al na tit-'a-lem.
+:|2 "Am"AA "B7"GF | "Em"E4- | E4 ||
+w: 'al na tit-'a-lem.
+|| "C"e2 e2 ee (dc) | "Em"B4- | B4 \
+w: E-le cham-da li-bi
+|  "C"ee ee ee (dc) | "Em"B4- | "B7"B4 \
+w: chu-sa na ve-'al na tit-'a-lem.
+|: "Em"B2 G2 | "Am"A2 E2 |
+w: E-le cham-da
+| "Em"G(B- BA) | (GF) E2 \
+w: cham-da li-bi
+| GG GG |1 "Am"AA     GA | "B7"B4- | B4 \
+w: chu-sa na ve-'al na tit-'a-lem.
+:|2 "Am"AA "B7"GF | "Em"E4- | E4 |]
+w: 'al na tit-'a-lem.
+
+
+
+
+
+X:235
+T: The Bridal Jig
+O:klezmer
+B: Cole p.58
+R: jig
+M: 6/8
+L: 1/8
+K: G
+|: "D7"D || "G"G2G BGB | "D7"def "G"gfg | "C"ecA "G"dBG | "D7"FAG FED \
+| "G"G2G BGB | "D7"def "G"gfg | "C"ecA "G"dBG | "D7"cAF "G"G2 :|
+|: B || "Em"Bee edB | "D"def "Em"g2a | bag "D"agf | "Em"e2e edB \
+| "Em"Bee edB | "D"def "Em"g2a | bag "D"agf | "Em"e2e e2 :|
+
+
+
+
+
+X:236
+T: Frailach
+O:klezmer
+B: Kammen 1#12
+M: 2/4
+L: 1/8
+K: Dm
+|: "Dm"d4- | "Gm"dg "A7"fe | "Dm"f4- | ff ed \
+| "D7"d4- | db ag | "Gm"g4- | "C7"gg fe |
+| "F"f3 a | "C7"c'b ag | "A7"fg fe | "Dm"de "A7"fg \
+| "Dm"~af "A7"~ge | "Dm"~fd "A7"~e^c |1 "Dm"d3 f | "A7"(3agf (3fed :|2 "Dm"d4- | "fine"d ||
+A=B^c \
+|: "Dm"dz Az | fz "A7"Az | "Dm"d4- | dd ef \
+| "Gm"gf ed | ^cd cB | "A"A4- | A3z |
+| "A"A^c cc | ^cB/c/ BA | "Dm"Ad dd | d3z \
+| "Gm"gf ed | "A7"^cd ef |1 "Dm"d4- | dA =B^c :|2 "Dm"d4- | dz ||
+"C7"c2 \
+|: "F"fa aa | ag/a/ gf | fa aa | ag/a/ gf \
+| az "(C7)"bz | "F"c'b ab | "C7"g4 | (3bag (3gfe |
+| "C7"eg gg | gf/g/ fe | eg gg | gf/g/ fe \
+| g2 a2 | gf eg |1 "F"ff' e'd' | "C7"c'b ag :|2 "F"f4 | "A7"(3agf "d.C."(3gfe |]
+
+
+
+
+
+X:238
+T: Bulgar, Frailach
+O:klezmer
+B: Kammen 9 #17
+R: jig, bulgar
+Z: John Chambers <jc@trillian.mit.edu>
+N: Original in 2/4, but with mostly triplets in melody.
+M: 6/8
+L: 1/8
+K: DDor
+|: A,B,^C \
+| "Dm"D3 FED | F3 A^GF | A2B cBA | Bcd cBA | Bc2- c2c | Bcd cBA | ^GA2- A2G | A^GF FED |
+| "Dm"D3 FED | F3 A^GF | A2B cBA | Bcd cBA | ^GAB cBA | A^GF FED | D6- | D3 :|
+|: A,DF \
+| "Dm"A2A A2A | A2B cBA | ^GBA- A3- | A6 | ^GAB cBA | A^GF FED | ^GBA- A3- | A6 |
+| "Dm" ^GAB cBA | A^GF FED | E=GF- F3- | F6 | EF^G AGF | A^GF FED | EFD- D3- | D3 :|
+
+
+
+
+
+X:242
+T: Nigun Sameach
+O:klezmer
+R: bulgar, freylach
+B: Kammen 9#12
+M: 2/4
+L: 1/8
+K: Am
+|: "Am"A,z Cz | Ez Az | c4- | c4 \
+| dc Bc | BA ^GA | "E7"B4- | BE FE |
+| "E7"E3 ^G B3 A | "Dm"(3^GAB (3AGF | "E"E4 | BA ^GF \
+| "E7"ED CB, |1 "Am"A,4 | (3E^DC (3CB,A, :|2 "Am"A,4- | HA,4 |]
+|: "Am"EA "(E7)"cB | "Am"AG "A7"FE | "Dm"EF FF | F4 \
+| "(G7)"DF BA | "(E7)"^GF ED | "Am"^DE EE | E4 |
+| "E7"EF ^GA | Bc (3cBA | ^G4- | G4 \
+| BA ^GF | ED CB, | "Am"A,4- | A,2 z2 :|
+|: "Am"z2 e^d | e2 "Dm"f2 | "Am"e3 c | A4 \
+| "Dm"f3 e | "G7"de f[gd] | "C"e4- | e4 |
+| "Dm"fe d2  | dc B2 | "E7"dc B2 |  BA ^G2 \
+| EF ^GA | Bc  ^GB |1 "Am"A4 | (3e^dc (3cBA :|2 "Am"A4 | cA "da Capo"EC |]
+
+
+
+
+
+X:244
+T: Odessa Bulgar #1
+O:klezmer
+R: Bulgar, Frailach
+B: Kammen 1#12
+M: 2/4
+L: 1/8
+K: Dm
+|: "Dm"d4- | "Gm"dg "A7"fe | "Dm"f4- | ff ed \
+| "D7"d4- | db ag | "Gm"g4- | "C7"gg fe |
+| "F"f3 a | "C7"c'b ag | "A7"fg fe | "Dm"de "A7"fg \
+| "Dm"~af "A7"~ge | "Dm"~fd "A7"~e^c |1 "Dm"d3 f | "A7"(3agf (3fed :|2 "Dm"d4- | "fine"d ||
+A=B^c \
+|: "Dm"dz Az | fz "A7"Az | "Dm"d4- | dd ef \
+| "Gm"gf ed | ^cd cB | "A"A4- | A3z |
+| "A"A^c cc | ^cB/c/ BA | "Dm"Ad dd | d3z \
+| "Gm"gf ed | "A7"^cd ef |1 "Dm"d4- | dA =B^c :|2 "Dm"d4- | dz ||
+"C7"c2 \
+|: "F"fa aa | ag/a/ gf | fa aa | ag/a/ gf \
+| az "(C7)"bz | "F"c'b ab | "C7"g4 | (3bag (3gfe |
+| "C7"eg gg | gf/g/ fe | eg gg | gf/g/ fe \
+| g2 a2 | gf eg |1 "F"ff' e'd' | "C7"c'b ag :|2 "F"f4 | "A7"(3agf "d.C."(3gfe |]
+%%sep 0 1 8cm
+
+
+
+
+
+X:251
+T: Noch a bissel
+O:klezmer
+B: Kammen 1#8
+N: The original repeats bars 5-8 of the third part, for 20 bars.
+M: 2/4
+L: 1/8
+K: D
+| "D"d2 "A7"e>d | "D"ff2f | "D"f2 "A7"g>f | "D"aa2a \
+| "D"a/b/a "A7"g/a/g | "D"f/g/f "A7"e/f/e | "D"d[gB] "A7"[fA][eG] | "D"[dF][cE] "A7"[BD][AC] |
+| "D"d2 "A7"e>d | "D"ff2f | "D"f2 "A7"g>f | "D"aa2a \
+| "D"a/b/a "A7"g/a/g | "D"f/g/f "A7"e/f/e | "D"d[gB] "A7"[fA][eG] | "D"[dF]z [d'af]z |]
+[| "D"[fA]z "G"[gB]z | "D"[fA]g/f/ ed | "D"[fA]z "G"[gB]z | "D"fg/f/ ed \
+| "D"[f2d2] "A7"[g2e2] | "D"[a2f2] "G"[b2g2] | "D"[a2f2]- "A7"[a2g2] | "D"[d'/f]c'/b/a/ g/f/e/d/ |
+| "D"[fA]z "G"[gB]z | "D"[fA]g/f/ ed | "D"[fA]z "G"[gB]z | "D"fg/f/ ed \
+| "D"de2d | "A7"[gB][fA] [eG][fA] | "D"[d4F4]- | [dF] |]
+|: dfa \
+| "D"[d'3f3]a | [d'3f3]a | [d'f]>a  [d'f]>a | [d'f]>a  [d'f]>a \
+| "Dm"d'a d'=c' | ba =c'b | "D"[a4^f4] | d4 |
+| "Dm"d'a d'=c' | ba =c'b | "A7"a^g ba | "Dm"^g=f ed \
+| "D"[a2^f2] [f2A2] | "A7"[eG][dF] [eG][fA] | "D"[d4F4]- | [dF] :|
+
+
+
+
+
+X:252
+T: And the Angels Sing (der Shtiller Bulgar) (Roumanian-Serbian Frailach)
+O:klezmer
+B: Kammen 1#15
+M: 2/4
+L: 1/8
+K: C
+|: GAB \
+| "C"c4- | cc/e/ dc | e4- | ef/e/ dc | "G7"de fg | "C"ec "G7"dB | "C"cc' ba | gf ed |
+| "C"c4- | cc/e/ dc | e4- | ef/e/ dc | "G7"de fg | "C"ec "G7"dB | "C"c4- | c :|
+|: ceg \
+| "C"a_b2b | _b/a/g g2 | ^fg2g | g/f/e e2 | a_b2b | (3_bag ^fga | g4 | [c'3e3]z |
+| "C"a_b2b | _b/a/g g2 | ^fg2g | g/f/e e2 | "G7"de fg | "C"ec "G7"dB | "C"c4- | c :|
+|: ccB \
+| "Am"A3 e | dc Bc | d3 c | (3edc (3cBA | A3 e | dc Bc | e4 | [a3c3]z |
+| "Am"A3 e | dc Bc | d3 c | (3edc (3cBA | B/d/c2c | (3cBA "E7"(3^GAB | "Am"A4- | A :|
+
+
+
+
+
+X:255
+T: Belzer Nigun
+O:klezmer
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Gm
+|: "Gm"B>A GG | GG GG | "Cm"Gc "D7"cB/A/ | "Gm"B2 B2 | "Bb"d>c BB | BB BB | "Cm"Gc "D7"cB/A/ | "Gm"G2 G2 :|
+|: "Cm"dc dc | "Gm"cB/A/ B2 | "Cm"BA Gc | "Gm"cB/A/ B2 | "Cm"dc dc | "Gm"cB/A/ B2 |1 "Cm"B/A/G "F7"ee | "Bb"d4 :|2 "Eb"B/A/G "F"AF | "Gm"G4 |]
+
+
+
+
+
+X:257
+T: Sher
+O:klezmer
+S: Marianne Cygnel
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: BPhr
+P: A
+| "B"B2c2 ^d4- | dc^d2 c2B2 | ^d2e2 f4- | f2ef e2^d2 \
+| "B"B2c2 ^d4- | dc^d2 c2B2 | "Am"^GABc ^dedc | "B"cBB2 z2 :|
+P: B
+|: B2 \
+| "Em"e4 "B"^d3c | "Am"^dec2 "B"B4 | ^d2e2 fgeg | f4 b4 \
+| "Em"e4 "B"^d3c | "Am"^dec2 BcA2 | ^GABc ^dedc | "B"cBB2 z2 :|
+P: C
+|: B2 \
+| "Em"~e8 | g6 ^a2 | ^abag abag | gffe fgB2 \
+| "Em"e6 g2 | b4 b4 | ^abag abag | gffe e2 :|
+P: D
+|: B2 \
+| "Am"a3^g a3g | a6 =g2 | "B"f3=e f3e | f6 e2 \
+| ^defg agfe | ^defe dcBA | "Am"^GABc ^dedc | "B"cBB2 z2 :|
+P: E
+|: F2 \
+| "B"BcAc B2B2 | BcAc B2B2 | B2c2 ^dedc | Bc^d2- d4 \
+| "B"BcAc B2B2 | BcAc B2B2 | "Am"^GABc ^dedc | "B"cBB2 z2 :|
+P: F
+|: B2 \
+| "Em"e6 B2 | e6 B2 | e3B e3B | e3B e3B \
+| "Em"e2fg efg2 | e2fg efg2 | "(Am)"gaag gaag | gaag gfe2 |
+| "Em"g2g2 {g}fefg | e4 g2B2 | e2gf efg2 | e2gf efg2 \
+| "(Am)"gaag gaag | gaag gfe2 | "Em"g2g2 "(B)"{g}fefg | "Em"e6 :|
+P: G
+|: F2 \
+| "B"B2b2 B2b2 | B2 b6 | "Am"a3g a3g | "B"gff2- f4 \
+| "Am"A2a2 A2a2 | A2 a6 | "B"g2f2 e2^d2 | ^dgf2- f2B2 |
+| "B"^d2e2 f2g2 | a2g2 f2e2 | ^defe ~d3c | "Am"BABc ~B2A2 \
+| "B"^d2e2 f2g2 | a2g2 f2e2 | "Am"^defe ~d3c | "B"cBB2 z2 :|
+P: H
+|: (3F^G^A \
+| "Em"B4 "B/f"A4 | "Em"G4 "B"F4 | "Em"E3F GFGE | "B"F4 z2(3FG^G \
+| "Am"AGAF "Em"GFGE | "B"FEGF "Em"E4 | "Am"^defe ~d3c | "B"cBB2 z2 :|
+P: I
+|: E2 \
+| "Am"A4 B4 | c4 e4 | "B"^defe ~d3c | BcBc ~B2A2 \
+| "Am"A4 B4 | c4 e4 | "B"^defe ~d3c | cBB2 z2 :|
+
+
+
+
+
+X:259
+T: Shmelke's Nigun
+O:klezmer
+M: 2/4
+L: 1/8
+K: Gm
+|: "Gm"GG/G/ GG | "Cm"cc "Gm"G2 | "Cm"cc "Gm"GA | "D7"BA "Gm"G2 \
+| GG/G/ GG | "Cm"cc "Gm"G2 |1 "Cm"cB AG | "Gm"B2 z2 :|2 "Cm"cB "D7"AB | "Gm"GG AB ||
+|: "Cm"Mc2 Mc2 | ze dc | ed ce- | ed c2 \
+| "Bb"MB2 MB2 | zd cB |1 dc Bd- | dc B2 :|2 dc Bc- | "Cm"c4 |]
+
+
+
+
+
+X:261
+T: Firn di Mekhutonim aheym
+O:klezmer
+R: horra
+D: Naftule Brandwein 1923
+B: The Compleat Klezmer p.44
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 3/8
+L: 1/16
+%Q: 3/8=60
+K: EPhr^G
+|: EE \
+| "E"^G4 "Dm"(3FED | "E"E6- | E2c2B2 | "Am"A6 \
+| A4 (3FED | "Dm"D6 | D2B2A2 | "E"G4 "Dm"(3FED |
+| "E"E3G BA | G3B dc | B3d fe | "Dm"d3c BA \
+| "E"G3A BA | G3F "Dm"ED | "E"E3e BG | E2z2 :|
+|: EE \
+| "Am"E2c2"E7"B2 | "Am"A3E AE | A6- | A6 \
+| "Dm"A2f2e2 | d3A dA | d6- | d3c cB |
+| "E"Bddc cB | Bddc cB | B6- | B3c BA \
+| GBBA AG | GBBA AG | G6- | G3F "Dm"ED |
+| "E"E3G BA | G3B dc | B3d fe | "Dm"d3c BA \
+| "E"G3A BA | G3F "Dm"ED | "E"E3e BG | E2z2 :|
+|: EE \
+| "Am"e6- | e6- | e6- | e4 "G7"d2 \
+| "C"c6- | c4 "E7"B2 | "Am"A6- | A4 "Cb7"G2 |
+| "F"F6- | F4 "A7"E2 | "Dm"D6- | D6 \
+| "E"B4 B2 | B4 (3cBA | G4 G2 | G4 "Dm"(3FED |
+| "E"E3G BA | G3B dc | B3d fe | "Dm"d3c BA \
+| "E"G3A BA | G3F "Dm"ED | "E"E3e BG | E2z2 :|
+
+
+
+
+
+X:264
+T: Klez Reel Medley 6 (D d)
+O:klezmer
+P: Bb instruments
+K: D
+P: Jackson's Breakdown
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: E
+|: "E"Be g/a/g/f/ | eG B>e |1,3 "B7"dF A>c | "E"BE G2 :|2,4 "B7"dB cd | "E"e2 e2 :| [K:B]
+|: "B"[f2d2] [f2d2] | fb [f2d2] | "F7"c'g af |1,3 "B"bd f2 :|2,4 "B"b2 b2 :|
+P: Lebedich un Freilech
+R:
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+N: For contras: this tune is 64 bars, twice through the dance.
+M: 4/4
+L: 1/8
+K: EDor
+B^A/B/ =cB =AG FB | \
+|: "Em"E>E GF- FE FG | B^A cB- BA GF | E>E GF- FE FG |1 B>^A c>A B B,C^D :|
+|2 E4- E || E GB | "Em"e2e2 e2ef | "Bm"d/c/B BB- BE GB | "Em"e2e2 e2ef | "Bm"d/c/B BB- BA GF |
+| "Em"E>E GF- FE FG | B^A cB- BA GF | E>E GF- FE FG | E4- E || [K:E]
+|: E AB \
+| "A"c4- cB c>B | AE3 zEAB | "E7"c>"/"B c>"/"B c>"/"B c>"/"B | "A"AE3 zEAB |
+| "A"c4 "Am"=c4 | "B"BA GF- FF GA | "E"B>G "B7"A>F "E"G>E "B7"F>D | "E"E4- D:|
+P: Golden Slippers
+R: reel
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+AB \
+|  "A"c2c2 cBAB | c2c2 c2AB | c2c2 d3c | "E7"c2B2 B2GA |  B2B2 BAGA | B2B2 B2GA | B2d2 c2B2 |1 "A"B2A4 \
+:|2 "A"B2A6 :|
+|| "A"E6 A2 | c2B2 A2G2 | "D"F6 A2 | "Bm"d2c2 B2A2 | "E7"G3E G2A2 |1 "E7"B2B2 B2E2 | "A"A2E2 A2B2 | c8 \
+:|2 "E7"B2B2 B2d2 | c3d c2B2 | "A"A6 |]
+P: Golden Slippers
+R: reel
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+AB \
+|  "Am"c2c2 cBAB | c2c2 c2AB | c2c2 d3c | "E7"c2B2 B2^GA |  B2B2 BA^GA | B2B2 B2^GA | B2d2 c2B2 |1 "Am"B2A4 \
+:|2 "Am"B2A6 :|
+|: "Am"E6 A2 | c2B2 A2G2 | "Dm"F6 A2 | d2c2 B2A2 | "E7"^G3E G2A2 |1 "E7"B2B2 B2E2 | "Am"A2E2 A2B2 | c8 \
+:|2 "E7"B2B2 B2d2 | c3d c2B2 | "Am"A6 |]
+%%wordsfont Helvetica 10
+W: Arrangement by John Chambers http://trillian.mit.edu/~jc/music/abc/Scotland/
+
+
+
+
+
+X:265
+T: Lebedich un Freilech
+O:klezmer
+R:
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+N: For contras: this tune is 64 bars, twice through the dance.
+M: 4/4
+L: 1/8
+K: DDor
+A^G/A/ _BA =GF EA | \
+|: "Dm"D>D FE- ED EF | A^G BA- AG FE | D>D FE- ED EF |1 A>^G B>G A A,B,^C :|
+|2 D4- D || D FA | "Dm"d2d2 d2de | "Am"c/B/A AA- AD FA | "Dm"d2d2 d2de | "Am"c/B/A AA- AG FE |
+| "Dm"D>D FE- ED EF | A^G BA- AG FE | D>D FE- ED EF | D4- D || [K:D]
+|: D GA \
+| "G"B4- BA B>A | GD3 zDGA | "D7"B>"/"A B>"/"A B>"/"A B>"/"A | "G"GD3 zDGA |
+| "G"B4 "Gm"_B4 | "A"AG FE- EE FG | "D"A>F "A7"G>E "D"F>D "A7"E>C | "D"D4- D:|
+
+
+
+
+
+X:267
+T: Moldavian tants
+O:klezmer
+Z: John Chambers <jc@trillian.mit.edu>
+N: Combined versions from several friends, recordings, and books.
+B: Naftule's Dream Music
+D:
+M: 4/4
+L: 1/8
+K: DPhr
+| "D"DA/A/ AA AG ^F>E \
+| DE ^FG FE D2 \
+| "D"DA/A/ AG ^FG AB \
+| A4 d4 \
+| "D"DA/A/ AA AG ^F>E \
+| DE ^FG "Cm"FE/D/ C2 |
+| "Cm"zC =B,C DE ^FE \
+| "D"D4 z :: z3 \
+| "Cm"zC =B,C DE DC \
+| zE DE ^FG FE \
+| zG ^FG AB AG \
+| "D"A3 G ^FE D2 |
+| "Cm"zC =B,C DE DC \
+| zE DE ^FG FE \
+| AG G^F FE ED \
+| "D"D4 z :: DBA \
+| "Gm"G4- GD B,D \
+| GB AG "D"dA2 G |
+| "D"A4- AD cB \
+| AG ^FG AD EF \
+| "Gm"G4- GD B,D \
+| GB AG "D"dA2 G \
+| ^FG AG "Cm"FC DE \
+| "D"D4 z :|
+
+
+
+
+
+X:269
+T: Di Rayze Nukh Amerike
+O:klezmer
+N: Arranged for contra dance by John Chambers
+M: 2/4
+L: 1/16
+K: Em
+P: Form: (AABB)(AACD)...
+P: A
+B,2 \
+|| "Em"E2F2 G2A2 | B2c2 B2e2 | B8- | B6 B,2 | E2F2 G2A2 | "E7"B2d2 c2B2 | "Am"A8- | A8 || "D7"A2e2 e2e2 |
+| "G"dedc B2A2 | "C"G2c2 c2c2 | "B7"BcBA G2F2 |1 "Em"E4 G2F2 | E2G2 B2e2 | B8- | B8 :|2 "Em"E2G2 B2e2 | "B7"dcBA G2F2 | "Em"E8 |
+P: B
+"G"z2d2 c2B2 \
+|: "G"d2d2 d4 | z2d2 c2B2 | "Am"A2A2 E4 | z2E2 A2c2 | "D7"e2 e4 e2 | efef e2f2 | "G"d8 |
+| z2d2 c2B2 | d2d2 d4 | z2 d2 c2B2 | "C"e2e2 e4 | z2e2 ^d2e2 | "G"g2>>B2 d2>>G2 | B2>>D2 G2B2 | "D7"A8 |1 "G"G2d2 c2B2 :|2 "G"G2BB "B7"B2B2 |]
+P: AA
+P: C
+M: 6/8
+|| "Em"G2G G3- | GGG BAG | "B7"A2A A3- | AAA FE^D | "Em"E2B ^A2B | E2F G2E | "B"FB,B, B,B,B, | BBB BBB |
+|  "Em"G2G G3- | GGG BAG | "B7"A2A A3- | AAA FE^D | "Em"E2^D E2F | "C"G2F G2A | "B7"BAG AGF | "Em"E3/2(B,/=C/^D/E3) ||
+P: D
+| "G"G2G GFE | D3 G3 | "Em"G2G GFE | B,3 E3 | "G"B^AB G2B |B^AB G3 | BAG "G7"=F2F | "D7"=F3 z3 |
+| "G"G2B BAG | D3 G3 | "Em"G2G GFE | B,3 E3 | "G"DB,D G3 | GDG B3 | "D7" dcB ABA | "G"G3 z3 |]
+
+
+
+
+
+X:271
+T: Dayeinu
+O:klezmer
+R: freilach
+B: Favorite Hebrew Songs for Piano, Albert Rozin, p.39
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+|: "D"FA AA | AB "A7"AG | "D"FA AA | AB "A7"AG | "D"FA "A7"EG |
+w: I-lu na-tan na-tan la-nu na-tan la-nu et ha-ho-ra, na-tan la-nu
+w: I-lu ho-tsi- ho-tsi-a-nu ho-tsi-a-nu mi-mits-ra-yim, ho-tsi-a-nu
+| "D"FA "A7"EG | "D"F2 "A7"E2 | "D"D4 :: "D"F2 F2 | "A7"AG- G2 | G2 G2 |
+w: et ha-ho-ra, da-yei-nu. Da-da-yei-nu, da-da-
+w: mi-mits-ra-yim, da-yei-nu. Da-da-yei-nu, da-da-
+| "D"BA- A2 | A2 A2 | "A7"dc- cc | cA Bc |1 "D"dA FD :|2 "D"d4 |]
+w: yei-nu, da-da-yei-nu, da-yei-nu, da-yei-nu, da-yei-nu. \-nu.
+
+
+
+
+
+X:273
+T: Ahavat hadassah
+O:klezmer
+A:yemeni
+C: S.Shabazi
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+Q: "Slowly and sadly"
+W: The love of Zion is bound securely to my heart, but alas I am in the diaspora.
+P: in C:
+K: C
+|: "C"G2 c2 c2 c2 | (de cd) e3 e \
+w: Aha-vat ha-das-sah___ al l'-
+| "Dm"g2 (fe) "G7"d2 f2 |1 "C"(e3 d c4) :|2 "C"e6 z2 ||
+w: va-vi  nik-sh'-ra,__ \-ra,
+|: "Dm"f3 e f3 e | "G7"(de) (cd) "C"e3 d \
+w: va-a-ni b'- toch go-la p'-
+|1 "F"c2 e2 "G7"d2 c2 | "C"g4 :|2 "F"c2e2 "G7"(dc) (Bd) | "C"c6 z2 |]
+w: a-may tso-l'-lim. \-a-may tso-l'-lim.
+P: in D:
+K: D
+|: "D"A2 d2 d2 d2 | ef de f3 f \
+| "Em"a2 gf "A7"e2 g2 |1 "D"f3 e d4 :|2 "D"f6 z2 ||
+|: "Em"g3 f g3 f | "A7"ef de "D"f3 e \
+|1 "G"d2 f2 "A7"e2 d2 | "D"a4 :|2 "G"d2f2 "A7"ed ce | "D"d6 z2 |]
+% From a handwritten MS:
+%%sep 10 10 300
+P: Harmony
+K: D
+|: A2-A2 B3A | ed d2 z2 dc \
+| B3 d c2 A2 |1 B3 cdefz :|2 B3 c d2 z2 ||
+|: z2 B2 e3 B | c2 Bc A3z \
+|1 B4 c2 A2 | z2 de f2 d2 :|2 B4 c2 A2 | z2 de d2z2 |]
+
+
+
+
+
+X:274
+T: A Dreidele Far Alle - Freilachs
+O:klezmer
+A:yemeni
+R: Freilach
+M: 2/4
+L: 1/16
+K: F
+C2
+|: "F"F8- | FCFG ^GAFC
+| "C"{^F}G8 | zG^FG ^GAB=B
+| "F"c2Bc B2A2 | TA2GA G2F2
+| =Bcc2 _edc2 | "C7"_B2{cB}A2 ^G2A2 |
+| "F"F8- | FCFG ^GAFC
+| "C"{^F}G8 | zG^FG "-> Coda"^GAB=B
+|1 "F"c2Bc B2A2 | "C7"A2G2 BAG2
+| "F"F8 | f8
+:|2 "F"c2Bc B2A2 | A2G2 G2F2 |
+| "A7"E2F2 ^G2A2 | A^GF2 FED2
+|| "Dm"z2DE F2^G2 | A2=B2 cBA2
+| =B2c6- | c8
+| d2c2 =B3A | ^GA=BA GFED
+| ^G2A2- A4- | A4 zA,=B,^C |
+| "Dm"D2DE F2^G2 | A2=B2 cBA2
+| ^c2d6- | d8
+| d2c=B cBA2 | ^GAG2 FED2
+| D8- | D4 zA,=B,^C ||
+|| "Dm"D2DE F2^G2 | A2=B2 cBA2
+| =B2c6 | "(A7)"zA^GA _B=Bc^c
+| "Dm"dc=BA cBA^G | =BA^GF GFED
+| ^G2A6- | A4 zA,=B,^C |
+| "Dm"D2DE F2^G2 | A2=B2 cBA2
+| ^c2d2- d4- | d8
+| d2c2 =B2A2 | A^GF2 FED2
+| D8- | D2D2 F2A2 ||
+|: "Dm"d2Ad c=BA2 | ^G2{AG}F2 FED2
+| ^G2A2- A4 | z2DF ADFA
+| d2c2 =B2A2 | A^GF FED
+| E2F2- F4 | z2D2 F2A2 |
+| d2Ad c=BA2 | A^GF2 "(D7)"FED2
+| "Gm"^F2G2- G4 | B8
+| "Dm"^GA=B2 AGF2 | "A7"A^GF2 FED2
+|1 "Dm"D8 | z2D2 F2A2
+:|2 "Dm"D4 _D4 | "C7"C4 "da Capo"z2 y8 |]
+"Coda"
+|| "F"c2Bc B2A2 | "C7"zc=Bc ^cd^de
+| "F"Hf4 "C7"Hc4 | "F"HF8 |]
+y8 y8 y8 y8 y8 y8 y8 y8
+
+
+
+
+
+X:276
+T: Sunrise, Sunset
+O:klezmer
+Z: John Chambers <jc@trillian.mit.edu>
+L:1/8
+M:3/4
+R:Waltz
+K:Gm
+|| "Gm"D2 G2 B2 | "D7"AG ^F2 A2 | "Gm"G6 | D6 \
+|  "Gm"D2 G2 B2 | "D7"AG ^F2 A2 | "Gm"(G6 | "G7"G6) |
+|  "Cm"G2 c2 e2 | "G7"dc =B2 d2 | "Cm"c6 | G6 \
+|  "A"A6 | "A7"A6 | "D"(B6 | "D7"B6) ||
+|| "Gm"D2 G2 B2 | "D7"AG ^F2 A2 | "Gm"G6 | D6 \
+|  "Gm"D2 G2 B2 | "D7"AG ^F2 A2 | "Gm"(G6 | "G7"G6) |
+|  "Cm"G2 c2 e2 | "G7"dc =B2 d2 | "Cm"c6 | "A7"^c6  | \
+|  "D"d6- | "D7"d6- | "D6"d6 | "D"[^FD][GE][AF][FD][GE][AF] ||
+|: "Gm"z2 [B2G] "Cm6"([c2A] | [c2A]) "Gm"[B2G] "D7"[A2^F] \
+|  "Gm"z2 [B2G] "Cm6"([c2A] | [c2A]) "Gm"[B2G] "D7"[A2^F] \
+|  "Gm"z2 [B2G] "Cm6"([c2A] | [c2A]) "Gm"[B2G] "Cm"[c2A] \
+|  "Gm"[d6B] | "G7"[=BG][cA][dB][BG][cA][dB] |
+|  "Cm"[e2c] [e2c] [e2c] | "F7"[ec][dB] [c2A] [e2c] | "Bb"[d6B] | "Gm"[B6G] \
+|  "Am"[c2A] [c2A] [c2A] | "D7"[cA][BG] [A2^F] [c2A] |1 "Gm"([B6G] | [B6G]) |2 "Gm"([G6G] | [G6G]) :|
+
+
+
+
+
+X:277
+T: To Life
+O:klezmer
+Z: 1998 John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/
+N:
+N: 64-bar contradance arrangement by John Chambers
+L: 1/4
+M: 4/4
+K: Dm
+A \
+|: "E7"fzze | "A7"dzz^c | "Dm"dAz2 | z2zA | "D"d_e2d | cB2A | "Gm"Bzz2 | "G7"zG_GF | "C7"Ec2B |
+| "F"A^GA2 | "Bb"DB2A | "Eb"G^FG2 |1 "Bb"zd2d | "Cm"_ed2e | "A"=e4- | e2zA :|2 "Cm"z_e2e | "A7"=e^d2e | "D"^f4- | f2z2 ||
+|: "Gm"d2 d2 | ^cd=cB | "Dm"A2A2 | ^GA=GF | "E7"E2E2 |1 "A7"EFG^G | "Dm"A4- | "D7"A2z2 :|2 "E7"FE^DE | "A7"A4- | A2zA ||
+|| "E7"fzze | "A7"dzz^c | "Dm"dAz2 | z2zA | "D"d_e2d | cB2A | "Gm"Bzz2 | "G7"zG_GF |
+| "C7"Ec2B | "F"A^GA2 | "Bb"DB2A | "Eb"G^FG2 | "Cm"z_e2d | "A7"^cHf2e | "Dm"d4- | d2z2 |]
+%%sep 5 5 50
+P: Bb instruments:
+K: Em
+B \
+|: "F7"gzzf | "B7"ezz^d | "Em"eBz2 | z2zB | "E"e=f2e | dc2B | "Am"czz2 | "A7"zA_AG | "D7"Fd2c |
+| "G"B^AB2 | "C"Ec2B | "F"A^GA2 |1 "C"ze2e | "Dm"=fe2f | "B"^f4- | f2zB :|2 "Dm"z=f2f | "B7"^f^e2f | "E"^g4- | g2z2 ||
+|: "Am"e2 e2 | ^de=dc | "Em"B2B2 | ^AB=AG | "F7"F2F2 |1 "B7"FGA^A | "Em"B4- | "E7"B2z2 :|2 "F7"GF^EF | "B7"B4- | B2zB ||
+|| "F7"gzzf | "B7"ezz^d | "Em"eBz2 | z2zB | "E"e=f2e | dc2B | "Am"czz2 | "A7"zA_AG |
+| "D7"Fd2c | "G"B^AB2 | "C"Ec2B | "F"A^GA2 | "Dm"z=f2e | "B7"^dHg2f | "Em"e4- | e2z2 |]
+
+
+
+
+
+X:278
+T:Sunrise, Sunset
+O:klezmer
+L:1/8
+M:3/4
+R:Waltz
+K:Am
+|| "Am"E2 A2 c2 | "E7"BA ^G2 B2 | "Am"A6 | E6 \
+|  "Am"E2 A2 c2 | "E7"BA ^G2 B2 | "Am"(A6 | "A7"A6) |
+|  "Dm"A2 d2 f2 | "A7"ed ^c2 e2 | "Dm"d6 | A6 \
+|  "B"B6 | "B7"B6 | "E"(c6 | "E7"c6) ||
+|| "Am"E2 A2 c2 | "E7"BA ^G2 B2 | "Am"A6 | E6 \
+|  "Am"E2 A2 c2 | "E7"BA ^G2 B2 | "Am"(A6 | "A7"A6) |
+|  "Dm"A2 d2 f2 | "A7"ed ^c2 e2 | "Dm"d6 | "B7"^d6  | \
+|  "E"e6- | "E7"e6- | "E6"e6 | "E"[^GE][AF][BG][GE][AF][BG] ||
+|: "Am"z2 [c2A] "Dm6"([d2B] | [d2B]) "Am"[c2A] "E7"[B2^G] \
+|  "Am"z2 [c2A] "Dm6"([d2B] | [d2B]) "Am"[c2A] "E7"[B2^G] \
+|  "Am"z2 [c2A] "Dm6"([d2B] | [d2B]) "Am"[c2A] "Dm"[d2B] \
+|  "Am"[e6c] | "A7"[^cA][dB][ec][cA][dB][ec] |
+|  "Dm"[f2d] [f2d] [f2d] | "G7"[fd][ec] [d2B] [f2d] | "C"[e6c] | "Am"[c6A] \
+|  "Bm"[d2B] [d2B] [d2B] | "E7"[dB][cA] [B2^G] [d2B] |1 "Am"([c6A] | [c6A]) |2 "Am"([A6A] | [A6A]) :|
+:1
+T: Patch Tanz
+M: 2/4
+L: 1/16
+K: Em
+| "Em"G4 GAAG | GAAG "B7"GFFE | "Em"G4 GAAG | "B7"GFFE "Em"E4 \
+| "Em"[G4B] [GB][Ac][Ac][GB] | [GB][Ac][Ac][GB] "B7"[GB][FA][FA][EG] | "Em"[G4B] [GB][Ac][Ac][GB] | "B7"[GB][FA][FA][EG] "Em"[E4G] ||
+|| "D7"ABcA "G"B4 | .[B2G] .[B2G] .[B2G] z2 | "D7"FGAG A4 | "D".[F2D] "A7".[G2E] "D".[A2F] z2 \
+| "D7"dcBA "G"B4 | .[B2G] .[B2G] .[B2G] z2 | "D7"FGAG A4 | "D".[F2D] "A7".[G2E] "D".[A2F] z2 ||
+|| "D7"DEF2 "G"GAB2 | "B7"AGF2 "Em"E4 | "G"GDDG "F"G=FFE | "Em"E8 \
+| "D7"DEF2 "G"GAB2 | dcB2 "Am"A4 | "G"GDDG "F"G=FFE | "Em"E8 |]
+
+
+
+
+
+X:279
+T: Hopak
+T: Kasatske
+O:klezmer
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+|: "A"a4 c2e2 | "E7"dcdB c2A2 | "A"E2A2 c2e2 | "E7"dcdB c2A2 | "A"aga2  c2e2 | "E7"dcdB c2A2 | "A"E2A2 c2e2 | "E7"edcB "A"A4 :| [K:D]
+|: "D"A2d2 f4 | "A7"efge "D"f4 | a2a2 "G"b2b2 | "A7"agfe "D"f2d2 | A2d2 f4 | "A7"efge "D"f4 | a2a2 "G"b2b2 | "A7"agfe "D"d4 :|
+
+
+
+
+
+X:283
+T: Hopak (Kasatske)
+O:klezmer
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|: "G"g4 B2d2 | "D7"cBcA B2G2 | "G"D2G2 B2d2 | "D7"cBcA B2G2 | "G"gfg2  B2d2 | "D7"cBcA B2G2 | "G"D2G2 B2d2 | "D7"dcBA "G"G4 :| [K:C]
+|: "C"G2c2 e4 | "G7"defd "C"e4 | g2g2 "F"a2a2 | "G7"gfed "C"e2c2 | G2c2 e4 | "G7"defd "C"e4 | g2g2 "F"a2a2 | "G7"gfed "C"c4 :|
+
+
+
+
+
+X:285
+T: Kasatske (Hopak)
+O:klezmer
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+|: "A"a4 c2e2 | "E7"dcdB c2A2 | "A"E2A2 c2e2 | "E7"dcdB c2A2 | "A"aga2  c2e2 | "E7"dcdB c2A2 | "A"E2A2 c2e2 | "E7"edcB "A"A4 :| [K:D]
+|: "D"A2d2 f4 | "A7"efge "D"f4 | a2a2 "G"b2b2 | "A7"agfe "D"f2d2 | A2d2 f4 | "A7"efge "D"f4 | a2a2 "G"b2b2 | "A7"agfe "D"d4 :|
+
+
+
+
+
+X:286
+T: Oi Tate
+O:klezmer
+Z: John Chambers <jc@trillian.mit.edu>
+B: Sapoznik "The Compleat Klezmer" p. 64
+M: 2/4
+L: 1/16
+K: Gm
+|: "D"^F3E D2D2 | "Cm"EDCE "D"D4 | DE^FG ABAG | A3G ^FEDE \
+|  "D"^F3E D2D2 | "Cm"EDCE "D"D4 | DE^FG "Cm"AGFE | "D"^FED2- D4 :|
+|: "D"^FGA2- A2G2 | "Cm"^FGFE "D"D4 | ^FGFG "Gm"B2AG | "D"^FGA2- AGFE \
+|  "D"^FGA2- A2G2 | "Cm"^FGFE "D"D4 | "Cm"CEEC AG^FE | "D"^FED2- D4 :|
+|: "Gm"GGGG B2AG | "D"AAAA A4 | DDDD  "Cm"G2^FE | "D"DE^F2- F4 \
+|  "Cm"CCCC E2DC | EEEE G2^FE | "D"^FGAG "Cm"F3E | "D"~E2D2- D4 :|
+|: "Gm"GAB2- B2B2 | "Cm"c2c2 "Gm"B4 | "Cm"c4 "Gm"G2G2 | "D7"BcBA "Gm"G4 \
+|  "D"^FGA2- A2c2 | BAG^F A3G | ^FGAG "Cm"F3E | "D"~E2D2- D4 :|
+
+
+
+
+
+X:287
+T: Yoshke (Tanz, Tanz, Yideleh)
+O:klezmer
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+|  "E"EF^GA BcBA | ^G2GE "Am"A4 | "E"B2B2 dcBA | ^G2GE "Am"A4 \
+|  "E"EF^GA BcBA | ^G2GE "Am"A4 | "E"^G2G2 "Dm"FEFD | "E"E4 z2 |]
+[| "G"[G2B] \
+|  "C"cde4 e2 | "G"dedB G4 | "G7"GABc defd | "C"e3f "E"edcB \
+|  "Am"ABc4 c2 | "E"BcB^G E4 | EF^GA BcBG | "Am"A4 z2 |]
+[| ^GF \
+|  "E"E2^G2 E2G2 | "Am"A2A2 dcBA | "E"^G2G2 "Am"AGAc | "E"B2B2 ~e4 \
+|  "E"E2^G2 E2G2 | "Am"A2A2 dcBA | "E"^G2G2 "Dm"FEFD | "E"E4 z2 |]
+[| "G"[G2B] \
+|  "C"cde4 e2 | "G"dedB G4 | "G7"GABc defd | "C"e3f "E"edcB \
+|  "Am"ABc4 c2 | "E"BcB^G E4 | EF^GA BcBG | "Am"A4 z2 |]
+
+
+
+
+
+X:291
+T: Kasatske
+T: Hopak
+O:klezmer
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+|: "A"a4 c2e2 | "E7"dcdB c2A2 | "A"E2A2 c2e2 | "E7"dcdB c2A2 | "A"aga2  c2e2 | "E7"dcdB c2A2 | "A"E2A2 c2e2 | "E7"edcB "A"A4 :| [K:D]
+|: "D"A2d2 f4 | "A7"efge "D"f4 | a2a2 "G"b2b2 | "A7"agfe "D"f2d2 | A2d2 f4 | "A7"efge "D"f4 | a2a2 "G"b2b2 | "A7"agfe "D"d4 :|
+
+
+
+
+
+X:295
+T: David Melech Yisrael [in D]
+O:klezmer
+M: C
+L: 1/8
+W: David, king of Israel, lives and is strong
+K: D
+[| "D"A4 | F4 | AA AA | F4 \
+w: Da-vid me-lech Yis-ra-el,
+| A4 "G"B4 | "D"A2 "A"G2 | "D"(F2 "A"E2) ||
+w: chai, chai ve-ka-yam
+|: "D"DD "A"EE | "D"DD "A"E2 | "D"D2 "G"G2 |1 "A"FE "D"F2 :|2 "A"FE "D"D2 |]
+w: Da-vid me-lech Yis-ra-el, chai, chai ve-ka-yam ve-ka-yam
+
+
+
+
+
+X:296
+T: David Melech Yisrael [in C]
+O:klezmer
+M: C
+L: 1/8
+W: David, king of Israel, lives and is strong
+K: C
+[| "C"G4 | E4 | GG GG | E4 \
+w: Da-vid me-lech Yis-ra-el,
+| G4 "F"A4 | "C"G2 "G"F2 | "C"(E2 "G"D2) ||
+w: chai, chai ve-ka-yam
+|: "C"CC "G"DD | "C"CC "G"D2 | "C"C2 "F"F2 |1 "G"ED "C"E2 :|2 "G"ED "C"C2 |]
+w: Da-vid me-lech Yis-ra-el, chai, chai ve-ka-yam ve-ka-yam
+%%sep 3 5 200
+
+
+
+
+
+X:301
+T:Donna Donna
+O:klezmer
+S:Digital Tradition, donadona
+H:Original Yiddish words by Aaron Zeitlin and Shalom Secunda;
+H:English translation by Arthur Kevess and Teddi Schwartz
+N:Author: Shalom Secunda
+B:From Joan Baez Songbook
+D:Sung by Joan Baez and Chad Mitchell
+Z:dt:donadona
+M:4/4
+L:1/8
+Q:1/4=100
+W:On a wagon bound for market
+W:There's a calf with a mournful eye.
+W:High above him there's a swallow
+W:Winging swiftly through the sky.
+W:
+W:How the winds are laughing
+W:They laugh with all their might
+W:Laugh and laugh the whole day through
+W:And half the summer's night.
+W:
+W:Dona dona dona dona
+W:Dona dona dona down
+W:Dona dona dona dona
+W:Dona dona dona down
+W:
+W:"Stop complaining," said the farmer,
+W:"Who told you a calf to be"
+W:Why don't you have wings to fly away
+W:Like the swallow so proud and free?"
+W:
+W:Calves are easily bound and slaughtered
+W:Never knowing the reason why.
+W:But whoever treasures freedom,
+W:Like the swallow must learn to fly
+K:G
+B2E2 F-GA2|B2E2 F-GA2|z2BE c2BA|G2A2 B4|\
+B2E2 F-GA2|B2E2 F-GA2|z2BE c2B-A|G2F2 E4|
+zd2d d2c2|B-AG4zG|A3A d2c2|B8|\
+zd2d d3c|B2A2 G3A|B3A GF3|E8|
+FFFF A3A|G-AB4z2|AAAA d2d-c|B8|\
+FFFF A3A|G-AB6|BFGA G2F2|E6z2||
+
+
+
+
+

@@ -1,0 +1,14 @@
+X: 1
+T: Crossing the Minch
+T: McNabb's Hornpipe
+R: hornpipe, reel
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+"^A"|: A>d \
+| "D"f>A ~A2 f2 e>f | "G"g>B ~B2 g2 a>g | "D"f>A ~A2 "Bm"f2 e>f | "Em"g>B e>d "A7"d>c d>e |
+| "D"f>A ~A2 f2 e>f | "G"g>B ~B2 g2 a>g | "D"fg a>f "A7"g>e c>d | "D"e2 d2 d2 :|
+"^B"|: A>d \
+| "D"f>A ~A2 "D7"f>g a>f | "G"g>B ~B2 g>a a>g | "D"f>A ~A2 "Bm"f>g a>f | "Em"g>B e>d "A7"d>c d>e |
+| "D"f>A ~A2 "D7"f>g a>f | "G"g>B ~B2 g2 a>g | "D"fg a>f "A7"g>e c>d | "D"e2 d2 d2 :|

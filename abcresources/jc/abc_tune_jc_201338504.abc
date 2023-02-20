@@ -1,0 +1,211 @@
+
+X: 0
+T: Tom Morely's Slow Jam set [3 pages]
+K: none
+
+
+X: 1
+T: Atholl Highlanders
+C: trad. Scottish jig-time march
+O: arr. by Tom Morley
+R: jig, march
+S: Fiddle Hell Online 2021-11-3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Amix	% The handout has A major, but there are no G sharps.
+"^A"|:\
+"A"ve2e e(cA) | ecA Bcd |\
+[1,3 "A"e2e e2e e(cA) | "E"Bcd cBA :|\
+[2,4 "A"eae "D"(fed) | "E"cdB A3 :|
+"^B"|:\
+"A"vAce Ace | "D"Adf Adf |\
+[1,3 "A"Ace Ace | "E"Bcd (c2B) :|\
+[2,4 "A"eae "D"(fed) | "E"cdB A3 :|
+"^C"|:\
+"A"va2a aec | ua2a aec |\
+[1,3 va2a a(ec) Bcd (cBA) :|\
+[2,4 "A"eae "D"(fed) | "E"cdB A3 :|
+"^D"|:\
+"A"vc2c c(BA) | "D"d2(ud f)veud |\
+[1,3 "A"c2c c(BA) | "G"=G2(uG B)AG :|\
+[2,4 "A"eae "D"(fed) | "E"cdB A3 :|
+
+
+X: 2
+T: Calliope House   [D]
+C: Dave Richardson
+N: Originally in E, which works well on fiddle, but others might prefer D.
+N: Calliope House is a folk center in Pittsburgh.
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: zA \
+| "D"dAA fAA | "A7"eAA "D"fAA | "Em"Bee e2d | "A"efd BdB || "D"ABA A2F | A2B d2e |
+|1 "G"faf fed | "A7"e3- e :|2 "G"faf "A7"edB | "D"d3- d |: fg | "D"a3 faa | "A7"eaa "D"[fd]aa | "G"g3 fgf |
+| "A7"efe edB || "D"ABA A2F | A2B d2e |1 "G"faf fed | "A7"e3- e :|2 "G"faf "A7"edB | "D"d3- d |]
+
+
+X: 3
+T: da Slockit Light
+C: Tom Anderson
+O: Shetland slow air
+Z: arr. by Tom Morley
+R: air
+S: Fiddle Hell Online 2021-11-04
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+(uFE) | "D"vD3F A2d2 | "D"(fe) (d<c) d2A2 |\
+[1,3 "G"B2d2 "D/F#"A2d2 | "Em"BAGF "A"EG :|\
+[2,4 "G"B2G2 "A"AGFE | "G"D2 "A"(D>E) "D"D2  :|
+|: ug2 |: "D"vf2a2 "A"e2c2 | "D(Bm)"d3e dcBA |\
+[1,3 "D"f2a2 "E"e2^g2 | "A"a3b agfe :|\
+[2,4 "G"B2G2 "A"AGFE | "G"D2 "A"(D>E) "D"D2  :|
+
+
+X: 4
+T: Drowsy Maggie
+C: trad.
+N: arr. by Tom Morley (simplified by JC)
+R: reel
+S: Fiddle Hell Online 2021-11-04
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Em
+ D !segno!|\
+"Em"vE2(uBE) dEBE | E2(BE) "D"A(FDF) | "Em"E2(BE) dEBE | "C"(BA)Bc (dA)F :: A | "D"vd2fd "A"c2e(uc |
+"D"de)fg afge |1 d2fd "A"c2e(uc | "G"BA)Bc dAF :|2 afge fde(uc | "D"BA)Bc DAFD !segno!:|["End" "Em"E8 |]
+
+
+X: 5
+T: Egan's Polka
+T: the Kerry Polka
+C: trad. Irish
+O: arr. by Tom Morley
+R: polka
+S: Fiddle Hell Online 2021-11-04
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+|:\
+"D"vfA BA | fA BA | d2 e>f | "G"ued "A"(BA) ||\
+"D"vfA BA | fA BA | "G"d2 "A"e>f | "D"ed d2 :|
+|:\
+"D"vfa f>e | "G"ed BA | "D"d2 e>f | "A"ued (BA) ||\
+"D" fa f>e | "G"ed BA | "D"d2 "A"e>f | "A"ed d2 :|
+
+
+X: 6
+T: Flowers of Edinburgh
+C: James Oswald
+O: arr. by Tom Morley
+R: reel
+S: Fiddle Hell Online 2021-11-04
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+(uGE) |\
+"G"vD2(DE) G2(GA) | BGB(ud cB)AG | "D"FGF(E DE)FG | "D"AFd(F "C"E2)vGuE || "G"D2DE G2GA |
+BGB(ud "C"ef)ge | "D"dcBA GFGA | "G"B2G2 G2 :: (uBd) | "G"vg2g2 gbag | "D"f2f2 fagf |
+"C"e2(ef) gfed | "Em"B2e2 e2(ge) || "G"dBGB d2d2 | "C"ede(uf g2)fe | "D"dcBA GFGA | "G"B2G2 G2 :|
+
+
+X: 7
+T: Garry Owen
+C: trad.
+O: arr. by Tom Morley
+R: jig, march
+S: Fiddle Hell Online 2021-11-04
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+vguf |\
+"G"edc BAG | (BcB) Bgf | edc BAG | "D"(ABA) Agf |\
+"G"edc BAG | (BcB) (B2d) | def gdB | "D"(ABA) A :|
+|: Bc |\
+"G"(vd2B) (d2B) | (d2B) dgf | "C"(e2c) (e2c) | (e2c) (e2f) |\
+"G"vg2ua vb2ua | gfe (d2B) | def gdB | "D"(ABA) ["most"A :|["last" "G"G :|
+
+
+X: 8
+T: Harvest Home Hornpipe
+C: trad.
+O: arr. by Tom Morley
+R: hornpipe, reel
+S: Fiddle Hell Online 2021-11-04
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+(uAF) |\
+"D"vDAFA DAFA | "D"vd(uefe) vd(ucBA) |\
+"A"eAfA gAfA | (3(vefe) (3(dcB) (3(ABA) (3(GFE) ||\
+"D"DAFA DAFA |
+"D"vd(uefe) d(cBA) |\
+"A"eAfA "A7"gece | "D"d2f2 d2 :: (ucd) |\
+"A"(veA) (3uAvAuA "DD"(vfA) (3uAAA | "A"gAfA (veA) (3uAAA |
+"A"eAfA gAfA | (3(vefe) (3(dcB) (3(ABA) (3(GFE) ||\
+"D"DAFA DAFA | "D"vd(uefe) d(cBA) |\
+"A"eAfA "A7"gece | "D"d2f2 d2 :|
+
+
+X: 9
+T: Haste to the Wedding
+C: trad.
+O: arr. by Tom Morley
+R: jig
+S: Fiddle Hell Online 2021-11-04
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+uA |\
+"D"vAFA Agf | "G"ede fdB | "D"AFA (AGF) | "A"GFG (EFG) |\
+"D" AFA Agf | "G"ede fdB | "D"A2ug "A"faf | "D"(uded) d2 :|
+|: a |\
+"D"vafa afa | "G"bgb bgb | "D"afa (agf) | "A"gfg (efg) |\
+"D"a3 f3 | "G"ede fdB | "D"A2ug "A"faf | "D"(uded) d2 :|
+
+
+X: 10
+T: Swinging on a Gate
+C: trad. Irish reel
+O: arr. by Tom Morley
+R: reel
+S: Fiddle Hell Online 2021-11-04
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+vBd | "G"vgedB G2(AB) | "Am"cABG A(GEG) | "G/B"DG (3(Bcd) g2fg | "C"ea (ag) "D"fd || (ef) | "G" gedB G2(AB) |
+"Am"cABG A(GEG) | "C"cABG A(GEG) | "D"DG (GF) "G"G2 :: (3(vBcd) | "G"vg3(a "G/F#"b)ga(uf | "Em"gf)ed B2(uAG) |
+"Am"vEAA(B cB)AG | "C"EAAB "D"cd || ef | "G"gfg(a "G/F#"bg)af | "Em"gfed B2(AB) | "Am"cABG A(GEG) | "D"DG (GF) "G"G2 :|
+
+
+X: 11
+T: the Butterfly
+C: trad. Tommy Potts?
+O: arr. by Tom Morley
+R: slip-jig
+S: Fiddle Hell Online 2021-11-04
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Em
+|:\
+"Em"vB2(E G2)(E "D"F3) | "Em"uB2(E G2)(E "D"F)ED |\
+"Em"vB2(E G2)(E "D"F3) | "Cmaj7"(uB2d) d2(B "D"A)FD ::\
+"Cmaj7"(vB2c) (e2f) g3 | (uB2c) (g2e) "D"(dBA) |
+"Cmaj7"(B2c) (e2f) (g2a) | "D"(ub2a) (g2e) (dBA) ::\
+"G"vB3 (B2A) "D"G2(A | "G"B3) BAB "D"(dBA) |\
+"G"vB3 (B2A) "D"G2(uA | "Em"B2d) (g2e) "D"(dBA) :|
+P: final ending
+"Em"B2(E G2)(E "D"HF3) |]
+

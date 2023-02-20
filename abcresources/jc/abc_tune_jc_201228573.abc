@@ -1,0 +1,17 @@
+X: 113	% 28
+T: If I Had A Bonnie Bonnet Or Spanish Waltz
+T: (New Way)
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.11 #3
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+V: 1 name=28
+MDMD |\
+G3 (FGA) | B2 G2 (B,C) | D2 E2 B,2 | D2 C2 A,2 |\
+A3 (GAB) | cBAGFE | D2 (F2 E2) | D4 MDMD |\
+G3 (FGA) | B2 G2 (B,C) | D2 E2 B,2 | D2 C2 A,2 |
+A3 (GAB) | cBAGFE | D2 (E2 F2) | G6 :|\
+"^^"[e2c2] [ec][ec][ec][ec] | [d2F2] [dF][dF][dF][dF] | [c2E2] [cE][cE][cF][cF] | [B6G6] |\
+[A3F3] (GAB) | c2 A2 (FE) | D2 E2 F2 | [G4B,4] |]

@@ -1,0 +1,108 @@
+X: 1
+A:Adam de la Halle
+T:Entre Adan et Hankier/Chief bienséans/Aptatur
+M:3/4
+L:1/4
+Q:1/4=130
+K:F Lydian
+%
+V:1 clef=treble-8 middle=B,
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+%%MIDI program 1       72 piccolo
+%%MIDI program 2       74 recorder
+%%MIDI program 3       70 bassoon
+%%sysstaffsep    28.0pt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% triplum %%%%%%%%%%%%%%%%%%%%%%%%%%%
+[V:1]
+[K:C] F3| (E/D/)  C2|C3 | B, (CD)| C3 |z3|
+w:  Entre       A-*   dan et   Ha- ni-*kiet,
+    D  C B,/A,/| B,  G, A,| C2 z| F  E2 |
+w: Ha-nart**          et Gar-te- lot,  A grant
+   F (E/D/  C)| B, C2 | F,3 | G,3 | A,2 z| C
+w: es-      ba-*noi qui ot   Leur  re-   vel  Quant
+   D  E | F2   F  |  E   D (E/F/)| G/F/
+w: il ho-que-tent, Plus tost      cla-*   pe-tent
+    E   D | E2 z | F (E/D/) C | B,2 z | C
+w: Que Fre-tel     Li       da-*moi- sel    Mais
+     F,  G,| A, B,2| C    B,  A,| G,    A,
+w: qu'il ai-ent  a- vant bai-sié Saint Tor-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   G, F,3 |z3| F   F   E | D    C (B,/C/)|
+w:tu- rel      Et si chan-tent tous      sans*
+   D3 |E/ D/   C  B,| C3 |z3| F (F/E/D) | C
+w: li-     vre Viès et no- vel     Gon-     te-** los
+   (A,B,)| C  C2 |z3| E   D  C | D   C  B, |
+w: fait*  l'i-vre    Si pro-pre-ment et si
+    C   D   E |  F  F   E | D2 z | C
+w: bel Que sanle a son mu-  sel  Qu'il
+     D  E | F (E/D/) C | B,2 z | C A,2 |
+w: doi-ve traire       à* se fin.   Et quant
+   B, (CD) | F (E/D/C) | C2 z | C C2 |  B,
+w: il font* li        mo-**  lin    En-san-le
+(C/B,/A,)| C      C2 | F, A,2 | A, B,2 | C
+w:     tout**  quatre, Et  au  plas-tre ba-  tre
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  (DE)| F (E/D/C)|(FE2)|  F (E/D/C)|(D/C/)
+w: En* ho-       que-** tant* Sont      si**        sé-*
+  (CB,)| C3 | z3 | E E/4D/4C/ D | E2  F |
+w: dui-*sant,      Si  gai,** si joi-ant
+   F2 (E/D/)| C3| B, (DE) |  C  (C/B,/A,)|
+w: Et        si*   ri-ant Chil* iiij        en-
+    C2 z | D (E/F/G) |F D2 | F3 ||
+w: fant   Que       nu-** le gent tant.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% duplum %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[V:2]
+[K:F] C3 |C/4B,/4A,/ G,2 |(F,2G,)|(F,/E,/) D,2|
+w:  Chief   bien-**  sé-   ans,*         On-**
+   F,3| F, G,2 | A,3 | z3 | C    (CD) | C
+w: des fre-ma-   ins,     Plain front* re-
+    A,2| F,3 | F, (B,/A,/G,)| F,3 | z3 |[K:C](A,/=B,/)
+w: lui-  sans  et        pa-**    rans,                 Res-
+(A,/G,/F,)|A, B,2| C3 | z3 | D (F/E/D)| C
+w:     gars**   a-trai-ans     Vairs      hu-**  me-
+   B,2 |C3 | D  (DE)| F3 | E   F E/D/| C3 | z3|
+w: li-  ans, Ca-til-*lans  et fri-**        ans.
+    C3 | B, (A,B,)| [K:F] C2 C/4B,/4A,/| G,3|
+w: Nés  par  me-*  sure        au**      vi-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  (A,2B,)| A, G,2 | F,3 |z3| F, (F,G,)|(F,/E,/)
+w: aire*   af-fé-   rans,   Bou- che-*        te*
+    D,2 | F,3 | F,  G,2 |A,3| D, E,2| F,3 |z3|
+w: rians, Ver- meil-le-  te,  a  dens blans.
+    G, (B,/A,/G,)| F,  E,2 | F,3 | (G,/F,/E,2)|
+w: Gor-       ge**     bien nais-sans,         Col**
+   F,3|(G,A,2)| C3 |z3| F  (FE)| D
+w: re-  ploi-*  ans,   Pis dur*  et
+    E2| F3 |   F  E2| D3 |
+w: poi-gnans, Bou-ti-ne
+    C  B,2 | C3 |z3| F,  F,2 |
+w: sou-le-  vans,    Ma-nière
+   A, G,2| F,3 | F,  G,2 |
+w: a- ve- nans,  Et plus
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   A,3| A, B,2| C3 |
+w: li re-ma-nans
+    D  (DC) | D E2 | F3 |
+w: Ont fait* tant* den-
+(E/D/C)    D |  D   (ED) |
+w:     chans** Que pris est*
+(C/D/) (CB,) |C3 ||
+w: A-*** dans.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% tenor %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[V:3]
+[K:F] F,3 | C,3 | F,3 |(G,  A,2|F,3)| z3 |
+w:    Aptatur.
+      D,3 | E,3 | F,3 | F, (A,2|C3) | z3 |
+      C3  | B,3 | A,3 |(A,  G,2|F,3)| z3 |
+      G,3 | A,3 |(F,3 | G,)(G,2|F,3)| z3 |
+%%%%%
+      F,3 | C,3 |(F,3 | G,  A,2|F,3)| z3 |
+      D,3 | E,3 | F,3 |(F,  A,2|C3) | z3 |
+      C3  | B,3 | A,3 |(A,  G,2|F,3)| z3 |
+      G,3 | A,3 |(F,3 | G,)(G,2|F,3)| z3 |
+%%%%%
+      F,3 | C,3 |(F,3 | G,  A,2|F,3)| z3 |
+      D,3 | E,3 | F,3 |(F,  A,2|C3) | z3 |
+      C3  | B,3 | A,3 |(A,  G,2|F,3)| z3 |
+      G,3 | A,3 | F,2 z | G,3 | G,3 | F,3 ||

@@ -1,0 +1,48 @@
+
+X: 1
+T: la Donna 'e Mobile    [F]
+C: Giuseppe Verdi
+R: waltz, mazurka
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+%%continueall 1
+[|\
+"F"A2 A2 A2 | "C7"cB G4 | G2 G2 G2 | "F"(BA) F4 |
+w: La Don-na~'e Mo-bi-le qual piu ma'al ven -to.
+A2 G2 F2 | "C7"(FE) E4 | G2 F2 D2 | "F"(DC) C4 ||
+w: Mu-ta D'ac-cent -to E di pen-sie -ro.
+"F"A2 A2 A2 | "C7"cB G4 | G2 G2 G2 | "F"(BA) F4 |
+w: Sem-pre un~a-mo-bi-le Leg-gi'a-dro vi -so
+A2 G2 F2 | "C7"(FE) E4 | G2 F2 D2 | "F"(DC) C4 ||
+w: In pian-to~in Ri -so e men-zo-gne -ro
+"G7"(GA) G2 G2 | "C"c2 G4 | "A7"(AB) A2 A2 | "Dm"d2 A4 |
+w: La* Don-na~'e Mo-bil qual* piu' ma'al ven-to.
+"C7"(cd) c2 c2 | "F"d4 c2 | "C7"B2 A2 G2 | "F"F4 (Cc) ||
+w: Mu -ta D'ac-cent-to E di pen-sier.**
+"C7"c4 (Cc) | "F"c4 (Cc) | "C7"B2 A2 G2 | F6 |
+w: | | E di pen-sier.
+"C7"c6- | "F"c6- | "C7"c6- | "F"c4 ^c2 | "Gm"(ed) "C7"(cB) (AG) | "F"F2 F4 |]
+w:E-e-e-e -e* di* pen-*sier.*
+
+%%sep 1 1 500
+
+X: 1
+T: la Donna 'e Mobile    [G]
+C: Giuseppe Verdi
+R: waltz, mazurka
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+%%continueall 0
+[|\
+"G"B2 B2 B2 | "D7"dc A4 | A2 A2 A2 | "G"(cB) G4 |\
+B2 A2 G2 | "D7"(GF) F4 | A2 G2 E2 | "G"(ED) D4 ||
+"G"B2 B2 B2 | "D7"dc A4 | A2 A2 A2 | "G"(cB) G4 |\
+B2 A2 G2 | "D7"(GF) F4 | A2 G2 E2 | "G"(ED) D4 ||
+"A7"(AB) A2 A2 | "D"d2 A4 | "B7"(Bc) B2 B2 | "Em"e2 B4 |\
+"D7"(de) d2 d2 | "G"e4 d2 | "D7"c2 B2 A2 | "G"G4 (Dd) ||
+"D7"d4 (Dd) | "G"d4 (Dd) | "D7"c2 B2 A2 | G6 |\
+"D7"d6- | "G"d6- | "D7"d6- | "G"d4 ^d2 | "Am"(fe) "D7"(dc) (BA) | "G"G2 G4 |]

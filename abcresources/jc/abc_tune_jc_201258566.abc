@@ -1,0 +1,72 @@
+
+X: 1
+T: The Chimes of Dunkirk  [D]
+O: England
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|: A | "D"d>e dc "G"B3 d | "Em"e>f ed "A"c3 c | "Bm"dc BA "E7"^GE "A"Ad | c2 "E7"B2 "A"A3 :|
+|: e | "D"f2 f2  "A"e3 f | "A7"g2 g2 "D"f3 a | "G"ba bc' | "D"d'c'/b/ ag | f2 "A7"e2 "D"d3 :|
+
+%%sep 1 1 400
+
+
+X: 1
+T: The Chimes of Dunkirk  [G]
+O: England
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+|: D | "G"G>A GF "C"E3 G | "Am"A>B AG "D"F3 F | "Em"GF ED "G7"^CA, "D"DG | F2 "A7"E2 "D"D3 :|
+|: A | "G"B2 B2  "D"A3 B | "D7"c2 c2 "G"B3 d | "C"ed ef | "G"gf/e/ dc | B2 "D7"A2 "G"G3 :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Christchurch Bells  [C]
+N: This tune may be played as a three-part round
+R: march
+O: 1686
+B: J.Barlow p.57 #222; Barnes
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+V: 1
+[| "C"c3c  c2c2 |    c2c2     c2e2 | "F"d2c2     B2A2 | "G"G3G  G2G2 "I"|\
+   "C"E2G2 C2G2 | "F"c2F2 "G7"G2gf | "F"e2a2 "G7"def2 | "C"He3d c4  |]
+V: 2
+[| "C"e3e  e2e2 |    e2e2     e2g2 | "F"f2ef     d2c2 | "G"d2G2 d2d2 |\
+   "C"e2d2 e2d2 | "F"e2d2 "G7"d2cB | "F"c2A2 "G7"d2B2 | "C"Hc3d e4  |]
+V: 3
+[| "C"gggg g2gg |    g2gg     g2G2 | "F"A3A      B2c2 | "G"B6     AB |\
+   "C"c2B2 c2B2 | "F"c2d2 "G7"B2AG | "F"A2F2 "G7"G3G  | "C"H[c6C6]z2|]
+
+%%sep 1 1 400
+
+
+X: 1
+T: Christchurch Bells  [D]
+N: This tune may be played as a three-part round
+R: march
+O: 1686
+B: J.Barlow p.57 #222; Barnes
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+V: 1
+[| "D"d3d  d2d2 |    d2d2     d2f2 | "G"e2d2     c2B2 | "A"A3A  A2A2 "I"|\
+   "D"F2A2 D2A2 | "G"d2G2 "A7"A2ag | "G"f2b2 "A7"efg2 | "D"Hf3e d4  |]
+V: 2
+[| "D"f3f  f2f2 |   f2f2      f2a2 | "G"g2fg     e2d2 | "A"e2A2 e2e2 |\
+   "D"f2e2 f2e2 | "G"f2e2 "A7"e2dc | "G"d2B2 "A7"e2c2 | "D"Hd3e f4  |]
+V: 3
+[| "D"aaaa a2aa |   a2aa      a2A2 | "G"B3B      c2d2 | "A"c6     Bc |\
+   "D"d2c2 d2c2 | "G"d2e2 "A7"c2BA | "G"B2G2 "A7"A3A  | "D"H[d6D6]z2|]

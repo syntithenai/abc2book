@@ -1,0 +1,52 @@
+X: 161
+T: the Happy Farmer
+C: Robert Schumann
+%R: air, march
+N: This is version 2, for ABC software that understands voice overlays.
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F
+V: 1
+V: 2
+V: 3 clef=bass middle=D
+V: 4 clef=bass middle=D
+%%score (1 2) (3 4)
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] C | F3 A c3 F | B d f d c3 A | B G C B
+[V:2] C | C3 F F3 F | F F F F F3 F | E C C E
+w: 1.~Oh! what can with our flow'r-y plains com-pare,       In all their match-less
+w: 2.~The bright green fields, the beau-teous gold-en corn, The birds so sweet-ly
+w: 3.~We sing sweet songs and join the mer-ry dance,        And joy-ful-ness and
+%
+[V:3] C | A3 c A3 c | d d d B A3 c | c c G G
+[V:4] C | F3 F F3 A | B B B B F3 F | G E E C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] A F C A | E2  D2  C2 zC | F3 A c3 F |
+[V:2] F C C C | C2 =B,2 C2 zC | C3 F F3 F |
+w: beau-ty that's so bright and fair,   What gild-ed halls can
+w: sing-ing in the ear-ly morn,         Make bright our task and
+w: pleas-ure doth each heart en-trance, Till night's dark man-tle
+%
+[V:3] F A A c | G2 F2  E2 zC | A3 c A3 c |
+[V:4] F F F F | G2 G,2 C2 zC | F3 F F3 A |
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] B d f d c3 A | B G C B A F C A |
+[V:2] F F F F F3 F | E C C E F C C C |
+w: ri-val na-ture's bow'rs,  'Neath which we gai-ly pass a-way the
+w: cheeri-ly through the day  Doth pass on swift-ly fleet-ing wings the
+w: clos-ing o-ver day,        Bids each with light-some heart a-way to
+%
+[V:3] d d d B A3 c | c c G G F A A c |
+[V:4] B B B B F3 F | G E E C F F F F |
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] ["1st and 2nd verses"E2  D2  C2 zC | B3 A G3 C | B A G  F  G2 z :|["3rd verse only"G2 E2 F3 |]
+[V:2]                      C2 =B,2 C2 zC | E3 F C3 C | C C C =B, C2 z :|                 D2 C2 C3 |]
+w: even-ing hours, When work well done hath pleas-ure fair-ly won? | ~ ~ ~ |
+w: hours a-way,   'Till close of day brings pleas-ure in-to play!  | rest, a-way! |
+%
+[V:3] G2 F2  E2 xz | z8        | z4      z2 z :| B2  B2 A3 |]
+[V:4] G2 G,2 C2 zC | G3 F E3 C | G F E D E2 z :| B,2 C2 F3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

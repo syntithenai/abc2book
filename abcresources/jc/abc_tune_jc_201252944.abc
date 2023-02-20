@@ -1,0 +1,22 @@
+X: 1
+T:The Black Bird
+S:KMM1 p41, via EF
+M:4/4
+L:1/4
+K:D
+D/2|"G"B"C"=c/2(3d/4c/4B/4 "A7"AB/2^c/2|\
+"D"d/2(3e/4d/4c/4d/2A/2 (3"A7"G/4A/4G/4F/2"(D"D3/4"A7)"E/4|"D"F/2G/2A/2B/2 "C"=c3/4A/4G/2A/2|"G"G/2(3A/4G/4F/4D/2D/2 "D"
+P:pause
+D3/2D/2|"G"B(3B/4=c/4B/4G/2 "A7"A3/4^G/4A/4B/4c/4A/4|\
+"D"d/2(3e/4d/4c/4d/4c/4A/4F/4 "G"G/4A/4G/4F/4"D"D3/4"(A7)"E/4|
+"D"F/2G/2A/2f/4e/4 "G"d3/4c/4"(D)"A/4G/4F/4A/4|\
+"G"G/4A/4G/4F/4"(D"D/2"G)"D/2 "D"
+P:pause
+D3/2"A7"A/2|"D"d3/4e/4f/2g/2 "D/f+"a3/4g/4f/2a/2|\
+"G"g/2(3a/4g/4f/4g/2a/2 F3/4"A7"g/4a/4g/4f/2"(D"d/2"A7)"A/2|"D"d3/4e/4f/2g/2 "D/f+"a3/4g/4f/2a/2|"G"g/2a/8g/8f/8e/8"A7"d/2d/2 "D"
+P:pause
+F3/2(3"A7"e/4f/4g/4|"D"a3/4g/4f/2a/2 "G"gf/2e/2|"D"d/2(3e/4d/4c/4d/2e/2
+P:pause
+=f"A7"^f3/4e/4|"D"d3/4c/4A/2F/2 "G"G3/4B/4A/2G/2|"D"F/2D/2"G"D/2D/2 "D"
+P:pause
+D3/2||

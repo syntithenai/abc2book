@@ -1,0 +1,26 @@
+X: 1
+T: Cheshire Alley
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.290
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Is the key signature right for this tune? (Phrygian scales weren't common in the British Isles in the 18th century.)
+M: 6/4
+L: 1/4
+K: Ephr
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B |\
+e2f g>fe | d2c B2B/c/ | d2d d2c | B3- B2B/c/ |\
+d2d d2c/B/ | A2A A>BA | G2G (GB)A | G3- G2 |]
+G |\
+G2G GBG | G3- G2B | B2B e2g | ^d3 g3 |\
+(dB)c A2^G | A3 g3 | fge e2^d | e3- e2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first man cast off behind the second man, and turn his Partner once round; The first woman
+%% doing the same with the second man: The first cu. being in the second cu. place, go the double Figure
+%% through the 3d. cu. and turn each other.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

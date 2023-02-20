@@ -1,0 +1,19 @@
+X: 17
+T: We're a' noddin'
+R: march
+B: RSCDS Graded 1 #17
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Original had repeat on 2nd part, but bars numbered for 2x16 bars.
+M: C
+L: 1/8
+%--------------------
+K: G
+[GB,][AC] \
+| "G"[B4D4] [A2C2][G2B,2] | "D7"[A2D2][A2D2] [BD4]AGA \
+| "G"[B4D4] [A2C2][G2B,2] | "C"BA"D7"GF "G"[G2D2] :|
+[BG][cA] \
+| "G"[d2B][d2B] [d2B]"C"[ge]>[ec] | "G"[d2B][d2B] [d2B][BG][cA] \
+| [d2B][d2B] "C"edcB | cB"A7"AG "D"F2 ||
+[dB][cA] \
+| "G"[B2G][BG][cA] [d2B]"C"[ge][ec] | "G"[d2B][d2B] [d2B][BG][cA] \
+| "G"[d2B2]"F"[d2A2] "E7"edcB | "Am"cBAG "D7"[A2F2C2] :|

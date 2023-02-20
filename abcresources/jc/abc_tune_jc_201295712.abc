@@ -1,0 +1,12 @@
+X:26
+T:Karjalan II
+M:2/4
+L:1/16
+Q:1/4=120
+R:polka
+K:G
+|: "G" G,2B,D B,G,B,D | "C" C2EG ECEG | "D" D2FA FDFA | "G" BAGF GFED | !
+G,2B,D B,G,B,D | "C" C2EG ECEG | "D" D2FA FDFA |
+[1 "G" G2G2 G4 :|[2 "G" BAG2 G3B || !
+|: "G" d2d2 "C" e3d | "D" d2c2 cBAB | c2c2 d3c | "G" c2B2 BAGB | !
+d2d2 "C" e3d | "D" d2c2 cBAB | cBAd c2F2 |[1 ~A2G2 G3B :|[2 ~A2G2 G4 ||

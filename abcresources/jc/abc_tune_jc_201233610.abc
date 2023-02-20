@@ -1,0 +1,18 @@
+X: 20031
+T: LOGIE O' BUCHAN
+Q: "Slow"
+%R: waltz
+B: "Edinburgh Repository of Music" v.2 p.3 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces
+%%graceslurs
+AG |\
+F3 G A2 | A f3 e2 | {e}d2 B2 B2 | B4 (AG) |\
+F3 G A2 | A d3 Te2 | {de}f2 d2 d2 | d4 H|]
+(de) |\
+f3 e f2 | a3 f e2 | d2 B2 c2 | {e}d4 de |\
+f3 g f2 | {f}e2 d2 e2 | f2 d2 B2 B4 "^D.C."|]

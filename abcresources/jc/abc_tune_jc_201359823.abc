@@ -1,0 +1,38 @@
+X:3223
+T:Schiarazula Marazula
+C:Giorgio Mainerio
+O:Italy
+B:Phalese: Chorearum molliorum collectanea. Antwerp, 1583
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/mainerio-giorgio/schiarazula/schiarazula-4m.abc
+%Posted October 11th 2001 at abcusers by Frank Nordberg after a request from Jack Campin.
+V:1 Program 1 110 %Fiddle
+V:2 Program 1 40 %Violin
+V:3 Program 1 41 alto %Viola
+V:4 Program 1 42 %Cello
+M:C|
+L:1/8
+Q:1/4=240
+K:Gdor
+V:1
+d2|:d2 c2 d2 c2|B2 B2 B2 A2|G2 F2 G2 A2|[1G2 G2 G2 d2:|[2G2 G2 G2 cB||
+V:2
+G2|:G4 G4|G6 FE|D4 D4|[1D4 D4:|[2D6 G2||
+V:3
+B,2|:B,6 C2|D4 D4|B,4 B,4|[1B,4 B,4:|[2B,6 E2||
+V:4
+G,2|:G,4 G,4|G,4 G,4|G,4 G,4|[1G,4 G,4:|[2G,6 C,2||
+%
+V:1
+|:A2 G2 A2 B2|A2 G2 A2 dc|B2 G2 G2 ^F2|[1G2 G2 G2 cB:|[2G6|]
+V:2
+|:F4 F4|F4 F4|D4 D4|[1D6 G2:|[2D6|]
+V:3
+|:C4 C4|C6 B,A,|B,4 A,4|[1B,6 E2:|[2=B,6|]
+V:4
+|:F,4 F,4|F,4 F,4|G,4 D,4|[1G,6 C,2:|[2G,6|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

@@ -1,0 +1,26 @@
+X:1
+T: Andrea's Waltz
+N:
+C:Bob Pasquarello
+S:Play  5  times
+A:
+O:
+R:
+M:3/4
+K:Em
+I:speed 150
+%W:
+% voice 1 (1 lines, 20 notes)
+K:Em
+M:3/4
+L:1/16
+E8 F2 G2 |A8 B4 |E8 F2 G2 |A8 B4 |c8 d2 c2 |B2 G6 B4 |A12|A4 G4 F4 |
+%W:
+% voice 1 (1 lines, 25 notes)
+E8 F2 G2 |A8 B4 |E8 F2 G2 |A8 B4 |e2 d2 c2 B2 A2 G2 |A6 B A G2 F2 |G12|G4 B4 G4 |
+%W:
+% voice 1 (1 lines, 25 notes)
+^G4 A4 B4 |c2 E6 A2 G2 |F4 G4 A4 |B2 D6 G2 F2 |E4 F4 G4 |E4 F4 G4 |E4 F4 G4 |B8 A4 |
+%W:                                                                                                         Last time
+% voice 1 (1 lines, 29 notes)
+^G4 A4 B4 |c2 E6 A2 G2 |F4 G4 A4 |B2 D6 G2 F2 |E4 G4 B4 |A6 G2 F4 |E12 |E2 G2 F2 E2 ^D2 B,2 |E12|E12 ||

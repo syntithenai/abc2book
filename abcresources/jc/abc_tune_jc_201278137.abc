@@ -1,0 +1,44 @@
+X: 1
+T: From Aberdeen
+P: Longways for as many as will
+%R: march, reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.?? #67
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.63 "G 2"
+N: Repeat added to match the DMDfD dance description.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+B2d2 d2e2 | d2(cB) A3d | B2G2 B2d2 | g6 :|\
+b2 | g2b2 g2b2 | a2(gf) e3f | g2fe d2B2 |
+d6 f2 | g3f (ed) (cB) | (AB) cd e3g |\
+d2cB A2G2 | c6 d2 | e2fg (fg) ag | g6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man cast off below the 2d Man, and take Hands and fall
+%% down between the 3d Cu. the Wo follows her Partner, and slips
+%% between the 2d Cu :|
+%% The 1st Man being between the 3d Cu. all three take Hands
+%% and go quite round, the 1st Wo. being between the 2d Cu. does
+%% the same at the same Time; the 1st Man being between the
+%% 2d Cu. Hands quite round, the We. do the same at the same
+%% Time, 'till he com in the Middle and meets his Partner between
+%% the 2d and 3d Cu. and turn her; the 1st Man does the
+%% same between the 2d Cu. as before.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% The 1. man cast off below the 2. man, and take hands and fall down between the 3. cu. the wo.
+%% follows her Partner and slips between the 2. cu. This to the first Strain twice.
+%%   The 1. man being between the 3. cu. all three take hands and go quite round, the 1. wo. being
+%% between the 2. cu. does the same at the same time; the 1. man being between the 3. cu. hands quite
+%% round, the we. do the same at the same time, till he come in the middle and meets his Partner
+%% between the 2. and 3. cu. and turn her; the 1. man does the same between the 2. cu. as before.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

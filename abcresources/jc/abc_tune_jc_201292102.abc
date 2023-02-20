@@ -1,0 +1,4111 @@
+
+X: 1
+T: Angus Campbell
+T: The Laird o' Drumblair
+C: J.S.Skinner
+B: Harp & Claymore, p.93, p.94; SV p.13; Hunter #134, #224; Hebert p.8; BSFC IV-20.
+N: Skinner also published this tune as the strathspey/shottish "Laird o' Drumblair".
+R: reel
+R: C
+L: 1/8
+K: A
+E2 \
+| "A"~A2cA EAce | {g}a2ga faec | "D"d2Bd "A"c2Ac | "Bm"BFBA "E7"GBEG |
+| "A"~A2cA EAce | {g}a2ga faec | "D"defd "A"ceaf | "E7"ecdB "A"A2 |]
+(3efg \
+| "A"{g}a2ea caAa | cAeA aAca | "Bm"{^a}b2fb dbBb | dBfB "E7"bBdg |
+| "A"{g}a2ea caAa | cAeA aecA |"D"defd "A"ceaf | "E7"ecdB "A"A2 |]
+
+%%sep 1 1 500
+
+X: 2
+T: Angus Campbell
+T: The Laird o' Drumblair
+C: J.S.Skinner
+B: Harp & Claymore, p.93, p.94; SV p.13; Hunter #134, #224; Hebert p.8; BSFC IV-20.
+N: Skinner also published this tune as the strathspey/shottish "Laird o' Drumblair".
+R: reel
+R: C
+L: 1/8
+K: A
+E2 \
+| "A"~A2cA EAce | {g}a2ga faec | "D"d2Bd "A"c2Ac | "Bm"BFBA "E7"GBEG |
+"A"~A2cA EAce | {g}a2ga faec | "D"defd "A"ceaf | "E7"ecdB "A"A2 :|
+|: (3efg |\
+"A"{g}a2ea caAa | cAeA aAca | "Bm"{^a}b2fb dbBb | dBfB "E7"bBdg |
+"A"{g}a2ea caAa | cAeA aecA |"D"defd "A"ceaf | "E7"ecdB "A"A2 :|
+
+%%sep 1 1 500
+
+X: 3
+T: Angus Campbell (Glasgow)
+R: Reel
+C: J. Scott Skinner
+O: Scotland
+M: 4/4
+K: A
+E2 |\
+A/2A/2A cA EAce | a2ga faec | \
+d/2d/2d Bd c/2c/2c Ac | BFBA GEFG | \
+A/2A/2A cA EAce |
+a2ga faec |\
+defd ceaf | ecdB Aefg ||\
+{g}a2ea caAa | c/2B/2A ce {g}aAce |
+{a}b2fb dbBb | d/2c/2B df bBdb |\
+{g}a2ea  caAa | c/2B/2A ce aecA | \
+defd ceaf | ecdB AEFG ||**
+
+%%sep 1 1 500
+
+X: 4
+T: Back to the Hills
+T: To Tom Fraser
+C: J.S.Skinner
+R: air, jig, reel
+N: Skinner, SV p.41, Hardie (see fingerings) p.111 [Reverie]
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+P: Reverie
+A, \
+| D>E FE/D/ | G>A BA/G/ | AF {F}ED | D2 {ED}^CA, \
+| D>E FE/D/ | G>A BA/G/ | Ad d^c | e2 d ||
+a \
+| [d'2d2] [a2A2] | [b3B3] [bB] | af ed | d2 {ed}^ca \
+| {D}[d'2d2] [a2A2] | {G,}[b3B3] [bB] | [aA][d'd] [d'd][^c'^c] | [e'2e2] [d'2d2] |]
+P: Jig
+M: 6/8
+| A,DE FED | ADE FED | G,GA BAG | gGA BAG \
+| A,DE FED | ADE FED | A,^CE A^ce | a^c'e' a'3 ||
+| A,DE FED | ADE FED | G,GA BAG | gGA BAG \
+| A=B^c d=c_B | AGF EFG | ABA GFE | D3- D3 |]
+P: Reel
+M: C|
+L: 1/8
+A,2 \
+| D^CDE FEFD | G^FGA BABG | AGFA GFEG | FEDF EA,AA, |
+| D^CDE FEFD | G^FGA BABG | A=B^cd AGFE | DdAF D2 ||
+|| a2 | d'afd AFDa | bgdB GDB,G, | A,DFD ADdf | eA^cA eAa^c' |
+| d'afd AFDa | bgdB GDB,G, | A,DFD ADdf | eA^cA d4 |]
+%%sep 5 5 234
+K:C
+x8 x8 x8 x8 x8 x8 x8 x8 |
+
+%%sep 1 1 500
+
+X: 5
+T: Back to the Hills
+T: To Tom Fraser
+C: J.S.Skinner
+R: air, jig, reel
+N: Skinner, SV p.41, Hardie (see fingerings) p.111 [Reverie]
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+P: Reverie
+A, \
+| D>E FE/D/ | G>A BA/G/ | AF {F}ED | D2 {ED}^CA, \
+| D>E FE/D/ | G>A BA/G/ | Ad d^c | e2 d ||
+a \
+| [d'2d2] [a2A2] | [b3B3] [bB] | af ed | d2 {ed}^ca \
+| {D}[d'2d2] [a2A2] | {G,}[b3B3] [bB] | [aA][d'd] [d'd][^c'^c] | [e'2e2] [d'2d2] |]
+P: Jig
+M: 6/8
+| A,DE FED | ADE FED | G,GA BAG | gGA BAG \
+| A,DE FED | ADE FED | A,^CE A^ce | a^c'e' a'3 ||
+| A,DE FED | ADE FED | G,GA BAG | gGA BAG \
+| A=B^c d=c_B | AGF EFG | ABA GFE | D3- D3 |]
+P: Reel
+M: C|
+L: 1/8
+A,2 \
+| D^CDE FEFD | G^FGA BABG | AGFA GFEG | FEDF EA,AA, |
+| D^CDE FEFD | G^FGA BABG | A=B^cd AGFE | DdAF D2 ||
+|| a2 | d'afd AFDa | bgdB GDB,G, | A,DFD ADdf | eA^cA eAa^c' |
+| d'afd AFDa | bgdB GDB,G, | A,DFD ADdf | eA^cA d4 |]
+%%sep 5 5 234
+K:C
+x8 x8 x8 x8 x8 x8 x8 x8 |
+
+%%sep 1 1 500
+
+X: 6
+T: Back to the Hills
+N: Dedicated to Tom Fraser
+C: J.Scott Skinner
+R: air, jig, reel
+N: Skinner, SV p.41, Hardie (see fingerings) p.111 [Reverie]
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/4
+K: Am
+B \
+| "Am"A>B cB/A/ | "Dm"d>e fe/d/ | "Am"ec {c}BA | A2 "E7"{BA}^GE \
+| "Am"A>B cB/A/ | "Dm"d>e fe/d/ | "Am"ea "E7"a^g | b2 "Am"a ||
+e \
+| "Am"a2 e2 | "Dm"f3 f | "Am"ec BA | A2 "E7"{BA}^Ge \
+| "Am"a2 e2 | "Dm"f3 f | "Am"ea "E7"a^g | b2 "Am"a |]
+
+%%sep 1 1 500
+
+X: 7
+T: Back to the Hills
+N: Dedicated to Tom Fraser
+C: J.Scott Skinner
+R: air
+N: Skinner, SV p.41, Hardie (see fingerings) p.111 [Reverie]
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: Dm
+"(A7)"A \
+| "Dm"D>E FE/D/ | "Gm"G>A BA/G/ | "Dm"AF {F}ED | "Dm"D2 "A7"{ED}^CA, \
+| "Dm"D>E FE/D/ | "Gm"G>A BA/G/ | "Dm"Ad "A7"d^c | "A7"e2 "Dm"d |]
+"(A7)"A \
+| "Dm"d2 A2 | "Gm"B3 B | "Dm"A[fF] [eE][dD] | "Dm"[d2D2] "A7"{ed}[^c^C]A \
+| "Dm"d2 A2 | "Gm"B3 B | "Dm"Ad "A7"d^c | "A7"e2 "Dm"d |]
+
+%%sep 1 1 500
+
+X: 8
+T: Back to the Hills
+N: Dedicated to Tom Fraser
+C: J.Scott Skinner
+R: air, jig, reel
+N: Skinner, SV p.41, Hardie (see fingerings) p.111 [Reverie]
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/4
+K: Em
+F \
+| "Em"E>F GF/E/ | "Am"A>B cB/A/ | "Em"BG {G}FE | "(B)"E2 "B7"{FE}^DB, \
+| "Em"E>F GF/E/ | "Am"A>B cB/A/ | "Em"Be "B7"e^d | f2 "Em"e ||
+B \
+| "Em"e2 B2 | "Am"c3 c | "Em"B[gG] [fF][eE] | "(B)"[e2E2] "B7"{fe}[^d^D]B \
+| "Em"e2 B2 | "Am"c3 c | "Em"Be "B7"e^d | f2 "Em"e |]
+
+%%sep 1 1 500
+
+X: 9
+T: Back to the Hills
+T: To Tom Fraser
+C: J.S.Skinner
+R: air, jig, reel
+N: Skinner, SV p.41, Hardie (see fingerings) p.111 [Reverie]
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+P: Reverie
+A, \
+| D>E FE/D/ | G>A BA/G/ | AF {F}ED | D2 {ED}^CA, \
+| D>E FE/D/ | G>A BA/G/ | Ad d^c | e2 d ||
+a \
+| [d'2d2] [a2A2] | [b3B3] [bB] | af ed | d2 {ed}^ca \
+| {D}[d'2d2] [a2A2] | {G,}[b3B3] [bB] | [aA][d'd] [d'd][^c'^c] | [e'2e2] [d'2d2] |]
+P: Jig
+M: 6/8
+| A,DE FED | ADE FED | G,GA BAG | gGA BAG \
+| A,DE FED | ADE FED | A,^CE A^ce | a^c'e' a'3 ||
+| A,DE FED | ADE FED | G,GA BAG | gGA BAG \
+| A=B^c d=c_B | AGF EFG | ABA GFE | D3- D3 |]
+P: Reel
+M: C|
+L: 1/8
+A,2 \
+| D^CDE FEFD | G^FGA BABG | AGFA GFEG | FEDF EA,AA, |
+| D^CDE FEFD | G^FGA BABG | A=B^cd AGFE | DdAF D2 ||
+|| a2 | d'afd AFDa | bgdB GDB,G, | A,DFD ADdf | eA^cA eAa^c' |
+| d'afd AFDa | bgdB GDB,G, | A,DFD ADdf | eA^cA d4 |]
+%%sep 5 5 234
+K:C
+x8 x8 x8 x8 x8 x8 x8 x8 |
+
+%%sep 1 1 500
+
+X: 10
+T: Back to the Hills
+N: Dedicated to Tom Fraser
+C: J.Scott Skinner
+R: air, jig, reel
+N: Skinner, SV p.41, Hardie (see fingerings) p.111 [Reverie]
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/4
+K: Am
+B \
+| "Am"A>B cB/A/ | "Dm"d>e fe/d/ | "Am"ec {c}BA | A2 "E7"{BA}^GE \
+| "Am"A>B cB/A/ | "Dm"d>e fe/d/ | "Am"ea "E7"a^g | b2 "Am"a ||
+e \
+| "Am"a2 e2 | "Dm"f3 f | "Am"ec BA | A2 "E7"{BA}^Ge \
+| "Am"a2 e2 | "Dm"f3 f | "Am"ea "E7"a^g | b2 "Am"a |]
+
+%%sep 1 1 500
+
+X: 11
+T: Back to the Hills
+N: Dedicated to Tom Fraser
+C: J.Scott Skinner
+R: air
+N: Skinner, SV p.41, Hardie (see fingerings) p.111 [Reverie]
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: Dm
+"(A7)"A \
+| "Dm"D>E FE/D/ | "Gm"G>A BA/G/ | "Dm"AF {F}ED | "Dm"D2 "A7"{ED}^CA, \
+| "Dm"D>E FE/D/ | "Gm"G>A BA/G/ | "Dm"Ad "A7"d^c | "A7"e2 "Dm"d |]
+"(A7)"A \
+| "Dm"d2 A2 | "Gm"B3 B | "Dm"A[fF] [eE][dD] | "Dm"[d2D2] "A7"{ed}[^c^C]A \
+| "Dm"d2 A2 | "Gm"B3 B | "Dm"Ad "A7"d^c | "A7"e2 "Dm"d |]
+
+%%sep 1 1 500
+
+X: 12
+T: Back to the Hills
+N: Dedicated to Tom Fraser
+C: J.Scott Skinner
+R: air, jig, reel
+N: Skinner, SV p.41, Hardie (see fingerings) p.111 [Reverie]
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/4
+K: Em
+F \
+| "Em"E>F GF/E/ | "Am"A>B cB/A/ | "Em"BG {G}FE | "(B)"E2 "B7"{FE}^DB, \
+| "Em"E>F GF/E/ | "Am"A>B cB/A/ | "Em"Be "B7"e^d | f2 "Em"e ||
+B \
+| "Em"e2 B2 | "Am"c3 c | "Em"B[gG] [fF][eE] | "(B)"[e2E2] "B7"{fe}[^d^D]B \
+| "Em"e2 B2 | "Am"c3 c | "Em"Be "B7"e^d | f2 "Em"e |]
+
+%%sep 1 1 500
+
+X: 13
+T: Balmoral Castle
+C: J.S.Skinner
+%date: 1904
+B: BSFC IV-19
+Z: John Chambers <jc:trillian.mit.edu>
+R: march
+B: Caledonian Companion, p.124 (with 2 variations by Skinner).
+B: Harp and Claymore, p. 27 (with 2 variations by Skinner).
+M: 2/4
+L: 1/8
+K: A
+E |\
+"A"{G}A2 c>A | EA CE | "Bm"{C}D2 B>A | "E7"A/G/F/E/ FG |\
+"A"{G}A2 c>A | EA CA, | "D"D/E/F/D/ "E7"B,G | {G}A3 :|
+e |\
+"A"{g}a2 ef/g/ | ae cA | "Bm"{C}D2 B>A | "E7"A/G/F/E/ ef/g/ |\
+"A"{g}a2 ef/g/ | ae cA | "D"D/E/F/D/ "E7"B,G | {G}A3 |]
+e |\
+"A"{g}ag/f/ ef/g/ | ae cA | "Bm"{C}D2 B>A | "E7"A/G/F/E/ FG |\
+"A"{G}A2 c>A | EA CA, | "D"D/E/F/D/ "E7"B,G | {G}A3 |]
+
+%%sep 1 1 500
+
+X: 14
+T: Balmoral Castle
+C: J.S.Skinner
+%date: 1904
+B: BSFC IV-19
+Z: John Chambers <jc:trillian.mit.edu>
+R: march
+B: Caledonian Companion, p.124 (with 2 variations by Skinner).
+B: Harp and Claymore, p. 27 (with 2 variations by Skinner).
+M: 2/4
+L: 1/8
+K: A
+E |\
+"A"{G}A2 c>A | EA CE | "Bm"{C}D2 B>A | "E7"A/G/F/E/ FG |\
+"A"{G}A2 c>A | EA CA, | "D"D/E/F/D/ "E7"B,G | {G}A3 :|
+e |\
+"A"{g}a2 ef/g/ | ae cA | "Bm"{C}D2 B>A | "E7"A/G/F/E/ ef/g/ |\
+"A"{g}a2 ef/g/ | ae cA | "D"D/E/F/D/ "E7"B,G | {G}A3 |]
+e |\
+"A"{g}ag/f/ ef/g/ | ae cA | "Bm"{C}D2 B>A | "E7"A/G/F/E/ FG |\
+"A"{G}A2 c>A | EA CA, | "D"D/E/F/D/ "E7"B,G | {G}A3 |]
+
+%%sep 1 1 500
+
+X: 15
+T: Battle of Falkirk
+C: J.S.Skinner
+R: march, quickstep
+N: Skinner, H&C p.26, good variations
+M: 2/4
+L: 1/16
+K: AMix
+cd \
+| "A"{ef}e2A2      e2A2 |    gfed e4 \
+|    {f}e2A2       e2A2 | "G"gfed gGBd \
+| "A"{f}e2A2       e2A2 |    gfed e4 \
+|       agfe "G"{f}g2B2 | "A"e2A2 A2 :|
+|: e2 \
+| "A"{e}a2A2 {A}e2A2 |    gfed {d}e4 \
+| "A"a2A2       e2A2 | "G"gfed g2B2 \
+| "A"a2A2       e2A2 |    gfed e2fg \
+|     agfe   "G"gdBd | "A"e2A2 A2 :|
+%%sep 5 5 234
+K:C
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+
+%%sep 1 1 500
+
+X: 16
+T: Battle of Falkirk
+C: J.S.Skinner
+R: march, quickstep
+N: Skinner, H&C p.26, good variations
+M: 2/4
+L: 1/16
+K: AMix
+cd \
+| "A"{ef}e2A2      e2A2 |    gfed e4 \
+|    {f}e2A2       e2A2 | "G"gfed gGBd \
+| "A"{f}e2A2       e2A2 |    gfed e4 \
+|       agfe "G"{f}g2B2 | "A"e2A2 A2 :|
+|: e2 \
+| "A"{e}a2A2 {A}e2A2 |    gfed {d}e4 \
+| "A"a2A2       e2A2 | "G"gfed g2B2 \
+| "A"a2A2       e2A2 |    gfed e2fg \
+|     agfe   "G"gdBd | "A"e2A2 A2 :|
+%%sep 5 5 234
+K:C
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+
+%%sep 1 1 500
+
+X: 17
+T: Belladrum House
+C: J.S.Skinner
+Z: John Chambers <jc:trillian.mit.edu>
+B: Fraser p.64
+D: Ron Gonella on Fiddle Gems tape (Lismore Recordings LILP5044, 1976)
+N: Belladrum House is near Kiltarlity, Inverness.
+B: First printed in Captain Simon Fraser's "Airs and Melodies peculiar the the Highlands of Scotland and the Isles" (1816)
+M: 4/4
+R: strathspey
+L: 1/8
+K: D
+A, \
+| "D"DE/F/ "G"G>B "D"A-<F F>B | A-<F FE/D/ "A7"E2- E>F \
+| "D"DE/F/ "G"G>B "D"A-<F F>B | "A7"A-<F F>E "D"D3 :|
+f \
+| "A"e>A f>A g>A f>A | e>A g>f e2- e>f \
+| e>A f>A g>A f>A | (3fga (3gfe "D"d>A F>A |
+| "D"d>f A-<f d>f A-<f | d>f A-<f "A7"e2- e>g \
+| "D"(3fga (3gfe "Bm"(3dcB (3AGF | "G"G>B "A7"A-<F "D"D3 |]
+
+%%sep 1 1 500
+
+X: 18
+T: Belladrum House
+C: J.S.Skinner
+Z: John Chambers <jc:trillian.mit.edu>
+B: Fraser p.64
+D: Ron Gonella on Fiddle Gems tape (Lismore Recordings LILP5044, 1976)
+N: Belladrum House is near Kiltarlity, Inverness.
+B: First printed in Captain Simon Fraser's "Airs and Melodies peculiar the the Highlands of Scotland and the Isles" (1816)
+M: 4/4
+R: strathspey
+L: 1/8
+K: D
+A, \
+| "D"DE/F/ "G"G>B "D"A-<F F>B | A-<F FE/D/ "A7"E2- E>F \
+| "D"DE/F/ "G"G>B "D"A-<F F>B | "A7"A-<F F>E "D"D3 :|
+f \
+| "A"e>A f>A g>A f>A | e>A g>f e2- e>f \
+| e>A f>A g>A f>A | (3fga (3gfe "D"d>A F>A |
+| "D"d>f A-<f d>f A-<f | d>f A-<f "A7"e2- e>g \
+| "D"(3fga (3gfe "Bm"(3dcB (3AGF | "G"G>B "A7"A-<F "D"D3 |]
+
+%%sep 1 1 500
+
+X: 19
+T: Blooms of Bon Accord
+C: J.S.Skinner
+R: march, air
+B: The Scottish Violinist
+S: SRSNH 2/97 9.12 (handwritten copy)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+   E2 \
+| "A"c2z2 c4 | "E7"{c}BABc "A"A2E2 | "Bm"d2z2 d4 | "Bm"{d}cBcd "E7"B2E2 \
+| "A"e2z2 "A+"=f4 | "D"g3^f "Bm"d2B2 | "A"AE^DE "Bm"c2B2 | "E7"B4 "A"A2 :|
+   GA \
+| "E7"B2E2 e4 | "(Bm)"d2c2 "E7"B4 | "A"c4 "(E7)"B3c | "(A)"B2(A2 G2A2) \
+| "E7"B2E2 e4 | "(Bm)"d2c2 "E7"B4 | "F#m"c2^de "B7"e2d2 | "E"e2z2 "E7"=d4 |]
+|| "A"c2z2 c4 | "E7"{c}BABc "A"A2E2 | "Bm"d2z2 d4 | "Bm"{d}cBcd "E7"B2E2 \
+| "A"e2z2 "A+"=f4 | "D"g3^f "Bm"d2B2 | "A"AE^DE "Bm"c2B2 | "E7"B4 "A"A2 |]
+
+%%sep 1 1 500
+
+X: 20
+T: Blooms of Bon Accord
+C: J.S.Skinner
+R: march, air
+B: The Scottish Violinist
+S: SRSNH 2/97 9.12 (handwritten copy)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+   E2 \
+| "A"c2z2 c4 | "E7"{c}BABc "A"A2E2 | "Bm"d2z2 d4 | "Bm"{d}cBcd "E7"B2E2 \
+| "A"e2z2 "A+"=f4 | "D"g3^f "Bm"d2B2 | "A"AE^DE "Bm"c2B2 | "E7"B4 "A"A2 :|
+   GA \
+| "E7"B2E2 e4 | "(Bm)"d2c2 "E7"B4 | "A"c4 "(E7)"B3c | "(A)"B2(A2 G2A2) \
+| "E7"B2E2 e4 | "(Bm)"d2c2 "E7"B4 | "F#m"c2^de "B7"e2d2 | "E"e2z2 "E7"=d4 |]
+|| "A"c2z2 c4 | "E7"{c}BABc "A"A2E2 | "Bm"d2z2 d4 | "Bm"{d}cBcd "E7"B2E2 \
+| "A"e2z2 "A+"=f4 | "D"g3^f "Bm"d2B2 | "A"AE^DE "Bm"c2B2 | "E7"B4 "A"A2 |]
+
+%%sep 1 1 500
+
+X: 21
+T: Bonnie Banchory
+C: J.S.Skinner
+R: reel
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: AB | "A"cBAG ABcd | e^def "(E7)"e2AB | "A"cBAG "F#m"Acec | "Bm"B2E2 "E7"E2AB |
+|       "A"cBAG ABcd | e^def "(E7)"e2cB | "D"AFBA "E7"GEed | "A"c2A2 A2 :|
+|: cd | "A"ecfe "E7"dBed | "A"c2A2 A2cd | ecfe "B7"^dBba | "E7"g2e2 e2cd |
+|       "A"ecfe "E7"dBed | "F#m"cAdc | "E"BGcB | "D"AFBA "E7"GEed | "A"c2A2 A2 :|
+
+%%sep 1 1 500
+
+X: 22
+T: The Bonnie Lass o' Bon Accord
+C: J.S.Skinner
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+N: BSFC IV-17 as an air, have versions in A and D
+N: Caledonian Companion, p.83 (with variations by J.S.Skinner).
+N: Hardie p.83
+N: Harp and Claymore, p.2 (with variations by J.S.Skinner, plus 6 verses of words).
+N: Hunter 21
+N: Logie  Collection
+N: SFT p.24
+N: Skye p.152
+M: C
+L: 1/16
+K: A
+|: E2 \
+| "A"{G}A3B "E7"c3B "A"A2A,2 C2E2 \
+| AGAf ecBA "Bm"B4- "E7"B2c2 \
+| "A"A3B "E7"c3B "A"A2C2 "A7"E2=G2 \
+| "D"FDFA "E7"GEGB "A"A6 :|
+(3efg \
+| "A"a3c "D"d2f2 "A"e2A2 "D"{g}a2gf \
+| "A"e2A2 "F#m"fedc "Bm"B4- "E7"B2(3efg \
+| "A"a3c "D"d2f2 "A"e2A2 "A7"{g}a2=G2 \
+| "D"FDFA "E7"GEGB "A"A6 (3efg |
+| "A"a3c "D"d2f2 "A"e2A2 "D"{g}a2gf \
+| "A"e2A2 "F#m"fedc "Bm"B4- "E7"B6 c2 \
+| "A"A,CEA "E7"c3B "A"A2C2 "A7"E2=G2 \
+| "D"FDFA "E7"GEGB "A"A6 |]
+
+%%sep 1 1 500
+
+X: 23
+T: The Bonnie Lass o' Bon Accord
+C: J.S.Skinner
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+N: BSFC IV-17 as an air, have versions in A and D
+N: Caledonian Companion, p.83 (with variations by J.S.Skinner).
+N: Hardie p.83
+N: Harp and Claymore, p.2 (with variations by J.S.Skinner, plus 6 verses of words).
+N: Hunter 21
+N: Logie  Collection
+N: SFT p.24
+N: Skye p.152
+M: C
+L: 1/16
+K: A
+|: E2 \
+| "A"{G}A3B "E7"c3B "A"A2A,2 C2E2 \
+| AGAf ecBA "Bm"B4- "E7"B2c2 \
+| "A"A3B "E7"c3B "A"A2C2 "A7"E2=G2 \
+| "D"FDFA "E7"GEGB "A"A6 :|
+(3efg \
+| "A"a3c "D"d2f2 "A"e2A2 "D"{g}a2gf \
+| "A"e2A2 "F#m"fedc "Bm"B4- "E7"B2(3efg \
+| "A"a3c "D"d2f2 "A"e2A2 "A7"{g}a2=G2 \
+| "D"FDFA "E7"GEGB "A"A6 (3efg |
+| "A"a3c "D"d2f2 "A"e2A2 "D"{g}a2gf \
+| "A"e2A2 "F#m"fedc "Bm"B4- "E7"B6 c2 \
+| "A"A,CEA "E7"c3B "A"A2C2 "A7"E2=G2 \
+| "D"FDFA "E7"GEGB "A"A6 |]
+
+%%sep 1 1 500
+
+X: 24
+T: The Bonnie Lass o' Bon Accord
+C: James Scott Skinner
+R: air
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+ "(E7)"E \
+| "A"A>B "E7"c>B "A"AA, CE | "A"A/G/A/f/ e/c/B/A/ "E7"B3 E \
+| "A"A>B "E7"c>B "A"AC E=G | "D"F/D/F/A/ "E7"G/E/G/B/ "A"A3 :|
+ "(E7)"e \
+| "A"a>c "D"df "A"eA "D"ag/f/ | "A"eA "D"f/e/d/c/ "E7"B3 e \
+| "A"a>c "D"df "A"eA a=G | "D"F/D/F/A/ "E7"G/E/G/B/ "A"A3 |]
+ "(E7)"e \
+| "A"a>c "D"df "A"eA "D"ag/f/ | "A"eA "D"f/e/d/c/ "E7"B3 c \
+| "A"A,/C/E/A/ "E7"c>B "A"AC E=G | "D"F/D/F/A/ "E7"G/E/G/B/ "A"A3 |]
+
+%%sep 1 1 500
+
+X: 25
+T: Bonnie Banchory
+C: J.S.Skinner
+R: reel
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: AB | "A"cBAG ABcd | e^def "(E7)"e2AB | "A"cBAG "F#m"Acec | "Bm"B2E2 "E7"E2AB |
+|       "A"cBAG ABcd | e^def "(E7)"e2cB | "D"AFBA "E7"GEed | "A"c2A2 A2 :|
+|: cd | "A"ecfe "E7"dBed | "A"c2A2 A2cd | ecfe "B7"^dBba | "E7"g2e2 e2cd |
+|       "A"ecfe "E7"dBed | "F#m"cAdc | "E"BGcB | "D"AFBA "E7"GEed | "A"c2A2 A2 :|
+
+%%sep 1 1 500
+
+X: 26
+T: The Bonnie Lass o' Bon Accord
+C: J.S.Skinner
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+N: BSFC IV-17 as an air, have versions in A and D
+N: Caledonian Companion, p.83 (with variations by J.S.Skinner).
+N: Hardie p.83
+N: Harp and Claymore, p.2 (with variations by J.S.Skinner, plus 6 verses of words).
+N: Hunter 21
+N: Logie  Collection
+N: SFT p.24
+N: Skye p.152
+M: C
+L: 1/16
+K: A
+|: E2 \
+| "A"{G}A3B "E7"c3B "A"A2A,2 C2E2 \
+| AGAf ecBA "Bm"B4- "E7"B2c2 \
+| "A"A3B "E7"c3B "A"A2C2 "A7"E2=G2 \
+| "D"FDFA "E7"GEGB "A"A6 :|
+(3efg \
+| "A"a3c "D"d2f2 "A"e2A2 "D"{g}a2gf \
+| "A"e2A2 "F#m"fedc "Bm"B4- "E7"B2(3efg \
+| "A"a3c "D"d2f2 "A"e2A2 "A7"{g}a2=G2 \
+| "D"FDFA "E7"GEGB "A"A6 (3efg |
+| "A"a3c "D"d2f2 "A"e2A2 "D"{g}a2gf \
+| "A"e2A2 "F#m"fedc "Bm"B4- "E7"B6 c2 \
+| "A"A,CEA "E7"c3B "A"A2C2 "A7"E2=G2 \
+| "D"FDFA "E7"GEGB "A"A6 |]
+
+%%sep 1 1 500
+
+X: 27
+T: The Bonnie Lass o' Bon Accord
+C: J.S.Skinner
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+N: BSFC IV-17 as an air, have versions in A and D
+N: Caledonian Companion, p.83 (with variations by J.S.Skinner).
+N: Hardie p.83
+N: Harp and Claymore, p.2 (with variations by J.S.Skinner, plus 6 verses of words).
+N: Hunter 21
+N: Logie  Collection
+N: SFT p.24
+N: Skye p.152
+M: C
+L: 1/16
+K: A
+|: E2 \
+| "A"{G}A3B "E7"c3B "A"A2A,2 C2E2 \
+| AGAf ecBA "Bm"B4- "E7"B2c2 \
+| "A"A3B "E7"c3B "A"A2C2 "A7"E2=G2 \
+| "D"FDFA "E7"GEGB "A"A6 :|
+(3efg \
+| "A"a3c "D"d2f2 "A"e2A2 "D"{g}a2gf \
+| "A"e2A2 "F#m"fedc "Bm"B4- "E7"B2(3efg \
+| "A"a3c "D"d2f2 "A"e2A2 "A7"{g}a2=G2 \
+| "D"FDFA "E7"GEGB "A"A6 (3efg |
+| "A"a3c "D"d2f2 "A"e2A2 "D"{g}a2gf \
+| "A"e2A2 "F#m"fedc "Bm"B4- "E7"B6 c2 \
+| "A"A,CEA "E7"c3B "A"A2C2 "A7"E2=G2 \
+| "D"FDFA "E7"GEGB "A"A6 |]
+
+%%sep 1 1 500
+
+X: 28
+T: The Bonnie Lass o' Bon Accord
+C: J.S.Skinner
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+N: BSFC IV-17 as an air, have versions in A and D
+N: Caledonian Companion, p.83 (with variations by J.S.Skinner).
+N: Hardie p.83
+N: Harp and Claymore, p.2 (with variations by J.S.Skinner, plus 6 verses of words).
+N: Hunter 21
+N: Logie  Collection
+N: SFT p.24
+N: Skye p.152
+M: C
+L: 1/16
+K: A
+|: E2 \
+| "A"{G}A3B "E7"c3B "A"A2A,2 C2E2 \
+| AGAf ecBA "Bm"B4- "E7"B2c2 \
+| "A"A3B "E7"c3B "A"A2C2 "A7"E2=G2 \
+| "D"FDFA "E7"GEGB "A"A6 :|
+(3efg \
+| "A"a3c "D"d2f2 "A"e2A2 "D"{g}a2gf \
+| "A"e2A2 "F#m"fedc "Bm"B4- "E7"B2(3efg \
+| "A"a3c "D"d2f2 "A"e2A2 "A7"{g}a2=G2 \
+| "D"FDFA "E7"GEGB "A"A6 (3efg |
+| "A"a3c "D"d2f2 "A"e2A2 "D"{g}a2gf \
+| "A"e2A2 "F#m"fedc "Bm"B4- "E7"B6 c2 \
+| "A"A,CEA "E7"c3B "A"A2C2 "A7"E2=G2 \
+| "D"FDFA "E7"GEGB "A"A6 |]
+
+%%sep 1 1 500
+
+X: 29
+T: The Bonnie Lass o' Bon Accord
+C: James Scott Skinner
+R: air
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+ "(E7)"E \
+| "A"A>B "E7"c>B "A"AA, CE | "A"A/G/A/f/ e/c/B/A/ "E7"B3 E \
+| "A"A>B "E7"c>B "A"AC E=G | "D"F/D/F/A/ "E7"G/E/G/B/ "A"A3 :|
+ "(E7)"e \
+| "A"a>c "D"df "A"eA "D"ag/f/ | "A"eA "D"f/e/d/c/ "E7"B3 e \
+| "A"a>c "D"df "A"eA a=G | "D"F/D/F/A/ "E7"G/E/G/B/ "A"A3 |]
+ "(E7)"e \
+| "A"a>c "D"df "A"eA "D"ag/f/ | "A"eA "D"f/e/d/c/ "E7"B3 c \
+| "A"A,/C/E/A/ "E7"c>B "A"AC E=G | "D"F/D/F/A/ "E7"G/E/G/B/ "A"A3 |]
+
+%%sep 1 1 500
+
+X: 30
+T: The Bonnie Lass o' Bon Accord (Am)
+C: J.S.Skinner
+B: J.S.Skinner "Harp and Claymore" p.3
+N: Usually in A major, but Skinner also played it in minor.
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+%%slurgraces 1
+M: C
+L: 1/16
+K: Am
+E2 |\
+"Am"A3B {AB}c3B A2A,2 C2E2  | A^GAB "Dm"cAdc "E7"B4- B2E2 |\
+"Am"A3B c3B A2C2 "Dm"D2F2  | "E7"{EF}EDEF E2^G,2 "Am"A,4- A,2 ||
+E2 |\
+"Am"A3B {AB}c3B A2A,2 C2E2  | A^GAB "Dm"cAdc "E7"B4- B2E2 |\
+"Am"A3B c3B A2c2 "Dm"d2f2  | "E7"{ef}edef e2^G2 "Am"A4- A2 |]
+(3e^f^g |\
+"A7"a3=g f2e2 "Dm"f2e2 d2=c2  | "Am"cBAB "Dm"cAdc "E7"B4- B2 (3e^f^g |\
+"A7"a3=g f2e2 "Dm"dcBc defd  | "Am"edef "E7"e2^G2 "Am"A4- A2 ||
+(3e^f^g |\
+"A7"a3=g f2e2 "Dm"f2e2 d2=c2 | "Am"cBAB "Dm"cAdc "E7"B4- B2 ^c2 |\
+"A"A,^CEA ^cea^g aecA "A7"^GAE=G  | "D"^FDFA "E7"^G^fHe^g "A"{g}a4- a2 |]
+
+%%sep 1 1 500
+
+X: 31
+T: Bovaglie's Plaid
+C:J Scott Skinner
+M:C
+L:1/8
+Q:100
+K:A
+A|"D"(FE/C/) "A"E>F A>B c>A|"D"dc/B/ "A"{B}(ec) "Bm"{c}BA (F/A) z/|"A"(FE/C/) (E>F) A>B"D"c>d|
+"A"ec/A/ "E7"G/d/z/G/  "A"{G}A2 A::e|"A"ag/a/  (3 ecA "D"(3 fdA "A"(3 ecA|(3(CEA) (3(cea) "E"{cd}c>B(B>e)|
+"A"ag/a/ (3ecA "D"(3(FAd) "A"(3 (EAc)|"Bm"(3(DFB) "E7"(E/d/)z/G/ "A"{G}(A2 A) e|"A"{g}ab/a/g/f/ (3ecA "D"(3fdA "A"(3ecA|
+"A"ae/d/ cB/A/ "E"B>BB A/G/|"D"(FG/A/) "A"(EG/A/) "Bm"(DG/A/) "A"{CD}(3 CB,A,|(3(ECA,) "E7"G,/D/z/G,/ "A"(A,2 A,)|]
+
+%%sep 1 1 500
+
+X: 32
+T: The Brig o Potarch
+C: J.S.Skinner
+R: strathspey
+B:
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Em
+B \
+| "Em"{F}G>F E<B B,<E {F}G>B | "D"AB/^c/ d>A F<D D>F \
+| "Em"G>F E<B B,<E {F}G>A | "Em"B>e "B"^d<f "Em"e>E E :|
+B \
+| "Em"e>g "B"f<g "Em"e<b g>e | "A"AB/^c/ d>A "D"F<D D>B \
+| "Em"e>g f<g "C"e<b g>e | "B"B^c/^d/ e>B "Em"G<E E> ||
+B \
+| "Em"e/f/g "B"f/e/^d "C"e/=d/c "G"B/A/G | "D"(3AB^c (3dAG F<D D>F \
+| "Em"{F}G>F E<B "C"B,<E {F}G>A | "B"(3Beg (3fBb "Em"g<e e |]
+
+%%sep 1 1 500
+
+X: 33
+T: The Brig o Potarch
+C: J.S.Skinner
+R: strathspey
+B:
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Em
+B \
+| "Em"{F}G>F E<B B,<E {F}G>B | "D"AB/^c/ d>A F<D D>F \
+| "Em"G>F E<B B,<E {F}G>A | "Em"B>e "B"^d<f "Em"e>E E :|
+B \
+| "Em"e>g "B"f<g "Em"e<b g>e | "A"AB/^c/ d>A "D"F<D D>B \
+| "Em"e>g f<g "C"e<b g>e | "B"B^c/^d/ e>B "Em"G<E E> ||
+B \
+| "Em"e/f/g "B"f/e/^d "C"e/=d/c "G"B/A/G | "D"(3AB^c (3dAG F<D D>F \
+| "Em"{F}G>F E<B "C"B,<E {F}G>A | "B"(3Beg (3fBb "Em"g<e e |]
+
+%%sep 1 1 500
+
+X: 34
+T: The Cameron Highlanders
+C: J.S.Skinner
+R: march
+D: The Boys of the Lough, Transatlantic TRA296
+D: Aly Bain on BOL Philo album
+N: BSFC II-46,
+N: H&C p.30
+N: Hunter 347
+N: Logie  Collection
+N: SV p.30
+N: Skinner
+Z: John Chambers <jc:trillian.mit.edu>
+%%slurgraces 1
+M: C|
+L: 1/8
+K: A
+   {g}a2 | "A"A2cA cecA | {fa}f2e2 e2{g}a2 | "A"~A2cA cecA | "E7"{ce}c2B2 B2 ||
+y  {g}a2 | "A"A2cA cecA | f2e2 e2{g}a2 | faea "E7"caBa | "A"{ce}c2A2 A2 :|
+|: {g}a2 | "A"f2ed c2BA | {ce}c2A2 A2{g}a2 | "A"f2ed c2BA | "E7"{ce}c2B2 B2 ||
+y  {g}a2 | "A"f2ed c2BA | cAeA "D"fga2 | faea "E7"caBa | "A"{ce}c2A2 A2 :|
+
+%%sep 1 1 500
+
+X: 35
+T: Cameron Highlanders, The
+C:James Scott Skinner
+N:A simplified version
+D:Bumblebees, Buzzin'
+Z:Nigel Gatherer
+S:Joe Mc Cool <joe:benburb.demon.co.uk> 2003-4-4
+M:4/4
+L:1/8
+K:A
+e2|A2ce A2ce|f2ec eaga|ABce ABce|cBB2 B2e2|
+A2ce A2ce|f2ec eaga|faea caBa|cA (3AAA A2:|
+a2|faea caBa|cA (3AAA A2a2|faea caBa|cB (3BBB B2a2|
+faea caBa|cA (3AAA a3e|(3fga ea caBa|cA (3AAA A2:||
+
+%%sep 1 1 500
+
+X: 36
+T: The Cameron Highlanders
+C: J.S.Skinner
+R: march
+D: The Boys of the Lough, Transatlantic TRA296
+D: Aly Bain on BOL Philo album
+N: BSFC II-46,
+N: H&C p.30
+N: Hunter 347
+N: Logie  Collection
+N: SV p.30
+N: Skinner
+Z: John Chambers <jc:trillian.mit.edu>
+%%slurgraces 1
+M: C|
+L: 1/8
+K: A
+   {g}a2 | "A"A2cA cecA | {fa}f2e2 e2{g}a2 | "A"~A2cA cecA | "E7"{ce}c2B2 B2 ||
+y  {g}a2 | "A"A2cA cecA | f2e2 e2{g}a2 | faea "E7"caBa | "A"{ce}c2A2 A2 :|
+|: {g}a2 | "A"f2ed c2BA | {ce}c2A2 A2{g}a2 | "A"f2ed c2BA | "E7"{ce}c2B2 B2 ||
+y  {g}a2 | "A"f2ed c2BA | cAeA "D"fga2 | faea "E7"caBa | "A"{ce}c2A2 A2 :|
+
+%%sep 1 1 500
+
+X: 37
+T: Cameron Highlanders, The
+R:Pipe march
+C:J. Scott Skinner
+S:sessions
+O:Scotland
+M:4/4
+K:Hp
+|:\
+A2 ec A2 eA | f2 e2 e2 a2 | A2 ecA2 eA | c2 B2 B2 c2 |
+A2 ec A2 eA | f2 e2 e2 a2 | fa ea ca Ba | c2 A2 A2 :|
+|: a2 |\
+f2 ea c2 Aa | c2 A2 A2 a2 | f2 ea c2 Aa | c2 B2 B2 A2 |
+f2 ea c2 Aa | ec ac e2 a2 | fa ea ca Ba | c2 A2 A2 :|
+|: ec |\
+A<A ec Ae cA | f2 e2 e2 a2 | A<A ec Ae cA | c2 B2 B2 ec |
+A<A ec Ae cA | f2 e2 e2 a2 | fa ea ca Ba | c2 A2 A2 :|
+a2 |\
+fa ea ca Ba | c2 A2 A2 a2 | fa ea ca Aa | c2 B2 B2 a2 |
+fa ea ca Aa | ec ac ef ga | fa ea ca Ba | c2 A2 A2 a2 |
+fa ea ca Ba | Aa Ba ca Aa | fa ea ca Aa | c2 B2 B2 ec |
+A<A cA eA cA | eA fA gA aA | fa ea ca Ba | c2 A2 A2 ||
+
+%%sep 1 1 500
+
+X: 38
+T: Cameron Highlanders, The
+C:James Scott Skinner
+N:A simplified version
+D:Bumblebees, Buzzin'
+Z:Nigel Gatherer
+S:Joe Mc Cool <joe:benburb.demon.co.uk> 2003-4-4
+M:4/4
+L:1/8
+K:A
+e2|A2ce A2ce|f2ec eaga|ABce ABce|cBB2 B2e2|
+A2ce A2ce|f2ec eaga|faea caBa|cA (3AAA A2:|
+a2|faea caBa|cA (3AAA A2a2|faea caBa|cB (3BBB B2a2|
+faea caBa|cA (3AAA a3e|(3fga ea caBa|cA (3AAA A2:||
+
+%%sep 1 1 500
+
+X: 39
+T: Carnie's canter
+R:Reel
+C:J. Scott Skinner
+S:Charlie Menzies
+O:Scotland
+M:4/4
+K:F
+B |\
+A>c c/c/c dc =Bc | Ac =Bc fc _BA |\
+B>d d/d/d ed ^cd | Bd ^cd ed =cB |
+A>c c/c/c dc =Bc | Ac =Bc fc _BA |\
+{Bc}BA Bd g^f ga | ba gf ed cB |]
+A>f f/f/f cf Af | af ef cf Af |\
+B>g g/g/g dg Bg | ba gf ed cB |
+a>f f/f/f cf Af | af ef cf Af |\
+bg af ge fd | cB AG F3 |]
+
+%%sep 1 1 500
+
+X: 40
+T: The Champion March
+C: J.S.Skinner
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: AMix
+[| ec \
+|| "A"~A2AB cBcd | "A"e2 "D"f2 "A"e2 cA | "A"e2 "D"f2 "A"e2 cA | "G"d2 "C"e2 "G"d2 BG |
+|  "A"~A2AB cBcd | "A"e2 "D"f2 "A"e2 cA | "A"aecA "E7"ecdB | "A"{B}c2 A2 A2 |]
+[| (3efg \
+|| "A"a2cA e2cA | aAcA e2cA | "G"g2BG d2BG | gGBG d2BG |
+|  "A"a2cA e2cA | "D"afdf "A"e2 cA | "A"aecA "E7"ecdB | "A"{B}c2 A2 A2 |]
+
+%%sep 1 1 500
+
+X: 41
+T: The Champion March
+C: J.S.Skinner
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: AMix
+[| ec \
+|| "A"~A2AB cBcd | "A"e2 "D"f2 "A"e2 cA | "A"e2 "D"f2 "A"e2 cA | "G"d2 "C"e2 "G"d2 BG |
+|  "A"~A2AB cBcd | "A"e2 "D"f2 "A"e2 cA | "A"aecA "E7"ecdB | "A"{B}c2 A2 A2 |]
+[| (3efg \
+|| "A"a2cA e2cA | aAcA e2cA | "G"g2BG d2BG | gGBG d2BG |
+|  "A"a2cA e2cA | "D"afdf "A"e2 cA | "A"aecA "E7"ecdB | "A"{B}c2 A2 A2 |]
+
+%%sep 1 1 500
+
+X: 42
+T: Corgarff Castle
+C: J.S.Skinner
+R: Pastoral
+N: Skinner SV p.39
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+| "Gm"{D=E^F}[G2G,2] DG B,D G,G | "F"{=E}F2 CF A,F {=B}AF \
+| "Gm"{^F}G2 DG B,D G,e | "D7"({e}dc/B/) (AB/c/) "Gm"{c}BG G2 |
+| "Gm"{D=E^F}G2 DG B,D G,G | "F"{=E}F2 CF A,/C/F/A/ {=B}cA \
+| "Gm"{^F}G2 DG B,D G,e | "D7"({e}dc/B/) (AB/c/) "Gm"{c}BG G ||
+{^f}g \
+| "Gm"(ba/g/) dg Bd Gg | "F"(ag/f/) cf Ac Ff \
+| "Gm"(ba/g/) dg Bd Ge | "D7"({e}dc/B/) (Ad) "Gm"(DG) Gg |
+| "Gm"(ba/g/) dg Bg G,b | "F"(ag/f/) cf Ac Ff \
+| "Gm"(b/a/g/b/) "D7"(a/g/^f/a/) "Gm"g/d/B/G/ D/B,/G,/B,/ | "D7"A,E (D/C/)B,/A,/ "Gm"B,G, G,2 |]
+
+%%sep 1 1 500
+
+X: 43
+T: Corgarff Castle
+C: J.S.Skinner
+R: Pastoral
+N: Skinner SV p.39
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+| "Gm"{D=E^F}[G2G,2] DG B,D G,G | "F"{=E}F2 CF A,F {=B}AF \
+| "Gm"{^F}G2 DG B,D G,e | "D7"({e}dc/B/) (AB/c/) "Gm"{c}BG G2 |
+| "Gm"{D=E^F}G2 DG B,D G,G | "F"{=E}F2 CF A,/C/F/A/ {=B}cA \
+| "Gm"{^F}G2 DG B,D G,e | "D7"({e}dc/B/) (AB/c/) "Gm"{c}BG G ||
+{^f}g \
+| "Gm"(ba/g/) dg Bd Gg | "F"(ag/f/) cf Ac Ff \
+| "Gm"(ba/g/) dg Bd Ge | "D7"({e}dc/B/) (Ad) "Gm"(DG) Gg |
+| "Gm"(ba/g/) dg Bg G,b | "F"(ag/f/) cf Ac Ff \
+| "Gm"(b/a/g/b/) "D7"(a/g/^f/a/) "Gm"g/d/B/G/ D/B,/G,/B,/ | "D7"A,E (D/C/)B,/A,/ "Gm"B,G, G,2 |]
+
+%%sep 1 1 500
+
+X: 44
+T: Cortes Gardens
+C: J.S.Skinner
+R: strathspey
+M: 4/4
+L: 1/8
+K: Em
+B \
+| "Em"E2 G>E B>E G>E | B,>E G>E "D"F<D D>F \
+| "Em"E>G B>^d e>B G>E |1 "Am"A/B/c "B7"B>A "Em"G>F E :|2 "Am"A/B/c "B7"B>^d "Em"e<E E ||
+F \
+| "G"G2 D>G B,>G G,>G | B,>G G,>G "A7"E>A, "D7"A,>F \
+| "G"G>B d>f g>d B>G | "Am"A/B/c "B7"B>^d "Em"e<E E>F |
+| "G"G2 D>G B,>G G,>G | B,>G G,>G "A7"E>A, "D7"A,>F \
+| "G"(3GAB "D"(3ABc "Em"Bcd "C"cde |1 "G"dcB "D"cBA "Em"BAG "B7"FE^D :|2 "G"dcB "D"cBA "Em"GE E |]
+
+%%sep 1 1 500
+
+X: 45
+T: Cortes Gardens
+C: J.S.Skinner
+R: strathspey
+M: 4/4
+L: 1/8
+K: Em
+B \
+| "Em"E2 G>E B>E G>E | B,>E G>E "D"F<D D>F \
+| "Em"E>G B>^d e>B G>E |1 "Am"A/B/c "B7"B>A "Em"G>F E :|2 "Am"A/B/c "B7"B>^d "Em"e<E E ||
+F \
+| "G"G2 D>G B,>G G,>G | B,>G G,>G "A7"E>A, "D7"A,>F \
+| "G"G>B d>f g>d B>G | "Am"A/B/c "B7"B>^d "Em"e<E E>F |
+| "G"G2 D>G B,>G G,>G | B,>G G,>G "A7"E>A, "D7"A,>F \
+| "G"(3GAB "D"(3ABc "Em"Bcd "C"cde |1 "G"dcB "D"cBA "Em"BAG "B7"FE^D :|2 "G"dcB "D"cBA "Em"GE E |]
+
+%%sep 1 1 500
+
+X: 46
+T: The Cradle Song
+C: J.S.Skinner
+R: air
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: C
+L: 1/8
+K: A
+| "A"Ac {c}BA e2 "D"f2 | "A"e4 c2z2 | "A"Ac {c}BA "F#m"{A}e2 c2 | "Bm"{c}B4- "E7"B2c2 \
+| "A"Ac {c}BA e2 "D"f2 | "A"e4 "A7"c2A2 | "D"{FG}FE AB "A"{AB}c2 "E7"{Ac}B2 | "A"A6 z2 |
+| "D"fd Ad f2 a2 | "A"e4 c2z2 | "A"Ac {c}BA "F#m"{A}e2 c2 | "Bm"{c}B4- "E7"B2z2 \
+| "A"Ac BA ef ga | "A"e4 "A7"c2 A2 | "D"{FG}FE AB "A"{AB}c2 "E7"{Ac}B2 | "A"A6 z2 |]
+
+%%sep 1 1 500
+
+X: 47
+T: The Cradle Song
+C: J.S.Skinner
+R: air
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: C
+L: 1/8
+K: A
+| "A"Ac {c}BA e2 "D"f2 | "A"e4 c2z2 | "A"Ac {c}BA "F#m"{A}e2 c2 | "Bm"{c}B4- "E7"B2c2 \
+| "A"Ac {c}BA e2 "D"f2 | "A"e4 "A7"c2A2 | "D"{FG}FE AB "A"{AB}c2 "E7"{Ac}B2 | "A"A6 z2 |
+| "D"fd Ad f2 a2 | "A"e4 c2z2 | "A"Ac {c}BA "F#m"{A}e2 c2 | "Bm"{c}B4- "E7"B2z2 \
+| "A"Ac BA ef ga | "A"e4 "A7"c2 A2 | "D"{FG}FE AB "A"{AB}c2 "E7"{Ac}B2 | "A"A6 z2 |]
+
+%%sep 1 1 500
+
+X: 48
+T: Dargai
+C: J.S.Skinner
+R: air, pibroch
+N: H&C p.146, SV p.42, Hunter #27
+M: 6/8
+L: 1/8
+Q: 1/8=80
+K: A
+| "A"c2A "E"B2A | "A"c2A He3 \
+| "A"c2A "E"B2A | "A"c2A "D"F2A |
+| "A"c2A "E"B2A | "A"c2A Ha2g/f/ \
+| "A"e2A e2c | "E7"HB3 "A"A2 ||
+c/d/ \
+| "A"e2A "D"f2A | "A"e2A Hc3 \
+| "A"e2A "D"f2A | "A"e2A "E"B2c/d/ |
+| "A"e2A "D"f2A | "A"e2A Ha2g/f/ \
+| "A"e2A e2c | "E7"HB3 "A"A2 z |]
+P: Var 1
+| "A"({d}c2A) "E"({Bd}B2A) | "A"({d}c2A) {A}He3 \
+| "A"({d}c2A) "E"({Bd}B2A) | "A"({d}c2A) "D"(F2A) |
+| "A"({d}c2A) "E"({Bd}B2A) | "A"({d}c2A) H({g}a2g/f/) \
+| "A"(e2A) ({A}e2c) | "E7"{Ad}HB3 "A"A2 ||
+(c/d/) \
+| "A"({f}e2A) "D"({fa}f2A) | "A"({f}e2A) {Ad}Hc3 \
+| "A"({f}e2A) "D"({fa}f2A) | "A"({f}e2A) "E"({Bd}B2c/d/) |
+| "A"({f}e2A) "D"({fa}f2A) | "A"({f}e2A) ({A}Ha2g/f/) \
+| "A"({f}e2A) ({A}e2c) | "E7"{Ad}HB3 "A"A2 z |]
+P: Var 2
+| "A"({d}c2{AdB}A) ({d}c2{AdB}A) | "A"({d}c2{AdB}A) {A}He3 \
+| "A"({d}c2{AdB}A) ({d}c2{AdB}A) | "A"({d}c2{AdB}A) "D"(F2{AdB}A) |
+| "A"({d}c2{AdB}A) ({d}c2{AdB}A) | "A"({d}c2{AdB}A) ({A}Ha2g/f/) \
+| "A"(e2{AdB}A) ({f}e2c) | "E7"{Ad}HB3 "A"A2 ||
+(c/d/) \
+| "A"({f}e2{AdB}A) "D"({fa}f2{AdB}A) | "A"({f}e2{AdB}A) {d}Hc3 \
+| "A"({f}e2{AdB}A) "D"({fa}f2{AdB}A) | "A"({f}e2{AdB}A) ({Bd}c2c/d/) |
+| "A"({f}e2{AdB}A) "D"({fa}f2{AdB}A) | "A"({f}e2{AdB}A) ({A}Ha2g/f/) \
+| "A"({f}e2{AdB}A) ({f}e2c) | "E7"{Ad}HB3 "A"A2 z |]
+
+%%sep 1 1 500
+
+X: 49
+T: Davie Taylor
+C: J.S.Skinner
+R: strathspey
+B: J.S>Skinner "The Scottish Violinist"
+S: handwritten MS by Barbara McOwen
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+F2 \
+| "G"G2FE D2EF G4 D3C | "G"B,D3 G3B "Am"AA,3 "D7"A,3F \
+| "G"G2FE D2EF "Em"G3g e3c | "G"Bd3 "D7"c3A "G"BG3 G2 ||
+F2 \
+| "G"G2FE D2EF G4 D3C | "G"B,D3 G3B "Am"AA,3 "D7"A,3F \
+| "G"G2FE D2EF "Em"G3g e3c | "G"Bd3 "D7"c3A "G"BG3 G2 |]
+c2 \
+| "B"Bcd2 G3g "C"e3g c3e | "A7"^cde2 A3a "D"fd3 "D7"d3=c \
+| "G"Bcd2 G3g "C"e3g c3e | "G"d3g "D7"A3d "G"BG3 G3 ||
+c \
+| "B"Bcd2 g3f "C"e3g c3e | "A7"^cde2 A3a "D"fd3 d3f \
+| "Em"(3g2f2e2 "D"(3d2e2f2 "G"(3g2d2c2 (3B2A2G2 |1 "Am"(3A2B2c2 "D7"(3c2B2A2 "G"BG3 G2 :|
+|2 "Am"(3F2E2D2 "D7"(3C2B,2A,2 | "G"B,G,3 HG,2 |]
+
+%%sep 1 1 500
+
+X: 50
+T: Davie Taylor
+C: J.S.Skinner
+R: strathspey
+B: J.S>Skinner "The Scottish Violinist"
+S: handwritten MS by Barbara McOwen
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+F2 \
+| "G"G2FE D2EF G4 D3C | "G"B,D3 G3B "Am"AA,3 "D7"A,3F \
+| "G"G2FE D2EF "Em"G3g e3c | "G"Bd3 "D7"c3A "G"BG3 G2 ||
+F2 \
+| "G"G2FE D2EF G4 D3C | "G"B,D3 G3B "Am"AA,3 "D7"A,3F \
+| "G"G2FE D2EF "Em"G3g e3c | "G"Bd3 "D7"c3A "G"BG3 G2 |]
+c2 \
+| "B"Bcd2 G3g "C"e3g c3e | "A7"^cde2 A3a "D"fd3 "D7"d3=c \
+| "G"Bcd2 G3g "C"e3g c3e | "G"d3g "D7"A3d "G"BG3 G3 ||
+c \
+| "B"Bcd2 g3f "C"e3g c3e | "A7"^cde2 A3a "D"fd3 d3f \
+| "Em"(3g2f2e2 "D"(3d2e2f2 "G"(3g2d2c2 (3B2A2G2 |1 "Am"(3A2B2c2 "D7"(3c2B2A2 "G"BG3 G2 :|
+|2 "Am"(3F2E2D2 "D7"(3C2B,2A,2 | "G"B,G,3 HG,2 |]
+
+%%sep 1 1 500
+
+X: 51
+T: Delnabo
+C: J.S.Skinner
+N: Skinner writes that this tune is named after the residence of the late
+N: Colonel Smith near 'Macpherson's cave'. Skinner suggests that his reel
+N: 'Mains of Gartly', from the Logie Collection, should follow it.
+R: strathspey
+B: J.S.Skinner "Harp & Claymore" 1904
+F: http://www.abdn.ac.uk/scottskinner/display.php?ID=JSS0110&Creator=1&Creator_Manuscript=1
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Em
+B,2 | E4 G3E B3E G3E | {G}[A4A4] =G3E F3D D4 | {F}G4 G3G d3G B3G | ABc2 B3^d e3E E2 :|
+f2  | gfe2 B3^d e3f g3e | d3f A3f F3A D3f | gfe2 B3^d e3f g3e | fc'3 b3a g2e2 e3 |]
+f   | gfe2 B3^d e3f gfe2 | f3a A3f | F3A D3F | (3G2F2E2 (3A2G2F2 (3B2A2G2 (3c2B2A2 | B8 ge3 e2 |]
+
+%%sep 1 1 500
+
+X: 52
+T: The Devil and the Dirk
+C: J.S.Skinner
+Z: John Chambers <jc:trillian.mit.edu>
+N: The Harp and Claymore, p.84 (with variations by Gavin Greig).
+N: The Caledonian Companion, Alastair J. Hardie, 1981, p.110.
+N: SV p.3
+N: SFT p.15
+M: C|
+L: 1/8
+K: D
+|: d | "D"~D2FD ADd2 | ADFD "A7"CE-EF | "D"~D2FD ADd2 | "A7"AFGE "D"FDD :|
+[| c | "Bm"dcBd "A7"cBAc | "G"BAGB "D"AGFA | "Em"GFEG "D"FEDF | "E7"EB,ED "A7"CEAc |
+     | "Bm"dcBd "A7"cBAc | "G"BAGB "D"AGFA | "A7"GEAG "D"FAdB | "A7"AFGE "D"FDD |]
+
+%%sep 1 1 500
+
+X: 53
+T: The Devil and the Dirk
+C: J.S.Skinner
+Z: John Chambers <jc:trillian.mit.edu>
+N: The Harp and Claymore, p.84 (with variations by Gavin Greig).
+N: The Caledonian Companion, Alastair J. Hardie, 1981, p.110.
+N: SV p.3
+N: SFT p.15
+M: C|
+L: 1/8
+K: D
+|: d | "D"~D2FD ADd2 | ADFD "A7"CE-EF | "D"~D2FD ADd2 | "A7"AFGE "D"FDD :|
+[| c | "Bm"dcBd "A7"cBAc | "G"BAGB "D"AGFA | "Em"GFEG "D"FEDF | "E7"EB,ED "A7"CEAc |
+     | "Bm"dcBd "A7"cBAc | "G"BAGB "D"AGFA | "A7"GEAG "D"FAdB | "A7"AFGE "D"FDD |]
+
+%%sep 1 1 500
+
+X: 54
+T: Donald Stewart the Piper
+R:reel
+C:J. Scott Skinner (1843-1927)
+Z:Andrew Kuntz <AIKuntz:aol.com>
+N:DONALD STEWART THE PIPER. Scottish, Reel. D Major. Standard. ABB'. Composed
+N:by Scottish virtuoso performer and composer J. Scott Skinner (1843-1927),
+N:although only first published in J. Murdoch Henderson's Scottish Music Maker
+N:(1957), some thirty years after Skinner's death. Hardie (Caledonian Companion)
+N:, 1986; pg. 19. Green Linnet GLCD 3105, Aly Bain - "Lonely Bird" (1996).
+N:Rounder 7004, Joe Cormier - "The Dances Down Home" (1977).
+L:1/8
+M:4/4
+K:D
+| (3DDD FA d3 A |  dcBA  GFED | (3CCC A,C ECA,C | edcB AGFE |
+| (3DDD FA d3 A |  defa  gfed | BcdB Aagf |1 edcB AG FE :|2 edcB AG Ac ||
+|:(3ddd fd Adfa | ^gaba =gfed | (3ccc Ac EDCB, | Acea ^ga=ge |
+| (3ddd fd Adfa | ^gaba =gfed | BcdB AdcB | AGFE DAFE :|
+
+%%sep 1 1 500
+
+X: 55
+T: Donald Stewart the Piper
+R:reel
+C:J. Scott Skinner (1843-1927)
+Z:Andrew Kuntz <AIKuntz:aol.com>
+N:DONALD STEWART THE PIPER. Scottish, Reel. D Major. Standard. ABB'. Composed
+N:by Scottish virtuoso performer and composer J. Scott Skinner (1843-1927),
+N:although only first published in J. Murdoch Henderson's Scottish Music Maker
+N:(1957), some thirty years after Skinner's death. Hardie (Caledonian Companion)
+N:, 1986; pg. 19. Green Linnet GLCD 3105, Aly Bain - "Lonely Bird" (1996).
+N:Rounder 7004, Joe Cormier - "The Dances Down Home" (1977).
+L:1/8
+M:4/4
+K:D
+| (3DDD FA d3 A |  dcBA  GFED | (3CCC A,C ECA,C | edcB AGFE |
+| (3DDD FA d3 A |  defa  gfed | BcdB Aagf |1 edcB AG FE :|2 edcB AG Ac ||
+|:(3ddd fd Adfa | ^gaba =gfed | (3ccc Ac EDCB, | Acea ^ga=ge |
+| (3ddd fd Adfa | ^gaba =gfed | BcdB AdcB | AGFE DAFE :|
+
+%%sep 1 1 500
+
+X: 56
+T: The Duchess Tree
+C: J.S.Skinner
+R: air, strathspey
+B: The Scottish Violinist p.36
+B: Logie Collection, 1888
+Z: John Chambers <jc:trillian.mit.edu>
+N: Skinner's version is written an octave higher.
+M: C
+L: 1/8
+K: A
+A>B |\
+"A"c2 c2 c2 Bc | "D"d2 F2 F2 G>F |\
+[1 "A"E2 A2 e2 c2 | "E7"(c2B4) :|\
+[2 "A"EF GA "E7"c2 B2 | "A"A6 ||
+B>c |\
+"D"d2 d2 d2 A>B | "A"c2 c2 c2 A>F |\
+"A"E2 A2 "F#m"e2 c2 | "Bm"(c2B2- "E7"B2) ||
+A>B |\
+"A"c2 c2 c2 B>c | "D"d2 F2 "E7"F2 GF |\
+"A"EF GA "E7"c2 B2 | "A"A6 |]
+
+%%sep 1 1 500
+
+X: 57
+T: The Duchess Tree
+C: J.S.Skinner
+R: air, strathspey
+B: The Scottish Violinist p.36
+B: Logie Collection, 1888
+Z: John Chambers <jc:trillian.mit.edu>
+N: Skinner's version is written an octave higher.
+M: C
+L: 1/8
+K: A
+A>B |\
+"A"c2 c2 c2 Bc | "D"d2 F2 F2 G>F |\
+[1 "A"E2 A2 e2 c2 | "E7"(c2B4) :|\
+[2 "A"EF GA "E7"c2 B2 | "A"A6 ||
+B>c |\
+"D"d2 d2 d2 A>B | "A"c2 c2 c2 A>F |\
+"A"E2 A2 "F#m"e2 c2 | "Bm"(c2B2- "E7"B2) ||
+A>B |\
+"A"c2 c2 c2 B>c | "D"d2 F2 "E7"F2 GF |\
+"A"EF GA "E7"c2 B2 | "A"A6 |]
+
+%%sep 1 1 500
+
+X: 58
+T: Duke of Fyfe's Welcome to Deeside
+C: J.S.Skinner
+Z: Mary Lou Knack <mlknack@bbn.COM>
+R: reel
+M: C|
+L: 1/8
+K: A
+E2 \
+| "A"[A,2E2]A2 A2(Bc) | "E"B2A2 "A"A2(Bc) | "D"d2(ef) "A"e2a2 | ecAc "E"B2E2 \
+| "A"[A,2E2]A2 A2(Bc) | "E"B2A2 "A"A2(Bc) | "D"d2(ef) "E"ecBc | "A"A4 A2 :|
+|: cd \
+| "A"e2cA a2ga | "D"f2a2 "A"e2c2 | "D"d2(ef) "A"e2a2 | ecAc "E"B2(cd) \
+| "A"e2cA a2ga | "D"f2a2 "A"e2c2 | "D"d2(ef) "E"ecBc | "A"A4 A2cd |
+| "A"e2cA a2ga | "D"f2a2 "A"e2c2 | "D"d2(ef) "A"e2a2 | ecAc "E"B2E2 \
+| "A"[A,2E2]A2 A2(Bc) | "E"B2A2 "A"A2(Bc) | "D"d2(ef) "E"ecBc | "A"A4 A2 :|
+
+%%sep 1 1 500
+
+X: 59
+T: Duke of Fyfe's Welcome to Deeside
+C: J.S.Skinner
+Z: Mary Lou Knack <mlknack@bbn.COM>
+R: reel
+M: C|
+L: 1/8
+K: A
+E2 \
+| "A"[A,2E2]A2 A2(Bc) | "E"B2A2 "A"A2(Bc) | "D"d2(ef) "A"e2a2 | ecAc "E"B2E2 \
+| "A"[A,2E2]A2 A2(Bc) | "E"B2A2 "A"A2(Bc) | "D"d2(ef) "E"ecBc | "A"A4 A2 :|
+|: cd \
+| "A"e2cA a2ga | "D"f2a2 "A"e2c2 | "D"d2(ef) "A"e2a2 | ecAc "E"B2(cd) \
+| "A"e2cA a2ga | "D"f2a2 "A"e2c2 | "D"d2(ef) "E"ecBc | "A"A4 A2cd |
+| "A"e2cA a2ga | "D"f2a2 "A"e2c2 | "D"d2(ef) "A"e2a2 | ecAc "E"B2E2 \
+| "A"[A,2E2]A2 A2(Bc) | "E"B2A2 "A"A2(Bc) | "D"d2(ef) "E"ecBc | "A"A4 A2 :|
+
+%%sep 1 1 500
+
+X: 60
+T: The Flower o' the Quern
+C: J.S.Skinner
+R: air
+M: 4/4
+L: 1/8
+K: A
+E2 \
+| "A"A2 A2 G2 FE | "D"d2 d2 "A"c2 e2 | e2 cB "F#m"A2 Bc | "Bm"B4- "E7"B2 E2 \
+| "A"A2 A2 G2 FE | "D"d2 d2 "A"c2 e2 | "Bm"ed FB "D"A2 "E"G2 | "A"A6 ||
+A2 \
+| "D"d2 d>d d2 f>f | "A"e2 e>c e2 a>f | e2 c>B "F#m"A2 Bc | "Bm"B4- "E7"B2 E2 \
+| "A"A2 A2 G2 FE | "D"d2 d2 "A"c2 e>e | "Bm"ed FB "E7"AG c>B | "A"A6 |]
+
+%%sep 1 1 500
+
+X: 61
+T: The Flower o' the Quern
+C: J.S.Skinner
+R: air
+M: 4/4
+L: 1/8
+K: A
+E2 \
+| "A"A2 A2 G2 FE | "D"d2 d2 "A"c2 e2 | e2 cB "F#m"A2 Bc | "Bm"B4- "E7"B2 E2 \
+| "A"A2 A2 G2 FE | "D"d2 d2 "A"c2 e2 | "Bm"ed FB "D"A2 "E"G2 | "A"A6 ||
+A2 \
+| "D"d2 d>d d2 f>f | "A"e2 e>c e2 a>f | e2 c>B "F#m"A2 Bc | "Bm"B4- "E7"B2 E2 \
+| "A"A2 A2 G2 FE | "D"d2 d2 "A"c2 e>e | "Bm"ed FB "E7"AG c>B | "A"A6 |]
+
+%%sep 1 1 500
+
+X: 62
+T: Forbes Morrison
+C:James Scott Skinner
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+F: http://www.abdn.ac.uk/scottskinner/display.php?ID=JSS0682 Oct 2009
+R:Strathspey
+K:A
+d \
+| "A"c<A E>D C>E A,>C | "D"D2 "Bm"B>A "E7"(3Bfe (3dcB \
+| "A"c<A E>D C>E A,>C | "Bm"(3DFB "E7"(3GEG "A"A3 :|
+g \
+| "D"a>f "E"g>e "D"f<d "A"e>c | "E"d>B "A"c>A "Bm"(3Bcd "E7"(3efg \
+| "D"a>f "E"g>e "D"f<d "A"e>c | "E7"(3Gfe (3dcB "A"A3 |]
+g \
+| "F#m"(3afa "C#dim"(3geg "D"(3fdf "A"(3ece | "E7"(3dBd "A"(3cAc "E7"(3Bcd (3efg \
+| "A"(3aga "E7"(3efg "A"(3aed (3cBA | "E7"(3GFE (3DCB, "A"A,3 |]
+
+%%sep 1 1 500
+
+X: 63
+T: Forbes Morrison
+C:James Scott Skinner
+M:4/4
+L:1/8
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+F: http://www.abdn.ac.uk/scottskinner/display.php?ID=JSS0682 Oct 2009
+R:Strathspey
+K:A
+d \
+| "A"c<A E>D C>E A,>C | "D"D2 "Bm"B>A "E7"(3Bfe (3dcB \
+| "A"c<A E>D C>E A,>C | "Bm"(3DFB "E7"(3GEG "A"A3 :|
+g \
+| "D"a>f "E"g>e "D"f<d "A"e>c | "E"d>B "A"c>A "Bm"(3Bcd "E7"(3efg \
+| "D"a>f "E"g>e "D"f<d "A"e>c | "E7"(3Gfe (3dcB "A"A3 |]
+g \
+| "F#m"(3afa "C#dim"(3geg "D"(3fdf "A"(3ece | "E7"(3dBd "A"(3cAc "E7"(3Bcd (3efg \
+| "A"(3aga "E7"(3efg "A"(3aed (3cBA | "E7"(3GFE (3DCB, "A"A,3 |]
+
+%%sep 1 1 500
+
+X: 64
+T: The Gay Gordons
+C: J.S.Skinner
+R: march
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+d2 \
+| "G"G2>A2 B2AG | "C"cBcd e2dc | "G"B2g2     B2AG | "D7"B2A2 A2d2 \
+| "G"G2>A2 B2AG | "C"cBcd e2dc | "G"B2g2 "D7"dBcA |  "G"B2G2 G2 :|
+d2 \
+| "G"g2>e2 d2cB | "C"cBcd e2dc | "G"B2g2 "Em"B2AG | "Am"B2A2 "D7"A2d2 \
+| "G"g2>e2 d2cB | "C"cBcd e2dc | "G"B2g2 "D7"dBcA |  "G"B2G2 G2 |]
+d2 \
+| "G"g2>e2 d2cB | "C"cBcd e2dc | "G"B2g2 "Em"B2AG | "A7"B2A2 "D7"A2d2 \
+| "G"G2>A2 B2AG | "C"cBcd e2dc | "G"B2g2 "D7"dBcA |  "G"B2G2 G2 |]
+
+%%sep 1 1 500
+
+X: 65
+T: The Gay Gordons
+C: J.S.Skinner
+M: 2/4
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+L: 1/8
+K: G
+D \
+|: "G"G>A BA/G/ | "C"c>d ed/c/ | "G"Bg     BA/G/    | "D7"BA AD \
+|  "G"G>A BA/G/ | "C"c>d ed/c/ | "G"Bg "D7"d/B/c/A/ | "G"BG G :|
+d \
+| "G"g>e dc/B/ | "C"c>d ed/c/ | "G"Bg "Em"BA/G/    | "Am"BA "D7"Ad \
+| "G"g>e dc/B/ | "C"c>d ed/c/ | "G"Bg "D7"d/B/c/A/ | "G"BG G |]
+d \
+| "G"g>e dc/B/ | "C"c>d ed/c/ | "G"Bg "Em"BA/G/    | "A7"BA "D7"Ad \
+| "G"G>A BA/G/ | "C"c>d ed/c/ | "G"Bg "D7"d/B/c/A/ | "G"BG G |]
+
+%%sep 1 1 500
+
+X: 66
+T: The Gay Gordons
+C: J.S.Skinner
+R: march
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+d2 \
+| "G"G2>A2 B2AG | "C"cBcd e2dc | "G"B2g2     B2AG | "D7"B2A2 A2d2 \
+| "G"G2>A2 B2AG | "C"cBcd e2dc | "G"B2g2 "D7"dBcA |  "G"B2G2 G2 :|
+d2 \
+| "G"g2>e2 d2cB | "C"cBcd e2dc | "G"B2g2 "Em"B2AG | "Am"B2A2 "D7"A2d2 \
+| "G"g2>e2 d2cB | "C"cBcd e2dc | "G"B2g2 "D7"dBcA |  "G"B2G2 G2 |]
+d2 \
+| "G"g2>e2 d2cB | "C"cBcd e2dc | "G"B2g2 "Em"B2AG | "A7"B2A2 "D7"A2d2 \
+| "G"G2>A2 B2AG | "C"cBcd e2dc | "G"B2g2 "D7"dBcA |  "G"B2G2 G2 |]
+
+%%sep 1 1 500
+
+X: 67
+T: The Gay Gordons
+C: J.S.Skinner
+M: 2/4
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+L: 1/8
+K: G
+D \
+|: "G"G>A BA/G/ | "C"c>d ed/c/ | "G"Bg     BA/G/    | "D7"BA AD \
+|  "G"G>A BA/G/ | "C"c>d ed/c/ | "G"Bg "D7"d/B/c/A/ | "G"BG G :|
+d \
+| "G"g>e dc/B/ | "C"c>d ed/c/ | "G"Bg "Em"BA/G/    | "Am"BA "D7"Ad \
+| "G"g>e dc/B/ | "C"c>d ed/c/ | "G"Bg "D7"d/B/c/A/ | "G"BG G |]
+d \
+| "G"g>e dc/B/ | "C"c>d ed/c/ | "G"Bg "Em"BA/G/    | "A7"BA "D7"Ad \
+| "G"G>A BA/G/ | "C"c>d ed/c/ | "G"Bg "D7"d/B/c/A/ | "G"BG G |]
+
+%%sep 1 1 500
+
+X: 68
+T: The Haunt of the Gnomes
+C:J.S.Skinner
+M:C
+L:1/8
+R:Air
+N:"Slowly and languidly"
+S:Skinner - The Scottish Violinist
+Z:AK/Fiddler's Companion
+K:A
+E2 \
+| "A"EAGA "F#m"d2c2 | "Bm"F4 "B7"B2A2 \
+| "E7"GAB^B c=BGF | "A"E6 "(E)"E2 \
+| "A"EAGA "F#m"d2c2 | "Bm"F4 "B7"B2A2 \
+| "E7"GA^A=B edFG | "A"A6 |]
+c2 \
+| "A"ca^de ^BcGA | "D"g4f2 z2 \
+| "E7"EGBd edGd | "A"c6c2 \
+| "A"ca^de "(F#m)"^BcG{B}A | "D"G4 "(Bm)"F2=F2 \
+| "E7"EGBd edGB | "A"A6 |]
+
+%%sep 1 1 500
+
+X: 69
+T: The Haunt of the Gnomes
+C:J.S.Skinner
+M:C
+L:1/8
+R:Air
+N:"Slowly and languidly"
+S:Skinner - The Scottish Violinist
+Z:AK/Fiddler's Companion
+K:A
+E2 \
+| "A"EAGA "F#m"d2c2 | "Bm"F4 "B7"B2A2 \
+| "E7"GAB^B c=BGF | "A"E6 "(E)"E2 \
+| "A"EAGA "F#m"d2c2 | "Bm"F4 "B7"B2A2 \
+| "E7"GA^A=B edFG | "A"A6 |]
+c2 \
+| "A"ca^de ^BcGA | "D"g4f2 z2 \
+| "E7"EGBd edGd | "A"c6c2 \
+| "A"ca^de "(F#m)"^BcG{B}A | "D"G4 "(Bm)"F2=F2 \
+| "E7"EGBd edGB | "A"A6 |]
+
+%%sep 1 1 500
+
+X: 70
+T: Hector the Hero
+C: J.S.Skinner
+L: 1/4
+Z: John Chambers <jc@trillian.mit.edu>
+N: With help from versions of <martin@easyweb.co.UK> and James Allwright's ABC version of the Nottingham Music Database.
+M: 3/4
+Q: 150
+K: Bb
+|: Bc \
+|  "Bb"d3/2c/2B | "Eb"g2f/2d/2 | "Bb"f2-f/2g/2 | "Bb"f2B/2c/2 | "Gm"d2c/2B/2 | "Eb"g2f/2d/2 |
+| "Cm"c2-c/2d/2 | "F"c2d/2f/2 | "Gm"d3/2c/2B | "Eb"g2f/2d/2 | "Bb"f2B | "Eb"b2g | "Bb"f2B/2d/2 |
+| "F"c2B | "Bb"B3- | "Bb"B :: df |  "Eb"g2e/2g/2 | "Eb"b2a/2g/2 | "Bb"f2-f/2g/2 | "Bb"f2d/2f/2 |
+| "Gm"g2f/2d/2 | "Gm"f2B/2d/2 | "Cm"c2-c/2d/2 | "F"c2d/2f/2 | "Gm"g2e/2g/2 | "Eb"b2a/2g/2 |
+|1 "Bb"f2e/2d/2 | "Eb"b2e | "Bb"d2B/2d/2 | "F"c2B | "Bb"B3- | "Bb"B :|2 "Bb"f2B | "Eb"b2g | "Bb"f2B/2d/2 | "F"c2B | "Bb"B3- | "Bb"B |]
+
+%%sep 1 1 500
+
+X: 71
+T: Hector the Hero
+C: J.S.Skinner
+L: 1/4
+Z: John Chambers <jc@trillian.mit.edu>
+N: With help from versions of <martin@easyweb.co.UK> and James Allwright's ABC version of the Nottingham Music Database.
+M: 3/4
+Q: 150
+K: Bb
+|: Bc \
+|  "Bb"d3/2c/2B | "Eb"g2f/2d/2 | "Bb"f2-f/2g/2 | "Bb"f2B/2c/2 | "Gm"d2c/2B/2 | "Eb"g2f/2d/2 |
+| "Cm"c2-c/2d/2 | "F"c2d/2f/2 | "Gm"d3/2c/2B | "Eb"g2f/2d/2 | "Bb"f2B | "Eb"b2g | "Bb"f2B/2d/2 |
+| "F"c2B | "Bb"B3- | "Bb"B :: df |  "Eb"g2e/2g/2 | "Eb"b2a/2g/2 | "Bb"f2-f/2g/2 | "Bb"f2d/2f/2 |
+| "Gm"g2f/2d/2 | "Gm"f2B/2d/2 | "Cm"c2-c/2d/2 | "F"c2d/2f/2 | "Gm"g2e/2g/2 | "Eb"b2a/2g/2 |
+|1 "Bb"f2e/2d/2 | "Eb"b2e | "Bb"d2B/2d/2 | "F"c2B | "Bb"B3- | "Bb"B :|2 "Bb"f2B | "Eb"b2g | "Bb"f2B/2d/2 | "F"c2B | "Bb"B3- | "Bb"B |]
+
+%%sep 1 1 500
+
+X: 72
+T: Herr Rolloff's Farewell
+C:James Scott Skinner
+B:Harp & Claymore
+Z:Nigel Gatherer scots-l 2004-8-20
+M:4/4
+L:1/8
+K:F
+C | A2 B>G c2 AF | f2 e>d c2 F2 | E2 F2  D2 EF | B2 A2 G3
+C | A2 B>G c2 AF | f2 e>d c2 F2 | E2 F>D C2 FB | A2 G2 F3 ||
+A | A2 d>e f2 ed | e2 A2  d3  G | G2 cd  e2 dc | d2 G2 c3
+C | A2 B>G c2 AF | f2 B>d c2 AF | E2 F2  C2 FB | A2 G2 F3 ||
+
+%%sep 1 1 500
+
+X: 73
+T: Highland Schottische, or Strathspey
+C: J.Scott Skinner
+R: shottish, strathspey
+B: H&C p.77
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+| "D"{c}d3A A4 "G"d3B B4  | "D"A3F D3F "A7"E3C A,4 \
+| "D"{c}d3A A4 "G"d3B B3d | "E7"(cBA2) E3^G "A"A4- A2z2 |
+| "D"{c}d3A A4 "G"d3B B4  | "D"A3F D3F "A7"E3C A,3A \
+| "D"{c}d3A A4 "G"d3-B "D"A3-G | "A7"(FED2) A,3C "D"{C}D4- D2 ||
+g2 \
+| "D"(fed2) a3c' {c'}d'3a f3d | "A"(cBA2) e3^g a3e c3A \
+| "D"(fed2) a3c' {c'}d'3a f3d' | "E7"(c'ba2) e3^g "A"{g}a4- a3=g |
+| "D"(fed2) a3c' {c'}d'3a f3d | "A"(cBA2) e3^g a3e c3A \
+| "Bm".d.c.B2 "A".A.B.c2 "Em".d.c.B2 "A7"A2zG | "D"FED2 "A7"A,3C "D"{C}D4- D2 |]
+
+%%sep 1 1 500
+
+X: 74
+T: Highland Schottische, or Strathspey
+C: J.Scott Skinner
+R: shottish, strathspey
+B: H&C p.77
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+| "D"{c}d3A A4 "G"d3B B4  | "D"A3F D3F "A7"E3C A,4 \
+| "D"{c}d3A A4 "G"d3B B3d | "E7"(cBA2) E3^G "A"A4- A2z2 |
+| "D"{c}d3A A4 "G"d3B B4  | "D"A3F D3F "A7"E3C A,3A \
+| "D"{c}d3A A4 "G"d3-B "D"A3-G | "A7"(FED2) A,3C "D"{C}D4- D2 ||
+g2 \
+| "D"(fed2) a3c' {c'}d'3a f3d | "A"(cBA2) e3^g a3e c3A \
+| "D"(fed2) a3c' {c'}d'3a f3d' | "E7"(c'ba2) e3^g "A"{g}a4- a3=g |
+| "D"(fed2) a3c' {c'}d'3a f3d | "A"(cBA2) e3^g a3e c3A \
+| "Bm".d.c.B2 "A".A.B.c2 "Em".d.c.B2 "A7"A2zG | "D"FED2 "A7"A,3C "D"{C}D4- D2 |]
+
+%%sep 1 1 500
+
+X: 75
+T: The Hill O'Nigg
+R: strathspey
+C: J.S.Skinner
+B: RSCDS 38-2
+Z: 2000 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: C
+F/ \
+| "C"E>F G>_B "F"A2 F>A | "C"G>F E>c "G7"d<D D>F \
+| "C"E>F G>_B "F"A2 F>A |1 "G7"G>c B<d "C"c<C C3/ :|2 "G7"G>c B<g "C"e<c c> |]
+g \
+| "C"c'>e "F"f<a "C"g>c B<c | "F"A>c "C"G<c "Dm"d<D "G7"D>g \
+| "C"c'>e "F"f<a "C"g>c B<c | "F"A>c "G7"G<c "C"E<C C> |]
+g \
+| "C"c'>e "F"f<a "C"g>c B<c | "F"A/B/c "C"G<c "Dm"d<D "G7"D>F \
+| "C"E>F G>_B "F"A2 F>A | "G7"G>c B<g "C"e<c c> |]
+
+%%sep 1 1 500
+
+X: 76
+T: The Hill O'Nigg
+R: strathspey
+C: J.S.Skinner
+B: RSCDS 38-2
+Z: 2000 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: C
+F/ \
+| "C"E>F G>_B "F"A2 F>A | "C"G>F E>c "G7"d<D D>F \
+| "C"E>F G>_B "F"A2 F>A |1 "G7"G>c B<d "C"c<C C3/ :|2 "G7"G>c B<g "C"e<c c> |]
+g \
+| "C"c'>e "F"f<a "C"g>c B<c | "F"A>c "C"G<c "Dm"d<D "G7"D>g \
+| "C"c'>e "F"f<a "C"g>c B<c | "F"A>c "G7"G<c "C"E<C C> |]
+g \
+| "C"c'>e "F"f<a "C"g>c B<c | "F"A/B/c "C"G<c "Dm"d<D "G7"D>F \
+| "C"E>F G>_B "F"A2 F>A | "G7"G>c B<g "C"e<c c> |]
+
+%%sep 1 1 500
+
+X: 77
+T: The Iron Man
+C: J.S.Skinner
+Z: John Chambers <jc:trillian.mit.edu>
+N: Hunter 128; Gathering of Clans p.40; BSFC III-10 and IV-9; Phillips p.31
+D: Winston Scotty Fitzgerald on Celtic 17
+D: Tommy Peoples on Iron Man tape
+L: 1/8
+M: 4/4
+K: A
+E \
+| "A"A2 c>A "E7"B>G "A"A>B | c2 e>c "E7"d>B "A"c<e \
+| "D"f2 d>f "A"e2 c>e | "Bm"(3dcB (3cBA "E7"G<B B>c |
+| "A"A2 c>A "E7"B>G "A"A>B | c2 e>c "E7"d>B "A"c<e \
+| "D"f2 d>f "A"e<a c>A | "Bm"(3Bcd "E7"(3dcB "A"c<A A |]
+g \
+| "A"a>A g>A "(D)"f>A "A"e>A | (3cBA e>g a>e c>A \
+| "E7"d>E c>E B>E c>E | (3dcB (3cBA (3Bcd (3efg |
+| "A"a>A g>A "(D)"f>A "A"e>A | (3cBA e>g a>e c>A \
+| "D"d2f>d "A"(3eag (3fed | "E7"(3cBA (3GAB "A"c<A A |]
+
+%%sep 1 1 500
+
+X: 78
+T: The Iron Man
+C: J.S.Skinner
+Z: John Chambers <jc:trillian.mit.edu>
+N: Hunter 128; Gathering of Clans p.40; BSFC III-10 and IV-9; Phillips p.31
+D: Winston Scotty Fitzgerald on Celtic 17
+D: Tommy Peoples on Iron Man tape
+L: 1/8
+M: 4/4
+K: A
+E \
+| "A"A2 c>A "E7"B>G "A"A>B | c2 e>c "E7"d>B "A"c<e \
+|1 "D"f2 d>f "A"e2 c>e | "Bm"(3dcB (3cBA "E7"G<B B>c |
+:|2 "D"f2 d>f "A"e<a c>A | "Bm"(3Bcd "E7"(3dcB "A"c<A A |]
+|: g \
+| "A"a>A g>A "(D)"f>A "A"e>A | (3cBA e>g a>e c>A |
+|1 "E7"d>E c>E B>E c>E | (3dcB (3cBA (3Bcd (3efg \
+:|2 "D"d2f>d "A"(3eag (3fed | "E7"(3cBA (3GAB "A"c<A A |]
+
+%%sep 1 1 500
+
+X: 79
+T: John Marshall
+M:C
+L:1/8
+R:Strathspey
+C:J.Scott Skinner (1843-1927)
+B:Skinner "Harp and Claymore" 1904 p.67
+N:Composed in honor of an Aberdeen violin maker who restored Skinner's violin.
+Z:AK/Fiddler’s Companion
+K:Em
+|: B,<E {F}(G>)E B>E {^d}(e>)^c | {^c}(d2) A<d F>A [D2D2] \
+|  B,<E {F}(G>)E B>E [ee]>g | f>e ^d<f g<e eB :|
+[| [ee]>.f .g/.f/.e/.g/ .f/.e/.^d/.f/ [ee]>^c | {^c}(d2) A>d F>A [DD]>d \
+|  [ee]>f g/f/e/g/ f/e/^d/f/ e>g | f<c b>a g<e e>B ||
+|| [ee]>f g/f/e/g/ f/e/^d/f/ [ee]>^c | {^c}(d2) A>d F>A D<d \
+|  B,<E G>E B>E [ee]>g | .a/.g/.f/.e/ ^d<b g<e e2 |]
+
+%%sep 1 1 500
+
+X: 80
+T: John McNeill's Highland Fling
+C:James Scott Skinner
+B:Harp & Claymore
+Z:Nigel Gatherer scots-l 2002-8-5
+M:4/4
+L:1/8
+K:A
+a | e>A A/A/A  a>Ac<a      | c/d/e =g>d  B>GG>f    |
+    e>A A/A/A  a>Ac<a      | c/d/e  a>e  c>AA     :|
+e | a/g/f e>A  a>Ac<a      | =g/f/e d>G  g>GB<g    |
+    a/g/f e>A  a>Ae>d      | c/d/e  a>e  c>AA>e    |
+   (3agf (3edc (3agf (3edc | (3gfe (3dcB (3gfe d>f |
+    e>A A/A/A  a>Ac<a      | c/d/e  a>e  c>AA     |]
+
+%%sep 1 1 500
+
+X: 81
+T: John McNeill's Highland Fling
+C:James Scott Skinner
+B:Harp & Claymore
+Z:Nigel Gatherer scots-l 2002-8-5
+M:4/4
+L:1/8
+K:A
+a | e>A A/A/A  a>Ac<a      | c/d/e =g>d  B>GG>f    |
+    e>A A/A/A  a>Ac<a      | c/d/e  a>e  c>AA     :|
+e | a/g/f e>A  a>Ac<a      | =g/f/e d>G  g>GB<g    |
+    a/g/f e>A  a>Ae>d      | c/d/e  a>e  c>AA>e    |
+   (3agf (3edc (3agf (3edc | (3gfe (3dcB (3gfe d>f |
+    e>A A/A/A  a>Ac<a      | c/d/e  a>e  c>AA     |]
+
+%%sep 1 1 500
+
+X: 82
+T: John Marshall
+M:C
+L:1/8
+R:Strathspey
+C:J.Scott Skinner (1843-1927)
+B:Skinner "Harp and Claymore" 1904 p.67
+N:Composed in honor of an Aberdeen violin maker who restored Skinner's violin.
+Z:AK/Fiddler’s Companion
+K:Em
+|: B,<E {F}(G>)E B>E {^d}(e>)^c | {^c}(d2) A<d F>A [D2D2] \
+|  B,<E {F}(G>)E B>E [ee]>g | f>e ^d<f g<e eB :|
+[| [ee]>.f .g/.f/.e/.g/ .f/.e/.^d/.f/ [ee]>^c | {^c}(d2) A>d F>A [DD]>d \
+|  [ee]>f g/f/e/g/ f/e/^d/f/ e>g | f<c b>a g<e e>B ||
+|| [ee]>f g/f/e/g/ f/e/^d/f/ [ee]>^c | {^c}(d2) A>d F>A D<d \
+|  B,<E G>E B>E [ee]>g | .a/.g/.f/.e/ ^d<b g<e e2 |]
+
+%%sep 1 1 500
+
+X: 83
+T: John McNeill's Highland Fling
+C:James Scott Skinner
+B:Harp & Claymore
+Z:Nigel Gatherer scots-l 2002-8-5
+M:4/4
+L:1/8
+K:A
+a | e>A A/A/A  a>Ac<a      | c/d/e =g>d  B>GG>f    |
+    e>A A/A/A  a>Ac<a      | c/d/e  a>e  c>AA     :|
+e | a/g/f e>A  a>Ac<a      | =g/f/e d>G  g>GB<g    |
+    a/g/f e>A  a>Ae>d      | c/d/e  a>e  c>AA>e    |
+   (3agf (3edc (3agf (3edc | (3gfe (3dcB (3gfe d>f |
+    e>A A/A/A  a>Ac<a      | c/d/e  a>e  c>AA     |]
+
+%%sep 1 1 500
+
+X: 84
+T: John McNeill's Highland Fling
+C:James Scott Skinner
+B:Harp & Claymore
+Z:Nigel Gatherer scots-l 2002-8-5
+M:4/4
+L:1/8
+K:A
+a | e>A A/A/A  a>Ac<a      | c/d/e =g>d  B>GG>f    |
+    e>A A/A/A  a>Ac<a      | c/d/e  a>e  c>AA     :|
+e | a/g/f e>A  a>Ac<a      | =g/f/e d>G  g>GB<g    |
+    a/g/f e>A  a>Ae>d      | c/d/e  a>e  c>AA>e    |
+   (3agf (3edc (3agf (3edc | (3gfe (3dcB (3gfe d>f |
+    e>A A/A/A  a>Ac<a      | c/d/e  a>e  c>AA     |]
+
+%%sep 1 1 500
+
+X: 85
+T: The Kirrie Kebbuck
+C: J.S.Skinner
+R: strathspey
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+B \
+| "D"A<F F>A "G"B<G G>B | "A7"c>A e>c "D"(3dfe (3dcB \
+| "D"A<F F>A "G"B<G G>B |1 "A7"c>A g>c "D"d3 :|2 "A7"(3Agf (3edc "D"d3 |]
+g \
+| "D"f>g a>f d<a f>d | "G"g>a b>g  "A7"e<b g>e \
+| "D"f>g a>f "Bm"d<a f>d | "Em"(3Bgf "A7"(3edc "D"d3 |]
+g \
+| "D"f>g a>f "Bm"(3dag (3fed | "Em"g>a b>g  "A7"(3eba (3gfe \
+| "D"(3fed "A7"(3edc "Bm"(3dcB "A7"A>G | "D"F<D "A7"E>C "D"D3 |]
+
+%%sep 1 1 500
+
+X: 86
+T: The Kirrie Kebbuck
+C: J.S.Skinner
+R: strathspey
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+B \
+| "D"A<F F>A "G"B<G G>B | "A7"c>A e>c "D"(3dfe (3dcB \
+| "D"A<F F>A "G"B<G G>B |1 "A7"c>A g>c "D"d3 :|2 "A7"(3Agf (3edc "D"d3 |]
+g \
+| "D"f>g a>f d<a f>d | "G"g>a b>g  "A7"e<b g>e \
+| "D"f>g a>f "Bm"d<a f>d | "Em"(3Bgf "A7"(3edc "D"d3 |]
+g \
+| "D"f>g a>f "Bm"(3dag (3fed | "Em"g>a b>g  "A7"(3eba (3gfe \
+| "D"(3fed "A7"(3edc "Bm"(3dcB "A7"A>G | "D"F<D "A7"E>C "D"D3 |]
+
+%%sep 1 1 500
+
+X: 87
+T: The Laird o' Drumblair
+T: Angus Campbell
+C: J.S.Skinner
+R: strathspey, shottish
+B: Caledonian Companion, p.73.
+B: Harp and Claymore, p.93.
+B: The Scottish Violinist, J.S.Skinner, p 10.
+N: Hunter 134; BSFC IV-20; Bain 13
+D: Ron Ganella on three fiddles tape
+N: Skinner also published this tune as the reel "Angus Campbell".
+M: 4/4
+L: 1/8
+K: A
+E2 \
+| "A"~A2 c>A E-<A c>e | {g}a2 g>a f-<a e>c \
+| "D"(3def "(E)"(3efg "A"(3aed (3cBA | "Bm"(3Bcd (3cBA "E7"(3GFE (3dcB |
+y3 \
+| "A"~A2 c>A E-<A c>e | {g}a2 g>a f-<a e>c \
+| "D"(3def "(E)"(3efg "A"(3aed (3cBA | "E7"(3GFE (3dcB "A"{G}A2 |]
+(3efg \
+| "A"{g}a2 e>a c-<a A>a | c/B/A e>A a>e c-<A \
+| "Bm"{^a}b2 f>b d-<b B>b | d/c/B f>B "E7"b>B d-<b |
+y3 \
+| "A"{g}a2 e>a c-<a A>a | c/B/A e>A a>e c-<A \
+| "D"(3def "(E)"(3efg "A"(3aed (3cBA | "E7"(3GFE (3dcB "A"{G}A2 |]
+
+%%sep 1 1 500
+
+X: 88
+T: The Laird o' Drumblair
+T: Angus Campbell
+C: J.S.Skinner
+R: strathspey, shottish
+B: Caledonian Companion, p.73.
+B: Harp and Claymore, p.93.
+B: The Scottish Violinist, J.S.Skinner, p 10.
+N: Hunter 134; BSFC IV-20; Bain 13
+D: Ron Ganella on three fiddles tape
+N: Skinner also published this tune as the reel "Angus Campbell".
+M: 4/4
+L: 1/8
+K: A
+E2 \
+| "A"~A2 c>A E-<A c>e | {g}a2 g>a f-<a e>c \
+| "D"(3def "(E)"(3efg "A"(3aed (3cBA | "Bm"(3Bcd (3cBA "E7"(3GFE (3dcB |
+y3 \
+| "A"~A2 c>A E-<A c>e | {g}a2 g>a f-<a e>c \
+| "D"(3def "(E)"(3efg "A"(3aed (3cBA | "E7"(3GFE (3dcB "A"{G}A2 |]
+(3efg \
+| "A"{g}a2 e>a c-<a A>a | c/B/A e>A a>e c-<A \
+| "Bm"{^a}b2 f>b d-<b B>b | d/c/B f>B "E7"b>B d-<b |
+y3 \
+| "A"{g}a2 e>a c-<a A>a | c/B/A e>A a>e c-<A \
+| "D"(3def "(E)"(3efg "A"(3aed (3cBA | "E7"(3GFE (3dcB "A"{G}A2 |]
+
+%%sep 1 1 500
+
+X: 89
+T: Lawson's Strathspey
+C:James Scott Skinner
+Z:Nigel Gatherer <gatherer@argonet.co.uk>
+M:4/4
+L:1/8
+K:D
+z | D<D A>D B>D Ac | d>c B<d A>D C<E | D<D A>D B>D A>F | G/F/E A>G F<D D :|
+g | (3fed (3edc (3dcB A>F | (3GAB (3AFD G>E C>g | (3fed (3edc (3dDE (3FGA | B<d A>G F<D Dg |
+  | (3fed (3edc (3dcB A>F | (3GAB (3AFD G>E C>E | D<D A>D B>D A>g | (3fga (3gfe d<D D |]
+
+%%sep 1 1 500
+
+X: 90
+T: Lawson's Strathspey
+C:James Scott Skinner
+Z:Nigel Gatherer <gatherer@argonet.co.uk>
+M:4/4
+L:1/8
+K:D
+z | D<D A>D B>D Ac | d>c B<d A>D C<E | D<D A>D B>D A>F | G/F/E A>G F<D D :|
+g | (3fed (3edc (3dcB A>F | (3GAB (3AFD G>E C>g | (3fed (3edc (3dDE (3FGA | B<d A>G F<D Dg |
+  | (3fed (3edc (3dcB A>F | (3GAB (3AFD G>E C>E | D<D A>D B>D A>g | (3fga (3gfe d<D D |]
+
+%%sep 1 1 500
+
+X: 91
+T: Lawson's Strathspey
+C:James Scott Skinner
+Z:Nigel Gatherer <gatherer@argonet.co.uk>
+M:4/4
+L:1/8
+K:D
+z | D<D A>D B>D Ac | d>c B<d A>D C<E | D<D A>D B>D A>F | G/F/E A>G F<D D :|
+g | (3fed (3edc (3dcB A>F | (3GAB (3AFD G>E C>g | (3fed (3edc (3dDE (3FGA | B<d A>G F<D Dg |
+  | (3fed (3edc (3dcB A>F | (3GAB (3AFD G>E C>E | D<D A>D B>D A>g | (3fga (3gfe d<D D |]
+
+%%sep 1 1 500
+
+X: 92
+T: Lawson's Strathspey
+C:James Scott Skinner
+Z:Nigel Gatherer <gatherer@argonet.co.uk>
+M:4/4
+L:1/8
+K:D
+z | D<D A>D B>D Ac | d>c B<d A>D C<E | D<D A>D B>D A>F | G/F/E A>G F<D D :|
+g | (3fed (3edc (3dcB A>F | (3GAB (3AFD G>E C>g | (3fed (3edc (3dDE (3FGA | B<d A>G F<D Dg |
+  | (3fed (3edc (3dcB A>F | (3GAB (3AFD G>E C>E | D<D A>D B>D A>g | (3fga (3gfe d<D D |]
+
+%%sep 1 1 500
+
+X: 93
+T: The Left-Handed Fiddler
+C: J.S.Skinner
+N: H&C p.95, Battlefield's version p.31, Hunter 240)
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: d \
+| "A"cAce {g}a2ed | cAEA "E7"GB-Bd | "A"cAce ae"D"fd | "E7"ecdB "A"cAAd |
+| "A"cAce {g}a2ed | cAEA "E7"GB-BG | "A"AcBd cedf | "E7"ecdB "A"cAA :|
+|: g \
+| "A"~a2Aa caAa | caAa "E7"BcdB | "A"~a2Aa caAa | "E7"BcdB "A"cAAg || "A"~a2Aa caAa |
+| caAa "E7"BcdB |1 "A"cAdB eagf | "E7"ecdB "A"cAA :|2 "A"~AEcA "Bm"dBec | "E7"fdge "A"{g}aAA |]
+
+%%sep 1 1 500
+
+X: 94
+T: The Left-Handed Fiddler
+C: J.S.Skinner
+N: H&C p.95, Battlefield's version p.31, Hunter 240)
+N: This is Skinner's version; most people seem to play a different final ending.
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+d \
+| "A"cAce {g}a2ed | cAEA "E7"GB-Bd | "A"cAce ae"D"fd | "E7"ecdB "A"cAA ||
+yd \
+| "A"cAce {g}a2ed | cAEA "E7"GB-BG | "A"AcBd cedf | "E7"ecdB "A"cAA :|
+|: g \
+| "A"~a2Aa caAa | caAa "E7"BcdB | "A"~a2Aa caAa | "E7"BcdB "A"cAA ||
+yg \
+| "A"~a2Aa caAa | caAa "E7"BcdB | "A"~AEcA "Bm"dBec | "E7"fdge "A"{g}aAA :|
+
+%%sep 1 1 500
+
+X: 95
+T: The Left-Handed Fiddler
+C: J.S.Skinner
+N: H&C p.95, Battlefield's version p.31, Hunter 240)
+N: This has the commonly-played final ending, which is different from Skinner's.
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+d \
+| "A"cAce {g}a2ed | cAEA "E7"GB-Bd | "A"cAce ae"D"fd | "E7"ecdB "A"cAA ||
+yd \
+| "A"cAce {g}a2ed | cAEA "E7"GB-BG | "A"Ac"E"Bd "A"ce"D"df | "E7"ecdB "A"cAA :|
+|: g \
+| "A"~a2Aa caAa | caAa "E7"BcdB | "A"~a2Aa caAa | "E7"BcdB "A"cAA ||
+yg \
+| "A"~a2Aa caAa | caAa "E7"BcdB | "A"cA"E"dB "A"eagf | "E7"ecdB "A"cAA :|
+
+%%sep 1 1 500
+
+X: 96
+T: The Left-Handed Fiddler
+C: J.S.Skinner
+N: H&C p.95, Battlefield's version p.31, Hunter 240)
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: d \
+| "A"cAce {g}a2ed | cAEA "E7"GB-Bd | "A"cAce ae"D"fd | "E7"ecdB "A"cAAd |
+| "A"cAce {g}a2ed | cAEA "E7"GB-BG | "A"AcBd cedf | "E7"ecdB "A"cAA :|
+|: g \
+| "A"~a2Aa caAa | caAa "E7"BcdB | "A"~a2Aa caAa | "E7"BcdB "A"cAAg || "A"~a2Aa caAa |
+| caAa "E7"BcdB |1 "A"cAdB eagf | "E7"ecdB "A"cAA :|2 "A"~AEcA "Bm"dBec | "E7"fdge "A"{g}aAA |]
+
+%%sep 1 1 500
+
+X: 97
+T: The Left-Handed Fiddler
+C: J.S.Skinner
+N: H&C p.95, Battlefield's version p.31, Hunter 240)
+N: This is Skinner's version; most people seem to play a different final ending.
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+d \
+| "A"cAce {g}a2ed | cAEA "E7"GB-Bd | "A"cAce ae"D"fd | "E7"ecdB "A"cAA ||
+yd \
+| "A"cAce {g}a2ed | cAEA "E7"GB-BG | "A"AcBd cedf | "E7"ecdB "A"cAA :|
+|: g \
+| "A"~a2Aa caAa | caAa "E7"BcdB | "A"~a2Aa caAa | "E7"BcdB "A"cAA ||
+yg \
+| "A"~a2Aa caAa | caAa "E7"BcdB | "A"~AEcA "Bm"dBec | "E7"fdge "A"{g}aAA :|
+
+%%sep 1 1 500
+
+X: 98
+T: The Left-Handed Fiddler
+C: J.S.Skinner
+N: H&C p.95, Battlefield's version p.31, Hunter 240)
+N: This has the commonly-played final ending, which is different from Skinner's.
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+d \
+| "A"cAce {g}a2ed | cAEA "E7"GB-Bd | "A"cAce ae"D"fd | "E7"ecdB "A"cAA ||
+yd \
+| "A"cAce {g}a2ed | cAEA "E7"GB-BG | "A"Ac"E"Bd "A"ce"D"df | "E7"ecdB "A"cAA :|
+|: g \
+| "A"~a2Aa caAa | caAa "E7"BcdB | "A"~a2Aa caAa | "E7"BcdB "A"cAA ||
+yg \
+| "A"~a2Aa caAa | caAa "E7"BcdB | "A"cA"E"dB "A"eagf | "E7"ecdB "A"cAA :|
+
+%%sep 1 1 500
+
+X: 99
+T: Lord Huntley's Cave
+C: J.S.Skinner
+B: BSFC
+B: Scottish Music Maker
+B: Harp & Claymore, p.25 (with two variations)
+B: The Scottish Violinist, J.S.Skinner, p.34 (with two variations)
+N: Skinner's original version was AABB; this is a common AAB1B2 variant.
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+R: march
+L: 1/8
+K: D
+de "A"\
+| "D"f2A2 gfed \
+| f2A2 d2cd \
+| "A7"e2A2 agfe \
+| "D"dcdf "A7"eAde \
+| "D"f2A2 gfed \
+| f2A2 d2cd |
+| "A7"eaca Aaca \
+| "D"d4-d2 :| fg "B1"\
+| "D"a3f d2a2 \
+| fAa2 d2cd \
+| "A7"e2A2 agfe \
+| "D"dcdf "A7"eAfg |
+|  "D"a3f d2a2 \
+| fAa2 d2cd \
+| "A7"eaca Aaca \
+| "D"d6 |]| fg "B2"\
+| "D"a3f d2a2 \
+| fAa2 d2cd |
+| "A7"e2A2 agfe \
+| "D"dcdf "A7"eAde \
+| "D"f2A2 gfed \
+| f2A2 d2cd \
+| "A7"eaca Aaca \
+| "D"d4-d2 |]
+
+%%sep 1 1 500
+
+X: 100
+T: Lord Huntley's Cave
+C: J.S.Skinner
+B: BSFC
+B: Scottish Music Maker
+B: Harp & Claymore, p.25 (with two variations)
+B: The Scottish Violinist, J.S.Skinner, p.34 (with two variations)
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+R: march
+L: 1/8
+K: D
+   de | "D"f2A2 gfed | f2A2 d2cd |1,3 e2"A7"A2 agfe | "D"dcdf "A7"eA :|2,4 ea"A7"ca Aaca | "D"d6 :|
+|: fg | "D"a3f  d2a2 | fAa2 d2cd |1,3 e2"A7"A2 agfe | "D"dcdf "A7"eA :|2,4 ea"A7"ca Aaca | "D"d6 :|
+
+%%sep 1 1 500
+
+X: 101
+T: Lord Huntley's Cave
+C: J.S.Skinner
+B: BSFC
+B: Scottish Music Maker
+B: Harp & Claymore, p.25 (with two variations)
+B: The Scottish Violinist, J.S.Skinner, p.34 (with two variations)
+N: Skinner's original version was AABB; this is a common AAB1B2 variant.
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+R: march
+L: 1/8
+K: D
+de "A"\
+| "D"f2A2 gfed \
+| f2A2 d2cd \
+| "A7"e2A2 agfe \
+| "D"dcdf "A7"eAde \
+| "D"f2A2 gfed \
+| f2A2 d2cd |
+| "A7"eaca Aaca \
+| "D"d4-d2 :| fg "B1"\
+| "D"a3f d2a2 \
+| fAa2 d2cd \
+| "A7"e2A2 agfe \
+| "D"dcdf "A7"eAfg |
+|  "D"a3f d2a2 \
+| fAa2 d2cd \
+| "A7"eaca Aaca \
+| "D"d6 |]| fg "B2"\
+| "D"a3f d2a2 \
+| fAa2 d2cd |
+| "A7"e2A2 agfe \
+| "D"dcdf "A7"eAde \
+| "D"f2A2 gfed \
+| f2A2 d2cd \
+| "A7"eaca Aaca \
+| "D"d4-d2 |]
+
+%%sep 1 1 500
+
+X: 102
+T: Lord Huntley's Cave
+C: J.S.Skinner
+B: BSFC
+B: Scottish Music Maker
+B: Harp & Claymore, p.25 (with two variations)
+B: The Scottish Violinist, J.S.Skinner, p.34 (with two variations)
+N: Skinner's original version was AABB; this is a common AAB1B2 variant.
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+R: march
+L: 1/8
+K: D
+de "A"\
+| "D"f2A2 gfed \
+| f2A2 d2cd \
+| "A7"e2A2 agfe \
+| "D"dcdf "A7"eAde \
+| "D"f2A2 gfed \
+| f2A2 d2cd |
+| "A7"eaca Aaca \
+| "D"d4-d2 :| fg "B1"\
+| "D"a3f d2a2 \
+| fAa2 d2cd \
+| "A7"e2A2 agfe \
+| "D"dcdf "A7"eAfg |
+|  "D"a3f d2a2 \
+| fAa2 d2cd \
+| "A7"eaca Aaca \
+| "D"d6 |]| fg "B2"\
+| "D"a3f d2a2 \
+| fAa2 d2cd |
+| "A7"e2A2 agfe \
+| "D"dcdf "A7"eAde \
+| "D"f2A2 gfed \
+| f2A2 d2cd \
+| "A7"eaca Aaca \
+| "D"d4-d2 |]
+
+%%sep 1 1 500
+
+X: 103
+T: Lord Huntley's Cave
+C: J.S.Skinner
+B: BSFC
+B: Scottish Music Maker
+B: Harp & Claymore, p.25 (with two variations)
+B: The Scottish Violinist, J.S.Skinner, p.34 (with two variations)
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+R: march
+L: 1/8
+K: D
+   de | "D"f2A2 gfed | f2A2 d2cd |1,3 e2"A7"A2 agfe | "D"dcdf "A7"eA :|2,4 ea"A7"ca Aaca | "D"d6 :|
+|: fg | "D"a3f  d2a2 | fAa2 d2cd |1,3 e2"A7"A2 agfe | "D"dcdf "A7"eA :|2,4 ea"A7"ca Aaca | "D"d6 :|
+
+%%sep 1 1 500
+
+X: 104
+T: Lord Huntley's Cave
+C: J.S.Skinner
+B: BSFC
+B: Scottish Music Maker
+B: Harp & Claymore, p.25 (with two variations)
+B: The Scottish Violinist, J.S.Skinner, p.34 (with two variations)
+N: Skinner's original version was AABB; this is a common AAB1B2 variant.
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+R: march
+L: 1/8
+K: D
+de "A"\
+| "D"f2A2 gfed \
+| f2A2 d2cd \
+| "A7"e2A2 agfe \
+| "D"dcdf "A7"eAde \
+| "D"f2A2 gfed \
+| f2A2 d2cd |
+| "A7"eaca Aaca \
+| "D"d4-d2 :| fg "B1"\
+| "D"a3f d2a2 \
+| fAa2 d2cd \
+| "A7"e2A2 agfe \
+| "D"dcdf "A7"eAfg |
+|  "D"a3f d2a2 \
+| fAa2 d2cd \
+| "A7"eaca Aaca \
+| "D"d6 |]| fg "B2"\
+| "D"a3f d2a2 \
+| fAa2 d2cd |
+| "A7"e2A2 agfe \
+| "D"dcdf "A7"eAde \
+| "D"f2A2 gfed \
+| f2A2 d2cd \
+| "A7"eaca Aaca \
+| "D"d4-d2 |]
+
+%%sep 1 1 500
+
+X: 105
+T: Lord Huntley's Cave
+C: J.S.Skinner
+B: BSFC
+B: Scottish Music Maker
+B: Harp & Claymore, p.25 (with two variations)
+B: The Scottish Violinist, J.S.Skinner, p.34 (with two variations)
+N: Skinner's original version was AABB; this is a common AAB1B2 variant.
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+R: march
+L: 1/8
+K: D
+de "A"\
+| "D"f2A2 gfed \
+| f2A2 d2cd \
+| "A7"e2A2 agfe \
+| "D"dcdf "A7"eAde \
+| "D"f2A2 gfed \
+| f2A2 d2cd |
+| "A7"eaca Aaca \
+| "D"d4-d2 :| fg "B1"\
+| "D"a3f d2a2 \
+| fAa2 d2cd \
+| "A7"e2A2 agfe \
+| "D"dcdf "A7"eAfg |
+|  "D"a3f d2a2 \
+| fAa2 d2cd \
+| "A7"eaca Aaca \
+| "D"d6 |]| fg "B2"\
+| "D"a3f d2a2 \
+| fAa2 d2cd |
+| "A7"e2A2 agfe \
+| "D"dcdf "A7"eAde \
+| "D"f2A2 gfed \
+| f2A2 d2cd \
+| "A7"eaca Aaca \
+| "D"d4-d2 |]
+
+%%sep 1 1 500
+
+X: 106
+T: Lord Huntley's Cave
+C: J.S.Skinner
+B: BSFC
+B: Scottish Music Maker
+B: Harp & Claymore, p.25 (with two variations)
+B: The Scottish Violinist, J.S.Skinner, p.34 (with two variations)
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+R: march
+L: 1/8
+K: D
+|: de \
+| "D"f2A2 gfed | f2A2 d2cd |1 "A7"e2A2 agfe | "D"dcdf "A7"eAde :|2 "A7"eaca Aaca | "D"d4-d2 :|
+|: fg \
+| "D"a3f d2a2 | fAa2 d2cd | "A7"e2A2 agfe | "D"dcdf "A7"eAfg |  "D"a3f d2a2 |
+| fAa2 d2cd | "A7"eaca Aaca | "D"d6 |]| fg | "D"a3f d2a2 | fAa2 d2cd |
+| "A7"e2A2 agfe | "D"dcdf "A7"eAde | "D"f2A2 gfed | f2A2 d2cd | "A7"eaca Aaca | "D"d4-d2 :|
+
+%%sep 1 1 500
+
+X: 107
+T: McKenzie Hay
+C:James Scott Skinner
+R:strathspey
+Z:Nigel Gatherer
+S:Nigel Gatherer <gatherer@argonet.co.UK>
+M:4/4
+L:1/8
+K:D
+G \
+| F<DF>A d2 d>f | e>cd>b c<aa>=c | B<Gd>B A2 F>D | E>A^G>B (3ABA (3=GFE |
+| F<DF>A d2 d>f | e>cd>b c<aa>=c | (3BGB (3dcB (3Afe (3dcB | (3ABA (3GFE F<D D ||
+g \
+| f<dg>e a2 f>d | e>cd>B c<AA>g | fdge afbg | a>fg>f f<dd>e |
+| f<dg>e a2 f>d | e>cd>B c<AA=c | (3BGB (3dcB (3Aag (3fed | (3cBA (3GFE f<D D |]
+
+%%sep 1 1 500
+
+X: 108
+T: MacKenzie Hay
+C: J.S.Skinner
+R: strathspey
+B: Christine Martin "Ceol na Fidhle" v.2 p.15 1988
+D: J.S.Skinner 1906 (wax cylinder)
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+G \
+| "D"F<D F>A {c}d2 d>f | "A"e>c "E"d>B "A"c<A A>=c \
+| "G"B<G d>B "D"A2 F>D | "A"E>A "E7"^G>B "A"(3ABA "A7"=GFE |
+y2 \
+| "D"F<D F>A {c}d2 d>f | "A"e>c "E"d>B "A"c<A A>=c \
+| "G"(3BGB (3dcB "D"(3Afe (3dcB | "A7"(3ABA (3GFE "D"F<D D |]
+g \
+| "D"f<d "A7"g>e "(D)"{^g}a2 "D"f>d | "A"e>c "E7"d>B "A"c<A "A7"A>g \
+| "D"f>d "A"g>e "D"a>f "G"b>g | "D"a>f "A"g>e "D"f<d d>g |
+y2 \
+| "D"f<d "A7"g>e "(D)"{^g}a2 "D"f>d | "A"e>c "E7"d>B "A"c<A "A7"A>=c \
+| "G"(3BGB (3dcB "D"(3Aag (3fed | "A7"(3cBA (3GFE "D"F<D D |]
+
+%%sep 1 1 500
+
+X: 109
+T: MacLeod and MacKay
+C: J. Scott Skinner
+R: reel
+B: RSCDS 35-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: dc \
+| "G"BGFG DGFG | "Am"E^GAB c2ed | cA^GA "A7"EAGA | "D"FAd^c "D7"d=cBA |
+| "G"BGFG DGFG | "Am"E^GAB c2ed | "D7"cBAG FDEF | "G"AGDB, G,2 :|
+|: dc \
+| "G"Bgfg dBGB | "Am"ca^ga ec"D7"Ac | "G"Bgfg dBGB | "D"Fd^cd "D7"AFD=c |
+| "G"Bgfg dBGB | "Am"ca^ga ec"D7"Ac | "G"BgdB "Am"AecA | "D7"FDEF "G"G2 :|
+
+%%sep 1 1 500
+
+X: 110
+T: MacKenzie Hay
+C: J.S.Skinner
+R: strathspey
+B: Christine Martin "Ceol na Fidhle" v.2 p.15 1988
+D: J.S.Skinner 1906 (wax cylinder)
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+G \
+| "D"F<D F>A {c}d2 d>f | "A"e>c "E"d>B "A"c<A A>=c \
+| "G"B<G d>B "D"A2 F>D | "A"E>A "E7"^G>B "A"(3ABA "A7"=GFE |
+y2 \
+| "D"F<D F>A {c}d2 d>f | "A"e>c "E"d>B "A"c<A A>=c \
+| "G"(3BGB (3dcB "D"(3Afe (3dcB | "A7"(3ABA (3GFE "D"F<D D |]
+g \
+| "D"f<d "A7"g>e "(D)"{^g}a2 "D"f>d | "A"e>c "E7"d>B "A"c<A "A7"A>g \
+| "D"f>d "A"g>e "D"a>f "G"b>g | "D"a>f "A"g>e "D"f<d d>g |
+y2 \
+| "D"f<d "A7"g>e "(D)"{^g}a2 "D"f>d | "A"e>c "E7"d>B "A"c<A "A7"A>=c \
+| "G"(3BGB (3dcB "D"(3Aag (3fed | "A7"(3cBA (3GFE "D"F<D D |]
+
+%%sep 1 1 500
+
+X: 111
+T: Mackenzie Fraser Reel
+C: J. Scott Skinner (1905)
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+F: http://www.abdn.ac.uk/scottskinner/display.php?ID=JSS0866
+B: From Regal Gramo. Record, G6617
+N: Monikie, Oct, 1905
+M: 2/4
+L: 1/16
+K: D
+%%slurgraces
+{c}d2 \
+| "D"D/D/D FA {c}d2cd | "G"B/B/B (ed) "A"cAAc | "D"dcdA "G"BG"/E"dB | "A"AFGE "D"FDDd |
+| "D"D/D/D FA {c}d2cd | "G"B^de=d "A"cABc | "D"dcdA "G"Bgfe | "A7"dABG "D"FDD ||
+e \
+| "D"fDDf "Em"gEEg | "D/F#"aFFa "G"bGGb | "D/F#"aFFa "Em"gEEg | "D"fDDf "A"eAde |
+| "D"fDDf "Em/B"gEEg | "D/F#"aFFa "G"bGGb | "D"afba "A7"geag | "A7"fdec "D"d2 |]
+
+%%sep 1 1 500
+
+X: 112
+T: Mackenzie Fraser Reel
+C: J. Scott Skinner (1905)
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+F: http://www.abdn.ac.uk/scottskinner/display.php?ID=JSS0866
+B: From Regal Gramo. Record, G6617
+N: Monikie, Oct, 1905
+M: 2/4
+L: 1/16
+K: D
+%%slurgraces
+{c}d2 \
+| "D"D/D/D FA {c}d2cd | "G"B/B/B (ed) "A"cAAc | "D"dcdA "G"BG"/E"dB | "A"AFGE "D"FDDd |
+| "D"D/D/D FA {c}d2cd | "G"B^de=d "A"cABc | "D"dcdA "G"Bgfe | "A7"dABG "D"FDD ||
+e \
+| "D"fDDf "Em"gEEg | "D/F#"aFFa "G"bGGb | "D/F#"aFFa "Em"gEEg | "D"fDDf "A"eAde |
+| "D"fDDf "Em/B"gEEg | "D/F#"aFFa "G"bGGb | "D"afba "A7"geag | "A7"fdec "D"d2 |]
+
+%%sep 1 1 500
+
+X: 113
+T: Madge
+T: Farewell to Scotland
+C: J.S.Skinner
+B: Skinner SV p.35
+M: 6/8
+L: 1/8
+K: A
+c'/b/ \
+| (a>gf) (efd) | ce2- e2 f/g/ \
+| (ac'/f'/) | (e'ac') | b3- b2 (c'/b/) |
+| (a>gf) (efd) | ce2- e2 f/g/ \
+| (a>bc') (bfg) | a3- a2c' |
+|| (d'>e'f') (e'ab) | c'e'2- e'2c' \
+| (a>gf) (eac') | b3- b2 (c'/b/) |
+| (a>gf) (efd) | ce2- e2 e'/d'/ \
+| (c'>ba) (b<fg) | a3- a2 |]
+
+%%sep 1 1 500
+
+X: 114
+T: Madge
+T: Farewell to Scotland
+C: J.S.Skinner
+B: Skinner SV p.35
+M: 6/8
+L: 1/8
+K: D
+f/e/ \
+| (d>cB) (ABG) | FA2- A2 B/c/ \
+| (df/b/) | (adf) | e3- e2 (f/e/) |
+| (d>cB) (ABG) | FA2- A2 B/c/ \
+| (d>ef) (eBc) | d3- d2f |
+|| (g>ab) (ade) | fa2- a2f \
+| (d>cB) (Adf) | e3- e2 (f/e/) |
+| (d>cB) (ABG) | FA2- A2 a/g/ \
+| (f>ed) (e<Bc) | d3- d2 |]
+
+%%sep 1 1 500
+
+X: 115
+T: The Mathematician
+C: J.S.Skinner
+N: Skinner, H&C p.130, SV p.45, Hardie p.97, Hunter 332
+Z: 2000 John Chambers <jc:trillian.mit.edu>
+D: Alasdair  Fraser on Portrait tape
+M: 12/16
+L: 1/16
+K: D
+A2(G \
+| "D"F2)(G ^G2)(A f2)(d A2)(F \
+| "G"G2)A ^A2B g2e B2d \
+| "A7"c2b a2g f2e d2c \
+| "D"dfe dcB "A7"ABA GFE |
+| "D"F2G ^G2A fed cBA \
+| "G"G2A ^A2B gfe dcB \
+| "A7"cba gfe dcB ABc \
+| "D"dAf dAF D3 ||
+a3 \
+| "D"d'2a f2d A2F D2=C \
+| "Em"B,2^D E2G B2e g2b \
+| e'2b g2e B2G E2D \
+| "A7"C2E A2c e2a c'2e' |
+| "D"f'2d' a2f d2A F2D \
+| "G"G2B d2g b2d' g'2b \
+| "D"af'e' d'c'b "A7"aba gfe \
+| "D"dfa d'af d3 |]
+
+%%sep 1 1 500
+
+X: 116
+T: McKenzie Hay
+C:James Scott Skinner
+R:strathspey
+Z:Nigel Gatherer
+S:Nigel Gatherer <gatherer@argonet.co.UK>
+M:4/4
+L:1/8
+K:D
+G \
+| F<DF>A d2 d>f | e>cd>b c<aa>=c | B<Gd>B A2 F>D | E>A^G>B (3ABA (3=GFE |
+| F<DF>A d2 d>f | e>cd>b c<aa>=c | (3BGB (3dcB (3Afe (3dcB | (3ABA (3GFE F<D D ||
+g \
+| f<dg>e a2 f>d | e>cd>B c<AA>g | fdge afbg | a>fg>f f<dd>e |
+| f<dg>e a2 f>d | e>cd>B c<AA=c | (3BGB (3dcB (3Aag (3fed | (3cBA (3GFE f<D D |]
+
+%%sep 1 1 500
+
+X: 117
+T: McKenzie Hay
+C:James Scott Skinner
+R:strathspey
+Z:Nigel Gatherer
+S:Nigel Gatherer <gatherer@argonet.co.UK>
+M:4/4
+L:1/8
+K:D
+G \
+| F<DF>A d2 d>f | e>cd>b c<aa>=c | B<Gd>B A2 F>D | E>A^G>B (3ABA (3=GFE |
+| F<DF>A d2 d>f | e>cd>b c<aa>=c | (3BGB (3dcB (3Afe (3dcB | (3ABA (3GFE F<D D ||
+g \
+| f<dg>e a2 f>d | e>cd>B c<AA>g | fdge afbg | a>fg>f f<dd>e |
+| f<dg>e a2 f>d | e>cd>B c<AA=c | (3BGB (3dcB (3Aag (3fed | (3cBA (3GFE f<D D |]
+
+%%sep 1 1 500
+
+X: 118
+T: McKenzie Hay
+C:James Scott Skinner
+R:strathspey
+Z:Nigel Gatherer
+S:Nigel Gatherer <gatherer@argonet.co.UK>
+M:4/4
+L:1/8
+K:D
+G \
+| F<DF>A d2 d>f | e>cd>b c<aa>=c | B<Gd>B A2 F>D | E>A^G>B (3ABA (3=GFE |
+| F<DF>A d2 d>f | e>cd>b c<aa>=c | (3BGB (3dcB (3Afe (3dcB | (3ABA (3GFE F<D D ||
+g \
+| f<dg>e a2 f>d | e>cd>B c<AA>g | fdge afbg | a>fg>f f<dd>e |
+| f<dg>e a2 f>d | e>cd>B c<AA=c | (3BGB (3dcB (3Aag (3fed | (3cBA (3GFE f<D D |]
+
+%%sep 1 1 500
+
+X: 119
+T: Milladen
+C: J.S.Skinner
+R: strathspey
+B: H&C p.76
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bm
+F \
+| "Bm"B2 d>B f>B [db]>B | "A"A->c e->^g {g}a2 e>c \
+| "Bm"B2 d->B "Em"c->^A B>G | "F#7"F>E D>C "Bm"B,2-[B,B] :|
+c \
+| "D"(d2 f)>e .d.f .a.d' | "A"(A2 c)>B .A.c .e.a \
+| "Bm"(B2 d)>c .B.d .f.b | "F#7"f->e d->c "Bm"{c}B2 Bc |
+| "D"d2 f->d (3afd' (3afd | "A"A2 c->A (3eca (3ecA \
+| "Bm"B2 (d>>B) "Em"(c>>^A) (B>>G) | "F#7"(F>E) (D>C) "Bm"B,2- B, |]
+
+%%sep 1 1 500
+
+X: 120
+T: The Miller O' Hirn
+C: by J. Scott Skinner
+C: arr. T. Traub 6-5-1996
+R: Strathspey
+M: 4/4
+K: D
+L: 1/8
+|: A, \
+| "D"D>E F<B A<F "Bm"D2 | "Em"B,>E "G"G/F/E/D/ "A" C<A,A,>C \
+| "D"D>E F<B A<F "Bm"D2 | "G"B,>D"A"C<A "D"F<D D :|
+B \
+| "D"A>G"D7"F<d "G"B<G G2 | "E"B>A"E7"^G<e "A"c<A A>B \
+| "D"A>G"D7"F<d "G"B>A"Em"G<B | "A"c>B A<a "D"f<d d>B |
+| "D"A>G"D7"F<d "G"B<G G2 | "E"B>A"E7"^G<e "A"c<A A>c \
+| "D"(3dAB (3cde (3fde (3fga |[1 "G"(3bag "D"(3fed "A"(3cBA "A7"(3GFE :|[2 "G"(3bag "A"(3fge "D"f<d d |]
+
+%%sep 1 1 500
+
+X: 121
+T: The Miller o' Hirn
+C:James Scott Skinner
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D
+(D>E) (F<B) A<F (D2 | B,)>E G/F/E/D/ C<A, ~A,>C | (D>E) (F<B) A<F D2 | B,>D (C<A) F<D D2 :|
+(A>G) (F<d) B<G-~G2 | (B>A) (^G<e) c<AA>B | (A>G) (F<d) B>A (G<B) | (c>B) A<a f<d~d>B |
+(A>G) (F<d) B<G-~G2 | (B>A) (^G<e) c<AA>c | (3dAB (3cde (3fde (3fga | (3bag (3fed (3cBA (3GF"DC"E |] xx "last" H[F4A4d4] |]
+
+%%sep 1 1 500
+
+X: 122
+T: The Miller's Rant
+C:J Scott Skinner
+Z:Nigel Gatherer
+S:Nigel Gatherer <gatherer@argonet.co.UK>
+M:4/4
+L:1/8
+R:Strathspey
+K:D
+| A,<D F>D A>D F>D | B,<E G>E B>E G>E | A,<D F>D A>D F>D | G<B C<A D2 D :|
+A \
+| A<d f>d a>d f>d | B>^d e>f g>e c>B | A<d f>d a>d f>d | B<d c<a d2 d>A |
+| A<d f>d a>d f>d | B>^d e>f g>e c>B | (3agf (3edc (3BAG (3FED | (3CDE (3A,B,C D2 D |]
+
+%%sep 1 1 500
+
+X: 123
+T: The Miller's Rant
+C:J Scott Skinner
+Z:Nigel Gatherer <gatherer@argonet.co.uk>
+M:4/4
+L:1/8
+R:Strathspey
+K:D
+|: A,<DF>D A>DF>D | B,<EG>EB>EG>E | A,<DF>D A>DF>D | G<BC<A D2 D :|
+A \
+| A<df>d a>df>d | B>^de>f g>ec>B | A | A<df>d a>df>d | B<dc<a d2 d>A |
+| A<df>d a>df>d | B>^de>f g>ec>B | (3agf (3edc (3BAG (3FED | (3CDE (3A,B,C D2 D |]
+
+%%sep 1 1 500
+
+X: 124
+T: The Miller's Rant
+C:J Scott Skinner
+Z:Nigel Gatherer
+S:Nigel Gatherer <gatherer@argonet.co.UK>
+M:4/4
+L:1/8
+R:Strathspey
+K:D
+| A,<D F>D A>D F>D | B,<E G>E B>E G>E | A,<D F>D A>D F>D | G<B C<A D2 D :|
+A \
+| A<d f>d a>d f>d | B>^d e>f g>e c>B | A<d f>d a>d f>d | B<d c<a d2 d>A |
+| A<d f>d a>d f>d | B>^d e>f g>e c>B | (3agf (3edc (3BAG (3FED | (3CDE (3A,B,C D2 D |]
+
+%%sep 1 1 500
+
+X: 125
+T: The Miller's Rant
+C:J Scott Skinner
+Z:Nigel Gatherer <gatherer@argonet.co.uk>
+M:4/4
+L:1/8
+R:Strathspey
+K:D
+|: A,<DF>D A>DF>D | B,<EG>EB>EG>E | A,<DF>D A>DF>D | G<BC<A D2 D :|
+A \
+| A<df>d a>df>d | B>^de>f g>ec>B | A | A<df>d a>df>d | B<dc<a d2 d>A |
+| A<df>d a>df>d | B>^de>f g>ec>B | (3agf (3edc (3BAG (3FED | (3CDE (3A,B,C D2 D |]
+
+%%sep 1 1 500
+
+X: 126
+T: Miss Brooke
+C: J. Scott Skinner
+R: reel
+B: RSCDS 38-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+E2 \
+|: "A"A2A2 Aaag | "D"gffe "A"e4 | "F#m"a2ag agfe | "Bm"dcBA "E7"GEFG |
+|  "A"A2A2 Aaag | "D"gffe "A"e4 | "D"f2fe "Bm"dcBA |1 "E7"GABG "A"A2E2 :|2 "E7"GABG "A"AGAB ||
+|: "F#m"c2cA F2F2 | fgaf c4 | "D"f2fe "Bm"d2dc | "E"B2BA GAB2 |
+|  "F#m"c2cA F2F2 | fgaf c4 | "D"f2fe "Bm"dcBA |1 "E7"cBAG "A"AGAB :|2 "E7"GABG "A"A2 |]
+
+%%sep 1 1 500
+
+X: 127
+T: Miss Dow's Fancy [1]
+C: Skinner?
+R: shottish, strathspey
+B:
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+"C7"C2 \
+| "F"c>B A>G "Dm"F>G A2 | "Gm"B>A G>F "C7"E2 C2 \
+| "F"F>G A>B c2 f2 | "Bb"d>c B>A "C7"G4 |
+| "F"c>B A>G "Dm"F>G A2 | "Gm"B>A G>F "C7"E2 C2 \
+| "F"F>G A>B c>f c>A | "Bb"G2 F2 "F"F2 A2 |]
+[|"F"C4- "C7"C2 D>E | "F"F>A G>F "C7"E2 C2 \
+| "F"F>G A>B c2 f2 | "Bb"d>c B>A "C7"G4 |
+| "F"C4- "C7"C2 D>E | "F"F>A G>F "C7"E2 C2 \
+| "F"F>G A>B c>f c>A | "Bb"G2 F2 "F"F2 |]
+
+%%sep 1 1 500
+
+X: 128
+T: Miss Shepherd
+C: J.S.Skinner
+N: SV 27
+N: H&C (in G) p.67
+N: Hunter 192
+N: BSFC IV-18
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: ADor
+{^G}A | "Am"A,B,CD E2DC | "G"B,GFG DB,G,B, | "Am"A,B,CD E^GAc | "E7"BA^GB "Am"cAA :|
+(^g | "Am"~a2)ed cBA(F | "G"~G2)DC B,A,G, (^g | "Am"a2)ed cBAc | "E7"BA^GB "Am"cAA |]
+(^g | "Am"~a2)ed cBA(F | "G"~G2)DC B,A,G,B, | "Am"A,B,CD E^GAc | "E7"BA^GB "Am"cAA |]
+
+%%sep 1 1 500
+
+X: 129
+T: Miss Brooke
+C: J. Scott Skinner
+R: reel
+B: RSCDS 38-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+E2 \
+|: "A"A2A2 Aaag | "D"gffe "A"e4 | "F#m"a2ag agfe | "Bm"dcBA "E7"GEFG |
+|  "A"A2A2 Aaag | "D"gffe "A"e4 | "D"f2fe "Bm"dcBA |1 "E7"GABG "A"A2E2 :|2 "E7"GABG "A"AGAB ||
+|: "F#m"c2cA F2F2 | fgaf c4 | "D"f2fe "Bm"d2dc | "E"B2BA GAB2 |
+|  "F#m"c2cA F2F2 | fgaf c4 | "D"f2fe "Bm"dcBA |1 "E7"cBAG "A"AGAB :|2 "E7"GABG "A"A2 |]
+
+%%sep 1 1 500
+
+X: 130
+T: Miss Dow's Fancy [1]
+C: Skinner?
+R: shottish, strathspey
+B:
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+"C7"C2 \
+| "F"c>B A>G "Dm"F>G A2 | "Gm"B>A G>F "C7"E2 C2 \
+| "F"F>G A>B c2 f2 | "Bb"d>c B>A "C7"G4 |
+| "F"c>B A>G "Dm"F>G A2 | "Gm"B>A G>F "C7"E2 C2 \
+| "F"F>G A>B c>f c>A | "Bb"G2 F2 "F"F2 A2 |]
+[|"F"C4- "C7"C2 D>E | "F"F>A G>F "C7"E2 C2 \
+| "F"F>G A>B c2 f2 | "Bb"d>c B>A "C7"G4 |
+| "F"C4- "C7"C2 D>E | "F"F>A G>F "C7"E2 C2 \
+| "F"F>G A>B c>f c>A | "Bb"G2 F2 "F"F2 |]
+
+%%sep 1 1 500
+
+X: 131
+T: Miss Shepherd
+C: J.S.Skinner
+N: SV 27
+N: H&C (in G) p.67
+N: Hunter 192
+N: BSFC IV-18
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: ADor
+{^G}A | "Am"A,B,CD E2DC | "G"B,GFG DB,G,B, | "Am"A,B,CD E^GAc | "E7"BA^GB "Am"cAA :|
+(^g | "Am"~a2)ed cBA(F | "G"~G2)DC B,A,G, (^g | "Am"a2)ed cBAc | "E7"BA^GB "Am"cAA |]
+(^g | "Am"~a2)ed cBA(F | "G"~G2)DC B,A,G,B, | "Am"A,B,CD E^GAc | "E7"BA^GB "Am"cAA |]
+
+%%sep 1 1 500
+
+X: 132
+T: Mr. A. G. Wilken's Favourite
+C: J.S.Skinner
+R: strathspey
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+d \
+| "F"c<A A>G F>G A<F | "Bb"B<d d>c {B}d2 d<{e}f \
+| "F"c<A A>G "Dm"F>G A<F | "Gm"D<G G>F "C7"{E}G2 G ||
+d \
+| "F"c<A A>G F>G A<F | "Bb"B<d d>c {B}d2 d<{e}f \
+| "F"(3cde {f}(3fed c<A F>{E}D | "C7"C<A A>G "F"F2- F |]
+c \
+| "F"f>g a>f "C7"e>f g>e | "Bb"d>e f>c "F"A2- A>A \
+| "Bb"B<d d>B "F"(3Acf (3cAF | "Gm"D<G G>F "C7"{E}G2 G ||
+C \
+| "F"F>G A>F "C7"E>F G>E | "Bb"D>E F<C "F"A,3 C \
+| "Bb"(3FGA (3Bcd "F"c<A "(Bb)"F>{E}D | "F"C<A "C7"A>G "F"F2- F |]
+
+%%sep 1 1 500
+
+X: 133
+T: Mrs. Scott Skinner
+R: strathspey
+C: J.S.Skinner
+B: Hunter #20; The Scottish Violinist, J.S.Skinner, p 17.
+N: Both Hunter and Skinner give a (slightly different) variation.
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/16
+K: D
+|: A2 | "D"D3F A3B BAGF {F}d3e | fedc {c}d2[F2D2]- "A7"[E4C4]- [E3C3]F \
+| "D"D3F A3B BAGF d2^G | Ad3 "A7"f3e "D"d6 :|
+[| fg | "D"a3f d3A "G"Bg3 ~g3B | "D"A2f2 {f}e2d2 "A7"e4- e2fg \
+| "D"a3f d3A "G"Bg3 ~g3[BG] | [A2F2][f2A2] "A7"[f2A2][e2G2] "D"[d4F4]- [d2F2]fg ||
+|| "D"^gaba f3d "G"B=g3 g3B | "D"A2f2 {f}e2d2 "A7"e2c2 A3G \
+| "D"FEFG A3^A B=AGF d3^G | Ad3 "A7"[f3A3][eG] "D"[d4F4]- [d2F2] |]
+
+%%sep 1 1 500
+
+X: 134
+T: Mrs Will
+C: J.S.Skinner
+R: strathspey
+B: Harp & Claymore
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+A \
+| "D"dcBA d3D FA3 A3=c | "G"B3G "D"A3F "Em"GE3 "A7"E3A \
+| "D"dcBA d3D FA3 A3g | "G"fed2 "A7"e3c "D"d4 d3 :|
+G \
+| "D"fed2 "A7"gfe2 "D"af3 d3d | "A"cBA2 "Bm"dcB2 "A7"e3c A3g \
+| "D"fed2 "A7"gfe2 "D"af3 d3g | "G"fed2 "A7"e3c "D"d4 d3 ||
+g \
+| "D"fed2 "A7"gfe2 "D"af3 d3d | "A"cBA2 "Bm"dcB2 "A7"e3c A3c \
+| "D"dcBA d3D FA3 A3G | "G"FED2 "A7"E3C "D"D4 D3 |]
+
+%%sep 1 1 500
+
+X: 135
+T: Mrs. Scott Skinner
+R: strathspey
+C: J.S.Skinner
+B: Hunter #20; The Scottish Violinist, J.S.Skinner, p 17.
+N: Both Hunter and Skinner give a (slightly different) variation.
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/16
+K: D
+|: A2 | "D"D3F A3B BAGF {F}d3e | fedc {c}d2[F2D2]- "A7"[E4C4]- [E3C3]F \
+| "D"D3F A3B BAGF d2^G | Ad3 "A7"f3e "D"d6 :|
+[| fg | "D"a3f d3A "G"Bg3 ~g3B | "D"A2f2 {f}e2d2 "A7"e4- e2fg \
+| "D"a3f d3A "G"Bg3 ~g3[BG] | [A2F2][f2A2] "A7"[f2A2][e2G2] "D"[d4F4]- [d2F2]fg ||
+|| "D"^gaba f3d "G"B=g3 g3B | "D"A2f2 {f}e2d2 "A7"e2c2 A3G \
+| "D"FEFG A3^A B=AGF d3^G | Ad3 "A7"[f3A3][eG] "D"[d4F4]- [d2F2] |]
+
+%%sep 1 1 500
+
+X: 136
+T: Mrs Will
+C: J.S.Skinner
+R: strathspey
+B: Harp & Claymore
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+A \
+| "D"dcBA d3D FA3 A3=c | "G"B3G "D"A3F "Em"GE3 "A7"E3A \
+| "D"dcBA d3D FA3 A3g | "G"fed2 "A7"e3c "D"d4 d3 :|
+G \
+| "D"fed2 "A7"gfe2 "D"af3 d3d | "A"cBA2 "Bm"dcB2 "A7"e3c A3g \
+| "D"fed2 "A7"gfe2 "D"af3 d3g | "G"fed2 "A7"e3c "D"d4 d3 ||
+g \
+| "D"fed2 "A7"gfe2 "D"af3 d3d | "A"cBA2 "Bm"dcB2 "A7"e3c A3c \
+| "D"dcBA d3D FA3 A3G | "G"FED2 "A7"E3C "D"D4 D3 |]
+
+%%sep 1 1 500
+
+X: 137
+T: The Music o' Spey
+C: J.S.Skinner
+R: air, strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+N: Scottish Violinist p.35; Hardie p.55; BSFC II-3; Caledonian Companion, p.49.
+N: The Fiddle Music of Scotland, James Hunter, #36.
+M: 4/4
+L: 1/8
+K: A
+E2 \
+| "A"c2 B>A E2 E2 | "D"F>E F<A "E7"E2 FG | "A"A2 A2 "F#m"A2 A2 | "Bm"B4 "E7"e2 E2 |
+| "A"c2 B>A E2 E2 | "D"F>E F<A "E7"E2 FG | "A"A2 A2 "E7"B2 e2 | "A"A6 |]
+E2 \
+| "Bm"d2 d>c "E7"B2 E2 | "A"e2 e>d c2 de | "D"f2 e2 d2 c2 | "E7"c4 {dc}B2 e>d |
+| "A"c2 B>A E2 E2 | "D"F>E F<A "E7"E2 FG | "A"A2 A2 "E7"B2 e2 | "A"A6 |]
+
+%%sep 1 1 500
+
+X: 138
+T: The Music o' Spey
+C: J.S.Skinner
+R: air, strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+N: Scottish Violinist p.35; Hardie p.55; BSFC II-3; Caledonian Companion, p.49.
+N: The Fiddle Music of Scotland, James Hunter, #36.
+M: 4/4
+L: 1/8
+K: A
+E2 \
+| "A"c2 B>A E2 E2 | "D"F>E F<A "E7"E2 FG | "A"A2 A2 "F#m"A2 A2 | "Bm"B4 "E7"e2 E2 | "A"c2 B>A E2 E2 |
+| "D"F>E F<A "E7"E2 FG | "A"A2 A2 "E7"B2 e2 | "A"A6 |] E2 | "Bm"d2 d>c "E7"B2 E2 | "A"e2 e>d c2 de |
+| "D"f2 e2 d2 c2 | "E7"c4 {dc}B2 e>d | "A"c2 B>A E2 E2 | "D"F>E F<A "E7"E2 FG | "A"A2 A2 "E7"B2 e2 | "A"A6 |]
+
+%%sep 1 1 500
+
+X: 139
+T: The Music o' Spey
+C: J.S.Skinner
+R: air, strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+N: Scottish Violinist p.35; Hardie p.55; BSFC II-3; Caledonian Companion, p.49.
+N: The Fiddle Music of Scotland, James Hunter, #36.
+M: 4/4
+L: 1/8
+K: A
+E2 \
+| "A"c2 B>A E2 E2 | "D"F>E F<A "E7"E2 FG | "A"A2 A2 "F#m"A2 A2 | "Bm"B4 "E7"e2 E2 |
+| "A"c2 B>A E2 E2 | "D"F>E F<A "E7"E2 FG | "A"A2 A2 "E7"B2 e2 | "A"A6 |]
+E2 \
+| "Bm"d2 d>c "E7"B2 E2 | "A"e2 e>d c2 de | "D"f2 e2 d2 c2 | "E7"c4 {dc}B2 e>d |
+| "A"c2 B>A E2 E2 | "D"F>E F<A "E7"E2 FG | "A"A2 A2 "E7"B2 e2 | "A"A6 |]
+
+%%sep 1 1 500
+
+X: 140
+T: The Music o' Spey
+C: J.S.Skinner
+R: air, strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+N: Scottish Violinist p.35; Hardie p.55; BSFC II-3; Caledonian Companion, p.49.
+N: The Fiddle Music of Scotland, James Hunter, #36.
+M: 4/4
+L: 1/8
+K: A
+E2 \
+| "A"c2 B>A E2 E2 | "D"F>E F<A "E7"E2 FG | "A"A2 A2 "F#m"A2 A2 | "Bm"B4 "E7"e2 E2 |
+| "A"c2 B>A E2 E2 | "D"F>E F<A "E7"E2 FG | "A"A2 A2 "E7"B2 e2 | "A"A6 |]
+E2 \
+| "Bm"d2 d>c "E7"B2 E2 | "A"e2 e>d c2 de | "D"f2 e2 d2 c2 | "E7"c4 {dc}B2 e>d |
+| "A"c2 B>A E2 E2 | "D"F>E F<A "E7"E2 FG | "A"A2 A2 "E7"B2 e2 | "A"A6 |]
+
+%%sep 1 1 500
+
+X: 141
+T: The Music o' Spey
+C: J.S.Skinner
+R: air, strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+N: Scottish Violinist p.35; Hardie p.55; BSFC II-3; Caledonian Companion, p.49.
+N: The Fiddle Music of Scotland, James Hunter, #36.
+M: 4/4
+L: 1/8
+K: A
+E2 \
+| "A"c2 B>A E2 E2 | "D"F>E F<A "E7"E2 FG | "A"A2 A2 "F#m"A2 A2 | "Bm"B4 "E7"e2 E2 | "A"c2 B>A E2 E2 |
+| "D"F>E F<A "E7"E2 FG | "A"A2 A2 "E7"B2 e2 | "A"A6 |] E2 | "Bm"d2 d>c "E7"B2 E2 | "A"e2 e>d c2 de |
+| "D"f2 e2 d2 c2 | "E7"c4 {dc}B2 e>d | "A"c2 B>A E2 E2 | "D"F>E F<A "E7"E2 FG | "A"A2 A2 "E7"B2 e2 | "A"A6 |]
+
+%%sep 1 1 500
+
+X: 142
+T: The Music o' Spey
+C: J.S.Skinner
+R: air, strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+N: Scottish Violinist p.35; Hardie p.55; BSFC II-3; Caledonian Companion, p.49.
+N: The Fiddle Music of Scotland, James Hunter, #36.
+M: 4/4
+L: 1/8
+K: A
+E2 \
+| "A"c2 B>A E2 E2 | "D"F>E F<A "E7"E2 FG | "A"A2 A2 "F#m"A2 A2 | "Bm"B4 "E7"e2 E2 |
+| "A"c2 B>A E2 E2 | "D"F>E F<A "E7"E2 FG | "A"A2 A2 "E7"B2 e2 | "A"A6 |]
+E2 \
+| "Bm"d2 d>c "E7"B2 E2 | "A"e2 e>d c2 de | "D"f2 e2 d2 c2 | "E7"c4 {dc}B2 e>d |
+| "A"c2 B>A E2 E2 | "D"F>E F<A "E7"E2 FG | "A"A2 A2 "E7"B2 e2 | "A"A6 |]
+
+%%sep 1 1 500
+
+X: 143
+T: Music of Spey
+C:J. Scott Skinner
+S:Aly Bain Book
+I:speed 250
+M:4/4l
+K:A
+E4|:c4 B3A E4 E4 | F3EFA3 E4 F2G2 | A4 A4 A4 A4 | B8 e4 E4 |
+c4 B3A E4 E4 | F3EFA3 E4 F2G2 | A4 A4 B4 e4 | A12 E4 :|
+|: d4 d3c B4 E4 | e4 e3d c4 d2e2 | f4 e4 d4 c4 | c8 B4 e3d |
+c4 B3A E4E4 | F3EFA3 E4 F3G | A4 A4 B4 e4 |[1A12 E4:|[2A12 z4||
+
+%%sep 1 1 500
+
+X: 144
+T: The Summer Assembly (1st tune)
+T: The Oddfellows
+C: J.Scott Skinner
+N: Skinner published this with a "Trio" section that's transcribed as a second tune.
+R: reel
+B: RSCDS __-8(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+"E7"\
+ED "A" | "A"CEA2    A2cA | "D"B2A2 "A"A2ED | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 ||
+ED     | "A"CEA2    A2cA | "D"BAAF "A"E2A2 | "D"F2EC   "A"EFAE | "D"[F2D2][A2D2] "A"[A2C2] :|
+cd "B1"| "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 ||
+cd     | "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "E7"B2A2 "A"A2  |]
+cd "B2"| "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 ||
+ED     | "A"CEA2    A2cA | "D"BAAF "A"E2A2 | "D"F2EC   "A"EFAE | "D"[F2D2][A2D2] "A"[A2C2] |]
+
+%%sep 1 1 500
+
+X: 145
+T: Our Highland Queen
+C:James Scott Skinner
+B:The Scottish Violinist, n.d.
+Z:Nigel Gatherer
+N:This is a simplified version, not as written in the book
+M:4/4
+L:1/8
+K:D
+(3A,/B,/C/ \
+| "D"D>A F>A D>A F>A | "A7"(3fed (3cdB "D"A2 AF/D/ \
+| "A7"C>A G>A "D"F>A D>A | "E7"(3FED (3CDB, "A7"A,2 A (3A,/B,/C/ |
+| "D"D>A F>A D>A F>A | "A7"(3fed (3cdB "D"A2 AG/F/ \
+| "Em"(3GBe E>G "D"(3FAd A>G | FE/D/ "A7"C/FE/ "D"D3 ||
+(3A/B/c/ \
+| "D"d>f (3Adf (3afd (3AFD | (3A,DF (3AFd A3 (3B/c/^d/ \
+| "Em"e>g (3Beg (3bge (3BGE | "A7"(3CEG (3CEA "D"F3 "A7"(3A/B/c/ |
+| "D"d>f (3Adf (3afd (3AFD | (3A,DF (3AFd A2 AG/F/ \
+| "Em"(3GBe E>G "D"(3FAd "A7"A>G | "D"FE/D/ "A7"C/FE/ "D"D3 |]
+
+%%sep 1 1 500
+
+X: 146
+T: Our Highland Queen
+C:James Scott Skinner
+B:The Scottish Violinist, n.d.
+Z:Nigel Gatherer
+N:This is a simplified version, not as written in the book
+M:4/4
+L:1/8
+K:D
+(3A,/B,/C/ \
+| "D"D>A F>A D>A F>A | "A7"(3fed (3cdB "D"A2 AF/D/ \
+| "A7"C>A G>A "D"F>A D>A | "E7"(3FED (3CDB, "A7"A,2 A (3A,/B,/C/ |
+| "D"D>A F>A D>A F>A | "A7"(3fed (3cdB "D"A2 AG/F/ \
+| "Em"(3GBe E>G "D"(3FAd A>G | FE/D/ "A7"C/FE/ "D"D3 ||
+(3A/B/c/ \
+| "D"d>f (3Adf (3afd (3AFD | (3A,DF (3AFd A3 (3B/c/^d/ \
+| "Em"e>g (3Beg (3bge (3BGE | "A7"(3CEG (3CEA "D"F3 "A7"(3A/B/c/ |
+| "D"d>f (3Adf (3afd (3AFD | (3A,DF (3AFd A2 AG/F/ \
+| "Em"(3GBe E>G "D"(3FAd "A7"A>G | "D"FE/D/ "A7"C/FE/ "D"D3 |]
+
+%%sep 1 1 500
+
+X: 147
+T: The Queen's Welcome to Invercauld
+C: J.S.Skinner
+R: march
+B: The Scottish Violinist
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: AMix
+|: AB \
+|  "A"c2e2 "D"d2f2 | "A"e2a2 "D"f2ed | "A"c2e2 A2Bc | "G"dedB G2ed \
+|  "A"c2e2 "D"d2f2 | "A"e2a2 "D"f2ed | "A"ceAc "G"dBGB | "A"c2AA A2 :|
+(3efg \
+|| "A"a3f "G"g2e2 | "D"f2d2 "A"e2A2 | "D"fedf "A"e2A2 | "G"dcBA G2g2 \
+|  "A"a3f "G"g2e2 | "D"f2d2 "A"e2AB | "A"ceAc "G"dBGB | "A"c2AA A2 ||
+(3efg \
+|: "A"agfa "G"gfeg | "D"fedf "A"eAaA |1 "D"fedf "A"eAaA | "G"dcBA G2g2 :|2 "A"ceAc "G"dBGB | "A"c2AA A2 |]
+
+%%sep 1 1 500
+
+X: 148
+T: The Queen's Welcome to Invercauld
+C: J.S.Skinner
+R: march
+B: The Scottish Violinist
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: AMix
+|: AB \
+|  "A"c2e2 "D"d2f2 | "A"e2a2 "D"f2ed | "A"c2e2 A2Bc | "G"dedB G2ed \
+|  "A"c2e2 "D"d2f2 | "A"e2a2 "D"f2ed | "A"ceAc "G"dBGB | "A"c2AA A2 :|
+(3efg \
+|| "A"a3f "G"g2e2 | "D"f2d2 "A"e2A2 | "D"fedf "A"e2A2 | "G"dcBA G2g2 \
+|  "A"a3f "G"g2e2 | "D"f2d2 "A"e2AB | "A"ceAc "G"dBGB | "A"c2AA A2 ||
+(3efg \
+|: "A"agfa "G"gfeg | "D"fedf "A"eAaA |1 "D"fedf "A"eAaA | "G"dcBA G2g2 :|2 "A"ceAc "G"dBGB | "A"c2AA A2 |]
+
+%%sep 1 1 500
+
+X: 149
+T: Renatton's Fancy
+C: J.Scott Skinner & J.Murdoch Henderson
+P: Tune for "Chantry Hall"
+B: Roy Goldring "14 Social Dances for 2000"
+R: strathspey
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+[|\
+"G"D>G B<d "Am"c<A "A7/c#"E>G | "D7"F>G A>e "G"d<B B<g |\
+"G"G>A B>d "Am"c<A "A7/c#"E>G | "D7"F>A d>c "G"B<G G2 |
+"G"D>G B<d "Am"c<A "A7/c#"E>G | "D7"F>G A>e "G"d<B B<g |\
+"G/B"G/F/G/A/ B/A/B/d/ "Am/c"c<A "A7/c#"E>G | "D7"F>A d>c "G"B<G G2 |]
+[|\
+"G"g>d "C"e<g "G/b"d<B B>G | "Am"c>d e/d/c/B/ "D7"A<a a>f |\
+"G"g>d "C"e<g "G/b"d<B B>G | "D7"(3FDF (3Adc "G"B<G G>d |
+"G"g>d "C"e<g "G/b"d<B B>G | "Am"c>d e/d/c/B/ "D7"A<a a>f |\
+"G"(3gbg "D"(3afd "C"(3ege "G/b"(3dBG | "D7"(3FDF (3Adc "G"B<G G2 |]
+
+%%sep 1 1 500
+
+X: 150
+T: Sandy Cameron
+T: (The Famous Athlete)
+C: J. Scott Skinner
+R: strathspey
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+F: http://www.abdn.ac.uk/scottskinner/display.php?ID=JSS0711 Oct 2009
+N: Basic, stripped-down version by JC
+M: C
+L: 1/16
+K: A
+a \
+| "A"~A4 c3A e3A c3A | "Bm"~B4 d3B f3B d3B \
+| "A"~A4 c3A a3A c3A | "D"~d4 "E7"B3e "A"c2A2 A3 :|
+g \
+| "A"(3a2g2f2 (3e2f2g2 a3e c2A | "G"(3=g2f2e2 (3d2e2f2 g3d B3=G \
+| "A"(3a2g2f2 (3e2f2g2 a3e c2A | "D"~d4 "E7"B3e "A"c2A2 A3 ||
+g \
+| "A"(3a2g2f2 (3e2f2g2 a3e c2A | "G"(3=g2f2e2 (3d2e2f2 g3d B3=G \
+| "A"(3c2B2A2 "Bm"(3d2c2B2 "A"(3e2d2c2 a3c | "D"~d4 "E7"B3e "A"c2A2 A3 |]
+
+%%sep 1 1 500
+
+X: 151
+T: Sandy Cameron
+T: (The Famous Athlete)
+C: J. Scott Skinner
+R: strathspey
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+F: http://www.abdn.ac.uk/scottskinner/display.php?ID=JSS0711 Oct 2009
+N: First of two variants, by J.S.Skinner
+P: Pipe Strathspey
+M: C
+L: 1/16
+K: A
+{g}a2 \
+| "A"AAA2 (c3A) (e3A) (c3A) | "Bm"BBB2 (d3B) (f3B) (d3B) \
+| "A"AAA2 (c3A) ({g}a3A) (c3A) | "D"ddd2 "E7"(B3e) "A"{cd}[c3E3][AE] [A2E2] :|
+g2 \
+| "A"(3a2g2f2 (3e2f2g2 a3e c2A | "G"(3=g2f2e2 (3d2e2f2 g3d B3=G \
+| "A"(3a2^g2f2 (3e2f2g2 a3e c2A | "D"ddd2 "E7"(B3e) "A"({cd}c3A) (A3[ge] |
+| "A"(3a2g2f2 (3e2f2g2 a3e c2A | "G"(3=g2f2e2 (3d2e2f2 g3d B3=G \
+| "A"c3{B}A "Bm"d3{c}B "A/C#"e3{d}c "A"a3c | "D"ddd2 "E7"(B3e) "A"{cd}[c3E3][AE] [A2E2] |]
+
+%%sep 1 1 500
+
+X: 152
+T: Sandy Cameron
+T: (The Famous Athlete)
+C: J. Scott Skinner
+R: strathspey
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+F: http://www.abdn.ac.uk/scottskinner/display.php?ID=JSS0711 Oct 2009
+N: Second of two variants, by J.S.Skinner
+P: Var. for Violin
+M: C
+L: 1/16
+K: A
+{g}a2 \
+| "A"AAA2 cAA2 eAA2 kc3A \
+| "Bm"BBB2 dBB2 fBB2 kd3B \
+| "A"AAA2 cAA2 eAA2 {g}ka3c \
+| "D"ddd2 "E7"(B3e) "A"[c3E3][AE] [A2E2] :|
+g2 \
+| "A"(3a2g2f2 (3.e2.f2.g2 (3.a2.e2.d2. (3.c2.B2.A2 \
+| "G"(3=g2f2e2 (3.d2.e2.f2 (3.g2.d2.c2 (3.B2.A2.=G \
+| "A"(3.a2.^g2.f2 (3.e2.f2.g2 (3.a2.e2.d2. (3.c2.B2.A2 \
+| "D"ddd2 "E7"(B3e) "A"({cd}[c3E3][AE]) ([A3E3][eE]) |
+| "A"(3.a2.g2.f2 (3.e2.f2.g2 (3.a2.e2.d2. (3.c2.B2.A2 \
+| "G"(3.=g2.f2.e2 (3.d2.e2.f2 (3.g2.d2.c2 (3.B2.A2.=G \
+"1st time"\
+||[" " "A"cBA2 "Bm"dcB2 "A/C#"edc2 "A"a3c \
+| "D"ddd2 "E7"(B3e) "A"{cd}[c3E3][AE] [A2E2] "d.C."y|]
+"last time"\
+||[" " "A"cBA2 "Bm"dcB2 "A/C#"(3e2d2c2 "D"(3a2g2f2 \
+| "E7"(3e2d2c2 (3d2c2B2 "A"[c3E3][AE] [A2E2] |]\
+y8 y8 y8 y8 y8 y8 y8 y8 y8 y8 y8 y8
+
+%%sep 1 1 500
+
+X: 153
+T: Sandy Cameron
+T: (The Famous Athlete)
+C: J. Scott Skinner
+R: strathspey
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+F: http://www.abdn.ac.uk/scottskinner/display.php?ID=JSS0711 Oct 2009
+N: Basic, stripped-down version by JC
+M: C
+L: 1/16
+K: A
+a \
+| "A"~A4 c3A e3A c3A | "Bm"~B4 d3B f3B d3B \
+| "A"~A4 c3A a3A c3A | "D"~d4 "E7"B3e "A"c2A2 A3 :|
+g \
+| "A"(3a2g2f2 (3e2f2g2 a3e c2A | "G"(3=g2f2e2 (3d2e2f2 g3d B3=G \
+| "A"(3a2g2f2 (3e2f2g2 a3e c2A | "D"~d4 "E7"B3e "A"c2A2 A3 ||
+g \
+| "A"(3a2g2f2 (3e2f2g2 a3e c2A | "G"(3=g2f2e2 (3d2e2f2 g3d B3=G \
+| "A"(3c2B2A2 "Bm"(3d2c2B2 "A"(3e2d2c2 a3c | "D"~d4 "E7"B3e "A"c2A2 A3 |]
+
+%%sep 1 1 500
+
+X: 154
+T: Sandy Cameron
+T: (The Famous Athlete)
+C: J. Scott Skinner
+R: strathspey
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+F: http://www.abdn.ac.uk/scottskinner/display.php?ID=JSS0711 Oct 2009
+N: First of two variants, by J.S.Skinner
+P: Pipe Strathspey
+M: C
+L: 1/16
+K: A
+{g}a2 \
+| "A"AAA2 (c3A) (e3A) (c3A) | "Bm"BBB2 (d3B) (f3B) (d3B) \
+| "A"AAA2 (c3A) ({g}a3A) (c3A) | "D"ddd2 "E7"(B3e) "A"{cd}[c3E3][AE] [A2E2] :|
+g2 \
+| "A"(3a2g2f2 (3e2f2g2 a3e c2A | "G"(3=g2f2e2 (3d2e2f2 g3d B3=G \
+| "A"(3a2^g2f2 (3e2f2g2 a3e c2A | "D"ddd2 "E7"(B3e) "A"({cd}c3A) (A3[ge] |
+| "A"(3a2g2f2 (3e2f2g2 a3e c2A | "G"(3=g2f2e2 (3d2e2f2 g3d B3=G \
+| "A"c3{B}A "Bm"d3{c}B "A/C#"e3{d}c "A"a3c | "D"ddd2 "E7"(B3e) "A"{cd}[c3E3][AE] [A2E2] |]
+
+%%sep 1 1 500
+
+X: 155
+T: Sandy Cameron
+T: (The Famous Athlete)
+C: J. Scott Skinner
+R: strathspey
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+F: http://www.abdn.ac.uk/scottskinner/display.php?ID=JSS0711 Oct 2009
+N: Second of two variants, by J.S.Skinner
+P: Var. for Violin
+M: C
+L: 1/16
+K: A
+{g}a2 \
+| "A"AAA2 cAA2 eAA2 kc3A \
+| "Bm"BBB2 dBB2 fBB2 kd3B \
+| "A"AAA2 cAA2 eAA2 {g}ka3c \
+| "D"ddd2 "E7"(B3e) "A"[c3E3][AE] [A2E2] :|
+g2 \
+| "A"(3a2g2f2 (3.e2.f2.g2 (3.a2.e2.d2. (3.c2.B2.A2 \
+| "G"(3=g2f2e2 (3.d2.e2.f2 (3.g2.d2.c2 (3.B2.A2.=G \
+| "A"(3.a2.^g2.f2 (3.e2.f2.g2 (3.a2.e2.d2. (3.c2.B2.A2 \
+| "D"ddd2 "E7"(B3e) "A"({cd}[c3E3][AE]) ([A3E3][eE]) |
+| "A"(3.a2.g2.f2 (3.e2.f2.g2 (3.a2.e2.d2. (3.c2.B2.A2 \
+| "G"(3.=g2.f2.e2 (3.d2.e2.f2 (3.g2.d2.c2 (3.B2.A2.=G \
+"1st time"\
+||[" " "A"cBA2 "Bm"dcB2 "A/C#"edc2 "A"a3c \
+| "D"ddd2 "E7"(B3e) "A"{cd}[c3E3][AE] [A2E2] "d.C."y|]
+"last time"\
+||[" " "A"cBA2 "Bm"dcB2 "A/C#"(3e2d2c2 "D"(3a2g2f2 \
+| "E7"(3e2d2c2 (3d2c2B2 "A"[c3E3][AE] [A2E2] |]\
+y8 y8 y8 y8 y8 y8 y8 y8 y8 y8 y8 y8
+
+%%sep 1 1 500
+
+X: 156
+T: Sarona
+C:J.S.Skinner
+R:Air/Strathspey
+S:Anselm Lingnau <lingnau:tm.informatik.uni-frankfurt.DE>
+D: Album                Musician        Track Tune
+D: Dancing Forth        Gordon Shand      14   3
+D: Highlander, Vol 2    Neil Barron        6   2
+D: Highlander, Vol 3    David Cunningham   6   8
+D: Highlander, Vol 5    Iain MacPhail      6   6
+D: Scottish Dance Music Music Makars       4   1 (Lead Tune!)
+D: Special requests 2   Colin Dewar       12   2
+M:4/4
+L:1/8
+K:D
+|:\
+"D"F3 E D2 F2 | "F#m"A3 G F2 A2 |\
+[1 "G"d3 c B2 A2 | "D"dA GF "A7"F2 E2 :|\
+[2 "G"d3 c "D"dA GF | "A7"F2 E2 "D"D4 ||
+"D"A2 d2 "A7"c2 de | "Bm"d3 A G2 F2 |\
+"Em"EFGA "(Bm)"BcdA | "G"Bc/d/ GF "A7"F2 E2 |
+"D"F3 E D2 F2 | "F#m"A3 G F2 A2 |\
+"G(Bm)"d3 c "D(Em)"dA GF | "A7"F2 E2 "D"D4 |]
+
+%%sep 1 1 500
+
+X: 157
+T: Scott Skinner' Rockin' Step
+C:James Scott Skinner
+B:Harp & Claymore, 1903 (via The Scottish Violinist)
+Z:Nigel Gatherer <gatherer@argonet.co.uk> scots-l 2001-02-22
+M:4/4
+L:1/8
+K:D
+e \
+| c>e A/A/e c>eA>e | c>e A/A/e A/A/e a>e | c>e A/A/e c/e/e A/e/e | G,/B/B g/B/B d2 d :|
+f \
+| e>a c>a A/A/A a2 | A/A/A a2 f2 e<a | e>a c>a A/A/A g2 | G,/B/B g/B/B d2 df |
+e>a c>a A/A/A a2 | A/A/A a2 f2 e/f/g | a/f/a g/e/g f/d/f e/c/e | G,/B/B g/B/B d2 d |]
+
+%%sep 1 1 500
+
+X: 158
+T: Scott Skinner' Rockin' Step
+C:James Scott Skinner
+B:Harp & Claymore, 1903 (via The Scottish Violinist)
+Z:Nigel Gatherer <gatherer@argonet.co.uk> scots-l 2001-02-22
+M:4/4
+L:1/8
+K:D
+e \
+| c>e A/A/e c>eA>e | c>e A/A/e A/A/e a>e | c>e A/A/e c/e/e A/e/e | G,/B/B g/B/B d2 d :|
+f \
+| e>a c>a A/A/A a2 | A/A/A a2 f2 e<a | e>a c>a A/A/A g2 | G,/B/B g/B/B d2 df |
+e>a c>a A/A/A a2 | A/A/A a2 f2 e/f/g | a/f/a g/e/g f/d/f e/c/e | G,/B/B g/B/B d2 d |]
+
+%%sep 1 1 500
+
+X: 159
+T: The Shakin's o' the Pocky
+R: Strathspey
+O: Scotland
+M: 4/4
+L: 1/8
+Z: Phil Taylor <aar09@pop.dial.pipex.com> abcusers 2002-4-16
+C: Peter Milne \& Scott Skinner
+%%RR_hdr-OriginalCollection: <URL:http://www.leeds.ac.uk/music/Info/RRTuneBk/>
+%%RR_hdr-AbcTypedBy: Richard Robinson <richard@beulah.demon.co.uk>
+K: Bb
+|: ~B,>D F>G F<D B,A \
+| ~B>A G/A/B/c/ (d2 d3/2)z \
+|1 [e/G/]c3/ [d/F/]B3/ [c/E/]A3/ BG \
+| F<D B>D C2 C<D |
+:|2 [e/G/]c3/ [d/F/]B3/ [c/E/]A3/ {A}[B/D/]G3/ \
+|  G/F/E/D/ F/E/D/C/ B,3 :: a \
+| {a}b>f d<B g<e c>a |
+| {a}b>f e/d/c/B/ {A}f3g/a/ \
+| b>f d<B g<e c>A \
+| [A/F/]B3/ c<f [B2(D2] [D/)B/]a3/ |
+| {a}b>f d<B g<e c>a \
+| {a}b>f e/d/c/B/ {A}(f2 f)>e \
+| d>B e>c d/c/B/A/ {A}B>G \
+| G/F/E/D/ F/E/D/C/ B,3 :|
+
+%%sep 1 1 500
+
+X: 160
+T: So I'm Off With the Good Saint Nicholas Boat
+C: J.S.Skinner
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+Z: from a transcription by Terry Traub
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"Ace e^de | "Adim"fe^d "A"e2c | "Bm"dcd "E7"Bed | "A"c3 c2A \
+| "A"Ace e^de | "Adim"fe^d "A"e2c | "Bm"dcd "E7"Bec | "A"A3- A2 :|
+c \
+| "F#m"cfg agf | "Bm"ded "F#m"c2c | "F#m"cfg agf | "C#"g3 "(E7)"g2g \
+| "D"agf "A"e2e | "D"fed "A"c2c | "E"Bef "B7"gaf | "E"eee "E7"e2 ||
+e \
+| "Bm"f2f fdB | "E"g2g g2c | "Bm"d2d "E7"dcB | "A"e3 "E7"e2G \
+| "A"Ace e^de | "Adim"fe^d "A"e2c | "Bm"dcd "E7"EFG | "A"A3- A2 |]
+
+%%sep 1 1 500
+
+X: 161
+T: So I'm Off With the Good Saint Nicholas Boat
+C: J.S.Skinner
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+Z: from a transcription by Terry Traub
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"Ace e^de | "Adim"fe^d "A"e2c | "Bm"dcd "E7"Bed | "A"c3 c2A \
+| "A"Ace e^de | "Adim"fe^d "A"e2c | "Bm"dcd "E7"Bec | "A"A3- A2 :|
+c \
+| "F#m"cfg agf | "Bm"ded "F#m"c2c | "F#m"cfg agf | "C#"g3 "(E7)"g2g \
+| "D"agf "A"e2e | "D"fed "A"c2c | "E"Bef "B7"gaf | "E"eee "E7"e2 ||
+e \
+| "Bm"f2f fdB | "E"g2g g2c | "Bm"d2d "E7"dcB | "A"e3 "E7"e2G \
+| "A"Ace e^de | "Adim"fe^d "A"e2c | "Bm"dcd "E7"EFG | "A"A3- A2 |]
+
+%%sep 1 1 500
+
+X: 162
+T: The Spey In Spate
+C:James Scott Skinner
+R:reel
+Z:Nigel Gatherer
+S:Nigel Gatherer <gatherer:argonet.co.UK>
+M:4/4
+L:1/8
+K:D
+D2 FD A,DFA | dcBA ^GAFD | E2 GE B,EGB | gecA GECA, |
+D2 FD A,DFA | dDcD BDAf | gefd ecdB | AFGE DABc ||
+d/d/d fd AdFA | DFAd fagf | e/e/e ge BeGB | CEAc egfe |
+d/d/d fd AdFA | DFAd fagf | gefd ecdB | AFGE D4 |]
+
+%%sep 1 1 500
+
+X: 163
+T: The Spey In Spate
+C: James Scott Skinner
+M: 4/4
+L: 1/8
+Z: Nigel Gatherer; small changes by John Chambers
+K: D
+[| "D"D2FD A,DFA | dcBA ^GAFD | "Em" E2GE B,EGB | "A7"gecA    GECA, |
+|  "D"D2FD A,DFA | dDcD  BDAf | "Em" gefd ecdB  | "A7"AFGE "D"DABc |]
+[| "D"~d2fd AdFA | DFAd  fagf | "Em"~e2ge BeGB  | "A7"CEAc    egfe  |
+|  "D"~d2fd AdFA | DFAd  fagf | "Em" gefd ecdB  | "A7"AFGE "D"D4   |]
+
+%%sep 1 1 500
+
+X: 164
+T: The Spey In Spate
+C: James Scott Skinner
+M: 4/4
+L: 1/8
+Z: Nigel Gatherer; small changes by John Chambers
+%%staffsep 40
+K: D
+A,2 | "D"~D2FD A,DFA | dcBA ^GAFD | "Em"~E2GE B,EGB | "A7"gecA GECA, || "D"~D2FD A,DFA | dDcD BDAf |
+| "Em" gefd ecdB |1 "A7"AFGE "D"D2 :|2 "A7"AFGE "D"DABc |:"D"~d2fd AdFA | DFAd fagf | "Em"~e2ge BeGB |
+| "A7"CEAc egfe || "D"~d2fd AdFA | DFAd fagf | "Em" gefd ecdB |1 "A7"AFGE "D"DABc :|2 "A7"AFGE "D"D2 |]
+
+%%sep 1 1 500
+
+X: 165
+T: The Spey In Spate
+C: James Scott Skinner
+M: 4/4
+L: 1/8
+Z: Nigel Gatherer; small changes by John Chambers
+K: D
+|: A,2 \
+| "D"D2FD A,DFA | dcBA ^GAFD | "Em" E2GE B,EGB |  "A7"gecA    GECA, |
+| "D"D2FD A,DFA | dDcD  BDAf | "Em" gefd ecdB  |1 "A7"AFGE "D"D2   :|2 "A7"AFGE "D"DABc |]
+|:"D"~d2fd AdFA | DFAd  fagf | "Em"~e2ge BeGB  |  "A7"CEAc    egfe  |
+| "D"~d2fd AdFA | DFAd  fagf | "Em" gefd ecdB  |1 "A7"AFGE "D"DABc :|2 "A7"AFGE "D"D2 |]
+
+%%sep 1 1 500
+
+X: 166
+T: The Spey In Spate
+C:James Scott Skinner
+R:reel
+Z:Nigel Gatherer
+S:Nigel Gatherer <gatherer:argonet.co.UK>
+M:4/4
+L:1/8
+K:D
+D2 FD A,DFA | dcBA ^GAFD | E2 GE B,EGB | gecA GECA, |
+D2 FD A,DFA | dDcD BDAf | gefd ecdB | AFGE DABc ||
+d/d/d fd AdFA | DFAd fagf | e/e/e ge BeGB | CEAc egfe |
+d/d/d fd AdFA | DFAd fagf | gefd ecdB | AFGE D4 |]
+
+%%sep 1 1 500
+
+X: 167
+T: The Spey In Spate
+C: James Scott Skinner
+M: 4/4
+L: 1/8
+Z: Nigel Gatherer; small changes by John Chambers
+K: D
+[| "D"D2FD A,DFA | dcBA ^GAFD | "Em" E2GE B,EGB | "A7"gecA    GECA, |
+|  "D"D2FD A,DFA | dDcD  BDAf | "Em" gefd ecdB  | "A7"AFGE "D"DABc |]
+[| "D"~d2fd AdFA | DFAd  fagf | "Em"~e2ge BeGB  | "A7"CEAc    egfe  |
+|  "D"~d2fd AdFA | DFAd  fagf | "Em" gefd ecdB  | "A7"AFGE "D"D4   |]
+
+%%sep 1 1 500
+
+X: 168
+T: The Spey In Spate
+C: James Scott Skinner
+M: 4/4
+L: 1/8
+Z: Nigel Gatherer; small changes by John Chambers
+%%staffsep 40
+K: D
+A,2 | "D"~D2FD A,DFA | dcBA ^GAFD | "Em"~E2GE B,EGB | "A7"gecA GECA, || "D"~D2FD A,DFA | dDcD BDAf |
+| "Em" gefd ecdB |1 "A7"AFGE "D"D2 :|2 "A7"AFGE "D"DABc |:"D"~d2fd AdFA | DFAd fagf | "Em"~e2ge BeGB |
+| "A7"CEAc egfe || "D"~d2fd AdFA | DFAd fagf | "Em" gefd ecdB |1 "A7"AFGE "D"DABc :|2 "A7"AFGE "D"D2 |]
+
+%%sep 1 1 500
+
+X: 169
+T: The Spey In Spate
+C: James Scott Skinner
+M: 4/4
+L: 1/8
+Z: Nigel Gatherer; small changes by John Chambers
+K: D
+|: A,2 \
+| "D"D2FD A,DFA | dcBA ^GAFD | "Em" E2GE B,EGB |  "A7"gecA    GECA, |
+| "D"D2FD A,DFA | dDcD  BDAf | "Em" gefd ecdB  |1 "A7"AFGE "D"D2   :|2 "A7"AFGE "D"DABc |]
+|:"D"~d2fd AdFA | DFAd  fagf | "Em"~e2ge BeGB  |  "A7"CEAc    egfe  |
+| "D"~d2fd AdFA | DFAd  fagf | "Em" gefd ecdB  |1 "A7"AFGE "D"DABc :|2 "A7"AFGE "D"D2 |]
+
+%%sep 1 1 500
+
+X: 170
+T: (Reel of) Stumpie
+T: Wap an' Rowe
+O: Trad (1734)
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+R: march, polka, reel
+M: 2/4
+L: 1/8
+K: A
+|: "A"ce a2 | a/g/f/e/ a2 | ce a2 | "Bm"bB "E7"B2 \
+| "A"ce a2 | a/g/f/e/ a2 | ce "E7"B>d | "A"cA A2 :|
+|: "A"ce ed/c/ | "D"df f>d | "A"ce "F#m"f/e/c/A/ | "Bm"cB "E7"B2 \
+| "A"ce ed/c/ | "D"df f>d | "A"ce "E7"B>d | "A"cA A2 :|
+
+%%sep 1 1 500
+
+X: 171
+T: Stumpie
+T: Wap an' Rowe
+O: Trad (1734)
+R: strathspey
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/16
+K: A
+   d |\
+"A"ce3 a4 agfe a4 | ce3 a4 {ga}"Bm"bB3 "E7"B3d |\
+"A"ce3 a4 agfe a4 | ce3 "E7"B3d "A"cA3 A3 :|
+|: B |\
+"A"ce3 e3c "D"df3 f3d | "A"ce3 e3c "Bm"[fc]B3 "E7"B3d |\
+"A"ce3 e3c "D"df3 f3d | "A"ca3 "E7"B3d "A"cA3 A3 :|
+
+%%sep 1 1 500
+
+X: 172
+T: (Reel of) Stumpie
+T: Wap an' Rowe
+O: Trad (1734)
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+R: march, polka, reel
+M: 2/4
+L: 1/8
+K: A
+|: "A"ce a2 | a/g/f/e/ a2 | ce a2 | "Bm"bB "E7"B2 \
+| "A"ce a2 | a/g/f/e/ a2 | ce "E7"B>d | "A"cA A2 :|
+|: "A"ce ed/c/ | "D"df f>d | "A"ce "F#m"f/e/c/A/ | "Bm"cB "E7"B2 \
+| "A"ce ed/c/ | "D"df f>d | "A"ce "E7"B>d | "A"cA A2 :|
+
+%%sep 1 1 500
+
+X: 173
+T: Stumpie
+T: Wap an' Rowe
+O: Trad (1734)
+R: strathspey
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/16
+K: A
+   d |\
+"A"ce3 a4 agfe a4 | ce3 a4 {ga}"Bm"bB3 "E7"B3d |\
+"A"ce3 a4 agfe a4 | ce3 "E7"B3d "A"cA3 A3 :|
+|: B |\
+"A"ce3 e3c "D"df3 f3d | "A"ce3 e3c "Bm"[fc]B3 "E7"B3d |\
+"A"ce3 e3c "D"df3 f3d | "A"ca3 "E7"B3d "A"cA3 A3 :|
+
+%%sep 1 1 500
+
+X: 174
+T: The Summer Assembly (1st tune)
+T: The Oddfellows
+C: J.Scott Skinner
+N: Skinner published this with a "Trio" section that's transcribed as a second tune.
+R: reel
+B: RSCDS __-8(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+"E7"\
+ED "A" | "A"CEA2    A2cA | "D"B2A2 "A"A2ED | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 ||
+ED     | "A"CEA2    A2cA | "D"BAAF "A"E2A2 | "D"F2EC   "A"EFAE | "D"[F2D2][A2D2] "A"[A2C2] :|
+cd "B1"| "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 ||
+cd     | "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "E7"B2A2 "A"A2  |]
+cd "B2"| "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 ||
+ED     | "A"CEA2    A2cA | "D"BAAF "A"E2A2 | "D"F2EC   "A"EFAE | "D"[F2D2][A2D2] "A"[A2C2] |]
+
+%%sep 1 1 500
+
+X: 175
+T: The Summer Assembly (1st tune)
+T: The Oddfellows
+C: J.Scott Skinner
+N: Skinner published this with a "Trio" section that's transcribed as a second tune.
+R: reel
+B: RSCDS __-8(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+"E7"\
+ED "A" | "A"CEA2    A2cA | "D"B2A2 "A"A2ED | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 ||
+ED     | "A"CEA2    A2cA | "D"BAAF "A"E2A2 | "D"F2EC   "A"EFAE | "D"[F2D2][A2D2] "A"[A2C2] :|
+cd "B1"| "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 ||
+cd     | "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "E7"B2A2 "A"A2  |]
+cd "B2"| "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 ||
+ED     | "A"CEA2    A2cA | "D"BAAF "A"E2A2 | "D"F2EC   "A"EFAE | "D"[F2D2][A2D2] "A"[A2C2] |]
+
+%%sep 1 1 500
+
+X: 176
+T: The Ten Pound Fiddle
+M:C
+L:1/8
+%Q:240
+C:J. S. Skinner
+Z:Warren Armstrong <warrenarmstrong:eaton.com>
+R:Reel
+A:Scotland
+B:The Fiddle Music of Scotland", James Hunter, ISBN 946868 04 2,
+K:A
+E | A2 (ED) CEAf | eAfA GBBG | {G}A2 (EC) DFBA | GBeg aAAE |
+| A/A/A (ED) CEAf | eAaA GBBG | A/A/A (EC) DFBA | GBeg aA A ||
+g | a/a/a (ea)caAg | aeca fBBg | a/a/a (ec)f/f/f (dB) | GBeg aAA(a |
+| ga)ea caAa | caAa fBBc | {G}A2 (EC) DFBA | GBeg aA A ||
+
+%%sep 1 1 500
+
+X: 177
+T: The Ten-Pound Fiddle
+C: J.S. Skinner (1897)
+R: reel
+F: http://www.abdn.ac.uk/scottskinner/images/JSS0351.jpg
+N: "To Dean of Guild Littlejohn for Bonnie Banchory Bazaar Aug: 1897"
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+%%slurgraces
+E | "A"{G}A2(ED)  CEAf | "A"eAfA     "E"GBBG | "A"{G}A2(EC)  "Bm"DFBA       | "E7"GBeg "A"aAA |
+E | "A"A/A/A (ED) CEAf | "A"eAaA     "E"GBBG | "A"A/A/A (EC) "Bm"DFBA       | "E7"GBeg "A"aAA ||
+g | "A"a/a/a (ea) caAg | "A"aec[ae] "Bm"fBBg | "A"a/a/a (ec) "Bm"f/f/f (dB) | "E7"GBeg "A"aAA |
+a | "A"ga.e.a .c.a.A.a | "A"caAa    "Bm"fBBc | "A"[A/A2]A/A (EC) "Bm"DFBA   | "E7"GBeg "A"aAA |]
+
+%%sep 1 1 500
+
+X: 178
+T: The Ten-Pound Fiddle
+C: J.S. Skinner (1897)
+R: reel
+F: http://www.abdn.ac.uk/scottskinner/images/JSS0351.jpg
+N: "To Dean of Guild Littlejohn for Bonnie Banchory Bazaar Aug: 1897"
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+%%slurgraces
+E | "A"{G}A2(ED)  CEAf | "A"eAfA     "E"GBBG | "A"{G}A2(EC)  "Bm"DFBA       | "E7"GBeg "A"aAA |
+E | "A"A/A/A (ED) CEAf | "A"eAaA     "E"GBBG | "A"A/A/A (EC) "Bm"DFBA       | "E7"GBeg "A"aAA ||
+g | "A"a/a/a (ea) caAg | "A"aec[ae] "Bm"fBBg | "A"a/a/a (ec) "Bm"f/f/f (dB) | "E7"GBeg "A"aAA |
+a | "A"ga.e.a .c.a.A.a | "A"caAa    "Bm"fBBc | "A"[A/A2]A/A (EC) "Bm"DFBA   | "E7"GBeg "A"aAA |]
+
+%%sep 1 1 500
+
+X: 179
+T: The Ten Pound Fiddle
+M:C
+L:1/8
+%Q:240
+C:J. S. Skinner
+Z:Warren Armstrong <warrenarmstrong:eaton.com>
+R:Reel
+A:Scotland
+B:The Fiddle Music of Scotland", James Hunter, ISBN 946868 04 2,
+K:A
+E | A2 (ED) CEAf | eAfA GBBG | {G}A2 (EC) DFBA | GBeg aAAE |
+| A/A/A (ED) CEAf | eAaA GBBG | A/A/A (EC) DFBA | GBeg aA A ||
+g | a/a/a (ea)caAg | aeca fBBg | a/a/a (ec)f/f/f (dB) | GBeg aAA(a |
+| ga)ea caAa | caAa fBBc | {G}A2 (EC) DFBA | GBeg aA A ||
+
+%%sep 1 1 500
+
+X: 180
+T: Tom Dey
+C: J.Scott Skinner
+P: Tune for "Hutton Castle"
+B: Roy Goldring "14 Social Dances for 2000"
+R: strathspey
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+[|\
+"A"e2 f>e c<e A>B | "A7"c2 B>A "D"F<A "A/c#"E>C |\
+"Bm"D2 F>D "A"C<E A>a | "A/c#"e<c "B7"[A^D]>c "E7"[B2G2=D2] c>d |
+"A"e2 f>e c<e A>B | "A7"c2 B>A "D"F<A "A/c#"E>C |\
+"Bm"D2 F>D "A"(3CEA (3cea | "A/c#"e<c "E7"B>A "A"A2 A>e ||
+"A/c#"a2 "B7/d#"b>a "E7"g<b "A7"e>e | "D"f2 a>f "A/c#"e<a c>A |\
+"Bm"d>B "E7/g#"e>d "A"c<e c>A | "B7"B>e (3^def "E7"e2 ef/g/ |
+"F#m"a>f "B7/d#"b>a "E"g<b "A7/c#"e>e | "D"f>d a>f "A/c#"e<a c>A |\
+"Bm"(3FGA "E7"(3Bcd "A7"(3cde "D"(3fga | "A/e"(3edc "E7"(3BAG "A"A2 A2 |]
+
+%%sep 1 1 500
+
+X: 181
+T: Les Trois Grands Luthiers
+C: J. Scott Skinner 1904
+R: strathspey
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+|:\
+"A"(E2FG) ({G}A3B) ("E7"AGFG) "A"(A2E2) | (E2FG) (A3c) ("B7"cBBF) "E"{F}G4 |\
+"A"(E2FG) ({G}A3B) ("E7"AGFG) "A"(A2c2) | (e2A2) "D"(d2c{e}d) "E7"(B3A) "A"HA4 |
+"A"(c2de) (A2Bc) ("E7"d2"A"c2) "E7"{c}B2"A"A2 | "E7"(G2AB) "A/e"(E2A2) "B7"(G2{E}F2) "E7"E3E |\
+"A"(E2FG) "A"(A3B) "E7"(AG).F.G "A"(A2c2) | "A7"e2A2 "D"d2(c{d}d) "E7"B3A "A"HA4 |]
+%%begintext align
+%% To the immortal memory of Amati, Strativarius, and Guarnerius.
+%% This melody is dedicated to Croall's famous quartett.
+%% 16 Abercromby Place, Edinburgh.
+%%endtext
+
+%%sep 1 1 500
+
+X: 182
+T: Les Trois Grands Luthiers
+C: J. Scott Skinner 1904
+R: strathspey
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+%%continueall 1
+V: 1 nm=Viol.1 % nm=Vl.2
+[|!p!\
+"A"(E2FG) ({G}A3B) ("E7"AGFG) "A"(A2E2) | (E2FG) "F#m"(A3c) ("B7"cBBF) "E"{F}G4 |\
+"A"(E2FG) ({G}A3B) ("E7"AGFG) "A"(A2c2) | (e2A2) "D"(d2c{e}d) "E7"(B3A) "A"HA4 |
+"A"(c2de) (A2Bc) ("E7"d2"A"c2) "E7"{c}B2"A"A2 | "E7"(G2AB) "A/e"(E2A2) "B7"(G2{E}F2) "E7"E3E |\
+"A"(E2FG) "A"(A3B) "E7"(AG).F.G "A"(A2c2) | "A7"e2A2 "D"d2(c{d}d) "E7"B3A "A"HA4 |]
+V: 2 nm=Viol.2 % nm=Vl.2
+[|!p!\
+[E4C4] [E4C4] [E2D2][E2D2] [E4C4] | [E4C4] [F4C4] [A4^D4] [F2E2]E2 |!p!\
+[E4C4] [E4C4] [E2D2][E2D2] [E4C4] |"_cresc." [A4E4] [A4F4] [E4D4] H[E4C4] |
+!mf!(CEAE) (CEGA) (BE)(AE) (GE)(AE) | (DEDE) (CECE) (B,E^DB,) "_rall."(G,B,)=D2 |\
+"_a tempo".[EC].[EC].[EC].[EC] .[EC].[EC].[EC].[EC] .[ED].[ED].[ED].[ED] .[EC].[EC].[EC].[EC] |\
+.[=GA,].[GA,].[GA,].[GA,] .[FA,].[FA,].[FC].[FC] "_rit."(E2D2) !pp!C4 |]
+V: Cello nm=Cello clef=bass middle=d
+[|!p!\
+A4 a4 b2e2 a4 | a4 f4 B4 (edcB) |!p!\
+A4 a4 b2e2 a4 | "_cresc."c4 d4 e4 HA4 |
+!mf!a4 A4 G2A2 d2c2 | e4 e4 B2B2 "_rall."e2g2 |\
+!p!.a2.a2 A2.A2 .g2.e2 .a2.e2 | .c2.c2 .d2.B2 "_rit."(e2E2) !pp!HA4 |]
+%%text The Viol.2 & Cello parts are bracketed, with "or Piano" to the left.
+%%begintext align
+%% To the immortal memory of Amati, Strativarius, and Guarnerius.
+%% This melody is dedicated to Croall's famous quartett.
+%% 16 Abercromby Place, Edinburgh.
+%%endtext
+
+%%sep 1 1 500
+
+X: 183
+T: The Ury Water
+C: J. Scott Skinner
+R: strathspey
+B: RSCDS __-10
+N: Johnson's Caledonian Country Dances 3rd Edition 1750
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+G \
+| "C"e>d c>B "F"A>G A>c | "C"G<E "Am"C>E "G7"D3 G \
+| "C"e>d c>B "F"A>G A>c | "C"G>c "G7"d>B "C"c3 G |
+| "C"e>d c>B "F"A>G A>c | "C"G<E "D9"C>E "G7"D3 G \
+| "C"c>d c>B "F"A>G A>c | "C"G<E "G7"D>E "C"C3 ||
+G//F//E//D// \
+| "C"C>D E>G "F"A>G A>c | "C"G<E "Am"C>E "G7"D3 G, \
+| "C"C>D "C7"E>G "F"A>G A>c | "C"G<E "G7"D>E "C"C3 E |
+| "C"C>D E>G "F"A>G A>c | "C"G<E "D9"C>E "G7"D3 c/d/ \
+| "C"e>g "F"a>c' "C"g>e "F"d>c | "C"A>G "G7"d>e "C"c3 |]
+
+%%sep 1 1 500
+
+X: 184
+T: The Ury Water
+C: J. Scott Skinner
+R: strathspey
+B: RSCDS __-10
+N: Johnson's Caledonian Country Dances 3rd Edition 1750
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+G \
+| "C"e>d c>B "F"A>G A>c | "C"G<E "Am"C>E "G7"D3 G \
+| "C"e>d c>B "F"A>G A>c | "C"G>c "G7"d>B "C"c3 G |
+| "C"e>d c>B "F"A>G A>c | "C"G<E "D9"C>E "G7"D3 G \
+| "C"c>d c>B "F"A>G A>c | "C"G<E "G7"D>E "C"C3 ||
+G//F//E//D// \
+| "C"C>D E>G "F"A>G A>c | "C"G<E "Am"C>E "G7"D3 G, \
+| "C"C>D "C7"E>G "F"A>G A>c | "C"G<E "G7"D>E "C"C3 E |
+| "C"C>D E>G "F"A>G A>c | "C"G<E "D9"C>E "G7"D3 c/d/ \
+| "C"e>g "F"a>c' "C"g>e "F"d>c | "C"A>G "G7"d>e "C"c3 |]
+
+%%sep 1 1 500
+
+X: 185
+T: Wallace
+C: J. Scott Skinner
+Z: 2004 John Chambers <jc@trillian.mit.edu>
+N:
+N: Skinner described this tune as a 'Patriotic Pastoral'. He intended
+N: it to be followed by the reel Dumbarton Castle. The two tunes then
+N: connect as 'revenge' for 'the death of Lady Wallace'.
+%
+% Original image \251 University of Aberdeen:
+% http://www.abdn.ac.uk/scottskinner/display.php?ID=JSS0011&Creator=1&Creator_Manuscript=5
+%
+M: C
+Q: "Grave"
+P: Patriotic Pastoral
+L: 1/16
+%%slurgraces 1
+K: A
+(kA,4 {B,2A,2G,2}A,2)>.C2 !_cresc!E2.F.G [A2A2].c.B |\
+[A2A2]G2 .F2.E2 [A2A2]>B2 {A2B2}kc4 |\
+(kC4 {D2C2B,2} C2)D2 !_cresc!E2FG [A2E2][e2A2] |
+.M[d2F2].M[c2E2].M[B2D2].M[A2C2] ([GB,]AGF E).MD.MC.MB, |\
+(kA,4 {B,2A,2G,2}A,2)>.C2 E2FG [A2A2]cB |\
+.[A2A2].G2 .[F2D2].[E2C2]
+[A2A2]>B2 {A2B2}kc2.e2 |\
+[f2A2D2][D2A,2][D2A,2] .f2 .e2[E2C2][E2C2][A2E2] |\
+(Bd) (ce) (dc) (BA) [c4E4-] {d2c2}[B2E2] |["Fine" [AC]H[A16C16]
+"softly"e2 |\
+(ag).f.e {g}.a2.[A2E2] .[e2A2].[A2E2].[c2E2].[A2E2] |\
+{DCB,}A,3.C [E2C2]FG [A2D2][B2E2][c2A2][e2A2] |\
+(ag).f.e {g}.a2.[A2E2] .[e2A2].[A2E2].[c2E2].[A2E2] |
+{DA}f2[e2A2][d2E2][c2E2] k[c4E4] {dc}[B2E2] e2 |\
+(ag).f.e {g}.a2.[A2E2] .[e2A2].[A2E2].[c2E2].[A2E2] |\
+{DCB,}A,3.B, [E2C2]FG [A2D2][B2E2][c2A2][e2A2] |
+{DA}(kfefg "^cresc"agfe) (kdcde fedc) |\
+((B>c)(A>B) (G>A)(F>G) (E>F)(D>E) (C>D) (B,>C)) ||
+
+%%sep 1 1 500
+
+X: 186
+T: The Warrior o' Persie
+M: C
+L: 1/8
+C: J.Scott Skinner
+R: strathspey or slow air
+Z: AK/Fiddler's Companion
+S: AIKUNTZ:aol.com scots-l 2002-9-7
+N: Dedicated  to  "W.   McCombie  Smith,  F.S.A.,  Schoolhouse,   Persie,   by
+N: Blairgowrie."  William  McCombie  Smith  was an author, among other things,
+N: whose works include Memoir of the Families of M'Combie  and  Thomas  (1890)
+N: and   The  Romance  of  Poaching  in  the  Highlands  (1904).   Smith  also
+N: prolifically wrote about and  participated  in  Highland  Games,  where  he
+N: competed as a heavy athlete, although his performance has been described as
+N: "mediocre".
+%%slurgraces 1
+K: D
+A, \
+| {C}[D2D2] FD A,DFD | G/A/B/c/ dD CE E>F \
+| {C}[D2D2] F>D B,D .G,.B | A/B/c/d/ A/F/G/E/ FD [DA,] :|
+g \
+| {D/A/}f>ga.f .d.A.F.D | g>abg .e.B.G.E \
+| f>ga.f .d.A.F.D | C/D/E/F/ G/E/A/G/ FD [DA,] ||
+g \
+| {D/A/}f>ga.f .d.A.F.D | {G,/B/}g>abg .e.B.G.E \
+| {C}[D2D2] f>d .B,.D .G,.B | A/B/c/d/ A/F/G/E/ FD [DA,] |]
+
+%%sep 1 1 500
+
+X: 187
+T: The Warrior o' Persie
+M: C
+L: 1/8
+C: J.Scott Skinner
+R: strathspey or slow air
+Z: AK/Fiddler's Companion
+S: AIKUNTZ:aol.com scots-l 2002-9-7
+N: Dedicated  to  "W.   McCombie  Smith,  F.S.A.,  Schoolhouse,   Persie,   by
+N: Blairgowrie."  William  McCombie  Smith  was an author, among other things,
+N: whose works include Memoir of the Families of M'Combie  and  Thomas  (1890)
+N: and   The  Romance  of  Poaching  in  the  Highlands  (1904).   Smith  also
+N: prolifically wrote about and  participated  in  Highland  Games,  where  he
+N: competed as a heavy athlete, although his performance has been described as
+N: "mediocre".
+%%slurgraces 1
+K: D
+A, \
+| {C}[D2D2] FD A,DFD | G/A/B/c/ dD CE E>F \
+| {C}[D2D2] F>D B,D .G,.B | A/B/c/d/ A/F/G/E/ FD [DA,] :|
+g \
+| {D/A/}f>ga.f .d.A.F.D | g>abg .e.B.G.E \
+| f>ga.f .d.A.F.D | C/D/E/F/ G/E/A/G/ FD [DA,] ||
+g \
+| {D/A/}f>ga.f .d.A.F.D | {G,/B/}g>abg .e.B.G.E \
+| {C}[D2D2] f>d .B,.D .G,.B | A/B/c/d/ A/F/G/E/ FD [DA,] |]
+
+%%sep 1 1 500
+
+X: 188
+T: The Warrior's Return  [C]
+C: J. Scott Skinner
+R: air, strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000)
+M: 4/4
+L: 1/8
+K: C
+"G7"G2 \
+| "C"G2 E2 G2 AB | "F"c3 A "C"G2 "G/B"ED | "Am"C2 DE "Dm"F2 A2 | "G"G6 "G7"G2 |
+| "C"G2 E2 G2 AB | "F"c3 B "Dm"A2 Bc | "G"d2 BG "D7"D2 E^F | "G"G6 ||
+"G"G2 \
+| "Dm"F2 G2 "G/B"d3 F | "C"E2 "(G7)"G2 "C"c2 cB | "F"A2 AB c2 d2 | "E"e6 cB |
+| "F"A>^G AB "Dm"dc BA | "C"G2 E2 "(Am)"G2 ce | "C"g2 ec "G7"G2 AB | "C"c2-"F"c2-"C"c2 |]
+
+%%sep 1 1 500
+
+X: 189
+T: The Warrior's Return   [C]
+C: J. Scott Skinner
+R: air, strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000)
+M: 4/4
+L: 1/8
+K: C
+"G7"G2 \
+| "C"G2 E2 G2 AB | "F"c3 A "C"G2 "G/B"ED \
+| "Am"C2 DE "Dm"F2 A2 | "G"G6 "G7"G2 \
+| "C"G2 E2 G2 AB | "F"c3 B "Dm"A2 Bc \
+| "G"d2 BG "D7"D2 E^F | "G"G6 ||
+"G"G2 \
+| "Dm"F2 G2 "G7"d3 F | "C"E2 "(G)"G2 "C"c2 cB \
+| "F"A2 AB c2 d2 | "E"e6 cB \
+| "F"A>^G AB "Dm"dc BA | "C"G2 E2 "(Am)"G2 ce \
+| "C"g2 ec "G7"G2 AB | "C"c2-"F"c2-"C"c2 |]
+
+%%sep 1 1 500
+
+X: 190
+T: The Warrior's Return  [D]
+C: J. Scott Skinner
+R: air, strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000)
+M: 4/4
+L: 1/8
+K: D
+"A7"A2 \
+| "D"A2 F2 A2 Bc | "G"d3 B "D"A2 "A7"FE \
+| "Bm"D2 EF "Em"G2 B2 | "A"A6 "A7"A2 \
+| "D"A2 F2 A2 Bc | "G"d3 c "Em"B2 cd \
+| "A"e2 cA "E7"E2 F^G | "A"A6 ||
+"A"A2 \
+| "Em"G2 A2 "A7"e3 G | "D"F2 "(A7)"A2 "D"d2 dc \
+| "G"B2 Bc d2 e2 | "F#"f6 dc \
+| "G"B>^A Bc "Em"ed cB | "D"A2 F2 "(Bm)"A2 df \
+| "D"a2 fd "A7"A2 Bc | "D"d2-"G"d2-"D"d2 |]
+
+%%sep 1 1 500
+
+X: 191
+T: The Warrior's Return  [C]
+C: J. Scott Skinner
+R: air, strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000)
+M: 4/4
+L: 1/8
+K: C
+"G7"G2 \
+| "C"G2 E2 G2 AB | "F"c3 A "C"G2 "G/B"ED | "Am"C2 DE "Dm"F2 A2 | "G"G6 "G7"G2 |
+| "C"G2 E2 G2 AB | "F"c3 B "Dm"A2 Bc | "G"d2 BG "D7"D2 E^F | "G"G6 ||
+"G"G2 \
+| "Dm"F2 G2 "G/B"d3 F | "C"E2 "(G7)"G2 "C"c2 cB | "F"A2 AB c2 d2 | "E"e6 cB |
+| "F"A>^G AB "Dm"dc BA | "C"G2 E2 "(Am)"G2 ce | "C"g2 ec "G7"G2 AB | "C"c2-"F"c2-"C"c2 |]
+
+%%sep 1 1 500
+
+X: 192
+T: The Warrior's Return   [C]
+C: J. Scott Skinner
+R: air, strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000)
+M: 4/4
+L: 1/8
+K: C
+"G7"G2 \
+| "C"G2 E2 G2 AB | "F"c3 A "C"G2 "G/B"ED \
+| "Am"C2 DE "Dm"F2 A2 | "G"G6 "G7"G2 \
+| "C"G2 E2 G2 AB | "F"c3 B "Dm"A2 Bc \
+| "G"d2 BG "D7"D2 E^F | "G"G6 ||
+"G"G2 \
+| "Dm"F2 G2 "G7"d3 F | "C"E2 "(G)"G2 "C"c2 cB \
+| "F"A2 AB c2 d2 | "E"e6 cB \
+| "F"A>^G AB "Dm"dc BA | "C"G2 E2 "(Am)"G2 ce \
+| "C"g2 ec "G7"G2 AB | "C"c2-"F"c2-"C"c2 |]
+
+%%sep 1 1 500
+
+X: 193
+T: The Warrior's Return  [D]
+C: J. Scott Skinner
+R: air, strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000)
+M: 4/4
+L: 1/8
+K: D
+"A7"A2 \
+| "D"A2 F2 A2 Bc | "G"d3 B "D"A2 "A7"FE \
+| "Bm"D2 EF "Em"G2 B2 | "A"A6 "A7"A2 \
+| "D"A2 F2 A2 Bc | "G"d3 c "Em"B2 cd \
+| "A"e2 cA "E7"E2 F^G | "A"A6 ||
+"A"A2 \
+| "Em"G2 A2 "A7"e3 G | "D"F2 "(A7)"A2 "D"d2 dc \
+| "G"B2 Bc d2 e2 | "F#"f6 dc \
+| "G"B>^A Bc "Em"ed cB | "D"A2 F2 "(Bm)"A2 df \
+| "D"a2 fd "A7"A2 Bc | "D"d2-"G"d2-"D"d2 |]

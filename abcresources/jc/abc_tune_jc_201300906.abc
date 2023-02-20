@@ -1,0 +1,26 @@
+X:1
+T: Laura's Waltz
+N:
+C:Tune is "L is for ..." by Bob Pasquarello
+S:
+A:
+O:
+R:
+M:3/4
+K:Em
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 26 notes)
+K:Em
+M:3/4
+L:1/16
+g2 a2 |b4 e4 e4 |f4 B4 B4 |e4 c4 c4 |d4 B4 B4 |c4 A4 A4 |B4 E4 G4 |A6 G2 A4 |B8 g2 a2 |
+%W: A2
+% voice 1 (1 lines, 25 notes)
+b4 e4 e4 |f4 B4 B4 |e4 c4 c4 |d4 B4 B4 |c4 A4 A4 |B4 E4 G4 |F6 G2 F4 |E6 F2 G2 A2 |
+%W: B1
+% voice 1 (1 lines, 22 notes)
+B4 G4 B4 |^c4 A4 c4 |^d8 e4 |f8 e2 f2 |g8 g4 |a4 g4 a4 |b6 a2 g4 |f8 g2 a2 |
+%W: B2
+% voice 1 (1 lines, 22 notes)
+b4 e4 e4 |f4 B4 B4 |e4 c4 c4 |d4 B4 B4 |c4 A4 A4 |B4 E4 G4 |F6 G2 F4 |E8 ||

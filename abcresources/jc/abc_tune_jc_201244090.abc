@@ -1,0 +1,20 @@
+X: 403
+T: Ashun Daje Mori
+O: Bosnia
+F: http://www.youtube.com/watch?v=HcZiaYkFHBk
+F: http://www.youtube.com/watch?v=nVVJ8HLKJBg
+F: http://www.youtube.com/watch?v=XwB1YgmFR_Q
+M: 7/8
+L: 1/8
+K: EPhr clef=treble
+Q: 1/4=120
+%%MIDI beatstring fppmpmp
+%%MIDI program 24 % Acoustic Guitar
+A,7|G,7|E,7|D,7|\
+%%MIDI program 67 % Baritone Saxophone
+z2 A,B,A,^G,A,|F,E,6-|E,7-|E,3z2\
+%%MIDI program 73 % Flute
+EE|
+A^G2 A4-|A3-A2z2| B2A ^G2E2|^G7-|G3z2EE|
+A^G2 A4-|A3-A2z2| B2A ^G2E2|^G7-|G3-G2z2|
+|:A2^G F2E2|D2E F4|B2A ^G2F2|E7-|E7:|

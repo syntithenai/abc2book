@@ -1,0 +1,41 @@
+X: 1
+T: Hey ho, my Honey
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.92 #137 (183)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.128
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g |\
+^f2d d=e^f | g3 b3 | (fd2) c2B | G3- G2g |\
+^f2d d=e^f | g3 b3 | (fd2) c2B | B3- B2F |
+BAB cBc | df2- f2F | B>AB cde | d3- d2F |\
+B>cd ec2 | f3 g3 | (fd2) c2B | G3- G2A |
+B3 A2G | ^FD2- D2D | BAB cBc | d3- d2A |\
+B>cd ec2 | f3 g3 | (fd2) c2B | G3- G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Man cast off below the 2d Man, and 1st Wo. do the like, and stand
+%% between the 2d Man and 2d Wo. then all three take Hands and lead up 
+%% abreast and sett to the 1st Man, then the 1st Man go round the 2d Man,
+%% and the 1st Wo. go round the 2d Wo. while the 1st Wo. stands in the
+%% Middle, then all three meet, and sett to the 1st Man, then 1st Cu.
+%% cast off into the 2d Cu. Place, the rest do the like.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First man cast off below the 2. man, and 1. wo. do the like and stand betwen [sic] the 2. man and 2. wo.
+%% then all three take hands and lead up a-breast and set to the 1. man, then the 1. man, go round the 2.
+%% man, and the 1. wo. go round the 2. wo. while the 1. wo. stands in the middle then, all three meet
+%% and set to the 1. man, then 1. man and 1. wo. cast off into the 2. cu. place; The other cu. do over
+%% the like.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

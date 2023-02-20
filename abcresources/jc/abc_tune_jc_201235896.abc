@@ -1,0 +1,31 @@
+X: 21451
+T: ALGERINE SETT (tune 4)
+C:
+%R: reel, march
+B: Elias Howe "The Musician's Companion" 1843 p.145 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Bar 5 is missing a beat; fixed by rewriting the first 2 notes as "G3G" rather than "G>G".
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+!f!ef |\
+g2g2 gag^f | (g4 e)z !p!e2 | f2f2 g2g2 | e>fd>e c2 E>F |\
+G3G G>AG>^F | (G4 E)z E2 | F2F2 G2G2 | E>GA>B c2 H|]
+G2 |\
+(Gf)(fd) (dB)(BG) | (Gg)(ge) (ec)(cG) | (Gf)(fd) (dB)(BG) | (Ge)(ec) (cG)(GE) |\
+!f!E^DE^F ^GEFG | A^GAB cABc | B2g2 A2^f2 | gGAB cd"^D.C."e=f |]
+!p!d2 |\
+d6 e2 | d2g2b2g2 | aba^g a4 | aba^g a4 |\
+{E}e6 ^d2 | e2ed cBAG | ^F2ed F2ed | G2AB cd"^D.C."ef |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Grand chain,
+%% all promenade,
+%% grand right and left,
+%% all balance partners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

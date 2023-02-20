@@ -1,0 +1,19 @@
+X: 20262
+T: la POULE.     Quadrille.
+%R: jig
+B: "Edinburgh Repository of Music" v.2 p.26 #2 - p.27 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain is actually labelled "Minuer.", obviously a typo.
+M: 6/8
+L: 1/8
+K: G
+!segno!d |\
+(db)b (fa).g | d3- d2e | (d2B) (d2B) | d2c A2d |\
+(db).b (fa).g | e3- edc | (Bd).d (cA).F | (A3 G2) H|]
+B |\
+(cA).F d2c | (Bd).g b2g | (c'a).f (de).c | (Be).d d2B |\
+cAF d2.c | (GB).g b2g | (fa).c' (e'd').f | (a3 g2) !segno!|]
+"^Minuet."B |\
+e3 g3 | f3 (af).^d | egb c'af | (e3 ^d2)B |\
+e3 g3 | e3 f2a | g2e f2^d | e3 z2 :|">D.C."y

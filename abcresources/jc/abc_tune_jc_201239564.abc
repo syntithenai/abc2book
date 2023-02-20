@@ -1,0 +1,22 @@
+X: 3313
+T: the Irish Washerwoman
+%R: jig
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.31 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+P: Stacatto
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+c !segno!|:\
+.B.G.G .D.G.G | .B.G.B .d.c.B | .cAA EAA | cAc edc |\
+| BGG DGG | BGB dcB |[1 Tc>Bc ABc | def gdc :|[2 TcBc Adc | BGG G2 |: g |
+gdg gdg | gdg bag | =fcf fcf | fcf agf |\
+[1 egg dgg | cgg Bgg | (TcBc) Adc | BGG TG2 :|\
+[2 egg dbb | caa Bgg | (Tc>Bc) ABc | def gdc !segno!|]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z !segno!|: g3 g3 | g3 g3 | a3 a3 | a3 a3 | g3 g3 | g3 B3 |[1 c3 d3 | g3 g3 :|[1 c3 d3 | g3 G2 |: z |
+g3 g3 | g3 g3 | =f3 f3 | =f3 f3 |[1 c'3 b3 | a3 g3 | c3 d3 | g3 G2 :|[2 c'3 g3 | f3 g3 | c3 d3 | g3 G3 !segno!|]

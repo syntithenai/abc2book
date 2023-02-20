@@ -1,0 +1,30 @@
+X: 1
+T: Leith Wynd
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.2:7
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+g |\
+(dB)(AG) (TED)(EG) | d2dB d3e | (dB)(AG) (TED)(EG) | e2ed e3 :|\
+|: g |\
+dega b2Ta>g | d2dB d3e |
+dega b2Ta>g | e2ed e3g |\
+dega b2Ta>g | ded>B d2(e/f/g) | TdBAG EDEd | e2ed e3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g2G2 c4 | B2G2 B2d2 | g2G2 c3d | e4 E3 :|
+|: e |\
+g4 G4 | g4 b3c' | b4 g4 | c4 c'4 |
+b4g4 | G4 B2c2 | B4 c3d | e4 E3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First and 2d Cu. foot it, and Right hands and Left half round .|
+%% the same back again :|
+%% cross over two Cu. lead up to the top, foot it and case off .|.
+%% hands round four with the 3d Cu. Right hand & Left as top :|:
+%%endtext

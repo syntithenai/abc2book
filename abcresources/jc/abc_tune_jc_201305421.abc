@@ -1,0 +1,27 @@
+X: 1
+T: Mad Robin
+P: Longways for as many as will
+%R: march, reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.185 "R 3"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Both strains should probably be repeated.
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+f3e d2g2 | f2B2- B2c2 | d2(ed) c2B2 | (cB) (AG) F2c2 |\
+f3e d2g2 | f2B2- B2c2 | d2(ed) c2B2 | B4- B2 |][| f2 | b3a
+g2^f2 | g2d2- d2=e2 | ^f2g2 g3^f | g6 f2 |\
+f2e2- e2d2 | g2d2 c2B2 | A2G2 c3B | B4- B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man turn the 2. wo. with his right-hand, and his own Partner with his left, and cast off below the
+%% 2. man .| The 1. wo. turn her Partner with her right hand, and the 2. man with her left, and cast off
+%% below the 2. wo :| The 1. wo. cast up above the 2. man and slip down the middle, the 1. man go up
+%% between, and then cast off below and turn hands .| The 1. wo. go up the middle and cast off below the
+%% 2. wo. the 1. man cast up above the 2. man, and slip down the middle and turn his Partner :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

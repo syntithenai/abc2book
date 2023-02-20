@@ -1,0 +1,12 @@
+X: 1
+T: le Voyageur
+O: Qu\'ebec
+S: https://natunelist.net/voyageur/ 2022-1-31
+R: reel
+M: 4/4
+"^A"\
+|: "A"A2cA eAcA | EAce "E"dAcA | "A"EAeg "D"fefg |\
+[1 "A/C#"a2ed "E/B"ceBe :|2 "A/C#"a2ed "E"cefg |
+"^B"\
+|: "A"agae "A/C#"agae | "D"~f2ed "E"cefg | "A"a2g2"F#m"~f2ed |\
+[1 "E"~f2ed "A"cefg :|[2 [M:6/4] "D"~f2ed "A/C#"c2E2 | "E/B"B2AA |]

@@ -1,0 +1,28 @@
+X: 20861
+T: HAMILTON SETT (tune 1)
+C:
+%R: reel, hornpipe
+B: Elias Howe "The Musician's Companion" 1843 p.86 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="1"
+c2 |\
+fcag fedc | BAGF EDCB, | CDEF GABG | FGAB cdef |\
+fcag fedc | BAGF EDCB, | CDEF GABG | F2A2F2 H|]
+ef |\
+g>fe>f g>fe>f | g>fe>d c2fg | a>gf>g a>gf>g | a>gf>e f2fe |\
+d>cd>e f>ed>c | B>AB>c d>cB>A | BdcB AGFE | F2A2"^D.C."F2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Two ladies forward and back,
+%% two gentlemen the same,
+%% balance four and turn,
+%% chain,
+%% promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

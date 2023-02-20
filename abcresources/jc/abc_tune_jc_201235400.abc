@@ -1,0 +1,24 @@
+X: 21121
+T: THRO' THE WOOD LADDIE
+Q: "Slow"
+%R: air, minuet, waltz
+B: "Edinburgh Repository of Music" v.2 p.112 - p. 113 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+%%slurgraces 0
+%%graceslurs 0
+"_P."c>G |\
+A2 c>d ({e}d3/c//d//) | e4 c'>g | a2 (c'a)(ge) | (e2 d2) c>d |\
+e3 f ed | e2 (dc)(cd) | e>f eg(ed) | e2 (dc) (cG) |
+A2 c>d d3/c//d// | e4 c'd' | (e'd') (c'a) (ge) | d3 e (fg) |\
+a2 {d'}c'(b/a/) {a}gf/e/ | g>a (gf)(ed) | e2 A2 TB2 | {AB}c4 :|
+|: c>G |\
+A2 c>d (d3/c//d//) | e4 (cd) | e2 (fe)(dc) | {e}d4 c>d |\
+e3 f (ed) | e2 (dc)(cd) | e>d (ef)(ed) | e2 dc c>G |
+A2 (c>d) (Td3/c//d//) | e4 c'd' | (e'd')(c'a)(ge) | d3 {^cd}e (fg) |\
+a2 (c'a)(ge) | g>a (gf)(ed) | e2 A2 TB2 | {AB}c4 :|
+g2 |\
+a2 c'age | g>a (gf)(ed) | ({cd}e>c) A2 TB2 | c4 H|] y8 y8 y8 y8 y8 y8 y8 y8 y8 y8

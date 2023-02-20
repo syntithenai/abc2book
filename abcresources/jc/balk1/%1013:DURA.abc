@@ -1,0 +1,16 @@
+X:1013
+T: Dura
+O: Romania
+F: http://www.youtube.com/watch?v=KRP8leVgKv0
+M: 2/4
+L: 1/8
+K: C
+Q: 1/4=132
+|:"C"[ge][cA] [dB][ec]|"F"[fd][ge] [a2f2]          |\
+  "G"[ge][af] [ge][fd]|"C"[ec][dB] [c2A2]::\
+  "C"[ge][ge] [ge][ec]|"F"[fd][ge] [a2f2]          |\
+  "G"[ge][af] [ge][fd]|"C" [ec][dB] [c2A2]::
+  "C"[ge][cA] [dB][ec]|"F"[fd][fd] [f/d/][e/c/][dB]|\
+  "G"[ge][cA] [dB][ec]|"F"[fd][fd] [f/d/][e/c/][dB]|\
+  "C"[ge][cA] [dB][ec]|"F"[fd][ge] [a2f2]          |\
+  "G"[ge][af] [ge][fd]|"C"[ec][dB] [c2A2]          :|

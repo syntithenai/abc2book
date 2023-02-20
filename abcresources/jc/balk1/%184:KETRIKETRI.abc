@@ -1,0 +1,22 @@
+X: 184
+T: Ketri Ketri
+O: Hungary
+Z: Lyuben Dossev http://www.dunav.org.il/balkan_music_scores.html
+F: http://www.youtube.com/watch?v=_clKq47kWzk
+M: 4/4
+L: 1/8
+Q: 1/4=108
+K: Dm clef=treble
+P:A
+%%MIDI program 28
+FG A A/B/ AG       | FGGF D3 D-       |D D FG AA/B/ AG  | FGGF D3 D-         |
+D D FE F2 F2-      |F3/2 z/ FE F2 F2- |F F2 E FG_ED     |D8                  |D6 z2          |
+P:B
+%%MIDI program 42
+{G}A2 A G A G2 F   |F G G F D2 D2-    |D2 A G A G2 F    | FG G F D2 D2-      |
+DzF E F<G {E}F2-   |F2 F E FG {E}F2   |z F2 E F G _E>D  |D2 _E3- (3E/D/C/ D2 |D6 z2          |
+z8                 |z2 F G A A2 G     |F G G F D2 D2-   |D2 F G A A2 G       |
+F G G F D2 D2-     |D z D E F<G {E}F2-|F2 F E FG {E}F2  |                    | z2 F D FG _E<D|
+D2 _E3-(3E/D/C/ D2-|D4-D3 z           |                 | z2 A G A G2 F      |F G G F D2 D2- |
+D2 A G A G2 F      |F G G F D2 D2-    |D z F E F<G F/E/F|
+F2 F E FG {E}F2    |                  | z F2 E F G _B>D | D2 _E3 (3E/D/C/ D2-|D4-D3 z        |

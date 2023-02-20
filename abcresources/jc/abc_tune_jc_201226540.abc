@@ -1,0 +1,29 @@
+X: 1031
+T: Black as a Cole
+P: Longways for as many as will
+R: slip-jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: "Each Strain twice." Fixed repeats accordingly.
+M: 9/8
+L: 1/8
+K: Dmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: DEF DEF A,3 | DEF DEF G2E | DEF DEF A,2A, | efe e2G TF2E :|
+|: df/g/a/f/ df/g/a/f/ d2A | df/g/a/f/ df/g/a/f/ g2e | df/g/a/f/ df/g/a/f/ d2A | efe eEG TF2E :|
+|: afd dBG AFD | afd def g2e | afd dBG AFD | efe e2G TF2E :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: d3 d3 A3 | d3 d3 e3 | d3 d3 A3 | c3 a3 d2A :|
+|: d3 D3 d3 | d3 d3 e3 | d3 D3 d3 | c3 a3 d2A :|
+|: d3 D3 d3 | d3 d3 e3 | d3 D3 d3 | c3 a3 d2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. turn sett and cast down .|
+then turn sett and cast up again :|
+the 1st Man takes hands with the 3d Cu.
+the 1st Wo takes hands with the 2d cu and turn 'em half round. then turn his Partner .|
+the 1st Man turn the 2d Cu. the 1st Wo. the 3d Cu. half round and turn Partners. :|
+%%endtext

@@ -1,0 +1,27 @@
+X: 30823
+T: COTILLION No. 3. OPERA SETT tune 3
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.82 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+B3 cBA | B3 c3 | d3 {f}gf=e | f3 FzA |\
+czf Fze | dzf Fzd | czf FGA | B3 b3 H|]
+D3 D=E^F | G3 GAB | D3 D=E=F | G3 (GAc) |\
+(AGF) cBA | edc BAG | FCD EDC | B,3 "^D.C."B3 |]
+f3 fcd | B3 B2B | c3 cBG | F2F F/G/A/B/c/d/ |\
+fff f=ec | fff f=ec | cde AGA | Bdf "^D.C."b3 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple forward and back twice,
+%% balance 4 and turn,
+%% all chassa across partners,
+%% all balance and turn.
+%% The next 2, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

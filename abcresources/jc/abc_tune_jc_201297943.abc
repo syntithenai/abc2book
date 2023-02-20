@@ -1,0 +1,51 @@
+X: 1
+T: Krakowiak 1
+O: Poland
+N: Handwritten MS
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+%%sysstaffsep 30
+%%maxshrink 1.0
+M: 2/4
+L: 1/16
+K: C
+V: 1 staves=2
+dc "A"\
+|  B2d2 f3a | g2 e4 g2 | g^fag =f2d2 | c2 e4 (3cdc \
+|  B2d2 f3a | g2 e4 g2 | g^fag =fefd | c2e2 c2 :|
+|: (3cde "B"\
+|  f2a2 c'3a | g2 e4 g2 | g^fag =f3d | c2 e4 (3cde \
+|  f2a2 c'3a | g2 e4 g2 | ^fgag =fefd | c2e2 c2 :|
+|: z2 "C"\
+|  efg2 c2e2 | ed d4 d2 | def2 B2d2 | ag g4 g2 \
+|  efg2 c2e2 | ed d4 d2 | b3a gfed | c2e2 c2 :|
+|: z2 "D"\
+|  c2eg c'3b | ba a4 a2 | ac'bc' d'c'ba | ag g4 g2 \
+|  c2eg c'bag | g^f =f4 d2 | Bdfa g2B2 | c2e2 c2 :|
+|: g2 "E"\
+|  e3f gag^f | gag^f gagf | g2g2 a3g | gf f4 f2 \
+| d3e fgfe | fgfe fgfe | f2f2 g3f | fe e4 :|
+|: g2 "F"\
+|  c'2bc' d'c'ba | g2 c'4 e2 | g^fag =f2d2 | c2 e4 c2 | c'2bc' d'c'ba \
+|1 g2c'4 e2 | g^fag =f2d2 | c2e2 c2 :|
+|2 g2eg c'ba^g | g2ba gfed | c2e2c2 |] y8 y8 y8 y8 y8 y8 y8 y8 y8 y8
+%
+V: 2
+BA "A"\
+|  "G7"G2B2 d3f | "C"e2c2 dcBA | "G7"B4 d2GF | "C"E2GA G2A2 \
+|  "G7"G2B2 d3f | "C"e2c2 dcBA | "G7"B4 d2GF | "C"E2G2 E2 :|
+|: z2 "B"\
+|  "F"A2c2 f2cf | "C"eGc2 cdBA | "G7"B4 d2GF | "C"E2G2 c2B2 \
+|  "F"A2c2 f2cf | "C"eGcG c2BA | "G7"B4 d2GF | "C"E2G2 E2 :|
+|: z2 "C"\
+|  "C"cde2 G2c2 | "G7"cBB2 BGB2 | "G7"B2cd G2B2 | "C"fee2- eced \
+|  "C"cce2 G2c2 | "G7"cB B4  B2 | "G7"d3c BAGF  | "C"E2G2 E2 :|
+|: z2 "D"\
+|  "C"EGce geg2 | "F"gf f4 f2 | "F"f4- f2gf | "C"fe e4 e2 \
+|  "C"c3e  agfe |"G7"cB B4 B2 |"G7"d3c BAGF | "C"E2G2 E2 :|
+|: e2 "E"\
+|  "C"cGcd efe^d | "C"efe^d efed | "C"e2c2 f2ce |"G7"ed d4 d2 \
+|  "G7"BGBc dedc | "G7"dedc dedc |"G7"d2B2 e2Bd | "C"dc c4 :|
+|: e2 "F"\
+|  "C"e2e2 "F"f2f2 | "C"e2g2 c2z2 | "G7"B4 d2GF | "C"E2G2E2z2 | "F"f4 f2gf \
+|1 "C"e2g2 c2c2 | "G7"B4   d2GF | "C"E2G2 E2 :|
+|2 "C"e2ce e2c2 | "G7"B2dc BAGF | "C"E2G2 E2 :| y8 y8 y8 y8 y8 y8 y8 y8 y8 y8

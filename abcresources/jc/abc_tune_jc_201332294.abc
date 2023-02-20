@@ -1,0 +1,27 @@
+X: 1
+T: Rudolph the Red Nose Reindeer [C]
+C: Tune: Johnny Marks
+%C: Words: Egil Hagen
+M: C
+L: 1/8
+K: C
+"A"\
+|: "C"G A2 G E2 c2 \
+| A2 G4 z2 \
+|  GA GA G2 "D7/f#"[c2^F2] \
+| "G7"[B6=F6] z2 \
+| "G7"F G2 F D2 [B2F2] \
+| [A2F2] [G4F4] z2 \
+|[1 "G7"GA GA G2 "G7+5"[A2^D2] \
+| "C"[E6C6] z2 :|
+|[2 "G7"GA GA G2 [d2F2] \
+| "C"[c6E6] Hz2 \
+"B"\
+[| "F"A2 A2 c2 A2 \
+| "C"G2 E2 G3 G \
+| "Dm"F2 A2 "G7"G2 F2 \
+| "C"E6 "D7/f#"z2 \
+| "G"D2 E2 G2 A2 \
+| B2 B2 "Em"B2 z2 \
+| "Am"c2 c2 "D7"B2 A2 \
+| "G7"G2 F2 D2 !d.C.!z2 |]

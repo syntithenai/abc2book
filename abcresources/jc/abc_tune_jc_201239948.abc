@@ -1,0 +1,29 @@
+X: 351
+T: Mrs Farquhar's Reel
+C: by John Christie
+R: reel
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c." p.35 #1
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 staves=2
+V: 2 clef=bass middle=d
+K: F
+% %slurgraces yes
+% %graceslurs yes
+% = = = = = = = = = =
+% The transcription with V:1 and V:2 separate caused "random" failures in several ABC apps.
+% Tweaking the transcription in small ways changed the error messages, but still failed.
+% Deleting any single line "fixed" the failures, so it wasn't related to anything obvious in the ABC.
+% Rearranging as intermingled [V:1] and [V:2] lines "fixed" the problem.  Bizarre.
+% = = = = = = = = = =
+[V:1] A | ~F2(.C.F) AFcA | G2(.D.G) EGEC | ~F2(.C.F) AFAc | {c}(TBA)GA F2F :| A | {A}c2Tc>B A2Ac | (c<d)fd {d}c2cB |
+[V:2] z | f2F2 f2F2 | B2=B2 c2_B2 | A2F2 f2F2 | c2C2 F2F :| z | F2f2 F2f2 | B2b2 a2g2 |
+[V:1] {B}A2AG ~F2FA | (GB).G.E {E}F2FA | {AB}c2 {d}Tc>B A2Ac | (c<d)fd {d}c2Tc>B | (AB) cB AFGE | DFEG {G}F2F |]
+[V:2] f2c2 F2f2 | B2c2 F2f2 | F2f2 F2f2 | B2B2 c2e2 | f2e2 f2c2 | B2c2 F2F |]
+%%vskip 5
+[V:1] |: B | {B}TA2.F.A cAcA | ~G2.E.G (BG).B.G | {B}A2.F.A (cA).c.A | {c}TBAGA {G}F2F :| B | A<c-Tc>B A>c(de) | fcdB AcAF |
+[V:2] |: z | F2f2 F2f2 | c2c'2 g2e2 | f2F2 f2F2 | c2C2 F2F :| z | f2e2 f2b2 | a2b2 f2f2 |
+[V:1] A<c-Tc>B (Ac).d.e | (fd).=B.d {d}c2cf | (ef).g.f (ed).e.c | (de).f.d {d}Tc=BcA | .B.f.d.B .A.c.A.F | (D<G)TG>E {E}F2F |]
+[V:2] f2c2 f2B2 | d2G2 c2Cz | c2c'2 g2c2 | B2B2 a2f2 | d2B2 f2F2 | B2c2 F2F |]

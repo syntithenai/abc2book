@@ -1,0 +1,17 @@
+X:83
+T:Lundgrenin Marssi
+M:4/4
+L:1/8
+Q:1/4=100
+R:march
+K:G
+d2 |: "G" g2 d>c B2 G2 | "D" Ad/2d/2 dd d3 c |
+"G" B2 B.B "D" dc AF |[1 "G" AG/2G/2 GG G2 Bd :|[2 "G" A2 G>G G2 Bd || !
+"G" g>f ed g>f ed | "C" g2 f>e c3 d |
+"D" f>e dc f>e dc | "G" e2 d>c B3 d | !
+"G" g>f ed g>f ed | "C" g2 f>e c3 e |
+"D7" ed/2d/2 dd dd ef | "G" g2 g>g g z | !
+|: d2 | "G" G2 B>d d3 B | "D7" c2 Bc/2B/2 A3 G |
+F2 Ac f3 e | "G" ed/2d/2 dc "D7" cB BA | !
+"G" G2 B>d d3 B | "Am" c2 Bc/2B/2 A3 g |
+"D7" ff/2f/2 ff fd ef | "G" g2 g>g g z :||

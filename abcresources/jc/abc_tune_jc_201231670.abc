@@ -1,0 +1,57 @@
+X: 1591
+T: ADELINE WALTZ, BY STRAUSS
+C: Richard Strauss
+O: Arranged by Adam Kurek
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.158-159
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+% -------------------------
+V: 1
+"1st VIOLIN"z2 |\
+!pp!c2c2c2 | c2c2c2 | z2d2d2 | d2d2d2 |\
+C2F2A2 | C2F2A2 | [B2G2][B2G2][B2G2] | [B2G2][B2G2][B2G2] |
+c2c2c2 | c2c2c2 | z2d2d2 | d2d2d2 |\
+C2F2A2 | C2F2A2 | [B2D2][B2D2][B2D2] | [B4D4] :|
+!f![b2B2] |\
+!ff![b6B6] | [b2B2]^d2f2 | [a6A6] | g2f2e2 |\
+!p!e6 | (d2e2).c2 | ^A6 | G2z2G2 |
+!ff![b6B6] | [b2B2]^d2f2 | ([a6A6] | g2)f2e2 |\
+e6 | (d2c2)f2 | [g2B2][g2B2][b2d2] | [g4B4] |]
+% -------------------------
+V: 2
+"2d VIOLIN"z2 |\
+[A2F2][A2F2][A2F2] | [A2F2][A2F2][A2F2] | z2[B2G2][B2G2] | [B2G2][B2G2][B2G2] |\
+A,2C2F2 | A,2C2F2 | G2[D2B,2][D2B,2] | [D2B,2][D2B,2][D2B,2] |
+[A2F2][A2F2][A2F2] | [A2F2][A2F2][A2F2] | z2[B2G2][B2G2] | [B2G2][B2G2][B2G2] |\
+A,2C2F2 | A,2C2F2 | G2G2G2 | G4 :|
+z2 |\
+!ff!(FA^dBAF) | ^D(FBAF)D | E(GBGE)B, | E(GBGEB,) |\
+!p!A,(CFAF)C | A,(CDAF)C | G,(B,DGD)B, | [D2B,2][D2B,2][D2B,2] |
+!ff!FA^dBAF | ^D(FBAF)D | EGBGEB, | E(GBGD)B, |\
+CFAFDC | CFAcAC | [D2B,2][B2D2][B2D2] | [B4D4] |]
+% -------------------------
+V: 3
+"FLUTE"!pp!b2 |\
+b2z2a2 | ^g2z2a2 | e'6 | e'2d'2b2 |\
+^g4a2 | a2c'2b2 | (f2g2)b2 | d4b2 |
+b2z2a2 | ^g2z2a2 | e'6 | (e'2d'2)b2 |\
+^g4a2 | z2c'2b2 | (agfg) .d.b | g4 :|
+z2 |\
+!ff!f6- | f2^d2B2 | e6 | B6 |\
+!p!c6 | A6 | (d6  | B2)z2z2 |
+!ff!f6- | f2^d2B2 | e6 | B6 |\
+c6 | A6 | B2d2d2 | B4 |]
+% -------------------------
+V: 4 clef=bass middle=d
+"BASE"z2 |\
+d2d2d2 | d2d2d2 | g2g2g2 | g2g2g2 |\
+d2z2z2 | d2z2z2 | g2z2z2 | g2g2g2 |
+d2d2d2 | d2d2d2 | G2g2g2 | g2g2g2 |\
+d2d2d2 | d2d2d2 | g2d2B2 | G4 :|
+z2 |\
+!ff!^d4z2 | B4z2 | e4z2 | B4z2 |\
+!p!f4z2 | d6 | g4z2 | d2g2g2 |
+!ff!^d4z2 | B4z2 | e4z2 | B4z2 | f4z2 | d6 | g2d2B2 | G4 |]

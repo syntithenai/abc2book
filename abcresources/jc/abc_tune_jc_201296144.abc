@@ -1,0 +1,15 @@
+X:379
+T:Kemp's Jig
+C:John Playford, 1651
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=112
+M:6/8
+L:1/8
+%%stretchstaff 0
+%%MIDI ratio 3 1
+K:Dm
+P:A
+|: "Dm"d>ed d>ed | "C"c>de e>dc | "Bb"d>ef e2d | "Am"c3 A3 :|
+P:B
+|: "Dm"F3 "C"G3 | "F"!fermata!A3 A3 | "Dm"F3 "C"G3 | "A7"!fermata!A3 A3 |\
+"Dm"F2E F2G | "F"A2A A>GF | "A7"E2D E>FE | "Dm"D3 D3 :|

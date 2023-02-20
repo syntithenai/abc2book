@@ -1,0 +1,31 @@
+X:1
+T:Les Anneaux d'Or
+G:Kazimodal
+R:Rond de Saint-Vincent
+C:Traditionnel, arrangement http://kazimodal.trad.org
+Q:C2=90
+P:AB2
+M:4/4
+K:Am
+P:A
+%MIDI program 109
+%%%MIDI gchord ffcfffcfffcfffcf
+%%MIDI gchord ffczffcfffcffzcf
+%MIDI chordprog 105
+%MIDI bassprog 32
+%MIDI bassvol 127
+E/2E/2E/2 |
+w: Je n'ai plus
+P:B
+|: "Am"AB "G"A/2B/2c/2A/2 "F"G/2A/2B "Em"A/2G/2^F/2E/2
+w: que 10 ans \`a rou-ler ma jeu-nes-se, ain-si l'en
+	|1 "Am"AB "G"A/2B/2c/2A/2 "F"G/2A/2B "Em"A/2E/2E/2E/2
+w: vie m'y prend d'al-ler voir ma ma\^i-tres-se. Je n'ai plus
+	:|2 "Am"AB "G"A/2B/2c/2A/2 "F"G/2A/2B "Em"A"Am"A/2B/2 ||
+w: vie m'y prend d'al-ler voir ma ma\^i-tres-se. Nous i-
+|: "C"cd/2c/2 "G"Bc/2B/2 "F"A/2G/2"D"^F "Em"EA/2B/2
+w: rons tous les deux Li-son ma Li-set-te, nous i-
+	|1 "F"cd/2c/2 "G"BB/2A/2 "Em"G/2A/2B/2G/2 "Am"AA/2B/2
+w: rons tous les deux faire nos a-mou-ret - te. Nous i-
+	:|2 "F"cd/2c/2 "G"BB/2A/2 "Em"G/2A/2B/2G/2 "Am"A/2E/2E/2E/2 ||
+w: rons tous les deux faire nos a-mou-ret - te. Je n'ai plus

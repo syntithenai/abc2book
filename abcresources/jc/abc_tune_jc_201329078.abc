@@ -1,0 +1,42 @@
+X:2
+T:reel des \'Eboulements
+C:
+O:Qu\'ebec
+S: Dominique Renaudin <domren:free.fr> QueTrad 2003-2-12
+N: Accidentals (_e -> ^d) corrected by John Chambers
+%Q:1/4=222
+R:reel
+M:4/4
+L:1/8
+K:A
+%%indent 450
+| ag fe fe dc | df ec A4 |
+"A"|:\
+aA AA cA ec | Bc de fe fg |\
+aA AA cA ec | fd ge a4 |\
+aA AA cA ec | Bc de fe fg |
+ag fe fe dc |[1 df ec A4 :|\
+[2 df ec A2 ed "B"|: cA EA cA ec |\
+Bc de fB ed | cA EA cA ec |
+fd ge a2 ed | cA EA cA ec |\
+Bc de fe fg | ag fe fe dc |\
+[1 df ec A2 ed :|[2 df ec A4 |]
+"C"|:\
+EA AA c2 BA | GA Bc dE EE |\
+GB EB GB EB | GB EB A2 c2 |\
+B3 G/A/ B2 BA | GA Bc de fg |
+ag fe fe dc | df ec A4 :|\
+"D"|: bB BB ^dB fe | c^d ef gf g^a |\
+bB BB ^dB fe | ge ^af b4 |
+bB BB ^dB fe | c^d ef gf g^a |\
+b^a gf gf e^d |[1 eg f^d B4 :|\
+[2 eg f^d B2 fe "E"|: ^dB FB dB fd |
+c^d ef gc fe | ^dB FB dB fd |\
+ge ^af b2 fe | ^dB FB ^d f^d|\
+c^d ef gf g^a | b^a gf gf e^d |
+[1 eg f^d B2 fe :|[2 eg f^d B4 "F"|:\
+FB BB ^d2 cB | ^AB c^d eF FF |\
+^Ac Fc Bc Fc | ^Ac Fc B2 ^d2 |
+c3 ^A/B/ c2 cB | ^AB c^d ef g^a |\
+b^a gf gf e^d | eg f^d B4 :|\
+y6 y6 y6 y6 y6 y6 y6 y6 % y6 y6 y6 y6

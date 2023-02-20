@@ -1,0 +1,16 @@
+X: 3
+T: the Little Heathy Hill   #1
+R: air, march
+%S: s:2 b:16(8+8)
+B: "O'Neill's 1850 #3"
+Q: "Moderate"
+O: F.O'Neill
+Z: Norbert Paap, norbertp@bdu.uva.nl
+N: Compacted by using labels and play order [JC]
+P: Play AB CB
+M: C
+L: 1/8
+K: Gm
+(B/c/) "^A"| d2 (d>c) B2 (AB) | (GBAG) F2 (DF) | (G>AG).F (D>CD).F | G2 (G>A) B3 |]
+"^B"[| c !segno!| (d>ed).c B2 A2 | ({B}GBAG) F2 (DF) | (G>AG).F (D>CD).F | G2 G>A "^fine"G3 |]
+"^C"[| D | GABc d2 d=e | f2 =ed c>AF>>c | d>edc B2 AB | GFD=E F2 (B!segno!c) |]

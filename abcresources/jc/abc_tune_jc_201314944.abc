@@ -1,0 +1,16 @@
+X:515
+T:Muriel's Measure
+C:Colin Hume, 1995
+%%MIDI gchord c2cc
+%%MIDI program 73
+%%MIDI chordprog 46   Orchestral Harp
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=74
+H:For Muriel Langford
+K:D
+P:A
+|: "D"F/G/A- "/"AA, | "G"B,2 "D"A,2 | "Em"E/F/G- "/"GB, | "A7"C2- "/"CB, || "D"A,F "/"D3/C/ | "Em"B,G "/"E3/D/ | "A7"CB "/"AE |1 "D"G2 "/"F2 :|2 "D"F2- "D7"FA |
+P:B
+|: "G"B3/c/ "/"de | "A7"c3/B/ "/"A2 | "D"fe/f/ "G"gB | "A"e2- "/"ed/c/ | "G"Bd "D/F#"Ad | "Em"G3/F/ "A"ED/C/ | "G"B,D "D"A,D | "A7"E3/C/ "D"D2 :|

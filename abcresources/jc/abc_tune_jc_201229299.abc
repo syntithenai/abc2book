@@ -1,0 +1,23 @@
+X: 12191
+T: Scots Lament By Mr Oswald
+C: James Oswald
+%R: air, waltz
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.19 #1 (top 6 staves continued from p.18)
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+DE |\
+{E}F2 A2 (A>B) | A4 d>e | f3 efa | {a2}b4 a2 |\
+Tf3 e d2 | B3 AFA | "^+"B2 E2 (EF) | E4 (F>G) |\
+A3 F(TE>D) | "^+"d3 e {de}f2 | (a<f) (e<d) (e<f) |
+{f2}g4 g/a/b |\
+a3 ABd | A3 Tf(e>d) | {A}B2 d2 (de) | d4 :: (fg) |\
+a3 bag | {g}f3 e (f/e/)d |"^+"e2 f2 a2 | {a2}b4 (b/c'/)d' |\
+(b<a)(g<f)(e<d) |
+B3 AFA | {A}B2 E2 (EF) | E4 (FG) |\
+A3 F(TE>D) | d3 e (d/e/)f | D3 d TA>F | E2 F2 A2 |\
+{AB}=c4 TB>A | F3 dBA | {G}TF2 (ED) (DE) | D4 |]

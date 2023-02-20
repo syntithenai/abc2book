@@ -1,0 +1,18 @@
+X: 11111
+T: WOUNDED HUSSAR
+Q: "Slow"
+%R: waltz, air
+B: "Edinburgh Repository of Music" v.1 p.111 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: There's also a fermata under the high a in bar 10, but ABC software generally rejects it.
+M: 6/8
+L: 1/16
+K: Gm
+GF |\
+(D2G2)A2 B4(AG) | (AB)(cB)(AG) (F2G2).A2 |\
+(B2d2).B2 (dc)(BA)(G^F) | D2G2G2 G4 :: GA |\
+Bcd2d2 d4cB | ABc2c2 Tc4f_e |
+(d2g2)^f2 Tf3ab2 | !f!d2g2^f2 ~g4ga |\
+{ga}.b2.a2.g2 {g}f2e2d2 | (dc)(BA)Hf2 {ga}!p!F2G2A2 |\
+(B2d2).B2 (dc)(BA)(G^F) | D2G2G2 G4 :|

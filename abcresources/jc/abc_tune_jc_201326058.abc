@@ -1,0 +1,260 @@
+X:1177
+T:Preposterous Polka
+C:Eric Galluzzo
+R:Polka
+F:http://abc.musicaviva.com/tunes/galluzzo-eric/preposterous.abc
+%Posted June 12th 2000 at abcusers by Eric Galluzzo. Posted with permission.
+%%staves [1 2 3]
+%%sysstaffsep 50pt
+%%indent 72pt
+M:2/4
+L:1/8
+Q:3/8=84
+K:A
+V:1 clef=treble name="Violin 1" staves=3 bracket=3
+V:2 clef=treble name="Violin 2"
+V:3 clef=treble name="Violin 3"
+%
+V:1
+%%MIDI program 40
+M:2/4
+L:1/16
+AAAA A2c2|\
+M:6/8
+L:1/8
+(Me3/.e/).e z3|\
+M:2/4
+L:1/16
+AAAA A2e2|\
+M:6/8
+L:1/8
+(M=g3/.g/).g z3|
+%
+V:2
+%%MIDI program 40
+M:2/4
+L:1/2
+z|\
+M:6/8
+L:1/16
+z6 (^de=f^f=g^g)|\
+M:2/4
+L:1/8
+a z z2|\
+M:6/8
+L:1/16
+z6 (^de=f^f=g^g)|
+%
+V:3
+%%MIDI program 40
+M:2/4
+L:1/2
+z|\
+M:6/8
+L:1/8
+z3 (M[^G,3/=G3/].[G,/G/]).[G,G]|\
+M:2/4
+L:1/8
+[A,A] z z2|\
+M:6/8
+L:1/8
+z3 (M[^G,3/=G3/].[G,/G/]).[G,G]|
+%
+%
+V:1
+M:2/4
+L:1/16
+AAAA A2e2|\
+M:9/8
+L:1/8
+(Mb3/.b/).b (Mb3/.b/).b (M_b3/.b/).b|\
+M:6/8
+L:1/8
+a z z z3|z3 z .A.c|
+%
+V:2
+M:2/4
+L:1/8
+a z z2|\
+M:9/8
+L:1/16
+z6 z6 ._E.D.C.=C.B,._B,|\
+M:6/8
+L:1/16
+.A,2 z2 z2 ._E.D.C.=C.B,._B,|.A,2 z2 z2 ._E.D.C.=C.B,._B,|
+%
+V:3
+M:2/4
+L:1/8
+[A,A] z z2|\
+M:9/8
+L:1/8
+z3 ^D3-[G,3D3]|\
+M:6/8
+L:1/8
+.[A,E].[CE].[CE] .=G,.[A/c/].E/.[A/c/].E/|\
+.A,.[CE].[CE] .=G,.[A/c/].E/.[A/c/].E/|
+%
+%
+V:1
+L:1/8
+(Me3/.e/).e z .A.c|(Me3/.e/).e z a/=g/f/e/|\
+L:1/16
+=gfe^d fedc edcB|\
+L:1/8
+(MA3/.A/).A z .=G.B|
+%
+V:2
+L:1/16
+.A,2 z2 z2 ._E.D.C.=C.B,._B,|.A,2 z2 z2 ._E.D.C.=C.B,._B,|\
+.A,2 z2 z2 ._E.D.C.=C.B,._B,|.A,2 z2 z2 .^C.=C.B,._B,.A,._A,|
+%
+V:3
+L:1/8
+.A,.[CE].[CE] .=G,.[A/c/].E/.[A/c/].E/|\
+.A,.[CE].[CE] .=G,.[A/c/].E/.[A/c/].E/|\
+.A,.[CE].[CE] .=G,.[A/c/].E/.[A/c/].E/|\
+.A,.[CE].[CE] .^G,.[=G/B/].D/.[G/B/].D/|
+%
+%
+V:1
+L:1/8
+(Md3/.d/).d z .=G.B|(Md3/.d/).d z =f/e/d/^c/|\
+L:1/16
+edcB dcBA cBA=G|
+%
+V:2
+L:1/16
+.=G,2 z2 z2 .^C.=C.B,._B,.A,._A,|.=G,2 z2 z2 .^C.=C.B,._B,.A,._A,|\
+L:1/16
+.=G,2 =gdbg d'bd'e'f'=g'|
+%
+V:3
+L:1/8
+.=G,.[B,D].[B,D] ._B,.[=G/=B/].D/.[G/B/].D/|\
+.=G,.[B,D].[B,D] ._B,.[=G/=B/].D/.[G/B/].D/|\
+.=G,.[B,D].[B,D] ._B,.[=G/=B/].D/.[G/B/].D/|\
+%
+%
+V:1
+L:1/16
+FGAc EF=GB dcBc|\
+L:1/8
+.d z z z3|z3 z .d.f|
+%
+V:2
+L:1/16
+a'2abc'd' e'f'=g'a'b'c''|.d''2 z2 z2 .^G.=G.^F.=F.E._E|\
+.D2 z2 z2 .G.=G.^F.=F.E._E|
+%
+V:3
+L:1/8
+K[A,A] z K[A,A] z K[A,A] z|K[Dd].[FA].[FA] ._B,.[d/f/].A/.[d/f/].A/|\
+.D.[FA].[FA] ._B,.[d/f/].A/.[d/f/].A/|
+%
+%
+V:1
+L:1/8
+(Ma3/.a/).a z .d.f|(Ma3/.a/).a z =c'/b/a/^g/|\
+L:1/16
+bagf agfe gfe_e|\
+L:1/8
+(Md3/.d/).d z .=c.e|
+%
+V:2
+L:1/16
+.D2 z2 z2 .G.=G.^F.=F.E._E|.D2 z2 z2 .G.=G.^F.=F.E._E|\
+.D2 z2 z2 .G.=G.^F.=F.E._E|.D2 z2 z2 .F.=F.E._E.D.C|
+%
+V:3
+L:1/8
+.D.[FA].[FA] ._B,.[d/f/].A/.[d/f/].A/|.D.[FA].[FA] ._B,.[d/f/].A/.[d/f/].A/|
+.D.[FA].[FA] ._B,.[d/f/].A/.[d/f/].A/|.D.[FA].[FA] .^C.[=c/e/].=G/.[c/e/].G/|
+%
+%
+V:1
+L:1/8
+(M=g3/.g/).g z .=c.e|(M=g3/.g/).g z =c'/b/a/=g/|\
+L:1/16
+=fed=cBA =G=FED^CB,|
+%
+V:2
+L:1/16
+.=C2 z2 z2 .F.=F.E._E.D.C|.=C2 z2 z2 .F.=F.E._E.D.C|\
+.=C2 =c'bc'd' e'2 e'd'e'=f'|
+%
+V:3
+L:1/8
+.=C.[E=G].[EG] .B,.[=c/e/].=G/.[c/e/].G/|\
+.=C.[E=G].[EG] .B,.[=c/e/].=G/.[c/e/].G/|\
+.=C.[E=G].[EG] .B,.[=c/e/].=G/.[c/e/].G/|
+%
+%
+V:1
+L:1/16
+CDE^F^GA Bcdefg|\
+L:1/8
+a z z z3|z3 z .A.c|
+%
+V:2
+L:1/16
+=g'2 e'^d'e'^f' ^g'2 e'=f'^f'g'|a'2 z2 z2 ._E.D.C.=C.B,._B,|\
+.A,2 z2 z2 ._E.D.C.=C.B,._B,|
+%
+V:3
+L:1/8
+K[^C^c] z K[B,B] z K[Ee] z|K[A,A].[CE].[CE] .=G,.[A/c/].E/.[A/c/].E/|\
+.A,.[CE].[CE] .=G,.[A/c/].E/.[A/c/].E/|
+%
+%
+V:1
+L:1/8
+(Me3/.e/).e z .A.c|(Me3/.e/).e z a/=g/f/e/|\
+L:1/16
+=gfe^d fedc edcB|\
+L:1/8
+(MA3/.A/).A z .A.c|
+%
+V:2
+L:1/16
+.A,2 z2 z2 ._E.D.C.=C.B,._B,|.A,2 z2 z2 ._E.D.C.=C.B,._B,|\
+.A,2 z2 z2 ._E.D.C.=C.B,._B,|.A,2 z2 z2 ._E.D.C.=C.B,._B,|
+%
+V:3
+L:1/8
+.A,.[CE].[CE] .=G,.[A/c/].E/.[A/c/].E/|\
+.A,.[CE].[CE] .=G,.[A/c/].E/.[A/c/].E/|\
+.A,.[CE].[CE] .=G,.[A/c/].E/.[A/c/].E/|\
+.A,.[CE].[CE] .=G,.[A/c/].E/.[A/c/].E/|
+%
+%
+V:1
+L:1/8
+(Me3/.e/).e z .A.c|(Me3/.e/).e z .A.c|.e z z z3|z3 (^d/e/=f/^f/=g/^g/)|.a z z|]
+%
+V:2
+L:1/16
+.A,2 z2 z2 ._E.D.C.=C.B,._B,|\
+L:1/8
+.A, z z z3|\
+%%MIDI program 45  % pizzicato strings
+z ac' e' z z|\
+w:pizz.
+%%MIDI program 40
+z3 (^d'/e'/=f'/^f'/=g'/^g'/)|.a' z z|]
+w:arco
+%
+V:3
+L:1/8
+.A,.[CE].[CE] .=G,.[A/c/].E/.[A/c/].E/|.A,.[CE].[CE] .=G, z z|\
+%%MIDI program 45  % pizzicato strings
+z3 z A,C|E z z \
+w:pizz.
+%%MIDI program 40
+(M[^G,3/=G3/=c3/=g3/].[c/g/]).[cg]|.[A,E^ca] z z|]
+w:arco
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

@@ -1,0 +1,17 @@
+X: 1
+T: O Mio Babbino Caro    [G]
+O: from "Gianni Schicchi"
+C: Giacomo Puccini
+S: Gary Dahl "Italian Songa & Arias for Accordion" pub. Mel Bay 2003 p.12
+S: https://www.music-for-music-teachers.com/o-mio-babbino.html
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - -
+D |: "G"GGG B2F | "Em"E3 "G"D3 | "G"GAB G2g | d3- d2B ||\
+"D"d2A "Am"c2B | "Em"G3 G3 | GAB "A7"G2F | "D"A3- "D7"A2D ||
+"G"G3 BGF | "C"E3 "G"D3 | GAB "(Em)"G2g | "G"d3- d2e ||\
+"C"g2e "D"d2c | "Bm"d3 "Em"B3 | "C"GAB "Am"G2E | "Em"G3- G2e ||
+"Am"g2e "D7"d2c | "G"g2d "C"c2B | "Em"e6- | "C"e2c "D"B2A | "G"G3 z3 :|["Coda" \
+"G"GGG B2F | "Em"E3 "G"D3 | "G"GAB G2g | d3- d3 | "C"GAB "Am7"G2E | "G"G3 z2 |]

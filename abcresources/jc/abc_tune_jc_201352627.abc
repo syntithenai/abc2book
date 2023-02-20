@@ -1,0 +1,68 @@
+
+X: 1
+T: The Wild Rover    [C]
+O: Ireland
+R: waltz
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: Printed page of unknown origin, via the Merry Minstrels (Lexington MA USA)
+M: 3/4
+L: 1/4
+K: C
+%%continueall
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+z z G | "C"c> d c | A G e | e< d e | "F"f3- | f3
+w:1.~I've been a wild ro-ver for ma-ny a year,
+w:2.~I went into an ale-house I used to fre-quent,
+w:3.~I took from my poc-ket ten so-ve-reigns bright,
+w:4.~I'll~go home to my pa-rents, con-fess what I've done,
+%
+e/f/ | "C"g e g | "G7"f d B | G e> d | "C"c3- | c2
+w: and I've spent all my mo-ney on whi-skey and beer.
+w: and I told the land-la-dy my mo-ney was spent.
+w: and the land-lady's eyes o-pen-ed wide with de-light.
+w: and I'll ask them to par-don their pro-di-gal son.
+%
+G | "C"c> d c | A G e | e< d e | "F"f3- | f2
+w: But now I'm re-turn-ing with gold in great store,
+w: I asked her for cre-dit, she an-swered me nay,
+w: She said I'd have whis-key and wines of the best,
+w: And when they ca-ress me as oft' times be-fore,
+%
+e/f/ | "C"g e g | "G7"f d B | G e> d | "C *"c ||
+w: and I ne-ver will play the wild ro-ver no more.
+w: Such a cus-tom like yours I can have a-ny day.
+w: and the words that she told me were on-ly in jest.
+w: then I ne-ver will play the wild ro-ver no more.
+%
+B c | "G" d3 | d3 "G7"B G2- | G3- | "C"G e e | e< d e | "F"f3- | f
+w: And it's no, nay, ne-ver,** no, nay, ne-ver, no more
+%
+e f | "C"g3- | g e c | "F"B A2- | A2 A | "C"G e2- | "G7"e2 d | "C"c3 |]
+w: will I play* the wild ro-ver* no, ne-ver,* no more.
+%
+%%text * This measure is sometimes lengthened to two.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 1
+T: The Wild Rover    [G]
+O: Ireland
+R: waltz
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: Printed page of unknown origin, via the Merry Minstrels (Lexington MA USA)
+M: 3/4
+L: 1/4
+K: G
+%%continueall 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+"G"G> A G | E D B | B< A B | "C"c3- |\
+c3 B/c/ | "G"d B d | "D7"c A F | D B> A |\
+[1 "G"G3- | G2 :|[2 "G *"G3- | G F G |
+"D" A3 | A3 "D7"F D2- | D3- |\
+"G"D BB | B< A B | "C"c3- | c B c |\
+"G"d3- | d B G | "C"F E2- | E2 E |\
+"G"D B2- | "D7"B2 A | "G"G3 | z2 |]
+%%text * This measure is often omitted.
+% - - - - - - - - - - - - - - - - - - - - - - - - -

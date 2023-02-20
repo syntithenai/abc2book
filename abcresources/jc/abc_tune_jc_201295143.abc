@@ -1,0 +1,32 @@
+X: 1
+T: Just thought on't
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.72 #332
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:72 #332
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: f>a f>d | e2 A2 | (B//c//d/)z (c//d//e/)z | d2 D2 |\
+   (f>a) (f>d) | (^g>b) (^g>e) | f2 T^g2 | a4 :|
+|: efeA | g2fz | efeA | f2ez |\
+   efeA | gagA | fgfA | {f}e4 |
+   a2gf | b2za | gfed | c2A2 |\
+   gecA | fdAF | E2 Tc2 | d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: d2 d'2 | c'2 zf | gz az | d2 D2 |
+   d2 d2 | e2 zc | d2 e2 | A4 :|
+|: A2 A2 | A2 A2 | A2 A2 | A2 A2 |\
+   A2 A2 | A2 A2 | A2 A2 | A4 |
+   z2 zd | g2 g2 | g2 g2 | a2 A2 |\
+   A2 A2 | d2 zf | g2 a2 | d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu. foot it and cast off  the same again .|
+%% Lead up to the top, foot it and cast off :|
+%% Six hands round .|
+%% First and 2d Cu. Right and Left quite round.
+%%endtext

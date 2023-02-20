@@ -1,0 +1,26 @@
+X: 20534
+T: CARLE NOW THE KING'S COME.
+O: Very old Scottish air.
+Q: "Slow."
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.53 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: There should be an initial rest "pickup" to fix the rhythm of repeats.
+M: C
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B2(AG) G3A | {A2}G4 D4 | B2A2 A3B | {A2}G4 E4 |\
+D3E G3G | A2B2 g4 | d2(ef g2)B2 | A4 G2 :|
+|: (ga) |\
+{g}b2(ag) g3a | (bag)e (de)(ga) | b2a2 a3b | (aba)g e3g |\
+d3e g3a | (bag)e Hg3a | (ga/b/) A2 (ABc)B | A4 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Mause's song in the "Gentle Shepherd" is sung to the above air.
+%%endtext
+%%sep 1 1 300

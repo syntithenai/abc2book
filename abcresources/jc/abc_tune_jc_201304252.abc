@@ -1,0 +1,26 @@
+X:1
+T: Love and a Bottle
+N:
+C:in 1713
+S:3 times
+A:
+O:
+R:
+M:6/8
+K:Em
+I:speed 150
+%W:
+% voice 1 (1 lines, 39 notes)
+K:Em
+M:6/8
+L:1/16
+e ^d |e4 B2 A4 G2 F2 G2 E2 ^D4 e ^d e4 B2 A4 G2 F6 E4 e ^d |e4 B2 A4 G2 F2 G2 E2 ^D4 ^d2 e2 f2 g2 f2 e2 d2 ^c6 B4 e ^d |
+%W:
+% voice 1 (1 lines, 37 notes)
+e4 B2 A4 G2 F2 G2 E2 ^D4 e ^d e4 B2 A4 G2 F6 E4 e ^d |e4 B2 A4 G2 F2 G2 E2 ^D4 ^d2 e2 f2 g2 f2 e2 d2 ^c6 B4 B c |
+%W:
+% voice 1 (1 lines, 42 notes)
+d3 e d2 d2 g2 d2 d3 e d2 d4 d2 e2 f2 g2 f2 g2 e2 ^d6 B4 B ^c |d3 e d2 d2 c2 B2 c2 B2 A2 B2 e2 f2 g2 f2 e2 e4 ^d2 e6 e4 B c |
+%W:
+% voice 1 (1 lines, 40 notes)
+d3 e d2 d2 g2 d2 d3 e d2 d4 d2 e2 f2 g2 f2 g2 e2 ^d6 B4 B ^c |d3 e d2 d2 c2 B2 c2 B2 A2 B2 e2 f2 g2 f2 e2 e4 ^d2 e6 e4 ||

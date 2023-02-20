@@ -1,0 +1,50 @@
+X: 1
+T:Te fais plus d'bile
+T:Schnell Fox Trot
+C:Maurice Maréchal
+C:1994
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-05-10
+Z:Pour toute observation mailto:galouvielle@free.fr
+U:N = !tenuto!
+M:2/2
+L:1/8
+Q:"Avec bonne humeur"1/4=184
+%%staves [1 3 2]
+K:G
+V:1
+d2 d>e d>c B>c | d2 d>e d>c B>c | d>ef>g a>gf>g | b>ag>e d2 d2 | A2A>^G A>Bc>d |
+f2 (f>g a>g f>e | d>^cd>e f>ed>=c | +breath+B2) {f}Ng2 {f}Ng2 {f}Ng2 | d2 d>e d>c B>c | d2 d>e d>c B>c |
+d>ef>g a>gf>g | b>ag>e d2 d2 | A2A>^G A>Bc>d | f2 (f>g a>g f>e | d>^cd>e f>de>f || g4)-g2 z2 ||
+"Plus souple"g4 (a2g2) | e6 .g2 | .f2.g2 a>g f>e | (d4g2) z2 | d4(e2d2) | f6e2 | d2^c2 d>ed>=c |
+B6z2 | {def}g4 a2((3gag) | e6g2 | (f>e)f>g (a>g)f>e | (^c4d2) z2 | e4(f2g2) | a6 ((3^gab) |
+a2g2 (f>e)f>g | a2z2 N^a2z2 | d2 d>e d>c B>c | d2 d>e d>c B>c | d>ef>g a>gf>g | b>ag>e d2 d2 |
+A2A>^G A>Bc>d | f2 (f>g a>g f>e | d>^cd>e f>ed>=c | +breath+B2) {f}g2 {f}g2 {f}g2|d2 d>e d>c B>c | d2 d>e d>c B>c |
+d>ef>g a>gf>g | b>ag>e d2 d2 | A2A>^G A>Bc>d | f2 (f>g a>g f>e | d>^cd>e f>de>f) |
+g4- gz/2g/2a>g | .e2z2 z>ga>g | .d2z2 z>d^c>d | Lfz Lez d>cB>A | (Le4 d)z/2 (g/2a)>g | .ez {f}Lgz {f}.g z/2(g/2a)>g |
+.dz {f}Lgz {f}.g z/2g/2f>g | e2g2b2g2 | a4- az/2d/2d>d | d4- dz/2f/2f>f | f4- fz/2a/2a>a | a4- az/2c'/2c'>c' | Nc'2Nc'2Nc'2Nc'2 +D.C.+ ||
+P:Coda
+Tg4- gz/2d/2e>f | Tg4- gz/2d/2e>f | {ga}.g2z2 {de}.d2z2 | {GA}.G2 z2z2 |]
+V:2
+B2B>c B>A G>A | B2B>c B>A G>A | B>cd>e f>ed>e | g>fe>c B2B2 | F2F>G F>GA>B |
+d2 (d>e f>e d>c | B>^AB>c d>cB>=A | +breath+G2) {^A}B2 {^A}B2 {^A}B2 | B2B>c B>A G>A | B2B>c B>A G>A |
+B>cd>e f>ed>e | g>fe>c B2B2 | F2F>G F>GA>B |d2 (d>e f>e d>c | B>^AB>c d>B c>d || B4)-B2 z2 ||
+B4 (=f2B2) | c6 .e2 | .d2.e2 f>e d>c | B4-B2z2 | B4 (c2B2) | d6c2 | B2^A2 B>cB>=A |
+G6z2 | B4=f2 ((3BcB) | c6e2 | (d>c)d>e (f>e)d>c | (^A4B2)z2 | G4(A2B2) | ^c6((3Bcd) |
+^c2B2 (A>G)A>B | c2z2^c2z2 | B2B>c B>A G>A | B2B>c B>A G>A | B>cd>e f>ed>e | g>fe>c B2+breath+B2 |
+F2F>G F>GA>B | d2 (d>e f>e d>c | B>^AB>c d>cB>=A | +breath+G2) {^A}B2 {^A}B2 {^A}B2 | B2B>c B>A G>A | B2B>c B>A G>A |
+B>cd>e f>ed>e | g>fe>c B2B2 | F2F>G F>GA>B |d2 (d>e f>e d>c | B>^AB>c d>B c>d |
+B4)-B z/2B/2=f>B | c2z2 z>_ee>e | B2z2 z>B^A>B | Ndz Ncz B>AG>A | (L^A4 B) z/2B/2=f>B | .cz {^d}Nez {d}.e z/2_e/2e>e |
+.Bz {^A} {^A}LBz {A}.B z/2B/2d>B | c2e2^c2e2 | f4- .fzz2 | z4 z>dd>d | d4- dz/2f/2f>f | f4- fz/2f/2f>f | Nf2Nd2Ne2Nf2 ||
+B4- Bz/2d/2c>d | B4- Bz/2d/2c>d | {Bc}B2z2 {Bc}B2z2 | {GA}.G2z2z2 |]
+%%sysstaffsep 2
+V:3 clef=perc stafflines=0 staffscale=0.6
+[K:none]B4B4 | B2B2B4 | B4B4 | B2B2B4 | B4B4 | B2B2B4 | B4B4 | B2B2B2B2 | B4B4 | B2B2B4 |
+B4B4 | B2B2B4 | B4B4 | B2B2B4 | B4B4 | B2B2B4 ||
+B4B4 | B2B2B4 | B4B4 | B2B2B4 | B4B4 | B2B2B4 | B4B4 |
+B2B2B4 | B4B4 | B2B2B4 | B4B4 | B2B2B4 | B4B4 | B2B2B4 |
+B4B4 | B2B2B4 | B4B4 | B2B2B4 | B4B4 | B2B2B4 | B4B4 |
+B2B2B4 | B4B4 | B2B2B2B2 | B4B4 | B2B2B4 | B4B4 | B2B2B4 |
+B4B4 | B2B2B4 | B4B4 | B2B2B4 | z2B2B2z2 | z2B2B2z2 | z2B2z2B2 | z2B2B4 | z2B2B2z2 |
+z2B2B2z2 | z2B2z2B2 | z2B2B2z2 | z>BB>B B2z2 | z>BB>B B2z2 | z>BB>B B2z2 | z2B2B2B2 ||
+B2B2B2z2 | z2B2B2z2 | z2LB2z2LB2 | z2LB2LB2 |]
+

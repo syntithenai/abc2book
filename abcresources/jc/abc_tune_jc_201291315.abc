@@ -1,0 +1,36 @@
+
+X: 1
+T: Iz dolu ide  [C]
+R: lesnoto
+O: Bulgaria
+Z: 1998 by John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 7/8
+L: 1/8
+K: C
+"^Vocal"\
+|: "C"[g3e3] [g2e2] [a2f2] | [g2e2][fd] [e4c4] \
+| "G"[dG][c2G] [c2G] [dG][eG] | [dF][c2E] "C"[c4E] :|
+|: "C"[c3G3] [e2c2] [e2c2] | "G"[f3d3] [f2d2] [ec][fd] \
+| "C"[g3e3] "G"[f2d2] [fd][ge] | [f2d2][ec] "C"[e4c4] :|
+"^Instr"\
+|: "F"[FA][GB][Ac] [Ac][GB] [ce][_Bd] | [A2c2][GB] "C"[GB][FA]  [EG][CE] \
+| "G"[E2G2][DF] [DF][CE] [DF][EG] |1 "C"[C2E2][DF] [E4G4] :|2 "C"[C3E3] [C4E4] |]
+
+%%sep 1 1 500
+
+X: 1
+T: Iz dolu ide  [D]
+R: lesnoto
+O: Bulgaria
+Z: 1998 by John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 7/8
+L: 1/8
+K: D
+"^Vocal"\
+|: "D"[a3f3] [a2f2] [b2g2] | [a2f2][ge] [f4d4] \
+| "A"[eA][d2A] [d2A] [eA][fA] | [eG][d2F] "D"[d4F] :|
+|: "D"[d3A3] [f2d2] [f2d2] | "A"[g3e3] [g2e2] [fd][ge] \
+| "D"[a3f3] "A"[g2e2] [ge][af] | [g2e2][fd] "D"[f4d4] :|
+"^Instr"\
+|: "G"[GB][Ac][Bd] [Bd][Ac] [df][=ce] | [B2d2][Ac] "D"[Ac][GB]  [FA][DF] \
+| "A"[F2A2][EG] [EG][DF] [EG][FA] |1 "D"[D2F2][EG] [F4A4] :|2 "D"[D3F3] [D4F4] |]

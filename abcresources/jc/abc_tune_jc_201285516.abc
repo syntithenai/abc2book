@@ -1,0 +1,65 @@
+X: 1
+T: Hedge Lane
+T: Hedge-Lane
+P: Longways for as many as will
+%R: hornpipe
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.109 #157 (217)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.108
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The :S: symbol (an early segno) is in CCDM1, but not in DMDfD.
+N: The dances are only trivially different, mainly in capitalisation, spelling and punctuation.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+G>F G>A F>E F>D | E>D E>A, D2 B,2 | C>B, C>D E>F G>B, | C>A, D>D G,2 G,2 |
+b>a b>c' b>g a>d | g>f g>a f2 f2 | g>f g>e ^d>^c B>f | g>e e>^d e2 e2 |]
+[|\
+E>F G>A B>c d>e | c>B A>d B>A G2 | B>A B>c d>e f>g | a>b e>g f>e d2 |
+C>B, C>D E>F GA/B/ | c>B A>G F>E D ":S:"(g/f/) | e>d e a/g/ f>f f>d | g>g g>f g2 g2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the Presence, then to your own; lead up forward and back that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The two first Cu. fall back, then the 1st Cu. cast off round into the Middle, while
+%% the 2d Cu. leads up thro' the Middle and comes to the OUtside, then all four being
+%% abreast, lead down and back again; then the 2d Cu. lead down between the 1st Cu. and
+%% cast off into their Places. then both Men cross over into the We. Places; and
+%% the We. into the Men's.  This over again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First Man turn right Hands with the 2d Wo. once round, the 2d Man turn left
+%% with the 1st Wo. once round.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First Cu. turn both Hands once round, and so down into the 2d Cu. Place, while
+%% the 2d Cu. cast up into the 1st Cu. Place.
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% Honour to the Presence, then to your we. Lead up forward and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The two first cu. fall back, then the 1. cu. cast off round into the middle while the 2. cu. leads up through the middle and
+%% comes to the out-side, then all four being a-breast lead down and back again, then the 2. cu. lead down between the 1. cu.
+%% and cast off into their places, then both men cross over into the we. places, and the we. into the men's. This over again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First man turn right-hand with the 2. wo. once round, then 2. man turn left with the 1. wo. once round.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First cu. turn both hands once round, and so down into the 2. cu. place, while the 2. cu. cast up into the 1. cu. place.
+%% [DMDfD]
+%%endtext
+%%sep 1 1 300
+%%sep 1 8 500

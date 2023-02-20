@@ -1,0 +1,29 @@
+X: 4438
+T: "HOP AND SKIP" POLKA
+%R: polka
+B: James Kerr "Merry Melodies" v.4 p.49 #438
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: "D.C." at the end of the 2nd strain is probably needed, to get the usual rondo form.
+M: 2/4
+L: 1/16
+K: F
+|: !p!\
+A2c2 cdc2 | B2d2 ded2 |\
+cdef g2e2 | fefg afcB |\
+A2c2 cdc2 | B2d2 ded2 |\
+cdef gcde | f2a2f2z2 H:|\
+|: !f!\
+g2d2 def2 | e2c2 cde2 |
+d2A2=B2G2 | c=Bcd edef |\
+g2d2 def2 | e2c2 cde2 |\
+d2A2=B2G2 | c2e2c2z2 :|\
+|:[K:Bb] "_p 2nd f"\
+F6 D2 | F6 (Bc) |\
+d2d2c2B2 | (B2A2)A4 |\
+A2g2 (g^fga) |
+(g2f2)d2B2 |\
+d2c2G2 (^FG) | d2c2A2G2 |\
+F6 D2 | F6 (Bc) |\
+d2d2c2B2 | (B2A2)A4 |\
+A2g2 (g^fga) | (g2f2)d2B2 |\
+d2c2G2A2 | B6 "_D.C."z2 :|

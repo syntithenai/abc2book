@@ -1,0 +1,20 @@
+X: 1112
+T: a Saranade Tune
+%R: hornpipe
+B: Henry Playford "Apollo's Banquet", London 1687 (5th Edition)
+F: https://archive.org/details/apollosbanquetco01rugg
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - -
+[|\
+G>F G>A F>E F>E | E>D E>A, D2 B,2 |\
+C>B, C>D E>F G>A, | C>A, D>D G,2 G,2 |
+b>a b>c' a>g a>d | g>f g>a f2 f2 |\
+g>f g>e ^d>^c B>f | g>e e>^d e2 e2 |
+E>F G>A B>c d>e | c>B A>d B>A G2 |\
+B>A B>c d>e f>g | a>b e>g f>e d2 |
+C>B, C>D E>G A>B | c>B A>G F>E D!segno!y (g/f/) |\
+e>e e(a/g/) f>f f>e | f>g g>f g4 |]
+% - - - - - - - - - -

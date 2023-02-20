@@ -1,0 +1,38 @@
+X: 21063
+T: BAYADERS SETT (tune 3)
+C:
+%R: jig, march
+B: Elias Howe "The Musician's Companion" 1843 p.106 #3 (and top staff of p.107)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+F |\
+F2F F2F | F2F F2F | B2B BAB | =B3 c2F |\
+F2F F2F | F2F F2F | c2c cdc | B3- B2 H|]
+(3(F/G/A/) |\
+B2B BcB | B2A G2B | c2c cdc | B3 FGA |\
+B2B BcB | B2A A2d | c2c cdc | B3- "^D.C."B2 |]
+FBf |\
+e3 cde | d2d dcB | A2A AGA | B2d f2d |\
+e3 cde | d3 dcB | A2A AGA | Bdc BA"^D.C."G |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% [below 1st staff]
+%% First couple forward and back,
+%% lady cross over,
+%% forward three,
+%% two ladies cross over.
+%%endtext
+%%begintext align
+%% [below 3rd staff]
+%% Forward three again,
+%% swing partners to place,
+%% balance four,
+%% next couple forward, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

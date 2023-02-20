@@ -1,0 +1,18 @@
+X: 20202
+T: QUADRILLE
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.20 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The wrong kind of (quarter) rests were used in this tune; fixed.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!p!D |\
+(GD)G (GD)G | (GD)G G2A | (BG)B (BG)B | (BG)B B2e |\
+ddd d2B | ddd d2B | ddd dcB | .A2 z .D2 :|
+|: d |\
+A2A A2A | B2B B2B | (dcB) (dcB) | A2z d2D |\
+(GD)G BGB | (dB)d (gf)g | b2b a2a | g2z G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

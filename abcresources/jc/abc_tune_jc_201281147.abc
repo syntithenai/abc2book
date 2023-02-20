@@ -1,0 +1,25 @@
+X: 1
+T: the Glencoe Bridge
+C: Dan R MacDonald (Cape Breton)
+S: handwritten page in the Concord Slow Scottish Session collection 2016 p.54
+B: BSFC Tune Book IV-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+%R: march, shottish, strathspey
+M: 4/4
+L: 1/8
+K: D
+FG "^A"|\
+"D"A2d2 F2d2 | "D"A>F A<d f3a |\
+"G"g3e "A7"c>A c<e | "D"d>c d<B "A7"A2
+FG |\
+"D"A2d2 F2d2 | "D"A>F A<d f3a |\
+"G"g3e "A7"c>A c<e | "D"d4 d2 :|
+|: fg "^B"|\
+"D"{fg}a3g f>d f<a | "A7"g3e c>A c<e |\
+"D"d>c d<e "Bm"f>d f<a | "G(Em)"(g>f) g<b "A7"a2
+[1 fg |\
+"D"{fg}a3g f>d f<a | "A7"g3e c>A c<e |\
+"D"d>c d<f "A7"e>a c<e | "D"d4 d2 :|
+[2 fg |\
+"D"(3agf "(A)"g>e "D"f>d "(A)"e<c | "D"d>B A>F "D7"D>F A>d |\
+"G"B>G B<d "A7"c>A c<e | "D"d4 d2 |]

@@ -1,0 +1,58 @@
+
+X: 1
+T: Siebenschritt  [F]
+O: Germany, Austria
+R: polka
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+[| "F"C2F2 F2F2 | "C7"E2EG "F"F2z2 \
+|  "F"C2A2 A2A2 | "C7"G2GB "F"A2z2 |]
+|: "F"c2c2 "Bb"d2z2 | "C7"B2B2 "F"c2z2 \
+| "Dm"A2A2 "Gm"B2B2 |1 "C7"G2G2 "F"A2z2 :|2 "C7"G2G2 "F"F2z2 :|
+
+
+X: 1
+T: Siebenschritt  [C]
+O: Germany, Austria
+R: polka
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+[| "C"G2c2 c2c2 | "G7"B2Bd "C"c2z2 \
+|  "C"G2e2 e2e2 | "G7"d2df "C"e2z2 |]
+|: "C"g2g2 "F"a2z2 | "G7"f2f2 "C"g2z2 \
+| "Am"e2e2 "Dm"f2f2 |1 "G7"d2d2 "C"e2z2 :|2 "G7"d2d2 "C"c2z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Siebenschritt  [G]
+O: Germany, Austria
+R: polka
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+[| "G"D2G2 G2G2 | "D7"F2FA "G"G2z2 \
+|  "G"D2B2 B2B2 | "D7"A2Ac "G"B2z2 |]
+|: "G"d2d2 "C"e2z2 | "D7"c2c2 "G"d2z2 \
+| "Em"B2B2 "Am"c2c2 |1 "D7"A2A2 "G"B2z2 :|2 "D7"A2A2 "G"G2z2 :|
+
+
+X: 1
+T: Siebenschritt  [D]
+O: Germany, Austria
+R: polka
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+[| "D"A2d2 d2d2 | "A7"c2ce "D"d2z2 \
+|  "D"A2f2 f2f2 | "A7"e2eg "D"f2z2 |]
+|: "D"a2a2 "G"b2z2 | "A7"g2g2 "D"a2z2 \
+| "Bm"f2f2 "Em"g2g2 |1 "A7"e2e2 "D"f2z2 :|2 "A7"e2e2 "D"d2z2 :|

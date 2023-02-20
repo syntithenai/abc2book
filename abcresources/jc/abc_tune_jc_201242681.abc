@@ -1,0 +1,13 @@
+X:652
+T:Far-down
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 65
+M:6/8
+L:1/8
+Q:1/8=270
+K:Ador
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+E|EA^G A2B|cBA BGE|G2E D2E|GAF GFG|DEF G2B|cBA Bcd|efg edB|A3-A2::
+(3(A/B/c/)|def g2f|gaf ged|efg a2^g|ab^g a=ge|def g2f|gaf ged|efg edB|A2z Te2::
+z|edB edB|edB AGE|G2E D2E|GAF GFG|DEF G2B|cBA Bcd|efg edB|[1 A2z a2:|[2 A3-A2||

@@ -1,0 +1,44 @@
+%%textfont       Times-Bold 13.0
+%%text RJ Set 74 (cont'd)
+%%textfont       Times-Roman 7.0
+
+X: 3
+T:Hommage \`a Edmond Pariso (Pariseau)
+R:reel
+Z:transcribed to ABC by Debby Knight
+M:C|
+L:1/8
+K:B
+B Bcde|"B"fBBf BBfB | BBfB "E"g2fe | "B"dfBc dBfB | dfBd "B#dim"efed |
+"C#m"c3c cBcd| "F#7"c3f fgfe | "B" d2c2 BdcB |"F"F3 B Bcde|
+"B"fBBf BBfB | BBfB "E"g2fe | "B"dfBc dBfB | dfBd "B#dim"efed |
+"C#m"c3c cBcd| "F#7"f2e2 d2c2| "B"Bgfe "F"decd |"B"B2d2 "B7" c2 B2 |]
+|: \
+"E"b4 "Fm7/D#"g4 |"C#m7"e3B "F#7"e2g2 | "B" f3f "F/A#"fgfd | "G#m"B2d2 c2B2 |"C#m"c2cc cBcd |
+"F"f2e2 d2c2 |1 "B"dcBd "F"fdfg | "B"f2d2 "B+/D#"c2B2 :|\
+	[2 "B"Bgfe "F"d2c2| "B"B3 |]
+%%text Roaring Jelly R-157
+
+%%vskip 28
+
+X: 4
+T:Hommage \`a Edmond Pariso (Pariseau)
+R:reel
+Z:transcribed to ABC by Debby Knight
+M:C|
+L:1/8
+K:E
+E EFGA|"E"BEEB EEBE | EEBE "A"c2BA | "E"GBEF GEBE | GBEG "E#dim"ABAG |
+"F#m"F3F FEFG |"B7"F3B BcBA | "E"G2F2 EGFE |"B"B,3 E EFGA|
+"E"BEEB EEBE | EEBE "A"c2BA | "E"GBEF GEBE | GBEG "E#dim"ABAG |
+"F#m"F3F FEFG |"B7"B2A2 G2F2| "E"EcBA "B"GAFG |"E"E2G2 "E7" F2 E2 |]
+|: \
+"A"e4 "cm7/G#"c4 |"Fm7"A3E "B7"A2c2 | "E"B3B "B/D#"BcBG | "C#m"E2G2 F2E2 |"F#m"F2FF FEFG |
+"B"B2A2 G2F2 |1 "E"GFEG "B"BGBc | "E"B2G2 "E+/G#"F2E2 :|\
+ [2 "E"EcBA "B"G2F2| "E"E3 |]
+
+% %%newpage
+% %%vskip 3in
+% %%textfont       Times-Bold 13.0
+% %%center This page intentionally left blank
+% %%textfont       Times-Roman 7.0

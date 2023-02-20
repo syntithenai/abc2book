@@ -1,0 +1,28 @@
+X: 1
+T: the Namure
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (199)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+DED F2A | d3 f3 | g2a bBe | c3 A3 |\
+FAd GBe | Acf Bdg | fga eAc | d3- d3 :|
+|:\
+fdf g2a | bag g3 | B2g eBe | c3 A3 |\
+FAd dBG | GBe ecA | fdf eAc | d3- d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. Joyn left hands, then right hands across,
+%% turning twice round and lead thro' 3d Cu. and cast up in
+%% 2d Cu. place .| then lead thro the Top Cu. and cast
+%% down and turn partners :| then all four Hands round with
+%% the Top Cu. and turn Partners .| then all four Hands round
+%% with the bottom Cu. and turn partners :|
+%%endtext
+%%sep 1 8 500

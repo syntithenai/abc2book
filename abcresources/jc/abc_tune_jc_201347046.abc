@@ -1,0 +1,66 @@
+
+X: 1
+T: Tune #3 from DB and MW   [Fm]
+S: PDF from Jon Cannon
+R: zhok, horra
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+Q: "Zhok"
+M: 3/8
+L: 1/16
+K: Fm
+|:\
+c3_cB_B | A3BGA | F6- | F6 |\
+f3_fe_e | d3ecd | B6- | B6 |
+c3_cB_B | A3BGA | F3GAB | c3fed |\
+c3dBc | A3BGA |[1 F6- | F6 :|[2 F3ced | c3BAG ||
+|:\
+A4A2 | A4GF | G4G2 | G6 |\
+B4B2 | B4AG | F3GAB | c6 |
+c4c2 | c4BA | B4c2 | d3fed |\
+c3dBc | A3BGA |[1 F3ced | c3BAG :|[2 F6- | F6 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Tune #3 from DB and MW   [Gm]
+S: PDF from Jon Cannon
+R: zhok, horra
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+Q: "Zhok"
+M: 3/8
+L: 1/16
+K: Gm
+|:\
+d3_dc_c | B3cAB | G6- | G6 |\
+g3_gf_f | e3fde | c6- | c6 |
+d3_dc_c | B3cAB | G3ABc | d3gfe |\
+d3ecd | B3cAB |[1 G6- | G6 :|[2 G3dfe | d3cBA ||
+|:\
+B4B2 | B4AG | A4A2 | A6 |\
+c4c2 | c4BA | G3ABc | d6 |
+d4d2 | d4cB | c4d2 | e3gfe |\
+d3ecd | B3cAB |[1 G3dfe | d3cBA :|[2 G6- | G6 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Tune #3 from DB and MW   [Am]
+S: PDF from Jon Cannon
+R: zhok, horra
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+Q: "Zhok"
+M: 3/8
+L: 1/16
+K: Am
+|:\
+e3_ed_d | c3dBc | A6- | A6 |\
+a3_ag_g | f3gef | d6- | d6 |
+e3_ed_d | c3dBc | A3Bcd | e3agf |\
+e3fde | c3dBc |[1 A6- | A6 :|[2 A3egf | e3dcB ||
+|:\
+c4c2 | c4BA | B4B2 | B6 |\
+d4d2 | d4cB | A3Bcd | e6 |
+e4e2 | e4dc | d4e2 | f3agf |\
+e3fde | c3dBc |[1 A3egf | e3dcB :|[2 A6- | A6 |]

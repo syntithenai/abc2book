@@ -1,0 +1,75 @@
+
+X: 1
+T: Tish Nigun [Gm]
+O: Sid Beckerman, Howie Leess
+D: Sid Beckerman, Howie Leess "Klezmer Plus
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+Z: 2008 Steve Rauch
+S: printed MS from Steve Rauch
+M: 2/4
+L: 1/16
+K: Gm
+"^A"[|] D2 \
+| "Gm"BAG2- G2B2 | "D"AG^F2- F2D2 \
+|1,3 "Gm"G^FGA BAGB | "D"AG^FE D2 \
+:|2,4 "Gm"G^FGA "(D7)"BAGF | "G"G6 :|
+"^B"|: D2 \
+| "Gm"DGGA B2BG | "Gm"B2BG B4 \
+| "Cm"c3B "D"BAAG |1,3 "Gm"GB"D"Ac "Gm"B2 :|2,4 "Gm"G6 :|
+"^C"|: F2 \
+|  "Bb"dcBc B3F | dcBc B4 \
+|1,3 "Bb"dccB "Gm"BAAG | "F"Ac"Gm"B2- B2 \
+:|2,4 "Gm"dccB "D"BAAG | AB"Gm"G2- G2 :|
+%%text Often played ABCB. The extra repeats aren't always played.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Tish Nigun [Am]
+O: Sid Beckerman, Howie Leess
+D: Sid Beckerman, Howie Leess "Klezmer Plus
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+Z: 2008 Steve Rauch
+S: printed MS from Steve Rauch
+M: 2/4
+L: 1/16
+K: Am
+"^A"[|] E2 \
+| "Am"cBA2- A2c2 | "E"BA^G2- G2E2 \
+|1,3 "Am"A^GAB cBAc | "E"BA^GF E2 \
+:|2,4 "Am"A^GAB "(E7)"cBAG | "Am"A6 :|
+"^B"|: E2 \
+| "Am"EAAB c2cA | "Am"c2cA c4 \
+| "Dm"d3c "E"cBBA |1,3 "Am"Ac"E"Bd "Am"c2 :|2,4 "Am"A6 :|
+"^C"|: G2 \
+|  "C"edcd c3G | edcd c4 \
+|1,3  "C"eddc "Am"cBBA | "G"Bd"Am"c2- c2 \
+:|2,4 "Am"eddc "E"cBBA | Bc"Am"A2- A2 :|
+%%text Often played ABCB. The extra repeats aren't always played.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Tish Nigun [Bm]
+O: Sid Beckerman, Howie Leess
+D: Sid Beckerman, Howie Leess "Klezmer Plus
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+Z: 2008 Steve Rauch
+S: printed MS from Steve Rauch
+M: 2/4
+L: 1/16
+K: Bm
+"^A"[|] F2 \
+| "Bm"dcB2- B2d2 | "F#"cB^A2- A2F2 \
+|1,3 "Bm"B^ABc dcBd | "F#"cB^AG F2 \
+:|2,4 "Bm"B^ABc "(D7)"dcBA | "Bm"B6 :|
+"^B"|: F2 \
+| "Bm"FBBc d2dB | "Bm"d2dB d4 \
+| "Em"e3d "F#"dccB |1,3 "Bm"Bd"F#"ce "Bm"d2 :|2,4 "Bm"B6 :|
+"^C"|: A2 \
+|  "D"fede d3A | fede d4 \
+|1,3   "D"feed "Bm"dccB | "A"ce"Bm"d2- d2 \
+:|2,4 "Bm"feed "F#"dccB | cd"Bm"B2- B2 :|
+%%text Often played ABCB. The extra repeats aren't always played.

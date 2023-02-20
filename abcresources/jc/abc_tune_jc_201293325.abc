@@ -1,0 +1,14 @@
+X: 1
+T: Joc de Leagane
+S: .../SeymourShlien/Balkan/Joc_de_Leagane.abc
+S: Pinewoods International Collection
+O: Hungary
+M: 2/4
+L: 1/16
+%Q: 1/4=90
+K: Bm
+[|\
+"Bm"D6 EF | "Em"{D}E6 DC | "Bm"B,2 B,4 CD | E2 F6 |\
+"A"A6 Bc | "Bm"B6 {cB}AG | F2 F6 | "F#m"F6 |
+"A"A6 Bc | "Bm"{A}B6 {cB}AG | F4- {GFE}F2E2 | "D"D2 A,6 |\
+"G"A6 {BAG}FE | "A"F2 E4 {FE}DC | "Bm"B,2 B,6  | B,8 |]

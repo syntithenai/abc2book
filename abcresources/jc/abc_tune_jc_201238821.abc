@@ -1,0 +1,19 @@
+X: 3138
+T: CATCH AND KISS THE ROMP
+Q: "Reel."
+R: Reel.
+%R: reel
+B: James Kerr "Merry Melodies" v.3 p.16 #138
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The last note should probably be c rather than c2; not fixed.
+Q:"Reel."
+M: C
+L: 1/8
+K: C
+d |:\
+GGGA _B2(Bg) | ecgc aceg |\
+GGGA _B2(Ba) | gefd c/c/c (ce) ::\
+(e/f/g) (g_b) _Bdfd |
+ecgc aceg |\
+[1 (e/f/g) (g_b) _Bdfd | gefd c/c/c (cg) :|\
+[2 (e/f/g) (ga) _bgf_e | d_Bfd c/c/c c2 |]

@@ -1,0 +1,17 @@
+X: 604
+T: the Star of Kilkenny
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #604
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0604/oneill-1001-0604-1.abc
+%m: Tn = (3n/o/n/
+M: C
+L: 1/8
+K: Em
+"^A"[|]\
+d | BcAF G2GA | B2Ac Beed | BcAF G2ef | gefd Bee ||\
+d | BcAF G2GA | B2Ac Beed | BcAF G2ef | {a}gefd He2 |]
+"^B"[|\
+(ef) | (Tgf)ga gdBd | gefd Beef | (Tgf)ga bgaf | gefd Be ||\
+ ef  | (Tgf)ga gdBd | gefd Beef | gfga bgaf | gefd Be "_D.C."e |]

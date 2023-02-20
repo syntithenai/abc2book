@@ -1,0 +1,20 @@
+X: 10191
+T: ORANGE AND BLUE
+Q: "Lively"
+%R: jig
+B: "Edinburgh Repository of Music" v.1 p.19
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+g !segno!|\
+f2d d3 | A2d F2d | f2d faf | d3 d2f |\
+g2e e3 | B2e e2d | c2A cec | A3 A2g |
+f2d d3 | A2d F2d | f2d faf | d3 d2g/a/ |\
+b2g a2f | g2e f2d | cec ABc | d3 d2 |]
+g |\
+f2a aba | f2a aba | f2d faf | d3 d2f |\
+g2b bc'b | g2b bc'b | g2e gbg | e3 e2g |
+f2a aba | f2a aba | f2d faf | d3 d2f/a/ |\
+b2g a2f | g2e f2d | cec ABc | d2b a2g !segno!|]

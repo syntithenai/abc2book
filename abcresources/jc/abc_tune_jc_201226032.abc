@@ -1,0 +1,41 @@
+X: 10081
+T: Glorious the ray glancing over the ocean
+T: Sung by Mrs Atkins
+C: Reeve
+O: Paul & Virginia
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.8-9
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: C
+%%slurgraces 0
+%%continueall
+[|\
+G2 c2 B2 | c3 d e2 | d3 e c2 | B3 A G2 |
+w: Glo-rious the ray glanc-ing o-ver the o-cean that
+A2 (c>B) c2 | G2 (c>B) c2 | (de) (fe) (dc) | (c2{dc}B2) z2 |
+w: bids Hill* and Val-ley* dis-play* each* gay* hue!*
+G2 c2 B2 | c3 d e2 | A2 d2 ^c2 | d3 e f2 |
+w: Grace-ful the Or-ange Grove waves in slow mo-tion with |
+g2 f2 e2 | e2 d2 c2 | A2 d2 B2 | c4 c'2 | c'gegfe |
+w: joy as it hails the fresh Morn-ing in view.
+c4 d2 | d3 c B2 | B3 A G2 | A2 B2 c2 |
+w: ~ Yet vain-ly her beau-ties does na-ture im-
+B4 B c | d3 c B2 | B2 A2 G2 | A3 G (AB) |
+w: \-part but for Love's chear-ing Sun-shine that reigns in the*
+G4 z2 | B2 e2 d2 | c3 B A2 | A2 d2 c2 | (B3A) G2 |
+w: heart.  All his de-light if kind love lend his aid* and
+G2 c2 B2 | c3 d e2 | A2 d2 c2 | Hc2HB2 G2 | g3 f e2 |
+w: all his des-pair if fond hopes are be-tray'd.* All all his de-
+e3 d c2 | d2 c2 d2 | (edcd) (ef) | g3 f e2 | e3 d c2 |
+w: \-light if kind love lend his aid*** and* all is des-pair if fond
+d3 c (de) | c6 & c3geg | f>e dfdf | e>d cgeg | agfgab | "_Da Capo"c'6 |]
+w: hopes are be-*tray'd.
+W: 2. Sweet is the breeze that awakens the Morning,
+W: Or murmurs at Eve with the Nightingale's Song;
+W: Bright is the Moonbeam, the Streamlet adorning,
+W: While o'er the smooth Pebbles it wanders along.
+W: \t \t \t \t \t Yet vainly her' beauties &c.
+%
+%%center -

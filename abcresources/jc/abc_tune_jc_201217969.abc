@@ -1,0 +1,46 @@
+X: 001
+T: Sweetest Bard
+C: music: Ignatius Sancho 1769
+C: words: Mr Garricks Ode
+%R: song, jig
+B: "A Collection of New Songs", 1769
+S: https://brycchancarey.com/sancho/music.htm
+S: https://brycchancarey.com/sancho/bard.jpg
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Allegro"
+K: F
+%%continueall yes	% Format to fit the page+scale
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [| cfc    cAF  | dfd dBF |    cfc cAc | cBA G3  ||     GAB A2c |     GAB A2c |
+[V:2] [| f3  "_6"a3  | b3  B3  | "_6"A3 a3  | e2f c2d || "_6"efg fga | "_6"efg fga |
+%
+[V:1]    f2F dcB |       ABG       F3  || cf c   cA F | df d d3  |   cf c df d | (cB) A G3 ||
+w: | | Sweet-*est Bard* that e-*ver sung, Na-*tures glo-*ry Fan-*cys child,
+[V:2] "_6"A3 B3  | "_6\n4"c2"_5\n3"c fcA || f3 "_6"a3   | b3   Bdf | "_6"A3 B3   |  f3   cde ||
+%
+[V:1] Ad c  =Be d |   cf e      def | ge c      af d | Gc =B !segno!c/=B/c/d/e/f/ & x3 c3 ||    gec afd |       Gc=B      c3  ||
+w: Sweet-*est Bard* that e-*ver sung,** Nat-*ures glo-*ry Fan-*cys Child,*****            | ~ ~ ~ ~ ~ ~ | ~ ~ ~ ~ |
+[V:2] f3 "_="g3   | "_6"a3 "_6\n5"=b3 | c'2 "_6"e f3   | g2"_5\n="G c3                    || "_6"e3 f3  | "_6\n4"g2"_5\n="G cdB ||
+%
+[V:1] cf _e (df) d | d(_e/c/) B/A/ B3 | dg f eg c | dc =B c3 || GA B AB c | GA B A3 |
+w: ne-*ver sure* did | witch-ing*** tongue ne-*ver sure*did  witch-*ing tongue ne-*ver sure* did witch-*ing tongue
+[V:2] A3 B2d | _e2f B3 | =B3 c2e | f2g c2d || =e2c f2c | e2c f2c |
+%
+[V:1] GA B AB c | GA B A3 || f2 F dc B | AB G A3 | f2 F dc B | AB G !segno!FAc & x3 F3 ||
+w: war-*ble forth* such Wood* notes wild, war-ble forth* such Wood* notes wild, war-ble forth* such Wood* notes wild.**
+[V:2] "_6"=e2c f2c | "_6"=e2c fdB || "_6"A3 B3 | "_6\n4"c2-"_5\n3"c f3 | "_6"A3 B3 | "_6\n4"c3 "_5\n3"f3 ||
+%
+[V:1] faf dBd | gbg ece | f2F dcB | ABG F3 |]
+[V:2] a3 "_6"b3 | g3 c'3 | "_6"a3 b3 | "_6\n4"c'2"_5\n3"c f3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+W:2. Come each Muse and sister grace,  Loves and Pleasures hither come;
+W:   Well you know this happy place,  Ayons Banks were once your home.
+W:
+W:3. Bring the Laurel, bring the flowers,  Songs of triumph to him raise;
+W:   He united all your pow'rs,  All uniting, sing his praise.
+W:

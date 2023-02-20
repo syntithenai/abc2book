@@ -1,0 +1,25 @@
+X: 2361
+T: Good Morrow to your Night Cap
+%R: march
+B: Niel Gow & Sons "A Second Second Collection of Strathspey Reels, etc." v.2 p.36 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bm
+% - - - - - - - - - -
+V: 1 staves=2
+F2 |\
+TB3cd2B2 | F4F2T^G2 | A2B2c2d2 | {cd}e4Td2c2 |\
+TB3cd2B2 | F4 TF2g2 | f2e2d2c2 | {c}B4B2 :|
+|: c2 |\
+.d2.d2Td2f2 | e2e2Te2g2 | d2d2Td2f2| e2c2A2c2 |\
+d2d2Td3f | e2e2e2g2 | Tf3ed2c2 | {c}B4B2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |\
+B4b4 | d'4d4 | c4a2b2 | c'4b2^a2 |\
+b4B4 | d4d2e2 | f4F4 | B4B2 :|
+|: z2 |\
+d4d'4 | A4a4 | d4d'4 | a4A4 |\
+d4d'4 | c'4^a4 | f4F4 | B4B2 :|

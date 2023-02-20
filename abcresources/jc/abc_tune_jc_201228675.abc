@@ -1,0 +1,62 @@
+%%text RJ Set 114 (with harmony)
+
+
+X: 1
+T: John Stenson's #2
+R:reel
+D:Mark Simos, Ashokan '85, also similar in The Portland Collection
+Z:Transcribed to abc by Debbie Knight
+M:C|
+K:A
+|:\
+"A"ABcA "E"B2cB | "A"ABcA "E"BAFE | "A"ABcA "E"B2ef | "A"e2cA "E"BAFE |
+"A"ABcA "E"B2cB | "A"ABcA "E"BAFE | "Bm"d2dc dfed |1 "E"cABc "A"A4 :|2 "E"cdBc "A"ABcd |]
+|:\
+"A"edcd edcd | edcA "E"BAFE | "A"e2cd edcA | "Bm"B3c "E"BAFE |
+"A"edcd edcd | edcA "E"BABc | "Bm"d3c dfed |1 "E"cdBc "A"ABcd :|2 "E"cABc "A"A4 |]
+
+
+X: 2
+T: John Stenson's #2, harmony
+M:C|
+K:A
+[|\
+cdec d2ed | cdec dcBA | cdec defg | a2ea fed2 |
+cdec d2ed | cdec dcde | f2fe fagf | fede c4 ||
+||\
+edec d2ed | cdec dcBA | cdec defg | a2ec dcBA |
+cdec d2ed | cdec dcde | f2fe fagf | fedc e3g |]
+|:\
+aece aebg | aece fefg | aece beag | f2af fece |
+aece aebg | aece fece | f2fe fagf | fede c4 :|
+
+
+X: 3
+T: The Coalminer's
+M: C|
+L: 1/8
+R: reel
+K: Dmaj
+|:\
+"D"A,DFD "A"E2EF | "D"ABAF "A"EDB,D | "D"A,DFD "Bm"EDFA | "Em"dBAF "A"EDB,D |
+"D"A,DFD "A"EDEF | "D"ABAF "A"EDB,D | "D"A,DFD "Em"EDFA |1 "A"dBAF "D"D3B, :|2 "A"dBAF "D"D2Bc ||
+|:\
+"D"~d3B A2dB | A2FD "A"EDB,D | "D"~d3B "Bm"ABde | "Em"fedf "A"e2de |
+"Bm"fd (3ddd edBd | "D"ABAF "A"EDB,D | "D"A,DFD "Em"EDFA | "A"dBAF [1"D"D2 (3ABc :|[2 "D"D4 |]
+
+
+X: 4
+T: Paddy Fahey's
+M: 4/4
+L: 1/8
+R: reel
+K: Ddor
+|:\
+"Dm"D2A,D FEFG | Add^c d2de | "Dm"fedf "C"edcA | "Bb"dcAG "Am"FDEC |
+"Dm"D3E FEFG | Add^c d2de | "Bb"fedf edcA | "Am"dcAG "Dm"FDD2 :|
+|:\
+"D"Ad ~d2 ^fded | "C"c2 Gc EcGc | "D"Ad ~d2 ^fded | "C"cBcd "D"ed ~d2 |
+"Dm"a2 ^ga ABcA | "C"dcAG FD CE | "Bb"D2 A,D FEFG | "Am"Ad^ce "Dm"d4 :|
+%%text Paddy Fahey's -- 2 alternate chordings for first line of A part
+"Dm"D2A,D FEFG | "Dm"Ad"/E"d^c "/F"d2de | "Bb(Gm)"fedf "Gm(Am)"edcA | "Am(Bb)"dcAG "C"FDEC |
+

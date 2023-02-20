@@ -1,0 +1,32 @@
+X: 543
+T: The Basso
+O: Roma/Gypsy
+M: 2/4
+L: 1/16
+K: Bm
+B2c2d2 \
+| "Em"e4 B2e2- | e2e2 d2c2 \
+| "Bm"d4 B2d2- | d2d2 c2B2 \
+| "F#7"c4 F2c2- | c2c2 B2^A2 \
+| "Bm"B4 "F#7"c4 | "Bm"d4 "B7"^d4 ||
+|| "Em"e4 B2e2- | e2e2 d2c2 \
+| "Bm"d4 B2d2- | d2d2 c2B2 \
+| "F#7"c4 F2c2- | c2c2 d2c2  \
+| "Bm"B8- | B2 :|
+|: z6 \
+| "Em"g4 e4 | b4 a2g2 \
+| "Bm"z2f2- f2d2 | f4 e2d2 \
+| "F#7"c6 d2 | e4 d2c2 \
+| "Bm"B4 "F#7"c4 | "Bm"d4 "B7"^d4 \
+|| "Em"e4 g4 | b4 a2g2 |
+| "Bm"z2f2- f2g2 | f4 f4  \
+| "F#7"^a4 a4 | ^a2f2 ^g2a2 \
+| "Bm"b4 | b2 :: b2[f4f4]d2 \
+| "A7"edcd edcd | edcd edce |
+| "D"dcBc dcBc | dcBc dcBd \
+| "F#7"c6 fg | f2e2 d2e2 \
+| "Bm"f2bb b2b2 | b2a2 g2f2 || "A7"edcd edcd |
+| edcd edce \
+| "D"dcBc dcBc | dcBc dcBd \
+| "F#7"c6 fg | f2e2 d2e2 \
+| "Bm"f2bb b2b2 | b2 :|

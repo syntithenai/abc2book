@@ -1,0 +1,43 @@
+X: 1
+T: New Royal-Exchange
+P: Longways for as many as will
+%R: reel, march
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.38
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The tune actually starts in Dm, but is mostly in F major.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+agfe f2^c2 | defg e2ag | fed2 d3^c | d6 A2 |\
+d2e2 f3f   | g2a2 b3b  | agf2 e3f  | f8    |]
+[|\
+c2de f3A   | Bcd2 c3c  | def2 e3f  | g6 a2 |\
+b2a2 g3f   | e3d  c3c  | def2 e3f  | f8    |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up all and fall back, that again :|:| Set to all your own and fall back, then arms all with your own .:|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The two first men take hands, and the two first we. take hands, and fall back from your own, then meet them and change
+%% places and turn round S. the 1. man and 2. wo. turn back to back, and then the 1. wo. and 2. man turn back to back,
+%% then all four take hands behind them and go half round :| Do this to all :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. and 2. men, and the 1. and 2. we. take hands and fall back, then meet, and the 2. man take the 1. wo. with his
+%% right-hand and walk half round, till the 1. man go into the 2. wo. place; then the 1. man and the 2. wo. change places, and
+%% give their right-hands to their own and go half round, till the 1. cu. comes into the 2. place, and the 2. cu. into the 1.
+%% cu. place.  Do this to all the rest following .:|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. and 2. men, and the 1. and 2. we. fall back from your own, then meet, the 2. man and 2. wo. turn back to back,
+%% then the 1. man and wo. change places, and the 1. man take the 2. wo. by both hands and change places, then the 1.
+%% and 2. men being in each other's place, and the two first we. in their own places, then the 1. and 2. we. cross over to their
+%% own, and arms with them.  Do this to all the rest following :|
+%%endtext
+%%sep 1 8 500

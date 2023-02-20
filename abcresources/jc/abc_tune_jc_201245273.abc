@@ -1,0 +1,56 @@
+X: 4400
+T: Afton Water
+C: music: Trad.?
+C: words: Robert Burns
+%R: waltz
+B: Elias Howe "The Musician's Companion" V.4 Edinburgh 1792
+S: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87798076
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+% %continueall
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 may have staff breaks changed for proofreading purposes; rearrange to fit your needs.
+V: 1 % staves=2
+C2 | F2 A2 (GF) | (FA) B2 (AG) | F2 A2 GF | {F2}E4
+w: Flow gent-ly sweet* Af-*ton a-*mong thy green* braes,
+C2 | F2 A2 GF | GA c2 (fd) | c2 BA GA | F4 |[| (cd) |
+w: Flow gent-ly, I'll* sing* thee a* song in* thy* praise; My*
+_e2 (fe) (dc) | c2 d2 f2 | f2 A2 GF | (F2 E2) C2 |
+w: Ma-ry's* a-*sleep by thy mur-mur-ing* stream,* Flow
+F2 A2 GF | (GA) c2 fd | c2 BA GA | F4 |]
+w: gent-ly, sweet* Af-*ton, dis-*turb not* her* dream.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 preserves the original staff breaks:
+V: 3 clef=bass middle=d
+z2 | f4 F2 | c4 C2 | F4 B2 | c4
+cB | A2 F2 A2 | c2 f2 B2 | A2 B2 c2 | f2 F2 |[| z2 |
+f6 | f6 | f4 B2 | c4 z2 |
+A2 F2 A2 | c2 f2 B2 | A2 B2 c2 | f2 F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+W: Thou stock dove whose echo resounds thro' the glen,
+W: Ye wild whistling blackbirds in yon thorny den,
+W: Thou green crested lapwing thy screaming forbear,
+W: I charge you disturb not my slumbering Fair.
+W:
+W: How lofty, sweet Afton, thy neighbouring hills,
+W: Far mark'd with the courses of clear, winding rills;
+W: There daily I wander as noon rises high,
+W: My flocks and my Mary's sweet Cot in my eye.
+W:
+W: How pleasant thy banks and green vallies below,
+W: Where wild in the woodlands the primroses blow;
+W: There oft as mild ev'ning weeps over the lea,
+W: The sweet scented birk shades my Mary and me.
+W:
+W: Thy chrystal stream, Afton, how lovely it glides,
+W: And winds by the cot where my Mary resides;
+W: How wanton thy waters her snowy feet lave,
+W: As gathering sweet flowerets she stems thy clear wave.
+W:
+W: Flow gently, sweet Alton, among thy green braes,
+W: Flow gently, sweet River, the theme of my lays;
+W: My Mary's asleep by thy murmuring stream,
+W: Flow gently, sweet Afton, disturb not her dream.
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,72 @@
+
+X: 1
+T: Bessarabian hora    [Gm]
+S: Jon Cannon, from Belf's Rumanian Orchestra
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Gm
+"A"|:\
+"Gm"G,3 B, DG | B,3 D GB | D3 G Bd | ^c3 B AG | ^c2 d2 (3f=ed |\
+[1,3 "D7"^c3 B AG | "(D7)"d2 z2 D2 | "D7"d2 z2 D2 :|
+[2,4 "A7"^c3 B "(D7)"AB | "Gm"G3 BdB | G4 z2 \
+"B"::\
+"Cm"=B2 c2 c2 | c3 B AG | "Gm"A2 B2 B2 | B3 B AG | "D7"A2 A2 A2 | d3 D =E^F |
+[1,3 "Gm"G3 A Bc | "(G7)"d4 z2 :|\
+[2,4 "Gm"G3 B dB | G4 z2 \
+"C"::\
+"Gm"G,3 B, B,A, | "D7"A,3 C CB, | "Gm"B,3 D DC |
+"Cm"C3 E ED | "Gm"D3 C CB, |\
+[1,3 "D7"B,3 A, A,G, | "Gm"G,3 E D^C | "D7"D4 z2 :|\
+[2,4 "D7"B,3 A, A,G, | "Gm"G,3 B, DB, | G,4 z2 :|
+%%text transcribed by Jon Cannon, from Belf's Rumanian Orchestra
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Bessarabian hora    [Am]
+S: Jon Cannon, from Belf's Rumanian Orchestra
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+"A"|:\
+"Am"A,3 C EA | C3 E Ac | E3 A ce | ^d3 c BA | ^d2 e2 (3g^fe |\
+[1,3 "E7"^d3 c BA | "(E7)"e2 z2 E2 | "E7"e2 z2 E2 :|
+[2,4 "B7"^d3 c "(E7)"Bc | "Am"A3 cec | A4 z2 \
+"B"::\
+"Dm"^c2 d2 d2 | d3 c BA | "Am"B2 c2 c2 | c3 c BA | "E7"B2 B2 B2 | e3 E ^F^G |
+[1,3 "Am"A3 B cd | "(A7)"e4 z2 :|\
+[2,4 "Am"A3 c ec | A4 z2 \
+"C"::\
+"Am"A,3 C CB, | "E7"B,3 D DC | "Am"C3 E ED |
+"Dm"D3 F FE | "Am"E3 D DC |\
+[1,3 "E7"C3 B, B,A, | "Am"A,3 F E^D | "E7"E4 z2 :|\
+[2,4 "E7"C3 B, B,A, | "Am"A,3 C EC | A,4 z2 :|
+%%text transcribed by Jon Cannon, from Belf's Rumanian Orchestra
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Bessarabian hora    [Em]
+S: Jon Cannon, from Belf's Rumanian Orchestra
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Em
+"A"|:\
+"Em"E3 G Be | G3 B eg | B3 e gb | ^a3 g fe | ^a2 b2 (3d'^c'b |\
+[1,3 "B7"^a3 g fe | "(B7)"b2 z2 B2 | "B7"b2 z2 B2 :|
+[2,4 "F7"^a3 g "(B7)"fg | "Em"e3 gbg | e4 z2 \
+"B"::\
+"Am"^g2 a2 a2 | a3 g fe | "Em"f2 g2 g2 | g3 g fe | "B7"f2 f2 f2 | b3 B ^c^d |
+[1,3 "Em"e3 f ga | "(E7)"b4 z2 :|\
+[2,4 "Em"e3 g bg | e4 z2 \
+"C"::\
+"Em"E3 G GF | "B7"F3 A AG | "Em"G3 B BA |
+"Am"A3 c cB | "Em"B3 A AG |\
+[1,3 "B7"G3 F FE | "Em"E3 c B^A | "B7"B4 z2 :|\
+[2,4 "B7"G3 F FE | "Em"E3 G BG | E4 z2 :|
+%%text transcribed by Jon Cannon, from Belf's Rumanian Orchestra

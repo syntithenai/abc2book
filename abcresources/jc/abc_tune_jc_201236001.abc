@@ -1,0 +1,21 @@
+X: 21532
+T: LENA Waltz 2
+C: Composed by J.C. Paton, Organist, Edinburgh
+R: waltz
+B: K\"ohler's Violin Repository, v.2, 1885 p.153 #2
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+U: P=!crescendo(!
+U: p=!crescendo)!
+M: 3/4
+L: 1/8
+K: C
+|:\
+vP.G2.A2.B2 | .c2.d2.e2 | p(f2{a}g3)vf | e2c'2c'2 |\
+(df)a4 | (ce)g4 | (Bd)f4 | edcBcA |
+PGG AA BBp | Pcc dd ee | (f2{a}g3)vf | e2pe'2e'2 |\
+e'd'a4 | d'c'g4 | bagfed | [1 c4G2 :|[2 c4g2 |]
+|: !ff!"^>"fedcBA | "_>"GABGAB | cEGceg | agfedc |\
+(B2a3)va | a4g2- | g2(^f3g) | a4g2 |
+"_>"fedcBA | "_>"GABGAB | cEGceg | agfedc |\
+(B2a3)va | a4g2 |[1 (ba).g.f.e.d | c3ceg :|[2 (cE)Gceg | "_Volti Subito."c'2z2"^D.C."z2 H|]

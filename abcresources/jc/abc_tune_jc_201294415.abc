@@ -1,0 +1,46 @@
+X: 1
+T: Jolly Breeze
+P: Longways for as many as will
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.145 #193 (289)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.284-285
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the dance instructions; rhythm fixed with an added rest in the last measure.
+M: C|
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+G2D2 G2B2 d4 c2B2 | A2D2 F2A2 c6 d2 |\
+B3A (GA)(GA) (Bc)(Bc) d2B2 | (cB)(AG) (AG)(FE) F6 A2 |\
+(Bc)(BA) (GA)(GF) (EF)(ED) ^C2E2 | A2(GF) F2(ED) D6 :|
+AB |\
+c2Bc A2dc B2AB G2cB | A2GA F2BA G2FG E2AB |\
+(cB)(AG) (AG)(FE) ^D4 B,4 | (EF)(EF) G2E2 (FG)(FG) A2F2 |\
+(GA)(GA) B2G2  (AB)(AB) c2A2 | B2(cB) (AG)(FE) E6 B2 |
+(ed)c2 (dc)(Bd) (cB)A2 (BA)(GB) | A2F2 G2A2 F4 (DE)(FD) |\
+G2(FG) (EF)(GE) A2(GA) (FG)(AF) | B2(AB) (GA)(BG) c2(Bc) (AB)(cA) |\
+d2(ed) (cB)(AG) G6 F2 | G4 G8 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text: Note, The first Strain is to be play'd twice, and the last but once over.
+%%begintext align
+%% The 1st Cu. cast off and figure single thro' the 3d Cu. and cross up to the Top, and
+%% slip down the Middle into the 2d Cu. Place .| The 2d Cu do the same :| Then 1st
+%% Cu. take Hands and turn once round, and back again; then take Hands and lead
+%% through the 3d Cu. and cast up and lead thro' the 2d Cu. and cast off, and turn
+%% your Partner .|
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%    The first couple cast off and Figure single through the 3d. couple, and cross up to the top, and slip
+%% down the middle into the 2. couples place; the second couple do the same. First Strain twice.
+%%    The first couple take hands and turn once round, and back again, then take hands and lead through
+%% the 3d. couple, and cast up and lead through 2d. couple, and cast off and turn your Partner. The
+%% second Strain played once.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

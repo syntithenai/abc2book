@@ -1,0 +1,16 @@
+X:551
+T:Oranges and Lemons
+C:John Playford, 1665
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=92
+M:2/2
+L:1/8
+%%MIDI program 74     Recorder
+%%MIDI chordprog 46   Orchestral Harp
+%%MIDI bassprog 46    Orchestral Harp
+K:D
+P:A
+|: z2 | "D"d2 e2 afed | "G"e3 d "A"B3 A | "D"d3 f afed | "A"e3 f "D"d2 :|
+P:B
+|: ga | "G"b6 fg | "F#m"a6 fe | "Bm"d3 f afed | "Em"e3 "A"d B3 A | "D"d3 f afed | "A"e3 f "D"d2 ga |
+"G"b6 fg | "F#m"a6 fe | "Bm"d3 f afed | "Em"e3 d "A"B3 A | "D"d3 f afed | "A"e3 f "D"d2 :|

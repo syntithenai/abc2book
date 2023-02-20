@@ -1,0 +1,86 @@
+%%text RJ Set 103 NEFFA 2010 French-Canadian Set
+
+
+X: 1
+T: Gasp\'e
+M: C|
+L: 1/8
+R: reel
+K: D
+z2 |\
+"D"[fA] z2 ((3f/g/f/ e2)d2 | zAFA "D#dim"B2A2 |\
+"Em"[g2B2]zgf2e(A | "A"B)ABc ((3BdB)A2 |\
+"D"f2((3fgf) e2d2 | AAFA "D#dim"((3BdB)A2 |
+"Em"g2fa ((3faf) e(A | "A"B2)c2 "D"d2 :: "D#dim"((3faf) |\
+"Em"e2f2 "A/C#"gf (e2 | "D"f2) g2 "Bm"a3(f |\
+"Em"e2)ff "A/C#" gf eA | "F#m"BABc "B7" ((3BdB)A2 |
+"Em"e2f2 "A/C#"gf (e2 | "D"f2) g2 "Bm"a3 |\
+[1 (f | "Em"e2)ff gf e(A | "A"B2)c2 "D"d2 :|\
+[2  a | "Em"b2 ((3aba) gfe(A | "A"B2)c2 "D"d2 |]
+% text The bowings are suggestions only, to give it a Qu\'ebec touch.
+
+
+X: 2
+T: Saut du lapin
+M: C|
+L: 1/8
+R: reel
+K: G
+z2 |\
+"G"BcBA GFGB | "G/B"d2 "A#dim"BG "Am"[AD]z2A |\
+"Am"ABcB ABcd | "D"e2 f2  "A#dim"~e2 d2 ||\
+"G"BcBA GFGB |
+"G/B"d2 "A#dim"BG "Am"[AD]z2A |\
+"Am"ABcB ABcd | "D"eAfA "G"[g2B2] :: zg |\
+"G"gdBG "G/F#"d2ef | "G/E"gdBG "G/D"d3D |
+"D"FdDd FdDd | FdDd Bdef ||\
+"G"gdBG "G/F#"d2ef | "G/E"gdBG "G/D"d3D |\
+"D"FdDd FdDd | eAfA "G"[g2B2] :|
+% text 05/22/10
+
+
+X: 3
+T: Clog de Pariseau
+M: C|
+L: 1/8
+R: reel
+K: A
+|:\
+"F#m"F2GA F2GA | FGAB c2cc |\
+fgag "F#m/E"~f2cc | "F#m/D"fgag  "C#7" ~f2cc ||\
+"F#m"F2GA F2GA | FGAB c2cc |
+"Bm"fgag "Cdim"f2cc | "C#"~f2c2 "F#m"f4 ::\
+"A"e2fe  cAAA | aaAa "Cdim" g2~f2 |\
+"E/B"EFGA "E"Bcde |
+"Cdim"fdfe "A/C#"~c2AA || "A"e2fe ~c2AA |\
+aaAa "Cdim" g2~f2 | "E/B"EFGA "E"Bcde |\
+[1 "E/G#"Aaec "A"A2ee :|[2 "E/G#"Aaec "A"A4 |]
+
+
+X: 4
+T: Reel du p\`ere Bruneau
+C:
+M: C|
+L: 1/8
+R: reel
+K: D
+%%graceslurs 0
+%%slurgraces 0
+(3ABc |\
+"D"dAFA "G"GBAG | "D"FA"A"EA "D"D2FA |\
+"D"dfed "Em7"cBAG | "A"FDEG "D"FDFA ||\
+"D"dAFA "G"GBAG | "D"FA"A"EA "D"D2FA |
+"D"dfed "Em7"cBAG |[1 "A"FABc "D"d2 :|\
+[2 "A"FABc "D"d2~B2 |]\
+"D"A2FA dFAd | fAdf a2zB |\
+"D/F#"A2FA "Fdim"dFAd |
+"Em"c3e/c/ B3c/B/ ||\
+E3F  G2A2 | "A"c3c "Bm"cc~B2 |\
+"Cdim" A2cB "A/C#" AGFE |\
+"D"DdDd "A+"~B2AB |[|\
+"D"AAFA dFAd |
+fAd(f a)z2 B |\
+"D/F#"A2FA "Fdim"dFAd | "Em"c3e/c/ B3c/B/ ||\
+"A"E3F  G2A2 | "Em" c3c c2~B2 |\
+"A"A2cB AGFE | "D"DDFA d2 |]
+

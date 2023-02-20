@@ -1,0 +1,21 @@
+X: 609
+T: the Strawberry Blossom   #2
+R: reel
+%S: s:3 b:12(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #609
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0609/oneill-1001-0609-1.abc
+%m: Tn2 = (3n/o/n/ m/n/
+%%slurgraces 1
+%%graceslurs 1
+M: C|
+L: 1/8
+K: D
+"^A"\
+|: fedf edBd | fd{e}dc \
+[1 d2ag | fedf efBc | dBAF TE2D2 :|
+|[2 defg | afge fdec | dBAF TE2HD2 \
+"^B"\
+|: faab afdf | abaf gfeg |
+|[1 faab afdf | gfed TB2A2 :|\
+[2 fa (3(aaa) gb (3(bbb) | gfef gba"_D.C."g |]

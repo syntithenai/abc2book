@@ -1,0 +1,35 @@
+X:1
+T: Lover's Waltz, The
+I:
+% %staffwidth     14.50cm
+C: W-40
+C: \2511992 Molly Mason & Jay Ungar
+M: 3/4
+Z:
+R: waltz
+K: D
+A df|| "D"a3a fd| "G"B3A GF| "D"A6-| A3A df| \
+    a3a fd| "G"B3A GF| "Em"A6-| "A7"A3A Bd|
+"Em"e3d ef| "G"ed3 BA| "D"A6-| A3A Bd| \
+"G"e3d ef| "Em"ed3 BA| "A"a4- ab| a4 dc|]
+\
+"D"d4 dc| "Em7"d4 dc| "D/F#"d3d dc| "G"d2 g3f| \
+"D"d4 dc| "Bm"d4 BA| "Em"B4- BA/B/| "A7"A4 dc|
+"G"B3c d2| "A"c2 d2 e2| "Bm"f3g fe| d4 dc| \
+"G"B2 c2 d2| "A7"e2 d3c| "D (G)"d6-| "D"d3|]
+
+% %begintext ragged
+% % "Molly and I wrote this tune in 1985, when we were first together.  It was a
+% % spontaneous composition -- where I started playing melody and she played chords, and both
+% % the chords and melody evolved as we played it.  We'd played it at home together.  But it
+% % was too personal to play for other people -- I felt the same way about 'Ashokan Farewell'
+% % at first.  You know, you're not sure if people will like it.  Eventually, we played it
+% % at a late night waltz session at Ashokan.  It seemed like the right moment for the tune
+% % to emerge.  We originally wrote it in the key of G.  But the melody only uses three
+% % strings on the fiddle, and in G you never touch the E string.  Usually, if a tune only
+% % uses three strings, I go for the higher strings.  So that is why it's notated here in D.
+% % Sometimes we play it in both G and D, to get the full range.  The other thing I do, if
+% % I'm playing it in G, is play the B part an octave higher the second time through, to get
+% % a different sonority."  Jay Ungar and Molly Mason, RD 1 Box 489, West Hurley, NY 12491.
+% %endtext
+%

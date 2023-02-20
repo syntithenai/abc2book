@@ -1,0 +1,33 @@
+X: 09
+T: La Belle Frene __
+O: Austrian Dance
+R: march, reel
+M: 2/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+S: http://www.archive.org/stream/bibliographyofea00sonnrich/bibliographyofea00sonnrich_djvu.txt
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 
+|: c4(edcd) | e6e2 | f3da2f2 | (f4e4) | c4(edcd) | e6c2 | (d2B2).A2.G2 | {G}A8 :|
+|: E4(e3d) | (d3c)(c3B) | (B3A)(A3G) | (ABcd) (efga) | E4(e3d) | (d3c)(c3B) | (B3A)(A3G) | {G}A8 :|
+|: c4c3c | (c2B2)(B2c2) | .d2.d2(f3d) | {e}d4c4 | f6g2 | a2e2d2c2 | {fg}a2e2d2c2 | c3BB4 |
+|  c4c3c | (c3B)(B3c) | .d2.d2(f3d) | {e}d4c4 | f8 | e4 =gfed | c4B4 | {B}A8 :|
+|: .A2.e2.c2.e2 | .f2.d2.B2.d2 | .c2.A2.B2.G2 | (AGAB) .A2.A2 | .A2.e2.c2.e2 | f2d2B2d2 | (dc)(BA) (cB)(AG) | {G}A8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: [a4A4][a4A4] | a2A2c2A2 | [d4D4][d4D4] | a4A4 | [a4A4][a4A4] | a2A2c2A2 | d4e4 | a4A4 :|
+|: E2e2E2e2 | E2e2E2e2 | E2e2E2e2 | a2e2 c2A2 | E2e2E2e2 | E2e2E2e2 | E2e2E2e2 | A2a2 A4 :|
+|: z2A2c2A2 | e4E4 | z2e2f2g2 | a4A4 | d8 | c8| A8 | e4E4 |
+|  z2A2c2A2 | e4E4 | z2e2f2g2 | a2A2B2c2 | d2e2f2g2 | a4 d4 | e4 E4 | A2a2e2c2 :|
+|: A4a4 | D4d4 | e4E4 | A2a2e2c2 | A4a4 | D4d4 | e4E4 | A2a2A4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands across & back again -- lead down the middle up again and cast
+%% off -- set 3. & 3. Top & Bottom & hand 4. round at top -- set
+%% 3. & 3. sideways -- and hands round 4 at Bottom swing Partners swing
+%% Corners --
+%%endtext

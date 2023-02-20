@@ -1,0 +1,16 @@
+X:308
+T:The Hare's Maggot
+N:Used by Cecil Sharp for the dance "Up With Aily".
+C:Henry Playford 1701
+%%MIDI gchord fcHcfc
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=110
+M:3/2
+L:1/8
+K:Am
+P:A
+|: "Am"e4 A4 a4 | "G"gab2 "E7"e2^g2 "Am"a4 | "C"e2gf e2g2 e2c2 | "G"d2 g4 d2 B2G2 | "Am"c2e2 "Dm"f4 e2f2 | "G"d8 "C"c4 :|
+P:B
+"C"e2 c4 e2 g2e2 | "G"d2 B4 d2 g2d2 | "Am"c2e2 A2c2 E2A2 | "E7"^G6 A2 B4 |\
+"Am"c2 e4 B2 c2A2 | "B7"^f2 b4 f2 "E7"^g2e2 | "Am"a2e2 "Dm"fed2 "Am"edc2 | "E7"c6 B2 "Am"A4 |]

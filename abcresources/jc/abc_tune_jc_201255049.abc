@@ -1,0 +1,1447 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 45
+B: RSCDS Book 45
+K:
+%%center Book45/4500-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4501
+T: The Westminster Reel
+N:8x32R2
+C:Jeremy Hill
+O:RSCDS 45-1
+R:reel
+Z:2005 John Chambers <jc:trillian.mit.edu>
+B:RSCDS 45-1
+B:RSCDS London Branch "The London Jubilee" 1989
+M:C|
+L:1/8
+%
+P: Saint Albans Caledonian Society
+C: Chris Walker
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 45-1
+M: C|
+L: 1/8
+K: D
+|: "A7"AG | "D"FEFA D2AF | "G"GFGA BABc \
+| "D"dcdf "E7"edcB | "A7"c2A2 A2AG \
+| "D"FEFA "D7/C"D2A2 | "G/B"GFGA BdcB |
+| "D"Afed "A7"cBAG | "D"F2D2 D2 :| de \
+| "D"fafd "A7"gecA | "D"defd A2dc \
+| "Em"B^def gfe=d | "A7"c2A2 A2de |
+| "D"fafd "A7/C#"gecA | "Bm"defd "E(m)"B2ed \
+| "A"cfed "A7"cBAG | "D"F2D2 D2 |] de \
+| "D"fafd "A7"gecA | "D"defd A2dc |
+| "Em"B^def "E7"gfe=d | "A7"c2A2 A2AG \
+| "D"FEFA "D7/C"D2A2 | "G"GFGA "E7/G#"BdcB \
+| "A7"Afed cBAG | "D"F2D2 D2 |]
+%%center Book45/4501-WestminsterReel.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4502
+T: Double Eighty
+N:4x32S4
+C:Dulcie Bond
+O:RSCDS 45-2
+B:RSCDS Sheffield Branch leaflet
+N:In celebration of the eightieth birthdays, in 2003, of John Drewry and Jackie
+N:Johnstone in recognition of their contribution to Scottish Country Dancing.
+M:4/4
+%
+P: Double Eighty
+C: Chris Dewhurst
+R: strathspey
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 45-2
+M: C
+L: 1/8
+K: D
+f>e \
+| "D"d>c "G"d>B   "D"A<F F>E | "D7"D>F     A<d  "G"B2 "A7"A>G \
+| "D"F>A    d>e  "Bm"f<d d>A | "E7"B<e     e>f "A7"e2     f>e |
+| "D"d>c "G"d>B "F#m"A<F F>E | "Bm"D>F     A<d "Em"B>c    d>e \
+|"F#m"f>A   A>A  "Em"g>f e>d |  "G"B<d "A7"d>e  "D"[d2F2]    |]
+[fA]>e  \
+|  "D"d<A A>A     f>A "A"e>A |  "D"d<A     A>A  "Em"g3     f \
+|  "A"e<A A>A     g>A    f>A | "E7"(3efd (3cdB  "A7"A>g  f>e |
+|  "D"d<A A>A "A7"f>A    e>A |  "D"d<A     A>A "G(m)"g2  f>g \
+|"F#m"a>A f<a "Em"g>f    e>d |  "G"B<d "A7"d>e    "D"d2     :]
+%%center Book45/4502-DoubleEighty-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4503
+T: Alan J Smith
+N:8x32J3
+C:Andrew Smith
+O:RSCDS 45-3
+B:RSCDS 45-3
+B:RSCDS Bristol Branch "40th Anniversary Book of Scottish Country Dances"
+N:Inscribed to the deviser's brother.
+M:6/8
+%
+P: John Andrews' Five Miles
+C: Hugh Ferguson
+B: RSCDS 45-3
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+de \
+| "G"gde "D7"gBc | "G"^cdB "(C)"GFE | "D7"DFA DFA | "G"GA^A "D7"B2d \
+| "G"gde "D7"gBc | "(Bm)"^cdB "Em"GFE | "D7"DFA cAF | "G"G3 G :|
+|: "(A7)"FE \
+| "D"DFA "D7"cAF | "G"GBd "E(m)"edB | "A7"A^ce gec | "D"d^cd "D7"f3 \
+| "G"gfg "Em"edB | "Bm"ded "A7"BAG | "D7"DFA cAF | "G"G3 G :|
+%%center Book45/4503-AlanJSmith.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4504
+T: The Saltire Strathspey
+N:4x32S4
+C:Barbara Anglin
+O:RSCDS 45-4
+B:RSCDS 45-4
+B:RSCDS Ottawa Branch "A Gatineau Gathering)
+M:4/4
+%
+P: Blinkbonny
+C: George Meikle
+R: strathspey
+B: RSCDS 45-1
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+A>G \
+"A"\
+| "F"F>A c>d c<A F>E | "Bb"D>F B>D "C7"C2 A>G \
+| "F"F>A c>A "Dm"d>c A>F | "G7"G>A G<F "C7"E2 D>C |
+y4 \
+| "F"F>A c>d c<A F>E | "Bb"D>F B>D "C7"C2 A>B \
+| "F"c>A C>A "C7"B<G E>G | "F"(3FEF "C7"A>G "F"F2 |]
+"C7"A>B \
+"B"\
+| "F"c>d c<A "Dm"f>d "Am"c<A | "Gm"B>c (3dcB "C7"G2 A>G \
+| "F"F>A c>A "Dm"d>c A>F | "G(m)"G>A G<F "C7"E2 A>B |
+y4 \
+| "F"c>d c<A "Dm"f>d "Am"c<A | "Gm"B>c (3dcB "C7"G2 A>B \
+| "F"c<A C>A "Gm"B<G "C7"E>G | "F"(3FEF "C7"A>G "F"F2 |]
+%%center Book45/4504-SaltireStrathspey.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4510
+T: The Fairbridge Reel
+N:3x48R3
+C:John Brenchlen
+O:RSCDS 45-10
+B:RSCDS 45-10
+B:RSCDS Western Australia Branch "Swan River Selection"
+N:First danced at the Western Australia Branch weekend
+N:school at Fairbridge near Perth in October 1989.
+R:reel
+M:C|
+K:
+%
+P: Lonach Gathering
+C: David Gordon
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+cd |\
+"A"eaag aecA | "D"fgaf "A"ecA2 | "D"defd "A"cdec | "B7"BcBA "E7"GEFG |
+"A"Aaag aecA | "D"defa "A"ecA2 | "Bm"FBdf "A"ea"D"fd | "E7"cedB "A"A2 |]
+fg |\
+"F#m"agfa "E"gfeg | "D"fedf "A/C#"eaA2 | "Bm"dcBd "A"cBAc | "B(m)"BcBf "E7"edcB |
+"A"A2cA eAce | "D"fgaf "A"ecAG  | "Bm"FBdf "A"ea"D"fd | "E7"cedB "A"A2 |]
+
+%%center Book45/4510-FairbridgeReel.abc
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 45011
+T: Blinkbonny
+C: George Meikle
+R: strathspey
+B: RSCDS 45-1
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: F
+A>G \
+"A"\
+| "F"F>A c>d c<A F>E | "Bb"D>F B>D "C7"C2 A>G \
+| "F"F>A c>A "Dm"d>c A>F | "G7"G>A G<F "C7"E2 D>C |
+y4 \
+| "F"F>A c>d c<A F>E | "Bb"D>F B>D "C7"C2 A>B \
+| "F"c>A C>A "C7"B<G E>G | "F"(3FEF "C7"A>G "F"F2 |]
+"C7"A>B \
+"B"\
+| "F"c>d c<A "Dm"f>d "Am"c<A | "Gm"B>c (3dcB "C7"G2 A>G \
+| "F"F>A c>A "Dm"d>c A>F | "G(m)"G>A G<F "C7"E2 A>B |
+y4 \
+| "F"c>d c<A "Dm"f>d "Am"c<A | "Gm"B>c (3dcB "C7"G2 A>B \
+| "F"c<A C>A "Gm"B<G "C7"E>G | "F"(3FEF "C7"A>G "F"F2 |]
+%%center Book45/45011-Blinkbonny-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 45011
+T: Saint Albans Caledonian Society
+C: Chris Walker
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 45-1
+M: C|
+L: 1/8
+%--------------------
+K: D
+|:"A7"AG \
+| "D"FEFA D2AF | "G"GFGA BABc | "D"dcdf "E7"edcB | "A7"c2A2 A2AG \
+| "D"FEFA "D7/C"D2A2 | "G/B"GFGA BdcB | "D"Afed "A7"cBAG | "D"F2D2 D2 :|
+de \
+| "D"fafd "A7/E"gecA | "D/F#"defd "D"A2dc | "Em"B^def gfe=d | "A7"c2A2 A2de \
+| "D"fafd "A7/C#"gecA | "Bm"defd "E(m)"B2ed | "A"cfed "A7"cBAG | "D"F2D2 D2 |]
+de \
+| "D"fafd "A7/E"gecA | "D/F#"defd "D"A2dc | "Em"B^def "E7"gfe=d | "A7"c2A2 A2AG \
+| "D"FEFA "D7/C"D2AF | "G/B"GFGA "G#dim"BdcB | "D"Afed "A7"cBAG | "D"F2D2 D2 |]
+%%center Book45/45011-Saint_Albans_Caledonian_Society-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 45011
+T: Saint Albans Caledonian Society
+C: Chris Walker
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 45-1
+M: C|
+L: 1/8
+%--------------------
+K: D
+|: "A7"AG | "D"FEFA D2AF | "G"GFGA BABc \
+| "D"dcdf "E7"edcB | "A7"c2A2 A2AG \
+| "D"FEFA "D7/C"D2A2 | "G/B"GFGA BdcB |
+| "D"Afed "A7"cBAG | "D"F2D2 D2 :| de \
+| "D"fafd "A7"gecA | "D"defd A2dc \
+| "Em"B^def gfe=d | "A7"c2A2 A2de |
+| "D"fafd "A7/C#"gecA | "Bm"defd "E(m)"B2ed \
+| "A"cfed "A7"cBAG | "D"F2D2 D2 |] de \
+| "D"fafd "A7"gecA | "D"defd A2dc |
+| "Em"B^def "E7"gfe=d | "A7"c2A2 A2AG \
+| "D"FEFA "D7/C"D2A2 | "G"GFGA "E7/G#"BdcB \
+| "A7"Afed cBAG | "D"F2D2 D2 |]
+%%center Book45/45011-Saint_Albans_Caledonian_Society-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 45021
+T: Double Eighty
+C: Chris Dewhurst
+R: strathspey
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 45-2
+M: C
+L: 1/8
+%--------------------
+K: D
+f>e \
+| "D"d>c "G"d>B   "D"A<F F>E | "D7"D>F     A<d  "G"B2 "A7"A>G \
+| "D"F>A    d>e  "Bm"f<d d>A | "E7"B<e     e>f "A7"e2     f>e |
+| "D"d>c "G"d>B "F#m"A<F F>E | "Bm"D>F     A<d "Em"B>c    d>e \
+|"F#m"f>A   A>A  "Em"g>f e>d |  "G"B<d "A7"d>e  "D"[d2F2]    |]
+[fA]>e  \
+|  "D"d<A A>A     f>A "A"e>A |  "D"d<A     A>A  "Em"g3     f \
+|  "A"e<A A>A     g>A    f>A | "E7"(3efd (3cdB  "A7"A>g  f>e |
+|  "D"d<A A>A "A7"f>A    e>A |  "D"d<A     A>A "G(m)"g2  f>g \
+|"F#m"a>A f<a "Em"g>f    e>d |  "G"B<d "A7"d>e    "D"d2     :]
+%%center Book45/45021-Double_Eighty-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 45031
+T: John Andrews' Five Miles
+C: Hugh Ferguson
+B: RSCDS 45-3
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+de \
+| "G"gde "D7"gBc | "G"^cdB "(C)"GFE | "D7"DFA DFA | "G"GA^A "D7"B2d \
+| "G"gde "D7"gBc | "(Bm)"^cdB "Em"GFE | "D7"DFA cAF | "G"G3 G :|
+|: "(A7)"FE \
+| "D"DFA "D7"cAF | "G"GBd "E(m)"edB | "A7"A^ce gec | "D"d^cd "D7"f3 \
+| "G"gfg "Em"edB | "Bm"ded "A7"BAG | "D7"DFA cAF | "G"G3 G :|
+%%center Book45/45031-John_Andrews_Five_Miles-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 45051
+T: The Navvie
+O: Trad
+R: hornpipe, reel
+B: RSCDS 45-5
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+%--------------------
+K: G
+Bc \
+| "G"dgfe "D7"dcBA | "G"GBDG B2AG | "D7"FADF A2GF | "G"GDEF "D7"GABc | "G"dgfe "D7"dcBA |
+| "G"GBDG B2AG | "D7"FADF A2GF | "G"G2B2 G2 :: AG | "D7"FADF A2GF | "G"GBDG B2AG |
+| "D7"FADF A2GF | "G"GDEF "D7"GABc | "G"dgfe "D7"dcBA | "G"GBDG B2AG | "D7"FAfe dcBA | "G"G2B2 G2 :|
+%%center Book45/45051-Navvie-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 45061
+T: Pinky House
+O: Trad
+R: strathspey
+B: RSCDS 45-6
+B: William McGibbon Collection
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: D
+|: D>E \
+| "D"F>E F<A "A7"F2 ED | "D"A>F A<B "D/F#"A2 dc \
+| "G"B>A Bd "D/F#"AF ED | "Em"E4- "A7"E2 ||
+y2 D>E \
+| "D"F>E F/G/A "Bm"F2 ED | "F#m"A>F A<B "D"A2 dc \
+| "G"B>A Bd "A7"d/e/f e>d | "D"d4- d2 :|
+|: "E7"c>d \
+| "A"e>d ef "A/C#"e2 de | "Bm"fe/d/ cB "F#m"A2 Bc \
+| "Bm"d>c de "F#7"d2 c2 | "Bm"B4 z2 ||
+y2 B/c/d \
+| "D"A>F ED "/F#"FA "G"Bd | "D"A>F ED "G"B,2 "F#7"f>e \
+| "Bm"d>c B/c/d "A7"AF ED | "D"D4- D2 :|
+%%center Book45/45061-Pinky_House-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 45081
+T: Juniper Jig
+C: Charles F Sherrit
+B: RSCDS 45-8
+R: Jig
+M: 6/8
+%--------------------
+K: A
+L: 1/8
+     e \
+| "A"aga ecA | "D"FAd     fed | "A"cee "F#m"Acc | "Bm"Bcd "E7"efg \
+| "A"aga ecA | "D"FAd "Bm"fed | "A"cec  "E7"dBG | "A"A3       A2 ||
+|:  =G \
+| "D"FAd fed | "D"fed agf | "A"ecA     EAc | "A"EAc "B7"cBA \
+| "E"GBB EBB | "E"GBB E2B | "A"AGA "E7"BAB | "A"c3  "A7"AG=G ||
+y3 y2 \
+| "D"FAd fed | "D"fed agf | "A"ecA  EAc | "A"EAc "B7"cBA \
+| "E"GBB EBB | "E"GBB E2f | "E7"gfe dcB | "A"A3      A2 :|
+%%center Book45/45081-Juniper_Jig-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 45081
+T: Juniper Jig
+C: Charles F Sherrit
+B: RSCDS 45-8
+R: Jig
+M: 6/8
+%--------------------
+K: A
+L: 1/8
+|: e \
+| "A"aga ecA | "D"FAd fed | "A"cee "F#m"Acc | "Bm"Bcd "E"efg \
+| "A"aga ecA | "D"FAd "Bm"fed | "A"cec "E7"dBG | "A"A3 A2 :|
+=G \
+| "D"FAd fed | "D"fed agf | "A"ecA EAc | "A"EAc "B7"cBA \
+| "E"GBB EBB | "E"GBB E2B | "A"AGA "E"BAB | "A"c3 AG=G ||
+| "D"FAd fed | "D"fed agf | "A"ecA EAc | "A"EAc "B7"cBA \
+| "E"GBB EBB | "E"GBB E2f | "E"gfe dcB | "A"A3 A2 |]
+%%center Book45/45081-Juniper_Jig-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 45091
+T: Rosie
+C: Eric Allan
+B: RSCDS 45-9
+R: air
+M: C
+L: 1/8
+%--------------------
+K: Em
+"B7"GF \
+| "Em"EFED "Bm"B,2EF | "Em"G2AB "C"[e3G3] d | "G"BdBA "(Em)"G2AB | "D"D3E "B7"D2GF |
+| "Em"EFGA "B7"B3 A | "Em"GA"B7"B^d "C"e2fg | "G"B3 D "Am"AG"B7"FG | "Em"EGBe E2 :|
+"D7"EF \
+| "G"G3 D "D"A3 D | "G"BdBG "D"FAFD | "C"C3 D/E/ "G/B"D2G2 | "Em"GFGB "D7"A2Bc |
+| "G"d3B g3f | "C"egec "G/B"BdBG | "Am"E2cB "D7"A2GF | "C"G3A "G"GD"(D7)"BA |
+| "G"G3B "D7"A3c | "G"Bdgf "C"edcB | "Am"c3d/e/ "G/B"dBAG | "G"DGcB "D7"A2DC |
+| "G"B,3D "Am"C3E | "G"DdBG "Am"EecA | "G"B3D "D7"BAGF | "C"[G2C2-][GC]A "G"[G2B,2] |]
+%%center Book45/45091-Rosie-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 45091
+T: Rosie
+C: Eric Allan
+B: RSCDS 45-9
+R: air
+M: C
+L: 1/8
+%--------------------
+K: Em
+"B7"GF \
+| "Em"EFED "Bm"B,2EF | "Em"G2AB   "C"[e3G3]d | "G"BdBA "(Em)"G2AB   |  "D"D3E "B7"D2GF |
+| "Em"EFGA "B7"B3A   | "Em"GA"B7"B^d "C"e2fg | "G"B3D  "Am"AG"B7"FG | "Em"EGBe E2 :|
+"D7"EF \
+| "G"G3D  "D" A3D | "G"BdBG   "D"FAFD |  "C"C3D/E/ "G/B"D2G2 | "Em"GFGB "D7"A2Bc |
+| "G"d3B      g3f | "C"egec "G/B"BdBG | "Am"E2cB   "D7" A2GF | "C"G3A "G"GD"(D7)"BA ||
+| "G"G3B  "D7"A3c | "G"Bdgf   "C"edcB | "Am"c3d/e/ "G/B"dBAG | "G"DGcB "D7"A2DC |
+| "G"B,3D "Am"C3E | "G"DdBG  "Am"EecA |  "G"B3D    "D7" BAGF | "C"[G2C2-][GC]A "G"[G2B,2] |]
+%%center Book45/45091-Rosie-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 45091
+T: Sir Henry Daniel of Gooch
+C: Eric Allan
+B: RSCDS 45-9
+R: air
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: D
+DE \
+|:"D"F2ED "A7"A2F2 | "Bm"D3D "F#m"d2cA \
+| "G"[B2D2]AG "D/F#"[d2F2]F2 | "Em7"[A2-E2][A2D2] "A7"[AC]BAG |
+| "D"F2ED "A/C#"A2c2 | "Bm"d2cd "G"B2AG \
+| "D"FEFA "/E"GF"/F#"ED | "G"EFGA "A7"B2A2 ||
+| "D"[A2F2][f2A2] "A7"[e2G2][f2A2] | "Bm"[d3F3]F "F#m"[c3F3]d \
+| "G"B2AG "D/F#"A2D2 | "Em"GFGA "A7"E2FG | "D"A2f2 "F#7"e2c2 |
+| "Bm"d2D2 "G"cBAG \
+|1 "D"F2D2 "/E"GF"/F#"ED | "G"EFGA "A7"B2A2 \
+:|2"D"F2D2 "A7"GFEF | "Em7"D4 "D"D2 |]
+%%center Book45/45091-Sir_Henry_Daniel_of_Gooch-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Blinkbonny
+C: George Meikle
+R: strathspey
+B: RSCDS 45-1
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+A>G \
+"A"\
+| "F"F>A c>d c<A F>E | "Bb"D>F B>D "C7"C2 A>G \
+| "F"F>A c>A "Dm"d>c A>F | "G7"G>A G<F "C7"E2 D>C |
+y4 \
+| "F"F>A c>d c<A F>E | "Bb"D>F B>D "C7"C2 A>B \
+| "F"c>A C>A "C7"B<G E>G | "F"(3FEF "C7"A>G "F"F2 |]
+"C7"A>B \
+"B"\
+| "F"c>d c<A "Dm"f>d "Am"c<A | "Gm"B>c (3dcB "C7"G2 A>G \
+| "F"F>A c>A "Dm"d>c A>F | "G(m)"G>A G<F "C7"E2 A>B |
+y4 \
+| "F"c>d c<A "Dm"f>d "Am"c<A | "Gm"B>c (3dcB "C7"G2 A>B \
+| "F"c<A C>A "Gm"B<G "C7"E>G | "F"(3FEF "C7"A>G "F"F2 |]
+%%center Book45/Blinkbonny_F-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Blinkbonny
+C: George Meikle
+R: strathspey
+B: RSCDS 45-1
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+A>G \
+"A"\
+| "F"F>A c>d c<A F>E | "Bb"D>F B>D "C7"C2 A>G \
+| "F"F>A c>A "Dm"d>c A>F | "G7"G>A G<F "C7"E2 D>C |
+y4 \
+| "F"F>A c>d c<A F>E | "Bb"D>F B>D "C7"C2 A>B \
+| "F"c>A C>A "C7"B<G E>G | "F"(3FEF "C7"A>G "F"F2 |]
+"C7"A>B \
+"B"\
+| "F"c>d c<A "Dm"f>d "Am"c<A | "Gm"B>c (3dcB "C7"G2 A>G \
+| "F"F>A c>A "Dm"d>c A>F | "G(m)"G>A G<F "C7"E2 A>B |
+y4 \
+| "F"c>d c<A "Dm"f>d "Am"c<A | "Gm"B>c (3dcB "C7"G2 A>B \
+| "F"c<A C>A "Gm"B<G "C7"E>G | "F"(3FEF "C7"A>G "F"F2 |]
+%%center Book45/Blinkbonny_F_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Blinkbonny
+C: George Meikle
+R: strathspey
+B: RSCDS 45-1
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+A>G \
+"A"\
+| "F"F>A c>d c<A F>E | "Bb"D>F B>D "C7"C2 A>G \
+| "F"F>A c>A "Dm"d>c A>F | "G7"G>A G<F "C7"E2 D>C |
+y4 \
+| "F"F>A c>d c<A F>E | "Bb"D>F B>D "C7"C2 A>B \
+| "F"c>A C>A "C7"B<G E>G | "F"(3FEF "C7"A>G "F"F2 |]
+"C7"A>B \
+"B"\
+| "F"c>d c<A "Dm"f>d "Am"c<A | "Gm"B>c (3dcB "C7"G2 A>G \
+| "F"F>A c>A "Dm"d>c A>F | "G(m)"G>A G<F "C7"E2 A>B |
+y4 \
+| "F"c>d c<A "Dm"f>d "Am"c<A | "Gm"B>c (3dcB "C7"G2 A>B \
+| "F"c<A C>A "Gm"B<G "C7"E>G | "F"(3FEF "C7"A>G "F"F2 |]
+%%center Book45/Blinkbonny_F_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0
+T: The Fairbridge Reel
+T: 3x48R3
+P: Each tune 3 times
+C:John Brenchlen
+O:RSCDS 45-10
+B:RSCDS 45-10
+B:RSCDS Western Australia Branch "Swan River Selection"
+N:First danced at the Western Australia Branch weekend
+N:school at Fairbridge near Perth in October 1989.
+R:reel
+M:C|
+K:
+
+% reel/Lonach_Gathering_A.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+P: Lonach Gathering
+C: David Gordon
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+cd | "A"eaag aecA | "D"fgaf "A"ecA2 | "D"defd "A"cdec | "B7"BcBA "E7"GEFG |
+y4 | "A"Aaag aecA | "D"defa "A"ecA2 | "Bm"FBdf "A"ea"D"fd | "E7"cedB "A"A2 |]
+fg | "F#m"agfa "E"gfeg | "D"fedf "A/C#"eaA2 | "Bm"dcBd "A"cBAc | "B(m)"BcBf "E7"edcB |
+y4 | "A"A2cA eAce | "D"fgaf "A"ecAG  | "Bm"FBdf "A"ea"D"fd | "E7"cedB "A"A2 |]
+
+% ../misc/x7.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+M:none
+K:C clef=none
+x4
+x4
+x4
+x4
+x4
+x4
+x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4
+
+%%center Book45/FairbridgeReel0-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0
+T: The Fairbridge Reel
+T: 3x48R3
+P: Each tune 3 times
+C:John Brenchlen
+O:RSCDS 45-10
+B:RSCDS 45-10
+B:RSCDS Western Australia Branch "Swan River Selection"
+N:First danced at the Western Australia Branch weekend
+N:school at Fairbridge near Perth in October 1989.
+R:reel
+M:C|
+K:
+
+% reel/Lonach_Gathering_A.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+P: Lonach Gathering
+C: David Gordon
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+cd | "A"eaag aecA | "D"fgaf "A"ecA2 | "D"defd "A"cdec | "B7"BcBA "E7"GEFG |
+y4 | "A"Aaag aecA | "D"defa "A"ecA2 | "Bm"FBdf "A"ea"D"fd | "E7"cedB "A"A2 |]
+fg | "F#m"agfa "E"gfeg | "D"fedf "A/C#"eaA2 | "Bm"dcBd "A"cBAc | "B(m)"BcBf "E7"edcB |
+y4 | "A"A2cA eAce | "D"fgaf "A"ecAG  | "Bm"FBdf "A"ea"D"fd | "E7"cedB "A"A2 |]
+
+% ../misc/x7.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+M:none
+K:C clef=none
+x4
+x4
+x4
+x4
+x4
+x4
+x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4
+
+%%center Book45/FairbridgeReel0_JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0
+T: The Fairbridge Reel
+T: 3x48R3
+P: Each tune 3 times
+C:John Brenchlen
+O:RSCDS 45-10
+B:RSCDS 45-10
+B:RSCDS Western Australia Branch "Swan River Selection"
+N:First danced at the Western Australia Branch weekend
+N:school at Fairbridge near Perth in October 1989.
+R:reel
+M:C|
+K:
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+P: Lonach Gathering
+C: David Gordon
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+cd | "A"eaag aecA | "D"fgaf "A"ecA2 | "D"defd "A"cdec | "B7"BcBA "E7"GEFG |
+y4 | "A"Aaag aecA | "D"defa "A"ecA2 | "Bm"FBdf "A"ea"D"fd | "E7"cedB "A"A2 |]
+fg | "F#m"agfa "E"gfeg | "D"fedf "A/C#"eaA2 | "Bm"dcBd "A"cBAc | "B(m)"BcBf "E7"edcB |
+y4 | "A"A2cA eAce | "D"fgaf "A"ecAG  | "Bm"FBdf "A"ea"D"fd | "E7"cedB "A"A2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+P: Dick Gossip's Reel  (Castle Reel)
+R: reel
+N: The parts are played in either order
+O: trad Ireland
+N: Origin unknown.  "Dick Gossip" was 19th C UK slang for a man who liked to talk.
+B: the Gunn MS
+B: BSFC X-22
+B: Bulmer & Sharpley (Music from Ireland), 1974, Vol. 1, No. 17
+B: Mallinson (Essential), 1995; No. 1, pg. 1
+D: Flying Fish FF-250, Battlefield Band - "Home is Where the Van Is" (1981)
+D: Wild Asparagus 003, Wild Asparagus - "Tone Roads" (1990)
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+e2 "A"|:\
+"D"f2af   gfed | "D"f2af  gfed |\
+[1 "A"e2ef  gfed | edef gfed :|\
+[2 "A"cdef gece | "D"df"A"ec "D"d2 |]
+"B"|: ef |\
+"G"gB ~B2 gBaB | "G"gB~B2 gfed |\
+[1 "A"cA eA fAeA | cAef gf   :|\
+[2 "A"cdef gece | "D"df"A"ec "D"d2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3
+P: The Fiddlers' Welcome to Los Angeles
+C: Colin Gordon
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+AB |   "A"c2BA {g}a2e2 | "D"fgaf "E7"e2AB |   "A"c2BA "F#m"e2dc | "Bm"c2B2 "E7"B2AB |
+y6 |   "A"c2BA {g}a2e2 | "D"fgaf "E7"e2AB |   "A"c2e2  "E7"efed | "A"c2A2      A2   |]
+fg | "F#m"agfa "E"gfeg | "D"fedf "E7"e2AB |   "A"c2e2 "F#m"efeA | "Bm"c2B2 "E7"B2AB |
+y4 |   "A"c2BA {g}a2e2 | "D"fgaf "E7"e2fg | "F#m"a2A2  "E7"B2AB | "A"c2A2      A2   |]
+
+%%center Book45/FairbridgeReel1-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0
+T: The Fairbridge Reel
+T: 3x48R3
+P: Each tune 3 times
+C:John Brenchlen
+O:RSCDS 45-10
+B:RSCDS 45-10
+B:RSCDS Western Australia Branch "Swan River Selection"
+N:First danced at the Western Australia Branch weekend
+N:school at Fairbridge near Perth in October 1989.
+R:reel
+M:C|
+K:
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+P: Lonach Gathering
+C: David Gordon
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+cd | "A"eaag aecA | "D"fgaf "A"ecA2 | "D"defd "A"cdec | "B7"BcBA "E7"GEFG |
+y4 | "A"Aaag aecA | "D"defa "A"ecA2 | "Bm"FBdf "A"ea"D"fd | "E7"cedB "A"A2 |]
+fg | "F#m"agfa "E"gfeg | "D"fedf "A/C#"eaA2 | "Bm"dcBd "A"cBAc | "B(m)"BcBf "E7"edcB |
+y4 | "A"A2cA eAce | "D"fgaf "A"ecAG  | "Bm"FBdf "A"ea"D"fd | "E7"cedB "A"A2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+P: Dick Gossip's Reel  (Castle Reel)
+R: reel
+N: The parts are played in either order
+O: trad Ireland
+N: Origin unknown.  "Dick Gossip" was 19th C UK slang for a man who liked to talk.
+B: the Gunn MS
+B: BSFC X-22
+B: Bulmer & Sharpley (Music from Ireland), 1974, Vol. 1, No. 17
+B: Mallinson (Essential), 1995; No. 1, pg. 1
+D: Flying Fish FF-250, Battlefield Band - "Home is Where the Van Is" (1981)
+D: Wild Asparagus 003, Wild Asparagus - "Tone Roads" (1990)
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+e2 "A"|:\
+"D"f2af   gfed | "D"f2af  gfed |\
+[1 "A"e2ef  gfed | edef gfed :|\
+[2 "A"cdef gece | "D"df"A"ec "D"d2 |]
+"B"|: ef |\
+"G"gB ~B2 gBaB | "G"gB~B2 gfed |\
+[1 "A"cA eA fAeA | cAef gf   :|\
+[2 "A"cdef gece | "D"df"A"ec "D"d2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3
+P: The Fiddlers' Welcome to Los Angeles
+C: Colin Gordon
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+AB |   "A"c2BA {g}a2e2 | "D"fgaf "E7"e2AB |   "A"c2BA "F#m"e2dc | "Bm"c2B2 "E7"B2AB |
+y6 |   "A"c2BA {g}a2e2 | "D"fgaf "E7"e2AB |   "A"c2e2  "E7"efed | "A"c2A2      A2   |]
+fg | "F#m"agfa "E"gfeg | "D"fedf "E7"e2AB |   "A"c2e2 "F#m"efeA | "Bm"c2B2 "E7"B2AB |
+y4 |   "A"c2BA {g}a2e2 | "D"fgaf "E7"e2fg | "F#m"a2A2  "E7"B2AB | "A"c2A2      A2   |]
+
+%%center Book45/FairbridgeReel1_2-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0
+T: The Fairbridge Reel
+T: 3x48R3
+P: Each tune 3 times
+C:John Brenchlen
+O:RSCDS 45-10
+B:RSCDS 45-10
+B:RSCDS Western Australia Branch "Swan River Selection"
+N:First danced at the Western Australia Branch weekend
+N:school at Fairbridge near Perth in October 1989.
+R:reel
+M:C|
+K:
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+P: Lonach Gathering
+C: David Gordon
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+cd | "A"eaag aecA | "D"fgaf "A"ecA2 | "D"defd "A"cdec | "B7"BcBA "E7"GEFG |
+y4 | "A"Aaag aecA | "D"defa "A"ecA2 | "Bm"FBdf "A"ea"D"fd | "E7"cedB "A"A2 |]
+fg | "F#m"agfa "E"gfeg | "D"fedf "A/C#"eaA2 | "Bm"dcBd "A"cBAc | "B(m)"BcBf "E7"edcB |
+y4 | "A"A2cA eAce | "D"fgaf "A"ecAG  | "Bm"FBdf "A"ea"D"fd | "E7"cedB "A"A2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+P: Dick Gossip's Reel  (Castle Reel)
+R: reel
+N: The parts are played in either order
+O: trad Ireland
+N: Origin unknown.  "Dick Gossip" was 19th C UK slang for a man who liked to talk.
+B: the Gunn MS
+B: BSFC X-22
+B: Bulmer & Sharpley (Music from Ireland), 1974, Vol. 1, No. 17
+B: Mallinson (Essential), 1995; No. 1, pg. 1
+D: Flying Fish FF-250, Battlefield Band - "Home is Where the Van Is" (1981)
+D: Wild Asparagus 003, Wild Asparagus - "Tone Roads" (1990)
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+e2 "A"|:\
+"D"f2af   gfed | "D"f2af  gfed |\
+[1 "A"e2ef  gfed | edef gfed :|\
+[2 "A"cdef gece | "D"df"A"ec "D"d2 |]
+"B"|: ef |\
+"G"gB ~B2 gBaB | "G"gB~B2 gfed |\
+[1 "A"cA eA fAeA | cAef gf   :|\
+[2 "A"cdef gece | "D"df"A"ec "D"d2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3
+P: The Fiddlers' Welcome to Los Angeles
+C: Colin Gordon
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+AB |   "A"c2BA {g}a2e2 | "D"fgaf "E7"e2AB |   "A"c2BA "F#m"e2dc | "Bm"c2B2 "E7"B2AB |
+y6 |   "A"c2BA {g}a2e2 | "D"fgaf "E7"e2AB |   "A"c2e2  "E7"efed | "A"c2A2      A2   |]
+fg | "F#m"agfa "E"gfeg | "D"fedf "E7"e2AB |   "A"c2e2 "F#m"efeA | "Bm"c2B2 "E7"B2AB |
+y4 |   "A"c2BA {g}a2e2 | "D"fgaf "E7"e2fg | "F#m"a2A2  "E7"B2AB | "A"c2A2      A2   |]
+
+%%center Book45/FairbridgeReel1_JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: John Andrews' Five Miles
+C: Hugh Ferguson
+B: RSCDS 45-3
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+de \
+| "G"gde "D7"gBc | "G"^cdB "(C)"GFE | "D7"DFA DFA | "G"GA^A "D7"B2d \
+| "G"gde "D7"gBc | "(Bm)"^cdB "Em"GFE | "D7"DFA cAF | "G"G3 G :|
+|: "(A7)"FE \
+| "D"DFA "D7"cAF | "G"GBd "E(m)"edB | "A7"A^ce gec | "D"d^cd "D7"f3 \
+| "G"gfg "Em"edB | "Bm"ded "A7"BAG | "D7"DFA cAF | "G"G3 G :|
+%%center Book45/JohnAndrewsFiveMiles_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: John Andrews' Five Miles
+C: Hugh Ferguson
+B: RSCDS 45-3
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+de \
+| "G"gde "D7"gBc | "G"^cdB "(C)"GFE | "D7"DFA DFA | "G"GA^A "D7"B2d \
+| "G"gde "D7"gBc | "(Bm)"^cdB "Em"GFE | "D7"DFA cAF | "G"G3 G :|
+|: "(A7)"FE \
+| "D"DFA "D7"cAF | "G"GBd "E(m)"edB | "A7"A^ce gec | "D"d^cd "D7"f3 \
+| "G"gfg "Em"edB | "Bm"ded "A7"BAG | "D7"DFA cAF | "G"G3 G :|
+%%center Book45/JohnAndrewsFiveMiles_G_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: John Andrews' Five Miles
+C: Hugh Ferguson
+B: RSCDS 45-3
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+de \
+| "G"gde "D7"gBc | "G"^cdB "(C)"GFE | "D7"DFA DFA | "G"GA^A "D7"B2d \
+| "G"gde "D7"gBc | "(Bm)"^cdB "Em"GFE | "D7"DFA cAF | "G"G3 G :|
+|: "(A7)"FE \
+| "D"DFA "D7"cAF | "G"GBd "E(m)"edB | "A7"A^ce gec | "D"d^cd "D7"f3 \
+| "G"gfg "Em"edB | "Bm"ded "A7"BAG | "D7"DFA cAF | "G"G3 G :|
+%%center Book45/John_Andrews_Five_Miles_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: John Andrews' Five Miles
+C: Hugh Ferguson
+B: RSCDS 45-3
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+de \
+| "G"gde "D7"gBc | "G"^cdB "(C)"GFE | "D7"DFA DFA | "G"GA^A "D7"B2d \
+| "G"gde "D7"gBc | "(Bm)"^cdB "Em"GFE | "D7"DFA cAF | "G"G3 G :|
+|: "(A7)"FE \
+| "D"DFA "D7"cAF | "G"GBd "E(m)"edB | "A7"A^ce gec | "D"d^cd "D7"f3 \
+| "G"gfg "Em"edB | "Bm"ded "A7"BAG | "D7"DFA cAF | "G"G3 G :|
+%%center Book45/John_Andrews_Five_Miles_G_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Juniper Jig
+C: Charles F Sherrit
+B: RSCDS 45-8
+R: Jig
+M: 6/8
+K: A
+L: 1/8
+|: e \
+| "A"aga ecA | "D"FAd fed | "A"cee "F#m"Acc | "Bm"Bcd "E"efg \
+| "A"aga ecA | "D"FAd "Bm"fed | "A"cec "E7"dBG | "A"A3 A2 :|
+=G \
+| "D"FAd fed | "D"fed agf | "A"ecA EAc | "A"EAc "B7"cBA \
+| "E"GBB EBB | "E"GBB E2B | "A"AGA "E"BAB | "A"c3 AG=G ||
+| "D"FAd fed | "D"fed agf | "A"ecA EAc | "A"EAc "B7"cBA \
+| "E"GBB EBB | "E"GBB E2f | "E"gfe dcB | "A"A3 A2 |]
+%%center Book45/Juniper_Jig_A.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Juniper Jig
+C: Charles F Sherrit
+B: RSCDS 45-8
+R: Jig
+M: 6/8
+K: A
+L: 1/8
+     e "A"\
+| "A"aga ecA | "D"FAd     fed | "A"cee "F#m"Acc | "Bm"Bcd "E7"efg \
+| "A"aga ecA | "D"FAd "Bm"fed | "A"cec  "E7"dBG | "A"A3       A2 ||
+|:  =G "B1"\
+| "D"FAd fed | "D"fed agf | "A"ecA     EAc | "A"EAc "B7"cBA \
+| "E"GBB EBB | "E"GBB E2B | "A"AGA "E7"BAB | "A"c3  "A7"AG=G ||
+y3 y2 "B2"\
+| "D"FAd fed | "D"fed agf | "A"ecA  EAc | "A"EAc "B7"cBA \
+| "E"GBB EBB | "E"GBB E2f | "E7"gfe dcB | "A"A3      A2 :|
+%%center Book45/Juniper_Jig_A_40.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lonach Gathering
+C: David Gordon
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+cd | "A"eaag aecA | "D"fgaf "A"ecA2 | "D"defd "A"cdec | "B7"BcBA "E7"GEFG |
+y4 | "A"Aaag aecA | "D"defa "A"ecA2 | "Bm"FBdf "A"ea"D"fd | "E7"cedB "A"A2 |]
+fg | "F#m"agfa "E"gfeg | "D"fedf "A/C#"eaA2 | "Bm"dcBd "A"cBAc | "B(m)"BcBf "E7"edcB |
+y4 | "A"A2cA eAce | "D"fgaf "A"ecAG  | "Bm"FBdf "A"ea"D"fd | "E7"cedB "A"A2 |]
+%%center Book45/LonachGathering_A-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lonach Gathering
+C: David Gordon
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+cd | "A"eaag aecA | "D"fgaf "A"ecA2 | "D"defd "A"cdec | "B7"BcBA "E7"GEFG |
+y4 | "A"Aaag aecA | "D"defa "A"ecA2 | "Bm"FBdf "A"ea"D"fd | "E7"cedB "A"A2 |]
+fg | "F#m"agfa "E"gfeg | "D"fedf "A/C#"eaA2 | "Bm"dcBd "A"cBAc | "B(m)"BcBf "E7"edcB |
+y4 | "A"A2cA eAce | "D"fgaf "A"ecAG  | "Bm"FBdf "A"ea"D"fd | "E7"cedB "A"A2 |]
+%%center Book45/LonachGathering_A_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Navvie
+O: Trad
+R: hornpipe, reel
+B: RSCDS 45-5
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+Bc \
+| "G"dgfe "D7"dcBA | "G"GBDG B2AG | "D7"FADF A2GF | "G"GDEF "D7"GABc | "G"dgfe "D7"dcBA |
+| "G"GBDG B2AG | "D7"FADF A2GF | "G"G2B2 G2 :: AG | "D7"FADF A2GF | "G"GBDG B2AG |
+| "D7"FADF A2GF | "G"GDEF "D7"GABc | "G"dgfe "D7"dcBA | "G"GBDG B2AG | "D7"FAfe dcBA | "G"G2B2 G2 :|
+%%center Book45/Navvie_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Navvie
+O: Trad
+R: hornpipe, reel
+B: RSCDS 45-5
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+Bc \
+| "G"dgfe "D7"dcBA | "G"GBDG B2AG | "D7"FADF A2GF | "G"GDEF "D7"GABc | "G"dgfe "D7"dcBA |
+| "G"GBDG B2AG | "D7"FADF A2GF | "G"G2B2 G2 :: AG | "D7"FADF A2GF | "G"GBDG B2AG |
+| "D7"FADF A2GF | "G"GDEF "D7"GABc | "G"dgfe "D7"dcBA | "G"GBDG B2AG | "D7"FAfe dcBA | "G"G2B2 G2 :|
+%%center Book45/Navvie_G_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Pinky House
+O: Trad
+R: strathspey
+B: RSCDS 45-6
+B: William McGibbon Collection
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|: D>E \
+| "D"F>E F<A "A7"F2 ED | "D"A>F A<B "D/F#"A2 dc \
+| "G"B>A Bd "D/F#"AF ED | "Em"E4- "A7"E2 ||
+y2 D>E \
+| "D"F>E F/G/A "Bm"F2 ED | "F#m"A>F A<B "D"A2 dc \
+| "G"B>A Bd "A7"d/e/f e>d | "D"d4- d2 :|
+|: "E7"c>d \
+| "A"e>d ef "A/C#"e2 de | "Bm"fe/d/ cB "F#m"A2 Bc \
+| "Bm"d>c de "F#7"d2 c2 | "Bm"B4 z2 ||
+y2 B/c/d \
+| "D"A>F ED "/F#"FA "G"Bd | "D"A>F ED "G"B,2 "F#7"f>e \
+| "Bm"d>c B/c/d "A7"AF ED | "D"D4- D2 :|
+%%center Book45/Pinky_House_D-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Pinky House
+O: Trad
+R: strathspey
+B: RSCDS 45-6
+B: William McGibbon Collection
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|: D>E \
+| "D"F>E F<A "A7"F2 ED | "D"A>F A<B "D/F#"A2 dc \
+| "G"B>A Bd "D/F#"AF ED | "Em"E4- "A7"E2 ||
+y2 D>E \
+| "D"F>E F/G/A "Bm"F2 ED | "F#m"A>F A<B "D"A2 dc \
+| "G"B>A Bd "A7"d/e/f e>d | "D"d4- d2 :|
+|: "E7"c>d \
+| "A"e>d ef "A/C#"e2 de | "Bm"fe/d/ cB "F#m"A2 Bc \
+| "Bm"d>c de "F#7"d2 c2 | "Bm"B4 z2 ||
+y2 B/c/d \
+| "D"A>F ED "/F#"FA "G"Bd | "D"A>F ED "G"B,2 "F#7"f>e \
+| "Bm"d>c B/c/d "A7"AF ED | "D"D4- D2 :|
+%%center Book45/Pinky_House_D_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Rosie
+C: Eric Allan
+B: RSCDS 45-9
+R: air
+M: C
+L: 1/8
+K: Em
+"B7"GF \
+| "Em"EFED "Bm"B,2EF | "Em"G2AB   "C"[e3G3]d | "G"BdBA "(Em)"G2AB   |  "D"D3E "B7"D2GF |
+| "Em"EFGA "B7"B3A   | "Em"GA"B7"B^d "C"e2fg | "G"B3D  "Am"AG"B7"FG | "Em"EGBe E2 :|
+"D7"EF \
+| "G"G3D  "D" A3D | "G"BdBG   "D"FAFD |  "C"C3D/E/ "G/B"D2G2 | "Em"GFGB "D7"A2Bc |
+| "G"d3B      g3f | "C"egec "G/B"BdBG | "Am"E2cB   "D7" A2GF | "C"G3A "G"GD"(D7)"BA ||
+| "G"G3B  "D7"A3c | "G"Bdgf   "C"edcB | "Am"c3d/e/ "G/B"dBAG | "G"DGcB "D7"A2DC |
+| "G"B,3D "Am"C3E | "G"DdBG  "Am"EecA |  "G"B3D    "D7" BAGF | "C"[G2C2-][GC]A "G"[G2B,2] |]
+%%center Book45/Rosie_Em.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Saint Albans Caledonian Society
+C: Chris Walker
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 45-1
+M: C|
+L: 1/8
+K: D
+|: "A7"AG | "D"FEFA D2AF | "G"GFGA BABc \
+| "D"dcdf "E7"edcB | "A7"c2A2 A2AG \
+| "D"FEFA "D7/C"D2A2 | "G/B"GFGA BdcB |
+| "D"Afed "A7"cBAG | "D"F2D2 D2 :| de \
+| "D"fafd "A7"gecA | "D"defd A2dc \
+| "Em"B^def gfe=d | "A7"c2A2 A2de |
+| "D"fafd "A7/C#"gecA | "Bm"defd "E(m)"B2ed \
+| "A"cfed "A7"cBAG | "D"F2D2 D2 |] de \
+| "D"fafd "A7"gecA | "D"defd A2dc |
+| "Em"B^def "E7"gfe=d | "A7"c2A2 A2AG \
+| "D"FEFA "D7/C"D2A2 | "G"GFGA "E7/G#"BdcB \
+| "A7"Afed cBAG | "D"F2D2 D2 |]
+%%center Book45/SaintAlbansCaledonianSociety_D4-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Saint Albans Caledonian Society
+C: Chris Walker
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 45-1
+M: C|
+L: 1/8
+K: D
+|: "A7"AG | "D"FEFA D2AF | "G"GFGA BABc \
+| "D"dcdf "E7"edcB | "A7"c2A2 A2AG \
+| "D"FEFA "D7/C"D2A2 | "G/B"GFGA BdcB |
+| "D"Afed "A7"cBAG | "D"F2D2 D2 :| de \
+| "D"fafd "A7"gecA | "D"defd A2dc \
+| "Em"B^def gfe=d | "A7"c2A2 A2de |
+| "D"fafd "A7/C#"gecA | "Bm"defd "E(m)"B2ed \
+| "A"cfed "A7"cBAG | "D"F2D2 D2 |] de \
+| "D"fafd "A7"gecA | "D"defd A2dc |
+| "Em"B^def "E7"gfe=d | "A7"c2A2 A2AG \
+| "D"FEFA "D7/C"D2A2 | "G"GFGA "E7/G#"BdcB \
+| "A7"Afed cBAG | "D"F2D2 D2 |]
+%%center Book45/SaintAlbansCaledonianSociety_D4_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Saint Albans Caledonian Society
+C: Chris Walker
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 45-1
+M: C|
+L: 1/8
+K: D
+|:"A7"AG \
+| "D"FEFA D2AF | "G"GFGA BABc | "D"dcdf "E7"edcB | "A7"c2A2 A2AG |
+| "D"FEFA "D7/C"D2A2 | "G/B"GFGA BdcB | "D"Afed "A7"cBAG | "D"F2D2 D2 :|
+de \
+| "D"fafd "A7/E"gecA | "D/F#"defd "D"A2dc | "Em"B^def gfe=d | "A7"c2A2 A2de |
+| "D"fafd "A7/C#"gecA | "Bm"defd "E(m)"B2ed | "A"cfed "A7"cBAG | "D"F2D2 D2 |]
+de \
+| "D"fafd "A7/E"gecA | "D/F#"defd "D"A2dc | "Em"B^def "E7"gfe=d | "A7"c2A2 A2AG |
+| "D"FEFA "D7/C"D2AF | "G/B"GFGA "G#dim"BdcB | "D"Afed "A7"cBAG | "D"F2D2 D2 |]
+%%center Book45/SaintAlbansCaledonianSociety_D6-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Saint Albans Caledonian Society
+C: Chris Walker
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 45-1
+M: C|
+L: 1/8
+K: D
+|:"A7"AG \
+| "D"FEFA D2AF | "G"GFGA BABc | "D"dcdf "E7"edcB | "A7"c2A2 A2AG |
+| "D"FEFA "D7/C"D2A2 | "G/B"GFGA BdcB | "D"Afed "A7"cBAG | "D"F2D2 D2 :|
+de \
+| "D"fafd "A7/E"gecA | "D/F#"defd "D"A2dc | "Em"B^def gfe=d | "A7"c2A2 A2de |
+| "D"fafd "A7/C#"gecA | "Bm"defd "E(m)"B2ed | "A"cfed "A7"cBAG | "D"F2D2 D2 |]
+de \
+| "D"fafd "A7/E"gecA | "D/F#"defd "D"A2dc | "Em"B^def "E7"gfe=d | "A7"c2A2 A2AG |
+| "D"FEFA "D7/C"D2AF | "G/B"GFGA "G#dim"BdcB | "D"Afed "A7"cBAG | "D"F2D2 D2 |]
+%%center Book45/SaintAlbansCaledonianSociety_D6_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Saint Albans Caledonian Society
+C: Chris Walker
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 45-1
+M: C|
+L: 1/8
+K: D
+|:"A7"AG \
+| "D"FEFA D2AF | "G"GFGA BABc | "D"dcdf "E7"edcB | "A7"c2A2 A2AG \
+| "D"FEFA "D7/C"D2A2 | "G/B"GFGA BdcB | "D"Afed "A7"cBAG | "D"F2D2 D2 :|
+de \
+| "D"fafd "A7/E"gecA | "D/F#"defd "D"A2dc | "Em"B^def gfe=d | "A7"c2A2 A2de \
+| "D"fafd "A7/C#"gecA | "Bm"defd "E(m)"B2ed | "A"cfed "A7"cBAG | "D"F2D2 D2 |]
+de \
+| "D"fafd "A7/E"gecA | "D/F#"defd "D"A2dc | "Em"B^def "E7"gfe=d | "A7"c2A2 A2AG \
+| "D"FEFA "D7/C"D2AF | "G/B"GFGA "G#dim"BdcB | "D"Afed "A7"cBAG | "D"F2D2 D2 |]
+%%center Book45/Saint_Albans_Caledonian_Society_D-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Saint Albans Caledonian Society
+C: Chris Walker
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 45-1
+M: C|
+L: 1/8
+K: D
+|: "A7"AG | "D"FEFA D2AF | "G"GFGA BABc \
+| "D"dcdf "E7"edcB | "A7"c2A2 A2AG \
+| "D"FEFA "D7/C"D2A2 | "G/B"GFGA BdcB |
+| "D"Afed "A7"cBAG | "D"F2D2 D2 :| de \
+| "D"fafd "A7"gecA | "D"defd A2dc \
+| "Em"B^def gfe=d | "A7"c2A2 A2de |
+| "D"fafd "A7/C#"gecA | "Bm"defd "E(m)"B2ed \
+| "A"cfed "A7"cBAG | "D"F2D2 D2 |] de \
+| "D"fafd "A7"gecA | "D"defd A2dc |
+| "Em"B^def "E7"gfe=d | "A7"c2A2 A2AG \
+| "D"FEFA "D7/C"D2A2 | "G"GFGA "E7/G#"BdcB \
+| "A7"Afed cBAG | "D"F2D2 D2 |]
+%%center Book45/Saint_Albans_Caledonian_Society_D4-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Saint Albans Caledonian Society
+C: Chris Walker
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 45-1
+M: C|
+L: 1/8
+K: D
+|: "A7"AG | "D"FEFA D2AF | "G"GFGA BABc \
+| "D"dcdf "E7"edcB | "A7"c2A2 A2AG \
+| "D"FEFA "D7/C"D2A2 | "G/B"GFGA BdcB |
+| "D"Afed "A7"cBAG | "D"F2D2 D2 :| de \
+| "D"fafd "A7"gecA | "D"defd A2dc \
+| "Em"B^def gfe=d | "A7"c2A2 A2de |
+| "D"fafd "A7/C#"gecA | "Bm"defd "E(m)"B2ed \
+| "A"cfed "A7"cBAG | "D"F2D2 D2 |] de \
+| "D"fafd "A7"gecA | "D"defd A2dc |
+| "Em"B^def "E7"gfe=d | "A7"c2A2 A2AG \
+| "D"FEFA "D7/C"D2A2 | "G"GFGA "E7/G#"BdcB \
+| "A7"Afed cBAG | "D"F2D2 D2 |]
+%%center Book45/Saint_Albans_Caledonian_Society_D4_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Saint Albans Caledonian Society
+C: Chris Walker
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 45-1
+M: C|
+L: 1/8
+K: D
+|:"A7"AG \
+| "D"FEFA D2AF | "G"GFGA BABc | "D"dcdf "E7"edcB | "A7"c2A2 A2AG \
+| "D"FEFA "D7/C"D2A2 | "G/B"GFGA BdcB | "D"Afed "A7"cBAG | "D"F2D2 D2 :|
+de \
+| "D"fafd "A7/E"gecA | "D/F#"defd "D"A2dc | "Em"B^def gfe=d | "A7"c2A2 A2de \
+| "D"fafd "A7/C#"gecA | "Bm"defd "E(m)"B2ed | "A"cfed "A7"cBAG | "D"F2D2 D2 |]
+de \
+| "D"fafd "A7/E"gecA | "D/F#"defd "D"A2dc | "Em"B^def "E7"gfe=d | "A7"c2A2 A2AG \
+| "D"FEFA "D7/C"D2AF | "G/B"GFGA "G#dim"BdcB | "D"Afed "A7"cBAG | "D"F2D2 D2 |]
+%%center Book45/Saint_Albans_Caledonian_Society_D_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Sir Henry Daniel of Gooch
+C: Eric Allan
+B: RSCDS 45-9
+R: air
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+DE \
+|:"D"F2ED "A7"A2F2 | "Bm"D3D "F#m"d2cA \
+| "G"[B2D2]AG "D/F#"[d2F2]F2 | "Em7"[A2-E2][A2D2] "A7"[AC]BAG |
+| "D"F2ED "A/C#"A2c2 | "Bm"d2cd "G"B2AG \
+| "D"FEFA "/E"GF"/F#"ED | "G"EFGA "A7"B2A2 ||
+| "D"[A2F2][f2A2] "A7"[e2G2][f2A2] | "Bm"[d3F3]F "F#m"[c3F3]d \
+| "G"B2AG "D/F#"A2D2 | "Em"GFGA "A7"E2FG | "D"A2f2 "F#7"e2c2 |
+| "Bm"d2D2 "G"cBAG \
+|1 "D"F2D2 "/E"GF"/F#"ED | "G"EFGA "A7"B2A2 \
+:|2"D"F2D2 "A7"GFEF | "Em7"D4 "D"D2 |]
+%%center Book45/SirHenryDanielOfGooch_D-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Sir Henry Daniel of Gooch
+C: Eric Allan
+B: RSCDS 45-9
+R: air
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+DE \
+|:"D"F2ED "A7"A2F2 | "Bm"D3D "F#m"d2cA \
+| "G"[B2D2]AG "D/F#"[d2F2]F2 | "Em7"[A2-E2][A2D2] "A7"[AC]BAG |
+| "D"F2ED "A/C#"A2c2 | "Bm"d2cd "G"B2AG \
+| "D"FEFA "/E"GF"/F#"ED | "G"EFGA "A7"B2A2 ||
+| "D"[A2F2][f2A2] "A7"[e2G2][f2A2] | "Bm"[d3F3]F "F#m"[c3F3]d \
+| "G"B2AG "D/F#"A2D2 | "Em"GFGA "A7"E2FG | "D"A2f2 "F#7"e2c2 |
+| "Bm"d2D2 "G"cBAG \
+|1 "D"F2D2 "/E"GF"/F#"ED | "G"EFGA "A7"B2A2 \
+:|2"D"F2D2 "A7"GFEF | "Em7"D4 "D"D2 |]
+%%center Book45/SirHenryDanielOfGooch_D_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Sir Henry Daniel of Gooch
+C: Eric Allan
+B: RSCDS 45-9
+R: air
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+DE \
+|:"D"F2ED "A7"A2F2 | "Bm"D3D "F#m"d2cA \
+| "G"[B2D2]AG "D/F#"[d2F2]F2 | "Em7"[A2-E2][A2D2] "A7"[AC]BAG |
+| "D"F2ED "A/C#"A2c2 | "Bm"d2cd "G"B2AG \
+| "D"FEFA "/E"GF"/F#"ED | "G"EFGA "A7"B2A2 ||
+| "D"[A2F2][f2A2] "A7"[e2G2][f2A2] | "Bm"[d3F3]F "F#m"[c3F3]d \
+| "G"B2AG "D/F#"A2D2 | "Em"GFGA "A7"E2FG | "D"A2f2 "F#7"e2c2 |
+| "Bm"d2D2 "G"cBAG \
+|1 "D"F2D2 "/E"GF"/F#"ED | "G"EFGA "A7"B2A2 \
+:|2"D"F2D2 "A7"GFEF | "Em7"D4 "D"D2 |]
+%%center Book45/Sir_Henry_Daniel_of_Gooch_D-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Sir Henry Daniel of Gooch
+C: Eric Allan
+B: RSCDS 45-9
+R: air
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+DE \
+|:"D"F2ED "A7"A2F2 | "Bm"D3D "F#m"d2cA \
+| "G"[B2D2]AG "D/F#"[d2F2]F2 | "Em7"[A2-E2][A2D2] "A7"[AC]BAG |
+| "D"F2ED "A/C#"A2c2 | "Bm"d2cd "G"B2AG \
+| "D"FEFA "/E"GF"/F#"ED | "G"EFGA "A7"B2A2 ||
+| "D"[A2F2][f2A2] "A7"[e2G2][f2A2] | "Bm"[d3F3]F "F#m"[c3F3]d \
+| "G"B2AG "D/F#"A2D2 | "Em"GFGA "A7"E2FG | "D"A2f2 "F#7"e2c2 |
+| "Bm"d2D2 "G"cBAG \
+|1 "D"F2D2 "/E"GF"/F#"ED | "G"EFGA "A7"B2A2 \
+:|2"D"F2D2 "A7"GFEF | "Em7"D4 "D"D2 |]
+%%center Book45/Sir_Henry_Daniel_of_Gooch_D_JC.abc

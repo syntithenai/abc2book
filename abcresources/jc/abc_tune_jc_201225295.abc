@@ -1,0 +1,29 @@
+X: 092
+T: Logan water
+%R: air
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.9 #2
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Q: "slow"
+M: C
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1
+e>d |\
+{d}c2TB>A A3c | (GE)(DE) G3G | c2{B}A2 A>cG>A | cBcd e3e |\
+f2(ed) Te2(dc) | d>cTBA G3c | ABcd e>fd>e | {d}c2(TBA)A2 :|
+|: e>^g |\
+a2A2 TA3c | (GE)D>E G2eg | a2A2AcGA | cBcd e3e |\
+f2(dc) Te2(dc) | dcTBA G3c | ABcd e>fd>e | {d}c2(TB>A) A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+z2 |\
+z2"#"e2 "6"c2BA | "6"B3c "4"G2"3"gf | "6"e2f2 "6 5;4 3"c4 | A2"7 6"F2 "#"E2e2 | d2"6"b2 c'2c2 |
+g3"6"f "6"edec | f3"6"d c2d2 | "6;4"e2"5;#"E2 A2 :|\
+|: z2 |\
+z2ab "6"c'2a2 | "6"b3c' g2c2 | f3G "6 5;4 3"c4 |
+A2"7 6"F2 "#"E2e2 | d2g2 c2c'2 | g3"6"f "6"edec | f3"6"d c2d2 | "6;4"e2"5;#"E2 A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,28 @@
+X: 4183
+T: Lady Charlotte Primroses's    Strathspey
+C: by John Gow
+%R: strathspey
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.18 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+f |\
+~d2 AB/c/ d/c/B/A/ df | ~d2 AB/c/ d>F TE2 |\
+d2 AB/c/ d/c/B/A/ df | (B/c/d) G>B {B}A>FD :|\
+A |\
+F>D D/D/D A>F df | F>D D/D/D AFE>G |
+F>D D/D/D A>F df | (B/c/d) G>B {B}AFD>G ||\
+F>D D/D/D A>F df | F>D D/D/D A>FEG |\
+F>D D/D/D AFA>d | f>d e>c d>FD |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d2d2 d2d2 | f2d2 a2A2 | d2d2 d2d2 | g2g2 f2d :| z |\
+[d2D2][d2D2] [d2D2][d2D2] | [d2D2][d2D2] a2A2 |
+[d2D2][d2D2] [d2D2][d2D2] | [g2G2][g2G2] [a2A2][d2D2] ||\
+[d2D2][d2D2] [d2D2][d2D2] | [d2D2][d2D2] a2A2 |\
+[d2D2][d2D2] [d2D2][d2D2] | [d2D2][a2A2] [d2D2][dD] |]
+

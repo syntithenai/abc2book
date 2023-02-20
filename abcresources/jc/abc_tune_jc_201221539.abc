@@ -1,0 +1,37 @@
+X: 04
+T: Miss Cahoon's Reel
+%R: jig
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.98 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+C |\
+F2G A2B | cfd cAF | (TB>AB) cAF | (E/F/G).G G2A |\
+FCF AFA | cfd cAF | (TB>AB) GcB | AFF F2 :|
+|: c |\
+(Tf>ef) gec | dfd cAF | (B/c/d).B (A/B/c).A | (E/F/G).G G2c |\
+faf ege | dfd cAF | TB>AB GcB | AFF F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+f3 f3 | f3 f3 | f3 f3 | c3 c3 |\
+f3 f3 | f3 f3 | B3 c3 | F3 F2 :|
+|: z |\
+f3 c'3 | b3 a3 | g3 f3 | c3 c3 |\
+f3 A3 | B3 A3 | B3 c3 | F3 F2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st Cu: cast of one Cu: hands round four with the 3d Cu: .|
+%% cast up and hands round four with the 2d Cu: :|
+%% cross over two Cu: .|.
+%% lead up to the Top, foot it and cast off :|:
+%% turn corners with your right hands, and turn your Partner with your left .||
+%% the other corners the same :||
+%% Hey contrary sides .||.
+%% then on your own sides :||:
+%%endtext
+%%sep 2 2 400

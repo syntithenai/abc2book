@@ -1,0 +1,31 @@
+X: 12
+T: LADY HARRIET CLIVE'S FAVORITE
+%R: reel
+B: Button & Whitaker "Twelve Elegant New Dances for the Year 1810", London 1810
+F: http://imslp.org/wiki/Button_and_Whitaker's_Elegant_New_Dances_for_1810_(Various)
+Z: 2018-6-25  John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for compactness.
+V: 1
+|:\
+dcdA F2F2 | GBed cABc | def2 efg2 | fdge dcBA |\
+dcdA F2F2 | GBed cABc | def2 efg2 | fdec d2z2 :|
+|:\
+ABcd efge | fefg adef | gaba gfed | cdec ABcA |\
+dcdA F2F2 | GBed cABc | defd efge | fdec d2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+d2d'2 d2d'2 | g2e2 a2g2 | f2d2 c2A2 | d2g2 a2A2 | d2d'2 d2d'2 |
+g2e2 a2g2 | f2d2 g2e2 | a2A2 d2D2 :||: A2a2 A2a2 | d2d'2 =c2c'2 | [b2B2][^c'2^c2] [d'2d2]^g2 |
+a2A2 a2z2 | d2d'2 d2d'2 | g2e2 a2g2 | f2d2 g2e2 | a2A2 d2D2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Change sides, back again, lead down the mid: up again & Allemande.
+%%endtext
+% %center -------------------------
+% %center Button & Whitaker "Twelve Elegant New Dances for the Year 1810"

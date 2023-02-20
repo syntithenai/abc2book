@@ -1,0 +1,19 @@
+X: 32052
+T: "THE COCK OF THE NORTH" -- Strathspey
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.205 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Some long beams broken for readability.
+M: C|
+L: 1/8
+K: Bb
+d |\
+(.B>.B,) B,/B,/B, F>B, D<d | B>B, (D/B/)d (.c>.A) (B>G) |\
+(.F>.B,) B,/B,/B, F>B, D<B | C<C (D>F) G2 G :|
+ud |\
+B>f d<f F<B D>d | B<f (d>f) (g>B) f<d |\
+B>f d<f F<B D>B | C<C (D>F) G2 G ||
+d |\
+B>f d<f F<B D>d | B<f (d>f) (g>B) f<b |\
+f<d ({Bc}d>B) (c>A) B<d | C<C (D>F) "_Segue Reel."G2 G "^D.C."|]

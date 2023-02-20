@@ -1,0 +1,23 @@
+X: 20164
+T: STU MO RUN
+O: Gaelic air.
+Q: "Slow with pathos."
+%R: air
+N: This is version 2, for ABC software that understands trailing grace notes.
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.16 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+A>B c>d e3c {de}| d3 c B2 G2 |\
+A>B c>d e3 e | g2 a2 e4 |\
+g2 a2 e3 c | {Bc}d3 c B2 G2 |\
+A>B c>d e3 c | (ed)(cB) A4 |:\
+A2 AG E4 | G2 GA {c}B2 G2 |\
+A2 AG E4 | G2 B2 A2 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

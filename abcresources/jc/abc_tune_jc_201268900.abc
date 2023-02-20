@@ -1,0 +1,12 @@
+X: 145
+T: Do You Remember That Night?   #2
+R: air
+%S: s:2 b:10(6+4)
+B: O'Neill's 1850 #145
+Z: 1997 henrik.norbeck@mailbox.swipnet.se
+Q: "Moderate"
+M: 3/4
+L: 1/8
+K: A
+"^A"[|] (3EFG | A2 A2 BA | G2 A2 (3Bcd |1 e2 dB A>B | G2 E2 :|2 e2 d>B A>B | "^fine"A4 \
+"^B"[|  (3Bcd |  e2 e2 e2 | d2 d2 ed | c2 B2 A2 | G2 "^->A2"E2y|]

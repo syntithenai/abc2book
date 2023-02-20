@@ -1,0 +1,1328 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 18
+B: RSCDS Book 18
+K:
+%%center Book18/1800-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1801
+T: Johnny Groat's House
+%
+P: Johnny Groat's House
+C:Niel Gow
+R:Reel (8x32)
+B:RSCDS 18-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/2
+L:1/8
+K:C
+A|"C"Gccd e2dc|"G"BGdc BcdB|"C"Gccd e2dc|Gc"G7"Bd "C"ecc A|
+  "C"Gccd e2dc|"G"BGdc BcdB|"C"Gccd e2dc|GcBc "G"dB"C"c||
+e|"C"gfeg "Dm"fagf|"C"ecgc "G"Bcdf|"C"gfeg "G"dagf|"C"ge"Dm"fd "G"BG"C"ce|
+  "C"gfeg "G"fagf|"C"ecgc "G"Bcdf|"C"ecBc GcEc|GE"G7"FD B,G,"C"C|]
+%
+P: The Caithness Reel
+C:
+R: Reel
+%Q: 232
+B: RSCDS 18-1(II)
+F: http://www.math.mun.ca/~bshawyer/reels/CaithnessReel.abc
+Z: Bruce Shawyer
+K: Eb
+M: 4/4
+L: 1/8
+ed | c2 BG FE CD | E2 EG BG Be | c2 BG FE Cc |1 ec eG F2 :|2 ec dB c2 ||
+cd | ef gf e2 ed | cB ce f2 fg | ef gf e2 ed | cB GB c2 ||
+cd | ef gf e2 ed | cB ce f2 fg | eg fg ef de | cB GB c2 |]
+%%center Book18/1801-Johnny_Groats_House.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1802
+T: Lady Auckland's Reel
+%
+P: Lady Auckland's Reel
+C:Traditional?
+R:Strathspey (8x32)
+B:RSCDS 18-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:Bb
+F|"Bb"D>B, D>F B>d B>F|D>F B>d "F"c<C C>F|\
+  "Bb"D>B, D>F B>F B>d|f>B "F7"e>c "Bb"d<B BF|
+  "Bb"D>B, D>F B>d B>F|D>F B>d "F"c<C C>F|\
+  "Bb"D>B, D>F B>F B>d|f>B "F7"e>c "Bb"d<B B||
+g|"Bb"f>B d>B B>f d>f|"C7"g>c e>c A>g e>g|\
+  "Bb"f>B d>B B>f d>f|"C"c>B "F"A>G "Bb"F<B B>g|
+  "Bb"f>B d>B B>f d>f|"C7"g>c e>c A>g e>g|\
+  "Bb"f>d "F7"e>c "Bb"d>B "C"c>G|"Dm"F>f "F7"c>A "Bb"d>B B|]
+%
+P: Miss Barbara Cunningham
+C: Robert MacKintosh
+R: strathspey
+B: Kerr's Merrie Melodies
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+B \
+| "G"G>g d<B G<d B<G | "C"(3EFG A>G "D7"F<D D>B \
+| "G"G>g d<B G<d B<G | "C"E>c "D7"B/A/G/F/ "G"G2 [GG,] :|
+g/a/ \
+| "G"b<g d<g "C"e<g "G"d<B | "D7"c<a "G"B<g "D7"a>A Ag/a/ \
+| "G"b<g d<g "C"e<g "G"d<B | "Am"c<a "D7"B>f "G"g2 G |]
+g/a/ \
+| "G"b<g "D7"a<f "C"g<e "D7"f<d | "C"e<c "G"d<B "D7"a<A A>B \
+| "G"G>D "Em"B<G "Bm"d<B "Am"g<e | "G"d<g "D7"D>F "G"G2 [GG,] |]
+%%center Book18/1802-Lady_Aucklands_Reel.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1803
+T: Lady Baird's Reel
+%
+P: Lady Baird's Reel
+C:Traditional?
+R:Reel (8x32)
+B:RSCDS 18-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/2
+L:1/8
+K:F
+C |\
+"F"F2AF cFAF | "Bb"df"C7"eg "F"fcAF | F2AF cFAF | "C7"GBAG "F"F2 FC |
+"F"F2AF cFAF | "Bb"df"C7"eg "F"fcAF | F2AF cFAF | "C7"GBAG "F"F2 F ||
+e |\
+"Dm"f2df "C"e2ce | "Dm"fefg adde | "Dm"f2df "C"egcB | "F"Acfc AFFe |
+"Dm"f2df "C"e2ce | "Dm"fefg adde | "F"af"C7"ge "Dm"fd"C7"cB | "F"Acfc AFF |]
+%
+P: Miss Barstow's Reel
+C: Robert Macintosh
+R:Reel
+K:G
+M:4/4
+L:1/8
+D \
+| G2 DG B,G, B,D | EA AG FD EF \
+|1 G2 DG EG ce | dc BA BG G \
+:|2 G2 DG EG ce | dc BA BG G ||
+|: f \
+| gf gd BG dB | Aa ag fd ef \
+|1 gf gd BG dB | ce dc BG G \
+:|2 gb ag fd gc | Bd Ac BG G :|
+%%center Book18/1803-Lady_Bairds_Reel.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1804
+T: Lady Louisa Macdonald's Strathspey
+%
+P: Lady Louisa Macdonald's Strathspey
+C:Traditional?
+R:Strathspey (8x32)
+B:RSCDS 18-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:F
+A|"F"F>G F>d c<A c>g|"Dm"F>G F>A "Gm"B<G "C7"G>A|\
+  "F"F>G F>d c<A A>c|"Dm"a>g f>F "Am"A<c c a|
+  "F"F>G F>d c<A c>g|"Dm"F>G F>A "Gm"B<G "C7"G>A|\
+  "F"F>G F>d c<A A>c|"Dm"d>e "C7"f>g "F"a>g f||
+f/g/|"Dm"a>g f>F "Am"A<c cf/g/|"Dm"a>g f>d "C"e<g gf/g/|\
+  "F"a>g f>c "Bb"d/e/f "F"c>A|"Bb"d>e f>d "F7"c<A A f/g/|
+  "Dm"a>g f>F "Am"A<c cf/g/|"Dm"a>g f>d "C"e<g gf/g/|\
+  "F"a>g f>c "Bb"d/e/f "F"c>A|"Gm7"B/c/d "C7"G>B "F"A<F F|]
+%
+P: Lord MacDonald's Strathspey
+M:C
+L:1/8
+R:strathspey
+B:Stewart-Robertson – The Athole Collection  (1884)
+Z:Andrew Kuntz / Fiddler’s Companion
+K:D
+A/G/ | F<A Af/g/ a>fe>d | g>fe>d B>dB>A | F<A Af/g/ a>fe>d | e/f/g f/g/a e2d :|
+|: A | F<A A>B A>B A<F | G/G/G G2 G>AB>G | F<A A>B A>BA>F | G>BA>F D2D :|
+|: A/G/ | F<A Af/g/ a>fe>d | g>fe>d B<d B>A | F<A Af/g/ a>fe>d | e/f/g e/g/a e2d :|
+|: g | f<a a>b a>ba>f | g/g/g g2 g>ab>g | f<a a>b a>ba>f | g<a f>g e2d :|
+%%center Book18/1804-Lady_Louisa_Macdonalds_Strathspey.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1805
+T: The Lassies of Dunse
+%
+P: The Lassies of Dunse
+C:Traditional?
+R:Jig (8x32)
+B:RSCDS 18-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:D
+f/g/ |\
+"D"afd "A"ecA | "D"d2A A2c | "G"BGB AGF | "A7"E2E E2 f/g/ |
+"D"afd "A"ecA | "D"d2A A2A | "D"FDF "A7"ECE | "D"D2D D2 ||
+F/G/ |\
+"D"AFA "G"BGB | "D"AFA d2A | "G"BGB AGF | "A7"E2E E2 f/g/ |
+"D"afa "A7"geg | "D"fdf "A"ecA | "E7"B/c/dB "A7"c/d/ec | "D"d2d d2 |]
+%
+P: Craigieburn Wood
+C: unknown
+R: Jig
+M: 6/8
+L: 1/16
+Z: Bruce Shawyer
+K: D
+AG |\
+F3ED2 E2F2A2 | B3cd2 A2F2D2 | d3cB2 A2F2D2 | E6 A4AG |
+F3ED2 E2F2A2 | B3cd2 A2F2D2 | d3cB2 A2F2D2 | E6 A4A2 |
+B2d2c2 d3ef2 | e3dc2 c2B2A2 | B2d2c2 d3ef2 | e6 d4cd |
+e3dc2 d3cB2 | A2F2A2 d4dc | B3cd2 A2F2D2 | E6 A4 :|
+%%center Book18/1805-Lassies_of_Dunse.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1807
+T: Longwise Eightsome Reel
+P: Longwise Eightsome Reel
+C:William Davidson
+R:Medley (1x64)
+B:RSCDS 18-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:A
+E|"A"C<E A>E "D"F<D "B"B>A|"E"G<B e/e/e "A"c<A A>c|\
+  "B"d>f B>d "A"c<A A>c|"Bm"F<B B>c "E7"d/c/B/A/ G/F/E/D/|
+  "A"C<E A/A/A "D"F<D "Bm"D>F|"E"G>B e/e/e "A"c<A A>c|\
+  "Bm"d<f B>d "A"c<e "F#m"A>c|"Bm"F<B "E7"A/G/F/E/ "A"A2 A||
+f|"A"e<A c>A a<A c>A|"Bm"B>b b/b/b "E"g<e e>g|\
+  "A"a>e c>e A>e c>e|"Bm"d<F B>A "E"G<E E>d|
+  "A"c>e a/a/a "D"f<d d>c|"B"B>b b/b/b "E"g<e e>g|\
+  "A"a>e d/c/B/A/ c<e "D"a>f|"E7"g<b e>g "A"a2 a:|
+P: Miss Robertson's Reel
+C:Mackintosh, Robert
+F|"A"E2 CA "D"FDFA|"E"BEGB "A"AecA|E2 CA "D"FDFA|"E"GBEd "A"cA AF|
+  "A"E2 CA "D"FDFA|"E"BEGB "A"AecA|E2 CA "D"FDFA|"E"GBEd "A"cA A||
+e|"A"aAgA "D"fA"A"eA|"Bm"dcBA "E"BGEg|"A"aAgA "D"fA"A"eA|"E"BcdB "A"cAA g|
+  "A"aAgA "D"fA"A"eA|"Bm"dcBA "E"GF"A7"E=G|\
+      "D"FD"B7"FA "E"GEdB|"A"ce"E7"Bd "A"cA A|]
+%%center Book18/1807-Longwise_Eightsome_Reel.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1808
+T: Off She Goes in the North
+%
+P: Mrs Seller's Favourite
+C:C. Grant
+R:Jig (4x32)
+B:RSCDS 18-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+B |\
+"G"G2D DB,D | G,2D G2B | GBd "Em"g2B | "A7"g2B A2B |\
+"G"G2D DB,D | G,2D G2B | GBd g2B | "D7"BAF "G"G2 :|
+B |\
+"G"dBd g2g | b2g d2B | "D/A"cBc "G/B"d2B | "Am/C"AAA "D"A2 G |\
+"G"GBd g2g | b2g d2B | "Am"cBc "D7"d2B | "G"GGG G2 ||
+B |\
+"G"dBd g2g | b2g d2B | "Am"cBc "G/B"d2B | "Am/C"AAA "D"A2 G |\
+"G"BdB "A"cec | "G"d2B g2d | b2g d2B | "G"GG"D7"G "G"G2 |]
+%
+P: Mrs Blair's Jig
+Z:Bruce Shawyer
+M:6/8
+L:1/8
+R:Jig
+K:G
+B/c/ |\
+"G"dBG GBG | "D"AFD DFD | "C"EFG "D"ABc | "G"BAG "D"FED |
+"G"dBG "Em"GBG | "D"AFD DFD | "C"EFG "D"AFD | "G"G3-G2 :: B/c/ |
+"G"dBd dBd | "C"gfg "G"dBG | "C"cec "G"BdB | "Am"ABG "D"FED |
+"G"dBd dBd | "C"gfg "G"dBG | "C"EFG "D"AFD | "G"G3-G2 :|
+%%center Book18/1808-Off_She_Goes_in_the_North.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1809
+T: Prince of Wales
+P: Prince of Wales
+C:Gow
+R:Strathspey (8x40) ABABB
+B:RSCDS 18-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:Bb
+D/E/|"Bb"F>G F>D CD/E/ F>D|F>G F>D "Cm"G/F/E/D/ "F"CD/E/|\
+     "Bb"F>G F>D "F"F>G "Gm"B>c|
+                                "Bb"d>B "Eb"e/d/c/B/ "Bb"F<B B D/E/|\
+     "Bb"F>G F>D CD/E/ F>D|F>G F>D "Cm"G/F/E/D/ "F"CD/E/|
+     "Bb"F>G F>D "F"F>G "Gm"B>c|"Bb"d>B "Eb"e/d/c/B/ "Bb"F<B B||\
+g|"Bb"f>B "C7"e/d/c/B/ "Bb"F>B D>g|
+                                   f>B e/d/c/B/ "C7"g>c "F"c>b|\
+  "Bb"f>B "C7"e/d/c/B/ "Bb"F>B D>B|"F"A/B/c F>e "Bb"d<B B>g|
+  "Bb"f>B e/d/c/B/ F>B D>g|f>B e/d/c/B/ "C7"g<c "F7"c>e|\
+  "Bb"d<f "Eb"e>g "Bb"d<f "F"c>d|"Bb"F>G "Eb"B>c "Bb"d<B B|]
+%%center Book18/1809-Prince_of_Wales-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1810
+T: Maxwell's Rant
+P: Maxwell's Rant
+C:Traditional?
+R:Reel (8x32)
+B:RSCDS 18-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/8
+K:F
+d/e/|"F"fF AF|"C"EG "C7"Gd/e/|"F"fF "C/E"A[cG]|"Dm"[f2A2] "Bb"fd/e/|
+     "F"fF AF|"C"EG "C7"GF/E/|"Bb"DF "C7"EG|"F"F2 F||
+c|"Dm"f>g af|"C"g/f/e/d/ cc|"F"f>g "G7"fa|"C"g2 gc|
+  "Dm"f>g af|"C"g/f/e/d/ cf/g/|"F"af "C7"ge|"F"f3|]
+%%center Book18/1810-Maxwells_Rant-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1811
+T: The Sutters of Selkirk
+%
+P: The Randy Wives of Greenlaw
+C:Koehler's Coll.
+R:Reel (8x32)
+B:RSCDS 18-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/2
+L:1/8
+K:D
+c | "D"d2AG F2Dc | d2fd "Em"eBBc | "D"d2AG F2DF | "A7"GBAG "D"FDD :|
+c | "D"d2df abaf | "A7"ge"D"fd "Em"eBBc | "D"d2df abaf | "A"geaf "D"ddd ||
+A | "D"d2df abaf | "A7"ge"D"fd "Em"eBBc | "D"df"A"ce "G"Bd"D"AF | "Em"GB"A7"AF "D"DDD |]
+%
+P: Captain Lockhart
+C: unknown
+R: Reel
+Z: Bruce Shawyer
+M: 4/4
+L: 1/8
+K: C
+e | cGGF E2DC | Ddde fede | cGGF EcBA | GEFD CCC :|
+f | ecge egfe | defg afda | ecgc egfe | fdge ccc ||
+g | egcg ecgc | fdad fdad | egde cdAc | GEcE CCC |]
+%%center Book18/1811-Sutters_of_Selkirk.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1812
+T: The Axum Reel
+%
+P: Lord Elgin's Fancy
+C:Beauties of Gow
+R:Strathspey (nx32)
+B:RSCDS 18-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:G
+f |\
+"G"g>d B<G "C"c<e "G"d2 | "G"g>d B<G "Am"E>A "D"F<D |\
+"G"g>d B<G "C"c<e "G"d2 | "Em"B>g "Am"e>a "D"f<d "G"g :|
+f |\
+"Em"e>e g>e b>g e>B | G<G "B"B>A "Em"G>B G>E |\
+"Em"e<e g>e "B"^d>f B>a | "E7"g>e "B7"B>^d e>f "D"f2 |
+"G"g>d B<G "C"c<e "G"d2 | "G"g>d B<G "Am"E<A "D"F>D |\
+"G"g>d B<G "C"c<e "G"d2 | "Am"e>a "D"g/f/e/f/ "G"g2 g |]
+%
+P: General Campbell
+C:Robert Macintosh
+R:Strathspey
+Z:Bruce Shawyer
+K:A
+M:4/4
+L:1/16
+E2 | A4 c3A FA3 E3C | E3e dcBA c3B B3c | d3f c3e B3A GE3 | F3d B3G A3B A2 :|
+e2 | a3e c3A B3A GE3 | A3a e3c ABcd e3c | d3g c3a B3A G3E | A3d c3B cA3 A2 |
+e2 | a3e c3A B3A G3E | ABcd e3c A3a e3c | d3b c3a B3c d3f | e3a b3g a4 a2 |]
+%%center Book18/1812-Axum_Reel.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1809
+T: Prince of Wales
+C:Niel Gow
+R:Strathspey (8x40) ABABB
+B:RSCDS 18-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:Bb
+D/E/|"Bb"F>G F>D CD/E/ F>D|F>G F>D "Cm"G/F/E/D/ "F"CD/E/|\
+     "Bb"F>G F>D "F"F>G "Gm"B>c|
+                                "Bb"d>B "Eb"e/d/c/B/ "Bb"F<B B D/E/|\
+     "Bb"F>G F>D CD/E/ F>D|F>G F>D "Cm"G/F/E/D/ "F"CD/E/|
+     "Bb"F>G F>D "F"F>G "Gm"B>c|"Bb"d>B "Eb"e/d/c/B/ "Bb"F<B B||\
+g|"Bb"f>B "C7"e/d/c/B/ "Bb"F>B D>g|
+                                   f>B e/d/c/B/ "C7"g>c "F"c>b|\
+  "Bb"f>B "C7"e/d/c/B/ "Bb"F>B D>B|"F"A/B/c F>e "Bb"d<B B>g|
+  "Bb"f>B e/d/c/B/ F>B D>g|f>B e/d/c/B/ "C7"g<c "F7"c>e|\
+  "Bb"d<f "Eb"e>g "Bb"d<f "F"c>d|"Bb"F>G "Eb"B>c "Bb"d<B B|]
+%%center Book18/18091-Prince_of_Wales-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1809
+T: Prince of Wales
+C:Niel Gow
+R:Strathspey (8x40) ABABB
+B:RSCDS 18-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:Bb
+D/E/|"Bb"F>G F>D CD/E/ F>D|F>G F>D "Cm"G/F/E/D/ "F"CD/E/|\
+     "Bb"F>G F>D "F"F>G "Gm"B>c|
+                                "Bb"d>B "Eb"e/d/c/B/ "Bb"F<B B D/E/|\
+     "Bb"F>G F>D CD/E/ F>D|F>G F>D "Cm"G/F/E/D/ "F"CD/E/|
+     "Bb"F>G F>D "F"F>G "Gm"B>c|"Bb"d>B "Eb"e/d/c/B/ "Bb"F<B B||\
+g|"Bb"f>B "C7"e/d/c/B/ "Bb"F>B D>g|
+                                   f>B e/d/c/B/ "C7"g>c "F"c>b|\
+  "Bb"f>B "C7"e/d/c/B/ "Bb"F>B D>B|"F"A/B/c F>e "Bb"d<B B>g|
+  "Bb"f>B e/d/c/B/ F>B D>g|f>B e/d/c/B/ "C7"g<c "F7"c>e|\
+  "Bb"d<f "Eb"e>g "Bb"d<f "F"c>d|"Bb"F>G "Eb"B>c "Bb"d<B B|]
+%%center Book18/18091-Prince_of_Wales_AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1809
+T: Buckingham House
+C: Abraham Mackintosh
+R: strathspey
+B: RSCDS 18-9
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Dm
+E \
+| "Dm"F3D DDD2 A,3D D3E | "Dm"F3D DDD2 "Gm"GAB2 "A7"A3G \
+| "Dm"F3D DDD2 A,3D D3F | "C"EFG2 c3G EC3 G3 :|
+E \
+| "Dm"Dd3 d3c d3e d3c | "Dm"Ad3 d3e "Dm"f3d "A"e3^c \
+| "Dm"d3d f3d "C"e3c "Dm"f3d | "C"c3d c3G EC3 G3 :|
+%%center Book18/18092-Buckingham_House-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 18191
+T: Maxwell's Rant
+O: 1752
+R: march
+B: RSCDS 18-19(I) (in F)
+N: Dance collected in Rutherford, 1752
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+%--------------------
+K: G
+   ef \
+| "G"g2G2 B2G2 | "D7"F2A2 A2ef | "G"g2G2 B2d2 | g4- "D7"g2ef \
+| "G"g2G2 B2G2 | "D7"F2A2 A2GF | "C"E2G2 "D7"F2A2 | "G"G4- G2 :|
+|: d2 \
+| "G"g3a b2g2 | "D7"agfe d2d2 | "G"g3a "Em"g2b2 | "Am"a4- "D7"a2d2 \
+| "G"g3a "Em"b2g2 | "Am"agfe "D7"d2ga | "G"b2g2 "D7"a2f2 | "C"g4- "G"g2 :|
+%%center Book18/18191-Maxwells_Rant-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 18191
+T: Maxwell's Rant
+R: march
+B: RSCDS 18-19(I) (in F)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+%--------------------
+K: G
+|: ef \
+| "G"g2G2 B2G2 | "D7"F2A2 A2ef | "G"g2G2 B2d2 | g4- "D7"g2ef \
+| "G"g2G2 B2G2 | "D7"F2A2 GF | "C"E2G2 "D7"F2A2 | "G"G4- G2 :|
+|: d2 \
+| "G"g3a b2g2 | "D7"agfe d2d2 | "G"g3a "Em"g2b2 | "Am"a4- "D7"a2d2 \
+| "G"g3a "Em"b2g2 | "Am"agfe "D7"d2ga | "G"b2g2 "D7"a2f2 | "C"g4- "G"g2 :|
+%%center Book18/18191-Maxwells_Rant-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 18191
+T: Maxwell's Rant
+O: 1752
+R: march
+B: RSCDS 18-19(I) (in F)
+N: Dance collected in Rutherford, 1752
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+%--------------------
+K: G
+   ef \
+| "G"g2G2 B2G2 | "D7"F2A2 A2ef | "G"g2G2 B2d2 | g4- "D7"g2ef \
+| "G"g2G2 B2G2 | "D7"F2A2 GF | "C"E2G2 "D7"F2A2 | "G"G4- G2 |]
+   d2 \
+| "G"g3a b2g2 | "D7"agfe d2d2 | "G"g3a "Em"g2b2 | "Am"a4- "D7"a2d2 \
+| "G"g3a "Em"b2g2 | "Am"agfe "D7"d2ga | "G"b2g2 "D7"a2f2 | "C"g4- "G"g2 |]
+%%center Book18/18191-Maxwells_Rant-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 18191
+T: Maxwell's Rant
+R:march
+B:RSCDS 18-19(I) (in F)
+Z: 1997 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music
+Z:bc/
+M:4/4
+L:1/8
+%--------------------
+K:G
+|: ef \
+| "G"g2G2 B2G2 | "D7"F2A2 A2ef | "G"g2G2 B2d2 | g4- "D7"g2ef \
+| "G"g2G2 B2G2 | "D7"F2A2 A2GF | "C"E2G2 "D7"F2A2 | "G"G4- G2 :|
+|: d2 \
+| "G"g3a b2g2 | "D7"agfe d2d2 | "G"g3a "Em"g2b2 | "Am"a4- "D7"a2d2 \
+| "G"g3a "Em"b2g2 | "Am"agfe "D7"d2ga | "G"b2g2 "D7"a2f2 | "C"g4- "G"g2:|
+%%center Book18/18191-Maxwells_Rant-6.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 18191
+T: Maxwell's Rant
+R: march
+B: RSCDS 18-19(I) (in F)
+Z: 1997 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music
+Z:bc/
+M: 2/4
+L: 1/8
+%--------------------
+K: G
+|: ef \
+| "G"g2G2 B2G2 | "D7"F2A2 A2ef | "G"g2G2 B2d2 | g4- "D7"g2ef \
+| "G"g2G2 B2G2 | "D7"F2A2 GF | "C"E2G2 "D7"F2A2 | "G"G4- G2 :|
+|: d2 \
+| "G"g3a b2g2 | "D7"agfe d2d2 | "G"g3a "Em"g2b2 | "Am"a4- "D7"a2d2 \
+| "G"g3a "Em"b2g2 | "Am"agfe "D7"d2ga | "G"b2g2 "D7"a2f2 | "C"g4- "G"g2:|
+%%center Book18/18191-Maxwells_Rant.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 18192
+T: Maxwell's Rant II
+R: march
+B: RSCDS 18-19(II)
+Z: 1997 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music
+Z:bc/
+M: 2/4
+L: 1/8
+%--------------------
+K: A
+|: c2 \
+| "A"A3E C2E2 | A3E C2c2 | A3E "D"FEDC | "E7"c2B4 c2 \
+| "A"A3E C2E2 | A3F E2C2 | "D"D3F "E"E2G2 | "A"A6 :|
+|: E2 \
+| "A"A3A c2e2 | "E7"d2B2 G2B2 | "A"c2A2 "F#m"e2c2 | "Bm"c2B2- "E7"B2G2 \
+| "A"A3F E2C2 | "D"D3E F2f2 | "E7"e3d c2B2 | "A"c2A4 :|
+%%center Book18/18192-Maxwells_Rant-II.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 18192
+T: Maxwell's Rant II
+R:march
+B:RSCDS 18-19(II)
+Z: 1997 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music
+Z:bc/
+M:4/4
+L:1/8
+%--------------------
+K:A
+|: c2 \
+| "A"A3E C2E2 | A3E C2c2 | A3E "D"FEDC | "E7"c2B4 c2 \
+| "A"A3E C2E2 | A3F E2C2 | "D"D3F "E"E2G2 | "A"A6 :|
+|: E2 \
+| "A"A3A c2e2 | "E7"d2B2 G2B2 | "A"c2A2 "F#m"e2c2 | "Bm"c2B2- "E7"B2G2 \
+| "A"A3F E2C2 | "D"D3E F2f2 | "E7"e3d c2B2 | "A"c2A4 :|
+%%center Book18/18192-Maxwells_Rant_II-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 18192
+T: Polly Smith
+R: march
+B: RSCDS 18-19(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+%--------------------
+K: A
+|: c2 \
+| "A"A3E C2E2 | A3E C2c2 | A3E "D"FEDC | "E7"c2B4 c2 \
+| "A"A3E C2E2 | A3F E2C2 | "D"D3F "E"E2G2 | "A"A6 :|
+|: E2 \
+| "A"A3A c2e2 | "E7"d2B2 G2B2 | "A"c2A2 "F#m"e2c2 | "Bm"c2B2- "E7"B2G2 \
+| "A"A3F E2C2 | "D"D3E F2f2 | "E7"e3d c2B2 | "A"c2A4 :|
+%%center Book18/18192-Polly_Smith-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 18192
+T: Polly Smith
+R: march
+B: RSCDS 18-19(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+%--------------------
+K: A
+   c2 \
+| "A"A3E C2E2 | A3E C2c2 | A3E "D"FEDC | "E7"c2B4 c2 \
+| "A"A3E C2E2 | A3F E2C2 | "D"D3F "E"E2G2 | "A"A6 :|
+|: E2 \
+| "A"A3A c2e2 | "E7"d2B2 G2B2 | "A"c2A2 "F#m"e2c2 | "Bm"c2B2- "E7"B2G2 \
+| "A"A3F E2C2 | "D"D3E F2f2 | "E7"e3d c2B2 | "A"c2A4 :|
+%%center Book18/18192-Polly_Smith-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Caithness Rant
+M: C|
+L: 1/8
+R: Reel
+B: Stewart-Robertson – The Athole Collection  (1884)
+Z: Andrew Kuntz / Fiddler’s Companion
+K: Cm
+e/d/ |\
+c2 BG FECD | E2EG BGEe | c2 BG FECc | eceG F/F/F F :|
+d \
+| efgf e/e/e ed | cBce f/f/f fg \
+| efgf e/e/e ed | cBGB c/c/c c ||
+d \
+| efgf e/e/e ed | cBce f/f/f fg \
+| egfg efde | cBGB cede |]
+%%center Book18/CaithnessReel_Eb-AK.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1801
+T: The Caithness Reel
+C:
+R: Reel
+%Q: 232
+B: RSCDS 18-1(II)
+F: http://www.math.mun.ca/~bshawyer/reels/CaithnessReel.abc
+Z: Bruce Shawyer
+K: Eb
+M: 4/4
+L: 1/8
+e/d/ |: c2 BG FE CD | E2 EG BG Be | c2 BG FE Cc |1 ec eG F2 Fd :|2 ec dB c2 ||
+|: cd | ef gf e2 ed | cB ce f2 fg |1 ef gf e2 ed | cB GB c2 :|2 eg fg ef de | cB GB c2 c :|
+%%center Book18/CaithnessReel_Eb-BS.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Caithness Rant
+M: C|
+L: 1/8
+R: Reel
+B: Stewart-Robertson – The Athole Collection  (1884)
+Z: Andrew Kuntz / Fiddler’s Companion
+K: Cm
+e/d/ |\
+c2 BG FECD | E2EG BGEe | c2 BG FECc | eceG F/F/F F :|
+d \
+| efgf e/e/e ed | cBce f/f/f fg \
+| efgf e/e/e ed | cBGB c/c/c c ||
+d \
+| efgf e/e/e ed | cBce f/f/f fg \
+| egfg efde | cBGB cede |]
+%%center Book18/CaithnessReel_Eb_AK.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1801
+T: The Caithness Reel
+C:
+R: Reel
+%Q: 232
+B: RSCDS 18-1(II)
+F: http://www.math.mun.ca/~bshawyer/reels/CaithnessReel.abc
+Z: Bruce Shawyer
+K: Eb
+M: 4/4
+L: 1/8
+e/d/ |: c2 BG FE CD | E2 EG BG Be | c2 BG FE Cc |1 ec eG F2 Fd :|2 ec dB c2 ||
+|: cd | ef gf e2 ed | cB ce f2 fg |1 ef gf e2 ed | cB GB c2 :|2 eg fg ef de | cB GB c2 c :|
+%%center Book18/CaithnessReel_Eb_BS.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Caithness Reel
+B: RSCDS Bk 18 (orig. Eb), setting by B. McOwen
+N: arr. T. Traub 7-26-08
+F: http://terrytraub.org/abc/CaithnessR.abc
+K: F
+L: 1/8
+M: 4/4
+R: reel
+fe |\
+"Bb"d2cA "C"GFDE | "F"F2FA cAcf | "Bb"d2cA "C"GFDd |\
+"Dm"fdfA "C"G2fe | "Bb"d2cA "C"GFDE | "F"F2FA cAcf |
+"Bb"d2cA "C"GFDd | "Dm"fd"Am"ec "Dm"d2de ||\
+"F"fgag f2fe | "Bb"dcdf "C"g2ga | "Dm"fgag f2fe |
+"Am"dcAc "Dm"d2de | "F"fgag f2fe | "Bb"dcdf "C"g2ga |\
+"Dm"faga fgef | "Am"dcAc "Dm"d2 |]
+%%center Book18/CaithnessReel_F_BMcO.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Captain Lockhart
+C: unknown
+R: Reel
+Z: Bruce Shawyer
+M: 4/4
+L: 1/8
+K: C
+e | cGGF E2DC | Ddde fede | cGGF EcBA | GEFD CCC :|
+f | ecge egfe | defg afda | ecgc egfe | fdge ccc ||
+g | egcg ecgc | fdad fdad | egde cdAc | GEcE CCC |]
+%%center Book18/CaptainLockhart_C-BS.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Captain Lockhart
+C: unknown
+R: Reel
+Z: Bruce Shawyer
+M: 4/4
+L: 1/8
+K: C
+e | cGGF E2DC | Ddde fede | cGGF EcBA | GEFD CCC :|
+f | ecge egfe | defg afda | ecgc egfe | fdge ccc ||
+g | egcg ecgc | fdad fdad | egde cdAc | GEcE CCC |]
+%%center Book18/CaptainLockhart_C_BS.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Craigieburn Wood
+C: unknown
+R: Jig
+Z: Bruce Shawyer
+M: 6/8
+L: 1/16
+K: D
+AG |\
+F3ED2 E2F2A2 | B3cd2 A2F2D2 | d3cB2 A2F2D2 | E6 A4AG |
+F3ED2 E2F2A2 | B3cd2 A2F2D2 | d3cB2 A2F2D2 | E6 A4A2 |
+B2d2c2 d3ef2 | e3dc2 c2B2A2 | B2d2c2 d3ef2 | e6 d4cd |
+e3dc2 d3cB2 | A2F2A2 d4dc | B3cd2 A2F2D2 | E6 A4 :|
+%%center Book18/CraigieburnWood_D-BS.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Craigieburn Wood
+C: unknown
+R: Jig
+Z: Bruce Shawyer
+M: 6/8
+L: 1/16
+K: D
+AG |\
+F3ED2 E2F2A2 | B3cd2 A2F2D2 | d3cB2 A2F2D2 | E6 A4AG |
+F3ED2 E2F2A2 | B3cd2 A2F2D2 | d3cB2 A2F2D2 | E6 A4A2 |
+B2d2c2 d3ef2 | e3dc2 c2B2A2 | B2d2c2 d3ef2 | e6 d4cd |
+e3dc2 d3cB2 | A2F2A2 d4dc | B3cd2 A2F2D2 | E6 A4 :|
+%%center Book18/CraigieburnWood_D_BS.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: General Campbell
+C:Robert Macintosh
+R:Strathspey
+Z:Bruce Shawyer
+K:A
+M:4/4
+L:1/16
+E2 | A4 c3A FA3 E3C | E3e dcBA c3B B3c | d3f c3e B3A GE3 | F3d B3G A3B A2 :|
+e2 | a3e c3A B3A GE3 | A3a e3c ABcd e3c | d3g c3a B3A G3E | A3d c3B cA3 A2 |
+e2 | a3e c3A B3A G3E | ABcd e3c A3a e3c | d3b c3a B3c d3f | e3a b3g a4 a2 |]
+%%center Book18/GeneralCampbell_A-BS.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: General Campbell
+C:Robert Macintosh
+R:Strathspey
+Z:Bruce Shawyer
+K:A
+M:4/4
+L:1/16
+E2 | A4 c3A FA3 E3C | E3e dcBA c3B B3c | d3f c3e B3A GE3 | F3d B3G A3B A2 :|
+e2 | a3e c3A B3A GE3 | A3a e3c ABcd e3c | d3g c3a B3A G3E | A3d c3B cA3 A2 |
+e2 | a3e c3A B3A G3E | ABcd e3c A3a e3c | d3b c3a B3c d3f | e3a b3g a4 a2 |]
+%%center Book18/GeneralCampbell_A_BS.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1801
+T: Johnny Groat's House
+C:Niel Gow
+R:Reel (8x32)
+B:RSCDS 18-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/2
+L:1/8
+K:C
+A|"C"Gccd e2dc|"G"BGdc BcdB|"C"Gccd e2dc|Gc"G7"Bd "C"ecc A|
+  "C"Gccd e2dc|"G"BGdc BcdB|"C"Gccd e2dc|GcBc "G"dB"C"c||
+e|"C"gfeg "Dm"fagf|"C"ecgc "G"Bcdf|"C"gfeg "G"dagf|"C"ge"Dm"fd "G"BG"C"ce|
+  "C"gfeg "G"fagf|"C"ecgc "G"Bcdf|"C"ecBc GcEc|GE"G7"FD B,G,"C"C|]
+%%center Book18/JohnnyGroatsHouse_C-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1801
+T: Johnny Groat's House
+C:Niel Gow
+R:Reel (8x32)
+B:RSCDS 18-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/2
+L:1/8
+K:C
+A|"C"Gccd e2dc|"G"BGdc BcdB|"C"Gccd e2dc|Gc"G7"Bd "C"ecc A|
+  "C"Gccd e2dc|"G"BGdc BcdB|"C"Gccd e2dc|GcBc "G"dB"C"c||
+e|"C"gfeg "Dm"fagf|"C"ecgc "G"Bcdf|"C"gfeg "G"dagf|"C"ge"Dm"fd "G"BG"C"ce|
+  "C"gfeg "G"fagf|"C"ecgc "G"Bcdf|"C"ecBc GcEc|GE"G7"FD B,G,"C"C|]
+%%center Book18/JohnnyGroatsHouse_C_AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1804
+T: Lady Louisa Macdonald's Strathspey
+C:Traditional?
+R:Strathspey (8x32)
+B:RSCDS 18-4(I)
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:F
+%
+A|"F"F>G F>d c<A c>g|"Dm"F>G F>A "Gm"B<G "C7"G>A|\
+  "F"F>G F>d c<A A>c|"Dm"a>g f>F "Am"A<c c a|
+  "F"F>G F>d c<A c>g|"Dm"F>G F>A "Gm"B<G "C7"G>A|\
+  "F"F>G F>d c<A A>c|"Dm"d>e "C7"f>g "F"a>g f||
+f/g/|"Dm"a>g f>F "Am"A<c cf/g/|"Dm"a>g f>d "C"e<g gf/g/|\
+  "F"a>g f>c "Bb"d/e/f "F"c>A|"Bb"d>e f>d "F7"c<A A f/g/|
+  "Dm"a>g f>F "Am"A<c cf/g/|"Dm"a>g f>d "C"e<g gf/g/|\
+  "F"a>g f>c "Bb"d/e/f "F"c>A|"Gm7"B/c/d "C7"G>B "F"A<F F|]
+%%center Book18/LadyLouisaMacdonaldsStrathspey-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lady Louisa Macdonald's Strathspey
+C: Traditional
+R: strathspey
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: F
+A2 |:\
+"F"F3G F3d "A/F"cA3 c3g  |  "F"F3G F3A "Gm"BG3 "C"G3A  |\
+"F"F3G F3d  "Am"cA3 A3c  | "Dm"a3g f3F "Am"Ac3    c2A2 |
+"F"F3G F3d "A/F"cA3 c3g  |  "F"F3G F3A "Gm"BG3 "C"G3A  |\
+"F"F3G F3d  "Am"cA3 A3c  | "Dm"d3e f3g "Am"a3g    f2fg ||
+"F"a3g f3F "A/F"Ac3 c2fg | "F"a3g "Dm"f3d "C7"eg3 g2fg |\
+"F"a3g f3c "Bb"def2 "Am"c3A | "Dm"d3e f3d "F"cA3 "C7"A2fg |
+"F"a3g f3F "Am"Ac3 "C7"c2fg | "F"a3g f3d "C"eg3 g2fg |\
+"F"a3g f3c "Bb"def2 "Am"c3A |1 "Gm"Bcd2 "C7"G3B "F"AF3 F2A2 :|2 "Gm"Bcd2 "C7"G3B "F"AF3 "F"F4 |]
+%%center Book18/LadyLouisaMacdonaldsStrathspey-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1804
+T: Lady Louisa Macdonald's Strathspey
+C:Traditional?
+R:Strathspey (8x32)
+B:RSCDS 18-4(I)
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:F
+% %scl 0.85
+A|"F"F>G F>d c<A c>g|"Dm"F>G F>A "Gm"B<G "C7"G>A|\
+  "F"F>G F>d c<A A>c|"Dm"a>g f>F "Am"A<c c a|
+  "F"F>G F>d c<A c>g|"Dm"F>G F>A "Gm"B<G "C7"G>A|\
+  "F"F>G F>d c<A A>c|"Dm"d>e "C7"f>g "F"a>g f||
+f/g/|"Dm"a>g f>F "Am"A<c cf/g/|"Dm"a>g f>d "C"e<g gf/g/|\
+  "F"a>g f>c "Bb"d/e/f "F"c>A|"Bb"d>e f>d "F7"c<A A f/g/|
+  "Dm"a>g f>F "Am"A<c cf/g/|"Dm"a>g f>d "C"e<g gf/g/|\
+  "F"a>g f>c "Bb"d/e/f "F"c>A|"Gm7"B/c/d "C7"G>B "F"A<F F|]
+%%center Book18/LadyLouisaMacdonaldsStrathspey_AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lady Louisa Macdonald's Strathspey
+C: Traditional
+R: strathspey
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: F
+A2 |:\
+"F"F3G F3d "A/F"cA3 c3g  |  "F"F3G F3A "Gm"BG3 "C"G3A  |\
+"F"F3G F3d  "Am"cA3 A3c  | "Dm"a3g f3F "Am"Ac3    c2A2 |
+"F"F3G F3d "A/F"cA3 c3g  |  "F"F3G F3A "Gm"BG3 "C"G3A  |\
+"F"F3G F3d  "Am"cA3 A3c  | "Dm"d3e f3g "Am"a3g    f2fg ||
+"F"a3g f3F "A/F"Ac3 c2fg | "F"a3g "Dm"f3d "C7"eg3 g2fg |\
+"F"a3g f3c "Bb"def2 "Am"c3A | "Dm"d3e f3d "F"cA3 "C7"A2fg |
+"F"a3g f3F "Am"Ac3 "C7"c2fg | "F"a3g f3d "C"eg3 g2fg |\
+"F"a3g f3c "Bb"def2 "Am"c3A |1 "Gm"Bcd2 "C7"G3B "F"AF3 F2A2 :|2 "Gm"Bcd2 "C7"G3B "F"AF3 "F"F4 |]
+%%center Book18/LadyLouisaMacdonaldsStrathspey_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lord MacDonald's Strathspey
+M:C
+L:1/8
+R:strathspey
+B:Stewart-Robertson – The Athole Collection  (1884)
+Z:AK/Fiddler’s Companion
+K:D
+A/G/ | F<A Af/g/ a>fe>d | g>fe>d B>dB>A | F<A Af/g/ a>fe>d | e/f/g f/g/a e2d :|
+|: A | F<A A>B A>B A<F | G/G/G G2 G>AB>G | F<A A>B A>BA>F | G>BA>F D2D :|
+|: A/G/ | F<A Af/g/ a>fe>d | g>fe>d B<d B>A | F<A Af/g/ a>fe>d | e/f/g e/g/a e2d :|
+|: g | f<a a>b a>ba>f | g/g/g g2 g>ab>g | f<a a>b a>ba>f | g<a f>g e2d :|
+%%center Book18/LordMacDonaldStr_D-AK.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lord MacDonald's Strathspey
+M:C
+L:1/8
+R:strathspey
+B:Stewart-Robertson – The Athole Collection  (1884)
+Z:AK/Fiddler’s Companion
+K:D
+A/G/ | F<A Af/g/ a>fe>d | g>fe>d B>dB>A | F<A Af/g/ a>fe>d | e/f/g f/g/a e2d :|
+|: A | F<A A>B A>B A<F | G/G/G G2 G>AB>G | F<A A>B A>BA>F | G>BA>F D2D :|
+|: A/G/ | F<A Af/g/ a>fe>d | g>fe>d B<d B>A | F<A Af/g/ a>fe>d | e/f/g e/g/a e2d :|
+|: g | f<a a>b a>ba>f | g/g/g g2 g>ab>g | f<a a>b a>ba>f | g<a f>g e2d :|
+%%center Book18/LordMacDonaldStr_D_AK.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Maxwell's Rant
+O: 1752
+R: march
+B: RSCDS 18-19(I) (in F)
+N: Dance collected in Rutherford, 1752
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+   ef \
+| "G"g2G2 B2G2 | "D7"F2A2 A2ef | "G"g2G2 B2d2 | g4- "D7"g2ef \
+| "G"g2G2 B2G2 | "D7"F2A2 GF | "C"E2G2 "D7"F2A2 | "G"G4- G2 |]
+   d2 \
+| "G"g3a b2g2 | "D7"agfe d2d2 | "G"g3a "Em"g2b2 | "Am"a4- "D7"a2d2 \
+| "G"g3a "Em"b2g2 | "Am"agfe "D7"d2ga | "G"b2g2 "D7"a2f2 | "C"g4- "G"g2 |]
+%%center Book18/MaxwellsRantM_G16-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Maxwell's Rant
+O: 1752
+R: march
+B: RSCDS 18-19(I) (in F)
+N: Dance collected in Rutherford, 1752
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+   ef \
+| "G"g2G2 B2G2 | "D7"F2A2 A2ef | "G"g2G2 B2d2 | g4- "D7"g2ef \
+| "G"g2G2 B2G2 | "D7"F2A2 GF | "C"E2G2 "D7"F2A2 | "G"G4- G2 |]
+   d2 \
+| "G"g3a b2g2 | "D7"agfe d2d2 | "G"g3a "Em"g2b2 | "Am"a4- "D7"a2d2 \
+| "G"g3a "Em"b2g2 | "Am"agfe "D7"d2ga | "G"b2g2 "D7"a2f2 | "C"g4- "G"g2 |]
+%%center Book18/MaxwellsRantM_G16_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Barbara Cunningham
+C: Robert MacKintosh
+R: strathspey
+B: Kerr's Merrie Melodies
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+B \
+| "G"G>g d<B G<d B<G | "C"(3EFG A>G "D7"F<D D>B \
+| "G"G>g d<B G<d B<G | "C"E>c "D7"B/A/G/F/ "G"G2 [GG,] :|
+g/a/ \
+| "G"b<g d<g "C"e<g "G"d<B | "D7"c<a "G"B<g "D7"a>A Ag/a/ \
+| "G"b<g d<g "C"e<g "G"d<B | "Am"c<a "D7"B>f "G"g2 G |]
+g/a/ \
+| "G"b<g "D7"a<f "C"g<e "D7"f<d | "C"e<c "G"d<B "D7"a<A A>B \
+| "G"G>D "Em"B<G "Bm"d<B "Am"g<e | "G"d<g "D7"D>F "G"G2 [GG,] |]
+%%center Book18/MissBarbaraCunningham_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Barbara Cunningham
+C: Robert MacKintosh
+R: strathspey
+B: Kerr's Merrie Melodies
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+B \
+| "G"G>g d<B G<d B<G | "C"(3EFG A>G "D7"F<D D>B \
+| "G"G>g d<B G<d B<G | "C"E>c "D7"B/A/G/F/ "G"G2 [GG,] :|
+g/a/ \
+| "G"b<g d<g "C"e<g "G"d<B | "D7"c<a "G"B<g "D7"a>A Ag/a/ \
+| "G"b<g d<g "C"e<g "G"d<B | "Am"c<a "D7"B>f "G"g2 G |]
+g/a/ \
+| "G"b<g "D7"a<f "C"g<e "D7"f<d | "C"e<c "G"d<B "D7"a<A A>B \
+| "G"G>D "Em"B<G "Bm"d<B "Am"g<e | "G"d<g "D7"D>F "G"G2 [GG,] |]
+%%center Book18/MissBarbaraCunningham_G_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Barstow's Reel
+C: Robert Macintosh
+R:Reel
+K:G
+M:4/4
+L:1/8
+D \
+| G2 DG B,G, B,D | EA AG FD EF \
+|1 G2 DG EG ce | dc BA BG G \
+:|2 G2 DG EG ce | dc BA BG G ||
+|: f \
+| gf gd BG dB | Aa ag fd ef \
+|1 gf gd BG dB | ce dc BG G \
+:|2 gb ag fd gc | Bd Ac BG G :|
+%%center Book18/MissBarstowsReel_G-BS.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Barstow's Reel
+C: Robert Macintosh
+R:Reel
+K:G
+M:4/4
+L:1/8
+D \
+| G2 DG B,G, B,D | EA AG FD EF \
+|1 G2 DG EG ce | dc BA BG G \
+:|2 G2 DG EG ce | dc BA BG G ||
+|: f \
+| gf gd BG dB | Aa ag fd ef \
+|1 gf gd BG dB | ce dc BG G \
+:|2 gb ag fd gc | Bd Ac BG G :|
+%%center Book18/MissBarstowsReel_G_BS.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mrs Blair's Jig
+Z:Bruce Shawyer
+M:6/8
+L:1/8
+R:Jig
+K:G
+B/c/ |\
+"G"dBG GBG | "D"AFD DFD | "C"EFG "D"ABc | "G"BAG "D"FED |\
+"G"dBG "Em"GBG | "D"AFD DFD | "C"EFG "D"AFD | "G"G3-G2::Bc |
+"G"dBd dBd | "C"gfg "G"dBG | "C"cec "G"BdB | "Am"ABG "D"FED |\
+"G"dBd dBd | "C"gfg "G"dBG | "C"EFG "D"AFD | "G"G3-G2 :|
+%%center Book18/MrsBlairsJig_G-BS.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mrs Blair's Jig
+Z:Bruce Shawyer
+M:6/8
+L:1/8
+R:Jig
+K:G
+B/c/ |\
+"G"dBG GBG | "D"AFD DFD | "C"EFG "D"ABc | "G"BAG "D"FED |\
+"G"dBG "Em"GBG | "D"AFD DFD | "C"EFG "D"AFD | "G"G3-G2::Bc |
+"G"dBd dBd | "C"gfg "G"dBG | "C"cec "G"BdB | "Am"ABG "D"FED |\
+"G"dBd dBd | "C"gfg "G"dBG | "C"EFG "D"AFD | "G"G3-G2 :|
+%%center Book18/MrsBlairsJig_G_BS.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1808
+T: Mrs Seller's Favourite
+C:C. Grant
+R:Jig (4x32)
+B:RSCDS 18-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+B |\
+"G"G2D DB,D | G,2D G2B | GB"Bm/F#"d "Em"g2B | "A7"g2B A2B |\
+"G"G2D DB,D | G,2D G2B | GBd g2B | "D7"BAF "G"G2 :|
+B |\
+"G"dBd g2g | b2g d2B | "D/A"cBc "G/B"d2B | "Am/C"AAA "D"A2 G |\
+"G"GBd g2g | b2g d2B | "Am"cBc "D7"d2B | "G"GGG G2 ||
+B |\
+"G"dBd g2g | b2g d2B | "Am"cBc "G/B"d2B | "Am/C"AAA "D"A2 G |\
+"G"BdB "A"cec | "G"d2B g2d | b2g d2B | "G"GG"D7"G "G"G2 |]
+%%center Book18/MrsSellersFav_G-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1808
+T: Mrs Seller's Favourite
+C:C. Grant
+R:Jig (4x32)
+B:RSCDS 18-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+B |\
+"G"G2D DB,D | G,2D G2B | GB"Bm/F#"d "Em"g2B | "A7"g2B A2B |\
+"G"G2D DB,D | G,2D G2B | GBd g2B | "D7"BAF "G"G2 :|
+B |\
+"G"dBd g2g | b2g d2B | "D/A"cBc "G/B"d2B | "Am/C"AAA "D"A2 G |\
+"G"GBd g2g | b2g d2B | "Am"cBc "D7"d2B | "G"GGG G2 ||
+B |\
+"G"dBd g2g | b2g d2B | "Am"cBc "G/B"d2B | "Am/C"AAA "D"A2 G |\
+"G"BdB "A"cec | "G"d2B g2d | b2g d2B | "G"GG"D7"G "G"G2 |]
+%%center Book18/MrsSellersFav_G_AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Polly Smith
+R: march
+B: RSCDS 18-19(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+   c2 \
+| "A"A3E C2E2 | A3E C2c2 | A3E "D"FEDC | "E7"c2B4 c2 \
+| "A"A3E C2E2 | A3F E2C2 | "D"D3F "E"E2G2 | "A"A6 :|
+|: E2 \
+| "A"A3A c2e2 | "E7"d2B2 G2B2 | "A"c2A2 "F#m"e2c2 | "Bm"c2B2- "E7"B2G2 \
+| "A"A3F E2C2 | "D"D3E F2f2 | "E7"e3d c2B2 | "A"c2A4 :|
+%%center Book18/PollySmith-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Polly Smith
+R: march
+B: RSCDS 18-19(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+   c2 \
+| "A"A3E C2E2 | A3E C2c2 | A3E "D"FEDC | "E7"c2B4 c2 \
+| "A"A3E C2E2 | A3F E2C2 | "D"D3F "E"E2G2 | "A"A6 :|
+|: E2 \
+| "A"A3A c2e2 | "E7"d2B2 G2B2 | "A"c2A2 "F#m"e2c2 | "Bm"c2B2- "E7"B2G2 \
+| "A"A3F E2C2 | "D"D3E F2f2 | "E7"e3d c2B2 | "A"c2A4 :|
+%%center Book18/PollySmith_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Polly Smith
+R: march
+B: RSCDS 18-19(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+   c2 \
+| "A"A3E C2E2 | A3E C2c2 | A3E "D"FEDC | "E7"c2B4 c2 \
+| "A"A3E C2E2 | A3F E2C2 | "D"D3F "E"E2G2 | "A"A6 :|
+|: E2 \
+| "A"A3A c2e2 | "E7"d2B2 G2B2 | "A"c2A2 "F#m"e2c2 | "Bm"c2B2- "E7"B2G2 \
+| "A"A3F E2C2 | "D"D3E F2f2 | "E7"e3d c2B2 | "A"c2A4 :|
+%%center Book18/PollySmith_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Sailor at the Bow
+C: unknown
+R: Jig
+M: 6/8
+L: 1/8
+Z: Bruce Shawyer
+K: D
+d2 |\
+AFD DEF | GBG F2D | GBG AFD | CEE E2d |\
+AFD DEF | GBG F2D | FGA Bcd | AFD D2g |
+fdf ece | dAG F2D | GBG AFD | CEE E2g |\
+fdf ece | dAG F2D | FGA Bcd | AFD D2 :|
+%%center Book18/SailorAtTheBow_D-BS.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Sailor at the Bow
+C: unknown
+R: Jig
+M: 6/8
+L: 1/8
+Z: Bruce Shawyer
+K: D
+d2 |\
+AFD DEF | GBG F2D | GBG AFD | CEE E2d |\
+AFD DEF | GBG F2D | FGA Bcd | AFD D2g |
+fdf ece | dAG F2D | GBG AFD | CEE E2g |\
+fdf ece | dAG F2D | FGA Bcd | AFD D2 :|
+%%center Book18/SailorAtTheBow_D_BS.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1806
+T: The Sailor's Wife
+C:Niel Gow
+R:Jig (8x32)
+B:RSCDS 18-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Dm
+E |\
+"Dm"DEF E2D | d2e f2g | "F"agf edc | AcA "C7"GEC |\
+"Dm"DEF E2D | d2e f2g | "F"agf "A7"ed^c | "D"d3 D2 ||
+e |\
+"F"f>ga fga | fga agf | "C"ecg ecg | ecg gfe |\
+"F"f>ga agf | "C"efg gfe | "Dm"def "A7"ed^c | "D"d3 D2 |]
+%%center Book18/SailorsWife_Dm-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1806
+T: The Sailor's Wife
+C:Niel Gow
+R:Jig (8x32)
+B:RSCDS 18-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Dm
+E |\
+"Dm"DEF E2D | d2e f2g | "F"agf edc | AcA "C7"GEC |\
+"Dm"DEF E2D | d2e f2g | "F"agf "A7"ed^c | "D"d3 D2 ||
+e |\
+"F"f>ga fga | fga agf | "C"ecg ecg | ecg gfe |\
+"F"f>ga agf | "C"efg gfe | "Dm"def "A7"ed^c | "D"d3 D2 |]
+%%center Book18/SailorsWife_Dm_AL.abc

@@ -1,0 +1,39 @@
+X: 1
+T: Any Thing
+T: Sunday Morning
+P: Longways for &c.
+%R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.66
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+D |\
+G2B BGB | A3 c3 | Bcd  ABc  | B2G G2D |\
+G2B BGB | A3 c3 | B^cd Ad^c | d3- d2 :|
+|: d |\
+e2c cde | d2B B>cd | cBA BAG | A2D D2A |\
+B2B Bcd | A2A ABc  | BAG GAF | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+G3 g3 | fdf e2f | g3 zzd | G3 z2z |\
+G3 g3 | fdf e2f | g3 a3 | d3- d2 :|
+|: B |\
+c3 A3 | B3 G3 | A3 G3 | d3 f3 |\
+g3 zzg | f3 d3 | g2B c2d | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice over
+% - - - - - - - - - - Dance description: - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. cross over & lead thro' the 3d Cu. .|
+%% Then cast up at Top & lead thro' the Top and cast up & cast off again :|
+%% Then the first Man Hands half round with the 3d Cu. & his Partner Hands half round with the 2d Cu. at Top.
+%% then 1st Cu.  turns in the Middle .|
+%% Then the first Wo. Hands half round with the 3d Cu. & the first Man the same at Top.
+%% & meet his Partner in the Middle & turn her :|
+%%endtext

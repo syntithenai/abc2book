@@ -1,0 +1,17 @@
+X: 459
+T: the Boys From Kerry   #2
+N: Irish title: na buacailli.de ua ciarrai.ge
+R: march, air
+%S: s:2 b:16(8+8)
+B: O'Neill's 1850 #459
+O: F.O'Neill
+Z: henrik.norbeck@mailbox.swipnet.se
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play AB1 B2A
+Q: "Moderate"
+M: C
+L: 1/8
+K: G
+"^A"[|] G>A | B3A B>Bce | d2A2 B2AG | E2D>E G2G2 | "^fine"G6 |]
+"^B"|: d2 | e2 de g2 ge | d3B G2Bc | d2d2 edBG |1 A6 :|2 "^->A"E6 |]

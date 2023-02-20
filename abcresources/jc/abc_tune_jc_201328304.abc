@@ -1,0 +1,24 @@
+X: 1
+T: the Rambling Pitchfork
+R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+S: https://www.facebook.com/groups/Fiddletuneoftheday/ 2020-8-5
+S: https://www.facebook.com/groups/Fiddletuneoftheday/photos/
+M: 6/8
+L: 1/8
+K: D
+"^A"\
+|: ~F3 AFF | dFF AFF | ~G3 ABc | AdB cAG |\
+   ~F3 AFF | dFF AFF | GFG BAG |[1 AFD D2E :|[2 AFD D2 |]
+"^B"|: A \
+|  d2e fed | ecA AFA | d2e fed | faf gfe |\
+[1 d2e fed | ecA AFA | ~G3 BAG | AFD D2 :|\
+[2 a2f gfd | fed ecA |
+   ~G3 BAG | AFD D2 \
+"^C"|: E \
+|  ~F3 AFF | =cFF AFD | ~G3 GBd | fed =cAG |\
+   ~F3 AFF | =cFF AFD | GFG BGB |[1 AFD D2 :|
+[2 AFD D3 \
+"^D"\
+|: d2e fef | ecA AFA | d2e fed | f/g/af gfe |\
+   d2e fdf | ecA AGF | ~G3 BGB |[1 AFD D3 :|[2 AFD D2E |]

@@ -1,0 +1,19 @@
+X: 60
+T: 60. SCHOTTISCHE
+B: Sam Bayard, "Hill Country Tunes" 1944 #60
+S: Played by Robert Crow, Claysville, PA, Sept 13, 1943.  Learned in that region.
+N: The A,2 notes in bars 2 and 6 are probably typos.
+R: shottish
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+%%slurgraces
+K: D
+((3FG^G) |\
+[AD2]>BA>G F>Ad>=c | B>=c B>A [G2A,2] e>d | [ce4]c2B "a."A>gf>e |
+d>ef>g a2 {E}((3F>G^G) | [AD2]>BA>G F>A d>=c | B>=c B>A [G2A,2] e>d |
+[ce4]c2B A>gf>e | d2[f2d2] [f2d2] :: ((3efg) | [a2A2][f2d2] {g}f>ef>g |
+[a2A2][g2B2] [gB]>f[gB]>a | b2e2 e>fg>a | b2a2 a>gf>g |
+[a2A2][f2d2] f>ef>g | [a2A2][g2B2] [gB]>fg>a | b2c2 a2c2 | d>ef>e d2 :|
+P: Var:
+"a."A>ce>c |]

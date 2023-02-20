@@ -1,0 +1,32 @@
+X:1
+T: Katie the Nuisance
+N:
+C:
+S: Play  3  times
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 35 notes)
+K:Am
+M:4/4
+L:1/16
+c2 B2 |A4 a4 a4 g2 f2 |e8 c8 |G4 g4 g4 f2 e2 |d8 B8 |A4 a4 a4 g2 f2 |e8 c8 |d2 c2 B2 A2 ^G4 A2 B2 |c4 A4 A4 c2 B2 |
+%W: A2
+% voice 1 (1 lines, 33 notes)
+A4 a4 a4 g2 f2 |e8 c8 |G4 g4 g4 f2 e2 |d8 B8 |A4 a4 a4 g2 f2 |e8 c8 |d2 c2 B2 A2 ^G4 A2 B2 |c4 A4 A4 c2 d2 |
+%W: B1
+% voice 1 (1 lines, 42 notes)
+e2 d2 c2 B2 A2 B2 c2 d2 |e8 c8 |d2 c2 B2 A2 G2 A2 B2 c2 |d8 B8 |e2 d2 c2 B2 A2 B2 c2 d2 |e8 c8 |d2 c2 B2 A2 ^G4 A2 B2 |c4 A4 A4 c2 d2 |
+%W: B2
+% voice 1 (1 lines, 42 notes)
+e2 d2 c2 B2 A2 B2 c2 d2 |e8 c8 |d2 c2 B2 A2 G2 A2 B2 c2 |d8 B8 |e2 d2 c2 B2 A2 B2 c2 d2 |e8 c8 |d2 c2 B2 A2 ^G4 A2 B2 |c4 A4 A4 c2 d2 |
+%W: C1
+% voice 1 (1 lines, 49 notes)
+e4 e4 e4 c2 d2 |e2 d2 e2 f2 e4 B2 c2 |d4 d4 d4 B2 c2 |d2 c2 d2 e2 d4 c2 d2 |e4 e4 e4 c2 d2 |e2 d2 e2 f2 e4 d2 c2 |B2 A2 ^G2 A2 B2 c2 d2 B2 |c4 A4 A4 c2 d2 |
+%W: C2
+% voice 1 (1 lines, 47 notes)
+e4 e4 e4 c2 d2 |e2 d2 e2 f2 e4 B2 c2 |d4 d4 d4 B2 c2 |d2 c2 d2 e2 d4 c2 d2 |e4 e4 e4 c2 d2 |e2 d2 e2 f2 e4 d2 c2 |B2 A2 ^G2 A2 B2 c2 d2 B2 |c4 A4 A4 ||

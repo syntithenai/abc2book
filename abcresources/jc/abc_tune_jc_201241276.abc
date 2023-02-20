@@ -1,0 +1,28 @@
+X: 4304
+T: the Britches Maker
+O: Original Sett.
+%R: air, jig
+N: This is version 2, for ABC software that understands voice overlays.
+N: The "voiced overlay" is a bit silly, since the pure "3-note chord" ABC1 version is just as readable.
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.30 #4 (and 2 staffs on p.31)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slow"
+K: Gm
+% - - - - - - - - - -
+V: 1 staves=2
+A |\
+(B/c/d).B (A/B/c).A | BGG G2A | (B/A/)(B/c/)(d/e/) (fd).B | AFF ~F2A |\
+(B/c/d).B (A/B/c).A | (GB).g {g}f2e | {e}d>cB (A>Bc) | (dB).G G2 :|
+|: |A \
+TB>cd/e/ (fd).B | (fd).B (fd).B | Tc>de/f/ (ge).c | (ge).c (ge).c |\
+TB>cd/e/ fga | b>ag {g}fed | {d}cBA {^c}d2A | (BG).G G2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+g3 d3 | G3 G3 | g3 g2=e | f3 f3 | g3 d3 | e3 d2c | B2c d2D | G3 G2 :||: z |
+[f3d3] [f3d3] & B3 B3 | [f3d3] [f3d3] & B3 B3 |\
+[e3g3] [e3g3] & c3 c3 | [e3g3] [e3g3] & c3 c3 |\
+[f3d3] x3 & B3 def | g>fe dcB | c3 d3 | G3 G2 :|

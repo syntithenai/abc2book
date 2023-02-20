@@ -1,0 +1,27 @@
+X: 1
+T: Captain's Maggot
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.224
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+cB |\
+A2c2 a2e2 | f3g fga2 | f2c2 A2F2 | G6 cB |\
+A2F2 A2c2 | f3g fga2 | g2(fe) d4 | c6 |]
+ef |\
+g2e2 f2e2 | df ed ^c2A2 | a2(gf) (ef) (ed) | d6 AB |\
+c2f2 (dc) (BA) | G2g2 e2(dc) | a2(gf) f3e | f6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%   The 1. man go within-side of the 2. man, then go round about him and stand below the 3. man .|
+%% The 1. wo. do the same :|
+%%    The 1. cu. being below the 3. cu. cross over the 3. cu. and so above the 2. cu. into their own
+%% places .| The 1. man take hands with his Partner and lead down the 2. cu. then lead up again into their
+%% own places and cast off :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

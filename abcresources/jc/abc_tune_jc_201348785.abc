@@ -1,0 +1,16 @@
+X:1
+T:Valse à Bruno, fichier abc : Bernard Loffet
+C:
+L:1/8
+Q:380
+K:C
+M:3/4
+|: [e2A,,2] A,2 A,2 | [f2F,,2] F,2 [e2F,2] | [d2G,,2] G,2 [e2G,2] | [c2A,,2] [A2A,2] A,2 | \
+ [A2A,,2] [c2A,2] [A2A,2] | [B2G,,2] G,2 G,2 | [B2G,,2] [d2G,2] [g2G,2] | [e2A,,2] A,2 A,2 | \
+ [e2A,,2] A,2 A,2 | [f2F,,2] F,2 [e2F,2] | [d2G,,2] G,2 [e2G,2] | [c2A,,2] [A2A,2] A,2 | \
+ [A2A,,2] [c2A,2] [A2A,2] | [B2G,,2] G,2 G,2 | [B2G,,2] [c2G,2] [B2G,2] | [A2A,,2] A,2 A,2 :|: [aF,,]f [dF,]a [fF,]d | \
+ [aF,,]f [dF,]a [fF,]d | [eA,,]c [AA,]e [cA,]A | [eA,,]c [AA,]e [cA,]A | [dG,,]B [GG,]d [BG,]G | \
+ [dG,,]B [GG,]d [BG,]G | [eA,,]c [AA,]e [cA,]A | [eA,,]c [AA,]e [cA,]A | [aF,,]f [dF,]a [fF,]d | \
+ [aF,,]f [dF,]a [fF,]d | [eA,,]c [AA,]e [cA,]A | [eA,,]c [AA,]e [cA,]A | [dG,,]B [GG,]d [BG,]G | \
+ [dG,,]B [GG,]d [BG,]G | [c2F,,2] F,2 [B2F,2] | [A2A,,2] A,2 A,2 :| \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet

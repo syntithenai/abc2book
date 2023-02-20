@@ -1,0 +1,5368 @@
+%%slurgraces no
+%%graceslurs no
+
+X: 0
+T: 204 Favourite Country Dances
+O: Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The tunes' index numbers are a 3-digit tune number (below the clef in the MS)
+N: Some dances have dates at the top. The latest date is 1775, so the collection was probably published in 1776 or 1777.
+K:
+%%center - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Two Hundred & four
+%%center FAVOURITE COUNTRY DANCES
+%%center Perform'd at Court, Almacks, the Pantheon,
+%%center and most Publick Assembly's,
+%%center with the newest and best directions for Dancing each
+%%center Set for the Violin, German Flute and Hoboy.
+%%center VOL: I.
+%%center - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 001
+T: Lover's Stream
+O: 1775
+N: This tune has "1775" at the top-right corner.
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.1 #1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2A BdB | cBA G2D | G2A BdB | cAF G2D |\
+G2A BdB | cBA B2G | B2^c def | ge^c d3 :|
+|:\
+d2e faf | gfe d2A | d2e faf | gfe d2D |\
+G2A BdB | cBA G2D | G2A BdB | cBA G3 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead down on your own sides & turn your
+%% Part: at the bott: lead up again & turn at
+%% top lead thro' the bott; cast up 1 Cu. right
+%% & left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 002
+T: Complaining Maid
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.1 #2
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 12/8
+L: 1/8
+K: F
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+   c |\
+AGF F>GF F>GF d2f | cAF F>GF FGA G2c |\
+AFF F>GF AGF f2g | afc =Bcd c>dc c2 :|
+|: g |\
+ecc c>dc c>dc e2f | gec c>dc d=BG G2c |\
+AFF F>GF F>GF d2f | cAF G>FG AFF F2 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. lead up 1 Cu. hands 4 round
+%% lead up & cast off
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 003
+T: Royal Exchange
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.2 #3
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2A BcB | B2A G2D |\
+G2A BdB | AcA G3 :|\
+|:\
+B2c def | gfe f2A |
+d2e faf | eA^c d3 |\
+G2A BcB | B2A G2D |\
+G2A BdB | AcA G3 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man foot it to the 2d Wo. & turn
+%% the 1st Wo. do the same to the second Man
+%% cross over half figure right & left
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 004
+T: What's that to You
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.2 #4
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+   c2 |\
+f/g/a gf gedc | d/e/f ed cAGF |\
+BdcB Acef | dbgf fe :|
+|: g2 |\
+e/f/g gf fedc | fcfg ac'ac |\
+d/e/f ed cAGF | d>ef2 f2 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Foot it 4 & right & left half round the
+%% same back again cross over & half figure
+%% right & left
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 005
+T: Garland of Roses
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.3 #5
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+g |\
+gfe d2c | BcA G2D | G2D G2A | BdB A2g |\
+gfe d2c | BcA G2D | Eec AcA | FDF G2 :|
+|: a |\
+abg f2e | dec d2A | d2A d2e | fag fed |\
+gfe d2c | BcA G2D | Eec AcA | FDF G2 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st & 2d Cu. foot it & turn Partners then
+%% foot it sides & turn gallop down & up and
+%% cast off 1 Cu. right & left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 006
+T: Blind Beggar
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.3 #6
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+a |\
+fddf | a>baf | d>fec | BBB>A |\
+d>efg | ab^ge | a>ABd | cAA :|
+|: e |\
+cAAc | e>fec | d/e/f/g/ f/a/g/f/ | e/d/c/B/ Aa |\
+fddf | a>baf | B>dc>e | ddd :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu. & lead thro' the bott: cast up
+%% 1 Cu. & lead thro the top foot it contrary
+%% corners & turn lead outsides
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 007
+T: Patty's delight
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.4 #7
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+G>AG GdB | G>AG Gge | dBB cAd | BBB B2d |\
+efg gfe | d>ed dBG | FGA cdB | A>BA A2 :|
+|: d |\
+d>ed faf | d>ed d2B | cBc afc | B>cB B2D |\
+G>AG GdB | G>AG Gge | dBB cAd | BGG G2 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. cast up again cross over 2
+%% Cu. lead up to the top & cast off set corners
+%% & turn lead outsides & turn
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 008
+T: Jenny's Whim
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.4 #8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The two strains are 7 and 6 measures long.
+M: C
+L: 1/8
+K: F
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+c2 |\
+AFFF FFFF | AFcA Tf2ed | cAFF FFFF |\
+GFEF G2c2 | AFcA f2ed | ecfd gedc | A2c2 c2 :|
+|: g2 |\
+eccc cccc | edef g2fe | fFFF FFFF |\
+AFcA f2ed | cBAG FAGB | A2F2 F2 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across back again cross over one
+%% Cu. right & left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 009
+T: Sally's Wish
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.5 #9
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+e2 |\
+cBAG Acea | fgaf ecBA | GABc dBcA | GABc B2f2 |\
+cBAG Acea | fgaf ecBA | dfBd ceEG | A2A2 A2 :|
+|: e2 |\
+cBAG Aea=g | fedc d2f2 | fe^dc Bc'ba | gfed e2g2 |\
+aecA fagf | edcB d2cB | caBd cAEG | A2A2 A2 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. cast up again cross over 2 Cu. lead
+%% up & cast off set corners & turn lead outsides
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 010
+T: Jolly Toper
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.5 #10
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+e2 |\
+cAAA (3(cde) dc | dBBc (3(def) ed |\
+cAAA a2gf | ecBc A2 :|
+|: e2 |\
+ac'ba bgfe | fgaf ecBA |\
+FAGB Aagf | ecBc A2 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu. turn the 3d Wo. Part:
+%% cast off & turn the 3d Man hands
+%% across with the 3d Cu. lead up to
+%% the top foot it & cast off
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 011
+T: Country Cottage
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.6 #11
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+f2f fcA | f2f fcA | G2d cdB | {B}A2A A2c |\
+f2f fcA | f2f fcA | G2c cd=B | c2c c2 :|
+|: c |\
+g2g gec | g2g g2a | b2a bag | a2a a2c |\
+f2f fcA | f2f fdB | A2f G2e | f2f f2 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. gallop down 1 Cu. up again and
+%% case off do the same with the 3d Cu. lead
+%% up to the top foot it & cast off hands
+%% round all six
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 012
+T: Ralph's Ramble to London
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.6 #12
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The right edge is clipped, so I've just guessed the last note or letter in each line.
+M: C
+L: 1/8
+K: D
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+defg afed | egBe dcBA |\
+defg afed | Bdce d3 :|\
+|: e |\
+cAAc (3(efg) fe | fddf (3(fga) gf |
+gfed cBAG | FdBg Te3A |\
+defg afed | egBe dcBA |\
+defg afed | Bdce d3 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands 3 round with the 2d Wo. the same
+%% with the 2d Man gallop down & cast
+%% off right and left
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 013
+T: Flower Garden
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.7 #13
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+dcd ede | fag fed | fed f2g | aba a2A |\
+dcd ede | fef ^g2a | faB def | cAA A2 :|
+|: e |\
+a^ga ecA | ^gfe f2f | bab gfe | fF^A B2A |\
+dcd ede | fag fed | bab cge | cAc d2 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set across turn your Part: Part: do the
+%% same lead down 2 Cu. & cast up right and left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 014
+T: Englishman in Paris
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.7 #14
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+F2 |\
+cBcd c2A2 | fefg f2c2 | dfed cBAG | A2F2F2c2 |\
+fefg a2gf | efga g2f2 | e2dc G2=B2 | c2c2c2 :|
+|: g2 |\
+edef gedc | fefg a2c2 | BABc BdcA | GFGA G2F2 |\
+cBcd c2A2 | fefg f2c2 | dfed cBAG | A2F2F2 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off & hands across with the 3d Cu.
+%% cast up & hands across with the top Cu.
+%% cross over 2 Cu. lead to the top foot it
+%% & cast off
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 015
+T: Banks of Tweed
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.6 #15
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat.
+M: 2/4
+L: 1/8
+K: A
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+e |\
+a<ee<d | c<AA<B | c<ec<A | B>cBe |\
+a<ee<d | c<AA<E | F<AG<B | HA>BA :|
+|: B |\
+e<BB<A | A<GF<E | G<EG<B | e3f |\
+g<bb<g | c<ee<c | B<GF<G | E>FE "D.C."|]
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead down on your own sides & turn your
+%% Part: at the bott: lead up again & cast off
+%% set corners & turn
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 016
+T: Miss Fowler's delight
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.8 # 16
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+   E2 | ABcd eagf | edcB A2E2 | ABcd eagf | gef^d e2 :|
+|: B2 | efga bgfe | aedc f2fe | dcBA ((3GAB) Ed | cABc A2 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2. Cu. up again cross over 2 Cu.
+%% lead to the top & cast off
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 017
+T: Oak Tree
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.9 #17
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+BAG GAB | AFD D2c | Bdg gdB | A>BA A2d |\
+BAG GAG | def gfe | fed Ad^c | d>ed d2 :|
+|: d |\
+d>ed =fed | c>dB c2c | c>dc edc | BGB A2d |\
+Bcd efg | abg fed | gdc B>cA | BGG G2 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu. hands 4 round with the 3d Cu.
+%% cast up & hands 4 round with the top Cu. lead
+%% your Part: down 2 Cu. up again, cast off and
+%% right hands & left set corners lead outsides
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 018
+T: Queen's Palace
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.9 #18
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+B G2 B | d B2 d | gf/e/ dc | cB2 d |\
+e g2 e | d g2 d | c/B/c/d/ cB | A3 :|
+|: A |\
+d f2 e | f d2 A | d f2 e | d/=c/d/e/ dd |\
+B G2 B | c A2 d | g d2 c | BGG :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 1. Cu. hands 4 round with the 3d Cu.
+%% cast up & hands round with the 2d Cu. cross
+%% over 2 Cu. lead up to the top foot it &
+%% cast off
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 019
+T: Exeter change
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.10 #19
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+d2 |\
+BABc B2A2 | GFGA G2d2 | edef g2fe | dcBc d2d2 |\
+BABc B2A2 | G6     g2 | fagf edef | d3e  d2 :|
+|: d2 |\
+AGAB c2BA | BABc B2d2 | efga g2fe | dcde d2d2 |\
+BABc B2A2 | GFGA G2c2 | Bdfg AGAB | G3A  G2 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across & back again cross over 1
+%% Cu. right & left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 020
+T: Cave of Enchantment
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.10 #20
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+(BAG).d | (BAG).d | g>dg>d | ((3gdc) (3BAG |\
+(BAG).d | (dcB).g | ((3fed) (3efe | d>dd :|
+|: a |\
+(fed).a | (fed).a | ((3fed) e>f | gd ((3BAG) |\
+(BAG).d | ((3BcA) G>g | ((3efg) a>f | g3 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man cast off & turn the 3d Wo.
+%% the 1st Wo. cast off & turn the 3d Man
+%% hands 6 round right & left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 021
+T: Happy Wedding
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.11 #21
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+a |\
+fdd d>ed | efe e2a | fdd d>ed | cec A2a |\
+fdd d>ed | fed b2d'| afd gea | fdd d2 :|
+|: e |\
+cAA A>BA | cBA e2g | fdd ece | B>cB B2a |\
+fdd d>ed | fed b2d'| afd eag | fdd d2 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off hands 4 at bott: cast up and
+%% hands 4 at top cast off 1 Cu. turn your
+%% Part: right & left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 022
+T: Miss Butts favorite
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.11 #22
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+GBd  dBG | ege  dBG |\
+E>FE EcA | FDF  G3 :|\
+|:\
+dfa  afd | gbg  fed |
+efg  gfe | d>ed dBG |\
+GBd  dBG | ege  dBG |\
+E>FE EcA | FDF  G3 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across back again cross over turn
+%% your Part: right hands & left
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 023
+T: Chelsea Stage
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.12 #23
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+F2G AGF | A2B c3 | d2e fed | c>dc cAG |\
+F2G AGF | A2B c3 | def geg | f2f  f3 :|
+|:\
+f2g agf | gec c3 | d2e fed | c>dc cAG |\
+F2G AGF | A2B c3 | def g2e | f2f  f3 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands 6 round back again cross over one
+%% Cu. lead your Part: thro' the 3d Cu. cast up
+%% right hands & left
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 024
+T: Catch as catch can
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.12 #24
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Bar 6 has a blob over the middle; I've guessed that the notes are ga, similar to bars 9 and 10.
+M: 2/4
+L: 1/16
+K: G
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G4 d4 | B2d2 g2fe | d2 G4 A2 | B2cB A2G2 |\
+G4 d4 | gfga g2e2 | f2d2 ((3A2B2^c2) | d4 z4 :|
+|:\
+dcde d2e2 | fefg f2g2 | a2f2d2c2 | c2B2B2A2 |\
+G4 d4 | g2fe d2c2 | B2G2A2c2 | B2G2G2z2 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Foot it & right hands & left half round
+%% the same back again lead your Part: down
+%% 2 Cu. up again cast off hands 4 round set
+%% corners lead outsides
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 025
+T: Pantheon
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.13 #25
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat, but no final repeat; not fixed. (It may an AABCA form.)
+M: 6/8
+L: 1/8
+K: G
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2d d2c | B2B B2A | G2G TAGA | B2B B2z |\
+d2d d2c | B2B B2A | G2G TAGA | G3- HG3 :|
+|:\
+b2b bag | a2d def | g2g gfe | f2B Bcd |\
+e2e edc | d2G GAB | cdc BcB | A3- A3 |]
+[B3G3] AGA | BcB AGA | BcB AGA | BcB [A3D3] |\
+a2a a2g | f2f f2e | d2d Tede | d3- d2 (G//A//B//"_D:C:"c//) |]
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands 6 round .| hands 6 back to back, back
+%% again :| the 1st Cu. lead down 1 Cu. back again &
+%% cast off the top Cu. into the 2d Cu.s place :|.
+%% Allemand with your Part: :|: hands 6 round .:|:.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 026
+T: Albinia
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.13 #26
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+|: B2c ded | cBA B2F | B2c ded | {d}cBA B3 :|\
+|: {c}B>AB G3 | c2B AGF | {c}B>AB G3 | {d}cBA B3 :|
+|: f2d f2d | cde d2B | f2d f2d | ecA B3 :|\
+|: G2B F2B | cde dcB | G2B F2B | {c}cBA B3 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Foot it &change sides .| that again :| 1st Cu.
+%% cast off turning outwards .|. go the Allemand
+%% round to the right :|: lead thro' the 3c Cu. cast
+%% up .|| D.o thro' the top :|| Balance et par d\'i
+%% Rigadoon .||. the Pireuette to the left
+%% under the Man's Arm :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 027
+T: Trip to Bristol
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.14 #27
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D2d dcd | E2e ede | fef ged | cBA GFE |\
+D2d dcd | E2e ede | fed cdB | A3 A,3 :|
+|:\
+A2a a^ga | A2=g gfg | fed cBA | GFE DCB, |\
+A,2a a^ga | A2g gfg | fef gec | d3 D3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st & 2d Cu. foot it & right hands across .|
+%% foot it & left back again :| lead thro' the 3d
+%% Cu. & cast up into the 2d Cu.s place .|. lead up
+%% to the top foot it & cast off :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 028
+T: Nineteenth of May
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.14 #28
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2G B/c/dB | cec A2c | BAG F2G | AFD D3 |\
+G2G B/c/dB | cec A2c | BcB AGF | GDB, G,3 :|
+|:\
+d2d dcd | e2f g3 | cdc BcB | ABc B2G |\
+d2d dcd | e2f g3 | cdc BcB | AGF G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Foot it all 4 & change sides .| the same
+%% back again :| lead down 1 Cu. up again and
+%% cast off .|. hands round all six :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 029
+T: la Damoselle
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.15 #29
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The interior repeat sign has 4 dots on each side of the double bar; the final repeat sign has only two.
+N: There's an unusual comma in the 3rd strain of the dance description.
+N: The 2nd strain of music is 14 (6+4+4) bars long.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+RF/G/ |\
+A2A AFA | B2G G2B | ABG FGE | D2D D(FG) |\
+A2A AFA | B2G G2B | ABG FGE | D3- D2 :|
+|: A |\
+d2d dcd | e2A A2c/d/ | e2e ede | f2d d2f |\
+efd cdB | {B}A3- A2F/G/ |
+A2A AFA | B2G G2B | A2G F2E | DED D2F/G/ |\
+A2A AFA | B2G G2B | ABG FGE | D3- D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st 3 Cu. Balance par di Rigadoon & change places .|
+%% D.o back again :| the 1st Man figure on the Wo.s side
+%% the Wo. on the Man's, side up again on your own sides
+%% to the top & turn .|. cross over 1 Cu. turn your Part:
+%% and right & left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 030
+T: King's Birth Day
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.15 #30
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+cgeg | fgdg | egec | BdBG |\
+AcBd | cedf | edcB | c2C2 :|
+|:\
+AcTc2 | GcTc2 | fedc | BdBG |\
+AcTc2 | Gcce | fdcB | c2C2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. cast off 2 Cu. .| lead up
+%% to the top & cast off :| lead thro' the
+%% 3d Cu. & cast up .|. right & left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 031
+T: Bevis Mount
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.16 #31
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B>cd>e | d>Bc>A | GGBG | AGAc |\
+B>cd>e | dBcA | GGAF | G2G,2 :|
+|:\
+ccBB | eedd | ggbg | agab |\
+ccBB | eedd | ggaf | g2g2 :|
+|:\
+bagf | edcB | BGdB | AGAB |\
+bagf | edcB | d>edB | G2G2 :|
+|:\
+[D2B,2][D2B,2] | [E2C2][E2C2] | c>edB | AGAB |\
+[D2B,2][D2B,2] | [E2C2][E2C2] | dBAB | G2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu. Allemand half round to the right .|. cast
+%% up 1 Cu. Allemand half round to the left :|. cast down one
+%% Cu. & foot it .|. cast up 1 Cu. & foot it :|: right hands across
+%% the round .|. hands 4 the round back again :|: cross over
+%% 1 Cu. .|. right & left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 032
+T: Paddy Wack
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.16 #32
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+GBd gfg | edc BAG | GBd gfg | fdd (d2e/f/) |\
+geg fdB | cec dBG | BdB cAc | BGG G2 :|
+|: c |\
+BdB cec | dBG {B}A2G | Bcd efg | fdd (d2e/f/) |\
+geg fdB | cec dBG | BdB cAc | BGG G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Turn right hands & cast off & lead
+%% thro' the 3d Cu. & cast up .| turn left
+%% hands lead thro' the top & cast off :|
+%% foot it contrary corner's & turn .|.
+%% hands round 4 at bottom & right
+%% left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 033
+T: Lord Bath's Gate
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.17 #33
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+.d2.D2 .A2.D2 | .B2.D2.A2.D2 | .d2.D2 .A2.D2 | .G2.D2.F2.D2 |\
+.d2.A2 .f2.A2 | .e2.A2 .a2.A2 | (f3e/d/) c2B2 | A2A,2 A,4 :|
+|:\
+.e2z2 .f2z2 | .g2z2 .e2z2 | (fga2) a2a2 | a2z2 z4 |\
+.e2z2 .f2z2 | .g2z2 .e2z2 | f2d2e2c2 | {c}d4 D4 :|
+|:\
+d2f2a2d2 | .e2.e2f2z2 | (d2f2)(a2d2) | (.e2.e2f2) z2 |\
+(g2g4f2) | (b2b4a2) | (g3f/e/) d2c2 | d4D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Right hands cross round .| D.o left back
+%% again :| the Allemand round to the right :|.
+%% cast off 1 Cu. & D.o to the left :|: lead thro'
+%% the 3d & 1st Cu.s .:|:.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 034
+T: Frisky
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.17 #34
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: c>de {f}e>dc | B>cd {d}Tc2A | c>de {f}e>dc | B>AG A3 :|
+|: TcBc {d}TcBc | dfd c2A | {d}cBc {d}cBc | dBG A3 :|
+|: a>ba g>ag | f>gf f>ed | c>de edc | BAG A3 :|
+|: ECE FDF | Bcd cBA | ECE FDF | dBG A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Allemand half round to the right & foot it .|.
+%% D.o back again & foot it :|: gallop down 1 Cu. and
+%% foot it .|. up again & cast off :|: change sides
+%% with the 3d Cu. & foot it .|. back again & foot
+%% it :|: hands 6 the round foot it afterwards
+%% together :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 035
+T: Four Seasons
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.18 #35
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: All the start-repeat symbols are missing; fixed.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!aba |\
+fdf agf | e2A d2A | e2A fge | d2D aba |\
+fdf agf | e2A d2A | e2A fge | Hd2 :|
+|: [FA,3]GF |\
+[EA,6]FG GFE | [F2A,6]A FGF | [EA,6]FG GFE | F2D !segno!:|\
+|: ABA |\
+d2z ABA | F2z ABA | GAG EFG | F2D !segno!:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st & 2d Cu. set & change sides, the same back
+%% again, gallop down the middle 2 Cu. up again &
+%% cast off, the Man fall in the bott: the Lady at top,
+%% set 3 & 3 fall in sides, set 3 & 3 hands 6 quite
+%% round, Balance, Rigadoon to your Partner and
+%% Allemand, the same back again.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 036
+T: Black Dance
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.18 #36
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: This version of the tune is only 12 bars long. The only double bar or repeat is at the very end.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+dB |\
+G2G2 ABcA | dedc B2dB |\
+G2G2 ABcA | dedc B2ef |\
+g2g2 {a}g2fe | d2d2 d2cB |
+A2AB {d}c2BA | G2G2 G2ef |\
+g2g2 g2fe | d2d2 d2cB |\
+A2AB {d}c2BA | G2G2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st & 2d Cu. hands across half round the
+%% same back again .| 1st Man leads his Part:
+%% down the middle & brings up the 3d Wo.
+%% & leaves his Part: in her place :| then the
+%% top Cu. & 3d turns first right hands
+%% behind then left :|. & the 1st Man lead the
+%% 3d Wo. down to her own place & bring
+%% his Part: up to the top & cast off into
+%% the 2d Cu.s place :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 037
+T: Just so in the North
+N: This tune has "1774" at the top-right corner.
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.19 #37
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2g2 dBdB | G2g2 ecec | G2g2 dBdB | edcB AFED |\
+G2g2 dBdB | G2g2 ecec | G2g2 ecBA | EcAF G2G,2 :|
+|:\
+g2b2 afed | e2g2 dBAG | c2ec B2dB | A2BG AFED |\
+G2g2 dBdB | c2a2 fdfd | g2b2 ecec | BAGF G2G,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st 2d & 3d Cu. foot it hands round 6 .| the same
+%% back again :| lead down 2 Cu. foot it to your Part:
+%% lead up to the top & cast off .|. lead thro' the 3d
+%% Cu. & cast up Right & Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 038
+T: New Allemand
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.19 #38
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+FAcf | Acfa | gbeg | f/e/f/g/ ff |\
+FAcf | Acfa | gfed | c2c2 :|
+|:\
+c2BA | d3 B | AGFE | F/E/F/G/ F2F2 |\
+c2BA | d3 B | AGFE | F2F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across .| back again :| cross over
+%% 1 Cu. .|. Right & Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 039
+T: the Cascade
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.20 #39
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+dc de | f2 ff/g/ | ad Bd | c>B AA |\
+dc de | fd gf | ed ec | d2 D :|
+|: F/G/ |\
+AA AB | A2 AF/G/ | AA AB | A3 A |\
+dc de | fd gf | ed ec | d2 D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set half Right and Left the same back again
+%% cross over 1 Cu. Right & Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 040
+T: Van Rotterdam op Dort
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.20 #40
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+d2e2 f2g2 | a2gf e2fg | a2e2 f2d2 | edcB A2A2 |\
+d2e2 f2g2 | a2gf e2fg | f2ed ^cdec | d6 :|
+|: AB |\
+c2A2 B2G2 | AGAB A2AB | c2A2 B2G2 | A6 AB |\
+c2A2 B2G2 | AGAB A2AB | c2A2 B2G2 | A4 A2 "Da Capo"|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hey contrary sides then on your own cross
+%% over lead up & cast off Right & Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 041
+T: the Bank
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.21 #41
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Both phrases are missing a half beat in the last measure.  (Fixed with added rests.)
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A2d2 d2e2 | f2g2 f2d2 |\
+d2a2 a2b2 | a2g2f2a2 |\
+a4 b2ag | f4 e4 |\
+fga2 b2g2 | a4 a2z2 :|\
+|:\
+b4 b2ag | a4 a2ef |
+g2f2 e2d2 | c2A2 .e2.e2 |\
+.e4 f2ef | g4 g2fg |\
+a2f2 e2d2 | c2A2 .e2.e2 |\
+.e4 f2ef | g4 g2fg |\
+agfg e2^c2 | d4 d2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. cast up again cross over 1 Cu.
+%% lead up and cast off set corners and turn
+%% lead out sides
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 042
+T: South Sea
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.21 #42
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+egec | fafd | egc=B | c/=B/c/d/ cc |\
+egec | fafd | egc=B | c2c2 :|
+|:\
+ccBA | dddB | AGFE | F/E/F/G/ FF |\
+ccBA | dddB | AGFE | F2F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set all 4 change sides .| the same back
+%% again :| gallop down 1 Cu. up again and
+%% cast off .|: Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 043
+T: the Sword Knott
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.22 #43
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+g2dB cecA | BdBG FAD2 |\
+BdgB ceac | BAGF G2G,2 :|\
+|:\
+BdBG cecA | defd d^cBA |
+fafd  gbge | agfe d2D2 |\
+g2dB cecA | BdBG FADc |\
+BdgB ceac | BAGF G2G,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. foot it & cast off 2 Cu. .| foot it &
+%% cast up again :| cross over 2 Cu. lead up to the
+%% top & cast off .|. hands round 4 at bottom
+%% Right & Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 044
+T: the Friendly Visit
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.22 #44
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+e>B TB2 | (3(FGA) (3(GFE) | B,>GB,>G | (3(FGA) (3(GFE) |\
+e>B TB2 | (3(gfe) (3(dcB) | (3(bfe) (3(dcB) | (3(FB=A) B2 :|
+|:\
+e>BB>c | (3(_dcB) c>A | f>cc>=d | (3(edc) d>B |\
+b>g (3(gbg) | a>f (3(faf) | (3(gfe) (3(Bed) | e2 E2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. hey contrary sides .| then on your
+%% own sides :| lead down 1 Cu. up again & cast
+%% off  .|. Right & Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 045
+T: Christmas Eve
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.23 #45
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: BAB (FBd) | ecA BFA |{c}BAB FBd | ecA B3 :|\
+|: fbf  gec  | fdB ecA |   fbf gec | ecA B3 :|
+|: FBd  FBd  | ecA BFD |   FBd FBd | ecA B3 :|\
+|: fdf  fdB  | geg gec |   bgb bfd | ecA B3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. foot it to the 2d Wo. without turning .|
+%% the same with the 2d Man :| lead down 1 Cu. .|. up
+%% again & cast off :|: Right hands across half round
+%% with the 3d Cu. .|| Left hands back again :|| foot it
+%% & Right hands & Left at top :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 046
+T: Nothing at all
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.23 #46
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+b2fd cdec | dBcA BFED |\
+b2fd cdec | dBcA B2B,2 :|\
+|:\
+fgfd gabg | fdcB cAGF |
+fgfd gabg | fdec B2B,2 :|\
+|:\
+EBGB EBGB | AcAc BFDB, |\
+EBGB EBGB | ABcA B2B,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st & 2d Cu. foot it Right & Left half
+%% round .| the same back again :| lead down 2
+%% Cu. up again & cast off :|: hands round 4 at
+%% bottom :||. Right & Left at top :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 047
+T: Naples dance
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.24 #47
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+a2f2 f2d2 | d2A2 A4 | d2d2 efga | Tf4 e4 |\
+a2f2 f2d2 | d2A2 A4 | d2cB cdec | {c2}d4 D4 :|
+|:\
+f2ef gfed | e2A2 A2Bc | d2cd B2d2 | c2Bc ABcd |\
+e2a2 a2^g2 | a2^gf e2d2 | c2BA B2^G2 | A4 A,4 |
+F2D2 DEFG | A2A2 A2A2 | F2EF DEFG | A2A2 A2A2 |\
+d2A2 e2A2 | f2ed e2A2 | d2A2 e2A2 | f2ed e2a2 |\
+f2ed cdec | d4 D4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off turn your Part: cast up & do the same
+%% cross over 1 Cu. lead up & cast off Hands round
+%% 4 at bottom Right & left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 048
+T: Cox's Museum
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.24 #48
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: The rhythm between the strains isn't right; not fixed.  (The "Da Capo" implies an AABA pattern.)
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2f2 f2(ed) | e2g2 g2(fe) |\
+f2a2 a2(gf) | edcB A3A |\
+d2f2 f2(ed) | e2g2 g2(fe) |
+f2a2 A2c2 | d6- d2 :|\
+|: a2 |\
+a2(gf) efga | f4 a4 |\
+a2(gf) efga | f4 A4 "Da Capo"y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across back again cross over 1
+%% Cu. foot it Right & Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 049
+T: Irish Widow
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.25 #49
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A/B/ |\
+cAF cAF | D3 d3 | cBA GAF | F3 E2A/B/ |\
+cAF cAF | {E}D3 d3 | cBA GFE | F3- F2 :|
+|: A/B/ |\
+cdc fga | cdc cAB | cdc fga | cdc cAB |\
+cAF cAF | D3 d3 | cBA GFE | F3- F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu. cast up again cross over
+%% Right & Left
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 050
+T: la Trompe
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.25 #50
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B2(cd)B2G2 | c2de d4 | c2B2A2G2 | F2A2F2D2 |\
+B2(cd)B2G2 | c2de d4 | c2B2A2G2 | FGAF G4 :|
+|:\
+F2GAF2D2 | F2GAF2D2 | B2d2^c2e2 | dcde d2=c2 |\
+B2(cd)B2G2 | c2de d4 | c2B2A2G2 | FGAF G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. cast up again cross over 2
+%% Cu. lead up & cast off Right & Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 051
+T: the Birth Night
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.26 #51
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2e2 f2e2 | dfed ^c2A2 | d2e2 f2e2 | defg a4 :|\
+|:\
+e2(ef) g2(ga) | g2^f2 g4 | g2(ga) g2a2 | bagf e4 |
+defg a2a2 | dfed ^c2A2 | defg a2a2 |\
+dfed ^c2A2 | a2f2 bagf | e3d d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across back again cross over 2 Cu. lead
+%% up & cast off Right & Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 052
+T: Charlotte's Rant
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.26 #52
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+e2 |\
+a2a2 a2^g2 | a2gf e2e2 | a3b a3g | Tf4 e2e2 |\
+a2a2 a2^g2 | a2gf e2e2 | a3b a3g | Tf4 e2 |]
+g2 |\
+f3e d3f | e2de c2e2 | d3c B3d | cdcB A4 |\
+ABcd e2e2 | aaab a4 | ABcd e2de | B4 A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu. cast up again gallop down foot
+%% it Right & Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 053
+T: a Trip to Portsmouth
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.27 #53
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+c2d2 e2f2 | gfed c2g2 | abag fgfe | dcBA G2g2 |\
+abag f2e2 | dcBA G2(gf) | f2g2 g2^f2 | g6 :|
+|: g2 |\
+abag fgfe | dcBA G2g2 | abag f2e2 | d6 G2 |\
+c3d cdef | g3f agfe | dcBd c2B2 | c6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. cast up again cross over 1 Cu.
+%% Right and Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 054
+T: New Year's gift
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.27 #54
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+[E2G,2]EG | [F2B,2]FA | [E2G,2]EG | [F2B,2]FA |\
+BGEG | AFDF | E2E2 | E4 :|
+|:\
+BGEG | BGEG | FDB,D | FDB,D |\
+BGEG | BGEG | E2E2 | E4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across back again cross over
+%% 1 Cu. Right & Left
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 055
+T: Turks Head
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.28 #55
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2B BcA | G2d dec | B2d efg | cAG FED |\
+G2B BcA | G2d dec | Bcd efg | cAd G3 :|
+|:\
+gab afd | efg dcB | gab afd | efg dcB |\
+B^cd efg | fga a2a | aba gfe | de^c BcA "Da Capo"y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. cast up again cross over 1 Cu.
+%% Right & Left
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 056
+T: Lady Betty Hamiltons Reel
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.28 #56
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+c2dF | c2dF | c2Gc | BFcF |\
+c2dF | c2dF | B2GB | AFF2 :|
+|:\
+C2GE | cGdf | e2ge | affa |\
+C2GE | BFcF | d2GB | AFF2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set and change sides the same back
+%% again cross over Right & left
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 057
+T: Hanoverian dance
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.29 #57
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+c2c2c2 | c2c2c2 | B2(Bdce) | d4d2 |\
+f2f2f2 | f2f2f2 | e2(edef) | g4g2 |
+f2d2B2 | c4g2 | f2d2B2 | c4g2 |\
+a2g2f2 | e2f2g2 | f2e2d2 | c4 :|
+|: g2 |\
+g2a2g2 | g2f2Bc | d2B2f2 | B4d2 |\
+f2g2f2 | f2e2CD | E2C2G2 | C4cd |
+e4f2 | g4f2 | e2efga | g4f2 |\
+e2d2c2 | d2c2B2 | c4c2 | c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off hands 4 at bottom cast up D.o at top
+%% lead down 1 Cu. up again & cast off Right &
+%% Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 058
+T: the Maccarony
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.29 #58
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+df/g/af | dAFA | dBBG | dBBG |\
+df/g/af | dBGB | AFFD | AFFD :|
+|:\
+Ac/d/ec | eccA | dBBG | dBBG |\
+ce/f/ge | Bd/e/fd | Ac/d/ec | d2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu. cast up again cross over
+%% 1 Cu. Right & Left
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 059
+T: Hamilton House
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.30 #59
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 2/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+EGce | {e}d2ce | {e}d2cB | cGEC |\
+EGce | {e}d2ce | edcB | c4 :|
+|:\
+Gceg | g2eg | fedc | {c}B2AG |\
+EGcB | Acfe | dedc | {c2}B4 |
+EGce | {e}d2ce | {e}d2cB | cGEC |\
+EGce | g3f | edcB | c4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across back again cross over Right
+%% & Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 060
+T: Morning Post
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.30 #60
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+Aaec | dBAG | AcBA | GFEG |\
+Aaec | dBAG | cBAG | A2A,2 :|
+|:\
+CECE | DFDF | GBGE | AFED |\
+CECE | DFDF | cedB | A2A,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across back again cross over
+%% 2 Cu. lead up & cast off
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 061
+T: Mrs Cartwrights delight
+N: This tune has "1773" at the top-right corner.
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.31 #61
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The rhytms between the strains are mismatched; not fixed.
+N: The 1st f of the 1st bar should probably be g, like bar 5.
+M: 6/8
+L: 1/8
+K: G	% Actually Dmix in the 1st strain
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f |\
+fab agf | efg fed | caa Bgg | ABG FED |\
+gab agf | efg fga | fed ABc | d3 D2 :|
+|:\
+DGG BGG | dGG BGG | fdd BGG | ABG FED |\
+DGG BGG | dGG BGG | Bcd DEF | G3 G,3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across lead outsides & turn .| the same back
+%% again .|. cast off 1 Cu. hands round four :|. Right
+%% and Left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 062
+T: Just so
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.31 #62
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+E2GB | E2GB | cBAG | FBAF |\
+E2GB | E2GB | gef^d | e2eg :|
+|:\
+B2BG | B2BG | cBAG | ABGE |\
+B2BG | B2BG | gef^d | e2eg :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. up again cross over
+%% 1 Cu. Right & Left
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 063
+T: the Saylors Delight
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.32 #63
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: C
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+(E/F/GE) cdc B2G | (A/B/cA) GEC D2F | (E/F/GE) cdc B2G | (A/B/cA) GEC C2 :|
+|: e |\
+c2c (e/f/ge) gec | (e/f/ge) afd d2e | c2c (e/f/ge) gec | (e/f/ge) gec c2e |
+c2c (e/f/ge) gec |  e/f/ge  afd d2e | cGc  edc     BAG |  A/B/cA  GEC C2 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 4 hands round at bott: .| cast up 4 hands
+%% round at top :| cross over 1 Cu. lead thro' the bott:
+%% :|. lead thro' the top & cast off Right & Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 064
+T: Tristam Shandy
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.32 #64
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+AB |\
+cAAf | fedc | dcBA | BEEB |\
+cAAf | feae | cAEG | A2 :|
+|: ED |\
+CEAc | ecae | cAEC | DB,B,E |\
+CEAc | ecae | cAEG | A2 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across & back again cross
+%% over 1 Cu. Right & Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 065
+T: Green and Gold
+R: reel
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.33 #65
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+defg .a2.a2 | abag f2a2 | gagf e2g2 | f2af d4 |\
+a2A2 z2a2 | a2A2 z2a2 | e4 e4 | a2e2 A4 :|
+|:\
+agfg f2z2 | e2A2 z2g2 | gfef e2z2 | f2D2 z4 |\
+d'3a d'3a | d'2a2 gfed | e2ge {d}c2BA | dcde d4 :|
+"Trio"[|]\
+!p!d3e f2e2 | d2A2 TB2A2 | d3e f2e2 | d4 e2f2 |\
+{a}g2{f}e2 {g}f2{e}d2 | {d}c2{B}A2 e2f2 | {a}g2{f}e2 {g}f2{e}d2 | !f!e2AB AGFE |
+d3e f2e2 | d2A2 TB2A2 | !p!d3e f2e2 | d4 e2f2 |\
+{a}g2fe {g}f2ed | {d}c2{B}A2 d2f2- | fBge d2Tc2 | d8 |]
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st 2d & 3d Cu. foot it & hands round 6 .| the same back
+%% again :| foot it corners & turn .|. foot it the other corners
+%% & turn :|: lead up to the top & cast off .||. lead thro'
+%% the 3d Cu. & cast up :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 066
+T: Saw you my Father
+R: hornpipe
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.33 #66
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Both strains have only 7 bars.
+N: The rthythm between the strains is wrong.
+M: 2/4
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+|: D>EF>G | A2A2 | B2g>e | dcTBA  | d2(dc) | TcBTBA | A2z2 :|
+|: G/ | F>EF>d | {G}F2ED | E>DEF | G2G>B | BAFA | AGFE | D3 z/ :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands round 4 at top .| back
+%% again :| cross over 1 Cu. lead
+%% up the iddle cast off &
+%% Right and Left
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 067
+T: the New merry Dancers
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.34 #65
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+g2(dc) (3(Bcd) cB | ABcB A2D2 |\
+B,DGB, (A,^C).A.c | BGDB, G,4 :|\
+|:\
+(3(Bcd) dd .g(dcB) | (3(Bcd) dd .g(dcB) |
+(ca).a.a (Bg).g.g | Bd DF G2G2 :|\
+|:\
+B,DGB, A,^CAc | BcdB AFED |\
+B,DGB, A,^CAc | Bd DF G2G,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Foot it & change sides .| the same back again :|
+%% hands across 4 :|. left hands across back again :|:
+%% lead down 1 Cu. & foot it .|| Right & Left :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 068
+T: the Whigs of Fife
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.34 #68
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Ddor
+N: The key should probaby be F but there's no Bb in the keysig, no B of any sort in the tune, and it ends on D.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f |\
+cF F/F/F AGGA | cF F/F/F fgag |\
+fF F/F/F AGGA | FDEC D3 :|
+|: e |\
+fccf gdde | fccd f/e/f/g/ ag |\
+fccf gdde | f/g/a ge d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast of 2 Cu. up again cross over 2 Cu. lead up & cast off
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 069
+T: My ain kind deary
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.35 #69
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Shortened last notes in both strains to account for the pickup notes.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+GEDE G2AB | G/A/B AG AEEB |\
+GEDE G2Gg | e2dc dGG :|\
+|: g |\
+e/e/e dB dGGB | A/A/A BG AEEA |
+GEDE G2Gg | e/e/e dB dGGg |\
+e/e/e gd ecgB | A/A/A BG AEEA |\
+GEDE G2Gg | e/e/e dB dGG :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. up again cross over 2 Cu. lead up &
+%% cast off set corners & turn lead outsides
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 070
+T: Burntwood Assembly
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.35 #70
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+cded BcdB | AcBA GEE2 |\
+cded BcdB | AcBA GCC2 :|
+|:\
+AFcA GEcA | AFcA GDD2 |\
+AFcA GEcE | Fagf ecc2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across .| back again :| cross over
+%% 1 Cu. :|. Right & Left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 071
+T: a Trip to Hanau
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.36 #71
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+e |\
+cdc c2d | efe e2d | c2B A2G | AEC A,2c |\
+B2A G2F | GeB B2A | G2F E2^D | EFE E2 :|
+|: e |\
+cdc c2e | dfd B2d | BcB B2d | cec A2E |\
+cdc c2B | ABA A2C | D2C B,2E | AEC A,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man cast off & turn the 3d Wo. & stay in the
+%% 2d Mans place .| the 1st Wo. cast off turn the 3d Man &
+%% go to the 2d Wo.s place :| foot it all 6 & change sides .|.
+%% foot it all 6 again every Gent.n turns his Partner
+%% into their proper places :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 072
+T: Jacks Delight
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.36 #72
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The rhythms between strains are wrong; not fixed.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+ADDB d2df | edef E/E/E EG |\
+FDDB d2df | edef d/d/d d2 :|\
+|: f |\
+afab afdf | edfd e/e/e ef |
+afab afdf | edef d/d/d df |\
+afab afdf | edfd e/e/e ea |\
+bfae fdec | dBAG d2df :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across .| back again :| cross over
+%% :|. Right & Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 073
+T: Stag Chace
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.37 #73
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The A flat in bar 15 should probably be G sharp.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A4 G4 | F2A2c2f2 | e2c2A2c2 | d4 D4 |\
+A4 G4 | F2A2d2f2 | e2dc d2cB | A4 A,4 :|\
+|:\
+e4 d4 | c2e2c2A2 | f4 e4 | ^d2f2d2B2 |
+^g4 f4 | e2fg f2e2 | d2c2B2_A2 | B4- B4 |\
+A4 G4 | F2f2 Tf4 | e2c2A2c2 | d2D2F2D2 |\
+A4 G4 | F2a2 a4 | f2ed e2dc | d4 d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. up again cross over 1 Cu. Right & Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 074
+T: Catches and Glees
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.37 #74
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+cef gec | fdc BAG |\
+cef gec | fdB c3 :|\
+|:\
+fdc BAG | fdc BdG |\
+g2e/c/ g2e/c/ | fdB c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. cast off 2 Cu. .| cast up
+%% again :| lead down 1 Cu. foot it to
+%% your Partner .|. lead up to the top
+%% & cast off 1 Cu. :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 075
+T: Gloucester House
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.38 #75
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Despite the 2/4 time signature, this tune is mostly triplets, but not notated as such in the book.
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+ded def | gag g>b | agf edc | ded d>A |\
+ded def | gag g>b | agf edc | d2 d :|
+|: !p!A |\
+aba fga | gag efg | fef def | efe A>!f!A |\
+ded def | gag g>b | agf edc | d2 D :|
+|: !pp!E |\
+=FGA AGF | EFG GFE | DEF FED | CDE A,>!f!A |\
+ded def | gag g>b | agf edc | d2 D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. foot it hands round 3 with the 2d Wo. .| the same
+%% with the 2d Man :| lead down 2 Cu. foot it to your Partner .|.
+%% lead up to the top & cast off :|: hands round four at
+%% bottom .||. Right & Left at top :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 076
+T: Ross House
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.38 #76
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Added dots to last note in each strain to fix the rhythm.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f |\
+d2AG FGAc | d2AF E3c |\
+d2AG FGAg | (f/g/a) ef d3 :|\
+|: g |\
+fede =cdeg | fedf  g3a |\
+fede =cdeg | f/g/a ef d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across back again lead
+%% down 1 Cu. up again & cast off
+%% Right and Left
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 077
+T: the Spaw
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.39 #77
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+C2cB c2c2 | e2c2 e4 | g2e2 gfed | cBcd c2c2 |\
+C2cB c2c2 | e2c2 e4 | g2f2e2d2 | c4 c4 |
+f2f2e2e2 | f2f2 e4 | f2f2e2e2 | f2f2 e4 |\
+C2cB c2c2 | e2c2 e4 | g2e2 gfed | c4 c4 |
+F3GA2A2 | A2c2 c4 | A2c2 dc_BA | GFGA G2G2 |\
+F3GA2A2 | A2c2 c4 | A2c2 dc_BA | A4 G4 |
+G2A2_B2B2 | A2c2f2A2 | G2A2_B2B2 | A2c2 dc_BA |\
+F2G2A2A2 | A2c2f2A2 | c2A2 c_BAG | F8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Right hands across left hands back again .| lead down
+%% the middle up again cast off 1 Cu. :| lead thro' sides on
+%% the Wo.s then the Mens side Allemand with your Part:
+%% Right and Left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 078
+T: Happy times
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.29 #78
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2fd e2ge | f2af ecBA |\
+d2fd e2ge | faAc d2D2 :|\
+|:\
+D2FD AFdB | AFED CECA, |\
+D2FD AFdB | AGFE D2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. cross over & turn .|
+%% cross over again & turn :| lead up to
+%% the top & cast off .|. hands round 6 :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 079
+T: the Hot Bath
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.40 #79
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+dfa gec | dfa gec | dfd Bge | ced cBA |\
+dfa gec | dfa gec | dfd Bge |TcBc d2 :|
+|:\
+FGA AB=c | B^cd cde | dAd eAe | fdf {f}e3 |\
+FGA AB=c | Bcd cde | eag fed | TcBc {c}d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. cast off 1 Cu. hands round with the 3d
+%% Cu. .| cast up & hands round with the 2d Cu. :| lead
+%% down 2 Cu. up again & cast off .|. lead thro' the 3d
+%% Cu. & cast up Right & Left at top :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 080
+T: Patty's Whim
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.40 #80
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+a2e cBA | a2f edc |\
+def edc | dcB A3 :|\
+|:\
+e2f ecA | d2f fdB |\
+c2d ecA | dcB A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. foot it to the 2d Wo. but
+%% not turn .| the same to the second
+%% Man :| lead down 1 Cu. foot it to your
+%% Part: .|. Right & Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 081
+T: Snakes Lane
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.41 #81
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+GABc dBAG | DEFG ABdf |\
+gbge dedB | BdAc B2GG :|\
+|:\
+GBAc dedB | GEDB, CEGc |\
+egfa fdec | B2TA2 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. .| cast up again :| cross over
+%% 2 Cu. :|. lead up & cast off :|: set corners &
+%% turn :|| lead outsides :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 082
+T: the Milk Pot
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.41 #82
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: A smudge over the time signature means that it may be C rather than C|, but it's not important.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+F2AB c2f2 | cAGF GEDC |\
+F2AB c2f2 | ecG=B c4 :|\
+|:\
+d2dB cAGF | f2af gedc |\
+b2gb a2fc | dBAG F4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu. cross over the next .| cast up
+%% again & cross over to the top :| cross over
+%% 1 Cu. .|. Right & Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 083
+T: Kew Gardens
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.42 #83
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+f2ed cAeg | fdAf ecBA |\
+FAdf Bdgb | afec d2D2 :|\
+|:\
+f2ed ceac | dfed cBAG |
+FAdF GBdg | fdaf ecA2 |\
+f2ed ecBA | g2bg afed |\
+Bdgb Adfa | gedc d2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. foot it & cast off 2 Cu. .| foot it & cast
+%% up again :| cross over 2 Cu. lead up to the top &
+%% cast off .|. foot it hands round all 6 :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 084
+T: Good news from Leghorn
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.42 #84
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+gfgd | BdBG | EcAF | GDB,G, |\
+gfgd | BdBG | edcB | {B2}A4 :|
+|:\
+AcTc2 | BdTd2 | EcAG | {G}F2ED |\
+GBdg | ecBA | BAGF | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. cast off hands round 4 with
+%% the 3d Cu. .| cast up hands round with the
+%% 2d Cu. :| lead down 1 Cu. up again & cast
+%% off .|. Right & Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 085
+T: the Merry Fifers
+N: This tune has "1772" at the top-right corner.
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.43 #85
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: aec aec | A>Bc A>Bc | aec aec | dBG A3 :|\
+|: TA2E TA2E | c2E c2E | def fed | cdB A3 :|
+|: .A.B.c .d.e.f | e>dc B>A=G | F=GE dcB | AB^G A3 :|\
+|: Te3 Tf3 | edc BA=G | F3 d2B | AB^G A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st & 2d Cu. change sides, the same back again, lead down 1
+%% Cu. up again & cast off, Right hands across half round with the
+%% 3d Cu. Left hands back again, Right & Left at Top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 086
+T: the Fairies
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.43 #86
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+bfdB ecAF | E>G Cc {B}A2GF |\
+bfdB ecAF | BdFA B2B,2 :|\
+|:\
+fdc=B cded | ecBA BcdF |\
+Gceg fABe | dcBA B2B,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st & 2d Cu. foot it change sides,
+%% the same back again, cross over 2 Cu.
+%% lead up to the top & cast off, foot it
+%% corners & turn, lead out sides & turn.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 087
+T: Gramachree
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.44 #87
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+(A>B)A>F (B>c){e}d>{c}B | (A>F)(D>F) (E>D)(E>F) |\
+(A>B)(A>F) (B>c)({e}d>{c}B) | (A>F)(E>F) D/D/D D :|
+{Bc}d>cd>e .d.c.B.A | (B>A)(d>F) (A>B)(A>F) |\
+{Bc}d>cd>e .d.c.B.A | (B>A)(d>F) [A4F4] |
+{Bc}d>cB>A B>cd>g | {g}f/e/f/g/ a>f e>de>f |\
+d>c.B.A (B>d)(g>b) | a>fe>f d/d/d d |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st & 2d Cu. set & change sides .| the same back
+%% again :| lead down the middle up again & cast
+%% off .|. set each cross corners and turn :|. lead
+%% out each side :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 088
+T: Island of Love
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.44 #88
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+Bc |\
+dBAB G2AB | cAFA DFAc |\
+Bgfe dcBA | B2G>G G2 :|\
+|: Bc |\
+dBed d2Bc | dBed d2Bc |
+dBgf edcB | BAAA A2Bc |\
+dBAB G2AB | cAFA DFAc |\
+Bgfe dcBA | B2G>G G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st & 2d Cu. foot it & change places .|
+%% that back again :| hands round all 6
+%% back to back .|. cross over one Cu. &
+%% right & left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 089
+T: German Dance
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.45 #89
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: (E2 E/D/E/F/) | EGE2 | (F2 F/E/F/G/) | FAF2 | G2A2 | Bcde | BAGF | E2E2 :|
+|: d2fd | e2ge | d2fd | e2ge | c2ec | B2ec | BAGF | E2E2 :|
+|: B3c | BBB2 | G3A | GGG2 | E2(3(EFG) | F2(3(FGA) | GEFD | E2B,2 :|
+|: d2fd | e2ge | d2fd | e2ge | c2ec | B3c | BAGF | E2E2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st & 2d Cu. right hands across round .| left
+%% hands back again :| lead down the middle up
+%% again & cast off .|. set 3 & 3 top & bott: then
+%% the sides & lead out each side :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 090
+T: Miss Baker's Hornpipe
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.45 #90
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Removed flag from last note to fix the rhythm on repeats.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+cB |\
+A2F2- FAGF | EGB2- BdcB |\
+Acde fcdB | A2F2- F2 :|\
+|: (3(cde) |\
+fcAc fagf | gece gbag |
+afge fdgf | e2c2- c2fc |\
+(3(def) (3(ABc) B2ba | gfed c2BA |\
+(3(Bcd) (3(EFG) FdcB | (A2F2 F2) :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Man foot to the 2d Wo. & turn 1st Wo.
+%% D.o to the 2d Man hands round four half
+%% figure with the top Cu. hands round 4
+%% at bottom right & left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 091
+T: Take me Jenny
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.46 #91
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A2GF GABG | A2GF cGGc |\
+A2Bc defc | d2Fc AFF2 :|\
+|:\
+c>dc>f d>ed>f | c>dcB/A/ AGz2 |
+c>dcf d>edf | c>dcB/A/ AGz2 |\
+c>BA2 d>cB2 | f2c_e dBB2 |\
+A>Bc2 d>efg | affc dff2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Foot it change sides, foot it back again, cross over one
+%% Cu. Right & Left at top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 092
+T: Banners Cross
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.46 #92
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+dcd ecA | Bcd e3 |\
+dcd ecA | Bdc d3 :|\
+|:\
+ecA ecA | ecA g3 |\
+bag faf | ecA d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. cast up again,
+%% cross over 2 Cu. lead up & cast off,
+%% set corners & turn, lead out sides.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 093
+T: the Coterie
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.47 #93
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+dcBA G2B2 | A2c2 B2d2 | c2e2 d2B2 | A2G2 ^F2D2 |\
+dcBA B2d2 | c2e2 d2g2 | f2e2 d2c2 | B4 B,4 :|
+|:\
+dc=Bc c2C2 | cBAc B2d2 | c2B2 A2G2 | A4 D4 |\
+G2B2 A2e2 | d2g2 d2B2 | A2G2 A2^F2 | G4 G,4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st & 2d Cu. foot it Right & Left half round,
+%% foot it Right & Left back again, cross over 2 Cu.
+%% turn your Partner, lead up to the top foot it
+%% and cast off.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 094
+T: Southampton Room
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.47 #94
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f |\
+fgf efe | ded cdc | Bcd ecA | BFD B,2f |\
+fgf efe | ded cdc | Bcd ecA | B3- B2 :|
+|: c |\
+fcc dBB | Acc c3c | fcc dBB | Acc c2a |\
+gag fgf | =efe ded | cdc BAG | F3- F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu. hands 4 round at bottom, cast up
+%% hands 4 at top, cross over 1 Cu. lead up & cast off,
+%% hands 4 round at bottom Right & Left at top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 095
+T: la Ballet Hollandoise
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.48 #95
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd and 4th strains may be rewritten as 4-bar phrases with 1st and 2nd endings.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2c |\
+BAG AGF | G2D d2c | BAG AGF | G3 :|\
+ABG |\
+ABG ABG | A2A c2B | A2G FGE | D3 ABG |
+ABG ABG | A2A c2B | A2G GAF | G3 \
+|: g2g |\
+f2f e2e | def gag | fed Te3 | d3 :|
+ABG |\
+ABG ABG | A2A c2B | A2G FGE | D3 ABG |\
+ABG ABG | A2A c2B | A2G GAF | G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Right hands across left back again change sides
+%% 3 Cu. cast off 3 Cu. all round into their places
+%% Almand 3 Cu. cast off 1 Cu. right & left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 096
+T: Mount Sion
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.48 #96
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: aec aec | A>Bc A>Bc | aec aec | dBG A3 :|\
+|: TA2E TA2E | Tc2E Tc2E | d>ef Tf>ed | Tc>dB A3 :|
+|: .A.B.c .d.e.f | Te>dc B>A=G | F=GF dcB | ABG A3 :|\
+|: Te3 Tf3 | edc BA=G | F3 d2B | ABG A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Cu. set to the 2d Wo. & not turn .| D.o to
+%% the 2d Man :| lead down 1 Cu. .|. up again &
+%% cast off :|. right hands across half round
+%% with the 3d Cu. .|: left hands D.o return :|:
+%% right & left at top .:|:.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 097
+T: Trip to New England
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.49 #97
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+GABc d2g2 | dBAG AFED | d2cB e2f2 | gdcB B2A2 |\
+GABc d2g2 | fgab {g}f2ed | ged^c dgbg | fed^c d4 :|
+|:\
+A2Bc B2cd | c2B2 g2f2 | efga bgfe | ^d2cd B2ef |\
+g2d2 edcB | ABcd {c}B2AG | cAGF e2dc | BAGF G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. lead up & cast off hands across at
+%% bottom & back again lead up to the top & cast off
+%% lead thro' the bottom & cast up Right & Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 098
+T: the Farmer's Delight
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.49 #98
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+GBG gbg | GBG g3 | efg DB,G, | FGA AFD |\
+GBG gbg | GBG g3 | efg fed | e3 d3 :|
+|:\
+Bcd ege | dcB c3 | BAG A3 | GFE D3 |\
+GBG gbg | GBG g3 | efg dcB | A3 G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu. foot it cast up again & foot it
+%% cross over 1 Cu. lead up & cast off set corners
+%% & turn lead out sides & turn.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 099
+T: Miss Mack's Reel
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.50 #99
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2 (DE/F/) GDB,G, | GABG A/A/A A2 |\
+G3 (F3/E//F//) GG,G,c | BdAB G/G/G G2 :|\
+|:\
+BcdB ecdB | cBAG =F/F/F A2 |
+Bd-dg ecdB | cAdB G/G/G G2 |\
+BcdB ecdB | cBAG =F/F/F A2 |\
+Bd-dg egdB | cAdB G/G/G G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. cast up again cross over 2 Cu. lead up & cast
+%% off set corners & turn lead out sides
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 100
+T: Lord Baltimore's Rant
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.50 #100
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The dots after notes in bars 5 and 6 are probably wrong, since they give 7 16th-notes in the beat.
+M: 6/8
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+FE |\
+D2F2B2 E2G2c2 | D2F2B2 d2B2G2 |\
+D2F2B2 E2G2c2 | e2c2A2 B4B,2 :|
+|:\
+(B3Bcde) f2d2B2 | (A3ABcd) c2A2F2 |\
+D2F2B2 E2G2c2 | e2c2A2 B4B,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set all 4 & change sides the same
+%% back again Gallop down 1 Cu. up
+%% again & cast off Right and
+%% Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 101
+T: the Postman's Horn
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.51 #101
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+c2e gfe | d2e fed | edc dcB | cAF GEC |\
+c2e gfe | d2e fed | edc dcB | c3 c3 :|
+|:\
+e2c BAG | A2F EDC | CEC DFD | EGF EDC |\
+FAF GBG | Adc BAG | cec dcB | c3 c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across, back again, cross over, Right & Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 102
+T: the Purfleet
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.51 #102
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Ador
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B |\
+D/D/D EG AGEG | D/D/D EG c2ce |\
+dBgB AGEG | D/D/D EG A2A :|
+|: B |\
+cABG AGEG | cBcd efge |\
+dBgB AGEG | D/D/D EG A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across, & back again, cross over
+%% 1 Cu. Right & Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 103
+T: Lady Grove's Rant
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.52 #103
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B |\
+G/G/G dc d3g | fdcA FGAF |\
+G/G/G BG Bddf | AFcA G3 :|\
+|: f |\
+gagf dfga | fdcA FGAf |
+gagf dega | fdcB G3f |\
+gagf dfga | fd/c/ dc/B/ cdfa |\
+gafg dfcf | AFcA G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. up again cross over 1 Cu. lead up and
+%% cast off set corners & turn lead out sides & turn
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 104
+T: Trip to Bath
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.52 #104
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+GBdB e2eg | dBGB A/A/A A2 |\
+G/A/B/c/ dB e2eg | gagd B/B/B B2 :|
+|:\
+gage dedB | gage agab |\
+gbeg dega | b/a/g/f/ gd B/B/B B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set all 4 & change sides set the same
+%% back again cross over one Cu.
+%% Right & Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 105
+T: Harry's Delight
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.53 #105
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+a2fa g2eg | gfed cBAG |\
+FAc2 GBeg | fedc d2D2 :|\
+|:\
+A2FA B2dB | AFED AFED |\
+A2FA B2dB | AGFE D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across back again cross over one Cu.
+%% Right & Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 106
+T: Oxford Ramble
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.53 #106
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+GGBG dddB | edcB AFED |\
+GGBG dddB | edcB {B2}A4 :|\
+|:\
+DFAc cBBA | DGBd dccB |\
+eecA ddBG | cAGF G2G,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. cast up again cross over 2
+%% Cu. lead up to the top & cast off set corners
+%% & turn lead out sides & turn
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 107
+T: Parcell of Rogues in the Nation
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.54 #107
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2G BdB | G2B B2g | d2G BdB | A2e e2g |\
+d2G BdB | g2b bag | fed ABc | d2  d3 :|
+|:\
+a2d faf | d2a a2b | agf edc | c3  B2e |\
+d2G BdB | e2g gfe | dcB ADF | G2G G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set all 4 & change sides, the same back again;
+%% cross over 1 Cu. Right & Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 108
+T: Polly's Fancy
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.54 #108
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B/c/ |\
+dBGB | cAFA | BGEG | FDD B/c/ |\
+dBGB | cAFA | BGEF | G2G, :|
+|: G/A/ |\
+BGGB | AFFA | GEEG | FADF |\
+GBBG | FAAF | EcAF | G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands 6 round, the same back again, cross
+%% over 1 Cu. lead thro the bottom & cast up
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 109
+T: the Cuckoos Nest
+N: This tune has "1771" at the top-right corner.
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.55 109
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Strain 2 bar 3 the B should probably be natural.
+M: C
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+AG |\
+FEFD f2ed | cAFA B2AG |\
+FEFD CcBc | c2 G4 AG |\
+FEFD fefd | cAFA BABG |
+FEFD CDEF | F2 D4 :|\
+|: A2 |\
+d^cde fefd | c2 A4 A=B |\
+cBcd edec | c2 G4 AG |
+FEFD fefd | cAFA BABG |\
+FEFD CDEF | F2 D4 :|\
+|: FG |\
+AFDF AFDF | (3AGF (3FED D2EF |
+GECE GECE | (3(GFE) (3FED C2AG |\
+FEFD fefd | cAFA BABG |\
+A/G/F/E/ G/F/E/D/ CD EF/G/ | F2 D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. cast off 1 Cu. and Right Hands across with the 3d Cu.
+%% .| cast up and Left Hands across with the 2d Cu. .|. the 1st foot it to
+%% the 2d Wo. and Hands round 3 .| the same to the 2d Man :| cross over
+%% 2 Cu. .||. lead up to the top foot it and cast off :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 110
+T: Now or Never
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.55 #110
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+FDDF | GEEG | FDDF | f2e2 |\
+FDDF | GEEG | FDEC | D4 :|
+|:\
+afdB | gecA | fdBf | f2e2 |\
+afdB | gecA | fdAc | d2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across and Back again
+%% Cross over 1 Cu. Right and
+%% Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 111
+T: Bedford House
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.56 #111
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Fixed incorrect rhythms in bars 5, 10 & 13 (dotted 8th + 2 16th notes -> 1/4 + 2 16th notes).
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d/e/ |\
+fde fgf | fde fgf | fdB fdB | ccc Tc2d/e/ |\
+fde fgf | fde fgf | fdB ecA | B3 B,3 :|
+|: A/B/ |\
+cFd cFe | cFd c2A/B/ | cFd cFe | fed c2A/B/ |\
+cFd cFe | cFd c3 | fdB ecA | B3 B,3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu. 4 Hands round at Bottom cast
+%% up and 4 Hands round at top cross over 3 Cu.
+%% lead up and cast of Right and Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 112
+T: Non suit him ** INCOMPLETE **
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.56 #112
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Bars 4, 7, 8 are only partly visible; rests used for invisible notes; '?' marks dubious notes.
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+GGBG | AAcA | Bdc"?"A | B"?"z"?"zA |\
+GGBG | AAcA | B"?"GAF | G"?"z"?"z"?"z :|
+[|\
+GB dB | FA df | ed^cd | e=cGF |\
+E^ceG | FA dg | fde^c | d3 D"D.C."y |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. lead up and cast off Hands
+%% 4 round Right and Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 113
+T: the Scotch Fidler
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.57 #113
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+cBc AGF | E2G c2f | ece fae | fdd d2e |\
+cBc AGF | ECG ceg | faf ecg | ecc c3 :|
+|:\
+gfe afd | fed gec | Bcd gea | fdd d2e |\
+cBc AGF | EFG ceg | afd agf | ecc c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across Back again cross over 1 Cu.
+%% Right and Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 114
+T: Mind your Business
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.57 #114
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+FGA GAB | ABc cde | faf cAF | BGG G3 |\
+FGA GAB | ABc cde | faf cAc | AFF F3 :|
+|:\
+fef cAF | dBd cAF | GBd ceA | BGG G3 |\
+AFF BGG | cAA def |gab af/e/d/c/ | AFF F3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set all 4 and change sides the same Back again
+%% cross over 1 Cu, Right and Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 115
+T: New Town of Edinburgh
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.58 #115
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The low G# in bar 1 is probably a typo; it makes more sense as a low A, as in bar 3.
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E |\
+G,EAc d/c/B/A/ GA | c/d/e c/d/e dB,B,C |\
+A,EAc d/c/B/A/ GA | B/c/d B/c/d AA,A, :|
+|: E |\
+FEAE FEAE | C/D/E C/D/E B,BBE |\
+FEAE FEAE | B,/C/D B,/C/D A,AA :|
+|: d |\
+c>deA GAFG | EADA B,BBd |\
+c>deA fAeG | dcBA EAA :|
+|: c |\
+Aceg agfe | dcBA GBBd |\
+Aaga eaca | Ba g/a/b aAA :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast of 2 Cu. cast up again .| cross over 2 Cu.lead up and
+%% cast off :| Set corners and turn .|: lead thro the Bottom &
+%% cast up Right and Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 116
+T: Merry thought
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.58 #116
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G3  BdB | cAG FED | G3  BdB | A3 D3 |\
+G3  BdB | def gab | afd gec | d3 D3 :|
+|:\
+a3  afd | B3  B2d | e3  ecA | F3 F2G |\
+ADA B2c | def g2c | BdB cAF | G3 G,3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu. 4 Hands round
+%% at Bottom cast up 4 Hands at
+%% top cross over Right and
+%% Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 117
+T: Miss Ray's Jigg
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.59 #117
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The left edge of the dance description is missing a lot of pixels.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G3 DGB | A3 DAc | B2c dBG | F2G AFD |\
+G3 DGB | A3 DAc | BcB AGF | G3 G,3 :|
+|:\
+d3 dBG | F2G AFD | E2E EDC | B,2C DCB, |\
+d2d dBG | F2G AFD | EcB AGF | G3 G,3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across and Back again cross over 2 CU.
+%% Back up and cast off Set corners and turn
+%% [ILLEGIBLE]
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 118
+T: Margate Rout
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.59 #118
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The last note in each strain is a dotted half note; these dots were removed to fix the rhythm.
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: f2dB g2gb | fdcB cAGF | f2dB g2gb | fdec B4 :|
+|: d2dB cAGF | f2fd ecBA | gfef gaba | fdec B4 :|
+|: B2BA BFDB,| B2BA BFDB,| Bcde fgfe | dBcA [B4B,4] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across back again cross over 2 Cu. lead
+%% up and cast off 4 Hands round at Bottom
+%% Right and Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 119
+T: Lady Burnards Reel
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.60 #119
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The f in bar 10 is marked with a natural, the similar f natural in bar 11 implies that it is f sharp, which makes more sense.
+M: 9/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: AcA FAF afa | f2c dBG  EDC | ABc def gec | a2f efd c3 :|
+|: gec bgb afd | f2e dcB  A2B | cAc def edc | dgB ABG F3 :|
+|: cAF fed cAF | GAB dg^f g2G |=fed cde f2c | ABc dfe f2F :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. cast up again cross over 1 Cu. lead
+%% [ILLEGIBLE] Bottom Right and Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 120
+T: the Seven Sisters
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.60 #120
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+f/f/f fB e/e/e eA | dAdF E/E/E E2 |\
+f/f/f fB e/e/e eA | dFBG D/D/D D2 :|
+|:\
+=c/c/c cG A/A/A AF | =cAcF E/E/E E2 |\
+aefc dBcF | GE^cE D/D/D D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across Back again cross over 1 Cu.
+%% Right and Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 121
+T: Wild Goose Chace
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.61 #121
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The first strain has only 7 bars.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+cB |\
+Acfa f2cB | Ac FA G2BA | dB bg afef | g2ga g2cB |\
+AF cA fc af | ge c'a ge de | c2 cd c2 :|
+|: cB |\
+AB cd {f}_e2dc | df Ac B2 dc | =Bd ef ga bf | ef ga g2 BA |\
+Ac Fc Bd Gd | =Bd gb fe dc | dB bg ac' eg | f2 ff f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu. Hands 4 round at Bottom cast up
+%% Hands round at top cross over 1 Cu. lead up and
+%% cast off Right and Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 122
+T: the Royal Sportsman
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.61 #122
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G/G/G GB d=fed | (ec)(cA) BGFD |\
+G/G/G GB d=fed | e/e/e ec d2D2 :|
+|:\
+d/d/d dd (ec)(cA) | d/d/d ae f2e2 |\
+gdec =fddc | BGAB G/G/G G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. cast up again cross over
+%% 2 Cu. lead up set corners lead outsides
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 123
+T: the Denmark Dance
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.62 #123
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: F2 F/E/F/G/| FA F2 | G2 G/F/G/A/ | GB G2 | A2 B2 | cdef | A2 G2 | F4 :|
+|: e2 ge | f2 af | e2 ge | f2 af | d2 fd | c2 fc | A2 G2 | F4 :|
+|: c3 d | c>c c2 | A3 B | A>A A2 | GA B2 | AB c2 | BGAF | E2 C2 :|
+|: e3 f | e>e e2 | f3 f | f>f f2 | d4 | c2dB | A2 G2 | F4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across Back again cross over 2 Cu. lead up
+%% and cast off set corners and turn lead outsides
+%% and turn
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 124
+T: the Fidlers Wish
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.62 #124
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Notes marked with "?" are guesses due to only partial legibility.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d>ef>d B/B/B e2 | d>ef>d g>ef>d |\
+g>ef>d B/B/B e2 | d>BA>G D/D/D D2 :|
+|:\
+D>FA>d A>FE>A | d>ef>"?"d "?"e>"?"dB>e |\
+d>BA>G F>Ad>g | f>de>f d/d/d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. cast up again cross over
+%% 2 Cu. lead up to the top and cast off set
+%% corners and turn lead outsides and turn
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 125
+T: the Frolicksome Lasses
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.63 #125
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The last word of the title is partly missing; the more-readable title from the index is used.
+N: Some partly-visible words of the dance description [bracketed] guessed from context.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: F/F/F Ac fafc | dBfA G/G/G G2 | F/F/F Ac fafc | dfcA F/F/F F2 :|
+|: fefc     dfcA | BGdB G/G/G G2 | fefc     dfcB | AdcE F/F/F F2 :|
+|: cAFA     cAFA | BGdB G/G/G G2 | fefc     dfcB | AdcA F/F/F F2 :|
+|: FAFD     FAFD | BdcA G/G/G G2 | afge     fcdB | AFGA F/F/F F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set to [the] 2d Lady and turn her .| the Lady turn the
+%% 2d Man :| cross [over] 1 Cu. .|: lead up and cast off :|: set
+%% corners and [turn] .|| [lead] [out]sides and turn :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 126
+T: la Vandumore
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.63 126
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The title is partly missing; the more-readable title from the index is used.
+N: Some partly-visible words of the dance description [bracketed] guessed from context.
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+BB BA | cc cB | gd BG | A/G/A/c/ BG |\
+BB BA | cc cB | gd BG | A/G/A/B/ G2 :|
+|:\
+dd Td2 | cc Tc2 | BB TB2 | AA TA2 |\
+BB BA | cc cB | gd BG | A/G/A/B/ G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across .| Back again :| cross
+%% [over] 1 Cu. Allemande .|: Allemande
+%% [back] [again] lead through [the] top
+%% and cast off :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 127
+T: Contradine Venetian
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.64 #127
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+c2 {e}dc | {c}B2 AG | AGAB | ce gz |\
+cedc | {c}B2 AG | AGAB | c2 C2 :|
+|:\
+e2 Fe | (f/g/a/g/) fe | dedc | B2 d2 |\
+e2 Ee | f/g/a/g/ fe | dcGB | c2 C2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu. cast up again cross over
+%% 1 Cu. Right and Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 128
+T: Neds Frolick
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.64 #128
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2D ed^c d2D | e2c A2a {g}f3 |\
+gba gfe f2^c | eba gfe d3 :|
+|:\
+b2g fed g2B | edc BAG [A3F3D3] |\
+BGB cAc def | gec AdB G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across and Back again cross over 1
+%% Cu. Right and Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 129
+T: Up the Water
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.65 #129
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(Ac)(ce) | (Bd)(df) | ecBA | GBGE |\
+(Ac)(ce) | (Bd)(da) | geB^d | e2D2 :|
+|:\
+(fd)(df) | (ec)(ce) | (dB)(Bd) | dBGE |\
+(fd)(df) | eaad | cAEG | A2A,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast of 2 Cu. cast up again cross over
+%% 2 Cu. Right and Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 130
+T: Sweet Willy O
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.65 #130
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: This tune has only 14 bars.
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+B>cB DFB | def f2e/d/ | efe GBd |\
+gab bag | fgf fdB | eGG G2A | Bcd def |
+gcc c2F | BcB dfd | BcB dfd | BcB dfd |\
+B_aa agf | gec fdB | BcB B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast of 2 Cu. lead up 1 Cu. Hands 4 round
+%% lead up and cast off
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 131
+T: the Dancer's Delight
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.66 #131
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+ABA ABc | ded def | eae Bcd | cAA A3 |\
+ABA cAc | def e2a | gfe fB^d | e3 E3 :|
+|:\
+edc bBc | dcB e2c | fdf e(d/c/B/A/) | GAB E2E |\
+FAd cea | edc f2g | acd efd | cAA A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu. cross over the next .| cast up 1 Cu. and
+%% cross over to the top :| cross over 1 Cu. lead through
+%% the Bottom and cast up .|: through the top and cast
+%% off Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 132
+T: Lady Gray's Reel
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.66 #132
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+dA FD dA FD | GBAF E/E/E E2 |\
+dA AF dA AF | GBAF D/D/D D2 :|
+|:\
+Aceg Adfa | fdcd e/e/e e2 |\
+Aceg Adfa | fdAc d/d/d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. .| cast up again .|. cross over
+%% 2 Cu. .|: lead up and cast off :|: set corners
+%% and turn :|| lead outsides :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 133
+T: Flowery Fields
+N: This tune has "1770" at top-right corner.
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.67 #133
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+BdB cAF | G2g gab | afd gab | agf edc |\
+BdB cAF | G2g bag | faf ge^c | ddd d2 :|
+|: g |\
+ecc cag | fdd d2b | gee ec'b | agf edc |\
+BdB cAF | G2g bgd | egB cAF | GGG HG2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Figure down on your own sides and turn at
+%% bottom .| figure up and turn at top .|. Gallop
+%% down 2 Cu. up again and cast off .|: Right
+%% and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 134
+T: the Miser
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.67 #134
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E |\
+AAA ABc | BBB Bcd | cec dBG | AEC A,2E |\
+AAA ABc | BcB Bcd | cec dBG | A3  A,3 :|
+|:\
+cee efg | fdd d3  | dff fga | gee e3 |\
+cAA ABc | dBB Bcd | cec dBG | A3 A,3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hey Contray Sides .| then on your own Sides
+%% :| Cross over one Cu. Lead up and Cast off .|:
+%% hands round four at Bottom Right and Left
+%% at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 135
+T: Pretty Polly
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.68 #135
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+BAB G2B | AGA D2=F | EFG ABc | BAG FED |\
+BAB G2B | AGA D2=F | EcB AGF | G3 G,3 :|
+|:\
+d2d dcB | c2d e2e | edc BAG | FGA D3 |\
+EFG ABc | Bcd efg | dBG cAF | G3 G,3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hey Contrary sides .| then on your own
+%% sides .| Cross over 1 Cu. .|: Right and Left
+%% at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 136
+T: Kiss your Partner
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.68 #136
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2G2 G2D2 | BGdB g2d2 | edcB ABcd | BAGB AFED |\
+G2G2 G2D2 | BGdB g2e2 | fafd ged^c | d4 D4 :|
+|:\
+A2A2 A2ce | dBA^G A2A,2 | G2G2 G2Bd | cBAG FAD2 |\
+G2D2 B2G2 | cdef gdec | BdBG cAGF | G2D2 G,4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set and half Right and Left the same back
+%% again .| Cast off 2 Cu. Cast up again :| hand across
+%% half round and back again .|: Cross over half
+%% figure Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 137
+T: Bottle and Glass
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.69 #137
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: What's the reason for the natural sign in bar 10?
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+dcd edc | dcB A2d | cAd BGE | FGA D2A |\
+dcd edc | dfd B2a | edc agf | cdB A2 :|
+|: e |\
+edc gfe | fdB g2f | edc dF=A | B3- B2d |\
+d^Ac BAG | Bed c2d | BAG FdA | BGF E2D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. .| Cast up again :| Cross over
+%% 1 Cu. .|: Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 138
+T: Roman Eagle
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.69 #138
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+a2ec f2dB | ecBA BGFE |\
+a2ec f2dB | cBAG A4 ::\
+EAcA BcdB | ABcd e4 |
+fdec dBcA | Aagf e4 |\
+fgfe dcB2 | efed cBA2 |\
+EAcA FBdB | cBAG A4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across .| and back again :| Gallop
+%% down 1 Cu. up again and Cast off and foot
+%% it to your Partner .|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 139
+T: the Miller's Daughter
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.70 #139
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+a |\
+e/e/e e2 c>ded | ceAa Tf2ea |\
+e/e/e Te2 c>dec | B/B/B de f2e :|
+|: f/g/ |\
+a>ea>f e>c Af/g/ | aeea f2 ef/g/ |\
+aeaf ecac | B/B/B de f2e :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st and 2d Cu. foot it and Change Sides .|
+%% the same back again :| Lead down two Cu.
+%% foot it .|. Lead up to the top and Cast off :|: foot
+%% it and turn Corners .||. Lead outsides and turn :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 140
+T: Rasberry Blossom
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.70 #140
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g |\
+dBG G2g | G2g GBd | e2d dBG | (e/f/g)B A2g |\
+dBG g2G | g2G ABd | (e/f/g)A dBG | (ABA) G2 :|
+|: d |\
+(e/f/g)d Te2d | (e/f/g)e dBd | (e/f/g)d Te2d | (e/f/g)B A2d |\
+(e/f/g)d g2B | g2B ABd | e2g dBG | ABA G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Cu. cast off the Man hands 3 at Bottom
+%% the Wo. at top at the same time .| 1st Man
+%% Heys at Bottom the 1st Wo. at top at the
+%% same time .||. Hands round 6 :|.  Right and Left :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 141
+T: Valantines Day in the Morning
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.71 #141
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+FGA BAG FED | FGA Bcd e2G |\
+FGA BAG FGA | Bgf edc d2 :|
+|: e |\
+fde fga ecA | Bcd AGF E2a |\
+bgb afd cBA | Bgf edc d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man turns his Partner with his Right hand
+%% and cast off 1 Cu. .| turn with your Left hands the Man
+%% cast off the Wo. cast up :| the Man falls in between the
+%% 3d Cu. his Partner between the 2d Cu. at the same time
+%% .|. Lead outsides and turn :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 142
+T: O'er the Moor to Moggie
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.71 #142
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D(GGA) | GAGD | G(AAB) | cBAB |\
+GABc | dege | e/f/g dB | ABAG :|
+|:\
+d(gga) | gage | daab | abag |\
+bage | dege | (e/f/g) dB | ABAG :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. foot it and Cast off two Cu. foot it
+%% and Cast up again :| Cross over two .|. Lead up
+%% to the top Cast off :|: Foot it Corners and turn
+%% .||. Lead outsides and turn :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 143
+T: Alaster Moor
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.72 #143
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2g2 fdcd | BF2D  F2F2 |\
+G2g2 fdcd | BG2^F G2G2 :|\
+|:\
+FGBc dBcd | BF2D  F2F2 |
+GABc dBcd | BG2^F G2G2 |\
+FGBc dBcd | BF2D  F2F2 |\
+gdfc dBcA | BG2^F G2G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. .| Cast up again :| Cross over
+%% 2 Cu. lead up and Cast off .:| Set Corners
+%% and turn :|| and hey .||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 144
+T: New Black Fryer's Bridge
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.72 #144
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+FGAB c2f2 | cAGF GEDC | c2BA d2e2 | fcBA A2G2 |\
+FGAB c2f2 | efga {g}f2ed | fdc=B cfaf | edc=B c4 :|
+|:\
+G2AB A2Bc | B2A2 f2e2 | defg afed | ^c2Bc A2de |\
+f2=c2 dcBA | GABc {B}A2GF | BGFE d2cB | AGFE F4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu. hands round 4 with the 3 Cu. .| Cast
+%% up and hands round 4 at top :| Gallop down 1 Cu.
+%% up again and Cast off .|: hands round 4 at the
+%% Bottom Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 145
+T: Sr John Falstafe
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.73 #145
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B,DF Bdf | edc d2c | Bbg fdB | cde dcB |\
+B,DF BFB | GEG cGc | AFA edc | dBB B2 :|
+|:\
+FAc fcf | FAc ece | FAc Bdf | ged c2E |\
+DFB BFD | EGB BGE | DFB AFe | dBB B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hey Contrary sides .| then on your own sides :| Cross over
+%% 1 Cu. Lead up and cast off .|: hands round 4 at the Bottom
+%% Right and Left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 146
+T: Betty's Fancy
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.73 #146
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B2dB bgdB | F2Ac cAFA |\
+B2dB bgdB | cAFA B2B,2 :|
+|:\
+bgdB bgdB | cAFA cAFA |\
+bgdB bgdB | cAFA B2B,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. .| up again :| Cross over
+%% 2 Cu. .|: Lead up and Cast off :|: set
+%% Corners and :|| Lead outsides and turn :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 147
+T: the Maidens Choice
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.74 #147
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2G G>AB/c/ | d2g fed | e2e edc | BAG FED |\
+G2G G>AB/c/ | d2g fed | efg B2^c | d3 D3 :|
+|:\
+G2B d2=f | eBd c3 | A2^c e2g | fce d3 |\
+G2G G>AB/c/ | d2g fed | efg BcA | G3 G,3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off two Cu. .| Lead up and Cast off :| Hands round
+%% four at the Bottom .|: Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 148
+T: I Beg One
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.74 #148
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2BG e2dc | d2BG AFED |\
+d2BG egfa | (3(gfe) (3(de^c) d2D2 :|
+|:\
+d2BG G=FFE | e2cA AGG^F |\
+g2dB e2cA | BdDF G2G,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set across and turn the 2d Lady .| the
+%% Lady turn the 2d Man :| Cross over one
+%% Cu. .|: Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 149
+T: Miss Charters Reel
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.75 #149
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+[A2E2A,2]cA efec | [a2A2]ec B/B/B B2 |\
+A/A/A/ cA fa2f | ec Bc A/A/A A2 :|\
+|:\
+A,2 (CA,) (EA,) (CA,) | A,2 A,C B,/B,/B, B,2 |
+A,2 (CA,) (EA,) (CA,) | Ac BA A/A/A A2 |\
+A,2 (CA,) (EA,) (CA,) | A,2 A,C B,/B,/B, B,C |\
+A,C EC [A3E3A,3] f | e>c B>c A/A/A A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st and 2d Cu. foot it and Change Sides .| the same
+%% back again .|. Lead down 2 Cu. foot it to your Partner .|:
+%% Lead up again and Cast off :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 150
+T: the Quart Pot
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.75 #150
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Removed dots from each strain's last note to fix the rhythm. Also the first note in bars 9 & 10.
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A2Ac ecAc | B2Bd fdBd |\
+A2Ac ecAc | gbec {c}B4 :|\
+|:\
+e2(ef/g/) fdcd | f2(fg/a/) ge^de |\
+A2Ac ecAc | BdcB A4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across .| Back again :| Cross
+%% over 1 Cu. Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 151
+T: Assembly of Lovers
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.76 #151
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: There's an extra beat at all strain boundaries; not fixed.
+M: C
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+FE |\
+DF BF EG cG | DF BF d2 FE |\
+DF BF EG Be | dB Ac B2 B,2 :|
+|: Bc |\
+dB fB gB fB | dB ed cA GF |\
+DF BF EG Be | dc Ac B2 B,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across .| Back again :| Gallop
+%% down two Cu. .|: Lead up and Cast off :|:
+%% Set Corners and turn :|| Lead outsides
+%% and turn :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 152
+T: the First of December
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.76 #152
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+[fAD]gaf gfed | efge dcBA |\
+Bdce dfeg | fdec d2D2 :|\
+|:\
+efef efge | fgfg fgaf |
+efef efge | fgaf {f}e4 |\
+[fAD]gaf gfed | efge dcBA |\
+Bdce dfeg | fdec d2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set across and turn the 2d Lady .| the Lady do the
+%% same to the 2d Man :| Cross over one Cu. Lead up &
+%% Cast off .|: hands round four at Bottom Right and
+%% Left at top :||
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 153
+T: S.r Allex McDonald's Reel
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.77 #153
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The lower left corner is faded to illegibility.  The last line is probably "Right and Left at top".
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+FAAf/g/ afed | gfed BdBA |\
+FAAf/g/ afed | e/f/g f/g/a Te2d2 :|\
+|:\
+FAAB A>BAF | G/G/G G2 G>ABG |
+F>AAB ABAF | GBAF E2D2 :|\
+|:\
+f/g/a a>b a>baf | g/g/g g2 g>aba |\
+f/g/a a>b a>baf | gafg Te2d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu foot it Cast off two Cu. .| foot it and Cast
+%% [ILLEGIBLE] :| Cross over two Cu. Lead up to the top &
+%% [ILLEGIBLE] :|: hands round four with the third Cu. .||.
+%% [ILLEGIBLE] Left at top :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 154
+T: Ah it Serves you Right
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.77 #154
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(d2 e/f/g) | e2 d2 | cB AG | (F/G/A) D2 |\
+d2 (e/f/g) | f2 ed | Bg ec | d2 D2 :|
+|:\
+dB AG | gd cB | ed cB | Bd FE |\
+d2 (e/f/g) | {f}e2 dc | BG eF | G2 G,2 :|\
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off two Cu. .| up again :| Cross over
+%% one Cu. .|: Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 155
+T: the Wild Irishman
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.78 #155
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The trilled e in bar 14 has a dot which was removed; this tune would be better in 6/8 time.
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d>ef>d | g>ef>c | d>ef>d | c2e2 |\
+d>ef>d | g>ef>d | f>a (3(gec) | d2 D2 :|
+|:\
+(3(afd) (3(Ace) | (3(Ace) (3(Ace) | (3(Ace) (3(Ace) | (3(Ace) (3(efg) |\
+(3(afd) (3(Ace) | (3(Ace) Te2 | (3(dfa) (3(gec) | d2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st and 2d Cu. foot Right hands across .| Left
+%% hands back again .|. Lead down 2 Cu. foot it to
+%% your Partner :|. Lead up to the top and Cast off :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 156
+T: the Flying Stagg
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.78 #156
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The beaming is odd: bar 2 has 2 4-note groups; all other bars have 4 groups.
+M: C
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B2 FB c2 Fe | dBAG BFDB, |\
+B2 FB c2 Fe | ed BA B2 B,2 :|
+|:\
+Bc de fd cB | AB cd ec BA |\
+DF BF EG Be | dc BA B2 B,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across .| the same Back again :| Cross
+%% over 1 Cu. foot it .|: Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 157
+T: the Devil upon 2 Sticks
+N: This tune has "1769" at the top-right corner.
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.79 #157
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The bottom edge of the dance description is clipped; phrase symbols may be missing their bottom dots.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2E G2B | AFD FAc | G2E G2B | dcB AGF |\
+G2B A2G | A2c B2A | BdB cAF | G3 G,3 :|
+|:\
+dBd ece | faf dgd | edc BAG | F2G AFD |\
+dBd ege | fag fed | egf edc | d3 D3 :|
+|:\
+ege cAc | faf dBd | edc BAG | F2G AFD |\
+ege cAc | faf dBe | dcB AGF | G3 G,3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Cu. foot it & half right & Left .| the Right
+%% Hands across quite round at top :| foot it & half
+%% Right & Left again :|. then Left Hands across back
+%% again :| Cross over & half figure .|| Hands 6 round .||.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 158
+T: the Maids Delight
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.79 #158
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+a2e2a2e2 | cde2 c2A2 | E2A2E2B2 | cdcB A2E2 |\
+a2e2a2e2 | cde2 c2A2 | E2B2 c2dB | A4 A,4 :|
+|:\
+e2cd e2dc | d2f2 b4 | d2Bc d2cB | c2e2 a4 |\
+A2cB A2E2 | B2dc B2E2 | c2e2 E2G2 | A4 A,4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Man set & turn the 3d Wo. 1st Wo.
+%% set & turn the 2d Man at the same
+%% time .| 1st Man set & turn the 2d Wo.
+%% 1st Wo set & turn the 3d Man at the same
+%% time |. Hands 6 quite round .||
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 159
+T: Shepherds Jigg
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.80 #159
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeat bars 5 & 6 are drawn just once, with "Bis" below an arc over the measure.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B/c/ |\
+dBG Gge | dBG Gge | dcB dcB | A3- A2B/c/ |\
+dBG Gge | dBG Gge | dcB cBA | G3- G2 :|
+|: B/c/ |\
+dBd ece | fda b2g | dBd ece | fdd' b2g |\
+dBd ece | fda b2g | dBd ece | fdf g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Turn Right Hands and cast off 1 Cu. .|
+%% turn Left Hands and cast up again .|. Cross
+%% over and half figure .|| Right & Left .||.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 160
+T: Belle of the Night
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.80 #160
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has only 7 bars.
+M: 6/8
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B/c/ |\
+d2g d2e | d2g d2e | d2c B2A | B2A G2B/c/ |\
+d2g d2e | d2g d2g | f2d e2c | B3- B2 :|
+|: d/e/ |\
+f2d g2=B | c2d e2c/d/ | e2c f2A | B2c d2e |\
+d2g d2e | d2c B2A | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu. and foot it 6 sideways .|
+%% Cast off another Cu. and foot it 6 again .|.
+%% lead up to the top and cast off .|| foot
+%% it outsides and turn your Partner .||.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 161
+T: Mullowny's Jigg
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.81 #161
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A/G/ |\
+FGA AFA | AFA AFA | BGB AGF | BGE E2G |\
+FGA AFA | AFA d2A | dcB AFd | AFD D2 :|
+|: c/d/ |\
+ecA AcA | cBA dAF | BGB AGF | BGE Ecd |\
+ecA AcA | cBA dAF | dcB AFd | AFD D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Man Hands round with the 1st & 2d Wo. .|
+%% 1st Wo. the same with the 1st & 2d Man .|. 1st Cu.
+%% cross over two Cu. lead up to the top and cast
+%% off .|| lead thro' the Bottom Cu. cast up & Right
+%% and Left .||.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 162
+T: Lark Spur
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.81 #162
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+[a4A4] [f4A4] | (dcde) d2e2 | f2d2f2g2 | (agab) a2f2 |\
+[a4A4] [f4A4] | (dcde) d2e2 | f2d2g2e2 | [d4D4] [d4D4] :|
+|:\
+[E/A,]F/G3 E2G2 | [F/A,]G/A3 F2D2 | C2D2E2F2 | E2A,2 A,4 |\
+[E/A,]F/G3 E2G2 | [F/A,]G/A3 F2D2 | C2D2E2F2 | D4 D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Cu. foot it to the 2d Cu. & Right
+%% Hands across all 4 .| the same back again
+%% .|. Cross over 2. Cu :|. lead up to the top
+%% foot it and cast off :|: set Corners and
+%% turn .|| lead outsides & turn .||.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 163
+T: la Guirlande
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.82 #163
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed by removing its repeat to go with the D.C.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+def efg | fga efg | fed cBc | dAG FED |\
+def efg | fga efg | fed cBc | d3 HD2 :|
+d |\
+fga gab | afg afg | afg agf | ede fed |\
+fga gab | afg afg | afg agf | e3- "D.C."e2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Cu. foot it & half Right & Left .| the same
+%% back again .|. lead down 2. Cu. & cast up 1. Cu. .||
+%% Hands round 6 .||.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 164
+T: Lucretia of the Age
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.82 #164
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A2cA ecdB | A2cA B2G2 |\
+A2cA ecdB | cABG A2A,2 :|\
+|:\
+Acea fdec | Acea f2e2 |\
+Acea gefd | cABG A2A,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Man cast off & turn the 3d Wo. .|
+%% 1st Wo cast off & turn the 3d Man. .|.
+%% Lead outsides & turn your Partner .||.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 165
+T: Miss Woodcocks Fancy
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.83 #165
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+BGD (B/c/d)B | AFD (A/B/c)A |\
+BGD (B/c/d)B | cAF G2 :|\
+|: a |\
+fdA (f/g/a)f | e^cA (e/f/g)e |
+fdA (f/g/a)f | ge^c d2d |\
+BGD (B/c/d)B | AFD (A/B/c)A |\
+BGD (B/c/d)B | cAF G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Man cast off and turn the 3d Wo. .|
+%% the 1st Wo. cast off and turn the 3d Man. .|.
+%% lead outsides & turn :|. foot it all four and
+%% Right & Left at top :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 166
+T: Batchelors Button
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.83 #166
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+Addd | cdec | g2fd | a2a2 |\
+Addd | cded | fdec | d2D2 :|
+|:\
+aaad' | bbbd' | babd' | a2a2 |\
+[ec][ec][ec][ge] | fffa | edec | d2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Man cast off foot it to the 3d Wo. and
+%% not turn .| 1st Wo. foot it to the 3d Man
+%% and not turn. .|. Hands 6 round .|| Right
+%% and Left at top .||.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 167
+T: les Villagois
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.84 #167
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B |\
+BcB BcB | Bcd edc | BcB AGF | GAG E2B |\
+BcB BcB | Bcd edc | BcB AGF | E3- E2 :|
+|: g |\
+fed efg | fed gfe | dcB cBA | BAG efg |\
+fed efg | fed gfe | dcB AGF | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Right Hands at top .| Left Hands back
+%% again :| Cast off 1 & foot it all 6 .||
+%% and left at top :||
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 168
+T: the Lincolnshire Lads
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.84 #168
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2Ac | B2Bd | cedc | dBAG |\
+A2Ac | B2Bd | cedc | c2B2 :|
+|:\
+e2ef | ecBA | fefg | a2gf |\
+e2ef | edca | ecdB | A4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Cu. foot it and cast off two Cu. .| the
+%% same up again .|. lead down two Cu. and
+%% cast up one .|| foot it & hands 6 round .||.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 169
+T: the Mantua Makers
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.85 #169
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B2((3GFE) DB,DF | B2 ((3dcB) AFAc |\
+B2 ((3GFE) DB,DF | dB FA B2 B,2 :|\
+|:\
+Bdfd bdcB | ABcA acBA |
+GABG gedc | BGAF G2G,2 :|\
+|:\
+fd (3(dcB) ba ((3agf) | edcB AGFE |\
+DFBD EGce | dcBA B2B,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu. cross over one Cu. and turn, D.o 2d Cu. .|
+%% Cast up one Cu. and foot it, cast up 2 Cu. & D.o .|.
+%% Cross over and half figure :|. Right & Left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 170
+T: la Bonne foi
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.87 #170
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+cBAG | A3B | cBcd | e/d/e/f/ e>d |\
+cBAG | A3B | cfe^d | e4 :|
+|:\
+aeed | dccf | ecBA | B/A/B/c/ B>c |\
+dbbd | caad | cB/A/ BA/G/ | A4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Foot it all 6 hands round half way .|
+%% The same back again .|. Lead down two
+%% Cu up again :|. Right and Left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 171
+T: Guildford Assembly
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.86 #171
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G3 DGB | A3 DAc | B2c dBG | F2G AFD |\
+G3 DGB | A3 DAc | BcB AGF | G3 G,3 :|
+|:\
+d3 dBG | F2G AFD | E2E EDC | B,2C DB,G, |\
+d2d dBG | F2G AFD | EcB AGF | G3 G,3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The First Cu. cast off and hands round four with
+%% the 3d Cu .| Cast up and hand round with the 2d
+%% Cu .|. Cross over 2 Cu :|. Lead up to the top & cast
+%% off :|: Foot it Corners & turn .||. Lead outsides and turn :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 172
+T: the Scotch Lilt
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.86 #172
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has 6 bars.
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+G2GB A2Ac | BgdB cAFD |\
+G2GB A2Bg | dBAB G3 :|\
+|: d |\
+dBge dBge |
+dBge d2Bc |\
+dBge dBge | dBgB AFTED |\
+G2GB A2Bg | dBAB G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first Cu. cast down to Cu. & foot it .|
+%% Cast up again & foot it .|. The 3 first Cu go
+%% the Allemande to the Left :|. Set Corners &
+%% turn :|: Hey and turn proper :||
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 173
+T: the Gravers flight
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.87 #173
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c/B/ |\
+cGF EFG | ABc BAG | cde def | ece d2c/B/ |\
+cGF EFG | ABc BAG | cde def | ecc c2 :|
+|: c |\
+ece ege | dBd dgB | cBc ABc | BGG G2G |\
+AFA (A/B/c)A | BGB (B/c/d)B | cBc def | ecc c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The First Cu. lead thro' the Wo.s side and turn .|
+%% Foot it 3 top and bottom .|. Turn Corners with
+%% your Right hands your Partner with your Left
+%% :|. Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 174
+T: a Trip to Holland
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.87 #174
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A2 B2 | c>ded | cBAG | A2 A,2 |\
+A2 B2 | c>ded | cBAG | A2 z2 :|
+|:\
+B2 d2 | c/d/e/f/ ea | eadc | {c}B2 E2 |\
+B2 d2 | c/d/e/f/ ea | ea TB2 | A2 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu. cast off one Cu. & hands round 4 with
+%% the 3d Cu .| Cast up & hands round with the 2d
+%% Cu .|. Lead thro' the 3d Cu. & turn your Part: :|.
+%% Lead up to the top and cast off :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 175
+T: la Nouvelle Espagnolette
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.88 #175
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2G2 A2Bc | B2A2 G4 | G2FE D2G2 | c2B2 A4 |\
+G2G2 A2Bc | B2A2 G4 | G2FE D2c2 | B2A2 HG4 :|
+d2d2 g2g2 | agfe a4 | a2gf e2d2 | ^cdec A4 |\
+d2d2 e2e2 | f2ed e4 | a2gf e2fg | f2e2 "^D.C."d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. cast off one Cu. and hands round four
+%% with the 3d Cu .| Cast up and hands round 4 with the
+%% 2d Cu .|. Cross over one Cu. and turn your Partner
+%% :|. foot it all four and Right & Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 176
+T: the Managers Contention
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.88 #176
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E |\
+ABcd eaec | (3(fga) .e.c (3(fga) .e.c |\
+ABcd eaec | dfec AA/A/ A :|
+|: B |\
+eaec eaec | (3(def) .B.B (3(def) .B.B |\
+eaec eaec | dfec AA/A/ A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Right hands across at top .| Left hands
+%% back again .|. Cast off one Cu. lead thro'
+%% the 3d Cu. and cast up :|. Right and Left
+%% at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 177
+T: the Ladies Lesson
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.89 #177
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2D d2D | def ecA | d2D d2D | agf e2A |\
+d2D d2D | def ecA | dcB Agf | edc d3 :|
+|:\
+e2A g2e | f2d ecA | e2A g2e | (f/g/a)f e3 |\
+e2A g2e | (f/g/a)f ecA | d2f (e/f/g)e | (f/g/a)c d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First 2d and 3d Cu. foot it and hands round 6 .|
+%% The same back again .|. Lead down one Cu. up
+%% again and cast off :|. Lead thro' the 3d Cu. cast
+%% up right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 178
+T: Duncan's Delight
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.89 #178
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d4 Tc4 | B2d2 B2G2 | A2c2 A2F2 | G2Bc d2g2 |\
+d4 Tc4 | B2d2 B2G2 | A2c2 A2F2 | G4 G,4 :|
+|:\
+A4 TG4 | F2A2 F2D2 | G2E2 D2^C2 | D2EF GABc |\
+d4 Tc4 | B2d2 g2e2 | {e}d2cB {d}c2BA | G4 G,4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu. cast off one Cu. & hands round with
+%% the 3d Cu .| Cast up again & hands round with the
+%% 2d Cu .|. Cross over 2 Cu. Lead up to the top and
+%% cast off :|. Lead thro' the 3d Cu. cast up into the
+%% 2d Cu.s place, & Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 179
+T: a Trip to Brentford
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.90 #179
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+GABc dedc | BAG^F GDTD2 |\
+GABc dedc | BAG^F G4 :|\
+|:\
+Bcde fgfe | dcBA BFTF2 |
+Bcde fgfe | dcBA B4 :|\
+|:\
+bag^f g=fed | edcB {B}A2G^F |\
+GABc dg^fg | dcBA G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The First and 2d Cu. foot and change sides .|
+%% the same back again .|. foot it & Right hands
+%% across :|. foot it & Left hands back again :|: Cross
+%% over one Cu & turn .||. Right & Left at top :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 180
+T: Oxonion in Town
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.90 #180
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+faf def efg | faf dfd e2A |\
+faf def efg | fdf agf e3 :|
+|:\
+Ace ecA ecA | Adf fdf fga |\
+Ace ecA ecA | Bgf edc d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The First Cu. foot it and cast off two Cu .|
+%% Lead up to the top and cast off one Cu. .|.
+%% hands round four with the 3d Cu :|. Right
+%% and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 181
+T: The Irish Lilt.  A favourite Dance Perform'd at the Theatre Royal in Drury Lane.
+T: Lango Lee
+N: First dance in the Irish Lilt series.
+N: This tune has "1768" at the top-right corner.
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.91 #181
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A3 c3 | B>AB c<AF | ECE A2{de}f | e>dc (B2A) |\
+[A3D3] [c3E3] | B>AB c<AF | ECE A2{de}f | edc (B2A) :|
+|:\
+c>de e>fg | f>ed c>BA | c>de e2{d}e | f2^g a3 |\
+edc a^gf | edc (B2A) | .a3 .a3 | A>dc (B2A) :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hey contrary sides .| then on your own
+%% sides .|. cast off one Cu. lead thro' the 3d
+%% Cu. and cast up :|. Foot it & Right & Left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 182
+T: Irish Lilt
+N: Second dance in the Irish Lilt series.
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.91 #182
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+dBAF | A2A2 | d2 (e/f/g) | feec |\
+dBAF | A2A2 | d2 (e/f/g) | fdd2 :|
+|:\
+fd (d/e/f/g/) | a2gf | gaba | geec |\
+dBAF | A2A2 | d2 (e/f/g) | fdd2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man cast off and turn the 3d Wo. .|. the 1st
+%% Wo. cast off & turn the 3d Man :| lead thro' the 3d
+%% Cu. & turn your Partner :|. lead up to the top and
+%% cast off :|: 1st Man set & turn the 3d Wo. the 1st Wo.
+%% set & turn the 2d Man at the same time .|| 1st Man
+%% set & turn the 2d Wo. 1st Wo. set & turn the 3d Man at
+%% the same time .||. hands 6 round :||. Right & Left :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 183
+T: Trip to the Dargle
+N: Third dance in the Irish Lilt series.
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.92 #183
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: This tune is a variant of Haste to the Wedding.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+A<FG A2f | e>de f<dB | AGA (B/c/d)F | [E2A,2][EA,] [E2A,2]A |\
+A<FG A2f | e>de f<dB | "_+"AFA (B/c/d)F | [D2G,2][DG,] [D2G,2] :|
+|: a |\
+a<fa a<fb | b<gb b<ga | a<fa a>gf | e2e e2f/g/ |\
+a3 f3 | e>de f<dB | AFA (f/g/a)f | d2d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off one Cu. and foot it 6 sideways .|
+%% cast off another Cu. and foot it Six again .|.
+%% lead up to the top and cast off :|. foot it
+%% outsides and turn your Partner :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 184
+T: Priest in his Boots
+N: Fourth dance in the Irish Lilt series.
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.92 #184
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+eee eee | efd cBA | ddd fed | cAc e3 |\
+eee eee | efd cBA | ddd fga | gec d3 :|
+|: f/g/ |\
+a2f gfe | fed cBA | ddd ddd | cAc e3 |\
+afa geg | fdf ecA | ddd fga | gec d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu. cast off one Cu. and hands round
+%% with the 3d Wo .| Cast up again and hands
+%% round with the 2d Wo .|. Cross over & half
+%% figure :|. hands Six round :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 185
+T: She la na Gig
+N: Fifth and last dance in the Irish Lilt series.
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.93 #185
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+F2G ABc d3 | F2G AB=c B3 |\
+F2G AB^c d3 | F2G AB=c B3 :|\
+|:\
+d2d ded cBA | B2B Bcd AFD |
+d2d ded cBA | B2B BcB AFD :|\
+|:\
+G2A BGE BGE | F2G AFD AFD |\
+G2A BGE BGE | FGA Bcd AFHD :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center End of the Irish Lilt.
+%%begintext align
+%% Turn your Partner with your Right hand & cast off .|
+%% turn again with your Left hand the Man cast off &
+%% the Wo. cast up .|. set 3 & 3 at top & bottom :|. then
+%% set 3 & 3 sideways :|: Hands round 6 and turn
+%% your Partner :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 186
+T: Scotch Jigg
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.93 #186
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D>ED A2A | Bcd cBA | BdB AFD | E2E E3 |\
+D>ED A2A | Bcd cBA | (B/c/d)B (c/d/e)c | d2d Td3 :|
+|:\
+d>ed fgf | ecA d2A | BdB AFD | E2E E3 |\
+D>ED A2A | Bcd cde | fgf ecA | d2d Td3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Turn right Hands and cast off 1. Cu. then foot
+%% it all 6 sideways .| turn right Hands & cast
+%% off below the 3d Cu. & turn your Partner .|.
+%% lead up to the top & cast off :|. R.t & L.t at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 187
+T: Miss Forster's Delight
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.94 #187
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+g3 efg | d3 efg | fed cBA | Bdc BAG |\
+g3 efg | d3 efg | fed cBA | G3 HG,3 :|
+|:\
+d3 ^cde | d3 efg | fag fed | ^ced cBA |\
+d3 ^cde | d3 efg | agf ed^c | d3 "D.C."D3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Right hands across at top .| Left hands back
+%% again .|. cast off one Cu. and foot it all Six :|.
+%% Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 188
+T: Duke of Yorks Fancy
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.94 #188
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+BGB BGB | AFA AFA |\
+(B/c/d)B AFD | G2G G3 :|\
+|:\
+Tf3 edc | Bcd dBG |
+f3 efg | ABA A3 |\
+f3 edc | Bcd dBG |\
+(B/c/d)G AFD | G2G G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. hands round 3 with the 2d Wo .|
+%% the same with the 2d Man .|. lead down 2 Cu.
+%% and cast up one :|. lead thro' the top cast off
+%% and turn your Partner :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 189
+T: l'Allment
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.95 #189
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2GG | B3d | ABcA | BA/B/ G2 |\
+G2GG | B3d | gf ed/^c/ | d2D2 :|\
+|:\
+D2FA | D3B | cBAG | FG/A/ D2 |
+D2FA | D3B | cB AG/F/ | G2G,2 :|\
+|:\
+a2fd | a2fd | cBAG | FG/A/ D2 |\
+a2fd | a2fd | cB AG/F/ | G2G,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st & 2d Cu. foot it & turn Single .| the same
+%% back again .|. the 1st Man foot it to the 2d Wo. &
+%% turn her :|. the 1st Wo. foot it to the 2d Man and
+%% turn :|: Cross over one Cu .||. Right & Left at top :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 190
+T: Lady Carrick's Delight
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.95 #190
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+defg abaf | gfed eAAG |\
+FGAB gfed | faec d2D2 :|
+|:\
+AGFG A2d2 | AGFG A2d2 |\
+abaf gfed | faec d2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Right hands across at top .| left hands back
+%% again .|. Cast off one Cu. & turn your Partner :|.
+%% lead thro' the bott: & cast up :|: swing Corners &
+%% Partners .|| hands 6 round .||. Right & Left :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 191
+T: Monmouth Assembly
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.96 #191
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+fdf edc | (B/c/d)B AFD | EFG ABc | def ecA |\
+fdf ecA | (B/c/d)B AFD | EFG Agf | edc d2 :|
+|: F/G/ |\
+ABA AFA | (B/c/d)B AFA | Bcd efg | Agf ecA |\
+fdf ecA | (B/c/d)B AFD | EFG Agf | edc d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st 2d & 3d Cu. foot it and change sides .| the
+%% same back again .|. cross over and half figure :|. hands
+%% 6 round :|: 1st Man hey at bottom & the Wo. at top .|| then
+%% the Wo. at bott: and Man at top .||. lead thro' the bottom
+%% and cast up :||. lead thro' the [top?] and cast off :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 192
+T: Wednesday Night
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.96 #192
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D2FA | d2f2 | edcB | AGFE |\
+D2FA | d2f2 | edcd | e4  :|
+|:\
+a2fd | B2gf | edcB | AGFE |\
+D2FA | d2g2 | fdec | d4  :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off two Cu. .| lead up to the top .|. cross
+%% over & half figure :|. Right and Left :|: hands
+%% 3 round with the 3d Wo. .|| the Same with the
+%% 2d Man .||. foot it on both sides & turn your
+%% Partner :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 193
+T: le Renard
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.97 #193
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+AABB c2B2 | dcBA B/A/G/F/ EE |\
+AABB c2B2 | dc BA/G/ A2HA,2 :|
+|:\
+eefd e2c2 | dcBA B/A/G/F/ EE |\
+eefd e2c2 | dedc "D.C."[B4E4] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off two Cu. .| lead up to the Top
+%% and cast off :| Hands 6 round at Bottom
+%% .|.. Right and left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 194
+T: the Sky Lark
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.97 #194
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+GAG B2c | d2d e2d | gfe d2c | B2c d3 |\
+d2d d2g | G2G A2G | ABc Bcd | cBA G2z :|
+|:\
+BdG BdG | ABG FED | BdG BdG | DEF G3 |\
+BdG BdG | ABG FED | BdG BdG | cAF G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st 2d and 3d Cu. foot it and Change
+%% sides .| the same back again .|. cross over &
+%% half figure :|. lead thro' the bottom Cast up and
+%% turn your Partner :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 195
+T: Miss Turners Fancy
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.98 #195
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: What does the H.b ("H." with a raised "b" above the dot) mean in the dance description?
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B2c d2d | efg d3 | edc dcB | cBA G2D |\
+B2c d2d | efg d3 | edd dcB | cBA G3 :|
+|:\
+B3 B3 | BAc B3 | B2c d2c | B2A B2G |\
+B3 B3 | BAc B3 | B2c d2c | B2A G2z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu. set and hands 3 round with the 2d Wo.
+%% .| the same with the 2d Man .|. Cross over 2 Cu. :|.
+%% lead up to the Top & cast off :|: R.t H.b across with the 3d
+%% Cu. ||. left H.b back again with the 2d Cu. :||. lead out on both
+%% sides and turn your Partner :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 196
+T: the Pocket Book
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.98 #196
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d3 DFA | dfa ecA |\
+d3 DFA | g2f e3 :|\
+|:\
+ded ecA | fgf afA |
+ded ecA | gfe d3 :|\
+|:\
+Ace g2e | (f/g/a)f ecA |\
+Ace g2e | (f/g/a)f d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu. foot it and cast off one Cu. .|
+%% foot it and cast up again :| lead down
+%% one Cu up again and cast off :|. foot it
+%% Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 197
+T: Jockey
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.99 #197
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A>G |\
+F<DD>E D2E<F | G<EE>F E2F<G |\
+A<dA<F GFED | E6 A>G |\
+F<DD>E D2d<B | ^G<EE>F E2B<c |\
+d<F e/d/c/B/ A2^G2 | A6 :|
+|: A>c |\
+d2 f<d B2 g>f | e<dc<B ^A3F |\
+B2c<d e<dc<d | B6 B<d |\
+A<FD>E D2E<F | G<EE>F E2F<G |\
+A<c d<f g>fe>f | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2. Cu. .| up again .|. Cross over one
+%% Cu. and turn your Partner lead thro' the Top
+%% and Cast off .|: foot it 6 & Right and Left :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 198
+T: the Nabob
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.99 #198
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D2D D2D | A2A A2A | ABc dcB | ABG FEF |\
+D2D D2D | A2A A2A | B2B cBc | d3 D3 :|
+|:\
+BGd BGd | AFd AFd | BGd BGd | AFd AFd |\
+BGE BGE | AFD AFD | B2B cBc | d3 D3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st and 2d Cu. foot it right and left
+%% half round .| the same back again :| lead
+%% down 2 Cu. up again and Cast off .|. foot
+%% it and Hands round all Six :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 199
+T: Lord Murry's Choice
+N: The index has "Lord", while the tune page has "L.d" with the 'd' above the dot.
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.100 #199
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+g4 d<BA<G | D<GG>A {c}B2A>G |\
+Tg4 d<B A<G | A2A>B A4 |\
+Tg4 d<BA<G | D<GG>A {c}B2A<G |\
+edcB cBAG | D<GG>A {c}B2A<G :|
+|:\
+c3d edcB | B3c dcBA |\
+A3B cBAG | F3G A/G/F/E/ D2 |\
+gfed edcB | c/B/c/d/ eE [f2F2][eE][dD] |\
+[gG][fF][eE][dD] [eE][dD][cC][BB,] | [GG,2]GGA {c}B2A<G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu. figure on their own Sides & cast off .| the
+%% 2d Cu. cast off one Cu. lead thro the 3d Cu. & cast up
+%% one Cu. .|. the Man hey with the 3d Cu. the Wo. at the same
+%% time hands 3 round with the 2d Cu. then the Man hey at
+%% [top] & the Wo. hands 3 at bott: .|: lead outsides & turn Partners :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 200
+T: Will's Frolick
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.100 #200
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2Bc d2cB | gdcB AGAB |\
+G2Bc d2cB | cAGF G4 :|
+|:\
+gdcB gdcB | AcBd {d}c2BA |\
+gdcB gdcB | cAGF G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Man foot it to the 2d Wo. and
+%% turn .| first Wo. foot it to the 2d Man
+%% and turn :| Cross over one Cu. and
+%% turn :|. Right and Left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 201
+T: Visiting Day
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.101 # 201
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+a3 faf | g3 ege | fdf edc | d3 D3 |\
+dfa ecA | fba ^g3 | aec Ba^g | a3 A3 :|
+|:\
+e3 cAc | B^GB A3 | a3 fdf | ece d3 |\
+b3 ege | a3 dfd | g2f edc | d3 D3 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Turn Right hands and cast off one Cu. .| turn
+%% Left hands and cast up again .|. Cross over and
+%% half figure :|. right and left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 202
+T: Variety is Charming
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.101 #202
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+|: GDGB B2B2 | AGAB c2BA | GABc dedB | cAdB G2G,2 :|\
+|: gGGA B2B2 | aAAB c2BA | gGGA Bcde | cAdB G2G,2 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. l| cast up again .|. Cross over
+%% 2 Cu. :|. lead up to the top & cast off :|: swing
+%% Corners with your right hand & Partners with
+%% left hands .|: lead thro the 3d Cu. cast up &
+%% turn your Partner :|. lead thro the top Cu.
+%% cast off and turn your Partner :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 203
+T: Warkworth Castle
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.102 #203
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+D>ED F2G | A2d AFD | G2d F2d | [eE][fF][dD] [cC][BB,][AA,] |\
+D>ED F2G | A2d AFD | FdF Edc | d3 D2 :|
+|: A |\
+d>ed f2g | aga fed | BcB c2d | efd cBA |\
+d>ed f2g | a2g fed | (B/c/dB) (c/d/ec) | d3 D2 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first Cu. Foot it and half right and Left .|
+%% the same back again .|. lead down two Cu. & cast
+%% up one .|: hands 6 round :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 204
+T: Kind and Pretty
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.102 #204
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Bb
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B3 dBd cAF | B3 dBd f2b |\
+B3 dBd cAF | (G/A/B)G (A/B/c)A B3 :|
+|:\
+f2f fdf fbf | g2g geg gbg |\
+f2f fdB fdB | (c/d/e)c (A/B/c)A B3 :|
+%  - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Man turn his Partner with his Right
+%% hand & Cast of One Cu. .| the same with
+%% your Left the Man Casts off & the Wo. Cast up
+%% :| foot it 6 bott: & top :| then on your own
+%% Sides ** lead outside [*** illegible ***]
+%%endtext

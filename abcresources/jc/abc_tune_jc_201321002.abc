@@ -1,0 +1,17 @@
+X:556
+T:Oy Vey
+C:Mollie Koenigsberger
+L:1/8
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=110
+%%MIDI program 40
+%%MIDI bassprog 32
+%%MIDI chordprog 105
+K:Dm
+P:A
+|: "Dm"a2ag a2ag | "/"agfe dcAF | "Gm"GABA B^cdc | "/"d^cBA BAGB |
+"A"[Ae][=Be][^ce][Be] [ce][de][ee][de] | "/"efgf eA=B^c | "Dm"d(^ga)(e f)(^cd)(A |1 "/"B)AFE DAdf :|2 "/"B)AFE DCB,A, |
+P:B
+|: "Gm"[G,D][DB][DB][DB] [DB][Dc][DB][DB] | "/"[B,D][DB][DB][DB] [DB][Dc][DB][DB] | "Dm"[DF][FA][FA][FA] [FA][Fd][Fd]e | "/"fedc AFED |
+"Gm"[G,D][DB][DB][DB] [DB][Dc][DB][DB] | "A"[^CE][EA][EA][EA] [EA]=B^cA | "Dm"d(^ga)(e f)(^cd)(A |1 "/"B)AFE D[CD][B,D][A,D] :|2 "/"B)AFE "Dm"D4 |

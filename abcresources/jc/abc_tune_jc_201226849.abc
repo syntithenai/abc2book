@@ -1,0 +1,26 @@
+X: 10482
+T: OLD TOWLER
+C: Shield.
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.48 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Bars 16,20 have an extra count; not fixed because it not obvious which fix is better.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+d2d B2G | F2G A2=c | B2d ^ceg | (f3 e2)A |\
+d2d f2d | B2B e2d | c2c BAB | A2z z2A |\
+e2c A2A | f2d A2A |
+c2d g2f | (f3 e2)A |\
+(A^G)A (Bcd) | (efg) (af)d | B2e d2c | d2z z2DF |\
+A3 A3 | Ad2- d2A | AFA AFA | Ad2- d2(Ac) |
+e3 e3 | ea2- a2e | ece ece | eg2- g2(a/g/) |\
+fdz z2f | eAz z2g | fdz z2f | eAz z2A |\
+dff dfz | d2z d2z |
+dff dff | faz HzA/G/F/E/ |\
+D2G F2B | A2g f2d | e2e cBc | d3 g3 |\
+f2f ede | a3 g3 | f2f ede | d3 z2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

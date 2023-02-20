@@ -1,0 +1,8 @@
+X:42
+T:Grace Notes
+M:4/4
+L:1/8
+K:A
+"From above" {B}A {c}B {d}c {e}d|"From Below" {B}c {c}d {d}e|
+"Doubling"{Ad}A {Bd}B {ce}c {de}d|"Slurs"{AB}c {Bc}d {cd}e|
+"Birl"{AdAc}A||

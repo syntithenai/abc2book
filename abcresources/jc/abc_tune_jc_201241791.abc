@@ -1,0 +1,80 @@
+X: 46
+T: le Prince de Galles
+%R: jig, waltz
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #46
+M: 6/8
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+A |\
+d2A fed | a2A A2a | def efd | ^cde Aag |\
+fef c2c | dcd A2A | BAB Gge | f2F F2 :|
+|: f |\
+(f//g//a3/)f gbg | (e//f//g3/)e faf | (d//e//f3/)d ege | (^c//d//e3/)c Ad=c |\
+BAB GAB | Adf ed^c | dAG FGE | D2D D2 :|
+[K:=B][K:D][M:3/4] |:\
+"_Gracieusement"\
+f4e2 | d2c2d2 | edefga | (g2f2)g2 |\
+a2(gf) (ba) | {a}g2(fe) (ag) | {g}f2(ed) (gf) |[1 {f2}e6 :|[2 {f2}e6 |]
+|:\
+e3g fa | g2f2e2 | (fd)(cd)(Be) | (d2c2)A2 | B2(AG) (ed) |\
+c2(BA) (ag) | f2{a}g2{f}e2 |[1 {e2}d6 :|[2 {e2}d6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z |\
+d3 d'3 | c'3 c3 | B3 g3 |
+a3 ^c3 | d3 a3 | b3 f3 | g3 c'3 |
+f3- f2 :||: z 
+d'3 b3 | c'3 a3 |
+b3 g3 | a3 f3 | g3 e3 |
+f2d g2a | f2g a2A | d3- d2 :|
+[K:=B][K:D][M:3/4] |:\
+"_Gracieusement"\
+d2d'2a2 | f2e2d2 | a2c'2a2 | d'2d2e2 |
+f2d2B2 | e2c2A2 | d2B2G2 |[1A2agfe :|[2 A2c2e2 |]
+|:\
+a2a2a2 | a2a2a2 | d2f2g2 | a4f2 | g4^g2 |
+a4c'2 | d'2g2a2 |[1dcdefg :|[2 d2A2D2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Le Prince de Galles
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Gentlemen lead their
+%% Partners half a Circle to each others Place,
+%% then the second and fourth do the same - 1/2
+%%endtext
+%%begintext align
+%%   Each Couple Allemande, then the Gentlemen
+%% Allemande to the Right and the Ladies to the
+%% Left, until they get Round to their places - 1/2
+%%endtext
+%%center M I N U E T.
+%%begintext align
+%%   This must be performed with Minuet Steps
+%% all through.
+%%endtext
+%%begintext align
+%%   The Gentlemen lead their Partners up the
+%% middle, then Round on the Right to their
+%% places - - - - 1/1
+%%endtext
+%%begintext align
+%%   Every Couple cross each other, then back
+%% again to their places - - 1/1
+%%endtext
+%%begintext align
+%%   The Ladies hands cross in the Middle, then
+%% turn to their Partners - - - 1/2
+%%endtext
+%%begintext align
+%%   The Gentlemen do the same - - 1/2
+%%endtext
+%%sep 1 1 400

@@ -1,0 +1,45 @@
+X: 1
+T: Gotlands Br\"ollopsmarsch
+Z: 2017 John Chambers <jc@trillian.mit.edu>
+N: printed MS of unknown origin.
+N: Arrangerad av Elis Hansun.
+D: Inspelad av Nordergutarnas spelmanslag pa RA 159.
+M: 4/4
+L: 1/16
+K: G
+% %continueall
+% - - - - - - - - - -
+V: 1 staves=3
+d2ef \
+| "G"g4 d3d d4 BGBd | "Am"d3c c2c2 "D7"c4 A2c2 \
+|1,3 "G"B2G2 B2d2 "C"e2d2 c2B2 | "D7"B3A A2A2 A4 \
+:|2,4 "G"G2g2 "C"fedc "G"B2AB "D7"c2F2 |
+"G".[A3C].[GC] .[G2B,2].[G2A,] [G4B,4] :| \
+|: "G7"G2AB \
+| "C"c4 c3c c4 "D7"cBAB | "G"B3d d2d2 d4 defg \
+| "D7"f4 f3f f2e2 d2ef | "G"g4 g2fg "D7"b2a2 d2ef |
+| "G"g4 d3d d4 BGBd | "Am"d3c c2c2 "D7"c4 A2c2 \
+| "G"G2g2 "C"fedc "G"B2AB "D7"c2F2 | "G".[A3C].[GC] .[G2B,2].[G2A,] [G4B,4] :|
+% - - - - - - - - - -
+V: 2
+d2c2 \
+| [B4D3G,4] (Bc)BA B4 (GF)ED | [E4A,4] ([AE]B)AG F4 D2EF \
+|1,3 (G2F2) (E2D2) (C2B,2) E2D2 | G4 (FG)(FE) F4 \
+:|2,4 G2B2 (dc)BA G4 F2D2 | [D4G,4] (.[D2G,2].[D2G,2]) [D4G,4] :|
+|: G2=F2 \
+| (E=F)ED (E2C2) E4 D2^F2 | G2D2 G2A2 B4 B2G2 \
+| ([AD]B)AG [A2D2]E2 F2G2 [A2D2]D2 | [B4D4G,4] B2d2 g2f2 d2c2 |
+| [B4D3G,4] (Bc)BA B4 (GF)ED | [E4A,4] ([AE]B)AG F4 D2EF \
+| G2B2 (dc)BA G4 F2D2 | [D4G,4] (.[D2G,2].[D2G,2]) [D4G,4] :|
+% - - - - - - - - - -
+V: 3
+D2D2 \
+| [D4G,4] (.[D2G,2].[D2G,2]) [D4G,4] G,2B,2 | A,4 C4 D4 F2D2 \
+|1,3 [D4G,4] D2B,2 G4 G2G2 | D4 (.[A2.D2].[A2D2]) D2D2 \
+:|2,4 [D4G,4] (.[G2C2].[G2C2]) D4 D2C2 | [D4G,4] (.[D2G,2].[D2G,2]) [D4G,4] :|
+|: G2G2 \
+| [G4C4] (.[G2C2].[G2C2]) [G4C4] ^F2D2 | [G4G,4] B,2C2 [D4G,4] G,2B,2 \
+| D4 (.[A2D2].[A2D2]) [A4D4] F2D2 | [D4G,4] G,2B,2 D4 D2D2 |
+| [D4G,4] (.[D2G,2].[D2G,2]) [D4G,4] G,2B,2 | A,4 C4 D4 F2D2 \
+| [D4G,4] (.[G2C2].[G2C2]) D4 D2C2 | [D4G,4] (.[D2G,2].[D2G,2]) [D4G,4] :|
+% - - - - - - - - - -

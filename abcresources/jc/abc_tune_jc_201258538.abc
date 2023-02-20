@@ -1,0 +1,353 @@
+
+X: 1
+T: BLUEBELL POLKA
+S: "COUNTRY DANCES OF TODAY 2", CDSS, May Gadd ed., 1951 p.16
+R: polka, reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+"A"[|]((3Bdg) |\
+"G"b2b2 gfge | d2d2 B3B | "D7"A2A2 c2e2 | "G"ed^cd B2 ((3Bdg) |
+b2b2 "C"gfge | "G"d2d2 B3G | "D7"FGAB cdef | "G"g4 z2 :|[K:D]
+"B"|:\
+"D"A4 FAdf | b4 f3f | "A7"a2^g2 =g2e2 | "D"b2a2 ^g2a2 |
+A4 FAdf | a4 f3f | "A7"a2^g2 =g2e2 | "D"d2f2 d2z2 :|
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: CAPTAIN KEELER
+S: "COUNTRY DANCES OF TODAY 2", CDSS, May Gadd ed., 1951 p.13
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+"A"[|] F |\
+"Bb"B2((3dcB) fBbB | "(Gm)"B2 ((3dcB) "F"AFcA | "Bb"B2((3dcB) fBbB | "F"cAFA "Gm"BGGF |
+"Bb"B2((3dcB) fBbB | "(Gm)"B2 ((3dcB) "F"AFcA | "Bb"B2((3dcB) fBbB | "F"cAFA "Gm"BGG ||
+"B"|: B |\
+"Gm"DGBG dGBG | DGBG "F"AFcA | "Gm"DGBG dGBG | "F"cAFA "Gm"BGG :|
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 3
+T: CASTLES IN THE AIR
+S: "COUNTRY DANCES OF TODAY 2", CDSS, May Gadd ed., 1951 p.13
+R: hornpipe
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+"A"|: D | "G"G2- G>B "D7"D3 E/F/ | "G"G>F G>A B2 G2 |\
+"C"c>B c>e d>B A>G | "A(m)"A>B A>G "D7"E3 D | "G"G2- G>B "D7"D3 E/F/ |
+"G"G>F G>A B2 G2 | c>d e>g "G"d>B G>A | "D7"B>c B>A G2 "B"::\
+d2 | "C"e2g2 "G"d2g2 | "D7"c>B c>g "G"B4 | "C"c>B c>e "G"d>B A>G |
+"A"A>B A>G "D7"E>c B>A |  "G"G2- G>B "D7"D3 E/F/ | "G"G>F G>A B2 G2 |\
+"C"c>d e>g "G"d>B G>A | "D7"B>c B>A "G"G3 :|
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 4
+T: COCK 'O THE NORTH
+S: "COUNTRY DANCES OF TODAY 2", CDSS, May Gadd ed., 1951 p.12
+N: Yes, the apostrophe is in the wrong place in the title.
+R: ji
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+"A"[|] d/c/ |\
+"G"BcB BAG | GBd e2d | BcB "(C)"BAG | "D"A3- A2d/c/ | "G"BcB BAG |
+GBd e2d | "(D)"BcB "D7"A2d | "G"G3- G2 "B":: d | "G"g2d e2d | g2d e2d |
+BcB BAG | "D"A3- A2d | "G"g2d e2d | g2d e2d | "G"BcB "D7"A2d | "G"G3- G2 :|
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 5
+T: DAVY, DAVY, NICK-NOCK
+S: "COUNTRY DANCES OF TODAY 2", CDSS, May Gadd ed., 1951 p.13
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+"A"|: "G"GFGA B2B2 | GFGA B2B2 | "D"dcBc "D7"A2A2 | "D"dcBc "D7"A2A2 | "G"GFGA B2B2 |
+GFGA B2B2 | "(C)"dcBc "D7"AcBA | "G"G2B2 G4 "B":: "G"d2dc B2d2 | g2g2 d4 | "D7(C)"dcBc "(D7)"A2A2 |
+dcBc A2A2 | "G"d2dc "(Bm)"B2d2 | "(Em)"g2g2 "D"d4 | "C"dcBc "D7"AcBA | "G"G2B2 G2z2 :|
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 6
+T: GALOPEDE
+S: "COUNTRY DANCES OF TODAY 2", CDSS, May Gadd ed., 1951 p.14
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+"A"|: dc |\
+"G"B2Bc "D"A2AB | "G"G2"(C)"G2 "G"G2AB | "C"cBcd "Am"edcB | "D"A2A2 A2dc |\
+"G"B2Bc "D"A2AB | "Em"G2G2 "G"G2AB | "Am"cBAG "D"FGAF | "G"G2G2 G2 :|
+"B"[|] dc |\
+"G"B2gf "C"e2ed | "Am7"dcBc "D"A2dc | "Em"B2gf "C"edcB | "D"A2A2 A2dc |\
+"Em"B2gf "C"e2ed | "Am7"dcBc A2dc | "G"BdcB "D"AcBA | "G"G2G2 G2 ||
+"C"[|] Bc |\
+"G"d2d2 d2g2 | "G"d2d2 d2g2 | "G"d2d2 "C"edcB | "D"A2A2 A2Bc |\
+"G"d2d2 d2g2 | "G"d2d2 d2g2 | "C"edcB "D"dcBA | "G"G2G2 G2 |]
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 7
+T: HUNT THE SQUIRREL
+S: "COUNTRY DANCES OF TODAY 2", CDSS, May Gadd ed., 1951 p.15
+R: hornpipe
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+N: The note counts in the two parts don't add up.
+M: C
+L: 1/8
+K: G
+"A"|: (3DEF | "G"G>B"D"A>F "G"G2D2 | "G"G>B d>e d2 B2 | "G"G>Bd>e d2B>A | "G"G>B"D7"A>F "G"G2 :|
+"B"|: "C"e>fg2 "C"e>fg2 | "C"e>fg>a "C"g2e2 | "G"d>ed>c "G"d2B>A | "G"G>B"D7"A>F "G"G2 :|
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 8
+T: KAFOOZALUM
+S: "COUNTRY DANCES OF TODAY 2", CDSS, May Gadd ed., 1951 p.13
+R: hornpipe
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+"A"[| "G"d2 d>c B>c d>B | "C"A>B c>B "D"A>B c2 | "G"d2 d>c B>c d>B | "G"G>A B>G "D7"A2 "G"G2 |]
+"B"[| "G"b>g d>g b>g b2 | "D"c'>a f>a c'>a c'2 | "G"b>g d>g b>g b2 | "Em"g>a b>g "D7"a2 "G"g2 |]
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 9
+T: LA RUSSE
+S: "COUNTRY DANCES OF TODAY 2", CDSS, May Gadd ed., 1951 p.16
+R: polka, reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+"Intro."GG |\
+"G"{A}G2BB {c}B2dd | "G"{e}d2g2 {a}g2fg | "D"{f}e2d2 "D7"{e}d2F2 | "G"{B}A2G2 H[G,2D2B2g2] ||
+"A"|: GG !Segno!|\
+"G"{A}G2BB {c}B2dd | "G"{e}d2g2 {a}g2fg | "C"{b}a2g2  e2c2 | "D"e2d2 {e}dcBA |
+"G"{A}G2BB {c}B2dd | "G"{e}d2g2 {a}g2fg | "D"{f}e2d2 "D7"{e}d2F2 | "G"{B}A2G2 {A}G2 :|[K:D]
+"B"|: AA |\
+"D"{B}A2dd "G"{e}d2B2 | "D"A2aa {b}a2f2 | "A"{a}g2f2 g2e2 | "D"fgag f2d2 |
+"D"{B}A2dd "G"{e}d2B2 | "D"A2aa {b}a2f2 | "A"{a}g2f2 g2e2 |1 "D"{c}d4 {e}d2 \
+:|2 "D"{c}d2fe "D7"d"D.C. al segno"=cBA :|
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 10
+T: LADY IN THE BOAT
+S: "COUNTRY DANCES OF TODAY 2", CDSS, May Gadd ed., 1951 p.12
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+N: Measure 13 should probably be like measure 9.
+M: 6/8
+L: 1/8
+K: D
+"A"|: A |\
+"D"dfA d2A | dfA d2f | a2f fed | "A(G)"e>fe "(A)"ecA |\
+"D"dfA d2A | dfA d2f | a2f "A"efe | "D"d3- d2 :|
+"B"|: d/e/ |\
+"D"f3 "G"gfg | "D"a3 f2g | a>gf fed | "A"efe ecA |\
+"D"f3 "G"fgf | "D"a3 f2g | a>gf "A"efe | "D"d3- d2 :|
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 11
+T: MISS FORBES' FAREWELL TO BANFF
+S: "COUNTRY DANCES OF TODAY 2", CDSS, May Gadd ed., 1951 p.12
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+"A"|: GA |\
+"G"B2Bd cBAG | B2d2 "C"efge | "G"d2de dBAG | "A"B2A2 "D7"A2GA | B2Bd "C"cBAG |
+"G"B2d2 "C"efge | "G"d2de "D7"dBGA | "G"B2G2 G2 "B":: d2 | "G"gfga gfed | "C"edef g2ge |
+"G"d2de dBAG | "A"B2A2 "D7"A2d2 | "G"gfga gfed | "C"edef g2ge | "G"d2de "D7"dBAG | "G"B2G2 G2 :|
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 12
+T: THE PERFECT CURE
+S: "COUNTRY DANCES OF TODAY 2", CDSS, May Gadd ed., 1951 p.15
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+"A"|: G |\
+"D"FGA Dcd | "A7"c2B A2G | "D"FGA DGF | "A7"E3 E2G |\
+"D"FGA Dcd | "A7"c2B A2G | "D"FGA "A7"B2c | "D"d3- d2 :|
+"B"|: e |\
+"D"fed "A"e2d | "A7"c2B A3 | "D"fed c2d | "Em7"e3 "A"e3 |\
+"D"fed "A"e2d | "A7"c2B A2B | "D"ABA "A7"B2c | "D"d3- d2 :|
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 13
+T: PHILLIBELULAH ALL THE WAY
+S: "COUNTRY DANCES OF TODAY 2", CDSS, May Gadd ed., 1951 p.14
+R: hornpipe
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+"A"|: f>e |\
+"D"d>c d>B A2 G>F | "Em"E>E F>G "A"A2 B>c | "D"d>B A>B d>d e>c | "D"d6 :|
+"B"[|] d>e |\
+"D"f2 f2 "Bm"f2 g>f | "Em"g>f e2 "A"e4 | "Bm"d2 d2 "E7"d2 e>d | "A"c>B A2 "A7"A2 B>c |
+"D"(3ded (3cBA "G"B>c d2 | "D"(3ded (3cBA "G"B>c "D"d>f | "Em"e2 (3efg "A7"a2 (3ABc | "D"d6 |]
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 14
+T: THERE'S NAE LUCK ABOOT THE HOOSE
+S: "COUNTRY DANCES OF TODAY 2", CDSS, May Gadd ed., 1951 p.12
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+"A"|:: d |\
+"G"g2e d2B | "C"c2d e2f | "G"g2e d2B | "D"A3- A2d |\
+"G"g2e d2B | "Am"c2d e2g | "D7"d2c B2A | "G"G2- G2 ::|
+"B"|: A |\
+"G"B3 B2G | "D"c3 c2A | "G"B3 B2G | "D"A3- A2A |\
+"G"B3 B2G | "C"c2d e2g | "D7"d2c B2A | "G"G2- G2 :|
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 15
+T: THREE MEET (Northumberland)
+S: "COUNTRY DANCES OF TODAY 2", CDSS, May Gadd ed., 1951 p.15
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+"A1"[|] d |\
+"G"gfe dcB | "D"d2c A2B | cBc "D7"e2d | "G"B3 GBd |\
+   gfe dcB | "D"d2c A2B | cBc "D7"e2F | "G"G3- G2 ||
+"A2"[|] d |\
+"G"dcB BAG | "D7"F2A e2c | ded c2d | "G"B3 GBd |\
+   dcB BAG | "D7"F2A e2c | "G"d2B "D7"dcA | "G"G3- G2 ||
+"B1"[|] D |\
+"G"G2A B2c | d3 B3d | "C"ed2 "D"c2d | "G"B3 G2D |\
+   G2A B2c | d3 g2g | "D7"fed cBA | "G"G3- G2 ||
+"B2"[|] D |\
+"G"GFG B2c | d3 "C"e2c | "G"ded "D7"c2d | "G"B3 G2D |\
+   GFG B2c | d3 "C"e2c | "G"d2B "D7"dcA | "G"G3- G2 |]
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 16
+T: 'TWAS WITHIN A MILE
+S: "COUNTRY DANCES OF TODAY 2", CDSS, May Gadd ed., 1951 p.16
+R: shottish
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/16
+K: D
+"A"[|]fg |\
+"D"a2af d2fd "G"Bdec "D"A2FG | "D"A3B ABde "A"f2e2 "A7"e2fg |
+"D"a2af d2fd "G"Bdec "D"A2FG | "D"A3B "A7"ABde "D"f2d2 d2 :|
+"B"|: de |\
+"D"f6 ef "Em"g6 fg | "D"a2a2 "Em"gage "A"f2e2 "A7"e2fg |
+"D"a2af d2fd "Em"Bdec "D"A2FG | "D"A3B "A7"ABde "D"f2d2 d2 :|
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 17
+T: WHITE COCKADE
+S: "COUNTRY DANCES OF TODAY 2", CDSS, May Gadd ed., 1951 p.11
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+"A"[|] GA |\
+"G"BABd cBAG | "G"B2B2 B2GA | "G"BABd cBAG | "D"B2A2 A2GA |
+"G"B2d2 cBAG | "G"B2d2 g2ga | "G"bagf "C"efge | "G"d2B2 B2 |]
+"B"[|] Bc |\
+"G"d2B2 g2Bc | "G"d2d2 d2Bc | "G"d2B2 g2fg | "D"a2A2 A2GA |
+"G"B2d2 "D"cBAG | "Em"B2"D"d2 "G"g2ga | "G"bagf "C"efge | "G"d2B2 B2 |]
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 18
+T: WINSTER GALOP
+S: "COUNTRY DANCES OF TODAY 2", CDSS, May Gadd ed., 1951 p.14
+R: reel, march
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+"A"|:\
+"G"G2BB G2B2 | "G"G2B2 d4 | "D"A2cc B2A2 | "G"G2B2 d4 |\
+"C"c2e2 f2e2 | "G"d2B2 d4 | "D7"A3c B2A2 | "G"G4 G4 :|
+"B"|:\
+"G"g2f2 e2d2 | "G"g2f2 e2d2 | "G"g2ff "C"e2d2 | "D"c2B2 A4 |\
+"D"f2e2 d4 | "D"f2e2 d4 | "D7"d4 A3c | "G"B2G2 G4 :|

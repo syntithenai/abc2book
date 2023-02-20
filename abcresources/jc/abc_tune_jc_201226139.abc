@@ -1,0 +1,19 @@
+X: 1010
+T: Wat's Jigg.
+%R: jig
+B: Henry Playford "Apollo's Banquet", London 1687 (5th Edition)
+F: https://archive.org/details/apollosbanquetco01rugg
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: Rest added as "pickup" to 2nd strain to fix the rhythm of repeats.
+N: Bar 9 is an extra half-bar in strain 2.
+M: 6/4
+L: 1/4
+K: C
+% - - - - - - - - - -
+g |\
+ec2 B>AG | A>Bc f2e | f3 a3 |\
+g>fe dec | B>AG A2B | c3- c2 :|
+|: z |\
+_B3 AFA | GEG cAf | A>Bc |\
+B3 d2e | f>ga eg2 | dfA B>AG | c3- c2 |]
+% - - - - - - - - - -

@@ -1,0 +1,19 @@
+X: 1
+T: Henriks Mazurka
+C: \251 Henrik Holm, 1983
+R: mazurka
+S: Image send by Henrik Holm 2013-11-13
+N: The last bar is missing a beat.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+"A"|:\
+"C"c>e .g.g .g.g | g/^f/a/f/ ge cc | "Bb"_B2d "Bb"B2d | "C"c2 G4 |\
+"C"c>e .g.g .g.g | g/^f/a/f/ ge cc | "Bb"_B2d "Bb"B2d | "C"c2 !fine!c4 :|
+"B"[|]\
+"C"e>e c2 G2 | e>e c2 G2 | "G"(3fgf (3efe (3ded | "C"c2 c4 |\
+"C"e>e c2 G2 | e>e c2 G2 | "G"(3fgf (3efe (3ded | "C"c2 (c2 "E7"B2) ||
+"C"[|]\
+"Am"A2 A>B c>e | a2 ae c2 | "D"d2 d>^f ab | "E"^g2 ^fg e2 |\
+"Am"a2 a>e c>e | "D"A2 Ac "Dm"Bc |[M:2/4] "C"A2 "d.c. al fine"A2 |]

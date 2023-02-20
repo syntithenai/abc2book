@@ -1,0 +1,32 @@
+X:1
+T: Galloping Nagg
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:D
+I:speed 165
+%W: A1
+% voice 1 (1 lines, 43 notes)
+K:D
+M:6/8
+L:1/16
+A2 |A2 F2 A2 A2 F2 A2 A2 F2 A2 A4 d2 d2 A2 d2 d2 A2 d2 d2 A2 d2 d4 e2 |f2 g2 a2 e2 f2 g2 f2 g2 a2 e2 f2 g2 f2 g2 a2 a4 ^g2 a6a4 A2 |
+%W: A2
+% voice 1 (1 lines, 42 notes)
+A2 F2 A2 A2 F2 A2 A2 F2 A2 A4 d2 d2 A2 d2 d2 A2 d2 d2 A2 d2 d4 e2 |f2 g2 a2 e2 f2 g2 f2 g2 a2 e2 f2 g2 f2 g2 a2 a4 ^g2 a6a4 g2 |
+%W: B1
+% voice 1 (1 lines, 27 notes)
+f2 d2 d2 g2 e2 e2 f2 d2 d2 g2 e2 e2 f2 d2 d2 g3 a g f e6e4 f g |a6 g6 f6 e6
+%W:
+% voice 1 (1 lines, 26 notes)
+f6 g6 f6 e4 g2 |f2 a2 d2 c2 A2 g2 f2 a2 d2 c2 A2 g2 f2 e2 d2 e2 d2 c2 d6d4 g2 |
+%W: B2
+% voice 1 (1 lines, 27 notes)
+f2 d2 d2 g2 e2 e2 f2 d2 d2 g2 e2 e2 f2 d2 d2 g3 a g f e6e4 f g |a6 g6 f6 e6
+%W:
+% voice 1 (1 lines, 25 notes)
+f6 g6 f6 e4 g2 |f2 a2 d2 c2 A2 g2 f2 a2 d2 c2 A2 g2 f2 e2 d2 e2 d2 c2 d6d4 ||

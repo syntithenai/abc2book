@@ -1,0 +1,33 @@
+X: 271
+T: LADY FRANCES SOMERSET
+C: D. MACINTYRE
+R: Reel
+B: Glen Collection p.27 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: The beaming in bars 2, 4 and 6 were unusual.
+M: C|
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Bb
+%
+V: 1
+d/e/ |\
+f2dB b2fd | e2dB Ac cd/e/ | f2dB b2fd | e2cf dB Bd/e/ |
+f2dB b2fd | e2dB Ac cd/e/ | f2dB g2Ta2 | b2cf dBB ||
+F |\
+DFBd fdbd | e2dB Accd | Bdfa bfdB | e2cf dBBF |
+DFBd fdbd | ecdB ABcd | Bbfd Egec | Cecf | dBB |]
+%
+V: 2
+z |\
+B2[b2f2] [b2d2][b2f2] | [a2f2][b2f2] [c'2f2][a2f2] |\
+B2[b2f2] [b2d2][b2f2] | [a2f2][a2f2] [b2B2][b2B2] |
+B2[b2f2] [b2d2][b2f2] | [a2f2][b2f2] [c'2f2][a2f2] |\
+d2[b2f2] e2c2 | d2[a2f2] [b2B2][bB] ||
+z |\
+B2[b2f2] d2[b2f2] | [a2f2][b2f2] [c'2f2][a2f2] |\
+d2[b2f2] [b2d2][b2f2] | [a2f2][a2f2] [b2f2][b2d2] |
+B2[b2f2] d2[b2f2] | [a2f2][b2f2] [c'2f2][a2f2] |\
+d2[b2f2] e2[c'2g2] | f2[a2f2] [b2f2B2][bfdB] |]

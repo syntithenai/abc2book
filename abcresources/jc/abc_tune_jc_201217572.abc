@@ -1,0 +1,19 @@
+X: 286
+T: Haroa Haktana
+O: Israel
+M: 2/4
+L: 1/8
+Q: 1/4=120
+S: Adapted from Debra Jones, Vancouver Int. Folk Dance Book
+H: 1999-10-22 01:10:04 UT	http://ifdo.pugmarks.com/~seymour/runabc/isra.abc
+K: Bm
+"^intro"\
+| g/e/f/d/ "Em"e2- | e/d/c/d/ e2- | e/d/c/d/ "E"ef | ^ga gf \
+| "Em"=g/e/f/d/ e2- | e/d/c/d/ e2 | "F#7"fd "Bm"cB | B2 z2 |
+%%sep 10 10 200
+M: 2/4
+L: 1/8
+|:"Bm"B2 B2| "E"e2 de |"Em"fe ee |    e>d ef |"Bm"~dc BA |    B2 "A"~cB/c/ |"Bm"d4-         |    d2 z2
+|    B2 B2 | "E"e2 de |"Em"fe ee |  e2 "A"ag | "D"f>e df | "A"e2     cA    |"Bm"B4-         |    B2 ff
+| "D"a4-   |   a2 f^g |  a2   aa | "E"^g2 fe | "A"a4-    |    a2     de    | "D"fa g/f/e/d/ | "A"e2 AA
+| "D"d2 df |"B7"ag fe |"Em"e4-   |     e2 fg |"Bm"e f2 B | "A"ce2    d/c/  |"Bm"B4-         |    B2 z2 :|

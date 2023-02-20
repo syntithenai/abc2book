@@ -1,0 +1,24 @@
+X:406
+T:The Last of England
+C:Colin Hume, 1997
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=85
+K:C
+V:1
+%%MIDI program 70
+P:A
+|: A2 Ec | B3/A/ ^G2 | AB/c/ dc/d/ | e4 | e2 cg | f3/e/ dc/d/ | ed/e/ fe | d2 c2 :|
+V:2 bass octave=-2
+%%MIDI program 39
+%%MIDI chordprog 54
+%%MIDI gchord c2cc
+|: "Am"A2 "/"cA | "Dm"dc/d/ "E7"e2 | "Am"A2 "Dm"d2 | "E7"ee/f/ "/"e/d/c/B/ | "C"cc/d/ "/"ec | "F"AF "G"G2 | "Am"A2 "F"FA | "G7"BG "C"c2 :|
+P:B
+V:1
+|: d3/d/ de | f3 e | de/f/ gf | e2 d2 | cd/e/ dc | B2 G2 |
+c2 cB | AB/c/ d2 | Bc/d/ e2 | cd/e/ fe/f/ | gf/e/ d3/c/ | c4 :|
+V:2
+|: "G"G2 "/"G2 | "F/A"A3/A/ "/"AF | "G"G2 "/"AB | "C"cG "G/B"BG | "Am"AG "D7"^FD | "G"G=F "G7"ED |
+"C"C2 "/"DE | "F"FE "Dm"DE/F/ | "G"GF "E7"E^F/^G/ | "Am"A=G "F"=FA | "C/G"G2 "G7"G2 | "C"cG "/"EC :|

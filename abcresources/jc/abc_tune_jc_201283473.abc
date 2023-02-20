@@ -1,0 +1,21 @@
+X:8
+T:Gut Morgen
+Z:Jack Campin, http://www.campin.me.uk
+F:http://www.campin.me.uk/Music/EdinburghKlezmer.abc
+M:3/4
+L:1/8
+Q:1/4=126
+K:DPhr
+ D2 d2    (3BAG     |^F2 G2 (3BAG|~^F3  D    (3EDC|D6         |
+ D2 d2    (3cdc     | A2 B2 (3BAG|  Ad  Ad     Ad |A4      AB |
+Tc3  A/c/ (3BAG     |^F2 G2   AB | TA3 ^F/A/ (3GFE|D2 E2 (3EDC|
+ C2 c2      c/B/A/G/|^F2 C2   DE |  DC DE     ^FE |D6        :|
+%
+|:d2 ^c2  d2|  B6           | d<^c =e<d c<B     |   A6          |\
+  dG  AB ^cd|
+             T^c3 B/c/ (3BAG|^F2    D2  d/c/B/A/|[1 G>^F GA B^c:|\
+                                                 [2 G>^F GF GA ||
+%
+|:B>A G>^F GB      |TA>G ^FD  FA|  TG>^F GF  ED|E<G      C4 |
+  CD  E2  ^F/G/A/B/| c>B  AG ^FE|[1 DC   DE ^FG|A/B/G/B/ A4:|\
+                                 [2 DC   DE ^FE|D6         |]

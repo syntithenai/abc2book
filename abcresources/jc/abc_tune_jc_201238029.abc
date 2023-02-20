@@ -1,0 +1,36 @@
+X: 30121
+T: FEDERAL GRAND MARCH
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.12 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+|:\
+g2g>g g>fe>d | c2c>c c2d>d | e2f>d e2f>d | e2e>e e2f>e |\
+d2d>d d2e>d | c2c>c c2d>e | f>fe>e d>d^f>f | g2g>g g2z2 :|
+|:\
+g2d>e f2e>d | c2c>d e2e>f | g2e>f g2f>e | d2d>d d2e>f |\
+g2g>f e2d>e | f2f>e d2g>f | e>ef>d c2B2 | c2c>c c2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+|:\
+e2e>e e>dc>G | E2E>E E2B>B | c2d>B c2d>B | c2c>c c2d>c |\
+B2B>B B2B2 | A2A>A A2z2 | G2G2 G2A2 | B2B>B B2z2 :|
+|:\
+B2B>c d2c>G | E2E>G c2c>d | e2c>d e2d>c | B2B>B B2c>d |\
+e2e>e c2G2 | G2G2 G2B2 | c2A>F E2D2 | E2E>E E2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+|:\
+c'2c'>c' c'2g2 | c2c>c c2g>g | c'2g>g c'2g>g | c'2c'>c' c'2z2 |\
+g2g>g g2^g2 | a2a>a a2b>c' | d'>d'c'>c' b>bd'>d' | g2g>g g2z2 :|
+|:\
+g2z2 g2z2 | c2c2 c2z2 | c2z2 c2z2 | g2g>g g2z2 |\
+c2z2 c'2b>c' | d'2d'>c' b2g2 | c'2f2 g2G2 | c2c>c c2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

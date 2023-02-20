@@ -1,0 +1,21 @@
+X: 171
+T: O'Carolan's Welcome
+C: Turlough O'Carolan
+R: waltz
+Z: John Chambers <jc:trillian.mit.edu>
+B: Ossian p.119 #171 (unnamed)
+N: The chords are highly variable.
+N: The G# in bar 24 is often played natural.
+M: 3/4
+L: 1/8
+K: Am
+cB \
+| "Am"A2 cd e2 | A2 cd e2 | "Dm"de dc BA | "Em"G/A/B G2 E2 \
+| "Am"c3 B A2 | "Dm"d3 c B2 | "Em"ce E2 G2 | "Am"A4 cB ||
+| "Am"A2 cd e2 | A2 cd e2 | "Dm"de dc BA | "Em"G/A/B G2 E2 \
+| "C"g3 f e2 | "F"a3 g ed | "Em"ce dc Bc | "Am"A4 |]
+[| e2 \
+| "Am"e2 ab c'2 | e2 ab c'2 | "G7"c'b ag ab | "C"c'2 e2 e2 \
+| "Dm"f2 af ed | "C"e2 ge dc | "Dm"d2 e2 "Em"g2 | "Am"Ha6 ||
+|| "F"ag eg a2 | "C"ge de g2 | "Am"ed cd ec | "G"d2 B2 G2 \
+| "Am"c3 B A2 | "Dm"d3 c B2 | "Em"c{d}e E2 G2 | "Am"A4 |]

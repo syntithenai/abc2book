@@ -1,0 +1,17 @@
+X:648
+T:Schizophrenia
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%stretchstaff 0
+Q:1/2=116
+K:G
+P:A
+D "D7"EF | "G"G2 F2 | "/"E2 D2 | "G"D>D "E7/G"ED | "Am"C4 | "D"A2 G2 | "/"F2 E2 | "D7"D>^D EC | "G"B,D "D7"EF |
+P:B
+"G"G2 F2 | "/"E2 D2 | "G"G>G F=F | "C"E4 | "Am"BA E2 | "G"AG D2 | "D"^CD EF | "G"GA_A=G [K:D] |
+P:C
+"D"F2 A2 | "/"B2 F2 | "D"A>A AB | "A"c4 | "A7"E2 G2 | "/"A2 B2 | "A7"c>c B_B | "D"A^A "A7"Bc |
+P:D
+"D"d2 D2 | "/"F2 A2 | "D"d>d c=c | "G"B4 | "Em"fe B2 | "D"ed A2 | "A"^GA "A7"Bc | "D"dA "A7"cA |
+"D"dA "A7"cA | "D"dA "A7"cA | [K:G] "D"d |]

@@ -1,0 +1,28 @@
+X: 10262
+T: SAXON WALTZ
+C: G. Von Benningsen
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.26 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Eb
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!mf!BG |\
+E2BGE2 | "^>"D2(c2B2) | D2BFD2 | "^>"E2(g2e2) |\
+E2BGE2 | "^>"D2(c2B2) | =AB(g_a)fd | e4 :: fd |\
+B=ABFGA | (B=AB)=Bcd | (ede)Bcd | (ede)fge |\
+B=ABFGA |
+B=AB=Bcd | efgafd | e4 :: "^dolce."B=B |\
+cAcedc | BGe2GB | AFd2df | eBgeB=B |\
+cAcedc | BGe2GB | ABdfad | e4 :: de |\
+=efgfdB | =A2"^>"e4 |
+c2 =a4 | [bB][c'c][d'd][=a=A][bB][gG] |\
+=efgfdB | =A2"^>"e4 | [cC][fF][=a=A][c'c][e'e][aA] | [b4B4]B=B |\
+cAcedc | BGe2GB | AFd2df | eBgeB=B |\
+cAcedc | BGe2GB | ABdfad | He4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

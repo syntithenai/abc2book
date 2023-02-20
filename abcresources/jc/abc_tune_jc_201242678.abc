@@ -1,0 +1,31 @@
+X: 651
+T: Clean Peas straw
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.65 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: Dmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+e |\
+defd gefd | eA A/A/A c2-ce |\
+defd gefd | eA A/A/A d2-d :|\
+|: f |\
+afdf (a/g/f/e/ d)f | eA A/A/A c2-cf |
+afdf a/g/f/e/ df | eA A/A/A d2-df |\
+(a/g/f/e/ d)f (a/g/f/e/ d)f | eA A/A/A c2cf |\
+afge fde^c | d(gTfe) d2d |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 d2d2 | A2A2 c2c2 |\
+d2d2 d2d2 | A2A2 D2D :|\
+|: z |\
+d2d2 d2d2 | A2A2 c2c2 |
+d2d2 d2d2 | A2A2 D2D2 |\
+d2d2 d2d2 | A2A2 c2c2 |
+d2e2 f2g2 | a2a2 d2d |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

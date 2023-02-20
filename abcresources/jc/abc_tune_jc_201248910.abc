@@ -1,0 +1,136 @@
+X:3101
+T:The Diamond Jubilee
+P:Captain Campbell (of Lochnell's) Reel
+C:Robert Mackintosh
+R:Jig (4x32)
+B:RSCDS 31-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:C
+|:ef|"C"g3 edc|"Dm"aga "G7"fed|"C"g3 "Am"ed"D7"c|"G"Bdc "G7"BAG|\
+     "C"g3 edc|"Dm"aga "G7"fed|
+                               "C"efg "G7"fed|"C"ec"F"c c2:|\
+E/F/|"C"GEG GEG|"F"AFA ABc|"C"GEG GFE|"Dm"DEC "G7"B,A,G,|
+   "C"GEG GEG|"F"AFA "Dm"ABc|"G"Bag "G"fed|"C"ec"F"c "C"c2 "G7"E/F/|\
+   "C"GEG GEG|"F"AFA ABc|
+                         "C"GEG "A7"GFE|"D7"DEC "G7"B,A,G,|\
+   "C"GEG "F"AFA|"C"GG"E7"B "Am"cA"F"a|"C"gfe "G7"fed|"C"ec"F"c "C"c2|]
+
+X:3102
+T:Clutha
+P:The Bow-Legged Bosun
+C:J. M. Hunter
+R:Reel (4x48) ABABAB
+B:RSCDS 31-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:A
+AB|"A"c2A2 A2Bc|"Bm"d2B2 "E"B2cd|"A"e2c2 "Bm"dcBA|"E"G2E2 "E7"E2AB|
+   "A"c2A2 A2Bc|"Bm"d2B2 "E"B2cd|"A"ea"Bm"da "A"ca"E7"Ba|"A"c2A2 A2||
+BA|"E"G2E2 "E7"edcB|"A"c2A2 "A7"A2Bc|"D"d2dd "Bm"dfaf|"A"e4-"E7"e2 fg|
+   "A"{g}a2ed cBAG|"Bm"F2{c}dc "E7"BAGF|"A"E2A2 "E7"GABG|"A"A2A,2 A,2|]
+
+X:3103
+T:Margaret Parker's Strathspey
+P:Prince Albert's Strathspey
+C:Middleton's Selection
+R:Strathspey (8x32)
+B:RSCDS 31-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:A
+%%scale 0.83
+A>B|"A"c<EA>B c>B "A7"c<e|"D"{e}d>c d<f "A"e2 "E7"{d}c>B|\
+    "A"A>c "E7"B>d "A7"c>e "D"d>f|"A"e>E e>f "E7"(3efe (3dcB|
+    "A"c<EA>B c>B "A7"c<e|"D"{e}d>c d<f "A"e2 "E7"c>d|\
+    "A"e<a"E7"g>f "A"e/f/e/d/ "Bm"c/d/c/B/|"A"A<c"E7"B>G "A"A2||
+ef/g/|"A"a>A c<e a>g f<e|"Bm"(3dbd (3cac B>c d<f|\
+    "B"b>B ^d<f "B7"b>a g>f|"E"e<a "B7"g>f "E"e>f "E7"g<b|
+    "A"a<A c<e a>g f>e|"Bm"(3dbd "A"(3cac "E7"B>cdf|\
+    "A"e<a"E7"g>f "A"e/f/e/d/ "Bm"c/d/c/B/|"A"A<c"E7"B>G "A"A2|]
+
+X:3104
+T:Polka Country Dance
+P:Tiddlediwinks Polka
+C:Traditional
+R:Reel (8x32) 2 chords
+B:RSCDS 31-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:G
+D2|:"G"GFGA BABc|d2g2 d3B|"Am"c2A2 "G"d3F|"A7"AGFE "D7"D2D2|\
+   "G"GFGA BABc|d2g2 "G7"d3B|
+                             "Am"c2A2 "D7"d3F|"G"G2"C"G2 "G"G2:|\
+"A7"FG|"D"A2f2 fefg|"Em"f2e2e2 EF|"A7"G2e2 e^def|"D"e2=d2d2 FG|
+   "D"A2f2 fefg|"Em"f2e2g2 fe|"A"d^cBA "A7"^GABc|"D"d2f2d2 FG|\
+   "D"A2f2 fefg|"Em"f2e2e2 EF|
+                              "A7"G2e2 e^def|"D"e2=d2 "D7"dcBA|\
+   "G"GFGA BABc|d2g2 d3B|"Am"c2A2 "D7"d3F|"G"G2"C"G2 "G"G2|]
+
+X:3105
+T:Autumn in Appin
+P:The Hills of Lorne
+C:Charlie Hunter
+R:Strathspey (4x32) 2 chords
+B:RSCDS 31-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:D
+"A7"FE|"D"D2FG A2"Bm"d2|"A7"f3e "D"d2"D7"A2|"G"B3d "D"A2F2|"Em"E2GF "A7"E2FE|
+       "D"D2FG A2"Bm"d2|"F#7"f3e "Bm"d2"D7"A2|"G"B2"Em"gB "A7"A2c2|"D"d6||
+"A7"ag|"D"f2ed "G"B2cd|"D"A3"A7"xF"D"A2"A7"ag|"D"f2ed "Bm"A2df|"Em"e4-"A7"e2fe|
+       "D"d2ef "D7"A2dc|"G"B2d2 "Em"g2"A7"ag|"D"f2ed "A7"A2c2|"D"d6|]
+
+X:3106
+T:Scotland
+P:The Scotch Hero's Reel
+C:Skillern
+R:Jig (8x32)
+B:RSCDS 31-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+|:c|"G"B/c/dc BGB|"D7"cAc "G"BGc|"G"B/c/dc BGB|"D"AFG "D7"ABc|
+    "G"B/c/dc BGB|"D7"cAc "G"BGB|"C"gfe "G"dcB|"Am"AFG "D7"AB:|
+|:c|"G"B>AG GDG|BGB gd"D7"c|"G"B>AG GDG|"D"AFG "D7"ABc|
+    "G"B>AG GDG|BGB "G7"gdB|"C"efg "G"dcB|1 "Am"AFG "D7"AB:|2 "D7"A>BA "G"G2|]
+
+X:3107
+T:Sir Murdoch MacDonald's Strathspey
+P:Bonnie Lossie
+C:J. Scott Skinner
+R:Strathspey (4x32)
+B:RSCDS 31-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:F
+c|"F"a>g f>e "Bb"e<d d<f|"F"c<AG>F "C7"G2-G>c|\
+  "F"a>g f>c "Bb"eddf|"F"c<a "C7"g>f "F"f2 fc|
+  "F"a>g f>e "Bb"e<d d<f|"F"c<AG>F "C7"G2-G>c|\
+  "F"a>g f>c "Bb"eddf|"F"c<a "C7"g>f "F"f2 f||
+B|"F7"A>B c>A "Bb"B2 B<d|"F"c<A G>F "C7"G2 G>B|\
+  "F"A>B "F7"c>A "Bb"B>c d>B|"F"c<f "C7"A>G "F"F2-F>B|
+  "F7"A>B c>A "Bb"B2 B<d|"F"c<A G>F "C7"G2 G>B|\
+  "F"A/B/c "F7"F/G/A "Bb"(3Bc^c "G7"(3dgf|"C7"(3edc (3BAG "F"F2 F|]
+
+X:3108
+T:Cromartie's Rant
+P:Cromartie's Rant
+C:Scotch
+R:Reel (8x32)
+B:RSCDS 31-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:F
+|:"F"FFF2 A2c2|"C7"B2G2 G2c2|"F"FFF2 c2F2|A2F2 c2"F7"F2|
+  "Bb"BdcB "F"AcBA|"G"d2G2 "C"G2A2|"Bb"Bcde "C7"fdcB|"F"A2"Bb"F2 "F"F4:|
+|:"F"ccc2 a2f2|"C7"g2c2 c2a2|b2ag "F"a2gf|"G7"gfed "C7"c2BA|
+  "Bb"Bdfd "F"Acfc|"Bb"dcBA "C"GFGA|"Bb"Bcde "C7"fdcB|"F"A2"Bb"F2 "F"F4:|

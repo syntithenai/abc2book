@@ -1,0 +1,41 @@
+X: 1
+T: Green Apple Quickstep   [2V]
+C: by David Kaynor, 1980
+%D:1981
+R: march, reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: "David A. Kaynor - Living Music and Dance" ed. Susan Songer 2021 p.81
+S: the Roaring Jelly collection (R-62)
+B: the Portland Collection v.2 p. 78
+M: 2/4
+L: 1/8
+K: G
+# = = = = = = = = = =
+V: 1 staves=2
+"^A"[|] Bc |\
+"G"d2 d>e | dB GD | "C"E>G EC | "G"B,G G2 |\
+"Am"A2 A>B | cABc | "D7"d>^c de | dc BA |
+y2y3 |\
+"G"G>F GA | Bd d2 | "C"e>d ef | "(A7)"g2 ga |\
+"G"b>a gd | "C"ce g>e | "G"dg"D"af | "G"g2 |]
+"^B"[| gf |\
+"Em"e>^d ef | "C"g>f ge | "D"d>e dB | "G"d2 gf |\
+"C"e>f ge | "G"dB "(A7)"GE | "D"D2 "A7"F>E | "D7"DC B,A, |
+y2y3 |\
+"G"G,>B, DB, | "C"C>E GE | "D"D>F AF | "Em"G2 GF |\
+"C"E>G ce | "G"d>e ga | "G"b2 "D"a2 | "G"g2 |]
+# = = = = = = = = = =
+V: 2 
+GA |\
+"G"B2 B>c | BG DB, | "C"C2 "D7"A,A, | "G"G,B, B,2 |\
+"Am"C2 E>G | AE GA | "D"A>A AA | AA GF |
+y2y3 |\
+"G"D>D DF | GB B2 | "C"c>G cd | e2 ef |\
+"G"g>d dB | "C"Gc e>c | "G"Bd "D"fd | "G"d2 |]
+[| dd |\
+"Em"B>B Bd | "C"e>d ec | "D"A>B AD | "G"G2 ed |\
+"C"c>d ec | "G"BG DB, | "D"A,2 "A"A>G | "D"FE DC |
+y2y3 |\
+"G"B,>G, B,G, | "C"G,>C EC | "D"A,>D FD | "Em"E2 ED |\
+"C"C>E Gc | "D"B>d df | "G"g2 "D"f2 | "G"d2 |]
+# = = = = = = = = = =

@@ -1,0 +1,29 @@
+X: 332
+T: Mrs LINLEY
+C: MACINTYRE
+R: Reel
+B: Glen Collection p.33 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Cm
+%
+V: 1
+G |\
+c2GE CEGe | dBFD B,DF=B | cGAF GEFD | ECFD ECC :|
+d |\
+ecgc Gceg | fBdB dfBd | ecgc Gceg | dBfd eccd |
+ecGE CEGe | dBFD B,DF=B | cGAF GEFD | ECFD ECC |]
+%
+V: 2
+z |
+c2[c'2e2] [g2e2][c'2e2] | B2[b2d2] [f2d2][f2d2] |\
+[e2c2][f2d2] [g2e2][a2f2] | g2[=b2d2] [c'2c2][gec] :|
+z |\
+c2[c'2e2] [c'2e2][g2e2] | B2[b2f2] [b2f2][b2f2] |\
+c2[c'2e2] [c'2e2][g2e2] | b2B2 c2[g2e2] |
+c2[c'2e2] [g2e2][c'2e2] | c2[b2d2] [f2d2][f2d2] |\
+[e2c2][f2d2] [g2e2][a2f2] | g2[=b2g2] [c'2c2][gec] |]

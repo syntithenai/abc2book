@@ -1,0 +1,48 @@
+%%text RJ Set 044 Jigs
+
+
+X: 1
+T: Eavesdropper, The
+I: RJ J-58 G jig Set 44
+M: 6/8
+R: jig
+K: G
+GE |\
+"G"DBB BAG | Bdd dBG | "C"cde "G"dBG | "Am"BAA "D"AGE ||\
+"G"DBB BAG | Bdd dBG | "C"cde "G"dBA | "D"AGF "G"G :|
+|: Bd |\
+"G"g3  "D"afd | "C"efg "G"dBG | "C"cde "G"dBG | "Am"BAA ABd ||\
+"G"g2b "D"afd | "C"efg "G"dBG | "C"cde "G"dBA | "D"AGF "G"G :|
+
+
+X: 2
+T: Knights of Saint Patrick
+I: RJ J-58 D jig Set 44
+M: 6/8
+R: jig
+K: D
+"(A)"A |\
+"D"dcd faf | dcd AFD | "G"GBG FAF | "A"EFG ABc ||\
+"D"d3 faf | dcd AFD | "G"GBG "D"FAF | "A"EDE D2 :|
+f |\
+"D"aga fdf | aba agf | "A"g3 gec | Ace gfe ||\
+"D"aga fdf | aba afg | afd "Em"bge | "A"edc "D"d2 |]
+f |\
+"D"aga fdf | aba agf | "A"g3 gec | Ace gfe ||\
+"D"d3 "Em"ede | "F#m"fef "G"gfg | "D"afd "Em"bge | "D"dAF D2 |]
+
+
+X: 3
+T: Pet of the Pipers
+I: RJ J-56 G jig Set 44
+M: 6/8
+R: jig
+K: G
+|:\
+"G"G3 BAG | dBG gdB | G3 BAG | "Am"FED "D"cBA ||\
+"G"G3 BAG | dBG g2d | "C"efg "G"dBG |1 "D"cAF "G"G2D :|2 "D"cAF "G"GBd |]
+|:\
+"C"g3 efg | "D"agf "G"ged | "C"g3 efg | "D"agf "G"g2d ||\
+"C"gfe "G"dcB | "C"edc "G"BAG | "C"efg "G"dBG | "D"cAF "G"G3 :|
+% text 08/29/98
+

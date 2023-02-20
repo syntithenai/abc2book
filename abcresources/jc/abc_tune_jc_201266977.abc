@@ -1,0 +1,487 @@
+%%textfont Helvetica-Bold 21
+ %%textfont Helvetica 16
+%%center * - * - * - * - * - * - *
+%%center
+%%center Répertoire à danser
+%%center pour les
+%%center Compagnons de Rolland
+%%center
+%%center * - * - * - * - * - * - *
+%%vskip 5cm
+%%begintext
+Pour la flûte à tambour, la vièle à archet
+et la vielle à roue
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%endtext
+%%vskip 19cm
+%%center (c) Galouvielle - Michel Bellon - 2006
+%%center 16 chemin des Montquartiers - 92130 ISSY-LES-MOULINEAUX
+%%center galouvielle.free.fr
+%%newpage
+
+%%titleleft
+%%textfont Helvetica 16
+%%infoline 1
+
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (France)
+X: 1
+T:Basse-dance appelle : Iouyssance vous donneray :
+R:---
+T:auec les mesures & battemens du tabourin.
+C:Trad.
+S:Thoinot Arbeau
+N:0069.gif
+A:Champaigne
+B:Orchesographie (1589)
+O:France
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-11-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+L:1/4
+Q:1/4=160
+K:Gmaj
+P:Air de la basse dance
+AAA | cB/2A/2G | cd/2B/2c/2d/2 | e2 e | \
+P:continuation de l'air
+e/2d/2c/2d/2e/2f/2 | gg/2f/2e | f/2e/2d/2c/2d/2B/2 | c2c |
+P:branle
+ede | A2A | B/2c/2d/2c/2B/2A/2 | G2G | \
+P:Devx simples
+g/2f/2e/2d/2c/2B/2 | cf/2e/2d/2c/2 | B/2A/2G/2 A/2A/2G/2 | A2A |
+P:Dovble
+AAA | cB/2A/2G | cd/2B/2c/2d/2 | e2 e | \
+P:Reprise
+e/2d/2c/2d/2e/2f/2 | gg/2f/2e | f/2e/2d/2c/2d/2B/2 | c2c |
+P:Dovble
+ede | A2A | B/2c/2d/2c/2B/2A/2 | G2G | \
+P:Reprise
+g/2f/2e/2d/2c/2B/2 | cf/2e/2d/2c/2 | B/2A/2G/2 A/2A/2G/2 | A2A |
+P:Branle
+aaa | g/2f/2g/2a/2b2 | a/2g/2f/2e/2f/2d/2 | e2 e | \
+P:Devx simples
+e/2d/2e/2f/2g/2a/2 | ba/2g/2f/2e/2 | f/2e/2d/2e/2 f/2d/2 | e2 e |
+P:Dovble
+aaa | g/2f/2g/2a/2 b | a/2g/2f/2e/2f/2d/2 | e2 e | \
+P:Dovble
+e/2d/2e/2f/2g/2a/2 | b a/2g/2f/2e/2 | f/2e/2d/2e/2f/2d/2 | e2 e |
+P:Dovble
+AAA | c B/2A/2 G | c d/2c/2d/2 | e2 e | \
+P:Reprise
+e/2d/2c/2d/2e/2f/2 | g g/2f/2 e | fedcdB | c2 c |
+P:Dovble
+ede | A2 A | BcdcBA | G2 G | \
+P:Reprise
+g/2f/2e/2d/2c/2B/2 | c f/2e/2d/2c/2 | B/2A/2G/2A/2A/2G/2 | A2 A ||
+P:Branle
+A/2G/2A/2B/2A/2B/2 | c B/2A/2 G | c/2B/2A/2B/2c/2d/2 | e2 e | \
+P:Devx simples
+e/2d/2c/2d/2e/2f/2 | g/2f/2g/2a/2g/2e/2 | f/2e/2d/2c/2d/2B/2 | c2 c |
+P:Dovble
+ede | A2 A | B/2c/2d/2c/2B/2A/2 | G2 G | \
+P:Reprise
+g/2f/2e/2d/2c/2B/2 | c f/2e/2d/2c/2 | B/2A/2G/2A/2A/2G/2 | HA4 ||
+%%textfont Helvetica 9
+%%text     Branle     & congé
+
+
+%%footer $D   Galouvielle-MBe 2006 \n (France)
+X: 2
+T:Air d'un branle double.
+R:
+C:Trad.
+S:Thoinot Arbeau
+B:Orchesographie (1589)
+O:France
+A:Champaigne
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-11-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:8/4
+L:1/4
+Q:1/4=175
+K:Gmaj
+AAcc BAGG | cdec ddcc |
+AAcc BAGG | ccBA AGAA |
+
+
+
+%%footer $D   Galouvielle-MBe 2006 \n (France)
+X:3
+T:Air d'un branle simple.
+R:
+C:Trad.
+S:Thoinot Arbeau
+B:Orchesographie (1589)
+O:France
+A:Champaigne
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-11-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:8/4
+L:1/4
+Q:1/4=175
+K:F
+GGBB AGFB | BABB |
+GGBB AGFG | GFGG |
+
+%%footer $D   Galouvielle-MBe 2006 \n (France)
+X: 4
+T:Air du branle gay.
+R:
+C:Trad.
+S:Thoinot Arbeau
+B:Orchesographie (1589)
+O:France
+A:Champaigne
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-11-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/4
+L:1/4
+Q:1/4=180
+K:Gmaj
+AAe c2c | d2d e2e | d2c B2A | A2G A2z |
+
+
+
+%%footer $D   Galouvielle-MBe 2006 \n (France)
+X: 5
+T:Air du branle couppé nommé Cassandre.
+R:
+C:Trad.
+S:Thoinot Arbeau
+N:0151.gif
+B:Orchesographie (1589)
+O:France
+A:Champaigne
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-11-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/4
+L:1/4
+Q:1/4=195
+K:Fmaj
+f2ff f2f2 | g/2a/2bfg d2d2 :: b2gg a2ff |
+ggfg d3/2d/2ff | B2B2 | c/2d/2_ecd G2G2 :|
+
+
+
+%%footer $D   Galouvielle-MBe 2006 \n (France)
+X: 6
+T:Air du branle couppé nommé Pinagay.
+R:
+C:Trad.
+S:Thoinot Arbeau
+N:0152.gif
+N:vérifier s'il n'y a pas un Fa dièse à la dernière mesure. Et un Bb ?
+B:Orchesographie (1589)
+O:France
+A:Champaigne
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-11-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:8/4
+L:1/4
+Q:1/4=180
+K:Fmaj
+cccc ddeg/2f/2 ez | cccc ddeg/2f/2 | eg/2f/2e g/2f/2 ez | edcd Bcdc | eedc cBc2 :|
+
+
+
+%%footer $D   Galouvielle-MBe 2006 \n (France)
+X:7
+T:Air du branle couppé appellé Charlotte.
+R:
+C:Trad.
+S:Thoinot Arbeau
+N:vérifier 3ème mesure : cABc ou c3/2 ABc ?
+N:0154.gif
+B:Orchesographie (1589)
+O:France
+A:Champaigne
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-11-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:8/4
+L:1/4
+Q:1/4=200
+K:F
+GGBB ccd2 | gz dz | cABc d2 G2 :: Gddd cdB2 | dz cz |
+GABc AG   | dz cz | GABc AG | dz ez | dcBB AA G2 ||
+
+%%footer $D   Galouvielle-MBe 2006 \n (France)
+X: 8
+T:Air du branle couppé de la guerre
+R:
+C:Trad.
+S:Thoinot Arbeau
+N:vérifier rythme p.157.gif
+N:0156.gif
+B:Orchesographie (1589)
+O:France
+A:Champaigne
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-11-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:8/4
+L:1/4
+Q:1/4=150
+K:Gmaj
+g/2f/2g/2a/2 gg e2 cg | fedc B2 G2 | d2 e f g2 gg a gg f g2g2 ::
+ggge ggge f/2d/2 e2 f/2 d ed ced e/2c/2 d e/2 c/2 dcc Bc e/2c/2 d cc B c2c2 |
+
+
+
+
+%%footer $D   Galouvielle-MBe 2006 \n (France)
+X: 9
+T:Air du premier branle d'Escosse.
+R:
+C:Trad.
+S:Thoinot Arbeau
+N:0162.gif
+B:Orchesographie (1589)
+O:France
+A:Champaigne
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-11-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:8/4
+L:1/4
+Q:1/4=215
+K:Gmaj
+ABcA Bcd2 | dcBA cde2 | egfe dcBA |
+ABcA Bcd2 | dcBA cde2 | dcBA BGA2 ||
+
+
+%%begintext
+doublé et enchaîné au suivant
+%%endtext
+
+%%footer $D   Galouvielle-MBe 2006 \n (France)
+X: 10
+T:Air du second branle d'Escosse.
+R:
+C:Trad.
+S:Thoinot Arbeau
+N:0163.gif
+B:Orchesographie (1589)
+O:France
+A:Champaigne
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-11-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:8/4
+L:1/4
+Q:1/4=215
+K:Gmaj
+e2efgagf e2e2dcB2 e2dcB2A2 | e2efgagf e2e2dcBA BGA2 ||
+
+
+%%begintext
+doublé
+%%endtext
+
+%%footer $D   Galouvielle-MBe 2006 \nBransle (France)
+X:11
+T:Bransle des lavandières
+R:Bransle
+S:Thoinot Arbeau
+N:0168.gif
+B:Orchesographie (1589)
+O:France
+A:Champaigne
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-11-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:8/4
+L:1/4
+Q:1/4=200
+K:F
+|:G G GG FF B2 | cB AG GF G2 :\
+ :Gd Bd cB AG :
+ :GG F2 G2 A2 | AA AB cB AG  |\
+  GG F2 G2 A2 | cB A G GF G2 :|
+
+%%footer $D   Galouvielle-MBe 2006 \nBransle (France)
+X:12
+T:Bransle des pois
+R:Bransle
+C:Trad.
+S:Thoinot Arbeau
+B:Orchesographie (1589)
+O:France
+A:Champaigne
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-11-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/2
+L:1/4
+Q:1/4=200
+K:C
+ c2 cd | e2 ee | fe dd | e2 A2 |\
+c>B cd | e2 ee | fe dd | e2 A2
+Q:1/2=150
+|: AB G2 | AB cA | AB cd | cB A2 :|
+
+%%footer $D   Galouvielle-MBe 2006 \nBransle (France)
+X:13
+T:Branle des hermites
+R:Bransle
+S:Thoinot Arbeau
+N:0168.gif
+B:Orchesographie (1589)
+O:France
+A:Champaigne
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-11-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:8/4
+L:1/4
+Q:1/4=200
+K:F
+BBBB BBAB cBAG GFG2 :: GGGG GGF2 |
+GGA2 F2 D2 | GGGG GG F2 | GGA2 F2 D2 ||
+
+%%footer $D   Galouvielle-MBe 2006 \nbransle (France)
+X:14
+T:Branle des sabots
+R:bransle
+C:Trad.
+S:Thoinot Arbeau
+N:0177.gif
+B:Orchesographie (1589)
+O:France
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-11-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:8/4
+L:1/4
+Q:1/4=220
+K:F
+%%MIDI nobarlines
+%%MIDI transpose 0
+|: B2B2 c/B/A/G/AF GGFBBAB2 :: c/B/A/G/AF c/B/A/G/AF FzFzFz :|
+
+%%footer $D   Galouvielle-MBe 2006 \nbransle (France)
+X: 15
+T:Branle des chevaulx (original)
+R:bransle
+C:Trad.
+S:Thoinot Arbeau
+N:0178.gif
+B:Orchesographie (1589)
+O:France
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-11-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:8/4
+L:1/4
+Q:1/4=220
+K:Gmaj
+deffgfegfedc B2A2 | deffgfegfdee d2 |
+ag/2f/2ee/2f/2gf/2e/2dfedcd e2e2 | ag/2f/2ee/2f/2gf/2e/2dfeddc d2d2 ||
+=fe/2d/2 =fe/2d/2 cd e2 ABcdefed | =fe/2d/2 =fe/2d/2 cd e2 ABcdd^c d2 ||
+
+
+
+%%footer $D   Galouvielle-MBe 2006 \nPavane (France)
+X:16
+T:Air & mouuements de la pauane d'Espagne
+R:Pavane
+C:Trad.
+S:Thoinot Arbeau
+N:0195.gif
+B:Orchesographie (1589)
+O:France
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-11-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:8/4
+L:1/4
+Q:1/4=220
+K:C
+d2c3/2A/ B c d3/2e/ : d/B/c/d/ e2 e e e3/2 g/ : fed3/2 c/ d/f/e/d/ cd : Bc d3/2c/ B/c/d/e/ d z :|
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X: 17
+T:Ronde "Warum"
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-11-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/4
+K:Gm
+V:1
+c g g>g | fgec | f>g f/2e/2d/2c/2 | (=B/2A/2)=B c2 :: c/2d/2e/2f/2 gg | bag2 | (c/2d/2)e/2f/2 gg | bag2 |
+(e/2d/2)e/2f/2 gg | (e/2d/2)e/2f/2 gg | (f/2g/2)_a/2g/2 f/2e/2d/2c/2 | (=B/2A/2)c/2=B/2 c2 | (e/2d/2)e/2f/2 gg | (e/2d/2)e/2f/2 gg | (f/2g/2)_a/2g/2 f/2e/2d/2c/2 | (=B/2A/2)c/2=B/2 c2 :|
+V:2
+E>F G/2A/2B/2c/2 | dBc2 | cAB_A | G2G2 :: c2Be | ddBc | ccBe | dd=B2 |
+ccdB | ccdc | c2B_A |G2G2 |ccdB | ccdc | c2B_A |G2G2 :|
+V:3
+G2BB | AG_AG | F>E F/2G/2F/2E/2 | (D/2C/2)DC2 :: GGGB- | B/2A/4G/4 FGE | GGGB- | B/2A/4G/4 ^FG2 |
+G>A BG | (G/2F/2)G/2A/2 BE | F>E F/2G/2F/2E/2 | (D/2C/2)DC2 | G>A BG | (G/2F/2)G/2A/2 BE | F>E F/2G/2F/2E/2 | (D/2C/2)DC2 :|
+
+%%footer $D   Galouvielle-MBe 2006 \nBranle double (--)
+X:18
+T:Branles
+C:Michael Praetorius (1571-1621)
+R:Branle double
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-11-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C|
+L:1/8
+%%staves [1 2 3 4]
+K:G
+V:1
+GABc d2B2 | cde2 d2AB | c2dc Bcd2 | c2B2 AGAF |
+GABc dBcd | ecde d2AB | c2dc B2cB | AGAB G4 :|
+V:2
+d4d2d2 | efg2 f4 | e4g4 | g4f4 |
+e4f4 | g4g2f2 | e2f2g2g2 | f4d4 :|
+V:3
+B4A2B2 | G2c2A2d2 | c2Bc d2B2 | e4A2d2 |
+BAG2 A4 | cedc B2A2 | A2A2 e2e2 | ABcd B4 :|
+V:4 K:G
+G4F2G2 | E2C2D4 | A4G4 | C4D4 |
+E4D4 | C2B,A, B,C,D2 | A,2D,2 E2C2 | D4G,4 :|
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X:19
+T:Bransle des Chevaulx
+C:Orchésographie
+C:Harmonisation inconnue
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-11-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C|
+L:1/4
+Q:1/4=210
+K:C
+V:1
+c>dee | fedf | edcB | A2G2!breath! | c>dee | fedf | ecd2 | c4 ||
+gf/e/ dd/e/ | fe/d/ ce | dcBc | d2d2 | gf/e/ dd/e/ | fe/d/ ce | dccB | c4 |:
+K:Bb
+ed/c/ ed/c/ | Bcd2 | GABc | dedc | ed/c/ed/c/ | Bcd2 | GABc | cBc2 :|
+V:2
+G2cc | c2Bc- | cBE/^F/G- | G^FG2 | G2cc | dcBc | c3B | G4 ||
+_B2BB | A2Gc | _BAdG/A/ | B2B2 | _B2BB | A2G>A | _BGG2 | G4 |:
+K:Bb
+GF/E/ GF/E/ | DED2 | D2GE | DG2E | GF/E/GF/E/ | DED2 | D2DE | FDC2 :|
+V:3
+E>FGG | AGGA | GGCD | D2B,2 | C/D/E/F/GG | _BGGA | GGG2 | G4 ||
+D2GG |C>D E/F/G | GE/F/ GE | G2G2 | D2GG | C>D E/F/G/E/ FE D2 |E4 |:
+K:Bb
+GF/E/ GF/E/ | DE D2 | D2GE | DG2E | GF/E/ GF/E/ | DED2 | D2DE | FDC2 :|

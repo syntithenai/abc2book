@@ -1,0 +1,26 @@
+X:1
+T: Upon A Summer's Day
+N:
+C:
+S:3 times
+A:
+O:
+R:
+M:6/8
+K:Em
+I:speed 150
+%W: A
+% voice 1 (1 lines, 16 notes)
+K:Em
+M:6/8
+L:1/16
+B2 |B4 B2 G4 E2 B6B4 ^c d e4 d2 e4 f2 g6g4 G2 |
+%W:
+% voice 1 (1 lines, 12 notes)
+G4 G2 F4 E2 d6 e6 f4 G2 F4 E2 E6E4 |
+%W: B
+% voice 1 (1 lines, 15 notes)
+f2 |f4 f2 d4 B2 f6f4 d2 e4 d2 e4 f2 g6g4 G2 |
+%W:
+% voice 1 (1 lines, 12 notes)
+G4 G2 F4 E2 d6 e6 f4 G2 F4 E2 E6E4 |

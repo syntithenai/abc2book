@@ -1,0 +1,25 @@
+X: 163
+T: Kalamatianos
+O: Greece
+M: 7/8
+L: 1/16
+Q: 1/4=160
+K: Ddor
+%%MIDI gchord fzzczcz
+%%MIDI program 66
+%%MIDI bassprog 45
+%%MIDI chordprog 24
+   A2                          |\
+   "Dm"fedcB2 AG ^GBcd e/c/e/d/|ef^gaza _afed ed2z     |
+   fedcB2 AG ^GBcd e/c/e/d/    |d4e2 fede d2A2         |
+   fedcB2 AG ^GBcd e/c/e/d/    |ef^gaza _afed ed2z     |
+   fedcB2 AG ^GBcd e/c/e/d/    |d4e2 fede d2 z2        |
+K: D
+   f4-fe  (3g2a2g2 f2e2        |z2(3G2A2B2 d2z2 d^d_g=g|
+   _aa4g  fg2^d  d4-           |d2g2_g2 ^d4 d2z2       |
+   f4-fe   (3g2a2g2 f2e2       |z3GAB d2z2 d^d_g=g     |
+   _aa4g  _g=g2^d  =d4-        |d2g2_g2 ^d4 d2z2       |
+   f2gfef  ga^a=a  gag2        |f4ea  g2f2- f4-        |
+   fe3d2   =f2d2 ^fg/2a/2gf    |ze4-e d4 z4            |
+   f2gfef  ga^a=a  gag2        |f4ea  g2f2- f4-        |
+   fe3d2   =f2d2 ^fg/2a/2gf    |ze4-e d4 z4            |

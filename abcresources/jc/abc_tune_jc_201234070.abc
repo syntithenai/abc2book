@@ -1,0 +1,40 @@
+X: 20241
+T: GOV. KING'S MARCH
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" 1843 p.24 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+D3F |\
+A4 A3A A4 (GFED) | B4 B3B B3cd3B |\
+(B2A2)(F2A2) (A2G2)(G2F2) | E4 E3E E4 D3F |\
+A4 A3A A4 GFED | B4 B3B B3cd3B |
+B3AF3A A3GF3E | D4 d3d d4 :|\
+|: A2A2 |\
+d2AA A2A2 e2AA A2A2 | d2AA e2AA f2AA A2A2 |\
+g2AA A2A2 f2AA A2A2 |
+(ef)(ed) (cd)(cB) (AB)AG (3(FED) (3(EFG) |\
+A4 A3A A4 GFED | B4 B3B B3cd3B |\
+B3AF3A A3GF3E | D4 d3d d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z4 |\
+F4 F3F F4 z4 | G4 G3G G3AB3G | G2F2D2F2 F2E2E2D2 | C4 C3C C4 z4 |\
+F4 F3F F4 z4 | G4 G3G G3AB3G | G3FD3F F3ED3C | D4 F3F F4 :|
+|: A4 |\
+d2AA A2A2 c2A2 A2A2 | d2AA c2AA d2AA A2A2 | e2AA A2A2 d2AA A2A2 | (cd)(cB) ABAG FGFE (3(DCB,) (3(CDE) |\
+F4 F3F F4 z4 | G4 G3G G3AB3G | G3FD3F F3ED3C | D4 F3F F4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z4 |\
+d4 d3d d4 z4 | G4 G3G G4 z4 | f4 f4 e4 e4 | [A4C4] [A3C3][AC] [A4C4] z4 |\
+d4 d3d d4 z4 | G4 G3G G4 z4 | f4 g4 a4 A4 | d4 d3d d4 :|
+|: z4 |\
+d4 d4 A4 A4 | d4 A4 A4 A4 | [g4B4] A4 [d4A4] A4 | z16 |\
+d4 d3d d4 z4 | G4 G3G G4 z4 | f4 g4 a4 A4 | d4 d3d d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

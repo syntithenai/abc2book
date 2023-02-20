@@ -1,0 +1,16 @@
+X: 598
+T: Dermot and His Lass.
+T: diarmuid agus a \.cailin
+R: air, waltz
+%S: s:2 b:16(8+8)
+B: O'Neill's 1850 #598
+Z: John Walsh (walsh@math.ubc.ca)
+N: It's really D dorian; the flat in the key signature should be dropped.
+Q: "Slow."
+M: 3/8
+L: 1/16
+K: Dm
+D2 | "^>"A,2"^>"D2 (DE) | "^>"D4 (EF) | G2 (FE) (D>E) | A,4 |\
+| (c>B) | A2G2 ((3A=Bc) | C2 C>D E>D | D4 D2 | D4 :|
+|: A2  | .A2.d2.d2 | d4 (cd) | (e2>d2) (d>c) | c4 |\
+| (c=B) | A2G2 ((3A=Bc) | C2 C>D E>D | D4 D2 | HD4 :|

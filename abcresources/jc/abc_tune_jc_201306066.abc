@@ -1,0 +1,28 @@
+X: 1
+T: The Maids Delight
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.144
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Both parts should probably be repeated.
+M: 6/4
+L: 1/4
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+G2g (fg)d | c2B A2g |\
+(fe)d (cB) A | A2G G2 |]\
+A//B//c/ |\
+d2c (Bc)d | (eg)f (fe)d |\
+(ba)g (fe)d | c2B B2a |\
+b2a (gf)=e | (=ea)g ^f2g |\
+(dc)B (ed)c | A2G G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man go back to back with the 2. wo. and the 1. wo. go back to back with the 2. man, then 1.
+%% cu. cross over below the 2. cu. and go back to back with their own Partners, then cast up and cross
+%% over into the 2. place, and then clap hands and turn their own Partners.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

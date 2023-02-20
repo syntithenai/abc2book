@@ -1,0 +1,165 @@
+
+X: 0
+T: Contra Dances
+%C: 080612
+K:
+
+%%textfont Times-Italic 12
+
+
+X: 1
+T: Fischer's Hornpipe  v.1
+T: Fisher's Hornpipe, Blacksmith's Hornpipe
+P: piffero primo a0085
+O: attr. Johann Fischer (1733-1800)
+%R: hornpipe, reel
+F: http://ancients.sudburymuster.org/mus/col/pdf/contraF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+(3(ABc |\
+d)A FA GBAG| FAFA GBAG | FDFD GEGE | FDFD E2 (3(ABc | d)A FA GBAG |
+FAFA GBAG | FGAB cAcA | d2d2 d2 :: cd | ecAc ecge | fdAd fdgf |
+ecAc ecgf | edcB A2 GA | BGDG BGdB | AFDF AFdA | BdcB AGFE | D2 d2 d2 :|
+
+
+X: 2
+T: Fischer's Hornpipe  v.2
+P: piffero secondo a0086
+O: Dan Moylan
+%R: hornpipe, reel
+F: http://ancients.sudburymuster.org/mus/col/pdf/contraF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+(3cde |\
+f2d2 c2c2 | d2A2 c2c2 | d2A2 c2G2 | d2A2 c2 (3cde |\
+f2d2 c2c2 | d2A2 c2c2 | d2c2 G2e2 | f2f2 f2 :|
+|: ed |\
+c2A2 c2e2 | d2A2 d2ed | c2A2 c2e2 | g2e2 c2cA |\
+G2B2 d2B2 | F2A2 d2A2 | G2A2 c2A2 | F2A2 F2 :|
+
+
+X: 3
+T: Market Lass  v.1
+P: piffero primo a0087
+O: Joe Bausk's Tape
+%R: march, reel
+F: http://ancients.sudburymuster.org/mus/col/pdf/contraF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|:\
+G3A B2B2 | cBA2 G4 | F2G2 A2B2 | c4 B2A2 |\
+G3A B2B2 | cBA2 G4 | F2G2 A2BA | G4 G4 ::\
+B3c d2d2 | e2d2 c2Bc |
+d2c2 B2AB | c2B2 A2D2 |\
+B2c2 d2d2 | e2d2 c2Bc | d2c2 B2A2 | G4 G4 ::\
+B6 c2 | d4 c4 | B4 A4 | G4 D4 |
+B6 c2 | d4 c4 | B8 | A8 |\
+B6 c2 | d4 c4 | B4 A4 | G4 A2B2 |\
+c4 B4 | A4 G4 | F2D2 E2F2 | G8 :|
+
+
+X: 4
+T: Market Lass  v.2
+P: piffero secondo a0134
+O: Dan Moylan
+%R: march, reel
+F: http://ancients.sudburymuster.org/mus/col/pdf/contraF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|:\
+B3c d2d2 | edc2 B4 | A4 F4 | A4 d4 |\
+B3c d2d2 | edc2 B4 | A4 E4 | B4 d4 ::\
+G2A2 B4 | c2B2 A4 | F2A2 G4 | F2d2 c4 | G2A2 B4 |
+c2B2 A4 | F2D2 G2A2 | B4 z4 ::\
+G4 A4 | B4 c4 | d4 c4 | B4 d4 |\
+G4 A4 | B4 c4 | d4 B4 | F4 E4 |\
+G4 A4 | B4 c4 | d4 c4 | B4 d4 |\
+f4 G4 | A4 B4 | d4 d4 | B4 z2 :|
+
+
+X: 5
+T: Market Lass  v.3
+P: piffero terzo a0088
+O: Dan Moylan
+%R: march, reel
+F: http://ancients.sudburymuster.org/mus/col/pdf/contraF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|:\
+G2B2 d2G2 | A2F2 B2D2 | d2B2 A2G2 | F2D2 G2A2 |\
+G2B2 d2G2 | A2F2 B2D2 | d2B2 A2GA | B2d2 B2z2 ::\
+d2G2 B2G2 | c2B2 A2G2 |
+B2A2 G2F2 | A2G2 F2F2 |\
+d2G2 B2G2 | c2B2 A2G2 | B2A2 G2F2 | B2d2 B2z2 ::\
+d4 B4 | G4 F4 | G4 A4 | B4 D4 |
+d4 B4 | G4 F4 | G4 d4 | f4 d4 ::\
+d4 B4 | G4 F4 | G4 A4 | B4 D4 |\
+F4 G4 | A4 B4 | d4 G4 | B4 z4 :|
+
+
+X: 6
+T: Sackett's Harbor
+P: piffero primo a0089
+O: Joe Bausk's Tape
+%R:jig, march
+F: http://ancients.sudburymuster.org/mus/col/pdf/contraF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: B3 d2e | fed c2B | A3 c2d | efe edc | B3 d2e | fed cde | f2B Bc^A | B3 z3 :|
+|: d2 (3e/f/g/ a2b | afd afd | A2 (3B/c/d/ e2f | ecA ecA | d2 (3e/f/g/ a2b | afd dfa | b2B Bc^A | B3 z3 :|
+|: dff f2a | gee e2g | fdd dcd | efe ecA | dff f2a | gee e2g | fdf gec | d3 :|
+|: faa a3 | d'c'b a2g | fga agf efg gfe | faa a3 | d'c'b a2g | fga ABc | d3 z3 :|
+
+
+X: 7
+T: Sackett's Harbor  v.2
+P: piffero secondo a0133
+O: Dan Moylan
+%R:jig, march
+F: http://ancients.sudburymuster.org/mus/col/pdf/contraF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: D3 F2G | AGF E2D | F3 E2F | GAG GFE | D3 F2G | AGF EFG | A2D DEF | D3 z3 :|
+|: A3 F2D | FDA FDA | F3 G2A | GEF GEF | A3 F2D | FDA FDA | D2D DEF | D3 z3 :|
+|: FAA A2F | EGG G2E | DFF FGF | GAG GEF | FAA A2F | EGG G2E | DFD EGE | F3 z3 :|
+|: dAF DFA | fed cdB | AGF FGA | GAG GAB | dAF DFA | fed cdB | AGF FDE | F3 z3 :|
+
+
+X: 8
+T: Sackett's Harbor  v.3
+P: piffero terzo a090
+O: Dan Moylan
+%R:jig, march
+F: http://ancients.sudburymuster.org/mus/col/pdf/contraF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|:\
+d3 B3 | A3 G3 | F3 A3 | c3 e3 |\
+d3 B3 | A3 e3 | d2d dec | d3 z2 ::\
+f2 (3f/e/d/ c2d | cdf cdf |
+c2 (3c/B/A/ G2A | GAc GAc |\
+f2 (3f/e/d/ c2d | cdf fdc | d2d dec | d3 z3 ::\
+f3 d3 | e3 c3 | d3 B3 |A3 c3 |
+f3 d3 | e3 c3 | d3 e3 | f3 z3 ::\
+a3 f3 | f3 c3 | d3 f3 | g3 c3 |\
+a3 f3 | f3 c3 | agf fde | f3 z3 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

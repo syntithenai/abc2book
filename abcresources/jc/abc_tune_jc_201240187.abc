@@ -1,0 +1,17 @@
+X: 373	% 106
+T: Sally There's A Bug On Me
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.37 #3
+R: reel, march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Note there's no repeat of the 1st strain. (But you can repeat it if you like.)
+N: The book also has no initial repeat for the 2nd strain (but there's a final repeat).
+M: 2/4
+L: 1/16
+K: D
+V: 1 name="106"
+[|\
+A3d fgfe | d2F2A3d | c2E2G3B | A2D2F4 |\
+A3d fgfe | d2F2A3d | Mc2MA2MB2Mc2 | d4 d4 |][K:A]
+|:\
+[e3c3]f[e3c3]f | [e3c3]a [e4c4] | b2ba f2fg | a2c2 e4 |\
+[e3c3]f[e3c3]f | [e3c3]a [e4c4] | b2ba f2g2 | a4 a4 :|

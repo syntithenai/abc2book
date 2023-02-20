@@ -1,0 +1,19 @@
+X: 1324
+T: Isle of Sky,   a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.1 p.32 #4 (and top staff of p.33)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C	% The book has no time signature
+L: 1/8
+K: Bb
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+d |\
+B>FD>F .B.F.D.F | ECC(=B c)GTG>(A | B)>FDF B>FDF | ECTF>E DB,B, :| F | Bdfb fdBd | (~cB)cd (TcB)Gc |
+Bdfb fdBd | (cBc)d B/B/B B2 || Bdfb fdBd | (TcBc)d (TcB)Ag | f>.Bg>.B a>B.b.B | (TcBcd) B/B/B B |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | B2B2 B2B2 | c2c2 e2e2 | d2B2 B2B2 | c2F2 B2B :| z | b2b2 b2b2 | e2e2 e2e2 |
+d2d2 B2B2 | e2f2 B2B2 || B2B2 B2B2 | e2e2 e2e2 | d2e2 f2g2 | e2f2 B2B |]

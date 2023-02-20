@@ -1,0 +1,18 @@
+X:40
+T:The Bath Waltz
+C:Cahusac: 24 Country Dances for the year 1798
+M:3/4
+L:1/8
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=120
+K:G
+P:A
+|: (3DEF | "G"G2 G2 G2 | "G"G4 DG | "Em"B2 B2 B2 | "Em"B4 GB |\
+"G"d2 B2 G2 | "Am"e2 c2 A2 | "D"F2 FG AF | "G"G4 :|
+P:B
+|: Bd | "D7"dc c2 AF | "G"AG G2 Bd | "D7"dc A2 f2 | "G"g4 Bd |\
+"D7"dc c2 AF | "Em"AG G2 Bd | "Am"e^d ec "D7"AF | "G"G4 :|
+P:C
+|: D2 | "G"GF GA Bc | "G"d2 Bc d2 | "Am"e2 E2 A2 | "D7"GF E2 D2 |\
+"G"GF GA Bc | "Em"d2 Bc d2 | "Am"e^d ec "D7"AF | "G"G4 :|

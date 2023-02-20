@@ -1,0 +1,19 @@
+X:1
+T:Strum Notation Experiment
+N:When processed with abcm2ps-4.12.3 the notes prefixed with 's' will have
+N:their noteheads replaced with heavy slashes indicating guitar strumming.
+N:Hollow noteheads for half-notes and whole-notes are not implemented, and
+N:it hasn't been tested with all time values, spacing, layout options, etc.,
+N:nor with down-stems. -- DGA
+U:s=+head-strum+
+M:C
+L:1/8
+K:C treble-8
+ "Am" sAsAsAsA sA2 sA>sA | "Dm" sA2 sA/sA/sA "C" sA2 sA2 |\
+ "Am" sA2 GA sA2 GA | "Dm" DsA/sA/ DsA/sA/ "C" CsA/sA/ CsA/sA/ |]
+%%text This translates to:
+[M:C]
+ [A,EAce][A,EAce][A,EAce][A,EAce] [A,EAce]2 [A,EAce]>[A,EAce] |\
+ [DAdf]2 [DAdf]/[DAdf]/[DAdf] [CEGce]2 [CEGce]2 |\
+ [A,EAce]2 GA [A,EAce] GA |\
+ D[DAdf]/[DAdf]/ D[DAdf]/[DAdf]/ C [CEGce]/[CEGce]/ C[CEGce]/[CEGce]/ |]

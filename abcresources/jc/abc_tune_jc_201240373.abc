@@ -1,0 +1,33 @@
+X: 391
+T: Mrs Peterkin of Grange Hall's Strathspey
+C: by Wm Christie
+R: strathspey
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c."
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The repeat symbols at the very end presumably just mean to repeat the entire tune.
+M: C
+L: 1/8
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+B |:\
+A<F {GFE}TF2 (G/F/).E/.D/ C>_E | {_E}D>B,A,>F E>G-G>B |\
+A<F {GFE}F2 E>G c>e | f>a (g/f/).e/.d/ ~c>f (e/d/).c/.B/ ||\
+A>F ~F>A (G/F/).E/.D/ C>_E |
+{_E}D>B,A,>F E<G-~G>A | (3.F.A.c (3.f.g.a (3.G.B.d (3.g.a.b | a>f (a/g/).f/.e/ {e}f2f |[| g |\
+a<f {gfe}f2 (g/f/).e/.d/ c>b | (3agf (3efg {fg}a>f c<A | B>G {AB}c>F E>G c>e |
+Tf>a (a/g/).f/.e/ {e}f2 Tf>g ||\
+a<f {gfe}f2 (g/f/).e/.d/ c>b | (3agf (3efg (a/g/).f/.e/ (d/c/).B/.A/ |\
+B<G {AB}c>F E<G-G>B | (3.A.B.c (3.B.c.d (3.cB.A (3.G.A.B :|
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |:\
+F2f2 c2A2 | B2F2 c2C2 | F2f2 c2c'2 | f2g2 a2g2 || f2F2 c2A2 |
+B2F2 c2C2 | a2f2 g2e2 | f2c2 F2F |[|z | f2a2 c'2c2 | f2c2 F2f2 | e2f2 c2c2 |
+f2c2 F2F2 || f2a2 c'2c2 | f2c2 F2f2 | e2f2 c2e2 | f2B2 c2C2 |]
+% = = = = = = = = = =

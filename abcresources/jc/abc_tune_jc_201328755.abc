@@ -1,0 +1,24 @@
+X: 1
+T: Red Hair Boy
+T: Little Beggar Man
+C: trad. Irish
+N: This is a somewhat "decorated" version; the basic tune has far fewer notes in 2 8-bar parts.
+S: Stuart Duncan, Alisa Jones, & CO.
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+S: https://www.facebook.com/groups/Fiddletuneoftheday/
+S: https://www.facebook.com/groups/Fiddletuneoftheday/photos/
+M: C|
+L: 1/8
+K: Amix	% A major with natural signs on all the G notes. ;-)
+[|\
+"A"A,CEF ABcd | efec "D"d2cd | "A"efec A2dc | "G"BAGA G4 |\
+"A"EAAB ABcd | efec "D"d2cd | "A"e{f}a ab afed | cA2B A4 ||
+||\
+"A"EAAG ABcd | efec "D"d2cd | "A"efec A2dc | "G"B2BA GBAG |\
+"A"EDEG ABcd | egf{g}e "D"d2cd | "A"e{f}a ab afed | ccA2 A2ef |]
+[|\
+"G"f[g2B2-][aB] [g3B3]a | "D"gfec d2cd | "A"efec Acdc | "G"BGA2 [B4G4] |\
+"A"EAAB ABcd | efec "D"dcdf | "A"e{f}a ab afed | c{d}cA2 A2ef ||
+||\
+"G"g3f edg2- | "D"gfec dcdf | "A"e{f}a ab a3f | "G"gfga bgag |\
+"A"ecAe cAFB | AFEC "D"D2cd | "A"egbg aged | c{d}cA2 A4 |]

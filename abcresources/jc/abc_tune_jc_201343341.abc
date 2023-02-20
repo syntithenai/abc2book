@@ -1,0 +1,30 @@
+X: 1
+T: Tarantella Di Masaniello  [Am]
+M: 6/8
+L: 1/8
+F: http://www.thesession.org/tunes/display/5259
+R: tarantella, jig
+%%staffsep 40
+K: Am
+"A"[|]{f}e^de |\
+"Dm"f2a "Am"e2a | "Dm"d2a Bcd | "E7"efe dcB | "Am"cBA {f}e^de |\
+"Dm"f2a "Am"e2a | "Dm"d2a Bcd | "E7"efe dcB | "Am"A3 :|
+"B"|: ^ga_b |\
+"A7"a^ga _ba=g | "Dm"fed Bcd | "E7"efe dcB | "Am"cBA ^ga_b |\
+"A7"a^ga _ba=g | "Dm"fed Bcd | "E7"efe dcB | "Am"A3 :|
+"C"|: cBc |\
+"Dm"ded BAB | "Am"cdc A^GA | "E7"BcB ^G^FG | "Am"A2c cBc |\
+"Dm"ded BAB | "Am"cdc A^GA | "E7"BcB ^G^FG | "Am"A3 :|
+K:A
+"D"|: z2a |\
+"A"A2a A2a | "Bm"a2^g Bcd | "E7"g2f Bcd | "A"f2e z2a |\
+"A"A2a A2a | "Bm"a2^g Bcd | "E7"e^de =f^fg | "A"a3 :|
+K:Am
+"E"|: "(A7)"e2e |\
+"Dm"edc d2d | "Am"dcB c2d | "E7"efe dcB | "Am"cBA "(A7)"e2e |\
+"Dm"edc d2d | "Am"dcB c2d | "E7"efe dcB | "Am"A3 :|
+P: (Optionally repeat C)
+K:A
+"F"|: "(E7)"fe^d |\
+"A"ecA "E7"fe^d | "A"ecA "E7"efg | "A"aga cde | "E7"f2e fe^d |\
+"A"ecA "E7"fe^d | "A"ecA "E7"efg | "A"abc' "E7"d'fg | "A"a3 :|

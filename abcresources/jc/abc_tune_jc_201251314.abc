@@ -1,0 +1,23 @@
+X: 1
+T: Because he was a bonny Lad &c.  a Reel.
+R: reel
+S: Fiddle Hell Online 2020-11-05 Se\'an Heel Slow Airs Workshop
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: A few "unnecessary" natural signs added for clarity, to match the bass line.
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+e |\
+Tc>BAa (f/g/a) ec | dfe>c B/B/B Be |\
+Tc>BAa (f/g/a) ec | dfec A/A/A A :| e |\
+Tc>BAc defd | cAec B/B/B Bd |
+Tc>BAc defg | (a/g/f/g/) ac A/A/A Ae |\
+cAeA fAeA | cAec B/B/B Bg |\
+afge fdec | dfe>c A/A/A A |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | d'2c'2 b2b2 | a2a2 d'2c'2 | d'2e'2 a2a :| z | a2=g2 f2^g2 | a2a2 g2e2 |
+a2=g2 f2d2 | e2e2 A2A2 | a2c'2 d'2c'2 | a2a2 g2e2 | f2e2 d2c2 | d2e2 A2A |]

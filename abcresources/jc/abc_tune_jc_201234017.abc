@@ -1,0 +1,308 @@
+
+X: 0
+T: Songs for St. Patrick's Day 2020
+K:
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Whiskey In The Jar    [G]
+I: 067 2
+R: Reel
+Z: Carl Allison
+B: Joe Buchanan's Scottish Tome - Page 067.2
+L: 1/4
+M: 4/4
+K: G
+B |\
+"G"d>d de | "G"d B2 d | "Em"e>e ef | "Em"e B2 d | "C"e>e ef | "C"g<g fe |
+"G"dd gf |1 e B2 :|2 "G"ed BG |] "D"A>A AB | "D"A4 | z "G"B B3/ A/ |
+"G"B<c "G7"d2 | z "C"e e3/ d/ | "C"e<f ge | "G"BB "D7"AA | "G"G3 |] z4 | z4 ||
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Farewell to Nova Scotia
+C: _
+R: song
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+S: https://www.8notes.com/scores/4450.asp 2020-3-6
+S: https://tabs.ultimate-guitar.com/tab/misc-traditional/farewell-to-nova-scotia-chords-720254
+M: C
+L: 1/8
+K: Em
+z6 G2 |\
+"G"G3A G2(B,C) | D2(DB,) D2(GF) | "Em"E3F GGA2 | B2(E^D) E2(G>A) |\
+"G"B3B "D"A2(AF) | D2(DF) A2(G>A) | "Em"(BG)(GF) "C"(EF)(ED) | "Em"B,2E2 E2(E>F) |
+"G"G>F G>A G2B,C | D2(DB,) D2 GF | "Em"E3F G2A2 | B2(E^D) E2G>A |\
+"G"BBB>A "D"A2AF | DDDF A2(G>A) | "Em"BAGF "C"(EF)ED | "Em"B,2E2 HE2z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Maderine Rue
+T: (mad-uh-reen-uh roo)
+%C: words: Peg & Robert Clancy
+R: song
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: C
+"^chorus"[|] G2 |\
+"C"CDEF G2G2 | "F"A2(GF) "C"G4 | CDEF G2E2 | "G7"D4 "C"C4 |\
+"F"cccc "B"B2AA | "C"GAGE "G7"D2B,G, | "C"CDEC "G7"D2D2 | "C"C4 C4- | C2z2 z2 ||
+"^verse"|: G2 |\
+"C"C2E2 G2G2 | "F"A2GF "C"G3G | "C"C2E2 G2E2 | "G7"D4 "C"C2 zG |\
+"C"c2c2 "Em"B2"F"A2 | "C"GAGE "G7"D2B,G, | "C"CDEC "G7"D2D2 | "C"C4 !fine!z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Boys That Wore the Green
+T: Tune: John Anderson, My Jo
+R: song
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Em
+e2 |\
+"Em"B2e2 e2f2 | g4 g2(ag) | "D"f3e d2^c2 | "(Bm)"d4 z2d2 |\
+"Em"B2e2 e2f2 | g3f g2a2 | "G"b3a g2a2 | "B"b4 z2b2 |
+"G"b3a g2b2 | "D"d'4 c'2b2 | "Am"a3g f2g2 | "D"a4 z2ga |\
+"Em"b2g2 "D"a2f2 | "C"g2e2 "B7"b3b | "Em"B2e2 "Bm"e3d | "Em"e4 z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Leprechaun   [Cm]
+T: The Leprehaun
+R: song
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Cdor
+[|\
+g3- g2f |\
+"Cm"e2c "Gm"d2B | "Cm"c2B "Gm"G2F | "Cm"GAB c2c | c3- c2 G |\
+"Cm"c2c e2f | "Gm"g2f b2g | "Bb"f2d B2d | f3- f2d |
+"Cm"c2c e2f | "Gm"g2f b2g | "Bb"f2d B2d |[M:9/8] f3 g2f |[M:6/8]\
+"Cm"e2c "Gm"dcB | c2B HG2 F/F/ | "Cm"GAB "Gm"c2B | "Cm"c3- c2z |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Foggy Dew   [Bm]
+R: air
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+P: AABA
+K: Bm
+FA  "^A"| "Bm"B2 AF B2 AF | "A"E2 F2 A,2 B,C | "Bm"DF ED "A"B,3 A, | "Bm"B,6 "^fine"y:|
+B,C "^B"| "D"D2 F2 A2 GF | "A"E3 E "D"F2 DE | F2 dc "(F#m)"BA FA | "Bm"B6 "^d.C."y|]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Bridget O'Malley
+O: Ireland
+R: waltz
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+% - - - - - - - - - -
+A,2 |\
+"C"C3 D EF | "Em"G2 E3 G | "F"A2 GE DE | "Am"CA, z2 AB |\
+"F"c3 B AB | "Em"AG E3 D | "Am"E2 A3 G | "F"A4 AB |
+"Dm"c2 cB AB | "C"AG E3 F | "F"GE D2 E2 | "Am"CA, z2 A,B, |\
+"Dm"C2 A2 GA | "Em"E2 D3 E | "F"D2 C2 "G"CD | "C"C6 | z4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Follow Me Up To Carlow   [Dm]
+O: Ireland
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: A well-known Irish rebel tune.
+R: jig, march
+M: 6/8
+L: 1/8
+K: Ddor
+|:"Dm"D2D D2C | A,2B, C3 |    D2D    F2G | "(A)"A2G F2E \
+| "Dm"D2D D2C | A,2B, C3 |    D2D "C"E2C |  "Dm"D3- D2z :|
+|:"Am"A2B c3  | A2B   c3 | "C"E2E    E2D |      C2D E3 \
+| "Am"A2B c3  | A2B   c3 | "C"E>EE   E2C |  "Dm"D3- Dz2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Soldier's Song    [G]
+T: Amhr\'an na bhFiann
+C: music: Patrick Heeney (1881-1911)
+R: march
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+[|\
+"G"G3A B2G2 | D6 D2 | "C"E3E C2E2 | "G"D4 D4 || "Em"G4 "B7"F4 | "Em"E6 FG |
+"D"A3B "A7"A2E2 | "D"F6 "D7"z2 || "G"G3A B2G2 | D6 D2 | "C"E3E C2E2 | "G"D4 D4 ||
+"Bm"F4 F3F | F2F2 "A7"E3E | "D"D6 D2 || "Am"C3C "D7"CA,B,C | "G"D3E D2G2 | "F#7"F3E "Am"F2E2 |
+"D7"D2C2 A,2"D+"D2 || "G"B,2G,B, "D"D3D | "Em"EF"C"GA "B7"HB2 "C"GE | "G"DG2B "D7"A3G | "G"G6 z2 |]
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Irish Lullaby   [G]
+C: J.R. Shannon
+M: 6/8
+L: 1/8
+V: 1 clef=treble
+K: G
+%| "^Intro"B2c d2c | B2A F2A | B2d de2 | d2 |
+P: Verse:
+[|\
+"G"B2A G2A | Bd2- d3 | "Em"e2f e2B | "G"d3- "D7"d2 d |\
+"G"B2A G2A | B2d d2^d | "A7"e2A A2B | "D7"A3 zGA |
+"G"B2A G2A | Bd2 zBd | "Em"e2f e2B | "G"d3 zBd |\
+"C"e2f g2f | e2d "G"B2G | "A7"B2A A2B | "D7"A3- "d7+5"^A3 |]
+P: Chorus:
+[|\
+"G"B2A G2A | Bd2- d3 | "F"e2^d e2f | "Gdim"g3 z3 |\
+"G"g2f "C"g2e | "G"dB2- B3 | "A7"e2A A2B | "D7"A3 "d7+5"^A3 |\
+"G"B2A G2A | Bd3 z3 |
+"C"e2^d e2f | "Gdim"g3 z3 |\
+"G"g2[af] "C"g2e |1 "G"dB2 "D7"zAG | "A7"B2A "C"G2A |\
+G3 z3 :|2 "G"dB2 B2d | "A7"e2g "D7"gH[a2f2] | "G"g6 |] |
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Rose of Tralee   [C]
+C: Music by Charles W. Glover
+C: Words by C. Mordaunt Spencer
+N: Published in London in 1845
+R: waltz
+M: 3/4
+L: 1/4
+%%staffsep 30
+K: C
+"(G7)"\
+G | "C"GAG |    e>dc |  "F"cFA  |  "C"AG>G |\
+[1 "G7"GAG | "C"Gc>c | "D7"c>Bc | "G7"d2  :|\
+[2 "G7"Gff | "C"e>cA | "G7"GAc  |  "C"c2  ||
+c/d/ |\
+| "E7"ee>d | "Am"c2c/B/ | "F"AA/^G/A/B/ | "E7"^GEe \
+| "Am"eA"G7"f | "C"ee>d | "E7"c>dB | "Am"A2 ||
+"G7"G |\
+"C"GA>G |    e>dc |  "F"cFA  | "C"AG>G |\
+"G7"Gff | "C"ec>A | "G7"Ge>d | "C"c2   |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Danny Boy, (London)Derry Air    [G]
+C: trad. Ireland
+M: 4/4
+L: 1/8
+K: G
+"D7"zFGA | "G"B3 A Be "G7"dB | "C"AG "(Am)"E2 \
+[1 "D7"zGBc | "G"d3 e dB "(A7)"GB | "D"A4 :|\
+[2 "D7"zFGA | "G"B3 c BA "D7"GA | "G"G4 |]
+"D7"zdef |\
+"G"g3 f "C"fe "(D7)"de | "G"dB G2 "D7"zdef |\
+"G"g3 f "C"fe dB | "D"A4 "D7"zded |\
+"G"b3 a "C"ag eg | "G"dB G2 "Em"zF"C"GA |\
+"G"Be dB "C"AG "D7"EF | "G"G4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: MacNamara's Band   [C]
+O: American version
+%C: words: John J. Stamford
+C: music: Shamus O'Connor
+S: https://digital.library.temple.edu/digital/collection/p15037coll1/id/3489
+R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 6/8
+K: C
+%"^Intro"[|] CDE |\
+%"F"F6- | F2A c2A | "Gm"G6 | d3 "G#dim"e2d | "C7/G"c2c "F#dim"c2c | "C7/G"c2B "/C"A2G | "F"F6- | F3 ||
+"^Vocal"|: g2-g |\
+"C"e2e e2e | e2e e2e | e2e d2c | G3- G2e | "G7"f2f f2f | "C"g2g "Am"c2d |1,3 "D7"e2e d2c | "G7"d3 \
+                                                                       :|2,4 "D7"e2e "G7"d2d | "C"c3 |]
+%"^Chorus"|: c2-c |\
+%"F"A-AA A-AA | A-AA A-AA | A-AA G2F | C3- C2A | "C7"B2B B2B | "F"c2c "Dm"F2G |1 "G7"A2A G2F | "D7"G3 \
+                                                                       :|2 "D7"e2e "G7"d2d | "C"c3 ||
+"Instr."[|\
+GAB | "C"c6- | c2e g2e | "G7"d6 | d2B GA^A | B6- | B2d g2f | "C"e6- | e2c
+"^Intro."[|]\
+GAB | "C"c6- | c2e g2e | "Dm"d6 | a3 "Adim"b2a | "G7"g2g "Gdim"g2g | "G7"g2f e2d | "C"c6- | c3 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: It's a Long Way to Tipperary   [G]
+%R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+S: printed image from Darlene Wigton 2019-3-2
+L: 1/8
+M: C
+K: G
+%%continueall 0
+D |\
+"G"BB Bc BB AG | "C"AB AG "Am"E3 (G |\
+"D"A)A AB "D7"AG ED | "G"GG GG "D"D2 z2 ||\
+"G"BB Bc "Em"BB AG | "C"AB AG "Am"E2 G-G |
+"D"AA AB "D7"AG ED | "G"GG "C"GE "G"G2 |]\
+"^Chorus"[| B,C |\
+"G"D2 D2 zDEF | G2 B4 BA |\
+"C"G2 E4 G2 | "G"D4- "D"D2 B,C ||\
+"G"D2 D2 zDEF | "Em"G2 B4 FG |
+"A"A2 E2 "A7"F2 G2 | "D"A4- "D7"A4 ||\
+"G"D2 D2 zDEF | G2B2- B4 |\
+"C"c2 G2 G2 A2 | "B"B4- B2 GA ||\
+"G"B2 B2 BG AG | "C"E4 "G"D2 (GA) |\
+"A7"B2 G2- "D7"G2 A2 | "G"G6 z |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Wild Rover    [G]
+O: Ireland
+R: waltz
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: Printed page of unknown origin, via the Merry Minstrels (Lexington MA USA)
+M: 3/4
+L: 1/4
+K: G
+%%continueall 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+z3 | z2 |: D |\
+"G"G> A G | E D B | B< A B | "C"c3- | c2 B/c/ | "G"d B d | "D7"c A F | D B A |
+[1 "G"G3- | G2 :|[2 "G *"G3- | G F G || "D" A3 | A3 | "D7"F D2 | .D.E.F | "G".G BB | B< A B |
+"C"c3- | c B c | "G"d3- | d B G | "C"F E2- | E2 E | "G"D B2- | "D7"B2 A | "G"G3 | z3 |]
+%%text * This measure is often omitted.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+

@@ -1,0 +1,15 @@
+X: 1425
+T: Drowsy Maggie   #2
+R: reel
+%S: s:2 b:11(6+5)
+B: O'Neill's 1850 #1425
+O: J.O'Neill
+Z: Bob Safranek, rjs@gsp.org
+N: Compacted via repeats and multiple endings [JC]
+N: Added the key change to the B part [JC]
+M: C|
+L: 1/8
+K: Em	% and D
+"^A"|: E2(BE dEBE) | E2(BE AFDF) | E2(BE dEBE) | (TBAB)^c \
+[1 dAFD :|[2 dAFA |] [K:D] "^B"|: d2(fd) c2(ec) |
+| defg afge |[1 d2(fd) c2(ec) | (TBAB)c dAFA :|[2 afge fdec | (TBAB)c dAFD |]

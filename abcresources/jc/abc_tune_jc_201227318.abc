@@ -1,0 +1,42 @@
+X: 10721
+T: SOLDIER'S ADIEU
+Q: "Slow"
+%R: air
+B: "Edinburgh Repository of Music" v.1 p.72 - p.73
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Expanded the "shake" notation in bars 20, 22, 26 for ABC software that can't handle it.
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for 4 lines at a small scale.
+V: 1 clef=treble
+d2 |\
+g3 f agfe | {e}d3 c B3 c |\
+d2 dz Bz Gz | Fz Az D2 d2 |\
+g3 f agfe | {e}d3 c B2 Bc/d/ |\
+{d}c3 B BAGF |
+G3 A G2 G2 |\
+B3 B d3 d | g2 g2 B2 B/d/g/b/ |\
+a2 d2 d2 ^c>d | d2 d>d d2 d2 |\
+d3 c Bcde | =f3 F {F}E3 e |
+e3 d ^cdef | g3 G F2 d2 |\
+{a}g2 fe {e}d3e/c/ | B>c A>G G3 G |\
+B2 G2 d4 | dedc B>dd>g |\
+g3 g B3 c |
+d2 B2 e4 |\
+ed/c/ {B}A>G {G}HF2 d2 | g3 d a2 d2 |\
+b2 g2 d2 Hzd | b3 a g3 f |\
+{f}e3 d c3 B | {B}A2 Bc d2 d2 |\
+B2 G2 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=treble
+z2 |\
+G3 A Bedc | B3 A G>AB>c | d2 dz Bz Gz | Fz Az D2 d2 |
+G3 A B2 c2 | B3 A G2 GA/B/ | E4 D4 | G3 A G2 G2 | G4 F4 |
+E4 G2 G2 | F2 G2 AFEG | F2 F>F F2 B2 | B3 A GABc | d3 D C3 A |
+^c3 B ABcd | e3 E D2 d2 | Gedc B3A | G2 F2 G2 G2 | GGGG FFFF |
+FcBA GGFF | EEEE G3A | B2G2 c4 | cE E2 HD2 d2 | BBBB dddd |
+g2 G2 D2 Hzd | g3 f e3 d | {d}c3 B A3 G | F2 GA D2 DD | G2 G2 z2 |]

@@ -1,0 +1,16 @@
+X: 935
+T: Charlie Stewart
+R: jig
+B: O'Neill's 1850 #935
+O: J.O'Neill
+Z: Tom Keays (htkeays@mailbox.syr.edu)
+%abc 1.6
+M: 6/8
+L: 1/8
+K: A
+d |\
+cee Ace | dfa ecA | def ecA | GBB B2d |\
+cee efg | agf ecA | (f/g/a).f ecA | BAA A2 :|
+|: d |\
+cAA eAA | (f/g/a).f ecA | cAA eAA | GBB B2d |\
+cAA eAA | (f/g/a).f ecA | agf eac | BAA A2 :|

@@ -1,0 +1,36 @@
+X: 192
+T: Blew Breeches
+T: Longways &c.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.96
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 6/4
+L: 1/4
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+D2A A2G | F>GA G2E |\
+F2G A>Bc | dA2 D2 ::\
+d |\
+ccc c2c | c2d e2e |
+f>ef g>fg | ae2 d3 |\
+ccc c2c | c>de/f/ g2d |\
+dA2 A>GF | GA2 D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up all forwards and back .| this again :| Men
+%% turn S. We. the same Men go about your We. to
+%% their places .| We. turn S. Man turn S. We. go
+%% about their Men, and to their places :| 1st Man sett to
+%% the 2d Wo. and fall back, while their Wo. turns the
+%% 2d Man as much to the 3d .| as much to the fourth
+%% turn their own below :| 1st Cu. being below take
+%% both hands, slip up between the fourth Cu. cross
+%% and turn each of them with their right hands: the
+%% same to the 3d .| the same to the 2d turn their own
+%% above :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

@@ -1,0 +1,34 @@
+X: 5611
+T: Sherele
+L:1/8
+M:4/4
+Q:1/4=180
+O: Klezmer
+K:Cm
+V:1
+%%MIDI program 66
+%%MIDI bassprog 43
+%%MIDI chordprog 15
+|"G" GF=EF G2 A2| G8 | =BAGA B2 c2 | d8 |de f2 f2 f2|
+fe ed dc c=B| =Bc d2 d2 d2| dc c=B BA AG| F=E FG Ac =BA| G8 :|
+"Cm" c3 G/2c/2 e3 c/2e/2 | g8 | gf fe ed dc | "G" d8|
+d3 e f3 g| a8 | gf fe ed dc | e4 (3g^fe (3edc |
+"Cm" c3 G/2c/2 e3 c/2e/2 | g8 | gf fe ed dc | "G" d8|
+d3 e f3 g| a8 | gf fe ed dc | c3 d/2e/2 c3 z|
+"G" dc =B2 BA G2| Gc=Bc d z g z| dc =B2 BA G2 |  AGFA "G" G4|
+"G" dc =B2 BA G2| Gc=Bc d z g z| dc =B2 BA G2 |  AGFc "G" G4|
+V:3 name=drum clef=perc stafflines=4
+L:1/8
+%%MIDI channel 10
+%%MIDI drummap e 66 % Low Timbale
+%%MIDI drummap c 45 % Low Tom
+%%MIDI drummap A 50 % High Tom
+%%MIDI drummap F 65 % High Timbale
+|A3cF2e2 |A3cF2e2 |A3cF2e2 |A3cF2e2 |F2F2F2F2|
+A3cF2e2 |F2F2F2F2|A3cF2e2 |A3cF2e2 |A3cF2e2 :|
+eeeeF4 |A4A4|A3cF2e2 |A3cF2e2 |
+A3cF2e2 |A4A4|A3cF2e2 |A3cF2e2 |
+A3cF2e2 |A3cF2e2 |A3cF2e2 |A3cF2e2 |
+A3cF2e2 |A3cF2e2 |A3cF2e2 |A3cF2e2 |
+A3cF2e2 |z4e2e2 |A3cF2e2 |A3cF2e2 |
+A3cF2e2 |A3cF2e2 |A3cF2e2 |A3cF2e2 |

@@ -1,0 +1,70 @@
+X: 1
+T: Clem
+P: piffero primo a0812
+O: John McDonagh
+%R: reels
+F: http://ancients.sudburymuster.org/mus/med/pdf/clemC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - -
+z2 | "^fiddle tune up"\
+B2z2 B2z2 | B2z2 B2z2 | f2f2 B2B2 | E2E2 B4 | AA2A B2=c2 | c2z2 |]\
+"^Chicken reel, slow" \
+(=f4 | f3)d A3F | D3F B3(G | A3)F   B3(G | A2)z2  (=f4 | f3)d A3F |
+D3F B3(G | A3)c {e}d3c | d2z2 ||\
+(=f4 | f4) a3f | d4 f3d | "^>"A3d f3d | "^>"B3d f3d | f4 a3f | d4 f3d | A3c {e}d3c | d2z2 |]
+(=f4 | f)"^Chicken reel, quickstep"\
+dAF (DF)BF | (AF)(BF) A2(=f2 | f)dAF (DF)(BF) | "^>"Ad2c d2(=f2 |\
+f)dAF (DF)BF | (AF)(BF) A2(=f2 | f)dAF (DF)BF |
+"^>"Ad2c d2z2 |\
+"^>"fa2f  d2(fd) | "^>"Bdfd "^>"Bdfd | "^>"fa2f d2(fd) | "^>"Bd2c d2(=f2 |\
+"^>"f)a2f d2(fd) | "^>"Bdfd "^>"Bdfd | "^>"fa2f d2(fd) |
+"^>"Bd2c .d2z2 |]\
+.D2A2 .A,2A2 | .D2A2 .A,2 ||\
+|: "^Arkansas traveler"(3(ABc) | \
+dfed B2B2 | A2A2 d4         | e2e2 f2f2 | efed B2 (3(ABc) |\
+dfed B2B2 | A2A2 d2 (3(ABc) |
+dcdA BdAd | (fd)ec d2 :: fg |\
+agfa gfeg | fedf ec (3(ABc) | dcdf edeg | fedf e2fg |
+agfa gfeg | fedf ecA2       | dcdA BdAd | (fd)ec d2 :|\
+"^14-bar drum solo"z2 |: y8 y8 z8 y8 y8 :|\
+"Rakes of Mallow"\
+.D2.F2 .D2.F2 | .D2.F2 .G.F.E.D. | .C2.E2 .C2.E2 |
+.C2.E2 .F.E.D.C. |\
+D2F2 D2F2 | DEFG A2F2 | GFED CDEG | F2D2 D2 |]\
+[K:G] |: (3(DEF) |\
+G2B2 G2B2 | G2B2 cBAG | F2A2 F2A2 | F2A2 BAGF |
+E2G2 E2G2 | EFGA B2AB | cBAG F2GF | E4 z2d2 |\
+(g3f) .e2d2 | GABc d2(3(def) |\
+gfgf .e2.d2 | ea2e .a2ga | (b3a) (g3f) |
+edcB AcBA | .G2E2 .F2^D2 | EFED B,2EF |\
+GFE2 F2E^D | E4 z2BA | G2E2 F2^D2 | EFED B,2EF |\
+G2FE F2E^D | E4 z2(3(DEF) |
+G2B2 G2B2 | G2B2 cBAG |\
+A2^c2 A2c2 | A2^c2 d2z2 |] [K:D] \
+(3ddd (3ddd (3ddd (3ddd  | (3ccc (3ccc (3ccc (3ccc |
+(3BBB (3BBB (3BBB (3BBB  | (3AAA (3Bcd e2 \
+|: [K:A] "^Turkey in the Straw"(cB) |\
+.A.G.A.B. A2(CD) | .E.F.E.C E2(AB) | .c2c2 .c.B.AB | .c2B2 B2(cB) |
+.A.G.A.B A2(CD) | .E.F.E.C E2(AB) | ce2f .e.c.A.B | .c2B2 A2 :: z2 |\
+"^>"ce2c e2e2 | "^>"ce2c e2e2 | "^>"df2d f2f2 | "^>"df2d f2f2 |\
+a2a2 e2e2 |
+cecA B2d2 | ce2f ecAB | c2B2 A2 :|\
+|:[K:Bm] "Cannon Mountain" G2|\
+FB2F B2Bc | dc"^>"B2 fd"^>"B2 | c2A2 ec"^>"A2 | "^>"ce2c A2G2 |\
+FB2F B2Bc |
+dBc2 d2e2 | f2b2 fed2 | c2F2 B2 :| z2 |:\
+A2ce A2ce | d2fa d2fa | e2^gb e2gb |[1 a2{b}a2 {b}a2 (3(dcB) :|[2 a2z2 e4 |]
+[K:A]\
+|: \
+"^>"a"Devil's Dream"gae "^>"agad | "^>"agae fedc |\
+[1 "^>"df"^>"Bd "^>"df"^>"Bd | "^>"df"^>"Bd agfe :|\
+[2 dfed cABG | .F2.G2 .A2e2 |]
+|:\
+"^>"ceAe "^>"ceAe | "^>"ceAe fedc |\
+[1 "^>"df"^>"Bf "^>"df"^>"Bf | "^>"df"^>"Bf agfe :|\
+[2 "^>"dAgf edcB | A2e2 a2 |]
+% y8 y8 y8 y8 y8 y8 y8 y8
+% - - - - - - - - - -

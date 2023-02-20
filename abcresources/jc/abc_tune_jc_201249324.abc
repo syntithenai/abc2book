@@ -1,0 +1,25 @@
+X:1
+T:Babinskem's Ballad  "rpband"
+M:C
+L:1/8
+Q:80
+C:Arr JRG Woods
+S:4/4 March
+K:HP
+[| {g}A3/2B/2 | \
+{GdG}c2{g}c3/2{d}B/2{e}c3/2B/2{d}c/2{gef}e3/2 | \
+{gcd}c4{G}A2{g}A3/2B/2 |
+{GdG}c2{g}c3/2{d}B/2{e}c3/2B/2{d}c/2d3/2 | \
+{gBd}B4{G}B2{g}A3/2B/2 | \
+{GdG}c2{g}c3/2{d}B/2{e}c3/2B/2{d}c/2{gef}e3/2 |
+{gcd}c4{G}A2{g}A3/2B/2 | \
+{GdG}c2{g}c3/2{d}B/2{e}c3/2B/2{d}c/2B3/2 | \
+{G}A4{GAG}A2{g}A3/2d/2|] [ |
+{gfg}f2{g}f3/2e/2{gfg}f3/2e/2g/2a3/2 | \
+{fg}f4{Gdc}d2{g}A3/2d/2 | \
+{gfg}f2{g}f3/2e/2{gfg}f3/2e/2g/2a3/2 |
+{gef}e4{G}e2{g}A3/2B/2 | \
+{GdG}c2{g}c3/2{d}B/2{e}c3/2B/2{d}c/2{gef}e3/2 | \
+{gcd}c4{G}A2{g}A3/2B/2 |
+{GdG}c2{g}c3/2{d}B/2{e}c3/2B/2{d}c/2B3/2 | \
+{G}A4{GAG}A2|]

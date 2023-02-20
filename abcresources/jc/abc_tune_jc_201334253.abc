@@ -1,0 +1,55 @@
+X: 1
+T: Sawney was tall
+P: Longways for as many as will
+%R: reel, march
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.140 #188 (280)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.96
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the DMDfD dance instructions.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+c2 cd e2 dc | B3 A d3 G | c3 d (ef) (ed) | c2 g2 g2 G2 |\
+c3 d e2 dc | B3 A d2 (cB) | A3 G (AB) (cA) | G2 c2 c4 :|
+|:\
+c2 g2 ef g2 | B2 d2 d3 d | c2 g2 e3 d | (cd) (ef) g3 G |\
+c2 g2 (ag) (fe) | (dc) (BA) B2 (AG) | A3 G (AB) (cA) | G2 c2 c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the Presence, then to yr Wo. lead up forward and back.
+%% The 1st Cu. change places and go back to back, then cross over
+%% and meet below the 2d Cu. and sett to one another :| The 1st
+%% Cu. go the Figure of 8 round the Cu. above them and sett
+%% to one another, then the Man turn both Hands with the
+%% Wo. next above him once round, and his Wo. do the like
+%% with the Man next below her .| Then the 1st Cu. go
+%% the Figure of 8 round the Cu. below them, then meet
+%% and turn both Hands once and an Half round :|
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% Honour to the Presence, then to your wo. Lead up forward and back.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. cu. change places and go back to back, then cross over and meet below the 2. cu. and set
+%% to one another.  This ends the first Strain of the Tune played twice over.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. cu. go the Figure of 8. round the cu. above them and set to one another, then the man turn both
+%% hands with the wo. next above him once round, and his wo. do the like with the man next below hers.
+%% This ends the last Strain played once.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then the 1. cu. go the Figure of 8. round the cu. below them, then meet and turn both hands once
+%% and an half round.  This ends the last Strain played twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

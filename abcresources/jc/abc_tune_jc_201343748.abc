@@ -1,0 +1,31 @@
+X: 1
+T: the Temple
+P: Longways for as many as will
+%R: march, reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.274
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+d2 e2 | f>g fe | d>e e>d | eA FA |\
+d2 e2 | f>g fe | d/e/d/e/ e>d | d4 |]
+[|\
+f2 g2 | a>b af | fd dA | dA/G/ FD |\
+f2 g2 | a>b ag | fd d(g/f/) | d4 |]
+[|\
+d2 e2 | f>g fe | d>e e>d | eA FA |\
+d2 e2 | f>g fe | d/e/d/e/ e>d | d4 |]
+[|\
+AF/G/ Ad | AF/G/ Ad | AF/G/ Ad | c2- c2 |\
+ec/d/ ea | ec/d/ ea | e(d/c/) B>A | A4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu Figure through the 2. cu. and turn hands above .| The 2. cu. does the same :| The 1. man
+%% turns the 2. wo. .| And the 1. wo. the 2. man. :| Then cross over and go the Figure through the 2. cu.
+%% the 2. cu. being in the 1. cu place, meet and set and cast off, then the 1. cu. cast off and begin again.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

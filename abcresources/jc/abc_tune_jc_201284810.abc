@@ -1,0 +1,47 @@
+
+X: 1
+T: Harriet Haywood's Cranberry Bog
+C: Deirdre Good Rees (2009)
+N: Original version
+M: C
+L: 1/16
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+K: D
+|: D3ED3F   D3GD2A2  | A2G2F2E2 DC3D3E   | F3DF3E   F2D2E2F2 | D3CD3E   F2G2F2A2  |
+|  dcB2cBA2 BAG2A2F2 | cBA2BAG2 A3FG3E   | D2E2F2G2 A3Bc3d   | dA3B3F   G2D2E2D2 :|
+|: F2E2F2G2 F3DA3D   | A2B2A2G2 A3BA3F   | D2EFE2FG F2GAB2G2 | d2c2d2c2 B3G  BA3  |
+|  dcB2cBA2 BAG2AGF2 | EDC2D2E2 F2E2D2C2 | D3ED3F   D3GD2A2  | dA3F3D   F2A2 d4  :|
+
+
+%%sep 1 1 500
+
+X: 2
+T: Harriet Haywood's Cranberry Bog - Jig
+C: Tune: Deirdre Good Rees (2009)
+C: (Arr. John Chambers)
+M: 6/16
+L: 1/16
+N: Original version
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+K: D
+|: D2E D2F | D2G D2A | A2G F2E | D2C D2E | F2D F2E | F2D E2F | D2C D2E | F2G F2A  |
+|  dcB cBA | BAG A2F | cBA BAG | A2F G2E | D2E F2G | A2B c2d | dA2 B2F | G2D ED2 :|
+|: F2E F2G | F2D A2D | A2B A2G | A2B A2F | DEF EFG | FGA B2G | d2c d2c | B2G BA2  |
+|  dcB cBA | BAG AGF | EDC D2E | F2E D2C | D2E D2F | D2G D2A | dA2 F2D | F2A d3  :|
+
+
+%%sep 1 1 500
+
+X: 3
+T: Harriet Haywood's Cranberry Bog - Strathspey
+C: Tune: Deirdre Good Rees (2009)
+C: (Arr. John Chambers)
+M: C
+L: 1/8
+N: Original version
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+K: D
+|: D>E  D>F  D>G  D<A  | A>G  F>E  D<C D>E | F>D  F>E  F<D  E>F | D>C D>E F>G F<A  |
+|  (3dcB (3cBA (3BAG A<F  | (3cBA (3BAG A<F G>E | D>E  F>G  A>B  c>d | d<A B>F G<D E>D :|
+|: F>E  F>G  F>D  A>D  | A>B  A>G  A>B A<F | (3DEF (3EFG (3FGA B<G | d>c d>c B>G B<A  |
+|  (3dcB (3cBA (3BAG (3AGF | (3EDC D>E  F>E D<C | D>E  D>F  D>G  D<A | d<A F>D F<A d2  :|

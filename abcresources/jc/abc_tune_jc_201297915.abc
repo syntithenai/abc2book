@@ -1,0 +1,26 @@
+X:3
+T:Kost ar c'hoad
+G:Kazimodal
+R:Kost ar c'hoad
+C:Traditionnel, arrangement http://kazimodal.trad.org
+Q:C2=150
+P:(DE)3FE
+S: Tonio\`u Breizh-Izel No 1400 (Mael-Karaez), Polig Monjarret
+M:4/4
+K:Am
+P:D
+K:Am
+%%MIDI gchord fzczcffz
+%%MIDI chordprog 74
+%%MIDI chordvol 40
+%%MIDI bassprog 36
+%%MIDI program 73
+%%MIDI bassvol 127
+| "F"c2 ({Bc}"G"B)>A B>c "Am"A2 | (3(A>B)c "Dm"d>c "F"(A>c) "G"B>B |\
+	"F"c2 "G"B>A B>c "Am"A2 | (AB/2)c/2 "Dm"d>c "F"(Ac) "G"B2 |
+P:E
+|: "Am"A2 e>e "Em"B>c d2 | "F"(c/2B/2c) A2 c2 "Em"B>A |\
+	"C"GG E2 "D"^F>G A>G | "F"A>c "G"(3(B>c)B "D"A2 "Am"A2 :|
+%%text Fin sur D tenu puis Am
+P:F
+|: "Am"A2 a2 z4 | "C"c2 "D"d2 z4 :|

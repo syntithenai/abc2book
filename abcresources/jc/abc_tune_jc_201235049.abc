@@ -1,0 +1,37 @@
+X: 20992
+T: PHANTOM SETT (tune 5)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.99 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Version 1 for ABC software that doesn't understand !...endo! annotations.
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+B/c/ |\
+d2B e2c | AGA B2d | f2d g2e | d3 c2c |\
+d2B e2c | AGA B2g/f/ | =edc cde | (f3 F2) H|]
+f |\
+efe d2d | cdB AGF | GAG e2c | (B3 A2)f |\
+g3 fbd | ede d2d | fec AGA | "^dim..."c3 "^D.C."B2 |]
+F/E/ |\
+DFB dcB | AGA B2d/e/ | fdB gec | B3 A2F/E/ |\
+DFB dcB | AGA B2d | cfc cBA | (G3 "^D.C."F2) |]
+F |\
+ecc dBB | AGA B2d/e/ | fed efg | B3 A2F |\
+GAB cde | fga bag | fdd ecA | (c3 "^D.C."B2) |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across partners and back,
+%% all balance to partners,
+%% grand right and left,
+%% balance to corners,
+%% turn partners,
+%% grand chain across the corners,
+%% all prom'd.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

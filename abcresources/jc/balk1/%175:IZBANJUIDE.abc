@@ -1,0 +1,19 @@
+X: 175
+T: Iz Banju Ide
+O: Serbia
+F: http://www.youtube.com/watch?v=wLmU_rPcD0o
+F: http://www.youtube.com/watch?v=4NY_6l_oMcY
+M: 3/4
+L: 1/8
+Q: 1/4=110
+K: DPhr
+%%MIDI program 23
+%%MIDI bassprog 32
+%%MIDI chordprog 32
+%%MIDI bassvol 60
+%%MIDI chordvol 60
+"Am"cB AG ^FE |"Dm"^FE D4|"Am"E2 D2 C2 |"Dm"D2 D2 z2|
+"Dm"DC D2 E2  |^F2 G4    |"Am"A2 G^F EF|ED C4       |\
+"Gm"G^F G^F ED| EC D4    |"Dm"E2 D2 C2 |D2 D2 z2    |
+DC D2 E2      |"Gm"^F2 G4|A2 G^F EF    |"Dm"ED C4   |\
+"Am"cB AG ^FE |^FE D4    |"Am"E2 D2 C2 |"Dm"D2 D2 z2|

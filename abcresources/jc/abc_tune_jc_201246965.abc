@@ -1,0 +1,28 @@
+X:884
+%%annotationfont Times-Roman 14
+T:Andy Ross Two Step, The
+C:Joe Buchanan's Scottish Tome - Page 441.0
+I:441 0
+C:Bob Watt
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:D
+W:Intro
+%%vskip 0
+G2 G GFG | A G E | cBA ABc | d3 d2 :|"_Final Chord"[Fd]4 |]
+%%vskip 20
+P:A
+A | d2 d dcd | f2 d A2 F | A2 A A^GA | B2 A F3 |
+G2 G GFG | A G E | cBA B2 A | F3- F2 A |
+d2 d dcd | f2 d A2 F | A2 A A^GA | B2 A F3 |
+G2 G GFG | A G E | cBA ABc | d3 d2 :|"_Final Chord"[Fd]4 |]
+[K:A]
+P:B
+EFG | A3 c3 | e3 c3 | def a f | e3- e2 c |
+d2 B Bcd | c2 A ABc | B^df agf | e3 EFG |
+A3 c3 | e3 c3 | def a2 f | e3- e2 c |
+d2 B Bcd | c2 e a3 | Bcd c2 B | A3 A2 :|
+[K:D]
+%%newpage

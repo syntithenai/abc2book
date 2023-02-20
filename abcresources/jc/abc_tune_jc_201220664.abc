@@ -1,0 +1,31 @@
+X: 03
+T: Lady George Murray's Reel
+C: (Hon. C.G.)
+R: reel
+M: C
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu> (dance)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: .D>FAF .D>GBG | .D>FAF T.E>DEF | .D>FAF .DGBd | A>FEF D/D/DD2 :|
+|: (DF)(FA) (Ad)(df) | f>daf Te>def | (DF)(FA) (Ad)(df) | {f}Te>def d/d/dd2 :|
+|: a>bg>a f>ae>f | dda>f Te>def | a>ba>f .a.a(a>b) | a>fef d/d/dd2 :|
+|: (A>F)(A>F) (B>G)(B>G) | .A.G.F.E D>CDE | A>FA>F [BDG]>BBd | A>GFE D/D/DD2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: d2f2 d2g2 | d2f2a2A2 | d2f2 d2g2 | a2A2 dAD2 :|
+|: d2d'2 d2d'2 | d2f2 a2A2 | d2d'2 d2d'2 | g2a2 d'ad2 :|
+|: d2e2 f2g2 | f2d2 a2A2 | d2d'2 f2g2 | a2A2 dAD2 :|
+|: f2d2 g2e2 | agfe d2A2 | f2d2 g2g2 | a2A2 dAD2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands across the round to the Left .|. Ditto to the Right :|:
+%% Gallop down two Couple and foot it .|. up again & cast off :|:
+%% set cross corners and turn .|. Ditto :|: Hey on opposite sides .|.
+%% and turn to place :|: or lead outsides and turn proper :|:
+%%endtext

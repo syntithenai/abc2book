@@ -1,0 +1,25 @@
+X: 20061
+T: the MORNING STAR
+R: Waltz.
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.6 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain has final repeat but no initial repeat; fixed to agree with the other strains.
+M: 3/4
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F2 |\
+Bz dz cz | Bz Az Gz | ^F4 G2 | _E2 z2 ed |\
+c=Bcdec | _BABcdB | c=Bcdec | B4 :|
+|: f2 |\
+b2 baba | b2 baba | g2 g^fgf | g3 fed |\
+c2 c=Bcd | d=efgab | ~B4 dc | B4 :|
+|: (3(Bcd) |\
+fffbdf | BBBdFd | ccceAc | Bdgf=ef |\
+fffbdf | BBBdFd | ccceAc | B4 :|
+|: FA |\
+cccdBc | AAABGA | FFFG=EG | F4 (3(ede) |\
+fffbdf | BBBdFd | ccceAc | B4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

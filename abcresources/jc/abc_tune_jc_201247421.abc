@@ -1,0 +1,37 @@
+
+X: 1
+T: Ap\'o tin Ath\'ina
+T: [On the Way] from Athens
+O: Asia Minor
+R: syrtos
+M: C
+L: 1/8
+K: Dm
+[|\
+"Dm"ABAG FEFG | ABAG FED2 | ABAG FEFG | A3~B AGA2 |
+"Dm"ABAG FEFG | ABAG FED2 | "A7"EGGF F{G}ED{E}^C | "Dm"D3~E D^C!^fine!D2 |]
+|: "Dm"z2DA A2A2 | (BABc) A4 | "Gm"G2G2 FEGA | "Dm"(ABAG FED2) :|
+w: 1.~A-po tin A-thi-___na os tom Pi-*re-*a______
+w: 2.~Mu pan pos to vri-___ke mia ni-ko-*ki-*ra______
+w: 3.~Dhoz mu to man-di___li kra-ta ta f-lu-ri-a______
+[| "Dm"z2DE F2G2 | (ABAG) (FED2) | "A7"GFFE  ED^CD | E8 |
+w: 1.~e-ha-sa man-di-___li__ m'e-*ka-*go f-lu-ri-a.
+w: 2.~E-mor-fi ki-ri-___a__ ko-*ri* tu* pa-*pa.
+w: 3.~E-mor-fi ki-ri-___a__ A-*thi-*nio-*ti-*sa.
+   "Dm"z2DE F2G2 | (ABAG) (FED2) | "A7"GFFE | EDD^C | "D7"D8 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2
+T: Ap\'o tin Ath\'ina  [Em]
+T: [On the Way] from Athens
+O: Asia Minor
+R: syrtos
+M: C
+L: 1/8
+K: Em
+[| "Em"BcBA GFGA | BcBA GFE2 |1 BcBA GFGA | B3~c BAB2 \
+:|2 "B7"FAAG G{A}FE{F}^D | "Em"E3~F E^D!^fine!E2 |]
+|: "Em"z2EB B2B2 | cBcd B4 | "Am"A2A2 GFAB | "Em"BcBA GFE2 :|
+|: "Em"z2EF G2A2 | BcBA GFE2 | "B7"AGGF [1 FE^DE | F8 :|[2 FEE^D | "E7"E8 |]

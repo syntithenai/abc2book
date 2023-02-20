@@ -1,0 +1,27 @@
+X: 30913
+T: COTILLION No. 7. BLACKSTONE SETT tune 6
+N: This set isn't named on its first page (90), but its name is in the index at the end of the book.
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.91 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Rhythm fixed by transcribing the initial 3-note pickup as a triplet.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(3cde |\
+f3c {e}dcde | f3c {e}dcde | f2a2g2c'2 | a>bg>a fcde |\
+f3c {e}dcde | f3c {e}dcde | face AcFA | GFGA F2 H|]
+cB |\
+Afca cagf | dgdb dbag | Afca Bgdb | Afca gec'2 |\
+Afca cagf | Bgdb dbag | fc'af dbgf | ecde "^D.C."f2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right and left 4,
+%% balance,
+%% chassa across and balance,
+%% swing round, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

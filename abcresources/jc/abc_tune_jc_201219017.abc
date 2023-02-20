@@ -1,0 +1,75 @@
+X: 0201
+T: WALTZ BY STRAUSS
+C: Arranged by S. Knaebel
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.20-21
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Bb
+% -------------------------
+V: 1 nm="C CLARINET"
+!ff!b6 | b6 | b2b2b2 | b2b2b2 |\
+{a}b6 | {a}b6 | {a}b6- | b4 ||
+|: !p!BB | (Bd) zf f2 |\
+(df) zb b2 | (a_e) zg f2 | bd zg f2 |\
+(Bd) zf f2 | (df) zb b2 | (ae) zg f2 | b2 z2 :|
+|: z2 |\
+!f!z2 (BAB)c | z2 (df) f2 |\
+z2(ce)e2 | z2(Bd)d2 |\
+(BABAB)c | B2(df)f2 | z2(ce)e2 | d2z2 :|
+|: !p!(gf) |\
+=ef bBdg | f2(_ec)A2 | (g2f2)(ec) | db (fd)B2 |\
+=ef bBdg | f2(_ec)A2 | g2f2(ec) | B2z2 :|
+|: z2 |\
+!ff!A4c2 | A2c2A2 | B4d2 | B2(df)d2 |\
+A4c2 | A2c2A2 | B2d2e2 | d2z2 H:|
+% -------------------------
+V: 2 nm="VIOLIN PRIMO"
+!ff![B6F6] | [B6F6] | [B2F2][B2F2][B2F2] | [B2F2][B2F2][B2F2] |\
+"_>"[B6F6] | "_>"[B6F6] | [B6-F6-] | [B4F4] ||
+|: z2 |\
+!p!z2 [B2F2] [B2F2] |
+z2 [B2F2] [B2F2] | z2 [A2F2] [A2F2] | z2 [B2F2] [B2F2] |\
+z2 [B2F2] [B2F2] | z2 [B2F2] [B2F2] | z2 [A2F2] [A2F2] | [B2F2] z2 :|\
+|: !f!(BA) |\
+B(ABcd)e | df (fd') d'2 |
+(ce) (ec')c'2 | (Bd) (db)b2 |\
+(BABcd)e | (df) (fd')d'2 | (ce) (ec')c'2 | b2z2 :|\
+|: !p!z2 |\
+z2[B2F2][B2F2] | z2[A2F2][A2F2] | z2[A2F2][A2F2] | z2[B2F2][B2F2] |
+z2[B2F2][B2F2] | z2[A2F2][A2F2] | z2[A2F2][A2F2] | [B2F2]z2 :|\
+|: !ff!((3dcB) |\
+A2 gggg | (gf).e.cA2 | (db)(fd')b2 | (db)(fd')b2 | A2gggg | (gf).e.c (Af) | (db)(fd')(c'a) | b2z2 H:|
+% -------------------------
+V: 3 nm="VIOLIN SECONDO"
+!ff![D6B,6] | [D6B,6] | [D2B,2][D2B,2][D2B,2] | [D2B,2][D2B,2][D2B,2] |\
+"_>"[D6B,6] | "_>"[D6B,6] | [D6-B,6-] | [D4B,4] ||
+|: z2 |\
+!p!z2 [D2B,2] [D2B,2] |
+z2[D2B,2][D2B,2] | z2[E2C2][E2C2] | z2[D2B,2][D2B,2] |\
+z2[D2B,2][D2B,2] | z2[D2B,2][D2B,2] | z2[E2C2][E2C2] | [D2B,2] z2 :|\
+|: z2 !f!|\
+[D2B,2][D2B,2][D2B,2] | [D2B,2][D2B,2][D2B,2] |
+[A2F2][A2F2][A2F2] | [B2F2][B2F2][B2F2] |\
+[D2B,2][D2B,2][D2B,2] | [D2B,2][D2B,2][D2B,2] | [A2F2][A2F2][A2F2] | [B2F2]z2 :|\
+|: z2 |!p!\
+z2[D2B,2][D2B,2] | z2[E2C2][E2C2] | z2[E2C2][E2C2] | z2[D2B,2][D2B,2] |
+z2[D2B,2][D2B,2] | z2[E2C2][E2C2] | z2[E2C2][E2C2] | [D2B,2]z2 :|\
+|: z2!ff!|\
+[E2C2][E2C2][E2C2] | [E2C2][E2C2][E2C2] | z2[D2B,2][D2B,2] | z2[D2B,2][D2B,2] |\
+[E2C2][E2C2][E2C2] | [E2C2][E2C2][E2C2] | [D2B,2][d2F2][e2F2] | [d2F2]z2 :|
+%  -------------------------
+V: 4 clef=bass middle=d nm="BASSO"
+!ff!B6 | B6 | B2B2B2 | B2B2B2 | B6 | B6 | .B2.d2.f2 | [b4B4] ||
+|: z2 | !p!B4 z2 |
+B4z2 | [f4F4]z2 | B4z2 | B4z2 | B4z2 | [f4F4]z2 | B2z2 :|\
+|: z2!f!| B2B2B2 | B2B2B2 |
+F2f2f2 | b2B2B2 |\
+B2B2B2 | B2B2B2 | F2f2f2 | B2z2 :|\
+|: z2 |\
+!p!B4z2 | F4z2 | F4z2 | B4z2 |
+B4z2 | [f4F4]z2 | [f4F4]z2 | B2z2 :|\
+|: z2!ff!|\
+f2f2f2 | f2f2f2 | B4z2 | B4z2 |\
+f2f2f2 | f2f2f2 | B2b2f2 | b2z2 :|

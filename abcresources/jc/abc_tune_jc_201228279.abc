@@ -1,0 +1,21 @@
+X: 11163
+T: CAM YE BY ATHOL
+O: Gaelic air
+%R: air, jig.
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.116 #3 (and p.117 #1)
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Both strains have final repeat but no initial repeat; fixed.
+M: 6/8
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+F>ED D2B | AF>d AFD | F>EE EFA | d>cB BAF |\
+ABd e>dB | BAF ABd | F>EF dcB | ADF E2D :|
+|:\
+d2A e2A | f>ed dAB | AFD D2 (d/e/) | f(g/f/).e/.d/ {f}e2d |\
+d2A e>fg | f>ed (ed).B | A>BA ADE | FA{G}F E2D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

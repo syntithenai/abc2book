@@ -1,0 +1,58 @@
+
+X: 1
+T: Ellin polkka  [Em]
+O: trad Finland
+R: polka
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Em
+|:\
+"Em"B,2EE E2EF | GFE2 E2EF |\
+GFE2 E2EF | GFE2 E2"B7"F2 ||\
+"Em"B,2E2 "(/D#)"E2EF | "(/D)"GFE2 "(/C#)"E2EF |
+"(/C)"G2A2 "B7"G2F2 | "Em"E4 E4 :|\
+|:\
+"Em"BBB2 A2G2 | "B7"F2B,2 FB,FG |\
+AAA2 G2F2 |\
+[1,3 "Em"G2E2 EGEG :|\
+[2,4 "Em"E2G2 E4 :|
+|:\
+"Em"{GB}e2z2 "(E7)"d4 | "Am"cBAB c2A2 |\
+"D7"d2z2 c4 | "G"BAGA B2G2 ||\
+"Am"c2d2 c2B2 | ABAG F2A2 |\
+"B7"BcBA G2F2 | "Em"E2G2 E4 :|
+|:\
+"B7"F2FF F2F2 | "Em"E^DEF G2E2 |\
+[1,3 "B7"F2FF F2F2 | "Em"E^DEF G2E2 :|\
+[2,4 "B7"F2B,2 ^C2^D2 | "Em"E4 E4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Ellin polkka  [Am]
+O: trad Finland
+R: polka
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Am
+|:\
+"Am"E2AA A2AB | cBA2 A2AB |\
+cBA2 A2AB | cBA2 "E7"A2B2 ||\
+"Am"E2AA "(/G#)"A2AB | "(/G)"cBA2 "(/F#)"A2AB |
+"(/F)"c2d2 "E7"c2B2 | "Am"A4 A4 ::\
+"Am"eee2 d2c2 | "E7"B2E2 BEBc |\
+ddd2 c2B2 |\
+[1,3 "Am"c2A2 AcAc :|\
+[2,4 "Am"A2c2 A4 :|
+|:\
+"Am"a4 "(A7)"g4 | "Dm"fede f2d2 |\
+"G7"g4 f4 | "C"edcd e2e2 ||\
+"Dm"f2g2 f2e2 | dedc B2d2 |\
+"E7"efed c2B2 | "Am"A2c2 A4 :|
+|:\
+"E7"B2BB B2B2 | "Am"A^GAB c2A2 |\
+[1,3 "E7"B2BB B2B2 | "Am"A^GAB c2A2 :|\
+[2,4 "E7"B2E2 ^F2^G2 | "Am"A4 A4 :|

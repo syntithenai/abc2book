@@ -1,0 +1,87 @@
+
+X: 1
+T: Araber tants  [D]
+R: Terkish
+S: handwritten MS of unknown origin labelled "III-2"
+B: Henry Sapoznik, "The Compleat Klezmer"
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Dphr^F
+[|]D2 "A"|\
+| "D"FGA2 A2A2 | "Gm"B6 AG \
+| "D"FGA2 "Eb"BAGA | "D"GF3 z4 \
+| "D"FGA2 A2A2 | "Cm"c4- cBAG |
+| "D"FGA2 "Eb"BAGA | "D"GF3 z2 \
+|: z2 "B"|\
+| "D"Dd2^c d2A2 | "Gm"B3c d2c/B/A/G/ \
+| "Cm"FG3- GFEF |
+| "D"ED3 z2 :: D (3BAG "C"|\
+| "D"F8 | "Gm"G8 \
+| "D"FGAF- FD"Cm"EC | "D"DEFG AdAG |
+| "D"F8 | "Gm"G4 zD (3BAG \
+| "D"FGAF- FD"Cm"EC |1 "D"D4 z :|\
+[2 "D"D4 zd "Cm"c/B/A/G/ ||
+"D"\
+|: "D"FGAF- FD "Cm"E{DE}C | "D"DEFG Ad "Cm"c/B/A/G/ \
+| "D"FGAF- FD"Cm"E{DE}C |1 "D"DD2A, DA,D2 :|2 "D"D6 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Araber tants  [E]
+R: Terkish
+S: handwritten MS of unknown origin labelled "III-2"
+B: Henry Sapoznik, "The Compleat Klezmer"
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Ephr^G
+[|]E2 "A"|\
+| "E"GAB2 B2B2 | "Am"c6 BA \
+| "E"GAB2 "F"cBAB | "E"AG3 z4 \
+| "E"GAB2 B2B2 | "Dm"d4- dcBA |
+| "E"GAB2 "F"cBAB | "E"AG3 z2 \
+|: z2 "B"|\
+| "E"Ee2^d e2B2 | "Am"c3d e2d/c/B/A/ \
+| "Dm"GA3- AGFG |
+| "E"FE3 z2 :: E (3cBA "C"|\
+| "E"G8 | "Am"A8 \
+| "E"GABG- GE"Dm"FD | "E"EFGA BeBA |
+| "E"G8 | "Am"A4 zE (3cBA \
+| "E"GABG- GE"Dm"FD |1 "E"E4 z :|\
+[2 "E"E4 ze "Dm"d/c/B/A/ ||
+"D"\
+|:"E"GABG- GE "Dm"F{EF}D | "E"EFGA Be "Dm"d/c/B/A/ \
+| "E"GABG- GE"Dm"F{EF}D |1 "E"EE2B, EB,E2 :|2 "E"E6 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Araber tants  [B]
+R: Terkish
+S: handwritten MS of unknown origin labelled "III-2"
+B: Henry Sapoznik, "The Compleat Klezmer"
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: ^f^d	% B freygish
+[|]B2 "A"|\
+| "B"def2 f2f2 | "Em"g6 fe \
+| "B"def2 "C"gfef | "B"ed3 z4 \
+| "B"def2 f2f2 | "Am"a4- agfe |
+| "B"def2 "C"gfef | "B"ed3 z2 \
+|: z2 "B"|\
+| "B"Bb2^a b2f2 | "Em"g3a b2a/g/f/e/ \
+| "Am"de3- edcd |
+| "B"cB3 z2 :: B (3gfe "C"|\
+| "B"d8 | "Em"e8 \
+| "B"defd- dB"Am"cA | "B"Bcde fbfe |
+| "B"d8 | "Em"e4 zB (3gfe \
+| "B"defd- dB"Am"cA |1 "B"B4 z :|\
+[2 "B"B4 zb "Am"a/g/f/e/ ||
+"D"\
+|:"B"defd- dB "Am"c{Bc}A | "B"Bcde fb "Am"a/g/f/e/ \
+| "B"defd- dB"Am"c{Bc}A |1 "B"BB2F BFB2 :|2 "B"B6 |]

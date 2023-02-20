@@ -1,0 +1,21 @@
+X:3
+T: the Wren
+R:Reel
+M:C|
+L:1/8
+K:Bm clef=treble
+|:\
+"Bm"B2 f2 f2 ef | "Em"g2 e2 edcd | "A"eAce efed | c2 c2 dcBA | 
+"Bm"B2 f2 f2 ef | "Em"g2 e2 edcd | "A"eAce efed | c2 B2 "Bm"BAFA :| 
+|:\
+"Bm"B3A Bcdc | B2 B2 "A"c3d | "A"eAce efed | c2 c2 "(F#m)"dcBA | 
+"G"B3A Bcdc | B2 B2 "A"c3d | "A"eAce efed |[ "Normal"c2 B2 "Bm"B2 A2 :|\ 
+["Ending"c2 B2 "Bm"B4 |] 
+%%text The Wren lower octave
+|:\
+"Bm"B,2 F2 F2 EF | "Em"G2 E2 EDCD | "A"EA,CE EFED | C2 C2 DCB,A, | 
+"Bm"B,2 F2 F2 EF | "Em"G2 E2 EDCD | "A"EA,CE EFED | C2 B,2 "Bm"B,A,B,A, :| 
+|:\
+"Bm"B,3A, B,CDC | B,2 B,2 "A"C3D | "A"EA,CE EFED | C2 C2 "(F#m)"DCB,A, | 
+"G"B,3A, B,CDC | B,2 B,2 "A"C3D | "A"EA,CE EFED |[ "Normal"C2 B,2 "Bm"B,2 A,2 :|\ 
+["Ending"C2 B,2 "Bm"B,4 |] 

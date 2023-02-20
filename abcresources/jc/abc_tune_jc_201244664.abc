@@ -1,0 +1,15 @@
+X: 1
+T: A Jig
+C: Andrea Katz & David Kaynor
+R: Jig
+B: Susan Songer ed. "The Compositions of David A. Kaynor" 2021
+S: https://natunelist.net/a-jig/ [with chords and a few fixed notes from the above book]
+M: 6/8
+L: 1/8
+K: A
+"^A"|:\
+"A"EAB c2A | "E"BAB "F#m"cAF | "D"DFA "Bm"B2A | "E"GEE E3 |\
+"A"EAB c2A | "E"BAB "F#m"cAF | "D"DFA "E"EAG |1 "A"A3 A3 :|2 "A"A>BA ||
+"^B"|:"E"GAB |\
+"A"cde a2e | "D"fag aed | "A"cde "F#m"a2c | "Bm"dBA "E"GFE |\
+"A"cde a2e | "D"fag "F#m"aec | "Bm"dBG "E"EFG |1 "A"A>BA :|2 "A"A3 A3 |]

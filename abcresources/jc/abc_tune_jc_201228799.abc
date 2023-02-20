@@ -1,0 +1,29 @@
+X: 11622
+T: MINUET
+C: Kammel.
+%R: minuet
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.162 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Oddly, the A-natural in the 2nd strain's key signature continues on all staves to the end.
+M: 3/4
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E2 |\
+E4 ba | gfedcB | (B2A2) G2 | (G2A2) B,2 |\
+!p!B,4 ag | gfedcB | (BA) G2 F2 "^Fin."| HE4 :|\ 
+|:!f! b2 |\
+b4 af !p!| fg e2!f!B2 | B4 A>F | F>G E2 E2 |
+E4 ba | gfedcB | B2 AG F2 | HE4 :|\
+|:[K:Bb] !p!F2 |\
+B4 {d}c2 | (B2A2) c2 | d4 {f}e2 | (d2c2) F2 |\
+B6 | (B2A2) d2 | cd F2 =E2 | FG/A/ B/c/d/=e/ fe |
+dz cz Bz | Af f4 | {=e}dc/B/ A2 G2 | F4 :|\
+|: F2 |\
+c4 (de) | f4 (ed) | (cB)(AB)(ed) | dcBAGF |\
+c4 (de) | f4 (ed) | (cB)(AB)(ed) | (d2c2) F2 |
+B4 {d}c2 | (B2A2) c2 | d4 {f}e2 | (d2c2) B2 |\
+!f!e6 | (e2d2) g2 | !p!fg B2 A2 | Bc/d/ e/f/g/a/ ba |\
+gz fz ez | db b4 | {a}gf/e/ d2 c2 | "^D.C."B4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

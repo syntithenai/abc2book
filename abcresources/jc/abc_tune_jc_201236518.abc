@@ -1,0 +1,29 @@
+X: 222
+T: Lord President Forbes.
+T: Tighearna Chulodair.
+C: 
+R: strathspey
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.101 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow Strathspey Style."
+K: F#m
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+!p!E |\
+C>FA>F E>CA,<B, | "_cres"C>FA>B {B}~c2c<f |\
+!p!C>FA>F E>CA,>d | c>B {G}A>G [F2A,2][FA,] :|\
+c |\
+!p!f>g{fg}a>g fcc^e | f>g{g}a>f {a}g2f^e |
+!p!f>g{fg}a>g fcc>a | "_cres"g>a{ga}b>g Tf2f>c ||\
+!p!f>g{fg}a>g fcc^e | "_cres"f>g{g}a>f {a}g2f^e |\
+"_Exp"{c}a>c{c}d>B c>A^E<C | {E}c>B{G}A>G [F2A,2][FA,] |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | F2f2 c2A2 | F2f2 F2f2 | F2f2 c2AB | c2C2 F2-F :| z |!p!F2f2 a2g2 | F2f2 c'2c2 |
+!p!F2f2 a2f2 | c'2c2 f2F2 || !p!F2f2 a2g2 | F2f2 c'2c2 | a2b2 f2g2 | ab c'c f2F |]
+% = = = = = = = = = =

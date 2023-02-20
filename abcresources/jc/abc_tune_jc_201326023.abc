@@ -1,0 +1,67 @@
+
+X: 1
+T: Pravo Trakijsko Horo #1   [G]
+R: pravo (fast)
+Z: 2004 John Chambers <jc@trillian.mit.edu> from several recordings and transcriptions.
+N: Accompaniment may be in 6 or in 4.
+N: The recordings have different arrangements of (and subsets of) the parts.
+M: 6/16
+L: 1/16
+K: Em
+"A"\
+|: "G"AB2 B2B | B2A A2G | AB2- B3 | B2A A2G \
+| AB2 B2B | "D"A2G GFD | "Em"E3- E2D | "D"F2G A2D |
+| "G"AB2 B2B | "D"A2G GFD | "Em"E6 |1 E3 E3 \
+:|2 !fine!HE3 y "D7"DEF "B"|: "G"G3 z3 | AB2 z3 | A2G GAB |
+| "G"B3 z3 | A2G GAB | "D"A2G GFD |1 "Em"E2D "D"DEF \
+| "G"GFG "D"A2G :|2 "Em"E6 | E3 "B7"BAB |[K:E]
+"C"\
+|::: "E"G2B "B7"F2E | "E"EFG "B7"AFA | "E"G2B "B7"F2E |1-3 E3 "B7"BAB \
+:|4[K:D] "D"D6 | D6 | "D"D6 | D6 ||
+"D"
+|: "A7"AGE "D"F2D | "A7"E2D "D"F2D | "A7"AGE "D"F2D \
+| "A7"E2D "D"D3 "E":: "G"cde dcd | B3- B2A |
+| "G"A2G G2A | {A}B6 | cde dcd | B3- B2A \
+| "D"BAG GFD |1 "Em"E6 :|2 E3- E2D ||
+K:G
+"F"\
+|: "G"G2D G2D | G2B "D"A2D | "G"G2D Bcd | B3- B2D \
+| G2D G2D | G2A B3 | "D"BAG GFD | "Em"E3 E2D :|
+"G"\
+|: "Em"FGA BAG | GFE B3 | FGA BAG | "D"GFD "Em"E3 \
+| FGA BAG | GFE B3 | BAG "D"GFD | "Em"E6 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+T: Pravo Trakijsko Horo #1   [A]
+R: pravo (fast)
+Z: 2004 John Chambers <jc@trillian.mit.edu> from several recordings and transcriptions.
+N: Accompaniment may be in 6 or in 4.
+N: The recordings have different arrangements of (and subsets of) the parts.
+M: 6/16
+L: 1/16
+K: F#m
+"A"\
+|: "A"Bc2 c2c | c2B B2A | Bc2- c3 | c2B B2A \
+| Bc2 c2c | "E"B2A AGE | "Fm"F3- F2E | "E"G2A B2E |
+| "A"Bc2 c2c | "E"B2A AGE | "Fm"F6 |1 F3 F3 \
+:|2 !fine!HF3 y "E7"EFG "B"|: "A"A3 z3 | Bc2 z3 | B2A ABc |
+| "A"c3 z3 | B2A ABc | "E"B2A AGE |1 "F#m"F2E "E"EFG \
+| "A"AGA "E"B2A :|2 "F#m"F6 | F3 "C7"cBc |[K:F#]
+"C"\
+|::: "F#"A2c "C#7"G2F | "F#"FGA "C#7"BGB | "F#"A2c "C#7"G2F |1-3 F3 "C#7"cBc \
+:|4[K:E] "E"E6 | E6 | "E"E6 | E6 ||
+"D"
+|: "B7"BAF "E"G2E | "B7"F2E "E"G2E | "B7"BAF "E"G2E \
+| "B7"F2E "E"E3 "E":: "A"def ede | c3- c2B |
+| "A"B2A A2B | {B}c6 | def ede | c3- c2B \
+| "E"cBA AGE |1 "F#m"F6 :|2 F3- F2E ||
+K:A
+"F"\
+|: "A"A2E A2E | A2c "E"B2E | "A"A2E cde | c3- c2E \
+| A2E A2E | A2B c3 | "E"cBA AGE | "F#m"F3 F2E :|
+"G"\
+|: "F#m"GAB cBA | AGF c3 | GAB cBA | "E"AGE "F#m"F3 \
+| GAB cBA | AGF c3 | cBA "E"AGE | "F#m"F6 :|

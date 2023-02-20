@@ -1,0 +1,45 @@
+
+X: 374
+T: the Banks o' (Bonnie) Doon
+O: Scots Musical Museum p.387 #374
+R: waltz
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: Page from Concord Slow Scottish Session collection
+M: 3/4
+L: 1/4
+K: G
+D2 |\
+"G"G2G | "D"A2A | "G"B>dB | "D"AGA |\
+"G"B>AG | "C"G<E"G"D | "G"D<EG | "D"A2 |
+B/A/ |\
+"G"G2G | "D"A2A | "G"B>dB | "D"A<GA |\
+"G"B>AG | "C"G<E"G"D | "G"D<EG | "G"G4 ||
+B/c/ |\
+"G"d2"C"e | "G"d<BG | "G"d2"C"e | "G"d<BG |\
+"G"d<BG | "G"d<BG |"Em"e<dB | "D"A2 ||
+B/A/ |\
+"G"G2G | "D"A2A | "G"B>dB | "D"A>GA |\
+"G"B>AG | "C"G<E"G"D | "G"D<EG | "G"G2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Ye Banks and Braes of Bonnie Doon
+C: Tune: Trad Scotland
+C: Words: Robert Burns
+O: 1788
+R: waltz
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: G
+D "A"|\
+"G"G2G  | "D7"A>GA | "G"BdB | "D7"AGA |\
+"G"B>AG | "C"GED |1 "Am"DEG | "D7"A2 :|2 "D7"DEG | "G"G2 |]
+B "B"|\
+"G"d2e | dBG | d2e | dBG |\
+dBG | "Em"dBG | "Am"e>dc/B/ | "D7"BA |]
+B/A/ "A3"|\
+"G"G2G  | "D7"A>GA | "G"BdB | "D7"AGA |\
+"G"B>AG | "C"GED | "D7"DEG | "G"G2 |]

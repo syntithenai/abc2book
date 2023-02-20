@@ -1,0 +1,26 @@
+X:1
+T: Grand Mother's Circle
+N:
+C: by W. A. Mozart
+S:tune is "Trio"
+A:
+O:
+R:
+M:3/4
+K:G
+I:speed 120
+%W: A
+% voice 1 (1 lines, 33 notes)
+K:G
+M:3/4
+L:1/16
+G2 A2 |B4 B4 c2 A2 |d4 d4 g2 f2 |e4 e4 g2 e2 |d4 d4 G2 A2 |B4 B4 c2 A2 |d4 d4 c2 A2 |G6 G2 A2 B2 |G8 G2 A2 |
+%W:
+% voice 1 (1 lines, 31 notes)
+B4 B4 c2 A2 |d4 d4 g2 f2 |e4 e4 g2 e2 |d4 d4 G2 A2 |B4 B4 c2 A2 |d4 d4 c2 A2 |G6 G2 A2 B2 |G8 A2 B2 |
+%W: B
+% voice 1 (1 lines, 31 notes)
+c4 c2 d2 B2 c2 |A8 B2 c2 |d4 d2 e2 c2 d2 |B8 g2 f2 |e4 e4 g2 e2 |d4 d4 G2 A2 |B6 c2 A2 B2 |G8 A2 B2 |
+%W:
+% voice 1 (1 lines, 29 notes)
+c4 c2 d2 B2 c2 |A8 B2 c2 |d4 d2 e2 c2 d2 |B8 g2 f2 |e4 e4 g2 e2 |d4 d4 G2 A2 |B6 c2 A2 B2 |G8 ||

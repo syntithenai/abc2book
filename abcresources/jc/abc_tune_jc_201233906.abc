@@ -1,0 +1,458 @@
+
+X: 1
+T: Melodica Bulgar
+T: Bender's Bulgar
+C: Brian Bender
+M: 4/4
+L: 1/8
+K: _B_e^F
+"A"|:\
+"D"D>F Ad cB AG | F/G/A "Cm"G/F/E "D"D4 |\
+"D"FG AB "Cm"cB AG | "D"A8 |\
+"D"D>F Ad cB AG | F/G/A G/F/E "Cm"DC3 |
+=B,C DE AG FE | "D"D6 z2 "B"::\
+"D"dd cB AB cd | "Gm"(3BAG "D7"AF "Gm"G4 |\
+"Gm"B3 c dd cB | "D"dA- A4 zD |
+"D"dd cB AB cd | "Gm"(3BAG "D7"AF "Gm"G4 |\
+"Cm"C=B, CD EG FE | "D"D6 z2 "C"::\
+"Gm"(3GDG (3BGB dB AG | "Cm"c>G cd ed cB |
+"D"AB ^cd cB AG | "Gm"^cd- d4 D2 |\
+"Gm"(3GDG (3BGB dB AG | "Cm"c>G cd ed cB |\
+"D"AB ^cd cB AB | "Gm"G6 z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Beth Cohen Blues   [A]
+C: Larry Unger 1991
+%date: 1991
+R: reel
+S: handwritten MS
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: _B^c	% A freygish
+|: "A"ABcd efed | egfe "Bb"fedc | "A"ABcd     efed |    efed e2ee  |
+|  "A"ABcd efed | egfe "Bb"fedc |    dcBd "Gm"cBAG | "A"A2E2 A2z2 :|
+|: "A"A2eA "Bb"B2ed | "A"cde3  gfe | "A"A2eA "Bb"B2ed | "Gm"cBG3 dcB |
+|  "A"A2eA "Bb"B2ed | "A"cdeg a2b2 |    abag "Bb"fedc |1 "A"c6 z2 :|2 "A"a6 z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Hora Fetelor
+C: Sergei Lunkevitch
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 6/8
+L: 1/16
+K: Dm
+A,=B,^C \
+"A"\
+|:"Dm"D3AFA D3AFA | D6 "D"^F6 \
+| "Gm"G3dBd G3dBd | G6- G3^cd^d \
+| "A7"e3dd^c c3BBA | "Dm"A2d2d2 "Bb"d3ccB |
+| "F"A3GGF "C7"c3BcB | "F"A6- A3^cd^d \
+| "A7"e3dd^c c3BBA | "Dm"A2d2d2 "Bb"d3ccB \
+| "Dm"A3BGA "A7"F3GEF | "Dm"D3AFA D6 :|
+"B"\
+|: "F"A2f2f2 f3eed | "C"c2e2e2 e6 \
+| "Bb"B2d2d2 d3ccB | "F"A2c2c2 "(D7)"c6 \
+| "Gm"G2B2B2 B3AAG | "Dm"F2A2A2 A3AcB |
+|1 "Dm"A3GGF "C7"c3BcB | "F"A6- A6 \
+:|2 "Dm"A3BGA "A7"F3GEF | "Dm"D3AFA D6 \
+"C"\
+|:"C7"C3DEF G3ABG | "F"B2A4- A6 |
+| "C7"G3FFE c3BcB | "F"A12 \
+| "C7"C3DEF G3ABG | "Bb"A2B2- B6 \
+| "Dm"A3BGA "A7"F3GEF |1 "Dm"D3AFA D6 :|2 "Dm"D3dAF D6 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Flatbush Waltz [Gm]
+C: Andy Statman
+D: Flatbush Waltz; Rounder 00116 (1980)
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 3/4
+R: Waltz
+S: Frets Magazine, Dec 1980
+K: Gm
+[| "Gm"d3 g dc | B2 G2 G2 | d3 g dB | "Cm"c3 e dc \
+| "Gm"GA Bc dB/d/ | "Cm"cG c2 c2 | "Gm"B3 c "Ab"_AB  | "Gm"G3 D GB ||
+|| "Gm"[d3G] [gd] [dB][cA] | [B2G] [G2D] [G2D] | [d3B] [gd] [dB][BG] | "Cm"[c3G] f (3edc \
+| "Bb"Bc de fd | "Cm"cG c2 c2 | "Gm"B3 c "Ab(Fm)"_AB  | "Gm"G6 |]
+[| "Gm"[b4d] [ac][gB] | "D7"[ac]>D [d^F]A d^f | "Eb"[g2B] [f3A] [eG] | "Bb"[d6F] \
+| "Cm"[e2G] [d2F] [c2E] | "Gm"[d2F] [g2B] [a2c] | [b3d] [ac] [bd][c'e] | "D7"[a6c] ||
+|| "Gm"[b4d] [ac][gB] | "D7"[ac]D [d^F]A d^f | "Eb"[g2B] [f3A] [eG] | "Bb"[d6F] \
+| "Cm"[e2G] [d2F] [c2E] | "Gm"[d2F] [G2B,] [c2E] |  "Gm"[B3D] [cE] "Ab(Fm)"[_AC][BD]  | "Gm"[G6B,] |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: In Odess'  (freilach)
+O: SB13
+R: freylach
+M: 2/4
+L: 1/8
+K: _B_e^F
+"A"\
+|: "D" FG A>c | "Cm"(3BAG "D"A2 | "D"(3FGA "Cm"(3GFE | "D"DF Ad \
+|  "D" FG A>c | "Cm"(3BAG "D"A2 | "D"(3FGA "Cm"(3GFE | "D"D4 :|
+K: D
+"B"\
+|: "D"dz A>G | F/G/ A2 F | "A7"G/F/ E2 G | "D"FG "A7"^GA \
+|  "D"dz A>G | F/G/ A2 F | "A7"G/F/E- E/G/F/E/ |1 "D"D2 zA :|2 "D"DD "D7"GA ||
+K: G
+"C"\
+|: "G"B4- | BA "D7"(3cBA | B G3 | zG A_B \
+|  "Gm"^cd c_B | "Gm"^cd c_B | "D"A4 | "D7"zD GA |
+|  "G"B4- | BA "D7"(3cBA | "G"B G2 _B- | "Gm"B3 A \
+|  "D"AG GF | FD/F/ "Cm"_EDC |1 "D"D4 | "D7"zD GA :|2 "D"D4- | D4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Khosid wedding dance
+O: Transylvania
+D: "Muszik\'as - The Lost Jewish Music of Transylvania (Hannibal 1373)
+Z: John Chambers <jc:trillian.mit.edu>
+R: cs\'ard\'as
+M: 2/4
+L: 1/16
+K: F
+cde \
+| "F"f2c2 f2g2 \
+| a2a2- afga \
+| "C7"b2a2 {a}g2gf \
+| "F"a2fa "(C7)"gfae |
+| "F"f2f2 c2f2 \
+| a2{b}a2- afga \
+| "C7"b2a2 gage |1 "F"fcAc f :|2 "F"f4z ||[K:D^g]
+|: efg \
+| "Dm"a2a2 Tg3f \
+| efgf Te3d \
+| f2{ef}gf "A"Te3^c \
+| "Dm"defg aefg |
+| "Dm"a2a2 Tg3f \
+| efgf Te3d \
+| f2{ef}gf "A"Ted^ce \
+| "Dm".d2d2z :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Klezmer mazurka    [Dm]
+O: all of Eastern Europe
+R: mazurka
+M: 3/4
+L: 1/8
+K: Dm
+"A"
+|: "Dm"A>F D2 D2 | "Gm"B>G E4 | "A7"A,>^C EG FE | "Dm"D>^C DE FG \
+|  "Dm"A>F D2 D2 | "Gm"B>G E4 | "A7"A,>^C EG FE | "Dm"Dz "fine"D2 z2 :|
+"B"
+|: "Dm"~F2 GF ED | "A7"D2 ^C4 | A>B AG FE | "Dm"D>^C DE FG \
+|   "Dm"~F2 GF ED | "Gdim"^C2 B4 | "A7"A>B AG FE | "Dm"Dz D2 z2 :|
+"A"
+[| "Dm"A>F D2 D2 | "Gm"B>G E4 | "A7"A,>^C EG FE | "Dm"D>^C DE FG \
+|  "Dm"A>F D2 D2 | "Gm"B>G E4 | "A7"A,>^C EG FE | "Dm"Dz D2 z2 |]
+"C"
+|: "F"[AF]>[BG] [=B^G][cA] [d_B][cA] | [A2F2] [F4C4] \
+| "C7"[ec]>[dB] [B2G2] [B2G2] | "F"[dB]>[cA] [A4F4] \
+| "F"[AF]>[BG] [=B^G][cA] [d_B][cA] | [A2F2] [f4A4] \
+| "C7"[ec]>[dB] [cA][BG] [AF][GE] |1 "F"[FF]z [F2F2] z2 :|2 "F"[FF]z "A7"[G2E2] z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: LeMa'an Achai [Dm]
+T: For the Sake of My Brothers and Friends
+C: Shlomo Carlebach
+Z: John Chambers <jc:trillian.mit.edu>
+N: Berachot 64A
+R: waltz
+M: 3/4
+L: 1/4
+K: Dm
+|: A \
+| "Dm"A ^G A | f e d | "Gm"B3- | B2 B \
+| B A G | f e d | "Dm"A3- | A2 A |
+w: Le-ma-'an a-chai ve-re-ay* le-ma-'an a-chai ve-re-ay* a-
+| "Dm"(A ^G) A | (f e) d | "Gm"(c B) A | G3 \
+| "A7"A3 | (e2 f) | "Dm"d3- | dz :|
+w: dab-*ra na* a-dab-*ra na sha-lom* bach.
+|: (d/e/) \
+| "Dm"f2 f | (f e) d | f2 f | f e d \
+| "Gm"g2 g | (a2 g) | "Dm"f3- | f2 (d/e/) |
+w: le-*ma-'an beyt* ha-shem elo-kei-nu a-vak-sha tov_ lach* le-
+| "Dm"f2 f | (f e) d | f2 f | f e d \
+| "A7"e2 g | (f3/2 e/d/e/) | "Dm"d3- | dz :|
+w: ma-'an beyt* ha-shem elo-kei-nu a-vak-sha tov___ lach
+W: On behalf of my brothers and friends, let me say "Peace unto you".
+W: For the sake of the house of the Lord our God, I pray for your good.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Ma Yofus / Yoshke / Tanz, Tanz, Yideleh
+T: ... and many other names ...
+%O: Eastern European Jewish
+%date: 1880?
+D: Naftule Brandwein 1917
+Z: 1999, 2004 John Chambers <jc:trillian.mit.edu>
+%O: Trad
+M: C|
+L: 1/8
+K: _B_e^F	% D freygish
+"A"[|]z2 \
+|  "D"DEFG ABAG | F2FD "Gm"G4 | "D"A2A2 cBAG | F2FD "Gm"G4 \
+|  "D"DEFG ABAG | F2FD "Gm"G4 | "D"F2F2 "Cm"EDEC | "D"D4 z2 :|[K:=F]
+K: Bb	% Bb, G minor
+"B"|: "F"[F2A] \
+|  "Bb"Bcd4 d2 | "F"cdcA F4 | "F7"FGAB cdec | "Bb"d2de "D7"dcBA \
+|  "Gm"GAB4 B2 | "D7"ABA^F D4 | DE^FG ABAF | "Gm"G4 z2 :|[K:^F]
+K: _B_e^F	% D freygish
+"C"|: FE \
+|  "D"D2F2 D2F2 | "Gm"G2G2 cBAG | "D"F2F2 "Gm"GFGB | "D"A2A2 ~d4 \
+|  "D"D2F2 D2F2 | "Gm"G2G2 cBAG | "D"F2F2 "Cm"EDEC | "D"D4 z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Misirlou   [Dhjz]
+C: N.Roubanis 1927
+O: Greece
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: ^c^f_B_e	% D zengule
+|: "D"D3 E F2 G2 | A3B c2BA | A8- | A8 \
+| D3E F2G2 | A3B c2BA | A8- | A8 |
+| "Gm"BA2B A2G2 | AG2A G2F2 | "D"F8- | F8 \
+| "Cm"AG2A G2F2 | FE2F E2DD | "D"{FE}D8- | D8 :|
+|: "Gm"G8- | G6 FG | "F"A8- | A6 GA | "Eb"B6 AB | "A"c6 Bc | "D"d8- | d8 | [K:=c]
+[K: ^f_B_e]	% D hijaz
+| "Cm"e d2 e d2 c2 | d c2 d c2 B2 | "D"A8- | A8 \
+| "Cm"c B2 c B2 A2 | A G2 A F2 E2 | "D"D8- | D8 :|
+%P: Coda
+%|| "Gm"B6 AB | "A"^c6 Bc | "D"d8- | d8- | d8- | d z7 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Moshe Emes   [Dfr]
+M: 2/4
+L: 1/8
+O: trad. Hassidic
+D: Andy Statman & David Grisman "Songs of Our Fathers"
+P: Play AABBCCBB
+K: _B_e^F	% D freygish
+"A"\
+|:"D"F>E DD | DD D2 | FG AB | AG A2 \
+| "D"F>E DD | DD D2 | FG "Cm"F>E | "D"E D3 :|
+"B"\
+|:"D"F2 "Gm"G2 | "D"FA "Gm"G2 | "D"FG AB | AG A2 \
+| "D"F2 "Gm"G2 | "D"FA "Gm"G2 | "D"FG "Cm"F>E | "D"E D3 :|
+"C"\
+|:"Gm"B4 | "D"A4 | "Gm"G>F G>F | GA B{A}G \
+| "Gm"B4 | "D"A4 | "Cm"G>F G>F | "D"G F3 :|
+%"B"\
+%|:"D"F2 "Gm"G2 | "D"FA "Gm"G2 | "D"FG AB | AG A2 \
+%| "D"F2 "Gm"G2 | "D"FA "Gm"G2 | "D"FG "Cm"F>E | "D"E D3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: a Nacht in Gan Eydn
+T: a Night in the Garden of Eden
+B: Sapoznik "The Compleat Klezmer" p.38
+D:
+M: 2/4
+L: 1/8
+K: Dm
+"A"|: A,DE \
+| "Dm"F2 ED | F2 ED | EF D2 | "C7"zCFG | "F"A2 GF | A2 GF | GA F2 | "(C7)"zCFA |
+| "F"c2 "C7"B2 | "F"A2 GF | "A7"FG FE | "Dm"D3 "C7"C | "F"FG2F | "A7"(3AGF (3FED | "Dm"D4- | D :|
+"B"|: A \
+| "Dm"Ad dd | dA f/e/d | "D7"^cd BA | "Gm"G3 G | ^FG AB | "A7"^cd cB | "Dm"A4- | A2 "C7"C2 |
+| "F"CF FA | cc "D7"BA | "Gm"dG GG | GA/G/ "A7"FE | "Dm"D2 AF |1 "A7"GG FG | "Dm"A4 | ~d3 :|2 "Gm"GG "A7"FE | "Dm"D4- | D ||
+"C"|: ABA \
+| "Dm"~d4 | "A7"zAFE | "Dm"D4 | "A7"ZABA | "Dm"f4- | (3fed "A7"(3^cde | "Dm"d4 | zc=Bc |
+| "D"d_e dc | "F"=Bc _BA | =Bc _BA | "Gm"G3F | "Dm"FG2F | "A7"(3AGF (3FED | "Dm"D4- | D :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Nigun Sameach  [Gm]
+R: bulgar, freylach
+O: Kammen 9#12
+B: Kammen 9#12
+M: 2/4
+L: 1/8
+K: Gm
+"A"\
+|: "Gm"G,z B,z | Dz Gz | B4- | B4 \
+| cB AB | AG ^FG | "D7"A4- | AD ED |
+| "D7"D3 ^F A3 G | "Cm"(3^FGA (3GFE | "D"D4 | AG ^FE \
+| "D7"DC B,A, |1 "Gm"G,4 | (3D^CB, (3B,A,G, :|2 "Gm"G,4- | HG,4 |]
+"B"\
+|: "Gm"DG "(D7)"BA | "Gm"GF "G7"ED | "Cm"DE EE | E4 \
+| "(F7)"CE AG | "(D7)"^FE DC | "Gm"^CD DD | D4 |
+| "D7"DE ^FG | AB (3BAG | ^F4- | F4 \
+| AG ^FE | DC B,A, | "Gm"G,4- | G,2 z2 :|
+"C"\
+|: "Gm"z2 d^c | d2 "Cm"e2 | "Gm"d3 B | G4 \
+| "Cm"e3 d | "F7"cd e[fc] | "Bb"d4- | d4 |
+| "Cm"ed c2  | cB A2 | "D7"cB A2 |  AG ^F2 \
+| DE ^FG | AB  ^FA |1 "Gm"G4 | (3d^cB (3BAG :|2 "Gm"G4 | BG "da Capo"DB, |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Papirossen   [Dm]
+T: Cigarettes
+C: Melody: trad. Eastern Europe
+C: Lyrics: Herman Yablokoff 1922
+Z: 1988 John Chambers <jc:trillian.mit.edu> http:trillian.mit.edu/~jc/music/abc/
+M: 4/4
+L: 1/8
+K: Dm
+z3D |\
+"Dm"DF FA | Ad df | fe ed | A4 |\
+fe ed | dc "D7"cB | "Gm"BA AG | G3 G |
+"A7"GA Ae | ed d^c | ^cB BA | AG GF |\
+"Dm"FG GF | "A7"AG FE |1 "Dm"F4 :|2 "Dm"D4 ||
+|: zAde |\
+"Dm"f3 e | "A7"(fe) d^c | "Dm"d2 A2- | A2 zA |\
+d^c dc | "D7"d=c BA | "Gm"(AB) G2- | G2 zG |
+"A7"GA Ae | ed d^c | ^cB BA | AG GF |\
+FG GF | AG FE |1 "Dm"F4 :|2 "Dm"D4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Sadegurer Khosid   [Gm]
+R: khosidl
+D: DRK-204 "Git Azoy" the 12 Corners Klezmer Band
+M: 4/4
+L: 1/16
+K: Gm
+   z2D2 \
+| "Gm"B3A G2G2 | z2BA GBAG | "D"A3G ^F2F2 | "Cm"^FGFE "D"D4 \
+| "D7"^FDFA "Gm"GDGB | "D7"ADAc "Gm"BGBd | "Cm"c2c2 cdec | "D7"d4 dcBA |
+| "Gm"B3A G2G2 | z2BA GBAG | "D"A3G ^F2F2 | "Cm"^FGFE "D"D4 \
+| "D7"d4 c4 | B4 A4 | "Gm"G2G2 "D7"BAG^F | "Gm"G4 :| [K:G]
+|: zDGA \
+|: "G"BcBc B2AG | A2B2 z4 | BcBc B2AG | ABG2 z4 \
+| "G"BcBc B2AG | A2B2 z4 | "Am"A2A2 "D7"GFEF |1 "G"G4 z4 :|2 [K:Gm]"Gm"G4 ||
+|: z4 \
+| "Gm"d8 | d8 | d4 d4 | d4 d4 \
+| z2d2 d2d2 | "Cm"c2z2 c4 | "Gm"BcBA G^FGA | B2z2 d4 \
+| z2d2 d2d2 | "Cm"c2z2 c4 | "Bb"BFFB "Ab"B_AAG | "Gm"G4 z4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Salo Enis Klezmer Waltz   [Dm]
+C: Salo Enis 1915-2013
+%date 1935
+R: waltz
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+A2 |:\
+"Dm"f3 e ed | "D7"d2 A2 c2 | "Gm"B6- | B4 G2 |\
+"C"e3 d d^c | "A7"^c3 B AG | "Dm"F2 G3 A | "A7"A4 A2 |
+"Dm"f3 e gf | "D7"e2 d2 A2 | "Gm"c4 B2 | B6 |\
+"A7"A3 B ^cd | e4 f2 | "Dm"d6- | [1 d4 A2 :|[2 d6 ||
+|:\
+"Dm"DE F2 A2 | d2 f3 d | "A7" d2 ^c4- | c4 A2 |\
+e2 ^c3 A | e2 ^c3 A | "Dm"G2 F4- | F6 |
+"Dm"D2 F2 A2 | d2 f2 e2 | "D7"d2 c3 B | "Gm"G6 |\
+"A7"A3 B ^cd | e2 f4 |[1 "Dm"d6- | d6 :|2 "Dm"d3 d AF | D4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Ukrainer Chosid'l   [Dm]
+S: transcription by Steve Rauch
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+R: khusidl
+M: 4/4
+L: 1/16
+K: Dm
+"A"\
+|: "Dm"D2 d4 Ac "Gm"B2A2 G4 | "A7"F2 G4 A2 "Dm"F2E2 D4 |\
+[1 "Dm"D2 d4 Ac "Gm"BcBA G^FGB | "Dm"A4 d4 f4 d4 :|\
+[2 "Gm"F2 G4 F2 "A7"AGF2 FED^C | "Dm"D8 z4 |]
+"B"\
+|: "C7"C4 |\
+"F"c4 B2A2 A^GAc F4 | "F"c4 B2A2 A^GAc F4 |\
+"F"A2A2 G2F2 A2A2 G2F2 | "F"FEF2 A^GA2 c=Bc2 f4 |
+"F"z2f2 e2d2 c2B2 A4 | "Bb"z2d2 c2B2 "F"A2G2 F4 |\
+"Gm"F2 G4 F2 "A7"AGF2 FED^C |[1 "Dm"D8 z4 :|[2 "Dm"D8 z2A,2D2F2 |][K:=B]
+K: ^G
+"C"\
+|::: "Dm"A4 G2F2 G2A2 G2F2 | "Dm"G2A2 G2F2 AGF2 FED2 |\
+[1,3 "Dm"z2A2 G2F2 G2A2 B2c2 | B2 A12 z2 :|\
+[2,4 "Dm"z2F2 E2D2 "A7"^C2A,2 C2E2 | "Dm"D12 z4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Yos'l Yos'l [Dm]
+M: 2/4
+L: 1/8
+K: Dm
+A,DF \
+| "Dm"A2 "Gm"B2 | "Dm"AA "A7"GF | "Dm"B A3 | zA,DF \
+| "Dm"A2 "Gm"B2 | "Dm"AG BA | "A7(Gm)"G4 | "A7"zA,^CE |
+| "A7"G2 A2 | "(Gm)"GG FE | "A7"G G3 | zA,^CE \
+| "A7"G2 A2 | GF AG | "Dm"F4 | zA,DF |
+| "Dm"A2 "Gm"B2 | "Dm"AA "A7"GF | "Dm"B A3 | zA,DF \
+| "Dm"A2 d2 | "D7"cB dc | "Gm"B4- | B ||
+|: ABc \
+| "Gm"dd dd | d2 cB | "Dm"AA AA | A2 GF \
+| "(A7)"A2 E2 | "A7"GG FE |1 "Dm"A4- | A :|2 "Dm"D4- | D :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Varshaver Freylekhs
+T: Warsaw Freylach
+M: 2/4
+L: 1/8
+B: Henry Sapoznik "The Compleat Klezmer" 1987
+K: _B_e^F
+|:"Dm"A, D2 F | AD "Gm"_BD | "Dm"AD "Ddim"GD | "Dm"(3FED A2 \
+| A,D2F | GA Bc | (3Bcd (3cBA | AGF "A7"A2 |
+| "Dm"A, D2 F | AD "Gm"_BD | "Dm"AD "Ddim"GD | "Dm"(3FED A2 \
+| "A7"A,B, ^CD | EF GA | (3AGF (3FED | "Dm"D4 :|
+|: "Dm"B/d/ c2 B | d2 (3cBA | G/B/ A2 G | (3AGF (3FED \
+| "Dm"B/d/ c2 B | d2 (3cBA | G/B/ A3 | d4 |
+| "Dm"B/d/ c2 B | d2 (3cBA | G/B/ A2 G | (3AGF (3FED \
+| "A7"A,B, ^CD | EF GA | (3AGF (3FED | "Dm"D4 :|[K:=G]
+K:Dmix
+|: "D"D F2 A | GF A2 | A>B (3cBA | GF A2 \
+| D F2 A | GF A2 | "A7"E>F (3GFE | "D"D4 :|

@@ -1,0 +1,42 @@
+X: 173
+T: Hora din campie
+O: Romania
+Z: Birgitt Karlson
+M: 6/8
+L: 1/8
+Q:1/4=60
+K: DPhr
+V:1
+%%MIDI program 71
+%%MIDI control 7 102
+ D2  G D3/2C/E             |[M:2/4]  GG  G/F/F    |\
+ cB  A/G/c                 |[M: 6/8]  F2  E  D D2 |
+V:2
+%%MIDI program 71
+%%MIDI control 7 70
+ x6                        |[M:2/4]x4             |\
+ x4                        |[M:6/8]x6             |
+V:3
+%%MIDI program 71
+%%MIDI control 7 70
+ x6                        |[M:2/4]x4             |\
+ x4                        |[M:6/8]x6             |
+P:B
+V:1
+ [M:6/8]A2 B/A/ G3/2F/B/A/ |[M:2/4] AG/F/ FG      |\
+ [M:6/8] A2 B/A/G3/2 F/B/A/|[M:2/4] AG/F/ F=E     |
+V:2 octave-1
+ [M:6/8]c2 c _d2 d         |[M:2/4] cB/A/ AB      |\
+ [M:6/8]c2 c _d2 d         |[M:2/4]cB/A/ AB       |
+V:3 octave-1
+ [M:6/8]F2 F B2 B          |[M:2/4] FF FF         |\
+ [M:6/8] F2 F B2 B         |[M:2/4]FF FG          |
+V:1
+ [M:6/8]D2 G D3/2C/D       |[M:2/4]GG G/F/F       |\
+ cB A/G/c                  |[M:6/8]F2EDD2         |
+V:2
+ [M:6/8]A2 A B2 B          |[M:2/4]BB BA          |\
+ =ee fe                    |[M:6/8]f2 e d d2      |
+V:3
+ [M:6/8]F2 F G2 G          |[M:2/4]GG FF          |\
+ cc cc                     |[M:6/8] c2 c A A2     |

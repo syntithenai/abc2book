@@ -1,0 +1,32 @@
+X: 20803
+T: COQUETTE SETT (tune 3)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.80 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+e/f/ |\
+gag dfe | c3 Gce | dd^c ddc | dag fd^d |\
+eag dfe | c3 Gce | dag fde | c2e c2 H|]
+B/c/ |\
+d^fg efg | dba g^fg | ade ded | d^fg dBc |\
+d^fg efg | dbg g^fg | ade ded | c2e "^D.C."c2 |]
+c/d/ |\
+e2e agf | e3 edc | B2c dcB | cdB Acd |\
+e2e agf | e3 edc | B2c dBc | A3- "^D.C."A2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two back to back,
+%% partners the same,
+%% -- balance four and turn,
+%% ladies chain,
+%% promenade four,
+%% -- next two back to back, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,44 @@
+X: 1850
+T: Fox Chase
+B: O'Neill's 1850 #1850
+Z: "collected by Tuohy"
+Z: should G in 2nd bar of first Horns part be sharp?
+Z: Bob Safranek, rjs@gsp.org
+M: C
+L: 1/8
+K: G	% and D
+(DE) \
+| G2GB d2d2 | dedB d3z | G2GB (ed)BG | A4 G2 ((3def) |\
+| g2(fe) f2(ed) | (ed)BG A2(GE) | GABG A^GAB | G4 G2 :|
+|| (DE) \
+|  G2GA B2B2 | c2c2 B2B2 | c2c2 B2BG | A4 G2 ((3def) |\
+|  g3a (gf)(ed) | (ed)(BG) A2(GE) | GABG A^GAB | G4 G2z2 ||
+|| G2GB d2g2 | e2g2 d2g2 | G2GB dedB | A4 G2 ((3def) |\
+| (gf)(ga) (gf)(ed) | e2dB A2GE | GABG A^GAB | G4 G2z2 ||
+|| DEGA .B.G.G.G | .A.G.G.G .B.G.G.G | AGBG cGBG | A4 G2 ((3def) |\
+|  g2ba (gf)(ed) | (ed)(BG) A2(GE) | GABG A^GAB | G4 G2z2 ||
+|| "Horns"\
+   A3 (^G/A/) A3 (G/A/) | A3 G/A/ A3 G/A/ | d3 ^c/d/ d3 c/d/ | d3 ^c/d/ d3 c/d/ | F/E/ F3 F/E/ F3 | F/E/ F3 F/E/ F3 |
+L:1/16
+| "Cry of the hounds"\
+   FDED FDED FDED FDED | FDdD FDED FDED FDGD | fded fded fded fded | fdgd fded fdgd fded |
+| gdgd fdfd gdgd fdfd | .g2.g2.g2z2 .f2.f2.f2z2 | .e2.e2.e2z2 .f2.f2.f2z2 |\
+[L:1/8]"Horns"\
+   A3 ^G/A/ A3 G/A/ | A3 ^G/A/ A3 ^G/A/ | d3 ^c/d/ d3 c/d/ | d3 ^c/d/ d3 ((3A/B/c/) ||[K:D]
+||[M:3/4]\
+   d2 F2 A2 | d4 fe | d2 F2 A2 | {d}=c4 (BA) | B2 F2 A2 | B2 dc BA | B2 F2 A2 | B4 A2 | F2 d2 d2 | F2 (dc) (BA) |
+| (BdcBAG) | F4 (FE) | D2 F2 A2 | B4 (ed) | c2 A2 c2 | d4 || (de) | f2 f2 (af) | f2 e2 d2 | f2 d2 B2 | B4 A2 | f2 f2 (af) |
+|  f2 e2 d2 | (dc) (de) (fd) | e4 A2 | A2 d2 d2 | F2 (dc) (BA) | (BdcBAG) | F4 (FE) | D2 F2 A2 | B4 ed | c2 A2 c2 | d4 ||\
+[K:G]
+||[M:C] D2 \
+|  GABc d2d2 | dedB d2BA | GABc dedB | A4 G2 || ((3def) | g2g2 f2ed | g2B2 A2GE | GABG A^GAB | G4 G2z2 ||
+|: [M:6/8]\
+   DEF DEF | DEF DEF | DEF DEF | DEF DEF ::\
+[M:C]\
+   DEFE DEFE | DEFE DEFE | DEFE DEFE | DEFE DEFE :|
+|  GABc d2d2 | dedB d2(BA) | GABc dedB | A4 G2 || ((3def) | g2g2 f2ed | g2B2 A2(GE) | GABG A^GAB | G4 G2z2 ||[K:D]
+|: [M:9/8]\
+   (FGF) F2D G2E | (FGF) F2D E2D | (FGF) F2D G2B | (AFD) D2F E2D \
+:: (BcB) (BAG) (FGA) | B2E E2F G2B | (ABc) (dcB) (ABc) | d2D D2F E2D :|
+|: (fgf) f2d g2e | (fgf) f2d e2d | (fgf) f2d g2b | (afd) d2f e2d \
+:: (gfe) (dcB) (AGF) | B2E E2F G2B | (ABc) (dcB) (ABc) | d2D D2F E2D :|

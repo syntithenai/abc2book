@@ -1,0 +1,23 @@
+X: 10073
+T: CARRON SIDE
+Q: "Slow."
+%R: air, strathspey
+N: This is version 1, for ABC software that doesn't understand oddly-positioned grace notes
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.7 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+{GA}B4 (TA3G) E4 G4 |{F} D4 c3B {B}A8 |\
+{GA}B4 (A3G) E4 ({G}G3A) | (B3c) (A3G/A/) G8 |\
+{GA}B3A G4 E4 ({G}G3D) | D4 (c3B) {B}A8 |\
+{G}B4 A3G E4 (G3A) | B4 (A3G) G8 |]
+[|\
+g4 (e/d/B3) d4 (B/A/G3) | g4 (e/d/B3) e8 |\
+=f4 e3d B4 (d/B/G3) | g4 (e/d/B3) {B}A8 |\
+g4 (e/d/B3) d4 B/A/G3 | g4 (b/a/g3) {f}e8 |\
+{e}d4 (B/A/G3) E4 (D/E/G3) | {GA}B4 A3G G8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

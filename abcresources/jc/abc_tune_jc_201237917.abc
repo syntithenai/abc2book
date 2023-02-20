@@ -1,0 +1,42 @@
+X: 2
+T: Bloomsbury Place.
+%R: reel
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Thomas Wilson & Willian Harmony "Four New Country Dances", 1812
+F: https://ia600206.us.archive.org/26/items/Wilson4NewCountryDances/Wilson%20-%204%20New%20Country%20Dances.pdf
+M: 2/4
+L: 1/16
+Q: "Allegretto"
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+cd |\
+eace AcEA | CEA,C E/F/G/A/ Bc/d/ |\
+eace AcEA | CEDG A2 :|
+|: BA |\
+GB Ee Ac Ee | GB Ee Ac Ee |\
+a/g/f/e/d/c/B/A/ Fg/f/e/d/c/B/ | A/G/F/E/ FG [A2C2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+[a2A2]e2[a2A2]e2 | [a2A2]e2 [e2E2]E2 |\
+[a2A2]e2[a2A2]e2 | [a2A2]e2 [a2A2] :|
+|: z2 |\
+[b2g2e2]d'2[a2e2]c'2 | [B2G2E2]d'2[a2e2]c'2 |\
+[c'2e2c2]a2[a2f2d2]d'2 | [b2g2e2]d'2 [a2e2A2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text  SINGLE FIGURE (each strain repeated)
+%%begintext align
+%% Cast off two Couple and back again |: cross
+%% over one Couple and half figure round the
+%% 3rd Couple |: .
+%%endtext
+%%center --
+%%text  DOUBLE FIGURE (the tune played twice tho' with rep.ts)
+%%begintext align
+%% Whole figure at top |: lead down the middle up
+%% again right and left |: turn corners |: hands 4
+%% round at bottom and half poussette at top |:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

@@ -1,0 +1,19 @@
+X: 187
+T: Bona Habanot
+O: Israel
+C: Uri Givon 1947
+N: Tikva Records T104: Dance for Fun, Ayala Goren, Shai Burstyn, Geula Zohar
+F: http://www.youtube.com/watch?v=UkAOf2HHq6A
+M: 2/4
+L: 1/8
+K: Bm
+Q:1/4=144
+%%MIDI program 20 Reed Organ
+%%MIDI bassprog 32 Acoustic Bass
+%%MIDI gchord fz
+"Em"E2E2|E2E2|"Bm"DEDC|D4|\
+"A"C2A,2|"Bm"D2C2|B,4-|B,4|:
+"Bm"B,3C|DEDC|"Bm"D2C2|"A"B,2A,2|\
+"A"D2E2|"Bm"CDCB,|"A"A,2B,2|"Bm"B,4::
+"A"E2E2|E2E2|"Bm"DEDC|D4|\
+"A"C2A,2|D2C2|[1"Bm"D4-|D4:|[2"Bm"B,4-|B,4|

@@ -1,0 +1,28 @@
+X: 1
+T: Pipers Round
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (80)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+GA |\
+B2G2 B2G2 | c6 e2 | d2cB cBAG | A6 GA |\
+B2G2 B2G2 | c6 e2 | d2cB cBAG | G6 :|
+|: ef |\
+gfed efg2 | c6 ef | gfed fga2 | A6 ef |\
+gfed efg2 | c6 e2 | d2cB cBAB | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. go with inside the 2d Cu. then on the out
+%% side of 3d Cu. and lead up to the top and cross over and
+%% cast off. the 2d Cu. do the same .| the 1st and 2d Man sett
+%% to their Partners and take hands to go quite round, lead
+%% between the 2d Cu. and cast up. then right and left hands half
+%% round :|
+%%endtext
+%%sep 1 8 500

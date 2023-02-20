@@ -1,0 +1,3099 @@
+
+X: 000
+T: PIONEER WESTERN FOLK TUNES
+T: As played & arranged by VIOLA "MOM" RUTH
+C: arr. Viola Ruth 1948
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948
+N: Found at the Arizona State University Library
+N: Gift from the library of Miles A. Dresskell
+N: Professor of Music A. S. U. 1945 - 1965
+%%text Used for Waltz Quadrille
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+K:
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 010
+T: Arizona's Pioneer Reunion March
+C: Arr by V R
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.1,2
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+K:
+%%begintext align
+%% The tunes on pages 1 and 2 are a march set for a special event.
+%% They are really just separate well-known tunes, and should be
+%% treated as the separate tunes that they are.
+%% The pickup notes were written as the end of the previous tune.
+%% Here they've been moved to the next tune to simplify picking out
+%% single tunes in the collection.
+%%endtext
+
+%%sep 1 1 500
+
+X: 011
+T: Dixie
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.1 #1
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+V: 1 name=1
+(dB) |:\
+G2G2 (GABc) | d2d2 d2B2 | e2e2 e3d | e3d (efga) |\
+b6 (gd) | g6 (dB) | d6 (AB) |[1 G6 (dB) :|[2 G6 MdMd |\
+g2b2 a2g2 | e2 g4 e2 |
+a6 d2 | a6 d2 |\
+g2b2 a2g2 | e2f2 g3e | d2B2 g3B | B2 A4 B2 |\
+G6 B2 | A6 e2 | d2 B2 g3b | a2 g4 B2 |\
+G6 B2 | A6 e2 | d2B2 b3g | a2 g6 |]
+
+%%sep 1 1 500
+
+X: 012
+T: Old Black Joe
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.1 #2
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+V: 1 name=" "
+B2 |\
+G4 B3c | d6 (MdMd) | e2g2 f2e2 | d8 |\
+G4 (B3c) | d6 (MdMd) | e2d2 c2B2 | A8 |\
+G4 (B3c) | d6 (MdMd) | e2g2 f2e2 | d6 g2 |
+f3g a2f2 | g2e2 d2e2 | B4 A4 | G6 d2 ||\
+B2d2 z2d2 | B2 d4 (MdMd) | e2g2 f2e2 | d6 g2 |\
+f3g a2f2 | g2e2 d2e2 | B4 A4 G4 |]
+
+%%sep 1 1 500
+
+X: 013
+T: My Old Kentucky Home
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.1 #3
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+V: 1 name=" "
+B2 |\
+B2 B2 G2 (AB) | (c>B) (ce) d3 c | c A2 G G2 (FG) | A6 (GA) |\
+B2 B2 G2 (AB) | c>B (ce)  d2 (GA) | (BG) (cB) A2 A>F | G6 B2 ||
+d3 B c2 e2 | d B3 z2 A2 | G3 A G2 E2 | G6 (MGMA) |\
+B2 B2 G2 (AB) | c>B (ce) d2 (GA) | (BG) (cB) A2 (AF) | G6 z2 |]
+
+%%sep 1 1 500
+
+X: 021
+T: Swanee River
+T: (Old Folks At Home)
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.2 #1
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+V: 1 name=" "
+[|\
+B4 MAMG MBMA | G2g2 eg3 | d4 B2G2 | (A>G) (AB) AMFMEMD |\
+B4 AGBA | G2g2 ce3 | d2(BG) MA2MA2 | G6 g2 ||
+f3g a2d2 | d3e d2g2 | g2e2 c2e2 | d3e .d.c.B.A |\
+B4 MAMGMBMA | G2g2 eg3 | d2(BG) A2A2 | G6 z2 ||
+
+%%sep 1 1 500
+
+X: 022
+T: Buffalo Gals
+T: (Old Folks At Home)
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.2 #2
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+V: 1 name=" "
+(3(DEF) |:\
+G2A2 B2dd | ed2B G2B2 | dc2A F2A2 | ed2d d2 (3(DEF) |\
+G2A2 B2d2 | ed2B G3B | d3c A2B2 |[1 G4- G2 (3(DEF) :|[2 G4- G2 ||
+gg |\
+g2f2e2d2 | ed2B G2B2 | dc2A F3A | ed2d d2(ef) |\
+g2f2e2d2 | ed2B G2(Bc) | d3c A2B2 | G6 |]
+
+%%sep 1 1 500
+
+X: 023
+T: Girl I Left Behind Me
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.2 #3
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+V: 1 name=" "
+g2 |\
+e2d2 B2G2 | ABAG E3F | G2G2 GABc | d4 B2(gf) |\
+e2d2 B2G2 | ABAG E3G | F2A2 D2(EF) | G4 G2 :|
+|: d2 |\
+B2d2e2f2 | g3d B2G2 | GABc d2(df) | g4 f2(gf) |\
+e2d2 B2G2 | ABAG E3G | F2A2 D2(EF) | G4 G2 :|
+
+%%sep 1 1 500
+
+X: 024
+T: The Mocking Bird
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.2 #4 (and p.3 top)
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Corrected several measures with other than 16 16th-notes.
+N: The 2nd part has the bar lines shifted left by 1 quarter-note from the common version.
+M: 4/4
+L: 1/16
+K: G
+V: 1 name=" "
+(B,C) |\
+[D6B,6] [D2B,2] [F4A,4] [E4C4] | [D2B,2] [G2-B,2-] [G8B,8] F2E2 |\
+D2 [F2-A,2-] [F8A,8] [E4C4] | [D2B,2] [G2-B,2-] [G8B,8] (B,2C2) |\
+[D6B,6] [D2B,2] F4 E4 | D2 [G2-B,2-] [G8B,8] A2B2 |
+Mc2Me2Me2Me2 (e2d2)(c2A2) | G12 (B2c2) ||\
+[d6F6] [d2F2] [f4d4] [e4c4] | d2 [g2-B2-] [g8B8] ([f2d2][e2c2]) |\
+d2 [f2-d2-] [f8d8] [e2c2] | d2 [g2-B2-] [g8B8] (B2c2) |
+[d8F8] [f4d4] [e4c4] | d2 [g2-B2-] [g8B8] (A2B2) |\
+(c2M[e2c2]M[e2c2]M[e2c2]) [e2c2]d2c2A2 | G12 (B2d2) ||\
+M[bd]M[bd]M[bd]M[bd] [b3d3]a a8 | [ac][ac][ac][ac] [a3c3][gB] [g6B6] g2 |
+"^gliss"[f2d2][a2f2][a3f3][af] a2c'2b2^a2 | b16 |\
+[bd][bd][bd][bd] [b3d3]a [a8f8] | [ac][ac][ac][ac] [a3c3]g [g8B8] |\
+(A,2B,2)(C2E2) ME2ME2ME2!2!D2 | (C2A,2) HG,8 |]
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 031
+T: Pig Town Fling
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.3 #1
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Both parts have final repeat but no initial repeat; fixed with added initial repeats.
+M: 2/4
+L: 1/16
+K: G
+V: 1 name=2
+|: G2ge d2ed | B2ge dcBA | G2ge d2ed | BGAF "^Fine"[G2B,2] :|
+|: Be2e e3g | fgaf gfed | Be2e e3g | fgaf "^D.C."g4 :|
+
+%%sep 1 1 500
+
+X: 032
+T: Pop Goes The Weasel
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.3 #2
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Both parts have final repeat but no initial repeat; fixed with added initial repeats.
+N: Bar 12 is only length 5/8; fixed by adding dot to first note (f).
+M: 6/8
+L: 1/8
+K: G
+V: 1 name=3
+(3(D/E/F/) |\
+G2G A2A | BdB G2 (3(D/E/F/) | G2G A2A | B3 G2 (3(D/E/F/) |\
+G2G A2A | BdB G3 | "^Pizz. 2nd finger."ezz (ABc) | B3 G3 :|
+|:\
+g2f e2g | faf d2(e/f/) | g2g e2g | f3 d2B |\
+c2B c2d | e2f g2z | "^gliss"y(ge'2)zz ABc | B3 G2 :|
+
+%%sep 1 1 500
+
+X: 033
+T: Opera Reel
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.3 #3
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Both parts have final repeat but no initial repeat; fixed with added initial repeats.
+N: Bar 12 is only length 5/8; fixed by adding dot to first note (f).
+N: Printed with 3 sharps; handwritten note says "Comp???? Key of D".
+N: The 4th part lack repeats, but it is usually repeated to get 32 bars.
+M: 2/4
+L: 1/16
+K: D
+V: 1 name=4
+|: D2D2 FAFA | D2D2 EDEF | D2D2 FDFA | BdAF E2E2 :|
+|: d2d2 dAFA | d2d2 egfe | d2d2 dAFA | BdAF E2E2 :|
+|: afaf gfge | faed cBA2 | afaf gfge | faec d2d2 :|
+[| defd efge | defd ecBA | defd efge | faec d2d2 |]
+
+%%sep 1 1 500
+
+X: 041
+T: Haste To The Wedding
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.4 #1
+Q: "Tempo Quadrille"
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+V: 1 name=5
+(F/G/) |\
+AFA Afe | dcd fdB |\
+AFA AGF | EFE E2(FG) |\
+AFA Afe | dcd fdB |\
+AFA Afe | d3 d2 :|
+|: (f/g/) |\
+afa afa | afa bgg |\
+geg geg | geg afg |\
+a3 f3 | ede fdB |\
+AFA Afe | d3 d2 :|
+
+%%sep 1 1 500
+
+X: 042
+T: Rakes Of The Mallow
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.4 #2
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+V: 1 name=6
+(3(DEF) |\
+"^^"G2B2"^^"G2B2 | "^^"G2B2 "^^"cBAG |\
+"^^"F2"^^"A2"^^"F2"^^"A2 | F2A2 (cBAF) |\
+G2B2G2B2 | GABc d4 |\
+cBAG FGAB | G2z2 G2 :|
+|: z2 |\
+g2fe d2c2 | B2c2 d4 |\
+g2fe d2c2 | B2c2 A4 |\
+g2fe d2c2 | B2c2 d4 |\
+cBAG FGAB | G4 G2 :|
+
+%%sep 1 1 500
+
+X: 043
+T: Soldier's Joy No1
+T: Or Kings Head
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.4 #3
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+V: 1 name=7
+(FG) |\
+AFDF AFDF | A2d2 d2(cB) |\
+AFDF AFDF | G2E2 E2(FG) |\
+AFDF AFDF | A2d2 d2(de) |
+fafd egec | d2d2 d2 :: (de) |\
+fdfd fagf | ecAc efge |\
+fdfd fagf | edcB A2(de) |
+fdfd fagf | ecAc efge |\
+fafd egec |[" " d4 d2 "^Final Ending":|\
+d2f2 d'4- | d'4 z4 |]
+
+%%sep 1 1 500
+
+X: 051
+T: Heel And Toe Polka
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.5 #1
+R: polka
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: "Fast"
+K: D
+V: 1 name=8
+|:\
+FFAA GGBB | A2f2 [fd][fd][fd][fd] |\
+A2[e2c2] [ec][ec][ec][ec] | A2[d2F2] [d4F4] \
+::\
+d2B2 BcdB | A2[F2A,2] [F4A,4] |\
+G2[E2C2] [EC][EC][EC][EC] |\
+[1 F2[D2D2] [D4D4] :|\
+["Final Ending" D2FA d2f2 | [d'8f8] |]
+
+%%sep 1 1 500
+
+X: 052
+T: Soldiers Joy No 2
+T: Best for Quadrille
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.5 #2
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has a final repeat but no initial repeat; fixed.
+N: The endings can be simplified by putting the pickup notes inside the initial repeats.
+M: 6/8
+L: 1/8
+K: D
+V: 1 name=9
+(A/B/) |:\
+"^^"[AD][AD][AF] "^^"[AD][AD][AF] | [A2F2]M[d-F] M[d2F2] (A/B/) | [AD][AD][AF] [AD][AD][AF] | [A2E2]M[AE-] M[A2E2] (A/B/) |\
+[AD][AD][AF] [AD][AD][AF] | [A2F2]M[d-F] M[d2F2]e | [fA][gA][aA] [eA][gA][eA] |1 [f2A2][dF] [d2F2] (A/B/) :|
+[2 [f2A2][dF] [d2F2]z |:\
+[fA][eA][fA] M[aA][gA][fA] | [ec][ec][ec] [g2B2][fd] | [fA][eA][fA] [aA][gA][eA] | dcB [A2F2][fA] |\
+[fA][eA][fA] [aA][gA][fA] | [ec][ec][ec] [g2B2][gB] | [fA][gA][aA] [eA][gA][eA] | [d3F3] [d2F2]z :|
+
+%%sep 1 1 500
+
+X: 053
+T: Spanish Polka or Texas Galop
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.5 #3
+R: polka, galop, march
+N: handwritten: Texas Quickstep [???]
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+V: 1 name=10
+|:\
+D2FA d2F2 | G2Bd g2B2 | A2ce a2c2 | edcB AGFE |\
+D2FA d2F2 | G2Bd g2B2 | A2ce a2c2 | d6 e2 :|
+|:\
+"^^"f4 "^^"g4 | agfe d4 | e2a2e2a2 | fedB A4 |\
+D2FA d2F2 | G2Bd g2B2 | A2ce a2c2 |
+edcB AGFE |\
+D2FA d2F2 | G2Bd g2B2 | A2ce a2c2 |1 d6 e2 :|2 d4 a4 | d'8 |]
+
+%%sep 1 1 500
+
+X: 061
+T: Schotische (Name Unknown)
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.6 #1
+R: shottish
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+V: 1 name=11
+|:\
+D2D2 B>AG>F | E2E2 c4 |\
+D>EF>G A>Bc>d | e>dd>^c d4 |\
+D2D2 B>AG>F | E2E2 c4 |
+D>EF>G A>B (3(cBA) | G2 B2 G2 :| B>c |\
+d>BG>B d>BG>D | F2(E>^D) E2(AB) |\
+c>AF>A c>AF>D |
+E2(D>^C) D2(B>c) |\
+d>BG>B d>BG>D | F2(E>^D) E2(AB) |\
+c>AF>D E2F2 | G2G2 G4 |]
+
+%%sep 1 1 500
+
+X: 062
+T: Little Brown Jug - Polka
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.6 #2
+R: polka, reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+V: 1 name=12
+[|"^Tempo Gay (Polka)"\
+F2[AF][AF] [AF][AF][AF][AF] | B2[B2G2] [B4G4] |\
+A2[cE][cE] [cE][cE][cE][cE] | A2[d2F2] [f4d4] |\
+F2[AF][AF] [AF][AF][AF][AF] | G2[B2G2] [B4G4] |\
+A2[c2E2] cBcd | e2[d2F2] [d4F4] |]
+[|\
+fgaf d4 | f2e2 g4 | g2c2 cdef | e2d2 f4 |\
+fgaf d4 | f2e2 g4 | "^gliss"{a}b2c2 cdef | e2d2 d4 |]
+
+%%sep 1 1 500
+
+X: 063
+T: Don't You Want To Go To Heaven, Uncle Joe?
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.6 #3
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+Q: "Quadrille"
+V: 1 name=13
+|: "^Fast"\
+GABc dBGA | B2BA B2A2 | GABc dBGB | A2AB A2z2 |\
+GABc dBGA | B2BA B2d2 | e3d efgd | B2A2 G2z2 :|
+|:\
+G2g2 efgd | B2BA B2A2 | G2g2 efge | a3b a4 |\
+G2g2 efgd | B2BA B2d2 | e3d efgd | B2A2 G4 :|
+|:\
+GG gg eegg | B2Bc B2A2 | GG gg eegg | a3b a4 |\
+GG gg eegg | B2BA B2d2 | e3d efgd | B2A2 G4 :|
+
+%%sep 1 1 500
+
+X: 071
+T: Wagoner
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.7 #1
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+V: 1 name=14
+|:\
+C2EF G2AB | cBAB cBc2 | D3D D2d2 | dcBc dcBA |\
+C2EF G2AB | cBAB cdef | g3^f gag=f | e2c2 c2 :|
+|: (gf) |\
+e2c2c2c2 | cdef gage | d2G2G2G2 | GABc d2(gf) |\
+e2c2c2c2 | cdef g2e2 | a3g abag | e2c2 c2 :|
+
+%%sep 1 1 500
+
+X: 072
+T: Eighth Of January
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.7 #2
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+V: 1 name=15
+|:\
+!1!e2"^Sul A"(ef) e2e2 | dedc A2(3(ABc) |\
+!1!d2d!2!e !1!d2(!1!A!2!B) | cAGE C4 ::\
+G2(GA) G2(EF) | GAGE D2(EF) |
+G2GA G2EF | GFED C2(EF) |\
+G2(GA) G2EF | GAGE D2(EF) |\
+G2GA G2EF | GFED C4 :|
+
+%%sep 1 1 500
+
+X: 073
+T: Get Away From The Federals
+T: Or Fall of Paris
+N: handwritten: Seneca Sq. Dance (plus an illegible squiggle)
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.7 #3
+R: march, reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Added rest before 2nd strain, to fix the rhythm.
+M: 2/4
+L: 1/16
+K: G
+V: 1 name=16
+G2 |\
+[BG][BG][BG][BG] [BG][BG][BG][BG] | d3B B3A | [BG][BG][BG][BG] [BG][BG][BG][BG] |\
+A3[GB,] [G3B,3]A | [BG][BG][BG][BG] [BG][BG][BG][BG] | d3B B3B | ABAG E2F2 | G4- G2 ||
+z2 |:\
+g2f2g2e2 | d2B2 G4 | gggg a2b2 | e3e e2(fg) | a2b2a3g |\
+dcBA G3G | [BG][BG][BG][BG] E2F2 |1 [G4B,4] [G2B,2](3(def) :|2 [G4B,4] [G2B,2] |]
+
+%%sep 1 1 500
+
+X: 081
+T: Rye Whiskey or Drunkards Hiccoughs
+T: Or Jack O'Diamonds
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.8 #1
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+V: 1 name=17
+"^Waltz"(GA) |:\
+B2 G2 (GE) | MD2 MB,2 MD2 | E2 G2 G2 | B4 (GA) |\
+B2 G2 (GE) | MD2 MB,2 MD2 | ME2 MG2 MA2 | G4 (GA) ::\
+B2 A2 (Bc) | d2 G2 A2 | B2 c2 B2 | A4 (GA) :|
+B2 G2 (GE) | MD2 B,2 MD2 | ME2 MG2 MA2 | G4 B,2\
+|:\
+C[EC] M[EC]M[EC]M[EC]M[EC] | B,[DB,] M[DB,]M[DB,]M[DB,]M[DB,] |\
+(E[GB,]) [G2B,2] [G2B,2] | [B4G4] B,2 |\
+C[EC] M[EC]M[EC]M[EC]M[EC] | B,[DB,] M[DB,]M[DB,]M[DB,]M[DB,] |\
+E2 G2 A2 | [G4B,4] :|
+
+%%sep 1 1 500
+
+X: 082
+T: Turkey In The Straw
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.8 #2
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The rhythm between the two strains is wrong; not fixed.
+M: 2/4
+L: 1/16
+K: G
+V: 1 name=18
+"^Quadrille"(BA) |\
+GFGA GDB,C | DEDB, D2GA | B2(Bc) BAGA | B2A2 AcBA |\
+GFGA GDB,C |
+DEDB, D2GA | BABc dBGA | BGAF G2 ::\
+Bd2d d2d2 | Bcde d4 |
+ce2e e2e2 | cdeg e2(3(def) |\
+.g2.g2.d2.d2 | MB2MB2 A2(GA) | Bd2e dBGA | BGAF G4 :|
+
+%%sep 1 1 500
+
+X: 083
+T: Devils Dream
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.8 #3
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: It's not obvious why that last G is sharped.
+M: 2/4
+L: 1/16
+K: A
+V: 1 name=19
+"Fast"e2 |\
+agae agae | agae fedc | dfBf "^Rocking bow"dfBf dfBf agfe | agae agae |
+agae fedc | dfed cABG | E2A2 A3e :: "^Rocking bow"ceAe ceAe | ceAe fedc | dfBf dfBf |
+dfBf agfe | ceAe ceAe | ceAe fedc | dfed cAB^G | E2A2 A,2 :|
+
+%%sep 1 1 500
+
+X: 091
+T: Money Musk
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.9 #1
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: This is really two 4-bar phrases.
+M: 2/8
+L: 1/16
+K: A
+V: 1 name=" "
+"Lively"f |\
+eAcA eAdf | eAcA Bcdf | eAcd eaga | fdBe cAAf |\
+eAcA eAdf |
+eAcA Bcdf |eAcd eaga | fdBe cAAe \
+:: "^Rocking bow"\
+aeca eace | aedb caBg |
+aeca eaga | fdBe cAAe |\
+aeca eace | aedb caBg | aeca eaga | fdBe cAA :|
+
+%%sep 1 1 500
+
+X: 092
+T: Lamplighter's Hornpipe
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.9 #2
+R: hornpipe, reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Shortened the initial pickup notes to fix the rhythm of repeats.
+N: The 2nd strain has no initial repeat, but 2 final repeat; fixed to get the usual 32 bars.
+N: The endings can be moved to the (g/a/) pickup notes to the start of the 2nd strain, eliminating alternate endings.
+M: 2/8
+L: 1/16
+K: A
+V: 1 name=" "
+"Lively"(cd) |\
+ecec eagf | ecec eagf | ecec fedc | d2B2 B2(cd) |\
+ecec eagf |
+ecec eagf | efde cdBc | A2A2A2 :: (cd) |\
+edcd e2(fe) | dcBc d2(ed) |
+cAcA dcBA | B2B2B2(cd) |\
+edcd e2(fe) | dcBc d2cd | eagf edcB | A2A2A2 :|
+
+%%sep 1 1 500
+
+X: 093
+T: Irish Washer Women
+T: (Virginia Reel)
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.9 #3
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Shortened the initial pickup notes to fix the rhythm of repeats.
+N: The 2nd strain has no initial repeat, but 2 final repeat; fixed to get the usual 32 bars.
+N: The endings can be moved to the (g/a/) pickup notes to the start of the 2nd strain, eliminating alternate endings.
+M: 6/8
+L: 1/8
+K: G
+V: 1 name=" "
+"Moderate"y\
+|: (d/c/) |\
+"^^"BGG "^^"DGG | BGB dcB | cAA DAA | cBc edc |\
+BGG DGG | BGB dcB |
+cBc Adc |1 BGG G2 :|2 BGG G2 (g/a/) \
+|:\
+bgg dgg | bgb bag | aff dff |
+fdf agf |\
+egg dgg | cgg Bgg | dcB Adc |1 BGG G2 (g/a/) :|2 BGG H[G2B,2] |]
+%%text Won the states championship 1926
+
+%%sep 1 1 500
+
+X: 101
+T: Fischer's Hornpipe
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.10 #1
+R: hornpipe, reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain isn't repeated in this version.
+M: 2/4
+L: 1/16
+K:D
+V: 1 name=23
+(3(ABc) |\
+dAFD GBAG | FDFD GBAG | FDFD GEGE | FDFD E2(3(ABc) |\
+dAFD GBAG |
+FDFD GBAG | FGAB cdec | d2d2 d2 :|\
+(cd) |\
+ecAc efge | fdAd fagf |
+ecAc efge | fdcB A2(dc) |\
+BGDG Bdcd | AFDF Adcd | BdcB AGFE | D2d2d2 |]
+
+%%sep 1 1 500
+
+X: 102
+T: Flop Eared Mule
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.10 #2
+R: reel, hornpipe
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+V: 1 name=24
+|:\
+dedB  dedB | dedB G2G2 | FGAB cBcA | GABc d2d2 |\
+dedB  dedB |
+dedB G2G2 | FGAB cAFD | G2G2G2z2 ::\
+"^gliss sul E"\
+{g}.[b2d2].[b2d2].[g2B2].[g2B2] | dedB MG2MG2 |
+FGAB cBcA | GABc .d2.d2 |\
+"^gliss sul E"\
+{g}.[b2d2].[b2d2].[g2B2].[g2B2] | dedB MG2MG2 |\
+FGAB cAFD | G2G2G2z2 :|
+
+%%sep 1 1 500
+
+X: 103
+T: Climbing The Golden Stairs
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.10 #3
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Bars 10,13 have an extra 16th-note; not fixed.
+N: The rhythms at repeats aren't correct; not fixed.
+M: 2/4
+L: 1/16
+K: D
+V: 1 name=25
+|:\
+dddd fa3 | dddd fa3 | dddd .f2.a2 | e6 (ef) |\
+gfed c2(ef) | gfed .c.e | aa2a .g2.e2 | d6 (3(AB.c) :|
+|:\
+d2f2b3a | a2 g6 g | c2e2a3^g | a6 (3ABc |\
+d2f2b3a | a2 g6 g | aaaa g3e |1 d4- d2 (ABc) :|2 d4- d2 |]
+
+%%sep 1 1 500
+
+X: 111
+T: Blue Bird Schottische
+N: handwritten at top: Hi Lo Schottish
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.11 #1
+R: shottish
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+V: 1 name=26
+%%slurgraces 1
+%%graceslurs 1
+[|\
+D>FA>B A2{fg}f2 | D>FA>B A2{fg}f2 |\
+(3(ggg) (3(fff) (3(eee) (3(ddd) | (3(ccc) (3(BBB) |\
+(3(AAA) (3(GGG) | F>GA>B A2{fg}f2 |
+D>FA>B A2{fg}f2 | (3(ggg) (3(fff) e>AB>c |\
+.d2.d2 "^Fine".d2 |]| (cd) ||\
+e2(3(ef^g) a>ga2 | c>Bc>d e>^de2 |\
+(3(BBB) e2 (3(BBB) e2 |
+(3(ccc) (3(BBB) A2(cd) |\
+e2(3(ef^g) a>^ga2 | c>Bc>d e>^de2 |\
+e>ag>f e>dc>B | A2A2 A2(FE) |]
+
+%%sep 1 1 500
+
+X: 112
+T: Old Missouri*
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.11 #2
+R: march, polka
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+V: 1 name=27
+"Lively"(A/B/c/) |\
+dAFA | dD D(3(A/B/c/) | dAFA | dE E(3(A/B/c/) | dAFA |
+"^^"Bg"^^"fe | c/B/c/B/ Af | fd d :: (f/g/) | afge | fd d(f/g/) |
+afga | b>e e(f/g/) | afge | f/d/e/f/ ec | dB Af | fd d :|
+%%text * Also called, Bug Ran Away With A Pillow, - I love Somebody, - I Love A Lassie O!
+%%text handwritten: & Too Young to Marry - My Love is But a Lassie Yet
+%%text handwritten: Sweet 16    ??? Nights in a ??? ???? ...
+
+%%sep 1 1 500
+
+X: 113
+T: If I Had A Bonnie Bonnet Or Spanish Waltz
+T: (New Way)
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.11 #3
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+V: 1 name=28
+MDMD |\
+G3 (FGA) | B2 G2 (B,C) | D2 E2 B,2 | D2 C2 A,2 |\
+A3 (GAB) | cBAGFE | D2 (F2 E2) | D4 MDMD |\
+G3 (FGA) | B2 G2 (B,C) | D2 E2 B,2 | D2 C2 A,2 |
+A3 (GAB) | cBAGFE | D2 (E2 F2) | G6 :|\
+"^^"[e2c2] [ec][ec][ec][ec] | [d2F2] [dF][dF][dF][dF] | [c2E2] [cE][cE][cF][cF] | [B6G6] |\
+[A3F3] (GAB) | c2 A2 (FE) | D2 E2 F2 | [G4B,4] |]
+
+%%sep 1 1 500
+
+X: 121
+T: If I Had A Bonnie Bonnet, Old Spanish Waltz
+T: (Old Way)
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.12 #1
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+V: 1 name="29"
+MD-MD |\
+G3 (FGA) | B2 G2 (B,C) | D2 E2 B,2 | D2 C2 A,2 |\
+A3 (GAB) | cBAGFE | D2 F2 E2 | D4 MD-MD |\
+G3 (FGA) | B2 G2 (B,C) |
+D2 E2 B,2 | D2 C2 A,2 |\
+A3 (^GAB) | cBAGFE | D2 E2 F2 | G4 MB-MB ||\
+B2 G2 MB-MB | B2 G2 B-B | (B2 c2 d2) | e2 d2 MA-MA |\
+A2 F2 MA-MA |
+A2 F2 MA-MA | A2 B2 ^c2 | d4 MD-MD |\
+G3 (FGA) | B2 G2 (B,C) | D2 E2 B,2 | D2 C2 A,2 |\
+A3 (GAB) | cB AGFE | D2 E2 F2 | G4 |]
+
+%%sep 1 1 500
+
+X: 122
+T: Arkansas Traveler
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.12 #2
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+V: 1 name="30"
+H[D4D4] |:\
+DEFD B,2B,2 | A,A,A,A, D2D2 |\
+EEEE F2F2 | EFED B,2A,2 |\
+DEFD B,2B,2 |
+A,A,A,A, D2D2 |\
+dcdA BdAG | FDEC D2 :: (fg) |\
+agfa gfeg | fedf ecA2 |
+dcdf e2(3(ABc) | dcdf e2(fg) |\
+agfa gfeg | fedf ecA2 |\
+dcdA BdAG | FDEC D2 :|
+
+%%sep 1 1 500
+
+X: 123
+T: Rye Waltz
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.12 #3
+R: shottish+waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+V: 1 name="31"
+Q: "Moderate (Don't drag)
+|:\
+A>A A<f e>d e<f | A>AB>A d4 :|[M:3/4] (f/g/) | (a4f2) |\
+(d4f2) | (e4d2) | e4(fg) | (a4f2) |
+(g4a2) | b6- | b4-Mb2 |\
+(a4f2) | (g4e2) | (f4d2) |[M:2/4] e<fz2 ||[M:4/4] A>AB>A d4 :|
+
+%%sep 1 1 500
+
+X: 131
+T: Chamois O'Brien
+T: (Pioneers Favorite Waltz)
+N: "Shamus O'Brien" is pencilled in at the top.
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.13 #1
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+V: 1 name="32"
+Md-Md ||\
+(e2d2B2) | (G2A2B2) | (E2G2E2) | D4MD-MD |\
+G3(FGB) | (e2d2B2) | A6- | A4Md-Md ||\
+(e2d2B2) | (G2A2B2) | (E2F2G2) | e3(fge) |
+(d2B2G2) | (A2E2F2) | G6- | G4Md-Md |:\
+e3(def) | (g2f2e2) | f3(efd) | B4Md-Md |\
+e3(def) | (g2f2e2) | f6- | f4(ge) ||
+(d2B2A2) | (G2A2B2) | (E2F2G2) | e3(fge) |\
+(d2B2G2) | (A2E2F2) |[1 G6- | G4Md-Md :|\
+["Final Ending"G6- | G2B2d2 | g6- | g4 |]
+
+%%sep 1 1 500
+
+X: 132
+T: Mississippi Sawyer
+T: Or My New Shoes
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.13 #2
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: "Fast (quadrille)"
+K: D
+V: 1 name="33"
+fg |\
+a2a^g a2ag | a2a2 bagf | g2gf g2gf | g2g2 agfe |\
+f2fe f2fe | defg a2a2 | f2f2 efe2 | Md4 Md2 :: (3(ABc) |
+"^(Rocking bow)"\
+[dF][dF][fd][fd] [dF][dF][fd][fd] | defg agfe | [cE][cE][ec][ec] [cE][cE][ec][ec] | cdef gfe2 |\
+[dF][dF][fd][fd] [dF][dF][fd][fd] | defg a2a2 | f2f2 efe2 | d4- d2 :|
+
+%%sep 1 1 500
+
+X: 133
+T: La Varsouvienne
+T: Or My New Shoes
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.13 #3
+R: mazurka, varsouvienne
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4	% The book has 4/4, but that's obviously wrong.
+L: 1/8
+Q: "(Moderate Don't drag)"
+K: D
+V: 1 name="34"
+A>d | "^^"f>g "^^"f2 A>d | "^^"f>g "^^"f2 "_V"A>d | "^^"ff "^^"g2 "^^"f2 | "^^"e4 A>c | "^^"e>f "^^"e2 A>c |
+"^^"e>f "^^"e2 "_V"A>c | MeMe Mf2 Me2 | "^^"d3 ("_V"ABc) || Md2 Mc2 MB2 | "^^"A4 "^^"e>f | "^^"g2 "^^"f2 "^^"e2 |
+"^^"a3 ("_V"ABc) | Md2 Mc2 MB2 | "_V"A4 (MeMf) | "^^"g2 MB2 Mc2 | "^^"d4 |]
+
+%%sep 1 1 500
+
+X: 141
+T: Mazurka
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.14 #1
+R: mazurka
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: "(Slow drag 3 beats)"
+K: G
+V: 1 name="35"
+|:\
+B>d b2 a2 | g4 (B>c) |\
+("^^"d>e) ("^^"d>e) ("^^"d>e) | "^^"d3 ("^^"cBd) |\
+"^^"b2 "^^"a2 ("^^"g>d) | "^^"B4 ("^^"B>c) |\
+("^^"d>e) ("^^"d>e) ("^^"d>c) | A>B G4 ||\
+(MgMg) "^^"f2 e2 |
+(Me>Me) "^^"d2 ("^^"B>c) |\
+("^^"Md>Md) "^^"c2 A2 | (Me>Me) ("^^"d2 B2) |\
+("^^"Mg>Mg) ("^^"f2 e2) | ("^^"Me>Me) "^^"d2 ("^^"B>c) |\
+("^^"Md>Md) "^^"c2 A2 |[" "G4 d>c ||\
+[" " G6- | G2 |]
+
+%%sep 1 1 500
+
+X: 142
+T: Everything Is Pleasant Schottische
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.14 #2
+R: shottish
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+Q: "Lively"
+K: D
+V: 1 name="36"
+(fg) |:\
+a>fb>f a>fe>f | e2[B2G2] [B2G2] z2 |\
+[c2E2][c2E2] c>A B>c |[1 e2d2 d2(fg) :|\
+[2 e2d2 d2f>a ||\
+d'2 d'2 d'>a a>a | (c'>b) (b>^a) b4 |
+c'2 c'2 (c'>a) Ma>a | (b>a) (a>^g) a2 (b>c') |\
+d'2 d'2 (d'>a) a>a | c'>b b>^a b4 |\
+a>d' c'>b a>g f>e | d2 f2 d2 :|
+
+%%sep 1 1 500
+
+X: 143
+T: The Blind Girl
+C: Composer Unknown
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.14 #3
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+Q: "Waltz"
+K: C
+V: 1 name="37"
+C |\
+(E2G) | (E2D) | C2A, | C2G | A2-A | c2-c | G3- | G2G |\
+(c2d) | (c2A) | (G2A) | (E2C) | (G2A) | (E2D) | C3- | C2 |]
+%%text (Change to Key of F) (Words available) variety
+
+%%sep 1 1 500
+
+X: 144
+T: Ricketts Hornpipe
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.14 #4
+R: hornpipe, reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: "Fast"
+K: D
+V: 1 name="38"
+|: (3(ABc) |\
+dcdA FAdf | edcB A2g2 | fafd egec | edcB Agfe | dcdA FAdf |
+edcB A2g2 | fafd egec | d2d2d2 :: (fg) | afaf d2(ga) | bgbg e2(fg) |
+afba gfed | edcB Agfe | dcdA FAdf | edcB A2g2 | fafd egec | d2d2d2 :|
+
+%%sep 1 1 500
+
+X: 151
+T: Old Dan Tucker
+T: (Use For March For Dan Tucker Waltz)
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.15 #1
+R: march, reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="39"
+(3(DEF) |\
+G2G2 GFED | [G2B,2][G2B,2][G2B,2](3(DEF) |\
+[G2B,2][G2B,2] G2[BG][BG] | [D2B,2][D2B,2] G2(EF) |\
+[G2B,2][G2B,2] [GB,][GB,]EF | [G2B,2][G2B,2] [G2B,2](EF) |
+[G2B,2][GB,][GB,] [G2B,2][B2G2] | D2D2G3G ||\
+B3B B2B2 | A2G2EG3 |\
+[A2F2][A2F2][B3G3][BG] | [D2B,2][D2B,2]EG3 |]
+
+%%sep 1 1 500
+
+X: 152
+T: Whistling Rufus
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.15 #2
+R: reel, march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="40"
+(3(DEF) |\
+G2(3ABc d2(ef) | g2g2 ed3 | G3A BAGB | d4- d2 (3(DEF) |\
+G2(3(ABc) d2(ef) | g2g2 ed3 | a3b ageg | a4- a2 (3(DEF) |
+G2(3(ABc) d2(ef) | g2g2ed3 | G3A BAGB | d6 d2 |\
+gg2g g2e2 | dd2d d2c2 | B4 A4 | G6 B2 |:\
+A2G2 d4 | d6 e2 | d2B2 F4 | F6 c2 |
+B2A2 Me4 | e6 (ef) | (gfe2) B4 | B6 B2 |\
+A2G2 Md4 | d6 e2 | "^^"d3B Mc4 | c6 c2 |\
+B2G2 B4 | c2B2 E4 |1 F4 G4- | G6 B2 :|2 F2 G4- | G6 |]
+
+%%sep 1 1 500
+
+X: 153
+T: Show Me The Way To Go Home
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.15 #3
+R: reel, march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Bar 4 has extra notes; not fixed.
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="41"
+(3(DEF) |\
+.G2.A2.B2.c2 | d^cde (dB)G2 |\
+ge3 gd3 | ge3 gd3 (3(DEF) |\
+.G2.A2.B2.c2 | d^cde (dB)G2 |
+AB^cd e3g | fde^c d2 (3(DEF) |\
+.G2.A2.B2.c2 | d^cde (dB)G2 |\
+ge3 gd3 | ge3 gd2d |
+[gd][gd][ed]d [gd][gd][ed]d | [gd][gd][ed]d [g2d2]d2 |\
+gg3 gaga | g4- g2d2 ::\
+[gd][gd]ed [gd][gd]ed | [gd][gd]ed [g2d2]d2 |
+[gd][gd]ed [gd][g2d2][gd] | a3b aged |\
+[gd][gd]ed [gd][gd]ed | [gd][gd]ed "^^"[g2d2]d2 |\
+[gd][g3d3] gaga | g4- g2 :|
+
+%%sep 1 1 500
+
+X: 161
+T: Durang's Hornpipe
+T: (Old Way)
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.16 #1
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+V: 1 name="42"
+|:\
+MC2E2MC2E2 | Ac2A GFED | MC2E2MC2E2 | D3D D4 |\
+MC2E2MC2E2 | Ac2A GFED | eg2e ged2 | [c4E4] [c4E4] :|
+|:\
+eg2e dccc | Ac2A GFED | MF2F2ME2E2 | D3E D4 |\
+eg2e dccc | Ac2A GFED | eg2e ged2 | [c4E4] [c4E4] :|
+
+%%sep 1 1 500
+
+X: 162
+T: Taters In The Sandy Land
+N: "(Great Big)" pencilled in before 1st title
+T: (or No Use Kicking My Dog Around)
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.16 #2
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The rhythms of repeats isn't quite right; not fixed.
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="43"
+|:\
+Md2MB2 AAGG | "^^"B3B "^^"B2(Bc) | "^^"ddBB AAEF | G3G G2(Bc) |\
+ddBB AAGG | B3B B2(Bc) | ddBB AAEF |
+G3G G2 :: (ef) | .g2.f2.e2.d2 | "^^"e3e "^^"e4 |\
+"^^"efge dBAG | "^^"d3d "^^"d2(fg) | Mg2Mf2Me2Md2 | e3e e4 |
+efge dBAG | d3d d2Bc | .d2.B2.A2.G2 | B3B B2(Bc) |\
+ddBB AAEF |[" " G3G G2 :|[" " G3G G4- | G4 |]
+
+%%sep 1 1 500
+
+X: 163
+T: Jumping Cactus
+T: (or Angleworm Wiggle)
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.16 #3
+R: reel, polka, march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Beam added in bar 12 to fix the small notes' rhythm to match bars 10 and 6.
+M: 2/4
+L: 1/16
+Q: "Quadrille Lively"
+K: G
+V: 1 name="44"
+|:\
+[bd][bd][bd][bd] M[b2d2][a2c2] | [gB][gB][gB][gB] [g2B2][f2d2] |\
+[ec][ec][ec][ec] [e2c2][d2F2] | c2B2 A4 |\
+[ac][ac][ac][ac] [a2c2][g2B2] | [f6d6] (fe) |\
+.d2.d2.e2.f2 | [g4-B4] [g4B4] :|
+|:\
+G2.A2.B2.c2 | [d6F6] Bc | d2(Bc) d2B2 | [A6F6] AA |\
+.D2.F2.A2.c2 | [e6c6] d2 | f3e d2(ef) | g2g2 g2z2 :|
+
+%%sep 1 1 500
+
+X: 164
+T: Schottische
+T: (Name Unknown)
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.16 #4
+R: shottish
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+V: 1 name="45"
+[|\
+D>FA>d f>ed>A | c>BB>^A B4 |\
+(3(cec) A2(3(cec) A>f | f>dd>c d4 ||
+||\
+(3(ABA) F2 (3(ABA) F>d | c>BB>^A B4 |\
+(3(cec) A2 (3(cec) A>f | f>dd>c d4 |]
+
+%%sep 1 1 500
+
+X: 171
+T: Blacksmiths Quadrille
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.17 #1
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The C notes in the last few bars should probably be natural, too. The 2nd strain is in G major.
+M: 6/8
+L: 1/8
+K: D
+V: 1 name="46"
+|: "^Lively"\
+[AF][AF][AF] [BG][BG][BG] | [AF][AF][AF] f2(f/g/) | [ac][ac][ac] [ec][ec][ec] | [ac][ac][ac] [f3d3] |\
+[AF][AF][AF] [BG][BG][BG] | [AF][AF][AF] f(fg) | [ac][ac][ac] e(fe) | [d3F3] [dF](ef) :|
+|:\
+g3- g(fe) | d3- d(=cB) | (AG=c) (ABc) | f2e d2(e/f/) |\
+g3- g(fe) | d3- d(cB) | ABc def |1 g3-g(ef) :|2 Mg3 Mg3 |]
+
+%%sep 1 1 500
+
+X: 172
+T: Bony Smith's Quadrille
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.17 #2
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+V: 1 name="47"
+"^Lively"g |\
+geg age | ccc G2c | Bcd A2B | cBA G2g |\
+geg age | ccc G2c | (Bcd) A2B | [c3E3] [c3E3] :|
+|:\
+G[cE][cE] [cE][cE][cE] | G[cE][cE] cBA | G[BG][BG] [BG][BG][BG] | G[BG][BG] BAG |\
+G[cE][cE] [cE][cE][cE] | G[cE][cE] [cE]BA | [e3c3E3] A2B | [c3E3] [c3E3] :|
+
+%%sep 1 1 500
+
+X: 173
+T: Wednesday Night Waltz
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.17 #3 (and top 3/4 of p.18)
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The first two sections of the tune end with 7-bar phrases.
+N: In all the bars like bar 1, the final ^g is written as a trailing grace note, which isn't widely supported in ABC software.
+N: All the glissandi have a "squiggle" connecting the notes, which ABC most software can't do correctly.
+M: 3/4
+L: 1/8
+K: D
+V: 1 name="48"
+d"^gliss"([fd] |\
+([a6f6]) ^g) | ([a6f6] ^g) | [a3f3] (b[af][fd]) | [d4F4] [c2E2] |\
+("^gliss"[B2G2] [d3B3]) e | ([d4B4] [B2G2]) | ([A6F6] | [A2F2]) [d2F2] "^gliss"([f2d2] |
+([a6f6]) ^g) | ([a6f6] ^g) | ([a2f2] [d'2f2]) ([c'f][fd]) | [d4F4] [c2E2] |\
+(B2 ([e4G4-]) | [e4G4]) [f2A2] | "^^"ed"^^"ef"^^"ed | "^^"cB A"^^"d "^gliss"([f2d2] |
+([a6f6]) ^g) | ([a6f6] ^g) | [a3f3] b"^gliss"([af][fd]) | ([d4F4] [c2E2]) |\
+"^gliss"[B2G2] [d3B2] e | [d4B4] [B2G2] | ([A6F6] | [A4F4]) [A2F22] |
+"^^"BG AB df | "^^"ab"^^"af"^^"dB | A2 ^G2 A2 | [f6d6] |\
+e2 c2 A2 | [d6F6-] | [d2F2] D2 E2 ||
+"_Smooth"F6 | (E2 D2 E2) | F6 | A,6 |\
+"^gliss"(B,4 D2) | (D4 E2) | F6- | F4- F2 |
+(E4 D2) | E4 D2 | "^gliss"(F6 | A,6) |\
+(B,4 C2) | (D4 F2) | E6- | E2 (D2 E2) |
+F6 | (E2 D2 E2) | "^gliss"(F6 | A,4-) A,2 |\
+"^gliss"(B,4 D2) | D4 (E2 | F6-) | F4- MF2 |
+(E4 D2) | (E4 D2) | "^gliss"(F6 | A,6) |\
+"^gliss"(B,4 D2) | (D4 E2) | D6- | D2 ||
+d2 [f2d2] |\
+([a6f6] ^g) | ([a6f6] ^g) | [a3f3] (b[af][fd]) | [d4F4] [c2E2] |\
+[B2G2] [d3B3] e | ([d4B4] [B2G2]) | [A6F6-] | [A2F2] [d2F2] [f2d2] |
+([a6f6] ^g) | ([a6f6] ^g) | [a2f2] [d'2f2] ([af][fd]) | [d4F4] [c2E2] |\
+B2 [e4-G4] | [e4G4] [f2A2] | "^^"ed"^^"ef"^^"ed | cB Ad [f2d2] |
+([a6f6] ^g) | ([a6f6] ^g) | [a3f3] (b[af][fd]) | [d4F4] [c2E2] |\
+[B2G2] ([d3B3] e) | ([d4B4] [B2G2]) | [A6-F6-] | [A4F4]  [A2F2] |
+"^^"BG "^^"AB "^^"df | "^^"ab"^^"af"^^"dB | A2 ^G2 A2 | [f6d6] |\
+e4 cA | [d2F2] [f2d2] [a2f2] | d'6- | d'2 z2 z2 |]
+
+%%sep 1 1 500
+
+X: 181
+T: Galop or Quadrille
+T: (Name Unknown)
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.18 #1
+R: galop, polka, march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+V: 1 name="49"
+|:\
+"^^"gggg "^^"g2e2 | "^^"cccc c2G2 | "^^"A2d2 "^^"A2B2 | cBcd e2(ef) |\
+gggg g2e2 | cccc c2G2 | A2d2A2B2 | [c4E4] [c4E4] :|
+|:\
+"^^"G2c2 cdcB | A2d2 d3c | B3d g3g | a2g2 e4 |\
+G2c2 cdcB | A2d2 d3c | B2d2 g3g | a2g2 c4 :|
+
+%%sep 1 1 500
+
+X: 191
+T: Beaver Creek
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.19 #1
+O: Arr. to fit call "Take a Peek"
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="50"
+[| (3(DEF |\
+MG2)MG2MG2MG2 | E2E2E3D | G2G2 GGGG | B2B2 A2(3(DEF |\
+MG2)MG2MG2MG2 | E2E2D3D | G2G2 GGGG | B2A2  G4 |]
+[|\
+B2d2 d2d2 | B2d2d4 | [cE][cE][cE][cE] [BG][BG][BG][BG] | A2(AB) AFED |\
+G2G2G2G2 | E2E2D3D | G2G2 [GB,][GB,][GB,][GB,] | B2A2 G4 :|
+
+%%sep 1 1 500
+
+X: 192
+T: Old German Polka
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.19 #2
+R: polka
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+V: 1 name="51"
+|:\
+d2d2 c2c2 | B>c (3(dcB) A3F |\
+G>BA>G F>AG>F | E>GF>E D4 :|
+|:\
+FAD2 FAD2 | G>Bd>B B>AA2 |\
+FAD2 FAD2 | CEGE EDD2 :|
+
+%%sep 1 1 500
+
+X: 193
+T: Gustafs Skoal
+T: Swedish Quadrille
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.19 #3
+R: march, gallop
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The book has no key signature, but there are no B notes, so it doesn't matter.
+M: 4/4
+L: 1/8
+K: F
+V: 1 name="52"
+"^Intro."c4 c4 | c7 "^Lively"yC [|!segno!\
+F2F2 F3A | GFED DCB,C |\
+G2G2 G3E | FGAG F3C |\
+F2F2 F3A | GFED DCB,C |
+G2G2 G3E | FGAG F4 \
+|:"^Faster"\
+AA/A/ AA ACFA | GG/G/ GG GEFG |\
+AA/A/ AA ACFA |[" " "^Back to"G2E2 F3 !segno!C :|
+Q: "Slow"
+|["At end of dance"G2E2 HF3z |
+
+%%sep 1 1 500
+
+X: 194
+T: Leather Breeches
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.19 #4
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="53"
+|:\
+DGBG AGBG | DGBG AGEG |\
+DGBG AGBG | DEDC B,(A,G,2) |\
+DGBG AGBG | DGBG AGEG |
+cBAG F2DD | DGGA BGG2 ||\
+[K:D]\
+d3dMd2Md2 | Adde fMd-Md2 |\
+d3dMd2Md2 | ABAG (FE)D2 |\
+d3dd2d2 | Adde fMd-Md2 |
+gfed c3A | Adde (fd)Md2 :|\
+[K:G] dgbg agbg | dgbg ageg |\
+dgbg agbg | dedc BAG2 :|
+
+%%sep 1 1 500
+
+X: 201
+T: Run Niger Run
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.20 #1
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="54"
+|:\
+dedB G2G2 | DGAG B2d2 |\
+dedB G2c2 | BGAF G2d2 ::\
+gage d2d2 | Aded f2a2 |\
+gage d2d2 | BGAF G2d2 :|
+
+%%sep 1 1 500
+
+X: 202
+T: Spanish Cavalier
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.20 #2
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Bar 5 has an extra 8th-note; not fixed because there are several ways to fix it.
+M: 4/4
+L: 1/8
+K: G
+V: 1 name="55"
+D |\
+DB B>B B3 (G/F/) | E2 c>c c3 E |\
+D2 (FA) e2 d>e | d4 B3d |\
+d2 GB d3 (MdMd) | e2 (cA) E3 E |
+MDMD(.F.A) (d^c=cF) | A4 G3D \
+|:\
+D2 [BG]>[BG] [B3G3] (G/F/) | E2 c>B [c4E4] |\
+D2 (FA) e2 (d^c) | d4 B3 d |
+d2 (GB) d3 (Md/Md/) | MeMe (cA) E3 _E |\
+MDMD(FA) (d^c=cF) |[1 A4 G3D :|\
+[2 (A4 G2) Bd | Hg6 z2 :|
+
+%%sep 1 1 500
+
+X: 203
+T: When You And I Were Young Maggie
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.20 #3
+R: two-step, march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+V: 1 name="56"
+"^Two Step Swing"d2 |\
+d2 ([BG][AF]) [G2B,2] ([AF][GB,]) | [G3B,3] "_gliss"([EC] [G3E3]) [EC] |\
+D2 [G2B,2] [B2G2] [d2F2] | [A6F6] [d2F2] |\
+[d2F2] ([BG][AF]) [G2B,2] (AG) | [G3B,3] "_gliss"([EC] [G3E3]) [EC] |\
+[D2B,2] [GB,][BG] [d2B2] ([AF][BG]) | [G4-B,4-] [G3B,3] ||
+|: [GB,] |\
+[e2G2] (M[eG]M[eG]) [c2E2] (M[eG]M[eG]) | [d3B3] [BG] [d3B3] [BG] |\
+[A2F2] [d2F2] (d^cfe) | [d6F6] [d2F2] |\
+[d2F2] (BA) [G2B,2] (AG) | [G3B,3] [EC] [G3E3] [EC] |\
+[D2B,2]([GB,][BG]) [d2B2] ([AF][BG]) | [G4-B,4-] [G3B,3] :|
+
+%%sep 1 1 500
+
+X: 211
+T: Put Me In My Little Bed
+O: My Mother's Favorite
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.21 #1
+R: song, march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+V: 1 name="57"
+D2 |\
+B3d (GFEG) | c6 A2 | F3G (MAMA)(McMc) | B6 D2 |\
+B3d (GFEG) | c6 A2 | F3G (A^GAB) | G6 ||
+D2 |\
+B>^A B3D B^A | B3B =A3A | (BAGE) D3D | B3d (GFEG) |\
+c6 A2 | F3G (A^GAB) | G6 :|
+
+%%sep 1 1 500
+
+X: 212
+T: Yellow Dog Blues
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.21 #2
+Q: "Blues Rhythm"
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+V: 1 name="58"
+[|\
+DEFA- AFED | GABd- d4 | =f^f=f^f dBAF | FEFd- d4 | DEFA- AFED |
+GABd- d4 | =f^f=f^f dBA2 | FEFd- d2(3(efg) | Kaefd- d2(fg) |
+aefd- d4 | GABd ede2 | =f^f=f^f dBA2 | F2-F2(AB | cecA- A2(AB) |
+cecA- A4 | =f^f=f^f dBAF |1 [d4F4-] [d4F4] :|2 d2f2 d'4- | d'4 z4 \}
+
+%%sep 1 1 500
+
+X: 213
+T: Tom Tom Indian Dance
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.21 #3
+R: fox-trot
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Added dots to a few long notes, to fix the rhythms.
+N: The 32nd-note run seems to have a '3' above it; ignored because it doesn't work there.
+M: C|
+L: 1/8
+Q: "Fox Trot Rhythm"
+K: Em
+V: 1 name="59"
+[|"^Em"\
+E2EF G2(GF) | EFGA Be3 | E2EF G2(GF) | EFGA Be3 |\
+[cG][cG] [B2G2] [cG][cG] B2 | [B3G3]c BAGF | [E7B,7] (3(A,/B,/C/) |
+E2EF G2(GF) |\
+EFGA Be3 | E2EF G2(GF) | EFGA Be3 | [cG][cG] [B2G2] [cG][cG] [B2G2] |\
+B3c BAGF | "^Fine"E7 ||
+(D//E//F//G//) |\
+"^G" d2 d4 d2 | [e4G4] d4 | [B2G2] [B4G4] [B2G2] | [c4G4] [B4G4] |\
+B2 [A4F4] E2 | [B4G4] [A4D4] | A2G6 (3(B/c/d/) | e4 d3 (B/c/) |
+d2 d4 d2 | [e4G4] d4 | [B2G2] [B4G4] [B2G2] | [c4G4] [B4G4] |\
+[B2G2] [A4F4] E2 | B4 A4 | G6 (3(FGA) | G6 ("^D.C."GF) |]
+
+%%sep 1 1 500
+
+X: 222
+T: Indian Call Waltz
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.22 #1
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: "Sul A" above bar 2; meaning unknown.
+M: 3/4
+L: 1/8
+K: D
+V: 1 name="60"
+A2 |\
+"^gliss"{d}f6 | "^gliss"{d}f6 | ("^gliss"{d}f2d3B) | (A2F2A2) |\
+"^gliss"{d}g6 | "^gliss"{d}g6 | ({d}g2A3B) | (A2F2D2) |\
+F6 | E6 |
+(D2F2A2) | d6 | \
+(e3def) | (g2B2c2) | (d2f2e2) | d4D2 |:\
+(F3EFE) | (F3A2{c}d2) | (F3EFE) | (F2A2{c}d2) |
+(E3DED) | (E2F2E2) | (D2F2E2) |1 D4E2 :|2 D4 \
+|: A2 | ([f3d3]efe) | ([f2d2]a2[g2B2]) | ([B3G3][AG][BG][AG]) \
+| ([B2G2]c2d2) | ([e3c3]ded) |
+[e2c2][f2d2][e2c2] | ([A3F3]GAB) |\
+(AGFAde) | ([f3d3]efe) | ([f2d2]a2[g2B2]) | ([B3G3][AG][BG][AG]) |\
+([B2G2]c2d2) | ([e3c3]ded) | ([e2c2][f2c2][e2c2]) | ([d2F2][f2d2][e2A2]) |\
+[d4F4] :|
+
+%%sep 1 1 500
+
+X: 222
+T: Steamboat Bill
+N: For Quadrille Or Slow Fox Trot
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.22 #2
+R: reel, fox-trot
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The B flats would be better written as A sharps.
+N: Bar 11 has 9 16th notes; not fixed.
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="61"
+(3(DEF) |\
+GGGG Bd2B | cBcA d3 (3(DEF) |\
+GGGG Bd2B | A2F2 D3(3(DEF) |\
+GGGG BBAA |
+G3E G3A |\
+B_B=B_B =Bd2B | _B=B2D G6 ::\
+{A_B}=B3D G3A | B_B=B_B =Bd3 |
+{A_B}=B3D G3(Bc) | dedB A4 |\
+{A_B}=B3D G3A | B_B=B_B =Bd3 |\
+[ec][ec][ec][ec] dBGA | BGA2 G6 :|
+
+%%sep 1 1 500
+
+X: 231
+T: Oxford Minuette
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.23 #1
+R: shottish
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/16
+K: G
+V: 1 name="62"
+"^Moderate and stately"
+((3ABc \
+| d3)BA3B G4D4 | E3GF3A G8 | E3GF3A G4B4 | A3EF3G A6 (3(ABc \
+| d3)BA3B G4 D4 | E3GF3A G8 |
+| c3cB3A d3BG3A | B4A4 G3 (3(DEF \
+|:[M:2/4] "^Two-step rhythm"\
+G2)A2B2d2 | e2d2 ddBc | d2c2 ccAA | e2d2 d3 (3(DEF |
+| G2)A2B2d2 | e2d2 d4 |\
+[1 ([f3d3]e) ([f3d3]e) | d2d2 d3 (3(DEF :|\
+[2 ([f3d3]e) d2(ef) | [g2B2][g2B2] [g2B2] |]
+
+%%sep 1 1 500
+
+X: 232
+T: Moon Winks
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.23 #2
+R: three-step
+Q: "Straight slow even 3 beats"
+O: As used for Three-step
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+V: 1 name="63"
+[|\
+KG2 A2 c2 | KB6 | KG2 A2 B2 | KA6 |\
+KG2 F3 E | KA2 D4 | KG2 D4 | KE2 C4 ||
+Kee Kdd Kcc | Kc2 B4 | KA2 B3 A | KA2 G4 |\
+Ke2 f2 e2 | Kd2 A4 | Kd2 A2 B2 | Kc6 |]
+
+%%sep 1 1 500
+
+X: 233
+T: Possum In The Simmon Tree
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.23 #3
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Bar 4's 2nd half has 12 16th notes; not fixed.
+N: (The 2nd half probably needs another beam above all 5 notes.)
+M: 2/4
+L: 1/16
+Q: "Quadrille rhythm"
+K: F
+V: 1 name="64"
+(3(CDE) |\
+FEFG ABcA | BABc defe | c=Bcd cAFG | AGFA G2E2D2(3(CDE) |\
+FEFG ABcA | BABc defd |
+c=Bcd cAFG | AFGE F2c2 ||\
+e^def g^fge | =fefd c3c | edef g^fge | =fefd c3A |
+BABc defd | cAFA c3f | edcB AGFE | F2A2 "^Fine"F4 ||\
+"_gliss"CJF2f cdcA | BABc deKf2 |
+"_gliss"CJF2f cdcB | GFGA GEC2 |\
+"_gliss"CJF2f cdcA | BABc deKfd | cBcd cAFG | AGFE "^D.C."F4 |]
+
+%%sep 1 1 500
+
+X: 251
+T: Valley Of The Sun Square Dance
+Q: "Tempo march"
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.24 #1
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G	% and D and C
+V: 1 name="65"
+(DG) |\
+B2(DG) B2(DG) | BBAB c2(DF) | c2(DF) e2(DF) | ffee d2(DG) |\
+B2DG B2(DG) | BBAB e2(fe) | d2(ed) c2(dF) | G2g2 "^Fine"g2 || [K:D]
+(gf) |\
+eFeF e2(fe) | dGdG d2(ed) | =c2D>E D2(dc) | B2D>E D2(gf) |\
+eFeF e2(fe) | dGdG d2(ed) | ^c2ef g2(fe) | d2d2 d2 :|
+[K:=c][K:G] (DG) |\
+B2(DG) B2(DG) | BBAB c2(DF) | c2(DF) e2(DF) | ffee d2(DG) |\
+B2DG B2(DG) | BBAB e2(fe) | d2(ed) c2(dF) | G2g2 g2 ||[K:=f]
+[K:C] (3(GAB) |\
+K[c2E2]K[c2E2] K[c2E2](EF) | GG(EF) GG(EF) | Ge ed c2(EF) | Gf fe d2 (ed) |\
+K[c2E2]K[c2E2] K[c2E2] (cB) | Af ff f2 (BA) | Ge ee e2 (dc) |
+Bg Gg Bg ga |\
+g2 (cB) Af ff | f2 BA Ge ee | e2 (dc) Bg (fd) | BGFD C2B2 |\
+c2 (DE) FF FF | F2 ED EG GG |
+G2DE FFFF | F2ED EGGG |\
+g2(EF) G2(EF) | G2(EF) Ge (ed) | c2(EF) Gf fe | d2(ed) c2c2 |\
+c2z2 "^D.C."z2 :|
+
+%%sep 1 1 500
+
+X: 252
+T: Fiddler's Dream
+T: Or Fiddler's Trouble
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.24 #2
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The rhythms are wrong between the strains; not fixed.
+M: 2/4
+L: 1/16
+K: G	% and D
+V: 1 name="66"
+(A_B |\
+=B)GFE DCB,A, | G,A,B,C DEGA | Bdef gfga | bgag edga |
+bgag edef | gedB AGEF | GEDC B,DGA | BGAF G2 ::\
+[K:D]\
+[A3F3][AF][A2F2][A2F2] | Adde fecA |
+cded cB(3(ABc) | dcdA BAFG |\
+[A3F3][AF][A2F2][A2F2] | Adde fecA | cdef gecA | [d4F4] [d2F2] :|
+
+%%sep 1 1 500
+
+X: 251
+T: Muddy Road
+T: Or Forked Deer
+N: Handwritten: "Not usual F.D. Starts like Durang's"
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.25 #1
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+V: 1 name="67"
+[|\
+A,ECE A,ECE | A2AA ceee | EBGB EBGB | E2EE G2cB |\
+A2cB A2cB |
+ABcd e2cd | e2ee e2af | ecBc A4 ||\
+a2af e2c2 | ecfc e4 |
+ecfc ecfc | ecfc e4 |\
+a2af e2c2 | ecfc e2(cd) | e2ee e2(af) | ecBc A4 |]
+
+%%sep 1 1 500
+
+X: 252
+T: Chadham County Breakdown
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.25 #2
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+V: 1 name="68"
+|:\
+e3g gage | g4- g4 | ee2g edcB | [A8F8] |\
+GABG ABGA | BGAB AB3 | cBcG AGEG | [c8E8] :|
+|:\
+CB,CD EGAB | [c8E8] | e2ef edcB | [A8F8] |\
+GABG ABGA | BGAB AB3 | cBcG AGEG | [c8E8] :|
+
+%%sep 1 1 500
+
+X: 253
+T: Old Kentucky
+N: "Robinson County" [sp?] handwritten to right of title.
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.25 #3
+R: polka, reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: There's an 8th note missing between the parts; not fixed.
+M: 2/4
+L: 1/16
+K: D
+V: 1 name="69"
+(dB) |\
+A2F2 FEDF | A2F2 F2(dB) | A2F2 FEDF | G2[A2E2] [A2E2](dB) |\
+A2F2 FEDF | A2d2 fgfe | d[A3F3] ABAG | F3D D2 ||
+|:\
+Ad2f eeff | d2f2 [A4F4] | Ad2f fefg | a3e e4 |\
+f3a abaf | d2e2f3e | d2A2 ABAG | F2[D2A,2] [D4A,4] :|
+
+%%sep 1 1 500
+
+X: 254
+T: No Body's Bussiness
+N: Yep; the title's 3rd word is mispelled.
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.25 #4 (and p.26 top 4 staffs)
+R: march, reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+Q: "Quadrille rhythm"
+K: C
+V: 1 name="70"
+|:\
+e2g3 ggg | a2g2 e2c2 | G2A3 BBB | d2c2 B2A2 |\
+G2B3 cde | g2 g4 ag | e8- | e8 |
+e2g3 ggg | a2g2 e2c2 | G2A3 BBB | d2c2 B2A2 |\
+G2B3 cde | g2f2 d2e2 | c8- | c6 z :|
+|:\
+(3(d/e/f/) |\
+g2ge a2ae | gege a4 | c2cA d2dA | cAcA dcBA |\
+G2B3 cde | g2 g4 ag | e8- | e8 |
+g2ge a2ae | gege a4 | c2cA d2dA | cAcA dcBA |\
+G2B3 cde | g2f2 e2d2 | c8- | c6 z :|
+
+%%sep 1 1 500
+
+X: 261
+T: Bill Vance
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.26 #1
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+V: 1 name="71"
+|:\
+edB edB | G2G B2B | AGE AGE | D3- D2C |\
+B,DG GFG | EEE A2G | FEF DEF | G3- G2"^Fine"G :|
+|:\
+[D2B,2][DB,] DEG | E2E A2G | F2F FED | G2G GAB |\
+D2D DEG | E2E A2G | FEF DEF | G3- G2d :|
+
+%%sep 1 1 500
+
+X: 262
+T: Snow Dear
+N: Handwritten "Deer" after the title.
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.26 #2
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The rhythm shifts oddly between the two parts, giving a 31-bar tune.
+N: Dot added to first B note in bar 20.
+M: C
+L: 1/8
+K: G
+V: 1 name="72"
+D2 G2A2 ||\
+B2B^A B2B^A | B2G2 F2G2 | A2A^G A2A^G | A2G2 F2E2 |\
+D4 A4- | A2GG F2E2 | D4 B4- | B2D2 G2A2 |
+B2B^A B2B^A | B2G2 F2G2 | A2A^G A2A^G | A2G2 F2E2 |\
+D4 A4- | A2GG A2B2 | G4- G3G ||\
+A2B2 c4 | E6 G2 | F2E2 D4 | B8 |
+B3c B2A2 | A2^G2 A4 | A3B A2G2 | G2F2 G2G2 |\
+A2B2 c4 | E6 G2 | F2E2 D4 | B8 |\
+B3c B2A2 | A2^G2 A2c2 | B2A2 G4- | G2 |]
+
+%%sep 1 1 500
+
+X: 271
+T: House Of David Blues
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.27 #1
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Handwritten "Quadrille" right of title.
+N: Deleted dot from the d in bar 12.
+M: 2/4
+L: 1/16
+K: C
+V: 1 name="73"
+%%slurgraces 1
+%%graceslurs 1
+|:\
+{^A}BGDE GAGD | FDE^C D4 | ^CDCD BGAF | G8 |\
+{^A}BGDE GAGD | FDE^C D4 | ^CDCD B^ABG | Ad3 ed3 ||
+{f}"^^"gage fd3 | {^A}BdBA G4 | CDEG AGAB | d2 ({^A}BA) G4 |\
+{^A}BGDE GAGD | FDE^C D4 | ^CDCD BGAF | G8 |]
+
+%%sep 1 1 500
+
+X: 272
+T: Billie In The Low Ground
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.27 #2
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Handwritten "Quadrille" right of title.
+M: 2/4
+L: 1/16
+K: C
+V: 1 name="74"
+|:\
+C3D EGAB | cBcd cAGB | A2AB A2G2 | AGED CG,A,B, |\
+C3D EGAB |
+cBcd cAGB | A2Ac BGAB | cAGE C2z2 ::\
+e"^^"g2a "^^"g2ag | eccd c2c2 |
+ea2^g a2ba | =gecd c2c2 |\
+eg2a g2ag | eccd c2G2 | A3c BGAB | cAGE C4 :|
+
+%%sep 1 1 500
+
+X: 273
+T: Denver Schottische
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.27 #3
+R: shottish
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: C
+V: 1 name="75"
+|:\
+cBcG ECDE | F2d2 d3e | fdBG AGED | CDEF G2(AB) |\
+cBcG ECDE | F2d2 d3e | fedc BGAB | c2c2 c2(cd) |
+e^def gecB | A2a2 a3g | edef gage | dcBA G2G2 |\
+e^def gecB | A2a2 a3g | c'age fedc | BGAB c4 |]
+
+%%sep 1 1 500
+
+X: 281
+T: Cotton Eyed Joe or The Johnson Gal
+N: The book has "Eeyed", clearly a typo.
+O: Old Tune
+N: Handwritten: "Round dance"
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.28 #1
+N: The double bar near the middle is in the wrong place.
+R: march, reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="76"
+[| "^Tempo polka"\
+D3EG3B | BAG2 B4 | D3EG2B2 | BAG2 A4 |\
+D3EG2B2 | BAG2 B4 | g3ed3B || A2GA G4 |
+g3ed2B2 | BAG2 B4 | g3ed2B2 | BAG2 A4 |\
+g3ed3B | BAG2 B4 | D3EG2B2 | BGA2 G4 |]
+
+%%sep 1 1 500
+
+X: 282
+T: I Like Sugar In My Coffe
+T: (Called Cotton Eyed Joe)
+N: Handwritten: "/a lot like Dandy Jim/".
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.28 #2
+R: polka
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="77"
+[| "Polka tempo"\
+D2G2 BcBG | A2B2 c4 | D2G2 BcBG | B2A2 G4 |\
+D2G2 BcBG | A2B2 c4 | D2G2 BcBG | B2A2G4 ||
+"^(Omit second time alternate)"\
+e2d2 BBdd | e2f2g4 | e2d2 BBGG | B2A2A4 |\
+e2d2 BBdd | e2f2g4 | e2d2 BBGG | A2G2 G4 ||
+"^(take this)"\
+e2d2 BBdd | e2f2g4 | e2d2 BcBG | B2A2 A4 |\
+e2d2 BcBd | e2f2g4 | e2d2 DEGB | A2G2G4 |]
+
+%%sep 1 1 500
+
+X: 283
+T: Ring Ring The Banjo
+C: Stephen Foster
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.28 #3
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The intended repeat pattern isn't obvious here.
+N: The original staff breaks are preserved, hoping that helps a bit.
+M: 2/4
+L: 1/8
+K: F
+V: 1 name="78"
+"^Quadrille"c |\
+cAF>G | Ac2 (Mc/Mc/) | dcA>F | G2 z(MG/MG/) | FGAB |
+cf2 (Md/Md/) | cAG>G | F2 z2 :: c2c>c | Ac2c | dcAF |
+G4 | F>GAB | cf2d | c>AG>G | F3 ||[K:G] d | dBG>A |
+Bd2(Md/d/) | ed B>G | A2 z(MA/MA/) | GABc | dg2e | dBA>A | G3 :|
+d2d>d | Bd2d | edBG | A4 | G>ABc | dg2e | dBA>A | G3 :|
+
+%%sep 1 1 500
+
+X: 291
+T: Chicken And Dumpling
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.29 #1
+N: Handwritten "Quadrille" below the title.
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="79"
+[|\
+d3g gfga | b2bc' bafg |\
+a2ab agef | gage dcBc |\
+d3g gfga | b2bc' bafg |
+abag fdef | g3a g4 ||\
+D3[BG] [BG][cG][BG]G | D3[BG] [BG][cG][BG]G |\
+E3[cE] [cE][dE][cE]G | E3[cE] [cE][dE][cE]G |
+D3[BG] [BG][cG][BG]G | D3[BG] [BG][cG][BG]G |\
+ABAG FEDC | DG3 AG3 ||\
+D3[BG] [BG][cG][BG]G | D3[BG] [BG][cG][BG]G |
+E3[cE] [cE][dE][cE]G | E3[cE] [cE][dE][cE]G |\
+D3[BG] [BG][cG][BG]G | D3[BG] [BG][cG][BG]G |\
+ABAG FDEF | G3A G4 |]
+
+%%sep 1 1 500
+
+X: 292
+T: White Cocade
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.29 #2
+R: polka, march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="80"
+GA |\
+B2B2 BAGB | d2B2 B2g2 | d2B2 BAGA | B2A2 A2GA |\
+B2B2 BAGA | B2d2g3a | bagf gfe^c | d2B2 B2"//"(Bc) |
+d2B2 g2(Bc) | d2B2 B2(Bc) | d2B2 g2(fg) | a2A2 A2(GA) |\
+B2Bd cBAG | B2d2g3a | bagf gfed | B2G2 G2 |]
+
+%%sep 1 1 500
+
+X: 293
+T: Nellie Bly
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.29 #3
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+V: 1 name="81"
+|:"^Quadrille"\
+EFG2 | EFG2 | EFGA | D4 |\
+EFG2 | ABc2 | ecdd | c4 :|
+|:\
+e2c2 | AAF2 | GGEC | D4 |\
+EFG2 | ABc2 | ecdd | c4 :|
+
+%%sep 1 1 500
+
+X: 294
+T: Four And Twenty
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.29 #4
+R: polka, march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+V: 1 name="82"
+|:\
+c2c2 cGEG | A2A2 A4 | B2B2 BGAB | c3e G4 |\
+c2c2 cGEG | A2A2 A4 | B2B2 BGAB | cBcd c4 :|
+|:\
+e4 d3G | A2F2 F4 | d4 B3G | A2E2 E4 |\
+A4 G3E | F2A2 d4 | B2G2A2B2 | cBcd c4 :|
+
+%%sep 1 1 500
+
+X: 301
+T: Solomon Levi
+T: Singing Quadrille
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.30 #1
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The 16th notes in bar 2 were 8th notes; fixed to match bar 10.
+N: The instructions are a bit unclear.
+M: 6/8
+L: 1/8
+K: Bb
+V: 1 name="83"
+(DE) !segno!||\
+F2F F2F | F2F F2(=E/F/) | G2G G2G | G3 (c2B) |\
+A2A A2A | A2A A2G | F2G F2E | D3- D2 (D/E/) |
+"^Here for last Prominade"\
+F2F F2F | F2F F2(E/F/) | G2G G2G | G3- G2G |\
+A2A A2A | A2A A2G | FEF G2A | B3-"^to here"B3 ||
+d3 AAA | B3 G3 | ded cBA | G3- G2(A/B/) |\
+c3 GGG | A3 F3 | cdc BAG | FGF EDC !segno!||"^Repeat"x
+"_Last time only"F2- F2 |]
+
+%%sep 1 1 500
+
+X: 302
+T: Run Johnny Run
+T: Chapel Hill Serenade
+T: Green Willes [?]
+N: Alternate titles in pencil
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.30 #2
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The repeat indications are a bit odd, and the rhythms don't work at the boundaries. Not fixed.
+M: 6/8
+L: 1/8
+K: G
+V: 1 name="84"
+|:\
+DGG GGB | GGG GGB | ADD DFG | ADD DEF |\
+GGG GGB | GGG GGB | ADD DEF | G3- G2 :|
+|: (B/c/) |\
+ddB ddB | GGG G2(c/d/) | eee eec | AAA A2(B/c/) |\
+ddB ddB | GGG G2B | ADD DEF | G3 G3 ||
+[K:D]\
+Add ddf | ddd ddf | eAA ABc | eAA ABc |\
+ddd ddf | ddd ddf | eAA ABc | d3 d2 ||
+(f/g/) |\
+aaf aaf | ddd d2(g/a/) | bbg bbg | eee e2(f/g/) |\
+aaf aaf | ddd d2f | eAA ABc | d3 d3 :|
+
+%%sep 1 1 500
+
+X: 311
+T: La Valeta Waltz
+T: Spanish Circle Quadrille
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.31 #1
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+V: 1 name="85"
+[|\
+D4G2 | A4G2 | F4F2 | d6 | D4A2 | B4A2 |  A4 G2 | d6 |\
+d4B2 | G4E2 | A4c2 | e6 | e4d2 | B4G2 | ddd2d2 | G6 ||[K:=f]
+[K:F]\
+C4F2 | G4F2 | F4E2 | c6 | C4G2 | A4G2 | G4F2 | c6 |\
+c4A2 | F4D2 | G4B2 | d6 | d4c2 | A4F2 | ccc2c2 | F6 ||
+[K:Bb]\
+F4B2 | c4B2 | B4A2 | f6 | F4c2 | d4c2 | c4B2 | f6 |\
+f4d2 | B4G2 | c4e2 | g6 | g4f2 | d4B2 | fff2f2 | B6 |]
+
+%%sep 1 1 500
+
+X: 312
+T: Mud On The Wheel
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.31 #2
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+V: 1 name="86"
+|:\
+KMA2-KA2 KA,4 | A,ECE A,2(EF) | =GBAG EDEF | =GBAG E4 |\
+KMA2-KA2 KA,4 | A,ECE A,4 | AcBA GABG | A4 A4 :|
+|:\
+[e2c2][e2c2] efed | cdef e4 | GABc dfed | cBcd [e4c4] |\
+[e2c2][e2c2] efed | cdef e4 | abag ecAF | E2A2 A4 :|
+
+%%sep 1 1 500
+
+X: 313
+T: Silver Cluster Cacti
+T: Off to California
+N: written in pencil: A [???] off to California
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.31 #3
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+V: 1 name="87"
+|: (3(FGA) |\
+B3d cBcd | Bdfb g2f2 | bagf gfdB | cdcB G2F2 | B3d cBcd |
+Bdfb g2f2 | bagf gfdB | cBGA B3 |] f | g3a b2(ag) | fbdf BdF2 |
+c=Bcd e2A2 | BABc d2f2 | g3a b2(ag) | fbdf BdF2 | c=Bcd e2A2 | BABc B3 |]
+
+%%sep 1 1 500
+
+X: 321
+T: Old Irish Reel
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.32 #1
+N: A variant of Over the Moor to Maggie, aka Waynesboro, aka Rambles in Sligo.
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Last note of first strain shortened from quarter to 8th note, to fix the rhythm.
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="88"
+D2 |\
+G3A BABd | gdeB cBAG | EAAB A2GE | EAAB A2GE |\
+G3A BABd |
+gfgd edBG | EGFA G2(ED) | EGFA G2 || (ga) |\
+b2bg a2af | gfgd edBG |
+eaab a2(ge) | faab a2ga |\
+b2bg a2(af) | gfgd edBG | EGFA G2ED | EGAB G2 |]
+
+%%sep 1 1 500
+
+X: 322
+T: Come Along John
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.32 #2
+R: reel, march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Last note shortened from quarter to 8th note, to fix the rhythm of repeats.
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="89"
+D2 |:\
+G3GA2d2 | BdAd BG2D |\
+G3G A2d2 | BGAF G3D :|\
+e4 {f}e4 | fedf edBA |
+dd3 fe2d | BGAF G2d2 |\
+e4 {f}e4 | gfeg fedB |\
+de3 fe2d | BGAF G2 |]
+
+%%sep 1 1 500
+
+X: 323
+T: Galloping Horses
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.32 #3
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+V: 1 name="90"
+|:\
+DFA DFA | DGB DGB | DFA DFA | A,CE EFE |\
+DFA DFA | DGB B2B | A2d cBA | d3-  d2 :|
+|: e |\
+fed AFA | BFB A2f | gfe ABc | dcB A2A |\
+fed AFA | BFB A2A | gfe ABc | d3  d2 :|
+
+%%sep 1 1 500
+
+X: 324
+T: Barn Dance Schottische
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.32 #4
+R: shottish, march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: C
+V: 1 name="91"
+|: c>d |\
+e2c2 cGcd | e2d2 d2de | f2B2 BABc | d2c2 c2cd |\
+e2c2 cBcd | e2d2 d2e2 | f2B2 BdBA | G2c2 c4 ||
+{^D}E2C2 CCDE | F2D2 D2A2 | c2BA GABc | d2c2 c2BA |\
+{^D}E2C2 CCDE | F2FE D4 | {^A}BdBA GABc | d2c2 c2 :|
+
+%%sep 1 1 500
+
+X: 331
+T: Florida Blues
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.33 #1
+N: Handwritten: "Beautiful number - played slowly."
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Bar 8 has an extra 8th note; not fixed because it's not clear what was intended.
+N: The double bar lines at bar 11 are a bit odd.
+M: 2/4
+L: 1/16
+Q: "Blues rhythm"
+K: D
+V: 1 name="92"
+[|\
+{e=f}K^fafe dBAd | {e=f}K^fafe dBA2 | FFEF DB,A,D | G2AB dedB | GABd edBG |
+D2EF AGFE | DEFA BGAF | EccB ca3 ee | cBAB ce3 | a2ef dBAB | d6 ||
+([fd]e) ||\
+[d2F2][d2F2] [dF]BAF | D3E D2([fd]e) | [d2F2][d2F2] [dF]BAF | D4 EDEF | GA2B dedB | GABd edBG |
+DE2F AGFE | DEFA BGAF | EcBc dc3 | cBAB c[e3c3] | [a2c2](ef) dBAB | [d8F8] |]
+
+%%sep 1 1 500
+
+X: 332
+T: Old South Schottische
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.33 #2
+R: shottish
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Collapsed written-out repeats, to save space and clarify the music.
+M: 4/4
+L: 1/8
+K: G
+V: 1 name="93"
+|:\
+B>AF>A G2D2 | B>db>a g4 |\
+[1 {fg}f2A>c f2e2 | d>BG>A B2c2 :|\
+[2 {fg}f2A>B c2F2 | G>FG>A !Fine!G4 ||
+K: D
+|:\
+A2A2 F>Ad>f |a>ga>b a4 |\
+"^gliss"{g}b2e>f g2c2 |[1 d>f (3(dcB) A4 :|[2 d>cd>e d4 ||[K:=f=c]
+|:\
+C>EG>c [e2G2][e2G2] | E>Gc>e g4 |\
+{fg}a2d>e f2B2 |[1 ce (3(cBA) G4 :|[2 c>Bc>d c4 |]
+
+%%sep 1 1 500
+
+X: 341
+T: Cackling Hen
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.32 #1
+R: reel, march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Poorly positioned notes in bar 11 could be the same as bars 9,13,15.
+N: Strains 1,2 have final repeats but no initial repeats; strain 3 has both repeats. Not fixed.
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="94"
+[|\
+dg2e ddBc | [dF][dF][dF]e d4 |\
+dg2e ddBc | dBAB G4 :|\
+d2G2 AAGA | d2G2 A4 |\
+d2G2 AAGA | dBAB G4 :|
+|:\
+[B2G2][B2G2][B2G2][B2G2] | dg2e d4 |\
+[c2A2][c2A2][c2A2][c2A2] | dBAB G4 |\
+[B2G2][B2G2][B2G2][B2G2] | Bg2e a3e |\
+[B2G2][B2G2][B2G2][B2G2] | dBAB G4 :|
+
+%%sep 1 1 500
+
+X: 342
+T: Knickle Schottische
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.34 #2
+R: shotish, hornpipe
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+V: 1 name="95"
+[|\
+d2B2 B>AG>B | d2B>d c>BA>B | c2A2 D>FA>G | c2B2 B>AG>B | d2B2 B>AG>B |
+d2B>d c>BA2 | f>gf>e d>cB>A | G2g2 g>fg>a || b2d2 d>^cd>^d | e2A2 A>BA2 |
+f>gf>e d>=cB>A | G2g2 g>fg>a | b2d2 d>^cd>^d | e2A2 A>BA2 | f2g>e d>cB>A | G2g2 g2z2 |]
+
+%%sep 1 1 500
+
+X: 343
+T: The Bully Of The Town
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.34 #3
+R: march, reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+V: 1 name="96"
+D |\
+D[BG][BG]>[BG] | [BG][B2G2][BG] | [BG][BG][_BG][=BG] | G3F |\
+[EC][E2C2][EC] | [eG][e2G2][eG] | cc c/B/A | F2- F(F/E/) |
+Dd2^c/=c/ | ccBA | G4- | G3 |:\
+(B/c/) | d2- d(3(c/d/^d/) | ed AB | c2cA |\
+F3 (A/B/) | c2- c(3(B/c/^c/) | dc A_B |
+=B2BG |\
+D3G | B2-B (3(A/B/c/) | d2- d(3(c/d/^d/) | eecA |\
+E3_E | Dd2^c/=c/ | ccBA | G4- G3 :|
+
+%%sep 1 1 500
+
+X: 344
+T: Liza Jane
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.34 #4
+R: march, reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Omitted several dots on quarter notes, to fix the rhythm.
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="97"
+|:\
+{A^A}B3G A4 | {A^A}B3G A2GA | d2 d4 (Bc | d6) (GA) |\
+{^A}B3G A2GA | {^A}B3G A2 (EF) | G2 G4 (EF) | G8 ::\
+g6 dd | e4 d4 |
+dd d4 (Bc | d6) (ef) |\
+g2 g4 d2 | e4 d4 | [BG][BG] [G4B,4] A2 | [G6B,6] (3(def) |\
+g2 g4 d2 | e4 d4 | dd d4 (Bc | d6) (ef |\
+g2) g4 d2 | e4 d4 | [BG][BG] [G4B,4] A2 | [G8B,8] :|
+
+%%sep 1 1 500
+
+X: 351
+T: Arkansas Jitters
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.35 #1
+R: march, reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="98"
+"^Quadrille"G2 |\
+B2Bd B2Bd | B2G2A2B2 | cBcd c2B2 | A6 (3(ABc) |\
+d2ag f2ag | f2d2e2f2 | gfga g2e2 | dedc BAGA |\
+B2Bd B2Bd |
+B2G2A2B2 | cBcd c2B2 | A6 (3(ABc) |\
+d2ag f2ag | f2d2e2f2 | gfga gfef | [g6B6] (ga) ||\
+b2a2 gfef | a2g2 f2fg |
+a2g2 fede | f2e2 dBGA |\
+B2Bd B2Bd | B2G2A2B2 | cBcd c2B2 | A6 (3(ABc) |\
+d2ag f2ag | f2d2e2f2 | gfga gfef | [g4-B4-] [g2B2] |]
+
+%%sep 1 1 500
+
+X: 352
+T: Old Joe Clark
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.35 #2
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Added flag to last notes in bar 8, to fix the rhythm.
+M: 2/4
+L: 1/8
+K: A
+V: 1 name="99"
+E |\
+[A2E2] [A2E2] | ed [c2E2] | Ac B^G | E2- EE |\
+[A2E2] [A2E2] | ed [c2E2] | Ac BE | [A2-E2-][AE] ||
+E |\
+[e2c2] [ec]>f | =gfe>d | ef=gf | e2- eA |\
+e2 e>f | gfe>c | Ac BE | A3 |]
+
+%%sep 1 1 500
+
+X: 353
+T: Dude Cowboy
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.35 #3
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+V: 1 name="100"
+[|"^Quadrille"\
+Bdd>e | BGG>A | Bdd>e | B3(G/A/) |\
+Bdd>e | BGG>A | BGAF | GDEG ||
+|:\
+[B4G4] | A [G2B,2] A | {^AB}d2 {^AB}d2 | A [G2B,2] A |\
+{^AB}d2 {^AB}d2 | G2 A2 |1 [G4-B,4-] | [GB,]DEG :|2 [G4-B,4-] | [G2B,2] z2 |]
+
+%%sep 1 1 500
+
+X: 354
+T: Walkin' Up Town
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.35 #4 (and top 2 lines of p.36)
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Rest added to bar 16 to fix the rhythm.
+N: The g notes in bars 21,25 have dots; removed to be like other similar measures.
+N: The A in bar 22 is handwritten.
+M: 2/4
+L: 1/16
+K: C
+V: 1 name="101"
+(GF) |\
+E2G2 c2f2 | e3^d e=dc2 | A2^GA dcA2 | G6 (GF) |\
+E2G2 c2f2 | e3^d e=dc2 | d^cde ^fdef | g6 (GF) |
+E2G2 c2f2 | e3^d e=dc2 | A^GA2 dcA2 | G6 (GF) |\
+E2G2 c2f2 | e3^d e=dc2 | dedc BGAB | c6 z2 ||
+g^fg2 age2 | c4 e4 | A^GA2 dc2A | G6 z2 |\
+g2^fg ag2e | c4 [e4A4] | d^cde ^fdef | g4- g4 |
+g2^fg age2 | c4 e4 | A^GA2 dc2A | G6 (GF) |\
+E2G2c2f2 | e3^d e=dc2 | dedc BGAB | c6 |]
+
+%%sep 1 1 500
+
+X: 361
+T: Sally Waters
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.36 #1
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+V: 1 name="102"
+[|\
+F2 (3(FED) | A3 F | DD (3(DCB,) | A,3 F | GB2G | FA2F | E>F (3(GFE) | A4 |
+F2 (3(FED) | A3 F | DD (3(DCB,) | A,3 F | GB2G | FA2F | A,>B, (3(CB,A,) | D4 |]
+
+%%sep 1 1 500
+
+X: 362
+T: Hokey Pokey
+O: Australian Folk Dance
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.36 #2
+R: reel, march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The book has M:4/4, but doubling the bar lines makes it fit better on differently-shaped pages or screens.
+M: 2/4
+L: 1/8
+K: G
+%%continueall yes
+V: 1 name="103"
+"_Lively"D | GGGG | B3D | GGGG | B3D |
+w: 1.~You put your right hand in, You put your right hand out, You
+GGGG | B2(BG) | FEFG | A3D | FEFG | AAAD |
+w: put your right hand in And you shake it all a-bout, You do the Ho-key Po-key Then you
+F2G2 | A4 |[1 D2DD | E2F2 | G4- | G3 :|[2 d2dd | e2f2 | g4- | g3 |]
+w: turn a-round. That's what it's all a-bout.* That's what it's all a-bout.*
+%%begintext align
+%% The rest of the verses just change "right hand" to some other body part.
+%% The book uses left hand, right foot, left foot, right side, left side, front side, back side, and head.
+%% Adapt the words to fit your crowd.
+%% Don't take the 2nd ending's higher octave too seriously.
+%%endtext
+
+%%sep 1 1 500
+
+X: 371
+T: Kenning's Quadrille
+T: Or Three Jolly Sailor Boys
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.37 #1
+R: march, reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+V: 1 name="104"
+"^Intro"d | d>d (3(cBA) | G3 !segno!|: d |\
+GGG>A | B2B(G/A/) | BBcB | A3A |\
+DFAB | c2c>c | dddc | B3d |
+GGG>A | BBB3/(G/A/) | BBcB | A3A |\
+DFAB | c2e>e | dc BA | G3 || (B/c/) |\
+d/d/d/d/ (3(ddg) |
+(3(eee) a>g | (3(fef) (3(def) | (3(ggg) (3(gab) |\
+d/d/d/d/ (3(ddg) | (3(eee) a>g | (3(fef) (3(def) | "^Repeat"g3g !segno!|]
+
+%%sep 1 1 500
+
+X: 372
+T: Dandelion Quadrille
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.37 #2
+R: reel, march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Bar 8 has a quarter-note F; fixed.
+N: The 2nd strain could use a "warning" B-natural key signature; not fixed.
+M: 2/4
+L: 1/16
+K: F
+V: 1 name="105"
+|:\
+c2A2F2d2 | cAFA d2c2 | fgfe dedc | B6 GA | B2G2E2c2 | BGEG B2E2 |
+[1 efed cdcB | ABAG F2 (AB) :|[2 efed cdeg | fefg [f4A4] |:[K:C] Gcec egec |
+A2G2 G4 | Gcec egec | f2B2 [B4G4] | Bdfd Bdfd  e2c2 G4 | GABd GBd | cBcd c4 :|
+
+%%sep 1 1 500
+
+X: 373
+T: Sally There's A Bug On Me
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.37 #3
+R: reel, march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Note there's no repeat of the 1st strain. (But you can repeat it if you like.)
+N: The book also has no initial repeat for the 2nd strain (but there's a final repeat).
+M: 2/4
+L: 1/16
+K: D
+V: 1 name="106"
+[|\
+A3d fgfe | d2F2A3d | c2E2G3B | A2D2F4 |\
+A3d fgfe | d2F2A3d | Mc2MA2MB2Mc2 | d4 d4 |][K:A]
+|:\
+[e3c3]f[e3c3]f | [e3c3]a [e4c4] | b2ba f2fg | a2c2 e4 |\
+[e3c3]f[e3c3]f | [e3c3]a [e4c4] | b2ba f2g2 | a4 a4 :|
+
+%%sep 1 1 500
+
+X: 374
+T: Blackberry Quadrille
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.37 #4
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+V: 1 name="107"
+|:\
+d2d ed^c | d2B G2B | A2F D2D | B2A G2(B/c/) |\
+d2d ed^c | d2B G2B | A2A DEF | G3 G2(B/c/) :|
+|:\
+d2d e2d | B2d b2b | c'2d def | g2a b2(B/c/) |\
+d2d e2d | B2d b2b | c'2d def | g3 g2 :|
+
+%%sep 1 1 500
+
+X: 381
+T: Honey Suckle Schottische
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.38 #
+R: shottish
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Thick hand-drawn bar lines transcribed as thick+thin abc "bars".
+N: The 2nd B in bar 19 should probably also have a flat.
+M: 4/4
+L: 1/8
+K: F
+V: 1 name="108"
+[|\
+C>FA>c f2f2 | e2e2 d4 | C>EG>B e2e2 | d2d2 c4 |\
+C>FA>c f2f2 | e2e2 d4 | C>EG>B e2d2 | (3(cdc) (3(BAG) F4 |]
+[|\
+A4 B2=B2 | c6 c2 | c2=Bc dc_BA | G6 D2 |\
+G4 B2c2 | d6 (^cd) | b>ge>c d2c2 | A6 A2 |
+A4 B2=B2 | c6 c2 | c2=Bc d>cB>A | G6 D2 |\
+G4 B2c2 | d6 (^cd) | b>ge>c d2e2 | f2f2 f2z2 |]
+%%text Dedicated to Herb Wessel Ray Hashman
+
+%%sep 1 1 500
+
+X: 382
+T: Old Schottische
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.38 #2
+R: shottish
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Added repeat to 1st ending to match modern notation.
+M: 4/4
+L: 1/8
+K: C
+V: 1 name="109"
+C>E |:\
+G>^FG>A G2c>d | e>de>g e2d>c | A>Bc>A G>ED>C | D2D>E D2 C>E |
+G>^FG>A G2c>d | e>de>g e2d>c | A>Bc>A G>ED>E | C2C2 C2 e>f ||
+g>^fg>a g2e>d | c>Bc>d e2d>c | A>Bc>A G>ED>C | D2D>E D2 e>f |
+g>^fg>a g2e>d | c>Bc>d e2d>c | A>Bc>A G>ED>E |1 C4 C2 E>F :|["Last ending"C2C2 C2 |]
+
+%%sep 1 1 500
+
+X: 383
+T: Half Way
+T: Or Washboard
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.38 #3
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+V: 1 name="110"
+|:"^Quadrille"\
+C2[EC][EC] [EC][EC][EC][EC] | A,2[FA,][FA,] [FA,][FA,][FA,][FA,] |\
+G2[B2G2] [BG2]Bc | dcBA GFED |\
+C2[EC][EC] [EC][EC][EC][EC] | A,2[FA,][FA,] [FA,][FA,][FA,][FA,] |\
+G2(Bc) d2B2 | [c6E6] :|
+|: d2 |\
+[e3c3][ec][e2c2][e2c2] | d2c2A2G2 |\
+g3g g2^fg | agec A2G2 |\
+[e3c3][ec][e2c2][e2c2] | d2c2A2G2 |\
+g2^fg a2g2 | c8 :|
+
+%%sep 1 1 500
+
+X: 384
+T: Good Night Waltz
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.38 #4
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Thin double bars added to mark the 8-bar phrases.
+M: 3/4
+L: 1/8
+K: C
+V: 1 name="111"
+[|\
+g3(^fg^g) | a4(ef) | .g.a.g.e.c.A | G6 |\
+MEMFMGMAMcMe | (g4f2) | B3(ABc) | B6 ||\
+a3(^ga^a) | b6 | agecAc | G6 |
+GABcde | g2a2e2 | g3(^fga) | g6 ||\
+g3(^fg^g) | a4(ef) | gagecA | G6 |\
+(E2G2c2) | (e2d2c2) | A6- | A6 ||
+c'4c'2 | b4a2 | gagecA | (G2^F2G2) |\
+A3(GA_B) | =B4G2 | c6 | _B6 |]\
+[K:F][|\
+(C2F2)(AB) | (c2=B2c2) | d3(edA) | c4(dMc) |
+(C2F2A2) | cdcAFD | E6- | E6 ||\
+(C2E2G2) | (c2e2f2) | e6 | d6 |\
+(c2e2d2) | (c2d2c2) | A6- | A6 ||\
+(C2F2)(AB) | (c2=B2c2) |
+d3(edA) | c4(dc) |\
+(C2F2G2) | (A2G2F2) | D6- | D6 ||\
+(F2E2F2) | (G2F2G2) | AdcAFD | MC2MA,2MC2 |\
+A6 | G6 | F6- | F6 |]
+
+%%sep 1 1 500
+
+X: 391
+T: Miss Mc Clouds Reel
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.39 #1
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="112"
+(3(DEF) |\
+G3g edeg | B2BA BcBA | G3g edeg | A2AG AcBA | G3g edeg |
+B2BA B2d2 | e3f edef | gedB G2 :: (3(DEF) | GABc dBGA | B2BA BcBA |
+GABc dBGB | A2AG AcBA | GABc dBGA | B2BA B2d2 | (e3f) edef | gedB G2 :|
+
+%%sep 1 1 500
+
+X: 392
+T: Brown Eyed Mary
+T: (Singing Call)
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.39 #2
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Snappy rhythm"
+P: (March)
+K: F
+V: 1 name="113"
+%%continueall yes
+|: A2A (F2G) | A2A F2G | A2A B2A | (A G3-) G2 |
+w: If by chance* we should meet up-on the lone-ly prai-rie*
+w: Swing your part-ner half-way round now swing the left hand la-dy*
+G2G E2F | G2G E G-G | c2c B2G | (G F3-) F2 :|
+w: In my arms you'll al-ways find my* lone-ly brown-eyed Ma-ry.*
+w: Swing your part-ner all the way round Promi-nade with brown-eyed Ma-ry.*
+%%begintext align
+%% If singer's voice gets tired on prominade orchestra alternate with the two bottom numbers.
+%%endtext
+P: (Goodbye My Lover Goodbye)
+"^March only"A3 F2B | A3 F3 | G3 E2B | A3 F3 | A3 F2B | A3 F2F |
+w: Bye\-, lo my ba-by Bye\- lo my Ba-by Bye\- lo my Ba-by good\-
+G2G GAG | F3- F2 ||
+w: bye my lo-ver good-bye.*
+%%text Or this:
+P: (Life On The Ocean Wave)
+C | CFF F2G | A3- AFG | AAA B2A | G3- G2G | C2E G2A | B3- B2c | d2c BAG | F3- F2 |]
+
+%%sep 1 1 500
+
+X: 401
+T: Happy Is The Miller Boy
+T: (Singing Call)
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.40 #1
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The "for ward" is written as two words.
+M: 2/4
+L: 1/8
+Q: "(March)"
+K: G
+V: 1 name="114"
+%%continueall 1
+D | GG BB GG BB | G2 EE D3 D |
+w: 1.~Well, hap-py is the mil-ler boy who lives by the mill. The
+w: 2.~Well, hap-py is the mil-ler boy who lives by the mill. The
+G2 B2 G2 BB | d2 B2 A3 B | d2 dd dd BA |
+w: wheel turns round with its own free will. One hand in the hop-per and the
+w: wheel turns round with its own free will. One hand in the hop-per and the
+GG GA B3 A | GG E2 DD GA | B2 A2 G3 |]
+w: oth-er in the sack, The la-dies go for ward and the gents turn back.
+w: oth-er in the sack, The la-dies go for ward and it's grab boys grab.
+%%begintext align
+%% Play Turkey in the Straw once thru for two-step back to Miller Boy.
+%% Continue changing until dance ends.
+%%endtext
+
+%%sep 1 1 500
+
+X: 402
+T: Sally Goodin
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.40 #2
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The rhythms of repeats aren't correct; not fixed.
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="115"
+|: (3(DEF) |\
+GBAG G2G2 | GBAG EG3 | GBAG G2G2 | DDDD EG3 :|
+|:\
+GABc d2d2 | efge dcBA | GABc d2d2 | DDDD EG3 :|
+
+%%sep 1 1 500
+
+X: 403
+T: Independence Waltz
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.40 #3
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Several measures have lengths other than 3/4, but it's not clear how to fix them.
+M: 3/4
+L: 1/8
+K: D
+V: 1 name="116"
+(DE) |\
+[A4F4] [A-FD][AE] | [A4F4] [A-FD][AE] | [A4F4] [A-FD][AE] | [A6F6] |\
+(E2 F2 G2) | ([B4G4-] [A2G2]) | ([B4G4-] [A2G2]) | ([A4F4] DE) |\
+([A4F4] DE) | ([A4F4] DE) | ([A4F4] DE) | [A6F6] |
+(E2 F2 G2) | ([B4G4-] [A2G2]) | [B3G3] (AFE) | D4 Md2 ||\
+[f4d4] M[f2d2] | ([g4B4] ^g2) | a3 (gag) | [f4d4] (ga) |\
+g4 c2 | c4 (ab) | a4 (ag) | !gliss!([f4d4] [a2f2]) |
+d'4-Md'2 | c'4 Mc'2 | b4 Mb2 | !gliss![a4f4] [f2d2] |\
+g3 (agf) | (e2 B2 c2) | d6- | d4 (3(f/g/a/) ||\
+(g4 Mc2) | (c4 (a)Mb) | a3- (MaMaMg)| f6 (3(f/g/a/) |
+(g4 Mc2) | c4 (ab) | (a3 MaMaMg) | !gliss![f4d4] [a2f2] |\
+[d'4-f4] M[d'2f2] | c'4- c'2 | b4 b2 | !gliss!([a4f4] [f2d2]) |\
+g3 (agf) | e2 B2 c2 | d6 | d4 |]
+
+%%sep 1 1 500
+
+X: 411
+T: Chicken Reel
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.41 #1
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+V: 1 name="117"
+|:\
+{e=f}^fd AF DFBA | AFBF A4 |\
+{e=f}^fd AF DFBA | Addc d4 ::\
+fgaf defd | BcdB B3A |
+fgaf defd | MB2Mc2 Md4 ::\
+[f2d2][f2d2][f2d2][f2d2] |\
+"^gliss."[fd]d'3 ba3 |\
+[f2d2][f2d2][f2d2][f2d2] | afef d4 |\
+[f2d2][f2d2][f2d2][f2d2] | "^gliss."[fd]d'3 bd'3 |\
+[f2d2][f2d2][f2d2][f2d2] | afef d4 :|
+
+%%sep 1 1 500
+
+X: 412
+T: *Bake Those Hoe Cakes Brown
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.41 #2
+R: reel, march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Several begin-repeats added to match end-repeats.
+M: 2/4
+L: 1/16
+K: A
+V: 1 name="118"
+|:"^Tempo quadrille"\
+[c2E2][c2E2][c2E2][c2E2] | [d2F2][d2F2][d2F2][d2F2] | [c2E2][c2E2][c2E2][c2E2] | B8 |\
+[c2E2][c2E2][c2E2][c2E2] | [d2F2][d2F2][f2d2][f2d2] | [e2c2][e2c2][d2F2][B2G2] | A8 ::\
+[cE][cE][cE][cE] [cE][cE][cE][cE] | [dF][dF][dF][dF] [dF][dF][dF][dF] |
+[cE][cE][cE][cE] [cE][cE][cE][cE] | B8 |\
+[cE][cE][cE][cE] [cE][cE][cE][cE] | [dF][dF][dF][dF] [fd][fd][fd][fd] |\
+[ec][ec][ec][ec] [d2F2][B2G2] | [A8E8] :: EEc2 EEc2 | FFd2 FFd2 |
+EEc2 EEc2 | B8 | EEc2 EEc2 | FFd2 f3f | e2e2d2B2 | A8 ::\
+[c/E/][c/E/][c/E/][c/E/][c/E/][c/E/][c/E/][c/E/] [c/E/][c/E/][c/E/][c/E/][c/E/][c/E/][c/E/][c/E/] |
+[d/F/][d/F/][d/F/][d/F/][d/F/][d/F/][d/F/][d/F/] [d/F/][d/F/][d/F/][d/F/][d/F/][d/F/][d/F/][d/F/] |\
+[c/E/][c/E/][c/E/][c/E/][c/E/][c/E/][c/E/][c/E/] c/c/c/c/c/c/c/c/ | B8 |\
+[c/E/][c/E/][c/E/][c/E/][c/E/][c/E/][c/E/][c/E/] [c/E/][c/E/][c/E/][c/E/][c/E/][c/E/][c/E/][c/E/] |
+[1 [d/F/][d/F/][d/F/][d/F/][d/F/][d/F/][d/F/][d/F/] [f/d/][f/d/][f/d/][f/d/][f/d/][f/d/][f/d/][f/d/] |\
+e/e/e/e/e/e/e/e/ d2B2 | A8 :|\
+[2 abae faed | cABG A4 |]
+%%text *Dedicated to John Stillman
+
+%%sep 1 1 500
+
+X: 413
+T: Lady Walpole Reel
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.41 #3 (and p.42 top 2 staffs)
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="119"
+"^Quadrille"(Bc) |\
+dBdB dgfe | dBdB dgfe | dBdB edcB | c2A2 A2(Bc) | dBdB dgfe |
+dBdB dgfe | decd BcAB | G2G2 G2 |] (Bc) | dcBc d2ed | cBAB c2(dc) |
+BGBG cBAG | A2A2 A2(Bc) | dcBc d2ed | cBAB c2(Bc) | dgfe dcBA | G2G2 G2 |]
+
+%%sep 1 1 500
+
+X: 421
+T: Mountain Jig Quadrille
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.42 #1
+R: march, reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Add "pickup" rest to 2nd strain to fix the rhythm.
+N: Should that first f# note be a g, to match bar 5?
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="120"
+(Bc) |\
+d2f2B2d2 | G2B2D2G2 |\
+FGAB c2(BA) | GABc d2(Bc) |\
+d2g2B2d2 | G2B2D2G2 |\
+FGAB cAFD | G2G2 G2 :|
+|: z2 |\
+(3([FA,][FA,][FA,])[F2A,2] (3([AF][AF][FA])[A2F2] | dAdf a4 |\
+gfge cABc | fefd A4 |\
+(3([FA,][FA,][FA,])[F2A,2] (3([AF][AF][FA])[A2F2] | dAdf a4 |\
+gfge cABc | d2f2 d2 :|
+
+%%sep 1 1 500
+
+X: 422
+T: Temperance Reel
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.42 #2
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="121"
+|: (3(DEF) |\
+G2(GF) GABc | dBge dcBA | BEED EFGA | BEED E2(3(DEF) | G2GF GABc |
+dBge dBAc | BEED EFGA | BdAF G3 :: B | Beed e3f | geaf gfed |
+Bdde d3e | geaf gfed | Beed e3f | geaf gfed | BEED EFGA | BdAF G3 :|
+
+%%sep 1 1 500
+
+X: 423
+T: Dive For The Oyster Duck For The Clam
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.42 #3
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+V: 1 name="122"
+(3(ABc) |\
+d2FG A2(3(def) | gfed fdBc | d2(FG) A2(AB) | AFDF E2(3(ABc) | d2(FG) A2(3(def) |
+gfed fdBc | d2(FG) A2(de) | faec d2 :| (3(efg) | afbf afdf | gfed cd(3(efg) |
+afba abag | f3d e2(3(efg) | afbf afdf | gfed fdBc | d2(FG) A2(de) | faec d2 :|
+
+%%sep 1 1 500
+
+X: 431
+T: *Ragtime Annie
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.43 #1
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: "Rocking Bow"
+K: D
+V: 1 name="123"
+(3(DEF) |:\
+[AF][AF][BF][BF] [AF][AF][BF][BF] | [AF][AF][BF][BF] [A2F2](3(DEF) |\
+[AF][AF][BF][BF] [AF][AF][BF][BF] |
+[FA][c2G2][cG] [c2G2][c2G2] |\
+[AG4]BcA [BG4]cAB | [cG4]A2B c3B |\
+[AF4]Bcd egfe |[1 dcdB A2(3(DEF) :|[2 "_(Fine also)"d6 y3 ||
+|: (fg) |\
+a6 (fe) | [A6F6] (fg) |\
+a4 g4 | [B6G6] (ef) |\
+gfef gfef | gfed c4 |\
+[cG][cG][cG][cG] [BG][BG][BG][BG] | [A6F6] (fg) |
+a6 (fd) | [A6F6] (fg) |\
+a4 g4 | [B8G8] |\
+bb2b b2g2 | f[a2d2][ad] a2a2 |\
+ABcd egfe | [d4F4] [d2F2] :|
+%%text *Dedicated to Bill Norman Jack Bartlett
+
+%%sep 1 1 500
+
+X: 432
+T: Glow Worm Minuet
+C: Arr. by Viola H. Ruth for the minuet.
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.43 #2
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+Q: "Minuet Statly"
+K: A
+V: 1 name="124"
+|: "_8va alternating"\
+AG/G/ ^FG |  ^GA GA | BA/A/ ^GA | Bc Bc |\
+dc Bc | BA ^GA | cB _B=B | A=G ^FG |
+AG/G/ ^FG | ^GA GA | BA/A/ ^GA | Bc Bc |\
+dc Bc | BA d>A | GG d>c |[1 cB AG :|2 "^Last"c4 |]
+
+%%sep 1 1 500
+
+X: 433
+T: Portland Fancy
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.43 #3
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The book doesn't show the key change until bar 19, which is on a new staff.
+N: But the g in bar 18 could be played sharp, and most people wouldn't notice.
+M: 6/8
+L: 1/8
+Q: "Quadrille Rhythm"
+K: A
+V: 1 name="125"
+E |\
+E2A E2A | EAB c2c | dcd Bcd | f2e cBA |\
+E2A E2A | EAB c2c | dcd BFG | AEc A2 :|
+|: e |\
+a3- agf | ecf e3 | dBe d3 | cde f2e |\
+a3- agf | ecf e3 | edB efg | aec' a2 :|
+K: D
+|: (F/G/) |\
+ABc d2e | f2g a3 | efg (AB/c/d/e/) | f2d A2(F/G/) |\
+ABc d2e | f2g a3 | efg ABc | d2f d2 :|
+
+%%sep 1 1 500
+
+X: 441
+T: Quadrille Or Virginia Reel
+T: Name Unknown
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.44 #1
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Fixed the rhythm in bar 4 by making the A a quarter note.
+M: 6/8
+L: 1/8
+K: D
+V: 1 name="126"
+(3(A/B/c/) |\
+dcd Adf | e^de Ace | fba gfe | dcB A2(3(A/B/c/) |\
+dcd Adf | e^de Beg | fba gfe | dAf d2 :|
+|: (d/f/) |\
+a^ga dfa | b=gb dgb | bag fed | cBA gfe |\
+dcd Adf | e^de Beg | fba gfe | dAf d2 :|
+
+%%sep 1 1 500
+
+X: 442
+T: Name Unknown Quadrille
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.44 #2
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+V: 1 name="127"
+(d/e/) |\
+fed AFA | BGB AFA | fed AFA | Bdc d2(d/e/) |\
+fed AFA | BGB AFA | fed AFA | Bdc d2 :|
+|: e |\
+faa  eaa | ded cBA | faa eaa | ^gfg a3 |\
+b=gb afa | geg fde | fed AFA | Bdc d2 :|
+
+%%sep 1 1 500
+
+X: 443
+T: Starlight Schottische
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.44 #3
+R: shottish
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: C
+V: 1 name="128"
+(3(EF^F) |\
+G>Gc>d e>cG>E | A>Ad>e f4 | B>g^f>g =f>dA>B | (3(ced) (3(cBA) G2 (EF) | G>Gc>d e>cG>E |
+A>Ad>e f4 | B>g^f>g =f>dA>B | c2e2 c4 |]|[K:F] A4 B2=B2 | c4 f4 | e2 (3(Gce) d2 (3(FAd) | d>cA>F D>CB,>C |
+A4 B2=B2 | c4 a4 | g>fd>f c>BA>B | (3(cdc) (3(BAG) F2 |[|[K:=B][K:G] Bc | d>ed>c B>cB>A | G2 (3(Geg) e2d2 |
+F2 (3(FAg) f2e2 | G2 (3(Geg) e2d2 | d>ed>c B>cB>A | G2(3(Geg) e2d2 | (3(fgf) (3(efe) (3(ded) (3(cBA) | G2B2 G2 |]
+
+%%sep 1 1 500
+
+X: 451
+T: Arizona's Pioneer Schottische
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.45 #1
+R: shottish
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+V: 1 name="129"
+|:\
+([f3d3]e) ([f3d3]e) | d>AF>G A4 | A>Bc>d e>fg>a | b>aa>^g a3=g | ([f3d3]e) ([f3d3]e) | d>AF>G A4 |
+A>Bc>d e>f (3(gfe) | [d2F2][f2d2] [d2F2]z2 || !gliss!{a}Kd'2 !gliss![f2d2]Ka2d2 | [fd]>ed>B A4 | A>Bc>d e>fg>a |
+b>aa>^g a2z2 | !gliss!{a}d'2 !gliss![f2d2]a2d2 | f>ed>B A4 | A>Bc>d e>f (3(gfe) |[1 K[d2F2]K[f2d2] K[d3F3]e :|[2 [d2F2][a2c2] [d'2f2]z2 |]
+
+%%sep 5 2 500
+%%center Medley Of Old Songs
+
+%%sep 1 1 500
+
+X: 452
+T: Endearing Young Charms
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.45 #2
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+V: 1 name="130"
+("_Smooth"HfHe) |\
+(d4ed) | (d2f2a2) | (g2b2d'2) | (d'4c'b) | (a4gf) | e2d2e2 | f6- | f4(fe) |\
+(d4ed) | (d2f2a2) |
+(g2b2d'2) | (d'4c'b) | (a2d'2f2) | (e4de) | d6- | d4 ||\
+(ag) |\
+f2a2d'2 | (d'4aa) | (b2g2d'2) | (d'4c'b) |
+(a4gf) | e2d2e2 | f6- | f4 MfMe |\
+(d4ed) | (Md2f2a2) | (g2b2d'2) | (d'4.c'.b) | (a2d'2f2) | (e4de) | d6- | d4 |]
+
+%%sep 1 1 500
+
+X: 453
+T: Last Rose Of Summer
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.45 #3
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+(de) |\
+(f2(d'3)c') | (b4a2) | ({b}a2f4-) | f4 (de) |\
+(f2a3f) | (e4Md2) | d6- | d4 (de) |\
+(f2d'3c') | (b4a2) |
+(a2f4-) | f4 (de) |\
+(f2a3f) | (e4d2) | d6- | d4 ||\
+(af) |\
+(d'4c'2) | (b4a2) | ({b}a2f4-) | f4 (af) |\
+(d'4c'2) |
+(b4a2) | (b4(c'2) | d'6-) | d'2(Md2Me2) |\
+(f2d'3c') | (b4a2) | ({b}a2(f4-) | f4 (de) |\
+(f2a3f) | (e4Md2) | (d6- | d4 |]
+
+%%sep 1 1 500
+
+X: 461
+T: Annie Laurie
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.46 #1
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+(Mf/Me/) |\
+(d2Md) | d'2c' | (c'b2-) | (b2Mb) |\
+(a2f) | (e2d) | e3- | e2(f/e/) |\
+(d2Md) | (d'2c') |
+(c'b2) | (b2Mb) |\
+(a2f) | (e2Md) | d3- | d2 ||\
+"^ gliss"a |\
+(d'2Md') | (e'2Me') | f'3- | f'2"^ gliss"a |\
+(d'2Md') |
+(e'2Me') | f'3- | f'2-(Mf'/e'/) |\
+(d'2c') | b2(d'/b/) | (af2-) | f2(f/e/) |\
+dd'>f | (e2Md) | d3 | Hd'3 |]
+%%text Favorite Songs of my father & mother.
+
+%%sep 1 1 500
+
+X: 462
+T: Sweet Bunch Of Daisies
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.46 #2
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: G
+V: 1 name="131"
+[|\
+B3 | (c2M^c) | d{g}b2- | (b3 | a3) | (g2e) | d3- | d2c |\
+B3 | (c2M^c) | (d{g}b2-) | b3 | ({b}a2Ma) | (gfe) | a3- | a3 |
+B3 | (c2M^c) (| d{g}b2-) | b3 | (a2Ma) | (g2Me) | d3- | d3 |\
+e3 | (d'2c') | ("^ gliss"b3 | g3) | a3 | (e2f) | g3- | g3 |]
+[|\
+d3 | ("^ gliss"b2f) | a3 | g3 | (B2d) | (f2e) | d3- | d3 |\
+B3 | (c2M^c) | (d{g}b2-) | b3 | (a2Ma) | (gfe) | a3- | a3 |
+d3 | (b2f) | a3 | g3 | (B2d) | (f2e) | d3- | d3 |\
+e3 | (d'2c') | ("^ gliss"b3 | g3) | a3 | (e2f) | g3- | g3 |]
+
+%%sep 1 1 500
+
+X: 471
+T: I'll Remember You Love In My Prayers
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.47 #1
+R: waltz
+N: Illegible text above intro & 1st bar
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Should the final high e be a high g?
+M: 3/4
+L: 1/8
+K: G
+V: 1 name="132"
+(BA) |\
+(G2B2d2) | g2b2(MgMg) | (a2g2e2) | d4(MdMd) |\
+(e2f2g2) | (d2c2B2) | A6- | A4BA |\
+(G2B2d2) | g2c'2(MgMg) | (a2g2e2) | d4(MdMd) |
+(e2a2g2) | (f2e2f2) | g6- | g4 |:\
+(MdMd) | g4(ag) | f4(MdMd) | (e2f2g2) | d4(MdMd) |\
+(e2f2g2) | (d2c2B2) | A6- | A4 (BA) |
+(G2B2d2) |(g2b2)  (MgMg) | (a2g2e2) | d4(^cd) |\
+(e2a2g2) | f2(b2a2) |[1 g6 | g4 :|\
+[2 g6- | g2(b2d'2) | He'4z2 |]
+
+%%sep 1 1 500
+
+X: 472
+T: After the Ball
+O: Lerned from my mother at 3 years of age
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.47 #2
+R: waltz
+Q: "Waltz"
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+V: 1 name="133"
+[|\
+c6 | (e4c2) | B6 | G6 | (A4A2) | (B4c2) | G6- | G6 ||\
+A6 | (B4c2) | G6 | c6 | A6 | (B4c2) | d6- | d6 ||
+E6 | (G4E2) | A6 | E6 | (e4e2) | (f4e2) | A6- | A4z2 ||\
+B4A2 | (B4c2) | e6 | G6 | d6 | (B4G2) | c6- | c4z2 ||
+||\
+e2("^^"g2ze) | c4(AB) | c6 | G6 | (e2"^^"g2)ze | (c2B2A2) | B6- | B6 ||\
+!gliss!f2"^^"a2ze | (d2e2f2) | e6 | G6 | d4(ed) | (B2A2G2) | g6- | g6 ||
+(e2"^^"g2)ze | c4AB | c6 | G6 | (F2A2c2) | (a4g2) | f6- | f4z2 ||\
+(g2Md2Md2) | (d2e2f2) | e6 | G6 | d6 | (B4G2)|[1 c6- | c6 |][2 (!gliss!c2e2g2) | Hc'6 |]
+%%text N B I have never seen this by note. History says it was written in 1892 the year I was born.
+
+%%sep 1 1 500
+
+X: 481
+T: Manitou
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.48 #1
+R: two-step
+Q: "Tempo Two Step"
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+(Bc !segno!|| "^Heel & Toe"\
+B3)D D2(Bc0 | B3)D D3B |\
+c3B A3G | G3F F2(de |\
+d3)F F2(de | d3)F F3d |\
+e3d ^c2d2 | e3d B4 ||
+"^Two Step"D3E D3B, | (3(D2G2A2) B4 |\
+E3F E3C | (3(E2G2A2) c3e |\
+d3BG3A | B6 (cB) |\
+A6 (BA) |[1 G6 ("^D.S."Bc) !segno!:|\
+[2 "^Final end"G6 z2 |]
+
+%%sep 1 1 500
+
+X: 482
+T: Chicago Glide
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.48 #2
+R: waltz
+N: with a 4-bar shottish intro
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+Q: "Moderate"
+K: D
+|: A>FA>f e>de>f |1 "^^"a2"^^"a2 "^^"a2z2 :|2\
+[M:3/4] "^Waltz"a3 z2(f/g/) ||\
+(a2^g2a2) | (b2a2f2) | (g2f2g2) | "^^"A2z2(ef) |\
+(g2f2g2) | (c'2b2a2) |
+(f2e2f2) | "^^"A4 (FG) |\
+A3(FAd) | (f2e2d2) | B3(_B=Bd) | (g2f2e2) |\
+"^^"A>B"^^"c>d"^^"e>f | (g2f2g2) | (b2a2f2) |
+A3(FAd) |\
+(f2e2d2) | B3(_B=Bd) | (g2f2e2) | A>Bc>de>f |\
+(g2f2g2) | (b2a2f2) | (g2B2c2) | d4z2 |]
+
+%%sep 1 1 500
+
+X: 483
+T: Peek-A-Boo
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p48 #3
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+%%text Used for Waltz Quadrille
+(Bc) |\
+(d2 b2 a2) | (g2 f2 e2) | (d2 B2 e2) | d4 (Bc) | d2 b2 a2 | (g2 f2 g2) | a3 gab |
+a4 (Bc) | (d2 b2 a2) | (g2 f2 e2) | (d2 B2 e2) | d4 Md-Md | (e2 c'2 b2) | a2 e2 f2 | g6- | g4 || (Bc) |
+(d4 g2) | (d4 ^cd) | (e4 a2) | (e4 g2) | (f4 Mf2) | (e4 Me2) | d6- | d4 (Bc) |
+(d4 g2) | (d4 Md2) | (e4 c'2) | (e4 g2) | (f3 efg) | (b4 a2) | g6- | g4 |]

@@ -1,0 +1,26 @@
+X: 20314
+T: AN THOU WERT MY AIN THING
+O: Old Scottish air.
+Q: "Slow with expression."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.31 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The rhythm of repeats is wrong due to the missing 1/4-note pick to the first strain.
+M: C
+L: 1/16
+K: A
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+E6 (FA) (A3Bc2).d2 | (c4 B2A2) F4 (c3B) |\
+A4 E3F/G/ A4 (c3d) | (e2d2)(c2B2) (A3c) (c3d/e/) |\
+E6 FA (A4 B2).c2 | (d2c2)(B2A2) {G}F4 (Hf3e) |\
+e6 (ce d2c2B2).A2 | (A6 B2) c4 :|
+|: c3d |\
+e4 E4 E6 c2 | (B3cB2)(AG) F4 (E3F) |\
+A4 e4 e6 f2 | (e3fe2).d2 c4 (B2A2) |\
+(d2def2).d2 (c2cde2).c2 | (d2c2B2).A2 {G}F4 Hf4 |\
+(e3fe2)(ce) (d2c2B2).A2 | (A6 B2) c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

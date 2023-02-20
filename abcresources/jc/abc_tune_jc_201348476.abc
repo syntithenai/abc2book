@@ -1,0 +1,13 @@
+%%staffwidth 300
+X:1
+T: TEST: Treble, treble-1, bass-2 voices
+N: Three voices using "lower" notation scheme.
+N: All voices should show scale from C below to c above staff.
+K: C
+V:1 name="soprano" clef=treble   middle=B
+V:2 name="tenor"   clef=treble-8 middle=B,
+V:3 name="bass"    clef=bass     middle=D,
+%
+[V:1] | CDEF GABc | cdef gabc' |
+[V:2] | C,D,E,F, G,A,B,C | CDEF GABc |
+[V:3] | C,,D,,E,,F,, G,,A,,B,,C, | C,D,E,F, G,A,B,C |

@@ -1,0 +1,40 @@
+X: 1
+T: Buff-Coat
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.40
+Z: 2012-2013 John Chambers <jc:trillian.mit.edu>
+N: "Scots Air" handwritten after title
+N: The "Ducks Dang Over My Daddie" handwritten after first section of dance.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+d3 F3 | E3 c2B/c/ |\
+d2A F2E | FD2- D2 |][| d |\
+d>ed Bcd | e>de c>BA |
+d2d e>fg | f3 a3 |\
+f>ef def | e>de ABc |\
+d2A F2E | FD2- D2 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Lead up all, back .| That again, fall back, set every man to his own wo.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The first cu. cast off into the 2. place, back again :|  Cross over with your own wo. into the 2d place, and give one clap
+%% with your hands, and turn your own wo. round .|  Do this to the last.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The first man cast off, his wo. following him; then he takes the other wo. by the left-hand and leads her between his wo.
+%% and the other man, going round them into the same place; then he takes his own wo. and leads her up the middle, and
+%% both cast off into the 2. Place, and turn her about .|  Do this to the last.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The first man puts his wo. back into the 2d place, and back again :|
+%%endtext
+%%sep 1 8 500

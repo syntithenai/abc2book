@@ -1,0 +1,24 @@
+X: 1
+T: the Galop
+T: the Infernal Galop
+T: the Can-Can dance
+C: Jacques Offenbach c.1830
+N: from Orpheus in the Underworld
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+%%indent 400
+"Intro"|\
+{B}A4 {B}A4 | {B}A2 {B}A2 {B}A2 {B}A2 ||
+|:\
+"A"AEEF "D"EDDF | "G"GBdB "D"BAA2 | "A"BCCB "D"ADDF |\
+[1 "E"{G}FE {G}FE "A"{G}FE {G}FE :|[2 "A"{FGF}E2 {G}FE "D"EDD2 ||
+"D"f2d2 B2A2 | "A"AEFG "D"FED2 | "D"f2d2 B2A2 |\
+[1 "A"^GABc "D"edd2 :|[2 [M:2/4] "A"^GABc ||[M:4/4]
+"D"dA "A"cA "D"dA "A"cA | "D"dA "A"cA "D"dA "A"cA |\
+"D"d>d d>d d>d d>d | "D"d>d d>d "D7"d>d d>d |[K:=f]
+K: G
+|:\
+"G"G4 "D7"AcBA | "G"d2d2 deBc | "D"A2A2 "D7"AcBA |\
+[1,3 "G"Ggfe "D7"dcBA :|[2 "G"Gd"D"AB "G"G2"D"D2 :|[4 "G"Gd"D"AB "G"G4 :|

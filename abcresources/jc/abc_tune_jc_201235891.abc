@@ -1,0 +1,27 @@
+X: 21443
+T: ALGERINE SETT (tune 3)
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.144 #2 (and top staff on p.145)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+ef |\
+g2a^f g2e=f | g2a^f g2e=f | g2ab c'2ba | g2fe d2ef |\
+g2a^f g2e=f | g2a^f g2e=f | g2e2 gfed | c2c2c2 H|]
+dc |\
+BcdB cdec | Bcdc cdec | BcdB cBce | dBcA G2c2 |\
+Bcdc cdec | ^cdec defd | efge afdB | c2c2"^D.C."c2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% back to back,
+%% partners the same,
+%% balance four and turn.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

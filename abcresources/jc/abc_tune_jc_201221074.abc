@@ -1,0 +1,23 @@
+X: 042
+T: la Vende\`e
+N: The accent in the title is bogus French; it should be Vend\'ee.
+%R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Thompson "Twenty four Country Dances for the Year 1805" p.4 #2
+F: http://folkopedia.efdss.org/images/2/2a/Thompson_24_1805.PDF 2014-8-13
+N: Changed the lengths of the final notes to account for the pickup notes.
+M: C|
+L: 1/8
+K: G
+ga |\
+b2g2 gabg | c'2a2 abc'a | d'2g2 f2g2 | agfe d2ga |\
+b2g2 gabg | c'2a2 abc'a | bd'gb ac'fa | g2g2 g2 |]
+GB |\
+d2d2 de=fd | e2c2 c2A^c | e2e2 efge | f2d2 d2ga |\
+b2g2 gabg | c'2a2 abc'a | bd'c'b ac'fa | g2g2 g2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast of two Cu: up again, lead down the
+%% middle up again, turn corners & lead outsides.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

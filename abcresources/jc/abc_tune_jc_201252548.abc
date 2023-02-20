@@ -1,0 +1,17 @@
+X: 1726
+T: Billy Taylor's Fancy   #3
+R: hornpipe, reel
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #1726
+O: Gillan
+Z: A.LEE WORMAN
+Z: Bob Safranek, rjs@gsp.org
+M: C|
+L: 1/8
+N: Compacted by using labels and play order [JC]
+P: Play ABAB CBCB
+K: G
+"^A"[|] D>F \
+| G>AB>c d>Be>c | d>gf>g b>gd>B | (3cBA e>c (3BAG d>B | (3ABG (3FGE D>c B>A |]
+"^B"[| G>AB>c d>Be>c | d>gf>g b>gd>B | (3cBA e>c (3BAG (3AGF | G>BA>F HG2 |]
+"^C"[| (f>g) | a>g (3fge d>ef>g | (3agf (3gfe d>ef>g | (3agf (3bag (3agf (3gfe | d>gg>c (3BAG (3AGF|]

@@ -1,0 +1,19 @@
+X: 109
+T:Denjovo Horo
+O:Bulgaria
+S:Jaap Leegwater, from record (Balkanton BHA 10441)
+F: http://vimeo.com/19462625
+L:1/8
+M:7/8
+Q:1/4=180
+K:Dm
+%%MIDI drum dzzdzdz 41 41 41 60 60 60
+%%MIDI beatstring fppmpmp
+%%MIDI drumon
+|: .EG- G .G2 .E2   | .F2 .E .F2 .G2 | A .G2 .G2 EG   | FED E4   :|
+|: .EF- F .E2 .C2   | .D2 .C .D2 .E2 |[1 EF- F E2 C2  | D3 G4    :|\
+   [2 EF- F E2 C2   |  D3 z4         |
+|: .FG- G A2 A2    | .A.G- G .G2 .F2| FG- G A2 G2    | FE2 D4   :|
+   EG- G G2 EG      | FED E4         | EG- G G2 EG    | FED E4   |
+   EG- G G2 EG      | FED E4         | F2E D2 C2      | D3 D4    |
+   EG- G G2 EG      | FED E4         | F2E D2 C2      | D3 D4    |

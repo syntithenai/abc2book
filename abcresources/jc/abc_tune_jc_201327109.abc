@@ -1,0 +1,45 @@
+
+X: 1
+T: Quando Tremondo   [D]
+O: Italia
+R: waltz
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Harmony from Cedwin Morgan; modified by John Chambers
+M: 3/4
+L: 1/8
+K: D
+V: 1
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"I"[|\
+a3 g fg | e3 f ga | gf ef ga | f2 d4 |\
+A3 G FG | E3 F GA | GF EA Bc | d2 d2 z2 |
+"A"|:\
+A2 Bc ed | F3 A c2 | B2 G4- | G6 |\
+A2 AA AB | c3 B dc | B2 A4- | A6 :|
+"B"[|\
+A2 AA A2 | B3 A GF | A6 | G6 |\
+c2 c2 c2 | c6 | B2 c2 d2 | e6 |]
+"C1"[|\
+f2 ed ed | c2 B4 | e2 d3  c | B2 A4 |\
+c2 cc cc | BA G4 | c2 cc cc | BA F4 ||
+"C2"||\
+f2 ed ed | c2 B4 | e2 d3 c | B2 A4 |\
+B2 d2 e2 | f3 B cd | e4 f2 | {fe}d6- | d4 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+"I"[|\
+"D"f3 d AA | "A7"[A3E3] B ge | eA Ad ec  | "D"A,D FA df |\
+"D"A3 G AD | "A7"C2 B,2 A,2 | E2 C2 E2 | "D"[F4A,4] z2 |
+"A"|:\
+"D"F2 Ec BA | A3 A Ad | "Em"FG AG EG | E6 |\
+"A7"[E2C2] EE ED | E3 B AE |"D"D2 F2 D2 | d6 :|
+"B"[|\
+"D"[D2A,2] DE FA | "B7"^D3 F E^D | "B7"[A6B,6] | "Em"E3 D CD |\
+"A7"CD EF GA | "A7"[A3E3] A GA | "E7"ED B,D EA, | "A7"E3 D CD |]
+"C1"[|\
+"D"A2 ef cA | "G"GD G,B, DG | "A7"Bc dA FA | "D"Bc d2 z2 |\
+"F#m"A2 AA AA | "Em"GF E4 | "A7"E2 EE EF | "D"GF D4 ||
+"C2"||\
+"D"A2 GF GF | "G"G2 G4 | "A7"E2 F2 G2 | "D"GF D4 |\
+"Em"GA Bd ee | "Bm"B3 D EF | "A7"[G2E2] C2 A2 | "D"{AG}[F6-D6-] | [F4D4] z2 |]
+%%text The C2 part may be repeated, often at the end.

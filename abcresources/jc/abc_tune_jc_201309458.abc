@@ -1,0 +1,19 @@
+X:467
+T:Michael and All Angels
+C:Henry Purcell
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=116
+M:3/4
+L:1/8
+K:C
+P:A
+"Am"e2 A2 e2 | "Dm"ef f4 | "Am"e2 A2 "Dm"B2 | "E"^G2 AB cd |\
+"Am"e2 A2 "G"B2 | "C"c4 c2 | "Dm"B2 "E7"B3 A |1 "Am"A2 AB cd :|2 "Am"A4 AB |
+P:B
+"C"c2 c2 "F"d2 | "G"B4 cd | "C"e2 c2 "F"f2 | "G"d4 ef |\
+"C"g2 g2 f2 | "Dm"f2 ed cB | "G"ed d3 c | "C"c6 |
+P:C
+"Am"c2 c2 c2 | "F"A3 ^G A2 | "Dm"d2 d2 "A"^c2 | "Dm"d6 |\
+"Am"c2 c2 "G"d2 | "C"e4 e2 | "Dm"e2 f2 d2 | "E"e6 |\
+"Am"e2 A2 e2 | "Dm"de f4 | "E"e2 A3 ^G | "Am"A6 |]

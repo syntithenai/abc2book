@@ -1,0 +1,12 @@
+X: 680
+T: Mickey By the Fireside   #3
+R: reel
+%S: s:2 b:10.5(5.5+5)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #680
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0680/oneill-1001-0680-1.abc
+M: C|
+L: 1/8
+K: D
+"^A"[| d2 dB AFAB | d2dB gfec | d2dB ADFA | gfed [1 cABc :|[2 cdef "^B"[| d2ad fdad |
+|[1 d2ad gfec :|[2 cBAB cdef :|[3 d2ad cdef |] gbaf gefd | edcB ABcA |]

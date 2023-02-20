@@ -1,0 +1,13 @@
+X:46
+T:Petronella
+M:2/4
+Q:1/4=100
+L:1/16
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+dA|F2AF E2AF|D2D2 D2FA|d2cd e2d2|cdBc A2dA|F2AF E2AF|D2D2 D2FA|d2cd e2c2|d4-d2::
+dA|F2fd A2af|g2gf edcB|A2ec A2ge|f2fd AdAF|D2fd A2gf|g2gf edcB|A2ec Agec|d4-d2:|

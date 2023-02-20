@@ -1,0 +1,25 @@
+X: 4082
+T: Steer her up an' had her gaun
+%R: air, march
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.4 p.8 #2 (and top 2 staffs of p.9)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "SLOWLY"
+K: D
+% - - - - - - - - - -
+% Voice 1 arranged for 2 staffs rather than the book's 3.
+V: 1 staves=2
+Tf>e |\
+!f!d2d2 Tf3e | defg a2!p![AE2]G | F2A2 (BA)(GF) | E2E2 ~c3e |\
+d2d2 {de}f3e | defg a2ga | (ba).g.f (ed).e.c | ~d4 D2 :|
+| : fe |\
+d2A2 TF3A | (dA) (GA) (GF)ED | E2=c4 E=F | G=FED =C2 T^f>e |\
+d2A2 TF3E | (DEFG) A2gf | (ef)(gf) (ec)(Ac) | ~d4 D2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout:
+V: 2 clef=bass middle=d
+z2 | !f!d2fa d'2c'2 | d'c'd'e' f'2!p!c2 | d2f2 gfed | c2A2 zage | d2fa d'2c'2 |
+d'2de f2ef | g4 a2A2 | DFAd D2 :| |: z2 | D2d2 D2d2 | D2d2 D4 | =C2c2 C2cd |
+e=fgA =c2z2 | d4 d2c2 | dcde f2ef | g4 a2A2 | DFAd D2 :|

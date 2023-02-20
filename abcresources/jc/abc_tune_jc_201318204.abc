@@ -1,0 +1,906 @@
+
+X: 1
+T: THE 29TH OF MAY
+T: Jovial Beggars
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+a2f2 g2f2 | edcB A2f2 | g2B2 c3B/c/ | d2A2 F2ED :|
+F2 A4 GF | G2 B4 B2 | cde2 cde2 | c2Bc A2de |
+f2ef d2ef | g2fg e2fg | a2B2 c3B/c/ | d2A2 F2ED |]
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: AY ME, OR THE SYMPHONY
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+g4 e4 | dcBA G2AB | c2c2 d3d | e6 ee |
+e2fg a2cc | c2de f2AA | BGe2 d3c- | c8 :|
+A4AB c2Bc | dcBA G2ee | e2de fge>d |
+d6 gg | a2e2 ef^ff | g2dc B2gg | a2e2 d3c- | c8 |]
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 3
+T: THE BALL
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+e |\
+c2A B2G | AcA E2E | F2F d2B | (A3 G2)e |
+c2A B2G | AcA E2E | F2d B2G | A3  A,2 :|
+|: c |\
+B2E d2B | cec A2c | B2E d2B | (c3 B2)e |
+f2d B2g | a2e c2A | F2d B2G | A3 A,2  :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 4
+T: THE BASHFUL SWAIN
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+DE |\
+F2A2 A2=B^c | d2A2 A2f2 | e2d2 e2d^c | d6 :|
+|: fg |\
+a2f2 f2a2 | g2c2 c2e2 | f2d2 d2(d/e/f) | e2A2 A2FG |
+AGAB AGFG | AGAB A2f2 | e2d2 e2(d^c) | d6 |]
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 5
+T: CAPTAIN DRIVER'S DELIGHT
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+|: e2cd e3 f | edcB c2BA | e2cd e2a2 | e2dc B4 :|
+|: BAGA Bcdf | edcB c2BA | a2ec f2dB | ecdB A4 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 6
+T: COME ASHORE, JOLLY TAR, YOUR TROUSERS ON
+T: The Cuckoo
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Dm
+AG |\
+FEFD f2ed | cAFA c2BA | GFED C2cB | c2 G4 AG |
+FEFD f2ed | cAFA c2BA | GFED C2EG | F2D2 D2 :|
+|: Ac |\
+d2e2 f2ed | c2A2 A3c | GAcd egde | c2G2 G2AG |
+FEFD f2ed |cAFD | c2BA | GFED C2EG | F2D2 D2 :|
+|: FG |\
+AFDF AGFE | D4 z2EF | GECE cEDE | GFED C2Ac |
+dcde f2ed | cAFA c2BA | GFED C2EG | F2D2 D2 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 7
+T: CULLODEN FIGHT
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: GAG B2G | d2B A2G | BcB c2A | E2A FED |
+   GAG B2G | d2B A2G | g2e d2G | A3  G2 :|
+|: B2G B2G | E2A FED | B2G B2G | dcB A3  |
+   B2G B2G | ABc EFG | ABc dBG | A3  G3 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 8
+T: CURE OF ALL GRIEF
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: d2A d2e | f2g a3 | gfe d2g | fge d3 |\
+   d2A d2e | f2g a3 | gfe d2g | fge d3 :|
+|: a2g fga | g2f g3 | g2f efg | f2e f3 |\
+   d2A d2e | f2g a3 | gfe d2g | fge d3 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 9
+T: THE DAME OF HONOUR
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/8
+K: Bb
+B,2 |\
+D4F2 B4d2 | B4F2 B4A2 | G3FED C4F2 | D2B,4- B,4B,2 |
+D2E2F2 G4B2 | A3Bc2 G4c2 | c3dc2 G4B2 | A2F4- F4 :|
+|: c2 |\
+f4e2 d4c2 | B4A2 G4d2 | e3de2 G4B2 | A2F4- F4E2 |
+D2E2F2 G4B2 | A3Bc2 F4e2 | d3ef2 F4e2 | d2B4- B4 |]
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 10
+T: DOWN THE WAGGON WAY
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Dm
+   de | f2fd g2ge | fafd    A2de | f2fd g2ge | faec A2 :|
+|: de | faAB AFED | GBB/A/B defa | ABAF EDFA | AFA2 z2 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 11
+T: THE DUMB GLUTTON
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+|: B2GB | cecA | B2AG | FAc2 |\
+   B2GB | c2Ac | BGAF | G2G2 :|
+|: B2GB | dgdB | c2Ac | fafd |\
+   Bdg2 | dBAG | c2ec | B2A2 |
+   B2GB | cecA | B2AG | FAc2 |\
+   B2GB | c2Ac | BGAF | G2G2 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 12
+T: THE FAITHFUL SHEPHERD
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+|: G2BG A2A2 | G2BG  A4 | BdBG AcAF | G2D2 B,2G,2 :|
+|: B2dB c2c2 | B2dB  c4 | BdBG AcAF | G2D2 B,2G,2 :|
+|: g2ge f2fd | e2e^c d4 | BdBG AcAF | G2D2 B,2G,2 :|
+|: B2B2 c2c2 | B2B2  c4 | BdBG AcAF | G2D2 B,2G,2 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 13
+T: THE FOGGY DEW
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+F |\
+F>GA>B c2f2 | {e}d2c>B {B}A2zc |{B}A2GF E>FG>A | F6 zF |
+F>GA>B c2f2 | {e}d2c>B {B}A2zc |{B}A2GF E>FG>A | F6 :|
+|: zc |\
+c3d _e3e | {_e}d2cB {B}A2zF | f2f2 g_ecB | {B}A6 zc |
+F>GA>B c2f2 | {e}d2c>B {B}A2zc |{B}A2GF E>FG>A | F6 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 14
+T: THE FROG AND THE MOUSE
+T: Amo Amas, I Love a Lass
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+D |\
+G2G2 | D2D2 | EDEF | D3D |\
+G2D2 | GFGA | B4 | G3 :|
+|: G |\
+B2c2 | d2B2 | G2G2 | A2D2 |\
+D2d2 | dedc | B4 | d4 |
+G2G2 | D2D2 EDEF | D2D2 | G2D2 |\
+GFGA | B4 | G3 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 15
+T: FROM THEE TO ME SHE TURNS HER EYES
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+d |\
+g2d g2d | B>AB G2d | e2d c2B | A3- A2 || d |
+d2G G2e | e2A A2f | f2B B2g | g2G G2d | dcB A2G | G3- G2d |
+dBG ecA | fdB g2d | dBG ecA | fdB g2d | dcB A2G | G3- G2 |]
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 16
+T: GE HO, DOBBIN
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+D |\
+F>GA B>cA | B>dB A>Bc | d>ef B>cd |
+e>cA d2 :||: c/d/ | e>fe e>cA | e>cA A>FG | A>BA A>GF |
+G>EF G>FG | F2A FDF | G2B GEG | F>FA G>FE |
+D2d D2 :| F2A FDF | G2B GEG | FAd Bed | cAc d2 |]
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 17
+T: THE GROVE
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+|: BcB FDF | BdB cec | BcB FDF | GeA B3 :|
+|: fdb fdB | egB AGF | Egg Dff | ecA B3 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 18
+T: THE HEREFORDSHIRE LASSES
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|: G2Bd cAFD | GBdg d2cB | ceAc BdGB | AcFA  G2G,2 :|
+|: d2Bc d2Bc | dgfe e2d2 | g2ge f2fd | ege^c d2D2 |
+   G2Bd cAFD | GBdg d2cB | ceAc BcGB | AcAF  G4 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 19
+T: HUMP MY LADY
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Eb
+B |\
+e2e>g f2f>a | g2g>b (e2d2) | e2e>g c2c>e | Bedf (f2e2) :|
+|: .B.e(d>f) .B.d(e>g) | .B.e(d>f) .B.d(e>g) | fedc B2B2 | cBAG F2F2 |
+FEDC B,2B,2 | ceda gfed | (e>g).d.f (e>g).d.f | (e>g).d.f f2e2 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 20
+T: IF ALL THE WORLD WERE PAPER
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: C
+G | A2G A2B | c3 D2D | E2D E2F | G3 G2 |
+E | F2E F2G | AF2 D2c | d2G A2B | c3- c2 |]
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 21
+T: THE KING'S DELIGHT
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/8
+K: D
+d4d2 a4a2 | f3ef2 d3ed2 | e3fe2 a3b ag | f6 e6 ||
+d4d2 a4a2 | f3ef2 d2e2f2 | g3ag2 f3ef2 | e2d2e2
+A2B2c2 | d2e2f2 gf ed3 | e6 d6 | e4f2 gf ed3 | e6 d6 |]
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 22
+T: THE KIRKGATE HORNPIPE -- First Version
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+(dc) |\
+BcAB G2(dc) | B2g2 g2ag | fdec A2AG | FGEF D2dc |
+BcAB G2dc | B2g2 g2ag | fdec BAGF | G2G2 G2 :|
+|: ef |\
+a2a2 f2d2 | g2ab g3f | edec B2AG | FGEF D2dc |
+BcAB G2dc | B2a2 a2ba | fdec BAGF | G2G2 G2 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 23
+T: THE KIRKGATE HORNPIPE -- Second Version
+T: Newcastle Hornpipe
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+gd |\
+B2B2 BcAB | G2G2 G2Bc | dBdB edcB | cBAG FAFD |
+B2B2 Bd^ce | d2d2 d2AG | FAFD EGE^C | D2D2 D2 :|
+|: AB |\
+c2c2 c2AB | cBAG F2D2 | d2d2 d2ef | gfed cBAG |
+e2e2 egfg | d2d2 dgfg | dBec BAGF | G2G2 G2 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 24
+T: KITTY FISHER
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|: GABc d2B2  | G2g2 g4   | GABc d2B2  | F2A2 A4 |\
+   GABc d2B2  | G2g2 g2e2 | f2d2 e2^c2 | d4   D4 :|
+|: defg a2=c2 | B2g2 g4   | GABc d2G2  | F2A2 A4 |\
+   GABc d2G2  | G2g2 g2e2 | d2B2 c2A2  | G4   G4 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 25
+T: LORD FROG AND LADY MOUSE
+T: Cocky Mi Chari, She
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+E |\
+A2B cBA | B2c d2B | cBA c2d | ede E2E |
+A2B c2A | B2c d2B | cBA c2d | e3- e2 :|
+|: e |\
+e2f g2f | edc f2c | B2c d2B | BcA ^G2G |
+A2a agf | edc f2e | edc cBA | A3-  A2 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 26
+T: THE LUCKY HIT
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+G2c B2c | d2e d2G | e2g c2f | d3 z2e |
+f2a g2c | B2A G2f | e2z d2z | c3 z2z |]
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 27
+T: THE MERRY GIRLS OF YORK
+T: Harregate Lodge
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+B |\
+FDE F2B | FDE F2B | cec BdB | cAF F2B |\
+FDE F2B | FDE Ffe | dcB FBA | B3 B,2 :|
+|: f |\
+fdB fg_a | _a3 g2g | g=ec gab | b3 a2g |\
+fbf dfd | ege cde | dcB FBA | B3 B2 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 28
+T: MERRY WAKEFIELD
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+N: The final bar was missing its repeat sign.
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+|: Bdg gdB gdB | dfa afd a2c | Bdg gdB gdB | B/c/dB e/f/gB A2G :|
+|: Bcd dBG AFD | EFG ABc c2B | gdB ecA dBG | B/c/dB e/f/gB A2G :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 29
+T: MISS BAKER'S HORNPIPE
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+cB |\
+A2F2 FAGF | EGB2 BdcB | Acde fcdB | A2F2 F2 :|
+|: (3cde) |\
+fcAc fagf | gece gbag | afge fdgf | e2c2 c2fc |
+((3def) ((3ABc) B2ba | gfed c2BA | Bcde fdcB | A2F2 F2 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 30
+T: NEW ROAD TO ALSTON
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+|: A2B2 c2c2 | A2B2 c2c2 | edcB A2A2 | edcB A2A2 |\
+   A2B2 c2c2 | A2B2 c2c2 | e2f2 edcB | A2A2 A4  :|
+|: e2e2 c2c2 | a2a2 e4   | edcB A2A2 | edcB A2A2 |\
+   e2e2 c2c2 | a2a2 e4   | e2f2 edcB | A2A2 A4  :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 31
+T: NUMBER ONE
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+GA |\
+B>ABG DEGA | B2G2 G2Bd | e>fge dBAG | E2A2 A2GA |
+B>ABG DEGA | B>ABc defd | e>fge dBAB | G2E2 E2 :|
+|: ef |\
+gfge dBAB | gfga g/a/baf | ageg bagf | e2a2 a2ga |
+bagf efge | dBg>e dBAB | efge dBAB | G2E2 E2 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 32
+T: O! THE WEARY WATERS OF TYNE
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: G2B c2e | dBG B2A | G2B c2e | dBG A3 |\
+   G2B c2e | dBG g3  | fed edB | gdB A3 :|
+|: GAB gag | fed g3  | GAB gag | gdB A3 |\
+   GAB gag | fed g3  | fed edB | gdB A3 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 33
+T: ONCE I LOVED A MAIDEN FAIR
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+   f2f2 f4 | e2f2 d2cd | e2e2 e2f2 | e4 d4 :|
+|: B2c2 d4 | e2f2 d2cd | e2e2 e2f2 | e4 d4 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 34
+T: THE PLAINS OF WATERLOO
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D |\
+B,/C/DD D2D | B,/C/DD D2F | GEE E2D | GAB A2G |
+Bcd efg | dBd G2A | Bed B2A | GEE E2 :|
+|: d |\
+Bdd dBG | Bdd d2c | Bde dBG | cee e2d/c/ |
+Bcd efg | dBd G2A | Bed B2A | GEE E2 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 35
+T: POT STICK
+T: Over the Water to Charlie
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: D2A AFA | B/c/dF E2D | D2A AFA | B3 d3 :|
+|: d/e/fd ecA | B/c/dF E2D | d/e/fd ecA | B3 d3 |
+   d/e/fd ecA | B/c/dF E2D | DFA AFA | B3 d3 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 36
+T: RED HOUSE
+T: D'ye Ken John Peel
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+N: Missing beat in last bar left; it should probably be | B4 G4 |]
+M: C
+L: 1/8
+K: Gm
+G2 g4 fe | d4 B4 | A2 f4 ed | c4 A4 | G2 g4 fe |
+d4 B4 | cBAG ^FGA2 | B2G2 G2 || Bc | dcBA GABc | d4 B4 |
+cBAG FGAB | c4 A4 | dcBA GABc | d4 B4 | cBAG ^FGA2 |
+B2G2 G2 || Bc | d2d2 d2Bc | d2d2 d2AB | c2c2 c2AB |
+c2c2 c2Bc | d2d2 d2Bc | d2d2 d2AB | cBAG ^FGA2 | B2 G4 |]
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 37
+T: RUNAWAY
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: E
+B | e2e (eg).e | B2B (Bd).B | e2e (eg).e |
+b3- b2B | e2e (eg)ke | B2B Bcd | e2e f>ef | e3- e2 :|
+|: f | g>fe g>fe | a2f- f2f | g>fe g>fe | b2B- B2f |
+gfe gfe | agf b2a | gfe B2d | e3- e2 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 38
+T: SCARBOROUGH WHIM
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: d3  BGB | c3  ABc | BGB dBd | gdc BAG |
+   cec B3  | AFA c3  | BGB AFD | G3 G,3 :|
+|: b3  dgb | a2A dfa | gfg eag | fed =f3 |
+   ece a3  | dBd gdB | BGB AFD | G3 G,3 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 39
+T: SMILING POLLY
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+|: [f2A2D2] df | g2 eg | [f2A2D2] df | e/d/c/B/ A2 |\
+   [f2A2D2] df | g2 eg | fa Ac | d2 D2 :|
+|: FD AF | dA g2 | fe/d/ cd | e/d/c/B/A2 |\
+   FD AF | dA g2 | fg/a/ Ac | d2 D2 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 40
+T: SPITHEAD FLEET
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+N: The one-note difference in bars 6 and 14 may be a typo.
+M: 6/8
+L: 1/8
+K: Gm
+|: G/F/ |\
+DGA Bcd | cAF F2A | BGA Bdg | fdB B2a |
+bag fdd | fdd ecc | dg2 fdc | BGG G2 :|
+|: d |\
+gfg def | Bcd f2d | gfe dcB | gfe d2a |
+bag fdd | fdd dcc | dg2 fdc | BGG G2 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 41
+T: THE TIDE COME IN
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+BA |\
+G2d2 d2cB | c2e2 e2BA | G2d2 d2AG | F2A2 A2BA |
+G2d2 d2cB | cdef g2d2 | (cdec) ABcA | B2G2 G2 ||
+ef |\
+gfgd (BGB)d | e2d2 d2ef | gfgd BGBd | c2A2 A2ef |
+gfgd BGBd | efge edcB | cdec ABcA | B2G2 G2 |]
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 42
+T: TWO AND TWO
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gm
+|: GBd  dcd | Gce ede | dBG cA^F | DGB  A3  |\
+   GBd  dcd | Gce ede | dBG cA^F | GDB, G,2 :|
+|: Bd^f f2e | Ace e2d | cBA  GAB | A^FD D3  |\
+   Bd^f f2e | Ace e2d | cBA ^FGA | GDB, G,2 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 43
+T: VAN ROTTERAM OP DORT
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+A2 |\
+d2e2 f2g2 | a2gf e2fg | a2e2 f2d2 | edcB A2A2 |\
+d2e2 f2g2 | a2gf e2fg | f2ed ^cdec | d6 :|
+|: AB |\
+c2A2 B2G2 | AGAB A2AB | c2A2 B2G2 | A6 AB |\
+c2A2 B2G2 | AGAB A2AB | c2A2 B2G2 | A4 A2 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 44
+T: WE MUST ALL WAIT TILL MY LADY COMES HOME
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D |\
+G>AG G2A | BcB B2G | Bdg dBG | FAA A2D |
+G>AG G2A | BcB B2g | dcB ABc | BGG G2 :|
+|: f |\
+g2d e2d | g2d e2d | c2B A2G | FAA A2f |
+g2d e2d | g2d e2d | dcB ABc | BGG G2 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 45
+T: THE WEDDING RING
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: dfaf gee2 | fddd e/d/c/B/ A4 | dfaf gee2 | fdec d4 :|
+|: dcBA GFED | FAdF GEE2 | dcBA GFED | fdec d2d2 :|
+|: ffff gggg | ffff ecA2 | ffff gggg | fdec d2d2 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 46
+T: WELCOME TO ALL STRANGERS
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+N: The second part has an open repeat (:) at the beginning, but no close repeat at the end.
+N: One of these is a typo, but it's not obvious which.
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dm
+D | FGA D2E | ^C2D ECA, | FGA DEF | A,D^C D2 :|
+|: e | fed fga | g2f edc | fed fed | ^c>de A3 |
+AGF EFD | fed ^c>de | AGF EFE | A,D^C D2 |]
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 47
+T: WELL MAY THE KEEL ROW
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+   d | B2 GB c2 Ac | B2 AG F/G/A Dc | B2 GB c2 Ac | BG    AG/F/ G2 G,:|
+|: c | Bd dg e2 dc | B2 AG F/G/A D2 | Bd dg e2 dc | BA/G/ AG/F/ G2 G :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 48
+T: WINDSOR TERRACE
+T: The Dawning of the Day
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Dm
+d2Af e3A | dfed ^c3B | AdGd FdEd | Dde^c d4 :|
+|: affa g3g | affa g3f | efdf cfBf | Afge f2z2 |
+af fb/a/ b/a/b2a |gfed ^c3B | AdGd FdEd | Dde^c d4 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 49
+T: YANKY DOODLE
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+|: ddef | ddec | ddef | d2c2 | ddef | ddec  | AABc  | d2d2 :|
+|: d2BG | BGB2 |=c2AG | FGA2 | d2BG | BG^c2 | AB^cA | d2d2 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 50
+T: THE YORKSHIRE BITE
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+|: AAcA | ecBA | GABG | dBAG |\
+   AAcA | ecBA | fdBG | A2A2 :|
+|: ceAe | dfBd | ceAc | BGFE |\
+   ceAe | dfBf | edcB | A2A2 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 51
+T: YORKSHIRE LAD
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+N: Bar 3 had an extra bar line in the middle.
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+|: c2 Ac d2 Bd | c/d/e/c/ Ac BG E2 | c2 Ac d2 B/c/d/B/ | c/d/e Aa g2 e2 :|
+|: a2 c/d/e/c/ df b2 | d/e/f Bd ce ae | f2 dB e2 cA | G/A/B EG A2 A,2 :|
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 52
+T: YORKSHIRE GREY
+B: "Old English Country Dances", Frank Kidson ed., William Reeves pub., London 1890
+Z: 2010-9-26 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: dcd AFA | dfd ecA | dcd AFA | dec d3 :: dA=c BAG |
+eBd ^cBA | dA=c BAG | eBd ^cBA | efg fed | eBc d3 :|

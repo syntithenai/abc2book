@@ -1,0 +1,29 @@
+X: 11311
+T: the MERRY PARTY AT DUNOON
+C: Copyright.
+Q: "Jig time."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.131 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: There's an initial but no final repeat symbol; not fixed.
+M: 6/8
+L: 1/8
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |:\
+FGA fed | GAB gfe | fed cBA | cBA G2c |\
+faf gec | Bdf edc | def efg | {f}ede f2 H|]
+!f!c |\
+.F3 .A3 | (.c3 .f3) | !p!fef gfe | dgf edc |\
+!f!.d3 .f3 | (g3 b3) | !p!agf dgf | {f}ede f2 |]
+g |\
+agf edc | gfe dcB | fed cBA | cBA G2A |\
+FAc fed | GBd gfe | Acf agf | {f}ede f2 |]
+K: Bb
+"^minore."[|] !f!e |\
+dgg GAB | !p!BAG AFD | Ggg fed | cBA G2A |\
+!ff!B3 G3 | A2G FED | GAB Aed | cBA GF"^D.C."=E |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

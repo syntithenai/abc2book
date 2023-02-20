@@ -1,0 +1,22 @@
+X: 5
+T: Cronstoune
+%R: reel
+N: Handwritten "a Reel" and "Maclachlan's Reel".
+B: "A Collection of Original Scotch-Tunes", Henry Playford, 1700, ed. p.3 #5
+F: http://imslp.org/wiki/A_Collection_of_Original_Scotch_Tunes_(Various)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The last g in bar 9 is missing, and reconstructed by comparing with the preceding 2 bars.
+N: Changed 1st beat of bar 11 from an unlagelled triplet to match the next two beats' rhythms.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+EG Gc G/G/G cG | c>de>c d/d/d D2 |\
+EG Gg e/f/g de | cA GE C/C/C C |]\
+c |\
+GE CE GE cE | FcEc d/d/d ef |
+ge cg ae gd | ec ge c/c/c cg |\
+ae gd ec ge | f/g/a ge d/d/d D2 |\
+E/F/G A/B/c e/f/g de | cA GE C/C/C C |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

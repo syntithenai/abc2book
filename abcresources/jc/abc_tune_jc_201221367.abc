@@ -1,0 +1,26 @@
+X: 47
+T: Irish Blanket
+%R: jig
+B: "The Hibernian Muse" p.29 #1
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. XLVII.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+DED AFD | DED B3  | ABc def | ged cBA |\
+DED dFD | AFD B3  | ABc dcB | ABG FED :|
+|:\
+ABA ecA | ABA f3 | ef^g agf | efd cBA |\
+ABA acA | ecA TB3 | ABc dcB | ABG FED :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d3 f3 | d3 gfg | a3  f3  | e3 a3 |\
+f3 d3 | f3 gag | f2e d2g | a2A d3 :|
+|:\
+A3 c3 | A3 dcd | e3 f2^g | a3 A3 |\
+c3 A3 | c3 ede | f2e f2g | a2A d3 :|

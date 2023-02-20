@@ -1,0 +1,23 @@
+X: 1
+T: Mary's Boy Child   [Bb]
+C: words & music: Jester Harston
+R: song
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+Q:"Andante"
+K: Bb
+% %continueall
+| "Bb"F2d2 "F"c2"Bb"B2 | "Eb"G2E2 C2G2 | "Bb"F2B2 "F7"A2c2 | "Eb   Bb"B6y [|\
+F2 | "Bb"F2F2 B2B2 | "Eb"G2E2 C2GG | "F7"F2A2 G2E2 | "Bb" D8  |
+| "Bb"F2d2 c2B2 | "Eb"G2E2 C3G | "Bb"F2B2 A2c2 | "Bb"B6 \
+"Refrain"[|] z2\
+|: "Bb"d2d2 "Eb"e2e2 | "F7"c2c2 "Bb"d2d2 | "Gm"B2B2 "Eb"c2B2 | "F7"A6 G2 |
+| "Bb"F2d2 "F"c2"Bb"B2 | "Eb"G2E2 C3G | "Bb"F2B2 A2c2 | "Bb"B8 ||\
+"Bb"d2d2 "Eb"e2e2 | "F7"c2c2 "Bb"d4 | "Gm"B2BB "Eb"c2B2 | "F7"A6 G2 "^B"|
+F2d2 "F"c2B2 | "Eb"G2E2 C2G2 | "Bb"F2B2 "F7"A2c2 !coda!| "Bb"B6 "Eb"z2 || "Bb"z4 "F7"z4 |\
+"Bb"z4 z2 F-F | "Bb"F2F2 B2B2 | "Eb"G2E2 CGGG | "F7"F2A2 G2E2 | "Bb" D6 F2 ||
+"Bb"F2d2 c2B2 | "Eb"G3E C2G2 | "Bb"F2B2 "F7"AB c2 | "Bb"B6 F2 |\
+F2F2 B2B2 | "Eb"G2E2 C2GG | "F7"F2A2 G2E2 | "Bb" D6 F2 ||
+"Bb"F2d2 c2B2 | "Eb"G2E2 C2GG | "Bb"F2B2 "F7"ABc2 | "Bb"B8 :|\
+y!coda![| "Bb"B4- B2"Eb"G2 | "Bb"F2B2 "F7"A2c2 | "Bb"B4- "Eb"B4- |"Bb"B8- | B2z6 | z8 |]

@@ -1,0 +1,21 @@
+X: 1
+T: O Holy Night   [D]
+T: Cantique de No\`el
+R: Jig
+C: Adolphe Adam (1803-1856)
+O: France
+Z: Paul Hardy's Xmas Tunebook 2012 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+S: http://pghardy.net/concertina/tunebooks/pgh_xmas_tunebook.abc
+M: 6/8
+L: 1/8
+%Q: 3/8=100
+K: D
+%%continueall 1
+[|\
+"D"F3 F2 F | A3- A2 A | "G"B2 B G2 B | "D"d6 | A2 A F2 E | D3 F2 G | "A"A3 G2 E | "D"D6- | D4 z2 |
+"D"F3 F2 F | A3- A2 A | "G"B2 B G2 B | "D"d6 | A2 A ^G2 F | "F#m"c3 A2 B | "C#"c3 d2 c | "F#m"F6- | F3 z2A |
+"A"A3 B3 | E3 A3 | "D"B2 A d2 F | B3 A2 A | "A"A3 B3 | E3 A3 | "D"B2 A d2 F | A3- A2 z ||
+"Bm"d6- | d2 z c2 B | "F#m"c6- | c2 z c3 | "Em"e6- | e z B B2 B | "Bm"d6- | d3 z2 d |
+"D"f6 | "A"e3- e2 A | "D"d6- | "G"d2 z c2 B | "D"A6- | "A"A z A B2 A | "D"A6- | A2 z d3 |
+"A"e6- | e2 z A3 | "D"f6- | f3 "Em"e3 | "D"d3- d2 z | "A"c3 d2 e | "D"d6- | d4 z2 |]
+

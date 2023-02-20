@@ -1,0 +1,21 @@
+X: 4129
+T: GRAHAM'S RANT
+R: Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.4 p.16 #129
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+[|\
+D>GB>d c>BA>G | F>GA>B {d}c>Bc>A |\
+G>B (3(def) g>dB>d | e>cA>c (3(BAG) g2 |\
+D>GB>d c>BA>G |
+F>GA>B {d}c>Bc>A |\
+G>B (3(def) g>dB>d | e>cA>c (B<G) G2 |]\
+g>da>d b>gd>f | g>ec>e d>B (3(GBd) |
+g>da>d b>d c'2 | b>g (3(agf) g2 (3(def) |\
+g>da>d b>gd>g | e>dc>B A>GE>G |\
+(3efg (3fga g2 (3(gfe) | d>cA>c (B<G) G2 |]

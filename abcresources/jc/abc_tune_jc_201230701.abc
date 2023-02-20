@@ -1,0 +1,23 @@
+X: 14081
+T: Anthy the Lovely
+%R: air, reel
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.4 p.8 #1
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Rests added between strains to fix the missing 8th-notes.
+M: C
+L: 1/8
+K: Gm
+"Slow"G>A |\
+{A}B2TA>G d2(cd) | {f}edTc>B {B}A3B | {AB}c2(TB>A) (Bd)(gd) | (c<A) (TA>G) G3 :: zA | B2(B>c) d2(d>e) | {de}f2Te>d {d}c3F |
+(BA)(Bc) {c}d2(gf) | (e<d) Tc>B B3d | {c}=B2BB ({B}c3d) | (ed)(cB) A2(g^f) | g2(d>c) {c}=B2(c>d) | (ed)(cB) {B}A2(dc) |\
+{c}B2TA>G G2 :|
+|: zA | B2(c/B/A/G/) d2-d/B/c/d/ | e>d c(d/e/) {B}A3B | (c/B/A) (B/d/g) T^f2g>d | (c/B/A) (3(Bd^F) {F}G2 :|\
+|: zA | B2(B/A/B/c/) d2(d/B/A/B/) |
+{de}f2(f/e/)(e/d/) {d}c3F | GBgf g2b>g | (f/d/B/d/) (e/G/c/A/) B3(d/c/) | .=B/(B/c/d/) .B/(B/c/d/) .c/(c/d/e/) .d/(c/d/f/) |
+(ed/c/) (d/G/)(c/B/) {B}A2(g^f) | (3(g=fe) (3(dc=B) {B}c3d | (ee/d/) (d/c/)(c/B/) A>^f (3(gGc) | B2(TA>G) G2 :|
+P: Gig
+M: 6/8
+"_Brisk"A |\
+BAG dBG | ecB ABc | dgf edc | Bcd G2 :: A | BdB fdB | fdB cAF | B2c dfb |
+edc B2d | g2=B cde | d/e/fA Bcd | edc dgG | cBA GBd | BGD EAc | Bd^F G2 :|

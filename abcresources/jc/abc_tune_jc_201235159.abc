@@ -1,0 +1,33 @@
+X: 21002
+T: FRANKLIN SETT (tune 2)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.100 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="2"
+F |\
+BFd BFd | f3 d2f | fec cBc | d3 B2F |\
+BFd BFd | f2d dcd | e2c cBA | B2B B2 H|]
+d |\
+cd=e fed | dcc cBA | Bcd dcB | BAA A2c |\
+cff a2f | dgg b2g | faf =ede | gff "^D.C."f2 |]
+g |\
+gab bag | g^ff f2d | e3 edc | cBB B2d |\
+gba g^fd | egf edc | BAG AGF | G3- "^D.C."G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple chassa to the centre,
+%% balata,
+%% back and balata,
+%% swing three on each side,
+%% all chain,
+%% promenade,
+%% next couple, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,32 @@
+X: 20981
+T: PHANTOM SETT (tune 1)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.98 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The declared meter is 2/4, but it's clearly 6/8.
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="1"
+[AF] |\
+Bdd dcB | fed dcB | ABc FGA | Bdf edc |\
+BcB dcB | fed dcB | ABc FGA | B3 z2 H|]
+f |\
+fec cde | fdB BAB | cAF FGA | Bdf c2f |\
+fed cde | fdB BAB | cAF FGA | B2d "^D.C."B2 |]
+D |\
+G3 G^FG | B2G d2c | BAG G^FG | A2D D2D |\
+G3 G^FG | B2G d2c | BAG [AF]GF | G3 "^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right and left four,
+%% balance four,
+%% ladies chain,
+%% promenade four,
+%% sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

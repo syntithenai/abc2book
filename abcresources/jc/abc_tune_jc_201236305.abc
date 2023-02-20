@@ -1,0 +1,25 @@
+X: 2193
+T: Hey to the Camp.   a Jig.
+%R: jig
+B: Niel Gow & Sons "Complete Repository" v.2 p.19 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 8-bar lines, for clarity and proofreading.
+V: 1 staves=2
+G |\
+Tc2e d(.B.G) | A/B/cD TD2C | E/F/GG c2c | ege d3 ||\
+~c2e d(.B.G) | (A/B/)c.E TD2C | (E/F/)GG c2G | ECC C2 :|
+f |\
+efg gec | eaa ~a2c | TB>cd dBG | (B/c/d)d ~d2f ||\
+efg gec | eaa a2f | edc BAG | (A/B/c).c c2f ||
+efg gec | eaa a2c | TB>cd dcB | (B/c/d).d d2f ||\
+efg gec | efg gag | ~edc ~BAG | (A/B/c).c c2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | c3 g3 | a3 g3 | c3 e3 | c3 G3 || c3 g3 | a3 b3 | c'3 g3 | c3 c2 :| z |
+c3 c'3 | c'3 c'3 | G3 g3 | g3 g3 || c3 c'3 | c'3 c'3 | c'3 g3 | c3 c3 || c3 c'3 |
+c'3 c'3 | g3 g3 | g3 g3 || c3 c'3 | c'3 c'3 | c'3 g3 | c3 c2 |]

@@ -1,0 +1,123 @@
+
+X: 0
+T: BLACKWATER STANDPIECE
+%C: 071229
+K:
+
+
+X: 1
+T: Blackwater Tide
+P: Piffero primo a0538a
+O: Greg Bacon
+%R: reel
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/blackwaterF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: One of the SAFD copies has the initial F pickup note; another doesn't.
+M: 2/4
+L: 1/16
+K: G
+F4 |:\
+G2EG DGEG | G2EG DGBA | GABc dz ge | dBcA BGED | G2EG DGEG |
+G2EG DGBA | GABc dz ge |1 dBAB G3F :|2 dBAB G2 |: z2 | Bdef gz ge | dBcA BGED |
+Bdef gz gf | edef g3e | d2dB c2cA | BABc BGED | GABc dege | dBAB G2 :|
+
+
+X: 2
+T: Blackwater Coda
+P: Piffero primo a0572
+O: Greg Rice
+%R: reel
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/blackwaterF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+%%stretchstaff no
+%%stretchlast  no
+K: G
+z2 | Bdef g2ge | d2dB c2cA | B2A2 G2F2 |]
+
+
+X: 3
+T: Maggie, Are Ye Sleeping?
+T: Are Ye Sleeping, Maggie?
+P: Piffero primo a0566
+O: unk
+%R: reel
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/blackwaterF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bm
+|:\
+F2B2 B2d2 | c3B A2c2 | d2B2 dcBA | F2d2 c2B2 :|\
+f4 Bcde | f3g fed2 | e4 ABcd |
+e3a fedc |\
+B2Fc d2Fe | f2Fe d2Fe | f2B2 dcBA | F2d2 "^Fine"c2B2 |[|\
+FBdB FBdB | GBdB GBdB |
+Acec Acec | fedc dcBA |\
+FBdB FBdB | GBdB GBdB | Acec Acec | fedc "^DC al Fine"dcBA |]
+
+
+X: 4
+T: Planxty Ron Seaborg
+P: Piffero primo a0573
+O: Greg Bacon
+%R: reel
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/blackwaterF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+|:\
+G2GB AGFD | G2Bd g4   | e2ge d2Bd | cBAG FADF |\
+G2GB AGFD | G2Bd g4   | e2g2 dBG2 | BAGF G4  :|
+e3g  gfe2 | d2cB A2BA | GABc d2gf | e2eB d4  |\
+e3g  gfe2 | d2cB A2d2 | GABc d2cB | A2A2 G4  ||
+e3g  gfe2 | d2cB A2BA | GABc d2gf | e2eB d3e |\
+G2GB AGFD | G2Bd g4   | e2g2 dBG2 | BAGF G2  |]
+
+
+X: 5
+T: Tripping Up the Stairs
+P: Piffero primo a0569
+O: unk
+%R: reel
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/blackwaterF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+A |\
+FAA GBB | FAd fed | cBc ABc | dfe dAG |\
+FAA GBB | FAd fed | cBc ABc | dfe d2 :|
+|: c |\
+dBB fBB | dBd fed | cAA eAA | efe ecA |\
+dBB fBB | dBd fed | cBc ABc | dfe d2 :|
+
+% %slurgraces 1
+% %graceslurs 1
+%%center (drum solo 8 bars)
+
+
+X: 6
+T: Frenchie's Reel
+P: Piffero primo a0560
+O: unk
+%R: reel
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/blackwaterF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+%%staffsep 40
+z2 |:\
+FAde f2ff | FAde f2ff | e2ef gfed | cdef g2gg |\
+FAde f2ff |
+FAde f2ff | e2ef gece | dcde dBAG ::\
+FFdF FeFF | fFFe- eFd2 | GGdG GeGG |
+dGGe- eGd2 |\
+AAeA AfAA | gAAf- fAe2 | d2de dcde |1 dedB A2G2 :|2 dBAF D2 |]
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

@@ -1,0 +1,21 @@
+X: 34
+T: la' Foes Allemande
+%R: march, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.16 #34
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+%%slurgraces 1
+%%graceslurs 1
+A2 |\
+d4 e4 | (fgfg a2).g2 |\
+f4 {a}g2fe | dcde d2A2 |\
+d4 e4 | (fgfg a2).g2 |\
+f4 {a}g2fe | d6 :|
+|: d2 |\
+f2fg f2e2 | d2de d2A2 |\
+B4 Tc4 | dcde d2d2 |\
+f2fg f2e2 | d2de d2A2 |\
+B4 Tc4 | d6 :|

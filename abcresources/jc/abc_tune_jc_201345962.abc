@@ -1,0 +1,66 @@
+
+X: 1
+T: Tra veglia e sonno  [Gm/G]
+T: Between awake and asleep
+C: Mo. Luigi Canora
+R: mazurka
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 3/4
+L: 1/8
+P: AABBACCA
+K: Gm
+"A"\
+|: "Gm"ga bg dB | "Cm"A6 | "D7"cd ec A^F | "Gm"G6 \
+| "Gm"DG Bd ga | "D7"g>^f a4 |1,3 {a}g>^f a4 | "Gm"{b}a>g b4 :|
+[2,4 "D7"{g}^fe dc BA | "Gm"Gz [gB]!fine!z z2 :|\
+"B"|: "Gm"de/d/ ^cd ed | "D"^f>g a4 \
+| "D7"de/d/ ^cd ed | "Gm"g>a b4 |
+| "G7"g_a/g/ ^fg ag | "Cm"g>e c2>> e2 | "D"d>e d>c B>A \
+|1,3 "Gm"c3 =B _B2 :|2,4 "Gm"Gz [gB]z z2 :|
+"A"|: "Gm"ga bg dB | "Cm"A6 \
+| "D7"cd ec A^F | "Gm"G6 \
+| "Gm"DG Bd ga | "D7"g>^f a4 \
+|1 {a}g>^f a4 | "Gm"{b}a>g b4 :|
+[2 "D7"{g}^fe dc BA | "Gm"Gz [gB]z z2 |][K:=B=e][K:G] "C" \
+|: "D7".f.a .e.g .d.f | "D7"cz [c3F3] .g \
+| "D7".f.a .e.g .d.f | "G"e>e B3 ^A |
+| "G".B.c .^c.d .^d.e | "D7"fz [f3d3] B \
+|1,3 "D7".c.d .e.f .g.a | "G"bz [b3d3] .g \
+:|2,4 "D7"cd ^de ba | "G"gz [gB]z z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Tra Veglia e Sonno    [Dm,D]
+T: Between Awake and Asleep
+C: Mo. Luigi Canora
+R: mazurka
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 3/4
+L: 1/8
+P: AABBACCA
+K: Dm
+"A"\
+|: "Dm"d>e fd AF | "Gm"E2-E4 | "A7"G>A BG E^C | "Dm"D2-D4 \
+| "Dm"A,>D FA de | "A7"d>^c e4 |1,3 {e}d>^c e4 | "Dm"{f}e>d f4 :|
+[2,4 "A7"{d}^c>B AG FE | "Dm"Dz [dF]!fine!z z2 :|\
+"B"\
+|: "Dm"AB/A/ ^GA BA | "A"^c>d e4 \
+| "A7"AB/A/ ^GA BA | "Dm"d>e f4 |
+| "D7"d_e/d/ ^cd ed | "Gm"d>B G2>> B2 | "A"A>B A>G F>E \
+|1,3 "Dm"G3 _G F2 :|2,4 "Dm"Dz [dF]z z2 :|
+"A"\
+|: "Dm"d>e fd AF | "Gm"E2-E4 \
+| "A7"G>A BG E^C | "Dm"D2-D4 \
+| "Dm"A,>D FA de | "A7"d>^c e4 \
+|1 {e}d>^c e4 | "Dm"{f}e>d f4 :|
+[2 "A7"{d}^c>B AG FE | "Dm"Dz [dF]z z2 |][K:=B][K:D]\
+"C"\
+|: "A7".c>.e .B.d .A.c | "A7"Gz [G3C3] .d \
+| "A7".c>.e .B.d .A.c | "D"B>B F3 ^E |
+| "D".F>.G .^G.A .^A.B | "A7"cz [c3A3] F \
+|1,3 "A7".G>.A .B.c .d.e | "D"fz [f3A3] .d \
+:|2,4 "A7"G>A ^AB fe | "D"dz [dF]z z2 :|

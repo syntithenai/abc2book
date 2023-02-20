@@ -1,0 +1,92 @@
+X: 11521
+T: TECUMSEH'S QUICKSTEP
+C: By L.L.Sanborn
+C: Arr. A.F.Knight
+%R: quickstep
+N: This is version 2, for ABC software that understands voice overlays and tremolo notation.
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.152-153
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=8
+K: C
+"Eb Bugle"y\
+(EF) |\
+G4 z4 | G4 z4 | (cB)(AG) G2(AB) | (cB)(cd) e2z2 |\
+F4 z4 | E4 z4 | D4 D2D2 | C2C2C2 :|
+|: "^Solo"(Bc) |\
+(d!p!G^FG) (dGFG) | fGeG dG^FG | (ce)(Gc) fedc | Bdce d2 Bc |\
+(dG^FG) (dGFG) | fGeG dG^FG | EGce DGBd | (cG)(ed) c2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+K: F
+"Bb Bugle"y!p!\
+z2 |\
+A2A2A2z2 | A2A2A2z2 | A2A2A2A2 | A2A2A2z2 |\
+B2B2B2z2 | A2A2A2z2 | c2c2c2c2 | A2c2A2 :|
+|: z2 |!p!\
+!/!G8 | !/!G8 | A2z2 A2z2 | G2G2G2z2 |\
+!/!G8 | !/!G8 | c2c2 _B2B2 | A2A2A2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3
+K: F
+"Bb Post Horn Solo"y!p!\
+(AB) |\
+c4 cfaf | c4 cfaf | (fe)(dc) c2(de) | (fe)(fg) a2(GA) |\
+B4- BdfB | A4- AcfA | (EFGA) (Bcde) | f2a2f2 :|
+|: z2 |!p!\
+!/!E8 | !/!E8 | F2z2 F2z2 | E2E2E2z2 |\
+!/!E8 | !/!E8 | F2F2 E2E2 | F2A2F2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 4
+K: F
+"Bb Cornopeon"y\
+z2 |\
+F2A2F2A2 | F2A2F2A2 | F2A2F2A2 | F2F2F2z2 |\
+G2G2G2z2 | F2F2F2z2 | E2E2E2E2 | F2A2F2 :|
+|: z2 !p!|\
+c2z2 c2z2 | !/!c8 | f2z2 f2z2 | e2e2e2z2 |\
+c2z2 c2z2 | !/!c8 | f2z2 e2z2 | f2f2f2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 5 clef=bass middle=D
+K: Eb
+"Tenor Trombone"y\
+z2 |!p!\
+e4 z4 | e4 z4 | e4 e2e2 | e2e2e2z2 |\
+c4 z4 | B4 z4 | B4 B2B2 | e2e2e2 :|
+|: z2 |!p!\
+z8 | z8 | z8 | z8 | z8 | z8 | z8 | z6 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 6 clef=bass middle=d
+K: Eb
+"Bass Trombone"y\
+z2 |!p!\
+e4 z4 | e4 z4 | e4 e2e2 | e2e2e2z2 |\
+a4 z4 | e4 z4 | B4 B2B2 | e2e2e2 :|
+|: z2 |!p!\
+B2z2 B2z2 | B2z2 B2z2 | e2z2 e2z2 | B2z2 B2z2 |\
+B2z2 B2z2 | B2z2 B2z2 | e2z2 B2z2 | e2e2e2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 7 clef=bass middle=d
+K: Eb
+"1st Ophecleide"y\
+z2 |\
+g2e2g2 z2 | g2e2g2 z2 | g4 g2g2 | g2b2b2 z2 |\
+a4 z4 | g4 z4 | f4 f2f2 | g2g2g2 :|
+|: z2 |!p!\
+z(b=ab) z(bab) | !/!b8 | e'2z2 e'2z2 | d'2d'2d'2z2 |\
+z(b=ab) z(bab) | !/!b8 | e'2z2 d'2d'2 | e'2e'2e'2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 8 clef=bass middle=d
+K: Eb
+"2nd Ophecleide"y\
+z2 |\
+E4 z4 | E4 z4 | E4 E2e2 | e2e2e2z2 |\
+A4 z4 | E4 z4 | B4 B2B2 | e2E2E2 :|
+|: z2 |!p!\
+B2z2 B2z2 | B2z2 B2z2 | E2z2 E2z2 | B2B2B2z2 |\
+B2z2 B2z2 | !/!B8 | e4 B2d2 | e2E2E2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

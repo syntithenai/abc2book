@@ -1,0 +1,46 @@
+
+X: 1
+T: Bourr\'ee des Dindes  [D]
+T: the Turkeys' Bourr\'ee
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|: "A7"A,4 B,2C2 | "D"D8 | "Em"E3F G2F2 | E2D2 "(E7)"C2B,2 \
+|  "A7"A,4 B,2C2 | "D"D8 | "Em"E3F G2F2 | "A7"E8 :|
+|: "Em"E3F G2F2 | E3F G2F2 | E2D2 "(E7)"C2B,2 | "A"B,4 A,4 \
+|  "Em"E3F G2F2 | E3F G2F2 | "A7"E2D2   C2E2 | "D"D8 :|
+
+
+%%sep 1 1 500
+
+X: 2
+T: Bourr\'ee des Dindes  [G]
+T: the Turkeys' Bourr\'ee
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|: "D7"D4 E2F2 | "G"G8 | "Am"A3B c2B2 | A2G2 "(A7)"F2E2 \
+|  "D7"D4 E2F2 | "G"G8 | "Am"A3B c2B2 | "D7"A8 :|
+|: "Am"A3B c2B2 | A3B c2B2 | A2G2 "(A7)"F2E2 | "D"E4 D4 \
+|  "Am"A3B c2B2 | A3B c2B2 | "D7"A2G2   F2A2 | "G"G8 :|
+
+
+%%sep 1 1 500
+
+X: 3
+T: Bourr\'ee des Dindes
+T: the Turkeys' Bourr\'ee
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin (landscape layout, labelled page 41)
+K: D
+%
+W: Ma chienne Garelle, va virer les loups, ma belle!
+W: Ma chienne Garelle, va virer les loups! (repeat)
+W:
+W: Ah, ram\`enes-les l\`a, ram\`enes-les l\`a, ma chienne Garelle,
+W: Ah, ram\`enes-les l\`a, ram\`enes-les l\`a, quand ils sont plats,
+W:
+W: Ah, laisses-les don l\`a, laisses-les don l\`a, ma chienne Garelle,
+W: Ah, laisses-les don l\`a, laisses-les don l\`a, quand ils sont gras.

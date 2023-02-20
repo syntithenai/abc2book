@@ -1,0 +1,18 @@
+X: 10352
+T: LADY MARGARET STEWART'S REEL
+R: reel
+B: "Edinburgh Repository of Music" v.1 p.35 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain's repeat ':' is missing, but the staff lines are also blank there, so I included the repeat.
+M: C
+L: 1/8
+K: Bm
+g |\
+Tf2Bf dBfB | (f/^g/a) ef cAec |\
+Tf2Bf dBfd | ecac B/B/B B :|\
+A |\
+FB-TB>c dBcA | EA-AB Tc>dec |
+FB-B>c dBdb | a>fec B/B/B TB2 |\
+FB-B>c dBcA | EA-A>B Tc>dec |\
+dBdb cAce | dfec B/B/B B |]

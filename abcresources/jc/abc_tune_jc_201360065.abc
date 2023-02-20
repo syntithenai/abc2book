@@ -1,0 +1,27 @@
+X:1199
+T:The Smith's a Gallant Fireman
+C:anon.
+O:Scotland
+S:the way people round Edinburgh play it in sessions
+R:strathspey
+Z:Jack Campin 1998-2000
+F:http://abc.musicaviva.com/tunes/scotland/smiths-a-gallant.abc
+%Posted June 29th 2000 at abcusers by Jack Campin during a discussion
+%about tune identification algorithms.
+%  Jack said:
+%"Here's a set of tunes that for a dead cert are genetically related.
+%Do any of the tune-matching algorithms suggested here detect that?"
+M:4/4
+L:1/8
+K:D
+% D major/mixolydian hexatonic
+D2 D>F A<AA>F|A>Bd>A F2E>D|E2 E>G B<BB>A|d>fe>d B2B<d|
+D2 D>F A<AA>F|A>Bd>A F2E>D|G>BG<B F>AF<A|E>FG>A B2A2||
+d>ef>e d<dd>A|B>Ad>A F2E>D|e2 e>f e2 e>f|g>fe>d B2A2 |
+d>ef>e d2 d>A|B>Ad>A F2E>D|G>BG<B F>AF<A|E>FG>A B2A2|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+
+

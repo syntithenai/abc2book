@@ -1,0 +1,14 @@
+X: 1
+T: a Daisy In December
+C: Winifred Horan [Solas]
+M: 3/4
+L: 1/8
+P: AABABA
+R: waltz
+K: Dm
+"A"[|]\
+d2 e2 | "Dm"f3 g f2 | "C"e4 c2 | "Bb"d3 c B2 | "A7"A4 G2 | "Dm"F3 G A2 | "Gm"B4 c2 | "A7"A6 | z2 \
+d2 e2 | "Dm"f3 g f2 | "C"e4 c2 | "Bb"d3 c B2 | "A7"A4 G2 | A3 B A2 | ^c4 e2 | "Dm"d6 | "Fine"z2 :|
+"B"[|]\
+e2 f2 | "Gm"g3 a g2 | "A7"f4 {gf}e2 | f2 A2 ^c2 | "Dm"d4 f2 | "Gm"g3 a g2 | "A7"f4 e2 | "Dm"d6 | z2 \
+e2 f2 | "Gm"g3 a g2 | "A7"f4 {gf}e2 | a4 e2 | "Dm"d4 A2 | "Gm"B2 c2 d2 | b4 f2 | "A7"e6 | "d.C."z2 |]

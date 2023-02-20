@@ -1,0 +1,19 @@
+X: 20422
+T: BOCAGE QUE, L' AURORE
+Q: "Andantino"
+%R: _
+B: "Edinburgh Repository of Music" v.2 p.42 #2 - p.43 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+%%slurgraces
+%%graceslurs
+!p!g2 |\
+(g4 .d2)dd | (d4 .B2)BB | B4 (c/B/A/B/) (d>c) | A4 z3a |\
+(a3f) (f3d) | (d3f/e/) d4 | c2cc (d/c/B/c/) (d>c) | B4 z3g |\
+g4 zeee | g3d d2gg |
+e4 {a}g3e | d4 z3B |\
+B3B B3B | {Bd}c2B2 z3A | A4 (A2BA) | {^GAB}A4 z3a |\
+a3a (3(agf) (3(fed) | (d>gg2) z2(e>g) | g3g (f2ga) | g6 |]

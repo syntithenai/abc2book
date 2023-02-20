@@ -1,0 +1,35 @@
+X: 20801
+T: COQUETTE SETT (tune 1)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.80 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="1"
+cd |\
+e4 d2e2 | c2G2 G2AB | c2Bc d2cd | e2c2 G4 |\
+e4 d2e2 | c2G2 G2AB | c2Bc d2cB | c2e2c2 H|]
+|: GA |\
+B2Bc d2de | f2fg a3g | ^fgag fedc | BcdB G2GA |\
+B2Bc d2de | f2fg a3g | ^fgag f2a2 | "^D.C."g6 :|
+z2 |\
+a2a2 a2a2 | a2b2 e4 | d2c2B2A2 | B2A2 E4 |\
+{^g}a2{g}a2 {g}a2{g}a2 | a2b2 e4 | d2c2 B2a2 | A2B2 c2"^D.C."d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Chassa across four,
+%% and back,
+%% -- forward four,
+%% half promenade,
+%% ladies forward and back,
+%% gentl'n the same,
+%% -- forward four,
+%% half prom'd to place,
+%% sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

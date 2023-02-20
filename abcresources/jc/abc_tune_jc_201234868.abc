@@ -1,0 +1,19 @@
+X: 20843
+T: HOP-O'-MY THUMB
+C: Copyright.--Johnson Segton
+Q: "Lively."
+%R: march, polka, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.84 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4	% Book has 3/4, but that's clearly wrong.
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |:\
+cdef | ga g/e/c | defd | ec d/B/G |\
+cdef | g/^f/g/a/ g/e/c | de=fd | cBc2 :|
+|:\
+dcBA | G/E/C DE | FGAB | cd/c/ B/A/G |\
+edcB | Ac G/E/C | DE G/F/E/D/ | CB, C2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

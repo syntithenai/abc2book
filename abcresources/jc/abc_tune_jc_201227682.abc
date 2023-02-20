@@ -1,0 +1,25 @@
+X: 10921
+T: JOHNNIE FAA
+O: Old Scottish melody.
+Q: "Very slow."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.92 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Fmix
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+F2(FG) B3A | ({A}G>F)(GB) {c}c2zd |\
+F3G (Bd)(cB) | {A}G4 F3F |\
+F2(FG) B3A | ({A}G>F)(GB) {d}c3d |\
+F3G (Bd)(cB) | {A}G4 F2z :|
+|: d |\
+c2(cd) f3g | (f<d)(c>d) B3d |\
+{d}c3d f3e | {e}d4 c3d |\
+c2(cd) f3g | (f>d)(c>B) B3c/d/ |\
+F3G (Bd)(cB) | {A}G4 F2z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

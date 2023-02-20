@@ -1,0 +1,65 @@
+%%textfont Helvetica-Bold 21
+%%center Trad. militaire
+%%titleleft
+%%textfont Helvetica 16
+%%infoline 1
+
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X:1
+T:Suite de pas d'été
+C:Sarthe
+I:abc2nwc
+%%continueall 0
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-24
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+K:A
+efed cBcd|efec a4|bagf efed|cBcB A2A2|
+efed cBcd|efec a4|bagf edcB|A2c2 A2 z2:|
+|:AcAc e2ef|ecec d4|BdBd f2fg|feaf e4|
+AcAc e2ef|ecec d4|BdBd f2fg|fefg a2 z2:|
+|:a3g fedc|BAGF EEGB|d3c BAGA|BAGF EAce|
+a3g fedc|BAGF E2Bd|f2ec e2dB|A2c2 A2 z2:|
+|:Acec aecA|GBdB fecA|EAce dBGB|EGBd fe^de|
+Acec aecA|GBdB fecA|EAce dBGB|EEGB A2 z2:|
+|:[K:D]a3f dfaf|bagf edef|g3f edce|agfe f2d2|
+a3f dfaf|bagf e2A2|ABcd efge|d2f2 d2 z2:|
+|:defg a^gag|bagf f2e2|cdef gfgf|agfe f2d2|
+defg a^gag|bagf f2e2|ABcd efge|d2f2 d2 z2:|
+[K:G]|:b3a g2g2|agfg agfg|aaba gfef|gfaf d2d2|b3a g2g2|
+agfg agfg|aaba gfef|[1a2g2 g2 z2:|[2a2g2 g2ga
+|:bddd dgfg|bddd dgfg|aaba gfef|gfaf d2ga|bddd dgfg|
+bddd dgfg|aaba gfef|[1a2g2 g2ga:|[2a2g2 g2 z2|:
+[K:Bb] d3d (db)(db)|c3c (ca)(ca)|B4(ABce)|(dcBA GFED)|
+d3d (db)(db)|c3c (ca)(ca)|B4ABce|dcBA G2 z2:|
+|:DGBG BcA2|AFAF d2BG|DGBd g^fed|dcBA G^FED|DGBG BcA2|
+AFAF d2BG|DGBd g2g2|[1^fgaf g2 z2:|[2^fgaf g2
+[K:G] (3def|:g2g2 gabg|a2a2 a2c'2|c'bag fgab|
+agfe ddef|g2g2 gabg|a2a2 a2c'2|
+c'bag fdef|[1g2b2 g2  (3def:|[2g2b2 g2 z2
+|:Bdgd bgdB|cfaf c'afd|ceeg gbag|fgag fedc|Bdgd bgdB|
+cfaf c'afd|cdef gbaf|[1g2b2 g2 z2:|[2g2b2 g2d2
+|:gfga gfgb|agfe dedc|BcBA G2g2|fgaf d2d2|gfga gfgb|
+agfe dedc|BcBA GBAG|[1A2G2 G2d2:|A2G2 G2AB
+|:cBAG FAdc|BcBc eBcd|edcB AGFG|B2A2 A2AB|
+cBAG FAdc|BcBc eBcd|edcB ABcd|e2d2 d2 z2:|
+
+%%footer $D   Galouvielle-MBe 2006 \nDanse de caractère (Provence)
+X:2
+T:La Remuante
+R:Danse de caractère
+T:La Voyageuse
+C:Jean-Noël Clamon
+O:Provence
+A:Provence
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-03-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+K:F
+z>fA>d|:c2A2 F>fe>d| c2B2 G>fe>d| c2B2 G>gg>f| e2d2 c>dc>B|
+A2G2 A2B>c| d>cB>A G>AB>c| e>dc>B A>Bc>e| g>fe>d c>BA>G|[1 A2d2 c>!breath!fA>d :|[2 F2c2 f2_e>d||
+[K:Bb] c>de>d c>de>c| d2B2 B2A>B| c>BA>B c>ed>c| d2B2 F2A>c|
+e>dc>B A>Bc>e| d>cB>A G>AB>c| d>fB>d c>ed>c|[1 B2F2 !breath!B2_e>d:|[2 B2F2 !breath! B>fA>d||

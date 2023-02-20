@@ -1,0 +1,51 @@
+X:3
+T: Seige of Ennis Medley  #1
+T:Andy Irvings Polka % 1st half
+T:Banks of Inverness Reel % Key of D
+T:Seige of Ennis % 2nd half
+R:polka
+M:4/4
+L:1/8
+Q:1/4=200
+K:G
+% MIDI Key signature, sharp/flats=1  minor=0
+% Time signature=4/4  MIDI-clocks/click=48  32nd-notes/24-MIDI-clocks=8
+%%MIDI control 10 64
+%%MIDI beatstring fpmp
+%%MIDI gchord fzczfzcz 2 48 60 3 36 100
+%%MIDI chordprog 4
+%%MIDI control chord 7 90
+%%MIDI control chord 10 30
+%%MIDI bassprog 4
+%%MIDI control bass 10 10
+%%MIDI control bass 7 80
+V:1
+% Fiddle
+% 1 sharp
+%%MIDI channel 1
+%%MIDI program 110
+%%MIDI control 7 100
+%%MIDI control 10 85
+%%MIDI beatstring fpmp
+%%MIDI gchord fzczfzcz 2 48 60 3 36 100
+%%MIDI chordprog 4
+%%MIDI drum dddd  36 38 36 38 90 60 90 60
+%%MIDI grace 1/2
+z7E "drum"|
+|: "G"D>EDB, DEG>A | Bd AB/A/ "C"GEcE | "G"D>EDB, DEG>A |\
+[1 "D"Bd AB/A/ "G"G2 GE :|2 "D"Bd AB/A/ "G"G2 GA |
+|: "G"Bdd>B "C"cee>c | "G" Bd AB/A/ "C"GEcE | "G"Bdd>B "C"cee>f |\
+[1 "Em"ge"D"fd "C"e2 eA :|2 "Em"ge"D"fd "C"e2 ef |
+|:"Em" ge"D"fd "C"ed"G"B>A | "G"Bd AB/A/ "C"GEcE | "G"D>EDB, DEG>A |\
+[1 "D"Bd AB/A/ "G"G2 Gf :|2 "D"Bd AB/A/ "G"G2 GE |
+|: "G"D>EDB, DEG>A | Bd AB/A/ "C"GEcE | "G"D>EDB, DEG>A |\
+[1 "D"Bd AB/A/ "G"G2 GE :|2 "D"Bd AB/A/ "G"G2 GA |
+|: "G"Bdd>B "C"cee>c | "G" Bd AB/A/ "C"GEcE | "G"Bdd>B "C"cee>f |\
+[1 "Em"ge"D"fd "C"e2 eA :|2 "Em"ge"D"fd "C"e2 ef |
+|:"Em" ge"D"fd "C"ed"G"B>A | "G"Bd AB/A/ "C"GEcE | "G"D>EDB, DEG>A |\
+[1 "D"Bd AB/A/ "G"G2 Gf :|2 "D"Bd AB/A/ "G"G2 GA |
+|: "G"BdBdBddB/d/ | {ef}edBA "C"BAAG | "G"BdBdBddB/d/ |"D"{ef}ed{Bd}BA "G"AGGG/A/ |
+"G"BddB/d/ "C"edd>B | "G"dBAG/A/ "C"BA ~A2 | "G"Bdd>d eddB/d/ |\
+[1 edBA "G"BGGA :|2 edBA "G"BGGE |
+|: "G"D>EDB, DEG>A | BdBA "C"GEE>D | "G"D>EDB, DEG>A |\
+[1 Bd"D"BA "G"G2 GE :|2 Bd"D"BA "G"G2 G z |]

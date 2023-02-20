@@ -1,0 +1,35 @@
+X: 3113
+T: the Weary Pund O' Tow
+%R: waltz
+N: This is version 2, for ABC software that understands voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.3 p.11 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: The "voice overlay" isn't very useful in this tune, and the clef changes aren't, either.
+N: The ABC1 transcription doesn't use them, and it's easier to read (but the "drone" notes in V:1 are missing.)
+M: 3/4
+L: 1/8
+Q: "Slow with Expr.n"
+K: Bb
+% - - - - - - - - - -
+V: 1 staves=2
+F |\
+[BD]>[BD] [B3D3][BD] | (3(Bcd) c3B | A>B [e3F3][dF] | (dc) z3f ||\
+[BD]>[BD] [B3D3][BD] | (3(Bcd) {d}c3B | A>B c2 d2 & x2 F4 | [B4F4D4] z :|
+e |\
+!f!d>e f2 z3/B/ | e>f g2 z3/B/ | A>B "_sf"e3 d & x2 F4 | ([dB][cA]) z3 !p!(3(f/g/a/) ||\
+b>b {b}a3g | ff Hb3B | A>B c2 d2 & F6 | [B4F4D4] z ||
+e |\
+~d>e f2 z3/B/ | ~e>f g2 z3/B/ | A>B "_sf"[e3F4]d | dc c3 (3(f/g/a/) ||\
+b>b {b}a3g | f{gf=e}f Hb3 !p!B | "_Ad lib."F>B [d2F2] T[cE]>>[BD] | [B4F4D4] z |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+B2 b2 b2 | (3d'e'f' e'2 d'2 & b6 | c'b a2 b2 | f2 f'3z ||\
+B2 b2 b2 | (3d'e'f' e'2 d'2 & b6 | c'>b a2 f2 | Bd/>f/ b3 :|
+z |\
+!f!B2 [b2d2] z3/[_a/A/] | [gG]>[fF] [e2E2] z2 | e>d A2 B2 | F2 f3 z ||\
+[d'2d2] [e'3e3] [e'e] | [d'2d2] H[b3B3] d' | e'>d' c'2 f2 | Bd/f/ b3 ||
+z | b2 d'2 z> \
+[K: clef=treble] _A | G>F E2 z2 \
+[K: clef=bass middle=d]| e'>d' a2 b2 | f2 f'3 z ||\
+d'2 e'4 | d'2 Hb3 z | d>B f2 F2 | [B4B,4] z |]

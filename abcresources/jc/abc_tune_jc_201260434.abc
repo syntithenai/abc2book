@@ -1,0 +1,29 @@
+X: 1
+T: the Smith's a Gallant Fireman
+T: Carrick's Rant
+Z: John Chambers <jc:trillian.mit.edu>
+N: Often attributed incorrectly to J.S.Skinner. He wrote variations, but it's an old tune.
+B: John Anderson's "Second Collection of New Highland Strathspey Reels" 1791
+% 4 ways to give the publication date:
+O: 1791
+N: Published 1791
+%D: 1791
+%date: 1791
+%%slurgraces yes
+%%graceslurs yes
+B: In O'Neill's Dance Music of Ireland under the title "More Luck to Us"
+B: H&C p.87 (best setting)
+B: Skye p.44
+B: BSFC VII-2 and I-55
+B: BSFC Session Tune Book 2016 p.55
+M: C
+L: 1/8
+K: D
+[| "D"~D2 D>F {F}A2 A>B | A>B d>A F2 D2 \
+ | "Em"~E2 E>G {G}B2 B>f | g>f e>d "A7"B>A B{c}d |
+ | "D"~D2 D>F {F}A2 A>B | A>B d>A F2 D>F \
+ | "G"G>B G<B "D"F>A F<A | "Em"E>F G>A "A7"B>A B>c ||
+|| "D"d2 f>e e<d d>B | A>B d>A F2 D2 \
+ | "Em"e2 g>f e<e e>f | "G"g>f e>d "A7"B>A B>c |
+ | "D"d2 f>e e<d d>B | A>B d>A F2 D2 \
+ | "G"G>B G<B "D"F>A F<A | "Em"E>F G>A "A7"B>A B{c}d |]

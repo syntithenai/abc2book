@@ -1,0 +1,36 @@
+X: 20883
+T: LOWELL SETT (tune 3)
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.88 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain should probably have a fermata over its final double bar.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+c2 |\
+f2 (3(fgf) e2g2 | f2 (3(fgf) c2 (3(cdc) | dcBA GABc | ABcA Fcde |\
+f2 (3(fgf) e2g2 | f2 (3(fgf) d2B2 | c2(ed) (dc).B.G | F2F2F2 |]
+AF |\
+FEDC =B,CDE | FAcA (dc).B.G | FEDC =B,CDE | F2af cdBG |\
+FEDC =B,CDE | FAcA cAGF | DdcB AGFE | F2A2"^D.C."F2 |]
+|: A2 |\
+d2^cd A2{e}f2 | d2^cd {e}A2(a2 | g2)(g2 f2)(f2 | e)fge ^cdef |\
+d2^cd A2{e}f2 | d2^cd A2{e}a2 | b2ba gagf | ed^ce "^D.C."d2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First four lead to the right,
+%% and balance,
+%% swing the ones behind you,
+%% lead up again with the ones you turn,
+%% swing partners,
+%% bal. four,
+%% ladies chain,
+%% prom. four,
+%% Sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

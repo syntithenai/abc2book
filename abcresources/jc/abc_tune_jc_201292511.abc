@@ -1,0 +1,23 @@
+X: 1
+T: Jenny Dang the Weaver
+O: Skye
+R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: BSFC Session Tune Book 2016 p.34
+S: BSFC Book XXIII-3
+S: Concord Slow Scottish Session collection
+S: handwritten page by Barbara McOwen labelled "ROAD TA HOULL SET - PAGE TWO", dated Oct 2003
+M: C|
+L: 1/8
+K: D
+%%slurgraces
+fe "A"[|\
+"D"dA~A2 (AF)AB | "D"dA~A2 {a}"D7"f2ef |\
+"G"dB~B2 ({d}BA)Bd | "Em"ABd(e "A7"fa)ef |\
+"D"dA~A2 (AF)AB |
+"D"dA~A2 "D7"{a}f2ef |\
+"G"dB~B2 ({d}BA)Bd | "Em"ABd(e {a}"A7"f2) |]| ef |\
+"D"d2fd "Em"(ef)ge | "D"d2fd "A7"e2cA |
+"D"d2fd "G"(ef)ge | "Em"aA~A2 "A7"{a}f2ef |\
+"D"d2fd "Em"(ef)ge | "D"defd "A7"e2(cA) |\
+"D"defd "G"efg(e | "Em"ab)a(g "A7"af)ef |]

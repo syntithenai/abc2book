@@ -1,0 +1,22 @@
+X: 139
+T:Hora Fetelor
+O:Romainia
+F: http://www.youtube.com/watch?v=EV1ByCr5RHo
+F: http://www.youtube.com/watch?v=-elDPSuyBCE
+F: http://www.youtube.com/watch?v=fKNH2kCUajU
+L:1/8
+M:2/4
+Q:1/4=72
+K:Gm
+% sholud be played one octave higher than written
+% on a pan flute or something equivalent.
+P:A
+ "G"D G2 G         | "G"A =B2 B      | "F"=B c2 A         | "Dm"A3 A       |\
+ "G"=Bc d2         | "Cm"ef (3edc    | "G"d4              |
+ "G"D G2 G         | A =B2 B         | "F"=B c2 A         | "Dm"A3 A       |\
+ "G"(3=Bcd "F"(3cBA| (3c=BA "D"(3AG^F| "G"G4              |
+P:B
+ "Dm"z=B"Cm"cd     | e3 d            | "G"d3 =B           | (3=Bcd "F"(3cBA|\
+ c A2 A            | "Cm"=B c2 c     | "Dm"(3def "Cm"(3edc| "G"d4          |
+ "Dm"z d"Cm"ef     | "G"g3 f         | "Cm"ed c=B         | "G"gf "Cm"ed   |\
+ "G"c=B3           | (3=Bcd "F"(3cBA | "F"(3c=BA "D"(3AG^F| "G"G4          |

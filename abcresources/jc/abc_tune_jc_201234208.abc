@@ -1,0 +1,26 @@
+X: 20341
+T: the SCOTS RECLUSE
+C: James Oswald.
+Q: "Slow."
+%R: air, march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.34 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C	% Actually, there's no time signature.
+L: 1/8
+K: D
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+d3c B2(Bc/d/) | (AF)(E>D) D3E | (FE)(FA) B2(cd) | (ec)(B>A) A3A |\
+d3c B2(Bc/d/) | (AF)(E>D) D3E | (FE)(FA) (Bd)(ef) | A2(e>d) d3 |]
+A |\
+d3c B2(Bc/d/) | (BA)(GF) G3A | B2(cd) e3d | c2(B>A) A3A |\
+(dfa)=c B3f | (gf)(ed) {d}c3B | (AG)(FG) A2(de) | {de}f2(e>d) d3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The song by John Lapraik, "When I upon thy bosom lean," is sung to the above air.
+%%endtext
+%%sep 1 1 300

@@ -1,0 +1,25 @@
+X: 2282
+T: the Humours of Kelkenny.   a Jig
+O: Irish
+%R: jig, air
+B: Niel Gow & Sons "Complete Repository" v.2 p.28 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 8-bar lines, for compactness and proofreading.
+V: 1 staves=2
+e |:\
+cAA A2c | e>fe Te2d |cAA Ace | Tf3 a3 || Ace agf | fed {d}c2B | cAF TF>GF | d3 Tc2B :|
+cAF TF3 | AFE E2d | cAF TF3 |{F}d3 dfd || cAF TF3 | AFE E2d | cBA BAF | A3 A2d ||
+cAF F3 | AFE E2d | cAF TF3 | {F}d3 dfd || cAF TF3 | AFE E2d | cBA BAF | A3 A2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |:\
+a3 a3 | a3 a3 | a3 a3 | d3 c3 || A3 a3 | A3 a3 | A3 a3 | g3 a2b :|
+[f3c'3] f3 | e3 e3 | f3 f3 | g3 a2b || [f3c'3] f3 | e3 e3 | a3 e3 | A3 A3 || [f3F3] [f3F3] |
+[e3E3] [e3E3] | [f3F3] [f3F3] | [g3G3] a2b || [f3c'3] f3 | e3 e3 | a3 e3 | A3 A2 |]

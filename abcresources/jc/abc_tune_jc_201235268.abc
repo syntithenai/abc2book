@@ -1,0 +1,24 @@
+X: 21061
+T: the AERIAL QUADRILLES. NO. 1.--le Pantalon.
+C: Copyright.--R.S.
+%R: jig
+N: This is version 1, for ABC software that doesn't understand diminuendo/crescendo notation.
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.106 #1 
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Rhythm problems fixed by deleting segnos and the final F in strain 2.
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+=Ez F Bz c | d3- dBc | d3- de=e | f3- f=ef |\
+a3- age | g3- gfd | Td2c e2d | B2z b2 |]
+K: F
+c !f!|\
+c=Bc fef | ez d bz a | gfe dBd | c3 A2B |\
+c=Bc fef | d^cd bag | fed cBG | FFF F"^D.C."F |]
+c |!p!\
+cz f az g | gz f ez f | "cresc. - - - - -"g2f gab | c'cc ccc |\
+!p!cz f az g | gz f e2d | c=Bc a2g | f3- "^D.C."f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

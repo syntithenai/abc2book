@@ -1,0 +1,33 @@
+X: 1
+T: Young Damon's flight
+%R: triple hornpipe, slip-jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (71)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+N: The first "then" in the dance is written "yn", with the 'n' above the 'y'.
+M: 9/8
+L: 1/8
+K: Bm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+f2c d>cB c2c | dcB dcB ^A2G |\
+Fdc EcB DGF | EDC B,B^A B3 :|\
+|:\
+f2e fga efg | f>gf efd cde |
+fga fdc BAG | F3 Edc d2f |\
+c2f c2f c2F | B>cd efd cde |\
+fbg eaf dge | fbc c3 B2z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% First Man take 2d by his left hand lead him half round, then
+%% all 4 take hands and go half round .| 2d Wo. do the same
+%% as the Men :| 1st Cu. sett and crose [sic] over 1st Man below 3d
+%% Cu. and 1st Wo. above 2d Cu. go the Hey with the 2d and
+%% 3d Cu. .| Then 1st Cu. fall back, 1st Man cast up 1st Wo. at
+%% the same time cast off. 1st Man figure thro' 2d Cu. and 1st
+%% Wo. at the same time figure thro 3d Cu. and turn in the
+%% 2d Cu. Place Proper ...
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,15 @@
+X: 705
+T: More Power to Your Elbow   #2
+R: hornpipe
+%S: s:2 b:9(4+5)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #705
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0705/oneill-1001-0705-1.abc
+N: Compacted via repeats and multiple endings [JC]
+N: Unusual use of !segno! symbols to reduce this to 2 staffs.
+M: C|
+L: 1/8
+K: G
+"^A"[|] (GE) |: DGGB AGGB !segno!| dGBG AGEG | DGGB AGGg | egdB [1 AGEG :|[2 "^fine"G2 |]
+"^B"\
+[| (ef) | g2(ge) dgge | dBGB AGE2 | g2(ge) degb | agab a2 || (ga) | bagb ageg !segno!|]

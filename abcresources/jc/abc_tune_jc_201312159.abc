@@ -1,0 +1,44 @@
+X:1
+T:Mocking Bird Hill
+M:C
+L:1/8
+Q:80
+C:
+S:Waltz
+K:HP
+f | \
+A{Gdc}d{g}fa{a}fd | \
+GBdg | \
+dBA{gcd}ce | \
+g{a}egfdBA| |
+f | \
+A{Gdc}d{g}fa{a}fd | \
+GBdg | \
+dBA{gcd}ceg | \
+e{gf}gf{g}d{G}d{g}d3/2|] |
+{gf}gf{Gdc}daf{Gdc}d{g}B | \
+{g}GB{Gdc}dg{g}d | \
+{d}B{G}Ac{gef}e{gf}ge |
+{gf}gf{Gdc}dB{G}A3/2 | | \
+{gf}gf{Gdc}daf{Gdc}d{g}B | \
+{g}GB{Gdc}dg{g}d |
+{d}B{G}Ac{gef}e{gf}ge | \
+{gf}gf{g}d{G}d{g}d3/2|]  | \
+f |
+{Gdc}df{G}A{g}fAd | \
+AB{g}G{g}B{G}Ac | \
+e{gf}ge{gf}gf |
+{Gdc}dBA3/2 | | \
+{Gdc}df{G}A{g}fAd | \
+AB{g}G{g}B{G}Ac |
+e{gf}ge{gf}gf | \
+{g}d{G}d{g}d3/2|]  | \
+{gf}g |
+aga{Gdc}d{G}d | \
+gB{G}B{Gdc}dB{G}B | \
+{G}Ac{g}e{gf}g |
+{a}e{gf}gf{Gdc}dB{G}A3/2 | | \
+aga{Gdc}d{G}d | \
+gB{G}B{Gdc}dB{G}B |
+{G}Ac{g}e{gf}g | \
+{a}e{gf}gf{g}d{G}d{g}d3/2|]

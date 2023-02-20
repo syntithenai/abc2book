@@ -1,0 +1,16 @@
+X: 953
+T: Dick Sand's Hornpipe   #2
+R: hornpipe
+%S: s:3 b:14(6+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #953
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0953/oneill-1001-0953-1.abc
+N: Compacted via repeats and multiple endings [JC]
+M: C
+L: 1/8
+K: G
+"^A"[|]\
+(3(def) | ggd(B GB)ed | cBAG FADF |[1,3 G(ABc) dBGB | A(dce) d2 :|[2,4 G(BdB) ecA(F | G2)GF G2 :|
+"^B"\
+|: (cB) | ABA(G FD)EF | G(ABc) dBGB | c(Bcd) e(dcB) | Adce d2 ||
+| (3(def) | (3(gag) (dB) (3(efe) (cA) | (3(ded) Bd (cA)FA | GBd(B ec)A(F | G2)GF G2 :|

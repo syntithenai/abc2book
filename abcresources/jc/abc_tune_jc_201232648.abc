@@ -1,0 +1,1098 @@
+
+X: 0
+T: A Collection of SCOTS REELS or Country Dances For the Year 1769
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+B: Name "A Collection of SCOTS REELS or Country Dances", London 1769
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+%N: This booklet sometimes used the following icons in the dance descriptions (rotated 1/4 turn to be typable):
+%N:   .|.  First  strain first  time.
+%N:   .|:  First  strain second time.
+%N:   :|.  Second strain first  time.
+%N:   :|:  Second strain second time.
+%N: In many cases, though, the end-of-phrase icons follow no sensible pattern.
+K:
+%%sep 2 2 400
+%%center For the Year 1769
+%%center -----------------------------------
+%%center A COLLECTION
+%%center of
+%%center SCOTS REELS
+%%center or
+%%center COUNTRY DANCES
+%%center With a BASS for the VIOLINCELLO or HARPSICHORAnd proper Directions to each Dance.
+%%center LONDON Printed and fold by R: BREMNER at the Harp and Hautboy
+%%center Opposite Somerset House in the STRAND.
+%%center Where may be had Vol. first Price 5.sh
+% %begintext align
+% % Transcription notes:
+% % The tunes are are unnumbered; their count (01-24)
+% % is used in the file name to preserve the publication order.
+% % Some abbreviations use small superscript letters with a dot underneath.
+% % The dots are mostly ignored, and the letters typed as-is.
+% % Some abbreviations end with ":", which is transcribed.
+% % Original staff breaks are ignored; the ABC is formatted to have 2 or 4 bars per line,
+% % which are joined into staffs to look good at a small scale.
+% % Dances are transcribed using %%begintext, with one line per figure, which isn't significant.
+% %endtext
+%%sep 2 2 400
+
+
+X: 01
+T: The New Town of Edinburgh
+%R: reel
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.97 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+E |\
+(A,EAc) (d/c/B/A/) (GA) | (c/d/e) (c/d/e) BB,B,C |\
+(A,EAc) (d/c/B/A/) (GA) | (c/d/e) (c/d/e) AA,A, ::\
+E |\
+(FE)(AE) (FE)(AE) |
+(C/D/E) (C/D/E) B,BBE |\
+(FE)(AE) (FE)(AE) | (B,/C/D) (B,/C/D) A,AA ::\
+d |\
+(Tc>de)A (GA)(FA) | (EA)(DA) B,BBd |\
+(Tc>de)A fAeA |
+dc(TB>A) EAA ::\
+c |\
+(Aceg) ag(Tfe) | dc(TBA) GB-Bc |\
+Aaba eaca | Ba (f/g/a) aAA :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | A2A2 B2B2 | A2A2 a2a2 | e2e2 A2A :: z | a2a2 a2a2 |
+a2a2 b2b2 | a2a2 a2a2 | e2e2 A2A :: z | a2a2 a2a2 | a2a2 b2b2 | a2a2 a2a2 |
+d2e2 A2A :: z | a2a2 a2a2 | d2d2 e2e2 | a2a2 a2a2 | d2e2 A2A :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The first and Second Couple foot it and change sides .|
+%% the same back again :|
+%% foot it all four Right hands across .|.
+%% foot it Left hands back again :|:
+%% lead down two couple foot it to your Partner .||
+%% lead up to the Top foot it and cast off :||
+%% hands Round four with the third couple .||.
+%% Right and Left at Top :|:
+%%endtext
+%%sep 2 2 400
+
+
+X: 02
+T: Ross House
+%R: reel
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.97 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+f |\
+d2(TA>G) FGAc | d2(TA>F) E3c |\
+d2A>G FGAg | (f/g/a) ef d3 :|
+|: (g |\
+Tf)>ede =cdeg | Tfedf g3a |\
+Tf>ede =cdeg | (f/g/a) ef d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 d2d2 | d2d2 e2e2 | d2d2 d2d2 | A2A2 D2D :|
+|: z |\
+d2d2 =c2c2 | d2d2 d2d2 | d2d2 =c2^c2 | d2A2 D2D :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st Cu: foot it and cast of two Cu. .|
+%% foot it and cast up again :|
+%% cross over two Cu .|.
+%% lead up to the Top and cast off :|:
+%% Set corners and turn :||
+%% lead outsides and turn :||:
+%%endtext
+%%sep 2 2 400
+
+
+X: 03
+T: The Whigs of Fife
+%R: reel
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.98 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The fermata in bar 3 is mysterious, and is actually placed between the f and g notes.
+M: C
+L: 1/8
+K: Ddor	% or maybe F with no Bb in the key signature.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+f |\
+cF F/F/F (AG)GA | cF F/F/F Hf>gag |\
+fF F/F/F (AG)GA | FDEC D3 :|
+|: (e |\
+f)ccf gdd(e | f)ccd (f/e/f/g/ a)(g |\
+f)ccf gdde | (f/g/a) (Tg>e) d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z | f2f2 g2g2 | f2f2 f2f2 | f2f2 g2g2 | f2e2 d2d :|
+|: z | f2f2 g2g2 | f2f2 f2f2 | f2f2 g2g2 | a2A2 d2d :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The first Cu: Hey contray sides .|
+%% then on your own sides :|
+%% lead down two Couple foot it .|.
+%% lead up to the Top and cast off :|:
+%%endtext
+%%sep 2 2 400
+
+
+X: 04
+T: Miss Cahoon's Reel
+%R: jig
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.98 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+C |\
+F2G A2B | cfd cAF | (TB>AB) cAF | (E/F/G).G G2A |\
+FCF AFA | cfd cAF | (TB>AB) GcB | AFF F2 :|
+|: c |\
+(Tf>ef) gec | dfd cAF | (B/c/d).B (A/B/c).A | (E/F/G).G G2c |\
+faf ege | dfd cAF | TB>AB GcB | AFF F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+f3 f3 | f3 f3 | f3 f3 | c3 c3 |\
+f3 f3 | f3 f3 | B3 c3 | F3 F2 :|
+|: z |\
+f3 c'3 | b3 a3 | g3 f3 | c3 c3 |\
+f3 A3 | B3 A3 | B3 c3 | F3 F2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st Cu: cast of one Cu: hands round four with the 3d Cu: .|
+%% cast up and hands round four with the 2d Cu: :|
+%% cross over two Cu: .|.
+%% lead up to the Top, foot it and cast off :|:
+%% turn corners with your right hands, and turn your Partner with your left .||
+%% the other corners the same :||
+%% Hey contrary sides .||.
+%% then on your own sides :||:
+%%endtext
+%%sep 2 2 400
+
+
+X: 05
+T: Miss Betty McDonald's Reel
+%R: reel
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.99 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+G2 D(E/F/ G)DB,G, | GABG A/A/A A2 |\
+G2 (TF3/E//F//) GG,G,c | BdAB G/G/G G2 ::\
+BcdB ecdB | cB AG =F/F/F A2 |
+Bd-dg ecdB | cAdB G/G/G G2 |\
+BcdB ecdB | cB AG =F/F/F A2 |\
+Bd-dg egdB | cAdB G/G/G G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g2g2 g2g2 | g2g2 a2a2 |\
+g2g2 g2g2 | d2d2 G2G2 ::\
+g2g2 g2g2 | c2c2 =f2f2 |
+g2g2 g2g2 | d2d2 G2G2 |\
+g2g2 g2g2 | c2e2 =f2f2 |\
+g2g2 g2g2 | d2d2 G2G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The first and 2d Cu: foot it right and left half round .|
+%% the same back again :|
+%% lead down two couple foot it lead up to the Top and cast off :|:
+%%endtext
+%%sep 2 2 400
+
+
+X: 06
+T: Glenlyons Rant
+%R: reel
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.99 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Dmix
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F |\
+D/D/D dF A2-A(c | TB)GAF G/(F/E/D/ C)E |\
+D/D/D dF A2-A(g | Tf)def d/d/d d :|
+|: (e |\
+f)dgf ecc(e | f)dge fdge |\
+fdgf eccg | (f/g/a) e>f d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 d2d2 | d2d2 c2c2 | d2d2 d2d2 | A2A2 D2D :| \
+|: z |\
+d2d2 c2c2 | d2d2 d2d2 | d2d2 c2c2 | d2A2 D2D :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The first Cu: foot it and cast of two Cu: .|
+%% Lead up to the Top and cast off :|
+%% hands round four with the third Couple .|.
+%% right and left at Top :|:
+%%endtext
+%%sep 2 2 400
+
+
+X: 07
+T: Open the door to three
+%R: slip-jig
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.100 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+D |\
+G2B BGB AFD | G2B BGB c2d |\
+efg dcB AFD | G2c (TB>AB) G2 :|
+|: e/(f/ |\
+g)dB gdB AFD | gfe def g2d |\
+efg dcB AFD | G2c (TB>AB) G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g3 g3 f3 | g3 g3 a2b |\
+c'3 d'3 d3 | e2c d2d G2 ::\
+z |\
+g3 g3 d3 | g3 g3 g3 |\
+c3 d3 d3 | g3 d3 G2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The first Cu foot it to the 2d Wo: and hands round three .|
+%% the same with the 2d Man :|.
+%% cross over one Cu: and turn .|.
+%% hands all round Six :|:
+%%endtext
+%%sep 2 2 400
+
+
+X: 08
+T: Straglass House -- Strathspey
+%R: strathspey
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.100 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+D/D/D D>E F>AAB | A<Fd>F [E3A,3]F |\
+D/D/D D>E TF>AAB | A<Fd>F A3 :: B |\
+A/A/A d>A TB>Ad>F | E/E/E F>D [E3A,3]F |
+A/A/A d>A TB>Ad>F | A/A/A d>F A3B |\
+A<Fd>A TB>Ad>F | E/E/E F>D [E3A,3] F/G/ |\
+A>FG>E F>AA>B | A<F d<F A3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 d2d2 | d2d2 A2A2 |\
+d2d2 d2d2 | A2A2 D2D :: z |\
+d2d2 d2d2 | a2a2 A2A2 |\
+d2d2 d2d2 | A2A2 D2D2 |\
+d2d2 d2d2 | a2a2 A2A2 |\
+d2d2 d2d2 | a2A2 d2d |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st 2d and 3d Cu: foot it and hands round Six .|
+%% the same back again :|
+%% cross over two Cu: lead up to the Top and cast off :|:
+%% Turn corners with your right hands & your Partner with your Left .||
+%% the other corners the same :||
+%% lead outsides and turn :||:
+%%endtext
+%%sep 2 2 400
+
+
+X: 09
+T: Colln McBain's Reel
+%R: reel
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.101 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gdor
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c |\
+(B/c/d) Gd BGdB | (A/B/c) Fc AFcA |\
+(B/c/d) Gd BGdB | (^F/G/A) DF G2-G ::\
+=f |\
+f2Bf B/B/B fB | c>d(TcB) ABcA |
+Gg-ga bag^f | gb (a/g/^f) g2-ga |\
+(g/a/b) fd Bdfd | cdTcB ABcA |\
+Bdg^f gdc_e | dBcA G2-G |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g2g2 g2g2 | f2f2 f2f2 |\
+g2g2 g2g2 | d2d2 G2G :: z |\
+B2B2 b2b2 |
+f2f2 f2f2 |\
+g2g2 g2g2 | d2d2 G2G2 |\
+B2B2 B2B2 | f2f2 f2f2 |\
+g2a2 b2c'2 | d'2d2 g2G |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st and 2d Cu: foot it and change sides .|
+%% the same back again :|
+%% lead down thro the third Cu:
+%% cast up into the 2d Cu: Place
+%% lead up to the top and cast off :|:
+%%endtext
+%%sep 2 2 400
+
+
+X: 10
+T: The House of Gray
+%R: jig
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.101 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gdor
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+D |\
+G3 B3 | cAF cAF | G3 B2c | dBd dBG |\
+fgf Te2d | cAf cAF | G2G B>cd | cA^F G2 :|
+|: A |\
+B2B f2B | dBd cAF | B2B f2B | dBd fdf |\
+g>ag Tf2d | cAf cAF | G2G (B/A/B/c/d) | cA^F G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g3 g3 | f3 f3 | g3 g3 | g3 g3 |\
+g3 g3 | f3 f3 | g3 g3 | d3 G2 :|
+|: z |
+b3 b3 | f3 f3 | b3 b3 | b3 b3 |\
+b3 b3 | f3 f3 | g3 g3 | d3 G2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st Man turns his partner with his right hand & cast of one Cu: .|
+%% turn with your left hands the Man casts off the Woman cast up :|
+%% foot it three Top and Bottom .|.
+%% 1st Man falls in between the 2d and 3d Wo:
+%% the 1st Wo: falls between the second and third Man at the same time
+%% foot it all six the first Man turns his Partner :|:
+%%endtext
+%%sep 2 2 400
+
+
+X: 11
+T: Caper Fey
+%R: reel, strathspey
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.102 (and p.103 #1)
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% The book's staff breaks are used here; rearrange as needed:
+V: 1
+e |\
+c/c/c (e>d) c2(G>A) | c2G>F TECCA |\
+d/d/d (T^f>e) d2(A^c) | d2TA>G T^FDDE |\
+c/c/c (e>d) c2(G>A) |
+c2G>F TECCE |\
+DE^FG AB^cA | d2 A>G T^FDD :: g |\
+ecgc acgc | ecgf Tecca |\
+^fdad bdad |
+^fdag Tfddg |\
+ecge ( c>dTc)A | G>A cd eccg |\
+a>^fge fde^c | d2TA>G T^FDD :: E |\
+C/C/C (CE) C2(CE) |
+C/C/C (CD) TECCE |\
+D/D/D D^F D2 D^F | D/D/D (DE) ^FDDE |\
+C/C/C (CE) C2(CE) | C/C/C (CD) TECCE |\
+DE^FG AB^cA |
+dA-AG T^FDD :: g |\
+ec e/f/g/f/ Tec e/f/g/f/ | ec e/f/g/f/ ecca |\
+T^fd f/g/a/g/ fd f/g/a/g/ | T^fd f/g/a/g/ fddg |
+ec e/=f/g/f/ edTcA | GA cd Teccg |\
+(a/g/^f) (g/f/e) (f/e/d) (e/d/^c) | d2A>G ^FDD :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+c2c2 c2c2 | c2c2 c2c2 | d2d2 d2d2 | d2d2 d2d2 | c2c2 c2c2 |
+c2c2 c2c2 | d2d2 d2d2 | d2A2 F2F :: z | c2c2 c2c2 | c2c2 c2c2 | d2d2 d2d2 |
+d2d2 d2d2 | c2c2 c2c2 | c2c2 c2c2 | d2^c2 d2A2 | d2A2 D2D :: z | c2c2 c2c2 |
+c2c2 c2c2 | d2d2 d2d2 | d2d2 d2d2 | c2c2 c2c2 | c2c2 c2c2 | d2d2 d2d2 |
+d2A2 D2D :: z | c2c2 c2c2 | c2c2 c2c2 | d2d2 d2d2 | d2d2 d2d2 |
+c2c2 c2c2 | c2c2 c2c2 | d2^c2 d2A2 | d2A2 D2D :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st Cu: foot it and cast of two Cu: lead up to the Top and cast off .|
+%% the 2d Cu: does the same :|
+%% the 1st Cu: lead down thro the 3d Cu: the 2d and 3d follows them
+%% and all cast up into their own Places .|.
+%% the 1st 2d and 3d Cu: foot it change sides the same back again :|:
+%% Hey contrary sides, the same on your own sides .||.
+%% the first Man hands round 3 with y.e 3d Cu:
+%% the first Wo: hands round 3. with the 2d Cu: at the same time :||
+%% the 1st Man casts off turn the third Wo. stand in the 2d Mans place
+%% the 1st Wo: casts off turn the 3d Man, stand in the 2d Mans place :||.
+%% Hands round six right and left at top :||:
+%%endtext
+%%sep 2 2 400
+
+
+X: 12
+T: Robin shore in Herst
+%R: minuet, triple hornpipe
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.103 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/2
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+(ABc2) F2A2 c4 | (ABc2) F2c2 f2c2 |\
+(ABc2) F2c2 (dcBA) | G4 TB3c d4 :|
+|:\
+f4 A2c2 (dcBA) | (f4 Te2)d2 (efg2) |\
+(fga2) F2c2 (dcBA) | G4 TB3c d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: f4 f4 f4 | f4 f4 f4 | f4 f4 f4 | g4 g4 g4 :|\
+|: f4 f4 f4 | f4 f4 f4 | f4 f4 f4 | g4 g4 g4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The first Cu: foot it cast of two Cu: .|
+%% foot it and cast up again :|
+%% cross over two Cu: :|:
+%% lead up to the Top foot it & cast of :|:
+%% foot it corners & turn :||
+%% lead outsides & turn :||:
+%%endtext
+%%sep 2 2 400
+
+
+X: 13
+T: The Deacon of the Weavers
+%R: reel, hornpipe
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.104 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat symbol; not fixed.
+N: Shortened final notes in the 1st strain to 8th notes.
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+(A/B/ |\
+c)FdF cFdF | cFdA G/G/G G(A/B/ |\
+c)FdF cF fd | c>B TA>G F/F/F F ::\
+(f/g/ |\
+a)fdf cfAc | d>cba
+g/g/g g(f/g/ |\
+a)fdf cAdB | cfeg f/f/f f(f/g/ |\
+a)fdf cfAc | d>cba g/g/g g(f/g/ |\
+a)fgd cAfd | c>B TA>G F/F/F F |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+f2f2 f2f2 | f2f2 g2g2 |\
+f2f2 f2B2 | c2c2 F2 F ::\
+z |\
+f2f2 f2f2 | f2f2
+g2g2 |\
+f2f2 f2f2 | c2c2 F2F2 |\
+f2f2 f2f2 | f2f2 g2g2 |\
+f2g2 a2b2 | c'2c2 f2f |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The first and 2d Cu: foot it right and left half round .|
+%% the same back again :|
+%% lead down two Cu. up again & cast off :|:
+%% set corners & turn .||.
+%% lead outsides and turn :||:
+%%endtext
+%%sep 2 2 400
+
+
+X: 14
+T: The Nether Bow has Vanished
+%R: reel
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.104 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat symbol; not fixed.
+M: C
+L: 1/8
+K: Gmix
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+(G,GB).c d>cBd | Tc>AFc (fc)(fc) |\
+(G,GB).c d>cBd | TB>AGd (gd)(gd) ::\
+(g>ab)a Tg>edg | TA>GFc  (fc)(fc) |
+(g>ab)a (Tg>e)dg | TB>AGd (gd)(gd) |\
+(g>ab)a Tg>edg | TA>GFc (fc)(fc) |\
+GBAc Bdce | dg (^f/g/a) (gd)(gd) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g2g2 g2g2 | f2f2 f2f2 |\
+g2g2 g2g2 | d2d2 G2G2 ::\
+g2g2 g2g2 | f2f2 f2f2 |
+g2g2 g2g2 | d2d2 G2G2 |\
+g2g2 g2g2 | f2f2 f2f2 |\
+g2^f2 g2c'2 | d'2d2 g2g2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The first Cu: foot it to the 2d Wo: and hands round 3. .|
+%% the same to the 2d Man :|
+%% lead down one Cu: up again and cast off :|:
+%% foot it & hands round 4 with the 3d Cu: .||
+%% foot it & hands round 4 with the 2d Cu: :||
+%% lead up to the top & cast off right & left at Top :||:
+%%endtext
+%%sep 2 2 400
+
+
+X: 15
+T: The Watermen's Rant
+%R: reel
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.105 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gmix
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+G>D D/D/D GABG | c>dcf F/F/F [A2F2] |\
+G>D G/G/G GABG | d>edf G/G/G [B2G2] :|\
+dg-ga gedB | cAfA F/F/F [A2F2] |
+Gg-gb a^fge | dBgB G/G/G [B2G2] |\
+Gg-ga gedB | cAfA F/F/F [A2F2] |\
+BGcA dBec | d>edg G/G/G [B2G2] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g2g2 g2g2 | f2f2 f2f2 |\
+g2g2 g2g2 | d2d2 G2G2 :|\
+g2g2 g2g2 | f2f2 f2f2 |
+g2g2 g2g2 | d2d2 G2G2 |\
+g2g2 g2g2 | f2f2 f2f2 |\
+G2A2 B2c2 | d2d2 G2G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands a cross .|
+%% and back again :|
+%% cross over one Couple, right and left at Top .|.
+%%endtext
+%%sep 2 2 400
+
+
+X: 16
+T: We'll a to Kelso go
+%R: jig
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.105 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+D |\
+F>GA f>gf | Te>dc f2c | d/e/f(d c)AF | GAG B>cd |\
+F>GA f>ga | Tg>ec f2c | (d/e/f)d cAF | TA3 f2 :|
+|: f/(g/ |\
+a)fa geg | fdf cAF | (B/A/B/c/d/e/ f)cA | G>AG (B/A/B/c/d) |\
+F>GA f>gf | gec f2c | (d/e/f)d cAF | TA3 f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+f3 f3 | c'3 a3 | b3 a3 | g3 c3 |\
+f3 f3 | e3 d2A | B3 c3 | F3 F2 :|\
+|: z |\
+f3 c3 | d3 A3  | G3 a2f | g3 c3 |\
+f3 f3 | e3 d2A | B3 c3  | F3 F2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Half right and left .|
+%% the same back :|
+%% four hand a cross and back again .|:
+%% lead through the bottom and cast up, right and left at Top :|:
+%%endtext
+%%sep 2 2 400
+
+
+X: 17
+T: Lady Betty Hay's Reel
+%R: reel
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.106 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat symbol; fixed.
+M: C|
+L: 1/8
+K: Gmix
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B |\
+G/G/G dc d3 g | .f(dTcA) FGAF |\
+G/G/G (BG) Bd-df | AFcA G3 :: (f |\
+g)aTgf dfga | .f(dTcA) FGA(f |
+g)aTgf dfga | .f(dTcA) G3 f |\
+gaTgf dfga | (f/d/c) (d/c/A) cdfa |\
+gafg dfcf | AFcA G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g2g2 g2g2 | f2f2 f2f2 | g2g2 g2g2 | d2d2 G2G :: z | g2g2 g2g2 | f2f2 f2f2 |
+g2g2 g2g2 | d2d2 G2G2 | g2g2 g2g2 | f2f2 f2f2 | g2a2 b2c'2 | d'2d2 g2g :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Turn your Partner and cast of one Cu: .|
+%% turn and cast up again :|
+%% gallop down two Cu: .|.
+%% up again and cast off :|:
+%% set corners and turn .|
+%% and Hey :|
+%%endtext
+%%sep 2 2 400
+
+
+X: 18
+T: Drumshugh
+%R: reel
+N: Probably refers to Drumsheugh, a district in west Edinburgh.
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.106 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The rhythms between the strains aren't right; not fixed.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+FDDB d2(df) | (Te>de)f E/E/E EG |\
+FD-DB d2-df | Te>def d/d/d d :|\
+f |\
+afab afdf | edfd e/e/e (ef) |
+afab afdf | Te>def d/d/d df |\
+afab afdf | edfd e/e/e ea |\
+bgae fdec | dBAF d2(df) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d2d2 d2d2 | e2e2 e2e2 |\
+d2d2 d2d2 | A2A2 D2D :|\
+z | d2d2 d2d2 | e2e2 e2e2 |
+d2d2 d2d2 | A2A2 D2D2 |\
+d2d2 d2d2 | e2e2 e2e2 |\
+d2c2 d2e2 | fga2 d2d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Cast of two Cu: .|
+%% cast up again :|
+%% cross over two Cu: .|.
+%% lead up to the Top and cast off :|:
+%% set corners and turn :||
+%% & Hey :||:
+%%endtext
+%%sep 2 2 400
+
+
+X: 19
+T: The Sailor Lassie
+%R: slip-jig
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.107 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F |\
+(E/F/G)E c>dc TB2G | (A/B/c)A GEC D2F |\
+(E/F/G)E c>dc TB2G | (A/B/c)A GEC C2 ::\
+e |\
+c2c (e/f/g)e gec | (e/f/g)e afd d2e |
+c2c (e/f/g)e gec | (e/f/g)e gec c2e |\
+c2c (e/f/g)e gec | (e/f/g)e afd d2e |\
+cGc edc TB>AG | (A/B/c)A GEC C2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=D
+z |\
+C3 C3 G3 | F3 E2A G3 | C3 C3 G3 | F3 G3 C2 :: z | C3 C3 C3 | C3 D3 D3 |
+C3 c3 c3 | c3 G3 C3 | c3 c3 c3 | c3 d3 d3 | c3 C3 G3 | F3 G3 C2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Cast of one Cu: hands round 4 with the 3d Cu: .|
+%% cast up and hands round with the Top :|
+%% cross over one Cu: lead up to the Top and cast of and turn your Partner :|
+%%endtext
+%%sep 2 2 400
+
+
+X: 20
+T: Invercaul's Reel
+%R: hornpipe, reel
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.107 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Ador
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B |\
+D/D/D EG TA>GEG | D/D/D E>G c2ce |\
+dBgB TA>GEG | D/D/D E>G A2A :|
+|: (B |\
+c)>ABG TA>GE(B | c)Bcd efge |\
+dBgB TA>GEG | D/D/D E>G A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z | d2d2 e2e2 | d2d2 c2c2 | g2g2 a2a2 | d2e2 A2A :|
+|: z | a2g2 e2e2 | c2c2 c2c2 | g2g2 a2a2 | d2e2 A2A :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Set across to the 2d Man and turn .|
+%% your Partner do the same :|
+%% gallop down the Middle up again and cast off .|.
+%% right and left at Top :|:
+%%endtext
+%%sep 2 2 400
+
+
+X: 21
+T: Keellum kallum taa fein
+N: The title isn't too legible.
+%R: reel
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.108
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+AAce d2(BG) | AATcA e2(TcA) |\
+BEBe d2(BG) | AATcA (B/c/d) e2 ::\
+AATcA g2(BG) | AATcA a2(ae) |
+g2Tge d2(BG) | AATcA (B/c/d) e2 ::\
+AATcA G2(BG) | AATcB A2(TcA) |\
+cATBA G2(BG) | AATcA (B/c/d) e2 :|
+|:\
+AATcA BgBG | AATcA AacA |\
+aeTfd egBG | AATcA (B/c/d)e2 ::\
+AATcA G/G/G BG | AATcB A/A/A (TcA) |
+cATBA G/G/G (BG) | AATcA (B/c/d) e2 ::\
+AAce dgBG | AAce AacA |\
+(a/g/f/e/ f)d gdBG | AATcA (B/c/d) e2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+a2a2 g2g2 | a2a2 a2a2 | e2e2 g2g2 | a2a2 e2A2 :: a2a2 g2g2 | a2a2 a2a2 |
+a2a2 g2g2 | a2a2 e2A2 :: a2a2 g2g2 | a2a2 a2a2 | a2a2 g2g2 | a2a2 e2A2 :|
+|:\
+a2a2 g2g2 | a2a2 a2a2 | a2a2 g2g2 | a2a2 e2A2 :: a2a2 g2g2 | a2a2 a2a2 |
+a2a2 g2g2 | a2a2 e2A2 :: a2a2 g2g2 | a2a2 a2a2 | a2a2 g2g2 | a2a2 e2A2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% hands a cross .|
+%% and back again :|
+%% cross over one Cu: .|.
+%% lead up and cast off :|:
+%% lead through the 3d Cu: and cast up .|
+%% through the Top and cast off :|
+%% set corners and turn :|:
+%% swing corners and swing your Partner .||.
+%% and Reel :||:
+%%endtext
+%%sep 2 2 400
+
+
+X: 22
+T: The Bridge of Nairn
+%R: hornpipe, reel
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.109 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+G>Bd>B e2(eg) | d>BG>B A/A/A A2 |\
+(G/A/B/c/ d)B e2ef | g>aTg>d B/B/B B2 :|
+|:\
+g>aTge dedB | g>aTge agab |\
+gbeg dega | (b/a/g/e/ g)d B/B/B B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: g2g2 g2g2 | g2g2 a2a2 | g2g2 c2c2 | d2d2 G2G2 :|
+|: g2g2 g2g2 | g2g2 a2a2 | g2g2 g2g2 | d2d2 G2G2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Cast of two Cu: .|
+%% lead up to the Top and cast off :|
+%% set cross corners .|.
+%% Swing corners and swing your Partner and lead outsides :|:
+%%endtext
+%%sep 2 2 400
+
+
+X: 23
+T: Mount your Baggage
+%R: minuet, triple hornpipe
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.109 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/2
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c2 |\
+F3A c4 F2c2 | dcBA B2G2- G2A2 |\
+F2A2 c4 A3f | Te3d c2 A4 :|\
+fg |\
+(agfe) f4 F2c2 | (dcBA) B2 G4 fg |
+(agfe) f4 A2c2 | d2f2 Tc2 A4 fg |\
+(agfe) f4 F2c2 | (dcBA) B2 G4 A2 |\
+F3A c4 f3g | Te3d c2 A4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+f4 f4 f4 | f4 c4 c4 |\
+f4 f4 f4 | c4 F4 F2 :|\
+z2 |\
+f4 f4 f4 | f4 c4 c4 |]
+f4 f4 f4 | f4 f4 f4 |\
+f4 f4 f4 | f4 c4 c4 |
+f4 f4 f4 | c4 F4 F2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands across .|
+%% back again :|
+%% cross over one Couple .|.
+%% right and left at Top :|:
+%%endtext
+%%sep 2 2 400
+
+
+X: 24
+T: The Cross well of Edinburgh
+%R: reel
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.110
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 4th strain has initial repeat but no final repeat symbol; not fixed.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+AF (AB/c/ d)ABd | AF (AB/c/ d)FTE2 |\
+(AF)AB defd | egTfe d/d/d d2 :|\
+|:\
+(f/g/a) (df) a>bTag |
+(f/g/a) (df) efTed | f/g/a (df) a>bag | fdef d/d/d d2 :|\
+|:\
+d2(FA) dAdf | dAFA dFTE2 |
+d2FA defd | egTfe d/d/d d2 :|\
+|:\
+(f/g/a) da fdad | (g/a/b) eb gebe | (f/g/a) df a>bTag |
+fdef d/d/d d2 | (f/g/a) (.d.a) fdad | (g/a/b) (.e.b) gebg |\
+afge fdec | AgTfe d/d/d d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: d2d2 d2d2 | d2d2 e2e2 | d2d2 d2d2 | g2a2 d2d2 :|\
+|: d2d2 d2d2 |
+   d2d2 e2e2 | d2d2 d2d2 | A2A2 D2D2 :|\
+|: d2d2 d2d2 | d2d2 e2e2 | d2d2 d2d2 |
+   g2a2 d2d2 :|\
+|: d2d2 d2d2 | e2e2 e2e2 | d2d2 d2d2 | A2A2 D2D2 |
+   d2d2 d2d2 | e2e2 e2e2 | d2e2 f2g2 | a2A2 d2d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Turn your Partner and cast off .|
+%% turn and cast up again :|
+%% lead down 2d Cu .|.
+%% up again and cast off :|:
+%% set corners and turn .||
+%% and Hey :||.
+%%endtext
+%%sep 2 2 400
+
+
+X: 25
+T: Ephie McKnab
+%R: jig
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.111 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gmix
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A/c/ |\
+d>fd dcA | G2G G2A/_B/ | c>dc cAG | F2F F2e |\
+(Tf>ef) def | gfg cfg | agf dcA | d2G G2 :|
+|: e/^f/ |\
+(g>a)g gdB | gdB G2e | (f>gf) fcA | fcA F2e |\
+(Tf>ef) def | gfg cfg | agf dcA | d2G G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g3 g3 | g3 g3 | f3  f3 | f3 f3 |\
+d3 d3 | c3 c3 | f3 ^f3 | g3 G2 :|
+|: z |\
+g3 g3 | g3 g3 | f3  f3 | f3 f3 |\
+d3 d3 | c3 e3 | f3 ^f3 | g3 G2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands across .|
+%% and back again :|
+%% cross over one Couple .|.
+%% right and left at Top :|:
+%%endtext
+%%sep 2 2 400
+
+
+X: 26
+T: The Wives of Kilwinnon
+%R: reel, hornpipe
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.111 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Ador
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+g>e e/e/e d>BGB | ge e/e/e g>aba |\
+Tg>e e/e/e d>BGB | cgBg A/A/A A2 :|
+|:\
+c>def gdBG | c>def g>aTge |\
+(b/a/g) (a/g/e) (g/e/d) (e/d/B) | c>Aec A/A/A A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: a2a2 g2g2 | a2a2 a2a2 | a2a2 g2g2 | a2e2 A2A2 :|
+|: c2c2 g2g2 | c'2c'2 c'2c'2 | b2a2 g2g2 | a2e2 A2A2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Cast of two Cu. .|
+%% cast up again :|
+%% lead down one Cu .|.
+%% up again and cast off :|:
+%% set corners and turn .|
+%% lead outsides :|
+%%endtext
+%%sep 2 2 400
+
+
+X: 27
+T: Colln McKays Reel
+%R: reel
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.112 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+e |\
+cCCE G3(_B | A)FEC DF_B,D | (C/D/E/F/ G)E G2cG | caTgf ecc :| e | (c/d/e/f/ g)c acgc | ecge fdde |
+(c/d/e/f/ g)c acgc | ecgc Gcce | (c/d/e/f/ g)c acgc | fdec (B/A/B/c/ d)e | cGEC FAG_B | AaTgf ecc |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | c2c2 c2c2 | c2c2 B2B2 | c2c2 c2e2 | f2g2 c2c :| z | c'2c'2 c'2c'2 | c2c2 d2d2 |
+c2c2 c'2c'2 | g2g2 c2c2 | c2c2 c2c2 | d2c2 G2G2 | c2c2 a2e2 | f2g2 c2c |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands across .|
+%% back again :|
+%% gallop down one Cu: up again & cast off .|.
+%% left at Top.
+%%endtext
+%%sep 2 2 400
+
+
+X: 28
+T: Croagh Patrick
+N: The tune is a variant of Haste to the Wedding.
+%C: _
+%O: _
+%R: jig
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.112 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+AFG Aaf | Te>de fdB | AFA (B/c/d)F | EEE TE2A |\
+AFG Aaf | (Te>de) fdB | AFA (B/c/d)F | DDD D2 :|
+a |\
+afa afa | bgb bgb | afa agf | eee e2(f/g/) |\
+a3 Tf3 | Te>de fdB | AFA (f/g/a)f | ddd d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d3 d3 | c3 d2g | f3 g2^g | a3 A3 |\
+d3 d3 | c3 d2g | d2f g2a | d3 d2 :|
+z |\
+d3 d3 | g3 g3 | f3 d3 | a3 A3 |\
+d3 d3 | c3 d3 | a3 A3 | d3 d2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Cast of one Cu: four hands at bottom .|
+%% cast up four hands at top :|
+%% lead down the Middle up again and cast off .|.
+%% right and left at Top :|:
+%%endtext
+%%sep 2 2 400

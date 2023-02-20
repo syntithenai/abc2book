@@ -1,0 +1,32 @@
+X: 1
+T: Masquerade Royal
+%R: reel, march
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (47)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2A2 |\
+B2G2 B2c2 | d4 d2cB | A2B2 c2d2 | B2G2 G2A2 |\
+B2G2 B2c2 | d4 d2cB | A2G2 A2^F2 | G4 :|
+|: d2e2 |\
+f2e2 f2g2 | f4 f2ed | c2d2 e2d2 | c4 dcde |\
+d4 c4 | B4 G2A2 | B2G2 B2c2 | d4 d2cB |
+A2B2 c2d2 | B2G2 G2A2 | B2G2 B2c2 | d4 d2cB |\
+A2G2 A2^F2 | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st four Hands half round and foot it then the other
+%% half round and foot it lead to the Wall and back again
+%% then all four turn single then lead up and back again
+%% the 1st Cu. slipping down into the 2d Cu. Place and turn
+%% Hands round.  OR THUS  The 1st Cu. turns
+%% single then lead down thro the 2d Cu. and cast up 
+%% again .| The 2d Cu. do the same :| The ??? Cu. go
+%% the Hey .| Then the 1st Cu. cast off and ??? ??? :|
+%%endtext
+%%sep 1 8 500

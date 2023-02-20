@@ -1,0 +1,29 @@
+X: 1
+T: Chester Jigg
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (55)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: C
+N: The time signature is 6/8, but there are 6 quarter-notes per measure.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G/F/ |\
+(EC)E (GE)G | ABc B2A | GAB (A/B/)dB | D3 D2G/F/ |\
+EFG ABc | Bcd Ggf | e>dc GEG | c3- c2 :|
+|: g |\
+gec afd | gec fed | ABc def | B3 G2g |\
+g/f/e/f/g/e/ a/g/f/g/a/f/ | g/f/e/f/g/e/ def | e>dc d>cB | c3 c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man sett to the 2d Wo. the 1st Man turn the 2d
+%% Man turn quite round the 2d Wo. turn the 1st Wo quite
+%% round at the same time .| then the 1st Wo. and 2d Man
+%% do the same :| the 1st and 2d Cu. clap hands with your
+%% Partners turn single then take hands and go half round
+%% .| take hands and go half round and all turn S. the 1st
+%% Cu. clap hands and cast off :|
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,30 @@
+X: 392	% 113
+T: Brown Eyed Mary
+T: (Singing Call)
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.39 #2
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Snappy rhythm"
+P: (March)
+K: F
+V: 1 name="113"
+%%continueall yes
+|: A2A (F2G) | A2A F2G | A2A B2A | (A G3-) G2 |
+w: If by chance* we should meet up-on the lone-ly prai-rie*
+w: Swing your part-ner half-way round now swing the left hand la-dy*
+G2G E2F | G2G E G-G | c2c B2G | (G F3-) F2 :|
+w: In my arms you'll al-ways find my* lone-ly brown-eyed Ma-ry.*
+w: Swing your part-ner all the way round Promi-nade with brown-eyed Ma-ry.*
+%%begintext align
+%% If singer's voice gets tired on prominade orchestra alternate with the two bottom numbers.
+%%endtext
+P: (Goodbye My Lover Goodbye)
+"^March only"A3 F2B | A3 F3 | G3 E2B | A3 F3 | A3 F2B | A3 F2F |
+w: Bye\-, lo my ba-by Bye\- lo my Ba-by Bye\- lo my Ba-by good\-
+G2G GAG | F3- F2 ||
+w: bye my lo-ver good-bye.*
+%%text Or this:
+P: (Life On The Ocean Wave)
+C | CFF F2G | A3- AFG | AAA B2A | G3- G2G | C2E G2A | B3- B2c | d2c BAG | F3- F2 |]

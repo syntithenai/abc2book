@@ -1,0 +1,22 @@
+X: 10543
+T: SALLY KELLY
+Q: "Reel."
+%R: reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.54 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E |\
+Ddd^c d3f | {f}edcd efga |\
+fde^c d2AF | GBAG FDD :|\
+E |\
+F>GAc F/F/F A2 | F>GAc BGGg |
+fde^c d2AF | G/A/B A>G FDDF |\
+F>GAc F/F/F A2 | F>GAc BGGg |\
+fde^c d2AF | G/A/B A>G FDD |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

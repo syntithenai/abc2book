@@ -1,0 +1,22 @@
+X:496
+T:Thingammyjig Polka
+C:Joe Buchanan's Scottish Tome - Page 471.0
+I:471 0
+C:Arr. G. Forbes
+R:Polka
+Z:Carl Allison
+L:1/8
+M:4/4
+K:G
+((3SDEF) | "G"G2 B2 "D7"A>Bc>A  | "G"B2 d2 "G7"d4 | "C"e2 c2 "Am"c>de>c | "G"d2 B2 "E7"B4 |
+"Am"c2 A2 "D7"A>Bc>A  | "G"B2 d2 "G"d4 | "A7"A2 AB "A7"^c>AB>c  | "D"d2 "Am"D2 "D7"D2 ((3DEF) |
+"G"G2 B2 "D7"A>Bc>A  | "G"B2 d2 "G7"d4 | "C"e2 c2 "Am"c>de>c | "G"d2 "E7"B2 B2 |
+"Am"c2 A2 "D7"A>Bc>A  | "G"B2 d2 "G"d2 ((3Bcc) | "Am7"d2 d2 d2 "D7"e>f | "G"g>"C"g g2 "G"g2 !fine!:|
+W:1st Time
+%%vskip 25
+"C"e2 c2 "C"g2 e2 | "G"d2 B2 "G"B>^A B2 | "Am"c2 A2 "D"G>^F A2 | "G"B2 "A"c2 "Bb"^c2 "B"d2 |
+"C"e2 c2 "C"g2 e2 | "G"d2 B2 "G"B^A B2 | "A7"A2 AB "A7"^c>AB>c  | "D"d2 d2 "D"d2 S |]
+W:2nd Time
+%%vskip 25
+"D"A2 F2 "D7"A>B c2 | "G"B2 G2 "G"B>c d2 | "Am"c2 A2 "A7"c>d e2  | "G"d2 B2 "G"d4 |]
+"A"^c2 A2 "A7"c>d e2 | "D"d2 A2 "D"d>e f2 | "A"e2 e2 "A7"e>gf>e  | "D"d2 "Am"d2 "D"d2 S |]

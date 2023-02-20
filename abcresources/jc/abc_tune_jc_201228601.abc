@@ -1,0 +1,18 @@
+X: 114102
+T: CLYDESDALE LASSES
+Q: "Reel."
+R:  Reel.
+%R: reel
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: James Kerr "Merry Melodies" v.1 p.14 s.1 #2
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+uc !segno!|:\
+AFcF dFcF | AFcF ABcB |\
+AFcF dFcA | BAGA [1 BcdB :|[2 Bcde |]\
+fgag f2(cf) | gfga baga |
+fgag f2(Ac) | BAGA Bcde |\
+fgag f2(cf) | gfga baga |\
+fgaf gefc | BAGA BcdB |]

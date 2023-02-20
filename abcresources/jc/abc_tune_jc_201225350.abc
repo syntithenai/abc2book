@@ -1,0 +1,33 @@
+X:938
+T:The bonniest lass in the world
+R:Reel
+O:Scotland
+S:Gibbon's Collection of Scots tunes
+B:Gibbon's Collection of Scots tunes
+Z:Transcription, chords:Mike Long
+M:C|
+L:1/8
+K:G
+V:1 stv=2
+V:1 clef=treble
+V:2 clef=bass
+[V:1]GA|\
+[V:2]z2|\
+[V:1]"G"B2 D2 "D"E2 G2|"C"(cB)~(AG) "D"E2 DE|\
+[V:2]G,,2B,,2      C,2B,,C,   |D,2D,,2 zC,B,,C,|\
+[V:1]"G"G2 g2 "Em"degd|"C"(e4 "D"d2) ef|\
+[V:2]B,,2B,A,         B,2G,2|C2C,2       G,B,CA,|\
+[V:1]"G"gfed "D"efgB|"C"(cB)~(AG) "D"E2 DE|
+[V:2]B,2G,2      C2B,2|A,3B, C2B,C|
+[V:1]"G"G2 g2 "D"decd|"G"~B3 A G2:|\
+[V:2]B,3C       D2D,2|G,2D,2     G,,2:|\
+[V:1]|:ef|\
+[V:2]|:z2|\
+[V:1]"G"gfed "Em"efge|"C"agfe "D"fgaf|
+[V:2]B,,2C,B,,       C,2 B,,C,|D,2D,^C,  D,2=C,2|
+[V:1]"G"gfga "Em"bgab|"C"(e4 "D"d2) ga|\
+[V:2]B,,2B,,A,,        G,,2G,2|C2C,2 G,G,,B,,A,,|\
+[V:1]"G"bage "D"degB|"C"(cB)~(AG) "D"E2 DE|\
+[V:2]G,,2C,2       B,,2G,,2|A,,3B,,    C,2B,,C,|\
+[V:1]"G"G2 g2 "D"decd|"G"~B3 A G2:|
+[V:2]B,,3C,         D,2D,,2|G,2D,2  G,,2:|

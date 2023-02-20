@@ -1,0 +1,35 @@
+X:1
+T:SALLY WILSON  "23"
+M:C
+L:1/8
+Q:80
+C:Davey Laws
+S:March
+K:HP
+[| e | \
+{g}c3/2d/2{g}ec{gBd}B2{G}A{d}c | \
+{Gdc}d3/2{g}f/2af{gef}e4 | \
+{g}f3/2g/2{ag}a3/2f/2{g}ec{gBd}B{e}A |
+{g}B4{GdGe}B3e | \
+{g}c3/2d/2{g}ec{gBd}B2{G}A{d}c | \
+{Gdc}d3/2{g}f/2af{gef}e2{g}c3/2d/2 |
+{gef}e2{g}ce{gde}d3/2B/2{g}G{d}B | \
+{g}A4{GAG}A3|] [ | \
+e |
+{ag}a3/2g/2{a}fa{ef}e2{gcd}ce | \
+{g}f3/2g/2af{gef}e4 | \
+{g}f3/2g/2{ag}a3/2f/2{g}ec{gBd}B{e}A |
+{g}B4{GdGe}B3e | \
+{ag}a3/2g/2{g}fa{ef}e2{gcd}ce | \
+{g}f3/2g/2af{gef}e2{g}c3/2d/2 |
+{gef}e2{g}ce{gde}d3/2B/2{g}G{d}B | \
+{g}A4{GAG}A3|] [ | \
+e |
+{ag}a3/2g/2{a}fa{ef}e2{gcd}ce | \
+{g}f3/2g/2af{gef}e4 | \
+{g}f3/2g/2{ag}a3/2f/2{g}ec{gBd}B{e}A |
+{g}B4{GdGe}B3e | | \
+{g}c3/2d/2{g}ec{gBd}B2{G}A{d}c | \
+{Gdc}d3/2{g}f/2af{gef}e2{g}c3/2d/2 |
+{gef}e2{g}ce{gde}d3/2B/2{g}GB | | \
+{g}A4{GAG}A3|]

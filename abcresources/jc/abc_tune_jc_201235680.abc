@@ -1,0 +1,26 @@
+X: 212
+T: the Marchioness Salute.
+T: Failte na Ban mharc.
+R: strathspey
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.97 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Sprightly Strathspey"
+K: F
+% = = = = = = = = = =
+V: 1 staves=2
+A |!p!\
+F>CA,<F C<FA,<F |!f! C>FA,<A G>G,B,<G |!p! F>CA,<F C<FA<f |!f! c>FA<f AFF :| f |!p!c<Af>A c>fA<f | c>fA<a g>GB<d |
+c<Af>A c>fA<f | c>FA<f AFFf ||!f! c<Af>A c/c/f A/A/f | c/c/f A/A/a g>GB<b | (3agf (3efg (3fcB (3ABd | (3cAF (3DFB AFF |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+!p![F2f2][F2f2] [F2f2][F2f2] | !f![F2f2][F2f2] [C2c2][C2c2] |\
+!p![F2f2][F2f2] [F2f2][F2f2] | !f![F2f2][F2f2] [F2f2][Ff] :| z |\
+!p![F2f2][F2f2] [F2f2][F2f2] | [F2f2][F2f2] [C2c2][E2e2] |
+   [F2f2][F2f2] [F2f2][F2f2] | [F2f2][F2f2] [F2f2][F2f2] ||\
+!f![F2f2][F2f2] [F2f2][F2f2] | [F2f2][F2f2] [C2c2][E2e2] |\
+ [F2f2][G2g2] [A2a2][F2B2f2] | [c2c'2][B2b2] [f2c'2][fc'] |]
+% = = = = = = = = = =

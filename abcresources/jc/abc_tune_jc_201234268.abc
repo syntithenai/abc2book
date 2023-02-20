@@ -1,0 +1,20 @@
+X: 20394
+T: DREW'S HORNPIPE
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" 1843 p.39 #4
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Initial rest added to fix the rhythm of repeats.
+N: Both strains have 7 bars..
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+z2 |\
+E2AA ABcd | efga Acec | cBBB dcBA | GABA ABcd |\
+efga Aceg | agfe gfe^d | g2e2 e2 :|
+|: (3(BBB) |\
+f2e2 dcBA | GABG E2ee | agfe dcBA | fdd2 dfaf |\
+f2e2 cefg | agdf fdBG | A2A2 A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

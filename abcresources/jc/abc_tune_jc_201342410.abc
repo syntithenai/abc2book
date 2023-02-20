@@ -1,0 +1,15 @@
+X: 112
+T: Swift from the Covert   #2
+R: jig
+%S: s:2 b:11(6+5)
+B: O'Neill's 1850 #112
+Z: 1997henrik.norbeck@mailbox.swipnet.se
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play AA2 BA2
+Q: "With spirit"
+M: 6/8
+L: 1/8
+K: Gm
+"^A"|: D !segno!| (DG).G (G^FG) | (AGA) [1 f2=e | (fed) (dcA) | (AGA) F2 :|[2 fd=e | f2d (cA).^F |
+| G3 G2 "^B"|[| d | g>dd g>dd | gd=e f3 | F(f=e) f_ed | cAG F2 (G/F/) !segno!y|]

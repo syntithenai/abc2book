@@ -1,0 +1,19 @@
+X: 3321
+T: the Doctor.   a Strathspey.
+C: by Mr Marshall.
+%R: strathspey
+B: Niel Gow & Sons "Complete Repository" v.3 p.32 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+B<G TF>E {E}D>CB,d | ecfd c/c/c Tc2 | (c/B/A/G/) TF>E {E}D>CB,d | ecfd B/B/B TB2 :| Bfdf Bfdf | egdf c/c/c Tc2 |
+Bfdf Bfdf | egfd B/B/B TB2 || Bfdf Bfdf | egdf c/c/c ~cg/a/ | b>g a>f g>e f>d | e<cf>d B/B/B TB2 |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+B2B2 B2B2 | A2B2 F2F2 | B2B2 B2d2 | e2f2 B2B2 :| b2b2 b2b2 | c'2b2 a2f2 |
+b2b2 b2d2 | e2f2 B2B2 || b2b2 b2b2 | c'2b2 a2f2 | g2f2 e2d2 | e2f2 B2B2 |]

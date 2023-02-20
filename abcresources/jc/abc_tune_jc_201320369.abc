@@ -1,0 +1,17 @@
+X:539
+T:The Opera, or The Apes Dance
+C:John Playford
+S:Dancing Master 5th Edition, 1675.
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=115
+M:6/8
+L:1/8
+V:1
+%%MIDI program 2
+K:Bb
+P:A
+|: B | "Bb"B3 "F/A"c2F | "Gm"B3- "Gm/F"B2 d/c/ | "Eb"B2 e/d/ "F7"cF2 | "Bb"B3- "/"B2f |\
+"Gm"d2g "Bb"f2b | "F7"af2 "Gm"b2a | "C7"gaf "/"gc2 | "F"f3- "F7"f2 :|
+P:B
+|: f | "Bb"fd2 "/"f2B | "Bb"fdB "/"f2d | "Gm"gfd "Cm"eGc | "G7"=B3 "Cm"c2f |\
+"Bb"dBb "Eb"a2g | "Bb"fdg "Bb7"f2d | "F7"ecA "Bb"fd2 | "F7"c3 "Bb"B2 :|

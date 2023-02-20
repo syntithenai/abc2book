@@ -1,0 +1,36 @@
+X: 11421
+T: SCOTCH MARCH
+%R: march, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.142 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The rthyms of the strains' endings are mostly wrong; not fixed.
+N: Note the repeat pattern: 11223434.
+M: C	% Actually, there's no time signature given.
+L: 1/16
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D6 F2 A3Fd3B | A6 B2 A3F d3B |\
+A3Bd3e (f4 e2d2) | {c}B4 B4 (AB).A.G (FG).F.E |\
+D6 F2 A3Fd3B | A4 A2(cB) A3Fd3B |
+Af3e3d {c}B3AB3c | d4 d3d d4 :|\
+|: (d2e2) |\
+f4 e3d B3AB3c | d4 (dcde) f4 (D2E2) |\
+F3A f3e dB3A3F | E4 E3E (EAcB) (AGF)E |\
+D6 F2 A3Fd3B |
+A6 B2 A3Fd3B |\
+Af3e3d {c}B3AB3c | d4 d3d d4 :|\
+|: (D3E) |\
+F6 G2 A3Ad3B | AF3E3G F4 F3E |\
+D4 D3E (FAdc) (BAGF) | E3DE3F E4(F2G2) |
+Ad3f3e d4 F3G | Ad3f3e d4 e3f |\
+g3ef3d (A2f2).e2.d2 | e4 e3e e4 |]\
+e3f |\
+g2f2e2d2 d2c2B2A2 | Bcdc edcB A4 a3a |
+a2(ba) (gf)(ed) f3da3f | e3d e2(gf) e4 D3E |\
+F6 G2 A3Ad3B | A3FE3G F4 (F2G2) |\
+(AB).c.d (cd).e.f (ec)(dB) (AF)(GE) | D2(EF) (GABc) d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

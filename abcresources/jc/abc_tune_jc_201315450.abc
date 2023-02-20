@@ -1,0 +1,18 @@
+X: 211
+T: My Johnny Dear   #2
+R: air, march
+%S: s:2 b:14(6+4)
+B: O'Neill's 1850 #211
+O: J.O'Neill
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+N: Dots and dynamic markings ignored for this compact version.
+N: It might be best to also delete the slurs, which don't always fit the lyrics.
+P: Play A1A2 BA2
+Q: "Moderate"
+M: 2/4
+L: 1/8
+K: D
+"^A"|: (D/E/) | FF F(E/D/) | A>F AB |1 AA A(F/D/) | E3 :|2 (A/F/)(E/>F/) D!pp!D | D3 Hy|]
+"^B"[| A/B//c// | (d>e) dc | B>A Bc | BA A(F/D/) | "->A2"E3 |]

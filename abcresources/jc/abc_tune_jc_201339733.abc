@@ -1,0 +1,16 @@
+X: 1731
+T: Spellan the Fiddler   #3
+R: hornpipe, reel
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #1731
+O: J.O'Neill
+Z: Bob Safranek, rjs@gsp.org
+Z: A.LEE WORMAN
+M: C|
+L: 1/8
+N: Compacted by using labels and play order [JC]
+P: Play ABAB CBCB
+K: G
+"^A"[|](3(DEF) | G>DB>G d>Bg>d | b>g (3ded c>BA>G | .F(d^cd) .A(dcd) |  d>ce>d c>AF>D |]
+"^B"[| G>DB>G d>Bg>d | b>g (3ded c>BA>G |  f>ec>A  e>dB>G  | (3FGA (3DEF G2 |]
+"^C"[| g2 | b>gd>B G>Bd>g | a>fc>A F>Ac>f | a>gb>a c'>ba>g |  f>ed>c B>AG>F |]

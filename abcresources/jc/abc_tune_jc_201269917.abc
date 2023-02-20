@@ -1,0 +1,22 @@
+X
+T: Dr\uag\uaicu\,ta   [Ehjz]
+O: Rumania
+C: trad.
+S: http://swissnet.ai.mit.edu/~jaffer/CFO.html
+Z: 2022 John Chambers <jc@trillian.mit.edu> (moved bar lines and chords to actual downbeats) 
+P: I2(AB)3I
+M: 3/4
+L: 1/4
+Q: 1/4=110
+K: =F^c^G %E hijaz
+%%indent 300
+"^I"[|]\
+"E"B | B2 B | B2 B | B B B | B2 :|
+"^A"|: B, |\
+"E"B>A G/A/ | B>G A/G/ | "Dm"F/E/D G/A/ | "E"B2 ||
+B, |\
+"E"B>A G/A/ | B>G A/G/ | "Dm"F/E/D E/F/ | D2 :|
+"^B"|: A/G/ |\
+ "Dm"F/E/ D E/F/ | "(Bm)"D/C/ B, B, | "E"E>B, E/F/ | G2 ||
+ A/G/ |\
+ "Dm"F/E/ D E/F/ | "(Bm)"D/C/ B, B, | "E"E E E | E2 :|

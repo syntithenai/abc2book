@@ -1,0 +1,51 @@
+
+X: 1
+T: Hora Agadati (Dm)
+O: Israel
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Dm
+|: "Dm"{E}CD DC | DC F{A}F | CD DC | DC {A}F2 | CD DC | DE FG !coda!| "C"EF {G}E{D}C | "Dm"{A}DE D2 :|
+|: "Gm"zG2 G | {d}GF G2 | G>A BA | G2 "F"F2 | "C"Gc BA | "Gm"{d}GF G2 | "F"AB A/G/F | "Gm"G3z :|
+!coda!|| AB A{G}F | z2 "Gm"G"F"[AF] | "Gm"Gz3 |] x4  x4  x4  x4  x4  x4 |
+
+
+X: 1
+T: Hora Agadati (Am)
+O: Israel
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Am
+|: "Am"{B}GA AG | AG c{e}c | GA AG | AG {e}c2 | GA AG | AB cd !coda!| "G"Bc {d}B{A}G | "Am"{e}AB A2 :|
+|: "Dm"zd2 d | {a}dc d2 | d>e fe | d2 "C"c2 | "G"dg fe | "Dm"{a}dc d2 | "C"ef e/d/c | "Dm"d3z :|
+!coda!|| ef e{d}c | z2 "Dm"d"C"[ec] | "Dm"dz3 |] x4  x4  x4  x4  x4  x4 |
+
+%%sep 1 1 500
+
+%%text Bb instruments:
+
+
+X: 1
+T: Hora Agadati (Em)
+O: Israel
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Em
+|: "Em"{F}DE ED | ED G{B}G | DE ED | ED {B}G2 | DE ED | EF GA !coda!| "D"FG {A}F{E}D | "Em"{B}EF E2 :|
+|: "Am"zA2 A | {e}AG A2 | A>B cB | A2 "G"G2 | "D"Ad cB | "Am"{e}AG A2 | "G"Bc B/A/G | "Am"A3z :|
+!coda!|| Bc B{A}G | z2 "A"A"G"[BG] | "A"Az3 |] x4  x4  x4  x4  x4  x4 |
+
+
+X: 1
+T: Hora Agadati (Bm)
+O: Israel
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Bm
+|: "Bm"{c}AB BA | BA d{f}d | AB BA | BA {f}d2 | AB BA | Bc de !coda!| "A"cd {e}c{B}A | "Bm"{f}Bc B2 :|
+|: "Em"ze2 e | {b}ed e2 | e>f gf | e2 "D"d2 | "A"ea gf | "Em"{b}ed e2 | "D"fg f/e/d | "Em"e3z :|
+!coda!|| fg f{e}d | z2 "Em"e"D"[fd] | "Em"ez3 |] x4  x4  x4  x4  x4  x4 |

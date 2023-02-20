@@ -1,0 +1,35 @@
+X: 10
+T: FELICITY
+%R: jig
+B: Button & Whitaker "Twelve Elegant New Dances for the Year 1810", London 1810
+F: http://imslp.org/wiki/Button_and_Whitaker's_Elegant_New_Dances_for_1810_(Various)
+Z: 2018-6-25  John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for compactness.
+V: 1
+F |\
+BFd d2d | fec c2c | dcB BAB | d3 c2F |\
+BFd d2d | fec c2c | dfB ceA | B3- B2 :|
+|: [fd] |\
+[fd][ge][fd] [fd][dB][df] | [b3d3] [f2d2][dB] |\
+[fd][ec][cA] [c2A2][dB] | [fd][ec][cA] [cA][dB][ec] |\
+[fd][ge][fd] [fd][dB][fd] | [b3d3] [f2d2][dB] |\
+{f}[e2G2][dF] [cE][BD][AC] | [B3-D3-] [B2D2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z |\
+bd'f' bd'f' | ac'f' ac'f' | bd'f' gc'=e' | f2f' f2z | bd'f' bd'f' |
+ac'f' ac'f' | bd'f' fac' | bd'f' b2 :||: z | Bbb Bbb | Bbb Bbb | Fff Fff |
+Fff F2z | Bbb Bbb | Bbb Bbb | Eee Fff | Bdf B2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Set & change sides & back again,
+%% head down the middle 4 Cu:
+%% up again, & swing corners.
+%%endtext
+% %center -------------------------
+% %center Button & Whitaker "Twelve Elegant New Dances for the Year 1810"

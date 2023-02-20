@@ -1,0 +1,31 @@
+X: 20641
+T: Allegretto
+C: King
+B: "Man of Feeling", Gaetano Brandi, ed. v.2 p.64-65
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Has "No 9 Vol 2" at the bottom of page 65.
+M: 6/8
+L: 1/8
+K: G
+!segno![|\
+!p!d2c B2A | B2c d2d | e2g f2e | (e3 d3) |\
+d2c B2A | B2c d2d | e2g fge | e3 d3 |
+!mf!g2g g2g | a2g f2d | e2g f2e | (e3 d3) |\
+g2g g2g | a2g f2d | e2g f2e | (e3 d2)B |
+"_poco F" c2e d2c | (c3 B2)B | cde d2c | (c3 B2)d |\
+!p!G2G F2F | G2G GAB | c2c (edc) | (c3 B2)d |
+G2G F2F | G2G GAB | c2c cAF | "_Fine"(A3 G2) |]\
+d |\
+g2!f!g g2g | d2d d2d | g2b a2g | (g3 f)af |
+"_sF"d2d dfd | "_sF"B2B BdB | ^G2G GBG | A2a a2a |\
+d2d d2d | e2d (^cBc) | d2f f2f | g2f (ede) |
+f2d (def) | e2^c (cde) | d2d (ded) | ^c2A (ABc) |\
+d2d d2d | e2d ^cBA | d2f f2f | g2f {f/}ede |
+f2f ab^c' | d'2f fga | b2g f2e | (e2f) zza |\
+!f!d'2d' {e/}d'^c'd' | "_sF"e'^c'a gfe | ddd {e/}d^cd | "_sF"e^cA GFE |
+!f!D2!p!D A2A | F2F "_sF"d2d | F2F TEDE | FDA FdA |\
+fda fd'd | Te6{de} | d2f {a/}gfg | a2f {f/}ede |
+d2f {a/}gfg | a2f {f/}ede | d3 d3 | "_Da Capo al Fine"Hd6 !segno!|]
+%
+%%center -

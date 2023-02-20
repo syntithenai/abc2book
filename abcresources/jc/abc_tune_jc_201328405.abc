@@ -1,0 +1,54 @@
+
+X: 1
+T: Rantakoivun alla
+C: Sav. Onni Laihanen (1916-1956)
+C: San. M. Maja
+M: 3/4
+L: 1/4
+K: Cm
+%%staffsep 45
+G, \
+| "Cm"C2=B, | C2D | E2D | E2F | GB=A | "Fm"_A2B | "Cm"G3- | "C7"GGA |
+w: 1.~M\"a vie-l\"a muis-tan ran-ta-koi-vun vih-re-\"an kau-noi-sen.* Sii-t\"a
+w: 2.~Vain sul-le us-kon, ran-ta-koi-vu, su-ru-ni kai-puu-ni.* Et-h\"an
+| "Fm"FDE | "G7"F2G | "Cm"E3- | ECD | ECD | "Ab"E2F | "G7"D3- | DzG, |
+w: kau-an on ai-kaa niin,* koi-vun al-la kun is-tut-tiin.* Ja
+w: ker-to-ne kel-le-k\"a\"an,* et-t\"a j\"a\"a-nyt oon i-k\"a-v\"a\"an.*
+| G,=A,=B, | "Cm"C2D | E2F | G2"Adim"c | "Fm"d2c | "Bb7"ABc | "Eb"G3- | "C7"GGA |
+w: u-nel-mat kau-niit muis-tan, ar-mas, kah-den kun haa-viel-tiin.* si-
+w: Tai-va-nan t\"ah-det mul-le lois-taa, yk-sin kun t\"an-ne j\"ain.* Si-nun
+| "Fm"FDE | "G7"F2G | "Cm"E2C | "Fm"B2A | "Cm"GFE | "G7"D2G | "Cm"C3- | C2 |]
+w: sil-m\"a-si kau-niit sil-loin kat-soi tai-va-han t\"ah-t\"o-siin.
+w: loh-tu-as kai-paan, ran-ta-koi-vu, ai-no-a ys-t\"a-v\"ain.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Rantakoivun alla  (Dm)
+C: Onni Laihanen (1916-1956)
+M: 3/4
+L: 1/4
+K: Dm
+%%staffsep 45
+A, \
+| "Dm"D2^C | D2E | F2E | F2G | Ac=B | "Gm"_B2c | "Dm"A3- | "D7"AAB |
+| "Gm"GEF | "A7"G2A | "Dm"F3- | FDE | FDE | "Bb"F2G | "A7"E3- | EzA, |
+| A,=B,^C | "Dm"D2E | F2G | A2"Bdim"d | "Gm"e2d | "C7"Bcd | "F"A3- | "D7"AAB |
+| "Gm"GEF | "A7"G2A | "Dm"F2D | "Gm"c2B | "Dm"AGF | "A7"E2A | "Dm"D3- | D2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Rantakoivun alla  (Em)
+C: Onni Laihanen (1916-1956)
+M: 3/4
+L: 1/4
+K: Em
+%%staffsep 45
+B, \
+| "Em"E2^D | E2F | G2F | G2A | Bd_d | "Am"c2d | "Em"B3- | "E7"BBc |
+| "Am"AFG | "B7"A2B | "Em"G3- | GEF | GEF | "C"G2A | "B7"F3- | FzB, |
+| B,^C^D | "Em"E2F | G2A | B2"Cdim"e | "Am"f2e | "D7"cde | "G"B3- | "E7"BBc |
+| "Am"AFG | "B7"A2B | "Em"G2E | "Am"d2c | "Em"BAG | "B7"F2B | "Em"E3- | E2 |]

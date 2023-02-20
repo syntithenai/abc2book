@@ -1,0 +1,77 @@
+
+X: 1
+T: Epstein Bulgar v.3   [Cm]
+R: bulgar, freylach
+Z: John Chambers <jc:trillian.mit.edu>
+O: transcr: Steve Rauch 2016
+S: Steve Rauch 2016-12
+M: 4/4
+L: 1/8
+K: Cm
+"A"[|] G^FG |\
+"Fm"A2 "Cm"G2 "Fm"F2 "Cm"E2 | "G"D4 zG,=B,D |\
+"G"F3 ^F G/F/E E/D/C | "Cm"DE3 zGAG |
+"Cm"e2 "G"d2 "Cm"c2 "C7"B2 | "Fm"A2 "Cm"G2 "Fm"F3 F |\
+"G"^FG2F G/F/E E/D/C | "Cm"C4 z :|
+"B"\
+|: GAG |\
+"G"=B4 zGAG | "Cm"c4 zGFE |\
+"G"D3G G/^F/E E/D/C |1,3 "Cm"DE3 z :|2,4 "Cm"C4 z :| [K:=B=e=A][K:C]
+"C"\
+|: GAG |\
+"C"c2 zE G2 zF | E/F/G F/E/D CG^FG |\
+E>G AG cE GC | E4 zEDC | "G7"D>E FG ED DC |
+"C"^FG3 zGFG | EG e_e d_d cB |\
+_BA _AG _GF EC | "G7"D>E FG EC DB, | "C"C4 z :|
+
+
+X: 1
+T: Epstein Bulgar v.3   [Dm]
+R: bulgar, freylach
+Z: John Chambers <jc:trillian.mit.edu>
+O: transcr: Steve Rauch 2016
+S: Steve Rauch 2016-12
+M: 4/4
+L: 1/8
+K: Dm
+"B"[|] A^GA |\
+"Gm"B2 "Dm"A2 "Gm"G2 "Dm"F2 | "A"E4 zA,^CE |\
+"A"G3 ^G A/G/F F/E/D | "Dm"EF3 zABA |
+"Dm"f2 "A"e2 "Dm"d2 "D7"c2 | "Gm"B2 "Dm"A2 "Gm"G3 G |\
+"A"^GA2G A/G/F F/E/D | "Dm"D4 z :|
+"C"\
+|: ABA |\
+"A"^c4 zABA | "Dm"d4 zAGF |\
+"A"E3A A/^G/F F/E/D |1,3 "Dm"EF3 z :|2,4 "Dm"D4 z :| [K:=B][K:D]
+"D"\
+|: ABA |\
+"D"d2 zF A2 zG | F/G/A G/F/E DA^GA |\
+F>A BA dF AD | F4 zFED | "A7"E>F GA FE ED |
+"D"^GA3 zAGA | FA f=f e_e dc |\
+=cB _BA _AG FD | "A7"E>F GA FD EC | "D"D4 z :|
+
+
+X: 1
+T: Epstein Bulgar v.3   [Am]
+R: bulgar, freylach
+Z: John Chambers <jc:trillian.mit.edu>
+O: transcr: Steve Rauch 2016
+S: Steve Rauch 2016-12
+M: 4/4
+L: 1/8
+K: Am
+"A"[|] e^de |\
+"Dm"f2 "Am"e2 "Dm"d2 "Am"c2 | "E"B4 zE^GB |\
+"E"d3 ^d e/d/c c/B/A | "Am"Bc3 zefe |
+"Am"c'2 "E"b2 "Am"a2 "A7"g2 | "Dm"f2 "Am"e2 "Dm"d3 d |\
+"E"^de2d e/d/c c/B/A | "Am"A4 z :|
+"B"\
+|: efe |\
+"E"^g4 zefe | "Am"a4 zedc |\
+"E"B3e e/^d/c c/B/A |1,3 "Am"Bc3 z :|2,4 "Am"A4 z :| [K:A]
+"C"\
+|: efe |\
+"A"a2 zc e2 zd | c/d/e d/c/B Ae^de |\
+c>e fe ac eA | c4 zcBA | "E7"B>c de cB BA |
+"A"^de3 zede | ce c'=c' b_b ag |\
+=gf =fe _ed cA | "E7"B>c de cA BG | "A"A4 z :|

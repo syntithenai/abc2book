@@ -1,0 +1,18 @@
+X: 791
+T: the Honeymoon Reel
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #791
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0791/oneill-1001-0791-1.abc
+%m: Tn = (3n/o/n/
+%m: Tn3 = n(3n/o/n/ m/n/
+M: C|
+L: 1/8
+K: G
+"^A"[|]\
+   (dc) | BGAF DTG-G2 | (3(Bcd) e(f ge)dc | BTG-G2 DTG-G2 | B(edB) A2 \
+|| (dc) | BGAF DTG-G2 | B(def) Tg3a | bga(f gf)ed | (3(efg) (dB) A2 |]
+"^B"\
+[| (Bd) | e2(ef) edBA | (3(Bcd) e(f ge)dc | BTG-G2 DTG-G2 | B(edB) A2 \
+|| (Bd) | ede(f ed)BA | (3(Bcd) ef Tg3a | bga(f gf)ed | (3(efg) (dB) A2 |]

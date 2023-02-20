@@ -1,0 +1,55 @@
+
+X: 1
+T: Calon L\^an
+T: Round the Lord in Glory Seated
+C: music: John Hughes (1873-1932)
+C: words: Daniel James (1848-1920)
+%date: 1890s
+O: Wales
+%R: air, waltz
+%B: "___", _
+F: http://cantorion.org/music/5149/Calon-L%C3%A2n-Round-the-Lord-in-Glory-Seated
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Bb
+V:1 clef=treble
+V:2 clef=treble
+V:3 clef=bass middle=D
+V:4 clef=bass middle=d
+%%score (1 2) (3 4)
+% - - - - - - - - - - - - - - -
+V:1
+FB | d3 Bcd | B2 F2 GA | B3 Ged | (d2 c2) ||
+w: 1.~~Nid wy'n go-fy by-wyd moe-thus, Aur y byd na'i ber-lau m\^an:*
+w: 2.~~~Pe dm-u-nwn o-lud by-dol, He-dyn bu-an gan-ddo sydd;*
+w: 3.~Hwyr a bor-e fy ny-mun-iad Gwyd i'r nef ar a-dain c\^an*
+%
+FB | d3 Bcd | B2 G2 G(A/G/) | F3 BBA | B4 ||
+w: Go-fyn wyf am ga-lon ha-pus, Ca-lon* on-est, ca-lon l\^an.
+w: Go-lud ca-lon l\^an, rin-we-ddol, Yn dwyn* by-thol el-w fydd.
+w: Ar i Dduw, er mwyn fy Nghei-dwad, Ro-ddi* i mi ga-lon l\^an.
+%
+d>B | f3 dcB | B2 A2 c>d | e3 edc | d4 ||
+w: Ca-lon l\^an yn llawn dai-o-ni, Te-cach yw na'r li-li dlos:
+FF | G3 GAA | B2 c2 Bc | d3 B (c/B/)A | B4 |]
+w: Dim ond ca-lon l\^an  all ga-nu Ca-nu'r dydd a cha-*nu'r nos.
+% - - - - - - - - - -
+V:2 clef=treble
+DD | F3 DEF | F2 D2 EE | D3 EGF | F4 ||
+DF | F3 FFB | F2 E2 GF/E/ | D3 FFF | F4 ||
+F>F | B3 BAB | F2 F2 F>B | A3 ABA | B4 ||
+FF | E3 EFF | F2 F2 DE | F3 FFF | F4 |]
+% - - - - - - - - - -
+V:3
+BB | B3 BBB | d2 B2 Bc | B3 BBB | (B2 A2) ||
+BB | B3 def | (dB) B2 BB | B3 dce | d4 ||
+B>d | d3 fff | (dc) c2 A>B | c2 f2 ff | f4 ||
+BB | B3 cce | d2 c2 BB | B3 d (e/d/)c | d4 |]
+% - - - - - - - - - -
+V:4
+B,B, | B,3 B,B,B, | B,2 B,2 EC | G3 EC(D/E/) | F4 ||
+FD | B,3 B,B,B, | (B,D) E2 EE | F3 FFF | B4 ||
+B>B | B3 B,CD | F2 F2 F>F | F3 FFF | B4 ||
+DD | E3 CFF | B2 A2 G_G | F3 FFF | B,4 |]
+% - - - - - - - - - - - - - - -

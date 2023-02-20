@@ -1,0 +1,22 @@
+X: 1
+T: Lundgrenin Marssi
+C: Utto Lundgrenin
+R: march
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+S: http://www.campin.me.uk/Music/FinnishTunes.abc
+S: http://pelimanni.net/wp-content/uploads/2015/01/Lundgrenin-marssi.pdf
+M: 2/4
+L: 1/8
+P: I AA B CC AA
+K: G
+%%indent 300
+"Intro"[|] "D7"ff/f/ ff fd ef | "G"g2 g>g gz "^>"d2 ||
+"A"|:\
+"G"g2 d>c B2 G2 | "D" Ad/d/ dd d3 c | "G" B2 B>B "D"dc AF|\
+[1 "G"AG/G/ GG G2 Bd :|[2 "G"A2 G>G G2 |]
+"B"[|] Bd |\
+"G"g>f ed g>f ed | "C" g2 f>e c3 d | "D" f>e dc f>e dc | "G"e2 d>c B3 d |
+"G"g>f ed g>f ed | "C" g2 f>e c3 e | "D7"ed/d/ dd dd ef | "G"g2 g>g gz |]
+"C"|:d2 |\
+"G"G2 B>d d3 B | "D7"c2 Bc/B/ A3 G | F2 Ac f3 e | "G"ed/d/ dc "D7"cB BA |
+"G"G2 B>d d3 B | "Am"c2 Bc/B/ A3 g | "D7"ff/f/ ff fd ef | "G"g2 g>g gz :|

@@ -1,0 +1,22 @@
+X:1002
+T: Bat Arad
+C: Nachamia Sharabi, 1962
+D: Israeli Folk Dance Festival
+O: Israel
+M: 2/4
+L: 1/8
+K: Am
+Q: 1/4=132
+%%MIDI program 21 Accordian
+%%MIDI bassprog 32 Acoustic Bass
+%%MIDI chordprog 24 Acoustic Guitar
+%%MIDI bassvol 64
+%%MIDI chordvol 40
+| "Am"A,E2E |"E7"F/E/D/E/F2|"Am"A,E2D  |"Am"C/D/C/B,/A,z|\
+  A,E2E     |"Dm"F/E/D/E/F2|G2FD       |"Em"E4          |
+| "Am" A,E2E|"E7"F/E/D/E/F2|"Am"A,E2D  |C/D/C/B,/A,z    |\
+  A,D2E     |"Bdim"C2B,2   |"Am"A,4-   |A,4             |
+  "Am"A2A2  |AG/A/BG       |"Dm"FE/F/FG|"Em"E2E2        |\
+  "Am"A2A2  |AG/A/BG       |"Dm"FE/F/FG|"Em"E4          |
+  "Am"A2A2  |"Bdim"GFG2    |GF/E/DF    |GFE2            |\
+  "Am"CDEC  |D2CB,         |A,4-       |A,4             |

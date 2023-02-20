@@ -1,0 +1,33 @@
+X: 20832
+T: PROVIDENCE SETT (tune 5)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.83 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Bars 18, 20 have rather odd beaming.
+N: Initial rest added to 3rd strain to fix (and clarify) the rhythm.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+f |\
+cAA AGF | EFG GAB | AFF BGG | Aag gfe |\
+cAA AGF | EFG GAB | AFA cGe | fcA F2 H|]
+A/B/ |\
+c2c d2c | f2e d2c | d2c B2A | (A3 G2)A/B/ |\
+c2c d2c | f2e d2c | d2c A2F | (G3 "^D.C."F2) |]
+z |\
+(3(c/d/e/)f2 (3(c/d/e/)f2 | c fcA F2 | (3(d/e/f/)g2 (3(d/e/f/)g2 | d gec G2 |\
+a2g f2e | f2e d2c | d2c A2F | G3 "^D.C."F2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple lead to the right,
+%% and balance,
+%% swing round with that couple,
+%% lead up to the next couple, &c.
+%% all balance and turn.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

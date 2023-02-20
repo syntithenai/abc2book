@@ -1,0 +1,32 @@
+X: 091
+T: THE JOCKEY CLUB
+C: R. MACKINTOSH
+R: Reel
+B: Glen Collection p.9 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: D
+%
+V: 1
+g |\
+f2(df) ecAc | dBAF G(EEg) | f2(df) ecAc | dBAG F(DDg) |
+f2(df) ecAc | (d/c/B/A/ d)F G(EEG) | FABG Acdf | geag fdd ||
+A |\
+FADF GBEG | FADF E(A,A,G) | FADF GBEg | fdec d(DDA) |
+FADF GBEG | FADF E(A,A,G) | FABG Acdf | gbag fdd |]
+%
+V: 2
+z |\
+d2[f'2d'2a2] [g'2e'2a2][g'2e'2a2] | [f'2d'2a2][d'2a2] A2[c'2a2] |\
+d2[f'2d'2a2] [g'2e'2a2][g'2e'2a2] | [f'2d'2a2][e'2c'2a2] [d'2a2][a2d2] |\
+d2[f'2d'2a2] [g'2e'2a2][g'2e'2a2] | [f'2d'2a2][d'2a2] A2[c'2a2] |\
+[d'2a2d2][c'2a2e2] [d'2a2f2][d'2a2f2] | e2[c'2a2] d2[da] ||
+z |\
+d2[a2f2] c2[a2g2] | d2[a2f2] A2[g2e2] |\
+d2[a2f2] A2[b2g2] | [d'2a2][c'2a2] [a2f2d2][a2f2d2] |
+d2[a2f2] c2[a2g2] | d2[a2f2] A2[g2e2] |\
+[d'2a2d2][c'2a2e2] [d'2a2f2][d'2a2f2] | e2[c'2a2] d2[d'afd] |]

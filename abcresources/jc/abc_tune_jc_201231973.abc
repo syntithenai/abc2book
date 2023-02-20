@@ -1,0 +1,17 @@
+X: 161
+T: 7. La Dragonne
+T: la Dragonne
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.16 #1 dance 05 #7
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G	% The first 4 bars are in D; the 2nd strain is in G.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+DEFG |\
+A2A2 d2^cB | AGFE DEFG | A2A2 d4 | A4 :: "2.f."c2BA |\
+B2AG A2GF | G2AB c2BA | B2AG !+!A4 | G4 c2BA |
+B2AG A2GF | G2AB c2BA | B2AG !+!A4 | G2B2B2E2 |\
+F2G2 AGAB | A2B2B2E2 | F2GA !+!A4 | G2B2B2E2 |\
+F2G2 AGAB | A2B2B2E2 | F2GA !+!A4 | G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

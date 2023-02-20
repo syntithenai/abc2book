@@ -1,0 +1,30 @@
+X: 1
+T: Millbury schottis
+C: Erling Maribo
+S: handwriteen MS of unknown origin
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Eb
+((3B=A_A) !Segno!\
+| "Eb"G>B e>g f>e B>=B | "Fm"d>c f>a c'2 c'>^c' \
+| "Bb7"d'>b c'>a b>g a>f | "Eb"g>e f>d e2 ((3B=A_A) |
+| "Eb"G>B e>g f>e B>=B | "Fm"d>c f>a c'2 c'>^c' \
+| "Bb7"d'>b c'>a b>g a>f | "Eb"e2 e2 "fine"e2 :|
+K: Bb
+|: z2 \
+| "F7"((3f=ef) a>g f>_e d>c | "Bb"((3BAB) d>c B>A G>_G \
+| "F7"((3F=EF) A>c ((3fff) f2 | "Bb"((3F=EF) B>d f2 z2 |
+| "F7"((3f=ef) a>g f>_e d>c | "Bb"((3BAB) d>c B>A G>_G \
+| "F7"((3F=EF) A>c f>e d>c | "Bb"B2 B2 "d.S."B2 :|
+P: Trio
+K: Ab
+((3efg) \
+| "Ab"a3 g b>a g>a | "Bbm"((3gag) f2 f2 z2 \
+| "Eb7"g3 f a>g f>g | "Ab"((3fgf) e2 e2 z |
+| "F7"f3 _g f>e d>c | "Bbm"B=A B>c d>e f2 \
+| "G7"g3 a g>f e>d | "Cm"c>=B c>d "Eb7"e>f g2 |
+| "Ab"a3 g b>a g>a | "Bbm"((3gag) f2 f2 z2 \
+| "Eb7"g3 f a>g f>g | "Ab"((3fgf) e2 e2 z |
+| "F7"f3 _g f>e d>c | "Bbm"B=A B>c d>e f>a \
+| "Eb7"g>f e>f g>a b>c' | "Ab"a2 a2 "d.S. al fine"a2 :|

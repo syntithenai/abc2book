@@ -1,0 +1,39 @@
+X: 19
+T: Cotillon XIX.     le Filou.
+%R: reel, march
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #19
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+[g4B4D4] a2f2 | [g4B4D4] a2f2 | (ga)(bc') (ba)(gf) | g2d2 B2G2 |\
+[g4B4D4] a2f2 | [g4B4D4] a2f2 | (gb)(ag) (fe)(d^c) | d8 :|
+|:\
+d2d2 (d2c2) | c2c2 (c2B2) | B2B2 A2B2 | AGFE D4 |\
+d2d2 (^c2d2) | e2f2 g4 | (fb)(ag) (fe)(d^c) | d4 defd |
+[g4B4D4] a2f2 | [g4B4D4] a2f2 | (ga)(bc') (ba)(gf) | g2d2 B2G2 |\
+[g4B4D4] a2f2 | [g4B4D4] a2f2 | (ge)(dc) (BA)(GF) | G8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+g4 d'2d2 | g4 d'2d2 | g4 d'2d2 | g4 G4 |\
+g4 d'2d2 | g4 d'2d2 | g2e2 a2A2 | dAFA D4 :|
+|:\
+ef^ge a2A2 | defd g2G2 | g4 f2g2 | a2A2 d4 |\
+f4 e2d2 | ^c2d2 e2A2 | d2g2 a2A2 | d4 z4 | g4 
+d'2d2 | g4 d'2d2 | g4 d'2d2 | g4 G4 |\
+g4 d'2d2 | g4 d'2d2 | g2c'2 d'2d2 | gdBd G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round: The two first Couple lead up Rigadoon step the Gentleman leads the
+%% Lady by a half round & comes facing the second Couple claps hands with the second
+%% Couple five times the Lady leads the Gentleman to his Place & turns under his Arm
+%% the second Couple do the same.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.

@@ -1,0 +1,26 @@
+X:1
+T: The Welsh Council
+N:
+C:
+S:Tune is "The Llangallo Men's Delight"
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 50 notes)
+K:G
+M:6/8
+L:1/16
+B c |d2 B2 G2 d2 B2 G2 d2 B2 G2 G4 c d e2 c2 A2 e2 c2 A2 e2 c2 A2 A4 B c |d2 B2 G2 d2 B2 G2 d2 B2 G2 G2 F2 G2 A2 F2 D2 D2 E2 F2 G2 B2 d2 G4 B c |
+%W: A2
+% voice 1 (1 lines, 48 notes)
+d2 B2 G2 d2 B2 G2 d2 B2 G2 G4 c d e2 c2 A2 e2 c2 A2 e2 c2 A2 A4 B c |d2 B2 G2 d2 B2 G2 d2 B2 G2 G2 F2 G2 A2 F2 D2 D2 E2 F2 G2 B2 d2 G4 B c |
+%W: B1
+% voice 1 (1 lines, 48 notes)
+d2 B2 G2 d2 B2 G2 g2 e2 c2 e4 A B c2 A2 F2 c2 A2 F2 d2 B2 G2 B4 B c |d2 B2 G2 d2 B2 G2 g2 e2 c2 e2 d2 c2 B2 d2 B2 c2 A2 F2 G2 B2 d2 G4 B c |
+%W: B2
+% voice 1 (1 lines, 46 notes)
+d2 B2 G2 d2 B2 G2 g2 e2 c2 e4 A B c2 A2 F2 c2 A2 F2 d2 B2 G2 B4 B c |d2 B2 G2 d2 B2 G2 g2 e2 c2 e2 d2 c2 B2 d2 B2 c2 A2 F2 G2 B2 d2 G4 ||

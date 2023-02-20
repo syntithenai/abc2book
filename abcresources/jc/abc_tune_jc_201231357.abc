@@ -1,0 +1,33 @@
+X: 150
+T: the Wheedler
+T: Longways for &c.
+%R: march
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.75
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: 2/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+f2e2 | fe/d/ cd | c2B2 | A3G |\
+ABAG | ABAG | A2=B2 | cdef |\
+g=BcA | =B3c | c3 :|
+|: c |\
+_ec AF | _ec AF | _ec F_e | d3=e |\
+fd=BG | fd=BG | fc Gf | e3b |\
+aefd | e3f | f3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st Cu. back to back with the 2d Cu. and
+%% back to back with their own partners and
+%% turn .| the 1st Cu. turn the 2d Cu. and turn
+%% their own partners :| then Meet and sett, all
+%% four turn single and clap hands, all four quite
+%% round .| the 1st Cu. go the figure thro' the 2d
+%% Cu. and cross over, and turn their own partners :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

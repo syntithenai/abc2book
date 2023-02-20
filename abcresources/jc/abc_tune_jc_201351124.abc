@@ -1,0 +1,20 @@
+X: 1
+T: the Wednesday Night Strathspey   (F)
+C: Gerard Buchanan
+R: strathspey
+B: RSCDS 47-10
+N: Tune for It Wisnae Me
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+c |\
+"F"A<F F>F "Bb"B<d d>B | "F"A<c A>F "C7"G2 B2 |\
+[1 "F"A<c c>A "Bb"B<d d>B | "F"A<c "C7"B>G "F"F3 |\
+[2 "F"(3ABc c>A "Bb"(3Bcd d>B | "F"c<A "C7"G>A "F"F3 :|
+c |\
+"F"f<f e<c "Bb"d<d c<A | "F"c<A G>F "C7"G2 B2 |\
+"F"(3AGF F>A "Bb"(3Bcd d>f | "C7"e<e d>e "F"f3 ||
+c |\
+"F"A<c f>c "Bb"d<f "F"c<A | "F"cA "G7"B/A/G/F/ "C"E<G "C7"G>B |\
+"F"c<A A<c "Bb"B<d "G7"d<f | "C7"c<A G>A "F"F3 |]

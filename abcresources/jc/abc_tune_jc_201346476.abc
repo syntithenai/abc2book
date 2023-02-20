@@ -1,0 +1,27 @@
+X: 1
+T: a Trip to Killburn
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (123)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2g2 e2g2 | BAG2 F2ED | GBAc Bdce | dBcA B2G2 |\
+d2g2 e2g2 | a2gf e2a2 | gfed ^ceA^c | dFE^c d2D2 :|
+|:\
+dABc B3d | eg fe d3B | cABG FAGB | gfe^d e3e |\
+dBcA BdGB | cEFG F2D2 | GECE AFDF | GB,A,F G2G,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% First Cu. cast off and Hands round with the 3d Cu.
+%% and lead thro the 3d Cu. .| Hands round with the 2d
+%% Cu. and lead thro the 2d Cu :| Hands all six quite round
+%% and stand in the 2d Cu. Place .| Then right and left
+%% quite round with the 2d Cu. and turn your Partner :|
+%%endtext
+%%sep 1 8 500

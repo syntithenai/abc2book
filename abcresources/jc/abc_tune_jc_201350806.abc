@@ -1,0 +1,36 @@
+X: 1
+T: Watton Town's end
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.51 "F 2"
+N: CCDM1 has the same dance but a different setting of the tune.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(cB) |\
+A2F2 F2F2 A2 c4 (BA) | G2A2 B3c d6 e2 |\
+f2(gf) e2(de) f2F2 F2F2 | G2G2 A3B G6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up and fall back, jump up all to your own and turn round S. That again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The two first men and the first wo. fall back from your own and meet, jump up thrice to your
+%% own, and the 1. cu. cast off into the 2. cu. place, while the 2. cu. slip up into the 1. cu. place.
+%% Do this to all the rest following :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The first man and second wo. change places, then the first wo. and second man change places and
+%% jump up thrice to their own, and then change places with your own, the rest following :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The first and second cu. take hands and go half round and jump to your own, then change places
+%% with your own. Do this to all the rest following :|
+%%endtext
+%%sep 1 8 500

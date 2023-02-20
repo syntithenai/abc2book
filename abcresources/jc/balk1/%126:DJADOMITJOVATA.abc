@@ -1,0 +1,23 @@
+X: 126
+T: Djado Mitjovata
+O: Bulgaria
+M: 2/4
+L: 1/8
+Q: 1/4=96
+K: Gm octave=-1
+%%MIDI program 23
+%%MIDI drum dzdd 43 43 43
+%%MIDI drumon
+  d2 d/c/B         |d2 d/c/B         |\
+  cc cd            |BA G2            |
+  c2 BA            | G2 c2           |\
+  cc cd            |BA G2            |\
+  c2 BA            | G2 z2           |
+  e2 e/d/c         |d2 d/c/B         |\
+  e2 e/d/c         |dg g2            |
+  e2 e/d/c         |d2 d/c/B         |\
+  B/A/c2d          |BAGz             |
+|:c/F/G/B/ c/B/G/c/|\
+  c/B/A/G/ G/G/F/F/|
+  c/c/c/F/ F/G/B/A/|F/c/d/c/ F/A/G/G/|
+  cB/A/ GG         :|

@@ -1,0 +1,33 @@
+X: 20781
+T: HARRISON SETT (tune 1)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.78 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The flat at the start of strain 3 is poorl positioned, and seems to indicate a flat c, but the key is obviously F.
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="1"
+C |\
+CG,E C2C | CG,E C2g | gae egc | cBc d2C |\
+CG,E C2C | G,CE G2c | cec Gce | dcd c2 H|]
+g |\
+gfe gfe | gc'c' c'2g | gec gec | GGG G2g |\
+gfe gfe gc'c' c'2G | BGC G,G,G, | CCC "^D.C."C2 |]
+K: F
+c |\
+c2B A2B | A2G F2G | ABA cBA | GGG G2c |\
+c2B A2B | A2G F2G | AcF GFG | FFF "^D.C."F2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right and left four.
+%% -- Balance partners and turn.
+%% -- Ladies chain.
+%% -- Promenade four.
+%% __ Side couples perform same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,41 @@
+X: 1
+T:Massey Hall Turnaround
+M:6/8
+L:1/8
+Q:80
+C:Michael Grey
+S:Jig
+K:HP
+|: {g}def{g}A2{G}A|
+{gBd}B2A{g}Bd{c}d|
+{g}def{g}Af{e}f|  !
+afde{g}e{A}e|
+{g}def{g}A2{G}A|
+{gBd}B2A{g}Bd{c}d|  !
+{g}def{a}gag|
+{a}fec{Gdc}d3:| |:
+{g}dfa{g}afd|  !
+{g}eag{afg}f2e|
+{g}def{a}gag|
+{a}fede{g}e{A}e|1  !
+{g}dfa{g}afd|
+{g}eag{afg}f2e|
+{g}def{a}gag|  !
+{a}fec{Gdc}d3:| |:
+{g}def{g}Ad{c}d|
+{g}Bd{c}d{g}dB{d}A|  !
+{g}def{g}Af{e}f|
+afde{g}e{A}e|
+{g}def{g}Ad{c}d|  !
+{g}Bd{c}d{g}Ad{c}d|
+{g}def{a}gag|
+{a}fec{Gdc}d3:| |:  !
+{g}dfa{g}a2{g}a|
+ea{g}afa{g}a|
+dfa{g}afd|  !
+afde{g}e{A}e|1
+{g}dfa{g}a2{g}a|
+ea{g}afa{g}a|  !
+{g}def{a}gag|
+{a}fec{Gdc}d3:|
+

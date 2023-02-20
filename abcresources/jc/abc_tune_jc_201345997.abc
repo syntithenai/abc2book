@@ -1,0 +1,17 @@
+X: 1
+T: Traditional Jig
+O: Bonnie Rideout Bk.
+R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: page "SRSNH 10.6" in the Concord Slow Scottish Jam Session collection that also contains "Road to Banff"
+N: The tune has an Amix keysig, but there are no c or f notes, and there are Am and F chords.
+N: The rhythms are wrong at the phrase boundaries.
+M: 6/8
+L: 1/8
+K: Am
+z |\
+"Am"EAA AGA | "G"Bdd dBd | "Am"eae "G"dBG | "F"ABA "Em"AGF |\
+"Am"EAA AGA | "G"Bdd dBd | "Am"eae "Em"dBG | "Am"BAA A2 :|
+|: Bd |\
+"Am"eaa e3 | "Am"eaa "G"bag | eaa e3 | "G"BGB "Em"dBG |\
+"Am"eaa e3 | "Am"eaa "G"bag | "F"eae "Em"dBG | "Am"BAA A2 :|

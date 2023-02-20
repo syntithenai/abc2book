@@ -1,0 +1,27 @@
+X: 10342
+T: N'T APARAN GOIRID.--"SHORT APRON."
+O: Old set.
+Q: "Slow."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.34 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+GAB2 |\
+c6 d2e2d2 | c4 G4 G2A2 | _B6 d2c2B2 | {_B}A8 GA=B2 |\
+c6 d2e3d | c4 G4 B4 | (c2B2)(c2d2)(e2f2) | {a}g8 c'4 |\
+{a}g4 f4 e4 | {e}d4 c4 B4 | {d}c4 B4 A4 |
+{A}G8 z2(gf) |\
+(e2f2)(g2a2)(b2c'2) | g4 e4 (cdef) | e6 f2 d4 | c8 ::\
+c3d |\
+e4 c4 d4 | c4 G4 (G2A2) | _B6 d2c2B2 | {_B}A8 (c3d) |\
+e4 c4 d4 | c4 G4 B4 |
+(c2B2)(c2d2)(e2f2) | ({a}g8 ab)c'2 |\
+{a}g4 f4 e4 | {e}d4 c4 B4 | {d}c4 B4 A4 | {A}HG8 z2(c/B/A) |\
+G4 F3EF2A2 | G6 g2a2f2 | e6 f2 d4 | c8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

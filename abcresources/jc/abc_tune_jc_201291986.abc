@@ -1,0 +1,21 @@
+X: 1
+T: Jakobsmarschen av Fredrik Lind
+C: Fredrik Lind
+O: Sweden
+R: march
+Z: 2015 John Chambers <jc:trillian.mit.edu>, from Roger Tollroth's 1993 transcription.
+M: 2/4
+L: 1/8
+K: Dm
+%%measurefont Helvetica 8
+A |: \
+"Dm"f2 ed | A2 FD | "Gm"GB "A"AF | "Dm"D3 E |\
+"Dm"F2 EF | "C7"G2 cB | "F"A2 GF | "A7"E3 A |
+"Dm"~f2 ed | A2 FD | "Gm"GB "A"AF | "Bb"D3 C |\
+"Gm"B,D GB | "Dm"Ad "Gm"BG | "A7"F2 E^C |1 "Dm"D3 A :|2 "Dm"D4- ||\
+[K:=B][K:D] "A7"DA, DE |
+|:\
+"D"F2 EF | "G"G2 cd | "A7"ec AG | "D"F2 dc |\
+"Bm"B2 fd | "Em"gf ed | "A"cd ec | A4- | "A7"AB AG |
+"D"FD EF | "G"G3 B | "A"cd ec | "Bm"d3 g |\
+"D"f2 af | "Em"bg ed | "G"B2 "A7"~c2 | "D"d4- |1 "D"dA, DE :|2 "D"d3 |]

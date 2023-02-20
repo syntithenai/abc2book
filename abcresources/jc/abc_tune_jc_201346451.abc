@@ -1,0 +1,20 @@
+X: 1
+T: a Trip to Hanover.  A new Country Dance.
+R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: The Gentleman's Magazine v.20, May 1750, p.227
+N: The dance description is formatted as 2 paragraphs, for no apparent reason.
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+   G | cedf edc2 | c2gf edc2 | cedf edc2 | g2a^f g3 :|
+|: a | agfa gfe2 | fedc dBG2 | cedf egge | ecdB  c3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   The first couple cast off behind the 2d couple, and cross over into the 3d
+%% couple's place .|, then cast up again, and cross over the 2d couple in your ow[n]
+%% place :|
+%%   The first couple lead down below the 3d couple, cast up behind the 3d couple
+%% Then right and left with the 2d couple :| .
+%%endtext

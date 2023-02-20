@@ -1,0 +1,25 @@
+X: 1
+T: Spanish Jigg
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.171 "Q 2"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat added to satisfy "Every Strain is to be play'd twice over" instruction.
+M: 6/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+   (e/f/) | g2g g>ag | f2f f>gf | e2e e>fe | d>cB c2 :|\
+|: (e/f/) | g2e c>de | d2B G>AB | c2A F>fe | d>cB c2 :|
+|: (e/f/) | g2g g/f/ g/a/g | a2a a/g/ a/b/a | |g2g g>fe | d>cB c2 :|\
+|: g | (ec)g (ec)g | (dB)g (dB)g | (cA)d (BG)c | c>dB c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. set to their Partners and cast off, the 2. cu. set to their Partners and cast off :| The 1. man
+%% turn the 2. wo. and the 2. man the 1. wo :| The 1. cu. take hands and lead below the 3. cu. and back
+%% again, then cast off :| Go the whole Figure through :|
+%% [DMDfD]
+%%endtext
+%%text Note: Every Strain is to be play'd twice over.
+%%sep 1 8 500

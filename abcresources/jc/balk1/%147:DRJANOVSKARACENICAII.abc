@@ -1,0 +1,56 @@
+X: 147
+T: Drjanovska Racenica II
+T: Drianovska Racenica II
+F: http://www.youtube.com/watch?v=WeHRYM9hivI
+N: Yves Moreau's CD
+O: Bulgaria
+W:transcribed by Jutta Weber-Karn
+W:http://www.folkloretanznoten.de/
+W:converted to abc notation by Seymour Shlien
+M: 7/16
+L: 1/16
+K: Em
+Q:1/4=120
+V:1
+%%MIDI program 42 % Cello
+|:"Em"FGGF DFD     |EEED GAB          |\
+  "F#dim"FGGF EFD  |"Em"EEEd EEB,     |
+V:2
+%%MIDI program 116 % Taiko Drum
+|:E,4 B,,3         |E,2 B,,2 E,3      |\
+  C,4 B,,3         |E,2B,,2 E,3       |
+V:1
+  "Em"FGGF EFD     |EEED GAB          |\
+  "F#dim"FGGF EFD  |"Em"EEEB, E2 z::
+V:2
+  E,4 B,,3         |E,2B,,2 E,3       |\
+  C,4 B,,3         |E,2B,,2 E,3::
+V:1
+  "Em"A2 B2 B3     |e2 (B2- B2A)      |\
+  "D"A2 A2 A2G     |"Em"(AB) G2- G3::\
+V:2
+  E,4 B,,3         |E,4 z3            |D,4  E,3|G,4 z3::\
+V:1
+  "D" d2 (dc) (B2A)|"G"(AB) (G2- G2F) |
+V:2
+  D,4 D,3          |G,4 z3            |
+V:1
+  [1 "D"DE E2 (E2F)|"G"(GA) G2- G2 z  :|\
+  [2 "C"D2 E2 E E2 |"Em"E2 E2-E2 z    |:\
+V:2
+  [1 D,4 D,3       |G,4 z3            :|\
+  [2 A,,4 A,,3     |B,,4 z3           |:\
+V:1
+  "G" G4 F2 D      |"Em" .E2 z2 z3    |
+V:2
+  D,4 D,3          |E,4 z3            |
+V:1
+  "D" A2 A2 A2 G   |"Em"(AB) (BA) G2 F|\
+  "G"G4 F2 D       |"Em"E4 z3         |\
+V:2
+  D,4 D,3          |G,4 G,3           |\
+  D,4 D,3          |E,4 z3            |
+V:1
+  "G"G2 G2 F2 D    |"Em"E4 E2z        :|
+V:2
+  B,,4 D,3         |E,2B,,2 E,3       :|

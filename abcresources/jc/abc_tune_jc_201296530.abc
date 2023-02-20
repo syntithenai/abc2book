@@ -1,0 +1,74 @@
+
+X: 1
+T: Ukrainer Chosid'l   [Cm]
+S: transcription by Steve Rauch
+R: khusidl
+M: 4/4
+L: 1/16
+K: Cm
+"A"\
+|: "Cm"C2 c4 GB "Fm"A2G2 F4 | "G7"E2 F4 G2 "Cm"E2D2 C4 |\
+[1 "Cm"C2 c4 GB "Fm"ABAG F=EFA | "Cm"G4 c4 e4 c4 :|\
+[2 "Fm"E2 F4 E2 "G7"GFE2 EDC=B, | "Cm"C8 z4 |]
+"B"\
+|: "Bb7"B,4 |\
+"Eb"B4 A2G2 G^FGB E4 | "Eb"B4 A2G2 G^FGB E4 |\
+"Eb"G2G2 F2E2 G2G2 F2E2 | "Eb"EDE2 G^FG2 B=AB2 e4 |
+"Eb"z2e2 d2c2 B2A2 G4 | "Ab"z2c2 B2A2 "Eb"G2F2 E4 |\
+"Fm"E2 F4 E2 "G7"GFE2 EDC=B, |[1 "Cm"C8 z4 :|[2 "Cm"C8 z2G,2C2E2 |]
+"C"\
+|::: "Cm"G4 ^F2E2 F2G2 F2E2 | "Cm"^F2G2 F2E2 GFE2 EDC2 |\
+[1,3 "Cm"z2G2 ^F2E2 F2G2 =A2B2 | =A2 G12 z2 :|\
+[2,4 "Cm"z2E2 D2C2 "G7"=B,2G,2 B,2D2 | "Cm"C12 z4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Ukrainer Chosid'l   [Dm]
+S: transcription by Steve Rauch
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+R: khusidl
+M: 4/4
+L: 1/16
+K: Dm
+"A"\
+|: "Dm"D2 d4 Ac "Gm"B2A2 G4 | "A7"F2 G4 A2 "Dm"F2E2 D4 |\
+[1 "Dm"D2 d4 Ac "Gm"BcBA G^FGB | "Dm"A4 d4 f4 d4 :|\
+[2 "Gm"F2 G4 F2 "A7"AGF2 FED^C | "Dm"D8 z4 |]
+"B"\
+|: "C7"C4 |\
+"F"c4 B2A2 A^GAc F4 | "F"c4 B2A2 A^GAc F4 |\
+"F"A2A2 G2F2 A2A2 G2F2 | "F"FEF2 A^GA2 c=Bc2 f4 |
+"F"z2f2 e2d2 c2B2 A4 | "Bb"z2d2 c2B2 "F"A2G2 F4 |\
+"Gm"F2 G4 F2 "A7"AGF2 FED^C |[1 "Dm"D8 z4 :|[2 "Dm"D8 z2A,2D2F2 |][K:=B]
+K: ^G
+"C"\
+|::: "Dm"A4 G2F2 G2A2 G2F2 | "Dm"G2A2 G2F2 AGF2 FED2 |\
+[1,3 "Dm"z2A2 G2F2 G2A2 B2c2 | B2 A12 z2 :|\
+[2,4 "Dm"z2F2 E2D2 "A7"^C2A,2 C2E2 | "Dm"D12 z4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Ukrainer Chosid'l   [Em]
+S: transcription by Steve Rauch
+R: khusidl
+M: 4/4
+L: 1/16
+K: Em
+"B"\
+|: "Em"E2 e4 Bd "Am"c2B2 A4 | "B7"G2 A4 B2 "Em"G2F2 E4 |\
+[1 "Em"E2 e4 Bd "Am"cdcB A^GAc | "Em"B4 e4 g4 e4 :|\
+[2 "Am"G2 A4 G2 "B7"BAG2 GFE^D | "Em"E8 z4 |]
+"C"\
+|: "D7"D4 |\
+"G"d4 c2B2 B^ABd G4 | "G"d4 c2B2 B^ABd G4 |\
+"G"B2B2 A2G2 B2B2 A2G2 | "G"GFG2 B^AB2 d^cd2 g4 |
+"G"z2g2 f2e2 d2c2 B4 | "C"z2e2 d2c2 "G"B2A2 G4 |\
+"Am"G2 A4 G2 "B7"BAG2 GFE^D |[1 "Em"E8 z4 :|[2 "Em"E8 z2B,2E2G2 |]
+"D"\
+|::: "Em"B4 ^A2G2 A2B2 A2G2 | "Em"^A2B2 A2G2 BAG2 GFE2 |\
+[1,3 "Em"z2B2 ^A2G2 A2B2 ^c2d2 | ^c2 B12 z2 :|\
+[2,4 "Em"z2G2 F2E2 "B7"^D2B,2 D2F2 | "Em"E12 z4 :|

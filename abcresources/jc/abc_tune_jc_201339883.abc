@@ -1,0 +1,15 @@
+X: 1
+T: Spootiskerry
+C: Ian Burns
+%D:1980
+R: reel
+S: Fiddle Hell Online 2022-4-10 handout for Hazel Wrigley workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|	% Actually "none"
+L: 1/8
+K: G
+"^A"[|] DE \
+|: "G"G2DE GDEG | "G"DEGA "D7(Em)"B2AB |\
+[1,3 "G"G2DE "Em"GABd | "C"eged "D7"B2AB :|2,4 "C"g2ed "D7"edBA | "G"B2G2 "^Fine"G2 :|
+"^B"|:: ef \
+| "Em"g2ed edB2 | "G"BABG "C"E2DE | "G"GABd "C"eged |[1,3 "D7"B2A2 A2 :|[2 "G"B2G2 G2 :| "^->A2"DE |]

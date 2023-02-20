@@ -1,0 +1,24 @@
+X: 110
+T: les Delices du Vauxhall
+N: The book has "Les delices", with no accents.
+%R: march, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.52,53 #110
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The repeat and segno symbols are inconsistent and ambiguous; not fixed.
+N: The intended repeat pattern may be AABA CCDC, but use whatever works for your dancers.
+M: 2/4
+L: 1/8
+K: G
+|:\
+G2GB | (TAG)G2 | B2Bd | (TcB)B2 |\
+d(b/g/) d(c'/a/) |d(b/g/) db | c'agf | g2g2 :|
+|:\
+bg e(f/g/) | agfd | e2^c2 | d(d/e/) dd |\
+bg e(f/g/) | af e(f/g/) | ged^c | d=cBA !segno!|]
+!segno![|\
+ d2(cB) | .B(dcB) | e2(dc) | .c(edc) |\
+.d(dcB) | .B(dcB) | cAGF | G2G2 :|
+|:\
+D(d/e/) dc | B(g/a/) gg | D(d/e/) dc | B(g/a/) gd |\
+ec'Tc'2 | dbTb2 | c(a/g/) ag | fede !segno! |]

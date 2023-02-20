@@ -1,0 +1,30 @@
+X: 30192
+T: GRAND MARCH
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.19 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Missing beat in bar 9 fixed by matching the rhythm in bar 10 by removing 2nd beam from last 4 notes..
+N: The e in bar 16 may have been written in by hand.
+N: All 3 strains have a missing beat in the last bar, best fixed by doubling the note lengths in those bars.
+N: The (a2f2e2) triplet in bar 15 should probably be (a2f2d2) as in similar bars 7, 23.
+M: C
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(DEFG) |\
+A4 A3A ABcd fdcB | B4 (A2G2) (G2F2)(F2D2) |\
+(G2B2)(G2B2) (F2A2)(c2F2) |  (F6D2) E2F2 (GF).E.D |\
+A4 A3A ABcd fdcB | A4 (A2G2) (G2F2) (F2A2) |
+(3(B2c2d2) (3(e2f2g2) (3(a2f2d2) (3(g2e2c2) | (e6 d2) :: z4 |\
+a4 fgaf d2a2f2d2 | g4 efge c2g2e2c2 |\
+dcde fefg agfe dcBA | (G2F2)(B2A2) (A2G2) (GFED) |
+A4 A3A ABcd fdcB | .A4 (A2G2) (G2F2) (F2A2) |\
+(3(B2c2d2) (3(e2f2g2) (3(a2f2e2) (3(g2e2c2) | [e6d6] {c}d2 :: (DEFG) |\
+!p!A4 (A2G2) (G2F2F2E2) | (D2d2)(d2c2) (c2B2)(B2A2) |
+G4 (G2F2) (F2E2)(E2D2) | (E2e2)(e2d2) (d2c2) (c2B2) |\
+A4 (A2G2) (G2F2) (F2E2) | (D2d2)(d2c2) (c2B2)(B2A2) |\
+(3(B2c2d2) (3(e2f2g2) (3(a2f2d2) (3(g2e2c2) | e6 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

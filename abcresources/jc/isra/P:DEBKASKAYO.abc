@@ -1,0 +1,17 @@
+X: 50
+T:Debka Skayo
+C: A. Axelord
+O:Israel
+I:choreographer M. Eskayo
+L:1/8
+M:2/4
+Q:1/4=160
+K:Am
+%%MIDI gchord fzzzfzzz
+|:"Dm"D2 AG |.A2.A2   | "G"G4  | "Dm"A2 "G"G2|\
+  "Dm"D2 AG |.A2.A2   | "G"G4  | "Dm"A4      |
+  "Dm"D2 AG |.A2.A2   | "G"G4  | "Dm"A2 "G"G2|\
+  "Dm"FED2  |"Am"E2 EF| "Dm"D4 | D4          :|
+|:"Dm"d2 d2-|d2 "Am"c2| "G"BcBG| "Dm"A4      |\
+  d2 d2-    |d2 "Am"c2| "G"BcBG| "Dm"A4      |\
+  "G"B3 c   | B2 G2   | "Dm"A4 | A4          :|

@@ -1,0 +1,19 @@
+X: 121002
+T: COUNTRY DANCE
+P: Same figure.
+%R: reel
+B: James Kerr "Merry Melodies" v.1 p.21 s.0 #2
+N: The (.*.*) notation is used for the straight-line slurs in this tune.
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+|:\
+e2ed (.c2.c2) | BABc ABcd |\
+e2ed (.c2.c2) | BABc A4 ::\
+A2ce (.a2.a2) | bagf edcB |\
+A2Ae (.a2.a2) | bagf e4 :|
+A2AA (.A2.B2) | c2d2e2f2 |\
+g2a2g2f2 | efed c2d2 |\
+e2ee (.e2.f2) | d2e2c2d2 |\
+e2dc B2cB | A2z2 a4 |]

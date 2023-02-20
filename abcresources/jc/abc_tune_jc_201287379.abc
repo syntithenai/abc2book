@@ -1,0 +1,41 @@
+
+X: 1
+T: H\"om\"or\"odi K\"ort\'anc
+O: Hungary
+Z: John Chambers <jc@trillian.mit.edu>
+P: AABAABACCCAABAABA
+M: 4/4
+L: 1/8
+K: Gm
+|: "D"d'>a bc' "Gm"ba g2 | "Edim"bc'/b/ ag "Eb"b2 b/a/b/c'/ \
+|  "D"d'>a bc' "Gm"ba g2 |  "D"{^c'}d' d- d^f "Gm"g2 [g2B2D2G,2] :|
+K: Dm =e
+|: "Dm"d>e fg/e/ fe/^c/ d2 d2 | "A7"fg/e/ fe/^c/ "Dm"dA- AA \
+| "G"d>e fg/e/ "G#dim"fe/^c/ d2 d2 | "A7"fg/e/ fe/^c/ "Dm"d2 d2 :|
+K: Gm
+|: "Bb"B>d ff ff f2 | "F7"dd cc "Bb"B2 B2 \
+|  "Bb"B>d ff "Gm"ff f2 | "F7"dd cc "Bb"B2 B2 |
+|  "Eb"e2 ee "/D"ee e2 | "/C"e2 ee "/Bb"ee e2 \
+| "Cm"e2 ee ee "F"f2 | "Bb"dd "F7"cc "Bb"B2 B2 :|
+
+
+%%sep 1 1 500
+
+X: 2
+T: H\"om\"or\"odi K\"ort\'anc
+O: Hungary
+Z: John Chambers <jc@trillian.mit.edu>
+P: AABAABACCCAABAABA
+M: 4/4
+L: 1/8
+K: Am
+|: "E"e'>b c'd' "Am"c'b a2 | "Fdim"c'd'/c'/ ba "F"c'2 c'/b/c'/d'/ \
+|  "E"e'>b c'd' "Am"c'b a2 |  "E"{^d'}e' e- e^g "Am"a2 [a2c2E2A,2] :|
+K: Em
+|: "Em"e>f ga/f/ gf/^d/ e2 e2 | "B7"ga/f/ gf/^d/ "Em"eB- BB \
+| "A"e>f ga/f/ "A#dim"gf/^d/ e2 e2 | "B7"ga/f/ gf/^d/ "Em"e2 e2 :|
+K: Am
+|: "C"c>e gg gg g2 | "G7"ee dd "C"c2 c2 \
+|  "C"c>e gg "Am"gg g2 | "G7"ee dd "C"c2 c2 |
+|  "F"f2 ff "/E"ff f2 | "/D"f2 ff "/C"ff f2 \
+| "Dm"f2 ff ff "G"g2 | "C"ee "G7"dd "C"c2 c2 :|

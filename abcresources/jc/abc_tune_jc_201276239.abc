@@ -1,0 +1,32 @@
+X:1
+T: The Fisherman's Reel
+C:
+R:Reel
+Q: 232
+K:C
+M:4/4
+L:1/8
+"Part 1"CE|:G2 G2 G2 CE|G^F GA G2 C2|A2 cA F2 A2|G2 E4 CE|
+G2 G2 G2 CE|G^F GA G2 E2|F2 D2 E2 C2|D2 G,6|
+G2 G2 G2 AB|c2 B2 A2 G2|A2 A2 A2 Bc|d2 c2 B2 A2|
+G2 G2 G2 AB|c2 B2 A2 G2|Ac BA GF ED|1E2 C2 C2 CE:|2E2 C2 C2 D2|
+K:G
+"Part 2"|:G2 B2 BA GF|G2 B2 BA GF|GA Bc B2 A2|G6 G2|
+c2 c2 B3B|^A2 A2 B4|A2 GF E2 A2|D8|
+d2 e2 d2 e2|d2 e2 d3e|d2 A2 Ac BA|B2 G2 G3d|
+d2 e2 d2 e2|d2 e2 d2 g2|dB ed c2 A2|G6 B2:|
+K:C
+"Part 3"|:c2 c2 c2 c2|B2 B2 B2 B2|A2 A2 A^G AB|A2 G2 G3G|
+c2 c2 c2 c2|B2 B2 B2 B2|A2 A2 de dc|B2 G2 G3G|
+e2 c2 c2 G2|c2 G2 G3G|A2 A2 Ac BA|G2 E2 E2 G2|
+e2 c2 c2 G2|c2 G2 G3G|Ac BA Bd cB|1c2 C2 C2 G2:|2c2 C2 C2 dc|
+K:G
+"Part 4"|:B2 G2 A2 c2|Bc d4 dc|B2 G2 A2 c2|Bc d4 d2|
+e2 g2 f2 e2|d6 c2|BA Bc B2 A2|G4 G2 B2|
+B3c B2 c2|A3B A2 B2|G2 g2 d2 e2|c2 B2 A4|
+B3c B2 c2|A3B A2 B2|G2 B2 d2 g2|g2 f2 g4:|
+K:C
+"Part 5"|:c2 c2 c2 c2|B2 B2 B2 B2|A2 A2 A^G AB|A2 G2 G3G|
+c2 c2 c2 c2|B2 B2 B2 B2|A2 A2 de dc|B2 G2 G3G|
+e2 c2 c2 G2|c2 G2 G3G|A2 A2 Ac BA|G2 E2 E2 G2|
+e2 c2 c2 G2|c2 G2 G3G|Ac BA Bd cB|1c2 C2 C2 G2:|2c2 C2 C2||

@@ -1,0 +1,25 @@
+X: 09043
+T: FRITHA'S JIG
+C: Bob McQuillen 27 Oct 92
+B: Bob's Note Book 9 #43
+R: jig
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+N: Added flag to last note, to fix the rhythm of repeats.
+M: 6/8
+L: 1/8
+K: D
+fe \
+| dBd Afe | dBd A2G | FAd dcd | egf efe |
+| dBd Afe | dBd A2G | FAd eag | fdd d :|
+|: fg \
+| aba fdf | edB A2A | dfa afd | gfg efg |
+| aba fdf | edB AFA | Bed cBc | edd d :|
+%%begintext align
+%% Bob and Lydia Reeve come to
+%% the dances all the time (Lydia is a fine fiddler, too), and
+%% I think they are pretty lucky people because they have a
+%% real nice little daughter named Fritha. So this is
+%% your tune, Fritha, and I sure hope you like it - if you
+%% smile at me at the next dance, perhaps that'll mean
+%% that you do!
+%%endtext

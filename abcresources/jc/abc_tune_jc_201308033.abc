@@ -1,0 +1,47 @@
+
+X: 1
+T: Mattinata   [D]
+T: This Is Our Day
+T: You're Breaking My Heart
+R: waltz
+C: Ruggiero Leoncavallo 1904
+F: https://www.scribd.com/document/374973992/IMSLP482691-PMLP116350-mattinata-pdf
+%date: 1904
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A "A"\
+| "D"def d{ed}cB | "G"dE2 "Em"z2F | "Em"GBd "A7"c{dc}B> C | "D"A3 z2F |
+| "B7"FGA F^D>B, | "Em"FE2 z2D | "F#m"CFA "C#7"^G^EC | "F#m"c3- "A7"c2 |]
+A "B"\
+| "D"def d{ed}cB | "G"dE2 "Em"z2F | "Em"GBd "A7"c{dc}B> C | "D"A3 z2A |
+| "Adim"=cBc A2^G/A/ | "A"f3 e2c | AEC "E7"FD^G | "A"A3- "A7"A3 |]
+"C"\
+|: "D"AFA "Bm"B3 | "D"A{BA}FA "Bm"BB2 | "C#7"B^GB "F#m"c2c | "E7"Bcd "A7"e3 | "F#7"gf> c "Bm"c2d |
+| "E7"ed> ^G "D"B2A |1 "Gm"d_Bd "D"AFD | "A7"GG> C "D"D2z :|2 "Gm"d_Bd "D"AFd | "A7"gg> c "D"d2z |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mattinata   [F]
+T: This Is Our Day
+T: You're Breaking My Heart
+R: waltz
+C: Ruggiero Leoncavallo 1904
+F: https://www.scribd.com/document/374973992/IMSLP482691-PMLP116350-mattinata-pdf
+%date: 1904
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+c "A"\
+| "F"fga f{gf}ed | "Bb"fG2 "Gm"z2A | "Gm"Bdf "C7"e{fe}d> E | "F"c3 z2A |
+| "D7"ABc A^F>D | "Gm"AG2 z2F | "Am"EAc "E7"=B^GE | "Am"e3- "C7"ez ||
+c "B"\
+| "F"fga f{gf}ed | "Bb"fG2 "Gm"z2A | "Gm"Bdf "C7"e{fe}d> E | "F"c3 z2c |
+| "Cdim"_ede c2=B/c/ | "C"a3 g2e | cGE "G7"AF=B | "C"c3- "C7"c3 ||
+"C"\
+|: "F"cAc "Dm"d3 | "F"c{dc}Ac "Dm"dd2 | "E7"d=Bd "Am"e2e | "G7"def "C7"g3 | "A7"ba> e "Dm"e2f |
+| "G7"gf> =B "F"d2c |1 "Bbm"f_df "F"cAF | "C7"BB> E "F"F2z :|2 "Bbm"f_df "F"cAf | "C7"bb> e "F"f2z |]

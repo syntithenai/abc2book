@@ -1,0 +1,43 @@
+X: 1
+T:MAIRI BHAN OG
+M:6/8
+L:1/8
+Q:80
+C:Traditional
+S:March
+K:HP
+[| {g}d/4e3/4|
+{gfg}f2B2{g}B3/2{GdGe}B/2|
+{gcd}c3/2B/2{G}B{g}B3/2c/2d|  !
+{g}e3/2f/2{g}e{gcd}c3/2{e}B/2{d}c|
+{g}A3{GAG}A2{d}c|
+{g}B2{GdGe}B{Gdc}d2e|  !
+{g}f2{GdG}f{gfg}f2e|
+{Gdc}d2f{g}f/2a3/2f|
+{gef}e3{A}e3/2{g}d/2e|  !
+{g}f3/2g/2f{gef}e2d|
+{g}B/2d3/2B{g}B3/2c/2d|
+{g}e3/2f/2{g}e{gcd}c3/2{e}B/2{d}c|  !
+{g}A3{GAG}A2{d}c|
+{g}B2{GdGe}B{Gdc}d2e|
+{gfg}f3/2e/2d{g}f/2a3/2g|  !
+{afg}f3/2e/2d{gef}e3/2d/2c|
+{g}B3{GdGe}B2|] |:
+{gf}g|  !
+a2{GdG}aB2{d}c2|
+{g}e3/2f/2{g}e{gef}e3/2d/2c|
+a2{GdG}a2{cd}c3/2{e}B/2{d}c|  !
+{g}A3{GAG}A2{d}c|
+{g}B2{GdGe}B{Gdc}d2e|
+{g}f2{GdG}f{gfg}f2e|  !
+{Gdc}d2f{g}f/2a3/2f|
+{gef}e3{A}e3/2{g}d/2e|
+{g}f3/2g/2f{gef}e2d|  !
+{g}B/2d3/2B{g}B3/2c/2d|
+{g}e3/2f/2{g}e{gcd}c3/2{e}B/2{d}c|
+{g}A3{GAG}A2{d}c|  !
+{g}B2{GdGe}B{Gdc}d2e|
+{gfg}f3/2e/2d{g}f/2a3/2g|
+{afg}f3/2e/2d{gef}e3/2d/2c|  !
+{g}B3{GdGe}B2|]
+

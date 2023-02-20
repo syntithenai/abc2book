@@ -1,0 +1,26 @@
+X: 21001
+T: FALL OF PARIS
+%R: reel
+B: "Edinburgh Repository of Music" v.2 p.100 - p.101 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The last strain has initial repeat but no final repeat; not fixed.
+M: 2/4
+L: 1/16
+K: D
+[|\
+.d2"_P."(de) .d2(de) | d2(de) gfed | e2(ef) e2(ef) | e2ef agfe |\
+f2fg f2fg | f2fg bagf | .e2(ef) .e2(ef) | efgf agfe |
+"_F.".d2(de) .d2(de) | .d2(de) gfed | .e2(ef) .e2(ef) | e2ef agfe |\
+f2(fg) "_>"a3g | f2(fg) "_>"a3g | f2(fd) .e2(ec) | d2d2 d4 |]
+[|\
+a8 | a2f2b2a2 | g2gf g2gf | g2gf g4 |\
+g4 g2g2 | g2e2a2g2 | f2(fe) f2(fe) | f2(fe) f4 |
+d2(de) d2(de) | d2(de) gfed | .e2(ef) .e2(ef) | e2(ef) (ag)(fe) |\
+f2(fg) a2g2 | f2fg a2g2 | f2(fd) .e2(ec) | d2d2 d4 |]
+|:\
+abc'd' c'bag | fgab agfe | d2(df) e2(eg) | f2a2 e4 |\
+abc'd' c'bag | fgab agfe | d2de f2e2 | d2d2 d4 :|
+|:\
+c2d2 e2f2 | g2f2e2d2 | c2d2e2f2 | g2f2e2z2 |\
+abc'd' c'bag | fgab agfe | d2de f2e2 | d2d2 d4 |]

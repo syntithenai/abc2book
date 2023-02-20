@@ -1,0 +1,78 @@
+
+X: 1
+T: Neda Grivne
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/8
+P: G
+K: G
+|: "G"[G2D] [G2D] | "D"[A3F] [AF] \
+| "G"[B2G] [G2D] | "D"[AF][BG] [c2A] \
+| "G"[B2G] [G2D] | "D"[AF][BG] [c2A] \
+| "G"[BG][AF] [BG][GD] | "D"[A3F] [cA] \
+| "G"[BG][AF] [BG][GD] | "D"[A3D] z :|
+P: D
+K: D
+|: "D"[d2A] [d2A] | "A"[e3c] [ec] \
+| "D"[f2d] [d2A] | "A"[ec][fd] [g2e] \
+| "D"[f2d] [d2A] | "A"[ec][fd] [g2e] \
+| "D"[fd][ec] [fd][dA] | "A"[e3c] [ge] \
+| "D"[fd][ec] [fd][dA] | "A"[e3A] z :|
+P: A
+K: A
+|: "A"[A2E] [A2E] | "E"[B3G] [BG] \
+| "A"[c2A] [A2E] | "E"[BG][cA] [d2B] \
+| "A"[c2A] [A2E] | "E"[BG][cA] [d2B] \
+| "A"[cA][BG] [cA][AE] | "E"[B3G] [dB] \
+| "A"[cA][BG] [cA][AE] | "E"[B3E] z :|
+P: E
+K: E
+|: "E"[e2B] [e2B] | "B"[f3d] [fd] \
+| "E"[g2e] [e2B] | "B"[fd][ge] [a2f] \
+| "E"[g2e] [e2B] | "B"[fd][ge] [a2f] \
+| "E"[ge][fd] [ge][eB] | "B"[f3d] [af] \
+| "E"[ge][fd] [ge][eB] | "B"[f3B] z :|
+
+
+%%sep 3 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: Neda voda nalivala
+O: Pirin, Bulgaria
+Z: John Chambers <jc@trillian.mit.edu>
+N: From a handwritten transcription by Dick Crum
+M: none % 11/8
+%%maxshrink 1
+%%vocalfont Helvetica-Narrow-Bold 18
+%%staffsep 20
+L: 1/8
+K: D_E^F
+|: AG FE (FE) (DG) FG2 | AG FE (FE) (DG) DD2 :|
+w:~1.~Ne-da vo-da na-*li-*va-la, na-li-va-la, raz-*li-*va-la.
+w:~3.~Nad vo-da se jo-*gle-*da-la, pa sa-ma si pro-*du-*ma-la
+w:~5.~De li mi e moj-*to* li-be, moj-to li-be, pr-*vo* li-be.
+w:~7.~Dru-go li-be po-*hu-*ba-vo, po-hu-ba-vo, po-*gi-*zda-vo.
+w:~9.~De go li-be da* mi* ka-\vze, haj-de, Ne-do, da* be-*ga-me.
+w:11.~Do-gde go-ra \vsu-*ma* i-ma, i po-le-to de-*te-*li-na.
+w:13.~Za dva-mi-na lu-*di* mla-di, lu-di mla-di ka-*to* na-zi.
+|: DE FE (FE) (DG) FG2 | DE FE (FE) (DG) DD2 :|
+w:~2.~Na-li-va-la, raz-*li-*va-la,  nad vo-da se jo-*gle-*da-la
+w:~4.~Pa sa-ma si pro-*du-*ma-la, de li mi e moj-*to* li-be.
+w:~6.~Da li dru-go ne* za-*li-be, dru-go li-be po-*hu-*ba-vo.
+w:~8.~Po-hu-ba-vo, po-*gi-*zda-vo, po-hu-ba-vo od* me-*ne-ka.
+w:10.~Haj-de, Ne-do, da* be-*ga-me, do-gde go-ra \vsu-*ma* i-ma.
+w:12.~I po-le-to de-*te-*li-na, za dva-mi-na lu-*di* mla-di.
+w:14.~Lu-di mla-di ka-*to* na-zi, ni go-de-ni, ni* \vze-*ne-ni.
+%W: Neda was pouring water and spilled some.  She looked at herself in the water,
+%W: and spoke to herself:  Where is my love, my first true love?
+%W: Has he fallen in love with another sweetheart more fair, more beautiful than I?
+%W: I wi\vs he would come and say: Come, Neda, let's run away,
+%W: to where the mountain has green foliage, where the field is full of clover,
+%W: for two young lovers such as we, neither engaged nor married.
+% sep 10 10 100
+P: Bb instr:
+K: E=F^G
+|: BA GF GF EA GA2 | BA GF GF EA EE2 :|
+|: EF GF GF EA GA2 | EF GF GF EA EE2 :|

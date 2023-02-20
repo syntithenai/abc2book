@@ -1,0 +1,51 @@
+X:1
+%% Copyright 1934 (Renewed 1962) METRO-GOLDWYN-MAYER INC.
+T:Blue moon
+M:4/4
+L:1/8
+C:Rodgers & Hart
+Q:1/4=120
+%%staves (chords melody)
+K:Eb
+%%text (Medium)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+x2 || "Eb6"x4 "Cm7"x4 | "Fm7"x4 "Bb7"x4 | "Eb6"x4 "Cm7"x4 | "Fm7"x4 "Bb7"x4 |
+"(Db7""Eb6"x4 "C7""Cm7"x4 | "B7)""Fm7"x4 "Bb7"x4 | "Eb6"x4 x4 | "T.A."x4 x4 ||
+V:melody
+B2 || B8- | BABc BBAB- | B8- | BFGA GGFG- |
+w:Blue Moon* you saw me stand-ing a-lone** with-out a dream in my heart,
+G8- | GEFG EEEE- | E8- | E4 z2B2 ||
+w:**with-out a love of my own;** Blue
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Eb6"x4 "Cm7"x4 | "Fm7"x4 "Bb7"x4 | "Eb6"x4 "Cm7"x4 | "Fm7"x4 "Bb7"x4 |
+"(Db7""Eb6"x4 "C7""Cm7"x4 | "B7)""Fm7"x4 "Bb7"x4 | "Eb6"x4 "Abm6"x4 | "Eb6"x4 "C7"x4 ||
+V:melody
+B8- | BABc BBAB- | BB3- B4- | BFGA GGFG- |
+w:Moon* you knew just what I was there* for** you heard me say-ing a pray'r
+GG3- G4- | GEFG EEEE- | EE3- E4- | E4 zEEE ||
+w:*for** sone-one I real-ly could care* for.** And then there
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+V:chords
+"Fm7"x4 "Bb7"x4 | "Eb6"x4 x4 | "Fm7"x4 "Bb7"x4 | "Eb6"x4 x4 |
+"Abm7"x4 "Db7"x4 | "Gbmaj7"x4 x4 | "Bb/F"x4 "F7"x4 | "Fm7"x4 "Bb7"x4 ||
+V:melody
+FFFF G2G2 | EE3- EEEE | FFFF G2G2 | E4- EEEE |
+w:sud-den-ly ap-peared be-fore me* the on-ly one my arms will ev-er hold* I heard some-
+EEEE F2F2 | _DD3- DDDD | =DDDD F2F2 | B6B2 ||
+w:bod-y whis-per "Please a-dore me"* and when I looked, the moon had turned to gold! Blue
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Eb6"x4 "Cm7"x4 | "Fm7"x4 "Bb7"x4 | "Eb6"x4 "Cm7"x4 | "Fm7"x4 "Bb7"x4 |
+"(Db7""Eb6"x4 "C7""Cm7"x4 | "B7)""Fm7"x4 "Bb7"x4 | "Eb6"x4 x4 | "T.A."x4 x4 |]
+V:melody
+B8- | BABc BBAB- | B8- | BFGA GGFG- |
+w:Moon!* Now I'm no long-er a-lone** with-out a dream in my heart,
+G8- | GEFG EEEE- | E8- | E4 z4 |]
+w:** with-out a love of my own.**

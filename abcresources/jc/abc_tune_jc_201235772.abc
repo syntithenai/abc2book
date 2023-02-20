@@ -1,0 +1,28 @@
+X: 21371
+T: HURRICANE SETT (tune 4)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.137 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+fe |\
+d2A2F2A2 | d4 z2cd | e2e2e2e2 | e4 z2Ad |\
+f2f2f2f2 | f2(gf) e2(fe) | d2d2 cdec | d4 z2 H|]
+dc |\
+B2B2c2d2 | e6 dc | B2B2c2d2 | e6 dc |\
+B2B2c2d2 | e2(fe) d2(ed) | e2(dc) B2(cB) | A4 z2A2 |
+d2dd d2d2 | d6 A2 | d2A2 F2D2 | A4 z2AA |\
+d2dd d2d2 | d4 z2f2 | edcB cBA^G | A4 "^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across and back,
+%% all chain,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

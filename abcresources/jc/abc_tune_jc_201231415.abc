@@ -1,0 +1,32 @@
+X: 151
+T: Chester Jigg
+T: Longways for as many as &c.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.76
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+N: Bar 3 has only 5 counts, not 6; not fixed. The first B or the c might be longer.
+M: 6/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+GF |\
+(E2C2)E2 (G2E2)G2 | A2B2c2 B4A2 | GAB2 (AB)c2B2 | D6 D4GF |\
+E2F2G2 A2B2c2 | B2c2d2 G2g2f2 | e3dc2 G2E2G2 | c6- c4 :|
+|: g2 |\
+g2e2c2 a2f2d2 | g2e2c2 f2e2d2 | A2B2c2 d2e2f2 | B6 G4g2 |\
+gfefge agfgaf | gfefge d2e2f2 | e3dc2 d3cB2 | c6- c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st Man sett to the 2d Wo. the 1st Man turn the 2d
+%% Man turn quite round, the 2d Wo. turn the 1st Wo.
+%% quite round at the same time .| then the 1st Wo. and
+%% 2d Man do the same :| the 1st and 2d Cu. clap hands
+%% with your partners, turn single then take hands
+%% and go half round .| take hands and go half round
+%% and all turn S., the 1st Cu. clap hands and cast off :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

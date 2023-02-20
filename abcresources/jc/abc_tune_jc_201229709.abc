@@ -1,0 +1,18 @@
+X: 1282
+T: TAGLIONI'S GARLAND DANCE
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.1282_
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: Fixed first repeat to not include the initial g pickup note.
+M: 3/4
+L: 1/8
+K: C
+%%slurgraces 0
+g2 |:\
+.c'2.c'2.c'2 | (c'4b2) | .c'2.c'2.c'2 | (c'4b2) |\
+c4d2 | e4f2 |[1 g2c'2a2 | g3a/g/ f/e/f/d/ :|[2 g2a2^f2 | g4 ||
+|: g2 |\
+g2e2c'2 | (c'4b2) | d2B2a2 | a4g2 |\
+g2e2c'2 | c'4b2 | d2B2a2 | a4g2 |
+g2e2a2 | f2d2g2 | {f}e>d c2d2 | {c}B>A G2G2 |\
+c4c2 | d4e2 | f2A2B2 | c4 H:|

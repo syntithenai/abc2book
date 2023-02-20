@@ -1,0 +1,29 @@
+X: 32661
+T: THE BELL POLKA
+C: By E. Ames Muirpark, Dalkeith
+R: polka
+B: K\"ohler's Violin Repository, v.3, 1885 p.266 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+|:\
+vEFG2 EFG2 | ABc2 ABc2 | B2d2 (.d3.B) | c2e2e2z2 |\
+EFG2 EFG2 | ABc2 ABc2 | B2d2 (.d3.B) |[1 c2c2c2z2 :|[2 c2z2 vc2 zuc |]
+K:G
+[|\
+vB2^A2B2A2 | B6 A2 | G2B2 (.e3.d) | (d4 c2) zvA |\
+A2^G2A2G2 | A6=G2 | F2e2d2c2 | B6 zuB |
+B2^A2B2A2 | B6 A2 | G2B2 (.e2z.d) | (d4 c2) zuA |\
+A2^G2A2G2 | A6 B2 | c2d2e2f2 | g2z2z4 ]|
+K:C
+[|\
+vEFG2 EFG2 | ABc2 ABc2 | B2d2 (.d3.B) | c2e2e2z2 |\
+vEFG2 EFG2 | ABc2 ABc2 | B2d2 (.d2z.B) | c2z2 vc2 zuc |]
+K:F
+[|\
+f2a2f2d2 | c6 z(vA | f2) z(uc a2) z(vf | c'2)b2 z2zug |\
+(g2b2g2e2) | uc6 uB2 | (A2d2c2B2) | A6 zuc |
+(f2a2f2d2) | c6 z(vA | f2) z(uc a2) z(vf | c'2)b2 z2zug |\
+(g2b2g2e2) | uc6 uc2 | d2d2 e2e2 | vf2z2 vf2z2 "^D.C."|]

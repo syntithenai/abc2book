@@ -1,0 +1,155 @@
+
+X: 0
+T: Involuntary Trumpet Standpiece
+%C:
+K:
+
+
+X: 1
+T: Fanfare, Intro
+P: piffero primo a0455
+O: Greg Rice
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/involuntaryF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/16
+K: D
+z4 |\
+d4  A4  d2dd d2d2 | f4   d4 f2ff f2f2 |\
+a3f a3f adfa d2f2 | a2aa a2a2 a4 |]
+
+
+X: 2
+T: Fanfare, Intro
+P: piffero secondo a0456
+O: Greg Rice
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/involuntaryF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/16
+K: D
+z4 |\
+F4   D4   F4   D2F2 | A2AA F2FF d2A2 F2A2 |\
+dFAd fAdf D2F2 A2d2 | D2DD A2A2 d4 |]
+
+
+X: 3
+T: A Trumpet Tune
+C: Henry Purcell
+P: piffero primo a0457
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/involuntaryF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+z4 |\
+a2a2 a3g | f>ed>f e2A2 | F2A2 d2A2 | d>ef>g e4 |\
+a2a2 a3g | f>ed>f e2A2 | d>ed>e f>^gf>g | ^g3f/g/ a2 :|
+|: z2 |\
+e2e2 e3f | e>dc>d e2A2 | a2a2 a3b | a>gf>g a2d2 |\
+a>gf>a g>fe>g | f>ed>f e2A2 | d>fe>g f>ag>f | e3d d2 :|
+
+%%center (8 bar drum bridge)
+
+
+X: 4
+T: Germantown Hook  v.1
+P: piffero primo a0141
+O: Ed Olsen
+%R: jig, march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/ashgroveF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+B |\
+E2F G2A | B2c BAG | A2G E2D | E3- E2F |\
+G2A B2c | d2e d2B | c<Az d2c | B3- Bcd |
+e2f gfe | (f3g2)Tf | e2d B2A | B<Ez F2G |\
+A2B cde | d2B GAB | TA2G TE2D | E3- E2 :|
+
+
+X: 5
+T: Germantown Hook  v.2
+P: piffero secondo a0212
+O: Greg Bacon
+%R: jig, march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/ashgroveF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+z |\
+(B,2A,) B,2D | B,CF GFG | F2z G2A | B3- B2d |\
+B,CD EFG | F2G A2B | E<Fz G2e | F3 G2A |
+G2B d2c | d3 B2d | c2G FGA | G<B,z D2E |\
+C2F E2A | B2G D2E | F2D G,1A, | B,3- B,2 :|
+
+
+X: 6
+T: John With the Light Brown Hair
+P: piffero primo a0458
+O: Roche collection
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/involuntaryF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Em
+z2 |\
+E3F G2A2 | B2e2 d2B2 | A3B A2F2 | (3FAFE2 D3B, |\
+E3F G2A2 | B2e2 d2B2 | B2A2 d3F | ~F2E2 E2 :|
+|: z2 |\
+B2e2 e2de | f2e2 d2B2 | B2e2 e2de | f2e2 d4 |\
+B2e2 e2de | f2e2 d2B2 | B2A2 d3F | (3(FAF)E2 E2 :|
+
+%%center (Second Break, 22 bar drum (mostly) solo)
+
+X: 7
+T: Last 4 Bars
+P: piffero primo a0469
+O: Greg Rice
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/involuntaryF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+%%stretchstaff no
+%%stretchlast  no
+K: D
+y | z8 | z6 dd | "^>"d2dd "^>"d2dd | "^>"d2dd "^>"d2 |
+
+
+X: 8
+T: Over the Waterfall
+P: piffero primo a0459
+O: de Greg Rice
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/involuntaryF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+de |\
+f2a2 gfe2 | d2B2 A2de | f2a2 gfe2 | d4 d2de |\
+f2a2 gfe2 | d2B2 A2AB | =c3c B2A2 | G4 G2 :|
+|: FG |\
+A2A2 B2B2 | ABAG F2FG | A2d2 cde2 | d4 d2FG |\
+A2A2 B2B2 | ABAG F2FG | A2A2 GFE2 | D4 D2 :|
+
+
+X: 9
+T: St. Anne's Reel
+P: piffero primo a0460
+O: de Greg Rice
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/involuntaryF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+Ad |\
+f2fg fedB | AFAB A3A | BABd B2AG | AFAB A2de | f2fg fedB |
+AFAB A3d | BABd cAce | d2d2 d2 :: ag | fdfa fdfa | aggf g2gf |
+edcB ABce | baa^g a2a=g | fdfa fdfa | aggf g2gf | edcB Aceg | f2d2 d2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

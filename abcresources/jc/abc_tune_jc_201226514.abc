@@ -1,0 +1,34 @@
+X: 1030
+T: Bonny Lass
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+c2g gfe | d2e f3 | edc cde | dec dBG |\
+c2g gfe | d2e f>gf | edc f2e | dBG c3 :|
+|:\
+B2c dBG | B2c d2e/f/ | gec gec | gec gec |\
+B2c dBG | B2c d2e/f/ | gec f2e | dBG c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+e3 c3 | g3 G3 | c3 e3 | f2a g3 |\
+e3 c3 | g3 G3 | c3 d2c | g2G c3 :|
+|:\
+g3 G3 | g3 G3 | c'3 c3 | c'3 c3 |\
+g3 G3 | g3 G3 | c3 d2c | g2G c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The two 1st Men dance round Partners. 1st Man lead his Partner thro' the 2d Cu.
+the two 1st We. figure round the Men. then 1st Wo. lead her Partner thro' .|
+the 1st Man sett to the 2d Wo. and turn single. the 1st Wo. sett to the 2d Man. 1st Cu cast off .|
+Man takes his Partner and draws her quite round 3d Cu. and round 2d :|
+%%endtext

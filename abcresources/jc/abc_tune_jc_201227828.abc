@@ -1,0 +1,22 @@
+X: 10
+T: the Chace
+%R: reel
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.5 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: D
+|:\
+dcde d2A2 B4 A4 | defd efge a2gf e2A2 |\
+a2^gf e2d2 cAce a2d2 | c2BA E2^G2 A4 A,4 :|
+|:\
+e2ef e2A2 f2ed e2A2 | a2gf g2fe f2ed c2BA |\
+B3dc3e defg a2g2 | f2ed A2c2 d4 D4 :|
+%%begintext align
+%%   First Lady figure down on her own side,
+%% partner following Her to his .| the Gent:
+%% do the same, Lady following him :|
+%% Chassee and back again :|. Cross over
+%% and Right and Left :|:
+%%endtext

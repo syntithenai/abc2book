@@ -1,0 +1,82 @@
+% input file wachet.mid
+% format 1 file 4 tracks
+
+X:1
+T:Wachet auf, ruft uns die Stimme
+C:J.S Bach
+M:4/4
+L:1/8
+Q:1/4=69
+%%staves {2 3} 4
+K:Eb % 3 flats
+%V:1
+% Time signature=4/4  MIDI-clocks/click=24  32nd-notes/24-MIDI-clocks=8
+% MIDI Key signature, sharp/flats=-3  minor=0
+%1\re fois
+%2\me fois
+V:2 brk=3
+%Flute
+%%MIDI program 1 17
+B,|E/-F/G G-F A-G B,-A,|:G/-E/F A,-G, D-E zB,|
+E/-F/G G-F A-G B,-A,|G/-E/F A,-G, D-E zB|B2 (A/G/F/E/) (F/E/D/C/) B,C/D/|
+E/-F/G/-F/ (A/G/F/E/) G-F zB,|G-=A2 B {F}E/D/E zC|=A-B2 c {F}E/D/Ez {cd}e|
+(d/c/B) ~B/=A/B- B/(A/G/F/) (E/D/C/B,/)|(C/D/E) {F}E/-D/E- E/(=A/B/c/ B/=A/G/F/)|BF TDC/B,/ (B,/E/D/C/) DB,|
+{=A,}G,3/2=A,/ ~A,3/2G,/4A,/4 B,2 zB,|E/-F/G G-F A-G B,-A,|G/-E/F A,-G, D-E zB,|
+E/-F/G G-F A-G B,-A,|G/-E/F A,-G, D-E zF|G-=A2 B {F}E/-D/E zE|
+=A-B2 c {G}F/-E/F z2|z2 zB B2 (A/G/F/E/)|(F/E/D/C/) B,C/D/ E/-F/G/-F/ (A/G/F/E/)|
+[1G-F z2 z2 zB,|E/-F/G G-F A-G B,-A,:|2G-F z2 z2 zB|
+B2 (A/G/F/E/) (F/E/D/C/) B,C/D/|E/-F/G/-F/ (A/G/F/E/) G-F zB,|G-=A2 B {F}E/-D/E zC|
+=A-B2 c {F}E/-D/E ze|d/-c/B ~B/=A/B- (B/=A/G/F/) (E/D/C/B,/)|C/D/E ~E/D/E- E/(=A/B/c/ B/=A/G/F/)|
+BF TDC/B,/ (B,/E/D/C/) DB,|G,3/2=A,/ ~A,3/2G,/4A,/4 B,2 zD|E-F2 G ~B,/-A,/B, zB|
+B2 (A/G/F/E/) (F/E/D/C/) B,C/D/|(E/F/G/F/) (A/G/F/E/) G-F z2|z2 zG c/-d/e e-d|
+f-e G-F e/-c/d F-E|=B-c zG G2 (F/E/D/C/)|(D/C/=B,/=A,/) G,=A,/=B,/ (C/D/E/D/) (F/E/D/C/)|
+E-D zG, E-^F2G|{D}C/-B,/C z=A,^F-G2 =A|{D}C/-B,/C zc B/=A/G- TG/^F/G-|
+G/=F/E/D/ C/B,/=A,/G,/ A,/B,/C- TC/B,/C-|C/(^F/G/A/ G/F/=E/D/) GD TB,=A,/G,/|G,2 z2 z2 zB,|
+E/-F/G G-F A-G B,-A,|G/-E/F A,-G, D-E z2|z2 zB B2 (A/G/F/E/)|
+(F/E/D/C/) B,C/D/ E/-F/G/-F/ (A/G/F/E/)|G-F zE c-d2 e|~A/G/A zc d-e2 f|
+{B}A/G/A zF G/F/E- TE/D/E-|E/_d/c/B/ A/G/F/E/ F/G/A- TA/G/A-|
+A/(D/E/F/ E/D/C/B,/) BE G/F/E/D/|(E/A/G/F/) GE {D}C3/2D/ D3/2E/|E8||
+V:3
+%Trompette
+%%MIDI program 2 56
+z|z8|z8|
+z8|z8|z8|
+z8|z8|z8|
+z8|z8|z8|
+z8|z4 E,2 G,2|B,2 B,2 B,2 B,2|
+C4 B,4|z4 z2 B,2|E2 B,2 EF G2|
+F3E D2 ~C3/2B,/4C/4|B,4 z4|z2 B,2 {B,}E2 B,2|
+C2 G,3/2A,/4B,/4 A,G, TF,2|E,4 z4|C2 G,3/2A,/4B,/4 A,G, TF,2|
+E,4 z4|z8|z8|
+z8|z8|z8|
+z8|z4 z2 B,2|B,2 A,2 G,2 TF,2|
+E,4 z4|z2 B,2 B,2 A,2|G,2 TF,2 E,4|
+z8|F,2 G,2 TA,4|G,4 z4|
+z8|z8|z8|
+z8|z8|z2 B,2 C2 D2|
+E4 z4|z4 z2 EF|G2 TF2 E4|
+z8|z2 B,2 E2 B,2|C2 G,2 A,G, TF,2|
+E,8|z8|
+z8|z8|z8|
+V:4 clef=bass+16
+%Pedal
+%%MIDI program 3 43
+z|E,,2 E,,2 E,,2 G,,2|A,,2 B,,2 E,,2 z2|
+E,,2 E,,2 E,,2 G,,2|A,,2 B,,2 E,,2 z2|G,,2 C,2 B,,2 A,,2|
+G,,2 E,,2 B,,2 D,2|E,2 D,2 C,2 E,2|F,2 G,2 =A,2 F,2|
+B,2 =A,2 G,2 F,2|E,2 D,2 C,2 E,2|D,B,,F,F,, G,,=A,,B,,D,,|
+E,,C,,F,,2 B,,C,B,,_A,,|G,,F,,E,,D,, C,,2 C,2|G,,2 B,,2 E,,2 G,,2|
+A,,2 A,2 D,2 E,2|C,2 D,2 E,2 D,2|C,2 G,,2 C,D, E,2-|
+E,D,G,,=A,, B,,D,,E,,F,,|B,,=A,,B,,C, D,B,,E,2|B,,2 _A,,2 G,,2 E,,2|
+A,,B,, C,2 F,,2 B,,A,,|G,,2 E,2 D,2 E,2|A,,B,, C,2 F,,2 B,,A,,|
+G,,2 C,2 B,,2 A,,2|G,,2 E,,2 B,,2 D,2|E,2 D,2 C,2 E,2|
+F,2 G,2 =A,2 F,2|B,2 =A,2 G,2 F,2|E,2 D,2 C,2 E,2|
+D,B,,F,F,, G,,=A,,B,,D,,|E,,C,, F,,2 B,,C,B,,_A,,|G,,F,,E,,D,, E,,G,,A,,B,,|
+C,D, E,2 B,,2 A,,2|G,,2 E,,2 B,,C,D,B,,|E,D,C,=B,, C,G,C_B,|
+A,2 E,2 F,2 G,2|A,G,F,=E, F,_E,D,C,|=B,,G,,G,F, E,2 C,2|
+G,2 =B,2 C2 _B,2|=A,2 C,2 D,2 E,2|^F,,2 D,,2 G,,2 =F,,2|
+E,2 D,2 C,2 _B,,2|=A,,2 C,2 B,,G,,D,D,,|G,,E,,F,,G,, _A,,G,,A,,B,,|
+C,B,,C,D, E,2 C,2|A,,2 B,,2 C,B,,C,D,|E,D,E,F, G,F,G,A,|
+D,B,,B,A, G,2 E,2|B,A,G,2 A,2 G,2|F,2 E,2 F,2 B,,2|
+C,2 A,,2 B,,2 G,,2|A,,G,,F,,E,, D,,2 F,,2|
+B,,C,B,,A,, G,,C,A,,B,,|C,D,E,G, A,F,B,B,,|E,8|

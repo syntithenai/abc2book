@@ -1,0 +1,38 @@
+X:0
+X:40
+T:Zandy's Reel
+C:Chris Perry
+S:The Fiddle Player's Tunebook 1
+M:4/4
+L:1/8
+K:G
+Q:110
+|:dc |\
+"G"Bcde d2 g2 |\
+"D"fgaf "G"g2 d2 |\
+"C"edcB "Am"cBAG |\
+"D"FGAF D2 dc |\
+"G"BdBG "D"AcAF |\
+"G"GBGE "D"F2 D2 |\
+"C"EFGE "D"FGAF |\
+"G"G2 "C"B2 "G"G2 :|
+K:D
+dB |\
+"D"A2 d2 "A"cd e2 |\
+"D"A2 d2 "A"cd e2 |\
+"D"f2 df "G"gfed |\
+"A"cdec A2 fg |\
+"A"aAA/A/A gAA/A/A |\
+"A"fAA/A/A eAA/A/A |\
+"A"agec AGEC |\
+"A"A,2 CE G2 dB |\
+"D"A2 d2 "A"cd e2 |\
+"D"A2 d2 "A"cd e2 |\
+"D"f2 df "G"gfed |\
+"A"cdec A2 dc |\
+"G"BGBd "D"AFAd |\
+"G"BGBd "D"AFAd |\
+"G"BGBd "A"cdec |\
+"D"dBAF D2 ||
+
+% Output from ABC2Win  Version 2.1 f on 04/08/98

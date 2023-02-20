@@ -1,0 +1,63 @@
+%%text RJ Set 115 NEFFA 2013 American set
+
+
+X: 1
+T: Rainy Night in Montague $1(\251 George Reynolds)
+C: George Reynolds
+M: C|
+L: 1/8
+R: reel
+K: Dmix
+%%indent 400
+|: "Intro"\
+.[D2F2A,2]z2.[D2F2A,2]z2 | .[D2F2A,2]z2 G,A,CD ||
+"D"ADCA, G,A,CD | ADCA, G,A,CD | "C"E2ED EGED | E2ED EGED |\
+"D"ADCA, G,A,CD | ADCA, G,A,CD |
+"C"E2ED EGED |[1 "D"D2DD G,A,CD :|[2 "D"D2DD D2DD \
+|: "D"Addc d2dc | AGAB c2cB | "C"AGEG AdcB |
+"Am"A2AB c2cB |\
+"D"Addc dedc | AGAB c2cB | "Am"AGEG AGED |\
+[1 "D"D2DD DEFG :|[2 "D"D2DD D4 |]
+%%text On transition, crescendo on the last measure and emphasize the last note.
+% text 5/15/13
+
+
+X: 2
+T: The Golden Ticket
+C: Eric Merrill
+M: C|
+L: 1/8
+R: reel
+K: G
+"G"DF-F2 G3 F | GFDC B,A,G,B, |\
+"C"C2CD EDCD | "D"A,2-A,B, A,DED |\
+"G"DF-F2 G3F | GFDC B,A,G,B, |
+"C"C2CE DB,CE |\
+[1 "D"D2G,2-G,DED :|[2 "D"D2A,2-A,2AA |:\
+"G"AB-BA BABc | BAGF GFDG |\
+"C"E3B cBcd | "D"A2AB AA FD |
+"G"AB-BA BABc | BAGF GFDB, |\
+"C"C2CE DB,CE |[1 "D"D2G,2 A2G2 :|[2 "D"D2"G"G,2- G,4 |] \
+["Trans""D"D2z2z2(e2 |]
+
+
+X: 3
+T: Rocky Road to Dublin
+C: George Reynolds
+M: C|
+L: 1/8
+R: reel
+K: Amix
+|:\
+"A"e2)e2c4 | ABAG EGED |\
+"C"=CC C2 GAGD | =CC C2 G2 e2- ||\
+"A"e2e2c4 | ABAG EGED |
+"C"=CC C2 GAG2 | "A"^cA3 A2 e2- ::\
+"A"edeg abag | edeg abag |\
+"G"edef gagf |
+edef g2 e2 ||\
+"A"a3a -abag | egab a3g |\
+"G"edef gage | "C"=c6 e2- :|
+%%text End on that C
+% text 4/25/13
+

@@ -1,0 +1,18 @@
+X: 835
+T: the Kilkenny Hornpipe   #2
+R: hornpipe
+%S: s:2 b:10(6+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #835
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0835/oneill-1001-0835-1.abc
+N: Compacted via repeats and multiple endings [JC]
+M: C|
+L: 1/8
+K: G
+"^A"[|]\
+(d>c) | B2(A>B) (G>A)(G>E) | D2G2 G2(B>c) |\
+[1,3 (dB)(ge) (dB)(GB) | (dc)(Bc) A2 :|\
+[2,4 d2(g>e) (d>c)(B>A) | G4-G2 :|
+"^B"\
+|: de | (=f>e)(f>g) f2(d>e) | (=f>e)(f>g) f2(A>B) \
+| (c>B)(c>d) c2(A>B) | (c>B)(c>d) (3(cd"^->A2"e)y |]

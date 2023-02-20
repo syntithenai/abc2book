@@ -1,0 +1,26 @@
+X: 012
+T: Mrs Major Hedley's Reel
+C: Mr Greenwell
+R: reel
+M: C|
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Abraham Mackintosh "A Collection of Strathspeys, Reels, Jigs &c.", Newcastle, after 1797, p.1
+F: http://imslp.info/files/imglnks/usimg/a/a8/IMSLP80796-PMLP164326-Abraham_Mackintosh_coll.pdf
+K: F
+%
+V: 1 staves=2
+e |\
+fcdB A2FA | BGAF G/F/E/D/ Ce | fcdB A2FA | GBAE Fcde |
+fcdB A2FA | BGAF G/F/E/D/ Ce | fcdB A2FA | GBAE F3 ||
+c/B/ |\
+AFcA defd | cB AF EGEC | FAcA defd | cABG FAcB |
+AFcA defd | cB AF EGEC | FAcB Acfa | gf/e/ ce fage |]
+%
+V: 2 clef=bass middle=d
+z !Segno!|\
+[a2f2][b2f2] f2[a2f2] | e2f2 c3B | A2B2 f2A2 | B2c2 f2b2 |
+a2[b2f2] f2[a2f2] | e2f2 c3B | A2B2 f2A2 | B2c2 f2F ||
+z |\
+f2f2 B2B2 | e2f2 c2c2 | f2f2 B2B2 | c2c2 f2e2 |
+f2a2 b2B2 | e2f2 c2c2 | f2e2 f2f2 | c2c2 f2z2 !Segno!|]

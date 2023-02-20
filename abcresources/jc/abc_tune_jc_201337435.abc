@@ -1,0 +1,82 @@
+
+X: 1
+T: Simkhes-Toyre
+C: Mark Warshawsky
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+S: Lyrics from http://zemerl.com/
+M: C|
+L: 1/8
+K: Am
+[|"Am"A2 c2 d2 c2 | "Dm"d2 c2 d2 c2 | "Am"A2 c2 "Dm"d2 cc | "E7"A2 B2 "Am"c2 z2 |
+w: Kinder mir hob-n sim-khes toy-re sim-khas toyre oyf der gan-tzer velt!
+| "Am"A2 c2 d2 c2 | "Dm"d2 c2 d2 c2 | "A"AA c2 "E7"e2 dd | c2 BB "Am"A2 z2 |]
+w: Toy-re iz de best-e shkoy-re. A-zoy hot der reb-be mit undz get-nelt.
+[| "Am"e4 e4 | e2 e2 e4 | "Am"e2 d2 "E7"c2 d2 | "Am"e2 e2 e4 |
+w: Oy, oy, oy, oy, oy! Frei-lekh, kind-er ot az-oy!
+|  "Am"e2 d2 "(E)"c2 d2 | "E7"c2 B2 "Am"A4 | "E7"[e2B2] d2 c2 B2 | "Am"A4 z4 |]
+w: Rend-lekh faln fun al-e zek frei-lekh on an ek!
+%
+W: 2.Khoch ikh bin mir on orem idl
+W:   Un es darfst mir gut der moyekh
+W:   Simkhes toyre zing ikh a lidl
+W:   Un makh a gute koyse oykh
+W:
+W: 3.Dvoyre gib mir di naye kapote
+W:   Ikh vel zi onton take a tsint
+W:   Kh'vel dir zogn aldzing iz blote
+W:   Abi mis borekhashem gezunt
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: Simkhes-Toyre [Gm]
+C: Mark Warshawsky
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: C|
+L: 1/8
+K: Gm
+[|"Gm"G2 B2 c2 B2 | "Cm"c2 B2 c2 B2 | "Gm"G2 B2 "Cm"c2 B2 | "D7"G2 A2 "Gm"B2 z2 \
+| "Gm"G2 B2 c2 B2 | "Cm"c2 B2 c2 B2 | "G"G2 B2 "D7"d2 c2 | B2 A2 "Gm"G2 z2 |]
+[| "Gm"d4 d4 | d2 d2 d4 | "Gm"d2 c2 "D7"B2 c2 | "Gm"d2 d2 d4 \
+|  "Gm"d2 c2 "(D)"B2 c2 | "D7"B2 A2 "Gm"G4 | "D7"[d2A2] c2 B2 A2 | "Gm"G4 z4 |]
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 3
+T: Simkhes-Toyre
+C: Mark Warshawsky
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: C|
+L: 1/8
+K: Am
+[|"Am"A2 c2 d2 c2 | "Dm"d2 c2 d2 c2 | "Am"A2 c2 "Dm"d2 c2 | "E7"A2 B2 "Am"c2 z2 \
+| "Am"A2 c2 d2 c2 | "Dm"d2 c2 d2 c2 | "A"A2 c2 "E7"e2 d2 | c2 B2 "Am"A2 z2 |]
+[| "Am"e4 e4 | e2 e2 e4 | "Am"e2 d2 "E7"c2 d2 | "Am"e2 e2 e4 \
+|  "Am"e2 d2 "(E)"c2 d2 | "E7"c2 B2 "Am"A4 | "E7"[e2B2] d2 c2 B2 | "Am"A4 z4 |]
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 4
+T: Simkhes-Toyre [Bm]
+C: Mark Warshawsky
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: C|
+L: 1/8
+K: Bm
+[|"Bm"B2 d2 e2 d2 | "Em"e2 d2 e2 d2 | "Bm"B2 d2 "Em"e2 d2 | "F#7"B2 c2 "Bm"d2 z2 \
+| "Bm"B2 d2 e2 d2 | "Em"e2 d2 e2 d2 | "B"B2 d2 "F#7"f2 e2 | d2 c2 "Bm"B2 z2 |]
+[| "Bm"f4 f4 | f2 f2 f4 | "Bm"f2 e2 "F#7"d2 e2 | "Bm"f2 f2 f4 \
+|  "Bm"f2 e2 "(F)"d2 e2 | "F#7"d2 c2 "Bm"B4 | "F#7"[f2c2] e2 d2 c2 | "Bm"B4 z4 |]

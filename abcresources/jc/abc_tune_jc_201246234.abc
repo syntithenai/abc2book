@@ -1,0 +1,27 @@
+X: 1
+T: Allister
+%R: reel, hornpipe
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #2 (2)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats adjusted to satisfy the "Each Strain twice" instruction.
+M: C
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2g2 fdcd | BF2D F2F2 | G2g2 fdcd | BG2^F G2G2 :|\
+|:\
+F>GB>c d>Bc>d | BF2D F2F2 |
+G>AB>c d>Bc>d | BG2^F G2G2 |\
+F>GB>c d>Bc>d | BF2D F2F2 | de/f/ gd fdcd | BG2^F G2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice
+% - - - - - - - - - - Dance description: - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. sett and cast off into the 2d Cu. Place .|
+%% The same back again :|
+%% Then go thro' the 2d and 3d Cu. and turn your Partner in the 2d Cu. Place .|
+%% Figure thro' the 2d Cu. and turn your Partner :|
+%%endtext
+%%sep 1 8 500

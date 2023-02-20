@@ -1,0 +1,30 @@
+X: 4338
+T: SPINNING SONG. (Martha.)
+%R: air, polka, march
+B: James Kerr "Merry Melodies" v.4 p.35 #338
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+%%slurgraces yes
+%%graceslurs yes
+f3e |\
+e2d2 ({e}dcde) | d2c2 g3B |\
+B2A2 e3G | F4 :|\
+A3F |\
+(G2B2) d3=c | (B2g2) B3^G |\
+(A2^c2) e3d | (c2a2) e3c |\
+d2f2e3c | d2f2e3c |\
+d2d4e2- | e2f4g2 |\
+a4 z2F2 | G2Bd g2b2 |\
+a2a4A2 |
+a2a4 A2 |\
+a2a4 F2 | G2Bd g2b2 |\
+a2a4AB | cdef gabc' |\
+"_D.C."d'4 |]\
+f3e |\
+e2d2 ({e}dcde) | d2A2d3A |\
+a3g ({g}fefg) | f2d2a2f2 |\
+d2A2f2d2 | A2d2A2F2 |\
+d2z2z4 | [f2A2]z2z4 |\
+[d8-D8-] | [d8D8] |]

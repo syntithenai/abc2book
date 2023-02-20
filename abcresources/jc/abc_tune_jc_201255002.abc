@@ -1,0 +1,2381 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 2
+B: RSCDS Book 2
+K:
+%%center Book02/0200-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0201
+T: La Temp\^ete (The Tempest)
+P: La Temp\^ete
+C:Aird's Collection 1788-1803
+R:Reel (nx48) AABBC
+B:RSCDS 2-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:C
+V:1
+%%staves (1 2)
+[V:1] |:"C"[c2E2]>G2 (5:4GAG^FG|e2c2 c4|"G7"d2G2 A2B2|"C"c2e2 g4|\
+[V:1]   "C"[c2E2]>G2 TG4|"Am"e2c2 c4|"G7"d2G2 A2B2|"C"[c2E2]z2[c2E2]z2:|
+[V:1] |:"C"g3ee2c2|"G"d2B2 G4|"C"g3ee2c2|"G"d2B2 G4|\
+[V:1]   "C"[c2E2]>G2 TG4|"C"e2c2 c4|"G7"d2G2 A2B2|"C"c2z2 c2z2:|
+[V:1]   "C"c2>e2 g2e2|"F"a2f2 "C"g2e2|"G7"f2d2 "C"e2c2|"G"dcBA G4|\
+[V:1]   "C"c2>e2 g2e2|"F"a2f2 "C"g2e2|"G7"f2d2 "C"e2c2|"G7"d2B2 c4||
+[V:1]   "C"g2>e2e2c2|"G"d2B2 G4|"C"g2>e2e2c2|"G"d2B2 G4|\
+[V:1]   "C"c2>e2 g2e2|"F"a2f2 "C"g2e2|"G7"f2d2 "C"e2c2|"G7"d2B2 c4|]
+%V:2
+%[V:2] |:   x8                  |x8     |    x8       |   x8     |\
+%[V:2]      x8           |    x8     |    x8       |   x8              :|
+%[V:2] |:   G8     |   G8     |   G8       |   G8     |\
+%[V:2]      x8           |   x8     |    x8       |   x8       :|
+%[V:2]      x4    G4  |   A4      G4  |    F4      E4  |   x8     |\
+%[V:2]      x4    G4  |   A4      G4  |    F4      E4  |    F4   E4||
+%[V:2]      G8       |   G8     |   G8       |   G8     |\
+%[V:2]      x4    G4  |   A4      G4  |    F4      E4  |    F4   E4|]
+%%center Book02/0201-La_Temp_te_The_Tempest-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0202
+T: The Bumpkin/Ninesome Reel
+P: The Bumpkin/Ninesome Reel
+C:�Cobbler's Opera� 1729
+R:Jig (12x24) ABC
+B:RSCDS 2-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+V:1
+%%staves (1 2)
+[V:1] "C"[c3G3C3] "G"[B3G3D3]|"Am"ABG "D"FED|"G"GAG BAB|GAG BAB|\
+[V:1] "C"[c3G3C3] "G"[B3G3D3]|"Am"ABA "D7"fef|
+[V:1]                                         "G"g2d "Am"ed"D7"c|"G"BAB GAB||\
+[V:1] "C"c2 (3d/e/f/ "G"gdB|"C"ABG "D7"FED|"G"GAG BAB|GAG BAB|
+[V:1] "C"G2f "G"gdB|"Am"ABA "D7"fef|"G"[g2G2]d "Am"ed"D7"c|"G"BAB G3||\
+[V:1] "Am"cAc "G"BGB|"Am"AB"A7"G "D"FED|
+[V:1]                                   "G"GAG BAB|GAG BAB|\
+[V:1] "Am"cAc "G"BGB|"Am"ABA "D7"fef|"G"g2d "Am"ed"D7"c|"G"BAB G3|]
+%V:2
+%[V:2]    x6                  |    E3     x3 |   B,6    |B,6    |\
+%[V:2]    x6                  |    E3      A3 |
+%[V:2]						 x6             |   x6     ||\
+%[V:2]    x6                |   x6         |   B,6    |B,6    |
+%[V:2]    x6        |    x6         |   x6                 |   x6    ||\
+%[V:2]     E3     D3 |    E3         x3 |
+%[V:2]                                      B,6    |B,6    |\
+%[V:2]     C3     D3 |    E3      A3 |   G3      x3     |   x6    |]
+%%center Book02/0202-Bumpkin_Ninesome_Reel-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0203
+T: The Glasgow Highlanders
+P: The Glasgow Highlanders
+C:Traditional
+R:Strathspey (8x32)
+B:RSCDS 2-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+V:1
+%%staves (1 2)
+[V:1] "D"D>E"Bm"F>G "A"A2 [A2E2C2]|"A"A>c"D"d>e "D"f2 [a2d2]|\
+[V:1]      "A7"g>e"D"f>d "A"e>c"G"d>B|"A"A>B"D"A>F "Em"E>G"A"[FC]>E|
+[V:1] "D"D>E"Bm"F>G  "A"A2 [A2E2C2]|A>c"D"d>e   f2 a2|\
+[V:1]      "A7"g>e"D"f>d "A"e2 [a2c2]|"D"[dA]>A"A7"B>c "Bm"d>e"A7"f>g||
+[V:1] "D"[a2d2] "A7"[g2c2] "D"[f7/2d7/2] e/|"Bm"d>f"D"e>d "G"B4|\
+[V:1]      "Em"g>e"D"f>d "A"e2 "E7"d2|"A"(3cfe "A7"(3dcB "D"A2-"A"A2|
+[V:1] "D"a2 "A7"g2 "D"f7/2 "F#7"e/|"Bm"d>fe>d "G"B4|\
+[V:1]      "G"g>e"D"f>d "A7"e2 a2|"A7"A2 B>c "D"d4|]
+%V:2
+%[V:2]    x2     x6                |   x2    A2     z2 A2    |\
+%[V:2]          A8                    |   x8                        |
+%[V:2]    x2     D3/2x/  z2  x2     |A2    A3/2x/z2 A2|\
+%[V:2]          A6               A2   |   x8                          ||
+%[V:2]     A2         A2        A2    x2    |    F2    F2     G4|\
+%[V:2]          G2    A2     A2    ^G2|   A2    x6          |
+%[V:2]    z>AB>c       d7/2      x/|    F2 F2     G4|\
+%[V:2]         G2    A2      B2 A2|    x2 G2     F4|]
+%%center Book02/0203-Glasgow_Highlanders-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0204
+T: Speed the Plough/Inverness Country Dance
+P: Speed the Plough/Inverness Country Dance
+C:Traditional
+R:Reel (8x32)
+B:RSCDS 2-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+N:Suitable Pipe Tunes "Speed the Plough", "Masons Apron".
+M:C|
+L:1/8
+K:A
+|: E |\
+"A"A2Ac efec | eaec efec | "Bm"dfdB "A"cecA | "Bm"dc"B7"BA "E7"GABc |
+| "A"A2Ac efec | eaec efec | "Bm"de"A"cd "Bm"Bc"B7"AB | "E7"E2[G2D2] "A"[A3C3] :|
+|: (3efg |\
+"A"a2aA aAeA | "F#m"aA"E"gA "D"fA"A"eA | "D"df"E7"dB "A"cecA | "Bm"FBBA "E7"GABc |
+"A"(3cBA eA "D"fA"A"eA | "D"fgaf "A"ecAc | "Bm"de"A"cd "Bm"Bc"B7"AB | "E7"E2[G2D2] "A"[A3C3] :|
+%%center Book02/0204-Speed_the_Plough_Inverness_Country_Dance-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0205
+T: The Perth Medley
+%
+P: Perth Hunt
+C:Miss Magdalina Stirling of Ardoch, ca. 1788
+R:Medley (8x64)
+B:RSCDS 2-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:D
+"D"{B}A2FA DAFA | DAFA "G"BEE2 | "D"{B}A2FA DAFA | "A7"faeg "D"fdd2 |
+"D"{B}A2FA DAFA | DAFA "G"BEE2 | "D"{B}A2FA DAFA | "A7"faeg "D"fdd2 |
+"D"{g}fdad "G"bd"D"ad | "D"fdad "Em"be"A7"eg |\
+"D"fdad "G"bd"D"ad | "A7"ABde "D"fddg |
+"D"(3fed ad "G"bd"D"ad | "D"(3fed ad "Em"be"A7"eg |\
+"D"fadf "G"gbeg | "A"ABde "D"fdd2 |]
+%
+P: Highland Whisky
+C:Niel Gow
+M:C
+V:1
+E |\
+"A"A<A A2 A>B c<e | "Bm"B<B B>c d>e "E7"f<a |\
+"A"A<A A>B A>B c>d | ef/g/ a>c "E7"[B2G2D2] "A"[AC] E |
+"A"A<A A2 A>B c<e | "Bm"B<B B>c d>e "E7"f<a |\
+"A"A<A A>B A>B c>d | ef/g/ a>c "E7"[B2G2D2] "A"[AC] ||
+e |\
+"A"d/c/B/A/ e>A "D"f>A"A"e>A | "E"G<BB>A G<BB>e |\
+"A"d/c/B/A/ e>A "D"f>A "A"e>A | ef/g/ a>c "E7"B2"A"A>e |
+"A"d/c/B/A/ e>A "D"f>A"A"e>A | "E"G<BB>c "E7"G<BB>c |\
+"A"A<c "E7"B<d "A"c<e"D"d<f | "A"ef/g/ a>c "E7"[B2G2D2] "A"[AC] |]
+%%center Book02/0205-Highland_Whisky-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0206
+T: The Soldier's Joy
+P: The Soldier's Joy
+C:Joshua Campbell's Collection 1778
+R:Reel (8x32)
+B:RSCDS 2-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:D
+|:FG|"D"AFDF AFDF|A2 [d2F2] "G"[d2G2] cB|"D"AFDF AFDF|"A"G2 E2 E2 FG|
+ "D"AFDF AFDF|A2 [d2F2] "Bm"[d2F2] de|"A"fafd "A7"egec|"D"d2 d2 d2:|
+|:de|"D"f2 f2 fagf|"A"edcd egfe|"D"f2 f2 fagf|"Em"ed"E7"cB "A7"A2 de|
+ "D"f2 fe fagf|"Em"ed"E7"cd "A"efge|"D"fafd "A7"egec|"D"d2 D2 D2:|
+%%center Book02/0206-Soldiers_Joy-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0207
+T: The Princess Royal
+P: The Princess Royal
+C:Gow's Repository
+R:Reel (8x28)
+B:RSCDS 2-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:Gm
+|:GA|"Gm"B2AB G2dc|B2AB G2d2|"Cm"e2ed "F7"c2fe|"Bb"de"F"cd "Gm"B2{c}BA|
+     "Gm"B2gB "Dm"A2fA|"Eb"GABG "D7"D2dc|\
+				 "Gm"BABG "D7"D2[^F2C2]|"Gm"[G4B,4][G2B,2]:|
+d|"Gm"g2g^f "D7"{a}gfga|"Bb"b2B2 B2ba|"Gm"bagf "Cm"edcB|"F"ABcA "F7"F2GA|\
+  "Bb"B2AB "F"c2Bc|"Bb"[d2F2][d2F2] "Eb"[g4B4G4]|
+	"Bb"[f2B2F2][B2F2] "F7"[e4A4F4]|"Bb"[d2B2F2]"Gm"G2 "Ao"[c4G4E4]|\
+  "Gm"BcBA GABG|"D"^FGAF "D7"D2dc|"Gm"BABG "D7"D2[^F2C2]|"Gm"[G4B,4][G2B,2]|]
+%%center Book02/0207-Princess_Royal-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0208
+T: Greig's Pipes/The Cameronian Rant
+P: Greig's Pipes
+C:Neil Stewart's Collection 1761
+R:Strathspey (8x32)
+B:RSCDS 2-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:A
+|:f|"A"e>Ac>A e<AA>f|e>Ac>A "Bm"B<FF>f|\
+               	"A"e>Ac>A e>Ac>A|"Bm"B/B/B "F#m"c>A "Bm"B<FF:|
+|:B|"A"c>Ac>A c<AA>B|c>Ac>A "Bm"B<AA>B|\
+ 		"A"c>Ac>A E>Ac>A|"Bm"B/B/B "A"c>A "Bm"B<FF:|
+|:A|"A"E>A,C>A, E<A,A,>A|E>A,C>A, "Bm"F<B,B,>A|\
+		"A"E>A,C>A, E>A,C>A,|"Bm"B,/B,/B, "A"C>E "Bm"F<B,B,:|
+|:G|"A"A/G/F/G/ A>E C>A,A>G|A/G/F/G/ A>E "Bm"F<B,B,G|\
+		"A"A/G/F/G/ A>E C>D E>C|"Bm"B,/B,/B, "A"C>E "Bm"F<B,B,:|
+%%center Book02/0208-Greigs_Pipes_The_Cameronian_Rant-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0209
+T: Delvine Side
+P: Delvine Side
+C:McGlashan's Collection
+R:Strathspey (8x32)
+B:RSCDS 2-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:Em
+"Em"E>e d/^c/B/A/ d<E B>A|B>e d/^c/B/A/ "D"d>D A<F|\
+        "Em"E>e d/^c/B/A/ d<E E>g|"D"f<a "A7"e>f "Bm7"d>B A<F|
+"Em"E>e d/^c/B/A/ d<E B>A|E>e d/^c/B/A/ "D"d>D A<F|\
+        "Em"E>e d/^c/B/A/ d>E E>g|"D"f<a "A7"e>f "D"d>B "Bm"A<F||
+"Em"B<EB>A B>E B<e|B<EB>A "D"d>B A<F|\
+	"Em"B<EB>A B>E B<g|"D"f<a"A7"e>f "Bm7"d>B A<F|
+"Em"B<EB>A B>E B<e|B<EB>A "D"d>B A<F|"C"E>F"G"G>A "Em"B>A B<g\
+        |"D"f<a"A7"e>f "D"d>F "B7"B/A/G/F/|]
+%%center Book02/0209-Delvine_Side-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0210
+T: The Bob o' Dowally
+P: The Bob o' Dowally
+C:Caledonian Country Dances 1760
+R:Strathspey (8x32)
+B:RSCDS 2-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:A
+"A"A>e e2 e>A c<A|"Em"B>e e2 "G"d>=G B<G|\
+"A"A>e e2 e>A c<A|"Em"E/E/E E2 "G"=G>A B<G|
+"A"A>e e2 e>A c<A|"Em"B>e e2 "G"d>=G B<G|\
+"A"A>e e2 e>A c<A|"Em"E/E/E E2 "G"=G>A B<G||
+"A"A>a a>e c>a c<A|"G"B>=g g>e d>g B<=G|\
+"A"A>a a>e c>e a<e|"G"=g<b "C"e<g "G"d<g B<=G|
+"A"A>a a>e c>a c<A|"G"B>=g g>e d>g B<=G|\
+"A"A>a a>e c>e a<e | "G"=g<b "C"e<g "G"d<g B<=G|]
+%%center Book02/0210-Bob_o_Dowally-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0211
+T: The Haymakers
+P: The Haymakers
+C:Gow's Repository
+R:Jig (4x48) ABCABC
+B:RSCDS 2-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+D|"G"[G2B,2]B "D7"[A2D2]c|
+%%center Book02/0211-Haymakers-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Hay Makers  [G]
+O:1753
+B:Gow's Repository
+B:RSCDS 2-11
+B:James Oswald published this tune for the 1753 London pantomime Fortunatus in 1753
+B:Miss Stewart’s Collection of 1781
+B:James Hulbert’s Complete Fifer’s Museum (Greenfield, Mass., 1807)
+B:Howe "Complete Preceptor for the Accordeon", 1843; p.6
+R:jig
+Z:2007 John Chambers <jc:trillian.mit.edu>
+M:6/8
+L:1/8
+K:G
+   D "A" | "G"G2B "D"A2c |  "G"B2G "D7"AFD | "G"G2B "Am"A2c | "D7"BdB  "G"G2 :|\
+|: d "B" | "G"B2d    g2d |  "C"ege  "G"dBG | "G"B2d     g2d |  "C"ege "D7"d2 :|
+  yd "C" | "C"c2e "G"dBG | "D7"AGA  "G"B2G | "C"c2e  "G"dBG | "D7"AGA  "G"G3  \
+         |"Am"c2e "G"dBG | "B7"AGA "Em"B2G | "C"c2e  "G"dBG | "D7"AGA  "G"G2 |]
+%%center Book02/0211-Haymakers_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0212
+T: The Eightsome Reel
+P: The Deil amang the Tailors
+C:Thompson 1772
+R:Reel (1x464)
+B:RSCDS 2-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:A
+|:(3efg|"A"a2 eg a2 eg|a2 ea fedc|"Bm"dfBf dfBf|dfba "E"gefg|
+        "A"a2 eg a2 eg|a2 ea fedc|"Bm"defd "A"ecBA|"E"E2 G2 "A"A2:|
+|:e2|"A"ceAe ceAe|ceag fedc|"Bm"dfBf dfBf|dfba "E"gfed|
+     "A"ceAe ceAe|ceag fedc|"Bm"defd "A"ecBA|"E"E2 G2 "A"A2|]
+%%center Book02/0212-Eightsome_Reel-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02011
+T: La Temp\^ete
+O:Aird's Collection 1788-1803
+R:march
+B:RSCDS 2-1
+N:1997 by John Chambers <jc:trillian.mit.edu>
+N:Suitable Pipe Tunes "Kilberry Polka"
+M:2/4
+L:1/8
+K:C
+|: "C"[cE]>G (5G/A/G/^F/G | e>c c2 | "G7"dG AB | "C"ce g2 \
+ | "C"[cE]>G ~G2 | e>c c2 | "G7"dG AB | "C"[cE]z [cE]z :|
+|: "C"g>e e>c | "G7"dB G2 | "C"g>e e>c | "G7"dB G2 \
+ | "C"[cE]>G ~G2 | e>c c2 | "G7"dB AB | "C"cz cz :|
+|| "C"c>e g>e | "F"a>f "C"g>e | "Dm"f>d "C"e>c | "G7"d/c/B/A/G2 \
+ | "C"c>e g>e | "F"a>f "C"g>e | "Dm"f>d "C"e>c | "G7"dB "C"c2 |
+ | "C"g>e e>c | "G7"dB G2 | "C"g>e e>c | "G7"dB G2 \
+ | "C"c>e g>e | "F"a>f "C"g>e | "Dm"f>d "C"e>c | "G7"dB "C"c2 |]
+%%center Book02/02011-la_Tempete.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02021
+T: The Bumpkin
+R:jig
+B:RSCDS 2-2
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+N:Tune first published in the "Gobblers Opera" 1729
+N:Published in Aird's Collection 1782 as "Bab at the Bowster".
+M:6/8
+L:1/8
+K:G
+|| "C"[c3G3C3] "G"[B3G3D3] | "Am"[AE3]BG "D"FED | "G"GAG BAB | GAG BAB \
+|  "C"[c3G3C3] "G"[B3G3D3] | "Am"[AE3]BA "D"fef | "G"g2d "C"edc | "D7"BAB "G"GAB ||
+|| "C"c2(3d/e/f/ "G"gdB | "Am"ABG "D7"FED | | "G"GAG BAB | GAG BAB \
+| "G"G2f gdB | "Am"ABA "D7"fef | "G"g2d "C"edc | "D7"BAB "G"G3 ||
+|| "Am"cAc "Em"BGB | "A7"ABG "D"FED | | "G"GAG BAB | GAG BAB \
+|  "Am"cAc "G"BGB | "Am"ABA "D"fef | "G"g2d "C"edc | "D7"BAB "G"G3 |]
+%%center Book02/02021-Bumpkin-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02021
+T: The Bumpkin
+R:jig
+B:RSCDS 2-2
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+N:Tune first published in the "Gobblers Opera" 1729
+N:Published in Aird's Collection 1782 as "Bab at the Bowster".
+M:6/8
+L:1/8
+K:G
+|| "C"[c3G3C3] "G"[B3G3D3] | "Am"[AE3]BG "D"FED | "G"GAG BAB | GAG BAB \
+|  "C"[c3G3C3] "G"[B3G3D3] | "Am"[AE3]BA "D"fef | "G"g2d "C"edc | "D7"BAB "G"GAB ||
+|| "C"c2(3d/e/f/ "G"gdB | "Am"ABG "D7"FED | "G"GAG BAB | GAG BAB \
+| "G"G2f gdB | "Am"ABA "D7"fef | "G"g2d "C"edc | "D7"BAB "G"G3 ||
+|| "Am"cAc "Em"BGB | "A7"ABG "D"FED | "G"GAG BAB | GAG BAB \
+|  "Am"cAc "G"BGB | "Am"ABA "D"fef | "G"g2d "C"edc | "D7"BAB "G"G3 |]
+%%center Book02/02021-Bumpkin-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02021
+T: Old Country Bumpkin
+R:jig
+B:First published in the "Gobblers Opera" 1729
+B:In Aird's Collection 1782 as "Bab at the Bowster"
+B:RSCDS 2-2
+B:Gow I
+B:Paddledoo
+B:Pinewoods Alternates
+Z:2006 by John Chambers <jc:trillian.mit.edu>
+M:6/8
+L:1/8
+K:G
+|: "D7"c3 "G"TB3 | "D7"ABG FED | "G"GAG BAB | GAG BAB \
+|  "D7"c3 "G"TB3 | "D7"ABA fef | "G"g2d "C"edc | "G"TB3 GAB :|
+[| "C"c>de/f/ "G"gdB | "D7"ABG F2D | "G"G2c B/c/dB | G2c B/c/dB \
+|  "G"GAB gdB | "D7"A>BA fef | "G"g2d "C"edc | "G"TB3 G2B ||
+|| "D7"cAc "G"BGB | "D7"ABG FED | "G"GDG BAB | GDG BAB \
+|  "D7"cAc "G"BGB | "D7"ABA fef | "G"g2d "C"edc | "G"TB3 G3 |]
+%%center Book02/02021-Old_Country_Bumpkin-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02022
+T: Jenny's Bawbee
+R:strathspey
+B:RSCDS 2-2(b)
+B:Joshua Campbell's 1778 collection p.79 (first known Scottish printing)
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C
+L:1/8
+K:A
+|: c>d \
+| "A"e>f e>d "(F#m)"c<A A>c | "Bm"d>F B>A "E7"G<E E2 \
+| "A"e>f e>d "(F#m)"c<A c<e | "D"F<F "E7"G>E "A"A2 :|
+|: A>B \
+| "A"c>A "E7"d>B "A(F#m)"c<A A>c | "Bm"d>F B>A "E7"G<E E2 \
+| "A"c>A "E7"d>B "A(F#m)"c<A c<e |1 "D"F<F "E7"G>E "A"A2 \
+:|2 "D"f<f "E7"g>e "A"a2 :|
+%%center Book02/02022-Jennys_Bawbee-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02022
+T: Jenny's Bawbee
+R:strathspey
+B:RSCDS 2-2(b)
+B:Joshua Campbell's 1778 collection p.79 (first known Scottish printing)
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C
+L:1/8
+K:A
+B>c \
+| "G"d>e d>c "(Em)"B<G G>B | "Am"c>E A>G "D7"F<D D2 \
+| "G"d>e d>c "(Em)"B<G B<d | "C"E<E "D7"F>D "G"G2 :|
+|: G>A \
+| "G"B>G "D7"c>A "G(Em)"B<G G>B | "Am"c>E A>G "D7"F<D D2 \
+| "G"B>G "D7"c>A "G(Em)"B<G B<d |1 "C"E<E "D7"F>D "G"G2 \
+:|2 "C"e<e "D7"f>d "G"g2 :|
+%%center Book02/02022-Jennys_Bawbee-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02031
+T: The Glasgow Highlanders
+R:strathspey, shottish
+B:RSCDS 2-3(a)
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C
+L:1/8
+K:D
+[| "D"D>E F>G A2 A2 | "(A7)"A>c d>e "D"f2 a2 \
+| "Em"g>e f>d e>c d>B | "A7"A>B A>F E>G F>E |
+| "D"D>E F>G A2 A2 | "(A7)"A>c d>e "D"f2 a2 \
+| "Em"g>e f>d "A"e2 a2 | "A7"~A2 B>c "D"d>e f>g |]
+[| "D"M[a2d2] "A7"M[g2c2] "D"M[f7/2d7/2] e/ | d>f e>d "G"[B4G4] \
+| "Em"g>e f>d e2 d2 | "E7"(3cfe (3dcB "A7"A>e f>g |
+| "D"M[a2d2] "A7"M[g2c2] "D"M[f7/2d7/2] e/ | d>f e>d "G"[B4G4] \
+| "Em"g>e f>d "A"e2 a2 | "A7"~A2 Bc "D"d4 |]
+%%center Book02/02031-Glasgow_Highlanders-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02031
+T: The Glasgow Highlanders
+R:strathspey, shottish
+B:RSCDS 2-3(a)
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C
+L:1/8
+K:D
+[| "D"D>E F>G A2 A2 | "(A7)"A>c d>e "D"f2 a2 \
+|1 "Em"g>e f>d e>c d>B | "A7"A>B A>F E>G F>E \
+:|2 "Em"g>e f>d "A"e2 a2 | "A7"~A2 B>c "D"d>e f>g |]
+[| "D"M[a2d2] "A7"M[g2c2] "D"M[f7/2d7/2] e/ | d>f e>d "G"[B4G4] \
+|1 "Em"g>e f>d e2 d2 | "E7"(3cfe (3dcB "A7"A>e f>g \
+:|2 "Em"g>e f>d "A"e2 a2 | "A7"~A2 Bc "D"d4 |]
+%%center Book02/02031-Glasgow_Highlanders-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02051
+T: The Perth Hunt
+C:Magdalina Stirling of Ardoch
+R:reel
+B:RSCDS 2-5
+N:Composed and published by Miss Magdalina Stirling of Ardoch about 1788.
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C|
+L:1/8
+K:D
+|: "D"{B}A2FA DAFA | DAFA "Em"BEE2 | "D"{B}A2FA DAFA | "A7"faeg "D"fdd2 :|
+|| "D"{g}fdad "G"bd"D"ad | fdad "Em"ge"A7"eg | "D"fdad "G"bd"D"ad | "A7"ABde "D"fdd2 ||
+|| "D"(3{g}fed ad "G"bd"D"ad | (3fed ad "Em"be"A7"eg | "D"fadf "Em"gbeg | "A7"ABde "D"fdd2 |]
+%%center Book02/02051-Perth_Hunt-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Highland Whisky
+C:Neil Gow
+R:strathspey
+B:BSFC III-21 and III-45 and IV-10
+B:OTDT p.76
+B:RSCDS 2-5(b)
+B:Scots Guards 297
+B:Skye p.26
+N:2nd measure of B part has F#, G or G# in various versions.
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C
+L:1/8
+K:A
+E \
+| "A"A<A A2 A>B c<e | "Bm"B<B B>c "E7"d>e f<a \
+| "A"A<A A2 A>B c>d | ef/g/ a>c "E7"B2 "A"A :|
+e \
+| "A"(3cBA e>A "D"f>A "A"e>A | "G"=G<B B>A "E7"^G<B B>e \
+| "A"(3cBA e>A "D"f>A "A"e>A | ef/g/ a>c "E7"B2 "A"A ||
+e \
+| "A"d/c/B/A/ e>A "D"f>A "A"e>A | "G"=G<B B>A "E7"^G<B B>e \
+| "A"A<c "E7"B>d "A"c<e "D"d>f | "A"ef/g/ ae/c/ "E7"B2 "A"A |]
+%%center Book02/02052-HighlandWhiskey-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Highland Whisky
+C:Neil Gow
+R:strathspey
+B:BSFC III-21 and III-45 and IV-10
+B:OTDT p.76
+B:RSCDS 2-5(b)
+B:Scots Guards 297
+B:Skye p.26
+N:2nd measure of B part has F#, G or G# in various versions.
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C
+L:1/8
+K:A
+E \
+| "A"A-<A A2 A>B c-<e | "Bm"B-<B B>c "E7"d>e f-<a \
+| "A"A-<A A2 A>B c>d | ef/g/ a>c "E7"B2 "A"A> :|
+e \
+| "A"(3cBA e>A "D"f>A "A"e>A | "Bm"F-<B B>A "E7"^G-<B B>e \
+| "A"(3cBA e>A "D"f>A "A"e>A | ef/g/ a>c "E7"B2 "A"A> ||
+e \
+| "A"(3cBA e>A "D"f>A "A"e>A | "Bm"F-<B B>A "E7"^G-<B B>e \
+| "A"A-<c "E7"B>d "A"c-<e "D"d>f | "A"ef/g/ a>c "E7"B2 "A"A |]
+%%center Book02/02052-HighlandWhiskey2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02052
+T: Highland Whiskey
+C:Neil Gow
+R:strathspey
+B:BSFC III-21 and III-45 and IV-10
+B:OTDT p.76
+B:RSCDS 2-5(b)
+B:Scots Guards 297
+B:Skye p.26
+N:2nd measure of B part has F#, G or G# in various versions.
+Z:1997 by John Chambers <jc@trillian.mit.edu>
+M:C
+L:1/8
+K:A
+|: E \
+| "A"A<A A2 A>B c<e | "Bm"B<B B>c d>e f<a \
+| "A"A<A A2 A>B c>d | ef/g/ a>c "E7"B2 "A"A> :|
+|| e \
+| "A"(3cBA e>A "D"f>A "A"e>A | "G"=G<B B>A "E7"^G<B B>e \
+| "A"(3cBA e>A "D"f>A "A"e>A | ef/g/ a>c "E7"B2 "A"A> ||
+|| e \
+| "A"d/c/B/A/ e>A "D"f>A "A"e>A | "G"=G<B B>A "E7"^G<B B>e \
+| "A"A<c "E7"B>d "A"c<e "D"d>f | "A"ef/g/ a>c "E7"B2 "A"A |]
+%%center Book02/02052-Highland_Whiskey.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02052
+T: Highland Whisky
+C:Neil Gow
+R:strathspey
+B:BSFC III-21 and III-45 and IV-10
+B:OTDT p.76
+B:RSCDS 2-5(b)
+B:Scots Guards 297
+B:Skye p.26
+B:2nd measure of B part has F#, G or G# in various versions.
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C
+L:1/8
+K:A
+  E \
+| "A"A<A A2 A>B c<e | "Bm"B<B B>c "E7"d>e f<a \
+| "A"A<A A2 A>B c>d | ef/g/ a>c "E7"B2 "A"A :|
+  e \
+| "A"(3cBA e>A "D"f>A "A"e>A | "G"=G<B B>A "E7"^G<B B>e \
+| "A"(3cBA e>A "D"f>A "A"e>A | ef/g/ a>c "E7"B2 "A"A ||
+  e \
+| "A"d/c/B/A/ e>A "D"f>A "A"e>A | "G"=G<B B>A "E7"^G<B B>e \
+| "A"A<c "E7"B>d "A"c<e "D"d>f | "A"ef/g/ ae/c/ "E7"B2 "A"A |]
+%%center Book02/02052-Highland_Whisky-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02052
+T: Highland Whisky
+C:Neil Gow
+R:strathspey
+B:BSFC III-21 and III-45 and IV-10
+B:OTDT p.76
+B:RSCDS 2-5(b)
+B:Scots Guards 297
+B:Skye p.26
+N:2nd measure of B part has F#, G or G# in various versions.
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C
+L:1/8
+K:A
+E \
+| "A"A-<A A2 A>B c-<e | "Bm"B-<B B>c "E7"d>e f-<a \
+| "A"A-<A A2 A>B c>d | ef/g/ a>c "E7"B2 "A"A> :|
+e \
+| "A"(3cBA e>A "D"f>A "A"e>A | "Bm"F-<B B>A "E7"^G-<B B>e \
+| "A"(3cBA e>A "D"f>A "A"e>A | ef/g/ a>c "E7"B2 "A"A> ||
+e \
+| "A"(3cBA e>A "D"f>A "A"e>A | "Bm"F-<B B>A "E7"^G-<B B>e \
+| "A"A-<c "E7"B>d "A"c-<e "D"d>f | "A"ef/g/ a>c "E7"B2 "A"A |]
+%%center Book02/02052-Highland_Whisky-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02052
+T: Highland Whisky (twice)
+C:Neil Gow
+B:BSFC III-21 and III-45 and IV-10
+B:OTDT p.76
+B:RSCDS 2-5(b)
+B:Scots Guards 297
+B:Skye p.26
+N:2nd measure of B part has F#, G or G# in various versions.
+Z:1997 by John Chambers -<jc:trillian.mit.edu>
+M:C
+L:1/8
+K:A
+|: E \
+| "A"A-<A A2 A>B c-<e | "Bm"B-<B B>c "E7"d>e f-<a \
+| "A"A-<A A2 A>B c>d |   ef/g/ a>c "E7"B2 "A"A> :|
+|| e \
+| "A"(3cBA e>A "D"f>A "A"e>A | "G"=G-<B B>A "E7"^G-<B B>e \
+| "A"(3cBA e>A "D"f>A "A"e>A |   ef/g/ a>c "E7"B2 "A"A> ||
+|| e \
+| "A"d/c/B/A/ e>A "D"f>A "A"e>A | "G"=G-<B B>A "E7"^G-<B B>e \
+| "A"A-<c "E7"B>d "A"c-<e "D"d>f | "A"ef/g/ a>c "E7"B2 "A"A |]
+%%center Book02/02052-Highland_Whisky_twice-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02061
+T: The Soldier's Joy
+B:Joshua Campbell's Collection 1778
+R:reel
+B:RSCDS 2-6
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+N:The earlier name of this tune was "The King's Head Reel"
+M:C|
+L:1/8
+K:D
+FG \
+| "D"AFDF AFDF | "D"A2d2 d2cB | "D"AFDF AFDF | "A7"G2E2 E2FG | "D"AFDF AFDF |
+| "D"A2d2 d2de | "D"fafd "A7"egec | "D"d2f2 d2 :: de | "D"f2fd fagf | "A7"e2ec egfe |
+| "D"f2fd fagf | "A7"edcB A2g2 | "D"f2fd fagf | "A7"e2ec egfe | "D"fafd "A7"egec | "D"d2f2 d2 :|
+%%center Book02/02061-Soldiers_Joy-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02061
+T: The Soldier's Joy
+B:Joshua Campbell's Collection 1778
+R:reel
+B:RSCDS 2-6
+N:Suitable Pipe Tunes "The East Neuk of Fife" "Portee men".
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C|
+L:1/8
+K:D
+FG \
+| "D"[AD]FDF [AD]FDF | A2[d2A2] [d2A2]cB | [AD]FDF [AD]FDF | "A7"G2[E2C2] [E2C2]FG |
+| "D"[AD]FDF [AD]FDF | A2[d2A2] [d2A2]de | fafd "A7"egec | "D"[d2A2][d2A2] [d2A2] :|
+|: de \
+| "D"[f2A2][f2A2] [fA2]agf | "A7"edcd efge | "D"[f2A2][f2A2] [fA2]agf | "A7"edcB A2g2 |
+| "D"f2fe fagf | "A7"edcd efge | fafd "A7"egec | "D"d2D2 D2 :|
+%%center Book02/02061-Soldiers_Joy-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02071
+T: The Princess Royal
+B:Gow's Repository
+R:reel
+B:RSCDS 2-7
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:2/4
+L:1/16
+K:Gm
+|: GA \
+| "Gm"B2AB G2dc | B2AB G2d2 | "Cm"e2ed c2fe | "Gm"decd B2{c}BA |
+| "Gm"B2gB "F"A2fA | "Eb"GABG "D"D2dc | "Gm"BABG "D7"D2^F2 | "Gm"G4 G2 :|
+d \
+| "Gm"g2g^f "D7"{a}gfga | "Bb"b2B2 B2ba | "Gm"bagf "Cm"edcB | "F"ABcA F2GA |
+| "Bb"B2AB "F"c2Bc | "Bb"d2d2 "Eb"g4 | "Bb"f2B2 "F7"e4 | "Bb"d2G2 "F"c4 |
+| "Gm"BcBA GABG | "D7"^FGAF D2dc | "Gm"BABG "D7"D2^F2 | "Gm"G4 G2 |]
+%%center Book02/02071-Princess_Royal-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02071
+T: The Princess Royal
+B:Gow's Repository
+R:reel
+B:RSCDS 2-7
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C|
+L:1/8
+K:Gm
+|: GA \
+| "Gm"B2AB G2dc | B2AB G2d2 | "Cm"e2ed c2fe | "Gm"decd B2{c}BA |
+| "Gm"B2gB "F"A2fA | "Eb"GABG "D"D2dc | "Gm"BABG "D7"D2^F2 | "Gm"G4 G2 :|
+d \
+| "Gm"g2g^f "D7"{a}gfga | "Bb"b2B2 B2ba | "Gm"bagf "Cm"edcB | "F"ABcA F2GA |
+| "Bb"B2AB "F"c2Bc | "Bb"d2d2 "Eb"g4 | "Bb"f2B2 "F7"e4 | "Bb"d2G2 "F"c4 |
+| "Gm"BcBA GABG | "D7"^FGAF D2dc | "Gm"BABG "D7"D2^F2 | "Gm"G4 G2 |]
+%%center Book02/02071-Princess_Royal-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02091
+T: Delvine Side
+C: Daniel Dow of Kirk Michael ca.1775
+R: strathspey
+B: RSCDS 2-9
+B: "Originally Ours" p.8
+B: Alexander McGlashan's 1780 collection p.30
+N: The RSCDS booklet dates this to 1790, others claim it was written around 1775.
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Edor
+|: "Em"E3e dcBA   BE3 B3A | "Em"B3e       dcBA  "D"d3D       A3F  |\
+   "Em"E3e dcBA   BE3 B3g |  "A"fa3       e3f  "Bm"d3B  "F#m"AF3  :|
+[| "Em"BE3 B3A    B3E Be3 | "Em"BE3       B3A  "Bm"d3B  "F#m"AF3  |\
+   "Em"BE3 B3A    B3E Bg3 |  "D"fa3 "C#/A"e3f  "Bm"d3B  "F#m"AF3  |]
+[| "Em"BE3 B3A    B3E Be3 | "Em"BE3       B3A   "G"d3B "F#/D"AF3  |\
+   "Em"E3F G3A "G"B3A Bg3 |  "D"fa3 "C#/A"e3f "B/G"d3F    "G"BAGF |]
+%%center Book02/02091-Delvine_Side-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02091
+T: Delvine Side
+T: 8 x 32S 3C (RSCDS Book 2)
+%
+P: Delvine Side
+O:RSCDS and Skye Colln., arr. T. Traub 2-26-2004
+R:Strathspey
+M:4/4
+L:1/8
+K:Em
+F |:\
+"Em"E>e d/^c/B/A/ B<EB>A | "Em"E>e d/^c/B/A/ "D"d<DA>F |\
+"Em"E>e d/^c/B/A/ B<EB>e | "D"f<a "A"e>f "Bm"d>B A<F :|
+"Em"B<EB>A B>E B<e | "Em"B<EB>A "D"d>B A<F |\
+"Em"B<EB>A B>E "G"B<g | "D"f<ae>f "Bm"d>B A<F |
+"Em"B<EB>A B>E B<e | "Em"B<EB>A "D"d>B A<F |\
+"Em"E>FG>A "G"B>A B<g |1 "D"f<a "A"e>f "D"d>F "Bm"B/A/G/F/ :|2 "D"f<a "A"e>f "Em"e<E E |]
+%%center Book02/02091-Delvine_Side-TT.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02101
+T: The Bob o' Dowally
+T: Salmond tail up the water
+T: Bainis choinich
+T: Carlin is your daughter ready?
+R:strathspey
+B:RSCDS 2-10a
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+N:Pronounced Dooley.  A village near Dunkeld.
+M:C
+L:1/8
+K:A
+|: "A"A>e e2 e>A c<A | "E7"B>e e2 "G"d>=G B<G \
+|  "A"A>e e2 e>A c<A | "E7"E/E/E E2 "G"=G>A B<G :|
+|: "A"A>a a>e c>a c<A | "G"B>=g g>e d>g B<=G \
+|  "A"A>a a>e c>e a<e | "G"=g<b "(C)"e<g "G"d<g B<=G :|
+%%center Book02/02101-Bob_o_Dowally-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02101
+T: The Bob o' Dowally
+T: 8 x 32S 3C (RSCDS Bk 2)
+%
+P: Bob o' Dowally
+R:strathspey
+B:RSCDS Bk 2-10
+O:arr. T. Traub 12-9-2006
+N:(pronounced "Dooly")
+M:4/4
+L:1/8
+K:A
+E |: "A"A>e e2 e>Ac<A|"Em"B>e e2 "G"d>=GB<G|"A"A>e e2 e>Ac<A|"Em"E/E/E E2 "G"=G>AB<G :|
+|: "A"A>aa>e c>ac<A|"G"B>=gg>e d>gB<=G| "A"A>aa>e c>ea<e|"G"=g<b "C"e<g "G"d<g B<=G :|
+%%center Book02/02101-Bob_o_Dowally.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02101
+T: Salmon tail up the water
+T: Bainis choinich
+T: Carlin is your daughter ready?
+R:strathspey
+B:RSCDS 2-10a
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+N:Pronounced Dooley.  A village near Dunkeld.
+M:C
+L:1/8
+K:A
+|: "A"A>e e2 e>A c<A | "E7"B>e e2 "G"d>=G B<G \
+|  "A"A>e e2 e>A c<A | "E7"E/E/E E2 "G"=G>A B<G :|
+|: "A"A>a a>e c>a c<A | "G"B>=g g>e d>g B<=G \
+|  "A"A>a a>e c>e a<e | "G"=g<b "(C)"e<g "G"d<g B<=G :|
+%%center Book02/02101-Salmon_tail_up_the_water.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02111
+T: The Hay Makers
+B:Gow's Repository
+B:RSCDS 2-11
+B:James Oswald published this tune for the 1753 London pantomime Fortunatus in 1753
+B:Miss Stewart’s Collection of 1781
+B:James Hulbert’s Complete Fifer’s Museum (Greenfield, Mass., 1807)
+R:jig
+Z:2007 John Chambers <jc:trillian.mit.edu>
+M:6/8
+L:1/8
+K:G
+   D "A" | "G"G2B "D"A2c |  "G"B2G "D7"AFD | "G"G2B "Am"A2c | "D7"BdB  "G"G2 :|\
+|: d "B" | "G"B2d    g2d |  "C"ege  "G"dBG | "G"B2d     g2d |  "C"ege "D7"d2 :|
+  yd "C" | "C"c2e "G"dBG | "D7"AGA  "G"B2G | "C"c2e  "G"dBG | "D7"AGA  "G"G3  \
+         |"Am"c2e "G"dBG | "B7"AGA "Em"B2G | "C"c2e  "G"dBG | "D7"AGA  "G"G2 |]
+%%center Book02/02111-Hay_Makers-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02111
+T: The Hay Makers
+B:Gow's Repository
+B:RSCDS 2-11
+B:James Oswald published this tune for the 1753 London pantomime Fortunatus in 1753
+B:Miss Stewart’s Collection of 1781
+B:James Hulbert’s Complete Fifer’s Museum (Greenfield, Mass., 1807)
+R:jig
+Z:2007 John Chambers <jc:trillian.mit.edu>
+M:6/8
+L:1/8
+K:G
+   D "A" | "G"G2B "D"A2c |  "G"B2G "D7"AFD | "G"G2B "Am"A2c | "D7"BdB  "G"G2 :|\
+|: d "B" | "G"B2d    g2d |  "C"ege  "G"dBG | "G"B2d     g2d |  "C"ege "D7"d2 :|
+  yd "C" | "C"c2e "G"dBG | "D7"AGA  "G"B2G | "C"c2e  "G"dBG | "D7"AGA  "G"G3  \
+         |"Am"c2e "G"dBG | "B7"AGA "Em"B2G | "C"c2e  "G"dBG | "D7"AGA  "G"G2 |]
+%%center Book02/02111-Hay_Makers.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02111
+T: The Hay Makers  [G]
+B:Gow's Repository
+B:RSCDS 2-11
+B:James Oswald published this tune for the 1753 London pantomime Fortunatus in 1753
+B:Miss Stewart’s Collection of 1781
+B:James Hulbert’s Complete Fifer’s Museum (Greenfield, Mass., 1807)
+R:jig
+Z:2007 John Chambers <jc:trillian.mit.edu>
+M:6/8
+L:1/8
+K:G
+   D "A" | "G"G2B "D"A2c |  "G"B2G "D7"AFD | "G"G2B "Am"A2c | "D7"BdB  "G"G2 :|\
+|: d "B" | "G"B2d    g2d |  "C"ege  "G"dBG | "G"B2d     g2d |  "C"ege "D7"d2 :|
+  yd "C" | "C"c2e "G"dBG | "D7"AGA  "G"B2G | "C"c2e  "G"dBG | "D7"AGA  "G"G3  \
+         |"Am"c2e "G"dBG | "B7"AGA "Em"B2G | "C"c2e  "G"dBG | "D7"AGA  "G"G2 |]
+%%center Book02/02111-Hay_Makers_G.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02111
+T: The Haymakers
+B:Gow's Repository
+B:RSCDS 2-11
+R:jig
+Z:2007 John Chambers <jc:trillian.mit.edu>
+M:6/8
+L:1/8
+K:G
+   D "A" | "G"G2B "D"A2c |  "G"B2G "D7"AFD | "G"G2B "Am"A2c | "D7"BdB  "G"G2 :|\
+|: d "B" | "G"B2d    g2d |  "C"ege  "G"dBG | "G"B2d     g2d |  "C"ege "D7"d2 :|
+  yd "C" | "C"c2e "G"dBG | "D7"AGA  "G"B2G | "C"c2e  "G"dBG | "D7"AGA  "G"G3  \
+         |"Am"c2e "G"dBG | "B7"AGA "Em"B2G | "C"c2e  "G"dBG | "D7"AGA  "G"G2 |]
+%%center Book02/02111-Haymakers-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: It's Nae Bother
+T: 32Jx8 2C
+C:Derek Haynes
+B:RSCDS Graded 2 #13
+T: Walking the Floor
+Z:John Chisolm, as played by Bill Lamey "Full Circle"
+Z:Arr. Terry Traub 2002-02-20
+M:6/8
+L:1/8
+R:jig
+K:Am
+|:e| "Am" AAA e2d|"Am" efg "D"edB|"G" GGG d2B|"G" Gge "Em"dBG|\
+  "Am"AAA e2d|"Am"efg edB|"G"GGG edB|"Am"BAA A2 :|
+|:e| "Am"a3 e2d| "Am"gee edB|"G" g3 d2B|"G"Gge dBG|\
+  "Am"a3 e2d|"Am"gee edB|"G"GGG edB|"Am"BAA A2 :|
+%%center Book02/02131-Its_Nae_Bother.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 07121
+T: The Braes of Tulliemet [Am]
+R:strathspey
+B:Neil Stewart 1761
+B:RSCDS 7-12
+Z:John Chambers <jc:trillian.mit.edu>
+M:4/4
+L:1/8
+K:Ador
+B \
+| "Am"A<e e>d e>d e<g | "G"B<G d>G e>G d>B \
+| "Am"A<e e>d e>d e<a | "Em"g>e d>B "Am"A/A/A A :|
+e \
+| "Am"a>e a<c' a>e a<c' | "G"g>d g<b g>d g<b \
+| "Am"a>e a<c' a>e a<c' | "Em"g>e d>B "Am"A/A/A A |]
+e \
+| "Am"a>e a<c' (3eab (3c'ba | "G"g>d g<b (3dga (3bag \
+| "Am"a<e e>f "G"g>a b>a | "Em"g>e d>B "Am"A/A/A A |]
+%%center Book02/07121-Braes_of_Tulliemet_Am-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 07121
+T: The Braes of Tulliemet [Em]
+R:strathspey
+B:Neil Stewart 1761
+B:RSCDS 7-12
+Z:John Chambers <jc:trillian.mit.edu>
+M:4/4
+L:1/8
+K:Edor
+F \
+| "Em"E<B B>A B>A B<d | "D"F<D A>D B>D A>F \
+| "Em"E<B B>A B>A B<e | "Bm"d>B A>F "Em"E/E/E E :|
+B \
+| "Em"e>B e<g e>B e<g | "D"d>A d<f d>A d<f \
+| "Em"e>B e<g e>B e<g | "Bm"d>B A>F "Em"E/E/E E |]
+B \
+| "Em"e>B e<g (3Bef (3gfe | "D"d>A d<f (3Ade (3fed \
+| "Em"e<B B>c "D"d>e f>e | "Bm"d>B A>F "Em"E/E/E E |]
+%%center Book02/07121-Braes_of_Tulliemet_Em-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 07121
+T: The Braes of Tulliemet [Gm]
+T: The Braes of Tullymet
+R:strathspey
+B:Neil Stewart 1761
+B:RSCDS 7-12
+Z:John Chambers <jc:trillian.mit.edu>
+M:4/4
+L:1/8
+K:Gdor
+A \
+| "Gm"G<d d>c d>c d<f | "F"A<F c>F d>F c>A \
+| "Gm"G<d d>c d>c d<g | "Dm"f>d c>A "Gm"G/G/G G :|
+d \
+| "Gm"g>d g<b g>d g<b | "F"f>c f<a f>c f<a \
+| "Gm"g>d g<b g>d g<b | "Dm"f>d c>A "Gm"G/G/G G |]
+d \
+| "Gm"g>d g<b (3dga (3bag | "F"f>c f<a (3cfg (3agf \
+| "Gm"g<d d>e "F"f>g a>g | "Dm"f>d c>A "Gm"G/G/G G |]
+%%center Book02/07121-Braes_of_Tulliemet_Gm-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Bob o' Dowally
+T: Salmon tail up the water
+T: Bainis choinich
+T: Carlin is your daughter ready?
+R:strathspey
+B:RSCDS 2-10a
+B:Athole Collection
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+N:Pronounced Dooley.  A village near Dunkeld.
+M:C
+L:1/8
+K:A
+|: "A"A>e e2 e>A c<A | "E7"B>e e2 "G"d>=G B<G \
+|  "A"A>e e2 e>A c<A | "E7"E/E/E E2 "G"=G>A B<G :|
+|: "A"A>a a>e c>a c<A | "G"B>=g g>e d>g B<=G \
+|  "A"A>a a>e c>e a<e | "G"=g<b "(C)"e<g "G"d<g B<=G :|
+%%center Book02/BobODowally-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Bob o' Dowally
+T: Salmond tail up the water
+T: Bainis choinich
+T: Carlin is your daughter ready?
+R: strathspey
+B: RSCDS 2-10a
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Pronounced Dooley.  A village near Dunkeld.
+M: C
+L: 1/8
+K: A
+|: "A"A>e e2 e>A c<A | "E7"B>e e2 "G"d>=G B<G \
+|  "A"A>e e2 e>A c<A | "E7"E/E/E E2 "G"=G>A B<G :|
+|: "A"A>a a>e c>a c<A | "G"B>=g g>e d>g B<=G \
+|  "A"A>a a>e c>e a<e | "G"=g<b "(C)"e<g "G"d<g B<=G :|
+%%center Book02/BobODowallyJ-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Bob o' Dowally
+T: Salmond tail up the water
+T: Bainis choinich
+T: Carlin is your daughter ready?
+R: strathspey
+B: RSCDS 2-10a
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Pronounced Dooley.  A village near Dunkeld.
+M: C
+L: 1/8
+K: A
+|: "A"A>e e2 e>A c<A | "E7"B>e e2 "G"d>=G B<G \
+|  "A"A>e e2 e>A c<A | "E7"E/E/E E2 "G"=G>A B<G :|
+|: "A"A>a a>e c>a c<A | "G"B>=g g>e d>g B<=G \
+|  "A"A>a a>e c>e a<e | "G"=g<b "(C)"e<g "G"d<g B<=G :|
+%%center Book02/BobODowallyJ_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Bob o' Dowally
+T: Salmond tail up the water
+T: Bainis choinich
+T: Carlin is your daughter ready?
+R: strathspey
+B: RSCDS 2-10a
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Pronounced Dooley.  A village near Dunkeld.
+M: C
+L: 1/8
+K: A
+|: "A"A>e e2 e>A c<A | "E7"B>e e2 "G"d>=G B<G \
+|  "A"A>e e2 e>A c<A | "E7"E/E/E E2 "G"=G>A B<G :|
+|: "A"A>a a>e c>a c<A | "G"B>=g g>e d>g B<=G \
+|  "A"A>a a>e c>e a<e | "G"=g<b "(C)"e<g "G"d<g B<=G :|
+%%center Book02/BobODowallyS-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Bob o' Dowally
+T: Salmond tail up the water
+T: Bainis choinich
+T: Carlin is your daughter ready?
+R: strathspey
+B: RSCDS 2-10a
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Pronounced Dooley.  A village near Dunkeld.
+M: C
+L: 1/8
+K: A
+|: "A"A>e e2 e>A c<A | "E7"B>e e2 "G"d>=G B<G \
+|  "A"A>e e2 e>A c<A | "E7"E/E/E E2 "G"=G>A B<G :|
+|: "A"A>a a>e c>a c<A | "G"B>=g g>e d>g B<=G \
+|  "A"A>a a>e c>e a<e | "G"=g<b "(C)"e<g "G"d<g B<=G :|
+%%center Book02/BobODowallyS_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Braes of Tulliemet [Am]
+T: The Braes of Tullymet
+R: strathspey
+B: Neil Stewart 1761
+B: RSCDS 2-10b
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Ador
+B \
+| "Am"A<e e>d e>d e<g | "G"B<G d>G e>G d>B \
+| "Am"A<e e>d e>d e<a | "Em"g>e d>B "Am"A/A/A A :|
+e \
+| "Am"a>e a<c' a>e a<c' | "G"g>d g<b g>d g<b \
+| "Am"a>e a<c' a>e a<c' | "Em"g>e d>B "Am"A/A/A A |]
+e \
+| "Am"a>e a<c' a>e a<c' | "G"g>d g<b g>d g<b \
+| "Am"a<e e>f "G"g>a b>a | "Em"g>e d>B "Am"A/A/A A |]
+%%center Book02/BraesOfTulliemetS_Am-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Braes of Tulliemet [Am]
+T: The Braes of Tullymet
+R: strathspey
+B: Neil Stewart 1761
+B: RSCDS 2-10b
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Ador
+B \
+| "Am"A<e e>d e>d e<g | "G"B<G d>G e>G d>B \
+| "Am"A<e e>d e>d e<a | "Em"g>e d>B "Am"A/A/A A :|
+e \
+| "Am"a>e a<c' a>e a<c' | "G"g>d g<b g>d g<b \
+| "Am"a>e a<c' a>e a<c' | "Em"g>e d>B "Am"A/A/A A |]
+e \
+| "Am"a>e a<c' a>e a<c' | "G"g>d g<b g>d g<b \
+| "Am"a<e e>f "G"g>a b>a | "Em"g>e d>B "Am"A/A/A A |]
+%%center Book02/BraesOfTulliemetS_Am_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Braes of Tulliemet 1 [Em]
+T: The Braes of Tullymet
+R: strathspey
+B: Neil Stewart 1761
+B: RSCDS 2-10b
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Edor
+F \
+| "Em"E<B B>A B>A B<d | "D"F<D A>D B>D A>F \
+| "Em"E<B B>A B>A B<e | "D"d>B A>F "Em"E/E/E E :|
+B \
+| "Em"e>B e<g e>B e<g | "D"d>A d<f d>A d<f \
+| "Em"e>B e<g e>B e<g | "D"d>B A>F "Em"E/E/E E |]
+B \
+| "Em"e>B e<g e>B e<g | "D"d>A d<f d>A d<f \
+| "Em"e<B B>c "D"d>e f>e | "Bm"d>B A>F "Em"E/E/E E |]
+%%center Book02/BraesOfTulliemetS_Em-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Braes of Tulliemet 1 [Em]
+T: The Braes of Tullymet
+R: strathspey
+B: Neil Stewart 1761
+B: RSCDS 2-10b
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Edor
+F \
+| "Em"E<B B>A B>A B<d | "D"F<D A>D B>D A>F \
+| "Em"E<B B>A B>A B<e | "D"d>B A>F "Em"E/E/E E :|
+B \
+| "Em"e>B e<g e>B e<g | "D"d>A d<f d>A d<f \
+| "Em"e>B e<g e>B e<g | "D"d>B A>F "Em"E/E/E E |]
+B \
+| "Em"e>B e<g e>B e<g | "D"d>A d<f d>A d<f \
+| "Em"e<B B>c "D"d>e f>e | "Bm"d>B A>F "Em"E/E/E E |]
+%%center Book02/BraesOfTulliemetS_Em_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Braes of Tulliemet [Gm]
+T: The Braes of Tullymet
+R: strathspey
+B: Neil Stewart 1761
+B: RSCDS 2-10b
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Gdor
+A \
+| "Gm"G<d d>c d>c d<f | "F"A<F c>F d>F c>A \
+| "Gm"G<d d>c d>c d<g | "Dm"f>d c>A "Gm"G/G/G G :|
+d \
+| "Gm"g>d g<b g>d g<b | "F"f>c f<a f>c f<a \
+| "Gm"g>d g<b g>d g<b | "Dm"f>d c>A "Gm"G/G/G G |]
+d \
+| "Gm"g>d g<b g>d g<b | "F"f>c f<a f>c f<a \
+| "Gm"g<d d>e "F"f>g a>g | "Dm"f>d c>A "Gm"G/G/G G |]
+%%center Book02/BraesOfTulliemetS_Gm-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Braes of Tulliemet [Gm]
+T: The Braes of Tullymet
+R: strathspey
+B: Neil Stewart 1761
+B: RSCDS 2-10b
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Gdor
+A \
+| "Gm"G<d d>c d>c d<f | "F"A<F c>F d>F c>A \
+| "Gm"G<d d>c d>c d<g | "Dm"f>d c>A "Gm"G/G/G G :|
+d \
+| "Gm"g>d g<b g>d g<b | "F"f>c f<a f>c f<a \
+| "Gm"g>d g<b g>d g<b | "Dm"f>d c>A "Gm"G/G/G G |]
+d \
+| "Gm"g>d g<b g>d g<b | "F"f>c f<a f>c f<a \
+| "Gm"g<d d>e "F"f>g a>g | "Dm"f>d c>A "Gm"G/G/G G |]
+%%center Book02/BraesOfTulliemetS_Gm_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Braes of Tulliemet [Am]
+T: The Braes of Tullymet
+R: strathspey
+B: Neil Stewart 1761
+B: RSCDS 2-10b
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Ador
+B \
+| "Am"A<e e>d e>d e<g | "G"B<G d>G e>G d>B \
+| "Am"A<e e>d e>d e<a | "Em"g>e d>B "Am"A/A/A A :|
+e \
+| "Am"a>e a<c' a>e a<c' | "G"g>d g<b g>d g<b \
+| "Am"a>e a<c' a>e a<c' | "Em"g>e d>B "Am"A/A/A A |]
+e \
+| "Am"a>e a<c' (3eab (3c'ba | "G"g>d g<b (3dga (3bag \
+| "Am"a<e e>f "G"g>a b>a | "Em"g>e d>B "Am"A/A/A A |]
+%%center Book02/Braes_of_Tulliemet_Am-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Braes of Tulliemet [Am]
+T: The Braes of Tullymet
+R: strathspey
+B: Neil Stewart 1761
+B: RSCDS 2-10b
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Ador
+B \
+| "Am"A<e e>d e>d e<g | "G"B<G d>G e>G d>B \
+| "Am"A<e e>d e>d e<a | "Em"g>e d>B "Am"A/A/A A :|
+e \
+| "Am"a>e a<c' a>e a<c' | "G"g>d g<b g>d g<b \
+| "Am"a>e a<c' a>e a<c' | "Em"g>e d>B "Am"A/A/A A |]
+e \
+| "Am"a>e a<c' (3eab (3c'ba | "G"g>d g<b (3dga (3bag \
+| "Am"a<e e>f "G"g>a b>a | "Em"g>e d>B "Am"A/A/A A |]
+%%center Book02/Braes_of_Tulliemet_Am_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Braes of Tulliemet 2 [Em]
+T: The Braes of Tullymet
+R: strathspey
+B: Neil Stewart 1761
+B: RSCDS 2-10b
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Edor
+F \
+| "Em"E<B B>A B>A B<d | "D"(3FED A>D B>D A>F \
+| "Em"E<B B>A B>A B<e | "Bm"d>B A>F "Em"E/E/E E :|
+B \
+| "Em"e>B e<g e>B e<g | "D"d>A d<f d>A d<f \
+| "Em"e>B e<g e>B e<g | "Bm"d>B A>F "Em"E/E/E E |]
+B \
+| "Em"e>B e<g (3Bef (3gfe | "D"d>A d<f (3Ade (3fed \
+| "Em"e<B B>c "D"d>e f>e | "Bm"d>B A>F "Em"E/E/E E |]
+%%center Book02/Braes_of_Tulliemet_Em-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Braes of Tulliemet 2 [Em]
+T: The Braes of Tullymet
+R: strathspey
+B: Neil Stewart 1761
+B: RSCDS 2-10b
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Edor
+F \
+| "Em"E<B B>A B>A B<d | "D"(3FED A>D B>D A>F \
+| "Em"E<B B>A B>A B<e | "Bm"d>B A>F "Em"E/E/E E :|
+B \
+| "Em"e>B e<g e>B e<g | "D"d>A d<f d>A d<f \
+| "Em"e>B e<g e>B e<g | "Bm"d>B A>F "Em"E/E/E E |]
+B \
+| "Em"e>B e<g (3Bef (3gfe | "D"d>A d<f (3Ade (3fed \
+| "Em"e<B B>c "D"d>e f>e | "Bm"d>B A>F "Em"E/E/E E |]
+%%center Book02/Braes_of_Tulliemet_Em_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Braes of Tulliemet [Gm]
+T: The Braes of Tullymet
+R: strathspey
+B: Neil Stewart 1761
+B: RSCDS 2-10b
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Gdor
+A \
+| "Gm"G<d d>c d>c d<f | "F"A<F c>F d>F c>A \
+| "Gm"G<d d>c d>c d<g | "Dm"f>d c>A "Gm"G/G/G G :|
+d \
+| "Gm"g>d g<b g>d g<b | "F"f>c f<a f>c f<a \
+| "Gm"g>d g<b g>d g<b | "Dm"f>d c>A "Gm"G/G/G G |]
+d \
+| "Gm"g>d g<b (3dga (3bag | "F"f>c f<a (3cfg (3agf \
+| "Gm"g<d d>e "F"f>g a>g | "Dm"f>d c>A "Gm"G/G/G G |]
+%%center Book02/Braes_of_Tulliemet_Gm-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Braes of Tulliemet [Gm]
+T: The Braes of Tullymet
+R: strathspey
+B: Neil Stewart 1761
+B: RSCDS 2-10b
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Gdor
+A \
+| "Gm"G<d d>c d>c d<f | "F"A<F c>F d>F c>A \
+| "Gm"G<d d>c d>c d<g | "Dm"f>d c>A "Gm"G/G/G G :|
+d \
+| "Gm"g>d g<b g>d g<b | "F"f>c f<a f>c f<a \
+| "Gm"g>d g<b g>d g<b | "Dm"f>d c>A "Gm"G/G/G G |]
+d \
+| "Gm"g>d g<b (3dga (3bag | "F"f>c f<a (3cfg (3agf \
+| "Gm"g<d d>e "F"f>g a>g | "Dm"f>d c>A "Gm"G/G/G G |]
+%%center Book02/Braes_of_Tulliemet_Gm_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Bumpkin
+R:jig
+B:RSCDS 2-2
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+B:Tune first published in the "Gobblers Opera" 1729
+B:Published in Aird's Collection 1782 as "Bab at the Bowster".
+M:6/8
+L:1/8
+K:G
+|| "C"[c3G3C3] "G"[B3G3D3] | "Am"[AE3]BG "D"FED | "G"GAG BAB | GAG BAB \
+|  "C"[c3G3C3] "G"[B3G3D3] | "Am"[AE3]BA "D"fef | "G"g2d "C"edc | "D7"BAB "G"GAB ||
+|| "C"c2(3d/e/f/ "G"gdB | "Am"ABG "D7"FED | "G"GAG BAB | GAG BAB \
+| "G"G2f gdB | "Am"ABA "D7"fef | "G"g2d "C"edc | "D7"BAB "G"G3 ||
+|| "Am"cAc "Em"BGB | "A7"ABG "D"FED | "G"GAG BAB | GAG BAB \
+|  "Am"cAc "G"BGB | "Am"ABA "D"fef | "G"g2d "C"edc | "D7"BAB "G"G3 |]
+%%center Book02/BumpkinJ-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Bumpkin
+R: jig
+B: RSCDS 2-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Tune first published in the "Gobblers Opera" 1729
+N: Published in Aird's Collection 1782 as "Bab at the Bowster".
+M: 6/8
+L: 1/8
+K: G
+|| "C"[c3G3C3] "G"[B3G3D3] | "Am"[AE3]BG "D"FED | "G"GAG BAB | GAG BAB \
+|  "C"[c3G3C3] "G"[B3G3D3] | "Am"[AE3]BA "D"fef | "G"g2d "C"edc | "D7"BAB "G"GAB ||
+|| "C"c2(3d/e/f/ "G"gdB | "Am"ABG "D7"FED | "G"GAG BAB | GAG BAB \
+| "G"G2f gdB | "Am"ABA "D7"fef | "G"g2d "C"edc | "D7"BAB "G"G3 ||
+|| "Am"cAc "Em"BGB | "A7"ABG "D"FED | "G"GAG BAB | GAG BAB \
+|  "Am"cAc "G"BGB | "Am"ABA "D"fef | "G"g2d "C"edc | "D7"BAB "G"G3 |]
+%%center Book02/BumpkinJ_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02091
+T: Delvine Side
+C: Daniel Dow of Kirk Michael ca.1775
+R: strathspey
+B: RSCDS 2-9
+B: "Originally Ours" p.8
+B: Alexander McGlashan's 1780 collection p.30
+N: The RSCDS booklet dates this to 1790, others claim it was written around 1775.
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Edor
+|: "Em"E3e dcBA   BE3 B3A | "Em"B3e       dcBA  "D"d3D       A3F  |\
+   "Em"E3e dcBA   BE3 B3g |  "A"fa3       e3f  "Bm"d3B  "F#m"AF3  :|
+[| "Em"BE3 B3A    B3E Be3 | "Em"BE3       B3A  "Bm"d3B  "F#m"AF3  |\
+   "Em"BE3 B3A    B3E Bg3 |  "D"fa3 "C#/A"e3f  "Bm"d3B  "F#m"AF3  |]
+[| "Em"BE3 B3A    B3E Be3 | "Em"BE3       B3A   "G"d3B "F#/D"AF3  |\
+   "Em"E3F G3A "G"B3A Bg3 |  "D"fa3 "C#/A"e3f "B/G"d3F    "G"BAGF |]
+%%center Book02/DelvineSide2_Em-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Delvine Side
+C: Daniel Dow (ca.1790)
+R: strathspey
+B: RSCDS 2-9
+B: "Originally Ours" p.8
+B: Alexander McGlashan's 1780 collection p.30
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Edor
+|: "Em"E3e dcBA   BE3 B3A | "Em"B3e       dcBA  "D"d3D       A3F  |\
+   "Em"E3e dcBA   BE3 B3g |  "A"fa3       e3f  "Bm"d3B  "F#m"AF3  :|
+[| "Em"BE3 B3A    B3E Be3 | "Em"BE3       B3A  "Bm"d3B  "F#m"AF3  |\
+   "Em"BE3 B3A    B3E Bg3 |  "D"fa3 "C#/A"e3f  "Bm"d3B  "F#m"AF3  ||
+|| "Em"BE3 B3A    B3E Be3 | "Em"BE3       B3A   "G"d3B "F#/D"AF3  |\
+   "Em"E3F G3A "G"B3A Bg3 |  "D"fa3 "C#/A"e3f "B/G"d3F    "G"BAGF ||
+%%center Book02/DelvineSide2_Em_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02091
+T: Delvine Side
+C: Daniel Dow of Kirk Michael ca.1775
+R: strathspey
+B: RSCDS 2-9
+B: "Originally Ours" p.8
+B: Alexander McGlashan's 1780 collection p.30
+N: The RSCDS booklet dates this to 1790, others claim it was written around 1775.
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Edor
+|: "Em"E3e dcBA   BE3 B3A | "Em"B3e       dcBA  "D"d3D       A3F  |\
+   "Em"E3e dcBA   BE3 B3g |  "A"fa3       e3f  "Bm"d3B  "F#m"AF3  :|
+[| "Em"BE3 B3A    B3E Be3 | "Em"BE3       B3A  "Bm"d3B  "F#m"AF3  |\
+   "Em"BE3 B3A    B3E Bg3 |  "D"fa3 "C#/A"e3f  "Bm"d3B  "F#m"AF3  |]
+[| "Em"BE3 B3A    B3E Be3 | "Em"BE3       B3A   "G"d3B "F#/D"AF3  |\
+   "Em"E3F G3A "G"B3A Bg3 |  "D"fa3 "C#/A"e3f "B/G"d3F    "G"BAGF |]
+%%center Book02/Delvine_Side-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Delvine Side
+T: 8 x 32S 3C (RSCDS Book 2)
+P: Delvine Side
+C: RSCDS and Skye Colln., arr. T. Traub 2-26-2004
+R: Strathspey
+M: 4/4
+%--------------------
+K: Em
+L: 1/8
+F|: "Em"E>e d/^c/B/A/ B<EB>A|"Em"E>e d/^c/B/A/ "D"d<DA>F|"Em"E>e d/^c/B/A/ B<EB>e|"D"f<a "A"e>f "Bm"d>B A<F :|
+"Em"B<EB>A B>E B<e|"Em"B<EB>A "D"d>B A<F|"Em"B<EB>A B>E "G"B<g|"D"f<ae>f "Bm"d>B A<F|
+"Em"B<EB>A B>E B<e|"Em"B<EB>A "D"d>B A<F|"Em"E>FG>A "G"B>A B<g|1 "D"f<a "A"e>f "D"d>F "Bm"B/A/G/F/:|2 "D"f<a "A"e>f "Em"e<E E |]
+%%center Book02/Delvine_Side_TT.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Glasgow Highlanders
+R:strathspey, shottish
+B:RSCDS 2-3(a)
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C
+L:1/8
+K:D
+[| "D"D>E F>G A2 A2 | "(A7)"A>c d>e "D"f2 a2 \
+| "Em"g>e f>d e>c d>B | "A7"A>B A>F E>G F>E |
+| "D"D>E F>G A2 A2 | "(A7)"A>c d>e "D"f2 a2 \
+| "Em"g>e f>d "A"e2 a2 | "A7"~A2 B>c "D"d>e f>g |]
+[| "D"M[a2d2] "A7"M[g2c2] "D"M[f7/2d7/2] e/ | d>f e>d "G"[B4G4] \
+| "Em"g>e f>d e2 d2 | "E7"(3cfe (3dcB "A7"A>e f>g |
+| "D"M[a2d2] "A7"M[g2c2] "D"M[f7/2d7/2] e/ | d>f e>d "G"[B4G4] \
+| "Em"g>e f>d "A"e2 a2 | "A7"~A2 Bc "D"d4 |]
+%%center Book02/GlasgowHighlandersS-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Glasgow Highlanders
+R: strathspey, shottish
+B: RSCDS 2-3(a)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+[| "D"D>E F>G A2 A2 | "(A7)"A>c d>e "D"f2 a2 \
+| "Em"g>e f>d e>c d>B | "A7"A>B A>F E>G F>E |
+| "D"D>E F>G A2 A2 | "(A7)"A>c d>e "D"f2 a2 \
+| "Em"g>e f>d "A"e2 a2 | "A7"~A2 B>c "D"d>e f>g |]
+[| "D"M[a2d2] "A7"M[g2c2] "D"M[f7/2d7/2] e/ | d>f e>d "G"[B4G4] \
+| "Em"g>e f>d e2 d2 | "E7"(3cfe (3dcB "A7"A>e f>g |
+| "D"M[a2d2] "A7"M[g2c2] "D"M[f7/2d7/2] e/ | d>f e>d "G"[B4G4] \
+| "Em"g>e f>d "A"e2 a2 | "A7"~A2 Bc "D"d4 |]
+%%center Book02/GlasgowHighlandersS_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Hay Makers  (A)
+B:Gow's Repository
+B:RSCDS 2-11
+B:James Oswald published this tune for the 1753 London pantomime Fortunatus in 1753
+B:Miss Stewart’s Collection of 1781
+B:James Hulbert’s Complete Fifer’s Museum (Greenfield, Mass., 1807)
+R:jig
+Z:2007 John Chambers <jc:trillian.mit.edu>
+M:6/8
+L:1/8
+K:A
+   E "A" | "A"A2c "E"B2d |  "A"c2A  "E7"BGE | "A"A2c "Bm"B2d | "E7"cec  "A"A2 :|\
+|: e "B" | "A"c2e    a2e |  "D"faf   "A"ecA | "A"c2e     a2e |  "D"faf "E7"e2 :|
+  ye "C" | "D"d2f "A"ecA | "E7"BAB   "A"c2A | "D"d2f  "A"ecA | "E7"BAB  "A"A3  \
+         |"Bm"d2f "A"ecA |"C#7"BAB "F#m"c2A | "D"d2f  "A"ecA | "E7"BAB  "A"A2 |]
+%%center Book02/HaymakersJ1_A-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Hay Makers  (A)
+O: Gow's Repository
+B: RSCDS 2-11
+N: James Oswald published this tune for the 1753 London pantomime Fortunatus in 1753
+B: Miss Stewart’s Collection of 1781
+B: James Hulbert’s Complete Fifer’s Museum (Greenfield, Mass., 1807)
+R: jig
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+   E "A" | "A"A2c "E"B2d |  "A"c2A  "E7"BGE | "A"A2c "Bm"B2d | "E7"cec  "A"A2 :|\
+|: e "B" | "A"c2e    a2e |  "D"faf   "A"ecA | "A"c2e     a2e |  "D"faf "E7"e2 :|
+  ye "C" | "D"d2f "A"ecA | "E7"BAB   "A"c2A | "D"d2f  "A"ecA | "E7"BAB  "A"A3  \
+         |"Bm"d2f "A"ecA |"C#7"BAB "F#m"c2A | "D"d2f  "A"ecA | "E7"BAB  "A"A2 |]
+%%center Book02/HaymakersJ1_A_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Hay Makers  [F]
+B:Gow's Repository
+B:RSCDS 2-11
+B:James Oswald published this tune for the 1753 London pantomime Fortunatus in 1753
+B:Miss Stewart’s Collection of 1781
+B:James Hulbert’s Complete Fifer’s Museum (Greenfield, Mass., 1807)
+R:jig
+Z:2007 John Chambers <jc:trillian.mit.edu>
+M:6/8
+L:1/8
+K:F
+   C "A" | "F"F2A "C"G2B |  "F"A2F "C7"GEC | "F"F2A "Gm"G2B | "C7"AcA  "F"F2 :|\
+|: c "B" | "F"A2c    f2c | "Bb"dfd  "F"cAF | "F"A2c     f2c | "Bb"dfd "C7"c2 :|
+  yc "C" |"Bb"B2d "F"cAF | "C7"GFG  "F"A2F |"Bb"B2d  "F"cAF | "C7"GFG  "F"F3  \
+         |"Gm"B2d "F"cAF | "A7"GFG "Dm"A2F |"Bb"B2d  "F"cAF | "C7"GFG  "F"F2 |]
+%%center Book02/HaymakersJ1_F-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Hay Makers  [F]
+O: Gow's Repository
+B: RSCDS 2-11
+N: James Oswald published this tune for the 1753 London pantomime Fortunatus in 1753
+B: Miss Stewart’s Collection of 1781
+B: James Hulbert’s Complete Fifer’s Museum (Greenfield, Mass., 1807)
+R: jig
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+   C "A" | "F"F2A "C"G2B |  "F"A2F "C7"GEC | "F"F2A "Gm"G2B | "C7"AcA  "F"F2 :|\
+|: c "B" | "F"A2c    f2c | "Bb"dfd  "F"cAF | "F"A2c     f2c | "Bb"dfd "C7"c2 :|
+  yc "C" |"Bb"B2d "F"cAF | "C7"GFG  "F"A2F |"Bb"B2d  "F"cAF | "C7"GFG  "F"F3  \
+         |"Gm"B2d "F"cAF | "A7"GFG "Dm"A2F |"Bb"B2d  "F"cAF | "C7"GFG  "F"F2 |]
+%%center Book02/HaymakersJ1_F_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Hay Makers  [G]
+O: Gow's Repository
+B: RSCDS 2-11
+N: James Oswald published this tune for the 1753 London pantomime Fortunatus in 1753
+B: Miss Stewart’s Collection of 1781
+B: James Hulbert’s Complete Fifer’s Museum (Greenfield, Mass., 1807)
+R: jig
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+   D "A" | "G"G2B "D"A2c |  "G"B2G "D7"AFD | "G"G2B "Am"A2c | "D7"BdB  "G"G2 :|\
+|: d "B" | "G"B2d    g2d |  "C"ege  "G"dBG | "G"B2d     g2d |  "C"ege "D7"d2 :|
+  yd "C" | "C"c2e "G"dBG | "D7"AGA  "G"B2G | "C"c2e  "G"dBG | "D7"AGA  "G"G3  \
+         |"Am"c2e "G"dBG | "B7"AGA "Em"B2G | "C"c2e  "G"dBG | "D7"AGA  "G"G2 |]
+%%center Book02/HaymakersJ1_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Hay Makers  [G]
+O: Gow's Repository
+B: RSCDS 2-11
+N: James Oswald published this tune for the 1753 London pantomime Fortunatus in 1753
+B: Miss Stewart’s Collection of 1781
+B: James Hulbert’s Complete Fifer’s Museum (Greenfield, Mass., 1807)
+R: jig
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+   D "A" | "G"G2B "D"A2c |  "G"B2G "D7"AFD | "G"G2B "Am"A2c | "D7"BdB  "G"G2 :|\
+|: d "B" | "G"B2d    g2d |  "C"ege  "G"dBG | "G"B2d     g2d |  "C"ege "D7"d2 :|
+  yd "C" | "C"c2e "G"dBG | "D7"AGA  "G"B2G | "C"c2e  "G"dBG | "D7"AGA  "G"G3  \
+         |"Am"c2e "G"dBG | "B7"AGA "Em"B2G | "C"c2e  "G"dBG | "D7"AGA  "G"G2 |]
+%%center Book02/HaymakersJ1_G_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Highland Whisky
+C: Neil Gow
+R: strathspey
+N: BSFC III-21 and III-45 and IV-10
+N: OTDT p.76
+B: RSCDS 2-5(b)
+N: Scots Guards 297
+N: Skye p.26
+N: 2nd measure of B part has F#, G or G# in various versions.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+  E \
+| "A"A<A A2 A>B c<e | "Bm"B<B B>c "E7"d>e f<a \
+| "A"A<A A2 A>B c>d | ef/g/ a>c "E7"B2 "A"A :|
+  e \
+| "A"(3cBA e>A "D"f>A "A"e>A | "G"=G<B B>A "E7"^G<B B>e \
+| "A"(3cBA e>A "D"f>A "A"e>A | ef/g/ a>c "E7"B2 "A"A ||
+  e \
+| "A"d/c/B/A/ e>A "D"f>A "A"e>A | "G"=G<B B>A "E7"^G<B B>e \
+| "A"A<c "E7"B>d "A"c<e "D"d>f | "A"ef/g/ ae/c/ "E7"B2 "A"A |]
+%%center Book02/HighlandWhiskey-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Highland Whisky
+C: Neil Gow
+R: strathspey
+N: BSFC III-21 and III-45 and IV-10
+N: OTDT p.76
+B: RSCDS 2-5(b)
+N: Scots Guards 297
+N: Skye p.26
+N: 2nd measure of B part has F#, G or G# in various versions.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+E \
+| "A"A-<A A2 A>B c-<e | "Bm"B-<B B>c "E7"d>e f-<a \
+| "A"A-<A A2 A>B c>d | ef/g/ a>c "E7"B2 "A"A> :|
+e \
+| "A"(3cBA e>A "D"f>A "A"e>A | "Bm"F-<B B>A "E7"^G-<B B>e \
+| "A"(3cBA e>A "D"f>A "A"e>A | ef/g/ a>c "E7"B2 "A"A> ||
+e \
+| "A"(3cBA e>A "D"f>A "A"e>A | "Bm"F-<B B>A "E7"^G-<B B>e \
+| "A"A-<c "E7"B>d "A"c-<e "D"d>f | "A"ef/g/ a>c "E7"B2 "A"A |]
+%%center Book02/HighlandWhiskey2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Highland Whisky
+C: Neil Gow
+R: strathspey
+N: BSFC III-21 and III-45 and IV-10
+N: OTDT p.76
+B: RSCDS 2-5(b)
+N: Scots Guards 297
+N: Skye p.26
+N: 2nd measure of B part has F#, G or G# in various versions.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+E \
+| "A"A-<A A2 A>B c-<e | "Bm"B-<B B>c "E7"d>e f-<a \
+| "A"A-<A A2 A>B c>d | ef/g/ a>c "E7"B2 "A"A> :|
+e \
+| "A"(3cBA e>A "D"f>A "A"e>A | "Bm"F-<B B>A "E7"^G-<B B>e \
+| "A"(3cBA e>A "D"f>A "A"e>A | ef/g/ a>c "E7"B2 "A"A> ||
+e \
+| "A"(3cBA e>A "D"f>A "A"e>A | "Bm"F-<B B>A "E7"^G-<B B>e \
+| "A"A-<c "E7"B>d "A"c-<e "D"d>f | "A"ef/g/ a>c "E7"B2 "A"A |]
+%%center Book02/HighlandWhiskey2_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Highland Whisky
+C: Neil Gow
+R: strathspey
+N: BSFC III-21 and III-45 and IV-10
+N: OTDT p.76
+B: RSCDS 2-5(b)
+N: Scots Guards 297
+N: Skye p.26
+N: 2nd measure of B part has F#, G or G# in various versions.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+  E \
+| "A"A<A A2 A>B c<e | "Bm"B<B B>c "E7"d>e f<a \
+| "A"A<A A2 A>B c>d | ef/g/ a>c "E7"B2 "A"A :|
+  e \
+| "A"(3cBA e>A "D"f>A "A"e>A | "G"=G<B B>A "E7"^G<B B>e \
+| "A"(3cBA e>A "D"f>A "A"e>A | ef/g/ a>c "E7"B2 "A"A ||
+  e \
+| "A"d/c/B/A/ e>A "D"f>A "A"e>A | "G"=G<B B>A "E7"^G<B B>e \
+| "A"A<c "E7"B>d "A"c<e "D"d>f | "A"ef/g/ ae/c/ "E7"B2 "A"A |]
+%%center Book02/HighlandWhiskey_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Jenny's Bawbee
+R:strathspey
+B:RSCDS 2-2(b)
+B:Joshua Campbell's 1778 collection p.79 (first known Scottish printing)
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C
+L:1/8
+K:A
+|: c>d \
+| "A"e>f e>d "(F#m)"c<A A>c | "Bm"d>F B>A "E7"G<E E2 \
+| "A"e>f e>d "(F#m)"c<A c<e | "D"F<F "E7"G>E "A"A2 :|
+|: A>B \
+| "A"c>A "E7"d>B "A(F#m)"c<A A>c | "Bm"d>F B>A "E7"G<E E2 \
+| "A"c>A "E7"d>B "A(F#m)"c<A c<e |1 "D"F<F "E7"G>E "A"A2 \
+:|2 "D"f<f "E7"g>e "A"a2 :|
+%%center Book02/JennysBawbee-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Jenny's Bawbee
+R: strathspey
+B: RSCDS 2-2(b)
+B: Joshua Campbell's 1778 collection p.79 (first known Scottish printing)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+|: c>d \
+| "A"e>f e>d "(F#m)"c<A A>c | "Bm"d>F B>A "E7"G<E E2 \
+| "A"e>f e>d "(F#m)"c<A c<e | "D"F<F "E7"G>E "A"A2 :|
+|: A>B \
+| "A"c>A "E7"d>B "A(F#m)"c<A A>c | "Bm"d>F B>A "E7"G<E E2 \
+| "A"c>A "E7"d>B "A(F#m)"c<A c<e |1 "D"F<F "E7"G>E "A"A2 \
+:|2 "D"f<f "E7"g>e "A"a2 :|
+%%center Book02/JennysBawbee_A-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Jenny's Bawbee
+R: strathspey
+B: RSCDS 2-2(b)
+B: Joshua Campbell's 1778 collection p.79 (first known Scottish printing)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+|: c>d \
+| "A"e>f e>d "(F#m)"c<A A>c | "Bm"d>F B>A "E7"G<E E2 \
+| "A"e>f e>d "(F#m)"c<A c<e | "D"F<F "E7"G>E "A"A2 :|
+|: A>B \
+| "A"c>A "E7"d>B "A(F#m)"c<A A>c | "Bm"d>F B>A "E7"G<E E2 \
+| "A"c>A "E7"d>B "A(F#m)"c<A c<e |1 "D"F<F "E7"G>E "A"A2 \
+:|2 "D"f<f "E7"g>e "A"a2 :|
+%%center Book02/JennysBawbee_A_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Jenny's Bawbee
+R:strathspey
+B:RSCDS 2-2(b)
+B:Joshua Campbell's 1778 collection p.79 (first known Scottish printing)
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C
+L:1/8
+K:G
+   B>c \
+| "G"d>e d>c "(Em)"B<G G>B | "Am"c>E A>G "D7"F<D D2 \
+| "G"d>e d>c "(Em)"B<G B<d | "C"E<E "D7"F>D "G"G2 :|
+|: G>A \
+| "G"B>G "D7"c>A "G(Em)"B<G G>B | "Am"c>E A>G "D7"F<D D2 \
+| "G"B>G "D7"c>A "G(Em)"B<G B<d |1 "C"E<E "D7"F>D "G"G2 \
+:|2 "C"e<e "D7"f>d "G"g2 :|
+%%center Book02/JennysBawbee_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Jenny's Bawbee
+R: strathspey
+B: RSCDS 2-2(b)
+B: Joshua Campbell's 1778 collection p.79 (first known Scottish printing)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+   B>c \
+| "G"d>e d>c "(Em)"B<G G>B | "Am"c>E A>G "D7"F<D D2 \
+| "G"d>e d>c "(Em)"B<G B<d | "C"E<E "D7"F>D "G"G2 :|
+|: G>A \
+| "G"B>G "D7"c>A "G(Em)"B<G G>B | "Am"c>E A>G "D7"F<D D2 \
+| "G"B>G "D7"c>A "G(Em)"B<G B<d |1 "C"E<E "D7"F>D "G"G2 \
+:|2 "C"e<e "D7"f>d "G"g2 :|
+%%center Book02/JennysBawbee_G_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Jenny's Bawbee
+R: strathspey
+B: RSCDS 2-2(b)
+B: Joshua Campbell's 1778 collection p.79 (first known Scottish printing)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+|: c>d \
+| "A"e>f e>d "(F#m)"c<A A>c | "Bm"d>F B>A "E7"G<E E2 \
+| "A"e>f e>d "(F#m)"c<A c<e | "D"F<F "E7"G>E "A"A2 :|
+|: A>B \
+| "A"c>A "E7"d>B "A(F#m)"c<A A>c | "Bm"d>F B>A "E7"G<E E2 \
+| "A"c>A "E7"d>B "A(F#m)"c<A c<e |1 "D"F<F "E7"G>E "A"A2 \
+:|2 "D"f<f "E7"g>e "A"a2 :|
+%%center Book02/JennysBawbee_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Old Country Bumpkin
+R:jig
+B:First published in the "Gobblers Opera" 1729
+B:In Aird's Collection 1782 as "Bab at the Bowster"
+B:RSCDS 2-2
+B:Gow I
+B:Paddledoo
+B:Pinewoods Alternates
+Z:2006 by John Chambers <jc:trillian.mit.edu>
+M:6/8
+L:1/8
+K:G
+|: "D7"c3 "G"TB3 | "D7"ABG FED | "G"GAG BAB | GAG BAB \
+|  "D7"c3 "G"TB3 | "D7"ABA fef | "G"g2d "C"edc | "G"TB3 GAB :|
+[| "C"c>de/f/ "G"gdB | "D7"ABG F2D | "G"G2c B/c/dB | G2c B/c/dB \
+|  "G"GAB gdB | "D7"A>BA fef | "G"g2d "C"edc | "G"TB3 G2B ||
+|| "D7"cAc "G"BGB | "D7"ABG FED | "G"GDG BAB | GDG BAB \
+|  "D7"cAc "G"BGB | "D7"ABA fef | "G"g2d "C"edc | "G"TB3 G3 |]
+%%center Book02/OldCountryBumpkin_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Old Country Bumpkin
+R: jig
+B: First published in the "Gobblers Opera" 1729
+N: In Aird's Collection 1782 as "Bab at the Bowster"
+B: RSCDS 2-2
+B: Gow I
+B: Paddledoo
+B: Pinewoods Alternates
+Z: 2006 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: "D7"c3 "G"TB3 | "D7"ABG FED | "G"GAG BAB | GAG BAB \
+|  "D7"c3 "G"TB3 | "D7"ABA fef | "G"g2d "C"edc | "G"TB3 GAB :|
+[| "C"c>de/f/ "G"gdB | "D7"ABG F2D | "G"G2c B/c/dB | G2c B/c/dB \
+|  "G"GAB gdB | "D7"A>BA fef | "G"g2d "C"edc | "G"TB3 G2B ||
+|| "D7"cAc "G"BGB | "D7"ABG FED | "G"GDG BAB | GDG BAB \
+|  "D7"cAc "G"BGB | "D7"ABA fef | "G"g2d "C"edc | "G"TB3 G3 |]
+%%center Book02/OldCountryBumpkin_G_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Perth Hunt
+C:Magdalina Stirling of Ardoch
+R:reel
+B:RSCDS 2-5
+N:Composed and published by Miss Magdalina Stirling of Ardoch about 1788.
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C|
+L:1/8
+K:D
+|: "D"{B}A2FA DAFA | DAFA "Em"BEE2 | "D"{B}A2FA DAFA | "A7"faeg "D"fdd2 :|
+|| "D"{g}fdad "G"bd"D"ad | fdad "Em"ge"A7"eg | "D"fdad "G"bd"D"ad | "A7"ABde "D"fdd2 ||
+|| "D"(3{g}fed ad "G"bd"D"ad | (3fed ad "Em"be"A7"eg | "D"fadf "Em"gbeg | "A7"ABde "D"fdd2 |]
+%%center Book02/PerthHunt-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Perth Hunt
+C: Magdalina Stirling of Ardoch
+R: reel
+B: RSCDS 2-5
+N: Composed and published by Miss Magdalina Stirling of Ardoch about 1788.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: "D"{B}A2FA DAFA | DAFA "Em"BEE2 | "D"{B}A2FA DAFA | "A7"faeg "D"fdd2 :|
+|| "D"{g}fdad "G"bd"D"ad | fdad "Em"ge"A7"eg | "D"fdad "G"bd"D"ad | "A7"ABde "D"fdd2 ||
+|| "D"(3{g}fed ad "G"bd"D"ad | (3fed ad "Em"be"A7"eg | "D"fadf "Em"gbeg | "A7"ABde "D"fdd2 |]
+%%center Book02/PerthHunt_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Princess Royal
+B:Gow's Repository
+R:reel
+B:RSCDS 2-7
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:2/4
+L:1/16
+K:Gm
+|: GA \
+| "Gm"B2AB G2dc | B2AB G2d2 | "Cm"e2ed c2fe | "Gm"decd B2{c}BA |
+| "Gm"B2gB "F"A2fA | "Eb"GABG "D"D2dc | "Gm"BABG "D7"D2^F2 | "Gm"G4 G2 :|
+d \
+| "Gm"g2g^f "D7"{a}gfga | "Bb"b2B2 B2ba | "Gm"bagf "Cm"edcB | "F"ABcA F2GA |
+| "Bb"B2AB "F"c2Bc | "Bb"d2d2 "Eb"g4 | "Bb"f2B2 "F7"e4 | "Bb"d2G2 "F"c4 |
+| "Gm"BcBA GABG | "D7"^FGAF D2dc | "Gm"BABG "D7"D2^F2 | "Gm"G4 G2 |]
+%%center Book02/PrincessRoyalR-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Princess Royal
+B:Gow's Repository
+R:reel
+B:RSCDS 2-7
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C|
+L:1/8
+K:Gm
+|: GA \
+| "Gm"B2AB G2dc | B2AB G2d2 | "Cm"e2ed c2fe | "Gm"decd B2{c}BA |
+| "Gm"B2gB "F"A2fA | "Eb"GABG "D"D2dc | "Gm"BABG "D7"D2^F2 | "Gm"G4 G2 :|
+d \
+| "Gm"g2g^f "D7"{a}gfga | "Bb"b2B2 B2ba | "Gm"bagf "Cm"edcB | "F"ABcA F2GA |
+| "Bb"B2AB "F"c2Bc | "Bb"d2d2 "Eb"g4 | "Bb"f2B2 "F7"e4 | "Bb"d2G2 "F"c4 |
+| "Gm"BcBA GABG | "D7"^FGAF D2dc | "Gm"BABG "D7"D2^F2 | "Gm"G4 G2 |]
+%%center Book02/PrincessRoyalR_Gm-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Princess Royal
+O: Gow's Repository
+R: reel
+B: RSCDS 2-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+|: GA \
+| "Gm"B2AB G2dc | B2AB G2d2 | "Cm"e2ed c2fe | "Gm"decd B2{c}BA |
+| "Gm"B2gB "F"A2fA | "Eb"GABG "D"D2dc | "Gm"BABG "D7"D2^F2 | "Gm"G4 G2 :|
+d \
+| "Gm"g2g^f "D7"{a}gfga | "Bb"b2B2 B2ba | "Gm"bagf "Cm"edcB | "F"ABcA F2GA |
+| "Bb"B2AB "F"c2Bc | "Bb"d2d2 "Eb"g4 | "Bb"f2B2 "F7"e4 | "Bb"d2G2 "F"c4 |
+| "Gm"BcBA GABG | "D7"^FGAF D2dc | "Gm"BABG "D7"D2^F2 | "Gm"G4 G2 |]
+%%center Book02/PrincessRoyalR_Gm_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Princess Royal
+O: Gow's Repository
+R: reel
+B: RSCDS 2-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Gm
+|: GA \
+| "Gm"B2AB G2dc | B2AB G2d2 | "Cm"e2ed c2fe | "Gm"decd B2{c}BA |
+| "Gm"B2gB "F"A2fA | "Eb"GABG "D"D2dc | "Gm"BABG "D7"D2^F2 | "Gm"G4 G2 :|
+d \
+| "Gm"g2g^f "D7"{a}gfga | "Bb"b2B2 B2ba | "Gm"bagf "Cm"edcB | "F"ABcA F2GA |
+| "Bb"B2AB "F"c2Bc | "Bb"d2d2 "Eb"g4 | "Bb"f2B2 "F7"e4 | "Bb"d2G2 "F"c4 |
+| "Gm"BcBA GABG | "D7"^FGAF D2dc | "Gm"BABG "D7"D2^F2 | "Gm"G4 G2 |]
+%%center Book02/PrincessRoyalR_JC.abc
+
+% Special medley for 80-bar Robertson Rant:
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+P: Struan Robertson's Rant
+O: Trad
+R: strathspey
+M: C
+L: 1/8
+K: EDor
+|: e \
+| "Em"E-<E G>A B>A B-<d | "D"D-<D F>E D/E/F/G/ A-<F \
+| "Em"E-<E G>A B>A B-<e | "D"d>B d>F "Em"E-<E E :|
+|: g \
+| "Em"e>f g>e b>e g>e | "D"f>e d>f a/g/f/e/ d-<f \
+| "Em"e>f g>e b>e g>e | "D"d>B A>F "Em"E-<E E :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+P: Highland Whisky (twice)
+C: Neil Gow
+N: BSFC III-21 and III-45 and IV-10
+N: OTDT p.76
+B: RSCDS 2-5(b)
+N: Scots Guards 297
+N: Skye p.26
+N: 2nd measure of B part has F#, G or G# in various versions.
+Z: 1997 by John Chambers -<jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+|: E \
+| "A"A-<A A2 A>B c-<e | "Bm"B-<B B>c "E7"d>e f-<a \
+| "A"A-<A A2 A>B c>d |   ef/g/ a>c "E7"B2 "A"A> :|
+|| e \
+| "A"(3cBA e>A "D"f>A "A"e>A | "G"=G-<B B>A "E7"^G-<B B>e \
+| "A"(3cBA e>A "D"f>A "A"e>A |   ef/g/ a>c "E7"B2 "A"A> ||
+|| e \
+| "A"d/c/B/A/ e>A "D"f>A "A"e>A | "G"=G-<B B>A "E7"^G-<B B>e \
+| "A"A-<c "E7"B>d "A"c-<e "D"d>f | "A"ef/g/ a>c "E7"B2 "A"A |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Struan Robertson's Rant
+O: Trad
+R: strathspey
+Z: 1997 by John Chambers -<jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: EDor
+|: e \
+| "Em"E-<E G>A B>A B-<d | "D"D-<D F>E D/E/F/G/ A-<F \
+| "Em"E-<E G>A B>A B-<e | "D"d>B d>F "Em"E-<E E :|
+|: g \
+| "Em"e>f g>e b>e g>e | "D"f>e d>f a/g/f/e/ d-<f \
+| "Em"e>f g>e b>e g>e | "D"d>B A>F "Em"E-<E E :|
+|: F \
+| "Em"G>B E>B G-<B E>G | "D"F>A D>A F-<A D>A \
+| "Em"G>B E>B G-<B E>g | "D"f>d a>f "Em" e2- e :|
+|: f \
+| "Em"g-<b e>b g>e b>g | "D"f-<a d>a f-<a d>a \
+| "Em"g-<b e>g "D"f-<a d>e | "Bm"d/c/B/A/ d>F "Em"E-<E E :|
+
+%%center Book02/RobertsonRant-JC.abc
+% Special medley for 80-bar Robertson Rant:
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+P: Struan Robertson's Rant
+O: Trad
+R: strathspey
+M: C
+L: 1/8
+K: EDor
+|: e \
+| "Em"E-<E G>A B>A B-<d | "D"D-<D F>E D/E/F/G/ A-<F \
+| "Em"E-<E G>A B>A B-<e | "D"d>B d>F "Em"E-<E E :|
+|: g \
+| "Em"e>f g>e b>e g>e | "D"f>e d>f a/g/f/e/ d-<f \
+| "Em"e>f g>e b>e g>e | "D"d>B A>F "Em"E-<E E :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+P: Highland Whisky (twice)
+C: Neil Gow
+N: BSFC III-21 and III-45 and IV-10
+N: OTDT p.76
+B: RSCDS 2-5(b)
+N: Scots Guards 297
+N: Skye p.26
+N: 2nd measure of B part has F#, G or G# in various versions.
+Z: 1997 by John Chambers -<jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+|: E \
+| "A"A-<A A2 A>B c-<e | "Bm"B-<B B>c "E7"d>e f-<a \
+| "A"A-<A A2 A>B c>d |   ef/g/ a>c "E7"B2 "A"A> :|
+|| e \
+| "A"(3cBA e>A "D"f>A "A"e>A | "G"=G-<B B>A "E7"^G-<B B>e \
+| "A"(3cBA e>A "D"f>A "A"e>A |   ef/g/ a>c "E7"B2 "A"A> ||
+|| e \
+| "A"d/c/B/A/ e>A "D"f>A "A"e>A | "G"=G-<B B>A "E7"^G-<B B>e \
+| "A"A-<c "E7"B>d "A"c-<e "D"d>f | "A"ef/g/ a>c "E7"B2 "A"A |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Struan Robertson's Rant
+O: Trad
+R: strathspey
+Z: 1997 by John Chambers -<jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: EDor
+|: e \
+| "Em"E-<E G>A B>A B-<d | "D"D-<D F>E D/E/F/G/ A-<F \
+| "Em"E-<E G>A B>A B-<e | "D"d>B d>F "Em"E-<E E :|
+|: g \
+| "Em"e>f g>e b>e g>e | "D"f>e d>f a/g/f/e/ d-<f \
+| "Em"e>f g>e b>e g>e | "D"d>B A>F "Em"E-<E E :|
+|: F \
+| "Em"G>B E>B G-<B E>G | "D"F>A D>A F-<A D>A \
+| "Em"G>B E>B G-<B E>g | "D"f>d a>f "Em" e2- e :|
+|: f \
+| "Em"g-<b e>b g>e b>g | "D"f-<a d>a f-<a d>a \
+| "Em"g-<b e>g "D"f-<a d>e | "Bm"d/c/B/A/ d>F "Em"E-<E E :|
+
+%%center Book02/RobertsonRant_JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Soldier's Joy    [D]
+T: The King's Head Reel
+R: reel
+O: Joshua Campbell 1778
+B: Joshua Campbell's Collection 1778
+B: RSCDS 2-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: The earlier name of this tune was "The King's Head Reel"
+M: C|
+L: 1/8
+K: D
+   FG | "D"AFDF AFDF | "D"A2d2 d2cB | "D"AFDF AFDF | "A7"G2E2 E2FG |
+y4    | "D"AFDF AFDF | "D"A2d2 d2de | "D"fafd "A7"egec | "D"d2f2 d2 :|
+|: de | "D"f2fd fagf | "A7"e2ec egfe | "D"f2fd fagf | "A7"edcB A2g2 |
+y4    | "D"f2fd fagf | "A7"e2ec egfe | "D"fafd "A7"egec | "D"d2f2 d2 :|
+%%center Book02/SoldiersJoyR-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Soldier's Joy
+O: Joshua Campbell's Collection 1778
+R: reel
+B: RSCDS 2-6
+N: Suitable Pipe Tunes "The East Neuk of Fife" "Portee men".
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+FG \
+| "D"[AD]FDF [AD]FDF | A2[d2A2] [d2A2]cB | [AD]FDF [AD]FDF | "A7"G2[E2C2] [E2C2]FG |
+| "D"[AD]FDF [AD]FDF | A2[d2A2] [d2A2]de | fafd "A7"egec | "D"[d2A2][d2A2] [d2A2] :|
+|: de \
+| "D"[f2A2][f2A2] [fA2]agf | "A7"edcd efge | "D"[f2A2][f2A2] [fA2]agf | "A7"edcB A2g2 |
+| "D"f2fe fagf | "A7"edcd efge | fafd "A7"egec | "D"d2D2 D2 :|
+%%center Book02/SoldiersJoyR_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: La Temp\^ete
+B:Aird's Collection 1788-1803
+R:march
+B:RSCDS 2-1
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+N:Suitable Pipe Tunes "Kilberry Polka"
+M:2/4
+L:1/8
+K:C
+|: "C"[cE]>G (5G/A/G/^F/G | e>c c2 | "G7"dG AB | "C"ce g2 \
+ | "C"[cE]>G ~G2 | e>c c2 | "G7"dG AB | "C"[cE]z [cE]z :|
+|: "C"g>e e>c | "G7"dB G2 | "C"g>e e>c | "G7"dB G2 \
+ | "C"[cE]>G ~G2 | e>c c2 | "G7"dB AB | "C"cz cz :|
+[| "C"c>e g>e | "F"a>f "C"g>e | "Dm"f>d "C"e>c | "G7"d/c/B/A/G2 \
+ | "C"c>e g>e | "F"a>f "C"g>e | "Dm"f>d "C"e>c | "G7"dB "C"c2 ||
+|| "C"g>e e>c | "G7"dB G2 | "C"g>e e>c | "G7"dB G2 \
+ | "C"c>e g>e | "F"a>f "C"g>e | "Dm"f>d "C"e>c | "G7"dB "C"c2 |]
+
+%%center Book02/TempeteM-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: La Temp\^ete
+O: Aird's Collection 1788-1803
+R: march
+B: RSCDS 2-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Suitable Pipe Tunes "Kilberry Polka"
+M: 2/4
+L: 1/8
+K: C
+|: "C"[cE]>G (5G/A/G/^F/G | e>c c2 | "G7"dG AB | "C"ce g2 \
+ | "C"[cE]>G ~G2 | e>c c2 | "G7"dG AB | "C"[cE]z [cE]z :|
+|: "C"g>e e>c | "G7"dB G2 | "C"g>e e>c | "G7"dB G2 \
+ | "C"[cE]>G ~G2 | e>c c2 | "G7"dB AB | "C"cz cz :|
+|| "C"c>e g>e | "F"a>f "C"g>e | "Dm"f>d "C"e>c | "G7"d/c/B/A/G2 \
+ | "C"c>e g>e | "F"a>f "C"g>e | "Dm"f>d "C"e>c | "G7"dB "C"c2 |
+ | "C"g>e e>c | "G7"dB G2 | "C"g>e e>c | "G7"dB G2 \
+ | "C"c>e g>e | "F"a>f "C"g>e | "Dm"f>d "C"e>c | "G7"dB "C"c2 |]
+
+%%center Book02/TempeteM_JC.abc

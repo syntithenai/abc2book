@@ -1,0 +1,32 @@
+X: 092
+T: Mr MACINTYRE OF GLENOE
+C: D. MACINTYRE
+R: Strathspey
+B: Glen Collection p.9 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: D
+%
+V: 1
+E |\
+D<dd>B {B}A>FD>F | G>EF>D E>DB,E |\
+[1 D<dd>B {B}A>FD>F | B,<EC>A, D2D :|\
+[2 D<A,F<D A<Fd<f | B<ec>A d2d ||
+|: f/g/ |\
+a>fb>g a>fd>f | e/f/g/e/ a>f e<fg>b |\
+[1 a<fb<g a<fg<e | f<da>f d2d :|\
+[2 a<fg<e f<de<c | {c}d>BA>F D2D |]
+%
+V: 2
+z |\
+d2[d'2a2f2] [d'2a2f2][a2f2] | [c'2a2e2][a2f2d2] [a2g2][a2g2] |\
+[1 [a2f2][a2f2] [a2f2d2][a2f2d2] | [g2e2A2][g2e2A2] [f2d2][fd] :|\
+[2 [a2f2][a2f2] [a2f2d2][a2f2d2] | [g2e2A2][g2e2A2] [f2d2][fd] ||
+|: z |\
+[d'2a2d2][c'2a2e2] [d'2a2d2][d'2a2d2] | [c'2a2e2][d'2a2f2] [c'2a2g2][c'2a2g2] |\
+[1 [d'2a2f2][c'2a2e2] [d'2a2f2][b2g2] | [d'2a2][c'2a2] [d'2a2d2][d'ad] :|\
+[2 [d'2a2f2][c'2a2e2] [d'2a2f2][a2g2] | [a2f2][a2f2d2] [a2f2d2][afd] |]

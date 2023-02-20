@@ -1,0 +1,1793 @@
+
+X: 1
+T: O'CONNELL'S WELCOME -- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20010704235422 by John Chambers jmchambers:rcn.net
+K: G
+ vgfg edc | Bc^c dBG | BAB dcB | BAA A2z \
+| gfg edc | Bc^c dBG | BAB dcA | AGG G2z :|
+|: vgfg afd | gfg a3 | gfg eag | fdd d2z \
+| bag agf | gfe d3 | cde dcB | cBA G2z :|
+
+
+X: 1
+T: OAKLAND GARDEN -- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: C|
+L: 1/8
+Z: Contributed 20011219231555 by John Chambers jmchambers:rcn.com
+K: C
+(3(vG,A,B, \
+| C2) D2 EG zG | ABcd "4"ec zG \
+| ABcA GE zG | FEDC "4"{D}CB,A,G, \
+| C2 D2 EG zG | ABcd "4"ec ze |
+| fgaf e"4"c'"3"af | ecdB c2 \
+:: uE2 \
+| vA4- AuBcd | "4"veA zvB cd"4"ez |\
+| vfA zv^c defz | "4"veA zvB cd"4"ez |
+| vdBz2 "^ff"{B,C}D.B, "^p"zud | vcAz2 "^FF"{A,B,}vC.A, "^p"zuc \
+| B^Gz2 "^ff"{^G,A,}B,.G, zuB | Aaec A2 \
+:: uG2 \
+| vc4- cdef | ~g2 ec GE zg |
+| ~a2 fc AF za | ~g2 ec GE zg \
+| ~f2 GB dfag | ~e2 CE Gc fe \
+| ~d2 DG B"4"edB | (cEG"4"e) c2 :|
+
+
+X: 1
+T: Obelisk -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:G
+v"4"DC|B,DGA BGDB,|CEAB cAFD|\
+B,DGA BGcB|((3ABA) ((3GFE) ((3DED) ((3CB,A,)|
+B,DGA BGDB,|CEAB cAFD|B,DGB ADEF|G2B2G2:|
+|:vga|bgeg dgBg|dgBg dgBg|bgeg dgBg|fgab a2(ga)|
+bgeg dgBg|cBAB cdef|gdBG EcAF|G2B2G2:|
+
+
+X: 1
+T: OCCIDENTAL -- HORNPIPE
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: hornpipe
+M: 2/4
+L: 1/16
+Z: Contributed 20010912191821 by John Chambers jmchambers:rcn.net
+K: G
+uD2 \
+| GFGA GDB,D | GgdB GABG | cAed cBAG | FdcF DFAF |
+| GFGA GDB,D | GgdB GABG | cAec BAGF | G2G2G2 :|
+|: ud2 \
+| .g2.g2 fd^cd | a2(ag) fd^cd | c'afd cABG | FdAF .D2(3DEF |
+| .G2.G2 ECB,C | .A2(AG) FD^CD | gdcB AdFA | G2G2G2 :|
+
+
+X: 1
+T: OE'R THE MOOR, AMONG THE HEATHER -- STRATHSPEY
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: strathspey
+M: C
+L: 1/16
+Z: Contributed 20080604 by John Chambers jc:jc.tzo.net
+K: G
+(vDG3) (uG3.A) vG3uAG2D2 | (vEA3)(uA3.B) vc3uBA2G2 |\
+(Bd3)(d3.e) g3ab2a2 | (vg3.e) (ude).g.B vA3uBA2G2 |
+(DG3) (G3.A) G3AG2D2 | (EA3)(A3.B) c3BA2G2 |\
+(Bd3)(d3.e) g3ab2a2 | (g3.e) (de)gB A3uBA2G2 |]
+(vdg3) (ug3.a) (gaba) u.g2v.d2 | (uea3) (va3.b) (u"4"c'3"2".a)g2e2 |\
+(vb3.a)g2e2 d2"4"c'2(b3.a) | (vg3.e) (degB) vA3uBA2G2 |
+(vdg3) (ug3.a) (gaba) u.g2v.d2 | (uea3) (a3.b) (u"4"c'3"2".a)g2e2 |\
+(vb3.a)g2e2 d2"4"c'2(b3.a) | (g3.e) (degB) vA3uBA2G2 |]
+
+
+X: 1
+T: OF AW THE AIRTS THE WINDS CAN BLOW -- STRATHSPEY
+C:
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: strathspey
+M: C
+L: 1/16
+Z: Contributed 20080825 by John Chambers jc:jc.tzo.net
+N: "4" fingering on {A}F4 grace notes omitted because several ABC programs complain.
+K: A
+uE2 |\
+vAuA3 vA3uA (vA3.E) (uA3.f) | (ve3.c)(B3."0"A) {A}F4 (F3.E) |\
+vAuA3 vA3uA (vA3.E) (uA3.f) | (ve2fg) (ua3.c) e4 (e2f2) |
+(e3.f)(a3.c) ("4"e3.c)(B3.A) | (B3.e)(d3"0".A) {A}F4 (F3E) |\
+vAuA3 vA3uA (A3.E) (A3.f) | ("4"ec3)(B3.c) A4-A2 |]
+uE2 |\
+(C3.E)("4"A3.E) (F3.E)("4"A3.E) | (c3.e) (dcBA) F4 (F"4"A3) |\
+(C3.E)("4"A3.E) "SEGUE"F3.E"4"A3.E | c3d (efga){f}e4- e2(fg) |
+a3gf3e f3ed3c | B3"4"e (dcBA) {A}F4 F3E |\
+vAuA3 A3A A3E A3f | ("4"ec3)(B3.c) A4-A2 |]
+
+
+X: 1
+T: Off She Goes -- Jig
+R:slide
+B:Ryan's Mammoth Collection
+N: 86 445
+Z: Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:12/8
+L:1/8
+K:D
+vF2A G2B ABc d3  | F2A G2B AFD E3  |
+F2A G2B ABc d3  | f2d g2f edc d3:|
+|:f>af d2f g>bg e2g | f>af d2f ecA A3  |
+  f>af d2f g>bg e2g | f2d g2f e>dc d3 :|
+
+
+X: 1
+T: Off to Donnybrook -- Jig
+R:jig
+B:Ryan's Mammoth Collection
+Z:Contributed by Ray Davies, ray:davies99.freeserve.co.uk
+M:6/8
+L:1/8
+K:G
+uE|"segno"DGG BGG|AGG GBd|efg dBG|AGG BGE|\
+DGG BGG|AGG GBd|efg dBG|AGA G2H::
+uf|gfg efg|edB def|gfg eag|fdd d2f|\
+gfg efg|edB def|1gfe dBA|\
+BGG G2:|2gba gfe|dBA BGE"segno""_DS"|]
+
+
+X: 1
+T: Oh, Gang With Me To Yon Town -- Reel
+R:reel
+B:Ryan's Mammoth Collection
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:2/4
+L:1/16
+K:A
+u((3efg)"^Segno"|(ag).a.e cAAB|((3cBA).e.c dBBg|(ag).a.e cAAc|dfed cefg|
+(ag).a.e cAAB|((3cBA).e.c dBBg|(ag).b.g afec|dfed cAAd|]
+((3cBA).e.A fAeA|((3cBA).e.A dBBd|((3cBA).e.A fAeA|dfed cAAd|
+((3cBA).e.A fAeA|((3cBA).e.c dBBd|cABc defg|(ag).b.g a2H|]
+((3efg)|(ag).a.e cAAB|((3cBA).e.c dBBg|(ag).a.e cAAc|dfed cefg|
+(ag).a.e cAAB|((3cBA).e.c dBBg|(ag).b.g afec|dfed cAAd"^Segno"|]
+
+
+X: 1
+T: OLD BACHELORS' -- REEL
+B:Ryan's Mammoth Collection of Fiddle Tunes
+R:reel
+Z:Contributed 20000418172814 by John Chambers jchambers:casc.com
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:2/4
+L:1/16
+K:D
+uA, |\
+.D2(FA) .d2(AF) | .d2(fd) ecAc | .d2(Ad) BAGF | EFGE (FD)DA |
+.D2(FA) .d2(AF) | .d2(fd) ecAc | .d2(Ad) BAGF | EFGE (FD).D :|
+A |\
+.d2(dg) ((3f/g/a/).f.d | .g2(bg) .e2(cA) |\
+.d2(dg) ((3f/g/a/).f.d | ecAc .d2(FA) |
+.d2(dg) ((3f/g/a/).f.d | .g2(bg) .e2(fg) |\
+ afge fdec | dBAF D2 :|
+
+
+X: 1
+T: THE OLD DUTCH CHURN -- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 9/8
+L: 1/8
+Z: Contributed 20000913183230 by John Chambers John.Chambers:weema.com
+K: Gm
+(vB2.d) (G2.d) dcB | (uA2.c) (F2.c) cBA | (B2.d) (G2.d) "SEGUE"dcB | dfd cBA G3 \
+| B2d G2d dcB | A2c F2c cBA | B2d G2d dcB | dfd cBA G3 |]
+(vb2.g) (b2.g) gfd | (ua2.f) "SEGUE"fgf agf | b2g b2g gfd | fdB Bdf  g3 \
+| b2g b2g gfd | a2f fgf agf | b2g a2^f g=fd | dfd cBA G3 |]
+
+
+X: 1
+T: OLD FIGARY O' -- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20000421031627 by John Chambers jcsd:world.std.com
+K: D
+uA \
+| d2d d2A | B2A ABc | d2d ede | f2d def |
+| g2g f2f | efd cBA | BAG FGA | B2c d2 :|
+|: uf \
+| a2a fdf | g2e efg | a2a fdf | ecA A2(f/g/) |
+| a2a g2g | fgd cBA | BAG FGA | B2c d2 :|
+
+
+X: 1
+T: Old Granite State -- Reel
+R:reel
+C:O. DENSMORE.
+B:Ryan's Mammoth Collection
+N: 377
+Z: Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:2/4
+L:1/16
+K:A
+uE2|\
+"1"A2vAf ecBc | "1"A2af ecBc | FGAB .c2(fg) | afge (cf).f2 |
+agaf ed"4"ec | BAcA (FA).E2 | FGAB .c2"1"f2 | ecBc A2:|
+|:uc2|\
+vf2vfug (aga).f | (e^de).f ecBA | (e^de).f ecBA | {c}BAcB AFFE |
+{B}AEAB cAce | feaf e2z2 | u{efg}a2vFG .A2"1"c2 | BAGB A2:|
+
+
+X: 1
+T: Old Ironsides (Lancashire) -- Clog
+R:clog
+B:Ryan's Mammoth Collection
+N: 157 933
+Z: Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:C|
+L:1/8
+K:G
+vG2u(B>.c) v(d>.B)ug2 | "4""^SEGUE"e>de>f g>dB>G |\
+ D2F>A c>A f>e | d>^cd>"4"e d>=cB>A |
+G2B>c d>B g2 | "4"e>de>f g>dB>G |\
+ D2F>A c>B f>e |1 ((3d"4"ed) ((3cBA) G2z2 :|2 ((3ded) ((3cBA) G2|]
+ud2|\
+v((3d^cd) "4"e>d c>AF>"4"A | G>FG>A G>Bc>^c |\
+ ((3d^cd) g>f "4"((3ede) c>B | A>DF>A d2 d2 |
+((3d^cd) e>d c>AF>A | G>FG>A G>AB>d |\
+ ((3d^cd) g>e c>AF>A |1 G2 ((3BAB) G2:|2 G2 ((3BAB) G2z2 |]
+
+
+X: 15
+T: OLD JOE SIFE'S -- REEL.
+R:reel
+B:Coles pg. 30.7
+Z:John B. Walsh, 5/8/2002 <walsh:mat:h.ubc.ca>
+M:2/4
+L:1/16
+K:A
+uF2|.E2(Ac) BAaf|ecBd cAFA|.E2(Ac) BAaf|ecBc .A2.F2|
+.E2(Ac) BAaf|ecBd cAFA|.E2(Ac) BAaf|ecBc A2:|
+|:e2|agaf eace|dBcA BAFA|agaf "0"e"1"ac'a|{c'}babc' .a2(ab)|
+c'afa "0"e"3"ace|dBcA BAFA|E2(Ac) BAaf|ecBc A2:|
+
+
+X: 1
+T: Old Maids of Galway -- Reel
+R:reel
+B:Ryan's Mammoth Collection
+Z: Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:C|
+L:1/8
+K:Edor
+ve~B3  e2dB|A2GA dBgf|e~B3  e2dB|A2GA BGG2|
+e~B3  e2dB|A2GA dBgf|e~B3  e2dB|A2GA BGG2H::
+g2fg efde|g2bg gaaf|g2fg efdB|A2GA BGG2|
+g2fg efde|g2bg faaf|gefd ecdB|A2GA BGG2:|
+
+
+X: 1
+T: Old Mother Goose -- SlipJig
+M:9/8
+L:1/8
+R:slip jig
+B:Ryan's Mammoth Collection
+N:86 440
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+K:G
+v(g2d) d2c (Bc)d | e2A ABG FED | (g2d) d2c (Bc)d | efg fef g3  |
+ (g2d) d2c (Bc)d | e2A ABG FED | (g2d) d2c (Bc)d | efg fef g3  |]
+B2c dec dcB | B2d efd edc | B2c dec dcB | c2B AGF G3  |
+B2c ded dcB | B2d efd edc | B2c dec dcB | c2B AGF G3  |]
+
+
+X: 1
+T: OLD NATIONAL THEATRE -- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 2/4
+L: 1/16
+Z: Contributed 20020511153826 by John Chambers jmchambers:rcn.com
+K: G
+vB2GD EGD2 | zuBGB dged | zvBGD EGD2 | {a}vgfge dged |
+|zuBGD EGD2 | zuBGB dged | zvBGD EGD2 | {a}gfge dged :|
+|: vg2dg egdg | egdg eaa2 | {a}gfge dged | zuged ((3Bcd) ((3def) |
+| g2dg egdg | egdg eaa2 | ((3gab) ((3efg) dged | zugdB ABG2 :|
+
+
+X: 1
+T: OLD SPORT -- REEL
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: reel
+M: 2/4
+L: 1/16
+Z: Contributed 20010907022211 by John Chambers jmchambers:rcn.net
+K: A
+(ucB) \
+| .A2(EA) FAEA | cedc BdcB | .A2(EA) FAEA | cdBc AdcB |
+| .A2(EA) FAEA | cedc B3g  |  agfe   fedc | BAGB A2 :|
+|: (cd) \
+| efeg aecA | GABc .d2(ed) | ceae fbba | gafg .e2(eg) |
+| {g}agae .f2(fd) | .e2(ec) .d2(cd) | efed cedB | A2{g}a2A2 :|
+
+
+X: 1
+T: Old Tanglefoot -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:C|
+L:1/8
+K:A
+((3uEFG)|A>GA>B A>c"4"e>c|B>"1"^AB>c B>Fd>c|\
+B>cd>e f>ga>f|{f}e>^de>f e>dc>B|
+{B}A>GA>B A>c"4"e>c|{c}B>"1"^AB>c B>Fd>c|\
+e>ag>f e>dc>B|A2c2A2:|
+|:((3ucBA)|B>"4"e^d>"4"e B>gf>g|e>Be>g b2 (ag)|\
+f>ga>f ^d>Bc>d|(3"0".e.g.f (3.e.^d.c B2(G"4"A)|
+B>"4"e^d>"4"e B>gf>g|e>Be>g b2a>g|\
+f>ga>f ^d>Bc>d|1 e2g2e2:|2 {f}"0"e>^d"0"e>f e>=dc>B|]
+
+
+X: 1
+T: OLD TEMPLE HOUSE -- REEL
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: reel
+M: C|
+L: 1/8
+Z: Contributed 20010523135002 by John Chambers jc:trillian.mit.edu
+K: Em
+ vE2GE BEGE | D2FD ADFD | E2GA BAGA | BdBA BEE2 \
+| E2GE BEGE | D2FD ADFD | E2GA BAGA | BdBA BEE2 :|
+|: g2dg g2eg | fddf fddf | gfeg fgaf | edde fee2 \
+|  gfef gfeg | fddf fddf | efge afgd | dBAc BEE2 :|
+
+
+X: 1
+T: Old Walls of Liscarroll -- Jig
+R:jig
+B:Ryan's Mammoth Collection
+N: 83 424
+Z: Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:6/8
+L:1/8
+K:Amix
+uA/B/|\
+=cBc dcd | e=cB AGE | {d}=cBd cBA | GE=F GAB |
+{d}=cBc dcd | e=cB Ace | e=cA AGE | EAA A2:|
+|:ue|\
+{b}aga Ace | agf edc | {e}dcd EGB | Acf efg |
+{b}aga Bdf | agf edc | {e}dcd EGB | Ace a2H "_D.C.":|
+
+
+X: 1
+T: OLD ZIP COON -- REEL
+B:Ryan's Mammoth Collection of Fiddle Tunes
+R:reel
+Z:Contributed 20000515180839 by John Chambers jchambers:casc.com
+N:OLD ZIP COON. -- First couple down the outside  and  back  up  the  centre,
+N:[second  couple  down  the  centre  and back up the outside at: same time.]
+N:First couple down the centre and back up the outside, [second  couple  down
+N:the outside and back up the centre at: same time.] First and second couples
+N:down the centre together, back.  -- First couple cast off, right  and  left
+N:four.
+M:2/4
+L:1/16
+K:A
+(ucB) |\
+AGAB .A2(CD) | EFEC .E2(AB) | c2c2 cBAB | c2B2B2 (cB) |
+AGAB .A2(CD) | EFEC .E2(AB) | cBcd ecAB | c2A2A2 :|
+|: (AB) |\
+cdef .e2(ed) | cdef .e2(ec) | defg .f2(fe) | defg .f2(fg) |
+agaf fece | cdcA .B2(AB) | .c2(cA) BAFA | E2A2A2 :|
+
+
+X: 1
+T: OLD ZIP COON -- REEL
+B:Ryan's Mammoth Collection of Fiddle Tunes
+R:reel
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+N:OLD ZIP COON. -- First couple down the outside  and  back  up  the  centre,
+N:[second  couple  down  the  centre  and back up the outside at: same time.]
+N:First couple down the centre and back up the outside, [second  couple  down
+N:the outside and back up the centre at: same time.] First and second couples
+N:down the centre together, back. -- First couple cast off,  right  and  left
+N:four.
+M:2/4
+L:1/16
+K:G
+u(BA)|\
+GFGA .G2(B,C) | DEDB, .D2(GA) | B2B2 BAGA | B2A2A2 (BA) |
+GFGA .G2(B,C) | DEDB, .D2(Bc) | BABc dBGA | B2G2G2::
+(GA)|\
+Bcde .d2(dc) | Bcde .d2(dB) | cdef .e2(ed) | cdef .e2(ef) |
+gfge edBd | BcBG .A2(GA) | .B2(BG) AGEG | D2G2G2:|
+
+
+X: 1
+T: Olive-Branch -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:C|
+L:1/8
+K:A
+vA2 (uc>.A) ve>A(uf>.A)|"Segue"e>Af>A e>cB>c|\
+A2c>A e>Af>A|e>cB>c A>FG>E|
+A2c>A e>Af>A|e>Af>A e>cB>c|\
+A>BA>F E>cd>f|e>cB>c A2z2:|
+|:vA2 c>e a2a>f|e>fe>d c>dB>c|\
+A2c>e a2a>g|f>bb>a g>be>g|
+a>ga>e f>ae>c|d>Bc>A B>AF>G|\
+A>BA>F E>cd>f|e>cB>c A2z2:|
+
+
+X: 1
+T: Olympic -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:C|
+L:1/8
+K:Bb
+(uFE)|D>BF>d B>fd>b|a>gf>g e>cA>c|\
+((3BdB) F>B G>ec>A|B>Ac>A F2(DE)|
+D>BF>d B>fd>b|a>gf>g e>cA>c|\
+e>fg>a b>fg>e|d>f ((3ABc)B2:|
+|:(ucB)|A>Fc>F B>Fd>F|c>Fe>c ((3BdB) ((3FGA)|\
+B>AG>F E>DC>B,|A,>CF>=E F2 (f_e)|
+d>cB>A E2 (gf)|e>f ((3ABc) F2b2|\
+(3.a.g.f (3.e.d.c (3.B.A.G (3.E.E.C|B,2b2B,2:|
+
+
+X: 1
+T: "On the Road" -- Clog
+R:clog
+B:Ryan's Mammoth Collection
+N: 154 916
+Z: Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:C|
+L:1/8
+K:D
+uA2 !segno!|\
+v(d>.f)(e>.d) "^SEGUE"c>"4"eA>c |\
+ "1"d>"3"f"1"a>"3"c' "4"d'>"1"a"3"f>"1"d |\
+ "3"d>Bb>a g>fe>d | "4"e>dc>B A>^AB>c |
+d>fe>d c>"4"eAc |\
+ "1"d>"3"f"1"a>"3"c' "4"d'>"1"a"3"f>"1"d |\
+ "3"d>Bb>a g>fe>c | d2 f2 d2 H|]
+K:A
+u(c>d) |\
+e>ag>b "1"a>"3"c'"2"g>"4"d' | "^SEGUE"c'>ab>d' c'>ab>c' |\
+ d'>c'b>d' c'>ba>c' | "2"b>"2"ga>f e2d>c |
+ "1"d>"3"f"2"b>"4"d' "0"e>"1"a"3"c'2 | "0"e>"2"gb>g a>ec>"0"e |\
+ "3"f>"4"d'"3"c'>"2"b "0"e>"2"gb>g | a>^ga>b a>f=g>e !segno!"D.S."|]
+
+
+X: 1
+T: Once Upon My Cheek -- Reel
+M:2/4
+L:1/16
+R:reel
+B:Ryan's Mammoth Collection
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+K:A
+u((3EFG)|A2A2 AcBd|c2c2 cedf|eagf edcB|Acea gfdB|
+A2A2 AcBd|c2c2 cedf|eagf edcB|A2A2A2::
+ed|ceae ceae|dfaf dfaf|egbg egbg|eac'a eac'a|
+ceae ceae|dfaf dfaf|egbg egbg|a2a2a2:|
+
+
+X: 1
+T: ONE BOTTLE MORE -- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20010525152946 by John Chambers jc:trillian.mit.edu
+K: Ador
+uG \
+| EGG ABc | edc BcA | BGG dGG | BGd BAG \
+| EGG ABc | def a2e | edc Bcd | ecA A2 :|
+|: ua \
+| gef g2a | gef g3  | BGG dGG | Bcd BAG \
+| EAA ABc | def a2e | edc Bcd | ecA A2 :|
+
+
+X: 3
+T: OPERA -- REEL.
+R:reel
+Z:20020507 John Walsh <walsh:mat:h.ubc.ca>
+Z:OPERA REEL. (Form in sets of six couples.) -- First couple balance,
+Z:down the centre to the foot of the set. Second couple balance, down the
+Z:centre to foot of set.  Right and left 4 at: the foot, both couples
+Z:up the centre.  First couple down the outside and remain at: the foot
+M:2/4
+L:1/16
+K:D
+u((3A,B,C)|"4".D2.D2 FEFA|DCDF EDCA,|"4".D2.D2 FEFA|BdAF EDCE|
+"4".D2.D2 FEFA|DCDF EDCA,|"4".D2.D2 FEFA|BdAF ((3.E.E.E)E2||
+|:((3ABc)|dcec dAFA|Adcd egfe|dcec dAFA|BdAF E2:|
+|:fg|afaf gfge|fafe dcBA|afaf gfge|faec d2:|
+((3ABc)|defd efge|faec dcBA|defd efge|faec d2 ((3ABc)|
+defd efge|faec dcBA|defd efge|faec d2||
+
+
+X: 1
+T: Oriental -- Hornpipe
+Z:Bob Puckette <bpuckette:msn.com> 2003-3-10
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:A
+((3uEFG)|"4"AGAE CEAc|e^dec Ac"0"ea|fae adaca|BABc dBGE|
+AGAE CEAc|e^dec Acea|((3fga)(ued) cBAG|A2A2A2:|
+|:vEG|BABG EGBc|dcdB GBed|cBcA EAcd|e^def .e2(fg)|
+agae fdBG|ABcd eaec|dfed cBAG|A2A2A2:|
+
+
+X: 1
+T: Ostinelli's -- Reel
+M:2/4
+L:1/16
+R:reel
+B:Ryan's Mammoth Collection
+N:311
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+K:A
+"_mf"vcd|\
+.e.A.f.A .e.A."1"a.A | "3".c'.A."1"a.A "0".e.A.f.A | \
+eagf edcd | edcd Bcd^d |
+.e.A.f.A .e.A."1"a.A | "3".c'.A."1"a.A "0".e.A.f.A |\
+eagf edcB | Aaec A2 :|
+|:"_f"vED|\
+C"4"AEc A"4"eca | "0"e"0"e'"3"c'"1"a "0"e"3"c'"1"a"0"e |\
+ caec A"4"ecA | dcBA GFED |
+C"4"AEc A"4"eca | "0"e"0"e'"3"c'"1"a "0"e"3"c'"1"a"0"e |\
+ caec Bdgf | (3efe (3dcB A2:|
+
+
+X: 1
+T: OUR BOYS' -- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20000422013652 by John Chambers jc:ecf-guest.mit.edu
+K: G
+uD \
+| GAA {c}BAB | GBd def | g(fg) (ed)B | {c}BAA A2uD |
+| GAB {c}BAB | (GB)d def | gfe dAc | {c}BGG G2 :|
+|: uB \
+| def gfg | age edB | g(fg) (ed)G | (BA)A A2B |
+| (GB)B {c}BAB | (GB)d def | .g(fg) (ed)B | {B}AGG G2 :|
+
+
+X: 1
+T: OUR BOYS -- REEL
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: REEL
+M: 2/4
+L: 1/16
+Z: Contributed 20000427021324 by Ivan Bradley bradleyi:peoplepc.com
+K: A
+(3(uefg) |\
+a2ed cAdB | cAdc B2(3(efg) | a2ed cAdB | cABG A2 :|
+|: ug |\
+ae (3(fga) gedB | ge (3(fga) b3b | ge (3(fga) gedc | cABG A2 :|
+
+
+X: 1
+T: OVER LAND AND SEA -- JIG
+C: J.Hand
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20010701011511 by John Chambers jmchambers:rcn.net
+K: Dmix
+ud \
+| EDE  FDE | FDd BAF | B>EE E>FA | BEE  E2F \
+| E>DE FDF | ABc dAF | A>DD D>ED | A>DD D2 :|
+|: uA \
+| def edB | AFA d2c | Bee BAF | Bee e2A \
+| def edB | dAG FGE | DFA deg | fdd d2 :|
+
+
+X: 1
+T: OWNY'S BEST -- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20010525153317 by John Chambers jc:trillian.mit.edu
+K: E
+(ue/f/) \
+| gec BAF | Eee efg | fcc cag | fcc cgf \
+| gec BAF | Eee efg | fef efg | fee e2 :|
+|: (g/a/) \
+| bge BGE | bge bag | aff fge | dBB Bcd \
+| ege BGE | cfa aba | gfe ecB | Bcd e2 :|
+
+
+X: 18
+T: OYSTER GIRL'S -- JIG., THE
+R:jig
+B:Coles pg. 65.2
+Z:John B. Walsh, <walsh:mat:h.ubc.ca> 5/19/02
+M:6/8
+L:1/8
+K:G
+ud|d>ed B2G|A2F D2F|G2B dcB|(B3A2) c|
+d>ed B2G|g2e c2e|edB dcA|G3-G2 H :|
+B|kB2B B2B|B2e B2_B|A2A AB^c|d3 d2 d|
+d>ed B2G|g2e cde|edB dcA|G3-G2d|
+d>ed B2G|A2F D2F|GAB dcB|(B3 A2)d|
+d>ed B2G|g2e c2e|d2B dcA|G3-"D.C."G2|]
+
+
+X: 1
+T: Oyster River -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:G
+uD2|G2B2 BAGA|B2e2 efge|d2B2 A2GA|BcBA GFED|
+G2B2 BAGA|B2e2 efge|d2B2 A2GA|B2G2G2:|
+|:vef|vg3ua gfed|g2g2 a2ga|b2b2 a2ga|b2vbua gfed|
+efga gfed|g2g2 a2ga|b2b2 a2ga|b2g2g2z2:|
+
+
+X: 1
+T: Pacific Slope -- Reel
+M:2/4
+L:1/16
+R:reel
+B:Ryan's Mammoth Collection
+N:298
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+K:A
+u((3EFG)|\
+.A2{B}(AG) (Ac)((3efg) | .a2{b}(ag) aecA | fdBA GABc | dBcA GEFG |
+.A2{B}(AG) (Ac)((3efg) | .a2{b}(ag) aecA | fdBA GABd | cABG A2 :|
+|:ucd|\
+.e2{g}a2 ecAc | .d2{a}b2 BcdB | gbeg begb | \
+"1"a"3"c'"0"e"1"a "3"c'"0"e"1"a"3"c' |
+"0"e'2"3"c'2 "1"a2"0"e2 | fdBf ecAc | .B2(gf) edBG | Aaec A2 :|
+
+
+X: 13
+T: PADDY CAREY'S FORTUNE -- JIG.
+R:jig
+B:Coles pg. 75.5
+Z:John B. Walsh, <walsh:mat:h.ubc.ca> 5/17/02
+M:6/8
+L:1/8
+K:C
+(vG2.c) {d}cBc|("4"e2.c) cBc|(A2.d) (d2.e)|(f2.d) (B2.G)|
+"SEGUE"G2c {d}cBc |"4"e2c cBc|BAG GAB|cd"4"e (d2c):|
+|:(vc2.e) (f2.a)| "SEGUE"g2a gec|c2e f2a|gec d3|
+c2e f2a|g2a gec|cBA GAB|cd"4"e (d2c):|
+
+
+X: 1
+T: PADDY HANDLY'S GOOSE -- REEL
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: REEL
+M: C|
+L: 1/8
+Z: Contributed 20000427021736 by Ivan Bradley bradleyi:peoplepc.com
+K: G
+vGEDE GABd | e2 de gedB | e2 de gedB | A2 AG AcBA |
+GEDE GABd  | e2 de gedB | egdf  BdAB | G2 G2 G2 z2 :|
+(3(BcB)AB (3(BcB)GB | (3(cec)Ac (3(cec)Ac | (3(BcB)GB (3(BcB)GB| AGEGA2Ac |
+(3(BcB)AB (3(BcB)AB | (3(cec)Ac (3(cec)Ac | Bdef gage | dBAB G2G2 :|
+
+
+X: 1
+T: Paddy McFadden's -- Reel
+M:2/4
+L:1/16
+R:reel
+B:Ryan's Mammoth Collection
+N:179
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+K:G
+uge"^Segno"|\
+dBAB GFEF | .G2BG (dG).B.e | dBAB GFED | B"4"ee(^d e).f.g."0"e |
+dBAB GFEF | .G2(BG) (dG).B.e | dBAB GFED | EGFA G2  ::
+vdega bgab | gdBd gdBg | dega bgab | gafg efge |
+ dega bagf | gfef g3a | bagf gfed | ((3efg) (dg) efge "^Segno":|
+
+
+X: 7
+T: PADDY MILES' FRICASSEE -- REEL.
+R:reel
+M:C|
+L:1/8
+Z:20020507 John Walsh <walsh:mat:h.ubc.ca>
+K:G
+vgf|:eA ((3.A.A.A) edBc|dBGB gBaB|eA ((3.A.A.A) edBc|dBgB BAAf:|
+|:eaaf g2 bg|egdg egdg|eaaf g2 bg|egdB BAAf:|
+
+
+X: 13
+T: PAT CARNEY'S -- REEL.
+T: Paddy Murphy's Wife
+R:reel
+Z:John B. Walsh, 5/8/2002 <walsh:mat::h.ubc.ca>
+Z:The low C's are nat::ural too
+M:2/4
+L:1/16
+K:D
+uG2|((3FED)(AF) BGAF|EG=cG ECCE|((3FED)(AF) BGAF|Dddc dDDG|
+((3FED)(AF) BGAF|EG=cG ECCE|((3FED)(AF) BGAF|Dddc (dD).D2:|
+|:(fa)da fdad|eg=cg ecgc|fada fdad|((3Bcd)(AG) FDDg|
+(fa)da fdad|eg=cg ecgc|afge fdec|dABG (FD).D2:|
+
+
+X: 1
+T: PADDY, NOW WONT YOU BE EASY? -- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 9/8
+L: 1/8
+Z: Contributed 20010704234431 by John Chambers jmchambers:rcn.net
+K: D
+  vDDD dcd BAF | DDD dcd B2A | DDD dcd BAF | BEE EFA B2A :|
+|: ddd ded cBA | ded def g2e | ddd ded cBA | BEE EFA B2A :|
+|}vdDD dcd BAF | dDD dcd B2A | dDD dcd BAF | BEE EFA B2A |
+|  dDD dcd BAF | dDD dcd B2A | dDD dcd BAF | BEE EFA B2A |]
+
+
+X: 1
+T: PADDY O'CARROL'S -- JIG
+C: J.Oswald.
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20010704234832 by John Chambers jmchambers:rcn.net
+K: D
+vA/G/ \
+| FED FED | FGF FED | DFA dAF | EFE EAG \
+| FED FED | FGF FED | DFA dAF | DED D2 :|
+|: va/g/ \
+| fdf ece | dcB AFA | fdf ece | eaa a2g \
+| fdf ece | dcB AFA | DFA dAF | DED D2 :|
+
+
+X: 1
+T: Paddy O'Rafferty's -- Jig
+R:jig
+B:Ryan's Mammoth Collection
+N: 85 435
+N:it sounds better with one sharp
+Z: Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:6/8
+L:1/8
+K:Glyd
+vDBB DAA | DBB AGA | DBB DAA | GAG GED |
+DBB DAA | DcB cde | dcB AGA | GAG GED H|]
+|:dBd ece | dBg dBG | dBd efg | GAG GED |
+dBd ece | fdf gfe | dcB AGA | GAG GED :|
+|:BDD ADD | BDD AGA | BDD ADD | GAG GED |
+BDD ADD | DcB cde | dcB AGA | GAG GED "_D.C.":|
+
+
+X: 1
+T: PADDY ON THE RAILROAD -- REEL
+N:AKA The Merry Blacksmith
+B:Ryan's Mammoth Collection of Fiddle Tunes
+R:reel
+Z:Contributed 20000418133948 by John Chambers jchambers:casc.com
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:2/4
+L:1/16
+K:D
+(fe) |\
+.d2(dA) BAFA | .d2(dA) BAFA | ABde .f2(ed) | Beed egfe |
+.d2(dA) BAFA | ABdA BAFA | ABde fdec | dBAF D2 :|
+|: (fg) |\
+abag .f2(fe) | .d2(dA) BAFA | ABde .f2(ed) | .B2(ed) efge |
+abag .f2(fe) | .d2(dA) BAFA | ABde fdec | dBAF D2 :|
+
+
+X: 1
+T: Paddy on the Turnpike -- Reel
+R:reel
+B:Ryan's Mammoth Collection
+N: 167
+Z: Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:C|
+L:1/8
+K:Gm
+GF|\
+DGG^F G2 GA | BGdG eGdG | D^FFE =F2 FG | AFcF dFcF |
+DGG^F G2 GA | BAGA Bcd=e | f=efd cAFA | BGA^F G2::
+d2|\
+dgg^f g2ga | baga bage | dffg f2fg | agfg agfe |
+dgg^f g2ga | bagf dcde | f=efd cAFA | BGA^F G2:|
+
+
+X: 1
+T: PADDY THE PIPER -- REEL
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: reel
+M: 2/4
+L: 1/16
+Z: Contributed 20000509024710 by Ivan Bradley bradleyi:peoplepc.com
+K: G
+(udc) "Segno"|\
+|](BE).E.c (dcd>)B | .A2(3(FED) FAA2 | BEEF GABc | dBAc BEE2 |
+(BE).E.c (dcd>)B | .A2(3(FED) FAA2 | BEEF GABc | dBAc BEE2 "^H"|]
+e3f gfge | defg afd2 | {f}e^def (gf).e.c | dBAc BEE2 |
+{f}e^def gfe^c | defg (af).d.f | g2fd ecdA | (3(Bcd) Ac BEE2 "Segno"|]
+
+
+X: 1
+T: Paddy Was up to Ganger -- Jig
+M:6/8
+L:1/8
+R:jig
+B:Ryan's Mammoth Collection
+N:90 474
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+K:G
+u(d/c/)|\
+BAG AGE | DGA BAG | BAG dcB | BAA AGA |
+BAG AGE | DGA BAG | Bdg dBG | AEF G2:|
+|:uB|\
+GBd efg | dBG AGE | GBd efg | fdd def |
+gfe dcB | AGA BGE | DcB AGA | BGG G2:|
+
+
+X: 1
+T: Paddy Whack -- Jig
+R:jig
+B:Ryan's Mammoth Collection
+N: 90 468
+Z: Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:6/8
+L:1/8
+K:A
+uE|\
+Ace aga | fed cdB | Ace fga | gee efg |
+aba aec | dfa ecA | Ace fdB | BAA A2:|
+|:uc/d/|\
+ecc fdd | ecA B2A | Ace fga | gee efg |
+aba aec | dfa ecA | Ace fdB | BAA A2:|
+
+
+X: 1
+T: PADDY'S FAREWELL TO AMERICA -- JIG
+C: Tom Doyle
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: JIG
+M: 6/8
+L: 1/8
+Z: Contributed 20000422015550 by John Chambers jc:ecf-guest.mit.edu
+K: G
+ vdBG efg | dBG AFD | GFG Bge | dBG A3 |
+| dBG efg | dBG AFD | EG"4"e dBG | AGG G2z :|
+|: vgeg fdf | ec"4"e dBG | geg dBG | BAA A3 |
+| geg fdf | ec"4"e dBG | EG"4"e dBG | AGG G2z :|
+
+
+X: 1
+T: "PADDY'S THE BOY"- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20021220190059 by John Chambers jmchambers:rcn.com
+K: Gmix
+(ud/c/) \
+| kB3 GBd | cBc ABc | BAB GBd | cAG FGA \
+| ,B3 GBd | cBc ABc | ded cAF | AGG G2 :|
+|: ud \
+| fag fed | cAG FGA | G2g g^fg | a^fd d2e \
+| =f3-fed | cAG FGA | B2d cAF | AGG G2 :|
+
+
+X: 1
+T: Paine's -- Reel
+M:2/4
+L:1/16
+R:reel
+B:Ryan's Mammoth Collection
+N:357
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+K:F
+u(AB)|\
+cAFA (cA)(fd) | cfAc agfe | fgcg bagf | ((3gfe)((3fed) .c2(AB) |
+cAFA (cA)(fd) | cfAc agfe | fgcg agfd | f2a2f2:|
+|:u(fg)|\
+.au(f g/f/e/f/) dfcf | Acfc .a(fef) | gcac bcac | gfed .c2u(fg) |
+.au(f g/f/e/f/) dfcf | Acfc .a(fef) | gcac bcac | gcde f2  :|
+
+
+X: 1
+T: Palermo -- Hornpipe
+Z:Bob Puckette <bpuckette:msn.com> 2003-3-10
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:A
+((3uEFG)|AGAB Acea|edea ecBA|fedc dcBA|GABc BEFG|
+AGAB Acea|ecea ecBA|fedc BAGB|A2c2A2:|
+|:vcd|ecea ecea|fdfa fdfa|fedc dcBA|GABc .B2(cd)|
+ecea ecea|fdfa fdfa|gfed cBAG|A2c2A2:|
+
+
+X: 1
+T: Palmetto -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:C|
+L:1/8
+K:A
+((3uEFG)|A>GA>B A>ce>c|B>^AB>c B>Fd>c|\
+B>cd>e f>ga>f|e>ag>f (3.e.f.e (3.d.c.B|
+A>GA>B A>ce>c|{c}B>^AB>c B>Fd>c|\
+B>cd>e f>ga>f|(3.e.f.e (3.d.c.B A2:|
+|:uc2|B>"4"e^d>e B>g^^f>g|e>Be>g b2a>g|\
+f>ga>f ^d>Bc>^d|(3.e.g.f (3.e.d.c B2G>A|
+B>"4"e^d>e B>g^^f>g|e>Be>g b2a>g|\
+f>ga>f ^d>Bc>d|e2g2e2:|
+
+
+X: 1
+T: PANDEEN O'RAFFERTY -- JIG
+R:jig
+B:Ryan's Mammoth Collection
+Z: Contributed by Ray Davies ray:davies99.freeserve.co.uk 27june02
+M:6/8
+L:1/8
+K:A
+vc2E EFE|Edc BAB|(Ec).c (EB).B|ABA AFE|
+(Ec).c (EB).B|ABc def|edc BcB|ABA AFE:||:
+vAce Adf|Ace Bcd|Ace fga|ABA AFE|
+Ace Adf|Ace agf|efe dcB|ABA AFE:|
+
+
+X: 1
+T: Pander Dance -- Jig
+R:jig
+B:Ryan's Mammoth Collection
+N: 91 476
+Z: Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:6/8
+L:1/8
+K:G
+uD|\
+GAB BdB | AGG G2d | dFF GGA | ABG FED |
+GAB BdB | AGG G2d | FEF DEF | AGG G2:|
+|:ud|\
+gfg gfd | cBc def | gfg agd | cBc def |
+gag gfg | ece efg | dec BcB | AGG G2:|
+
+
+X: 1
+T: PANTOMIME -- REEL
+B:Ryan's Mammoth Collection of Fiddle Tunes
+R:reel
+Z:Contributed 20000515192735 by John Chambers jchambers:casc.com
+Z:Contributed by Ray Davies, ray:davies99.freeserve.co.uk
+M:2/4
+L:1/16
+K:F
+(uAB) |\
+cAFA cAfd | cfAc agfe | fgcg bagf | ((3gfe) ((3fed) .c2(AB) |
+cAFA cAfd | cfAc agfe | fgcg bage | f2a2f2 :|
+|: (ufg) |\
+.a.f (g/f/e/f/) dfcf | Acfc .a(fef) | gcac bcac | {a}gfed .c2(fg) |
+.a.f (g/f/e/f/) dfcf | Acfc .a(fef) | gcac bcac | {a}gcde f2 :|
+
+
+X: 1
+T: PARASOTT -- HORNPIPE
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: hornpipe
+M: 2/4
+L: 1/16
+Z: Contributed 20000628213442 by John Chambers John.Chambers:weema.com
+K: C
+ vcBcd "4"edec |    egfe d2vgue | cBcd egc"4"e | dcBA G2G2 \
+| cBcd "4"edec | "0"egfe d2vguf | egc"4"e dfBd | c2c2c2 :|
+|: vdc \
+| BcAB G2veud | cdBc A2vauf | fdag fdag | fefe fdcB \
+| cBcd "4"edec | "0"egfe d2vguf | egc"4"e dfBd | c2c2c2 :|
+
+
+X: 1
+T: PARNELL AND IRELAND -- JIG
+C: Tom Doyle
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20000422013301 by John Chambers jc:ecf-guest.mit.edu
+K: D
+uA \
+| vfed fga | fed fg"1"a | "2"b"3"c'"4"d' "1"a"3"f"1"d | "3"f"2"ee ue2uA |
+| vfed fga | fed fg"1"a | "2"b"3"c'"4"d' "1"a"3"f"1"d | "2"e"1"dd d2 :|
+|: "0"A \
+| vafa geg | fdf ecA | afa baf | fee ue2"0"uA |
+| vafa geg | fdf ecA | dcd eag | fdd d2 :|
+
+
+X: 1
+T: PARNELL'S -- REEL
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: reel
+M: 2/4
+L: 1/16
+Z: Contributed 20010316032248 by John Chambers jmchambers:rcn.com
+K: G
+((3uDEF) "^Segno"\
+|: G2BG dGBG | FDAD BDAD | G2BG dGBd | egfa gedB |
+|  G2BG dGBG | FDAD BDAD | G2BG dGBd | egfa g2g2 "^Fermat:a"[|]:|
+  gdBd edBd | gaag fdef | gdBd edBd | egfa g2g2 |
+| gabg efge | dedc BGBd | efed edBd |1egfa g2g2 :|2 egfa gedB "^Segno"[|]|]
+
+
+X: 1
+T: Parry's -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:Bb
+vbf|d2d2 decA|B2B2B2 (de)|f=efd gf_ed|cdec BAGF|
+d2d2 dfeg|f2f2f2 (ba)|gfed cBAc|B2B2B2:|
+|:(ucd)|eded .e2(cd)|edcB BAGF|f=efe .f2(ga)|bagf _edcB|
+gfed egbg|fedc dfbg|fbag fedc|B2B2B2:|
+
+
+X: 1
+T: Passaic -- Hornpipe
+Z:Bob Puckette <bpuckette:msn.com> 2003-3-10
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:A
+(ucB)|AEAc ecea|fdfa ecAc|dBfe dcBA|GABc B2 E2|
+AEAc ecea|fdfa ecAc|dfed cBAG|A2c2A2:|
+|:(uED)|C"4"AGA c"4"AGA|F"0"AEA "0"D"0"AC"4"A|FDFA dcBA|G"4"ABG E2(ED)|
+FEFA dcBA|GEGB "4"edcB|Aagf edcB|A2c2A2:|
+
+
+X: 1
+T: Passion-Flower -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:G
+((3udef)|g2(dg) bgdg|bgfg e"4"c'af|g2(dg) Bgdg|ecBc .A2((3def)|
+g2(dg) Bgdg|bgfg e2(dc)|Bgec BcAc|B2G2G2:|
+|:vga|vbgfg efga|bgfg e2(fg)|afge defg|afge d2(ef)|
+gfgd "4"e^d"4"eB|cd"0"ef g2(dc)|Bgec BcAc|B2G2G2:|
+
+
+X: 13
+T: PAT CARNEY'S -- REEL.
+T: Paddy Murphy's Wife
+R:reel
+Z:John B. Walsh, 5/8/2002 <walsh:mat::h.ubc.ca>
+Z:The low C's are nat::ural too
+M:2/4
+L:1/16
+K:D
+uG2|((3FED)(AF) BGAF|EG=cG ECCE|((3FED)(AF) BGAF|Dddc dDDG|
+((3FED)(AF) BGAF|EG=cG ECCE|((3FED)(AF) BGAF|Dddc (dD).D2:|
+|:(fa)da fdad|eg=cg ecgc|fada fdad|((3Bcd)(AG) FDDg|
+(fa)da fdad|eg=cg ecgc|afge fdec|dABG (FD).D2:|
+
+
+X: 1
+T: Pat: in His Glory -- Jig
+M:6/8
+L:1/8
+R:jig
+B:Ryan's Mammoth Collection
+Z:Contributed by Ray Davies. ray:davies99.freeserve.co.uk 28june02
+K:G
+uD|GBd g2d|ed^c d2B|cBA BAG|AB^c d2D|
+GBd g2d|ed^c d2B|ded fef|edc d2::
+uB|dBA B2G|dcA B2G|def gfe|dcB A2B|
+c2e efg|B2d dBG|Aa(g {g}f)ef|gba g2:|
+
+
+X: 1
+T: THE PAUSTEEN FAWN -- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20010704235908 by John Chambers jmchambers:rcn.net
+K: D
+uA \
+| dec dcd | efg f2d | ecA GFG | ABc A2G \
+| Adc dcd | efg fed | ecA GFE | DFA d2 :|
+K:Dmix=c
+|: uE \
+| FAB cAA | BGG cAG | FAB cBc | Adc d2D \
+| FAB cBc | Ade fed | ecA GFE | FDD D2 :|
+
+
+X: 1
+T: PEA PATCH -- JIG.
+C:DAN EMMETT.
+B:Coles pg. 82.4
+Z:John Walsh <walsh:mat:h.ubc.ca>
+M:2/4
+L:1/16
+Q:1/4=60
+Z: Contributed 20020529094424 by John B. Walsh walsh:mat:h.ubc.ca
+K:D
+((3uA,B,C)S| "4"vD2C2 "4"D2 C"4"D | z uCDE FDEC| z u"4"DCE D2 ((3ABc) | vd<B z uG "4"AFGE|
+D8-|DDz uE FDED | z uD D2 D4|d<B z "0"A "4"AFGE|]
+|: z uD d2 c4 | (B>.c)(B>.A) FA z uA2 | z2 d2 z2 c2| (B>.c)(B>.A) FDED|
+z uD d2 c4 | (B>.c)(B>.A) FA z (vd | f)(dg)(e f)(d"4"e)(c | d)(cd)(B A)(FG)"D.S."E S:|
+
+
+X: 1
+T: Peach Blossom -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:C|
+L:1/8
+K:F
+(ucB)|A>cf>a ((3gab) ("0"eg)|((3fga) (fc) A>cA>F|\
+E>FG>A B>cd>B|c>AG>F E>G(cB)|
+A>cf>a ((3gab) ("0"eg)|((3fga) (fc) A>cA>F|\
+B>dc>B A>GF>E|F2"4"A2F2:|
+|:(uAB)|B>AG>F E>Gc>B|A>cf>c a>cf>c|\
+B>AG>F E>Gc>B|A>cB>d c2 (BA)|
+d>Bb>a g>fe>d|c>Ad>c B>AG>F|\
+E>dc>B A>GF>E|F2"4"A2F2:|
+
+
+X: 1
+T: Peasants' Dance -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:A
+((3uefg)|aece GAce|fdBA GAEA|CEDF BcdB|c"4"ecA .B2((3efg)|
+aece EAce|fdBA GAEA|c"4"ecA BdBG|A2A2A2:|
+|:((3uAcd)|v"4"ecA2 vfdB2|AGAc BAGF|ECDF EGFA|dfce .B2((3Acd)|
+"4"edc2 fdB2|agaf ecc"4"e|dfed cBAG|A2A2A2:|
+
+
+X: 1
+T: PEELER'S JACKET -- REEL
+B:Ryan's Mammoth Collection of Fiddle Tunes
+R:reel
+Z:Contributed 20001206201155 by John Chambers John.Chambers:weema.com
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:C|
+L:1/8
+K:D
+uA2 |\
+Adcd BAFA | Adcd BAFA | ABde fded | Bdef gfed |
+dcdA BAFA | Adcd BAFA | ABde fdec | dBAF D2 |]
+(fg) |\
+abag fgfe | dcdA BAFA | ABde fded | Bdef e2(fg) |
+abag fgfe | dcdA BAFA | ABde fdec | dBAF D2 |]
+
+
+X: 1
+T: Peep O' Day -- Reel
+M:C|
+L:1/8
+C:N.GOW
+R:reel
+B:Ryan's Mammoth Collection
+N:258
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+K:D
+uA2"^Segno"|:\
+(3.d.d.d (dA) BdAF | AFAg fdBc | (3.d.d.d (dA) BdAF |\
+ GFEF GABc |
+{e}d^cdA BdAF | ABde fdef | {a}gfge fedf | edce dAFA :|
+|:vabaf afdf | gefd edBe | afdf abaf | edef d2(df) |
+afdf abaf | gbfa edBd | (3.d.d.d (dA) BdAF | ABde (fd)d2\
+"^Segno" :|
+
+
+X: 1
+T: Peerless -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:C
+uG2|cGEG CGEG|FGDG FGDG|(EG)cd (ec)fe|dcBA .G2((3uGAB)|
+vcGEG CGEG|FGDG FGDG|(EG)cd ("4"ed)cB|c2[c2E2][c2E2]:|
+|:(uBc)|dBGB dBgf|"0"ecGc "4"ecag|^fdAd fdba|gafg efd"4"e|
+cGEG CGEG|FGDG FGDG|(EG)cd ("4"ed)cB|c2[c2E2][c2E2]:|
+
+
+X: 1
+T: Peggy Whiffle's -- Reel
+R:reel
+B:Ryan's Mammoth Collection
+N: 310
+Z: Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:2/4
+L:1/16
+K:A
+u((3EFE)vCuE Ac"4"ec | fc"4"ec Bc.A2 | u((3EFE)CE Aceg | afec Bc.A2 |
+u((3EFE)CE Acec | dBcA BAFA | \
+.E2((3EFG) Aceg |1 afec .A2GF :|2 afec .A2((3efg) |]
+"_f"{b}vagab aece | ecac eace | {b}agab aece | gbeg befg |
+{b}agae u((3fga)vec | dBcA BAFA | \
+.E2((3EFG) Aceg |1 afec .A2((3efg) :|2 afec A2 z2 |]
+
+
+X: 1
+T: Peter Street -- Reel
+R:reel
+B:Ryan's Mammoth Collection
+N: 382
+Z: Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:2/4
+L:1/16
+K:A
+vA2((3cBA) eA((3cBA) | eAaA gAfA | eA((3cBA) eAfA | BEcE dEBE |
+A2((3cBA) ec((3cBA) | eAaA gAfA | efec eaec | BABc A4  |]
+E2((3GFE) BE((3GFE) | BEdE cEBE | A2((3cBA) eA((3cBA) |
+eAaA gAfA | edec agaf | edec agaf | ecag fedc | BAGF EFGE |]
+
+
+X: 1
+T: PETRONELLA
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: reel
+M: 2/4
+L: 1/16
+N: Original Key, Eb.
+Z: Contributed 20001214193120 by John Chambers John.Chambers:weema.com
+N:
+N: W: PETRONELLA. -- (Form as for Contra Dance.) First couple to the right, balance
+N: W: opposite each other in centre of set, [4 bars]. Again to the right, and
+N: W: balance on sides of set, [4 bars]. Again to the right, and balance in centre
+N: W: of set, [4 bars]. Again to the right, and balance to places [4 bars]. Down
+N: W: the centre and back, [8 bars]. Cast off, right and left 4, [8 bars].
+K: G
+vgd \
+| .B2dB .A2dB | G2G2G2 B,D | .G2CE "4"A2G2 | F"4"AGE .D2gd \
+| .B2dB .A2dB | G2G2G2 B,D | .G2CE "4"A2F2 | G2G2G2 :|
+|: vdB \
+| .G2gd .B2"4"d'"2"b | "3"c'2"3"c'"1"a "1"fdcA \
+| .F2af .d2"4"c'"3"a | "4".b2bg dgdB \
+| .G2gd .B2"4"d'"2"b | "3"c'2"3"c'"1"a "1"fdcA \
+| .F2af f"4"c'"3"af | g2g2g2 :|
+
+
+X: 1
+T: Phil Isaac's -- Jig
+M:C|
+L:1/8
+R:reel
+B:Ryan's Mammoth Collection
+N:112 628
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+K:A
+u(AB)|\
+(3cBA (3cBA vF>A"_SEGUE"E>c | d>ef>g (3agf (3efg | \
+a>ec>A B>AFz | u"^4""_0"A8 |
+v(3cBA (3cBA) F>AE>c | d>ef>g (3agf (3efg |\
+ a>ec>A B>AFz |v"^4""_0"A6 :|
+|:u(cB)|\
+vAza2 czze | dzbz Bzzc | d>ef>g (3agf (3efg | a>ec>A B>AFz |
+vAzaz czzc | dzbz Bzzc | d>ef>g aze>d | (3cBA G>B A2:|
+
+
+X: 1
+B: Cole's 1000 Fiddle Tunes
+T: PICNIC -- REEL.
+T: Higgins' Best Hornpipe
+T: Flowing Tide, The
+R:reel
+B:Coles 43.8
+Z:John Walsh <walsh:mat:::h.ubc.ca>
+M:2/4
+L:1/16
+Z: Contributed 20000514053735 by John Walsh walsh:mat:::h.ubc.ca
+K:A
+v.A,2uA,C EA,CE|"4"ACE"0"A .c2(BA)|FAEA .c(eaf)|ecBA FA"4"EC|
+.A,2A,C EA,CE|"4"ACE"0"A .c2(BA)|FAEA .c(efe)|c"4"eBc A2 z2:|
+|:vA2(Ac) BAFA|agaf ecBA|dfc"4"e B"4"eAc| dBcA BAFA|
+EA,CD "4"AEE"0"A| dBcA BAFA|EAcf ecBA|EAGB A2z2:|
+
+
+X: 1
+T: KELTON'S -- REEL
+T: Or "Pig Town Fling"
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: REEL
+M: 2/4
+L: 1/16
+Z: Contributed 20000424210921 by Ivan Bradley bradleyi:peoplepc.com
+K: G
+v.G2ge .d2"4"ed | .B3ge dBAB | .G2ge .d2"4"ed |1 BG"4"AG EFGA :|2 BG"4"AF G2 z2|]
+|: v.B2.e2 efge |  fedf edBA | .B2.e2 efge    | fgaf g2 z2 :|
+
+
+X: 1
+T: Pigeon on the Gate -- Reel
+R:reel
+B:Ryan's Mammoth Collection
+N: 50
+Z: Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:C|
+L:1/8
+K:Ador
+u(gf)|\
+.e.A((3^cBA) .e.A((3cBA) | ^cdef gfge | d2(BG) dGBG |\
+ ^cdef g2(fg) |
+.e.A((3cBA) eAcA | ^cdef g2(fg) | afge dBGB | AcBG A2 :|
+|:u(^cd)|\
+eaa^g a2(a=g) | edef g2(ge) | d2(BG) dGBG | ^cdef g2(fg) |
+eaa^g aba=g | edef g2(fg) | afge dBGB | AcBG A2 :|
+
+
+X: 1
+T: Pink Eyed Lassie -- Reel
+M:2/4
+L:1/16
+R:reel
+B:Ryan's Mammoth Collection
+N:320
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+K:D
+u((3ABc)|\
+dcdA GFED | GEFD {F}EDB,A, | DFEG F"4"AGB | Adc"4"e df"0"eg |
+fdAF GFED | DEFD {F}EDB,A, | DFEG FAGB | Adc"4"e d2z2 :|
+|:((3ABc)|\
+dcdf "0"edcA | dfaf gfge | dcdf ecAc | BAGB .A2((3ABc) |
+dcdf edcA | dfaf gfge | afge fd"4"ec | Agfe d2z2 :|
+
+
+X: 1
+T: The Piper's Lass -- Reel
+M:2/4
+L:1/16
+R:reel
+B:Ryan's Mammoth Collection
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+K:D
+vAG"Segno"|:F2AF DFAF|G2BG dGBG|F2AF (DF)Ad|BGFG E2D2|
+F2AF DFAF|G2BG dGBG|FGAF DFAc|BGFG E2D2::
+Acde f2(fa)|gefd edBd|Acde fdfg|afdf e2d2|
+Acde f2(fa)|gefd edBd|Acde fefg|afdf e2d2"Segno":|
+
+
+X: 1
+T: THE PIVOT BRIG -- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20000422012459 by John Chambers jc:ecf-guest.mit.edu
+K: A
+uf \
+| ecA AcA | ecA F2A | EFA ABc | edc B2f |
+| ecA AcA | F2A E2c | d2f ecA | BAA A2 :|
+|: uf \
+| ecA Ace | fde fga | ecA {B}AGA | BGE Ecd |
+| ecA Ace | fde fga | edc    BAB | cAA A2 :|
+
+
+X: 1
+T: Polo -- Reel
+M:2/4
+L:1/16
+C:J.OSWALD
+R:reel
+B:Ryan's Mammoth Collection
+N:246
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+K:D
+u((3ABc)|\
+.d2(cA) BdAF | GEFD EDCE | DEFG ABc"4"e | g"0"efd "4"ecAc |
+.d2(cA) BdAF | GEFD EDCE | DFAF GBAF | EDCE D2:|
+|:u"4"(A^G)|\
+"0"Ac"4"ec Adfd | {f}e^def "0"ecAc | gefd ecdf | edcB Agfe |
+.d2(cA) BdAF | GEFD EDCE | DFAF GBAF | EDCE D2:|
+
+
+X: 1
+T: Pomona -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:G
+((3uDEF)|G2GA BcdB|{d}cBcd e2((3def)|gfge dBGB|cBAG FADF|
+G2GA BcdB|{d}cBcd edef|gfge dBGA|B2G2G2:|
+|:((3udef)|{a}gfga bgdB|{d}cBc"4"e dcBd|\
+{a}gfga bgdB|cdef gfga|
+bagb agfa|{a}gfge dBGB|dgfg ecAF|G2G2G2:|
+
+
+X: 22
+T: "POP GOES THE WEASEL."
+R:jig
+N:POP GOES THE WEASEL -- First couple down the outside, back.  Down the
+N:centre, back. Three hands half round with second lady; first couple
+N:raise hands, second lady pops under to place.  First couple, three
+N:hands half round with second gent; first couple raise hands, second
+N:gent pops under to place.
+B:Coles pg. 24.6
+Z:John B. Walsh, 5/8/2002 <walsh:mat:h.ubc.ca>
+M:6/8
+L:1/8
+K:G
+vG2G A2A|BdB G2z|G2G A2c|B3 G2z|G2G A2A|BdB G2z|"4"e3 A2c|B3 G2z:|
+|:vg3 e2g|faf d3|g2g e2g|f3 d2B|c2B c2d|e2f g2z|"4"ez2A2c|B3 "D.C."G2 z:|
+
+
+X: 1
+T: POPPY LEAF -- HORNPIPE
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: hornpipe
+M: C|
+L: 1/8
+Z: Contributed 20010926175448 by John Chambers jmchambers:rcn.net
+K: G
+((3CB,A,) \
+| G,>B,D>G B,>DG>B | D>GB>d G>Bd>g | "4"e>dc>B c>BA>G | F>dA>F D>CB,>A, |
+| G,>B,D>G B,>DG>B | D>GB>d G>Bd>g | "4"e>dc>B c>DE>F | G2B2G2 :|
+|: (uBc) \
+| d>BG>B d>Bg>d | b>ag>f "4"e>dc>B | c>AF>A c>Af>d | a>gf>e d>cB>A |
+| ((3B^AB) G>B ((3cBc) A>c | ((3d^cd) B>d e2d>=c | B>gd>B d>cA>F | G2g2G2 :|
+
+
+X: 1
+T: Portsmouth -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+S: Bob Puckette <BobP:at:workcom.com> 2003-3-7
+M:2/4
+L:1/16
+K:A
+ue2|AcBc AFFE|Acea .f2(fg)|agfe fecA|BcBA .F2.E2|
+AcBc AFEF|Acea .f2(fg)|agfe fecA|B2A2A2:|
+|:(ucd)|"0"eaga fece|faga .f2(fg)|agfe fecA|BcBA .F2.E2|
+AcBc AFEF|Acea .f2(fg)|agfe fecA|B2A2A2:|
+
+
+X: 1
+T: Post Horn -- Reel
+R:reel
+C:FRANK LIVINGSTON.
+B:Ryan's Mammoth Collection
+N: 307
+Z: Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:2/4
+L:1/16
+K:D
+vfg|\
+vabaf d2vcd | efec A2vdc | (3BBBu(ec) (3cccu(fe) | defg a2vfg |
+ abaf d2vcd | efec A2vdc | (3BBB(ed) (3ccc(fe) | "1"d"4"d'"1"a"3"f d2:|
+|:vcd|\
+(3eee(fe) c"0"e"3"c'"0"e | (3eee(fe) c"0"e"3"c'"0"e |\
+ e"4"d'"2"b"4"^g "0"edcB | ce"1"a"3"c' "0"ve'2vcd |
+(3eee(fe) c"0"e"3"c'"0"e | ((3eee)(fe) c"0"e"3"c'"0"e |\
+ e"4"d'"2"b"4"^g "0"edcB | A2a2a2  :|
+
+
+X: 1
+T: POTHOUGE - JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 9/8
+L: 1/8
+Z: Contributed 20021212144149 by John Chambers jmchambers:rcn.com
+K: C
+   vG2G GFE GFE | G2G GFE ABc | G2G GFE GFE | A2A A2G ABc :|
+|: vcef gec BAG | ceg gec efg ceg gec BAG | A2A A2G ABc :|
+   vEGE cGE cGE | EGE cGE ABc | EGE cGE cGE | A2A A2G ABc \
+|  vEGE cGE cGE | EGE cGE ABc | EGE cGE cGE | A2A A2G ABc |]
+
+
+X: 1
+T: Praties are Dug, and the Frost is All Over -- Jig
+R:jig
+B:Ryan's Mammoth Collection
+N: 111 621
+Z: Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:6/8
+L:1/8
+K:D
+A|\
+dfe dcB | AdF E2D | FAA AFA | Bee e2f |
+dfe dcB | FdF E2D | FAA AFA | Bdd d2:|
+|:g|\
+faa afd | gbb bag | faa agf | gee e2f |
+faa agf | gbb bag | fed dge | fdd d2|]
+g|\
+faa afd | gbb bag | faa agf | gee e2g |
+faa faa | gbb gbb | fed ege | fdd d2|]
+
+
+X: 1
+T: PRESIDENT GARFIELD'S -- HORNPIPE
+C: Harry Carleton
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: hornpipe
+M: 2/4
+L: 1/16
+Z: Contributed 20000427134328 by John Chambers jchambers:casc.com
+K: Bb
+(udc) \
+| BFDF BFDF | BABc dcde | fcAc fcAc | f=efg f_edc |
+| BFDF BFDF | BABc dcde | fgag fedc | B2d2B2 :|
+|: (uba) \
+| geBG EGBg | fdBF DFBf | eAgf eAgf | dBgf dBba |
+| geBG EGBg | fdBF DFBf | =efag f_edc | B2d2B2 :|
+
+
+X: 1
+T: PRESIDENT GRANT'S -- HORNPIPE
+C: Harry Carleton
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: hornpipe
+M: 2/4
+L: 1/16
+Z: Contributed 20000427141046 by John Chambers jchambers:casc.com
+K: Bb
+(udc) \
+| BFDF Bcde | fgfd B2(cd) | egbg fdBd | gfdB c2(dc) |
+| BFDF Bcde | fgfd B2(cd) | egbg fdBd | c2B2B2 :|
+|: (uba) \
+| g^fga g=fde | fgfd f2(ba) | gabg fdBd | cdcB GFDC |
+| v.B,(uF=EF) kvD(uBAB) | kF(d^cd) kB(f=ef) | gabg fdBd | c2B2B2 :|
+
+
+X: 1
+T: Pretty Jane's -- Reel
+M:C|
+L:1/8
+R:reel
+B:Ryan's Mammoth Collection
+N:285
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+K:A
+v(EA)(AB) (cB)(cd) | ecdB cAFA | (EA)(AB) (cB)(cd) | ecAc B2A2 |
+ (EA)(AB) (cB)(cd) | ecdB cAFA | (EA)(AB) (cB)(cd) | ecAc B2A2 :|
+|:va2 (ca) (ea)(ca) | dBcA (BG)E2 | a2(ea) "0"e"1"a"3"c'"1"a | \
+{c'}"2"b"1"a"2"b"3"c' "1"a2z2 |
+"1"(a"3"c')"1"(fa) (ea)(c"4"e) | dBcA (BG)E2 | (EA)(AB) cBcd | \
+ecBc A2z2 :|
+
+
+X: 1
+T: Pride  of the Ball -- Reel
+M:C|
+L:1/8
+R:reel
+B:Ryan's Mammoth Collection
+N:281
+N:similar to The Swallowtail
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+K:G
+u(gf)|\
+eA((3cBA) eA((3cBA) | Bdef gedB | G2(BG) (dG)(BG) | Bdef g2(fg) |
+eA((3cBA) eA((3cBA) | Bdef g2(fg) | afge dfed | cAB^G A2z2 :|
+|:va2 (a^g) a2(ed) | cdef gfge | G2(BG) (dG)(BG) | Bdef g2(fg) |
+   a2 (a^g) a2(ed) | cdef g2(fg) | afge dfed | cAB^G A2z2 :|
+
+
+X: 1
+T: PRIDE OF THE STAGE -- FLING
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: fling
+N: 3rd part also an octave higher
+M: C|
+L: 1/8
+Z: Contributed 20080604 by John Chambers jc:jc.tzo.net
+K: Bb
+|: ((3vdcB) (F<B) (D<B) (F<B) | (E>.G) (G/F/E/D/) (C>.c) (c>.f) \
+|   ((3dcB) (F<B) (D<B) (F<B) |  E>GF>E (D<B,) B,2 :|
+|: (vf>.B) ((3dcB) (f>.B)(g>.B) | f>B ((3dcB) (g<c) c2 \
+|    f>B   ((3dcB) f>Bb>d | e>gf>e (d<B) B2 :|
+|: ((3uFED) B>F d>Bf>d | c<e ((3edc) (d<B) B2 \
+|   ((3FED) B>F d>Bf>d | c<e ((3edc) (d<B) B2 :|
+|: ((3vbag) (d<g) (e<g) (c<e) | (A<e) (^F<e) (d/c/B/A/) G2 \
+|  ((3bag) (d<g) (e<g) (c<e) | A<e d>^F G2 G2 :|
+
+
+X: 1
+T: THE PRIEST IN HIS BOOTS -- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20001106221314 by John Chambers John.Chambers:weema.com
+K: G
+vA2A A2A | (AB)(G A).F.D | GFG BAG | (FD).F A2d \
+| A2(A A).A.A | (AB)(G A).F.D | G2B B2d | (cA).F G2 :|
+|: (uB/c/) \
+| dBB cAA | BGG AFD | (GF)(G B).A.G | (FD).F A2(B/c/) \
+| dBB cAA | BdB AFD | G2B B2d | cAF G2 :|
+
+
+X: 1
+T: PRIMA DONNA -- HORNPIPE
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: hornpipe
+M: 2/4
+L: 1/16
+Z: Contributed 20000821204412 by John Chambers John.Chambers:weema.com
+K: D
+uA2 \
+| "_f"vd2vdd fdf"1"a | "2"b"1"a"2"b"3"c' "4"d'2"3"b2 | "3"afdf Adfa | gfe^d e2A2 |
+| d2dd fdfa | babc' d'2b2 | afdf edc"4"e | d2f2d2 :|
+|: "_p"uA2 \
+| vd2vcd fdcd | e^def gfec | dABc defd | cegf e2A2 |
+| d2cd fdcd | e^def gfec | dAdf edc"4"e | d2f2d2 :|
+
+
+X: 1
+T: THE PRIMROSE LASS -- REEL
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: reel
+M: C|
+L: 1/8
+Z: Contributed 20010523193831 by John Chambers jc:trillian.mit.edu
+K: G
+ VBcAB G2GE | DEGA BAA2 | BcAB G2GE | DEGA BGG2 \
+| BcAB G2GE | DEGA BAA2 | dcBA GFED | (DE)GA BGG2 :|
+|: Bdgd edgd | Bdgd eAA2 | Bdgd edgd | BdAc BGG2 \
+|  Bdgd edgd | Bdgd eAA2 | bgaf gedc | BcAc BGG2 :|
+
+
+X: 1
+T: Prince Alberts -- Hornpipe
+Z:Bob Puckette <bpuckette:msn.com> 2003-3-10
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:C
+vfg|gece dBGB|cBcA .G2(EF)|GcBc Ad^cd|.B2.G2 .G2(fg)|
+gece dBGB|cBcA .G2(cB)|ABcd ecdB|c2"4"e2c2:|
+|:Bc|defd BGAB|cBcd .e2(de)|fgag fedc|.B2.d2 .d2(ef)|
+gece dBGB|cBcA .G2(cB)|ABcd ecdB|c2"4"e2c2:|
+
+
+X: 1
+T: Prince Charles' Jig
+R:jig
+B:Ryan's Mammoth Collection
+N: 90 472
+Z: Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:6/8
+L:1/8
+K:Amix
+ud|\
+cee A2e | faf ecA | def ecA | ^GBB B2d |
+cee A2e | faf ecA | def ecA | BAA A2:|
+|:ud|\
+cAA eAA | fAA eAA | cAA eAA | ^GBB B2d |
+cAA eAA | fef ef^g | a^gf eac | BAA A2:|
+
+
+X: 1
+T: Prince Regent's -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:G
+vg2(uba) agfg|efg"0"e "4"edBd|dcAc cBGB|A2d2d2 (ef)|
+g2(ba) agfg|efg"0"e "4"edBd|"4"edBG "4"edBG|"4"AG"0"AB G4:|
+|:vd^cd"4"e d=cBA|GBdB gdBG|d^cd"4"e d=cBA|GBdB g2d2|
+"0"ec"0"eg dBdg|"0"ec"0"eg dBdg|"0"egfe dcBA|G2{f}g2G2:|
+
+
+X: 1
+T: Princess -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:C|
+L:1/8
+K:Bb
+uB>fd>B G>ec>A|B>cd>B F2 BA|\
+G2e2 ((3efe) ((3dcB)|A2f2 ((3fgf) ((3edc)|
+B>fd>B G>ec>A|B>cd>B F2 B>A|\
+G>gf>e d>cB>A|B2b2B2:|
+|:(ucB)|A>cf>=e f>dc>B|A>cf>=e f2f2|\
+=e>gb>g e>cd>e|f>=ef>e f2_e2|
+d>ef>d B>cd>B|c>de>c A>Bc>A|\
+B>ba>g ((3fgf) ((3edc)|B2b2B2:|
+
+
+X: 1
+T: Pulaski Guards' -- Reel
+M:2/4
+L:1/16
+R:reel
+B:Ryan's Mammoth Collection
+N:296
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+K:Bb
+"_mf"vF2B2 B2D2 | vC2vcB AFGA | {c}BABc defg | (fd)ce dAu((3BAG) |
+vF2B2 B2D2 | vC2vcB AFGA | {c}BABc defg | (fd)ce dBB2 :|
+|:"_f"vdBFB DBFB | AcFA cFAc | dBFB DBFB | DECE v"4"(DB,)B,2 |
+vdBFB DBFB | AcFA cFAc | dBcA BF((3GAB) |1 FDCD (B,2F2) :|2 FDCD B,4|]
+
+
+X: 1
+T: Pull Down Your Vest -- Reel
+M:2/4
+L:1/16
+R:reel
+B:Ryan's Mammoth Collection
+N:183
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+K:D
+U(FG)|\
+.D.d(cd) .B2(GB) | Aafd (cd).e.g | .f.d(cd) .B2(GB) | Adce (fd).d2 |
+.D.d(cd) .B2(GB) | Aafd (cd).e.g | .f.d(cd) .B2(GB) | Adce (fd).d2 ::
+adbd .a2(fg) | .a2(fd) (ce).e2 | adbd .a2(fd) | Aceg (fd).d2 |
+adbd .a2(fa) | .a2(fd) .c.e(eg) | fdAd .B2(GB) | .A.d(ca) (fd).d2 :|
+
+
+X: 1
+T: Push About the Jorum -- Strathspey
+R:strathspey
+B:Ryan's Mammoth Collection
+N: 161 958
+Z: Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:C|
+L:1/8
+K:G
+ug"^Segno"|\
+v(d>.G)u(B>.G) v(F>.A)u(A<.c) | (B>.G)(B>.d) (e/f/g) Tf>e |\
+ (d>.G)(B>.G) (F>.A)(A<.B) | "_SEGUE"E>GF>A G2 (G>.g) |
+d>GB>G (F>.A)(A<.c) | B>GB>d (e/f/g) (Tf>e) |\
+ d>GB>G (F>.A)(A<.B) | E>GF>A G2 G |]
+ud|\
+v[B2g2] (f>.g) (a>.f)(e>.d) | vg<ug (Tf>g) {fg}a2 va>ud |\
+ (d>.g)(f>.g) "^SEGUE"a>fe>d | (e/f/g) (f/g/a) g2 (g>.d) |
+vg<ug f>g {fg}a>fe>d | g>g(f<.g) a2 u(a>.d) |\
+ d>gf>g a>fe>d | (e>.g)(f>.a) (g>.b)(e>.g)"^Segno"y"_D.S." |]
+
+
+X: 1
+T: Pushee's -- Hornpipe
+R:hornpipe
+C:A. Pushee
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:Bb
+uF2|B2Bc d2cB|Bdfg f2df|bfdf gfdB|cBcd cedc|
+B2Bc d2cB|Bdfg f2df|gbfd cBcd|B2d2B2:|
+|:vBA|(G2{A}G)^F (G2{A}G)F|G2GA B2Bc|(d2{e}d)^c (d2{e}d)^c|d=cBd f2Bd|
+fgfd f2df|g^fga g2bg|fdBd cedc|B2df b2:|
+
+
+X: 1
+T: Puss in the Corner -- Jig
+R:jig
+B:Ryan's Mammoth Collection
+Z: Contributed by Ray Davies, ray:davies99.freeserve.co.uk
+M:6/8
+K:D
+vA/G/|F2D DFA|dAF AFD|EGE CEC|EGE CEG|
+F2D DFA|dAF AFD|GBG EFG|AFD D2::
+u(a/g/)|f2d dfa|afd dfa|e2c ceg|gec efg|
+faf edc|dcB AFA|(B/c/)dB AFA|dAF D2:|

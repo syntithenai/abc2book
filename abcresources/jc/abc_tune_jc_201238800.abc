@@ -1,0 +1,27 @@
+X: 3134
+T: Kindness for ever Mair
+O: Very Old.
+%R: air, march, strathspey
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.3 p.13 #4
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow"
+K: D	% and Em
+% - - - - - - - - - -
+V: 1 staves=2
+g |\
+{g}Tf3 e d2 (de/f/) | (fe) (dB) e4 | {c}d3 B A2 (Bc/d/) | (A<F) TE>F D3 g |\
+{g}Tf3 e d2 (de/f/) | (fe) .d.B (AB) (de) | f>d e>c d>B AF | {F}B4 [E3B,3G,3] :|
+|: z |\
+TE3 F B2 B2 | TB2 AF {F}B4 | TE3 F A2 dB | (A>F) TE>F D4 |\
+TE3 F B2 B2 | TB2 AF B2 de | f>d e>c d>B AF | {F}B4 [E3B,3G,3] :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2 a2 f2 d2 | [d'4g4] a2 c'2 | d'2 d2 f2 g2 | a2 A2 d2 z2 |\
+d2 a2 f2 d2 | g4 fg fe | d2 g2 fg a2 | b2 B2 [e3E3] :|
+|: z |!f!\
+E2 e2 e2 e2 | g2 f2 e4 | E2 e2 f2 g2 | a2A2 d4 |\
+E2 e2 e2 e2 | g2 f2 e2 fe | d2 g2 fg a2 | b2 B2 e3 :|

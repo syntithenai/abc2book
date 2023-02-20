@@ -1,0 +1,35 @@
+X:38
+T:Mille regretz
+C:Tielman Susato
+S:Susato1551
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+S:Jack Campin <jc@purr.demon.co.uk> abcusers 2001-9-4
+%This is a temporary version - please don't redistribute yet
+N:adapted by Jack Campin to regularize the layout for vertical reading
+N:and to employ instruments that sound better on a small Mac
+V:1      % recorder
+V:2      % harp pretending to be a lute
+V:3 alto % harp pretending to be a lute
+V:4 bass % electric bass guitar pretending to be a theorbo
+R:Pavane
+M:C|
+L:1/4
+K:Am
+[V:1] E4       |A2    A2  |G3    F/E/|D  C  D2  |C c  c  c |B2    A> B  |c>B  A2  |^G2  z2:|
+[V:2] B,4      |A,2   D2  |B,3   A,  |B, C  A,2 |C>D  E  F |G2    F2    |E E> C D | E2  z2:|
+[V:3] E4       |C2    F2  |E3    D/C/|B, E  FD  |E3      C |D  E  C2    |A,B, C A,| B,2 z2:|
+[V:4] E,4      |F,2   D,2 |E,3   F,  |G, A, D,2 |A,2  A, A,|G, E, F,>G, |A,G, F,2 | E,2 z2:|
+%
+[V:1] c2  B  A |G A   A A |G E  F2   |E2    zB  |c2   A2   |B2    e2    |d c  B A |^G2  z2.|
+[V:2] G2  G  E |E E   F D |E E  D2   |G,2   G,2 |A,C> B, A,|G, G, C> B, |A,G, G E | E2  z2:|
+[V:3] E2  D  C |B,C   C A,|B,C2  B,  |C2    B,2 |E2   E2   |E3       E  |F E  D C | B,2 z2:|
+[V:4] C,2 G, A,|E,A,, F,F,|E,C, D,2  |C,2   E,2 |A,,2 A,,2 |E,2   C,2   |D,E, G,A,| E,2 z2:|
+%
+[V:1] E2  G  G |D  d  d d |c2   B2   |A  A  A A |G2   F2   |E  E  G  E  |G2   E>F | G2  z2:|
+[V:2] G,2 G, G,|D> E  F G |E2   E2   |E  F  F F |E2   D2   |C  C  B, C  |B,2  C2  | B,2 z2:|
+[V:3] C2  B, G,|B,>C  D B,|C A,2 G,  |A, C  C C |C2   A,>B,|C  A, G, A, |G,2  A,2 | G,2 z2:|
+[V:4] C,2 E,>F,|G, G, D,G,|A,2  E,2  |A,,F, F,F,|C,2  D,2  |A,,A,,E, A,,|E,2  A,,2| E,2 z2:|
+%
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.

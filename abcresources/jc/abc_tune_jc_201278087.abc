@@ -1,0 +1,115 @@
+%%center Froggie - Grandfather
+
+
+X: 1
+T: Frog in the Well v.1
+P: piffero primo a0044
+O: safd 007
+%R: polka, march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/matthewsF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+A2 |\
+d2d2 d2A2 | B2A2 A4 | d2d2 dcde | f2e2 e2A2 |\
+d2d2 d2A2 | B2A2 A4 | d2d2 ecde | f2d2 d2 :|
+|: z2 |\
+f2a2 a4 | f2a2 a4 | g3e f3d | e2e2 dcBA |\
+d2A2 BAFA | d2A2 BAFA | d2d2 ecde | f2d2 d2 :|
+
+
+X: 2
+T: Frog in the Well v.2
+P: piffero secondo a0045
+O: Dan Moylan
+%R: polka, march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/matthewsF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+D2 |\
+F2F2 A2F2 | G2F2 C4 | F2F2 DEFG | A2G2 G2C2 |\
+F2F2 A2F2 | G2F2 C4 | F2F2 CEFG | A2F2 F2 :|
+|: z2 |\
+d2F2 D4 | d2F2 D4 | E3C D3B, | C2E2 DEFG |\
+D2A2 DFAd | D2A2 DFAd | F2F2 CEFG | A2F2 F2 :|
+
+
+X: 3
+T: Garry Owen
+P: piffero primo b0075
+O: safd 024
+F: http://ancients.sudburymuster.org/mus/med/pdf/fyf05F.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+g/f/ |\
+edc BAG | BcB B2 g/f/ | edc BAG | ABA A2 g/f/ |\
+edc BAG | BcB B2c | def gdB | B>AA A2 :|
+|: B/c/ |\
+d2B d2B | d2B dgf | e2c e2c | e2c e2f |\
+g2a b2a | gfe d2B | def gdB | A>BA A2 :|
+
+
+X: 4
+T: The Girl I Left Behind Me
+P: piffero primo b0056
+O: safd 074
+F: http://ancients.sudburymuster.org/mus/med/pdf/fyf05F.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+gf |\
+e2d2 B2G2 | A2G2 E3F | G2G2 GABc | (d4 B2)(gf) |\
+e2d2 B2G2 | A2G2 E3G | F2A2 D2EF | G4 G2 :|
+|: (GA) |\
+B2d2 e2f2 |(g2d2) B2GG | B2d2 e2f2 | (g4 f2)(gf) |\
+e2d2 B2G2 | A2G2 E3G | F2A2 D2EF | G4 G2 :|
+
+
+X: 5
+T: Grandfather's Clock v.1
+P: piffero primo a0013
+O: Henry C. Work
+F: http://ancients.sudburymuster.org/mus/med/pdf/fyf05F.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+A2 |\
+d2cd e2de | f2gf B2ee | d2d2 c2Bc | defg a2 A2 |\
+d2cd e2de | f2gf B2ee | d2d2 c2Bc | d4 z2 :|
+|: df |\
+agfe d2d2 | edcB A2df | a2f2 d2cd | e4 z2AA |\
+."^>"d2z2 ."^>"e3z2 | ffgf B2ee | d2d2 c2Bc |d4 z2 :|
+|: AA |\
+d2AA B2A2 | .F2.A2 .F2.A2 | d2AA B2A2 | .F2.A2 .F2.A2 |\
+."^>"d2z2 ."^>"e3z2 | ffgf B2ee | d2d2 c2Bc |d4 z2 :|
+
+
+X: 6
+T: Grandfather's Clock v.2
+P: piffero primo a0022
+O: Dan Moylan
+F: http://ancients.sudburymuster.org/mus/med/pdf/fyf05F.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+z2 |\
+F2GA G2FE | D2EF G2G2 | F2F2 G2AG | FEDE F2A,2 |\
+F2GA G2FE | D2EF G2G2 | F2F2 G2AG | F4 z2 :|
+|: A2 |\
+DEFG F2F2 | GFED C2 A2 | D2F2 A2EF | G4 z2GG |\
+."^>"F2z2 ."^>"G2z2 | ADEF G2G2 | F2F2 G2AG | F4 z2 :|
+|: z2 |\
+.F2D2 .A,2.D2 | .F2D2 .A,2.D2 | .F2D2 .A,2.D2 | .F2D2 .A,2.D2 |\
+."^>"F2A,2 ."^>"G2A,2 | ."^>"A2A,2 ."^>"G2A,2 | F2F2 G2AG | F4 z2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

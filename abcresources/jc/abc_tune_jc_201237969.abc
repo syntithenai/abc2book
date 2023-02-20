@@ -1,0 +1,37 @@
+X: 30041
+T: MISS LUCY NEALE
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.4 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+c |\
+ffff | ff zc | ffaf | d2 zd |\
+dddd | ggbg | ffee | f2 zc |
+fcfg | a2 za | bagf | d2 zd |\
+gdga | bbgf | ffeg | f2 z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z |\
+[AC][AC][AC][AC] | [AC][AC][AC]z |\
+[AC][AC][AC][AC] | [BD][BD][BD]z |\
+[BD][BD][BD][BD] | [BD][BD][BD][BD] |\
+[AF][AF] [BG][BG] | [A2F2] z2 |
+[FA,][FA,][FC][EC] | [FA,][FA,][FA,] F |\
+FFEF | D[BD][BD]z |\
+[GB,][GB,][GB,][GB,] | [GB,][GB,][GB,][GB,] |\
+[AA,][FA,][GB,][EB,] | [F2A,2] z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z |\
+ffff | fffz | ffff | BBBz |\
+BBBB | GGGG | cccc | f2 z2 |\
+ffac' | fffc' | d'c'ba | bBBz |\
+BBBB | GGBB | cccc | F2 z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,40 @@
+X: 1
+T: Rigadoon
+P: Longways for as many as will
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.108 #156 (216)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+e2 (fe/f/) g3 g | aa ag/f/ gg gf/g/ |\
+aa ag/f/ ga gf | e2 d2 c3 |]\
+c |\
+d2 e2 d3 c | de fe de dc |\
+B2 A2 G3 c | d2 e2 d3 c |
+defd gfed | c>d d2 c3 |]\
+g |\
+ed ec d/c/d/e/ dg | edec d3 |]\
+d |\
+BG cd e/d/e/f/ ea | ^fg a^f g3 g |\
+fedc d/c/B/A/ Gg | cd d2 c3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The two We. fall back, and the two Men fall back at the same Time, then
+%% all four meet and Hands across half round, and fall back again, then all
+%% four meet, and Hands across, and go half round into their Places.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1st and 2d Man sett, the We. do the like, then the 2d Man cast off in
+%% to the 2d Wo. Place, and the 1st Man cast off into the 1st Wo. Place, then
+%% the two We. sett and do the like; then both Cu. turn their own Partners,
+%% the 1st Cu. cast off, sett to the Partners, and turn their own
+%% Partners again, then the 1st Man sett to the 2d Man, and the 1st
+%% Wo. to the 2d Wo. then all four meet and clap Hands, and Hands
+%% quite round.
+%%endtext
+%%sep 1 8 500

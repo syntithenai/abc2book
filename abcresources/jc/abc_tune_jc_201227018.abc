@@ -1,0 +1,21 @@
+X: 10574
+T: HEWITSON'S HORNPIPE
+C: S. W. Wigton, Cumberland
+O: Copyright.
+%R: hornpipe, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.57 #4
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(3(cde) |\
+gfcB ABcA | BcdB G2GF | EFGE CDEC | FGAB =Bcde |\
+fcag fedc | dBba gfed | cfdB AFGE | [F2A,2][F2A,2][F2A,2] :|
+|: AB |\
+{d}c=BcA Fafc | d^cdB Gbge | fcag fedc | BAGF ECDE |\
+FEFE Fafc | dBba gfed | cfdB AFGE | [F2A,2][F2A,2][F2A,2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

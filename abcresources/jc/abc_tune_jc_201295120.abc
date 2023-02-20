@@ -1,0 +1,16 @@
+X: 1
+T: Just Because
+R: polka
+M: 2/4
+L: 1/8
+K: A
+%%indent 500
+"intro"E=F | "B7"F4 | "E7"G2 c2 | "A"A4- | A |: "E7"EFG |
+|  "A"AA AA |    A2 FE  |    A A3- | A EFG \
+|     AA AA |    A2 FE  |"E7"G4-   | G3  E |
+| "E7"GG GG |    G2 FE  |    G G3- | G3  G \
+|     F2 FF |    G2 F2  | "A"E4-   | E EFG |
+|  "A"AA AA |    A2 FE  |    A A3- | A EFG \
+|     A2 AA |"A7"B2 A=G | "D"F4-   | F3  F |
+|  "D"A2 AA |"D+"B2 AB  | "A"c2 AG | "F#7"F3 E \
+| "B7"F4    |"E7"G2 c2  | "A"A4-   | A  y :|

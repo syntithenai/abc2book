@@ -1,0 +1,13 @@
+X: 1448
+T: Coming Over The Hills
+R: reel
+O: Stack
+%S: s:2 b:16(8+8)
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #1448
+Z: Bob Safranek, rjs@gsp.org
+M: C|
+L: 1/8
+K: G
+"^A"|: BdcA d2cA | D>G (3({A}GFG) ABcA | BdcA G2GF | D>F (3({G}FEF) ABcA "^B":|[K:D] Addc d2(dc) | A>d (3({e}dcd) (ef)ge |
+| fdec d2(dc) | AGFG AB=cB || Ad{e}dc d2(dc) | A>d (3({e}dcd) (ef)ge | faef d2(dc) | AGFG AB=cA |]

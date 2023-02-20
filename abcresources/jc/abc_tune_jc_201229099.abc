@@ -1,0 +1,23 @@
+X: 11
+T: Mc Arthur's Jigg
+%R: slip-jig
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.6 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Dm
+e |\
+f2d e^cA A2e | f2d ge^c d2e |\
+f2d e^cA A2e | faf ge^c d2 :|
+|: e |\
+fga agf edc | fga agf {f}e2e |\
+fga agf efg | fed ed^c d2 :|
+%%begintext align
+%% The Lady cast off 2 Cu: the Gent. (at same time)
+%% dance down the middle, The Gent. cast up on the
+%% out side. the Lady (at same time) dance up the
+%% middle, Cross over 1 Cu: Allemand, the Lady
+%% hands 3 with the 3rd Cu:, Gent. hands 3 with the
+%% top Cu:, Half right and left back again.
+%%endtext

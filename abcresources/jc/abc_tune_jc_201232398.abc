@@ -1,0 +1,20 @@
+X:17081
+T:Cropie's Strathspey
+R:Strathspey
+C:Peter Milne
+B:RSCDS 17-8(I)
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M:4/4
+L:1/8
+%--------------------
+K:G
+G |\
+"G"  D<G G>E "D"  F>GA>F  | "G"  G>Bd>B    "C"  e3 f   |\
+"G"  g>b e>g "Em" d>gB<G  | "C"  E<A A>G   "D7" G>FE>D |
+"G"  D<G G>E "D"  F>GA>F  | "G"  G>Bd>B    "C"  e3 f   |\
+"G"  g>be>g  "Em" d>g B<G | "Am" E>A "D7" G/F/E/D/ "G" G2 G ||
+d |\
+"Em" e>f g<e "Am" a>ge>f  | "A"  e/f/g f>e "D"  d3  B  |\
+"Am" c>d e<c "G"  B>c d<B | "A7" E<A A>G   "D7" G>FE>D |
+"G"  D<G G>E "D7" F>GA>F  | "G"  G>Bd>B    "C"  e3  f  |\
+"G" g>b"C"e>g "G" d<g "Em" B<G | "Am" E>A "D7" G/F/E/D/ "G" G2 G |]

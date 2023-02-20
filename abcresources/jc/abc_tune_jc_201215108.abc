@@ -1,0 +1,26 @@
+X: 168
+T: Gold Ring, The
+N: page 54
+N: heptatonic
+M:6/8
+Z:Boston.  This is one of the "big" jigs for the uilleann pipes.
+Z:(Not so bad on a fiddle either, it's just that it goes so well
+Z:on the pipes with all those D crans.) If it's a standard in a session, there
+Z:are probably pipers around. Seamus Ennis used to tell the story of
+Z:its origin: it was originally learned from the fairies.
+R:jig
+K:G
+d|"G"BAG "D"A2d|cAG "G"~G3|BAG "D"A2d|cDE ~F3|\
+"G"BAG "D"A2d|cAG "G"~G3|gbg "D"afd|cAF "G"G2:|
+A|"G"~B3 Bdc|"D"~A3 dcA|"G"~G3 GFG|AdB BAG|\
+~B3 Bdc|"D"~A3 A2G|FDE F2d|cAF "G"G2:|
+g|"D"fdd edd|fdd edd|fdd edd|cAF "G"G2g|\
+"D"fdd edd|fdd edd|(4.f.gag fed|cAF "G"G2:|
+d|"G"~g3 "D"f2d|cAG "G"GBd|~g3 "D"f2 d|"C"cDE "D"~F3|\
+"G"~g3 "D"fad|"G"~g3 "D"fad|"G"gbg "D"afd|cAF "G"G2:|
+E|"G"DBB DBB|"D"DAA DAA|"G"~G3 GBd|"Am"cAG "D"FGA|\
+"G"DBB DBB|"D"DAA DAA|"G"~G3 GBd|"D"cAF "G"G2:|
+A|"G"~B3 ~D3|"D"~A3 ~D3 |"G"~G3 GBd|"Am"cAG "D"FGA|\
+"G"~B3 ~D3|"D"~A3 ~D3|"G"~G3 GBd|"D"cAF "G"G2:|
+A|"G"B2G "D"A2G|"G"d2 G G2A|B2G "D"A2G|cAG FGA|\
+"G"BAG "D"AGF|"C"GFE "D"FGA|(4.f.gag fed|cAF "G"G2:|

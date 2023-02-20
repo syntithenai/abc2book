@@ -1,0 +1,19 @@
+X: 2151
+T: CLACH NA CUDAIN
+Q: "Strathspey."
+R: Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.2 p.18 #151
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+%%slurgraces yes
+%%graceslurs yes
+K: D
+uA,2 !segno!|:\
+vD3vDuF3uE {FE}D4 (A,D3) | vDD3F3uA vB3vAuF3ud |\
+vD3vDuF3uE {FE}D4 (D3F) | GA,3F3A, E3A,CE3 ::\
+vd3vfuA3uf defg a3uf |
+vd3vfuA3uf d3fA3f |\
+[1 d3fA3f defg a3uf | g3Af3A e3Ac3e :|\
+[2 Bg3 Af3 Ge3 Fd3 | G3A,F3A, E3A,CE3 |]

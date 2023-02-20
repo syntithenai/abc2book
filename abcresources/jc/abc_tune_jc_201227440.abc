@@ -1,0 +1,21 @@
+X: 10793
+T: THE CRAIGELLACHIE LASSES -- Jig
+C: Marshall
+R: jig
+B: K\"ohler's Violin Repository, v.1, 1885 p.79 #3
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The pickup to the 3rd part gives bow direction with the letters 'd' and 'u'.
+N: The lack of repeats and the final "D.C." imply the form ABCA, not the usual AABC.
+M: 6/8
+L: 1/8
+K: D
+uA |\
+{c}(.d2.d) {e}dcB | A>BG {G}F>ED | {c}(.d2.d) d>cd | e>fd c>BA |\
+{c}(.d2.d) {e}d>cB | A>BG {G}F>ED | E>CA, A,>B,C | D3 D3 |]
+vf/ug/ |\
+afd def | gec Ace | fdA GBe | ecA FGA |\
+BGE EFG | AFD DFA | ECA, A,B,C | D3 D2 |]
+vf/ug/ |\
+afd afd | gec gec | fdA fdA | ecA ecA |\
+BGB dcB | AFA Bcd | Bgf {f}edc | d3 D2 "^D.C."|]

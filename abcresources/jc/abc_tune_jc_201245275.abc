@@ -1,0 +1,66 @@
+
+X: 1
+T: Afton Water
+T: Flow Gently Sweet Afton   [A]
+%O: Wales?
+%date: James Aird 1797
+B: News Chronicle Song Book
+F: http://www.folkinfo.org/songs
+S: http://celticmusic.ca/skinkbeta/Skink2alpha.tar
+M: 3/4
+L: 1/4
+K: A
+E |\
+"A"A A (c/B/) | A A E | "D"F A F | "E7"E2 E |\
+"A"A A B | c c e | e c A | "E7"B2 ||
+E |\
+"A"A A (c/B/) | A A E | "D"F d F | "E7"E2E |\
+"A"A A B | c e d | "E7"c E G | "A"A2 |]
+(G/A/) |\
+"E"B B e | B B G | "B7"B A F | "E"E2 (G/A/) |\
+"E"B B e | B B G | "A"(A/G/) (A/B/) (c/=d/) | "E7"e2 ||
+f |\
+"A"e c (c/B/) | A A E | "D"F d F | "E7"E2 E |\
+"A"A A B | c e d | "E7"c E G | "A"A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Flow Gently Sweet Afton   [D]
+%O: Wales?
+%date: James Aird 1797
+B: News Chronicle Song Book
+F: http://www.folkinfo.org/songs
+S: http://celticmusic.ca/skinkbeta/Skink2alpha.tar
+M: 3/4
+L: 1/4
+K: D
+A |\
+d d (f1/2e1/2) | d d A | B d B | A2 A |\
+d d e | f f a | a f d | e2 A |
+d d (f1/2e1/2) | d d A | B g B | A2A |\
+d d e | f a g | A A c | d2 (c1/2d1/2) |
+e e a | e e c | e d B | A2 (c1/2d1/2) |\
+e e a | e e c | (d1/2c1/2) (d1/2e1/2) (f1/2=g1/2) | a2 b |
+a f (f1/2e1/2) | d d A | B g B | A2 A |\
+d d e | f a g | A A c | d2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Afton Water 2    [G]
+C: Alexander Hume 1850
+S: Scots Musical Museum p.400 #386
+%date: 1850
+R: waltz
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: Page from Concord Slow Scottish Session collection
+M: 3/4
+L: 1/8
+K: G
+D2 |\
+"G"G2 B2 AG | "D7"AB c2 BA | "G"G2 B2 AG | "D7"G2 F2 D2 |\
+"G"G2 B2 AG | "D7"AB "G"d2 "C"ge | "D7"d2 cB AB | "G"G4 :|
+|: de |\
+"F"=f2 gf ed | "C"d2 e2 g2 | "G"g2B2 AG | "D7"G2 F2D2 |\
+"G"G2 B2 AG | "D7"AB "G"d2 "C"ge | "D7"d2 cB AB | "G"G4 :|

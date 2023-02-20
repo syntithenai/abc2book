@@ -1,0 +1,35 @@
+X: 1
+T: Three Sheep Skins
+P: Longways for as many as will
+%R: march
+B: "The Dancing-Master" printed by John Walsh, London
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.?? #16
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.47
+Z: 2012-2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[| G2 B>c | d2 B2 | c2 A2 | d2 A2 ][ BG GB  | AG GB | AG FE | F2 D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%   The first Couple take Hands and sett twice
+%% to the second Man, and then go the Hey 'till
+%% they come into their own Places again.  The
+%% Tune twice over.
+%%   The first Couple do the same to the second
+%% Woman; then all four Hands a-breast, go the
+%% Figure through in the second Couple's Place;
+%% the same as before.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%%   The 1. cu. take hands and set twice to the 2. man, and then go the Hey till they come into their
+%% own places again.  The Tune thorow twice.
+%%   The First Couple do the same to the second Woman, then all four hands a-breast, go the Figure
+%%   thorow in the second couple Place, the same as before.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

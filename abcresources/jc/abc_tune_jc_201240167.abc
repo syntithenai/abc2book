@@ -1,0 +1,30 @@
+X: 371
+T: Lady Dalrymple Hay's Strathspey
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.37#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Should the Em chords be G chords?
+Q: "Slow"
+R: strathspey
+M: C
+L: 1/8
+K: C
+V: 1
+E/F/ |\
+~G>AG>E ~G>AGE | ~c>d .e/.d/.c/.B/ .A/.G/.F/.E/ .D/.E/.F/.D/ |\
+G>AGE G>AGf | e<cg>e {e}d2 c :|
+e/f/ |\
+g>a~ge  g>a~ge | ea (a/g/)(f/e/) ed ~de/f/ |\
+g>age c>dcG | Aagf e~d c ||
+e/f/ |\
+g>age  g>age | ea (a/g/)(f/e/) ed~de |\
+c>ecG A(B/c/) (B/A/).G/.F/ | .E.G (c/e/).g/.e/ {e}d2 c |]
+V: 2 clef=bass middle=d
+z |\
+[c'2g2e2][c'2g2e2] [c'2g2e2][c'2g2e2] | [c'2g2e2][c'2g2e2] [c'2g2e2][b2g2e2] |\
+[c'2g2e2][c'2g2e2] [c'2g2e2][c'2g2e2] | [c'2g2e2][c'2g2e2] gG c :|
+z |\
+[c'2g2e2][c'2g2e2] [c'2g2e2][c'2g2e2] | [c'2g2e2][c'2g2e2] [b2g2e2][b2g2e2] |\
+[c'2g2e2][c'2g2e2] c'gcz | zf'e'd' c'gc  ||
+z |\
+[c'2g2e2][c'2g2e2] [c'2g2e2][c'2g2e2] | [c'2g2e2][c'2g2e2] [b2g2e2][b2g2e2] |\
+[c'3c3][_b_B] a2f2 | cdgG gG c |]

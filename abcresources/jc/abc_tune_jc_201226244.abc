@@ -1,0 +1,35 @@
+X: 10171
+T: DUKE OF KENT'S MARCH
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.17 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+F>G |\
+A4 B>cd>B | A2d>d d2e2 | f2e>f g2f2 | e2e>e e2F>G |\
+A4 B>cd>B | A2d>d d2e2 | f>dg>e d2c2 | d2d>d d2 :|
+|: a>g |\
+fd/d/ dd d2g>f | e2A>A A2g>f | eA/A/ AA Aceg | f2d>d d2F>G |\
+A4 B>cd>B | A2d>d d2e2 | f>dg>e d2c2 | d2d>d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+D>E |\
+F4 G>AB>G | F2F>F F2A2 | d2c>d e2d2 | c2c>c c2D>E |\
+F4 G>AB>G | F2F>F F2z2 | A>AB>G F2E2 | F2F>F F2 :|
+|: f>e |\
+dF/F/ FF F2e>d | c2A>A A2e>d | cA/A/ AA A2ce | d2F>F F2D>E |\
+F4 G>AB>G | F2F>F F2z2 | A>d B>G F2E2 | F2F>F F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+d2 |\
+d4 d2d2 | d2d>d d2z2 | d2z2 c2d2 | A2A>A A2z2 |\
+d4 d2d2 | d2d>d d2z2 | c2g2 a2A2 | d2d>d d2 :|
+|: z2 |\
+dd/d/ dd d2z2 | A2A>A A2z2 | AA/A/ AA A2z2 | d2d>d d2z2 |\
+d4 d2d2 | d2d>d d2z2 | d2g2 a2A2 | d2d>d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

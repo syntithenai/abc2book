@@ -1,0 +1,27 @@
+X: 1
+T: the Fourth of June
+%R: hornpipe, strathspey
+B: John Walsh "Calidonian Country Dances" Books II and IV
+S: http://sites.scran.ac.uk/jmhenderson/web/collection/jmhcoll/walsh.htm
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F | E2E>F B>FE>F | E2E>F d>FD>F | E2E>F E>FG>A | B/c/d A>G F>DD :|
+|: F | E>e-e>^d e>EE>F | E>ee>c d>DD>F | E>e-e>d B>cd>e | (f/g/a) e>f d>DD :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+d | a2A2 g2G2 | a2A2 d2D2 | a2A2 g2e>f |g2a2 d2D :|
+|: d | e2E2 e2E2 | e2E2 d2D2 | e2E2 g>ab>c' | d'2a2 d2D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Gallop down one Cu. up again and cast off .|
+%% Lead thro' the 3d Cu. cast up into the 2d Cu.s Place :|
+%% Foot it and Right hands across with the 3d Cu. .|.
+%% Foot it and Left hands across with the 2d Cu. :|:
+%% turn corners with your Right hands and your Partner with your Left .||.
+%% hands round four with the 3d Cu. .||:
+%% Right and Left at top :||:
+%%endtext

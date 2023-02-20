@@ -1,0 +1,37 @@
+X: 1
+T: Brattleboro Waltz and Quick Step
+C: George Hews (1841)
+R: waltz
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: https://dc.lib.unc.edu/cdm/ref/collection/sheetmusic/id/11454
+N: Published by C.T.Ceslain, 361 Broadway, New York
+L: 1/16
+M: 3/8
+Q: "Allegretto"
+K: Bb
+F>B !f!|\
+"Bb"d2d2 "F"e>c | "Bb"B2B2 "F"c>A | "Bb"B2B2"F"c2 | "Bb"d4 "F"B>d |\
+"Bb"f2f2 "F"g>e | "Bb"d2d2 "F"e>c | "Bb"B2B2 "F"c>A | "Bb"B4 :|
+|: F>d |\
+"Bb"f4 gf | "Bb"fd3 Bd | "F"dc3 Ac | "Bb"cB3 F>d |\
+"Bb"f4 gf | "Bb"fd3 Bd | "F"dc3 Ac | "Bb"B4 :|
+|: FA |\
+"F"Ac3 Ac | "F"ce3 gf | "Bb"fd3 gf | "Bb"fd3 FA |\
+"F"Ac3 Ac | "F"ce3 gf | "F"ec3 Ac | "Bb"B4 !fine!:|
+|: de !p!|\
+"Bb"f3 gfe | "Bb"df3 b2 | "F7"ac'3 c'2 | "Bb"bd'3 de |\
+"Bb"f3gfe | "Bb"df3 f2 | "F"ec3 Ac | "Bb"B4 "D.C."y:|[K:=e][K:F][M:6/8]
+T: QUICK STEP.
+N: Bar 46's f is an 8th note; changed to agree with similar bars earlier.
+N: The two tildes have natural signs above; B naturals were probably intended.
+Q: "Allegretto"
+~c2 !f!|\
+"F"a3gf2 "Bb"g3fd2 | "F"c4A2 F4C2 |\
+"F"F2C2F2 A2F2c2 | "C"[G4E4][G2E2] [G4E4]~c2 |\
+"F"a3gf2 "Bb"g3fd2 | "F"c4A2 F4A2 |
+"C"G2A2B2 c2d2e2 | "F"[f6-A6-] [f4A4] !fine!:: ef !p!|\
+"C"g3ec2 c4fg | "F"a3fc2 c4fa |\
+"C"b3ag2 "F"a3gf2 |
+"C"g3ec2 c4ef |\
+"C"g3ec2 c4fg | "F"a3fc2 c4ga |\
+"C"b3ag2 "F"a3gf2 | "C"c6- c4 "^D.C."y:|

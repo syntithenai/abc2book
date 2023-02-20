@@ -1,0 +1,29 @@
+X: 551
+T: Sher (Dave Tarras' extra parts to Sher 1)
+O: Dave Tarras
+D: Dave Tarras "Freylakh in Hi-Fi"
+M: 2/4
+L: 1/16
+K: D exp ^f_B_e
+P:A
+|: "D"d4 cdec | d4 fedc | decd fdfa | "(Cm)"~g2f2 e2d2 |\
+  "D"d4 cdec | d4 fedc | decd agfe | "D"d4 z4 :|
+P:B
+|:  "Gm"g6 fe | "D" f6 d2 | "Gm"{f}gggg gffe | "D"f6 d2 |\
+  dfff feed | daaa aggf | "(Cm)"c'bag fgab | "D"a6 z2 |
+ "Gm"g6 fe | "D" f6 d2 | "Cm"deee eddc | c6 z2 |\
+  =BcBc dedc | "(D)"dede f3d | agfe "Cm"fedc | "D"d6 z2:|
+P:C
+|: "D"{a}d'3a c'bag | agfe fedc | dbag fgab | a4 z2 =b2 |\
+  "C(m)"c'4 c'bag | "C7"agg=f "F"f4 | =fcfg "C7"agf=e | "F"=f6 f2 ||
+  "D"T^f3d agfe | fedc d4 | dAdf agfe | fede "Cm"c4 |\
+  =BcBc dedc | "(D)"dede f4 | agfe "Cm"fedc |[1 "D"d4 z4 :|[2 "D" d4
+K: Dm
+P:D
+|: "(A7)"zAde |\
+  "Dm"fed2- d2f2 | "Gm"fag2 g4 | "Dm"fed2- d2f2 | "Gm"Tg3f Tg3f |\
+  "Dm"fed2- d2f2 | "Gm"fag2 g3^g | "A7"aggf feed | "Dm"d4 :|
+P:E
+|:"C7"z2Bc |\
+  "F"c2f2 a3g | gaf2- fab=b | "C7"c'bba ~a2gf | "F"ga f6 |\
+  "F"c2f2 a3g | "(Dm)"gaf2- fAdf | afge "A7"fde^c | "Dm"d4 :|

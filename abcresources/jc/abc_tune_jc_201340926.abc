@@ -1,0 +1,18 @@
+X: 1
+T: Stefan and Liz's Waltz  (D)
+C: Robin Bullock
+R: waltz
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+zag |\
+"D"f2 fg af | "A/c#"e3 f/g/ fe | "Bm"dc de fA | "G"B3 d dB |\
+"D"A2 d2 f2 | "Bm"a2 g2 f2 | "G"f4- fg/f/ | "A"e4 ag |
+"D"f2 fg af | "A/c#"e3 f/g/ fe | "Bm"dc de fA | "G"B3 d dB |\
+"D/f#"A2 d2 f2 | "Em"a2 g2 f2 | "Asus"fg/f/ e3 d | "D"d3 :|
+|: A dc |\
+"G"B2 Bc d2 | "A"e3 f/e/ de | "D"f2 d2 A2 | "Em"B3 d dc |\
+"Bm"B2 A2 F2 | "C"E4- ED | "G"D4- DF | "A"EF Ac de |
+"D"f2 d2 A2 | "Em"B3 c df | "G"g3 f ed | "A"e4 ag |\
+"D"f2 fg aA | "G"B2 Bc df | "Asus"fg/f/ e3 d | "D"d2 z :|["Coda" zag | "D"Hd6 |]

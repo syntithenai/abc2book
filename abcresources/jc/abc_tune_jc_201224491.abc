@@ -1,0 +1,18 @@
+X: 083
+T: Cumnock Fair, a Strathspey
+C: attr. John French (1753-1803)
+R: strathspey
+B: "John French Collection", John French ed. p.8 #3
+S: http://www.heallan.com/french.asp
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Problems in the rhythm of repeats fixed by moving all pickup notes to the start of the phrase.
+Q: "Slowish"
+M: C
+L: 1/16
+K: G
+D2 |\
+G3A {c}B2(AG) E2A2-A2B2 | G3AB2G2 d2G2B2G2 | c2A2 (cBA).G A2E2E2A2 |1 G2D2 (ED).C.B, {B,}D4 D2 :|2 G2g2 a2gf {f}g4 g2 ||
+d2 |\
+Tg3ab2g2 e2a2-a2b2 | g3ab2g2 {a}(gfga b2)(g2 | a2)(g2b2)g2 e2a2a2b2 | Tg3a (gaba) g4 g2 ||
+d2 |\
+Tg3ab2g2 e2a2-a2b2 | Tg3ab2g2 a2f2g2e2 | d2B2 (cBAG) A2E2E2A2 | G2B,2 (DC).B,.A, G,4 G,2 |]

@@ -1,0 +1,20 @@
+X: 15172
+T: the Black Egle
+T: the Black Eagle
+%R: air, strathspey
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.5 p.17 #2
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Initial rest added to fix the rhythms of repeats.
+M: C
+L: 1/16
+K: D	% and/or Bm
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"z2 |\
+F4 A3B A6 B2 | (dB3) (AF3) A6 A2 | F4 B3c B4 (d3e) | {de}f4 Te3d B6 A2 |\
+{G}F4 (A3B) A6 B2 | (ABdB) A2F2 A6 d2 |
+(B2A2B2)c2 d4 (e2f2) | (af3) {f}Te3d B6 :: e2 |\
+d4 (a3b) a6 b2 | (afef) a2b2 a6 g2 | f4 b3c' b6 c'2 |
+(b2a2)d'2c'2 {c'}b6 a2 |\
+a4 (b2c'2) {bc'}d'6 b2 | a2(gf) (gf)(ed) d6 d2 | (edef) a2b2 (af3) (Te3d) | {de}f4 Te3d B6 :|

@@ -1,0 +1,24 @@
+X: 10143
+T: the WINNOWING SHEET
+Q: "Moderate."
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.14 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E |\
+E2F A2A | BBc B2A |\
+d2d c2c | BcA B2A |\
+d2d c2c | (BcA) B>cd |\
+e2A A2G | {G}F2F Ec>d |\
+He2A {c}B>AG | A3 A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Moore's song, "If thou wilt be mine," is written to this tune.
+%%endtext
+%%sep 1 1 300

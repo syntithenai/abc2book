@@ -1,0 +1,15 @@
+X:431
+T:Slow March
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 43
+M:C|
+L:1/8
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+Tf>e|(ed)F>G A2 f>g|(Tf4 e2) (ed)|(dc) (cB) BA c>B|(B4 A2) f>e|edF>G A2 f>g|
+(Tf4 e2) f>g|a3g (fe) B>c|d2 d>d d2::c>d|e4 f>ec>A|(cB) B>B B2 B>c|d3c d>fe>d|
+(dc) c>c c2 c>d|(e4 f)>ec>A|{e}d>cd>e f2 a>g|f>ec>f e>dB>G|A2 A>A A2 (Tf>e)|
+(ed)F>G A2 f>g|(f4 e2) (ed)|(dc)(cB) (BA)c>B|(B4 A2) (Tf>e)|(ed)F>G A2 f>g|
+(f4 e2) f>g|a3g f>eB>c|d2 d>d d2::c>d|e4 f>ec>A|^G>AB>c d2B>c|d4 e>dB>^G|
+BA A>A A>B c>d|e4 f>ec>A|[a4A]B/c/ d/e/f/g/ a>fd>f|(fe)c>f e>dB>^G|A2 A>A A2:|

@@ -1,0 +1,32 @@
+X: 293
+T: MISS CAMPBELL OF MONZIE
+C: R. MACKINTOSH
+R: Jig
+B: Glen Collection p.29 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: Bb
+%
+V: 1
+F |\
+(D/E/F).F F2B | (E/F/G).G G2B | (A/B/c).c c2e | dfb fdB |\
+(D/E/F).F F2B | (E/F/G).G G2B | A>Bc FGA | B3 B2 :|
+B |\
+d>ef fdB | egb bge | d>ef fdB | A>Bc cAF |\
+d>ef fdB | egbbge | def edc | B3 B2e |
+d>ef fdB | egb bge | def fdB | ABc cAF |\
+GAB ABc | Bcd efg | fed cBA | B3 B2 |]
+%
+V: 2
+z |\
+B3 [b3f3d3] | e3 [b3g3] | f3 [a3f3] | B3 [d'3b3f3] |\
+B3 [b3f3d3] | e3 [b3g3] | f3 [a3f3] | [b3f3B3] [b2f2B2] :|
+z |\
+b3 [f'3d'3] | e3 [e'3b3] | B3 [f3d3] | F3 [f3c3] |\
+b3 [d'3b3] | e3 [e'3b3] | b3 [c'3a3f3] | [d'3b3] B3 |
+b3 [f'3d'3] | e3 [e'3b3] | B3 [f3d3] | F3 [f3c3] |\
+e3[e'3f3] | [d'3f3] [a3f3] | b3 [e'3f3] | [d'3b3] [b2f2d2B2] |]

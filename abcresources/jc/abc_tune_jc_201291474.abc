@@ -1,0 +1,35 @@
+
+X: 1
+T: Out on the Ocean   [G]
+S: Roaring Jelly collection
+R: Jig
+M: 6/8
+L: 1/8
+K: G
+FE \
+| "G"D2B BAG | BdB "D7"ABA | "G"GED "(D)"G2A | "G"BdB "D7"AGE \
+| "G"D2B BAG | BdB "D7"ABA | "G"GED "(C)"G2A | "D7"BGF "G"G :|
+ Bd \
+| "Em"e3 edB | "C"efe edB | "G"ded dBA | d2d "D7"dBA \
+| "G"G2A B2d | "C"ege "D7"dBA | "G"GED "(C)"G2A | "D7"BGF "G"G |]
+ Bd \
+| "Em"e3 edB | "C"efe edB | "G"ded "D7"def | "G"gfe "D7"dBA \
+| "G"G2A B2d | "C"ege "D7"dBA | "G"GED "(C)"G2A | "D7"BGF "G"G |]
+
+
+X: 1
+T: Out On the Ocean v.2   [A]
+S: Roaring Jelly collection
+R: Jig
+M: 6/8
+L: 1/8
+K: A
+GF \
+| "A"E2c cBA | cec "E7"BcB | "A"AFE "(E)"A2B | "A"cec "E7"BAF \
+| "A"E2c cBA | cec "E7"BcB | "A"AFE "(D)"A2B | "E7"cAG "A"A :|
+ ce \
+| "F#m"f3 fec | "D"fgf fec | "A"efe ecB | e2e "E7"ecB \
+| "A"A2B c2e | "D"faf "E7"ecB | "A"AFE "(D)"A2B | "E7"cAG "A"A |]
+ ce \
+| "F#m"f3 fec | "D"fgf fec | "A"efe "E7"efg | "A"agf "E7"ecB \
+| "A"A2B c2e | "D"faf "E7"ecB | "A"AFE "(D)"A2B | "E7"cAG "A"A |]

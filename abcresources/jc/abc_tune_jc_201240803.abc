@@ -1,0 +1,25 @@
+X: 4111
+T: Cairngoram Mountain
+O: A very Old Galic Air
+%R: air, jig, march
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.11 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Very Slow"
+K: A	% ending on F#m
+% - - - - - - - - - -
+V: 1 staves=2
+E |\
+E>CE E>CE |  ECE [E2B,2] A/G/ | TF>GF (FE).F | A>Bc c2c ||\
+(Bc).e (fa).f | ecB ABc | cfe {d}c2B | (cA).F F2 :|
+|:e |\
+e>fe ece | Tf>gf Tf2e | ece Tf>ed | {d}c2B A2 f/g/ ||!p!\
+(af).e (fe).c | (ec).B {d}cBA | Bce (fc).B | AFF F2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | [a3A3] [a3A3] | [a3A3] [g3G3] | [f3F3] [d3D3] | cBA A2a ||\
+gac d2d' | c'ag fga | zd'c' a2g | f3 [f2F2] :||: z |
+[a3c'3e'3] [a3c'3e'3] | [a3d'3f'3] [a3d'3f'3] | [a3c'3e'3] d'c'b | a2e A2z ||!p!\
+[a3c'3] [a3c'3] | [g3d'3] [a3c'3] | g2g a2g | f3 [f2F2] :|

@@ -1,0 +1,18 @@
+X: 2212
+T: Macfarlane's Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.1 p.21 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - -
+V: 1 staves=2
+e |\
+c<G TG2 E<C TC2 | e>gd>f e<cTd2 | c<G TG2 E<C TC>f | e>gd>e c/c/c c :| e | g>age Td>cde | c>GA>E {d}c>E D2 |
+g>age Td>cde | c>GTG>A c>dc>e || Tg>age {e}Td>cde | c>GA>E cED>E | C>ED>F EGG>f | e>gd>e c/c/c c |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | c2c2 c2e2 | c'2b2 c'2g2 | c2c2 c2ed | c2g2 c2c :| z | c2c2 g2E2 | c2c2 c2g2 |
+c'2c2 g2G2 | e2f2 e2c2 || c'2c2 g2G2 | c2f2 ec[g2B2] | c2G2 c2c2 | c'2g2 c2c |]

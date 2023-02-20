@@ -1,0 +1,27 @@
+X: 1
+T: John Nugent
+C: Carolan
+%R: jig
+B: "The Hibernian Muse" p.1 #1
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. I.
+M: 6/8
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+d2e f2g | Tf2d cAF | Ggg Tgfg | a3 d3 |\
+fga dfd | fga AcA | G2G TFGF | c3 A3 |]
+d2e fed | fga A2A | f2g a2b | c'3 b2a |\
+gdg gdg | a2a A2A | cdc AFA | f3 d3 |]
+cAF cAF | =Bcd cAc | d2d efg | e3 c3 |\
+(c/e/f)d (e/f/g)e | (d/e/f)d cAc | AFA AFA | f3 d3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+d2^c d2e | f2g a3 | b3 g3 | d'3 d3 |\
+d'3 b3 | a3 f3 | b2g c'2c | f3 F3 |]
+d3 d3 | d3 fga | d2e f2d | e2f g2a |\
+b2b B2B | fcf fcf | e3 a3 | d3 D3 |]
+f3 f3 | f3 e3 | f2d g2G | c'3 c3 |\
+b3 c'3 | b3 a2f | a3 A3 | d3 D3 |]

@@ -1,0 +1,67 @@
+%%text RJ Set 108
+
+
+X: 1
+T: La Ronde des Voyageurs
+O: trad.
+M: C|
+L: 1/8
+R: reel
+K: Am
+"^A"|:\
+"Am"E3E A2 c2 | e4-eede | "Dm"f3f f2 a2 | "Am"e3a/2a/2 "D7"a4 ||\
+"G"G4 B3d | d4"Dm/F"-dBde |
+[1 "E"f3d d2 B2 | "Am"cAAB ~A2 E2 :|[2 "E"f2 d2 B2 e2 | "Am"A4 A4 |]\
+[K:A]\
+"^B"[|\
+"A"c3c c2 e2 | "A/C#"A4-AAcd | e2a2"Cdim"g3f |
+"Bm"g-geg ~f2 ec ||\
+"Bm"d2zf d2c2 | "E"B-BGB EGBe | "B7"g3a gfeg | "E7"fedf ecAB |[|\
+"A"c3-c c2 e2 | A4-AAcd |
+e2a2 "A+/C#"g3f | "D"b4f3g || "D"a-aga "D#dim"~g2fg |\
+"A/E"~f2ef "F#7"eAce | "B7"d'2b2 "E7"f3g |["Normal"  "A"afec !d.C.!A4 |]["Trans" "A"azz2f3e |]
+
+
+X: 2
+T: Reel Saint-Jean
+C: Th\'eodore Duguay
+O: Qu\'ebec
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Laurie Hart & Greg Sandell "Danse ce soir!", Mel Bay, p.80 #46
+M: C|
+L: 1/8
+K: Bm
+fe \
+| "Bm"dB~B2 FBdB | "Bm"fBdf "E7"B2ed | "A"cA~A2 EAcA | eAce "(Fm)"A2fe ||\
+| "Bm"dB~B2 FBdB |
+"Bm"fBdf "(G)"B2cB | "A"ABc{B}A e2fe | "F#7"dfdc "Bm"B2 :: "A7"zA \
+| "D"DCDE DEFG | "D"A2AB AFED |
+"G"d2Bd "D"AFDE | "E(m)"FDEF "A7"ECB,A, ||\
+| "D"DCDE DEFG | "D"A2AB AFED | "G"d2Bd "D"AFDE | "A7"FDEC "D"D2 :|
+
+
+X: 3
+T: Le 24 Juin
+C: Philippe Bruneau
+O: Qu\'ebec
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+D2 \
+|: "Gm"G2GA B2Bc | "Gm"d2de dcBA |\
+"Gm"G^FGA BABc | "Gm"d^cde "(G7)"d3d ||\
+"Cm"dcc=B c3c |
+"Gm"cBBA B4 |\
+[1 "D7"(3ABA ^GA BAGA | "D7"dDcD BDAD :|\
+[2 "D7"(3ABA ^GA dcBA | "G"G=B"D7"A^F "G"G2 |][K:=B=e]
+[K:G]\
+"D7"A2 |:\
+"G"B2BB "D7"ABcA | "G"GABG (3EGE DB, |\
+"G"G,B,DG "(E7)"B3B | "Am"ABcA E2AB ||\
+"C"c2ec "G"BcdB |
+[1 "Am"ABcA "D7"BAFE | "D7"DEFG ABcd | "C"efge "D7"dcBA :|\
+[2 "Am"ABcA "D7"F3f | "D7"fedc BAFA | "G"GB"D7"AF "G"G2 |]
+

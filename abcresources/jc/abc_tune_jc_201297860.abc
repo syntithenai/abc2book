@@ -1,0 +1,40 @@
+X: 1
+T: Gankino/Kopanica #2    [Dm]
+R: gankino, kopanica
+O: Bulgaria
+Z: 2002 John Chambers <jc:trillian.mit.edu>
+M: 11/16
+L: 1/16
+Q: "Brzo" 2/16 2/16 3/16 2/16 2/16=70
+K: =F^G
+"A"|: "Dm"D2^cd d2d d=cBA | cBAG GFA G2FE | D2EF FDA G2FA | G2FE "E7"EDF "A"E2E2 :|
+"B"|: "Dm"D2EF FDA G2FE | D2dd dcB AGFE | D2EF FDA G2FA | G2FE "E7"EDF "A"E2E2 :|
+K: A
+"C"|: "E7"[BG][cA][d2B2] [dB][BG][dB] "A"[c2A2][cA][AE] | "E7"[BG][cA][d2B2] [dB][BG][dB] "A"[c2A2][c2A2] \
+   |  "E7"[BG][cA][d2B2] [dB][BG][dB] "A"[c2A2][cA][AE] | "E"[BG][AF][GE][AF] [B2G2][eG] [B2E2][B2E2] :|
+K: =F^G
+"D"|: "E"ABG2 "Dm"FED "E"E2E2 | "E"ABG2 "Dm"FED "E"E2z2 | "E"ABG2 ABG "E"ABG2 | "E"ABG2 "Dm"FED "E"E2!fine!E2 :|
+K: D
+"E"|: "A7"[ec][fd][g2e2] [ge][ec][ge] "D"[f2d2][fd][dA] | "A7"[ec][fd][g2e2] [ge][ec][ge] "D"[f2d2][f2d2] \
+   |  "A7"[ec][fd][g2e2] [ge][ec][ge] "D"[f2d2][fd][dA] | "A"[ec][dB][cA][dB] "E7"[e2c2][eB] "A"[e2A2][e2A2] :|
+
+X: 1
+T: Gankino/Kopanica #2   [Em]
+R: gankino/kopanica
+O: Bulgaria
+Z: 2002 John Chambers <jc:trillian.mit.edu>
+M: 11/16
+L: 1/16
+Q: "Brzo" 2/16 2/16 3/16 2/16 2/16=70
+K: ^F^c^A
+"A"|: "Em"E2^de e2e e=dcB | dcBA AGB A2GF | E2FG GEB A2GB | A2GF "F#7"FEG "B"F2F2 :|
+"B"|: "Em"E2FG GEB A2GF | E2ee edc BAGF | E2FG GEB A2GB | A2GF "F#7"FEG "B"F2F2 :|
+K: B
+"C"|: "F#7"[cA][dB][e2c2] [ec][cA][ec] "B"[d2B2][dB][BF] | "F#7"[cA][dB][e2c2] [ec][cA][ec] "B"[d2B2][d2B2] \
+   |  "F#7"[cA][dB][e2c2] [ec][cA][ec] "B"[d2B2][dB][BF] | "F#"[cA][BG][AF][BG] [c2A2][fA] [c2F2][c2F2] :|
+K: ^F^c^A
+"D"|: "F#"BcA2 "Em"GFE "F#"F2F2 | "F#"BcA2 "Em"GFE "F#"F2z2 | "F#"BcA2 BcA "F#"BcA2 | "F#"BcA2 "Em"GFE "F#"F2!fine!F2 :|
+K: E
+"E"|: "B7"[fd][ge][a2f2] [af][fd][af] "E"[g2e2][ge][eB] | "B7"[fd][ge][a2f2] [af][fd][af] "E"[g2e2][g2e2] \
+   |  "B7"[fd][ge][a2f2] [af][fd][af] "E"[g2e2][ge][eB] | "B"[fd][ec][dB][ec] "F#7"[f2d2][fc] "B"[f2B2][f2B2] :|
+

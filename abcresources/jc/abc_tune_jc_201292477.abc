@@ -1,0 +1,52 @@
+X: 1
+T: the Jenny Lind Song   [D]
+C: Anton Wallerstein
+O: 1846?
+F: http://memory.loc.gov/cgi-bin/query/S?ammem/mussm:@FILREQ(@OR(@field(TITLE+@od1(The+Jenny+Lind+song,+polka++))+@field(ALTTITLE+@od1(The+Jenny+Lind+song,+polka++)))+@FIELD(COLLID+sm1820))
+R: polka
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Published 1850 in Baltimore by F. D. Benteen
+N: The lyrics are probably by J. J. Hewitt, about whom little seems to be known.
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+"D".F.A "G".G.B | "D".A.f (f/^e/f) | "A7".G.e (e/^d/e) | "D".F.d (d/c/d) |\
+"D".F.A "G".G.B | "D"(A/B/c/d/ e/f/g/a/) | "A7"(c/d/e/f g/a/b/c'/) | "D"d'2 z |]
+%
+F | "D"F A "G"G B | "D"A f f A | "A7"G e e G | "D"F d d F |
+w: The rage is now for Jen-ny Lind, And all must hear her warb-ling clear, No
+"D"F A "G"G B | "D"A f f A | G e e c | d2 z B |
+w: mat-ter 'how we raise the wind: Her notes are sweet and dear. All
+"G"d B B B | "D"A F F F | "A7"G E E E | "D"F D D B |
+w: Eur-rope says she's quite au fait At chan-ging notes her own for ours; And
+"G"d B B B | "D"A F F F | "A7"G E E E | "D"D2 z F |
+w: when you hear her se-raph lay, You think of love and flowers. Oh! |
+"D"F A "G"G B | "D"A f f A | "A7"G e e G | "D"F d d F |
+w: Jen-ny Lind! sweet Jen-ny Lind! A-round you shall the proud-est throng; While
+"D"F A "G"G B | "D"A f f A | "A7" G e e c | "D"d2 z (d/e/) |
+w: those who can-not raise the wind, Shall out-side hear your song.
+"D"f(f/a/) "G"g(g/b/) | "D"a(f'/e'/ d'/c'/b/a/) | "A7"G(c'/b/ a/g/f/e/) | "D"d2 [d'afd] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+W:2.
+W: O you're a bird with golden wings,   A nightingale they say you are,
+W: And one so rare, that when she sings Her notes are over par.
+W: All other warblers stand aghast      And "spinning Jennies" are no go;
+W: Old piping Boreas cries "avast!"     \AEolus sighs "oh, no!"
+W:      Oh! Jenny Line &c.
+W:
+W:3.
+W: The shops are full of Jenny Lind,      Her shawls and gloves are every where;
+W: And dry-goods flaunt upon the wind,    Just such as Jenny's are.
+W: No songs are sweet but those you sing, No shoes fit well without your name:
+W: Your bonnet__ O that's just the thing  For miss or stately dame.
+W:      Oh! Jenny Lind &c.
+W:
+W:4.
+W: My daughters__ they're all Jenny Lind, My own cravat has Jenny ties;
+W: My wife around her neck has pinn'd     A kerchief with her eyes.
+W: The cat and all her kittens too        To Jenny Lind's array belong;
+W: And every time they howl or mew,       I feel the "power of song!"
+W:      Oh! Jenny Lind &c.
+

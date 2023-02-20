@@ -1,0 +1,16 @@
+X: 1
+T: the Phoenix Reel 1
+C: Dave Hennessy 1989
+D: David Knight/Liz Donaldson "Waverley Station"
+R: reel
+M: 4/4
+L: 1/8
+S: http://terrytraub.org/abc/PhoenixR.abc
+K: D
+e2"A" \
+| "D"f2 df edcd | "G"B2 BA "A"Bcde \
+| "D"f2 df edcd | "G"BAGB "A"Aaag | "D"f2 df edcd |
+| "G"B2 dB BAFA | "D"d2 dc defd | "A"ed c2 dcBA "B" \
+:: "Bm"B2 BA Bcde | "G"f2 df "A"edcd |
+| "Bm"B2 BA Bcde | "G"fd ec "A"dcBA | "Bm"B2 FB GBFB \
+| "Bm"BcdB "A"cBAc | "Bm"B2 BA Bcde | "A"fdec "D"d2 :|

@@ -1,0 +1,27 @@
+X: 2131
+T: the FLAGON
+Q: "Reel."
+R: Reel.
+%R: reel
+B: James Kerr "Merry Melodies" v.2 p.16 #131
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The last accidental in bar 12 is poorly printed, and may be F sharp or F natural.
+M: C
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: G
+uc |:\
+BG G/G/G (BG)dG | BG G/G/G G2 gd |\
+BG G/G/G (BG)d_B | (A/_B/c) (=Fc) AFcA ::\
+{ef}g2(dB) GBdB | {ef}g2(dB) gbaf |\
+{ef}g2(dB) GBd_B | A=fcf A=FcA :|
+|:\
+(B/c/d) (gd) (B/c/d) (gd) | (B/c/d) (gd) BGG_B |\
+[1 (A/_B/c) (=fc) A/B/c (fc) | (A/_B/c) (=fc) A=FFc :|\
+[2 =fgag fgfd | cA=fc A=FF |]
+uc |\
+(B/c/d) (Gd) BdGd | BdGd BGG_B |\
+(A/_B/c) (=Fc) AcFc | Ac=Fc AFFc |\
+(B/c/d) (Gd) BdGd | BdGd BGGe |\
+=fgag fgfd | cA=fc A=FF |]

@@ -1,0 +1,19 @@
+X:145
+T:Confesse
+C:John Playford 1651
+H:Mr Confesse was a court dancing master active in the early 17th century.
+N:Originally in Gm
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%stretchstaff 0
+%%MIDI program 68     Oboe
+%%MIDI bassprog 32    Acoustic Bass
+%%MIDI chordprog 32   Acoustic Bass
+Q:3/8=120
+M:6/8
+L:1/8
+K:Am
+P:A
+|: "Am"A2B c2d | "/"e2e e2e | "Dm"f3 "Am"e2e | "Dm"a3 "E7"^g3 :|
+P:B
+|: "G"b2g "Am"c'2a | "G/B"bg2 "C"e2f | "C"ge2 "Dm"d2e | "Am/E"ed2 "E7"e3 |\
+"Am"c2d e>fe | "Dm"fe2 d3 | "Am/E"e2a ^g2a | "E7"b^g2 "Am"a3 :|

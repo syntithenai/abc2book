@@ -1,0 +1,21 @@
+X: 1
+T: Helena Polka
+C: trad. American
+N: Called "Bohemian 19th C." by some sources.
+R: polka
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+P: (AABB AACC)xN + AA
+K: Bb
+|: "Bb".f2.f2 .f2.f2 | "F7".f2.f2 fgfe |\
+   "Bb"(e2.d2) .d2.d2 | d4 FBdf | "F7"(d2.c2) .c2.c2 |\
+[1 c4 FAcf | "Bb"(e2.d2) .d2.d2 | d4 DFBd :|
+[2 "F7"c6 c2 | fecA F2A2 | "Bb"B2B2 HB2z2 :|\
+[K:F]\
+|: "F"c2{dc}Ac f2a2 | "F"c2{dc}Ac f2a2 |\
+"C7"g2c'2 g2c'2 |[1 "F"b2a2 agf2 :|[2 "F"f2f2 f2"d.C."z2 :|
+[K:Eb]\
+|: "Eb"B8 |  =A2B2 c2B2 | "Eb"e8- | e2e2 d2c2 |\
+[1 "Bb"B8 | d4 f4 | "Eb"[c4^F4] [B4G4] || z2G2 A2=A2 :|\
+[2 "Bb7"B4 d4 | [g4B4] [f4A4] | "Eb"[e4G4] [e4G4] | [e4G4] "d.C."z4 :|

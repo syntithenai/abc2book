@@ -1,0 +1,27 @@
+X:3
+T:Silent Night
+C:J. Mohr/F. Gruber
+Q:140
+S:Ted Neil <ted.neil:amd.com> abcusers 2002-12-15
+V:1 % program 1 40 volume 75
+V:2 % program 1 68 volume 128
+V:3
+M:3/4
+L:1/4
+K:C
+V:1 "_Melody""C"G>A G|E3|G>A G|E3|"G"d2 d|B3|"C"c2 c|G3|
+V:2 "_Baritone Harmony""C"E>F E|C3|E>F E|C3|"G"B2 B|G3|"C"G2 G|E3|
+V:3 "_Tenor Harmony""C"c>d c|G3|c>d c|G3|"G"g2 g|d3|"C"e2 e|c3|
+%
+V:1 "F"A2 A|"C"c>B A|G>A G|E3|"F"A2 A|"C"c>B A|
+V:2 "F"F2 F|"C"G>F E|E>F E|C3|"F"F2 F|"C"G>F E|
+V:3 "F"c2 c|"C"e>d c|c>d c|G3|"F"c2 c|"C"e>d c|
+%
+V:1 "C"G>A G|E3|"G"d2 d|f>d B|"C"c3|e3|
+V:2 "C"E>F E|C3|"G"B2 B|c>B G|"C"G3|c3|
+V:3 "C"c>d c|G3|"G"g2 g|a>g d|"C"e3|g3|
+%
+V:1 "C"c>G E|"G"G>F D|"C"C3-|C3||
+V:2 "C"G>E C|"G"D>C B,|"C"G,3-|G,3||
+V:3 "C"e>c G|"G"B>A G|"C"E3-|E3||
+%

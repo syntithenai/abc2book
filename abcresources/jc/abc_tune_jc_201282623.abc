@@ -1,0 +1,31 @@
+X:1
+T: Great Waltz of China, The
+I:
+% %staffwidth     14.50cm
+C: W-39
+C: \2511985 Mark Simos
+M: 3/4
+Z:
+R: waltz
+K: D
+"D"A2 FA "G"Bd | "D"A2 BA "A/C#"FE | "Bm"F2 DF "Bm/A"EF | "Gsus2"DB, A,4 |\
+"D"A2 Fd "G"BA | "Bm"F3 (3E/F/E/ D>F | "F#m"A6- | "A"A6- |
+"D"A2 FA "G"Bd | "D"A2 BA "A/C#"FE | "Bm"F2 EA "Bm/A"FD | "G"ED B,3A |\
+"D"F4 B,A, | "A"E4 B,A, | "G"D6- | "D"D6 :|
+|:\
+"A"EF AB "Bm"F2 | "G"EF DB, "D/F#"D2 | "Em"E2 "A"EF "F#m"A>B | "Bm"F6 |\
+"G"E2 FE DB, | "D"DA, "G"B,D "D"A,D | "Em"EB, DE B,>E | "A"F4 E2 |
+"D"A2 FA "G"Bd | "D"A2 BA "A/C#"FE | "Bm"F2 EA "A/B"FD | "G"ED B,3 A, |\
+"D"F4 B,A, | "A"E4 B,A, | "G"DB, "A7"D3E | "D"D6 :|
+
+% %begintext ragged
+% % "The 'Great Waltz of China' was a forgotten pundit's winning submission to the 1985
+% % Ashokan Celtic Week Original Tune Title Competition.  Later that summer, during
+% % Northern Week, I sat alone one dawn at the piano in the Ashokan dance hall and wrote
+% % a tune to go with the name.  (Attentive listeners will note a judiciously pentatonic
+% % melody ensnared midst a decidedly Western harmonic substrate.)  A mystery of music:
+% % that one heart's sad and lonely moments may help another's sun rise some day."
+% % CD/cassette/tunebook 'All the Time in the World (And a Little Bit More)',
+% % Mark Simos/Samizdat Music, 45 Shea Rd, Cambridge, MA 02140-1225.
+% % endtext
+%

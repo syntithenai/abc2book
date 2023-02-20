@@ -1,0 +1,15 @@
+X: 11093
+T: William and Margaret
+%R: air, waltz
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.9 #3
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The key signature has only the one sharp, bu the only c note has a sharp.  Not fixed.
+M: 3/4
+L: 1/8
+K: Dmix
+"_Slow"A2 |\
+(d>e) f2 e2 | d2 (A2 B2) | A2 D2 E2 | F4 (f>e) |\
+d2 A2 G2 | F2 G2 F2 | E4 ::\
+E2 |\
+(FG) A2 E2 | F2 d2 ^c2 | B2 A2 G2 | (F2 G2) B2 |\
+A2 d2 D2 | G2 TE4 | D4 :|

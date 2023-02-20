@@ -1,0 +1,33 @@
+X: 1
+T: Althrop House
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.3:17
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c/d/ |\
+eca2 ecdf | ecBA TB3D | CEAB cdef | ecac TB3 c/d/ |\
+eca2 ecdf | ecBA TB3D | CEAB cfed | c2B2 A3 :|
+|: c |\
+BEdB cAec | BEdB Tc3A | BEdB cefg | ((3agf) ((3edc) TB3c |\
+BEdB cAec | BEdB Tc3D | CEAB cfed | c2B2 A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+a |\
+a2A2 c2d2 | c2d2 e2g2 | a2e2 abc'd' | c'2a2 e'2e2 |
+a2e2 A2d2 | c2d2 e2g2 | a2e2 Adcd e2E2 A3 :|
+|: a |\
+g2e2 a2A2 | g2e2 a2A2 | g2e2 ac'd'b | c'2a2 e'2e2 |
+g2e2 c2A2 | e2g2 a2e2 | A2e2 adcd | e2E2 A3 :|
+% - - - - - - - - - - Dance description: - - - - - - - - - -
+%%begintext align
+%% The 1st Man sets to the 2d Wo. & turn her .|
+%% the 1st Wo. sets to the 2d Man & turn :|
+%% the 2d Man sets to the 3d Wo. & turn .|.
+%% the 2d Wo sets to the 3d Man & turn :|:
+%% the 1st Cu. cross over two Cu. lead up to the top & cast off |
+%% hands round 4 with the 3d Cu. Right & Left at top :|:
+%%endtext

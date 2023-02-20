@@ -1,0 +1,19 @@
+X:98
+T:The Westbrook Muster
+C:John McDonagh, 7/27/1968
+M:6/8
+Q:1/8=300
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d|:LBcd e2d|e2f g2e|d2B G2B|d2B e2d|LBcd e2d|e2f g2a|b2b agf|[1 e3 e2d:|[2 e3-ez f|
+g2d B2G|TF6|A^GA a^ga|def g2f|g2d B2G|TF6|A^GA a^ga|def g2z|
+K:D
+a3 d2f|afd Adf|g2e c2e|gec A2z|f2g f2d|B2d f2d|efe dcB|A2z b3|
+a3 d2f|afd Adf|g2e c2e|gec A2z|f2g f2d|Bz2 ~F3|d3 cdc|B2z d3|
+K:G
+|:LBcd e2d|e2f g2e|d2B G2B|d2B e2d|LBcd e2d|e2f g2a|b2b agf|[1 e3 e2d:|[2 e3-e z2|]
+%%newpage

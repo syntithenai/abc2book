@@ -1,0 +1,665 @@
+
+X: 1
+T: Becky's Mode
+C:David A. Kaynor 2000
+M:4/4
+K:Am
+|:dc|"Dm"Addc Addc|AdcAd2Ad|\
+"C"cAAG AdcA|"G"BdcB "C"c2Bc|
+|"Dm"Addc Addc|AdcA "F"f2fe|\
+"Dm"fafd "G"BdBG|"Am"AdcA d2:|
+|:de|"Dm"f2af fafd|"C"cdef g2cB|\
+cdef gccB|cdef g2fe|
+|"Dm"f2af fafd|"C"cdef gccB|\
+cdef gcBc|"Am"AdcA "Dm"d2:|
+
+%%sep 1 1 500
+
+X: 1
+T: Campbell's Dilemma
+C:David A. Kaynor 1978
+M:4/4
+K:D
+|:((3ABc)|"D"d2c>d "G"B>d "D"A2|\
+"G"B>d "A"d>c "D"d2 "A"((3ABc)|\
+"D"d2cd "G"e>A "F#m"f>A|\
+"Em"e>d c>B "A"A2 ((3ABc)|
+|"D"d2c>d "G"B>d "D"A2|\
+"G"B>d "A"d>c "D"d2 ((3efg)|\
+a2e>f "Em"g>A f>A|\
+"A"((3efe) ((3ABc) "D"d2:|
+|:((3efg)|"D"a3b a>f d>f|\
+"A"g>A f>A e2 d>e|\
+"D"f>A "A"g>A "D"((3aba) f>d|\
+"Em"e>d c>B "A"A2 ((3efg)|
+"D"a3b a>f g>a|\
+"G"((3bag) f>d "A"e2 d>e|\
+"D"f>A "A"g>A "D"((3aba) f>d|\
+"A"((3efe) d>c "D"d2:|
+
+%%sep 1 1 500
+
+X: 1
+T: Corie
+C: David A. Kaynor (Jan 2019)
+S: http://www.natunelist.net/corie/
+S: Youtube video of David and friends playing it.
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+DE |\
+"D"F6 EF | "G"G6 EG | "D"F3F E2D2 | A,6 A,2 |\
+"G"B,4 D4 | "D"A,4 D3E | "A"E8- | E6 DE |
+"D"F6 EF | "G"G6 EG | "D"F3F E2D2 | A,6 A,2 |\
+"G"B,4 G3F | "A"E3D C2D2 | "D"D8- | D2A2 "A"B2c2 ||
+"D"d3d c2A2 | "G"B6 cd | "A"e3d c2d2 | "D"d4 f2g2 |\
+"D"a4 g2f2 | "G"g3f e2d2 | "A"A8- | A6 fg |
+"D"a3a g2f2 | "G"g6 eg | "D"f3f "A"e2d2 | "D"A6 A2 |\
+"G"B4 g4 | "A"e3d c2d2 | "D"d8- | d6 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Corie
+C: David A. Kaynor (Jan 2019)
+S: http://www.natunelist.net/corie/
+S: Youtube video of David and friends playing it.
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% = = = = = = = = = =
+V: 1 staves=2
+DE |\
+"D"F6 EF | "G"G6 EG | "D"F3F E2D2 | A,6 A,2 |\
+"G"B,4 D4 | "D"A,4 D3E | "A"E8- | E6 DE |
+"D"F6 EF | "G"G6 EG | "D"F3F E2D2 | A,6 A,2 |\
+"G"B,4 G3F | "A"E3D C2D2 | "D"D8- | D2A2 "A"B2c2 ||
+"D"d3d c2A2 | "G"B6 cd | "A"e3d c2d2 | "D"d4 f2g2 |\
+"D"a4 g2f2 | "G"g3f e2d2 | "A"A8- | A6 fg |
+"D"a3a g2f2 | "G"g6 eg | "D"f3f "A"e2d2 | "D"A6 A2 |\
+"G"B4 g4 | "A"e3d c2d2 | "D"d8- | d6 |]
+% = = = = = = = = = =
+V: 2
+A,2 |\
+D6 D2 | D4 B,4 | D3D A,2A,2 |D6 D2 |\
+G,4 B,4 | D4 A,3A | C8- | C6 A,2 |
+D6 A,2 | D6 CE | D3D A,2A,2 | D6 D2 |\
+G,4 D3D | C3B, A,2A,2 | A,8- | A,2F2 G2A2 ||
+A3A A2F2 | G6 AB | c3B A2G2 | [A6F6] de |\
+f3f e2d2 | d3d B2G2 | E8- | E6 Ae |
+f3f e2d2 | d6 Bd | d3d A2G2 | F6 F2 |
+G4 d2d2 | c3B A2G2 | [A8-F8-] | [A6F6] |]
+
+%%sep 1 1 500
+
+X: 1
+T: Flagstaff
+C: David A. Kaynor 2017
+R: reel
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+(3efg |\
+"A"a2ed cAEA | "D"FddF "A"EccE | "Bm"DBBA "C#m"GEFG | "D"ABcd "E7"e2fg |
+"A"a2ed cAEA | "D"FddF "A"EccE | "Bm"DBBA "C#m"GE"D"FD | "E7"EAAG "A"A2 :|
+|: ED |\
+"A"CEAE "Bm"DFBA | "E7"GBed "A"cAAE | "A"CEAE "Bm"DFBA | "E"GE"Bm"FD "E7"E2ED |
+"A"CEAE "Bm"DFBA | "E7"GBed "A"ce"E"fg | "A"aecA "C#m"GE"D"FD | "E7"EAAG "A"A2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Flagstaff
+C: David A. Kaynor 2017
+R: reel
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% %staves (1 | 2)
+% - - - - - - - - - -
+V: 1 staves=2
+(3efg |\
+a2ed cAEA | FddF EccE | DBBA GEFG | ABcd e2fg |
+a2ed cAEA | FddF EccE | DBBA GEFD | EAAG A2 :|
+|: ED |\
+CEAE DFBA | GBed cAAE | CEAE DFBA | GEFD E2ED |
+CEAE DFBA | GBed cefg | aecA GEFD | EAAG A2 :|
+% - - - - - - - - - -
+V: 2
+(3cde |\
+"A"e2cB AECE | "D"DAAD "A"CAAC | "Bm"B,DDB, "C#m"EB,CE | "D"DFAB "E7"B2de |
+"A"e2cB AECE | "D"DAAD "A"CAAC | "Bm"B,DDB, "C#m"EC"D"DB, | "E7"B,EED "A"[E2C2] :|
+|: CB, |\
+"A"A,CEC "Bm"B,DFD | "E7"EGBB "A"AEEC | "A"A,CEC "Bm"B,DFF | "E"EB,"Bm"DB, "E7"B,2B,B, |
+"A"A,CEC "Bm"B,DFD | "E7"EGBB "A"Ac"E7"de | "A"ecAE "C#m"EC"D"DB, |"E7"B,EED "A"[E2C2] :|
+% - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 1
+T: Green Apple Quickstep
+C: David Kaynor 1981
+R: march, reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: the Roaring Jelly collection (R-62)
+B: the Portland Collection v.2 p. 78
+M: 2/4
+L: 1/8
+K: G
+Bc |\
+"G"d2d>e | dBGD | "C"E>GEC | "G"B,GG2 |\
+"Am"A2A>B | cABc | "D7"d>^cde | d=cBA |
+y3 |\
+"G"G>FGA | Bdd2 | "C"e>def | "A/C#"g2ga |\
+"G"b>agd | "C"ceg>e | "G"dg"D"a>f | "G"g2 |]
+gf |\
+"Em"e>^def | "C"g>fge | "D"d>edB | "G"d2gf |\
+"C"e>fge | "G"dB"(A7)"GE | "D"D2"(A7)"F>E | "D7"DCB,A, |
+y3 |\
+"G"G,>B,DB, | "C"C>EGE | "D"D>FAF | "Em"G2 G>F |\
+"C"EGce | "G"d>ega | "G"b2"D"a2 | "G"g2 |]
+
+%%sep 1 1 500
+
+X: 1
+%%topspace .5
+T: Green Apple Quickstep
+C: R-62
+C: David Kaynor 1981
+M: C|
+Z:
+R: reel
+K: G
+B/c/| "G"d2d>e dBGD| "C"E>GEC "G"B,GG2| "D"A2A>B cABc| d>^cde d=cBA|
+      "G"G>FGA Bdd2| "C"e>def "Gdim7"g2ga| "G"b>agd "C"cea>e| "G"dg"D"a>f "G"g2:|
+|:\
+g/f/| "Em"e>^def "C"g>fge| "D"d>edB "G"d2gf| "C"e>fge "G"dBGE| "D"D2F>E DCB,A,|
+      "G"G,>B,DB, "C"C>EGE| "D"D>FAF "Em"G2 G>F| "C"EGce "G"d>ega| "G"b2"D"a2 "G"g2:|
+P: Harmony
+G/A/| B2B>c BGDB,| C>ECA, G,B,[B,2D2]| F2F>G AFGA| B>ABc BAGF|
+      D>DEF GBB2| cBcd e2ef| g>feB Ace>c| Bdd>c [B2d2]:|
+|:\
+B/d/| B>Bcd e>dec| B>cBG B2Bd| c>dec BGEG| F2A>G FEDC|
+      B,>DGD E>GcG| F>AdA B2BD| C2c2 B>cef| gdfd d2:|
+%
+
+%%sep 1 1 500
+
+X: 1
+T: Harpswell Tide
+C:David A. Kaynor September 2003
+M:4/4
+L:1/8
+K:Aion-3
+|:"A"EGAG AdcB|"Bm"BcAF FBB2|"E"EGBG Beed|"A"cBBc BAA2|
+|"A"EGAG AdcB|"Bm"BcAF FBcd|"A"efge "D"a2ed|"E"cBBc"A" BAA2:|
+|:"A"cefd "E"fgg2|"E"dfge "A"gaa2|"A"cefd "D"fged|"E"cBBc "A"BAA2|
+|"A"cefd "E"fgg2|"E"dfge g"A"aa2|"D"abgf "Bm"fged|"E"cBBc "A"BAA2:|
+
+%%sep 1 1 500
+
+X: 41
+T: High Clouds
+I: High Clouds	W-30	G	waltz
+C: W-30
+C: David Kaynor  \2511980
+M: 3/4
+Z: Transcribed to ABC by Mary Lou Knack
+R: waltz
+K: G
+D2 |: "G"G3F GA| Bd3 D2| "C"E4 ED| EG3 FE| "G"D2 G2 "D"A2| "G"Bd3 "C"c2|1      "Am"BA z2 G2| "D"[D4A4] (3DEF :|2 "D"B3G A2| "G"[G,4G4]|]
+Bc| "G"d3B GD| "C"EG3 E2| "D"D3E DC| "G"B,4 Bc|        d2 B3A| "Em"G2 F2 G2| "A"A4- AB| "D"A4 Bc|
+    "G"d3B GD| "C"EG3 E2| "D"D3E DC| "G"B,2 C2 D2|     "C"E3F GB| "D"A4 G2| "G"G6-| G4|]
+%%begintext ragged
+%%"This was composed when I was working in a high school special ed program,
+%%helping a teacher who was showing some of his photographs to a particularly
+%%inattentive and unappreciative group of kids.  He had taken exquisite pictures of
+%%clouds - that's where I got the idea for the tune".  Recorded on 'The Chimes of
+%%Dunkirk', from New England Dancing Masters Productions, 6 Willow St, Brattleboro,
+%%VT 05301.
+%%endtext
+%%text 9/1/98.  From "The Waltz Book", Bill Matthiesen. For use only by Roaring Jelly members
+
+%%sep 1 1 500
+
+X: 1
+T: High Clouds
+I:
+C: W-30
+C: David Kaynor  \2511980
+M: 3/4
+Z:
+R: waltz
+K: G
+D2 |: "G"G3F GA| Bd3 D2| "C"E4 ED| EG3 FE| "G"D2 G2 "D"A2| "G"Bd3 "C"c2|1\
+      "Am"BA z2 G2| "D"[D4A4] (3DEF :|2 "D"B3G A2| "G"[G,4G4]|]
+\
+Bc| "G"d3B GD| "C"EG3 E2| "D"D3E DC| "G"B,4 Bc| \
+       d2 B3A| "Em"G2 F2 G2| "A"A4- AB| "D"A4 Bc|
+    "G"d3B GD| "C"EG3 E2| "D"D3E DC| "G"B,2 C2 D2| \
+    "C"E3F GB| "D"A4 G2| "G"G6-| G4|]
+
+% %begintext ragged
+% %"This was composed when I was working in a high school special ed program,
+% %helping a teacher who was showing some of his photographs to a particularly
+% %inattentive and unappreciative group of kids.  He had taken exquisite pictures of
+% %clouds - that's where I got the idea for the tune".  Recorded on 'The Chimes of
+% %Dunkirk', from New England Dancing Masters Productions, 6 Willow St, Brattleboro,
+% %VT 05301.
+% %endtext
+%
+
+%%sep 1 1 500
+
+X: 1
+T: J D Robinson of Brasstown
+C: David Kaynor
+S: http://www.natunelist.net/jd-robinson-of-brasstown/
+N: James D Robinson was the chief firefighter in Brasstown, NC. He died August 14, 2015,
+N: while fighting a fire. The medical report suggested a heart attack triggered by stress
+N: and overexertion.  David Kaynor wrote this (Swedish-style) tune in his memory.
+R: march
+L: 1/8
+M: C|
+K: G
+P: A
+V: 1 staves=2
+"D"DF |\
+"G"G3D G2A2 | B4 d2Bc | d3e "D"d2c2 | "G"B6 AB |\
+"Am"c2A2 A3B | A2E2 E2AG | "D"F2ED "Am"E3D | "D"D6 "D"DF |
+"G"G3D G2A2 | B4 d2Bc | d3e "D"d2c2 | "G"B3G A2B2 |\
+"Am"c2A2 A3B | "D"A2D2 D2"Am"EC | "D"D3G FGAF | "G"G3G A2B2 |]
+V: 2
+A,D [|\
+D3B, D2D2 | G4 B2G2 | B3c A2F2 | G6 DG |
+A2E2 E3E | E2C2 C2EE | D2CA, C3A, | [F6A,6] A,D |
+D3B, D2D2 | G4 B2G2 | B3c/B/ A2FD | G3D D2G2 |
+A2E2 E3E | F2A,2 A,2CA, | A,3D D2FD | [D3B,3]D E2G2 |]
+P: B
+V: 1
+[|\
+"C"c3G E2G2 | c4 e4 | "G"d3D G2A2 | "G"B6 AB |\
+"Am"c2A2 A3B | A2E2 E2 AG | "D"F2ED "Am"E3D | "D"D6 AB |
+"C"c3G E2G2 | c4 e3f | "G"g3e "D"d2c2 | "G"B6 AB |\
+"Am"c2A2 A3B | "D"A2D2 D2 "Am"EC | "D"D3G FGAF | "G"G6 |]
+V: 2
+[|\
+G3E C2E2 | G4 c4 | B3B, D2D2 | G6 DG |
+A2E2 E3E | E2C2 C2EE | D2CA, C3A, | [F6A,6] FG |
+G3E C2E2 | G4 c3d | d3c A2FA | G6 DG |
+A2E2 E3E | F2A,2 A,2CA, | A,3D DEFD | [D6B,6] |]
+
+%%sep 1 1 500
+
+X: 1
+T: Karen's Kitchen
+C: David Kaynor
+M: 4/4
+L: 1/4
+Z: Contributed 2017-05-21 18:46:01 by Bruce Sagan sagan@math.msu.edu
+K: Gm
+D | G G G F/E/ | D D D B/c/ | d d c B/c/ | d3 D|
+G G G F/E/ | D D D d/c/ | B A/G/ A F | G3 :|
+|: d | g g g f/=e/ | f f f e/d/ | e e e d/c/ | d2 d2 |
+c c/B/ A G/A/ | B/c/ B/A/ G d/c/ | B A/G/ A F | G3 :||
+
+%%sep 1 1 500
+
+X: 1
+T: Karen's Kitchen    [Fm]
+C: David Kaynor
+S: Audrey Knuth on Facebook 2016-12-11
+L: 1/8
+M: C|
+K: Fm
+C2 |\
+"Fm"F2F2 "Eb"F2ED | "C7"C2C2 C2AB | "Fm"c2c2 "Eb"B2AB | "C7"c6 C2 |\
+"Fm"F2F2 "Eb"F2ED | "C7"C2C2 C2cB | "Fm"A2GA "C7"G2=E2 | "Fm"F6 :|
+|: c2 |\
+"Fm"f2f2 f2e=d | "Eb"e2e2 e2dc | "Db"d2d2 d2cB | "C7"c6 z2 |\
+"Bbm"B3A "C7"G2G2 | "Fm"ABAG F2cB | "Fm"A2GF "C7"G=E | "Fm"F6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Kind of a G Minor Day
+C:Susan Reid and David Kaynor?
+N:From a Facebook post by David Kaynor, 2014-3-19
+L:1/8
+M:4/4
+K:Bb
+|: D2 |\
+"Gm"G2GD GABc | d2dc BGGD | "F"F2FC FGAB | c2AG FCCF |
+"Gm"DGGD GABc | d2dc BGG2 | "Dm"cBcd cAGF |1 "Gm"G2GFG2 :|2 "Gm"G2GG GFGA |
+|:\
+"Bb"B2Bc dfga | babg fBdf | "Gm"g2ga gfga | "Cm"babg "F"fdcA |
+"Bb"B2Bc dfga | babg fBdf | "Dm"cBcd cAGF |1 "Gm"G2GG GFGA :| "Gm"G2GFG2 ||
+
+%%sep 1 1 500
+
+X: 1
+T: Laurie Buchanan's
+M:C|
+L:1/8
+K:A
+C:David Kaynor
+"A"A2 ce aecA|"G"=G2EF GABd|"A"cAce a2 ec|"E7"dBed "A"cA A2|!
+"A"EAcA eAcA|"G"=G2EF GABd|"A"cAce a2 ec|"E7"dBed "A"cA A2:|]!
+"A"a2 ed cA A2|aecA "Em"=GE E2|"A"a2 ed cAAc|"E7"dBed "A"cA A2|!
+"A"a2 ed cA A2|aecA "Em"=GE E2|"A"EAcA eAcA|"E7"dBed "A"cA A2|]!
+
+%%sep 1 1 500
+
+X: 1
+T: Lavinia's Polka
+C:David A. Kaynor
+R:Reel
+M:C
+K:D
+|:"D"d2d2d2AG|F2 A2D2 DF|\
+"A"EDEF GECE|"D"DEFGA2 Bc|
+W: fine
+"D"d2d2d2 AG|F2 A2D2 DF|\
+"A"EDEF GECE|"D"D2F2D4 :|
+K:A
+|:"A"E2 CE AEAB|cAce a4 |\
+"A"c'eac' "E"b2 bg|"D"afdf"A"e4|
+"A"c'eac' "E"b2bg|"D"afdf "A"edcA|\
+"Bm"Bcdf "E"e2G2|[1"A"A2A2A4:|\
+[2 "A"A2A2A2Bc||
+K:D
+|:"D"d2d2d2AG| F2A2D2 DF|\
+"A"EDEF GECE|"D"DEFG A2Bc|
+"D"d2 d2d2 AG|F2 A2D2 DF|\
+"A"EDEF GECE|"D"D2F2D4 :|
+K:G
+|:"G"G4G2AB|"D7"c2d2 "G"B4|\
+"Am"ABcd efga|"D"bage dcB2|
+"G"G4G2AB|"D7"c2d2"G"B4|\
+"Am"ABcd "D"e2f2|"G"g8:|
+W: d.c.al fine
+W:For Lavinia Marie, June 13, 2003
+
+%%sep 1 1 500
+
+X: 1
+T: Lavinia's Polka
+C:David A. Kaynor
+R:Reel
+M:C
+K:D
+|: "D"d2d2d2AG | F2 A2D2 DF |\
+"A"EDEF GECE | "D"DEFGA2 Bc |
+W: fine
+"D"d2d2d2 AG | F2 A2D2 DF |\
+"A"EDEF GECE | "D"D2F2D4 :|
+K:A
+|: "A"E2 CE AEAB | cAce a4 |\
+"A"c'eac' "E"b2 bg | "D"afdf"A"e4 |
+"A"c'eac' "E"b2bg | "D"afdf "A"edcA |\
+"Bm"Bcdf "E"e2G2 |[1 "A"A2A2A4 :|[2 "A"A2A2A2Bc ||
+K:D
+|: "D"d2d2d2AG | F2A2D2 DF |\
+"A"EDEF GECE | "D"DEFG A2Bc |
+"D"d2 d2d2 AG | F2 A2D2 DF |\
+"A"EDEF GECE | "D"D2F2D4 :|
+K:G
+|: "G"G4G2AB | "D7"c2d2 "G"B4 |\
+"Am"ABcd efga | "D"bage dcB2 |
+"G"G4G2AB | "D7"c2d2"G"B4 |\
+"Am"ABcd "D"e2f2 | "G"g8 :|
+W: d.c.al fine
+W:For Lavinia Marie, June 13, 2003
+
+%%sep 1 1 500
+
+X: 1
+T: A Leader in His Field
+C:David A. Kaynor 2002
+R:Reel
+M:C
+K:Bb
+|:"Bb"d3cB2FE|DB,DF B2cB|"F"AFAcf2 fg|"Cm"abag "F"fedc|
+|"Bb"d3c BGFE|DB,DF B2 cB|"F"AFAc fgfe|"Bb"dBBA B4:|
+|:"F"AFAc f2fe|"Bb"dfba b3f|"Eb"e3cd3 "Bb"B|"F"cecA "Bb"B4|
+|"F"AFAc fgfe|1"Bb"dfba b3 f|"Eb"gfga "Bb"bfdB|"F"cecA "Bb"B4:|
+|2dfba b2(3(fga)|"Cm"bfdB "F"c2fe|"Bb"dB"F"BA "Bb"B4||
+W:
+W:
+W:This tune gradually came together over a period of time in the summer of 2002 during the
+W:final months of my dad's life. He was able to spend them in his own home under the care
+W:of his wife Nezi and my brother Dick, my sisters Cindy and Carol, our nieces Hilary and
+W:Lauren, and our wonderful uncles, aunts, and cousins.
+W:
+W:I periodically took my fiddle out to his garage there to play freely without bothering
+W:anyone. Relaxed and released by music, my thoughts often turned to the enormity
+W:of our father's contributions to the fields of guidance and psychological services and
+W:the innumerable lives bettered as a direct or indirect result of his efforts.
+W:
+W:I dearly wanted to play the tune with my cousins and old friends at the memorial service
+W:at Springfield College to which he had given his all for 38 years. But until July of 2003,
+W:no matter how often I tried, I just couldn't finish it. Now it's done...I think...
+
+%%sep 1 1 500
+
+X: 1
+T: A Leader in His Field
+C: Campbell's Dilemma (Schottische)
+C: David A. Kaynor 2002
+R: Reel
+M: C
+K: Bb
+|:"Bb"d3cB2FE|DB,DF B2cB|"F"AFAcf2 fg|"Cm"abag "F"fedc|
+|"Bb"d3c BGFE|DB,DF B2 cB|"F"AFAc fgfe|"Bb"dBBA B4:|
+|:"F"AFAc f2fe|"Bb"dfba b3f|"Eb"e3cd3 "Bb"B|"F"cecA "Bb"B4|
+|"F"AFAc fgfe|1"Bb"dfba b3 f|"Eb"gfga "Bb"bfdB|"F"cecA "Bb"B4:|
+|2dfba b2(3(fga)|"Cm"bfdB "F"c2fe|"Bb"dB"F"BA "Bb"B4||
+W:
+W:
+W:This tune gradually came together over a period of time in the summer of 2002 during the
+W:final months of my dad's life. He was able to spend them in his own home under the care
+W:of his wife Nezi and my brother Dick, my sisters Cindy and Carol, our nieces Hilary and
+W:Lauren, and our wonderful uncles, aunts, and cousins.
+W:
+W:I periodically took my fiddle out to his garage there to play freely without bothering
+W:anyone. Relaxed and released by music, my thoughts often turned to the enormity
+W:of our father's contributions to the fields of guidance and psychological services and
+W:the innumerable lives bettered as a direct or indirect result of his efforts.
+W:
+W:I dearly wanted to play the tune with my cousins and old friends at the memorial service
+W:at Springfield College to which he had given his all for 38 years. But until July of 2003,
+W:no matter how often I tried, I just couldn't finish it. Now it's done...I think...
+
+%%sep 1 1 500
+
+X: 1
+T: Master of the Dance
+M:C|
+L:1/8
+K:D
+C:David Kaynor
+"D"D2 DE F2 FE|DEFD "A"EA, (3A,A,A,|"D"D2 DE F2 ED|"A"CEAB AGFE|!
+"D"D2 DE F2 FE|DEFD "A"EA, (3A,A,A,|"D"D2 DE F2 ED |"A"CEAB A4:|]!
+"A"Acec "D"Adfd|"A"ecAG "D"FADF|"G"G2BG "Em"E2 B,D| "A"CDEC A,4|!
+"A"Acec "D"Adfd|"A"ecAG "D"FADF|"G"G2BG "Em"E2 B,D| "A"CDEC "D"D4:|]!
+
+%%sep 1 1 500
+
+X: 1
+T: Michael Robinson
+C: David A. Kaynor (March 2017)
+R: jig
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dm
+V: 1 gch=0 staves=2	% Connect bar lines between voices
+V: 2 gch=1
+[V:1]"A"|:\
+  "Dm"fed d2A | d3 def | "C"ecA A2c | "Am"e3 efg |\
+  "Dm"fed d2A | d3 def | "C"ecA ABc |1 "Dm"d3 d2"Am"e :|2 "Dm"d3 "A"e^fg |][K:D]
+[V:2]|:\
+  "Dm"d2A F2D | A3 A2d | "C"cGE E2G | "Am"c3 cde |\
+  "Dm"d2A F2D | A3 A2d | "C"cGE EGA |1 "Dm"A3 A2"Am"c :|2 "Dm"A3 "A"^cde |][K:D]
+[V:1]"B1"[|\
+  "D"a2f def | "G"g2B "Em"e2A | "A"cde    e2A | "D"f3 efg |\
+  "D"a2f def | "G"g2B  "A"e2A | "G"Bcd "A"d2c | "D"d3 "A"efg |]
+  "B2"[|\
+  "D"a2f def | "G"g2B "Em"e2A | "A"cde    e2A | "D"fef gab |\
+  "D"a2f def | "G"g2B  "A"e2A | "G"Bcd "A"d2c | "D"d3- d3 |]
+[V:2][|\
+  "D"f2d Acd | "G"d2G "Em"B2E | "A"ABc    c2E | "D"d3 cde |\
+  "D"f2A Acd | "G"d2G  "A"A2E | "G"GAB "A"A2G | "D"[A3F3] "A"c2e |]
+  [|\
+  "D"f2d Acd | "G"d2G "Em"B2E | "A"ABc    c2E | "D"dcd efg |
+  "D"f2d Acd | "G"d2G  "A"A2E | "G"G2B "A"A2A | "D"[A3F3]- [A3F3] |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Montague Processional
+C: David Kaynor
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: "D"D3F "(A7)"A2Bc | "D"d6 ef | "Em"g3f e2d2 | "G"B6 ef | "Em"g2fe "A7"a3g |
+| "D"f2d2 "G"g2ag | "D"fafd "A7"egec |1 "D"d2AG "A7"FEDC :|2 "D"d4 "A7"{c}defg ||
+|: "D"a3g "(A7)"f2e2 | "D"d6 ef | "Em"g3f e2d2 | "G"B6 ef | "Em"g2fe "A7"a3g |
+| "D"f2d2 "G"g2ag | "D"fafd "A7"egec |1 "D"d4 "A7"{c}defg :|2 H"D"d2AG "A7"FE"d.C."DC |]
+
+%%sep 1 1 500
+
+X: 1
+T: Montague Reel
+M:C|
+L:1/8
+K:D
+C:G. Reynolds, David Kaynor, J. Borland
+(3(ABc)|"D"d2 AG FDDF|"Em"GEED "AM"CA,A,A|"D"d2 AG FDDF|"A7"GEDC "D"D2(3(ABc)|!
+|"D"d2 AG FDDF|"Em"GEED "AM"CA,A,G|"D"FDDA "G"BGdB|"A"cAec"D"d2:|]!
+(3(efg)|"D"fddg fddf|"A"eAAd (3(dBA) Ag|"D"fddg fddf|"A"ecAc"D"d2(3(efg)|!
+|"D"fddg fddf|"A"eAAd (3(cBA) AG|"D"FDDA "G"BGdB|"A"cAec"D"d2:|]!
+
+%%sep 1 1 500
+
+X: 1
+T: Nancy King
+C:David A. Kaynor October, 2004
+M:C
+R:Reel
+K:F
+|:"F"agfe "Bb"fdcB|"C"ABGE "F"FCC2|"Dm"FGAF "Gm"D2GF|"C"EG"G"cd "C"c2fg|
+"F"agfe "Bb"fdcB|"C"ABGE "F"FCFE|FGAF "Gm"G2cB|[1A"C"BGE "F"F2fg:|\
+[2A"C"BGE "F"F2AB||
+|:"F"c3B AFGA|"Bb"BABG AFAB|"F"c3B Acfa|"C"abge"F"f2fg|
+|"F"abge "Bb"fdcB |"C"ABGE "F"FCFE|"Dm"FGAF "Gm"G2cB|[1A"C"BGE "F"F2AB:|\
+[2A"C"BGE "F"F4|]
+
+%%sep 1 1 500
+
+X: 1
+T: a Recent Fall
+C: David A. Kaynor July 2015
+F: https://dl.dropboxusercontent.com/u/54565722/Recent%20Fall%2C%20A%20%28harmonized%20one%20page%29.pdf
+R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+% - - - - - - - - - -
+V: 1 staves=2
+[|\
+"Em"EFE EB,E | EFE EB,E | EFE G2A | B3 B3 |\
+"Am"ABA AEG | ABA AEG | ABA ABc | "B7"B3 B3 |
+"Em"EFE EB,E | EFE EB,E | EFE G2A | B3 B3 |\
+"Am"ABA AEF | "Em"G2B, EGA | "B7"BcB AGF | "Em"E3- E2B |]
+"Am"cea aec | cea a2f | "Em"geB G2A | B3 B2G |\
+"Am"ABA AEG | ABA AEG | ABA ABc | "B7"B3 B3 |
+"Am"cea aec | cea a2f | "Em"geB G2A | B3 B2G |\
+"Am"ABA AEF | "Em"G2B, EGA | "B7"BcB AGF | "Em"E3- E3 |]
+% - - - - - - - - - -
+V: 2
+[|\
+"Em"B,2B, B,G,B, | B,2B, B,G,B, | B,2B, E2F | G3 G3 |
+"Am"EGE ECE | EGE ECE | EGE EGA | "B7"F3 F3 |
+"Em"B,2B, B,G,B, | B,2B, B,G,B, | B,DB, E2F | G3 G3 |
+"Am"EGE ECE | "Em"E2B, B,EF | "B7"F2F F2B, | "Em"B,3 B,2B |]
+"Am"Ace ecA | Ace e2^d | "Em"eBG E2F | G3 G2E |
+"Am"EGE ECE | EGE ECE | EGE EGA | F3 F3 |
+"Am"Ace ecA | Ace e2^d | "Em"eBG E2F | G3 G2E |
+"Am"EGE ECE | "Em"E2G, B,EF | "B7"FAF F2B, | "Em"B,3 B,3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: This Fall
+C: David A. Kaynor October 2016
+S: Facebook post 2016-10-24
+R: waltz
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+|:\
+"Am"ABcA ED | E2 A4 | ABcA ED | "Dm"D6 |\
+"Dm"DEFD FA | B2 A4 | DEFA Bd |1 "D"dBBA B2 :|2 "E"d3B de |]
+"Dm"fAde fa | b2 a4 | "Am"aeeA cd | e3A cA |\
+"Dm"dAAc d2 | dAAc d2 | dAAc dB | "E7"e3B de |
+"Dm"fAde fa | b2 a2 c'b | "Am"c'aeA cd | e3A cA |\
+"Dm"dAAc de | d2 A4 | "E7"dBBA Bc | "Am"A6 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Tracy's Turn
+C:David A. Kaynor August 2003
+M:C
+K:A
+|:"A"EC .C/.C/.C EFAB|ceef ecAc |"Bm"BF .F/.F/.F Bcde|fecA "F#m"BAFA |
+"A" EC .C/.C/.C EFAB |ceef ecAc |"Bm"BF .F/.F/.F Bcde | [1 fa"E"ec "A"A2AF:|[2f"E"aec "A"A2 ed|]
+|: "A"cA A/A/B cAce | fefg aAce | "Bm"fB .B/.B/.A Bcde |fbba b2 ag|
+"A"ae .e/.e/.e fecB | A2cA "F#m"BAFA|"A"EC .C/.C/.C "D"EFAB| [1c"E"ecB"A"A2 ed :| [2c"E"ecB "A"A4 ||
+
+%%sep 1 1 500
+
+X: 1
+T: Tracy's Turn
+T: Becky's Mode
+C:David A. Kaynor August 2003
+M:C
+K:A
+|:\
+"A"EC .C/.C/.C EFAB | ceef ecAc | "Bm"BF .F/.F/.F Bcde | fecA "F#m"BAFA |
+"A" EC .C/.C/.C EFAB | ceef ecAc | "Bm"BF .F/.F/.F Bcde |\
+[1 fa"E"ec "A"A2AF :|[2 f"E"aec "A"A2 ed |]
+|:\
+"A"cA A/A/B cAce | fefg aAce | "Bm"fB .B/.B/.A Bcde | fbba b2 ag |
+"A"ae .e/.e/.e fecB | A2cA "F#m"BAFA | "A"EC .C/.C/.C "D"EFAB |\
+[1c"E"ecB"A"A2 ed :|[2c"E"ecB "A"A4 ||
+
+%%sep 1 1 500
+
+X: 1
+T: Under Influences
+C: David A. Kaynor (summer 2016)
+R: reel
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Ddor
+|:\
+"Dm"d2c2 A2G2 | FDDD A,DDD |\
+"Dm"d2c2 A2G2 | "G"GDGA "A"A2Ac |\
+"Dm"d2c2 A2G2 | FDDD A,DDF |
+"G"GDDG GDDG | "A"AEGA A2Ac ::\
+"Dm"dffe fdef | "G"gage "Dm"fdd2 |\
+"G"gage "Dm"fddf | "G"gaag "A"a2Ac |
+"Dm"dffe fdef | "G"gage fdfg |\
+[1 "G"gage "Dm"fdAG | "A"Addc "Dm"d2 "A"Ac :|\
+[2 "Dm"afge "G"fdcA | "A"Addc "Dm"d4 |]

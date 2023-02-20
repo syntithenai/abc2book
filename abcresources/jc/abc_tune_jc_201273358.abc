@@ -1,0 +1,27 @@
+X: 1
+T: Ershter Vals (First Waltz)   [Em]
+T: Ozhidanie (Expectation) Waltz
+%T: Ожидание
+C: G.L.Kitler (ca.1900)
+R: waltz
+N: This is a Yiddish song version of the Russian waltz tune Ozhidanie.
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+P: Play VVRRV BB RRV
+K: Em
+"Verse"[|]\
+zB |\
+"Em"c2B e2f | g3- gef | "Em"gef gag | "B"f3- f2B |\
+c2B f2g | a3- afg | afg abc' | "Em"b3- b2B |
+"Em"c2B e2f | g3- gef | "Em"gfg "D"aga | "G"b3- bc'b |\
+"Am"a/ z g/f- "B7"fba | "Em"g/ z f/e- eag |\
+"B7"f2f fe^d | "Em"e3- e :|
+"Refrain"\
+|: bg |\
+"Em"b3- bbg | b3- bc'a | "Am"c'3- c'c'a | c'3- c'fg |\
+"B7"a2a aga | "Em"b3- bag | "B7"fz c' bz ^d | "Em"e3- e :|
+"Break"\
+|: e'>d' |\
+"D"d'3- d'c'a | "G"b3- b=f'.e' | "E7"e'3- e'd'b | "Am"c'3- c'ab |\
+"D7"c'3- c'ae' | "G"d'3- d'bg | "D7"d>fa/c'/ e'2f | "G"g3- g :|

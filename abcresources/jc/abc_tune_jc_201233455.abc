@@ -1,0 +1,29 @@
+X: 19
+T: Back of the Change House
+%R: hornpipe, strathspey
+B: Name "Kauntze's Collection of the most favorite Dances, Reels, Waltzes, &c."
+F: http://imslp.org/wiki/Kauntze%27s_Collection_of_Dances,_Reels,_Waltzes_etc._%28Various%29
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B |\
+A>FAf e>dBd | TA>FAB d>edB |\
+A>FAf edc f/g/ | acAB d2d :|
+|: (g |\
+f)>ed(f e)>dBg | Tf>efg a>baf |\
+g>af>g e>dBg | f/g/a A>B d2-d |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 e2e2 | d2d2 d2d2 | d2d2
+e2e2 | d2A2 D2D :||: z | d2d2 e2e2 |
+d2d2 d2d2 | d2d2 e2e2 | d2A2 D2D |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%     Lead down 2 Cu: up again the Lady turns the 2d Gent: the Gent: turns the
+%% 2d Lady cross over, turn your Partner, Right and Left.
+%%endtext

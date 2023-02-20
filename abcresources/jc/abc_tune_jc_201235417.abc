@@ -1,0 +1,23 @@
+X: 21132
+T: BONNY JEAN OF ABERDEEN
+Q: "Slowly"
+%R: reel
+B: "Edinburgh Repository of Music" v.2 p.113 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C|
+L: 1/16
+K: G
+%%slurgraces 0
+%%graceslurs 0
+B3A |\
+G4 G2AB D6 E2 | {A}G2F2G2A2 c2B2A2G2 |\
+c4 c2e2 dB3A2G2 | ~A3B {d}cB{B}AG {F}E4 B3A |
+{F}G4 G2AB D4 E3F | G3AB2d2 {f}g4 f2e2 |\
+d3e edcB ~A3B ce/d/ f/e/d/c/ | B4 {cB}TA4 {GBA}G4 :|
+|: d2ef |\
+g4 g2ab d4 e3f | {a}g3f(f2a2) {g}b4 ~g3a |\
+b3a agfe d2e>f g2(3GBd | {d}c2B2{B}A2G2 {F}E4 B3A |
+G4 (GABd) D4 E3F | G2AB cdef g3f agfe |\
+~d3e edcB ~A3B cd/g/ f/e/(3(d/e/c/) | B4 {cB}TA4 {GBA} G4 |]

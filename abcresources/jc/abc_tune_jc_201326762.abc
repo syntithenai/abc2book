@@ -1,0 +1,42 @@
+X: 1
+T: Punk's Delight, [The New way.]
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.73 "H"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The ":S:" symbols are an early form of a "segno", meaning to repeat those measures.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+AAAA A2F2 | (GA/B/) (c/B/) (A/G/)  B c2 B |\
+cc ec e g2 (G/A/) | (BA/B/) (c/B/) (A/G/) B d2 B "^S:"|\
+AF D (f/g/) (a/g/) (f/e/) d(e/f/) | gB AG B d2 "^:S:"B |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up all a D. forward and back, that again. Set, that again .|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First man cross over, and taking the 2. wo. by both hands, turn her half about with her back inward, then put her back
+%% into the 2. place, while your we. do the like with the 2. man into the 1. place, slip through each other, hands all four
+%% round, then the 1. cu. arms into the 2. cu. place, whilst the 2. cu. arms in the 1. place.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First man going on the out-side, and his wo. on the in-side, the 2. wo. meet behind her, then the 1. man going on the
+%% in-side, and his wo. on the out-side, the 2. man meet behind him, then the 1. cu. and the 2. man right-hands a-cross and go
+%% round, then the 1. cu and 2. wo. right-hands a-cross and go round, the 1. cu. falling into the 2. place.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First man go on the out-side the 1. wo. the 2. man following him, the 1. man go through between the 1. and 2. we. and
+%% march to the wall, the two we. take hands and follow him, the 2. man behind them, then facing back follow the other
+%% man to the other wall, then meet, cast off to the right, your own wo. following you, and stay the men in the we. places, and
+%% the we. in their men's by the right-hands, we. doing the like; each change his own by the left-hand :|:|
+%% [DMDfD]
+%%endtext
+%%sep 1 1 300
+%%sep 1 8 500

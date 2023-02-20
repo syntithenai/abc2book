@@ -1,0 +1,16 @@
+X: 1
+T: \vCelebinsko Horo  [Em]
+O: Trakia, Thrace, Bulgaria
+M: 9/8
+L: 1/8
+%Q: 2/8 3/8 2/8 2/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: Printed MS from Yaron Shragai
+K: Em
+"^inst"\
+|: "G"~BA Bcd "D"~dc ~cB | "G"~BA GAB "Em"~GF E2 | "Am"E2 G-A2 ~BA ~AG |
+|[1 "Em"~GF EFD EF GA :|[2 "Em"~GF EFD E2 E2 \
+"^vocal"\
+|: "Em"E2 AG2 "Am"AG =F/E/D |
+"Em"E2 F~G=F E=F G2 | G2 AG2 "Am"AG =F/E/D | "Em"E2 F~G=F E2 E2 :|
+% %text Harmony a third higher works well.

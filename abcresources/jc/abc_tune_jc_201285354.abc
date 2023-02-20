@@ -1,0 +1,18 @@
+X:62
+T:Headlands, The
+R:Reel
+M:4/4
+L:1/4
+%%printtempo 0
+Q:180
+K:A
+P:A
+ed|\
+"A"d<cBA| A<cE>A| "D"F<A df| "E7"e2e f/g/| "A"a>efa| "F#m"f<edc|"B7"c>BAc| "E7"B2e>d|
+"A"d<cBA|A<cE>A| "D"F<Adf| a2gf| "A"e<a Ac|"E7"B<fed |"A"c2 "D"A2| A2:|
+P:B
+ef/g/|\
+"A"a>efa| c<ecA| "D"d<Adf| "E7"e2e f/g/| "A"a>efa| "F#m"f<edc| "B7"c>BAc|"E7"B2ef/g/|
+"A"a<eea|c<ecA| "D"d<Adf| a2gf| "A"e<aAc| "E7"B<fed|"A"c2 "D"A2|A2 "E7"ef/g/|
+"A"a>efa| c<ecA| "D"d<Adf| "E7"e2e f/g/| "A"a>efa| "F#m"f<edc| "B7"c>BAc|"E7"B2 e>d|
+"A"d<cBA|A<cE>A| "D"F<Adf| a2gf| "A"e<a Ac|"E7"B<fed |"A"c2 "D"A2| A2|]

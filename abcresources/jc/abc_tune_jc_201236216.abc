@@ -1,0 +1,24 @@
+X: 21794
+T: CORN RIGGS ARE BONNIE
+O: Scottish air.
+Q: "Slowly."
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.179 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Added missing flag to the first B in bar 7; removing the A's dot would also work..
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+c2(c>d) fedc | {c}B>ABc d2G2 |\
+c2c>d e>fed | c2g>a g2G2 |\
+c>Bcd {f}e2dc | B>ABc {e}d2cB |\
+A>Bc>A dcBA | G2c>d c3 :|
+|: G |\
+c2g2 e>fgc | {c}B>AB>c {d}d2G2 |\
+c2g>f e>fed | c2g>a g2G2 |\
+c2g2 agfe | fedc B>cdB |\
+A>BcA dcBA | G2c>d c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

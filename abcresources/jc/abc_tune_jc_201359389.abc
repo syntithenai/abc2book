@@ -1,0 +1,45 @@
+X: 1
+A:Thomas Tallis
+T:Thomas Tallis' Seventh Psalm Tune
+M:none
+L:1/4
+Q:1/4=120
+K:G Mixolydian
+%
+V:1 clef=treble
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+V:4 clef=bass+16 middle=D,%+
+%
+%%MIDI program 1	79 ocarina
+%%MIDI program 2	74 recorder
+%%MIDI program 3	78 whistle
+%%MIDI program 4	60 frenchrn
+%
+% Squeeze things together a bit, to get the whole tune to fit on one page.
+%%sysstaffsep    22.0pt
+%%systemsep      50.0pt
+%
+[V:1] z G  | B   >  A   G  E  |^F2   A  (c |c) (B/A/) G   E  | ^F2
+[V:2] z D  | G,  >  D   D  C  | A,2  A, (A,|A,) F,    G,  G, |  A,2
+w:      Why brag'st in mal-ice high, O   thou*  in   mis-chief stout?
+[V:3] z G, | D   >  A,  B, C  | D2   D  (E |E)  D     D  ^C  |  D2
+[V:4] z G, | G,  >  F,  G, A, | D,2  D, (A,|A,) D,    E,  E, |  D,2
+%
+[V:1] z G   | B  >  A   G  E  |^F2   A  (c |c) (B/A/) G   E  | ^F2
+[V:2] z B,  | G, >  D   D  C  | A,2  A, (A,|A,) F,    G,  G, |  A,2
+w:     God's good-ness yet is   nigh all day*   to    me  no   doubt.
+[V:3] z G,  | D  >  A,  B, C  | D2  =F  (E |E)  D     D  ^C  |  D2
+[V:4] z G,  | G, >  F,  G, A, | D,2  D, (A,|A,) D,    E,  E, |  D,2
+%
+[V:1] z D  | G  > D   E   F | G2   G  (A |A)  G   G ^F  | G2
+[V:2] z B, | D  > A,  B,  C | D2   B, (E |E)  D   D > C | B,2
+w:     Thy tongue to muse all evil it  doth*  it-self in- ure.
+[V:3] z G, | B, > A,  G,  C | B,2  G, (C |C)  B,  A, A, | G,2
+[V:4] z G, | G, > F,  E,  A,| G,2  G, (C,|C,) G,, D, D, | G,,2
+%
+[V:1] z D  | G  > D   E    F | G2    B   (A |A)  G   G   ^F  | G4   ||
+[V:2] z B, | D  > A,  B,   C | D2    B,  (E |E)  D   D    D  | B,4  ||
+w:      As   ra- zor sharp to spill, all  guile* it doth pro-  cure.
+[V:3] z G, | B, > A,  G,   C | B,2   G,  (C |C)  B,  A,   A, | G,4  ||
+[V:4] z G, | G, > F,  E,   A,| G,2   G,, (C,|C,) G,, D,   D, | G,,4 ||

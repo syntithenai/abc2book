@@ -1,0 +1,26 @@
+X: 1
+T: the Queen's Head
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.333
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the dance instructions.
+M: 6/4
+L: 1/4
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+e |\
+f>gf e>d^c | d2A D2a | g>af f>ed | d3 zz :|\
+f |\
+e/f/ge c2f | f/g/af d2f | g>ab a>gf | f2c F2e |
+f>gf e>d^c | d2A D2a | g>af f>ed | d3 zzA |\
+AFA c>BA | BG2 e3 | d>ec c>=BA | A2E A,2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%    The 1. cu. Arms down the middle, and cast up into their places, the 2. cu. Arms up the middle, and
+%% cast off.  This to the first Strain twice.  Then the 1. man Arms round with the 2. wo. and the 2. man with
+%% the 1. wo. then the 1. cu. cast off, then Right and Left quite round.  This to the last Strain once.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

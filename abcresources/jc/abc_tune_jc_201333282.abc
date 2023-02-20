@@ -1,0 +1,17 @@
+X: 827
+T: No.2 the Sailor's Hornpipe
+R: hornpipe
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #827
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0827/oneill-1001-0827-1.abc
+% Title in index: "Sailor's hornpipe, No. 2"
+M: C|
+L: 1/8
+K: D
+"^A"[|]\
+  (3ABc | dcdA FAdf  | edcB A2(fg) | afaf bagf | edcB A2 ||
+|| (fe) | dcdA FAdf  | edcB A2(fg) | afdg bgec | d2d2 d2 :|
+"^B"\
+|:(3efg | afaf d2(ga)| bgbg e2(fg) | afaf bagf | edcB A2 ||
+|| (fe) | dcdA FAdf  | edcB A2(fg) | afdg bgec | d2d2 d2 :|

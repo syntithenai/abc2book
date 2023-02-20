@@ -1,0 +1,112 @@
+
+X: 11
+T: Dutchess of Devonshires Reel    [G]
+O: 1779
+R: reel
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 staves=2	% Formatted for proofreading on my screen.
+|:\
+"G"G4 "D7"(ABcA) "G"B2G2"(D7)"d2B2 | "G"G4 "D7"(ABcA) "G"B6d2 |\
+"G"G4 "D7"(ABcA) "G"B2G2d2B2 | "(Em)"(g2e2)"A7"(d2^c2) "D"d4d4 :|
+|:\
+"D7"D4 FDEF "G"GABc d2d2 | "D7"D4 (FDEF) "G"(GABc) d4 |\
+"D7"D4 (FDEF) "G"(GABc) d2g2 | "D"(defg) a2f2 "A7"A2^c2 "D"d4 :|
+|:\
+"G"d4 (BcdB) "D7"c2A2"G"B2G2 | "G"d4 (BcdB) "D7"c4 A4 |\
+"G"d4 (BcdB) "D7"c2A2"G"B2G2 | "C"E2A2"D7"G2F2 "G"G4G4 :| [a4D4]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d	% Preserves the book's staff layout
+|:\
+G2g2f2d2 g4 f4 | B2G2 d4 g2d2G2z2 |\
+G2g2f2d2 g4G4 | g4a4 d2A2D4 :|\
+|:\
+d4 D2d2 B4 G4 | d4 D2d2 (gabc') d'4 |
+d4 D2d2 B4 G4 | (defg) a4 A4 d4 :|\
+|:\
+g4 b2g2 a2f2 g4 | g4b2g2 d8 |\
+g4 b2g2 a2f2 g4 | c'4d'4 g8 :| [d'4D4]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%   The first & second Cu. foot it and half Right and Left .|
+%% foot it and half Right & Left back again :|
+%% cross over two Cu. :|.
+%% lead up to the top foot it & cast off :|:
+%% cross corners half round (the Gent.n going to the bottom the Lady to the top)
+%% meet in the middle & turn .||
+%% cross corners the contrary way the Lady going to the bottom
+%% the Gent.n to the top meet and turn .||.
+%%endtext
+
+%%sep 1 1 500
+
+X: 11
+T: Dutchess of Devonshires Reel    (C)
+O: 1779
+R: reel
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"C"c4 "G7"(defd) "C"e2c2"(G7)"g2e2 | "C"c4 "G7"(defd) "C"e6g2 |\
+"C"c4 "G7"(defd) "C"e2c2g2e2 | "(Am)"(c'2a2)"D7"(g2^f2) "G"g4g4 :|
+|:\
+"G7"G4 BGAB "C"cdef g2g2 | "G7"G4 (BGAB) "C"(cdef) g4 |\
+"G7"G4 (BGAB) "C"(cdef) g2c'2 | "G"(gabc') d'2b2 "D7"d2^f2 "G"g4 :|
+|:\
+"C"g4 (efge) "G7"f2d2"C"e2c2 | "C"g4 (efge) "G7"f4 d4 |\
+"C"g4 (efge) "G7"f2d2"C"e2c2 | "F"A2d2"G7"c2B2 "C"c4c4 :| [d'4G4]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 11
+T: Dutchess of Devonshires Reel    (A)
+O: 1779
+R: reel
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"A"A4 "E7"(BcdB) "A"c2A2"(E7)"e2c2 | "A"A4 "E7"(BcdB) "A"c6e2 |\
+"A"A4 "E7"(BcdB) "A"c2A2e2c2 | "(Fm)"(a2f2)"B7"(e2^d2) "E"e4e4 :|
+|:\
+"E7"E4 GEFG "A"ABcd e2e2 | "E7"E4 (GEFG) "A"(ABcd) e4 |\
+"E7"E4 (GEFG) "A"(ABcd) e2a2 | "E"(efga) b2g2 "B7"B2^d2 "E"e4 :|
+|:\
+"A"e4 (cdec) "E7"d2B2"A"c2A2 | "A"e4 (cdec) "E7"d4 B4 |\
+"A"e4 (cdec) "E7"d2B2"A"c2A2 | "D"F2B2"E7"A2G2 "A"A4A4 :| [b4E4]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 11
+T: Dutchess of Devonshires Reel    (D)
+O: 1779
+R: reel
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"D"D4 "A7"(EFGE) "D"F2D2"(A7)"A2F2 | "D"D4 "A7"(EFGE) "D"F6A2 |\
+"D"D4 "A7"(EFGE) "D"F2D2A2F2 | "(Bm)"(d2B2)"E7"(A2^G2) "A"A4A4 :|
+|:\
+"A7"A,4 CA,B,C "D"DEFG A2A2 | "A7"A,4 (CA,B,C) "D"(DEFG) A4 |\
+"A7"A,4 (CA,B,C) "D"(DEFG) A2d2 | "A"(ABcd) e2c2 "E7"E2^G2 "A"A4 :|
+|:\
+"D"A4 (FGAF) "A7"G2E2"D"F2D2 | "D"A4 (FGAF) "A7"G4 E4 |\
+"D"A4 (FGAF) "A7"G2E2"D"F2D2 | "G"B,2E2"A7"D2C2 "D"D4D4 :| [e4A,4]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

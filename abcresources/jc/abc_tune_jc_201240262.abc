@@ -1,0 +1,38 @@
+X: 381
+T: the Fir Tree
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.38 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Bars 1, 3 & 5 have a DBc beat with a double beam across all 3 notes; written as triplet to fix it.
+N: There is a final repeat sign, but no others.
+M: C
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A2 |\
+TF4 (3:4DBc d3(AB3)G | TE4 =C2AB c3GE3A |\
+TF4 (3:4DBc d3AB3G | TF4 D2AB c3Ad3G |
+TF4 (3:4DBc dcBA BAGF | TE4 =C2AB =c3GE3A |\
+TF4 D2Bc d3AB3G | TF4 D4 d3d d2 |]
+f2 |\
+ddd2 f3d g3ef3e | e2ee g3e g3ec3e |\
+d3ef3g a3ba3f | ge3a3g f3ed2f2 |
+ddd2 f3d g3ef3d | eee2 g3e g3e =c2(fg |\
+a3)fg3e f3de3c | BABc dcBA TF3E D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+d4d4 d4d4 | =c4c4 c4c4 |\
+d4d4 d4d4 | d4d4 d4d4 |\
+d4d4 d4d4 |
+=c4c4 c4c4 |
+d4d4 d4d4 | d4d4 d4d2 |]\
+z2 |\
+d4d4 d4d4 | =c4c4 c4c4 |\
+d4d4 d4d4 |
+g4a4 d4d4 |\
+d4d4 d4d4 | =c4c4 c4c4 |\
+d4d4 d4d4 | G4A4 D4D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

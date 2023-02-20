@@ -1,0 +1,54 @@
+X: 413
+T: Tamzara
+O: Armenia
+W: adapted from Martin Junghans/Jutta Weber-Karn transcription
+W: http://www.folkloretanznoten.de/
+F: http://www.youtube.com/watch?v=lmKqduBkcKc
+F: http://www.youtube.com/watch?v=Q-TxU4-u3Q0
+M: 9/8
+L: 1/16
+K: Em
+Q:1/4=108
+V:1
+%%MIDI program 69 English Horn
+B4 BcA2- A3G AcG3F|G3F GAF2- F3E FGEFGA|B3E BcA2- A3G ABG3F|G3F GAFE F3E GE E2E2|
+V:2
+%%MIDI program 32 Acoustic Bass
+E,,2E,,2 E,,2E,,2 E,,2E,,2 E,,2E,,2E,,2| E,,2E,,2 E,,2E,,2 E,,2E,,2 E,,2E,,2E,,2|\
+E,,2E,,2 E,,2E,,2 E,,2E,,2 E,,2E,,2E,,2| E,,2E,,2 E,,2E,,2 E,,2E,,2 E,,2E,,2E,,2|
+V:1
+E2B2 BcA2- A3G AcG3F|G3F GAF2- F3E FGEFGA|B3E BcA2- A3G ABG3F|G3F GAFE F3E GE E4|
+V:2
+E,,2E,,2 E,,2E,,2 E,,2E,,2 E,,2E,,2E,,2| E,,2E,,2 E,,2E,,2 E,,2E,,2 E,,2E,,2E,,2|\
+E,,2E,,2 E,,2E,,2 E,,2E,,2 E,,2E,,2E,,2| E,,2E,,2 E,,2E,,2 E,,2E,,2 E,,2E,,2E,,2|
+V:1
+|:EBAB GAFG E3D FGA3E|ABAB GAFE G3A FG E4:|
+V:2
+|:E,,4 E,,4 E,,4 A,,2 A,,4|A,,4 B,,2C,2 B,,4 B,,2 E,,4:|
+V:1
+Bcdc dcBA B3A dc B4|dcBA G2AB G3A FG E4|Bcdc dcBA B3A dc B4|dcBA G2AB G3A FG E4|:
+V:2
+E,,4 E,,4 E,,4 E,,2 E,,4|E,,4 A,,4 B,,4 E,,2 E,,4|\
+E,,4 E,,4 E,,4 E,,2 E,,4|E,,4 A,,4 B,,4 B,,2 E,,4|:
+V:1
+EDEF GFGA G4 A2 B4|dcBA G2 AB G3A FG E4:|
+V:2
+E,,4 E,,4 G,,4 G,,2 G,,4|E,,4 E,,2E,,2 A,,4 A,,2 E,,4:|
+V:1
+Bcdc dcBA B3A dc B4|dcBA G2AB G3A FG E4|Bcdc dcBA B3A dc B4|dcBA G2AB G3A FG E4|
+V:2
+E,,4 E,,4 E,,4 E,,2 E,,4| E,,4 A,,4 B,,4 E,,2 E,,4|\
+E,,4 E,,4 E,,4 E,,2 E,,4| E,,4 A,,4 B,,4 E,,2 E,,4|
+V:1
+E2ED GFGE G3A FG E4|E2ED GFGE G3A FG E4|E2ED GFGE G3A FGE3D|E2ED GFGE G3A FG E4|:
+V:2
+E,,2E,,2 E,,2E,,2 E,,2E,,2 E,,2E,,2E,,2| E,,2E,,2 E,,2E,,2 E,,2E,,2 E,,2E,,2E,,2|\
+E,,2E,,2 E,,2E,,2 E,,2E,,2 E,,2E,,2E,,2| E,,2E,,2 E,,2E,,2 E,,2E,,2 E,,2E,,2E,,2|:
+V:1
+EBAB GAFG E3D FGA3E|ABAB GAFE G3A FG E4::
+V:2
+E,,4 E,,4 E,,4 E,,2 E,,4|A,,4 B,,4 E,,4 E,,2 E,,4::
+V:1
+G2GA .G2.F2 .G4 .A2 .B4|dcBA G2AB G3A FG E4:|
+V:2
+E,,4 E,,2E,,2 G,,4 D,,2 G,,4|G,,4 D,,2G,,2 A,,4 E,,2 E,,4:|

@@ -1,0 +1,34 @@
+X: 21082
+T: MARSHALL SETT (tune 2)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.108 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Fixed rhythm in bar 16 by adding another F note, in parallel with bar 20.
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="2"
+f |\
+b2f dfd | BdB F2B | dBd fed | dcc cfa |\
+b2f dfd | BdB F2F | dBf edc | BBB B2 H|]
+F |\
+dBd fed | c2c c2d | ede gfe | d2d d2d |\
+dcd fed | c2c c2B | A2A GFG | F2F F2F |
+BFF FFF | cFF FFF | dBd fed | dcc c2F |\
+BFF FFF | cFF FFF | dBf edc | BBB B2^f |
+g2g d2d | B2B G2d | e2d c2B | A2A A2d |\
+g2g d2d | B2B G2B | AcB AG^F | G2G "^D.C."G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% ladies chain,
+%% promenade four.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

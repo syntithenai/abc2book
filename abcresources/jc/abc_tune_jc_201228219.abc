@@ -1,0 +1,22 @@
+X: 1111
+T: JOHN SMITH QUICK-STEP
+C: Henry Berlyn
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.111 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: There's a ^f keysig in the middle of the 3rd phrase, after the key has changed to C.
+M: 2/4
+L: 1/16
+K: G
+|:\
+G4 B2c2 | {e}d2^c2 d4 | {a}g2f2g2d2 | B2d2 B2G2 |\
+d2de d2f2 | g2d2b2g2 | d2de d2A2 | B2dg b2g2  |\
+d2de d2f2 | g2d2b2g2 | d2de d2f2 | g4 "^>"g2z2 :|
+|:\
+d2c'2 baga | bgdB G2z2 | A^ceg b2a2 | d4 d2z2 |\
+d2c'd agfa | d2bd agfg | e^gac' fedf | g4 g2z2 :|\
+|: [K:C] !segno!\
+e3f g3f | e3g ag^fg | a2g2f2e2 | d2e2 d4 |
+d3e f3e | d3f gfef | a2f2 d2ed | c2e2c2z2 H:|\
+c'3bc'3a | g2^f2 g4 | a2g2 f4 | g2f2 e2 |\
+c'3bc'3a | g2^f2 g2e2 | d2c'2b2a2 | g2z2 "^D.S."f4 !segno!|]

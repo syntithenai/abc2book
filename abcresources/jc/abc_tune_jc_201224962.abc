@@ -1,0 +1,27 @@
+X: 09012
+T: the BOXMAN
+C: Bob McQuillen 29 Feb 92
+B: Bob's Note Book 9 #12
+%R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+A \
+| BAF ABd | BAG FED | G3  F2A | AFD EFA |
+| BAF ABd | BAG F2E | DFA GAB | ABc d2 :|
+|: B \
+| AFA def | gfe dcB | A3  def | gfg e2B |
+| AFA def | gfe d2f | aba g2f | edc d2 :|
+%%begintext align
+%% Do you know Monica
+%% Strogen from the West Coast? I met her in Seattle at
+%% Frank + Dina Blade's. She's a really good button box
+%% player and we played a few tunes together. We
+%% had a good time, and I told her if she kept it up
+%% the way she was going, she was going to be a
+%% great boxman someday (gimme a break, that's
+%% supposed to be =funny=).
+%% She's in Ireland now, and
+%% having the time of her life.
+%%endtext

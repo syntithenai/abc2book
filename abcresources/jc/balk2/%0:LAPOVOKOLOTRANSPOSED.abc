@@ -1,0 +1,25 @@
+X: 250
+T:Lapovo Kolo transposed
+O:Serbia
+S: Atanas Kolarovski AK-008
+M:2/4
+L:1/8
+P:ABBCC
+K:Bb
+Q:1/4=280
+%%MIDI gchord fzzz
+%%MIDI bassprog 45
+%%MIDI program 72
+%%MIDI bassvol 90
+P:A
+|:"Bb"f'g'a'b'  |"F"b'f'e'd'  |"A" d'e'd'2    |"Db"d'c'b2   |
+  "F" f'g'f'2   |"A" f'e'd'2  |"A"f'e'd'2     |"Bb"d'c'b2   |
+  "Bb"f'g'a'b'  |"F" b'f'e'd' |"A" d'e'd'2    |"Db"d'c'b2   |
+  "F" f'g'f'2   |"A"f'e'd'2   |"A" f'e'd'2    |"Bb"d'2z2    :|
+P:B
+|:"Bb" f'2e'd'  |"D" c'2d'c'  |"D" bgbd'      |"A"c'2ba     |
+  "D" g2fg      |"F"abc'd'    |[1 "G" e'd'f'e'|"F"d'2z2     :| [2 "G" baba|g2z2|
+P:C
+|:"F" f2b2      |"A"ac'ba     |"A"f2d'2       |"D"c'e'd'c'  |
+  [1 "A" f2f'2  |"F"=e'g'f'_e'|"Bb" d'f'e'd'  |"D" c'e'd'c' :|
+  [2 "Bb" bd'c'b|"F"ac'ba     |"G" g4         |g4           |

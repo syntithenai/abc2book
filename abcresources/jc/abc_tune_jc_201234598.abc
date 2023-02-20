@@ -1,0 +1,27 @@
+X: 20631
+T: the Bonny wi thing
+%R: air, jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.63
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+|: "_Slow"\
+afTed TB2d2 | afTed {ga}b2a2 | gfTed B2d2 | A2B>c d4 ::\
+A3b afTed | afTed {ef}g2f2 | A3B defg | a2Tg>f e4 |
+d3b (af)b2 | (af)b2 afTed | gfTed B2d2 | A2(B>c) d4 ::\
+a3f (gf)(ed) | (BA)(Bc) d2D2 | a2ba (gf)(ed) | B2(A>B) d4 :|
+|:\
+a2f>a b3d' | afTed B2d2 | a2f>a b3a | d'baf {f2}e4 |\
+(d>c)(c>B) (B>A)A2 | (gf)(ed) {ga}b2a2 | (gf)(ed) B2d2 | A2(B>c) d4 :|
+M: 6/8
+|:\
+"_Brisk" gdB BdB | gdB Bba | gdB BdB | Tc2A (c/d/e)c ::\
+d2a afb | afd (f/g/a)f | d2a afd | ecA (c/d/e)c |
+d2a afb | afd (f/g/a)f | bge afd | ecA (c/d/e)c ::\
+dBB fBB | dBB bBB | dBB fBB | Tc2A (c/d/e)c :|
+|:\
+d2b afb | afb afd | d2b afd | ecA ecA |\
+d2b afb | afb afb | afa geg | fdf ecA :|

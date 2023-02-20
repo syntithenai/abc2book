@@ -1,0 +1,24 @@
+X: 21714
+T: COLD AND RAW
+O: Scottish air.
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.171 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+G2A B2c | d>=ef F2F |\
+(G>A)B/c/ (d>c)B/A/ |1 G3 d2 :|2 G3 d2B |]\
+!p!B>cB B2B | c>dc c2c |
+d>=ef g>f_e | d3 f2B |\
+B>cB B<AB | "^cres."cd!f!f Hg2 !p!f/e/ |\
+d>cB A>G^F | G3 d2 |]
+%%begintext align
+%% The song, "Up in the morning early." written by John Hamilton,
+%% music seller in Edinburgh (died 1814), is sung to the above air.
+%%endtext
+%%sep 1 1 300
+% - - - - - - - - - - - - - - - - - - - - - - - - -

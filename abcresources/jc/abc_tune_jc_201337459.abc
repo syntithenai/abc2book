@@ -1,0 +1,19 @@
+X:3
+T:Simon Thoumire's $1(\251John McCusker)
+R: jig
+M: 6/8
+L: 1/8
+K: Gmaj
+"G"G2D "C/A"EDE | "G/B"GA^A "G"Bde | "G"gfd "C"ege | "G"dBG "D"ABA|
+"G"G2D "C/A"EDE | "G/B"GA^A "G"Bde | "G(Em)"gfd "C"e/f/ge | "D"dBA "G"G2z :|
+|:"Em"gfd "C"ezg- | "G"gfd "C"edg | edB "G"BAG | "C/A"ABG "D"E2D |
+"G"G2D "C/A"EDE | "G/B"GA^A "G"Bde | gfd "C"e/f/ge | "D"dBA "G"G2z :|
+%%vskip 2cm
+%%sep 0 0 20cm
+%%scale .7
+%%text Alternate chordings for Clare Jig A part
+|:"G""_G"G3 GAB|"D""_Am7"AGE GED|"G""_G/B"GFG AGE|"D""_C"GED "_D"DEF|"G""_G"~G3 GAB|"D""_Am7"AGE GAB|"C""_C"cBA "_Am7"BGE|[1"D""_D"DED DEF:|2"D""_D"DED D3|]
+%%sep 0 0 20cm
+%%text Alternate chordings for Sailor's Wife B part
+K:Dminor
+|:"Dm""_F"fga fga|"Bb"fga agf|"C""_C"ecg ecg|"Am"efg gfe|"Bb""_Dm"f2a agf|"G""_C"e2g gec|"Am""_Gm"afd "_A"ge^c|1 "Dm""_Dm"d3 d2 e:|[2 "Dm""_Dm"d6|]

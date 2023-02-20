@@ -1,0 +1,19 @@
+X: 151
+T: Lady Madelina Palmer's Strathspey
+R: strathspey
+M: C|
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.15 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: Fixed length of last note in first part to match pickup note.
+N: Omitted some spurious triplets from bar 7.
+K: D
+b2 |\
+a3df3d (fga2) b4 | a2d2 (ba)(gf) e4 (e2b2) |\
+a3df3d (fga2) b4 | a3df3e (e2d2) d2 :|
+(bc') |\
+d'3ab3a (bc'd'2) e'4 |  d'c'ba b2f2 e4 (e2c'2) |\
+d'3ab3a bc'd'2 c'd'e'2 | d'c'ba bc'd'a d'4 (abc'2) |
+d'2b2c'2a2 b2g2a2f2 | g2e'2f2d'2 e4(e2g2) |\
+(fga2) b4 (fga2) d'4 | d2d2f3e e2d2 d2 |]

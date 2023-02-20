@@ -1,0 +1,21 @@
+X: 03027
+T: ERNIE'S TUNE
+C: Bob McQuillen 10 Jan 78
+B: Bob's Note Book 03 #27
+%R: hornpipe
+%D:1927
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+F>G \
+| A2A>G  F2F>G | A>Bd>e f>ed>f | e2e>c  A2c>B  | A>Bc>d e>dc>B |
+| A>BA>G F2F>G | A>Bd>e f>ed>f | e>dc>B A>gf>e | f2d2   d2    :|
+|: f>g \
+| a2a>g  f>df>g | a>ba>g f>ab>a | g2g>f  e>de>f | e>dc>B A2f>g |
+| a>fd>f A2f>a  | a>fd>e f>dc>B | A>Bc>d e>fg>c | e2d2   d2   :|
+%%begintext align
+%% For Ernie Spence of Reading, Mass.,
+%% a dance enthusiast of long standing,
+%% and greatly appreciated by his friends.
+%%endtext

@@ -1,0 +1,19 @@
+X: 779
+T: the Heather Breeze
+R: reel
+%S: s:3 b:24(8+8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #779
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0779/oneill-1001-0779-1.abc
+M: C
+L: 1/8
+K: G
+"^A"[|] F \
+|  D(GBG) dGBG | D(FAF) cFAF | D(GBG) dGBG | B(dcA) BGGF \
+|| D(GBG) dGBG | D(FAF) cFAF | G(ABc) d2(ge) | fdc(A BG)G |]
+[| f \
+|  g2(gf) gbag | f2(fe) fgaf  | g2(gf) gba(g | f)dc(A B)GGf \
+|| g2(gf) gbag | f2(fe) fga(f | g)fga b2(ag) | fdc(A B)GG |]
+[| g \
+|  bgd(g  b)agb  | afd(f  a)gfa  | bgd(g b)gag | fdc(A B)GGg \
+|| b(gdg) b(gdg) | a(fdf) a(gfa) | bgaf (3(gfe) d(B | c)ed(c B)GG |]

@@ -1,0 +1,38 @@
+X: 1
+T: Sion-House
+P: Longways for as many as will
+%R: minuet
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.114
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the dance instructions.
+N: The title has a barely-visible hyphen that might just be a stray speck of ink. 
+N: There's a mysterious hyphen at "in- their" that doesn't make sense; the hyphen is at the end of a line.
+M: 3/2
+L: 1/4
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+Fc A(G/F/) c2 | f>e dg e(d/c/) |\
+fc d(c/B/) Ad | =Be d2 c2 \
+|:\
+g>a g(f/e/) de | f c2 d BA |\
+B>A Bc dA | A3 G G2 |\
+c A2 d cf | d g2 d e(d/c/) |\
+f d2 b ag | g3 f f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First man and first wo. and 2. man and 2. wo. take hands, and go half round and turn S. while the 1.
+%% wo. cross over with the 2. man, then all four take hands and go half round, and the 2. wo. cross over
+%% with the 1. man; The other cu. do the like. This to the first Strain.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The two we. being now in the men's places, stand still while the two men lead between them round in-
+%% their own places, then each take hands with their own, and turn till the we. come into their own
+%% places again, then the two we. take hands and lead betwixt the two men, and go round into their own
+%% places again, then the 1. cu. being now in the 2. cu. place, go the half Figure, till they come into the
+%% 2. cu. place. This to the second Strain played twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

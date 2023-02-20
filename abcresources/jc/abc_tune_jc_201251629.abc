@@ -1,0 +1,45 @@
+%%center Belle of the Mohawk Vale + Nancy Hanks medley
+%X: 0
+%T: Belle of the Mohawk Vale & Nancy Hanks medley
+%C:
+%S: bellnanc.mix
+%O:080105
+%K:
+
+
+X: 1
+T: Belle of the Mohawk Vale
+P: piffero primo a0592
+O: cfd bk2
+F: http://ancients.sudburymuster.org/mus/med/pdf/bellnancC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/8
+L: 1/8
+K: G
+(B>c) |\
+(d2B)d g2f>e | (de)GA B2Bc | d2ed G2(FG) | A4- Az (B>c) |\
+(d2B)d g2f>e | deGA B2Bc | d2c>B A>"^>"d-d2 | G6 ||
+d2 |\
+(ec-)c2 g2(fe) |(ed)dB d3d | d2(cB) (c<A)d2 | B4- Bz Bc |\
+(d<g-)g2 (e<g-)g2 | .d.g"^>"G>A B2"^>"e2 | "^>"d2.c.B "^>"A"^>"d-d2 | "^>"G4- Gz :|
+
+
+X: 2
+T: Nancy Hanks
+P: piffero primo a0594
+O: cfd bk1
+F: http://ancients.sudburymuster.org/mus/med/pdf/bellnancC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/8
+L: 1/16
+K: D
+A2 |:\
+A2FA d2Ad | f2df a3f | g2gf e2A2 | f2fe d2A2 |\
+A2FA d2Ad | f2df a2f2 | g2gf e2c2 |1 d2f2 d2z2 :|[2 d2f2 d2 ||
+|: A2 |\
+g2gf e2A2 | f2fe e2A2 | cdef g2f2 | edcB A4 |\
+d2de f2d2 | cdef g2e2 | a2f2 g2fe | d2f2 d2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

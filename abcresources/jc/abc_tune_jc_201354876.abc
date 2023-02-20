@@ -1,0 +1,18 @@
+X:810
+T:Young Phillis
+C:John Young, 1718
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%MIDI gchord fcHcfc
+%%MIDI program 73     Flute
+%%MIDI bassprog 46    Orchestral Harp
+%%MIDI chordprog 78   Whistle
+Q:1/2=100
+M:3/2
+L:1/8
+K:F
+P:A
+|: "F"f4 "/"c2 d2 "/"c2 BA | "C7"G2A2 "/"BAGF "F"F2c2 | "Dm"f4 "G7"d2 ef "C"g2 fe | "Dm"d2e2 "G7"fedc "C"c4 :|
+P:B
+|: "C"c2e2- "/"e2 f2 "A7/C#"g2 ab | "Dm"a2 gf "E7"efed "A"^c2a2 | "Gm"B2g2 "Dm"A2f2 "Gm"G2d2 | "A"^c2d2 "/"e2c2 "Dm"d2e2 |
+"F"f4 "/"c2 d2 "/"c2 BA | "C7"G2a2 "/"bagf "/"e2 dc | "Gm"d2g2 "F/A"c2f2 "Bb"B2f2 | "C7"e2f2 "/"g2fe "F"f4 :|

@@ -1,0 +1,21 @@
+X: 2096
+T: DELVIN HOUSE
+C:
+Q: "Strathspey."
+R: Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.2 p.13 #0096
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+%%slurgraces yes
+%%graceslurs yes
+K: C
+ue2 |\
+vc4 uG3ue vc4 uG3uE | vDd3d3uc vBG3A3uB |\
+vc3veud3ue vc3veuA3uc | (G3A)(G3F) Gc3 c2 :|\
+ue2 |:\
+{^f}vg3veuc3e cdef vg3ue |
+vf3vduB3ud Bcde vf3ud |\
+[1 (g3e)(c3e) vg3veuc3uG | Af3 e3ud ve3vcuc3ue :|\
+[2 eg3 de3 ce3 Ac3 | (G3A)(G3F) Gc3 c2 |]

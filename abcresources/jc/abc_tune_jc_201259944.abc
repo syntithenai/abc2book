@@ -1,0 +1,16 @@
+X: 736
+T: Captain Byng
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #736
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0736/oneill-1001-0736-1.abc
+M: C
+L: 1/8
+K: G
+"^A"[|] d |\
+gfgd BGG2 | eaag fdef | gfgd BGGB | cAdB G2Gd ||\
+gfgd BGG2 | eaag fdcA | Bdef gage | dBAB G2G |]
+"^B"[| c |\
+BGdG BGGB | cAeA cAAc | BGdG BGGB | cAdB G2GA ||\
+BGdG BGGB | cAeA cAAc | Bdef gage | dBAB G2G |]

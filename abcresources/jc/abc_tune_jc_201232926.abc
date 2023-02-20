@@ -1,0 +1,30 @@
+X: 180
+T: Festing's March
+T: Longways &c.
+%R: march, reel
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.90
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed to match the dance.
+M: C
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B2 |\
+e2BA G2D2 | E2F2 G2B2 | B2(AG) c2E2 | E2D2 z2B2 |\
+e2BA G2D2 | E2F2 G2B2 | cde2 F2=A2 | B2B,2 B,2 :|
+|: B2 |\
+(B2A2) (A2G2) | (G2F2) (F2E2) | c4 (AGFE) | D4 z2B2 |\
+e2BA G2D2 | E2F2 G2B2 | cBAG F4 | E6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. cast off below the 2d Cu. sett and
+%% cast up, and cross over .| then cast off below
+%% the 3d Cu. sett and cast up and cross over :|
+%% the 1st Cu. being in the 3d Cu. place lead up
+%% through the 2d Cu. and back again, then cast
+%% up into the 2d Cu. place, and turn .| then right
+%% hand and left quite round and turn their partner :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

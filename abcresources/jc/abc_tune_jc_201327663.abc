@@ -1,0 +1,376 @@
+% Roaring Jelly miscellaneae
+
+#include "RightHeader.h"
+%%vskip 10cm
+%%center $2Miscellaneous
+#include "LeftHeader.h"
+%%center This page intentionally blank
+#include "RightHeader.h"
+%%footer 09/01/98 For use only by Roaring Jelly members
+% ---------- page 1 ----------
+
+X: 1
+T: Horgalaten
+I: Horgalaten	M-1	Gm/Bb	hambo
+C: M-1 \2511980 Matt Fichtenbaum
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: hambo
+K: Gm
+%%text Playing order: AA BB AB BA CC
+"Gm"d2 d>e d>c| c>B B2G2| "D"B>A A>D ^F>A| "Gm"G>^F G>A B>c|
+    d2 d>e d>c| c>B B2G2| "D"B>A A>D ^F>A| "Gm"G2 G4:| [K: Bb]
+|:"Bb"B>c d2 B2| "Cm"c>d e2 c2| "F"f2 f>g f>e| "Bb"e>d d4:| [K: Gm]
+|:"Gm"G2 ^F2 G2| "D"A2G2A2| "Gm"B2 B>A B>c| "D"d2 d4|
+"Gm"G2 ^F2 G2| "D"A2G2A2| "Gm"B2 B>A B>c| "D"d2e2=e2|
+"F"f>e c2 (3cde| "Bb"d>c B2d2| "D"d>c A2 (3ABc| "Gm"B>A G2g2|
+"Cm"g>e c2 (3cde| "Gm"d>B G2 (3GAB| "D"B>A A>D ^F>A| "Gm"G2 G4:|
+ 
+X: 2
+T: Tierspolska
+I: Tierspolska	M-1	G	hambo
+C: M-1 \2511980 Matt Fichtenbaum
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: hambo
+K: G
+D| "G"G2 B>D G>B| "C"(3cBc e>c A>G| "D"F2 A>D F>A| "G"d>e ~d>c B>A|
+   "G"G2 B>D G>B| "C"(3cBc e>c A>G| "D"F2 A>D F>A|1 "G"A/B/A/F/ G3 :|2 "G"A/B/A/F/ |]
+\
+|:G4| "G"(3GBd g2 g>g| "D"g>f f2 f>f| "C"f>e c>e g>e| "G"e>d d>B G>B|
+      "C"c/d/c/B/ c>d e>c| "G"c>B B>c d2| "D"D2 F>A c>A|1 "G"(3FEF :|2 "G"(3FEF G3|]
+
+% ---------- page 2 ----------
+#include "LeftHeader.h"
+%%footer 09/01/98 For use only by Roaring Jelly members
+
+X: 3
+T: Varvindar Friska
+I: Varvindar Friska	M-2	Am	hambo
+C: M-2 \2511980 Matt Fichtenbaum
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: hambo
+K: Am
+"Am"A2 A>B A>B| c2 c>d c>d| "E"e2 e>d B>c| "Am"A2 A>^G "E"E2|
+"Am"A2 A>B A>B| c2 c>d c>d| "E"e2 e>d B>c| "Am"A2 A4:|
+\
+|: "C"e2 e>f g>e| "G"d2 d>c B2| "Am"c2 c>d e>c| "E"B2 B>^G E2|
+   "Am"A2 A>B A>B| c2 c>d c>d| "E"e2 e>d B>c| "Am"A2 A4:|
+
+X: 4
+T: B\aatsman Deck
+I: Batsman Deck	M-2	G	hambo
+C: M-2 \2511980 Matt Fichtenbaum
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: hambo
+K: G
+"G"D>G B>G D>G| B2 B4| c>B A>G F>G| "D"A2 A4|
+"D"D>F A>F D>A| c2 c4| d>c B>A G>A| "G"B2 B4:|
+\
+|: "C"e2 e>d c>e| "G"d2 d>c B>d| "D"c>B A>G F>A| "G"G2 (3BGB d2|
+   "C"e2 e>d c>e| "G"d2 d>c B>d| "D"c>B A>G F>A| "G"G2 G4:|
+
+% ---------- page 3 ----------
+#include "RightHeader.h"
+%%footer 09/01/98 For use only by Roaring Jelly members
+
+%%scale .75
+X: 5
+T: Spel-Gulle's Polska
+I: Spel-Gulle's Polska	M-2	Dm	hambo
+C: M-2
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: hambo
+K: Dm
+"Dm"d2 d>^c d>e| f2 f>e d^c/d/| "A"e2 e>^c AB/c/| "Dm"d2 d>A F>A|
+"Dm"d2 d>^c d>e| f2 f>e d^c/d/| "A"e2 e>^c AB/c/| "Dm"d2 d4:|
+\
+|: "F"a2 f>a f>a| (3aga b>a g>f| "A"g2 e>g e>g| (3gfg a>g f>e|
+   "Dm"d2 d>^c d>e| f2 f>e d^c/d/| "A"e2 e>^c AB/c/| "Dm"d2 d4:|
+
+X: 6
+T: Polska (after Bagg Lars Johansson, Jarna. From Margareta Koos.)
+I: ???	M-3	G	hambo
+C: M-3 \2511980 Matt Fichtenbaum
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: hambo
+K: G
+"G"B>c d>B G>B| "D"A>B c>A F2| f>e d>c B>A| "G"B>c d>B G2|
+"G"B>c d>B G>B| "D"A>B c>A F2| f>e d>c B>A| "G"G2 G4:|
+\
+|: "C"g>f e3 g| "D"f>e "G"d4| "D"f>e d>c B>A| "G"B>c d>B G2|
+   "C"g>f e3 g| "D"f>e "G"d4| "D"f>e d>c B>A| "G"G2 G4:|
+%%vskip 10pt
+P: second fiddle
+G>A B>G D>G| F>G A>F D2| d>c B>A G>F| G>A B>G D2|
+G>A B>G D>G| F>G A>F D2| d>c B>A G>E| D2 [B,4D4]:|
+\
+|: e>d c3 e| d>c B4| d>c B>A G>F| G>A B>G D2|
+   e>d c3 e| d>c B4| d>c B>A G>E| D2 [B,4D4]:|
+
+% ---------- page 4 ----------
+#include "LeftHeader.h"
+%%footer 09/01/98 For use only by Roaring Jelly members
+
+X: 7
+T: Balkan Hills Schottische, The
+I: Balkan Hills Schottische, The	M-4	D	schottische
+C: M-4
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: schottishe
+K: D
+a3g|: "D"fAfe d2A2| "G"BGdB "D"A2de| fAAa gfed| "A"f2e2 e2ag|
+      "D"fAfe d2A2| "G"BGdB "D"A2de| faga "A"gecA|1 "D"d4 d2 z2:|2 "D"d4 d2|]
+\
+f3g |: "D"adfa f2ed| "G"BGdB "D"A2fg| adfa gfed| "A"f2e2 e2fg|
+       "D"adfa f2ed| "G"BGdB "D"A2de|1 faga "A"gecA| "D"d4 d2 z2:|2 "D"fAAa "A"gecA| "D"d4 d2|]
+\
+AB|: "D"d2e2 f2ed| "G"BGdB "D"A2de| fAAa gfed| "A"f2e2 e2AB|
+     "D"d2e2 f2ed| "G"BGdB "D"A2de| faga "A"gecA| "D"d4 d2 z2:|
+
+
+X: 8
+T: Honeysuckle Schottishe
+I: Honeysuckle Schottishe	M-5	F	schottishe
+C: M-5
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: schottishe
+K: F
+=B,2| C>D (3FAc f2f2| e>fe>f d2=B,2| C>D (3EFG e2e2| d>ed>A c>d (3cAF|
+      C>D (3FAc f2f2| e>fe>f d2=B,2| C>D (3EFG e2d2|\
+       |1 (3cdc (3BAG F2 :|2 (3cdc (3BAG F>F|]
+\
+G>^G| A2A2 B2=B2| c6 A>_B| c2=B>c d>c_B>A| G6 C2|
+      G2G2 A2B2| d6 c/=Bc/| b>ge>c =B>cd>c| A>d^c>d (3=cdc|
+(3AFD| A2A2 B2=B2| c6 A>_B| c2=B>c d>c_B>A |G6 C2|
+      G2G2 A2B2| d6 c/=Bc/| b>ge>c _B/cB/ A>G| F6 |]
+
+
+% ---------- page 5 ----------
+#include "RightHeader.h"
+%%footer 09/01/98 For use only by Roaring Jelly members
+
+X: 9
+T: Walpole Cottage
+I: Walpole Cottage	M-6	D/A	reel
+C: M-6 \251Pat Shaw
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+P: Intro
+K: D
+"Em"e3f g2f2| e2d2 c2B2| "A"A2z2 "Em"e2z2| "A"a2z2 |]
+P: .
+"A7"A3G|: "D"F2A2 F2A2| F2A2 d3c| "G"B3d c2B2| "D" A6 A2|
+"G"B3d c2B2| "D"A2d2 f2a2 |1 "Em"a2g4 f2| "A7"e6 AG :|2 \
+"Em"f2d2 "A7"e2c2| "D"d6 |] [K: A]
+F2| "Bm"B3c d2cB| "F#7"c2f4 e2| "Bm"d2B2 "F#7"c2^A2| "Bm"B6 "E7"B2|
+    "A"c3d "E7"e2d2| "A"c2A2 "D"B2d2| "A"c2A2 "E7"B2G2| "A"A6 A2|
+    "G"B3c d2cB| "D"A2F4 A2| "G"B3c d2e2| "F#7"f6 e2|
+    "Bm"d3e f2ed| "A"e2a2 "D"f2d2| "A"c2A2 "E7"B2G2| "A"A4 |] [K: D]
+"A7"a3g| "D"f3e f2d2| "A7"e2c2 A2Bc| "Bm"d3c d2B2| "D"A6 A2|
+   "G"B3A B2G2| "D"F2A2 d2f2| "Em"f2a2 g2f2| "A7"e6 A2|
+   "D"f3e f2d2| "A7"e2c2 A2Bc| "Bm"d3c d2B2| "F#7"A6 A2|
+   "G"B3c d2B2| "D"A2d2 f2a2| "Em"f2d2 "A7"e2c2| "D"d8 |]
+
+% ---------- page 6 ----------
+#include "LeftHeader.h"
+%%footer 08/13/16 For use only by Roaring Jelly members
+$SmallLMargin
+$SmallRMargin
+%%scale .8
+
+X: 10
+T: Karis Pers Polska
+I: Karis Pers Polska	M-7	D	polka
+C: M-7 (Trad)
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: polka
+K: D
+"D"A2 A>B A>G| G<F FD F>A| A<d d>e d>c| "G"cB B>G B2|
+"A"e2 e>f e>d| dc c>A c>e| a2 a>g f>e|1 "D"d>e f>g a2 :|2 "D"cB/c/ d4 |]
+\
+ "G"g2 eg e>g| "D"fe d>c d>f| "A"fe    e>A B>c| "D"d>e f>g a2|
+ "G"g2 eg e>g| "D"fe d>c d>f| "A"fe "D"e>A B>c|    c<d d2 |]
+
+X:11
+T: Lowery's Quadrille
+C:M-8 (also R-173)
+M: C|
+L: 1/8
+R: reel
+K:D
+"D"A,B,DE D2 DE|FABF A2 (3ABc|"G"d2 B2 A2 F2|["1,3""A"EDED E F3:|["2,4""A"(3B,CD-D2 "D"D4||
+"D"DEFA dB A2|"G"B4 B4|"D"A3B A F3|"A"E6 FE|
+"D"DEFA dB A2|"G"B4 B2 cB|"A"ABcd efge|"D"f d2 d d4|
+"D"f4 f4|fedA BA3|"A"a4 a4|abaf e d3|
+"D"f4 f4|fedA "G"BABc|"D"d2 B2 A2 F2|"A"(3B,CD-D2 "D"D4|]
+
+#include "RightHeader.h"
+%%footer 09/01/98 For use only by Roaring Jelly members
+$SmallLMargin
+$SmallRMargin
+%%scale .8
+X: 12
+T: Athol Highlanders Jig (also J-23)
+C: M-9
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: A
+c/d/| "A"[A3e3] ecA| ecA "E7"Bcd| "A"[A3e3] ecA| "D"Bcd "E7"cBA|
+      "A"[A3e3] ecA| ecA "E7"Bcd| "A"eae "D"fed| "E7"cdB "A"A2:|
+|:\
+e| "A"Ace Ace| "D"Adf Adf| "A"Ace Ace| "E7"Bcd cBA|
+   "A"Ace Ace| "D"Adf Adf| "A"eae "D"fed| "E7"cdB "A"A2:|
+|:\
+e| "A"aee edc| aee edc| aee edc| "D"Bcd "E"c2e|
+   "A"aee edc| aee edc| "D"[A3f3] "A"ecA| "E7"EAG "A"A2 :|
+|:\
+B| "A"cAc cAc| "D"dBd dBd| "A"cAc cAc| "G"B=GB B=GB|
+   "A"cAc cAc| "D"dBd dBd| "A"eae "D"fed|1 "E7"cdB "A"A2:|2\
+   "E7"efg "A".a z|] "go out on"x [E2A2]|]
+%%begintext ragged
+%%"I first heard this tune as Lord Athlone's March on Banff SBS5406, `Graham
+%%Townsend, Champion Folk Fiddler'.   It is also recorded on PH1042, `The Piper's
+%% Broken Finger', by the Boys of the Lough'."
+%%endtext
+
+
+#include "LeftHeader.h"
+%%footer 10/29/08 For use only by Roaring Jelly members
+$SmallLMargin
+$SmallRMargin
+%%scale .8
+%%vskip .5cm
+X:1
+T:March of St. Timothy (also R-146)
+C: M-10  \2511985 Judi Morningstar
+M:C|
+L:1/8
+K:G
+"G"B3c d2B2| "D7"A3B c2A2| "Em"G3A B2G2| "Bm"G2F2 E2D2| "C"E3F G2E2|
+"G"D2G2 B2d2|1 "Am"c3B A2G2| "D7"F2A2 D2c2 :|2 "Am"cBAG "D7"F2A2| "G"G6 |]
+dd| "D7"c2d2 A2c2| F2A2 D2dd| "G"B2d2 G2B2| D2G2 B,2dd|
+"D7"c2d2 A2c2| F2A2 D2dd| "G"d2D2 E2F2| G2A2 B2dd||
+"D7"c2d2 A2c2| F2A2 D2dd| "G"B2d2 G2B2| D2G2 B,2G2|
+"C"E3F "C#dim"G2E2| "G"D2G2 "Em"B2d2| "Am"cBAG "D7"F2A2| "G"G8 |]
+%%From "The Portland Collection".
+
+%%vskip .5cm
+X: 2
+T: La Bastringue (also R-20; French Canadian)
+C: M-11
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+"D"f2ff f2gf| "A7"e2c2 "D"d4| "A7"c2d2 efec| "D"d2e2 f2d2|
+"D"f2ff f2gf| "A7"e2c2 "D"d4| "G"g2f2 efed| "A7"B2c2 "D"d4 :|
+|:\
+"D"D2FA dAFD| "C"=C2EG cGEC| "D"D2FA dAFD| "C"fedc "D"dcAF|
+"D"D2FA dAFD| "C"=C2EG cGEC| "D"D2FA dAde| "C"fedc "D"d2d2 :|
+
+
+#include "RightHeader.h"
+%%footer 09/01/98 For use only by Roaring Jelly members
+$SmallLMargin
+$SmallRMargin
+%%scale .9
+X:1
+T: Ragtime Annie
+C: M-12 (also R-104)
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: rag
+K: D
+FE| "D"DFBF AFBF| DFBF A2FE| DEFG ABAF| "A"A2c2 c2cB|
+    "A"ABcA B2cB| ABcA BAcB| ABcd egfe| "D"d2dc d2:|
+fg| "D"a2ab afd2| A6 fg| a2ab agf2| "G"g6 ef|
+    "A"gfef gfef| gagf e2ef| gagf edcB| "D"A6 fg|
+    "D"a2ab afdB| A2AB A2A2| [F4d4] "C"[E4=c4]| "G"[G6B6] A2|
+    "G"B2b2 b2ag| "D"f2a2 a2gf| "A"A2ef gfec| "D"d2 "fine"x|]
+[K:G]=c2 "D7"B2A2|:"G"[G6B6] AB| "C"[E6c6] cB| "D"A2f2 f2ef| "G"gfga gedc|
+"G"D2B2 B2AB| "C"E2c2 c2cB| "D"A2f2 f2ef|1 "G"gfga g2dc :|2 "G"g6 |]
+
+#include "LeftHeader.h"
+%%footer 10/01/10 For use only by Roaring Jelly members
+%%scale .8
+X:1
+T: Blarney Pilgrim, The (also J-82; Irish)
+C: M-13
+M: 6/8
+L: 1/8
+R: jig
+K: Dmix
+D|"G"D3 DEG|"C"A3 ABc|"G"BAG "C"AGE|"Am"GEA "D7"GED|
+"G"DED DEG|"C"A2G ABc|"G"BAG "C"AGE|"D7"GED D2:|
+d|"G"ded dBG|"Am"AGA "Em"BGE|"G" ded dBG|"C"AGA "D7"GBd|
+"G"g2e dBG|"Am"AGA "Em"BGE|"Em"B2G AGE|"D7"DED D2:|
+G|"D"A2D "Em"B2D|"D" A2D ABc|"G"BAG "C"AGE|"Am"GEA "D7"GED|
+"D"ADD "Em"BDD|"D"ADD ABc|"G"BAG "C"AGE|"D7"GED D2:|
+
+X:2
+$SmallLMargin
+$SmallRMargin
+T:Sasha (from Dancingmasters.com)
+C:M-14
+M:C
+L:1/4
+K:Dm                           % key
+%%postscript /shd{gsave T .1 dup scale 0 0 hd grestore}!
+%%deco head-s 0 shd 0 0 0
+U: s=!head-s!
+"Dm"AAz2|AAz2|Az"A7"Az|"Dm"Azz2|:"Dm"AFA2|AFA2|
+w:Sa-sha Sa-sha Ras Dva Tri (Right right right, left left left, 
+"A7"EEA>G|FDD2:| |:"Gm"B2B2|"Dm"A3 A/B/|"A7"AGFE|Dz"<X"sA z:|
+w:both both both * knee knee knee) La la la la la la la la la la HEY!
+|:[K:D]"D"F2A2|d3e|dcBA|"Em"G3F|"A"E2A2|c3d|
+["Optional 1st ending"cBAG|"D"F3E:|[2cABc|d2z2|]
+%%begintext ragged
+The optional repeat isn't called by Susan, but some callers like it. It allows the dancers more time 
+to find new partners.
+
+Also - the HEY on the second line is to be yelled, not played.  Or if you play it it shouldn't sound like a note.
+%%endtext ragged
+
+#include "RightHeader.h"
+%%scale .8
+%%footer 04/23/19 For use only by Roaring Jelly members
+X: 1
+T: Silver and Gold Two-Step
+C:M-15 (also R-80)
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: two-step
+K: D
+f2g2| "D"a4 f2d2| A4 d2f2| "A7"a2 g4 f2| g4 e2f2|
+      "A7"g4 e2c2| A4 c2e2|1 "D"b2 a4 ^g2| a4:|2 "D"d4- dedc| d4|]
+F2G2| "D"A2f2 A2f2| Af3 f3f| "A7"f2 e4- e^d| e4 E2F2|
+      "A7"G2e2 G2e2| Ge3 e3d| "D"e2 d4- dc| d4 F2G2|
+      "D"A2f2 A2f2| Af3 "D7"f3f| "G"a4 g2e2| "Em"B4 c2d2|
+      "A7"f2 e4 c2| A4 c2e2| "D"d4- dedc| d4 |]
+%%text $1From Ted Sanella's "Balance and Swing".
+
+$SmallLMargin
+$SmallRMargin
+X:1
+T:Multnomah March
+C: Bob McQuillen
+K:A
+M:C|
+L:1/4
+AB|:"A"c>BAE|"D"FA2B|"A"c>BAB|"C#m"ce2c/e/|"D"f>efa|
+"A"f/e/-e c>[1B|"F#m"A>cBA|"E"F/E/-EA>B:|[2A/|"E"B/A/-AA>A|"A"A2cd|]
+|:"A"e>fec|ea2f|e>cAB|"F#m"cf2c/B/|"D"AFF>E|
+FAA>[1F|"A"E>FAc|"E"cBcd:|[2f/|"E"e/c/-cB>A|"A"A2|]
+
+#include "LeftHeader.h"
+%%text This page intentionally blank

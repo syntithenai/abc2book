@@ -1,0 +1,13 @@
+X:271
+T:The Sea Shore
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 27, on which a "Sample of Dotted Notes" are presented.
+M:2/4
+L:1/16
+K:A
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+{B}A>G|A>ec>A G>ed>B|G>Ac>e a>ec>A|F>Bd>B E>Ac>A|B2B>A G>EF>G|
+A>ec>A G>ed>B|G>Ac>e a>ec>A|g>fd>B f>ec>A|G>ed>B A2::B>A|
+G>EF>E d2F>E|A>Bc>d e>fg>a|f>ae>a d>ac>a|B>dG>B E2 {B}A>G|
+A>ec>A G>ed>B|G>Ac>e a>ec>A|g>fd>B f>ec>A|G>ed>B A2:|

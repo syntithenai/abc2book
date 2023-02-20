@@ -1,0 +1,26 @@
+X: 3332
+T: Miss Sally Hunter of Thurston's Jigg
+C: by Nath. Gow
+%R: 6/8
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.33 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The {c} grace note in bar 20 should probably be {d}.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+A |\
+DFA Td2A | TB2A Td2A | Bcd egf | efd cBA |\
+DFA d2A | TB2A Bcd | egf edc | Td3 D2 :|
+g |\
+fed Tg2e | a2f b2g | Tf(ef) def | efd Tc>BA |\
+fed g2e | a2f b2g | Tfga Adc | Td3 d2g |
+fdf geg | afa bgb | afd Bcd | efd {c}cBA |\
+AFA Td2A | TB2A Bcd | egf edc | Td3 D2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+d3 f3 | g3 f3 | g3 e3 | a3 A3 | d3 f3 | g3 G3 | A3 a3 | d3 d2 :| z | d3 e3 | f3 g3 | d3 d3 | A3 A3 |
+d3 c2e | f3 g3 | a3 A3 | d2A D3 | d3 e3 | f3 g3 | d3 g3 | e3 a3 | d3 f3 | g3 g3 | a3 A3 | d2A D2 |]

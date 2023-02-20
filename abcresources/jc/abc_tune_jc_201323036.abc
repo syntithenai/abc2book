@@ -1,0 +1,30 @@
+X: 1
+T: Peggy's Cove
+C: Bill Guest (1988)
+R: waltz
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+V: 1
+FE \
+| D2 F2 A2 | A4- AF | E2 F2 GA | F4 FE \
+| D2 F2 A2 | d2 A2 F=F | E2 A2 ^G2 | A4 FE |
+| D2 F2 A2 | A4- AF | E2 F2 G2 | F6 \
+| B2 c2 d2 | d2 A3 A, | F2 F2 E2 | D4 |]
+AA \
+| ff f3 e | ed d4 | Ad e2 dB | c6 \
+| gg g2 ^d2 | fe e2 d2 | dc c2 G2 | BA A4 |
+| ff f2 e2 | ed d4 | gg g2 f2 | fe e4 \
+| ce fe az | A2 g3 f | fe B^B c2 | d4 |]
+V: 2
+AG \
+| "D"F2 A2 d2 | d4- dA | "A7"G2 A2 Bc | "D"A4 AG \
+| "D"F2 A2 d2 | f2 d2 Bd | "E7"c2 d2 B2 | "A7"c4 AG |
+| "D"F2 A2 d2 | d4- dA | "A7"G2 A2 Bc | "D"A6 \
+| "D"G2 A2 B2 | "D"F2 d3 F | "A7"A2 A2 G2 | "D"F4 |]
+FF \
+| "D"dd d3 G | GF F4 | FF G2 F2 | "A7"G6 \
+| "G"BB B2 "B7"A2 | "E7"A^G G2 F2 | "A7"BA A2 B2 | "D"GF F4 |
+| "D"dd d2 G2 | GF F4 | "G"BB B2 "B7"A2 | "E7"AG G4 \
+| "A"Ac dc ez | "D"F2 "Baug"B3 A | "E7"A^G "A7"EF =G2 | "D"F4 |]

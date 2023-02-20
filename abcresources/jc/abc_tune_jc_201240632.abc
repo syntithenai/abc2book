@@ -1,0 +1,31 @@
+X: 4041
+T: Lamentation for the Fallen Heroes of Waterloo
+O: Communicated by Mrs McNiel of Collonsay
+%R: air, strathspey
+N: This is version 2, for ABC software that understands voice overlays and cresc/dininuento symbols.
+% dim/cres..endo symbols:
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+U: S=!arpeggio!
+B: Niel Gow & Sons "Complete Repository" v.4 p.4 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "PATHETIC"
+K: Eb
+% - - - - - - - - - -
+V: 1 staves=2
+B |\
+x2 e>[dF] Tc>B HG2 & (G<e) x2 E2 E2 | x2 {e}[dF]>[cE] {c}BG HF2 & Q(Ge) xqx GE D2 |\
+G<G ~F>E FG He2 & EE B,2 DE G2 | !p!c>G (Bc) [GB,]T[FA,] H[E2B,2G,2] |]
+!f!x2 [eG]>[dF] c>B HG2 & Ge x2 E2 E2 | pGe ~ed/e/ fG PH[F2D2] |\
+!p![GE]<[GE] [FD][EB,] [FA,][GB,] H[e2c2G2] | "_Expr."c>G ~Bc/E/ [GB,]~[FA,] H[EB,G,] |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+S[e'2b2g2e2] g>b ~a>g He2 | Qec' bqa ge H[b2B2] |\
+bb a>g ag He2 | !p! A2 GA BB, HE2 |]
+!f![e2B2G2E2] [c'c][bB] [aA][gG] H[e2E2] | x4 [fd][ge] Hx2 & pe2 ga/g/ B2 P[a2f2B2] |\
+!p!b<b ag de Hc2 | "_Espr."A2 GA BB,HE |]

@@ -1,0 +1,17 @@
+X: 460
+T:Zenska Siptarska Igra
+O:Albania
+F: http://www.youtube.com/watch?v=OnBRxuVNuV4
+F: http://www.youtube.com/watch?v=w6HhRr7sLgw
+M:7/8
+L:1/8
+Q:1/4=132
+K:Am
+%%MIDI gchord f3f2f2
+%%MIDI beatstring fppmpmp
+  "A"E2FEDCD | E2FEDCD | E2FEDCD    | E2FEDCD|
+  "E"B2^GA2F2|EDCB,3C  |D2CB,A,^G,A,|^G,7    |
+|:"A"E3A2c2  |f3e4     |f3e2d2      |"E"c2BB4|\
+  E3^G2B2    |  d3B4   |"E"e2f edcB | "A"A7  :|
+|:"A"A3A2A2  |"D"A3F2D2|"E"B2cBA^GA |B7      |\
+  E3^G2B2    |  d3B4   |"E"e2f edcB | "A"A7  :|

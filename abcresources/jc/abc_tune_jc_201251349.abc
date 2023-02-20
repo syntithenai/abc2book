@@ -1,0 +1,44 @@
+X:1
+T:The Bee In The Knickers  "CYMRU"
+M:6/8
+L:1/8
+Q:80
+C:G.Campbell
+S:Jig
+K:HP
+|: a/2g/2 | \
+{a}fd{G}d{g}dA{G}A | \
+{g}B{d}G{e}G{Gdc}d2B |
+{g}c{d}A{e}A{g}eA{G}A | \
+{g}c{d}A{e}A{g}efg | | \
+{a}fd{G}d{g}dA{G}A |
+{g}B{d}G{e}G{Gdc}d2B | \
+{g}c{d}A{e}A{a}gec | \
+{Gdc}d3{gdG}d2 ::
+f2 | \
+ad{G}d{g}dfd | \
+{g}B{d}G{e}G{Gdc}d2B | \
+{g}c{d}A{e}A{g}fA{G}A |
+{g}c{d}A{e}A{g}efg | | \
+ad{G}d{g}dfd | \
+{g}B{d}G{e}G{Gdc}d2B |
+{g}c{d}A{e}A{a}gec | \
+{Gdc}d3{gdG}d2 :: \
+B |
+{g}Ad{e}A{g}B{d}Ad | \
+{g}B{d}G{e}G{Gdc}d2B | \
+{g}c{d}A{e}A{g}fA{G}A |
+{g}c{d}A{e}A{g}efg | | \
+{g}Ad{e}A{g}B{d}Ad | \
+{g}B{d}G{e}G{Gdc}d2B |
+{g}c{d}A{e}A{a}gec | \
+{Gdc}d3{gdG}d2 :: \
+f2 |
+ad{G}d{gefe}f2d | \
+{g}B{d}G{e}G{Gdc}d2B | \
+{g}ABc{eAfA}e2A |
+{g}ABd{gefe}f2g | | \
+ad{G}d{gefe}f2d | \
+{g}B{d}G{e}G{Gdc}d2B |
+{g}c{d}A{e}A{a}gec | \
+{Gdc}d3{gdG}d2 :|

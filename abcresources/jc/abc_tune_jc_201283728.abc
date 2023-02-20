@@ -1,0 +1,24 @@
+X:1
+T:HIGHLAND CATHEDRAL
+M:C
+L:1/8
+Q:80
+C:
+S:Slow Air
+K:HP
+[| {Gdc}d2-de/2f/2{gef}ed{g}Ad | \
+{gef}e2-ef{e}f4 | \
+{g}f2-fg/2a/2{f}gf{g}ed |
+{gef}e2-ef{AGAG}A4 | \
+{GdG}B2-Bc/2d/2{c}d{e}A{g}cd | \
+{ag}a2-ag{a}f4 |
+{gef}e2-ef/2g/2{fg}fd{g}Ad | \
+{gef}e2-ed{gdc}d4|] [ | \
+{gcd}c2-c{e}A{gef}e2-ec/2e/2 |
+{gfg}f2-fc{GdG}c2-cB | \
+{G}A2-A/2B/2c{gBd}B4 | \
+{gcd}c2-c/2d/2e{gBd}B4 |
+{gcd}c2-c{e}A{gef}e2-ec/2e/2 | \
+{gfg}f2-fc{GdG}c2-cB | \
+{G}A2-A/2B/2c{gBd}B2-B{G}A |
+{gAGAG}A4-A4|]

@@ -1,0 +1,56 @@
+%!abctab2ps -k 0
+%
+X:1
+%
+%%stretchlast    yes
+%%indent         1.8cm
+%%systemsep      80.0pt
+%%historicstyle  yes
+%%nobeams        yes
+%
+T:Sinfonia prima a 3. Va sonata alla quarta Alta.
+T:Il Primo Libro delle Sinfonie et Gagliarde 1607
+C:Salomone Rossi
+M:C
+L:1/4
+K:GDorian
+%
+% critical comments:
+N:original clefs: G2, G2, F3
+N:bar lines and beams are editorial
+N:dot after last note missing in part books of Basso and Canto I
+%
+%
+V:1 name="Canto I"  clef=treble bracket=3
+V:2 name="Canto II" clef=treble
+V:3 name="Basso"    clef=bass   octave=-2
+%
+V:1
+d>e fg/f/ | ee d/c/d/e/ |\
+	f d2 c | dd/e/ fg/f/ |\
+	ee d/c/d/e/ |
+f d2 c | dB A2 | G4 ::\
+	[M:3/2 display=3] d2g2e2 | f3ed2 |\
+	g2 fefd |
+e3dc2 | f2_e2c2 | dcdefg | a2 babg | a2 bagf |\
+	ed e4 | 
+d3fed | c4 d2 |	_e3edc |\
+	B4c2 | ddcB A2 | B2A4 | G3 :|
+%
+V:2
+z4 | G>A Bc/B/ | AA G/B/A/G/ | F>G A=B |\
+	cG/A/ Bc/B/ | AA G/B/A/G/ |
+^FG2 F | G4 :: [M:3/2 display=3] B2c2^c2 |\
+	d3c=B2 | c2c2=B2 | c3BA2 | B2G2A2 | B4A2 |
+f4e2 | f4e2 | d4^c2 | d3dcB | A4B2 |\
+	c3cBA | G4A2 | BBAG ^F2 | G4 F2 | G3 :|
+%
+V:3
+g2 fe/d/ | c/d/e/f/ gg | f2 _e2 |\
+	d2 d2 | c/d/e/f/ gg | f2 _e2 |
+dc d2 | G4 :: [M:3/2 display=3] g2e2a2 |\
+	d4g2 | e2f2g2 | c4f2 | d2_e2f2 |\
+	B3cde |
+f2g4 | f3fg2 | b2a4 | d4e2 | f3fed |\
+	c4d2 | _e3edc | BABcd2 |
+G2d4 | G3 :|

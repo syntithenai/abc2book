@@ -1,0 +1,18 @@
+X: 2
+T: Bregovsko Horo #2
+O: Bulgaria
+M: 6/8
+L: 1/8
+K: Am
+"A"|:\
+"Am"E^F^G A3 | ABc A3 | "E"e^de ede | "Am"cBA A3 \
+"B"::\
+"C"GAB c3 | "Am"dcde3 | "C"g^fa g=fe |[1 dcd e3 :|[2 "Am" dcB A3 |]
+"C"|:\
+"Am"cBA A^GA | A^GA e3 | cBA A^GA | A^GA e3 |\
+cBA A^GA | A^GA e3 | cBA A^GA | A2 z A2 z :|
+"D"|:\
+"C"c2z egf | e2d c3 | egf e2d | cBA G3 \
+:: c2z egf | e2d c3 | "C"egf e2d | cBA G3 :|
+|: "C"egf egf | e2d c3 | egf e2d | cBA A3 \
+:: "C"egf egf | e2d c3 | egf e2d | cBA A3 :|

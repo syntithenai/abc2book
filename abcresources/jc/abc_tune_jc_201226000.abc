@@ -1,0 +1,23 @@
+X: 10071
+T: MISS O'DONNELL'S JIG
+C: Bob McQuillen 2 April 93
+B: Bob's Note Book 10 #71
+%R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+E \
+| DFA AFD | GAB Bcd | ABA AFA | dAF E2F |\
+| DFA AFA | GAB B2d | ABA cBc | edd d2 :|
+|: e \
+| fgf fed | Bcd edB | A2A dAG | FED E2F |\
+| DFA GAB | Adc d2A | Bcd ede | fdd d2 :|
+%%begintext align
+%% Joan O'Donnell is another
+%% one of Conval High School's great teachers, and like Mary
+%% Breton, a very dear friend of mine - She loves the
+%% music, and with a name like O'Donnell, she
+%% really needed a jig of her own! So here it is, Joni,
+%% with much love from MAC --
+%%endtext

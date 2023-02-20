@@ -1,0 +1,17 @@
+X: 1
+T: Cabri Waltz
+C: trad.
+O: Saskatchewan, Canada
+R: waltz
+%D:1913
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Simplified mashup of several online versions.
+M: 3/4
+L: 1/8
+K: G
+"^A"|: D B,>A, |\
+"G"G,2 B,3D | D3G, B,>G, | "C"C2 E3G | E3G F>E |\
+"D"D2 F2 A2 |[1 A4 (3FED | "G"G2 B3c | B3 :|[2 B3 d (3ABA | "G"G4- GA | G3 |]
+"^B"|: A B>d |\
+"G"g4 (3gag | "B7"f4 A>c | "C"e3g e>d | "G"B4 (3Bc^c |\
+"D"d3 e d>=c |[1 A3 F A>c | "C"e3 g e>d | "G"B3 :|[2 A3 D F>A | "G"G4- GA | G6 |]

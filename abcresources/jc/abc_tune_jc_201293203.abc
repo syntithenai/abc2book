@@ -1,0 +1,38 @@
+X:2
+T:Jingle Bells
+C:J. Pierpont
+Q:160
+S:Ted Neil <ted.neil:amd.com> abcusers 2002-12-15
+V:1
+V:2
+V:3
+M:4/4
+L:1/4
+K:G
+V:1 "G"D "_Melody"B A G|D2 z D/D/|D B A G|"C"E2 z2|E c B A|
+V:2 "G"B, "_Baritone Harmony"G F D|B,2 z B,/B,/|B, G F D|"C"C2 z2|C G F E|
+V:3 "G"G "_Tenor Harmony"d c B|G2 z G/G/|G d c B|"C"G2 z2|G e d c|
+%
+V:1 "D"F2 z2|d d c A|"G"B2 z2|D B A G|D2 z2|
+V:2 "D"D2 z2|A A G F|"G"G2 z2|B, G F D|B,2 z2|
+V:3 "D"A2 z2|f f e d|"G"d2 z2|G d c B|G2 z2|
+%
+V:1 "G"D B A G|"C"E2 z E|E c B A|"G"d d d d|"D"e d c A|
+V:2 "G"B, G F D|"C"C2 z C|C G F E|"G"B B B B|"D"c A G F|
+V:3 "G"G d c B|"C"G2 z G|G e d c|"G"g g g g|"D"g f e d|
+%
+V:1 "G"G2"D"d2|"G"B B B2|B B B2|B d G>A|B4|
+V:2 "G"D2"D"A2|"G"G G G2|G G G2|G B D>E|G4|
+V:3 "G"B2"D"f2|"G"d d d2|d d d2|d g B>c|d4|
+%
+V:1 "C"c c c>c|"G"c B B B/B/|B A A B|"D"(A2 d2)|"G"B B B2|
+V:2 "C"G G G>G|"G"A G G G/G/|G F F G|"D"(F2 A2)|"G"G G G2|
+V:3 "C"e e e>e|"G"e d d d/d/|d c c d|"D"(d2 f2)|"G"d d d2|
+%
+V:1 "G"B B B2|B d G>A|B4|"C"c c c>c|
+V:2 "G"G G G2|G B D>E|G4|"C"G G G>G|
+V:3 "G"d d d2|d g B>c|d4|"C"e e e>e|
+%
+V:1 "G"c B B B/B/|"D"d d c A|[1"G"G2 D:|[2"G"G2 z||
+V:2 "G"A G G G/G/|"D"A A G F|[1"G"D2 B,:|[2"G"D2 z||
+V:3 "G"e d d d/d/|"D"f f e d|[1"G"B2 G:|[2"G"B2 z||

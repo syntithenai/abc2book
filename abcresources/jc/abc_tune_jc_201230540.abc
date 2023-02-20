@@ -1,0 +1,42 @@
+X: 13
+T: the Equestrian
+%R: waltz
+B: "Le Sylphe, Twenty Four Country Dances with Figures for the Year 1818", Button & Whitaker, p.7 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1818
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 3/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+A3BA2 | A3BA2 |\
+A2B2c2 | d4ef |\
+g4e2 | f4d2 |\
+A2B2c2 | d2e2f2 |\
+agfge2 | f2afd2 |\
+ABcdef | d4 |]
+e2 |\
+e3fe2 | e3fe2 |\
+e2f2^g2 | a4bc' |\
+d'4b2 | c'4a2 |\
+e2f2^g2 | a2b2c'2 |\
+e'd'c'd'b2 | c'2e'c'a2 |
+e2f2^g2 | a2z2 |]\
+a2 |\
+d'2a2b2 | abagf2 |\
+(gagfeg) | fgfed2 |\
+d2c2d2 | B2e4 |\
+dcBABc | d2z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center WALTZ FIGURE        (Tune play'd straight thro')
+%%begintext align
+%% The 3 Ladies & 3 Gent: set to each other & turn their partner |.
+%% down the mid: up again |. & waltz allemande |. .
+%%endtext
+%%center OR THUS
+%%begintext align
+%% Chain figure 6 round & turn your partner a la waltz |.
+%% waltz whole poussette |. & swing corners |. .
+%%endtext
+%%sep 1 1 450

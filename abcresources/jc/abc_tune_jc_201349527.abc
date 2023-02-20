@@ -1,0 +1,241 @@
+X: 1
+T:The Cotillion
+M:4/4
+L:1/8
+Q:1/4=120
+C:Trad (Bosham Band)
+K:G
+|:G4d4|B2AB G2AB|c2B2A2G2|FGAF D3D|
+E4F4|GFGA G2c2|B2AG A2GF|G4G4:|
+|:dedc B2d2|dedc B2d2|e2d2e2f2|g4d2ef|
+g2fe d2cB|e2dc B2AB|c2B2A2G2|F2EF D2D2|
+E4F4|GFGA G2c2|B2AG A2GF|G4G4:|
+
+X: 2
+T:Flowers of Edinburgh
+M:4/4
+L:1/8
+K:G
+|:G2G2B2B2|d2ef g2fe|dcBA GFGA|B2G2E2D2|
+G2G2B2B2|d2ef g2fe|dcBA GFGA|[1B2G2G2D2:|[2B2G2G4
+|:g2g2gbag|f2f2fagf|edef gfed|B2e2e4|
+dBGB d2d2|edef g2fe|dcBA GFGA|B2G2G4:|
+
+X: 3
+T:Foul Weather Call
+C:Welch MS
+N:bar14 as per STB. 1st note G not F# in the version I copied
+N:Changed back to G in my version BC
+M:4/4
+L:1/8
+K:D
+gfed e2a2|gfed dcBA|d2A2BcdB|g2f2e4|
+gfed e2a2|gfed dcBA|d3A BcdG|F2E2D4:|
+|:GFED A2A2|Bcde dcBA|d2A2BcdB|g2f2e4|
+gfed e2a2|gfed dcBA|d3A BcdG|F2E2D4:|
+
+X: 4
+T:From Night Till Morn
+C:Welch MS
+M:4/4
+L:1/8
+K:G
+|:dc|B2B2B2G2|AGAB G2AB|cBAG GABc|d3e/2c/2 B2dc|
+B2B2B2G2|AGAB G2AB|cBAG GABG|[1A4G2:|[2A4G4
+|:GABc d2d2|d2e2d4|e2d2g2B2|d3e/2c/2 B2dc|
+B2B2B2G2|AGAB G2AB|cBAG GABc|d3e/2c/2 B2dc|
+B2B2B2G2|AGAB G2AB|cBAG GABG|A4G4:|
+
+X: 5
+T:Jacky Tar
+C:Trad
+M:4/4
+L:1/8
+K:G
+|:Bd|e3f g2fe|d2B2B2dB|ABde faef|d2A2A2Bd|
+e2ef g2fe|dBGB d2cB|AGFE DEFA|G2E2E2:|
+|:GA|BGEG BGEG|BAGF E2FG|AFDF AFDF|AGFE D2EF|
+GFGB g2fe|dBGB d2cB|AGFE DEFA|G2E2E2:|
+
+X: 6
+T:Pretty Maggie Morrisey
+C:Trad
+M:4/4
+L:1/8
+K:G
+|:B3/2c/2|d3/2B/2 G3/2B/2 c3/2A/2 F3/2A/2|
+ (3GFG A3/2F/2 G3/2A/2 B3/2c/2|d3/2g/2 f3/2g/2 e3/2f/2 g3/2e/2|
+d3/2B/2 G3/2B/2 A2B3/2c/2|
+d3/2B/2 G3/2B/2 c3/2A/2 F3/2A/2|G3/2D/2 B,3/2D/2 G3/2A/2 B3/2c/2|
+d3/2g/2 f3/2g/2 e3/2c/2 A3/2F/2|G2B2G2:|
+|:B3/2c/2|d3/2g/2 f3/2g/2 e3/2g/2 f3/2g/2|
+d3/2g/2 f3/2g/2 e3/2g/2  (3gfg|d3/2g/2 f3/2g/2 e3/2f/2 g3/2e/2|
+d3/2B/2 G3/2B/2 A2B3/2c/2|
+d3/2B/2 G3/2B/2 c3/2A/2 F3/2A/2|G3/2D/2 B,3/2D/2 G3/2A/2 B3/2c/2|
+d3/2g/2 f3/2g/2 e3/2c/2 A3/2F/2|G2B2G2:|
+
+X: 7
+T:Scan Tester's No 1
+C:Scan Tester
+M:4/4
+L:1/8
+K:G
+BA|G2G2GABc|d4d2B2|c2d2e2f2|g4g2b2|
+a2g2f2e2|e2d2B3d|e2d2c2B2|A4ABAG|
+G2G2GABc|d4d2B2|c2d2e2f2|g4g2b2|
+a2g2f2e2|e2d2B3A|G2B2cB A2|G6
+|:BA|G3A B2c2|e2d2B2B2|A3B cBAc|e2d2B2A2|
+G3A B2c2|e2d2B2g2|fedc B2A2|G6:|
+
+X: 8
+T:Scan Testers No 2
+C:Scan Tester
+M:4/4
+L:1/8
+K:G
+|:Bc|d2dd d2d2|d2^c2=c2B2|A3B A2G2|F6DE|
+F2EF G2FG|A2d4cB|A2G2F2E2|D6:|
+|:Bc|d2G2B2AB|c2E2A3B|c2e2d2c2|B4B3c|
+d2G2B2AB|c2E2A3B|c2ec B2A2|G6:|
+
+X: 9
+T:Soldier's Joy
+M:4/4
+L:1/8
+K:D
+|:FG|AFDF AFDF|A2d2d2cB|AFDF AFDF|G2E2E2FG|
+AFDF AFDF|A2d2d2g2|fafd egec|d2d2d2:|
+|:de|f2fd fagf|e2ec egfe|f2fd fagf|edcB A2de|
+fdfd fagf|ecec egfe|fafd egec|d2d2d2:|
+
+X: 10
+T:St Anne's Reel
+C:Trad
+N:From Meic Goodyear via Lewes Arms and Ram Inn tune sessions.
+M:4/4
+L:1/8
+K:D
+|:fgfe dedB|A2FF DF A2|B2GG DG B2|A2FF DF A2|
+fedf edcB|A2FF DF A2|BGBd cAcd|e2dc d4:|
+|:a2fd Adfg|a2gf g2ef|gfed cdef|b2a^g a4|
+a2fd Adfg|a2gf g2ef|gfed cdeg|f2d2d4:|
+
+X: 11
+T:The Star of the County Down
+M:3/4
+L:1/8
+K:G
+D2|E4E2|E2D2E2|G4G2|A2G2A2|
+B2A2G2|E4E2|D6-|D2G2F2|
+E4E2|E2D2E2|G4G2|A2G2A2|
+B2A2G2|E4D2|E6-|E2B2c2|
+d4B2|B2A2G2|A6|A2G2A2|
+B2A2G2|E4E2|D6-|D2G2F2|
+E4E2|E2D2E2|G4G2|A2G2A2|
+B2A2G2|E4D2|E6-|E4|]
+
+X: 12
+T:Tarpaulin Jacket
+C:Trad
+M:3/4
+L:1/8
+K:G
+D2|G4B2|A2B2d2|e4e2|d4GA|
+B2d2B2|A2c2B2|G6|F4D2|
+G4B2|A2B2d2|e4e2|d4GA|
+B2d2B2|A2c2B2|G6-|G4Bc|
+d2B2d2|g2f2e2|e6|c4B2|
+A2B2d2|e2c2A2|G6|F4D2|
+G4B2|A2B2d2|e4e2|d4GA|
+B2d2B2|A2c2B2|G6-|G4|]
+
+X: 13
+T:The Foggy Dew
+M:3/4
+L:1/8
+K:G
+|:z2D2|G4G2|A2G2A2|B2d2B2|A2G2A2|
+B2A2G2|E4F2|G6-|G2:|B2c2|d4e2|d2B2G2|d4e2|d2B2G2|
+G2B2d2|e2d2B2|B6|A4D2|
+G4G2|A2G2A2|B2d2B2|A2G2A2|
+B2A2G2|E4F2|G6-|G2|]
+
+X: 14
+T:The Kingston Hornpipe
+C:Traditional
+M:4/4
+L:1/8
+K:G
+|: (3DEF|G3/2F/2 G3/2B/2 d3/2B/2 g3/2f/2|
+ (3ege c3/2e/2 d3/2B/2 G3/2B/2|c3/2B/2 A3/2c/2 B3/2A/2 G3/2B/2|
+A3/2G/2 F3/2A/2 d3/2c/2 B3/2A/2|
+G3/2F/2 G3/2B/2 d3/2B/2 g3/2f/2| (3ege c3/2e/2 d3/2B/2 G3/2B/2|
+c3/2B/2 A3/2c/2 B3/2A/2 G3/2B/2|
+A3/2E/2 F3/2D/2 G2:|
+|: (3AB^c|d3/2^c/2 d3/2f/2 a3/2f/2 d3/2f/2|
+a3/2b/2 c'3/2b/2 a3/2g/2 f3/2e/2|d3/2e/2 f3/2g/2 a3/2b/2 c'3/2b/2|
+a3/2g/2 f3/2e/2  (3ded  (3cBA|
+G3/2F/2 G3/2B/2 d3/2B/2 g3/2f/2| (3ege c3/2e/2 d3/2B/2 G3/2B/2|
+c3/2B/2 A3/2c/2 B3/2A/2 G3/2B/2|
+A3/2E/2 F3/2D/2 G2:|
+
+X: 15
+T:The Quaker
+M:4/4
+L:1/8
+K:G
+|:B2B2AG FE|E2D2D2DE|F2F2FE DF|A2G2G4|
+d2ed c2B2|A2E2E2c2|BA GF E2F2|G4G4:|
+|:
+K:D
+A2A2B2B2|AG FG A4|GF EF G2G2|FE DE F4|
+A2A2B2B2|AG FG A4|GF EF GA Bc|[1d8:|[2d4=c4|]
+
+X: 16
+T:Three Around Three
+C:Trad
+M:4/4
+L:1/8
+K:G
+|:d2BA G2G2|A2BA G2D2|EDEF G2AB|c2B2B2A2|
+d2BA G2G2|A2BA G2D2|EDEF G2Ac|B2G2G4:|
+|:d2ef gfed|e2e2efge|d2B2B2AG|FGAB A4|
+d2ef gfed|e2e2e2d2|ef g2fg a2|g4g4:|
+
+X: 17
+T:The Tipsy Parson
+C:Trad
+N:Sing and Play 2
+M:4/4
+L:1/8
+K:D
+|:e2|f2A2f2A2|fgfe d2ef|g2B2g2B2|gagf e2de|
+f2A2f2A2|fgfe d2cd|efed cABc|d2f2d2:|
+|:FG|A2AB AGFE|D2FA d2cB|A2AB AGFD|E2E2E2FG|
+A2AB AGFE|D2FA d2ef|gfed cABc|d2f2d2:|
+
+X: 18
+T:Walter Bulwer's No 1
+M:4/4
+L:1/8
+K:G
+|:Bc|dcBd g3f|e2A2A3B|cBAc f2e2|d2B2B3c|
+dcBd g3f|e2A2A2G2|FGAB cdef|g2g2g2:|
+|:
+K:D
+fg|a2fg a2fg|agfg e4|e2a2gf e2|dcde fefg|
+a2fg a2fg|agfg e4|e2a2gf e2|d6:|
+
+X: 19
+T:Walter Bulwer's No 2
+M:4/4
+L:1/8
+K:G
+|:D2G2G2FG|A2E2E4|FG A2AB A2|B2G2G3E|
+D2G2G2FG|A2E2E4|FG A2D2EF|G2G2G4:|
+|:
+K:D
+A2A2B4|A2A2F4|G2G2EF G2|A2A2FG A2|
+A2A2B4|A2A2F4|G2G2EGFE|D2F2D4:|
+
+% Output from ABC2Win  Version 2.1 i on 06/08/2002

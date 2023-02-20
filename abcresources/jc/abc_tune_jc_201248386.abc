@@ -1,0 +1,39 @@
+X: 1
+T: Audenard Battle
+T: London Spy
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (139)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+N: Do the two titles correspond to the two different dances described?
+M: 6/4
+L: 1/4
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g |\
+g2d d2g | fdB B2e |\
+ecA A2d | dBG G2g |\
+g2d d2g | fdB B2e |\
+ecA Bd^F | G3- G2 :|
+|: A |\
+B>cB d2B | (d/e/f)B A2d |\
+(G/A/B)G A2D | G/A/Bc d2g |\
+fdB AG^F | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+% - - - - - - - - - - Dance description: - - - - - - - - - -
+%%begintext align
+%% All four Hands across quite round the 1st Cu. cast off and
+%% turn Hands .| Then all four left Hands across quite
+%% round the 1st Cu. cast up and turn Hands The 1st Man
+%% back with the 2d Wo. then Back to Back with his Partner
+%% .| the 2d Man back with the 1st Wo. then Back to Back
+%% with his Partner at the same Time the 1st Cu. casts off :|
+%%
+%% OR thus: The 1st Man leads off his Partner the Wo. going the
+%% Figure of 8 round the 3d Cu. the Man doing the same with the 2d Cu.
+%% meets his Partner between the 1st and 2d Men then lead thro the 2d Wo.
+%% turn in the Middle then lead thro the 2d and 3d Men and turn as before.
+%%endtext
+%%sep 1 8 500

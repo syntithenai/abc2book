@@ -1,0 +1,45 @@
+
+X: 1
+T: Jacky Bull
+B: Thomas Wilson "A Companion to the Ball Room" (London: D.Mackay, 1816)
+N: The tune is from Sir Felix's first-act aria in Samuel Arnold and John
+N: Keeffe's musical "The Agreeable Surprise" (London, 1781)
+%Q: 3/8=110
+M: 6/8
+L: 1/8
+K: C
+|:"C"c2c G2G | "F"A2A "G"G2G | "C"c>dc c2d | e3 "(G7)"g2e \
+| "C"c2c G2G | "F"A2A "C"G2e | "F"fga "C"gec | "G7"d3 "C"c3 :|
+|:"C"c/d/ee efe | efe gec | "G7"B/c/dd ded | ded fdB \
+| "C"c/d/ee efe | efe gec | "F"fga "C"gec | "G7 "d3 "C"c3 :|
+
+%%sep 5 1 500
+
+X: 2
+T: Jacky Bull
+B: Thomas Wilson "A Companion to the Ball Room" (London: D.Mackay, 1816)
+N: The tune is from Sir Felix's first-act aria in Samuel Arnold and John
+N: Keeffe's musical "The Agreeable Surprise" (London, 1781)
+%Q: 3/8=110
+M: 6/8
+L: 1/8
+K: D
+|:"D"d2d A2A | "G"B2B "A"A2A | "D"ded d2e | f3 "(A7)"a2f \
+| "D"d2d A2A | "G"B2B "D"A2f | "G"gab "D"afd | "A7 "e3 "D"d3 :|
+|:"D"d{e}ff fgf | fgf afd | "A7"c{d}ee efe | efe gec \
+| "D"d{e}ff fgf | fgf afd | "G"gab "D"afd | "A7 "e3 "D"d3 :|
+
+%%sep 5 1 500
+
+X: 3
+M:none
+K:C clef=none
+x4
+x4
+x4
+x4
+x4
+x4
+x4
+x4
+x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4

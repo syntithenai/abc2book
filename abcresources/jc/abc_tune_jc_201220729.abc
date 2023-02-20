@@ -1,0 +1,20 @@
+X: 04003
+T: ANDY'S HORNPIPE
+C: Bob McQuillen 28 Jan 79
+B: Bob's Note Book 04 #3
+%R: hornpipe, reel
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A,B, \
+| D2A,2 FEDF | AFAd f2d2 | B2dB AFDF | AdAF E2A,B, |\
+| D2A,2 FEDF | AFAd f2d2 | B2dB A2d2 | fedc d2 :|
+|: de \
+| f2d2 A2dc | BGBd A2de | f2d2 dfag | f2e2 e2de |\
+| f2d2 A2dc | BGBd edcB | ABcd efga | f2d2 d2 :|
+%%begintext align
+%% For Andy Toepfer of Applejack,
+%% with fondest Best Wishes
+%% and so _many_ _thanks_.
+%%endtext

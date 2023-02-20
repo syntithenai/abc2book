@@ -1,0 +1,14 @@
+X: 1
+T: BLUEBELL POLKA
+S: "COUNTRY DANCES OF TODAY 2", CDSS, May Gadd ed., 1951 p.16
+R: polka, reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+"A"[|]((3Bdg) |\
+"G"b2b2 gfge | d2d2 B3B | "D7"A2A2 c2e2 | "G"ed^cd B2 ((3Bdg) |
+b2b2 "C"gfge | "G"d2d2 B3G | "D7"FGAB cdef | "G"g4 z2 :|[K:D]
+"B"|:\
+"D"A4 FAdf | b4 f3f | "A7"a2^g2 =g2e2 | "D"b2a2 ^g2a2 |
+A4 FAdf | a4 f3f | "A7"a2^g2 =g2e2 | "D"d2f2 d2z2 :|

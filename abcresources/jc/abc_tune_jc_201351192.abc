@@ -1,0 +1,54 @@
+X:9
+T:Weighing from Land
+Z:Jack Campin April 2000
+N:example of BarFly's macro system
+T:"One of the Dead's Lament" (Piobaireachd Society alternate title)
+S:Kilberry Book of Ceol Mor
+m: ~n = (3{g}n//{d}n//{e}n//
+m: Ne2 = e>{GdGeAfA}e
+m: Me = {eAfA}e
+M:6/8
+L:1/8
+Q:1/8=80
+P:AAB ABB AB CCD CDD CD EEF EFF EF GGH GHH GH IIJ IJJ IJ KKL KLL KL MMN MNN MN OOP OPP OP
+K:HP
+P:A
+"ground"
+e<{g}eG {d}B{g}A2|e<{g}eB d{g}A2||\
+P:B
+e<{g}eB {d}B{g}A2|e<{g}eB d{g}A2||
+P:C
+"thumb variation"
+e<{g}eG {d}B{g}A2|a<eB d{g}A2||\
+P:D
+e<{g}eB {d}B{g}A2|a<eB d{g}A2||
+P:E
+"variation 1"
+e<{g}G {d}B<{g}A|e<{g}B d<{g}A||\
+P:F
+e<{g}A {d}B<{g}A|e<{g}B d<{g}A||
+P:G
+"variation 1 doubling"
+e<{g}G {d}B<{g}A|e<{g}A d<{g}A||\
+P:H
+e<{g}A {d}B<{g}A|e<{g}A d<{g}A||
+P:I
+"taorluath"
+~A<e ~G<{d}B|~A<e ~B<d||\
+P:J
+~A<e ~A<{d}B|~A<e ~B<d||
+P:K
+"taorluath doubling"
+~A<e ~G<{d}B|~A<e ~A<d||\
+P:L
+~A<e ~A<{d}B|~A<e ~A<d||
+P:M
+"crunluath"
+Ne2 {g}G{d}B/Me/|Ne2 {g}Bd/Me/||\
+P:N
+Ne2 {g}A{d}B/Me/|Ne2 {g}Bd/Me/||
+P:O
+"crunluath doubling"
+Ne2 {g}G{d}B/Me/|Ne2 {g}Ad/Me/||\
+P:P
+Ne2 {g}A{d}B/Me/|Ne2 {g}Ad/Me/|]

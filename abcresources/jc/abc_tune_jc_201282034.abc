@@ -1,0 +1,15 @@
+X: 1
+T: Goose Cove
+C: Brenda Stubbert SOCAN
+R: strathepsy, march
+F: http://thesession.org/tunes/6661	 2014-05-25 023118 UT
+M: C
+L: 1/8
+K: D
+"^A"[|]\
+   F>G | "D"A>F A<d   Tf>e d>f | "G"g2  G2  "Em"B d2 B | "D"A>B A<F "Bm"A>B d<f | "Em"Te4 "A7"Te2 ||
+   F>G | "D"A>F A<d   Tf>e d>f | "G"g2  G2  "Em"B d2 B | "D"TA2 A<d  "A"c>d e<f |"G"{c}d4  "D"Td2 :|
+"^B"\
+|: f>g | "D"a>g f<a "A"g>f e<f | "G"g2  G2  "Em"B d2 B | "D"A>B A<F "Bm"A>B d<f | "Em"Te4 "A7"Te2 ||
+[1 f<g | "D"a>g f<a "A"g>f e<f | "G"g<b g>d "Em"B2 e>d | "A"c>B A>g    Tf>e d<c |   "G"d4   "D"d2 :|
+[2 F>G | "D"A>F A<d   Tf>e d>f | "G"g2  G2  "Em"B d2 B | "D"TA2 A<d  "A"c>d e<f |"D"{c}d4     Td2 |]

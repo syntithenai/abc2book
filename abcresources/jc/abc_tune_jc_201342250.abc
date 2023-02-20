@@ -1,0 +1,53 @@
+X:1
+T:Sweet Chiming Bells (While Shepherds Watched)
+B:Jack Goodison's Collection of Local and Traditional Carols, 3rd. edn. 2001.
+S:Traditionally sung at Stannington and Worrall (Sheffield, South Yorkshire).
+M: 4/4
+L: 1/8
+Q:1/4=100
+V:1 program 1 68
+V:2 program 1 71
+V:3 program 1 70
+V:4 clef=bass program 1 42
+K:F
+[V:1] FG | A2 F2 c2 A2 | A2 G2 G2 GA |
+w:While_ shep-herds watched their flocks by night, All_
+[V:2] FG | F2 F2 F2 F2 | F2 E2 E2 EF |
+[V:3] A,B,| C2 A,2 A,2 C2 | C2 C2 C2 C2 |
+[V:4] F,2 | F,2F,2 F,2 F,2| C,2 C,2 C,2 B,A, |
+%
+[V:1] B2 G2 c2 B2 | A6 FG |
+w:seat-ed on the ground, The
+[V:2] G2 E2 E2 E2 | F6 FE |
+[V:3] D2 B,2 G,2 C2 | C6 A,B,|
+[V:4] G,2 G,F, E,2 C,2 | F,6 F,2 |
+%
+[V:1] A2 F2 c2 A2 | A2 G2 G2 GA | B2 B2 A2 G2 | F6 c2 |
+w:An-gel of the Lord came down, And_ Glo-ry shone a-round. Sweet
+[V:2] F2 F2 F2 F2 | F2 E2 E2 EF | G2 F2 E2 E2 | F6 A2 |
+[V:3] C2 A,2 A,2 C2 | C2 C2 C2 C2 | D2 D2 C2 B,2 | A6 z2 |
+[V:4] F,2 F,2 F,2 F,2 | C,2 C,2 C,2 B,A,| G,2 G,2 C2 C,2 | F,6 z2 |
+%
+[V:1] c6 c2 | B2 c2 A2 B2 | G6 c2 |
+w:bells, sweet chim-ing Christ-mas bells, Sweet
+[V:2] A6 A2 | E2 A2 F2 G2 | E6 E2 |
+[V:3] z2 A,2 C2 A,2 | G,2 A,2 A,2 B,2 | C2 C2 G,2 B,2 |
+[V:4] z2 F,2 F,2 F,2 | C,2 C,2 C,2 C,2 | C,2 C,2 C,2 C,2 |
+%
+[V:1] c6 c2 | B2 c2 A2 B2 | G6 B2 |
+w:bells, sweet chim-ing Christ-mas bells, They
+[V:2] A6 A2 | E2 A2 F2 G2 | E6 G2 |
+[V:3] A,2 A2 C2 A,2 | G,2 A,2 A,2 B,2 | C2 G,2 G,2 C2 |
+[V:4] F,2 F,2 F,2 F,2 | C,2 C,2 C,2 C,2 | C,2 C,2 C,2 E,2 |
+%
+[V:1] A2 c2 B2 d2 | c2 f2 d2 B2 | A4 G4 | F6 FG |
+w:lead us on our heav'n-ly way, sweet chim-ing bells. They_
+[V:2] F2 F2 E2 E2 | F2 F2 F2 G2 | F4 E4 | F6 CE |
+[V:3] C2 A,2 C2 B,2 | C2 C2 B,2 G,2 | C4 B,4 | A,6 A,C |
+[V:4] F,2 F,2 G,2 G,2 | A,2 A,2 B,2 G,2 | C4 C,4 | F,6 A,G,|
+%
+[V:1] A2 c2 B2 d2 | c2 f2 d2 B2 |A4 G4 | F6 |]
+w:lead us on our heav'n-ly way, sweet chim-ing bells.
+[V:2] F2 F2 E2 E2 | F2 F2 F2 G2 | F4 E4 | F6 |]
+[V:3] C2 A,2 C2 B,2 | C2 C2 B,2 D2 | C4 B,4 | A,6 |]
+[V:4] F,2 F,2 G,2 G,2 | A,2 A,2 B,2 G,2 | C4 C,4 | F,6 |]

@@ -1,0 +1,12 @@
+X: 1
+T: Knotwork
+T: 8x40J 3C (Wouter Joubert, RSCDS Bk 44)
+T: chase; R3 sides; SetLink; R4 half diag
+P: Discovery Quay
+C: from Bruce Shawyer website
+R: Jig
+K: A
+M: 6/8
+L: 1/16
+e2|"A"a4a2 e2c2A2|"D"f2d2A2 "A"e2c2A2|"D"d2e2f2 "A"e2c2A2|"E"G2A2B2 E4e2|"A"a4a2 e2c2A2|"D"f2d2f2 "A"e2c2A2|"E"d2B2G2 E2F2G2|"A"A2E2c2 A4e2||
+"D"f4f2 f2d2f2|"A"e2f2e2 c2B2A2|"E"d2B2G2 E2G2B2|"A7"c2A2f2 e4A2|"D"f4f2 f2d2f2|"A"e2f2e2 c2B2A2|"E"d2B2G2 E2G2B2|"A"A2E2c2 A4 |]

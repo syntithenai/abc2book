@@ -1,0 +1,39 @@
+X: 1
+T: Piccadilly
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.61 "G"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: It's not obvious why a G major time signature wasn't used, since all the f notes have sharps.
+M: 6/4
+L: 1/4
+K: Gmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+e/^f/ |\
+g3 e3 | d>ed B>cd | cdB A>G A/B/ | G3- G3 |][| B |\
+c>de e>dc | dB2 G2B | c>de e>dc | dB2 G2e/^f/ |
+g3- g2^f/g/ | a3- a2e/^f/ | g3- g2^f/g/ | a3- a2g/a/ |\
+b3- b2e | ^f>ed B>cd | c>dB A2G | G3- G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up all a D. forward and back .| That again :|
+%% ##
+%%	We. go all to the wall and stand, men go up to yor own we. and peep four times on
+%%	each side behind them, fall all to your places and turn S .| Then men to to the wall and
+%%	stand we. go up to your backs and peep four times, then fall to your places and turn S :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Sides all .| That again :|
+%% ##
+%%	As before, the men going first.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Arms all .| That again :|
+%% ##
+%%	As at the first.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

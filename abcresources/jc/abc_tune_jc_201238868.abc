@@ -1,0 +1,32 @@
+X: 31473
+T: COTILLION No. 32. LA SOMNAMBULA SETT tune 5
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.147 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The [d/c/] in the pickup to the 2nd strain is odd; one note might be a splotch of some sort.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(d/c/) |\
+Bcd def | gab g2d | BGA dgb | [a2d2D2][ad] [a2d2D2]d |\
+gbg dgd | ege cea | gab afd | g2[gB] [g2B2] H|]
+[c/A/][d/c/] |\
+(de)d (de)d | (Bd)B (GB)d | efg gfe | e2d d2B/c/ |\
+(de)d (de)f | gba g2g | f2e a2^c | d2d d^c"^D.C."=c |]
+d |\
+B2d c2e | d2d (dc)B | A2A ABc | B3 A2A |\
+B2d c2e | (de)f (ga)b | (ag).f ed^c | d2D DG"^D.C."B |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% 2 ladies forward and back,
+%% gentlemen the same,
+%% balance partners and turn,
+%% all chassa across partners and back,
+%% all balance partners and turn.
+%% Next 2, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

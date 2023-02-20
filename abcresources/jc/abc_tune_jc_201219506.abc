@@ -1,0 +1,24 @@
+X: 024
+T: the Mocking Bird
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.2 #4 (and p.3 top)
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Corrected several measures with other than 16 16th-notes.
+N: The 2nd part has the bar lines shifted left by 1 quarter-note from the common version.
+M: 4/4
+L: 1/16
+K: G
+V: 1 name=" "
+(B,C) |\
+[D6B,6] [D2B,2] [F4A,4] [E4C4] | [D2B,2] [G2-B,2-] [G8B,8] F2E2 |\
+D2 [F2-A,2-] [F8A,8] [E4C4] | [D2B,2] [G2-B,2-] [G8B,8] (B,2C2) |\
+[D6B,6] [D2B,2] F4 E4 | D2 [G2-B,2-] [G8B,8] A2B2 |
+Mc2Me2Me2Me2 (e2d2)(c2A2) | G12 (B2c2) ||\
+[d6F6] [d2F2] [f4d4] [e4c4] | d2 [g2-B2-] [g8B8] ([f2d2][e2c2]) |\
+d2 [f2-d2-] [f8d8] [e2c2] | d2 [g2-B2-] [g8B8] (B2c2) |
+[d8F8] [f4d4] [e4c4] | d2 [g2-B2-] [g8B8] (A2B2) |\
+(c2M[e2c2]M[e2c2]M[e2c2]) [e2c2]d2c2A2 | G12 (B2d2) ||\
+M[bd]M[bd]M[bd]M[bd] [b3d3]a a8 | [ac][ac][ac][ac] [a3c3][gB] [g6B6] g2 |
+"^gliss"[f2d2][a2f2][a3f3][af] a2c'2b2^a2 | b16 |\
+[bd][bd][bd][bd] [b3d3]a [a8f8] | [ac][ac][ac][ac] [a3c3]g [g8B8] |\
+(A,2B,2)(C2E2) ME2ME2ME2!2!D2 | (C2A,2) HG,8 |]

@@ -1,0 +1,1252 @@
+
+X: 1
+T: PC (Portland Collection) Jam Session at Fiddle Hell 2021
+K:
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 2
+T: Aim\'e Gagnon
+O: Qu\'ebec
+R: reel
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+B: PC3 p.17
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%%continueall
+K: G
+"^A"|: DC | "G"B,DGA B2DC | B,DGA "(E7)"B2AG | "D"FGAB cAFA |[1,3 "G"GABc "D7"d2 :|[2,4 "D"GBAF "G"G2 :|
+"^B"|: Bd | "G"kgddkg ddkgd | Bcde "(E7)"dBAG | "D"FGAB cAFA |[1,3 "G"GABc "D7"d2 :|[2,4 "D"GBAF "G"G2 :|
+
+
+X: 3
+T: Aim\'e Gagnon
+O: Qu\'ebec
+R: reel
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+B: PC3 p.17
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+"^A"|: DC | "G"B,DGA B2DC | B,DGA "(E7)"B2AG | "D"FGAB cAFA |[1,3 "G"GABc "D7"d2 :|[2,4 "D"GBAF "G"G2 :|
+"^B"|: Bd | "G"kgddkg ddkgd | Bcde "(E7)"dBAG | "D"FGAB cAFA |[1,3 "G"GABc "D7"d2 :|[2,4 "D"GBAF "G"G2 :|
+
+
+X: 4
+T: Aim\'e Gagnon's
+O: Qu\'ebec
+R: reel
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+B: PC3 p.17
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+"^A"|: DC |\
+"G"B,DGA B2DC | B,DGA "(E7)"B2AG | "D"FGAB cAFA | "G"GABc "D7"d2DC |
+"G"B,DGA B2DC | B,DGA "(E7)"B2AG | "D"FGAB cAFA | "D"GBAF "G"G2 :|
+"^B"|: Bd |\
+"G"kgddkg ddkgd | Bcde "(E7)"dBAG | "D"FGAB cAFA | "G"GABc "D7"d2Bc |
+"G"kgddkg ddkgd | Bcde "(E7)"dBAG | "D"FGAB cAFA | "D"GBAF "G"G2 :|
+
+
+X: 5
+T: Bound to Have a Little Fun
+R: reel, polka
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+B: PC3 p.17
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+%%continueall
+"^A"|: DE |\
+"G"G2B2 AGAB | G2[B2G2] [B2G2]DE | G2B2 AG-G2 | "C"E4 E2GE ||\
+"G"DEGB AGAG | B2G2 DCB,C | "D"D2D2 EDEF | "G"G4 G2 :|
+"^B"|: ef |\
+"G"g2ga ged2 | edBc d4 | "C"e4 efgf | "G"edBc d2ef ||\
+"G"g2ga ged2 | edBc d2B2 | "D"A2A2 BAG2 | "C"E4 E2 :|
+
+
+X: 6
+T: Bound to Have a Little Fun
+R: reel, polka
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+B: PC3 p.17
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+"^A"|: DE |\
+"G"G2B2 AGAB | G2[B2G2] [B2G2]DE | G2B2 AG-G2 | "C"E4 E2GE ||\
+"G"DEGB AGAG | B2G2 DCB,C | "D"D2D2 EDEF | "G"G4 G2 :|
+"^B"|: ef |\
+"G"g2ga ged2 | edBc d4 | "C"e4 efgf | "G"edBc d2ef ||\
+"G"g2ga ged2 | edBc d2B2 | "D"A2A2 BAG2 | "C"E4 E2 :|
+
+
+X: 7
+T: Bound to Have a Little Fun
+R: reel, polka
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+B: PC3 p.17
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+"^A"|: DE |\
+"G"G2B2 AGAB | G2[B2G2] [B2G2]DE | G2B2 AG-G2 | "C"E4 E2GE |
+"G"DEGB AGAG | B2G2 DCB,C | "D"D2D2 EDEF | "G"G4 G2 :|
+"^B"|: ef |\
+"G"g2ga ged2 | edBc d4 | "C"e4 efgf | "G"edBc d2ef |
+"G"g2ga ged2 | edBc d2B2 | "D"A2A2 BAG2 | "C"E4 E2 :|
+
+
+X: 8
+T: Calling Wood
+C: by Adam Broome and Nicholas Williams
+R: jig
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+B: PC3 p.45
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+%%continueall
+"^A"|:"F"FGA cAG | A2c- c3 |\
+[1,3  "Bb/F"FBc dcB | "F"A2c- c3 :|\
+[2,4  "Dm"cdf gfd | "C"c2A- A3 \
+"^B"::"Dm"f3- fgf | "C"edc cde |
+    | "Bb"d6 | zFG ABc \
+  |[1 "Gm"d3- dcB | "F"cAF FGA | "C"G3 zEF | GAB cde \
+ :|[2 "Gm"d3- dcB | "F"cAF FED | "C"C6- | C6 |]
+
+
+X: 9
+T: Calling Wood
+C: by Adam Broome and Nicholas Williams
+R: jig
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+B: PC3 p.45
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+%%continueall
+"^A"|:"F"FGA cAG | A2c- c3 |\
+[1,3  "Bb/F"FBc dcB | "F"A2c- c3 :|\
+[2,4  "Dm"cdf gfd | "C"c2A- A3 \
+"^B"::"Dm"f3- fgf | "C"edc cde |
+    | "Bb"d6 | zFG ABc \
+  |[1 "Gm"d3- dcB | "F"cAF FGA | "C"G3 zEF | GAB cde \
+ :|[2 "Gm"d3- dcB | "F"cAF FED | "C"C6- | C6 |]
+
+
+X: 10
+T: Calling Wood
+C: by Adam Broome and Nicholas Williams
+R: jig
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+B: PC3 p.45
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+|:\
+"F"FGA cAG | A2c- c3 | "Bb/F"FBc dcB | "F"A2c- c3 |\
+"F"FGA cAG | A2c- c3 | "Dm"cdf gfd | "C"c2A- A3 :|
+"Dm"f3-fgf | "C"edc cde | "Bb"d6 | zFG ABc |\
+"Gm"d3- dcB | "F"cAF FGA | "C"G3 zEF | GAB cde ||
+"Dm"f3-fgf | "C"edc cde | "Bb"d6 | zFG ABc |\
+"Gm"d3- dcB | "F"cAF FED | "C"C6- | C6 |]
+
+
+X: 11
+T: Calling Wood
+C: by Adam Broome and Nicholas Williams
+R: jig
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+B: PC3 p.45
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+"^A"|:\
+"F"FGA cAG | A2c- c3 | "Bb/F"FBc dcB | "F"A2c- c3 |
+"F"FGA cAG | A2c- c3 | "Dm"cdf gfd | "C"c2A- A3 :|
+"^B1"[|\
+"Dm"f3-fgf | "C"edc cde | "Bb"d6 | zFG ABc |
+"Gm"d3- dcB | "F"cAF FGA | "C"G3 zEF | GAB cde ||
+"^B2"||\
+"Dm"f3-fgf | "C"edc cde | "Bb"d6 | zFG ABc |
+"Gm"d3- dcB | "F"cAF FED | "C"C6- | C6 |]
+
+
+X: 12
+T: Cori-Lation
+C: by Erik Hoffman
+R: reel, march
+B: PC3 p.53
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Amix
+%%continueall
+"^A"|:\
+"A"A2c2 ABc2 | "D"d3d "A"c2A2 | "D"d2 f4 f2 | "A"efed c2A2 ||\
+"D"d2 f4 f2 | "A"efed c2A2 | "G"A2 G4 B2 | "A"A8 :|
+"^B"|:\
+"A"a2 e4 a2 | "G"b3b a2g2 | "A"a2 e4 a2 | "D"fgaf e2d2 ||\
+"A"a2 e4 a2 | "G"b3b a2g2 | "D"f2 d4 c2 | "A"A8 :|
+
+
+X: 13
+T: Cori-Lation
+C: by Erik Hoffman
+R: reel, march
+B: PC3 p.53
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Amix
+"^A"|:\
+"A"A2c2 ABc2 | "D"d3d "A"c2A2 | "D"d2 f4 f2 | "A"efed c2A2 ||\
+"D"d2 f4 f2 | "A"efed c2A2 | "G"A2 G4 B2 | "A"A8 :|
+"^B"|:\
+"A"a2 e4 a2 | "G"b3b a2g2 | "A"a2 e4 a2 | "D"fgaf e2d2 ||\
+"A"a2 e4 a2 | "G"b3b a2g2 | "D"f2 d4 c2 | "A"A8 :|
+
+
+X: 14
+T: Cori-Lation
+C: by Erik Hoffman
+R: reel, march
+B: PC3 p.53
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Amix
+"^A"|:\
+"A"A2c2 ABc2 | "D"d3d "A"c2A2 | "D"d2 f4 f2 | "A"efed c2A2 ||
+"D"d2 f4  f2 | "A"efed   c2A2 | "G"A2 G4 B2 | "A"A8 :|
+"^B"|:\
+"A"a2 e4  a2 | "G"b3b    a2g2 | "A"a2 e4 a2 | "D"fgaf e2d2 ||
+"A"a2 e4  a2 | "G"b3b    a2g2 | "D"f2 d4 c2 | "A"A8 :|
+
+
+X: 15
+T: Cruinni\'u na mBad
+T: Gathering of the Boats
+C: Hank Laramee
+R: jig
+%D:2004
+B: PC3 p.57
+S: Fiddle Hell Online 2021-10-13 PC3 p.57
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+%%continueall
+"^A"|: D \
+| "A"E2A BAB | "F#m"cef fec | "A"A2B cBA | "E"B2F "D"F2D |\
+| "A"E2A BAB | cef afe | "F#m"c2e fec | "E"B2A "A"A2 :|
+"^B"|: e \
+| "D"f2a afe | "A"e2c cBA | "D"f2a afe | "E"e2f e2c |\
+| "D"f2a afe | "A"e2c cBA | "F#m"c2e fec | "E"B2A "A"A2 :|
+
+
+X: 16
+T: Cruinni\'u na mBad
+T: Gathering of the Boats
+C: Hank Laramee
+R: jig
+%D:2004
+B: PC3 p.57
+S: Fiddle Hell Online 2021-10-13 PC3 p.57
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+% = = = = = = = = = =
+"^A"[|] D \
+| "A"E2A BAB | "F#m"cef fec | "A"A2B cBA | "E"B2F "D"F2D |\
+| "A"E2A BAB | cef afe | "F#m"c2e fec | "E"B2A "A"A2 :|
+"^B"|: e \
+| "D"f2a afe | "A"e2c cBA | "D"f2a afe | "E"e2f e2c |\
+| "D"f2a afe | "A"e2c cBA | "F#m"c2e fec | "E"B2A "A"A2 :|
+
+
+X: 17
+T: Cruinni\'u na mBad
+T: Gathering of the Boats
+C: Hank Laramee
+R: jig
+%D:2004
+B: PC3 p.57
+S: Fiddle Hell Online 2021-10-13 PC3 p.57
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+% = = = = = = = = = =
+"^A"[|] D \
+| "A"E2A BAB | "F#m"cef fec | "A"A2B cBA | "E"B2F "D"F2D |
+| "A"E2A BAB | cef afe | "F#m"c2e fec | "E"B2A "A"A2 :|
+"^B"|: e \
+| "D"f2a afe | "A"e2c cBA | "D"f2a afe | "E"e2f e2c |
+| "D"f2a afe | "A"e2c cBA | "F#m"c2e fec | "E"B2A "A"A2 :|
+
+
+X: 18
+T: Ducks on the Pond
+R: reel
+B: PC1 p.73
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+%%continueall
+"^A"|:\
+"Am"[E4A,4] [e4A4] | edef g4 | "G"B2Bc BAGA | BABc BAG2 |
+"Am"[E4A,4] [e4A4] | edef gaba | "G"g2e2 d2B2 |"Am"A3B [1 A4 :|[2 A2 ||
+"^B"|: e2 |\
+"Am"aebe a2g2 | edef g2g2- | "G"gfga bagf | edeg age2 |
+"Am"aebe a2g2 | edef g2ba | "G"g2e2 d2B2 |"Am"A3B [1 A2 :|[2 A4 |]
+
+
+X: 19
+T: Ducks on the Pond
+R: reel
+B: PC1 p.73
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% = = = = = = = = = =
+"^A"|:\
+"Am"[E4A,4] [e4A4] | edef g4 | "G"B2Bc BAGA | BABc BAG2 |\
+"Am"[E4A,4] [e4A4] | edef gaba | "G"g2e2 d2B2 |"Am"A3B [1 A4 :|[2 A2 ||
+"^B"|: e2 |\
+"Am"aebe a2g2 | edef g2g2- | "G"gfga bagf | edeg age2 |\
+"Am"aebe a2g2 | edef g2ba | "G"g2e2 d2B2 |"Am"A3B [1 A2 :|[2 A4 |]
+
+
+X: 20
+T: Ducks on the Pond
+R: reel
+B: PC1 p.73
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% = = = = = = = = = =
+"^A"|:\
+"Am"[E4A,4] [e4A4] | edef g4 | "G"B2Bc BAGA | BABc BAG2 |
+"Am"[E4A,4] [e4A4] | edef gaba | "G"g2e2 d2B2 |"Am"A3B [1 A4 :|[2 A2 ||
+"^B"|: e2 |\
+"Am"aebe a2g2 | edef g2g2- | "G"gfga bagf | edeg age2 |
+"Am"aebe a2g2 | edef g2ba | "G"g2e2 d2B2 |"Am"A3B [1 A2 :|[2 A4 |]
+
+
+X: 21
+T: Grasshopper Sittin on a Sweet Potato Vine
+R: reel
+B: PC1 p.94
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+%%continueall
+"^A"|: "D"ABAG FGAd | fafe d4 \
+ |[1,3 "G"BdBA GABA | dAB2 "D"A4 \
+:|[2,4 "A"cdcB ABcA | "D"d3e d4 :|
+"^B"|: "A"efed cdef | aefe "D"d4 \
+ |[1,3 "G"BdBA GABA | dAB2 "D"A4 \
+:|[2,4 "A"cdcB ABcA | "D"d3e d4 :|
+
+
+X: 22
+T: Grasshopper Sittin on a Sweet Potato Vine
+R: reel
+B: PC1 p.94
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% = = = = = = = = = =
+"^A"|: "D"ABAG FGAd | fafe d4 \
+ |[1,3 "G"BdBA GABA | dAB2 "D"A4 \
+:|[2,4 "A"cdcB ABcA | "D"d3e d4 :|
+"^B"|: "A"efed cdef | aefe "D"d4 \
+ |[1,3 "G"BdBA GABA | dAB2 "D"A4 \
+:|[2,4 "A"cdcB ABcA | "D"d3e d4 :|
+
+
+X: 23
+T: Grasshopper Sittin on a Sweet Potato Vine
+R: reel
+B: PC1 p.94
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% = = = = = = = = = =
+"^A"|:\
+"D"ABAG FGAd | fafe d4 | "G"BdBA GABA | dAB2 "D"A4 |
+"D"ABAG FGAd | fafe d4 | "A"cdcB ABcA | "D"d3e d4 :|
+"^B"|:\
+"A"efed cdef | aefe "D"d4 | "G"BdBA GABA | dAB2 "D"A4 |
+"A"efed cdef | aefe "D"d4 | "A"cdcB ABcA | "D"d3e d4 :|
+
+
+X: 24
+T: Griffenfeldt
+R: reel
+B: PC3 p.87
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+%%continueall
+"^A"|: D2 |\
+"G"G2Bc d2fd | "Gm"ec_BA "G"G3G | "F"GAF2 FGAc | "C"ABG2 G2D2 |
+"G"G2Bc d2fd | "Gm"ec_BA "G"G3G | "F"GAF2 FGAc | "G"ABG2 G2 :|
+"^B"|: d2 |\
+"G"g2g2- g2ag | f2d2 d3e | "F"dcBA  Bcdf | "C"e2d2 d2Bd |
+"G"g2g2- g2ag | f2d2 d3e | "F"dc_BA BAGF | "G"G2GF G2 :|
+
+
+X: 25
+T: Griffenfeldt
+R: reel
+B: PC3 p.87
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% = = = = = = = = = =
+"^A"|: D2 |\
+"G"G2Bc d2fd | "Gm"ec_BA "G"G3G | "F"GAF2 FGAc | "C"ABG2 G2D2 |\
+"G"G2Bc d2fd | "Gm"ec_BA "G"G3G | "F"GAF2 FGAc | "G"ABG2 G2 :|
+"^B"|: d2 |\
+"G"g2g2- g2ag | f2d2 d3e | "F"dcBA  Bcdf | "C"e2d2 d2Bd |\
+"G"g2g2- g2ag | f2d2 d3e | "F"dc_BA BAGF | "G"G2GF G2 :|
+
+
+X: 26
+T: Griffenfeldt
+R: reel
+B: PC3 p.87
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% = = = = = = = = = =
+"^A"|: D2 |\
+"G"G2Bc d2fd | "Gm"ec_BA "G"G3G | "F"GAF2 FGAc | "C"ABG2 G2D2 |
+"G"G2Bc d2fd | "Gm"ec_BA "G"G3G | "F"GAF2 FGAc | "G"ABG2 G2 :|
+"^B"|: d2 |\
+"G"g2g2- g2ag | f2d2 d3e | "F"dcBA  Bcdf | "C"e2d2 d2Bd |
+"G"g2g2- g2ag | f2d2 d3e | "F"dc_BA BAGF | "G"G2GF G2 :|
+
+
+X: 27
+T: Hollow Poplar
+R: reel
+B: PC1 p.104
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+%%continueall
+"^A"|: Bc |\
+"G"d4 d2Bc | d2B2 AGAB | "C"c4 c2AB | c2B2 AGEG |
+"G"DEGA Bdef | g2f2 edBA | G2BG "D"AGF2 | "G"G6 :|
+"^B"|: Bc |\
+"G"d4 g4 | g2f2 e2d2 | "D"fa-a2 a2fg | a2f2 edef |
+"G"gfef gfef | "C"g2f2 edBA | "G"G2BG "D"AGF2 | "G"G6 :|
+
+
+X: 28
+T: Hollow Poplar
+R: reel
+B: PC1 p.104
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% = = = = = = = = = =
+"^A"|: Bc |\
+"G"d4 d2Bc | d2B2 AGAB | "C"c4 c2AB | c2B2 AGEG |\
+"G"DEGA Bdef | g2f2 edBA | G2BG "D"AGF2 | "G"G6 :|
+"^B"|: Bc |\
+"G"d4 g4 | g2f2 e2d2 | "D"fa-a2 a2fg | a2f2 edef |\
+"G"gfef gfef | "C"g2f2 edBA | "G"G2BG "D"AGF2 | "G"G6 :|
+
+
+X: 29
+T: Hollow Poplar
+R: reel
+B: PC1 p.104
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% = = = = = = = = = =
+"^A"|: Bc |\
+"G"d4 d2Bc | d2B2 AGAB | "C"c4 c2AB | c2B2 AGEG |
+"G"DEGA Bdef | g2f2 edBA | G2BG "D"AGF2 | "G"G6 :|
+"^B"|: Bc |\
+"G"d4 g4 | g2f2 e2d2 | "D"fa-a2 a2fg | a2f2 edef |
+"G"gfef gfef | "C"g2f2 edBA | "G"G2BG "D"AGF2 | "G"G6 :|
+
+
+X: 30
+T: McLenon's Reel
+C: by Bob McQuillen
+%D:1979
+R: reel
+B: PC1 p.142
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bm
+%%continueall
+"^A"|: dB |:\
+"Bm"F2B2 B2dB | "D"AFAB A2 \
+  [1,3 BA | "Bm"F2B2 B2dB | "D"A6 BA \
+:|[2,4 de | "Bm"f2ed "A"c2A2 | "Bm(G)"B6 :|
+"^B"|: de |\
+"D"fefg a2f2 | "A"edcB A2 \
+  [1,3 de | "D"fefa f2d2 | "A"e6 \
+:|[2,4 Bc | "Bm"d2ed "A"cBA2 | "Bm(G)"B6 :|
+
+
+X: 31
+T: McLenon's Reel
+C: by Bob McQuillen
+%D:1979
+R: reel
+B: PC1 p.142
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bm
+% %continueall
+"^A"|: dB |:\
+"Bm"F2B2 B2dB | "D"AFAB A2 \
+  [1,3 BA | "Bm"F2B2 B2dB | "D"A6 BA \
+:|[2,4 de | "Bm"f2ed "A"c2A2 | "Bm(G)"B6 :|
+"^B"|: de |\
+"D"fefg a2f2 | "A"edcB A2 \
+  [1,3 de | "D"fefa f2d2 | "A"e6 \
+:|[2,4 Bc | "Bm"d2ed "A"cBA2 | "Bm(G)"B6 :|
+
+
+X: 32
+T: McLenon's Reel
+C: by Bob McQuillen
+%D:1979
+R: reel
+B: PC1 p.142
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bm
+"^A"|: dB |\
+"Bm"F2B2 B2dB | "D"AFAB A2BA | "Bm"F2B2 B2dB | "D"A6 BA |
+"Bm"F2B2 B2dB | "D"AFAB A2de | "Bm"f2ed "A"c2A2 | "Bm(G)"B6 :|
+"^B"|: de |\
+"D"fefg a2f2 | "A"edcB A2de | "D"fefa f2d2 | "A"e6 de |
+"D"fefa f2d2 | "A"edcB A2Bc | "Bm"d2ed "A"cBA2 | "Bm(G)"B6 :|
+
+
+X: 33
+T: Megajig
+C: by Larry Unger
+%D:2003
+R: jig
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+B: PC2 p.132
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+%%continueall
+"^A"|: e | "A"=gaa age | c2A =G2A | "D7"=cdd dcA | F2D =C2D || "A"A,2A, C2E \
+|[1 =GEG A2G | "E7"E2E G2A | BAB d2 \
+:|[2 =G2A "D"B=cB | "E"A2=G E2G | "A"A3 A2 \
+"^B"|: B | "D7"=cAA BAA | =cAA BAA | "A"cee fee | =gee \
+[1 fee || "D7"=cAA BAA | =cAA BAA | "A"e2c A2F | =G3 A2 \
+:|[2 e2A || "E"B2B c2c | d2d e2e | gee bee | e3 z2 |]
+
+
+X: 34
+T: Megajig
+C: by Larry Unger
+%D:2003
+R: jig
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+B: PC2 p.132
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% = = = = = = = = = =
+"^A"|: e | "A"=gaa age | c2A =G2A | "D7"=cdd dcA | F2D =C2D || "A"A,2A, C2E \
+|[1 =GEG A2G | "E7"E2E G2A | BAB d2 :|
+|[2 =G2A "D"B=cB | "E"A2=G E2G | "A"A3 A2 \
+"^B"|: B | "D7"=cAA BAA | =cAA BAA | "A"cee fee | =gee |
+[1 fee || "D7"=cAA BAA | =cAA BAA | "A"e2c A2F | =G3 A2 \
+:|[2 e2A || "E"B2B c2c | d2d e2e | gee bee | e3 z2 |]
+
+
+X: 35
+T: Megajig
+C: by Larry Unger
+%D:2003
+R: jig
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+B: PC2 p.132
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% = = = = = = = = = =
+"^A1"[| e |\
+"A"=gaa age | c2A =G2A | "D7"=cdd dcA | F2D =C2D ||\
+"A"A,2A, C2E | =GEG A2G | "E7"E2E G2A | BAB d2 |]
+"^A2"[| e |\
+"A"=gaa age | c2A =G2A | "D7"=cdd dcA | F2D =C2D ||\
+"A"A,2A, C2E | =G2A "D"B=cB | "E"A2=G E2G | "A"A3 A2 |]
+"^B1"[| B |\
+"D7"=cAA BAA | =cAA BAA | "A"cee fee | =gee fee ||\
+"D7"=cAA BAA | =cAA BAA | "A"e2c A2F | =G3 A2 |]
+"^B2"[| B |\
+"D7"=cAA BAA | =cAA BAA | "A"cee fee | =gee e2A ||\
+"E"B2B c2c | d2d e2e | gee bee | e3 z2 |]
+
+
+X: 36
+T: Merry Scotchman Breakdown
+C: by Andy De Jarlis
+%D:1957
+R: reel
+B: PC2 p.133
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Amix
+%%continueall
+"^A"|: fg |: "A"a2a2 efed | cAcd ecef |[1,3 "G"g2G2 GAGF | GAB=c defg :|[2,4 "G"gfge dBGB | "A"A2A>A A2 :|
+"^B"|: A2 |: "A"EA- AA ABcd | efec [e2A2] [1,3 cA | "G"G2BG DGAG | =cGBG ABAG :[2,4 ef | "G"gfge dBGB | "A"A2A>A A2 :|
+
+
+X: 37
+T: Merry Scotchman Breakdown
+C: by Andy De Jarlis
+%D:1957
+R: reel
+B: PC2 p.133
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Amix
+% = = = = = = = = = =
+"^A"|: fg |: "A"a2a2 efed | cAcd ecef |[1,3 "G"g2G2 GAGF | GAB=c defg :|[2,4 "G"gfge dBGB | "A"A2A>A A2 :|
+"^B"|: A2 |: "A"EA- AA ABcd | efec [e2A2] [1,3 cA | "G"G2BG DGAG | =cGBG ABAG :[2,4 ef | "G"gfge dBGB | "A"A2A>A A2 :|
+
+
+X: 38
+T: Merry Scotchman Breakdown
+C: by Andy De Jarlis
+%D:1957
+R: reel
+B: PC2 p.133
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Amix
+% = = = = = = = = = =
+"^A"|: fg |:\
+"A"a2a2 efed | cAcd ecef | "G"g2G2 GAGF | GAB=c defg |
+"A"a2a2 efed | cAcd ecef | "G"gfge dBGB | "A"A2A>A A2 :|
+"^B"|: A2 |:\
+"A"EA- AA ABcd | efec [e2A2]cA | "G"G2BG DGAG | =cGBG ABAG |
+"A"EA- AA ABcd | efec e2 ef | "G"gfge dBGB | "A"A2A>A A2 :|
+
+
+X: 39
+T: the Party Tune
+C:
+%D:
+R: march
+B: PC3 p.158
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+%%continueall
+"^A"|: AB ||\
+"D"A2zG F2A2 | d2d2- dAAB | A2G2 F2A2 | "Em"e4- eAAA ||\
+"A"A3B c2d2 | e3e effg | f2e2 B2c2 |\
+|[1 "D"dcde dB :|[2 "D"d2z "^B"|: f "D7"f2e2 ||\
+"G"g3e "G#dim"e2d2 | "D"f3d "Bm"d2c2 | "Em"e2c2 "A"B2A2 |\
+[1,3 "D"f3 :|[2 "D"d2z :|[4 "D"d4 z2 |]
+
+
+X: 40
+T: the Party Tune
+C:
+%D:
+R: march
+B: PC3 p.158
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% = = = = = = = = = =
+"^A"|: AB ||\
+"D"A2zG F2A2 | d2d2- dAAB | A2G2 F2A2 | "Em"e4- eAAA ||\
+"A"A3B c2d2 | e3e effg | f2e2 B2c2 |
+|[1 "D"dcde dB :|[2 "D"d2z "^B"|: f "D7"f2e2 ||\
+"G"g3e "G#dim"e2d2 | "D"f3d "Bm"d2c2 | "Em"e2c2 "A"B2A2 |\
+[1,3 "D"f3 :|[2 "D"d2z :|[4 "D"d4 z2 |]
+
+
+X: 41
+T: the Party Tune
+C:
+%D:
+R: march
+B: PC3 p.158
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+"^A"|: AB |\
+"D"A2zG F2A2 | d2d2- dAAB | A2G2 F2A2 | "Em"e4- eAAA |
+"A"A3B c2d2 | e3e effg | f2e2 B2c2 |[1 "D"dcde dB :|[2 "D"d2z ||
+"^B"|: f "D7"f2e2 |\
+"G"g3e "G#dim"e2d2 | "D"f3d "Bm"d2c2 | "Em"e2c2 "A"B2A2 | "D"f3f "D7"f2e2 |
+"G"g3e "G#dim"e2d2 | "D"f3d "Bm"d2c2 | "Em"e2c2 "A"B2A2 |[1 "D"d2z :|[2 "D"d4 z2 |]
+
+
+X: 42
+T: the Quarry Cross
+C:
+%D:
+R: march
+B: PC1 p.172
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Em	% The book has E dorian, but there are no C or c notes, and there are C major and A minor chords.
+N: The BA "pickup" notes are in the last bars of each 4-bar phrase; they work a
+N: bit better if moved to the start of the next phrase (as most versions do).
+%%continueall
+"^A"|: BA |\
+"Em"G2E2 E2ED | B,2E2 E3G |\
+[1,3 "D"F2D2 D3E | F2G2 AB :|\
+[2,4 "C"G2B2 "D"A2F2 | "Em"E4 E2 \
+"^B":: BA | "Em"B2e2 e3d |
+             | e2B2 B2A2 |\
+B2e2 e2d2 | "C"e4 "D"e3f ||\
+"Em"g2e2 "D"f2gf | "C"e2B2 "Bm"B3A |\
+"Am"G2E2 "Bm"E2F2 | "C"G2A2 "D"B2 :|
+
+
+X: 43
+T: the Quarry Cross
+C:
+%D:
+R: march
+B: PC1 p.172
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Em	% The book has E dorian, but there are no C or c notes, and there are C major and A minor chords.
+N: The BA "pickup" notes are in the last bars of each 4-bar phrase; they work a
+N: bit better if moved to the start of the next phrase (as most versions do).
+% = = = = = = = = = =
+"^A"|: BA |\
+"Em"G2E2 E2ED | B,2E2 E3G |\
+[1,3 "D"F2D2 D3E | F2G2 AB :|\
+[2,4 "C"G2B2 "D"A2F2 | "Em"E4 E2 \
+"^B":: BA | "Em"B2e2 e3d |
+             | e2B2 B2A2 |\
+B2e2 e2d2 | "C"e4 "D"e3f ||\
+"Em"g2e2 "D"f2gf | "C"e2B2 "Bm"B3A |\
+"Am"G2E2 "Bm"E2F2 | "C"G2A2 "D"B2 :|
+
+
+X: 44
+T: the Quarry Cross
+C:
+%D:
+R: march
+B: PC1 p.172
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Em	% The book has E dorian, but there are no C or c notes, and there are C major and A minor chords.
+% = = = = = = = = = =
+"^A"|:\
+"Em"G2E2 E2ED | B,2E2 E3G | "D"F2D2 D3E | F2G2 ABBA |
+"Em"G2E2 E2ED | B,2E2 E3G | "C"G2B2 "D"A2F2 | "Em"E4 E2BA :|
+"^B"|:\
+"Em"B2e2 e3d | e2B2 B2A2 | B2e2 e2d2 | "C"e4 "D"e3f |
+"Em"g2e2 "D"f2gf | "C"e2B2 "Bm"B3A | "Am"G2E2 "Bm"E2F2 | "C"G2A2 "D"B2BA :|
+
+
+X: 45
+T: Riff City
+C: by John Goodin
+%D:2001
+R: reel
+B: PC3 p.175
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+%%continueall
+"^A"|: "Gm"G2GF GFDC | DFDC D4 |\
+[1,3 "C"C2B,G, C2B,G, | CG,B,2 G,4 :|\
+[2,4 "C"c2BG FDF2 | "Gm"G8 :|
+"^B"|: "Gm"d2"F/G"c2- c2"Gm"d2 | BcBF G4 |\
+[1,3  G,B,CD FGAB | "Dm"AGF2 D4 :|\
+[2,4 "C"c2BG FDF2 | "Gm"G8 :|
+
+
+X: 46
+T: Riff City
+C: by John Goodin
+%D:2001
+R: reel
+B: PC3 p.175
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+% = = = = = = = = = =
+"^A"|: "Gm"G2GF GFDC | DFDC D4 |\
+[1,3 "C"C2B,G, C2B,G, | CG,B,2 G,4 :|\
+[2,4 "C"c2BG FDF2 | "Gm"G8 :|
+"^B"|: "Gm"d2"F/G"c2- c2"Gm"d2 | BcBF G4 |\
+[1,3  G,B,CD FGAB | "Dm"AGF2 D4 :|\
+[2,4 "C"c2BG FDF2 | "Gm"G8 :|
+
+
+X: 47
+T: Riff City
+C: by John Goodin
+%D:2001
+R: reel
+B: PC3 p.175
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+% = = = = = = = = = =
+"^A"|:\
+"Gm"G2GF GFDC | DFDC D4 | "C"C2B,G, C2B,G, | CG,B,2 G,4 |
+"Gm"G2GF GFDC | DFDC D4 | "C"c2BG FDF2 | "Gm"G8 :|
+"^B"|:\
+"Gm"d2"F/G"c2- c2"Gm"d2 | BcBF G4 | G,B,CD FGAB | "Dm"AGF2 D4 |
+"Gm"d2"F/G"c2- c2"Gm"d2 | BcBF G4 | "C"c2BG FDF2 | "Gm"G8 :|
+
+
+X: 48
+T: the Road to Glountane
+C: by Terence "Cuz" Teahan
+R: reel
+%D:1964
+B: PC2 p.169
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Originally composed in the keyt of D.
+M: C|
+L: 1/8
+K: A
+%%continueall
+"^A"|:\
+"A"E3F  A3B | ceec BAFA | "D"f2ec ABcf | "A"ecBA "D"FAAF ||\
+"A"ECEF A3B | ceec BAFA | "D"f2ec ABcf | "E"ecBc "A"A4 \
+"^B"::\
+"A"e3f  a3f | "F#m"ecBA FAAB | "D"cBBA cBBA | "E"cBBA FAAf ||\
+"A"ecef a3f | "F#m"ecBA FAAB | "D"cBBA cBBA | "E"cABc "A"A4 :|
+
+
+X: 49
+T: the Road to Glountane
+C: by Terence "Cuz" Teahan
+R: reel
+%D:1964
+B: PC2 p.169
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Originally composed in the keyt of D.
+M: C|
+L: 1/8
+K: A
+% = = = = = = = = = =
+"^A"|:\
+"A"E3F  A3B | ceec BAFA | "D"f2ec ABcf | "A"ecBA "D"FAAF ||\
+"A"ECEF A3B |
+            | ceec BAFA | "D"f2ec ABcf | "E"ecBc "A"A4 \
+"^B"::\
+"A"e3f  a3f | "F#m"ecBA FAAB |
+                             | "D"cBBA cBBA | "E"cBBA FAAf ||\
+"A"ecef a3f | "F#m"ecBA FAAB | "D"cBBA cBBA | "E"cABc "A"A4 :|
+
+
+X: 50
+T: the Road to Glountane
+C: by Terence "Cuz" Teahan
+R: reel
+%D:1964
+B: PC2 p.169
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Originally composed in the keyt of D.
+M: C|
+L: 1/8
+K: A
+% = = = = = = = = = =
+"^A"|:\
+"A"E3F  A3B | ceec BAFA | "D"f2ec ABcf | "A"ecBA "D"FAAF |
+"A"ECEF A3B | ceec BAFA | "D"f2ec ABcf | "E"ecBc "A"A4 :|
+"^B"|:\
+"A"e3f  a3f | "F#m"ecBA FAAB | "D"cBBA cBBA | "E"cBBA FAAf |
+"A"ecef a3f | "F#m"ecBA FAAB | "D"cBBA cBBA | "E"cABc "A"A4 :|
+
+
+X: 51
+T: the Rose in the Heather
+C:
+%D:
+R: jig
+B: PC2 p.174
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam
+Z: 2022 John Chambers <jc:trillian.mit.edu> (slightly reformatted)
+M: 6/8
+L: 1/8
+K: D
+%%continueall
+"^A"|: "D"~F2F "A"EFE | "D"DFA BAF |\
+[1,3 ABd ede | "Bm"fdB "A"AFE :|\
+[2,4 "G"AdB AFE | "A"FDC "D"D3 :|
+"^B"|: "D"fdB ABd | faa afa |\
+[1,3 "Em"~g3 fed | "A"Bee efg :|\
+[2,4 "G"baf gfe | "A"fdc "D"d3 :|
+
+
+X: 52
+T: the Rose in the Heather
+C:
+%D:
+R: jig
+B: PC2 p.174
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam
+Z: 2022 John Chambers <jc:trillian.mit.edu> (slightly reformatted)
+M: 6/8
+L: 1/8
+K: D
+% = = = = = = = = = =
+"^A"|: "D"~F2F "A"EFE | "D"DFA BAF |\
+[1,3 ABd ede | "Bm"fdB "A"AFE :|\
+[2,4 "G"AdB AFE | "A"FDC "D"D3 :|
+"^B"|: "D"fdB ABd | faa afa |\
+[1,3 "Em"~g3 fed | "A"Bee efg :|\
+[2,4 "G"baf gfe | "A"fdc "D"d3 :|
+
+
+X: 53
+T: the Rose in the Heather
+C:
+%D:
+R: jig
+B: PC2 p.174
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam
+Z: 2022 John Chambers <jc:trillian.mit.edu> (slightly reformatted)
+M: 6/8
+L: 1/8
+K: D
+% = = = = = = = = = =
+"^A"|:\
+"D"F2F "A"EFE | "D"DFA BAF | ABd ede | "Bm"fdB "A"AFE |
+"D"~F3 "A"EFE | "D"DFA BAF | "G"AdB AFE | "A"FDC "D"D3 :|
+"^B"|:\
+"D"fdB ABd | faa afa | "Em"~g3 fed | "A"Bee efg |
+"D"fdB ABd | faa afa | "G"baf gfe | "A"fdc "D"d3 :|
+
+
+X: 54
+T: String of Trucks
+C: by Jim Kimball
+%D:1986
+B: PC2 p.196
+S: Fiddle Hell Online 2021-10-13
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Em
+%%continueall
+"^A"|:\
+"Em"B,2E2 EFGE | "D"FGFE DEFD | "Em"B,2E2 EFGE | "D"FED2 [1,3 B,2A,2 :|[2,4 "Em"E4 "^B":: "G"B4 B4 | "D"ABAG FED2 |
+"Em"B,2E2 EFGE | "D"FED2 B,2A,2 || "D7"A4 "G"B4 | "D"ABAG FED2 | "Em"B,2E2 EFGE | "D"FED2 "Em"E4 :|
+
+
+X: 55
+T: String of Trucks
+C: by Jim Kimball
+%D:1986
+B: PC2 p.196
+S: Fiddle Hell Online 2021-10-13
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Em
+% = = = = = = = = = =
+"^A"|:\
+"Em"B,2E2 EFGE | "D"FGFE DEFD | "Em"B,2E2 EFGE | "D"FED2 [1,3 B,2A,2 :|[2,4 "Em"E4 "^B":: "G"B4 B4 | "D"ABAG FED2 |
+"Em"B,2E2 EFGE | "D"FED2 B,2A,2 || "D7"A4 "G"B4 | "D"ABAG FED2 | "Em"B,2E2 EFGE | "D"FED2 "Em"E4 :|
+
+
+X: 56
+T: String of Trucks
+C: by Jim Kimball
+%D:1986
+B: PC2 p.196
+S: Fiddle Hell Online 2021-10-13
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Em
+% = = = = = = = = = =
+"^A"|:\
+"Em"B,2E2 EFGE | "D"FGFE DEFD | "Em"B,2E2 EFGE | "D"FED2 B,2A,2 |
+"Em"B,2E2 EFGE | "D"FGFE DEFD | "Em"B,2E2 EFGE | "D"FED2 "Em"E4 :|
+"^B"|:\
+"G"B4 B4 | "D"ABAG FED2 | "Em"B,2E2 EFGE | "D"FED2 B,2A,2 |
+"D7"A4 "G"B4 | "D"ABAG FED2 | "Em"B,2E2 EFGE | "D"FED2 "Em"E4 :|
+
+
+X: 57
+T: Swingin' in a Leisure Suit
+C: by Mick Doherty
+%D:1990
+B: PC2 p.199
+S: Fiddle Hell Online 2021-10-13
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+%%continueall
+"^A"|:\
+"G"gedB "Am"A2BA | "G"G2BG AGEG | DEGA BGAB | "C"edB2 "D"A4 || "G"gedB "Am"A2BA |\
+"G"G2BG AGEG | "C"DGce "G"dcBg- | "D"gBA2 "G"G4 "^B":: "G"[G2B,2] [G4B,4] GA | BAGE DEG2 |\
+"F"[A2=F2] [A4F4] AB | "D"cBAG EGA2 || "G"[G2B,2] [G4B,4] Bc | dcBA GABG | "C"DGce "G"dcBg- | "D"gBA2 "G"G4 :|
+
+
+X: 58
+T: Swingin' in a Leisure Suit
+C: by Mick Doherty
+%D:1990
+B: PC2 p.199
+S: Fiddle Hell Online 2021-10-13
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+"^A"|:\
+"G"gedB "Am"A2BA | "G"G2BG AGEG | DEGA BGAB | "C"edB2 "D"A4 || "G"gedB "Am"A2BA |
+"G"G2BG AGEG | "C"DGce "G"dcBg- | "D"gBA2 "G"G4 "^B":: "G"[G2B,2] [G4B,4] GA | BAGE DEG2 |
+"F"[A2=F2] [A4F4] AB | "D"cBAG EGA2 || "G"[G2B,2] [G4B,4] Bc | dcBA GABG | "C"DGce "G"dcBg- | "D"gBA2 "G"G4 :|
+
+
+X: 59
+T: Swingin' in a Leisure Suit
+C: by Mick Doherty
+%D:1990
+B: PC2 p.199
+S: Fiddle Hell Online 2021-10-13
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% = = = = = = = = = =
+"^A"|:\
+"G"gedB "Am"A2BA | "G"G2BG AGEG | DEGA BGAB | "C"edB2 "D"A4 |
+"G"gedB "Am"A2BA | "G"G2BG AGEG | "C"DGce "G"dcBg- | "D"gBA2 "G"G4 :|
+"^B"|:\
+"G"[G2B,2] [G4B,4] GA | BAGE DEG2 | "F"[A2=F2] [A4F4] AB | "D"cBAG EGA2 |
+"G"[G2B,2] [G4B,4] Bc | dcBA GABG | "C"DGce "G"dcBg- | "D"gBA2 "G"G4 :|
+
+
+X: 60
+T: the Walk Home
+C: Dan Compton
+%D:1996
+R: jig
+B: PC1 p.218
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam
+S: Bob Puckette's Celtic Jam collection (2019)
+Z: 2022 John Chambers <jc:trillian.mit.edu> (condensed to 2 staffs)
+M: 6/8
+L: 1/8
+K: D
+%%continueall
+"^A"|: zG,|: "D"A,DD DEF | "Em7"EDD DEF \
+|[1,3 "G"G2 B "D"FGF | "Em7"EDB, B,CD \
+:|[2,4 "G"GFE "D"EDB, | "A"~A,3 A, :|
+"^B"|: FG | "D"~A3 AGF | DED DEF |\
+[1,3 "G"GAB "D"AFD | "A"FEE E \
+:|[2,4 "Em/G"GFE "D"FDB, | "A"~A,3 A, |]
+
+
+X: 61
+T: the Walk Home
+C: Dan Compton
+%D:1996
+R: jig
+B: PC1 p.218
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam
+S: Bob Puckette's Celtic Jam collection (2019)
+Z: 2022 John Chambers <jc:trillian.mit.edu> (condensed to 2 staffs)
+M: 6/8
+L: 1/8
+K: D
+% = = = = = = = = = =
+"^A"|: zG,|: "D"A,DD DEF | "Em7"EDD DEF \
+|[1,3 "G"G2 B "D"FGF | "Em7"EDB, B,CD \
+:|[2,4 "G"GFE "D"EDB, | "A"~A,3 A, :|
+"^B"|: FG | "D"~A3 AGF | DED DEF |\
+[1,3 "G"GAB "D"AFD | "A"FEE E \
+:|[2,4 "Em/G"GFE "D"FDB, | "A"~A,3 A, |]
+
+
+X: 62
+T: the Walk Home
+C: Dan Compton
+%D:1996
+R: jig
+B: PC1 p.218
+S: Fiddle Hell Online 2021-10-13 Portland Collection Jam
+S: Bob Puckette's Celtic Jam collection (2019)
+Z: 2022 John Chambers <jc:trillian.mit.edu> (slightly reformatted)
+M: 6/8
+L: 1/8
+K: D
+% = = = = = = = = = =
+"^A"|: zG, \
+| "D"A,DD DEF | "Em7"EDD DEF | "G"G2 B "D"FGF | "Em7"EDB, B,CD |
+| "D"A,DD DEF | "Em7"EDD DEF | "G"GFE "D"EDB, | "A"~A,3 A, :|
+"^B"|: FG \
+| "D"~A3 AGF | DED DEF | "G"GAB "D"AFD | "A"FEE EFG |
+| "D"~A3 AGF | DED DEF | "Em/G"GFE "D"FDB, | "A"~A,3 A, |]
+
+
+X: 63
+T: Willafjord
+O: trad Shetland
+N: Thought to be originally from Greenland
+R: reel
+B: PC2 p.224 (chords)
+%B: Concord Slow Scottish Jam session binder 2.
+%B: SRSNH 1/92 3.16
+%B: Hardie p.35
+%B: Lerwick p.14
+%S: John Stickle tune #8 from article
+%D: Hazel Stewart on Thistledown 8B)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+%%continueall
+"^A"|: B2 |\
+"D"A2FA- ADFA | "G"B2GB- BDGB | "D"A2FA- ADFA | "A"EFGA GFED || "D"A2FA- ADFA |\
+"G"B2GB- BDGB | "A"ABcd efge | "D"f2d2 d2 "^B":: e2 || "D"f2df- ffdf | "G"geaf gfeg |\
+ "D"f2df- fAdf | "A7"e2ce- eAce || "D"f2df- ffdf | "G"geaf gfed | "A"ABcd efge | "D"f2d2 d2 :|
+
+
+X: 64
+T: Willafjord
+O: trad Shetland
+N: Thought to be originally from Greenland
+R: reel
+B: PC2 p.224 (chords)
+%B: Concord Slow Scottish Jam session binder 2.
+%B: SRSNH 1/92 3.16
+%B: Hardie p.35
+%B: Lerwick p.14
+%S: John Stickle tune #8 from article
+%D: Hazel Stewart on Thistledown 8B)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% = = = = = = = = = =
+"^A"|: B2 |\
+"D"A2FA- ADFA | "G"B2GB- BDGB | "D"A2FA- ADFA | "A"EFGA GFED || "D"A2FA- ADFA |
+"G"B2GB- BDGB | "A"ABcd efge | "D"f2d2 d2 "^B":: e2 || "D"f2df- ffdf | "G"geaf gfeg |
+ "D"f2df- fAdf | "A7"e2ce- eAce || "D"f2df- ffdf | "G"geaf gfed | "A"ABcd efge | "D"f2d2 d2 :|
+
+
+X: 65
+T: Willafjord
+O: trad Shetland
+N: Thought to be originally from Greenland
+R: reel
+B: PC2 p.224 (chords)
+%B: Concord Slow Scottish Jam session binder 2.
+%B: SRSNH 1/92 3.16
+%B: Hardie p.35
+%B: Lerwick p.14
+%S: John Stickle tune #8 from article
+%D: Hazel Stewart on Thistledown 8B)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% = = = = = = = = = =
+"^A"|: B2 \
+| "D"A2FA- ADFA | "G"B2GB- BDGB | "D"A2FA- ADFA | "A"EFGA GFED |
+| "D"A2FA- ADFA | "G"B2GB- BDGB | "A"ABcd efge | "D"f2d2 d2 :|
+"^B"|: e2 \
+| "D"f2df- ffdf | "G"geaf gfeg | "D"f2df- fAdf | "A7"e2ce- eAce |
+| "D"f2df- ffdf | "G"geaf gfed | "A"ABcd efge | "D"f2d2 d2 :|
+

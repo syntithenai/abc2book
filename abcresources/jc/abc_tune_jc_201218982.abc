@@ -1,0 +1,29 @@
+X: 1
+T: Tink a Tink
+%R: hornpipe, reel
+B: Name "Kauntze's Collection of the most favorite Dances, Reels, Waltzes, &c." p.4
+F: http://imslp.org/wiki/Kauntze%27s_Collection_of_Dances,_Reels,_Waltzes_etc._%28Various%29
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/3
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: G2d>B | G2d>B | c>dc>B | A>GF2 | G2d>B | G2d>B | c>AG>F | GBG2 :|
+|: d2g>f | e>dc>B | A>Bc>d | B2G2 | d2g>f | e>dc>B | A>cF>A | G2G2 :|
+|: G2d>B | G2e>c | G2d>B | c>AG>F | G2d>B | G2d>B | c>AG>F | G2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+[g2b2d'2][g2b2d'2] | [g2b2d'2][g2b2d'2] | [d2a2c'2][d2a2c'2] | [d2a2c'2][d2a2c'2] |\
+[g2b2d'2][g2b2d'2] [g2b2d'2][g2b2d'2] | [d2a2c'2][d2a2c'2] | [g2b2d'2][g2b2d'2] :|
+|:\
+[G2g2]z2 | [C2c2]z2 | d2d2 | [G2g2]z2 |\
+[C2c2]z2 | [C2c2][C2c2] | [D2d2][D2d2] | [G2g2][G2g2] :|\
+|: [g2b2d'2][g2b2d'2] |
+[g2c'2e'2][g2c'2e'2] | [g2b2d'2][g2b2d'2] | [d2a2c'2][d2a2c'2] |\
+[G2g2]z2 | [G2g2]z2 | c2d2 | g4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Set and cast off 2 Cu: set and cast up again, down the middle up 1 Cu:
+%%endtext

@@ -1,0 +1,25 @@
+X: 256
+T:Farewell to Ireland (Am)
+N: page 85
+N: heptatonic
+Z:Piper's version. Fiddlers will play the first part:
+Z:   B,|A,3B, EDEF|GEDB, G,A,B,G,|A,G,(3A,B,D E2AF|GEDB, EA,~A,2|\
+Z:   A,G,A,C E2EF|GEDB, G,A,B,g|ed (3efg abaf|(3gfe dB BAA:|
+M:C|
+E:7
+S:Tom Creegan
+I:speed 350
+R:reel
+K:ADor
+"Am"~A3B ~e3f|"G"(3.g.fe dB GABG|"Am"~A3B ~e3f|\
+"G"gedf eAAG| "Am"~A3B ~e3f|"G"(3.g.fe dB GABg|
+"G"ed (3efg ~a3f|(3.g.fe dB "Am"BA ~A2:|"Am"ea~a2 agea|\
+"G"~g3agedB|"Am"ea~a2 agef|"G"gedB "Am"BA~A2|
+"Am"agef ~g3e|"G"dedB GABd|"Am"cA~A2(3.B.cd ef|\
+"G"gedB "Am"BA ~A2:| "Am"eA~A2 eA~A2|
+"G"BG~G2 (3BAG Bd|"Am"eA^ce ~a3f|"G"(3.g.f.e dB "Am"BA ~A2|\
+"Am"eA ~A2 efe^c|"G"dedB GABd|
+"Am"cA~A2 (3Bcd ef|"G"gedB "Am"BA ~A2:|\
+"Am"ae^ce aece|"G"gdBd gdBd|"Am"ae^ce ~a3f|
+"G"(3.g.fe dB "Am"BA~A2|"Am"agef "G"~g3 e|dedB GABd|\
+"Am"cA~A2 "G"(3.B.^cd ef|gedB "Am"BA~A2:|

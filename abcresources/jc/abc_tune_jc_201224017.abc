@@ -1,0 +1,32 @@
+X: 07
+T: the WAY TO BE HAPPY
+%R: jig
+B: Button & Whitaker "Twelve Elegant New Dances for the Year 1810", London 1810
+F: http://imslp.org/wiki/Button_and_Whitaker's_Elegant_New_Dances_for_1810_(Various)
+Z: 2018-6-25  John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for compactness.
+V: 1 staves=2
+B/c/ |\
+ddd def | gcc c2B | BAA ABG | FAz z2B/c/ |\
+ddd def | gcc c2B | AcB AGF | G3- G2 :|
+|: [c/A/][B/G/] |\
+[AF][AF][AF] [AF][BG][cA] | [dB][gB][gB] [gB][cA][BG] |\
+[AF][AF][AF] [AF][BG][cA] | [ec][dB][dB] [dB][BG][cA] |\
+[dB]dd [dA]ef | gcc c2B | AcB AGF | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z |\
+g3 f3 | e3 d3 | c3 ^c3 | d3 D2z | G3 F3 |
+e3 d3 | c3 d3 | gdB G2 :||: z | D2d D2d | D2d D2d | D2d D2d |
+G2g G2z | g3 f3 | e3 d3 | c3 d3 | gdB G2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands across, & back again, lead down the middle up again, & hands 6 round.
+%%endtext
+% %center -------------------------
+% %center Button & Whitaker "Twelve Elegant New Dances for the Year 1810"

@@ -1,0 +1,26 @@
+X:1
+T: Longevity
+N:
+C:Tune is "Lucy's Waltz" by O Krasner
+S:
+A:
+O:
+R:
+M:3/4
+K:Am
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 26 notes)
+K:Am
+M:3/4
+L:1/16
+E4 A4 B4 |c6 d2 c4 |B2 A2 ^G2 A2 B2 G2 |A4 E8 |G4 c4 d4 |e6 f2 g4 |f2 e2 d6 c2 |c8 B4 |
+%W: A2
+% voice 1 (1 lines, 27 notes)
+E4 A4 B4 |c6 d2 c4 |B2 A2 ^G2 A2 B2 G2 |A4 E8 |G4 c4 d4 |e6 f2 g4 |f2 e2 d6 c2 |c8 e2 f2 |
+%W: B1
+% voice 1 (1 lines, 25 notes)
+g4 a6 g2 |g4 d6 e2 |f4 g6 f2 |f4 c6 d2 |e4 f6 e2 |e4 B4 c4 |e6 d2 B2 c2 |A8 e2 f2 |
+%W: B2
+% voice 1 (1 lines, 30 notes)
+g4 a6 g2 |g4 d2 e2 f2 g2 |f4 c2 d2 e2 f2 |e4 d2 c2 B2 c2 |E4 A4 B4 |^c6 d2 e2 c2 |d2 e2 ^f4 ^g4 |a12 ||

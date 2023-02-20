@@ -1,0 +1,18 @@
+X: 654
+T: Isabella Burke
+T: isia\.bal ni \.buairca\.c
+C: O'Carolan
+R: air, waltz
+%S: s:2 b:12(4+4+4)
+B: O'Neill's 1850 #654
+O: F.O'Neill
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Compacted by using labels and play order [JC]
+P: Play AB CB
+Q: "Slow"
+M: 3/4
+L: 1/8
+K: Dm
+"^A"[|]  z2   | d2 d2 (dc) | d2 g2 (gf)  | d2 fd   c>B  | B4 |]
+"^B"[|  (FG)  | A2 B2 (AG) | F2 f2 (d>c) | B2 A2  (G>F) | "^fine"D4 |]
+"^C"[| (D>E) |(F2 B2) (AG)| F4 (F/G/A)  |(B2 d2) (c>B) | "^->B"B4 |]

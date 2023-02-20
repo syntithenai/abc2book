@@ -1,0 +1,27 @@
+X: 072
+T: To danton me	
+%R: air
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.7 #2
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Q: "slow"
+M: C
+L: 1/8
+K: Gdor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1
+A>c |\
+d2(G>A) G2c>B | A>cG>A F2fg | (a>gf)d (f>dTc)A | d2(G>A) G2 :|
+|: TAG |\
+F2(f>g) f3g | (a>g)Tfd  c3f | d2(ga) g3a | (ba)(Tgf) {d}d2f>g |
+a2b>a g2ag | f>gfd (cd)f>g | (a>gf)d (f>dTc)A | d2(G>A) G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+f2 |\
+B2"6"b2 c'2"6"e2 | f"6"a"6"bc' fg"6"a"6"e | fg"6"ab "6"a2zf | b2"6"B2 c2 :|
+|: c'2 |\
+d'c'd'b "6"aga"6"e | f2zb "6"agaf | b2"6"B2 cd"6"ef | g3"6"a bc'"6"d'"6"e' | f'2"6"d'2
+e'2"6"c'2 | d'3b "6"a3"6"e | fg"6"ab "6"a2zf | B2"6"b2 c'2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

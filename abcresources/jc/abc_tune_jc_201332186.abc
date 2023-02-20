@@ -1,0 +1,28 @@
+X: 1
+T: the Royal Navy
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.309
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+(Ac) (dc) A2 (GF) | (fg)(af) g3 c | (Ac) (dc) A2 (GF) | a2 f2 A2 d2 |\
+(Ac) (fc) (Bd) (fd) | (Ac) fA G3 B | (Ac) (df) (eg) (ca) | g2 f2 f3 :|
+|: a |\
+(ac') (c'a) (fa) (af) | (eg) (ge) c3 c | d>c d>e f>d e>f | g2 e2 e3 c |\
+(dB/c/) dc ec/d/ ec | fd/e/ fA G3 B | (Ac) (df) (eg) (ca) | g2 f2 f3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first man and second woman set and fall back, then back to back, then right-hands with the
+%% second woman and left with his Partner; The first woman and second woman do the same, the first cu.
+%% takes both hands with their Partner, the second cu. do the same at the same time, and turn half round,
+%% then fall back, then cross over, then turn backs and clap, then turn and clap again, then right-hands and
+%% left.  Each Strain twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

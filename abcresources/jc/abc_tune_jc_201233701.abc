@@ -1,0 +1,22 @@
+X: 20082
+T: MARCH FROM "LA DONNA DEL LAGO."
+C: Rossini.
+Q: "Briskly."
+%R: march
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.8 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+f2ff f2f2 | f2d2 d4 |\
+c2cc c2e2 | (e2d2) d4 |\
+f2ff f2f2 | f2d2 d4 |\
+e2cc c2c2 | B6 z2 |]\
+d2dd d2=e2 | (=e2d2) d4 |\
+d2dd d2=e2 | (=e2d2) d4 |\
+f2ff f2f2 | f2d2 d4 |\
+e2cc d2c2 | B6 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

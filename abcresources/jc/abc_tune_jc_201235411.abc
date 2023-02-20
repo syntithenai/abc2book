@@ -1,0 +1,22 @@
+X: 2112
+T: Wat ye wha I met the streen    or Lord Haddo's Favourite
+%R: march, reel
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.11 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "Slow"
+K: Bm
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+B4~c2B2 ~c2e2f4 | e2Tc2a2c2 {d}c2TBA F4 | A3B {AB}c3B A2B2c2e2 | TE4 F3A {AB}c2B2 B4 ::
+b3c'b2a2 (bc'd')c' Tb4 | a3b (abc'b) (c'b).a.f e2a2 | Tf4e2c2 (fef^g) a3F | TE4F3A {AB}c2B2B4 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+b4B4 z2c'2d'4 | c'4a4 a2c'2d'4 | c'6b2 a2^g2a2c'2- | c'4d'3c' b4B4 ::
+b4B4 b4B4 | c4e4 a4A4 | d4c2A2 d8 | c4d3c B4b4 :|

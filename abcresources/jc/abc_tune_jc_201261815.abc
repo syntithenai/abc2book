@@ -1,0 +1,16 @@
+X: 395
+T: Child of My Heart
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #395
+R: single jig
+%S: s:2 b:16(8+8)
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0395/oneill-1001-0395-1.abc
+M: 6/8
+L: 1/8
+K: C
+"^A"[|] c \
+|: e2d c2A | GEE c2d | e2d c2A | GEA GED \
+|| e2d c2A | GEE c2d | edc dcA | GEA GED :|
+"^B"\
+|: ABA AGE | c3 DED | ABA AGE | GED DED \
+|| ABA AGE | c3 c2d | edc dcA | GEA GED :|

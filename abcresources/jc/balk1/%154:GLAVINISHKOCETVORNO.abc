@@ -1,0 +1,18 @@
+X: 154
+T:Glavinishko Cetvorno
+O:Bulgaria
+M:7/8
+L:1/8
+Q:1/4=160
+K:Dm
+M:7/8
+L:1/8
+%%MIDI gchord fzfzfzz
+%%MIDI beatstring fpmpmpp
+|:"Gm"GABcc2B|"Bb"BAcB2AF|"Gm"GABcd3 |\
+  "Gm"GABcc2B|"Bb"BAcB2AF|"Gm"G4G3   :|
+M:6/8
+L:1/8
+%%MIDI gchord fzzfzz
+|:"Gm"G3cdG  |"Gm"d2c c2B|"Gm"cdG d2c|"C"cBc G3    |\
+  "Gm"G3BcB  |"Gm"BcB BBA| "F"cB2 AAG| "Gm"dG2 dGz :|

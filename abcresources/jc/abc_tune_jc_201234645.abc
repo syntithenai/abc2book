@@ -1,0 +1,31 @@
+X: 20681
+T: Marchia
+C: Gaetano Brandi
+Q: "March"
+B: "Man of Feeling", Gaetano Brandi, ed. v.2 p.68-69
+F: http://archive.org/details/manoffeelingorge00rugg
+N: Voice 2, bar 11 is empty. It may be played like bar 9, or left silent.
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has the line breaks rearranged to produce 4/8-bar chunks:
+V: 1
+|:!f!\
+d2d>d f2f>f | (a3g) .f4 | d'c'ba gfed | e2A>A .A4 |\
+d2d>d f2f>f | (a3g) .f4 | (a2bc') (d'agf) | e2e>e e4 :|
+|:\
+!f!.e2 !p!(c>A) !f!.e2 !p!(c>A) | .d2.f2 .a4 | !f!.e2 !p!c>A !f!.e2 !p!c>A| !f!.d2.f2 .a4 |\
+d'3c' bagf | e3f gabg | a3g f2{f/}ed/e/ | d2d>d d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the line/staff breaks in the original.
+V: 2
+F2F>F d2d>d | (f3e) .d4 |
+bagf edcd | c2A>A .A4 | F2F>F d2d>d |
+(f3e) .d4 | (f2ge) (ffed) | c2c>c c4 :||:
+A4 (A2G2) | .F2.d2 .f4 | x8 |
+.F2.d2 .f4 | b3a gfed | c3d efge |
+f3e d2{d/}cB/c/ | d2F>F F4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center -

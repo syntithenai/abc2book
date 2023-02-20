@@ -1,0 +1,38 @@
+X:1
+T: Lady Katherine's March
+N:
+C:Tune is "The Siston Breakwater"
+S:
+A:
+O:
+R:
+M:3/2
+K:C
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 22 notes)
+K:C
+M:3/2
+L:1/16
+g4 f4 |e4 d4 |c4 e4 |f4 d4 |c4 B4 |c8 |d4 G4 |f8 |e4 f4 |d4 c4 |B4 A4 |G4 F4 |
+%W:
+% voice 1 (1 lines, 20 notes)
+E4 G4 |c4 e4 |d4 B4 |G4 c4 |e4 g4 |f4 d4 |e4 c4 |f4 d4 |c4 B4 |B8 |c16 |
+%W: A2
+% voice 1 (1 lines, 22 notes)
+g4 f4 |e4 d4 |c4 e4 |f4 d4 |c4 B4 |c8 |d4 G4 |f8 |e4 f4 |d4 c4 |B4 A4 |G4 F4 |
+%W:
+% voice 1 (1 lines, 20 notes)
+E4 G4 |c4 e4 |d4 B4 |G4 c4 |e4 g4 |f4 d4 |e4 c4 |f4 d4 |c4 B4 |B8 |c16 |
+%W: B1
+% voice 1 (1 lines, 20 notes)
+d4 G4 |f8 |e4 f4 |d4 c4 |B4 A4 |G8 |^G4 B4 |d4 f4 |e4 B4 |d8 |c8 |B4 d4 |
+%W:
+% voice 1 (1 lines, 21 notes)
+c4 A4 |E4 A4 |d4 B4 |c4 A4 |E4 e4 |f4 B4 |c4 A4 |d4 B4 |A4 ^G4 |A16 |B4 G4 |
+%W: B2
+% voice 1 (1 lines, 19 notes)
+c4 G4 |E4 G4 |c4 d4 |c4 A4 |F4 A4 |d8 |d4 A4 |^F4 A4 |e4 c4 |c8 |B16 |
+%W:
+% voice 1 (1 lines, 21 notes)
+c4 G4 |c4 e4 |d4 f4 |e4 c4 |g4 e4 |a4 f4 |e4 d2 |e2 f4 |d4 c4 |B4 c16 |z8 ||

@@ -1,0 +1,25 @@
+X: 11031
+T: Nansy's to the green Wood gane
+T: Nancy's to the green Wood gone
+N: The tune and the index spell her name differently; the index has "&c" instead of "gane".
+%R: air, reel
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.3 (top 3 staffs continued from p.2)
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Missing dots added to last notes of several strains.
+M: C
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+|: "_Slow"\
+A3B A2(GF) | (GF)(ED) B3d | A3B ABdF | A4 d3A |\
+B2(B/c/d) A2(GF) | (GF)(ED) B3d | A3B dBAF | A4 d3 :|
+|: A |\
+d2f2 {g}f2(ef) | (gf)(ed) B2(AB) | d2f2 (gf)(ed) | Tg4 a3b |\
+a2f2 (gf)(ef) | gfed B2g2 | (fg)a2 ABAF | A4 d3 :|
+|: e |\
+fedc B2(B/c/d) | AFED B3c | dABd FAdF | A4 d3e |\
+fdeB dABd | DEFA B2(dB) | A3B dBAF | A4 d3 :|
+|: A |\
+d2(fg) afTed | bagf {f}e3A | dfeg fgdg | f4 a3(g/f/) |\
+gbeg fadf | gfed B2(fg) | a2A2 d<BAF | A4 d3 :|

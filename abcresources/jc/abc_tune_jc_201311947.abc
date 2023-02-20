@@ -1,0 +1,12 @@
+X:1
+T:Mississippi Sawyer
+C:Contra Dan's version
+R:reel
+M:C|
+L:1/8
+K:D
+V:2 clef=alto middle=C
+FG | "D" A2AF A2AF | "D" AFA2 B2A2 | "G" GFEF G2EF | "G" GFG2 A2G2 |
+"D" F2FG FEDC | "D" DEFG A2EF | "A7" GFED CA,B,C | "D" D2F2 D2 ::
+FE | "D" D2FE D2FE | "D" DEFG A4 | "C" =C2ED C2ED | "C" =CDEF G2FE |
+"D" D2FE D2FE | "D" DEFG A2EF | "A7" GFED CA,B,C | "D" D2F2 D2 |]

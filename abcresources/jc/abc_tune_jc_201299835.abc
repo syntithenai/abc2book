@@ -1,0 +1,38 @@
+X: 1
+T: L\'AGRIMAS Y SONRISAS
+T: Tears and Smiles
+T: vals sentimental
+C: Pascual de Gullo (1913)
+R: waltz
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Cm
+|:\
+("Cm"G2 c2 e2) | [g4e4] [a2f4] | [g6-e6-] | [g4e4] z2 |\
+"Cm"g2 f2 e2 | {g}e2 d2 c2 | "G7"e6 | d6 ||
+"G7"d2 e2 f2 | d2 =B2 G2 | (A6 | G6) |\
+"G7"G2 =B2 c2 | d2 e2 =B2 | "Cm /A /G/"[c6-E6-] | "/F /E /D" [c4E4] z2 ||
+"Cm"[g2G2] [c'2c2] [e'2e2] | [g'4g4] [a'2a2] | "Cm"[g'6-g6-] | [g'4g4] z2 |\
+"Cm"[g2G2] [^f2^F2] [g2G2] | "C7"[c'4c4] [c'2c2] | "Fm"[c'6c6] | [a6A6] ||
+"Fm".[a2f2] .[c'2a2] .[a2f2] | .[c'2a2] .[a2f2] .[c'2a2] | "Cm".[g2e2] .[c'2g2] .[g2e2] | .[c'2g2] .[g2e2] .[c'2g2] |\
+"G7"[g6G6] | [=b6g6f6] | "Cm"[c'6-g6-e6-] | [c'2g2e2] z2 z2 :|
+|:\
+"Cm"g6 | e6 | c6 | G6 |\
+"Cm"G2 c2 d2 | e2 d2 c2 | "G7"[d6=B6] | [d4=B4] z2 ||
+"G7/F"a6 | "/D"f6 | "/B"d6 | "/G"=B6 |\
+("G7"=B2 c2 d2) | (e4 d2) | "Cm A/ G/"[c6-E6-] | "F/ E/ D/"[c4E4] z2 ||
+"Cm"[g'6g6] | [e'6e6] | [c'6c6] | [g6G6] |\
+"Cm"[g2G2] [c'2c2] [e'2e2] | "C7"[g2G2] [c'2c2] [g2G2] | "Fm"[a6-A6-] | [a4A4] z ||
+"Fm"a4 (fd) | A6 | "Cm"g4 (ec) | G6 |\
+("G7"G2 =B2 c2) | (d2 e2 =B2) | "Cm"c6- | c2 z2 !Fine!z2 :| [K:=B=e=A]
+K: C
+|:\
+"C".e2 .g2 .e2 | .c2 .e2 .c2 | .G2 .c2 .G2 | .E2 .G2 .E2 |\
+"C".[c'2c2] .[b2B2] .[a2A2] | .[e'2e2] .[d'2d2] .[c'2c2] | "G7".[b2B2] z"^>"[bgd] "^>"[b2g2d2] | "^>"[b2g2d2] z2 z2 ||
+"G7".f2 .a2 .f2 | .d2 .f2 .d2 | .B2 .d2 .B2 | .G2 .B2 .G2 |\
+"G7".[f2F2] .[e2E2] .[d2D2] | .[a2A2] .[g2G2] .[f2F2] | "C"[e2E2] z"^>"[gec] "^>"[g2e2c2] | "^>"[c'2g2e2c2] z2 z2 ||
+"C".[e2e'2] .[g2g'2] .[e2e'2] | .[c2c'2] .[e2e'2] .[c2c'2] | .[G2g2] .[c2c'2] .[G2g2] | .[E2e2] .[G2g2] .[E2e2] |\
+"C".[c'2c2] .[b2B2] .[c2c'2] | .[e'2e2] .[d'2d2] .[c'2c2] | "F"[a2A2] z"^>"[afcA] "^>"[a2f2c2A2] | "^>"[a2f2c2A2] z2 z2 ||
+"F".a2 .^g2 .a2 | "Dm7".f2 .d2 .c2 | "C".g2 .^f2 .g2 | .e2 .c2 .A2 |\
+("G7"GABcde) | f4 "^>"[b2B2] | "C"[c'6-c6-] | [c'2c2] z2 !d.C.!z2 :|

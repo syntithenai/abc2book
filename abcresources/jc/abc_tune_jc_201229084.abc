@@ -1,0 +1,57 @@
+X: 11
+T: Caper Fey
+%R: reel, strathspey
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.102 (and p.103 #1)
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% The book's staff breaks are used here; rearrange as needed:
+V: 1
+e |\
+c/c/c (e>d) c2(G>A) | c2G>F TECCA |\
+d/d/d (T^f>e) d2(A^c) | d2TA>G T^FDDE |\
+c/c/c (e>d) c2(G>A) |
+c2G>F TECCE |\
+DE^FG AB^cA | d2 A>G T^FDD :: g |\
+ecgc acgc | ecgf Tecca |\
+^fdad bdad |
+^fdag Tfddg |\
+ecge ( c>dTc)A | G>A cd eccg |\
+a>^fge fde^c | d2TA>G T^FDD :: E |\
+C/C/C (CE) C2(CE) |
+C/C/C (CD) TECCE |\
+D/D/D D^F D2 D^F | D/D/D (DE) ^FDDE |\
+C/C/C (CE) C2(CE) | C/C/C (CD) TECCE |\
+DE^FG AB^cA |
+dA-AG T^FDD :: g |\
+ec e/f/g/f/ Tec e/f/g/f/ | ec e/f/g/f/ ecca |\
+T^fd f/g/a/g/ fd f/g/a/g/ | T^fd f/g/a/g/ fddg |
+ec e/=f/g/f/ edTcA | GA cd Teccg |\
+(a/g/^f) (g/f/e) (f/e/d) (e/d/^c) | d2A>G ^FDD :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+c2c2 c2c2 | c2c2 c2c2 | d2d2 d2d2 | d2d2 d2d2 | c2c2 c2c2 |
+c2c2 c2c2 | d2d2 d2d2 | d2A2 F2F :: z | c2c2 c2c2 | c2c2 c2c2 | d2d2 d2d2 |
+d2d2 d2d2 | c2c2 c2c2 | c2c2 c2c2 | d2^c2 d2A2 | d2A2 D2D :: z | c2c2 c2c2 |
+c2c2 c2c2 | d2d2 d2d2 | d2d2 d2d2 | c2c2 c2c2 | c2c2 c2c2 | d2d2 d2d2 |
+d2A2 D2D :: z | c2c2 c2c2 | c2c2 c2c2 | d2d2 d2d2 | d2d2 d2d2 |
+c2c2 c2c2 | c2c2 c2c2 | d2^c2 d2A2 | d2A2 D2D :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st Cu: foot it and cast of two Cu: lead up to the Top and cast off .|
+%% the 2d Cu: does the same :|
+%% the 1st Cu: lead down thro the 3d Cu: the 2d and 3d follows them
+%% and all cast up into their own Places .|.
+%% the 1st 2d and 3d Cu: foot it change sides the same back again :|:
+%% Hey contrary sides, the same on your own sides .||.
+%% the first Man hands round 3 with y.e 3d Cu:
+%% the first Wo: hands round 3. with the 2d Cu: at the same time :||
+%% the 1st Man casts off turn the third Wo. stand in the 2d Mans place
+%% the 1st Wo: casts off turn the 3d Man, stand in the 2d Mans place :||.
+%% Hands round six right and left at top :||:
+%%endtext
+%%sep 2 2 400

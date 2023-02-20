@@ -1,0 +1,21 @@
+X: 12
+T: the Brest fleet
+%R: jig
+B: "Twenty Four Favourite Dances for the Year 1779", Thomas Straight, ed. p.6 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1779
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A |\
+dcd ecA | Bdc dAF | GAB AFD | ECA, A,2A |\
+dcd ecA | Bdc dAF | GAB AGF | Edc d2 :|
+|: d |\
+ceg bge | fad cBA | BGF Ebg | fed ecA |\
+BGF GBe | ged cBA | afd bge | cAc d2 :|
+%%begintext align
+%% The 1st and 2d Cu.s Change sides and back again the 1st
+%% Lady turns the 2d Gent: the 1st Gent: turn the 2d Lady;
+%% Lead thro' the bottom cast up lead thro' the top and
+%% cast off Allmand, or lead outsides
+%%endtext

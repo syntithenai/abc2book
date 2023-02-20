@@ -1,0 +1,44 @@
+X: 2
+T: THE DUKE OF GLOUCESTER'S MARCH
+C: Henry Purcell
+R: march
+M: C|
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Thomas Bray's Country Dances 1699 p.6
+P: AABB ad lib.
+S: From The Indian Queen, by Henry Purcell
+Q: 1/2=72 "Crisply"
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% V:1 arranged to give fewer, longer staff lines.
+V: 1
+"A"|:\
+f2e>g f2c2 | f2e>g f2c2 | f>g f>g (Tg3f/g/) | a2 f4 ", "a2 |\
+c'2f>a g2c>f |
+d2B>d G2d>g |\
+e2c>e d2=B2 | c8 "B":: g2d>f e2c>e | g2d>f e2c2 |\
+fcdc BAGF |
+E2 G4 ", "Gc |\
+A2A>d c2c>e | d2d>f e2g>b | a2f>a g2e2 | f8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+|:\
+A2G>B A2G2 | F2G>B A2G2 | F2C2 D2E2 | F2A>B A2", "c2 |
+F2C>F E2F>A | F2D>F G2=B2 | G2G2 A2G>F E2C>D E>DE>C :|
+|:\
+E2G2 G2A2 | =B2B>d c2E2 | F3A GFED | C2EF G2CE |
+F2F>E F2F>A | B2d>B G2G>E | F2c2 d2c>B | HA2F>G A>G A>F :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+|:\
+"F"F2"C"c2 "F"f2"C"e2 | "Dm"d2"C"c2 "F"f2 "C"e2 | "Dm"d2"F"A2 "Gm"B2"C"c2 | "F"f2 F4 ", "G>A |
+"F"A>G A>F "C"c2"F"A2 | "Bb"B4 "G"=B2G2 | "C"c2E2 "Dm"F2"G"G2 | "C"C8 :|
+|:\
+"C"c'2"G"=b2 "C"c'2"Am"a2 | "G"g2G2 "C"c2c'2 | "F"a2f2 "Gm"b2B2 | "C"c2cd ed ec |
+"F"f2fg ag af | "Bb"ba "Gm"bg "C"c'c ec | "F"f2A2 "Gm"B2"C"c2 | "F"F8 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+Note: This dance should be performed deliberately with the flavor of a march.  Dance phrases can be
+punctuated by bringing the feet together and pausing slightly before moving into the next phrase.
+%%endtext

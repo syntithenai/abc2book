@@ -1,0 +1,16 @@
+X: 626
+T: Miss Johnson
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #626
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0626/oneill-1001-0626-1.abc
+M: C|
+L: 1/8
+K: G
+"^A"[|] (dc) !segno! |\
+Bcde dcBc | dBgB bBgB | Bcde dcBc | Aaag fedc ||\
+Bcde dcBc | dBgB bBgB | bagf gfed | egfa gedc |]
+"^B"[|\
+BcBA G2(BG) | DGBG DGB2 | BcBA G2(BG) | FGAB cedc ||\
+BcBA G2BG   | DGBG DGBc | dBcA BGAF | DEFG ABc!segno!A |]

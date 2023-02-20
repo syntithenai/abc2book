@@ -1,0 +1,25 @@
+X: 2122
+T: Coln.l Robertson's    Strathspey
+%R: strathspey, air
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.12 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Rhythms at phrase endings not correct; not entirely fixed.
+M: C
+L: 1/16
+K: Em
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+[B4F4B,4] TB3A B2E2E3F | A3d (BAG)F D(EFG) A3d |\
+[B4F4B,4] TB3A B3de3f | d3B (dB)AF {F}E4 E2 :|\
+d2 |\
+e3fe2d2 TBABd e4 | d3ed2B2 (TAFA)B d3f |
+e3fe2d2 (edef) g3e | d3B (dB)AF {F}E4 Ed3 ||\
+e3fe2d2 (TBABd) e4 | d3ed2B2 (TAFAB) d3f |\
+g3ef3d e3Bd3A | d3A (BAG)F {c}TB4 E4 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+e4e4 e4e4 | d4d4 d4f4 | e4e4 e4e4 | g4a4 b4e2 :| z2 | e'4e'4 e'4e'4 | d'4d'4 d'4d'4 |
+e'4e'4 g4a4 | b4B4 e4e4 || e'4e'4 e'4e'4 | d'4d'4 d4d4 | e4f4 g4a4 | b4B4 e4e4 |]

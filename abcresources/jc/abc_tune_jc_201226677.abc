@@ -1,0 +1,29 @@
+X: 103
+T: MISS MILLER OF DALSWINTON
+C: R. RIDDELL
+R: Reel
+B: Glen Collection p.10 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: D
+%
+V: 1
+f |\
+D/D/D TAF AD Af | D/D/D TAF TE2 Ef | D/D/D AF AD fe | dB d/B/A/F/ D3 :|
+f/e/ |\
+dAFA DAA,A | FDAF E3f/e/ | dAFA DAA,A | GEAF D3f/e/ |
+dAFA DAA,A | FDAF E3f/e/ | dfeg faeg | fdaf d3 |]
+%
+V: 2
+z |\
+d2[f2d2] [a2f2][f2d2] | d2[f2d2] A2[e2c2] |\
+d2[f2d2] [a2f2][a2d2] | [g2d2][f2d2] [f3d3] :|
+z |\
+d2[f2d2] [a2f2][f2d2] | d2[f2d2] A2[e2c2] |\
+d2[f2d2] [a2f2][f2d2] | [e2A2][e2A2] [f2d2][f2d2] |
+d2[f2d2] [a2f2][f2d2] | d2[f2d2] A2[c'2a2e2] |\
+[d'2a2f2][c'2a2e2] [d'2a2d2][b2g2] | [d'2a2][c'2a2] [d'3a3d3] |]

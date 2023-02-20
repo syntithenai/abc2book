@@ -1,0 +1,33 @@
+X: 1
+T: Merry Harry
+N: Pub: J. Walsh, London, 1748
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.80 #340
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:80 #340
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+G2d TB>AB | GBd gdB  | G2d TB>AG | FAd AFD |\
+G2d TB>AB | GBd gdB  | (e/f/g)e (f/g/a)g | f3 g3 :|
+|:\
+G2b  afd  | F2a ge^c | dfa bge | Te3 d3 |\
+c2B  cfa  | B2A Bdg  |Tfef gdB | TA3 G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g3 G3 | g3 G3 | g3 G3 | d3- d3 |\
+g3 G3 | g3 B3 | c3 A3 | d2D G3 :|
+|:\
+e3   d3- | d3  e3  | f3  g3  | a2A d3 |\
+e2^g a2f | d2f g2e | d2c B2G | d2D G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First and 2d Cu. Set to the Partners and Hands across half round the same
+%% again which brings each into their Places = Cast off and lead thro' the 3d Cu.
+%% and cast up into the 2d Cu.s Place, cast up to the Top and Right hand and
+%% Left half round which brings them into the 2d Cu.s Place.
+%%endtext

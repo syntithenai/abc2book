@@ -1,0 +1,67 @@
+
+X: 1
+T: O Maria, Mari   [Cm,C]
+C: E. di Capua (1899)
+N: Words: Vincenzo Russo
+N: Music: Eduardo di Capua (1865-1917)
+%: Italy
+R: waltz
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Cm
+%%vocalspace 30pt
+"Intro"[|]D/E/FG \
+| "Cm"EG2 "G7"D/E/FG | "Cm"EG2 "G7"=B/c/de \
+| "Cm"cG2 "G7"D/E/FG | "Cm"C3 z3 |  z3 z3 ||
+"verse"\
+|: "Cm"e3- "G7"ed/c/=B/d/ |  "Cm"c/=B/c2- "(C7)"c2z |  "Fm"c3- cc/=B/c/A/ |
+w: 1.~A-*r\`a-pe-te fe-ne-*sta!* Fam-*me~af-fac-ci\`a~a Ma-
+w: 2.~Nun* tro-vo n'o-ra~'e pa-*ce:* 'a* not-te~'a fac-cio
+"Cm"G/^F/G2- G2z | "G7"F3- FF/=E/F/G/ |  "Cm"_E3 E2z |  "Fm"D3- "G7"DD/^C/D/E/ |
+w: 1.~ri-*a,* ca* ston-go 'mmie-z'a vi-a spe-*ru-to d'a ve-
+w: 2.~juor-*no,* sem-*pe' st\`a cc\`a at-tuor-no, spe-*ran-no~'e ce par-
+|1 "Cm"C3 z3 :|2 [K:=B=e=A][K:C] "C"C3 "refrain"|]|\
+z[cE][dF] | "C"[c3-E3-] "(G7)"[cE][AF][BG] | "C"[G3-E3-] [GE][GE][AE] \
+| [AE][AE][BE] [BE][BE][GE] | "Dm"[A3-F3-] [A3F3] |
+w: d\`e...| la! | O Ma-ri-*a, Ma-ri,* quan-ta suon-no ca per-do pe' te!_
+| "G7"[B3G3] [c2A2][dB] | (3[B/G][c/A][B/G] [A2-F2-] [AF][AF][AF] \
+| [BG][BG][BG] [BG][cA]>[dB] | "C"(3[A/F][B/G][A/F] [G2-E2-] [GE][cE][dF] |
+w: Fam-me~ad-dur-mi,____ ab-brac-cia-to nu po-co cu-te!____ O Ma-
+| "C"[c3-E3-] "(G7)"[cE][AF][BG] | "C"[E3-G3-] [EG][cE][dF] \
+| "A7"[eG][eG]>[^d^F] [eG][fA][g_B] | "Dm"(3[e/G][f/A][e/G][d2-F2-] [dF][dF][eG] |
+w: ri-*a, Ma-ri* quan-ta suon-no ca per-do pe' te!____**
+| "F"[f3A3] "Fm"[d2_A2F2][eAF] | "C"[c3-E3G3-] [cEG][AF][BG] \
+| "G7"[G3-F3-] [GF][dBF][eBF] | "C"{ed}[c3E3G3] z3 | z3 z3 |]
+w: Fam-me~ad-dur-mi,* O Ma-ri-*a, Ma-ri!
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: O Maria, Mari   [Dm,D]
+C: E. di Capua (1899)
+O: Italy
+R: waltz
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dm
+"Intro"[|]E/F/GA \
+| "Dm"FA2 "A7"E/F/GA | "Dm"FA2 "A7"^c/d/ef \
+| "Dm"dA2 "A7"E/F/GA | "Dm"D3 z3 |  z3 z3 ||
+"A"\
+|: "Dm"f3- "A7"fe/d/^c/e/ |  "Dm"d/^c/d2- "(D7)"d2z \
+|  "Gm"d3- dd/^c/d/B/ |  "Dm"A/^G/A2- A2z \
+|  "A7"G3- GG/^F/G/A/ |  "Dm"=F3 F2z |
+|  "Gm"E3- "A7"EE/^D/E/F/ |1 "Dm"D3 z3 :|2 [K:=B][K:D] "D"D3 \
+"B"\
+|: z[dF][eG] \
+| "D"[d3-F3-] "(A7)"[dF][BG][cA] | "D"[F3-A3-] [FA][FA][FB] \
+| [BF][BF][cF] [cF][cF][AF] | "Em"[B3-G3-] [B3G3] |
+| "A7"[c3A3] [d2B2][ec] | (3[c/A][d/B][c/A] [B2-G2-] [BG][BG][BG] \
+| [cA][cA][cA] [cA][dB]>[ec] | "D"(3[B/G][c/A][B/G] [A2-F2-] [AF][dF][eG] \
+| "D"[d3-F3-] "(A7)"[dF][BG][cA] | "D"[F3-A3-] [FA][dF][eG] |
+| "B7"[fA][fA]>[^e^G] [fA][gB][a=c] | "Em"(3[f/A][g/B][f/A][e2-G2-] [eG][eG][fA] \
+| "G"[g3B3] "Gm"[e2_B2G2][fBG] | "D"[d3-F3A3-] [dFA][BG][cA] \
+| "A7"[A3-G3-] [AG][ecG][fcG] | "D"[d3F3A3] :|

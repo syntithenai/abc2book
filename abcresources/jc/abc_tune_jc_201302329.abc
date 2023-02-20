@@ -1,0 +1,16 @@
+X: 684
+T: the Limerick Lasses
+R: reel
+%S: s:3 b:17(6+6+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #684
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0684/oneill-1001-0684-1.abc
+N: Compacted via repeats and multiple endings [JC]
+N: The bar counts don't add up due to rounding errors.
+M: C|
+L: 1/8
+K: D
+"^A"\
+|: dBAF D2(EF) | GFGA BEEc | dBAF D2(EF) | GBAG [1 FDDc :|[2 FAB "^B"|: c | dcde f2(ed) |
+| cdef [1 gBBc | dfga b2(ag) | faeg fdd :|[2 gfga | bBbB b2(ag) | faeg fdHd2 |]
+"^C"|:: AdBd AdBd | [1 AdBd ceec :|[2 efge fddB :|[3 Adfd ceef |] gfec dcBA | Bdce fd"_D.C."d2 |]

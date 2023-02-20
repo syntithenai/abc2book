@@ -1,0 +1,892 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 9
+B: RSCDS Book 9
+K:
+%%center Book09/0900-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0901
+T: Miss Clemy Stewart's Reel
+P: Miss Clementina Stewart's Reel
+C:Malcolm Macdonald's 2nd Coll., 1790-1794
+R:Reel (8x32)
+B:RSCDS 9-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:A
+E|"A"A2ce aecA|cecA "E7"GBGE|"A"A2ce aecA|"E7"ceBG "A"A2 AE|
+  "A"A2ce aecA|cecA "E7"GBGE|"A"A2ce aecA|"E7"ceBG "A"A2 A||
+e|"A"aecA ceag|ac'"B"fa "E7"bage|"A"aece aee'd'|"E7"c'bag "A"a2 ag|
+  "A"aece "D"dafd|"A"cecA "E7"GBGE|"A"aece "D"dafd|"E7"ceBG A2 A|]
+%%center Book09/0901-Miss_Clemy_Stewarts_Reel-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0902
+T: The Jimp Waist
+P: Miss Hope's Strathspey
+C:John Pringle, 1800. From Gow's 4th Repository
+R:Strathspey (nx32)
+B:RSCDS 9-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:D
+V:1
+%%staves (1 2)
+[V:1] A,|"D"D>D F>D "G"E>D "D"B,>F|"Em"G<G G>A "A"B>A "D"F>d|\
+[V:1]    "F#m"A<F "Bm"F>D "Em"G>B "F"A>F|"Em/G"E<B, "A7"B,>C "D"D2 DA,|
+%
+[V:1] A,|"D"D>D F>D "G"E>D "D"B,>F|"Em"G<G G>A "A"B>A "D"F>d|\
+[V:1]    "F#m"A<F "Bm"F>D "Em"G>B "F"A>F|"Em/G"E<B, "A7"B,>C "D"D2 D ||
+%
+V:1
+A|"D"d>d A>d F>d D>d|"G"d>d "D7"f>d "G"B2 Bc|\
+  "D"d>f "A"c>A "G"B>d "F"A>F|"Em"G>B "A7"A>c "D"(3dAG (3FED|
+  "D"d>d A>d F>d D>d|"G"d>d "D7"f>d "G"B2 B>c|\
+  "D"d>f "A"c>A "G"B>d "D"A>F|"Em"E<B, B,>C "D"D2 D|]
+%V:2
+%[V:2] x |   x2  C2     B,2    A,2 |    B,4        E2     D2 |\
+%[V:2]         C2      D2      B,2    D2 |      x8                     |
+%[V:2] x |   x2  C2     B,2    A,2 |    B,4        E2     D2 |\
+%[V:2]         C2      D2      B,2    D2 |      x7                    ||
+%%center Book09/0902-Jimp_Waist-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0903
+T: The Duchess of Atholl's Slipper
+%
+P: The Duchess of Atholl's Slipper
+C:Niel Gow, 1788
+R:Strathspey (8x32)
+B:RSCDS 9-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+V:1
+K:G
+G |\
+"G"D>G B>G d>B G>B | D>G B>G "Am"E<A "D"A>B |\
+"G"D>G B>G d>B B<g | "D7"{e}d>c B>A "G"G<G G G |
+"G"D>G B>G d>B G>B | D>G B>G "Am"E<A "D"A>B |\
+"G"D>G B>G d>B B<g | "D7"{e}d>c B>A "G"G<G G ||
+g |\
+"G"d<g g2 d>g b>g | "Am"a>g "A"b>g "D7"e<a a2 |\
+"G"d<g g2 d>g b>g | "Am"a>g "D7"b>g "G"d<g g2 |
+"G"d>g g2 d>g b>g | "Am"a>g "A"b>g "D7"e<a a2 |\
+"G"g<b "C"e<g "G/B"d<g B<g | "D7"d>c B>A "G"G<G G |]
+%%center Book09/0903-Duchess_of_Atholls_Slipper-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0904
+T: My Love She's But a Lassie Yet
+P: My Love She's But a Lassie Yet
+C:Bremner's Reels, 1757 (as »Miss Farquharson's Reel«)
+R:Reel (8x32)
+B:RSCDS 9-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/4
+K:D
+|:A/B/4c/4|"D"dDFA|.d.D.D B/c/|dDFA|"A7".e.E.E A|
+           "D"dDFA|"Em"Bgfe|"A7"d/c/B/A/ Bc|"D".d.D.D:|
+|:f/g/|"D"af"A7"ge|"D".f.d.d f/g/|"D"af"Em"g"E"f|"A"eEE g|
+       "D".a.f.ge|"Bm"fd"A"ec|"G"d/c/B/A/ "A7"Bc|"D".d.D.D:|
+%%center Book09/0904-My_Love_Shes_But_a_Lassie_Yet-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0905
+T: Mrs Grant's Fancy
+P: Miss Grant of Grant
+C:Robert Mackintosh
+R:Strathspey (8x32)
+B:RSCDS 9-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:G
+D|"G"G/A/B/c/ dB "D"c>A FD|"G"G>B d>B g>f gd|\
+  "Am"A>e "G"d<G "D"F<A Ac|"G"B/c/d "D7"A>c "G"B<G G D|
+  "G"G/A/B/c/ dB "D"c>A FD|"G"G>B d>B g>f gd|\
+  "Am"A<e "G"d<G "D"F<A Ac|"G"B/c/d "D7"A>c "G"B<G G||
+d|"G"g f/g/ b>g "D"a>f da|"Em"g2 a/g/f/e/ "B"f>^d Bg|\
+  "Am"e<a c<e "G"d<g B<d|"Am"A>e "D"d>c "G"B<G Gd|
+  "G"g f/g/ db "D"a<f da|"Em"g>f e>g "B"f>^d Bg|\
+  "C"e>c B>A "G"d>B A>G|"D"F>d A>c "G"B<G G|]
+%%center Book09/0905-Mrs_Grants_Fancy-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0906
+T: Dalkeith's Strathspey
+P: Colonel Crafurd's Reel (The Earl of Dalkeith)
+C:Niel Gow's 3rd collection (as a reel)
+R:Strathspey (8x32)
+B:RSCDS 9-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:F
+A|"F"F>C A,>C F/F/F A>F|"Gm7"F/F/F B>A G<D D>E|\
+  "F"F>C A,>C F/F/F A>c|"Bb"d>f "F"c>f A<F F A|
+  "F"F>C A,>C F/F/F A>F|"Gm7"F/F/F B>A G<D D>E|\
+  "F"F>C A,>C F/F/F A>c|"Bb"d>f "F"c>f A<F F||
+c|"Dm"f>g a>g "F"f>e f>c|"Gm"d/d/d b>a g<d "C7"d>e|\
+  "F"f>g a>g f>c "Bb"d>B|"F/C"A>c "C7"G>B "F"A<F F>c|
+  "Dm"f>g a>g "F"f>e f>c|"Gm"d/d/d b>a g<d "C7"d>e|\
+  "F"f>c a>e f>c "Bb"d>B|"F"A>c "C7"G>B "F"A<F F|]
+%%center Book09/0906-Dalkeiths_Strathspey-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0907
+T: The New Rigged Ship/Miss Finlay's Delight
+P: The New Rigged Ship/Miss Finlay's Delight
+C:Niel Gow, 1788, and older
+R:Jig (8x48) AABB
+B:RSCDS 9-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:C
+|:G|"C"c2c c2e|c2c c2e|"G"dBG G2B|dBG GAB|\
+    "C"c2c c2e|c2c "G"dBG|
+                          "F"A>Bc "G7"dBG|"C"c3 c2:|\
+|:e/f/|"C"g2e g2e|"Am"c2c ceg|"F"a2f a2f|"G"d2d "G7"def|
+    "C"g2e g2e|"Am"c2c "G"dBG|"F"A>Bc "G7"dBG|"C"c3 c2 e/f/|\
+    "C"gfe "C/B"gfe|"Am"c>dc "C/G"ceg|
+                                      "F"agf "Am"agf|"G7"d>ed "F"def|\
+    "G"gfe "G/A"gfe|"Am"cec "G"dBG|"F"ABc "G7"dBG|"C"cGE C2:|
+%%center Book09/0907-New_Rigged_Ship_Miss_Finlays_Delight-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0908
+T: The Braes of Busby
+P: The Braes of Busby
+C:Joseph MacFadyen's Coll. 1795
+R:Strathspey (8x32)
+B:RSCDS 9-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:Gm
+|:F|"Gm"D<G G>A B>A G>F|"F"C<F F>G Ac B/A/G/F/|\
+    "Gm"G>A B>c d>c B>d|"F"c/B/A/G/ F>A "Gm"B<G G:|
+|:A|"Bb"B>c d>B f>B d>B|"F"A>c f>d c>A F>A|\
+    "Bb"B>c d>B f>B d>B|"F"c<A F>A "Gm"B<G G:|
+|:f|"Gm"g2 B>g dg/a/ b>g|"F"f2 c>f cf/g/ a>f|\
+    "Gm"g2 d>g d>c B>d|"F"c/B/A/G/ F>A "Gm"B<G G:|
+  A|"Gm"B<d G>B GB/c/ d>B|"F"A<c F>A FA/B/ c>A|\
+    "Gm"B<d G>B GB/c/ d>B|"F"c<A F>A B<G GA|
+    "Gm"B<d G>B GB/c/ d>B|"F"A<c F>A FA/B/ c>A|\
+    "Bb"B>d f<b f<d B>d|"F"c/B/A/G/ F>A "Gm"B<G G|]
+%%center Book09/0908-Braes_of_Busby-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0909
+T: Madge Wildfire's Strathspey
+P: Madge Wildfire's Strathspey
+C:Nathaniel Gow
+R:Strathspey (8x32)
+B:RSCDS 9-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:Bb
+E|"Bb"D>B F>B "Eb"G>B F>B|"Eb"c>B "Bb"{Bc}d>c "Eb"B<G G>B|\
+  "Bb"D>B F>B "Eb"G>B "Bb"F>b|"Dm"f>d "F7"e>c "Bb"d<B B E|
+  "Bb"D>B F>B "Eb"G>B F>B|"Eb"c>B "Bb"{Bc}d>c "Eb"B<G G>B|\
+  "Bb"B>f d>f "Eb"g>f b>g|"Dm"f>d "F7"e>c "Bb"d<B B||
+d|"Bb"B<b f>g "Dm"d<f "Bb"B>d|"F7"c>B "D"{Bc}d>c "Gm"B<G "Eb"G>B|\
+  "Bb"D>B F>B "Eb"G>B "Gm"F>g|"Dm"f<d "F7"e>c "Bb"d>B B d|
+  "Bb"B<b f>g "Dm"d<f "Bb"B>d|"F7"c>B "D"{Bc}d>c "Gm"B<G "Eb"G>B|\
+  "Bb"B>f d>f "Eb"g>f b>g|"Dm"f<d "F7"e>c "Bb"d<B B|]
+%%center Book09/0909-Madge_Wildfires_Strathspey-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0910
+T: Cadgers in the Canongate
+P: John McNeil's Reel
+C:Peter Milne
+R:Reel (8x48) ABABAB
+B:RSCDS 9-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:A
+C !segno!||\
+"A"A,2 CE FECE | AECE FECE |\
+A,2 CE FECE | "D"FAGF "E7"EDCB, |
+"A"A,2 CE FECE | AECE FEDC |\
+"E/G#"B,D"A"CE "Bm"DF"A7/C#"E=G | "D"FA"E7"GB "A"cA A ||
+f | "A"eA"D"fA "A"eAca | "A"eA"D"fA "A"e2 f/g/a |\
+"A"eA"D"fA "A"eAce | "D"df"A/D#"ca "E"B2 d/e/f |
+"A"eA"D"fA "A"eAca | "A"eA"D"fA "A"e2 e/f/g |\
+agag fedc | "E7"BAGF EDC!D.S.!B, |]
+%%center Book09/0910-Cadgers_in_the_Canongate-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0911
+T: Cauld Kail
+P: Cauld Kail in Aberdeen
+C:Johnson's Musical Museum, 1788
+R:Medley (8x32)
+B:RSCDS 9-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:Eb
+|:E|"Eb"G>B "F7"e>c "Eb/G"B>G "F/A"F>E|"Eb"G>B "Cm"c/>d/e/c/ "Gm"B2 "Cm"E z/E/|\
+    "Eb"G>B "Cm"e>c "Gm"B>G "Fm/A"F>E|"Eb"G>B "Ab"c/>d/e/c/ "Bb"B2 "Eb"E:|
+|:c|"Eb"B<e g>e "Bb"f>d c>B|"Eb"e>f "F7"g>e "Bb"f>d B>B|\
+    "Cm"e>f g>e "F"a>f "Bb"df//e//d//c//|"Eb"B>G "Ab"e>c "Bb7"B2 "Eb"E:|
+P: Lady Charlotte Campbell's Medley
+C:Robert Mackintosh - Gow's Repository
+M:C|
+L:1/8
+K:Bb
+|:F|"Bb"B3f dBfd|"F7"edcB AFcA|"Bb"B2 bf dBfB|"F7"AFec "Bb"dBB:|
+d|"Bb"f2 d>b "Eb"g2 E>e|"F"c2 A>a "Bb/D"f2 D>d|\
+  "Gm"B2 Bg "Cm"edcB|"F"AcFe "Bb"dBBf|
+  "Bb"fBag "Eb"gfed|"F"cAag "Bb"fedc|"Gm"BGgf "Cm"edcB|"F7"cAec "Bb"dBB|]
+%%center Book09/0911-Cauld_Kail-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0912
+T: The Birks of Abergeldie
+P: The Wind that shakes the Barley
+C:Trad.
+R:Reel (8x48) ABABAB
+B:RSCDS 9-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:D
+B|:"D"A2AB AFED|"G"B2BA BcdB|"D"A2AB AFED|"G"gfed "A7"B2dB|
+   "D"A2AB AFED|"G"B2BA BcdB|"D"A2AB AFED|"G"gfed "A7"B2||
+de|"D"f2fd "A7"g2ge|"D"f2fd "A7"Bcde|"D"f2fd "G"g2ge|"D"afed "A7"B2 de|
+   "D"f2fd "A7"g2ge|"D"f2fd "Em"Bcde|"D"fafd "Em"gbge\
+      |1,2 "D"afed "G"BcdB:|3 "D"afed "G"Bcd|]
+%%center Book09/0912-Birks_of_Abergeldie-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 09061
+T: Colonel Crafurd's Reel
+T: Earl of Dalkeith
+R: strathspey
+B: "Collonel Crafurd's Reel" in Robert Bremner's collection (1759 p.49)
+B: "Earl of Dalkeith" in Gow's Third Collection (1792 p.20) as a reel
+B: RSCDS 9-6
+M: 4/4
+L: 1/8
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+%--------------------
+K: G
+ B \
+| "G"G>D B,>D "Em"~G2 B>G | "Am"~A2 c>B A<E "D7"E>F \
+| "G"G>D B,>D "Em"~G2 B>d | "C"e>g "D7"d>g "G"B<G G :|
+ d \
+| "G"g>a b>a "Em"g>f g>d | "Am"~e2 c'>b a<e "D7"e>f \
+| "G"g>a b>a "C"g>f g>c | "D7"B>d A>c "G"B<G G>d |
+| "G"g>a b>a "Em"g>f g>d | "Am"~e2 c'>b a<e "D7"e>f \
+| "G"g>d "D7"b>f "G"g>d "C"e>c | "G"B>d "D7"A>c "G"B<G G |]
+%%center Book09/09061-Colonel_Crafurds_Reel-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 09061
+T: Colonel Crafurd's Reel
+T: Earl of Dalkeith
+R: strathspey
+B: "Collonel Crafurd's Reel" in Robert Bremner's collection (1759 p.49)
+B: "Earl of Dalkeith" in Gow's Third Collection (1792 p.20) as a reel
+B: RSCDS 9-6
+M: 4/4
+L: 1/8
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+%--------------------
+K: F
+|: A \
+| "F"F>C A,>C "Dm"~F2 A>F | "Gm"~G2 B>A G<D "C7"D>E \
+| "F"F>C A,>C "Dm"~F2 A>c | "Bb"d>f "C7"c>f "F"A<F F :|
+ c \
+| "F"f>g a>g "Dm"f>e f>c | "Gm"~g2 b>a g<d "C7"d>e \
+| "F"f>g a>g f>e "Bb"d>B | "F"A>c "C7"G>B "F"A<F F>c |
+| "F"f>g a>g "Dm"f>e f>c | "Gm"~g2 b>a g<d "C7"d>e \
+| "F"f>c "C7"a>e "F"f>c "Bb"d>B | "F"A>c "C7"G>B "F"A<F F |]
+%%center Book09/09061-Colonel_Crafurds_Reel.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 09061
+T: Colonel Crafurd's Reel (Earl of Dalkeith)
+R: strathspey
+B: "Collonel Crafurd's Reel" in Robert Bremner's collection (1759 p.49)
+B: "Earl of Dalkeith" in Gow's Third Collection (1792 p.20) as a reel
+B: RSCDS 9-6
+M: 4/4
+L: 1/8
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+%--------------------
+K: G
+ B \
+| "G"G>D B,>D "Em"~G2 B>G | "Am"~A2 c>B A<E "D7"E>F \
+| "G"G>D B,>D "Em"~G2 B>d | "C"e>g "D7"d>g "G"B<G G :|
+ d \
+| "G"g>a b>a "Em"g>f g>d | "Am"~e2 c'>b a<e "D7"e>f \
+| "G"g>a b>a "C"g>f g>c | "D7"B>d A>c "G"B<G G>d |
+| "G"g>a b>a "Em"g>f g>d | "Am"~e2 c'>b a<e "D7"e>f \
+| "G"g>d "D7"b>f "G"g>d "C"e>c | "G"B>d "D7"A>c "G"B<G G |]
+%%center Book09/09061-Colonel_Crafurds_Reel_Earl_of_Dalkeith-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 09061
+T: Colonel Crafurd's Reel (Earl of Dalkeith)
+R: strathspey
+B: "Collonel Crafurd's Reel" in Robert Bremner's collection (1759 p.49)
+B: "Earl of Dalkeith" in Gow's Third Collection (1792 p.20) as a reel
+B: RSCDS 9-6
+M: 4/4
+L: 1/8
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+%--------------------
+K: F
+|: A \
+| "F"F>C A,>C "Dm"~F2 A>F | "Gm"~G2 B>A G<D "C7"D>E \
+| "F"F>C A,>C "Dm"~F2 A>c | "Bb"d>f "C7"c>f "F"A<F F :|
+ c \
+| "F"f>g a>g "Dm"f>e f>c | "Gm"~g2 b>a g<d "C7"d>e \
+| "F"f>g a>g f>e "Bb"d>B | "F"A>c "C7"G>B "F"A<F F>c |
+| "F"f>g a>g "Dm"f>e f>c | "Gm"~g2 b>a g<d "C7"d>e \
+| "F"f>c "C7"a>e "F"f>c "Bb"d>B | "F"A>c "C7"G>B "F"A<F F |]
+%%center Book09/09061-Colonel_Crafurds_Reel_Earl_of_Dalkeith-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 09081
+T: The Braes of Busby
+R: strathspey
+B: RSCDS 9-8
+O: Joseph MacFadyen's collection 1795
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Slow Strathspey"
+M: 4/4
+L: 1/8
+%--------------------
+K: Gm
+|: F \
+| "Gm"D<G G>A B>A G>F | "F"C<F F>G Ac B/A/G/F/ \
+| "Gm"G>A B>c d>c B>d | "F"c/B/A/G/ F>A "Gm"B<G G :|
+|: A \
+| "Bb"B>c d>B f>B d>B | "F"A>c f>d c>A F>A \
+| "Bb"B>c d>B f>B d>B | "F"c<A F>A "Gm"B<G G :|
+|: f \
+| "Gm"g2 B>g dg/a/ b>g | "F"f2 c>f cf/g/ a>f \
+| "Gm"g2 B>g d>c B>d | "F"c/B/A/G/ F>A "Gm"B<G G :|
+|| A \
+| "Gm"B<d G>B GB/c/ d>B | "F"A<c F>A FA/B/ c>A \
+| "Gm"B<d G>B GB/c/ d>B | "F"c<A F>A "Gm"B<G GA ||
+| "Gm"B<d G>B GB/c/ d>B | "F"A<c F>A FA/B/ c>A \
+| "Bb"B>d f<b f<d B>d | "F"c/B/A/G/ F>A "Gm"B<G G |]
+%%center Book09/09081-Braes_of_Busby-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 09091
+T: Madge Wildfire's Strathspey
+C: Nathaniel Gow
+R: strathspey
+B: RSCDS 9-9
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: C
+L: 1/8
+%--------------------
+K: Bb
+E | "Bb"D>B F>B "Eb"G>B "Bb"F>B | "F7"c>B {Bc}d>c "Eb"B<G G>B \
+  | "Bb"D>B F>B "Eb"G>B "Bb"F>g | "F7"f>d     e>c "Bb"d<B B   ||
+E | "Bb"D>B F>B "Eb"G>B "Bb"F>B | "F7"c>B {Bc}d>c "Eb"B<G G>B \
+  | "Bb"B>f d>f "Eb"g>f     b>g | "F7"f>d     e>c "Bb"d<B B   ||
+d | "Bb"B<b f>g     d<f     B>d | "F7"c>B {Bc}d>c "Eb"B<G G>B \
+  | "Bb"D>B F>B "Eb"G>B "Bb"F>g | "F7"f>d     e>c "Bb"d<B B   ||
+d | "Bb"B<b f>g     d<f     B>d | "F7"c>B {Bc}d>c "Eb"B<G G>B \
+  | "Bb"B>f d>f "Eb"g>f     b>g | "F7"f>d     e>c "Bb"d<B B   |]
+%%center Book09/09091-Madge_Wildfires_Strathspey-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 09091
+T: Madge Wildfire's Strathspey
+C: Nathaniel Gow
+R: strathspey
+B: RSCDS 9-9
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: C
+L: 1/8
+%--------------------
+K: Bb
+E | "Bb"D>B F>B "Eb"G>B "Bb"F>B | "F7"c>B {Bc}d>c "Eb"B<G G>B \
+| "Bb"D>B F>B "Eb"G>B "Bb"F>g | "F7"f>d     e>c "Bb"d<B B   ||
+E | "Bb"D>B F>B "Eb"G>B "Bb"F>B | "F7"c>B {Bc}d>c "Eb"B<G G>B \
+| "Bb"B>f d>f "Eb"g>f     b>g | "F7"f>d     e>c "Bb"d<B B   ||
+d | "Bb"B<b f>g     d<f     B>d | "F7"c>B {Bc}d>c "Eb"B<G G>B \
+| "Bb"D>B F>B "Eb"G>B "Bb"F>g | "F7"f>d     e>c "Bb"d<B B   ||
+d | "Bb"B<b f>g     d<f     B>d | "F7"c>B {Bc}d>c "Eb"B<G G>B \
+| "Bb"B>f d>f "Eb"g>f     b>g | "F7"f>d     e>c "Bb"d<B B   |]
+%%center Book09/09091-Madge_Wildfires_Strathspey-5.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Braes of Busby
+R: strathspey
+B: RSCDS 9-8
+O: Joseph MacFadyen's collection 1795
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Slow Strathspey"
+M: 4/4
+L: 1/8
+K: Gm
+|: F \
+| "Gm"D<G G>A B>A G>F | "F"C<F F>G Ac B/A/G/F/ \
+| "Gm"G>A B>c d>c B>d | "F"c/B/A/G/ F>A "Gm"B<G G :|
+|: A \
+| "Bb"B>c d>B f>B d>B | "F"A>c f>d c>A F>A \
+| "Bb"B>c d>B f>B d>B | "F"c<A F>A "Gm"B<G G :|
+|: f \
+| "Gm"g2 B>g dg/a/ b>g | "F"f2 c>f cf/g/ a>f \
+| "Gm"g2 B>g d>c B>d | "F"c/B/A/G/ F>A "Gm"B<G G :|
+|| A \
+| "Gm"B<d G>B GB/c/ d>B | "F"A<c F>A FA/B/ c>A \
+| "Gm"B<d G>B GB/c/ d>B | "F"c<A F>A "Gm"B<G GA ||
+| "Gm"B<d G>B GB/c/ d>B | "F"A<c F>A FA/B/ c>A \
+| "Bb"B>d f<b f<d B>d | "F"c/B/A/G/ F>A "Gm"B<G G |]
+%%center Book09/BraesOfBusbyS_Gm-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Braes of Busby
+R: strathspey
+B: RSCDS 9-8
+O: Joseph MacFadyen's collection 1795
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Slow Strathspey"
+M: 4/4
+L: 1/8
+K: Gm
+|: F \
+| "Gm"D<G G>A B>A G>F | "F"C<F F>G Ac B/A/G/F/ \
+| "Gm"G>A B>c d>c B>d | "F"c/B/A/G/ F>A "Gm"B<G G :|
+|: A \
+| "Bb"B>c d>B f>B d>B | "F"A>c f>d c>A F>A \
+| "Bb"B>c d>B f>B d>B | "F"c<A F>A "Gm"B<G G :|
+|: f \
+| "Gm"g2 B>g dg/a/ b>g | "F"f2 c>f cf/g/ a>f \
+| "Gm"g2 B>g d>c B>d | "F"c/B/A/G/ F>A "Gm"B<G G :|
+|| A \
+| "Gm"B<d G>B GB/c/ d>B | "F"A<c F>A FA/B/ c>A \
+| "Gm"B<d G>B GB/c/ d>B | "F"c<A F>A "Gm"B<G GA ||
+| "Gm"B<d G>B GB/c/ d>B | "F"A<c F>A FA/B/ c>A \
+| "Bb"B>d f<b f<d B>d | "F"c/B/A/G/ F>A "Gm"B<G G |]
+%%center Book09/BraesOfBusbyS_Gm_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Braes of Busby
+R: strathspey
+B: RSCDS 9-8
+O: Joseph MacFadyen's collection 1795
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Slow Strathspey"
+M: 4/4
+L: 1/8
+K: Gm
+|: F \
+| "Gm"D<G G>A B>A G>F | "F"C<F F>G Ac B/A/G/F/ \
+| "Gm"G>A B>c d>c B>d | "F"c/B/A/G/ F>A "Gm"B<G G :|
+|: A \
+| "Bb"B>c d>B f>B d>B | "F"A>c f>d c>A F>A \
+| "Bb"B>c d>B f>B d>B | "F"c<A F>A "Gm"B<G G :|
+|: f \
+| "Gm"g2 B>g dg/a/ b>g | "F"f2 c>f cf/g/ a>f \
+| "Gm"g2 B>g d>c B>d | "F"c/B/A/G/ F>A "Gm"B<G G :|
+|| A \
+| "Gm"B<d G>B GB/c/ d>B | "F"A<c F>A FA/B/ c>A \
+| "Gm"B<d G>B GB/c/ d>B | "F"c<A F>A "Gm"B<G GA ||
+| "Gm"B<d G>B GB/c/ d>B | "F"A<c F>A FA/B/ c>A \
+| "Bb"B>d f<b f<d B>d | "F"c/B/A/G/ F>A "Gm"B<G G |]
+%%center Book09/BraesOfBusbyS_Gm_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Captain Campbell's Strathspey
+R: strathspey
+B: RSCDS 9-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Athole Collection
+N: Mel Bay 108
+N: Little p.34
+N: Hunter 70
+N: Lerwick p.29
+N: BSFC IX-15
+D: Alastair Fraser on The Driven Bow, cut 2B
+M: C
+L: 1/8
+K: Am
+G \
+| "Am"E<A A>B c>A B<G | "G"D<G G>A B>d c/B/A/G/ \
+| "Am"E<A A>B c>B c<e | "G"d<B g>B "Am"A2- A :|
+B \
+| "Am"A<a a>g e>d c<e | "G"d>e g>e d/c/B/A/ G<B \
+| "Am"A<a a>g e>d c<e | "G"d<B g>B "Am"A2- A |]
+B \
+| "Am"A<a a>g e>d c<e | "G"d>e g>e d/c/B/A/ G<B \
+| "Am"c<A "G"d>B "C"e>d c<e | "G"d<B g>B "Am"A2- A |]
+%%center Book09/CaptCampbell-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Captain Campbell's Strathspey
+R: strathspey
+B: RSCDS 9-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Athole Collection
+N: Mel Bay 108
+N: Little p.34
+N: Hunter 70
+N: Lerwick p.29
+N: BSFC IX-15
+D: Alastair Fraser on The Driven Bow, cut 2B
+M: C
+L: 1/8
+K: Am
+G \
+| "Am"E<A A>B c>A B<G | "G"D<G G>A B>d c/B/A/G/ \
+| "Am"E<A A>B c>B c<e | "G"d<B g>B "Am"A2- A :|
+B \
+| "Am"A<a a>g e>d c<e | "G"d>e g>e d/c/B/A/ G<B \
+| "Am"A<a a>g e>d c<e | "G"d<B g>B "Am"A2- A |]
+B \
+| "Am"A<a a>g e>d c<e | "G"d>e g>e d/c/B/A/ G<B \
+| "Am"c<A "G"d>B "C"e>d c<e | "G"d<B g>B "Am"A2- A |]
+%%center Book09/CaptCampbell_Am-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Captain Campbell's Strathspey
+R: strathspey
+B: RSCDS 9-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Athole Collection
+N: Mel Bay 108
+N: Little p.34
+N: Hunter 70
+N: Lerwick p.29
+N: BSFC IX-15
+D: Alastair Fraser on The Driven Bow, cut 2B
+M: C
+L: 1/8
+K: Am
+G \
+| "Am"E<A A>B c>A B<G | "G"D<G G>A B>d c/B/A/G/ \
+| "Am"E<A A>B c>B c<e | "G"d<B g>B "Am"A2- A :|
+B \
+| "Am"A<a a>g e>d c<e | "G"d>e g>e d/c/B/A/ G<B \
+| "Am"A<a a>g e>d c<e | "G"d<B g>B "Am"A2- A |]
+B \
+| "Am"A<a a>g e>d c<e | "G"d>e g>e d/c/B/A/ G<B \
+| "Am"c<A "G"d>B "C"e>d c<e | "G"d<B g>B "Am"A2- A |]
+%%center Book09/CaptCampbell_Am_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Captain Campbell's Strathspey
+R: strathspey
+B: RSCDS 9-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Athole Collection
+N: Mel Bay 108
+N: Little p.34
+N: Hunter 70
+N: Lerwick p.29
+N: BSFC IX-15
+D: Alastair Fraser on The Driven Bow, cut 2B
+M: C
+L: 1/8
+K: Am
+G \
+| "Am"E<A A>B c>A B<G | "G"D<G G>A B>d c/B/A/G/ \
+| "Am"E<A A>B c>B c<e | "G"d<B g>B "Am"A2- A :|
+B \
+| "Am"A<a a>g e>d c<e | "G"d>e g>e d/c/B/A/ G<B \
+| "Am"A<a a>g e>d c<e | "G"d<B g>B "Am"A2- A |]
+B \
+| "Am"A<a a>g e>d c<e | "G"d>e g>e d/c/B/A/ G<B \
+| "Am"c<A "G"d>B "C"e>d c<e | "G"d<B g>B "Am"A2- A |]
+%%center Book09/CaptCampbell_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Colonel Crafurd's Reel
+T: Earl of Dalkeith
+R: strathspey
+B: "Collonel Crafurd's Reel" in Robert Bremner's collection (1759 p.49)
+B: "Earl of Dalkeith" in Gow's Third Collection (1792 p.20) as a reel
+B: RSCDS 9-6
+M: 4/4
+L: 1/8
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+K: F
+|: A \
+| "F"F>C A,>C "Dm"~F2 A>F | "Gm"~G2 B>A G<D "(C7)"D>E \
+| "F"F>C A,>C "Dm"~F2 A>c | "Bb"d>f "C7"c>f "F"A<F F :|
+ c \
+| "F"f>g a>g "Dm"f>e f>c | "Gm"~g2 b>a g<d "(C7)"d>e \
+| "F"f>g a>g "Bb"f>e d>B | "F"A>c "C7"G>B "F"A<F F>c |
+| "F"f>g a>g "Dm"f>e f>c | "Gm"~g2 b>a g<d "(C7)"d>e \
+| "F"f>c "C7"a>e "F"f>c "Bb"d>B | "F"A>c "C7"G>B "F"A<F F |]
+%%center Book09/ColCrafordsR_F-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Colonel Crafurd's Reel
+T: Earl of Dalkeith
+R: strathspey
+B: "Collonel Crafurd's Reel" in Robert Bremner's collection (1759 p.49)
+B: "Earl of Dalkeith" in Gow's Third Collection (1792 p.20) as a reel
+B: RSCDS 9-6
+M: 4/4
+L: 1/8
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+K: F
+|: A \
+| "F"F>C A,>C "Dm"~F2 A>F | "Gm"~G2 B>A G<D "(C7)"D>E \
+| "F"F>C A,>C "Dm"~F2 A>c | "Bb"d>f "C7"c>f "F"A<F F :|
+ c \
+| "F"f>g a>g "Dm"f>e f>c | "Gm"~g2 b>a g<d "(C7)"d>e \
+| "F"f>g a>g "Bb"f>e d>B | "F"A>c "C7"G>B "F"A<F F>c |
+| "F"f>g a>g "Dm"f>e f>c | "Gm"~g2 b>a g<d "(C7)"d>e \
+| "F"f>c "C7"a>e "F"f>c "Bb"d>B | "F"A>c "C7"G>B "F"A<F F |]
+%%center Book09/ColCrafordsR_F_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Colonel Crafurd's Reel
+T: Earl of Dalkeith
+R: strathspey
+B: "Collonel Crafurd's Reel" in Robert Bremner's collection (1759 p.49)
+B: "Earl of Dalkeith" in Gow's Third Collection (1792 p.20) as a reel
+B: RSCDS 9-6
+M: 4/4
+L: 1/8
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+K: F
+|: A \
+| "F"F>C A,>C "Dm"~F2 A>F | "Gm"~G2 B>A G<D "(C7)"D>E \
+| "F"F>C A,>C "Dm"~F2 A>c | "Bb"d>f "C7"c>f "F"A<F F :|
+ c \
+| "F"f>g a>g "Dm"f>e f>c | "Gm"~g2 b>a g<d "(C7)"d>e \
+| "F"f>g a>g "Bb"f>e d>B | "F"A>c "C7"G>B "F"A<F F>c |
+| "F"f>g a>g "Dm"f>e f>c | "Gm"~g2 b>a g<d "(C7)"d>e \
+| "F"f>c "C7"a>e "F"f>c "Bb"d>B | "F"A>c "C7"G>B "F"A<F F |]
+%%center Book09/ColCrafordsR_F_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Colonel Crafurd's Reel
+T: Earl of Dalkeith
+R: strathspey
+B: "Collonel Crafurd's Reel" in Robert Bremner's collection (1759 p.49)
+B: "Earl of Dalkeith" in Gow's Third Collection (1792 p.20) as a reel
+B: RSCDS 9-6
+M: 4/4
+L: 1/8
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+K: G
+ B \
+| "G"G>D B,>D "Em"~G2 B>G | "Am"~A2 c>B A<E "D7"E>F \
+| "G"G>D B,>D "Em"~G2 B>d | "C"e>g "D7"d>g "G"B<G G :|
+ d \
+| "G"g>a b>a "Em"g>f g>d | "Am"~e2 c'>b a<e "D7"e>f \
+| "G"g>a b>a "C"g>f g>c | "D7"B>d A>c "G"B<G G>d |
+| "G"g>a b>a "Em"g>f g>d | "Am"~e2 c'>b a<e "D7"e>f \
+| "G"g>d "D7"b>f "G"g>d "C"e>c | "G"B>d "D7"A>c "G"B<G G |]
+%%center Book09/ColCrafordsR_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Colonel Crafurd's Reel
+T: Earl of Dalkeith
+R: strathspey
+B: "Collonel Crafurd's Reel" in Robert Bremner's collection (1759 p.49)
+B: "Earl of Dalkeith" in Gow's Third Collection (1792 p.20) as a reel
+B: RSCDS 9-6
+M: 4/4
+L: 1/8
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+K: G
+ B \
+| "G"G>D B,>D "Em"~G2 B>G | "Am"~A2 c>B A<E "D7"E>F \
+| "G"G>D B,>D "Em"~G2 B>d | "C"e>g "D7"d>g "G"B<G G :|
+ d \
+| "G"g>a b>a "Em"g>f g>d | "Am"~e2 c'>b a<e "D7"e>f \
+| "G"g>a b>a "C"g>f g>c | "D7"B>d A>c "G"B<G G>d |
+| "G"g>a b>a "Em"g>f g>d | "Am"~e2 c'>b a<e "D7"e>f \
+| "G"g>d "D7"b>f "G"g>d "C"e>c | "G"B>d "D7"A>c "G"B<G G |]
+%%center Book09/ColCrafordsR_G_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Colonel Crafurd's Reel
+T: Earl of Dalkeith
+R: strathspey
+B: "Collonel Crafurd's Reel" in Robert Bremner's collection (1759 p.49)
+B: "Earl of Dalkeith" in Gow's Third Collection (1792 p.20) as a reel
+B: RSCDS 9-6
+M: 4/4
+L: 1/8
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+K: G
+ B \
+| "G"G>D B,>D "Em"~G2 B>G | "Am"~A2 c>B A<E "D7"E>F \
+| "G"G>D B,>D "Em"~G2 B>d | "C"e>g "D7"d>g "G"B<G G :|
+ d \
+| "G"g>a b>a "Em"g>f g>d | "Am"~e2 c'>b a<e "D7"e>f \
+| "G"g>a b>a "C"g>f g>c | "D7"B>d A>c "G"B<G G>d |
+| "G"g>a b>a "Em"g>f g>d | "Am"~e2 c'>b a<e "D7"e>f \
+| "G"g>d "D7"b>f "G"g>d "C"e>c | "G"B>d "D7"A>c "G"B<G G |]
+%%center Book09/ColCrafordsR_G_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Madge Wildfire's Strathspey
+C: Nathaniel Gow
+R: strathspey
+B: RSCDS 9-9
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: C
+L: 1/8
+K: Bb
+E | "Bb"D>B F>B "Eb"G>B "Bb"F>B | "F7"c>B {Bc}d>c "Eb"B<G G>B \
+  | "Bb"D>B F>B "Eb"G>B "Bb"F>g | "F7"f>d     e>c "Bb"d<B B   ||
+E | "Bb"D>B F>B "Eb"G>B "Bb"F>B | "F7"c>B {Bc}d>c "Eb"B<G G>B \
+  | "Bb"B>f d>f "Eb"g>f     b>g | "F7"f>d     e>c "Bb"d<B B   ||
+d | "Bb"B<b f>g     d<f     B>d | "F7"c>B {Bc}d>c "Eb"B<G G>B \
+  | "Bb"D>B F>B "Eb"G>B "Bb"F>g | "F7"f>d     e>c "Bb"d<B B   ||
+d | "Bb"B<b f>g     d<f     B>d | "F7"c>B {Bc}d>c "Eb"B<G G>B \
+  | "Bb"B>f d>f "Eb"g>f     b>g | "F7"f>d     e>c "Bb"d<B B   |]
+
+%%center Book09/MadgeWildfiresS-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Madge Wildfire's Strathspey
+C: Nathaniel Gow
+R: strathspey
+B: RSCDS 9-9
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: C
+L: 1/8
+K: Bb
+E | "Bb"D>B F>B "Eb"G>B "Bb"F>B | "F7"c>B {Bc}d>c "Eb"B<G G>B \
+  | "Bb"D>B F>B "Eb"G>B "Bb"F>g | "F7"f>d     e>c "Bb"d<B B   ||
+E | "Bb"D>B F>B "Eb"G>B "Bb"F>B | "F7"c>B {Bc}d>c "Eb"B<G G>B \
+  | "Bb"B>f d>f "Eb"g>f     b>g | "F7"f>d     e>c "Bb"d<B B   ||
+d | "Bb"B<b f>g     d<f     B>d | "F7"c>B {Bc}d>c "Eb"B<G G>B \
+  | "Bb"D>B F>B "Eb"G>B "Bb"F>g | "F7"f>d     e>c "Bb"d<B B   ||
+d | "Bb"B<b f>g     d<f     B>d | "F7"c>B {Bc}d>c "Eb"B<G G>B \
+  | "Bb"B>f d>f "Eb"g>f     b>g | "F7"f>d     e>c "Bb"d<B B   |]
+
+%%center Book09/MadgeWildfiresS_2-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Madge Wildfire's Strathspey
+C: Nathaniel Gow
+R: strathspey
+B: RSCDS 9-9
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: C
+L: 1/8
+K: Bb
+E | "Bb"D>B F>B "Eb"G>B "Bb"F>B | "F7"c>B {Bc}d>c "Eb"B<G G>B \
+  | "Bb"D>B F>B "Eb"G>B "Bb"F>g | "F7"f>d     e>c "Bb"d<B B   ||
+E | "Bb"D>B F>B "Eb"G>B "Bb"F>B | "F7"c>B {Bc}d>c "Eb"B<G G>B \
+  | "Bb"B>f d>f "Eb"g>f     b>g | "F7"f>d     e>c "Bb"d<B B   ||
+d | "Bb"B<b f>g     d<f     B>d | "F7"c>B {Bc}d>c "Eb"B<G G>B \
+  | "Bb"D>B F>B "Eb"G>B "Bb"F>g | "F7"f>d     e>c "Bb"d<B B   ||
+d | "Bb"B<b f>g     d<f     B>d | "F7"c>B {Bc}d>c "Eb"B<G G>B \
+  | "Bb"B>f d>f "Eb"g>f     b>g | "F7"f>d     e>c "Bb"d<B B   |]
+
+%%center Book09/MadgeWildfiresS_JC.abc

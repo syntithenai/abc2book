@@ -1,0 +1,71 @@
+
+X:1
+T: Horsburgh Castle   [D]
+C: Ian Hardie
+R: march, air
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+F: http://ramshaw.info/tunes/2014-08/Horsburgh_Castle.pdf
+N: Taught by Ronan Martin at Boston Harbor 2014
+M: C
+L: 1/8
+F:http://trillian.mit.edu/~jc/music/abc/session/SlowScottish/march/Horsburgh_Castle-D,Hp-32-5.abc	 2014-09-26 153401 UT
+K: D
+ag |\
+"D"f2 ga "A7"g>e ce | "D(Bm)"d>c de f2 A2 | "G(Em)"B2 g>f "E7"ed cd | "A"f4 e2 ||
+dc |\
+"G"B2 dg "D"A2  df | "G(Em)"G2 d>e "A7"dc BA | "D"f>g af "A7"ge ce | "D"d2-"G"d2 "D"d2 :|
+|: Ad |\
+"D"f2 Ad "G"g2  fg | "D"a>g fa "Bm"d2 ef | "Em"g2 a>g "D"fa gf | "E7"f4 "A7"e2 ||
+[1 Ad |\
+"D"f2 Ad "G"g2  fg | "D"a>g fa "Bm"d2 dc | "Em"B2 g>e "A7"fa ce | "D"d2-"G"d2 "D"d2 :|
+[2 dc |\
+"G"B2 dg "D"A2  df | "G(Em)"G2 d>e "A7"dc BA | "D"f>g af "A7"ge ce | "D"d2-"G"d2 "D"d2 |]
+%%sep 1 1 500
+
+X:2
+T: Horsburgh Castle
+C: Ian Hardie
+R: march, air
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+F: http://ramshaw.info/tunes/2014-08/Horsburgh_Castle.pdf
+N: Taught by Ronan Martin at Boston Harbor 2014
+M: C
+L: 1/8
+K: Hp
+{ag}ag |\
+{g}f2 {gf}ga {f}g>e {gcd}ce | {gde}d>c {g}de {gfg}f2 {AGA}A2 |\
+{gBd}B2 {a}g>f {g}ed {g}cd | {gfg}f4 {gf}e2 ||
+{g}dc |\
+{gBd}B2 {g}dg {AGAG}A2 {g}df | {gGd}G2 {Gdc}d>e {gdf}dc {gBd}B{Gd}A |\
+{g}f>g {ag}af {gf}ge {gcd}ce | {Gdc}d4 {gdG}d2 :|
+|: {g}Ad |\
+{gfg}f2 {g}Ad {gf}g2 {a}fg | {ag}a>g {a}fa {Gdc}d2 {g}ef |\
+{gf}g2 {ag}a>g {a}fa {f}gf | {gfg}f4 {gf}e2 |
+[1 {g}Ad |\
+{gf}f2 {g}Ad {gf}g2 {a}fg | {ag}a>g {a}fa {Gdc}d2 {g}dc |\
+{gBd}B2 {gf}g>e {g}fa ce | {Gdc}d4 {gdG}d2 :|
+[2 {g}dc |\
+{gBd}B2 {g}dg {AGAG}A2 {g}df | {gGd}G2 {Gdc}d>e {gdf}dc {gBd}B{Gd}A |\
+{g}f>g {ag}af {gf}ge {gcd}ce | {Gdc}d4 {gdG}d2|]
+%%sep 1 1 500
+
+X:3
+T: Horsburgh Castle   (Eb)
+C: Ian Hardie
+R: march, air
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+F: http://ramshaw.info/tunes/2014-08/Horsburgh_Castle.pdf
+N: Taught by Ronan Martin at Boston Harbor 2014
+M: C
+L: 1/8
+K: Eb
+ba |\
+"Eb"g2 ab "Bb7"a>f df | "Eb(Cm)"e>d ef g2 B2 | "Ab(Fm)"c2 a>g "F7"fe de | "Bb"g4 f2 ||
+ed |\
+"Ab"c2 ea "Eb"B2  eg | "Ab(Fm)"A2 e>f "Bb7"ed cB | "Eb"g>a bg "Bb7"af df | "Eb"e2-"Ab"e2 "Eb"e2 :|
+|: Be |\
+"Eb"g2 Be "Ab"a2  ga | "Eb"b>a gb "Cm"e2 fg | "Fm"a2 b>a "Eb"gb ag | "F7"g4 "Bb7"f2 ||
+[1 Be |\
+"Eb"g2 Be "Ab"a2  ga | "Eb"b>a gb "Cm"e2 ed | "Fm"c2 a>f "Bb7"gb df | "Eb"e2-"Ab"e2 "Eb"e2 :|
+[2 ed |\
+"Ab"c2 ea "Eb"B2  eg | "Ab(Fm)"A2 e>f "Bb7"ed cB | "Eb"g>a bg "Bb7"af df | "Eb"e2-"Ab"e2 "Eb"e2 |]

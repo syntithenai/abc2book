@@ -1,0 +1,34 @@
+X: 1
+T: Reel de Valcourt
+C: Tidal Wave
+S: printed copy of unknown origin, from Paul Lizotte 2015-7-20
+R: reel
+M: 2/4
+L: 1/16
+K: D
+|:\
+"D"D2FD "A"EDCE | "D"D2FA ~d2cd | "G"edBc ~dBAG | "D"FEDF "A7"~EDCE |
+"D"D2FD "A"EDCE | "D"D2FA ~d2cd | "G"edBc ~dBAG | "D"FD"A7"EC "D"D2A,2 :|
+|:\
+"D"d2dc ~B2A2 | "A"ce2d cABA | "G"D2EF GBAG | "D"FAFD "A7"EDCE |
+"D"D2FD "A"EDCE | "D"D2FA ~d2cd | "G"edBc ~dBAG | "D"FD"A7"EC "D"D4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Kenneth Murphy
+C: \'Eric Favreau
+F: http://music.gordfisch.net/montrealsession/assets/abc/quebec.abc 2015-7-17
+S: printed copy of unknown origin, from Paul Lizotte 2015-7-20
+R: reel
+M: 2/4
+L: 1/16
+K: G
+|:\
+B2EB edBA | dBAF BAGA | B2EB edBA | Bdef gfed |
+BBEB edBA | dBAF BAFD | EFGA Bdef | gfed [1 edBA :|[2 e2ef ||
+|:\
+gfeg fedf | eBBB dBAF | EB,B,B, EFGA | Bdef gfed |
+eBBB egfe | fddc dBAF | EFGA Bdef | gfed [1 e2ef :|[2 edBA |]
+
+%%sep 1 1 500

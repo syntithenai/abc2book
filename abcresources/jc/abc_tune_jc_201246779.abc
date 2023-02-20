@@ -1,0 +1,28 @@
+To: Shelley.Drowns@gmail.com
+Subject: Anchors Aweigh
+
+X: 1
+T: Anchors Aweigh
+M: C|
+L: 1/4
+P: Flute
+Q: 1/2=100
+C: Capt. Alfred H. Miles, USN and Chas. A. Zimmermand
+K: Bb
+bb/b/ b/b/b/b/ | =b4 | c'c'/c'/ c'/c'/c'/c'/ | ^c'4 |\
+d'd'/d'/ d'/d'/d'/d'/ | d'c'bc' | d'zz2 | f4 [|\
+bBdf | d2f2 | g3d | g4 |\
+bdfb | c'2f2 | b(f/g/f)d | fgab |\
+gBeg | b2g2 | f2g2 | a2b2 |
+=e2g2 | c'2b2 | a2f2 | e2c2 |\
+bBdf | d2f2 | g3d | g4 |\
+bdfb | c'2f2 | b(f/g/f)d | fgab |
+gBeg | b2g2 | f2g2 | a2b2 | d'z/(f/=ef) | c'z/(f/=ef) | b4 |]
+%%textfont helvetica 10
+%%begintext
+%% ANCHORS AWEIGH, MY BOYS, ANCHORS AWEIGH.
+%% FAREWELL TO COLLEGE JOYS,
+%% WE SAIL AT BREAK OF DAY, DAY, DAY, DAY.
+%% THROUGH OUR LAST NIGHT ON SHORE, DRINK TO THE FOAM,
+%% UNTIL WE MEET ONCE MORE, HERE'S WISHING YOU A HAPPY VOYAGE HOME!
+%%endtext

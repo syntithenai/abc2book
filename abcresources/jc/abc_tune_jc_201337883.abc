@@ -1,0 +1,26 @@
+X:1
+T: Six for the Six Proud Walkers
+N:
+C:"Fried's Triumph" by John Stapledon
+S:
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 33 notes)
+K:D
+M:4/4
+L:1/16
+A8 F2 E2 F2 G2 |A4 D8 B4 |A4 G2 F2 G4 A4 |F8 E4 F2 G2 |A4 D4 B2 c2 d4 |c4 A4 d6 f2 |e4 d2 c2 d4 c4 |B8 A8 |
+%W: A2
+% voice 1 (1 lines, 33 notes)
+A8 F2 E2 F2 G2 |A4 D8 B4 |A4 G2 F2 G4 A4 |F8 E4 F2 G2 |A4 D4 B2 c2 d4 |c4 A4 d6 f2 |e4 d2 c2 d4 c4 |B8 A8 |
+%W: B1
+% voice 1 (1 lines, 34 notes)
+e8 c2 B2 c2 d2 |e4 A8 d4 |B4 c2 d2 e2 f2 g4 |f8 e4 d2 c2 |d4 B4 e6 d2 |c4 A4 d4 F4 |G2 A2 B4 A4 G2 F2 |E8 D8 |
+%W: B2
+% voice 1 (1 lines, 34 notes)
+e8 c2 B2 c2 d2 |e4 A8 d4 |B4 c2 d2 e2 f2 g4 |f8 e4 d2 c2 |d4 B4 e6 d2 |c4 A4 d4 F4 |G2 A2 B4 A4 G2 F2 |E8 D8 ||

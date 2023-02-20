@@ -1,0 +1,28 @@
+X: 31192
+T: COTILLION No. 18. NIAGARA SETT tune 5
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.119 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+ced cBc | dBG GAB | c2c e2g | fef d2G |\
+ced cBc | dBG GAB | ceg gfd | dcc c2 H|]
+G |\
+fef d^cd | BAB GAB | cde fAd | (cB)A G2G |\
+fef d^cd | BAB GAB | ceg gfd | dcc "^D.C."c2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple right and left,
+%% balance,
+%% cross over,
+%% chassa de chassa,
+%% cross back.
+%% Next 2, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

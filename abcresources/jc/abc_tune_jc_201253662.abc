@@ -1,0 +1,27 @@
+X: 1
+T: Bloomsbury Market
+P: Longways for as many as will
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.91 #133 (181)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Fixed incorrect rhythms at phrase boundaries.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+(dB) (AG) G2 D2 | (DE) (DB,) D3 D | (DG) (GF) E2 G2 | (c>d) cB A3 B |\
+(ce) (ge) (dB) d2 | (GB) (dB) (AG) E2 | e3 d (e/f/)g (GA) | (cB) (AG) G3 |]
+z |\
+g2 g(a/b/) g3 e | (ge) (dB) A3 G | (EG) (GA) B2 (AG) | (EG) (GA) B2 (AG) |\
+d3 e (de) (dB) | (AB) (cd) e3 d | e3 d (ef) (gB) | (cB) (AG) G3 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% First Man turn the 2d Wo. with his right Hand, and the 2d Man with his
+%% Left, then the 3d with his right Hand, and cast up to his own Place .|
+%% His Partner do the same :| First Cu. hey with the 2d Man, then lead down
+%% the Middle and cast up and turn, then 1st Cu. hey with the 2d Wo. and
+%% cast off :|
+%%endtext
+%%sep 1 8 500

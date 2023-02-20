@@ -1,0 +1,75 @@
+X: 1
+T: Malena
+C: Lucio Demare (1943)
+R: tango
+M: 4/4
+L: 1/8
+K: Cm
+z.G .c.c .e.e \
+"A1"||\
+"Fm6".d2 .d2 z.F .A.d | "Cm".c .c2 (G ABAG |\
+"G7"=B2 G2) z(D EF | "Cm"G2) z.G .c.c .e.e |\
+"Fm6".d2 .d2 z.F .A.d | "Cm".c .c2 .C .E.E .A.A |
+%
+"G7".G2 .G2 z.D .E.F | "Cm".G2 z(G "C7"AG^FG) |\
+"Fm"(B2 A2) "Bb7"z(c c=B | "Eb"c _B) (B cB=AB |\
+"D7"d2 c2) z(=A =Bc | "G7"d2) z.G .c.c .e.e |
+%
+"Fm6".d2 .d2 z.F .A.d | "Cm".c .c2 (G ABAG |\
+"G7"=B2 G2) z(D EF | "Cm"G2) z(G cc ee) |\
+"Fm6"d2- d2 z(F Ad | "Cm"c c2) .C .E.E .A.A |
+%
+"G7".G2 .G2 z.F .D.E | "Cm".C2 "G7"z2 "Cm"z=E F2 \
+"B1"|| [K:=B=e=A][K:C] \
+"C"(G4- G A2 G | "Am"c c2 d e2 dc |\
+"Em"e2 B2) z(c2 B | "F"A4- A) (A2 B |
+%
+"Dm"d2 cB c2 BA) | "C"(c2 G2) z(F2 E |\
+"Dm7"D4- D) (D2 E | "G7"F2 FG .A2 G^F |\
+"C"A2 G2) z .A2 .G | "B7".^F4 z .F2 .G |
+%
+%% page 2
+"B7".A .A2 .B .c2 .B.A | "Em7".A .G2 .G "A7".A2 .Y.^F |\
+"Dm7".G .=F2 .E "G7".G2 .F.D | "C".C2 z.G .c.c ._ee \
+"A2"|| [K:Cm]\
+"Fm6".d2 .d2 z.F .A.d | "Cm".c .c2 (G AB AG |
+w: | | | - Ma-le-na can-ta~el | tan-go co-mo nin-gu-na y~en ca-da ver-so
+%
+"G7"=B2 G2 z(D EF | "Cm"G2) z.G .c.c .e.e |\
+"Fm6".d2 .d2 z.F .A.d | "Cm".c .c2 .C .E.E .A.A |\
+"G7".G2 .G2 z.D .E.F | "Cm".G2 z(G "C7"AG^FG |
+w: po-ne su co-ra-z\'on A yu-yo del su-bur-bio su voz per-fu-ma, \
+	Ma-le-na tie-ne pe-na de ban-done-\'on. Tal vez, a-ll\'a~en la~in-
+%
+"Fm"(B2 A2) "Bb7"z(c c=B | "Eb"c _B2) (B cB =AB |\
+"D7"d2 c2) z(=A -Bc | "G7"d2) z.G .c.c .e.e |\
+"Fm6" .d2 .d2 z.F .A.d | "Cm".c .c2 (G AB AG |
+w: fan-cia, su voz de~a-lon-dra to-m\'o ese to-no~os-cu-ro de ca-ll3-j\'on, \
+	o~a-ca-so~a-quel ro-man-ce que s\'o-lo nom-bra cuan-do se po-ne
+%
+"G7"=B2 G2) z(D EF | "Cm"G2) z(G cc ee) |\
+"Fm6"d2- d2 z(F Ad | "Cm"c c2) .C .E.E .A.A |\
+"G7".G2 .G2 z.F .D.E | "Cm".C2 "G7"z2 "Cm"z=E F2 "B2"|| [K:=B=e=A][K:C]
+%
+"C"G4- G A2 G | "Am"c c2 d e2 dc |\
+"Em"e2 B2) z(c2 B | "F"A4- A) (A2 B |\
+"Dm"d2 cB c2 BA) | "CC"c2 G2) z(F2 E |
+%
+"Dm7"D4- D) (D2 E | "G"F2 FG .A2 G^F |\
+"C"A2 G2) z.A2 .G | "B7" .F4 z .F2 .G |
+"B7".A .A2 .B .c2 .B.A | "Em7" .A .G2 .G "A7".A2 .G.^F |
+%
+"Dm7".G .=F2 .E "G7"G2 .F.D | "C".C2 z.G .c.c ._e.e "A3"|| [K:Cm] \
+"Fm6".d2 .d2 z.F .A.d | "Cm".c .c2 .C (G AB AG |\
+"G7"=B2 G2) z(D EF | "Cm"G2) z.G .c.c .e.e |
+% "Fm6".d2 .d2 z.F .A.d | "Cm".c .c2 .C .E.E .A.A |\
+"G7".G2 .G2 z.D .E.F | "Cm".G2 z(G "C7"AG ^FG) |\
+"Fm"(B2 A2) "Bb7"z(c c=B | "Eb"c _B2) (B cB =AB |
+%
+"D7"d2 c2) z(=A =Bc | "G7"d2) z.G .c.c .e.e |\
+"Fm6" .d2 .d2 z.F .A.d | "Cm".c .c2 (G AB AG |\
+"G7"=B2 G2) z(D EF | "Cm"G2) z(G cc ee |
+%
+"Fm6"d2- d2) z(F Ad | "Cm"c c2) .C .E.E .A.A |\
+"G7".G2 .G2 z.F .D.E | "Cm".C2 "G7"z2 "Cm"z2 z2 |]
+

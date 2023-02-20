@@ -1,0 +1,38 @@
+X: 2353
+T: the Chorus Jig
+O: Irish
+%R: jig
+B: Niel Gow & Sons "Complete Repository" v.2 p.35 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+A |\
+F2D- D>ED | AFD DED | (F2D) DED | A3 BAG |\
+F2D- D>ED | AFD DED | [E2=C2]=c cGE | G3 E2 :|
+|: A |\
+F2d- dcd | ABG {G}FED | F2d- dcd | A3 BAG |\
+F2d- dcd | ABG FED | E2=c- cBc | ~G3 G2 :|
+|: g |\
+Tf2d- ded | afd ded | Tf2d- ded | Ta3 bag |\
+f2d- ded | afd de=f | e2=c- cec | Tg3 e2 :|
+|: g |\
+fdf ece | dBd AFA | D2d dcd | A3 ABc |\
+dBd cAc | BGB AGF | E2=c- cGE | G3 G2 :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z | d3 d3 | d3 d3 | d3 d3 | d3 d3 | d3 d3 | d3 d3 | =c3 c3 | c3 c2 :|
+|: z | d3 d3 | d3 d3 | d3 d3 | d3 d3 | d3 d3 | d3 d3 | =c3 c3 | c3 c2 :|
+|: z | d'3 d'3 | d'3 d'3 | d'3 d'3 | d'3 d'3 | d'3 d'3 | d'3 d'3 | =c'3 c'3 | c'3 c'2 :|
+|: z | d'3 c'3 | b3 f3 | d3 d3 | d3 d3 | b3 a3 | g3 f3 | e3 =c3 | c3 c2 :|
+%%begintext align
+%% The unmarked C notes in the bass line's final bars of all 4 strains are
+%% probably meant as C sharps. This is most obvious in the first strain,
+%% giving an A(7) chord to lead into the D chord in the next strain. The
+%% progression C-A7-D also works for the other strains. The bass also has
+%% C natural notes in the last bar (24) of strain 3, but the C sharps in the previous 
+%% bar (23) disagree with the notes in the melody and likely should be C naturals there,
+%% too. I've made the change here. [JC]
+%%endtext

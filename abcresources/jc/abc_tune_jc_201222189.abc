@@ -1,0 +1,81 @@
+%%text RJ Set 056 Square
+
+
+X: 1
+T: Redwing [D]
+C: George F. Handel
+N: RJ	S-R	D	square
+Z: Transcribed to abc by Mary Lou Knack
+R: polka, square
+M: C|
+L: 1/8
+K: D
+V: 1 staves=2
+A,4 |:\
+"D"D3D D2F2 | A6 D2 | "G"G2B2 d2B2 | "D"A6 F2 |\
+"G"G2GF E2G2 | "D"F2FE D2F2 |\
+[1 "E"E2B,2 C2D2 | "A7"E6 A,2 :|[2 "E"E2B,2 "A7"C2E2 | "D"D4 |]
+|: d2c2 |\
+"G"B4 B3B | B2d2 c2B2 | "D"A4 F4- | F2A2 B2A2 |\
+[1 "A7"A4 (E4 | E2) A2 B2A2 | "D"A4 F4- | F4 :|\
+[2 "A7"A4 G4 | F4 E4 | "D"D8- | D4 |]
+% = = = = = = = = = =
+V: 2
+E4 |:\
+F4 (F2A2) | d4- d2A2 | B2(d2 g2d2) | [F4-d4-] [F2d2]A2 | (B2A2) G2B2 | (A2G2) F2A2 |\
+[1 ^G2G2 (A2B2) | A4 (=G2E2) :|[2 ^G2G2 (=G2E2) | F4 |]
+|: f2e2 |\
+   d4 d4 | d2g2 (a2g2) | f4 d4- | d2d2 d2d2 |\
+[1 c4 G4-| G2c2 (d2c2) | d4 A4- | A4 :|\
+[2 c4 G4-| G2(B2 A2G2) | F8-    | F4 |]
+
+
+X: 2
+T: Redwing [G]
+N: RJ	S-R	G	square
+C: George F. Handel
+Z: Transcribed to abc by Mary Lou Knack
+R: polka, square
+M: C|
+L: 1/8
+K: G
+D4 |:\
+"G"G3G G2B2 | d6 B2 | "C"c2e2  g2e2 | "G"d6 B2 |\
+"C"c2cB A2c2 | "G"B2BA G2B2 |[1 "A"A2E2 F2G2 | "D"A6 D2 :|[2 "A"A2E2 "D7"F2D2 | "G"G4 |]
+|: g2f2 | "C"e4 e3e | e2g2 f2e2 | "G"d4 B4- | B2d2 e2d2 | "D7"d4 A4- |\
+[1 A2d2 e2d2 | "G"d4 B4- | B4 :|[2 "D"A2c2 B2A2 | "G"G8- | G4 |]
+% text 2/10/00.
+
+
+X: 3
+T: Snow Deer
+R: reel
+C: Bob Wills?
+D: From The Essential Texas Fiddle by Joe Stephenson
+Z: Transcribed to abc by Debbie Knight, edited by Mary Lou Knack
+M: C|
+K: C
+% = = = = = = = = = =
+V: 1 staves=2
+G2c2d2 | \
+"C"e2ed e2ef | e2c2 B2c2 | "D"d2dc d2de | d2c2 B2A2 |\
+[1 "G7"G4 d4- | d2c2 B2A2 | "C"G4 e4- | e2 :|\
+[2 "G7"G4 d4- | d2c2 d2e2 | "C"c8- | c2 ||
+|: c2 "C7"d2e2 |\
+"F"f4 A4- | A2c2 B2A2 | "C"G4 e4- | e4 e3f | "G7"e2d2 d2cd- |\
+[1 d4 d3e | "C"d2c2 c2Bc- | c2 :|\
+[2 d2f2 e2d2 | "C"c8 |1 c2 :|
+| "tag line"\
+_AAFA BBAB | ddBd f2f2 | gef^f ge=f^f | g^f=fe- e4 |] x8 x8 x8 x8 x8 x8
+% text 3/29/00.  From "The Essential Texas Fiddle" by Joe Stephenson.
+% = = = = = = = = = =
+V: 2
+C2E2F2 | \
+G2GF G2GA | G2E2 D2E2 | F2FE F2FG | F2E2 D2C2 |[1 B,4 G4- | G2F2 E2D2 | C4 G4- | G2 \
+                                             :|[2 B,4 F4- | F2E2 F2G2 | E8- | E2 ||
+|:E2 F2 G2 |\
+A4 F4- | F2A2  G2F2 | E4 G4- | G4 G3A | G2F2 F2EF- |[1 F4 F3G | F2E2 E2DE- | E2 \
+                                                  :|[2 F2A2 G2F2 | E8- | E2 :|
+| "tag line"\
+FFDF _AAFA | BB_AB d2d2 | ecd^d ec=d^d | e^d=dc- c4 |] x8 x8 x8 x8 x8 x8
+

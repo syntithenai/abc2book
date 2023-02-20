@@ -1,0 +1,24 @@
+X:4004
+T:Forth Bridge Jig
+P:Forth Bridge Jig
+C:Fred Arbuckle
+R:Jig (4x32)
+B:RSCDS 40-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+B|"G"GBd "C"egg|"Am"edB "D7"ABA|"G"GBd "C"egg|"Am"edB "D7"A2 B|\
+  "G"GBd "C"egg|
+                "Am"edB "D7"ABA|"G/B"dBd "C"ege|"D7"dBA "G"G3||\
+  "G"gde BdG|gde BdG|
+                     gde "Em"BdG|"A7"AB^c "D7"d3|\
+  "C"ecG "Am"gec|"G/B"edB "G"dBA|"Em"GBd "C"egg|"D7"edB G3||
+  "G"G[d^c][d^c] D[d^c][d^c]|G[d^c][d^c] D[d^c][d^c]|\
+                                              "G"GBd "C"egg|"Am"edB "D7"A2 B|\
+  "G"G[d^c][d^c] D[d^c][d^c]|
+                             G[d^c][d^c] D[d^c][d^c]|\
+                                              "G"GBd "C"egg|"Am"edB "D7"G3||\
+  "G"gde BdG|gde BdG|
+                     gde "Em"BdG|"A7"AB^c "D7"d3|\
+  "C"ecG "Eo"gfe|"G/B"edB "D7"dBA|"G"GBd "C"egg|"D7"edB "G"G2|]

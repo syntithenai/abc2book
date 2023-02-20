@@ -1,0 +1,24 @@
+X: 21302
+T: BEAUTIFUL DANUBE -- Waltz 2
+C: Strauss
+R: waltz
+B: K\"ohler's Violin Repository, v.2, 1885 p.130 #2
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+U: P=!crescendo(!
+U: p=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: 3/4
+L: 1/8
+K: A
+z2 !segno!|:\
+v(GA)(aAaA) | (GA)(aAaA) | (GA)(aAaA) | (GA)(aAaA) |\
+(FA)(AaAa) | (FA)(AaAa) | (FA)(AaAa) | (FA)(AaAa) |
+v(GA)(aAaA) | (GA)(aAaA) | (GA)(aAaA) | (FA)(AaAa) |\
+d2e2f2 | (a4g2) | !/!f2f2e/A/z |[1 d2z2z2 :|[2 d2z2 H|]
+[K:Gm] ud'2 |\
+d'6- | d'2(e'2d'2) | (c'2b2a2) | g6 |\
+{g}c'zz2vc'2- | c'(f{a}g3f) | f6- | f2z2uf2 |
+d'6- | d'2(e'2d'2) | (c'2b2a2) | (g6 |\
+!pp!^f2)z2uf2 | z2(vg3_b) | a6- | a2z2z2 |]

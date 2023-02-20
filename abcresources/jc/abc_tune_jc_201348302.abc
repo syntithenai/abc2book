@@ -1,0 +1,2312 @@
+X: 0
+T: A Selection of Scotch, English Irish, and Foreign Airs
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800
+N: Publisher: Urbani & Liston, Edinburgh, 1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1800
+K:
+%%center Entered in Stationer's Hall
+%%center ---------------
+%%center A SELECTION of
+%%center Scotch, English Irish,
+%%center and Foreign AIRS.
+%%center Adapted for the FIFE,
+%%center VIOLIN or German FLUTE
+%%center Vol.4
+%%center Humbly Dedicated
+%%center to the Volunteer and Defensive BANDS
+%%center of GREAT BRITAIN
+%%center and IRELAND
+%%center ---------------
+%%center Printed and Sold by
+%%center URBANI & LISTON
+%%center EDINBURGH
+%%center ---------------
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 6
+T: German Hornpipe
+%R: hornpipe, reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed to agree with the "Da Capo" at the end.
+M: 2/4
+L: 1/16
+K: G
+|:\
+g2d2 Td4 | g2e2 Te4 | d4 (cBAG) | (FGAF) D4 |\
+g2d2 Td4 | g2e2 Te4 | d2B2 (dcBA) | G2G2 G4 :|\
+|:\
+F2F2 TF4 | G2G2 G4 | c2c2 (dcBA) | B2d2B2G2 |
+F2F2 TF4 | G2G2 G2(AB) | c2A2G2F2 | G4 G4 :|\
+|:\
+f2d2 e2f2 | (gfga) g2(bg) | f2d2e2f2 | g4 b2g2 |\
+f2d2e2f2 | (gfga) g2(bg) | f2d2e2f2 | g4 g4 "Da Capo"y|]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 7
+T: Mr Lumsdain of Blanairn's Strathspey
+%R: strathspey
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+Bc |\
+dG3e3G d3Gc3e | d2G2 (cBAG) F2A2A2Bc | dG3e3G d3Gc3e | (F2GA) (A2Bc) B2G2G2 :| (gf) |
+(gaba) g2d2 eg3g3a | gaba g2d2 ea3a3b | (gaba) g2d2 eg3d3B | c2Bc (A2Bc) (B2G2G2) ba |
+(gaba) g2d2 eg3g3a | gaba g2e2 fa3a3c' | bc'3a3b ga3eg3 | B2c/d/ (A2Bc) (B2G2G2) :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 8
+T: The Braes of Aberarder
+%R: strathspey
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.4 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has final repeat but no initial repeat; not fixed.
+M: C|
+L: 1/16
+K: G
+e2 |\
+d3Gc3G Bcd2 e4 | dG3 (ed)(cB) B2A2A2e2 |\
+d3GB3G Bcd2 Te4 | d2G2B2A2 A2G2G2 :| f2 |\
+g3de3d efg2 Ta4 | (gf)(ed) g3B B2A2A3f |
+g3de3d efg2 Ta4 | (gf)(ed) (de)(fd) g4 d2f2 |\
+g3ef3d e3cd3B | c3aB3g B2A2A2d2 |\
+Bcd2 Te4 Bcd2 g4 | G2G2TB3A A2G2G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 9
+T: Within a mile of Edin.r
+T: Within a mile of Edinburgh
+N: The title has a odd abbreviation, with a superscript r above a dot standing for "burgh".
+N: 14 bars long.
+%R: strathspey
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.4
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+Q: "Slow"
+M: C
+L: 1/8
+K: D
+f>g |\
+(a<f)(e>f) d2 (f<d) | (B<d)(A<F) A2 (d>e) |\
+(f<a)(b<d') (a<f)(d>f) | (Tf2 e2) z2 (f>g) |\
+(a<f)(e>f)  d2 fd | (B<d) (A<F) A2 (d>e) |\
+(f<a)(b>d') (a<f)(e>f) |
+d4 z4 |\
+(d>e)(f>g) (a>f) d'2 |\
+(d>e)(f>g) afd'd |\
+(d>e)dB AFAd | fdfa Hb>c'Hd'b |\
+a<ff<d B<dA<d | f<ae>f d2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 10
+T: Duke of York's Troop
+%R: waltz
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.5
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: They rhythms between the strains aren't correct; not fixed.
+N: Triplet symbols added to a few obvious triplets.
+M: 3/8
+L: 1/16
+K: G
+def |\
+g2d2d2 | d3edc | B2G2G2 | G3BAG |\
+F2A2A2 | G2B2d2 | {e}d2c2B2 | {B}A4 (3def |\
+g2d2d2 | d3edc | B2G2G2 | G4d2 |
+.e2(ge)(ge) | .d2(Bd)(Bd) | c2A2F2 | G6 :|\
+|: G2 |\
+F2A2A2 | G2B2B2 | A2c2c2 | B3dBG |\
+.F2(AF)(AF) | .G2(BG)(BG) | .A2(cA)(cA) | B4 (3def |
+g2!f!d2d2 | d3edc | B2G2G2 | G4d2 |\
+edefge | fgafgd | c2A2F2 | G6 :|\
+|:\
+(B2d2).d2 | (^d2e2).e2 | (A2c2).c2 | (^c2d2).d2 |
+G2F2A2 | G4Bd | gdgdBG | d6 |\
+!p!(B2d2).d2 | ^d2e2e2 | A2c2c2 | ^c2d2d2 |\
+gfg=fe^d | e=dcBAG | cedBcA | G6 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 11
+T: The High Road to Linton
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.5
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Amix
+     d | ceef a2ae | f2fe a2ae | ceef a2ae | faec TB2A :|\
+|: d | ceeg fddf | ecce fBBd | ceea fddf | ecAc  B2A :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20
+T: Mrs Spens Monro's Jig
+%R: jig
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.9
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D |\
+G2G AGA | Bcd efg | G2G AGA | BGE E2D |\
+G2G AGA | Bcd efg | {e}dcB AGA | BGG G2 :|
+|: f |\
+gfg efg | fdd def | gfg aba | bge e2f |\
+gfg aga | bge efg | dcB cBA | BGG G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 21
+T: Lady Loudon's Strathspey
+%R: strathspey
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.9
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: D
+f/g/ |\
+a<da>f a<da>f | a<da>f (be) ef/g/ |\
+a<dTa>f a<fa>f | g<bTa>f fdd :|\
+|: f |\
+A>dF>d A>dfd | A>dFd eEEd |
+A>dF>d A>dfd | g/a/b Tag fdTd> f |\
+A>dF>d A>df>d | A>dF>d eEEg/a/ |\
+b>ga>f g>ef>d | g>bag | fdd |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22
+T: Loch Vach
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.9
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Added missing G2 at end of 1st strain.
+M: C|
+L: 1/8
+K: G
+|:\
+dBGB dgdB | egdB A/A/AA2 |\
+dBGB dgdB | g<eTd>B G/G/GG2 ::\
+gaba gedg | egdb a/a/aTa2 |
+gaba gedg | e<gTd>B G/G/GG2 |\
+gaba gedg | egdb a/a/aTa2 |\
+gabg c'afd | e<aTd>B G/G/GG2 :]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 23
+T: Lamberton Races
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.10
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+B |\
+(BG).d.g bgaf | g(edB) (cAA)B |\
+(GBd).g bgaf | (ge)Td>c (BGG) :|
+|: c |\
+BdGd BdGd | Tc>d (e/d/).c/.B/ (cAAB) |\
+(GB).d.g bgaf | (ge)Td>c BGG :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 24
+T: Countess of Sutherland's Reel
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.10
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+f |\
+d2Ad BdAd | GdFd Ee-ef |\
+Td2Ad Bbag | faeg fd-d :|\
+a/b//c'// |\
+d'afa gbeg | fadf eA-Aa/b//c'// |
+d'afa gbdg | afeg fdda/b//c'// |\
+d'afa gbeg | fadf eAAa |\
+Tb>abc' d'bag | faeg fd-d |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 25
+T: Col.l Wemys's Reel
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.10
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|:\
+g2dc {c}B2AG | FGAB cAAf |\
+(g/f/e/f/) gd cBAG | DGAc BG G :|\
+B |\
+(DG)(BG) (DG)(BG) | (DG)(BG) cAAB |
+(DG)(BG) (DG)(BG) | (DG)(Ac) BGGB |\
+(DG)(BG) (DG)(BG) | (DG)(BG) cAAc |\
+Bdef gedc | BdAc BGG2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 26
+T: The Miner's of Wicklow     Irish.
+%R: jib
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.11 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A/G/ |\
+FGA AB=c | BGB AFA | BGE EFG | AFD  D2A/G/ |\
+FGA AB=c | BGB AFA | B/c/eB c/d/ec | d3 D2 :|
+|: a/g/ |\
+fdf fdf | ece ece | fdf fdf | geg geg |\
+fdf fdf | ece ecA | B/c/eB c/d/ec | d3 D2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 27
+T: Rocks of Cashel     Irish.
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.11 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: D
+|:\
+d2f2 a4 bagf a4 | d2f2 a4 bagf e4 |\
+d2f2 a4 bagf a2c'2 | d'2b2 a2f2 g2e2e2f2 :|
+|:\
+d3f {g}f/e/f3 {g}f/e/f3 {g}f/e/f3 | d3f {g}f/e/f3 g2e2e2f2 |\
+d3f {g}f/e/f3 {g}f/e/f {g}f/e/f | d'2b2 a2f2 g2e2e2f2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 28
+T: Lary Grogan     Irish.
+%R: jig
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.11 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Usually in G.
+N: The first strain's ending bar lines and the pickup to the 2nd strain are obscured/missing; fixed from other sources.
+N: This may have been intended as a 16-bar tune, notated with just a final repeat sign but none between the strains.
+M: 6/8
+L: 1/8
+K: D
+a/g/ |\
+fdf fdf | ece ece | f/g/af gec | ddd d2 a/g/ |\
+fdf fdf | ece efg | f/g/af gec | ddd d3  :|
+|: a/b/ |\
+=c'3 bag | fga afd | d=c'c' b^c'd' eee e3 |\
+=c'3 bag | fga afd | f/g/af gec | ddd d3  :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 29
+T: The Caledonian Hunt
+%R: strathspey, reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.12 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The original does break the staffs inside measures, though slightly more oddly than here.
+M: C
+L: 1/16
+K: D
+A2 |\
+F3Ad2A2 Bd3A3F | G2B2A2F2 B2E2E3G |\
+.F2.A2.d2.A2 .B2.d2.A2.F2 | GB3A3G F2D2-D3G |\
+F3Ad2A2  Bd3A3F | GB3TA3F
+B2E2-E3G |\
+F3A d3A Bcd2 A2G2 | F2A2 E3g f2d2d2 |[| f2 |\
+(defg) a3f b3ga3f | (defg) a3f ge3e3f |\
+(defg) a3f
+b3ga3f | Aa3a3g f2d2d3f |\
+(defg) a3f b3ga3f | (defg) a3f g2e2e3g |\
+f3de3f d3BA3F | A3Bd3e f3dd2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 30
+T: Capt. McIntosh
+T: Captain MacIntosh
+T: Captain Mackintosh
+%R: march, reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.13 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+% Original staff breaks preserved.
+E |\
+A>BA>B | GEEE | A>BA>c | e2ec |\
+fddf | eccA | BcdB | AGFE |\
+A>BA>B | GEEE | A>BA>c |
+e2ec |\
+fddf | eccA | BABc | A3 |[| A |\
+e>fe>f | (dB)(Bc) | d>ed>e | cAAA |\
+.F(B/c/) dB | .G(c/d/) ec |
+fdBA | AGFE |\
+A>BA>B | GEEE | A>BA>c | e2ec |\
+fddf | eccA | B>AB>c | A3 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 31
+T: Peggy Perkins
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.13 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The strains' rhythms are incorrect at their boundaries; not fixed.
+M: 2/4
+L: 1/16
+K: D
+A2 |\
+dedA fgfd | a2a2a2f2 | gage fgfd | e2e2e2A2 |\
+dedA fgfd | a2a2a2f2 | gage faec | d2d2d4 :|
+|:\
+ABcd efge | f2d2d4 | gage fgfd | cdec A4 |\
+ABcd efge | f2d2d4 | fgae cdec | d2d2 d4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 32
+T: La Belle Catherine
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.13 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 2/4
+L: 1/16
+K: D
+A2 |\
+d4 (fede) | f2d2d2c2 | B4 (efed) | c2A2A2A2 |\
+d4 (fede) | f2d2d2c2 | B2e2 (dcBA) | d4 D2 H:|
+|: AG |\
+F2A2A2G2 | F2A2A2G2 | F2A2 (dfed) | c2A2A2G2 |\
+(FGAB) A2G2 | F2A2 A2(Bc) | d3e ({g}f2ed) | Ha4 |] "Da Capo"y8
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 33
+T: The Nymph
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.13 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|:\
+d2(dc) d2A2 | d2f2a2f2 | g2e2d2c2 | (dcde) d2A2 |\
+d2(dc) d2A2 | d2f2a2f2 | g2e2d2c2 | d4 d4 :|\
+|:\
+g2f2 f4 | e2d2 d4 | c2d2e2f2 | (gagf) e4 |
+g2f2 f4 | e2d2 d4 | e2g2 (fedc) | d4 d4 :|\
+|:\
+f6 a2 | d6 f2 | e2f2g2e2 | d2c2B2A2 |\
+d4 e2f2 | g6 f2 | f2e2d2c2 | d4 d4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 34
+T: Money Musk
+%R: strathspey
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.14 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+e |\
+d>GB>G d>Gc>e | d>GB>G AB/A/ c>e | d>GB>G Bc/d/ dg | e>cA>c BGG :: e/f/ |
+g>dB>g d>gB>g | g>dc>g B>gA>f | g>de>g d>gB>g | e>cA>d BG/G/ ef |
+g>dB>g B>gA>f | g>dc>g B>gA>f | g>de>f d>gc>g | B>gA>g B>GG :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 35
+T: McGregor Aruaro
+%R: waltz
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.14 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+P: "Slow"
+M: 3/4
+L: 1/8
+K: D
+A>B |\
+d2 d2 Te2{de}y| f2 A2 A>B | d2 d2 Te2 | f2 A2 D/F/A |\
+f2 f2 a>f | fe d2 cB | A2 F>EF>A | B2 D2 AB |\
+d2 d2 Te2 |
+f2 A2 A>F | d2 d2 Te2 | f2 A2 D/F/A |\
+f2 f2 af | e2 d2 B2 | d2 FEFA | B2 D2 AB |\
+d2 d2 Te2 | f2 A2 A>B |
+d2 d2 Te2 | f2 A2 D/F/A |\
+f2 f2 a>f | e2 d2 dB | A2 F2 A>F | E2 D2 D/F/A |\
+f2 f2 af | e2 d2 cB | A2 FA G/F/E/D/ | TE2 D2 z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 36
+T: The White Cockade
+%R: march, reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.15 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Fixed the incorrect 3/4 time signature.
+M: 2/4
+L: 1/16
+K: G
+GA |\
+B2B2 B2AG | B2B2 B2ge | d2B2 B2AG | F2A2 A2GA |\
+B2B2 B2AG | A2B2 g2fg | (.b.a.g.f) (.a.g.f.e) | d2B2B2 :|
+|: Bc |\
+d2B2g2B2 | d2B2 B2cd | d2B2g2B2 | a2A2 A2GA |\
+B2B2 B2AG | A2B2 g2fg | (.b.a.g.f) (.e.f.g.e) | d2B2B2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 37
+T: Jumping Joan
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.15 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The rhythms aren't correct at the strain boundaries; not fixed.
+M: C|
+L: 1/8
+K: G
+|:\
+g2dB G2BG | E2AE FDDF |\
+g2dB G2BG | EAFD G2G2 :|\
+g2 |\
+efge fgab | gfge fddf |
+efge fgag | fefd g2Bd |\
+efge dBgB | ceBd AFED |\
+GABG EGce | dBcA G2G2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 38
+T: Jenny Sutton
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.15 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|:\
+G/G/G GB dBdB | G/G/G GB cAFA |\
+G/G/G GB dBdB | decA B2G2 :|\
+gGgG fGfG | efge dBAG |
+gGgG fGfG | efge Te2d2 |\
+gdEg fADf | eGce dBAG |\
+G/G/G GB dBec | BgAf g2G2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 39
+T: The Six following Tunes are taken from Oscar & Malvina
+%R: jig
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.16 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Fixed the incorrect rhythm of bar 12 in one of the two possible ways (the one most like others in this tune).
+N: Added some missing dots to make several bars similar to bar 8.
+M: 6/8
+L: 1/8
+K: D
+|:\
+d3 d3 | dcB A3 | dcB AGF | F/G/AF E2D |\
+e3 e3 | fed cag | fed cAB | d>ef/g/ e2d :|
+|:\
+fdd eAA | fed eAA | gee fBB | ga/g/f/e/ fBB |\
+fdd eAA | fg/f/e/d/ | eag | fed dAB | d>ef/g/ e2d :|
+|:\
+dfa dfa | dfa agf | egb egb | egb bge |\
+dfa dfa | dfa agf | f>ed cAB | d>ef/g/ Te2d :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 40
+T: The Battle
+Q: "March"
+%R: march
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.16 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+|:\
+D<DF>D | E2 B2 | D<DF>D | A2 f2 |\
+af d>F | E2 TB2 | a<f d>F | A2 d2 :|
+|:\
+D<AF<A | E<BG<B | D<AF<d | A2 f2 |\
+a<fd>A | B>AB>A | a<fd>A | A2 d2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 41
+T: Groans of the Wounded
+%R: march, reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.16 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|:\
+f2fe d2BA | A2Bd e2e2 |\
+f2fe d2BA | A2Bc d4 ::\
+e2g>f e2g>f | e>dc>d e2e2 |\
+f2fe d2BA | A2Bc d4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 42
+T: Retreat
+Q: "March"
+%R: march
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.17 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|:\
+d<df>d e>dBd | A<AF>A B2d2 |\
+F<GE>D f<fe>d | FFAf B2d2 ::\
+a<af>d e<ed>B | A>AF>A B2d2 |
+F<FE>D f<fe>d | F<FA>f B2d2 ::\
+fde>c d2A2 | a<af>A B2d2 |\
+b<ba>f g>ef>d | D<DF>A B2d2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 43
+T: Quick Step
+%R: reel, march
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.17 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+|:\
+DGGB | AGGg | dBBG | AEE2 |\
+DGGB | AGg2 | dB d/c/B/A/ | G2 G2 ::\
+gage | dBBg | dBBG | AEE2 |
+gage | dBgb | agab | g2g2 ::\
+bgdb | afda | gdBG | AEE2 |\
+DGGB | AGg2 | dB d/c/B/A/ | G2 G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 44
+T: Soldiers dance after the Battle
+%R: reel, march
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.17 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: There was no time signature for this tune.
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: G
+e |\
+dG (e/d/c/B/) dGGe | dBgB dAAB |\
+dG (e/d/c/B/) dGBg | fefd g2g :: e |\
+dBgB dgBg | dBgB dAAB |
+dBgB dgBg | fefd g2ge |\
+dG (e/d/c/B/) dGGe | dBgB dAAB |\
+dG (e/d/c/B/) dG (d/b/a/g/) | fefd g2g |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 45
+T: The Fife Hunt
+%R: reel, march
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.18 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The rhythms are all wrong at the strain boundaries.
+M: C|
+L: 1/8
+K: D
+g |\
+fdTd2 AFTF2 | Ee2d e2e(g |\
+f)dTd2 AFTF2 | D2d2 cd2-d :| (g |\
+f)dad bdad | Ee2d e2e(g |
+f)dad bdad | Ad2c d2-dg |\
+fdad bdad | Ee2d e2-eg |\
+fada gbeg | A2c2 cTd2d |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 46
+T: Braes of Mar
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.18 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The rhythms at the strain boundaries aren't all correct; not fixed.
+M: C|
+L: 1/8
+K: D
+f2 |\
+d/d/d df dedf | E/E/E TB>A BEBe |\
+d/d/d d>f d>efg | aAFD TE2D :|
+|:\
+FAAB/c/ dAFD | G>BF>A E/E/E BE |\
+F>AD>B A>Bcd | fdg>f Te2d2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 47
+T: Salley in our Alley
+%R: air, waltz
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.18 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Adjusted final rests to fill the measure. There are 17 bars, but the tune is really just 16 bars long, plus a "pause".
+M: 3/4
+L: 1/16
+K: D
+z4 z2A2A2 d2 |\
+d4 c2d2 ef {a}g{f}e | d4 c2d2B2A2 |\
+A6 (3GFE D2 d2 | d2z2 z2A2A2 d2 |\
+d4 c2d2 ef {a}g{f}e | d4 c2 dd B2A2 |
+A6 (3GFE D2 d2 | d2z2 z2A2A2F2 |\
+A6 =c2B2G2 | B6 f2g2f2 |\
+e6 d2c2e2- | e2z2 z2G2F2E2 |\
+D6 f2g2f2 | {f}e6 ff a2f2 |\
+d6 cB A2d2- | d4z4z4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 48
+T: Logie of Buchan
+%R: waltz
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.19 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+AG |\
+F3 G A2 | A f3 e2 | d2 B2 B2 | B4 AG | F3 G A2 | A d3 e2 | f2 d2 d2 | d4 |[| de | f3 e f2 | a4 fe |
+d2 B2 c2 | d4 de | f3 g f2 | e2 d2 e2 | f3 d B2 | B4 |]| AG | F3 G A2 | A f3 e2 | d2 B2 B2 | B4 |[| AG | F3 G A2 | A2 d3 e2 |
+f2 d2 d2 | d4 |]| de | f3 e f2 | a f3 e2 | d2 B2 c2 | d4 de | f3 g f2 | e2 d2 e2 | f3 d B2 | B4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 49
+T: Theres nae luck about the House
+%R: march, reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.19 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+B |\
+d B A F | G> G G B | d B A F | E2 z B |\
+d B A F | G G G B  | A> G F E | D3 B |
+d B A F | G> G G B | d B A F | E3 B |\
+d B A F | G> A B d | A> G F E | D2 D E |
+F2 F D | G> F G E | F2 F D | E2 z A |\
+F> F F D | G> G G B | A G F E | D3 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 50
+T: The Goby O     Irish
+%R: jig
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.20 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+B |\
+c2A (AcA) | E2A A2c | B2G (GBc) | dBG GAB |\
+c2A (AcA) | E2A A2f | edc BAB | E2A A2 :|
+|: B |\
+A2B c2d | e2^f g3 | faf gfe | (dBG) G2B |\
+A2B c2d | e2^g aga | edc BAc | E2A A2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 51
+T: Queen Mary's Lamentation
+%R: air, waltz
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.20 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+Q: "Slow"
+M: 3/4
+L: 1/8
+K: G
+GB |\
+d4 BG | (A2 B2 c2) | c2 B2 b>g | e<g g2 (ec) |\
+A3 fac' | b<d'g<b e>g | d<BB<G TA2 | G4 GB |\
+d4 BG | A2 B2 c2 |
+c2 B4 G2 | d4 e>d |\
+d<BB<G TA2 | G4 d>e | =f4 dB | A2 A3 B/c/ |\
+{c2}B4 GB | d4 e>d | d<BB<G TA2 | G4 bg |
+e<g gfac' | b<d'g<b e>g | (d<B)(B<G) A2 | G4 d>e |\
+=f4 dB | A2 A3 (B/c/) | {c2}B4 G2 | d4 BG |\
+D4 d>B | {B2}A4 (GB) |
+d4 BG | e2 f2 g2 |\
+Hf4 g>e | d4 e>d | d<BB<G TA2 | G4 (d'>b) |\
+e<a a2 eA | A3 (cBd) | e<gd<B A>B | G4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 52
+T: Roy's Wife of Aldivalloch
+%R: air, strathspey
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.21 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+Q: "Slow"
+M: C
+L: 1/16
+K: D
+[|\
+(AF3) F3E F3E F B3 | AF3F3D E3DEF3 |\
+A3F {F}E3D d3e {d}f3e | {e}d3B A3{Bd}F  E3D EHF3 |]
+A |\
+A3 (B/c/) d3f (ed)(ef) d3A | AB3cd3 F{F2}E3 D E HF2 A |\
+A3 (B/c/) d3f (ed)gd {f}He2 d | {d}f3e d3 F F3E F2 {A}d<B |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 53
+T: London March
+%R: march, hornpipe
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.21 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+[|\
+F2F<F F2E2 | D>FA>d {c}B2A2 |\
+B>dA>d G>dF>d | E>DE>F E2E>E |\
+F2F>F F2E2 | D>FA>d {c}B2A2 |
+B>dA>d G>cd>g | f2e>d d4 |]|\
+a>gf>g a>ag>f | e>fg>e f2e2 |\
+d>dd>e f>ff>g | a>ag>f f2e2 |
+A>GF>G A>AG>F | E>FG>E F2E2 |\
+D>DD>E F>FF>G | A>AG>F F2F>E |\
+F2F>F F2E2 | D>FA>d {c}B2A2 |
+B>dA>d G>dF>d | E>DE>F E2E>E |\
+F2F>F F2E2 | D>FA>d {c}B2A2 |\
+BdAd G>cd>g | f2e>d d4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 54
+T: Lochail's March
+%R: jig, march
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.22
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|:\
+TdBB e>fg | TdBB TB2G | TdBB ~e>fg | dBG A2G |\
+TdBB {f}e/d/e/f/g | TdBB TBAG | A3 c>de | dBG TA2G :|
+|:\
+TdBB eBB | TdBB TB2G | TdBB eBB | dBG TA2G |\
+TdBB TeBB | TeBB TB>AG | A3 {d}c/B/d/e/f | dBG TA2G :|
+|:\
+(B//c//d3/)G (c//d//e3/)G | (B//c//d3/)G TB2G | (B//c//d3/)G (c//d//e3/)G | dBG TA2G |\
+(B//c//d3/)G (c//d//e3/)G | (d<B)g TB2G | A3 c<de | dBG TA2G :|
+|:\
+GTB2 GB2 | GTB2 TB2G | GTB2 GTB2 | G/B/gB TA2G |\
+GTB2 GB2 | GTB2 TB2G | A3 c/B/c/d/e | dBG TA2G :|
+|:\
+Td3 Te3 | Td3 TB2G | Td3 Te3 | TdBG TA2G |\
+Td3 Tf3 | dgB BAG | A2B c/B/c/d/e | dBG TA2G :|
+|:\
+gdd gee | gdd TB2G | gdd gee | dBG TA2G |\
+gdd gee | gdd B>AG | A3 efg | e/d/c/B/A/G/ A2G :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 55
+T: Duke of York's March
+%R: march
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.23 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+|:\
+G2G>G B2B>B | dBdB G2dd |\
+gdgd gdBG | d2d>d d2z2 |\
+d'3b g2g2 | a2a>c' b2zd' |
+d'3b bg c'b | a2a>a a2z2 ::\
+d2d>d dabc' | d2d>d dgbd' |\
+c'aaa bggg | e'd'c'b b2a2 |\
+g2ba gde=f  |
+=fe e4 ^f/g/a/b/ |\
+c'c'bb aagg | f2a>a a2z2 |\
+G2G>G B2B>B | dBdB G2c'2 |\
+bd'c'b c'agf | g2g>g g2z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 56
+T: The Bedding of the Bride
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.23 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The last bar is quite obscured by the EFDSS's logo.
+M: C|
+L: 1/8
+K: Amix
+a |\
+A/A/A (ec) Bcdf | A/A/A (ec) AAec | A/A/A (ec) B>cdf | edc>B A>cd :: f | A/A/A ac Bcdf |
+A/A/A a>c AAac | A/A/A ac B>cdf | edcB A>cd :: f | Aece Bcdf | Aece Aece |
+dfce Bcdf | edTc>B A>cd :: f | A/A/A ac Bcdf | A/A/A a>c AAac | A/A/A a>c B>cdf | edTcB A>cd :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 57
+T: Fill the Stoup
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.24 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bm	% or Amix
+a |\
+(fe)(dc) eBBa | (fe)(dc) fAAa | (fe)(dc) eAcA | dfce fBB :: f | AATcA eAAf |
+AAcA fBBf | AAcA eAcA | dfce fBB :: f | eaca eAAf | eaca fBBf | eaca eace |
+dfce fBB :: f | A/A/A (TcA) dAAf | A/A/A (TcA) fBBf | A/A/A c/A/A eATc>B | dfce fBB :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 58
+T: Taymouth House
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.24 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Amix
+|:\
+ceea faea | faeg Tf2B2 |\
+(ceea) faea | feac TB2A2 ::\
+ceec cAec |
+dffB dBfB |\
+ceeA cAec | dfce TB2A2 ::\
+ceea faea | faeg f2B2 |\
+ceea faeg |
+faec B2A2 ::\
+ceAe cAec | dfBf dBfB |\
+ceAe cAec | fdec TB2A2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 59
+T: The Merry lads of Foss
+%R: rell
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.25 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The rhythms aren't quite correct at the strain boundaries.
+M: C|
+L: 1/8
+K: D
+|:\
+FA A/A/A TB2Ac | dBAF GEEG |\
+FA A/A/A TB2Ag | fdef d/d/dd2 :: g |\
+Tf2df aeeg | f2df eBBg |
+f2df aeeg | faef d/d/d df |\
+f2df aeeg | Tf2df eBBg |\
+Tf2df aeef | fdef d/d/d d2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 60
+T: Struan Robertson's Rant
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.25 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Amix
+e |\
+ceAe cAec | Bgdg BGdB |\
+ceAe cAae | fdgB A/A/A e2 :|\
+dega bee(a | Tg)edg BGdB |
+dega beeg | fdgB A/A/A Te2 |\
+dega bee(a | g)>edg BGdB |\
+dega bgae | fdgB A/A/A Te2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 61
+T: Lady Ann Hope's Strathspey
+%R: strathspey
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.25 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+c2 |\
+BcdB GB3 EG3DG3 | TF3A B2AG F2D2D2c2 |\
+BcdB G2B2 E2G2D3g | efge fgaf g2G2G2 :| d2 |\
+Tf3bg2d2 Tg3bg2d2 | e2a2Ta3g f2d2d2ef |
+g2b2d2B2 c2e2d2g2 | e2g2f2a2 g2G2G2d2 |\
+Tg3bg2d2 Tg3bg2d2 | e2a2Ta3g f2d2d2ga |\
+b2g2a2f2 g3ed3c | B2g2 A2f2 g2G2G2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 62
+T: Because I was a bonny Lad
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.26 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Amix
+e |\
+Tc>BAa f/g/a ec | d>fec B/B/B (Be) |\
+cBAa (f/g/a) ec | d>fec A/A/A Ae |\
+(Tc>BAa) (3(faf) (3(efe) |
+d>fec B/B/B (Be) |\
+c>BAa (3(faf) (3(efe) | d>f ec A/A/A A |[| e |\
+(Tc>BAc) defd | cAec B/B/B (Be) |
+(Tc>BAc) def^g | (a/^g/f/e/) ac A/A/A Ae |\
+cAeA fAea | cAec B/B/B Bf/^g/ |\
+af^ge fdec | dfec A/A/A A |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 63
+T: Loch Erroch Side
+%R: reel, march
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.26 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Added rest as "pickup" to 2nd strain to fix the rhythm.
+M: C
+L: 1/16
+K: D
+D2 |\
+F2A2A2B2 d3ed2A2 | B3AB2d2 e3fe2E2 |\
+F2A2A2B2 d3ef2e2 | d2B2A2F2 TE4 E4 |\
+F2A2A3B d3ed2c2 | B2A2B2d2 edef e2E2 |
+F2A2A3B d2fg/a/ {g}f3e | {e}d2Bd {B}A2GF TE4 D2 |[| z2 |\
+f2a2 d2fg agfg a4 | g2b2 e2ga baga b2ag |\
+f2a2 d2fg agfg a2d2 |
+A3df2d2 Te4 {de}d4 |\
+f2a2 d2fg agfg bagf | g2b2 e2ga baga c'bag |\
+fa3ef3 eA3B3b | dA3d2F2 TE4 {DE}D2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 64
+T: Dumfries_House
+%R: jig
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.27 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D |\
+G3 G2g | dBG GAB | cGE EFG | AFD DEF |\
+G3 G2g | dBG GAB | cEA TF>EF | gdc BAG |
+G3 G2g | dBG GAB | cde dcB | AFD DEF |\
+G3 G2g | dBG GAB | cEA FEF | G3 G2 |]
+d |\
+dBd dBd | gag (Tf2e) | dBd {e}dcB | AFD D2d |\
+dBd dBd | gag f2e | dcB AGF | gdc BAG |
+dBd dBd | gag f2e | dBd {e}dcB | AFD D3 |\
+dBd ece | fdf gfe | dcB Agf | gdB G2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 65
+T: The Highland Chieftain
+%R: strathspey, march
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.27 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+g |\
+Tf>edB AFFd | (A<F)A>E F2Fg |\
+Tf>ed>B A>Bd>B | (A<F)TF>D E2Eg |\
+Tf>de>f d>fB>d |
+A>dAF A2 AB/c/ |\
+Td>f dc/B/ AFFd | (A<F)TF>D E2E |]| B |\
+A<FTF>B A<FF>d | AFAE TF2FB |
+A<FA>B Td>ef>e | d>BAF E2EB |\
+(A<F)F>d A<FF>B | (A<F)A>E F2F>B |\
+A>Bd>f (e<fd)>B | ABdF E2E |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 66
+T: The Park's of Yester
+%R: slip-jig
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.28 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: D
+A |\
+.F.D.D AFF BEE | FDD AFF d2A | FDD AFF BEE | FDD AFF d2A | FDD AFF BGE | FDD AFA Td2A |
+FDD AGF BGE | FDD AFA d2 |]| A | Td3 AGF BGE | Td3 AFA d2A | TB>cd AGF BGE |
+FDD AFA Td2A | d3 AGF BGE | (d/c/B/c/)d AFA Td2A | TB>cd AGF BGE | FDD AFA d2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 67
+T: Lady Charlotte Bruce's Favourite
+%R: jig
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.28 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+c |\
+B2d (B/c/d)B | Tc2e A2e | B2c dBG | F2G A2c |\
+B2d (B/c/d)B | Tc2d ABc | (dB.G) (cA.F) | G3 G2 :|
+g |\
+f/g/af g2d | Te2f g2a | aga b2g | f2g a2b |\
+f/g/af g2d | e2c Bdg | dBG cAF | G3 G2g |
+f/g/af g2d | e2f g2b | aga b2g | f2g abc' |\
+bgd Te>fg | dcB Tc>de | dBG cAF | G3 G2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 68
+T: Boolonzie
+%R: march
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.29 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+A |\
+(Ad)(.d.d) | d2dd | efce | (d2.B.A) |\
+(Ad)(.d.d) | d2dd | (eg)ce | d2d |]
+A |\
+fdfg | (3aba de | f>efg | a2d2 |\
+f>efg a>bag | f>efg | a2d |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 69
+T: John Anderson's Auldest Daughter
+%R: march
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.29 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Am
+AB |\
+{AB}c>A BG | TE2G^F | G2GE | A>BTc>d |\
+e>Bc>A | TE2A^G | A2A>A | A2 :: AB | {d}c>Bcd |
+{cd}e2Tdc | BGGB | d2Tc>d |\
+e>Bc>A | TE2A^G | A2AE | Hc2 (c/B/c/).d/ |\
+e>Bc>A | E2A^G | A2A>A | A2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 70
+T: Jenny's Babee
+T: Jenny's Bawbee
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.29 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+f |\
+abag fd-df | B/B/B (ed) cA-Af |\
+abag fd-df | B/B/B (cA) d3 :|
+|: g |\
+fdge fd-df | B/B/B (eB) cA-Ag |\
+fdge fd-df | B/B/B (cA) d3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 71
+T: The Bob of Fettercairn
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.30 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+B/c/ |!segno!\
+dBGB dBGB | dBde Tf2df |\
+e^cAc ecAc | e>def g2fe |\
+dBGB dBGB |
+dBde Tfdfg |\
+aefd e>dBa | A/A/A (Bd) e2g2 |]\
+d>gBg dgBg | dgBg Tf2df |
+ea^ca Aaca | Te>def g2fe |\
+dgBg dgBg | dgBg Tf2de/f/ |\
+gefd e>dBg | A/A/A Bd e2!segno!g2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 72
+T: Miss Sally Hunter of Thurston's Jig
+%R: jig
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.30 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A |\
+DFA Td2A | TB2A Td2A | Bcd egf | efd cBA |\
+DFA d2A | B2A Bcd | egf edc | Td3 D2 :|
+g |\
+fed Tg2e | a2f b2g | (Tfef) def | efd Tc>BA |\
+fed g2e | a2f b2g | Tfga Adc | Td3 d2 g |
+fdf geg | afa bgb | afd Bcd | efd cBA |\
+AFA Td2A | B2A Bcd | egf edc | Td3 D2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 73
+T: John come kiss me now
+N: "or Never" is pencilled in after the title.
+%R: reel, march
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.31 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: Changed 32nd notes in bar 15 to 16th notes to fix the rhythm.
+M: C
+L: 1/8
+K: G
+D2 |\
+G2G>A (G/A/B) TAG | c2c>d Tc2BA | G2G>A TB>ABc | d2d>e dDEF | G2G>A (G/A/B) TA>G |
+c2cd (c/d/e) dc | B2AG FGAc | B2(TA>G) G2 :||: d2 | g2g>a g=fed | c2cd cde^f | g>fga (g/a/b) ag |
+Tf>ede fd (e/g/f/a/) | g>fga g=fed | c>de>f (e/f/g) Tfe | d2cB A2(Tfe/f/) | g2(G>A) G2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 74
+T: The Banks of Clyde
+%R: march, reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.31 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+d>c |\
+B>AG>E | e2ge | dcBA | B2zA | G>ABd | e>dcg | f2(gf) | e2zd | e>def | g2fe |
+G>ABc | d2ef | g>age | {g}f2(ed) | E2FA | G2zd | e>fed | B2dB | AGFG | E2zD | E>FGA |
+B2Bg | f>edB | e2zd | cBAG | d2dd | e>gfe | B2zf | g>a g/f/e/f/ | gfed | E2FA | G2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 75
+T: Mrs Macdoall Grant's Strathspey
+%R: march, reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.32 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+c |\
+(B/c/d) (.d.d) | c<e Te2 | (B/c/d) BG | F<AA>c |\
+(B/c/d) (.d.d) | (c/d/e/f/) g.e | dBcA | G2G :|
+g |\
+Ta2be | gdgb | (Tag/a/) bg | faab |\
+Ta2bf | gdgf/e/ | dBcA | G2G ||
+g |\
+Ta2bf | gdgb | Ta2bg | fa Tag/a/ |\
+bgeg | fdge | dc/B/ cB/A/ | G2G |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 76
+T: Mr Hanny of Bargaly's Reel
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.32 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+B |\
+AFDA BGAF | BGAF GEEB | AFDA BGAg | fdAc dDDB | AFDA BGAF |
+GBFA BEE(F/G/) | FAd=c BGed | cA(gf/e/) fdd |]| f | defg afdf | (ag/f/) df geef |
+defg afdA | B(gfe) fddf | defg afdf | ag/f/ df geeg | fdaf gebg | fdAc dDD |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 123
+T: Miss Wardlaw's Reel
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.49 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D |\
+G2BG BgdB | G2BG FAFD | G2BG BgdB | cAFA G2G :||: f | g2d=f ecAc | BdFA GFED |
+g2d=f ecAc | BdDF G2Gf | g2d=f ecAc | BdFA GFED | ced=f ecAc | BdFA G2G :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 124
+T: The Milliners House
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.49 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The rhythms aren't quite right at the strains' boundaries; not fixed.
+M: C
+L: 1/8
+K: G
+d>c |\
+cBdB BAdA | AGFA GFED | cAcc BGBB | AdAF D2d>c |\
+cBdB BAdA | AGFA GFED | EDED c2B2 | BAGF G2 :|
+|:\
+B3c AFGA | B3c AFGA | BGdG dGeG | edcB B2A2 |\
+B3c AFGA | B3c AFGA | gfed ecBA | BdFA G4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 125
+T: Earl of Balcarras's March
+%R: march, reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.49 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Fixed missing "pickup" to 2nd strain with initial rest.
+N: Bars 9,12,14 are missing an 8th note somewhere; fixed with added dots.
+M: C
+L: 1/8
+K: G
+(B/d/) |\
+g2d>d d2(cd/c/) | B2B>B B3d | dgBd d>cc>B | A2A>A A2z(B/d/) |\
+g2d>d d2(cd/c/) | B2B>B B2zd | d>g B>d B2A2 | G2G>G G3 :|
+|: z |\
+A2A>A A3B | GBd(g b3)(g/b/) | d'bgd d>BB>G | A2A>A A3A |\
+B.D.D.D c.D.D.D | d.D.D.D He3d | Bedc B2A2 | G2G>G G3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 126
+T: Quick Step
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.50 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C|
+L: 1/8
+K: G
+|:\
+GABc dBGB | ecAc dBA<G |\
+GABc dBGB | cAGF G2G2 ::\
+GggG FffF | EeeE DddD |
+EeFf GgAa | agfe d3d |\
+ecce egge | dBBd dggd |\
+eccA dBBG | cAAF G2G2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 127
+T: A Welsh Dance
+%R: hornpipe, reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.50 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|:\
+g>fg>a f>ef>d | e>de>c d2B2 |\
+c>Bc>d e>fg>B | c>Ad>d G/(G/GG2) :|\
+b>ab>c' a>ga>f | gfga f2f2 |
+g>fg>e ^d>BB>f | g>ee^d e2e2 |]|\
+E>FG>A B>cd>e | c>BA>d B>AG2 |\
+B>AB>c d>ef>g | abeg fe"Da Capo"d2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 128
+T: Duke of York's Favourite
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.50 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: Incorrect keysig (2 sharps) corrected.
+M: 2/4
+L: 1/16
+K: G
+|:\
+(GABc) (dBce) | d2B2 G4 | (FGAB) (cABG) | A2F2 D4 |\
+(GABc) (dBce) | d2g2 b4 | (abag) (defd) | g2g2 g4 :|
+|:\
+(gf).g.d B2B2 | (dc).d.B G2G2 | (FGAB) (cABG) | A2d2 D4 |\
+(gf).g.d B2B2 | (dc).d.B G2G2 | (cdef) (gefc) | (dcde) (ec"Da Capo"BA) |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 129
+T: Lady Ann Hope's Favourite
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.51 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: The ornament at the start of bar 11 is a bit odd.
+M: C
+L: 1/16
+K: G
+ge |\
+Td3B G2Bc (dc)BA G2Bc | d3Bg3B A4 A2Bc |\
+d3BG2B2 d2ga b3a | g3ed2B2 TG4 G2 :|
+|: a2 |\
+(ga)ba Tg2d2 (ef)gf e2dB | d2ef (ge)dc A4 A2a2 |\
+gaba Tg2d2 efgf e2dB | Td2ef (ge)dB d4 d3a |
+(ga)ba g3d efgf e2dB | d2(e/g/)(f/a/) gedB A4 A2ge |\
+"^#~"d3BG2B2 d2ga b3a | g2e2d2B2 G4 TG2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 130
+T: Hilton Lodge
+%R: reel, hornpipe
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.51 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+f/g/ |\
+a<da>f geTef/g/ | ada>f d>faf |\
+g>ef>d eE-E.F | D>Fd>F A2A :| F |\
+DFdF GEE.F | D>FdF A>dFd |
+A<dF<d eE-E.F | D>FdF A2AF |\
+D>FdF GEEF | D>Fd>F A<dF<d |\
+GeFd Ee-ef/g/ | fdec d2d |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 131
+T: Hoddom Castle
+%R: jig, waltz
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.51 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A |\
+d2d Td>ef | g2e/d/ cBA | d>ed (df).a | a>ba gTfe |\
+(fd).d (dB).B | (ge).e (ec).c | Td>ef edc | ddd d2 :|
+|: Tf/g/ |\
+(af).f (fd).d | (ge).e (ec).c | Td>ef ee/f/e/d/ | cAA ABc |\
+ddd Bee | (cf).f (dg).g | egg fed |[1 eAc d/c/d/e/ :|[2 eAc d2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 132
+T: The Caledonian Hunt's Delight.     Irish
+%R: jig
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.52 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D |\
+G3 TA3 | B>cB TAGA | B>AG GED | D>EG A>cB/A/ |\
+G3 TA3 | B>cB TAGA | BAG GED | DEG G2 :|
+|: B/c/ |\
+d2e dcB | d2e dBG | dBG dBG | e>dB A>cB/A/ |\
+G3 TA3 | B>cB TAGA | BAG GED | DEG G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 133
+T: Miss Rabina Boswell's Reel
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.52 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D |\
+G2Gd BGdB | gd e/d/c/B/ cAAd |\
+BG GF/G/ DGBd | cAdc BGG :|\
+|: d |\
+gbdg egdg | cgBg Aaac' |
+bgdg egfa | gedc BGGd |\
+gbdg cgBg | dgbg fac'a |\
+bgdg ec'ba | gedc BGG :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 134
+T: Lady Grace Douglas's Reel
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.52 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Bar 2 has odd beaming.
+M: C|
+L: 1/8
+K: D
+b |\
+a2fd e2cA | d2 AFGE Eb |\
+a2fd e2cA | dA BG FDD :|\
+|: G |\
+F/G/A Ad BdAd | GdFd eEEG |
+F/G/A Ad BdAd | FAdA FDDG |\
+F/G/A Ad BdAd | GdFd eEEG |\
+FAdf eAdb | afeg fdd :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 135
+T: Miss Willy Alexander
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.53 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C|
+L: 1/8
+K: G
+G |\
+D>GGA B>A BA/G/ | d>ed>B A>GA>B |\
+DGGA B>A BA/G/ | d>edB A/G/A/B/ G :|\
+|: B/c/ |\
+d>eTdB gdBG | d>edB TAGAB |
+dedB gdBG | A>GAB G>G GB/c/ |\
+d>edB gdBG | d>edB A>GAB |\
+d>edB gfed | cBAB G>GG |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 136
+T: Miss Hamilton of Bangowre's Strathspey
+%R: strathspey
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.53 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C|
+L: 1/8
+K: G
+B/c/ |\
+d>edB d>edc | B>dgB B>A AB/c/ |\
+d>ed>c B>dg>b | g>ed>c BGG :||: d |\
+B>dg>b g>bg>d | e>gd>B c>AA>c |
+B>dg>b g>bgd  | e>g dc BGGd |\
+B>dg>b B>dg>b | dgab aA AB/c/ |\
+de de/f/ gaba | g>ed>c BGG |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 137
+T: Miss Graham of Inchbrakie's Strathspey
+%R: strathspey
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.53 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: D
+A |\
+d>e {de}f>e dB AF | DA dc/d/ eE EA |\
+d>ef>e dB AF | AABc d2d :: f/g/ |\
+a>b ag/f/ d'afd | gb/g/ fa/f/ Te>def |
+ab ag/f/ d'afd | g>ef>c d2df |\
+ab ag/f/ d'afd | g/b/a/g/ f/a/g/f/ e>def |\
+A>df>e d>BAF | A<AB>c d2d |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 138
+T: Lady Cunningham's Strathspey
+%R: strathspey
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.54 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/16
+K: D
+fe |\
+d2D2 D3F A3B A2f2 | e3f gfed c2e2 e2fe |\
+d2D2 D3A A2B2 A2g2 | {g}f3a {g}f2ed A2d2d2 :|
+|: fg |\
+a3ba2f2 d'2c'2b2a2 | g2ab afed c2e2 e2fg |\
+a3ba2d2 d'2c'2b2a2 | b2c'd' afed A2d2 d2 ||
+f>g |\
+.a2.f2.d2d'2 .b2.g2.e2e'2 | {g}fefd' afed c2e2 e2f>g |\
+{fg}.a2.g2.f2.e2 .d2.c2.B2.A2 | B/c/d3 A3F D2d2d2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 139
+T: Mrs McReady's Strathspey
+%R: strathspey, reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.54 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+g |\
+dBBG AGAB | d>BBg f2e>.g |\
+dBBG AGAB | dD F/E/D/E/ G2G :|\
+|: d |\
+g>abb c'b b/a/g/e/ | g>abb c'2ba |
+g>abb c'b ab/c'/ | d'de>f g2g>d |\
+g>abb c'b b/a/g/e/ | g>abb c'2bc' |\
+d'>bc'>a b>g g/f/e/f/ | g>d e/d/B/d/ e2e |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 140
+T: Mrs Clark's Strathspey
+%R: strathspey, reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.54 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: D
+f |\
+d/d/d dA FDDF | AcFd Eeef |\
+gefd d/c/B/A/ dA | B/B/B de fdd :||: f |\
+d/d/d ad bdad | ge fd ceef |
+gefd d/c/B/A/ dA | B/B/B de fddf |\
+d/d/d ad bdad | gefd cddf |\
+gece dAFA | BGEg fdd |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 141
+T: Mrs John Stirling's Jig
+%R: jig
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.55 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 6/8
+L: 1/8
+K: D
+A |\
+ded def | ecA A2A | BdB AFD | FEE E2A |\
+d>ed def | ecA a2g | fed Adc | ddd d2 :|
+|: fg |\
+aba afd | bc'b bc'd' | aba afd | fee efg |\
+aba afd | bc'b bc'd' | afd e>de | fdd d2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 142
+T: Miss Isabella Murdoch's Reel
+%R: strathspey, reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.55 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C|
+L: 1/8
+K: D
+G |\
+F<DF>A d>AB>G | F>Ad>f e>E E>G |\
+F<DF>A d>AB>G | E>ege fdd :|\
+|: a/g/ |\
+f>ad>a b>df>d | g>ef>d Be ea/g/ |
+f>ad>a b>da>d | g>ea>g fdd a/g/ |\
+f>ad>a b>da>d | g>ef>d Bee a/g/ |\
+f>ag>b a>df>d | B>eg>e fdd |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 143
+T: Miss Campbell of Monzie's Strathspey
+%R: strathspey
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.55 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: D
+d |\
+A<AA>F A2d>e | {de}f2ed eE EA |\
+FAAd B2b>a | f>ae>f dDD :||: f |\
+a>ba>f g>ag>e | fg/a/df eAAd |
+B<BB>A B2b>a | f>ae>f dDDf |\
+a>ba>f g>ag>e | f/g/a d<f e>AA>d |\
+B>AB>c B>ba>g | f<ae<f dDD |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 144
+T: Mrs Menzies of Culdare's Strathspey
+%R: strathspey
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.56 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+fe |\
+d2A2 BAGF d2A2d2f2 | d2Ad BAGF {F2}E4 E2fe |\
+d2A2 BAGF A3Bd3b | a2f2e3f d4-d2 |] bc' |\
+d'3ab3d' a2f2d2f2 | e2d2f2d2 B4 B2bc' |
+d'3ab3d' a3fd2f2 | Te3de2f2 d4d2bc' |\
+d'3ab3d' a2f2d2f2 | e2d2f2d2 B4-B3d |\
+A3Bd2e2 d3e d2d'b | a2f2e2f2 d4-d2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 145
+T: Lord Spencer's Strathspey
+%R: strathspey
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.56 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: D
+f |\
+d>A F/A/F/A/ dAFf | d>A B/A/G/F/ {F2}E2Ef |\
+dA F/A/F/A/ dBAF | GEAF D2D :|\
+|: c |\
+d2fa gece | fd gf {f}e2e>c |
+d2fa gfed | Agfe {e}d2d>A |\
+d2fa gece | fdgf {f}e2e>c |\
+dB AF A>Bd>B | AFGE D2D |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 146
+T: Sir John Stewart of Grantully's Strathspey
+%R: strathspey, reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.56 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/16
+K: G
+d2 |\
+B2G2G2d2 BcdB G2d2 | g2d2 BcdB c2A2A2d2 |\
+B2g2-g2d2 BcdB G2d2 | g4 bagf g2G2G2 :|\
+|: d2 |\
+g4 bagf g2e2f2d2 | fga2 gab2 a2e2e3f |
+g4 bag2 a2e2f2d2 | g2e2d3c B2G2-G3d |\
+g4 bagf g2e2f2d2 | fga2 gab2 a2e2e3f |\
+bag2 age2 ged2 edc2 | BcdB ABcA B2G2G2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 147
+T: Miss Drysdale's Favorite
+%R: reel, march
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.57 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+a/g/ |\
+faea fdd f/e/ | dfad' c'aa a/g/ |\
+faea fdd d'/c'/ | be'c'a d'dd :|
+|: A/G/ |\
+FAAB/A/ FAAB/A/ | BGAF GEEA/G/ |\
+FAAB/A/ FAAB/A/ | BdcA dDD :|
+|: a/c'/ |\
+d'aab/a/ d'aab/a/ | bgaf gee d'/c'/ |\
+bd'ad' gd'fd' | ee'c'a d'dd :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 148
+T: The Highland Fair
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.57 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+d |\
+A2A>B Acde | gfed cdeg |\
+fdad f2ed | cdeg fdd :|
+|: b |\
+adfe/d/ .adfe/d/ | affd ceeb |\
+adfd adfe/d/ | c>deg fdd :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 149
+T: Dutchess Slipper
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.57 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: G
+|:\
+DGBG D<GB<G | DGBG E<ATA2 |\
+DGBG dGB<g | {e}d>cBA G<GTG2 :|\
+|:\
+d<gTg2 dgbg | agbg eaTa2 |
+d<gTg2 dgbg | agbg eaTa2 |\
+d<gTg2 dgbg | agbg eaa2 |\
+g<be<g d<gB<g | {e}d>cBA G<GG2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 150
+T: Lord Alex.r Gordon's Reel
+T: Lord Alexander Gordon's Reel
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.58 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The first bar line is placed incorrectly; fixed to match similar measures later.
+N: Added '3' to a few unmarked triplets. Added missing beam to the 2nd count of bar 13.
+M: C|
+L: 1/8
+K: D
+|:\
+Dd-df/g/ adf2 | aa b/a/g/f/ ge-ef |\
+Dd-df/g/ adfa | (3(bc'd') (3(abg) fdd2 |\
+Dd-df/g/ adTf2 |
+aa b/a/g/f/ ge-ef |\
+Dd-df/g/ adfa | b/c'/d'/c'/ d'/b/a/g/ fdd2 :|\
+|:\
+FA-AB/c/ dAd2 | Be-ef gfed |
+(3(fga) (3(bc'd') b>agf | (3(efg) (3(abg) fdd2 |\
+FA AB/c/ dAd2 | Be-ef gfed |\
+(3(fga) (3(bc'd') (3(bag) (3(fed) | (3efg (3abg fdd2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 151
+T: Charles Street Bath
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.58 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|:\
+gfgf gdBd | efgf Te2d2 |\
+gdBd ecAc | BdDF G2G2 :|\
+|:\
+DAFA DBGB | DABc TB2A2 |\
+gdBd ecAc | BdDF G2G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 152
+T: Lady Charlotte Campbell's Strathspey
+%R: strathspey
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.58 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: G
+c |\
+d>cBG AcTB>c | d>cBG EAFD |\
+{Bc}d>cBG Ac Bc/d/ | ecAF G2G :|\
+|: d |\
+g/f/g/a/ gd Bgdg | {a}gf/e/ Tf>g aAAf |
+(g/f/g/a/) gd BgdB | e>cAF {F}G2zd |\
+(g/f/g/a/) gd Bgdg | {a}gf/e/ Tf>g aAAf |\
+gdbf gdec | BdDF ["or" G/F/G/A/ B/A/B/c/ ["or" TGA Bc |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 153
+T: Mrs Leitch's Strathspey
+%R: strathspey, reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.59 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A>B !segno!|:\
+A<FA>B A<FA>B | A<F D>f e>dBd |\
+A>FA>B Acdg | faBg Ac dc/B/ |\
+A>FA>B A<FA>B |
+A<F D>f e>dBd |\
+A<FA>B Acdg | faBg AcHd |] f/g/ |\
+afdf afbf | g>b g/f/e/d/ ce-ef/g/ |\
+afdf afc'f |
+gbeg Ad-df/g/ |\
+afdf afbf | g>b g/f/e/d/ ce-eg |\
+faBd cefg | fbeg Ac e/d/c/B/ !segno!:|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 154
+T: Stumpie Strathspey
+%R: strathspey, reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.59 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+G |\
+Bdg2 a/g/f/e/ g2 | Bdg2 aAAc |\
+Bdg2 a/g/f/e/ g2 | BdAc BG-G :|
+|: c |\
+Bd-dc/B/ ce-ed/c/ | Bd-dc/B/ eA-Ac |\
+Bd-dc/B/ ce-ed/c/ | BgBc BG-G :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 155
+T: The Little Nabob
+%R: march, reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.59 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 2/4
+L: 1/8
+K: D
+|:\
+aaff | d2d2 | bc'd'b | b2a2 |\
+aaff | d2df | edef | d2d2 :|\
+|:\
+edef | g2e2 | f>efg | a2f2 |\
+d'd'a2 | bbg2 | fedc | d2d2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 156
+T: Miss Matilda Lockhart's Reel
+%R: hornpipe, strathspey, reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.60 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: D
+AG |\
+F3DA3D B3D A3d | F3DA3D G2E2E2A2 |\
+F3DA3D B3D A3d |[1 FGA2 E3G F2D2D2 :|[2 fga e2g2 f2d2d2 |]
+f2 |\
+defg a3d b3da3d | f3da3d g2e2e2f2 |\
+defg a2d2 b3da3d | g3ba3g f2d2d2 ||
+f2 |\
+defg a3d b3da3d | f3d a3d e2f2g2e2 |\
+d3fB3d A3dF3d | G3eE2g2 f2d2d2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 157
+T: The Isle of Skie
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.60 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+c |\
+dAFA dAFA | GEEd eBBc | dAFA dAFA | GEEA FDDc | dA F/G/A/F/ dA F/G/A/F/ |
+GEEd eBBc | dA F/G/A/F/ dA F/G/A/F/ | GE F/G/A/G/ FDD |] a | adab afdf | edef eBBa |
+adad' afdf | e>d eg d2-da | ad a/d'/c'/b/ afdf | e>def eBBa | adbd c'dd'd | d'daf d/d/d d |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 158
+T: Mrs Forbes of Shiver's Fancy
+%R: march, reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.60 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+d |\
+d2Af | d2AA | BB cB/c/ | d2AA |\
+d2Af | d2AA | BB cB/c/ | d2 z :|
+a |\
+agfe | dddd | eeef | e3a |\
+agfe | ddde | fef^g | "_D.Ca."a3 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 159
+T: The Dutch Trot
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.61 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+FG |\
+AF3G3B A2F2 d2A2 | G2BA GFED F2E2-E2 FG |\
+AF3G3B A2F2 d2F2 | G2AB ABAG F2D2-D2 ||
+FG |\
+AF3G3B A2F2 d2A2 | G2BA GFED F2E2-E2 FG |\
+AGFA GABG ABcA d3f | gabg abag f2d2d2 |]
+fg |\
+a2f2d2ef g2e2f2d2 | g2ba gfed c2e2-e2 fg |\
+a2f2d2ef g2e2f2d2 | g2ab abag f2d2-d2 ||
+fg |\
+a2f2d2ef g2e2f2d2 | g2ba gfed c2e2-e2 fg |\
+agfe fedc dcBA BAGF | GABG ABAG F2D2-D2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 160
+T: British Boys
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.61 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+[|\
+Dd3 fedc d2A2F2A2 | G2BG G2F2G2E2 E3F |\
+Dd3 fedc d2A2F2A2 | G2AB ABAG F2D2D4 |\
+Dd3 fedc d2A2F2A2 |
+G2BA G2F2G2E2 E3F |\
+D2EF GABc defg a3f | g2ab abag f2d2- d4 |]\
+a2f2g2ab a2f2d2ef | g2e2f2d2 c2e2A2fg |\
+a2f2g2ab
+a2f2d2ef | g2e2B2c2 d2A2 D2fg |\
+a2f2g2ab a2f2d2ef | gfge fefd cdec A2fg |\
+a2f2g2ab a2f2d'3f | g2ab abag f2d2-d2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 161
+T: Mrs McLeod of Elanreoch's Strathspey
+%R: strathspey
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.62 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+A2 |\
+d3gTf2e2 d3BA2d2 | BF3dF3 B2E2E2c2 |\
+Td3ef2d2 fa3ef3 | dcBA d2F2 DDD2 D2 :|\
+(d/c/B) |\
+AD3AF3 A2D2D2d2 | BABc d2F2 B2E2E2d2 |
+AD3AF3 A2D2D2d2 | BABc d2F2 DDD2 D2d2 |\
+AD3AF3 A2D2D2d2 | BABc d2F2 B2E2E2d2 |\
+AD3AF3 DEFG A2g2 | f3de2f2 ddd2 d2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 162
+T: Mr Drummond Younger of Perth's Strathspey
+%R: strathspey
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.62 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: G
+B |\
+G<Gd>B d>ed>B | G<GTd>B e>AA>B |\
+G<Gd>B d>eg<b | g>ed>g BGG :|\
+|: e/f/ |\
+gdg>a b>ga>b | g<dg>b adfa |
+gdg>a b>gab | Tg>ed>c BGGe/f/ |\
+gdg>a b>ga>b | gdg>b a>dfa |\
+g>ba>f g>dTc>B | Agfa gG G |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 163
+T: Mrs Morthland's Reel
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.62 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C|
+L: 1/8
+K: C
+g |\
+{f}e2dc GBce | fdec fdec |\
+e2dc GAce | egde c/c/c c :: f |\
+ecce fddf | ecgc (B/c/d) BG |
+ecce fddf | ecdB Tc2cf |\
+ecce fddf | ecgc (B/c/d) BG |\
+ecce fdgf | ecdB c2c |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 164
+T: The Lakes Kellarnie
+%R: jig
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.63 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Added a couple of missing (or lost) dots after notes.
+M: 6/8
+L: 1/8
+K: D
+d/e/ !segno!|\
+.f.d.d .e.d.d | afb afd' | bee Te>fg/a/ | bge Te2d/e/ |\
+.f.d.d Tedd | afd' Hd'2c'/b/ | a(g/f/)e/d/ afd | TBAd Hd2 :|
+f/g/ |\
+(a/b/)a/f/d' (a/b/)a/f/d' | c'ee Te>fg/e/ |\
+(a/b/)a/f/d'2 (a/b/)a/f/d'2 | TBAd Td2(f/g/) |\
+(af).d (af).d | abb Tb>c'd' |
+(af).d (af).d | gee Te2(f/g/) |\
+(af).d (af).d | abc' Hd'2c'/b/ |\
+afd afd | e(e/f/)g/e/ Hb2a/g/ !segno!|]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 165
+T: Miss Margaret Brown's Favourite
+%R: jig
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.63 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Dropped a few dots after notes in the first strain; added a few dots and flags in the 2nd strain, to fix the rhythm.
+M: 6/8
+L: 1/8
+K: G
+g |\
+dBG G>AB | E2E TE2c | AFD DEF | G2G TG2g |\
+dBG TB>cd | E2E E2c | AFD DEF | TG3 G2 :|
+g/a/ |\
+bgb afd | efg g>fe | dBg dBG | AFD D2g/a/ |\
+bgb afd | efg gfe | (fa).f (ge).^c | d2d Tde=f |
+(ec).e (dB).d | (ca).c (Bg).B | Ace dBG | FAF DEF |\
+TG>AB EFG | ABc def | (gd).B (cA).F | G3 G2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 166
+T: Kempshot Hunt
+%R: march
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.64 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+e |\
+d2Bd | BA/G/ B(d |\
+B)d (c/B/)A/G/ | cAAe |\
+d2Bd | BA/G/ Bd |\
+Bdce | dGG :|\
+|: A |\
+(3(GAG) (.d.B) | e>cd>B |\
+(3(GAG) (.d.B) | cAA>B |
+(3(GAG) (.d.B) | ecdc |\
+Bdce | dGG :|\
+|: d |\
+g2dB | g2dB |\
+g2dB | cAAf |\
+g2dB | g2dB |\
+Bdce | dGG :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 167
+T: Dunse Dings a
+%R: march
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.64 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+|:\
+ce- ef/g/ aecA | ce-eg a3e |\
+ce- ef/g/ aecA | B=G-GB g2gB :|\
+(c/B/A) eA fAeA | (c/B/A) ec a2-ae |
+(c/B/A) ec fdec | B=GGB g2-gB |\
+(c/B/A) ec fded | (c/B/A) ec a2-ae |\
+(c/B/A) ec ede=c | B=G-GB g2gB |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 168
+T: Sir John Scott's Favourite     Irish
+%R: slip-jig
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.64 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Several spurious dots ignored.
+M: 9/8
+L: 1/8
+K: G
+A |\
+(G/A/B)G A>GE EDE | (G/A/B)G AGE c2e |\
+dBG AGE EDE | (G/A/B)G A>GE G2 :| e |\
+dBG G>AG (e/f/g)e | dBG GBG TA2e |
+dBG G>AG (e/f/g)e | dBG TA>GE G2e |\
+dBG GBG Te>fg | dBG GBG A2e |\
+dBG dBG (e/f/g)e | dBG A>GE G2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 169
+T: Cameron has got his Wife again,    Strathspey
+%R: strathspey
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.65 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+B |\
+d>B AF A/A/A AB | d>B AF E/E/E Ec |\
+d>B AF Agf>e | dB AF D/D/D D :|\
+g |\
+f<df<a e<gTf>e | fdfa B/B/B Bf |
+(d/e/f/g/) af e>def | dBAF D/D/D Dg |\
+f<df<a e<gTf>e | f<df<a B/B/B B>g |\
+f<da<f e<gf>e | dBAF D/D/D D |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 170
+T: Mr Bushby Maitland's     Reel
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.65 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A |\
+FDAF d2TdA | d2Tdf eEEA |\
+[1 FDAF d2dB | cdeg fdd :|\
+[2 FDAF dABG | FAdg fdTd |] g |\
+Tf>ede fgaf |
+gfed cAeg |\
+Tfede fgaf | ecdB Addg |\
+fdfg fgaf | Tg>fed cAeg |\
+fdgb afge | fdec dDD |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 171
+T: Mrs Muir of Caldwall's     Strathspey
+%R: strathspey
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.65 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: This tune is 17 bars long; the 2nd strain has 9 bars. The repeated bar 5,6 is just one bar in other versions.
+M: C|
+L: 1/8
+K: D
+d |\
+AFA>B A>B dF | AFA>B A3B |\
+AFAB A>B dF | EETFA TB2B :|\
+g |\
+f<de>c Td>A FD | f<de>c Td>A FD |
+f<de>c Td3g |\
+f>de>c dAFD | EEFA B2Bg |\
+fdec Td>A FD | f<de<c d3g |\
+f<ae<f Td>A FD | E<EF>A B2B |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 172
+T: Miss J Somervell's Favourite Strathspey
+%R: strathspey
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.66 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|:\
+G<GG>B A>GA<B | G<GG>B d>e g2 |\
+G<GG>B A>GAB | e>dB<e efg2 :|\
+de/f/ge a>gf<d |
+e>fg<e afg2 |\
+[1 de/f/ge Ta>gf<d | e>dB<d e<fg2 :|\
+[2 de/f/gb a>gf>d e>dB<d e<fg>b |]

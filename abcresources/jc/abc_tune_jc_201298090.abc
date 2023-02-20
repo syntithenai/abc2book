@@ -1,0 +1,29 @@
+X: 1
+T: Kuuliaiset Kottilassa
+R: polka, shottish
+O: Trad Finland
+K:
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Kuuliaiset Kottilassa    [A]
+R: polka, shottish
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+[| "A"A,2CC C2E2 | E2A2 A4 | ccAA BBA2 | "D"G2F2 F4 \
+| "Bm"FDB,D FDB,D | F2F2 F2FF | "E7"G2EE GFED | "A"C2A,2 A,4 |
+| "A"A,2CC C2E2 | E2A2 AABB | c2AA B2A2 | "D"G2F2 F3F \
+|: "Bm(D)"F2dd ccBB | "A"AAcc BBAA | "E7"G2EE F2GG | "A"A2A2 A2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Kuuliaiset Kottilassa    [D]
+R: polka, shottish
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+[| "D"D2FF F2A2 | A2d2 d4 | ffdd e2d2 | "G"c2B2 B4 \
+| "Em"BGEG BGEG | B2B2 B2BB | "A7"c2AA cBAG | "D"F2D2 D4 |
+| "D"D2FF F2A2 | A2d2 d2ee | f2dd e2d2 | "G"c2B2 B4 \
+|: "Em(G)"B2gg ffee | "D"ddff eedd | "A7"c2AA B2cc |1 "D"d2"A"e2 "D"f4 :|2 "D"d2d2 d4 :|

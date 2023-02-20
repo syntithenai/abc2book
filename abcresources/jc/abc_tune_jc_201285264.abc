@@ -1,0 +1,27 @@
+X: 1
+T: Hay to Couper
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (101)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A, |\
+D>ED F2G | A2d AFD | G2d F2d | EFD CB,A, |\
+D>ED F2G | A2d AFD | FdF Edc | d3 D2 :|
+|: A |\
+ded Tf2g | aba fed | BcB Tc2d | e>fe/d/ cBA |\
+ded Tf2g | a2g fed | (B/c/d)B (c/d/e)c | d3 D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice
+%%begintext align
+%% The 1st Cu. go the whole Figure thro the 3d Cu. .|
+%% The 2d Cu. do the same :| The 1st Cu. figure contrary
+%% Sides meet in the Middle and turn Partners quite
+%% round .| Lead to the Wall Sides the 1st Cu. slip the
+%% 2d Cu. below them set two Steps and cast off :|
+%%endtext
+%%sep 1 8 500

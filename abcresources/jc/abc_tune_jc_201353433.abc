@@ -1,0 +1,26 @@
+X:1
+T: The Wives' Victory
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:Am
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 38 notes)
+K:Am
+M:6/8
+L:1/16
+e2 |a3 ^g a2 b3 a b2 c'3 b a2 g3 f e2 a4 e2 d3 e c2 B6B4 c d |e4 z2 B4 z2 c4 z2 g4 z2 d3 e f2 d4 c2 c6c4 e2 |
+%W: A2
+% voice 1 (1 lines, 38 notes)
+a3 ^g a2 b3 a b2 c'3 b a2 g3 f e2 a4 e2 d3 e c2 B6B4 c d |e4 z2 B4 z2 c4 z2 g4 z2 d3 e f2 d4 c2 c6c4 e f |
+%W: B1
+% voice 1 (1 lines, 39 notes)
+g3 a g2 c3 d e2 f3 e d2 e3 ^f g2 ^f3 ^g a2 b4 c'2 ^g6g4 e d |c4 z2 f4 z2 B4 z2 e4 z2 A3 B c2 c3 B A2 A6A4 e f |
+%W: B2
+% voice 1 (1 lines, 37 notes)
+g3 a g2 c3 d e2 f3 e d2 e3 ^f g2 ^f3 ^g a2 b4 c'2 ^g6g4 e d |c4 z2 f4 z2 B4 z2 e4 z2 A3 B c2 c3 B A2 A6A4 ||

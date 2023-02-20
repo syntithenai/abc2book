@@ -1,0 +1,28 @@
+X: 1
+T: Grange Court
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (137)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/8
+L: 1/8
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f |\
+geg fBe | cAd BGc |\
+AFB GEc | Bef ^d2 :: f |\
+geg fdf | gdc BdG |
+gef Bgf | d>^cB B2^d |\
+eBe cAc | dAc BGF |\
+EGc Beg | Be^d e2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% Lead to the Wall and back again .| Lead thro and cast
+%% up :| The 1st Man change Place with the 2d Wo. then
+%% the 1st Wo. with the 2d Man Hands half round and
+%% cast off .| The two Men lead thro the two We. then
+%% the two We. lead thro the two Men :|
+%%endtext
+%%sep 1 8 500

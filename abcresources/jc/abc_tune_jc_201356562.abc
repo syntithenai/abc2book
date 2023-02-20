@@ -1,0 +1,38 @@
+HTTP/1.1 200 OK
+Date: Tue, 03 Feb 2009 22:40:15 GMT
+Server: Apache/2.2.4 (Ubuntu)
+Last-Modified: Mon, 08 Jan 2007 00:20:40 GMT
+ETag: "6a40f3-304-663e4600"
+Accept-Ranges: bytes
+Content-Length: 772
+Connection: close
+Content-Type: text/plain
+
+%%scale 1.2
+X: 1
+T: the Ceilidh Umbrella
+C: Muriel A. Johnstone
+R: strathspey
+%%staffsep 50.0pt
+B: RSCDS 35-5
+M: C
+L: 1/8
+F:http://jc.tzo.net/~jc/music/abc/Scotland/by/Muriel.Johnstone/CeilidhUmbrellaS.abc	 2007-01-08 00:19:14 UT
+K: Bb
+F2 \
+| "Bb"D<F B>d "Cm"c>B "F7"c<d \
+| "Bb"B>F DF B,D F,B, \
+| "Eb"G,>B, E<G "Bb"F<D F>B \
+| "D7"A<D d>c "Gm"B2 ((3Bcd) |
+| "Cm"((3edc) "Bb"d>B "Eb"c>B G<B \
+| "Bb"F<D B<D "F"C>B, "D7"C<D \
+| "Gm"B,2 B>A "Eb"G2 ((3gfe) \
+| "F7"d<b d>c "Bb"B2 "Bb7"((3Bcd) ||
+|| "Cm"e2 c>e "F7"A<F f>e \
+| "Bb"d>c ((3Bcd) "Eb"G<E e>d \
+| "Adim"c>B ((3ABc) "D7"^F<D d>c \
+| "Gm"((3BAG) "Eb"((3gfe) "F7"d>c A<F |
+| "Bb"D<F B>d "Cm"c>B "F7"c<d \
+| "Bb"B>F DF B,D F,_A, \
+| "Eb"G,>B, E<G "Bb"F<D ((3gfe) \
+| "F7"d<b d>c "Bb"B2 |]

@@ -1,0 +1,29 @@
+X: 1
+T: the Frolick
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.278
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the dance instructions.  The 2nd strain has 13 bars.
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+G2 (BA) (cB) (AG) | (^FG) A2 D4 | G4 A3 (G/A/) | B6 :: Bc |\
+d2 B2 G2 d2 | B3 A G2 Bc | d2 B2 G2 d2 | B3 A G2 (AB) |
+(cB) (AG) (^FG) A2 | D2 G4 A2 | B2 d4 g2 | b2 (ag) f2 d2 |\
+B3 A G2 (ga) | b2 (ag) f2 d2 | B3 A G2 (AB) | (cB) (AG) (^FG) (A^F) | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%    The 1st man arms round with the 2d. woman and come in his own place, the 2d. man does the
+%% same with the 1st. woman, This to the first Strain twice.
+%%    The 1st. man crosses with the 1. woman and goes below the 2d. couple, and goes the half Figure,
+%% the 1st. man and 1. woman take both hands and slides up and down and up again the middle of the
+%% 2d. couple and cast off, the 2d. man and 2d. woman cross over and go the half Figure with the 1st.
+%% couple, take both hands and slide up and down, and cast off in the 1st couple place. This to the second
+%% Strain played twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

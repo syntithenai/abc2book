@@ -1,0 +1,20 @@
+X: 1
+T: Source of Spey
+T: Mathair Spe
+C: Lachlan MacPherson
+B: Skye p.100 (1887)
+B: Kerr (Merry Melodies), V.3; p.9 #65
+B: Neil, p.166 #127 (1991)
+B: Athole, p.169 (1884)
+B: Fraser, The Airs and Melodies Peculiar to the Highlands of Scotland and the Isles, p.26 #72 (1816, 1874)
+R: strathspey
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Em
+"A"[|] B \
+| "Em"G<E E>F G>A B<e | "G"d<B B>A G>A B<e | "Em"G<E E>F G>A B<e | "E7"d<B B>^G "Am"A2 A :|
+"B1"[|] B \
+| "Em"e>f g>e d>e B<e | "G"d<B g>e d>e B<g | "Em"e>f g>e d<e B<g | "E7"d<B B>^G "Am"A2 A |]
+"B2"[|] B \
+| "Em"e>f g>e d>e B<e | "G"d<B g>e d>e B<g | "Em"e<B g<B "B7"a<B b>a | "Em"g>e "(E7)"d>B "Am"A2 A |]

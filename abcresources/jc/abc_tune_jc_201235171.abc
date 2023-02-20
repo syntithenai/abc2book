@@ -1,0 +1,21 @@
+X: 21011
+T: LORD BEECHAN
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.101 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+dd {c}d2 AB | cd {c}B2 AB | dd d2 Af | gf e2 fg |\
+af g2 fe | dd d2 {c}AB | =cB {F}G2 A^c | dd d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Old ballad air taken down from the singing of an old man
+%% in the Rottenrow, Glasgow, by the Editor of the U. T. B.
+%%endtext
+%%sep 1 1 300

@@ -1,0 +1,44 @@
+X: 1
+T: Northern Nancy
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.110 #162 (220)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.83
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: "Scots Air" handwritten after title in DMDfD.
+M: 6/4
+L: 1/4
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D | G>AG ^F2G | A2B cBA | B>cd ^F2B | A3 G2 |][|\
+d | f>ed c>BA | B2c d2A | B>cd ^F2B | A3 G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up all forward and back; the 1st Man and 2d Wo. go
+%% Back to Back, and fall into their own Places, the 1st Wo. and 2d
+%% Man do as much :| The 2d Man take Hands and turn once and
+%% an half, and the 2d Wo. as much at the same Time, then turn
+%% your own.  Do this to the last.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1st Man and Wo. cross over into the 2d Place, then cross
+%% over into the 3d Place :| Lead up the Middle to the Top, and cast
+%% off into the 2d Place, then take Hands and turn round. Do this
+%% Change to the last. [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% Lead up all forward and back, the 1. man and 2. wo. go back to back and fall into their own places,
+%% the 1. wo. and 2. man do as much :| The 2. man take hands and turn once and a half, and the 2.
+%% wo. as much at the same time, then turn your own.  Do this to the last.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. man and wo. cross over into the 2. place, then cross over into the 3. place. :| Then lead up
+%% the middle to the top and cast off into the second place, then take hands and turn round. Do this
+%% Change to the last. [DMDfD]
+%%endtext
+%%sep 1 8 500

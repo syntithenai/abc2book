@@ -1,0 +1,63 @@
+X: 60
+T: Oh, Season of the Christmas Child
+N: Copyright, 1909, by Stanley R Avery  Used by permission
+C: words: Rev. James E. Freeman, D. D.
+C: music: Stanley R. Avery
+Q: "Moderato."
+%R: air, march
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/4
+K: G
+% %continueall
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+!mf!D | D B A G | F> E D D | D E/F/ G B | d3 d |
+w: 1.~Oh, sea-son of the Christ-mas child, We hail thee* with de-light;   The
+w: 2.~A-cross the plains in si-lence deep  There moved an* anx-ious band; The
+w: 3.~A light with-in the sta-ble burns,   And from His* bless-ed face    A
+w: 4.~Oh, night di-vine with ho-li-ness,   The world is* wait-ing still   To
+%
+d> e d B | A> B A F | E/F/ G F E | D3 D |
+w: star that shone o'er Beth-le-hem    Is mis-*tress of the night.    The
+w: star that shines a-bove them bright Is like* a beck-'ning hand.    These
+w: peace di-vine shed o-ver all        Makes ra-*diant all the place. The
+w: catch the beau-ty of that Life,     And do* His sov-'reign will.   Be-
+%
+A> ^G A ^A | B G D G/B/ | d d d e/c/ | B3 B |
+w: wait-ing shep-herds heard the song: "Good-*will and peace on* earth;" The
+w: wise men came from out the East,     With* gifts both rich and* rare, Be-
+w: gen-tle Ma-ry, moth-er sweet,        Be-*holds His slum-ber* mild,    While
+w: fore His hum-ble man-ger bed         We* bow where shep-herds* trod;  Give
+%
+B> B e B | c B A G | F> F G E | A3 |
+w: world it-self was hushed and still To greet the Sav-ior's birth.
+w: fore the man-ger bend-ing low,     They seek His love to share.
+w: Jo-seph, in His strong em-brace,   En-folds the Ho-ly Child.
+w: us to see Him face to face,        The bless-ed Son of God.
+%
+"^Chorus."D | D B A G | F> E D D | D E/F/ G B | e3 |
+w: "Good-will and peace," the an-gels~ sang, And struck their* harps of gold;
+%
+d | c> B A B/c/ | B A G B/d/ | e d/c/ B A | G3 |]
+w: The Christ of Beth-le-*hem is here, By* proph-ets* long fore-told.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 brace=2 staves=2
+D | [DB,] [BB,] [AB,] [GB,] | [FC]> E [DC2] D | [DB,] [E/B,]F/ [GB,] [BGD] | [dC]> ^EF [dFD] |
+[dGD]> [eGE] [dGD] [BGD] | [AE^C]> [BEC] [AD] [FD] | [E/DB,]F/ [GDB,] [F^CA,] [ECG,] | [D3A,3F,3] D |
+[AF]> [^G^E] [AF] [^AF] | [BG] G D G/B/ | [dF] [d^E] [dF] [e/F]c/ | [B3G3] [BAD] |
+[B^GE]> [BGE] [eBE] [BGE] | [cAE] [B^GE] [AE] [=GE] | [FD]> [FD] [G^C] [EC] | [A3D3] |
+[DCA,] | [DB,] [BB,] [AB,] [GB,] | [FC]> E [DC] [DA,] | D [E/C]F/ [GB,] [BAD] | ([e^GE]> A B) |
+[d^GE] | [cAE]>[B^GE] [AE] [B/AE]c/ | [BF^D] [AFB,] [GEB,] [B/=F]d/ | [eE] [d/E]c/ [BG] [D/AFD]C/ | [G3E3B,3] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+d | [dG2] d [dD2] d | [dA2] c [fD2] d | [dG2] d [dD2] d | [dA]> ^GA [c'c] |
+[bB] [c'c] [bB] [gG] | [gG]> [gG] [fF] [fB] | [gG] [eE] A [AA,] | [d3D3] d |
+[c'd]> [bd] [c'd] [c'd] | [bg] [bd] [bg] [bd] | [c'a] [b^g] [c'a] [c'd] | ([ed'g]> a g) [=f=F2] |
+[Ee]> [eE] [^g^G] [eE] | [aA] [bB] [c'c] [a^c] | [ad]> [ad] [ae] [ag] | [a3f3] |
+[dF] | [dG] [dD] [dG] [dD] | [dA] [dG] [dF] [fc] | [gB] [dA] [dG] [=f=F] | ([eE]> [^f^F] [^g^G]) |
+[eE] [aA]> [bB] [c'c] [fF] | [bB] [^d^D] [eE] [g=d] | [gc] [^g/c]a/ [bd] [dD] | [g3G3] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

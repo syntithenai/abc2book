@@ -1,0 +1,22 @@
+X: 1
+T:Mug of Brown Ale, The
+T:Jug of Brown Ale, The
+R:jig
+N:Played in Ador or Edor
+M:6/8
+L:1/8
+K:Ador
+eAA fAA|gfg age|dBA G2A|BAB dBd|!
+eAA fAA|gfg age|dBd gdB|BAG A2d:|!
+efg a2g|aba age|dBd g2d|gba ged|!
+efg a2g|aba age|dge dBG|BAG A2d:|!
+"Variations:"
+eAA fAA|~g3 age|dBA G2A|BAB dBd|!
+eAA fAA|gfg age|dBB gBB|ABA A2d:|!
+efg aba|age age|def g2d|gba ged|!
+efg aba|age age|dBB gBB|ABA A2d:|!
+K:Edor
+BEE cEE|dcd edB|AFE D2E|FEF AFA|!
+BEE cEE|dcd edB|AFA dAF|FED E2A:|!
+Bcd efe|efe edB|AFA d2A|dfe dBA|!
+Bcd ~e3|efe edB|AFF dFF|EFE E2A:|!

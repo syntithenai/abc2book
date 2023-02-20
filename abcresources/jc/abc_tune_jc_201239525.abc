@@ -1,0 +1,23 @@
+X: 3302
+T: the Parks of Fochabers.   a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.3 p.30 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - -
+V: 1 staves=2
+c |\
+(A/B/c) cf (a/g/f/e/) fd | cA dA BGGB |\
+(A/B/c) cf (a/g/f/e/) fd | c>AB>G F/F/F F :|
+|: !f!B |\
+(A/B/c) Fc dBfd | cA af gGG>B |\
+(A/B/c) Fc dBfd | c>AB>G F/F/F F :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | f2f2 c'2b2 | a2f2 e2c2 | f2f2 c'2b2 | c'2c2 f2F :|
+|: !f!z |\
+[f2F2][f2F2] [b2B2][b2B2] | [a2A2][f2F2] [c2C2][c2C2] |\
+[f2F2][f2F2] [b2B2][b2B2] | [c'2c2][c'2c2] [f2F2][fF] :|
+

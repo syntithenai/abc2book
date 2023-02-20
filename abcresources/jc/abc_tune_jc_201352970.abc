@@ -1,0 +1,22 @@
+X: 1
+T: the Willow Tree / Bobbing Joe
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+N: Morris Ring
+M: 6/8
+L: 1/8
+K: G
+P: A
+d |:\
+"G"G2A B2c | d2g gdB | "C"cBA "D7"d2A | "G"G2G "D7"FED |\
+"G"G2A B2c | d2g gdB | "C"cBA "D7"d2F | "G"G6 :|
+P: B
+FG |:\
+"D7"A2A AGA | "G"B3 G2D | "D7"A2A AGA | "G"B3 G2D |\
+"G"G2A B2c | d2g gdB | "C"cBA "D7"d2F | "G"G6 :|
+P: C
+cd |:\
+"C"e2A ABc | "G"d2G GAB | "D7"c2A "G"B2G | "D7"A2F DBc |\
+"G"dcB "D7"cBA | "G"BAG "D7"ABc | "G"dBG "D7"DAF | "G"G6 :|
+%%text (AABB) = The Willow Tree
+%%text (AACC) = Bobbing Joe

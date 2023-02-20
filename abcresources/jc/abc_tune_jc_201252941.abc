@@ -1,0 +1,43 @@
+X: 1
+T: Black Bess
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.91 #134 (182)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.196
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat added to match the dance instructions.
+N: The two dance descriptions are very similar except for spelling and punctuation, and also some minor rephrasing.
+M: 6/4
+L: 1/4
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+(AF)A c2f | (BG)d g2a | (bd)g (ec)f | f2e f2 :| a |\
+(af)d b2a | (ge)c g2a | (fd)g (ec)d | (=BG)=B c2_B |\
+AFA (cf)A | (BG)B (dg)a | (bd)g (ec)a | f2e f2 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1st Man cast off below the 2d Man then go Back to Back with the 1st
+%% Wo. and stand in the 2d Mans Place, the 1st Wo. cast off below the 2d
+%% Wo. and go Back to Back with the 1st Man, and stand in the 2d Wo. Place.
+%% This to the 1st Strain twice.
+%% Both Cu. Back to Back with their Partners, then right Hands and left
+%% With your own Partners, 'till you come into your own Places, the
+%% 1st Man change Places with the 2d Wo. and the 2d Man with the 1st Wo.
+%% then turn your own Partners to your own Sides.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%    The 1. man cast off below the 2. man, then go back to back with the 1. wo. and stand in the 2 man's
+%% Place; the 1. wo. cast off below the 2. wo. and go back to back with the 1. man, and stand in the 2 wo.
+%% place.  This to the first Strain twice.
+%%    Both cu. back to back with their Partners, then right and left-hands with your own Partners till you
+%% come into your own places; the 1. man change places with the 2. wo. and the 2. man with the 1. wo.
+%% then turn your own Partners to your own sides.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

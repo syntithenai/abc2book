@@ -1,0 +1,20 @@
+X: 72
+T: Chastushky
+O: Russia
+F: http://www.youtube.com/watch?v=LZLThr5y2Rg
+S: Alexandru David
+M: 2/4
+L: 1/8
+Q: 1/4=120
+K: Dmix
+%%MIDI program 24
+[d2B2] [d2B2]|[^c2A2] [^c2A2]|[d2B2]
+%%MIDI program 41
+dc| BB AA|A2 A2 |A2 DD|GG FF|
+    E2 G2|F2 DD |GG FF|E2 G2|
+    F2 DD| GG FF|E2 G2|F2 d2|
+    d2 d2| e2 e2|d2 d2|d2 d2|
+    e2 dd|BB  A2| AGA2|G2 F2|
+    DD GG| FF E2|G2 F2|DD GG|
+    FF E2| G2 F2|DD GG|FF E2|\
+    G2 F2|

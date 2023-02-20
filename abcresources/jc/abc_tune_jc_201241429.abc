@@ -1,0 +1,29 @@
+X: 4350
+T: Bromely Assembly
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/4
+L: 1/4
+K: D
+%
+V: 1
+A |\
+d2d {g}Tf>ef | e2e {a}Tg>fg | fag fed | ced cBA |\
+d2d {g}Tf>ef | e2e {a}Tg>fg | fba {a}T^g>fg | a3 A2 :|
+|: a |\
+a2a bab | g2g aga | f2f fed | ced cBA |\
+d2d {g}Tf>ef | e2e {a}Tg>fg | fed {d}Tc>Bc | d3 D2 |]
+%
+V: 2 clef=bass middle=d
+z |\
+d3 d'3 | c'3 a3 | d'3 d3 | a3 A3 |\
+d3 d'3 | c'3 c3 | d3 e3 | A3- A2 :|
+|: z |\
+d3 z3 | e3 c'3 | d'3 d3 | a3 A3 |\
+d3 d'3 | c'3 a3 | d'2g a2A | d3 d2 |]
+%%begintext align
+Set and cast off down to Cu. Right hand Left half round and turn your Partners of their own Side |
+The 1st Man turn hands with the 2d Cu. and the 1st Wo. do the same with the 3d Cu. at the same time,
+and meet in the middle and turn, lead thro' the 3d Cu. and then a Top into the 2d Cu.s Place.
+%%endtext

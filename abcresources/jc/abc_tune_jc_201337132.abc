@@ -1,0 +1,23 @@
+X: 2
+T: Sicilian Dance, The
+T: Royal Albert
+T: Prince of Wales Contre Dance
+M: 6/8
+L: 1/8
+Q: 110
+S: George Spencer m/s, Leeds, 1831
+R: Jig
+O: England
+A: Leeds
+N: The date 1831 is written on the stave after the double bar line.
+H: 1831
+Z: vmp.Cherri Graebe
+K: F
+|: F>GF AGF | c2c c2B | ABa c2B | A2G F2C \
+|  FGF AGF | c2c c2f | e>fe dc=B | c3 c3 :|
+[| g2c b2a | gfe fef | g2c b2a | gfe f2c \
+|  dbb caa | Bgg f2A | BAG c2E | F3 F3 |]
+[| A3 GFG | F2F FAc | c3 BAB | A2A A2f \
+|  f2e e2d | d2c c2B | ABc cBA | A3 G2z |]
+[| f3 fd=B | c2c c3 | b3 bge | f2f f2c \
+|  dbb caa | Bgg f2A | BAG c2E | F3 F2 |]

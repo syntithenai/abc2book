@@ -1,0 +1,23 @@
+X: 03050
+T: JUNE BUG JIG
+C: Bob McQuillen 10 June 76
+B: Bob's Note Book 03 #50
+R: jig
+%D:1976
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+F \
+| EAc BAB | cBA BAF | EAc BAB | cde e2c |
+| def ecA | def ecB | ABc BAB | cAA A2 :|
+|: e \
+| cee aee | def e2d | cee aef | ece B2e |
+| cee aec | def ecA | def ecA | BAG A2 :|
+%%begintext align
+%% As I stand alone in the darkness
+%% beside the stream, a beaver
+%% slapped a warning with his tail,
+%% and the air whizzed and buzzed
+%% with bombing June Bugs.
+%%endtext

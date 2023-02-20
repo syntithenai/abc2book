@@ -1,0 +1,22 @@
+X: 141
+T: I winna gang to my bed
+R: reel
+M: C|
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Abraham Mackintosh "A Collection of Strathspeys, Reels, Jigs &c.", Newcastle, after 1797, p.14
+F: http://imslp.info/files/imglnks/usimg/a/a8/IMSLP80796-PMLP164326-Abraham_Mackintosh_coll.pdf
+K: D
+V: 1
+a |\
+f<a AB A>BdF | TE>DEF B3g | f<a AB ABdF | E>DEF A3 :|
+a |\
+f2fd g2ge | f2fd B3d | f2fd g2ge | f<ae>f d3e |
+fffd ggge | fffd B3g | fffd ggge | f<ae>f defg !Segno!|]
+V: 2 clef=bass middle=d
+z |\
+[d2D2][d2D2] [d2D2][d2D2] | [g2G2][g2G2] [g2G2][g2G2] |\
+[d2D2][d2D2] [d2D2][d2D2] | [a2A2][a2A2] [a3A3] :|
+z |\
+d2d2 e2c2 | d2d2 g2g2 | d2d2 e2e2 | a2A2 d3z |
+d2d2 e2c2 | d2d2 g2g2 | d2d2 e2e2 | a2A2 d3z !Segno!|]

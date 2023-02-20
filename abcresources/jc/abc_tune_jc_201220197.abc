@@ -1,0 +1,25 @@
+X: 032
+T: Conquer or Die
+%R: jig
+B: Thompson's Twenty four Country Dances (for the Year 1804) p.3 #2
+S: http://folkopedia.efdss.org/images/2/28/Thompson24_1804.PDF  2014-8-2
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The dance uses an unusual abbreviation for "second": "sec.d" with the "d" raised.
+M: 6/8
+L: 1/8
+K: C
+c |\
+B<GG G2c | B<GG G2^c |\
+ded d/e/fd | e<cc c2 :|\
+|: e |\
+efe e/f/g^c | ded d2d |
+ded d/e/fc | cdB c2c |\
+B<GG G2c | B<GG G2^c |\
+ded d/e/fd | e>cc c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first Cu: set to the sec.d Lady & turn
+%% set to the sec.d Gent: and turn Cross over
+%% one Cu: and turn right & left.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

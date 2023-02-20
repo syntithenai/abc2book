@@ -1,0 +1,883 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 11
+B: RSCDS Book 11
+K:
+%%center Book11/1100-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1101
+T: Knit the Pocky
+P: Knit the Pocky
+C:Bremner's Coll. 1761
+R:Reel (8x32)
+B:RSCDS 11-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:Dm
+A|"Dm"Ddd^c defd|"C"cBAG FGEC|"Dm"Ddd^c defg|"A7"ed^ce d2 d z|
+  "Dm"Ddd^c defd|"C"cBAG FGEC|"Dm"Ddd^c defg|"A7"ed^ce d2 d||
+a|"Dm"defg afdg|"C"edcg ecge|"Dm"defg afdg|"C"ecge "Dm"d2 da|
+  "Dm"defg afdg|"C"edcg ecge|"Dm"defg afdg|"C"ecge "Dm"d2 d|]
+%%center Book11/1101-Knit_the_Pocky-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1102
+T: Monymusk
+P: Sir Archibald Grant of Monymusk
+C:Daniel Dow, here from Joshua Campbell's Coll. 1788
+R:Strathspey (8x32)
+B:RSCDS 11-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:G
+e|"G"d<G B>G d>B "C"c>e|"G"d<G B>G AB/A/ "D"c>e|\
+  "G"d>G B>G B/c/d d>g|"Am"e>c "D"A>d "G"B<G Ge|
+  "G"d<G B>G d>B "C"c>e|"G"d<G B>G AB/A/ "D"c>e|\
+  "G"d>G B>G B/c/d d>g|"Am"e>c "D"A>d "G"B<G G||
+f|"G"g2 d>g B>g "D7"d>f|"G"g>d "(Am)"c>g B>g "D"A>f|\
+  "G"g>d "C"e>g "G"d>g "(Em)"B>g|"Am"e>c "D"A>d "G"B<G G>f|
+  "G"g>d d>g G>g "D7"d>f|"G"g>d "D"c>g "G"B>g "D7"A>f|\
+  "G"g>d "C"e>g "G"d>g "Am7"c>g|"G"B<g "D"A>c "G"B<G G|]
+%%center Book11/1102-Monymusk-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1103
+T: Johnny McGill
+P: Johnny McGill
+C:John MacGill, here from Joshua Campbell's Coll. 1778
+R:Jig (8x40) ABABB
+B:RSCDS 11-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+V:1
+K:Dm
+%%staves (1 2)
+[V:1] f|"F"cAA AGF|cAA A2f|cAA AGA|"Dm"FDD D2 f|
+[V:1]  "F"cAA AGF|CAA AGA|"Gm"GAB "A7"AGA|"Dm"FDD D2||
+[V:1] c|"F"[f3c3A3] "C"[g3e3c3]|"F"{fg}afd cAF|"Dm"[f3d3A3] "Gm"[g3d3B3]|"Dm"{fg}afd d2 f/g/|
+[V:1]  "Dm"afa "A7"geg|"Dm"fde f2c|"F"cAF "Gm"G2 "A7"A|"Dm"FDD D2|]
+%V:2
+%[V:2] x|x6        |x6     |x6     |x6          |
+%[V:2]     x6     |x6     |    D3      E3 |x3      x2||
+%[V:2] x|x6                     |   [c2A2]x  x3|x6                       |    [d2A2]x x3     |
+%[V:2]      A3      A3 |    A3  x2F|   F2x     D2    ^C|    D3  x2|]
+%%center Book11/1103-Johnny_McGill-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1104
+T: Inch of Perth
+P: Brig of Perth
+C:Daniel Dow 1773
+R:Strathspey (8x32)
+B:RSCDS 11-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:A
+e|"A"A/B/c/d/ e>A "D"d>A f<A|"A"c>A e>c a>e c>e|\
+  "A"A/B/c/d/ e>d c>e A<e|"G"B>d =G>B g>d B e|
+  "A"A/B/c/d/ e>A "D"d>A f<A|"A"c>A e>c a>e c>e|\
+  "A"A/B/c/d/ e>d c>e A<e|"G"B>d =G>B g>d B||
+e|"A"A>a e>a c>a e<a|A<a e>f e>A c2|\
+  A>a e>a c>a A>a|"G"=g>a d>g B>=G B2|
+  "A"A>a e>a c>a e<a|A<a e>f e>A c2|\
+  A>a g>a e>a c>a|"G"B>g d<g B>=G B|]
+%%center Book11/1104-Inch_of_Perth-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1105
+T: Sleepy Maggie
+P: Sleepy Maggie
+C:Bremner 1756, here from Gow's Repository
+R:Reel (8x32)
+B:RSCDS 11-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:Bm
+g|"Bm"f2Bb fBde|f2Ba "A"eAce|"Bm"f2Bb fBde|"(D)"f^gaf "A"eAce|
+  "Bm"f2Bb fBde|f2Ba "A"eAce|"Bm"f2Bb fBde|"(D)"f^gaf "A"eAce||
+  "Bm"fBdB fBde|fBdB "A"eAce|"Bm"fBdB fBde|"(D)"f^gaf "A"eAce|
+  "Bm"fBdB fBde|fBdB "A"eAce|"Bm"fBbB aB^gB|"(D)"f^gaf "A"eAce|]
+%%center Book11/1105-Sleepy_Maggie-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1106
+T: Dainty Davie
+P: Dainty Davie
+C:Walsh 1731, here from Gow
+R:Strathspey (8x16)
+B:RSCDS 11-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:F
+d|"F"c>B A>G F<D F2|"F/A"F>c A/B/c/A/ F>c A<f|\
+  "A"{d}c>B A>G "Dm"F<D F2|"A"f>g a/g/f/e/ "Dm"d2 f d|
+  "F"c>B A>G F<D F2|"F/A"F>c A/B/c/A/ F>c A<f|\
+  "A"{d}c>B A>G "Dm"F<D F2|"A"f>g a/g/f/e/ "Dm"d2 f||
+c|"F"f>a f>a f<a ag/f/|"C"e>g c>g e<g {a}gf/e/|\
+  "Dm"f>a f>a f<a ag/f/|"A"e>c a/g/f/e/ "Dm"d2 f>c|
+  "F"f>a f>a f<a {g}ag/f/|"C"e>g c>g e<g {a}gf/e/|\
+  "F"f>g ag/a/ "Dm"b/a/g/f/ f/e/d/c/|"Gm"d/e/f/g/ "A7"a/g/f/e/ "Dm"d>e f|]
+%%center Book11/1106-Dainty_Davie-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1107
+T: The Moudiewort
+P: The Moudiewort
+C:Oswald's Caledonian Pocket Companion 1752
+R:Jig (8x32)
+B:RSCDS 11-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+|:g|"G"dBG ABd|"Am"e2A A2 g|"G"dBG ABd|"Am"e2 E E2 g|
+    "G"dBG "D7"ABc|"G"BAB "Em"GAB|"Am"cBA "B7"dcB|"Em"e2E E2:|
+|:f|"Em"gag gfe|"D"aba agf|"Em"gfg "D"aga|"B7"b2B B2 f|
+    "Em"gag gfe|"D"aba agf|"Em"bag "B7"agf|"Em"e2E E2:|
+%%center Book11/1107-Moudiewort-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1108
+T: The Long Chase
+P: The Long Chase
+C:Joshua Campbell's Coll. 1778
+R:Reel (8x64) ABABB
+B:RSCDS 11-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:C
+GA/B/|"C"c2ec GcEG|c2ec GEDC|"Am"c2ec "G"B2dB|"D7"AcBA "G"G2 GA/B/|\
+      "C"c2ec GcEG|c2ec GEDC|
+                             "Am"c2ec "G"B2dB|"D7"AcBA "G"G2||\
+GB/A/|"C"G2cG gGFE|"G"F2BF dFED|"C"EFGE cEDC|"G7"G,2 B,2 "C"CDEF|
+      "C"G2cG gGFE|"G/D"F2BF dFED|"C"EFGE cEDC|"G7"G,CB,D "C"C2 GB/A/|\
+      "C"G2cG gGFE|"G"F2BF dFED|
+                                "C"EFGE cEDC|"G7"G,2 B,2 "C"CDEF|\
+      "C"G2cG gGFE|"G/D"F2BF dFED|"C"EFGE cEDC|"G7"G,CB,D "C"C2|]
+%%center Book11/1108-Long_Chase-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1109
+T: Glasgow Flourish
+P: Miss Admiral Gordon's Reel
+C:Wm. Marshall
+R:Strathspey (8x32)
+B:RSCDS 11-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:A
+E|"A"A>A A>A A>E A<f|e>c B>A "D"F2 "E7"F>E|\
+  "A"A>A A>A A>E A<f|e>f "E7"a>c "A"e2 e>f|
+  "A"e>f a>c "F#m"e<c B>A|"Bm"B>c d/c/B/A/ F2 "E7"F>E|\
+  "A"A>A A>A A>E A<f|e<c "E7"B>c "A"A2 A||
+E|"A"C>E A<E "D"F<E "A"A<E|c>e d/c/B/A/ "D"F2 F>E|\
+  "A"C>E A<E "D"F<E "A"A<E|c>d e/f/g/a/ e2 "E7"e>g|
+  "D"a>g "F#m"f<e "D"f>e d<c|"Bm"B>c d/c/B/A/ "E"F2 F>E|\
+  "A"A>A A>A A>E A<f|e<c "E7"B>c "A"A2 A|]
+%%center Book11/1109-Glasgow_Flourish-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1110
+T: Invercauld's Reel
+P: Invercauld's Reel
+C:Stewart's Coll. 1762
+R:Strathspey (8x32)
+B:RSCDS 11-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:Am
+A|"Dm"D<D E>G "Am"A>G E<G|"Dm"D<D "G"E>G "C"c3 e|\
+  "G"d>B g>B "Am"A>G E<G|"Dm"D<D "Em"E>G "Am"A2 A A|
+  "Dm"D<D E>G "Am"A>G E<G|"Dm"D<D "G"E>G "C"c3 e|\
+  "G"d>B g>B "Am"A>G E<G|"Dm"D<D "Em"E>G "Am"A2 A||
+B|"Am"c>A "G"B>G "Am"A>G "Em"E<B|"F"c>B c>d "C"e>f g<e|\
+  "G"d>B g>B "Am"A>G E<G|"Dm"D<D "Em"E>G "Am"A2 A>B|
+  "C"c>d "G"B<g "Am"A>G "Em"E<B|"F"c>B c>d "C"e>f g<e|\
+  "G"d>g B<g "Am"A>G E<G|"Dm"D<D "Em"E>G "Am"A2 A|]
+%%center Book11/1110-Invercaulds_Reel-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1111
+T: Rakes of Glasgow
+P: Rakes of Glasgow
+C:Preston's Twelve Favourite Country Dances 1806
+R:Strathspey (8x32)
+B:RSCDS 11-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:C
+G|"C"c>d c<G "Am"E>C "C"E<G|"F"A>c "C"G<E g>e "G"d>e|\
+  "C"c>d e<c "F"A<c "C"G<c|"G"B>d G<d "C"e<c cG|
+  "C"c>d c<G "Am"E>C "C"E<G|"F"A>c "C"G<E g>e "G"d>e|\
+  "C"c>d e<c "F"A<c "C"G<c|"G"B>d G<d "C"e<c c:|
+|:G|"Am"[A2C2] "G"[G3/2D2]F "C"E<C E2|"C"g>e "Dm"f>d "G"B/c/d/B/ G2|\
+    "Am"[A2C2] "G"[G3/2D2]F "C"E<C E<c|"G"B/c/d/B/ G>d "C"e<c c:|
+d|"C"e2 c>g e<c g>c|"G"d2 "C"e2 "G"g/f/e/f/ d2|\
+  "C"e2 c>g e<c g>c|"G"B/c/d/B/ G>g "C"e<c cd|
+  "C"e2 c>g e<c g>c|"G"d2 "C"e2 "G"g/f/e/f/ d2|\
+  "C"e2 c>g e<c g>c|"G"B/c/d/B/ G>g "C"e<c c|]
+%%center Book11/1111-Rakes_of_Glasgow-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1112
+T: Miss Murray of Ochtertyre
+P: Miss Murray of Ochtertyre
+C:Bowie 1789
+R:Reel (8x16)
+B:RSCDS 11-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:Bb
+|:dc|"Bb"B3b Bdfd|"Eb"Bege "Bb"Bdfd|"Bb"B3b Bdfd|"Cm"c2dB "F"A2GF|
+     "Bb"B3b Bdfd|"Eb"Bege "Bb"Bdfd|"Cm"ceg2 "Bb"Bdf2|"F7".A2.A2 "Bb"B2:|
+|:de|"Bb"f6 g2|f6 "F7"x g2|"Bb"f2g2 f2g2|d6 g2|
+     "Dm"f2e2 "D"d2c2|"Gm"B2 Bc B2B2|"Cm"c2cB "F7"c2d2|"Bb"B6:|
+%%center Book11/1112-Miss_Murray_of_Ochtertyre-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11011
+T: Knit the Pocky
+T: Lady Mackintosh's Reel
+T: Corney is Coming
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 11-1
+B: Bremner's Collections, 1757
+M: C|
+L: 1/8
+K: Dm
+   A | "Dm"Ddd^c defd | "C"cBAG FGEC | "Dm"Ddd^c defg | "A7"ed^ce "Dm"~d2d :|
+|: a | "Dm"defg  afdf | "C"edcg ecge | "Dm"defg  afdf | "C"ecge   "Dm"d2d  :|
+%%center Book11/11011-Knit_the_Pocky-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11012
+T: Knit the Pocky
+T: 8 x 32R 2C (RSCDS Bk 11)
+P: Knit the Pocky
+B: Bremner Colln 1757 via RSCDS
+N: arr. T. Traub 8-25-2004
+R: Reel
+M: 4/4
+L: 1/8
+K: Dm
+|: A|"Dm"Ddd^c defd|"C"cBAG FGEC|"Dm"Ddd^c defg|"A"ed^ce d2 d :|
+|: a|"Dm"defg afdg|"C"edcg ecge|"Dm"defg afdg|"C"ecge d2 d :|
+%%center Book11/11011-Knit_the_Pocky-TT.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11021
+T: Monymusk
+T: 32S 3C x 8 -- RSCDS 11-2
+C: Daniel Dow (1775)
+C: from Elke Baker
+R: strathspey
+%--------------------
+K: A
+P: Sir Archibald Grant of Monymusk's Reel
+M: 4/4
+L: 1/8
+|:f|"A"e<Ac>A e>A"D"d>f|"A"e<Ac>A "Bm"B2 d>f|"A"e<Ac>A c/d/e e>a|"D"f>D"E"B>e "A"c<A A:|
+g|"A"a2 e>a c>ae>g|"A"a>e"D"d>a "A"c>a"E"B>g|"A"a>e"D"f>a "A"e>ac>a|"D"f>d"E"B>e "A"c<AA>g|
+"A"a>ee>a c>ae>g|"A"a>e"Bm"d>a "A"c>a"E"B>g|"A"a>e"D"f>a "A"e>a"D"d>a|"A"c>a"E"B>d "A"c<A A||
+|: a|"A"A/A/A c<A (3ceA d<f|"A"A/A/A c<a "G"B/B/B d<f|"A"A/A/A c<A c/d/e e<a|"G"=g>d B/c/d "A"c<A A:|
+e|"A"a>ec<a e<ac>e|"A"a>e"D"d<a "A"c<a"E"B>e|"A"a>ec<a e<ac<a|"D"f/g/a "E"B/c/d "A"c<AA>e|
+"A"a>ec<a e<ac>e|"A"a/g/f e<a c<a"E"B>e|"A"a>e"D"f<a "A"e<a"D"d<a|"A"c<a"E"B<a "A"c<A A |]
+%%center Book11/11021-Monymusk-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11022
+T: Monymusk
+T: 8 x 32S 3C (RSCDS 11-2)
+C: attrib. to Daniel Dow (1775)
+C: Hunter Collection, arr. T. Traub 8-23-06
+R: strathspey
+%--------------------
+K: G
+P: Sir Archibald Grant of Monymusk's Reel
+M: 4/4
+L: 1/8
+|: e|"G"d<GB>G d>G"C"c>e|"G"d<GB>G "D"A/B/A "C"c>e|"G"d<GB>G B/c/d d>g|"C"e>c"D"A>d "G"B<G G :|
+f|"G"g2 d>g B>g"D"d>f|"G"g>d"C"c>g "G"B>g"D"A>f|"G"g>d"C"e>g "G"d>gB>g|"C"e>c"D"A>d "G"B<GG>f|
+"G"g>dd>g B>g"D"d>f|"G"g>d"C"c>g "G"B>g"D"A>f|"G"g>d"C"e>g "G"d>g"D"c<g|"G"B<g"D"A>c "G"B<G G |]
+%%center Book11/11021-Monymusk-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11023
+T: Monymusk
+T: 8x32S3
+O: RSCDS 11-2
+R: strathspey
+%--------------------
+K:
+P: Sir Archibald Grant of Monymusk's Reel
+C: Daniel Dow (1775)
+Z: 1998 John Chambers <jc:trillian.mit.edu>
+B: Daniel Dow's Thirty-Seven New Reels and Strathspeys (c. 1776)
+B: H&C p.196
+B: Hunter (in G) 84
+B: OTDT p.75
+B: Allan's p.8
+B: second Kennedy tune-book p.17
+B: Kerr's 2nd p.14
+B: SFT p.5 (in G)
+B: Sir Archibald Grant of Money Musk in Skye p.97
+D: Alex ("Alick") Gillis / The Inverness Serenaders: Decca 14023
+D: "Little" Jack MacDonald: CX 022
+D: John A. MacDonald: RLP 75 as Monny Musk
+D: Carl MacKenzie: CLM 1006 as Sir Archibald Grant of Mony Musk, Strathspey
+D: David Greenberg: MAR 181
+D: Willy Kennedy: WMT002 [Wendy MacIsaac's CD]
+D: Donald Angus Beaton: DAB4-1985
+D: Natalie MacMaster: ACC-49290 as Traditional Strathspey
+D: Doug MacPhee (piano): NQD-5447
+D: Jep Bisbee (Michigan): Edison 51381-R (reel)
+D: Jean Carignan (Quebec): Philo 2012 (reel)
+D: Alan Jabbour (Florida-Virginia): Kanawha 311 (reel)
+D: Ron West (Vermont): JEMF-105 (reel)
+D: Fiddlesticks & Ivory - "Ghillies On The Golden Gate" F&I 001 (as a  4-part strathspey)
+D: Don Bartlett & The Scotians - "Play Favourites" TAC002 (as Sir Archibald Grant Of Monymusk)
+D: Bobby Crowe "Step in Time"
+M: 4/4
+L: 1/8
+K: G
+e | "G"d-<G B>G d>G "C"c>e | "G"d-<G B>G "Am"~A-<A "D7"c>e | "G"d-<G B>G B/c/d d>g | "Am"e>c "D7"A>d "G"B-<G G :|
+f | "G"~g2 d>g B>g "D7"d>f | "G"g>d "C"c>g "G"B>g "D7"A>f | "G"g>d "C"e-<g "G"d-<g B-<g | "Am"e>c "D7"A>d "G"B-<G G |]
+f | "G"~g2 d>g B>g "D7"d>f | "G"g>d "C"c>g "G"B>g "D7"A>f | "G"g>d "C"e-<g "G"d-<g "C"c-<g | "G"B-<g "D7"A>d "G"B-<G G |]
+P: Miss Drummond of Megginch
+O: Wighton Collection
+Z: John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: 4/4
+L: 1/8
+K: C
+   e | "C"c-<G A-<G c-<G A>G | E-<G c>E "G7"D-<d d>e \
+     | "C"c-<G A-<G c-<G "(F)"c>a | g-<c "G7"g>f "C"e-<c c :|
+e/f/ | "C"g-<c e-<c g-<c "(F)"a-<c | "C"g-<c f/e/d/c/ "G7"B-<d de/f/ \
+     | "C"g-<c e-<c g-<c "(F)"a-<c | "C"G>c "G7"f/e/d/c/ "C"G-<c c |]
+e/f/ | "C"g-<c e-<c g-<c "(F)"a-<c | "C"gc f/e/d/c/ "G7"B-<d d>e \
+     | "C"c-<G B/A/G/F/ E-<G "F"c>a | "C"g-<c "G7"g>f "C"e-<c c |]
+P: Miss Sarah Drummond of Perth
+R: strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+C: Niel Gow
+N: Gow p.144; Hunter 68; Scots Guard 177; Skye p.115; OTDT  p.77; BSFC I-49, V-8; Allan's p.12
+M: C
+L: 1/8
+K: ADor
+ e | "Am"A<A e>d B<d e2  | "G"d>g B>g d>g B<G | "Am"A<A e>d     B<d e>g |    a<e "G"g>B "Am"A3 :|
+^g | "Am"a<a e>a c<a e>f | "G"g<g d>g B<g d>g | "Am"a<a e>a     c<a e>g |    a<e "G"g>B "Am"A3 |]
+^g | "Am"a<a e>a c<a e>f | "G"g<g d>g B<g d>g | "Am"a<a e>a "Em"g<b e>g | "F"a<e "G"g>B "Am"A3 |]
+P: Muir Mackenzie's Favourite
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+f>e \
+| "D"d2 A>G "Bm"F-<D DE/F/ | "Em"G>F E>D "A7"C-<A, B>c \
+| "D"d>e d>B A>F "G"G>B | "A7"A-<F E>G "D"F-<D :|
+f>g \
+| "D"a>b a>g "Bm"f>e f-<d | "Em"g>f e>d "A7"c>B c-<A \
+| "D"a>b a>g "Bm"f>e f-<d | "Em"g>e "A7"a>f "D"~d2 |]
+f>g \
+| "D"a>b a>g "Bm"f-<d e>f | "Em"g>f e>d "A7"c-<A B>c \
+| "Bm"d>e f-<d "Em"e>f g-<e | "A7"f-<a c>e "D"d2 |]
+%%center Book11/11021-Monymusk-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11024
+T: Monymusk
+T: 32S 3C x 8 -- RSCDS 11-2
+T: Play each tune twice:  1 2 3, 1 2 3, 2 1
+C: Daniel Dow (1775)
+C: Tunes arranged by John Chambers
+R: strathspey
+K: G
+%
+P: Sir Archibald Grant of Monymusk's Reel  (2x)
+Z: John Chambers <jc@trillian.mit.edu>
+N: Daniel Dow's Thirty-Seven New Reels and Strathspeys (c. 1776)
+N: H&C p.196; Hunter (in G) 84; OTDT p.75; Allan's p.8;
+N: second Kennedy tune-book p.17; Kerr's 2nd p.14; SFT p.5 in G);
+N: Sir Archibald Grant of Money Musk in Skye p.97
+D: Alex ("Alick") Gillis / The Inverness Serenaders: Decca 14023
+D: "Little" Jack MacDonald: CX 022
+D: John A. MacDonald: RLP 75 as Monny Musk
+D: Carl MacKenzie: CLM 1006 as Sir Archibald Grant of Mony Musk, Strathspey
+D: David Greenberg: MAR 181
+D: Willy Kennedy: WMT002 [Wendy MacIsaac's CD]
+D: Donald Angus Beaton: DAB4-1985
+D: Natalie MacMaster: ACC-49290 as Traditional Strathspey
+D: Doug MacPhee (piano): NQD-5447
+D: Jep Bisbee (Michigan): Edison 51381-R (reel)
+D: Jean Carignan (Quebec): Philo 2012 (reel)
+D: Alan Jabbour (Florida-Virginia): Kanawha 311 (reel)
+D: Ron West (Vermont): JEMF-105 (reel)
+D: Fiddlesticks & Ivory - "Ghillies On The Golden Gate" F&I 001 (as a  4-part strathspey)
+D: Don Bartlett & The Scotians - "Play Favourites" TAC002 (as Sir Archibald Grant Of Monymusk)
+D: Bobby Crowe "Step in Time"
+M: 4/4
+L: 1/8
+K: G
+|: e | "G"d-<G B>G d>G "C"c>e | "G"d-<G B>G "Am"~A-<A "D7"c>e | "G"d-<G B>G B/c/d d>g | "Am"e>c "D7"A>d "G"B-<G G :|
+|| f | "G"~g2 d>g B>g "D7"d>f | "G"g>d "C"c>g "G"B>g "D7"A>f | "G"g>d "C"e-<g "G"d-<g B-<g | "Am"e>c "D7"A>d "G"B-<G G ||
+|| f | "G"~g2 d>g B>g "D7"d>f | "G"g>d "C"c>g "G"B>g "D7"A>f | "G"g>d "C"e-<g "G"d-<g "C"c-<g | "G"B-<g "D7"A>d "G"B-<G G |]
+%
+P: Miss Sarah Drummond of Perth  (2x)
+R: strathspey
+Z: John Chambers <jc@trillian.mit.edu>
+C: Niel Gow
+N: Gow p.144; Hunter 68; Scots Guard 177; Skye p.115; OTDT  p.77; BSFC I-49, V-8; Allan's p.12
+M: 4/4
+L: 1/8
+K: ADor
+|:  e | "Am"A-<A e>d B-<d e2 | "G"d>g B>g d>g B-<G | "Am"A-<A e>d B-<d e>g | a-<e "G"g>B "Am"A3 :|
+|| ^g | "Am"a-<a e>a c-<a e>f | "G"g-<g d>g B-<g d>g | "Am"a-<a e>a c-<a e>g | a-<e "G"g>B "Am"A3 ||
+|| ^g | "Am"a-<a e>a c-<a e>f | "G"g-<g d>g B-<g d>g | "Am"a-<a e>a "Em"g-<b e>g | "F"a-<e "G"g>B "Am"A3 |]
+%
+P: Muir Mackenzie's Favourite  (2x)
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+|: f>e | "D"d2 A>G "Bm"F-<D DE/F/ | "Em"G>F E>D "A7"C-<A, B>c | "D"d>e d>B A>F "G"G>B | "A7"A-<F E>G "D"F-<D :|
+|| f>g | "D"a>b a>g "Bm"f>e f-<d | "Em"g>f e>d "A7"c>B c-<A | "D"a>b a>g "Bm"f>e f-<d | "Em"g>e "A7"a>f "D"~d2 ||
+|| f>g | "D"a>b a>g "Bm"f-<d e>f | "Em"g>f e>d "A7"c-<A B>c | "Bm"d>e f-<d "Em"e>f g-<e | "A7"f-<a c>e "D"d2 |]
+%
+%%center Book11/11021-Monymusk-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11025
+T: Monymusk
+T: 32S 3C x 8 -- RSCDS 11-2
+C: Daniel Dow (1775)
+C: from Elke Baker
+R: strathspey
+%--------------------
+K: A
+P: Sir Archibald Grant of Monymusk's Reel
+M: 4/4
+L: 1/8
+|:f|"A"e<Ac>A e>A"D"d>f|"A"e<Ac>A "G"B2 d>f|"A"e<Ac>A c/d/e e>a|"D"f>d"E"B>e "A"c<A A:|
+g|"A"a2 e>a c>ae>g|"A"a>e"D"d>a "A"c>a"E"B>g|"A"a>e"D"f>a "A"e>ac>a|"D"f>d"E"B>e "A"c<AA>g|
+"A"a>ee>a c>ae>g|"A"a>e"Bm"d>a "A"c>a"E"B>g|"A"a>e"D"f>a "A"e>a"D"d>a|"A"c>a"E"B>d "A"c<A A||
+|: a|"A"A/A/A c<A (3ceA d<f|"A"A/A/A c<a "G"B/B/B d<f|"A"A/A/A c<A c/d/e e<a|"G"=g>d B/c/d "A"c<A A:|
+e|"A"a>ec<a e<ac>e|"A"a>e"D"d<a "A"c<a"E"B>e|"A"a>ec<a e<ac<a|"D"f/g/a "E"B/c/d "A"c<AA>e|
+"A"a>ec<a e<ac>e|"A"a/g/f e<a c<a"E"B>e|"A"a>e"D"f<a "A"e<a"D"d<a|"A"c<a"E"B<a "A"c<A A |]
+%%center Book11/11021-Monymusk.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11051
+T: Sleepy Maggie
+T: 8x32R3
+C: Alexander Bowman (1758)
+O: RSCDS 11-5
+B: RSCDS 11-5
+%--------------------
+K:
+P: Sleepy Maggie
+O: Trad
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+N: Neil Gow Collection
+N: Skye p.62
+N: O'Neill's p.135
+N: Williamson p.62
+N: Hunter 220
+N: Kerr's 3rd p.6
+N: Winston Scotty Fitzgerald on Celtic 17,
+N: second Kennedy tune-book p.20
+M: C|
+L: 1/8
+K: BDorian
+|: "Bm"f2Bb fBde | f2Ba "A"eAce | "Bm"f2Bb fBde | "(D)"fgaf "A"eAce :|
+[| "Bm"fBdB fBde | fBdB "A"eAce | "Bm"fBdB fBde | "(D)"fgaf "A"eAce ||
+|| "Bm"fBdB fBde | fBdB "A"eAce | "Bm"fBbB aBgB | "(D)"fgaf "A"HeAce |]
+P: Dick Gossip's Reel
+R: reel
+N: The parts are played in either order
+O: trad Ireland
+N: Origin unknown.  "Dick Gossip" was 19th C UK slang for a man who liked to talk.
+B: the Gunn MS
+B: BSFC X-22
+B: Bulmer & Sharpley (Music from Ireland), 1974, Vol. 1, No. 17
+B: Mallinson (Essential), 1995; No. 1, pg. 1
+D: Flying Fish FF-250, Battlefield Band - "Home is Where the Van Is" (1981)
+D: Wild Asparagus 003, Wild Asparagus - "Tone Roads" (1990)
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+   e2 |: "D"f2af   gfed | "D"f2af  gfed |1 "A"e2ef  gfed | edef gfed :|2 "A"cdef gece | "D"df"A"ec "D"d2 ||
+|: ef |  "G"gB ~B2 gBaB | "G"gB~B2 gfed |1 "A"cA eA fAeA | cAef gf   :|2 "A"cdef gece | "D"df"A"ec "D"d2 |]
+P: Lexy McAskill
+C: Dr.John McAskill
+R: reel
+Z: John Chambers <jc:trillian.mit.edu> (from Barbara McOwen)
+M: C|
+L: 1/8
+K: Ador
+   a "A"| "Am"e2e2 deed |     e2dB "G"GBBd | "Am"e2e2 deed |  "G"egfd "Am"e2e :|
+|: f "B"| "Am"g2f2 e2dB | "D7"AAdB "G"GBBe | "Am"g2f2 e2dB | "Em"egfd "Am"e2e :|
+|: g "C"| "Am"e2e2 e2dB |     AAAB "G"GABd | "Am"e2e2 e2dB |  "G"egfd "Am"e2e :|
+|: g "D"| "Am"aeea e2dB | "D7"AAdB "G"GBBe | "Am"aeea e2dB | "Em"egfd "Am"e2e :|
+P: The Sound of Sleat
+C: D.MacKinnon
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+f \
+"A"|: "D"A2AB "Bm"Bdd2 | "Em"e2ed "A7"eff2 |  "D"A2AB "Bm"Bdde | "Em"fded "A7"B2A2 :|
+"B"|: "D"f2fe faa2 | "Em"e2de "A7"fdBA  |1 "D"f2fe faae | "Em"fded "A7"B2A2 \
+                                       :|2 "Em"e2ed "A7"effa | "D"fded "A7"B2A2 |]
+"C"|: "D"A2AG "G"B2BA | "D"d2df "A7"edef | "D"A2AG "G"B2BA | "D"fded "A7"B2A2 :|
+"D"|: "D"a2fa afa2 | "Em"e2de "A7"fdBA  |1 "D"a2fa afa2 | "D"fded "A7"B2A2 \
+                                       :|2 "D"d2df "Em"edef | "D"fded "A7"B2A2 |]
+%%textfont Times-Roman 10
+%%text Arranged by Christine Anderson
+%%center Book11/11051-Sleepy_Maggie.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11101
+T: Invercauld's Reel
+R: strathspey
+B: Neil Stewart's 1761 collection p.31
+B: McGlashan "Collection of Strathspey Reels" c.1780/81 p.26 ("Invercald's Rant")
+B: Kerr (Merry Melodies), v.2 #63 p.9
+B: Athole Coll 1884 p.53
+B: RSCDS 11-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: C
+L: 1/8
+%--------------------
+K: Am
+A \
+| "Dm"D<D E>G "Am"A>G E<G | "Dm"D<D "G"E>G "C"c3 e \
+| "G"d>B g>B "Am"A>G E<G | "Dm"D<D "Em"E>G "Am"A2-A :|
+B \
+| "Am"c>A "G"B>G "Am"A>G "Em"E<B | "F"c>B c>d "C"e>f g<e \
+| "G"d>B g>B "Am"A>G E<G | "Dm"D<D "Em"E>G "Am"A2-A |]
+B \
+| "C"c>d "G"B<g "Am"A>G "Em"E<B | "F"c>B c>d "C"e>f g<e \
+| "G"d>g B<g "Am"A>G E<G | "Dm"D<D "Em"E>G "Am"A2-A |]
+%%center Book11/11101-Invercaulds_Reel-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11102
+T: The Rothesay Rant
+C: Beryl S Johnston
+R: jig
+B: Birmingham Branch RSCDS "Scottish Country Dances" #11
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+   E \
+| "A"{FG}A2G F2E | "D"F2E F2A | "A"E2C C2A | "E7"C2B, B,2E \
+| "A"A2G A2B | "A"c3 A2c | "D"B2A "(E7)"A2F | "A"A3- A2 :|
+|: e \
+| "A"c2A A2e | "A"c2A A2e | "D"f2e "A"c2A | "E7"B2e e2 e \
+| "D" {efg}a2g f2e | "Bm"f2e d2c | "E7"B2f f2G | "A"A3- A2 :| [K:=g]
+K: D
+|: A/>A \
+| "D"f3 f2f | "A7"e3 e2e | "G"d2e d2B | "D"AF2 F2A \
+| "A7"g3 g2g | "D"f3 a2b | "D"a2f d2f | "A7"e3 a2g |
+| "D"f3 a2f | "A"e3 a2g | "D"f2a "/C#"e2f | "Bm"d2c B2A \
+| "G"B2d g2b | "G"d'<d'z "A7"c'2b | "D"a2f "A7"f2e | "D"d3- d2 :|
+%%center Book11/11111-Rothesay_Rant-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11103
+T: The Rothesay Rant
+C: Beryl S Johnston
+R: jig
+B: Birmingham Branch RSCDS "Scottish Country Dances" #11
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: F
+   c \
+| "F"{de}f2e d2c | "Bb"d2c d2f | "F"c2A A2f | "C7"A2G G2c \
+| "F"f2e f2g | "F"a3 f2a | "Bb"g2f "(C7)"f2d | "F"f3- f2 :|
+|: c \
+| "F"A2F F2c | "F"A2F F2c | "Bb"d2c "F"A2F | "C7"G2c c2 c \
+| "Bb" {cde}f2e d2c | "Gm"d2c B2A | "C7"G2d d2E | "F"F3- F2 :| [K:Bb]
+|: F/F/ \
+| "Bb"d3 d2d | "F7"c3 c2c | "Eb"B2c B2G | "Bb"FD2 D2F \
+| "F7"e3 e2e | "Bb"d3 f2g | "Bb"f2d B2d | "F7"c3 f2e |
+| "Bb"d3 f2d | "F"c3 f2e | "Bb"d2f "/A"c2d | "Gm"B2A G2F \
+| "Eb"G2B e2g | "Eb"b<bz "F7"a2g | "Bb"f2d "F7"d2c | "Bb"B3- B2 :|
+%%center Book11/11111-Rothesay_Rant-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11111
+T: The Rothesay Rant
+R: jig
+B: RSCDS 11-11
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+|: E \
+| "A"{FG}A2G F2E | "D"F2E F2A | "A"E2C C2A | "E7"C2B, B,2E \
+| "A"A2G A2B | c3 A2c | "D"B2A A2F | "A"A3- A2 :|
+|: e \
+| "A"c2A A2e | c2A A2e | "D"f2e "A"c2A | "E7"B2e e2 e \
+| "D" {efg}a2g f2e | "Bm"f2e d2c | "E7"B2f f2G | "A"A3- A2 :| [K:D]
+|: A/>A \
+| "D"f3 f2f | "A7"e3 e2e | "G"d2e d2B | "D"AF2 F2A \
+| "A7"g3 g2g | "D"f3 a2b | a2f d2f | "A7"e3 a2g |
+| "D"f3 a2f | "A"e3 a2g | "D"f2a e2f | "G"d2c B2A \
+| B2d g2b | d'<d'z "A7"c'2b | "D"a2f "A7"[f2c2G2]e | "D"d3- d2 :|
+%%center Book11/11111-Rothesay_Rant-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11112
+T: The Rothesay Rant
+C: Beryl S Johnston
+R: jig
+B: Birmingham Branch RSCDS "Scottish Country Dances" #11
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: 2nd part lowered an octave into normal range
+M: 6/8
+L: 1/8
+%--------------------
+K: F
+   c \
+| "F"{de}f2e d2c | "Bb"d2c d2f | "F"c2A A2f | "C7"A2G G2c \
+| "F"f2e f2g | "F"a3 f2a | "Bb"g2f "(C7)"f2d | "F"f3- f2 :|
+|: c \
+| "F"A2F F2c | "F"A2F F2c | "Bb"d2c "F"A2F | "C7"G2c c2 c \
+| "Bb" {cde}f2e d2c | "Gm"d2c B2A | "C7"G2d d2E | "F"F3- F2 :| [K:Bb]
+|: F/F/ \
+| "Bb"d3 d2d | "F7"c3 c2c | "Eb"B2c B2G | "Bb"FD2 D2F \
+| "F7"e3 e2e | "Bb"d3 f2g | "Bb"f2d B2d | "F7"c3 f2e |
+| "Bb"d3 f2d | "F"c3 f2e | "Bb"d2f "/A"c2d | "Gm"B2A G2F \
+| "Eb"G2B e2g | "Eb"b<bz "F7"a2g | "Bb"f2d "F7"d2c | "Bb"B3- B2 :|
+%%center Book11/11111-Rothesay_Rant.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11113
+T: Invercauld's Reel    [Am]
+O: Bowman MS c.1755-60
+R: strathspey
+B: Neil Stewart's 1761 collection p.31
+B: McGlashan "Collection of Strathspey Reels" c.1780/81 p.26 ("Invercald's Rant")
+B: Kerr (Merry Melodies), v.2 #63 p.9
+B: Athole Coll 1884 p.53
+B: RSCDS 11-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+A \
+| "Dm"D<D E>G "Am"A>G E<G | "Dm"D<D "G"E>G "C"c3 e \
+| "G"d>B g>B "Am"A>G E<G | "Dm"D<D "Em"E>G "Am"A2-A :|
+B \
+| "Am"c>A "G"B>G "Am"A>G "Em"E<B | "F"c>B c>d "C"e>"#"f g<e \
+| "G"d>B g>B "Am"A>G E<G | "Dm"D<D "Em"E>G "Am"A2-A |]
+B \
+| "C"c>d "G"B<g "Am"A>G "Em"E<B | "F"c>B c>d "C"e>"#"f g<e \
+| "G"d>g B<g "Am"A>G E<G | "Dm"D<D "Em"E>G "Am"A2-A |]
+%%center Book11/InvercauldsR_Am-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11114
+T: Invercauld's Reel    [Am]
+O: Bowman MS c.1755-60
+R: strathspey
+B: Neil Stewart's 1761 collection p.31
+B: McGlashan "Collection of Strathspey Reels" c.1780/81 p.26 ("Invercald's Rant")
+B: Kerr (Merry Melodies), v.2 #63 p.9
+B: Athole Coll 1884 p.53
+B: RSCDS 11-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+A \
+| "Dm"D<D E>G "Am"A>G E<G | "Dm"D<D "G"E>G "C"c3 e \
+| "G"d>B g>B "Am"A>G E<G | "Dm"D<D "Em"E>G "Am"A2-A :|
+B \
+| "Am"c>A "G"B>G "Am"A>G "Em"E<B | "F"c>B c>d "C"e>"#"f g<e \
+| "G"d>B g>B "Am"A>G E<G | "Dm"D<D "Em"E>G "Am"A2-A |]
+B \
+| "C"c>d "G"B<g "Am"A>G "Em"E<B | "F"c>B c>d "C"e>"#"f g<e \
+| "G"d>g B<g "Am"A>G E<G | "Dm"D<D "Em"E>G "Am"A2-A |]
+%%center Book11/InvercauldsR_Am_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11115
+T: Invercauld's Reel    [Am]
+O: Bowman MS c.1755-60
+R: strathspey
+B: Neil Stewart's 1761 collection p.31
+B: McGlashan "Collection of Strathspey Reels" c.1780/81 p.26 ("Invercald's Rant")
+B: Kerr (Merry Melodies), v.2 #63 p.9
+B: Athole Coll 1884 p.53
+B: RSCDS 11-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+A \
+| "Dm"D<D E>G "Am"A>G E<G | "Dm"D<D "G"E>G "C"c3 e \
+| "G"d>B g>B "Am"A>G E<G | "Dm"D<D "Em"E>G "Am"A2-A :|
+B \
+| "Am"c>A "G"B>G "Am"A>G "Em"E<B | "F"c>B c>d "C"e>"#"f g<e \
+| "G"d>B g>B "Am"A>G E<G | "Dm"D<D "Em"E>G "Am"A2-A |]
+B \
+| "C"c>d "G"B<g "Am"A>G "Em"E<B | "F"c>B c>d "C"e>"#"f g<e \
+| "G"d>g B<g "Am"A>G E<G | "Dm"D<D "Em"E>G "Am"A2-A |]
+%%center Book11/InvercauldsR_Am_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11116
+T: Knit the Pocky
+T: Lady Mackintosh's Reel
+T: Corney is Coming
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 11-1
+B: Bremner's Collections, 1757
+M: C|
+L: 1/8
+K: Dm
+   A | "Dm"Ddd^c defd | "C"cBAG FGEC | "Dm"Ddd^c defg | "A7"ed^ce "Dm"d2d :|
+|: a | "Dm"defg  afdf | "C"edcg ecge | "Dm"defg  afdf | "C"ecge   "Dm"d2d :|
+%%center Book11/KnitThePocky1_Dm-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11117
+T: Knit the Pocky
+T: Lady Mackintosh's Reel
+T: Corney is Coming
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 11-1
+B: Bremner's Collections, 1757
+M: C|
+L: 1/8
+K: Dm
+   A | "Dm"Ddd^c defd | "C"cBAG FGEC | "Dm"Ddd^c defg | "A7"ed^ce "Dm"d2d :|
+|: a | "Dm"defg  afdf | "C"edcg ecge | "Dm"defg  afdf | "C"ecge   "Dm"d2d :|
+%%center Book11/KnitThePocky1_Dm_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11118
+T: Knit the Pocky
+T: Lady Mackintosh's Reel
+T: Corney is Coming
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 11-1
+B: Bremner's Collections, 1757
+M: C|
+L: 1/8
+K: Dm
+   A | "Dm"Ddd^c defd | "C"cBAG FGEC | "Dm"Ddd^c defg | "A7"ed^ce "Dm"~d2d :|
+|: a | "Dm"defg  afdf | "C"edcg ecge | "Dm"defg  afdf | "C"ecge   "Dm"d2d  :|
+%%center Book11/Knit_the_Pocky-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11119
+T: Knit the Pocky
+T: 8 x 32R 2C (RSCDS Bk 11)
+P: Knit the Pocky
+B: Bremner Colln 1757 via RSCDS
+N: arr. T. Traub 8-25-2004
+R: Reel
+M: 4/4
+L: 1/8
+K: Dm
+|: A|"Dm"Ddd^c defd|"C"cBAG FGEC|"Dm"Ddd^c defg|"A"ed^ce d2 d :|
+|: a|"Dm"defg afdg|"C"edcg ecge|"Dm"defg afdg|"C"ecge d2 d :|
+%%center Book11/Knit_the_Pocky-TT.abc

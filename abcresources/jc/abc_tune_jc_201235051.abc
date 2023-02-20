@@ -1,0 +1,19 @@
+X: 20992
+T: HE LOVES AND HE RIDES AWAY
+Q: "Allegretto"
+%R: jig
+B: "Edinburgh Repository of Music" v.2 p.99 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 6/8
+L: 1/8
+K: C
+G |\
+cdc efg | e2c {d}cBc | (de).d dgf | e3 z2G |\
+(cd).c c'2b | a2g ^fed | (ga).b (de).^f | g3 z2 :|
+|: g |\
+f2f agf | e2g c'2g | agf edc | c3 {dc}B2e |\
+(fe).d (de).f | e2g g2e | (fe).d (de).f | g3 e2g |
+gbc' g2c' | g2e g2a | (gf).e (de).f | e3 g2g |\
+c'2g c'2g | Hc'3 Ha3 | gfe efd | c3 z2 |]

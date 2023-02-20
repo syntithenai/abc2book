@@ -1,0 +1,13 @@
+X:85
+T:Veteran's Q.S.
+C:Moe Levey
+M:6/8
+Q:1/8=300
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d|gfg edB|gfg e2d|gGG GAB|ded d2d|gfg edB|gfg e2d|gBB BAB|DEF G2::
+d|dBG dBG|def g2e|dBG GAB|ABA A2d|dBG dBG|GBd g2e|dBd gdB|def g2:|

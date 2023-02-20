@@ -1,0 +1,15 @@
+X: 243
+T: Kolo Zita
+O: Croatia
+F: http://www.youtube.com/watch?v=gD2KsSljWXo
+F: http://www.youtube.com/watch?v=F6E3uIhq02s
+M: 2/8
+L: 1/16
+Q: 1/4=160
+K: Cdor
+%%MIDI program 1
+%%MIDI bassprog 6
+%%MIDI bassvol 90
+%%MIDI gchord fz
+|:"Bb"F2B2|A2B2| "F"c2d2|e4|"Bb"f2d2|"Bb"e2d2|e2d2|"F"c4:|
+|:"Bb"ffff|ffd2|"F"e2d2|c4|"Bb"e2d2|e2d2|e2d2|"F"c4:|

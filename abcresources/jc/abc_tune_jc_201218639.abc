@@ -1,0 +1,22 @@
+X: 2
+T: the Royal Prince Frederick
+%R: jig
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1765", London 1765, p.1 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1765#
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+Bcd ded | dcB ABc | dBG F2G | A3 D3 |\
+Bcd ded | dcB ABc | dBG E2F | G3 G,3 :|
+|:\
+G,B,D G,B,D | [E3C3] [E3C3] | DFA DFA | [B3G3] [B3G3] |\
+G,B,D G,B,D | [E3C3] [E2C2]B, | A,cB AGF | G3 G,3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Cast off one Cu: lead thro' the bottom and cast up one
+%% .|. lead thro' the top and cast off :|. 6 hands round .|:
+%% and Right hands and left :|:
+%%endtext

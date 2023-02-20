@@ -1,0 +1,20 @@
+X: 1
+T: Skye Air
+C:
+R: air
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+S: BSFC Tune Book p.80 #1
+M: C
+L: 1/16
+K: Em
+%%slurgraces 1
+|:\
+"G"dd3 B3A "Em"B2d2 "C"e4 | "G"g3d "C"e4 "D"B3A "G"G4 |\
+"G"dd3 B3A "Bm"B2d2 "C"e4 | "Em"G4 "Bm"BAGF "Em"B2E2 E4 |
+"G"dd3 B3A "D"B2d2 "C"e4 | "G"g3d "C"{d}e4 "D"B3A "Em"G4 |\
+"D"A3B "G"g4 "B"gfe^d "Em"{d}e4 | "C"G4 "Bm"BAGF "Em"B2E2 E4 :|
+|:\
+"C"e4 e2^d2 "Am"e4 e2^d2 | "Em/G"e3f g4 "D"B3A "G"G4 |\
+"Bm"d4 d2B2 "D"d4 e4 | "Em"G4 "Bm"BAGF "Em"B2E2 E4 |
+"G"{D}d4 {e}d3B "Bm"{D}d4 d3B | "C"d4 e4 "D"B3A "G"G4 |\
+"D"A2B2 "Em"{B}g4 "B"gfe^d "Em"{d}e4 | "C"G4 "Bm"BAGF "Em"B2E2 E4 :|

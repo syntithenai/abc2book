@@ -1,0 +1,54 @@
+
+X: 1
+T: Debka Dayagim
+O: Israel
+I: choreographer S.Hermon, 1969
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS
+L: 1/8
+M: 2/4
+Q: 1/4=120
+K: C
+%%indent 350
+"^intro"\
+| "Dm"{^G}A2 {G}A2 | D2 EF | "G7"ED DG | "C"c4 ||
+|: "C"G/A/G- GF | EF GE | "G7"FE DC | "C"E2 E2 \
+|  "C"G/A/G- GF | EF GE | "Am"EF/E/ DC | "G"D4 |
+| "Dm"FE FG | "F"Ac BA | "G"BG- GA | "Dm"FGE2 \
+| "Dm"D2 D2 | "G"G2 "F"FA | "G [1]"G4- | G4 |
+| "Dm"{^G}A2 {G}A2 | D4 | "G7"G>A GF | "C"ED EC \
+| "Dm"A2 A2 | D2 EF | "G"G2 "F"FA | "G7"G2 AB |
+|[M:3/4] "C"c/d/c- cA "G"B2 | "G"B/c/B- BG "F"A2 \
+|[M:2/4] "F"A/B/A- AF | "C"G/A/G- GE \
+| "G7"F/G/F- FE | "C"E2/FE/ DC |
+| "G7"G2 "F"F>A | "G7"G3 F | "C"E/F/E "G7"D/E/D | "C"C4 :|\
+y8 y8 y8 \
+| "[1]"G/^F/G/A/ B/^A/B/c/ | d/^c/d/e/ f/e/f/g/ |
+
+%%sep 1 1 500
+
+X: 1
+T: Debka Dayagim
+O: Israel
+I: choreographer S.Hermon, 1969
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS
+L: 1/8
+M: 2/4
+Q: 1/4=120
+K: D
+%%indent 350
+"^intro"\
+| "Em"{^A}B2 {A}B2 | E2 FG | "A7"FE EA | "D"d4 ||
+|: "D"A/B/A- AG | FG AF | "A7"GF ED | "D"F2 F2 \
+|  "D"A/B/A- AG | FG AF | "Bm"FG/F/ ED | "A"E4 |
+| "Em"GF GA | "G"Bd cB | "A"cA- AB | "Em"GAF2 \
+| "Em"E2 E2 | "A"A2 "G"GB | "A [1]"A4- | A4 |
+| "Em"{^A}B2 {A}B2 | E4 | "A7"A>B AG | "D"FE FD \
+| "Em"B2 B2 | E2 FG | "A"A2 "G"GB | "A7"A2 Bc |
+|[M:3/4] "D"d/e/d- dB "A"c2 | "A"c/d/c- cA "G"B2 \
+|[M:2/4] "G"B/c/B- BG | "D"A/B/A- AF \
+| "A7"G/A/G- GF | "D"F2/GF/ ED |
+| "A7"A2 "G"G>B | "A7"A3 G | "D"F/G/F "A7"E/F/E | "D"D4 :|\
+y8 y8 y8 \
+| "[1]"A/^G/A/B/ c/^B/c/d/ | e/^d/e/f/ g/f/g/a/ |

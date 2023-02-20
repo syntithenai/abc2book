@@ -1,0 +1,39 @@
+X: 2071
+T: the New Brauls
+%R: branle,march
+B: Henry Playford "Apollo's Banquet", London 1687 (5th Edition)
+F: https://archive.org/details/apollosbanquetco01rugg
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The repeat notation is very ambiguous.
+N: The 2nd and 3rd strains' last bars have very odd bar lengths and ties.
+N: Deleted bar line in 1st measure of "The leading Braul", to match the other measures.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - -
+d |\
+d3e f2g2 | e2 a4 ba | g2fg g3f | e3f g2B2 |\
+c2de e3d | c6 d>c | B2A2 g3a | b2 b4 ag |\
+f2(f/g/a) g3f | e3f ^g2a2 |
+d2c>B B3A | A6 z :: e |\
+e3f edcd | c4 f3c | d2e2 c3B | B3f g2ag |\
+f2g2 e3^d | e4 zfga | b2ag f3g | a3b agf2 |
+g2fg e3d | c2a2 g3f | g2fe e3d | d6- [M:3/2] || d3 ||\
+"_second Braul."\
+ef2 g2 a3b | g4 f2g2 e3d | c3c d2e2 f3g |\
+B3e d2c2 B3A | A3B c2d2 e3f |
+g3a f2b2 ^g3(f/g/) |\
+a3f e2d2 c3d | B3c d2e2 f3c | d3- || d6 ||\
+[M:3/4] "_The leading Braul."\
+d2 a2 b2 g3 f g2 | fg g3 f e2 c4 | d2 B2 e2 c4 A2 |
+d2 e3 f g3 a f2 | b2 g3 f e3 f ^g2 | a2 a3^g a6 :|\
+|:\
+e2f2c2 d3ec2 | B2f2ga b3fg2 | (fe)e3^d e3fed |
+c2d2cB A3GF2 | GAB2e>d c3dec | d2d3c Hd6 |]\
+[M:C|] "_Gavot."\
+d3d d2c>d | e3e e2fg | a3a a2gf | e2d2 c4 :|
+|:\
+e3e f2c2 | d3e c2B2 | g3a bfg2 | g3f e4 |\
+a3g f2(dc) | c3d B2A2 | d3B e>cd2 | d3c Hd4 |]
+% y8 y8 y8 y8 y8 y8 y8 y8
+% - - - - - - - - - -

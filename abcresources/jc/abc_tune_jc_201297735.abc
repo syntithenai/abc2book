@@ -1,0 +1,82 @@
+X: 1
+T: Koiviston polska   [Am]
+O: Trad Finland
+R: polska
+M: 3/4
+L: 1/16
+K: Am
+|: "Am"efed cdcB A2c2 \
+| "E7"BcBA ^GAG^F E2FG \
+| "Am"A2^GA B2AB c2Bc \
+| "Dm"d2cd "E7"e4 [e4^G4] \
+| "C"g4 gagf e2e2 \
+| "G7"f2f2 f2ed "C"e2c2 |
+| "C"g4 gagf e2e2 \
+| "G7"f2f2 f2ed "E7"e2d2 \
+| "Am"cBcd e2c2 "(Dm)"B2A2 \
+| "E7"cBA^G G4 "Am"A2B2 \
+| "Am"cBcd e2c2 "(Dm)"B2A2 \
+| "E7"cBA^G G4 "Am"A4 |]
+
+%%sep 1 1 500
+X: 2
+T: Koiviston polska   [Dm]
+O: Trad Finland
+R: polska
+M: 3/4
+L: 1/16
+K: Dm
+|: "Dm"ABAG FGFE D2F2 \
+| "A7"EFED ^CDC=B, A,2B,C \
+| "Dm"D2^CD E2DE F2EF \
+| "Gm"G2FG "A7"A4 [A4^C4] \
+:|"F"c4 cdcB A2A2 \
+| "C7"B2B2 B2AG "F"A2F2 |
+| "F"c4 cdcB A2A2 \
+| "C7"B2B2 B2AG "A7"A2G2 \
+| "Dm"FEFG A2F2 "(Gm)"E2D2 \
+| "A7"FED^C C4 "Dm"D2E2 \
+| "Dm"FEFG A2F2 "(Gm)"E2D2 \
+| "A7"FED^C C4 "Dm"D4 |]
+
+%%sep 1 1 500
+X: 3
+T: Koiviston polska   [Em]
+O: Trad Finland
+R: polska
+M: 3/4
+L: 1/16
+K: Em
+|: "Em"BcBA GAGF E2G2 \
+| "B7"FGFE ^DED^C B,2CD \
+| "Em"E2^DE F2EF G2FG \
+| "Am"A2GA "B7"B4 [B4^D4] \
+:| "G"d4 dedc B2B2 \
+| "D7"c2c2 c2BA "G"B2G2 |
+| "G"d4 dedc B2B2 \
+| "D7"c2c2 c2BA "B7"B2A2 \
+| "Em"GFGA B2G2 "(Am)"F2E2 \
+| "B7"GFE^D D4 "Em"E2F2 \
+| "Em"GFGA B2G2 "(Am)"F2E2 \
+| "B7"GFE^D D4 "Em"E4 |]
+
+%%sep 1 1 500
+X: 4
+T: Koiviston polska   [Gm]
+O: Trad Finland
+R: polska
+M: 3/4
+L: 1/16
+K: Gm
+|:"Gm"dedc BcBA G2B2 \
+| "D7"ABAG ^FGF=E D2EF \
+| "Gm"G2^FG A2GA B2AB \
+| "Cm"c2Bc "D7"d4 [d4^F4] \
+| "Bb"f4 fgfe d2d2 \
+| "F7"e2e2 e2dc "Bb"d2B2 |
+| "Bb"f4 fgfe d2d2 \
+| "F7"e2e2 e2dc "D7"d2c2 \
+| "Gm"BABc d2B2 "(Cm)"A2G2 \
+| "D7"BAG^F F4 "Gm"G2A2 \
+| "Gm"BABc d2B2 "(Cm)"A2G2 \
+| "D7"BAG^F F4 "Gm"G4 |]

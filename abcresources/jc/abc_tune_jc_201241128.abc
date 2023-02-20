@@ -1,0 +1,31 @@
+X: 4251
+T: Mr Frasers' Favorite    a Strathspey
+C: by Nath. Gow
+%R: strathspey, air
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.25 #1 (top 2 staffs continued from p.24)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow"
+K: Em
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+% Voice 1 reformatted slightly to make the note spacing more equal.
+V: 1 staves=2
+e |\
+B<B TB>e {ef}g>e f>^d | e>B {^c}=d>B (A/d/)A/F/ D>d |\
+B<B ~Be/f/ g>e f>^d | e>B (A/B/d/)>F/ {F}E2 Ee ||\
+B<B TB>e {ef}g>e f>^d | e>B {^c}=d>B (A/d/)A/F/ DG/F/ |
+Ee/f/ g>e f>^d e>B | =d>B (B/A/)(G/F/) {F}E2 E |[| B |\
+E<E {EF}G>F (E.B)(G.B) | TF>A (B/^c/d/B/ A/d/F/A/) DG/F/ |\
+E<E {EF}G>F (EB)(GB) |
+                       (e/g/f/a/) (g/e/).f/.^d/ | eEE>G ||\
+E<E {EF}G>F (E.B)(G.B) | TF>A (B/^c/)(d/B/) (A/d/)(A/A/)  DG/F/ |\
+"_Expr.o"(EGB).e (B^df).a | (g/e/f/g/) (g/e/)(f/^d/) eEE |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | e2e2 e2B2 | g2fg f2d2 | e2e2 e2f2 | g2ab e2e2 || e2E2 e2f2 |
+g2fg f2d2 | e2e2 B2e2 | fg ab e2e |[| z | e2B2 e2e2 | d2d2 d2d2 | e2B2
+e2g2 | a2bB e2E2 || e2e2 e2e2 | d2d2 d2d2 | "_Expr.o"e2e2 B2^d2 | ea bB e2[eE] |]

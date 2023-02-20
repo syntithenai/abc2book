@@ -1,0 +1,17 @@
+X: 704
+T: Pretty Peggy   #2
+N: Variant of tune 696, Bill Clancy's Delight.
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #704
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0704/oneill-1001-0704-1.abc
+M: C|
+L: 1/8
+K: D
+"^A"[|] A \
+|: d2(fd) AFED | d2(fd) egfe |[1 d2fd AFDF | GBFA EDCE :|[2 (3fga (3gec (3dcB (3ABG | FDED (A,D)D |]
+"^B"\
+[| A | (3FED (AD) BDAD | (3FED (AD) CEEG | (3FED (AD) BDAD | (3GFE FD A,DD ||
+"^C"\
+|| A | (3FED (dD) cDBD | AD (3FED CEEG | FAdf ecdB | AFGE (FD)D |]

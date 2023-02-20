@@ -1,0 +1,38 @@
+X:1
+T: Queensborough
+N:
+C:
+S:Three times
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 116
+%W: A
+% voice 1 (1 lines, 25 notes)
+K:G
+M:4/4
+L:1/16
+d2 |d2 B2 A2 G2 G4 D4 |D2 E2 D2 B,2 D6 D2 |D2 G2 G2 F2 E4 G4 |c3 d c2 B2 A6 B2 |
+%W:
+% voice 1 (1 lines, 27 notes)
+c2 e2 g2 e2 d2 B2 d4 |G2 B2 d2 B2 A2 G2 E4 |e6 d2 e f g2 G2 A2 |c2 B2 A3 G G6 d2 |
+%W:
+% voice 1 (1 lines, 24 notes)
+d2 B2 A2 G2 G4 D4 |D2 E2 D2 B,2 D6 D2 |D2 G2 G2 F2 E4 G4 |c3 d c2 B2 A6 B2 |
+%W:
+% voice 1 (1 lines, 27 notes)
+c2 e2 g2 e2 d2 B2 d4 |G2 B2 d2 B2 A2 G2 E4 |e6 d2 e f g2 G2 A2 |c2 B2 A3 G G6 z2 |
+%W: B
+% voice 1 (1 lines, 26 notes)
+g4 g2 a b g6 e2 |g2 e2 d2 B2 A6 G2 |E2 G2 G2 A2 B4 A2 G2 |E2 G2 G2 A2 B4 A2 G2 |
+%W:
+% voice 1 (1 lines, 24 notes)
+d6 e2 d2 e2 d2 B2 |A2 B2 c2 d2 e6 d2 |e6 d2 e2 f2 g2 B2 |c2 B2 A3 G G6 z2 |
+%W:
+% voice 1 (1 lines, 26 notes)
+g4 g2 a b g6 e2 |g2 e2 d2 B2 A6 G2 |E2 G2 G2 A2 B4 A2 G2 |E2 G2 G2 A2 B4 A2 G2 |
+%W:
+% voice 1 (1 lines, 23 notes)
+d6 e2 d2 e2 d2 B2 |A2 B2 c2 d2 e6 d2 |e6 d2 e2 f2 g2 B2 |c2 B2 A2 G2 G6 ||

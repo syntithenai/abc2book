@@ -1,0 +1,28 @@
+X: 599
+T: I'm Asleep and Don't Awaken Me.
+T: ta me mo \.codla\.d 's na duisgui\.g me
+R: air, waltz
+%S: s:6 b:16(8+8+8+8)
+B: O'Neill's 1850 #599
+Z: John Walsh (walsh@math.ubc.ca)
+Q: "Moderate"
+M: 3/4
+L: 1/8
+%Q: 110
+K: F
+(F>D) |\
+  (C>D) (.F2.F) z | F4 F2 | G2(F//G//A3/) (A//G//F3/) | D4 C2 |\
+  (D2 F2) .F2 | (A2 c2) (d//c//A3/) | T(G3F) (A//G//F3/) | F4 :|
+|| (c>d) |\
+  {d}e4 (ef/e/) | {^c}d4 (d_e/d/) | {=B}c4 (d>e) | (d2 c2) .A2 |\
+  "~"c2 (d2 f2) | Tf4 (d>c) | .A2 .G2 .F2 | (F>>G) (D>>F) C2 |
+| {d}e4 (f>>_e) | {^c}d4 (=c>A) | (c>>d) (f>>d) (c>>A) | (G>>F) (D>>F) C2 |\
+  "~#"D2 (F2 f2) | [d2D2] (c>>A) (G>>F) | T(G4 F2) | F4 |]
+|: (F//G//A3/) |\
+  B2 (cB)(AG) | A2 (BA)(GF) | (G>>A) (c>>G) (A>>F) |\
+  T(D4 C2) | .D2 .F2 .f2 | d2 (c<<A) (G<<F) | T(G4 F2) | F4 :|
+|| (C>D) |\
+  [_E4C4] [EC] z | [D4B,4] [DB,] z | C4 C z | C2 A,2 C2 |\
+  "~"C2 D2 F2 | "~"F3G (F//G//A3/) | AG (F//G//A3/) (A//G//F3/) | D4 cd |
+| [_e4c4] [e2c2] | [d4B4] (c<<A) | (c>>d) (f>>d) (c>>A) | (G>>F) (D>>F) C2 |\
+  "~"D2 F2 f2 | d2 (cA) !pp!(GF) | TG3 F (A//G//F3/) | F4 |]

@@ -1,0 +1,16 @@
+X:138
+T:Cold Weather Waltz
+L:1/8
+M:3/4
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%MIDI beat 100 95 80
+Q:1/4=112
+%%MIDI chordname dim 0 3 6 9
+H:For the dance by Fried de Metz Herman
+K:D
+P:A
+|: "D"D2 F2 A2 | "D"A3/B/ AF "A"ED | "D"F2 A2 "G"(3Bcd | "A7"e4 A2 |\
+"D"d3/c/ de fg | "A"e2 A2 f3/e/ | "Bm"d2 c3/B/ "E7"Bc |1 "A7"A3G FE :|2 "A7"A3B cd |
+P:B
+|: "A"e2 e3/f/ ed | "A7"c2 e2 a2 | "D"f2 d2 (3fga | "G"b4 g2 |\
+"A"e2 c2 BA | "D"f4 d2 | "A7"e2 (3gfe cA | "D"d6 :|

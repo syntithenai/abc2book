@@ -1,0 +1,20 @@
+X: 3133
+T: Mr Dun's Frolick.    a Reel.
+%R: reel
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.13 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has an initial repeat but no final repeat; not fixed.
+N: (Pick whichever you like, for either 16 or 24 bars.)
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - -
+V: 1 staves=2
+f |\
+dF F/F/F cF A2 | cF F/F/F {d}c>BAf | cF F/F/F cFAc | !f!{c}B>AGA Bcd :: e | Tf>gfd Tc>dcA | fgfd e>fga |
+Tf>gfd Tc>dcA | gG G/G/G TB>cde || Tf>gfd Tc>dcA | fgfd e>fga | fadf cfAf | gG G/G/G TB>cd |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | f2f2 f2f2 | f2f2 f2f2 | f2f2 f2f2 | !f!g2g2 g2g :: z | f2f2 f2f2 | f2f2 c'2c2 |
+f2f2 f2f2 | g2g2 g2g2 || f2f2 f2f2 | f2f2 c'2c2 | f2b2 a2f2 | g2g2 g2g |]

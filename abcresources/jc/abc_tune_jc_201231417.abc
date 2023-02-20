@@ -1,0 +1,27 @@
+X: 151
+T: LOCH EARN
+C: NATH. GOW
+R: Reel
+B: Glen Collection p.15 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: G
+V: 1
+d |\
+[g2B2D2G,2]dB G2BG | E2(AE) FDDd | g2dB G2BG | (EA)FD G2G :|
+d |\
+(ef).g.e (fg).a.b | (Tgfg).e fddf | (ef)ge (fg)ag | (Tfe)fd g2Bd |
+efge dBgB | ceBd .A(FTED) | GABG EGce | (dB)cA G2G |]
+V: 2
+z |\
+G2[b2g2d2] [b2g2d2][b2g2d2] | c2[c'2a2e2] d2[c'2a2d2] |\
+[b2g2][b2g2d2] [b2g2d2][b2g2d2] | c2d2 g2[bg] :|
+z |\
+c2[c'2g2] d2[c'2a2] | [b2g2][b2g2] [a2f2d2][a2d2] |\
+c2[c'2g2] d2[c'2a2] | [c'2a2d2][c'2a2d2] [b2g2][b2g2] |
+c2[g2e2] [G2][g2d2] | [g2c2][g2d2] [f2d2][f2d2c2] |\
+[g2B2][g2B2] [g2c2][g2c2] | [b2g2d2][a2f2d2] [b2g2][gdG] |]

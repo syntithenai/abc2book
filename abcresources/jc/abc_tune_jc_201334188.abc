@@ -1,0 +1,12 @@
+X:1
+T:Saut du Lapin
+R:Reel
+M:C|
+%%printtempo 0
+Q:180
+K:G
+"G"BcBA GFGB|d2 BG "D"A3A|ABcB ABcd|e2f2e2d2|
+"G"BcBA GFGB|d2 BG "D"A3A|ABcB ABcd|1e2f2 "G"g4:|2e2f2 "G"g2||
+|:ef|\
+"G"gdBG d2 ef|gdBG d2d2|"D"Dddd Dddd|Dddd Bdef|
+"G"gdBG d2 ef|gdBG d2d2|"D"Dddd Dddd|1e2f2 "G"g2:|2e2f2 "G"g4|]

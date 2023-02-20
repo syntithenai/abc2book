@@ -1,0 +1,19 @@
+X: 187
+T:Ikariotikos
+O:Greece
+M:4/4
+L:1/8
+Q:1/4=180
+K:Cm
+%%MIDI program 15
+%%MIDI bassprog 32
+%%MIDI chordprog 117
+"Gm"B2 cd "Cm"edef|"Gm"d3e "Cm"de c2|\
+"Gm"B2 cd "Cm"edef|"Gm"d3e "Cm"de c2|
+"Gm"B2 cd "Cm"edef|"Gm"d3e "Cm"de c2|\
+"Gm"B2 cd "Cm"edef|"Gm"d3e "Cm"de c2|
+%%MIDI program 110
+"Cm"c2 gg "Gm"g2 g2| "Bb"fgfe "Gm"d2 g2|\
+"Cm"c2 gg "Gm"g2 g2| "Bb"fgfe "Gm"d2 g2|
+"Cm"c2 gg "Gm"g2 g2| "Bb"fgfe "Gm"d2 g2|\
+"Cm"c2 gg "Gm"g2 g2| "Bb"fgfe "Gm"d2 g2|

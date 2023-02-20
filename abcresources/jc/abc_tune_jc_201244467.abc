@@ -1,0 +1,24 @@
+X:1
+T:AIR FORCE
+M:C
+L:1/8
+Q:80
+C:
+S:MARCH
+K:HP
+c3/2d/2{g}e4((3dcB) | \
+{g}c2d2e2{A}e2 | \
+f3/2g/2a4((3BAf) |
+{g}e4{A}e4 | \
+{g}c3/2d/2{g}e4((3dcB) | \
+{g}c2d2e2{A}e2 |
+g3/2a/2B4((3agf) | \
+{g}e4{A}e4 | \
+{g}c3/2d/2{g}e4((3dcB) |
+{g}c2d2e2{A}e2 | \
+f3/2g/2a4((3fga) | \
+g6c2 |
+A3{G}AB3{G}B | \
+c3{G}cd3{G}d | \
+((3cBA)c3/2A/2c3/2A/2B2 |
+A4{GAG}A2|]

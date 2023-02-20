@@ -1,0 +1,21 @@
+X: 1
+T: Brumley Brae
+N: The source had "(Recommended Version)" after the title.  Recommended by who(m)? ;-)
+C: William McPherson (1919-1974)
+R: reel
+S: printed page in Concord Slow Scottish Session collection
+Z: 2015 by John Chambers <jc:trillian.mit.edu>
+N: 2nd strain rewritten as 4 repeated bars + two 4-bar endings, for 5 staves.
+M: 4/4
+L: 1/8
+K: D
+A  |\
+"D"{c}d2cd AFD(d | cd)AF DFAF | "Em"EB, B,/B,/B, GFED | "A7"CEGB =cA^cA |
+y3 |\
+"D"{c}d2cd AFD(d | cd)AF DFAF | "Em"GBgf "E7"ecdB | "A7"AFGE "D"D3 :|
+|: (a |\
+"D"^ga)fd A(a^ga) | fdA(a ^ga)fd | "Em"eB B/B/B bagf | "E7"edcB "A7"A
+[1 a^g(a |\
+"D"^ga)fd A(a^ga) | fdA(a ^ga)fd | "Em"eB B/B/B BABG | "A7"FDEC D3 :|
+[2 ^ABc |\
+"D"{c}d2cd AFD(d | cd)AF DFAF | "G"[G3G,3]B, "A7"A,CEG | "(D)"FD"A7"EC "D"D2 |]

@@ -1,0 +1,40 @@
+X:1
+T: A Measure for Margaret
+N:
+C:Charles Bolton
+S: 3 times A B1 B2 ; then A
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 200
+%W: A
+% voice 1 (1 lines, 39 notes)
+K:D
+M:4/4
+L:1/16
+F2 G2 |A4 A4 A2 G2 F2 G2 |A4 A8 A4 |d4 d4 d2 c2 B4 |c12 E2 F2 |G4 G4 G2 F2 E2 F2 |G4 G2 A2 G2 F2 E2 F2 |G4 B4 A4 G4 |F12 F2 G2 |
+%W:
+% voice 1 (1 lines, 37 notes)
+A4 A4 A2 G2 F2 G2 |A4 A8 A4 |f4 f4 f2 e2 d4 |B12 B2 c2 |d4 c2 d2 e2 d2 c2 B2 |A4 d4 F4 B4 |A2 B2 A2 G2 F4 E4 |D12 =F2 G2 |
+%W: B1
+% voice 1 (1 lines, 33 notes)
+K:d
+A4 A4 d4 A4 |c4 B4 G4 A4 |A2 B2 A2 G2 F4 G4 |A12 F2 G2 |A4 A4 d4 =f4 |e4 d4 B4 d4 |c2 d2 c2 B2 A4 B4 |c12 c4 |
+%W:
+% voice 1 (1 lines, 31 notes)
+a4 a4 a2 g2 =f4 |g4 d8 d4 |g4 g4 f2 e2 d4 |c12 A4 |f4 f4 f2 e2 d4 |e4 d4 B4 G4 |A4 G4 F4 E4 |D12 F2 G2 |
+%W: B2
+% voice 1 (1 lines, 33 notes)
+A4 A4 d4 A4 |c4 B4 G4 A4 |A2 B2 A2 G2 F4 G4 |A12 F2 G2 |A4 A4 d4 =f4 |e4 d4 B4 d4 |c2 d2 c2 B2 A4 B4 |c12 c4 |
+%W:
+% voice 1 (1 lines, 29 notes)
+a4 a4 a2 g2 =f4 |g4 d8 d4 |g4 g4 f2 e2 d4 |c12 A4 |f4 f4 f2 e2 d4 |e4 d4 B4 G4 |A4 G4 F4 E4 |D12 ||
+%W: A  to    finish
+% voice 1 (1 lines, 39 notes)
+K:D
+F2 G2 |A4 A4 A2 G2 F2 G2 |A4 A8 A4 |d4 d4 d2 c2 B4 |c12 E2 F2 |G4 G4 G2 F2 E2 F2 |G4 G2 A2 G2 F2 E2 F2 |G4 B4 A4 G4 |F12 F2 G2 |
+%W:
+% voice 1 (1 lines, 35 notes)
+A4 A4 A2 G2 F2 G2 |A4 A8 A4 |f4 f4 f2 e2 d4 |B12 B2 c2 |d4 c2 d2 e2 d2 c2 B2 |A4 d4 F4 B4 |A2 B2 A2 G2 F4 E4 |D12 ||

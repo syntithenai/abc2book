@@ -1,0 +1,17 @@
+X: 677
+T: the Second Wedding
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #677
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0677/oneill-1001-0677-1.abc
+N: It's not clear whether this tune should end with the A or B strain; there's no fermata.
+M: C|
+L: 1/8
+K: G
+"^A"[|] (dc) !segno!\
+      | BGAG BGAF | G2(Bd) gedc | BGAG BGAG | EAAG AB ||
+|| cA | BGAG BGAF | G2(Bd) gedc | BGAG BGAG | FDEF G2 |]
+"^B"\
+[| (Bd) | gfge fgaf | g2(bg) afdf | gfge fgaf | bgef g2 ||
+|| (Bd) | gfge fgaf | g2(bg) afdf | {a}gfge {g}fefd | egfa ged!segno!c |]

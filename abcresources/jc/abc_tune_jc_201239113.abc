@@ -1,0 +1,31 @@
+X: 32111
+T: CELIA SCHOTTISCHE
+C: John Taylor
+R: shottish
+B: K\"ohler's Violin Repository, v.3, 1885 p.211 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+|:\
+(ve>f)g>a g<c'e'2 | (d'<c')e>f a2g2 |\
+f>dB>c d<fb2 | (a>g)e>f g<c'e'2 |\
+(e<f)g<a g<c'e'2 | (d'<c')e>f a2g2 |
+a>g^f>g =f>dA>B | c2c2c2z2 :|[K:G]\
+((3ded)^c>d b2g>B | d2e>B c4 |\
+((3cdc)B>c a2g>c | B2e>d d4 |
+((3ded)^c>d b2g>f | ((3efe)a>vb c'3d' |\
+c'>ba>g f>ga>f |[1 g2g2g2z2 :|[2 (.g2.g2)g2=f2 ||[K:C]\
+(ve>f)g>a g<c'e'2 | (d'<c')e>f a2g2 |
+f>dB>c d>fb2 | (a>g)e>f g<c'e'2 |\
+(e<f)g<a g<c'e'2 | (d'<c')e>f a2g2 |\
+a>g^f>g =f>dA>B | c2c2c2 H|][K:F]
+P: Trio.
+(uAB) |\
+c4- c(agf) | d4- d(bgf) | .e2.f2 .g2.f.g | .a2.f.d .c(BAB) |\
+c4- c(agf) | d4- d(bgf) | e2a>d' c'2g>a |[1 f2f2f2 :|[2 f2f2f2 |:
+vTa2f>c Ta2f>c | b2b>a g4 | c'2b>a g2f>e | d2c=B (dc)Ac | Ta2f>c Ta2f>c |\
+b2b>a g4 | (d'c')(d'c') bgde |[1 f2f2f2 :|[2 f2f2 f(cAB) ||
+c4- c(agf) | d4 d(bgf) | .e2.f2 .g2.f.g | .a2.f.d c(BAB) |\
+c4- c(agf) | d4 d(bgf) | e2a>d' c'2g>a | f2f2f2 "D.C."z2 |]

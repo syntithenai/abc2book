@@ -1,0 +1,27 @@
+X: 073
+T: The new rigged Ship
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Abraham Mackintosh "A Collection of Strathspeys, Reels, Jigs &c.", Newcastle, after 1797, p.7
+F: http://imslp.info/files/imglnks/usimg/a/a8/IMSLP80796-PMLP164326-Abraham_Mackintosh_coll.pdf
+K: C
+V: 1
+G |\
+c2c c2e | c2c c2e | dBG Gge | dBG GAB |\
+c2c c2e | cBc dBG | ABc dBG | c3  c2 :|
+e/f/ |\
+g2e g2e | c2c ceg | a2f a2f | d2d def |\
+g2e g2e | c2c dBG | ABc dBG | c3  cef |
+gfe gfe | cdc ceg | agf agf | ded def |\
+gfe gfe | cde dBG | ABc dBG | c3  c2 |]
+V: 2 clef=bass middle=d
+z |
+cgc' cgc' | cgc' cgc' | g3 b2c' | g3 g2f |\
+e3 c3 | e3 g2e | f2e d2g |  c'ge c2 :|
+z |\
+[c3C3] [c3C3] | [e3E3] [e3E3] | [f3F3] [f3F3] | [g3G3] [g3G3] |\
+c'3 c3 | e3 g2e | f2e d2g | c'ge c2z |
+[c3C3] [c3C3] | [e3E3] [e3E3] | [f3F3] [f3F3] | [g3G3] [g3G3] |\
+c'3 c3 | e3 g3 | f2e f2g | ceg c'2 |]

@@ -1,0 +1,22 @@
+X: 12081
+T: Eske Side
+C: James Oswald
+%R: air, waltz
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.8 #1
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"A2 |\
+d4(d/e/)f | {f}e2(dc)(BA) | (B2c2)d2 | {F2}TE4D2 |\
+(FG)A2B2 | A4B2 | d3efg | {f2}e4 (d>e) |\
+(f>g)(f>e)(d>c) | (B2c2)d2 |
+A2(BA)(GF) | {F2}TE4D2 |\
+D2F2A2 | (=c2B2)d2 | A2(a<f) (e>f) | d4 :: (fg) |\
+a4(g/a/)b | a2(gf)(ef) | d3efg | {fg}a4d2 |\
+c2B2c2 |
+{f}e2(dc)(BA) | g2(a>g)(f>g) | {f2}e4d>e |\
+fga2b2 | a3d b>a | a3fga | {ga}b4a2 |\
+(ba)(gf)(ed) | (B2c2)d2 | {B}A2(GF)(EF) | D4 :|

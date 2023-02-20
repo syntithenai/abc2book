@@ -1,0 +1,24 @@
+X:1
+T:These Are My Mountains
+M:3/4
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+[| e | \
+{gef}((3edc){gBd}B2{G}A2 | \
+{ag}((3agf){gef}e2{A}e2 | \
+{g}((3fga){gef}e2{gcd}ce |
+{gef}((3e{gcd}c{e}A){GdG}B2{GdG}((3Be{gef}edc){gBd}B2{G}A{GAG}A | \
+{g}((3cde){g}f2{e}fa | \
+{g}((3agf){gef}e2{gcd}c{e}A |
+{gde}((3d{gcd}cB){G}A2{GAG}A|] [ | \
+e | \
+{g}((3ABc){gBd}B2{G}A{GAG}A | \
+{g}((3def){gef}e2{A}e2 |
+{g}((3fga){gef}e2{gcd}ce | \
+{gef}((3e{gcd}c{e}A){GdG}B2{GdG}((3Be{g}ABc){gBd}B2{G}A{GAG}A | \
+{g}((3cde){g}f2{e}fa |
+{g}((3agf){gef}e2{gcd}c{e}A | \
+{gde}((3d{gcd}cB){G}A2{GAG}A|]

@@ -1,0 +1,892 @@
+
+X: 0000
+T: The Golden Book of Favorite Songs
+B: The Hall & McCreary Co. "The Golden Book of Favorite Songs" 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+K:
+% %textfont Times-Roman 15
+%%center THE GOLDEN BOOK
+%%center of
+%%center FAVORITE SONGS
+%%center Revised and Enlarged
+%%center ------------
+%%center A Treasury of the Best Songs of Our People
+%%center (202 songs, 192 of which are with music)
+%%center ------------
+%%center Compiled and edited by
+%%vskip 8pt
+%%center John w. Beattie
+%%center Director of Public Shool music, Grand Rapids, Michigan
+%%vskip 8pt
+%%center William Breach
+%%center Director of School and Community Music, Winston-Salem, North Carolina
+%%vskip 8pt
+%%center Mabelle Glenn
+%%center Director of Public School Music, Kansas City, Missouri
+%%vskip 8pt
+%%center Walter J. Goodell
+%%center Composer and Harmonist, Chicago, Ilinois
+%%vskip 8pt
+%%center Edgar B. Gordon
+%%center Bureau of Extension, University of Wisconsin, Madison, Wisconsin
+%%vskip 8pt
+%%center Norman H. Hall
+%%center Executive Secretary, National Week of Song, Chicago, Ilinois
+%%vskip 8pt
+%%center Ernest G. Hesser
+%%center Director of Public School Music, Indianapolis, Indiana
+%%vskip 8pt
+%%center E. Jane Wisenall
+%%center Teacher of Music, Woodward High School, Cincinnati, Ohio
+%%vskip 8pt
+%%center (Fifteenth Edition -- Revised)
+%%center ------------
+%%center HALL & McCREARY COMPANY, CHICAGO
+
+%%newpage
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1171
+T: The Bull-Dog
+C:
+O: College Song
+Q:
+%R: song, march
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Ab
+%%continueall 1
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+"^MALE VOICES"\
+z2 AB | cc c>c | c-c z2 | z4 | z2 EG | BB B>B | B-B z2 | z4 | Hz2 |]
+w: 1.~Oh! the bull-dog on the bank,*         Oh! the bull-dog on the bank,*
+w: 2.~Oh! the bull-dog stoop'd to catch him, Oh! the bull-dog stoop'd to catch him,
+w: 3.~Says the mon-key to the owl:*          Says the mon-key to the owl:*
+w: 4.~Pha-raoh's daugh-ter on the bank,*     Pha-raoh's daugh-ter on the bank,*
+%
+"^CHORUS  Lively  (Male Quartette)"\
+!f![cA][dB] | [ec][ec] [ec]>[ec] | [e-c-][ec] [dB][cA] | [fd][fd] [fd]>[fd] | [f2d2] z[fd] |
+w: Oh! the bull-dog on the bank,*         And the bull-frog in the pool,    The
+w: Oh! the bull-dog stoop'd to catch him, And the snap-per caught his paw,  The
+w: Says the mon-key to the owl:*         "Oh!* what'll you have to drink?" "Why
+w: Pha-raoh's daugh-ter on the bank,*     Lit-tle Mo-ses in the pool,       She
+%
+   [e/-c/-][e/-c/-][ec] [ec]>[ec] | [ec][dB] z[dB] | [cA][dB] [ec][dB] | [c2A2] |:
+w: bull-*dog called the bull-frog,   A green old wa-ter-fool.
+w: pol-ly-wog died a laugh-ing,      To see him wag his jaw.
+w: since* you are so very kind,      I'll take a bottle of ink."
+w: fish'd* him out with~a tele-graph~pole, And sent him off to school.
+%
+   [EE][AA] | [c2c2][c2c2] | [cc]>[BB] [cA][dF] | ([c4-E4] | [c2A2]) [BG][cA] |
+w: ~    ~   ~   ~  ~  ~  ~  ~  ~  ~ ~    ~	% (spacer to align the rest of the words with the 2nd verse)
+w: Sing-ing tra la la la la la la,* Sing-ing
+w: ~    ~   ~   ~  ~  ~  leil-i-o,*  ~   ~	% It's not clear when this should be sung.
+   [d2B2] [d2B2] | [dB]>[fd] [ec]>[dB] | [e4-c4-] | [e2c2] [cA][dB] |
+w: ~   ~  ~  ~  ~  ~  ~  ~ ~    ~
+w: tra la la la la la la,* Sing-ing
+w: ~   ~  ~  ~  leil-i-o,* ~    ~
+   (3([ec][ec][ec]) [ec]>[ec] | [e2c2] [dB][cA] | (3([fd][fd][fd]) [fd]>[fd] | [f4d4] |
+w: ~   ~  ~  ~  ~  ~   ~    ~   ~   ~   ~  ~  ~ ~
+w: tra la la la la la, sing-ing tra la la la la la,
+%: ~ ~ ~ ~ ~ ~ ~ ~  ~ ~ ~ ~ ~ ~
+   (3([fd][ec][ec]) [e2c2] | (3([ec][dB][dB]) [d2B2] | (3([dB][dB][cA]) | [ec]>[dB] | !pp![c4A4] :|
+w: ~   ~  ~  ~   ~   ~  ~  ~   ~   ~  ~  ~  ~  ~.
+w: Tra la la la, tra la la la, tra la la la la la.
+w: ~   ~  ~  ~   ~   ~  ~  ~   ~   ~  ~  leil-i-o.
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z4 | z4 | z2 "^Solo, First Bass"ab | c'a c'a | e2 z2 | z4 | z2 "^Solo, Second Bass"ee | ed "^rit.ad lib."cB | HA2 |]
+w: | | And the bull-frog in the pool,     And the bull-frog in the pool,
+w: | | And the snap-per caught his paw,   And the snap-per caught his paw,
+w: | | "Oh!* what'll you have to drink?" "Oh!* what'll you have to drink?"
+w: | | Lit-tle Mo-ses in the pool.        Lit-tle Mo-ses in the pool.
+%
+!f![eA][eA] | [eA][eA] [eA]>[eA] | [e-A-][eA] [aA][aA] | [ad][ad] [ad]>[ad] | [a2d2] z[ad] |
+[a/-e/-][a/-e/-][ae] [ae]>[ae] | [ae][ge] z[ge] | [ae][ge] [eE][eE] | [e2A2] |:
+%
+   [cA][cA] | [e2A2] [e2A2] | [eA]>[dA] [eA][fA] | [e4-A4-] | [e2A2] [eA][eA] |
+   [e2e2] [e2e2] | [ee]>[ee] [ee]>[ee] | [e4-A4-] | [e2A2] [eA][eA] |
+   (3([eA][eA][eA]) [eA]>[eA] | [e2A2] [aA][aA] | (3([ad][ad][ad]) [ad]>[ad] | [a4d4] |
+   (3([ae][ae][ae]) [a2e2] | (3([ge][ge][ge]) [g2e2] | (3([ge][ge][ae]) [ge]>[ge] | !pp![e4A4] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1181
+T: Sailing
+C: GodfreyMarks
+%R: song, jig
+B: "The Golden Book of Favorite Songs", 1923 (p.118 and top of p.119)
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+N: Only the vocal part(s) are transcribed here. See the "V2" version for the piano part.
+M: 6/8
+L: 1/8
+K: C
+%%continueall 0
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G | G3- G2E | C3- C2E | G3 A3 | c3- c2c | B3- B2A | G3- G2A | G3 D3 | A3- A2 G |
+w: 1.~Y'heave ho!* my lads,* the wind blows free,* A pleas-*ant gale* is on our lee;* And
+w: 2.~The sail-*or's life* is bold and free,* His home* is on* the roll-ing sea;* And
+    G3- G2E | C3- C2E | G3 A3 | c3- c2c | B3- B2^F | G3- G2B | d3- d2(A/B/) | G3- G2G | F3 d3 |
+w: soon* a-cross* the o-cean clear* Our gal-*lant bark* shall brave-*ly* steer.* But ere we
+w: nev-*er heart* more true or brave* Than his* who launch-*es on* the* wave;* A-far he
+    d3- d2F | E2D E2A | G3- G2G | F3 d3 | d3- d3F | E2D E2A | G3- G2z |
+w: part* from Free-dom's shores to-night,* A song we'll sing* for home and beau-ty bright.*
+w: speeds* in dis-tant climes to roam,* WIth joy-ous song* he rides the spark-ling foam.*
+     c3 ABc | B3 E2E | A2A/A/ (FG)A | HG3 E2D | C2D E2D | C2D E2A | (^G3 =G3) ||
+w: Then here's to the sail-or and here's to the sol-*dier, too. Hearts will beat for him up-on the wa-ters blue.*
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%X: 1191
+%T: Sailing--Continued
+%K: C
+P: Chorus
+V: 1 brace=2 % staves=2
+[G3E3] [c3E3] | [c3E3] [G3E3] | [AF][^GF][AF] [c2F2][AF] | [G3-E3-] [G2E2][GE] | [FD][E^C][FD] [G2E2][FD] |
+w: Sail-ing, sail-ing, o-ver the bound-ing main.* For man-y a storm-y
+[E2C2][GE] [c2E2][cE] | [BD-][AD][BD] [c2^F2][AF] | [d3-(G3] [d2F2)]z | [G3E3] [c3E3] | [c3E3] [G3E3] | [AF][^GF][AF]
+w: wind shall blow ere Jack* comes home a-gain!* Sail-ing, sail-ing, o-ver the
+[c2F2][AF] | [G3-E3-][G2E2][GE] | [AF][^GF][AF] | [BF][AF][BF] | [c2E2][cG] H[e2F2][dF] | [e2G2][cE] [d2F2][cE] | [c3-E3-] [c2E2]z |]
+w: bound-ing main,* For man-y a storm-*y wind shall blow ere Jack comes home a-gain!*
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+[c'3c3] [g3c3] | [g3c3] [c'3c3] | [c'f][c'f][c'f] [a2f2][c'f] | [c'3-c3-] [c'2c2][c'c] | [bg][bg][bg] [b2g2][bg] |
+[g2c2][c'c] [g2c2][gc] | ([gd][^fd])[gd] [a2d2][c'd] | [b3-g3-] [b2g2]z | [c'3c3] [g3c3] | [g3c3] [c'3c3] | [c'f][c'f][c'f]
+[A2F2][c'f] | [c'3-c3] [c'2c2][c'c] | [c'f][c'f][c'f] [g2d2][gg] | [g2c2][c'e] H[f2a2f2][af] | [g2g2][c'g] [b2g2][gc] | [g3-c3-][g2c2]z |]
+
+% "Sailing" continues from page 118 with the chorus at the top of page 119.
+
+%%sep 2 1 500
+%%sep 1 2 500
+%%begintext align
+%% This Dutch round is great fun, whether the singers can pronounce the words
+%% correctly or not. The phonetic pronunciation, with translation is given below.
+%%endtext
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1192
+T: De Bezem
+P: (Round)
+%R: song, round
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Eb
+%%continueall 0
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    E | E3 E2E | E3 E2"^2"E | GGG G2G | GGG G2
+w: 1.~De be-zem, de be-zem, Wat doe je er mee,  Wat doe je er mee?
+w: 2.~D\ua bay-s\uum, d\ua bay-s\uum, Wat doo y\ua air may, Wat doo y\ua air may?
+w: 3.~The broom,* the broom,* What do you with it, What do you with it?
+"^3"G | BBB B2B | BBB B2"^4"B | e3 e2e | e3 e2 |]
+w: Wij ve-gen er mee, Wij ve-gen er mee, De floer aan, de floer aan.
+w: Way fay-gan air may, Way fay-gan air may, Da fluur on, da fluur on.
+w: We sweep* with it, We sweep* with it, The floor up, the floor up.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% %begintext
+% % 1. Dutch words
+% % 2. Pronunciation
+% % 3. Translation
+% %endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1193
+T: Three Blind Mice
+P: (Round)
+%R: song, round
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%%continueall 0
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+"^1"F3 E3 | D3- D2z | F3 E3 | D3- D2z | "^2"A3 G2G | F3- F2z | A3 G2G |
+w: Three blind mice,* Three blind mice,* See how they run,* See how they
+%
+F3- Fz A | "^3"d2d cBc | d2A A2A | ddd cBc |
+w: run* They all ran af-ter the far-mer's wife, She cut off their tails with a
+%
+d2A A2A | "^4"ddd cBc | dAA A2G | F3 E3 | D3- D2z |]
+w: carv-ing  knife; Did ev-er you see such a thing in your life, As three blind mice?*
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1201
+T: Jingle, Bells
+C: music: J.Pierpont
+C: words: J.P.
+Q: "Quickly"
+%N: This is version 1, for ABC software that doesn't understand voice overlays or tremolo notation.
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+V:1
+V:2 clef=bass middle=D
+%%continueall 1
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[DD] | [DD][BD] [AD][GD] [D2D2] z[D/D/]-[D/D/] | [DD][BD] [AD][GD] [E2C2] z[EC] |
+w: 1.~ Dash-ing thro' the snow In a one horse o-pen sleigh, _
+w: 2.~A day or two a-go        I* thought I'd take a ride, And
+w: 3.~ Now the ground is white,** Go it while you're young, _
+%
+[EC][cE] [BE][AE] [F2D2] z[FD] | [dF][dF] [cF][AF] [B2G2-] [GG][DD] |
+w: O'er the fields we go,*  Laugh-ing all the way;**
+w: soon Miss Fan-nie Bright Was seat-ed by my side;* The
+w: Take the girls to-night, And sing this sleigh-ing song;* Just
+%
+[DD][BD] [AD][GD] [D2D2] z[DD] | [DD][BD] [AD][GD] [E2C2] z[EC] |
+w: Bells on bob-tail ring,* Mak-ing spir-its bright, What
+w: horse was lean and lank, Mis-for-tune seem'd his lot, He
+w: get a bob-tailed nag,    Two-for-ty for his speed, Then
+%
+[EC][cE] [BE][AE] [dF][dF] [dF][dF] | [eF][dF] [cF][AF] [G3G3] z |]
+w: fun it is to ride and sing     A sleigh-ing song to-night!
+w: got in-to a drift-ed bank,     And we, we got up-sot.
+w: hitch him to an o-pen sleight, And crack! you'll take the lead.
+%
+"^CHORUS (Accompanied by jingling glasses)"y
+|: [BG][BG] [B2G2] [BG][BG] [B2G2] | [BG][dG] [GD]>[AF] [B2G2] z2 | [cE][cE] [cE]>[cE] [cE][BD] [BD]
+w: Jin-gle, bells! jin-gle, bells! Jin-gle all the way! Oh, what fun it is to ride
+[1 [B/G/][B/G/] | [BG][AF] [AF][GE] ([AF] [d3F3]) :|[2 [B/G/][B/G/] | [dF][dF] [cF][AF] [G3G3] |]
+w: In a one-horse o-pen sleigh!* In a one-horse o-pen sleigh!
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+[BG] | [BG][BG] [BG][BG] [B2G2] z[B/G/]-[B/G/] | [BG][BG] [BG][BG] [G2C2] z[GC] |
+[GC][GC] [GC][cC] [c2D2] z[cD] | [cD][cD] [AD][dD] [d3G3] [BG] |
+[BG][BG] [BG][BG] [B2G2] z[BG] | [BG][BG] [BG][BG] [G2C2] z[GC] |
+[GC][GC] [GC][cC] [cD][cD] [cD][cD] | [AD][AD] [AD][cD] [B3G3] z |] y
+|: [dG][dG] [d2G2] [dG][dG] [d2G2] | [dG][BG] [BG]>[cG] [d2G2] z2 | [cC][cC] [cC]>[cC] [cC][BG] [BG]
+[1 [d/G/][d/G/] | [dA][dA] [dA][dA] [d4D4]     :|   [d/G/][d/G/] | [AD][AD] [AD][cD] [B3G3] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1211
+T: My Bonnie
+O: College Song
+%R: song, waltz
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: C
+V:1
+V:2 clef=bass middle=D
+%%continueall 1
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [GE] | [eG]>[dF][cE] | [dF][cF][AF] | [GE][E2-C2-] | [EC]z[GE] | [eG]>[dF][cE] | [cE][BE][cE] | [d3-G3-] | [d2G2]
+w: 1.~My Bon-nie is o-ver the o-cean,* My Bon-nie is o-ver the sea,*
+w: 2.~O blow, ye winds, o-ver the o-cean,* And blow, ye winds, o-ver the sea,*
+w: 3.~Last night as I lay on my pil-low,* Last night as I lay on my bed,*
+w: 4.~The winds have blown o-ver the o-cean,* The winds have blown o-ver the sea,*
+[V:2] [cC] | [cC]>[GC][GC] | [AF][AF][cF] | [cC][G2-C2-] | [GC]z[cC] | [cC]>[GC][GC] | [AA,][^GB,][AA,] | [B3-G3-] | [B2G2]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [GG] | [eG]>[dF][cE] | [dF][cF][AF] | [GE][E2-C2-] | [EC]z[GE] | [AF][dA][cA] | [BF][AF][BF] | [c3-E3-] | [c2E2]z ||
+w: My Bon-nie is o-ver the o-cean,* O bring back my Bon-nie to me.*
+w: O blow, ye winds, o-ver the o-cean,* And bring back my Bon-nie to me.*
+w: Last night as I lay on my pil-low,* I dream'd that my Bon-nie was dead.*
+w: The winds have blown o-ver the o-cean,* And bro't back my Bon-nie to me.*
+[V:2] [BG] | [cC]>[GC][GC] | [AF][AF][cF] | [cC][G2-C2-] | [GC]z[cC] | [cF][dF][dF] | [dG][cG][dG] | [c3-C3-] | [c2C2]z ||
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] "^Chorus"[G3E3] | [c3G3] | [A3F3] | [c3F3] | [BF][BF][BF] | [BF][AF][BF] | [c2E2][dG] | [e3G3] |
+w: Bring back, bring back, Bring back my Bon-nie to me, to me;
+[V:2]          [c3C3] | [c3E3] | [c3F3] | [A3F3] | [dG][dG][dG] | [dG][cG][dG] | [c2C2][BG] | [c3C3] |
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [G3E3] | [c3G3] | [A3F3] | H[d2^F2][cF] | [BG][BG][BG] | [BF][AF][BF] | [c3-E3-] | [c2E2] |]
+w: Bring back, bring back, O bring back my Bon-nie to me.*
+[V:2] [c3C3] | [c3E3] | [c3F3] | H[A2D2] [dA] | [dG][dG][dG] | [dG][cG][dG] | [c3-C3-] | [c2C2] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1212
+T: Central Will Shine
+T: (The name of any school may be substituted for "Central")
+O: School Song
+P: Male Quartette
+%R: song, march
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Ab
+V:1
+V:2 clef=bass middle=d
+%%continueall 1
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [cE] [c2A2] [dB] | [ec]>[ec] [e2c2] | [dB] [d2A2] [dF] | [c4E4] | [cE] [c2A2] [dB] | [ec]>[ec] [e2c2] | [=dB] [d2B2] [dc] | [_d4B4] |
+w: Cen-tral will shine to-night, Cen-tral will shine, She'll shine in beau-ty bright All down the line,
+[V:2] [aA] [a2A2] [ge] | [aA]>[aA] [a2A2] | [fd] [f2d2] [ad] | [a4A4] | [ae] [a2e2] [ge] | [aA]>[aA] [a2A2] |  [fB] [f2B2] [aB] |  [g4e4] |
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [cE] [c2A2] [dB] | [ec]>[ec] [e2c2] | [dB] [d2A2] [dF] | [c3E3] F/G/ | AF EF/G/ | AF E2 | [ec] [e2c2] [dB] | [c4A4] |]
+w: Won't we look neat to night, Dress'd up so fine; When the sun goes down And the moon goes up Cen-tral will shine.
+[V:2] [aA] [a2A2] [ge] | [aA]>[aA] [a2A2] | [fd] [f2d2] [ad] | [a3A3] f/g/ | af ef/g/ | af e2 | [ge] [g2e2] [ge] | [e4A4] |]
+%w: | | Dress'd up so fine; | | | Cen-tral will shine.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1213
+T: Are You Sleeping?
+P: (Round)
+O: French Air
+%R: song, march
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% %continueall 0
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+"^1"G2 A2 | B2 G2 G2 A2 | B2 G2 "^2"B2 c2 | d4 B2 c2 | d4
+w: Are you sleep-ing, are you sleep-ing? Broth-er John, Broth-er John,
+"^3"de dc | B2 G2 de dc | B2 G2 "^4"G2 D2 | G4 G2 D2 | G4 |]
+w: Morn-ing bells are ring-ing, Morn-ing bells are ring-ing: Ding, ding dong, ding, ding, dong.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1221
+T: Solomon Levi
+O: College Song
+%R: march, jig
+N: This is version 1, for ABC software that doesn't understand voice overlays tremolo notation.
+B: "The Golden Book of Favorite Songs", 1922
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+V:12
+%:2
+%:3 clef=bass middle=d
+V:34 clef=bass middle=d
+% %score (1 2) (3 4)
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:12] [DB,] | [D2B,2][DB,] [DB,][DB,][DB,] | [D2B,2][DB,] [D2B,2][DB,] | [E2C2][EC] [E2C2][EC] | [E3-C3-] [E2C2][EC] |
+w: My name is Sol-o-mon Le-vi And my store's on Sa-lem Street;* That's
+[V:34] [gG] | [g2G2][gG] [g2G2][gG] | [g2G2][gG] [g2G2][gG] | [g2c2][gc] [g2c2][gc] | [g3c3] [g2c2][ge] |
+% - - - - - - - - - -
+[V:12] [F2C2][FC] [F2C2][FC] | [F2C2][FC] [F2C2][EC] | [EC][DB,][DB,] [D2B,2][EC] | [D3B,3]- [D2B,2]z |
+w: where to buy your coats and vests And ev-'ry-thin else that's neat;*
+[V:34] [a2d2][ad] [a2d2][ad] | [a2d2][ad] [a2d2][fd] | [gG][gG][gG] [g2G2][gG] | [g3-G3-] [g2G2]z |
+% - - - - - - - - - -
+[V:12] !segno![D2B,2][DB,] [D2B,2][DB,] | [D2B,2][DB,] [D2B,2][DB,] | [E2C2][EC] [E2C2][EC] | [E3-C3-] [E2C2][EC] |
+w: Sec-ond hand-ed ul-ster-ettes And o-ver-coats so fine,* For
+[V:34] [g2G2][gG] [g2G2][gG] | [g2G2][gG] [g2G2][gG] | [g2c2][gc] [g2c2][gc] | [g3A3] [g2A2][gA] |
+% - - - - - - - - - -
+[V:12] [F2C2][FC] [F2C2][FC] | [F2C2][FC] [F2C2][EC] | [DC][DC][DC] [E2C2][FC] | [G3-B,3-] [G2B,2]"^Fine."z |]
+w: all the boys that trade with me at Hundred* and for-ty-nine.*
+[V:34] [a2d2][ad] [a2d2][ad] | [a2d2][ad] [a2d2][gd] | [fd][fd][fd] [g2d2][ad] | [g3-G3-] [g2G2]z |]
+% - - - - - - - - - -
+[V:12] [B3B3] [FF][FF][FF] | [G3G3] [E3E3] | "Tra-"[B^D2]"la-"c"la-"[BD] "la-"[AD2]"la-"G"la-"[FD] | "la."[E3-E3-] [E2E2]z |
+w: O, Sol-o-mon Le-vi Tra-*la-la-*la-la.
+[V:34] [b3b3] [ff][ff][ff] | [g3g3] [e3e3] | [f2B2][fB] [f2B2][fB] | [g3-e3-][g2e2]z |
+% - - - - - - - - - -
+[V:12] [B3B3] [E2E2][GG] | [F3F3] [D3D3] | "Tra-"[A^D2]"la-"B"la-"[AD] "la-"[G^C2]"la-"G"la-"[EC] | "la-"[D=C2]"la-"E"la,-"[DC] "^D.S.al Fine."[D2C2][DC] |]
+w: Poor Sol-lie Le-vi Tra-*la-la-*la-la-*la-la, My
+[V:34] [a3a3] [e2e2][gg] | [f3f3] [d3d3] | [fA2]g[fA] [bA2]a[gA] | [f2d2][fd] [f-c][fB][fA] |]
+w: | | | ~ ~ la-la, My
+% - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1231
+T: The Spanish Cavalier
+C: Wm.D.Hendrickson
+%R: march
+N: This is version 1, for ABC software that doesn't understand voice overlays tremolo notation.
+N: This is version 2, for ABC software that understands voice overlays and tremolo notation.
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Final note(s) lengthened to fix the rhythm between verses.
+M: 4/4
+L: 1/8
+K: G
+V:12
+%:2
+%:3 clef=bass middle=d
+V:34 clef=bass middle=D
+% %score (1 2) (3 4)
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:12] [DB,] | ([DB,][BD]) [BG]>[BG] [B3G3] [G/D/][G/D/] | [E2C2] [cE]>[cE] [c3E3] [EE] |
+w: 1.~A Span-ish Cav-a-lier stood* in his re-treat,    And
+w: 2.~I'm off* to the war, to the | war I must go,     To
+w: 3.~And when the war is o'er, to* you I'll re-turn, A-
+[V:34] [GG] | [GG-][dG] [dG]>[dG] [d3G3] [G/B,/][G/B,/] | ([GC2]^G) [AA,]>[AA,] [A3A,3] [AC] |
+% - - - - - - - - - -
+[V:12] [D2C2] [FC]>[AF] [e2F2] [dF]>[eF] | [d4G4] [B2G2] z[dG] | [d2G2] [GG]>[BG] [d3G3] [d/-G/-][d/G/] |
+w: on his gui-tar played a tune, dear;  The mu-sic so sweet, Would*
+w: fight for my coun-try and you, dear; But if I should fall, In*
+w: gain to my coun-try and you, dear;   But if I be slain, you may
+[V:34] [F2D2] [AD]>[cD] [c2A2] [cD]>[cD] | [B4G4] [d2G2] z[BG] | [B2G2] [BG]>[dG] [=f3B3] [f/B/][f/B/] |
+% - - - - - - - - - -
+[V:12] [e2G2] [cA][AE] [E3E3] [EC] | [DC][DC] [FC][AF] ([dF-][^cF] [=cA])[FD] | [A4F4] [G2G2] z ||
+w: oft-times re-peat  The bless-ing of my coun-*try and you, dear.
+w: vain I would call, The bless-ing of my coun-*try and you, dear.
+w: seek me in vain,   Up-on the bat-tle-field* you will find me.
+[V:34] [e2c2] [ec][cc] [c3A3] ([A/C/-][G/C/]) | [FD][FD] [AD][cD] ([A-D][AE] [dF])[cA] | [c4D4] [B2G2] z ||
+% - - - - - - - - - -
+[V:12] "^Chorus"[DB,] | [D2B,2] [BG]>[BG] [B3G3] [GD] | [E2C2] [cE]>[cE] [c4E4] | [D2C2] [FC]>[AF] [e2F2] [dF]>[eF] | [d4G4] [B4G4] |
+w: Oh, say, dar-ling, say, when I'm far a-way, Some-times you may think of me, dear;
+[V:34] [GG] | [G2G2][dG]>[dG] [d3G3] [GB,] | [G2C2] [FA,]>[FA,] ([G2A,2-] [A2A,2]) | [F2D2] [AD]>[cD] [c2A2] [cD]>[cD] | [B4G4] [d4G4] |
+% - - - - - - - - - -
+[V:12] [d2G2] [GG]>[BG] [d3G3][dG] | [e2G2] [cA][AE] [E3E3] [EC] | [DC][DC] [FC][AF] ([dF-][^cF] [=cA])[FD] | [A4F4] [G2G2] z |]
+w: Bright sun-ny days will soon fade a-way. Re-mem-ber what I say,* and be true, dear.
+[V:34] [B2G2] [BG]>[dG] [=f3B3] [fB] | [e2c2] [ec][cc] [c3A3] ([A/C/-][G/C/]) | [FD][FD] [AD][cD] ([A-D][AE] [dF])[cA] | [c4D4] [B2G2] z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center --------------- A Vocal Combat ---------------
+%%begintext align
+%% "The Spanish Cavalier" and "Solomon Levi" may be sung simultaneously by two groups of
+%% singers. The groups should be of equal strength and each group rehearsed on its song
+%% until it can sing it well. Then, under some capable leader who will mark the rhythm with
+%% strongly accented beat, let the two groups sing the numbers together. There should be no
+%% attempt at piano accompaniment. Singers of all ages will enjoy the "stunt".
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1241
+T: The Soldier's Farewell
+C: Johanna Kinkel
+%R: air
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Bb
+%%continueall yes
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [| [F2D2][DB,]>[FD] [B3D3][BD] | [B2E2][A2E2] z2[F2E2] | [F3D3][BD] [e2G2][d2F2] | [d2F2][c2F2] z2[B2D2] | [F3D3][GE] [_A2F2][A2F2] | [_A2F2][G2E2] z2[G2=E2] |
+w: 1.~Ah, love, how can I leave thee? The sad tho't deep doth grieve me; But know what-e'er be-falls me, I
+w: 2.~No more shall I be-hold thee, Or to my heart en-fold thee; In war's ar-ray ap-pear-ing, The
+w: 3.~I'll think of thee with long-ing, When tho'ts with tears come throng-ing And on the field, if ly-ing, I'll
+[V:2] [| [b2B2][fB]>[fB] [f3B3][fB] | [f2B2][f2c2] z2[a2f2] | [b3B3][bB] [b2B2][b2B2] | [a2f2][a2f2] z2[b2B2] | [b3B3][bB] [b2B2][b2B2] | [b2e2][b2e2] z2[c'2c2] |
+%
+[V:1] [G3=E3][AF] [B2G2][B2G2] | [B2G2][A2F2] z2 ||[M:3/4]
+w: go where ho-nor calls me.
+w: foe's stern hosts are near-ing.
+w: breathe thy dear name, dy-ing.
+[V:2] [c'3c][c'c] [c'2c2][c'2=e2] | [c'2f2][c'2f2] z2 ||[M:3/4]
+% The book has the following refrain on the same staff as the above 2 measures:
+[V:1] [F2E2] | [F4D4][B2D2] | [d4F4][B2F2] | [B4E4][G2E2] | [F4D4][B2F2] | [e4F4][d2F2] | ([d2F2][c2E2])[B2C2] | [B4D4][A2E2] | [B6D6] |]
+w: Fare-well, fare-well, my own true love! Fare-well, fare-well,* my own true love!
+[V:2] [a2f2] | [b4B4][f2B2] | [b4B4][b2d2] | [g4e4][b2e2] | [b4B4][b2d2] | [a4c4][b2B2] | [g4e4][g2=e2] | [f4f4][f2F2] | [f6B6] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1242
+T: The Three Fishermen
+C: College Song
+%R: air, march
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Ab
+%%continueall 1
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [EE] | [AA][AA] [AA][BB] | [c2c2] [B2B2] | [A3A3] [AA] | [ec][ec] [ec][ed] | [e2e2] [e2d2] | [e4c4] | [ee][ec] [ee][ec] |
+w: 1.~O once there were three fish-er-men,* Once there were three fish-er-men, Fish-er, fish-er,
+w: 2.~The first one's name was I-sa-ac, The first one's name was I-sa-ac, I-sa, I-sa,
+w: 3.~The second one's name was Ja-a-cob, The second one's name was Ja-a-cob, Ja-a, Ja-a,
+w: 4.~The third one's name was A-bra-ham, The third one's name was A-bra-ham, A-bra, A-bra,
+w: 5.~They all sailed out for Am-ster-dam, They all sailed out for Am-ster-dam, Am-ster, Am-ster,
+[V:2] [EE] | [AA][AA] [AA][BB] | [c2c2] [B2B2] | [A3A3] [AA] | [AA][AA] [AA][BA] | [c2G2] [B2E2] | [A4A4] | [cA][AA] [cA][AA] |
+%
+[V:1] [ed][eB] [e2B2] | [ed][eB] [ed][eB] | [ec][cA] [cA][eE] | [cA][cA] [cA][dB] | [e2c2] [d2B2] | [c2A2]z |]
+w: men, men, men Fish-er, fish-er, men, men, men, O once there were three fish-er-men.
+w: ac, ac, ac I-sa, I-sa, ac, ac, ac The first one's name was I-sa-ac.
+w: cob, cob, cob Ja-a, Ja-a, cob, cob, cob The second one's name was Ja-a-cob.
+w: ham, ham, ham A-bra, A-bra, ham, ham, ham The third one's name was A-bra-ham.
+w: sh, sh, sh Am-ster, Am-ster, sh, sh, sh They all sailed out for Am-ster-dam.
+[V:2] [BE][GE] [G2E2] | [GE][GE] [GE][GE] | [AA,][EA,] [EA,][EE] | [AA][AA] [AA][GE] | [A2E2] [G2E2] | [E2A,2] z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1243
+T: Little Tom Tinker (round)
+%R: song, jig
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+"^1"[| EEE EEE | GGG GGG "^2"| B2B B2B |
+w: Lit-tle Tom Tin-ker got burned with a clink-er And he be-gan to
+%
+B3- B2z "^3"|(e3 B3) | (e3 B3) "^4"| GGG FFF | E3- E2z |]
+w: cry.* Ma-* ma* What a poor fel-low am I.*
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1251
+T: Gaily the Troubadour
+C: Thomas H. Bayly 1820
+%D: 1820
+%R: air, march
+B: "The Golden Book of Favorite Songs", 1923
+N: Thomas H. Bayly (1797-1839) was an English poet and writer (songs, journal articles, novels, etc.).
+N: He was born in Bath, moved to Dublin where he became known as a writer, then moved back to England.
+S: https://en.wikipedia.org/wiki/Thomas_Haynes_Bayly
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [| [G2E2] [BG][GE] | [EE][EE] [E2E2] | [F2D2]  [EE][FD]  | [G4E4] | [G2E2] [BG][GE] | [EE][EE] [E2E2] | [F2D2]  [GD][FD]   | [E4E4] |
+w: 1.~Gai-ly the Trou-ba-dour touch'd his gui-tar, When he was hast-en-ing home from the war.
+w: 2.~She for the Trou-ba-dour hope-less-ly wept; Sad-ly she tho't of him when oth-ers slept.
+w: 3.~Hark 'twas the Trou-ba-dour breath-ing her name, Un-der the bat-tle-ment soft-ly he came;
+[V:2] [| [B2E2] [eE][BE] | [GE][GE] [G2E2] | [B2B,2] [BC][BB,] | [B4E4] | [B2E2] [eE][BE] | [GE][GE] [G2E2] | [B2B,2] [BB,][AB,] | [G4E4] |
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [e2G2] [dB][cA] | [BG][GE] [E2E2] | [c2E2] [BE][AE] | [G4E4] | [EE]>[FD] [G2E2]     | [AE]>[BE]  H[c2E2]  | [cD] [B2D2]  [DB,] | [E4B,4] |]
+w: Sing-ing: "From Pal-es-tine hith-er I come, La-dy love, la-dy love, Wel-come me home!"
+w: Sing-ing: "In search of thee would I might roam, Trou-ba-dour, Trou-ba-dour, come to thy home!"
+w: Sing-ing: "From Pal-es-tine hith-er I come, La-dy love, la-dy love, Wel-come me home!"
+[V:2] [B2E2] [BE][eE] | [eE][BE] [G2E2] | [A2E2] [GE][cE] | [B4E4] | [BG]>[BF] [B-E][B_D] | [AC]>[GB,] H[A2G,2] | [FB,] [F2B,] [AB,] | [G4E4]  |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1252
+T: The Quilting Party
+C:
+O: College Song
+%R: air, march
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [EC][FD] | [G3E3][GE] [A2F2][G2E2] | [GE][c3-E3-] [c2E2] [cG][cG] | [c3A3][GB] [A2F2][c2F2] | [G6E6]
+w: In the sky the bright stars glit-tered,* On the bank the pale moon shone;
+[V:2] [GC][GC] | [c3C3][cC] [c2C2][c2C2] | [cC][G3-C3-] [G2C2] [cE][cE] | [c3F3][cF] [c2F2][A2F2] | [c6C6]
+!segno!\
+[V:1] [EC][FD] | [G2E2][c2G2] [e2G2][c2G2] | [dF][c3F3] [AF][cF] [cF][cF] | [B3F3][cF] [dF]~[d3F3]  | [c4-E4-]"^Fine."[c2E2] |]
+w: And 'twas from Aunt Di-nah's quilt-ing par-ty I was see-ing Nel-lie home.*
+[V:2] [GC][GC] | [c2C2][G2C2] [c2C2][c2E2] | [AF][A3F3] [cF][AF] [AF][AF] | [G3G3][AG] [BG,][B3G,3] | [G4-C4-]        [G2C2] |]
+"^Chorus"\
+[V:1] [EC][FD] | [GE][G3E3] [AF][A3F3] | ([G2E2-][c2E2-] [G2E2]) [cG][cG] | [c3A3][BG] [AF][c3F3] | "D.S. al Fine"[G6E6] |]
+w: I was see-ing Nel-lie home,__ I was see-ing Nel-lie home;
+[V:2] [GC][GC] | [cC][c3C3] [cF][c3F3] | ([c2C2-][G2C2-] [c2C2]) [cE][cE] | [c3F3][cF] [cF][A3F3] |               [c6C6] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1253
+T: Merrily, Merrily
+T: (Round)
+%R: song, round, jig
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Eb
+%%continueall 0
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+"^1"[| EEE EEE | G2F E2z "^2"| GGG GGG | B2A G2z |
+w: Mer-ri-ly, mer-ri-ly, greet the morn; Cheer-i-ly, cheer-i-ly sound the horn.
+"^3"| e2e/e/ eB2 | e2d e2c "^4"| B2c B2e | G2B B2z |]
+w: Hark! to the ech-oes, hear them play O'er hill and dale, far, far, a-way.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+%%begintext align
+%%   The Golden Book of Favorite Songs will be found invaluable for use at banquets, community
+%% meetings and other adult gatherings.  For such occasions, a short time devoted to singing
+%% will do more to unify the people and bring them into a neighborly and co-operative spirit
+%% than anything else possible.  Have an adequate supply of books and secure a competent leader
+%% of singing.  This leader need not be a great musician but must posess qualities of leadership
+%% and a strong sense of rhythm. In addition to patriotic songs and the old songs known
+%% and loved universally, a few good "stunt" numbers are in order.  Several of these follow
+%% together with some standard popular numbers.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1261
+T: Welcome, Neighbor
+%%text (Tune for following is first phrase of Twinkle, Twinkle Little Star, page 84.)
+%R: song
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+K:
+W: Welcome, neightor, how do you do?   We're mighty glad to meet with you.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1262
+T: Hello Speaker
+%%text (Tune for following is first phrase of Twinkle, Twinkle Little Star, page 84.)
+%R: song
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+K:
+W: Hello, speaker, we're your friend,   We'll stay with you until the end.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1263
+T: Hail, Hail
+N: (Key of G)
+%R: song
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+K:
+W: Hail, hail, the gang's all here,   Never mind the weather,   Here we are together.
+W: Hail, Hail, the the gang's all here   Let the trouble start   RIGHT NOW.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1264
+T: O Me! O My! (A Toast)
+%R: song, c
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The || between the sections wasn't in the book, but some ABC 2 tools (especially abcm2ps)
+N: gave a fatal error without it, even with the "%%continueall" instruction .
+M: 2/4
+L: 1/16
+K: Ab
+%%continueall
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+E2 | c6 A2 | E6 A2 | F2F2 F2F2 | B6 ||
+w: O me! O My! We'll get there by and by.
+w: O my! O Me! We're hap-py as can be.
+A2 | GGGG G2G2 | G2 G4 F2 | E2E2 F2G2 | A6 |]
+w: If a-ny-bo-dy likes the speak-er, It's I, I, I, I, I.
+w: If a-ny-bo-dy likes the speak-er, It's me, me, me, me, me.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Substitute any name for the words "the speaker".
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1265
+T: How D'ye Do
+%R: song, jig
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Ab
+%%continueall
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+E2E | A3 A2A | A2A G2A | B6- | B2z E2E | B2B B2B | B2B A2B | c6- | c2z
+w: How d'ye do, Mis-ter John-son? How d'ye do?* Is there a-ny-thing that we can do for you?*
+%
+E2E | c2c c2c | c3 B2c | d2d d2d | d3 c2d | e3 e2e | e2e c2B | A3 c2 | A3 :|
+w: We will do it if we can, We'll stand by you to a man. How d'ye do, Mis-ter John-son? How d'ye do, do do?
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% (This number may be used at banquets by having various tables compete with one another
+%% in improvising words to suit the melody. Any name may be substituted for "Mister Johnson".)
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1266
+T: MacDonald's Farm
+%R: air, march
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[| B2B2 B2B2 | G2G2 F4 | d2d2 c2c2 | B6 F2 | B2B2 B2B2 | G2G2 F4 |
+w: Old Mac-Don-ald had a farm, Ee-i, ee-i-o, And on this farm he had a duck
+%
+d2d2 c2c2 | B6 dc | B2B2 B2 BB | B2B2 B4 | BBB2 BBB2 |
+w: Ee-i, ee-i-o, With a quack, quack here and a quack, quack here, Here a quack, there a quack
+%
+BBBB B2B2 | B2B2 B2B2 | G2G2 F4 | d2d2 c2c2 | B8 |]
+w: Here and there a quack, quack, Old Mac-Don-ald had a farm, Ee-i, ee-i-o.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Continue indefinitely by using names and sounds of other animals.
+%% Do not overlook the Ford, with its "rattle", as a necessary farm adjunct.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1267
+T: The Mummy Song
+T: (tune--"The Long, Long Trail" -- Key of G)
+%R: song
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+K:
+W: It's a short, short life we live here  So let us give while we may
+W: And a song for every moment            Of the whole bright day.
+W:
+W: What's the use of looking gloomy,      Or what's the use of our tears,
+W: When we know a Mummy's had no fun      For more'n Three-Thousand Years.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1271
+T: The Tree In the Wood
+O: English Folk Song
+%R: air
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+V:1 nm=SA
+V:2 nm=TB clef=bass middle=d
+% %score (1 | 2)
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] D | DE [FD][GE] [A2F2D2] [A2F2D2] | [B2G2D2] [B2G2D2] [A3F3D3]F | DE [FD][GE] [A2F2D2] [A2F2D2] |1 [BG2D2]B [B2G2D2] [A2F2D2]
+w: 1.~All in* a* wood there grew a tree, The fin-*est* tree you ev-er did see
+w: 2.~And on* this* tree there grew a limb, The fin-*est* limb you ev-er did see
+[V:2] [af] | [fd2]a a2 dfad | g2 B2 d3 [af] | fa a2 (dfad) | g2 B2 d2
+%
+[V:1] [FC]>E | D2 [D2B,2] [E2C2] [E2C2] | [FD]>[EC] [FD]>[GC] [A2D2] [dG2D2]>B | [A2D2] D2 [F2C2] [E2C2] | D4 z2 |]
+w: And the green leaves grew a-round, a-round, a-round, And the green leaves grew a-round.
+[V:2] [aA]>g | [f2B2] [f2B2] [g2A2] [a2g2] | [fa2]>g [fa2]>e [f2d2] [bB2E2]>g | [f2A2] [f2B2] [a2A2] [g2A2] | [f4d4] z2 |]
+%
+[V:1] [2 [BG2D2]B [B2G2D2] [A3F3D3] [AD] ||[M:3/4] [AC2]>E [EC2]>F [GC2]A ||[M:2/4] [AC2]>E [EC2]F ||[M:4/4] [G2-C2] [GE2]A/G/ [F2D2]
+w: ev-er did see; The limb was on the tree, The Tree was in the wood,****
+[V:2] g2 B2 d3 [fd] ||[M:3/4] [e2A2] [gA2]>f "^>"[e2A2] ||[M:2/4] [e2A2] [gA2]>f ||[M:4/4] [e2A2] [a2c2] [a2d2]
+%
+[V:1] [FC2]>E | [D2B,2] [D2B,2] [E2C2] [E2C2] | [FD]>[EC] [FD]>[GE] [A2F2] [dG2D2]>B | [A2D2] D2 [F2C2] [E2C2] | D4 z3 |]
+w: And the green leaves grew a- round, a-round, a-round, And the green leaves grew a-round.
+[V:2] [f2^A2] | [f2B2] [g2B2] [g2A2] [g2A2] | [a2d2] [a2A2] [a2d2] [gB]>G | [f2A2] [f2A2] [a2A2] [g2A2] | [f4d4] z3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text 3. Branch. 4. Nest. 5. Egg. 6. Yolk. 7. Bird. 8. Wing. 9. Feather.
+%%begintext align
+%% As each item is added in successive verses, the preceding items are repeated in reverse order.
+%% Thus the last verse would run as follows:
+%% endtext
+W: And on the wing there was a feather, The finest feather you ever did see,
+W: The feather was on the wing,         The wing was on the bird,
+W: The bird was in the yolk,            The yolk was in the egg,
+W: The egg was in the nest,             The nest was on the branch,
+W: The nest was on the branch,          The limb was on the tree,
+W: The tree was in the wood,            And the green leaves grew around, around, around,
+W: And the green leaves grew around.
+W:
+% %vskip 8pt	% Some formatters don't leave any space here.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1281
+T: Alouette
+O: French Canadian Folk Song
+%R: air, _
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Ab
+%%continueall 0
+V: 1 brace=2
+V: 2 clef=bass middle=D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1][| [A3E3][BE] [c2A2][c2A2] | [BG]>[AA] [GB]>[cG] [A2E2][E2] |[A3E3][BE] [c2A2][c2A2] | [BG]>[AA] [BG]>[cG] "^FINE"[A4A4] |]
+w: 1.~ A-lou-et-te, gentile A-lou-et-te, A-lou-et-te, Je te plu-me-rae.
+w: 2.~ A-lou-et-te, gentile A-lou-et-te, A-lou-et-te, Je te plu-me-rae.
+[V:2][| [c3A3][dA] [e2A2][e2A2] | [dE]>[cE] [dE]>[eE] [c2A2][c2A2] | [c3A3][dA] [e2A2][e2A2] | [dE]>[cE] [dE]>[eE] [c4A4] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1]| [EE]>[EE] [AA]>[GG] [AA]>[cc] [e2e2] | [eG]>[fG] [eG]>[dG] [cG]>[BG] [A2A2] | [ee]>[ee] [e2] z4 | "_D.C."He8 |]
+w: 1.~Je te plu-me-rai la tete, Je te plu-me-rai la tete, Et la tete, "Oh!"
+w: 2.~Je te plu-me-rai la tete, Je te plu-me-rai la tete, Et la bec, *
+w:   |                        |                         | Et la tete, *
+[V:2]| [EE]>[EE] [AA]>[GG] [AA]>[cc] [e2e2] | [BE]>[BE] [BE]>[BE] [eE]>[dE] [c2A2] | z4 [EE]>[EE] [E2E2] | HE8 |]
+w: | | | 1.~Et la tete. *
+w: | | | 2.~Et la bec.  *
+w: | | |    Et la tete, *
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text 3. Le nez.  4. Le dos.  5. Les Pattes.  6.Le cou.
+%%vskip 10pt
+%%begintext align
+%% In the measure before the Oh!, and the D.C. where whe women's voices are echoed by the men's,
+%% a word is added as each verse is sung and the words of preceding verses are sung in reverse order.
+%% Thus, in the last verse, the duet between women and men would run as follows:
+%% Et le cou, et le cou; et les pattes, et les pattes; et le dos,  et le dos;
+%% et le nez, et le nez; et la  bec,    et la  bec;    et la tete, et la tete; Oh!
+%% and then back to the beginning to the Fine.
+%%endtext

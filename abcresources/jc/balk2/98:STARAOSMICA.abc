@@ -1,0 +1,23 @@
+X: 398
+T: Stara Osmica
+O: Serbia
+M: 2/4
+L: 1/8
+Q: 1/4 = 240
+K: EMix
+%%MIDI gchord fzzz
+%%MIDI program 23
+%%MIDI bassprog 33
+%%MIDI bassvol 65
+|:"E"z2E2|GABA    |B2E2  |GABA   |B2E2   |\
+  =d4    |=dcBA   |G2B2  |B2E2   |
+  z2E2   |GABA    |B2E2  |GABA   |B2E2   |\
+  =d4    |=dcBA   |G2B2  |B2E2   :|
+|:"A"AzBc|d2c2    |d2c2  |d2c2   |\
+  cde2   |fed2    |dcBA  |c2z2   |
+  cde2   |fed2    |dcBA  |c2Bc   |\
+  "D"d4  |"E"dce2 |[1B2z2|B2z2   :|[2B2z2|z2Bc|
+|:"D"d4  |"G#"cBe2|BA^GA |B2Bc   |\
+  "D"d4  |"G#"cBe2|BA^GA |B2Bc   |
+  "D"d4  |"G#"cBe2|BA^GA |B2Bc   |\
+  "D"d4  |"G#"cBe2|BA^GA |[1BBB2 :|[2B2z2|

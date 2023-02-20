@@ -1,0 +1,19 @@
+X:276
+T:Go George, I can't endure you
+M:4/4
+L:1/8
+Q:1/2=92
+%%MIDI ratio 3 1
+S:"Down Back o' t' Shoddy" edited by Julian Pilling. rechorded by Colin Hume and changed to 4/4 time.
+S:I'm not convinced by the change back to the tonic in the last few bars, but I've left it in!
+S:There is a version at http://www.atrilcoral.com/Partituras_ABC/g.zip which doesn't go back to the tonic.
+K:D
+P:A
+|: dd | "D"d2FF F2AA | "/"A2dd d2de | "Bm"f2ed f2ed | "A"c2a2 z2A2 |\
+"A"A^GAB cBcd | "Em"edef gfed | "A7"cded cBAG | "D"G4F2 :|
+P:B
+FG | "A7"A2A2 A2B2 | "D"B2A2 z2FG | "A7"A2A2 A2B2 | "D"B2A2 z2A2 |\
+"D"d2>c2 d2e2 | "Bm"f2>e2 d2c2 | "E7"B4 efed | "A"c2B2 A2cd |
+P:C
+"A"e2e2 "E7"e2f2 | "A"f2e2 z2cd | "A"e2e2 "E7"e2f2 | "A"f2e2 z2E2 |\
+"A"A2>^G2 A2B2 | "A7"c2>B2 A2=G2 | "D"F4 "A7"E4 | "D"D6 |]

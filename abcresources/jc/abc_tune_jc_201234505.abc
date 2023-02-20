@@ -1,0 +1,48 @@
+X: 20561
+T: the Ale Wife and her Barrel
+%R: reel + jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.56 #1 (plus top of p.57)
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+|: "_Slow"\
+G3A G2B2 | TA2G2 TA2(GE) | d2G2 G2B2 | A2B2 d4 |\
+e2G2 G2B2 | TA2G2 TA2(GE) | g2e2 Td2B2 | A2B2 d4 :|
+|:\
+g2e2 Te2d2 | g2e2 Te2(dB) | d3e (ge)(dB) | A2B2 e4 |\
+g2e2 Te2d2 | gaba gedB | d3e d2B2 | A2B2 d4 :|
+|:\
+G2g2 G2b2 | GFGB (AF)D2 | GFGA BGAB | cABc d4 |\
+efge dfgB | cBAG TA2(GE) | d3e gedB | A2B2 d4 :|
+|:\
+g2e2 Te2d2 | Bdge Te2d2 | g2(ba) gedB | A2B2 e4 |\
+g2(bg) e2(gd) | B2(gB) TA2(GE) | d3e gedB | A2B2 d4 :|
+|:\
+G2Bd g2BG | cABG TA2(GE) | GBdg B2ga | {ga}b2ag Te4 |\
+d2gB c2ac | BdgB TA2(GE) | g2(eg) dB(TAG) | A2B2 d4 :|
+|:\
+G2.g2 .g2.g2 | gdBG dA FD | G2gd BGb2 | agfe d3d |\
+eg(ag) dg(ag) | caBg TA2GE | gbaf gdBG | D2F2 G4 :|
+|:\
+g2(b/a/g) Te2d2 | g2(b/a/g) d2B2 | (cd)(ef) (ge)(dB) | A2B2 {B2}e4 |\
+G2bG F2aF | E2gE Dgfa | (gb)(eg) (de)(Bd) | D2TF2 G4 :|
+|:\
+gaba (ge)d2 | (eg)(ed) TB3c | dBgB dBgB | bagf e3f |\
+g2bd e2gB | cABG TA2GE | b3a gdBG | d2D2 G4 :|
+|:\
+G2g2 bgdB | gdBG d2D2 | G2AB cdef | gabc' d'4 |\
+d2(b/c'/d') c'2(a/b/c') | b2(g/a/b) a2d2 | e3g dB(TAG) | D2F2 G4 :|
+|:\
+G2(G/B/d) G2(G/c/e) | G2(G/B/d) D2(D/F/A) | G2(G/B/d) A2(bg) | fed^c d4 |\
+e2(g/d/B) c2(a/c/A) | B2(g/B/G) A2D2 | g2(eg) dBTAG | D2TF2 G4 :|
+P: Giga
+M:6/8
+|: "_Brisk"\
+GBc def | gbd egB | ceA BdG | FdB AFD |\
+GBc def | gfe bag | fed ^cde | A^ce d3 :|
+|:\
+def gdB | Afg acA | Bgf edc | BAG FED |\
+GBc def | gbd (e/f/g)B | (c/d/e)A BdG | DFA G3 :|

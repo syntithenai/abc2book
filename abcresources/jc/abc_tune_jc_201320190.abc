@@ -1,0 +1,15 @@
+X:549
+T:One More Dance and Then
+C:Ashover Book, c. 1764
+M:4/4
+L:1/8
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=80
+%%MIDI gchord fcfcfcfc
+K:G
+P:A
+|: B3/4c/4 | "G"dedB "Em"g2 Bc | "G"d3/e/"Em"dB "Am"cA-"D7"AB3/4c/4 |\
+"G"dedB "Em"gfed | "Am"edcB "G"B3 :|
+P:B
+|: A/B/ | "D7"cA fc acBA | "G"BGdB gBAG |\
+"Am"AGFE "D"DCB,A, | "C"G,c"D7"BA "G"{A}G3 :|

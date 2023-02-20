@@ -1,0 +1,30 @@
+X: 1
+T: Arcadia
+P: Longways for as many as will
+%R: march
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.124
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Missing 1/8-note between the strains, fixed with a rest.
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f2 |\
+d2B2 c2A2 | B3A G2AB | c2A2 B2c2 | A2 F4 A2 |\
+B3B/B/ B2B2 | c3c/c/ c2c2 | d=ef2 f3=e | f6 |]
+z |\
+f3f/f/ f2f2 | f3f/f/ f2f2 | g3f gab2 | a3g f2d2 |\
+g3g/g/ g2g2 | a3a/a/ a2gf | b2b2 b3a | b6 |]
+% - - - - - - - - - - Dance description: - - - - - - - - - -
+%%begintext align
+%% The 1. man stand in the wo. place, and the wo. in the man's, then first man slip down in the middle into
+%% the 2. wo. place, and 1. wo. into the 2. man's place, then 1. man and 2. wo. clap hands, while the 2.
+%% man and 1. wo. clap hands and cross over and change places, then 2. man and 1. wo. clap hands, while
+%% the 1. man and 2. wo. clap hands at the same time, then 2. wo. change places with the 1. wo. and each
+%% clap hands with their own, while the two men cross over and take right and left-hands quite round
+%% with your own, then lead through the middle, and cast off into the 2. cu. place; the rest doing the
+%% same Figure.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

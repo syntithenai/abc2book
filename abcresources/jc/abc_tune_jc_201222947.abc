@@ -1,0 +1,27 @@
+X: 66
+T: Irish Air
+O: "In the Poor Soldier"
+%R: jig
+B: "The Hibernian Muse" p.42 #1
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. LXVI
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B |\
+AFA DFA | AFA A2B | AFA DFA | GEF G2B |\
+AFA DFA | AFA A2B | AFA DFA | GEF G2 :|
+|: B |\
+AGF AGF | AGF A2B | AGF dcd | EFE G2B |\
+AGF AGF | AGF A2B | AGF dcd | EFE G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d3 d3 | f3 f3 | d3 d3 | a3 A3 |\
+d3 d3 | f3 f3 | d3 d3 | a3 A2 :|
+|: z |\
+d3 d3 | d3 d3 | d3 d3 | a3 A2z |\
+d3 d3 | d3 d3 | d3 fed | A3 A2 :|

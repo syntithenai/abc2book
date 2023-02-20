@@ -1,0 +1,20 @@
+X: 3373
+T: Black but Comely.   a Reel.
+O: Very Old.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.3 p.37 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+A |\
+~d2fd (.A.A) fd | (.e.e) fd TB2AB | ~d>e fd AA fd | f>edB {B}A2AB || ~d2fd (.A.A) fd | (.e.e) fd TB2AB |
+~d>e fd AA fd | f>edB{B}A2A |]| f | adaf (fe)e>f | adad TB2B>f | adaf (fe)ef |
+Td>edB {B}A2 Af || adaf (fe)e>f | adfd TB2B>f | adab afef | ~d>edB A2A |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | d2d2 d2d2 | e2f2 g2g2 | f2d2 [f2d2]f2 | a2g2 f2d2 || d2d2 d2d2 | e2f2 g2g2 |
+f2d2 [f2d2]f2 | a2g2 f2d |]| z | d2d2 a2A2 | d2f2 g2Gz | d2d2 a2a2 |
+f2g2 [f2d2][f2d2] || d2d2 A2A2 | d2f2 g2Gz | d2d2 f2a2 | f2g2 f2d |]

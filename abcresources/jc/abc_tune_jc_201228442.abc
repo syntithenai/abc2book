@@ -1,0 +1,19 @@
+X: 11293
+T: SOMEBODY
+Q: "Moderate."
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.129 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+d2d d>ef | c2c c2B | A2A A>=Bc | G2G Gzc |\
+{c}d2d d>ef | {d}c2c c2B | A>Bc f2A | {A}G>FG F2A |
+B3 G3 | A2c F2A | B3 G3 | (A2c/A/) F2c |\
+d2d d>ef | {f}c2c Hc2B | A>Bc Hf2A | G>FG F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

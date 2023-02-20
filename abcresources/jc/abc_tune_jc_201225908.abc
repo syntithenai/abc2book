@@ -1,0 +1,21 @@
+X: 10042
+T: HIBERNIA
+O: A favourite Irish air.
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.4 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+{cd}e2d c2A | G>AG GEC | E>FG G2e | {de}f2d d3 |\
+{cd}e2d c2A | G>AG GEC | EFG G2f | ecc c3 :|\
+e>fg gag | gag gc'b | ^ga>d ga>d | {^g}a2d def |
+e>fg gag | gc'b bag | {^g}a2d d>ed | fef {^c}d2f |\
+(fe).d (dc).A | G>AG GEC | E>FG G2e | {de}f2d d3 |\
+{cd}e2d c2A | G>AG GEC | EFG G2f | e2c c3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

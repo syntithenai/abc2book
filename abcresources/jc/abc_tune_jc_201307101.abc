@@ -1,0 +1,17 @@
+X:445
+T:March of St Timothy
+C:Judi Morningstar, 1985
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=112
+M:2/2
+%%MIDI chordname dim 0 3 6 9
+L:1/8
+K:G
+P:A
+|: "G"B3c d2B2 | "D7"A3B c2A2 | "Em"G3A B2G2 | "Bm"G2F2 E2D2 |\
+"C"E3F G2E2 | "G"D2G2 B2d2 |1 "Am"c3B A2G2 | "D7"F2A2 D2c2 :|2 "Am"cBAG "D7"F2A2 | "G"G6 dd |]
+P:B
+"D7"c2d2 A2c2 | F2A2 D2dd | "G"B2d2 G2B2 | D2G2 B,2dd |\
+"D7"c2d2 A2c2 | F2A2 D2dd | "G"d2 "_  ------ Break ------"D2 E2F2 | G2A2 B2dd |
+"D7"c2d2 A2c2 | F2A2 D2dd | "G"B2d2 G2B2 | D2G2 B,2G2 |\
+"C"E3F "C#dim"G2E2 | "G"D2G2 "Em"B2d2 | "Am"cBAG "D7"F2A2 | "G"G8 |]

@@ -1,0 +1,38 @@
+X: 111
+T: Blowzabella
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.56
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The rhythms aren't quite correct at the strains' ends; fixed by adding/deleting final dots.
+N: The repeat pattern isn't obvious; there are 5 musical strains, and 9 marked dance phrases.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+d2c B>AG | c2A B2G |\
+d2c B>AG | A2D G3 |]\
+g2d BGB | cAc B>AG |\
+g2d BGB | ADF G2 |]\
+G/A/ |\
+BAB cBc | d3- d2c |
+B>cB A>BA | G3- G3 |]\
+g2G g2G | A>BA B2G |\
+g2G g2G | A>BA G2 |]\
+G/A/ |\
+BAB cBc | d3- d2c |\
+B>cB A>BA | G3- G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. foot it and cast off .| 1st Cu. foot
+%% it again and cast off below the 3d Cu. :| 1st Cu.
+%% leads up to the Top and cast off .| 1st Cu. leads
+%% thro' the 3d Cu. :| 1st Cu. turn hands .| 1st
+%% Cu. turn back again :| the 1st Cu. foot it .|
+%% and then clap hands :| the 1st Man double
+%% figures thro' the 3d Cu. 1st Wo. at the same time
+%% double figure thro' the 2d Cu.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

@@ -1,0 +1,51 @@
+%%text RJ Set 025 Reels
+
+
+X: 1
+T: Woodchopper's Reel
+I: RJ R-73 D reel
+M: C|
+R: reel
+K: D
+|:\
+"D"afdB AdFA | DFAd f2ef | "A"(3gfe cB Ace [1,3 g | a^gab a2f=g :|[2,4 c | "D"dfec d4 :|
+|:\
+"D"DFAd (3BdB AF | DFAd (3BdB Az | "A"A,CEA ceaf |[1,3 gfed cBAF :|2,4 (3gfe cA "D"d4 :|
+
+
+X: 2
+T: Reel de Montr\'eal
+I: RJ R-41 G/D reel
+M: C|
+R: reel
+K: G
+d |\
+"G"g2fe dcBA | GBDG B2AG |\
+[1,3 "D7"FADF AcBA | "G"GBDG B2B :|\
+[2,4 "D7"FGAB cdef | "G"g2g2 g2z :|[K:D]
+|: z |\
+"D"A2FA d2Ad | f2df a2ab |\
+[1,3 "A7"a2g2 e2g2 | "D"b2a2 f2d :|\
+[2,4 "A7"a2g2 e2c2 | "D  (D7)"d4-d2z :|
+% text Roaring Jelly  R-41
+
+
+X: 3
+T: Dancing Bear, the
+C: Bob McQuillen 1978
+I: Dancing Bear, The	R-116	Em	reel
+M: C|
+R: reel
+K: Em
+|:\
+"Em"EFGF EFGF | EFGA G2E2 | "A"EFGF EFGF | EFGA G2E2 |\
+"C"EFGF EFGF |
+EFGA B2e2 | "B7"B2Bc BAGF | "Em"G2E2 E4 ::\
+"Em"e2ef gfef | gfe2 e4 |
+"A"e2ef gfef | gfe2 e4 |\
+"C"e2ef gfef | gfe2 e2dc | "B7"BABc BcBA | "Em"GFE2 E4 :|
+%%begintext ragged
+%% For the E half-notes in the B part, fiddles do a slide up to the harmonic E.
+%% Do this when Debby so signals.
+%%endtext ragged
+

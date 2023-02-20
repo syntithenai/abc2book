@@ -1,0 +1,18 @@
+X: 20094
+T: ST. PIERRE HORNPIPE
+%R: hornpipe, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.9 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Doubled the length of the initial pickup notes, to fix the rhythm of repeats.
+M: C
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F/G/A |\
+BFDF B2AB | cAFA c2Bc | dcBA GABc | A2F2 F2GA |\
+BFDF B2AB | cAFA c2Bc | dcBA GcAF | B2B2B2 :|
+|: f=e |\
+f_edc =BGAB | c=Bcd e2ed | edcB AFGA | B>ABc dfec |\
+BFDF B2AB | cAFA c2Bc | dcBA GcAF | B2B2B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

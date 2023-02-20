@@ -1,0 +1,25 @@
+X: 1
+T: Neptune
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (164)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/8
+L: 1/8
+K: Cm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+cGE C2C | CEG c2B | AGF EFG | C3- C3 :|\
+|: g |\
+gcc c2g | a>ba/g/ f2f | fBB B2f |\
+f>gf/e/ d2d | efg Gc=B | c3- c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. cast off and turn single .| The
+%% same back again :| Then the whole figure thro
+%% the 2d Cu. .| Cross over and turn your
+%% partner proper :|
+%%endtext
+%%sep 1 8 500

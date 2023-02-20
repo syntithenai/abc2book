@@ -1,0 +1,30 @@
+X: 20932
+T: COLUMBIAN SETT (tune 5)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.93 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The first strain has 7 bars.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+AB |\
+c2cd c2f2 | f3c G2G2 | B3A F2AB  |\
+c2cd c2f2 | f2e2 d2c2 | B3A B2c2 | F6 H|]
+EF |\
+G2GA G2A2 | B2G2 E2FG | B2G2 E2AB | c3A E2AB |\
+c2cd c2f2 | f2e2d2c2 | B2A2 B2c2 | "^D.C."F6 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple promenade round,
+%% and face the head of the hall,
+%% 2d, 3d, and 4th couples the same,
+%% all march,
+%% all balance.
+%% turn partners to place.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

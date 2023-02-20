@@ -1,0 +1,28 @@
+X:71
+T:Vihtorin Jenkka  (Victor's jenkka)
+M:2/4
+L:1/8
+Q:1/4=80
+C:Vihtori Hassinen
+S:Play A - B - C - B (B_org is organ bass accomp to part B)
+R:jenkka
+K:Am
+|: "E7" E | "Am" A>B c>d | c2 "E7" B2 |
+e>f e/2d/2c/2B/2 | "Am" A/2B/2c/2d/2 "E7" eE | !
+"Am" A>B c>d | c2 "E7" B2 |
+e>f e/2d/2c/2B/2 | "Am" c3 :| !
+P:B
+|: (3B/2c/2d/2 | "Am" ee "Dm" f>e | "G" ed d/2c/2B/2c/2 |
+"Dm" dd "E7" e>d | dc c/B/2A | !
+"Am" AE/2A/2 cE/2A/2 | cB "E7" B/2^G/2E/2G/2 |
+cB B/2^G/2E/2G/2 | "Am" BA A :| !
+P:C
+|: E | "Am" AE/2A/2 cE/2A/2 | cB "E7" B/2^G/2E/2G/2 |
+"Am" cB "E7" B/2^G/2E/2G/2 | BA "Am" AE | !
+AE/2A/2 cE/2A/2 | cB "E7" B/2^G/2E/2G/2 |
+"Am" cB "E7" B/2^G/2E/2G/2 | BA "Am" A :|
+P:B_org
+"C2_E_F" z2 z z | "G2" z2 "D2" z2 |
+"B2" z2 "E" z "G" z | "AB" z2 "C2" z2 |
+"A2" z2 "F2" z2 | "E2" z2 "B2" z2 |
+"F" z "E" z "C" z "A" z | "A2" z2 "A2" z2 ||

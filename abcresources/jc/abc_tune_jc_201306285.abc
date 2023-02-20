@@ -1,0 +1,21 @@
+X:014
+T: Major (The)
+N: O'Farrell's Pocket Companion v.1 (Sky ed. p.23)
+% O'Farrell indicates only one G natural (in first measure of Part 2), but G sharps
+% throughout don't sound right (try playing back with K:A instead of K:Amix)
+N: Relative/ancestor of Mooncoin Jig
+M: 6/8
+L: 1/8
+R: jig
+Q: 320
+K: Amix
+d|: c2A AcA|AcA Bcd|c2A Ace|dBG Bcd :|
+P:2
+cde ef=g|faf g2e|c2e efg|dBG Bcd|
+cde efg |faf g2e|a/b/af g2e|dBG Bcd :|
+P:3
+cBA a3|ecA Bcd|cBA g2e|dBG Bcd|
+cBA a3|ecA Bcd|cBA g2e|dBG Bcd ||
+P:4
+ecA AcA|AcA Bcd|ecA Ace|dBG Bcd|
+ecA AcA|AcA Bcd|ecA Ace|dBG Bcd||

@@ -1,0 +1,22 @@
+X: 21321
+T: la POULE
+N: "HERZ QUADRILLES."
+%R: jig
+B: "Edinburgh Repository of Music" v.2 p.132
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+(ef |\
+gag dfe | c3 Gce) | .d({e}d^c) .d({e}dc) | dag fd^d |\
+(eag dfe | c3 Gce) | dag Tfde | c3- c H|]
+Bc |\
+d^fg efg | dba {a}g^fg | ade d{^f}ed | d^fg dBc |\
+d^fg efg | dba {a}g^fg | ade d{^f}ed | gdb g |]
+(ef |\
+gag dfe | c3 Gce) | .d({e}d^c) .d({e}dc) | dag fd^d |\
+eag dfe | c3 Gce | dag fde | c3 c |]
+"^Minore."cd |\
+e2e agf | e2e edc | B2c dcB | cdB Acd |\
+e2e agf | e2e edc | B2c dBc | A3- "D.C."A2 |]

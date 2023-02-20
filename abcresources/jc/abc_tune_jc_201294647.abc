@@ -1,0 +1,42 @@
+X: 1
+T: the Jovial Beggars
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.39 #71
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.70
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the DMDfD dance instructions. The repeat of the first isn't mentioned, but it's obviously needed.
+N: CCDM1 has g for the first a in bar 3; comparing with the rest of the tune says this is probably a typo.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+d2e f2g | a3 b3 | a>gf e2f | g3 f3 | e>dc d2e | A3- A2 :|
+|: f |\
+e>dc d2e | e3- e2f | e>dc d2e | a3- a2f |\
+edc B2A | d2e f2b | abf e2d | d3 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man cast off below the 2d Man into the 2d
+%% Wo's Place, the 1st Wo. follows her Partner into the 2d.
+%% Man's Place .| The 1st Wo. in the 2d Man's Place cast up
+%% into her own Place, and the Man follows her into his own
+%% Place :| The 1st Man take his Partner and lead thro' the 2d
+%% Cu. and back again and cast off .| All four lead up Hands 
+%% abreast, lead thro' and cast off into the 2d Cu. Place :| The
+%% rest do the like.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% The 1. man cast off below the 2. man into the 2. wo's place, the 1. wo. follows her Partner into the 2.
+%% man's place, To the first Strain once. The 1. wo. in the 2. man's place cast up into her own place, and
+%% the man follows her into his own place :| [To the first Strain twice] The 1. man take his Partner and lead through the 2.
+%% cu. and back again and cast off; The second strain once. All four lead up hands a-breast, lead through
+%% and cast off into the 2. cu. place; The second Strain twice. The rest do the like.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

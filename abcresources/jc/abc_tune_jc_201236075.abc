@@ -1,0 +1,27 @@
+X: 21613
+T: la GITANA POLKA
+Q: "Allegretto."
+%R: polka, march, reel
+N: This is version 1, for ABC software that doesn't understand diminuendo symbols.
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.161 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain is identical to the 1st, except for the staccato marks.
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!p!c2 |\
+"^dim..."B3c d2f2 | {fg}.f2.e2 .e.f.e2 | {ef}.e2.d2 .d.e.d2 | {de}.d2.c2 .c.d.c2 |\
+"^dim..."B3c d2f2 | {fg}f2e2 efe2 | {ef}e2d2 ded2 | c2c'2c2 :|
+|: !f!d2 |\
+.d2.e.^f .g.a.b.c' | .d'2.d2 .b4 | {bc'}.b2.a2 .a.b.a2 | {ab}.a2.g2 .g.a.g2 |\
+.d2.e.^f .g.a.b.c' | .d'2.d2 b4 | {bc'}.b2.a2 .a.b.a2 | g2b2g2 :|
+|: !p!c2 |\
+B3c d2f2 | {fg}f2e2 efe2 | {ef}e2d2 ded2 | {de}d2c2 cdc2 |\
+B3c d2f2 | {fg}f2e2 efe2 | e2d2 ded2 | c2c'2"^D.C."c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% No. 23.
+%%endtext
+%%sep 1 1 300

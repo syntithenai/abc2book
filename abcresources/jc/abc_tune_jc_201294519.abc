@@ -1,0 +1,26 @@
+X:1
+T:Jonathan Blake (a medley)
+M:2/4
+L:1/16
+K:D
+%%staves (1 2)
+V:1
+K:treble
+P:Intro
+E2|AcBc AcE2|z8|A^GAE FECA,|B,2B,2A,2 (3(ABc)|
+V:2
+x2|x8|x8|x8|x6 (3(A,B,C)|
+%%staves [1 2]
+P:Fisher's Hornpipe
+|:dAFA GBAG|FAFA GBAG|FDFD GEGE|FDFD E2 (3(ABc)|
+dAFA GBAG|FAFA GBAG|FGAB cAcA|[1 d2d2d2 (3(ABc):|[2 d2d2d2 !8b(!cd|
+ecAc ecge|fdAd fdgf|ecAc ecgf|edcB A2!8b)!GA|
+BGDG BGdB|AFDF AFdA|BdcB AGFE|[1 D2D2D2 !8b(!cd:|[2 D2D2D2 z2|
+V:2
+K:treble
+|:!8b(!AFzc dGzB|DFzA GBAG|DFzG EGBe|dczB A2 (3(ABc)|
+AFzc dGzB|DFzA GBAG|ABcd eazg|[1 f2A2d2 (3(ABc):|[2 F2A2!8b)!d2 z2|
+L:1/8
+ELA ELG|FLA FLG|ELA ELG|A,/B,/C/D/ Ez|
+GLB DLB,|DA FD|E2 A,2|[1 F,2 z2:|[2 F,2 z2|
+%(:abcmend:)

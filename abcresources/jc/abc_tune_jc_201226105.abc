@@ -1,0 +1,21 @@
+X:101
+T:Georgie's Jig
+P:The West Port
+R:Jig (4x32)
+B:RSCDS L32-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Bb
+F|"Bb"DEF G2 F|DEF B3|DEF "Bbo"G2 F|"Cm"A2 G "F"C3|\
+  "Cm"C2 D E2 F|EDC D2 E|"F7"F2 G A2 B|
+                                       AGF GFE|\
+  "Bb"DEF G2 F|DEF B3|DEF "Bbo"G2 F|"Cm"A2 G "F7"C3|\
+  "Cm"C2 D E2 F|EDC "C7"DE=E|
+                             "F"F=EF "F7"ABc|"Bb"BFG "F7"ABc||\
+  "Bb"d2 c BFD|"A7"A2 G "Bb"F3|B,DF "Gm"GAB|"Cm"A2 G "F"C3|\
+  "F7"A2 A ABc|
+               "Cm"G2 G GAB|"F"ABc FGA|CFG "F7"ABc|\
+  "Bb"d2 c BFD|"A7"A2 G "Bb"F3|
+                               B,DF "G"GAB|"Cm"A2 G "F"C3|\
+  A2 A ABc|"Cm"G2 G GAB|"F"AGF "F7"edc|"Bb"B3-B2|]

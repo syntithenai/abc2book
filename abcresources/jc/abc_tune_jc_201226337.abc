@@ -1,0 +1,25 @@
+X: 10204
+T: WE MET
+O: German air.
+Q: "Moderate--may be played as a Waltz."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.20 #4
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F2 |\
+d3FBd | d2z2FB | d2e2d2 | (d2c2)zF |\
+c3FAc | e3z(ce) | g2f2e2 | (e2d2)zF |\
+d3FBd | d2z2FB | d2e2d2 | (d2c2)zF |\
+c3FAc | "_>"e4(dc) | F2G2A2 | c2B2 |]
+(Bc) |\
+d3efg | (f2e)z (dc) | d3cBA | B2G2zd |\
+d3efg | (f2e)z (ed) | d3cBA | B2G2zF |\
+d3FBd | d3z2(FB) | d2e2d2 | (d2c2)z!f!F |\
+c3Fce | (gf)(ed)(cB) | F2G2A2 | c2{dc}B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

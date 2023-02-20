@@ -1,0 +1,32 @@
+%%scale 1.2
+X:1
+T:Grey Cat on a Tennessee Farm
+C:Traditional - These lyrics by Uncle Dave Macon
+C:Harmony by Chris Weyer - Firelands Dulcimer Club 1994
+M:2/4
+L:1/8
+K:D
+%%staves {1 2}
+V:1 name="Melody"
+|"D"AB d2|AB d2
+w:v1~Just~look~to the man who~can~if he will,
+w:v2~Cattle on~the pasture, hogs in~the pen,
+w:v3~Corn in~the crib~and porter in~the yard,
+w:v4~Fruit in~the celler, cheese on~the board,
+w:v5~Horses in~the stable~and money in~his pocket,
+|AB d2|"A7"FE "D"D2
+w:Prosper in~the valley~of~the Tennes-see hills.
+w:Sheep on~the ranch~and wheat in~the bin.
+w:Meat in~the smokehouse, a~big  tin~of lard.
+w:Big sack~of coffee~and sugar in~the gourd.
+w:Baby's in~the cradle~and~a pretty woman~to rock~it.
+|AB d2|AB d2|AB d2|"A7"FE "D"D2
+|AFAF|"A"E2 "D"D2|AFAF|"A"E2 "D"D2||
+w:ch~Big cat spit in~the little~cats eye, Little cat, Little cat, don't~you cry.
+|A2 F2|"A7"E2 "D"D2|AFAF|"A7"E2 "D"D2||
+w:I~do~love liquor~and~we'll all~take~a dram, I'm gonna tell ya pretty~Polly Ann.
+V:2 name="Harmony"
+|FG A2|FG A2|FG A2|AG F2
+|FG A2|FG A2|FG A2|AG F2
+|dA dA|GG F2|dA dA|GG F2
+|d2 A2|G2 F2|dA dA|GG F2||

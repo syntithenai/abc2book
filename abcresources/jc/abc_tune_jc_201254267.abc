@@ -1,0 +1,56 @@
+X:1
+T:Bogan Lochan  "1998.3"
+M:C
+L:1/8
+Q:80
+C:Traditional
+S:Strathspey
+K:HP
+[| {g}A2{GdGe}A3/2{d}B/2{g}A3/2{d}B/2{gef}e3/2d/2 | \
+{g}A2{GdGe}A3/2{d}B/2{g}G3/2B/2{Gdc}d3/2B/2 | \
+{g}A2{GdGe}A3/2{d}B/2{g}A3/2{d}B/2{gef}e3/2d/2 |
+{g}e/2f/2g{Gdc}d3/2g/2{Bd}B/2{e}G3/2{Gdc}d3/2B/2 | \
+{g}A2{GdGe}A3/2{d}B/2{g}A3/2{d}B/2{gef}e3/2B/2 | \
+{gAGAG}A2{gcd}c/2{e}A3/2{gBd}B/2{e}G3/2{Gdc}d3/2B/2 |
+{g}A2{GdGe}A3/2{d}B/2{g}A3/2{d}B/2{gef}e3/2d/2 | \
+{g}e/2f/2g{Gdc}d3/2g/2{Bd}B/2{e}G3/2{Gdc}d3/2B/2|] [ | \
+{g}e3/2A/2{gef}e3/2d/2{g}e3/2A/2{g}e/2a3/2 |
+e3/2A/2{gef}e3/2d/2{gBd}B/2{e}G3/2{Gdc}d3/2B/2 | \
+{g}e3/2A/2{gef}e3/2d/2{g}e3/2A/2{gef}e3/2d/2 | \
+{g}e/2f/2g{Gdc}d3/2g/2{Bd}B/2{e}G3/2{Gdc}d3/2B/2 |
+{g}e3/2A/2{gef}e3/2d/2{g}e3/2A/2{g}e/2a3/2 | \
+{AGAG}A2{gef}e3/2d/2{gBd}B/2{e}G3/2{Gdc}d3/2B/2 | \
+{g}e3/2A/2{gef}e3/2c/2{Gdc}d3/2e/2{g}f/2g/2a |
+g/2f/2e{gf}g3/2d/2{gBd}B/2{e}G3/2{Gdc}d3/2c/2|] [ | \
+{g}B2{GdGe}B3/2{d}c/2{g}B3/2{d}c/2{gfg}f3/2e/2 | \
+{g}B2{GdGe}B3/2d/2{gcd}c/2{e}A3/2{gef}e3/2c/2 |
+{g}B2{GdGe}B3/2{d}c/2{g}B3/2{d}c/2{gfg}f3/2e/2 | \
+{g}f/2g/2a{ef}e3/2a/2{cd}c/2{e}A3/2{gef}e3/2c/2 | \
+{g}B2{GdGe}B3/2{d}c/2{g}B3/2{d}c/2{gfg}f3/2e/2 |
+{g}B2{GdGe}B3/2d/2{gcd}c/2{e}A3/2{gef}e3/2c/2 | \
+{g}B2{GdGe}B3/2c/2{Gdc}d3/2c/2{Gdc}d3/2e/2 | \
+{g}f/2g/2a{ef}e3/2a/2{cd}c/2{e}A3/2{gef}e3/2c/2|] [ |
+{g}f3/2B/2{gfg}f3/2e/2{g}f3/2B/2{g}f/2a3/2 | \
+f3/2B/2{gfg}f3/2e/2{gcd}c/2{e}A3/2{gef}e3/2c/2 | \
+{g}f3/2B/2{gfg}f3/2e/2{g}f/2B/2{G}B{gfg}f3/2e/2 |
+{g}f/2g/2a{ef}e3/2a/2{cd}c/2{e}A3/2{gef}e3/2c/2 | \
+{g}f3/2B/2{gfg}f3/2e/2{g}f3/2B/2{g}f/2a3/2 | \
+B/2{GdG}B3/2{g}f3/2e/2{gcd}c/2{e}A3/2{gef}e3/2c/2 |
+{g}f3/2B/2{gfg}f3/2e/2{Gdc}d3/2e/2{g}f/2g/2a | \
+g/2f/2e{gf}g3/2d/2{gBd}B/2{e}G3/2{gBd}B/2a3/2|] [ | \
+{AGAG}A2{g}e3/2d/2{gef}e2{AGAG}A/2a3/2 |
+{AGAG}A2{gef}e3/2d/2{gBd}B/2{e}G3/2{Gdc}d3/2B/2 | \
+{gAGAG}A2{gef}e3/2d/2{gcd}c/2{e}A3/2{gef}e3/2d/2 | \
+{g}e/2f/2g{Gdc}d3/2g/2{Bd}B/2{e}G3/2{Gdc}d3/2B/2 |
+{gAGAG}A2{g}e3/2d/2{gef}e2{AGAG}A/2a3/2 | \
+{AGAG}A2{gef}e3/2d/2{gBd}B/2{e}G3/2{Gdc}d3/2B/2 | \
+{gAGAG}A2{gef}e3/2d/2{gcd}c/2{e}A3/2{gef}e3/2d/2 |
+{g}e/2f/2g{Gdc}d3/2g/2{Bd}B/2{e}G3/2{Gdc}d3/2B/2|] [ | \
+{GdG}a2{fg}f3/2e/2{g}f3/2B/2{G}B3/2c/2 | \
+{GdG}a2{fg}f3/2e/2{gcd}c/2{e}A3/2{gef}e3/2c/2 |
+{GdG}a2{fg}f3/2e/2{g}f/2B/2{G}B{gfg}f3/2e/2 | \
+{g}f/2g/2a{ef}e3/2a/2{cd}c/2{e}A3/2{gef}e3/2c/2 | \
+{GdG}a2{fg}f3/2e/2{g}f3/2B/2{G}B3/2c/2 |
+{GdG}a2{fg}f3/2e/2{gcd}c/2{e}A3/2{gef}e3/2c/2 | \
+{GdG}a2{fg}f3/2e/2{Gdc}d3/2e/2{g}f/2g/2a | \
+g/2f/2e{gf}g3/2d/2{gBd}B/2{e}G3/2{gBd}B/2a3/2|]

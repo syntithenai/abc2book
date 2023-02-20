@@ -1,0 +1,34 @@
+X: 1
+T: Lads of Dunce
+P: Longways for as many as will
+%R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.19
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B |\
+AFD D>ED | D>ED TB2A | Bcd AFA | BEE Edc |\
+AFD DED | DED TB2A | B/A/B/c/d AFB | ADD D2 :|
+|: e |\
+Tf>ed d2e | f/e/f/g/a TB2A | Bcd AFA | BEE E2e |\
+f>ed d2e | f/e/f/g/a TB2A | B/A/B/c/d AFB | ADD D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d3 g3 | f3 d3 | g3 d'3 | g3 z2z |\
+d3 g3 | f3 d3 | g3 d'2g | a3 d2 :|
+|: z |\
+d'3 d3 | d'3 d3 | g3 d'3 | g3 a3 |\
+d'3 d3 | d'3 d3 | g3 f2g | a3 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Two Cu. slip down and up footing and cast off by turns :|
+%% Change over, lead to the Wall, back again and turn Partners .||
+%% 2 Men lead as before .||
+%% foot Corner Ways and turn :|
+%% cross over, 2 figure right and left .||
+%%endtext

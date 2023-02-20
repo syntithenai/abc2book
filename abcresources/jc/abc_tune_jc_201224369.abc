@@ -1,0 +1,33 @@
+X: 08232
+T: SHADDIE
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.8 p.23 #3
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 1 clef=treble middle=B
+A |\
+f2e dcB | A2F D2E | F>GF FED | C<Ez z2A |\
+f2e dcB | A2F D2E | FGF {F}EDE | D3- "Fine"D2 H:|
+|: A |\
+g2e f2d | c2A d2f | g2e f2d | cez z2A |\
+gfe fed | cBA def | gfe fed | (f3 "D.C."e2) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z |\
+dfa dgb | dfa dfa | dfa Bd^g | Aea A2z |\
+dfa dgb | dfa dfa | dfa Aea | dfa "Fine"d2 H:|
+|: z |\
+Ace Adf | Aeg Adf | Ace Adf | Ace A2z |\
+Ace Adf | Aeg Adf | Ace Adf | A2a "D.C."A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & Hands 3 round, back again,
+%% down the mid: up again, & Allemande.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

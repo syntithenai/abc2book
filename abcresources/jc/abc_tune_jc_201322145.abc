@@ -1,0 +1,36 @@
+X:1085
+T:Palais Glide, The
+C:Joe Buchanan's Scottish Tome - Page 482.0
+I:482 0
+R:Folk
+Z:Carl Allison
+L:1/8
+M:C
+K:C treble
+W:Intro
+%%vskip 0
+"C"EF | G>^FG>A G>ed>c | "Dm"A>^GA>B A>fe>d | "C7"B2 a2 g2 B2 | [EGc]6 |]
+%%vskip 50
+E>F | "C"G>^FG>A G>ed>c | "Dm"A>^GA>B A>fe>d | "G7"B2 a2 d2 ^d2 | "C"e>d"F#dim"B>A G2 "C"E>F |
+"C"G>^FG>A G>ed>c | "Dm"A^GAB A>fe>d | "C7"B2 a2 g2 B2 | "C"[EGc]6 |]
+c>B | "F"A>^GA>B c2 A2 | "C"G2 E4 e>g | "G7"f2 d4 d>f | "C"e2 c4 c>B |
+"F"A>^GA>B c2 A2 | "C"G2 E4 "Cm"G>A | "G7"B>^AB>d "D7"=A>^GA>B | "G"G6 |]
+E>F | "C"G>^FG>A G>ed>c | "Dm"A>^GA>B A>fe>d | "G7"B2 a2 d2 ^d2 | "C"e>cB>A A2 "C"E>F |
+"C"G>^FG>A G>ed>c | "Dm"A>^GA>B A>fe>d | "G7"B2 a2 g2 B2 | "C"[EGc]6 |]
+%%vskip 50
+[K:F] ((3c^B=B) | "F"A4 B>A"C7"B>G | "F"A2 "F7"c6 | "Bb"d4 f>ef>d | "F"c4- c4 |
+"C7"B4 G>A B2 |"F"A4 F>"D"G A2 | "C"G2 e2 "C7"d>^cd>e | "C7"c6 ((3c_BB) |
+"F"A4 B>A"C7"B>G A2 | "F"A2 "F7"c6 | "Bb"d4 f>ef>d | "F"c4- c4 |
+"C7"B4 G>A B2 |"F"A4 F>"D"G A2 | "Gm"G>AB>d "C7"c2 E2 | "F"F6 |]
+%%newpage
+((3FED) | "A7"^C A4 ((3GFE) | "Dm"F2 D4 D>E | "Gm"F>EF>E F2 D2 | "F"C4 ((3FED) |
+"A7"^C2 A4 ((3GFE) | "Dm"F2 D4 D>E | "Gm"F>ED>E F2 G2 | "Am"A2 z2 "C7"[EBc]2 :|
+((3c^B=B) | "F"A4 B>A"C7"B>G | "F"A2 c6 | "Bb"d4 f>ef>d | "F"c4- c4 |
+"C7"B4 G>A B2 | "F"A4 "D"F>G A2 | "C"G2 e2 "C7"d>^cd>e | "C7"c4 ((3c^B=B) |
+"F"A4 B>A"C7"B>G | "F"A2 "F7"c6 | "Bb"d4 f>ef>d | "F"c4- c4 |
+"C7"B4 G>A B2 | "F"A4 "D"F>G A2 | "Gm"G>AB>d "C7"c2 E2 | "F"F6 |]
+%%vskip 50
+[K:C] E>F | "C"G>^FG>A G>ed>c | "Dm"A>^GA>B A>fe>d | "G7"B2 a2 d2 ^d2 | "C"e>dB>A G2 "C"E>F |
+"Dm"G>^FG>A G>ed>c | "Dm"A>^GA>B A>fe>d | "C7"B2 a2 g2 B2 | "C"c2 [Bfg]2 [cec']2 |]
+%
+W:Errata: Changed the "Dm" chord first measure, second line to "C".

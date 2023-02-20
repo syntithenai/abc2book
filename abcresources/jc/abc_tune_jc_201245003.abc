@@ -1,0 +1,5 @@
+X: 1
+T: TEST: Chord above
+%%staffwidth 200
+K: C
+[| "^Em"GABc defg |]

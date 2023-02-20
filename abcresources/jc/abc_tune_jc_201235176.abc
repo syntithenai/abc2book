@@ -1,0 +1,25 @@
+X: 21013
+T: FRANKLIN SETT (tune 6)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.101 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="6"
+B/c/ |\
+d2B BAB | c2G G2A | B2c d2e | f2g f2e |\
+d2B BAB | c2G G2A | B2F d2c | c3 B2 H|]
+f |\
+g2B e2g | f2d b2f | g2B e2g | f2d b2f |\
+gfe fed | edc dcB | cBA BAG | FAB cd"^D.C."e |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All balance to the right,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,1391 @@
+
+%%pagesize 28.00cm
+%%printtempo no
+% -- 'tr' + long trill
+%%postscript /trtrill{		% usage: len x y trtrill
+%%postscript	2 copy trl
+%%postscript	3 1 roll 9 add 3 1 roll 9 sub 3 1 roll 2 add ltr}!
+%
+% -- 'tr' + long trill
+%%deco tr( 5 - 11 0 0
+%%deco tr) 5 trtrill 11 0 0
+%
+
+X:241
+T:Scales and Exercises
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 24, on which Scales and Exercises are given.
+M:C
+L:1/4
+Q:1/4=100
+K:C
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+"^  Major Scales ""^C Major"c2de|fgab|c'2ba|gfed|c4||"^  Relative Minor Scales ""^A Minor"A2Bc|de^f^g|a2=g=f|edcB|A4||
+[K:G]"^G Major"G2AB|cdef|g2fe|dcBA|G4||"^E Minor"E2FG|AB^c^d|e2=d=c|BAGF|E4||
+[K:D]"^D Major"D2EF|GABc|d2cB|AGFE|D4||"^B Minor"B2cd|ef^g^a|b2=a=g|fedc|B4||
+[K:A]"^A Major"A2Bc|defg|a2gf|edBc|A4||"^F# Minor"F2GA|Bc^d^e|f2=e=d|cBAG|F4||
+
+X:251
+T:Exercises (Simple Melodies)
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 24, on which Scales and Exercises are given.
+M:C
+L:1/4
+Q:1/4=100
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+P:Common Time
+"_1"G"_2"G"_3"d"_4"d|"_1"e"_2"e"_3  4"d2|"_1"c"_2"c"_3"B"_4"B|"_1"A"_2"A"_3  4"G2||"_1"d"_2"d"_3"c"_4"c|"_1"B"_2"B"_3"A"_4"A|
+"_1"d"_2"d"_3"c"_4"c|"_1"B"_2"B"_3  4"A2|"_1"G"_2"G"_3"d"_4"d|"_1"e/f/"_2"g/e/ "_3  4"d2|"_1"c"_2"c"_3"B"_4"B|"_1"A/G/"_2"A/B/ "_3  4"G2:|
+P:Example 2d
+M:C|
+L:1/8
+[K:D]F>E|D3D d3c|c2B4B2|AF3 F3D|E4z2 F>E|D3D d3c|c2B4B2|A3F {F2}E3D|
+D4 z2A2|d2>>d2 e2>>e2|f4 z2A2|d2>>d2 e2>>e2|f4 z2f>e|dB3 B3A|(A4 F2)E>D|d2F2{F2}E3D|D4z2||
+P:Example 3d
+M:2/4
+A|"_1"dd"_2"ef|"_1"df"_2"ec|"_1"dd"_2"ef|"_1"d2"_2"A2|"_1"dd"_2"ef|"_1"gf"_2"ed|"_1"cA"_2"Bc|"_1"d2-"_2"d::
+z|"_1"BB"_2"BA|"_1"Bc"_2"d2|"_1"AB"_2"AG|"_1"FG"_2"A2|"_1"BB"_2"BA|"_1"Bc"_2"d2|"_1"Ad"_2"ce|"_1"d2-"_2"d:|
+P:Example 4th
+d/c/|dDFA|dDD d/c/|dDFA|BEE d/c/|dDFA|Bgfe|d/c/B/A/ Bc|dDD::
+f/g/|a>f g>e|fd d/e/f/g/|a>f g>a|bee f/g/|a>f g>e|fd ef/e/|d/c/B/A/ B>c|dDD:|
+
+X:263
+T:Vinton's Hornpipe
+M:2/4
+L:1/16
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 26, on which the key of A major is introduced.
+K:A
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|:ed|c2A2 ABcA|BAGF E2ED|CEAE cdcA|BAGF E2 ed|
+c2A2A2 fe|d2B2B2 BA|GBeg faf^d|e2e2e2::
+ed|.c(AGA) .c(AGA)|.F(DCD) .F(DCD)|BcdB ABcA|GABG E2 ef|
+.e(AGA) .f(AGA)|.g(AGA) .a(AGA)|EFGA BcBG|A2A2A2:|
+
+X:271
+T:The Sea Shore
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 27, on which a "Sample of Dotted Notes" are presented.
+M:2/4
+L:1/16
+K:A
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+{B}A>G|A>ec>A G>ed>B|G>Ac>e a>ec>A|F>Bd>B E>Ac>A|B2B>A G>EF>G|
+A>ec>A G>ed>B|G>Ac>e a>ec>A|g>fd>B f>ec>A|G>ed>B A2::B>A|
+G>EF>E d2F>E|A>Bc>d e>fg>a|f>ae>a d>ac>a|B>dG>B E2 {B}A>G|
+A>ec>A G>ed>B|G>Ac>e a>ec>A|g>fd>B f>ec>A|G>ed>B A2:|
+
+X:272
+T:Quick Step
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 27, on which a "Sample of Dotted Notes" are presented.
+M:2/4
+L:1/16
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+F>G|A2d2 A2f2|a4 a>gf>e|^d>ef>e =d>cB>A|f3e d>BA>^G|A2d2 A2f2|a4 a>gf>e|
+^d>ef>e =d>cB>A|d2f2d2:|F>G|A>BA>F A4-|A2 f4 d2|A>BA>F A4-|A2 f4 d2|
+e>fe>B e4|e>fe>B e4|e2g>f e>fe>d|c>dc>B A>BA>G|F>BA>F A4-|A2 f4 d2|
+B>cB>G B4-|B2 g4 e2|a>gf>e g^fe>g|f>cd>B A4|B>Ag>e c>AG>E|D2d2d2|
+
+X:273
+T:Queen of Hearts
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 27, on which a "Sample of Dotted Notes" are presented.
+M:2/4
+L:1/16
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(Te>d)|ceA>B AGEC|D2D>C D>FE>D|C>E(AB) c>AB>^G|.A.d zd d>fe>d|
+ceA>B AGEC|D2D>C D>FE>D|C>E(AB) c>AB>^G|{B}A>^GA>B A2::A>G|
+E>A^G>B ABcd|eAge defd|ceA>B AGEC|D2zC DFE>D|
+C>A^GB ABcd|eAge defd|ceAB Agec|[1 d>cd>e d2:|[2 d4-d2||
+
+X:402
+T:Lamplighter
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 40, Afternoon Duty
+M:9/8
+L:1/8
+Q:1/8=270
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+e|Ace efd edB|Ace edB d3|Ace efd edB|Bg=c BAG A2A|Ace efd edB|Ace edB d3|
+Ace efd edB|Bg=c BAG A2||d|efg agf g<ed|efg agf g2d|efg agf g<ed|
+BAG GAB d2e|efg agf g<ed|efg agf g2d|efg agf g<ed|BAG GAB d2||
+
+X:411
+T:Pretty Girl Milking the Cow
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 41
+M:3/4
+L:1/8
+Q:1/4=180
+K:Ador
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+AB|cz e3d|Bz d3B|AG E4|z4 AB|cz e3d|Bz d3B|A6|z4 AB|
+cz e3d|Bz d3B|AG E4|z4 AB|cBAGED|E2A2 (3^GAB|A6|z4::
+AB|c2d2e2|ez a2 (3^gab|az A4|z4 AB|c2d2e2|ez a2 (3^gab|a6|z4 ab|
+c'2.b2.a2|(ge3) d2|cA3 dc|AG E4|z4 AB|cBAGED|E2A2 (3^GAB|A6|z4:|
+
+X:421
+T:Erin's Green Shore
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 42
+M:3/4
+L:1/8
+Q:1/4=180
+K:Ador
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+{B}A>G|Az e3d|fz e3d|BA G4|z2z2 GA|Bcd2de|dzB3A|A6|z2z2::
+d2|ez a3f|{a}gz f3d|ez d4|z2z2d2|ez a3f|gzf3d|e6|z2z2d2|
+eza3f|afe2ed|BAG4|z2z2GA|Bcd3e|dzB3A|A6|z2z2:|
+
+X:441
+T:Downfall of Paris
+M:2/4
+L:1/16
+Q:1/4=100
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 44
+K:D
+%%staves (1 2)
+V:1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(3(ABc)|:d2de d2de|d2d2 gfed|e2ef e2ef|e2e2 agfe|[1 f2fg f2fg|f2f2 bagf|e2ef e2ef|
+efge cABc:|[2 fefg abag|fefg abag|fafd egec|d2f2d2|]|:f2|a6 a2|a2f2 b2a2|
+g2gf g2gf|g2gf g4|g6 g2|g2e2 a2g2|f2fe f2fe|f2fe fgaf|d2de d2de|d2d2 gfed|
+e2ef e2ef|e2e2 agfe|fefg abag|fefg abag|fafd egec|d2f2d2::
+A2|ABcd dcBA|FGAB AGFE|D2 df e2eg|f2f2 e4|ABcd dcBA|FGAB AGFE|D2 df e2eg|f2e2d2::
+[V:1 down]d2|cAdA eAfA|gAfA eAdA|cAdA eAfA|gAfA e4|[V:1 up]ABcd dcBA|FGAB AGFE|D2 [V:1 down]df e2eg|f2e2d2:|
+V:2 up
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+L:1/8
+x|:x4|x4|x4|x4|[1 x4|x4|x4|x4:|[2 x4|x4|x4|x3|:x|x4|x4|
+x4|x4|x4|x4|x4|x4|x4|x4|x4|x4|x4|x4|x4|x3::x|x4|x4|x4|x4|x4|x4|x4|x3::
+x|cd ef|gf ed|cd ef|gf e2|x4|x4|x4|x3:|
+
+X:451
+T:My Lodging's on the Cold Ground
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 45
+M:3/4
+L:1/4
+Q:1/4=180
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+B/>A/|G>AG|GBd|ceg|g2f/e/|d>cB|AGA|B3-|B z/c/B/A/|
+G>AG|GBd|ceg|g2f/e/|d<gB|AGA|G3-|Gz::
+d|dBg|g2d|ecg|g2f/e/|d>cB|AGA|B3-|B z/c/B/A/|
+G>AG|GBd|ceg|g2f/e/|d<gB|AGA|G3-|Gz:|
+
+X:462
+T:Quickstep
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 46
+M:2/4
+L:1/16
+Q:1/4=90
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+fg|afge fdec|dfec A2AG|FAdf gfed|cdec A2fg|afge fdec|
+dfec A2AG|FAdf gedc|d2d2d2::cd|eAAA eAeA|eAfA eAfa|
+gfed dcBA|BGDG TB2AG|FAdc BBed|cABc defg|afbg fedc|d2d2d2:|
+
+X:561
+T:Biddy Oats
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 56
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(3(ABc)|d2fd A2dA|F2AF D2A2|dcBA gfed|dfce dcBA|d2fd A2dA|
+F2AF D2ef|gefd ecdB|AdAF D2::fe|d2FG A2gf|e2EF G2fe|
+dAFA gfed|cedB A2fe|dABc dAgf|edcd eAag|fedc Bgec|d2f2d2:|
+
+X:562
+T:Lydecker's
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 56
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(3(ABc)|dafd Bgec|dafd dcBA|BdAd GdFd|E2ec dcBA|dafd Bged|
+c2d2 e3f|geag eABc|d2f2d2::cd|eAfA gAfA|eAfe dcBA|BbAa GgFf|
+egfe dcBA|BbAa GgFf|egfd cdef|geag eABc|d2f2d2:|
+
+X:563
+T:Albany Beef
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 56
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+AF|D2DF ABAG|E2ef edBc|dedA Bdgb|afge fdAF|D2DF ABAG|
+E2ef edBc|dedA Bdgb|afge d2::(3(ABc)|d2fd adfd|efga bgec|
+d2fd adfd|egfd cABc|d2fd adfd|efga bgec|dedA Bdgb|afge d2:|
+
+X:571
+T:Turnpike Bend
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 57
+M:2/4
+L:1/16
+Q:1/4=100
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+D2|G3B AGEA|GBdf g2fg|afdf gdBd|ecAG FAD2|G3B AGEA|
+GBdf g2fg|afdf gdBd|ecAF G2::D2|D2FD ADFA|G2BG dGBd|A2^cA eAce|
+dfaf g3f|gfed edcB|cdef g2fg|afdf gdBd|ecAF G2:|
+
+X:572
+T:Emmett's
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 57
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(3(ABc)|d2cd BdAd|eada caBa|AaBa caBa|(^ga)ea fdAF|z.d(cd) BdAd|
+eada caBa|AaBa caBa|fdAF D2::A2|^GAEa fdAf|gAfA ecdA|
+^GAEA FADA|Beec dBA^G|Aada fdcd|gefd edcd|ecAe fedc|Bedc d2:|
+
+X:573
+T:Sugar in the gourd
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 57
+M:2/4
+L:1/16
+Q:1/4=100
+K:Ador
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+AG|EA^GB ABcA|=GEGA G2cd|edef gedf|ea^gb a2 AB|cAB^G ABcA|
+=GEGA G2cd|egfa gefd|cAB^G A2::A^G|Aa^gb a2ef|=gedB G2GF|
+Ggfa g2ef|gedB A2AG|EA^GB ABcA|=GEGA G2cd|egfa gefd|cAB^G A2:|
+
+X:574
+T:Speed the Plough
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 57
+M:2/4
+L:1/16
+Q:1/4=100
+K:A
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+ME2|ABcd eaec|eaec eaec|dfdB cecA|dcBA GBGE|ABcd eaec|
+eaec eaec|dfdB cecA|BAGB A2::Me2|a2ag aAce|a2ga faea|
+dbdb caca|dcBA GBGE|ABcd ecea|fd (3(Bcd) ec (3(ABc)|dfdB cecA|BAGB A2:|
+
+X:581
+T:Cincinnati
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 58
+M:2/4
+L:1/16
+Q:1/4=100
+K:A
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+E2|ABcd eAMA2|fAgA aAMA2|Fd Ec DB CA|BdcB AGFE|ABcd eAMA2|
+fAgA aAMA2|Fd Ec DB CA|cBAG A2::cd|eAMA2 fAMA2|agae fedc|(f^ef)c (dcd)F|
+BdcB AGFE|ABcd eAMA2|fAgA aAMA2|Fd Ec DB CA|cBAG A2:|
+
+X:582
+T:Kenderbeck's
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 58
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+ag|(fa).g.f (eg).f.e|d2d2d2 ed|(ce).d.c (Bd).c.B|.A2.A2.A2 BA|(GB).A.G (FA).G.F|
+.E.F.G.A .B.c.d.e|(fa).g.f (eg).f.e|.d2.d2.d2::AG|FAdA fdAF|EAcA ecAG|
+FAdf af(ba)|gfed cBAG|FAdA fdAF|EAcA ecAG|FAdf (ag).e.c|d2d2d2:|
+
+X:583
+T:Pushee's
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 58
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+F>G|A>BG>A F>GE>F|D>FA>d f2d>f|e>fd>e c>dB>c|B>A^G>B A2F>G|A>BG>A F>GE>F|
+D>FA>d f2d>f|e>df>e d>cB>A|{c}d2A>F D2::A>d|f>de>c d>BA>G|F>Ad>f e2a>f|
+g>fe>d c>de>f|e>dc>B A2A>G|F>Ad>f a2f>a|b>ag>f e2f>e|d>fe>g f>ac>e|{c}d2A>F D2:|
+
+X:584
+T:Iron Bridge
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 58
+M:2/4
+L:1/16
+Q:1/4=100
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+D2|G2(3BAG FADF|GBdB gdBG|EGed cBAG|AGFE DEFA|G2(3BAG FADF|
+GBdB gdBd|ecAF DGFA|G2B2G2::[K:D]FG|Adce dfeg|fd (3(efg) fdef|gfeg fedf|
+(3(efe) (3(dcB) A2GF|GBdg FAdf|EGce dAFA|Bgfe dcBc|[1 d2f2d2:|[2 dcde d=c!D.C.!BA||
+
+X:591
+T:Empty Pockets
+C:G. Bruce
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 59
+M:2/4
+L:1/16
+Q:1/4=90
+K:Amix
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A2|Ae ze efge|dG~G2 BGdB|Ae ze Te2df|eA~A2 a3f|g2bg efge|
+dG~G2 BGdB|Ae ze Te2df|e2A2A2::A2|Aa za zafa|gG~G2 BGdB|
+Aa za zafa|g2e2 a3f|g2bg efge|dG~G2 BGdB|Ae ze Te2df|e2A2A2:|
+
+X:592
+T:Bob Hitchcock's Primitive Reel
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 59
+M:2/4
+L:1/16
+Q:1/4=90
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+C2|EA^GB A2e=g|faec dcBA|G2EF G2EF|GBAG FDEC|EA^GB A2e=g|
+faec dcBA|G2EF GEBA|F2D2D2::de|(Tf3e) defg|afge dcBA|
+(Tf3e) defg|afdf a2ef|gaba gfec|dfec dcBA|G2EF GEBA|F2D2D2:|
+
+X:593
+T:Ben Green's
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 59
+M:2/4
+L:1/16
+Q:1/4=90
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A2|dfeg fagb|afge fdec|defd gfed|e2A2A2 (3(ABc)|dfeg fagb|
+afge fdec|Bcdg fdec|d2f2d2::fg|afge fdec|dcBA BAGF|
+gefd ecdB|cdec A2Bc|dfed egfe|fagf gbag|fbag fdec|d2f2d2:|
+
+X:594
+T:Sandy McGregor's
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 59
+M:2/4
+L:1/16
+Q:1/4=90
+K:Ador
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+AG|EA^GB A2ge|dBAG E2D2|MG2BG AGED|B,DGB AGED|EAA^G A2=GA|
+BA (3(B^cd) efga|(bfg).e dBgB|(AGE^G A2)::.A2|(Aa)(a^g) a(fg)a|b(^ga)=g e2d2|
+Mg2bg aged|Bdgb aged|(ea)(a^g) aba=g|ed (3(ef^g) af=ga|b(fg).e dBgB|(AGE^G A2):|
+
+X:601
+T:The Corkonian
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 60
+M:6/8
+L:1/8
+Q:1/8=270
+K:Ador
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+c/d/|ecA {B}A^GA|ece gfe|dBG {A}GFG|BGB d2c/d/|ecA {B}A^GA|
+Ace gba|gfe dB^G|A3-A2::^g|aba age|abc' b2a|gag ged|
+ede ga>b|aba age|abc' b2a|gfe dB^G|A3-A2:|
+
+X:602
+T:Owl Creek
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 60
+M:6/8
+L:1/8
+Q:1/8=270
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(3(A/B/c/)|def edB|{ABc}d2F E2F|DFA {B}A^GA|B<e^d e=dB|{ABc}def edB|
+{A/B/c/}d2F E2F|DFA {B}A^GA|B<ec d2::e|fdf afd|gfg bag|
+fdf afd|cde e2A|fdf afd|gfg bag|faf ede|fdd d2:|
+
+X:603
+T:Katty's Rambles
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 60
+M:6/8
+L:1/8
+Q:1/8=270
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(3(A/B/c/)|d2d cde|fga gfe|fed cAF|GFG AFD|d2d cde|fga gfe|fed cAG|ABc d2::
+e|fad fad|fdf agf|egc egc|ece gfe|fga gab|afd cBA|fed cAG|ABc d2:|
+
+X:604
+T:Wyman's
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 60
+M:6/8
+L:1/8
+Q:1/8=270
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A|dAd fdf|ada fdf|gAg fdf|ece Aaf|dAd fdf|ada fdf|gAg fdf|eAc d2::
+f|gec gec|dAf daf|gec gec|dfd A2F|DFA FAd|Adf dfa|gec ABc|d2f d2:|
+
+X:611
+T:The House o'Duncan
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 61
+M:6/8
+L:1/8
+Q:1/8=270
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+F|E>FE G>FE|A>GF G>FE|D>ED D>FA|dcB AFD|E>FE G2A|B>GE G2A|(3(B/c/d/)B2 A>^GA|B>=GE E2::
+e/f/|g>ab efe|g>ab e2e|f>ga d(ed)|f>ga d2d|e>fg f>ga|g>ab e>fg|e>dB A>^GA|B>=GE E2:|
+
+X:612
+T:No Party
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 61
+M:6/8
+L:1/8
+Q:1/8=270
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+g|dBG GFG|ABA ABd|ege dBd|gGG Gge|dBG GFG|ABA ABd|ege dBd|gGG G2::
+e|def gfg|efg a2g|gab efg|dBG cAF|def gfg|efg a2f|gc'c' eaa|def g2:|
+
+X:613
+T:Col. Robertson's Welcome
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 61
+M:6/8
+L:1/8
+Q:1/8=270
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+B|TE2e G2e|F2D AFD|TE2e G2e|B^c^d e2e/f/|Tg>fe d>^cB|AFd DEF|TE2 e [Gg]>[Aa][Bb]|B>^c^d e2::
+B|g2b Tg2e|f2d afd|e2b ~g2b|B^c^d e2e/f/|Tg>fe d>^cB|AFd DEF|TE2 e [Gg]>[Aa][Bb]|B>^c^d e2:|
+
+X:614
+T:Circus Rider
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 61
+M:6/8
+L:1/8
+Q:1/8=270
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+D|DFA (d2B)|(g2f) (b2a)|agf fed|dcB AFD|DFA (d2B)|(g2f) (b2a)|agf fed|cAc d2::
+d|:Te3-ecA|^GBB B2c|dfe dB^G|BAA A2c/d/|e2e ecA|a2a agf|fec edB|[1 A^GA Bcd:|[2 ABA G!D.C.!FE|]
+
+X:615
+T:Mississippi
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 61
+M:6/8
+L:1/8
+Q:1/8=270
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+Bc|.d(GB) .d(gf)|.e(Gc) .e(fg)|.d(GB) dcB|A3 {ABcd}ed^c|.d(GB) .d(gf)|
+.e(Gc) .e(fg)|(dg).B (dc).A|GBd g:|(fg)|:(ad).f aba|gdB GBd|(ad).f aba|
+g3 {fag}f>(fg)|(ad.f) aba|gdB GBd|c>BA e>d^c|[1 de^c d(fg):|[2 ded =c!D.C.!BA||
+
+X:616
+T:Boston
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 61
+M:6/8
+L:1/8
+Q:1/8=270
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+B/c/|dbf gBe|edB G2G|FAc edF|Ged Bc^c|dbf gBe|edB G2G|FAe def|g3-g2::
+B|Te3-efg|Tf3-fab|gfe ^def|eFG E2B|Te3-efg|Tf3-fab|gfe ^def|e3-e2:|
+
+X:621
+T:Slow March
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 62
+M:C|
+L:1/8
+Q:1/2=60
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+(3(ABc)|d2 D>D D2 A>G|F>AG>E D2 A/B/c/d/|e2 E>E E2 e>d|c>ed>B A>AB>c|d>DF>A d>cB>A|
+B>dg>f e>dc>B|A>dB>G F>AE>G|F2 D>D D2::{B}(3A^GA|d2{B}(3A^GA e2{B}(3A^GA|f>dA>G F2 {B}(3A^GA|
+e2 {B}(3A^GA f>df>a|g>fe>d c>AB>c|d>DF>A d>cB>A|B>dg>f e>dc>B|A>dB>G F>AE>G|
+F2 D>D D2::[K:A]E2|{B}A>GA>F E>Ac>e|d2 B2 {c}(3B^AB e>d|c2 A2 A>cB>G|
+{B}(3AGA F>A E>AG>B|A>GA>F E>Ac>e|d2 B2 {c}(3B^AB e>d|(3c^Bc =B>f A2 G2|A2 A>A A2:|
+
+X:622
+T:Hail to the Chief
+T:A Salute for a General
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 62
+M:C|
+L:1/8
+Q:1/4=90
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A2 B>c d2 c>B|A>BA>F E2 D2|A2 d>e f2 e>d|e>de>f e2 z2|A2 B>c d2 c>B|A>BA>F E2 D2|
+A2 d>c B<d A>F|A2 d>d d2 z2||f2 f>f f2 gf|e>def ec A2|f2 f>f f2 ed|e2 a>a agfe|
+d2 d>c B2 d>B|Adde f2 ed|B2 dB A>BAF|A2 d>d d2 z2||D2 d>B A>F D2|G2 e>f e>d B2|
+FAde f2 ed|B<d AF E>GF>E|D2 d>B A>F D2|Eeef e>d B2|A2 dc Bd AF|d2 d>d d2 z2||
+
+X:631
+T:Slow March
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 63
+M:C|
+L:1/8
+Q:1/2=60
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+[A,2A2]|D2 D>E F>EF>G|A2 F2 F2 (3(ABc)|d>cB>A B>cd>e|f2 B2 B2 d>e|f>dd>f e>dc>e|d>cd>B A2 F>A|
+B>dc>d e>c (3(ABc)|d2 D2 D2::d>e|f>ed>c d>fa>f|e2 A2 A2 B>c|d>cB>A B>cd>B|A2 F2 F2 d>c|
+B>DG>B A>DF>A|G>FE>G F>DF>A|d>cB>A B>cd>e|f2d2d2::F>G|A2 f>d e2 d>F|(B4 A2) G>F|
+E2 B>A ^G>A =G>E|D2 ME>D C2 F>G|A2 f>d e2 d>c|B>de>f g2 f>e|c>eb>a (^ga)=g>e|d2 d2 d2:|
+
+X:632
+T:Slow March
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 63
+M:C|
+L:1/8
+Q:1/2=60
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+F>E|D3F A>Fd>B|A3B A>Fd>B|A>Bd>e f2e>d|B2B>c B>AF>E|D3F A>Fd>B|A3B A>Fd>B|
+A>fe>d B>AB>c|d2d>dd2::d>e|f2e>d B>AB>c|d>cd>e f2D>E|F>A f>e d>B A>F|
+E2 E>E E>GF>E|D3F A>Fd>B|A3B A>Fd>B|A>fe>d B>AB>c|d2d>dd2::D>E|F2F>G A2d>B|
+A>FE>G F2 D>E|F2F>G A>F d>F|E2 E>E E2F>G|B>df>e d2F>G|A>df>e d2e>f|g>ef>d B>ge>d|
+e2e>e e2a2|g>fe>d d>cB>A|B/A/B/c/ d>B A2 a>a|a2f>d f>ag>f|e2e>e e2D>E|
+F2F>G A2d>B|A>GE>G F>Ad>e|f/e/d/c/ d/c/B/A/ B/A/G/F/ A/G/F/E/|D2 d>d d2:|
+
+X:641
+T:Dedekii
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 64
+M:6/8
+L:1/8
+Q:1/8=270
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+d|SdBc d2e|dBc d2g|fde fga|b2a gfe|dBc d2e|dBc d2g|fde fba|g2z "fine"z2:|
+d|d3-d2e|(e2d) g2B|d3-dcA|F3 Ace|(e2d) (e2d)|(d2c) a2c|B(GA) .B.e.d|A3 ABc|
+d3-d2e|e2d g2B|e3-edc|A3 (cde)|(d2c) (b2a)|g2d B2e|d3-dAB|G2z "^D.C. al fine"gfe||
+
+X:642
+T:Chebang
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 64
+M:6/8
+L:1/8
+Q:1/8=270
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A|SA2F BdB|AFG A2z|c2e gba|aef d2A|A2F BdB|AFG A2z|c2e gba|aef !coda!d2:|
+f|a3 cde|f3 Bcd|efe dBe|c2e ef^g|a3 cde|f3 Bcd|efe dBe|A2z "^D.C. al Coda"BcB||
+[K:G]!coda!(d|Mb2)(dMb2)(d|Mb2)(dMb2)(d|g)GB dgb|ba^g a2(d|Ma2)(dMa2)(d|Ma2)(dMa2)(d|Ma)ba gfe|def g2:|
+
+X:652
+T:Far-down
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 65
+M:6/8
+L:1/8
+Q:1/8=270
+K:Ador
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+E|EA^G A2B|cBA BGE|G2E D2E|GAF GFG|DEF G2B|cBA Bcd|efg edB|A3-A2::
+(3(A/B/c/)|def g2f|gaf ged|efg a2^g|ab^g a=ge|def g2f|gaf ged|efg edB|A2z Te2::
+z|edB edB|edB AGE|G2E D2E|GAF GFG|DEF G2B|cBA Bcd|efg edB|[1 A2z a2:|[2 A3-A2||
+
+X:661
+T:Downshire
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 66
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+AG|F2DD D2D2|D2F2A2d2|c2AA A2A2|A2c2 e2g2|fdMd2 edcd|B2g2 g2fg|efgf efed|
+cded cBAG|F2DD D2DD|DFAd DFAd|c2AA A2AA|Aceg Aceg|fAdf edcd|B2g2 g2fg|
+efge d2c2|(e4 d2)::A2|f2ff f2f2|fefg agfg|e2ee e2e2|edef gfed|
+fgfe dcBA|^GABG A2ec|dece BeAe|^GeAe Bece|dece BeAe|^GeAe Bece|
+dFAd fAdf|a2ab agfe|dFAd fAdf|a2ab agfe|Md2fe dcBA|^GAdB A=GFE|F2DD D2DD|
+DFAd DFAd|c2AA A2A2|Aceg Aceg|fAdf edcd|B2g2 g2fg|efge d2c2|(e4 d2):|
+
+X:671
+T:Capt. Whiting's
+C:Walch
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 67
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A2|BA^GA F2d2|A2f2e2d2|c2cB c2d2|fedc BA^GA|BA^GA F2d2|A2f2e2d2|
+c2cd e^dec|=d4 z2::A2|A4 EAce|d2B2 Bfed|c2A2 AcB^G|AAFA EA^GB|A4 EAce|
+d2B2 Bfed|c2(3(cBA) B2(3(BA^G)|A4 z2::A2|A2fd A4|ABAG F2A2|G2gf e4|efed cea2|
+d2fd A4|ABAG F2A2|G2gf e^dec|=d4z2::B2|B4 ^ABcA|B2F2 f4|
+d2B2 b4|a2f^e f4|e4 ^defe|c2A2 a4|f2(3(fed) e2(3(edc)|d4 z2:|
+
+X:681
+T:Col. Andrews'
+C:Walch
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 68
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+(3(ABc)|d>ec>e d>ec>e|d>FA>d Tf4|e>Ac>e a3g|f>de>c d>cB>A|d>Ac>A d>Ac>A|
+d>FA>d f>Ad>f|e>Ac>e a>ge>c|d4 z2::dc|B2dc B2dc|B4 F4|f2f^e f2=e2|
+d>ec>d B4|b2bb b2a2|g>ag>f e2g2|f>ed>B ^A2c2|B4z2::A2|g3e d2f2|
+e>^de>f e3=d|c>de>f e3c|d>ef>g f2d2|f2f>e d>cd>f|e>^de>f e3=d|
+c>de>f e3c|d4 z2::Md2|g2Md2 b2Md2|g2Md2 b2Md2|f2Md2a2Md2|
+f2Md2 a>fb>a|g>ag>f e>fe>d|c>dc>B A>BA>G|F>Ad>f E>Ac>e|d4 z2:|
+
+X:691
+T:Ancient and Hon. Artillery
+C:E. Kendall
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 69
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+ag|f2d2 g2e2|a2ba gfed|cdef gece|dcec A(a^ga)|f2d2 g2e2|
+a2ba gfed|cdef gece|d2f2d2::fg|adMd2 AdMd2|geMe2 BeMe2|adMd2 beMe2|
+ceMe2 cAMA2|adMd2 AdMd2|geMe2 BeMe2|adMd2 (ba).e.d|cABc d2:|
+
+X:692
+T:Post's
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 69
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(3EF^G|A4-Adfd|A4-Adfd|dcBA ^GABc|{e}dcde f3F|G4-GBeG|
+F4-FAdF|EFGA ^AB^Bc|d2d2d2::cd|eAMA2 eAMA2|gAfA eAMA2|
+dfAf gfed|cedf e2cd|eAMA2 eAMA2|gAfA eAMA2|FAdf EAce|d2f2d2:|
+
+X:701
+T:Ned Kendall's
+C:E. Kendall
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 70
+M:2/4
+L:1/16
+Q:1/4=100
+K:A
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(3EFG|SA2{B}AG AECE|A2Bc dBGB|ABcd efec|dcBA GBGE|A2{B}AG AECE|
+A2Bc dBGB|ABcd efec|dBGB "^fine"A2:|cd|eAMA2 eAea|fBMB2 fBfg|
+agfe dcBA|GABG E2cd|eAMA2 eAea|fBMB2 fBfg|agfe ^defd|
+e^def e2c=d|eAMA2 eAea|fBMB2 fBfg|agfe dcBA|GABG E2ED|
+CEAc DFBd|EAce FAdf|eaga edcd|A2{ABcdefg}ae fd"^D.S. al fine"BG||
+
+X:702
+T:Governor's Island
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 70
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(3GFE|D2DD DFAF|dFAF dFAF|E2EF GBEG|edcB AGFE|D2DD DFAF|
+dFAF dFAd|gbag fedc|d2d2d2::(ag)|(fd).d.d (fd).a.d|fd (3(ef^g) a2ed|
+(cA).A.A ceAe|cdef g2ag|(fd).d.d (fd).a.d|(fd) (3(ef^g) a2=gf|gbag fedc|d2d2d2:|
+
+X:711
+T:Newport
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 71
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(3(ABc)|d2A2 f3e|d2A2 f3e|dFAd f2df|edcB ABce|d2A2 f3e|d2A2 f3e|
+dcBA (3^GAB cd|(e4 "^fine"d2):|AF|D2dB A2fe|d2af d2ef|gagf efed|cedB A2AF|
+D2dB A2fe|d2af d2ef|g2(gf) (fe)(ed)|(f4 e2) (ef)|gfge c2ag|fgfe d2ba|
+gagf efed|cedB A2AG|FAd2 Adfa|gfge cABc|d2dc BA^GB|A4-"^D.C. al fine"A2||
+
+X:721
+T:Sixth Infantry
+C:Walch
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 72
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+MA2|f2z2 (Te4|d4) z2d2|c2d2c2d2|fAeA dcBA|(f4 e4)|d2 b4 ^g2|
+a2z2 cdef|d4 z2::(cd)|(e4 c2) cd|fece a3^g|f2a^g f2ag|f2 zF ^G^ABc|d6-dc|
+{c}B2^A2B2=A2|(^Gfe^d) (fe=d)B|A4 z2::A2|A2(3(BA^G) A4-|A>cd>e Lf4|A2(3(BA^G) A4-|
+A2=GF E>BA>G|F2(3(BA^G) A4-|A>cd>e f4-|f>Fd>c B>Ec>B|A4z2::d2|d>fg>a b4|
+b2a>^g a>de>f|=g2f>a g2f>a|g4 z2A2|A2(3(BA^G) A4-|A>cd>e Lf4|A2(3(BA^G) A4-|
+A2=G>F E>BA>G|F2(3(BA^G) A4-|A>cd>e f4-|[1 f>Fd>c B>Ec>B|A4 z2:|[2 f>Ad>f e>Ac>e|d4 z2||
+
+X:731
+T:Major Riley's
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 73
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+z2|d4-(3dAF (3DFA|d2d2e2f2|e4-(3eBG EGB|e2 E2F2G2|F2AG F2A2|dAfe dcBA|
+^GABc d2G2|A4 z2::z2|A4 {B}A^GAB|c2MA2d2MA2|e2MA2f2MA2|=gfed cAGE|
+D4 {E}DCDE|F2MD2G2MD2|A2MD2B2MD2|=c4 zedc|B4 {c}BAB^c|d4 {e}dcdB|
+AdFB AGEC|D4 z2::[K:G]D2|G4 B>(FG)>E|D4-D>FA>d|A4 =c(^GA)F|D4 D=GFA|
+(G>B) (A/G/F/E/) D>GF>A|G<B (A/G/F/E/) D>GF>A|G>AB>c d2F2|G4 z2::BA|A2AB (cB)(cB)|
+c4 z2Bd|c2Bd c2Bd|c2D2 EGFA|G4 B>FG>E|D4-D>GB>d|e>dc>A F>A (3DEF|G4z2:|
+
+X:741
+T:Capt. Palmer's
+C:Walch
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 74
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+F2z2 (G4|A4) z2(^A2|B2)(^d2e2)=d2|.c2.c2 z4|e2z2 (Tf4|g6) (fe)|(dcB).A (GF).E.F|
+D2D2 z4|A2F2 ({B}A^G).A.d|({B}A^G).A.d f4|(f<e)(e<^d) (f<e)e<=d|(d<c)(c<B) (B<A)A<G|A2F2 ({B}A^G).A.d|
+({B}A^G).A.d f4|({f}e2ed) {d}c2(cA)|d4 z4::C4 CEDE|FE.CE c4-|c4-cF^G^A|
+{c}B>^AB>c d4-|d4-dE.F.^G|{B}A>^GA>B (c4|{c}B)(^AB).d ({A}^GFG).B|A4 z4::(D3F/A/ .d2).c2|
+.B2.A2.G2.F2|(E3G/B/ .e2).d2|.c2.B2.A2.G2|(F3A/d/ .f2).e2|.g2.f2(b3a)|a2g>e d>fe>c|d4 z4:|
+
+X:751
+T:Fourth Artillery
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 75
+M:2/4
+L:1/16
+Q:1/4=100
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+D2|G2(c>B) B2e>d|.d(gfg) d3e|dcBA GFed|d3c B3 D|G2c>B B2(e>d)|
+.d(gfg) d3e|dcBA GFEF|(A4 G2)::B2|(e^ded) e2B2|(cBcB) c2e2|
+(dcdc) d2A2|B^ABA B2 D2|G2(c>B) B2(e>d)|.d(gfg) d3e|dcBA GFEF|(A4 G2)::
+G2|B2BB G2B2|d2dd B2d2|g2fg agfe|e3d B4|d3c defg|
+a3b agfe|d2d2 e2e2|A4 ^A4|B2BB G2B2|d2dd B2d2|g2fg agfe|
+e3d B4|d3c defg|a3b agfe|dgfe dcBA|G2B2G2:|
+
+X:761
+T:Larry O'Brien
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 76
+M:2/4
+L:1/16
+Q:1/4=100
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(3DEF|G2GF G(gfg)|e4 d3B|cecA BdBG|FGAG FEFD|DEFG A2B2|
+c2e2 d3B|cBAG FGAF|G4 z2::d2|g2fg e2a2|fdef d3d|
+g2fg e2a2|fdef d3d|(gd).d.d (gd).d.d|gdgd (gd).d.d|gfed edcB|
+cAdG GFED|DEFG A2B2|c2e2 d3B|cBAG FGAF|G4 z2:|
+
+X:762
+T:The Muffled Drum
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 76
+M:2/4
+L:1/8
+Q:1/4=100
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+d|.d(g/f/ g).B|B(d/^c/ d)G|F/A/c/e/ d>c|B/A/B/c/ dz/d/|d(g/f/ g)B|B(d/^c/ d)G|
+F/A/c/e/ dF|G2 z::d|d(f/^e/ f)d|d(g/f/ g)d|d(a/^g/ a)d|d(b/a/ b)d|
+d(g/f/ g)B|B(d/^c/ d)G|F/A/c/e/ dF|G2-G::d|(^c/d/c/d/) ef|(a/g/f/g/) dB|
+d/c/B/c/ AF|G/F/G/B/ dz/d/|(^c/d/c/d/) ef|a/g/f/g/ dB|d/c/B/c/ AF|GBG:|
+
+X:771
+T:Fort McHenry Quickstep
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 77
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+AG|FGEF D2de|fedc BcdB|A2dF GFED|CEDF E2AG|FGEF D2de|
+fedc BcdB|A2dF GFED|A,DCE D2::ed|cABc dfed|cABc d3F|~G2BA GFED|
+CEDF E2AG|FDGE AGFA|def^g a2fa|gfed cABc|d2f2d2:|
+
+X:781
+T:Seely Simpkins
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 78
+M:2/4
+L:1/16
+Q:1/4=100
+K:Em
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(3(B^c^d)|Te3d B=cBA|GABG E3F|GG~G2 BGdB|GG~G2 BGdB|Te3d BcBA|
+GABG E3f|gfge fgfd|B2e2e2::ef|gBeg bc'ba|gBeg bc'ba|
+fAdf abag|fAdf a3f|gfga b2ag|fefg a2fa|gfge fgfd|B2e2e2:|
+
+X:782
+T:Here's to Our Friends
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 78
+M:6/8
+L:1/8
+Q:1/8=270
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+B/c/|:dBG {A}GFG|g3-gfe|dBA {A}GFG|A3-A2 B/c/|dBG {A}GFG|
+EAB cde|edB edA|[1 G3-G2 B/c/:|[2 G3-G2|:F/G/|AFG Ade|f3-fgf|
+fe^d efe|d^cB AFG|AFG Ade|f3-fgf|fe^d efe|d3-d2:|
+
+X:791
+T:Dixie
+C:D. Emmett
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 79
+M:2/4
+L:1/8
+Q:1/4=100
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+d/B/|GG G/A/B/c/|dddB|ee e>d|e>d e/f/g/a/|b3 (g/d/)|
+g3 (d/B/)|d3 (A/B/)|G2 z:|~d|gb a>g|eg2e|a3e|a3~d|
+gb a>g|ef g>e|dB g>B|BA2B|G3B|A3d|
+Bd b>g|ag3|G3B|A3e|dB b>g|a g2|:
+[L:1/16]G2|DGBG dGBG|cGeG dGBG|DGBG dGBG|Afe^c d4|
+DGBG dGBG|cGeG dGBG|A(ed)(F G)DBG|A(ed)F G2:|
+
+X:801
+T:Hell on the Wabash
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 80
+M:2/4
+L:1/16
+Q:1/4=100
+K:A
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(3(efg)|.a2.a2 A2zB|cdec A2zf|.=g2.g2 G2zA|B=cdB =G2z^g|.a2.a2 A2zB|cdec A2 (3(BAG)|
+Ac (3(efg) aefd|cABG A2::A2|.c.e z e .e.e.c.A|.c.e z e .e.e.c.A|.B.d z d .d.d.B.=G|
+.B.d z d .d.d.B.=G|.c.e z e .e.e.c.A|.c.e z e .e.e.c.A|Ac (3(efg) aefd|cABG A2:|
+
+X:802
+T:Cuckoo's Nest Quickstep
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 80
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+cd|ecAc ecaf|edcB A2Bc|dBGB dBge|dcBA G2Bd|cAce a2fa|
+gfec d2ec|dcBA ^GABd|c2A2A2::(3(ef^g)|a2a^g abc'a|bagf e2>f2|
+g2gf gabg|agfe d2ed|cAce a2fa|gfec d2ec|dcBA ^GABd|c2A2A2:|
+
+X:811
+T:Cuckoo Quickstep
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 81
+M:2/4
+L:1/16
+Q:1/4=100
+K:A
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+E2|A2Ac B2BG|ABcd efga|A2Ac B2BG|ABcd e2ed|cEcE dEdE|
+cEcE dEdE|ceag fedc|(c4 B2)::e2|e6 ^d2|e6 ^d2|efga bagf|e6 e2|
+a6 e2|c6 e2|cAce cAce|a2g2a2::ed|cEdE eEfE|eE^dE eEcE|BEcE dEeE|
+dEcE dEBE|cEdE eEfE|eE^dE .e(aga)|BcdB A2G2|(B4 A2):|
+
+X:812
+T:Sole Leather Quickstep
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 81
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(3(ABc)|d2Tf>d B2A2|(3Bcd AF DFAF|GEBA FDAF|EAce d2:|(3(ABc)|d2z2 e2z2|
+f2z2g2z2|f2z2 e2z2|dAFA D2 (3(ABc)|.d2z2 .e2z2|.f2z2 .^g2z2|!tr(!a8-|!tr)!a8!D.C.!||
+
+X:821
+T:King William
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 82
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A2|d2d2d2e2|dcde dcde|f2f2f2g2|fefg fefg|a2a2 a2ba|
+g2g2 g2ag|f2ed fagf|e4 z2::cd|e2ee e2f2|edcB A2 (fg)|
+a2fg a2b2|agfe d2ag|fgef d2ag|fgef d2fg|abag f2e2|d4 z2:|
+
+X:822
+T:Prince Eugene
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 82
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+AF|D4 F2A2|dcde defg|a2f2d2f2|edef e2f2|D4 F2A2|
+dcde defg|a2f2 def^g|a4 z2::cd|e2ee e2f2|e4 z2de|
+f2ff f2g2|f4 z2fg|abag fgfe|d2d2 A2 fg|abag fgfe|d2d2 A3B|
+A2F2 D3B|A2F2 D2 fg|afde f2fg|afed f2fg|abag f2e2|d4 z2:|
+
+X:831
+T:Prince Edward
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 83
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+FE|D4 F2A2|dcde d3A|F2A2 BAGF|E4 A4|
+BcdB cdec|A4 (G4|F)EDE F2E2|D4 z2::cd|e3d c2B2|
+A^GAB A3F|G2F2E2D2|A4 z2A2|B2Bc B2A2|BABc B2cd|
+e2d2 cAB^G|A4 z2A2|G2F2E2D2|G2F2 G3A|B2A2 d2F2|
+E4A4|BcdB cdec|A4G4|FEDE F2E2|D4 z2:|
+
+X:841
+T:British Grenadiers
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 84
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(3(ABc)|d2A2 d2ef|g2f2 e2fg|a2f2d2f2|edcB A2Bc|d2A2 d2ef|
+g2f2 e2fg|a2d2 fedc|d4 z2::A2|A3B A2G2|F2G2 A3A|
+B2B2 gfec|(d4 c2) (3(ABc)|d2cd e2de|f2ef g2fg|a2d2 fedc|d4 z2:|
+
+X:842
+T:Hog-Eye Man
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 84
+M:2/4
+L:1/8
+Q:1/4=100
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+d|gg g>a|bb b>a|gg/f/ ga|be ee/f/|g{a}g/f/ ga|
+bb b>a|g/a/g/f/ e/f/g/e/|bee::e|d/d/d/d/ d>c|Bd z2|
+e/e/e/e/ e>d|be ze/f/|gg/f/ ga|bb b>a|g/a/g/f/ e/f/g/e/|Bee:|
+
+X:851
+T:Duke of York's
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 85
+M:3/4
+L:1/8
+Q:1/4=180
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(3(def)|g2d2d2|d3 edc|B2G2G2|G3 BAG|F2A2A2|G2B2B2|
+A2c2c2|B4 z2(3(def)|g2d2d2|d3 edc|B2G2G2|G2z2d2|.e.d.e.f.g.e|
+d2 BdBd|c2A2F2|G2 z2::(3(BAG)|F2A2A2|G2B2B2|A2c2c2|
+B2d2G2|F2AFAF|G2BGBG|A2B2c2|B2 z2(3(def)|g2d2d2|d3 edc|
+B2G2G2|G2 z2d2|.e.d.e.f.g.e|d2.B.d.B.d|c2A2F2|G2z2:|
+
+X:861
+T:Comet Waltz
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 86
+M:3/4
+L:1/8
+Q:1/4=180
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(3(cde)|f2fgfe|d2dedc|B2c2d2|A4F2|G2F2E2|B2A2C2|
+E2D2D2|D2z2::ef|gfedcB|A2e2g2|fdcdAF|D2F2A2|
+B2e2g2|b2c2d2|efedcB|A2z2de|f2fgfe|d2dedc|B2c2d2|
+A4F2|G2F2E2|B2A2C2|E2D2D2|D2z2::AG|F2A2d2|
+d2c2B2|c2e2g2|g4g2|fzd3c|Bze3c|dcedcB|ABAGFE|
+F2A2d2|d2c2B2|c2e2g2|b4g2|fzd3c|Bze3c|dcBABc|d2z2:|
+
+X:871
+T:Covington Waltz
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 87
+M:3/4
+L:1/8
+Q:1/4=180
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A2|fz d3B|Az F3F|EFGABA|Gz F3A|fz d3B|Az F3D|
+EGFEDC|Ez D2::cd|e2 ({B}A^G)A2|f2({B}A^G)A2|e2({B}A^G)A2|a2({B}A^G)A2|
+e2({B}A^G)A2|dz F3F|EGFEDC|Ez D2::A2|(Tf6|g)fedcB|
+Adfedc|BABcde|(Tf6|g)fedcB|Adfedc|BABcde|fdAfdA|
+F(DB).A.G.A,|(GA,)(CEG).A,|Ez D2::cd|(eA).c.e(aA)|(fA).d.f(aA)|
+(eA).c.e(aA)|(fA).d.f a2|fdAfdA|(FDB).A(GC)|(GA,).CEGA|Ez D2:|
+
+X:881
+T:Steiner's Waltz
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 88
+M:3/4
+L:1/8
+Q:1/4=180
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+D2|.G.G.G.GG2|._B.B.B.BB2|.A.A.A.AA2|.e.e.e.ee2|d2z2c2|A2z2e2|
+d2z2B2|G3BAG|F2A2c2|e4d2|(dgfg).b.a|.g.f.e.d.c.A|d2z2c2|
+A2z2e2|d2z2B2|G3BAG|F2A2c2|e4d2|(^cded).=c.A|G4::
+D2|DFADFA|FAdFAd|AdfAdf|dfadfa|(ag) (gf) (fe)|(ed) (dc) (cB)|(BA)A4|
+^GABA.=GE|DFADFA|FAdFAd|AdfAdf|dfadfa|(ag) (gf) (fe)|(ed) (dc) (cB)|
+Agfedc|d4::[K:G](3(def)|g3dB2|G3Bdg|(f6|z2)z2(3(fg^g)|a4 (de)|
+d2A2B2|c2B2z2|z2z2(3(cBA)|G2c2e2|e3fe2|e2d2z2|z2z2(3(gfe)|e2d2d2|
+d2e2f2|g6|bagfed|e3dBG|d3cAF|.Ggfg.d.B|G4:|
+
+X:891
+T:Bear Grass
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 89
+M:3/4
+L:1/8
+Q:1/4=180
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+af|df Ad FA|DFAdcB|Acegfe|dfA2af|df Ad FA|DFAdcB|
+Acegfe|d2z2::ed|ceA2af|dfA2ed|ceA2af|dfA2af|
+df Ad FA|DFAdcB|Acegfe|d2z2::[K:G](3(GFG)|A2zGFG|A2zd^cd|
+e3a^ga|f2d2FG|A2zGFG|A2zd^cd|e3age|d2z2:|
+
+X:901
+T:St. Louis Waltz
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 90
+M:3/4
+L:1/8
+Q:1/4=180
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A2|(Af)f3e|(df)A3F|(GB)B3G|(FA)A3A|(Ag)g3e|
+dfA3A|(BA^GABc)|d2z2::A2|.g(A^GA).=g.A|.f(A^GA).f.A|
+.e(A^GA).e.A|(FAd).fa2|.g(A^GA).=g.A|.f(A^GA).f.A|.e(A^GA).e.A|d2z2::
+(3(dcB)|A2d2f2|(a2^g2a2)|(f2^e2f2)|(d2c2d2)|A2c2e2|
+(g2f2g2)|(e2^d2e2)|(c2^B2c2)|A2d2f2|(a4g2)|f2d2B2|
+b4b2|(^g<a) (g<a) (g<a)|A2B2c2|{e}dcdfec|d2z2:|
+
+X:911
+T:Pretzel Waltz
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 91
+M:3/4
+L:1/8
+Q:1/4=180
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+Bc|d3edc|B2A2G2|F2A2c2|(e4d2)|d(gfg)(ba)|gfedcA|
+d3cAF|G2z2::G2|FGABcd|e4d2|d(gfg)ba|gfedcA|
+FGABcd|e4d2|d^ced=cA|G2z2::d2|(gb) (dg) (Bd)|G4ed|
+F4(ed)|G4d2|(gb) (dg) (Bd)|G4ed|F4(ed)|G2z2::
+(d^c)|dAB^cde|fdefg^g|(a^gagab)|c'2 zc'ba|(gb) (dg) (Bd)|G4(ed)|
+F4 (ed)|G4 d2|(gb) (dg) (Bd)|G4 (ed)|F4 (ed)|G2z2:|
+
+X:921
+T:Poor Cato
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 92
+M:2/4
+L:1/8
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A|{B}AF {B}AF|{B}AF {B}AF|{c}BABc|d/c/d/e/ f2|
+{B}AF {B}AF|{B}AF {B}AF|EDEC|D2z::(3(A/B/c/)|dA f>e|
+dA fe/f/|gfed|c/d/B/c/ AB/c/|dA f>e|dA fe/f/|
+gedc|d2z::A|Bd/d/ dc|B^ABF|Bd/d/ dc/B/|
+A/F/A/d/ f2|Bd/d/ dc|B^ABF|B/c/d/e/ f^A|B2z:|
+
+X:931
+T:Jersey Blue
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 93
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+e2ec e2ec|e2ec dBGB|e2ec e2ec|[1 dBGB ABcd:|[2 dBGB "^fine"A2||fa|:a2af g2ge|
+dBge dBGB|[1 a2af g2ge|dBGB Azfg:|[2 abaf gage|dBGB "^D.C. al fine"ABcd|
+
+X:932
+T:Charming Molly
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 93
+M:2/4
+L:1/16
+Q:1/4=100
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+AB|c2cA B2BA|GABc dBGB|[1 c2cA B2BG|E2A2A2:|[2 gfge dBAG|E2"^fine"A2A2||A2|ABcd e2eg|
+fagf edcB|ABcd e2eg|fagf e2fg|a2af g2ge|dBge dBGB|cdcA BcBG|"^D.C. al fine"E2A2A2||
+
+X:933
+T:Ten Pound Note
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 93
+M:2/4
+L:1/16
+Q:1/4=100
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(GA)|B2GA B2GB|dcBc A2FG|A2FG A2dc|BGAF G2::dc|
+BcBA G2gf|efed cdcB|ABAF DFAc|BGAF G2:|
+
+X:934
+T:Slow Scotch
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 93
+M:2/4
+L:1/8
+Q:1/4=90
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A2a2|e2 cA|E2g2|d2 BG|A2a2|e2 cA|BA^GB|A2-"^fine"A::
+A|ABcd|ef g2|fagf|edcB|ABcd|efg2|fagf|"^D.C. al fine"e2-e:|
+
+X:935
+T:Highland Mary
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 93
+M:2/4
+L:1/8
+Q:1/4=90
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+TA/G/|E2 A>B|A2 GA|B2 A>G|E2 B>^c|d3 e|d=cAF|{A}G>FG>A|B2 E2|c>Bc>e|d2 c>d|
+e>d (3efg|a2 b>a|gedB|g2 B2|A4|e2 z||e|d2 e>f|g3 a|gedB|g2 GA|B2 ge|
+d<B A>B|G>F G>A|B2 E2|c>Bc>e|d2 c>d|e>d (3efg|a2 b>a|gedB|g2 B2|A4|e2 z||
+
+X:941
+T:Nancy Dawson
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 94
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+D2|G>AG>B d>BG>B|A>GA>B A>GF>D|G>AG>B d>BG>B|A>GF>E D2D2|
+G>AG>B d>BG>B|A>GA>B A>GF>D|G>AG>B d>BG>B|A>GF>E D2D2|
+A>^GA>B A>=GF>D|d>cc>e d>=cB>G|=c>Bc>d e>fg>e|d>=cB>A G2D2|
+A>^GA>B A>=GF>D|d>cd>e d>=cB>G|=c>Bc>d e>fg>e|d>=cB>A G2||
+
+X:942
+T:Yankee Doodle
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 94
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(3ABc|d>de>f d>fe>c|d>de>f d2c>A|d>de>f g>fe>d|c>AB>c d2::
+d>c|B>cB>A B>cd>B|A>BA>G F>GA2|B>cB>A B>cd>B|A>dc>e d2:|
+
+X:943
+T:Money Must
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 94
+M:2/4
+L:1/16
+Q:1/4=100
+K:A
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+f2|e>Ac>A e>Ad>f|e>Ac>A B>cd>f|e>Ac>A d>ee>a|f>dB>d c.A~A2::
+fg|a>ec>a e>ac>a|a>ed>a c>aB>g|a>ef>a e>ac>a|f>dB>d c>A~A2:|
+
+X:944
+T:Roving Blades
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 94
+M:3/4
+L:1/8
+Q:1/4=180
+K:Em
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+D2|G2GABG|A2A2AB|c2e2d2|B2z2(3Bcd|e3fgf|edB2G>B|A>GE2E2|E4::
+(3Bcd|e3fgf|edB2B2|c2e2d2|B2z2(3Bcd|e3fgf|edB2G>B|A>GE2E2|E4:|
+
+X:951
+T:Sailor Boy
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 95
+M:3/4
+L:1/8
+Q:1/4=180
+K:A
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+E2|A2A2B>A|(F<A)A2cd|e3cdB|A3GE2|A2A2B>A|F<A A2 (cd)|e2e2{g}a|e4::
+cd|e2e2{g}a2|e2e2fe|B2dcBA|F4E2|A2A2B>A|F<A A2 cd|e3cdB|A4:|
+
+X:952
+T:Fairy Boy
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 95
+M:3/4
+L:1/8
+Q:1/4=180
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(3(ABc)|d>f A2 (3(ABc)|d>f b3a|b>a f3 d|e>f B2 (3(ABc)|d>f A2 (3(ABc)|d>f b3 a|b>a f3 d|e>f d2::
+f2|a>f b3 a|f>d e3 d|a>f b3 a|f>d e2 (3(ABc)|d>f A2 (3(ABc)|d>f b3 a|b>a f3 d|e>f d2:|
+
+X:953
+T:Tally-i-o
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 95
+M:9/8
+L:1/8
+Q:1/8=300
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+gfg edc BAG|gfg efg af>d|gfg edc BAG|ABA ABc d2B::
+ABA TA2B AGE|ABA ABc d2B|ABA TA2B G2G|dBG GBc d2B:|
+
+X:954
+T:Wild Irishman
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 95
+M:9/8
+L:1/8
+Q:1/8=300
+K:Em
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+B2e e2f gfe|B2e e2f gfe|b2(B b2)(B b2)A|g2a g2f edc|B2e e2f gfe|
+B2e e2f gfe|b2(B b2)(B b2)A|g2f g2a b2z||b2a g2f g2b|a2b a2f d3|
+g2f e2d efg|f2g f2d B3|e2d e2f g2a|b2(B b2)(B b3)|B2e e2f gfe|B2A G2F E3||
+
+X:955
+T:Quick Retreat
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 95
+M:9/8
+L:1/8
+Q:1/8=300
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A2a e2c e2c|A2a e2c dcB|A2a e2c e2f|gfg B2c dcB::
+A2c cec cec|A2c cec dcB|A2c cec cef|gfg B2c dcB:|

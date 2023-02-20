@@ -1,0 +1,31 @@
+X: 31532
+T: COTILLION No. 38. MASTER HUMPHREY'S SETT tune 4
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.153 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+G2G Ggf | (e3 d)e/f/g | dB[BG] [cG][AF][GF] | AFD DEF |\
+G2G Ggf | (e3 d)e/f/g | dBG cAF | G3- G2 H|]
+d |\
+dBd dBd | efg gfe | dBd dBG | AFD D2d |\
+dBd dBd | efg gfe | dgd dcB | AFD "^D.C."G2 |]
+D |\
+DCB, B,A,G, | D2D D2D | E2E EFG | ABG FED |\
+DCB, B,A,G, | D2D DG[AF] | EFG AGF | G3- "^D.C."G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance and turn.
+%% Next 2 forward, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

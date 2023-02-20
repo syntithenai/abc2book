@@ -1,0 +1,42 @@
+X: 1
+T: Princess's Court
+T: the Princesse's Court
+P: Longways for as many as will
+%R: march, reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.69 #106
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.313 "E e"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The versions are identical except for minor spelling and punctuation differences in the title and dance description.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+G2d2 d2g2 | f3e d2e2 | d2g2 e2a2 | (f3e/f/) g2G2 |\
+G2d2 d2g2 | f3g a2(gf) | e2(fg) e3d | d6 |]
+G2 |\
+G2d2 dedc | B3A G2B2 | e3f g2(fe) | ^d6 f2 |\
+g2f2 g2f2 | g2^d2 e3f | g2ag f3e | e6 |]
+ef |\
+g2d2 d2e2 | d6 ed | cdcB ABAG | F3E D2de |\
+d2G2 G2ef | e2d2 d2g2 | e2a2 (f3e/f/) | g6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. cast off and sett, and cast up again .| The 2d Cu.
+%% do the same :| Then the 1st Cu. cross over the 2d Cu. and
+%% clap Hands, then cast up the 3d Cu. and go the Figure
+%% through, then the 1st Cu. turn half round and lead to the
+%% Wall, then Hands half round, and right and left quite round.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. cast off, and set and cast up again .| The 2. cu. do the same :| Then the 1. cu. cross over
+%% the 2. cu. and clap hands, then cast up the third cu. and go the Figure through, then the first cu. turn
+%% half round and lead to the wall, then hands half round, and Right and Left quite round.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

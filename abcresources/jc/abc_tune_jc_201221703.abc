@@ -1,0 +1,21 @@
+X: 05066
+T: NANCY'S JIG
+C: Bob McQuillen 26 Aug 80
+B: Bob's Note Book 5 #66
+%R: jig
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bm
+F \
+| B2c d2e | fed cde | fdB dBA | BAF F2A |\
+| B2c d2e | fed cde | fed dBA | FBB B2 :|
+|: a \
+| a2f def | ecA Adc | Bcd ede | fdB B2a |\
+| a2f def | ecA dcB | ABA F2A | B3  B2 :|
+%%begintext align
+%% With love and
+%% appreciation to Nancy Hanssen, one
+%% of the great spark plugs at Fox Hollow
+%% for so many wonderful years.
+%%endtext

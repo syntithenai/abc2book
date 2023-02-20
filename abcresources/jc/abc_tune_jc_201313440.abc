@@ -1,0 +1,27 @@
+X:890
+T:Mountfeild Two Step, The
+C:Joe Buchanan's Scottish Tome - Page 449.0
+I:449 0
+Z:Carl Allison
+C:Frank James
+R:Two-step
+L:1/8
+M:6/8
+K:A
+P:A
+W:Play: A twice, B twice, A once, C twice, A once to finish
+%%vskip 0
+E | "A"A3 E3 | "A"c3 A3 | "A"ece a2 g | "A"f2 e "F#7"d2 c |
+"Bm"B3 F3 | "Bm"d3 B3 | "B7"Bdf b2 a | "E7"gfe dcB |
+"A"A3 E3 | "A"c3 A3 | "A"ece a2 g | "A"f2 e d2 c |
+"D"FAd "Bm"f2 f | "A"fec "F#m"A2 A | "Bm"GFE "E7"dcB | "A"A3 A2 :|
+P:B
+E | "A"cBA E2 c | "A"B2 A E3 | "A"CEA c2 e | "Bm"f2 e d3 |
+"E7"gfe B2 g | "E7"f2 e B3 | "Bm"gfe "E7"B2 g | "A"f2 e c3 |
+"A"cBA E2 c | "A"B2 A E3 | "A"CEA c2 e | "D"f2 e d3 |
+"D"FAd "Bm"f2 f | "A"fec "F#m"A2 A | "Bm"GFE "E7"dcB | "A"A3 A2 :|
+P:C
+[K:G] "D7"D | "G"G,3 B,3 | "G"D3 G3 | "G"BAG "C"FGE | "G"D3 D2 E |
+"Am"D2 E "D7"F2 E | "Am"D2 c "D7"B2 A | "B/G"GBA "A#/G"GFE | "Am"DED "D7"CB,A, |
+"G"G,3 B,3 | "G"D3 G3 | "G"BAG "C"FGE | "G"D3 D2 E |
+"D7"D2 E F2 E | "Am7"D2 c B2 A | "Em"GBA "D7"B2 A | "G"G3 G2 :|

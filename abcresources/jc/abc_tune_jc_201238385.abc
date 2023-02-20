@@ -1,0 +1,19 @@
+X: 30691
+T: TOSS THE FEATHERS
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.69 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Fixed bar 3 by making it like bars 1,15 (except for the low D).
+N: The repeat in the middle of the 2nd staff should probably be just a single bar line, giving 4- and 8-bar strains.
+M: C|
+L: 1/8
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+E2BE dEBD | E2BE FBFD | E2BE dDBd | (3(efg) fe dBAF ::\
+E2ef efge | fede fede | febe febe |
+fede fede | fbb2 faa2 | (3(efg) fe dBAF ::\
+E2BE dEBd | (3(efg) fe dBAF :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,32 @@
+X: 11011
+T: COTILLION No. 16. tune 3
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.101 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Several final rests moved to the pickups to fis the rhythm between strains.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!mf!zd |\
+(d2e) (f2g) | b3- b.a.g | (fg).e (^de).c | (^A2B) B2d |\
+(d2e) (f2g) | b3- b.a.g | .f.e.d .c.B.A | G3 z H|]
+!p!.d.d |\
+(dc).c .c.c.c | (cB).B BBB | (BA)A cBA | (AG)G Gdd |\
+(dc)c ccc | (cB)B BBB | (BA)A cBA | G3 "^D.C."z |]
+[K:C]zG |\
+ccc ccc | ("^>"g3 e2)c | ddd ddd | (a3 f2)d |\
+BBB BBB | ("^>"f3 d2)B | GGG (gf)d | c2z "^D.C."z |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% 2 ladies back to back,
+%% 2 gentlemen the same,
+%% balance partners and turn,
+%% grand chain,
+%% promenade 8,
+%% sides the same.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

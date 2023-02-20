@@ -1,0 +1,16 @@
+X:1
+T: A Trip to Lorient
+C:
+R:Strathspey
+Q: 128
+K:D
+M:4/4
+L:1/16
+A2|F3E D3E FA3 A,4|d3c d3B AF3 D4|Bd3 G4 Ad3 F4|Ee3 e3d c3B A3G|
+F3E D3E FA3 A,4|d3c d3B AF3 D4|B3c d3B Ad3 D4|1e3d ce3 d4 ((3A2^G2=G2):|2e3d ce3 d4 d3c|
+|:Bd3 G3A Bd3 d4|Ad3 F3G Ad3 d4|ce3 A3B ce3 e4|d3c d3e f3e d3=c|
+Bd3 G3A Bd3 d4|Ad3 F3G Ad3 d4|ce3 A3B ce3 e4|1((3d2c2d2) f3e d4 ((3d2c2=c2):|2((3d2c2d2) f3e d4 ((3A2^G2=G2)|
+|:F3E D3E FGAF A,4|d3c d3B ABAF D4|Bd3 G3B Ad3 F3A|Ee3 e3d cdcB ABAG|
+F3E D3E FGAF A,4|d3c d3B ABAF D4|Bc3 d3B Ad3 D4|1e3d ce3 d4 ((3A2^G2=G2):|2e3d ce3 d4 d3c|
+|:Bd3 G3A BABc d4|Ad3 F3G A^GAc d4|ce3 A3B cBcd e4|((3d2c2d2) ((3e2d2e2) f3e d3=c|
+Bd3 G3A BABc d4|Ad3 F3G A^GAc d4|ce3 A3B c=c^cd e4|1((3d2c2d2) f3e d4 ((3d2c2=c2):|2((3d2c2d2) f3e d4||

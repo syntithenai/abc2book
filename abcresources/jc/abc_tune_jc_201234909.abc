@@ -1,0 +1,28 @@
+X: 20881
+T: LOWELL SETT (tune 1)
+C:
+%R: reel, march
+B: Elias Howe "The Musician's Companion" 1843 p.88 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has final repeat but no initial repeat; not fixed.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="1"
+(3(cde) |\
+f2f2 f2{c}af | [g2c2] [g4c4] bg | agfe fcaf | [g2c2][g2c2] [gc]cde |\
+f2 f4 af | g2 g4 bg | bagf cbge | f2f2f2 H|]
+c2 |\
+Acfc afcA | Bdfd bfdf | cege bgeg | fagf edcB |\
+Acfc afcA | Bdfd bfdf | cege bgeg | f2f2"^D.C."f2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First four right and left,
+%% balance and turn partners,
+%% ladies chain,
+%% promenade four.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

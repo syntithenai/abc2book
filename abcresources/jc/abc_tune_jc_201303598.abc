@@ -1,0 +1,169 @@
+X: 1
+T: The Lord Is My Shepperd
+C: testing
+O: none
+S: none
+Z: none
+M: 3/4
+L: 1/4
+Z: Contributed 2008-05-20 10:33:34 by ming tsang tsang94@rogers.com
+K: F
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Page layout
+%
+%%titlefont     Times-Bold 32
+%%pagewidth		21.6000cm
+%%pageheight	28.0000cm
+%%scale			0.7500000
+%%staffsep		3.500000cm
+%%systaffsep    1.000000cm
+%%musicspace    1.000000cm
+%%exprabove		true
+%%measurebox	1
+%%measurenb     0
+%%footer 		"ming tsang                                Page $P"
+% Information fields
+X:1							% Reference Number
+T:The Lord Is My Shepperd
+T: TTTT
+C:
+N:Remarks:None				% Notes
+S:Music Source: Hymnal 		% Source
+Q:1/4=60					% Tempo
+M:3/4						% Meter
+L:1/4						% Default note length
+%%staves                     (ss aa)
+V:ss Clef=treble name="Soprano" sname="S"
+V:aa Clef=treble Name="Alto"    sname="A"
+K:F							% Key
+%ABC tune notation
+%%MIDI program 1 0 % Piano 1
+%
+% bar 1
+%
+[V:ss] z | z3 | z3 | z3 |z z A/A/ |
+w: 3 3
+W:
+[V:aa] x | x3 | x3 | x3 |x x A/A/ |
+w: 3 3
+w:
+w:
+% 2
+[V:ss]  d > A (G/F/) | F E G/B/  | A > E A/G/  | F z A/d/ |
+w: 6 3 2 1 1 7 2 4 3 7 3 2 1 3 6
+w:
+[V:aa]  A > F (E/D/) | D ^C E/G/ | F > ^C D/E/ | D x A/A/ |
+w: 3 1 7 6 6 5 7 2 1 5 6 7 6 3 3
+w:
+w:
+% 3
+[V:ss] f3/2  (e//d//) (^c//d//)e//d// | (d E/) z/ c/B/ | A> G F/E/  | D z d/c/ | c> C A/G/ |
+w: 1 7 6 5 6 7 6 6 7 5 4 3 2 1 7 6 6 5 5 5 3 2
+w:
+[V:aa] A3/2  (G//F//) (E//F//)G//F//  | F E/   x/ A/G/ | F> E D/^C/ | D x B/A/ | A> C F/E/ |
+w: 3 2 1 7 1 2 1 1 7 3 2 1 7 6 5 6 4 3 3 5 1 7
+w:
+w:
+% 4
+[V:ss] (G F/) z/ d/c/  | (c> C) D/E/ | F z A/A/ | f3/2  (e//d//) (^c//d//)e//d// | (d E/) z/ c/B/ |
+w:2 1 6 5 3 5 6 7 1 3 3 1 7 6 5 6 7 6 6 7 5 4
+w:
+[V:aa] E F/   x/ B/ A/ |  A> C  D/E/ | F x A/A/ | A3/2  (G//F//) (E//F//)G//F//  |  F E/  x/ A/G/ |
+w:7 1 4 3 3 5 6 7 1 3 3 3 2 1 7 1 2 1 1 7 3 2
+w:
+w:
+% 5
+[V:ss] A> G F/E/  | D2 A/A/ | f3/2  (e//d//) (^c//d//e//d//) | (d E/) z/ c/B/ |
+w: 3 2 1 7 6 3 3 1 7 6 5 6 7 6 6 7 5 4
+w:
+[V:aa] F> E D/^C/ | D2 A/A/ | d3/2  (c//B//) (A//B//=c//B//) | B E/ x/ A/G/   |
+w: 1 7 6 5 6 3 3 6 5 4 3 4 5 4 4 7 3 2
+w:
+w:
+% 6
+[V:ss]  A> G F/E/  | D2   A/A/ |
+w: 3 2 1 7 6 3 3 3 3 4 5 6
+w:
+[V:aa]  F> E D/^C/ | D2   A/A/ |
+w: 1 7 6 5 6 3 3 1 2 1 7 6
+w:
+w:
+[V:ss]  d > A (G/F/) | F E G/B/  | A > E A/G/  | F z A/d/ |
+w: 6 3 2 1 1 7 2 4 3 7 3 2 1 3 6
+w:
+[V:aa]  A > F (E/D/) | D ^C E/G/ | F > ^C D/E/ | D x A/A/ |
+w: 3 1 7 6 6 5 7 2 1 5 6 7 6 3 3
+w:
+w:
+% 3
+[V:ss] f3/2  (e//d//) (^c//d//)e//d// | (d E/) z/ c/B/ | A> G F/E/  | D z d/c/ | c> C A/G/ |
+w: 1 7 6 5 6 7 6 6 7 5 4 3 2 1 7 6 6 5 5 5 3 2
+w:
+[V:aa] A3/2  (G//F//) (E//F//)G//F//  | F E/   x/ A/G/ | F> E D/^C/ | D x B/A/ | A> C F/E/ |
+w: 3 2 1 7 1 2 1 1 7 3 2 1 7 6 5 6 4 3 3 5 1 7
+w:
+w:
+% 4
+[V:ss] (G F/) z/ d/c/  | (c> C) D/E/ | F z A/A/ | f3/2  (e//d//) (^c//d//)e//d// | (d E/) z/ c/B/ |
+w:2 1 6 5 3 5 6 7 1 3 3 1 7 6 5 6 7 6 6 7 5 4
+w:
+[V:aa] E F/   x/ B/ A/ |  A> C  D/E/ | F x A/A/ | A3/2  (G//F//) (E//F//)G//F//  |  F E/  x/ A/G/ |
+w:7 1 4 3 3 5 6 7 1 3 3 3 2 1 7 1 2 1 1 7 3 2
+w:
+w:
+% 5
+[V:ss] A> G F/E/  | D2 A/A/ | f3/2  (e//d//) (^c//d//e//d//) | (d E/) z/ c/B/ |
+w: 3 2 1 7 6 3 3 1 7 6 5 6 7 6 6 7 5 4
+w:
+[V:aa] F> E D/^C/ | D2 A/A/ | d3/2  (c//B//) (A//B//=c//B//) | B E/ x/ A/G/   |
+w: 1 7 6 5 6 3 3 6 5 4 3 4 5 4 4 7 3 2
+w:
+w:
+% 6
+[V:ss] A> G F/E/  | D2 A/A/ |
+w: 3 2 1 7 6 3 3 3 3 4 5 6
+w:
+[V:aa] F> E D/^C/ | D2 A/A/ |
+w: 1 7 6 5 6 3 3 1 2 1 7 6
+w:
+w:
+[V:ss]  d > A (G/F/) | F E G/B/  | A > E A/G/  | F z A/d/ |
+w: 6 3 2 1 1 7 2 4 3 7 3 2 1 3 6
+w:
+[V:aa]  A > F (E/D/) | D ^C E/G/ | F > ^C D/E/ | D x A/A/ |
+w: 3 1 7 6 6 5 7 2 1 5 6 7 6 3 3
+w:
+w:
+% 3
+[V:ss] f3/2  (e//d//) (^c//d//)e//d// | (d E/) z/ c/B/ | A> G F/E/  | D z d/c/ | c> C A/G/ |
+w: 1 7 6 5 6 7 6 6 7 5 4 3 2 1 7 6 6 5 5 5 3 2
+w:
+[V:aa] A3/2  (G//F//) (E//F//)G//F//  | F E/   x/ A/G/ | F> E D/^C/ | D x B/A/ | A> C F/E/ |
+w: 3 2 1 7 1 2 1 1 7 3 2 1 7 6 5 6 4 3 3 5 1 7
+w:
+w:
+% 4
+[V:ss] (G F/) z/ d/c/  | (c> C) D/E/ | F z A/A/ | f3/2  (e//d//) (^c//d//)e//d// | (d E/) z/ c/B/ |
+w:2 1 6 5 3 5 6 7 1 3 3 1 7 6 5 6 7 6 6 7 5 4
+w:
+[V:aa] E F/   x/ B/ A/ |  A> C  D/E/ | F x A/A/ | A3/2  (G//F//) (E//F//)G//F//  |  F E/  x/ A/G/ |
+w:7 1 4 3 3 5 6 7 1 3 3 3 2 1 7 1 2 1 1 7 3 2
+w:
+w:
+% 5
+[V:ss] A> G F/E/  | D2 A/A/ | f3/2  (e//d//) (^c//d//e//d//) | (d E/) z/ c/B/ |
+w: 3 2 1 7 6 3 3 1 7 6 5 6 7 6 6 7 5 4
+w:
+[V:aa] F> E D/^C/ | D2 A/A/ | d3/2  (c//B//) (A//B//=c//B//) | B E/ x/ A/G/   |
+w: 1 7 6 5 6 3 3 6 5 4 3 4 5 4 4 7 3 2
+w:
+w:
+% 6
+[V:ss] A> A =B/^c/ | d3 |]
+w: 3 2 1 7 6 3 3 3 3 4 5 6
+w:
+[V:aa] F> G F/E/   | D3 |]
+w: 1 7 6 5 6 3 3 1 2 1 7 6
+w:
+w:
+%End of file

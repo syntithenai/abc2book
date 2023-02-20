@@ -1,0 +1,21 @@
+X:1103
+T:Johnny McGill
+P:Johnny McGill
+C:John MacGill, here from Joshua Campbell's Coll. 1778
+R:Jig (8x40) ABABB
+B:RSCDS 11-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+V:1
+K:Dm
+%%staves (1 2)
+[V:1] f|"F"cAA AGF|cAA A2f|cAA AGA|"Dm"FDD D2 f|
+[V:1]  "F"cAA AGF|CAA AGA|"Gm"GAB "A7"AGA|"Dm"FDD D2||
+[V:1] c|"F"[f3c3A3] "C"[g3e3c3]|"F"{fg}afd cAF|"Dm"[f3d3A3] "Gm"[g3d3B3]|"Dm"{fg}afd d2 f/g/|
+[V:1]  "Dm"afa "A7"geg|"Dm"fde f2c|"F"cAF "Gm"G2 "A7"A|"Dm"FDD D2|]
+%V:2
+%[V:2] x|x6        |x6     |x6     |x6          |
+%[V:2]     x6     |x6     |    D3      E3 |x3      x2||
+%[V:2] x|x6                     |   [c2A2]x  x3|x6                       |    [d2A2]x x3     |
+%[V:2]      A3      A3 |    A3  x2F|   F2x     D2    ^C|    D3  x2|]

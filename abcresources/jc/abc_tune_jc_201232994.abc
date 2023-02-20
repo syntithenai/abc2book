@@ -1,0 +1,35 @@
+X: 181
+T: the Jolly Huntsman
+T: Longways &c.
+%R: reel+minuet
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.91
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+de |\
+f2ed edef | d6 fg | a2gf g2fe | f6 cd |\
+e2ee e2ee | e6 f^g | a2^gf edcB | A6 :|
+M: 3/8
+|: A2 |\
+def2e2 | f4A2 | def2e2 | e4A2 |\
+cde2f2 | cde2f2 | cde2f2 | e4 :|
+|: A2 |\
+efg2f2 | e2dcBA | efg2f2 | e4 d2 |\
+fga2b2 | a2gfed | f2gfef | d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st Cu. go the whole figure thro' the 2d Cu. and turn
+%% in their own places. then the 2d Cu. go the whole figure thro'
+%% the 1st Cu. and turn in their own places :| (Minuet) the 1st Man
+%% sett to the 2d Wo. and fall back and both turn S. .| then the 1st Wo
+%% and 2d Man do the same :| the 1st Cu. cross over and go the
+%% figure thro' till they come into the 2d Cu. place . then lead
+%% thro' the 3d Cu. and cast up into the 2d Cu. place :| and turn
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

@@ -1,0 +1,23 @@
+X: 11071
+T: PAT & PENNY'S JIG
+C: Bob McQuillen 30 June 2000
+B: Bob's Note Book 11 #71
+R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D	 % and Bm
+B \
+| ABA FDF | GAB A2A | dfd efg | fed cBA |\
+| GAB AFD | GAB AFA | Bcd ede | fdd d2 :|
+|: F \
+| Bcd cde | def e2g | fFF Ffg | fgf edc |\
+| Bcd cde | def eag | fed cfe | dBB B2 :|
+%%begintext align
+%% Penny and
+%% Pat Stevens are real nice folks who live over in
+%% Portsmouth on the N.H. coast. When Pat isn't calling,
+%% he and Penny are dancing up a storm. Pat took that
+%% great picture of Old New England, on the cover of
+%% their first album - Thanks, Pat!
+%%endtext

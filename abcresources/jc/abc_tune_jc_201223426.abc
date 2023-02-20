@@ -1,0 +1,29 @@
+X: 071
+T: MISS ROBERTSON
+C: R. MACKINTOSH
+R: Reel
+B: Glen Collection p.7 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: A
+%
+V: 1
+F |\
+E2CA FDFA | GEGB AecA | E2CA FDFA | GBEd cAA :|
+e |\
+aAgA fAeA | dcBA BGEg | aAgA fAeA | (Bcd)B (cAA)g |
+aAgA fAeA | dcBA GFE=G | FDFA GEdB | ceBd cA-A |]
+%
+V: 2
+z |\
+A2[a2e2] d2[a2f2] | B2[b2e2] c2[a2e2] |\
+A2[a2e2] d2[a2f2] | [b2e2][g2e2] [a2e2][aeA] :|
+z |\
+A2[e'2a2] [d'2a2][c'2a2] | [b2g2e2][c'2a2e2] [d'2b2e2][b2g2e2] |\
+A2[e'2a2] [d'2a2][c'2a2] | e2[b2g2] A2[c'2a2e2] |
+A2[e'2a2] [d'2a2][c'2a2] | [b2g2e2][c'2a2e2] [d'2b2e2][c'2a2e2]
+d2[d'2a2] e2[b2g2] | [a2e2][g2e2] [a2e2A2][aeA] |]

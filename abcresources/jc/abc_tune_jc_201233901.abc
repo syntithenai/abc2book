@@ -1,0 +1,19 @@
+X: 20152
+T: LOVE & GLORY
+%R: waltz
+B: "Edinburgh Repository of Music" v.2 p.15 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Bar 10 has too many 1/16-notes; not fixed.  Added flag to the last note (B) in bar 11.
+M: 3/4
+L: 1/16
+K: G
+d/g>d |\
+d4 z3 Bc3e | A4 z3 AB3c |\
+d4 z3 ge3a | f2d2 z3 db3g |\
+d4 z3 Bc3e | A4 z3 dg3b |\
+{b}Ha4 z3 fe3a |
+f2d2 z3 dd3g |\
+{f}e4 z3 de3a | THg4 {fagf}e4 z ga3b |\
+d4 z3 B c3{edc}B  | {c}B2A2 z3 de3g |\
+{g}d4 z3 BA3d | B2G2 z2 z3 |]

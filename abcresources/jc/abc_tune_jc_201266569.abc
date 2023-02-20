@@ -1,0 +1,32 @@
+X:1
+T: Dam It
+N:
+C:
+S:Play 6 times
+A:
+O:
+R:
+M:4/4
+K:C
+I:speed 128
+%W: A1
+% voice 1 (1 lines, 25 notes)
+K:C
+M:4/4
+L:1/16
+c4 B4 c4 B3 A |G3 F E3 F G4 F3 E |D3 E F3 G A3 B c2 B A |G4 B4 c4 C4 |
+%W: A2
+% voice 1 (1 lines, 25 notes)
+c4 B4 c4 B3 A |G3 F E3 F G4 F3 E |D3 E F3 G A3 B c2 B A |G4 B4 c4 C4 |
+%W: B1
+% voice 1 (1 lines, 26 notes)
+c3 d e4 c3 d e4 |c3 d e3 f d3 B A3 G |c3 d e4 c3 d e4 |c3 d e2 f2 g6 a2 |
+%W:
+% voice 1 (1 lines, 25 notes)
+g3 f e3 d c3 B A3 e |f4 A3 e f6 e2 |f3 e d3 c B3 A G2 F E |F4 G4 c8 |
+%W: B2
+% voice 1 (1 lines, 26 notes)
+c3 d e4 c3 d e4 |c3 d e3 f d3 B A3 G |c3 d e4 c3 d e4 |c3 d e2 f2 g6 a2 |
+%W:
+% voice 1 (1 lines, 25 notes)
+g3 f e3 d c3 B A3 e |f4 A3 e f6 e2 |f3 e d3 c B3 A G2 F E |F4 G4 c8 ||

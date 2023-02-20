@@ -1,0 +1,34 @@
+X:1
+T:Tenpenny Bit
+M:6/8
+L:1/8
+Q:80
+C:
+S:Jig
+K:HP
+|: {g}c/2e/2|
+{g}fB{G}B{g}dB{G}B|
+{g}fB{G}B{Gdc}d2e|  !
+{g}fB{G}B{g}dB{G}B|
+{g}ec{d}A{g}A{d}ce|
+{g}fB{G}B{g}dB{G}B|  !
+{g}fB{G}B{Gdc}d2e|
+{g}f2{GdG}fa3/2g/2f|
+{g}ec{d}A{g}A3/2{d}c/2e:| |:  !
+{g}fB{G}B{ag}a2e|
+{g}fB{G}B{Gdc}d2e|
+{g}fB{G}B{ag}a2f|  !
+{g}e3/2c/2{d}A{g}A3/2{d}c/2e|1
+{g}fB{G}B{ag}a2e|
+{g}fB{G}B{Gdc}d2e|  !
+{g}f2{GdG}fa3/2g/2f|
+{g}ec{d}A{g}A3/2{d}c/2e:| [|
+{g}fB{G}B{ag}a2e|  !
+{g}fB{G}B{Gdc}d2e|
+{g}fB{G}B{ag}a2f|
+{g}e3/2c/2{d}A{g}A3/2{d}c/2e:|2  !
+{g}fB{G}B{g}fB{G}B|
+{g}cB{d}c{Gdc}d2e|
+{g}f2{GdG}fa3/2g/2f|  !
+{g}ec{d}A{g}A3/2{d}c/2e|]
+

@@ -1,0 +1,28 @@
+X: 249
+T:Kamenopolsko
+O:Bulgaria
+F: http://www.youtube.com/watch?v=BkzbrfYgAkk
+F: http://www.youtube.com/watch?v=9gkyQqWPMJ4
+F: http://www.youtube.com/watch?v=Ehzy_ZnmvCs
+M:2/4
+L:1/8
+Q:1/4=240
+K:Dm
+%%MIDI program 23
+%%MIDI bassprog 45
+%%MIDI gchord zf
+|:"Dm"A2 "G"GG|"Dm"F2 "Am"EE|"Dm"DEFG     |A4           |\
+  A2 "G"GG    |"Dm"F2 "Am"EE|"Dm"D2d2     |A4           |
+  A2 "G"GG    |"Dm"F2 "Am"EE|"Dm"DEFG     |A4           |\
+  A2 "G"GG    |"Dm"F2 "Am"EE|"Dm"D2A,2    |D4           :|
+|:{GABc}d4    |A4           |"G"GF"Am"EF  |"Dm"A4       |\
+  AA"G"GG     |"Dm"FF"Am"EE |"Dm"DEFG     |A4           |
+  {GABc}d4    |A4           |"G"GF"Am"EF  |"Dm"A4       |\
+  AA"G"GG     |"Dm"FF"Am"EE |"Dm"D2A,2    |D4           :|
+K: Em
+|:d2A2        |"D"FG"Dm"A2  |d2A2         |"D"FD"Am"ED  |\
+  "Dm"d2A2    |"D"FG"Dm"A2  |d2A2         |"D"FD"Am"ED  :|
+|:"D"FG"Dm"A_B|"F"c2"Gm"_B2 |"F"c2"Gm"_B2 |"Dm"A4       |\
+  "D"FG"Dm"A_B|"F"c2"Gm"_B2 |"F"c2"Gm"_B2 |"Dm"A4       :|
+|:AG"D"FG     |"G"BG"C"cG   |"G"BG"C"cG   |"G"B4        |\
+  "Dm"AG"D"FG |"G"BG"C"cG   |"G"BG"C"cG   |"G"B4        :|

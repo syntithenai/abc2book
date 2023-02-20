@@ -1,0 +1,17 @@
+X: 206
+T: the Chieftain
+R: air, march
+%S: s:2 b:16(8+8)
+B: O'Neill's 1850 #206
+O: F.O'Neill
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+Q: "Moderate"
+M: C
+L: 1/8
+K: G
+(3(DEF) \
+| (G3A) (GFED) | (d3{f}e) (d2Bd) | e2(dB) G2A2 | E4- Ez (3(DEF) |\
+| (G3A) (GFED) | (d3{f}e) (d2Bd) | e2(dB) G2A2 | G4- Gz |]
+|| (3(Bcd) \
+| (e3f) (edBA) | (G3B) (d2gf) | e2(dB) G2A2 | E4- Ez (3(DEF) |\
+| (G3A) (GFED) | (d3{f}e) (d2Bd) | e2(dB) G2A2 | G4- Gz |]

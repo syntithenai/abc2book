@@ -1,0 +1,212 @@
+X: 1
+T:Donnybrook Fair
+T:Joy of My Life, The
+M:6/8
+R:jig
+K:G
+~G3 AGA|Bee dBA|BAB GAB|AGE EDE|~G3 AGA|Bee dBA|BAB GAB|1 AGF G2D:|2 AGF GBd||
+gfe fed|e/f/ge dBA|Bee dBA|Bee e2f|1 ~g3 fed|ege dBA|
+~B3 GAB|AGF GBd:|2 ~g3 aga|bge dBA|BAB GAB|AGF G2D||
+
+X: 2
+T:Blackthorn Stick, The
+T:Humours of Bantry, The
+T:Coach Road to Sligo, The
+M:6/8
+L:1/8
+R:jig
+K:G
+~g3 ege|dBG AGE|DGG FGA|BGB A2e|gfg age|dBG AGE|DGG FGA|BGG G2d:|
+|:edd gdd|edd gdd|ede ~g3|edB A2e|gfg age|dBG AGE|DGG FGA|BGG G2d:|
+
+X: 3
+T:My Darling Asleep
+M:6/8
+R:jig
+K:D
+fdd cAA|BAG A2G|FAA def|gfg eag|fdd cAA|BAG A2G|FAA def|1 gec d2e:|2 gec d2z||
+|:FAA BAG|FAA BAG|FAA def|gfg eag|fdd cAA|BAG A2G|FAA def|1 gec d2A:|2 gec d2e||
+
+X: 4
+T:Saddle the Pony
+M:6/8
+R:jig
+K:G
+GBA G2B|def gdB|GBA G2B|AFD AFD|GBA G2B|def gfg|ege dBA|1 BGG G2D:|2 BGG GBd||
+|:efe edB|def gfg|efe edB|dBA ABd|efe edB|def gfg|ege dBA|1 BGG GBd:|2 BGG G2D||
+
+X: 5
+T:Kesh Jig, The
+M:6/8
+R:jig
+K:G
+~G3 GAB|~A3 ABd|edd gdd|edB dBA|~G3 GAB|~A3 ABd|edd gdB|1 AGF G2D:|2 AGF G2A||
+|:~B3 dBd|ege dBG|~B3 dBG|ABA AGA|BAB dBd|ege dBd|~g3 aga|bgf g3:|
+
+X: 6
+T:Lilting Banshee, The
+M:6/8
+R:jig
+K:Ador
+EAA EAA|BAB G2A|Bee edB|dBA GED|EAA EAA|BAB G2A|Bee edB|1 dBA A2G:|2 dBA ABd||
+eaa age|dBA G2A|Bee edB|def ~g3|eaa age|dBA G2A|Bee edB|1 dBA ABd:|2 dBA A2G||
+
+X: 7
+T:Battering Ram, The
+M:6/8
+R:jig
+K:G
+dBG BAG|dBG G2B|dBG AGE|GED D2B|dBG BAG|B/c/dB BAG|AGA BAB|[1 GED D2B:|
+[2 GED D2B|:deg aga|bge edB|deg aga|bge e2b|bag age|ged ege|dBG AGE|
+[1 GED D2B:|[2 GED Ded|:B2G A2G|B2d d2B|BAG AGE|GED Ded|B2G A2G|B/c/dB BAG|
+AGA BAB|GED D2B:|
+
+X: 8
+T:Sean Ryan's Jig
+M:6/8
+L:1/8
+R:jig
+K:Ador
+cBA BAG|AGE DB,G,|~A,3 ~E3|DEG A2B|cBA BAG|AGE DB,G,|~A,3 ~E3|DB,G, A,2B :|
+cBA ~a3|bag edB|GBd ~g3|age dBG|Ace ~a3|bag edB|GBd ~g3|edB A2B|
+cBA ~a3|bag edB|GBd ~g3|GBd GBd|~c3 dcd|ede gab|age dBG|EFG A2B||
+"Version 2:"
+|:cBA BAG|AGE DB,G,|~A,3 ~E3|DEG A2B|cBA BAG|AGE DB,G,|~A,3 ~E3|DB,G, A,2B:|
+|:cBA ~a3|bag edB|GBd ~g3|GBd cBA|~c3 dcd|ede gab|age dBG|EFG A2B:|
+"Version 3:"
+|:cBA BAG|AGE DB,G,|~A,3 EDB,|DEG AGE|c2A B/c/dB|AGE DB,G,|~A,3 ECE|DB,G, A,2B:|
+|:cBA ~a3|bag edB|GBd ~g3|G,B,D GBG|cBc d^cd|ede gab|age dBG|EFG A2B:|
+
+X: 9
+T:Brendan Tonra's
+M:6/8
+C:Brendan Tonra
+R:jig
+K:D
+~F3 AGE|EDB, A,B,D|~F3 ~G3|ABF AFE|
+~F3 AGE|EDB, A,B,D|~F3 GFG|BAF D3:|
+|:f2d dcd|edc Bcd|f2d dcd|ABF Ade|
+f2d dcd|edc Bcd|~f3 gec|edc d3:|
+
+X: 10
+T:Banks of Lough Gowna, The
+M:6/8
+R:jig
+K:Bm
+BcB BAF|FEF DFA|BcB BAF|d2e fed|BcB BAF|FEF DFA|def geg|1 fdB Bdc:|2 fdB ~B3||
+|:def ~a3|afb afe|~f3 def|geg fdB|def ~a3|afb afe|def geg|1 fdB ~B3:|2 fdB Bdc||
+
+X: 11
+T:Humours of Glendart, The
+T:East of Glendart
+T:East at Glandart
+M:6/8
+R:jig
+K:D
+BAF AFD|~F3 DFA|BAF AFD|FED EFA|BAF AFD|FEF DFA|dcB AFE|FDD D2A:|
+def d2B|AFA AFA|def d2f|ede fdB|def d2B|AFA ABc|dcB AFE|FDD D2A:|
+
+X: 12
+T:Leitrim's Fancy
+M:6/8
+R:jig
+K:Edor
+GBG FAF|E2B BAB|GAG FGF|DFA AFD|
+GBG FAF|E2B BAB|GAB dBG|ABG FED:|
+|:GAB ~d3|edB dBA|GAB dBG|ABG FED|
+GAB ~d3|edB def|gfe dBG|ABG FED:|
+
+X: 13
+T:Mug of Brown Ale, The
+M:6/8
+R:jig
+K:Ador
+eAA fAA|gfg age|dBA G2A|BAB dBd|eAA fAA|gfg age|dBd gdB|BAG A2d:|
+efg a2g|aba age|dBd g2d|gba ged|efg a2g|aba age|dge dBG|BAG A2d:|
+
+X: 14
+T:The Goat on the Green
+M:6/8
+L:1/8
+R:jig
+K:Emin
+~E3 GEE|BEE GFE|D3 FDD|ADD FED|
+~E3 GEE|BEE G2A|~B3 ABA|1 GED EGD:|2 GED E2B||
+|:efe ~B3|e2f gfe|fdd Add|Bdd fed|
+e^de ~B3|e2f gfe|fdB AGF|1 GED E2B:|2 GED EGD||
+
+X: 15
+T:Tripping Up the Stairs
+M:6/8
+R:jig
+K:D
+FAA GBB|ABd fed|cBc ABc|dfe dAG|FAA GBB|ABd fed|cBc ABc|1 dfe d2A:|2 dfe d2c||
+|:dBB fBB|~f3 fed|cAA eAA|~e3 edc|dBB fBB|~f3 fed|cBc ABc|1 dfe d2c:|2 d fe d2A||
+
+X: 16
+T:Humours of Ennistymon, The
+M:6/8
+R:jig
+K:G
+A|~B3 GBd|cBc ABc|~B3 GBd|cAG FGA|~B3 GBd|cBc ABc|ded cAF|AGF G2:|
+|:e|~f3 fed|cAG FGA|dgg gfg|afd d2e|~f3 fed|cAG FGA|~B3 cAF|AGF G2:|
+|:d|gdB gdB|ecA ecA|~B3 GBd|cAG FGA|1 gdB gdB|ecA ecA|
+~B3 GBd|cAF G2:|2 ~B3 GBd|cBc ABc|ded cAF|AGF G2||
+
+X: 17
+T:Connaughtman's Rambles, The
+T:Gathering Dilisc
+M:6/8
+R:jig
+K:Bm
+FAA dAA|BAB dAG|FAA dfe|dBB BAG|
+FAA dAA|BAB def|gfe f2e|1 dBB BAG:|2 dBB B3||
+|:fbb faa|fef def|fbb faa|fed ~e3|
+fbb faa|~f3 def|gfe f2e|1 dBB ~B3:|2 dBB BAG||
+
+X: 18
+T:Tongs By the Fire
+M:6/8
+R:jig
+K:G
+GBd cAF|dge dBG|cec BdB|ABG FED|\
+GBd cAF|Gge dBG|cec Bag|fef g3:|
+|gdB gdB|gfa gdB|~g3 eag|fd^c def|gbg faf|\
+(4efge def|gdB AGA |BGF G2:|**
+
+X: 19
+T:Kilfinane, The
+M:6/8
+R:jig
+K:G
+FDE ~F2d|cAA BAG|FDE FdB|cAF GAG|\
+FDE ~F2d|cAB cde|fef ded|cAF G2:|
+e|fdd fed|cAB cde|fdd fed|cAF ~G2g|\
+fdd fed|cAB cde|faf ded|cAF G2:|
+A1/2B1/2|cAA fed|cAG ~A2B|cAA fed|cAF GAB|\
+cAA fed|cAB cde|(4fgaf ded|cAF G2:|
+
+X: 20
+T:Queen of the Fair, The
+M:6/8
+C:John McFadden
+R:jig
+K:D
+~F3 DAA|DFA dAF|~G3 FGA|BAG FGE| ~F3 DAA|DFA dAF|~G3 EAG|1 FDD D2E:|2 FDD D3||
+|fdf ece|dAG FEF|DFA dAF|GFG E2g| fdf ece|dAG FED|EFG EAG|1 FDD D2g:|2 FDD D3||
+|Add fdd|add fdd|Ace ~g3|~f3 ecA| Add fdd|add fdd|EFG EAG|FDD D3|
+Add fdd|add fdd|Ace ~g3|~f3 efg|~a3 geg|fdf ecA|EFG EAG|FDD D2E||
+
+X: 21
+T:Finbar Dwyer's Favorite
+M:6/8
+L:1/8
+R:jig
+K:Dmix
+|:A2 d d^cd|fag efd|dcA GFG|AdB cAG|
+|Add d^cd|fag efd|dcA GEA|1 DED D3:|2 DED D2 G||
+|FGA cAA|BAG cAG|FGA cAG|Ad^c ~d3|
+|FGA cAG|Adg fef|dcA GEA|DED D2 G|
+|FGA cAA|BAG cAG|FGA cAG|Ad^c ~d3|
+|DED cAG|Adg fde|dcA GEA|DED D(3EFG||
+

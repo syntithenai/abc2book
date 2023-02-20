@@ -1,0 +1,27 @@
+X: 10932
+T: BUXOM NAN
+Q: "With spirit."
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.93 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Bb
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+B3d | {d}c3e | (ede)c | (BA)GF |\
+B3d | (cd{f}e)c | BAGF | B3F |\
+B3d | {d}c3f | (ede)c | (BA)GF |\
+B3d | cdec | BAGF | B2zd |
+e2c2 | {e}d3B | {d}c3d | BAGF |\
+e3c | df {f}=e(f/d/) | {d}c3=E | F2zf |\
+de B>_A | G2ze | efc>B | BAGF |\
+f3e | {e}d3c | B2{d}c2 | {B}A2 HzF |
+B3c | {c}B3e | (ede)c | (BA)GF |\
+B3d | ({d}c>d){f}ec | (BA)GF | e2z2 |\
+g2f>e | {e}d2 e(d/c/) | (BA)GF | B2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,24 @@
+X: 2301
+T: Mr Dundass McQueen's Reel
+%R: reel
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.30 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Cm
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+G, |\
+CDEF E/F/G Gc | .B(TGFE) D/E/F DB, |\
+[1 CDEF (E/F/G) Gc | BGTFD C/C/C TC :|\
+[2  CDEF TG2Gc | dBgd c/c/c Tc |]
+|: d |\
+Tc>def gcec | fBdf bfdB |\
+[1 Tc>def gcec | dBfd c/c/c Tc :|\
+[2 Tc>def gbfd | Bdbd c/c/c Tc |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | c2c'2 c2c2 | e2f2 b2B2 |[1 c2c'2 c2e2 | f2g2 c2c :|[2 c2c'2 e2c2 | G2g2 c2c |]
+|: z | c'2c'2 c'2c'2 | b2b2 b2b2 |[1 c'2c'2 c'2c'2 | g2G2 c2c :|[2 c2c'2 e2d2 | g2G2 c2c |]

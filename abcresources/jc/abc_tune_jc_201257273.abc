@@ -1,0 +1,17 @@
+X: 114
+T: Brudmarsch fr\aan V\"astbo-\AAs
+O: Sm\aaland
+R: march
+S: http://folksweden.com/files/114-Brudmarsch_fran_Vastbo_As.pdf (Tim Rued) 2021-9-2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+P: (A1A2)x2+(BA2)x2
+M: 2/4
+L: 1/16
+K: G
+"^A"|: B2B2 B2GB | d2d2 d3c  | B2B2 A2BA | G4 G4 | A2A2 \
+[1 A3B | A2F2 A4 | A2A2 BAGE | D2D2 D4 :|\
+[2 A2B2 | A2F2 D2D2 |
+G4 G3G  | G8 |]\
+"^B"[|\
+g4 g3g  | g6 g2 | f2f2 e2e2 | d2d2 c2c2 |\
+D2F2 FDFA | c8 | c2c2 dcBA | G2G2 "->A2"G4 |]

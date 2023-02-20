@@ -1,0 +1,31 @@
+X: 11221
+T: From thee ELIZA I must go
+C: Thompson
+Q: "Andante"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.122-123
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/16
+K: A
+% %continueall
+(Ac) | e4 e2 (e3d) c2 | d4 B2 c4 {B/}A2 | F4 {B/}A2 (E2e2) d2 | (c6 {dc}B4) e2 |
+w: From* thee E-LI-*ZA I must go And from my na-*tive Shore* The
+(c2e2) e2 B4 e2 | (^d2a2) f2 g4 {f/}e2 | (c3^d) e2 (B2d2) f2 | e4 z2 z4 e2 |
+w: cru-*el fates be-tween* us throw a bount-*less O-*ceans roar But
+e4 e2 ^d4 d2 | =d4 d2 c4 c2 | {c}B4 B2 B4 A2 | G4 z2 z4 e2 |
+w: bound-less O-ceans roar-ing wide be-tween my Love and me They
+c4 A2 B4 {f/}e2 | c4 A2 d4 f2 | (e2c2) A2 F4 G2 | A4 z2 Hf4 a/g/b/a/g/f/ |
+w: ne-ver ne-ver can di-vide my heart* and Soul from thee.
+He2{d/}c2 {B/}A2 F4 G2 | A4 z2 agabc'a | bagfed c2d2B2 | A2A2A2 "_Da Capo"A4 |]
+%
+W: 2 Farewell, farewell, ELIZA dear,
+W: \t The Maid that I adore; 
+W: A boding voice is in my ear, 
+W: \t We part to meet no more: 
+W: But the last throb that leaves my heart, 
+W: \t While death stands victor by: 
+W: That throb ELIZA,is thy part, 
+W: \t And thine the latest sigh.
+%
+%%center -

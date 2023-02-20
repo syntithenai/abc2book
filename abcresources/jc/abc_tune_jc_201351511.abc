@@ -1,0 +1,11 @@
+X:1
+T:Westphalia Waltz
+M:3/4
+L:1/8
+R:Waltz
+K:G
+DEF \
+|: "G"G4A2 | "Bm"B4e2 | "Em"d6- | "Bm"d3DEF | "G"G4A2 | "E"B4c2 | "Am"A4-AB | "D"A4G2 | F4A2 | "Am"c4g2 |
+| "D"f4-fg | f4e2 | d3^cde |[1 "D7"d2^c2=c2 | "G"B4-Bc | B3DEF :|[2 d2F2A2 | "G"G6 | G2B2d2 ||
+|: "G"g6 | "Bm"f6 | "Em"e2f2g2 | "Bm"B6 | "G"B2{cB}A2G2 | B2{cB}A2G2 | "Am"c3Bcd | "D"c6 | "Am"e6 | "G#+5"e6 |
+| "C"e2f2g2 | "D"f4e2 | d3^cde |[1 d2^c2=c2 | "G"B4-Bc | B4d2 :|[2 d2F2A2 | "G"G6 | G3 |]

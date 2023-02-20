@@ -1,0 +1,19 @@
+X: 20532
+T: ANDREWS' HORNPIPE
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" 1843 p.53 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The first note in bar 13 should probably be e rather than d.
+M: 2/4
+L: 1/16
+K: E
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B2 |\
+edef gBag | fede fBcd | edef gfge | f2^a2b2B2 |\
+edef gBag | fede fBcd | edeg fedf | e2g2e2 :|
+|: B2 |\
+.e2.g2.b2.e'2 | e2g2b2g2 | fBgB agfe | defg fBcd |\
+.d2.g2.b2.e'2 | e2g2b2g2 | fBgB agfe | def[gd] e2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

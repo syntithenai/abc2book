@@ -1,0 +1,60 @@
+
+X: 1
+T: Rare
+C: Keith Murphy 2001
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Portland Collection v.2 p.166
+M: C|
+L: 1/8
+K: D
+|: "D"D2FD EDEF | ABAF EDB,D | "G"G,2G,A, B,DED | "A7"A,G,A,B, CDEC |
+| "D"D2FD EDEF | ABAF EDB,D | "G"G,2G,A, B,DED | "A7"CDEC [1 "D"DA,B,D :|[2 "D"DEFA ||
+| "D"effe dcBA | "G"B2BA GFED | "A7"E2CE A,ECE | A,B,CD EFGE |
+| "D"D2fe dcBA | "G"B2BA GFED | "A7"E2CE A,ECE | CDEC [1 "D"DEFA :|2 "D"DA,B,D |]
+
+%%sep 1 1 500
+
+X: 2
+T: Sligo Creek
+C:Danny Novecka (1988)
+R:reel
+Z:transcribed to abc by Mary Lou Knack
+N:Condensed to 2 staffs by John Chambers
+M:C|
+L:1/8
+K:Bm
+de |\
+"Bm"f2ef dB~B2 | f2ef df~f2 | "A"a2ed cAAF |\
+[1,3 EFAB "F#m"c3e :|[2,4 ABcA "Bm"B2 :|
+|: BA |\
+"G"GB~B2 Bcde | "D"f2ec defd |\
+[1,3 "A"eA (3.A.A.A cAFA | EFAB "F#m"c2BA :|\
+[2,4 "A"ea (3.a.a.a faec | ABcA "Bm"B2 :|
+
+%%sep 1 1 500
+
+X: 3
+T: Bus Stop Reel
+C: Anita Anderson 1987
+R: reel
+Z: Transcribed to abc by Mary Lou Knack; headers added by John Chambers
+D: Open House "Open House"; Kevin Burke (fiddle), Paul Kotapish (guitar) et al.
+D: Salmonberry "New England Contra Dance Music"
+B: "The Portland Collection".
+B: "Brand New Old Time Fiddle Tunes (V.3)"
+B: Tunes From the Western Edge, by Anita Anderson and Michael Mendelson.
+N: Anita says she made up the tune "while waiting for the bus to work".
+M: C|
+L: 1/8
+K: Am
+|: "Am"A2eA dAc2 | ABcA "G"BAGB |\
+"Am"A2eA dAcA | "C"cde^f "G"gedB |\
+"Am"A2eA dAc2 |
+| "Am"ABcA "G"BAG2 |\
+"F"FGAc "G"BAGB | "(Em)"cABG "Am"A4 ::\
+"Am"ea-ag edcB | ABcd "(E)"e4 |
+| "Am"ea-ag "C"edc2 | "D"de^fd "E"e4 |\
+"Am"ea-ag edcB | ABcd "(C)"e2dc |\
+"G"BAGF EFGB | "(Em)"cABG "Am"A4 :|
+

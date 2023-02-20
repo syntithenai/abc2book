@@ -1,0 +1,38 @@
+X: 223
+T: the Darling.
+T: Nian donn ro' bheadarach.
+C: 
+R: strathspey
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.101 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Bars 3,4 converted to regular ABC alternate endings.
+M: C
+L: 1/8
+Q: "Strathspey Style."
+K: F#m
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+f |\
+c<FTcB A>FF>f | c<Fc>e ~f2 f<a | c<FTc>B \
+[1 A>FF<f | e>cA<c B2B :|\
+[2 A>Bc<f | e>cA<c B2B :|\
+d |\
+c<ff>g a>cTc>B |
+c<ff>g {b}a2gf |\
+c<ff>g a>fc<a | e>cA<c ~B2Bd ||\
+c<ff>g a>cTc>B | c<ff>g {b}a2g<b |\
+f>aTg>f e>cc<a | e<ca>c ~B2B |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+f2^e2 f2f2 | f2f2 [f2c'2][f2d'2] | f2^e2 \
+[1 f2f2 | c2^d2 e2D :|[2 f2f2 | c2^d2 e2D :|\
+z |\
+f2f'2 f2f'2 | f2f'2 f2f'2 |
+f2f'2 f2f'2 | c2^d2 e2E2 ||\
+f2f'2 f2f'2 | f2f'2 f2c2 |\
+d2d2 c2A2 | c2^d2 e2E |]
+% = = = = = = = = = =

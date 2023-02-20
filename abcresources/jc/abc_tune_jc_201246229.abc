@@ -1,0 +1,16 @@
+X:9
+T:All in a Garden Green
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=100
+M:2/2
+L:1/8
+N:Used by Cecil Sharp for the dance "Maid in the Moon"
+N:Used for the dance "Harwood Hall" by Charles Bolton.  Used for the dance "The Silver Swan" by Colin Hume
+%%MIDI gchord c2cc
+K:G
+P:A
+|: "G"d4 "D/F#"d2d2 | "Em"B3c "G/D"d2d2 | "C"e2d2 "Am"c2B2 | "D"A4- "/"A2B2 |\
+"C"c3d "/"efg2 | "G"G3A "/"Bcd2 | "Am"c2B2 "D7"AGAB | "G"G4- "/"G4 :|
+P:B
+|: "G"d2dd "/"d2d2 | "C"e2 "D7"f2 "G"g4 | "Em"B2BB "/"B2G2 | "Am"A2B2 "D7"c4 |
+"G"B3A "/"GAB2 | "Am"c3B "/"ABc2 | "Bm"d3c "/"Bcd2 | "C"e3d "/"cdBc | "Am"A2G2 "D"G2F2 | "G"G6z2 :|

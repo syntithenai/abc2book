@@ -1,0 +1,21 @@
+X: 1
+T: Sandy's New Chanter
+C: P.M. Rab Pinkman
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+"A"[|] A2 |:\
+"D"f2ef "D/F#"fAef | "G"g2eg "A7"B2Bg | "D"fAdf "Bm"faga | "Em7"eAce "A7"eage |
+"D"f2ef "D/F#"fAef | "G"g2fg "A7/E"B2Bg | "D"fAdf "A"eAce | "D"d4 d2A2 :|
+"B"|:\
+"D"a2fa "D/F#"dffA | "G"g2fg "A7"B2Bg | "D"fAdf "B/D#"faga | "E7"eAce "A7"eage |
+"D"a2fa "D7/C"dffA | "G/B"g2fg "Gm/Bb"B2Bg | "D/A"fAdf "A/G"eAce | "D/F#"d4 "A7/E"d2Ad :|
+"C"|:\
+"D"fA A/A/A AffA | "G/D"g2f<g gAdg | "D"fA A/A/A faga | "Em7/D"eAce "A7/D"eage |
+"D"fA A/A/A AffA | "G/D"gBdg Bdge | "D"fAdf "A7/E"eAce | "D/F#"d4 "A7/E"d2A2 :|
+"D"|:\
+"D"a2a2 "D/F#"fgaf | "G"fBdg "A7"Bdge | "D"fA A/A/A "Bm"faga | "Em"eAce "A7"eage |
+"D"a2a2 "D/F#"fgaf | "G"fBdg "A7/E"Bdge | "D"fAdf "A"eAce | "D"d4 d2A2 :|
+

@@ -1,0 +1,35 @@
+X:708
+T:Summer Reverie with counter-melody
+%%MIDI gchord cHIg
+M:2/2
+L:1/4
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=83
+C:Colin Hume, 2000/2008
+H:For Chris Oxtoby
+K:D
+V:1
+P:A
+%%MIDI program 50
+%%MIDI gchord fccc
+%%MIDI chordprog 46
+%%MIDI bassprog 46
+[| "D"FGAd | "Em"c2B2 | "F#m"A3C | "Bm"E2D2 | "Em"DEFG | "F#m"A2F2 | "G"EFGA | "A7"B2A2 |
+V:2
+%%MIDI program 72
+[| D4 | E4 | F2GA | B3c | d4 | c4 | B3c | d2e2 |
+P:B
+V:1
+"D"FGAd | "Em"e2fg | "A7"f3c | "Bm"e2d2 | "Em"defd | "F#m"A2FG | "Am"A2B=c | "B7"B4 |
+V:2
+d3c | B4 | A3G | F4 | G4 | F4 | E4 | ^D4 |
+P:C
+V:1
+"Em"FGfe | "Em/D"BGFE | "Am/C"F2GA | "B7"G2F2 | "Em"G2AB | "Am"A2e2 | "D"dAB=c | "G"B4 |
+V:2
+FEDE | FEDE | FEGF | E2^D2 | E2FG | A2G2 | F4 | G4 |
+P:D
+V:1
+"Em"FGfe | "Em"BGFE | "D"FEFA | "Bm"d2D2 | "Em"EFdc | "Em"B2B,C | "A7"E3D | "D"D4 |]
+V:2
+FEDE | FEDE | FEDE | FEGF | E3F | G4 | G3F | F4 |]

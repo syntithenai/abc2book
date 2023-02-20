@@ -1,0 +1,14 @@
+X: 21311
+T: the Bursting Sigh
+%R: jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.131 #1
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+N: Sloppy notation for several dotted 8th notes followed by 2 short notes fixed to be consistent and add up correctly.
+M: C
+L: 1/16
+Q: "Plaintive"
+K: A
+|:"_Slow"\
+e4 Td3c c6 a2 | e4 Td3c (c4 B2)c2 | A6 B2 c2(Bc) (afef) | c4 ({AB}TB3A/B/) A8 :: a6 {gf}e2 Tf3(e/f/) e4 |
+a4 {gf}e2 Td3(c/d/) c4 | a6 {gf}e2 f>g {b}a2(gf) | e4 Td3c (c4 B2)z2 | c6 d2 e4 (Ace=g) | (=g4 f2)(^ga) (a4 g2)ab |
+(a2f2)(e2c2) (Bcde) {g}f2(ed) | c2(Bc) (ecBA) a6 (c'b) | a3f (afec) B2c2 (afef) | c4 {AB}TB3(A/B/) A4 :|

@@ -1,0 +1,17 @@
+X: 1
+T: a Branch Tune
+O: Newfoundland, Canada
+N: Branch is a small town in Newfoundland.
+N: This is a variant of the tune called "The Road to Boston" and "The Road to London".
+R: polka, reel
+S: http://www.nigelgatherer.com/workshops/mixter/mixter15/BirkT.jpg 2020-3-28
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|:\
+"G"B4 B2AB | "C"c2B2 A2G2 | "D7"F2G2 ABAF | "G"G2F2 E2D2 |\
+"G"B4 B2AB | "C"c2B2 A2G2 | "D7"F2G2 ABAF | "G"G4   G4 :|
+|:\
+"G"d4 d2^cd | "C"e2d2 =c2B2 | "D7"c4   c2Bc | "G"d2c2 B2A2 |\
+"Em"B4 B2AB | "C"c2B2  A2G2 | "D7"F2D2 ABAF | "G"G4   G4 :|

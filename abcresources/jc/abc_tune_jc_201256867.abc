@@ -1,0 +1,15 @@
+X: 84
+T: the BRINK OF THE WHITE ROCKS - 2nd Setting.
+R: jig
+%S: s:2 b:16(8+8)
+B: O'Neill's 1850 #84
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+Q: "Gaily"
+N: Missing dot in bars 8, 16; fixed.
+M: 6/8
+L: 1/8
+K: Em
+[| B2^d e2f | g2f e2=d | (Bd).B (AFA) | d3 B2A |\
+|  B2^d e2f | {a}g2f e2=d | (Bd).B (AF)({A}G/F/) | E3 E3 |]
+[|(Bd).B (AFD) | d2e f2z | e2d (BA)(B/^c/) | d3 B2A |\
+|  B2^d e2f | {a}g2f e2=d | (Bd).B (AF)({A}G/F/) | E3 E3 |]

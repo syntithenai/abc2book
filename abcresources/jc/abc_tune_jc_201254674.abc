@@ -1,0 +1,16 @@
+X: 675
+T: the Bonnie Boy
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #675
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0675/oneill-1001-0675-1.abc
+M: C|
+L: 1/8
+K: A
+"^A"[|]\
+   (ed) | cBAa (3(fga)  ec  | dfec B2(Bd) | cBAa (3(fga) ec | dfec A2 ||
+|| (Ad) | cBAa (3(fga) (ec) | dfec B2(Bd) | cefg agbg | afed cAA |]
+"^B"\
+[| d | (3(cBA) (ec) fAeA | (3(cBA) (ec) B2(Bd) | (3(cBA) (eA) fAeA | dfed cAA ||
+|| d | (3(cBA) (eA) fAeA | dfec B2(Bd) | cefg agbg | afec A2 |]

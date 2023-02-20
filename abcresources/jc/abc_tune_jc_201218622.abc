@@ -1,0 +1,36 @@
+X: 012
+T: Kat Oggie
+%R: air
+N: Called "Cathrine Ogie" it other collections.
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.1 #2
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Q: "slow"
+M: C
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1
+TA>G |\
+E2A>B A3B | c>d{c}B>c TA2B>c | d3e d>BTA>G | G3A {c}B2TA>G |
+E2(A>B) TA3B | c>dB>c A2g>f | {f}e2Td>B c>d{c}B>c | {B}TA4 e2 :|
+|: A>B |\
+c>de>f Jg3a | (ge)d>e g2Td>c | B2(g>e) (d>B)(TA>G) | G3 A B2TA>G |
+c>dB>c TA2zE | ABcd Je2(Tdc) | (de)ga (g>e)Td>B | TA4 e2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+z2 |\
+z2a>"6"g "6"f>ef>"6"d | "6;4"e2"5;#"E2 "5;+6"A2G>A |\
+"6"B>AB>c "6;4"d2"5;#"d'2 | g2d2 G2z2 |\
+z2a>"6"g "6"f>e"6"f>"6"d |
+"6;4"e2"5;#"E2 A2"6"B2 |\
+c2"6"d2 "6;4"e2"5;#"E2 | "7"F2"6"f2 "#"e2 :|\
+|: z2 |\
+A>Bc>d "6"e>de>f | "6"e2zc' "6"b>ab>"6"^f |\
+g>a"6"bc' "6;4"d'2"5;#"d2 | G4
+g2"6"f2 |\
+"6;4"e2"5;#"E2 Aea2 | z"#"ea"6"b c'2c2 |\
+g3"5"f "6"ec"6"d"#"e | "7"f2"6"F2 "#"E2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

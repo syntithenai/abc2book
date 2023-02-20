@@ -1,0 +1,27 @@
+X: 46
+T: Bedford's delight
+T: Longways for as many as will.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.23
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd Strain has initial repeat but no final repeat; not fixed.
+N: Under bars 5 and 6 is the note "Play this Part once over." Repeats changed to match this.
+M: 6/8
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2e f2g | aga Tf2e | d2ef2g | aga d3 :|\
+gfe d2d | d^c=B A3 | A2=B T^c2d | e2f e2e |\
+gfe d3 | d^c=B A3 | A2=B T^c2d | e2f d3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man turns the 2d Wo. with his Right Hand .| 1st
+%% Wo. does the same with the 2d Man :| 1st Cu. cross over
+%% & half figures at Top .|# 1st and 2d Cu. Hands across
+%% half round with their Right Hand .| back again
+%% with their Left :| First & 2d Cu. Right & Left quite round
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

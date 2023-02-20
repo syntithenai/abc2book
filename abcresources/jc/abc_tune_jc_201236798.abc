@@ -1,0 +1,25 @@
+X: 2313
+T: Miss Louisa Johnston's Fancy
+%R: march, reel
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.31 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+|:\
+d2 cB | (g/a/b/g/) dB | Tc>dee | (e2 d2) :|\
+BB/c/ Bd | cc/d/ cd | BTBdB | {B}A2 Ac ||\
+BB/c/ Bd | cc/d/ cd | .B.B.A.A | G2 Gd |]
+|:\
+Tgb/g/ Tfa/f/ | eg/e/ dB | Tc>dee | (e2 d)d :|\
+BB/c/ Bd | cc/d/ cd | BTBdB | {B}A2 Ac ||\
+BB/c/ Bd | cc/d/ cd | .B.B.A.A | G2 G2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+g2G2 | g2G2 | adef | g2G2 :| g2g2 | c2c2 | ggbg | d'2d2 || g2g2 | c2c'2 | d'2d2 |
+g2G2 |] |: e2d2 | c2B2 | Adef | g2G2 :| g2g2 | c'2c2 | G2g2 d'2d2 || g2g2 | c2c'2 | d'2d2 | g2G2 |]

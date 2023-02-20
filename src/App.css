@@ -4,6 +4,8 @@
   }
 }
 
+
+
 .App-books .nav-tabs .nav-item button {
   font-size:1.6em !important;
   font-weight: 500 !important;
@@ -73,7 +75,6 @@ input[type=checkbox]
     page-break-after: always !important ;
   }
 
-
 .App-header {
   background-color: lightblue;
   position: fixed;
@@ -82,13 +83,15 @@ input[type=checkbox]
   height: 3.3em;
   width: 100%; 
   padding: 0.2em;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
 }
 
 .App-body {
   margin-top: 5em;
   margin-bottom: 3.6em;
   padding: 0.2em;
-  padding-left: 0.5em;
+  padding-left: 0.1em;
   padding-bottom: 4em;
   
 }

@@ -1,0 +1,25 @@
+X: 1
+T: Young's Wisdom
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (110)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strand has initial repeat but no final repeat.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+G3A BABc | d4 d3g | d3c (cB)(AG) | A6 D2 |\
+G3A BABc | d6 (dg) | (ag)(fe) d2Bc | d6 :|
+|: f2 |\
+agfe dcBc | d4 d3d | (ed)(cB) (cB)(AG) | TF6 D2 |\
+G3A BABc | d4 d3g | d2(cB) (cB)(AG) | G6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu hey the Man on the Wo. side and the
+%% Wo. on the Mans .| Then Hey on their own sides :|
+%% The 1st Cu. cross over and half Figure through
+%% the 2d Cu. .| Then Right and Left with the 2d Cu
+%%endtext
+%%sep 1 8 500

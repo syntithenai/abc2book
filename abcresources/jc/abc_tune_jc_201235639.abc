@@ -1,0 +1,28 @@
+X: 21273
+T: GRAND MARCH
+C: Findon.
+%R: march
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.127 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Fixed the rhythm of bar 23 by adding a flag to the 2nd note (e).
+M: C
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+ga |\
+b2 f>d f>ed>c | B2 {d}c/B/c/d/ BfdB |\
+c2 d>d e>ed>d | c2 c>c c2 (3(Bdf) |\
+b2 f>d f>ed>c | B2 c>c d>cd>=e |\
+(3(fga) (bdg) f2 =e4 | f2 f>f f2 :|
+|: AB |\
+c3 d e>dc>e | d3 e f>edd |\
+c3d e>ed>d | c2 c>c c2 (3(Bdf) |\
+b2 f>d f>ed>c | B2 c>c dcde |\
+(3(Bfd) (3(bge) d2 c2 | B2 B>B B2 :|
+|: fd |\
+c2- c/d/c/d/ f>edc | d3- d/e/d/e g>fed |\
+c2- c/d/c/d/ f>edc | d>e f/e/d/c/ B2 f2 |\
+g2 (3(bag) ff/f/ ff | g2 (3(bag) f2 zf |\
+g>ece dBcA | B2 B>B B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

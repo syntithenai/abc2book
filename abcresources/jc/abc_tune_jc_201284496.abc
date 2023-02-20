@@ -1,0 +1,25 @@
+X:3
+T:Hanter-dro 3
+G:Kazimodal
+R:Hanter-zañs
+C:Traditionnel, arrangement en phrygien http://kazimodal.trad.org
+Q:C2=95
+P:D2
+M:3/4
+S:Tonioù Breizh-Izel 1910 (Plañwour/An Oriant)
+K:EPhr
+K:C
+P:D
+%%MIDI gchord fccffz
+%%MIDI chordprog 105
+%%MIDI bassprog 36
+%%MIDI bassvol 127
+%%MIDI program 3
+|: "Em"EG/2F/2 EG {FG}"F"F z | \
+	(A/2G/2)(A/2B/2) {GA}GA/2F/2 "Em"E z | \
+	EG/2F/2 EG {FG}"Dm"F z | \
+	(A/2G/2)B/2A/2 {GA}G(F/2G/2) "Em"E z :|
+|: "Bm"B(B/2c/2) "Am"AB {GA}"G"GE | \
+	"F"A(A/2B/2) "Dm"FA "Em"(G/2F/2)(G/2A/2) | \
+	"Bm"B(B/2c/2) "Am"AB {GA}"G"GE | \
+	"F"A(A/2B/2) {GA}"Dm"GF "Em"E z :|

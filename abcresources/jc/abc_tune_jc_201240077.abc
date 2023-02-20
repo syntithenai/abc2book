@@ -1,0 +1,24 @@
+X: 362	% 103
+T: Hokey Pokey
+O: Australian Folk Dance
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.36 #2
+R: reel, march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The book has M:4/4, but doubling the bar lines makes it fit better on differently-shaped pages or screens.
+M: 2/4
+L: 1/8
+K: G
+%%continueall yes
+V: 1 name="103"
+"_Lively"D | GGGG | B3D | GGGG | B3D |
+w: 1.~You put your right hand in, You put your right hand out, You
+GGGG | B2(BG) | FEFG | A3D | FEFG | AAAD |
+w: put your right hand in And you shake it all a-bout, You do the Ho-key Po-key Then you
+F2G2 | A4 |[1 D2DD | E2F2 | G4- | G3 :|[2 d2dd | e2f2 | g4- | g3 |]
+w: turn a-round. That's what it's all a-bout.* That's what it's all a-bout.*
+%%begintext align
+%% The rest of the verses just change "right hand" to some other body part.
+%% The book uses left hand, right foot, left foot, right side, left side, front side, back side, and head.
+%% Adapt the words to fit your crowd.
+%% Don't take the 2nd ending's higher octave too seriously.
+%%endtext

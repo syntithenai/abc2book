@@ -1,0 +1,24 @@
+X: 396
+T: Tai Tai
+O: Greece
+M: 2/4
+L: 1/8
+Q: 1/4=96
+K: Em
+%%MIDI program 71
+%%MIDI chordprog 22
+%%MID bassprog 45
+  A/G/F/G/           |"B7" F3 B,         |\
+  "Em" EE F/G/G/F/   |E/B,/C/^D/ E z     |
+|:A2 A (3G/F/E/      |"Em" G/F/E/^D/ E2  |\
+  "Am" A>A A (3G/F/E/|"Em" G/F/E/^D/ EG  |
+  "B7" F3 B,         |"Em" EE F/G/G/F/   |\
+  E2 EG              |"B7" F3 B,         |
+  "Em"EE F/G/G/F/    |E2 EG              |\
+  "B7" F3 B,         |"Em" EE/G/ G/E/E/G/|
+  G/E/E/G/ G/D/G     |"B7"F3 B,          |\
+  "Em" EE F/G/G/F/   |E3 z               |
+  z2 A/G/F/G/        |"B7" F3 B,         |\
+  "Em" EE/G/ G/E/E/G/|G/E/E/G/  A/G/F/G/ |
+  "B7" F3 B,         |"Em"EE F/G/G/F/    |\
+  [1E/B/C/^D/ E z    :|[2E/^D/E z2       |

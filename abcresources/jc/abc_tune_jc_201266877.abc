@@ -1,0 +1,30 @@
+X: 1
+T: Danish Quadrille
+N: No other identifying information; origin not known
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: hand-written MS of unknown origin, from Paul Milde
+N: Some versions lack the D part.
+M: C|
+L: 1/8
+K: D
+"A"[|] zA, |\
+"D"D2DC DCDE | C<DD2 D3E |\
+   F2FE FEFG | E<FF2 F3G |\
+   AFDF dFDF | AFDF dFDF |
+"A7"E2ED EDEF | E3F E2 "B":: zA- |\
+"A7"ABcd efgf | gfgf g2zA- | \
+    ABcd efgf | gfgf gfec |
+ "D"dfec dfec | dfec dfec |\
+    d2cB "A7"AGFE | "D"D3E D2 "C":: FE |\
+ "D"D2F2 A2F2 | d2F2 A2D2 |\
+"A7"G2GE "D"F2FD |
+    EDEF E2FE |\
+ "D"D2F2 A2F2 | d2A2 F2D2 |\
+"A7"E2ED EDEF | "D"D4 D2 "D":: z2 |\
+"A"[EA,][EA,] [cE][cE] "A"[EA,][EA,] [cE][cE] |\
+"D"[FA,][FA,] [dF][dF] "D"[FA,][FA,] [dF][dF] |
+"A"[EA,][EA,] [cE][cE] "A"[EA,][EA,] [cE][cE] |\
+"D"[FA,][FA,] [dF][dF] "D"[FA,][FA,] [dF][dF] |\
+"G"[GG,][GG,] [gB][gB] "G"[GG,][GG,] [gB][gB] |\
+"A"[EA,][EA,] [ac][ac] "A"[EA,][EA,] [ac][ac] |\
+"D"[d2D2] [dD][cD] [dD][cD] [dD][eD] | "D"[d6D6] :|

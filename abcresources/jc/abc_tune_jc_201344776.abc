@@ -1,0 +1,26 @@
+X: 1
+T: Tillsammans - Brudmarsch   [G]
+C: Anders Eriksson
+C: arr. Gunnar \"Osterg\aards, Bengt Jonsson
+R: march
+S: http://spelmanslaget.nu/wp-content/uploads/2011/04/Tillsammans1.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - -
+%V: 1 staves=2
+(DG)A |\
+"G"B2B2 "D"A2GF | "G"G4- G(GB)d | "Em"g2g2 "Bm"f2d2 | "C"e6 g2 |\
+"G"d3B "D"c3A | "Em"BAG2 "D"A4 | "G"G2B2 "D"A2GF | "G"G4- G :|
+|: zGF |\
+"C"E2GE "D"F2AF | "G"G4- G2GF | "C"E2G2 "D"A2cA | "G"B3(A GA)Bd |\
+"Em"g2g2 "Bm"f3d | "C"e2dc "G"B3(G | "G"B2)AG "D"A2F2 | "G"G4- G :|
+% - - - - - - - - - -
+%V: 2
+%(CE)G |\
+%A2A2 G2EB, | [E4-C4] E(EA)c | f2f2 e2c2 | d6 f2 |\
+%c3A B3G | AGF2 G4 | E2A2 G2EB, | [E4-C4] E :|
+%|: zEC |\
+%D2FE E2GE | [E4-C4] E2EC | D2F2 G2BG | A3(G EG)Ac |\
+%f2f2 e3c | d2cB A3(E | A2)GE E2B,2 | [E4-C4] E :|

@@ -1,0 +1,30 @@
+X: 1
+T: the Mouse Trap
+%R: reel
+B: John Walsh "Caledonian Country Dances"
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/5/50/IMSLP98359-PMLP202128-walsh_caledonian_country_dance_vol2.1.pdf p.28 #288
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:28 #287
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 1st part has a missing 1/8 note in the last bar; fixed with an initial rest.
+N: The 2nd part has initial repeat but no final repeat.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+z |\
+D/D/D FA d>ed>f | edef e>fef |\
+D/D/D FA d>edf | edef d>e d :|
+|: f/g/ |\
+afd(e/f/) gece | afdf e>f (ef/g/) |\
+af-f(e/f/) g(e e)(f/g/) | afge d/d/d d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | d2d2 d2d2 | a2a2 a2a2 | d2d2 d2d2 | a2A2 d2D :|
+|: z | d'2d2 a2A2 | d'2d2 a2A2 | d'2d2 a2A2 | d'2a2 d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. foot it and turn single, all four hands with the 2d Cu. and back
+%% again, cross over, figure in, lead up and then down, and then lead thro' the
+%% 2d Cu. at Top.
+%%endtext

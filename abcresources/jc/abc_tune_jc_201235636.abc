@@ -1,0 +1,38 @@
+X: 21272
+T: WHITE LADY SETT (tune 5)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.127 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+[|\
+a2aa a2a2 | a2f2 f4 | e2ee e2e2 | e2d2 d4 |\
+a2aa a2a2 | a2f2 f4 | e2ee e2e2 | d4 z4 H|]
+f3f f3f | f3f gfef | a2g2 e4 | a2g2 e4 |\
+f3f f3f | f3f gfed | c2d2 e4 | c2d2 e4 |
+f3f f3f | f3f g>fe>f | a2g2 e4 | a2g2 e4 |\
+f2ff f2f2 | ^g2gg g2g2 | b2aa a2a2 | a4 "D.C."z4 |]
+A2 |\
+e3ee3e | e3e fede | f2g2 a4 | f2g2 a4 |\
+e3ee3e | e3e fede | f2g2 a4 | f2g2 a4 |
+f3ff3f | f3f gfef | a2g2 e4 | a2g2 e4 |\
+f2ff f2f2 | e2ee e2e2 | d2dd d2d2 | d4 "^D.C."z4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across,
+%% turn on corners,
+%% back,
+%% turn on corners,
+%% all chain across the corners,
+%% all promenade,
+%% Ladies balance to the right,
+%% all promenade,
+%% Gentleman the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

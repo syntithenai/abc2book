@@ -1,0 +1,35 @@
+X: 1
+T: Wildwood Flower   [C,w]
+C: music: Joseph Philbrick Webster (1860)
+R: song, march
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+% %continueall yes
+% = = = = = = = = = =
+EF | "C"[G2E2] Ac | [E2C2] FE | "G"[D2B,2] ED | "C"[G4C4] |
+w: 1.~Oh I'll twine with my ring-lets and wav-ing black hair
+w: 2.~I will dance, I will sing, and my life shall be gay
+w: 3.~Oh, he taught me to love him and pro-mised to love
+w: 4.~Oh, he taught me to love him, he called me his flower
+%
+z2 EF | "C"[G2E2] Ac | [E2C2] FE | "G"[D2B,2] ED | "C"[G4C4] |
+w: with the ro-ses so red and the li-lies so fair
+w: I will charm ev-ery heart and his crown I will sway
+w: And to che-rish me o-ver all o-thers a-bove
+w: That was bloom-ing to cheer him through life's drea-ry hour
+%
+z2 Gc | "C"[e2c2] ed | c2 GG | "F"[A2F2] cA | "C"[G2C2] "*"z2 |
+w: and the myr-tle so bright with the em-er-ald hue
+w: When I woke from my dream-ing my i-dols of clay
+w: How my heart is now won-dering no mis-ery can tell
+w: Oh, I long to* see him re-gret the dark hour
+%
+z2 EF | "C"[G2E2] Ac | [E2C2] FE | "G"[D2B,2] ED | "C"[G4C4] | z4 |]
+w: and the pale a-ma-ni-ta and hys-sop so blue.
+w:~ Our por-tion of love had* all gone aw-ay.
+w:~ He left me no warn-ing, no words of fare-well.
+w:~ He's gone and neg-lect-ed his pale wild-wood flower.
+%
+%%text * The "filler" (rests) here are often omitted.

@@ -1,0 +1,58 @@
+
+X: 1
+T: American Patrol  [C]
+C: by Frank W. Meacham 1885
+S: arr. T. Traub 4-26-2007 (from midi by Bill Edwards)
+R: Reel
+M: 4/4
+L: 1/4
+K: C
+G, \
+| "C"C C "G"C/B,/C/D/ | "C"E E "G"E/^D/E/F/ | "C"G G G/^F/G/c/ | G3 E |\
+"G7"F F/E/ D F | "C"E E/D/ "Am"C E | "D"D A, B, C | "G"D3 (3G,/A,/B,/ ||
+"C"C C "G"C/B,/C/D/ | "C"E E "G"E/^D/E/F/ | "C"G G G/^F/G/c/ | G3 C |\
+"F"A > G F E | "Dm"D C B, C | "F"D E/F/ "G"E D | "C"C G,/A,/ B,/C/D/E/ |]
+"G7"F F F F | F/E/ F2 ^F | "C"G G G/F/E/F/ | "C"G G,/A,/ B,/C/D/E/ |\
+"G7"F F F F/E/ | F/E/ F2 ^F | "C"G G G/F/E/F/ | "C7"G3 C ||
+"F"A > A c A | "C"G G G/F/ E | "G7"F F "E7"B, > F | "Am"E E E/D/ C |\
+"F"A> A c A | "C"G G G/F/ E | "G7"F F B, D | "C"C3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: American Patrol  (F)
+C: by Frank W. Meacham 1885
+S: arr. T. Traub 4-26-2007 (from midi by Bill Edwards)
+R: Reel
+M: 4/4
+L: 1/4
+K: F
+C \
+| "F"F F "C"F/E/F/G/ | "F"A A "C"A/^G/A/B/ | "F"c c c/=B/c/f/ | c3 A |\
+"C7"B B/A/ G B | "F"A A/G/ "Dm"F A | "G"G D E F | "C"G3 (3C/D/E/ ||
+"F"F F "C"F/E/F/G/ | "F"A A "C"A/^G/A/B/ | "F"c c c/=B/c/f/ | c3 F |\
+"Bb"d > c B A | "Gm"G F E F | "Bb"G A/B/ "C"A G | "F"F C/D/ E/F/G/A/ |]
+"C7"B B B B | B/A/ B2 =B | "F"c c c/B/A/B/ | "F"c C/D/ E/F/G/A/ |\
+"C7"B B B B/A/ | B/A/ B2 =B | "F"c c c/B/A/B/ | "F7"c3 F ||
+"Bb"d > d f d | "F"c c c/B/ A | "C7"B B "A7"E > B | "Dm"A A A/G/ F |\
+"Bb"d> d f d | "F"c c c/B/ A | "C7"B B E G | "F"F3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: American Patrol  (G)
+C: by Frank W. Meacham 1885
+S: arr. T. Traub 4-26-2007 (from midi by Bill Edwards)
+R: Reel
+M: 4/4
+L: 1/4
+K: G
+D \
+| "G"G G "D"G/F/G/A/ | "G"B B "D"B/^A/B/c/ | "G"d d d/^c/d/g/ | d3 B |\
+"D7"c c/B/ A c | "G"B B/A/ "Em"G B | "A"A E F G | "D"A3 (3D/E/F/ ||
+"G"G G "D"G/F/G/A/ | "G"B B "D"B/^A/B/c/ | "G"d d d/^c/d/g/ | d3 G |\
+"C"e > d c B | "Am"A G F G | "C"A B/c/ "D"B A | "G"G D/E/ F/G/A/B/ |]
+"D7"c c c c | c/B/ c2 ^c | "G"d d d/c/B/c/ | "G"d D/E/ F/G/A/B/ |\
+"D7"c c c c/B/ | c/B/ c2 ^c | "G"d d d/c/B/c/ | "G7"d3 G ||
+"C"e > e g e | "G"d d d/c/ B | "D7"c c "B7"F > c | "Em"B B B/A/ G |\
+"C"e> e g e | "G"d d d/c/ B | "D7"c c F A | "G"G3 |]

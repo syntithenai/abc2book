@@ -1,0 +1,18 @@
+X: 0103
+T: Circassian Circle   (A)
+C: Traditional
+R: Reel (nx32)
+B: RSCDS 1-3
+Z: Anselm Lingnau <anselm@strathspey.org>
+N: rearranged to 2 6-bar staffs by John Chambers.
+M: 2/4
+L: 1/16
+K: A
+cB |:\
+"A"AEcB A2c2 | AEcB A2c2 |\
+[1,3 "E7"BEdc B2d2 | BcBA GEFG :|\
+[2,4 "E7"BcBA GEFG | "A"A2[c2E2][A2E2] :|
+|: e2 |\
+"A"cAed c2e2 | cAec aecA |\
+[1,3 "E7"BGdc B2d2 | BcBA GB :|\
+[2,4 "E7"BcBA GEFG | "A"A2[c2E2][A2C2] :|

@@ -1,0 +1,26 @@
+X: 1
+T: Bonawe Highlanders
+C: P.M. John McColl
+R: Jig
+B: Joe Buchanan's Scottish Tome - Page 117.0
+S: Carl Allison transcription found at thisoldtractor.com.
+N: Modified to match Barbara McOwen's 6/01 version, and somewhat simplified.
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 6/8
+K: Amix
+"^A"|: e |\
+"A"Ace ecA | edc "E7"cBc | "A"Ace ecA | "E7"BAB "A"c2A |\
+"A"Ace ecA | cBA "A7"a2e | "D"f<af "A"ecA | "E7"BAB "A"c2 :|
+"^B"|: A |\
+"A"a3 "A7"a2e | "D"f<af "A"ecA | "A"a3 a2e | "D"fag f2e |\
+"Bm"fef "E7"fec | "A"ABc "A7"a2e | "D"f<af "A"ecA | "E7"BAB "A7"c2 :|
+"^C"|: A |\
+"A"cBc AAA | "A"ecA cBA | "A"cBc "F#m"AAA | "E7"BAB "A"c2A |\
+"A"cBc AAA | ecA a2e | "D"f<af "A"ecA | "E7"BAB "A"c2B :|
+"^D"[|] A |\
+"A"aAa "A7"gfe | "D"f<af "A"ecA | aAa "A7"gfe | "D"f<ag "E7"f2e |\
+"Bm"fef "E7"fec | "A"ABc "A7"a2e | "D"f<af "A"ecA | "E7"BAB "A"c2 ||
+yA |\
+"A"aAa "A7"gfe | "D"f<af "A"ecA | aAa "A7"gfe | "D"f<ag "E7"f2e |\
+"A"aAA cBA | "A"ABc a2e | "D"f<af ecA | "E7"BAB "A"c2 |]

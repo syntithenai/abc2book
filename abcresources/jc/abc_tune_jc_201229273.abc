@@ -1,0 +1,26 @@
+X: 1212
+T: Central Will Shine
+T: (The name of any school may be substituted for "Central")
+O: School Song
+P: Male Quartette
+%R: song, march
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Ab
+V:1
+V:2 clef=bass middle=d
+%%continueall 1
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [cE] [c2A2] [dB] | [ec]>[ec] [e2c2] | [dB] [d2A2] [dF] | [c4E4] | [cE] [c2A2] [dB] | [ec]>[ec] [e2c2] | [=dB] [d2B2] [dc] | [_d4B4] |
+w: Cen-tral will shine to-night, Cen-tral will shine, She'll shine in beau-ty bright All down the line,
+[V:2] [aA] [a2A2] [ge] | [aA]>[aA] [a2A2] | [fd] [f2d2] [ad] | [a4A4] | [ae] [a2e2] [ge] | [aA]>[aA] [a2A2] |  [fB] [f2B2] [aB] |  [g4e4] |
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [cE] [c2A2] [dB] | [ec]>[ec] [e2c2] | [dB] [d2A2] [dF] | [c3E3] F/G/ | AF EF/G/ | AF E2 | [ec] [e2c2] [dB] | [c4A4] |]
+w: Won't we look neat to night, Dress'd up so fine; When the sun goes down And the moon goes up Cen-tral will shine.
+[V:2] [aA] [a2A2] [ge] | [aA]>[aA] [a2A2] | [fd] [f2d2] [ad] | [a3A3] f/g/ | af ef/g/ | af e2 | [ge] [g2e2] [ge] | [e4A4] |]
+%w: | | Dress'd up so fine; | | | Cen-tral will shine.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+

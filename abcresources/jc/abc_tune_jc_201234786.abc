@@ -1,0 +1,25 @@
+X: 20782
+T: SWISS AIR
+Q: "Andante."
+%R: air, strathspey
+N: This is version 2, for ABC software that understands diminuendo/crescendo notation.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.78 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!f!GA/B/ |\
+cz c2Q(c'3qa) | {a}g2(g>e) !p!c3e |\
+{g}Qf2(f2qB2)B2 | ~c2e>d !f!d2 (GA/B/ |\
+c)z Qc2(qc'3a) | {a}g2(g>e) c3e |\
+{g}f2(Qf2qB2)B2 | (c2e>d c2) :|
+"^Dolce."e2 |\
+(gf)(fe) d3f | (ag)(ge) e3e |\
+(gf)(fd) d3f | (ag)(ge) Hg2 GA/B/ |\
+cz Qc2(c'3qa) | {a}g2(g>e) c3e |\
+{g}f2(Qf2qB2)B2 | (~c2e>d c2) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

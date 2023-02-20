@@ -1,0 +1,12 @@
+X:1
+T:Knockdhu Reel
+M:4/4
+R:Reel
+L:1/8
+%%printtempo 0
+Q:160
+K:Am
+|:"Am"vA,2 (ED) CA,A,G,| A,CEG A2 (E^F)|"G" vG2 (BG) (AG)E2| DEGD EDB,G,|
+"Am"vA,2 (ED) CA,A,G,| A,CEG A2 (E^F)| "G"vG2 (BG) (AG)E2|1 "Em"DEGG, "Am"B,A,A,2:|2 "Em"DEGG, "Am"B,A,A,uE|
+|:"Am"A2 (uaA) (vgA) (uaA)| ve2 (ed) cAAB| "G"G2 (BG) (AG)E2| [G,3D3]E GABG|
+|"Am"A2 (uaA) (vgA) (uaA)| ve2 (ed) cAAB| "G"G2 (BG) (AG)E2|1 "Em"DEGG, "Am"B,A,A,uE :|2 "Em"DEGG, "Am"B,A,A,2|]

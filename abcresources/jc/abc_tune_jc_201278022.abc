@@ -1,0 +1,16 @@
+X: 894
+T: the Friendly Visit
+R:hornpipe
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #894
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0894/oneill-1001-0894-1.abc
+M: C|
+L: 1/8
+K: G
+"^A"[|] B>A \
+| (3GFG D>G B>GB>d | (3cBc A>B c>de>f | g2 d>f e>cA>G | F>GA>B c>AF>D ||
+| (3GFG D>G B>GB>d | (3cBc A>B c>de>f | g>dB>G F>Ad>c | B2G2 G2 :|
+|: (3GBd \
+| g2d>B G>Bd>g | e2 c>A F>GA>g | f2 e>d c>de>g | (3fgf (3efe d>cB>A ||
+| (3GFG D>G B>GB>d | (3cBc A>B c>de>f | g>dB>G F>Ad>c | B2G2 G2 :|

@@ -1,0 +1,31 @@
+X: 4271
+T: Miss Wedderburn's Reel.
+T: or Burn of Carnie.
+%R: reel, air
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.4 p.27 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+F |\
+E2TE>F E>FAc | TB>ABc TB>AFA | E2TE>F EFAc | TB>ABc A/A/A A :| d | {d}c>BAB ~c>dec | (d/c/B/A/) G>A TB>cdB |
+Tc>BAB ~c>dec | d>Be>c A/A/A A>d | {d}c>BAB ~c>dec | (d/c/B/A/) G>A TB>cdB | c>Ad>B e>cf>d | g>ea>c A/A/A A |]
+|: f |!p!\
+e2Te>f efac' | Tb>abc' {c'}Tb>afa | e2Te>f efac' | Tb>abc' a/a/a a :| e | ~d2fd ~c2ec | TB>ABc TB>AFc |
+~d2fd ~c2ac | TB>ABc A/A/A A>c | ~d2fd ~c2ac | TB>ABc TB>AFf | ef/g/ a>e (f/e/f/g/) a>c | TB>ABc A/A/A A |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+[a2c2][a2d2] [a2c2]A2 | e2E2 e2d2 | [a2-c2][a2-d2] [a2-c2][a2A2] | G2E2 A2a :|\
+z |\
+[e'2c'2a2][e'2c'2a2] [e'2c'2a2][e'2c'2a2] | e2[d'2b2e2] [d'2b2e2][d'2b2e2] |\
+[e'2c'2a2][e'2c'2a2] [e'2c'2a2][e'2c'2a2] | d2e2 A2az |\
+[e'2c'2a2][e'2c'2a2] [e'2c'2a2][e'2c'2a2] | e2[d'2b2e2] [d'2b2e2][d'2b2e2] |\
+a2g2 a2d2 | e2E2 A2a |]
+|:[K:A clef=treble] z |\
+!p![c2A2][d2A2] c2A2 | e2c2 e2d2 | [c2A2-][d2A2] c2A2 | e2E2 A2A, :|
+[K:A clef=bass middle=d] z | f2g2 a2c2 | e2c2 d2d'c' | b2g2 a2A2 | e2E2 A2=g2 |\
+f2g2 a2c2 | e2c2 d2d'2 | c'2a2 d'2c'>a | e2E2 A2A |]

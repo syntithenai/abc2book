@@ -1,0 +1,35 @@
+X: 193
+T: God Rest You Merry, Gentlemen.
+C: Traditional.
+O: English.
+%R:
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: Em
+V:T
+V:B clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:T]!f![EE] | [EE][BG] [BG][A^D] | ([GE][F=D]) [EC][DB,] | [EE][F^D] [GE][AE] | [B3^D3] :|
+w: 1.~God rest you mer-ry, gen-tle-men,    Let noth-ing you dis-may,
+w:    Re-mem-ber Christ, our Sav-*ior,     Was born on Christ-mas Day,
+w: 2.~Now to the Lord sing prais-*es,      All you with-in this place,
+w:    And with true love and broth-er-hood Each oth-er now em-brace,
+[V:B]  [ee]  | [ge][ee] [f^d][bB] | ([be][bB])  [gc][gG]  | [gc][bB]  [be][ec] | [f3B3] :|
+%
+[V:T]  [BE] | [cE][AD] [BD][cG] | ([d=F][eE]) [BD][A^D] | [GE][E^C] [FD][GE] | [A2F2] |
+w: To save us all from Sa-tan's pow'r   When we were gone a-stray;
+w: This ho-ly tide of Christ-*mas       All oth-er doth de-face;
+[V:B] [^ge] | [aa][af] [gg][ge] | ([gB][gc])  [gG][fB]  | [ge][ge] [ad][d'B] | ([d'd-][c'd]) |
+%
+P: Chorus.
+[V:T]!ff!([GG][AD]) | [B2D2] [cE][BD] | ([BG][AF]) [GE][F^D] | [E2E2] [G/B,/] [F/B,/] [E^C] |
+w: O_ ti-dings of com-*fort and joy, com-fort and
+[V:B] ([be][af]) | [g2g2] [gc][gg] | ([d'G][c'A]) [bB][bB] | [g2e2] [g/e/] [g/e/] [ge] |
+%
+[V:T] [A2D2] ([GE][AF]) | ([BG-][cG]) [dG][eG] | ([BG][AF]) [GE][F^D] | [E3E3] |] 
+w: joy, O_ ti-*dings of com-*fort and joy!
+[V:B] ([fd][ac]) ([d'B][c'A]) | ([gG][ge]) [d'B][c'c] | ([d'G][c'A]) [bB][bB] | [g3e3] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

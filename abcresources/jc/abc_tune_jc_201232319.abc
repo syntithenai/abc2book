@@ -1,0 +1,22 @@
+X: 16
+T: Publick Utility
+%R: jig
+B: "Twenty Four Favourite Dances for the Year 1779", Thomas Straight, ed. p.8 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1779
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has final repeat but no initial repeat; not fixed.
+M: 6/8
+L: 1/8
+K: Bb
+|:\
+Bdf Ace | dcB cAF | GAB cde | dcB cAF |\
+Bdf Ace | Gge Ffd | Ged cBA | B3 B3 :|
+FED GFE | cAF Bdf | fef dcB | A2B cAF |\
+FED GFE | AGF BAB | GED CcA | B3 B3 :|
+%%begintext align
+%% Allemade [sic] half round to the Right and foot it Ditto to the
+%% Left and foot it Lead down the Middle up again and Cast
+%% off set and Change sides with the 3d Couple the same
+%% back again hands six Quite round and foot it to your
+%% Partner.
+%%endtext

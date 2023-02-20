@@ -1,0 +1,16 @@
+X: 71
+T: The Wind That Shakes the Barley
+N: page 24
+N: heptatonic
+N: matches 251
+O: Trad
+R: reel
+M: 4/4
+L: 1/8
+K: D
+[| "D"A2AB AFED | "Bm"B2BA BcdB | "D"~A3A AFED |\
+ "Em"gfed "Bm"BcdB |  "D"A3B AFED |
+ "Bm"DBBA BcdB | "D"~A3B AFED | "Em"gfed "Bm"Bcde ||\
+ "Bm"~f3d "G"~g3a | "Bm"~f3d Bcde | f2df "G"gefg |
+ "D"afed "Bm"Bcde | |  "D"~f3d "G" ~g3e | "Bm"~f3d Bcd2 |\
+defg "G"afba | "D"afed "Bm"BcdB |]

@@ -1,0 +1,17 @@
+X: 1
+T: Gigue Du Salon
+T: Living Room Jig
+C: Pascal Gemme (2013)
+%D:2013
+S: handout at Roaring Jelly practice 2022-5-24
+R: jig
+M: 6/8
+L: 1/8
+K: A
+"^A"\
+|: "A"EAB c2e | "D"d2e "A"cBA | "Bm"BcA B2A |     BcA "E7"GFE |
+|  "A"EAB c2e | "D"d2e "A"cBA | "Bm"BcA BAF | "E7"EFG  "A"A2A :|
+"^B"\
+|: "A"e2e cBA |    efe    cBA | "Bm"BcA B2A |     BcA "E7"GFE |
+|1 "A"e2e cBA |    efe    cBA | "Bm"BcA BAF | "E7"EFG  "A"A2A :|
+|2 "A"EAB c2e | "D"d2e "A"cBA | "Bm"BcA BAF | "E7"EFG  "A"A2A |]

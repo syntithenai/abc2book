@@ -1,0 +1,27 @@
+X: 1
+T:Flett From Flotta  " "
+M:C
+L:1/8
+Q:80
+C:P/M Donald MacCleod
+S:March
+K:HP
+[| {g}f3/2e/2|
+{gcd}c3/2e/2{gcd}c{e}B{gcd}c2{e}A{d}c|
+{g}e3/2f/2{gef}ec{gef}e2{gcd}ce|  !
+{gfg}f3/2e/2{g}fa{fg}f2{gef}ec|
+{gfg}f3/2e/2{gcd}c{e}A{GdG}B2{g}f3/2e/2|
+{gcd}c3/2e/2{gcd}c{e}B{gcd}c2{e}A{d}c|  !
+{g}e3/2f/2{gef}ec{ag}a2A3/2B/2|
+{GdG}c2{ag}a2e/2{g}c3/2{g}B3/2{d}c/2|
+{g}A4{GAG}A2|]  !
+{g}A{d}c|
+{gef}e2{g}A{d}c{ag}a2A{d}c|
+{g}e3/2f/2{gef}ec{gef}e2{g}A{d}c|  !
+{ag}a2A{d}c{gef}e2{gcd}ce|
+{gfg}f3/2e/2{gcd}c{e}A{GdG}B2{g}f3/2e/2|
+{gcd}c3/2e/2{gcd}c{e}B{gcd}c2{e}A{d}c|  !
+{g}e3/2f/2{gef}ec{ag}a2A3/2B/2|
+{GdG}c2{ag}a2e/2{g}c3/2{g}B3/2{d}c/2|
+{g}A4{GAG}A2|]  !
+

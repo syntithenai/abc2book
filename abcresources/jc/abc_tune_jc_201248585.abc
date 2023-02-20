@@ -1,0 +1,70 @@
+
+X: 1
+T: Aunt Mary's Jig
+O: Canada
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: D
+|: de | "D"f2f f>ga | d2d dcB | A>BA "B7/D#"AGF | "Em"E3- E3 || "A7"e2e efg | e2d c2B |
+|1 A2A A>BA | "D"F6 :|2 A2A ABc | "D"d3- d |: FG | "D"A>FA faf | e2d d2B | A>FA "B7/D#"BcB |
+| "Em"A2G G3 || "(A7)"G>FG efe | "A7"d2c c2B |1 A2A A>BA | "D"F6 :|2 "A7"A2A ABc | "D"d3- d |]
+
+%%sep 1 1 500
+
+X: 2
+T: Scarce o' Tatties
+T: Cion a'Bhunta'ta
+C: Norman MacLean
+S: Barbara McOwen (Oct 1991), Allan MacDonald
+B: BSFC Session Tune Book 2016 p.25
+R: jig
+N: jig-time variant of the old tune "The Banks of the Devon"
+L: 1/8
+M: 6/8
+K: Ador
+e |\
+"Am"A>ee efg | "Am"e>dB "G"dBG |\
+"Am"A>ee efg | "Em7"edB "Am"A2e ||\
+"Am"a>aa "A7"g>gg |
+"D"f>ff "Am"eAA |\
+"Am"A>ee efg | "Em7"edB "Am"A2 :: e |\
+"Am"a>eg a2e | "Am"g2f e>AA |
+"Am"a>eg a2e | "G"gaf "Am"e3 ||\
+"Am"e>ee "A7"A>AA | "D"dff "Am"fee |\
+"Am"A>ee efg | "Em7"edB "Am"A2 :|
+
+%%sep 1 1 500
+
+X: 3
+T: Calliope House   [E]
+C: Dave Richardson
+R: jig
+N: Calliope House is a folk center in Pittsburgh.
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: E
+zB | "E"eBB gBB | "(B7)"fBB "E"gBB | "F#m"cff f2e | "B"fge cec || "E"BcB B2G | B2c e2f |
+   |1 "A"gbg gfe | "B7"f3- f :|2 "A"gbg "B7"fec | "E"e3- e |: ga | "E"b3 gbb | "(B7)"fbb "E"[ge]bb | "A"a3 gag |
+   | "B7"fgf fec || "E"BcB B2G | "(C#m)"B2c e2f |1 "A"gbg gfe | "B7"f3- f :|2 "A"gbg "B7"fec | "E"e3- e |]
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 4
+T: Calliope House   [D]
+C: Dave Richardson
+N: Originally in E, which works well on fiddle, but others might prefer D.
+N: Calliope House is a folk center in Pittsburgh.
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: zA \
+| "D"dAA fAA | "A7"eAA "D"fAA | "Em"Bee e2d | "A"efd BdB || "D"ABA A2F | A2B d2e |
+|1 "G"faf fed | "A7"e3- e :|2 "G"faf "A7"edB | "D"d3- d |: fg | "D"a3 faa | "A7"eaa "D"[fd]aa | "G"g3 fgf |
+| "A7"efe edB || "D"ABA A2F | A2B d2e |1 "G"faf fed | "A7"e3- e :|2 "G"faf "A7"edB | "D"d3- d |]
+

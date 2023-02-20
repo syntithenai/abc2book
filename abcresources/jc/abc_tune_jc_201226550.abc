@@ -1,0 +1,36 @@
+X: 10321
+T: UNION WALTZ
+T: Ach du lieber, Augustin
+C:
+%R: waltz
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.32 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+df |\
+.a2(abag) | (f2d2)d2 | (e2A2)A2 | fede fg |\
+.a2abag | (f2d2)d2 (e2A2)A2 | d4 :|
+|: cd |\
+e2A2A2 | f2d2d2 | e2A2A2 | fede fg |\
+.a2 abag | f2d2d2 | e2A2A2 |d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+f2fgfe | dAFAFA | cAGAGA | dAFAde |\
+f2fgfe | dAFAFA | cAGAGA | F4 :|
+|: ED |\
+C2E2A2 | D2F2A2 | C2E2A2 | DEFA de |\
+f2fgfe | dAFAFA | cAGAGA | F4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+d2d2d2 | d2d2d2 | A2A2A2 | d2d2d2 |\
+d2d2d2 | d2d2d2 | A2A2A2 | d4 :|
+|: A2 |\
+A2A2A2 | d2d2d2 | A2A2A2 | d2d2d2 |\
+d2d2d2 | d2d2d2 | A2A2A2 | d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

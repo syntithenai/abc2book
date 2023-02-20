@@ -1,0 +1,34 @@
+X: 11263
+T: OUR COUNTRY IS OUR SHIP, D'YE SEE.
+T: From the opera of "Paul and Virginia."
+C: W. Reeves.
+Q: "Allegro maestoso."
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.126 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c2 |\
+f2f2 (f>e)(f>g) | f2c2 A2(c>A) |\
+F2F2 (FG)(AB) | c2z2 z2c2 |\
+(f>e)(d>f) e2c2 | (f>e)(d>f) e3f |\
+g2e2 (c=B)(cd) | (cede) (c=B)(AG) |
+(AG)(FE) D2=B2 | c4 z2c>d |\
+e2(e>f) g2(b>g) | e2(g>e) c2^c2 |\
+d2(F>G) A3A | D4 z2c2 |\
+f3f f2 [" " z//f//e//d//   c//B//A//G// "^Sym."| F2F>F F2 |] f2 |
+g3g g2 [" " z//c'//=b//a// g//f//e//d// "^Sym."| c2c>c c2 |] c>B |\
+A2A>G F2A2 | Hc6 c2 |\
+f3f g3g | a2a2 b2ag |\
+f2f2 (g>f)(g>a) | f4 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The |] is used to end the brackets around the "Sym." annotation.
+%% You'd think that [|] could be used, but it doesn't seem to work
+%% with any of the ABC software that I have on hand, and isn't
+%% mentioned in the "standards" documents for this usage.
+%% The meaning of the "Sym." annotation isn't defined anywhere that I can find.
+%%endtext

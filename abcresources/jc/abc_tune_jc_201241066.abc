@@ -1,0 +1,23 @@
+X: 4221
+T: the Shepherds Wife
+%R: jig, waltz, air
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.22 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slow with Expression"
+K: Eb
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+B, |\
+~E2F ~G2A | ~B2e (ed).B | Tc>de {c}BAG | (FG).E {E}D>CB, ||!f!\
+~E2F ~G2A | ~B2e (ed).B | Tc>de {g}(fe).d | {d}e3 e2 ::
+e/f/ |\
+~g>ag (gf).d | ~e>fe {e}d2B | Tc>de {c}BAG | (FG).E TD>CB, ||!p!\
+~g>ag {g}f2b | ~e>fe {e}d2g | Tc>de {g}fed | {d}e3 e2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | e2d e2f | g2e b2g | f3 gfe | A2=A B3 ||!f! e2B e2f | g2c' b2g | a3 b2B | EGB e2 ::
+z | e'3 d'2b | c'2=a b2g | _a3 gfe | A2=A B3 ||!p! (e'3 d'3) | (c'3 b3) | a3 b2B | eBG E2 :|

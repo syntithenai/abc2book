@@ -1,0 +1,26 @@
+X: 10341
+T: WILLIAM TELL -- Rondo
+C: Rossini
+P: Arranged by W. B. Laybourn
+R: reel, polka
+B: K\"ohler's Violin Repository, v.1, 1885 p.34 #1
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: The 3rd part has an opening repeat, but no final repeat.
+M: 2/4
+L: 1/16
+Q: "Allegro"
+K: E
+vBuB |\
+B2BB B2BB | e2(.f2.g2) BB | B2BB e2gg | f2(.d2.B2) BB |\
+B2BB B2BB | e2f2g2 (eg) | b4- b(agf) | e2(.g2.e2) :|
+|: gg |\
+g2gg g2gg | g2c'2g2c'2 | g2c'2g2f2 | e2(.d2.c2) gg |\
+g2g g2gg | g2c'2 g2c'2 | g2c'2b2^a2 | b2(.^a2.b2) :|
+|: BB |\
+B2BB B2BB | e2(.f2.g2) BB | B2BB e2gg | f2(.d2.B2) BB |\
+B2BB B2BB | e2f2g2 (eg) | b2af (dB).A.F | .E.F.G.A .G.A.B.c |
+.B.c.d.e .d.e.f.g | (ag).a.g | (ag).a.g | (ag)a.f (dB).A.F |\
+.E.F.G.A .G.A.B.c | .B.c.d.e .d.e.f.g | (ag).a.g (ag).a.g |
+(ag).a.f (dB).A.F | E2B,B, E2B,B, | G2EE B2GG | e2BB e2BB |\
+g2ee b2gg | ve2z2z4 | ve'2z2z4 | HE8 "_Fine"|]

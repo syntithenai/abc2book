@@ -1,0 +1,45 @@
+X: 3
+T: the Mercury
+C: Michael Dabney
+%R: reel
+B: Michael Dabney "Twelve Minuets and Twelve Dances" p.8 #1
+S: http://imslp.org/wiki/12_Minuets_and_12_Dances_(Dabney,_Michael)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces mostly 4- or 8-bar staffs.
+V: 1
+|:\
+B2F2 B3d | cecA TB4 |\
+dfdB egec | dfdB Tc4 |\
+BABc TB3d | cecA B4 |\
+Bbag {b}a2(gf) | Bgf=e f4 :|
+|:\
+f=efg f4 | G_AGF G2E2 |\
+gfga Tg4 | G=ABG A2F2 |\
+B,2(Bd) C2(ce) | D2(df) E2(eg) |\
+fdcB gedc | dcBA B4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+|:\
+B4 d2B2 | f2F2 B4 |\
+b4 c'4 | b2B2 f4 |\
+B4 d2B2 | f2F2 d2B2 |\
+b4 (a2b2) | c'2c2 f4 :|\
+|:\
+B4 B4 | e2B2 G2E2 |
+c4 c4 | f2c2 A2F2 |\
+d2B2 e2c2 | f2d2 g2a2 |\
+b2d2 e2c2 | f2F2 B4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right & left half round _ the
+%% same back again  Right hands
+%% a Cross back again _ lead
+%% down the middle 2 Cu: _ up
+%% again _ Cast off hands four
+%% round Right & left at top
+%%endtext

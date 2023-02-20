@@ -1,0 +1,37 @@
+X:148
+T:Banish Misfortune (Harmonized)
+R:Jig
+M:6/8
+L:1/8
+%Q:140
+K:D
+V:1
+(ve|\
+f)ed =cAG|(A2d) =cAG|(F2D) DED|FEF GFG|
+V:2
+(vc|\
+"D"A)cd "C"efg|"D"(f2d) "C"efg|"D"(a2f) fgf|dcd "G"Bde|
+V:1
+A3 =cAG|AGA =cde|fed =cAG|Adc d2::
+V:2
+"D"f3 "C"efg |"D"fgf "C"ed=c|"D"Acd "C"efg|"D"fe"A"e "D"d2::
+V:1
+(ve|\
+f2d) dcd|(f2g) agf|(e2=c) cBc|(e2f) gfe|
+V:2
+(vc|\
+"D"A2F) FEF|(D2E) FGA|"C"(=c2E) EDE|(=C2D) EFG|
+V:1
+(f2e) agf|(e2f) gfe|fed =cAG|Adc d2::
+V:2
+"D"ADE FGA|"C"G=CD EFG|"D"Acd "C"efg|"D"fd"A"e "D"d2::
+V:1
+(ve|\
+f2) ug ve2uf|d2e =c2d|ABA GAG |FEF GED|
+V:2
+(vc|\
+"D5"d)=cB cBA|BAG AGF|ABA =c3|"D5"ded Bcd|
+V:1
+=c3 cAG|AGA =cde|fed =cAG|Adc d2:|
+V:2
+"C"e3 efg|"D"fgf "C"ed=c|"D"Acd "C"efg|"D"fd"A"f "A"d2:|

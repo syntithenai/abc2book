@@ -1,0 +1,614 @@
+%%textfont Helvetica-Bold 21
+%%center Répertoire Galouvielle
+%%titleleft
+%%textfont Helvetica 16
+%%infoline 1
+
+
+%%footer $D   Galouvielle-MBe 2005 \nJig --
+X:1
+T:Irish Washerwoman, The
+M:6/8
+L:1/8
+Q:120
+R:Jig
+K:G
+d/2c/2|"G"BGG DGG|BGB dcB|"Am"cAA DAA|cAc edc|
+"G"BGG DGG|BGB dcB|"Am"cBc "D"Adc|"G"BGG G2::
+d|"G"gfg GBd|gfg bag|"D"fef FAd|fef agf|
+"C"egg "D"dgg|"C"cgg "G"Bgg|"C"cBc "D"Adc|"G"BGG G2:|
+
+%%footer $D   Galouvielle-MBe 2005 \nMarch --
+X:2
+T:Pat Hogan's #1
+M:4/4/
+L:1/4
+Q:120
+R:March
+K:Em
+"Em"B2 B>A|"D"FADA|"Em"B2B>A|Bd"D"ed|
+"Em"B2 B>A|"D"FAD>E|FDAF|'"Em"E2-E2::
+"Em"Bee>f|edBA|Bee>f|edBc|
+"G"d>edB|"D"AFD>E|FDAF|"Em"E2-E2:|
+
+%%footer $D   Galouvielle-MBe 2005 \nMarch --
+X:3
+T:Pat Hogan's #2
+M:4/4
+L:1/4
+Q:120
+R:March
+K:D
+"D"D>DFA|dcBA|"Em"BEEF|"A"GA/2G/2FE|
+"D"D>DFA|dcBA|"Em"Be"A"Bc|"D"d2-d2::
+"Em"eBeB|eBB>c|"D"dAdA|dAA2|
+"Em"eBeB|eBB>c|"G"dB"D"AF|"Em"E2-E2:|
+
+%%footer $D   Galouvielle-MBe 2005 \nRondeau --
+X:4
+T: Lou couquin, lou pire
+R:Rondeau
+T: Rondeau
+Z:Transcrit et/ou corrigé par Michel BELLON - 2005-03-08
+Z:Pour toute observation mailto:galouvielle@free.fr
+M: 2/4
+L: 1/8
+K: Gm
+V: 1
+B2 AG|AF GG|B2 AG|AF G2::
+B>c dd|dd c/d/c/B/|Bd c/d/c/B/|AB G2:|
+
+%%footer $D   Galouvielle-MBe 2005 \n-- --
+X:5
+%%scale 0.65
+T:Ite in pace suspir fieri
+C: B. Trombocino
+M:C|
+L:1/2
+Q:1/1=90
+K:Eb
+V:1
+c2 c2 | c2 G2 | A G A2 | G2 G2 | AA GF | F2 A2 | G4 | F2 z2 |
+w:I-te~in  | pa-ce sus_pir fie-ri Ché d'af-fa-ni~hor mai son fo-ra
+c3 B/A/| G2 B2 | A3/ G/ F2 | =E2 E2 | C2 E2 | D2 E>D | CE D2 | C2 C2 |
+w:No va im-pre-sa~e no_ro~a-mo-re Mi fa for no_ri_ per-sie-ri
+z c2 B/A/ | GB AG/F/ | =E F2 E | F2 F2 | c2 c2 | c2 G2 |
+w:Mi__ fa_ far no__ri per-sie-ri I-te~in pa-ce.
+AG A2 | G2 G2 | AA GF | F2 A2 | G2 G2 | z A>G F- | F =E/D/ EF | F4 |:
+w:sus_pir fie-ri Chè d'af-fo-ni~hor mai son fo-ra son__ fo___ra
+c2 c2 | c2 G2 | AG A2 | G2 G2 | AA GF | F2 A2 | G>F G2 | F2 F2 :|
+w:Se d'a-mor già mi_con-dol-si Hor io be-ne di_ co~e__ lo-do
+w:E l'an-ti-co la_oio sciol-si Per le__ gar-mi~a~un no_vo no-do
+AA GF | F2 A2 | G4 | F2 F2 |:\
+w:Chè si co_me chio-do~a chio-do
+c3 B/A/ | G2 B2 | A>G F2 | =E2 E2 ::
+w:L'a-mor_ no-vo~al vec_chio ce-de
+w:E cus_sì con no_va fe-de
+C2 E2 | D2 E>D | CE D2 | C2 C2 :| z c2 B/A/ | GB AG/F/| =E F2 E | F2 F2 ||
+w:Pas-sco~el cor d'un_ al_tro~ar-do-re Mi fa___ far no__vi pen-sie-ri
+w:No va~im-pre-sa e no_vo~a-mo-re
+c2 c2 | c2 G2 | AG A2 | G2 G2 | AA GF | F2 A2 | G2 G2  | z A>G F- | F =E/D/ EF | F4 |]
+w:I-te~in pa-ce sus_pir fie-ri Chè d'af-fa-ni~hor mai son fo-ra son___ fo___ra.
+V:2
+F A>G F- | F =E/D/ E2 | F=E F2 | =E/D/E/F/ E2- |=E F2 E | F A>G F- | F =E/D/ E2 | FC F2 |
+E2 zD/C/ | B,2 B,2- | B, C2 =B, |  CG, C2 | G,2 C2 | =B,2 CE- | E/D/ C2 =B, | C2 C2 |
+E2 zD/C/ | B,2 CB,/A,/ | G,F, G,2 | C2 C2 | F A>G F- | F =E/D/ E2 |
+F=E F2 | =E/D/E/F/ E2- | =E F2 E | F A>G F- | F =E/D/ EF | F2 F,2 | G,2 G,2 | C4 ||:
+F A>G F- | F =E/D/ E2 | F=E F2 | =E/D/E/F/ E2- | =E F2 E | F A>G F- | F =E/D/ E2 | FC F2 :|
+zF2 =E | FA>G F- | F =E/D/ E2 | F2 F2 |: E2 zD/C/ | B,2  B,2- | B, C2 =B, | C2 C2 :|
+G,2 C2 | =B,2 CE- | E/D/ C2 =B, | C2 C2 :| E2 zD/C/ | B,2 CB,/A,/ | G,F, G,2 | C2 C2 ||
+F A>G F- | F=E/D/ E2 | F=E F2 | =E/D/E/F/ E2- | =EF2 E | FA>GF- | F=E/D/ EF | F2 F,2 | G,2 G,2 | [FC2]C [F2C2] |]
+V:3
+F,2F,2 | C,2 C,2 | F,C, F,2 | C,2 C,2 | F,2 C,2 | F,2 F,2 | C,2 C,2 | F,2 F,2|
+C,2 zD, | E,>F, G,2 | F,>E, D,2 | C,2 C,2 | C,2 C,2 | G,2 C,2 | C,2 G,2 | C,G, C,2 |
+C,2 zD, | E,G, F,2 | C,2 C,2 | F,2 F,2 |  F,2 F,2 | C,2 C,2 |
+F,C,F,2 | C,2 C,2 | F,2 C,2 | F,2 F,2 | C,2 C,2 | F,2 _B,2 | C,2 C,2 | F,4 ||:
+F,2 F,2 | C,2 C,2 | F,C, F,2 | C,2 C,2 | F,2 C,2 | F,2 F,2  | C,2 C,2 | F,2 F,2 :|
+F,2 C,2 | F,2 F,2 | C,2 C,2 | F,2 F,2 |: C,2 zD, | E,/D,/E,/F,/ G,/F,/G,/E,/ | F,>E, D,2 | C,2 C,2 :|
+C,2 C,2 | G,2 C,2 | C,2 G,2 | [C,2x] G, C,2 :| C,2 zD, | E,G, F,2 | C,2 C,2 | F,2 F,2 ||
+F,2 F,2 | C,2 C,2 | F,C, F,2 | C,2 C,2 | F,2 C,2 | F,2 F,2 | C,2 C,2 | F,2 =D,2 | C,2 C,2 | F,2 F,2 |]
+W:2- Come excede in esser bello
+W:Un verde ad un secco legno.
+W:Cussi questo amor novello
+W:?el passato è assai piu degno
+W:E consiste qui l'ingegno
+W:Quando l'huom proposto muta
+W:E la sorte sua refuta
+W:Per trovarne una megliore.
+W:Nova impresa ...
+W:
+W:3- Chi l'arebbe mai pennato
+W:Che d'affanni io fusse uscito
+W:E che avesse mai lasciato
+W:La crudel che ho già servito.
+W:Pur gli à ver ch'io son partito,
+W:Perchè ognun ben pensar deve
+W:Che un dispetto in tempo breve
+W:Fa sdegnar un gentil core.
+W:Nova impresa ...
+W:
+W:4- Io sto ben la dio mercede
+W:E chi ha mal suo danno sia
+W:E se servo con gran fede
+W:A sta nova donna mia,
+W:Servo a tal madonna pia
+W:Che cognosce el servir mio
+W:Ben mi tratta, e anch?r io
+W:Ben la servo a tutte l'hore.
+W:Nova impresa ...
+W:
+W:5- Io perdono a cui m'ha offeso
+W:E gli absolvo ogni peccato,
+W:E si son ad altra reso
+W:M'haverà per excusato ;
+W:Perché un servo maltrattato
+W:Ma ligitima cagione
+W:A lasciar el mal patrone
+W:Per trovar meglior signore.
+W:Nova impresa ...
+
+%%footer $D   Galouvielle-MBe 2005 \nBourrée --
+X:6
+T:Bourree de Gaston Pommier
+M:2/4
+L:1/8
+R:Bourrée
+Z:Steve Mansfield
+K:G
+GB2d|g3b|a>g fe|dc BA|GB2d|g3b|a>g fe|d4::
+B>d Bd|c>e ce|B>d Bd|A4|GB dg|e3b|a>g fa|g4:|
+
+%%footer $D   Galouvielle-MBe 2005 \nBourrée --
+X:7
+T:Bourrée de la Brande d'Ardentes
+R:Bourrée
+C:Bas-Berry
+I:abc2nwc
+M:2/4
+L:1/16
+K:G
+V:1
+d3B G2B2|c6g2|f3d e2f2|g3a b2g2|d3B G2B2|c6g2|f3d e2f2|g8:|
+|:
+K:C
+c4e4|g2fe d4|e3f d2B2|c2BA B2G2|c4e4|g2fe d4|e3f d2B2|c8:|
+V:2
+B3d g2d2|e6e2|d4A2c2|B4G4|B3d g2d2|e6e2| d4 A2c2| e8 :|
+|:
+K:C
+c4G4 | e4 G2AB | c2>B2- B2G2 | f2d2- d2B2 | c4G4 | e2dc G4 | c2>B2- B2G2 | c8 :|
+
+%%footer $D   Galouvielle-MBe 2005 \nBourrée à 2 temps --
+X:8
+T:Bourrée dite Aurore Sand
+R:Bourrée à 2 temps
+Z:abc transcription Simon Wascher
+N:please mail errors to: simon.wascher@chello.at
+M:2/4
+L:1/8
+K:Gm
+D|G3/2A/2 Bc|d3d|d3/2g/2 ^fg|d3d|e3/2d/2 cA|B3/2A/2 GB|A3/2G/2 AB|G3:|
+|:d|d3/2c/2 Bc|d3/2c/2 Bc|d3/2c/2 de|d3/2c/2 Bc|d3/2c/2 Bc|d3/2c/2 Bc|d3/2c/2 BA|G:|
+
+%%footer $D   Galouvielle-MBe 2005 \nBourrée à 2 temps Berry
+X:9
+T: Bourrée d'Aurore Sand
+R:Bourrée à 2 temps
+O: Berry
+M: 2/4
+L: 1/8
+Q: 1/4=120
+K: Am
+V: 1
+E|: A>B cd|e2>e2|ea ^ga|e2>e2|f>e dB|
+c>B Ac|BA Bc|[1 B2>e2 :|[2 A2>e2 |:
+e>d cd|e>d cd|e>d ef|e/f/e/d/ cd|
+e>d cd|e>d ef|e/f/e/d/ cB|[1 AB cd:|[2 A4|]
+V: 2 clef=treble
+e|: A/-^G/A/B/ c/-B/c/d/|e/f/e/d/ ee|e/a/^g/a/ b/a/^g/a/|e/f/e/d/ ee|f/g/f/e/ d/f/e/d/|c/d/c/B/ A/c/B/A/|B/A/B/c/ A/^G/A/c/|[1 B/(c/B/c/) d/(e/d/e/):|[2 B/(c/B/c/) d/(e/d/e/)|:
+e>d c/B/c/d/|e>d c/B/c/d/|e>d e/f/g/f/|ee c/B/c/d/|e>d c/B/c/d/|e>d e/f/g/f/|ee c/d/c/B/|[1 A/^G/A/B/ c/B/c/d/ :|[2 A4|]
+
+%%footer $D   Galouvielle-MBe 2005 \nBourrée à 2 temps --
+X:10
+T:Bourrée de Marakech
+R:Bourrée à 2 temps
+C:Anonyme
+I:abc2nwc
+M:2/4
+L:1/16
+K:Bb
+d3c d2e2|g2e2 d2c2|d3c d2e2|d4(cdcA)|d3c d2e2|g2e2 d2c2|d3c d2e2|d4c4:|
+|:c3B c2d2|c3B A2c2|B2G2 G2A2|B4A2B2|c3B c2d2|c3B A2c2|B2G2 A2[F2A2] |G8:|
+
+%%footer $D   Galouvielle-MBe 2005 \nBourrée à 2 temps France
+X:11
+T:Bourrée carrée de la Châtre
+R:Bourrée à 2 temps
+O:France
+A:Berry
+C:Trad.
+M:2/4
+L:1/16
+K:G
+"Intro"d|B3G B2d2|c3B A2B2|c3d e2f2|g6d2|:
+G3A B2c2|d4d4|e3f g2e2|d3c B2A2|G3A B2c2|d4d4|e3f g2e2|d6d2:|:
+B3G B2d2|cdcB A2B2|c3B c2e2|dedc B2d2|B3G B2d2|cdcB A2B2|c3d e2f2|g6d2 :|]
+
+%%footer $D   Galouvielle-MBe 2005 \nBourrée à 2 temps France
+X:12
+T:Passant par Brisfort
+R:Bourrée à 2 temps
+O:France
+C:La Chavannée de Montbel
+A:
+M:2/4
+L:1/16
+K:G
+B3A c2B2|F3G A2B2|c6d2|c3B A2G2|B3A c2B2|F3G A2B2|c2A2- A2F2|G8:|:
+B2A2- A2B2|G4E2A2|D3E F2D2|G3E A2G2|B3A- A2B2|G4E2c2|B3A G2F2|G8:|
+
+%%footer $D   Galouvielle-MBe 2005 \nBourrée à 3 temps --
+X:13
+T:Bourrée
+R:Bourrée à 3 temps
+C:Eveline Giradon
+N:abc transcription Simon Wascher
+N:if you find an error in this transcription please inform simon.wascher@chello.at
+M:3/8
+L:1/16
+K:D
+FG|A2d2c2|A3GAB|=c2B2G2|ABAGFG|
+A2d2c2|A3GAB|=c2B2G2|A4:|
+|:FG|A2F2D2|E3DEF|G2F2D2|EFG2FG|
+A2F2D2|E3DEF|1G2F2D2|E4:|2G2F2E2|D4|]
+
+%%footer $D   Galouvielle-MBe 2005 \nBourrée à 3 temps France
+X:14
+T:Bourrée du placard
+O:France
+A:Lot
+R:Bourrée à 3 temps
+C:Trad.
+N:Collectée par Xavier Vidal
+M:3/8
+L:1/8
+K:G
+D|:"G"G A/B/ (3c/B/A/|ddd|"C"c/B/ce|"D"dd/c/B/A/|"G"G A/B/ (3c/B/A/|ddd|[1 "C"c/B/ce|"D"d2D:|[2 "C"c/B/cB|"D"A2D|:
+"G"GAB/A/|G2d|"Am"c/B/AD|"G"GDD|GAB/A/|G2d|"Am"c/B/AD|[1 "G"G2 D:|[2 "G"GGD||G/A/B/c/d|d/d/e/f/g|g/g/gg|]
+
+%%footer $D   Galouvielle-MBe 2005 \nBranle populaire France
+X:16
+T:Pas du loup
+R:Branle populaire
+C:Trad.
+A:Limousin
+O:France
+M:2/4
+L:1/8
+Q:1/8=220
+K:G
+DB/2G/2 DB/2G/2|DB BA|DA/2F/2 DA/2F/2|DA G2:|
+|:dc/2B/2 AB/2c/2| de ed|dc/2B/2 AB/2c/2|de d2:||
+
+%%footer $D   Galouvielle-MBe 2005 \nCercle France
+X:17
+T:Tarantelle
+R:Cercle
+N:tagafolk.abc
+O:France
+Z:anamnese@caramail.com
+M:6/4
+L:1/8
+Q:3/8=130
+K:C
+EAB cBc dcB c3 | ABc BAB dc Bc3 |
+EAB cBc dcB c3 | ABc BAB dc BA3 ::
+a2a e2e a2a e3 | ede f3 fgf e3 |
+cde d3 Bcd c3 | ABc BAB dc BA3 :|
+
+%%footer $D   Galouvielle-MBe 2005 \nReel --
+X:18
+T:Galopede
+R:Reel
+C:Eric Foxley
+S:Nottingham Music Database
+P:AAB
+M:4/4
+L:1/8
+Q:1/4=200
+K:G
+dc|"G"B2Bc "D7"A2AB|"G"G2G2 G2AB|"C"cBcd edcB|"Am"c2A2 "D7"A2dc|
+"G"B2Bc "D/f+"A2AB|"Em"G2G2 "Em7/d"G2AB|"Am/c"cBAG "D7"FGAF|"G"G2G2 G2:|
+dc|B2gf "C"e2ed|"Am"dcBc "D7"A2dc|"G"B2gf "C"edcB|"Am"c2A2 "D7"A2dc|
+"G"B2gf "C"e2ed|"Am"dcBc "D7"A2dc|"G"BdcB "D7"AcBA|"G"G2G2 "D7"G2Bc|
+"G"d2dd d2g2|d2dd d2g2|d2d2 "C"edcB|"Am"c2A2 "D7"A2Bc|
+"G"d2dd d2g2|"Em"d2dd d2g2|"Am"edcB "D7"dcBA|"G"G2G2 G2|]
+
+%%footer $D   Galouvielle-MBe 2005 \nScottish --
+X:19
+T:Scottish
+T:Suite
+C:Traditionnel
+R:Scottish
+I:abc2nwc
+M:2/4
+L:1/16
+K:C
+"A"g2g2 a3g|f2g2 e2c2|defd e2c2|defd e2c2|
+g2g2 a3g|f2g2 e2c2|defd e2c2|d2B2 c4||
+c2BA G2G2|cBcd e2e2|fedf edce|d2g2 e2c2|
+c2BA G2G2|cBcd e2e2|fgfd efec|d2B2 c4|]
+"B"[|cdef g2g2|agfa gfed|cdef g2g2|agfe d4|
+cdef g2g2|agfa gfed|cdef g2g2|agfe d4||
+f2df e2ce|d2d2 g4|fedf edce|d2B2 c4|
+f2df e2ce|d2d2 g4|fedf edce|d2B2 c4|]
+"C"[|e2d2 cBcd|f2e2 d4|]
+
+%%footer $D   Galouvielle-MBe 2005 \nScottish --
+X:20
+T:Scottish
+R:Scottish
+M:2/4
+L:1/8
+Q:50
+C:Trad.
+K:G
+Bc de/2f/2|gB d2|e/2d/2c/2B/2 A A/2B/2|c/2d/2e/2f/2 ed|
+Bc de/2f/2|gB d2|e/2d/2c/2B/2 A/2B/2c/2A/2|G B G2:|
+|:gg f>f|eed2|e/2d/2c/2B/2 A A/2B/2|c/2d/2e/2f/2 ed|
+gg f>f|eed2|e/2d/2c/2B/2 A/2B/2c/2A/2|G B G2:|
+
+%%footer $D   Galouvielle-MBe 2005 \nScottish --
+X:21
+T:Scottish de Stockfish
+R:Scottish
+C:?
+Q:1/2=100
+I:abc2nwc
+M:4/4
+L:1/8
+K:C
+AB cd e3f|ed ce d4|[1e2e2A4|Bc dc B4:|[2e2e2A3c|BA GB A4
+|:e2e2g3e|d2c2d4|e2e2A4|Bc dc B4|e2e2g3e|d2c2d4|e2e2A3c|BA GB A4:|
+|:"^2"e2A2A3c|B2G2A4|AB cd e2ee|d2cd e2e2|
+e2A2A3c|B2G2A4|AB cd e2dc|B2c2A4:|
+|:Ac Ac ec ec|Ac Ac ec ec|Bc Bc d3B|c2d2e2e2Ac Ac ec ec|
+Ac Ac ec ec|Bc Bc d3B|c2B2A4:|
+
+%%footer $D   Galouvielle-MBe 2005 \nScottish --
+X:22
+T: Scottish du camion
+R:Scottish
+C: Daniel Marinelli
+M: C|
+L: 1/8
+K: Am
+V: 1
+"Am"A2 cA eA cA|"Dm"d2 de fe df|"E7"e2 ef ed cB|[1 "Am"dc Bd c2 B2:|[2 "Am"A4 A4|:
+"Am"A2 AB cB Ac|"Em"BE EE B2 c2|"Am"A2 AB cB AG|"C"E2 C2 C4|"Dm"D2 DE FD EF|
+"Am"ED EF E2 DC|[1 "Em"ED CB, DC B,D|"Am"CB, CD C2 A,2:|[2 "Em"ED CB, DC B,G,|"Am"A,2 A,G, A,4|]
+
+%%footer $D   Galouvielle-MBe 2005 \nScottish Berry
+X:23
+T: Scottish
+R:Scottish
+O: Berry
+M: 2/4
+L: 1/8
+Q: 1/4=120
+K: D
+V: 1
+D/A/G/F/ AG/F/|G/F/G/A/ BA|A/d/A/F/ GF/E/|[1 F/A/F/D/ E2:|[2 FE D2|:
+dA dd/c/|B/A/B/c/ dA|AA AG/F/|[1 E/F/G/A/ B/A/B/c/:|[2 E/F/G/E/ D2|]
+V: 2
+F/F/E/D/ FE/D/|E/D/E/F/ GF|F/F/E/D/ ED-|[1 D^C A,2 :|[2 D^C D2|:
+fd ff/e/|d/c/d/e/ fd|dd dc/B/|[1 A/A/B/c/ d/c/d/e/ :|[2 A/A/B/c/ d2|]
+
+%%footer $D   Galouvielle-MBe 2005 \nScottish France
+X:24
+T:Scottish de la gardette
+R:Scottish
+C:Rigodon sauvage
+A:Dauphiné
+O:France
+I:abc2nwc
+M:2/4
+L:1/16
+K:C
+B2d2 d2cB|A2G2 A4|AFAc BdcB|[1AGAc B2G2:|
+[2AFAF G4|B2BG BGB2|c2cA c4|dfed c2cB|
+c2ed B2G2|B2BG BGB2|c2cA c4|dfed cedc|BAF2 G4
+|:DFAc B2G2|DFAc d4|dcBA BGAB|[1cBAG F2D2:|[2cBA2 G4
+|:BcBG BcBG|BcBG F4|Bcdc BAGB|[1AGAB c2A2:|[2AGF2 G4|]
+
+%%footer $D   Galouvielle-MBe 2005 \nScottish France
+X:25
+T:Scottish du Gers
+R:Scottish
+A:Gascogne
+O:France
+C:Trad.
+I:abc2nwc
+M:2/4
+L:1/16
+K:D
+F2G2 A2Bc|d2F2 A4|BAGF EDEF|GABc B2A2|
+F2G2 A2Bc|d2F2 A4|BAGF EFGE|D2F2 D4||
+d2d2 c4|B2B2 A4|BAGF EDEF|GABc B2A2|d2d2 c4|B2B2 A4|BAGF EFGE|D2F2 D4|]
+
+%%footer $D   Galouvielle-MBe 2005 \nScottish France
+X:26
+T:Scottish à Catinaux
+R:Scottish
+A:Massif Central
+O:France
+M:2/4
+L:1/16
+Q:1/4=90
+K:C
+efed cGce|gfef d4|GABc d2de|1fedf e2c2:|2fedB c4|
+|:e2g2 A2Bc|dcBA G4|GABc d2de|1fedf e2c2:|2fedB c4||
+
+%%footer $D   Galouvielle-MBe 2005 \nValse --
+X:27
+T:Valse à Pangault
+R:Valse
+C:Limousin
+Q:3/4=80
+I:abc2nwc
+M:3/4
+L:1/8
+K:G
+V:1
+B6|B6|B2A2G2|d4B2|c6|c6|c2B2A2|e6|d6|d2e2f2|
+g2f2e2|d2c2B2|A6|e6|A2B2c2|d2e2d2|c2B2c2|d2e2d2:|
+|:B2BA GA|B2BA GA|B2e2d2|c2B2A2|c2cB AB|
+c2cB AB|c2f2e2|d4B2B2BA GA|B2BA GA|
+B2e2d2|c2B2A2|c2cB AB|c2cB AB|c2f2d2|g6:|
+V:2
+g6|f6|e6|d6|a6|g6|f6|e6|d6|B2c2d2|e2d2c2|
+B2A2G2|F6|B6|F2G2A2|B2A2G2|D2G2D2|B,6:|
+|:d2dc Bc|d2dc Bc|d2g2f2|e2d2c2|e2ed cd|
+e2ed cd|e2a2g2|f4d2d2dc Bc|d2dc Bc|
+d2g2f2|e2d2c2|e2ed cd|e2ed cd|e2a2f2|b6:|
+
+%%footer $D   Galouvielle-MBe 2005 \nValse France
+X:28
+T:Valse d'Ernest Lurde
+R:Valse
+O:France
+M:3/4
+L:1/4
+Q:1/4=170
+K:C
+ecd|e2e|gcd|e2e|gfe|d2d/2e/2|fed|1e2c:|2c3|
+|:eee|ede|fed|c2B/2c/2|dBc|d2d/2e/2|fed|1e2c:|2c3||
+
+%%footer $D   Galouvielle-MBe 2005 \nValse France
+X:29
+T:Valse à Cadet
+R:Valse
+A:Morvan
+O:France
+M:3/4
+L:1/4
+Q:1/4=180
+K:C
+cGe|c3|cGe|d2 d/2e/2|fed|cBA|GAB|[1,3 A2 G:|[2 c3:|[42 c2 B/2c/2|
+|:d d/2f/2 e/2d/2|e e/2g/2 f/2e/2|d d/2f/2 e/2d/2|1 ec B/2c/2:|2c3|:
+e2f|gag|d2e|fgf|c2d|efe|[1 d2c|d3:|[2 d2B|c3|
+
+%%footer $D   Galouvielle-MBe 2005 \nValse
+X:30
+T:Valse écossaise
+T:Suite
+R:Valse
+O:
+Z:anamnese@caramail.com
+M:3/4
+L:1/4
+Q:1/4=212
+K:C
+P:A
+B |: e2d | c2d | ABc | G2G |1 e2d | c2B | ABc | def :|2 Adc | Bed | cB/A/ e/d/ | c |
+G |: e2G | e2G | egz/e/|c2G|1 d2G | d2G | de/d/ c/d/ | ecG :|2 Adc | Bed | cB/c/ e/d/ | c2
+P:B
+|: cde | cde | fed | cBA | GAB | GAB | ced |1 cBA :|2 c3 |
+|: BAG | B2B | AGF | A3 | ABc | ABc | edc | BAG :|
+P:C
+|: A2A | c2c | BGG | GAB | A2A | a2a | gee | e2 f |
+g/e/ ce | g2 f/e/ | dec | BAG | efg | e2d | cdB | A2 :|
+
+%%footer $D   Galouvielle-MBe 2005 \n--- --
+X:31
+T:Valse écossaise
+R:---
+C:Ecosse
+Q:3/4=60
+I:abc2nwc
+M:3/4
+L:1/8
+K:D
+V:1
+A2||f4e2|d4c2|B2c2d2|A4A2|f4e2|d4c2|B6-|B4A2|
+f4e2|d4c2|B2c2d2|A4A2|B2e2d2|c2f2e2|d6-|d4A2
+|:f4A2|f4A2|f4e2|d4A2|[1e4A2|e4A2|e2d2e2|f4A2:|[2B2e2d2|c2f2e2|d6-|d6|]
+V:2
+A2||a4g2|f4e2|d2e2f2|e4A2|a4g2|f4e2|(d6|
+c2)z2A2|a4g2|f4e2|d2e2f2|e4d2|g4g2|a4g2|f6-|f4d2|:|]
+
+%%footer $D   Galouvielle-MBe 2005 \nReel Shetland
+X:32
+T:Merry Boys of Greenland
+R:Reel
+O:Shetland
+M:4/4
+K:D
+ABde fdf2|e2{fe}ce Aece|ABde fdfa|gecA d2d2::
+fgfe fga2|efed efge|fgfe fgaf|gecA d2d2:|
+
+%%footer $D   Galouvielle-MBe 2005 \nMarin congo France
+X:33
+T:Marin congo
+R:Marin congo
+O:France
+A:Languedoc
+C:Trad.
+M:2/4
+L:1/8
+Q:1/4=106
+K:G
+"G"GA BA/G/|"D"AA D2|"G"GA Bd|[1 d/c/B/A/ BG :|[2 d/c/B/A/ G2|:
+"G"dd/c/ BB/c/|de d2|GA Bd|[1 d/c/B/A/ BG:|[2  d/c/B/A/ G2|]
+
+%%footer $D   Galouvielle-MBe 2005 \nPolka France
+X:34
+T:suite de Polkas piquées
+R:Polka
+N:tagafolk.abc
+O:France
+A:
+Z:anamnese@caramail.com
+P:AABBCC AABBCC
+M:2/2
+L:1/8
+Q:1/4=140
+K:C
+%%MIDI program 21 %% accordéon
+P:A
+e2g2 d/e/f/d/ ec | e2g2 d/e/ d c2 ::
+d/e/f/e/ d e/f/ g f e c | d/e/f/e/ d e/d/ c B c2 ::
+P:B
+gag2 f/g/f/e/ d2 | gag2 f/g/f/e/ d2 ::
+ecBc d/c/d/f/e c | ecBc d/e/d/B/ c2 ::
+P:C
+dec2 d/e/d/c/B G | fed>g ^f a/g/e2 |
+dec2 d/e/d/c/B G | fed>g ^f a/g/c2 |
+e/f/g/e/ c ee d/c/d2 | d/e/f/d/ B dc/B/c/e/g2 |
+e/f/g/e/ c ee d/c/d2 | d/e/f/d/ B dc/B/c/e/c2 |]
+
+%%footer $D   Galouvielle-MBe 2005 \nPolka --
+X:35
+T:Ger the Rigger
+M:2/4
+L:1/8
+Q:1/4=121
+R:Polka
+K:A
+|eA eA|e/2f/2e/2d/2 cA|d2 d/2e/2f/2g/2|ae fe|
+eA eA|e/2f/2e/2d/2 cA|df/2d/2 ce/2c/2|B/2A/2B/2c/2 A:|
+|:(3efg|ae f/2e/2c/2e/2|ae f/2e/2c/2A/2|d2 d/2e/2f/2g/2|ae fe|
+ae f/2e/2c/2e/2|ae f/2e/2c/2A/2|df/2d/2 ce/2c/2|B/2A/2B/2c/2 A:|
+
+%%footer $D   Galouvielle-MBe 2005 \nPolka --
+X:36
+T:B minor Polka
+R:Polka
+S:Eileen Ni Riordan
+Z:id:hn-Polka-1
+M:2/4
+L:1/8
+K:Bm
+af f>g|af f>g|af ef|dB c/B/A|af f>g|af fe|de/d/ cA|1 B2 BA:|2 B2 Bc||
+|:d/e/d/c/ df|e>d ce|dB c/B/A|Bc de|
+d/e/d/c/ df|e>d ce|dB c/B/A|1 B2 Bc:|2 B2 BA||

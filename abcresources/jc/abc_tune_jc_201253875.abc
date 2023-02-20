@@ -1,0 +1,21 @@
+X:64
+T:Bluebell Polka
+C:Kerr's Collection of Merry Melodies, 1875
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=92
+M:2/2
+L:1/8
+K:G
+%%textfont Times-Roman-Bold 20
+%%center Play AA BB AA CC AA
+P:A
+|: (3Bdg | "G"b2b2 "C"g>fg>e | "G"d2d2B2G2 | "D7"F>GA>B c2e2 | "G"e>d^c>d B2 (3Bdg |
+"G"b2b2 "C"g>fg>e | "G"d2d2B2G2 | "D7"F>GA>B c>de>f |1 "G"g2g2g2 :|2 "G"g2g2g2z2 |
+P:B
+K:D
+|: "D"A2A2F>Ad>f | "D"a2a2f4 | "A"a2^g2=g2e2 | "D"b2a2^g2a2 |
+"D"A2A2F>Ad>f | "D"a2a2f4 | "A"a2^g2=g2e2 | "D"d2f2d4 :|
+P:C
+K:C
+|: "C"e2e2e>fg2 | "C"e2e2e>fg2 | "G"f2f>g fe d2 | "G7"f2f>g fe d2 |
+"C"e2e2e>fg2 | "C"e2e2e>fg2 | "G7"f2f>g fe d2 | "C"c2e2c4 :|

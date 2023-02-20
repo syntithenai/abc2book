@@ -1,0 +1,556 @@
+
+X: 0
+T: JIGS TO LEARN
+K:
+
+%%sep 1 1 500
+
+X: 1
+T: Bert Ferguson    [A]
+C: Samuel Ian Rothmar Burns (1980)
+S: Roaring Jelly collection
+S: http://www.thursdaycontra.com/~spuds/tunes/jigs/BertFerg.abc
+R: jig
+M: 6/8
+K: A
+AB |\
+"A"cBc "E7"E2{A}B | "A"cBc     e2E | "D"F2{A}A "Bm"BAB | "A"cec "E7"BAB |\
+"A"cBc "E7"E2{A}B | "A"cBc "A7"e2E | "D"F2{A}A "Bm"BAF | "E7"EAA "A"A :|
+|: ce |\
+"F#m"f2{a}f fec | "E"efg "A"a2e | "F#m"f2{a}f fec | "Bm"fBB "E7"Bce |\
+"F#m"f2{a}f fec | "E"edc "A"cBA | "D"FAA "Bm"BAF | "E7"EAA "A"A :|
+
+%%sep 1 1 500
+
+X: 2
+T: Bert Ferguson    [G]
+C: Samuel Ian Rothmar Burns (1980)
+S: Roaring Jelly collection
+S: http://www.thursdaycontra.com/~spuds/tunes/jigs/BertFerg.abc
+R: jig
+M: 6/8
+K: G
+GA |\
+"G"BAB "D7"D2{G}A | "G"BAB     d2D | "C"E2{G}G "Am"AGA | "G"BdB "D7"AGA |\
+"G"BAB "D7"D2{G}A | "G"BAB "G7"d2D | "C"E2{G}G "Am"AGE | "D7"DGG "G"G :|
+|: Bd |\
+"Em"e2{g}e edB | "D"def "G"g2d | "Em"e2{g}e edB | "Am"eAA "D7"ABd |\
+"Em"e2{g}e edB | "D"dcB "G"BAG | "C"EGG "Am"AGE | "D7"DGG "G"G :|
+
+%%sep 1 1 500
+
+X: 3
+T: the Black Rogue v.1
+R: jig
+S: printed MS of unknown origin (RJ?)
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+B |\
+"A"cAA "G"BGG | "A"cAA ABd | "A"cAA "G"BAG | "D"AFD D2B |\
+"A"cAA "G"BGG | "A"cAA "D"AFD | "G"G2A B{c}dB | "D"AFD D2 :|
+|: e |\
+"D"~f3 "G"~g3 | "D"afd "A"cBA | "D"~f3 "G"gfg | "D"afd dfg |\
+"D"agf "G"gfe | "D"fed e{f}ed | "A"cBA "G"BAG | "D"AFD D2 :|
+
+%%sep 1 1 500
+
+X: 4
+T: the Black Rogue v.2
+R: jig
+S: From thesession.org 2019-1-8 (RJ handout)
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+B |\
+"A"cA=c "G"BGB | "A"cAA ABd | "A"cA=c "G"BGB | "D"AFD D2d |\
+"A"cA=c "G"BGB | "A"cAA "D"A2d | "G"G3 BGB | "D"AFD D2 :|
+|: e |\
+"D"f3 "G"g3 | "D"afd "A"cBA | "D"f3 "G"g3 | "D"afd dfg |\
+"D"agf "G"gfe | "D"fed e2d | "A"cA=c "G"BAG | "D"AFD D2 :|
+
+%%sep 1 1 500
+
+X: 5
+T: the Blooming Meadows
+S: handwritten MS by Barbara McOwen (Nov 89), via Terry Traub
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"d2f fef | "G"d2g gfg | "D"f2d dcd | "A7"ecA ABc \
+| "D"d2f fef | "G"d2g "Em"g3 | "D"fed "A7"cBc | "D"d3 d2 :|
+|: B \
+| "D"ABA F2G | "D"A2d dcB | "D"ABA "Bm"FGA | "Em"BGE "A7"EFG \
+| "D"ABA "(A)"F2G | "D"A2a "G"a2g | "D"fed "A7"edc | "D"d3 d2 :|
+
+%%sep 1 1 500
+
+X: 6
+T: the Blooming Meadows
+T: the High Part of the Road
+R: jig
+S: Darcie's Trad. Tune Sourcebook
+M: 6/8
+L: 1/8
+K: G
+A |:\
+B2B cBc | ded cAG | F2D DED | GFG ABc |\
+~B3 cBc | dcA cde | fed cAF |[1 AGF G2A :|[2 AGF GBd ||
+|:\
+~g3 def | g2a bag | ~f3 def | afd cAF |\
+~g3def | g2a bag | fed cAF |[1 AGF GBd :|[2 AGF G2 |]
+
+%%sep 1 1 500
+
+X: 7
+T: the Blooming Meadows
+T: the High Part of the Road
+R: jig
+S: Darcie's Trad. Tune Sourcebook
+M: 6/8
+L: 1/8
+K: G
+A |:\
+B2B cBc | ded cAG | F2D DED | GFG ABc |\
+~B3 cBc | dcA cde | fed cAF |[1 AGF G2A :|[2 AGF GBd ||
+|:\
+~g3 def | g2a bag | ~f3 def | afd cAF |\
+~g3def | g2a bag | fed cAF |[1 AGF GBd :|[2 AGF G2 |]
+
+%%sep 1 1 500
+
+X: 8
+T: Chamonix
+C: Keith Murphy
+R: jig
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+S: handout at Roaring Jelly practice
+B: Keith Murphy "Black Isle Music II" p.8 2012
+M: 6/8
+L: 1/8
+K: G
+|:\
+"D7"ABc d2d | "D7"ABc def | "G"g2d dcB | BcB BAG |\
+"D7"ABc d2d | "D7"ABc def | "G"g2b "D7"agf | "G"gdB [1 GAB :|2 G3 ||
+|:\
+"G"G,A,B, DEG | BdB BAG | "C"c2B "(D)"AGA | "G"BGE "D7"DB,A, |\
+"G"G,A,B, DEG | BdB BAG | "C"c2B "Am"AGA | "D7"BGF [1 "G"GDB, :|2 "G"G3 |]
+
+%%sep 1 1 500
+
+X: 9
+T: the Champaign Jig Goes to Columbia   [RJ]
+C: Liz Carroll (1999)
+R: jig
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: Handout at RJ practice
+S: https://thesession.org/tunes/2438 (to fix a couple of typos)
+S: https://www.youtube.com/watch?v=5XjMwfAy2TQ
+M: 6/8
+L: 1/8
+K: D
+de |\
+"D"f3 dAF | ABd "(A7)"F2E | "D"FAd dcd | "A"ecA gfe |\
+"D"f3 dAF | ABd "(A7)"F2E | "D"EDf dAF | "A"EDC "D"D :|
+|: FA |\
+"D"d3 afd | "A"cBA ecA | "G"BAG dBG | "A"FED EFA |\
+"D"f3 dAF | ABd "(A7)"F2E | "D"EDf dAF | "A"EDC "D"D :|
+
+%%sep 1 1 500
+
+X: 10
+T: Chasing Rabbits
+C: Marcia Landa
+R: jig
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: PDF in message from Marcia
+M: 6/8
+L: 1/8
+K: G
+"A"[|] EGA |\
+"G"BcB BcB | "D"A2d "Em"B3 |\
+"Am"ABA ABA | "Em"G2A B3 |\
+"G"BcB BcB | "D"A2d "Em"B3 |\
+"Am"ABA ABA | "B"B6 z3 |
+"G"BcB BcB | "D"A2d "Em"B3 |\
+"Am"ABA ABA | "Em"G2F E3 |\
+"Am"ABA cBA | "Em"G2A B3 |\
+"B"FGF FGF | "Em"E3 z2E |:\
+"Am"[e3-c3-] [e2c2]E |
+"Em"[e3-B3-] [e2B2]E |\
+"Am"[ec] [fc] [ec] [ec] [fc] [ec] | "Em"[e3-B3-] [e3B3] |\
+"Am"ABA cBA | "Em"G2A B3 |\
+[1 "B"FGF FGF | B3 z3E :|\
+[2 "B"FGF BcB | "Em"e3 |]
+
+%%sep 1 1 500
+
+X: 11
+T: Coco Roco
+C: Keith Murphy
+R: jig
+B: Keith Murphy "Black Isle Music II" p.11 2012
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Emix
+|:\
+"E"E2B AAB | dBA GAB |\
+E2B AAB | =GG2G "D"FED |\
+"E"E2B AAB | dBd e2f |\
+"C"=g2g "D"fed | "B7"BAG "E"E2D :|
+|:\
+"Em"e2f "C"=gfe | "D"dBA "Bm"B2d |\
+"Em"e2f "A7"=g^ga | "B7"bag "Em"e2B |\
+"Em"e2f "C"=gfe | "D"dBA "Bm"Bde |\
+"A"age dBA | "E"GAB "D"D3 :|
+
+%%sep 1 1 500
+
+X: 12
+T: the Coming Dawn
+C: Keith Murphy
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: handout at Roaring Jelly practice
+B: Keith Murphy "Black Isle Music I" p.11 2001
+%date: 2001
+M: 6/8
+L: 1/8
+K: G
+A |\
+"G"BAG EDB, | "Bm"D3 DB,D | "C"EGE "G/B"DB,D | "A7"EFG "D7"ABc |\
+"G"BAG EDB, | "Bm"D3 DB,D | "C"EGE "G/B"DB,D | "D7"EGF "G"G2 :|
+|: A |\
+"G"B2d dBd | "C"edB "(D)"AGA | "Em"BAG EDB, | "Bm"D3 DB,D |\
+"C"E3 "Am"EDB, | "D"GFG "B7/d#"A3 | "Em"Bed "G/d"BAG | "C"AGF "Dsus"G2 :|
+
+%%sep 1 1 500
+
+X: 13
+T: Devlin's Jig
+O: trad
+R: jig
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bm
+Bc \
+| "Bm"d2B BAB | F2B B2c | dcd "E7"Bed | "A"c2A ABc \
+| "D"dcd "A"ede | "Bm"fbb "(D)"afe | "G"dcB "A"AFE | "Bm"FBB B :|
+|: df \
+| "D"a2z f3 | "A"ecA A2A | EAA cAA | "F#(m)"ece f2e \
+| "Bm"dBB BAB | FBB Bcd | "Em"efg "F#(m)"fge | "Bm"dBB B :|
+
+%%sep 1 1 500
+
+X: 14
+T: Devlin's Jig
+O: RJ
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+R: jig
+K: Bm
+|:\
+"Bm"d2B BAB | F2B BAB | "G"d2B Bcd | "A"cBc ABc |\
+"G"d3 "A"e3 | "Bm"f2b afe | "G"dcB "A"AFE | "Bm"FBB B2c :|
+|:\
+"D"a3 f3 | "A"e2A cBA | c2A cBA | "F#"cde f2e |\
+"Bm"d2B BAB | F2B Bcd | "G"efg "A"fef | "Bm"dBB B3 :|
+
+%%sep 1 1 500
+
+X: 15
+T: Disconnect
+C: Jeremy Kittel
+R: jig
+S: Roaring Jelly handout at practice 2017-1-24
+S: https://thesession.org/tunes/14681
+M: 6/8
+L: 1/8
+K: Emin
+|:\
+"Em"~E2-E BEc- | cBA Bcd | "D"~D2-D ADB- | BAG F2G |\
+"Em"~E2-E BEc- | cBA Bcd | "D"~D2-D Bcd |1 "Bm"DGD A2 B :|2 "Bm"~D2-D "(G7)"Bcd ||
+|:\
+"C"e2G GFG | "D"A3 ABc | "Bm"d2F FEF | "Em"G2A "(G7)"Bcd |\
+"C"e2G GFG | "D"A3 Adc | "Em"BAG "D"FED |1 "Em"EFG "D"ABd :|2 "Em"EFG "Bm"FDB, |]
+
+%%sep 1 1 500
+
+X: 16
+T: la F\'ee des Dents
+T: the Tooth Fairy
+C: Andr\'e Brunet
+R: jig
+Z: 2008,2016 John Chambers <jc:trillian.mit.edu>
+F: http://www.youtube.com/watch?v=Rm_FyS7ceSc
+M: 6/8
+L: 1/8
+%%slurgraces 1
+K: G
+|:"G"B2D- DGA | Bdc BAG | "C"{B}c2E- EFG | "D7"FAG FED |\
+| "G"~B3  DGA | Bdc Bgf | "C"egd- dcB | "D7"AGF "G"G3 :|
+|:"C"~e3  edB | ced cBc | "G/B"d2B- BAG | Bdc BAG |\
+| "C"e2c  efg | "D7"afd- dcB | "C"ced cBA | "D7"AGF "G"G3 :|
+
+%%sep 1 1 500
+
+X: 17
+T: the Field in the Forest
+C: Adam Broome
+R: jig
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+|: "F"FAc f2g | aba gfd | cAG FGA |1,3 "Bb"D2B- BAG |2,4 G2F- F3 :|
+|: "F"FAc "C7"G3 | "F"FAc "C7"G3 | "F"FGA "C7"BAG |1,3 "F"A2c- c3 :|2 "F"AF- F3 :|4 "F"F6 |]
+
+%%sep 1 1 500
+
+X: 18
+T: Hamilton House
+B: RSCDS-7
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+  f  | "G"g3      dBd | "D7"c2B     A2c |  "G"BdB "Am"A2G | "D7"FEF D3 \
+     | "G"g3      dBd | "Am"c2B     Ace | "D7"dcB     AGF | "G"G3-  G2 ||
+ yz  | "G"D3   "C"ECE |  "G"DGB     d2d | "Am"c2B "A7"A2G | "D7"FEF D2D \
+     | "Am"E2c    cde |  "G"dBG     G2g |  "G"dBG "D7"cAF | "G"G3-  G2 |]
+|: \
+B/c/ | "G"dBd "C"ege |  "G"dBd "Am"c2A |  "G"dBG "Em"EFG | "Am"ABG "D7"FED \
+     | "G"dBd "C"ege |  "G"dBd "Am"c2A |  "G"dBG "D7"DEF | "G"G3-  G2 :|
+
+%%sep 1 1 500
+
+X: 19
+T: Isaac's Jig
+C: Keith Murphy
+R: jig
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+S: handout at Roaring Jelly practice
+B: Keith Murphy "Black Isle Music II" p.19 2012
+M: 6/8
+L: 1/8
+K: Em
+|:\
+"Em"E3 GAB | ABd Bde | E3 GAB | "D"ABG FED |\
+"Em"E3 GAB | ABd Bde | "G"d3 dcB |1 "D"ABG "(Bm)"FED :|2 "D"AcB ABc ||
+|:\
+"G"d3 "(D)"def | "(Em)"gBB Bcd | "C"e2G GAB | "D"ABG FED |\
+"G"dBd "(D)"def | "(Em)"gaf g2f | "C"e3 edB |1 "D"AcB ABc :|2 "D"AcB AGF |]
+
+%%sep 1 1 500
+
+X: 20
+T: Juniper Jig
+C: Charles F Sherrit
+B: RSCDS 45-8
+R: Jig
+M: 6/8
+K: A
+L: 1/8
+|: e \
+| "A"aga ecA | "D"FAd fed | "A"cee "F#m"Acc | "Bm"Bcd "E"efg \
+| "A"aga ecA | "D"FAd "Bm"fed | "A"cec "E7"dBG | "A"A3 A2 :|
+=G \
+| "D"FAd fed | "D"fed agf | "A"ecA EAc | "A"EAc "B7"cBA \
+| "E"GBB EBB | "E"GBB E2B | "A"AGA "E"BAB | "A"c3 AG=G ||
+| "D"FAd fed | "D"fed agf | "A"ecA EAc | "A"EAc "B7"cBA \
+| "E"GBB EBB | "E"GBB E2f | "E"gfe dcB | "A"A3 A2 |]
+
+%%sep 1 1 500
+
+X: 21
+T: the Last Mile
+C: Larry Unger, Michelle Levy, K. Hardman, K. Blackwood, Bob Anholt (2009)
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+S: PDF from Ishmael the Fiddler 2018-2-28
+M: 6/8
+L: 1/8
+K: Em
+|:\
+"Em"EDE "D"FEF | "Em"GFG "D"A2A | "G"B2B B2A | "D"B2A G2F |\
+"Em"EDE "D"FEF | "Em"GFG "D"A2A | "Em"B>ee efg |1 "Bm"fed "Em"BAG :|2 "Bm"fed "C"e2f ||
+|:\
+"Em"g2f e2d | B2A G2F | "G"GAB "Am"cBA | "Em"GAG "Bm"F2F |\
+"Em"EeE dEc | "G"BcB "D"A2A | "Em"GAB "Am"cBA | "Bm"GFD "Em"E3 :|
+
+%%sep 1 1 500
+
+X: 22
+T: the Lounge Bar
+C: Annlaug B\"orsheim
+R: jig
+S: handout at Roaring Jelly practice 2018-3-27
+N: Chords by John Chambers. (Annlaug & friends use a quiet drone.)
+S: https://thesession.org/tunes/8853
+D: https://www.youtube.com/watch?v=KsMniutrofI 2018-3-28
+M: 6/8
+L: 1/8
+P: ABABCBCB
+K: D	% with a touch of Bm
+"A"|:\
+"Bm"B,DF "A"E2D- | "D"DFA d2c | "G"BGB "D/f#"AFD | "Em"EGF "A7"E2D |\
+"Bm"B,DF "A"E2D- | "D"DFA "/e"d2"/f#"c | "G"BGB "D"AFD |1 "A7"E2D- "D"D3 :|2 "A7"E2D- "D"DFA |]
+"B"|:\
+"D"d2d- dcA | "Bm"F3 FEF | "G"GBd- dcA | "A7"E3 EDE |\
+"Bm"F2F- FED | "G"B,3 B,A,B, | "A7"CDE- EFE |1 "D"D3 DFA :|2 "D"D3 D3 |]
+"C"|:\
+"G"dBd "A"c2B- | "Bm"Bdf "A"e2c | "G"dcB "A"AcB | "D"AFD "A"E2D |\
+"Bm"dBd "A"c2B- | "Bm"Bdf "A"e2c | "G"dcB "D"AFD |1 "A7"E2D- "D"D3 :|2 "A7"E2D- "D"DFA |]
+%"B"|:\
+%d2d- dcA | F3 FEF | GBd- dcA | E3 EDE |\
+%F2F- FED | B,3 B,A,B, | CDE- EFE |[1 D3 DFA :|[2 D3 D3 |]
+%%text https://www.youtube.com/watch?v=KsMniutrofI 2018-3-28
+
+%%sep 1 1 500
+
+X: 23
+T: Max Hobart's Jig   [Dm]
+C: Len Bittenson 2017
+S: handout at Roaring Jelly practice 2018-11-13
+M: 6/8
+L: 1/8
+K: Dm
+|:\
+"Dm"DA,D DA,D | DA,F "A"E2E | "Dm"DA,D DFG | "(A7)"AGF "A7"E2^C |\
+"Dm"DA,D DA,D | DA,F "A7"E2E | "Dm"DA,D DFG | "A7"AE^C [1 "Dm"D3 :|[2 "Dm"DFA |]
+|:\
+"Gm"BGB BGB | "F"AFA AFA | "C"GEG GEG | "Dm"FA,D FGA |\
+"Bb"BGB BGB | "F"AFA AFA | "A7"GE^C A,EG | FE^C [1 "Dm"DFA :|[2 "Dm"D3 |]
+
+%%sep 1 1 500
+
+X: 24
+T: Out on the Road
+C: Liz Carroll
+S: Handout at Roaring Jelly practice
+R: jig
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A |\
+"D"FEF DFA | dfe dcd | "G"BAd BAA | "D"ABA "A7"FEE |\
+"(D)"EFE "D"DFA | dfe dcd | "G"BAF "A7"AFE | EFE "D"D2 :|
+B |\
+"D"Add edB | Adf edB | "D"Add "G"Bdd | "Em"BAF "A7"AFE |\
+"D"Add edB | Adf afd | "G"BAF "A7"AFE | EFE "D"D2 ||
+B |\
+"D"Add edB | Adf edB | "D"Add "G"Bdd | "D"Adf "A7"e2f |\
+"D"add fef | "Bm"dBB dcd | "G"BAF "A7"AFE | EFE "D"D2 |]
+
+%%sep 1 1 500
+
+X: 25
+T: Les patins de Pauline
+T: Pauline's Skates
+C: Andr\'e Marchand
+R: jig
+Z: 2007 John Chambers <jc:trillian.mit.edu> from Pascal Gemme's blog
+M: 6/8
+L: 1/8
+K: G
+D \
+| GAB GED | GAB GED | FGF E2D | FDF E2D \
+| GAB GED | GAB GED | FGF EFE | DEF G2 :|
+|: D \
+| GAB GDB, | CDE DB,G, | ECA, B,A,A, | ECB, A,2D \
+| GAB GDB, | CDE DB,G, | ECA, B,A,A, | DEF G2 :|
+
+%%sep 1 1 500
+
+X: 26
+T: Quadrille de l'\^Ile d'Orl\'eans, Partie 2
+T: Quadrille Bouchard - 1\`ere partie
+C: Joseph Bouchard
+R: jig
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: "D"dfd "F#m/c#"cfc | "Bm"B2B B2A | "D"dfd "F#dim"cfc | "Em"B2B B2A |\
+  "A7"ege "Bm"dfd | "A/c#"c3 c2B | "A"A2A ABc |1 "D"dcB "A7"AFA :|2 "D"dAF D3 ||
+|: "D"F3 FAd | f3- f2d | e2d "B7"c2d | "Em"g3- g2f |\
+  "A7"e2e e2d | c2c c2B | A2A ABc |1 "D"dcB "A7"A2G :|2 "D"dAF D3 |]
+
+%%sep 1 1 500
+
+X: 27
+T: the Rolling Waves
+S: https://thesession.org/tunes/515 2015-4-6
+S: http://terrytraub.org/abc/RollingWavesJ.abc
+R: jig
+M: 6/8
+L: 1/8
+K: D
+A  |\
+"A7"F2E EDE | "D"F2D D2{E}D |  "D"F2E EFA | "G"d2e "A"fdA |\
+"A7"F2E EDE | "D"F2D D2{E}D | "A7"AFE EFA | "G"B3  "(D)"d2 :|
+|: B |\
+"D"ABd "A"e2f | "Bm"d2[cA] "A7"B2A | "D"ABd "A"e2f | "Bm"d2[cA] "G"B3 |\
+"D"ABd "A"ede | "Bm"fdB BAF | "A"AFE EFA | "G"B3 "(D)"d2 :|
+
+%%sep 1 1 500
+
+X: 28
+T: St. Croix Jig
+C: Keith Murphy
+R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+|:\
+"Am"A2A GAA | AGA DEG | A2A GAA | "C"cde "G"dcG | "Am"A2A GAA | AGA DEG |
+"C"EDC "D"D2D | "C"EDC "D"DEG :: "E"B2B "Am"cBA | "E7"B3 E3 | DEE DEE | FED E^GA |
+"E"B2B "Am"cBA | "E7"B3 E3 |[1 "E7"E^GA Bde | "Dm"faf "Am"edc :|[2 "Dm"Bde "E7"fa^g | fed cdB |]\
+["fine" "Am"A6 |]
+
+%%sep 1 1 500
+
+X: 29
+T: le Tourment
+T: the Torment
+C: Jean-Paul Loyer 1975
+R: jig
+O: Qu\'ebec
+N: Sometimes played with the parts in the other order.
+M: 6/8
+L: 1/8
+K: G
+ D \
+|: "G"G2G "D7"AGA | "G"Bdc BAG | "C"E2c cBc | "D7"d2d def \
+| "Em"gfg "Bm"d2d | "C"ede "G"B2B | "Am"cBA "G"BAG |1 "D7"A2F DEF :|2 "D7"DGF "G"G2 ||
+|: F \
+| "C"E2E EFG | "G"DGF GAB | "Bm"d2d dcB | "Am"cBA "G"BAG \
+| "C"E2E EFG | "G"DGF GAB | "Bm"d2B "Am"cBA | "D7"DGF "G"G2 :|
+
+%%sep 1 1 500
+
+X: 30
+T: Le tourment
+T: The Torment
+C: Jean-Paul Loyer 1975
+O: Qu\'ebec
+N: Usually played with the parts in the other order.
+M: 6/8
+L: 1/8
+K: G
+F \
+| "C"E2E EFG | "G"DGF GAB | "Bm"d2d dcB | "Am"cBA "G"BAG \
+| "C"E2E EFG | "G"DGF GAB | "Bm"dcB "Am"cBA | "D7"DGF "G"G2 :|
+ D \
+|: "G"GFG "Am"AGA | "G"Bdc BAG | "C"E2c cBc | "D7"d2d def \
+| "Em"gfg "(D)"d2d | "C"ede "G"B2B | "Am"cBA "G"BAG |1 "D7"AGF DEF :|2 "D7"AGF "G"G2 |]

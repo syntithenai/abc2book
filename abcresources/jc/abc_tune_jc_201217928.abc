@@ -1,0 +1,29 @@
+X: 0011
+T: Gammal G\aangl\aat, Stekmarschen
+O: M.E.
+%R: march, g\aangl\aat
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Dm
+P: (G-stringen upst\"amd till a. De sekunderande l\"osa str\"angarna skola ljuda med.)
+% (G-string uptuned to a. The secondary loose strings will sound along.)
+%%text K.E.F 38.
+Q: "marc."
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+|: !f!\
+A2d2 e2a2 | e2^fg a4 |\
+{g}^f2ed e2^c2 |[1 A8 :|[2 d6 e2 \
+|:\
+=f2{g}fe f2a2 | e6 ^c2 |
+d2{e}d^c d2f2 | e6 g2 |\
+f2e2 d2fa | g2e2 ^c2eg |\
+f2ed e2^c2 |[1 d6 e2 :|[2 d8 |]
+% - - - - - - - - - -
+%%begintext
+%% The first 8 bars were written without the repeat. 
+%% The repeat was added to save space and a staff.
+%%endtext

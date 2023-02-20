@@ -1,0 +1,50 @@
+X: 356
+T: Vlashko
+O: Bulgaria
+M: 2/4
+L:1/8
+Q:1/4=140
+K:FMix
+%%MIDI gchord gzhz
+%%MIDI chordprog 117
+%%MIDI bassprog 117
+%%MIDI chordvol 60
+%%MIDI bassvol 60
+V:1
+%%MIDI program 22
+|: "F"FG AB  |c2 B2 |AF B2 |~A2 F2 |\
+   FG AB  |c2 B2 |AF B2 |A4     |
+|  FG AB  |e2 ^c2|cB ^c2|c2 B2  |\
+   F2 B2  |A2 B2 |A2 ^F2| F4    :|
+|: F2 B2  |A2 B2 |A2 ^F2| F^F c2|\
+   F2 B2  |A2 B2 |A2 ^F2| F4    :|
+|: F_G F2-|F2 B2 |A2 ^F2|F^F c2 |\
+   F_G F2-|F2 B2 |A2 ^F2|F4     :|
+Q:1/4=180
+|: FG AB  |c2 B2 |AF B2 |A2 F2  |\
+   FG AB  |c2 B2 |AF B2 |A4     |
+|  FG AB  |e2 ^c2|cB ^c2|c2 B2  |\
+   F2 B2  |A2 B2 |A2 ^F2| F4    :|
+|: F2 B2  |A2 B2 |A2 ^F2| F^F c2|\
+   F2 B2  |A2 B2 |A2 ^F2| F4    :|
+|: F_G F2-|F2 B2 |A2 ^F2|F^F c2 |\
+   F_G F2-|F2 B2 |A2 ^F2|F4     :|
+V:2
+%%MIDI program 23
+|: fg ab  |c'2 b2 |af b2 |~a2 f2 |\
+   fg ab  |c'2 b2 |af b2 |a4     |
+|  fg ab  |e'2 ^c'2|c'b ^c'2|c'2 b2  |\
+   f2 b2  |a2 b2 |a2 ^f2| f4    :|
+|: f2 b2  |a2 b2 |a2 ^f2| f^f c'2|\
+   f2 b2  |a2 b2 |a2 ^f2| f4    :|
+|: f_g f2-|f2 b2 |a2 ^f2|f^f c'2 |\
+   f_g f2-|f2 b2 |a2 ^f2|f4     :|
+Q:1/4=180
+|: fg ab  |c'2 b2 |af b2 |a2 f2  |\
+   fg ab  |c'2 b2 |af b2 |a4     |
+|  fg ab  |e'2 ^c'2|c'b ^c'2|c'2 b2  |\
+   f2 b2  |a2 b2 |a2 ^f2| f4    :|
+|: f2 b2  |a2 b2 |a2 ^f2| f^f c'2|\
+   f2 b2  |a2 b2 |a2 ^f2| f4    :|
+|: f_g f2-|f2 b2 |a2 ^f2|f^f c'2 |\
+   f_g f2-|f2 b2 |a2 ^f2|f4     :|

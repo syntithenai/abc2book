@@ -1,0 +1,17 @@
+X: 135
+T: Mit Yitneini Ohf
+C: Balkan 1961
+D: Potpourri Israeli folk dances
+M: 2/4
+L: 1/8
+K: Gm ^F
+Q: 1/4=96
+%%MIDI program 68 oboe
+%%MIDI chordprog 24 Acoustic Guitar
+%%MIDI bassprog 45 Pizzicato Strings
+%%MIDI chordvol 40
+%%MIDI bassvol 64
+"G"D2G2|GFGA       |"G"B4-      |B2AB|\
+cBBA   |"F#dim"AGFG|A4-         |A2z2::
+"G"d3e |dcB2"C"    |c3d         |cBA2|\
+"G"cBBA|AGFG       |[1"F#dim"A4-|A4  :|[2 "G"G4-|G4|

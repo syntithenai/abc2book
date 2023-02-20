@@ -1,0 +1,34 @@
+X: 31563
+T: COTILLION No. 40. YANKEE HILL'S SETT tune 3
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.157 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Length of last notes in strains 1,2 changed to fix the rhythms.
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+e2 |\
+a3e  c2c2 | BedB  A2E2 | AEAc BEBd  | cedc  c2B2 |\
+a2ae c2c2 | BedB  A2E2 | AEAc BEBd  | cedB  A4 H|]
+c2ec B2Be | ^defg a2a2 | gegb agfe  | ^dBcd a2g2 |\
+c2ec B2Be | ^defg a2a2 | gegb baf^d | Bbaf "^D.C."e2 |]
+[K:=f=c=g]\
+cdcB A2e2 | a2e2 f2d2 | b2^g2 aefd | BEBd cedB |\
+cdcB A2e2 | a2e2 f2d2 | b2^g2 a2c2 | edBc "^D.C."A2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 lead to right and balance,
+%% swing those behind you,
+%% lead up with the ones you turn,
+%% and swing,
+%% balance 4,
+%% ladies chain,
+%% prom 4.
+%% Sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300
+

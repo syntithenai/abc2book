@@ -1,0 +1,31 @@
+X: 03
+T: COUNTESS OF HARDWICKE'S FAVORITE
+%R: march
+B: Button & Whitaker "Twelve Elegant New Dances for the Year 1810", London 1810
+F: http://imslp.org/wiki/Button_and_Whitaker's_Elegant_New_Dances_for_1810_(Various)
+Z: 2018-6-25  John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for compactness.
+V: 1 staves=2
+G |\
+cGec | g2ec | AcBd | cedG |\
+cGec | g2ec | AcBd | c3 H:|
+B/c/ |\
+dBGf | e2cg | afdc | B/c/d/B/ GB/c/ |\
+dBGf | e2cg | fdec | g3 "^D.C."y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z |\
+c4 | e4 | f2g2 | c2Gz | c4 |
+e4 | f2g2 | c3 H:| z | G2B2 | c2e2 | f2^f2 |
+g2Gz | G2B2 | c2e2 | f2^f2 | g3 "^D.C."y|]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Foot it half right & left and back again down the middle up again & hands 4.
+%%endtext
+% %center -------------------------
+% %center Button & Whitaker "Twelve Elegant New Dances for the Year 1810"

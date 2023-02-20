@@ -1,0 +1,39 @@
+X: 1
+T: Fiddle
+C: Debbie Scott
+R: reel
+S: MS of unknown origin in Concord Slow Scottis Jam collection
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+P: ABCBA
+M: C|
+L: 1/8
+K: Dm
+%%scale 0.80
+"A"|:\
+"Dm"vDFAB A(FuDF) |\
+"Dm"ABAF "G7"D(E (3FED) |\
+"C"C3E G3(e |\
+"Dm"ufe)dc "Am"AGF(uE |
+"Dm"DF)AB A(FuDF) |\
+ABAF "G"D(E (3FED) |\
+"C"C3(E uGA)GE |\
+[1 "Dm"D(CuA,G,) "Am"A,3A, :|
+[2 "Dm"D(CuA,G,) "Am"A,3 uA \
+"B"|:[K:=B][K:D]\
+("Asus4"dcA)(d ucA)d(A u|\
+"Em7"G2)BG DGBG |\
+("A7sus4"dvcA)(d cA)ag |
+[1,3 "A7sus4"e(dcA) "D"d3ue :|\
+[2 "A7sus4"e(ducA) "D"(dcd)e :|\
+[4 "A7sus4"e(ducA) "D"d2z2 "C":|\
+[K:=f=c][K:Dm]\
+("Dm"FvED)(F ED)F(uD |
+"C"C2)EC G,CEC |\
+("Bb"vFED)(F ED)F(D u|\
+"Am"ED)CE "Dm"DCDD |\
+("Dm"vFED)(F uED)F(D |
+"C"C2)EC "/G"G,CEC |\
+("Bb"vFED)(F ED)F(uD |\
+[1 "Am"ED)CE "D"D2 zD :|\
+[2 (y"Am"ED)CE "D"D2 zA |]
+

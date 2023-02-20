@@ -1,0 +1,29 @@
+X: 552
+T: Sher (Dave Tarras' extra parts to Sher 1)
+O: Dave Tarras
+D: Dave Tarras "Freylakh in Hi-Fi"
+M: 2/4
+L: 1/16
+K: E exp =f^g
+P:A
+|: "E"e4 defd | e4 gfed | efde gegb | "(Dm)"a2g2 f2e2 |\
+  "E"e4 defd | e4 gfed | efde bagf | "E"e4 z4 :|
+P:B
+|: "Am"a6 gf | "E" g6 e2 | "Am"{gb}aaaa {a}g2{a}gf | "E"g6 e2 |\
+  eggg gffe | ebbb baag | "(Dm)"d'c'ba gabc' | "E"b6 z2
+| "Am"a6 gf | "E" g6 e2 | "Dm"efff feed | d6 z2 |\
+  ^cdcd efed | "(E)"efef g3e | bagf "Dm"gfed | "E"e6 z2:|
+P:C
+|:  "E"e'3b d'c'ba | bagf gfed | ec'ba gabc' | b6 ^c'2 |\
+  "D(m)"d'4 d'c'ba | "D7"baa=g "G"g4 | =gdga "D7"bag^f | "G"=g6 g2
+| "E"T^g3e bagf | gfed e4 | eBeg bagf | gfef "Dm"d4 |\
+  ^cdcd efed | "(E)"efef g4 | bagf "Dm"gfed |[1 "E"e4 z4 :|[2 "E" e4
+K: Em
+P:D
+|: zBef |\
+  "Em"gfe2- e2g2 | "Am"gba2 a4 | "Em"gfe2- e2g2 | "Am"Ta3g Ta3g |\
+  "Em"gfe2- e2g2 | "Am"gba2 a3^a | "B7"baag gffe | "Em"e4 :|
+P:E
+|: "D7"z2cd |\
+  "G"d2g2 b3a | abg2- gbc'^c' | "D7"d'c'c'b ~b2ag | "G"ab g6 |\
+  "G"d2g2 b3a | "(Em)"abg2- gBeg | bgaf "B7"gef^d | "Em"e4 :|

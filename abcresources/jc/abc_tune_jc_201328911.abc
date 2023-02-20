@@ -1,0 +1,32 @@
+X: 134
+T: the Red Ribbon
+T: Longways for &c.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.67
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: 6/8
+L: 1/8
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"Em"e2B "B7"B2A | "Em"GFG E2B | efg "B7"f2e | ^def B3 |\
+"Em"gfe "D7"d2c | "G"B3 g3 | dcB "D7"AGF | "G"G3- G3 :|
+|:\
+"G"BAG B2c | "A7"de^c "D"d3 | AGF A2B | "Am"cBA "B7"B2f |\
+"Em"gfe "B"^def | "Am"A3 ABc | "B7"BAG F2E | "Em"E3- E3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st Cu. cross over and turn hands round
+%% all four, and back again with 3d Cu. in 2d Cu.
+%% place .| the 2d Cu. do the same :| the 1st Cu.
+%% being at top cross over and turn hand sides
+%% half round, and back again into the 2d Cu.
+%% place .| the other two do the same, which
+%% brings them into the 2d Cu. place, the 1st
+%% Cu. cast off :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

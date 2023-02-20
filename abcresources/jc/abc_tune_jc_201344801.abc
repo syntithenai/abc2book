@@ -1,0 +1,18 @@
+X: 690
+T: Tim the Market Man
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #690
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0690/oneill-1001-0690-1.abc
+M: C|
+L: 1/8
+K: C	% Starting on Am, and ending on C.
+%%slurgraces 1
+%%graceslurs 1
+"^A"\
+[| A>AGE (3(AcA) GE | (3(AcA) GE G2 (3(EFG) | AA2c BGGB | AddB {d}cc ||
+|| ec | A>AGE (3(AcA) GE | (3(AcA) GE G2 (3(EFG) | AA2c BGGB | Ad{e}dB c2 |]
+"^B"\
+[| (cd) | ee2d efg2 | GAGE G2EG | AA2c BGGc | Ad{e}dB c2 ||
+|| cd | (3(efg) ed efg2 | GAGE G2(3(EFG) | AA2c BGGc | (Ad{e}dB) c2 z2 |]

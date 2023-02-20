@@ -1,0 +1,76 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 44
+B: RSCDS Book 44
+K:
+%%center Book44/4400-Title.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 44071
+T: Castledykes Reel
+C: Ian Holmes
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 44-7
+B: Originally Ours p.134 #4407
+M: 2/4
+L: 1/16
+%--------------------
+K: G
+   d2 \
+| "G"g2d2 d^cd2 | "C"e2c2 cBc2 | "G"d2B2 "E/G#"BedB | "Am"c2A2 "D7"A2d2 \
+| "G"g2d2 d^cd2 | "C"e2c2 cBc2 | "G"d2cB   "D7"AcBA | "G"G2B2 "fine"G2 |]
+|: GA \
+| "G"B2B2 "E/G#"BedB | "Am"c2A2 A3G | "D7"FGAB cAfe | "G"d2B2 B2GA \
+| "G"B2B2 "E/G#"BedB | "Am"c2A2 A3G | "D7"FGAB cedc | "G"B2G2 "d.C."G2 :|
+%%center Book44/44071-Castledykes_Reel-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Castledykes Reel
+C: Ian Holmes
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 44-7
+B: Originally Ours p.134 #4407
+M: 2/4
+L: 1/16
+K: G
+   d2 \
+| "G"g2d2 d^cd2 | "C"e2c2 "(Am)"cBc2 | "G"d2B2 "E/G#"BedB | "Am"c2A2 "D7"A2d2 \
+| "G"g2d2 d^cd2 | "C"e2c2 "(Am)"cBc2 | "G"d2cB   "D7"AcBA | "G"G2B2 "fine"G2 |]
+|: GA \
+| "G"B2B2 "E/G#"BedB | "Am"c2A2 A3G | "D7"FGAB cAfe | "G"d2B2 B2GA \
+| "G"B2B2 "E/G#"BedB | "Am"c2A2 A3G | "D7"FGAB cedc | "G"B2G2 "d.C."G2 :|
+%%center Book44/CastledykesReel_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Castledykes Reel
+C: Ian Holmes
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 44-7
+B: Originally Ours p.134 #4407
+M: 2/4
+L: 1/16
+K: G
+   d2 \
+| "G"g2d2 d^cd2 | "C"e2c2 "(Am)"cBc2 | "G"d2B2 "E/G#"BedB | "Am"c2A2 "D7"A2d2 \
+| "G"g2d2 d^cd2 | "C"e2c2 "(Am)"cBc2 | "G"d2cB   "D7"AcBA | "G"G2B2 "fine"G2 |]
+|: GA \
+| "G"B2B2 "E/G#"BedB | "Am"c2A2 A3G | "D7"FGAB cAfe | "G"d2B2 B2GA \
+| "G"B2B2 "E/G#"BedB | "Am"c2A2 A3G | "D7"FGAB cedc | "G"B2G2 "d.C."G2 :|
+%%center Book44/CastledykesReel_G_JC.abc

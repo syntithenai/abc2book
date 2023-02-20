@@ -1,0 +1,22 @@
+X: 631
+T: O'Carolan's Devotion - 2nd Setting
+R: air, waltz, minuet
+%S: s:8 b:32(4+4+4+4+4+4+4+4)
+B: O'Neill's 1850 #631
+Z: 1999 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/
+Z: Ted Hastings, ted@hastings.nu
+N: k represents a ">" stress.
+N: T represents a trill.
+U: k=!emphasis!
+Q: "Animated"
+M: 3/4
+L: 1/8
+K: Gm
+!p!(g>a) | kb2 (b//a//g3/) (g//a//b3/) | {g}kf2 (d>e) kf2 | (dcBA) (TG>F) | kF4 ||
+|  (G>A) | B2 (B//c//d3/) (d//c//B3/) | kc2 (d^fgd) | (.c.B.A.G) (.G>.G) | kG4 :|
+[|(TG>F) | (D2 F2) .F2 | (kF>G) !p!(FE)(TD>C) | !f!(D2 G2) kG2 | (G>A) !p!(GF) (T=E>D) ||
+    y4   | !f!(D2 B2) .B2 | (B>c)(B>A)(G>A) | (F2 f2) .f2 | kf4 ||
+|| (g>a) | b2 (b>ag>a) | (b2 d2) .d2 | (d>c) (B>cd>=e) | !p!(f2 A2) .A2 |
+|  (B>A) (G>AB>c) | d2 A2 (A>G) | (GF) (T=E>D)(D>E) | D4 ||
+|| (d=e) | !f!f2 (f//g//a3/) (^f//g//a3/) | gz g2 (fd) | !p!(cABA) (TG>F) | F4 ||
+|  (G>A) | B2 !f!(B//c//d3/) (d//c//B3/) | c2 (d^f)(g>d) | (k.c.B.A.G) !p!(.G>.G) | G4 |]

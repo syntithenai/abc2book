@@ -1,0 +1,30 @@
+X: 1
+T: Whely House
+P: Longways for as many as will
+%R:
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.336
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The tune has no time signature.  The 2nd e in bar 7 actually has a sharp sign, which makes no sense.
+N: Various other versions of this tune have e-flat for the first e in bar 7, and it sounds OK.
+M: 4/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+c2 c2 c2 A2 | G>A B>c A2 F2 |\
+B>A B>c d>ed>c | =B>g d>f e2 c2 |][|\
+_e2 e>f d>B d>f | A>B (=B>A=B/) c2 A2 |\
+B>c d>e c>d =ef | g>B A>a g2 f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. take Hands and lead up, then face about, the 2. cu. take Hands and lead down and face
+%% about at the same time, the 1. and 2. man hands a whole round, the 1. and 2. we. do the same at the
+%% same time .| The 1. and 2. man take hands and lead to the wall, then face about, the two we. do the
+%% same at the same time, and turn your Partners a whole round to their own places :| The 1. man and
+%% 1. wo. cross over into the 2. cu. places, and run the Figure of 8 in the inside of the 2. cu. places, the 1.
+%% man and wo. take hands and least [sic] down through the 3. cu. and cast up, the 1. man and his wo. turn a
+%% Whole round into the 2. cu. places.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,30 @@
+X: 10812
+T: CUIR A GHAOIL DILEAS THARRUM DO LAMBH.
+T: "Place, true Love, thine arm around me."
+O: Gaelic air.
+Q: "Slow with expression."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.81 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+N: Corrected length of 1st note (g) in bar 2 to be like similar bars later in the tune.
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/16
+K: Edor
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+B4~d2 e4f2 | g3(bag) {g}f4e2 | {e}d2B2g2 {f}f4e2 | {e}^d3Be2 E4EF |\
+G3ABc d3^ce2 | e3fga {g}f4e2 | d2B2(AG) {G}B4AF | G3AF2 E4 :|
+|: e2 |\
+g4a2 b4c'2 | b2a2g2 f2e2d2 | (g3fg2) (a3^ga2) | b3^ab2 B4ga |\
+b2(c'b)(ag)  a2(ba)(gf) | edcBg2 {g}f4e2 | d2B2AG {G}B4AF | G3AF2 E4 :|
+|: e2 |\
+eB3 ze eB3 (ef) | g2E2bg {g}f4e2 | {e}d2B2(de/f/) g4f2 | e3^de2 E4EF |\
+GFGABc (3(ded) (3(cdc) B2 | egfaga Hb4 zb/e/ | (ed)(cB)(AG) A3(Bc B/c/^d/e/) | G3AF2 E4 :|
+|: e>f |\
+g4g2 a4a2 | b4b2 {b}a2g2f2 | e^defga (ba)(gf)(e^d) | e2E2E2 E4GA |\
+(Bb).a.g.f.e (dg).f.e.d.c | (BA).G.A.B.g {g}f4 Hb2 | e2(B2AG) {G}B4 AF | G3AF2 E4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

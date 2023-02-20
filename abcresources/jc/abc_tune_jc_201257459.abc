@@ -1,0 +1,28 @@
+X: 23
+T: the Bucks of Oranmore
+R: reel
+Z: 2012 John Chambers <jc@trillian.mit.edu>
+B: "100 Essential Irish Session Tunes" 1995 Dave Mallinson, ed.
+M: 4/4
+L: 1/8
+K: D
+%
+|: "D"A2-AF A2dB | A2FA "Em"BE~E2 |\
+[1 "D"A2-AF A2AB | "(G)"defd "A7"ecdB :|\
+[2 "D"DEFG AFAB | "(G)"defd "A7"ecdB |]
+%
+|: "D"ADFD ADBD | ADFA "Em"BE~E2 |\
+[1 "D"ADFD A2AB | "(G)"defd "A7"ecdB :|\
+[2 "D"DEFG AFAB | "(G)"defd "A7"efge |]
+%
+|: "D"a2fd edBf | a2fa "Em"be~e2 |\
+[1 "D"a2fd edBd | "G"gefd "A7"edBf :|\
+[2 "D"fdad bdaf | "G"((3efg) fd "A7"edBe |]
+%
+|: "D"f2df ((3efe) de | f2df "Em"edBe |\
+[1 "D"f2df edBd | "G"gefd "A7"edBe |\
+[2 "D"fdad bdaf | "G"((3efg) fd "A7"edBd |]
+%
+|: "D"Adfd edfd | Adfd "Em"edB \
+[1 d | "D"Adfd adfd | "G"((3efg) fd "A7"edBd :|\
+[2 e | "D"fdad bdaf | "G"((3efg) fd "A7"efdB |]

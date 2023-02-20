@@ -1,0 +1,86 @@
+
+X: 1
+T: Bagl\aens Kontraseyre #1
+O: Denmark
+M: 2/4
+L: 1/16
+K: D
+A,2 \
+| "D"D2DD D2DD | D2F2 A2F2 | "A7"E2EE E2EE | E2G2 B2G2 \
+| "D"A2AA A2AA | A2d2 e2f2 | "A7"g4 f4 | "fine"e6 :|
+|: a2 \
+| "D"a2f2 d2f2 | "A7"g2e2 A3f | g2e2 c2e2 | "D"fdAF D4 \
+| "D"D2DD D2F2 | A2AA A2f2 | "A7"g2e2 c2e2 | "D"d6 :|[K:=c]
+K: G
+|: d2 \
+| "G"d3B B2B2 | B4 A2B2 | "D7"c2B2 A2G2 | F2E2 D2d2 \
+| "G"d3B B2B2 | B4 A2B2 | "D7"c2A2 F2A2 | "G"G6 :|
+|: G2 \
+| "D7"F2G2 A2B2 | c4 A2F2 | "G"G2A2 B2c2 | d4 B2G2 \
+| "D7"F2G2 A2B2 | c4 A2F2 | "G"G2B2 "D7"A2F2 | "G"G6 :|
+
+
+X: 1
+T: Bagl\aens Kontraseyre #2
+O: Salling, Denmark
+M: 2/4
+L: 1/16
+K: D
+A,2 \
+| "D"D2DD D2DD | D2F2 A2F2 | "A7"E2EE E2EE | E2G2 B2G2 \
+| "D"A2AA A2AA | A2d2 f2a2 | "A7"g2ag f2gf | "fine"e6 :|
+|: a2 \
+| "D"a2f2 d2f2 | "A7"(3g2e2c2 A4 | g2e2 c2e2 | "D"(3f2d2A2 F4 \
+| "D"D2DD D2F2 | A2AA A2f2 | "A7"g2e2 c2A2 | "D"d6 :|[K:=c]
+K: G
+|: d2 \
+| "G"d2B2 B2B2 | B4 A2B2 | "D7"c2B2 A2G2 | F2E2 D2d2 \
+| "G"d2B2 B2B2 | B4 A2B2 | "D7"c2A2 F2D2 | "G"G6 :|
+|: G2 \
+| "D7"F2G2 A2B2 | c4 A2F2 | "G"G2A2 B2c2 | d4 B2G2 \
+| "D7"F2G2 A2B2 | c4 A2F2 | "G"G2B2 "D7"A2F2 | "G"G6 :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: le Bal de Jugon
+O: France
+M: 2/4
+L: 1/8
+K: D
+|: "D"F2 F>E | ED D2 | DF FA | "Em"AG G2 | "A7"G2G>F | FE E2 | ED CD | FE "D"D2 :|
+|: "D"DE F2- | FF AA | DE F2- | FF AA | DE F2 | D2 "A7"E>E |1 DC "D"D2 :|2 DC "D"D2 | "A7".C2 "D".D2 |]
+
+
+X: 2
+T: le Bal de Jugon (with harmony)
+R:
+O: Brittany
+N:
+N: The dance was introduced in the United States in 1966 by Germain & Louise H\'ebert.
+N: There is a feel of a missing (or extra) beat between the parts, because the second part
+N: has the strongest beat in the middle of each bar.  The bar lines for the second part could
+N: be shifted by half a bar.
+Z: 1997 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/8
+K: D
+|: "D"[F2A] [FA]>[EG] \
+| [EG][DF] [D2F] \
+| [DF][FA] [FA][Ad] \
+| "Em"[dA][GB] [G2B] \
+| "A7"[G2c] [Gc]>[FB] \
+| [FB][EA] [E2A] \
+| [EA][DB] [CA][DB] \
+| [FA][EG] "D"[D2F] :|
+|: "D"[DF][EG] [F2A]- \
+| [FA][FA] [Ad][Ad] \
+| [DF][EG] [F2A]- \
+| [FA][FA] [Ad][Ad] \
+| [DF][EG] [F2A] \
+| [D2F] "A7"[EG]>[EG] \
+|1 [DF][CG] "D"[D2F] \
+:|2 [DF][CG] "D"[D2F] \
+| "A7".[C2A] "D".[D2F] |]

@@ -1,0 +1,25 @@
+X: 10513
+T: FRENCH MELODY
+Q: "Briskly."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.51 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The initial segno is rather pointless.
+M: 6/8
+L: 1/8
+K: B
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!Bcd |\
+F3 (FG)A | B2z z2B | c2c ({d}cB)c | d2B Bcd |\
+F3 (FG)A | B2z z2d | c2c (cd)c | B2z z2B |\
+c2F c2F | (d3 f2)d | (c2c) (cd)c | "^Fin."B2z H|]\
+BGF |\
+=E2E c2c | c2A FGA |
+A3 BG=E | F2z FGF |\
+_E3 EGF | D2D BAB | c2B (BA)B | c2z zFF |\
+e3 ecd | (B2d) FFF | e3 ecd | B2z z2d |\
+d2c (cB)G | (A2c) F2d | d2d (cB)G | F2"^D.C."z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,51 @@
+
+X: 1
+T: Rad halayla
+C: Lyrics: Y.Orland
+C: Music: folk tune
+M: C
+L: 1/8
+K: Dm
+"A"\
+[|"Dm"z D2 D F2 D2 | z F2 F "Gm"G2 "Dm"F2 \
+| "Gm"z G2 F "A7"FE ED | "D"F4 F4 |
+w: Rad ha-lay-la rav shi-rey-nu ha-bo-key-a la-sha-ma-yim.
+| "Dm"z D2 D F2 D2 | z F2 F "Gm"G2 "Dm"F2 \
+| "Gm"z G2 F "A7"FE ED | "D"D4 D4 ||
+w: Shu-vi shu-vi ho-ra-tey-nu m'-chu-de-shet shiv-a-ta-yim.
+"B"\
+||"Dm"F>G AG "G"GG G2 | "Gm"GF AG "Dm"FF F2 \
+| "Bb"F G2 F "C7"FE ED |
+w: shu-vi shu-vi v'-na sof ki dar-key-nu eyn la sof ki od nim she-chet ha-shal-
+| "F"F4 F4 | "Dm"F>G AG "G"GG G2 | "Gm"GF AG "Dm"FF F2 |
+w: she-let. Ki li-bey-nu lev e-chad me-o-lam v'-a-dey-ad
+| "Bb"F G2 F "C7"FE ED | "Dm"D4 D3 D "C"|| \
+  "Dm"F3 G "/C"F3 G | "G7/B"FG "Bb/A"FG "Dm/A"F4 ||
+w: ki ok nim she-chet ha-shal-she-let. lai lay lai lai lai lai lai lai lai lai
+"D"\
+||"Dm"F>D "Gm"GF "Dm"FF F2 | "Dm"F>D "Gm"GF "Dm"FF F2 \
+| "Dm"F>D "D7"BA "Gm"GG G2 | "Dm"F>D "D7"BA "Gm"GG G2 |
+w: lai lai lai...
+| "Gm"GA B2 "F"AG A2 | "Em"GF G2 "Dm"FE D2 \
+| "Gm"G2 G>G "C7"GF AG | "F"F8 "E"|:"Dm"F>G AG "G"GG G2 |
+w: lai lai lai ... | | | | Ki li-bey-nu lev e-chad
+| "Gm"GF "C7"AG "Dm"FF F2 | "Bb"F G2 F "C"FE ED |1 "F"F4 F4 :| "Dm"[d4D4] [d2D2] z2 |]
+w: me-o-lam v'-a-dey-ad ki ok nim she-chet ha-shal-she-let. she-let.
+
+
+%%sep 3 1 500
+
+X: 2
+T: Rad halayla
+C: Lyrics: Y.Orland
+C: Music: folk tune
+M: C
+L: 1/8
+K: Em
+"A"\
+[|"Em"z E2 E G2 E2 | z G2 G "Am"A2 "Em"G2 | "Am"z A2 G "B7"GF FE | "E"G4 G4 | "Em"z E2 E G2 E2 | z G2 G "Am"A2 "Em"G2 |
+| "Am"z A2 G "B7"GF FE | "E"E4 E4 "B"|| "Em"G>A BA "A"AA A2 | "Am"AG BA "Em"GG G2 | "C"G A2 G "D7"GF FE | "G"G4 G4 |
+| "Em"G>A BA "A"AA A2 | "Am"AG BA "Em"GG G2 | "C"G A2 G "D7"GF FE | "Em"E4 E3 E "C"|| "Em"G3 A "/D"G3 A | "/C#"GA "/B"GA "/B"G4 ||
+"D"\
+||"Em"G>E "Am"AG "Em"GG G2 | "Em"G>E "Am"AG "Em"GG G2 | "Em"G>E "E7"cB "Am"AA A2 | "Em"G>E "E7"cB "Am"AA A2 | "Am"AB c2 "G"BA B2 | "F#m"AG A2 "Em"GF E2 |
+| "Am"A2 A>A "D7"AG BA | "G"G8 "E"|:"Em"G>A BA "A"AA A2 | "Am"AG "D7"BA "Em"GG G2 | "C"G A2 G "D"GF FE |1 "G"G4 G4 :| "Em"[e4E4] [e2E2] z2 |]

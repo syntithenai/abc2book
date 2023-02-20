@@ -1,0 +1,16 @@
+X: 1031
+T: The Old Story Teller (A14)
+N: page A14
+N: heptatonic
+M:2/4
+L:1/16
+N:"collected by J. O'Neill"
+B:O'Neill's 1752
+R:Hornpipe
+Z:"Transcribed by Bob Safranek, rjs@gsp.org"
+K:G
+Q:1/4=60
+((3DEF) |"G" G2GA  BcdB |"C" cBcd e2((3def) |"G" gfge dBGB |"D" cBAG FADF |
+  "G" G2(GA) BcdB |"C" {d}cBcd  e^deg |"D"  bgdB {d}cAFD |"G" G2G2 G2  :|
+|: ((3def) | {a}gfga bgdB |"C" {d}cBcd ecAf|"G" {a}gfga bgdB |"C" cdef "G"g2(ga)|
+"G"((3bag) fa ((3gfe) df | ((3edc) ge dBGB |"D" dgfg fdcA |"G" G2G2 G2  :|

@@ -1,0 +1,25 @@
+X: 10500
+T: Varsovienne Waltz
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Record No. 110-B
+R: waltz
+M: 3/4
+L: 1/8
+K: G
+D>G |\
+"G"([GB2]D) ([GB2]D) ([GB2]D) | "D7"([dF4]>c A3) D/F/ |\
+"D7"([FA2]D) ([FA2]D) ([FA2]D) | "G"([cD4]>B G3) D |\
+"G"[B2G2] [A2F2] [G2E2] | "D7"[GE]>[FD] [F4D4] |\
+"D7"[A2F2] [G2E2] [E2C2] | "G"[D6B,6] |
+"A7"[AE4]>B A2 [A2G2] | "D"[d2F2] [A2F2] [A2F2] |\
+"B7"[BF4]>c B2 [B2A2] | "Em"[e2G2] [B2G2] [B2G2] |\
+"D7"[dA4]>e d2 [d2F2] | "G"[eG4]>d e2 [d2B2] |\
+"Am"(3[cA2E2]dc "G"[B2G2D2] "D7"[A2F2C2] |\
+"G"[G2D2B,2] "A7"[A2G2^C2] "D"H[d2F2] || [BGD] ||
+|:\
+"G"[B4G4D4] "C/G"[c2G2E2] | "C"[c4G4E4] "G"[B2G2D2] |\
+"D7"[B2F2-] [A2F2] [c2F2] | "D7"[c4F4] [B2F2] |\
+"D7"[B2F2-] [A2F2] [c2F2] | "D7"[c4F4] [B2F2] |\
+[1 "G"[B2-G2] [B2-D2] [B2-G2] | "G"[B2-G2] [B2-D2] [B2-G2] :|\
+[2 "G"G6- | "G"G2 !D.C.!z2 |]

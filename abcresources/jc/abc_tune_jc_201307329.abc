@@ -1,0 +1,33 @@
+X: 1
+T: the Marlborough
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.345
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The time signature is actually just "2", then just "3".
+N: The next-to-last bar is missing an 8th-note, fixed by interpreting the (fuzzy) e grace note as an initial e.
+N: Repeats not added, due to the ambiguities in doing so correctly.
+M: 2/2
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+g2ef g2ef | gfga g2c2 | g2ef g2fe | dcde d4 |\
+f2fg a2f2 | a2gf e3f | g2g2 g2fe | decd B2G2 |
+c3d (d3c/d/) | e3f (f3e/f/) | g2(cd) d3c | c8 |[M:3/4][L:1/8] g2 |\
+e2 c2 g2 | e2 c2 g2 | a2 e2 (fe/f/) | g6 ][ d2 |\
+e2 fedc | d2 G2 d2 | e2 fedc | d4 d2 |
+g2 d2 e2 | B3 c d2 | cB A3 G | G4 g2 |\
+e2 c2 g2 | e2 c2 g2 | a2 e2 (fe/f/) | g4 g2 |\
+agfedc | B2 G2 e2 | ed d3 c | c6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text Note: Each Strain twice over.
+%%begintext align
+%% The 1. man and 2. wo. Set to each other, and then Figure the whole Figure round their own partners
+%% .| The other two do the same :| Then 1. man turns the 2. wo. cross with the Minuet Step, the other
+%% two the same; Then hands quite round; Then turn hands sides half round and back again; the 1. couple
+%% being at the top, both cast off and turn.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

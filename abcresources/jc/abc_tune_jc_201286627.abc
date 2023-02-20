@@ -1,0 +1,26 @@
+X:1
+T: Hillingdon Heath
+N:AKA  "Watch the Birdie"
+C:Tune is "Morgan Meghan" by O'Corolan
+S: Play  3  times
+A:
+O:
+R:
+M:4/4
+K:C
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 44 notes)
+K:C
+M:4/4
+L:1/16
+G4 |G4 c4 c4 d4 |f2 e2 d2 c2 e2 f2 g4 |a4 d4 d4 c4 |c2 B2 A2 G2 G4 A2 B2 |c8 c2 B2 c2 d2 |c4 B2 A2 G6 c2 |B2 c2 d4 d4 A2 c2 |B4 G4 G4 A2 B2 |
+%W: A2
+% voice 1 (1 lines, 37 notes)
+c6 c2 d2 c2 d2 B2 |c12 e4 |f6 e2 d4 e2 f2 |g8 a8 |g4 e4 f2 e2 d2 c2 |d2 c2 B2 A2 G4 A2 B2 |c6 c2 d2 c2 d2 B2 |c12 g2 f2 |
+%W: B1
+% voice 1 (1 lines, 40 notes)
+e4 g4 g4 a2 b2 |c'4 c4 e2 f2 g4 |c'4 c4 e2 f2 g4 |a2 g2 f2 e2 d6 f2 |e2 d2 e2 f2 g4 e4 |a4 f4 g4 e4 |f4 d4 g4 c4 |B4 G4 G4 c2 B2 |
+%W: B2
+% voice 1 (1 lines, 43 notes)
+A4 F4 F6 G2 |A4 F4 F6 A2 |B4 G4 G4 d2 c2 |B2 c2 A2 B2 G4 e2 f2 |g2 c2 e2 g2 a2 g2 f2 e2 |f2 e2 d2 c2 B2 c2 d2 B2 |G4 c4 d2 c2 d2 B2 |c12 ||

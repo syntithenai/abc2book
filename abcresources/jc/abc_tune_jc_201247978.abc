@@ -1,0 +1,182 @@
+
+X: 0
+T: ASH GROVE STANDPIECE
+K:
+
+
+X: 1
+T: Chain Cotillion  v.1
+P: piffero primo b0049
+O: safd
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/ashgroveF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+z2 |\
+G4 d4 | B2AB G2AB | c2B2 A2G2 | FGAF D3D |\
+E4 F4 | GFGA G2d2 |
+(cB)AG (BA)GF | G6 :: d2 |\
+dedc B2d2 | dedc B2d2 | e2d2 e2f2 | g4 d2ef |\
+g2fe d2cB |
+e2dc B2AB | c2B2 A2G2 | F2EF D3D |\
+E4 F4 | GFGA G2d2 | cBAG BAGF | G6 :|
+
+
+X: 2
+T: Chain Cotillion  v.2
+P: piffero secondo a0209
+O: safd
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/ashgroveF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+z2 |\
+G4 d4 | B2AB G2AB | A2G2 F2E2 | D6 D2 |\
+C4 D3C | B,A,B,C B,2B2 |
+(AG)FE D2C2 | B,6 :: B2 |\
+BcBA G2B2 | BcBA G2B2 | c4 c2Ac | B4 G2cd |\
+e2dc B2A2 |
+AGF2 G2FG | A2G2 F2E2 | D6 D2 |\
+C4 D3C | B,A,B,C B,2B2 | (AG)FE D2C2 | B,6 :|
+
+
+X: 3
+T: Ash Grove  v.1
+P: piffero primo b0054
+O: safd
+%R: waltz
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/ashgroveF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+D2 |\
+G2B2d2 | B2G2G2 | A2cBAG | F2D2D2 | G2BAGF | E2C2E2 | D2G2F2 | G4 :: Bc | d2Bcde | d2c2B2 | c2ABcd |
+c2B2A2 | B2GABc | B2A2G2 | A2d2^c2 | d4 D2 | G2B2d2 | B2G2G2 | A2cBAG | F2D2D2 | G2BAGF | E2C2E2 | D2G2F2 | G4 :|
+
+
+X: 4
+T: Ash Grove  v.2
+P: piffero secondo a0210
+O: Greg Bacon
+%R: waltz
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/ashgroveF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+z2 | "_8vo..."\
+B4B2 | d4d2 | cde2fe | d2A2c2 | B2d2B2 | c4B2 | A2B2dc | B4 :: z2 | "_8vo..."f2gabc' | b2a2g2 | g2f2e2 |
+d4e2 | d4d2 | g2f2e2 | d2f2ag | fed2c2 | B4B2 | d4d2 | cde2fe | d2A2c2 | B2d2B2 | c4B2 | A2B2dc | B4 :|
+
+
+X: 5
+T: Ash Grove  v.3
+P: piffero terzo a0211
+O: Greg Bacon
+%R: waltz
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/ashgroveF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+z2 | "_8vo..."\
+G4D2 | G2B2AG | F2G2A2 | DEFGA2 | G3FE2 | G4E2 | F4A2 | G4 :: z2 | "_8vo..."dcBAG2 | GABcd2 | c3BA2 |
+A3Bc2 | BAG2F2 | G2A2B2 | F2D2E2 | F3GA2 | G4D2 | G2B2AG | F2G2A2 | DEFGA2 | G3FE2 | G4E2 | F4A2 | G4 :|
+
+%%center (8 bar drum bridge)
+
+
+X: 6
+T: King William's March  v.1
+P: piffero primo b0046
+O: Robinson 1818
+R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/ashgroveF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Ador
+cB |\
+A2e2 e2ge | dcBA G2AB | c2A2 edcB | A4 E2cB |\
+A2e2 e2ge | dcBA G2AB | c2A2 edcB | A4 z2  :|
+|: d2 |\
+e3f  g3a  | g2e2 d4   | efg2 a2b2 | a4 e2e2 |\
+g2a2 g2e2 | dcBA G2AB | c2A2 edcB | A4 z2  :|
+
+
+X: 7
+T: King William's March  v.2
+P: piffero secondo b0047
+O: M.E. Bosse
+R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/ashgroveF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Ador
+z2 |\
+C6 c2 | BAGF G2D2 | E4 CDE2 | EDCB, A,2z2 |\
+C6 c2 | F4   GFED | E4 ^G4  | C4 z2 :|
+|: B2 |\
+c3d  B3A  | B2c2 B4 | cde2 f2g2 | edcB A2E2 |\
+B2c2 B2c2 | F4 B2cd | e4  ^G4   | C4   z2  :|
+
+%%center (4 bar drum bridge)
+
+
+X: 8
+T: Germantown Hook  v.1
+P: piffero primo a0141
+O: Ed Olsen
+%R: jig, march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/ashgroveF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+B |\
+E2F G2A | B2c BAG | A2G E2D | E3- E2F |\
+G2A B2c | d2e d2B | c<Az d2c | B3- Bcd |
+e2f gfe | (f3g2)Tf | e2d B2A | B<Ez F2G |\
+A2B cde | d2B GAB | TA2G TE2D | E3- E2 :|
+
+
+X: 9
+T: Germantown Hook  v.2
+P: piffero secondo a0212
+O: Greg Bacon
+%R: jig, march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/ashgroveF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+z |\
+(B,2A,) B,2D | B,CF GFG | F2z G2A | B3- B2d |\
+B,CD EFG | F2G A2B | E<Fz G2e | F3 G2A |
+G2B d2c | d3 B2d | c2G FGA | G<B,z D2E |\
+C2F E2A | B2G D2E | F2D G,1A, | B,3- B,2 :|
+
+
+X: 10
+T: Katy Hill Outro, 8 bars
+P: piffero primo a0213
+O: arr Greg Bacon
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/ashgroveF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+d2 |\
+G2A2 B2d2 | g2(3(fgf) e2d2 | B2G2 d2G2  | ABAG TE2D2 |\
+G2A2 B2d2 | g2(3(fgf) e2d2 | e2d2 e2Tf2 | g2z2 |]
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

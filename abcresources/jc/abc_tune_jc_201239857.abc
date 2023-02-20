@@ -1,0 +1,24 @@
+X: 344
+T: Sirba very (Old sirba)
+R: sirba
+Q: 1/4=150
+B: German Goldenshteyn "Shpilt klezmorimlach klingen zoln di gesalach" New York 2003 v.3 #44
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Reformatted to have 8-bar staff lines (plus multiple ending bars).
+N: Reworked the endings to phrase 2, to not include the identical bar 31.
+M: 2/4
+L: 1/8
+K: Em
+|:\
+(eg) (eg) | (bg) b2 | ba2g | a4 |\
+d'a2g | (3agf ef | g2 d2 | B2 G2 |
+(eg) (eg) | (bg) b2 | ba2g | a4 |\
+d'a2g | (3(bag) (3(gfe) | e4- | e2z2 :|
+|: (d'e') (e'd') | (d'c') (d'b) | b2 e'2 | e'4 |\
+(d'e') (e'd') | (d'c') (c'b) | b3 a | (3(c'b)a g2 |
+(d'e') (e'd') | (d'c') (c'b) | (ba) (ag) | (ab) g2 |\
+ba2g | (3(ba)g (3(gf)e | e4- |[1 e2z2 :|[2 ed gb ||
+|: d'2 (3(d'c')b | d'2 (3(d'c'b) | d'2(3(d'c'b) | (3(c'ba) (3(bag) |\
+{d'}c'b2c' | (3(=f'e')d' (3(^c'd')e' | d'4 | zdgb |
+d'2 (3(d'c')b | d'2 (3(d'c')b | b3 a | c'4 |\
+ba2g | (3(bag) (3(agf) | e4- |[1 e dgb :|[2 ez z2 |]

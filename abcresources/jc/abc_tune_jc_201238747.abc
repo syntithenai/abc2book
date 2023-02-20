@@ -1,0 +1,22 @@
+X: 3125
+T: MISS YOUNG
+Q:"Strathspey."
+R: Strathspey.
+%R:strathspey
+B: James Kerr "Merry Melodies" v.3 p.15 #125
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The barring in bar 8 is a bit unusual; the middle group should be split.
+M: C
+L: 1/16
+K: C
+(uEF) |\
+G3E Gc3 G3E Gc3 | e3d ce3 ddd2 d3E |\
+G3E Gc3 GE3 Gc3 | F3A GE3 CCC2 C3E |\
+G3E Gc3 G3E Gc3 |
+e3d ce3 ddd2 d3E |\
+G3E Gc3 GE3 Gc3 | F3A GE3 CCC2 C2 |]\
+(ef) |\
+g3a ge3 g3a ge3 | c3eg3e ddd2 (d2ef) |
+g3a ge3 g3a ge3 | f3dg3e ccc2 (c2ef) |\
+g3a ge3 g3a ge3 | F3a E3g DDD2 (D3E) |\
+C3DE3F G3AB3c | G3EF3D CCC2 C2 |]

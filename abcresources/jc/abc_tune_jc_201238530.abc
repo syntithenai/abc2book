@@ -1,0 +1,30 @@
+X: 30961
+T: COTILLION No. 10. MEDWAY SETT tune 1
+C:
+%R: jig
+N: This is version 2, for ABC software that understands voice overlays.
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.96 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+g & z |\
+g6 & z2z GAB | e2x x3 & c2c cde | f2e d2c | x3 x2g & BcA Ggz  |\
+g6 & z2z GAB | e2x x3 & c2c cde | fed g2G | c3 c2 H|]
+d |\
+dBd dBd | d2c A2c | BdB dcA | GDG ADd |\
+dBd dBd | d2c A2c | c>BA d2^F | G3 "^D.C."G2 |]
+c |\
+c2c B2A | A2G G2G | GEG FDF | EDE D2c |\
+c2B A2G | F2F f2f | ege fdB | c3 "^D.C."c2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Gentlemen balance to the right,
+%% chassa,
+%% balance.
+%% Ladies, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

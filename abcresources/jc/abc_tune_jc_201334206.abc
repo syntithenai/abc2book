@@ -1,0 +1,21 @@
+X: 557
+T: Save Me From Death.
+T: saor me on t-eug.
+R: waltz, air
+%S: s:8 b:32(4+4+4+4+4+4+4+4)
+R: waltz
+B: O'Neill's 1850 #557
+Z: John Walsh (walsh@math.ubc.ca)
+O: F.O'Neill.
+Q: "Plaintively."
+M: 3/4
+L: 1/8
+K: D
+  ((3ABc) | d2   d2     A2  |(dc)  (BA) (Bc)  | (d>e) (dc) (BA)  | d3 ||
+| e ((3def) | c2 (dc)  (BA) | F4         A2   |  B3 c       d>e  | d4 ||
+|    fe   | d2  (de/f/) ed  | c2 (cd/e/) d>c  | (B>c) (dc) (BA)  | F4 ||
+| ((3def) | B2  (dc)   (BA) | F4         A2   | (B3 c)    d{f}e  | d4 |]
+||  (de)  | f2  (f>e) (f>g) | f2 (fg/a/) gf   |  e2    e2    e2  | e3 ||
+|  f ac   | d2  (df) (ed)   | c2 (cd/e/) .d.c | (B>c) (dc)  (BA) | F4 ||
+| (AB/c/) |(d>F) F2  .E.D   | D4 ((3def)      |  e2   (dc)   Bc  | {B}A4 ||
+| ((3def) |(A>B) dc   BA    | (B>.A) F3A      |  B3 (.c.d{f}.e)  | d4 |]

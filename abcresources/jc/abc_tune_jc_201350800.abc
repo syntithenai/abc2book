@@ -1,0 +1,24 @@
+X: 1
+T: Watson's Scotch Measure
+O: A Very Old Tune.
+R: air
+Q: "[S]lowish and Distinct."
+S: Fiddle Hell Online 2020-11-05 Se\'an Heel Slow Airs Workshop
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+N: The "F" chords in the final measure are drawn in small [a2f2] chords in the bass line.
+K: F
+% - - - - - - - - - -
+V: 1 staves=2
+(C/D/E) |\
+.F2~.F2 .c2.F2 | [A2F2] [G4E4] C>D | F2~F2 c2F2 | A2f2 c3f |\
+(def).c (ABc).A | (dcB)A {A}G2FD | F2Tf2 c>dB>c | A2F2 F2 :: (c/d/e) |
+(Tfef).g (fg).a.f | (Tgf).g.a (ag).f.d | (cd).f.g (fg).a.g | (fg).f.c (AB).c.A |\
+(def).c (ABc).A | (fd).c.A {A}G2.F.D | F2Tf2 c>dB>c | A2F2 F2 :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+F4 f4 | c4 C4 | A4 f4 | F4 f2a2 | b2a2 f2a2 | b4 c'2b2 | a2f2 c'2c2 | f2"F"c2 F2 :: z2 |
+f2f'2 a2f'2 | c'2f'2 b2f'2 | a2g2 f2c'2 | a4 f4 | b2a2 f2a2 | "^dim . . ."b2a2 c'2b2 | a2f2 c'2c2 | f2"F"c2 F2 :|
+% - - - - - - - - - -

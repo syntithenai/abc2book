@@ -1,0 +1,23 @@
+X:1
+T: The Italian Disappointment
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:D
+I:speed 150
+%W: A
+% voice 1 (1 lines, 39 notes)
+K:D
+M:6/8
+L:1/16
+d2 |a4 g2 f2 e2 d2 A4 c2 d2 e2 f2 e4 a2 f2 e2 d2 A4 c2 d4 d2 |a4 g2 f2 e2 d2 A4 c2 d2 e2 f2 e4 a2 f2 e2 d2 A4 c2 d4 e2 |
+%W: B1
+% voice 1 (1 lines, 40 notes)
+e4 e2 a2 g2 f2 e4 e2 a2 g2 f2 e4 e2 e2 d2 c2 d2 c2 B2 A4 A2 |g4 g2 f2 e2 d2 g4 g2 f2 e2 d2 g4 g2 f2 e2 d2 e2 d2 c2 d4 e2 |
+%W: B2
+% voice 1 (1 lines, 39 notes)
+e4 e2 a2 g2 f2 e4 e2 a2 g2 f2 e4 e2 e2 d2 c2 d2 c2 B2 A4 A2 |g4 g2 f2 e2 d2 g4 g2 f2 e2 d2 g4 g2 f2 e2 d2 e2 d2 c2 d4 ||

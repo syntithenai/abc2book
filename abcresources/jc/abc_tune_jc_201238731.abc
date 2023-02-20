@@ -1,0 +1,27 @@
+X: 3122
+T: Originall Sett of O'er the Water to Charlie
+%R: air, jig
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.12 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slow"
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted for 
+V: 1 staves=2
+D |\
+!p!A2A (AB).G | (FG).E D/A,/B,/C/ D//E//F//G// | A>BA AFA | B3 Td3 ||\
+!f!D2D DEF | {A}G2F {F}E2D | !p!{Bc}d>cB A<FA | TB2c {e}d2 ::
+A |\
+Td2e f2d | (ef).d {d}cBA | ~d2e (fgf) | {f}e3 ABc ||\
+!f!d>cd efg | {fg}.a>.g.f .e.d.c | !p!{Bc}d>cB A<FA | TB2c {e}d2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+D2d fge | a2A d2z | D2d D2d | gbd' fad' ||\
+!f!d2c B2A | GBd FAd | !p!D2d f2d | g2a d2 ::
+z |\
+z2a d'2b | c'd'b a2g | f2c d2d | Aea A2z ||\
+!f!f'e'd' c'ba | fed Aag | !p!f2g f2d | g2a d2 :|

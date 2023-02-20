@@ -1,0 +1,35 @@
+X: 61
+T: Christmas Carol
+C: Jessie L. Gaynor
+%R: air, march
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[| D D E F | E2 D2 | D D E D | A4 | D G B A |
+w: 1.~Once un-to the shep-herds, Seat-ed on the ground, Came a heav'n-ly
+w: 2.~Go ye to the man-ger,      Light-ed by the star,  Joy-ful is the
+%
+A2 G2 | A A B A | A4 | A A d B | A2 G2 |
+w: vis-ion.  Glo-ry shone a-round.  And the shep-herds list-en'd,
+w: mes-sage, Spread the news a-far. List-en to the an-them
+%
+G G B G | (F2 E2) | E F G e | e2 d2 | B c A> G | G3 z |]
+w: Heard the an-gels say,*  "Christ is come to save you, Christ is born to-day."
+w: That the an-gels sing,*  "Christ is born a-mong you,  Christ our Heav'n-ly King."
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 brace=2 staves=2
+[| [DB,G,][DB,G,] [EB,G,][FB,G,] | [E2B,2G,2] [D2B,2] | [DCF,][DCF,] [ECF,][DCF,] | [A4D4C4] | [DB,2]G [B^D2B,2]A |
+[A2E2B,2] [G2E2B,2] | [AFA,][AFD] [BG^C][AGC] | [A4F4D4] | [AD2]A [dF2D2]B | [A2C2] [G2B,2] |
+[GD2]G [BD2]G | [F2C4] E2 | EF [GE][eE] | ([e2G4] d2) | [BG][cAEC] [AFC]>[GDB,] | [G3B,3] z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+[| [d4G4] | [d4G4] | [d4A4] | [d2D2] f2 | g2 ^f2 |
+e4 | A2 A2 | d2 D2 | f2 d2 | ^d2 e2 |
+[g2B2] [g-G][gB] | [g4c4] | [a2c2] [a^c-][^ac] | [b4d4] | dA d>[gG] | [g3G3]z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

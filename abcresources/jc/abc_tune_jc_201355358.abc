@@ -1,0 +1,20 @@
+X: 1
+T: Zodiac
+C:
+R: jig
+N: Sometimes known as Zudio.
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%%continueall 1
+|:\
+"G"D2D B3 | "D7"A2A "G"B3 | "D7"D2D "G"B2A- | "D7"A2A "G"B3 | "D7"D2D "G"B3 | "D7"A2A "G"B3 |
+"C"F2E- "D7"E2D- | "G"D6 || "G"D3 B3 | "D7"A3 "G"B3 | "D7"D3 "G"B2A- | "D7"A3 "G"B3 |
+"D7"d3 "G"B3 | "D7"A3 "G"B3 | "C"F2E- "D7"E2D- | "G"D3 z3 :| "G"d2d B2B | "D7"A2A "G"B2A |
+"D7"d2A "G"B2A- | "D7"A2A "G"B2A | "D7"d3 "G"B3 | "D7"A3 "G"G3 | "C"F2E- "D7"E2D- | "G"D3 z2A |
+"D7"d2d "G"B3 | "D7"A2A "G"B2A | "D7"d2B "G"B2A- |\
+[1 "D7"A3 "^spoken..."z2z | z3 z2z | z3 z2z ||
+z2z z2z | z3 z2z | z3 z2z | z3 z2z | z2z z2z | z3 z2z |
+z2z z2z | z3 z3 :|[2 A2z z3 | z3z2 z | z2G z2z | z2z z2z |
+z2 |: z z2z | z2z z3z | z2z z2z | z2z z2z | z3 :|

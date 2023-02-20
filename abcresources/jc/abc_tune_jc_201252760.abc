@@ -1,0 +1,68 @@
+
+X: 1
+T: Biserka
+C: Srbija
+M: 3/8
+L: 1/16
+K: Gm
+|: "Gm"G4 {^f}g2 | G4 {^f}g2 | d4 d2 | "D"^c2B2A2  \
+|  "Gm"G4 {^f}g2 | G4 {^f}g2     | "Cm"c2d2e2     | "D"d6 |
+|  "Gm"G4 {^f}g2 | G4 {^f}g2 | d4 d2 |  ^c3BAG \
+|  "Cm"c3=Bcd | "Gm"B3ABc | "D"A3GAB | "Gm"G4 "fine"z2 :|
+|: "Bb"[d4B2] [d2B] |    [f4d2] [ec2][dB2] | "F7"[c3A][dB][ec][fd] | "Bb"[d6B] \
+|     [d4B2] [d2B] | "Eb"[g3e][fd][ec][dB] | "F7"[c3A][dB][ec][fd] | "Bb"[d6B] |
+|1 "Gm"d3GAB | d3GAB | d4 d2 | "D"^c3BAG \
+|  "Gm"d3GAB | d3GAB | "D"A3GAB | "Gm"G6 :|
+|2 "Gm"d3GAB | d3GAB | d4 d2 | "D"^c3BAG \
+|  "Cm"c3=Bcd | "Gm"B3ABc | "D"A3GAB | "Gm"G6 ||
+|: "Gm"[B3G][AF][GE][FD] | "Cm"[E3C][DB,][CA,][B,G,] | "Gm"[D3B,]G^FG | [D6B,] \
+|  "Gm"[B3G]AGF | "Cm"E3DCB, | "D7"A,3G,A,B, | "Gm"G,6 :|
+
+
+X: 2
+T: Biserka
+C: Srbija
+M: 3/8
+L: 1/16
+K: Am
+|: "Am"A4 {^g}a2 | A4 {^g}a2 | e4 e2 | "E"^d2c2B2  \
+|  "Am"A4 {^g}a2 | A4 {^g}a2     | "Dm"d2e2f2     | "E"e6 |
+|  "Am"A4 {^g}a2 | A4 {^g}a2 | e4 e2 |  ^d3cBA \
+|  "Dm"d3^cde | "Am"c3Bcd | "E"B3ABc | "Am"A6 :|
+|: "C"[e4c2] [e2c] |    [g4e2] [fd2][ec2] | "G7"[d3B][ec][fd][ge] | "C"[e6c] \
+|     [e4c2] [e2c] | "F"[a3f][ge][fd][ec] | "G7"[d3B][ec][fd][ge] | "C"[e6c] |
+|1 "Am"e3ABc | e3ABc | e4 e2 | "E"^d3cBA \
+|  "Am"e3ABc | e3ABc | "E"B3ABc | "Am"A6 :|
+|2 "Am"e3ABc | e3ABc | e4 e2 | "E"^d3cBA \
+|  "Dm"d3^cde | "Am"c3Bcd | "E"B3ABc | "Am"A6 ||
+|: "Am"[c3A][BG][AF][GE] | "Dm"[F3D][EC][DB,][CA,] | "Am"[E3C]A^GA | [E6C] \
+|  "Am"[c3A]BAG | "Dm"F3EDC | "E7"B,3A,B,C | "Am"A,4 "fine"z2 :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Bojarka
+C: Serbia
+S: Aman Folkraft
+M: 3/4
+L: 1/8
+%Q: 1/4=192
+F: http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc	 2007-10-29 16:20:30 UT
+K: Gm
+|: "F7/a"c2d2e2 | "Bb"d2cBcd | "F"B2A2F2 | "Cm"G2cBce | "Bb"d2cBcd | "F"B2A2F2 | "C"G4c2 | "G"G6 :|
+|: "F7"  F2G2A2 | "Bb"B2edcd | "F"B2A2F2 | "Cm"G2cBce | "Bb"d2cBcd | "F"B2A2F2 | "C"G4c2 | "G"G6 :|
+
+
+X: 1
+T: Bojarka
+C: Serbia
+S: Aman Folkraft
+M: 3/4
+L: 1/8
+%Q: 1/4=192
+F: http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc	 2007-10-29 16:20:30 UT
+K: Am
+|: "G7/b"d2e2f2 | "C"e2dcde | "G"c2B2G2 | "Dm"A2dcdf | "C"e2dcde | "G"c2B2G2 | "D"A4d2 | "A"A6 :|
+|: "G7"  G2A2B2 | "C"c2fede | "G"c2B2G2 | "Dm"A2dcdf | "C"e2dcde | "G"c2B2G2 | "D"A4d2 | "A"A6 :|

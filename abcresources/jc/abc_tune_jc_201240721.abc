@@ -1,0 +1,22 @@
+X: 4092
+T: the Honble Mrs Maule of Panmure's    Strathspey
+C: By Nath.Gow
+%R: strathspey
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.9 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 6-bar lines, for compactness and proofreading.
+V: 1 staves=2
+f |\
+c<Fc>A TG>FDf | c<FTc>A (F/G/A/B/) cA | B>GA>F TG>FDf | c<FA>G {E}F2F :|\
+(c//d//e/) | f>cfa Tg>fde | f>cfa cf/g/ af |
+~g>fa>f Tg>fde | f>c {fg}a>g {g}f2 f (c//d//e/) ||\
+f>cfa Tg>fdg | f>cf<a d<fc<f | B<fA<f TG>FD>G | (F/G/A/B/) cA [c2A2][cA] |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | f2F2 c2B2 | A2F2 f2f2 | e2f2 c2B2 | A2c2 f2F :| z | f2f2 c'2b2 | a2a2 
+f2f2 | e2f2 c2B2 | A2c2 f2F2 || f2f2 c'2b2 | a2a2 b2a2 | g2f2 c2B2 | A2F2 F2F |]

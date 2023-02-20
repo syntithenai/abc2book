@@ -1,0 +1,36 @@
+X: 1065
+T: Princess Amelia's Birth Day
+P: Longways for &c.
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+N: First bass note (b) is clearly wrong; rewritten as a.
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+A2e e2f | c2d e3 | ABc Bcd | c2B cBA |\
+A2e e2f | c2d e3 | ABc Bcd | c2B cBA :|
+|:\
+d2c B2A | G2F E3 | A2E B2E | d2c B3 |\
+d2c B2A | G2F E3 | A2E Bcd | cdB A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+a3- a2d | A2B cBA | a3 g3 | a2e A3 |\
+a3- a2d | A2c cBA | c3 d3 | e3  A3 :|
+|:\
+b2a g2f | e2d c2B | A2a g2a | b2a g2a |\
+b2a g2a | e2d c2B | A3  d3  | e3  A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+The 1st Cu cross over and turn, then change over at Top and lead outsides .|
+and Back to Back sides & turn, the 1st Cu. being all at Bottom :|
+then Hands round at Top, then Right and Left quite round at Top .|
+Then the first Man heys at Top, and the Wo. at the Bottom, and turn it out :|
+%%endtext

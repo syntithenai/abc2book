@@ -1,0 +1,31 @@
+X: 20132
+T: ROY'S TRUMPET MARCH
+C:
+%R: march
+N: Version 1 for software that doesn't understand voice overlays.
+B: Elias Howe "The Musician's Companion" 1843 p.13 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[GF]>G |\
+c2 G>G E2 [GF]>G |\
+c2 G>G E2 [GF]>G |\
+[cGE][c/G/E/][c/G/E/] [cGE][cGE] [dG][d/G/][d/G/] [dG][dG] |\
+[ec]3[cE] [d2G2][GF]>G |\
+c2 G>G E2 [GF]>G |\
+c2 G>G E2 [GF]>G |\
+[cE][c/E/][c/E/] [cE][cE] [dG][cE] [dG][ec] |\
+[c2E2][cE]>[cE] [c2E2] :|
+|: [e2c2] |\
+[dG][d/G/][d/G/] [dG][dG] [dG][fd][ec][dG] |\
+[ec][e/c/][e/c/] [ec][ec] [ec][ge][fd][ec] |\
+[dG]>[dG] [ec]>[ec] [dBG]>[dG][ec]>[ec] |\
+[d2G2][dG]>[dG] [d2G2][GF]>G |\
+c2 G>G E2 d<d |\
+c2 G>G E2 d<d |\
+[cE][c/E/][c/E/] [cE][cE] [dG][cE][dG][ec] |\
+[c2E2][cE]>[cE] [c2E2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

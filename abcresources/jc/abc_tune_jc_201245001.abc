@@ -1,0 +1,5 @@
+X: 1
+T: TEST: achord + annotation
+%%staffwidth 200
+K: C
+[| "Cm"c4 !fermata!c4 |]

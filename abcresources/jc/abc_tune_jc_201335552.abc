@@ -1,0 +1,26 @@
+X: 1
+T: Senpolska (fr\aan Torp)
+C: efter Einar Viklund, Medelpad
+N: Einar Viklund was from St\:ode, Medelpad (Sweden)
+S: Bengt Jonsson
+S: Fiddle Hell 2019
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+B \
+| "D"A>F DF "G"GB | "D"AB/A/ "A7"GA/G/ "D"FA | "D"d2 Ac df | "E7"ef/e/ de/d/ "A7"cB |
+| "D"A>F DF "G"GB | "D"AB/A/ "A7"GA/G/ "D"FA | "D"d2 Ac df | "A7"e/f/e/c/ "D"d3 :|
+|: e |\
+"D"f2 Af Af | "D"fe/f/ "(Em)"ge/g/ "D"fd | "A7"e2 Ae Ae | ed/e/ "D"fd/f/ "A"ed |
+"D"f2 Af Af | "D"fe/f/ "(Em)"ge/g/ "D"fd | "G"e>f ge/g/ "D"fd/f/ | "A7"ec "D"[d3F3] :|
+% - - - - - - - - - -
+V: 2
+D |\
+"D"F>D A,D "G"DG | "D"FG/F/ "A"EF/E/ "D"DF | [D2A,2] "A"A,E "Bm"Ad | "E"c"(A)"d/c/ Ac/B/ "A"AE |
+"D"F>D A,D "G"DG | "D"C2 "A"B,2 "D"A,2 | [D2A,2] "A"A,E "Bm"Ad | "A"c/d/c/A/ "D"[A3F3] :|
+||: z |\
+"D"d2 dA FD | dc/d/ "G"e"(A)"c/e/ "D"dA | "A"c2 cG EC | cB/c/ "D"dB/d/ "A"cA |
+"D"d2 dA FD | dc/d/ "G"e"(A)"c/e/ "D"dA | "A"c>d ec/e/ "D"dB/d/ | "A"cA "D"[A3F3] :|

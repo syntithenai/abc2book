@@ -1,0 +1,41 @@
+X: 1
+T: Thread
+%T: 糸
+C: Miyuki Nakajima
+%C: 中島みゆき
+S: https://www.youtube.com/watch?v=QhN0y3JXS4Y 2018-9-7
+M: 2/4
+L: 1/16
+K: C
+%%continueall 0
+V: 1 staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - -
+V: 1
+|: [c8G8] | [d8A8] | [A8-E8-] | [A8E8] | [c8G8] |\
+g4 d4 | [e8-A8-] | [e8A8] :| z2A2 e4- | e8 |\
+z2A2 e4- | e8 | z2G2 e4- | e8 | z2A2 e4- | e8 |]
+"vocal:"\
+|: E4 E3E | E2D2 C2A,2 | G,2E2 E4 |\
+z2C2 E2G2 | A2E2 E4 | G2E2 E4 | E4 D2C2 |\
+[1 D8 :|[2 D4 CDE2 [| E4 c4 | B3A GE-E2 |
+C4 A4 | G4 CDE2 | E2DC- C2E2 | G4 EDE2 |\
+F4 G4 | A2G2 E2D2 || C4- CG,CE | E2D2 C2B,C- |\
+C8- | C8 |
+F4- FCFA | A2G2 C2ED- |\
+D8- | D4 E2D2 || C2D2 E2CE- | E4 E2D2 |\
+C2D2 E2Cc- | c4 zCDE | F2G2 E2F2 | D4 FED2 | C8- | C8 |]
+% - - - - - - - - - -
+V: 2
+|: A8 | e8 | f8- | f8 | A8 |
+e8 | f8- | f8 :| c8- | c4 c4 |
+F8- | F4 F4 | C8- | C4 C4 | F8- |
+F4 F4 |] |: c8 | F8 | c8- |
+c4 c2B2 | A6 A2 | e6 e2 | d8 |\
+[1 G8 :|[2 G4 ^G4 [| A2 e6 | G8 |
+F4 G4 | c4 B4 | A6 A2 | E6 e2 |
+F8 | G8 || C4 C4 | B4 B4 |
+A4 A4 | G4 G4 | F4 F4 | E4 E4 |
+D4 D4 | E4 ^G4 || A4 A4 | ^G4 G4 |
+=G4 G4 | ^F8 | D8 | G8 | c8 | C8 |]
+% - - - - - - - - - -

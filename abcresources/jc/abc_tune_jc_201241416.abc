@@ -1,0 +1,30 @@
+X: 4344
+T: Leister House
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+N: Bar 3 had 4 quarter notes; changed to eighth notes.
+M: 2/4
+L: 1/16
+K: C
+%
+V: 1
+|:\
+(gfed) c2a2 | (gfed) c2g2 | {f}e2dc B2c2 | d4 G4 |\
+(gfed) c2a2 | (gfed) c2e2 | A3c BcdB | c4 C4 :|
+|:\
+(GFEF) G2c2 | (GFEF) G2c2 | A2c2 ^F4 | G4 G,4 |\
+a2^f2 g4- | g2e2 f4 | e2dc BcdB | c4 C4 |]
+%
+V: 2 clef=bass middle=d
+|:\
+c4 c4 | c4 c4 | c2a2 g2^f2 | g4 g4 |\
+c4 c4 | c4 e4 | f2d2 g2G2 | c8 :|
+|:\
+c4 e4 | c4 e4 | f4 d4 | g4 G4 |\
+d4 z2e2 | c4 z2d2 | e2f2 g2G2 | c8 |]
+%%begintext align
+First Cu. foot it and cast off one Cu. and turn the 2d Cu. do the same = cast
+off and lead up a Breast with the 2d Cu. and cast off into the 2d Cu.s Place
+and Right hand and Left al round.
+%%endtext

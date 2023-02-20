@@ -1,0 +1,22 @@
+X: 21291
+T: WILT THOU BE MY DEARIE, or the Souter's Daughter
+Q: "Slow, and with much Expression"
+%R: _
+B: "Edinburgh Repository of Music" v.2 p.129 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Version for ABC software without voice overlays, etc.
+M: 2/4
+L: 1/16
+K: G
+[|"_P."\
+G3D {F}"_Dolce."E3D | G4 D3D |\
+~G2A2 (cB).A.G | (B2A2) (Ac).B.A |\
+G3D {F}E3D | (G4 D4) |]\
+~G3A B2d2 | ({d}c2B2) B4 |\
+({B}A2G2) A2Bd |
+e6 (fg) |\
+"_F."d3e (edcB) | (e2A2) (Ac).B.A |\
+"_P."G3D E3D | G4 D4 |\
+e3d (ed).B.G | (B2A2) (Ac).B.A |\
+G3D {F}E3D | ("_PP."G4 D4) |]

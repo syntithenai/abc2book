@@ -1,0 +1,17 @@
+X: 1
+T: Grandmother's Corkscrew
+C: David A Kaynor & Susan Reid (22014)
+%D:2014
+R: reel
+B: David A. Kaynor "Living Music and Dance" 2021
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+S: Dave_Kaynors_Melodies_and_Harmonies.PDF
+M: 4/4
+L: 1/8
+K: Ador
+"^A"|:\
+"Am"e2AB cBAc | "E"BEED E4 | "Am"A,2A,B, CDEC | "D7"DEFD "E"E4 |
+"Am"e2AB cBAc | "E"BEED E4 | "Am"A,2A,B, CDEC | "D"D4 D4 :|
+"^B"|:\
+"D"D2DE FEDF | A2AB cBAc | "Am"e2ef gfe2 | "D"f3g f4 |
+"D"D2DE FEDF | A2AB cBA2 | "Am"e2ef gfe2 | "D"a8 :|

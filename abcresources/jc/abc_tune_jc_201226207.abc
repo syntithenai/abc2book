@@ -1,0 +1,30 @@
+X: 10141
+T: Rondo
+C: Bossi
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.14-15
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Handwritten at bottom of p.14: "play this, as the Ladies wou'd say, "Its very pritty"
+M: 3/8
+L: 1/16
+K: G
+%%continueall
+!segno!!p!G>B |\
+d2d2d2 | d3gdB | (dcBcec) | A4d>c | B2G2G2 |
+A3BcA | (GFED)EF | G4d>B | A2A2 d>B | A4G>B | d2d2d2 |
+d3gdB | dcBcec | A4dc | B2G2G2 | A3BcA | GFEDEF |
+"_Fine"G4 |[| (a>g) | f2f2f2 | f3gab | agfgbg | e4ag | f2d2d2 |
+e3fge | d^cBABc | d4a>f | e2e2f2 | a2geag | f2f2g2 |
+ba^gab=g | f3gab | e4ag | f2d2d2 | e3fge d^cBABc | Hd4 !segno!|]
+% p.15
+P: Minore
+K: Gm
+g>a |\
+b2b2b2 | .d'4 (d'>c') | b2{a/}g>^fg>b | .a4 (g>a) | b2b2b2 |
+f4 {a/}(g>f) | f2(d2c2) | B4 (^c'>d') | d2d2 =c'>a | b2g2 ^f>g | b2a2g2 |
+^f2f2 (^c>d) | d2d2 (^c>d) | d2d2 (=b>c') | d2d2 (=b>c') | d2d2 (=b>c') | d2^f2a2 |
+[K:G] Hc'4 !segno!][ (e>f) | g2g2g2 b4 (a>g) | f2b2b2 | g2e2 (e>f) | g2g2g2 |
+b4 (a>g) | f2b2b2 | e4 (e>f) | g2g2g2 | b4 (a>g) | f2{^a/}b2{a/}b2 |
+g2e2 (e/g/f/a/) | g2g2g2 | b4 (a>g) | f2{^a/}b2{a/}b2 | "_Da Capo al Fine."He4 !segno!|]
+%
+%%center -

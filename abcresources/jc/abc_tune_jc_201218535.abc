@@ -1,0 +1,23 @@
+X: 0118
+T: Gramachie - 8x32S
+P: Provost Skene's House
+C: Nan Main
+B: Miss Milligan's Miscellany v.1 #0118
+B: Originally Ours v.1 p.173 #MMM-0118
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The A chord in bar 8 should probably be Am.
+M: 4/4
+L: 1/8
+R: strathspey
+K: A
+%
+f |:\
+"A"e>d c>B "C#/A"c<A A>c | "B7"B>A G>F "E"G<E E>G |\
+"D"F>G A>F "C#/A"E>F A>c | "B"(3BcB "B7"(3Bc^e "E"e<E "E7"E>f |
+"A"(3efe (3efg "C#/A"aA A>c | "C#m"(3c^dc (3cd^e "F#m"fF F>A |\
+"A"(3ABA "G/A7"(3ABc "D"d>f a>f | "E7"(3edc (3dcB "A"A3 E ||
+"A"A>B =c>d "C#'A"e<a a>_b | "A"a<e "C#/A7"e>=g "Dm"=f<d d>f |\
+"E7"e<B B>d "Am"=c<A A>c | "B7"(3B=cB (3AGF "E"G<E E>E |
+"A"A>B c>d "C#/A"e<a a>e | "D"f<a a>f "C#/A"e<a a>f |\
+"E7"e>d c>B "F#m"c<A A>F |[1 "E7"(3EFE (3DCB, "A"A,2 f2 :|\
+[2 "E7"(3EFE (3DCB, "A"A,2 A,2 |]

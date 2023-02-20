@@ -1,0 +1,51 @@
+
+X: 28
+T: Unst Bridal March
+S: Hanneke Cassel, Boston Harbor 2011 (page in Concord Slow Scottish Jam collection)
+R: march, waltz
+B: Haand me doon da fiddle, 1979  (in G)
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+a2 |\
+"A"A2 A2 "E/g#"BA/B/ | "A"c4 e2 | "D"f>g a2 "F#m"c2 |[M:4/4] "E7"BA HB4 a/g/a/f/ |[M:3/4]\
+"A"e2 A2 AB | "A/c#"c2 e2 "D"Bd | "A"c2 A2 "D"A2 | "A"A4 :|
+{ag}ua2 |\
+"D"(f2 "(A)"e2) a2 | "D"(f2 "(A)"e2) a2 | "D"(f2 "(A)"e2) a2 | "D"f4 "E7"e2 |\
+"Bm"f>g a2 "(A)"e2 | "D"f>g a2 "(A)"e2 | "D"f>g a2 "E"a2 | "A"a4 c2 |
+"E7"d2 d2 cB | "A"c2 A2 e2 | "D"f>g a2 "F#m"c2 |[M:4/4] "E7"BA HB4 a/g/a/f/ |[M:3/4]\
+"A"e2 A2 A>B | "A"c2 e2 "D"Bd | "A"c2 A2 "D"A2 | "A"A4 |]
+
+%%sep 1 1 500
+
+X: 28
+T: Unst Bridal March
+S: Steven Spence, Baltasound
+R: march, waltz
+B: Haand me doon da fiddle, 1979
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+g2 |\
+"G"G2 G2 "D"A2 | "G"B4 d2 | "C"ef {gf}g2 "G"{Bc}B2 | "D7"AG HA2 {fgf}g>e |\
+"G"d2 G2 GA | "G"B2 d2 "D"Ac | "G"{Bc}B2 G2 "(C)"G2 | "G"G4 :|
+{gf}ug2 |\
+"C"(ve2 "G"d2) {gf}g2 | "C"(e2 "G"d2) {gf}g2 | "C"(e2 "G"d2) g2 | "C"e4 "D7"d2 |\
+"C"e>>f {gf}g2 "G"d2 | "C"e>>f {gf}g2 "G"d2 | "C"e>>f {gf}g2 g2 | "G"g4 B2 |
+"Am"{Bc}c2 c2 "(D7)"BA | "G"B2 d2 d2 | "C"ef {gf}g2 "G"{Bc}B2 | "Am"AG HA2 "D7"{fgf}g>e |\
+"G"d2 G2 G>A | "G"B2 d2 "D7"Ac | "G"{Bc}B2 G2 "(C)"G2 | "G"G4 |]
+%%begintext align
+%% Whenever a weddin wis held ida auld days dey always had a fiddler
+%% ta lead da procession.  Dis t\"un wis \"osed in Unst te lead da wedding
+%% company fae da kirk efter da couple wis married.  Dere were very
+%% few roads danadays, so mony a time da company hed to buks ower
+%% broos an hedder an sometimes it wis a job fir da fiddler to keep
+%% on playin.  Dey still d\"o dis in Norrowa bit dere in some places
+%% dye play upo da Hardanger fiddle.
+%%
+%% We're written baith weddin t\"uns twa wyes because at wan time dey
+%% maybe were played wi da twa back strings raised.  So du can try
+%% baith wyes an plaise deesel which wye du plays dem.
+%%endtext

@@ -1,0 +1,31 @@
+X: 10743
+T: COTILLION No. 4. tune 3
+C:
+%R: polka, reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.74 #3 (and p.75 #1)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+c2c2 c2eg | a2 f4 dc | B2B2 BGAB | cege afed |\
+c2c2 c2eg | a2 f4 dc | Bcde gfed | c2e2c2 H|]
+G2 |\
+fgef d2G2 | efde c2G2 | AFfe dfaf | f4 d2G2 |\
+fgef dagf | efge gagf | d2d2 cBAB | c2e2"^D.C."c2 |]
+E2 |\
+A2A^G A2B2 | dcBc A2{^g}a2 | A2{^g}a2 A2{^g}a2 | cdcB A2c2 |\
+B2Bc d2f2 | e2 a4 fd | cAfd cBA^G | "^D.C."A6 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% back to back,
+%% balance 4 and turn,
+%% all chassa across partners,
+%% all balance partners and turn,
+%% next 2 perform the same, &c.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

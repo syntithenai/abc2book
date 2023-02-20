@@ -1,0 +1,26 @@
+%%scale .9
+X:1
+T:Skip To My Lou
+L:1/4
+M:2/4
+K:D
+V:1 clef=treble name="Dulcimer #1"
+|"D""^MELODY"FF DD | F F/2F/2 A2 |"Em" EE "A"CC |"Em"E E/2E/2 "A7"G2
+w:C~Skip,_ skip,_ skip to my Lou, skip,_ skip,_ skip to my Lou,
+w:1~Fly's in~the butter-milk, shoo, fly,_ shoo, fly's in~the butter-milk, shoo, fly,_ shoo,
+w:2~Cat's in~the cream jar, ooh, ooh,_ ooh, cat's in~the cream jar, ooh, ooh,_ ooh,
+w:3~Off to Tex-as, two by_ two, Off to Tex-as, two by_ two,
+w:4~Lost my part-ner, what'll I_ do, Lost my part-ner, what'll I_ do?
+w:5~I'll get~a-nother one, pretti-er than you, I'll get~a-nother one, pretti-er than you,
+w:6~Can't get~a red bird, Jay bird-'ll do, Can't get~a red bird, Jay bird-'ll do,
+|"D"FF DD | F F/2F/2 A2 |"A7"E G/2G/2 FE|"D"D2 D2 ||
+w:Skip,_ skip,_ skip to my Lou, skip to my Lou my dar-lin'.
+w:Fly's in~the butter-milk, shoo, fly,_ shoo, skip to my Lou, my dar-lin'.
+w:Cat's in~the cream jar, ooh, ooh,_ ooh, skip to my Lou my dar-lin'.
+w:Off to Tex-as, two by_ two, skip to my Lou my dar-lin'.
+w:Lost my part-ner, what'll I_ do? skip to my Lou my dar-lin'.
+w:I'll get~a-nother one, pretti-er than you, skip to my Lou my dar-lin'.
+w:Can't get~a red bird, Jay bird-'ll do, skip to my Lou my dar-lin'.
+V:2 clef=treble name="Dulcimer #2"
+|"^HARMONY"AA FF | A A/2A/2 d2 | GG EE | G G/2G/2 B2
+| AA FF | A A/2A/2 d2 | G B/2B/2 AG |FG F2 ||

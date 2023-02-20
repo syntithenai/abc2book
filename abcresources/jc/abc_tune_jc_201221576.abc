@@ -1,0 +1,21 @@
+X: 05004
+T: ANDY WOOLF'S REEL
+C: Bob McQuillen 2 Nov 80
+B: Bob's Note Book 5 #4
+R: reel
+Z: 2005 John Chambers (2020 edited to use %%begintext rather than N: lines)
+M: C|
+L: 1/8
+K: G
+DD \
+| G2FG A2BA | GDGB d2Bc | dBed BGgf | edcB A2DD |\
+| G2FG A2BA | GDGB d2Bc | dBdB GBAG | D2G2 G2  :|
+|: FG \
+| A2DE FGAc | B2G2 G2Bc | dBce dBce | dBGB A2FG |\
+| A2DE FGAc | B2GA Bcde | dgeg dBAc | B2G2 G2  :|
+%%begintext align
+%% Playing
+%% music with Andy is a really great
+%% experience - he is a wonderful
+%% fiddler from down Boston way.
+%%endtext

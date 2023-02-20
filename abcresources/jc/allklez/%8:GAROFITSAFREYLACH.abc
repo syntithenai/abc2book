@@ -1,0 +1,24 @@
+X: 258
+T: Garofitsa (freylach)
+O: German Goldenshteyn
+R: Freylach
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dm
+"^A"\
+|:DFA \
+| "Dm"^c{e}d dB A2 (3AB=B | "C"(3cBA "(Gm)"(3BAG "C"(3GFE "Dm"D2 \
+| "Dm"^cd d=c (3cBA "Gm"(3GAB | "Dm"A4 zDFA
+| "Dm"^c{e}d dB A2 (3AB=B | "C"(3cBA "(Gm)"(3BAG "C"(3GFE "Dm"D2 \
+| "Gm"FG GE "Dm"(3FED "Cm"(3CD_E | "Dm"D4 z :|
+"^B"\
+|: D_E^F \
+| "Gm"^F>G G>F G>F G2 | (3^cdd (3d=cB "F"A>{BA}G F2 \
+| "Cm"c>=B c>d (3_edc (3=Bcd | "Cm"=B c3 "F"f4
+| "Gm"^F>G G>F G>F G2 | (3^cdd (3d=cB "F"A>{BA}G F2 \
+| "Gm"FG GE "Dm"FD "Cm"_EC | "Dm"D4 z :| z3
+K:_B_E^c^F
+"^C"\
+|: "D"(3FGF (3EFE (3EDC (3DFA | (3FGF (3EFE (3EDC D2 \
+|     (3FGF (3EFE (3EDC (3DFA |1 (3FGF (3EFE (3EDC D2 :|2 "D"(3FGF "Cm"(3EFE "D"D |]

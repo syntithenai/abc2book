@@ -1,0 +1,16 @@
+X: 127
+T: I Saw Thy Form
+R: air, march
+%S: s:4 b:16(4+4+4+4)
+Q: "With feeling"
+B: O'Neill's 1850 #127
+Z: 1997 henrik.norbeck@mailbox.swipnet.se
+M: C
+L: 1/8
+K: D
+(d>e) \
+| f2 "~"(f/e/d/c/) d2z.A | (.c.B.A.G) (GF) zA | (FA)(de) f2(ed) | d4 (e/f/e) (d>e) ||
+| f2 "~"(f/e/d/c/) d2zA | (cBAG) (GF) zA | (F<A) (d<f) (a<f) (e<f) | d2 (3def (e<d) |]
+z2 \
+| (a2gf) (f<e) (e<g) | (fdBf) (f3/2g/4f/4) ef | g3f (f/e/g/f/) (ed) | d3^d e2(=de) ||
+| f2 "~"(f/e/d/c/) d3A | (cBAG) (GF) zA | (F<A) (d<f) (a<f) (e<f) | d2 (3def (e<d) |]

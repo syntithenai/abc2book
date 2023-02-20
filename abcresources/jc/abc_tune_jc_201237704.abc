@@ -1,0 +1,19 @@
+X: 283	% 78
+T: Ring Ring The Banjo
+C: Stephen Foster
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.28 #3
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The intended repeat pattern isn't obvious here.
+N: The original staff breaks are preserved, hoping that helps a bit.
+M: 2/4
+L: 1/8
+K: F
+V: 1 name="78"
+"^Quadrille"c |\
+cAF>G | Ac2 (Mc/Mc/) | dcA>F | G2 z(MG/MG/) | FGAB |
+cf2 (Md/Md/) | cAG>G | F2 z2 :: c2c>c | Ac2c | dcAF |
+G4 | F>GAB | cf2d | c>AG>G | F3 ||[K:G] d | dBG>A |
+Bd2(Md/d/) | ed B>G | A2 z(MA/MA/) | GABc | dg2e | dBA>A | G3 :|
+d2d>d | Bd2d | edBG | A4 | G>ABc | dg2e | dBA>A | G3 :|
+

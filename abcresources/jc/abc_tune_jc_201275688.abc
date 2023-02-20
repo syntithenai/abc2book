@@ -1,0 +1,42 @@
+X: 1
+T: Fie, nay, prithee John
+T: Fy, nay, prithee John
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master" printed by John Walsh, London
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.17 #31
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.329 "F f 3"
+Z: 2012-2013 John Chambers <jc:trillian.mit.edu>
+N: This tune is usually played (and sung) as a round.
+N: The lyrics are a drinking song, attributed to both Henry Purcell and John Blow.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[| c3  e dB G2 | A3  c BG E2 | F3  A GE c2 | F2 G2 C4 |]
+[| cg gc Bg gB | Af fA Ge eG | Fd dF Ec cE | D2 B2 c4 |]
+[| ge ca fd Bg | ec Af dB Ge | cA Fd BG Eg | a2 g>f e4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Two Cu. fall back, and pass thro' into each other's Places,
+%% facing to the Wall, and Hands behind half a Turn, the 2d Cu. being
+%% a-top, to the first Strain once.  The 2d Cu. cross over the 1st
+%% Cu. above and below, and come to the Top, and turn his own Partner
+%% quite round with both Hands, to the second Strain once.  Then
+%% all four clap Hands, the 2d Cu. cast off into their own Places, and
+%% clap Hands again, then 1st Cu. cast off into the 2d Cu. Place, to the
+%% third Strain once.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 300
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Fall back all four and pass through into each others places, facing to the wall and hands behind half
+%% a turn, the 2. cu. being a-top. First Strain once. The 2. cu. cross over the 1. cu. above and below and
+%% come to the top and turn his own Partner a whole turn with both hands. Second Strain. All four
+%% clap hands, the 2. cu. cast off into their own places, and clap hands again: The 1. cu. cast off into the
+%% 2. cu's place. The end of the Third Strain.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

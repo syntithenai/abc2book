@@ -1,0 +1,22 @@
+X: 1
+T: Spanish Dance (8x32S)
+C: Pascaline Latour
+R: strathspey
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+B: The Paris book of Scottish Country Dances, vol.1
+S: PDF from Robert McOwen 2020-1-7
+M: C
+L: 1/8
+K: Dm
+A2 "^A"|\
+"Dm"F<D D>F A>^c d>=B | "C"c>G E>G C>D E<G |\
+"Dm"A<d d>e d>^c d>f | "A"e>d ^c/d/e/f/ "Dm"d2 ||
+A2 |\
+"Dm"F<D D>F A<d d>=B | "C"c>G E>G C>D E<G |\
+"Dm"A<F "Gm"B>G "A"^c>A "Bb"d>D | "A7"G<E A>A, "Dm"D2  |]
+a>g "^B"|\
+"Dm"f<d "A"^c>e "Dm"d2 A2 | "Gm"B>^c d>e "Dm"d<A a>g |\
+"Bb"f<d B>d "Gm"G>B d>g | "C"e<c c>=B c2 ||
+a>b |\
+"Dm"a>f d<A "Gm"G>B ^c>d | "A"e<A a>e "Dm"f<a f>d |\
+"Gm"B<d G>d "A"^c<e A>a | "Dm"f<d "A7"d>^c "Dm"d2 |]

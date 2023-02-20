@@ -1,0 +1,81 @@
+X: 1
+T: Le Diable Vert
+S: Printed MS from Debby Knight
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+DC \
+| "G"B,G,B,D GDGB | ed ~d2 dBGB \
+| "C"cBAG "D7"FDEF |1,3 "G"GBAG "D7"FE \
+:|2,4 "G"GB"D"AF "G"G2 :|
+|: GA \
+| "Em"[B3E3][BE] [B2E2] ef | "Em"gfeg "Bm"fB~B2 \
+| "Em"eBBe B[eB]ef | "Em"gB{c}BA "D"BAGA |
+| "Em"BEBE B2 ef | "Em"gfeg "Bm"fB~B2 \
+| "C"efg{f}e "G"dBGB | "D7"cBAF "G"G2 :|
+
+%%sep 1 1 500
+
+X: 148
+T: Growling Old Man and Old Woman
+T: Growling Old Man and Grumbling Old Woman
+T: La Chicaneuse
+C: French Canadian
+B: NEFR #148
+M: C|
+L: 1/8
+Z: Mary Lou Knack
+N: Changed from K:Am to K:Ador, since all Fs are sharp.
+N: Pickups moved around to be more clearly pickups.
+N: There are many versions of this tune, mostly all compatible, with various minor differences.
+R: reel
+K: Ador
+A,B, \
+| "Am"CA, EA, CA, EA, | "G"B,G, DG, B,G, G,B, | "Am"CA, EA, CA, EA, | "G"B,A, G,B, "Am"A,2 A,B, |
+| "Am"CA, EA, CA, A,C | "G"B,G, DG, B,A, G,B, | "Am"CA, EA, CA, A,C | "G"B,A, G,B, "Am"A,2 :|
+|: ^cd \
+| "A"ef ed ^cd ef | "G"ge dc BG GB | "A"ef ed ^cA cd | "E7"ea a^g "A"a2 ef |
+| "A"gf ed ^cd ef | "G"ge dc BG GB | "Am"c2 ((3BcB) AG ED | "G"GE DB, "Am"A,2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Growling Old Man and Grumbling Old Woman
+T: La chicaneuse
+C: French Canadian
+M: C|
+L: 1/8
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: Ador
+A,B, \
+| "Am"CA,[A,E]A, CA,[A,E]A, | "G"B,G,[G,D]G, B,G,[G,D]G, |\
+| "Am"CA,[A,E]A, CA,[A,E]A, |1,3 "G"B,G,[G,D]G, "Am"A,2 :|2,4 "G"B,G,[G,D][B,D] "Am"[A,2E2] :|
+|: ^cd \
+| "A" efed ^cdef | "G"g{f}ed=c BGGB | "A"efed ^cAcd | eaa^g a2ef |
+| "A"=gfed ^cdef | "G"g{f}ed=c BGGB | "Am"c2B2 {cB}AGE[FD] | "G"GEDB, "Am"A,2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Reel Ti-M\'e
+C: Marcel Messervier
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+df \
+| "D"afbf afde | "D"(3faf (3ege dBAG \
+| "D"FAdA FAdf | "Em"e2[B2G2] [B2G2]ef \
+| "(A7)"gfga gfed |
+| "A7"cBce c3B \
+|1,3 "A7"AB (3cBA gfga | "A7"ba^ga "D"f2 \
+:|2,4 "A7"AB (3cBA gABc | "D"df"A7"ec "D"d2 :|
+|: AF |\
+"D"D2FA dAFA | "G"G2BG =cGBG | "A7"AAkeA AkfAA | "A7"kgAAg fecA |
+"D"D2FA dAFA | "G"G2BG =cGBG | "A7"AAkeA AkfAA | gece "D"d2 :|
+
+
+%%sep 1 1 500

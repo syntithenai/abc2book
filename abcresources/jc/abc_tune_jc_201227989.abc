@@ -1,0 +1,24 @@
+X: 11027
+T: ED'S HORNPIPE
+C: Bob McQuillen 8 July 2001
+B: Bob's Note Book 11 #27
+%R: hornpipe, reel
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4	% The booklet has no time siganture for this tune.
+L: 1/8
+K: G	% and D
+GE \
+| D2GB AGBd | g2ge d2ed | cedc Bdeg | dBGB A2GE |
+| DEGA BGBd | gedB G2cB | ABAG FAdc | B2G2 G2  :| [K:D]
+|: AG \
+| FDFA BdAF | DFAd f2gf | e2ed cAde | fagf e2AG |
+| FDFA BdAF | DFAd fafd | Bdge ceag | f2d2 d2  :|
+%%begintext align
+%% You couldn't name a more
+%% enthusiastic supporter of the Seattle Area folk music scene
+%% than Ed Littlefield. He's a tremendous fan of the Folklife
+%% Festival; his generous contribution in 2001 will ensure
+%% that the festival continues for many more years to come.
+%% We are all indebted to you, Ed - Thank you so much for all
+%% you have done.
+%%endtext

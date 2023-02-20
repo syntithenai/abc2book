@@ -1,0 +1,18 @@
+X: 116
+T: Dana
+O: Romania
+M: 2/4
+L: 1/8
+K: Bphr clef=treble
+Q:1/4=180
+%%MIDI program 48 string ensemble 1
+%%MIDI drum dzzzdzzz 43 60 90 90
+%%MIDI drumon
+|:ezBB|ezBB|BcBc|A2z2|\
+A2dd|c2d2|cBBA|B2z2:|
+|:A,3A|.D2.D2|C3D|C2B,2|\
+  A,3A|.D2.D2|C3D|C2B,2:|
+B,3B|.B,2.B,2|.A,2.A,2|B,4|\
+G,3G,|A,2A,2|F,4|B,4|
+F3F|F2F2|E2E2|F4|\
+D3D|E2D2|^C2C2|F4|

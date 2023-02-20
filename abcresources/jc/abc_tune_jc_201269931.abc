@@ -1,0 +1,35 @@
+X: 1
+T: Dragoons March
+P: Longways for as many as will
+%R: march, reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.118
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the dance instructions.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B2Bc dc de | d2(ef) g4 | f2(ed) e2(dc) | B3A G2(GA) |\
+B2(Bc) (dc) (de) | d2(ef) g4 | f2(ed) e2(d^c) | d8 :|
+|:\
+A2(FG) AGAB | A2(Bc) d4 | B2AB c2d2 | B4 A2FG |\
+A2(FG) AGAB | A2(Bc) d2(ed) | c2(BA) A3G | G8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to your Presence, then to your we. Lead up all forward and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then the 1. cu. cross over round below the 2. cu. and cross over again round below the 3. cu. then lead
+%% up through the middle into their own places, then cast off below the 2. cu. and turn hands once round.
+%% This to the first Strain played twice.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then lead down and cast up again to the 2. place, and turn both hands once round, then lead up and cast
+%% down again into the same place, and turn both hands once round. This to the second Strain played twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,26 @@
+X:1
+T: Long Pond
+N:
+C:Pat Shaw
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 43 notes)
+K:G
+M:4/4
+L:1/16
+G2 A2 |B4 d8 b4 |a2 g2 e2 g2g2 e2 d2 g2 |e2 d2 B2 A2A2 G2 E2 D2 |G12 G2 A2 |B4 d8 b4 |a2 g2 a2 b2b2 a2 g4 |a4 a4a2 b2 g2 e2 |a12 g2 a2 |
+%W: A2
+% voice 1 (1 lines, 42 notes)
+b4 g4 a2 g2 e2 g2|g4 d4 e2 d2 B2 d2|d4 B4 A2 G2 E2 G2 |A12 D2 E2 |G2 B4 G2 A2 G2 E4 |G2 B4 G2 A4 e4 |d2 B2 A2 G2G2 E2 D4 |G12 G,2 A,2 |
+%W: B1
+% voice 1 (1 lines, 43 notes)
+B,4 D4 E2 D2 E2 F2 |G2 B4 G2 A2 G2 E4 |G2 A2 G2 E2E2 D2 B,4 |D12 G,2 A,2 |B,4 D4 E2 D2 E2 F2 |G2 B4 G2 A4 e4 |d2 B2 A2 G2G2 E2 G4 |A12 d2 e2 |
+%W: B2
+% voice 1 (1 lines, 44 notes)
+=f2 e2 d2 e2e2 d2 c4 |d2 e2 d2 B2 A2 G2 A2 B2 |d2 B2 G2 B2B2 A2 G4 |E12 D2 E2 |G2 B4 G2 A4 e4 |d2 g4 d2 e4 b4 |a2 g2 e2 a2 g2 e2 d2 B2 |G12 ||

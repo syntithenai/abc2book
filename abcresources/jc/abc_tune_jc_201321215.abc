@@ -1,0 +1,25 @@
+X: 1
+T:Two Pints O' Heavy
+M:6/8
+L:1/8
+Q:80
+C:Colin Magee
+S:March
+K:HP
+|: {g}A|
+{Gdc}d2{e}A{gde}d3/2c/2B|
+{g}A3{GAG}A2{g}A|  !
+{Gdc}d2{g}f{gf}g3/2d/2f|
+{gef}e3{A}e3/2f/2g{ag}a2f{gf}g2e|
+{g}f3/2d/2f{gef}e3/2d/2{e}B|  !
+{g}c/2{d}A3/2{d}c{gf}g3/2{a}c/2e|
+{Gdc}d3{gdc}d2:| |:
+A|  !
+{GdG}f3{g}f3/2e/2d|
+{g}A3{GAG}A2{g}A|
+{Gdc}d2{g}f{gf}g3/2d/2f|  !
+{gef}e3{A}e3/2f/2g{ag}a2f{gf}g2e|
+{g}f3/2d/2f{gef}e3/2d/2{e}B|
+{g}c/2{d}A3/2{d}c{gf}g3/2{a}c/2e|  !
+{Gdc}d3{gdc}d2:|
+

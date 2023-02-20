@@ -1,0 +1,26 @@
+X: 1
+T:Rabbits in Australia
+M:6/8
+C:
+S:Berkeley Morris (1988 May 1)
+N:
+A:Bucknell
+O:English
+R:Reel
+%P:A/2.(AB)$^3$.A
+P:A.(AB)3.A
+L:1/8
+K:G
+I:speed 450
+P:A
+|:D|G2   G    D2 D|E>Ae       d>BG|G2   G    D2 D|E2 A      G2:|\
+%|:E>Ae      d>BG|E2 A       G2 D|E>Ae      d>BG|E2 A      G2:|
+P:B
+A|B2   G    B2 G|B2-B       A2 A|B2   G    E2 E|AGF       G2
+w: *   Rab- bits in Aus-  tral -     ia, *  rab- bits in Aus- tra - li- a
+w: *   Mor- ris  danc-ing brings the sun, * lots of   beer for e - v'ry-one
+w: We  do~it all day, we  do~it all  night, be-cause it is~a fer-til-it-y rite
+A|B2   G    B2 G|BGB         A2 A|B2   G    E2 E|AGF       G2||
+w: *   Rab- bits in Aus- tra - li- a, *   rab- bits in Aus- tra - li- a
+w: *   Mor- ris  danc-ing brings_ the sun, * lots of   beer for e - v'ry-one
+w: We  do~it all day, we  do it all  night, be-cause it is~a fer-til-it-y rite

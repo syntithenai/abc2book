@@ -1,0 +1,24 @@
+X: 20521
+T: ALL'S WELL
+Q: "Adagio"
+%R: march
+B: "Edinburgh Repository of Music" v.2 p.52
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+D |\
+G2 G2 | G3 A | B2 ({B}A>G) | G2 zG |\
+B2 B2 | B3 c | (dg) (ec) | (B2 A) z/"_F."B/ |\
+A>B A>B | A>B c z/A/ |
+(B>A) (B>A) | B>c d z/G/ |\
+("_>"g2 {f}e>d | d2) zz/"_PP"d/ | d2 {d}Tc>B | B2 zz/G/ |\
+("_>"g2 {f}e>d) | d2 Hz B | "^lent."dc B{B}A | G2 z"_F."G "^Allegro."|
+.c.c.c.c | .B.B.B.B | .e.e.e.e | .d.d.d.d |\
+.c.c .B.B | .A.A .B.d | ("_P."gd) (cB) | (HB2 {cBABcdefg}HA)D/>D/ |\
+G2 z2 | .c.B z.G/.G/ |
+(FE) z>G | c2 z>"_P."A |\
+(GF) z"_F."D | d2 z2 "^Adagio."| ("_P."G2 {A/G/F/G/B2}HA>G) | G2 z2 |\
+(B2 {d}c>B | B2) zG "^cresc."| d2 z"_FF."G | e2 Hz2 |\
+("_P."HB2 {B}THA>G | G2) z |]

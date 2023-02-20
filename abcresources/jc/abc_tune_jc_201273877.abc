@@ -1,0 +1,55 @@
+#/home/jc/sh/abcjoin: sep=0.
+
+X: 0
+T: Revontulet 4
+K: C
+
+
+X: 1
+T: Saimaanrannan Laulu
+P: 3x
+C: Raimo Turunen
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+|: "D"A, D F | A2 A | B A> G | "D"F2 D | "A7"A, C E |
+| G2 E | G F> E | "D"D3 :| "D"d c d | "G"B2 G \
+| d c B | "D"A3 | F ^E F | "Bm"B2 F |
+| "Em"A G F | "A7"E3 || "D"A, D F | A2 A | B A> G \
+| "D"F2 D "I"| "A7"A, C E | G2 E | G F> E | "D"D3 |]
+
+
+X: 2
+T: Sappu Kirvusta
+P: 10x (D2G2D2G2D2)
+M: 2/4
+L: 1/8
+K: D
+P: D:
+"A7"A \
+| "D"de fg | a2 d2 | "A7"ce Bc | dc BA "I"|  "D"de fg | a2 d2 | "A7"ce fe | "D"d3 |]
+|: f \
+| "D"a3 f | a3 f | "Em"eg b2 | e3 d | "A7"c2 b2 | a2 g2 |1. "(D)"f2 "(A)"e2 | "D"dB A :|2. "D" dd/d/ "G"dd | "D"d3 |]
+P: G:
+K: G
+"D7"D \
+| "G"GA Bc | d2 G2 | "D7"FA EF | GF ED | "G"GA Bc | d2 G2 | "D7"FA BA | "G"G3 ||
+|: B \
+| "G"d3 B | d3 B | "Am"Ac e2 | A3 G | "D7"F2 e2 | d2 c2 |1. "(G)"B2 "(D)"A2 | "G"GE D :|2. "G" GG/G/ "C"GG | "G"G3 |]
+
+
+X: 3
+T: Sappu S\"akkij\"arvelt\"a
+P: ABAC
+O: Finland
+B: Tanhuvakka S\"avelmist\"o p.129
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+|: "F"c2cd c2cd | "C7"c2c2 cBAG | "F"FEFD "C7"C2FE |1 "F"F4 C4 :|2 "F"F4 F2z2 ||
+|| "F"A4 F4 | AGAB c2c2 | "C7"B4 G4 | BABc d2d2 \
+|  "F"A4 F4 | AGAB c2c2 | "C7"B2cB A2G2 | "F"F4 F2z2 ||
+|| "F"c4 c4 | "Bb"d4 d4 | "C7"e2e2 e2de | "F"f2a2 f2z2 \
+|  "F"c2cA c2cA | "Bb"d2dB d2dB | "C7"e2e2 e2de | "F"f4 f2z2 |]

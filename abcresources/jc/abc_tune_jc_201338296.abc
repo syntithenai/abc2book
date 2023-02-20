@@ -1,0 +1,39 @@
+X:1
+T: Sleeping in the Attic
+N:
+C:
+S:tune: Penruddock
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 200
+%W: A
+% voice 1 (1 lines, 19 notes)
+K:Am
+M:4/4
+L:1/16
+E4 |A4 A2 B2 c4 B2 A2 |E12 E4 |A4 A2 B2 c2 B2 A4 |e8e4 e2 d2 |
+%W:
+% voice 1 (1 lines, 21 notes)
+c4 c2 B2 A4 A2 B2 |c2 B2 A2 G2 E6 F2 |E4 E2 F2 E2 D2 C2 D2 |E12 E4 |
+%W:
+% voice 1 (1 lines, 18 notes)
+A4 A2 B2 c4 B2 A2 |E12 E4 |A4 A2 B2 c2 B2 A4 |e8e4 e2 d2 |
+%W:
+% voice 1 (1 lines, 20 notes)
+c4 c2 B2 A4 A2 B2 |c2 B2 A2 G2 E6 F2 |E4 E2 F2 E2 D2 C2 D2 |E12 ||
+%W: B
+% voice 1 (1 lines, 17 notes)
+K:A
+E4 |e4 c2 B2 A4 E4 |A12 E4 |F4 B2 c2 d2 c2 B2 A2 |F12 E4 |
+%W:
+% voice 1 (1 lines, 20 notes)
+e4 c2 B2 A4 A4 |f4 d2 c2 B4 a4 |f2 e2 d2 c2 B4 e4 |c6 B2 A4 E4 |
+%W:
+% voice 1 (1 lines, 16 notes)
+e4 c2 B2 A4 E4 |A12 E4 |F4 B2 c2 d2 c2 B2 A2 |F12 E4 |
+%W:
+% voice 1 (1 lines, 19 notes)
+e4 c2 B2 A4 A4 |f4 d2 c2 B4 a4 |f2 e2 d2 c2 B4 e4 |c6 B2 A4 ||

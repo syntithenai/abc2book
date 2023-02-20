@@ -1,0 +1,45 @@
+X:1
+T:Elspeth Anderson
+M:6/8
+L:1/8
+Q:80
+C:Tom Anderson
+S:March
+K:HP
+|: e | \
+{gcd}c3/2B/2{G}A{GAG}A2f | \
+{g}e/2a3/2c{gef}e3 | \
+{g}A2{GdGe}A{gfg}f2e |
+{g}c/2{d}A3/2{d}c{gBd}B2e{gcd}c3/2B/2{G}A{GAG}A2f | \
+{g}e/2a3/2c/2{gef}e3 | \
+{g}A3/2{d}c/2f{gef}e3/2B/2{d}c |
+{g}A3|1 {GAG}A2:|2
+{GAG}A|]  |: \
+{g}c/2d3/2 |
+{gef}e3{gfg}f2e | \
+{g}f/2a3/2c{gef}e3 | \
+{g}A2{GdGe}A{gfg}f2e |
+{g}c/2{d}A3/2{d}c{gBd}B3/2{g}c/2d|1 {gef}e3{gfg}f2e | \
+{g}f/2a3/2c{gef}e3 | \
+{g}A3/2{d}c/2f{gef}e3/2B/2{d}c |
+{g}A3{GAG}A :: \
+e | \
+{gcd}c3/2B/2{G}A{g}c/2e3/2A | \
+{g}d/2f3/2A{gcd}c3/2B/2{G}A |
+{g}c/2e3/2{A}e{g}f3/2e/2{A}e | \
+{g}c/2{d}A3/2{d}c{gBd}B2e{gcd}c3/2B/2{G}A{g}c/2e3/2A | \
+{g}d/2f3/2A{gcd}c3/2B/2{G}A |
+{g}A3/2{d}c/2f{gef}e3/2B/2{d}c | \
+{g}A3{GAG}A2 :: \
+{gf}g |
+a2{GdG}a{fg}f2e | \
+{g}f/2a3/2c{gef}e3 | \
+{g}A2{GdGe}A{gfg}f2e |
+{g}c/2{d}A3/2{d}c{gBd}B2|1 {gf}g|2 e|1 a2{GdG}a{fg}f2e | \
+{g}f/2a3/2c{gef}e3 | \
+{g}A3/2{d}c/2f{gef}e3/2B/2{d}c |
+{g}A3{GAG}A2:|2
+{gcd}c3/2B/2{G}A{g}c/2e3/2{A}e | \
+{gfg}f3/2e/2a{cd}c3/2B/2{G}A |
+{g}A3/2{d}c/2f{gef}e3/2B/2{d}c | \
+{g}A3{GAG}A3 :|

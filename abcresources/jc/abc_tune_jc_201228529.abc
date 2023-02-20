@@ -1,0 +1,50 @@
+X: 11341
+T: Duetto
+T: Rondo
+C: Gaetano Brandi
+Q: "Andantino"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.134-137
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+%%continueall
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 combines two original staff lines into one.
+V: 1
+% p.134
+!segno![|\
+c4 e3g | .f2(f>e) .d4 | .e2(e>d) .c4 | .B2.c2.d2.e2 |\
+g2{g/}(fe/f/) .e4 | (a3b) c'2c'2 | (f3g) a2a2 | g3g (agfe) |
+(e4 d4) | c4 e3g | .f2(f>e) .d4 | .e2(e>d) .c4 |\
+.B2.c2.d2.e2 | g2{g/}(fe/f/) .e4 | (a3b) c'2c'2 | (f3g) a2a2 |
+g3f e2d2 | (d4 c4) "_Fine"][ e4 g2e2 | d3(e/d/) (cBAG) |\
+^F(GAB) c2B2 | (B4  A4) | c3(d/c/) (BAG^F) | (GABc) .d4 |
+(e3^f g2)g2 | (c3d e2)e2 | d3c B2A2 | (A4 B4) | (e3^f g2)g2 |\
+(c3d e2)e2 | (d3c) B2TA2 | GGAB cde^f | g8- |
+g(gag) (^f=fed) !segno!][ (g3a/g/) fed^c | .d2.e2 .f4 | (f3g/f/) edcB |\
+.c2.d2 .e4 | _e3(f/e/) (dc=Bc) | B(g^fg) (fgfg) | (_e3f/e/) (dc=Bc) |
+(Bg^fg) (fgfg) | (=fbd'c') (b_agf) | (_egc'_b) (_agfe) | d2- d_ed{f/}edc |\
+(=Bgbd') c'aTg^f | g(gbd') c'aTg^f | g8- | g(gag) (^f=fed) !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V:2
+% p.134
+!segno![| EcGc EcGc | DBFB DBFB | EcGc EcGc | G4 .B2.c2 |
+e2{e/}(dc/d/) .c4 | (f3g)  a2a2  | (d3e) f2f2 | e3e (fedc) |
+(c4 B4) | EcGc EcGc | DBFB DBFB | EcGc EcGc |
+% p.135
+G4   .B2.c2 | e2{e/}(dc/d/) .c4 | (f3g)  a2a2  | (d3e) f2f2 |
+e3d c2B2 | (B4 c4) "_Fine"][ EcGc EcGc | B4 G4 |
+D(E^FG) A2G2 | (G4 ^F4) | d4 z2A2 | (G^FGA) .B4 |
+% p.136
+(c3d e2)e2 | (A3B c2)c2 | B3A G2^F2 | (^F4 G4) | (c3d e2)e2 |
+(A3B c2)c2 | (B3A) G2T^F2 | G4 z4 | G2AB cde^f |
+g4 z4 !segno!][ (e3f/e/) .d2.A2 | .F2.^c2 .d4 | (d3e/d/) .c2.G2 |
+% p.137
+.E2.B2 .c4 | ^F4 F2F2 | G4 z4 | ^F4 F2F2 |
+G4 z4 | G2=B2G2B2 | c4 _E2E2 | F4 ^F4 |
+G4 z(c=BA) | B4 z(cBA) | G2AB cde^f | g4 z4 !segno!|]
+%
+%%center -

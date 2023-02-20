@@ -1,0 +1,23 @@
+X: 1253
+T: the Reel of Tulloch
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.1 p.25 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+f !segno!|:\
+Te2 Ac/d/ ecAa | Te2 AB/c/ dB=GB \
+| {B}e2 Ac/d/ eAce | dE .c/.d/.e dB=GB \
+:: TcA c/d/e Tc>AAB |
+   TcA c/d/e dB=GB |\
+[1 TcA c/d/e TcATcA | BE c/d/e dB=GB :|\
+[2 TcA .c/.d/.e TcA .c/.d/.e | BE .c/.d/.e dB=GB !segno!y|]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z !segno!|: a2a2 a2a2 | a2a2 =g2g2 | a2a2 a2a2 |
+e2e2 =g2g2 :: a2a2 a2a2 | a2a2 =g2g2 |1 a2a2 a2a2 | e2e2 =g2g2 :|2 a2a2 a2a2 | e2e2 =g2g2 !segno!y|]

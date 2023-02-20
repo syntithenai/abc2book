@@ -1,0 +1,46 @@
+X:1
+T:Give us a Minute  "Arranged by Terry Tully"
+M:6/8
+L:1/8
+Q:80
+C:Traditional Irish
+S:Jig
+K:HP
+|: B | \
+{g}cde{g}eca | \
+A{d}A{e}A{gef}e2A | \
+{g}cde{g}ecg |
+G{d}G{e}G{dc}d2B{g}cde{g}eca | \
+A{d}A{e}A{gef}e2c | \
+{g}dfd{g}cac |
+{g}B{d}G{e}G{dc}d2 :: \
+B | \
+ac{d}A{g}ec{d}A | \
+ac{d}A{gef}e2c |
+ac{d}A{g}ec{d}A | \
+{g}B{d}G{e}G{dc}d2Bac{d}A{g}ec{d}A | \
+ac{d}A{gef}e2c |
+{g}dfd{g}cac | \
+{g}B{d}G{e}G{dc}d2 :: \
+B |
+{g}cde{g}ea{g}a | \
+ca{g}aec{d}A | \
+{g}cde{g}efg |
+G{d}G{e}G{dc}d2B{g}cde{g}ea{g}a | \
+ca{g}aec{d}A | \
+{g}dfd{g}cac |
+{g}B{d}G{e}G{dc}d2:| [ | \
+B | \
+ac{G}c{g}eA{d}A | \
+ac{G}c{gef}e2c |
+ad{c}d{g}ec{G}c | \
+{g}B{d}G{e}G{dc}d2Bac{G}c{g}eA{d}A | \
+ac{G}c{gef}e2c |
+{g}dfd{g}cac | \
+{g}B{d}G{e}G{dc}d2Bac{d}A{g}ec{d}A | \
+ac{d}A{gef}e2c |
+ad{c}d{g}ec{G}c | \
+{g}B{d}G{e}G{dc}d2Bac{d}A{g}ec{d}A | \
+ac{d}A{g}ec{d}A |
+{g}dfd{g}cac | \
+{g}B{d}G{e}G{dc}d2|]

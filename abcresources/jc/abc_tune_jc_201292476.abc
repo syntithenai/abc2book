@@ -1,0 +1,72 @@
+X: 1
+T: the Jenny Lind Polka
+C: Anton Wallerstein (1846)
+%D:1846
+F: http://lcweb2.loc.gov/diglib/ihas/loc.music.sm1850.661020/enlarge.html?page=3
+R: polka
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Tune 2 in the suite "Dodworth's polka quadrilles" published 1850 in New York by Wm. Hall and Son.
+N: Transposed down an octave for legibility.
+M: 2/4
+L: 1/16
+K: C
+[|\
+"C"[E2C2][G2E2] "G7"[F2D2][A2F2] | "C"[G2E2]e2 ({f}e^d).e2 |\
+"G7"([F2D2]d2) ({e}d^c).d2 | "C"([E2C2]c2) ({d}cB).c2 |
+"C".[E2C2].[G2E2] "G7".[F2D2].[A2F2] | "C"[G2E2]e2 ({f}e^d).e2 |\
+"G7"([F2D2]d2) ({e}d^c).d2 | "C".c2.c2.c2 !fine!z2 \
+H[|\
+!f!.c2"F".A2 .^G2.A2 |
+"C"(G2E2) ({F}E^D).E2 |\
+"G7".F2.D2 .^C2.D2 | "C"(E2C2) ({D}CB,).C2 |\
+.c2"F".A2 .^G2.A2 | "C"(G2E2) ({F}E^D).E2 |
+"G,/D,".D2.B2 "D7".B2.A2 | "G"F2"^Fz"z2 "G7"K[F2D2B,2G,2] |\
+"C"(3(GAG) (^FG) .c2E2 | "G7".G2.F2 ({G}FE).F2 |\
+"G7"(3(FGF) (EF) .f2B2 |
+"C".d2.c2 ({d}cB).c2 |\
+"C"(3(GAG) (^FG) .c2.E2 | "G7".G2.F2 ({G}FE).F2 |\
+"G7"(3(FGF) (EF) .f2.B2 | "C".c2.c2.c2 "_D.C."z2 |]
+%D:1846
+N: as played by Dodworth's Cornet Band
+N: Arranged by Allen Dodworth
+N: Teacher of dancing 448 Broome St.
+N: New York. Firth, Hall & Pond. 239 Broadway. & Firth & Hall 1 Franklin Sq.
+F: http://lcweb2.loc.gov/music/sm2/sm1846/052000/052270/001.tif
+R: polka
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: (The sharp over the turns on e is a bit odd, since the f is already sharp.)
+M: 2/4
+L: 1/16
+K: E
+"A"|:\
+"E"G2B2 "A"A2c2 | "E"B2g2 {a}g^^fg2 |\
+"Bm"A2f2 {g}f^ef2 | "E"G2e2 {f}ede2 |\
+"E"G2B2 "A"A2c2 | "E"B2g2 {a}g^^fg2 |\
+"Bm"A2f2 {g}f^efd | "E"e2g2e2z2 :|
+"B"|:\
+"A"[e'2c'2][c'2a2] {d'}[c'a]^bc'2 | "E"[b2g2e2][g2e2] {a}[ge]^^fg2 |\
+"Bm"[a2f2d2B2][f2d2B2] {a}f^ef2 | "E"[g2e2B2]e2 eegb |\
+"A"[e'2c'2a2][c'2a2] {d'}[c'a]^bc'2 | "E"[b2g2e2][g2e2] {a}[ge]^^fg2 |\
+"Bm"[a2f2d2B2][f2d2B2] {a}f^efd | "E"e2g2e2z2 :|
+% Original written-out repeat of B:
+%"A"[e'2c'2][c'2a2] {d'}[c'a]^bc'2 | "E"[b2g2e2][g2e2] {a}[ge]^^fg2 |\
+%"Bm"[a2f2d2B2][f2d2B2] {a}f^ef2 | "E"[g2e2B2]e2 eegb |\
+%"A"[e'2c'2][c'2a2] {d'}[c'a]^bc'2 | "E"[b2g2e2][g2e2] {a}[ge]^^fg2 |\
+%"Bm"[a2f2d2B2][f2d2B2] {a}f^efd | "E"e2g2e2z2 |]
+"A"[|\
+"E"G2B2 "A"A2c2 | "E"B2g2 {a}g^^fg2 |\
+"Bm"A2f2 {g}f^ef2 | "E"G2e2 {f}ede2 |\
+"E"G2B2 "A"A2c2 |"E"B2g2 {a}g^^fg2 |\
+"Bm"A2f2 {g}f^efd | "E"e2g2e2z2 |]
+[K:=d]\
+[K:A]
+"C"|:\
+"A"y"#"~e4 a3c | "E"e2d2 {e}dcd2 |\
+"#"~e4 d'3g | "A"b2a2 {b}aga2 |\
+"A"y"#"~e4 a3c | "E"e2d2 {e}dcd2 |\
+"#"~e4 d'3g | "A"b2a2 a2z2 :|[K:E]
+"A"[|\
+"E"G2B2 "A"A2c2 | "E"B2g2 {a}g^^fg2 |\
+"Bm"A2f2 {g}f^ef2 | "E"G2e2 {f}ede2 |\
+"E"G2B2 "A"A2c2 |"E"B2g2 {a}g^^fg2 |\
+"Bm"A2f2 {g}f^efd | "E"e2g2e2z2 |]

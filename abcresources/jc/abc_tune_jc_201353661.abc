@@ -1,0 +1,28 @@
+X:1
+T: Wooing Mairi
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:A
+I:speed 200
+%W:
+% voice 1 (1 lines, 29 notes)
+K:A
+M:4/4
+L:1/16
+E2 F2 |A8 c8 |B4 G4 A4 F4 |E4 E4 E2 F2 G4 |A8 E4 F4 |A8 d8 |e6 c2 B4 A4 |F4 F4 A4 F4 |E8 E4 F4 |
+%W:
+% voice 1 (1 lines, 26 notes)
+A8 B8 |c8 A4 B4 |f6 f2 e4 c4 |B8 c4 B4 |A8 f8 |e6 c2 A2 B2 c2 d2 |e4 e4 f4 d4 |e8 e8 |
+%W:
+% voice 1 (1 lines, 33 notes)
+K:G
+g6 g2 f4 d4 |c4 e4 d4 B4 |A4 c4 B4 G4 |A4 E4 F4 d4 |g6 g2 f4 d4 |c4 e4 d4 B4 |A4 ^c4 B4 F4 |A2 ^G2 F4 E4 F4 |
+%W:
+% voice 1 (1 lines, 24 notes)
+K:A
+A8 B8 |c8 A4 B4 |f6 f2 e4 c4 |B8 A4 B4 |c8 e8 |f4 d4 e4 f2 g2 |a4 e4 c2 B6 |A12 ||

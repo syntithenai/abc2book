@@ -1,0 +1,18 @@
+X: 413
+T: Leather Away With the Wattle   #2
+N: Irish title: buail leat leis an .bata
+R: march, air
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #413
+O: F.O'Neill
+Z: henrik.norbeck@mailbox.swipnet.se
+N: Note lengths on repeats don't add up correctly.
+N: Compacted by using labels and play order [JC]
+P: Play AB CB
+Q: "Lively"
+M: 2/4
+L: 1/8
+K: D
+"^A"[|] (A/B/c) |.d.A.F.A | .d2 (d/e/f/g/) | .e.d.c.d | (e/f/g) fg |]
+"^B"[| af ge | d2 AF | (G/A/B/c/) AG | FD "^fine"D |]
+"^C"[| d/e/ | ff fd | .g.g ge | ff fa | gf .e(f/"^->B"g/) |]

@@ -1,0 +1,20 @@
+X: 461
+T: Mrs MELVILL. DYSART
+C: J. WALKER
+R: Reel
+B: Glen Collection p.46 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: Em
+V: 1
+F |: GFEF GAB^c | dDDE FGAF |[1 GFEF GABe | dBAF E2EF :|
+[2 GBGE FAFD | dBAF E2 E || B | edBd efge | dBAB defd | edBd efge |
+dBAF E2Ed | edBd efge | dBAB defe | gefd edBe | dBAF E2E |]
+V: 2
+z |: e2b2 g2e2 | d2[a2f2] A2[a2f2] |[1 e2b2 g2e2 | f2B2 e2[b2g2e2] :|
+[2 e2g2 d2f2 | d2B2 e2[bge] || z | e2 [b2g2] B2[b2g2] | g2[d'2b2] d2[d'2a2] | e2[b2g2] B2[b2g2] |
+d2^d2 e2[b2g2e2] | [g2e2][b2g2] B2[b2g2] | g2[d'2b2] d2[d'2a2] | e2B2 e2[b2g2] | B2^d2 e2[bge] |]

@@ -1,0 +1,35 @@
+X: 120
+T:Dobrudzanka Pandela
+O:Bulgaria
+S:Learned and collected in Bulgaria by Jaap Leegwater (JL1985.01)
+L:1/8
+M:2/4
+Q:1/4=140
+K:D
+V:1
+%%MIDI program 21
+%%MIDI beat 95 85 75 4
+%%MIDI bassprog 24
+%%MIDI bassvol 50
+%%MIDI chordprog 70
+%%MIDI chordvol 50
+|:"A"A2 e2     |"D"fe d2       | "A"c2 "G"B2    | "A"A4   |
+  "G"G2 B2     |"A"c2 "G"B2    |[1"A"A3 B       |cd e2    :|\
+  [2"A"A4      | A4            |
+|:"A"ABBA      |ABBA           |ABBA            |A2 E2    |\
+  ABBA         |ABBA           |ABBA            |A4       :|
+  "D"d2 d2     |"Am"=cdcB      |"A"A4           |A4       |\
+  "D"d2 d2     |"Am"=cdcB      |"A"A4-          |A4       |
+  c2 A2        | A4            | ABBA           | A4      |\
+  ABcd         | c2 BA         | A2 z2          |A2 z2    |
+V:2
+%%MIDI program 21
+|:A,2 E2       |FE D2          | C2 B,2         | A,4     |
+  G,2 B,2      |C2 B,2         |[1A,3 B,        |CD E2    :|\
+  [2A,4        | A,4           |
+|:A,B,B,A,     |A,B,B,A,       |A,B,B,A,        |A,2 E,2  |\
+  A,B,B,A,     |A,B,B,A,       |A,B,B,A,        |A,4      :|
+  D2 D2        |=CDCB,         |A,4             |A,4      |\
+  D2 D2        |=CDCB,         |A,4-            |A,4      |
+  C2 A,2       | A,4           | A,B,B,A,       | A,4     |\
+  A,B,CD       | C2 B,A,       | A,2 z2         |A,2 z2   |

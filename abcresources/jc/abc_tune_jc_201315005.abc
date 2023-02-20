@@ -1,0 +1,25 @@
+X: 1
+T: the Muses
+R: jig
+S: https://www.loc.gov/resource/musm1a1.10098.0/?sp=1
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+(A/G/) |\
+FAd FAd | BcB e2d | cBc ABc | d2e f2 (A/G/) |\
+FAd FAd | BcB e2d | cBc ABc | d3 d2 |]
+a |\
+f2a e2a | dcd c2a | (fa)a (ea)a | ^gfg a3 |\
+dcd dcd | gfg f3 | ege cBc | d3 D2 |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=D
+z |\
+"D"D2z F2z | "G"G2z "Em"E2z | "A7"A2z A,2z | "D"DFA d2z |\
+"D"D2z F2z | "G"G2z "Em"E2z | "A7"A2z A,2z | "D"DF,A, D,2 |]
+z |\
+"D"(d3 "A"c3 | "Bm"B3 "A"A2)z | "D"d3 "A"c3 | "E7"B2E "A"A2z |\
+"D"[d2F2]z [d2F2]z | "A7"[c3e3] "D"[d2D2]F | "Em"G3 "A7"A3 | "D"DF,A, D,2 |]
+% - - - - - - - - - -

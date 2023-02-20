@@ -1,0 +1,25 @@
+X: 1
+T: Rigadoon
+P: Longways for as many as will
+%R:
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.158
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat added to satisfy "First Strain Twice over" instruction.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: c4 B2A2 | G6 G2 | A2A2 (B3A/B/) | c3d c2G2 | c4 B2A2 | G6 G2 | A2A2 B2AB | c4- c4 :|
+[| efg2 efg2 | f2e2 d2G2 | c4 d2e2 | e4 d4 | efg2 efg2 | f2e2 d2G2 | A4 B4 | c4- c4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center First Strain Twice over.
+%%begintext align
+%% The first man turn his own partner round by the right-hand, and then turn the 2. man with the left
+%% till he comes to his own place, then the 1. man turn his own Partner again by the right-hand, and
+%% then the 1. wo. the 2. by the left. The 1. cu. cross over below the 2. cu. and go the Figure, then
+%% take hands and lead through below the 3. cu. and cast up into the 2. cu. place, and then turn your
+%% Partner.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

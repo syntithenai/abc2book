@@ -1,0 +1,20 @@
+X: 1
+T: Gardner's Fantasia
+T: Mary and Lloyd Augustus
+C: Bobby Frew
+R: strathspey
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Mary and Lloyd Augustus is the tune's title; Gardener's (or Gardener's) Fantasia is the name of a dance.
+M: C
+L: 1/8
+K: D
+"A7"A,2 |\
+"D"D2 D>E F>E D>E | F<A d>e "D7"f>e d>c |\
+"G"B>c d>B "D7"A<d F>E | "Em"(3EFG (3FED "A7"(3CDE (3A,B,C |
+"D"D2 D>E F>E D>E | F<A d>e "Bm"f>e d>c |\
+"G"B>c d>B "D7"A<d F>E | "Em"(3EFG "A7"F>E "D"D2 |]
+"A7"A2 |\
+"D"f2 f>e d>A A<d | "G"B>c d>B "D"B>A F<A |\
+"D"f2 f>e "G"d>B "D"A<B | "Bm"d>B "F#m"A<F "Em"E4 "A7"A,2 |
+"D"D2 D>E F<A d>e | "D7"f2 e>d "G"B<d "D(B7)"A>F |\
+"Em"G>A B>G "D"A<d F>E | "Em"(3EFG "A7"F>E "D"D2 |]

@@ -1,0 +1,19 @@
+X:232
+T:L'Entr\'ee du Bal
+M:2/4
+L:1/8
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=110
+C:Nicholas Lemair, 1773
+K:F
+%%textfont Times-Roman-Bold 20
+%%center Play [AABBCC] x 4 + final A
+P:A
+|: "F"ff/f/ fg | "/"aa/a/ ab | "F/A"c'b "C7"Tag | "F"(Tf/e/f/g/)fc |\
+"F"ff/f/ fg | "/"aa/a/ ab | "F/A"c'b "C7"Tag | "F"f2 f2 :|
+P:B
+|: "F"ff/f/ ff | "F/C"cc/c/ cd | "C7"TcB TAG | "F"TF/E/F/G/ FF |\
+"F"ff/f/ ff | "C/E"cc/c/ c{Bc}d | "F"TcB "C7"TAG | "F"F2 F2 :|
+P:C
+|: "C"EG EC | "F"FA FA | "Gm"BG "C7"cC | "F"(TF/E/F/G/) FF |\
+"C"EG EC | "F"FA FA | "Gm"BG "C7"cC | "F"F2 F2 :|

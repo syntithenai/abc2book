@@ -1,0 +1,19 @@
+X: 01009
+T: BLUE JAY POLKA
+C: Bob McQuillen Dec '74
+B: Bob's Note Book 1 #9
+%R: polka
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Initial repeat not in booklet; added.  (Delete it if you don't like it.)
+M: C
+L: 1/4
+K: F
+|: cc cc | cc cc | AF FA | GE C2  |\
+|  cc cc | cc cB | AF GE | FA F2 :|
+|: df fe | dc fc | Bd cB | AB c2  |\
+|  df fe | dc fc | ef ge | fa f2 :|
+%%begintext align
+%% The beautiful Blue Jays ouside
+%% my window sing this song,
+%% and in the key of F!
+%%endtext

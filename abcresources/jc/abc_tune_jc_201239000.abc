@@ -1,0 +1,16 @@
+X: 31953
+T: HOWARD HORNPIPE
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.195 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has an initial repeat but no final repeat. The best solution isn't obvious, so I've left it "as is".
+M: C|
+L: 1/8
+K: A
+|:\
+vA2 ((3cBA) (c>e)a>e | f>ae>a d>ac>a | B2 ((3dcB) d>fb>a | ((3gag) ((3fe^d (3e)(fe (3=dcB) |
+ A2 ((3cBA) (c>e)a>e | f>ae>a d>ac>a | B2 ((3dcB) d>fb>a | ((3gfe (3dcB) A2 :|
+|:\
+vF2 ((3GF^E) (F>A)c>a | g>f^e>g f>ga2 | F2 ((3GF^E) (F>A)c>a | g>f^e>g uf2uf2 |
+E2 ((3GFE) (E>B)e>G | A2((3BAG) (A>e)a>c | B2 ((3^dcB) (d>f)b>a | ((3gag (3fgf (3efe (3dc"^D.C."B) |]

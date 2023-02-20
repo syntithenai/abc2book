@@ -1,0 +1,33 @@
+X: 1
+T: the Bunters Joke
+T: the Bunters Ioke
+N: The first letter of the title's second word is ambiguous; it could be I or J.
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #9 (23)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The meaning of the # above several notes isn't known.
+N: Repeats adjusted to match the "Each Strain twice" instruction.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G>AG B2g | f3 ed2 | e>fe (gb)B | A3 D3 |\
+G>AG (Bd)g | faf e2d | ^c>de A>Bc | dAF E2D :|
+|:\
+A>BA B2e | ef^d e2f | g>fe "^#"e2^d | e2z .g2z |\
+.d2z .c2z | .B2z z2z | (BG)g (dB)b | g>fe d2c |
+BgB AcA | BgB "^#"c2A | (BG)g (dB)b | g>fe d2c |\
+BgB AcA | BgB "^#"c2A | B>AG ADF | G3 z2z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1st Cu. do the Rigadoon step and cast off meeting one
+%% another .| The Rigadoon step again and cast up again :| then
+%% cross over and half figure with the 2d Cu. and turn
+%% Partners .| lead thro the bottom and top and cast down into
+%% the 2d Cu. Place.
+%%endtext
+%%sep 1 8 500

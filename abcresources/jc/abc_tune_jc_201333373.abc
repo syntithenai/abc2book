@@ -1,0 +1,16 @@
+X:641
+T:Saint Margaret's Hill
+M:3/2
+%%MIDI gchord fcHcfc
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=96
+M:3/2
+L:1/4
+K:Gm
+P:A
+"Bb"B/c/d cB "C7"AG | "F"A/B/c cd "F7"e2 | "Bb"d3/e/ "F"fc "Gm"de | "F"c3B "Bb"B2 |\
+"Gm"B/c/d cB AG | "F"A/B/c cd "F7"e2 | "Bb"dB Bd "F"cA | "D7"A3G "Gm"G2 |
+P:B
+|: "Eb"ge eg "Dm"fe/d/ | "F"cd/e/ fe/d/ c2 | "Eb"G3/A/ BA Bc | "F7"c3B "Bb"B2 |\
+"F"A3/B/ cA "Gm"dG | "D7"^FG AB c2 | "Bb"dB Bd "F"cB/A/ | "D7"A3G "Gm"G2 :|

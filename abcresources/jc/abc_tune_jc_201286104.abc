@@ -1,0 +1,67 @@
+
+X: 1
+T: der Heyser Jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Henry Sapoznik, "The Compleat Klezmer".
+D: Naftule Brandwein Orchestra, 1923
+N:
+N: Original in 2/4, but with mostly triplets in melody.
+N: 8 repeated bars deleted from A phrase.
+M: 6/8
+L: 1/8
+K: Dphr
+D ^F2G \
+| "D"A2A A3 | ABc "Cm"BAG | "D"A2A ^F3- | F2D F2G \
+| "D"A3 z2d | dAc "Cm"BAG | "D"A2A ^F3- | F2D ^F2G |
+| "D"A2G B2A | G2^F E2D | "Cm"G2G C3- | C2C E2G \
+| cde  dcB | ABc BAG | "(D)"^FGA "Cm"GFE | "D"D2 :|
+|: D G2B \
+| "Gm"^cd2- d2d | d^cB B3 | A=cB B2B | ~A2G ^F2G \
+| "D"^F2G A2B | "Cm"cAc BAG | "D"A6 | z2D G2B |
+|  "Gm"^cd2- d2d | d^cB B3 | A=cB B2B | ~A2G ^F2G \
+| "D"^F2G A2B | "Cm"c2B BAG | G^FE EDC | "D"D2 :|
+|: z z2A, \
+| "D"Dz2 z3 | Az2 "(Gm)"BAG | "D"^FGA GFE | ^F2G ^G2A \
+| "D"Dz2 z3 | Az2 BAG | "D"^FGA "Gm"BAG | "D"AG^F "Cm"EDC |
+|  "D"Dz2 z3 | Az2 "(Gm)"BAG | ^F2G ^G2A | "Cm"=Bc2- c3 \
+| cde  dcB | ABc BAG | "(D)"^FGA "Cm"GFE | "D"D2 :|
+|: D D2_D \
+| "Cm"C3 D2E | EDC G3 |    ^FGA     GFE |    D2C ^F2G \
+|     C3 D2E | D2C c3 |     cBA     BAG |    AG^F GFE |
+| "Cm"C3 D2E | EDC G3 |    ^FGA     GFE |    D2C ^F2G \
+|     C3 D2E | D2C G3 | "D"^FGA "Cm"GFE | "D"D2 |]
+
+
+%%sep 1 1 500
+
+X: 2
+T: der Heyser Jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Henry Sapoznik, "The Compleat Klezmer".
+D: Naftule Brandwein Orchestra, 1923
+N:
+N: Original in 2/4, but with many triplets in melody.
+N: 8 repeated bars deleted from A phrase.
+M: 6/8
+L: 1/8
+K: Ephr
+E ^G2A \
+| "E"B2B B3 | Bcd "Dm"cBA | "E"B2B ^G3- | G2E G2A \
+| "E"B3 z2e | eBd "Dm"cBA | "E"B2B ^G3- | G2E ^G2A |
+| "E"B2A c2B | A2^G F2E | "Dm"A2A D3- | D2D F2A \
+| def edc | Bcd cBA | "(E)"^GAB "Dm"AGF | "E"E2 :|
+|: E A2c \
+|: "Am"^de2- e2e | e^dc c3 | B=dc c2c | ~B2A ^G2A \
+| "E"^G2A B2c | "Dm"dBd cBA | "E"B6 | z2E A2c |
+| "Am"^de2- e2e | e^dc c3 | B=dc c2c | ~B2A ^G2A \
+| "E"^G2A B2c | "Dm"d2c cBA | A^GF FED | "E"E2 :|
+|: z z2B, \
+|: "E"Ez2 z3 | Bz2 "(Am)"cBA | "E"^GAB AGF | ^G2A ^A2B \
+| "E"Ez2 z3 | Bz2 cBA | "E"^GAB "Am"cBA | "E"BA^G "Dm"FED |
+| "E"Ez2 z3 | Bz2 "(Am)"cBA | ^G2A ^A2B | "Dm"=cd2- d3 \
+| def edc | Bcd cBA | "(E)"^GAB "Dm"AGF | "E"E2 :|
+|: E E2_E \
+|: "Dm"D3 E2F | FED A3 | ^GAB AGF | E2D ^G2A \
+| D3 E2F | E2D d3 | dcB cBA | BA^G AGF |
+| "Dm"D3 E2F | FED A3 | ^GAB AGF | E2D ^G2A \
+| D3 E2F | E2D A3 | "E"^GAB "Dm"AGF | "E"E2 :|

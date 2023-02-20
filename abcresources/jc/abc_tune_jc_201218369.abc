@@ -1,0 +1,64 @@
+X:01011
+T: Mrs. MacLeod's Reel
+T: 8x32R
+O: RSCDS-6
+Z: John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+%--------------------
+K:
+P: MacLeod's Reel
+O: Trad
+Z: John Chambers <jc:trillian.mit.edu>
+N: Sometimes called "Uncle Joe" in America.
+N: Skye p.8
+N: Hunter 249
+N: BSFC I-61 and III-45
+N: Winston  Scotty  Fitzgerald
+D: Celtic 40 Fiddlers 3+2 tape A6
+R: reel
+M: C|
+L: 1/8
+K: A
+   cB \
+| "A"A2a2 "(D)"fefa | "A"~c2cB "(E7)"c2cB \
+| "A"A2a2 "F#m"fefa | "Bm"B2BA "E7"B2cB |
+| "A"A2a2 "(D)"fefa | "A"~c2cB c2e2 \
+| "D"~f2fg fefg | "A"afec "E7"B2 :|
+|: cB \
+| "A"~A2cA eAcA | c2cB "(E7)"c2cB \
+| "A"~A2cA "F#m"eAcA | "Bm"B2BA "E7"B2cB |
+| "A"~A2cA eAcf | ecBA c3e \
+| "D"~f2fg fefg | "A"afec "E7"B2 :|
+P: Petronella
+R: Reel
+O: Trad
+M: 4/4
+K: D
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+|: dA \
+| "D"F2AF "A7"E2AE | "D"D2D2 D2FA | d2cd e2d2 | "A7"cdec ABAG |
+| "D"F2AF "A7"E2AE | "D"D2D2 D2FA | d2cd "A7"e2c2 | "D"d4- d2 :|
+|: dA \
+| "D"F2fd A2af | "Em"g2gf edcB | "A7"A2ec Aceg | "D"f2fd AdAF |
+| "D"D2fd A2af | "Em"g2gf edcB | "A7"A2ec Agec | "D"d4- d2 :|
+P: the Flowers of Edinburgh
+O: Trad
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+N: Probably the best-known Scottish reel; in all the old collections.
+N: RSCDS 1-1.
+N: Hardie p.32
+N: Skye p.170
+N: Bain p.33
+N: Williamson p.53
+N: BSFC I-10 and  V-9 and  XI-6
+D: Scottish  Traditional Fiddle Music tape
+D: Jimmy MacLellan on "This is Sidney" tape
+M: C|
+L: 1/8
+K: G
+   GE \
+| "G"D2DE G2GA | BGBd cBAG | "D7"FGFE DEFG | AFdF E2GE |
+| "G"D2DE G2GA | BGBd "C"efge | "G"dcBA "D7"GFGA | "G"B2G2 G2 :|
+|: d2 \
+| "G"g2gd gbag | "D7"f2fd fagf | "Em"~e2ef gfed | B2e2 "(C)"e2ge |
+| "G"dBGB d2d2 | "C"edef g2fe | "G"dcBA "D7"GFGA | "G"B2G2 G2 :|

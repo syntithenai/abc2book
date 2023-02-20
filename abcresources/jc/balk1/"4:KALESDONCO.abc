@@ -1,0 +1,26 @@
+X: 224
+T: Kales Donco
+O: Macedonia
+M: 9/8
+L: 1/8
+Q:1/4=240
+K:Aphr
+P:A
+%%MIDI gchord f2f2f2f3
+%%MIDI program 71 % Clarinet
+%%MIDI bassprog 24 octave=1 % Acoustic Guitar
+%%MIDI bassvol 72
+"F"[C2A,2][F2D2][G2E2] [c3A3]|"Bb"[d2B2][c2A2][B2G2]"F" [A3F3]|\
+"Bb"[B2G2][c2A2][dB][cA][BG][c2A2]-|"F"[c4A4]z2[dB][cA][BG]|
+[C2A,2][F2D2][G2E2] [c3A3]|"Bb"[d2B2][c2A2][B2G2] [A3F3]|\
+"F"[A2F2][B2G2][c2A2] [dB][cA][BG]|"Am"[A6F6]z3|
+P:B
+"Bb"[dD][eE] [e2E2] [dD][cC] [dD][c2C2]|[d2D2] [c2C2] [B2B,2] [c3C3]|\
+[B2B,2] [c2C2] [dD][cC] [BB,][c2C2]-|"F"[c4C4]z2[dD][cC][BB,]|
+"Bb"[dD][eE] [e2E2] [dD][cC] [dD][c2C2]|[d2D2] [c2C2] [B2B,2] [c3C3]|\
+[B2B,2] [c2C2] [B2B,2] "Am"[A3A,3]-|[A4A,4]z4z3|
+P:C
+"F"[FD][GE] [FD][AF] [FD][BG] [AF][GE][FD]|[cA][dB] [cA][BG] [A2F2] [FD][GE][FD]|\
+"Bb"[BG][AF][GE] "Am"[A4F4] z3|
+"F"[FD][GE] [FD][AF] [FD][BG] [AF][GE][FD]|[cA][dB] [cA][BG] [A2F2]- [AF][F2D2]|\
+"Bb"[BG][AF][GE] "Am"[F3D3] z3:|

@@ -1,0 +1,19 @@
+X:1
+T:Manchester Hornpipe, The
+T:Rickett's Hornpipe
+R:hp 32
+N:also a triple hornpipe by this name
+O:England
+M:4/4
+L:1/8
+Q:1/4=140
+K:D
+|:(3ABc|dcdA FAdf|edcB A2g2|fgaf gfed|cdec A2 (3ABc|
+dcdA FAdf|edcB A2g2|fgaf bgec|d2f2 d2:|
+|:fg|afaf d2ga|bgbg e2fg|afaf bagf|edcB A2 (3ABc|
+dcdA FAdf|edcB A2g2|fgaf bgec|d2f2 d2:|]
+" variant"
+|:(3ABc|dcdA FAdf|edcB A2g2|fgaf bagf|edcB Agfe|
+dcdA FAdf|edcB A2g2|fgaf bgec|d2dc d2:|
+|:fg|afaf d2ga|bgbg e2fg|afaf bagf|edcB Agfe|
+dcdA FAdf|edcB A2g2|fgaf bgec|d2dc d2:|]

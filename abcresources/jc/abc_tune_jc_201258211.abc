@@ -1,0 +1,25 @@
+X: 1
+T: "By-yump"
+T: Nifty's freylekhs
+C: Naftule Brandwein
+C: as played by Mimi Rabson without ornamentation
+R: freilach
+N: The title is probably a comment of the sounds of the first few bars.
+S: Fiddle Hell Online 2021-11-5 handout
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: none	% D freygish/hijaz
+"^A"|: z2A |\
+"D"dzzd "Cm"_ezze | "D"^f3a gf_ed |\
+  a2^f2 "Cm"_edeg | "D"^f3g a/g/f _e/d/c |\
+"D"dzzd "Cm"_ezze | "D"^f3a gf_ed |
+a2^f2 "Cm"_edec | "D"d4 z "^B":: z3 |\
+"Gm"dd'd'd' d'd'd'd' | "Cm"c'>d' _e'd' c'_bag |\
+[1 "D"a2^f2 "Cm"edeg | "D"^f3g a/g/f _e/d/c :|
+[2 "D"a2^f2 "Cm"edec | "D"d4 z "^C":: dga |\
+"Gm"_b4- bagf | "D7"a4- ad^fg |\
+"D7"a4- a(g/a/ _b/a/g/^f/) | "Gm"g4- g2dga |\
+"Gm"_b2b2 b/a/g f/_e/d | "Cm"c4 c'4 !coda!|
+c'_bag ag^f_e |[1 ^f/g/a g/f/_e "D"d :|[2 "D  d.C. al Coda"d4 yz |]\
+!coda!y "^A7"Ta4- a/a/^g/a/_b/=b/c'/^c'/ | "D"d'2z2 "A7"a2z2 | "D"d8 |]

@@ -1,0 +1,28 @@
+
+X: 1
+T: Morag of Dunvegan    [A]
+C: attr. Neil Matheson
+R: waltz
+M: 3/4
+L: 1/4
+K: A
+"E7"fg \
+| "A"a3 |"D"a>gf |"A"e2A |     A3 |  "A"c3  |"F#m"cBc |"Bm"f2e |"E7"e>fg |
+| "A"a3 |"D"a>gf |"A"e2A |"/g#"A3 |"F#m"c2c |"c#m"e2c |"E7"B3  | "A"A3  ||
+||"A"c3 |    cBA |   cee |"E"e>fg |  "D"a3  |"/c#"aga |"Bm"f2e |"E7"e3   |
+| "A"c3 |"A7"cBc |"D"f2e |  "A"e3 |  "D"f3  |  "A"fec |"E7"B3  | "A"A   |]
+
+%%sep 1 1 500
+
+X: 2
+T: Morag of Dunvegan    [D]
+C: attr. Neil Matheson
+R: waltz
+M: 3/4
+L: 1/4
+K: D
+"A7"Bc \
+| "D"d3 |"G"d>cB |"D"A2D |      D3 | "D"F3  | "Bm"FEF |"Em"B2A |"A7"A>Bc |
+| "D"d3 |"G"d>cB |"D"A2D |"/^c#"D3 |"Bm"F2F |"F#m"A2F |"A7"E3  | "D"D3  ||
+||"D"F3 |    FED |   FAA | "A"A>Bc | "G"d3  |"/f#"dcd |"Em"B2A |"A7"A3   |
+| "D"F3 |"D7"FEF |"G"B2A |   "D"A3 | "G"B3  |  "D"BAF |"A7"E3  | "D"D   |]

@@ -1,0 +1,19 @@
+X: 16
+T: Lucy Rhode's Delight
+%R: reel, strathspey
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.8 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+A,1 |\
+D3E DEFG | A2F2 f3e | dB3 AF3 | EDEF E2A,2 |\
+D3E DEFG | A2F2 f3d | dB3 AF3 | D4 D2 :|
+|: B2 |\
+AF3 d3B | AF3 f3e | d2B2A2F2 | EDEF E2B2 |\
+AF3 d3B | AF3 f3e | df3 e2a2 | d4 d2 :|
+%%begintext align
+%% Sett and half Right and Left, same back again,
+%% lead down 2 Cu: up one Cu., Poussette.
+%%endtext

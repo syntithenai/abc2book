@@ -1,0 +1,28 @@
+X: 1
+T: Hilanders March
+P: Longways for as many as will
+%R: march, reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.236
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B2 |\
+GGG2 B4 | A3A A2E2 | GGG2 B4 | G3G G2D2 |\
+GFGA BGAB | AGAB AG AE | GFGA BGAB | GF GD B,A, B,G, |
+GFG2 d4 | cBcd c3c | BAB2 e4 | A3A A2E2 |\
+GFGA B2(AB) | G2D2 B,2G,2 | GFGA dcde | cBcd cdcA |
+BA Bd edeB | A3A A2E2 | GGG2 B4 | G3G G2b2 |\
+ggg2 g2b2 | a3a a2e2 | ggg2 g2b2 | g3e g2d2 |
+gfga b2(ag) | a3a a2e2 | gfga b2(ab) | g3e g2d2 |\
+e2g2 d2e2 | B2d2 A2E2 | g3d e3c | dc BA G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. lead up and cast off, then lead down towards the 3. cu. Then lead up the 2. cu. into their own places; then
+%% take hands and fall back, meet and turn S. then lead down the middle, meet and cast up into their own places, the 1. man
+%% turns the 2. wo. and falls into his own place, the 2. wo. does the same; The 1. cu. clap hands and cast off into the 2. cu. place.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

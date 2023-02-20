@@ -1,0 +1,36 @@
+X: 21151
+T: GAMBLER'S SETT (tune 4)
+C:
+%R: polka, reel
+B: Elias Howe "The Musician's Companion" 1843 p.115, #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+[|\
+D2 (3(AGF) .G2.A2 | B2DD D2D2 | D2 (3(AGF) .G2.A2 | B2DD D2D2 |\
+D2 (3(AGF) .G2.A2 | c2DD D2D2 | d2cB A2BA | G2GG G2z2 H|]
+[|\
+d2dd "^>"g4 | B2BB "^>"d4 | G2GG ({A}GFGB) | (AGFE) D4 |\
+d2dd "^>"g4 | B2BB "^>"d4 | G2GG ({A}GFGB) | A2dd d2D"^D.C."D |] [K:=f]
+K: C
+[|\
+G4 ABcd | e2eg c'2z2 | G4 ABcd | e2eg c'2z2 |\
+A2f2 A2f2 | G2e2 F2d2 | E2c2 D2G2 | C2EG c2"^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two give right hands across,
+%% left hand back,
+%% form a line,
+%% balance four,
+%% half promenade,
+%% ladies forward and back,
+%% gentlemen the same,
+%% balance four,
+%% half right and left to place.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

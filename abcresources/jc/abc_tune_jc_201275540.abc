@@ -1,0 +1,64 @@
+
+X: 1
+T: Fiddle Faddle    [G]
+O: John Walsh, c. 1740
+%R: reel
+B: John Walsh "Caledonian Country Dances with a Thorough Bass" p.3
+B: John Walsh "Caledonian Country Dances 3d Edition" p.6-7
+S: 1: http://javanese.imslp.info/files/imglnks/usimg/4/41/IMSLP74348-PMLP149069-Johnson_caledonian_country_dances.pdf p.3
+S: 3: CCD3  http://petrucci.mus.auth.gr/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.6-7
+Z: 2013, 2017 John Chambers <jc:trillian.mit.edu> (simplified 2018)
+N: This is a close relative of the Tail Toddle Reel (see Aird v.2 1785).
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: "G"G{G}G BG "C"c2 GE | "G"G{G}G BG "D"A2 FD | "G"G{G}G BG "C"cA "G"BG | "Am"A{B}c "G"B{c}d "D"A2 FD :|
+|: "C"c2 GE Ec GE | "C"c2 GE "D"DA FD | "C"c2 GE EC GE | "Am"A{B}c "G"B{c}d "D"A2 FD :|
+|: "G"G{G}G BG "C"cA "G"BG | "G"G{G}G BG "D"AD FD | "G"G{G}G BG "C"cA "G"BG | "Am"A{B}c "G"B{c}d "D"A2 FD :|
+|: "C"c2 Ec Ec GE | "C"c2 Ec "D"DA FD | "C"c2 Ec Ec GE | "Am"A{B}c "G"B{c}d "D"A2 FD :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 2
+T: Fiddle Faddle    [D]
+O: John Walsh, c. 1740
+%R: reel
+B: John Walsh "Caledonian Country Dances with a Thorough Bass" p.3
+B: John Walsh "Caledonian Country Dances 3d Edition" p.6-7
+S: 1: http://javanese.imslp.info/files/imglnks/usimg/4/41/IMSLP74348-PMLP149069-Johnson_caledonian_country_dances.pdf p.3
+S: 3: CCD3  http://petrucci.mus.auth.gr/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.6-7
+Z: 2013, 2017 John Chambers <jc:trillian.mit.edu> (simplified 2018)
+N: This is a close relative of the Tail Toddle Reel (see Aird v.2 1785).
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: "D"d{d}d fd "G"g2 dB | "D"d{d}d fd "A"e2 cA | "D"d{d}d fd "G"ge "D"fd | "Em"e{f}g "D"f{g}a "A"e2 cA :|
+|: "G"g2 dB Bg dB | "G"g2 dB "A"Ae cA | "G"g2 dB BG dB | "Em"e{f}g "D"f{g}a "A"e2 cA :|
+|: "D"d{d}d fd "G"ge "D"fd | "D"d{d}d fd "A"eA cA | "D"d{d}d fd "G"ge "D"fd | "Em"e{f}g "D"f{g}a "A"e2 cA :|
+|: "G"g2 Bg Bg dB | "G"g2 Bg "A"Ae cA | "G"g2 Bg Bg dB | "Em"e{f}g "D"f{g}a "A"e2 cA :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 3
+T: Fiddle Faddle    (C)
+O: John Walsh, c. 1740
+%R: reel
+B: John Walsh "Caledonian Country Dances with a Thorough Bass" p.3
+B: John Walsh "Caledonian Country Dances 3d Edition" p.6-7
+S: 1: http://javanese.imslp.info/files/imglnks/usimg/4/41/IMSLP74348-PMLP149069-Johnson_caledonian_country_dances.pdf p.3
+S: 3: CCD3  http://petrucci.mus.auth.gr/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.6-7
+Z: 2013, 2017 John Chambers <jc:trillian.mit.edu> (simplified 2018)
+N: This is a close relative of the Tail Toddle Reel (see Aird v.2 1785).
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: "C"c{c}c ec "F"f2 cA | "C"c{c}c ec "G"d2 BG | "C"c{c}c ec "F"fd "C"ec | "Dm"d{e}f "C"e{f}g "G"d2 BG :|
+|: "F"f2 cA Af cA | "F"f2 cA "G"Gd BG | "F"f2 cA AF cA | "Dm"d{e}f "C"e{f}g "G"d2 BG :|
+|: "C"c{c}c ec "F"fd "C"ec | "C"c{c}c ec "G"dG BG | "C"c{c}c ec "F"fd "C"ec | "Dm"d{e}f "C"e{f}g "G"d2 BG :|
+|: "F"f2 Af Af cA | "F"f2 Af "G"Gd BG | "F"f2 Af Af cA | "Dm"d{e}f "C"e{f}g "G"d2 BG :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

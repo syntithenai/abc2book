@@ -1,0 +1,32 @@
+X:1
+T: Mars and Venus
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:Em
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 28 notes)
+K:Em
+M:4/4
+L:1/16
+e8 e8 |e12 g4 |f4 e2 ^d2 e4 f4 |B12 f4 |g4 f2 e2 d6 c2 |B6 A2 G2 A2 B2 c2 |d4 G4 A4 F4 |G8 G8 |
+%W: A2
+% voice 1 (1 lines, 28 notes)
+e8 e8 |e12 g4 |f4 e2 ^d2 e4 f4 |B12 f4 |g4 f2 e2 d6 c2 |B6 A2 G2 A2 B2 c2 |d4 G4 A4 F4 |G8 G8 |
+%W: B1
+% voice 1 (1 lines, 40 notes)
+d8 d8 |d2 g2 f2 e2 d2 c2 B2 A2 |G2 A2 B2 c2 d4 g4 |f12 f4 |g2 g2 f2 f2 e2 e2 d2 d2 |^c2 c2 B2 B2 ^A4 F4 |B2 ^c2 d2 e2 f4 F4 |B12 g4 |
+%W:
+% voice 1 (1 lines, 37 notes)
+f4 a2 g2 f2 e2 ^d2 e2 |^d12 e4 |f4 B4 B2 A2 G2 F2 |G4 E4 z4 B4 |e2 e2 ^d2 d2 e4 B4 |g2 g2 f4 g4 ^d4 |e2 f2 e2 f2 f6 e2 |e16 |
+%W: B2
+% voice 1 (1 lines, 40 notes)
+d8 d8 |d2 g2 f2 e2 d2 c2 B2 A2 |G2 A2 B2 c2 d4 g4 |f12 f4 |g2 g2 f2 f2 e2 e2 d2 d2 |^c2 c2 B2 B2 ^A4 F4 |B2 ^c2 d2 e2 f4 F4 |B12 g4 |
+%W:
+% voice 1 (1 lines, 37 notes)
+f4 a2 g2 f2 e2 ^d2 e2 |^d12 e4 |f4 B4 B2 A2 G2 F2 |G4 E4 z4 B4 |e2 e2 ^d2 d2 e4 B4 |g2 g2 f4 g4 ^d4 |e2 f2 e2 f2 f6 e2 |e16 ||

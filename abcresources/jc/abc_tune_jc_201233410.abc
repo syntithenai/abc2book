@@ -1,0 +1,33 @@
+X: 197
+T: the Mountebank
+T: Longways &c.
+%R: reel
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.99
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+N: Bar 4 has only a single beam on the first 4 notes; fixed.
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+edcB c2A2 | e2 a4 gf | edcB AGAB | cdef B4 |\
+edcB c2A2 | e2 a4 ga | bagf agfe | ^defd e4 :|
+|:\
+BAGF G2E2 | B2 e4 dc | dcBA BAGF | ^EFGA F4 |\
+dcBA G2B2 | e2c2 f2fg | agfe dcBA | GABG A4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st Cu. take hands and go thro' the 2d, and sett
+%% to the 3d Cu. then turn about to the 2d Cu. and all
+%% four take hands abreast, lead up and the 1st Cu.
+%% cast off .| then 2d Cu. do the same with the 3d &
+%% 1st Cu. :| then the 1st Cu. Figure thro' the 2d Cu.
+%% and all four take hands and turn quite round .|
+%% Then 1st Cu. cross quite round the 2d Cu. and
+%% clap hands, then cast off into the 2d Cu. Place :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

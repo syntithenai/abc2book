@@ -1,0 +1,16 @@
+X: 437
+T: Tedena
+O: Serbia
+N: Ansambl Arhaika
+F: http://www.youtube.com/watch?v=cVwNiXeyshs
+M: 2/8
+L: 1/16
+K: Em octave=1
+Q: 1/4=108
+%%MIDI program 75 Pan Flute
+%%MIDI drum dzzzdzzz 47 41 50 40
+%%MIDI drumon
+F2 A2|BA G2|GAF2|\
+F2 A2|BA G2|GAF2|
+G2 F2|D2 E2|EFD2|\
+G2 F2|D2 E2|E4:|

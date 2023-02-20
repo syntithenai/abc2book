@@ -1,0 +1,17 @@
+X: 659
+T: Planxty Madam Maxwell
+R: march
+%S: s:6 b:24(4+4+4+4+4+4)
+C: O'Carolan
+B: O'Neill's 1850 #659
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+Q: "Moderate"
+M: 2/4
+L: 1/16
+K: D
+|: (AB).A2 (AF).D2 | (F2A2) (A2B2) | (cd).e2 (de).f2 | (ef).g2 f2e2 ||
+| d2A2 (GF)(ED) | G2B2 B2d2 | (c2A2) .e2(dc) | d4 d2z2 :|
+[| a2d2 a2d2 | g2b4 (ag) | f2d2 .a2(gf) | (g2 e4) ||
+| g2 | (fg).a2 (ga).b2 | .a2.g2 .f2.e2 | ">"~d4 (e2d2) | c2A4 |]
+[| (Bc) | ">"d4 (cB)(AG) | F2 D4 d2 | (cd).e2 (fe).d2 | c2 A4 ||
+|| (Bc) | (dcBA) (BAGF) | G2 B4 A2 | (BAGF) (AGFE) | D4- D2z2 |]

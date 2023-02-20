@@ -1,0 +1,2666 @@
+X: 0
+T: Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ...
+C: Landrin, publisher, London 1760
+B: Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..."
+S: "http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:"
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The tunes' index numbers are a 2-digit page number and one digit to number the tune on the page.
+K:
+%%center - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center POTPOURRI FRAN\,COIS
+%%center DE CONTRE DANSE ANCIENne
+%%center Tel qu'il se danse chez
+%%center LA REINE
+%%center Arrange' \'et Mis au Jour L'AR Mr LANDrin
+%%center Mtre de Danse \'et Compositeur des Traits
+%%center de Contre-Danse
+%%center Prix 12 s
+%%center .
+%%center A PARIS
+%%center - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500
+
+%%slurgraces no
+%%graceslurs no
+
+%%newpage
+%%sep 1 1 500
+%%sep 1 1 500
+X: 010
+T: POTPOURRI
+T: Contre-Danse Fran\,coise
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.1 header
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: none
+L: 1/8
+K:
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 011
+T: 1 Les Visites
+T: les Visites
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.2 #1 dance 01 #1
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+Bd |\
+Ac BA | G>A Bd | Ac {B}!+!A2 | G2 :|\
+|: !f!Gd |\
+de ce | d2 cc | cd !+!B2 | G2 d2 |\
+A2 c2 | !+!B2 dA | Bc !+!A2 | G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 012
+T: 2 Le Cotillon
+T: le Cotillon
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.2 #2 dance 01 #2
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!d {d}c2B |\
+{B}A2{G}G F2G | c2B e2d | g2d {d}c2B | {B}A2d {d}c2B |\
+A2G {G}F2G | c2B e2d | c2B A>GF | G2 :|
+!f!A F2D |\
+B2A d2^c | {d}e2d g2f | {f}e2d ^c2B | {B}A2a {a}g2f |\
+{f}e2d ^c2d | b2a g2f | efd Ad^c | d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 013
+T: 3 La Bretonne
+T: la Bretonne
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.2 #3 dance 01 #3
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2B |\
+d2d cAc | B2B G2B |\
+d2d cAc | B3 :|\
+|: B !f!BcA |\
+!segno!!+!B2B BcA | !+!B2B BcA |\
+d2G GAF | !segno!G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 014
+T: 4 La Boulangere
+T: la Boulang\`ere
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.2 #4 dance 01 #4
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2G |\
+c2c cdc | B2c d2d | A2B !+!B3 | A3 :|\
+|: A2!f!A | !+!A2G A2B | G2G GFE |\
+F2G AGA | D2G GFE | F2G !+!A3 | !segno!G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 015
+T: 5 Les Bois
+T: les Bois
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.2 #5 dance 01 #5
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: 1. The B in bar 10 is printed a bit low, and might be A.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+GGG |\
+d2d e2f | g2d gag |\
+fgf efe | d3 :|\
+|: !+!de!f!f |\
+g2d d2c | !+!B2B BcB |
+AGA BcB | A2G def |\
+g2d d2c | !+!B3 d2"1."B |\
+c2B AGF | G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+% %%newpage
+% X: 020
+% T: POTPOURRI
+% T: Contre-Danse Fran\,coise
+% B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.2 header
+% S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+% Z: 2013 John Chambers <jc:trillian.mit.edu>
+% M: none
+% L: 1/8
+% K:
+% %%sep 5 5 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 021
+T: 6 les Biscuits
+T: les Biscuits
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.2 #1 dance 01 #6
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+Bcd2 |\
+G4 A4 | B2G2 Bcd2 |\
+G4 A4 | B4 :|\
+|: !f!G2A2 |\
+A2B2G2A2 | B4 GAc2 |
+GAB2 B2AG | A2D2 G2A2 |\
+A2B2G2A2 | B4 GABc |\
+d2cB A3G | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center \'a chaque reprises l'on trouve un chifre qui prononces
+%%center la quantit\'e qu'il faut les jo\"uer
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 022
+T: Menuets Nouveaux de Mr Lahante
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.2 #2
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+K:
+% %sep 5 5 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 023
+T: 1 Menuet
+T: Menuet
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.2 #3 (extra)
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+c2 CDEF | G2 G,4 | g4 eg | {g}f2 dB {B}c2 |\
+!p!D3 FEG | {A}G2 (F2 E2) | D3 FEG | ({A}G2 F2) !f!E2 |\
+!+!G2 f2 e2 | {f}!+!e2 d4 :|
+|:\
+g2 GABc | d2 D4 | A3 cBd | ({e}d2 c2) B2 |\
+A3 cBd | {e}d2 c2 B2 | ((3{f}edc) B2 !+!A2 | G2 G,2 z2 |
+g4 a^c | (.d.d.d.d.e) | {e}f2 (3(agf) (3(edc) | {c}!+!B3 A G2 |\
+G4 ge | {e}d2 cBcg | (3({_b}agf) e2 !+!d2{cd}y | c2 C4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 031
+T: 2 Menuet
+T: Menuet
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.3 #1 (extra)
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+!p!.[E2G,6].E2.E2 | [D4G,6]DE |\
+(.[F2G,6].F2.F2) | !+![F2G,6]E4 |\
+[G4G,6]F2 | [E2G,6](F2G2) |\
+[G2G,6](F2E2) | !+![E2G,6]D4 :|
+|:\
+!f!G3 ABc | d2(f2e2) |\
+G3ABc | d2(f2e2) |\
+{fg}.a2(gfed) | (cB)(AG)(cG) !p!|\
+{A}[G2G,6](F2!f!E2) | ([E4G,6]D)!p!z |
+(.[E2G,6].E2.E2) | [D4G,6]DE |\
+(.[F2G,6].F2.F2) | !+![F2G,6]E4 !f!|\
+g4{c}B2 | c2.d.fe2 | a2(fd).c.B | (B4c)z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 041
+T: 6 Les petits Ballets
+T: les Petits Ballets
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.4 #1 dance 01 #7
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The A in bar 3 may be G.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!BcB |\
+A2G F3E | D3 G2D | E2D AFE | D3 BcB |\
+A2G F2E | D3 G2D | GcB AGF | G3 |]
+B2!f!c |\
+ded dcB | c2A A2B | cdc cBA | B2G B2c |\
+ded dBc | ded dBc | ded dcB | A3 |]
+g2d |\
+c2B g2B | A2G g2d | c2B g2B | A2G g2f |\
+efd cde | !segno!A3 d2A | dgf edc | !segno!d3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 042
+T: 7 La petite Bastienne
+T: la Petite Bastienne
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.4 #2 dance 01 #8
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2B |\
+d3 ece | d3 c2c | B2B AGA | B2G G2B |\
+d3 ece | d3 c2c | B2B ABA | G3 :|
+|: B3 |\
+B3 BAB | c3 B2c | d2c B2A | B2G B3 |\
+B3 BAB | c3 B2c | d2c B2A | G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 043
+T: 8 Le Ballet Hollandois
+T: le Ballet Hollandois
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.4 #3 dance 01 #9
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2c |\
+BAG ABA | GBc d2c | BAG A3 | G3 |]|\
+!segno!AB!f!G |\
+ABG ABG | A3 c2B |
+A2G FGA | D3 ABG |\
+ABG ABG | A3 c2B | A2G AGF | G3 |]|\
+ga!f!g |\
+fgf efe |
+def gag | fed e3 | d3 gag |\
+fgf efe | def gag | fed e3 | d3 !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%newpage
+%%sep 1 1 500
+%%sep 1 1 500
+X: 050
+T: POTPOURRI
+T: Contre-Danse fran\,coise
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.5 #0 dance 02
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+K:
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 051
+T: 1 Le Cadrille
+T: le Cadrille
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.5 #1 dance 02 #1
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d4 !segno!|\
+e4 dedc | !+!B4 G2cB | A2GF G2A2 | B2G2 d4 |\
+e4 dedc | !+!B4 G2cB | A2G2 A2F2 | G4 :|
+|: d2!f!gf |\
+edef g2fe | d4 d2gf | edef g4 | d4 d2gf |\
+e2e2 d2c2 | !+!B4 G2cB | A2GF G2A2 | B2G2 d4 !segno!:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 052
+T: 2 La Capricieuse
+T: la Capricieuse
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.5 #2 dance 02 #2
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: Gdor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+GAB2 |\
+A2G2 ^F2G2 | D4 CDE2 | D2C2 B,2A,2 | B,2G,2 GAB2 |\
+A2G2 ^F2G2 | D4 CDE2 | D2C2 B,2C2 | D4 :|
+|: Bc!f!d2 |\
+A2c2 !+!B2A2 | B4 cBAG | cBAG cBAG | A2D2 Bcd2 |\
+A2c2 !+!B2A2 | B4 cBAG | !+!F2GA B2A2 | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 053
+T: 3 La Carvagnolle
+T: la Carvagnolle
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.5 #3 dance 02 #3
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gdor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2c |\
+BAG _edc | d3 g2d | gab bag | a2d d2c |\
+BAG _edc | d3 gfe | agf ed^c | d3 :|
+|: d2!f!c |\
+!+!B2A GAB | !+!F3 A2B | c2B ABG | A2D BAG |\
+cBA dcB | _edc f_ed | gab dg^f | g3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 061
+T: 4 La Course Italienne
+T: la Course Italienne
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.6 #1  dance 02 #4
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+GABc |\
+d2dB e2eg | d4 c2ca | B2Bg A2AB | G4 :|\
+|: !f!B4 |\
+A3c B2G2 | D2B,2 B4 | A3c !+!B4 | D4 B2Bc |
+A2Ac B2Bc | A2Ac B2Bc | A2Ac B2Bc | !+!A4 GABc |\
+d2dB e2eg | d4 c2ca | B2Bg A2AB | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 062
+T: 5 La Coquette
+T: la Coquette
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.6 #2  dance 02 #5
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The last note in bar 5 isn't visible, but the beam is level, so A was transcribed.
+N: The 2nd strain has 9 bars.
+M: 6/8
+L: 1/8
+K: Gdor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G3 |\
+B3 D2E | !+!^F2D G2A | BcB AG^F | G3 :|\
+|: G2!f!A |\
+BcB AGA | B3 A2B |
+cdc BAG | c3 !+!B2A |\
+G2A B2c | d2G !+!^F2D | d2G !+!^F2D | GAB AG^F |\
+G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 063
+T: 6 Le Cavalier
+T: le Cavalier
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.6 #3  dance 02 #6
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2D2 |\
+G2G2 GABc | d2cB AGFE |\
+D2d2 ^cdec | d4 :|\
+|: d2!f!e2 |\
+dcBc d2e2 | dcBc d2e2 |
+d2ed cBAG | !+!F2D2 EFGE |\
+F2D2 EFGE | F2D2 d2B2 |\
+edcB !+!A3G | G4 B2c2 |\
+BAGA B2c2 |
+BAGA B2c2 |\
+B2cB AGFE | F2D2 EFGE |\
+F2D2 EFGE | F2D2 d2B2 |\
+edcB !+!A3!+!G | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 071
+T: 7 La Casandre
+T: la Casandre
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.7 #1  dance 02 #7
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2G2 |\
+d2d2 e2f2 | g2d2 g2f2 |\
+e2e2 B2^c2 | d4 :|\
+|: !f!d4 |\
+d2cB c2d2 | !+!B4 G2A2 |
+B2c2 dcde | !+!e2d2 d4 |\
+d2cB c2d2 | !+!B4 G2A2 |\
+B2cB AGAF | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 072
+T: 8 La Colombe
+T: la Colombe
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.7 #2  dance 02 #8
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: There's an odd |:| symbol between the two strains. Transcribed as a plain double bar line.
+M: 6/8
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!GAB |\
+Bcd d=e^f | g3 gfe |\
+dcB Adc | B2A GAB |\
+Bcd d=e^f | g3 gfe |\
+dcB AG^F | HG3 |]
+AB!f!c |\
+!+!B2A ABc | !+!B2A cBA |\
+BAG ^FGA | D3 ABc |\
+!+!B2A ABc | !+!B2A Bcd |\
+Bcd dcB | A3 !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 073
+T: 9 Le Cotillon
+T: le Cotillon
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.7 #3  dance 02 #9
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Bar 8 needs a sharp on the grace note.
+M: 6/8
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B{B}AG |\
+d3 ece | d2g d2e |\
+d2c{B}!+!B2A | G2B {B}!+!A2G |\
+d2 ece | d2g {g}f2=e |\
+agf {f}=ed^c | {c}d2 :|
+|: f !f!G2f |\
+{g}f3 e2d | {d}c2e F2e |\
+e3 d2c | {c}!+!B2B {B} A2G |\
+d3 ece | d2g d2e |\
+{e}dcB AG^F | G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%newpage
+%%sep 1 1 500
+%%sep 1 1 500
+X: 080
+T: POTPOURRI
+T: Contre-Danse fran\,coise
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.8 dance 03
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+K:
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 081
+T: 1.e la Marthiny
+T: la Marthiny
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.8 #1 dance 03 #1
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+AAAB | GGGd | AAAB | (G2D)d | AAAB | GGGd | AAAB | G3 :|
+|: z |!segno!\
+ccB"2f"A | ([dd2]>B)G2 | AGAB | G2D2 | ccBA | ([dd2]>B)G2 | AGAB | HG3 :|
+|: g |\
+f"2f"def | g3(b/>g/) | fdef | g2Gg | fdef | g3(b/>g/) | fdef | g2G2 !segno!:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 082
+T: 2 Linsulaire
+T: l'Insulaire
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.8 #2  dance 03 #1
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2G |\
+c2c cdc | !+!B2A ABc | d2d dcB | A3 "4f":|\
+|: BAG |\
+!+!F2G ABc | !+!B2A BAG | !+!F2G ABA | G3 :|
+|: B"4f"cd |\
+A3 Bcd | A3 Bcd | ABc Bcd | A3 BAG |\
+!+!F2G ABc | !+!B2A BAG | !+!F2G ABA | G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 083
+T: 3 Le Nes\'eraire
+T: le Nes\'eraire
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.8 #3  dance 03 #3
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: Gdor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:!segno!\
+G^FGA B2A2 | !+!G4 ^F4 | G^FGA B2A2 | G2GG G4 |][|\
+BABc A2B2 | "2 f"c4 "^larondeau"c4 | cBcd c2d2 | d2cB !+!A4 !segno! :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 091
+T: 4 Les Jolies filles
+T: les Jolies Filles
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.9 #1 dance 03 #4
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+BAB |\
+G2d d2e | d3 cdc | BcB AGA | !+!B2G BAB |\
+G2d d2e | d3 gag | !+!f2f efe | d3 :|
+|: "2f"d2d |\
+ded !+!c2B | c2A c2c | Bcd !+!c2B | A3 d2d |\
+e2e fga | g2G c3 | BcB ABA | G3 |] [K:Gm]
+[| "2f"BAG |\
+d2e d2c | B2A BAG | !+!^F2G c2B | !+!A3 BAB |\
+c2d edc | d2B fed | gfe d2c | B3 :|
+"1f"dcd |\
+e2d !+!c2d | !+!B2A Bcd | c2B !+!A2G | d3 gab |\
+a2g ^fga | d3 cde | dcB !+!A2G | HG3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 092
+T: 5 La petite Nannette
+T: la Petite Nannette
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.9 #2 dance 03 #5
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+ABc !+!B2A | G3 !+!^F2G | ABc !+!B2A | G3- G2 :|\
+|: G |\
+"2f"G2d d2e | !+!c3- c2c | c2d c2B | !+!A2G ABc |
+!+!B3 cBA | GFG ABc | !+!B3 cBA | G2G ABc |\
+!+!B3 cBA | GFG ABc | !+!B3 cBA | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 093
+T: 6 Les Marionnetes
+T: les Marionnettes
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.9 #3 dance 03 # 6
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+BABc |\
+Bcd2 d2cB | !+!A2G2 BABc | Bcd2 d2cB | !+!A4 :|\
+|: "4f"BABc | Bcd2 G2FE |
+D4 G2FE | D2G2 ABcA | B2G2 BABc |\
+Bcd2 G2FE | D4 d2B2 | edcB !+!A3G | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 101
+T: 7 Les Ormeaux
+T: les Ormeaux
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.10 #1 dance 03 #7
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!BAB |\
+G2B A2A | E3 FEF | D2D G2A | !+!B2A BAB |\
+G2B A2A | E3 FEF | DcB AGF | G3 |]
+"2f"dB"^en rondeau"c |\
+dBc dcB | !+!A2G dBc | dBc dcB | !+!A3 A2B |\
+cAB cAB | c3 edc | Bcd dcB | !+!A2 !segno!y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 102
+T: 8 Les Madelonnettes
+T: les Madelonnettes
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.10 #2 dance 03 #2
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+GBdB |\
+GBdB G2!+!F2 | G2D2 GBdB |\
+GBdB G2!+!F2 | G4 :|\
+|: DF"2f"AF |\
+DFAF DFAB | c4 Bcd2 |
+d2cB AGFE | D4 DFAF |\
+DFAF DFAB | c4 Bcd2 |\
+d2cB AGAF | G4 |]\
+"2f"G,A,B,C |\
+D2CB, A,2G,2 |
+D2D2 G,A,B,C |\
+D2CB, A,2G,2 | D4 D2G2 |\
+!+!F2E2 F2G2 | AGAB c2!+!B2 |\
+A2G2 FGAF | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 103
+T: 9 Les Noces
+T: les Noces
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.10 #3 dance 03 #3
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has 14 bars.
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2A2 |\
+B2c2 dcBA | B2G2 d2g2 |\
+d2Bc dcBA | B2G2 G2A2 |\
+B2c2 dcBA | B2G2 d2g2 |\
+d2Bc dcBA | G4 :|
+|: "2f"d2ef |\
+g2fe d2c2 | !+!B4 d2cB |\
+A2G2 !+!F2G2 | d2D2 g2!+!f2 |\
+g2d2 g2!+!f2 | g4 G2A2 |\
+!+!B2c2 dcBA |
+B2G2 G2A2 |\
+!+!B2c2 dcBA | G2ef g2fe |\
+d2ef g2fe | d4 g2fe |\
+d2G2 A2!+!F2 | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%newpage
+%%sep 1 1 500
+%%sep 1 1 500
+X: 110
+T: POTPOURRI
+T: Contre-Danse fran\,coise
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.8 dance 04
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+K:
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 111
+T: 1 La lanterne Magique
+T: la Lanterne Magique
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.11 #1 dance 04 #1
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: In bars 13 & 14, the MS has rests under the 16th notes, but ABC software rejects this syntax.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+F2D A2F | d3 dcB |\
+ABA AGF | [EA,]2[EA,] [EA,]2D |\
+F2D A2F | d3 dfe |\
+dfe dcB | AAA A2 :|
+|: "4f"A |\
+[eA]2[eA] [eA][fA][gA] | [fd]2[fd] [fd]ga |\
+agf agf | [eA][eA][eA] [eA]2A |\
+[dF]2f [dG]2f | [eA]2g [eA]2g |\
+fed edc | [dF][dF][dF] [dF]2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 112
+T: 2 La Nouvelle Charte
+T: la Nouvelle Charte
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.11 #2 dance 04 #2
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2A2 |\
+A2GF G2B2 | B2A2 A2d2 |\
+d2cB AGFE | F2D2 D2A2 |\
+A2GF G2B2 | B2A2 A2d2 |
+d2cB AGFE | D4 :: E2G2 |\
+F2ED C2D2 | E2A,2 E2G2 |\
+F2ED F2!+!E2 | D4 :: "1f"DCDE |\
+DCDE FEFG |
+A4 BABc |\
+d2d2 fefg | a2a2 DCDE |\
+DCDE FEFG | A4 BABc |\
+dfed !+!c2B2 | A4 :: "2f"efgf |
+efgf efge | !+!f2d2 EFGF |\
+EFGF EFGE | F2D2 DCDE |\
+DCDE FEFG | AGAB cdec |\
+Aege e2!+!c2 | d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 113
+T: 3 La M\'enagere
+T: la M\'enag\`ere
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.11 #3 dance 04 # 3
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+defg |\
+a2a2 g2a2 | e2f2 !+!f4 |\
+e2f2 !+!f4 | "4f"e4 :: f4 |\
+e2d2 ^c2d2 | A4 efge |
+f2d2 efge | f2d2 f4 |\
+e2d2 ^c2d2 | [A4D4] defg |\
+a2gf !+!e3d | d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 121
+T: 4 Les fanfares de St Cloux
+T: les Fanfares de StCloux
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.12 #1 dance 04 # 4
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%indent 400
+d2a2 |\
+f2e2 f2g2 | f2e2 d2a2 |\
+f2d2 e2A2 | d4 :|
+|: "2.f."e2f2 |\
+e2A2 e2f2 | e2A2 d2e2 |\
+f2e2 f2g2 | Ha4 d2a2 |\
+f2e2 f2g2 | f2e2 d2a2 |\
+f2d2 e2A2 | d4 :|
+|: "2.f."dcde |\
+d2e2 f2g2 | f2e2 dcde |\
+d2e2 f2e2  | d4 dcde |\
+d2e2 f2g2 | f2e2 dcde |\
+d2e2 f2e2 | d4
+agab |\
+a4 A2A2 | A4 gfga |\
+g4 A2A2 | A4 dcde |\
+d2e2 f2g2 | f2e2 dcde |\
+d2e2 f2e2 | d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 122
+T: 5 Les portraits ala Mode
+T: les Portraits \`a la Mode
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.12 #2 dance 04 #5
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+ded def | !+!e2d e2A | e[fd]e efg | !+!f2e f2A |\
+fgf fga | g2f e2e | eae edc | B2A A2 :|
+|: a |\
+aba aba | agf g2e | gag gag | gfe f2d |\
+fgf fgf | fe^d e2a | dcd efg | e3 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 123
+T: 6 Le printems
+T: le Printemps
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.12 #3 dance 04 #6
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!F4 |\
+E2D2 EFG2 | G2F2 B4 | A2GF EDEF | D2A,2 F4 |\
+E2D2EFG2 | G2F2 B4 | A2GF EDEF | HD4 |]
+"2.f."F2G2 |\
+A4 B4 | A4 d2cB | A2B2 A2G2 | F2E2 F2G2 |\
+A4 B4 | A4 d2cB | A2B2 E2^G2 | !segno!A4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 131
+T: 7. La petite provence
+T: la Petite Provence
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.13 #1 dance 04 #7
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2F2 |\
+A2d2 c2ec | [A4F4] E2G2 | F2ED E2DC | D2A,2 D2F2 |\
+A2d2 c2ec | [A4F4] E2G2 | F2ED E2DC | D4 :|
+|: "2.f."D2D2 |\
+E2E2 A2AD | C2A,2 D2D2 | E2E2 A2AC | D4 :: "2.f."D3F |\
+EDCB, A,2AG | F4 D3F | EDCB, A,2B,C | D4 :|
+[K:Dphr]\
+|: d4 |\
+"2.f'"c2BA B2c2 | A2F2 B4 | G2FE F2A2 | F2D2 d4 |\
+c2BA B2c2 | A2F2 B4 | G2FE F2A2 | D4 :|
+|: "4.f."DEFD | EFGE FGAD | ^C2A,2 DEFD | EFGE FGAA, | D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 132
+T: 8 Lirondelle
+T: Lirondelle
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.13 #2 dance 04 #8
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F2F2 |\
+D2D2 A2A2 | F3G A2D2 |\
+G2F2 !+!E4 | D4 :|\
+|: "4.f."d2d2 |\
+c2c2 B2B2 | A4 A2B2 |
+A2GF G2A2 | F2FG A2A2 |\
+A2FG A2A2 | A2FG A2FG |\
+A2A2 B4 | A4 D3E |\
+F2G2 E4 | D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 133
+T: 9 La Destr\'ees
+T: la Destr\'ees
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.13 #3 dance 04 #9
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!d2g2 |\
+!+!f3g a2a2 | d4 e2f2 | g2f2 efge | f2d2 d2a2 |\
+!+!f3g a2a2 | d4 e2f2 | g2fe !+!e4 | d4 |]
+"2 fois en rondeau"f2e2 |\
+f2e2 d2c2 | B4 e2d2 | c2B2 e2d2 | c2B2 e2d2 |\
+cBAB c2B2 | A4 ABcd | edef g2f2 | e4 !segno!y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%newpage
+%%sep 1 1 500
+%%sep 1 1 500
+X: 140
+T: POTPOURRI
+T: Contre-Danse fran\,coise
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.14
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+K:
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 141
+T: 1. La petit Provencalle
+T: la petit Proven\,calle
+N: The 'c' in the title is missing its cedille.
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.14 #1 dance 05 #1
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+DGGF | EDGA | B2G2 | ABcB | AGAF | G2G2 :|
+"2.f."B2B2  | BAGF | E2E2 | A2A2 | AGFE | DGAF | GGAF | G2G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 142
+T: 2. La Piere fritoisse
+T: la Piere Fritoisse
+N: The Landrinsommaire index has "Petite", not "Piere".
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.14 #2 dance 05 #2
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!d2 B2 |\
+BcdB c2A2 | A4 B2G2 | GABc d2D2 | D4 d2B2 |\
+BcdB c2A2 | A2c2 B2AG | FGAF G4 | HG4 :|
+"w.f. enrond"DEFG |\
+A2A2 A2A2 | A4 AGAB | AGAB AGAB | A4 GFGA |\
+B2B2 B2B2 | B4 BABc | BABc BABc | B4 !segno!y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 143
+T: 3. Le Carillon - dun Ker que
+T: le Carillon du Dunkerque
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.14 #3
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+BGBG | ADDA | cAcA | BGGd |\
+edef | gf/e/ dc | B2!+!A2 | G3 :|
+d |\
+g>"2.f."agf | !+!e3e | a>bag | !+!f3a |\
+gfed | ^cAde | f2!+!e2 | d3d |
+g>agf | !+!e3d | cBAG | !+!A3G |\
+BGBG | ADAD | cAcA | BGGd |
+edef | gf/e/ dc | B2!+!A2 | G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 151
+T: 4. Les Carmes
+T: les Carmes
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.15 #1 dance 05 #4
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The rhythms are mismatched between the two strains.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G3A BABG | c4 c2dc | B2AB cBAG | AGFE D2D2 |\
+G3A BABG | c4 c2dc | B2AB cBAB | G4- G4 :|
+K:Gm
+|: "2.f."B2c2 |\
+d4 g4 | d3ed2c2 | B2d2 edcB | A2G2B2c2 |\
+d4 g4 | d3ed2c2 | B2d2 edcB | A4 B2A2 |
+G2G2 ^FGAF | G2G2B2A2 | G2G2 ^FGAF | G4 B2A2 |\
+G2G2 ^FGAF | G2G2 B2A2 | G2G2 ^FGAF | G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 152
+T: 5. La Camar gos
+T: la Camargos
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.15 #2 dance 05 #5
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: There are 3 segno symbols. It could mean the ABACA (rondo) form.
+N: The first strain is harmonically ambiguous; it could be in Bb but ending on Gm.
+N: The rest at the end of the 1st strain should be before the initial 2 pickup notes.
+N: The 2nd strain ends with an empty "measure" containing only a segno symbol.
+M: 6/8
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+Bc |\
+!segno!d2d dcd | B2B BAB | cde dcB | A2A ABc |\
+d2d dcd | B2B cde | dcB AGF | HG3 z |]
+[| "2.f."DGA |\
+B3 BAB | c3 cBc | ded dcB | A3 AGA |\
+B3 BAB | c3 cBc | ded dBc | ded dBc | !segno!y |]
+[| Gba |\
+"2.f."g^fg aba | g^fg aba | gab ag=f | =e3 ede |\
+f2f f=ef | g2g gfg | aba e^fg | ^f2f fBc !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 153
+T: 6. Les Capucins de Meudons
+T: les Cap\^ucins de Meudon
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.15 #3 dance 05 #6
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!g2d2 |\
+B2G2 AGAB | G4 AGAB | c2B2 ABcA | B2G2 g2d2 |\
+B2G2 AGAB | G4 AGAB | c2B2 AGAB | HG4 |]
+[| "2.f. enrondeau"B2c2 |\
+B2A2 B2c2 | B2A2 B2c2 | B2A2 B2c2 | d4 B2c2 |\
+B2A2 B2c2 | B2A2 B2c2 | B2A2 B2c2 | d4 !segno!y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 161
+T: 7. La Dragonne
+T: la Dragonne
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.16 #1 dance 05 #7
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G	% The first 4 bars are in D; the 2nd strain is in G.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+DEFG |\
+A2A2 d2^cB | AGFE DEFG | A2A2 d4 | A4 :: "2.f."c2BA |\
+B2AG A2GF | G2AB c2BA | B2AG !+!A4 | G4 c2BA |
+B2AG A2GF | G2AB c2BA | B2AG !+!A4 | G2B2B2E2 |\
+F2G2 AGAB | A2B2B2E2 | F2GA !+!A4 | G2B2B2E2 |\
+F2G2 AGAB | A2B2B2E2 | F2GA !+!A4 | G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 162
+T: 8. La double inconstence
+T: la Double Inconstence
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.16 #2 dance 05 #8
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!G2G |\
+ABc BAB | G2D G2G | ABc BAB | HG3 |][| "2.f. en rondeau"B2c |\
+d2d dcB | A2A c2c | B2B ege | d2d !segno!y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 163
+T: 9. Les Drapeaux
+T: les Drapeaux
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.16 #3 dance 05 #9
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!B2c2 |\
+d4 cBAB | G4 c2B2 | A2GF G2A2 | B2G2 B2c2 |\
+d4 cBAB | G4 c2B2 | A2G2 BAGF | HG4 |]
+[| "4.f. en rondeau"g2f2 |\
+e2^d2 e2f2 | B4 e2^d2 | e2f2 g2ag | f2e2 g2f2 |\
+e2^d2 e2f2 | B4 e2^d2 | e2f2 g2ag | f2e2 g2d2 |\
+B2G2 g2d2 | B2G2 !segno!y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%newpage
+%%sep 1 1 500
+%%sep 1 1 500
+X: 170
+T: POTPOURRI
+T: Contre-Danse fran\,coise
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.17 dance 6
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+K:
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 171
+T: 1. Dame fran\,coisse
+T: Dame Fran\,coisse
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.17 #1 dance 6 #1
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!d2B |\
+c3 ABc | B2B d2B | c3 ABA | HG3 |]\
+[| "4.f. en rondeau"d2d |\
+e2e f2f | g3 a2g | f2e a2d | ^c2A d2f |\
+e2A e2g | f2g a2b | f3 !+!e3 | d3 !segno!y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 172
+T: 2. La foire de brie
+T: la Foire de Brie
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.17 #2 dance 6 #2
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!DEFD |\
+G2G2G2G2 | D4 GDGB | AGAB cBcA | B2G2 DEFD |\
+G2G2G2G2 | D4 dcBA | GFGA B2A2 | HG4 |]
+[| "2.f. enrondeau"GABc |\
+dcdf edef | g4 bagb | agfa gfeg | f2d2 GABc |\
+dcdf edef | g4 bagf | e2d2 ^cde^c | d4 !segno!y |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 173
+T: 3. L'allemande Suisse
+T: l'Allemande Suisse
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.17 #3 dance 6 #3
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2BG |\
+A2A2 G2BG | A4 G2BG | AcBA G2D2 | B,2G,2 G2BG |\
+A2A2 G2BG | A4 G2BG | AcBA G4 | G4 :|
+|: B2cB |\
+"2.f."c2c2 B2dB | c4 B2cB | A2BA G2D2 | B,2G,2 B2dB |\
+c2c2 B2dB | c4 B2cB | A2BA G4 | G4 !segno!g2gd |
+e2ec d2dB | c2cA B2BG | A2AF G2D2 | B,2G,2 g2gd |\
+e2ec d2dB | c2cA B2BG | A2AF G4 | HG4 B2B2 |
+c2c2 B2B2 | c4 B2cB | A2BA G2D2 | B,2G,2 B2B2 |\
+c2c2 B2B2 | c4 B2cB | A2BA G4 | G4 !segno!y:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 181
+T: 4. La lionnoise
+T: la Lionnoise
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.18 #1 dance 6 #4
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The repeat pattern and ending(s) for the 1st strain aren't clear.
+N: The odd G surrounded by |:|-like symbols may be a second ending to the first strain.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g |\
+G2G GAB | A2A ABc | dcB AGF | G2G G2g |\
+G2G GAB | A2A ABc | dcB AGF | HG2(G G2 |][| G2) |]
+"2.f. de Suitte"[| [K:Gm] !segno!A B2A |\
+G3 A3 | ^FE^F G^FG | DE^F G^FG | D2A B2A |\
+G3 A3 | ^FG^F GAB | AcB AG^F | HG2 |]
+[| A B2c |\
+d3 c2e | d3 c2e | d2c B2A | B2G B2c |\
+d3 c2e | d3 c2e | d2c B2c | d2 !segno!y |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 182
+T: 5. Madelon friquet
+T: Madelon Friquet
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.18 #2 dance 6 #5
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!G2A2 |\
+B2G2 B2c2 | d4 d2cB |\
+A2B2 c2A2 | B2G2 G2A2 |\
+B2G2 B2c2 | d4 d2cB |\
+A2G2 A2^F2 | HG4 |]
+"4.f. en rondeau"d2d_e |\
+f2f2 f2f2 | f4 f2_ed |\
+c2d2 _e2c2 | d2B2 dcd_e |\
+d4 !+!c4 | !segno!B4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 183
+T: 6. La Nonime
+T: la Nonine
+N: Is it "Nonime" or Nonine"?
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.18 #3 dance 6 #6
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!G2A |\
+BcB ABG | A2D G2A |\
+BcB AG^F | HG3 |][|\
+"4.f. enrondeau"B2c |\
+ded cBA | B2F B2c |
+ded cBA | B3 d2c |\
+BAB c2B | AGA B2A |\
+GFG AGA | D3 !segno!y |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 191
+T: 7. La Neuvenne
+T: la Neuvaine
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.19 #1 dance 6 #7
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!B2B |\
+A2G c2c | B2A d2d | dcB AGA | B2G B2B |\
+A2G c2c | B2A d2d | dcB AGF | HG3 |]
+[| "2.f. enrondeau"d2d |\
+gBc d2d | gBc d2d | g2f e2d | c2A f2f |\
+fed g2g | gfe a2a | agf ed^c | d3 !segno!y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 192
+T: 8.La Provencalle
+T: la Proven\,calle
+N: The 'c' in the title is missing its cedille.
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.19 #2 dance 6 #8
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+D2G2 G2F2 | E2D2 E2F2 |\
+GFGA G2D2 | D2G2 G2F2 |\
+E2D2 E2F2 | G6 :|
+|: "4.f."G2 |\
+A2B2 c2B2 | A2G2 F2G2 |\
+A2B2 c2B2 | A2D2 D2G2 |\
+F2G2 AGFE | F2D2 D2G2 |\
+F2G2 AGFE | D4 A4 |
+A3G A2B2 | c4 B4 |\
+A2G2 A2F2 | GFGA G2A2 |\
+A3G A2B2 | c4 B4 |\
+A2G2 A2F2 | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 193
+T: 9. Les Paniers
+T: les Paniers
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.19 #3 dance 6 #9
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: Gdor	% Or maybe Gm, but there are no Es of any sort in the tune.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B2AB |\
+G2G2 c2c2 | F4 B2AB |\
+G2A2 !+!^F4 | G4 :: "4.f."B2Bc |\
+d2dc B2c2 | d4 B2Bc |\
+d2dc B2c2 | d4 B2AB |\
+G2G2 c2c2 | F4 B2AB |\
+G2A2 !+!^F4 | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%newpage
+%%sep 1 1 500
+%%sep 1 1 500
+X: 200
+T: POTPOURRI
+T: Contre-Danse fran\,coise et allemande
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.20 dance 07
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+K:
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 201
+T: 1. Les Ages
+T: les Ages
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.20 #1 dance 07 #1
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!g4 |\
+G4 GABc | d4 B2B2 | {d}c2Bc A2d2 | B2G2 g4 |\
+G4 GABc | d4 B2B2 | {d}c2Bc A2d2 | HG4 |]
+[| "1.F."B2B2 |\
+A2GA B2B2 | A2D2 GFGA | BcBA GABc | d4 B2B2 |\
+{B}A2GA B2B2 | A2D2 GFGA | BcBA GABc | d4 !segno!y |]
+[| "1.F."gfga |\
+b2a2 g2f2 | e4 fefg | a2g2 f2e2 | ^d2B2 efge |\
+f2B2 efge | f2B2 efga | b2a2 !+!f3e | e4 !segno!y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 202
+T: 2. Les 13 Cantont
+T: les 13 Cantons
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.20 #2 dance 07 #2
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The "1.F" and the repeat symbols for the 3rd strain are inconsistent.
+N: The rhythms between strains are inconsistent.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d4 cBAB | G2B2G2B2 | d4 cBAB | G2B2G2z2 :|\
+|: "2.F"B2 |\
+G2c2A2B2 | GFGA G2B2 | G2c2A2B2 | G4 :|
+|: "2.F."d2 |\
+gfga bagf | g2d2B2G2 | gfga bagf | g6 :|\
+|: "1.F"cd |\
+e6 d2 | c2Bc A2Bc | d6 c2 | B2AB G4 |
+B2G2 G2AB | c2A2 A4 | B2G2 G2FG | A2D2 D4 |\
+B2G2 G2AB | c2A2 A2c2 | B2AG BAGF | G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 211
+T: 3. La Royal
+T: la Royal
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.21 #1 dance 07 #3
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: There are 4 E flats and only one E natural, so a G minor key signature makes more sense.
+M: 2/2
+L: 1/8
+K: Gdor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D4 G4 | ^F6 D2 | G2^F2 G2A2 | B4 B2AB |\
+c4 B4 | A6 B2 | G2B2 A2G2 | ^F4 F4 :|\
+|:\
+"4.F."d4 B4 | F6 F2 | G2F2 E2D2 | C4 [M:6/8] CB,C |
+D_ED CB,C | D_ED CB,C | D3 G3 | !+!^F3 D3 |\
+d_ed cBc | d_ed cBc | d3 G3 | !+!^F3 D3 |\
+BcB AGA | BcB AGA | D3 ^F3 | G3 G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 212
+T: 4. La gigue Anglaise
+T: la gigue Anglaise
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.22 #2 dance 07 #4
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2 DE | CDB,G, | G2FG | cBA2 |\
+G2DE | CDB,G, | G2FD | E^CD2 :|\
+|:\
+"2.F."GABc | dBc2 | BAB2 | AGFD |\
+GABc | dBc2 | BAGF | G2G2 :|
+|:\
+"2.F."B2BG | c2cA | B2BG | A2A2 |\
+B2BG | c2ce | dcBA | G2G2 |\
+B2BG | c2cA | B2BG | A2A2 |\
+B2BG | c2ce | dcBA | G2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 221
+T: 5. La Silvie
+T: la Silvie
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.22 #1 dance 07 #5
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+!segno!B2B BAB | c2c cBc | BdG AcF | G2G G2A |\
+B2B BAB | c2c cBc | BdG AcF | G2G HG2 |]
+[| "1.F."\
+D2D DB,G, | E2E ECA, | F2F FEF | G2G G3 |\
+D2D DB,G, | E2E ECA, | F2F FEF | G2G G3 !segno!y|] [K:Gm]
+[| "1.F."\
+B2B BAB | G2G G^FG | AcB AGF | G2G G2A |\
+B2B BAB | G2G G^FG | AcB AG^F | G2G G3 !segno!y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 222
+T: 6. La Nouvelle Anglaise
+T: la Nouvelle Anglaise
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.22 #2 dance 07 #6
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: !segno!\
+G2 Bd | cAFD | GB dg | d2 {c}B2 |\
+ceAc | BdGB | AcDF | G2G2 :|
+|:\
+"4.F."gbeg | fadf | egAc | d2d2 |\
+ceAc | BdGB | AB DF | G2 G2 !segno!:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 223
+T: 7. Petit Jean
+T: Petit Jean
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.22 #3 dance 7 #7
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+GAB BAG | ABA A2D | GAB BAG | A3 A2 :|\
+|: "4.F."D |\
+GAG GFE | FGF FED | GAG GFE | D3 D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 231
+T: 8. Les 4 Soeurs
+T: les 4 Soeurs
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.23 #1 dance 7 #8
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g2g |!segno!\
+g2G ABc | B2A d2d |\
+dcB AGA | B2A g2g |\
+g2G ABc | B2A d2d |\
+dcB AGF | HG3 |]\
+[| "1.F."d2d | gfe a2d |
+!+!c2A a2a |\
+agf efd | ^c2A a2a |\
+Bgf ed^c | d3 def |\
+gBc dcB | eAB cBA |\
+dcB ABG | F2D g2g !segno!y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 232
+T: 9. La Toute travers
+T: la Toute Travers
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.23 #2 dance 7 #9
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+GABc |\
+!segno!d4 c2B2 | A2G2 c2B2 |\
+A2G2 F2E2 | D4 GABc |\
+d4 c2B2 | A2G2 c2B2 |
+A2G2 A2F2 | HG4 |]\
+[| "1.F."B2G2 |\
+A2d2 c2B2 | A2G2 B2G2 |\
+A2d2 c2B2 | A4 GABc !segno!y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%newpage
+%%sep 1 1 500
+%%sep 1 1 500
+X: 240
+T: POTPOURRI
+T: Contre-Danse fran\,coise et allemande
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.24 dance 8
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+K:
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 241
+T: 1.er Les Cerceaux
+T: les Cerceaux
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.24 #1 dance 8 #1
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain's repeat symbols conflict with the "1.F." ("un Fois" = "one Time").
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G,A,B,C |\
+D2D2 D2D2 | D2G2 A2B2 | c2A2 BABc | B2B2 G,A,B,C |\
+D2D2 D2D2 | D2E2 F2G2 | B,4 A,4 | G,4 :|
+|: "2.F."DEFG |\
+A2A2 A2A2 | A2G2 A2d2 | c4 !+!B4 | A4 G,A,B,C |\
+D2D2 D2D2 | D2E2 F2G2 | B,4 !+!A,4 | G,4 :|
+|: "1.F."cBA^G |\
+A4 cBA^G | A2D2 E2F2 | G2C2 B,2A,2 | B,2G,2 cBA^G |\
+A4 cBA^G | A2D2 E2F2 | G2C2 B,2A,2 | G,4 :|
+|: B,2C2 |\
+"2.F."D4 E2D2 | C2B,2 A,2B,2 | C4 D2C2 | B,2A,2 G,2A,2 |\
+B,4 CB,A,G, | A,4 CB,A,G, | A,2C2 B,2A,2 | G,4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 242
+T: 2. La Scimballe
+T: la Scinballe
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.24 #2 dance 8 #2
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+G2F G2A | B2A B2c | d>ed c>BA | G2G G2 :: "4.F." d |\
+[g3B3D3] z2d | [g3B3D3] z2d | [g2B2D2]d c2B | ADD D2D |\
+G2F G2A | B2A B2c | d>ed c>BA | HG3 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 243
+T: 3. La Petite Paysanne
+T: la Petite Paysanne
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.24 #3 dance 8 #3
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g2 |\
+!+!f2e2 f2g2 | !+!f2e2 e2f2 | g4 !+!e4 | d^cde d2g2 |\
+!+!f2e2 f2g2 | !+!f2e2 e2f2 | g4 !+!e4 | d6 :|
+|: "4.F."d2 |\
+{e}d2cB {d}c2BA | B2G2 G2d2 | c4 !+!B4 | AGAB A2d2 |\
+{e}d2cB {d}c2BA | B2G2 G2d2 | B4 !+!A4 | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 251
+T: 4. La Brancas
+T: la Brancas
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.25 #1 dance 8 #4
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Bar 10 has an extra 1/8; changed the rhythm to match bar 12.
+M: 2/4
+L: 1/8
+K: Gdor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+GBAc | B2 AB/c/ | dGA^F | G/^F/G/A/ GD |\
+GBAc | B2 AB/c/ | dGA^F | G3 :|
+|: "2.F."B/c/ |\
+ddc=B | c2 zA/B/ | ccBA | B2 zA/B/ |\
+ccBA | B2AG | A2^F2 | G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 252
+T: 5. La Suze
+T: la Suze
+N: The next-to-last title char is probably 'z', and others have interpreted it that way.
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.25 #2 dance 8 #5
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+GB BA/G/ | Ac cB/A/ | Bd dc/B/ | A2 D2 |\
+GB BA/G/ | Ac cB/A/ | BdDF | G2 G2 :|
+|:\
+"2.F."GABc | d3 e/f/ | gdcB | c2 {B}A2 |\
+GABc | d3 e/f/ | gdcB | c2 {B}A2 |
+.g(dcB) | .g(dcB) | .g(dcB) | c2 {B}A2 |\
+.g(dcB) | .g(dcB) | cAGF | G2G2 |
+.g(dcB) | .g(dcB) | .g(dcB) | c2 {B}A2 |\
+.g(dcB) | .g(dcB) | cAGF | G2 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 253
+T: 6. La Villette
+T: la Villette
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.25 #3 dance 8 #6
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+BcB |\
+A2G B2c | d2g B2c |\
+ded dcB | A2G BcB |\
+A2G B2c | d2g B2c |\
+ded dcB | A3 :|
+|: "2.F."ABA |\
+AGF GFE | FED ABA |\
+AGF !+!E2D | D3 AGA |\
+BAB cdc | BAB cdc |
+BcB ABG | d3 DEF |\
+DEF DEF | G3 EFG |\
+EFG EFG | A3 c2B |\
+A2G AGF | G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 261
+T: 7. La Traci
+T: la Traci
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.26 #1 dance 8 #7
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!Bcd |\
+!+!c2B AGA | B2G Bcd | !+! c2B AGA | G3 Bcd |\
+!+!c2B AGA | B2G Bcd | !+!c2B AGA | HG3 |]
+[| "4.F."Bcd |\
+{f}e2d g2d | e2d g2d | ded c2B | {B}A2G Bcd |\
+e2d g2d | e2d g2d | ded c2B | !segno!A3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 262
+T: 8. La Fitz-James
+T: la Fitz-James
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.26 #2 dance 8 #8
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2c |\
+BGB cAc | BAG d2c | BGB AFA | G3 :|\
+|: g2"2.F."d |\
+BAG ABc | BAG g2d | BAG ABA | G2 :|
+|: "1.F."G2A |\
+BAB cBc | d3 cdc | BcB AGA | B2G G2A |\
+BAB cBc | d2c d2c | BcB ABA | G3 :|
+[| g2"1.F."d |\
+g2d cBA | B2G g2d | g2d cBA | G3 g2d |\
+g2d cBA | B2G g2d | g2d cBA | HG3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 263
+T: 9. La Simonette
+T: la Simonette
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.26 #3 dance 8 #9
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2d2 |\
+d4 e2fe | d2G2 A2B2 | A2dc B2A2 | G4 :|\
+|: "4.F."B2B2 |\
+c4 f2ef | d2c2 f2F2 | G2e2 d2c2 | B4 d2d2 |
+d4 c2BA | B2G2 d2G2 | ^F2G2 c2B2 | A4 d2d2 |\
+d4 e2fe | d2G2 A2B2 | A2dc B2A2 | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%newpage
+%%sep 1 1 500
+%%sep 1 1 500
+X: 270
+T: POTPOURRI
+T: Contre-Danse fran\,coise et allemande
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.27 dance
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+K:
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 271
+T: 1. Les Plaisirs dela Soci\'et\'e
+T: les Plaisirs de la Soci\'et\'e
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.27 #1 dance 9 #1
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has "2 F" ("deux Fois"), but no repeat symbols.  Not fixed.
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:!segno!\
+GG/A/ BG | dB ge | dc!+!BA | !+!BA/B/ GD |\
+GG/A/ BG | dB ge | dc!+!BA | G2 G2 :|
+[|\
+"2 F"DD/E/ FG | AD cB | AD cB | AA/B/ A/G/F/E/ |\
+DD/E/ FG | AD cB | AD cB | !+!A2 A2 !segno!y |]
+|:[K:Gm]\
+"2 F"Bd/c/ BA | Gg!+!^fg | dcBA | !+!BA/B/ GD |\
+Bd/c/ BA | Gg!+!^fg | dcBc | d2 d2 :|
+|:\
+"2 F"BB/c/ de | fe/d/ cB | AA/B/ cd | ed/c/ BA |\
+Gg!+!^fg | Gg!+!^fg | ed/c/ BA | G2 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 272
+T: 2. Les Pendours
+T: les Pendours
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.27 #2 dance 9 #2
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+DCDE D2D2 | G4 G4 | A2c2 c2!+!BA | G4 G4 |\
+A2c2 c2!+!BA | G2d2 g4 | G2c2 !+!B2AG | A4 A4 :|
+|:\
+"2 F"dcde d2g2 | !+!B4 B4 | G2d2G2d2 | e4 e4 |\
+c2e2 e2dc | B2d2 g4 | GABc !+!B2AB | G4 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 273
+T: 3. Le Diable an lair
+T: le Diable an l'air
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.27 #3 dance 9 #3
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2G |\
+d2d dcd | !+!BAG g2g | !+!f2g aga | d3 G2G |\
+d2d dcd | !+!BAG g2g | f2g aga | d3 :|
+|: "4 F"A2B |\
+c2B ABG | !+!F2D GFG | AGA BcB | !+!A3 A2B |\
+c2B ABG | !+!F2D gfe | dcB AGF | G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 281
+T: 4. La Volupteuse
+T: la Volupteuse
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.28 #1 dance 9 #4
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2GG | G2AB | cA GF | GDB,G, |\
+G2GG | G2AB | cA GF | G2G2 :|
+|:\
+"2F"B>cdd | F>GAA | B,>CDD | G,2G,2 |\
+G2GG | G2AB | cAGF | G2G2 :|
+[K:Gm]\
+"2F"G>AGA | B>cBc | d>ede | !+!d2d2 |\
+d>ede | f>gfg | fedc | B2B2 :|
+|:\
+"1F"d>edd | d=Bc2 | c>dcc | cAB2 |\
+B2AG | B2AG | B2AG | H!+!^F4 |]
+[K:G][M:3/4]\
+z2dcBA | G2G2G2 | [A4F4]{Bc}B2 | cedcBA |\
+G3dBG | AFDdBG | AFDdBG | cdc2B2 |
+!+!B2A4 | AGFGAB | cBABcd | edcBAG |\
+!+!F4{E}D2 | GBd2d2 | d3cB2 | (3edcB2A2 | HG6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 282
+T: 5. La Toute traver
+T: la Toute Travers
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.28 #2 dance 9 #5
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+GABc |\
+d4 c2B2 | !+!A2G2 c2B2 | !+!A2G2 !+!F2E2 | D4 GABc |\
+d4 c2B2 | !+!A2G2 c2B2 | !+!A2G2 A2!+!F2 | G4 :|\
+|: "2 F"B2G2 |\
+A2d2 c2B2 | !+!A2G2 B2G2 |
+A2d2 c2B2 | !+!A4 GABc |\
+d4 c2B2 | !+!A2G2 c2B2 | !+!A2G2 !+!F2E2 | D4 GABc |\
+d4 c2B2 | !+!A2G2 c2B2 | !+!A2G2 A2!+!F2 | G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 283
+T: 6. Les Comeres
+T: les Com\`eres
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.28 #3 dance 9 #6
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2GF |\
+EFG2 A3B | A2A2 D2GF | EFG2 A3B | G4 :|\
+|: "4 F"!+!B2AG |\
+A2A2 cBAG | A4 cBAG |
+cBAG cBAG | A4 D2GF |\
+EFG2 A3B | A2A2 D2GF | EFG2 A3B | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 291
+T: 7. La Ther\^ese
+T: la Th\'er\`ese
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.29 #1 dance 9 #7
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B>cd>c | B>AG>D | G>AB>c | B2!+!A2 |\
+B>cd>c | B>AG>D | G>AB>c | B2!+!A2 :|
+|:\
+"2F"A>DD>A | B>GG>B | A>DD>A | !+!B2A2 |\
+d>Bc>d | e>fg>c | B2!+!A2 | G2G2 :|
+K:Gm
+|:\
+"2F"B>cd>e | d>=e^f>g | d>cB>A | !+!B2G2 |\
+B>cd>e | d>G^F>G | c2B2 | !+!A4 :|
+|:\
+"2 F"D>=E^F>G | D>=E^F>G | A>Bc>d | !+!B2A2 |\
+d>cB>A | G>DG>c | B2!+!A2 | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 292
+T: 8. Les Tableaus
+T: les Tableaux
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.29 #2 dance 9 #8
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!G B2d |\
+G3 A3 | D2G !+!F2G | A2B cdc | !+!B2G B2d |\
+G3 A3 | D2G !+!F2G | ABc !+!BAF | HG2 |]
+"2F"B B2B |\
+E3 F3 | ^D2B B2B | BAG !+!F2E | E2A A2A |\
+D3 E3 | ^C2A A2A | AGF !+!E2D | D2 !segno!y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 293
+T: 9. La Racrocheuse
+T: la Raccrocheuse
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.29 #3 dance 9 #9
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 3rd G in bar 6 has a flag; changed to agree with bar 2. Similarly bar 18.
+N: The 2nd strain has 14 bars, phrased 6+6+2.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+Bcd Bcd | G2G G2c | BAG AGF | GDB, G,2d | Bcd Bcd |
+G2G G2c | BAG AGF | G2G G2 :||: "2F"D | GFG AGA | B2G G2A | BAB cBc |
+d3- d3d | dcB ABG | !+!A3- A2D | GFG AGA | BAB cBc | dcB ABG |
+!+!A2D D2c | BAG AGF | G2G G2c | BAG AGF | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%newpage
+%%sep 1 1 500
+%%sep 1 1 500
+X: 300
+T: POTPOURRI
+T: Contre-Danse fran\,coise et allemande
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.30 dance 10
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+K:
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 301
+T: 1. La S\'egure ou lison
+T: la S\'egure ou Lison
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.30 #1 dance 10 #1
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+GABc |\
+d2d2 cBcd | B2Bd c2A2 | B3GA3F | HG4 :|\
+|: "4.F."D2DD |\
+E2E2F2F2 | G2GG A2A2 | B3B ^c2c2 | Hd3dd2B2 |
+B3dc2A2 | A3cB2G2 | !+!F2G2c2B2 | !+!B2A2 ddB2 |\
+B3dc2A2 | A3c BAcB | A2G2A2!+!F2 | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 302
+T: 2. La Turc
+T: la Turc
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.30 #2 dance 10 #2
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d3e d2c2 | !+!B3A B2c2 | d3e d2d2 | G4 G4 :|\
+|:\
+"2.F."A3B A2G2 | !+!F3E F2G2 | A3B A2A2 | D4 D4 |
+A3B A2G2 | !+!F3E F2G2 | A3B A2A2 | D6 d2 |\
+D6 d2 | D6 d2 | D2d2 D2d2 | D4 D4 |
+B3c B2A2 | G3F G2A2 | B3c B2A2 | G4 G4 |\
+B3c B2A2 | G3F G2A2 | B3c B2A2 | G4 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 303
+T: 3. Lensiene Anglaise
+T: Lensiene Anglaise
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.30 #3 dance 10 #3
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2B2 |\
+A2c2 B2d2 | G2c2 !+!B2AG | F2G2 A2B2 | !+!A4 G2B2 |\
+A2c2 B2d2 | G2c2 !+!B2AG | F2GA B2!+!A2 | G4 :|
+|: "4.F."d2ef |\
+g2d2 edcB | A2G2 d2g2 | f2g2 agfe | d4 d2ef |\
+g2d2 edcB | A2G2 Bcde | ABcd GABc | !+!A4 G2B2 |
+A2c2 B2d2 | G2c2 !+!B2AG | F2G2 A2B2 | !+!A4 G2B2 |\
+A2c2 B2d2 | G2c2 !+!B2AG | F2GA B2!+!A2 | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 311
+T: 4. La Suzette
+T: la Suzette
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.31 #1 dance 10 #4
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Why is the "2.F." over the end of the 2nd bar in the 3rd strain?
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G4 G4 | G6B2 | A2B2c2c2 | c4B4 |\
+G6(dB) | G6(dB) | g2g2f2e2 | !+!e4d4 :|
+|:\
+"2.F."D4D4 | D6(AB) | c2A2c2A2 | D6(GA) |\
+B2G2B2G2 | C2e4dc | B2c4BA | G4G4 :|
+|:\
+g4g4 | g6"2.F."(Bc) | d2B2e2c2 | d6(Bc) |\
+d2B2e2c2 | d2B2e2c2 | B2G2 D2(FA) | G4G4 :|
+|:\
+"2.F."c4c4 | c6(AB) | c2A2c2A2 | B6(GA) |\
+B2G2c2A2 | B2G2c2A2 | B2G2 D2(FA) | G4G4 :|
+|:\
+"2.F."GFGA BABc | d2D2d2D2 | GFGA BABc | d4D4 :|\
+"1.F."c2c4BA | GFGA GABG |
+c2c4BA | GFGA G4 |\
+c2c4BA | GFGA GABG |  c2c4BA | HG8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 312
+T: 5. La Troteuse
+T: la Troteuse
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.31 #2 dance 10 #5
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The last bar has a segno both above and below the double bar line.
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!G2G2 |\
+G2AB !+!B4 | A4 c2B2 | A2G2 AGFE | D2D2 G2G2 |\
+G2AB !+!B4 | A4 c2B2 | A2GF G4 | HG4 |]
+[| "2.F."d2d2 |\
+e2dc d4 | !+!B4 c2B2 | A2G2 AGFE | D2D2 d2d2 |\
+e2dc d4 | !+!B4 c2B2 | A2BG | A4 | A4 !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 313
+T: 6. La Mahoni
+T: la Mahoni
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.31 #3 dance 10 #6
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!GABc |\
+d2g2 !+!f2e2 | d4 C2e2 | B,2d2 cBAG | !+!F2D2 GABc |\
+d2g2 !+!f2e2 | d4 dcBA | cBAG BAGF | HG4 |]
+"2.F."Adcd |\
+Adcd Adcd | !+!B4 Bede | Bede Bede | !+!c4 eaga |\
+eaga eaga | !+!f4 bagf | ed^cB AB^cA | d4 !segno!y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 321
+T: 7. La Queue du chat
+T: la Queue du Chat
+%R:
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.32 #1
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!GABA |\
+G2d2 d2c2 | !+!B2A2 GABc | d2g2 !+!^f2g2 | a4 GABA |\
+G2d2 d2c2 | !+!B2A2 GABc | d2g2 ^fgaf | Hg4 |]
+gaba |\
+g2"2.F."d2 e2d2 | e2d2 gaba | g2d2 e2d2 | e2d2 b2d2 |\
+e2d2 b2d2 | e2d2 b2d2 | e2d2 c2B2 | !+!A4 !segno!y |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 322
+T: 8. Lensiene Venitiene
+T: Lensiene Venitiene
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.32 #2 dance 10 #8
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The rhythm between the strains is mismatched.  There are missing 1/16 rests before the small notes.
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D/E/F/ |\
+G4 !+!F4 | G6 d/e/f/ | g2fe d2c2 | !+!B4 A4 |\
+GFGA G2F2 | !+!E3F G2F2 | E2D2 E2C2 | D6 :||:\
+"2.F."A4 B4 | G6 z/B/c/d/ |
+e2d2 c2B2 | !+!A4 A4 |\
+DCDE D2G2 | E4 z2e2 | EDEF E2A2 | F4 z2f2 |\
+GFGA G2c2 | !+!B2AB c2B2 | A2G2 A2F2 | G4 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 323
+T: 9. Les Petit Ras
+T: les Petit Ras
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.32 #3 dance 10 #9
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g2g2 |\
+g2fe dcBA | B2G2 d2d2 | d2cd edcB | A4 :|\
+|: "4.F."f2f2 |\
+f2ed cdBc | A2F2 f2f2 |
+f2ed c3B | B4 d2d2 |\
+d2f2 =e2^fg | ^f2d2 g^fga | g^fga !+!a3g | g4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%newpage
+%%sep 1 1 500
+%%sep 1 1 500
+X: 330
+T: POTPOURRI
+T: Contre-Danse fran\,coise et allemande
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.33 dance 11
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+K:
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 331
+T: 1.er La Marquise
+T: la Marquise
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.33 #1 dance 11 #1
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2F2 |\
+A2F2 D2F2 | A4 D2F2 | E2G2 F2E2 | !+!F2D2 D2F2 |\
+A2F2 D2F2 | A4 D2F2 | E2G2 F2!+!E2 | D4 :|
+|: "2.F."d2A2 |\
+!+!B2A2 d2A2 | !+!B2A2 d2A2 | B2A2 G2F2 | E4 d2A2 |\
+!+!B2A2 d2A2 | !+!B2A2 d2A2 | B2A2 G2F2 | E4 F2B2 |
+^A2B2 c2d2 | !+!c4 !+!f4 | edcB dcB^A | B4 F2B2 |\
+^A2B2 c2d2 | c4 f4 | edcB dcB^A | B4 A2dc |
+B2e2 f2g2 | c4 a4 | gfed A2!+!c2 | d4 A2dc |\
+B2e2 f2g2 | c4 a4 | gfed A2!+!c2 | d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 332
+T: 2.e Les Voleurs
+T: les Voleurs
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.33 #2 dance 11 #2
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2cB |\
+A2B2 F2G2 | A4 d2cB | A2g2 !+!e4 | d4 :|\
+|: "4.F"ABcd |\
+edef g2f2 |
+e4 a2gf | e2d2 c2B2 | A4 d2cB |\
+A2B2 F2G2 | A4 d2cB | A2g2 !+!e4 | d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 333
+T: 3.e La chambor
+T: la Chambor
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.33 #3 dance 11 #3
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Added missing beam in 2nd half of bar 3.
+M: 6/8
+L: 1/8
+K: Ddor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2A |\
+d2f e2d | !+!^c2A A2B | c2A AB^G | A3 :|\
+|: "2.F."A2A |\
+A2G A2B | c3 A2A | F2A G2F | !+!E2D D2E |
+F3 GFG | A3 A2A | F2A G2F | !+!E2D D2E |\
+F3 GFG | A3 A2B | ^c2d edc | d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 341
+T: 4.e La N.lle Venitiene
+T: La Nouvelle V\'enitienne
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.34 #1 dance 11 #4
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!A |\
+(F2D) (E2A) | (F2D) (E2G) | FGF EFE | D2D D2A |\
+(F2D) (E2A) | (F2D) (E2G) | FGF EFE | D2D D2 |]
+"1.F."A |\
+d2d c2c | B2B A2A | G2G F2F | EDE D2A |\
+d2d c2c | B2B A2A | G2G F2F | EDE D2A |
+F2F F2B | ^G2G G2e | dBd cAc | B2E E2e |\
+(c2A) (B2d) | (c2A) (B2d) | cdc BAB | A2A A2e |
+(c2A) (B2d) | (c2A) (B2d) | cdc BAB | A2A A2a |\
+afa geg | fdf e2A | AFA GEG | FDF E3 |\
+E3 HE2 !segno!y |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 342
+T: 5.e Le Prince Hug\^enne
+T: le Prince H\^ugenne
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.34 #2 dance 11 #5
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!A3G |\
+F2E2 G3F | E2DC D2E2 |\
+F2EF G2F2 | E4 A3G |\
+F2E2 G3F | E2DC D2E2 |\
+F2GF !+!E3D | HD4 |]
+[| "2.F."A2A2 |\
+d3c B2A2 | G2E2 e3d |\
+c2Bc d2c2 | B2AG A2B2 |\
+c3d !+!B3A | A4 !segno!y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 343
+T: 6.e La Villemondoise
+T: la Villemondoise
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.34 #3 dance 11 #6
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!d2e |\
+fgf efd | e2A d2e |\
+fgf edc | Hd3 |][|\
+[M:2/4] "2.F."f/g/f/e/ |\
+dcBA | ^GE [M:6/8] A^GA |
+BABcdc | B3 efe |\
+a3 bc'b | a3 efe |\
+edc BA^G | A3 efe |\
+efe efe | e3 efe |\
+efe efe | e3 !segno!y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 351
+T: 7.e La Marche espagnolle
+T: la Marche Espagnolle
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.35 #1 dance 11 #7
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2A |\
+F2D ABc | d2A d2A | F2D ED^C | D3 :|\
+|: "4.F."F2G | A2A ABc |
+B2G G2A | B2B Bcd | A3 F2G |\
+A2A AGF | G2E EFG | FED EDC | HD3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 352
+T: 8.e Lindulgence
+T: l'Indulgence
+N: The title is missing an apostrophe.
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.35 #2 dance 11 #8
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2e |\
+fgf efd | e2A dcB | AGF EAG | F2D d2e |\
+fgf efd | e2A dcB | AGF ED^C | D3 :|
+|: "2.F."A2B |\
+cdc cBA | B2G G2A | BcB BAG | A2F F2G |\
+ABA AGF | G2E E2F | GAG GFE | F2D
+A2B |\
+c2c cdc | B2B B2^c | d2d ded | ^c2c d2e |\
+fgf efd | e2A dcB | AGF !+!E2D | D3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 353
+T: 9.e Lancien Corde chasse
+T: l'Ancien Cor de Chasse
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.35 #3 dance 11 #9
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!G F2E |\
+D2A, D2E | F2E GFE | DCD G2F | E2G F2E |\
+D2A, D2E | F2E GFE | DCD F2E | HD2 |]
+[| "2.F"A A2A |\
+B2A B2c | d2A AFA | AFA AGF | E2F FDF |\
+EB,E FDF | E2A AGF | EFG AGF | E2 !segno!y |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%newpage
+%%sep 1 1 500
+%%sep 1 1 500
+X: 360
+T: POTPOURRI
+T: Des Contre-Danse fran\,caise et Allemande
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.36 dance 12
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+K:
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 361
+T: 1.er Le Tembourin de chartre
+T: le Tembourin de Chartre
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.36 #1 dance 12 #1
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!GA |\
+B4 B2AB | c4 !+!B4 | A4 G4 | D6 D2 |\
+EDEF E2D2 | EDEF E2D2 | c4 !+!B4 | A6 GA |
+B4 B2AB | c4 !+!B4 | A4 G4 | D6 D2 |\
+EDEF E2D2 | EDEF E2c2 | B4 !+!A4 | HG6 |]
+[| "2.F."d2 |\
+c2B2 A2G2 | AGAB A2d2 | c2B2 A2G2 | !+!A4 A2d2 |\
+c2B2 A2G2 | AGAB A2d2 | c2B2 A2G2 | !+!A4 A2 !segno!y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 362
+T: 2.e Le Tembourin de la Rochelle
+T: le Tembourin de la Rochelle
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.36 #2 dance 12 #2
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!GFGA |\
+B4 AGAB | c4 BABc | d2e2 d2c2 | B2A2 GFGA |\
+B4 AGAB | c4 BABc | d2G2 A2F2 | HG4 |][| "2.F."d2d2 |\
+g2fe dcBA | B2G2 d2d2 |
+g2fe dcBA | G4 d2d2 |\
+g2fe dcBA | B2G2 d2d2 | g2fe dcBA | G4 B2B2 |\
+e2d2 c2B2 | A2G2 B2B2 | e2d2 c2B2 | A4 !segno!y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 363
+T: 3.e Les Berg\'eres
+T: les Berg\'eres
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.36 #3 dance 12 #3
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!G2GA |\
+B2Bc d2d2 | !+!B2A2 c2B2 | A2G2 F2E2 | D4 G2GA |\
+B2Bc d2d2 | !+!B2A2 c2B2 | A2G2 A2F2 | HG4 |]
+[| "2.F."d2d2 |\
+e2d2 e2f2 | g2fe d2d2 | e2d2 e2f2 | g4 d2d2 |\
+e2d2 c2B2 | A2G2 A2B2 | c4 B4 | !+!A4 !segno!y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 371
+T: 4.e Lencienne Dauphine
+T: l'Encienne Dauphine
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.37 #1 dance 12 #4
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g2 |\
+g2d2 d2B2 | B2G2 G2D2 | G4 A4 | BABc B2g2 |\
+g2d2 d2B2 | B2G2 G2D2 | G4 A4 | B6 :|
+|: B2 |\
+"2 F"d2g2 g2e2 | e2a2 a2g2 | f4 g4 | agfe d2a2 |\
+a2ba g2ag | f2ef d2g2 | a4 !+!f4 | g6 :|[K:Gm]
+|: "2 F" d2 |\
+d2e2 e2c2 | c2d2 d2c2 | B4 c4 | dcBA G2d2 |\
+d2e2 e2c2 | c2d2 d2c2 | B4 !+!c4 | d6 :|
+|: "2 F"d2 |\
+A2d2 d2A2 | A2d2 d2G2 | ^F4 G4 | AG^FE D2d2 |\
+d2ef g2d2 | d2ef g2G2 | c4 !+!A4 | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 372
+T: 5.e Les Brasseurs
+T: les Brasseurs
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.37 #2 dance 12 #5
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2B A2c | B3 d3 |\
+cdc BcB | !+!A3 D3 |\
+G2B A2c | B2c d2g |\
+B3 A3 | G3 G3 :|
+|:\
+"2 F"c2B A2G | !+!A3 D3 |\
+c2B A2G | !+!A3 D3 |\
+c2B A2B | c2B A2B |\
+c2d dcB | !+!A3 D3 |\
+G2B A2c | B3 d3 |
+cdc BcB | A3 D3 |\
+gag fgf | efe ded |\
+cdc BcB | A3 D3 |\
+G2B A2c | B2c d2g |\
+B3 A3 | G3 G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 373
+T: 6.e La Bien tot faite
+T: la Bient\^ot Faite
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.37 #3 dance 12 #6
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: There are segno symbols initially and at the ends of the 2nd and 3rd strains. What does this mean?
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!D2G2 |\
+G2F2 F2A2 | A2G2 A2c2 |\
+B2d2 cBAG | !+!F2D2 D2G2 |\
+G2F2 F2A2 | A2G2 A2c2 |\
+B2AG A2GF | HG4 |]| "1 F"B2G2 |\
+G2B2 B2A2 | !+!G2F2 A2F2 |
+FGA2 G2F2 | !+!E4 A,2A,2 |\
+A,4 GFGA | FDEF GAB^c |\
+dBAG F2!+!E2 | D4 !segno!y|]| "1 F"BAGF |\
+E2B2 G2B2 | B2A2 AGFE |
+^D2F2 F2A2 | A2G2 A2c2 |\
+B2e2 ^d2f2 | A2c2 B2A2 |\
+G2FE F2E^D | E4 G4 |\
+G2F2 ABc2 | B2AG ABc2 |\
+Bcd2 c2B2 | !+!A4 !segno!y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 381
+T: 7.e La Bavaroize
+T: la Bavaroise
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.38 #1 dance 12 #7
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2 |\
+d4 g4 | d3c B2A2 | G2A2 B2c2 | dcde d2d2 |\
+d4 g4 | d3c B2A2 | G2A2 B2c2 | d6 :|
+|: "2.F."f2 |\
+f4 b4 | f3e d2f2 | e2d2 c2B2 | cBcd c2AB |\
+c4 c4 | c3B c2d2 | e2d2 c4 | B6 Bc |
+d4 d4 | d3c d2e2 | d2c2 B2A2 | G^FGA GABc |\
+d4 d4 | d3c d2=e2 | ^f2g2 a2^f2 | g6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 382
+T: 8.e Les Petites Faveur
+T: les Petites Faveurs
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.38 #2 dance 12 #8
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!DG^FG |\
+B2A2 d4 | cBAG d4 | cBAG ^F2G2 | !+!A4 DG^FG |\
+B2A2 d4 | cBAG d4 | cBAG BAG^F | GABc d4 |
+cBAG BAG^F | HG4 |]| "2.F."BAGF |\
+B2F2 !+!E4 | D4 BAGF | E2D2 C2B,2 | A,4 B,CDE |\
+F2F2 FGAB | c2c2 f4 | edcB dcBA | B4 !segno!y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 383
+T: 9.e La Nacr\'eon
+T: la Nacr\'eon
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.38 #3 dance 12 #9
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!dedc |\
+BcBA G2D2 | G2G2 dedc |\
+BcBA G2D2 | G4 |]| "1.F."g2d2 |\
+g2d2 b2a2 | g4 g2d2 |\
+g2d2 b2a2 | g4 f4 |\
+f4 f2ed | e2e2 g4 |
+f2ef gfef | d4 !segno!y |]| "1.F."g2d2 |\
+g2d2 b2a2 | g4 g2d2 | g2d2 b2a2 | g4 e4 |\
+e4 e2dc | d2d2 g4 |\
+d2cd edcB | A4 !segno!y |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

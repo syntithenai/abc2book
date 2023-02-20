@@ -1,0 +1,20 @@
+X: 1
+T: the Roaring Barmaid
+C: Tony O'Sullivan
+R: jig
+Z: Translated to abc by Debbie Knight
+M: 6/8
+K: G
+"^A"|:\
+"G"G3 EGD | "C/G"G3 EGD | "G"DGG BGG | dGG BdB ||\
+"G"G3 EGD | "G/B"G3 EGD | "C"GAB deg | "D" deg edB :|
+"^B"|:\
+"G"deg b3 | "G/B"bab deg | "C"b3 bag | "D"edB deg ||\
+"G"b3 bab | "G/B"agg bgg | "C"agg efg | "D"deg edB :| "G"G6 |]
+%%text B part 1st harmony:
+GGB d3 | dcd GGB | d3 dcB | GGD GGB | d3 dcd ||\
+cBB dBB | cBB GAB | GGB cAG :| D6 |] 
+%%text B part 2nd harmony:
+Bcd g3 | geg Bcd | g3 ged | cBG Bcd | g3 geg ||\
+edd gdd | edd Bcd | Bcd gfd :| B6 |] 
+% text 01/25/06

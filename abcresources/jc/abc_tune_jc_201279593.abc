@@ -1,0 +1,28 @@
+X: 1797
+T: the Garden of Daisies - 1st Setting
+T: gort na noininea.d
+R: hornpipe, reel, "long dance"
+%S: s:5 b:80(8+8+8+8+8)
+N: Tilde (~) used for trills
+B: O'Neill's 1850 "Music of Ireland" #1797
+O: Hartnett
+Z: Robert Thorpe (thorpe@skep.com)
+Z: ABCMUS 1.0
+M: C|
+L: 1/8
+K: D
+fg |\
+a2b2 g>ba>g | f2a2 g>fe>f | T(dc)d>e f>de>c | dedc AGFG ||\
+A3 B ABAG | FEFG ABcA | T(dc)de f>de>c | d2d>d d2 :|
+(3(ABc) |\
+d2e2 fefg | a3f d2ga | b3 g a3 f | g3 e c2(de) ||\
+f3 e f2a2 | g2f2 efec | dcde fdec | dedc A2 ||
+(fg) |\
+a2b2 g>bag | f2a2 g>fef | T(dc)de f>de>c | dedc AGFG ||\
+A3 B ABAG | FEFG ABcA | T(dc)de fdec | d2d>d d2 |]
+(3(ABc) |\
+d2e2 f2g2 | a2a>a a2(fg) | a2b2 c'2a2 | g2g>g g2(fg) ||\
+a2b2 a2g2 | e2a2 g2e2 | T(dc)de fdec | dedc A2 ||
+(fg) |\
+a2b2 a2g2 | e2a2 g2e2 | T(dc)de fdec | dedc AGFG ||\
+A2AB ABAG | F2G2 ABcA | d2de fdec | d2d>d d2 |]

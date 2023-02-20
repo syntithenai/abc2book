@@ -1,0 +1,24 @@
+X: 1
+T: Old Abigal's Delight
+P: Longways for as many as will
+%R:
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.335
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: An incorrect time signature 2/2 is given.
+M: 3/2
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+f4 F2G2 A2F2 | c2A2 def2 e2c2 |\
+f4 F2G2 A2dc | =B2c2 d2=B2 c4 |\
+e4 efg2 c2e2 | f2ed c2B2 A2c2 |\
+d3c deg2 F2G2 | G6 F2 F4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man cast off and turn the 2. wo. The 1. wo. cast off and turn the 2. man :| Hands half round
+%% and turn single .| Then cross over and turn your Partner :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

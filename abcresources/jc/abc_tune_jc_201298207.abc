@@ -1,0 +1,54 @@
+
+X: 1
+T: Sadi Moma [G]
+O: Macedonia
+M: 7/8
+L: 1/8
+K: G
+"^Inst."\
+|:y"C"c2d e2- ed | "C"g2c d2- dc | "G"(4cBAB G4 \
+|  "G"G3 "D"A2 AB | "C"c3 "G"B2 d2 | "Dm"A3 A4 | "Am"A3 A4 :|
+"^Vocal"\
+|: "G"[d2B2][cA] [B2G2] "D"[A2D2] | "G"[B2G2][cG] ([BG][AF]) [G2D2] | "G"[G3G3] "D"[A2D2] ([AD][BG]) |
+w: 1.~Sa-di mo-ma be-la lo-*za vi-*ne-
+w: 2.~Den ja sa-di, dva se ka-*je vi-*ne-
+w: 3.~Pa-ra-sna-la be-la lo-*za vi-*ne-
+w: 4.~Na-p\^al-ni-la de-vet b\^a\vc-*vi s\^as* vi-
+w: 5.~I de-se-ta bis-tra lju-*ta ra-*ki-
+w: 6.~Na-u-vil se mbud sol-da-*tin da* pi-
+w: 7.~Pil e dva dni, pil e tri* dni ne-*de-
+w: 8.~Ta si iz-pil vra-no kon-*\vce pod* se-
+ "C"[c3G3] "G"[B2G2] [d2G2] |1 "D"[A3D3] [A4D4] | "G"([d2G3]c [B4G4]) :|2 "Dm"[A3=F3] [A4F4] | "Am"[A7E7] |]
+w: 1.~na,  li-be, vi-ne-na.__ vi-ne-na.
+w: 2.~na,  li-be, vi-ne-na.__ vi-ne-na.
+w: 3.~na,  li-be, vi-ne-na.__ vi-ne-na.
+w: 4.~no,  le-le, s^as vi-no,__ s^as vi-no.
+w: 5.~ja,  le-le, ra-ki-ja.__ ra-ki-ja.
+w: 6.~je,  le-le, da pi-je.__ da pi-je.
+w: 7.~lja, le-le, ne-de-lja.__ ne-de-lja.
+w: 8.~be,  le-le, pod se-be.__ pod se-be.
+%
+W: 1. A girl planted a vine, a white wine grape vine.
+W: 2. For one day she planted, for two she regretted the white wine grape vine.
+W: 3. The vine grew up, the white wine grape vine.
+W: 4. It filled nine barrels with wine,
+W: 5. The tenth with clear, strong rakija.
+W: 6. A young soldier learned to drink.
+W: 7. He drank for two days, he drank for three days, for a week.
+W: 8. He drank up his black horse from under him.
+W:
+
+%%sep 1 1 500
+
+X: 1
+T: Sadi Moma [A]
+O: Macedonia
+M: 7/8
+L: 1/8
+K: A
+"^Inst."\
+|:y"D"d2e f2- fe | "D"a2d e2- ed | "A"(4dcBc A4 \
+|  "A"A3  "E"B2  Bc | "D"d3  "A"c2  e2 | "Em"B3 B4 | "Bm"B3 B4 :|
+"^Vocal"\
+|: "A"[e2c2][dB] [c2A2] "E"[B2E2] | "A"[c2A2][dA] ([cA][BG]) [A2E2] | "A"[A3A3] "E"[B2E2] ([BE][cA]) |\
+  "D"[d3A3] "A"[c2A2] [e2A2] |1 "E"[B3E3] "A"[B4E4] | ([e2A3]d [c4A4]) :|2 "Em"[B3=G3] [B4G4] | "Bm"[B7F7] |]

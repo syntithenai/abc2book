@@ -1,0 +1,25 @@
+X: 1
+T: Squire Fribble
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.70 #330
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:70 #330
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 2/4
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: (Ac)(Bd) | cefg |  afed  | ecBA | (Ac)(Bd) | cefg | aedc | B2E2  :|
+|: (eg)(fa) | gbge | ^dfB=d | cecA |  BGEd    | cAfd | cBAG | A2A,2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: a2 g2 | a2d2 | zdcB | A2z2 | a2g2 | a2d2 | zcBA | e2E2 :|
+|: e2^d2 | e2z2 | b2g2 | a2z2 | g2e2 | a2d2 | e2E2 | A4   |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Man turn the 2d Wo. with his Right hand Single and cast off .|
+%% his Partner the same with the 2d Man :|
+%% Hands 6 round .|
+%% Right and Left at top :|:
+%%endtext

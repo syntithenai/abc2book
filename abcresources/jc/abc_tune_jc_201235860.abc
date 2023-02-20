@@ -1,0 +1,40 @@
+X: 21421
+T: CUCKOO SETT (tune 1)
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.142 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Odd staff break for 2nd strain for proofreading purpsoes; reformat as you like.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="1"
+[|\
+[aA][aA][aA]z [aA][aA][aA]z | [aA][aA][aA]z [aA][aA][aA]z | F2A2 d4 | {de}d2c2B2A2 |\
+[bB][bB][bB]z [bB][bB][bB]z | [bB][bB][bB]z [bB][bB][bB]z | B2d2 g4 {ga}y | g2f2e2d2 |
+[c'cA][c'c][c'c]z [c'c][c'c][c'c]z | [c'c][c'c][c'c]z [c'c][c'c][c'c]z |A2ce a4 | A2ce a4 |\
+(f2e2).d2.f2 | (e2d2).c2.e2 | dddz dddz | d4 z4 H|]\
+.e2.e2(f2e2) |
+.c2.c2(d2c2) | .B2.B2(f3e) | c3^G ABcd |\
+.e2.e2(f2e2) | .c2.c2(d2c2) | .B2.B2f2(e2 | A2)z2 a4 |\
+.e2.e2(f2e2) | .c2.c2(d2c2) | .B2.B2(f2e2) | c3^G ABcd |\
+.e2.e2(f2e2) .c2.c2(d2c2) | .B2.B2(f2e2) | A2z2 "^D.C."a4 :|
+(F4 "^>"A2d2) | (F4 "^>"A2d2) | (G4 "^>"B2d2) | (F4 "^>"A2d2) |\
+(E4 "^>"G2B2) | (A4 "^>"d2f2) | e2^gg g2g2 | a2z2 a4 |\
+(F4 A2d2) | (F4 A2d2) | (G4 B2d2) | (F4 A2d2) |\
+(E4 G2B2) | (A4 d2f2) | e2AA B2c2 | d4 "^D.C."z4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Four ladies cross hands round and back,
+%% gentlemen the same,
+%% grand right and left,
+%% four ladies forward and back,
+%% gentlemen the same,
+%% all chassa cross partners and back,
+%% all balance partners,
+%% repeat once.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

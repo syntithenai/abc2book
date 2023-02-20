@@ -10,18 +10,18 @@ import ImagesEditor from './ImagesEditor'
 import Select from 'react-select';
 import CreatableSelect from 'react-select/creatable';
 import AsyncCreatableSelect from 'react-select/async-creatable';
+import useAbcjsParser from '../useAbcjsParser'
 
 import useMusicBrainz from '../useMusicBrainz'
 
 
 export default function AbcEditor(props) {
-  var searchNames = ['Sydney', 'Melbourne', 'Brisbane', 
-                            'Adelaide', 'Perth', 'Hobart'];
   const allowedChordSites = "site:https://tabs.ultimate-guitar.com OR site:https://www.azchords.com/ OR site:https://www.chordsbase.com/ OR site:https://www.chords-and-tabs.net/ OR site:https://akordy.kytary.cz/ OR site:https://www.guitaretab.com/"
   const [abcText, setAbcText] = useState(props.abc);
   const [currentVoice, setCurrentVoice] = useState(0);
   let params = useParams();
   var musicBrainz = useMusicBrainz()
+  const abcjsParser = useAbcjsParser({tunebook: props.tunebook})
   // 10 voices supported in textarea selection by click
   const textareaRef_0 = useRef(null);
   const textareaRef_1 = useRef(null);
@@ -212,7 +212,7 @@ export default function AbcEditor(props) {
                             blurInputOnSelect={true}
                             createOptionPosition={"first"}
                             allowCreateWhileLoading={true}
-                            
+                            loadingMessage ="Loading ..."
                           />
                       
                       </Form.Group>
@@ -330,21 +330,20 @@ export default function AbcEditor(props) {
                     </a>
                     <Button variant="info" style={{marginLeft:'2em'}} onClick={function() {
                         var start = (Array.isArray(tune.words) ? tune.words.join("\n") : '')
-                        var clean = props.tunebook.utils.removeSquareBracketedSections(props.tunebook.utils.cleanupLyrics(start))
+                        var clean = abcjsParser.cleanupLyrics(start)
+                        //console.log(clean)
                         tune.words = clean.split("\n")
                         tune.id = params.tuneId
                         saveTune(tune)
-                    }} >Clean</Button>
+                    }} >{props.tunebook.icons.wizard} Clean</Button>
                     <textarea value={Array.isArray(tune.words) ? tune.words.join("\n") : ''} onChange={function(e) {tune.words = e.target.value.split("\n"); tune.id = params.tuneId; saveTune(tune)  }} style={{width:'100%', height:'30em'}}  />
                   </Tab>
                   
                   
                   <Tab eventKey="chords" title="Chords" >
-                    <b>This tool is for scaffolding. Using it to edit chords in existing notation might work or it might break your music!!</b>
-                    <br/><br/>
-                   
                     
-                    <ChordsWizard tunebook={props.tunebook} tune={tune} tuneId={tune.id}  saveTune={function(e) {saveTune(tune)}}  notes={tune.voices && Object.keys(tune.voices).length > 0 && Object.values(tune.voices)[0] ? Object.values(tune.voices)[0].notes : []} />
+                    
+                    <ChordsWizard tunebook={props.tunebook} tune={tune} tuneId={tune.id}  abc={props.abc} saveTune={function(e) {saveTune(tune)}}  notes={tune.voices && Object.keys(tune.voices).length > 0 && Object.values(tune.voices)[0] ? Object.values(tune.voices)[0].notes : []} />
                   </Tab>
                   
                   {localStorage.getItem('bookstorage_inlineaudio') === "true" && <Tab eventKey="files" title="Images" >

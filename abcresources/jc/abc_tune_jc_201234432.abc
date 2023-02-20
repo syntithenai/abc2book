@@ -1,0 +1,26 @@
+X: 20504
+T: LOCHABER NO MORE
+Q: "Slow and tenderly with expression."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.50 #4 (and p.51 #1)
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(G>A) |\
+B2B2(B>c) | B3A(Bd) | e2A2A>B | {B2}A4(G>A) |\
+B2(cB)(AG) | D3(EGA) | B2(AGGA) | G4(G>A) |\
+B2B2B(c/d/) | {c}B3A(Bd) |
+e2A2 A(B/c/) | (B2A2)G>A |\
+(BdcB)(AG) | D2(dc)(BA) | B2(AGGA) | G4 |]\
+G2 |\
+(B>c)d2d2 | (d>e)(dc)(BA) | G2g2f2 | g4G2 |\
+(B>c)d2d2 |
+(ed)(cB)(AG) | G2g2(ga) | g4d2 |\
+=f3g(fg) | {f}e2d2(eg) | a2A2A(B/c/) | {B2}A4(G>A) |\
+B2(cB)(AG) | D2(dc)(BA) | B2(A>G)(G>A) | G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

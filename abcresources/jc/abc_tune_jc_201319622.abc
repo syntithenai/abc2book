@@ -1,0 +1,25 @@
+X: 1
+T: Old Madera Waltz
+O: arr. Jay Ungar & Molly Mason
+R: waltz
+S: Fiddle Hell Online 2021-4-16
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Gmix
+% - - - - - - - - - -
+V: 1 staves=2
+G Bc |\
+"G"d2 d3 e | "Gmaj7"ed d4 | "G7"d2 d3 c | "C"_BA GF DF |\
+"G"GA Bc de | "C"fg ef dc | "D7"_BA- A2 (3ABA | "G"G3 :|
+|: z(3DE^F |\
+"G"G2 BG AE | "Am"G2 BG AE | "G/B"G2 BG AG | "C"E4 (3DE^F |\
+"Em"G2 BG AE | "C"GA Bc dd- | "D7"d3 c _BA | "G"G3 :|
+% - - - - - - - - - -
+V: 2
+z3 |\
+G6 | ^F6 | F6 | E6 |\
+B,C DE FG | A_B GA FE | DC- C2 (3CDC | B,3 :|
+|: z3 |\
+B2 dB cA | B2 dB cA | B2 BG AG | G4 z2 |
+B2 dB cA | Bc de ^ff- | f3 e dc | B3 :|

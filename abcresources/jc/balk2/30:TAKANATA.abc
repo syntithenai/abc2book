@@ -1,0 +1,23 @@
+X: 330
+T: Takanata
+O: Macedonia
+M: 2/4
+L: 1/8
+Q: 1/4 = 240
+K: Dm
+%%MIDI gchord fzzz
+%%MIDI program 23
+%%MIDI bassprog 45
+%%MIDI bassvol 60
+P:A
+|:"C"cBAG|"F"F2F2|"C"E2E2|DEFG    |\
+  cAAG   |"F"F2F2|FDEC   |"D"D2D2 :|
+P:B
+|:"C"cAAG|"F"F2F2|"C"c2c2|"D"ddd2 |\
+  "C"cAAG|"F"F2F2|FDEC   |"D"D2D2 :|
+P:C
+|:"C"cBAG|"F"F2F2|"C"E2E2|DEFG    |\
+  cAAG   |"F"F2F2|FDEC   |"D"D2D2 :|
+P:D
+|:"C"C2Cz|CDEF   |AGFE   |"D"D2Dz |\
+  "C"cBAG|A3G    |FDEC   |"D"D2z2 :|

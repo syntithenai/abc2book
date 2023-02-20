@@ -1,0 +1,94 @@
+
+X: 1
+T: Twa Bonny We    [Dm]
+O: Johnson 1766
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010,2014 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.84 London 1766
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: "Dm"DFA d3 | FAd f3 | "(F)"afa "C"geg | "Dm"fdf "A7"e^cA |\
+   "Dm"DFA d3 | FAd f3 "I"| "(A)"agf "A7"ed^c | "Dm"dAF D3 :|
+|: "F"FAc f3 | "Dm"Adf a3 | "F"ABc cBA | "Gm"GAF "C7"EDC |\
+   "F"FAc f3 | "A"A^ce a3 | "Dm"fdf "A7"ed^c | "Dm"dAF D3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off one Cu foot it 6 sideways .|
+%% Cast up again & hands 4 round :| cross
+%% over half figure :|. Right & Left :|:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 2
+T: Twa Bonny We    (Am)
+O: Johnson 1766
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010,2014 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.84 London 1766
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: "Am"A,CE A3 | CEA c3 | "(C)"ece "G"dBd | "Am"cAc "E7"B^GE |\
+   "Am"A,CE A3 | CEA c3 "I"| "(E)"edc "E7"BA^G | "Am"AEC A,3 :|
+|: "C"CEG c3 | "Am"EAc e3 | "C"EFG GFE | "Dm"DEC "G7"B,A,G, |\
+   "C"CEG c3 | "E"E^GB e3 | "Am"cAc "E7"BA^G | "Am"AEC A,3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %begintext align
+% % Cast off one Cu foot it 6 sideways .|
+% % Cast up again & hands 4 round :| cross
+% % over half figure :|. Right & Left :|:
+% %endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 3
+T: Twa Bonny We    (Em)
+O: Johnson 1766
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010,2014 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.84 London 1766
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: "Em"EGB e3 | GBe g3 | "(G)"bgb "D"afa | "Em"geg "B7"f^dB |\
+   "Em"EGB e3 | GBe g3 "I"| "(B)"bag "B7"fe^d | "Em"eBG E3 :|
+|: "G"GBd g3 | "Em"Beg b3 | "G"Bcd dcB | "Am"ABG "D7"FED |\
+   "G"GBd g3 | "B"B^df b3 | "Em"geg "B7"fe^d | "Em"eBG E3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %begintext align
+% % Cast off one Cu foot it 6 sideways .|
+% % Cast up again & hands 4 round :| cross
+% % over half figure :|. Right & Left :|:
+% %endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 4
+T: Twa Bonny We    (Bm)
+O: Johnson 1766
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010,2014 John Chambers <jc:trillian.mit.edu>
+B: John Johnson ed. "Twenty Four Country Dances", p.84 London 1766
+K: Bm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: "Bm"B,DF B3 | DFB d3 | "(D)"fdf "A"ece | "Bm"dBd "F#7"c^AF |\
+   "Bm"B,DF B3 | DFB d3 "I"| "(F)"fed "F#7"cB^A | "Bm"BFD B,3 :|
+|: "D"DFA d3 | "Bm"FBd f3 | "D"FGA AGF | "Em"EFD "A7"CB,A, |\
+   "D"DFA d3 | "F#"F^Ac f3 | "Bm"dBd "F#7"cB^A | "Bm"BFD B,3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %begintext align
+% % Cast off one Cu foot it 6 sideways .|
+% % Cast up again & hands 4 round :| cross
+% % over half figure :|. Right & Left :|:
+% %endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

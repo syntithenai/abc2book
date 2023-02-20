@@ -1,0 +1,22 @@
+X:10
+%%indent 36
+T:M\'as vale trocar
+C:Juan del Encina (1469-1530)
+M:3/4
+L:1/4
+K:F treble+8
+%
+V:1 name="Flauta\ndoce"
+%%tablature 110 tabh tabn2 tabbar
+%%staffsep 80
+% %musiconly
+%
+D|EEF|G2G|AAB|cA2|
+w: P123456 P12345 P12345 P1234o67 P123 P123 P12 P12 P1o34 Po2 P12
+(d>c B/A/)|GFG|(A>G F/E/)|DE2|
+w: o2 Po2 P1o34 P12 P123 P1234o67 P123 P12 P123 P1234o67 P12345 P123456 P12345
+D3-|D2A|AAA|BGd|ddc|
+A2A|AAA|BGd|ddc|A2D|
+EEF|G2G|AAB|cA2|(d>c B/A/)|
+GFG|(A>G F/E/)|DE2|D3|]
+%%text http://averroes.cec.junta-andalucia.es/recursos_informaticos/concurso01/premio_2/index.html

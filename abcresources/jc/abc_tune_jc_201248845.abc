@@ -1,0 +1,253 @@
+X:0201
+T:La Tempête (The Tempest)
+P:La Tempête
+C:Aird's Collection 1788-1803
+R:Reel (nx48) AABBC
+B:RSCDS 2-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:C
+%%staves (1 2)
+[V:1] |:"C"[c2E2]>G2 (5:4GAG^FG|e2c2 c4|"G7"d2G2 A2B2|"C"c2e2 g4|\
+[V:2] |:   x8                  |x8     |    x8       |   x8     |\
+[V:1]   "C"[c2E2]>G2 TG4|"Am"e2c2 c4|"G7"d2G2 A2B2|"C"[c2E2]z2[c2E2]z2:|
+[V:2]      x8           |    x8     |    x8       |   x8              :|
+[V:1] |:"C"g3ee2c2|"G"d2B2 G4|"C"g3ee2c2|"G"d2B2 G4|\
+[V:2] |:   G8     |   G8     |   G8       |   G8     |\
+[V:1]   "C"[c2E2]>G2 TG4|"C"e2c2 c4|"G7"d2G2 A2B2|"C"c2z2 c2z2:|
+[V:2]      x8           |   x8     |    x8       |   x8       :|
+[V:1]   "C"c2>e2 g2e2|"F"a2f2 "C"g2e2|"G7"f2d2 "C"e2c2|"G"dcBA G4|\
+[V:2]      x4    G4  |   A4      G4  |    F4      E4  |   x8     |\
+[V:1]   "C"c2>e2 g2e2|"F"a2f2 "C"g2e2|"G7"f2d2 "C"e2c2|"G7"d2B2 c4||
+[V:2]      x4    G4  |   A4      G4  |    F4      E4  |    F4   E4||
+[V:1]   "C"g2>e2e2c2|"G"d2B2 G4|"C"g2>e2e2c2|"G"d2B2 G4|\
+[V:2]      G8       |   G8     |   G8       |   G8     |\
+[V:1]   "C"c2>e2 g2e2|"F"a2f2 "C"g2e2|"G7"f2d2 "C"e2c2|"G7"d2B2 c4|]
+[V:2]      x4    G4  |   A4      G4  |    F4      E4  |    F4   E4|]
+
+X:0202
+T:The Bumpkin/Ninesome Reel
+P:The Bumpkin/Ninesome Reel
+C:»Cobbler's Opera« 1729
+R:Jig (12x24) ABC
+B:RSCDS 2-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+%%staves (1 2)
+[V:1] "C"[c3G3C3] "G"[B3G3D3]|"Am"ABG "D"FED|"G"GAG BAB|GAG BAB|\
+[V:2]    x6                  |    E3     x3 |   B,6    |B,6    |\
+[V:1] "C"[c3G3C3] "G"[B3G3D3]|"Am"ABA "D7"fef|
+[V:2]    x6                  |    E3      A3 |
+[V:1]                                         "G"g2d "Am"ed"D7"c|"G"BAB GAB||\
+[V:2]						 x6             |   x6     ||\
+[V:1] "C"c2 (3d/e/f/ "G"gdB|"C"ABG "D7"FED|"G"GAG BAB|GAG BAB|
+[V:2]    x6                |   x6         |   B,6    |B,6    |
+[V:1] "C"G2f "G"gdB|"Am"ABA "D7"fef|"G"[g2G2]d "Am"ed"D7"c|"G"BAB G3||\
+[V:2]    x6        |    x6         |   x6                 |   x6    ||\
+[V:1] "Am"cAc "G"BGB|"Am"AB"A7"G "D"FED|
+[V:2]     E3     D3 |    E3         x3 |
+[V:1]                                   "G"GAG BAB|GAG BAB|\
+[V:2]                                      B,6    |B,6    |\
+[V:1] "Am"cAc "G"BGB|"Am"ABA "D7"fef|"G"g2d "Am"ed"D7"c|"G"BAB G3|]
+[V:2]     C3     D3 |    E3      A3 |   G3      x3     |   x6    |]
+
+X:0203
+T:The Glasgow Highlanders
+P:The Glasgow Highlanders
+C:Traditional
+R:Strathspey (8x32)
+B:RSCDS 2-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+%%staves (1 2)
+[V:1] "D"D>E"Bm"F>G "A"A2 [A2E2C2]|"A"A>c"D"d>e "D"f2 [a2d2]|\
+[V:2]    x2     x6                |   x2    A2     z2 A2    |\
+[V:1]      "A7"g>e"D"f>d "A"e>c"G"d>B|"A"A>B"D"A>F "Em"E>G"A"[FC]>E|
+[V:2]          A8                    |   x8                        |
+[V:1] "D"D>E"Bm"F>G  "A"A2 [A2E2C2]|A>c"D"d>e   f2 a2|\
+[V:2]    x2     D3/2x/  z2  x2     |A2    A3/2x/z2 A2|\
+[V:1]      "A7"g>e"D"f>d "A"e2 [a2c2]|"D"[dA]>A"A7"B>c "Bm"d>e"A7"f>g||
+[V:2]          A6               A2   |   x8                          ||
+[V:1] "D"[a2d2] "A7"[g2c2] "D"[f7/2d7/2] e/|"Bm"d>f"D"e>d "G"B4|\
+[V:2]     A2         A2        A2    x2    |    F2    F2     G4|\
+[V:1]      "Em"g>e"D"f>d "A"e2 "E7"d2|"A"(3cfe "A7"(3dcB "D"A2-"A"A2|
+[V:2]          G2    A2     A2    ^G2|   A2    x6          |
+[V:1] "D"a2 "A7"g2 "D"f7/2 "F#7"e/|"Bm"d>fe>d "G"B4|\
+[V:2]    z>AB>c       d7/2      x/|    F2 F2     G4|\
+[V:1]      "G"g>e"D"f>d "A7"e2 a2|"A7"A2 B>c "D"d4|]
+[V:2]         G2    A2      B2 A2|    x2 G2     F4|]
+
+X:0204
+T:Speed the Plough/Inverness Country Dance
+P:Speed the Plough/Inverness Country Dance
+C:Traditional
+R:Reel (8x32)
+B:RSCDS 2-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:A
+|:E|"A"A2Ac efec|eaec efec|"Bm"dfdB "A"cecA| "Bm"dc"B7"BA "E7"GABc|
+   |"A"A2Ac efec|eaec efec|"Bm"de"A"cd "Bm"Bc"B7"AB|"E7"E2[G2D2] "A"[A3C3]:|
+|:(3efg|"A"a2aA aAeA|"F#m"aA"E"gA "D"fA"A"eA|\
+           "D"df"E7"dB "A"cecA|"Bm"FBBA "E7"GABc|
+        "A"(3cBA eA "D"fA"A"eA|"D"fgaf "A"ecAc|\
+           "Bm"de"A"cd "Bm"Bc"B7"AB|"E7"E2[G2D2] "A"[A3C3]:|
+
+X:0205
+T:The Perth Medley
+P:Perth Hunt
+C:Miss Magdalina Stirling of Ardoch, ca. 1788
+R:Medley (8x64)
+B:RSCDS 2-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:D
+%%staves (1 2)
+[V:1] "D"{B}A2FA DAFA|DAFA "G"BEE2|"D"{B}A2FA DAFA|"A7"faeg "D"fdd2|
+[V:2]       D8       |x8          |      D8       |    x8          |
+[V:1] "D"{B}A2FA DAFA|DAFA "G"BEE2|"D"{B}A2FA DAFA|"A7"faeg "D"fdd2|
+[V:2]       D8       |x8          |      D8       |    x8          |
+[V:1] "D"{g}fdad "G"bd"D"ad|"D"fdad "Em"be"A7"eg|\
+[V:2]       x8             |x8                  |
+[V:1]     "D"fdad "G"bd"D"ad|"A7"ABde "D"fddg|
+[V:2]        x8             |x8              |
+[V:1] "D"(3fed ad "G"bd"D"ad|"D"(3fed ad "Em"be"A7"eg|\
+[V:2]      x8               |x8                      |\
+[V:1]     "D"fadf "G"gbeg|"A"ABde "D"fdd2|]
+[V:2]        x8          |   x8          |]
+P:Highland Whisky
+C:Niel Gow
+M:C
+V:1
+E|"A"A<A A2 A>B c<e|"Bm"B<B B>c d>e "E7"f<a|\
+      "A"A<A A>B A>B c>d|ef/g/ a>c "E7"[B2G2D2] "A"[AC] E|
+  "A"A<A A2 A>B c<e|"Bm"B<B B>c d>e "E7"f<a|\
+      "A"A<A A>B A>B c>d|ef/g/ a>c "E7"[B2G2D2] "A"[AC]||
+e|"A"d/c/B/A/ e>A "D"f>A"A"e>A|"E"G<BB>A G<BB>e|\
+      "A"d/c/B/A/ e>A "D"f>A "A"e>A|ef/g/ a>c "E7"B2"A"A>e|
+  "A"d/c/B/A/ e>A "D"f>A"A"e>A|"E"G<BB>c "E7"G<BB>c|\
+      "A"A<c "E7"B<d "A"c<e"D"d<f|"A"ef/g/ a>c "E7"[B2G2D2] "A"[AC]|]
+
+X:0206
+T:The Soldier's Joy
+P:The Soldier's Joy
+C:Joshua Campbell's Collection 1778
+R:Reel (8x32)
+B:RSCDS 2-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:D
+|:FG|"D"AFDF AFDF|A2 [d2F2] "G"[d2G2] cB|"D"AFDF AFDF|"A"G2 E2 E2 FG|
+     "D"AFDF AFDF|A2 [d2F2] "Bm"[d2F2] de|"A"fafd "A7"egec|"D"d2 d2 d2:|
+|:de|"D"f2 f2 fagf|"A"edcd egfe|"D"f2 f2 fagf|"Em"ed"E7"cB "A7"A2 de|
+     "D"f2 fe fagf|"Em"ed"E7"cd "A"efge|"D"fafd "A7"egec|"D"d2 D2 D2:|
+
+X:0207
+T:The Princess Royal
+P:The Princess Royal
+C:Gow's Repository
+R:Reel (8x28)
+B:RSCDS 2-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:Gm
+|:GA|"Gm"B2AB G2dc|B2AB G2d2|"Cm"e2ed "F7"c2fe|"Bb"de"F"cd "Gm"B2{c}BA|
+     "Gm"B2gB "Dm"A2fA|"Eb"GABG "D7"D2dc|\
+				 "Gm"BABG "D7"D2[^F2C2]|"Gm"[G4B,4][G2B,2]:|
+d|"Gm"g2g^f "D7"{a}gfga|"Bb"b2B2 B2ba|"Gm"bagf "Cm"edcB|"F"ABcA "F7"F2GA|\
+  "Bb"B2AB "F"c2Bc|"Bb"[d2F2][d2F2] "Eb"[g4B4G4]|
+	"Bb"[f2B2F2][B2F2] "F7"[e4A4F4]|"Bb"[d2B2F2]"Gm"G2 "Ao"[c4G4E4]|\
+  "Gm"BcBA GABG|"D"^FGAF "D7"D2dc|"Gm"BABG "D7"D2[^F2C2]|"Gm"[G4B,4][G2B,2]|]
+
+X:0208
+T:Greig's Pipes/The Cameronian Rant
+P:Greig's Pipes
+C:Neil Stewart's Collection 1761
+R:Strathspey (8x32)
+B:RSCDS 2-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:A
+|:f|"A"e>Ac>A e<AA>f|e>Ac>A "Bm"B<FF>f|\
+               	"A"e>Ac>A e>Ac>A|"Bm"B/B/B "F#m"c>A "Bm"B<FF:|
+|:B|"A"c>Ac>A c<AA>B|c>Ac>A "Bm"B<AA>B|\
+ 		"A"c>Ac>A E>Ac>A|"Bm"B/B/B "A"c>A "Bm"B<FF:|
+|:A|"A"E>A,C>A, E<A,A,>A|E>A,C>A, "Bm"F<B,B,>A|\
+		"A"E>A,C>A, E>A,C>A,|"Bm"B,/B,/B, "A"C>E "Bm"F<B,B,:|
+|:G|"A"A/G/F/G/ A>E C>A,A>G|A/G/F/G/ A>E "Bm"F<B,B,G|\
+		"A"A/G/F/G/ A>E C>D E>C|"Bm"B,/B,/B, "A"C>E "Bm"F<B,B,:|
+
+X:0209
+T:Delvine Side
+P:Delvine Side
+C:McGlashan's Collection
+R:Strathspey (8x32)
+B:RSCDS 2-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:Em
+"Em"E>e d/^c/B/A/ d<E B>A|B>e d/^c/B/A/ "D"d>D A<F|\
+        "Em"E>e d/^c/B/A/ d<E E>g|"D"f<a "A7"e>f "Bm7"d>B A<F|
+"Em"E>e d/^c/B/A/ d<E B>A|E>e d/^c/B/A/ "D"d>D A<F|\
+        "Em"E>e d/^c/B/A/ d>E E>g|"D"f<a "A7"e>f "D"d>B "Bm"A<F||
+"Em"B<EB>A B>E B<e|B<EB>A "D"d>B A<F|\
+	"Em"B<EB>A B>E B<g|"D"f<a"A7"e>f "Bm7"d>B A<F|
+"Em"B<EB>A B>E B<e|B<EB>A "D"d>B A<F|"C"E>F"G"G>A "Em"B>A B<g\
+        |"D"f<a"A7"e>f "D"d>F "B7"B/A/G/F/|]
+
+X:0210
+T:The Bob o' Dowally
+P:The Bob o' Dowally
+C:Caledonian Country Dances 1760
+R:Strathspey (8x32)
+B:RSCDS 2-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:A
+"A"A>e e2 e>A c<A|"Em"B>e e2 "G"d>=G B<G|\
+"A"A>e e2 e>A c<A|"Em"E/E/E E2 "G"=G>A B<G|
+"A"A>e e2 e>A c<A|"Em"B>e e2 "G"d>=G B<G|\
+"A"A>e e2 e>A c<A|"Em"E/E/E E2 "G"=G>A B<G||
+"A"A>a a>e c>a c<A|"G"B>=g g>e d>g B<=G|\
+"A"A>a a>e c>e a<e|"G"=g<b "C"e<g "G"d<g B<=G|
+"A"A>a a>e c>a c<A|"G"B>=g g>e d>g B<=G|\
+"A"A>a a>e c>e a<e | "G"=g<b "C"e<g "G"d<g B<=G|]
+
+X:0211
+T:The Haymakers
+P:The Haymakers
+C:Gow's Repository
+R:Jig (4x48) ABCABC
+B:RSCDS 2-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+D|"G"[G2B,2]B "D7"[A2D2]c|
+
+X:0212
+T:The Eightsome Reel
+P:The Deil amang the Tailors
+C:Thompson 1772
+R:Reel (1x464)
+B:RSCDS 2-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:A
+|:(3efg|"A"a2 eg a2 eg|a2 ea fedc|"Bm"dfBf dfBf|dfba "E"gefg|
+        "A"a2 eg a2 eg|a2 ea fedc|"Bm"defd "A"ecBA|"E"E2 G2 "A"A2:|
+|:e2|"A"ceAe ceAe|ceag fedc|"Bm"dfBf dfBf|dfba "E"gfed|
+     "A"ceAe ceAe|ceag fedc|"Bm"defd "A"ecBA|"E"E2 G2 "A"A2|]

@@ -1,0 +1,16 @@
+X: 946
+T: Black Donald The Piper   #2
+R: jig
+%S: s:3 b:14(4+4+6)
+B: O'Neill's 1850 #946
+O: F.O'Neill
+Z: Tom Keays (htkeays@mailbox.syr.edu)
+%abc 1.6
+M: 6/8
+L: 1/8
+K: G
+"^A"\
+|: dBB efg | dBB BAG | dBB efg | dBG (A2 {BA}G) |
+|  dBB ecc | dBB {c}BAG | A2B cde | dBG {B}A2G :|
+"^B"\
+|: gdd gee |1 gdc BAG :|2 dBG (A2 {BA}G) :|3 gdc BAG | A2B cde | dBG {B}A2G :|

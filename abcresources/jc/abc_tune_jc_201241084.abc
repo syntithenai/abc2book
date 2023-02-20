@@ -1,0 +1,27 @@
+X: 422
+T: Tarry a While
+O: a Favorite Country Dance
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.42#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: Bb
+V: 1
+F |\
+B>cB F2D | {=E}F2F ~F2d | e>fe dcB | (d3 c2).F |\
+B>cB F2D | F2F FBd | f<dB ~c2d | B3- B2 :|
+e |\
+d2f {g}~f2d | e2g cde | {e}dcB {c}BAB | c2A {=E}F2e |\
+d2f {g}~f2d | e2g cde | {e}dcB {c}BAB | (d3 c2).F |
+!p!B>cB FDE | F2F ~F2d | e>fe dcB | (d3 c2).F |\
+B>cB F<DF | {E}G2B e2g | f<dB ~c2f | B3- B2 |]
+V: 2 clef=bass middle=d
+z |\
+Bdf bfd | Bdf B2z | fac' b2B | fbd' fac' |\
+B2b a2f | Bdf B2z | B2d f2F | Bdf b2 :|
+z |\
+B2b a2f | g2e _a2=a | b2B d2=e | fac' f2z |\
+bd'f' bf'_a' | be'g' _ac'f' | bd'f' bd'f' | f2f' f2z |
+B2b B2b | B2b B2z | [c'2a2][c'a] b2B | f3 F3 |\
+B2b a2_a | g2d e2=e | f2d f2F | B3 B2 |]

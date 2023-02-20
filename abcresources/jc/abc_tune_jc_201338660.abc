@@ -1,0 +1,58 @@
+
+X: 1
+T: Smith's Reel #1
+T: Kitty's wedding
+T: Belle(s) of Lexington
+C:George Saunders? 1847
+B:George Saunders "New and Scientific Self-Instructing School for the Violin", Providence, RI, 1847, #39
+B:Francis O'Neill: "The Dance Music of Ireland" (1907) no. 846
+R:Hornpipe
+F:http://www.ibiblio.org/fiddlers/SMA_SNY.htm
+F:http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0846/oneill-1001-0846-1.abc
+N:This tune is well known in North America and Ireland, and there are many verssions.
+N:The A and B parts are often interchanged.
+M:C|
+L:1/8
+K:D
+   fe |\
+"D"d2Bd A2FA | "(G)"BAFA "D"D2ED | B,DA,D DFBF | AADF "A7"E2fe |
+"D"d2Bd A2FA | "(G)"BAFA "D"D2ED | B,DA,D DFBA | "A7"FAEA "D"D2 :|
+|: fg |\
+"D"afed bafd | "(G)"Adfd edBd | "D"DFAd FAde | fadf "A7"e2fg |
+"D"afed bafd | "(G)"Adfd edBd | "D"DFAd FAdf | "A7"eABc "D"d2 :|
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: Smith's Reel #2
+M:C|
+L:1/8
+S:Bruce Molsky, based on the 1935 recording by Bob Wills
+Z:AK/Fiddler’s Companion http://www.ibiblio.org/fiddlers/SMA_SNY.htm
+N:With parts reversed, AKA "Kitty's Wedding", Belle(s) of Lexington, et al.
+K:D
+fg | "D"afbf afde | "(G)"fafd "(A7)"edBc | "D"dedB ABde | fafd "A7"e2fg |
+   | "D"afbf afde | "(G)"fafd "(A7)"edBc | "D"dedB ABde | "A7"fdec "D"d2 :|
+|:   "D"[GA][A2A2][AA] [A2A2][A2A2] | "(G)"BABc "D"BA[FA][DA] | [A2A2] [AA][AA] ABde | fedf "A7"edB2 |
+   | "D"[D4A4] [DA][D2A2][DA] | "(G)"BABc "D"BAFD | EA2d Bde(f | "A7"f)dec "D"d4 :|
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 3
+T: Smith's Reel #2
+M:C|
+L:1/8
+B:Fiddler's Fake Book p.260
+K:D
+fg \
+| "D"afbf afde | "G"fafd "(A)"edBc | "D"dedB ABde | "A7"fafd e2fg |
+| "D"afbf afde | "G"fafd "(A)"edBc | "D"dedB ABde | "A7"fdec "D"d2 :|
+|: FG \
+| "D"AFAB A2dc | "G"BABc BAFG | "D"AFAB ABde | "A7"fafd edBA |
+| "D"FAAB A2dc | "G"BABc BAFG | "D"AFAB ABde | "A7"fdec "D"d2 :|

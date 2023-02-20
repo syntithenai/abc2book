@@ -1,0 +1,25 @@
+X: 1
+T: Jolly-Boy
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.317 "E e 3"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+f3 F/G/ AF cA | dB G=B c3 d/e/ |\
+fd de/f/ gG Gg/f/ | ef/e/ dc c4 |][|\
+(f/g/a) (f/g/a) gf gc | fe/d/ cB/A/ G3 a |\
+ba gf gc cB | Af Ge f4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. cross over and Arms round .| The 1. cu. are in the 2. cu. place, then go the whole Figure
+%% through the 2. cu. .:| Then the 1. man go round the 3. man, and the 1. wo. go round the 3. wo. then
+%% lead through the 2. cu. and cast off, then the 2. cu. lead through the 1. cu. and cast up, then Arms half
+%% round, the 1. cu. cast off.  This to the second Strain twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

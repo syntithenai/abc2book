@@ -1,0 +1,24 @@
+X: 1062
+T: Tibby Fowler o' the Glen.   a Strathspey.
+%R: strathspey
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+N: The only "overlay" is the g in bar 7, which is a 1-measure drone in the book.
+B: Niel Gow & Sons "Complete Repository" v.1 p.6 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: There were a lot of unnecessary natural signs on G notes; ignored.
+N: Bar 6 has incompatible flag and dot on last 2 notes; ignored to be like most similar note pairs.
+M: C
+L: 1/8
+Q: "SLOW"
+K: Am
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+B |\
+A/A/A A>B TG>ABd | eA-A>B d/c/B/A/ G>B | A/A/A A>B TG>ABd | eA-A>B GEE :| a | (gee>g) Td>edB | ge-e>g Ta>bge |
+d>eg>b e>g (e/d/c/)B/ | eAA>B GEE>a || ge-e>g Td>e{e}d{c}B | ge-ea (g<b)ae | Tg>be>g d>gB>d | eAA>B GEE |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | a2a2 g2g2 | c'2a2 g2b2 | a2a2 g3B | c2d^d e2E :| z | c'2a2 b2g2 | a2a2 b2e2 |
+g2b2 c'2bz | c2d^d e2Ez || a2a2 g2g2 | c'2a2 b2c'2 | b2c'2 g3B | c^c d^d e2E |]

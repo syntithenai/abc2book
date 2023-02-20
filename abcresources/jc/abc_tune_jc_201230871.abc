@@ -1,0 +1,37 @@
+X: 14291
+T: If Love's a Sweet Passion
+%R: air, waltz, minuet
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.4 p.29
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Gm
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"d4 |\
+c6 d2 B4 | {AB}c4 (B2A2) d4 | {c}B6 A2 (BA)G2 | G8 (e2d2) |\
+{d}c4 c4 f4 | {e}d4 (c2B2 d4) | d6 e2 {d}Tc4 | {Bc}d8 ::\
+(d2c2) | (=B4 c4) d4 | (e4 d4) g4 |
+G6 A2 (B2c2) |\
+{B}A8 d4 | (e4 d4) g4 | f4 ({a}g2f2)(e2d2) | c4 (e2d2) (Tc3B) |\
+B8 (d2e2) | {d}c4 c4 {cd}e4 | {e}d8 (d=ef2) | =e4 e4 (e^f)g2 |\
+{g}^f8 (_e2d2) | g4 d4 (def2) |
+{e}d4 {c}B4 {Bc}d4 | {c}B6 A2 (BAG2) | G8 :: d4 |\
+c6 e2 (dcBA) | B4 ^f4 g4 | (fedc) B4 (A_ed^F) | {F}G8 (dfd2) |\
+{e}d3c c4 (cde2) | e3d d4 f4 |
+g4 f4 (3(e2d2e2) | d8 :: (d3c) |\
+=B4 .B(Bcd) .B(Bcd) | c4 .c(cde) .d(def) | G4 (gec2) (GAB2) | {B}A8 d4 |\
+(edc2) d3g Tg3f | (fdB2) (G3A) (Bcd2) |
+g3b (fdB2) (ecA2) | B8 (Td3c) |\
+c4 .c(cdc) .c(ced) | d4 .d(ded) .d(df=e) | =e4 .e(efe) a(e^fg) | T^f6 _e2 d4 |\
+(gab2) (ag^f2) (fab2) |
+e4 (3(d2g2f2) (3(e2d2c2) | {c}TB6 A2 (BAG2) | G8 :: d4 |\
+(c3d/e/) (d2c2) (TB3A) | (BGBd) g(dBG) ecA^f | .g(bag) .=f(edc) .d(Bcd) | G8 (fdB2) |
+c4 (cdef gabg) | f4 (bfdB) (bgfe) | d6 e2 (Tc3B/c/) | d8 :: (d3c) |\
+(=B4 c4) d4 | (edc)g (ec=B)g (ecG)g | (edca) (gfed) (eGAB) |
+{B}A8 d4 |\
+e4 (dcBg) (fABg) | f(.b.a.g .f.e.d.c .B.A.G.F) | (GDFB) d4 ({Bc}Tc3B/c/) | B8 (d3e) |\
+c6 =B2 (cde2) | {e}d8 (d=ef2) |
+=e4 (c'3b) (ag^fg) | {g}T^f6 _e2 d4 |\
+(gfed) (cBAg) (fedc) | (dcB)A G(gfe) d(ABc) | TB6 A2 (BAG2) | G6 :|

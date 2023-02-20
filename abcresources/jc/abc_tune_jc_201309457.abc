@@ -1,0 +1,48 @@
+X:473
+T:Michael and Gillian
+C:Colin Hume, 2015
+L:1/4
+M:3/4
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=110
+H:For Mike and Gill Swash
+%%MIDI ratio 3 1
+%%staffnonote 2
+%%staves 1 {2 3}
+K:Am
+P:A
+V:1
+%%MIDI program 71     Clarinet
+cAE | BAF | E A/B/ c/d/ | cB2 | Af e/d/ |
+c/d/ e>c |1 B^F B/c/ | dcB :|2 B ^G/A/ B/c/ | A2A |
+V:2 treble
+%%MIDI program 46     Orchestral Harp
+[EAc][CEA][A,CE] | [DFB][B,DA][B,DF] | [A,CE] [CEA]/B/ [EAc]/d/ | [D^Gc][DGB]2 |[DFA][Adf] [Ace]/[Acd]/ |
+[Ac]/[Bd]/ [Ace]>[EAc] |1 [^D^FB][DF] [FB]/c/ | [^Gd][Ac][GB] :|2 [D^GB] [D^G]/A/ [DGB]/c/ | [CEA]2[CEA] |
+V:3 bass octave=-2
+%%MIDI program 46     Orchestral Harp
+%%MIDI chordprog 52   Choir Aahs
+%%MIDI gchord c2c
+%%MIDI chordvol 30
+"Am"A/B/ c/d/ e | "Dm"D/E/ F/G/ A | "Am/F#"^F/e/ ^fF | "E7"E E/^F/ ^G/A/ | "Dm/B"B B/A/ c/B/ |
+"Am"A/^G/ ^F/G/ A |1 "B7"B/^d/ ^f/a/ b | "E7"E/B/ e/^f/ ^g :|2 "E7"E/B/ e/^f/ ^g/e/ | "Am"A/B/ c/e/ a |
+P:B
+V:1
+B/c/ dg | e/d/ c>B | A/B/ cf | d/c/ B A/B/ |\
+c/B/ A A/c/ | GE2 | Ff e/d/ | e2 e |
+V:2
+[GB]/[Ac]/ [Bd][Bdg] | [ce]/[Bd]/ [Ac]>[GB] | [FA]/[GB]/ [Ac][Acf] | [Bd]/[Ac]/ [GB] [GA]/B/ |\
+[Ac]/[GB]/ [FA] [FA]/c/ | [B,EG][B,E]2 | [DF][Adf] [Be]/[E^Gd]/ | [A^ce]2 [Gce] |
+V:3
+"G"G/d/ gG | "Am"A/e/ aA | "F"F/c/ aF | "G"G/d/ gG |\
+"F"F/c/ f/g/ a | "Em"E/B/ e/^f/ g | "Dm"D/A/ d/f/ "E7/B"^g/b/ | "A"A/^c/ e/g/ "A7"a |
+V:1
+ag f/e/ | f/e/ d2 | gf e/d/ | e/d/ c2 |\
+!1!d/e/f e/d/ | c'c>A | B B/d/ c/B/ | A3 |]
+V:2
+[dfa][eg] [df]/[ce]/ | [df]/[ce]/ [_Bd]2 | [Bdg][Bdf] [GBe]/d/ | [Gce]/d/ [EGc]2 |\
+[Fcd]/e/f [ce]/[Bd]/ | [eac'][EAc]>[CA] | [DFB] [DFB]/d/ [D^Gc]/B/ | [CEA]3 |]
+V:3
+"Dm"D/A/ d/e/ f | "Bb"_B/f/ _b/c'/ d' | "G/B"=B/d/ g/a/ b | "C"c/g/ e/c/ B/A/ |\
+"Fm/Ab"_A3 | "Am"=A/e/ aA | "Dm"D/A/ d "E7"[Ee] | "Am"A/e/ a/e/ c/B/ |]

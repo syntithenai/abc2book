@@ -1,0 +1,57 @@
+
+X: 0
+T: Currie Mountain
+T: 8x32R3
+C: Mary Pugh
+R: reel
+B: New Brunswick Coll: Pugh
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/abc/
+M: C|
+L: 1/8
+K:
+P: Reconciliation Reel, The
+R: reel
+D: Matt Molloy & Sean Keane: Contentment is Wealth.
+Z: id:hn-reel-95
+M: C|
+K: A
+|: "A"A2 c{B}A eAfA |     eAfA "E7"ecBc | "A"A2 c{B}A eAfA | "(E)"ecBc "E7"AFEF |
+|  "A"A2 c{B}A eAfA |     eAfA "E7"ecBc | "A"ABAF     EAcf |  "E7"ecBc  "A"A4  :|
+|: "A"A2{B}ce  a3f  | "E7"efed     cdcB | "A"A2{B}ce  a3g  |  "Bm"fbba "E7"gefg |
+|  "A"a2ae     faec | "Bm"dBcA "E7"BAFG | "A"ABAF     EAcf |  "E7"ecBc  "A"A4  :|
+P: The Barrowburn Reel
+C: Addie Harper
+Z: John Chambers <jc@trillian.mit.edu>
+N: Addie Harper (who is this - Do we need permission?)
+L: 1/8
+K: D
+|: "D"~D2DE FAAd | "G"~B2BA BddB | "D"~A2AB "Bm"d2de | "Em"fedB "A7"AFEF |
+|  "D"~D2DE FAAd | "G"~B2BA Bdde | "D"f2af "A7"e2fe | "G"dB"A7"AB "D"d2 :|
+|: cd \
+| "A7"~e2ef ecBA | "D"~f2fg fdBA | "Em"~g2ga gecA | "F#m"a2ag f2ef |
+| "G"g2ga gecA | "D"a2ag f2ef | "G"g2ag "D"f2ed | "G"dB"A7"AB "D"d2 :|
+P: Father Kelley's Reel
+O: Ireland
+Z: John Chambers <jc@trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: G
+GA \
+|: "G"B2GB "C"AGEG \
+| "D7"DGGF "G"GABd \
+| "Am"c2AB cBAG \
+| "D7"FGAG FDDA |
+|  "G"B2GB "C"AGEG \
+| "D7"DGGF "G"GABd \
+| "C"cdef "(G)"gedc \
+| "D7"BGAF  "G"G4 :|
+Bc \
+|: "G"d2Bd gdBd \
+| d2Bd gdBd \
+| "Am"e2ce agfe \
+| "D7"defg agfe |
+|  "G"d2Bd gdBd \
+| d2Bd gdBd \
+| "Am"cBAc "G"BAGB \
+| "D7"AGFA "G"G4 :|

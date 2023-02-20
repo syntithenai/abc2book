@@ -1,0 +1,22 @@
+X: 12072
+T: Scoon House
+C: James Oswald
+%R: air, march
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.7 #2
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Bar 15 has "Bart 2d" below the (ed) notes.
+M: C
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"A |\
+d2ef (ed)(dA) | Bd (A>F) E3F |\
+(GA)(Bc) {de}f3e | (d<B) (TA>F) D3 :: E |\
+(F>D)(A>F) d3f |
+(ed)(cB) {B}T^A3F |\
+G>F (E3/F//G//) Ffed | Tc3B B2z(A/G/) |\
+(FA)(Ad) {de}f3e | (d<B) (A>F) {F}E3A |
+d4 B4 | (GB) eg {d}Tc2(BA) |\
+d2 (e3/f//g//) (fe)(dB) | (A<F) (E>D) {de}f4- |\
+fe(ed) d3(c/B/) | A<F TE>D D3 :|

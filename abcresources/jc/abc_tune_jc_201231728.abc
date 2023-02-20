@@ -1,0 +1,29 @@
+X: 315
+M: 2/4
+L: 1/16
+T: Hora 1
+K: Dphr^F
+P:A
+|:"D"D3D D2D2 | "Cm"EDEC "D"D4 | D2^F2 A2d2 | A3G AGFE \
+| "D"D3D D2D2 | "Cm"EDEC "D"D4 | ABAG "Cm"FGFE | "D"D4 z4 :|
+P:B
+|:"D"FG A4 d2 | A3G F2ED | "Cm"C8 | z8 \
+| "D"FG A4 d2 | A3G F2ED | "Cm"C2CD E2C2 | "D"D4 z4 :|
+P:C
+|: "D"TF3E "Cm"DCDE | "D"TF3E "Cm"DCDE | "D"TF3E "Cm"DCDE | "D"F2"Cm"E2 "D"D4 :|
+P:D
+|:"Bb"D2 d4 d2 | "Cm"d3c c4 | "Gm"c3B B4 | "D"B3A A4
+| "Eb"A3G G4 | "D"FGAG F4 | "Cm"ABAG FGFE |1 "D"D4 z4 :|2 "D"D4
+P:E
+|: F2G2 \
+| "D"A3A A2A2- | A2F2 G2A2 | "Eb"B4 G2A2- | "D"A4 F2G2
+| "D"A3A A2A2- | A2F2 G2A2 | "Eb"B4 G2A2- | "D"A4 A2B2 \
+| "Cm"c4 c2c2- | c2B2 A2G2 | "D"A2 F6-    | F6- (3FAB |
+  "Cm"(3cBA "Gm"(3BAG | "D"(3AGF "Cm"(3GFE | "D"D8- |[1 "^fine"D4 :|[2 D4 z2A2 |
+P:F
+| "D"d8- | d6 c2 | "Gm"B8- | B4 G4 \
+| "A"^c8- | c6 B2 | "D"A8- | A4 z4 |
+P:G
+|:"Gm"BBBB BAG2 | "D"AAAA AGF2 | "Cm"G2AG F2E2 | "D"F2G2 A4 \
+| "Gm"BBBB BAG2 | "D"AAAA AGF2 | "Cm"G2AG F2E2 |1"D"D4 z4 :|2 "D"D4 |]
+%%text repeat E

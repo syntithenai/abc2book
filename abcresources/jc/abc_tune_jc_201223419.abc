@@ -1,0 +1,30 @@
+X: 71
+T: Grano's March
+T: Longways for as many as will.
+%R: march
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.36
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/2	% Actually, the time signature is just "2".
+N: Repeats added to match the Note.
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+d4 e4 | f2d2 d2a2 | f2d2 d2A2 | d2A2 F2D2 |\
+d4 e4 | f2d2 d2ag | fgfg (f3f/g/) | a6 :|
+cd |\
+e4 f4 | e2c2 c2A2 | dede e4 | f6 ag |\
+f2a2 e2a2 | d2A2 dede | f2gf e3d | d6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Note: The first Strain twice the last but once.
+%%begintext align
+%% The 1st Man cast off, & whole Figure with the 3d Cu.
+%% .| Then his Partner cast off and lead thro' the 3d Cu.
+%% and thro' the 2d Cu. then they are both in the 2d
+%% Cu. Place :| Then the 1st Cu. cross over below the
+%% 3d Cu. and half Figure and lead up into the 2d Cu.
+%% Place, and Right & Left quite round & turn your Partner .|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

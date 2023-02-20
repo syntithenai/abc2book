@@ -1,0 +1,25 @@
+X: 1292
+T: Kilrack's Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.29 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+P: Scordatura [A,EAe] tuning:
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+[A2E2A,2]\
+|: B, |\
+G,>EG>B, [D/G,/][D/G,/][DG,] G>B, | A,>BTB>A [B/E/][B/E/][BE] [B2E2] |\
+G,EG>B, G,>EG>B | c>Ad>B c>AA :| c/d/ |\
+Te>cA>c e>fTe>c | d<fe>c B/B/B Bc/d/ |
+e>cA>c e>fTe>c | d>fe>c [e/A/][e/A/][eA] [eA]d/e/ ||\
+f>de>c d>Bc>A | A>fTe>c B/B/B B2 |\
+G>ED>C B,>A,G,>c | d>Be>c A/A/A A |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+x2\
+|: z | A2A2 A2A2 | B2B2 B2B2 | A2A2 A2A2 | e2E2 A2A :| z | a2a2 a2a2 | a2a2
+b2b2 | a2a2 a2a2 | e2e2 a2a2 || a2a2 a2a2 | a2a2 b2b2 | a2A2 A2A2 | e2E2 A2A |]

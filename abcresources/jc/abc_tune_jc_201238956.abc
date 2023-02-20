@@ -1,0 +1,25 @@
+X: 3173
+T: Miss L Montgomrie of Skermorlie    Strathspey
+%R: strathspey, air
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.17 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow"
+K: Bb
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 6-bar lines, for compactness and proofreading.
+V: 1 staves=2
+D |\
+B,2B,>B (BA)GF | TG>FGB cCCD |\
+B,2B,>B (BA)GF | G/A/B c/d/e dBB :| d/e/ |\
+f>BTf>d fBTg>f | fBf>d {Bc}dccd/e/ |
+(f<B)f>d (f<B)g>B | F>B {d}cB/c/ {c}dBBd/e/ ||\
+f>BTf>d fBTg>f | fBf>d {Bc}dccd/e/ |\
+B,2TB,>B BAGF | G/A/B c/d/e dBB |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d2B2 B2b2 | e3d c2f2 | d2B2 gfed | e2fF B2B :| z |
+B2[B2d2] B2[B2e2] | B2dB f2F2 | B2[B2d2] B2[B2e2] | f2F2 B2b2 || B2[B2d2] B2[B2e2] |
+B2dB f2F2 | d2B2 gfed | e2fF B2B |]

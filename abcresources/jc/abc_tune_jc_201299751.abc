@@ -1,0 +1,29 @@
+X: 1
+T: Lady of pleasure
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.133 "N"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+e/f/ |\
+g2G B2c | dD2 F2G |\
+ABc Bcd | A3 G2 |]\
+G |\
+Bd2 g2f | efg a2^c |
+def g>a g/f/ | e3 d2(e/f/) |\
+(g/f/) (e<d) B2(A/B/) | (c/B/) (A<G) F2G |\
+ABc Bcd | A3 G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First man and 2. wo. cross over into the 2. cu. place, then all four take hands and lead up a-breast,
+%% then 2. man cross over with the 2. wo. and 1. man in the 2 wo. place, then 1. man cross over with
+%% the 2. wo. and 1 wo. cross over with the 2. man, then set to each other and cast into the 2. cu. place,
+%% then 2. cu. go the Figure below the 3. cu. into the 2. cu. place, and each cu. turn their own. The
+%% rest do the like.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

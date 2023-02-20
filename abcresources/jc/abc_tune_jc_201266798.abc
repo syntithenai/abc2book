@@ -1,0 +1,19 @@
+X: 990
+T: Dancing the Baby
+R: reel
+%S: s:3 b:24(8+8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #990
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0990/oneill-1001-0990-1.abc
+M: 2/4
+L: 1/16
+K: D
+"^A"[|\
+F2AA G2AA | F2AA GFE2 | F2AA G2AA | D2DE FED2 ||\
+F2AA G2AA | F2AA GFE2 | D2DF EEE2 | DDD2 DDD2 ||
+"^B"[|\
+d2FF A2FF | d2FF GFE2 | d2FF A2FF | D2DE FED2 ||\
+d2FF A2FF | d2FF GFE2 | D2DF EEE2 | DDD2 DDD2 ||
+"^C"[|\
+f2aa g2aa | f2aa gfe2 | f2aa gbag | fed2 cAA2 ||\
+f2aa g2aa | f2aa gfe2 | d2fd ecA2 | ddd2 ddd2 |]

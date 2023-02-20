@@ -1,0 +1,13 @@
+X:1
+T:Crossing the Mince
+R:Slip Jig
+M:9/8
+L:1/8
+K:G
+%%printtempo 0
+Q:160
+c|:\
+"G" B2 G AGE "D"DEG|"G" BAG GFG "C"ABc|"G"B2G AGE "D"DEG|
+"G"cBA BGE D2 "C"c:|\
+|:"G"B2 d dge "D"dBG| "G"GBd dBG "D"ABc|
+|1 "G"B2d dge "D"dBG|"G"cBA BGE D2c:|2 "G"gfe dBd cBA|"G"cBA BGE D2c|]

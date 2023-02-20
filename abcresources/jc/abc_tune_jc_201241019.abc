@@ -1,0 +1,32 @@
+X: 4203
+T: Carle an' the King come.
+%R: air, march
+N: This is version 2, for ABC software that understands voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.4 p.20 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: Bar 5 of the 2nd strain has the bass notes written on the treble staff.
+N: It's on the bass staff here to simplify treating the voices separately (e.g. for printing the two "parts").
+N: Similarly, the diminuendo is transcribed in both voices.
+M: C
+L: 1/8
+Q: "SLOWLY"
+K: G
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+B2 G4 BA | G3E DEGA | B2 A4 B2 | {B}A3G E3G |\
+D3E G2G2 | A2B2 Tg3a | (ba)ge (de)gB |1 A3G E2c2 :|2 A3G E2"^FINE."A2 |]
+|:\
+G2g2 ~g3a | g3e d2g2 | e2a2 ~a3b | {b}a3g e2ga |\
+b3a g2e2 | Qd2ef qHg2d2 | e2g2 d2B2 |1{B}A3G E2A2 :|2 {B}A3G E2"^D.C."c2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+|:\
+G4 g2f2 | g2c2 B4 | D4 f2g2 | d2B2 c2z2 |\
+b2c'2 b2g2 | f2g2 e2f2 | g2c2 B2G2 |1 d2B2 "^FINE."c4 :|2 d2B2 c2z2 |]
+|:\
+b4 b2c'2 & g4 g4 | b2c'2 b4 & g4 g4 | c'4 ^c'4 & a4 e4 | [d'3d3]b =c'2z2 |\
+g'3f' e'2c'2 | Qb2c'a qHb2B2 | c4 B2G2 |1 d2B2 c4 :|2 d2B2 c2"_D.C."z2 |]

@@ -1,0 +1,27 @@
+X: 1
+T: Mothers Best Boys
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (84)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/4
+L: 1/4
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+g>ag ^f>=ef | g3 ^f3  | g3 ^f3 | g3 d2e |\
+d>cB A2G | G3- G2 :: A | B>AB c>Bc | d3- d2A |
+B>AB c>Bc | d3- d2d | g>ag ^f>=ef | g3 ^f3 |\
+g3 ^f3 | g3 d2e | d>cB A2G | G3 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man cast off and turn the 3d Wo. by the left
+%% Hand and fall into the 2d Mans Place .| The 1st Wo. cast
+%% off and turn the 3d Man and fall into the 2d Wo. Place :|
+%% Then the 1st Cu. lead through the 3d Cu. cast up and
+%% turn Hand .| Then lead through the 2d Cu. and cast off
+%% and turn Hands :|
+%%endtext
+%%sep 1 8 500

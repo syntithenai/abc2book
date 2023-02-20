@@ -1,0 +1,19 @@
+X: 1017
+T: Sir Martin's Jigg.
+%R: jig
+B: Henry Playford "Apollo's Banquet", London 1687 (5th Edition)
+F: https://archive.org/details/apollosbanquetco01rugg
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: Bar 8 is missing a quarter note; fixed by making last 3 notes equal length.
+M: 6/4
+L: 1/4
+K: Dmix
+% - - - - - - - - - -
+|:\
+d2a f2b | ad2 c2f |\
+ec2 B2A | A3- A2 :: a |\
+a>ga b2a | fd2 B2f |
+g>ag f>ed | e>fe cBA |\
+FGA Bcd | e2e e>fg |\
+afg e2d | d3- d2 |]
+% - - - - - - - - - -

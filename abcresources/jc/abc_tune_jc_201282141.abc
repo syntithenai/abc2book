@@ -1,0 +1,25 @@
+X: 1
+T: G\"oteborsk masurka
+S: Bruce Sagan
+M: 3/4
+L: 1/8
+K: G
+|: "G"[dB]>[BG] [G2D2] [B2G2] \
+| "Am"[dB]>[BG] [c2A2] [e2c2] \
+|1 "D7"[fd]>[ge] [a2-f2-] [af]>[ge] \
+| [fd]>[ec] [d2-B21] [d2A2] \
+:|2 "D7"[fd]>[ge] [a2-f2-] [af]>[fd] \
+| "G"[g2B2] [g4B4] :|
+|: "C"[g2e2] [f2d2] [e2c2] \
+| "G"[dB]>[BG] [GD][BG] [dB][BG] \
+|1 "D7"[cA]>[AF] [FD][AF] [cA]>[AF] \
+| "G"[GD]>[AF] [BG][cA] [d2B2] \
+:|2 "D7"[cA]>[AF] [FD][AF] [dF]>[FD] \
+| "G"[G2B,2] [G4B,4] :|
+|: "G"[D2B,2] [G2D2] [B2G2] \
+| [G2D2] [B2G2] [d2B2] \
+|1 "D7"[fd]>[ge] [a2-f2-] [af]>[ge] \
+| [fd]>[ec] [d2-B21] [d2A2] \
+:|2 "D7"[fd]>[ge] [a2-f2-] [af]>[fd] \
+| "G"[g2B2] [g4B4] :|
+

@@ -1,0 +1,25 @@
+X: 20302
+T: the HERMIT'S SONG
+T: From the Opera of "Der Freyschutz."
+C: Weber.
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.30 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Added missing bar line between bars 7,8.
+N: Both strains have a final repeat symbol, but no initial repeat symbol.
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+AB |\
+c3- cde | (f2e) edc | B2B BcB | A3 EAB |\
+c3- cde | (f2e) edc | B3- BcB | A3 z :|
+GA |\
+B2B BAB | d2=c cBA | ^d2d (def) | e3 (e^d=d) |\
+c3- ccd | (f2e) edc | B3- BcB | A3 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The song, "Yes, I will leave my father's halls," is sung to the above air.
+%%endtext
+%%sep 1 1 300

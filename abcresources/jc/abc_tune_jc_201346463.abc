@@ -1,0 +1,32 @@
+X: 1
+T: a Trip to Islington
+%R: march, reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (153)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2 |\
+g2g2 g2d2 | e2dc B2d2 | B2A2 G2B2 | FGFE D2d2 |\
+g2g2 g2d2 | e2dc B2A2 | B2d2 d3^c | d6 :|\
+|: d2 |\
+A2AB A2d2 | B3A G2d2 |
+e2f2 g2fe | ^d3^c B2a2 |\
+b2(ag) f3e | e4 e2ef | g2g2 g2gf | e2e2 e2fg |\
+a2a2 a2ag | f3e d2g2 | d2cB A3G | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man cast off and the Wo. go thro the 2d Cu. and
+%% cast up and cross over the 1st Man going the half Figure
+%% at the same Time being in the 2d Cu. Place .| The 1st Wo.
+%% casts off going the half Figure the 1st Man casts up and cross
+%% over which brings them both into the 3d Cu. Place .| Then
+%% they both cast up into the 2d Cu Place and setting all six
+%% together then Hey on both sides .| then lead thro at the
+%% Top and thro at the Bottom and cast up and turn :|
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,38 @@
+X: 1
+T: Green Sleeves and Pudding Pyes
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master" printed by John Walsh, London
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.?? #36
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.113 "L 3"
+Z: 2012-2013 John Chambers <jc:trillian.mit.edu>
+N: DMDfD has "a Scots Air" ad "Green Sleeves" handwritten at upper right
+N: The dances are identical except for spelling and punctuation, and the "[take]" that is missing in CCDM1.
+M: 6/4
+L: 1/4
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+B2B B>cd | cAF F>GA | B2G G>AB | A>G ^F/E/ D2A | B2B B>cd |
+cAF F>GA | B>AG A^F2 | G3- G2 ][ =e | f2f f>ed | cAF F2f |
+g2a b>ag | fdd d2=e | f2f f>ed | cAF F2A | G>AG A^F2 | G3- G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu. change Places and side with the 2d Cu. and turn each
+%% other, then the 2d Cu. side and turn again into their Places, then
+%% each Cu. cross over and change Places, and go the Figure of 8;
+%% then 1st Man fall back and turn his own, the rest doing the same:
+%% This to the first Strain of the Tune.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First Man sett to the 2d Wo. and go Back to Back, the 2d Man
+%% sett to the 1st Wo. and go Back to Back, then all four [take] hands and
+%% go half round and fall back; then cross over with your own, while
+%% the 2d Cu. slip up and take hands and turn down between the 1st
+%% Cu. and so lead down between the 3d Cu. and cast up, and turn
+%% your own; the other Cu. do the same: This to the second Strain.
+%% [CCDM1]
+%%endtext
+%%sep 1 8 500

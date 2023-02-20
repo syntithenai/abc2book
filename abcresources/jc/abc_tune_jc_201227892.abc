@@ -1,0 +1,35 @@
+X: 11
+T: the Village Fete
+%R: reel
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Thompson "A Favourite Collection of Country Dances 1800", p.11
+F: https://deriv.nls.uk/dcn23/1205/2168/120521683.23.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for a US-letter/A4 page size.
+V: 1
+|:\
+BcdB G2G2 | efge d4 | gaba gdBG | BcdB GFED |\
+BcdB G2G2 | efge d4 | gfgf gdBG | cAGF G4 :|
+|:\
+[BD8]ABc B3A | [AD8]B^cA d2d2 | [BD8]ABc B3A | [AD8]B^cA d4 ::\
+[B2G2][B2G2][d2F2][d2F2] | [^c2G2][c2G2] [=c4A4] | BgdB cgec | BAGF G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+G2g2 B2B2 | c2c2 BcBA | G4 g4 | d4 z4 |\
+G2g2 B2B2 | c2c'2 bc'ba | b2d'2b2g2 | c'2d'2 g4 :|
+|:\
+gfga g3f | g2g2 f2f2 | gfga g3f | g2g2 f4 ::\
+g2g2 d2d2 | e2e2 f4 | g2g2 c'2c'2 | d'2d2 g4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st & 2d Cu: set & change sides .|.
+%% back again, lead down the middle up again :|.
+%% Cast off & Allemand :|:
+%%endtext
+%%sep 2 2 400

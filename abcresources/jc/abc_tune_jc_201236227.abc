@@ -1,0 +1,19 @@
+X: 21803
+T: CALIFORNIA HORNPIPE
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.2, 1885 p.180 #3
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The first e in bar 13 should probably be d.
+U: P=!crescendo(!
+U: p=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: C|
+L: 1/8
+K: D
+v((3AQBc |\
+qdc)dA (GF)ED | GEFD {F}EDB,A, | DFEG FAGB | Adce dfeg |\
+fdAF GFED | DEFD {F}EDB,A, | DFEG FAGB | (Ad)ce d2 :|
+|: v((3ABPc | pdc)df (ed)BA | (df)af (gf)ge | (dc)df (ec)Ac | (BA)^GB A2((3ABPc |\
+pec)df (ed)BA | (df)af (gf)ge | afge fdec | (Ag)fe d2 :|

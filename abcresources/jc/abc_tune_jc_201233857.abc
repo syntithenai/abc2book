@@ -1,0 +1,37 @@
+X: 20141
+T: INSTALLATION MARCH
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" 1843 p.14 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The rhythm of the final 2 even notes in voice 2 bar 13 is probably a typo; not fixed.
+N: Bar 11 voice 3 can't be done in ABC; it also has |cc cc [cA][cA] cc| in small notes (stems down).
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+G>G |\
+c2G>G G2c>d | e2c>c c2e>f | g2c2 (3(def)e2 | d2d>d d2G>G |\
+c2G>G G2c>d | e2c>c c2e>f | g2c>d e2d2 | c2c>c c2 :|
+|: z2 |\
+d2G>G G2d>e | f2G>G G2f>d | e2c>e ggfe | d2d>d d2G>G |\
+c2G>G G2c>e | d2G>G G2d>f | egcd e2d2 | c2c>c c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+E2E>E E2E>G | c2E>E E2c>d | e2E2 (3(Gcd)c2 | E2E>E E2z2 |\
+E2E>E E2E>G | c2E>E E2E>G | [e2c2]E>G c2G2 | E2E>E E2 :|
+|: z2 |\
+G2E>E E2E>G | d2E>E E2dE | c2G>c eedc | B2B>B B2z2 |\
+E2E>E E2Ec | G2E>E E2B>d | cGEG c2G2 | E2E>E G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+c2c>c c2e2 | c2c>c c2g2 | c'2c2 e2c2 | G2G>G G2z2 |\
+c2c>c c2e2 | c2c>c c2[g2e2] | c'2c2 g2G2 | c2c>c c2 :|
+|: z2 |\
+G2G>G G2g2 | G2G>G G2g2 | G2g2 G2g2 | G2G>G G2z2 |\
+c2c>c c2e2 | c2c>c c2g2 | c'2c2 G2G2 | c2c>c c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

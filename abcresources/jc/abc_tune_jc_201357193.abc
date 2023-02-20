@@ -1,0 +1,50 @@
+%%scale 0.75
+X: 1
+T: Scottish Pipe Strathpeys and Reels
+T: These are examples of lyrical pipe tunes.
+T: Arranged by Terry Traub for English Scottish Session, Pinewoods, July 8-12 2013
+P: Dalnahassaig
+C: Pipe-Major George S. MacLennan
+C: As played by Hamish Moore "Stepping on a Bridge" CD
+K: D
+M: 4/4
+L: 1/8
+|: "D"f2 e>d d<f A2|"D"f2 e>f d>fa>g|"D"f2 e>d d<fA>f|"Em"g2 e>g "A7"c>g (3efg :|
+|: "D"a2 f>a d>fA>f|"D"a2 f>a d>a "A7"(3efg|"D"a2 f>a d>fA>f|"Em"g2 e>g "A7"c>g (3efg :|
+
+X:1
+P: O'er the Bows to Ballindalloch
+C: Traditional pipe strathspey
+C: collected from Matt Petrie
+R: Strathspey
+M: 4/4
+K: D
+L: 1/8
+|: "D"a2 a>f "G"e>d"A"e<f|"D"a2 a>f "G"e>d B2|"D"a2 a>f "Bm"e>de<f|"G"A>Bd>f "A"B<d A2 :|
+"D"A>df>d "G"e>df>d|"D"A>df>d "G"e>d B2|"D"A>df>d "Bm"e>df>d|"G"A>Bd>f "A"B<d A2 |
+"D"A>df>d e>df>d|"D"A>df>d "G"e>d B2|"D"a2 a>f "Bm"e>de<f|"G"A>Bd>f "A"B<d A2 |]
+
+X:1
+P: The Glen Where the Deer Is
+C: from Jerry Holland bk 2, Hamish Moore "Stepping on a Bridge", Tannahill Weavers
+C: Published in the Ross Collection of 1886, and is possibly older.
+C: http://www.ceolsean.net/content/WRoss/WRoss_TOC.html
+R: reel
+M: 4/4
+K: D
+L: 1/8
+|: "D"d2 ag fefg|"D"ad d/d/d "A"cdef|"D"d2 ag fefg|"G"f2 ed "A"cA A/A/A :|
+|: "D"fd d/d/d "A"geeg|"D"fd d/d/d "A"cAAg|"D"fd d/d/d "A"geeg|"D"fded "A"cA A :|
+
+X: 1
+P: The Glass of Beer
+C: from Emerald Rae, 2010
+C: A common Irish/Scottish session tune for fiddle and flute, also played on pipes.
+C: Alternate names:  Johnny Maguire's, Listowell Lasses, McFadden's, Sean Ryan's
+C: Found in O'Neill's, possibly by John McFadden.
+R: Reel
+K: Bm
+M: 4/4
+L: 1/8
+|: "Bm"fB B/B/B fBaB|"Bm"fB B/B/B "A"eAce|"Bm"fB B/B/B fgfe|"D"dfaf "A"efde :|
+|: "D"dcde f2 fe|"D"defd "A"edBA|"D"d3 e fgfe|"D"dfaf "A"eA A/A/A :|

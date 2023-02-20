@@ -1,0 +1,18 @@
+X: 4011
+T: Charlie he's my Darling.  Original Set.
+%R: air
+B: Niel Gow & Sons "Complete Repository" v.4 p.1 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "SLOWLY"
+K: Dm
+% - - - - - - - - - -
+V: 1 staves=2
+~A, |\
+D>E FG A=BcA | G>FED ~C>D EC | D>E FG A=BcA | ([AF][GE])([FD][E^C]) [D3A,3F,3] :: d | cAAc ~d2f>d |
+cAA^c H[d2A2F2] ~=c>d | e>dc=B ABcA | [EG][FD][EC][D=B,] ~C>DEC | D>E FG A=Bc_B | ([AF][GE])([FD][E^C]) [D3A,3F,3] :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | d>^c de fgaf | efgG cGC2 | f>^c de f3g | a2A2 d2D :: z | [c'2a2][c'2a2f2] [d'4b4f4] |
+[a2f2][g2e2] H[f2d2] z2 | c>de2 fgaf | efgG cGC2 | !p!d>^c de f3g | a2A2 d2D :|

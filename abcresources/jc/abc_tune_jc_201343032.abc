@@ -1,0 +1,27 @@
+X: 1
+T: Take my Bitt
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #18 (10)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats adjusted to satisfy the "Each Strain twice" instruction.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+DEFG A2F2 | B2E2 G2B2 | DEFG A2F2 | B2G2 A2F2 |\
+G2B2 F2A2 | E2C2 C2E2 | fgaf efge | d2A2 F2A2 :|
+|:\
+f2d2 fgaf | e2c2 efge | f2d2 fgaf | f2d2 fgaf |\
+g2b2 f2a2 | e2c2 efge | fgaf efge | d2A2 F2A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+%% The 1st Cu. Back to Back with the 2d Cu. and turn 
+%% Partners .| the 1st Cu. turn the 2d Cu. and turn their own .|
+%% Meet set all four and turn single, and clap Hands all
+%% four round .| the 1st Cu. go the Figure thro the 2d Cu.
+%% and cast off, and turn their own Partners :|
+%%endtext
+%%sep 1 8 500

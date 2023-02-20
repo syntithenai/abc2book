@@ -1,0 +1,27 @@
+X: 25
+T: the Irish Lilt
+%R: jig
+B: "The Hibernian Muse" p.15 #2
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: There's a final repeat symbol, but no indication of how much to repeat.
+P: No. XXV.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A/G/ |\
+FDD D2F | GEE E2c | dcB ABG | FDD D2A/G/ |\
+FDD D2F | GEE E2c | dcB ABG | FDD D2 |]
+d/e/ |\
+fef def | ede cde | dcd Bed | cAA A3 |\
+BAB GAB | AGA FGA | GFG EAG | FDD D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d3 f3 | e3 A3 | B2G A2A | d3 D2z |\
+d3 f3 | a3 A3 | B2G A2A | d3 D2 |]
+z |\
+d'3 d3 | a3 A3 | d3 e3 | a3 A3 |\
+g3 e3 | f3 d3 | g3 a3 | d3 D2 :|

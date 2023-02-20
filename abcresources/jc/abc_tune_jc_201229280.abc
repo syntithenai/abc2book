@@ -1,0 +1,24 @@
+X: 1213
+T: Bung your Eye.   a Jig.
+%R: jig, air
+B: Niel Gow & Sons "Complete Repository" v.1 p.21 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+E |\
+ABA Tc2d | .e(.d.c) TB2A | GAG B2c | dge dBG |\
+ABA Tc2d | edc Bcd | e2A AB^G | A3 e2 :|
+|: B |\
+c>de/f/ g2a | gec gec | G>AB/c/ d2e | dge dBG |\
+c>de/f/ g2a | gec de^g | a2A AB^G | A3 e2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z |\
+a3 a3 | a3 e3 | g3 g3 | g3 g3 | a3 a3 | a3 A2B | c2d e2E | A3 A2 :|\
+|: z |
+c3 c'3 | c'3 c'3 | g3 g3 | g3 g3 | c'3 c'3 | c'3 b3 | a3 e3 | A3 A2 :|

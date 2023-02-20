@@ -1,0 +1,21 @@
+X: 1
+T:The Maid of the Mill
+M:6/8
+C:
+S:Bacon (RKS MSS)
+N:ending of A part rationalized
+H:abcTranscriber: Alex Boster <boster@acm.org>
+A:Ilmington
+O:English
+R:Jig
+P:${1}\over{2}$A(AB$^2$)$^4$A
+%P:A.(AB2)4.A
+K:G
+%I:speed 300
+P:A
+L:1/16
+ |: E2 | G4 G2 F2E2D2 | G4 G2 A2B2c2 | B3AG2 A4 F2 |1 G8-G2 :|2 G12 ||
+P:B
+L:1/16
+ d4 d2 d4 e2 | e4 e2 e4 e2 | g2f2g2 e2f2g2 | g8-g2 g2 |
+ e2e2e2 e4 d2 | d4 e2 d6 | g2f2g2 e2f2g2 | g12 |]

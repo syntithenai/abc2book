@@ -1,0 +1,22 @@
+X: 125
+T: Drmes Iz Pokuplja
+O: Croatia
+Z: Deborah Jones VIFD 2
+M: 2/4
+L: 1/8
+Q: 1/4=140
+K: F
+%%MIDI program 41
+%%MIDI bassprog 0
+%%MIDI chordprog 0
+|: "Bb" [B3d3][^cA]     |[B3d3][^cA]            |\
+   [B2d2][c2A2]         |[G2B2][F2A2]           |\
+   [G2B2][A2c2]         |[B2d2][c2_e2]          |\
+   [B2d2][A2^c2]        |[B4d4]                 :|
+|: "F" [A2c2][Ac][Bd]   |"C7"[G2B2][GB][FA]     |\
+   "F" [GB][Ac] [GB][FA]|"C7"[EG][FA] [GB][^G=B]|
+   "F" [A2c2][Ac][Bd]   |"C7"[G2B2][GB][FA]     |\
+   "F" [GB][Ac] [GB][FA]|"C7"[EG][EG][EG] z     :|
+|: "F"[Ac][^G=B][A2c2]  |"C7"[Bd][G=B] [A2c2]   |\
+   "F"[Ac][^G=B][A2c2]  |"C7"[Bd][G=B] [A2c2]   :|\
+   [A2c2][^G2B2]        |[A2c2][A2^c2]          |

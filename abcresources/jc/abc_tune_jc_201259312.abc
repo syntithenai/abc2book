@@ -1,0 +1,34 @@
+X: 1
+T: Calvin's Camp 2-Step
+C: Calvin Vollrath
+R: 2-step, polka, reel
+S: Fiddle Hell Online 2021-11-4
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% = = = = = = = = = =
+V: 1 staves=2
+"A7"[a2c2]z[ac] "A7"[a2c2]"A7"[a2c2] | "A7"[a2c2]"^tacet"z2 fgfe "^A"|:\
+"D"d2A2 (3BcBA2 | F2ef- fgfe |\
+d2A2 (3BcBA2 |"A7"{c}e4 efed |\
+c2A2 (3BcBA2 | g2{c}e2- efed |
+[1 (3cdcAc (3BcBA2 | "D"A4 fgfe :|\
+[2 "A7"c2Ac B2c2 | "D"d3d defg \
+"^B"|:\
+"D"a2f2 "B7"^d2ef | "Em"g2e2 B3f |\
+"A7"g2e2 cABc | "D"dcde fefg |
+[1 a2f2 "B7"^d2ef | "Em"g2e2 B3f |\
+"A7"g2e2 B2c2 | "D"{c}d3d defg :|\
+[2 (3abaf2 "B7"^d2ef !coda!| "Em"g2e2 B3f |\
+"A7"g2e2 B2c2 | "D"d2[eA-][f-A] fgf"^->A"e |]
+!coda![|"CODA" g2e2 B2zf | "A7"g2(3efe B2c2 | "D"d2z2 "D"[d2F2]z2 |] \
+y8 y8 y8 y8 y8 y8 y8 y8
+% = = = = = = = = = =
+V: o2
+z8 | z8 |: z8 | z8 | z8 | z8 | z8 | z8 |\
+|[1 z8 | z8 :|2 z8 | z3G GABc
+|: d2A2 F2GA | B2G2 D3A | B2G2 ECDE | F=F^F^G AGAc |
+[1 d2A2 F2GA | B2G2 D3A | B2G2 F2G2 | {G}A3F GABc :|
+[2 (3dedA2 F2GA | B2G2 D3A | B2G2 D2E2 | F2z2 "^->A"z4 |]
+[| B2G2 D2zA | B2(3GAG F2G2 | A2z2 [A2D2]z2 |]

@@ -1,0 +1,17 @@
+X: 1
+T: Saut du lapin
+M: C|
+L: 1/8
+R: reel
+K: G
+|:\
+"G"BcBA GFGB | "G/B"d2 "A#dim"BG "Am"[AD]z2A |\
+"Am"ABcB ABcd | "D"e2 f2  "A#dim"~e2 d2 |
+"G"BcBA GFGB | "G/B"d2 "A#dim"BG "Am"[AD]z2A |\
+"Am"ABcB ABcd |1 "D"eAfA "G"[g2B2]z2 :|2 "D"eAfA "G"[g3B3] g ||
+|:\
+"G"gdBG "G/F#"d2 ef | "G/E"gdBG "G/D"d3 D |\
+"D"FdDd FdDd | FdDd Bdef | 
+"G"gdBG "G/F#"d2 ef | "G/E"gdBG "G/D"d3 D |\
+"D"FdDd FdDd |1 eAfA "G"[g3B3] g :|2 eAfA "G" [g2B2] z2 |]
+% text 05/22/10

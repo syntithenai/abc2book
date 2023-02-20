@@ -1,0 +1,18 @@
+X: 1
+T: Auld Adam
+C:
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Amix
+cd "A"|\
+"A"e2e cAc | "A"efg "D"f2e | "A"c2c cAc | "A"edc "E"Bcd |\
+[1 "A"e2e cAc | "A"efg "D"f2e | "A"c2e "G"dcB | "A"A3 A2 :|
+[2 "A"c2A A2A | "D"dcd "E"e2a | "A"c2e "G"dcB | "A"A3 A2 \
+|: e "B"|\
+"A"A2A cBB | "A"cAc "D"efa | "A"c2c cAc | "A"edc "E"B2e |
+"A"A2A cBB | "A"cAc "D"efa | "A"c2e "G"dcB | A3 A2 :: g "C"|\
+"F#m"agf "Em"gfe | "D"fed "A"e3 | "A"Ace efg |"G"B<GB dcB |
+[1 "D"agf "Em"gfe | "Bm"fed "A"e2a | c2e "G"dcB | "A"A3 A2 :|\
+[2 "A"A2A cBB | "A"cAc "D"efa | "A"c2e "G"dcB | "A"A3 A2 |]

@@ -1,0 +1,22 @@
+X: 5
+T: Two for One
+%R: jig
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1765", London 1765, p.3 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1765#
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+g/a/ |\
+bgg g2b | afd d2e/f/ | gfe dcB | ABc BAG |\
+bgg g2b | afd d2g | fed Ad^c | d3 D2 :|
+|: B/c/ |\
+dBc dge | dcB c2A/B/ | cAB cde | edc B3 |\
+BGA Bcd | egf g2c | BAG DGF | G3- G2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The first Cu: cross over and turn .|. cross over the 3d
+%% Cu: and turn :|. cast up and hands four round with the
+%% top Cu: .|: lead out sides :|:
+%%endtext

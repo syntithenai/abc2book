@@ -1,0 +1,39 @@
+X: 21303
+T: ITALIAN SETT (tune 3)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.130 #3 (and top staff on p.131)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+a |\
+a^ga aga | f2d dcd | e2e efg | b2a afg |\
+a^ga aga | f2d dcd | egf edc | dAf d2 H|]
+A, |\
+DD/D/D DA,D | FF/F/F FDF | AA/A/A AFD | A,A,A, A,2c/d/ |\
+e3- efe | b3 bge | d2d cBc | (e3 "^D.C."d2) |]
+f |\
+B3 BcB | d3 dcB | dcB dcB | ^ABc F2F |\
+G2F B2F | G2F B2G | F2E D2C | A,3- "^D.C."A,2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two ladies forward and back,
+%% gentlemen the same,
+%% balance four.
+%% [Below 1st staff]
+%%endtext
+%%begintext align
+%% All chassa across,
+%% turn on corners,
+%% back, &c.,
+%% balance to corners,
+%% turn partners,
+%% sides the same.
+%% [Below 3rd staff]
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

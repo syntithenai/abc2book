@@ -1,0 +1,20 @@
+%Scale the output
+%%scale 1.0
+X:1
+T:Simple Gifts - #56
+C:Shaker Tune
+M:4/4 %(3/4, 4/4, 6/8)
+L:1/8 %(1/8, 1/4)
+%V:1 treble clef
+K:D %(D, C)
+|"A7"A,A,|"D"D2 DE "Bm"FD FG|"F#m"A2 AG "Bm"F2 ED|"Em"E2 E2 "A7"E2 D2
+w:Tis the gift to be sim-ple, 'tis the gift to be free, "Tis the gift to come down
+|"Em"EF EC "A7"C2 A,2|"D"DC DE ("Bm"FD) FG|"F#m"A2 (AG) "Bm"F2 ED
+w:Where we ought to be. And when we find our-selves_ in the place just_ right, it will
+|"Em"E2 EE "A7"F2 FE|"G"D2 DD "D"D4|"D"A4 "Bm"F3 E|"D"FG FE ("Bm"D2-D)E
+w:be in the val-ley of love and de-light. When true sim-pli-ci-ty is gained,_ to
+|"D"F2 FG "Bm"A2 GF|"Em"E2 EF "A7"E2 A,2|"D"D2 DE ("Bm"FD) (FG)
+w:bow and to bend we will not be a-shamed. To turn and to turn_ will_
+|"D"A2 "A7"AG "D"F2 ED|"Em"E2 E2 "A7"F2 FE|"G"D2 D2 "D"D2||
+w:be our de-light, 'Til by turn-ing, turn-ing we come 'round right.
+

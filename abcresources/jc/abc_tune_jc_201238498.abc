@@ -1,0 +1,27 @@
+X: 30903
+T: COTILLION No. 7. BLACKSTONE SETT tune 3
+N: This set isn't named on its first page (90), but its name is in the index at the end of the book.
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.90 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The rhythms between the strains don't match; fixed by adding an inial "pickup" rest to strain 2.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(3(cde) |\
+fcgc bag2 | ecgc agf2 | FAcf Acfa | gfed c2(3cde |\
+fcgc bag2 | ecgc agf2 | FAcf Acfa | gceg f2 H|]
+z2 |\
+fca2 fca2 | gcb2 gcb2 | fca2 fca2 | bagf edcB |\
+fca2 fca2 | gcb2 gcb2 | ABcd efga | f2ag "^D.C."f2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 back to back,
+%% balance,
+%% and turn partners,
+%% forward next 2, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

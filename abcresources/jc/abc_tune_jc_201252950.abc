@@ -1,0 +1,26 @@
+X:1
+T: Black Boy Alley
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:Em
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 40 notes)
+K:Em
+M:6/8
+L:1/16
+B4 G2 F4 E2 G2 B2 e2 B2 G2 E2 B4 G2 F4 E2 B4 E2 ^D4 B,2 |B2 e f g2 A4 G2 F2 d e f2 G4 F2 E2 A B c2 B4 A2 G2 A2 F2 E6 |
+%W: A2
+% voice 1 (1 lines, 40 notes)
+B4 G2 F4 E2 G2 B2 e2 B2 G2 E2 B4 G2 F4 E2 B4 E2 ^D4 B,2 |B2 e f g2 A4 G2 F2 d e f2 G4 F2 E2 A B c2 B4 A2 G2 A2 F2 E6 |
+%W: B
+% voice 1 (1 lines, 38 notes)
+G4 B2 d4 D2 G2 B2 d2 d2 B2 G2 A4 c2 f4 A2 ^G2 B2 e2 e2 B2 G2 |^A4 c2 f4 e2 d2 ^c2 B2 c2 B2 ^A2 B2 ^c2 d2 e2 f2 g2 ^c6 B6 |
+%W: C
+% voice 1 (1 lines, 40 notes)
+B4 G2 F4 E2 G2 B2 e2 B2 G2 E2 B4 G2 F4 E2 B4 E2 ^D4 B,2 |B2 e f g2 A4 G2 F2 d e f2 G4 F2 E2 A B c2 B4 A2 G2 A2 F2 E6 ||

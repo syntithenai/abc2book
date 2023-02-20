@@ -1,0 +1,15 @@
+X: 250
+T: the Maid of Selma   #2
+R: jig
+%S: s:2 b:19(10+9)
+B: O'Neill's 1850 #250
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: "Gaily"
+M: 6/8
+L: 1/8
+K: G
+"^A"|: (G2E) (EDE) | G3 (g2e) | (d2B) [1 (BAG) | .A.B.A (A2B) :|[2 .B.A.G | A3 G3 \
+"^B"|: d3 (gfg) | e3 (dcB) | (d2e) [1 (g2a) | (b2e) e2z :|
+    [2 (g2b) | a3 (g2a) \
+"^C"[| (b2e)  (efg) | (f2d) d3 | (e2B) (~BAG)  | (A2E) E3 ||\
+       (G2E) (~EDE) |  G3   g3 | .e.d.B .B.A.G |  A3   G3 |]

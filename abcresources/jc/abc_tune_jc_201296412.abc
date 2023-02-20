@@ -1,0 +1,20 @@
+
+X: 1
+T: Ketri Ketri
+O: Hungarian Gypsy
+Z: Lyuben Dossev http://www.dunav.org.il/balkan_music_scores.html
+M: 4/4
+L: 1/8
+%Q: 1/4=100
+%%slurgraces
+K: Dm
+P:Instr.
+[| z2 FG AA/B/ AG | FG GF D3 D | zD FG AA/B/ AG | FGGF D3 D |
+| zD FE F2 F2 | z2 FE {F}G2 F2 | z F2 E FG _E2 | D8 | z8 |]
+P:Vocal variants:
+[| {G}A2 AG A G2 F | FG GF E2 D2 | z2 AG A G2 F | FG GF E2 D2 |
+| z F2 E G2 F2 | z F2 E FG F2 | z F2 E FG _E2 | D2 _E2 {DC}D4- | D8 | z8 |]
+[| z2 FG A A2 G | FG GF E2 D2 | z2 FG A A2 G | FG GF E2 D2 |
+| z2 DE {F}G2 F2 | z2 FE {F}G2 F2 |  z2 FD FG _ED | D2 D2 D4- | D4 z4 |]
+[| z2 AG A G2 F | FG GF E2 D2 | z2 AG A G2 F | FG GF E2 D2 |
+| z2 FE FG F/E/F | F2 FE FG {E}F2 | z F2 E FG _E2 | D8- | D4 z4 |]

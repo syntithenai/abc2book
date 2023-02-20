@@ -1,0 +1,17 @@
+X:31
+T:Simon Brodie
+R:reel 60=6*2+8*2+6*2+10*2
+S:Robert Riddell, 1794, Collection of Scotch, Galwegian and Border Tunes
+S:Flos Headford <flos:madasafish.com> tradtunes 2010-5-29
+M:4/4
+L:1/16
+%Q:2/4=70
+K:Eaeolian
+|:E2G2B2E2 F2D2 FGAF|G2E2B2E2 e2E2B2E2|\
+E2G2B2E2 F2D2 FGAF|G2E2B2E2 e2E2G2B2|\
+d2d2 edcB A2D2F2A2|E2E2G2E2 B2E2G2B2:|]
+|:(E2G2B2)(G2 F2)A2D2A2|G2E2B2E2 ^d2E2e2B2|\
+(def2) B2d2 F2D2A2F2|G2E2B2E2 e2B2e2f2|\
+g2a2g2e2 f2d2 fgaf|g2e2b2e2 g2e2 bagf|
+e2b2g2b2 f2d2 fgaf|g2e2b2e2 agfe d2f2|\
+(AB^c2)d2B2 A2D2 BAGF|E2G2B2E2 e2E2G2B2:|]

@@ -1,0 +1,17 @@
+X:756
+T:Twenty Years' Waltz
+L:1/4
+M:3/4
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=114
+%%MIDI ratio 3 1
+K:G
+[| B/A/ | "G"G>AB | "Em"g>fe | "G"dB"C"c | "G"dG2 |\
+"G"d>cB | "D"ADF | "G"GB/c/ d/e/ | "D7"d>c B/A/ |
+"G"G>AB | "C"cde | "G"dgd | "Em"e/f/g2 |\
+"G"b/g/e/d/"C"e/f/ | "G"gB "C"c | "D/F#"dba | "G"g2"D/F#"f |
+"Em"e2e | "Em"B>AB | "Em"e2e/f/ | "Em"g>fe |\
+"B7"^d2d | "B7"B>^d"Em"e | "B7"f>e^d | "Em"e2 "C"c |
+"Em"Be "D"a | "G"bb/a/g | "D/F#"aa/g/f/g/ | "D"afd/c/ |\
+"G"BB/c/ d/e/ | "D/F#"df"G"g | "D7"aa/g/f | "G"g2 |]

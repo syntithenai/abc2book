@@ -1,0 +1,24 @@
+X: 10922
+T: MY APRON DEARIE
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.92 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Added missing beam in 1st beat of bar 6, to match bars 2,10, etc.
+M: 3/4
+L: 1/8
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(F>G) |\
+B2(f>e)(d>c) | (Bc/d/) F2G2 | _A3 cBA | (_A2G2)F>G |\
+B2 f>ed>c | (Bc/d/)F2G2 | (BA)(Bc)(de) | f4 d>e |
+(de/f/) (ed)(cB) | (Bc/d/) F2G2 | _A3 (cBA) | (_A2G2) (3(FGB) |\
+(GF)(ED) (EF/G/) | {G}F4 d>e | (d/e/f) (ed)(ec) | B4 :|
+|: d>e |\
+(de/f/) (e>d)(c>B) | e2e2d2 | (c>B)(AB)(cd) | e4 (d>e) |\
+(de/f/) (ed)(cB) | e2f2 (ga/b/) | (gf)(ed) (ef/g/) | f4 (fg/a/) |
+(ba)(gf)(ed) | e3f (ef/g/) | G2(ed)(cB) | (B2A2) (GA/B/) |\
+(GF)(ED) (EF/G/) | (G2F2) d>e | (de/f/) (ed)(ec) | B4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

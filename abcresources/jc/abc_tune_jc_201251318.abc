@@ -1,0 +1,26 @@
+X:9
+T:Beckerman's Hora
+Z:Jack Campin, http://www.campin.me.uk
+F:http://www.campin.me.uk/Music/EdinburghKlezmer.abc
+S:S.Beckerman 1923, arr Budowitz 1997
+M:3/4
+L:1/8
+Q:3/4=55
+K:DPhr
+ D3 E ^FG|    A4          A<d|     A3d ^cd| A4              A2   |
+~B4    AG|({G}A4)         G^F|({^F}G4)  FE|^F2      G2      A2   |
+ D3 E ^FG|    A4"^gliss"yyd2 |     A3d ^cd| A4             [F2A2]|
+^FG2z  G2|    G3 ^F/G/    AG |[1   F6-    | Fz (3::2A,2B, (3CDE :|\
+                              [2   F6    ||
+K:DMin
+|:z3      D FA| ^c d3       d2    | d3 f   ed |=B    c3 c2|
+  c/d/ c2 B AG|  F3      C  FA    | G3 A (3BAG| A/B/ A3 z2|
+  z3      D FA| ^c d3       d2    | d3 f   ed |=B    c3 c2|
+  c3      B AG|(^F2{A}) z2 (F{A})z|_E3 D   EC | D6       :|
+K:DPhr
+|:z3      A, DE|\
+  E ^F3      F2|^F3D F/D/F/A/|  (G2{B}) z2      (G2{B})|  G3  B AG  |
+  E ^F3      F2|^F3D F/D/F/A/|   G2     z2 (3::2^c2d   |~^c3  B AG  |
+  D ^F3      F2|^F3D F/D/F/A/|  (G2{B}) z2      (G2{B})|  G2 zB AG  |
+(^F2{A}) z2  FA| E3D EC      |[1 D4              z2   :|\
+                              [2 D6-                   |  D2 z2 A,2|]

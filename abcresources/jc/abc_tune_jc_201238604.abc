@@ -1,0 +1,24 @@
+X: 3101
+T: a Skye Air
+O: Very Old
+%R: air, strathspey
+B: Niel Gow & Sons "Complete Repository" v.3 p.10 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Very slow"
+K: G	% Ending on Em
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+d<d TB>A Bd e2 | g>d e2 TB>A G2 | d<d TB>A B>d e2 | ~G2 (B/A/)G/F/ BE [E2B,2G,2] || d<d TB>A B>d e2 |
+g>d {d}e2 TB>A G2 | "_Exp."A>B g2 (g/f/e/)^d/ {d}e2 | !p!G2 (B/A/)(G/F/) BE E2 ::\
+[e2G2] [eG][^dF] [e2G2] [eG][^dF] | e>f g2 TB>A G2 | [d2A2] dB (d2 e2) |
+G2 (B/A/).G/.F/ BE [E2B,2G,2] || {D}d2 {e}d>B {D}d2 d>B | (d2 e2) TB>A G2 |\
+AB {B}g2 (g/f/)(e/^d/) {d}He2 | G2 (B/A/)(G/F/) BE [E2B,2G,2] :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g3f gBc2 | B2c2 Gdg2 | g2gf gfe2 | (E/F/)G/A/ BB, EeE2 || F2G>F GBc2 |
+B2c2 d^de2 | "_Exp."fge2 B2E2 | !p!(E/F/)(G/A/) BB, E2E2 :: e2eB e3B | e4 Gdg2 | f2g2 (B2c2) |
+B>G BB, E2E2 || [f2F2][g2G2] [f2F2][g2G2] | (B2c2) d^de2 | fge2 B2 HE2 | (E/F/)(G/A/) BB, E2e2 :|

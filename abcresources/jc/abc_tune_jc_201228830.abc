@@ -1,0 +1,24 @@
+X: 11684
+T: the ODD FELLOWS' MARCH
+%R: march, hornpipe
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.168 #4 (and p.169 #1)
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Trailing grace notes in bars 8,20 moved to after the bar line, for ABC software that doesn't accept such notation.
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+e2e>e e2d>d | c2c>c c2B>A |\
+A2(3(ABc) B2(3(Bcd) | c2c>c c2B>c |\
+d2c>d e2d>c | d2(3(def) e2d2 |\
+(3(cBc) (3(dcB) A2B2 |{AB} A2A>A A2z2 :|\
+|:\
+e2B>B B2c2 | B>AB>c B2c2 |
+d2c2 B2A2 | B2B>B B2c>d |\
+e2c>d e2f>d | e2c>d e2f>d |\
+e>cd>B (3(cBA) (edc) | B2B>B B2E2 |\
+A2(3(ABc) B2(3(Bcd) | c2(3(cde) d2(3(def) |\
+(3(eag) (3(fed) c2B2 |{AB} A2A>A A2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

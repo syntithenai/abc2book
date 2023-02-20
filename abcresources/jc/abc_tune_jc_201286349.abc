@@ -1,0 +1,51 @@
+%%center Polka set: Highland Laddie + Old Grey Cat + Dressed Ship
+
+
+X: 1
+T: Highland Laddie
+O: Scotland
+R: reel
+S: Fiddle Hell Online 2021-10-29
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|:\
+"G"G3A B2d2 | "C"cBAG "G"B4   |  "D"B2A2 A2GA | B2A2 A2B2 |
+"G"G3A B2d2 | "C"cBAG "G"BcBA | "Em"G2E2 E2DE | G2E2 E4  :|
+|:\
+"C"efg2 "G"d2e2 | "C"cBAG B4   |  "D"B2A2 A2GA | B2A2 A2d2 |
+"C"efg2 "G"d2e2 | "C"cBAG BcBA | "Em"G2E2 E2DE | G2E2 E2d2 :|
+
+
+X: 2
+T: Old Grey Cat
+R: reel
+S: Fiddle Hell Online 2021-10-29
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Em
+|:\
+"Em"B2B2 E3F | GFGA BABc | "D"d2d2 D3E | FAdB AFED |
+"Em"B2B2 E3F | GFGA BABc | "D"dcBA BAGF | "Em"E4 E3A :|
+|:\
+"Em"B2e2 e3d | Bdef gfed | "D"A2d2 d3B | ABde fedf |
+"Em"e2B2 "G"g2B2 | "A"a2B2 "B"b3a | "Em"gfed "D"BABd | "Em"e4 e4 :|
+
+
+X: 3
+T: Dressed Ship
+R: reel, polka
+S: Fiddle Hell Online 2021-10-29
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+|:\
+"A"c2A2 E2c2 | "D"d4      def2 | "A"e2c2    a2c2 | "E"d2B2 B2ed |
+"A"c2A2 E2c2 | "D"def2 "A"e2a2 | "D"f2d2 "E"B2e2 | "A"c2A2 A4  :|
+|:\
+"A"a2e2 c2A2 | "D"fgaf "A"e2c2 | "D"d2f2 "A"e2c2 | "E"d2B2 B2fg |
+"A"a2e2 c2A2 | "D"fgaf "A"e2c2 | "D"d2f2 "E"B2e2 | "A"c2A2 A4  :|
+

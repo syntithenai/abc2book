@@ -1,0 +1,23 @@
+X: 1
+T: Nancy
+T: Nancy Clough's March
+C: Tom Clough (1930s)
+N: Called just "Nancy" by composer Tom Clough (1881-1964), who played the Northumbrian Small Pipes.
+N: There are also several other unrelated tunes called "Nancy".  This Nancy was Tom's first wife.
+N: from thesession.org, arr. Terry Traub 2007-5-3, modified by John Chambers to better match the CSSS version
+M: 4/4
+L: 1/8
+R: reel
+K: D
+|: (3ABc \
+| "D"d2D2 F2A2 | d2fe     d2A2 |    d2ef "G"gfed | "A"c2e2 A2Bc \
+| "D"d2D2 F2A2 | d2fe "Bm"d2A2 | "G"B2g2 "A"fedc | "D"d6 :|
+|: fg \
+| "D"a3b  a2f2 | "G"g3a "A7"g2e2 | "D"f2d2 "G"gfed | "A"c2e2 A2Bc \
+| "D"d2D2 F2A2 |   d2fe "Bm"d2A2 | "G"B2g2 "A"fedc | "D"d6 :|
+|: (3ABc \
+| "D"dcBA GFED | F2A2 d2A2 | "D"dcdf "G"gfed | "A"cdec A2Bc \
+| "D"dcBA GFED | F2A2 d2cd | "G"B2g2 "A"fedc | "D"d6 :|
+|: fg \
+| "D"aAaf a2gf | "G"gfge "A7"g2fe | "D"fdfa "G"gfed | "A"cdec A2Bc \
+| "D"dcBA GFED |    F2A2 "Bm"d2cd | "G"B2g2 "A"fedc | "D"d6 :|

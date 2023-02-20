@@ -1,0 +1,13 @@
+X: 305
+T:Papuselle
+O:Romania
+M:12/8
+L:1/8
+Q:1/4=200
+K:FDor
+%%MIDI gchord f2zf2zfzf2z2
+%%MIDI beatstring fppmppmpmpmp
+|  "F"z12                 |"F"z12          |
+|: "F"F2EF2EFGA2G2        | F2EF2EFGA2G2   | F2EF2EFGA2G2       |F3c3F2F4 :|
+|: "Eb"B2A"Eb"B2A"F"BAG2F2| "F"F2EF2EFGA2G2| "Eb"B2AB2A"F"BAG2F2|F3c3F2F4 :|
+|: "F"f3c3=A2G2F2         |F3c3=A2c4       | f3c3=A2G2F2        |F3c3F2F4 :|

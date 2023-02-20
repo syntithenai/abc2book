@@ -1,0 +1,26 @@
+X:1
+T: As I roved out one morning
+N:
+C: Play  3  times
+S:
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 17 notes)
+K:Am
+M:4/4
+L:1/16
+E4 |A4 e4 d4 g4 |e6 d2 e4 A4 |B2 c2 d2 e2 c6 B2 |A12 E4 |
+%W: A2
+% voice 1 (1 lines, 17 notes)
+A4 e4 d4 g4 |e6 d2 e4 A4 |B2 c2 d2 e2 c6 B2 |A12 B2 c2 |
+%W: B1
+% voice 1 (1 lines, 30 notes)
+d4 e2 d2 c6 d2 |e4 g2 f2 e4 d4 |c12 c4 |g4 e4 a4 g2 ^f2 |e4 ^d4 e4 A4 |B2 c2 d2 e2 c6 B2 |A12 B2 c2 |
+%W: B2
+% voice 1 (1 lines, 28 notes)
+d4 e2 d2 c6 d2 |e4 g2 f2 e4 d4 |c12 c4 |g4 e4 a4 g2 ^f2 |e4 ^d4 e4 A4 |B2 c2 d2 e2 c6 B2 |A12 ||

@@ -1,0 +1,24 @@
+X: 09001
+T: ALICE'S HORNPIPE
+C: Bob McQuillen 14 Oct 92
+B: Bob's Note Book 9 #1
+%R: hornpipe, reel
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+FG \
+| ABAG FAdf | abag f2fd | B2GB AFAd | fedf e2FG |
+| ABAG FAdf | abag f2dA | Bdge ceag | f2d2 d2 :|
+K: A
+|: cd \
+| e2ef ecAB | cBcd c2dc | BAGF EGBd | fe^de cAc=d |
+| e2ef ecAB | cBcd e2dc | BAGF EGBd | B2G2 G2 :|
+%%begintext align
+%% Alice Backer is one of
+%% my Mother's Day friends (there are several more
+%% of them in this book) because that's when I'll see her
+%% next. She will arrive at camp in a motor-cycle
+%% side-car playing her fiddle as always; it will be so
+%% good to see her again and have a few tunes together.
+%%endtext

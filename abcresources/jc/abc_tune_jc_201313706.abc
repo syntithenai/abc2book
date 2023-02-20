@@ -1,0 +1,26 @@
+X:1
+T: Mr. Chopin's Waltz
+N:
+C:Chopin
+S:
+A:
+O:
+R:
+M:3/4
+K:Em
+I:speed 150
+%W: A
+% voice 1 (1 lines, 32 notes)
+K:Em
+M:3/4
+L:1/16
+B,4 |E2 F2 G4 G4 |A2 B2 c8 |F2 G2 A2 e2 d2 c2 |B2 ^A2 B8 |E2 F2 G4 G4 |A2 B2 c8 |F2 G2 A2 e2 d2 F2 |G8 B,4 |
+%W:
+% voice 1 (1 lines, 30 notes)
+E2 F2 G4 G4 |A2 B2 c8 |F2 G2 A2 e2 d2 c2 |B2 ^A2 B8 |G2 A2 B4 B4 |c2 d2 e8 |d4 ^c2 d2 a2 =c2 |B8 B4 |
+%W: B
+% voice 1 (1 lines, 39 notes)
+B2 ^c2 ^d2 e2 f2 g2 |f2 e2 B2 f2 e4 |e2 ^d2 B2 c2 B4 |B2 G2 E2 F2 E4 |B,2 ^D2 F2 B2 ^d2 f2 |f2 e2 B2 f2 e4 |e2 ^d2 B2 b2 b4 |e8 B4 |
+%W:
+% voice 1 (1 lines, 38 notes)
+B2 ^c2 ^d2 e2 f2 g2 |f2 e2 B2 f2 e4 |e2 ^d2 B2 c2 B4 |B2 G2 E2 F2 E4 |B,2 ^D2 F2 B2 ^d2 f2 |f2 e2 B2 f2 e4 |e2 ^d2 B2 b2 b4 |e8 ||

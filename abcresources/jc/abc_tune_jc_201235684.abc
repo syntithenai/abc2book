@@ -1,0 +1,32 @@
+X: 21301
+T: ITALIAN SETT (tune 1)
+C:
+%R: reel, march
+B: Elias Howe "The Musician's Companion" 1843 p.130 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="1"
+aa |\
+(af).f.f (fd).d.d | (dA).A.A (Aa).a.a | (af).f.f ^efgf | ^defe e2bb |\
+(bg).g.g (ge).e.e | (eB).B.B (^AB=cB) | (gA).A.A (^GABA) | [d2A2][f2c2A2][d2A2] H|]
+de |\
+f2g2 f2e2 | d2a2 g2f2 | e2b2 a2g2 | f2A2 d2e2 |\
+f2g2 f2e2 | d2a2 g2f2 | e2b2 a2g2 | faaa aaa"^D.C."a |] [K:=c]
+K: G
+d2 |\
+d3^c c2d2 | d4 B2b2 | ^g2a2 e2a2 | f2g2 d3d |\
+d3^c c2d2 | d2e2 f2g2 | a2b2 c'2f2 | a2g2"^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First four forward and back,
+%% chassa across four and back,
+%% balance four and turn,
+%% ladies chain,
+%% promenade four.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,20 @@
+X: 10811
+T: SHE ROSE AND LET ME IN.
+Q: "Slow."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.81 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Em
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(G>F) |\
+E2(B>c) B2e2 | ^d3^c B2=c2 | B2(A>G) (F>G)(AG) | (G2F2) z2G>F |\
+E2(B>c) B2e2 | ^d3e f2 B>c | B2f2 (gf)(e^d) | {d}e6 :|
+|: (e>f) |\
+g2(f>e) {e}^d2(^cB) | (e>^d)(ef) g2B2 | (A>c)(B>A) (G>B)(A>G) | (G2F2) z2(ef) |\
+(g>f)(g>e) (^d>^c)(dB) | (e>^d)(ef) g2B2 | A3G A2(B^d) | e6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

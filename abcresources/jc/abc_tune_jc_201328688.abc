@@ -1,0 +1,16 @@
+X: 1
+T: a Recent Fall
+C: David Kaynor July 2015
+%D:2015
+S: https://natunelist.net/a-recent-fall/
+N: The source has K:G, but that's obviously wrong.
+M: 6/8
+L: 1/8
+R: Jig
+K: Em
+"^A"[|\
+EFE EB,E | EFE EB,E | EFE G2A | B3 B3 | ABA AEA | ABA  AEA | ABA ABc | B3 B3 ||
+EFE EB,E | EFE EB,E | EFE G2A | B3 B3 | ABA AEF | G2B, EGA | BcB AGF | (E3 E2)B |]
+"^B"[|\
+cea aec | cea a2f | geB G2A | B3 B2G | ABA AEG | ABA  AEG | ABA ABc | B3 B3 ||
+cea aec | cea a2f | geB G2A | B3 B3  | ABA AEF | G2B, EGA | BcB AGF | E3 E3 |]

@@ -1,0 +1,22 @@
+X: 114204
+T: CABER FEIGH.
+Q: "Reel."
+R:  Reel.
+%R: reel
+B: James Kerr "Merry Melodies" v.1 p.14 s.2 #4
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: C
+uG |\
+c2ed c2GB | c2GF (EC)CA |\
+defe d2(A^c) | d2AG (FD)DB |\
+c2ed c2GB | c2GF (EC)CE |\
+DEFG ABcA | {^c}d2AG (FD) D |]
+uf |\
+ecgc acgc | ecgc ecce |\
+fdad bdad | fgag fddf |\
+ecgc acgc | GAcd eccg |\
+afge fde^c | d2AG (FD) D |]

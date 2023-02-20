@@ -1,0 +1,39 @@
+X: 1
+T: Gergebunarsko Horo
+R: pravo
+O: Bulgaria
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 6/8
+L: 1/8
+K: DMix
+"A"
+|: "D"d3   e2f | g2e  f2d |    g2f fef |    d3- d2A |\
+  "Dm"e2A =f2A | g2=f e2d | "C"c2d e2c | "Dm"d3 z3 :|
+K:Dm
+"B"
+|: "Dm"e2A f2A | g2f e2d | "C"c2d e2c | "Dm"d2d A3 |\
+       e2A f2A | g2f e2d | "C"c2d e2c | "Dm"d3 z3 :|
+K:DMix
+"C"
+|: "D"g-a2 a3 | age f3 | a2a "C"e2c | "D"d2e f2d |\
+      g-a2 a3 | age f3 | a2a "C"e2c | "D"d3 z3 :|
+"D"
+|: "D"gaa aaa | age f3 | a2a "C"e2c | "D"d2e f2d |\
+      gaa aaa | age f3 | a2a "C"e2c | "D"d3 "fine"z3 :|
+K:C
+"E"
+|: "C"efg fed | c2c c2c | efg fed | c2G c3 |\
+      efg fed | c2c c2c | efg fed | c3 z3 :|
+K:Dm
+"F"
+|: "Dm"efg fed | g2g d2d | fz2    e2d | g2g d3 |\
+       efg fed | g2g d2d | f2d "C"e2c | "Dm"d3 z3 :|
+K:E
+"G"
+|: "E"efg a2b | agb f2e | efg a2b | agb f2e |\
+      efg a2b | agb f2e | efg a2b | agb f2z :|
+K:A
+"H"
+|: "A"cz2 fee | c2e B2A | cz2 fee | c2e B2A |\
+      cz2 fee | c2e B2A | cz2 fee | c2z "da Capo"B2z :|
+

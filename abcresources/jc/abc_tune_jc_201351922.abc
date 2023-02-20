@@ -1,0 +1,17 @@
+X: 484
+T: Where Are You Going Love?   #2
+N: Irish title: ca ra.cai.d tu a .gra.d?
+R: air, waltz
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #484
+O: J.O'Neill
+Z: henrik.norbeck@mailbox.swipnet.se
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+Q: "Moderate"
+M: 3/4
+L: 1/8
+K: G
+ d gf "^A"| g2 ag (f{a}g/e/) | d>B [1 GD (G/A/B/).d/ | (c>A) (F>A) GG | G3 :|[2 GA (B/d/f/e/) | (d>c) (A>F) GG | G3 |]
+"^B"[| (A/B/) cB | A>B cd .e/.f/.g/.b/ | a>f dd (e/f/g/).e/ | a2 (bg) ("~"fe) | d3 (e/f/) "^->A2"gf |]

@@ -1,0 +1,45 @@
+X: 10271
+T: MERRY ELVES -- Schottische
+C: By the Editor
+N: "Arranged by W. B. Laybourn" is crossed out.
+R: shottish
+B: K\"ohler's Violin Repository, v.1, 1885 p.27 #1
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|:\
+(vAf)f2 (Af)f2 | (Bg)g2 (c'2.b)z |\
+(Af)f2 f2{gf}e2 | Aee2 e2{fe}d2 |\
+(Af)f2 (Af)f2 | (Bg)g2 (c'2b)z |
+[1 (ed')^g2 (c'3b) | a2a2a2z2 :|\
+[2 (Ag)c2 (f3e) | d2d2d2z2 \
+[K:A]\
+|: c>(ea)>(c' a2)e2 | (e>^de2) (e>de2) |
+e>(gb)>(d' b2)e2 | (e>^de2) (e>de)>(=d |\
+c)>(ea)>(c' a2)e2 | e>(gb)>(d' b2)e2 |\
+Tg4 {^fg}e'3vg | a2a2a2z2 :|
+[K:D]\
+(Af)f2 (Af)f2 | (Bg)g2 (c'2b)z |\
+(Af)f2 (f2{gf}e2) | Aee2 (e2{fe}d2) |\
+(Af)f2 (Af)f2 | (Bg)g2 (c'2b)z |\
+(Ag)c2 (f3e) | d2d2d2z2 |]
+K: G
+P: Trio
+vD4 (B,DGA) | B4- B(GBc) |\
+d4- d(Bag) | (f4 e2)z2 |\
+vA4- A(Bcd) | f4- f(ed^c) |\
+e4- (ed^ce) | d4- d(BGE) |
+D4 (B,DGA) | B4- B(d^cd) |\
+e4- e(d^cd) | (a4 g2)z2 |\
+v=f4- f(e^de) | a4- a(a^ga) |\
+b4- b(dba) | g6 z2 |:[K:=f]
+v[ec][ec][e2c2] [ge][ge][g2e2] | [c'd][c'd][c'2d2] [b4d4] |\
+(ge')e'e' (e'd')c'b | (ba)^ga g^f=f2 |\
+[ec][ec][e2c2] [ge][ge][g2e2] | _bbb2 a4 |\
+d'd'd'c' c'b^ab | e'2d'2c'2z2 :|[K:G]
+vD4 (B,DGA) | B4- B(GBc) | d4- d(Bag) | (f4 e2)z2 |\
+vA4- A(Bcd) | f4- f(ed^c) | e4- e(d^ce) | d4- d(BGE) |
+D4 (B,DGA) | B4- B(d^cd) | e4- e(d=cd) | (a4 g2)z2 |\
+=f4- f(e^de) | a4- a(a^ga) | b4- b(dba) | g6 "_D.C."z2 |]

@@ -1,0 +1,26 @@
+X: 10421
+T: VICTORIA VALSE Part 1.
+C: Arranged by W. B. Laybourn
+R: waltz
+B: K\"ohler's Violin Repository, v.1, 1885 p.42 #1
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+u(AG) |\
+([F2A,2] [F2D2]) [F2D2] | ([F2A,2] [F2D2]) [F2D2] | ([F2A,2] [F2D2]) [F2D2] | A^GBA=GF |\
+([E2A,2] [E2C2]) [E2C2] | ([E2A,2] [E2C2]) [E2C2] | ([E2A,2] [E2C2]) [E2C2] | GEBAGE |
+([F2A,2] [F2D2]) [F2D2] | ([F2A,2] [F2D2]) [F2D2] | ([F2A,2] [F2D2]) [F2D2] | A^GBA=GF |\
+([E2A,2] [E2C2]) [E2C2] | ([E2A,2] [E2C2]) [E2C2] | A^GBA=GE | D4 :|
+((3uABc) |\
+(dFAdFd) | (cEAcEc) | (BDGBDB) | (ADFADA) |\
+(dFAdFd) | (cEAcEc) | B3 (AGE) | D4 ||
+((3uABc) |\
+d6 & (DFDFDF) | c6 & (EAEAEA) | B6 & (DGDGDG) | A6 & (DFDFDF) |\
+d6 & (DFDFDF) | c6 & (EAEAEA) | B3 (AGE) | D4 ||
+uA2 |\
+f4 (efe) | d4 (DF) | (A2 G2) F2 | ([E2A,2] [E2C2]) [E2C2] |\
+g4 ((3fgf) | e4 d2 | BcABGA | ([F2A,2] [F2D2]) [F2D2] |
+f4 ((3efe) | d4 (DF) | (A2 G2) F2 | ([E2A,2] [E2C2]) [E2C2] |\
+ga fg ef | de cd Bc | A2 (G2 E2) | D4 "_D.C."|]

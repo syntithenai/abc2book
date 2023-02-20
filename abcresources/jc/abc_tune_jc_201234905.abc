@@ -1,0 +1,20 @@
+X: 20881
+T: THY FATAL SHAFTS UNERRING PROVE, I BOW BEFORE THINE ALTAR LOVE.
+Q: "Moderate."
+%R: air, march, reel
+N: This is version 1, for ABC software that can't handle a trailing grace note before a bar line.
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.88 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+c3B c2{cd}e2 | (dc)(BA) G2zG |\
+A3B c2{de}f2 |(ec)(dB) c2ze |\
+d2ec d2e2 | ({fg}fd)(ec) d2zG |\
+A3B c2{de}f2 | (ec)(dB) c2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,33 @@
+X: 21023
+T: BOSTON SETT (tune 3)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.102 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+F |\
+(B2d) F3 | Bdg f3 | fbd g2f | c3 (e2d) |\
+(B2d) F3 | Bdg f3 | bBd fFd | (c3 B2) H|]
+d |\
+g2b d3 |aba g3 | fde cdB | cAB G2A |\
+(B2d) F3 | Bdg f3 | bBd fFd | (c3 "^D.C."B2) |]
+F |\
+B3 Bcd | e2f g3 | _a3 agf | b2g e2B |\
+B3 Bcd | e2f g2_a | b2B Bcd | [eE][gG][eG] "^D.C."G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple lead to the right and balance,
+%% swing four hands round,
+%% lead to the next and balance,
+%% six hands round,
+%% to the next, &c.
+%% eight hands round,
+%% next couple, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

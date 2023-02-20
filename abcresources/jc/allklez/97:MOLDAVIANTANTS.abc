@@ -1,0 +1,34 @@
+X: 397
+T: Moldavian tants
+%: Abe Shwartz
+Z: John Chambers <jc@trillian.mit.edu>
+N: from a handwritten MS
+M: 4/4
+L: 1/8
+%%partsfont helvetica 12
+N: (G freygish)
+K: G exp =B_e_A
+|: "G"Gd/d/ dd dc B>A \
+| GA Bc BA G2 \
+| "G"Gd/d/ dc Bc de \
+| d4 g4 |
+| "G"Gd/d/ dd dc B>A \
+| GA Bc "Fm"BA/G/ F2 \
+| "Fm"CF =EF GA BA \
+| "G"G4 z4 :|
+|: "Fm"CF =EF GA GF \
+| zA GA Bc BA \
+| zc Bc de dc \
+| "G"d3 c BA G2 |
+| "Fm"CF =EF GA GF \
+| zA GA Bc BA \
+| dc cB BA AG \
+|1 "G"G4 z4 :|2 "G"G4 zGed ||
+|: "Cm"c4- cG EG \
+| ce dc "G"gd2G \
+| "G"d4- dG fe \
+| dc Bc dG AB |
+| "Cm"c4- cG EG \
+| ce dc "G"gd2 c \
+| Bc dc "Fm"BF GA \
+|1 "G"G4 zGed :|2 "G"G4 z4 |]

@@ -1,0 +1,37 @@
+X: 205
+T: a Lady to her Husband killed in Culloden
+T: Mo Run geal og
+R: air, slip-jig
+N: This is version 1, for ABC software that doesn't understand diminuendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.95 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat symbol; not fixed.
+N: An 8th-note is missing in both strains' final bars; fixed by adding 8th-rests at ends.
+N: Note the 9-bar phrases.
+N: What do the "Cho.s _ _ _" markings mean?
+M: 9/8
+L: 1/8
+Q: "Slow & Plaintive."
+K: Gm
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+|:\
+!p!B2c (Td>cd) B2F | {D}F2F (Td>cd) d2f |!f!\
+"_dim"g3 (Tg>^fg) {g}=f2e | (Td>cd) gdc B2G |!p!\
+{D}"_cres"F2G B>cB g2f | {ga}b2a gGG TG2F |
+!pp!{d}e3 (d>cd) Hg2=e | {e}"_>..."f2d (Tc>Bc) {Bc}"_>"d2c |\
+"_Cho.s _ _ _"z2B (TG2^F) [G2D2B,2]z :: !p!G2A B>AG ^F<Dz |\
+B2d fdd d2f |!f! "_dim"g2a bag ^f<dz |
+(Td>cd) gdc {c}B2G |!p! F2"_cres"G B>cB {B}g2f |\
+{ga}b2a gGG G2F | !pp!{d}e3 (Td>cd) Hg2f |\
+{e}"_> . . ."f2d (Tc>Bc) {Bc}"_>"d2c |"_Cho.s _ _ _"z2B (G2^F) [G2D2B,2]z |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+!p!G2g G2g z2z | B2b B2b B2z | !f!E2e E2e d2c | B2b B2c d2z |!p! f2e d2b B2b | B2f g3 G2z |
+g2b f2b He2z | d2B f2F B2z | g3 d3 [G2g2]z :: !p!G2g G2g d2z | B2b B2b B2z |!f! E2e E2e [d2D2]z |
+B2b B2c d2z |!p! f2e d2b B2b | B2g g3 G2z |!pp! g2b f2b He2z | d2B f2F B2z | g3 d3 [G2g2]z |]
+% = = = = = = = = = =

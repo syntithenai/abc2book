@@ -1,0 +1,2218 @@
+X:1
+T: Khosid wedding dance
+O:rumania
+A:transylvania
+D: "Muszik\'as - The Lost Jewish Music of Transylvania (Hannibal 1373)
+Z: John Chambers <jc@trillian.mit.edu>
+R: cs\'ard\'as
+M: 2/4
+L: 1/16
+K: G
+def \
+| "G"g2d2 g2a2 \
+| b2b2- b2gab \
+| "D7"c'2b2 {b}a2ag \
+| "G"b2gb agbf |
+| "G"g2g2 d2g2 \
+| b2{c'}b2- bgab \
+| "D7"c'2b2 abaf |1 "G"gdBd g :|2 "G"g4z ||[K:E^A]
+|: fga \
+| "Em"b2b2 Ta3g \
+| fgag Tf3e \
+| g2{fg}ag "B7"Tf3^d \
+| "Em"efga bfga |
+| "Em"b2b2 Ta3g \
+| fgag Tf3e \
+| g2{fg}ag "B7"Tfe^df \
+| "Em".e2e2z :|
+
+
+
+
+
+X:2
+T: Hora la Patru
+O:rumania
+A:wallachia
+Z: John Chambers <jc@trillian.mit.edu>
+N: The D's are mostly somewhat sharp in the recording.
+M: 2/4
+L: 1/16
+Q: 1/4=116
+K: E^g
+|: "E"gbe2 f2Tg2- | gfag fefd \
+| gbe2 f2Tg2- | gfag fefd |
+| gbe2 f2Tg2- | gfag fed^c \
+| "Dm"defg abTg2- |1 gefd "E"egb2 :|2 "Dm"gefd "E"e2z2 ||
+|: "Am"ea2a a2a2 | Ta4- agab \
+| c'bag abc'b | "E"abTg2- gfed |
+| "Dm"ef2f f2f2 | f4- fefg \
+| baag fefd |1 "E"efga b2e2 :|2 "E"ef"Dm"df "E"e2z2 |]
+
+
+
+
+
+X:3
+T: Alunelul
+O:rumania
+Z: John Chambers <jc@trillian.mit.edu>
+M: 1/2
+L: 1/8
+K: F
+(3[AF][BG][=B^G] \
+|: "F"[cA]>[=B^G] [cA]>[dB] | "C7"[cA]>[BG] [AF]>[GE] \
+| "F"M[F2C] "C"M[G2E] | "F"[A2F] (3[A/F][B/G][=B/^G] \
+| "F"[cA]>[=B^G] [cA]>[dB] | "C7"[cA]>[BG] [AF]>[GE] \
+| "Dm"M[F2D] "A7"M[E2^C] | "Dm"[D4] :|
+(3CDE \
+|: "F"[F2C] [A2F] | "C7"[G2E2]>>[E2C2] \
+| "F"[F2C] [A2F] | [c4A] \
+| "F"[F2C] [A2F] | "C7"[G2E2]>>[E2C2] \
+| "Dm"M[F2D] "A7"M[E2^C] | "Dm"[D4] :|
+
+
+
+
+
+X:5
+T: Dragaicuta
+O:rumania
+C: Trad.
+Z: http://swissnet.ai.mit.edu/~jaffer/CFO.html
+P: I2(AB)3I
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI gchord f2c3fz2
+%%MIDI chordprog 42
+%%MIDI chordvol 55
+%%MIDI bassprog 43
+%%MIDI bassvol 55
+M: 3/4
+L: 1/4
+Q: 1/4=110
+K: Bm
+P: I
+"b"B B2 | B B2 | B B B | B B2|
+P: A
+|:"Bm"B, B>A|"C#m"^G/2A/2    B>^G|"Dm"A/2^G/2 =F/2E/2D |"E"^G/2A/2  B2 |
+"E"B, B>A|"F"  ^G/2A/2 "E"B>^G|"Dm"A/2^G/2 =F/2E/2D |    E/2=F/2 D2 :|
+P: B
+|:"Dm"A/2^G/2 =F/2E/2 D|E/2=F/2 D/2^C/2 B,|"E"B, E>B,|"F" E/2=F/2 "E"^G2 |
+"Dm"A/2^G/2 =F/2E/2 D|E/2=F/2 D/2^C/2 B,|"E"B, E E |"Em"E       "E" E2 :|
+
+
+
+
+
+X:6
+T: Fecuresc Fecuresc
+O:rumania
+C: Trad.
+Z: Transcription from Susan Worland
+%%titlespace 0.0cm
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI beat 120 0 100
+%%MIDI gchord ff2czc2
+%%MIDI chordprog 42
+%%MIDI chordvol 55
+%%MIDI bassprog 43
+%%MIDI bassvol 55
+M: 10/16
+L: 1/16
+Q: 4/16=128
+K: D
+"D"(^gafd) ((2Ad f3) |(^gafd) (A2d e2f) |"A"(gfeg) (f2d e2c) |"D" (def^g) (a2g a3) |
+"D"(^gafd) ((2Ad f3) |(^gafd) (A2d e2f) |"A"(gfeg) (f2d e2c) |"D" d2z2 z6 :|
+|:"G"(cdef) (g3- g2f) |(gagf) (e2d e2f) |(3g2(g2f2) (g2a) (g2f) |"A" (e3d) (c2B) A3 |
+"G"(d2ef) (g3- g2f) |(gagf) (e3 a3) |"A"(^gaba) (g2a b2c') |"D" d'2 z2 z6 :|
+|:"D"(f^gab) (c'2g a3) |(b^gac') (b2c' a3) |"A"(bagf) (e2d A2c) |"D" (def^g) (a2g a3) |
+"D"(f^gab) (c'2g a3) |(b^gac') (b2c' a3) |"A"(bagf) (e2d A2c) |"D" d2z2 z6 :|
+|:"D"(Acde) (f2c d3) |(Acde) (f2c d3) |"G"(3g2(g2f2) (g2a) (g2f) |"A"(e3d) c2B A3 |
+"D"(Acde) (f2c d3) |(Acde) (f2c d3) |"A"(3a2(a2e2) (f2^g a2c) |"D"d2 z2 z6 :|
+
+
+
+
+
+X:7
+T: Hora din Maurodin
+O:rumania
+C: Trad.
+Z: http://swissnet.ai.mit.edu/~jaffer/CFO.html
+P: AABCDECD
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI beat 120 100 60 2
+%%MIDI gchord fcfcfcfc
+%%MIDI chordprog 42
+%%MIDI chordvol 55
+%%MIDI bassprog 43
+%%MIDI bassvol 55
+M: 2/4
+L: 1/16
+Q: 1/4=110
+K: D
+P: A
+|:"D"(^ga)(fd) (Ad)(fd) |"A"(fg)(ec) (Ac)(ec) | (AB)(c^d) (ef)(ge) \
+|1 (fg)(ec) "D"(df)(aA) :|2"D"d2z2z4 ||
+P: B
+L: 1/8
+"G"{^ac'}b4 | {^ac'}b4 |"Gdim"{^ac'}b4 | {^ac'}b4 |\
+"D"b>a d'/2=c'/2b/2a/2 | b>a gg/2f/2 |"A"f/2g/2(ee2 | e3) A |
+P: C
+|:"D"d/2e/2f/2g/2 ag |"A" f>e dc |"D"cd/2c/2 d/2e/2f/2c/2 |  d2 a2 |\
+d/2e/2f/2g/2 ag |"F#"f>e dc |"Bm"BB/2^A/2 B/2c/2d/2c/2 |1 B2 BA :|2 B3z ||
+P: D
+L: 1/16
+|:"Em"(fg)(ge) (e^d)(ef) |(e_b)(gf) (ed)(cB) |"F#"(cd)(dc) (cB)(cd) |"Bm"Bcde f2B2 |
+"Em"(fg)(ge) (e^d)(ef) |(e_b)(gf) (ed)(cB) |"F#"(cd)(dc) (cB)(cd)\
+|[1"Bm"BF^G^A B2z2 :|[2 B2
+P: E
+L: 1/8
+f g^g |"D"{^g}a4 | {^g}a4 |{^g}a4 | {^g}a2 z A |
+
+
+
+
+
+X:8
+T:Hora Fetelor
+O:rumania
+Z:http://swissnet.ai.mit.edu/~jaffer/Music
+M:6/8
+L:1/8
+Q:3/8=100
+K:G
+V:1 name=panpipes snm=panp
+%%MIDI channel 1
+%%MIDI program 1 75
+D|:D2G4 |A2B4 |(c3-(4cBA^G) |A3-A2 G |B2c2c2 |d_ef edc|
+d6 |z3z2D |D2G4 |A2B4 |(c3-(4cBA^G) |A3-A2 G |
+Bcd cB_A |cB_A AGF |G6 |1 z3 z2D :|2 z2B c2d |
+|: _e4-ed |d4-dc |Bcd c2B |c2A4 |B2c2c2 |d_ef edc |
+d4 z2 |z2d _e2f |g4f2 |(4_e2d2c2B2 |gfe dcB |c2A-Az2 |
+Bcd cB_A |cB_A AGF |1G6 |z2B c2d :|2 G3 D3 |G3z3 ||
+V:2 name=cymbalom snm=cymb
+%%MIDI channel 1
+%%MIDI program 1 75
+%%MIDI channel 2
+%%MIDI program 2 15
+%%MIDI chordprog 42
+%%MIDI chordvol 40
+%%MIDI bassprog 43
+%%MIDI bassvol 60
+%%MIDI gchord f3c3
+z|:"G"G,2B,D2B, |"F"=F,2A,C2A, |"E"E,2^GB,2G |"Am"A,2CE2C |"Adim7"A,2C_E2C |G2C_E2C |
+"G"G,2B,D2B, |G2B,D2B, |"G"G,2B,D2B, |"F"=F,2A,C2A, |"E"E,2^GB,2G |"Am"A,2CE2C |
+"Adim7"A,2C_E2C |G2C_E2C |"G"G,2B,D2B, |1 G2B,D2B, :|2 G2B,D2B, |
+|: "Cm"C2_EG2E |"G"G,2B,D2B, |"E"E,2^GB,2G |"Am"A,2CE2C |"Adim7"A,2C_E2C |G2C_E2C |
+"G"G,2B,D2B, |G2B,D2B, |"Cm"C2_EG2E |"G"G,2B,D2B, |"E"E,2^GB,2G |"Am"A,2CE2C |
+"Adim7"A,2C_E2C |G2C_E2C |1"G"G,2B,D2B, |G2B,D2B, :|2 "G"G,2B,D2B, |"G"G3 \
+%%MIDI gchordoff
+z3 ||
+W:Arrangement Copyright 2001 Voluntocracy.
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+
+
+
+
+
+X:9
+T: Hora Mare
+O:rumania
+B:
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N:
+M: 2/4
+L: 1/16
+P: AB AB CDC EF AB
+K: Am
+P: A:
+|: "Am"A3B c2c2 | c2c2 c4 | cBA^G ABcA | "E7"B8 | ^G3A B2B2 | B2B2 d4 | cBA^G ABcB |1 "Am"A8 :|2 "Am"A2B2 c2^d2 |
+"B"\
+|: e8- | e8- | e8- | e8 \
+|| "Am"edcB cded | cBA^G ABcB \
+| "Dm"AGFE FGAG | FED^C D4 |
+| "E7"E^DE^F ^G^^FG^A | B^AB^c d4 \
+| "Am"E^DE^G AGAB | cBc^d e4 \
+|| "Am"edcB cded | cBA^G ABcB |
+| "Dm"AGFE FGAG | FED^C D4 \
+| "E7"E^DE^F ^G^^FG^A | B^AB^c d4 \
+| "E7"cBA^G ABcB |1 "Am"A2B2 c2^d2 :|2 "Am"~A8 ||
+"C"\
+K: Dm^G
+|: "Dm"D4 ~^G2FE | FGAF ~G3F \
+| AGFE FGAF | ~G3F AGFE \
+| "Dm"D4 ~A2FE | FGAF ~G3F \
+| "A7"AGFE FGEF |1 "Dm"D2A2 D2A2 :|2 "Dm"D8 :|
+K: Dm
+"D"\
+|: "C"E2F2 ~G3F | "Fm"_AFEF ~G3F \
+|  "C"E2F2 ~G3F | "Fm"cFEF ~G3F \
+|  "C"E2F2 ~G3F | "Fm"_AFEF ~G3F \
+|  "C"BA_AG FGEF |1 "Dm"D2A2 D2A2 :|2 "Dm"D8 :|
+"E"\
+|: "Dm"E2F2 G2F2 | E2 D4 D2 \
+|  "Dm"E2F2 G2F2 | E2 D4 D2 \
+|  "Dm"E2F2 G2A2 | "Bb"B2A3 EFG \
+| "A7"AGFE FGEF |1 "Dm"D2A2 D2A2 :|2 "Dm"D8 :|
+"F"\
+|: "C"~A4 GFEF | "F"~G3F GFEF \
+|  "C"~A4 GFEF | "F"~G3F GFEF \
+|  "C"~A4 GFEF | "F"G2F3 EFG \
+| "A7"ABGA FGEF |1 "Dm"D2A,2 D4 :|
+
+
+
+
+
+X:10
+T: Hora Pe Gheatsa
+O:rumania
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/16
+K: Em
+|: "Em"(3^D2E2D2 E4 \
+| (3^A2B2A2 B4 \
+| {^c}d3d =cBcd \
+|1 e2B3 AGF \
+:|2 e2B4 z2 |]
+|: "C"e2d>c "G"B4 \
+| "D7"AGAF "G"G3F \
+| "D7"Dz F2- FDEF \
+| "G"GABc dBG2 \
+| "C"e2d>c "G"B4 |
+| "D7"AGAF "G"G4 \
+| "B7"FGAF GEF^D \
+|1 "Em"E2FG ABcd \
+:|2 "Em"EB,"B7"C^D "Em"E2z2 :|
+|: "G"BGcG BGcG \
+| ~B3A AGGA \
+| BGcG BGAG \
+| "G"GABc dBG2 \
+| BGcG BGAG |
+| "Am"FGA3 FGA \
+| "B7"_BAAG GFFE \
+|1 "Em"EB,C^D EFGA \
+:|2 "Em"EB,"B7"C^D "Em"E2z2 :|
+
+
+
+
+
+X:11
+T: Invirtita Din Luna Turda
+O:rumania
+C: Trad.
+Z: http://swissnet.ai.mit.edu/~jaffer/CFO.html
+%%titlespace 0.0cm
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI beat 120 0 100
+%%MIDI gchord ff2czc2
+%%MIDI chordprog 42
+%%MIDI chordvol 55
+%%MIDI bassprog 43
+%%MIDI bassvol 55
+M: 7/8
+L: 1/8
+Q: 2/8=180
+K: D
+|:"D"aba ag gf | f2d e2 ed |"G"g2f ga fd |"A" e2d cB A2 |
+"D"aba ag gf | f2d e2 ed |"G"d/2d/2dd "A"df ec | "D"d3-d2 z2 :|
+|:"D"df2 a2 g2 | f2d e2 ed |"G"g2f ga fd |"A" e2d cB A2 |
+"D"df2 a2 g2 | f2d e2 ed |"G"d/2d/2dd "A"df ec | "D"d3-d2 z2 :|
+
+
+
+
+
+X:12
+T: Invirtita (Yves')
+O:rumania
+C: Trad.
+Z: http://swissnet.ai.mit.edu/~jaffer/CFO.html
+%%MIDI channel 1
+%%MIDI program 1 15
+% %MIDI beat 120 100 60 2
+%%MIDI gchord f3czc2
+%%MIDI chordprog 42
+%%MIDI chordvol 55
+%%MIDI bassprog 43
+%%MIDI bassvol 55
+M: 7/8
+L: 1/8
+Q: 2/8=170
+K: C
+|:"Dm" {^g}a3 {^g}a2 ^gf | afe ed cB |"Dm" ^GA^c de f^g |"Am" a^gf ed cz |
+"Dm" {^g}a3 {^g}a2 ^gf | afe ed cB |"Am" cdc d2 B^G |"Am" A3-A2-A2 :|
+|:"Dm" ^GA^c de f^g | a^gf ed cz |"Dm" a3 a2 ^gf |"Am"a^gf ed cB |
+"Dm" ^GA^c de f^g | a^gf ef ab |"Am" c'ac' "E"be ^f^g |"Am"a3 [e4A4] :|
+|:"G" gab d'e' d'c' | bgb "C"c'b c'^c' |"G"d'2c' bg ac' |"C"c'2d' e'b c'2 |
+"G" gab d'e' d'b | c'bc' "C"e'g ab |"Am"c'ac' "E"be ^f^g |"Am"a3 [e4A4] :|
+
+
+
+
+
+X:13
+T: Itele
+O:rumania
+R:
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/16
+K: D
+A2 \
+|: "D"^gafd ~e2ed | edfd ~e2ed | ^gafd ~e2ed | edfd ~edA2 |
+|  "D"^gafd ~e2ed | edfd ~e2ed | ^gafd ~e2ed | "A7"efec "D"d2z2 :|
+|: "Gm"^fg2g g=fed | ^fg2g g=fed | ^fg2g g=fed | "A"^gaba g=fed |
+|  "Gm"^fg2g g=fed | ^fg2g g=fed | "A"^gaba g=fec | "D"dA"A7"Bc "D"d2z2 :|
+%%sep 5 5 200
+P: Bb instruments
+K: E
+B2 \
+|: "E"^abge ~f2fe | fege ~f2fe | ^abge ~f2fe | fege ~feB2 |
+|  "E"^abge ~f2fe | fege ~f2fe | ^abge ~f2fe | "B7"fgfd "E"e2z2 :|
+|: "Am"^ga2a a=gfe | ^ga2a a=gfe | ^ga2a a=gfe | "B"^abc'b a=gfe |
+|  "Am"^ga2a a=gfe | ^ga2a a=gfe | "B"^abc'b a=gfd | "E"eB"B7"cd "E"e2z2 :|
+
+
+
+
+
+X:14
+T:Alunelul de la Urzica
+O:rumania
+M:4/4
+L:1/8
+Q:1/4=200
+K:ADor
+A,2 C2 E2 E2| A,2 C2 E2 E2| A,2 C2 E2 E2| A,2 C2 E2 E2|
+|:cBcA cBcA|cBcA e/f/e/f/e/f/e/f/|e2 e2 c2 c2| e2 e2 A4:|
+|:ga _bg af ge |fc e2 c4 |e2 e2 e2 c2 | e2 e2 A4 :|
+
+
+
+
+
+X:15
+T:Briul de la Fagaras
+O:rumania
+L:1/8
+S:The People's International Silver String Macedonian Band
+M:2/4
+K:A
+Q:1/4=120
+|:"A".A,.B,.C.D|.E.F.E2|"E"E/F/G/F/ E/F/G/F/|"A"E/F/E3|
+|"A".A,.B,.C.D|.E.F.E2|{A}az.E.F|GA2z:|
+|:"A"A4|"D"GF3|"D"ED3|"E"CB,3|\
+E/F/G/F/ E/F/G/F/|E/F/G/F/ "A"ED|CB,A,|"D"DC "E"B,A,:|
+
+
+
+
+
+X:16
+T:Briuletul
+O:rumania
+S:Presented by Mihai and Alexandru David, Romanian Tour '77
+L:1/8
+M:2/4
+Q:1/4=160
+I:Set accompaniment to plucked double bass, piano or equivalent
+K:D
+|:"A"E A2 c| EAcz| f/e/^d f/e/^d| e2 c2:|\
+|:"A"E A2 c| EAcz| f/e/^d f/e/^d| e2 c2:|
+|:"A"c/d/e g/f/e| g/f/e  c/d/e| g/f/e g/f/e| c2 c2 :|
+|:"A"c/d/e g/f/e| g/f/e  c/d/e| g/f/e g/f/e| c2 c2 :|
+|: "Em"B2 f2| e/^d/ef2| g/f/e "Cm"^d=c| "Em"B2B2 |\
+"Em"B2 f2| e/^d/ef2| g/f/e "Cm"^d=c| "Em"B2B2 :|
+|:"A"A2 "Em"B2|"A"A2 "Em"B2|"A"A4|"A"A4:|
+
+
+
+
+
+X:17
+T:Briul Pe Opt
+O:rumania
+S:presented by Mihai and Alexandru David, Gypsy Camp Vol II
+L:1/8
+M:2/4
+K:Bm
+Q:1/4=112
+A2 Ae|A2 Ae|A2 Ae|A2 A^G| A2 Ae|A2 Ae|A2 Ae|A2 A^G|
+|:a2 g/f/e/f/|g/f/e/d/ cA| a2 g/f/e/f/|g/f/e/d/ cA|\
+a2 g/f/e/f/|g/f/e/d/ cA| g/f/e/d/ cA|Aa Aa:|
+|:c/d/e/f/ g/f/e/f/ |g/f/e/f/ cA| c/d/e/f/ g/f/e/f/ |g/f/e/f/ cA|
+c/d/e/f/ g/f/e/f/ |g/f/e/f/ cA| g/f/e/f/ cA|Aa Aa :|
+|:d2 f2|d2 f2|d2 f2|[1 d2 c/B/A:|[2 A B/c/d2|\
+|:f/g/a b/a/a| f/g/a b/a/a| f/g/a b/a/a|[1 fe f2:|[2 fe d2|
+|:a2 g/f/e/f/|g/f/e/d/ cA| a2 g/f/e/f/|g/f/e/d/ cA|\
+a2 g/f/e/f/|g/f/e/d/ cA| g/f/e/d/ cA|Aa Aa:|
+|:c/d/e/f/ g/f/e/f/ |g/f/e/f/ cA| c/d/e/f/ g/f/e/f/ |g/f/e/f/ cA|
+c/d/e/f/ g/f/e/f/ |g/f/e/f/ cA| g/f/e/f/ cA|Aa Aa:|
+
+
+
+
+
+X:18
+T:Ciulendra
+O:rumania
+S:Gypsy Camp vol.1 - presented by Mihai and Alexandru David
+L:1/8
+M:2/4
+Q:1/4=90
+K:Gm
+[B,3G3][DB]| [AC][B,G] [Fd]z| [B,3G3][DB]|[CA][B,G] [A,2D2]|\
+[B,3G3] [DB] |[CA][B,G] [Fd]z| .B2 .A2| G2 z2|
+[D3B3][Fd]| [Ec][DB] [Af]z| [D3B3][Fd]| [Ec][DB] [A2F2]| [D3B3] [Fd]|\
+[Ec][DB] [Af]z| .B2 .A2| G2 z2|
+
+
+
+
+
+X:19
+T:Hora de la Munte
+O:rumania
+P:ABBCC
+M:3/4
+L:1/8
+Q:1/4=240
+K:Gm
+P:A
+|: "Gm"[G,2D2][D2G2][D2A2] | [G2B2][D2A2][D2G2]| "F"[D2A2][D4-B4-] |\
+"Gm"[D2B2][A2d2][A2c2] | "Cm"[A2c2][A4-c4-] | "Cm"[A2c2][DB][DA][D2G2] |\
+"Gm"[G2B2][G4B4] | "Gm"[Gd][G2c2][DB][DA][DG] |
+"Gm"[G,2D2][D2G2][D2A2] | [G2B2][D2A2][D2G2] |"F" [D2A2][D4-B4-] |\
+"Gm"[D2B2][DA][DB][G2c2] | "Bbm"[^G4^c4][=G=c][GB] |\
+"Gm"[G4B4][DA][DG]| [D6G6] |"Bbm"d^c2BAG:|
+P:B
+"Gm"G2zDGA|"Bbm"B3^cd=e|"F"f2g4-|"Gm"g2z=efg|\
+"Fm"_a2g4-|"Gm"g2f2de|"Bbm"^c2d2d2|"Gm"d^cBAG2|
+"Gm"G2zDGA|"Bbm"B3^cd=e|"F"f2g4-|"Gm"g2z=efg|\
+"Fm"_a2g4-|"Gm"g2f2de|d6-|d4z2|
+P:C
+"Eb"[c3e3][c3e3]|"Cm"[ce][A1-c1-][A4c4] | "Cm"[A3c3][A3c3] |\
+"Cm"[Ac][A1-c1-][A4c4] |\
+"Gm"[_B3d3][_B3d3] |"Gm"[_B6d6] | "F"[A6-f6-] | "F"[A4f4]"F"z2|
+"Eb"[c3e3][c3e3] |"Cm"[ce][A1-c1-][A4c4] | "Cm"[A3c3][A3c3] |\
+"Cm"[Ac][A1-c1-][A4c4] |\
+"Gm"[G3B3][G3c3] |"Gm"[A2d2]"Cm"[A4c4] |"Gm"[D3B3][D3A3] |"Gm"[D6G6]|
+
+
+
+
+
+X:20
+T:Hora de la Titu
+O:rumania
+S:presented by Mihai & Alexandru David
+L: 1/8
+M: 2/4
+K:Bb
+Q:1/4=240
+|:EEB,2|GGE2|ABAB|_A4|ABcB|ABcB|ABAB|_A2G2|
+EEB,2|GGE2|ABAB|_A4|B_AAG|GFFE|FGFE|[1F4:|[2E4|
+|:e2d2|_d2c2|edBc|_A4|BcBc|BcBc|BcBc|_A4|
+BccB|e_ddc|c_dcB|_A4|B_AAG|GFF=E|FGF=E|F4:|
+A2B2|E2G2|_A2B2|_A4|A2B2|E2G2|_A2B2|_A4|_ABA2|B_AAG|GFF=E|FGF=E|F4:|
+
+
+
+
+
+X:21
+T:Joc Batrinesc
+O:rumania
+M:2/4
+L:1/8
+Q:1/4=60
+K:ADor
+|:"Am"A>GA>B|c3/2d/2"G"B/2A/2B/2G/2|"Am"c>de2|"Dm"d3/2c/2"G"B/2A/2B/2G/2|
+"Am"A>GA>B|c3/2d/2"G"B/2A/2B/2G/2|"Am"A4-|A4:|
+|:"C"g2"Am"a2|"C"g3/2=f/2"Am"e/2d/2e/2c/2|e2"Dm"dc|"G"B3/2A/2Bd|
+"Am"A>GA>B|c3/2d/2"G"B/2A/2B/2G/2|"Am"A4-|A4:|
+
+
+
+
+
+X:22
+T:Mindrele
+O:rumania
+S:presented by Mihai & Alexandru David, Gypsy Camp II
+L: 1/8
+M: 5/4
+K:Em
+Q:1/4=192
+|:[CE][DF][EG][FA][EG][CE][D4F4]|[E2G2][C2E2][G,2C2][C4E4]|\
+[CE][DF][EG][FA][EG][CE][D4F4]|[E2G2][C2E2][G,2C2][G,4C4]:|
+|:gabgafg4|g2e2c2e4|gabgafg4|g2e2c2c4:|
+|:g2e2c2e4|g2e2c2_b4|g2e2c2e4|g2e2c2c4:|
+|:_b2a2g2b4|g2e2c2e4|_b2a2g2b4|g2e2c2c4:|
+efgagfg4|g2e2c2e4|efgagfg4|g2e2c2c4|
+[CE][DF][EG][FA][EG][CE][D4F4]|[E2G2][C2E2][G,2C2][C4E4]|\
+[CE][DF][EG][FA][EG][CE][D4F4]|[E2G2][C2E2][G,2C2][G,4C4]|
+
+
+
+
+
+X:23
+T:Mindrele 2
+O:rumania
+M:6/8
+L:1/8
+Q:1/4=100
+K:BDor
+|:"B" CCCE2D| CCCE2D|[1 CCCE2D| CB,FB,3:|[2 FFF=F2D|CB,FB,2D|
+|: FFF=F2D| FFF=F2D| FFF=F2D|B,B,DF2D|FFF=F2D|[1 B,B,B,B,2D:|[2 B,B,B,B,3 |
+|:FGGG2F|=F2DB,3|FGGG2F|B3-B2A|GGGB2A|GGGF3|C/D/EF=F2D|FFFB,3:|
+
+
+
+
+
+X:24
+T:Paharelul
+O:rumania
+W:presented by Mihai & Alexandru David, Gypsy Camp II
+L: 1/8
+M: 12/8
+K:Am
+Q:1/4=120
+"A"A2e2dc2Bd2cB|A2e2dc2Bd2cB|\
+|:ABcBBA2Gd2cB|ABcBBA2GA2A2:|
+
+
+
+
+
+X:25
+T:Papuselle
+O:rumania
+M:12/8
+L:1/8
+Q:1/4=200
+K:FDor
+|  "F"z12|"F"z12|
+|:"F"F2EF2EFGA2G2| F2EF2EFGA2G2| F2EF2EFGA2G2|F3c3F2F4:|
+|:"Eb"B2A"Eb"B2A"F"BAG2F2| "F"F2EF2EFGA2G2| "Eb"B2AB2A"F"BAG2F2|F3c3F2F4:|
+|:"F"f3c3=A2G2F2|F3c3=A2c4| f3c3=A2G2F2|F3c3F2F4:|
+
+
+
+
+
+X:26
+T:Sirba de Cimpoi
+O:rumania
+S:Gypsy Camp vol. 1. presented by Mihai & Alexandru David (GC5201B)
+P:ABAC
+L:1/8
+M:2/4
+Q:1/4=180
+K:Am
+P:A
+|:"Am"AB cd| e2 "G"d2| c2 "Em"B2| "Am"c3 d| e2 "G"d2| "Am"c2 "G"d2|[1 "Am"c3 d| cB A2:|[2 "Am"c2 "Em"B2| "Am"A2 z2|
+P:B
+|:"Am"ed e2| ed e2| ed e2| dc c2|"Dm"dc d2|"Dm"dc d2| ed "Am"e2|dc c2:|
+P:C
+|: "Am"c2 "Em"B2| "Am"e3 d| c2 "Em"B2| "Am"e3 d| c2 "Em"B2|"Am"e2 "G"d2|"Am"c2 "Em"B2| "Am"A4 :|
+
+
+
+
+
+X:27
+T:Sirba Munteneasca
+O:rumania
+W:presented by Mihai & Alexandru David, Gypsy Camp II
+L: 1/8
+M: 2/4
+K:C
+Q:1/4=112
+|:"G"ddBG|"C"gge2|"G"d/c/d/c/d/c/d/c/|"C"e4|\
+"G"ddBG|"C"gge2|"G"d/c/d/c/d/c/d/c/|"C"c4:|\
+[eg][eg][fa][fa]|[e/g/][f/a/][e/g/][d/f/][c2e2]|
+"G"[Bd][Bd][B/d/][d/f][c/e/][d/f/]|"C"[c4e4]|\
+[eg][eg][fa][fa]|[e/g/][f/a/][e/g/][d/f/][c2e2]|
+"G"[Bd][Bd][B/d/][d/f][c/e/][d/f/]|"C"[E4c4]|\
+"G"[Bd][Bd][GB][EG]|"C"[eg][eg][c2e2]|
+"G"[B/d/][A/c/][B/d/][A/c/][B/d/][A/c/][B/d/][A/c/]|"C"[c4e4]|\
+"G"[Bd][Bd][GB][EG]|"C"[eg][eg][c2e2]|
+"G"[B/d/][A/c/][B/d/][A/c/][B/d/][A/c/][B/d/][A/c/]|"C"[E4c4]
+|:"G"f/g/z/g/g/g/f|"C"d/e/z/e/e/e/e|"G" f/g/z/g/g/g/f|"C"d/e/z/e/e/e/e|
+"G"dddd|"C"efed|"G"dddd|"C"efed:|
+
+
+
+
+
+X:28
+T:Vulputa
+O:rumania
+Z:Deborah Jones, VIFD
+L:1/8
+M:2/4
+Q:1/4=180
+K:D
+|:"Em" c/d/.e z a| ea e2| ed ed| gf e2:|\
+|:"Em" c/d/.e z a| ea e2| ed ed| gf e2:|
+|: "D" df aa| "G" ag gf| "A" fe ag|"D" fe d2 :|\
+|: "D" df aa| "G" ag gf| "A" fe ag|"D" fe d2 :|
+
+
+
+
+
+X:30
+T: Batut
+O:rumania
+M: 2/4
+L: 1/8
+Q: 1/4=240
+K: D
+%%MIDI gchord zf
+%%MIDI program 41
+|:"G" Bcd2|"D" B2z2|"G" Bcd2|"D" B2z2  |\
+"G" B2d2|"D" c2d2|"G" B2d2|"D" g2z2  |
+"G" B2d2|"D" c2d2|"G" B2d2|"D" c2d2  |\
+"G" B2d2|"D" c2d2|"G" B2d2|"D" g2z2  :|
+K: G
+|:"G" efg2|"C" e2z2|"G" efg2|"C" e2z2  |\
+"G" e2g2|"C" f2g2|"G" e2g2|"C" c'2z2 |
+"G" e2g2|"C" f2g2|"G" e2g2|"C" f2g2  |\
+"G" e2g2|"C" f2g2|"G" e2g2|"C" c'2z2 :|
+
+
+
+
+
+X:31
+T: Batuta
+O:rumania
+M: 2/4
+L: 1/8
+Q: 1/4=300
+K: CDor
+|: z2b2|a2d2|g2c2|f2B2|e2B2|BAB2|d2c2|f4 |
+a2b2|a2d2|g2c2|f2B2|e2B2|BAB2|d2c2|c4:|
+|: z2c2|BFB2|d2c2|f2c2|d2B2|BFB2|d2c2|c4-|c4 :|
+
+
+
+
+
+X:32
+T: Ca la noi la la falteceni
+O:rumania
+M: 2/4
+L: 1/8
+Q: 1/4=200
+K: Em
+%%MIDI program 41
+|:e2 e2|E2 E2 |(3FGA GF|EG B2 |\
+e2 e2|E2 E2 |(3FGA GF|E2 z2 :|
+|:dd dB|cA B2 | dd dB  |cA B2 |\
+dd Dd|G2 z2 :|
+|:ABcB |AGB2  |cBAG    |ABc2  |\
+ABcB |AGB2  |dd DD   |G2 z2 :|
+
+
+
+
+
+X:33
+T: Cimpoi
+O:rumania
+C: Romania
+S: Mihai and Alexandru David, Gypsy Camp Vol. 1
+M: 6/8
+L: 1/8
+K: C
+|:  A,A,D ^C2_B,| A,A,D ^C2_B,| A,A,D ^C2_B,|A,A,A, A,2z  :|
+e6-         |e6           |A6-          |A6          \
+|: ^c/d/cd dcz  | ^c/d/cd dcz | ^c/d/cd dcz |_BAA AA2     :|
+
+
+
+
+
+X:34
+T: De Doi Din Banat
+O:rumania
+S: Mihai and Alexandru David, Gypsy Camp Vol. 1
+M: 2/4
+L: 1/8
+Q: 1/4=300
+K: GDor
+%%MIDI gchord fzzz
+|:"F"c2de |f2fe   |"Gm"d2dc|"Eb"B2BA |\
+"F"A2A2 |F2A2   |"Gm"B2Bc|B4       |
+"F"c2de |"F"fefg|fedc    |"Gm"B2BA |\
+GCBA    |GCBA   |GCBA    |G4       :|
+|:"F"A2AF |F2A2   |AFAc    |"Gm"B3C  |\
+"F"A2AG |F2A2   |f_edc   |"Gm"BAA2 |
+"F"A2AF |F2A2   |AFAc    |"Gm"B3C  |\
+GCBA    |GCBA   |GCBA    |G4       :|
+Q: 1/4=250
+K: F
+|:"F"z2f2 |c2c2   |"Gm"BAG2|B2"F"c2  |\
+z2f2    |c2c2   |"Gm"BAGF|"Am"EGF2 :|
+|:"Am"EFG2|GFG2   |GFGA    |G4       |\
+"F"FGAB |c3B    |A2AF    |"Gm"GGG2 |
+"Am"EFG2|GFG2   |GFGA    |G4       |\
+"F"c3B  |A2AF   |"Gm"G2GF|GFGA     |"F"F4 :|
+
+
+
+
+
+X:35
+T: Hora Mare 2
+O:rumania
+M: 2/4
+L: 1/8
+Q: 1/4=120
+K: Bm
+%%MIDI program 41
+%%MIDI bassprog 25
+%%MIDI bassvol 70
+|:"Bm"F4     |B4    | (3cde (3dcB          |cdz2        |\
+(3cde (3dcB|cdz2  | (3cde (3dcB          |BFBz        :|
+|:"D"feed    |"A"ce3|"D" f/e/e/d/ d/c/d/e/ |"A"fdA2     |
+"D"feed    |"A"ce3|"Em" f/e/e/d/ d/c/c/B/|[1"Bm" Bcde :|[2 "Bm"B2z2|
+
+
+
+
+
+X:36
+T: Hora Novacelinor
+O:rumania
+M: 2/4
+L: 1/8
+Q: 1/4=300
+P:ABBCCDD
+K: Gdor
+%%MIDI gchord fzfz
+P:A
+|:  "C" c4-       |c4      |"G" cB BA |G2 d2   |\
+"C" Bc3       |Bc3     |"G" cB BA |G2 G2   |
+"C" c4        |c4      |"G" cB BA |G2 d2   |\
+"C" Bc3       |Bc3     |"G" cB BA |G2 G2   :|
+P:B
+|:  "G" Bcd2      |fed2    |Bcd2      |G2z2    |
+[1 Bcd2       |fed2    |Bcd2      |G2z2    :|\
+[2 Bcd2       |cdB2    |cdB2      |G4      |
+P:C
+"Am" F2 (3ABA |"G" G2F2|"Am" A4   |"G" G2c2|\
+"Bb" B2 (3ABA |"G" G2F2|"Am" A4   |"G" G2c2|
+"Am" F2 (3ABA |"G" G2F2|"Am" A4   |"G" G2c2|\
+"Bb" B2 (3ABA |"G" G2F2|"Am" A4   |"G" G2c2|
+P:D
+"C" F2A/B/A/G/|A2G2    |F2A/B/A/G/|A2G2    |\
+F2A/B/A/G/    |A2G2    |F2A/B/A/G/|A2G2    |
+
+
+
+
+
+X:37
+T: Hora Olteneasca
+O:rumania
+S: Mihai & Alexandru David, Gypsy Camp vol. 1
+M: 2/4
+L: 1/8
+Q: 1/4=300
+K: Eb
+%%MIDI gchord fzzz
+|:"Eb" cdec|{fgfg}f2e2 |cdec|{fgfg}f2e2|\
+cdec     |{fgfg}f2e2 |cdec|A4        :|
+|:"Eb" cdec|{fgfg}f2e2 |cdec|{fgfg}f2e2|\
+cdec     |{fgfg}f2e2 |cdec|A4        :|
+|:cdec     |{fgfg}f2e2 |cdec|A2c^d     |\
+{d}e2 .e2|{efef}e2 c2|cdec|A2c^d     |
+.e2 .c2  |.e2 c2     |cdec|A2c^d     |\
+.e2 .e2  |{efef}e2 c2|cdec|A4        :|
+
+
+
+
+
+X:38
+T: Joc de Do
+O:rumania
+M: 2/4
+L: 1/8
+Q: 1/4=240
+K: G
+%%MIDI gchord fzfz
+|:"G"gfag|"D"f3e|"C"defe  |"D"d3c |\
+Bcdc   |"D"B3A|[1 GABc  |"D"d4  :|"G"G2z2 |z4|
+|:"C"Bcdc|"D"B3A|"C"Bcdc  |"D"B3A |\
+"C"Bcdc|"D"B3A|[1 .g2.d2|.g2.d2 :|[2"G" G4|z4|
+
+
+
+
+
+X:39
+T:Sirba Pe Loc
+O:rumania
+S:Mihai and Alexandru David, Gypsy Camp Vol. 1
+M:6/16
+L:1/16
+Q:1/4=150
+P:AABBAACCAA
+K:A
+%%MIDI gchord fzzfzz
+P:A
+|:"C#m"B,2C/D/ C2B,/A,/|"Bm"B,2A, E3     |"C#m" B,2C/D/ C2B,/A,/|\
+[1 "Bm"B,2A, E3      :| [2"A" B,2A, A,3|
+P:B
+"A"cde cde           |cde c3           |cde cde               |\
+cde c3               |cde cde          |cde c3                |
+c2d B2A              |AA5              | cde cde              |\
+cde c3               |cde cde          |cde c3                |
+cde cde              |cde c3           |c2d B2A               |AA5 |
+P:C
+|:"Dm"d2z d2z          |d2z d2z          |e2z d2z               |\
+c5z                  |B2c d3           |e3 d3                 |c5 A|\
+[1B3 e3              :| [2B3 A3        |
+
+
+
+
+
+X:40
+T:Vulpita
+O:rumania
+Z:Deborah Jones, VIFD
+L:1/8
+M:2/4
+Q:1/4=180
+K:D
+|: "Em" c/d/.e z a| ea e2    | ed ed    | gf e2     :|\
+|: "Em" c/d/.e z a| ea e2    | ed ed    | gf e2     :|
+|: "D" df aa      | "G" ag gf| "A" fe ag|"D" fe d2  :|\
+|: "D" df aa      | "G" ag gf| "A" fe ag|"D" fe d2  :|
+
+
+
+
+
+X:41
+T: Invirtita
+O:rumania
+Z: John Chambers <jc@trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: Am
+"A"\
+|: "Dm"{^g}a3 {g}a2 ^gf \
+| agf "Am"ed cB \
+| "Dm"^GA^c de f^g \
+| a^gf "Am"ed cz |
+| "Dm"{g}a3 {g}a2 ^gf \
+| agf "Am"ed cB \
+| cdc "E7"d2 B^G \
+| "Am"A7 :|
+"B"\
+|: "Dm"^GA^c de f^g \
+| a^gf "Am"ed cz \
+| "Dm"a3 a2 ^gf \
+| agf "Am"ed cB |
+| "Dm"^GA^c de f^g \
+| a^gf "Am"ef ab \
+| c'ac' "E7"be ^f^g \
+| "Am"a3 [e4A4] :|
+"C"\
+|: "G"d'3 d'c' ba \
+| gab "C"c'b c'2 \
+| "G"~d'2c' bg ab \
+| "C"c'2d' e'b c'2 |
+| "G"d'3 d'c' ba \
+| gab "C"c'g ab \
+| "Am"c'ac' "E7"be ^f^g \
+| "Am"a3 [e4A4] :|
+"D"\
+|: "G"gab d'e' d'c' \
+| bgb "C"~c'b c'^c' \
+| "G"~d'2c' bg ab \
+| "C"~c'2d' e'b c'2 |
+| "G"gab d'e' d'b \
+| c'bc' "C"e'g ab \
+| "Am"c'ac' "E7"be ^f^g \
+| "Am"a3 [e4A4] :|
+
+
+
+
+
+X:42
+T:Alunalul
+O:rumania
+M:4/4
+L:1/8
+Q:1/4=170
+K:Am
+V:1
+"C" g^f ga "G" gf ed |"C" c2 d2 e4 |"C" g^f ga "G" gf ed |"Am" c2 "E" B2 "Am" A4 :| |:
+"C" c2 e2 "G" d3 B|"Am" c2 e2 "G" g4 |"C" c2 e2 "G" d3 B|"Am" c2 "E" B2 "Am" A4 |
+"C" e2 e2 "G" d2 d2 |"C" c2 B2 G4 |e2 e2 "G" B2 B2 |"Am" A2 "E" ^GF "Am" E4 :| |:
+"C" E2 G2 "G" G2 F2 |"Am" E2 A2 "G" G2 F2 |"C" E2 G2 "G" G2 F2 |"Am" F2 "E" F2 "Am" F4 :|
+
+
+
+
+
+X:43
+T:Alunelul
+O:rumania
+M:4/4
+L:1/8
+Q:1/4=
+K:Am
+V:1
+"C" g3/2 ^f/g3/2 a/"G7" g3/2 f/e3/2 d/|"C" c2 "G" d2 "C" .e2  (3ef^f |"C" g3/2 ^f/g3/2 a/"E7" g3/2 f/e3/2 d/|"Am" c2 "E" B2 "Am" A4 :| |:
+"C" (c2 .e2) "G" (d2 .g2) |"C" (c2 .e2) {^f}"G" g4 |"C" (c2 .e2) "E7" (d2 .g2) |c"Am" A B"E7" ^G "Am" A2 A2 |
+:|
+V:2          %2e stem
+|  8  |:e3/2 d/e3/2 f/e3/2 d/c3/2 A/|E2 F2 G4 |
+e3/2 d/e3/2 f/e3/2 d/c3/2 B/|A2 ^G2 A4 :| |:c4 BA GF |E4 GA Bd |
+c4 BA ^GF |EF ^GB A4 :|
+
+
+
+
+
+X:44
+T:Arcanul batrinesc
+O:rumania
+C:Roemenie
+M:2/4
+L:1/8
+Q:1/4=106
+K:Gm
+V:1
+{^F/}"Gm" G3 A/B/|(^c2 ^c/)B/A/B/ |"Gm" ^c/d/d/^c/ ^c/B/A/B/ |{^c/}d2 D2 |
+{^F/}"Gm" G3 A/B/|(^c2 ^c/)B/A/B/ |"D" ^c/d/d/^c/ ^c/B/A/B/ |"Gm" Gz "D" Dz :| |:
+"Gm" f2 =e2 |d2 "C#" ^c2 |"Gm" d3/2 =e/f/=e/d |g4 |
+"Gm" d=e/f/ =ed |"C#" (^c2 "D" ^c/)B/A/B/ |"Gm" .G.D "D" GA/B/ |"Gm" G2 z2 :| |:
+{^c/}"Gm" d3 =e/d/|"C#" ^c2 ^c/B/A/B/ |{^c/}"Gm" dd ^c/B/A/B/ |{c/}d2 z2 |
+"Dm" d3 =e/d/|"C#" ^c2 ^c/B/A/B/ |{^c/}"D" dd ^c/B/A/B/ |"Gm" Gz z2 :|
+
+
+
+
+
+X:45
+T:Avrameanca
+O:rumania
+M:4/4
+L:1/8
+Q:1/4=132
+K:A
+V:1
+f3/2 e/e/_e/e/ f/ec Ac |BB B/c/d/B/ cB A/c/e |f3/2 e/e/_e/e/ f/ec Ac |BB B/c/d/B/ cB A2 :| |:
+BB/_B/ B/c/d/B/ cB A/c/e/A/ |BB/_B/ B/c/d/B/ cB A2 |BB/_B/ B/c/d/B/ cB A/c/e/A/ |BB/_B/ B/c/d/B/ cB A2 :| |:
+ce2 Ec e2 E|B B/_B/B/c/ d/B/c BA/c/ e|c e2 Ec e2 E|B B/_B/B/c/ d/B/c BA2 :|
+
+
+
+
+
+X:46
+T:Barbatesc din jeud
+O:rumania
+M:4/4
+L:1/8
+Q:1/4=138
+K:C
+V:1
+c de e/d/c de2 |dd/c/ Bc BB/A/ A2 :|EE EE cB/A/ A2 |EE Ed cB/A/ A2  |:
+d2 cc/B/ AA/B/ c/B/A |d2 cc/B/ AA/E/ A2 :|cd ec d4 |cd ed G4 |
+cd ed gg/f/ ee/d/ |gg/f/ gg/f/ g/a/g/f/ ee/d/ |gg/f/ ee/d/ c/d/c/B/ AA |GG GA/B/ c/d/e/f/ gg |
+gg/f/ ee/d/ c/d/c/B/ AA/G/ |cc/B/ BB/A/ A2 |]
+
+
+
+
+
+X:47
+T:Batuta de la mironu
+O:rumania
+M:4/4
+L:1/8
+Q:1/4=152
+K:F
+V:1
+D2 d2 cB/A/ G3/2 F/|E/F/G FF/E/ DD/C/ D/F/A |Dd Dd cB/A/ G3/2 F/|E/F/G FF/D/ DD/C/ D2 :| |:
+CF Ac _e/d/c/B/ A3/2 c/|_e/d/c/ B/AA/ F/GG/ F/AA |CF Ac _e/d/c/B/ A3/2 c/|_e/d/c/ B/AA/ F/GG/ F/F2 :| |:
+dc/d/ _ed c/B/A/G/ GG/F/ |E/F/G/A/ c/B/A/G/ GG/F/ A2 |dc/d/ _ed c/B/A/G/ GG/F/ |E/F/G/A/ c/B/A/G/ GG/F/ F2 :|
+
+
+
+
+
+X:48
+T:Briul Banatean
+O:rumania
+M:7/8
+L:1/8
+Q:1/4=136
+K:F
+V:1
+"F" ~c3 d2 e2 |~f3 ef gf |"Bb" ~e3 "Do/h" ~d2 dc |"F/c" ~(c3 "F" c2) BA |
+"C" G^F2 G2 A2 |"C7" ~Bd2 c2 B2 |"F" ~A3 "C7" G2 GF |1 "F" F3 C4 :|2
+"F" F2 B,/C/D EF G||  |:"F" ~A2 z"C" G2 GF |"F" ~A2 z"C" G2 GF |"F" ~F2 z"Bb" d2 "Do/h" d^c/d/ |
+"F\c" (c3 c2) BA |"C" G^F2 G2 A2 |Bd2 c2 B2 |"F" ~A2 F"C" ~G2 GE |
+|1 "F" F2 B,/C/D EF G:|2 "F" (F3 F4) |]
+
+
+
+
+
+X:49
+T:Ca La Breaza
+O:rumania
+C:Rumania
+M:2/4
+L:1/8
+Q:1/4=80
+K:C
+V:1
+"Cm" _e/4d/4(c/c/)d/4_e/4 {^f/}g~g |_e/4d/4(c/c/)d/4_e/4 {^f/}g~g |_e/4d/4(c/c/)d/4_e/4 {^f/}gg |_e/4d/4(c/c/)d/4_e/4 cG :| |:
+"Dm"  (3d/e/f/ e/f/e/f/ ~f|f/4e/4(d/ d/)e/4f/4~d "G" g|"Dm"  (3d/e/f/ e/f/e/f/ "G"  (3d/e/f/ |"C" e/4d/4(c/"G" c/)d/4e/4 "C" cG :| |:
+"C"  (3g/4a/4_b/4 a/ (3g/4a/4_b/4 a/ (3g/4a/4_b/4 a/ (3g/4a/4_b/4 a/|c'/g a/4_b/4ge | (3g/4a/4_b/4 a/ (3g/4a/4_b/4 a/ (3g/4a/4_b/4 a/ (3g/4a/4_b/4 a/|c'/g ^f/4e/4c/G/c :| |:
+"C7" g/^fa/ ~ge |g/^fa/ ~ge |g/^fa/ ~ge | (3c/d/e/ ~g3/4 e/4cc :|
+
+
+
+
+
+X:50
+T:Casuta Noastra
+O:rumania
+M:4/4
+L:1/8
+Q:1/4=128
+K:Am
+V:1
+"Am" A Bc de fg ^f|g ag ^fg a"D" g ^f|"G7" g a2 ag fe d|"C" (e4 "E7" e4) |
+"Am" AB cd ef gf |"Dm" ed gf ed cB |"Dm" c(d "Eb" d)c "E7" ed cB |"Am" A4 zA ce
+|:"Am" a4 e4 |"Dm" d{e} fe d"Am" c B"D7" A2 |"G" g(a a)a gf ed |"C" e4 "E" zA ce |
+"Am" a4 e4 |{^c}"Dm" d fe d"Am" c BA2 |"Dm" c(d "Eb" d)c "E7" ed cB |1 "Am" A4 zA ce :|2
+"Am" A6 z2 ||
+
+
+
+
+
+X:51
+T:De Strigat
+O:rumania
+C:Roemenie (Maramures)
+M:2/4
+L:1/8
+Q:1/4=83
+K:G
+V:1
+"D" F/G/(A A/)G/F/E/ |"G" D/E/F/A/ G/F/G/B/ |"D" A/B/A/G/ F/D/E/F/ |"G" G/F/G/A/ B/G/D/G/ |
+"D" F/G/(A A/)G/F/E/ |"G" D/E/F/A/ G/F/G/B/ |"D" A/B/A/G/ F/D/E/F/ |"G" G3/2 A/G2  |:
+{^c/}"G" d4 |{^c/}d4 |{^c/}d4 |{^c/}d4 |
+|]"G" dc c/B/A/B/ |"C" cB c/B/G |"D" A/B/(c c/)B/A/B/ |"G" c/BG/ D2) |
+dc c/B/A/B/ |"C" cB c/B/G |"D" F/G/(A A/)G/F/A/ |"G" G4 :|
+"G" DE/F/ GA/B/ |"C" cB c/B/G |"D" A/B/(c c/)B/A/B/ |"G" c/BG/ D2 |
+D)E/F/ GA/B/ |"C" cB d2 |"D7" d/B/(c c/)B/A/B/ |"G" G2 G2 |]
+
+
+
+
+
+X:52
+T:Drumul Carutelor
+O:rumania
+C:Roemenie
+M:4/4
+L:1/8
+Q:1/4=76
+K:Am
+V:1
+"Am" cd ee fe ea |aa aa "Dm" ba "E7" aa |"Am" e8 :| |:"C7" ag ga/b/ "F" a4 |
+"A7" gf ed "Dm" d3 f|"E7" e dc B"Am" A2 "Dm" d2 |
+M:3/4
+"F" cd "E7" ed cB |
+M:4/4
+"Am" A8 :|
+V:2          %2e stem
+A2 E,2 A,2 E,2 |A,2 E,2 D,2 E,2 |A,2 E,2 A,2 E,2 :| |:C,2 E,2 F,2 C,2 |
+A,2 ^C,2 D,2 A,2 |E,2 ^F,^G, A,2 D,2 |
+M:3/4
+F,2 E,2 ^G,2 |
+M:4/4
+A,2 E,2 A,2 E,2 :|
+
+
+
+
+
+X:53
+T:Hategana de la Moina
+O:rumania
+M:2/4
+L:1/8
+Q:1/4=115
+K:G
+V:1
+"G" GA Bc |de d3/2 c/|"D7" d/e/=f/ e/d/^c/d/ e/|"G" =f/e/d/ ^c/d/e/d |
+"G" GA Bc |de d3/2 c/|"D7" dg f/g/a/f/ |1 "G" g/d/e/f/ g/D/E/F/ :|2
+"G" g/d/e/f/ gG || |:"G"  (3g/f/g/ gg g|"E7" f/g/ ee3/2 d/|"Am" e/d/c cc |
+B/c/A A2 |"D" d/e/d/^c/ d/e/d/^c/ |d/e/d/c/ B3/2 A/|"G" GD/ D/^C/D/E/ F/|
+"D7" G/B/A/ F/"G" G2 :|
+
+
+
+
+
+X:54
+T:Hora Diminetii
+O:rumania
+C:Roemenie
+M:6/8
+L:1/8
+Q:1/4=80
+K:Dm
+V:1
+d3/2 A/d/A/d3/2 A/d/A/|d3/2 A/d/A/d3/2 c/B/A/|"A" ^G3/2 A/B/A/~^G3/2 F/E/F/|1 "Dm" D3/2 E/F/^G/~A3 :|2
+"Dm" Dz A,D2 z|| |:"Gm" G BG G3/2 B/A/G/|"Dm" F AF F3/2 A/G/F/|"A" E GE E3/2 G/F/E/|
+|1 "Dm" D3/2 E/F/G/A2 "D7" z:|2 fine"Dm" D3/2 A,/B,/^C/D2 z|| |:"Dm" D3/2 F/F/E/"C" E3/2 G/G/F/|"Bb" F3/2 A/A/G/"Gm" G3/2 B/B/A/|
+"A" A3/2 B/G/A/"A7" F3/2 G/E/F/|1 "Dm" D3/2 E/F/G/"A7" A3 :|2 "Dm" Dz A,D3 ||
+V:2          %2e stem
+f2 ff2 f|f2 ff3/2 a/^g/f/|~e3/2 f/^g/f/~e3/2 d/^c/d/|1 A3/2 ^c/d/e/~f2 z:|2
+F3/2 F/G/A/F2 z|| |:d gd d3/2 g/f/e/|d fd d3/2 f/e/d/|^c/ d/e3/2 ^c/f/e/d/ d/^c/A/|
+|1 A3/2 ^c/d/e/f2 z:|2 fineF3/2 F/G/A/F2 z|| |:A3/2 d/d/c/c3/2 e/e/d/|d3/2 f/f/e/e3/2 g/g/f/|
+f3/2 g/e/f/d3/2 e/^c/B/|1 A3/2 ^c/d/e/f3 :|2 F3/2 F/G/A/F3 ||
+
+
+
+
+
+X:55
+T:Hora din Negotin
+O:rumania
+C:Roemeni‰
+M:6/8
+L:1/8
+Q:1/4=185
+K:G
+V:1
+"G" DG GG AA |AB BB dB |"D" Az AA GA |"G" G2 AB3 |
+"G" GG F"G7/f" G2 A|"C/e" B Bc "Cm/eb" B2 A|"D" A zG "D/f#" GG F|"G" G2 zG2 z:| |:
+"G" d ^cd eB B|A GG Bz G|"D7" A dA AG A|"G" G2 AB3 |
+"G" d^c d"G/f" e BB |"C/e" AG G"Cm/eb" B zG |"D" Ad A"D/f#" A GA |"G" G2 zG2 z:| |:
+"Am" C3/2 _E3/2 E3/2 F3/2 |G3/2 A3/2 G3/2 E3/2 |"Em" BB AG2 F|E EF G2 z|
+"Am" C3/2 _E3/2 "Am/g" E3/2 F3/2 |"Am/f#" G3/2 A3/2 "Am/f" G3/2 E3/2 |"Em" BB A"Em/g" G2 F|"Em" G2 EE2 z:| |:
+"Em"  (3GGG F (3EEE _E|"Am" E2 CC2 C|"Em/h"  (3GGG F"B7/d#"  (3EEE _E|"Em" E EC E2 z|
+"Em"  (3GGG F"Em/d"  (3EEE _E|"A/c#" E EC "Am/c" C2 C|"Em/h"  (3GGG F"B7/d#" E E_E |"Em" E2 zE2 z:|
+
+
+
+
+
+X:56
+T:Hora doua de la goicea
+O:rumania
+C:Roemeni‰
+M:2/4
+L:1/8
+Q:1/4=120
+K:D
+V:1
+"D" c/d/ d/A/c/d/ d/A/|d f"A" e3/2 c/|"D" c/d/d/ A/c/d/d/ A/|df "A" e3/2 c/|
+"D" c/d/d/ A/c/d/d/ A/|df "A" e3/2 c/|"D" d(A A)B/c/ |1 d2 d2 :|2
+d2 d/e/f/g/ || |:"D" ab ag |df/d/ "A" e2 |d"D" f/d/ df/d/ |
+{c/}"A" e2 {c/}a2 |"D" ab ag |fe/d/ "A" e2 |d(A A)B/c/ |
+|1 "D" d2 d/e/f/g/ :|2 d2 d2 ||
+V:2          %2e stem
+dd dd |df e3/2 z/|dd dd |df e3/2 z/|
+dd dd |df e3/2 z/|d(A A)B/c/ |1 d2 d2 :|2
+d2 z2 || |:ab ag |df e2 |df df |
+e2 a2 |ab ag |fe e2 |d(A A)B/c/ |
+|1 d2 z2 :|2 d2 d2 ||
+
+
+
+
+
+X:57
+T:Hora la Patru
+O:rumania
+M:2/4
+L:1/8
+Q:1/4=
+K:Am
+V:1
+"E" ^g/b/e f(^g |^g/)f/a/^g/ f/e/f/d/ |^g/b/e f(^g |^g/)f/a/^g/ f/e/f/d/ |
+^g/b/e f(^g |^g/)f/a/^g/ f/e/d/^c/ |"Dm" d/e/f/^g/ a/b/(^g |1 ^g/)e/f/d/ "E" e/^g/b :|2
+"Dm" ^g/e/f/d/ "E" ez || |:"Am" e/aa/ aa |(a2 a/)^g/a/b/ |c'/b/a/^g/ a/b/c'/b/ |
+"E" a/b/(^g ^g/)f/e/d/ |"Dm" e/ff/ ff |(f2 f/)e/f/^g/ |b/a/a/^g/ f/e/f/d/ |
+|1 "E" e/f/^g/a/ be :|2 "E" e/f/"Dm" d/f/ "E" ez ||
+
+
+
+
+
+X:58
+T:Hora de la Virtoape
+O:rumania
+C:Roemeni‰
+M:2/4
+L:1/8
+Q:1/4=146
+K:F
+V:1
+"Dm" B/c/(d d/)c/f/e/ |d/c/f/e/ d/c/B/A/ |B/c/(d d/)^c/d/e/ |1 f/g/e/f/ d/c/B/A/ :|2
+"Dm" f/g/e/f/ dz || |:segno"Dm" da/b/ a/g/a/b/ |"Gm" gb/a/ g/e/f/^f/ |"A7" g/f/f/e/ f/g/e/f/ |
+"Dm" d/e/f/^g/ a/f/d |"Dm" da/b/ a/g/a/b/ |"Gm" gb/a/ g/e/f/^f/ |"A7" g/f/f/e/ f/g/e/f/ |
+|1 "Dm" d/A/B/^c/ d/e/f/d/ :|2 "Dm" d/A/B/^c/ d/e/f/^f/ || |:"G" g/f/f/e/ e/d/d/c/ |"C" cc/B/ c/d/e/f/ |
+"A7" g/f/f/e/ f/g/e/f/ |"Dm" d/A/B/^c/ d/e/f/^f/ |"G" g/f/f/e/ e/d/d/c/ |"C" cc/B/ c/d/e/f/ |
+"A7" g/f/f/e/ f/g/e/f/ |"Dm" d/A/B/^c/ dz :|
+
+
+
+
+
+X:59
+T:Hora Nunului Mare
+O:rumania
+C:Roemeni‰
+M:4/4
+L:1/8
+Q:1/4=112
+K:Em
+V:1
+"Em"  (3BBB  (3g2fe2 e3 |"D"  (3d2ef2  (3e(d2 d)"C" B |{(B}(c3) B/c/"Am"  (3d2cc  (3B(B|"Em" (B4) B4) :| |:
+"D" GA AA A2  (3zdc |{(_B}"G" B4) "D" A2 "G" G2 |{(^c}"D7" d4)  (3d2cc  (3B2|{(_B}"G" B4) "D7" A2 "G" G2 |
+"D" GA AA A2  (3z"D#" dc |{(_B}"Em" B4) A2  (3G2E|"B7" FG FG AG GE |"Em" E4 "A7" E4 :| |:
+"D"  (3A2FA  (3BcA  (3(A2A2)F | (3A2FA  (3BcA  (3(A2A2) |{(^c}"G" d4) "Em"  (3d2(c"Am" c2)  (3B|{(_B}"G" B4) "D7" A2 "G" G2 |
+"D"  (3A2FA  (3BcA  (3(A2A2)F |"D7"  (3A2FA  (3Bc"Dm" A  (3(A2A2)_B |"B7" BA AG GF FE |"Em" E4 E4 :|
+V:2          %2e stem
+(3ddd  (3b2ag2 g3 | (3f2ga2  (3g(f2 f)d |(e3) d/e/ (3f2ee  (3d(d|(d4) d4) :| |:
+Bc cc c2  (3zfe |{(^c}d4) c2 B2 |{(=f}f4)  (3f2ee  (3d2|{(^c}d4) c2 B2 |
+Bc cc c2  (3zfe |{(_e}e4) c2  (3B2G|AB AB cB BG |G4 G4 :| |:
+(3c2Ac  (3dec  (3(c2c2)A | (3f2df  (3gaf  (3(f2f2) |{(_b}b4)  (3b2(aa2)  (3g|{(f}g4) f2 d2 |
+(3c2Ac  (3dec  (3(c2c2)A | (3f2df  (3ga=f  (3(=f2=f2)e |_ee _ee e_e _eA |G8 :|
+V:3          %3e stem
+B4 g4 |d4 f2 B2 |c4 d4 |z2  (3Bcd  (3efg  (3fdB :| |:
+(D8 |(D8) |(D8) |(D8) |
+D6) _E2 |E4 D2 C2 |B,4 A,2 B,2 |E4 E2 ^C2 :| |:
+z8 |z8 |z8 |z8 |
+z8 |z8 |z8 |z8 :|
+
+
+
+
+
+X:60
+T:Hora nutii
+O:rumania
+C:- Roem -
+M:2/4
+L:1/8
+Q:1/4=109
+K:Am
+V:1
+"Am" A/B/c/d/ ed |ed d/c/B/A/ |A/B/c/d/ ed |ee e2 :| |:
+"G" BA AG |ed d/c/B/A/ |BA A/G/^F/G/ |"Am" AA A2 :|
+
+
+
+
+
+X:61
+T:Horra
+O:rumania
+M:2/4
+L:1/8
+Q:1/4=200
+K:Am
+V:1
+"Am" AB c_e |e2 e2 |c2 c2 |"D#" _e4 |
+"Am" e2 e2 |cA c2 |"D#" _e4 |"Am" e3 z|
+A Bc _e|e2 e2 |cA c2 |"D#" _e4 |
+"Am" e2 e2 |c2 "E7" e2 |"Am" (A4 |A2) z2 :|
+"Am" e^f ge |ag g.^f |^fe e_e |"D#" _e3 z|
+"Am" e2 e2 |c2 "D#" _e2 |"Am" e4 |e2 z2 |
+"Am" z2 (a2 |a2) (g2 |g2) (^f2 |^f2) e2 |
+"D#" _e2 _e2 |"E7" c2 e2 |"Am" A4 |A4 |]
+
+
+
+
+
+X:62
+T:Invirtita
+O:rumania
+C:Roemenie
+M:10/8
+L:1/8
+Q:1/4=136
+K:G
+V:1
+D EF2  |:"G" GA3 B2 dc3 |"G" B2 z4 DE F2 |GA3 B2 dc3 |
+B2 z4 Bc ^c2 |dd3 "E" e3 e3 |d^c de d3/2 c3/2 B3/2 A3/2 |"Am" A^G AB c3/2 d3/2 B3/2 c3/2 |
+"Am" AB3 c3 ^c3 |"D" dd3 e3 e3 |d^c de d3/2 c3/2 B3/2 A3/2 |"G" GF GA B3/2 c3/2 d3/2 e3/2 |
+dB cA BG2 AF2 |"G" G4 z2 B"D7" A F2 |1 "G" G4 z2 DE F2 :|2 "G" G4 z2 G/A/B/c/ d/e/=f/f/ || |:
+"C" g2 f2 e3 _e3 |e_e e_e e3 f3 |gf gf "F#" ag fe3 |"G" d4 "G#" H=f6 |
+ed cB A^G2 AB2 |cB cB "E7" c3 "A7" ^c3 |d^c de dB2 cA2 |1 "G" G4 B3 d3 :|2
+"G" G4 z2 B"D" A F2 |"G" G4 z2 |]
+
+
+
+
+
+X:63
+T:Joc de Leag\^ane
+O:rumania
+M:4/4
+L:1/8
+Q:1/4=
+K:Cm
+V:1
+"Cm" E6 FG |"Ab" F4 {G}F2 ED |"Cm" C2 C4 DE |F2 G6 |
+"Bb" B6 cd |"Eb" c4 {d}c2 BG |"Cm" G2 G6 |"Gm" G2 G6 |
+"Bb" B6 cd |"Eb" c4 c2 BG |"Cm" G2 G4 F2 |"Eb" E2 B,4 z2 |
+"Ab" B2 (B2 B)G GF |"F" G2 (F2 F)E DC |"Cm" C2 C6 |C2 C4 z2 |]
+V:2          %2e stem
+z2 |  |8 |C8 |
+C8 |C8 |C6 z2 |F6 F2 |
+G6 E2 |F2 E6 |D2 D4 z2 |F6 F2 |
+G6 F2 |E6 D2 |E2 B,4 z2 |E6 EC |
+D2 D6 |C2 C6 |C2 C4 z2 |]
+V:3          %3e stem
+z2 |  |8 8 |C6 B,2 |
+G,6 B,2 |C2 C6 |D2 E4 z2 |D6 B,2 |
+E6 C2 |D2 C6 |B,2 B,4 z2 |D6 B,2 |
+E6 D2 |E6 G,2 |G,2 G,4 z2 |(C6 C)G, |
+B,2 B,6 |C2 C6 |C2 C4 z2 |]
+
+
+
+
+
+X:64
+T:Joc Œn Patru
+O:rumania
+C:Roemeni‰
+C:Maramures
+M:6/8
+L:1/8
+Q:1/4=78
+K:D
+V:1
+"D" D3/2 E/D/E/F F2 |{F/}GG2 "Dm" G/=F/E D|1 "D" F F2 F3/2 E/F/G/|{^G/} A3 "A" A,2 B,/C/:|2
+"D" F F2 {E/}"A" F3/2 E/F/E/|"D" D D2 D3 || |]"D" A3/2 A/G/F/"A" E/ F/G2 |"D" FF2 ED2 |
+A3/2 {B/}A/G/F/ "A" E/F/G2 |"D" AA2 "A" A,3 |"D" D3/2 E/D/E/F F2 |GG2 {^G/}"Dm" G/=F/E D|
+"D" F F2 "A" F3/2 E/F/E/|{E/} "D" DD2 D3  |:"D" D3/2 E/D/E/F F2 |{F/}GG2 "Dm" G/=F/E D|
+|1 "D" F F2 F3/2 E/F/G/|{^G/} A3 "A" A,2 B,/C/:|2 "D" F F2 {E/}"A" F3/2 E/F/E/|"D" D D2 D3 ||
+V:2          %2e stem
+F2 GA A2 |B3 _B3 |1 AA2 AA2 |DD2 E3 :|2
+AA2 AG2 |F3 F3 || |]F3 E3 |D3 A,3 |
+F3 E3 |F3 E3 |F2 GA A2 |B3 _B3 |
+AA2 A2 G|F F2 FF2  |:F2 GA A2 |B3 _B3 |
+|1 AA2 AA2 |DD2 E3 :|2 AA2 AG2 |F3 F3 ||
+
+
+
+
+
+X:65
+T:Joc de fetes la SŒnziene
+O:rumania
+C:Roemeni‰
+C:Viseu, Maramures
+M:5/8
+L:1/8
+Q:1/4=120
+K:Gm
+V:1
+"Gm" D2 D3 |d2 d3 |"Cm" (c3 c/)B/A/B/ |c4 d|
+"D" e2 d3 |"D7" c4 B|"Gm" A G4 |(G2 G3)
+|:"Gm" D2 D3 |G2 G3 |A2 B3 |(A4 G)|
+"A" G4 ^F|A2 G3 |"D" (D2 (D3) |(D2) "D7" D3) |
+"Gm" D2 D3 |d2 d3 |"Cm" (c3 c/)B/A/B/ |(c4 d)|
+"D" e2 d3 |"D7" c4 B|"Gm" A G4 |(G2 G3) :|
+V:2          %Akkoorden2
+z2 z2 z2 z2 |z2 z2 z2 z2 |z2 z2 z2 z2 |z2 z2 z2 z2 |
+z2 z2 z2 z2 |z2 z2 z2 z2 :|z2 z2 z2 z2 |][G,B, D,]z [G,2B,2 D,2]z|
+[G,B,D,]z[G,2B,2 D,2]z|[C,E,G,]z[C,2E,2 G,2]z|[C,E,G,]z[C,2E,2 G,2]z|[D,^F,A,]z[D,2^F,2 A,2]z|
+[D,^F,A, C,]z [D,2^F,2 A,2 C,2]z|[G,B,D,]z[G,2B,2 D,2]z|[G,B,D,]z[G,2B,2 D,2]z |:[G,B,D,]z[G,2B,2 D,2]z|
+[G,B,D,]z[G,2B,2 D,2]z|[G,B,D,]z[G,2B,2 D,2]z|[G,B,D,]z[G,2B,2 D,2]z|[A,^C,=E,]z[A,2^C,2 =E,2]z|
+[A,^C,=E,]z[A,2^C,2 =E,2]z|[D,^F,A,]z[D,2^F,2 A,2]z|[D,^F,A,]z[D,2^F,2 A,2 C,2]z|[G,B,D,]z[G,2B,2 D,2]z|
+[G,B,D,]z[G,2B,2 D,2]z|[C,E,G,]z[C,2E,2 G,2]z|[C,E,G,]z[C,2E,2 G,2]z|[D,^F,A,]z[D,2^F,2 A,2]z|
+[D,^F,A, C,]z [D,2^F,2 A,2 C,2]z|[G,B,D,]z[G,2B,2 D,2]z|[G,B,D,]z[G,2B,2 D,2]z:|
+
+
+
+
+
+X:66
+T:Manastireanca
+O:rumania
+C:RO
+M:4/4
+L:1/8
+Q:1/4=225
+K:F
+V:1
+"F" f3 a"C" g3 e|"F" f2 fa "C" g3 e|"F" f2 fa "C" g3 f|"C" e2 c2 Bc de :|
+"C7" ec de "F" f2 z2 :| |:"F" cd cB A2 c2 |fe fg a2 f2 |"Bb" b2 ba ga bg |
+|1 "F" fe fg a4 :|2 "F" f6 z2 || |:"Bb" ba b3 d'c' b|"F" a3 ga c'b a|
+"C" g3 fg ba g|"F" f ef ga bc' f:|"F" f6 z2 :|
+
+
+
+
+
+X:68
+T:Neagra
+O:rumania
+C:Roemeni‰
+M:6/8
+L:1/8
+Q:1/4=320
+K:C
+V:1
+"Am" A3 d2 c|c2 Bd2 c|c2 Bd2 c|c2 BB2 G|
+A3 "Am7" d2 c|c2 B"F" d2 c|"E7" c2 B"E/g#" B2 G|"Am" A6 :|
+"C" (e6 |e3) ag |gf d3 |dc c3 |
+"G" (d6 |d3) ag |gf d3 |"C" dc c3 |
+"F" (a6 |a3) ag |gf d3 |"C" dc c3 |
+"G" (d6 |d3) ag |gf d3 |"C" dc c3  |:
+"D7" G2 B^c d2 |e2 dc2 B|G (A2 A2) G|"G" c B2 G3 |
+GA Bc de |"E7" fe dc2 B|"Am" A3 a3 |A6 :| |:
+"Am" A3 d2 c|c2 Bd2 c|c2 Bd2 c|c2 BB2 G|
+A3 d2 c|"Am/f#" c2 Bd2 c|"E7" c2 B"E/g#" B2 G|"Am" A6 :| |:
+"D7" g^f2 d3 |"G" z3 GB2 |c3 B3 |"G" cB2 G3 |
+"D7" g^f2 d3 |"G" z3 GB2 |1 "E7" c3 B3 |"Am" A3 a3 :|2
+"E7" c3 B2 ^G|"Am" A3 z3 ||
+
+
+
+
+
+X:69
+T:Polocsia
+O:rumania
+C:RO
+M:2/4
+L:1/8
+Q:1/4=216
+K:Am
+V:1
+"Am" A2 c2 |A2 c2 |A2 c2 |A2 c2
+|:"Am"  (3cBA B2 |Aa2 a| (3cBA B2 |Aa2 a|
+(3cBA B2 |Aa2 a|"E7"  (3cBA B2 |"Am" Aa2 a:| |:
+"Am" ~e2 ~a2 |~e2 ~a2 |c2  (3BAB |A/B/c/d/ e2 |
+"Am" ~e2 ~a2 |~e2 ~a2 |"E7" ~c2  (3BAB |"Am" AE A2 :| |:
+"C" ~c2 cG |~c2 ~e2 |~c2 cG |~c2 ~e2 |
+~c2 cG |~c2 ~e2 |"E7" c3/2 B/AB |"Am" AE A2 :| |:
+"Am" c3/2 B/AB |Aa2 a|c3/2 B/AB |Aa2 a|
+c3/2 B/AB |Aa2 a|"E7" c3/2 B/AB |"Am" Aa z2 :| |:
+"G" GA/B/ "C" c3/2 B/|"G" dc/ B/"C" cc |"G" GA/B/ "C" c3/2 B/|"G" dc/ B/"C" cc |
+"G" GA/B/ "C" c3/2 B/|"G" dc/ B/"C" cc |"E7" c2  (3BAB |"Am" AE Az :|
+
+
+
+
+
+X:70
+T:Pomuletul
+O:rumania
+C:- Roem -
+M:2/4
+L:1/8
+Q:1/4=115
+K:Dm
+V:1
+"F" A/c/B/c/ "Bb" dd |"C7" c/B/A/G/ "F" G/F/A/F/ |"F" A/c/B/c/ "Bb" dd |"C7" c/B/A/G/ "F" F2 :| |:
+"Gm" c/B/A/G/ "Dm" G/F/A/F/ |"A7" G/F/E/F/ "Dm" D/E/F/G/ |"Gm" c/B/A/G/ "Dm" G/F/A/F/ |"A7" G/F/E/F/ "Dm" D2 :| |:
+"F" F/A/^G/A/ "Bb" BB |"C7" A/G/F/E/ FC |"F" F/A/^G/A/ "Bb" BB |"C7" A/G/F/E/ "F" F2 :| |:
+"Gm" D/E/F "Dm" G/A/B |"A7" A/B/^c "Dm" dD |"Gm" D/E/F "Dm" G/A/B |"A7" A/B/^c "Dm" d2 :|
+
+
+
+
+
+X:71
+T:Rata
+O:rumania
+C:Roemeni‰
+M:4/8
+L:1/8
+Q:1/4=180
+K:C
+V:1
+E |:"Am"  (3A2Bc2  (3d|ea2 a| (3g2^fg2  (3a|
+e2_e  (3e2^f|g2  (3za2g | (3_bag  (3^f^f_e |"E" e2  (3ede |
+"E7"  (3fed  (3cB^G ||"Am"  (3A2Bc2  (3d|ea2 a| (3g2^fg2  (3a|
+e2_e  (3e2^f|"B7" g2  (3a2g|_b  (3ag^f  (3^f_e|"E7" e4 |
+|1 z2 zE :|2 z2 "D7"  (3ef^f ||  |:"G" g2  (3gag |(g2 g)f |
+"G7"  (3f2ed  (3dB|"C" c2  (3B_BB |"G" Gz  (3ffd | (3^cde  (3fef |
+(3gag  (3fed |"C"  (3c2ef2  (3^f|g2  (3gag |"C#" (g2 g)f |
+"Dm"  (3ffd  (3ddB |"D#" cz  (3B_BB | (3B2cd2  (3e|"Dm" f2a  (3eed |
+"E7"  (3fed  (3cB^G |1 "Am" A2  (3ef^f :|2 "Am" A2 zA ||  |:"Am" ea2 a|
+(3g2^fg2  (3a|e2  (3ede |"D7"  (3fed  (3cBA | (3Bcd  (3GBd |
+(3g^fg  (3fef |"C" e2  (3ede |"E7"  (3fed  (3cB^G |"Am/a" Aa2 a|
+"Am7/g"  (3g2^fg2  (3a|"Am6/f#" ez az |"Am/f"  (3A2^GA2  (3B|"E" cd2 c|
+(3_edc  (3BB^G |1 "Am" (A4 |A3) E:|2 "Am" (A4 |
+A3) |]
+
+
+
+
+
+X:72
+T:Rata de la Plopu
+O:rumania
+M:6/8
+L:1/8
+Q:1/4=148
+K:G
+V:1
+"G" g3 d2 e|=f2 ed2 c|B3 A2 G|B2 cd3 |
+g3 d2 e|=f2 ed2 c|B2 G"D7" A2 F|"G" G3 z3 :| |:
+"G" B3 A2 G|"Am" B2 cd2 c|"G" B3 A2 G|B2 cd3 |
+"G" B3 A2 G|"Am" B2 cd2 c|"G" B2 G"D7" A2 F|"G" G3 z3 :|
+
+
+
+
+
+X:74
+T:Trandafirul
+O:rumania
+C:Roemenie
+M:2/4
+L:1/8
+Q:1/4=96
+K:Em
+V:1
+"Em" ee E3/2 D/|"Bm" A/G/F/ G/"Em" E3/2 ^C/|"G" D/F/G/ A/B/A/A/ F/|"Bm" G/A/F/ D/"Em" E/G/B |
+"A" ee E3/2 D/|"Bm" A/G/F/ G/"Em" E3/2 ^C/|"G'" D/F/G/ A/B/A/A/ F/|"Bm" G/A/F/ D/"Em" EB :| |:
+"E" Bc B2 |"Am" A3 B/c/|"Dm" d2 cB |"Am" A4 |
+"E" Bc B2 |"Am" A3 _B|"B" B2 GF |"Em" E4 :| |:
+"G" B/A/A/G/ B/G/D/G/ |B/A/A/G/ B/G/D/G/ |B/A/A/G/ B/G/D/F/ |"Bm" G/A/F/D/ "Em" E/G/B |
+"G" B/A/A/G/ B/G/D/G/ |B/A/A/G/ B/G/D/G/ |B/A/A/G/ B/G/D/F/ |"Bm" G/A/F/D/ "Em" EB :|
+
+
+
+
+
+X:75
+T:Trilisestile
+O:rumania
+C:RO
+M:4/4
+L:1/8
+Q:1/4=145
+K:A
+V:1
+"A" AB cd ef =ge |"D" a=g fe f3 e|"E7" d cB AB cd B|1 "A" A Bc de _ee2 :|2
+"A" AE FG A2 z2 || |:"A" (ga) ae (ga) ae |"E7" dc Bd "A" ~c3 A|(g a)a e"E7" d cB d|
+"A" ~c3 AB AG A|"A" (g a)a e(g a)a e|"E" d cd ef3 e|"D" d cB A"E7" B cd B|
+"A" A EF GA2 z2 :| |:"A" EA GA BA GA |BA GA ~c3 A|"E7" d cB AB cd B|
+|1 "A" A GA Bc de2 :|2 "A" AE FG A2 z2 |].A2 .E2 .A2 ||
+
+
+
+
+
+X:76
+T:Ungurica
+O:rumania
+M:4/4
+L:1/8
+Q:1/4=160
+K:C
+V:1
+GA2 Ac2 B2 |GA2 Ac2 B2 |GA2 AG FE D|C B,2 CA,2 A,2 :| |:
+B/c/d zd d/c/d/e/ c2 |B/c/d zd d/c/d/e/ c2 |B/c/d zd d/c/d/e/ c2 |B/c/d zB A2 A2 :| |:
+G(B) B6) |^cd ef e2 d2 |dc2 Bc2 B2 |G8 |
+G(B B6) |^cd ef e2 d2 |dc2 Bc2 B2 |G(A A6) :|
+
+
+
+
+
+X:77
+T: Rustemul
+O:rumania
+R:
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: Retranscribed from Ralph Iverson's transcription.
+M: 6/8
+L: 1/8
+K: Em
+P: Intro
+| "Em"EEE Ez E | EEE Ez E | EEE Ez E | EEE Ez ||
+|: b | "Em"^aab age | ege B2b | "Em"^aab age | ege ez :|
+|: e | "Em"ege ege | ege B3 | "Am"eeg ^age | "Em"ege ez :|
+|: g | "Em"e/^d/e/d/e/f/ g2f | "Em"e/^d/e/d/e/f/ g2f | "Em"e/^d/e/d/e/f/ "Am"g2f | "Em"eeB ez :|
+|: b | "B7"BBb B2b | BBb B2b | "Em"BB^A "Am"{f}g2f | "B7"e/^d/e/d/e/f/ "Em"g^ab | ^age "Am"age | "B7"ege "Em"e"fine"z :|
+|: b | "G"d'd'd' d'bg | gbg d2b | d'd'd' d'bg | gbg gz :|
+#/home/jc/sh/abcjoin: sep=1.
+
+
+
+
+
+X:78
+T: Trilisestile
+O:rumania
+M: 4/4
+L: 1/8
+K: G
+|: "G"GABc de=fd | "C"g=fed e3d | "D7"cBAG ABcA |1,3 "G"GABc d^cd2 :|2,4 "G"GDEF G2z2 :|
+|: "G"f-ggd f-ggd | "D7"cBAc "G"~B3G | f-ggd "D7"cBAc | "G"~B3G AGFG |
+|  "G"f-ggd f-ggd | "C"cBcd e3d | "D7"cBAG ABcA | "G"GDEF G2z2 :|
+|: "G"DGFG AGFG | AGFG ~B3G | "D7"cBAG ABcA |1,3 "G"GFGA Bcd2 :|2,4 "G"GDEF G2z2 :| "G Coda".G2.D2 .G2 |]
+
+
+
+
+
+X:79
+T: Tsarina de la Abrud
+O:rumania
+R:
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/16
+K: D
+|: A2B2c2 \
+|| "D"d3c d3c | def2- f2d2 | "A7"c3B c3d | edcB ABcd |
+|  "Em"e3^d e3d | efg2- g^def | "A7"gfed cABc | "D"d2 :|
+|: z3 ^def \
+|| "Em"gbag "B7"fagf | "Em"e2e2- e^def | "Em"gbag "B7"fagf | "Em"e4- e^def |
+|  "Em"gbag "B7"fagf | "Em"egfe "D"d^def | "A7"gfed cABc | "D"d2 :|
+
+
+
+
+
+X:80
+T:Joc de Leagƒne
+O:rumania
+C:RO
+C:Dragomiresti - maramures
+M:4/4
+L:1/8
+Q:1/4=130
+K:Dm
+V:1
+"Dm" F6 GA |"Bb" G4 {A}G2 FE |"Dm" D2 D4 EF |G2 A4 z2 |
+"C" c6 de |"F" d4 {e}d2 cB |"Dm" A2 A6 |"Am" A2 A4 z2 |
+"C" c6 de |"F" d4 d2 cB |"Dm" A2 A4 G2 |"F" F2 C4 z2 |
+"Bb" c2 (c2 c)B AG |"G" A2 G2 GF ED |"Dm" D2 D6 |D2 D4 z2 |]
+V:2          %3e stem
+D8 |D8 |D8 |D6 z2 |
+G6 G2 |A6 F2 |G2 F6 |E2 E4 z2 |
+G6 G2 |A6 G2 |F6 E2 |F2 C4 z2 |
+F6 FD |E2 E6 |D2 D6 |D2 D4 z2 |]
+V:3          %2e stem
+D6 C2 |B,6 C2 |D2 C6 |E2 F4 z2 |
+E6 C2 |F6 D2 |E2 D6 |C2 C4 z2 |
+E6 C2 |F6 E2 |F6 B,2 |A,2 A,4 z2 |
+(D6 D)B, |C2 C6 |D2 D6 |D2 D4 z2 |]
+V:4          %Bas
+D,4 C,4 |B,4 C,4 |D,4 A,4 |D,4 D,4 |
+C,4 E,4 |F,4 F,4 |D,4 D,4 |A,4 A,4 |
+C,4 E,4 |F,4 E,4 |D,4 E,4 |F,4 A,4 |
+B,4 A,4 |G,4 E,4 |D,4 A,4 |D,6 z2 |]
+
+
+
+
+
+X:81
+T: Briuletul
+O:rumania
+M: 2/4
+L: 1/8
+Q: 1/4=180
+K: E
+%%MIDI gchord fzfz
+|:"E"EA2c|EAc2|"B"f/e/d f/e/d|"E"e2 c2|EA2c|EAc2|
+"B"f/e/d f/e/d|"E"e2 a2|: c/d/e =g/f/e|=g/f/e c2|c/d/e =g/f/e|
+e2 c2| c/d/e =g/f/e|=g/f/e c2| c/d/e =g/f/e|e2 a2:|:
+"B"B2fe|def2| "E"=g/f/e d=c|"B"B2 B2|B2fe|def2|"E"=g/f/e d=c|
+"B"B2 B2:|: "A"A2B2|A2B2|A2A2|A4|A2B2|A2B2|A2A2|A4:|
+
+
+
+
+
+X:82
+T:Andro
+O:rumania
+S:Ar Re Youank
+Z:<Rene.Quiniou@irisa.fr> abcusers 2000-05-24
+N:Jou\'e normalement en Sib (Sol mineur)
+M:4/4
+L:1/8
+K:C
+|: AGAB c3B   | A2c2 B3B | BAGB A3A  | A2ed c3A |\
+AGAB c2cc- | cAdc B3B | BAGB A2AB | cABc A4 :|
+|: ABAG e3e   | c2Bc d3B | AGGf e3e  | c2Ac B3B |\
+AGfd e3e   | cdec d3e | dcBc A2AB | cABc A4 :|
+
+
+
+
+
+X:83
+T: Ardeleana
+O:rumania
+Z: John Chambers <jc@trillian.mit.edu>
+N: The final 'a' should have a short mark over it.
+M: 7/16
+L: 1/16
+K: D
+|: "D"(4ABAG FG A2 |    f2e d2 c2  |  "G"B2A    GA BG | "D"(4ABAG FE D2 |
+|  "D"(4ABAG FG A2 |    f2e d4     | "A7"(4efge fd ec | "D"d3     d4 :|
+|: "D"fga    fd ef | "G"g2f ed cd  |      B2A   GA BG | "D"A2G    FE D2 |
+|  "D"(4ABAG FG A2 |    f2e dc d^d | "A7"(4efge fd ec | "D"d3     d4 :|
+
+
+
+
+
+X:84
+T: De-a-Lungul
+O:rumania
+Z: John Chambers <jc@trillian.mit.edu>
+M: 9/16
+L: 1/16
+K: G
+"A"\
+| "G"{D}G2A B2A G2D | "C"E3 "G"D3- D3 \
+| (4GFGA Bd2 "Em"cBG | "Am"A3- A3- "D7"A3 |
+| "G"G2A B2A G2D | "C"E3 "G"D3 "Em"d3- \
+| "Am"(4dedc "D7"Bc2 A2B | "G"G3- G3- "fine"G3 |]
+"B"\
+|: "G"B2c d3 d3 | (4deBc d3- d3 \
+| "Em"(4GFGA Bd2 "Am"cBG | "D7"A3- A3- A3 :|
+
+
+
+
+
+X:85
+T: Khosidl
+O:rumania
+M: 2/4
+L: 1/16
+Z: John Chambers <jc@trillian.mit.edu>
+K: Ephr^G
+|: "E"EFEF GAGF \
+| G2E2 B,2E2 \
+| GAGA BcBA \
+| B2G2 E2G2 \
+|| EGBd cBAG \
+| "Dm"AGFE D4 |
+| ^CDEF GAGF \
+| "E"GFE6 \
+:: "E"B8 \
+| B8 \
+| B4 B4 \
+| B4 B4 \
+|| "E"BcBc B3A |
+| GAGA B4 \
+| BcBc B3A \
+| "(Dm)"GAGF "E"E4 \
+|| "E"BcBc B3A \
+| GABc "Dm"d4 |
+| dccB BAAG \
+| GAGF "E"E4 \
+:: "E"G3F EDEF \
+| GAGF E4 \
+| EcBA GABc |
+| B4 e4 \
+|| "(Dm)"dcBA GABc \
+| dcBA GFED \
+| "Dm"^CDEF GAGF \
+| "E"GFE6 :|
+
+
+
+
+
+X:86
+T: Raca
+O:rumania
+M: C
+L: 1/8
+Z: 1998 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+N: For chords, play tonic throughout.  Best with just melody and drums.
+K: DLydian
+P: D lydian
+|: GB A2 G2 F2 | G2 A2 G2 F2 | GB A2 G2 F2 | MD2 MD2 MD4 :| \
+|: DF AF BF AF | DF AF BF AF | DF AF BF AF | MD2 MD2 MD4 :|
+P: G lydian
+K: GLydian
+|: ce d2 c2 B2 | c2 d2 c2 B2 | ce d2 c2 B2 | MG2 MG2 MG4 :| \
+|: GB dB eB dB | GB dB eB dB | GB dB eB dB | MG2 MG2 MG4 :|
+%%sep 5 5 200
+P: D with high harmony
+K: DLydian
+|: [GB][Bd] [A2=c2] [G2B2] [F2A2] | [G2B2] [A2=c2] [G2B2] [F2A2] | [GB][Bd] [A2=c2] [G2B2] [F2A2] | M[D2F2] M[D2F2] M[D4F4] :| \
+|: [DF][FA] [Ad][FA] [Be][FA] [Ad][FA] | [DF][FA] [Ad][FA] [Be][FA] [Ad][FA] | [DF][FA] [Ad][FA] [Be][FA] [Ad][FA] | M[D2F2] M[D2F2] M[D4F4] :|
+P: G with high harmony
+K: GLydian
+|: [ce][eg] [d2=f2] [c2e2] [B2d2] | [c2e2] [d2=f2] [c2e2] [B2d2] | [ce][eg] [d2=f2] [c2e2] [B2d2] | M[G2B2] M[G2B2] M[G4B4] :| \
+|: [GB][Bd] [dg][Bd] [ea][Bd] [dg][Bd] | [GB][Bd] [dg][Bd] [ea][Bd] [dg][Bd] | [GB][Bd] [dg][Bd] [ea][Bd] [dg][Bd] | M[G2B2] M[G2B2] M[G4B4] :|
+%%sep 5 5 200
+P: D with low harmony
+K: DLydian
+|: [G^E][BG] [A2F2] [G2E2] [F2D2] | [G2^E2] [A2F2] [G2E2] [F2D2] | [G^E][BG] [A2F2] [G2E2] [F2D2] | M[D2A,2] M[D2A,2] M[D4A,4] :| \
+K: DLydian
+|: [DA,][FD] [AF][FD] [B=G][FD] [AF][FD] | [DA,][FD] [AF][FD] [B=G][FD] [AF][FD] | [DA,][FD] [AF][FD] [B=G][FD] [AF][FD] | M[D2A,2] M[D2A,2] M[D4A,4] :|
+P: G with low harmony
+K: GLydian
+|: [c^A][ec] [d2B2] [c2A2] [B2G2] | [c2^A2] [d2B2] [c2A2] [B2G2] | [c^A][ec] [d2B2] [c2A2] [B2G2] | M[G2D2] M[G2D2] M[G4D4] :| \
+|: [GD][BG] [dB][BG] [e=c][BG] [dB][BG] | [GD][BG] [dB][BG] [e=c][BG] [dB][BG] | [GD][BG] [dB][BG] [e=c][BG] [dB][BG] | M[G2D2] M[G2D2] M[G4D4] :|
+
+
+
+
+
+X:87
+T:C{\^\i}nd eram pe ialomita
+O:rumania
+A:Roemeni\"e
+M:2/4
+L:1/8
+K:G
+"G" GG AB| "D7" c A3| "G" B G3| G4| "D" dd ef| "A7" g e3| "D" f d3-| d4|:
+"G" gg "D" aa| "G" gg d2| "C" ee ce| "D" dc "G" B2|
+"D" AA dc| "G" B2 AG| "D" d4-| d4|
+"G" gg "D" aa| "G" gg d2| "C" ee ce| "D" dc "G" B2|
+"D7" AA dc| B2 AG| "G" G4-| G4:|
+
+
+
+
+
+X:88
+T: Cetvorno Sopsko Horo
+O:rumania
+M: 7/8
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+L: 1/8
+P: in G:
+K: G
+|: "G"~B2D BD dD | "C"~c2D cB AG \
+| "D"~A2D AD cD | "G"BAB GD GA \
+| "G"~B2D BD dD | "C"edc "A"cd BG |
+| "D"~A2D AD dD |1 "D"~A2D ed dc :|2 "Am"~A3 ~A4 :| \
+|: "C"([dB][e2c]) [e2c] [d2B] | ([dB][c2G]) [c2G] [d2B] \
+| [d3B] [e2c] [d2B] | ([d2B][cG]) [c4G] :|
+|: "G"[B3G3] [B2G2] [d2B2G2] \
+| "C"[c3G3E2] [c2G2E2] [B2G2D2] \
+| "D"[A3F3D3] [A2F2D2] [c2A2F2] \
+| "G"[B2G2][AE] [G4D4] \
+| "C"[c3E3] "G"[d2F2] "C"[e2G2] \
+| "D"[d2F2][cE] [c2E2] [B2F2D2] \
+| "Dm"[d3A3] [A4F4] \
+| "Am"[A3E3] [A4E4] :|
+%
+P: in D:
+K: D
+|: "D"~f2A fA aA | "G"~g2A gf ed \
+| "A"~e2A eA gA | "D"fef dA de \
+| "D"~f2A fA aA | "G"bag "E"ga fd |
+| "A"~e2A eA aA |1 "A"~e2A ba ag :|2 "Em"~e3 ~e4 :| \
+|: "G"([af][b2g]) [b2g] [a2f] | ([af][g2d]) [g2d] [a2f] \
+| [a3f] [b2g] [a2f] | ([a2f][gd]) [g4d] :|
+|: "D"[f3d3] [f2d2] [a2f2d2] \
+| "G"[g3d3B2] [g2d2B2] [f2d2A2] \
+| "A"[e3c3A3] [e2c2A2] [g2e2c2] \
+| "D"[f2d2][eB] [d4A4] \
+| "G"[g3B3] "D"[a2c2] "G"[b2d2] \
+| "A"[a2c2][gB] [g2B2] [f2c2A2] \
+| "Am"[a3e3] [e4c4] \
+| "Em"[e3B3] [e4B4] :|
+%
+P: in A:
+K: A
+|: "A"~c2E cE eE | "D"~d2E dc BA \
+| "E"~B2E BE dE | "A"cBc AE AB \
+| "A"~c2E cE eE | "D"fed "B"de cA |
+| "E"~B2E BE eE |1 "E"~B2E fe ed :|2 "Bm"~B3 ~B4 :| \
+|: "D"([ec][f2d]) [f2d] [e2c] | ([ec][d2A]) [d2A] [e2c] \
+| [e3c] [f2d] [e2c] | ([e2c][dA]) [d4A] :|
+|: "A"[c3A3] [c2A2] [e2c2A2] \
+| "D"[d3A3F2] [d2A2F2] [c2A2E2] \
+| "E"[B3G3E3] [B2G2E2] [d2B2G2] \
+| "A"[c2A2][BF] [A4E4] \
+| "D"[d3F3] "A"[e2G2] "D"[f2A2] \
+| "E"[e2G2][dF] [d2F2] [c2G2E2] \
+| "Em"[e3B3] [B4G4] \
+| "Bm"[B3F3] [B4F4] :|
+%
+P: in E:
+K: E
+|: "E"~g2B gB bB | "A"~a2B ag fe \
+| "B"~f2B fB aB | "E"gfg eB ef \
+| "E"~g2B gB bB | "A"c'ba "F"ab ge |
+| "B"~f2B fB bB |1 "B"~f2B c'b ba :|2 "F#m"~f3 ~f4 :| \
+|: "A"([bg][c'2a]) [c'2a] [b2g] | ([bg][a2e]) [a2e] [b2g] \
+| [b3g] [c'2a] [b2g] | ([b2g][ae]) [a4e] :|
+|: "E"[g3e3] [g2e2] [b2g2e2] \
+| "A"[a3e3c2] [a2e2c2] [g2e2B2] \
+| "B"[f3d3B3] [f2d2B2] [a2f2d2] \
+| "E"[g2e2][fc] [e4B4] \
+| "A"[a3c3] "E"[b2d2] "A"[c'2e2] \
+| "B"[b2d2][ac] [a2c2] [g2d2B2] \
+| "Bm"[b3f3] [f4d4] \
+| "F#m"[f3c3] [f4c4] :|
+
+
+
+
+
+X:89
+T: Cetvorno Horo
+O:rumania
+M: 7/16
+L: 1/16
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: From a 1979 Mandala transcription
+K: Am
+P: A:
+|::: "Am"deA ed eA | "Dm"cdA dc dA | "Am"BcA ~c2 "Em"BG |1,3 ABG "Am"AB cd :|2,4 ABG "Am"A2 A2 :|
+P: B:
+|::: "Am"BcA ~c2 "Em"BG | "Am"ABd ~c2 "Em"BG | "Am"BcA ~c2 "Em"BG |1,3 ABG "Am"~A2 AE :|2,4 ABG "Am"A2 A2 :| [K:G]
+P: C:
+|::: "G"d3 de dc | ~B2G AG dc | "D7"~B2A AG AB |1,3 G2"G"D d2 :|2,4 G2"G"D G2 z2 :|
+P: D:
+|::: "Em"G2A "D"GF EF | "G"G2D dc ~B2 | "D7"GA2 GF EF |1,3 G2"G"z dc ~B2 :|2,4 G2"G"D G2 z2 :| [K:Am]
+P: E:
+|: "Am"AGA Bc ~cB | BGA BG ~A2 | AGA Bc ~cB | BGA BG ~A2 :|
+P: F:
+K: A_B^c
+[| "A"ABG ~A2 AE | ABG ~A2 AE | ABG ~A2 AE | ABG ~A2 A2 ||
+|| "A"cdB ~c2 cB | ABG ~A2 AE | cdB ~c2 cB | ABG ~A2 A2 |]
+
+
+
+
+
+X:91
+T:Jocul Dea Longul
+O:rumania
+L:1/8
+M:2/4
+P:AABBB
+Q:1/4=120
+K:F
+P:A
+FGAB| c2 =B2| c2 A2| BABG| A2 ^G2| A2 F2| cBcA| B2 A2| B2 G2|
+AGAF| G2 F2| G4 |FGAB| c2 =B2| c2 A2| BABG| A2 ^G2| A2 c2|
+c=Bcd| c2 C2| D2 E2| F4 |F4|
+P:B
+FGAB| c2 d2 |e2 f2| B4-|B2 c2|
+c=Bcd| c2 C2| D2 E2 |F4| F4|
+
+
+
+
+
+X:92
+T:Jocul De-a Lungul
+O:rumania
+L:1/8
+M:2/4
+P:AABBB
+Q:1/4=120
+K:F
+P:A
+FGAB| c2 =B2| c2 A2| BABG| A2 ^G2| A2 F2| cBcA| B2 A2| B2 G2|
+AGAF| G2 F2| G4 |FGAB| c2 =B2| c2 A2| BABG| A2 ^G2| A2 c2|
+c=Bcd| c2 C2| D2 E2| F4 |F4|
+P:B
+FGAB| c2 d2 |e2 f2| B4-|B2 c2|
+c=Bcd| c2 C2| D2 E2 |F4| F4|
+
+
+
+
+
+X:93
+T: Boiereasca
+O:rumania
+S: Dick Crum, Ron Wixman
+M: 4/4
+L: 1/16
+K: Ador
+E2 \
+| "Am"A3B c2e ^d2c2 e4 \
+| ^defg agfe fedc dcBA \
+| ^defg agfe d3c dcBA |
+| ^deae agfe d2e2 z2E2 \
+|| "Am"A3B c2e ^d2c2 e4 \
+| ^defg agfe fedc dcBA |
+| A^GAE cBcA e^dec g4 \
+"\=>Coda"\
+| "B7"fe^dc "E7"dcBA BcA2 z2 \
+:: e2 \
+| "Am"a3e agfe aeae agfe |
+| c'bag fe^dc d3c dcBA \
+| BcAc ^dece gfed "E7"e4 \
+|| "Am"a3e agfe aeae agfe |
+| c'bag fe^dc B2c2- c2ce \
+| "B7"^d3c "E7"cBBA "Am"A4 z2 \
+:|[K:Amix=g]|: e2 \
+| "A"c16 |
+| {^d}e16 \
+| cdef gfed dccB BAe2 \
+| ^deee eeee agfe ^d2e2 |
+| ^defg agfe =c'bag fe=dc \
+| "B7"^defe "E7"=d3c "A"^BcA2 z2 :|\
+"Coda"\
+[| "E7"ze^de =f^f=g^g "A"a2z2 "E7"e2z2 "Am"HA4 |]
+#/home/jc/sh/abcjoin: sep=1.
+
+
+
+
+
+X:94
+T:Hora ca din la caval
+O:rumania
+R:hora
+Z:Transcribed by Henrik Norbeck.
+M:C|
+K:Ador ^d
+"Am"e2d2 "Am/E"e2d2|"Am"cAc2 "D#dim"d3c|"E"e2d2 "E/G#"cAc2|"Am"deec "Am/E"e4|
+[1 "Am"e2d2 "Am7/G"e2d2|"F#m7b5"cAc2 "D#dim"d3c|"E"e2d2 "E/G#"ceec|"Am"A4 A4:|
+[2 "Am"ABcd "Am7/G"e2d2|"F#m7b5"cAc2 "D#dim"d3c|"E"e2d2 "E/G#"ceec|"Am"A4 A4||
+|:"Am"ABcd "Am/E"e2d2|"Am"cAc2 "D#dim"d3c|"E"e2d2 "E/G#"cAc2|"Am"deec "Am/E"e4|
+"Am"ABcd "Am7/G"e2d2|"F#m7b5"cAc2 "D#dim"d3c|"E"e2d2 "E/G#"ceec|"Am"A4 A4:|
+|:"C"efgf "C/G"aggf|"C"feed "D#dim"dddc|"E"e2d2 "E/G#"cAc2|"Am"deec "Am/E"e4|
+"Am"a2a2-"Am7/G"a2g2|"F#m7b5"fefe "D#dim"dddc|"E"e2d2 "E/G#"ceec|"Am"A4 A4:|
+
+
+
+
+
+X:95
+T:Romanian Tune
+O:rumania
+M:2/4
+L:1/16
+K:Ador
+eeee eccc|cA^de fffe|^dddd dccc|cA^GA B4:|
+|:EF^GA BBBE|cccA BBBE|cccA BBBB|cA^GA B4:|
+
+
+
+
+
+X:96
+T:Hora Lautareasca
+O:rumania
+M:C|
+K:Bm % But C natural and D sharp (nearly) all the time.
+% The scale is really B c ^d e ^f g a b
+B^df|:b^a^c'b b^a^c'b|b^a^c'a b3^g|=a^gba a^gba|a^gbg a2B2|z^def =ge^ab|
+^c'2b^a gefg|1 =a2gf e^deg|f3B ^dfa2:|2 =a2gf efe^d|^dB=cA B3e||
+|:^defg afg2|e^deg fffB|ggg2 fffB|ggg2 fffe|^defg afg2|e^deg fffB|
+g2fg efe^d|1 ^dB=cA B3e:|2 ^dB=cA B3B|:B=cAB =cABc|^dB=cd e^d=cB|
+AB=c^d efe^d|1 ^dB=cA B^df2|B=cAB =cABc|^dB=cd e3a|aggf efe^d|
+^dB=cA B3B:|2 ^dB=cA B3g|a^gba a=ggf|fee^d d=ccB|AB=c^d efe^d|^dB=cA B4||
+
+
+
+
+
+X:97
+T: Khosid dance
+O:rumania
+A:transylvania
+D: "Muszik\'as - The Lost Jewish Music of Transylvania (Hannibal 1373)
+Z: John Chambers <jc@trillian.mit.edu>
+R: cs\'ard\'as
+M: 2/4
+L: 1/16
+K: Dm
+|: "Dm"A2d^c d2e2 | {g}f2f2 e2{fe}d2 | f2f2 e2{fe}d2 | fefg fed2 |
+|      A2d^c d2e2 | f2{ef}gf e2{fe}d2 | {g}f2f2 "A7"ed^ce |1 "Dm"d2 d6 :|2 "Dm"d2 d4 "C7"c2 ||
+|: "F"a2a2 ag^f2 | "C"g2g2 g2fe | "F"f2g2 fede | "(Dm)"f4 d2fg |
+|  "F"a2a2 ag^f2 | "C"g2g2 "(A7)"g2fe | "Dm"f2g2 "(A7)"fgfe |1 "Dm"dA=B^c defg :|2 "Dm"d2 d6 |]
+
+
+
+
+
+X: 0
+T: Alunelul
+K: C
+
+
+X: 1
+P: Alunelul
+O: Romania
+Z: John Chambers <jc@trillian.mit.edu>
+M: 1/2
+L: 1/8
+K: F
+(3[AF][BG][=B^G] \
+|: "F"[cA]>[=B^G] [cA]>[dB] | "C7"[cA]>[BG] [AF]>[GE] \
+| "F"M[F2C] "C"M[G2E] | "F"[A2F] (3[A/F][B/G][=B/^G] \
+| "F"[cA]>[=B^G] [cA]>[dB] | "C7"[cA]>[BG] [AF]>[GE] \
+| "Dm"M[F2D] "A7"M[E2^C] | "Dm"[D4] :|
+(3CDE \
+|: "F"[F2C] [A2F] | "C7"[G2E2]>>[E2C2] \
+| "F"[F2C] [A2F] | [c4A] \
+| "F"[F2C] [A2F] | "C7"[G2E2]>>[E2C2] \
+| "Dm"M[F2D] "A7"M[E2^C] | "Dm"[D4] :|
+
+X: 2
+P: Alunelul
+O: Romania
+Z: John Chambers <jc@trillian.mit.edu>
+M: 1/2
+L: 1/8
+K: G
+(3[BG][cA][^c^A] \
+|: "G"[dB]>[^c^A] [dB]>[ec] | "D7"[dB]>[cA] [BG]>[AF] \
+| "G"M[G2D] "D"M[A2F] | "G"[B2G] (3[B/G][c/A][^c/^A] \
+| "G"[dB]>[^c^A] [dB]>[ec] | "D7"[dB]>[cA] [BG]>[AF] \
+| "Em"M[G2E] "B7"M[F2^D] | "Em"[E4] :|
+(3DEF \
+|: "G"[G2D] [B2G] | "D7"[A2F2]>>[F2D2] \
+| "G"[G2D] [B2G] | [d4B] \
+| "G"[G2D] [B2G] | "D7"[A2F2]>>[F2D2] \
+| "Em"M[G2E] "B7"M[F2^D] | "Em"[E4] :|
+
+
+

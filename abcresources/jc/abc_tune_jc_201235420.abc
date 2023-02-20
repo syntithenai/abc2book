@@ -1,0 +1,24 @@
+X: 21132
+T: the ANTWERP WALTZ
+C: Labitsky.
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.113 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4	% Actually, no time signature is given.
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+D2DDDD | D2F2A2 | F2A2d2 | dcecA2 |\
+A2AAAA | A2c2e2 | e2B2c2 | d4 |]\
+A2 |\
+B2A2G2 | E2E2A2 | B2A2F2 | D2D2z2 |\
+D2DDDD | D2F2A2 | G2B2c2 | d4 |]
+D2 |\
+D2F2G2 | A2d2A2 | B2d2B2 | A2d2A2 |\
+G2BABG | F2AGAF | E2GFGE | D4 |]\
+A2 |\
+(B4A2) | (d4c2) | (e4^d2) | (f4e2) |\
+(gf)(ed)(cB) | (B2A2) A2 | A2B2c2 | d4z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,28 @@
+X: 31552
+T: COTILLION No. 39. CONCERT HALL SETT tune 5
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.155 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+FG |\
+A4 (BA)FG | A2f2 d4 | e2fe B2c2 | dcde f2FG |\
+A4 (BA)FG | A2f2 d4 | e2fe B2cd | d2f2d2 H|]
+a2AA A2a2 | f2dd d2f2 | {^g}a2AA a2a2 | (f4 d2)f2 |\
+{^g}a2AA A2a2 | f2dd d2f2 | {^g}a2AA A2a2 | d6 "^D.C."z2 |]
+{^g}a3ef3d | (e3d) B2Bc | .d2(de) .f2(fg) | b2a2 a4 |\
+(d3ef3d) | (d3c)(B3A) | {^c}d4 z2(FA) | D6 "^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% cross back,
+%% balance and swing round.
+%% Sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

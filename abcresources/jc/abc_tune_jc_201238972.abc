@@ -1,0 +1,22 @@
+X: 3183
+T: Jockey Latin.   a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.3 p.18 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+(G/A/B/c/) d.g dBBg | dBBg {e}d2cB |\
+(G/A/B/c/) d.e dBBg | aA-A>B (A/B/c) TB>A :|\
+(G/A/B/c/) d.B ecdB | (G/A/B/c/) dB {e}d2cB |
+(G/A/B/c/) d.B ecdB | cA-A>B (A/B/c) TB>A ||\
+(G/A/B/c/) d.B ecdB | (G/A/B/c/) d.B {e}d2cB |\
+(G/A/B/c/) d.B ecdB | aA-A>B (A/B/c) TB>A |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g2g2 g2g2 | g2g2 g2g2 | g2g2 g2g2 | a2a2 a2a2 :| g2g2 g2g2 | g2g2 g2g2 |
+g2g2 g2g2 | a2a2 a2a2 || g2g2 g2g2 | g2g2 g2g2 | g2g2 g2g2 | a2a2 a2a2 |]

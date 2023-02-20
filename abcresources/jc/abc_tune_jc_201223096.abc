@@ -1,0 +1,23 @@
+X: 6
+T: Gen.l Lake's Waltz
+%R: waltz
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.3 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: C
+((3GAB) |\
+c2c2c2 | A2A2A2 | f>dc2B2 | cegege |\
+c2c2c2 | A2A2A2 | d2f2B2 | c4 :|
+|: gf |\
+e2g2g2 | fgagaf | d2f2f2 | efgfge |\
+g2c'2e2 | g2c'2e2 | gfe2d2 | c4 :|
+|: c2 |\
+B2d2f2 | c2e2g2 | B2d2f2 | c4c2 |\
+B2d2f2 | c2e2g2 | B2dcdB | [c4E4] :|
+%%begintext align
+%% Hands across half round and back again, Cast
+%% off and hands 4 round with 2d Cu: turn your
+%% Partner, Poussette with the top Cu:
+%%endtext

@@ -1,0 +1,19 @@
+X: 20082
+T: Jockie was the Blythist Lad in all our Town
+%R: air, march, reel
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.8 #2
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Added missing bar line between bars 9,10.
+M: 2/4
+L: 1/16
+K: F	% and Dm
+%%slurgraces 1
+%%graceslurs 1
+|:"_Slow"\
+f2e2 f2ga | g2(fe) (Td2^c2) | d4 (de)f2 | A6 d2 |\
+c2(Ac) {A}TG2F2 | G4 (GA)B2 | A4 (Td3^c) | d6 :|
+|: a2 |\
+(a2f2)(f2a2) | {ab}c'6 a2 | g3a (gede) | c6 c2 |\
+d2f2 d2(cA) | (cdcA) G2d2 | c2(Ac) (TG3F) | F6 G2 |
+(A2G2) A2(fd) | {d}c2(BA) (TG2F2) | (GFGA) Td2(cA) | {A}G6 c2 |\
+A2(GF) (f2g2) | a2(gf) g2a2 | A4 {g}f2(ed) | d6 :|

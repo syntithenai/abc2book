@@ -1,0 +1,28 @@
+X: 21382
+T: REPUBLICAN SETT (tune 2)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.138 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="2"
+B2 |\
+ABAB A2d2 | ABAB A2f2 | e2d2 A2f2 | e2de a2B2 |\
+ABAB A2d2 | ABAB A2f2 | e2ce a2c2 | d2f2d2 H|]
+|: cd |\
+e6 fg | a4 afdf | A6 Bc | defg a2a2 |\
+e6 fg | a4 afdf | A6 Bc | d2f2"^D.C."d2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance to partners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

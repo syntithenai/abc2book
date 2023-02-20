@@ -1,0 +1,29 @@
+X: 282
+T: MASTER F. SITWELL
+C: NATH. GOW
+R: Strathspey
+B: Glen Collection p.28 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Bb
+%
+V: 1
+DE |\
+F3B D3B G4 E2G2 | ~F3f edcB A2c2 c2de | d2B2 F2D2 G4 E3G | ~F3B A3c {Bc}d2B2B2 :|
+ef |\
+f3d g3e Tf4 {=ef}d2g2 | fd3 g3B A2c2 c2de | f3d g3e f3d b3d | (ed).c.B A2f2 d2B2 B2de |
+f3d g3e Tf4 {=ef}d2g2 | fd3 g3B A2c2 c2de | .f2.d2 .B2.F2 G3A/B/ E3G | F3B A3c {Bc}d2B2B2 |]
+%
+V: 2
+z2 |\
+B4[b4f4] e4[b4g4] | d4[b4f4] [c'4f4][a4f4] |\
+[b4B4][b4B4] [b4e4][b4e4] | [f4d4][f4c4] [f4B4][f2B2] :|
+z2 |\
+[b4f4B4][a4f4c4] [b4f4d4][b4f4B4] | B4b4 [c'4f4][a4f4] |\
+[b4f4B4][a4f4c4] [b4f4d4][b4f4B4] | [a4f4][c'4f4] b4B4 |
+[b4f4B4][a4f4c4] [b4f4d4][b4f4B4] | B4b4 [c'4f4][a4f4] |\
+[b4f4B4][b4f4d4] [b4e4][b4e4] | [b4d4]f4 [f4B4][f2d2B2] |]

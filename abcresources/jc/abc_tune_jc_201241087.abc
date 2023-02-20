@@ -1,0 +1,29 @@
+X: 422
+T: the Wives of Torphican
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.42 #2 & p.43 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Bar 2 has a mark before the C that may be a natural sign, but the bass line has no such marks.
+N: Removed dots from last bass notes in each strain.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+TF2D DFA | ECE G2E | TF2D DFA | DED f2d |\
+(ga/g/f/e/) (fg/f/e/d/) | eEE E2A | TF2D A(d/c/B/A/) | FDD D2 :|
+|: f |\
+(f>ef) def | gaf efg | (Tf>ef) def | (ab/a/g) Tf2d |\
+g(a/g/f/e/) f(g/f/e/d/) | eEE E2A | TF2A (Bd/c/B/A/) | dDD D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d3 d3 | c3 c3 | d3 d3 | d3 d3 |\
+g3 f3 | e3 e3 | d3 d3 | d3 d2 :|
+%page 43
+|: z |\
+d3 d3 | e3 e3 | d3 d3 | d3 d3 |\
+e3 d3 | A3 A3 | d3 d3 | d3 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

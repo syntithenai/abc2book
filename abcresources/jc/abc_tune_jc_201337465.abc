@@ -1,0 +1,39 @@
+X:1
+T:Example
+N:From Simon Wascher 2018/1/4
+N:Added bar lines and lyrics as an additional test. [jc]
+M:3/4
+L:1/8
+K:G ionisch
+%%score 1 2 3 4 5 6 7 8 9 10 11 12 13 14
+V:1 name=V:1 staves=2
+A |
+w: Lyric1
+V:2 name=V:2
+B |
+V:3 name=V:3
+C |
+V:4 name=V:4
+D |
+V:5 name=V:5
+E |
+V:6 name=V:6
+F |
+V:7 name=V:7
+G |
+V:8 name=V:8
+a |
+V:9 name=V:9
+b |
+V:10 name=V:10
+c |
+V:11 name=V:11
+d |
+V:12 name=V:12
+e |
+V:13 name=V:13
+f |
+V:14 name=V:14
+g |
+w: Lyric2
+%%text Text text text text text text text.

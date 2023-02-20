@@ -1,0 +1,25 @@
+X: 1
+T: H\"alsa dem der hemma
+O: Sweden
+R: waltz
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+| "D"A2 B | "C#aug"A2B | "D"A2 G | F2 z \
+| "G"d2 e | "F#aug"d2 e | "G"d2 c | B2 z \
+| "G"d2 B | A2 G | "D"F2 G | A3 \
+| A2 A | "Em"G2 F | "A7"E3- | E2 z |
+| "D"A2 B | "C#aug"A2B | "D"A2 G | F2 z \
+| "G"d2 e | "F#aug"d2 e | "G"d2 c | B2 z \
+| "G"B2 c | d2 e | "D"f2 d | A2 F \
+| "A7"A2 G | F2 E | "D"D3- | D2 z |]
+[| "D"d2 d | c2 c | "Em"B3 | G2 z \
+| "A7"c2 c | B2 B | "D"A3- | A2 z \
+| "B7"B2 B | A2 A | "Em"G3 | E2 z \
+| "A7"A2 A | G2 G | "D"F3- | F2 z |
+| "D"d2 d | f2 f2 | "Em"e3 | B2 z \
+| "A7"c2 c | e2 e | "Bm"d3- | d2 z \
+| "D"d2 d | A2 B | "G"c3 | B2 z \
+| "A7"A2 A | B2 c | "D"d3- | d2 z |]
+

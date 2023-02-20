@@ -1,0 +1,46 @@
+X: 1022
+T: Morgiana in Ireland
+%R: jig
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1810, No. 10 p.2 #2
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances5
+N: This is version 1, for ABC software that doesn't understand diminuendo/crescendo notation.
+%%slurgraces 1
+%%graceslurs 1
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+[|\
+.F2(F .B2)B | {d}c=Bc d2("^>"G | .F2)(F .B2)c | [d2B2]e eB(G |\
+.F2)(F .B2)B | {d}c=Bc d2g | gfe dec | ~B2c dBG |]
+[|\
+f2f fed | g2a b3 | ~fgf fed | g2a bfd |\
+f2f fed | ~g>ag gab | (fge dec) | {c}BAB dBG |]
+[|\
+"^8va  _  _  _"\
+{c}BAB (d<f)z | {d}c=Bc (e<g)z | {c}BAB B2c | d2e dBG |\
+{c}BAB (d<f)z | (e<g)z (d<f)z | (g<b)z (d<f)z | ~B2c dBG |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=D
+[|\
+(d3 B3 | A3 B2)("_>"e | d2)d B2"_>"[^fA] | [g3-G3-] [g2G2]("_>"[eA] |\
+[d2B2])[dB] [d2B2][dB] | [f2e2A2][feA] [f2d2B2]e | edc B2[d^F] | ([d3G3] [B3G3]) |]
+[|\
+[B3D3] [B3B,3] | [B3E3] [B3D3] | [B3D3] [B3B,3] | [B3E3] [B3D3] |\
+[B3D3] [B3B,3] | [B3E3] [B3E3] | ([B2D2][cE] [d2F2][e^F]) | ([d3G3] [B3G3]) |]
+[|\
+"^Dolce"\
+Bdf Bdf | Beg Beg | Bdf Bdf | "_dim. . ."^FAd GBd |\
+Bdf Bdf | Beg Bdf | Beg Bdf | GBd GBd |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set and hands across half round
+%% same back again
+%% down two Couples up one
+%% and right and left
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

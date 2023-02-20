@@ -1,0 +1,16 @@
+X: 387
+T: Ellis' Jig
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #387
+R: single jig
+%S: s:4 b:16(4+4+4+4)
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0387/oneill-1001-0387-1.abc
+M: 6/8
+L: 1/8
+K: G
+"^A"[|]\
+  D | G>AG B2G | c2A F2D | G>AG B2c | d2g B2 ||
+| c | dge =f2d | cAG F2A | d>ed cBA | G3  G2 :|
+"^B"|:\
+  d | g2d B2G | c2A F2D | g2d  B2c | dde f2 ||
+| e | dge f2d | cAG F2A | d>ed cBA | G3  G2 :|

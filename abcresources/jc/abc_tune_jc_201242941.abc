@@ -1,0 +1,17 @@
+X:721
+T:Sixth Infantry
+C:Walch
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 72
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+MA2|f2z2 (Te4|d4) z2d2|c2d2c2d2|fAeA dcBA|(f4 e4)|d2 b4 ^g2|
+a2z2 cdef|d4 z2::(cd)|(e4 c2) cd|fece a3^g|f2a^g f2ag|f2 zF ^G^ABc|d6-dc|
+{c}B2^A2B2=A2|(^Gfe^d) (fe=d)B|A4 z2::A2|A2(3(BA^G) A4-|A>cd>e Lf4|A2(3(BA^G) A4-|
+A2=GF E>BA>G|F2(3(BA^G) A4-|A>cd>e f4-|f>Fd>c B>Ec>B|A4z2::d2|d>fg>a b4|
+b2a>^g a>de>f|=g2f>a g2f>a|g4 z2A2|A2(3(BA^G) A4-|A>cd>e Lf4|A2(3(BA^G) A4-|
+A2=G>F E>BA>G|F2(3(BA^G) A4-|A>cd>e f4-|[1 f>Fd>c B>Ec>B|A4 z2:|[2 f>Ad>f e>Ac>e|d4 z2||

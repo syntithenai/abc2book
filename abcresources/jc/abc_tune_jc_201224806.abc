@@ -1,0 +1,54 @@
+%%text RJ Set 088
+
+
+X: 1
+T: Verret's
+R: reel
+M: C|
+L: 1/8
+K: D
+|:\
+"D"fedf "Bbdim"edBc | "Bm"dB (3BBB "G"BAFD |\
+"D"A,DFA "D#dim"cBAG | "Em7"FAde "A"fede ||\
+"D"fedf "Bbdim"edBc | "Bm"dB (3BBB "G"BAFD |
+"D"A,DFA "Em7"cBAG |[1 "A"FDEF "D"D3e :|[2 "A"FDEF "D"D2 AG |:\
+"D"FDA,D FDDF | "C"E=CEG B2 AG | "D"FDAD FAAA |
+"G"BA"A"cA "D"d2 AG || "D"FDA,D FDDF |\
+"C"E=CEG B2 AG | "D"FAdf "Em7"edce |\
+[1 "A"dfec "D"d2 AG :|[2 "A"dfec "D"d4 |]
+
+
+X: 2
+T: Reel des Esquimaux
+R: reel
+M: C|
+L: 1/8
+K: G
+(3DEF |\
+"G"G3G GEDC | B,G,"D"A,C "G"B,G,G,2 | "G"B,DGB "G#dim"cBAG | "Am7"FGAB "D"A2 (3DEF |\
+"G"GFGA GEDC |
+B,G,"D"A,C "G"B,G,G,2 | "G"B,DGB "Am7"cBAG | "D"FDEF "G"G2 :: Bc |\
+"G"d3e dcBd | "C"g2ga "Am"gedc |
+"G"BGBd "G#dim"cBAG | "Am7"FGAB "D"A2Bc |\
+"G"d3e dcBd | "C"gfga "Am7"gedc | "G"BGBd "Am7"cBAG | "D"FDEF "G"G2 :|
+
+
+X: 3
+T: Fleur de Mandragore
+C: Michel Bordeleau
+R: Reel
+L: 1/8
+M: C|
+K: A
+"^A"|:\
+"A"EGAE GABA | Aced cA2{A}A |\
+"F#m/C#"EGAE GABB- | BABd cA2{A}A ||\
+"D"EGAE GABA | Aced cA2{A}A |
+"E"EGAE GABB- |[1 BABd cAA2 :|[2 BABc Aceg "^B"|:\
+"A"a4 a2 ga | "Bm"bAaA (3gag ec |\
+"D"dfed cABc | "E"defg agfe ||
+"A"a4 a2 ga | "Bm"bAaA (3gag ec |\
+"D"dfed "A"cABc |\
+[1 "E"dcBc "A"Aceg :|[2 "E"dcBc "A"BA A2 |]\
+["Final""E"dcBc "A"Aceg | "A"a4 a2z2 |]
+

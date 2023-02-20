@@ -1,0 +1,44 @@
+X: 21461
+T: the MINUTE GUN AT SEA
+C: M. P. King.
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.146 (and p.147 #1)
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 layout arranged for small-scale, compact 6-staff score.
+V: 1 staves=2
+fed | (ag)f | (ef)d | c2a | a2f | b2d | (dc)d | {f}He3 |] [M:3/4]\
+z3 | z6 | z6 | z6 | z6 | Hz6 |] [M:C]
+d2 f>e d2 A2 | f2 a>g f2 za | a>bgz g>afz | fg/a/ gf e2 ze |\
+f2 d2 B2 e2 | A4 z2A2 | e3f (gB)(cA) | d2 f2 a2 zd |\
+e3f (gB)(cA) | d2 f2 Ha2 zA |
+dd3 A3A | F4 z4 |\
+z8 | z4 z2f2 | a3g (fe)(dc) | "cresc."B2b2 Ha3g |\
+fa3 e3e | d4z4 |] z8 | z8 | z8 | z8 |
+z8 | z8 | z8 | z8 | z8 | z4 Hz2z2 |\
+z8 | z4 z2d>d | f3f d3d | A4 z4 |\
+f2 f>e (dc)(BA) | G2 g2 Hf2 f>e |
+d3f A3A | F4 z4 |]\
+[M:2/4] A |\
+d>f (e/d/)(e/c/) | dfaz | z4 | z2 za | abga | fgee | fgef | de HcA/A/ |
+"^ad lib."d2 A2 |\
+F2 z2 | z4 | Hz2 zf/g/ | a>g f/e/d/c/ | Bb/>b/ Ha>g | f<aHe>e | d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout (8 staffs with about 8 bars each).
+V: 2
+z3 | z3 | z3 | z3 | z3 | z3 | z3 | Hz3 |] [M:3/4]
+eee | a3 ede | {d}c2z eef |
+g4 b2 | a4 g2 | Hf6 |] [M:C]\
+z8 | z8 | z8 | z8 | z8 |
+z8 | z8 | z8 | z8 | z4 Hz2z2 | z8 | z4 z2d2 | ff3 d3d |
+A4 z2d2 | f3e (dc)(BA) | "cresc."G2g2 Hf3e | df3 A3A | F4 z4 |] d2f>e d2A2 | f2(a>g) f2za | (a>b)gz (g>a)f>f |
+fagf e2ze | f3d d2e2 | A4 z4 | e>ee>f (gB)(cA) | d2f2 a2z2 | e2e>f (gB)(cA) | d2f2 Ha2 A>A |
+d3d A3A | F4 z4 | z8 | z8 | a2 a>g (fe)(dc) | B2 b2 Ha2 a>g | f3a e3e | d4 z4 |]\
+[M:2/4] z |
+z4 | z2 zA/A/ | d>f (e/d/)e/c/ | dfaf | fgef | decA | abga | fgHez | z4 |
+z2 zd/d/ | f2 d>d | HA3 d/e/ | f>e d/c/B/A/ | Gg/>g/ Hf>e | "^ad lib."d<fHA>A | F4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

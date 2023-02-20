@@ -1,0 +1,63 @@
+
+X: 1
+T: Am Yisrael Chai #2 [Cm]
+C: Shlomo Carlebach
+M: C
+L: 1/8
+K: Cm
+|: "Cm"GGGG GGGG | "Bb"FGFD B,4 | FFFF FF"G7"FF | GFED "Cm"C4 :|
+|: "Cm"cc"Gm"BG "Cm"c4 | "Cm"cc"Gm"BG "Cm"c4 | "Cm"eedc eedc | "Fm"ff"Bb"dB "Cm"c4 :|
+
+%%sep 1 1 400
+
+
+X: 1
+T: Am Yisrael Chai #2 [Dm]
+C: Shlomo Carlebach
+M: C
+L: 1/8
+K: Dm
+|: "Dm"AAAA AAAA | "C"GAGE C4 | GGGG GG"A7"GG | "(Dm)"AG"A7"FE "Dm"D4 :|
+|: "Dm"dd"Am"cA "Dm"d4 | "Dm"dd"Am"cA "Dm"d4 | "Dm"ffed ffed | "Gm"gg"C"ec "Dm"d4 :|
+
+%%sep 1 1 400
+
+
+X: 1
+T: Am Yisrael Chai #2 [Em]
+C: Shlomo Carlebach
+M: C
+L: 1/8
+K: Em
+|: "Em"BBBB BBBB | "D"ABAF D4 | AAAA AA"B7"AA | BAGF "Em"E4 :|
+|: "Em"ee"Bm"dB "Em"e4 | "Em"ee"Bm"dB "Em"e4 | "Em"ggfe ggfe | "Am"aa"D"fd "Em"e4 :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Am Yisrael Chai #1  [Dhjz]
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Dphr
+%%indent 100
+[| "D"DE "Cm"CE "D"D4 | "D"DE "Cm"CE "D"D4 |
+w: Am Yis-ra-el chai, am Yis-ra-el chai,
+| "Gm"DG ^FG "D"D4 | "Cm"cB BA "D"A4 | "Cm"cB BA AG G^F |
+w: Am Yis-ra-el chai, ad b'-li-*dai, ad b'-li-*dai,___
+| "Cm"AG G^F FE ED | "D"DE "Cm"CE "D"D4 | "D"DE "Cm"CE "D"D4 |]
+w: Ad b'-li-*dai,___ am Yis-ra-el chai, am Yis-ra-el chai.
+
+%%sep 1 1 400
+
+
+X: 1
+T: Am Yisrael Chai #1  [Ehjz]
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K:Ephr
+[| "E"EF "Dm"DF "E"E4 | "E"EF "Dm"DF "E"E4 | "Am"EA ^GA "E"E4 | "Dm"dc cB "E"B4 |
+| "Dm"dc cB BA A^G | "Dm"BA A^G GF FE | "E"EF "Dm"DF "E"E4 | "E"EF "Dm"DF "E"E4 |]

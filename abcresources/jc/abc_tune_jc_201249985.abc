@@ -1,0 +1,1595 @@
+X: 1
+T:Banish Misfortune
+R:jig
+D:Tommy Keane & Jacqueline McCarthy: The Wind among the Reeds
+D:Chieftains Live.
+Z:First bar also played |^fed cAG|
+Z:id:hn-jig-3
+M:6/8
+K:Dmix
+=fed cAG|AGd cAG|~F3 DED|~F3 GFG|~A3 cAG|AGA cde|fed cAG|Ad^c d2e:|
+|:f2d d^cd|f2a agf|e2c cBc|ece gfe|f2g agf|e2f gfe|fed cAG|Ad^c d2e:|
+|:f2g e2f|ded cdc|~A3 GAG|~F3 ded|c3 cAG|AGA cde|fed cAG|Ad^c d2e:|
+
+X: 2
+T:Banshee, The
+T:McMahon's
+C:John McMahon (Co. Fermanagh fiddle/flute player)
+R:reel
+Z:id:hn-reel-22
+M:C|
+K:G
+~G3D EDB,D|GFGB d2Bd|eged BAGA|BAGE EDDE|
+~G3D EDB,D|GFGB d2Bd|eged BAGA|BAGE EDD2:|
+|:eaag efge|dBBA B3z|eB~B2 gBfB|eBBA B3z|
+eaag efge|dBBA B3z|eged BAGA|BAGE EDD2:|
+
+X: 3
+T:Blarney Pilgrim, The
+R:jig
+Z:id:hn-jig-235
+M:6/8
+K:Dmix
+~D3 DEG|A2G ABc|BAG AGE|GEA GED|
+~D3 DEG|A2G ABc|BAG AGE|GED D3:|
+|:ded dBG|AGA BGE|ded dBG|ABA GBd|
+g2e dBG|AGA BGE|B2G AGE|GAG GFG:|
+|:ADD BDD|ADD ABc|BAG AGE|GEA GED|
+ADD BDD|ADD ABc|BAG AGE|GED D3:|
+
+X: 4
+T:Boys of Bluehill, The***
+M:4/4
+L:1/8
+R:Hornpipe
+Z:As played by the CHB
+K:D
+FA|BAFA D2FA|BA (3Bcd e2de|faaf egfe|dfed B2dA|\
+BAFA DAFA|BA (3Bcd e2de| faaf egfe|d2 d2 d2::\
+fg|afdf a2gf|efga b2ag|faaf egfe|dfed B2dA|\
+BAFA D2FA|BA (3Bcd e2de| faaf egfe|d2 d2 d2:|
+
+X: 5
+T:Brenda Stubbert's Reel
+M:C|
+L:1/8
+R:reel
+Z:id:hn-reel-94
+K:Am
+B|(3AAA (BA) GAAB|(3AAA (BA) edde|(3GGG BA BGGB|c2 (BA) BGGB|
+(3AAA (BA) GAAB|(3AAA (BA) edda|gedB GABd|e3 dB eAA:|
+|:B| (3AAA a2 (3AAA g2|Aage agea|(3GGG BA BGGB|c2 (BA) BGGB|
+[1 (3AAA a2 (3AAA g2|Aage agea|gedB GABd|e3 dB eAA:|
+[2 (3AAA BA GAAB|(3AAA (BA) edda|gedB GABd|e3 dB eAA|GA7||
+
+X: 6
+T:Broken Pledge, The
+R:reel
+D:De Dannan: Selected Reels and Jigs.
+Z:Also played in Edor, see #734
+Z:id:hn-reel-56
+M:C|
+K:Ddor
+dcAG ADDB|cAGF ECCE|D2 (3EFG Addc|AcGc Aefe|
+dcAG FGAB|c2Bd cAGE|D2 (3EFG AddB|cAGE FDD2:|
+|:dcAG Acde|~f3d ecAB|cAGE GAcd|ec~c2 eage|
+dcAG Acde|fedf ecAG|~F3G AddB|cAGE FDD2:|
+"Variations:"
+|:dcAG ~A3B|cAGF ECCE|DEFG Addc|(3ABc Gc Aefe|
+dcAG FGAB|c2Bd cAGE|DEFG AddB|A2GE FDD2:|
+|:dcAG Acde|~f3d ecAB|cAGE GAcd|ec~c2 eage|
+dcAG Acde|~f3d ecAG|FEFG AddB|A2GE FDD2:|
+
+X: 7
+T:Charlie Lennon's
+L:1/8
+M:C
+K:B Dorian
+A|FBB2 fBB2|dcBc AEE2|FBB2 ABce|afec Baga|!
+f2ec f2ec|BABc BAFE|FBB2 ABce|afec B3:|!
+A|FBdc BFF2|EAcB AEE2|FBdc Bdfb|afec Bcdc|!
+Bcde fBB2|afec ABce|f2af bfaf|afec B3:|!
+
+X: 8
+T:Cliffs of Moher, The
+R:jig
+H:Also played in G, see #224
+H:Bar 8 also played |EDB, A,3|
+Z:id:hn-jig-79
+M:6/8
+K:Ador
+aga bag|eaf ged|c2A BAG|EFG ABd|eaa bag|eaf ged|c2A BAG|EFG A3:|
+|:efe dBA|efe dBA|GAB dBA|GAB dBd|1 efe dBA|efe dBA|GAB dBG|
+EFG A3:|2 ~e3 dee|cee Bee|EFG BAG|EDB, A,3||
+
+X: 9
+T:Collier's Reel, The
+R:reel
+H:Also as a jig, see jig#188
+D:Josie McDermott
+D:Declan Masterson
+Z:id:hn-reel-346
+M:C|
+K:Dmix
+FD (3EFG ~A3B|cAdB cAGc|Add^c d2 (3efg|fdec dcAG|
+FD (3EFG ~A3B|cAdB cAGc|Addc ABAG|1 EFGE FDDE:|2 EFGE FDDg||
+|:fd (3efg fdec|Addc Adde|fd (3efg fdec|AGAB c2cd|
+eaag efge|dfed cAGc|Addc ABAG|1 EFGE FDDg:|2 EFGE FDDE||
+"Variations:"
+|:(3FED FG ~A3B|c2cB cAGc|Add^c d2 (3efg|fdec dcAG|
+(3FED (3EFG ~A3B|cedB cAGc|Addc (3ABc AG|1 EFGE FDDE:|2 EFGE FDDg||
+|:fded fdec|Addc Addg|fd (3efg fdec|AGAB cBcd|
+eaag aege|dfed cAdc|(3ABc AG (3EFG AB|1 cAGE EDDg:|2 cAGE EDDE||
+|:~F3D (3EFG AB|c2dc cAGc|Ad~d2 Adeg|fdec dcAG|
+~F3D (3EFG AB|cAdB cAGc|Addc ABAG|1 EFGE FDDE:|2 EFGE FDDg||
+|:~f3g fed^c|Ad~d2 Adde|~f3d fdec|~A3B cBcd|
+eaag efge|dfed c2Bc|Addc ABAG|1 EFGE FDDg:|2 EFGE FDDE||
+
+X: 10
+T:Comb Your Hair and Curl It
+M:9/8
+L:1/8
+R:slip jig
+D:Chieftains 1.
+Z:id:hn-slipjig-9
+K:Edor
+B2E E2F G2A|B2e ece dBA|B2E E2F G2A|B=cB A2G FED:|
+|:g2e efe e2f|~g3 efg afd|1 g2e efe e2c|d2B ABG FED:|2 gfg afd g2e|d2B A
+BG FED||
+
+X: 11
+T:Congress Reel, The
+R:reel
+Z:id:hn-reel-94
+M:C|
+K:Ador
+eAAG A2 (3Bcd|eaaf gedg|eA~A2 eAcA|BGGF GABd|
+eAAG ABcd|eaaf gedB|cBcd (3efg ed|cABG A2 (3Bcd:|
+|:eaag ~a3g|eaag egdg|(3efg dg egdg|eaaf gedg|
+eaag ~a3g|eaag (3efg dB|cBcd (3efg ed|cABG A2 (3Bcd:|
+"Variations:"
+eA~A2 ABcd|ea~a2 gedg|eA~A2 eA~A2|BG~G2 Bcdg|
+eA~A2 A2 (3Bcd|ea~a2 gedB|c2cd efed|cABG A2 (3Bcd:|
+|:eaag ~a3g|eaag (3ege dg|(3ege dg (3ege dg|egfa gedg|
+eaag ~a3g|eaag (3ege dB|cBcd efed|cABG A2 (3Bcd:|
+
+X: 12
+T:Connaughtman's Rambles, The
+T:Connachtman's Rambles, The
+T:Gathering Dilisc
+M:6/8
+L:1/8
+R:jig
+N:Dilisc is a kind of edible seaweed.
+D:Martin O'Connor: Connaughtman's Rambles
+D:Matt Molloy: Stony Steps
+D:Noel Hill & Tony McMahon: \'I gCnoc na Gra\'i
+Z:id:hn-jig-234
+K:Bm
+FAA dAA|{Bd}BAA dAG|FAA dfe|dBB {Bd}BAG|
+FAA dAA|~B3 def|gfe dfe|1 dBB B2 A/2|2 dBB ~B3:|
+fbb faa|~f3 def|fbb faa|{fa}fed e2 d/2|
+fbb faa|{fa}fef def|~g3 ~f3|dBB ~B3:||
+"variations"
+|:FGA dAA|BAB dAG|FGA dfe|dBG BAG|
+FGA dAA|BAB def|gfe f2e|1 dBA BAG:|2 dBA B3||
+|:fbb faa|fef d2e|fbb faa|fed ede|
+fbb afe|dBc def|gfe f2e|1 dBA ~B3:|2 dBA BAG||
+
+X: 13
+T:Cooley's **
+M:C|
+L:1/4
+Q:140
+R:reel
+Z:Boston
+K:EDor
+D|EBBA B2 EB|B2 AB dBAG|(3FED AD BDAG|(3FED FA dAFD|EBBAB2 EB|B2 AB def
+|afec dBAF|DEFD E3:|
+gf|eB ~B2 efgf|eB ~B2 gedB|A2 FA DAFA|~A2 FA defg|eB~B2 efgf|eB ~B2 defg
+|afec dBAF|DEFD E2:|
+
+X: 14
+T:Dan Collins' Father's Jig
+T:Bill Collins' Jig
+R:jig
+D:De Danann: Song for Ireland
+D:Jerry Holland: The Fiddlesticks Collection
+Z:id:hn-jig-81
+M:6/8
+K:D
+dAA BAB|def a2f|aba fge|dBB gfe|dAA BAB|def a2f|aba faf|1 edc d2A:|2 edc
+ d2e||
+|:faa fab|afe fef|~a3 fge|dBB gfe|dAA BAB|def a2f|aba faf|1 edc d2e:|2 e
+dc d2A||
+
+X: 15
+T:Devil and the Bailiff, The************
+T:T\'aim in Arrears
+T:Mall Rua
+M:9/8
+L:1/8
+R:slip jig
+D:Stockton's Wing.
+D:Paul McGrattan: The Frost is all Over
+Z:id:hn-slipjig-8
+K:G
+DGG GAG FGA|BdB GAB c3|DGG GAG FGA|1 BdB cAF ~G3:|2 BdB cAF G2B||
+|:ded cAG FED|ded cAB c3|ded cAG FGA|1 BdB cAF G2B:|2 BdB cAF ~G3||
+
+X: 16
+T:Donegal Reel
+R:Reel
+Z:id:hn-reel-125
+L:1/8
+M:C|
+Q:1/4=200
+K:D
+|:D2DE FDFA|dF~F2 BFAF|E2EF GFGA|(3Bcd AF EGFE|
+D2DE FDFA|dF~F2 ABde|(3fgf ec dBAG|1 FGEF D2FE:|2 FGEF D3A||
+|:defg afdf|afdf a2gf|edef gfed|cdef g2fe|
+defg afdf|afdf abag|(3fgf ec dBAG|1 FGEF D3A:|2 FGEF D2FE|]
+
+X: 17
+T:Donnybrook Fair****************
+T:Joy of My Life, The
+M:6/8
+L:1/8
+R:jig
+Z:id:hn-jig-176
+K:G
+~G3 AGA|Bee dBA|BAB GAB|AGE EDE|~G3 AGA|Bee dBA|BAB GAB|1 AGF G2D:|2 AGF
+ GBd||
+gfe fed|e/f/ge dBA|Bee dBA|Bee e2f|1 ~g3 fed|ege dBA|
+~B3 GAB|AGF GBd:|2 ~g3 aga|bge dBA|BAB GAB|AGF G2D||
+
+X: 18
+T:Drowsy Maggie
+R:reel
+N:There is also a Donegal version, #464.
+Z:id:hn-reel-18
+M:C|
+K:Edor
+~E2BE dEBE|~E2BE AFDF|~E2BE dEBE|1 BABc dAFD:|2 BABc dAFA||
+d2fd c2ec|dffd faaf|d2fd cdec|BABc dAFA|
+d2fd c2ec|defg a2ga|bgaf gfed|BABc dAFD||
+"Version 2:"
+|:~E2BE dEBE|~E2BE AFDF|~E2BE dEBE|1 BABc dAFD:|2 BABc dAFA||
+d2fd c2ec|defg afge|1 d2fd cdec|BABc dAFA:|2 afge fdec| BABc dAFD||
+
+X: 19
+T:Dunmore Lasses, The
+T:Road to Knock, The
+R:reel
+D:Matt Molloy
+Z:id:hn-reel-289
+M:C|
+K:Em
+~E3F GFGA|Be~e2 Be~e2|EDEF G2BG|A2BA GEFD|
+~E3F GFGA|Beed ~e3f|feed edBG|1 A2BA GEFD:|2 AcBA GE~E2||
+|:gfeg fedf|Be~e2 Be~e2|g2eg fedB|AcBA GE~E2|
+g2eg fedc|Beed ~e3f|(3gfe fd edBG|1 A2BA GE~E2:|2 A2BA GEFD||
+
+X: 20
+T:Dusty Windowsill, The
+T:Austin Barratts
+C:Sean Harling
+R:jig
+Z:id:hn-jig-91
+M:6/8
+K:Ador
+A2B cBA|eAB cBA|~G3 EGG|DGG EGG|A2B cBA|e2d efg|age dBe|1 ABA A2G:|2 ABA
+ A2g||
+|:aga bge|def g2f|~g3 gfe|dBA ~G3|EGG DGG|EGG ABc|Bed BAG|1 BAG A2g:|2 B
+AG A2G||
+|:~A3 gAf|~A3 edB|~G3 eGd|~G3 edB|~A3 gAf|ABA efg|age dBe|ABA A2G:|
+
+X: 21
+T:Eavesdropper
+M:6/8
+L:1/8
+K:G Major
+E|D2B BAG|Bdd dBG|cee dBA|BAA AGE|!
+D2B BAG|Bdd dBG|cee dBA|BGG G2:|!
+d|gfg afd|efg dBG|cee dBA|BAA A2d|!
+[1 gfg afd|efg dBG|cee dBA|BGG G2:|!
+[2 gab afd|efg dBG|cee dBA|BGG G2|]!
+
+X: 22
+T:Farewell to Connaught
+M:C|
+L:1/8
+S:Session Galway 1992
+R:reel
+D:Dolores Keane & John Faulkner: Farewell to Erin
+Z:id:hn-reel-431
+K:Dmix
+D2 (3FED AGAB|cBcd cAG2|Add^c d2cd|ed^cd ed~d2|
+D2 (3FED AGAB|cBcd c2AG|ABAG EGAB|cAGE ED~D2:|
+|:eggf g2ed|cded cA~A2|eaag ~a3g|eaag edcd|
+eggf g2ed|cded cAAG|ABAG EGAB|cAGE ED~D2:|
+
+X: 23
+T:Farewell to Erin
+T:Farewell to Ireland
+R:reel
+H:Originally a Scottish tune: "The Scotsman's Farewell to Ireland".
+N:Bars 1-6 are played one octave up by flutes, whistles and pipes.
+Z:id:hn-reel-50
+M:C|
+K:Ador
+A,2A,C E2EF|GEDB, G,A,B,G,|A,2A,C E2EF|GEDB, EA,A,G,|
+A,2A,C E2EF|GEDB, G,2g2|edeg ~a3f|gedB BA~A2:|
+|:~a3b agef|~g3a gede|~a3b agef|gedB BA~A2|
+agef ~g3e|dedB GABd|cBAB cdea|gedB BA~A2:|
+|:eA(3cBA eA(3cBA|~d3B GB~B2|eA(3cBA ~e3a|gedB BA~A2|
+eA(3cBA eA(3cBA|dedB GABd|cBAB cdea|gedB BA~A2:|
+|:ae^ce aece|gdBd gdBd|ae^ce ~a3f|gedB BA~A2|
+agef ~g3e|dedB GABd|cBAB cdea|gedB BA~A2:|
+
+X: 24
+T:Father O'Flynn
+T:Top of Cork Road, The
+R:jig
+Z:id:hn-jig-51
+M:6/8
+K:D
+dAF DFA|ded cBA|dcd efg|fdf ecA|dAF DFA|ded cBA|dcd efg|1 fdc d2A:|2 fdc
+ d2e||
+|:~f3 fga|ecA ABc|dcd Bed|cAA A2=c|
+~B3 BAG|AFD DFA|1 dcd efg|fdc d2e:|2 dcd ede|fdf gfe||
+"Variations:"
+dAF DFA|Bed cBA|Bcd ede|fed ecA|dAF DFA|Bed cBA|Bcd ede|1 fdc d2A:|2 fdc
+ d2e||
+|:fdf fga|ecA ABc|dcd Bed|cAA A2=c|
+BGB Bcd|AFD DFA|1 dcd ede|fdc d2e:|2 dcd efg|fdf gfe||
+
+X: 25
+T:Flowers of Edinburgh, The
+R:hornpipe
+Z:id:hn-hornpipe-8
+M:C|
+K:G
+GE|D2DE ~G3A|BABd cBAG|FGFE DEFE|D2cA BAGE|
+D2DE GFGA|BGBd efge|dcBA GFGA|B2G2 G2:|
+|:(3def|g2gf gbag|f2fe fagf|edef gfed|Beed e2ge|
+dBGB d2 (3Bcd|egfa g2ge|dcBA GFGA|B2G2 G2:|
+
+X: 26
+T:Frost is all over, The
+M:6/8
+L:1/8
+R:jig
+D:Paul McGrattan: The Frost is all over
+H:See also #67, #206
+H:There is another tune by the same name: #202
+Z:id:hn-jig-263
+K:D
+def edc|dAF GFE|DFA DFA|Bcd edc|
+def edc|dAF GFE|DFA DFA|1 Bdc d2A:|2 Bdc d2e||
+~f3 afd|~g3 bag|~f3 afd|gfg efg|
+~f3 afd|~g3 bag|fga efg|fdc d2e|
+~f3 afd|~g3 bag|~f3 afd|~g3 e2g|
+fga efg|fdB AFA|Bcd ede|fdf gfe||
+"variations"
+|:d2f edc|dAF GFE|DFA AFA|Bcd ecA|
+d2f edc|dAF GFE|DFA AFA|BAF D3:|
+fef agf|gfg bge|fga agf|~g3 e2g|
+fga agf|gab bag|faf ede|fdc d3|
+fga agf|~g3 bge|fgf agf|gfg efg|
+fga efg|fdB ~A3|Bcd efg|faf gfe||
+
+X: 27
+T:Frost is All Over, The
+R:jig
+H:More common versions are #206, #263
+H:There is another tune by the same name, #202
+Z:id:hn-jig-67
+M:6/8
+K:D
+~d3 edc|dAF GFE|DFA dFA|Bcd efg|fed edc|dAF GFE|DFA dFA|B2c d3:|
+|:~f3 ~a3|~g3 bag|f2a afd|1 ~g3 efg|fef afd|~g3 bag|fga efg|
+fdc d3:|2 ~g3 e2g|fga efg|fdB AFA|Bcd ece|fd/e/f gfe||
+
+X: 28
+T:Galway Hornpipe, The***
+M:C|
+L:1/8
+R:hornpipe
+N:Bar 4 of 2nd part also played |(3ABA ^GB A2 (3ABc|
+Z:id:hn-hornpipe-48
+K:D
+FE|D2FA dAFD|CDEF GEFE|D2FA dcdf|(3efe (3dcB (3ABA (3GFE|
+D2FA dAFD|CDEF G2FG|AdcB AGFE|(3DED CE D2:|
+|:de|fefg fedc|BABc B2cd|edef edcB|(3ABA ce a2 (3ABc|
+dcde fdAF|GFGA BdcB|AdcB AGFE|(3DED CE D2:|
+
+X: 29
+T:Gander in the Pratie Hole, The
+R:jig
+D:Planxty
+Z:id:hn-jig-144
+M:6/8
+K:Dmix
+FAD FAD|~G3 EFG|FAD FAD|GED D2E|FAD FAD|~G3 EFG|fed ecA|1 GEA D2E:|2 GEA
+ D3||
+Ad^c ded|cAB cAG|Ad^c ded|cAB c2A|Ad^c ded|cAB cde|fed ecA|1 GEA D3:|2 G
+EA D2E||
+"Variations:"
+F/G/AD F/G/AD|GBG EFG|FAD FAD|GEA ~D3|FAD FAD|G/A/BG EFG|fed cAA|GEA ~D3
+:|
+Add ded|cAB cAG|Add ded|cAB c2A|Add ded|cAB cde|fed cAA|GEA ~D3:|
+
+X: 30
+T:Garrett Barry's Jig
+R:jig
+Z:id:hn-jig-38
+M:6/8
+K:Dmix
+DEF ~G3|AGE c2A|dcA d2e|fed cAG|~F3 GFG|AGA cde|dcA GEA|1~D3 D2A:|2~D3 D
+2d||
+|:dcA d2e|fed efe|dcA c2d|egc edc|dcA d2e|fed efe|dcA GEA|1~D3 D2d:|2~D3
+ D2A||
+"Variations:"
+DEF ~G3|AGA c2A|dcA d2e|=fed cAG|~F3 GFG|AGA cde|dcA GEA|1 DED D2A:|2 DE
+D DFA||
+dcA d2e|=fed e=fe|dcA c2d|egc ecA|dcA d2e|=fed e=fe|dcA GEA|DED D2d|
+dcA d2e|^fag efe|dcA c2d|egc ecA|dcA d2e|^fag efe|dcA GEA|DED dAF||
+
+X: 31
+T:Glen Allen
+Z: id:dc-reel-114
+M:C
+L:1/8
+K:G Major
+DE|G2DG EGDE|G2BG AGEG|A2EA FAEA|ABcd edBA|!
+G2DG EGDE|G2BG AGEG|cBcd efge|dBAB G2:|!
+Bd|g2dg egde|g2bg ageg|a2ea fae^g|a2bg agef|!
+g2dg egde|g2bg aged|cBcd efge|dBAB G2:|!
+
+X: 32
+T:Harvest Home hp***
+M:4/4
+L:1/8
+R:Hornpipe
+Z:Madison
+K:D
+AF|DAFA DAFA|defe dcBA|eAfA gAfA|(3efe (3dcB (3ABA (3GFE|\
+DAFA DAFA|defedcBA|eAfAgecA|d2 f2 d2::\
+cd|eA ~A2 fA ~A2|gAfA eA ~A2|eAfA gAfA|(3efe (3dcB (3ABA (3GFE|\
+DAFA DAFA|defe dcBA|eAfA gecA|d2 f2 d2:|
+
+X: 33
+T:Haste to the Wedding************
+M:6/8
+L:1/8
+R:jig
+Z:id:hn-jig-18
+K:D
+ABA Aaf|ede fdB|AFA A2F|GFG EFG|AFA Aaf|ede fdB|~A3 faf|1 ded d2B:|2 ded
+ d2a||
+|:afa afa|bgb bgb|afa afa|gfg efg|~a3 ~f3|ede fdB|~A3 faf|1 ded d2a:|2 d
+ed d2B||
+
+X: 34
+T:High reel, The
+R:Reel
+O:Ireland
+M:4/4
+K:AMix
+a2fa ecA2|cAeA fAeA|a2fa ecA2|Bcdc BG G/G/G|\
+a2fa ecA2|cdef g2fg|
+afge fdec|Bcdc BG G/G/G::\
+c/B/A eA fAeA|c/B/A af ecA2|
+c/B/A eA fAeA|Bcdc BG G/G/G|\
+c/B/A eA|fAeA|cdef g2fg|\
+afge fdec|Bcdc BG G/G/G:|
+
+X: 35
+T:Home Ruler, The***
+T:Daniel O'Connell, The Home Ruler
+M:C|
+L:1/8
+C:Frank McCollum of Ballycastle
+R:hornpipe
+D:Noel Hill & Tony Linnane
+H:Frank McCollum was a great fiddler and composer from
+H:Ballycastle, Co. Antrimm, who died a couple of years ago
+H:[this was written in 1981 - PdG].  He wrote the superb tune
+H:'The Home Ruler' in honour of Charles Stewart Parnell and
+H:this is currently proving popular with recording artists.
+Z:id:hn-hornpipe-10
+K:D
+FE|D2FA D2FA|dfed B2dB|~A3B AFDF|(3GFE FD B,DA,B,|
+D2FA D2FA|dfed B2dB|~A3B AF (3EFG|F2D2 D2:|
+|:dB|Addc d2df|afbf afed|efed BAde|fded BdAB|
+Addc d2df|afbf afed|efed BAdB|AFEF D2:|
+
+X: 36
+T:Humours of Ballyloughlin, The
+T:Hurler's March, The
+R:jig
+D:Matt Molloy.
+Z:id:hn-jig-65
+M:6/8
+K:Dmix
+~A3 AGE|GED DED|cAA ded|cAG FED|~A3 AGE|~G3 cGE|~D3 DFA|1 ~D3 D3:|2 ~D3
+D2B||
+|:cBc cBc|cAG AB^c|~d3 dfe|dAF DFA|c2A dcB|cAG FGE|~D3 DFA|1 ~D3 D2B:|2
+~D3 D2e||
+|:fdd gdd|fdd ged|cde ged|cde ged|fdd gdd|fdd ged|cde gag|1 ed^c d2e:|2
+ed^c d2B||
+|:~A3 A2G|FGF FED|~E3 EFD|~E3 EFG|AFA dAG|~F3 GEA|~D3 DFA|~D3 D3:|
+
+X: 37
+T:Humours of Glendart, The***************
+T:East of Glendart
+T:East at Glandart
+M:6/8
+L:1/8
+S:Mary Bergin
+R:jig
+D:Planxty: After the Break
+Z:id:hn-jig-184
+K:D
+BAF AFD|~F3 DFA|BAF AFD|FED EFA|BAF AFD|FEF DFA|dcB AFE|FDD D2A:|
+def d2B|AFA AFA|def d2f|ede fdB|def d2B|AFA ABc|dcB AFE|FDD D2A:|
+"Variations:"
+BAF ADD|FEF DFA|BAF ADD|FEE EFA|BAF ADD|FEF DFA|dcB AFE|FDD D3:|
+def d2B|ABA AFA|def d2f|ede fdB|def edB|AFA ABc|dcB AFE|FDD D3:|
+
+X: 38
+T:Hunter's Purse
+Z: id:dc-reel-142
+M:C
+L:1/8
+K:A Dorian
+gf|eAA2 AGEF|G2AF GED2|cBcd eged|Bdef gedB|!
+eAA2 AGEF|G2AF GED2|cBcd eged|cABG A2:|!
+Bd|eaa2 agef|g2af gedB|cBcd eged|Bdef gedB|!
+eaa2 agef|g2af gedB|cBcd eged|cABG A2:|!
+
+X: 39
+T:Jackie Colemans reel
+R:Reel
+O:Ireland
+M:4/4
+K:D
+dB|\
+AF (3FFF EFDE|F2AF BFAF|\
+E2BE dEBE|ABde fedB|\
+AF (3FFF EFDE|F2AF BFAF|
+E2BE dEBE\
+|1 ABde fddB :|2 ABde fdde|:\
+fddc dfag|fd (3ddd fagf|
+eA (3AAA eAfA|eA (3AAA efge|\
+fddc dfag|fd (3ddd dfaf|\
+g2 {a}gf gbag|faeg fdd2:|
+
+X: 40
+T:Jenny's chickens
+R:Reel
+O:Scotland
+M:4/4
+K:BDor
+f2fg fe ce|fe fa eA ce|f2fg fe ce|fg af eA ce:|
+|:fB BA B2ce|fBB2 eA ce|fB BA B2ce\
+|1fg af eA ce:|2fg af eA cA|
+|:B2bB aB gB|B2af eA cA|B2bB aB gB\
+|1fg af eA cA:|2fg af eA ce||
+
+X: 41
+T:Julia Delaney
+M:4/4
+L:1/4
+R:reel
+D:Paddy Glackin: Ceol ar an bhFidil le Paddy Glackin.
+D:Bothy Band 1975.
+Z:id:hn-reel-78
+K:Ddor
+dcAG ~F3D|~E3C ~F3A|dcAG FDFG|Addc defe|
+dcAG ~F3D|~E3C ~F3A|dcAG FDFG|Addc d2de:|
+|:fede fagf|ecgc acgc|fede fagf|fedc Adde|
+fede fagf|ecgc acgc|fedf edce|Addc d2de:|
+"Variations:"
+dcAG F2DF|E2CE FD~D2|dcAG FDFG|Addc defe|
+dcAG ~F3G|~E3G ~F3A|dcAG FDFG|Addc d2de:|
+|:fede fagf|eg~g2 aege|fede fage|fedc Adde|
+fede fagf|eg~g2 aege|fd~d2 edce|Addc d2de:|
+
+X: 42
+T:Kesh Jig, The****
+T:Kesh Mountain, The
+M:6/8
+L:1/8
+R:jig
+D:Bothy Band 1975.
+D:Michael Tubridy: The Eagle's Whistle
+Z:id:hn-jig-41
+K:G
+~G3 GAB|~A3 ABd|edd gdd|edB dBA|~G3 GAB|~A3 ABd|edd gdB|1 AGF G2D:|2 AGF
+ G2A||
+|:~B3 dBd|ege dBG|~B3 dBG|ABA AGA|BAB dBd|ege dBd|~g3 aga|bgf g3:|
+
+X: 43
+T:Lad O'Beirne's
+M:C|
+L:1/8
+C:Lad O'Beirne
+R:reel
+D:Arty McGlynn & Nollaig Casey: Lead the Knave
+D:Dervish: The Boys of Sligo
+Z:id:hn-reel-220
+K:G
+DG~G2 DGBG|(3ABc BG AGEG|DGGF GABd|egdg edge|
+dB~B2 dBGB|cE~E2 GEDB,|DEGA B2eB|1 dBAd BGGE:|2 dBAd BGGA||
+|:Bdd^c d2ef|g2bg abge|dB~B2 GBdB|cE~E2 GED2|
+Bdd^c d2ef|g2bg abge|DEGA B2eB|1 dBAd BGGA:|2 dBAd BGGE||
+
+X: 44
+T:Lafferty's
+T:The Woman I Never Forgot
+C:Sean Ryan
+R:Reel
+D:Four Men and a Dog: Shifting Gravel.
+D:Planxty.
+D:Kevin Burke & Micheal O'Donnell.
+A:Ireland
+Z:id:hn-reel-41
+M:C|
+K:EDor
+B2AF BFAF|EDEF EDB,D|B2AF BFAF|DFBA FE~E2|
+B2AF BFAF|EDEF EDB,A,|B,E~E2 DEFA|dBAF FE~E2:|
+|:eB~B2 egfe|d2fd Adfd|eB~B2 egfe|dBAF FE~E2|
+eB~B2 egfe|d2fd Adfd|~B3d efge|dBAF FE~E2:|
+
+X: 45
+T:Lannigan's Ball
+R:jig
+S:session Auckland, NZ, 1988
+Z:id:hn-jig-25
+M:6/8
+K:Edor
+EFE G2A|B2A Bcd|DED F2G|ABA AFD|EFE G2A|B2A Bcd|edB dBA|1 BGE E2D:|2 BGE
+ E3||
+|:e2f gfe|fag fed|e2f gfe|fdB B3|e2f gfe|fag fed|edB dBA|1 BGE E3:|2 BGE
+ E2D||
+
+X: 46
+T:Lansdowne Lass, The
+C:Josie McDermott
+R:reel
+D:Altan: Horse with a Heart
+Z:id:hn-reel-296
+M:C|
+K:D
+D2FA GEFE|D2FA d2ef|geag efdB|AF~F2 EGFE|
+D2FA GEFE|D2FA d2ef|geag edcd|1 eddc dBAF:|2 eddc d2ag||
+|:fdfa g2ag|fdfa g2ag|fd=cA BG~G2|AB^cA d2ag|
+fdfa g2ag|fdfa g2ag|fd=cA BG~G2|1 AB^cA d2ag:|2 AB^cA dBAF||
+
+X: 47
+T:Lark in the Morning, The
+R:jig
+H:See also #330
+D:Moving Hearts: The Storm.
+Z:id:hn-jig-40
+M:6/8
+K:D
+~A3 AFA|~B3 BdB|~A3 AFA|fed BdB|~A3 AFA|~B3 BAB|def afe|1 fdB BdB:|2 fdB
+ BAB||
+|:def ~a3|baf afe|def afe|fdB BAB|def ~a3|baf afd|~g3 fgf|edB BAB:|
+|:d2f fef|fef fef|d2f fef|edB BAB|d2f fef|fef fef|~g3 fgf|1 edB BAB:|2 e
+dB BdB||
+|:Add fdd|ede fdB|Add fdd|edB BAF|Add fdd|ede fed|~g3 fgf|1 edB BAF:|2 e
+dB BdB||
+
+X: 48
+T:Lilting banshee, The***********
+M:6/8
+L:1/8
+R:Jig
+O:Ireland
+K:AMix
+EAA EAA|BAB G2A|Bee edB|def gfg|\
+eAA eAA|BAB G2A|Bee edB|dBG A3::
+eaa age|dBA G2A|Aee edB|def gfg|\
+eaa age|dBA G2A|Bee edB|dBG A3:|
+
+X: 49
+T:Maggie in the Wood ************
+M:2/4
+L:1/8
+Q:250
+R:polka
+Z:As played by the CHB
+K:G
+B/2A/2|"G"GD GA|"Em"Be eg/2e/2|"G"dB B/2A/2G/2A/2|"D"BA AB/2A/2|\
+"G"GD GA|"Em"Be eg/2e/2|"G"dB "D"AB/2A/2|"G"G3::e/2f/2|\
+gf "C"ed|"D"ef "G"g>e|dB B/2A/2G/2A/2|1 "D"BA Ae/2f/2|"G"gf "C"ed|\
+"D"ef "G"g>e|dB "D"AB/2A/2|"G"G3:|2\
+"D"BA AB/2A/2|"G"GD GA|"Em"Be eg/2e/2|"G"dB "D"AB/2A/2|"G"G3||
+
+X: 50
+T:Maid Behind the Bar (in D), The*****
+M:4/4
+L:1/8
+Q:150
+S:Aly Bain Book
+R:Reel
+K:D
+DE || FAAB AFED | FAAB A2 de | fBBA Bcde | f2 gf edBA|\
+FAAB AFED | FAAB ABde | fBBA BcdB |[1 AFEF D2 DE:|\
+[2 AFEF D2 z2 ||\
+a3 g fdde | fdad fddf | efga beef | gebe geeg |\
+faaf bfaf | defd efde | fBBA BcdB | AFEF D4:|
+
+X: 51
+T:Man of the House, The
+R:reel
+D:Paddy Keenan: Port an Phiobaire
+Z:id:hn-reel-370
+M:C|
+K:Edor
+E2BE GABG|E2BG FDAF|E2BE GABc|1 dBcA BFAF:|2 dBcA BEE2||
+|:efge fgaf|gfed edBd|1 e2ge fgaf|gfed Beed:|2 b2af gefd|edBG AGFD||
+"Variations:"
+|:~E3B GEBG|~E3B AFDF|~E3B GEBc|1 d2cA BFAF:|2 d2cA BEE2||
+|:~e3g f2fa|(3gfe fd ed (3Bcd|1 ~e3g ~f2af|gfed Beed:|2 bgaf (3gfe fd|ed
+BG AGFD||
+
+X: 52
+T:Martin Wynne's No. 2
+Z: id:dc-reel-197
+M:C
+L:1/8
+K:B Minor
+A|FBAF E2FE|DB,B,2 DB,A,2|B,EE2 FEDE|FABc dcBA|!
+FBAF E2FE|DB,B,2 DB,A,2|B,EE2 FEDE|FBBA B3:|!
+A|FBAF A2BA|Bdeg fdde|f2af e2fe|dBBA B3A|!
+FBAF A2BA|Bdeg fddf|bfaf egfe|dBBA B3:|!
+
+X: 53
+T:Miss McLeod's ÿ***
+T:Mrs. MacLeod of Raasay
+M:C|
+L:1/8
+R:reel
+Z:Probably _the_ best-known reel.  Also an American fiddle
+Z:tune (Hop High Ladies)
+Z:According to O'Neill, it was the _only_ reel known in certain parts of
+Z:Ireland around the turn of the century.
+K:G
+BA|:G2 BG dGBG|B2 BA BcBA|G2 BG dGBG|A2 AG AcBA|G2 BG dGBG|B2 BA ~B3 d|e
+fed Bdef|gedB AcBA:|
+|G2 gf edeg|B2 BA BcBA|G2 gf edeg|A2 AG AcBA|G2 gf edeg|B2 BA ~B3 d|efed
+Bdef|gedB AcBA:|
+
+X: 54
+T:Miss Monaghan
+Z: id:dc-reel-220
+M:C
+L:1/8
+K:D Major
+D2FD FAA2|BcBA FABc|dedB ABde|f2ed fee2|!
+D2FD FAA2|BcBA FABc|dedB ABdB|AFEG FDD2:|!
+faab afdf|gefd edBc|dedB ABde|f2ed fee2|!
+faab afdf|gefd edBc|dedB ABdB|AFEG FDD2:|!
+
+X: 55
+T:Miss Monaghan
+R:reel
+H:See also #254
+D:Arty McGlynn: McGlynn's Fancy
+Z:id:hn-reel-552
+M:C|
+K:D
+DFDG FAAF|GAAG FABc|dBAG FADf|(3gfe fd ecAF|
+D2DG FAAF|GAAG FABc|defd ecdB|AFGE FDD2:|
+faaf afdf|(3gfe fd edBc|~d3B AFDe|fedf ~e3g|
+fa~a2 afdf|(3gfe fd edBc|defd ecdB|AFGE FDD2|
+fa~a2 afdf|(3gfe fd edef|g2bg fgaf|gfed (3Bcd eg|
+f2af bfaf|gefd edBc|defd ecdB|AFGE FDD2||
+
+X: 56
+T:Monaghan Twig, The****
+M:C|
+L:1/8
+R:reel
+D:Dervish: The Boys of Sligo
+D:Paddy Keenan: Port an Phiobaire
+D:Arcady
+Z:id:hn-reel-238
+K:Amix
+cAAB cded|cAAG ~E3B|cAAB cded|BAGB d2ed:|
+cdef gfed|(3Bcd ef ~e3d|cdef ~g3e|dBGB d2ed|
+cded cded|cAAB cdef|~g3e deed|BAGB d2ed||
+"Variations:"
+~A3B cAed|cAAG E^DEB|~A3B cAed|BAGB dfed|
+A2AG Acec|~A3G ~E3B|cAAB cded|BAGB dfed||
+(3Bcd ef gfed|cdef ~e3d|(3Bcd ef g2ed|BAGB dfed|
+(3Bcd ed cded|cAAB cdef|gfge d2ed|BAGB dfed||
+
+X: 57
+T:Morning Star
+Z: id:dc-reel-226
+M:C
+L:1/8
+K:G Major
+B3A BGEF|GABd efgd|B3A BGEF|GBAF G3A:|!
+Bdef g2eg|f2df edBA|Bdef g2eg|afdf e3d|!
+Bdef g2eg|f2df edBA|Bdef g2bg|f2af gfed|]!
+
+X: 58
+T:Morrison's Jig
+M:6/8
+L:1/8
+R:jig
+Z:id:hn-jig-30
+K:Edor
+~E3 ~B3|~E3 AFD|~E3 BAB|dcB AFD|~E3 BAB|~E3 AFD|~G3 FGA|dAG FED::||
+Bee fee|aee fed|Bee fee|a2g fed|Bee fee|aee fed|gfe d2A|BAG FED|
+Bee fee|aee fed|Bee fee|faf def|~g3 gfe|def g2d|edc d2A|BAG FED||
+
+X: 59
+T:Mug of Brown Ale, The
+T:Jug of Brown Ale, The
+R:jig
+H:Also played in Edor, #342
+Z:id:hn-jig-122
+M:6/8
+K:Ador
+eAA fAA|gfg age|dBA G2A|BAB dBd|eAA fAA|gfg age|dBd gdB|BAG A2d:|
+efg a2g|aba age|dBd g2d|gba ged|efg a2g|aba age|dge dBG|BAG A2d:|
+"Variations:"
+eAA fAA|~g3 age|dBA G2A|BAB dBd|eAA fAA|gfg age|dBB gBB|ABA A2d:|
+efg aba|age age|def g2d|gba ged|efg aba|age age|dBB gBB|ABA A2d:|
+
+X: 60
+T:Musical Priest, The******
+M:C|
+L:1/8
+R:reel
+D:Matt Molloy: Stony Steps.
+Z:id:hn-reel-44
+K:Bm
+FBBA BcdB|cBAf ecBA|FBBA BcdB|1 cBAc ~B3A:|2 cBAc ~B3c||
+|:d2dc dfed|(3cBA eA fAeA|dcBc defb|afec ~B3c:|
+|:dB~B2 bafb|afec ABce|dB~B2 bafb|1 afec ~B3c:|2 afec ~B3A||
+"Variations:"
+FBBA ~B3d|cBAc ecBA|FBBA ~B3d|cBAc ~B3A||
+FBBF GBdB|cBAc ecBA|FBBF GBdB|cBAc ~B3c||
+d2dc dfed|(3cBA eA fAeA|d2dc defg|afec dBBc||
+d2dc dfed|(3cBA eA fAeA|d2dc dfaf|ecAB dBBc||
+bB~B2 bB~B2|cBAc ecBA|bB~B2 bBBb|c'bac' ~b3z||
+bB~B2 bB~B2|cBAc eABc|d2dc defg|afec dBBA||
+
+X: 61
+T:Off in the Morning********
+M:C|
+L:1/8
+R:reel
+Z:id:hn-reel-99
+K:G
+~G3B dB~B2|gBfB eBdB|cBAc BAGB|Addc dedB|
+~G3B dB~B2|gBfB eBdB|cBAc BAGB|1 ADFA ~G3D:|2 ADFA GABd||
+|:~g3f gdBd|gBfB eBdB|cBAc BAGB|Addc defd|
+~g3f gdBd|gBfB eBdB|cBAc BAGB|1 ADFA GABd:|2 ADFA ~G3D||
+
+X: 62
+T:Off to California
+R:hornpipe
+Z:id:hn-hornpipe-7
+M:C|
+K:G
+(3DEF|GFGB AG (3DEF|GBdg e2 (3def|gfgd edBG|ABAG E2|
+(3DEF|GFGB AG (3DEF|GBdg e2 (3def|gfgd edBG|(3ABA GF G2:|
+|:zg|gfeg fedf|edef edBd|gfgd edBG|ABAG E2|
+(3DEF|GFGB AG (3DEF|GBdg e2 (3def|gfgd edBG|(3ABA GF G2:|
+"Variations:"
+(3DEF|G2BG AGED|GBdg e2 (3def|(3gag (3fgf edBG|ABAG E2|
+(3DEF|G2BG AGED|GBdg e2 (3def|(3gag (3fgf edBG|AGFA G2:|
+|:zg|gf (3efg fedf|edef edBd|~g3d edBG|ABAG E2|
+(3DEF|G2BG AGED|GBdg e2 (3def|(3gag (3fgf edBG|AGFA G2:|
+
+X: 63
+T:Out on the Ocean
+R:jig
+Z:Played in G or A. Both versions included.
+Z:id:hn-jig-24
+M:6/8
+K:G
+DBB BAG|BdB A2B|GED G2A|BAB AGE|DBB BAG|BdB A2B|GED G2A|1 BGF G2E:|2 BGF
+ GBd||
+|:~e3 edB|efe edB|ded dBd|gfe dBA|G2A B2d|ege dBA|GED G2A|1 BGF GBd:|2 B
+GF G2E||
+K:A
+|:Ecc cBA|cec B2c|AFE A2B|cBc BAF|Ecc cBA|cec B2c|AFE A2B|1 cAG A2F:|2 c
+AG Ace||
+|:~f3 fec|~f3 fec|efe ece|agf ecB|A2B c2e|faf ecB|AFE A2B|1 cAG Ace:|2 c
+AG A2F||
+
+X: 64
+T:Palm Sunday
+R:jig
+D:Kevin Burke & Jackie Daly: Eavesdropper
+Z:id:hn-jig-312
+M:6/8
+K:Ador
+B|:AGE G2E|G2E G2E|A2B c2d|e2d efg|
+~e3 dBA|BAG Bcd|edc BAG|B2A A2B:|
+|:~a3 efg|aga bge|gfg gfe|dBA GBd|
+efg ded|BAG Bcd|edc BAG|B2A A2B:|
+
+X: 65
+T:Peeler's Jacket, The
+T:Flannel Jacket, The
+R:reel
+Z:id:hn-reel-387
+M:C|
+K:G
+G2BG DGBG|FGAB c2Bc|dggf d2eg|fdcA BGAF|
+G2BG DGBG|FGAB c2Bc|dggf d2eg|fdcA BG~G2:|
+|:gagf d2ef|gfga bgaf|gagf d2eg|fdcA BGBd|
+gagf d2ef|gfga bgaf|gbag fdeg|1 fdcA BG~G2:|2 fdcA BGAF||
+"variations"
+|:DGGF GBAG|FGAB c2Bc|dggf d2 (3efg|fdcA BGAF|
+DGGF GBAG|FGAB c2Bc|dggf d2eg|fdcA BG~G2:|
+|:~g3f d2ef|~g3a bgaf|gagf d2eg|fdcA BG~G2|
+gagf d2ef|~g3a bgaf|gbag fdeg|1 fdcA BG~G2:|2 fdcA BGAF||
+
+X: 66
+T:Pipe on the Hob
+R:jig
+D:Arcady: Many Happy Returns
+Z:id:hn-jig-29
+M:6/8
+K:Dmix
+d^cd A2G|F2D DED|EDE cBc|E2D DFA|dcB cBA|BAG A2G|EDE cBc|E2D D3:|
+|:f2d d^cd|f2d d^cd|edB c2d|ede age|1 f2d d^cd|f2d d^cd|ede age|
+ed^c d2e:|2 ~f3 gfg|agf gfe|fed eag|ed^c d2A||
+"variations of 1st part"
+|:d^cd A2G|F2D DED|~E3 cGE|EDC DFA|dcB cBA|BAG A2G|~E3 cGE|EDC D3:|
+|:~f3 d^cd|fdd d^cd|edB c2d|ede age|1 fdd d^cd|~f3 d^cd|ede eag|
+ed^c d2e:|2 ~f3 gfg|agf efg|fed eag|ed^c d2A||
+
+X: 67
+T:Pull Out the Knife and Stick It In Again
+T:Pull the Knife and Stick It Again
+R:jig
+D:Matt Molloy
+D:Stockton's Wing
+Z:id:hn-jig-49
+M:6/8
+K:Edor
+~E3 GFE|DB,E DB,D|~E3 GFE|ABG AFD|
+~E3 GFE|DB,E DEF|G2E FED|1 B,ED E2D:|2 B,ED E2e||
+|:edB BAF|EDB, ~D3|edB BAF|ABc def|
+edB BAF|EDB, DEF|G2E FED|1 B,ED E2e:|2 B,ED E2D||
+
+X: 68
+T:Rakes of Kildare, The
+R:jig
+Z:id:hn-jig-145
+M:6/8
+K:Ador
+EAA AGA|Bcd e2f|gfg ege|dBG G2F|EAA AGA|Bcd e2f|gfe dBG|1 ABA A2G:|2 ABA
+ A2a||
+aea aea|aea b2a|gfg ege|dBG G2a|aea aea|aea b2a|gfe dBG|ABA A2a|
+aea aea|aea b2a|gfg ege|dBG G2F|EAA AGA|Bcd e2f|gfe dBG|ABA A2G||
+"Variations:"
+|:EAA AGA|Bcd e2f|~g3 age|dBA BAG|EAA AGA|Bcd e2f|gfe dBG|1 ABA A2G:|2 A
+BA A2e||
+~a3 efg|~a3 b2a|~g3 e/f/ge|dBG G2e|~a3 efg|~a3 b2a|gfe dBG|ABA A2e|
+ae^c A^ce|~a3 b2a|~g3 ege|dBA BAG|EAA AGA|Bcd eaf|gfe dBG|ABA A2G||
+
+X: 69
+T:Rights of Man, The ***
+M:4/4
+L:1/8
+R:Hornpipe
+O:Ireland
+K:Em
+GA|\
+(3BcB (3ABA (3GAG (3FGF|EFGA B2ef|\
+gfed edBe|dBAG A2GA|
+(3BcB (3ABA (3GAG (3FGF|EFGA B2ef|\
+gfed Bgfg|e2E2 E2::\
+ga|\
+babg efga|babg e2fe|d2d^c defg|afdf a2gf|\
+edef gfga|(3bag (3agf gfed|gfed Bgfg|e2E2E2:|
+
+X: 70
+T:Road to Lisdoonvarna, The
+M:6/8
+L:1/8
+R:jig
+Z:id:hn-reel-195
+K:EDor
+D|\
+E2B B2A|B2c d3|F2A ABA|D2E FED|\
+E2B B2A|B2c d3|cdc B2A|B2E E2::|
+e|\
+e2f gfe|d2B Bcd|c2A ABc|d2B B3|\
+e2f gfe|d2B Bcd|cdc B2A|B2E E2:|
+
+X: 71
+T:Rolling in the Ryegrass
+T:Shannon Breezes, The
+R:reel
+Z:id:hn-reel-105
+M:C|
+K:D
+ABAF DFAF|G2BG dGBG|~A3F DFAF|GBAF EFDF|
+~A3F DFAF|GFEF GBdB|ABAF DFAF|GBAF EFD2||
+ABde ~f3d|~g3e fedB|ABde fefg|afdf (3efe dB|
+ABde fAdf|~g3e fedB|ABde fefg|afdf efdB||
+
+X: 72
+T:Rolling Waves
+M:6/8
+R:Jig
+Z:Transcribed by Luisa
+K:D
+F2E EDE|~F2D DED|~F2E EFA|d2e fdA|\
+F2E EDE|~F2D DED|AFE EFA|~B3 ~d3:|\
+ABd e2f|d2c ~B2A|ABd e2f|d2A B3|\
+ABd ede|fdB BAF|AFE EFA|~B3 d3:|
+
+X: 73
+T:Rose in the Heather, The
+R:jig
+D:Frankie Gavin: Frankie Goes to Town
+Z:id:hn-jig-60
+M:6/8
+K:D
+D2F EDB,|DFA BAF|ABd ede|fdB AFE|~F3 EFE|DFA Bcd|edB AFE|FDD D3:|
+|:fdB ABd|faa afd|~g3 fed|Bee ede|fdB ABd|faa afa|baf gfe|1 fdd d2e:|2 f
+dB AFE||
+"Variations:"
+~F3 EFE|DFA BAF|ABd ede|fdB AFE|D2F EDB,|DFA BAF|AdB AFE|1 FDD D3:|2 FDD
+ D2e||
+|:fdB AFA|dfa afd|~g3 fed|Bee ede|fdB AFA|dfa afa|baf gfe|1 fdd d2e:|2 f
+dB AFE||
+
+X: 74
+T:Saddle the Pony
+T:Priests Leap, The
+R:jig
+Z:7th bar of both parts also played |age dBA|
+Z:id:hn-jig-13
+M:6/8
+K:G
+GBA G2B|def gdB|GBA G2B|AFD AFD|GBA G2B|def gfg|ege dBA|1 BGG G2D:|2 BGG
+ GBd||
+|:efe edB|def gfg|efe edB|dBA ABd|efe edB|def gfg|ege dBA|1 BGG GBd:|2 B
+GG G2D||
+
+X: 75
+T:Sailor's Bonnet, The
+R:reel
+D:Michael Coleman
+D:Davy Spillane: Shadow Hunter
+D:Bothy Band: 1975
+Z:id:hn-reel-205
+M:C|
+K:D
+A2FA df~f2|dfef dB~B2|A2FA dffe|dBAG FDDB|
+A2FA df~f2|afef dB~B2|A2FA dffe|dBAG FDD2||
+|:a2~a2 afdf|afef dB~B2|fbba bafa|bfaf feef|
+bf~f2 af~f2|afef dB~B2|A2FA dffe|1 dBAF ADD2:|2 dBAF ADDB||
+"Variations:"
+A2FA dfef|df (3efe dB~B2|A2FA defe|dBAG FD~D2|
+A2FA df~f2|afgf efdB|(3ABA FA defe|dBAG FD~D2||
+|:~a3z afdf|afef dB~B2|fbba babc'|d'c'ba feef|
+bf~f2 af~f2|afef efdB|(3ABA FA defe|1 dBAF ADD2:|2 dBAF ADD2||
+
+X: 76
+T:Saint Anne's Reel*******
+M:C|
+L:1/8
+Q:150
+R:reel
+Z:Originally French Canadian, now firmly adopted in Ireland. Madison.
+K:D
+de|fedf edcB|A2 FA DAFA|B2GB EBGB|A2 FA DAFA|fedf edcB|A2 FA DAFA|BGBd c
+Ace|d2 dc d2:|
+ag|fdfa fdfa|aggf~g3f|edcB Acea|baa^g a3=g|fdfa fdfa|aggf~g3f|edcBAcec|d
+edc d2:|
+
+X: 77
+T:Sally Gardens ***
+M:C
+L:1/8
+Q:150
+S:Black Book
+K:G
+|:G2 DG B2 GB | dBeB dBAB | d2 Bd egdB | AGAB GEDE|\
+G2 DG B2 GB | dBeB dBAB | d2 Bd efge | dBAB G4::\
+dggf g2 dg | g2 bg aged | eaag a2 ea | a2 bg ageg |\
+dggf g2 dg | g2 bg ageg | d2 Bd efge | dBAB G4:|
+
+X: 78
+T:Scatter the Mud***
+T:Maid of Tramore, The
+M:6/8
+L:1/8
+Q:127
+R:jig
+Z:Madison
+K:ADor
+eAABAA|eAA ABd|eAA BAB|dBG GBd|eAA BAA|eAA AGE|GABd2e|dBAA3:|
+abag2e|dBGGBd|abag2e|dBde3|abag2e|dBGAGE|GAB d2e|dBA A3:|
+
+X: 79
+T:Ships Are Sailing*****
+M:C|
+L:1/8
+R:reel
+H:See also #687, #186
+Z:id:hn-reel-151
+K:Edor
+Beed BcdB|AD (3FED AD (3FED|~E3F GFGA|Beef gfed|
+Beed BcdB|AD (3FED AD (3FED|~E3F GFGA|1 Beed e2ed:|2 Beed e2ef||
+|:gfga bgeg|fefg afdf|~g3a bgeg|fedf e2ef|
+~g3a bgeg|~f3g afdf|~g2bg ~f2af|1 edef gfef:|2 edef gfed||
+
+X: 80
+T:Silver Spear, The***
+M:C|
+L:1/8
+Q:150
+R:Reel
+Z:As played by the Ceili band /SE
+K:D
+FAAA BAFA|dfed B2A2|FAAA BAFA|dfed B2A2|\
+FAAA BAFA|dfed B2(3def|g2ge f2fe|dfed B2A2::\
+faaa baaf|gfed B2A2|faaa baaf|gfed B2A2|\
+faaa baaf|gfed B2(3def|g2ge f2fe|dfed B2A2:|
+
+X: 81
+T:Sleepy Maggie******************
+M:4/4
+L:1/8
+R:Reel
+O:Scotland
+K:Bm
+g|\
+f2Bb fBde|f2Ba eAce|f2Bb fBde|f^gaf eAce::
+fBdB fBde|fBdB eAce|fBdB fBde|f^gaf eAce::
+fBdB fBde|fBdB eAce|fBbB aB^gB|f^gaf eAce:|
+
+X: 82
+T:Sligo Maid, The
+R:reel
+Z:id:hn-reel-116
+M:C|
+K:Ador
+A2BA (3B^cd ef|gedB AGEF|G2BG dGBG|DEGA BGdB|
+A2BA (3B^cd ef|gedB AGEG|~B3G ABGE|DEGA BA~A2:|
+|:eaag a2ga|bgaf gfed|eggf ~g3e|dega bgag|
+eaag a2ga|bgaf gfed|eg~g2 edB^c|dBgB BA~A2:|
+
+X: 83
+T:Speed the Plough
+Z: id:dc-reel-315
+M:C
+L:1/8
+K:D Major
+A|dcdB BAFB|AFFE EDDE|F2AF G2BG|ABde fgfe|!
+dcdB BAFB|AFFE EDDE|F2AF G2BG|ABde fdd:|!
+e|faag fddf|gefd edBA|faag fedB|ABde fdde|!
+faag fddf|gefd edBA|F2AF G2BG|ABde fdd:|!
+
+X: 84
+T:Spike Island Lasses
+Z: id:dc-reel-316
+M:C
+L:1/8
+K:D Mixolydian
+d|cAGB ADDE|FDAD FGAd|cAGB AGFG|[1 Adde fde:|[2 Add^c d3|]!
+e|f2df efge|fded cAA2|f2df edcA|Add^c defg|!
+agfa gfe^c|dfed cAAG|Add^c defd|Adde fde|]!
+d|cAGB A3d|BAGB A2dB|cAGB AGFG|Adde fded|!
+cAGB A3d|BAGB A2dB|cAGB ADD2|Add^c d3|]!
+e|fdad fdad|fdaf gee2|fdad fdad|fgfe dcA2|!
+defg a3f|bfaf gfeg|fedf edcA|d^cde fde|]!
+
+X: 85
+T:Star of Munster, The*****
+M:C|
+L:1/8
+Q:140
+R:reel
+K:ADor
+ed|c2 Ac BAGB|AGEF GEDG|EAAG ABcd| eaaf gedB|c2 Ac BAGB|AGEF GEDG|EAAG A
+Bcd|ecdB A2:|
+Bd|:eaab ageg|agbg agef|~g3a gfef|(3gfe af gfed|eaab ageg|agbg agef|~g3e
+ ~a3 g|~b3 a gfed:|
+
+X: 86
+T:Swaggering Jig
+T:Swaggering Jig, The
+M:9/8
+L:1/8
+R:slip jig
+D:Bothy Band 1975.
+Z:id:hn-slipjig-15
+K:G
+|BGG AGE DEG|BGG GFG A2c|BGG AGE DEG|
+cBA BGE D2c:|Bdd dge dBG|Bdd dBG A2c|Bdd dge dBG|cBA BGE D2c|
+Bdd dge dBG|Bdd dBG Aef|gfe dBd cBA|cBA BGE D3:||
+
+X: 87
+T:Swallowtail, The Dancing Master
+T:Dancing Master, The
+M:6/8
+L:1/8
+R:jig
+K:EDor
+EF|GEE BEE|GEE BAG|FDD ADD|ded =cAF|\
+GEE BEE|GEE B2c|ded =cAF|GEE E2:|*
+|Bcd e2f|e2f edc|Bcd e2f|edc d3|\
+Bcd efe|efe edc|ded =cAF|GEE E2:|**
+
+X: 88
+T:Sweeney's Buttermilk**************
+L:1/8
+C:Brendan McGlinchey
+R:reel
+Z:hn-reel-279
+M:C|
+K:Bdor
+FB~B2 FB~B2|dcBc AE~E2|FB~B2 ABce|afec Bage|
+f2ec fcec|~B3c BAFE|FB~B2 ABce|afec B2BA:|
+|:FBdc BF~F2|EAcB AE~E2|FBdc Bcdf|afec dBcA|
+Bcde fB~B2|afec ABce|~f3a bf~f2|afec B2BA:|
+
+X: 89
+T:Temperance Reel/Teatotaller's***
+T:Teetotaller's Reel, The
+M:C|
+L:1/8
+Q:180
+R:reel
+K:G
+D|G2GF GABc|d2ge dBAc|BEED EFGA|BGAF GFED|~G3F GABc|dBge dBAc|BEED EFGA|
+BGAF G3:|
+A|Beed e3g|fgaf gfed|Bdd^c d3 e|fgafgfed|Beed ~e3 g|fgaf gfed|BEED EFGA|
+BGAF G3:|
+
+X: 90
+T:The Choice Wife
+M:9/8
+L:1/8
+R:slip jig
+D:Willie Clancy: The Pipering of Willie Clancy 2.
+D:Davy Spillane: Atlantic Bridge.
+D:Planxty.
+D:Noel Hill: The Irish Concertina.
+D:Paul O'Shaughnessy & Paul McGrattan: Within a Mile from Dublin
+Z:id:hn-slipjig-10
+K:Dmix
+FGA AFA c2A|BAG FAF GED|FGA AFA d2A|dfe dcA GED:|
+|:d^cd efd =c2A|~d3 faf ~g3|aba ged c2A|BAG FAF GED:|
+|:FGA AFd AFd|AFd AFA GED|FGA AFA c2A|BAG FAF GED:|
+|:~D3 ~D3 c3|c2B c2A GEA|~D3 ~D3 d2A|dfe dcA GED:|
+|:d^cd efd =c2A|dB/^c/d faf ~g3|aba ged c2A|BAG F/G/AF GED:|
+
+X: 91
+T:The Donegal Reel *******
+M:4/4
+L:1/8
+Q:150
+R:reel
+K:D
+D2DE FDFA|dF~F2 BFAF|E2EF GFGA|(3Bcd AF EGFE|\
+D2DE FDFA|dF~F2 ABde|(3fgf ec dBAG|1 FGEF D2FE:|2 FGEF D3A||
+|:defg afdf|afdf a2gf|edef gfed|cdef g2fe|\
+defg afdf|afdf abag|(3fgf ec dBAG|1 FGEF D3A:|2 FGEF D2FE||
+
+X: 92
+T:the Kitchen Girl
+R:Reel
+O:USA
+M:4/4
+K:AMix
+a4 g4|efed c2cd |1 e2f2 gaba|g2e2 e2AA:|2\
+e2A2 efed|c2A2 A4:|
+K:Am
+c4 B4 | ABAG E2EG|A2B2 c2d2|e3f edcB|\
+c4B4|ABAG E2EE| cBAc BAG2| A8 :|
+
+X: 93
+T:The Market Town *****************************8
+M:6/8
+L:1/8
+R:Jig
+D:Session tape - Bangor, Down 1098? (Nigel and Dianna Boullier)
+Z:Bernie Stocks
+K:A
+EFE ECE | FAA A2f | edc Bcd | cBA F3 | EFE ECE | FAA A2f | edc BAB | cAA
+ A3 ::\
+efe ece | f2g agf | edc Bcd | cBA F3 | efe ece | f2g agf | edc BAB | cAG
+ A3 :|
+
+X: 94
+T:The Mason's Apron *****************************
+M:4/4
+L:1/8
+Q:200
+R:reel
+K:G
+(3def|g2 G2 BAGE|DEGA BGAB|c2 A2 ABAG|FGAB cdef|g2 G2 BAGE|DEGA BGAB|cBc
+d efge|dcBA G2:|\
+GA|BGdG eGdG|BGdG edcB|cAeA fAeA|cAeA fedc|BGdG eGdG|BGdG edcB|ABcd efge
+|dcBA G2:|
+
+X: 95
+T:The Merry Blacksmith ***********
+M:4/4
+L:1/8
+Q:150
+R:reel
+K:D
+A2|d2dA BAFA|ABdA BAFA|ABde f2ed|Beed egfe|d2dA BAFA|ABdA BAFA|ABde fdec
+|dBAF D2:|\
+fg|a2ag f2fe|d2dA BAFA|ABde f2ed|B2 e2 egfe|a2ag f2fe|d2dA BAFA|ABde fde
+c|dBAF D2:|
+
+X: 96
+T:The Stool of Repentance
+C:Niel Gow
+A:Cape Breton
+S:Sandy MacIntyre
+R:Jig
+M:6/8
+L:1/8
+K:A
+e/f/4g/4 | a2e c2e | {g}agf edc | (af)f f2e | fag f2e |
+{g}a2e c2e | {g}agf edc | d2e f2e | f<ac B2A :|
+cAA eAA | cAA edc | dBB fBB | dBB fed |
+cAA eAA | cAA edc | d2e f2e | f<ac B2A :|
+%%newpage
+
+X: 97
+T:The Swallowtail ******************
+M:4/4
+L:1/8
+Q:150
+R:reel
+K:G
+gf|eA (3cBA eA (3cBA|cdef gedB|G2BG dGBG|Bdef g2fg|\
+eA (3cBA eA (3cBA|cdef g2fg|afge dBGB|AcBG A2:|
+Bd|eaag a2ag |edef gedB|G2BG dGBG|Bdef g2fg|\
+eaag abag|edef g2fg|afge dBGB|AcBG A2:|
+
+X: 98
+T:Tommy Bhetty's Waltz
+M:3/4
+L:1/8
+A:Ireland
+Q:230
+R:Waltz
+D:Altan  "Red Crow"
+K:G
+D|:G2 GB dB|G2 GB dB|d2 b3 a|~g2 fg ef|
+G2 GB dB|G2 GB dB|D2 F2 A2|~c2 B2 A2|
+G2 GB dB|G2 GB dB|d2 b3 a|~g2 fg ef|
+d g3 Bc|cd dc AF|G2 B2 BA|1G4 z D:|2G3 g fg||
+|:a2 f2 d2|A2 F2 D2|C2 b3 a|~g2 fg ef|
+d3 e d2|B3 A B2|D2 F2 A2|~c2 B2 A2|
+d2 Bc dB|d b3 af|g b3 af|ga fg ef|
+d g3 Bc|cd dc AF|G2 B2 BA|1G3 g fg:|2 G4 z||
+
+X: 99
+T:Toss the Feathers
+M:4/4
+L:1/8
+Q:125
+S:Tommy Peoples, Donegal (fiddle)
+R:Reel
+D:From a 70's demo tape
+H:'D2's, 'A2's and 'A3's are unisons
+Z:Bernie Stocks
+K:G
+D2FD ADFD | AB{d}cA GECE | D2(3.F.F.D ADFD | Adde cAGE | D2FD AD(3.F.F.D
+ |
+AB{d}cA GE~E2 | cABG A3c |1 (3dcd (3.e.e.d cAGE :|2 (3dcd (3.e.e.d cAGc
+||
+Ad(3.d.d.d Ad(3.d.d.d | Adfd edcd | ea{b}ag ~a3g | eaab aged |
+(3.e.f.e ge afge | fded cAGA | B {cdB}c2B A2Ac |1 (3.c.c.d ed cAGc :|2(3
+.c.c.d ed cAGE ||
+
+X: 100
+T:Toss the Feathers
+R:reel
+H:Other versions: #263 (Ddor), #163 (Edor), #652 (Ddor)
+Z:id:hn-reel-110
+M:C|
+K:Dmix
+D2 (3FED AD (3FED|ABcA GE~E2|D2 (3FED ADFA|dfed cAGE|
+D2 (3FED AD (3FED|ABcA GE~E2|cABG A2B^c|dfed cAGE:|
+|:Ad~d2 Ad~d2|Ad^cd edcd|eaag ~a3g|eaag ed^cd|
+efge afge|dfed cAAB|cABG A2B^c|dfed cAGE:|
+
+X: 101
+T:Toss the Feathers
+M:C|
+L:1/8
+R:reel
+H:Other versions: #263 (Ddor), #163 (Edor), #652 (Ddor)
+Z:id:hn-reel-110
+K:Dmix
+D2 (3FED AD (3FED|ABcA GE~E2|D2 (3FED ADFA|dfed cAGE|
+D2 (3FED AD (3FED|ABcA GE~E2|cABG A2B^c|dfed cAGE:|
+|:Ad~d2 Ad~d2|Ad^cd edcd|eaag ~a3g|eaag ed^cd|
+efge afge|dfed cAAB|cABG A2B^c|dfed cAGE:|
+
+X: 102
+T:Toss the Feathers
+R:reel
+H:Other versions: #263 (Ddor), #163 (Edor), #652 (Ddor)
+Z:id:hn-reel-110
+M:C|
+K:Dmix
+D2 (3FED AD (3FED|ABcA GE~E2|D2 (3FED ADFA|dfed cAGE|
+D2 (3FED AD (3FED|ABcA GE~E2|cABG A2B^c|dfed cAGE:|
+|:Ad~d2 Ad~d2|Ad^cd edcd|eaag ~a3g|eaag ed^cd|
+efge afge|dfed cAAB|cABG A2B^c|dfed cAGE:|
+
+X: 103
+T:Trip to Durrow, The*****
+M:C|
+L:1/8
+R:reel
+D:Noel Hill: The Irish Concertina
+Z:id:hn-reel-249
+K:D
+D2DF ADFA|dfed ~B3c|dBBA dBBA|FADE FE~E2|
+D2DF ADFA|dfed ~B3c|dBBA FAdB|AFEG FD~D2:|
+|:dcde fefg|afdf gfed|(3Bcd ef gebe|gebe gfef|
+d2de fefg|afdf gfed|(3Bcd ef gbag|fdec d2de|
+fdec d2de|fded ~B3c|dBBA dBBA|FADE FE~E2|
+D2DF ADFA|dfed ~B3c|dBBA FAdB|AFEG FD~D2:|
+
+X: 104
+T:Trip to Pakistan
+Z: id:dc-reel-373
+M:C
+L:1/8
+K:E Minor
+EGBE G3B|ABAG FGAF|EGBE G3B|AGFG E4:|!
+EGBc-c2A2|BABd BABG|EGBc-c2A2|BAGB A4:|!
+FGBF GBFG|EFGE FGEF|DFAD FADF|AGFG E4:|!
+
+X: 105
+T:Virginia, The
+R:reel
+D:Dervish: Harmony Hill
+Z:id:hn-reel-256
+M:C|
+K:D
+DBBA ~B3A|BAdB AFEF|DF~F2 ~A3B|AFBF AFEF|
+DBBA ~B3A|BAdB ABde|~f3e defe|dBAF BE~E2:|
+|:defe d2dA|BAFA dAFA|defe defg|afbf afeg|
+f2df efdB|AF~F2 ABde|~f3e defe|dBAF BE~E2:|
+"Variations:"
+~B3A B3A|BAdB AFEF|DF~F2 AF~F2|DF~F2 AFEF|
+DBBA B2BA|B2dB ABde|~f3e defe|dBAF BE~E2:|
+|:defe d2dA|BAFA dAFA|f2fe defg|a2bf afeg|
+~f3e d2dB|AF~F2 ABde|~f3e defe|dBAF BE~E2:|
+
+X: 106
+T:Paddy Fahy's
+C:Paddy Fahy
+R:reel
+H:See also #622
+Z:id:hn-reel-581
+M:C|
+K:G
+G,2B,D GBdB|c2ag fgdc|BGGA BcdB|cAFA GDB,A,|
+G,2B,D GBdB|c2ag fgdc|BGGA BcdB|1 cAFA G2B,A,:|2 cAFA G2Bc||
+|:dggf gdBG|FGAB c2Bc|Aaag abag|fddB Adfa|
+g2fa gdBG|FGAB c2Bc|dggf d2ed|1 cAFA G2Bc:|2 cAFA G2B,A,||
+
+% Output from ABC2Win  Version 2.1 i on 17/02/2003
+X: 107
+T:Drag Her round the Road
+T:Shores of Lough Graney, The
+M:C|
+L:1/8
+R:reel
+D:Four Men and a Dog: Shifting Gravel
+D:Molloy, Peoples, Brady
+Z:id:hn-reel-374
+K:Em
+BEED E2GE|E2GE DEGA|BEED E2DE|1 GABG A2GA:|2 GABG A2BA||
+~G3F GBdB|c2AB cded|~B3A GBde|dBGB A2BA|
+~G3F GBdB|c2AB cdef|gedB c2ge|dBGB A2GA||
+"variations"
+|:BEED E2DE|GEDB, DEGA|BEED E2DE|1 GABG A2GA:|2 GABG ~A3F||
+~G3F GBdB|cBAB cded|B2AB GBdB|GABG ~A3F|
+DGGF GBdB|cBAB cdea|gedB cege|dBGA BA~A2||
+
+% Output from ABC2Win  Version 2.1 i on 18/02/2003
+X: 108
+T:The Crib Of Perches(m)
+M:4/4
+L:1/8
+S:Matt Cranitch (fiddle)
+R:Reel
+D:Irish Fiddle Book
+Z:Mike Casey
+K:G
+A3 B AGED | (3EFG AB cBcA | G2 EG CDEG |
+cAGc AG (3EFG |A2 AB AGFD | (3EFG AB c3 c|
+dged dcAB | cAGE ED D2 ::
+K:D
+df~f2 af~f2 | defd edcA | (3Bcd ef gece |
+gecA GABc |df~f2 af~f2 | defd  edcA |
+(3Bcd ec d2 cB | AFGE FD D2:|
+
+% Output from ABC2Win  Version 2.1 i on 18/02/2003
+X: 109
+T:Fraher's
+M:6/8
+L:1/8
+R:jig
+K:Dmix
+~A3 GED | ~D3 GED | ~A3 GEA | ~D3 DEG |
+~A3 GED | ~F3 GED | ~A3 GEA | ~D3 DEG :|
+|: ABG ~d2A | ~d2A AGE |GAB c2A | BGE EDD |
+dAA def | dcA AGE | ~A3 GEA | ~D3 DEG :|
+%%
+
+% Output from ABC2Win  Version 2.1 i on 18/02/2003
+X: 110
+T:The Golden Castle
+M:4/4
+L:1/8
+C:Junior Crehan
+K:GDor
+(GF)|DG(GF) G2 (3ABc|(dc)d(e f2) ga|\
+(gf)(dc) Ad(cA)|GA (3GFD F2 (GF)|
+DG(GF) G2 (3ABc|(dc)d(e f2) ga|\
+(gf)(dc) Ad(cA)|G2 (GF) G2 :|
+|:(3ABc|dgga b2 (gf)|(gf)d(e f3) (g/a/)|\
+(gf)(dc) Ad(cA)|GA (3GFD F3 G/F/|
+DG(GF) G2 (3ABc|(dc)d(e f2) (3fga|\
+(gf)(dc) Ad(cA)|G2 (GF) G2 :|
+%  ABC2Win Version 2.1 11/6/2002
+
+% Output from ABC2Win  Version 2.1 i on 18/02/2003
+X: 111
+T:The Humors of Cappa.
+M:6/8
+L:1/8
+C:McNamara.
+R:Jig
+B:O'Neill's Music of Ireland
+N:O'Neill's - 779
+Z:Transcribed by Stephen Foy (shf@access.digex.net)
+Z:abc 1.6
+K:D
+A|dFF AFA|dFF AFA|BEE BEE|BdB AFA|\
+dFF AFA|dFF AFA|ABd efg|fdd d2:|
+||A|dfd cec|BdB AFA|BEE BEE|BdB AFA|\
+dfd cec|BdB AFA|ABd efg|fdd d2:|
+
+% Output from ABC2Win  Version 2.1 i on 18/02/2003
+
+X: 112
+T:Annamaculeen
+T:R\'il Eanach Mhic Coil\'in
+L:1/8
+M:4/4
+Q:400.
+R:reel
+K:Ador
+GA|Beed BAGA|Bdef g3 z|Beed BAGA|BGdB A2 GA|
+Beed BAGA|Bdef g3a|bgaf gfed|efdB A2|
+GA|BE E2 DEGA|BE E2 d2 BA|BE E2 DEGA|BGdB A2 GA|
+BE E2 DEGA|BE E2 d2 BA|BE E2 DEGA|BGdB A2:||
+
+% Output from ABC2Win  Version 2.1 i on 01/03/2003

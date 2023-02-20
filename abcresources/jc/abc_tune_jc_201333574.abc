@@ -1,0 +1,23 @@
+X:1
+T: Saletan Special
+%%topspace 0cm
+%%titlespace 0cm
+I:
+C: S-S
+C: Bob McQuillen
+M: C|
+Q: 1/2=100
+Z:
+R: square
+K: G
+G,2 B,2C2| \
+"G"D3E D2G2| B2G2 E3G| E2D2 D3E| D4 B,2C2| D3E D2G2| B2G2 D2B,2| "D"A,8-| A,4 A,2B,2|
+"D7"C3D C3D| C2A,2 A,3B,| C4 A,4-| A,4 D2E2| F3G A2F2| E2D2 d2c2| "G"B8-| "D7"B2 \
+G,2 B,2C2|
+"G"D3E D2G2| B2G2 E2G2| E2D2 D3E| D4 G2A2| B3A G2B2| d2B2 "G7"A2G2| "C"E8-| E4 E2F2|
+"C"G3F E2D2| E2F2 G2A2| "G"B2 d6-| d4 B,2D2| "A7"E3F G2E2| "D7"F3G A2B2| "G"G8-| G2A2 B2c2|
+"G"d3e d2B2| e2d2 B2G2| E2 D6-| D4 G2A2| B3d B2d2| e2d2 B2d2| "D7"A8-| A2B2 A2B2|
+"D7"c3B c2d2| e2d2 c2B2| c2 A6-| A4 d2e2| f3g a2g2| f2e2 d2c2| "G"B4 d3e|
+"D7"d2c2 B2c2| "G"d3e d2B2| e2d2 B2G2| E2 D6-| D4 B2c2| d3e d2B2| "G7"A2G2 g2f2| "C"e8-| e4 e2f2|
+"C"g4 g3f| e2f2 g2a2| "G"g2 d6-| d4 B2d2| "A7"e3d e2g2| "D7"f2d2 f2a2| "G"g8-| g2 |]
+%

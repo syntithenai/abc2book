@@ -1,0 +1,44 @@
+%abc-2.2
+
+%%bgcolor        white
+%%scale           1.0
+%%pageheight     21.0cm
+%%pagewidth      29.7cm
+%%leftnargin      1.0cm
+%%rightmargin     1.0cm
+%%topmargin       2.0cm
+%%titlefont       Times-Roman 24
+%%subtitlefont    Times-Roman 18
+%%composerfont    Times-Italic 10
+%%titleformat     T, C-1 O1
+%%tempofont       Times-Roman 9
+%%textfont        Times-Roman 10
+%%dblrepbar :||:
+%%header East Anglian Traditional Music Trust
+%%headerfont      Times-Roman 11
+%%footer $F  --:-   © EATMT   $d  -:--   printed $D
+%%footerfont      Times-Roman 11
+%%writefields P 0
+
+X:0601
+T:Lady Longfords Keel
+R:march 24=4*2+8*2
+C:Trad. ed. PJHeadford
+O:UK, Norfolk, Cawston and Norwich
+S:NWHCM : 1942 105.2 – Norfolk Museums Service SCN0944
+N:page 6 tune 1 of MS
+Z:abc-copyright©PJHeadford_2021
+M:C
+L:1/8
+Q:2/4=90
+K:G
+%%MIDI program 75
+g2dB G2BG|E2AG FAFD|g2dB G2BG|EGFA G2G2:||:efge fgaf|
+gf"*"ge gfed|efge fgaf|gfed g3e|efge dBgB|cBAG GF"_^"ED|
+GFGA BABe|dcBA G2G2:||:XXXXXXXXXX
+%%begintext
+%%From this page on, we see a thicker pen in a clumsier hand, and note stems indiscriminately on left or right.
+%%The ^ note might be F. * marks a note which might be a high a. The MS definitely has "Keel".
+%%endtext
+
+

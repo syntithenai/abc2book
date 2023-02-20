@@ -1,0 +1,14 @@
+X: 61
+T: Zwiefacher Nagelschmied
+O: Germany
+M: 3/4
+L: 1/8
+Q: 1/4=200
+K: Eb
+%%MIDI program 57
+%%MIDI bassprog 57
+%%MIDI chordprog 20
+  "Eb"E4z2  |G4z2      |"Bb"BBB2B,2|"Eb"E2z2B,2       |
+  E2z2EE    |"Bb"D2F2B2|D2z2DD     |"Bb"E2G2B2        |
+|:"Eb"E2z2EE|"Bb"D2F2B2|[M:2/4]D2DD|[M:3/4]"Eb"E2E2z2 :|
+  "Eb"E4z2  |G4z2      |"Bb"BBB2B,2|"Eb"E4z2          |

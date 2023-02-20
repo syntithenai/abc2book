@@ -1,0 +1,17 @@
+X: 449
+T: Taraban
+O: Croatia
+F: http://www.youtube.com/watch?v=pIJkAcUhYXs
+F: http://www.youtube.com/watch?v=9kKl7VjTyrk
+M: 2/4
+L: 1/8
+Q: 1/4=150
+K: F
+%%MIDI program 25
+%%MIDI bassprog 32
+%%MIDI bassvol 60
+%%MIDI gchord fzfz
+|: "F"F/F/F "C"G/G/G|"F"A2 "C" A2|\
+   "F"AB"C"AG       |"F"A2 "C" A2
+:: "C"GzGG          |"Gm"DEF2    |\
+   "C"EGFE          |"Gm"D2D2    :|

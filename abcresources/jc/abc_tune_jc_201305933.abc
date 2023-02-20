@@ -1,0 +1,17 @@
+X: 775
+T: the Maid of Feakle
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #775
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0775/oneill-1001-0775-1.abc
+%m: Tn = (3n/o/n/
+M: C
+L: 1/8
+K: G
+"^A"[|] (Bc) !segno!\
+|         d2(BG) AGE(G | DG)BG c2(Bc) | d2(BG) AGE(G | DG)BG A2 \
+|| (GB) | d2(BG) AGE(G | DG)BG c2(BA) | G(ABd) efg(e | dB)GB A2G2 || 
+"^B"\
+[| Bcd(B cB)c(d | B)cdB TA(EED) | Bcd(B cB)c(e | dB)GB A2G2 \
+|| Bcd(B cB)cd  | BcdB   A(EED) | Bdd(f ed)Bd  | cgf(a gf)ge !^segno! |] 

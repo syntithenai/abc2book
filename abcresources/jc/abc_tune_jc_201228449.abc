@@ -1,0 +1,63 @@
+%%text RJ Set 112 NEFFA 2012 French-Canadian set
+
+
+X: 1
+T: R\'epertoire G\'erard Lajoie
+R: reel
+M: C|
+L: 1/8
+K: Bm
+cd |:\
+"A"e3e efed | cABc "D"A2 F2 | "A"EAAE AEAB |\
+[1,3 "Bm"cABc "E7"B2Ac :|[2 "E7"cedB "A"A3c :|[4 "E7"cedB "A7"A2 |]
+|: FG |\
+"D"AAFA "D7/F#"d3c | "G"B2GB "Em"e2d2 | "A7"cAce agec |\
+[1,3 "D"defd "A7"A2 :|[2,4 dfec "D"d2 :|
+
+
+X: 2
+T: Reel du Nord
+R: reel
+M: C|
+L: 1/8
+K: Bm
+|:\
+"Bm"FB2{B}B FB2{B}B | FBdB "F#"c3B |\
+"Bm"FB2{B}B FB2{B}d | "F#"fedc \
+[1 "Bm"B3A |[2,4 "Bm"B2BA ::\
+"A"Acec "A/C#"Acec | "D"dcdf "Bm"a4 |
+"A"Acec Acec | "D"defd "D#dim"A2BB |\
+"Em"Acec "A"Acec | "D"dcdf a4 |\
+"A"Acec Acec |dfec [1 "D"d2BB :|[2 "D"d4 |]
+% text 4/28/12
+
+
+X: 3
+T: Reel de Bergerville
+R: reel
+M: C|
+L: 1/8
+K: Bm
+|:\
+"Bm"B3B BFBc | dcde f2 d2 | B3B BFBc |\
+[1,3 "F#m"dedc "Bm"B2F2 :|2,4 "F#m"dedc "Bm"B4 :|
+|:\
+"D"A2BA F2 (3ABc | dcde f2 d2 | "D"A2 BA \
+[1,3 FDFA | dAFD "A7"E3B :|[2,4 FAdf | "A7"edce "D"d4 :|
+
+
+X: 4
+T: Reel des ti-minous
+%T: Reel of the small kittens
+R: reel
+M: C|
+L: 1/8
+K: G
+%%text Cut final half-note short and play pickups on transition.
+"(D7)"def |\
+"G"g2B2 d2 G2 | B2D2 G3B | "D"A2FA DFAF |1,3 GABc d :|2 GBAF "G"G :|[4 GBAF "G"G2 |]
+|: A2 |\
+"G"BdBA GFGB | ed^ce d2B2 | "Am7"ABAG FDFA | "D"d^cde d2cd |
+"G"BdBA "G7/B"G2gf | "C"edef "Am"e2d2 | "D"d2fe dcBA |1 GgdB "D"G2 :|[2 GgdB "D"G2 |]
+% text 4/28/12
+

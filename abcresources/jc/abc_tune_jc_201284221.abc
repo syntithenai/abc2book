@@ -1,0 +1,15 @@
+X: 1
+T: Hamilton House
+B: RSCDS-7
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+  f  | "G"g3      dBd | "D7"c2B     A2c |  "G"BdB "Am"A2G | "D7"FEF D3 \
+     | "G"g3      dBd | "Am"c2B     Ace | "D7"dcB     AGF | "G"G3-  G2 ||
+ yz  | "G"D3   "C"ECE |  "G"DGB     d2d | "Am"c2B "A7"A2G | "D7"FEF D2D \
+     | "Am"E2c    cde |  "G"dBG     G2g |  "G"dBG "D7"cAF | "G"G3-  G2 |]
+|: \
+B/c/ | "G"dBd "C"ege |  "G"dBd "Am"c2A |  "G"dBG "Em"EFG | "Am"ABG "D7"FED \
+     | "G"dBd "C"ege |  "G"dBd "Am"c2A |  "G"dBG "D7"DEF | "G"G3-  G2 :|

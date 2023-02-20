@@ -1,0 +1,20 @@
+X:350
+T:SEANN TRUIBHAS WILLICAHAN
+R:STRATHSPEY
+C:Dan R. MacDonald
+S:Lime Hill
+Z:Cape Breton, Nova Scotia
+Z:Notation and Chord adjustments Robin Shaylor 2002
+M:4/4
+L:1/8
+K:A
+a2 |\
+"A"    e<c c>B "F#m" A<F F>A | "C#m" E<C E>F     "F#m" A2A>B          |\
+"A6/E" c>Bc>e  "D"   f>e f<a | "C#m" e<c {d}c>A  "Bm"  B2 "E7/G#" B<a |
+"A"    e<c c>B "F#m" A<F F>A | "C#m" E<C E>F     "F#m" A2A>B          |\
+"A6/E" c>Bc>e  "D"   f>e f>a | "E7"  e<c B>c     "A"   A2            ||!
+d |\
+"A"   c<e e>f e<c a>e          | c<e e>f       {gf}e2 "A/G#"   e>a |\
+"F#m" c<f f>a f>e a/2g/2f/2e/2 | c<f f>g "D"   f2 f>a              |
+"A"   c<e e>f e<c a>e          | c<e e>f "C#m" e2 e>g              |\
+"D"  (3agf "A/C#" (3edc "Bm" (3dfd "Bm/A" (3cac | "E7/G#" B<E G>B "A" A2A |]

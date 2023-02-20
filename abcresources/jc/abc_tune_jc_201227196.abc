@@ -1,0 +1,29 @@
+X: 10664
+T: BUONA NOTTE AMATA BENE.
+O: Venetian air.
+Q: "Slowish."
+%R: air, march, shottish
+N: This is version 2, for ABC software that understands crescendo/diminuendo symbolx.
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.66 #4 (and p.67 #1)
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F>F |\
+B>AB>c d>cd>e | (g4 f2)f>f |\
+(=efag f_edc) | (B3~d) c2F>F |\
+B>AB>c d>cd>e | (g4 f2)f>f |\
+(=efa>"^Dolce."g f_ecd) | B4 z2 :|
+|: (c>d |\
+e>de>d e>cB>A) | (B3~d) f2b>b |\
+(bagf) (fedc) | (B3~d) c2F>F |\
+B>pAB>c d>cPd>e | (g4 f2)f>f |\
+=efQa<g f>_e (3(cqe>d) | B4 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

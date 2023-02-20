@@ -1,0 +1,22 @@
+X: 1
+T: Jim Tweedie's Sea-Legs
+C: J. Allan MacGee
+R: hornpipe
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+S: JPG scan of MS of bagipe score, from John Cahill 2010-2-12
+M: C|
+L: 1/8
+K: D
+%%continueall
+f>g | a2A2 A2d>c | B<dG2 G2f>g | a2A2   a>gf>d | c>ee>f e2f>g \
+| a2A2 A2d>c | B<dG2 G2a2  | A>eA>e e>Ac>B | A>cf>e d2y2 :|
+|: f>g | a>Ad>f A>df>A | d>f a>f e4 | A>eA>e e>Ac>B | A>ce>A f>ec<A \
+| a>Ad>f A>df>A | d>f a>f e4 | A>eA>e e>Ac>B | A>cf>e d2y2 :|
+a>g | f>dd2 G>dd2 | G>BB2 e4 | A>eA>e e>Ac>B | A>ce>A f>ec<A \
+| a>dd2 G>dd2 | G>BB2 e4 | A>eA>e e>Ac>B | A>cf>e d2y2 ||
+a>g | f>dd2 G>cc2 | G>BB2 e4 | A>eA>e e>Ac>B | A>ce>A f>ec<A \
+| a>dd2 G>BB2 | G>cc2 e4 | A>eA>e e>Ac>B | A>cf>e d2y2 |]
+|: f>g | a2A>a A>aa>f | g2A>e A>ee>A | A>eA>e e>Ac>B | A>ce>A f>ec<A \
+| a2A>a A>aa>f | g2A>e A>ee>A | A>eA>e e>Ac>B | A>cf>e d2y2 :|
+|: f>g | a>Ad>f A>df>A | d>fA>d f>Ad<A | c<eA>c e>Ac<e | A>ce>A f>ec<A \
+| a>Ad>f A>df>A | d>fA>d f>Ad<A | c<eA>c a>cf<e | A>cf>e d2y2 :|

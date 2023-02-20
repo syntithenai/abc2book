@@ -1,0 +1,36 @@
+X: 1
+T: Dzisiaj w Betlejem
+C: words: Jan Siedlecki
+O: Trad. Polish)
+M: 3/4
+L: 1/8
+K: F
+%%continueall yes
+V:1 clef=treble staves=2
+V:2 clef=bass middle=D
+[V:1] "F"[F2F2] [FF][CC] [FF][GG] | "Dm"[A2F2] [AF][GC] [AF][BG] | "Am"[cF][dF] [c2F2] [B2F2] | "C"[A2F2] [G2E2] z2 |
+w: 1.~To-day Beth-le-hem, To-day Beth-le-hem, We pro-claim the Good News.
+w: 2.~Je-ru-sa-lem_ Je-ru-sa-lem_ Re-joice, your king has come.
+w: 3.~O, Is-ra-el,_ O, Is-ra-el,_ your_ wait is ov-er.
+w: 4.~Dzi-siaj Be-tle-jem, Dzi-siaj Be-tle-jem, we-so-l\a no-wi-na,
+[V:2] z6 | z6 | [AF][BF] [A2F2] [d2B,2] | [c2C2] [c2C2] z2 |
+%
+[V:1] "F"[F2F2] [FF][CC] [FF][GG] | "Dm"[A2F2] [AF][GC] [AF][BG] | "Am"[cF][dF] [c2F2] [B2F2] | "C"[A2F2] [G2E2] z2 |
+w: The Vir-gin Mar-y, The Vir-gin Mar-y, has giv'n us a Sav-ior.
+w: Kings from the East,_ Kings from the East,_ come to pay him hom-age.
+w: Da-vid's heir has come, David's heir has come, as the Lord has prom-ised.
+w: ze Pa-na czy-sta, ze Pa-na czy-sta, o-ro-dzi-\la Sy-na.
+[V:2] z6 | z6 | [AF][BF] [A2F2] [d2B,2] | [c2C2] [c2C2] z2 |
+%
+P: Chorus:
+[V:1] "C"[c2E2] [cG][BG] [AF][GE] | "F"[F2C2] [FC][CC] [FC][AC] | "C"[c2E2] [cG][BG] [AF][GE] | "F"[F2C2] [FC][CC] [FC][AC] | 
+w: je-sus is born to set sin-ners free._ Our king to rule with love and cha-ri-ty.
+w: Chry-stus sie ro-dzi, nas o-swo-bo-dzi, A-nie-li tra-ja, kro-le wi-ta-ja,
+[V:2] [c2C2] [cE][cE] [cF][cG] | [cA][BG] [AF][AF] [AF][AF] | [GE][FD] [EC][EC] [FD][GE] | [AF][BG] [cA][BG] [AF][AF] |
+%
+[V:1] "F"[cF][dF] [cF][BF] [AF][BF] | "C"[cF][dF] [cF][BF] [AF][BF] | "F"[cF][cG]"Bb"[d2^F2]"F"[c2A2] | "C"[B2G2]"F"[A2F2]"C7"[G2E2] | [F6C6] |]
+w: An-gels do pro-claim Him, Shep-herds bow be-fore Him, the new born babe, Je-sus the Christ.
+w:  po-ste-rze spie-wa-ja, by-dle-ta kle-ka-ja, cu-da, cu-da, o-gla-sza-ja.
+[V:2] ([AF-][BF]) ([AF-][GF]) ([FC-][GC]) | ([AF-][BF]) ([AF-][GF]) ([FC-][GC]) | "F"[AF][A_E]"D"[A2D2]"D7"[d2^F2] | "Gm"[d-G][dB,][c2C2][B2C2] | [A6F6] |]
+w: An-*gels* sing,* Shep-*herds* bow,*
+w: pa-*ste-*rze* spie-*wa-*ja,*

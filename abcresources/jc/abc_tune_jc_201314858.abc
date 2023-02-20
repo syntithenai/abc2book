@@ -1,0 +1,23 @@
+X: 1
+T: Munlochy Bridge
+O: 18th-century Scottish
+%AKA: Come Hap Me with Thy Petticoat, I'll Hap Ye in My Plaidie, Leith Wynd
+D: Crystal Clear, 2000
+R: strathspey
+S: Fiddle Hell Online 2021-05-25 Wendy MacIsaac workshop
+B: B:William Ross - Ross's Collection of Pipe Music (1869, No. 159)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+"^A"[|] g !segno!|:\
+"G"e>d B>A B<G G>B | d>e d<B "D"d2 d>g |\
+e>d B>A TB>G (3Gef | "C"g>e "D"f<d | "Em"{d}e2 "C"e<g :|
+"^B"[|\
+"G"d>e g>a b>g a<b | d>e (3dcB "D"d2 d>e |\
+"G"d>e g>a b>g a<b | "D"Ta>g e<d "Em"{d}e2 "C"e<g |
+||\
+"G"d>e g>a b>g a<b | d>e (3dcB "D"d2 d>g |\
+"G"e>d TB>A B<G (3Gef | "Am"g>e f>d "Em"e>f "C"g>f "_D.S."y|]
+%%text Variant measures:
+y8 | "A1"e>d B>A TB>G (3GGB} | y | "B4"G>b a<g e2 e<g | y8 y8  y8 y8

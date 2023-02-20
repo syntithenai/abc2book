@@ -1,0 +1,24 @@
+X: 1
+T: Justice Busy
+%R: minuet
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (177)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+N: Corrected incorrect lengths of the "turn" notes in bar 4.
+M: 3/2
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: c2G2 cdcd c2G2 | cdcd (e3c/d/) e4 | e2cd efef g2cd | e^fef (f3e/f/) g4 :|
+|: d2G2 dcde d2G2 | dcde e3d d2ef | gfga gagf efge | fgef d3c c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. lead forward and back again and cast off
+%% :| The two Men and two Wo. lead to the Wall and back
+%% again then Back to Back :| The 1st Cu. go the whole
+%% Figure thro the 3d Cu. .| Then 1st right and left quite
+%% round with the 2d Cu :|
+%%endtext
+%%sep 1 8 500

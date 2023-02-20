@@ -1,0 +1,20 @@
+X:719
+T:La Tambourine
+C:Anonymous tunebook, late 18th century
+F:http://www.vwml.org/record/Anon2/3049/p70
+Z:vmp/efdss.Simon Wilson. Reviewed PJH 2008.
+M:2/4
+L:1/16
+%%MIDI program 71     Clarinet
+%%MIDI chordprog 25   Acoustic Guitar (steel)
+%%MIDI bassprog 32    Acoustic Bass
+%%MIDI gchord fcHc
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=112
+K:C
+P:A
+"Am"A2e2 e2d2 | "/"c/d/e3 c/d/e3 | "E7"e2d2 c2B2 | "Am"cdcB A2E2 |\
+"Am"A2e2 e2d2 | "/"c/d/e3 c/d/e3 | "Am/E"cBA^G "Dm"ABcd | "E7"e4 e4 :|
+P:B
+|: "Dm"B3c d2c2 | "E7"B2e4 dc | "/"B2e4 dc | "/"B4 E2B2 |\
+"Am"cBA^G "Am/G"A2B2 | "F"cBA^G "Dm"A2a2 | "Am/E"e2A2 "E7"cBA^G | "Am"A4 A4 :|

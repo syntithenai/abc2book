@@ -1,0 +1,33 @@
+X: 1
+T: All alive
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (140)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+N: The second strain is 10 bars long.
+M: 6/4
+L: 1/4
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+d2e fed | fa2- a2A | def efd | ^c3 A2d |\
+cBA BAG | AcF B2A | GEF E2D | D3- D2 :|
+|: F |\
+E2F GAF | Ac2 B2A | fed gef | ^c3 A2a |\
+bag a2A | BAG A2f | gfe e2d | d3- d2A |\
+GEF E2D | D3- D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+% - - - - - - - - - - Dance description: - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. sett to each other then cast off and go half the
+%% Figure then cast off again into the 2d Cu. Place Improper .|
+%% Then the 2d Cu. do the same :| Then all four cross
+%% over and give a Jump then Face to Face and Jump again
+%% and Back to Back with your Partner in the 1st Man and 2d
+%% Wo. meet then take right and left Hands the 2d Man and
+%% 1st Wo. do the same .| Then go quite round Hands a cross
+%% which will bring the 1st Cu. into the 2d Cu. Place :|
+%%endtext
+%%sep 1 8 500

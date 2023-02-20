@@ -1,0 +1,491 @@
+
+X: 1
+T: Bingsj\"o storpolska
+O:
+R: Bingsj\"opolska, 16th-note polska
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: D
+|: A2- \
+| "D"A3A d2d2 fafd | "A"cdec A6 A2- \
+| "A"ABcd e2ce "D"~f2ef | "A"gage "D"d2fd "A"c3d \
+| "A"efec "D"{c}d6 A2- |
+| "D"A3A d2d2 ~f2ef | "G"{f}g2g2 fgfe d2c2 \
+| "Em"~c3B [B6E6] B2- | "D"~B3A A2d2 ~f2ed \
+| "A"c3e {e}a2a2 c3d | efec "D"~d6 :|
+|: A2- \
+| "D"f3d d2d2 f2fa | "D"efed cBcd e2f2 \
+| "G"[D4B4g4] gagf efed | "A"cdcB ABAG "D"FDFA | d2fd "A"c2ec "D"d2fd |
+| "A"efed cBcd e2f2 | "G"[D4B4g4] {b}abag "D"~f2ef \
+| "A"gage "D"d2fd "A"c3d | efec "D"~d6 \
+:: A2- \
+| "D"A3A {ABc}[d4D4] [d4D4] | "D"F2F2 A4 [A4D4] |
+| "A"EFED E2F2 ~G4- | "G"G2B2- ~B2AG "A"A3A \
+| "D"A3A d2d2 efed | "G"c2dc B4- B2Bd \
+| "A"cdef g2ag "D"~f2ed | "A"cdec "D"d6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Blekingpolskan
+R: Bingsj\"o-polska
+O: efter Bengt Jonsson
+M: 3/4
+L: 1/16
+K: D
+|:\
+"D"d2fd A2A2 BA^GA | "D"d2fd A2A2 TB2A2 | "D"f2ef "A7"gage "D"f2fd |[1,3 e"A7"fed cdec A4 :|[2,4 e"A7"fec "D"d8 :|
+|:\
+"D"f3g a2af a2af | "G"b2bg "D"a2af "A7"g2e2 | "D"f3g a2af a2af | "G"b2bg "D"a2af "A7"g2e2 | "D"d2fd A2A2 BA^GA |
+"D"d2fd A2A2 TB2A2 | "D"f2ef "A7"gage "D"f2fd | "A7"efec "D"d8 :|[K:G]|: "G"G2FG B2GB d2Bd | gfed "D7"c4 "G"B4 |
+|[1,3 B2"G"AB "D7"cdcA "G"B2BG | "D7"ABAF "G"GAGD B,2D2 :|[2,4 B2"G"AB "D7"c2B2 A2G2 | F2EF "G"G8 :: "G"D4 B,2D2 B2G2 | "C"E3D CB,CD C4 |
+"A7"E4 ^C2E2 A2E2 | "D7"F3G FED^C D4 | "G"G2FG B2GB d2Bd | gfed "D7"c4 "G"B4 | B2AB "D7"c2B2 A2G2 | F2EF "G"G8 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Blekingpolskan
+R: Bingsj\"o-polska
+O: efter Bengt Jonsson
+M: 3/4
+L: 1/16
+K: D
+|:\
+"D"d2fd A2A2 BA^GA | "D"d2fd A2A2 TB2A2 | "D"f2ef "A7"gage "D"f2fd |[1,3 e"A7"fed cdec A4 :|[2,4 e"A7"fec "D"d8 :|
+|:\
+"D"f3g a2af a2af | "G"b2bg "D"a2af "A7"g2e2 | "D"f3g a2af a2af | "G"b2bg "D"a2af "A7"g2e2 | "D"d2fd A2A2 BA^GA |
+"D"d2fd A2A2 TB2A2 | "D"f2ef "A7"gage "D"f2fd | "A7"efec "D"d8 :|[K:G]|: "G"G2FG B2GB d2Bd | gfed "D7"c4 "G"B4 |
+|[1,3 B2"G"AB "D7"cdcA "G"B2BG | "D7"ABAF "G"GAGD B,2D2 :|[2,4 B2"G"AB "D7"c2B2 A2G2 | F2EF "G"G8 :: "G"D4 B,2D2 B2G2 | "C"E3D CB,CD C4 |
+"A7"E4 ^C2E2 A2E2 | "D7"F3G FED^C D4 | "G"G2FG B2GB d2Bd | gfed "D7"c4 "G"B4 | B2AB "D7"c2B2 A2G2 | F2EF "G"G8 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Pols etter Edvard Langemarks
+O: BUL Nidaros
+R: pols
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: A
+|: "A"A,4 (3CA,C E4 | A4 (3cAc e4 \
+|1,3  d"E7"Bd cAc B3A | "(A)"GA3 cA3 E3C \
+:|2,4 d"E7"Bd cAc B3G | "A"A4 A8 :|
+a-\
+|: "E7"a3g e^d3 e3f | ge3 bg3 e3c \
+|1,3  d"E7"Bd cAc B3A | "(A)"GA3 cA3 E4 \
+:|2,4 d"E7"Bd cAc B3G | "A"A4 A8 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Helsinge polska
+R: Bingsj\"o-polska
+C: av Vilhelm Hedlund, Enviken
+M: 3/4
+L: 1/16
+K: Gm
+|:"Gm"G,2B,D G2DG "D7"B2A2 | "D7"D2^FA c2=Bc "Gm"e2d2 \
+| "Gm"d-edB "D"c2A2 "Gm"B2G2 | "D"^F-GAF "Gm"G2GD "(D7)"B,2A,2 |
+| "Gm"G,2B,D G2DG "D7"B2A2 | "D7"D2^FA c2=Bc "Gm"e2d2 \
+| "Gm"d-edB "D"c2A2 "Gm"B2G2 | "D"^F-GAF "Gm"G4- G4 :| [K:G]
+|:"G"d2ef g2gd B2G2 | "Am"A-Bcd e2ec A3G \
+| "D"F-GAB c2cA F3D | "G"GFGA B2BG "(D7)"D4 |
+| "G"d2ef g2gd B2G2 | "Am"A-Bcd e2ec A3G \
+| "D7"F-GAB c-def "G"f-gdc | "D7"B2AG F-GAF "G"G4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Hj\"ort Anders' 60 years birthday polska
+C: August Slumbae
+O: original version
+N: The first part may be repeated.
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: F
+%%slurgraces 1
+"A"\
+[| {c}c2cB A2AB c2cd | c2cB A2c2 f4 \
+| c2cB A2c2 ~f2e2 | [d4D4] {A}[B8D8] |
+| {B}[B2D2]BA [G2G,2]GA B2Bc | B2BA [G2G,2]A2 B2g2- \
+| g2(~f2 e2)c2 e2g2 | f2af (c2A2) F2A2 |
+| c2cB A2AB c2cd | c2(~B2 A2)c2 f4 \
+| a2ag f2fe d2c2 | {c}[d4D4] {A}[B6D6] B2 |
+| B2((3cBA) B2d2 f2d2 | c2cB A2Ac f2a2 \
+| g2gf e2ec e2g2 | [f4A4] f8 |]
+"B"\
+[| {f}fefg a2g2 f2e2 | d^cde f2e2 d2=c2 \
+| ~BABc d2c2 (TB2A2) | B4 [G8G,8] |
+|: [G2G,2]G^F [G2G,2]A2 B2d2 | c2cB A2Ac f2a2 \
+| g2gf e2ec e2g2 |1 f2af c2A2 [A2F2]A2 :|2 [f4A4] [f8A8] |]
+
+%%sep 1 1 500
+
+X: 1
+T: Hj\"ort Anders' 60 years birthday polska
+C: August Slumbae
+O: Hj\"ort Anders' version
+N: Learned from Magnus Gustafsson Aug 15 1993
+N: The first part may be repeated.
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: F
+A2B2 \
+"A"\
+|: "F"cdcB A2B2 c4   |     cdcB  A2c2    f4   \
+|     cdcB AFAc fgfe | "Gm"d4    B3{cB}A B2G2 |
+| "C7"BcBA G2A2 B4   |     BcBA  G2f2    e3f  \
+|     gagf efed cdcB |  "F"ABcA  F4 [A2F2]A2  |
+|  "F"cdcB A2B2 c4   |      cdcB A2c2    f4   \
+|     abag fgfe dedc | "Bb"{c}d4 B3{cB}A B2G2 |
+|:"Bb"BcBA B2d2 f2d2 |  "F"cdcB  AFAc    f2a2 \
+| "C7"g2bg e2ge c2de |1 "F"f2c2  cdcB    A2c2 :|2 "F"f4 f8 :|
+"B"\
+|:"Dm"fefg  abag fgfe |     d^cde fgfe ded=c \
+| "Bb"BABc d_edc BcBA | "Gm"{A}B4 G6   D2   |
+|     GAG^F G2B2 d4   |  "F"cdcB  AFAc f2a2 \
+| "C7"g2bg  e2ge c2de |  "F"f2c2  cdcA F2A2 |
+| "Gm"BcBA  B2d2 g2d2 |  "F"cdcB  AFAc f2a2 \
+| "C7"g2bg  e2ge c2de |  "F"f4    f8       :|
+
+%%sep 1 1 500
+
+X: 1
+T: Hus om Byggnads polska
+C: av Pers Erik
+R: Bingsj\:o-polska
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: A
+(g2 \
+| a4) efed cdcB | ABAG G2A2 A4 | A,CEA DFAd EGBe | Acea g2f2 e3e |
+| a3a g2f2 e4 | f2f2 d2fd e4 | e2fe d2fd (Ac)(ec) | B2AG A6 :|
+|: e2- \
+| e2ce (a2c'2) c'4 | e2fe d2fd e4 | d3e f2f2 e4 | a2ga b2b2 a4 |
+| g2ag f2gf e4 | f2ff d2fd e4 | e2(fe) d2(fd) (Ac)(ec) | B2AG A6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Kalla K\aarar
+T: Bingsj\"opolska efter Pekkos Helmer
+R: Bingsj\"o-polska
+D: Dansbart B-19
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+D>C \
+|: "G"B,G,/B,/ DB,/D/ {D}GG | "G"BG/B/ dB/d/ g>a \
+| "C"~gg/e/ "G"dd/c/ "D"Bd | "G"dB/d/ "D"cA/c/ "G"~BG |
+| "G"B,G,/B,/ DB,/D/ {D}GG | "G"BG/B/ dB/d/ g>g- \
+| "G"bb/g/ dd/B/ D/G/B/G/ |1 "D"D/F/A/F/ "G"G3 C :|2 "D"D/F/A/F/ "G"G3 G- |]
+|: "G"[G2G,] g2- g~f- | "C"ed "D"fa/f/ "G"g>B- \
+| "C"~ce/c/ "D"Ac/A/ "G"GB/G/ | "D"D/-F/A/F/ "G"G(D/C/) ~B,G, |
+| "G"[G,2G] "C"[c2E] [c2-E-] | [cE](d/c/) "G"(B/c/)d/B/ "C"{B}c2- \
+| "C"c~B- "D"Ac/A/ "G"GB/G/ |1 "D"(D/F/)A/F/ "G"G3 G :|2 "D"(D/F/)A/F/ "G"G3 z |]
+
+%%sep 1 1 500
+
+X: 1
+T: Koiviston polska   [Am]
+T: Nokia ring-tone polska
+O: Trad Finland
+R: polska
+S: Nokia 1990s ringtone
+M: 3/4
+L: 1/16
+K: Am
+|: "Am"efed cdcB A2c2 \
+| "E7"BcBA ^GAG^F E2FG \
+| "Am"A2^GA B2AB c2Bc \
+| "Dm"d2cd "E7"e4 [e4^G4] :|
+[| "C"g4 gagf e2e2 \
+| "G7"f2f2 f2ed "C"e2c2 \
+| "C"g4 gagf e2e2 \
+| "G7"f2f2 f2ed "E7"e2d2 ||
+||"Am"cBcd e2c2 "(Dm)"B2A2 \
+| "E7"cBA^G G4 "Am"A2B2 \
+| "Am"cBcd e2c2 "(Dm)"B2A2 \
+| "E7"cBA^G G4 "Am"A4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Koiviston polska   [Dm]
+T: Nokia ring-tone polska
+O: Trad Finland
+R: polska
+S: Nokia 1990s ringtone
+M: 3/4
+L: 1/16
+K: Dm
+|: "Dm"ABAG FGFE D2F2 \
+| "A7"EFED ^CDC=B, A,2B,C \
+| "Dm"D2^CD E2DE F2EF \
+| "Gm"G2FG "A7"A4 [A4^C4] :|
+[| "F"c4 cdcB A2A2 \
+| "C7"B2B2 B2AG "F"A2F2 \
+| "F"c4 cdcB A2A2 \
+| "C7"B2B2 B2AG "A7"A2G2 ||
+||"Dm"FEFG A2F2 "(Gm)"E2D2 \
+| "A7"FED^C C4 "Dm"D2E2 \
+| "Dm"FEFG A2F2 "(Gm)"E2D2 \
+| "A7"FED^C C4 "Dm"D4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Koiviston polska   [Em]
+T: Nokia ring-tone polska
+O: Trad Finland
+R: polska
+S: Nokia 1990s ringtone
+M: 3/4
+L: 1/16
+K: Em
+|: "Em"BcBA GAGF E2G2 \
+| "B7"FGFE ^DED^C B,2CD \
+| "Em"E2^DE F2EF G2FG \
+| "Am"A2GA "B7"B4 [B4^D4] :|
+[| "G"d4 dedc B2B2 \
+| "D7"c2c2 c2BA "G"B2G2 \
+| "G"d4 dedc B2B2 \
+| "D7"c2c2 c2BA "B7"B2A2 ||
+||"Em"GFGA B2G2 "(Am)"F2E2 \
+| "B7"GFE^D D4 "Em"E2F2 \
+| "Em"GFGA B2G2 "(Am)"F2E2 \
+| "B7"GFE^D D4 "Em"E4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Koiviston polska   [Gm]
+T: Nokia ring-tone polska
+O: Trad Finland
+R: polska
+S: Nokia 1990s ringtone
+M: 3/4
+L: 1/16
+K: Gm
+|:"Gm"dedc BcBA G2B2 \
+| "D7"ABAG ^FGF=E D2EF \
+| "Gm"G2^FG A2GA B2AB \
+| "Cm"c2Bc "D7"d4 [d4^F4] :|
+[|"Bb"f4 fgfe d2d2 \
+| "F7"e2e2 e2dc "Bb"d2B2 \
+| "Bb"f4 fgfe d2d2 \
+| "F7"e2e2 e2dc "D7"d2c2 ||
+||"Gm"BABc d2B2 "(Cm)"A2G2 \
+| "D7"BAG^F F4 "Gm"G2A2 \
+| "Gm"BABc d2B2 "(Cm)"A2G2 \
+| "D7"BAG^F F4 "Gm"G4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Polska fr\aan Lappfj\"ard
+O: efter Torsten P\"arus
+R: 16th-note polska
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Dm
+|: "Dm"D2FA d2eg ~f2ed | "A7"^c2Ac e2g2 ~g2fe | "Dm"f2gf "A"e2fe "Dm"d2fg \
+|1,3 ~f2"A7"ed ^cAce a4 :|2,4 ~f2"A7"e^c "Dm"d8 :|
+|: "F"{c}a3f f2a2 bagf | "C"e2c2 e2g2 agfe \
+| "F"f3c f2a2 bagf | "C"e2c2 e2g2 "A7"agfe |
+| "Dm"d3^c d2e2 ~f2ed | "A7"^c2Ac e2g2 ~g2fe \
+| "Dm"f2gf "A"e2fe "Dm"d2fg | "A7"fed^c "Dm"d8 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Midsommardr\"om
+R: Polska
+O: Sweden
+M: 3/4
+L: 1/16
+Z: Richard Robinson <URL:http://www.leeds.ac.uk/music/Info/RRTuneBk/contact.html>
+K: G
+E2 \
+| B2Ac B2G2 F2E2 | B3^d f2g2 e3e | d2ed cBcd e2d2 | A2Bc B6 gf | g2ab f2ga g2f2 |
+| efg2 f2ed B4 | {F}G2AB F3A  G2FE | FEDF E6 :: D2 | B2Ac B2AG D3B | d2g2 e2ce d3B |
+| c2cd cBAG B2A2 | E3F G2B2 A2 D2 | B2Ac B2AG D3B | d2g2 e2ce d3B | cde2 A2Bc B2dB | AGFA G6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Norrala polskan v.1
+O: efter Anders Wallin, Bolln\"as, H\"alsingland
+O: efter Martin Larsson, H\"alsingland
+R: 16th-note polska
+N: The 2nd part has only 7 bars.
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: D
+|: A2 \
+| "D"d2dA F2FD "A7"E4 | "D"D3F A2d2 f2a2 | "G"b2bg "D"a2af "A7(Em)"g2ge |1,3 "E7"d-cdf e-dcB "A"A2 :|
+|2,4 "A7"A-cec "D"d6 :: g2 | "D"f2d2 A-df-d A-df-d | "A"e2c2 A-ce-c A-ce-c | "G"B2G2 D-GB-G D-GB-G |
+| "D"A2BA "E7"F2D2 "A7"E4 | "D"D3F A2d2 f2a2 | "G"b2bg "D"a2af "A7(Em)"g2ge |"A7"A-cec "D"d6 :|
+%%text https://www.youtube.com/watch?v=Cyi4-rpkECk
+
+%%sep 1 1 500
+
+X: 1
+T: Bingsj\"opolska efter Nylandspojkarna
+O:
+R: Bingsj\"opolska, 16th-note polska
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: A
+|: (a2 \
+| "D"ga)ba f2af d2f2 | "A"e2ae c2ec A2c2 \
+| "E7"(Bc)dB G2BG E2FG |1,3 (AG)"A"AB (cB)cd e2 :|2,4 A4 "A"A6 :|
+|: E2 \
+| "A"C2E-C "E7"B,2E-B, "A"A,4 | A2Bc "D"d2f-d "A"c4 \
+| "E7"B3c- "D"d2f-d "A"c2e-c |1,3 (EG)"E7"BG "A"A2AE C2 :|2,4 (EG)"E7"BG "A"A6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Eklundapolska #1
+T: Myggbiten
+C: Viksta Lasse (Leonard Larsson)
+O: efter Nylandspojkarna
+R: Bingsj\"opolska, 16th-note polska
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Dm
+|: "Dm"[D2A2]a2 ~a2^ga baga | [D2A2]a2 ~a2^ga baga \
+| a2ag fefg a2f2 | "A"~f2ed ^cdec A4 |
+|  "Dm"[D2A2]a2 ~a2^ga baga | [D2A2]a2 ~a2^ga baga \
+| a2ag fefg afed |"A7"^cdec "Dm"d8 :|
+|: "Dm"[A2a2]ab a2ab a2ab | "Gm"[B2g2]gb g2gb g2gb \
+| "Dm"[A2f2]fa f2fa f2fa | "A7"~f2ed ^cdec A4 :|
+|: "Dm"[D2A2]d2 "A7"^cdec "Dm"d4 | [D2A2]f2  "A7"efge "Dm"f4 \
+| "Dm"[D2A2]d2 "A7"^cdec "Dm"d4 | "Dm"A2BA "Gm"G2BG "A7"A4 \
+| "Dm"A2BA "Gm"G2BG "Dm"F2AF | "A7"ED^CE "Dm"D8 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Bingsj\"opolska efter Nylandspojkarna
+O:
+R: Bingsj\"opolska, 16th-note polska
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: A
+|: "A"A2Ac e-ce-g {g}b2a2 | "D"a-baf d2f-a "E7"g2b2 \
+| "D"d2fd "A"c2ec "E7"B2dB |1,3 EGBG "A"A2BA E2CE :|2,4 "E7"EGBG "A"A8 :|
+|| "D"A-df-d A-df-d A-df-d | "A"A-ce-c A-ce-c A-ce-c \
+| "D"A-df-d A-df-d A-df-d | "A"A-ce-c A-ce-c A-ce-c |
+| "A"E3E A2A2 "E7"B2B2 | d2d2 "A"c-Bce a4 \
+| "E7"e-fed c-dcB A-BA-G | G2A2 "A"A8 ||
+|| "D"A,-DF-D A,-DF-D A,-DF-D | "A"A,-CE-C A,-CE-CC A,-CE-C \
+| "D"A,-DF-D A,-DF-D A,-DF-D | "A"A,-CE-C A,-CE-CC A,-CE-C |
+| "A"E3E A2A2 "E7"B2B2 | d2d2 "A"c-Bce a4 \
+| "E7"e-fed c-dcB A-BA-G | G2A2 "A"A8 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Polska efter Pekkos Olof Hansson
+R: Bingsj\"o-polska
+Z: John Chambers <jc@trillian.mit.edu>
+S: Handwritten version of unknown origin, with chords
+S: Printed version of unknown origin,  numbered 300, "Ur D.f.m.818", "Uppt. Karl Sporr"
+M: 3/4
+L: 1/16
+K: Dm
+|: "Dm"DEFG A4 d4 | "Dm"A2BA "A7"G2AG "Dm"F2AF | "Dm"D2f2 ~f2ef gfed \
+|1,3 "A7"^c2a2 age^c A4 :|2,4 "A7"age^c "Dm"d8 :|
+|: "Dm"A2df a2ba "Gm"g4 | "A7"A2^ce gage "Dm"f4 | "Dm"fafd "A7"ege^c "Gm"d2e2 \
+|1,3 "E"~f2ed "A7"^c2ec A3A :|2,4 "A7"{f}ed^ce "Dm"d8 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Bingsj\"opolska fr\aan Havamal
+C: R\"oj\aas Jonas
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Ddor
+A2- \
+|:   "Dm"A3G FED^C    D3F  |    "Am"A2A2   cAce "Dm"d3f  \
+| "C(Am)"e3d cBce     gage |1,3 "Dm"f4     d3f      edcB :|2,4 "C"c4 "Dm"d8 :|
+|: "G"{c}B2d^f  g4       d2e2 | "Dm"f2f2 "(C)"egec "Dm"d3c  \
+|  "G"Bcd^f  g2g2     d3e  | "Dm"f2f2 "(C)"egec "Dm"d2b2 \
+| "Am"a3g    f2e2 "Dm"d3f  |  "C"egec   "Dm"d8 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Pennknivsm\"ordaren
+R:polska J
+Z:hn-jp-73
+D:V\"asen: Essence
+Z:Henrik Norbeck <henrik.norbeck@mailbox.swipnet.SE>
+M:3/4
+L:1/16
+Q:1/4=115
+K:Am
+| abag =fgfd e2e2 | c2ed cBA^G A2E2 | A^GAB c2d2 e2^f2 | d^cd^f aba^g e4 |
+| abag =fgfd e2e2 | c2ed cBA^G A2E2 | A^GAB c2ce dcBA | ^GABG A8 :|
+|: E2c2 E2c2 E2c2 | c2B2 =G2BB B2B2 | cBA^G ABcd e=fed | cdcB ABA^G E4 |
+| E2c2 E2c2 E2c2 | c2B2 =G2BB B2B2 | cBA^G ABcd e=fed | cBA^G A8 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Polska mot tr\"otthet
+R: Bingsj\"o-polska
+O: efter Hj\"ort Anders & Viksta Lasse
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: D
+|: "D"D2(DF) (AF)(DF) A2(AG) | "Em"E2(EG) (BG)(EG) B2~B2 \
+| "A7"A2(Ac) (ec)(Ac) e2(ec) | "D"A2(Ad) (fe)(dB) "(A7)"(AG)(FE) |
+|  "D"D3F A2F2 A2~B2 | "G"[G4G,4] (Bd)BG B2{c}d2 \
+| "A7"A2(Ac) e2(eg) ~f2(ed) | (cd)ec "D"~d8 :|
+|: "D"a3f d2(df) a2b2 | "A7"~g3e ~c2e2 ~g2a2 \
+| "D"{A}~f3e d2e2 (~f2a2) | "A7"(ef)ed (cd)ec A4 |
+| "D"~a3f d2f2 a2{a}b2 | "A7"g3f e2(ef) ~g2a2 \
+| "D"{A}~f3e d2de (fa)fd | "A7"egec "D"d8 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Tio kronors polska
+R: Bingsj\"o-polska
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: A
+|: "A"A3c efec A2c2 \
+| "E7"c2BA [B6E6] c2 \
+| "D"dcde f2f2 d3e \
+| "E7"f2gf efed cdcB \
+| "A"AEAc efec A2c2 |
+| "E7"c2BA B6 c2 \
+| "D"dcde f2f2 "E7"dedB \
+| GEGB "A"A8 \
+:: "A"efed cAce a2f2 \
+| "D"fafd "E7"BGBd f2e2 |
+| "A"e2fe "(E)"d2ed "A"c2a2 \
+| "E7"g2ag f2f2 e4 \
+| "A"efed cAce a2f2 \
+| "D"fafd "E7"BGBd f2e2 \
+| "A"e2fe "(E)"d2ed "A"c2ec \
+| "E7"GEGB "A"A8 :|

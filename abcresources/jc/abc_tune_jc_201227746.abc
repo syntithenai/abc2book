@@ -1,0 +1,25 @@
+X: 10961
+T: ALLY CROAKER
+%R: march
+B: "Edinburgh Repository of Music" v.1 p.96 #1 - p.97 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 clef=treble
+A |\
+d2d>d | d3d | edcd | e>fga |\
+fddd | d3d | edcd | e>fgz |\
+{ga}a2aa | a3a | bagf | e>fgz |
+{ef}g2gg | g3g | agfe | d>ef2 |\
+d>dd>d | c3d/c/ | B3c/B/ | A2A2 |\
+g>ggg | Hg2fe | fdge | c2d |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=treble
+z |\
+F2FF   | F3F   | cBAB     | c>def | dFFF   | F3F    |
+cBAB   | c>dez | {de}f2ff | f3f   | gfed   | c>dez  |
+e2ee   | e3e   | fedA     | F>Ad2 | B>BB>B | A3B/A/ |
+G3A/G/ | F2F2  | e>eee    | He2dA | AFBG   | G2F    |]

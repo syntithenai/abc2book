@@ -1,0 +1,25 @@
+X: 1
+T: Danza del oso
+T: the Bear's Dance
+O: trad. northern Spain
+S: https://musescore.com/user/29404289/scores/5209507 2020-3-26
+N: This is a jig-time version; it's more widely played as a polka.
+N: The score is for 4 voices + drum; this is just the extracted melody line.
+R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+zb |\
+E2E BAB | E2E G2A | B2{B}B A2G | A3- AGA |\
+B2B AGF | G2B AGF | E2G F2{E}D | E3- E :|
+|: z2 |\
+EFG EFG | F2D D3  | EFG EFG | A3 zGA |\
+B2B AGF | G2G FED | E2G FED | E3- E :|
+K: Ador
+|: AB |\
+c2A BAG | A2B c2d | e2e d2c | B2G GAB |\
+c2A BAG | A2B c2d | e2g fed | eAA A :|
+|: EF |\
+G2E FED | EAA AEF | G2E D2C | BGG GAB |\
+c2A BAG | A2B c2d | e2g fed | EAA A :|

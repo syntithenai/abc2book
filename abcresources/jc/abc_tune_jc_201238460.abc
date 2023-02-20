@@ -1,0 +1,33 @@
+X: 3082
+T: Sleep on till day.
+O: Supposed a Skye Air.    Very Old 
+%R: air, waltz
+N: This is version 2, for ABC software that understands voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.3 p.8 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: In bar 8, the f in the bass has a natural sign that makes no sense. (So it was omitted here.)
+M: 3/4
+L: 1/8
+Q: "Slow with much Expr.n"
+K: C
+% %continueall
+% - - - - - - - - - -
+V: 1 staves=2 clef=treble
+A2 |\
+(G2 D2) E2 | Tc3 d e2 | G2 E2 TD>C | [C4G,4E,4] A2 |\
+G2 (D2 E2) | Tc3 d e2 | E2 ~A2 ^G2 | "_sf"A4 c>A |\
+G2 (D2 E2) | ~c3 d e2 | G2 [E2C2] T[D2B,2] | [C4G,4E,4] |]
+Tc>d |\
+{cd}e3 d c2 | (c2 G2) GA | _B2 A2 A>c | ({=B}c2 G2) G2 |\
+{G}e3 d c2 | (c2 G2) Ac | G2 E2 TD2 | {D2}E4 !p!A2 |\
+G2 (D2 E2) | ~c3 d e2 | G>A E2 TD>C | [C4G,4E,4] |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+f2 |\
+e2 B2 c2 | e2 d2 c2 | c2 g2 G2 | C2 c2 f2 |\
+e2 B2 c2 | e2 d2 c2 | c>d e2 E2 | A2 a2 "_sf"f2 |\
+e2 (B2 c2) | e2 d2 c2 | c2 g2 G2 | C2 c2 |]
+z2 |\
+z2 c2 c2 & C6 | e4 c2 | e2 f4 | e2 c4 |\
+C2 c2 c2 | e4 f2 | g4 G2 | [c4C4] !p!f2 |\
+e2 (B2 c2) | e2 d2 c2 | e>f g2 g2 | c2 C2 |]

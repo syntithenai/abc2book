@@ -1,0 +1,45 @@
+X: 1
+A:Thomas Tallis
+T:Thomas Tallis' Fifth Psalm Tune
+M:none
+L:1/4
+Q:1/4=130
+K:F Major
+%
+V:1 clef=treble
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+V:4 clef=bass+16 middle=D,%+
+%
+%%MIDI program 1	79 ocarina
+%%MIDI program 2	74 recorder
+%%MIDI program 3	78 whistle
+%%MIDI program 4	60 frenchrn
+%
+% Squeeze things together a bit, to get the whole tune to fit on one page.
+%%sysstaffsep    22.0pt
+%%systemsep      50.0pt
+%%
+[V:1] D    F   G  | A2  F | B2  G     | A2  G  | F2   E  | F2  z |
+[V:2] A,   D   E  | F2  F | B,>(CD/E/)| F2  D  | C2   C  | C2  z |
+w:   E'en like the hunt-ed hind the**   wa-ter brooks de- sire,
+[V:3] F,   A,  B, | C2  C | D2  B,    | C2  B, | A,2  G, | A,2 z |
+[V:4] F,   D,  G, | F,2 A,| G,2 G,    | F,2 B,,| F,2  C, | F,2 z |
+%
+[V:1] C    F   G  | A2    c  | B2     G  | A2  G | B2  A    | G2 ^F   | G2   z |
+[V:2] A,   D   E  | F2    F  | F    B,2  | C2  E | F2  F    | D2  D   | D2   z |
+w:   e'en thus my  soul, that faint-ing    is, to thee would fain a-  spire.
+[V:3] F,   A,  B, | C2    C  | D2     E  | F2  C | D2  C    | B,  A,2 | G,2  z |
+[V:4] F,   D,  G, | F,2   A, | B,    G,2 | F,2 E,| D,>(E,F,)| B,, D,2 | G,,2 z |
+%
+[V:1] E  C   D  | E>  (FG) | A   G2  | G2  A  | =B> (AB) | c2  z |
+[V:2] C  C   F, | G,2   C  | F   D2  | E2  F  |  G2   G  | E2  z |
+w:   My soul did thirst to  God, to    God of   life and  grace.
+[V:3] G, A,  B, | C2    G, | C2 B,   | C2  C  |  D2   D  | C2  z |
+[V:4] C, F,  D, | C,>(D,E,)| F,  G,2 | C,2 A,,|  G,,2 G,,| C,2 z |
+%
+[V:1] F   A   d  | c2    B  | A>  (GF) | E2  F  | G2   A  | B    G2  | A3   ||
+[V:2] F   F   F  | F2    F  | F2    C  | C2  C  | D2   C  | D    E2  | F3   ||
+w:    It said e'en thus: When shall I   come to   see God's live-ly   face?
+[V:3] A,  C   B, | A,2   D  | C> (B,A,)| G,2 A, | B,2  A, | G,2   G, | F,3  ||
+[V:4] F,  F,  B,,| F,2   B,,| F,2   F, | C,2 F, | B,,2 F, | B,,  C,2 | F,,3 ||

@@ -1,0 +1,33 @@
+X: 31063
+T: COTILLION No. 15. WARREN SETT tune 3
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.106 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Strain 3 has a few wrong uses of 16th-vs-32nd notes; fixed.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+d2 |\
+g4 fgaf | g2d2B2G2 | e2eg fgaf | g2b2d'2b2 |\
+c'2c'b a2a2 | f2fe d2d2 | efge fgaf | g2b2g2 H|]
+Bc |\
+dz2 (3(e/d/^c/) [d3B3]g | dz2 (3e/d/^c/ d3b | a2g2f2e2 | d^cdc B2c2 |\
+dz2 (3(e/d/c/) [d2B2]g2 | dz2 (3(e/d/c/) d2b2 | a2g2f2e2 | a3de "^D.C."f |]
+e2 |\
+b4 bc'ba | b4 bc'ba | g2g2f2e2 | ^d2f2 B4 |\
+b4 bc'ba | b4 bc'ba | g2f2e2^d2 | e6 "^D.C."y |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Forward 4,
+%% 4 hands half round,
+%% chassa across,
+%% 2 ladies forward and back,
+%% gents the same,
+%% balance,
+%% half right and left.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

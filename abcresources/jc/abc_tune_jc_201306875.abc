@@ -1,0 +1,28 @@
+X:1
+T:March  " "
+M:C|
+L:1/8
+Q:80
+C:/JHP
+S:DONALD BLUE (Lights Out)
+K:HP
+|: {Gdc}d3/2B/2{g}G3/2B/2 | \
+{Gdc}d{e}B{gcd}c{e}A | \
+{Gdc}d3/2B/2{g}G3/2{d}B/2 |
+{g}A{d}B{gef}e2 | | \
+{Gdc}d3/2B/2{g}G3/2B/2 | \
+{Gdc}d{e}B{gcd}c{e}A |
+{gBd}B3/2{g}A/2{d}G3/2{d}B/2 | \
+{g}A{d}B{gef}e2 :: \
+{g}B3/2{GdGe}B/2{gf}g3/2e/2 |
+{Gdc}d{e}B{gcd}c{e}A | \
+{g}B3/2{GdGe}B/2{gf}g3/2e/2 | \
+{Gdc}d{e}B{gef}e2| |
+|1 {g}B3/2{GdGe}B/2{gf}g3/2e/2 | \
+{Gdc}d{e}B{gcd}c{e}A | \
+{gBd}B3/2{g}A/2{d}G3/2{d}B/2 |
+{g}A{d}B{gef}e2 :| | \
+|2 {A}e3/2f/2{gf}g3/2e/2 | \
+{Gdc}d{e}B{gcd}c{e}A |
+{gBd}B3/2{g}A/2{d}G3/2{d}B/2 | \
+{g}A{d}B{gef}e2|]

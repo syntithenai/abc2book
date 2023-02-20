@@ -1,0 +1,16 @@
+X: 165
+T: Irish Champion
+R: jig
+%S: s:2 b:16(8+8)
+B: O'Neill's 1850 #165
+O: F.O'Neill
+Z: 1997 henrik.norbeck@mailbox.swipnet.se
+Z: The f in bar 6 should be an 1/8 note. [Fixed. JC]
+Q: "With spirit"
+M: 6/8
+L: 1/8
+K: D
+(A/G/) | (F2A) d2f | (e2c) (A2B) | ({d}cBc) d2d | d3- d2 |\
+|  g | (f2d) (f2g) | a2f (g2a/g/) | f2d c2B | A3- A2 |]
+|| g | (f2d) (f2g) | (a2f) (g2a/g/) | (f2d) (c2B) | A3- A2 |\
+|  A | (.B2.B) (g2f) | (.e2.c) (A2B) | ({d}cBc) (.d2.d) | d3- d2 |]

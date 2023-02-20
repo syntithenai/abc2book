@@ -1,0 +1,1020 @@
+
+X: 1
+T: Al Tira
+O: Israel
+%info: line
+M: 4/4
+L: 1/8
+C: E. Harussi and M. Zeira
+S: V. Pasternak: Great Songs of Israel
+Z: Seymour.Shlien@crc.doc.c
+K: Dm
+| "Dm" D2 C/2=B,/2C DD C/2=B,/2C | DF "C" ED/2C/2 "Dm" D4 | D2 C/2=B,/2C DD C/2B,/2C |"Dm" DF "C" ED/2C/2 D4 |
+| "F" F A2 A "Gm" G/2A/2 B2 B | "F" AF FF/2A/2 "C" G C2 C |"F" F A2 A "Gm" G/2A/2 B2 B | "F" AG/2F/2 "A7" GF/2E/2 "Dm" D2 D2 |
+| "Bb" D d2 d "C" c2 B/2A/2 B | "C7" G c2 B "F" A2 A2 | "Bb" D d2 d "C" c2 B/2A/2B | "C7" G c2 B "A" A2 A2 |
+| "Dm" FG AF "Gm" GA/2B/2 AG |"Dm" F2 "C" G2 "F" A4 | "Dm" FG AF "Gm" GA/2B/2 AG/2G/2 |"Dm" FF "Cm" _E/2D/2E "D" D4 |
+
+%%sep 2 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: Al Tira
+O: Israel
+%info: line
+M: 2/4
+L: 1/8
+C: E. Harussi and M. Zeira
+O: Israel
+S: Handwritten MS of unknown origin
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+K: Am
+[|"Am"A2 "(G)"GG | "Am"AA "(G)"GG | "Am"Ac "G"BA/G/ | "Am"A3 z \
+| "Am"A2 "(G)"GG | "Am"AA "(G)"GG | "Am"Ac "G"BA/G/ | "Am"A3 z |]
+[| "C"ce- ee | "G7"df- ff |  "C"ec    ce | "G7"dG- GG \
+|  "C"ce- ee | "G7"df- ff |  "C"ec "G"dB | "Am"A2  A2 |]
+[|"Am"za- aa | "G7"g2 f2 |     dg- gf |  "C"e2 e2 \
+| "Am"za- aa | "G7"g2 f2 |     de- ed | "Am"c2 c2 |]
+[| "C"cd ec | "G7"de/f/ ed |  "C"c2 "G"  d2 | "Am"e4 \
+|  "C"cd ec | "G7"de/f/ ed | "Am"c2 "Gm"_B2 | "Am"A3 z |]
+
+%%sep 1 1 500
+
+X: 1
+T: Bo' Dodi [Dm]
+O: Israel
+R:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Dm
+|: "Dm"d2dc d2dc | d2e2 f2"C7"g2 |  "F"a2ag "Dm"a2ag | "Gm"b2ba "C7"g4 |
+| "F"abag "Dm"a2fg | "Gm"abg2 "A7"g2a2 | "Dm"d2dc d2dc | "A7"f2fe "Dm"d4 :|
+
+%%sep 3 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: Bo' Dodi [Em]
+O: Israel
+R:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Em
+|: "Em"e2ed e2ed | e2f2 g2"D7"a2 |  "G"b2ba "Em"b2ba | "Am"c'2c'b "D7"a4 |
+| "G"bc'ba "Em"b2ga | "Am"bc'a2 "B7"a2b2 | "Em"e2ed e2ed | "B7"g2gf "Em"e4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 3
+T: Bo' Dodi [Am]
+O: Israel
+R:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Am
+|: "Am"A2AG A2AG | A2B2 c2"G7"d2 |  "C"e2ed "Am"e2ed | "Dm"f2fe "G7"d4 |
+| "C"efed "Am"e2cd | "Dm"efd2 "E7"d2e2 | "Am"A2AG A2AG | "E7"c2cB "Am"A4 :|
+
+%%sep 3 1 500
+
+%%sep 1 1 500
+
+X: 4
+T: Bo' Dodi [Bm]
+O: Israel
+R:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bm
+|: "Bm"B2BA B2BA | B2c2 d2"A7"e2 |  "D"f2fe "Bm"f2fe | "Em"g2gf "A7"e4 |
+| "D"fgfe "Bm"f2de | "Em"fge2 "F7"e2f2 | "Bm"B2BA B2BA | "F#7"d2dc "Bm"B4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Cherkessiya
+O: Ukraine
+Z: John Chambers <jc:trillian.mit.edu>
+N: The chords in parens may be played during the repeats.
+N: Use the G/C lines for C instruments, the A/D for Bb instruments.
+M: 4/4
+L: 1/8
+K: G
+P: G
+|: "G"[B2G2][B2G2] "C"[c2G2]"G(Em)"[B2G2] | "D(Am)"[AF][A2F2][GD] "D"[AF][BG]"G"[G2D2] :|\
+|: "G"[BG][cA][d2B2] "D"[AF][A2F2][GD] | "D"[AF][BG][c2A2] "G"[BG][AF][G2D2] :|
+P: C
+K: C
+|: "C"[e2c2][e2c2] "F"[f2c2]"C(Am)"[e2c2] | "G(Dm)"[dB][d2B2][cG] "G"[dB][ec]"C"[c2G2] :|\
+|: "C"[ec][fd][g2e2] "G"[dB][d2B2][cG] | "G"[dB][ec][f2d2] "C"[ec][dB][c2G2] :|
+%%sep 5 5 200
+P: A
+K: A
+|: "A"[c2A2][c2A2] "D"[d2A2]"A(Fm)"[c2A2] | "E(Bm)"[BG][B2G2][AE] "E"[BG][cA]"A"[A2E2] :|\
+|: "A"[cA][dB][e2c2] "E"[BG][B2G2][AE] | "E"[BG][cA][d2B2] "A"[cA][BG][A2E2] :|
+P: D
+K: D
+|: "D"[f2d2][f2d2] "G"[g2d2]"D(Bm)"[f2d2] | "A(Em)"[ec][e2c2][dA] "A"[ec][fd]"D"[d2A2] :|\
+|: "D"[fd][ge][a2f2] "A"[ec][e2c2][dA] | "A"[ec][fd][g2e2] "D"[fd][ec][d2A2] :|
+
+%%sep 1 1 500
+
+X: 1
+T: Dodi Li  [Dm]
+O: Israel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Biblical text, meaning roughly:
+N: My lover is mine, and I am his, the shepherd among the flowers.
+N: Who comes there, from the desert, scented with myrrh and frankincense?
+N: I am fascinated, my only one, my bride.
+N: Awaken, north wind! Come, south wind!
+N: My lover is mine, and I am his, the shepherd among the flowers.
+N: (Yes, it does lose something in the translation.  And my dictionary gives one
+N: of the meanings of the "l-b-v-" verb as "to make doughnuts".  Hmmm...)
+M: C
+L: 1/8
+P: Play: RARBRCR
+K: Dm
+"Refrain"\
+|: "Dm"D-E F-D "Gm"G4 | "Dm"zF2E  F-E D-C | "Dm"D-E F-D "Gm"G4 | "C"zFEC "Dm"D4 !fine!y/:|
+w: Do-*di* li, va 'a-ni* lo,* ha-*ro-*'e ba-sho-sha-nim.
+"A"|: "Dm"zA2-G A-B c-B | zA2-G AG F2 | zA-G A2 B-A | "Gm"G4 z4 :|
+w: 1.~Mi* zot ~'o-la* min* ha-mid-bar, mi* zot ~'o-*la?
+w:    Me-ku-te-*ret* mor u le-vo-na, mor u le-vo-*na.
+"B"|: "Dm"zA2G A-G F2 |  "C"zE2D EF G-A | "F"zA-=Bc "G"d-c BG | "A"A4 z4 :|
+w: 2.~Li-bav-ti-*ni, 'a-cho-ti, ka-la,* li-*bav-ti-*ni, ka-la.
+"C"|: "Dm"zA2G A4 | "Gm"zG2-A G4 | "Dm"zA2-G "F"A2 c=B | "A"A4 z4 :|
+w: 3.~'U-*ri, tsa-*fon! 'U* vo-'i tey-man!
+
+%%sep 1 1 500
+
+X: 1
+T: El Ha-Rahat (Am)
+M: 4/4
+L: 1/8
+K: Am
+|: "Dm"d2d2 | "G"BA AG | BA AG | "Am"A3 z :: "Dm"dd dc/d/ | ed d2 | "G"BA BG | "Am"A3 z :|
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: El Harahat [F#m]
+M: 4/4
+L: 1/8
+K: F#m
+|: "E"B2B2 | GF FE | GF FE | "F#m"F3 z :: "E"BB BA/B/ | cB B2 | GF GE | "F#m"F3 z :|
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 3
+T: El Ha-Rahat (Bm)
+M: 4/4
+L: 1/8
+K: Bm
+|: "Em"e2e2 | "A"cB BA | cB BA | "Bm"B3 z :: "Em"ee ed/e/ | fe e2 | "A"cB cA | "Bm"B3 z :|
+
+%%sep 1 1 500
+
+X: 1
+T: Erev Ba
+R:
+O: Israel
+B:
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+P: C instruments:
+K: G
+P: in G:
+[| "G"D2G2 F2GB | "Am"A8 | "D7"A2B2 cdB2 | "G"B8 \
+|  "G"D2G2 F2GB | "Am"A8 | "D7"A2B2 cdB2 | "E7"B8 ||
+|| "C"c2e2 g3g | fgfe e4 | "Am"A2c2 e3e | "D7"dedc "B7"[BB]AGF \
+|  "Em"G4 E4 | "Am"A4 "D7"ABG2 | "G"G4- "C"G4- | "G"G8 |]
+P: in C:
+K: C
+[| "C"G2c2 B2ce | "Dm"d8 | "G7"d2e2 fge2 | "C"e8 \
+|  "C"G2c2 B2ce | "Dm"d8 | "G7"d2e2 fge2 | "A7"e8 ||
+|| "F"f2a2 c'3c' | bc'ba a4 | "Dm"d2f2 a3a | "G7"gagf "E7"[ee]dcB \
+|  "Am"c4 A4 | "Dm"d4 "G7"dec2 | "C"c4- "F"c4- | "C"c8 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Erev shel shoshanim
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dm
+|: "Dm"D2 DC D2 F2 | "G"G6 D2 | "Gm"G2 GF "C"G2 A2 | "Dm"F6 z2 \
+| "B"F2 FE F2 G2 | "C"E3 D C4 | "Am"E2 ED E2 F2 | "Dm"D6 z2 :|
+|: "Dm"A2 AG A2 F2 | "G"G6 D2 | "Gm"G2 GF G2 A2 | "Dm"F6 z2 \
+| "Gm"G2 GF G2 A2 | "Dm"F3 E D4 | "C"E2 ED E2 F2 | "Dm"D6 z2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: ha-Shu'al
+T: the Fox
+O: Israel
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Gm
+|: "Gm"MG2MG2 \
+| MG2z2 \
+| "*"z2"*"z2 \
+| "*"z2B2 \
+| "F"A2GF \
+| "Gm"G4 \
+| G4 \
+| "(Eb)"B4 \
+| B4 \
+| "F"A2B2 \
+| "(Cm)"c2d2 |
+| "D7"c2BA \
+|1 "Gm"G2 B2 \
+| "F"AG F2 \
+| "Gm"G2z2 \
+:|2 "Gm"G4- \
+| G2d2 \
+|: "Cm"c2c2 \
+| c2d2 \
+| "Gm"B2B2 \
+| B2d2 \
+| "Cm"c2c2 \
+| c2d2 |
+| "Gm"B2B2 \
+| B2F2 \
+| G2B2 \
+| "F"A2GF \
+| "Gm"G4- \
+| G2F2 \
+| G2B2 \
+| "F"A2GF \
+|1 "Gm"G4- \
+| G2d2 \
+:|2 "Gm"G4- \
+| G2z2 :|
+%%text * clap
+
+%%sep 1 1 500
+
+X: 1
+T: Ha-Nokdim
+O: Israel
+R:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+P: Lento
+cB || "Am"c2d2 "G"BcBA | "Em"G2"Am"A4 cB | "Am"c2"G"d2 "C"efed | "Dm"d6 cB |
+| "Am"c2d2 "G"BcBA | "Em"G2"Am"A4 Bc | "Dm"d2A2 "G"ABAG | "Am"A6 Bc ||
+%%text Slowly accelerate from here to the end ...
+|: "Dm"dz3 dz3 | dedc d2Bc | d2A2 "G"ABAG |1 "Am"A2c4 Bc :|2 "Am"A6 G2 ||
+|: "Am"ABc2 "G"BAG2 | "Am"ABc2 "G"Bcd2 | "Am"ABc2 "G"BAG2 | "Am"A4 A2z2 :|
+|: "Dm"def2 "C"edc2 | "Dm"d2d2 "C"c2Bc | "Dm"def2 "C"edc2 | "Dm"d4 d2z2 :|
+|: "Am"ABc2 "G"BAG2 | "Am"ABc2 "G"Bcd2 | "Am"ABc2 "G"BAG2 | "Am"A4 A2z2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Harmonika [Dm]
+O: Israel
+M: 4/4
+L: 1/8
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+W: Hey, accordion, play for me the hora that we once danced in Galilee.
+W: We will always remember the hora that we once danced in Galilee.
+K:Dm
+|: "Dm"z A2 G A2 A2 | "Gm"z G2 A "Dm"F>E D2 | "Gm"z E2 F "A7"G2 A2 | "Dm"(F/2E/2D-D6) :|
+w: Hey, har-mo-ni-ka, nag-ni-*li, she ye-rad kol tzlil.
+w: et ha-ho-ra she ra-ka-de-nu ya-chad ba-Ga-lil.
+|| "C"z C2 C c2 c2 | "C7"z B2 c "F"A>G F2 | "C"z C2 C "C7"c2 B2 | "F"A4- "A7"A4 ||
+w: Hey, Har-mo-ni-ka, nag-ni-*li, she ye-rad kol tzlil.
+|| "Dm"z A2 G A2 A2 | "Gm"z G2 A "Dm"F>E D2 | "Gm"z E2 F "A7"G2 A2 | "Dm"D8 ||
+w: et ha-ho-ra she ra-ka-de-nu ya-chad ba-Ga-lil.
+|: "Dm"A2 GF A2 GF | AA "Gm"BB "Dm"AA GF | "Dm"FF ED F>F "Gm"G2 |
+w: Od* niz-ko-ra,* od niz-ko-ra et ha-ho-ra, ho-ra she ra-ka-de-nu
+|1 "Dm"FF ED "A7"A4 :|2 "Dm"FF "A7"EE "Dm"D4 |]
+w: ya-chad ba-Ga-lil.  ya-chad ba-Ga-lil.
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: Harmonika [Em]
+O: Israel
+M: 4/4
+L: 1/8
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+K:Em
+|: "Em"z B2 A B2 B2 | "Am"z A2 B "Em"G>F E2 | "Am"z F2 G "B7"A2 B2 | "Em"G/2F/2E-E6 :|
+|| "D"z D2 D d2 d2 | "D7"z c2 d "G"B>A G2 | "D"z D2 D "D7"d2 c2 | "G"B4- "B7"B4 ||
+|| "Em"z B2 A B2 B2 | "Am"z A2 B "Em"G>F E2 | "Am"z F2 G "B7"A2 B2 | "Em"E8 ||
+|: "Em"B2 AG B2 AG | BB "Am"cc "Em"BB AG | "Em"GG FE G2 "Am"A2 |1 "Em"GG FE "B7"B4 :|2 "Em"GG "B7"FF "Em"E4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Hava Nagila  [D]
+O: Klezmer
+Z: John Chambers <jc:trillian.mit.edu>
+N: At end, the last bar is often played at half speed, with note values doubled.
+M: C
+L: 1/8
+K: Dphr
+|: "D"D2 D3 ^F ED | ^F2 F3 A GF | "G"G2 G3 B AG \
+|1 "D"^F2 "Cm"E/D/E "D"F4 :|2 "D"^F2 "Cm"E/D/E "D"D4 |]
+|: "D"^FF2E DD D2 | "Cm"EE2D CC C2 | C2E3D CC G2 \
+|1 "D"^F2 "Cm"E/D/E "D"F4 :|2 "D"^F2 "Cm"E/D/E "D"D4 |]
+[|"Gm"G4 B4 | G2 B2 G2 B2 \
+| "Gm"GG B>A GB AG | GG B>A GB AG |
+| "Cm"AA c>B Ac BA | AA c>B Ac BA \
+| "Cm"AA "D"d2 "Cm"AA "D"d>D | "D7"DD (B/A/G/^F/) "Gm"G4 |]
+
+%%sep 1 1 500
+
+X: 0
+T: Hinach Yafa
+K: C
+
+% tune/HinachYafa_C.abc
+
+%%sep 1 1 500
+
+X: 1
+P: Hinach Yafa
+O: Israel
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: The rthythm alternates between "syrtos" (3-1-2-2) and "tsamikos" (3-1-2-2-2-2)
+M: 2+3/2
+L: 1/8
+K: C
+G cGdc "Intro"| "C"e3d fedc "G7"BABd | "C"c3d edef | ge-ec "F"af"C"ge | "G7"fd-de/d/ cdef |
+| "Dm"d4- d4- | d2dd edef | "C"g3g g2g2 | "G7"g2fe f2ed | "C"c2z2 "G7"gfed | "C"cz ||
+|: "G7"GG cGdG || "C"e4 "C7"efed "F"f3g/f/ | "C"e4- e2d2 eef2 | "C7"g6 g2 |
+| "F"a3g ffga | "C"g4- g4- | g2e2 e2f2 | g4 g2ga | "Dm"f3e d4- | "G7"d2dc dde2 |
+| "G7"f2gf e2f2 | "C"g4- g4- | g2e2 "C7"f2g2 | "F"a3a a2a2 "G7"gagf | "Am"e4- e2ed eef2 |
+| "Dm"g2ag f2e2 | "G7"d4- d4- | d2dc B2G2 | "C"e4- e4 "G7"dedc | "C"c4- c4- | cz  :|
+
+% tune/HinachYafa_D.abc
+
+%%sep 1 1 500
+
+X: 2
+P: Hinach Yafa
+O: Israel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: The rthythm alternates between "syrtos" (3-1-2-2) and "tsamikos" (3-1-2-2-2-2)
+M: 2+3/2
+L: 1/8
+K: D
+A dAed "Intro"| "D"f3e gfed "A7"cBce | "D"d3e fefg | af-fd "G"bg"D"af | "A7"ge-ef/e/ defg |
+| "Em"e4- e4- | e2ee fefg | "D"a3a a2a2 | "A7"a2gf g2fe | "D"d2z2 "A7"agfe | "D"dz :|
+|: "A7"AA dAeA || "D"f4 "D7"fgfe "G"g3a/g/ | "D"f4- f2e2 ffg2 | "D7"a6 a2 |
+| "G"b3a ggab | "D"a4- a4- | a2f2 f2g2 | a4 a2ab | "Em"g3f e4- | "A7"e2ed eef2 |
+| "A7"g2ag f2g2 | "D"a4- a4- | a2f2 "D7"g2a2 | "G"b3b b2b2 "A7"abag | "Bm"f4- f2fe ffg2 |
+| "Em"a2ba g2f2 | "A7"e4- e4- | e2ed c2A2 | "D"f4- f4 "A7"efed | "D"d4- d4- | dz  :|
+
+%%sep 1 1 500
+
+X: 1
+T: Hora Agadati
+R:
+O: Israel
+B:
+D:
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 2/4
+L: 1/8
+P: C instruments
+K: Em
+P: Em
+|: "Em"{F}DE ED | ED G{B}G | DE ED | ED {B}G2 | DE ED | EF G"(*)"A | "D"FG {A}F{E}D | "Em"{B}EF E2 :|
+|: "Am"zA2 A | {e}AG A2 | A>B cB | A2 "G"G2 | "D"Ad cB | "Am"{e}AG A2 |1 "G"Bc B/A/G | "Am"A3z :|
+|| "Coda"Bc B{A}G | z2 "A"A"G"[BG] | "A"Az3 |] x4  x4  x4  x4  x4  x4 |
+%%sep 5 5 200
+P: Am
+K: Am
+|: "Am"{B}GA AG | AG c{e}c | GA AG | AG {e}c2 | GA AG | AB cd | "G"Bc {d}B{A}G | "Am"{e}AB A2 :|
+|: "Dm"zd2 d | {a}dc d2 | d>e fe | d2 "C"c2 | "G"dg fe | "Dm"{a}dc d2 |1 "C"ef e/d/c | "Dm"d3z :|
+|| "Coda"ef e{d}c | z2 "D"d"C"[ec] | "D"dz3 |] x4  x4  x4  x4  x4  x4 |
+
+%%sep 1 1 500
+
+X: 1
+T: Hora Medura
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Gm
+|: "Gm"DG- GB | GG G2 | dd "Cm"cc | "D7"BA "Gm"G2 :|
+|: "Cm"A/B/c- cc- | cc- cc | "D7"B>A GG |1,3 AB "Cm"c2 :|2,4 "Gm"G3 z :|
+
+%%sep 1 1 500
+
+X: 2
+T: Hora Medura
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Dm
+|: "Dm"Ad- df | dd d2 | aa "Gm"gg | "A7"fe "Dm"d2 :|
+|: "Gm"e/f/g- gg- | gg- gg | "A7"f>e dd |1,3 ef "Gm"g2 :|2,4 "Dm"d3 z :|
+
+%%sep 1 1 500
+
+X: 1
+T: Turkish Hora
+R: hora
+O: Turkey and Israel
+B:
+D:
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 2/4
+L: 1/8
+K: Am
+|: "Am"[ec][ec] [dB][cA]- | [c3A3] [dB] | [e2c2] [fd][ec]- | [ec][dB] [c2A2] \
+|  "Dm"[fd][fd] [ec][dB]- | [d3B3] [ec] | [f2d2] [fd][fd]- | [fd][ge][fd][dB] |
+|  "Am"[ec][ec] [dB][cA]- | [c3A3] [dB] | [e2c2] [e2c2] | "E7"[e2B2] [d2B2] \
+|  "Am"[dB][ec]- [e2c2]- | [e4c4]- | "E7"[e4B4]- | [e4B4] :|
+|: "Am"z[c2E2] [BD] | [c2E2] [A2C2] | [c2E2] [BD][cE]- | [c4E4] \
+|  z[cE][cE][BD] | [c2E2] [BD][cE] | "Dm"[d2F2] [cE][dF]- | [dF][cE] [cE][BD] |
+| "E7"z[BD][BD][AC] | [B2D2] [^G2B,2] | [B2D2] [AC][BD]- | [B4D4] \
+| z[BD][BD][AC] | [B2D2] [AC][BD] | "Am"[c2E2] [BD][cE]- | [cE][BD] [BD][AC] :| "(vamp)"[A4C4]- | [A4C4] |]
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+%%sep 1 1 500
+
+X: 1
+T: Im Hopalnu
+T: Im Halpanim
+O: Israel
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+X4 X4 X4 X4 "Intro"[|] X4 \
+|| "Dm"zD2E F4 | zF2^G A4 | "B7"zA2B cBc^d | "E"e4 | z4 ||
+P: in E:
+|: "E"zB2^A B2^G2 | "Dm"zA2F "E"^G2 E2 | "Dm"zD2E FA^GF |1 "E"EF^GA B2e2 :|2 "E"E4- EEAB ||
+|: "Am"c3e "(B7)"^dcBA | "E"^G/A/B-B2- BEAB | "Am"c2e2 "(B7)"^dcBA |1 "E"B4- BEAB :|2 "E"e2e2 e2z2 |]
+P: in A:
+K: Dm
+|: "A"ze2^d e2^c2 | "Gm"zd2B "A"^c2 A2 | "Gm"zG2A Bd^cB |1 "A"AB^cd e2a2 :|2 "A"A4- AAde ||
+|: "Dm"f3a "(E7)"^gfed | "A"^c/d/e-e2- eAde | "Dm"f2a2 "(E7)"^gfed |1 "A"e4- eAde :|2 "A"a2a2 a2z2 |]
+
+%%sep 1 1 500
+
+X: 0
+T: Karapyet (C inst)
+T: Kerensky
+K: Dm
+
+%%sep 1 1 500
+
+X: 1
+P: Karapyet    [Am]  (Kerensky)
+O: Russia
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Am
+[| "Am"EA- AA | "E7"^G>F E2 |     EB- BB | "Am"c>B A2 \
+|  "Am"EA- AA | "E7"^G>F E2 |     ed  cB | "Am"A4     |]
+|: "Am"Ae- ee | "Dm"f>e  d2 | "G7"df- ff | "C"e>c  e2 \
+| " Am"ce- ee | "Dm"d>c  B2 | "E7"ed  cB | "Am"A4    :|[K:A]
+[| "E7"Bz  dz | "A"c3    A  | "E7"Bc  de | "A"c>B  A2 \
+|  "E7"Bz  dz | "A"c3    A  | "E7"ed  FG | "A"A4     |]
+|: "D"df- fa- | "A"ae-   ec | "E7"ed  Bd | "A"fe  c2 \
+|  "D"df- fa- | "A"ae-   ec | "E7"ed  FG | "A"A4    :|
+
+%%sep 1 1 500
+
+X: 2
+P: Karapyet / Kerensky    [Dm]
+O: Russia
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Dm
+[| "Dm"Ad- dd | "A7"^c>B A2 | Ae- ee | "Dm"f>e d2 \
+| "Dm"Ad- dd | "A7"^c>B A2 | Ae- ee | "Dm"f>e d2 |]
+|: "Dm"da- aa | "Gm"b>a g2 | "C7"gb- bb | "F"a2 f2 \
+| "(Dm)"fa- aa | "Gm"g>f e2 | "A7"ag fe | "Dm"d4 :| [K:D]
+[| "A7"ez gz | "D"f3 d | "A7"ef ga | "D"f/g/f/e/ dA \
+| "A7"ez gz | "D"f3 d | "A7"ag Bc | "D"d2 d2 |]
+|: "G"GB- BB | "D"dA- AA | "A7"AG EG | "D"BA FD \
+| "G"GB- BB | "D"dA- AF | "A7"A/B/A/G/ F/G/F/E/ | "D"D2 D2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Hopak
+T: Kasatske
+O: trad Russia
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|: "G"g4 B2d2 | "D7"cBcA B2G2 | "G"D2G2 B2d2 | "D7"cBcA B2G2 | "G"gfg2  B2d2 | "D7"cBcA B2G2 | "G"D2G2 B2d2 | "D7"dcBA "G"G4 :| [K:C]
+|: "C"G2c2 e4 | "G7"defd "C"e4 | g2g2 "F"a2a2 | "G7"gfed "C"e2c2 | G2c2 e4 | "G7"defd "C"e4 | g2g2 "F"a2a2 | "G7"gfed "C"c4 :|
+
+%%sep 1 1 500
+
+X: 2
+T: Hopak
+T: Kasatske
+O: trad Russia
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+|: "C"c4 E2G2 | "G7"FEFD E2C2 | "C"G,2C2 E2G2 | "G7"FEFD E2C2 | "C"cBc2  E2G2 | "G7"FEFD E2C2 | "C"G,2C2 E2G2 | "G7"GFED "C"C4 :| [K:F]
+|: "F"C2F2 A4 | "C7"GABG "F"A4 | c2c2 "B"d2d2 | "C7"cBAG "F"A2F2 | C2F2 A4 | "C7"GABG "F"A4 | c2c2 "B"d2d2 | "C7"cBAG "F"F4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Ki Tina'am  [Am]
+O: Israel
+Z: John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin, labelled "M.I.T. I3" and "T.K."; note values twice as long as here
+M: 4/4
+L: 1/8
+%Q: "slow"
+P: C instr.
+K: Am
+V: 1
+"^intro"\
+| "Am"AB ce "D"d^f ed | "C"ec ce "D"d4 | "G"B2 cd "Em"BA AG | "F"A2 "G"BG "Am"A4 ||
+"^vocal"\
+[|"Am"A2 A2 "F"c3 d | "Am"cB AB "G"G4 | "Am"A2 A2 "Em"e2 g2 | "D"^fe ed "C"e2 ce |
+| "D"d3 e "Dm"dA d2 | "Am"c3 d "Em"BA G2 | "Am"A2 c2 "G"BA AG | "F"A2 "G"(3BAG "Am"A4 |
+| "Am"e>^f ed "Em"e4 | "Em"eg "D"^fd "Em"e4 | "Am"a3 g g^f fe | "Em"eg ^fe "D"d2 A2 |
+|: "Am"c3 e "D"dc dA | "Am"c3 e "D"dc d2 | "G"B2 cd "Em"BA AG | "F"A2 "G"(3BAG "Am"A4 :|
+V: 2
+"^intro"\
+| E2 A2 ^F2 A2 | G2 E2 D/E/^F/G/ A2 | G4 E4 | F2 GD E4 ||
+"^vocal"\
+[| A4 F4 | E4 D4 | E4 B4 | A4 c2G2 |
+|^FG A2 =F4 | A4 G2 E2 | E4 D2 E2 | F2 D2 E4 |
+| z4 B>c BA | G2 A2 B/c/B/A/ GE | AB cB B2 A2 | B2 A2 ^F/E/F/G/ A2 |
+|: E3 G ^FE FD | E3 G ^FE F2 | G4 E4 | CF DG E/F/E/D/ E2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Ki Tina'am  [Bm]
+O: Israel
+Z: John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin, labelled "M.I.T. I3" and "T.K."; note values twice as long as here
+M: 4/4
+L: 1/8
+%Q: "slow"
+P: Bb instr.
+K: Bm
+V: 1
+"^intro"\
+| "Bm"Bc df "E"e^g fe | "D"fd df "E"e4 | "A"c2 de "F#m"cB BA | "G"B2 "A"cA "Bm"B4 ||
+"^vocal"\
+[|"Bm"B2 B2 "G"d3 e | "Bm"dc Bc "A"A4 | "Bm"B2 B2 "F#m"f2 a2 | "E"^gf fe "D"f2 df |
+| "E"e3 f "Em"eB e2 | "Bm"d3 e "F#m"cB A2 | "Bm"B2 d2 "A"cB BA | "G"B2 "A"(3cBA "Bm"B4 |
+| "Bm"f>^g fe "F#m"f4 | "F#m"fa "E"^ge "F#m"f4 | "Bm"b3 a a^g gf | "F#m"fa ^gf "E"e2 B2 |
+|: "Bm"d3 f "E"ed eB | "Bm"d3 f "E"ed e2 | "A"c2 de "F#m"cB BA | "G"B2 "A"(3cBA "Bm"B4 :|
+V: 2
+"^intro"\
+| F2 B2 ^G2 B2 | A2 F2 E/F/^G/A/ B2 | A4 F4 | G2 AE F4 ||
+"^vocal"\
+[| B4 G4 | F4 E4 | F4 c4 | B4 d2A2 |
+|^GA B2 =G4 | B4 A2 F2 | F4 E2 F2 | G2 E2 F4 |
+| z4 c>d cB | A2 B2 c/d/c/B/ AF | Bc dc c2 B2 | c2 B2 ^G/F/G/A/ B2 |
+|: F3 A ^GF GE | F3 A ^GF G2 | A4 F4 | DG EA F/G/F/E/ F2 :|
+
+%%sep 1 1 500
+
+X: 0
+T: Kohanochka
+K: C
+
+% tune/Kohanochka_GmG.abc
+
+%%sep 1 1 500
+
+X: 1
+P: Kohanochka  [Gm/G]
+O: Russia
+R: Polka
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Gm
+|: "Gm"G2GB "D7"A2Ac | "Gm"B2B2 "Cm"c4 | "D7"d3c B2A2 | "Gm"G2D2 G4 :|
+|| "F7"f4 f3e | "Bb"e2d2 d^cde | "F7"d2c2 c=Bcd | "Bb"c2B2 F4 |
+|  "F7"f4 f3e | "Bb"e2d2 dcBA | "Gm"G2GA "Cm"B2c2 | "D7"d4 z4 || [K:G]
+|: "G"MB2z2 "D7"Mc2z2 | "G"B2d2 dBG2 | "D7"A2c2 cAF2 |1,3 "G"GABc d4 :|2,4 "G"G2B2 G4 :|
+
+% tune/Kohanochka_AmA.abc
+
+%%sep 1 1 500
+
+X: 2
+P: Kohanochka  [Am/A]
+O: Russia
+R: Polka
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Am
+|: "Am"A2Ac "E7"B2Bd | "Am"c2c2 "Dm"d4 | "E7"e3d c2B2 | "Am"A2E2 A4 :|
+|| "G7"g4 g3f | "C"f2e2 e^def | "G7"e2d2 d^cde | "C"d2c2 G4 |
+|  "G7"g4 g3f | "C"f2e2 edcB | "Am"A2AB "Dm"c2d2 | "E7"e4 z4 || [K:A]
+|: "A"Mc2z2 "E7"Md2z2 | "A"c2e2 ecA2 | "E7"B2d2 dBG2 |1,3 "A"ABcd e4 :|2,4 "A"A2c2 A4 :|
+
+%%sep 1 1 500
+
+X: 19
+T: Kol Dodi
+M:2/4
+L:1/8
+S:Deborah Jones/Vancouver IFD 1982
+Z:Seymour.Shlien:crc.doc.ca
+K:Dm
+|: "Dm" dd/2c/2 "G" d2 | dd/2c/2 "Dm" d2 | de/2f/2 "C" gf/2e/2 | "Bb" fe "G" d2 :|
+|: "Dm" da aa | "Gm" gg f/2e/2d | "C" ef "Bb" gf/2e/2 |1 "G7" fg "A7" a2 :|2 "Am" fe "D" d2 |
+
+%%sep 1 1 500
+
+X: 1
+T: Korobushka
+O: trad Russia
+M: 2/4
+L: 1/8
+Z: John Chambers <jc:trillian.mit.edu>
+P: Gm
+K: Gm
+[| "D7"D3^F | A2 ^FD | "Gm"G3 A | B2 AG | "D7"A3 B | c2 dc | "Gm"B2 G2 | G4 |]
+|: "Cm"c3 e| g2 fe | "Gm"d3 B | d2 cB | "D7"A3 B | c2dc | "Gm"B2 G2 | G4 :|
+%%sep
+P: Am
+K: Am
+[| "E7"E3^G | B2 ^GE | "Am"A3 B | c2 BA | "E7"B3 c | d2 ed | "Am"c2 A2 | A4 |]
+|: "Dm"d3 f| a2 gf | "Am"e3 c | e2 dc | "E7"B3 c | d2ed | "Am"c2 A2 | A4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Kuma Echa [Dm]
+O: Israel
+R: hora
+M: 4/4
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+L: 1/4
+K: Dm
+P: Intro
+| "Dm"DF2E | D2D2 | "Bb"DF2E | D2D2 | "Gm"DF2E | "A7"D2^C2 | "Dm"D4- | D4 ||
+|: "Dm"DF2E | D2D2 | "Bb"DF2"C7"G | "F"A4 | FA2G | F2F2 | FA2B | c4 |
+| "F"Ac2B | "Dm"A2A2 | "Gm"GB2A | "(A7)"G4 | "Dm"FA2G | "Gm"F2E2 | "A7"F/E/DEE | "Dm"D4 ||
+|| "Dm"(3A/B/c/d2d | d2d2 | d/e/f2e | d4 | "F"Ac2c | c2c2 | "Cm"c/d/_e2d | c4 |
+| "Gm"cB2B | B2B2 | "Dm"{A}dA2A | A4 | "Gm"AG2G | "A7"G2G2 | "Dm"F/E/D"A7"EE | "Dm"D4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Lech lamidbar
+O: Israel
+M: 4/4
+L: 1/8
+S: Deborah Jones/Vancouver IFD 1982
+Z: Seymour.Shlien:crc.doc.ca, modified by John Chambers <jc:trillian.mit.edu>
+K: Dm
+"Dm" A2 Ad- de d2 |"C" cd cF "F" A2 A2 | "Gm" G2 G B2 A G2 | "A7" AB AG FE "Dm" D2 |
+"Dm" A2 Ad- de d2 |"C" cd cF "F" A2 A2 | "Gm" G2 GA BG "C" c2 | z c2 B "A7" AG FE |
+|: "Dm" F2 F2 "G" D4 | "A7" E G2 E "Dm" D2 D2 | D2 D2 "Gm" EF G2 | "A7" E F2 E "Dm" D2 D2 :|
+"F" A2 A2 FG A2 |"C7" G B2 G "F" A2 AG | "Dm" A2 A2 DE F2 | "Gm"z G2 E "A7"G2 FE |
+|: "Dm" F2 F2 "G" D4 | "A7" E G2 E "Dm" D2 D2 | D2 D2 "Gm" EF G2 | "A7" E F2 E "Dm" D2 D2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Machar  [Dm]
+M:4/4
+L:1/8
+S:Deborah Jones/Vancouver IFD 1982
+Z:Seymour.Shlien:crc.doc.ca
+P: in Dm:
+K: Dm
+"Intro:"\
+| "Dm" F2 F>E FD EF | "C" G2 C2 CC DE | "Bb" F2 ED- DD ^CD | "A7" E6 "A7" A,2 ||
+|: "Dm" D4- DE FA | "Gm" G>F ED "C" E2 C2 | "Bb" DD DD C2 D2 | "A7" E6 A,2 |
+| "Dm" D4- DE FA | "Gm" G>F ED "C" E2 C2 | "Bb" DD DD "C7" C2 G2 | "F" F8 ||
+|| "D7" A2 A>A A^F GA | "Gm" B2 D2 D2 EF | "C7" G3 F EC FG | "F" A4- "A7"A4 |
+| "Dm" F2 F>F FD EF | "C" G2 C2 CC DE | "Bb" F2 ED- DD ^CD | "A7"E8 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Mayim  [Dm]
+T: Water
+O: Israel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: Dm
+D/E/ \
+| "Dm"DE F/E/D | FG A>G | "F"FA cB | AG "A7"AA/A/ |
+| "Dm"DE F/E/D | FG A2 | "Bb"dd "F"cc | "Am"Ac "Dm"d2 ||
+||"Dm"dd dd | "Bb"dd dd | "F"zc cc | "Am"Ac "Dm"d2 |
+| "Dm"dd dd | "Bb"dd dd | "F"zc cc | AG A2 || "C7"c2 c2 | c2 c2 ||
+||"C7"cc B/A/G | "C7"cc B/A/G | "F"FG A>A | GF "C7"c2 |
+| "C7"cc B/A/G | "C7"cc B/A/G | "A7"AA "Dm"F/E/D | "A7"FE "Dm"D2 :|
+"Coda" \
+|| "Dm"d2d2 | zd "C"cc | "Dm"d2d2 | zd "C"cc | "Dm"d2d2- | d4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Misirlou
+C: N.Roubanis 1934
+O: Greece
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Gm
+|: "D"zD2E ^F2G2 | A3B ^c2BA | A8- | A8 \
+|     zD2E ^F2G2 | A3B ^c2BA | A8- | A8 |
+| "Gm"BA2B A2G2 | AG2A G2^F2 | "D"^F8- | ^F8 \
+| "Cm"AG2A G2^F2 | ^FE2F E2DD | "D"D8- | D8 :|
+|: "Gm"G8- | G6 ^FG | "F"A8- | A6 GA | "Bm"B6 AB | "A"^c6 Bc | "D"d8- | d8 \
+| "Cm"e d2 e d2 c2 | d c2 d c2 B2 | "D"A8- | A8 |
+| "Cm"c B2 c B2 A2 | A G2 A ^F2 E2 | "D"D8- | D8 :| \
+"Boda" \
+| "Gm"B6 AB | "A"^c6 Bc | "D"d8- | d8- | d8- | d |]
+
+%%sep 1 1 500
+
+X: 1
+T: Nigun Bialik
+M:2/4
+L:1/8
+S:Pasternak / Great Songs of Israel
+Z:Seymour.Shlien:crc.doc.ca
+K:Dm
+|: "Dm" F>E DD | DDDD | "Gm" B B2 A/2G/2 | "Dm" A2 A2 | "A7" G>F EG | EG EG | "A7" A A2 G | "Dm" FE D z :|
+| "Dm" d4 | d4 | Adfe | A4 | Adfe | A4 | Adfe | dcBA | "C7" cc c/2/B/2/A/2G/2 |"F" A2 A2 |
+|:"C7" c z c>B | "F" AGAB |"C7" c c2 B|"F" AG F2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Od Yishoma #1
+C: S.Carlebach
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+N: Klez Camp 1998
+M: 2/4
+L: 1/8
+K: Dm
+|: "Dm"D2 D2 | A,D2D | F2 F>F | DF3 \
+| "Gm"G2 G2 | DG2B |1 "A7"AG FG | "Dm"A4 :|2 "A7"AG FE | "Dm"D4 |]
+|: "F"AB cA | dc2B | "D7"AB cA | "Gm"B2-B2 \
+| GA BG | "C7"cB2B |1 AG FG | "F"A4 :|2 "A7"AG FE | "Dm"D4 |]
+
+%%sep 1 1 500
+
+X: 0
+T: Patch Tanz
+O: Hassidic
+K:
+
+% tune/PatchTanz_Em6.abc
+
+%%sep 1 1 500
+
+X: 1
+P: Patch Tanz  [Em]
+O: Hassidic
+M: 2/4
+L: 1/16
+K: Em
+ | "Em"G4 GAAG | GAAG "B7"GFFE | "Em"G4 GAAG | "B7"GFFE "Em"E4 |
+ | "Em"[G4B] [GB][Ac][Ac][GB] | [GB][Ac][Ac][GB] "B7"[GB][FA][FA][EG] | "Em"[G4B] [GB][Ac][Ac][GB] | "B7"[GB][FA][FA][EG] "Em"[E4G] ||
+|| "D7"ABcA "G"B4 | .[B2G] .[B2G] .[B2G] z2 | "D7"FGAG A4 | "D".[F2D] "A7".[G2E] "D".[A2F] z2 |
+ | "D7"dcBA "G"B4 | .[B2G] .[B2G] .[B2G] z2 | "D7"FGAG A4 | "D".[F2D] "A7".[G2E] "D".[A2F] z2 ||
+|| "D7"DEF2 "G"GAB2 | "B7"AGF2 "Em"E4 | "G"GDDG "F"G=FFE | "Em"E8 |
+ | "D7"DEF2 "G"GAB2 | dcB2 "Am"A4 | "G"GDDG "F"G=FFE | "Em"E8 |]
+
+% tune/PatchTanz_Am6.abc
+
+%%sep 1 1 500
+
+X: 2
+P: Patch Tanz  [Am]
+O: Hassidic
+M: 2/4
+L: 1/16
+K: Am
+ | "Am"c4 cddc | cddc "E7"cBBA | "Am"c4 cddc | "E7"cBBA "Am"A4 |
+ | "Am"[c4E] [cE][dF][dF][cE] | [cE][dF][dF][cE] "E7"[cE][BD][BD][AC] | "Am"[c4E] [cE][dF][dF][cE] | "E7"[cE][BD][BD][AC] "Am"[A4C] ||
+|| "G7"defd "C"e4 | .[e2c] .[e2c] .[e2c] z2 | "G7"Bcdc d4 | "G".[B2G] "D7".[c2A] "G".[d2B] z2 |
+ | "G7"gfed "C"e4 | .[e2c] .[e2c] .[e2c] z2 | "G7"Bcdc d4 | "G".[B2G] "D7".[c2A] "G".[d2B] z2 ||
+|| "G7"GAB2 "C"cde2 | "E7"dcB2 "Am"A4 | "C"cGGc "Bb"c_BBA | "Am"A8 |
+ | "G7"GAB2 "C"cde2 | gfe2 "Dm"d4 | "C"cGGc "Bb"c_BBA | "Am"A8 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Troika
+O: Russian
+M: 4/4
+L: 1/8
+K: Dm
+[| "Dm"za-"A7"ag "Dm"f2 "A7"e2 | "Dm"d2 "A7"^c2 "Dm"d2 "A7"A2 \
+|  "Dm"za-"A7"ag "Dm"f2 "A7"e2 | "Dm"d2 "A7"^c2 "Dm"d2 "C7"=c2 |
+|| "C7"zc'-c'b "F"b2a2 | "A7"za-ag "Dm"g2f2 \
+|  "Gm"zefg "Dm"a2A2 | "A7"fed^c "Dm"d2 z2 ||
+|| "Dm"f4- ffed | "A7"e4- eed^c \
+|  "Dm"d4- dded | "A7"^c2A2 A4 |
+|| "Dm"f4- ffef | "Gm"g4- ggfg \
+|  "Dm"a3g "A7"f2e2 | "Dm"d2 "A7"^c2 "Dm"d2 z2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Tzena, Tzena [C]
+C: Trad
+Z: John Chambers <jc:trillian.mit.edu>
+N: Play as round after first time through.
+M: 2/4
+L: 1/8
+K: C
+|: "C"CC EG | FE DC | "F"F>F FF | FE DC |
+w: Tze-na, tze-na, tze-na, tze-na ha-b'-not u-r'ei-na cha-ya-
+w: Al na, al na, al na, al na, al na tit-cha-be-na mi-ben
+| "G"G4- | GE FD |1 "C"E4- | EG,A,B, :|2 "C"C4- | CGAB ||
+w: lim* ba-mo-sha-va. | | \-va.
+w: cha-*yil ish ta-va. | | \-va.
+|: "C"c3 B | A3 ^G | "F"A>A AA | A A3 | "G7"B2 B2 |
+w: Tze-na, tze-na, ha-b'-not u-r'ei-na cha-ya-
+w: Al na, al na, al na tit-cha-be-na mi-ben
+| BG AB |1 "C"c2 "G"B2 | "F"A2 "G"G2 :|2 "C"c4- | cG AB ||
+w: lim ba-mo-sha-va.___ | \-va.
+w: cha-yil ish ta-va.___ | \-va.
+|: "C"c2 c2 | "Caug"c2 c2 | "F" z d2 c | B>c BA | "G7"G2 F2 |
+w: Tze-na tze-na tze-na tze-na tze-na tze-na
+| E2 D2 |1 "C"CD EF | "G7"GA BG :|2 "G7"GA BG | "C"cc z2 |]
+w: tze-na tze-na tze-na tze-na tze-na tze-na tze-na tze-na.
+%
+%W: צאנה צאנה צאנה צאנה הבנות וראינה חיילים במושבה
+%W: אל נא אל נא אל נא תתחבאנה מבן חייל איש צבא
+%
+W: Go out, young women and see soldiers from our moshava [collective farm].
+W: Do not hide yourself away from a brave son, a man of the army.
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: Tzena, Tzena [D]
+C: Trad
+Z: John Chambers <jc:trillian.mit.edu>
+W: Can be played or sung as a round.
+M: 2/4
+L: 1/8
+K: D
+|: "D"DD FA | GF ED | "G"G>G GG | GF ED \
+| "A"A4- | AF GE |1 "D"F4- | FA,B,C :|2 "D"D4- | DABc ||
+|: "D"d3 c | B3 ^A | "G"B>B BB | B B3 \
+| "A7"c2 c2 | cA Bc |1 "D"d2 "A"c2 | "G"B2 "A"A2 :|2 "D"d4- | dA Bc ||
+|: "D"d2 d2 | "Daug"d2 d2 | "G" z e2 d | c>d cB \
+| "A7"A2 G2 | F2 E2 |1 "D"DE FG | "A7"AB cA :|2 "A7"AB cA | "D"dd z2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Ve David
+O: I Samuel 18:7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+K: Ephr
+M: 4/4
+L: 1/8
+K: Ddor
+"^Intro"\
+|: "Dm"D2 D2 "C"C2 (DE) | "Dm"F2 G2 (FG) (FE) | D2 D2 "C"CC B,C | "Dm"D8 :|
+w: Ve Da-vid ye-*fe ey-na-*yim,* hu' ro-'e ba-sho-sha-nim.
+%%sep 5 5 200
+K: Gm
+|: "D"DA AB AB AG | "Cm"^FG FE DC "D"D2 :|
+w: Ve Da-vid ye-fe ey-na-yim, hu' ro-'e ba-sho-sha-nim.
+D/ | "Gm"DG GG AG "D"A2 | DA Ac "Gm"B/A/G "D"A2 |
+w: Hi-ka Sha-ul be-a-la-fav, ve Da-vid be-ri-ve-vo-tav.
+| "Cm"^FF F2 G2 FE | "D"D8 | "D"[^FA][FA] [F2A2] "Cm"[G2B2] [FA][EG] | "D"[A8^F8D8] |]
+w: Ben yi-shai chai ve-kay-yam.  Ben yi-shai chai ve-kay-yam.
+W: And David was pleasing to the eyes, a shepherd among the flowers.
+W: Saul killed thousands, and David tens of thousands.
+W: His sons will live and prosper.
+
+%%sep 1 1 500
+
+X: 1
+T: Yesh Lanu Tayish
+O: Israel
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+|: "G7".[G2DB,] | .[G2DB,] | .[GDB,] .[GDB,] | .[G2DB,] :|\
+| "G7"G4- | G4 || "C"G2 G>G | "G7"AG2F | "C"EE DC | "G7"G3z ||
+|| "C"GG GG | "G7"AG2F | "C"EE "G7"DD | "C"C3z || "C"EG C2 | EG C2 | "F"A>A AA | "C"G3z ||
+|| "C"cG G2 | "Dm"FE D2 | "G7"CF ED | "C"G3z | "C"cG G2 | "Dm"FE D2 | "G7"CF ED | "C"C3z :|
+
+%%sep 1 1 500
+
+X: 0
+T: ZemerAtik
+K: C
+
+%%sep 1 1 500
+
+X: 1
+P: Zemer Atik (Dm)
+O: Israel
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dm
+[| "A"^cdBc decd | e8 | "Gm"efga gfed | "A"e8 |
+w: Od na-shu-va el ni-gun a-tik, ve ha ze-mer yif ve  ye-'e-rav.
+| "A"eaag gffe | "Dm"d2e2 "A"^c4 | "Gm"^cdBc decB | "A"A8 |]
+w: Od ga-vi-a me-shu-mar,~ na-shik, na-shik, A-li-zei ei-na-yim ve-lei-vav.
+[| "F"a4 a4 | "C"gagf "A"g2e2  | "Dm"f6 ed | "A"e2a2 e2A2 |
+w: To-vu to-vu o-ha-lei-nu. Ki ma-chol hi-fi-tsi-a,
+| "F"a4 a4 | "C"gagf "A"g2e2  | "Dm"defd "A"efe^c | "Dm"d8 |]
+w: To-vu to-vu o-ha-lei-nu. Od na-shu-va el ni-gun a-tik.
+
+%%sep 1 1 500
+
+X: 2
+P: Zemer Atik (Gm)
+O: Israel
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Gm
+[| "D"^FGEF GAFG | A8 | "Cm"ABcd cBAG | "D"A8 \
+| "D"Addc cBBA | "Gm"G2A2 "D"^F4 | "Cm"^FGEF GAFE | "D"D8 |]
+[| "Bb"d4 d4 | "F"cdcB "D"c2A2  | "Gm"B6 AG | "D"A2d2 A2D2 \
+| "Bb"d4 d4 | "F"cdcB "D"c2A2  | "Gm"GABG "D"ABA^F | "Gm"G8 |]
+%%sep 3 5 200
+
+%%sep 1 1 500
+
+X: 3
+P: Zemer Atik (Em)
+O: Israel
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Em
+[| "B"^decd efde | f8 | "Am"fgab agfe | "B"f8 \
+| "B"fbba aggf | "Em"e2f2 "B"^d4 | "Am"^decd efdc | "B"B8 |]
+[| "G"b4 b4 | "D"abag "B"a2f2  | "Em"g6 fe | "B"f2b2 f2B2 \
+| "G"b4 b4 | "D"abag "B"a2f2  | "Em"efge "B"fgf^d | "Em"e8 |]
+
+%%sep 1 1 500
+
+X: 4
+P: Zemer Atik (Am)
+O: Israel
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+[| "E"^GAFG ABGA | B8 | "Dm"Bcde dcBA | "E"B8 \
+| "E"Beed dccB | "Am"A2B2 "E"^G4 | "Dm"^GAFG ABGF | "E"E8 |]
+[| "C"e4 e4 | "G"dedc "E"d2B2  | "Am"c6 BA | "E"B2e2 B2E2 \
+| "C"e4 e4 | "G"dedc "E"d2B2  | "Am"ABcA "E"BcB^G | "Am"A8 |]
+

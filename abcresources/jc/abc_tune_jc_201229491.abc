@@ -1,0 +1,30 @@
+X: 1241
+T: the Marquis of Huntlys Farewell.   a Strathspey.
+%R: strathspey, air
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.1 p.24 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: Bar 12 has B-sharp for the first bass note, which is clearly a typo.
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+C2 !segno!|\
+A,2- TA,>C E/E/E TE>F | A>B {AB}c>B {B}A2 A>c |\
+A,2- TA,>C E/E/E Ec | TB>c (d/c/).B/.A/ {A}F2 TFA ||\
+A,2- TA,>E E/E/E TE>F | A>B {AB}c>B {B}A2 A>c |
+d2- Td>f e<cTc>e | TB>c (d/c/).B/.A/ {A}F2 F :| f |\
+(f/e/)(d/c/) a>c b>c {g}a2 | (f/e/).d/.c/ a>c (fe)(dc) |\
+Bb-b>f (b/a/).g/.f/ {^a}b2 |
+fb-b>.f (ag).f.e ||\
+(f/e/)(d/c/) a>c b>c {g}a2 | (f/e/).d/.c/ a>c (fe) (dc) |\
+.d/.e/.f/.g/ {g}a>g {g}f>e{e}d>c | TB>c (d/c/)B/A/ {A}F2 HF{G}A !segno!|]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z2 !segno!|\
+A2A2 [A2c2][A2d2] | c2e2 a2A2 | A2A2 c2A2 | GABc d2Dz || A2A2 [A3c3][Ad] |
+A2a2 A3=g | f2d2 c2A2 | GABc d2D :| z | a2a2 a2a2 | a2c'2 d'c'b^a | b2B2 b2b2 |
+[b2^d2][b2d2] [b2e2]fg || a2a2 a2a2 | a2a2 A2a2 | f3e dcBA | GA Bc d2Dz !segno!|]

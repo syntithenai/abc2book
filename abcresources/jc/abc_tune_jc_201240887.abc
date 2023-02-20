@@ -1,0 +1,39 @@
+X: 4152
+T: the Shepherd's Son
+O: Old.
+%R: air, reel
+N: This is version 2, for ABC software that understands diminuendo symbols.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: Niel Gow & Sons "Complete Repository" v.4 p.15 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "SLOWLY."
+K: G
+%%score [1 {2 | 3}]
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 name=VIOLIN
+z2 |\
+gdb2 gdb2 gdbd d'dbd | c'dbd adgd (fgag fedc) | BDGD BDGD ADGD ADBD | EGce d2([g2B2] [f2A2])D2 D2z2 |
+gdb2 gdb2 gdd'd gdbd | c'dbd adgd (fgag fedc) | BDGD BDGD ADGD ADBD | EGce d2([g2B2] [f2A2])D2 D2 |]| [D2B,2] |
+[D3B,3][EC] [D2B,2][E2C2] ([E2C2][D2B,2]) [D4B,4] | [B3D3][cE] [B2D2][G2B,2] [B4D4] [c4E4] |\
+[B2D2][G2B,2] [F2C2][G2B,2] [G4B,4] H[E4C4] | [D3B,3][EC] [D2B,2][g2B2] z2[f2A2D2] [G2B2][D2B,2] |
+[D3B,3][EC] [D2B,2][E2C2] [E2C2][D2B,2] [D4B,4] | [B3D3][cE] [B2D2][G2B,2] [B4D4] [c4E4] |\
+[B2D2][G2B,2] [F2C2][G2B,2] [G4B,4] H[E4C4] | [D3B,3][EC] [D2B,2][g2B2] z2[f2A2D2] [g2B2] |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 name=PIANO clef=treble staves=2 brace=3
+D2 |\
+(D2G2) (.G2.G2) G6 G2 | {B}A2G2A2B2 c6c2 | (d2B2) B2G2 TA3GA2B2 | G3ED2G2 A6 B2 |
+(D2G2) (.G2.G2) G6 G2 | {B}A2G2A2B2 c6c2 | (d2B2) B2G2 TA3GA2B2 | G3ED2G2 A6 |]| B2 |
+~G3AG2E2 (E2D2)D4 | ~d3ed2B2 d4 {ef}"_sf"g4 | Q(d2B2) TA3G (GAB2)q HE4 | D3E G2B2 TA4 G4 |
+~G3AG2E2 E2D2D4 | ~d3ed2B2 d4 {ef}"_sf"g4 | Q(d2B2) TA3G (GAB2)q HE4 | D3E G2B2 {B2}TA4 G2 |]
+%
+V: 3 name=FORTE clef=bass middle=d
+z2 |\
+[b4g4][b4g4] [b2g2][b2g2][b4g4] | (f2g2)(c'2b2) [a8f8] | g4g4 f2e2f2g2 | c4G2B2 d4D2z2 |
+[b4g4][b4g4] [b2g2][b2g2][b4g4] | (f2g2)(c'2b2) [a8f8] | g4g4 f2e2f2g2 | c4G2B2 d4D2 |]| z2 |
+G2g2 G2g2 G2g2 G2g2 | G2g2 G2g2 G2g2 G2g2 | G2g2 G4 B4Hc4 | G2g2 G4 d2D2 G2z2 |
+G2g2 G2g2 G2g2 G2g2 | G2g2 G2g2 G2g2 G2g2 | G2g2 G4 B4Hc4 | G2g2 G4 d2D2 G2 |]

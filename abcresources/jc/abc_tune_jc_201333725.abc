@@ -1,0 +1,23 @@
+X: 1
+T: Salt Creek
+C: attr. Bill Monroe & Bradford Keith
+R: reel
+S: Fiddle Hell Online 2021-5-17 handout for Ellen Carlson workshop
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Amix
+P: Version 1
+|:\
+"A"(FA2)(B A4) | (cA)Bc "D"d4 | "G"BAG2 BAG2 | BAGF "E"E4 |\
+"A"(FA2)(B A4) | (cA)Bc "D"d4 | "G"gbgf (ed)cd | "E"edc(B "A"A4) :|
+|:\
+"A"(ea2)(b a4) | (a^g)ab a4 | "G"(gf)ga (gf)ef | gagf "(E)"e4 |\
+"A"(ea2)(b a4) | (a^g)ab a4 | "G"(gf)ga (gf)ed | "E"(cA)Bc "A"A4 :|
+P: Version 2
+|:\
+"A"(FA2)(B A2)(AB | c)AB(c "D"d4) | "G"BAG(A BA)GA | BGA(G "E"E4) |\
+"A"(FA2)(B A2)(AB | c)AB(c "D"d2)(ef | g)(bgf) e(dcd) | "E"edc(B "A"A4) :|
+|:\
+"A"(ea2)(b a2)e^g | (a^g)ab (af)ef | "G"(gf)ga (gf)ef | g(ag)f "(E)"e4 |\
+"A"(ea2)(b a2)e^g | (a^g)ab (af)ef | "G"(gf)ga (gf)ed | "E"cAB(c "A"A4) :|

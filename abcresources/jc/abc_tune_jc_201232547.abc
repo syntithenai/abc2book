@@ -1,0 +1,21 @@
+X: 173
+T: The Miller's Daughter
+R: strathspey
+M: C|
+L: 1/16
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Abraham Mackintosh "A Collection of Strathspeys, Reels, Jigs &c.", Newcastle, after 1797, p.17
+F: http://imslp.info/files/imglnks/usimg/a/a8/IMSLP80796-PMLP164326-Abraham_Mackintosh_coll.pdf
+K: A
+V: 1
+a2 |\
+eee2 e3d c3de3d | ce3 A3a f4 e3a | eee2 e3d c3de3c | BBB2 c3e f4 e2 :|
+|: fg |\
+ae3 a3f e3c A2fg | ae3 f3a f4 e2fg | ae3a3f ec3a3c | BBB2 c3e f4 e2 :|
+V: 2 clef=bass middle=d
+z2 |\
+[c'4a4] a4 a4 a4 | a4 [c'4a4] [d'4a4] [c'4a4] |\
+[c'4a4] a4 a4 a4 | [g4e4] [a4e4] [d'4a4] [c'2a2] :|
+|: z2 |\
+[c'6a6] [d'2a2] [c'4a4] [c'4a4] | a4 a4 [d'4a4] [c'4a4] |\
+[c'4a4] a4 a4 [c'4a4] | [g4e4] [a4e4] [d'4a4] [c'2a2] :|

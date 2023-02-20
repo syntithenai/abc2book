@@ -1,0 +1,23 @@
+X: 1
+T: Murdo MacKenzie of Torridon
+C: Bobby MacLeod
+B: Ceol na Fidhle, V.2
+R: jig, march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: from MS by Barbara McOwen 2/83, 6/01
+N: In other versions, the B and C strains have different endings.
+M: 6/8
+L: 1/8
+K: Am
+"^A"|: e |\
+"Am"Aee e3 | "Am"Aee "D7"dBg | "G"GBd dBd | "(C)"e<gG "Em"BAG |\
+"Am"Aee e3 | "Am"Aee "D7"dBa | "C"gfe deg | "Em"edB "Am"A2 :|
+"^B"|: B |\
+"Am"Aaa a3 | "Am"Aaa "Em"gea | "Em"gfe "Bm"def | "Em"gGd "G"BAG |\
+"Am"Aaa a3 | "Am"Aaa "Em"gea | "C"gfe "G"deg | "Em"edB "Am"A2 :|
+"^C"|: z |\
+"Am"A3 e3 | "Am"A2e "D7"dBg | "G"B3 G3 | egG "Em"BAG |\
+"Am"A3 e3 | "Am"A2e "D7"dBa | "C"gfe "G"deg | "Em"edB "Am"A2 :|
+"^D"|: B |\
+"Am"AaA gAa | "Am"AgA "D7"aAa | "G"gfe "Bm"def | "G"gGd "Em"BAG |\
+"Am"AaA gAa | "Am"AgA "D7"aAa | "C"gfe "G"deg | "Em"edB "Am"A2 :|

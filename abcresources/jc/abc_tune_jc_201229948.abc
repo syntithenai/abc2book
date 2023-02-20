@@ -1,0 +1,37 @@
+X: 13081
+T: Duncan Gray
+%R: march, reel
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.3 p.8
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The repeat symbols are somewhat flakey in this tune; transcribed as repeats for all the strains.
+N: Repeating only the odd-numbered strains gives an 8-bar pattern, which makes sense for many dances.
+N: The slurs in the last bars of strains 8,10 are squiggles rather than smooth slurs.
+M: C
+L: 1/16
+K: G
+|: "_Brisk"\
+D2G2F2G2 A2B2 TF4 | G4 A3c B2G2 G4 ::\
+B2d2 d2(cB) c2c2 c4 | B2(cB) A2G2 F2E2 D4 | D2G2F2G2 A2B2 TF4 | G4 A3c B2G2 HG4 :|
+|:\
+"_Variation"DGB2 DAc2 DBd2 Dce2 | d2G2 F(Ac2) B2G2 G4 ::\
+d2d2 (dB)g2 (dB)g2 TB4 | (Ac)e2 d2G2 (FG)A2 D4 | G3F (EG)c2 A2E2 (FA)d2 | B2g2 (fe)(dc) B2G2 G4 :|
+|:\
+GBDB GBDB AcDc AcDc | Bgfe dcBA B2G2 G4 :: dgBg dgBg ec(Tc>Bc/) ec(Tc>Bc/) |
+dgBg dgBg (AFTE)D (AFE)D | dgBg dgBg ec(Tc>Bc/) ec(Tc>Bc/) |\
+dBAG Fedc B2G2 G4 :: (GB3)(Ac3) (Bd3) F4 |
+g4 (fe)(dc) B2G2 G4 ::\
+Tg4 (dB3) Tg4 (ec3) | Tg4 (dB3) (cA3) (FD3) | (gb3) (ac'3) (bd'3) Tf4 | e4 (dcBA) B2G2 G4 ::\
+(DG)B(G DG)(BG) (DG)(cG) (DG)(cG) |
+(DG)(BG) (DF)(Ac) B2G2 G4 ::\
+g2 g4 (fe) d2c2 TB4 | e4 d2(cB) (AG)(AB) D4 |\
+GBAc Bdce dfeg fagb |\
+(.a.g.f.e .d.c.B.A) | B2G2 G4 :|
+|:\
+(GB)(Ac) (Bd)(ce) (dB)(AG) (FD)(FD) | GBdg bgdc B2G2 G4 ::\
+bgdB bgdB GBdg bgdB | afcA afcA FAdf afcA |
+GBdg bgaf gefd ecdB | cABG Fedc B2G2 G4 ::\
+D2G2F2G2 A2B2 F4 | G2Bg A2Bg B2G2 G4 :|
+|:\
+g2dB g2ec g2dB gdBG | g2dB g2ec g2dB cAFD |\
+g2dB g2ec g2dB g2ec | dBAG Fedc B2G2 "_Da Capo"G4 :|

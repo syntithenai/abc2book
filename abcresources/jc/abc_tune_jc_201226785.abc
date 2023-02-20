@@ -1,0 +1,32 @@
+X: 10443
+T: TRUST NOT MAN.
+Q: "Moderate."
+%R: air, waltz, mazurka
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.44 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Eb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(G>A) B2 B2 | (B3 c/A/) G2 | (E>F G2) G2 | (G3 A/F/) E2 |\
+(G>B) e2 d2 | (c2 B2) A2 | (G2 F2) E2 | (E2 D2) z2 |\
+(G>B) e2 g2 | (f>d B2) A2 | (G>B) e3 e | (d>B) A2 G2 |\
+(F>A) c3 c | (B>G) E2 D2 |
+(E2 A2) G2 | (G2 F2) z2 |\
+(d2 f2) B2 | (c2 e2) =A2 | (d2 f2) B2 | (c2 e2) =A2 |\
+(Bdef)(g=a) | (b=agf)(ed) | (ce/c/) B2 =A2 | {A}B4 z2 :|\
+|:\
+(GB) _d2 c2 | (=e2 f2) F2 | (=EGB_d)(cB) | (AG F2) z2 |
+(FA) c2 B2 | (d2e2) E2 | (DFAc)(BA) | (GF E2) z2 |\
+(B2 c2) d2 | (e2 f2) g2 | (agfe)(dc) | HB4- B/(A/G/A/) |\
+G>A B2 B2 | (B3 c/A/) G2 | (E>F G2) G2 | (G3 A/F/) E2 |\
+(G>B) e2 d2 | (c2 B2) A2 |
+(G2 F2) E2 | (E2 D2) z2 |\
+(G2 B2) E2 | (F2 A2) D2 | (G2 B2) E2 | (F2 A2) D2 |\
+(EGAB)(cd) | (edcB)(AG) | (F3G/A/ E2) D2 | B4 z2 |\
+(afed) e2 | (dBAG) c2 | (Bc/A/ G2) F2 | E4 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

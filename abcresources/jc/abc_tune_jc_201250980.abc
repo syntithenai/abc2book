@@ -1,0 +1,25 @@
+X:1
+T:Battle of the Somme  "rpband"
+M:9/8
+L:1/8
+Q:80
+C:
+S:9/8 March
+K:HP
+|: A | \
+{g}f/2a3/2f{Gdc}d3{gde}d3/2c/2d | \
+{g}e3/2d/2{e}G{gBd}B3{G}A3 | \
+{g}B/2{d}G3/2{d}B{G}A3{Gdc}d3 |
+{g}f/2a3/2f{gef}e3{A}e2A | \
+{g}f/2a3/2f{Gdc}d3{gde}d3/2c/2d | \
+{g}e3/2d/2{e}G{gBd}B3{G}A3 |
+{g}B/2{d}G3/2{d}B{G}A3{GdG}f3 | \
+{g}e3/2f/2{g}e{Gdc}d3|1 {gdc}d2|2 {gdc}d3 :: \
+{gde}d3/2c/2d{gef}e3{GAG}A3 |
+{g}e3/2f/2g{a}f/2a3/2-a{Gdc}d3 | \
+{gfg}f3/2e/2f{gf}g3{GAG}A3 | \
+{g}f/2a3/2f{gef}e3{A}e2a |
+f/2a3/2f{Gdc}d3{gde}d3/2c/2d | \
+{g}e3/2d/2{e}G{gBd}B3{G}A3 | \
+{g}B/2{d}G3/2{d}B{G}A3{GdG}f3 |
+{g}e3/2f/2{g}e{Gdc}d3|1 {gdc}d3|2 {gdc}d2 :|

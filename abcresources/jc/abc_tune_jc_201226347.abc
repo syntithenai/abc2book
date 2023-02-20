@@ -1,0 +1,32 @@
+X: 10212
+T: GOODWIFE ADMIT THE STRANGER
+O: Gaelic air.
+Q: "Moderate."
+%R: air, march
+N: This is version 1, for ABC software that doesn't understand cresc/diminuendo symbols or trailing grace notes.
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.21 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Several dotted quarter notes changed to double-dotted, to fix the rhythms.
+M: 2/4
+L: 1/16
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!p!(3FGA) |\
+.B2.d2 .B2z(d/c/) | .B2.d2 .B2z(d/e/) |\
+f2d2B2F2 | G7 (3(F/G/A/) |"^cres."\
+.B2.d2 .B2z(d/B/) | .B.B.d.d B2(de) |\
+!pp!.[f2d2].[f2d2].[f2d2].[f2d2] | B7 :|\
+(3(B/c/d/) |"cres."\
+e3fg3e | f3ed3f |\
+{d}e3d f3F | G7 (3(F/G/A/) |
+!p!.B2.d2 .B2z(d/c/) | .B.B.d.d (d2de) |\
+!pp!.[f2d2].[f2d2].[f2d2].[f2d2] | B7 \
+(3(B/c/d) |"cres."\
+e3fg3e | {d}b3gf2d2 |\
+f2d2B2F2 | G7 (3(F/G/A/) |!f!\
+B3F (GFED) |"cres."(dc)(de fgaHb) |\
+"dim."f3d Tc4 |{Bc} B6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,29 @@
+X: 215
+T: the Fire Cross Song
+T: An crann tiaradh.  or Chrois faire.
+R: jig
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.98 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Moderate but Expressive"
+K: Eb
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for 2 12-bar lines, for compactness and proofreading.
+V: 1 staves=2
+B |\
+!p!G2G (TG>^FG) | Gcc c2d | "_cres"{d}e2e {d}(e>de) | dff f2b |\
+!f!{e}g2g gfe | {d}f2f fed | "_dim"c2d (c/d/e)c | BGG G2 :| G/F/ |\
+!f!EGE DFD | Cdd c2d | !p!ege dbB | d2f f2b ||
+!f!g2g gfe | {d}f2f fed | "_dim"c2d (c/d/e)c | BGG HG2 G/F/ || !f!EGE DFD |\
+Ccc c2d | !p!ege dbB | dff f2E/F/ || !ff!GeG FdF | EcE Dfa | "_dim"{a}gfe dec | BGG G2 |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+!p!egb egb | eac' eac' | "_cres"egb egb | Bfb Bfb || !f!egb egb | dfb dfb | "_dim"e2d c2A | E3 E2 :| z |
+!f!e2b B2b | A2a A2a | !p!g2e f2b | B2b B2z || !f!egb e3 | dfb d3 | "_dim"e2d c2a | egb He2z || !f!e2b B2b |
+A2a A2a | !p!g2e f2b | B2b B2z | !ff!egb dfb | eac' b2d | "_dim"efg a3 | egb e2 |]
+% = = = = = = = = = =

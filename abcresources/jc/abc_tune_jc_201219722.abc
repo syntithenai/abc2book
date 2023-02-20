@@ -1,0 +1,14 @@
+X:28
+T:Caledonia
+M:2/4
+Q:1/4=100
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+(f/e/)|dA FA|(d/c/d/e/ d) (f/e/)|dA FA|B[Ee][Ee] (f/e/)|dA FA|Bg Lf>e|\
+d/c/B/A/ !crescendo(!B/c/d/e/!crescendo)!|LfLdLd::
+f/g/|af ge|fdd f/g/|af g!crescendo(!a!crescendo)!|bee f/g/|af ge|fd Le>f|d/c/B/A/ B/c/d/e/|LfLdLd:|

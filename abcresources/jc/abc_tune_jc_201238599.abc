@@ -1,0 +1,27 @@
+X: 31013
+T: COTILLION No. 12. HIGHLAND SETT tune 6
+C:
+%R: reel
+N: This is version 1, for ABC software that doesn't understand tremolo notation.
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.101 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain's "D.C." should probably be a fermata.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+d2 |\
+gggg gggg | bbbb bbbb | aaaa gggg | ffff f2d2 |\
+gggg gggg | bbbb bbbb | aaaa ffff | g2b2"^D.C."g2 |]
+Bc |\
+d2B2 g2d2 | bagf edcB | c2A2 f2d2 | c'bag fedc |\
+d2B2 g2d2 | bagf edcB | c2a2 g2f2 | f4 "^D.C."g2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% forward again,
+%% chassa across the back, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

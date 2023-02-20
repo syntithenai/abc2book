@@ -1,0 +1,38 @@
+X: 121
+T: Thro' the Wood Laddie
+%R: air, waltz, minuet
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.12 #1
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Q: "slow"
+M: 3/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1
+F>C |\
+D2 F>G (TG3/F//G//) | A4 fc | d2 (fd)Tc>A | G4 F>G |\
+A3 BA>G | TA2 (GF)(FG) | A>GA>cTA>G | A2 (GF)(DC) |
+D2 F>G (TG3/F//G//) | A4 f>g | a>g(fd)(TcA) | G3 ABc |\
+d2 (fd)(TcA) | c>dcBTAG | JA2 D2 (TE3/D//E//) | F4 :|
+|: f>c |\
+d2 f>g (Tf3/f//g//) | a4 fg | a2 (ba)(Tgf) | g4 f>g |\
+Ja3 ba>g | Ta2 (gf)(fg) | a>ga>bTa>g | a>g f2 c2 |
+d2 f>g (Tg3/f//g//) | a4 fg | agfdTc{B}A | G3 A~B>c |\
+d2 (fd)Tc>A | c>dc>BTA>G | JA2D2 (E3/D//E//) | F4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+f2 |\
+B2 z2 "7"c2 | F2 fg"6"af | B2 z2 f2 | c'2 c2 z2 |\
+F2 f2 c2 | F4 z2 | F2 f2 c2 |
+F4 "6 5;4 3"F2 |\
+B2 z2 "7"c2 | F2 fg"6"a"6"e | f4 F2 | c3 f'"6"d'"6"a |\
+b4 "6"a2 | "6"e4 c2 | f2 b2 "6"g2 | f4 :|
+|: f2 |\
+B2 z2 "7"c2 | F2 fg"6"a"6"e | f2 "6"d4 | c2 C2 z2 |\
+F2 f2 c2 | F4 z2 | F2 f2 c2 | F3 G"6"AF |
+B2 z2 c2 | F2 fg"6"a"6"e | f4 F2 | c3 f'"6"d'"6"a |\
+b4 "6"a2 | "6"e4 c2 | f2 b2 "6"g2 | f4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

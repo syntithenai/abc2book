@@ -1,0 +1,26 @@
+X: 052
+T: Waly Waly
+%R: minuet, waltz
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.5 #2
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Q: "slow"
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1
+GBc |\
+d3 gab | Ta3 AB>c | d2 ~g2 {ab}Ta(g/f/) | g3 :|
+|: =fTed |\
+c3 dTed | {de}=f3 gTe>d | (e/^f/g2) B Tc(B/A/) | G3 gTe>d |
+{c}B3 gTe>d | {B}A3 =fTe>d | (6:4:6(e/f/g/f/g/a/) gB {e}c(B/A/) |G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+zz2 | gfg"6"b"6"ag | "6"fefdg"6"a | "6"bge"6"B"6"cd | G3 :|\
+|: "b6"a"6"g"6"=f | "6"ede"6"BcB |
+"b6"AdBGA"6"B | cA"6"Be"6"cd | gfg"6"Bcd | ga"6"bgc'g | "#"d'dd"b6"aa"6"b |
+c"6"a"6"be'c'd' | g3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

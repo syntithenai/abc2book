@@ -1,0 +1,59 @@
+
+X: 1
+T: Khusidl #19 vol. 1  [Gm]
+O: collected by G. Goldenshteyn
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: 1/4=65
+K: Gm
+|:\
+"Gm"(AB)G2 G2G2 | G4- G2^FG |\
+"F#m"^GA^F2 FEDE | "D"^F4- F2E2 |\
+D2E2 ^F2G2 | A2B2 ^F2A2 |\
+[1 "Gm"G6 d2 | "F#m"(d^c)cB (BA)AG :|
+[2 "Gm"G4- G(DBA) | G4 z4 \
+|:\
+"Gm"D=E^FG (AB)G2 | (AB)G2 ABG2 |\
+"Bb"FGAB ^cdB2 | ^cdB2 cdB2 |\
+"Gm"d4 ^c3=e | (d^c)BA G4 |
+"Gm"{A}B2AG "F#m"{G}A2G^F | "Gm"G2A2 B2c2 |\
+d4 ^c3=e | (d^c)BA G4 |\
+"Gm"{A}B2AG "F#m"{G}A2G^F |[1 "Gm"G4 z4 |[2 "Gm"G4- GFBc ||
+|: "Bb"Td2(cB) Td2(cB) | d4- dFBc |\
+Td2(cB) Td2(cB) |"Bb"d2z2 "Gm7"kd4 |\
+"Cm"dec2- c2(c^c) | "Gm"(^cd)B2- B2Bd |
+"F#m"(d^c)(cB) BAAG | G2A2 B2c2 |\
+"Cm"(de)c2- c2(c^c) | "Gm"(^cd)B2- B2(Bd) |\
+(d^c)(cB) (BA)(AG) |[1 G4- GFBc :|[2 "Gm"G2z2 z4 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2
+T: Khusidl #19 vol. 1  [Am]
+O: collected by G. Goldenshteyn
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: 1/4=65
+K: Am
+|:\
+"Am"(Bc)A2 A2A2 | A4- A2^GA |\
+"G#m"^AB^G2 GFEF | "E"^G4- G2F2 |\
+E2F2 ^G2A2 | B2c2 ^G2B2 |\
+[1 "Am"A6 e2 | "G#m"(e^d)dc (cB)BA :|
+[2 "Am"A4- A(EcB) | A4 z4 \
+|:\
+"Am"E^F^GA (Bc)A2 | (Bc)A2 BcA2 |\
+"C"GABc ^dec2 | ^dec2 dec2 |\
+"Am"e4 ^d3^f | (e^d)cB A4 |
+"Am"{B}c2BA "G#m"{A}B2A^G | "Am"A2B2 c2d2 |\
+e4 ^d3^f | (e^d)cB A4 |\
+"Am"{B}c2BA "G#m"{A}B2A^G |[1 "Am"A4 z4 |[2 "Am"A4- AGcd ||
+|: "C"Te2(dc) Te2(dc) | e4- eGcd |\
+Te2(dc) Te2(dc) |"C"e2z2 "Am7"ke4 |\
+"Dm"efd2- d2(d^d) | "Am"(^de)c2- c2ce |
+"G#m"(e^d)(dc) cBBA | A2B2 c2d2 |\
+"Dm"(ef)d2- d2(d^d) | "Am"(^de)c2- c2(ce) |\
+(e^d)(dc) (cB)(BA) |[1 A4- AGcd :|[2 "Am"A2z2 z4 |]

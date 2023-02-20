@@ -1,0 +1,17 @@
+X: 151	% 39
+T: Old Dan Tucker
+T: (Use For March For Dan Tucker Waltz)
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.15 #1
+R: march, reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="39"
+(3(DEF) |\
+G2G2 GFED | [G2B,2][G2B,2][G2B,2](3(DEF) |\
+[G2B,2][G2B,2] G2[BG][BG] | [D2B,2][D2B,2] G2(EF) |\
+[G2B,2][G2B,2] [GB,][GB,]EF | [G2B,2][G2B,2] [G2B,2](EF) |
+[G2B,2][GB,][GB,] [G2B,2][B2G2] | D2D2G3G ||\
+B3B B2B2 | A2G2EG3 |\
+[A2F2][A2F2][B3G3][BG] | [D2B,2][D2B,2]EG3 |]

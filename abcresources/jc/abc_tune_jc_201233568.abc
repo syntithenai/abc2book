@@ -1,0 +1,17 @@
+X: 20
+T: a Reel for George
+C: Pat Clark
+R: reel
+N: Suggested tune for Golden Bracken
+B: RSCDS "A Second Book of Graded Scottish Country Dances" (Graded 2) p.41
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: C
+"G7"[G2B,2] |:\
+"C"C2EG AGG2 | "Dm"FEFG "E/C"AGG2 | "C"c2dc "G"B3B | "D7"AG^FA "G7"G=FED |
+"C"C2EG AGG2 | "C"cedc "G"BGG2 | "F"A2FA "E/C"GECE | "G7"DFED "C"C2"G7"G2 :|
+"C"c2ec "G7"BdcB | "F"AcBA "E7"^GEE2 | "Am"A2A^G AcBA | "E7"^GE^FG "Am"A2"G7"B2 |
+"E/C"c3B "F"A2cA | "C"G2EG "G7"F3D | "Am"C2c2 "F"AGFA | "G7"GABG "C"c2"G7"B2 ||
+"Am"c2Ac "G"B2GB | "F"AcBA "C"GEE2 | "D7"D3d dedc | "G7"B2G^F G^GAB |
+"C"c2gc "G"B2gB | "F"A2fA "C"G3E | "Dm"FED^C DEFA | "G7"G2cB "C"c2 |]

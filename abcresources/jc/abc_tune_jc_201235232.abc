@@ -1,0 +1,30 @@
+X: 21042
+T: MANILLA SETT (tune 2)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.104 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial smudges that might be a missing initial repeat; transcribed as repeat.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="2"
+AB |\
+c2f2 d2f2 | cdcB A2c2 | B2B2 A2A2 | G4 z2AB |\
+c2f2 d2f2 | cdcB G2c2 | d2g2 fede | f4 z2 H|]
+|: c2 |\
+f2z2 e2z2 | f6 d2 | c2B2A2G2 | A2G2 z2c2 |\
+fgaf efge | f2ag fedc | BAGF E2c2 | "^D.C."F6 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance four,
+%% next two forward, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

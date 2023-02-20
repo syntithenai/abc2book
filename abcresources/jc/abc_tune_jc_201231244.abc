@@ -1,0 +1,21 @@
+X: 14
+T: Willie Winckie
+%R: reel
+B: "Twenty Four Favourite Dances for the Year 1783", Thomas Straight, ed. p.7 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1783
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: F
+g2 |\
+c2F2 ABcA c2F2F2f2 | c2F2 ABcA G2D2D2f2 |\
+c2F2 ABcA c2F2A2F2 | G4 A3G F2D2D2 :|
+|: e2 |\
+f4 agfe f2F2F2e2 | f4 fga2 g2G2G2e2 |\
+fef2 gfg2 agf2 gfe2 | def2 c3A G2D2D2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Cast of 2 Cu up again.|. lead down the middle
+%% up again & cast off :|. set corners .|:
+%% and lead outsides :|:
+%%endtext

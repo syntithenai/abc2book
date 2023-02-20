@@ -1,0 +1,63 @@
+X: 20461
+T: the CONSTANT SHEPHERDESS
+Q: "With spirit."
+%R: reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.46 (and p.47 #1)
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+(Ad3)(AF3) F6A2 | (GB3)(GE3) E6G2 |\
+(FA3)(FD3) (E3B)(A3G) | F4D4 D6A2 |\
+(Ad3)(AF3) F6A2 | (GB3)(GE3) E6G2 |\
+(FA3)(Ad3) (d2fd e2)A2 | (A2G2)(G2F2) F2E2 z2E2 |
+A4A4 A4 (dcBA) | (A2^G2)G2 G6E2 |\
+B2B2 (Bdec ed)(cB) | e6c2 A6c2 |\
+{c2}B4 (A3c) {c}B4 (A3e) | (e3d)(d3c) f6f2 |\
+(ec3)(BA3) AE3 (A3d) | c4B4 A4z2e2 |
+decd B4 decd B4 | E2^G4 B4dc edcB |\
+efde c4 efde c4 | E2A4 c4e2 fedc |\
+decd B4 decd B4 | E2^G4 B4dc edcB |
+cdec ABcA ^GABG EGBd | cdec ABcA ^GABG EGBd |\
+cABc def^g a2a2a2a2 | a2B2 B4- B2c2(d2f2) |\
+(e6f)d c4 B4 | cdec ABcA ^GABG EGBd |
+cdec ABcA ^GABG EGBd | cABc def^g |\
+a2a2a2a2 | F2^GA Bcde f2f2^g2a2 |\
+E8 B8 | A8 z8 |\
+A6d2 (d2c2)c4 | A6=f2 (f2e2)e4 |
+A6d2 (d2c2)c4 | (d2A2)(G2=F2) (F4E4) |\
+A6A2 (A2G2G2A2) | _B6B2 (B2A2)A4 |\
+d6d2 (d2=c2)_B2A2 | (A2G2)(=F2E2) F8 |\
+A6A2 _B6B2 | (=c2A2)(=F2_e2) (e2d2)d4 |\
+=B6B2 =c6c2 | (d2B2)(G2=f2) (f4e4) |
+e6e2 =f4f4 | d6d2 e4e4 |\
+^c6c2 d4e4 | =f4^c4 (d4e4) |\
+(=f2e2)(d2^c2) (d2A2)(_B2A2) |(G2=F2)(E2D2) A8 |\
+A12 A4 | (Ad3)(AF3) F6A2 |\
+(GB3)(GE3) E6G2 | FA3FD3 EB3(A3G) |
+F4D4 D6A2 | (Ad3)(AF3) F6A2 |\
+(GB3)GE3 E6G2 | (FA3)(Ad3) (B2cd cB)(AG) |\
+F4E4 D6A2 | A4A4 A6d2 |\
+(c2d2e2c2) d6A2 | A6A2 A6d2 |\
+(c2d2e2c2) d6d2 | (d2c2)(c2B2) (B2A2) z2B2 |
+(B2A2)(A2G2) (G2F2) z2A2 | (d2f2)(d2A2) (B2cd cB)(AG) |\
+F4E4 D6A2 | GAFG E4 GAFG E4 |\
+c2e4 g4G2 AGFE | ABGA F4 ABGA F4 |\
+d2f4 a4A2 BAGF | GAFG E4 GAFG E4 |
+c2e4 g4G2 AGFE | F4 dede cdcd BcdB |\
+A4 BcBc ABAB GABG | FDEF GABc d2d2d2d2 |\
+dede fgfg a2a2a2a2 | a3=c c4- c3(d/e/) (d2c2) |\
+(B2^d2e2d2 e2f2) (agfe) |
+(a4 gfed) e8 |\
+fgfe defd cdec Aceg | fgfe defd cdec Aceg |\
+fedc defg a2a2a2a2 | a2B2 (g2fe) d4 c4 |\
+fgfe defd cdec Aceg |
+fgfe defd cdec Aceg |\
+fedc defg a2a2a2a2 | B2cd efga b2B2(c2d2) |\
+A8 e8 | a4(e3f/g/) f4e4 |\
+a4(e3f/g/) f4e4 | d8 z4 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

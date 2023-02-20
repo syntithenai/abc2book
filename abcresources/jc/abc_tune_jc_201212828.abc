@@ -1,0 +1,11 @@
+X: 1116
+T: Johnny Docherty's (A53)
+N: page A53
+N: heptatonic
+M: 9/8
+L: 1/8
+K: G
+|:"G"B2 d d2 A BAG|"C"E2 A A2 B cBA|"G"B2 d d2 A BAG|"C"D2 G G2 A BAG|
+  "G"B2 d d2 A BAG|"D"E2 A A2 B cBA|"G"B2 d d2 A BAG|"C"D2 G G2 A BAG::
+  "G"B2 d e2 f g3 |"D"a2 A A2 B cBA|"G"B2 d e2 f g2a|"C"gfe d2 A BAG|
+  "G"B2 d e2 f g3 |"D"a2 A A2 B cBA|"G"B2 d e2 f g2a|   gfe d2 A BAG:|

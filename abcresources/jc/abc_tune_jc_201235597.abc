@@ -1,0 +1,37 @@
+X: 21243
+T: NARRAGANSET SETT (tune 3)
+C:
+%R: hornpipe, march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.124 #3 (and top staff of p.125)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain has an initial "pickup" rest, while the 2nd strain doesn't; fixed.
+N: The 1st strain's rests are drawn as 1/16 rests; changed to 1/32 to make the rhythm 2/4.
+N: It's not obvious why the "E minor" is written above the 2nd strain, but it's transcribed here as-is.
+M: 2/4
+L: 1/32
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+[|\
+d2zBc2zd e2zgf2ze | e2zdg2za b4z4 |\
+d'2z^c'=c'2zb a4f4 | (c'2c'2b2a2) g4z4 |\
+d2zBc2zd e2zgf2ze | d2zdg2za b4z4 |
+d'2z^c'=c'2zb a2a2b2a2 | g4g4g4 H|]\
+z4 |\
+b3ag3"^E minor"f e3^de3g | f3ef3d e4z4 |\
+d3fb3a g3fg3e | f3Bd3f b4z4 |
+e3^de3g f3ef3a | g3fg3b a3c'b3a |\
+g3ba3g f3e^d3f | e3de3f g3fg3"^D.C."e |]\
+b2a2 |\
+b2^d2d2d2 d2f2e2d2 | e2g2g2g2 g2e2g2e2 |
+b2^d2d2d2 d2f2e2d2 | e2g2^d2f2 e4z4 |\
+a2c2c2c2 c2e2d2c2 | d2f2f2f2 f2d2f2d2 |\
+a2c2c2c2 c2e2d2c2 | d2f2c2e2 "^D.C."z4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across and back,
+%% all balance partners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

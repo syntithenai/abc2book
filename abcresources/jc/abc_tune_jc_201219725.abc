@@ -1,0 +1,26 @@
+X: 28
+T: the Irish Rag
+%R: jig
+B: "The Hibernian Muse" p.17 #1
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. XXVIII.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+a |\
+f2A A2=c | (B/c/d)B G2g | f2e ABA | d3 g3 |\
+f2e A2=c | (B>cB/A/) G2g | fga gfe | d3 f2 :|
+|: a |\
+f2g afd | e2f gec | f2g afd | f3 g3 |\
+f2g agf | e2f gfe | agf gfe | d3 f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d3 f3 | g3 g3 | a3 a3 | b3 b3 |\
+a3 a3 | g3 g3 | d3 a3 | d3 D2 :|
+|: z |\
+a3 a3 | g3 g3 | a3 a3 | d3 g3 |\
+d2e fed | g2a bag | a3 A3 | d3 D2 :|

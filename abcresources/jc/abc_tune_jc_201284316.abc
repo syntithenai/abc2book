@@ -1,0 +1,27 @@
+X: 1
+T: Handel With Care  [D]
+T: Bour\'ee from Handel's Water Music
+P: Play three times
+C:G.F. Handel
+M:4/4
+L:1/8
+K:D
+A2 | "D"d2f2 e2d2 | "D"a4 f4 | "G"b2a2 g2f2 | "A7"g2 "D"f4 :|
+|: a2 |\
+"G"b2g2 "A7"e2fg | "D"a2f2 d2ef | "G"g2f2 e2d2 | "A7"edef e2fg |
+"D"a2fg a2gf | "A7"g2ef g2fe | "D"f2d2 "A7"e3d | "D"d6 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2
+T: Handel With Care  (G)
+T: Bour\'ee from Handel's Water Music
+P: Play three times
+C:G.F. Handel
+M:4/4
+L:1/8
+K:G
+D2 | "G"G2B2 A2G2 | "G"d4 B4 | "C"e2d2 c2B2 | "D7"c2 "G"B4 :|
+|: d2 |\
+"C"e2c2 "D7"A2Bc | "G"d2B2 G2AB | "C"c2B2 A2G2 | "D7"AGAB A2Bc |
+"G"d2Bc d2cB | "D7"c2AB c2BA | "G"B2G2 "D7"A3G | "G"G6 :|

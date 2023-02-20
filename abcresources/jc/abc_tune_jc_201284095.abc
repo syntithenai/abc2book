@@ -1,0 +1,36 @@
+X: 1
+T: H\"alsa dem d\"arhemma
+C: musik: Elith Worsing
+C: text: Ch. Bengtsson
+N: Published 1922 by Wilhelm Hansen, Copenhagen
+R: waltz
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: G
+%%staffsep 25
+| "G"D2 E | "F#aug"D2E | "G"D2 C | B,2 z | "C"G2 A | "Baug"G2 A | "C"G2 F | E2 z |
+w: I den sto-ra tys-ta natt, st\aar jag h\"ar vid skepp-ets rad,
+w: Lil-la sva-la, fast-\"an svag, dag och nott, och natt och dag.
+| "C"G2 E | "Cm"D2 C | "G"B,2 C | D3 | "Em"D2 D | "Am"C2 B, | "D7"A,3- | A,2 z |
+w: un-der himm-lens stj\"ar-na hjer, man p\aa post mig satt.
+w: F\"o-rer dig till m\aa-let fram snab-ba vi-nge-slag.
+| "G"D2 E | "F#aug"D2E | "G"D2 C | B,2 z | "C"G2 A | "Baug"G2 A | "C"G2 F | E2 z |
+w: Ef-ter l\aang och str\"av-sam dag, h\"or jag fj\"ar-ran ving-ge-slag
+w: Sva-la, t\"ank ock-s\aa p\aa mig; G\"ar-na fl\"o-ge jag med dig.
+| "C"E2 F | "Cm"G2 A | "G"B2 G | "E(m)"D2 B, | "Am"D2 C | "D7"B,2 A, | "G"G,3- | G,2 z |]
+w: sva-lors flock som \aat-er g\aar, mot nord, mot ljus, mot v\aar.
+w: Hem-ma st\aar v\"al \"ang-en gr\"on.  O, sva-la, h\"or min b\"on.
+%
+[| "G"G2 G | "(Bm)"F2 F | "C"E3 | "Am"C2 z \
+| "D7"F2 F | E2 E | "G"D3- | D2 z |
+w: H\"al-sa dem d\"ar-hem-ma, h\"al-sa far och mor,
+| "E7"E2 E | D2 D | "Am"C3 | A,2 z \
+| "D7"D2 D | [E2C2] C | "G"B,3- | B,2 z |
+w: h\"al-sa gr\"o-na ha-gen, h\"al-sa lil-le bror.
+| "G"G2 G | "(G+)"B2 B | "Am"A3 | E2 z \
+| "D7"F2 F | A2 A | "Em"G3- | G2 z |
+w: Om jag ha-de ving-ar, fl\"o-ge jag med dig.
+| "G"G2 G | D2 E | "C"F3 | E2 z \
+| "D7"D2 [DC] | [E2B,2] [FA,] | "G"[G3-G,3-] | [G2G,2] z |]
+w: Sva-la, flyg mot hem-met.  H\"al-sa i-fran mig.

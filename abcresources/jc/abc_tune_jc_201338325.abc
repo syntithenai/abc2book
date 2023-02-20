@@ -1,0 +1,23 @@
+X: 661
+T: Sleepy Maggie   #2
+R: reel
+%S: s:2 b:14(7+7)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #661
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0661/oneill-1001-0661-1.abc
+%m: Tn2 = (3n/o/n/ m/n/
+N: Compacted via repeats and multiple endings [JC]
+M: C|
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+"^A"\
+|: f2(de) fBde | Tf2(df) eAce | {g}f2(de) fBde | fgaf eAce \
+"^B":| fBdB fBde | fBdB eAce |[1 fBdB eBde |
+| f^gaf eAce :|[2 dcBc defg | abaf eAce \
+"^C"|: fBbB fBde | fBbB aAce | fBbB aB^gB | fB^gB aAce :| 
+%
+% Note from the transcriber:
+N: The repeat sign at the end probably means that the four last bars are to be repeated.
+% (Initial repeat added to the C part by JC.)

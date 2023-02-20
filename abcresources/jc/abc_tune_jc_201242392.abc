@@ -1,0 +1,31 @@
+X: 581
+T: the Bridge of Anas
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.58 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C|
+L: 1/8
+K: Ddor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+D/D/D F>D E2c2 | GFED CDEC |\
+D/D/D FD E2d2 | c>Ac>E D/D/D D :|\
+|: A |\
+d>edA d/d/d f2 | Te>dce cdec |
+decA d/d/d f2 | Te>dce d/d/d d2 |\
+dedA d/d/d  f2 | Te>dce cdec |\
+d>ec>d A>cG>A | F>GEd D/D/D D |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 d2d2 | c2c2 c2c2 |\
+d2d2 d2d2 | A2A2 D2D :|\
+|: z |\
+d2d2 d2d2 | c2c2 c2c2 |
+d2d2 d2d2 | A2A2 D2D2 |\
+d2d2 d2d2 | c2c2 c2c2 |\
+d2d2 d2d2 | A2A2 D2D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

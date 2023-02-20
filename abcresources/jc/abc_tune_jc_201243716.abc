@@ -1,0 +1,27 @@
+X: 892
+T: Hey to Couper
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.89 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Footnote: "Number 12"
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A, |\
+D>ED TF2G | A2d AFD | G2d F2d | EFD CB,A, |\
+D>ED TF2G | A2d AFD | FdF Edc | d3 D2 :|
+|: A |\
+d>ed Tf2g | aba Tfed | BcB Tc2d | efd TcBA |\
+ded Tf2g | a2g Tfed | (B/c/d)B (c/d/e)c | d3 D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d3 d3 | d3 d3 | e3 d3 | c3 A3 |\
+d3 d3 | d3 d3 | A3 A3 | D3 D2 :|
+|: z |\
+d3 d3 | d3 d3 | g3 g2f | e3 a3 |\
+d3 d3 | d3 d3 | g3 a3 | d3 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,32 @@
+X: 11185
+T: the ALBION MARCH
+C: John Turnbull.
+P: Copyright.
+N: This is version 2, for ABC software that understands voice overlays
+%R: march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.118 #5 (and p.119 #1)
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 3rd (bugle) strain has a final repeat but no initial repeat; not fixed.
+N: In bar 12, the "upper voice" is written with the middle 2 of each notes smaller, between the 1st and 3rd notes.
+N: ABC has no notation for such "alternate" playings of the bar, so it has been transcribed as just 2 voices.
+M: C
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!ff!|:\
+G4 z2GG G2GG G2GG | .B4 .d4 .g4 z2!p!f2 |\
+f2e2b2a2 g2f2e2d2 | c2B2f2e2 d2c2B2A2 !ff!|\
+G4 z2GG G2GG G2GG | .B4 .d4 .g4 z2f2 |\
+!p!f2e2b2a2 a2g2g2f2 | (a8 g4) "^Fin."z4 H:|
+|: !ff!\
+b2bb b2bb b2B2^d2f2 | !p!b2a2a2^g2 a4 z4 !ff!|\
+a2aa a2aa a2A2c2e2 | !p!abagfgfe dedcBcBA & a2g2f2e2 d2c2B2A2 !ff!|\
+G4 z2GG G2GG G2GG | .B4 .d4 .g4 z2!p!f2 |\
+f2e2b2a2 a2g2g2f2 |[1 (a8 g4) z4 :|[2 (a8 g4) |]
+"^Bugle solo."d4 |\
+g8 "^>"g2f2"^>"f2e2 | d8 "^>"b2a2"^>"a2g2 |\
+g2f2c'2b2 a2g2f2g2 | b8 a2d2e2f2 |\
+g8 "^>"g2f2"^>"f2e2 | d8 "^>"b2a2"^>"a2g2 |\
+f2e2e2d2 ^c2a2^g2a2 | d6 fe d2c2B2"^D.C."A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

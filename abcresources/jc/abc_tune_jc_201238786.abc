@@ -1,0 +1,22 @@
+X: 3132
+T: the Original Lango Lee
+O: Irish
+%R: air, waltz, jig
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.3 p.13 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slow"
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+A3 {AB}c3 | TB>AB cAF | TE>FA A2f | edc TB2A :| c>de ef=g | Tf>ed {d}cBA |
+Tc>de efg | Tg3 {fg}az A | (Ace agf) | e(dc) HTB2 !p!A | (AE)F (AE)F | (Ad).c TB2A |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+(Ac)e (ac').a | e3 f2d | c3 A2d | cBA E2A :|
+[ac'e']>bc' [c'3e'3] | d(fg) a3 | [ac'e']bc' c'd'b | ebd' [ac']zz |\
+[a3e'3] f'e'd' | c'ba | [e'2e2] !p![ac'] | [a2c'2][ad'] [a2c'2][ad'] | c'ba e2A |]

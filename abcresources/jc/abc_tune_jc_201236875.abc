@@ -1,0 +1,18 @@
+X: 2341
+T: the Geen Tree.   a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.2 p.34 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+f | dD-D>F TE>DEf | gefd TedBe | dD-D>F TEDEg | fdef d/d/d d :| f | afdf abaf | gefd TedBf |
+afdf abaf | Tedef d/d/d df || afdf abaf | gbfa TedBe | dD-D>F TE>DEg | fdef d/d/d d |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d2d2 A2A2 | c2d2 a2g2 | f2d2 a2A2 | d2A2 D2D :| z | d'2d'2 d'2d'2 | c'2d'2 a2g2 |
+f2d2 d'2f2 | g2a2 d2d2 || d'2d'2 d'2d'2 | c'2d'2 a2g2 | f2d2 a2A2 | d2A2 [d2D2][dD] |]

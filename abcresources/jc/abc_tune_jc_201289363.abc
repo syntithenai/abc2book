@@ -1,0 +1,26 @@
+X:1
+T:I AM A YOUNG MAN
+M:6/8
+L:1/8
+Q:80
+C:Traditional
+S:March
+K:HP
+|: e | \
+{g}A2{GdGe}A{GAG}A3/2{g}B/2d | \
+{g}e3/2f/2g{fg}f3/2e/2d | \
+{g}A2{GdGe}A{GAG}A3/2{g}B/2d |
+{gef}e3{A}e2{g}f | \
+{g}A2{GdGe}A{GAG}A3/2{g}B/2d | \
+{g}e3/2f/2g{fg}f3/2e/2d |
+{g}A2{GdGe}A{GAG}A3/2f/2{g}e | \
+{Gdc}d3{gdc}d2 :: \
+e |
+{g}f2{GdG}f{g}f3/2e/2{g}f | \
+{ag}a2f{gfg}f3/2e/2{g}d | \
+{gef}e2{GdG}e{g}e3/2g/2{a}f |
+{gef}e3{ag}a2g | \
+{afg}f3/2e/2{g}d{gdc}d3/2e/2{g}f | \
+{g}B2{GdGe}B{g}B3/2c/2d |
+{g}A2{GdGe}A{GAG}A3/2f/2{g}e | \
+{Gdc}d3{gdc}d2 :|

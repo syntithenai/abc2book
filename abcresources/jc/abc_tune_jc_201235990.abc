@@ -1,0 +1,21 @@
+X: 21522
+T: la POSTE QUADRILLES No. 2.--l'Ete.
+%R: reel
+N: This is version 2, for ABC software that understands diminuendo symbols.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.152 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno![|\
+g2dd d2d2 | ^c2d2e2d2 | g2dd d2d2 | ^c2d2e2d2 |\
+aaaa a2g2 | ffff f2e2 | dddd e2f2 | g2z2 g2z2 |]
+bbbb (b2c'2) | (^c'2d'2e'2d'2) | gggg g2a2 | Q(^a4 qb2)z2 |\
+gggg (g2f/e/c/A/) | F4- F2z2 | eeee e2d/c/A/F/ | D4- D2z2 |
+bbbb (b2c'2) | (^c'2d'2e'2d'2) | gggg g2a2 | Q(^a4 qb2)z2 |\
+bbbb b2^c'2 | (d'2b2g2f2) | g3f fed^c | B2z2 f4 !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

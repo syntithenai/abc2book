@@ -1,0 +1,26 @@
+X: 412
+T: *Bake Those Hoe Cakes Brown
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.41 #2
+R: reel, march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Several begin-repeats added to match end-repeats.
+M: 2/4
+L: 1/16
+K: A
+V: 1 name="118"
+|:"^Tempo quadrille"\
+[c2E2][c2E2][c2E2][c2E2] | [d2F2][d2F2][d2F2][d2F2] | [c2E2][c2E2][c2E2][c2E2] | B8 |\
+[c2E2][c2E2][c2E2][c2E2] | [d2F2][d2F2][f2d2][f2d2] | [e2c2][e2c2][d2F2][B2G2] | A8 ::\
+[cE][cE][cE][cE] [cE][cE][cE][cE] | [dF][dF][dF][dF] [dF][dF][dF][dF] |
+[cE][cE][cE][cE] [cE][cE][cE][cE] | B8 |\
+[cE][cE][cE][cE] [cE][cE][cE][cE] | [dF][dF][dF][dF] [fd][fd][fd][fd] |\
+[ec][ec][ec][ec] [d2F2][B2G2] | [A8E8] :: EEc2 EEc2 | FFd2 FFd2 |
+EEc2 EEc2 | B8 | EEc2 EEc2 | FFd2 f3f | e2e2d2B2 | A8 ::\
+[c/E/][c/E/][c/E/][c/E/][c/E/][c/E/][c/E/][c/E/] [c/E/][c/E/][c/E/][c/E/][c/E/][c/E/][c/E/][c/E/] |
+[d/F/][d/F/][d/F/][d/F/][d/F/][d/F/][d/F/][d/F/] [d/F/][d/F/][d/F/][d/F/][d/F/][d/F/][d/F/][d/F/] |\
+[c/E/][c/E/][c/E/][c/E/][c/E/][c/E/][c/E/][c/E/] c/c/c/c/c/c/c/c/ | B8 |\
+[c/E/][c/E/][c/E/][c/E/][c/E/][c/E/][c/E/][c/E/] [c/E/][c/E/][c/E/][c/E/][c/E/][c/E/][c/E/][c/E/] |
+[1 [d/F/][d/F/][d/F/][d/F/][d/F/][d/F/][d/F/][d/F/] [f/d/][f/d/][f/d/][f/d/][f/d/][f/d/][f/d/][f/d/] |\
+e/e/e/e/e/e/e/e/ d2B2 | A8 :|\
+[2 abae faed | cABG A4 |]
+%%text *Dedicated to John Stillman 

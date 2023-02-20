@@ -1,0 +1,21 @@
+X: 67
+T: My Love Has Gone
+B: O'Neill's 1850 #67
+R: air
+%S: s:3 b:32(10+11+11)
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+Q: "Slow"
+O: J.O'Neill
+M: 2/4
+L: 1/8
+K: G	% and C
+[| c2 (BA) | G2 (DB,) | C2 (FE) | D3 D \
+| E2 (cB) | BAAG | FdcA | (FD)(~BA) |\
+| G2 (FE) | D2 (CD) |
+| E2 (ed) | c3 A \
+| BGDB, | EcAF | G2 G2 | G4 |[|\
+[K:=f][K:C] E2 (Gc) | .G(G ^FG) | (Ad c).A | G2 (cd) \
+| (ea) (ge) |
+| d2 (Bc) | "^>"dcBA | "_>"GFED |\
+| E2 (Gc) | .G(G ^FG) | (Ad c).A | G2 (cd) \
+| e>(c d>)(B | c>)(G A>)F | E2 d2 | c4 |]

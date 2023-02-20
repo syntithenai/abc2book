@@ -1,0 +1,82 @@
+X: 1
+T: HOLIDAY SCHOTTISCH   [Bb]
+C: Stephen C. Foster (1853)
+R: shottish
+F: http://www.loc.gov/resource/sm1853.210050/
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The A and B parts were written an octave higher.
+M: 2/6
+L: 1/16
+P: AA BA CC DC'A
+K: Bb
+%Q: "Poco Lento"
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"A"\
+|:   "Bb"{F}.d2.d2 {D}.B2.B2 | FGFE D2F2 |\
+[1,3 "F7"{F}EDEA [d2A2]c2 | "Bb"{c}BABd [g2d2]f2 :|\
+[2,4 "F7"{F}EDEA [d3A3]c | "Bb"B2B2B2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"B"\
+|: "C7"({c}d2c2) =E3G | "F"FAcf a3a |\
+[1 "C7"c'2b=e a2gB | "F"g2fA d2c2 :|\
+[2 "C7"c'2b=e agde | "F"f2[f2A2][f2A2]"d.C."z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+K: Eb
+%
+"C"\
+|:   "Eb"[g3G3]f edcB | (3BcBG2 [c3G3]B | "Bb7"(3ABAF2 [f3F3]d |\
+[1,3 "Eb"{f}(ed).e.g ([c'2g2]b2) :|\
+[2,4 "Eb"e2[e2G2][e2G2]z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"D"\
+|: "F7"f4 edeg | "Bb"f2d2 [b4d4] |\
+[1 "F7"f2e2 c3g | "Bb"f2d2 [d'4d4] :|\
+[2 "F7"f2e2 [c'3e3]=a | "Bb"b2[b2d2][b2d2]z2 |]
+%
+"C'"\
+|: "Eb"[g3G3]f edcB | (3BcBG2 (3BcBG2 | "Bb7"(3ABAF2 [f3F3]d |\
+[1 "Eb"{f}(ed).e.g ([c'2g2]b2) :|\
+[2 "Eb"e2[e2G2]"d.C."[e2G2] |]
+%%text The A and B parts were written an octave higher.
+
+%%sep 1 1 500
+X: 2
+T: HOLIDAY SCHOTTISCH   (G)
+C: Stephen C. Foster (1853)
+R: shottish
+F: http://www.loc.gov/resource/sm1853.210050/
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The A and B parts were written an octave higher.
+M: 2/6
+L: 1/16
+P: AA BA CC DC'A
+K: G
+%Q: "Poco Lento"
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"A"\
+|:   "G"{D}.B2.B2 {B,}.G2.G2 | DEDC B,2D2 |\
+[1,3 "D7"{D}CB,CF [B2F2]A2 | "G"{A}GFGB [e2B2]d2 :|\
+[2,4 "D7"{D}CB,CF [B3F3]A | "G"G2G2G2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"B"\
+|: "A7"({A}B2A2) ^C3E | "D"DFAd f3f |\
+[1 "A7"a2g^c f2eG | "D"e2dF B2A2 :|\
+[2 "A7"a2g^c feBc | "D"d2[d2F2][d2F2]"d.C."z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+K: C
+%
+"C"\
+|:   "C"[e3E3]d cBAG | (3GAGE2 [A3E3]G | "G7"(3FGFD2 [d3D3]B |\
+[1,3 "C"{d}(cB).c.e ([a2e2]g2) :|\
+[2,4 "C"c2[c2E2][c2E2]z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"D"\
+|: "D7"d4 cBce | "G"d2B2 [g4B4] |\
+[1 "D7"d2c2 A3e | "G"d2B2 [b4B4] :|\
+[2 "D7"d2c2 [a3c3]^f | "G"g2[g2B2][g2B2]z2 |]
+%
+"C'"\
+|: "C"[e3E3]d cBAG | (3GAGE2 (3GAGE2 | "G7"(3FGFD2 [d3D3]B |\
+[1 "C"{d}(cB).c.e ([a2e2]g2) :|\
+[2 "C"c2[c2E2]"d.C."[c2E2] |]
+%%text The A and B parts were written an octave higher.

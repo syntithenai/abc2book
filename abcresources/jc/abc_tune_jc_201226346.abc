@@ -1,0 +1,37 @@
+X: 10211
+T: SWISS GUARDS' MARCH
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.21 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The rhythm of repeats is missing a beat; not fixed.
+M: C
+L: 1/8
+Q: "SLOW."
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has each strain on a single staff.
+V: 1
+|:\
+D4 EDGF | F4 GFBA | A3A B2c2 | d2D>D D2d>e |\
+f2f>f f2ag/f/ | e2e>e e2d2 | cd/e/ fe/d/ c2B2 | A2A>A A2 :|
+|: A/B/c/d/ |\
+e2e>e e2fe/d/ | e2e>e e2f>g | a>a f>g a>a g>f | e2e>e e2z2 |\
+D4 EDGF | F4 GFBA | A3g fedc | d2d>d d2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voices 2,3 preserve the book's staff beaks.
+V: 2
+|:\
+z8 | D4 EDGF | F3F G2E2 | F2F>F F2F>A |\
+d2d>d d2fe/d/ | c2c>c c2B2 | AB/c/ dc/B/ A2^G2 | A2A>A A2 :| |: A/B/c/d/ |
+c2c>c c2 dc/B/ | c2c>c c2d>e | f>f d>e f>f e>d | c2c>c c2z2 |\
+z8 | D4 EDGF | F3B AGFE | F2F>F F2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+|:\
+d4 z4 | d4 z4 | d3d G2A2 | d2d>d d2z2 |\
+d2d>d d2z2 | A2A>A A2z2 | c2d2 e2e2 | A2A>A A2 :| |: z2 |
+A2A>A A2z2 | A2A>A A2z2 | d2d2 d2d2 | a2A>A A2z2 |\
+d4 z4 | d4 z4 | d3g a2A2 | d2d>dd2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

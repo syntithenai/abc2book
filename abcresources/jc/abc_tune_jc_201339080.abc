@@ -1,0 +1,39 @@
+X: 1
+T: Soldiers'Song (Amhr\'an bhFiann)
+C: words: Peadar Kearney, music: Patrick Heaney (1910)
+%D: 1910
+S: Free Music Teacher on youtube.com
+C: ___
+R: march
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+%%continueall
+"^verse"[|]\
+   G2 | E2CE G3G | ABcd e3d | c2A2 G2E2 | G3F D2 ||
+w:1.~We'll sing a* song, a sol-*dier's* song, with cheer-ing, rous-ing cho-*rus
+   G2 | E2CE G3G | ABcd e3c | B3B A3A | G2G2 z2 ||
+w: As round our* blaz-ing fires* we* throng, the star-ry heav-ens o'er us.
+   G2 | F3F FDEF | G3A G2c2 | B3A B2A2 | G2F2 D2 ||
+w: Im-pa-tient for* the* com-ing fight, and as we wait the morn-ing's light,
+"^*1."G2 | E2CE G3G | ABcd e2cA | Gc2E D3C | C6 z2 "^chorus"|[|
+w: (and) Here in the si-lence of* the* night, we'll* chant* a sol-dier's song.
+%
+   c3d e2c2 | G6 G2 | A3A F2A2 | G4 G4 ||
+w: Sol-*diers are we, whose lives are pledged to Ire-land.
+   c4 B4 | A6 Bc | d3e d2A2 | B6 z2 ||
+w: Some have come, from a land be-yond the wave.
+   c3d e2c2 | G6 G2 | A3A F2A2 | G4 G2 ||
+w: Sworn* to be free, no more our an-cient sire land
+   G2 B4 B3B | B2B2 A3G | G6 ||
+w: shall shel-ter the des-pot or the slave.
+   G2 | F3F FDEF | G3A G2c2 | B2A2 B2A2 | G2F2 D2 ||
+w: To-night we man* the* bhear-na bhaoil In Er-in's cause, come woe or weal.
+   G2 | E2CE G3G | ABcd e2cA | Gc2e d3c | c6 |]
+w: 'Mid can-nons'* roar and ri-*fles* peal, we'll* chant a sol-dier's song.
+%%begintext align
+%% *1. This phrase is often used as an intro, followed by the chorus,
+%% then one or more verses, each followed by a chorus,
+%% and maybe a final extra chorus.
+%%endtext

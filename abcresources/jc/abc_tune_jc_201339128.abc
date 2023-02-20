@@ -1,0 +1,22 @@
+X: 3
+T:Solway Schottische. GHW.040
+M:4/4
+L:1/8
+Q:120
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Schottische
+O:England
+A:Norfolk
+N:'Sign' at beginning. DC marked at end of B part. A part marked
+N:'second
+N:time octave higher at end.  End of bar 4 in B part missing in MS
+Z:vmp.Taz Tarry (tradtunes 2002-10-20)
+K:F
+A>B |\
+c>Bd>c A>FE>F | B>AG>D G3 F | E>FG>A B>ce>d | c>=Bc>d "A>B in ms"A3B |
+c>=Bd>c A>FE>F | B>AG>D G3 F | E>FG>A c>Bd>c |[1 F2F2F2 :|2 f2f2f2 :|
+K:C
+|: z2 | G>AG>^F G2 e>c | f2 A2 A3 B | d>cB>A c>BA>G | "sic"B>AG>F |
+G>AG>^F G2 e>c | A>^GA>B A2 f>d | B>^AB>d B>G=A>B |1 c2c2c2 :|2 "d.C."c2c2c2 z2 || 
+|: G2E2 c2G2 | e>dc>A B2A2 | f>ed>G e>dc>B | A>Bc>e d>cB>A |
+G2E2c2G2 | e>dc>G B2A2 | f>ed>c B>GA>B | c2c2c2 :| 

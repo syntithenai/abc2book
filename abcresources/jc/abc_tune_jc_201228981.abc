@@ -1,0 +1,25 @@
+X: 1183
+T: Tulloch Gorum
+%R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.18 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gmix
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 7+6-bar lines.
+V: 1 staves=2
+(c |\
+B)>Gd>G c>F [A2F2] | B>Gd>G B>cd<(g |\
+B)>Gd>G c>FA>(c |[1 B)>Gd>G {AB}c2A :|\
+[2 BGdG (A/B/c) B || A | G>gd>g f>F [A2F2] |
+G>gd>g B>gd>g |\
+G>gd>g f>F [A2F2] | G>gd>g (A/B/c) TB>A ||\
+G>gd>g f>F [A2F2] | G>gd>e f<cf>g |\
+a/g/f/e/ f>d c<FA<a | g>dg>b | e<gd |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | g2g2 f2f2 | g2g2 g2g2 | g2g2 f2f2 |[1 g2d2 G2G :|[2 g2g2 d2g ||
+z | g2g2 f2f2 | f2f2 f2f2 | g2g2 f2f2 | g2g2 d2G2 || g2g2 f2f2 |
+g2g2 g2g2 | d2d2 f2f2 | g2g2 d2G |]

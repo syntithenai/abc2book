@@ -1,0 +1,28 @@
+X: 4361
+T: Rasays Favorite.  very old.
+O: Communicated by Himself.
+%R: strathspey
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.4 p.36 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+Q: "May be played Slow when not Danced."
+M: C|
+L: 1/8
+K: Am
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+[|\
+e2 ee {f}Te3d | c<c c>e d<d d2 | {cd}e2 ee {f}Te3 d | c>AB>^G A<A A2 | e2 ee {f}Te3 d |
+c<c c>e d<c d2 | {cd}e2 ee {f}Te3 d | c>A B>^G A<A A2 |]| ~c2 g>e e<e e2 | ~c2 g>e g>e d2 | ~c2 ge e<e e>^g |
+ac e>d cA ~A>B | ~c2 ge e<e e2 | ~c2 g>e g>e d>e | c<c g>e e<e He>^g | a>c {cd}e>d cA [A2E2C2] |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+[c'2a2e2] [c'2a2e2] [c'2a2e2] [b2^g2e2] | [c'2a2e2]  [c'2a2e2] [b2^g2e2] [b2^g2e2] |
+[c'2a2e2] [c'2a2e2] [c'2a2e2] B2 | c>d e>E A2 A2 | [c'2a2e2] [c'2a2e2] [c'2a2e2] [b2^g2e2] |
+[c'2a2e2][c'2a2e2] [b2^g2e2] [b2^g2e2] |  [c'2a2e2] [c'2a2e2] [c'2a2e2] B2 | c>d e>E A2 A2 |]|\
+"^f"=C2 EG c4 | C2 EG ce "^sf"g2 |\
+[e'2c'2g2] [e'2c'2g2] [e'2c'2g2] [e'2b2] | [e'2a2] [e'2^g2] [e'2a2] [a2A2] |\
+[e'2c'2g2] [e'2c'2g2] [e'2c'2g2] [e'2c'2g2] | [e'2g2] [e'g2]c' [e'g2]c' [d'2b2g2] |\
+[e'2c'2g2] [e'2c'2g2] [e'2c'2g2] H[e'2b2] | [e'2a2] [e'2^g2] [e'2a2] [a2A2] |]

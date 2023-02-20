@@ -1,0 +1,22 @@
+X: 1151
+T: the Campbells are Coming.   a Jig.
+%R: jig
+B: Niel Gow & Sons "Complete Repository" v.1 p.15 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+G !segno!|:\
+B2g dBG | ABA TA2G | B2g dBG | B>cB TB2A || Bdg dBG | A>BA gab | geg dBG |[1 BcB TB2A :|
+[2 B>cB TB2d |[| g2-g g>ab | ded dBG | g2g gab | geg Te2d || def gfe | dBd gab | geg dBG | B>cB TB2d ||
+g2g- Tg>ab | d>ed dBG | g>ag gab | geg Te2d || def gfe | dBd gab | geg dBG | B>cB TB2A !segno!|]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z !segno!|:\
+g3 g3 | a3 a3 | g3 g3 | g3 g3 || g3 g3 | a3 b3 | c'3 d'3 |[1 g3 g3 :|
+[2 g3 g3 |[| g3 g3 | g3 g3 | g3 G3 | c3 c3 | B3 G3 || g3 g3 | c3 d3 | G3 G3 ||
+g3 g3 | g3 g3 | g3 B3 | c3 c3 || B3 G3 | g3 g3 | c3 d3 | G3 G2z !segno!|]

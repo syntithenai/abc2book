@@ -1,0 +1,22 @@
+X: 4
+T: Pease Pudding and Oyster Sauce
+%R: hornpipe
+B: "Twenty Four Country Dances with Figures for the Year 1810", Button & Whitaker, p.2 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1810
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+c>Bc>B c>eg>e | c>Bc>B c>eg>e | d>fa>g f>ed>c | B>cd>B G>AB>G |
+c>Bc>B c>eg>e | c>Bc>B c>eg>e | d>fa>g f>ed>c | B>cd>B c4 :|
+|:\
+g>^fg>e a>g=f>e | f>ef>d g>fe>d | e>cd>e f>ed>c | B>cd>B G>AB>G |
+c>de>c A>Bc>A | d>ef>d B>cd>B | c>ge>c A>Bc>A | B>cd>B c4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Change sides, back again, down the
+%% middle, up again Allemande.
+%%endtext

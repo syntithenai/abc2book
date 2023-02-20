@@ -1,0 +1,25 @@
+X: 20182
+T: JEFFERSON'S MARCH
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" 1843 p.18 #2 (and p.29 #2)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: initial rests added to strains 2 & 3, to fix the rhythms between strains.
+M: C
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D3D |\
+G4 G3G G2 zG AGFG | A4 A3A A4 D3D | d4 c4 B4 A4 | G4 G3G G4 D3D |\
+G3DB,3D G3Bd3B | A4 A3A A4 D3D | G3DB,3D G3Bd3B |
+A4 A3A A4 :: z2 |\
+A6 B2 A4 G4 | f6 g2 f4 e4 | d8 ^c8 | d8 B4 G3B |\
+B8 G2F2E2G2 | F8 g4 (e2g2) | f4 e4 d4 ^c4 | d4 d3d d4 :|
+|: z2 |\
+f6 e2 d4 c4 | B4 B3B c3c d3d | e4 d4 c4 B4 | A4 A3A A4 z4 |\
+e6 d2 c4 B4 | A4 A3A B3B c3c | d6 c2 B4 A4 | G4 G3G G4 :|
+|: B,2D2 |\
+G4 G3G G4 D3F | A4 A3A A4 D3G | B4 B3B B3dc3B | A4 A3A A4 D3D |\
+d4 d3c B3AG3F | E2B2c2d2 e2f2g2e2 | d4 c4 B4 A4 | G4 G3G G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,5 @@
+X:1
+T:TEST: Many chords on one note
+%%staffwidth 300
+K: C
+| "C Cdim Dm7 G9" A4- | "C6" A2 z2 |

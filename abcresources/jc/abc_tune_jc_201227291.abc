@@ -1,0 +1,18 @@
+X: 107104
+T: HIGH ROAD TO LINTON
+Q: "Reel."
+R:  Reel.
+%R: reel
+B: James Kerr "Merry Melodies" v.1 p.7 s.1 #4
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: A
+|: d |\
+(ce)ef a2ae | f2fe a2ae |\
+(ce)ef a2ae | (fa)ec {c}B2A ::\
+d |\
+cee=g fddf | ecce fBBd |\
+cee=g fddf | (ec)ac {c}B2A :|

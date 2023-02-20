@@ -43,47 +43,29 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         }
     } else {
         
-        //var useTunes = tunes
-        //if (currentTuneBook) {
-          //useTunes = {}
-          //var filtered = Object.values(tunes)
-          //filtered.sort(function(a,b) { 
-              //return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
-          //})
-          //filtered.forEach(function(val) {
-            //if (val && val.id && val.books && val.books.indexOf(currentTuneBook) !== -1) {
-              ////console.log(val, val.books)
-              //useTunes[val.id] = val
-            //}
-          //})
-        //} 
-        //function doFallback() {
-          //// fallback to first song
-          //if (Object.keys(useTunes).length > 0)  {
-            //var next = useTunes[Object.keys(useTunes)[0]]
-            //if (next && next.id) {
-              //setCurrentTune(next.id)
-              //navigate('/tunes/' + next.id)
-            //}
-          //}
-        //}
         if (currentSongId) {
-            var useTunes = fromSearch(filter, currentTuneBook, tagFilter)
-          //console.log("NEXT aa ", useTunes)
-          useTunes.sort(function(a,b) { 
+          var useTunes = fromSearch(filter, currentTuneBook, tagFilter)
+          useTunes = useTunes.sort(function(a,b) { 
             return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
           })
+          //groupBy='key'
           if (groupBy) {
-              useTunes.sort(function(a,b) { 
-                  if (a[groupBy] && b[groupBy] && a[groupBy].toLowerCase && b[groupBy].toLowerCase && a[groupBy].toLowerCase().trim() < b[groupBy].toLowerCase().trim()) {
+               //console.log("NEXT aa group sort ", groupBy)
+               useTunes = useTunes.sort(function(a,b) { 
+                  var aa = a && a[groupBy] && a[groupBy].length > 0 ? (Array.isArray(a[groupBy]) ? a[groupBy].join(',') : a[groupBy]) : ''
+                  var bb = b && b[groupBy] && b[groupBy].length > 0 ? (Array.isArray(b[groupBy]) ? b[groupBy].join(',') : b[groupBy]) : ''
+                  if (aa < bb) {
                     return -1
-                  } else if (a[groupBy] && b[groupBy] && a[groupBy].join && b[groupBy].join && a[groupBy].join(",").toLowerCase().trim() < b[groupBy].join(",").toLowerCase().trim()) {
-                      return -1
-                  } else {
-                    return 1
-                  }
+                  } else if (aa > bb) {
+                    return 1  
+                  } else { 
+                    return 0
+                  } 
+                  
               })
+              //console.log("NEXT aa ", JSON.parse(JSON.stringify(useTunes.map(function(t) {return {name: t.name, key: t.key }} ))))
           }
+          
           // find tune index allowing tunebook filter
           var i = 0
           var found = null
@@ -138,14 +120,17 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
             return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
           })
           if (groupBy) {
-              useTunes.sort(function(a,b) { 
-                  if (a[groupBy] && b[groupBy] && a[groupBy].toLowerCase && b[groupBy].toLowerCase && a[groupBy].toLowerCase().trim() < b[groupBy].toLowerCase().trim()) {
+              useTunes = useTunes.sort(function(a,b) { 
+                  var aa = a && a[groupBy] && a[groupBy].length > 0 ? (Array.isArray(a[groupBy]) ? a[groupBy].join(',') : a[groupBy]) : ''
+                  var bb = b && b[groupBy] && b[groupBy].length > 0 ? (Array.isArray(b[groupBy]) ? b[groupBy].join(',') : b[groupBy]) : ''
+                  if (aa < bb) {
                     return -1
-                  } else if (a[groupBy] && b[groupBy] && a[groupBy].join && b[groupBy].join && a[groupBy].join(",").toLowerCase().trim() < b[groupBy].join(",").toLowerCase().trim()) {
-                      return -1
-                  } else {
-                    return 1
-                  }
+                  } else if (aa > bb) {
+                    return 1  
+                  } else { 
+                    return 0
+                  } 
+                  
               })
           }
           // find tune index allowing tunebook filter
@@ -189,13 +174,14 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   
   function saveTune(tune, skipTimestampUpdate = false) {
       
-    //console.log('save tune', tune.id , tune, tunes)
+    //console.log('save tune', tune, tunes)
     if (tune && tunes) {
       pauseSheetUpdates.current = true
       tune = createTune(tune) 
       //var cleanTune = JSON.parse(JSON.stringify(tune))
       //cleanTune.lastHash = null
       //tune.lastHash = utils.hash(JSON.stringify(cleanTune))
+      //console.log('save tune id', tune.id)
       tunes[tune.id] = tune
       indexes.indexTune(tune)
       updateTunesHash(tune)
@@ -868,8 +854,8 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   }
   
   // create an index of list items collated by groupBy
-    function groupTunes(items) {
-        //console.log('gropu tunes',groupBy)
+    function groupTunes(items, groupBy) {
+        console.log('gropu tunes',groupBy)
         var collated = {}
         if (groupBy) {
             items.forEach(function(item,itemKey) {

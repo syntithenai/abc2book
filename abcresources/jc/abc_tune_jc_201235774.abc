@@ -1,0 +1,45 @@
+X: 21371
+T: No. 2 MAZURKA
+R: mazurka
+B: K\"ohler's Violin Repository, v.2, 1885 p.137
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The time signature was 2/4, but this is obviously wrong.
+N: Bar 16 ends with a dotted quarter note; added rest to match the other phrase endings.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: 3/4
+L: 1/8
+K: C
+[|\
+vEz {F}uE>DE>F | Gz v"_>"G4 | uG>v^FA>G=F>E | E/>F/z "^>"u[D4B,4] |\
+Dz {E}uD>^CD>E | Fz "^>"vF4 | uF>vEG>FE>D | D/>E/z "^>"C3z |
+ez {f}ue>de>f | gz v"_>"g4 | ug>v^fa>g=f>e | e/>f/z "^>"vd4 |\
+dz {e}ud>^cd>e | fz v"_>"f4 | uf>veg>fe>d | d/>e/z "^>"uc3z ||
+|: v(B/d/)z u"_>"G4 | (^f/g/)z "_>"G4 |\
+(c>e)g>e=f>d | d/>e/z "^>"c4 |\
+(B/d/)z "_>"G4 | (^f/g/)z "_>"G4 |\
+(c>e)g>ef>d | d/>e/z c3z :|
+K: F
+|:\
+vfz {g}uf>ef>a | a/>c/z "^>"c4 |\
+Bz {c}uB>AB>d | d/>G/z u"_>"G4 |\
+cz (uba)(ag) | (gf) (fe) (ed) |\
+(dc) (cB) (BA) | G/>A/z F3z :|
+vdz {e}ud>^cd>f | e/>a/z "_>"a4 |\
+fz uf>ed>f | ^c/>e/z "_>"A4 |\
+dz {e}ud>^cd>f | e/>a/z "_>"a4 |
+fz uf>ed>a | a/>g/z "^>"g4 |\
+(vgf) (fe) (ed) | (dc) (c=B) (BA) |\
+(AG) (GA) (A=B) | (=Bc) (cd) (d^d) ||
+K: C
+[|\
+vez ue>vde>f | gz "^>"g4 |\
+g>^fa>g=f>e | e/>f/z "^>"d4 |\
+dz {d}ud>cd>e | fz "^>"f4 |
+f>eg>fe>d | d/>e/z "^>"c4 |\
+(^f/g/)z "^>"e4 | (^g/a/)z "^>"=f4 |\
+(f>e)d>ef>g | d/>e/z "^>"c4 |
+(^f/g/)z "^>"e4 | (^g/a/)z "^>"=f4 |\
+(f>e)d>ef>g | c/>e/z "_>"G4 |\
+(c/e/)z "_>"G4 | (c/e/)z "^>"c4 "_D.C."|]

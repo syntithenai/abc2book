@@ -1,0 +1,37 @@
+X: 1801
+T:Baraka
+O:Israel
+C:Gili Liber
+F: http://www.youtube.com/watch?v=uBApR1RglgI
+M: 2/4
+L: 1/8
+K:Cm
+V:1
+%%MIDI program 66
+%%MIDI bassprog 32
+%%MIDI chordprog 24
+Q:1/4=120
+%%%MIDI drum d2ddd2dd 41 51 54 41 53 54
+|z2 C/D/    |:E2D2   |CE/D/CC/D/|EED E/D/|\
+ [1C3 C/D/  :|[2 C3 z|
+ EF2F       |EGFz    |FFFF      |EDC2    |\
+ EF2F       |EGFz    |\
+ F2FC       |F2FC    |: C/D/    |E2D2    |\
+ CE/D/CC/D/ |EED E/D/|C3 ::
+ B,CCC      |B,CCC   |B,C/D/ ED |C4      |\
+ B,CCC      |B,CCC   |B,C/D/ ED |C4      :|
+V:3 name=drum clef=perc stafflines=4
+L:1/16
+%%MIDI channel 10
+%%MIDI drummap e 53 % Ride Bell
+%%MIDI drummap F 54 % Tambourine
+%%MIDI drummap A 41 % Low Floor Tom
+%%MIDI drummap c 51 % Ride Cymbal 1
+ |A2cFA2 |:A2cFA2eF |A2cFA2eF |A2cFA2eF |
+A2cFA2eF :|[2A2cFA2eF |
+A2cFA2eF |A2cFA2eF |A2cFA2eF |A2cFA2eF |
+A2cFA2eF |A2cFA2eF |
+A2cFA2eF |A2cFA2eF |:A2 |A2cFA2eF |
+A2cFA2eF |A2cFA2eF |A2cFA2 ::
+A2cFA2eF |A2cFA2eF |A2cFA2eF |A2cFA2eF |
+A2cFA2eF |A2cFA2eF |A2cFA2eF |A2cFA2eF :|

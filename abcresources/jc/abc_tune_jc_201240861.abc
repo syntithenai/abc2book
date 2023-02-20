@@ -1,0 +1,29 @@
+X: 413
+T: BUCKINGHAM HOUSE
+T: or Athole Brose
+C: ABR. MACKINTOSH
+O: R. MACKINTOSH Coll.
+R: Strathspey
+B: Glen Collection p.41 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Dm
+%
+V: 1
+A !segno!|\
+FD D/D/D A,(DDE) | FD D/D/D (G/A/B) AG | FD D/D/D A,DDF | (E/F/G) (CG) cGEG |
+FD D/D/D A,(DDE) | FD D/D/D (G/A/B) AG | FD D/D/D A,DDF | (E/F/G) (CE) cGEC ||
+D(Tdd>c) dedc | A(dde) fde^c | ddfd ecfd | (c>dc)G ECGE !segno!:|
+%
+V: 2
+z |\
+d2[a2f2] d2[a2f2] | d2[a2f2] ^c2[a2g2] |\
+d2[a2f2] d2[a2f2] | c2[g2e2]  G2[g2e2] |
+d2[a2f2] d2[a2f2] | d2[a2f2] ^c2[a2g2] |\
+d2[a2f2] d2[a2f2] | c2[g2e2]  G2[g2e2] ||
+d2[d'2a2] d2[d'2a2] | d2[a2f2] [a2f2d2] [b2g2d2] |\
+d2[a2f2] A2G2 | c2[g2e2] [g2e2c2][g2e2c2] :|

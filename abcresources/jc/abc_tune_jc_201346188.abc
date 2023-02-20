@@ -1,0 +1,47 @@
+X: 1
+T: Trial by Jury Lancers, Figure 5
+C: Sir Arthur Sullivan
+M: C
+L: 1/8
+K: A
+P: Trial by Jury Lancers, Figure 5A (That She is reeling)
+%%text Play ABAC ABAC A
+%%text Grand right & left
+!f![A6E6C6] z2 "A"\
+|:"A"AG AG "E7"FE FE \
+| "A"AG AG "E7"FE FE \
+|    AB cd "E"B^A B2 \
+|1 "F#m"Ac "B7"BA "E7"GF E2 \
+:|2 "E7"GA Bc "A"A2 A |]
+%%sep 5 5 50
+%%text Couples 1 & 3
+P: Trial by Jury Lancers, Figure 5B (O Joy, unbounded Finale)
+A"B"\
+|: "D"B2 A2 A2 FF \
+| "A7"GA Bc "D"d2 AA \
+|1 "G"c2 B2 "D"A2 FF \
+| "A"EA "E7"^GB "A"A3 "A7"A \
+:|2 "G"c2 B2 "D"AF "E7"DE \
+| "D"F2 "A7"E2 "D"D3 F ||
+| "Bm"F2 B2 "F#7"^AF2 F \
+| "Bm"F2 B2 "F#7"^AF2 F \
+| "Bm"F2 d2 "A"cA2 E \
+| "B7"F2 "E7"^G2 "A"A3 "A7"A |
+| "D"B2 A2 A2 FF \
+| "A7"GA Bc "D"d2 AA \
+| "G"c2 B2 "D"AF "E7"DE \
+| "D"F2 "A7"E2 "D"Dz "(E7)"Dz"->A"[|] |]
+%%sep 5 5 50
+%%text Couples 2 & 4
+P: Trial by Jury Lancers, Figure 5C (Oh, I Was Like That When A Lad)
+[M:6/8][K:Dm]"C"|: DE\
+| "Dm"FGF EFE | D3- D2D \
+| "Dm"DED "A7"^C=B,C | "Dm"ED2- D :| DF \
+| "F"A>GA cBA | "C"G3- G2G |
+| "Eb"G>^FG BAG | "Bb"G=F2- F2F \
+||"Dm"F>EF AGF | "Gm"E2E GFE \
+| "E7"D3 ^C2D | "A"^CE2- E2z ||[K:D]
+[M:C]
+||"A7"EF G2 "D"FG A2 | "A7"EF G/A/B/c/ "D"d/e/f A2 \
+| "A7"EF G2 "D"FG A2 |1 "D°"B/c/d "D"d/c/B "A7"AE/F/ "D"D2 \
+:|2"D°"B/c/d "D"d/c/B "A7"Ac "D"d2 |]

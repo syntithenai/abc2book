@@ -1,0 +1,16 @@
+X: 164
+T: When a Man's in Love He Feels No Cold   #2
+R: air
+%S: s:2 b:10(6+4)
+B: O'Neill's 1850 #164
+O: J.O'Neill
+Z: 1997 henrik.norbeck@mailbox.swipnet.se
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+Q: "Slow"
+M: C
+L: 1/8
+K: G
+"^A"[| (3DEF | G2(BG) G2(FG) | Bcde =f2 [1 gd | e2d>c B2G2 | F6 :|[2 gf | e2d>c B2G2 | G6 |]
+"^B"[| de | =f>d (3cBA B>c (3def | g3 d =f2gf | e2d>c B2G2 | F6"^->A2"y |]

@@ -1,0 +1,28 @@
+X: 1
+T: Lord Mayor's Delight
+P: Longways for as many as will
+%R:
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.221 "U 3"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The actual time signature is "3i".  Both strains should probably be repeated.
+M: 3/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+a2 g2 f2 | c2 f2 e2 | d2 b2 a2 | gf ga g2 |\
+a2 g2 f2 | cd e2 c2 | fe dg e2 | f6 |]
+[|\
+c2 B2 A2 | c2 B2 A2 | c2 g2 a2 | b4 g2 |\
+ag fa gf | gf ed ec | d2 g2 e2 | f6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%    The 1. man cast off below the 2. man, then back to back with the 2. wo. and stand in the 2. man's
+%% place .| The 1. wo. cast off below the 2. wo. and go back to back with the 2. man, being in the 1. man's
+%% place, and stand in the 2. wo. place :|
+%%    All four hands half round, then fall back and turn S .| Cross over with your own Partners, then the
+%% 1. cu. set to their own Partners and cast off :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

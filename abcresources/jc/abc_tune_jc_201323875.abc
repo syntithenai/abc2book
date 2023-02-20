@@ -1,0 +1,73 @@
+
+X: 1
+T: Pine Needles  (C)
+C: Pat Shaw
+B: Pat Shaw's "Pinewoods, Between Two Ponds and Among the Pines" 1985
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+|: "C"G2G2 c2c2 | "G7"d2ed "C"c2c2 \
+|1,3 "Em"g2g2 "Am"e2c2 | "Dm"f3e "G7"dcBA \
+:|2,4 "Am"g2g2 "Dm"e2c2 | "G7"dcB2 "C"c4 :|
+|: "C"g3a g2e2 | "F"dcde dcA2 \
+|1,3 "C"g3a g2e2 | "Dm"dcde "G7"g4 \
+:|2,4 "C"G2G2 c2e2 | "G7"dcd2 "C"c4 :|
+
+
+%%sep 1 1 500
+
+X: 2
+T: Pine Needles  [D]
+C: Pat Shaw
+B: Pat Shaw's "Pinewoods, Between Two Ponds and Among the Pines" 1985
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: "D"A2A2 d2d2 | "A7"e2fe "D"d2d2 \
+|1,3 "F#m"a2a2 "Bm"f2d2 | "Em"g3f "A7"edcB \
+:|2,4 "Bm"a2a2 "Em"f2d2 | "A7"edc2 "D"d4 :|
+|: "D"a3b a2f2 | "G"edef edB2 \
+|1,3 "D"a3b a2f2 | "Em"edef "A7"a4 \
+:|2,4 "D"A2A2 d2f2 | "A7"ede2 "D"d4 :|
+
+
+%%sep 1 1 500
+
+X: 3
+T: Pine Needles  (G)
+C: Pat Shaw
+B: Pat Shaw's "Pinewoods, Between Two Ponds and Among the Pines" 1985
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: "G"D2D2 G2G2 | "D7"A2BA "G"G2G2 \
+|1,3 "Bm"d2d2 "Em"B2G2 | "Am"c3B "D7"AGFE \
+:|2,4 "Em"d2d2 "Am"B2G2 | "D7"AGF2 "G"G4 :|
+|: "G"d3e d2B2 | "C"AGAB AGE2 \
+|1,3 "G"d3e d2B2 | "Am"AGAB "D7"d4 \
+:|2,4 "G"D2D2 G2B2 | "D7"AGA2 "G"G4 :|
+
+
+%%sep 1 1 500
+
+X: 4
+T: Pine Needles  (A)
+C: Pat Shaw
+B: Pat Shaw's "Pinewoods, Between Two Ponds and Among the Pines" 1985
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: "A"E2E2 A2A2 | "E7"B2cB "A"A2A2 \
+|1,3 "C#m"e2e2 "F#m"c2A2 | "Bm"d3c "E7"BAGF \
+:|2,4 "F#m"e2e2 "Bm"c2A2 | "E7"BAG2 "A"A4 :|
+|: "A"e3f e2c2 | "D"BABc BAF2 \
+|1,3 "A"e3f e2c2 | "Bm"BABc "E7"e4 \
+:|2,4 "A"E2E2 A2c2 | "E7"BAB2 "A"A4 :|

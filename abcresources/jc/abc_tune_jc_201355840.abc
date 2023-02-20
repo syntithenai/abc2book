@@ -1,0 +1,1684 @@
+HTTP/1.1 200 OK
+Date: Sat, 06 Jan 2018 18:55:32 GMT
+Server: Apache
+Last-Modified: Thu, 16 Sep 2010 01:43:12 GMT
+Accept-Ranges: bytes
+Content-Length: 54806
+
+% This tune file contains the ABCs from http://dickatlee.com/music/finnish
+% that provide the printed "sheet" music -- i.e., without any alterations
+% that might have been necessary to create midi files that play properly
+% in the ABCMus program.
+% Tunes are in essentially alphabetical order within their sections.
+%
+% ------------------------------------------------------------------------
+% This first of two sections contains the tunes originally included in
+% the site as of 6 September 2010.
+% Updates to this section: 15 September 2010
+
+X:1
+T:A. A. Hyvarinen Polkka
+M:2/4
+L:1/16
+Q:1/4=120
+R:polka
+K:Am
+|: c | "Am" e3d e3d | cdcB A2c2 | "E" BcBA ^G2E2 | "Am" A^GAB cBcd | !
+"Am" e3d e3d | cdcB A2c2 | "E" BcBA ^GEFG | "Am" A2A2 A2 z :| !
+|: E | E2A2 A2B2 | cdcB A2c2 | "E" BcBA ^G2E2 | "Am" A^GAB cBA2 | !
+E2A2 A2B2 | cdcB A2c2 | "E" BcBA ^GEFG | "Am" A2A2 A2 z :||
+
+X:2
+T:A-minor Polkka
+M:2/4
+L:1/16
+Q:1/4=120
+R:polka
+K:Am
+|: c | "Am" e2ef edcB | A2Ac A2 Ac | "E" B2E2 E^GB2 | "Am" cBA^G ABcd | !
+e2ef edcB | A2Ac A2 Ac | "E" B2E2 E^GB2 | "Am" cBA2 A3 :| !
+|: B | "Am" .c2 .E2 "E7" .B2 .E2 | "Am" ABcB "E7" .E2 B2 |
+"Am" .c2 .E2 "E7" .B2 .E2 | "Am" ABcB "E7" .E2 B2 | !
+"Am" .c2 .E2 "E7" .B2 .E2 | "Am" A2ce a2a2 |
+"E7" ^gbg^f e2fg | "Am" a2a2 a2 z :||
+
+X:3
+T:A-minor Polkka Medley
+M:2/4
+L:1/16
+Q:1/4=120
+S:A-minor Polkka, A.A.Hyvarinen's Polkka
+R:polka
+P:AP,AAH
+N:A-minor Polkka  2. A.A. Hyvarinen's Polkka
+K:Am
+P:AP
+|: c | "Am" e2ef edcB | A2Ac A2 Ac | "E" B2E2 E^GB2 | "Am" cBA^G ABcd | !
+e2ef edcB | A2Ac A2 Ac | "E" B2E2 E^GB2 | "Am" cBA2 A3 :| !
+|: B | "Am" .c2 .E2 "E7" .B2 .E2 | "Am" ABcB "E7" .E2 B2 |
+"Am" .c2 .E2 "E7" .B2 .E2 | "Am" ABcB "E7" .E2 B2 | !
+"Am" .c2 .E2 "E7" .B2 .E2 | "Am" A2ce a2a2 |
+"E7" ^gbg^f e2fg | "Am" a2a2 a2 z :| !
+P:AAH
+|: c | "Am" e3d e3d | cdcB A2c2 | "E" BcBA ^G2E2 | "Am" A^GAB cBcd | !
+"Am" e3d e3d | cdcB A2c2 | "E" BcBA ^GEFG | "Am" A2A2 A2 z :| !
+|: E | "Am" E2A2 A2B2 | cdcB A2c2 | "E" BcBA ^G2E2 | "Am" A^GAB cBA2 | !
+E2A2 A2B2 | cdcB A2c2 | "E" BcBA ^GEFG | "Am" A2A2 A2 z :||
+
+X:4
+T:Aarne Tarviaisen Masurkka
+M:3/4
+L:1/8
+Q:1/4=150
+R:masurkka
+K:Dm
+|: "Dm" A>B AG FE | D2 .d2 .d2 | "A7" A2 .^c2 .c2 | "Dm" A2 .d2 .d2 | !
+"F" A>B AG FE | "Bb" D2 .d2 .d2 | "A7" A2 .^c2 cA |
+[1 "Dm" .d2 .d2 z2 :|[2 "Dm" .d2 .d2 z e || !
+|: "Dm" fe d2 d^c | "A7" .e2 A4 | a2 g2 ge | "Dm" af d2 de | !
+fe d2 dc | "Gm" BA G2 F2 | "A7" E2 A2 A^c |
+[1 "Dm" .d2 .d3 e :|[2 "Dm" .d2 .d2 z2 ||
+
+X:5
+T:Amalia Armas  (Dear Amalia)
+M:2/4
+L:1/16
+Q:1/4=80
+S:arr. Eira Mattsson (Washington DC Finlandia Foundation) ~1976
+R:jenkka
+B:+
+K:Em
+|: "Em" EEEF G2B2 | "B7" BBAG F2B,2 |BBBc BAGF | "Em" G2E2 E4 :| !
+"Am" AAAB c2e2 | "D7" eedc "G" B2G2 | "D7" A2AF DFAc | "B7" B4 B4 | !
+"Em" EEEF G2B2 | "B7" BBAG F2B,2 | BBBc BAG^D | "Em" F2E2 E4 ||
+
+X:6
+T:Emma
+M:3/4
+L:1/4
+Q:1/4=160
+S:arr. Eira Mattsson (Washington DC Finlandia Foundation) ~1976
+R:waltz
+K:Em
+|: B, | "Em" B B B | G E G | B B B | G E G |
+"B7" F F>F | A G F |[1 "Em" E2 G | B2 :|[2 "Em" E2 E | E2 || !
+|: B | "Am" e e>e | e d c | "Em" B B>B | B A G |
+"B7" F F>F | A G F |[1 "Em" E2 G | B2 :|[2 "Em" E2 E | E2 ||
+
+X:7
+T:Emma Waltz Medley
+M:3/4
+L:1/4
+Q:1/4=160
+C:arr. Eira Mattson (Washington DC Finlandia Foundation) ~1976
+S:Emma, Muurari, Savonmaan Hilima
+R:waltz
+N:1. Emma
+N:2. Muurari
+N:3. Savonmaan Hilima
+K:Em
+P:E
+|: B, | "Em" B B B | G E G | B B B | G E G |
+"B7" F F>F | A G F |[1 "Em" E2 G | B2 :|[2 "Em" E2 E | E2 || !
+|: B | "Am" e e>e | e d c | "Em" B B>B | B A G |
+"B7" F F>F | A G F |[1 "Em" E2 G | B2 :|[2 "Em" E2 E | E2 ||
+P:M
+B, | "Em" G F E | G F E | "B7" ^D2 F | B,3 |
+B, ^D F | A G F | "Em" B2 G | E3 | !
+E G B | "Am" e/2e/2 d c/2c/2 | "B7" B B>A | B2 A |
+G F E | B,2 ^D | "Em" (E3 | E) z B, | !
+E E E/2E/2 | E G B | e3 | e2 c/2B/2 |
+"Am" A A c | e d c | "Em" (B3 | B) z | !
+|: c/2B/2 | "Am" A A A/2A/2 | A G F | "Em" E2 G | B2 G/2G/2 |
+"Am" F A c | "B7" B G F | "Em" (E3 |[1 E2) :|[2 E2) B,/2B,/2 ||
+P:SH
+"Em" E E>G | B G>A | "B7" G (F2 | F2) B,/2B,/2 |
+F F>G | A G F | "Em" (B3 | B2) G/2A/2 | !
+B B>c | d c B | "Am" d (c2 | c2) d/2d/2 |
+"D7" d A B | c/2c/2 B A | "B7" (B3 | B) z B | !
+"Em" e e>f | g f e | "Am" d c B | A2 A |
+"D7" d d>e | d c A | "B7" B A G | F2 B | !
+|: "Em" e e e/2f/2 | g/2f/2 e d/2d/2 |
+"Am" c c/2B/2 c/2d/2 | e/2d/2 c B |
+"D7" A A/2^G/2 A/2B/2 | !
+d/2c/2 B A/2A/2 |
+[1 "B7" G G/2F/2 G/2A/2 | B z B :||[2 "B7" G G F | "Em" E3 ||
+
+X:8
+T:Finn Pals Hoijakka Medley
+M:3/4
+L:1/8
+Q:1/4=120
+S:Finn Pals Polska, Jepuan Polska, Finn Pals Polska
+R:polska
+P:FP,JP,FP
+K:Gm
+P:FP
+|: "Gm" d>d "D7" cc "Gm" BB | "D7" A/2B/2A/2^F/2 "Gm" G2 D2 |
+"Gm" G>A Bc dg | "D" dc "Gm" d2 "D" D2 | !
+"Dm" d>d ff dd | "Cm" c>c ee "D7" dd |
+"Gm" B>B dd BG | "D7" ^F/2G/2A/2F/2 "Gm" G2 D2 :| !
+|: "Gm" G>A Bc/2B/2 AG | "D" ^F/2G/2A/2F/2 "Gm" G2 D2 |
+"Gm" G>A Bc dg | "D" dc "Gm" d2 "D" D2 | !
+"Dm" d>d ff dd | "Cm" c>c ee "D7" dd |
+"Gm" B>B dd BG | "D7" ^F/2G/2A/2F/2 "Gm" G2 D2 :| !
+K:Dm
+P:JP
+|: "Dm" a/2g/2f/2e/2 dd "A" ^cc | "Dm" dd "A" ee "Dm" ff |
+a/2g/2f/2e/2 dd "A" ^cc | A=B/2^c/2 e2 "Dm" d2 :| !
+|: "Dm" ff/2g/2 af af | "Gm" gg/2a/2 b2 g2 |
+"C" ee/2f/2 ge ge | "F" ff/2g/2 a2 f2 | !
+"Dm" a/2g/2f/2e/2 dd "A" ^cc | "Dm" dd "A" ee "Dm" ff |
+a/2g/2f/2e/2 dd "A" ^cc | A=B/2^c/2 e2 "Dm" d2 :|
+K:Gm
+P:FP
+|: "Gm" d>d "D7" cc "Gm" BB | "D7" A/2B/2A/2^F/2 "Gm" G2 D2 |
+"Gm" G>A Bc dg | "D" dc "Gm" d2 "D" D2 | !
+"Dm" d>d ff dd | "Cm" c>c ee "D7" dd |
+"Gm" B>B dd BG | "D7" ^F/2G/2A/2F/2 "Gm" G2 D2 :| !
+|: "Gm" G>A Bc/2B/2 AG | "D" ^F/2G/2A/2F/2 "Gm" G2 D2 |
+"Gm" G>A Bc dg | "D" dc "Gm" d2 "D" D2 | !
+"Dm" d>d ff dd | "Cm" c>c ee "D7" dd |
+"Gm" B>B dd BG | "D7" ^F/2G/2A/2F/2 "Gm" G2 D2 :| !
+
+X:9
+T:Finn Pals Polska
+M:3/4
+L:1/8
+Q:1/4=120
+R:polska
+K:Gm
+|: "Gm" d>d "D7" cc "Gm" BB | "D7" A/2B/2A/2^F/2 "Gm" G2 D2 |
+"Gm" G>A Bc dg | "D" dc "Gm" d2 "D" D2 | !
+"Dm" d>d ff dd | "Cm" c>c ee "D7" dd |
+"Gm" B>B dd BG | "D7" ^F/2G/2A/2F/2 "Gm" G2 [G,2B,2] :| !
+|: "Gm" G>A Bc/2B/2 AG | "D" ^F/2G/2A/2F/2 "Gm" G2 D2 |
+"Gm" G>A Bc dg | "D" dc "Gm" d2 "D" D2 | !
+"Dm" d>d ff dd | "Cm" c>c ee "D7" dd |
+"Gm" B>B dd BG | "D7" ^F/2G/2A/2F/2 "Gm" G2 [G,2B,2] :| !
+
+X:10
+T:Friiti Ojalan Haavalssi  (Friiti Ojala's wedding waltz)
+M:3/4
+L:1/8
+R:waltz
+K:Em
+|: "Em" B,4 E2 | G4 B2 | e3 ^def | e3 ^def | "Am" e4 d2 | c3 B A2 |
+"Em" (B6 | "B7" B2) z2 B,2 | "Em" B,2 E2 F2 | ~G2 F2 E2 | ~B2 A2 G2 | !
+"B7" f4 e2 | "Em" b6 | "Am" a2 g z2 e | "B7" (f6 | f2) z2 B,2 |
+"Em" B,4 E2 | G4 B2 | e3 ^def | e3 ^def | "Am" e4 d2 | c3 B A2 | !
+"Em" (B6 | "B7" B6) | "Am" A6 | G4 F2 | "B7" f3 e^df | b6 |
+"Am" a2 g2 e2 | "B7" B2 ^c2 ^d2 | "Em" (e6 |[1 e2) "fine" z2 B,2 :|
+[2 e2) z2 G2 | !
+|: "G" G4 B2 | B4 d2 | d4 g2 | "D7" f4 d2 | f6 | "C" ~e2 d z2 c |
+"D7" (A6 | A3) GFE | D3 E F2 | F4 A2 | A4 G2 | F4 E2 | !
+~D2 ^C2 D2 | "C" ^D2 E z2 C | "G" (B,6 | B,2) z2 D2 | "G" G4 B2 |
+B4 d2 | d4 g2 | "D7" f4 d2 | f6 | "C" ~e2 d z2 c | "D7" (A6 | A3) GFE | !
+D3 E F2 | F4 E2 | "G" ~D2 ^C2 D2 | B4 G2 | "D7" D2 ^C2 F2 |
+E2 D z2 B | "G" (G6 |[1 G2) z2 D2 :|[2 G2) z AFA | !
+K:D
+|: "D" d2 d z2 f | "A7" ecA z2 f | "D" (d6 | d2) z AFA | d2 d z2 f |
+~e2 d3 c | "G" (B6 | B2) z2 B2 | B6 | B2 c3 d | !
+"A7" c4 B2 | ~A2 ^G2 A2 |
+[1 c4 B2 | A2 E2 ^E2 | "D" (F6 | F2) z AFA :|
+[2 ~A2 ^G2 A2 | B2 A z2 f | "D" (d6 | d4) c2 | !
+|: "Bm" B6 | "F#7" c4 d2 | "Em" (e4 e)f | g6 | "F#7" f6 | ~e2 d z2 c |
+"Bm" (B6 | B2) z2 F2 | B6 | "F#7" c4 d2 | "Em" e2 g2 b2 | d'4 c'2 | !
+c'2 b2 a2 | g2 z2 e2 | "F#7" (f6 | f)g fedc | "Bm" B6 | "F#7" c4 d2 |
+"Em" (e4 e)f | g6 | "F#7" f6 | ~e2 d z2 c | "Bm" (B6 | B2) z2 b2 | !
+b3 c' d'2 | "Em" c'4 ^e2 | "Bm" f4 b2 | "Em" a4 g2 | "F#7" ~f2 e z2 d |
+c>e d2 c2 | "Bm" (B6 | [1 B2) z2 F2 :|[2 B2) "DC al fine" z2 B,2 ||
+
+X:11
+T:Friiti Ojalan Haavalssi  (Friiti Ojala's wedding waltz)  (no_repeats)
+M:3/4
+L:1/8
+R:waltz
+K:Em
+"Em" B,4 E2 | G4 B2 | e3 ^def | e3 ^def | "Am" e4 d2 | c3 B A2 |
+"Em" (B6 | "B7" B2) z2 B,2 | "Em" B,2 E2 F2 | G2 F2 E2 | B2 A2 G2 | !
+"B7" f4 e2 | "Em" b6 | "Am" a2 g z2 e | "B7" (f6 | f2) z2 B,2 |
+"Em" B,4 E2 | G4 B2 | e3 ^def | e3 ^def | "Am" e4 d2 | c3 B A2 | !
+"Em" (B6 | "B7" B6) | "Am" A6 | G4 F2 | "B7" f3 e^df | b6 |
+"Am" a2 g2 e2 | "B7" B2 ^c2 ^d2 | "Em" (e6 |e2) z2 G2 | !
+"G" G4 B2 | B4 d2 | d4 g2 | "D7" f4 d2 | f6 | "C" e2 d z2 c |
+"D7" (A6 | A3) GFE | D3 E F2 | F4 A2 | A4 G2 | F4 E2 | !
+D2 ^C2 D2 | "C" ^D2 E z2 C | "G" (B,6 | B,2) z2 D2 | "G" G4 B2 |
+B4 d2 | d4 g2 | "D7" f4 d2 | f6 | "C" e2 d z2 c | "D7" (A6 | A3) GFE | !
+D3 E F2 | F4 E2 | "G" D2 ^C2 D2 | B4 G2 | "D7" D2 ^C2 F2 |
+E2 D z2 B | "G" (G6 | G2) z AFA | !
+K:D
+|: "D" d2 d z2 f | "A7" ecA z2 f | "D" (d6 | d2) z AFA | d2 d z2 f |
+e2 d3 c | "G" (B6 | B2) z2 B2 | B6 | B2 c3 d | !
+"A7" c4 B2 | A2 ^G2 A2 |
+[1 c4 B2 | A2 E2 ^E2 | "D" (F6 | F2) z AFA :|
+[2 A2 ^G2 A2 | B2 A z2 f | "D" (d6 | d4) c2 || !
+"Bm" B6 | "F#7" c4 d2 | "Em" (e4 e)f | g6 | "F#7" f6 | e2 d z2 c |
+"Bm" (B6 | B2) z2 F2 | B6 | "F#7" c4 d2 | "Em" e2 g2 b2 | d'4 c'2 | !
+c'2 b2 a2 | g2 z2 e2 | "F#7" (f6 | f)g fedc | "Bm" B6 | "F#7" c4 d2 |
+"Em" (e4 e)f | g6 | "F#7" f6 | e2 d z2 c | "Bm" (B6 | B2) z2 b2 | !
+b3 c' d'2 | "Em" c'4 ^e2 | "Bm" f4 b2 | "Em" a4 g2 | "F#7" f2 e z2 d |
+c>e d2 c2 | "Bm" (B6 | B2) z2 B,2 |
+K:Em
+"Em" B,4 E2 | G4 B2 | e3 ^def | e3 ^def | "Am" e4 d2 | c3 B A2 |
+"Em" (B6 | "B7" B2) z2 B,2 | "Em" B,2 E2 F2 | G2 F2 E2 | B2 A2 G2 | !
+"B7" f4 e2 | "Em" b6 | "Am" a2 g z2 e | "B7" (f6 | f2) z2 B,2 |
+"Em" B,4 E2 | G4 B2 | e3 ^def | e3 ^def | "Am" e4 d2 | c3 B A2 | !
+"Em" (B6 | "B7" B6) | "Am" A6 | G4 F2 | "B7" f3 e^df | b6 |
+"Am" a2 g2 e2 | "B7" B2 ^c2 ^d2 | "Em" (e6 | e4) z2 ||
+
+X:12
+T:Haapolska
+M:3/4
+L:1/16
+Q:1/4=100
+S:Kausisten Pelimanniyhdistys
+R:polska
+K:D
+|: "D" d3f a2a2 "A" efge | "D" d2 d2 fefg a2~f2 | d3f a2a2 "A" efge | !
+"D" d2d2 fefg a2g2 |
+"G" ~f2ef "A" g2fg "Em" b2ag | "A" fedc e2c2 "D" d3A :| !
+|: "D" d3f a2a2 gfef | "Em" gagf "A7" edef ~g2fe | !
+"E7" d2cB "A" ~c2Ac e2a2 | "E7" edcB "A" A2E2 A4 :||
+
+X:13
+T:Heijallerii
+M:3/4
+L:1/4
+Q:1/4=160
+R:waltz
+K:G
+B | "G" A G E | D E>B, | D E>D | "D7" F3 |
+D D>F | A3 | "G" B B>A | G2 B | !
+"G" A G E | D E>B, | D E>D | "D7" F3 |
+D D>F | A2 B | "G" (G3 | G) z G | !
+"C" E E E | c c c | "G" B B B | G2 B |
+"D7" A A A | E F A | "G" G G E | D2 ^D | !
+"C" E E<E | c3 | "G" d d>c | B3 |
+"D7" D D>F | A2 B | "G" (G3 | G) z/2 ||
+
+X:14
+T:Heili Karjalasta
+M:4/4
+L:1/4
+Q:1/4=240
+S:Girlfriend from Karelia
+R:humppa
+K:Dm
+"Dm" A A B A | F3 z | "A7" G G A G | E3 z |
+"Dm" F F G A | G F/2F/2 E D | "A7" E3 ^C | A,3 z | !
+"Dm" A A B A | F3 z | "A7" G G A G | E3 z |
+"Dm" F F E D | "Gm" G G F E | "A7" A>^G A B | A A =B ^c | !
+"Dm" d z/2 A/2 ^G A | "Gm" c B A G | "Dm" F z (D2 | D) z  D E |
+F z F2 | "Gm" G>F E D | "A7" (E4 | E) z A2 | !
+"Dm" d z/2 A/2 ^G A | "Gm" c B A G | "Dm" F z (D2 | D) z  D E |
+F2 E D | "A7" E D>^C D | "Dm" (D4 | D) z/2 D/2 ^C D | !
+"A7" E>E F G | A>A =B ^c | "Dm" d>^c d =c | "Gm" B A G2 |
+"C7" c>=B c _B | A G F G | "A7" (A4 | A) z A2 | !
+"Dm" d z/2 A/2 ^G A | "Gm" c B A G | "Dm" F z (D2 | D) z  D E |
+F2 E D | "A7" E D>^C D | "Dm" (D4 | D) z z2 ||
+
+X:15
+T:Heilini Soitteli (My sweetheart played)
+M:2/4
+L:1/16
+Q:1/4=80
+S:arr. Eira Mattson (Washington DC Finlandia Society) ~1976
+R:jenkka
+K:Cm
+|: "Cm" e2cc ccGG | e2cc c2GG | "Fm" A2FF F2A2 | "Cm" G4 "G7" G4 :| !
+|: "Fm" A2FF F2AA | "Cm" G2G2 c2"G7"d2 |[1 "Cdim" edce "G7" d2=B2 |
+"Cm" c4c4 :|[2 "D7" edc=B "G7" d2B2 | "Cm" c4 c4 ||
+
+X:16
+T:Heilini Soitteli Medley
+M:2/4
+L:1/16
+Q:1/4=80
+C:arr. Eira Mattsson (Washington DC Finlandia Foundation) ~1976
+S:Heilii Soitteli, Kiunkas Se Joki, Hyvaa Ilta, Mansikka, Minun Kultani
+R:jenkka
+P:HS,KSJ,HI,M,MK
+N:1. Heilini Soitteli
+2. Kiunkas Se Joki
+3. Hyvaa Iltaa & Mansikka (Em)
+4. Mansikka (Am)
+5. Minun Kultani
+K:Cm
+P:HS
+|: "Cm" e2cc ccGG | e2cc c2GG | "Fm" A2FF F2A2 | "Cm" G4 "G7" G4 :| !
+|: "Fm" A2FF F2AA | "Cm" G2G2 c2"G7"d2 |[1 "Cdim" edce "G7" d2=B2 |
+"Cm" c4c4 :|[2 "D7" edc=B "G7" d2B2 | "Cm" c4 "" ^c4 || !
+K:Dm
+P:KSJ
+|: "Dm" A2BB AAGG | F2E2 F2DF | A2FA "Gm" c2d2 | "A7" A4 A4 :| !
+|: "Dm" A2Bd "Gm" c2B2 | "Dm" AAAB "A7" A2GG |
+"Dm" FFAA "A7" F2E2 |[1 "Dm" D4 D4 :|[2 "Dm" D4 "" ^D4 || !
+K:Em
+P:HI
+|: "Em" BBBB e2B2 | BBBc B2E2 | "Am" AAAA A2GA | "B7" B2GF "Em" E4 :| !
+|: "Em" B2e2 B2A2 | GAGF E2B,2 | E2FF "B7" G2F2 |
+[1 "Em" EFGA "B7" B2B,2 :|[2 "Em" E4 "" ^E4 || !
+K:Am
+P:M
+|: "Am" e2a2 e2d2 | cdcB A2E2 | A2B2 c2B2 | "E7" ABcd e2E2 | !
+"Am" e2a2 e2d2 | cdcB A2EE | A2BB "E7" c2B2 |
+[1 "Am" A4 A4 :|[2 "Am" A4 "" ^A4 || !
+K:Bm
+P:MK
+|: "Bm" d2d2 "F#7" c2cc | "Bm" B2B2 "Em" c4 |
+"F#7" F2F2 ^G2^A2 | "Bm" B4 "F#7" c4 :| !
+|: "D" f4 "A7" e2ec | "Bm" d2d2 "Em" c4 |
+"F#7" F2F2 ^G2^A2 |[1 "Bm" B4 "F#7" c4 :|[2 "Bm" B4 B4 ||
+
+X:17
+T:Hoijakka in D
+M:3/4
+L:1/16
+Q:1/4=120
+R:polska
+K:D
+|: "D" A^GAd f=gfe d2d2 | "A7" c3e gagf e2e2 |
+"D" A3d fgfe d2d2 | "E7" ~c2B2 "A" A4 A4 :| !
+|: "Em" gfga b2ba g2g2 | "D" fefg abag f2f2 | !
+"A7" e^def gfe=d c2Ac |[1 efec "D" d4 e2f2 :|[2 efec "D" d4 d4 ||
+
+X:18
+T:Humu-Pekka (Hobo Peter)
+M:2/4
+L:1/16
+Q:1/4=80
+S:arr. Eira Mattsson (Washington DC Finlandia Foundation) ~1976
+R:jenkka
+K:Am
+"Am" A,A,CE AAAE | "Dm" FFFD "Am" E2E2 |
+"Dm" D2DB, "Am" CCCA, | "E7" B,2EF EDCB, | !
+"Am" A,A,CE AAAE | "Dm" FFFD "Am" E2E2 |
+c2cA "E7" BBB^G | "Am" A2A2 A2 z2 | !
+|: "Dm" FFdc B2B2 | "Am" EEcB A2A2 |
+"Dm" F2FD "Am" E2EE | "E7" E2cB "Am" A2 z2 :||
+
+X:19
+T:Hyvaa Iltaa! (Good Evening) & Mansikka (Strawberries)
+M:2/4
+L:1/16
+Q:1/4=80
+S:arr. Eira Mattsson (Washington DC Finlandia Foundation) ~1976
+R:jenkka
+K:Em
+|: "Em" BBBB e2B2 | BBBc B2E2 | "Am" AAAA A2GA | "B7" B2GF "Em" E4 :| !
+|: "Em" B2e2 B2A2 | GAGF E2B,2 | E2FF "B7" G2F2 |
+[1 "Em" EFGA "B7" B2B,2 :|[2 "Em" E4 E4 ||
+
+X:20
+T:Ikaalisten Rantatie (Ikaalinen's Lakeshore Path)
+M:3/4
+L:1/4
+Q:1/4=150
+R:waltz
+K:Am
+z |: "Am" E3 | c>BA/2^G/2 | "E7" B2 c | "Am" A2 "A7" G |
+"Dm" F3 | D>EF/2A/2 | "Am" (E3 | E2) E | !
+"Dm" D>ED/2^C/2 | D2 ^C | "Am" =C>EA/2B/2 | c2 c |
+"B7" B ^F ^G | (3A/2B/2A/2 ^G A | "E7" ([B3^G3] | [B2^G2]) z | !
+"Am" E3 | c>BA/2^G/2 | "E7" B2 c | "Am" A2 "A7" G |
+"Dm" F3 | D>EF/2G/2 | "Am" (E3 | E2) E | !
+"Dm" D>EF/2A/2 | "E7" [dE] [c^F] [B^G] | "Am" A>Bc/2B/2 | A c e |
+"Dm" d c B | "E7" ^G2 B | "Am" (A3 | A) A | !
+|: ^G | "G7" G3 | f>dB/2G/2 | "C" c2 [dB] | [e3c3] |
+"Dm" d3 | "E7" B c d | "Am" c2 B | A2 "A7" G | !
+"Dm" F3 | D E F | "Am" E A B | c B A |
+"Dm" d3 |[1 c2 d | "E7" (B3 | B) A :|[2 "E7" B2 c | "Am" (A3 | A) z ||
+
+X:21
+T:Irja
+M:4/4
+L:1/4
+Q:1/4=240
+R:humppa
+K:Gm
+"Cm" [cGE] z c/2d/2e/2f/2 | g ^f g2 |
+"Gm" [GDB,] z G/2A/2B/2c/2 | d ^c d2 |
+"Cm" [cE] [D=B] ([c2E2] | [cE] [BE] [AE] [GE] |
+"D7" [^F2d2] C2 | B,2 A,"gliss" D  | !
+|: "Gm" d ^c d B | G2 B2 | "D7" A ^G A ^F | D4 |
+A ^G A ^F | (D2 d2) | B A B A | !
+G F E D | "Cm" c =B c d | e z "Cdim" [c2A2E2] | "Gm" B A B c |
+d z [B2G2D2] | "Cm" [c/2G/2E/2] [cGE] [c/2G/2E/2] [c2E2G2]) | !
+"A7" [=E/2G/2^c/2] [cGE] [c/2G/2E/2] [c2G2E2]) |
+[1 "D7" [d2^F2c2D2] C2 | B,2 A, D :|
+[2 "D7" [d2^F2c2D2] C2 | B,2 "Laulu" [D2A,2] || !
+"Gm" d2 B2 | {D/2=E/2^F/2} G d B G | d3 ^c | "D7" =c4 |
+D2 ^F2 | D D =E ^F | "Gm" G3 A | B4 | !
+"Cm" e2 c2 | e c A2 | "Gm" d2 B2 | d B G2 | "A7" A2 A2 |
+G2 =E2 | "D7" [AD] z [A2E2] | [AD] C [DB,] [DA,] | "Gm" d2 B2 | !
+{D/2=E/2^F/2} G d B G | d3 ^c | "D7" =c4 |
+D2 ^F2 | D D =E ^F | "Gm" G3 A | B4 | "Cm" {c/2d/2} e2 c2 | !
+A e c A | "Gm" {B/2c/2} d2 B2 | G d B G |
+"D7" D2 "A7" =E2 | "D7" ^F D =E F | "Gm" G E D B, |
+[1 [GB,] z "D7" D2 :|[2 [GB,] z [gdBG] z ||
+
+X:22
+T:Jarvilan Sotiisi  (Jarvila family's schottische)
+M:2/4
+L:1/16
+Q:1/8=150
+R:schottische
+K:F
+|: AB | "F" c2c2 {d}cBdA | c2c2 ~c2AB | cdcB ABcf | "C" e2d2 dBGA | !
+BcBA GABf | e4 e2GA | BcBA Gceg | "F" ~b2a2 ~a2AB | !
+c2c2 {d}cBdA | c2c2 ~c2fg | {f}a2(3aba gaba | "Bb" ~g2f2 f4 | !
+{f}BfB2 BfB2 | "F" AAcf faaf | "C" cceg bgeg | "F" f2a2 "fine" ~f2 :| !
+|: eg | "A" {g}b3a a2 ^c2 | "Dm" defe d3^c |
+"A"^caa2 caa2 | "Dm" ~g2f>g fed2 | !
+"G" a3g g2=B2 | "C" cded c3d/2c/2 | "G" =Bcde faBd | "C" c2c2 c2 :| !
+|: ga | "C7" bbe2 bbe2 | "F" ~a2f2 ~a2~f2 | "C" e2G2 e2d2 | "F" Acfe ~d2c2 | !
+"C7" bbe2 bbe2 | "F" ~a2f2 ~a2~f2 |
+"C" e>G^FG Bceg | "F" f2a2 "D.C. al fine" f2 :||
+
+X:23
+T:Jepuan Polska
+M:3/4
+L:1/8
+Q:1/4=120
+R:polska
+K:Dm
+|: "Dm" a/2g/2f/2e/2 dd "A" ^cc | "Dm" dd "A" ee "Dm" ff |
+a/2g/2f/2e/2 dd "A" ^cc | A=B/2^c/2 e2 "Dm" d2 :| !
+|: "Dm" ff/2g/2 af af | "Gm" gg/2a/2 b2 g2 |
+"C" ee/2f/2 ge ge | "F" ff/2g/2 a2 f2 | !
+"Dm" a/2g/2f/2e/2 dd "A" ^cc | "Dm" dd "A" ee "Dm" ff |
+a/2g/2f/2e/2 dd "A" ^cc | A=B/2^c/2 e2 "Dm" d2 :|
+
+X:24
+T:Kapylan Poikain Polkka Medley
+M:2/4
+L:1/16
+Q:1/4=120
+S:Kapylan Poikain Viinapolkka, Tuusulan Polkka
+R:polka
+P:K,T
+N:1. Kapylan Poikain Vinapolkka  2. Tuusulan Polkka
+K:G
+P:K
+|: d |"G" B3B B2B2 | BGBd B2B2 | "C" c3c c2c2 | cGce c2c2 |
+"D7" d2dd d2f2 | aa.a2 gg.g2 | !
+ff.f2 eee2 | ddd2 ccc2 | "G" B3B B2B2 | BGBd B2B2 | "C" c3c c2c2 | !
+cGce c2c2 | "D7" d2dd d2f2 | aa.a2 gg.g2 | f2f2 f2ef | "G" g2g2 g2 z :| !
+|: a |"G" b2b2 b2ab | "C" c'2e2 e3g | "D" f2f2 ffef | "G" g2B2 d3g | !
+"G" b2b2 b2ab | "C" c'2e2 e3g | "D" f2f2 ffef | "G" g2g2 g2 z :| !
+P:T
+|: d | "G" .e2.d2 .c2.B2 | "D7" D2FA FDFA |
+.d2.c2 .B2.A2 | "G" G2Bd BGBd | !
+.e2.d2 .c2.B2 | "D7" D2FA FDFA |
+.d2.c2 .B2.A2 | "G" .G2.B2 .G2 z :| !
+|: z | "C" c2eg eceg | "G" G2Bd BGBd |
+"D7" D2FA FDFA | "G" G2Bd BGBd | !
+"C" c2eg eceg | "G" G2Bd BGBc |
+"D7" .d2.c2 .B2.A2 | "G" .G2.B2 .G2 z :| !
+
+X:25
+T:Kapylan Poikain Viinapolkka  (Kapylan boys' hard liquor polka)
+M:2/4
+L:1/16
+Q:1/4=120
+R:polka
+K:G
+|: d |"G" B3B B2B2 | BGBd B2B2 | "C" c3c c2c2 | cGce c2c2 |
+"D7" d2dd d2f2 | aa.a2 gg.g2 | !
+ff.f2 eee2 | ddd2 ccc2 | "G" B3B B2B2 | BGBd B2B2 | "C" c3c c2c2 | !
+cGce c2c2 | "D7" d2dd d2f2 | aa.a2 gg.g2 | f2f2 f2ef | "G" g2g2 g2 z :| !
+|: a |"G" b2b2 b2ab | "C" c'2e2 e3g | "D" f2f2 ffef | "G" g2B2 d3g | !
+"G" b2b2 b2ab | "C" c'2e2 e3g | "D" f2f2 ffef | "G" g2g2 g2 z :||
+
+X:26
+T:Karjalan II
+M:2/4
+L:1/16
+Q:1/4=120
+R:polka
+K:G
+|: "G" G,2B,D B,G,B,D | "C" C2EG ECEG | "D" D2FA FDFA | "G" BAGF GFED | !
+G,2B,D B,G,B,D | "C" C2EG ECEG | "D" D2FA FDFA |
+[1 "G" G2G2 G4 :|[2 "G" BAG2 G3B || !
+|: "G" d2d2 "C" e3d | "D" d2c2 cBAB | c2c2 d3c | "G" c2B2 BAGB | !
+d2d2 "C" e3d | "D" d2c2 cBAB | cBAd c2F2 |[1 ~A2G2 G3B :|[2 ~A2G2 G4 ||
+
+X:27
+T:Karjalan Poikia  (Karelian boys)
+M:2/4
+L:1/16
+Q:1/4=100
+R:polka
+K:G
+|: "G" [d3B3][dB] [d2B2][d2B2] | ~d2^cd e2d2 |
+[B3G3][BG] [B2G2][B2G2] | ~B2^AB c2B2 | "D" A2AA FDFG | !
+A2AA FDFG | [1 AFDF d3c | "G" c2B2 B4 :|
+[2 AFDF B3A | "G" ~A2G2 G4 || !
+|: "G" DEDC B,2D2 | G3G GFGA | B3B A2B2 | "C" [cE] z3 "G" [B4D4] | !
+"D" A2AA FDFG | A2AA FDFG | AFDF B3A | "G" ~A2G2 G4 :||
+
+X:28
+T:Karjalan Poikia Medley
+M:2/4
+L:1/16
+Q:1/4=120
+S:Karjalan Poikia, unnamed ("Karjalan II")
+R:polka
+P:P:KP,K2
+K:G
+P:KP
+|: "G" [d3B3][dB] [d2B2][d2B2] | ~d2^cd e2d2 |
+[B3G3][BG] [B2G2][B2G2] | ~B2^AB c2B2 | "D" A2AA FDFG | !
+A2AA FDFG | [1 AFDF d3c | "G" c2B2 B4 :|
+[2 AFDF B3A | "G" ~A2G2 G4 || !
+|: "G" DEDC B,2D2 | G3G GFGA | B3B A2B2 | "C" [cE] z3 "G" [B4D4] | !
+"D" A2AA FDFG | A2AA FDFG | AFDF B3A | "G" ~A2G2 G4 :|!
+P:K2
+|: "G" G,2B,D B,G,B,D | "C" C2EG ECEG | "D" D2FA FDFA | "G" BAGF GFED | !
+G,2B,D B,G,B,D | "C" C2EG ECEG | "D" D2FA FDFA |
+[1 "G" G2G2 G4 :|[2 "G" BAG2 G3B || !
+|: "G" d2d2 "C" e3d | "D" d2c2 cBAB | c2c2 d3c | "G" c2B2 BAGB | !
+d2d2 "C" e3d | "D" d2c2 cBAB | cBAd c2F2 |[1 ~A2G2 G3B :|[2 ~A2G2 G4 ||
+
+X:29
+T:Kaustisten Polkka
+M:2/4
+L:1/16
+Q:1/4=120
+R:polka
+K:Am
+|: "Am" ABcd e2a2 | e2c2 cBcd | "E" c2B2 ~B2AB | "Am" cBAB A2E2 | !
+"Am" ABcd e2a2 | e2c2 cBcd | "E" c2B2 ~B2AB | "Am" cBA2 E4 :| !
+|: "Am" ABcd e2a2 | "Dm" c'2b2 ~a2^ga | "E" b2e2 e^geg | "Am" baa2 a2^ga | !
+"Am" ABcd e2a2 | "Dm" c'2b2 ~a2^ga | "E" b2e2 e^geg | "Am" baa2 a4 :| !
+|: "C" g2ag eceg | c'2g2 eceg | "G" gfag gdBd | "C" c2c2 cdef | !
+g2ag eceg | c'2g2 eceg | "G" gfag gdBd |[1 "C" c2c2 c3e :|
+[2 "C" c2c2 c4 ||
+
+X:30
+T:Koiviston Hoijakka Medley
+M:3/4
+L:1/16
+Q:1/4=120
+S:Koiviston Polska, Hoijakka in D (name unknown)
+R:polska
+P:P:KP,H_in_D
+K:Am
+P:KP
+|: "Am" efed cdcB A2c2 | "E7" BcBA ^GAGF E2FG | !
+"Am" {B}A2^GA "E7" {c}B2AB "Am" {d}c2Bc |
+"Dm" {e}d2cd "E7" e4 [^G4B4e4] :| !
+|: "C" g4 gagf e2e2 | "G7" f2f2 f2ed "C" e2e2 | g4 gagf e2e2 | !
+"G7" f2f2 f2ed "E7" e2ed |
+"Am" cBcd e2c2 B2A2 | "E7" cBA^G G4 "Am" A2B2 | !
+{d}cBcd e2c2 B2A2 |[1 "E7" cBA^G G4 "Am" A4 :|[2 "E7" cBA^G G4 "Am  fine" A4 |
+K:D
+P:H_in_D
+|: "D" A^GAd f=gfe d2d2 | "A7" c3e gagf e2e2 |
+"D" A3d fgfe d2d2 | "E7" ~c2B2 "A" A4 A4 :| !
+|: "Em" gfga b2ba g2g2 | "D" fefg abag f2f2 | !
+"A7" e^def gfe=d c2Ac |[1 efec "D" d4 e2f2 :|
+[2 efec "D" d2 z2 "D.C. al fine" ^d4 ||
+
+X:31
+T:Koiviston Polska
+M:3/4
+L:1/16
+Q:1/4=120
+R:polska
+K:Am
+|: "Am" efed cdcB A2c2 | "E7" BcBA ^GAGF E2FG | !
+"Am" {B}A2^GA "E7" {c}B2AB "Am" {d}c2Bc | "Dm" {e}d2cd "E7" e4 [^G4B4e4] :| !
+|: "C" g4 gagf e2e2 | "G7" f2f2 f2ed "C" e2e2 | !
+g4 gagf e2e2 | "G7" f2f2 f2ed "E7" e2ed | !
+"Am" cBcd e2c2 B2A2 | "E7" cBA^G G4 "Am" A2B2 | !
+{d}cBcd e2c2 B2A2 | "E7" cBA^G G4 "Am" A4 :||
+
+X:32
+T:Kuinkas Se Joki (How could sriver be so straight when you are so crooked)
+M:2/4
+L:1/16
+Q:1/4=80
+S:arr. Eira Mattsson (Washington DC Finlandia Foundation) ~1976
+R:jenkka
+N:How could the river be so straight when you are so crooked?
+K:Dm
+|: "Dm" A2BB AAGG | F2E2 F2DF | A2FA "Gm" c2d2 | "A7" A4 A4 :| !
+|: "Dm" A2Bd "Gm" c2B2 | "Dm" AAAB "A7" A2GG |
+"Dm" FFAA "A7" F2E2 | "Dm" D4 D4 :|
+
+X:33
+T:Kulkurin Valssi  (Hobo's Waltz)
+M:3/4
+L:1/4
+Q:1/4=160
+R:waltz
+K:D
+|: "D" D F>A | B A>D | "A7" F G>C | E2 C |
+A, C>E | A A>G | "D" (F3 | F) z F/2F/2 | !
+F D>D | E D>C | "G" B, G>G | G2 B,/2B,/2 |
+"A7" A, A,>A, | A, B,>C | "D" (D3 | D) z A, | !
+D D>D | D F A | "G" B3 | "D" A2 F |
+"A7" E E>E | E D E | "D" (F3 | F) z A,/2A,/2 | !
+D D>D | D F A | "G" d3 | B2 G/2G/2 |
+"D" F A>A | "A7" A G E | "D" (D3 |[1 D) z z :|[2 D) z F/2G/2 || !
+"D" A A A/2G/2 | F F F/2A/2 | "A7" G G G/2F/2 | E E E/2F/2 |
+G G G/2F/2 | E G B | "D" A A A/2G/2 | F2 F/2G/2 | !
+A A A/2G/2 | F A d | "G" B B B/2A/2 | G2 B |
+"A7" A c>B | A G E | "D" (D3 | D) z z ||
+
+X:34
+T:Kuna Mina Koto Ani Laksin  (When I left home)
+M:2/4
+L:1/16
+Q:1/4=80
+S:arr. Eira Mattsson (Washington DC Finlandia Society) ~1976
+R:jenkka
+K:Am
+"Am" A,2A,A, CCEE | A4 A2B2 | "Dm" c2AA A2F2 | "Am" E4 z4 | !
+"Am" A,2A,A, CCEE | A4 A2B2 | "Dm" c2AA A2F2 | "Am" E4 z2 E2 | !
+"Dm" G2GG DDDF | "Am" A2A2 E2ED | C2CC "E7" B,2B,2 | "Am" A,4 z2 E2 | !
+"Dm" G2GG DDDF | "Am" A2A2 E2ED | C2CC "E7" B,2B,2 | "Am" A,2A,2 A,2 z2 ||
+
+X:35
+T:Lipan Matin Nahkahousut
+M:3/4
+L:1/8
+Q:1/4=150
+S:Matti Lippa's leather pants
+R:masurkka
+K:D
+|: "D" A>d .f2 e2 | "G" d>c .B2 B2 | "A7" A>c .c2 c2 | "D" A>d .d2 d2 | !
+A>d .f2 e2 | "G" d>c .B2 B2 | "A7" A>c cA Bc | "D" .d2 d4 :| !
+|: "A7" g>f .e2 g2 | "D" f>e .d2 f2 | "A7" e>d .c2 e2 | "D" d>f .a2 a2 | !
+"A7" g>f .e2 g2 | "D" f>e .d2 f2 | "A7" e>d .c2 e2 | "D" [d2D2] [d4D4] :||
+
+X:36
+T:Mansikka (Strawberry)
+M:2/4
+L:1/16
+Q:1/4=80
+S:arr. Eira Mattsson (Washington DC Finlandia Foundation) ~1976
+R:jenkka
+K:Am
+|: "Am" e2a2 e2d2 | cdcB A2E2 | A2B2 c2B2 | "E7" ABcd e2E2 | !
+"Am" e2a2 e2d2 | cdcB A2EE | A2BB "E7" c2B2 | "Am" A4 A4 :||
+
+X:37
+T:Masurkka Medley from Saarijarvi
+M:3/4
+L:1/8
+Q:1/4=150
+S:Aarne Tarvaiasen Masurkka, Lipan Matin Nahkahousut
+R:masurkka
+P:AT,LMN
+K:Dm
+P:AT
+|: "Dm" A>B AG FE | D2 .d2 .d2 | "A7" A2 .^c2 .c2 |
+"Dm" A2 .d2 .d2 | "F" A>B AG FE | "Bb" D2 .d2 .d2 | !
+"A7" A2 .^c2 cA | [1 "Dm" .d2 .d2 z2 :|[2 "Dm" .d2 .d2 z e ||
+|: "Dm" fe d2 d^c | "A7" .e2 A4 | a2 g2 ge | !
+"Dm" af d2 de | fe d2 dc | "Gm" BA G2 F2 |
+"A7" E2 A2 A^c |[1 "Dm" .d2 .d3 e :|[2 "Dm" .d2 .d2 z2 || !
+P:LMN
+K:D
+|: "D" A>d .f2 e2 | "G" d>c .B2 B2 | "A7" A>c .c2 c2 |
+"D" A>d .d2 d2 | A>d .f2 e2 | "G" d>c .B2 B2 | !
+"A7" A>c cA Bc | "D" .d2 d4 :|: "A7" g>f .e2 g2 |
+"D" f>e .d2 f2 | "A7" e>d .c2 e2 | !
+"D" d>f .a2 a2 | "A7" g>f .e2 g2 | "D" f>e .d2 f2 |
+"A7" e>d .c2 e2 | "D" d2 d4 :| !
+K:Dm
+P:AT
+|: "Dm" A>B AG FE | D2 .d2 .d2 | "A7" A2 .^c2 .c2 |
+"Dm" A2 .d2 .d2 | "F" A>B AG FE | "Bb" D2 .d2 .d2 | !
+"A7" A2 .^c2 cA | [1 "Dm" .d2 .d2 z2 :|[2 "Dm" .d2 .d2 z e ||
+|: "Dm" fe d2 d^c | "A7" .e2 A4 | a2 g2 ge | !
+"Dm" af d2 de | fe d2 dc | "Gm" BA G2 F2 |
+"A7" E2 A2 A^c |[1 "Dm" .d2 .d3 e :|[2 "Dm" .d2 .d2 z2 || !
+
+X:38
+T:Matalan Torpan Ballaadi  (Ballad of the crofter's hut)
+M:2/4
+L:1/16
+Q:1/4=80
+S:arr. Eira Mattsson (Washington DC Finlandia Foundation) ~1976
+R:jenkka
+K:Em
+"Em" E2EE EFGG | "B7" F3E ^D2B,B, | "Em" E2EE EFG2 | "Am" F4 "B7" F4 | !
+|: "Am" A2AA A2c2 | "Em" B2BA B2GG | "B7" F2FE ^D2B,2 | "Em" E4 E4 :||
+
+X:39
+T:Metsakukkia  (Forest flowers)
+M:3/4
+L:1/8
+Q:1/4=140
+R:waltz
+K:Gm
+|: D2 | "Gm" D2 G2 A2 | B2 A2 G2 | (d6 | d4) D2 |
+D2 G2 A2 | B2 A2 G2 | "Cm" (e6 | e4) d2 | !
+c2 d2 (e2 | e2) d2 c2 | "Gm" d4 B2 | G4 D2 |
+"D7" D2 ^F3 A | c2 B2 A2 |[1 "Gm" (G6 | "fine" G4) :|
+[2 "Gm" (G6 | G2) g2 | !
+|: ^f2 | "F7" (f6 | f2) g3 e | "Bb" (d6 | d2) e3 d |
+"D7" (c6 | c2) d3 c | "Gm" (B6 | B2) c2 ^c2 | !
+(d6 | d2) c2 B2 | "D7" (A6 | A2) B2 A2 |
+D2 ^C2 D2 | B4 A2 |[1 "Gm" (G6 | G2) g2 :|[2 "Gm" (G6 | G4) | !
+|: (g^f | "Gm" g2) z2 (d^c | d2) z2 (BA | B2) z2 (G^F | G2) z2 d2 |
+"Cm" e3 ded | c2 e2 g2 | "Gm" (d6 | d4) D2 | !
+"D7" D2 ^F3 G | A4 E2 | "Gm" D2 G3 A | B4 E2 |
+"D7" D2 ^F2 A2 | B4 A2 |[1 "Gm" (G6 | G2) z2 :|
+[2 "Gm" (G6 | "DC al fine" G4) ||
+
+X:40
+T:Metsakukkia  (Forest flowers) (harmony)
+M:3/4
+L:1/8
+Q:1/4=140
+R:waltz
+K:Gm
+D2 |: "Gm" B,6 | [D6G,6] | G,2 B,2 D2 | [B4G4] D2 |
+B,6 | [D6G,6] | "Cm" G,2 C2 E2 | G6 | !
+E6 | [E6C6] | "Gm" G,2 B,2 D2 | [D6B,6] |
+"D7" [D6A,6] | A,2 B,2 C2 | "Gm" ([D6B,6] |[1 [D4G,4]) "fine" D2 :|
+[2 [D6G,6]) | !
+|: "F7" A,2 C2 E2 | F2 A4 | "Bb" B2 F2 D2 | B,2 D2 F2 |
+"D7" ^F2 (D4 | D2) C4 | "Gm" B,2 D2 G2 | D2 B,4 | !
+G,2 B,2 D2 | G,2 B,2 D2 | "D7" A,2 C2 (D2 | D2) C2 ^F2 |
+G4 D2 | C2 D2 C2 |[1 "Gm" B,2 D2 G2 | [D6B,6] :|
+[2 "Gm" B,2 D2 G2 | [D4B,4] z2 | !
+|: "Gm" B2 z4 | G2 z4 | D2 z4 | B,2 z2 D2 |
+"Cm" E2 G4 | A2 c4 | "Gm" d2 (B2 A2 | G6) | !
+"D7" A2 D2 C2 | A,6 | "Gm" B,2 D4 | D2 G4 |
+"D7" A2 D2 C2 | ^F2 A4 |[1 "Gm" G2 D2 B,2 | [D2G,2] z4 :|
+[2 "Gm" G2 D2 B,2 | "D.C. al fine" [D6G,6] z4 ||
+
+X:41
+T:Minun Kultani (My Sweetheart)
+M:2/4
+L:1/16
+Q:1/4=80
+S:arr. Eira Mattsson (Washington DC Finlandia Foundation) ~1976
+R:jenkka
+K:Bm
+|: "Bm" d2d2 "F#7" c2cc | "Bm" B2B2 "Em" c4 |
+"F#7" F2F2 ^G2^A2 | "Bm" B4 "F#7" c4 :| !
+|: "D" f4 "A7" e2ec | "Bm" d2d2 "Em" c4 |
+"F#7" F2F2 ^G2^A2 |[1 "Bm" B4 "F#7" c4 :|[2 "Bm" B4 B4 ||
+
+X:42
+T:Musta Rudolf  (Black Rudolf)
+M:3/4
+L:1/4
+Q:1/4=160
+R:waltz
+K:G
+"D7" D | "G" G G G | G A>G | G3 | D2 D |
+G G G | B A>G | "D7" (A3 | A) z D | !
+c B>A | c B>A | c3 | D2 D |
+c B>A | c B>A | "G" (B3 | B) z G | !
+|: "C" c c c | e d>c | c3 | G2 A |
+"G" B A>G | B A>G | (B3 | B) z B | "D7" A E>A | !
+A B>A | "G" G3 | D2 G | "D7" A D>F |
+[1 A B>A | "G" G3 | G) z G :|[2 A B>D | "G" (G3 | G) z z ||
+
+X:43
+T:Muurari  (the Bricklayer)
+M:3/4
+L:1/4
+Q:1/4=160
+S:arr. Eira Mattsson (Washington DC Finlandia Foundation) ~1976
+R:waltz
+K:Em
+B, | "Em" G F E | G F E | "B7" ^D2 F | B,3 |
+B, ^D F | A G F | "Em" B2 G | E3 | !
+E G B | "Am" e/2e/2 d c/2c/2 | "B7" B B>A | B2 A |
+G F E | B,2 ^D | "Em" (E3 | E) z B, | !
+E E E/2E/2 | E G B | e3 | e2 c/2B/2 |
+"Am" A A c | e d c | "Em" (B3 | B) z | !
+|: c/2B/2 | "Am" A A A/2A/2 | A G F | "Em" E2 G | B2 G/2G/2 |
+"Am" F A c | "B7" B G F | "Em" (E3 | E2) :||
+
+X:44
+T:Nikkeli Markka (When will you pay me back my nickel mark)
+M:2/4
+L:1/16
+Q:1/4=80
+S:arr. Eira Mattsson (Washington DC Finlandia Foundation) ~1976
+R:jenkka
+K:Am
+"Am" EEcB A2EF | "Dm" G2FF "E7" D2B,2 |
+"Am" CCDD EEDC | "E7" B,2EF EDCB, | !
+"Am" EEcB A2EF | "Dm" GGFF "E7" D2B,B, |
+"Am" E2DC "E7" B,DCB, | "Am" A,2A,2 A,2 z2 | !
+"E7" B,B,CC DDB,B, | "Am" C2D2 E2 z2 |
+"E7" EE^FF ^GGcB | "Dm" A2F2 "Am" E2 z2 | !
+"E7" B,B,CC DDB,B, | "Am" C2D2 E2 z2 |
+"E7" EE^FF ^GGcB | "Am" A2A2 A2 z2 ||
+
+X:45
+T:On Armas Mulle Aallon Tie! (A Sailor Loves the Sea's Waves)
+M:3/4
+L:1/4
+Q:1/4=160
+R:waltz
+K:D
+|: A, | "D" F2 F | "A7" F2 E | E2 D | "D" D2 F |
+A3 | "G" G2 B | "D" (A3 | A) z :| A | "G" (B3 | B) z d | !
+"D" (A3 | A) z F | "A7" G3 | A2 G |
+"D" (F3 | F) z A, | F F F | "A7" E2 A | "D" (D3 | D) z ||
+
+X:46
+T:Paaskysen Valssi  (The Swallow)
+M:3/4
+L:1/8
+Q:1/4=150
+R:waltz
+K:Am
+|: "Am" A,3 C E2 | A,3 C E2 | cd cB A2 | cd cB A2 | "E7" E3 ^G B2 | !
+E3 ^G B2 | "Dm" de dc B2| "E7" de dc B2 | "Am" e3 fed | c4 e2 | !
+ea ea ac' | e4 c'2 | "E7" c'4 ({d'c'}b2) |
+({^g}e'4) e2 | e^g be ^gb | "Am" a6 :| !
+|: "Am" ({e^f^g}a2) e=f ed | dc Ac ec | "E7" cB ^GB dB | "Am" ~c2 Ac e2 | !
+({e^f^g}a2) e=f ed | dc Ac ec | "E7" cB ^GB dB |[1 "Am" A6 :|[2 "Am" A4 || !
+|: e2 "E" | e^g be ^gb | "A" ea ^c'e ac' | "E" e^g be ^gb | !
+"A" ea ^c'e ac' | "Am" e3 fed | dc Ac ec | "E" cB ^GB dc | "Am" A4 :||
+
+X:47
+T:Pelimannin Jaahyvaiset (Folk Muscian's Farewell)
+M:3/4
+L:1/4
+Q:1/4=180
+R:waltz
+K:Gm
+|: "D7" z D | "Gm" D2 G/2B/2 | d2 b | "Cm" a2 g | e2 c |
+"D7" d ^c d | c2 A | d ^c d | B2 A | !
+"Gm" D2 G/2B/2 | d2 b | "Cm" a2 g | e2 c |
+"D7" d ^c d | A c B | "Gm" (G3 | G) d c | !
+"G7" =B c d | f e>d | "Cm" e3 | c3 |
+"F" F A c | e d>^c | "Bb" (d3 | "D7" d2) D | !
+"Gm" D2 G/2B/2 | d2 b | "Cm" a2 g | e2 c |
+"D7" d ^c d | A c B | "Gm" (G3 | "fine" G) :| !
+|: "D7" B A | "Gm" G/2 z ^F/2 (G | G) A G | "Cm" (E3 | E) c B |
+"D7" A/2 z ^G/2 (A | A) c A | "Gm" (B3 | B) B A | !
+G/2 z ^F/2 (G | G) A G | "Cm" (E3 | E) F E |
+"D7" D ^C/2D/2^F/2A/2 | c2 A | "Gm" (G3 | "D.C. al fine" G) :||
+
+X:48
+T:Penttilan Sillalla  (On the Pentilla bridge)
+M:2/4
+L:1/16
+Q:1/4=80
+S:Konsta Jylha
+R:jenkka
+K:Em
+|: "Em" efge B2B2 | GAGE "Am" F2F2 |
+"B7" FGAc B2B(3F/2G/2F/2 | "Em" A2G2 GFE2 | !
+efge B2B2 | Bege "Am" f2f2 | "B7" fgag fe^dB | "Em" e2e2 e4 :| !
+|: "D7" D2FA cBce | "G" d2dg B2Bd | "D7" c2ce AGFD | "G" G2B2 d4 | !
+"C" e2ef (3gag fe | "G" d2dg B2Bd | "D7" c2ce fdef | "G" g2g2 g4 :| !
+|: "Em" efge B2B2 | GAGE "Am" F2F2 |
+"B7" FGAc B2B(3F/2G/2F/2 | "Em" A2G2 GFE2 | !
+efge B2B2 | Bege "Am" f2f2 | "B7" fgag fe^dB | "Em" e2e2 e4 :||
+
+X:49
+T:Punainen Mokki
+M:4/4
+L:1/4
+Q:1/4=240
+S:The Red Cottage
+R:humppa
+K:D
+"A7" F G | "D" A2 d F | "A7" A A G E | "D" D2 F D | A,3 F |
+"A7" E E G E | C3 G | "D" F F A F | "A7" E2 F G | !
+"D" A2 d F | "A7" A A G E | "D" D2 F E | D3 F |
+"E7" E2 "A" A c | "E7" e e d B | "A7" A2 "E7" c B | "A" A3 "A7" ^A | !
+"G" B2 G>B | e d c B | "D" A2 F>A | d c B A |
+"A7" G2 E>G | c B A G | "D" F F A F | "A7" E2 F G | !
+"D" A2 d F | "A7" A A G E | "D" D2 F A | "E7" d2 e d |
+"D" A2 d F | "A7" A A G E | "D" (D4 | D) z ||
+
+X:50
+T:Rantasaunan Jenkka  (Beachfront sauna)
+M:2/4
+L:1/16
+Q:1/4=80
+S:Saveltanyt Orvokki Ramsi
+R:jenkka
+N:The page I transcribed this from had seemingly random flagged notes.
+N:I've removed most of them for consistency; sounds good with or without.
+K:Dm
+"Dm" A,DFA "A7" FAfe | "Dm" d2d2 d4 | !
+|: "Dm" DFAd fedc | "Gm" BAGF "A7" E2E2 | A,^CEG AGFE | "Dm" DEFG A2A2 | !
+DFAd fedc | "Gm" BAGF "A7" E2E2 | A,^CEG A^cfe | "Dm" d2d2 d4 :| !
+|: "Dm" A,DDF FAAd | fegf "A7" e2e2 | A^cce egge | "Dm" agfe d2d2 | !
+DFFA Adde | fegf "A7" e2e2 | (3a^ga ba =gfe^c | "Dm" d2d2 d4 :| !
+|: "Dm" (3fgf d2 (3fgf d2 | "A7" e>d^cB A2A2 |
+(3gag eg (3gag eg | "Dm" a>gfe d2d2 | !
+(3fgf d2 (3fgf d2 | "A7" e>d^cB AGFE | A,>^CEG A^cfe | "Dm" d2d2 d4 :||
+
+X:51
+T:Sailor Waltz Medley
+M:3/4
+L:1/4
+Q:1/4=160
+S:Vanha Merimies Muistelee, Heijallerii, Musta Rudolf
+R:waltz
+P:VMM,H,MR
+K:G
+P:VMM
+"D7" D/2B,/2C/2 | "G" D2 D | G2 A | B (G2 | G) z A/2A/2 |
+A G>B, | D2 E | "D7" (F3 | F) z D/2D/2 | c B A | E F>D | !
+"G" G3 | D2 ^D | "C" ECE | "D7" A2 B | (A3 | A) z/2 D/2B,/2C/2 |
+"G" D D D | G G>A | B (G2 | G) z G/2G/2 | !
+"C" c c c | G2 A | "G" (B3 | B) z/2 B/2B/2B/2 | "Am" A E F |
+A G E | "G" D B, D | G B G | "D7" A3 | E2 F | "G" (G3 | G) z/2 | !
+P:H
+B/2B/2B/2 | "G" A G E | D E>B, | D E>D | "D7" F3 |
+D D>F | A3 | "G" B B>A | G2 B | "G" A G E | D E>B, | !
+D E>D | "D7" F3 | D D>F | A2 B | "G" (G3 | G) z G |
+"C" E E E | c c c | "G" B B B | G2 B | !
+"D7" A A A | E F A | "G" G G E | D2 ^D | "C" E E<E | c3 |
+"G" d d>c | B3 | "D7" D D>F | A2 B | "G" (G3 | G) z/2 | !
+P:MR
+"D7" D/2C/2D/2 |  "G" G G G | G A>G | G3 | D2 D |
+G G G | B A>G | "D7" (A3 | A) z D | !
+c B>A | c B>A | c3 | D2 D |
+c B>A | c B>A | "G" (B3 | B) z G | !
+|: "C" c c c | e d>c | c3 | G2 A |
+"G" B A>G | B A>G | (B3 | B) z B | "D7" A E>A | !
+A B>A | "G" G3 | D2 G | "D7" A D>F |
+[1 A B>A | "G" G3 | G) z G :|[2 A B>D | "G" (G3 | G) z z ||
+
+X:52
+T:Sakkijarven Polkka
+M:2/4
+L:1/16
+Q:1/4=108
+R:polka
+K:Em
+|: (3EGB | "Em" e2(3BcB A2G2 | "Am" (3GAG F2F2 (3FGA |
+"B7" B2 (3ABA G2F2 | "Em" (3FGF E2E2 (3EGB | !
+"Em" e2 (3BcB A2G2 | "Am" (3GAG F2F2 (3FGA |
+"B7" B2 (3B^AB ^c2^d2 | "Em" e2 z2 "fine" [E2G2B2e2] :| !
+|: z B | "Em" B2e2 e^def | "B7" (3efe ^d2 d3B |
+B2f2 fefg | "Em" (3fgf e2 e3B | !
+B2e2 e^def | "B7" (3efe ^d2 d2(3dfa |
+b2 (3aba g2f2 | "Em" e2 z2 e2 :| !
+|: EG | "Em" B2BG E2EG | B2BG E2EG | B2B2 c3B |
+"Am" ABAG "B7" F2FG | A2AG F2FG | !
+A2AG F2FG | A2A2 B3A | GAGF "Em" E2EG | B2BG E2EG |
+B2BG E2EG | B2B2 e3d | !
+"Am" cdcB A2AB | c2cB AcBA | "Em" B2BG E2EG |
+"B7" B2(3B^AB ^c2^d2 | "Em" e2 z2 e2 :| !
+|: B,2 | "Em" E^DEF GFG^G | "Am" A^GAB cBAc |
+"B7" BB,^DF BAGF | "Em" E^DEF GFE^D | !
+E^DEF GFG^G | "Am" A^GAB cBAc |
+"B7" BB,^DF BAGF | "Em" E2 "DC al fine" z2 E2 :|
+
+X:53
+T:Sarkynyt Onni  (Shattered Happiness)
+M:3/4
+L:1/4
+Q:1/4=150
+R:waltz
+K:Dm
+A, |: "Dm" D2 ^C/2D/2 | F2 E/2D/2 | "Gm" G2 ^F/2G/2 | B d B |
+"A7" A2 E/2G/2 | F2 ^C/2E/2 | "Dm" (D3 |[1 D2) A, :|[2 D) A F || !
+|: "Dm" E2 D | "A7" ^C2 D | "Gm" (E3 | E) A G | "A7" F2 E | D2 E |
+"Dm" (F3 | F) "D7" A c | "Adim" c2 "Gm" B | B G B | "Dm" B2 A | !
+[1 A F A | "Gm" A2 G | "Ddim" F2 G | "A7" (E3 | E) A F :|
+[2 A F D | "A7" ^C2 B | A2 ^C | "Dm" (D3 | D) z z ||
+
+X:54
+T:Sarkynyt Onni  (harmony)
+M:3/4
+L:1/4
+Q:1/4=150
+R:waltz
+K:Dm
+z |: "Dm" d3 | d3 | "Gm" g3 | g3 | "A7" A3 | ^c2 A |
+[1 "Dm" D F G | A B A :|[2 D F A | d3 || !
+|: "Dm" d3 | "A7" a2 d | "Gm" g3 | G3 | "A7" A3 | e2 A |
+"Dm" d3 | d "D7" a ^f | "Adim" (^f2 "Gm" f) | g3 | "Dm" d3 | !
+[1 a2 d | "Gm" B3 | "Ddim" =B3 | "A7" ^c3 | a3 :|
+[2 A2 d | "A7" e3 | A3 | "Dm" d a f | d) z z ||
+
+X:55
+T:Savonmaan Hilima (Hilima from Savonmaa province)
+M:3/4
+L:1/4
+Q:1/4=160
+S:arr. Eira Mattsson (Washington DC Finlandia Foundation) ~1976
+R:waltz
+N:The girl named Hilma from Savonmaa province
+K:Em
+B,/2B,/2 | "Em" E E>G | B G>A | "B7" G (F2 | F2) B,/2B,/2 |
+F F>G | A G F | "Em" (B3 | B2) G/2A/2 | !
+B B>c | d c B | "Am" d (c2 | c2) d/2d/2 |
+"D7" d A B | c/2c/2 B A | "B7" (B3 | B) z B | !
+"Em" e e>f | g f e | "Am" d c B | A2 A |
+"D7" d d>e | d c A | "B7" B A G | F2 B | !
+|: "Em" e e e/2f/2 | g/2f/2 e d/2d/2 |
+"Am" c c/2B/2 c/2d/2 | e/2d/2 c B |
+"D7" A A/2^G/2 A/2B/2 | !
+d/2c/2 B A/2A/2 |
+[1 "B7" G G/2F/2 G/2A/2 | B z B :||[2 "B7" G G F | "Em" E3 ||
+
+X:56
+T:Schottis fran Norrbotten
+M:2/4
+L:1/16
+Q:1/4=80
+S:(not strictly Finland, but near it)
+R:jenkka
+K:Dm
+|: "A7" A,2 | "Dm" D2DE FEFG | ABAG A4 | d2de f2~e2 | d4 A2de | !
+f2~e2 d2AB | "C" c2~B2 "F" A2FG | "Dm" ABAG F2G2 | "A" A6 de | !
+"Dm" f2~e2 d2AB | "C" cBAG "F" A2FG | "Dm" ABAG "A" F2E2 | "Dm" D4 D2 :| !
+|: "A7" A2 | "Dm" AFDF AFDF | A2d2 "C" c2~B2 |
+"Dm" ABAG F2FG | "A7" A4 A2A2 | !
+"Dm" AFDF AFDF | A2d2 "C" c2~B2 | "Dm" ABAG "A7" F2FE | "Dm" D4 D2 :| !
+|: "A7" de | "Dm" f2~e2 d2AB | "C" c2~B2 "F" A2FG |
+"Dm" ABAG F2FG | "A7" A4 A2de | !
+"Dm" f2~e2 d2AB | "C" c2~B2 "F" A2FG | "Dm" ABAG "A7" F2~E2 | "Dm" D4 D2 :|
+
+X:57
+T:Suutarin Tytar  (Cobbler's daughter)
+M:2/4
+L:1/16
+Q:1/4=80
+S:arr. Eira Mattsson (Washington DC Finlandia Foundation) ~1976
+R:jenkka
+K:Em
+"Em" G2A>B A2G>F | E2F>G F2E>D | "Am" C2D2 E2D>C | "B7" B,6 z2 | !
+"Em" G2A>B A2G>F | E2F>G F2E2 | "Am" F2G>A "B7" G2F2 | "Em" E6 z2 | !
+"E7" B>cd2 c2B>c | "Am" B>AB2 c2A2 | "D7" d2c>d c2A2 | "G" B4 "B7" z4 | !
+"Em" G2A>B A2G>F | E2F>G F2E>D | "Am" C2D2 E2D>C | "Em" (E4 E)B,EG | !
+|: "Em" B4 B4 | "Am" A2F>A F4 | A2F>G "B7" AB/2A/2 G>F | "Em" G2G2 E4 | !
+"Am" A4 A4 | "Em" G2E>G E4 | G2E>F GA/2G/2 F>E | "B7" F2F2 B4 | !
+"E7" E2^G>A B2E>E | "Am" c2B>B A2F2 | "B7" B2B>B F2A2 | "Em" G8 | !
+"B7" B,2^D>E F2B,>B, | "Em" G2F>F "Am" E2C2 | "Em" B,2B,>B, "B7" G2F2 |
+[1 "Em" (E4 E)B,EG :|[2 "Em" E6 z2 ||
+
+X:58
+T:Suutarin Tytar Medley
+M:2/4
+L:1/16
+Q:1/4=80
+C:arr. Eira Mattsson (Washington DC Finlandia Foundation) ~1976
+S:SuutarinTytar,AmaliaArmas,TuominenSormus,MatalanTorpanBallaadi,Valiaikai
+R:jenkka
+P:ST,AA,TS,MTB,V
+N:1. Suutarin Tytar
+N:2. Amalia Armas
+N:3. Tuohinen Sormus
+N:4. Matalan Sorpan Ballaadi
+N:5. Valiaikainen
+K:Em
+P:ST
+"Em" G2A>B A2G>F | E2F>G F2E>D | "Am" C2D2 E2D>C | "B7" B,6 z2 |
+"Em" G2A>B A2G>F | E2F>G F2E2 | "Am" F2G>A "B7" G2F2 | "Em" E6 z2 | !
+"E7" B>cd2 c2B>c | "Am" B>AB2 c2A2 | "D7" d2c>d c2A2 | "G" B4 "B7" z4 |
+"Em" G2A>B A2G>F | E2F>G F2E>D | "Am" C2D2 E2D>C | "Em" (E4 E)B,EG | !
+|: "Em" B4 B4 | "Am" A2F>A F4 | A2F>G "B7" AB/2A/2 G>F | "Em" G2G2 E4 |
+"Am" A4 A4 | "Em" G2E>G E4 | G2E>F GA/2G/2 F>E | "B7" F2F2 B4 | !
+"E7" E2^G>A B2E>E | "Am" c2B>B A2F2 | "B7" B2B>B F2A2 | "Em" G8 |
+"B7" B,2^D>E F2B,>B, | "Em" G2F>F "Am" E2C2 | "Em" B,2B,>B, "B7" G2F2 |
+[1 "Em" (E4 E)B,EG :|[2 "Em" E6 z2 | !
+P:AA
+|: "Em" EEEF G2B2 | "B7" BBAG F2B,2 |BBBc BAGF |
+"Em" G2E2 E4 :| "Am" AAAB c2e2 | "D7" eedc "G" B2G2 | !
+"D7" A2AF DFAc | "B7" B4 B4 | "Em" EEEF G2B2 |
+"B7" BBAG F2B,2 | BBBc BAG^D | "Em" F2E2 E4 | !
+P:TS
+|: "Em" B2BG E2EG | "B7" F2F^D B,4 | F2B,2 F2GF |
+[1 E^DEF "B7" GFGA :|[2 E2E2 E2Be | !
+|: "Am" d2dc A2Ac | "Em" B2BG E3 E | "B7" B,^C^DE FAGF |
+[1 "Em" EFGA B2Be :|[2 "Em" E2E2 E4 || !
+P:MTB
+"Em" E2EE EFGG | "B7" F3E ^D2B,B, | "Em" E2EE EFG2 | "Am" F4 "B7" F4 | !
+|: "Am" A2AA A2c2 | "Em" B2BA B2GG | "B7" F2FE ^D2B,2 |
+[1 "Em" E4 E4 :|[2 E4 E2 || !
+P:V
+|: "B7" B,B, | "Em" E2EE GGFE | "Am" F2G2 A2BA |
+"Em" G2FE "B7" F2E^D "Em" E4 z2 :|
+|: "Em" Bc | "Am" d2dd d2cB | "D7" c2c2 c2AB | !
+c2cc c2BA | "B7" B2B2 B2GA | "Em" B2BB B2AG |
+"Am" A2A2 A2BA | "Em" G2FE "B7" F2E^D | "Em" E4 z2 :|
+
+X:59
+T:Tahtisilma valssi
+M:3/4
+Q:1/4=160
+C:Konsta Jylha
+R:waltz
+K:Dm
+|: "A7" A2 | "Dm" aAaA a2 | "Gm" g4 A2 | "Dm" fAfA f2 | "A7" e4 A2 |
+"Dm" d2 A2 F2 | "C" c4 c2 | "C7" B2 G2 E2 | "F" A4 A2 | !
+"Dm" D2 F2 A2 | d2 e2 f2 | "Gm" e6 | "Dm" d6 |
+"C" c3 c cd | e2 d2 c2 | "C7" B6 | "F" A6 | !
+"Gm" G2 B2 d2 | ga b2 a2 | g6 | "Dm" f6 |
+"E7" e3 e e2 | e2 f2 e2 | "A7" (a6 | a)b ag fe |!
+"Gm" gBgB g2 | "Dm" f4 A2 | "A7" eGeG e2 | "Bb" d4 A2 |
+"Gm" G2 c2 (3BcB | "A7" A4 A2 | B2 G2 E2 | "Dm fine" D4 :| !
+K:D
+|: "A7" A2 | "D" d6 | d2 cded | "A7" c6 | "G" B6 |
+B6 | B2 "A7" cdcB | "D" A6 | "Bm" F6 | !
+"Em" (B6 | B2) G2 F2 | "A7" G4 F2 | E6 |
+(c6 | c2) d2 e2 | "D" (A6 | "A7" A2) B2 c2 | !
+"D" d6 | d2 cded | "A7" c6 | "G" B6 |
+B6 | B2 "A7" c2 d2 | "D" A6 | "Bm" F4 (3FGF | !
+"Em" E3 F GE | B6 | "D" A3 F Ad | "Bm" f4 (3fgf |
+"Em" ef g2 (3fgf | "A7" e3 d c2 | "D" d3 d d2 | "D.C. al fine" d4 :||
+
+X:60
+T:Tahtisilma valssi (harmony)
+M:3/4
+Q:1/4=160
+C:Konsta Jylha (harmony: Dick Atlee)
+R:waltz
+K:Dm
+|: "A7" A2 | "Dm" fAfA f2 | "Gm" e6 | "Dm" dAdA d2 | "A7" ^c6 |
+"Dm" F2 A2 d2 | "C" e6 | "C7" c2 B2 G2 | "F" F6 | !
+"Dm" A,2 D2 F2 | A2 B2 c2 | "Gm" B4 G2 | "Dm" F2 E2 D2 |
+"C" G3 G GA | B6 | "C7" C2 D2 E2 | "F" F6 | !
+"Gm" D2 G2 B2 | d4 e2 | g4 f2 | "Dm" d6 |
+"E7" =B6 | d2 c2 =B2 | "A7" (A6 | A)B AG FE |!
+"Gm" D3 ^C DE | "Dm" F6 | "A7" G3 ^F GA | "Bb" B4 A2 |
+"Gm" G4 E2 | "A7" ^C6 | A,2 B,2 ^C2 | "Dm fine" D4 :| !
+K:D
+|: "A7" E2 | "D" D6 | D2 E2 F2 | "A7" G6 | "G" B,6 |
+G,6 | G,3 "A7" B,CE | "D" D6 | "Bm" B,2 C2 D2 | !
+"Em" E6 | B,2 E2 F2 | "A7" E4 D2 | C6 |
+A,6 | A,2 B,2 C2 | "D" D4 E2 | "A7" F4 A,2 | !
+"D" D6 | D2 E2 F2 | "A7" G6 | "G" B,6 |
+G,6 | G,3 "A7" B,CE | "D" D6 | "Bm" B,2 C2 D2 | !
+"Em" E6 | B,2 C2 E2 | "D" D6 | "Bm" B,6 |
+"Em" G,6 | "A7" A,3 B, C2 | "D" D3 E DC | "D.C. al fine" D4 :||
+
+X:61
+T:Tammerkoski
+M:4/4
+L:1/4
+Q:1/4=240
+S:(The falls/rapids powering the textile mills of Tampere)
+R:humppa
+K:Gm
+"D7" d e2 d/2e/2 | d c B A | "Gm" G B2 A/2B/2 | "F7" A G F E |
+"D7" D A2 B | d c B A | "Gm" G G z .^F | "Gm" .G G,/2A,/2B,/2=B,/2C/2^C/2 | !
+P:Laulu
+"Gm" D4 | G2 A2 | B4 | A2 G2 |
+"D7" ^F4 | G2 A2 | (D4 | D3) z |
+D4 | A2 B2 | c4 | B2 A2 |
+"Gm" B4 | !
+"Cm" c2 e2 | "Gm" (d4 | d) G "G7" A =B |
+"Cm" c4 | e2 c2 | "Gm" d4 | G4 |
+"Cm" c4 | "D7" A2 ^F2 | "Gm" B4 | (3g_gf (3=e_ed | !
+"Cm" c4 | F2 E2 | "Gm" D4 | G2 B2 |
+"D7" d4 | A2 B2 | "Gm" (G4 |
+[1 "to Verse" G) z z D |[2 "Fine" G) z [gdB] z || !
+P:Verse
+|: "Gm" G z z D | z G2 A | B z z G | z B2 c |
+"D7" d z z c | B z A z |[1 "Gm" G G2 F | "D" D ^C/2D/2 E/2=E/2F/2^F/2 :| !
+[2 "Gm" G G z D | G z (3c_cB ||
+"F7" [AF] z z B | c d2 c  | "Cm" B G2 A |
+"Bb" B2 G/2A/2B/2=B/2 | "F7" c z z c | !
+f z e z | "Bb" d d2 "Bbm" ^c |
+"D7" [dD] E =E ^F | A z z B | c z B A | "Gm" G z z A | !
+B z A G | "D7" ^F z z G | A B2 A | "Gm" A G "D7" z .^F |
+"Gm" .G "(D.Laulu al Fine)" G,/2A,/2 B,/2=B,/2C/2^C/2 ||
+
+X:62
+T:Tuohinen Sormus  (Birch bark ring)
+M:2/4
+L:1/16
+Q:1/4=80
+S:arr. Eira Mattsson (Washington DC Finlandia Foundation) ~1976
+R:jenkka
+B:T
+K:Em
+|: "Em" B2BG E2EG | "B7" F2F^D B,4 | F2B,2 F2GF |
+[1 E^DEF "B7" GFGA :|[2 E2E2 E2Be | !
+|: "Am" d2dc A2Ac | "Em" B2BG E3 E | "B7" B,^C^DE FAGF |
+[1 "Em" EFGA B2Be :|[2 "Em" E2E2 E4 ||
+
+X:63
+T:Tuusulan Polkka
+M:2/4
+L:1/16
+Q:1/4=120
+R:polka
+K:G
+|: d | "G" .e2.d2 .c2.B2 | "D7" D2FA FDFA |
+.d2.c2 .B2.A2 | "G" G2Bd BGBd | !
+.e2.d2 .c2.B2 | "D7" D2FA FDFA |
+.d2.c2 .B2.A2 | "G" .G2.B2 .G2 z :| !
+|: z | "C" c2eg eceg | "G" G2Bd BGBd |
+"D7" D2FA FDFA | "G" G2Bd BGBd | !
+"C" c2eg eceg | "G" G2Bd BGBc |
+.d2.c2 .B2.A2 | "G" .G2.B2 .G2 z :| !
+
+X:64
+T:Valiaikainen  (Life's trouble is only temporary)
+M:2/4
+L:1/16
+Q:1/4=80
+S:Eira Mattsson (Washington DC Finlandia Foundation) ~1976
+R:jenkka
+K:Em
+|: "B7" B,B, | "Em" E2EE GGFE | "Am" F2G2 A2BA |
+"Em" G2FE "B7" F2E^D "Em" E4 z2 :| !
+|: "Em" Bc | "Am" d2dd d2cB | "D7" c2c2 c2AB | c2cc c2BA | "B7" B2B2 B2GA | !
+"Em" B2BB B2AG | "Am" A2A2 A2BA | "Em" G2FE "B7" F2E^D | "Em" E4 z2 :||
+
+X:65
+T:Vanha Haamarssi Pohjanmaalta
+M:4/4
+L:1/8
+Q:1/4=100
+R:march
+K:D
+|: "A7" A | "D" f3 e/2d/2 "A" cd ec | "D" d2 d>d de fg |
+a2 a>f "A" g>f a>g | "D" f2 d>d d2 g/2f/2e/2d/2 | !
+"A" c2 c>c cd ec | "D" d2 f2 a3 f |
+"Em" gb ge "A" d2 c2 | "D" d2 d>d "fine" d3 :| !
+|: "A7" A | "D" d>e fg a2 a2 | "A" a>b c'd' a3 a |
+g2 a>g "D" f2 g>f | "A" e2 g>e dc BA | !
+"D" d>e fg a2 a2 | "A" a>b c'd' a3 a |
+"Em" ab ge "A" d2 c2 | "D" d2 "D.C. al fine" d>d d3 :||
+
+X:66
+T:Vanha Haamarssi Pohjanmaalta (harmony)
+M:4/4
+L:1/8
+Q:1/4=100
+R:march
+K:D
+|: "A7" A | "D" A4 "A" cB cA | "D" F2 F>F FG AG |
+F2 F>A "A" B>A c>B | "D" A2 A>A F2 B/2A/2G/2F/2 | !
+"A" E2 G>G AB GE | "D" F2 A2 F2 D2 |
+"Em" E2 G2 "A" A2 A2 | "D" [D2F2] [DF]>[DF] "fine" [D3F3] :| !
+|: "A7" A | "D" d>c de f2 f2 | "A" e>d ef g2 f2 |
+e2 f>e "D" d2 B>A | "A" G2 E>G BA GG | !
+"D" FG AG F2 F2 | "A" F>G AB d2 =c2 |
+"Em" B2 G2 "A" F2 A2 | "D" F2 "D.C. al fine" [FA]>[FA] [F3A3] :||
+
+X:67
+T:Vanha Merimies Muistelee  (The Old Sailor Reminisces)
+M:3/4
+L:1/4
+Q:1/4=160
+R:waltz
+K:G
+"D7" D/2B,/2C/2 | "G" D2 D | G2 A | B (G2 | G) z A/2A/2 |
+A G>B, | D2 E | "D7" (F3 | F) z D/2D/2 | !
+c B A | E F>D | "G" G3 | D2 ^D |
+"C" ECE | "D7" A2 B | (A3 | A) z/2 D/2B,/2C/2 | !
+"G" D D D | G G>A | B (G2 | G) z G/2G/2 |
+"C" c c c | G2 A | "G" (B3 | B) z/2 B/2B/2B/2 | !
+"Am" A E F | A G E | "G" D B, D | G B G |
+"D7" A3 | E2 F | "G" (G3 | G) z/2 ||
+
+X:68
+T:Varjele Hyvaa Isa  (God, protect the child)
+M:2/4
+L:1/16
+Q:1/4=80
+S:arr. Eira Mattsson (Washington DC Finlandia Foundation) ~1976
+R:jenkka
+K:Am
+"Am" E2ED CCCB, | C2CB, A,2A,2 | "Dm" AAAG F2FE | D3C "E7" B,2B,2 | !
+"Am"CCCD E2ED | CCCB, A,2A,B, | C2CC "E7" B,2B,B, | "Am" A,2A,2 A,2 z2 ||
+
+X:69
+T:Vesivehmaan Jenkka
+M:2/4
+L:1/16
+Q:1/4=80
+S:(play parts A-B-A-C-A)
+R:jenkka
+P:A
+K:G
+|: "G" BBBA "C" GGGE | "G" DDDB, D2G2 | "D7" FFFG A2Ac | "G" BcBA G2D2 | !
+BBBA "C" GGGE | "G" DDDG B2Bd | "D7" DDDF A2BA | "G" G2G2G2 z2 :| !
+P:B
+|: "Em" EGBe Begb | "Am" cec'b a2a2 | "B7" bc'ba f^dfa | baBg "Em" ~f2e2 | !
+"Em" EGBe Begb | "Am" cec'b a2a2 | "B7"  b2ba f^dgf | "Em" e2e2e2 z2 :| !
+P:C
+|: "G" bagf edcB | "Am" dcec A2A2 | "D7" agfe d2dg | "G" bagf ~e2d2 | !
+"G" bagf edcB | "Am" dcec A2cg | "D7" f2fe AcBA | "G" G2B2G2 z2 :||
+
+X:70
+T:Viel' Kerran  (Once more)
+M:4/4
+L:1/4
+Q:1/4=240
+R:humppa
+P:Intro
+K:Dm
+A d f | "Dm" (a4 | a) A d f | a _a "Gm" (g2 | "A" g) A ^c e |
+a2 g2 | e2 f2 | "Dm" (d4 | d) z d z |
+P:Instr
+"Dm" d e d e | d e d c | A2 A2 | A4 |
+"A7" G A G A | G A G F | "Dm" (D4 | D4) |
+"Dm" d e d e | d e d c | A2 A2 | A4 |
+"F" c A =B c | "G" d =B c d | "A" e2 ^c2 | =B2 A2 |
+"Dm" d4 | A4 | "Gm" G ^F G A | B4 |
+"Dm" A B "Gm" G A | "Dm" F2 "A" E2 | "Dm" (D4 | D4) |
+d4 | a4 | "Gm" g ^f g a | b4  |
+"Dm" a b "Gm" g a | "Dm" f2 "A" e2 | "Dm       fine" (d4 | d} |
+P:Laulu
+|: "Dm" A, D F | (A4 | A) A, D F | A _A "Gm" (G2 | "A7" G) A, ^C E |
+A2 G2 | E2 F2 | E _E "Dm" (D2 | D A, D F | !
+(A4 | A) A, D F | A _A "Gm" (G2 | "A7" G) A, ^C E |
+A2 G2 | E2 F2 | "Dm" (D4 | D) .D .D ._D | !
+"C7" C2 (c2 | c) G G ^G | "F" (A4 | A) D D _D |
+"C7" C D E G | c B A ^G | "F" (A4 | "Dm" A) A, D F | !
+(A4 | A) A, D F | A _A "Gm" (G2 | "A" G) A, ^C E |
+A2 G2 | E2 F2 |[1 "Dm" (D4 | D) :|[2 "Dm  d.Instr al fine" (D4 | D) ||
+
+X:71
+T:Vihtorin Jenkka  (Victor's jenkka)
+M:2/4
+L:1/8
+Q:1/4=80
+C:Vihtori Hassinen
+S:Play A - B - C - B (B_org is organ bass accomp to part B)
+R:jenkka
+K:Am
+|: "E7" E | "Am" A>B c>d | c2 "E7" B2 |
+e>f e/2d/2c/2B/2 | "Am" A/2B/2c/2d/2 "E7" eE | !
+"Am" A>B c>d | c2 "E7" B2 |
+e>f e/2d/2c/2B/2 | "Am" c3 :| !
+P:B
+|: (3B/2c/2d/2 | "Am" ee "Dm" f>e | "G" ed d/2c/2B/2c/2 |
+"Dm" dd "E7" e>d | dc c/B/2A | !
+"Am" AE/2A/2 cE/2A/2 | cB "E7" B/2^G/2E/2G/2 |
+cB B/2^G/2E/2G/2 | "Am" BA A :| !
+P:C
+|: E | "Am" AE/2A/2 cE/2A/2 | cB "E7" B/2^G/2E/2G/2 |
+"Am" cB "E7" B/2^G/2E/2G/2 | BA "Am" AE | !
+AE/2A/2 cE/2A/2 | cB "E7" B/2^G/2E/2G/2 |
+"Am" cB "E7" B/2^G/2E/2G/2 | BA "Am" A :|
+P:B_org
+"C2_E_F" z2 z z | "G2" z2 "D2" z2 |
+"B2" z2 "E" z "G" z | "AB" z2 "C2" z2 |
+"A2" z2 "F2" z2 | "E2" z2 "B2" z2 |
+"F" z "E" z "C" z "A" z | "A2" z2 "A2" z2 ||
+
+X:72
+T:Vilea Svengaa
+M:4/4
+L:1/8
+Q:1/4=120
+C:Dick Atlee
+S:Trevor Corson's 40th birthday, July 2009
+R:humppa
+N:Trevor, an avid contra and swing dancer, became interested in things
+N:Finnish for romantic reasons.  The tune's name is the translation the
+N:Finnish embassy provided for "Still Swinging;" a humppa is a Finnish
+N:foxtrot
+K:Dm
+"Dm" f d2 d "A7" e2 ^c2 | "Gm" d "A7" e2 f "Dm" dDFA | !
+|: "Dm" d z A c2 "Gm" B2 G | "Dm" A z F G2 "A7" E F2 | "Edim" E F2 G^G A2 =B |!
+"A7" c^cd^d ec=de | "Dm" fd z A "Gm" f2 e2 | "C" ed z B "F" d2 c2 | !
+"Gm" BG z E "A7" AEGE |[1 "Gm" G z/2 F/2 "A7" EF "Dm" D/2 z/2A,DF :|
+[2 "Gm" G z/2 F/2 "A7" EF "Dm" D z A/2=B/2^c/2e/2 | !
+|: "Dm" fed f2 e2 d | "C" edc e2 d2 c |
+"Bb" dcB d2 c2 B | "A7" A2 =B ^c2 d2 e | !
+"Dm" fde f2 a2 f | "C" gce g2 b2 g |
+"Bb" fdf b2 d f2 | "A7" e2  z2 e2 f2 :| !
+"Dm" A2 D F2 DGA | "Gm" B2 A G2 F2 F |
+"C" G2 F E2 CFG | "A7" A2 G A2 GFE | !
+"Dm" F z ED z  DEF | "C" G z FE z EFG |
+"Bb" F z ED z E F2 | "A7" (E4 E) A=B^c | !
+"Dm" d2 Ac z "Gm" B2 G | "Dm" A2 FG z "A7" E F2 |
+"Edim" E F2 G^G A2 =B | "A7" c^cd^d ec=de | !
+"Dm" fd z A "Gm" f2 e2 | "C" ed z B "F" d2 c2 |
+"Gm" BG z E "A7" AEGE |"Gm" G z/2 F/2 "A7" EF "Dm" D z [F2A2d2] ||
+
+X:73
+T:Villen Kansa  (with Willie)
+M:2/4
+L:1/16
+Q:1/4=80
+S:arr. Eira Mattsson (Washington DC Finlandia Society) ~1976
+R:jenkka
+N:This is the part used for the medley; there is obviously more to the tune
+K:Am
+"Am" c2cc "E7" B2B2 | "Am" A2A2 "E7" E2E2 | "Dm" D2DF A2AA | "Am" CCCE A2A2 |!
+"E7" E2EF EDCB, | "Am" A,2C2 E4 | "E7" E2E^G B2cc | "Am" B2A2 A3E | !
+c2cc "E7" B2B2 | "Am" A2A2 "E7" E2E2 | "Dm" DDDF A2AA | "Am" C2CE A2A2 | !
+"E7" EEEF EDCB, | "Am" A,2C2 E3E | "E7" EEE^G B2cc | "Am" B2A2 A2EE | !
+c2BA c2BA | ccBA "Dm" B4 | "G7" B2AG B2AG | "C" A2GE G4 | !
+"Dm" FEDE FAGF | "Am" F2E2 E2E2 | "Dm" D2DD "B7" ^D2D2 | "E7" E4 E4 ||
+
+X:74
+T:Villen Kansa Medley
+M:2/4
+L:1/16
+Q:1/4=80
+C:arr. Eira Mattsson (Washington DC Finlandia Foundation) ~1976
+S:Villen Kansa, Kuna Mina.. Varjele Hyvaa Issa, Nikkeli Markka, Humu-Pekka
+R:jenkka
+P:VK,KM,VHI,NM,HP
+N:1. Villen Kansa
+2. Kuna Mina Koto Ani Laksin
+3. Varjele Hyvaa Isa
+4. Nikkeli Markka
+5. Humu-Pekka
+K:Am
+P:VK
+"Am" c2cc "E7" B2B2 | "Am" A2A2 "E7" E2E2 | "Dm" D2DF A2AA | "Am" CCCE A2A2 |
+"E7" E2EF EDCB, | "Am" A,2C2 E4 | !
+"E7" E2E^G B2cc | "Am" B2A2 A3E | c2cc "E7" B2B2 | "Am" A2A2 "E7" E2E2 |
+"Dm" DDDF A2AA | "Am" C2CE A2A2 | !
+"E7" EEEF EDCB, | "Am" A,2C2 E3E | "E7" EEE^G B2cc | "Am" B2A2 A2EE |
+c2BA c2BA | ccBA "Dm" B4 | !
+"G7" B2AG B2AG | "C" A2GE G4 | "Dm" FEDE FAGF | "Am" F2E2 E2E2 |
+"Dm" D2DD "B7" ^D2D2 | "E7" E4 E4 | !
+P:KM
+"Am" A,2A,A, CCEE | A4 A2B2 | "Dm" c2AA A2F2 | "Am" E4 z4 |
+"Am" A,2A,A, CCEE | A4 A2B2 | "Dm" c2AA A2F2 | "Am" E4 z2 E2 | !
+"Dm" G2GG DDDF | "Am" A2A2 E2ED | C2CC "E7" B,2B,2 | "Am" A,4 z2 E2 |
+"Dm" G2GG DDDF | "Am" A2A2 E2ED | C2CC "E7" B,2B,2 | "Am" A,2A,2 A,2 z2 | !
+P:VHI
+"Am" E2ED CCCB, | C2CB, A,2A,2 | "Dm" AAAG F2FE | D3C "E7" B,2B,2 |
+"Am"CCCD E2ED | CCCB, A,2A,B, | C2CC "E7" B,2B,B, | "Am" A,2A,2 A,2 z2 | !
+P:NM
+"Am" EEcB A2EF | "Dm" G2FF "E7" D2B,2 |
+"Am" CCDD EEDC | "E7" B,2EF EDCB, |
+"Am" EEcB A2EF | "Dm" GGFF "E7" D2B,B, | !
+"Am" E2DC "E7" B,DCB, | "Am" A,2A,2 A,2 z2 |
+"E7" B,B,CC DDB,B, | "Am" C2D2 E2 z2 |
+"E7" EE^FF ^GGcB | "Dm" A2F2 "Am" E2 z2 | !
+"E7" B,B,CC DDB,B, | "Am" C2D2 E2 z2 |
+"E7" EE^FF ^GGcB | "Am" A2A2 A2 z2 | !
+P:HP
+"Am" A,A,CE AAAE | "Dm" FFFD "Am" E2E2 |
+"Dm" D2DB, "Am" CCCA, | "E7" B,2EF EDCB, | !
+"Am" A,A,CE AAAE | "Dm" FFFD "Am" E2E2 |
+c2cA "E7" BBB^G | "Am" A2A2 A2 z2 | !
+|: "Dm" FFdc B2B2 | "Am" EEcB A2A2 |
+"Dm" F2FD "Am" E2EE | "E7" E2cB "Am" A2 z2 :||
+
+X:75
+T:Violan Masurkka
+M:3/4
+L:1/8
+Q:1/4=150
+R:masurkka
+K:Em
+|: "Em" B,>E G>B A>G | "Am" F>G A2 F2 | "B" B,>^D F>A G>F | "Em" G>A B4 | !
+B,>E G>B A>G | "Am" F>G A2 F2 | "B" B,>^D F>A G>F | "Em" E2 E4 :|| !
+|: "Em" B>A B>A B>c | "Am" A>G F2 F2 | A>G A2 B2 | "Em" G>F E2 G2 | !
+B,>E G>B A>G | "Am" F>G A2 F2 | "B" B,>^D F>A G>F |[1 "Em" G>A B4 :|
+[2 "Em" E2 E4 ||
+
+X:76
+T:Vuoma-Pertin Masurkka
+M:3/4
+L:1/8
+Q:1/4=150
+R:masurkka
+K:Em
+|: "Em" (3EGB ee BB | "Am" cB AF Ac | "B"B>c BA GF | "Em" E2 (3EGB e2 | !
+(3EGB ee BB | "Am" cB AF Ac | "B"B>c BA GF | "Em" E2 E4 :| !
+"Em" EG BB "Am" AA | "B" G2 F4 | Fc B3 A | "Em" (3GBG E4 | !
+EG BB "Am" AA | "B" G2 F4 | Bc BA GF | "Em" E2 E4 ||
+
+X:77
+T:Vuoma-Pertin Masurkka Medley
+M:3/4
+L:1/8
+Q:1/4=150
+S:Vuoma-Pertin masurkka, Violan masurkka
+R:masurkka
+P:VPM,VM,VPM
+K:Em
+P:VPM
+|: "Em" (3EGB ee BB | "Am" cB AF Ac | "B"B>c BA GF |
+"Em" E2 (3EGB e2 | (3EGB ee BB | !
+"Am" cB AF Ac | "B"B>c BA GF | "Em" E2 E4 :|
+|: "Em" EG BB "Am" AA | "B" G2 F4 | !
+| Fc B3 A | "Em" (3GBG E4 | EG BB "Am" AA |
+"B" G2 F4 | Bc BA GF | "Em" E2 E4 :| !
+P:VM
+|: "Em" B,>E G>B A>G | "Am" F>G A2 F2 | "B" B,>^D F>A G>F |
+"Em" G>A B4 | B,>E G>B A>G | !
+"Am" F>G A2 F2 | "B" B,>^D F>A G>F | "Em" E2 E4 :|
+|: "Em" B>A B>A B>c | "Am" A>G F2 F2 | !
+| A>G A2 B2 | "Em" G>F E2 G2 | B,>E G>B A>G | "Am" F>G A2 F2 |
+"B" B,>^D F>A G>F |[1 "Em" G>A B4 :|[2 "Em" E2 E4 || !
+P:VPM
+|: "Em" (3EGB ee BB | "Am" cB AF Ac | "B"B>c BA GF |
+"Em" E2 (3EGB e2 | (3EGB ee BB | !
+"Am" cB AF Ac | "B"B>c BA GF | "Em" E2 E4 :|
+|: "Em" EG BB "Am" AA | "B" G2 F4 | !
+| Fc B3 A | "Em" (3GBG E4 | EG BB "Am" AA |
+"B" G2 F4 | Bc BA GF | "Em" E2 E4 :| !
+
+X:78
+T:Waltz from Pajala
+M:3/4
+L:1/8
+Q:1/4=140
+R:waltz
+K:A
+|: cd | "A" e2 ec ea | e3 dce | "Bm" d2 dc df | d3 cBG |
+"E7" E2 G2 B2 | d2 c2 B2 | "A" A3 c c2 | A3 ccd | !
+e2 ec ea | e3 dce | "Bm" d2 dc df | d3 cBG |
+"E7" E2 G2 B2 | d2 c2 B2 | "A" A3 A A2 | A2 z2 :| !
+|: cd | "A" e2 e3 c | A6 | Ac ce dc | "E" B6 |
+B2 B3 c | d4 ff | "D" f2 g2 f2 | "A" (e4 e) (e | e2) c2 B2 | !
+"F#m" A4 A (A | A2) c2 A2 | "Bm" F6 | F2 G2 F2 | E4 d2 |
+c4 B2 | "A" A3 A A2 | A4 :|
+
+X:79
+T:Waltz from Pajala (harmony)
+M:3/4
+L:1/8
+Q:1/4=140
+R:waltz
+K:A
+|: E2 | "A" A6 | c6 | "Bm" B6 | d6 |
+"E7" e6 | [d2E2] [c2F2] [B2G2] | "A" A2 G2 F2 | c2 B4 | !
+A6 | c6 | "Bm" B6 | d6 |
+"E" e6 | E2 F2 G2 | "A" A2 [c2E2] [B2C2] | [A2A,2] z2 :| !
+|: E2 | "A" A6 | c6 | A2 c2 ^d2 | "E" e6 |
+{A}B6 | G6 | "D" F2 G2 F2 | "A" E6 | !
+A2 A4 | "F#m" F6 | F6 | "Bm" B4 c2 | d2 z2 d2 |
+"E" e6 | E2 F2 G2 | "A" A2 E2 C2 | A,6 :|
+
+% ------------------------------------------------------------------------
+% This second of two sections contains the tunes added to the site after
+% 6 September 2010.
+% Updates to this section: 15 September 2010
+
+X:80
+T:Haihintulo Marssi
+M:4/4
+L:1/16
+Q:1/4=100
+R:march
+K:C
+|: "C" c4 G2c2 e3d cdef | g2^fg agfg e4 g2e2 | "G" f3e d2f2 "C" e2d2 c2c2 | !
+"G" Bcd2 dedc B2G2 A2B2 | "C" c4 G2c2 e3d cdef | g2^fg agfg e3d c2c2 | !
+"G" Bcde f2a2 "D" g4 ^f2d2 | "G" g4 ~g2^f2 g6 G2 :|
+"G" Bcd2 d2^c2 d4 e4 | !
+f3d B2G2 f2d2 BGAB | "C" cdcB c2d2 e4 f2ef | g2c2 e2g2 c'2g2 e2c2 | !
+"F" f2a2 c'2b2 "C" ~a2g2 g3e | "G" fefg a2g2 "C" ~f2e2 edfe |
+"G" d3e fedc B2G2 A2B2 | !
+"C" c3d ~c2B2 c4 G4 | "G" Bcd2 d2^c2 d4 e4 | f3d B2G2 f2d2 BGAB | !
+"C" c2dc G2c2 e2fe c2e2 | g2ag e2g2 c'2g2 e2c2 | "F" a4 a4 "C" g6 e2 | !
+"G" f3g a2f2 "C" e2c2 e2g2 | "G" d3e fedc B2G2 A2B2 | "C" c3d ~c2B2 c8 ||
+
+X:81
+T:Haihintulo Marssi (harmony)
+M:4/4
+L:1/16
+Q:1/4=100
+R:march
+K:C
+|: "C" E4 C3E c4 G4 | e2ee e2e2 c4 c3c |
+"G" d2c2 B2A2 "C" G4 E4 | "G" F4 G3B B2B2 A2G2 | !
+"C" e4 e4 c4 G4 | E4 e4 c3d B3G |
+"G" F4 F4 "D" G4 A4 | "G" B4 B3B B4 G4 :| !
+|: "G" F2B2 B2_B2 =B4 c4 | B2G2 F2D2 F2G2 F2D2 |
+"C" G3C E2G2 c4 d4 | e4 c4 e4 G4 | !
+"F" A4 A4 "C" c4 e4 | "G" f4 f4 "C" c4 e4 |
+"G" d4 G4 B2B2 A2G2 |[1 "C" E4 E3E E4 G4 :|[2 "C" c4 e3e e8 ||
+
+X:82
+T:Irja (tango)
+M:4/4
+L:1/8
+Q:1/4=120
+S:Arvo Koskimaa, Sov. Jaakko Salo
+R:tango
+K:Em
+"Intro" GFE | "Am" [d2B2] [c3A3] AGF | "Em" [c2A2] [B3G3] B,EG |
+"Am6" [B2E2C2] A^G "B7" [A2^D2B,2] =GF | "Em" [E2G,2] "Laulu" B,D C2 B,2 | !
+%
+"Em" B4 (G4 | G)BcB AGFE | "Am" G4 (F4 | "B7" F2) B,D C2 B,2 |
+"Am" A4 (F4 | "B7" F)B,^DF BAGF | !
+"Em" GB,^C^D EDEF | G2 B,D C2 B,2 | "Em" B4 (G4 | G)BcB AGFE |
+"Am" G4 (F4 | "B7" F2) B,^C ^D2 F2 | !
+"Am" A4 (F4 | "B7" F)B,^DF BAGF |
+"Em" (E4 "Am6" E4 | "Em" E2) EF "E7" ^G2 AB |
+"Am" c4 (A4 | "D7" A)A^GA ([d2F2D2] [c2F2D2]) | !
+"G" [B4G4D4] "B7" [^D4A4] | "Em" [B2G2E2] EF G2 AB |
+"Am" A4 (F4 | "B7" F)F^EF ([^D2B2] [^D2A2]) |
+"Em" [G4E4] E^D=D>C | [G2B,2] B,D C2 B,2 | !
+B4 (G4 | G)BcB AGFE | "Am" G4 (F4 | "B7" F2) B,D C2 B,2 |
+"Am" A4 F4 | "B7" B3 A G2 F2 | "Em" (E8 | "Fine" E) z "Instr" .B2 .e B,EG | !
+%s
+"Em" B G2 E "Am" A2 GF | "Em" G2 (E2 E)EGB | ee/2e/2ee "Am" fedc |
+"Em" ([B4G4] [BG])BcB | "Am6" [AEC] F2 G "B7" [^D2B,2A2] BA |
+"Em" G E2 F "Em7" G2 FG | !
+"F#7" [F2^A2] (F2 F)^C^DE | "B7" [B,2^D2F2] (B2 B)B,EB |
+"Em" B G2 E "Am" A2 GF | "Em" G2 (E2 E)EFG |
+"Am" A B2 c "D7" D2 E2 | "G" [B2G2D2] "B7" [^D2A2] "Em" [BGE]GFE | !
+"Am" [d2B2] ([c2A2] [cA])AGF | "Em" [c2A2] ([B2G2] [BG])B,EG |
+"Am6" [B2E2C2] A^G "B7" [B,2^D2A2] =GF |
+"Em_Da Laulu al Fine" [E2G,2] | !
+
+X:83
+T:Lundgrenin Marssi
+M:4/4
+L:1/8
+Q:1/4=100
+R:march
+K:G
+d2 |: "G" g2 d>c B2 G2 | "D" Ad/2d/2 dd d3 c |
+"G" B2 B.B "D" dc AF |[1 "G" AG/2G/2 GG G2 Bd :|[2 "G" A2 G>G G2 Bd || !
+"G" g>f ed g>f ed | "C" g2 f>e c3 d |
+"D" f>e dc f>e dc | "G" e2 d>c B3 d | !
+"G" g>f ed g>f ed | "C" g2 f>e c3 e |
+"D7" ed/2d/2 dd dd ef | "G" g2 g>g g z | !
+|: d2 | "G" G2 B>d d3 B | "D7" c2 Bc/2B/2 A3 G |
+F2 Ac f3 e | "G" ed/2d/2 dc "D7" cB BA | !
+"G" G2 B>d d3 B | "Am" c2 Bc/2B/2 A3 g |
+"D7" ff/2f/2 ff fd ef | "G" g2 g>g g z :||

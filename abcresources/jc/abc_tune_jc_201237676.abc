@@ -1,0 +1,18 @@
+X: 281	% 76
+T: Cotton Eyed Joe or The Johnson Gal
+N: The book has "Eeyed", clearly a typo.
+O: Old Tune
+N: Handwritten: "Round dance"
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.28 #1
+N: The double bar near the middle is in the wrong place.
+R: march, reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="76"
+[| "^Tempo polka"\
+D3EG3B | BAG2 B4 | D3EG2B2 | BAG2 A4 |\
+D3EG2B2 | BAG2 B4 | g3ed3B || A2GA G4 |
+g3ed2B2 | BAG2 B4 | g3ed2B2 | BAG2 A4 |\
+g3ed3B | BAG2 B4 | D3EG2B2 | BGA2 G4 |]

@@ -1,0 +1,29 @@
+X: 21071
+T: BAYADERS SETT (tune 4)
+C:
+%R: reel, march, hornpipe
+B: Elias Howe "The Musician's Companion" 1843 p.107 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+DE |\
+F2F2 F2F2 | B3c d>dc>B | c>Bc>B c>ed>c | B>cd>B F2DE |\
+F2F2 F2F2 | B3c d>dc>B | c>Bc>B c>ed>c | B6 H|]
+(3(Bcd) |\
+e>de>d e>ed>c | d>cd>c d>dc>B | B>AG>F F2GA | B>Fd>B f2cd |\
+e>de>d e>ed>c | d>cd>c d>dc>B | B>AG>F F2GA | B2B2"^D.C."B2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back.
+%% balance four,
+%% next two forward.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

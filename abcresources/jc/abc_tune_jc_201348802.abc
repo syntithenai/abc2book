@@ -1,0 +1,60 @@
+X: 1
+T: Valse Musette
+C: Jo Sony
+R: waltz
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: Printed MS of unknown origin
+N: Page labelled "\251 1988 by Paul Beuscher, Paris, France."
+M: 3/4
+L: 1/8
+P: IABBACCA
+K: C
+%%indent 200
+"intro"\
+| "Dm"agfedc | "G7"BAGFED \
+| "C"CEGceg | c'2cegc' ||
+"A"\
+|: !Segno!y\
+  "C"((3bc'b) aged | (3cdc BGEC \
+| "F"((3B,CB,) A,4- | A,G, A,B,CD \
+| "C"EC EG Ac | ((3BcB) AGEC |
+| "G7"[F6-D6-] | [F2D2] GB df \
+| "G7"(3gag fedc | ((3BdB) AGFE \
+| [D6-B,6-] | [DB,]B, CD EF |
+| "G7"GD EF GA | BG AB df \
+| "C"[e6-c6-] | [e2c2] cegc' \
+| "C"((3bc'b) ag ed | ((3cdc) BG EC |
+| "F"((3B,CB,) A,6- | A,G, A,B,CD \
+| "C"EC DEFG | "C7"AE FGA_B \
+| "F"[A6-F6-] | [AF]A ^GABc |
+| "f#/D7"dc BA ^GA | "G7"Bcdef^f \
+| "C"[g6-e6-] | [ge] f'e'd'c'b \
+| "Dm"agfedc | "G7"BAGFED |
+!Coda!| "C"CEGc eg | "C"c'2 "Fine"y cegc' \
+"B"\
+|:"G7"[c'3f3d3] [bfd] [b2f2d2] | [bfd][afd] [a2f2d2] [b2f2d2] \
+| "C"[a3e3c3] [gec] [g2e2c2] | z2 cega |
+| "G7"f/g/f/e/ dc BA | G2GB df \
+| "C"e/f/e/d/ cB A_A | "C"G2 ce gc' \
+| "G7"[c'3f3d3] [bfd] [b2f2d2] | [bfd][afd] [a2f2d2] [b2f2d2] |
+| "C"[a3e3c3] [gec] [g2e2c2] | "A7"[a3e2^c3] [gec] [g2e2c2] \
+| "Dm"f'e'd'c'ba | "G7"gfedcB \
+| "C"((3ceg) ((3c'ge ) ((3ceg) | c'2 ce"d.S.al Trio"gc' :|
+P: Trio
+!Coda!\
+| "C"CEGc eg | c'c defg \
+"C"\
+|:[K:F] "F"[a6f6c6] | "D7"[^f6c6A6] | "Gm"((3gag) f2 d2 | "C7"((3cdc) B2 G2 \
+| "C7"E2 G3 B | [e2c2] [d3B3] [cA] |
+| "F"[A6-F6-] | [AF]A Bcde \
+| "F"[f6c6A6] | "D7"[a6^f6c6] \
+| "Gm"((3bc'b) g6- | g2 f2 d2 |
+| "C7"(3efe) d4 | ((3cdc) B2 G2 \
+|1 "F"A2 [c4-A4-] | [cA]c defg \
+:|2 F2 F2 ^F2 | "G7"G2 cegc' "d.S.al Fine"y|]
+
+%%sep 1 1 500
+
+% = = = = = = = = = = = = = = = = = = = = = = = = =
+
+%%sep 1 1 500

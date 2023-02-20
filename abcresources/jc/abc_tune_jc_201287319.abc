@@ -1,0 +1,94 @@
+
+X: 1
+T: Hommage \`a Gilles Laprise 0
+C: Philippe Bruneau
+B: Portland Collection v.3 p.93
+S: http://archive.folx.org/tune/reel/hommage-gilles-laprise-2331 2015-7-14
+S: https://www.youtube.com/watch?v=Ni3x-uwAumo [Montréal flash mob 2010-7-21]
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: Phillippe says this was originally in C. This may have been the key of the accordion he was playing at the time.
+M: 2/4
+L: 1/16
+%P: Basic version:
+K: D
+|:\
+"D"a4 "A7"gfeg | "D"fefg afdf | "A7"edef gecA |\
+[1,3 "D"defg agfg :|[2,4 "D"df"A"ec "D"d4 :|
+|:\
+"D"Afed "G"B4 | Bgfe "D(A7)"[a4A4] | "D"Afed "A7"cAce |\
+[1,3 ageg "D"fafd :|[2,4 "A7"agec "D"d4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Hommage \`a Gilles Laprise 1
+C: Philippe Bruneau
+S: http://archive.folx.org/tune/reel/hommage-gilles-laprise-2331 2015-7-14
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+fg |\
+"D"a3a "A7"gfeg | "D"fefg afdf | "Em"edef "A7"gecA | "D"defg "A7"agfg |
+"D"a3a "A7"gfeg | "D(Bm)"fefg afdf | "Em"edef "A7"gecA |1 dfec "D"d2 :|2 dfec "D"d2AA ||
+|:\
+"D"Afed "G"B3B | "Em"Bgfe "A7"a2aa | "D"Afed "A"cAce | "A7"ageg "D"fafd |
+"D"Afed "G"B3B | "Em"Bgfe "A7"a2aa | "D"Afed "A"cAce |1 "A7"agec "D"d2dd :|2 "A7"agec "D"d2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Hommage \`a Gilles Laprise 2
+C: Philippe Bruneau
+S: Printed page from Paul Lizotte at a Roaring Jelly practice, slightly simplified.
+N: This version has the bar lines shifted in the 2nd part to match the "feel" of the chord changes.
+R: reel
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+fg ||\
+"Em"a3a "A7"gfeg | "D"fefg "Bm"afdf |\
+"Em"edef "A7"gecA | "D"defg agfg ||\
+"Em"a3a "A7"gfeg |
+"D"fefg "Bm"afdf |\
+"Em"edef "A7"gecA |[1 "D"dfec d2 :|\
+[2[M:6/4] "D"dfec d2AA Afed ||[M:C|]
+|:\
+"G"B3B Bgfe | "D"a2aa Afed |\
+"A7"cAce ageg | "D"fafd Afed |\
+"G"B3B Bgfe ||
+"D"a2aa Afed |\
+[1 "A7"cAce agec | "D"d2dd Afed :|\
+[2 "A7"cAce agec |[M:2/4] "D"d2 |]
+
+%%begintext
+%% The 3 versions are:
+%%   0  Basic version based on what several versions had in common.
+%%   1  From folx.org, plus chords from a group practice session.
+%%   2  Paul Lizotte's handout at a Roaring Jelly practice 2016-12-13.
+%%endtext
+%%begintext align
+%% This is a 32-bar Qu\'ebecois reel
+%% that has been transcribed in rather different ways.
+%% The reason is that it does something common in "French"
+%% music in the second part:
+%% The chord changes happen in the middle of measures.
+%% This has the effect of shifting the apparent downbeat between the parts.
+%% Version 1 shows it as a regular 32-bar reel with two 8-bar parts.
+%% Version 2 uses a 6/4 bar to shift the bar lines so that the chord
+%% changes happen on the downbeat. This can cause confusion in readers,
+%% but matches the "feel" of the tune when the downbeats are stressed.
+%%endtext
+%%begintext align
+%% Version 1 has somewhat complex chords, so the shifted
+%% stress in its second part isn't apparent on paper. If you omit
+%% the "unnecessary" Em chords and the A7 chords that follow plain
+%% A chords, the mid-bar chord changes become more visible.
+%% Changing the A7 chords in bars 2 and 5 to the D chords
+%% (as in the second version) will add to the effect.
+%% Version 2 makes the downbeat-shift effect clearer but for some people
+%% it produces confusion at the ends of the parts.
+%% French musicians often stress the beats equally,
+%% and for that style either version will work.
+%%endtext

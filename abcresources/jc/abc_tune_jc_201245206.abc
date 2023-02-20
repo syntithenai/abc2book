@@ -1,0 +1,26 @@
+X:1
+T: An Adventure at Margate
+N:
+C:Skillern (1780)
+S:
+A:
+O:
+R:
+M:6/8
+K:C
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 38 notes)
+K:C
+M:6/8
+L:1/16
+g2 e2 c2 g2 e2 c2 a4 g2 g6 g2 e2 c2 g2 e2 c2 f4 e2 e6 |g2 e2 c2 g2 e2 c2 a2 f2 c2 a2 f2 c2 e2 f2 g2 g2 f2 e2 c6 c6 |
+%W: A2
+% voice 1 (1 lines, 38 notes)
+g2 e2 c2 g2 e2 c2 a4 g2 g6 g2 e2 c2 g2 e2 c2 f4 e2 e6 |g2 e2 c2 g2 e2 c2 a2 f2 c2 a2 f2 c2 e2 f2 g2 g2 f2 e2 c6 c6 |
+%W: B1
+% voice 1 (1 lines, 46 notes)
+d2 e2 f2 f2 e2 d2 g2 e2 c2 g2 e2 c2 d2 e2 f2 f2 e2 d2 g2 e2 c2 c2 e2 g2 |a2 f2 a2 a2 f2 a2 g2 e2 g2 g2 e2 g2 a2 g2 f2 e2 f2 d2 c2 c2 c2 c6 |
+%W: B2
+% voice 1 (1 lines, 46 notes)
+d2 e2 f2 f2 e2 d2 g2 e2 c2 g2 e2 c2 d2 e2 f2 f2 e2 d2 g2 e2 c2 c2 e2 g2 |a2 f2 a2 a2 f2 a2 g2 e2 g2 g2 e2 g2 a2 g2 f2 e2 f2 d2 c2 c2 c2 c6 ||

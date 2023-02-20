@@ -1,0 +1,15 @@
+X: 1117
+T: Hardy Man the Fiddler   #2
+R: slipjig
+%S: s:2 b:10(5+5)
+B: O'Neill's 1850 #1117
+O: F.O'Neill
+Z: Michael D. Long, 12/09/98
+Z: Michael Hogan
+M: 9/8
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+"^A"|: A2 {BA}G FDE F2G | A3 AGA cAG | {AB}A2G FDF F2G | Add ded cAG "^B":: (A<d)d d2e f2f |
+| Add ded cAG |1 (A<d)d d2e f2g | agf ged cAG :|2 dcA cde f2g | agf ged cAG |]

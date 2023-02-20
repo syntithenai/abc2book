@@ -1,0 +1,32 @@
+X:1
+T: Young Phillis
+N:
+C:
+S:
+A:
+O:
+R:
+M:3/2
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 28 notes)
+K:G
+M:3/2
+L:1/16
+g8 |d4 e4 |d4 c2 |B2 A4 |B4 c2 |B2 A2 G2 |G4 d4 |g8 |e4 f2 |g2 a4 |g2 f2 e4 |f4 g2 |f2 e2 d2 |d8 |
+%W: A2
+% voice 1 (1 lines, 28 notes)
+g8 |d4 e4 |d4 c2 |B2 A4 |B4 c2 |B2 A2 G2 |G4 d4 |g8 |e4 f2 |g2 a4 |g2 f2 e4 |f4 g2 |f2 e2 d2 |d8 |
+%W: B1
+% voice 1 (1 lines, 27 notes)
+d4 f8 |g4 a4 |b2 c'2 b4 |a2 g2 f2 |g2 f2 e2 |^d4 b4 |c4 a4 |B4 g4 |A4 e4 |^d4 e4 |f4 d4 |e4 f4 |
+%W:
+% voice 1 (1 lines, 27 notes)
+g8 |d4 e4 |d4 c2 |B2 A4 |b4 c'2 |b2 a2 g2 |f4 e2 |d2 e4 |a4 d4 |g4 c4 |g4 f4 |g4 a4 |g2 f2 g8 |
+%W: B2
+% voice 1 (1 lines, 27 notes)
+d4 f8 |g4 a4 |b2 c'2 b4 |a2 g2 f2 |g2 f2 e2 |^d4 b4 |c4 a4 |B4 g4 |A4 e4 |^d4 e4 |f4 d4 |e4 f4 |
+%W:
+% voice 1 (1 lines, 27 notes)
+g8 |d4 e4 |d4 c2 |B2 A4 |b4 c'2 |b2 a2 g2 |f4 e2 |d2 e4 |a4 d4 |g4 c4 |g4 f4 |g4 a4 |g2 f2 g8 ||

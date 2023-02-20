@@ -1,0 +1,27 @@
+X: 12
+T: the Funny
+%R: jig
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.6 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+a2g fed | e2d cBA | Bcd efg | efd cBA |\
+a2g fed | e2d cBA | A2a B2b | fge d2 |]
+d |\
+d2b add'| g2a gfd | d2b add'| gaf e2d |\
+d2b add'| g2a gfd | B2b A2a | fge d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Tune play'd straight thro')
+%%begintext align
+%% Chain figure 6 round .| lead down the mid: up again & right & left at top .| .
+%%endtext
+%%text DOUBLE FIGURE (Each strain repeated)
+%%begintext align
+%% The 3 Ladies lead round the 3 Gent: .| the 3 Gent: lead round the 3 Ladies |:
+%% cross over 1 Cu: half figure at bottom .| & the double triangle |: .
+%%endtext

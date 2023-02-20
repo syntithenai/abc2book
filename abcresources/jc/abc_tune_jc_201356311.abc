@@ -1,0 +1,1308 @@
+
+X: 1
+T: 7-Takt Branle
+M:7/4
+R:Branle
+K:G
+BA|\
+G2GB AGA2 B2BABA | G2GB AGA2 G4 :: \
+Bc |\
+d2d2 edce dedcBc | d2d2 edce d4 :|
+
+%%sep 1 1 500
+
+X: 2
+T: Arme B\"urastand    [F]
+O: Alsatian branle
+D: Au greÌ des vents, "eÌtoile du matin"
+S: 2017 DEFFA Folk Band collection
+R: branle
+M: C|
+L: 1/8
+Q: 1/2=54
+K: F
+|:\
+"F"F3G A2BA | "C7"G2AG "F"F2C2 |\
+"F"A3B c2dc | "C7"B2cB "F"A4 :|\
+"F"c2dc d2c2 |
+"C/E"c2dc d2c2 |\
+"Cm/Eb"c2dc d2c2 | "Bb/D"c2dc d2c2 |\
+"F/C"c3B "F"A2F2 | "C7"G3A "F"F4 |]
+
+%%sep 1 1 500
+
+X: 3
+T: Arme B\"urastand    [G]
+O: Alsatian branle
+D: Au greÌ des vents, "eÌtoile du matin"
+S: 2017 DEFFA Folk Band collection
+R: branle
+M: C|
+L: 1/8
+Q: 1/2=54
+K: G
+|:\
+"G"G3A B2cB | "D7"A2BA "G"G2D2 |\
+"G"B3c d2ed | "D7"c2dc "G"B4 :|\
+"G"d2ed e2d2 |
+"D/F#"d2ed e2d2 |\
+"Dm/F"d2ed e2d2 | "C/E"d2ed e2d2 |\
+"G/D"d3c "G"B2G2 | "D7"A3B "G"G4 |]
+
+%%sep 1 1 500
+
+X: 4
+T: Branle
+R:Bourrée à 2 temps
+A:Bourbonnais
+O:France
+M:2/4
+L:1/8
+Q:1/8=220
+K:G
+B2 BA/2B/2|cB AG|B>A GF|GA BG|
+B2 BA/2B/2|cB AG|B>A GF|G4:|
+d2 dc/2d/2|ed cB|c2 cB/2c/2|dc BA|
+B2 BA/2B/2|cB AG|B>A GF|1GA BG:|2G4||
+
+%%sep 1 1 500
+
+X: 5
+T: Branle des Chevaux   [C]
+T: Horseplay
+C: T.Arbeau
+S: printed MS of unknown origin
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+K: Cmix
+|: "C"c>d ee | "Bb"fe df | "C"ed cB | "Dm"A2 "Gm"G2 \
+|  "C"c>d ee | "Bb"fe df | "C"ec "Bb"dd | "C"c4 :|
+|: "C"g>f "Bb"dd/e/ | fe/d/ "C"ce | "Bb"dc "Gm"Bc | "Bb"d2 d2 \
+|  "C"gf/e/ "Bb"dd/e/ | fe/d/ "C"ce | "Bb"dc cB | "C"c4 :|
+
+%%sep 1 1 500
+
+X: 6
+T: Branle des Chevaux   [D]
+T: Horseplay
+C: T.Arbeau
+S: printed MS of unknown origin
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+K: Dmix
+|: "D"d>e ff | "C"gf eg | "D"fe dc | "Em"B2 "Am"A2 \
+|  "D"d>e ff | "C"gf eg | "D"fd "C"ee | "D"d4 :|
+|: "D"a>g "C"ee/f/ | gf/e/ "D"df | "C"ed "Am"cd | "C"e2 e2 \
+|  "D"ag/f/ "C"ee/f/ | gf/e/ "D"df | "C"ed dc | "D"d4 :|
+
+%%sep 1 1 500
+
+X: 7
+T: Branle Normand
+T: Circle dance from Normandy
+M: 2/4
+L: 1/8
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: printed & handwritten MSS of unknown origin
+K: G
+%%indent 290
+"Intro"|"G"BA Bc | de dc | B2 "D7"A2 | "G"G4 ||
+|:"G"B2 Bc | d2 d2 | B2 "D7"A2 | "G"G4 \
+| "G"BA Bc | de dc | B2 "D7"A2 | "G"G4 |
+| "G"d2 ef | g2 g2 | "C"f2 e2 | "G"d4 \
+| "C"ef ge | "G"d2 d2 | "C"ef ge | "G"d4 |
+| "G"BA Bc | de dc | Bc BA | "D7"A2 "G"G2 \
+| "G"BA Bc | de dc | B2 "D7"A2 | "G"G4 :|
+
+%%sep 1 1 500
+
+X: 8
+T: Branle Normand
+T: Circle dance from Normandy
+M: 2/4
+L: 1/8
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: printed & handwritten MSS of unknown origin
+K: G
+%%indent 290
+"^Intro"|"G"BA Bc | de dc | B2 "D7"A2 | "G"G4 ||
+|:"G"B2 Bc | d2 d2 | B2 "D7"A2 | "G"G4 \
+| "G"BA Bc | de dc | B2 "D7"A2 | "G"G4 |
+| "G"d2 ef | g2 g2 | "C"f2 e2 | "G"d4 \
+| "C"ef ge | "G"d2 d2 | "C"ef ge | "G"d4 |
+| "G"BA Bc | de dc | Bc BA | "D7"A2 "G"G2 \
+| "G"BA Bc | de dc | B2 "D7"A2 | "G"G4 :|
+
+%%sep 1 1 500
+
+X: 9
+T: Branle : So\,co, mas amoretas
+C:Annie Hourdebaigt / Christian Josué, fichier abc : Bernard Loffet
+Z:Bernard Loffet
+L:1/8
+%Q:358
+M:2/2
+K:C
+[A2A,2]A,2 [G2G,2][AG,]B | [c2F,2][d2F,2] [BG,]c[BG,]c |\
+[A2A,2][BA,]c [d2F,2][c2F,2] | [B2G,2]G,2 [A2A,2][G2G,2] |\
+[A2A,2]A,2 [G2G,2][AG,]B | [c2F,2][d2F,2] [BG,]c[BG,]c |\
+[A2A,2][BA,]c [d2F,2][c2F,2] | [BG,]A[GG,]B [A2A,2]A,2 |\
+[A2A,2][BA,]c [d2F,2]F,c | [d2G,2][e2G,2] [c2C,2]C,2 |\
+[f2F,2][e2F,2] [d2D,2][c2D,2] | [B2E,2][AA,]B [c2A,2][B2A,2] |\
+[A2A,2][BA,]c [d2F,2]F,c | [dG,]e[dG,]e [c2C,2]C,2 |\
+[f2F,2][e2F,2] [d2D,2][c2D,2] | [BE,]A[GE,]B [A2A,2]A,2 |]
+%
+
+%%sep 1 1 500
+
+X: 10
+T: Branl Normande
+O: France
+%info: line
+K: C
+
+%%sep 1 1 500
+
+X: 11
+M: C|
+L: 1/8
+P: Mon p\`ere avait un petit boit
+K: D
+|: "D"F2FF A2A2 | "A7"F2E2 "D"D4 | FEFG ABAG | "A7"F2E2 "D"D4 |
+| "D"A2Bc "E7"d2d2 | "A"c2"A7"B2 "A"A4 | "G"BcdB "D"A2A2 | "G"BcdB "D"A4 |
+| "D"FEFG "F#m"ABAG | "F#7"FGFE "Bm"E2D2 | "D"FEFG ABAG | "A7"F2E2 "D"D4 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 12
+T: Branle Normand
+T: Circle dance from Normandy
+M: 2/4
+L: 1/8
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: printed & handwritten MSS of unknown origin
+K: G
+%%indent 290
+"Intro"|"G"BA Bc | de dc | B2 "D7"A2 | "G"G4 ||
+|:"G"B2 Bc | d2 d2 | B2 "D7"A2 | "G"G4 \
+| "G"BA Bc | de dc | B2 "D7"A2 | "G"G4 |
+| "G"d2 ef | g2 g2 | "C"f2 e2 | "G"d4 \
+| "C"ef ge | "G"d2 d2 | "C"ef ge | "G"d4 |
+| "G"BA Bc | de dc | Bc BA | "D7"A2 "G"G2 \
+| "G"BA Bc | de dc | B2 "D7"A2 | "G"G4 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 13
+T: Branne Bachanalle
+O: France
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: G
+P: Intro
+d2dc B2AG | A2F2 G4 \
+|: "G"G2GF G2GA | B2AG "D7"A2A2 \
+| "G"GAGF "Em"G2GA | "A7"B2A2 "D"D4 |
+| "D"d2dc "G"B2BA | "Em"G2F2 E2"D7"F2 \
+| "G"G4 "D7"D4 | "G"G2GF G2GA | "A7"B2AG "D"A2A2 | d2dc "G"B2AG |
+| "C"A2"D7"F2 "G"G4 \
+| "G"G4 "D7"D4 \
+| "G"G2GF G2GA | "A7"B2AG "D"A2A2 \
+| d2dc "G"B2AG | "C"A2"D7"F2 "G"G4 :|
+
+%%sep 1 1 500
+
+X: 14
+T: Branle
+O:France
+A:Bourbonnais
+R:Bourrée à 2 temps
+M:2/4
+L:1/8
+Q:220
+K:G
+B2 BA/2B/2 | cB AG | B>A GF | GA BG \
+B2 BA/2B/2 | cB AG | B>A GF | G4 :|
+d2 dc/2d/2 | ed cB | c2 cB/2c/2 | dc BA \
+B2 BA/2B/2 | cB AG | B>A GF |1 GA BG :|2 G4 |]
+
+%%sep 1 1 500
+
+X: 15
+T: Branle?
+M:C|
+L:1/4
+K:G
+|: GABB  | c2 cc | BABG | A2 AA | GABB  | c2 cc | B A/2G/2 A=F | G2 G2 :|
+|: d2 ed | c2 cc | BABc | d2 dd | d2 ed | c2 cc | BGAF         | G2 G2 :|
+
+%%sep 1 1 500
+
+X: 16
+T: le Branle de la Fosse aux Loups [Am]
+T: the Wolf Pit Branle
+C: Boris Nortier
+S: https://www.youtube.com/watch?v=20ZYmxHEhWc
+S: https://www.youtube.com/watch?v=HXmGQm2lVdo
+S: https://www.youtube.com/watch?v=Y8SzqfpaY9k
+%Q: 1/4=156
+V: 1
+M: 6/8
+L: 1/8
+K: Am
+  E |"Am"A2E     Ace |  "F"f2e dcA |\
+[1,3 "Dm"d2A  "G"Bcd |  "C"e2d "Em"cB :|\
+[2,4 "Am"cdc "Em"BEB | "Am"A3- Az :|
+|:e | "F"fef "(Dm)"afe |  "G"d3  GBd |\
+[1,3  "C"ede  "G"ged | "Am"cAB cd :|\
+[2,4 "Am"edc "Em"dcB | "Am"A3- Az :|
+
+%%sep 1 1 200
+
+%%sep 1 1 500
+
+X: 17
+T: le Branle de la Fosse aux Loups [Bm]
+T: the Wolf Pit Branle
+C: Boris Nortier
+S: https://www.youtube.com/watch?v=20ZYmxHEhWc
+S: https://www.youtube.com/watch?v=HXmGQm2lVdo
+S: https://www.youtube.com/watch?v=Y8SzqfpaY9k
+%Q: 1/4=156
+V: 1
+M: 6/8
+L: 1/8
+K: Bm
+  F | "Bm"B2F Bdf |  "G"g2f edB |\
+[1,3  "Em"e2G "A"cde |  "D"f2e "F#m"dc :|\
+[2,4  "Bm"ded "F#m"cFc | "Bm"B3- Bz :|
+|: f |  "G"gfg "(Em)"bgf |  "A"e3  Ace |\
+[1,3   "D"fef "A"afe | "Bm"dBc de :|\
+[2,4 "Bm"fed "F#m"edc | "Bm"B3- Bz :|
+
+% %text https://www.dailymotion.com/video/x50hz1
+%%begintext align
+%% Fosse (or Foss\'e) aux Loups (Wolf Pit/Gap) or  is in
+%% place names scattered around the French-speaking world.
+%% The best-known is probably the street in Brussels.
+%%endtext
+
+%%sep 1 1 500
+
+X: 18
+T: le Branle de la Fosse aux Loups [Am]
+T: the Wolf Pit Branle
+C: Boris Nortier
+%level: 1
+S: https://www.youtube.com/watch?v=20ZYmxHEhWc
+S: https://www.youtube.com/watch?v=HXmGQm2lVdo
+S: https://www.youtube.com/watch?v=Y8SzqfpaY9k
+%Q: 1/4=156
+V: 1
+M: 6/8
+L: 1/8
+K: Am
+  E |"Am"A2E     Ace |  "F"f2e dcA |\
+[1,3 "Dm"d2A  "G"Bcd |  "C"e2d "Em"cB :|\
+[2,4 "Am"cdc "Em"BEB | "Am"A3- Az :|
+|:e | "F"fef "(Dm)"afe |  "G"d3  GBd |\
+[1,3  "C"ede  "G"ged | "Am"cAB cd :|\
+[2,4 "Am"edc "Em"dcB | "Am"A3- Az :|
+
+%%sep 1 1 500
+
+X: 19
+T: le Branle de la Fosse aux Loups [Bm]
+T: the Wolf Pit Branle
+C: Boris Nortier
+%level: 1
+S: https://www.youtube.com/watch?v=20ZYmxHEhWc
+S: https://www.youtube.com/watch?v=HXmGQm2lVdo
+S: https://www.youtube.com/watch?v=Y8SzqfpaY9k
+%Q: 1/4=156
+V: 1
+M: 6/8
+L: 1/8
+K: Bm
+  F | "Bm"B2F Bdf |  "G"g2f edB |\
+[1,3  "Em"e2G "A"cde |  "D"f2e "F#m"dc :|\
+[2,4  "Bm"ded "F#m"cFc | "Bm"B3- Bz :|
+|: f |  "G"gfg "(Em)"bgf |  "A"e3  Ace |\
+[1,3   "D"fef "A"afe | "Bm"dBc de :|\
+[2,4 "Bm"fed "F#m"edc | "Bm"B3- Bz :|
+
+%%sep 1 1 500
+
+X: 20
+T: le Branle de la Fosse aux Loups [Am]
+T: the Wolf Pit Branle
+C: Boris Nortier
+%level: 1
+S: https://www.youtube.com/watch?v=20ZYmxHEhWc
+S: https://www.youtube.com/watch?v=HXmGQm2lVdo
+S: https://www.youtube.com/watch?v=Y8SzqfpaY9k
+%Q: 1/4=156
+V: 1
+M: 6/8
+L: 1/8
+K: Am
+  E |"Am"A2E     Ace |  "F"f2e dcA |\
+[1,3 "Dm"d2A  "G"Bcd |  "C"e2d "Em"cB :|\
+[2,4 "Am"cdc "Em"BEB | "Am"A3- Az :|
+|:e | "F"fef "(Dm)"afe |  "G"d3  GBd |\
+[1,3  "C"ede  "G"ged | "Am"cAB cd :|\
+[2,4 "Am"edc "Em"dcB | "Am"A3- Az :|
+
+%%sep 1 1 200
+
+%%sep 1 1 500
+
+X: 21
+T: le Branle de la Fosse aux Loups [Bm]
+T: the Wolf Pit Branle
+C: Boris Nortier
+%level: 1
+S: https://www.youtube.com/watch?v=20ZYmxHEhWc
+S: https://www.youtube.com/watch?v=HXmGQm2lVdo
+S: https://www.youtube.com/watch?v=Y8SzqfpaY9k
+%Q: 1/4=156
+V: 1
+M: 6/8
+L: 1/8
+K: Bm
+  F | "Bm"B2F Bdf |  "G"g2f edB |\
+[1,3  "Em"e2G "A"cde |  "D"f2e "F#m"dc :|\
+[2,4  "Bm"ded "F#m"cFc | "Bm"B3- Bz :|
+|: f |  "G"gfg "(Em)"bgf |  "A"e3  Ace |\
+[1,3   "D"fef "A"afe | "Bm"dBc de :|\
+[2,4 "Bm"fed "F#m"edc | "Bm"B3- Bz :|
+
+% %text https://www.dailymotion.com/video/x50hz1
+%%begintext align
+%% Fosse (or Foss\'e) aux Loups (Wolf Pit/Gap) or  is in
+%% place names scattered around the French-speaking world.
+%% The best-known is probably the street in Brussels.
+%%endtext
+
+%%sep 1 1 500
+
+X: 22
+T: le Branle de la Fosse aux Loups [Am]
+T: the Wolf Pit Branle
+C: Boris Nortier
+%level: 1
+S: https://www.youtube.com/watch?v=20ZYmxHEhWc
+S: https://www.youtube.com/watch?v=HXmGQm2lVdo
+S: https://www.youtube.com/watch?v=Y8SzqfpaY9k
+%Q: 1/4=156
+V: 1
+M: 6/8
+L: 1/8
+K: Am
+  E |"Am"A2E     Ace |  "F"f2e dcA |\
+[1,3 "Dm"d2A  "G"Bcd |  "C"e2d "Em"cB :|\
+[2,4 "Am"cdc "Em"BEB | "Am"A3- Az :|
+|:e | "F"fef "(Dm)"afe |  "G"d3  GBd |\
+[1,3  "C"ede  "G"ged | "Am"cAB cd :|\
+[2,4 "Am"edc "Em"dcB | "Am"A3- Az :|
+
+%%sep 1 1 200
+
+%%sep 1 1 500
+
+X: 23
+T: le Branle de la Fosse aux Loups [Bm]
+T: the Wolf Pit Branle
+C: Boris Nortier
+%level: 1
+S: https://www.youtube.com/watch?v=20ZYmxHEhWc
+S: https://www.youtube.com/watch?v=HXmGQm2lVdo
+S: https://www.youtube.com/watch?v=Y8SzqfpaY9k
+%Q: 1/4=156
+V: 1
+M: 6/8
+L: 1/8
+K: Bm
+  F | "Bm"B2F Bdf |  "G"g2f edB |\
+[1,3  "Em"e2G "A"cde |  "D"f2e "F#m"dc :|\
+[2,4  "Bm"ded "F#m"cFc | "Bm"B3- Bz :|
+|: f |  "G"gfg "(Em)"bgf |  "A"e3  Ace |\
+[1,3   "D"fef "A"afe | "Bm"dBc de :|\
+[2,4 "Bm"fed "F#m"edc | "Bm"B3- Bz :|
+
+% %text https://www.dailymotion.com/video/x50hz1
+%%begintext align
+%% Fosse (or Foss\'e) aux Loups (Wolf Pit/Gap) or  is in
+%% place names scattered around the French-speaking world.
+%% The best-known is probably the street in Brussels.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+%%partsspace 0
+
+%%sep 1 1 500
+
+X: 24
+T: Buv\vcansko
+O: Macedonia
+N: Start slow, around 92-100, and slowly speed up to 112 or faster.
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: EDorian
+|: DE E>F GA GF | GA BA AG GF | GA BA AG GF | G/F/E FD E2 E2 :|
+|: AB {A}BB ~B2 B2 | c/d/e d/c/B AG G2 | c/d/e d/c/B AG G>F | G/F/E FD E2 E2 :|
+
+%%sep 1 1 200
+
+%%partsspace 0
+
+%%sep 1 1 500
+
+X: 25
+T: Buv\vcansko
+O: Macedonia
+N: Start slow, around 92-100, and slowly speed up to 112 or faster.
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: F#Dorian
+|: EF F>G AB AG | AB cB BA AG | AB cB BA AG | A/G/F GE F2 F2 :|
+|: Bc {B}cc ~c2 c2 | d/e/f e/d/c BA A2 | d/e/f e/d/c BA A>G | A/G/F GE F2 F2 :|
+
+%%sep 1 1 500
+
+X: 26
+T: Branle Normand
+T: Circle dance from Normandy
+M: 2/4
+L: 1/8
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: printed & handwritten MSS of unknown origin
+K: G
+%%indent 290
+"Intro"|"G"BA Bc | de dc | B2 "D7"A2 | "G"G4 ||
+|:"G"B2 Bc | d2 d2 | B2 "D7"A2 | "G"G4 \
+| "G"BA Bc | de dc | B2 "D7"A2 | "G"G4 |
+| "G"d2 ef | g2 g2 | "C"f2 e2 | "G"d4 \
+| "C"ef ge | "G"d2 d2 | "C"ef ge | "G"d4 |
+| "G"BA Bc | de dc | Bc BA | "D7"A2 "G"G2 \
+| "G"BA Bc | de dc | B2 "D7"A2 | "G"G4 :|
+
+%%sep 1 1 500
+
+X: 27
+T: Branle Pinagay
+R:BRANLE COUPE
+C:trad.
+S:Jehan Tabourot dit Thoinot Arbeau
+B:l'orchesographie - 1588
+O:France
+M:4/4
+L:1/4
+Q:1/4=220
+K:G
+GGGG|AABd/2c/2|B2GG|GGAA|Bd/2c/2Bd/2c/2|Bd/2c/2B2|
+|:BAGA|FGAG|BBAG|GFG2:||
+
+%%sep 1 1 500
+
+X: 28
+T: Branle : So\,co, mas amoretas
+C:Annie Hourdebaigt / Christian Josué, fichier abc : Bernard Loffet
+Z:Bernard Loffet
+L:1/8
+%Q:358
+M:2/2
+K:C
+[A2A,2]A,2 [G2G,2][AG,]B | [c2F,2][d2F,2] [BG,]c[BG,]c |\
+[A2A,2][BA,]c [d2F,2][c2F,2] | [B2G,2]G,2 [A2A,2][G2G,2] |\
+[A2A,2]A,2 [G2G,2][AG,]B | [c2F,2][d2F,2] [BG,]c[BG,]c |\
+[A2A,2][BA,]c [d2F,2][c2F,2] | [BG,]A[GG,]B [A2A,2]A,2 |\
+[A2A,2][BA,]c [d2F,2]F,c | [d2G,2][e2G,2] [c2C,2]C,2 |\
+[f2F,2][e2F,2] [d2D,2][c2D,2] | [B2E,2][AA,]B [c2A,2][B2A,2] |\
+[A2A,2][BA,]c [d2F,2]F,c | [dG,]e[dG,]e [c2C,2]C,2 |\
+[f2F,2][e2F,2] [d2D,2][c2D,2] | [BE,]A[GE,]B [A2A,2]A,2 |]
+%
+
+%%sep 1 1 500
+
+X: 29
+T: Branle d'\'Ecueille
+R:Rondeau
+O:France
+M:6/8
+C:Trad.
+K:Am
+d2dB2B|ABc ABc|d2dB2B|ABcA3::\
+D2G BcB|ABA GFE|D2G BcB|ABAA3:|
+
+%%sep 1 1 500
+
+X: 30
+T: Branle d'\'Ecueille
+R:Rondeau
+M:6/8
+O:France
+K:Am
+d2dB2B|ABc ABc|d2dB2B|ABcA3::\
+D2G BcB|ABA GFE|D2G BcB|ABAA3:|
+
+%%sep 1 1 500
+
+X: 31
+T: Branle d'\'Ecueille
+R:Rondeau
+O:France
+M:6/8
+C:Trad.
+K:Am
+d2dB2B|ABc ABc|d2dB2B|ABcA3::\
+D2G BcB|ABA GFE|D2G BcB|ABAA3:|
+
+%%sep 1 1 500
+
+X: 32
+T: Branle d'\'Ecueille
+R:Rondeau
+M:6/8
+O:France
+K:Am
+d2dB2B|ABc ABc|d2dB2B|ABcA3::\
+D2G BcB|ABA GFE|D2G BcB|ABAA3:|
+
+%%sep 1 1 500
+
+X: 33
+T: Branle de Bourgogne
+R:Branle double
+C:Jacques Moderne (16th century)
+O:France
+M:C
+L:1/4
+Q:1/4=200
+K:C
+B A/2B/2 cc|B A/2B/2 cc|GGG B|A2A2:|
+GGGA|A G/2F/2 ED|GGGB|A2A2:||
+
+%%sep 1 1 500
+
+X: 34
+T: Branle de Bourgogne
+O:France
+C:Jacques Moderne (16th century)
+R:Branle double
+M:C
+L:1/4
+Q:200
+K:C
+|: BA/B/ cc | BA/B/ cc | GG GB | A2 A2 :: GG GA | AG/F/ ED | GG GB | A2 A2 :|
+
+%%sep 1 1 500
+
+X: 35
+T: Branle de Bourgogne
+O:France
+C:Jacques Moderne
+I:16th century
+R:Branle double
+M:C
+L:1/4
+Q:200
+K:C
+|: d2 BG | G A/B/ cc | d3/ c/ B/A/B/c/ | d2Bc | d2 BG | G A/B/ cc |
+| dccB | c2c2 :: d2 dd | d2de | f2ed | c2Bc :|
+
+%%sep 1 1 500
+
+X: 36
+T: Branle de Champagne
+R:branle double
+C:Claude Gervaise
+H:XV eme siecle
+O:France
+Z:S. Piron
+P: AAB
+M:2/4
+L:1/4
+Q:1/4=210
+K:C
+c2|c2|B/2c/2 d|B2|c/2d/2e|dc|BA|1GE:|2G2|
+|:G/2A/2B|AG|A2|A2|G/2A/2B|AG|A2|A2:|
+
+%%sep 1 1 500
+
+X: 37
+T: Branle de Gouloux
+A:Morvan
+O:France
+M:6/8
+K:G
+G2BA2G|FGA G2 D|G2 BA2G|FGA G3:|
+|A3A2G|F2ED3|D2GF2G|A2Bc2A|A3A2G|F2ED3|D2GF2F|G2AG3||
+
+%%sep 1 1 500
+
+X: 38
+T: Branle de Pierrot
+A:FLANDRE
+O:FRANCE
+M:6/8
+L:1/8
+Q:1/4=150
+K:C
+GAB|c2cc2c|c3ABc|d2cB2A|G3:|d3|G2BZBd3G2BZ|
+|:G3|ABcA2B|c2BZBG3|ABcA2B|c3:||
+
+%%sep 1 1 500
+
+X: 39
+T: Branle de Rat
+R:Branle
+O:France
+M:4/4
+K:G
+B2B2 B2AB | c2B2 A4 | A2A2 A2GA | G2A2 B2G2 |\
+B2B2 B2AB | c2B2 A4 | d2d2 d2cc | B2A2 G4 ||\
+[M:6/8]\
+B2G B2G | DEF E2D | B2G B2G | DEF G3 :|
+
+%%sep 1 1 500
+
+X: 40
+T: Branle de Rat
+R:Branle
+M:4/4
+L:1/8
+O:France
+K:G
+[| B2B2 B2AB | c2B2 A4 | A2A2 A2GA | G2A2 B2G2 |
+|  B2B2 B2AB | c2B2 A4 | d2d2 d2cc | B2A2 G4 ||
+[M:6/8]\
+|: B2G B2G | DEF E2D | B2G B2G | DEF G3 :|
+
+%%sep 1 1 500
+
+X: 41
+T: Branle des Chevaux   (A)
+T: Horseplay
+C: T.Arbeau
+S: printed MS of unknown origin
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+K: Amix
+|: "A"A>B cc | "G"dc Bd | "A"cB AG | "Bm"F2 "Em"E2 \
+|  "A"A>B cc | "G"dc Bd | "A"cA "G"BB | "A"A4 :|
+|: "A"e>d "G"BB/c/ | dc/B/ "A"Ac | "G"BA "Em"GA | "G"B2 B2 \
+|  "A"ed/c/ "G"BB/c/ | dc/B/ "A"Ac | "G"BA AG | "A"A4 :|
+
+%%sep 1 1 500
+
+X: 42
+T: Branle des Chevaux   [C]
+T: Horseplay
+C: T.Arbeau
+S: printed MS of unknown origin
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+K: Cmix
+|: "C"c>d ee | "Bb"fe df | "C"ed cB | "Dm"A2 "Gm"G2 \
+|  "C"c>d ee | "Bb"fe df | "C"ec "Bb"dd | "C"c4 :|
+|: "C"g>f "Bb"dd/e/ | fe/d/ "C"ce | "Bb"dc "Gm"Bc | "Bb"d2 d2 \
+|  "C"gf/e/ "Bb"dd/e/ | fe/d/ "C"ce | "Bb"dc cB | "C"c4 :|
+
+%%sep 1 1 500
+
+X: 43
+T: Branle des Chevaux   [D]
+T: Horseplay
+C: T.Arbeau
+S: printed MS of unknown origin
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+K: Dmix
+|: "D"d>e ff | "C"gf eg | "D"fe dc | "Em"B2 "Am"A2 \
+|  "D"d>e ff | "C"gf eg | "D"fd "C"ee | "D"d4 :|
+|: "D"a>g "C"ee/f/ | gf/e/ "D"df | "C"ed "Am"cd | "C"e2 e2 \
+|  "D"ag/f/ "C"ee/f/ | gf/e/ "D"df | "C"ed dc | "D"d4 :|
+
+%%sep 1 1 500
+
+X: 44
+T: Branle des Chevaux   (G)
+T: Horseplay
+C: T.Arbeau
+S: printed MS of unknown origin
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+K: Gmix
+|: "G"G>A BB | "F"cB Ac | "G"BA GF | "Am"E2 "Dm"D2 \
+|  "G"G>A BB | "F"cB Ac | "G"BG "F"AA | "G"G4 :|
+|: "G"d>c "F"AA/B/ | cB/A/ "G"GB | "F"AG "Dm"FG | "F"A2 A2 \
+|  "G"dc/B/ "F"AA/B/ | cB/A/ "G"GB | "F"AG GF | "G"G4 :|
+
+%%sep 1 1 500
+
+X: 45
+T: Horseplay
+M: C|
+K:
+
+%%sep 1 1 500
+
+X: 46
+P: Branle des Chevaux   [C]  (Horseplay)
+C: T.Arbeau
+S: printed MS of unknown origin
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+K: Cmix
+|: "C"c>d ee | "Bb"fe df | "C"ed cB | "Dm"A2 "Gm"G2 \
+|  "C"c>d ee | "Bb"fe df | "C"ec "Bb"dd | "C"c4 :|
+|: "C"g>f "Bb"dd/e/ | fe/d/ "C"ce | "Bb"dc "Gm"Bc | "Bb"d2 d2 \
+|  "C"gf/e/ "Bb"dd/e/ | fe/d/ "C"ce | "Bb"dc cB | "C"c4 :|
+
+%%sep 1 1 500
+
+X: 47
+P: Branle des Chevaux   [D]  (Horseplay)
+C: T.Arbeau
+S: printed MS of unknown origin
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+K: Dmix
+|: "D"d>e ff | "C"gf eg | "D"fe dc | "Em"B2 "Am"A2 \
+|  "D"d>e ff | "C"gf eg | "D"fd "C"ee | "D"d4 :|
+|: "D"a>g "C"ee/f/ | gf/e/ "D"df | "C"ed "Am"cd | "C"e2 e2 \
+|  "D"ag/f/ "C"ee/f/ | gf/e/ "D"df | "C"ed dc | "D"d4 :|
+
+%%sep 1 1 500
+
+X: 48
+P: Branle des Chevaux   (G)  (Horseplay)
+C: T.Arbeau
+S: printed MS of unknown origin
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+K: Gmix
+|: "G"G>A BB | "F"cB Ac | "G"BA GF | "Am"E2 "Dm"D2 \
+|  "G"G>A BB | "F"cB Ac | "G"BG "F"AA | "G"G4 :|
+|: "G"d>c "F"AA/B/ | cB/A/ "G"GB | "F"AG "Dm"FG | "F"A2 A2 \
+|  "G"dc/B/ "F"AA/B/ | cB/A/ "G"GB | "F"AG GF | "G"G4 :|
+
+%%sep 1 1 500
+
+X: 49
+P: Branle des Chevaux   (A)  (Horseplay)
+C: T.Arbeau
+S: printed MS of unknown origin
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+K: Amix
+|: "A"A>B cc | "G"dc Bd | "A"cB AG | "Bm"F2 "Em"E2 \
+|  "A"A>B cc | "G"dc Bd | "A"cA "G"BB | "A"A4 :|
+|: "A"e>d "G"BB/c/ | dc/B/ "A"Ac | "G"BA "Em"GA | "G"B2 B2 \
+|  "A"ed/c/ "G"BB/c/ | dc/B/ "A"Ac | "G"BA AG | "A"A4 :|
+
+%%sep 1 1 500
+
+X: 50
+T: Branle des Chevaux   [C]
+T: Horseplay
+C: T.Arbeau
+S: printed MS of unknown origin
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+K: Cmix
+|: "C"c>d ee | "Bb"fe df | "C"ed cB | "Dm"A2 "Gm"G2 \
+|  "C"c>d ee | "Bb"fe df | "C"ec "Bb"dd | "C"c4 :|
+|: "C"g>f "Bb"dd/e/ | fe/d/ "C"ce | "Bb"dc "Gm"Bc | "Bb"d2 d2 \
+|  "C"gf/e/ "Bb"dd/e/ | fe/d/ "C"ce | "Bb"dc cB | "C"c4 :|
+
+%%sep 1 1 500
+
+X: 51
+T: Branle des Chevaux   [D]
+T: Horseplay
+C: T.Arbeau
+S: printed MS of unknown origin
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+K: Dmix
+|: "D"d>e ff | "C"gf eg | "D"fe dc | "Em"B2 "Am"A2 \
+|  "D"d>e ff | "C"gf eg | "D"fd "C"ee | "D"d4 :|
+|: "D"a>g "C"ee/f/ | gf/e/ "D"df | "C"ed "Am"cd | "C"e2 e2 \
+|  "D"ag/f/ "C"ee/f/ | gf/e/ "D"df | "C"ed dc | "D"d4 :|
+
+%%sep 1 1 500
+
+X: 52
+T: Branle des Chevaux    [G]
+T: Horse's Brawl
+R:Reel
+C:From Arbeau, Orchesographie, 1689
+S:http://www.folktunefinder.com/tunes/50978 2018-2-28
+O:France
+M:2/2
+L:1/8
+%Q:1/4=160
+K:G
+|:\
+"G"G3A B2B2 | "C"c2B2A2c2 | "G"B2A2G2F2 | "C"E4 "D"D4 |\
+"G"G3A B2B2 | "C"c2B2A2c2 | "G"BAG2 "D"G2F2 | "G"G4G4 :|
+|:\
+"G"d2cB A2B2 | "C"c2BA G2B2 | "G"A2G2F2G2 | "D"A4A4 |\
+"G"d2cB A2B2 | "C"c2BA G2B2 | "G"A2G2 "D"G2F2 | "G"G4G4 :|
+|:\
+"Gm"_B2AG B2AG | "D"F2G2A4 | "D"D2E2F2G2 | "D"A2_B2A2G2 |\
+"Gm"_B2AG B2AG | "D"F2G2A4 | "D"D2E2F2G2 | "G"G2^F2 "Gm"G4 :|
+
+%%sep 1 1 500
+
+X: 53
+T: Branle des Pois
+R:BRANLE COUPE
+C:trad.
+S:Jehan Tabourot dit Thoinot Arbeau
+B:l'orchesographie - 1588
+O:France
+M:4/4
+L:1/4
+Q:1/4=220
+K:Fmix
+B2Bc|d2dd|edcc|d2G2:|
+|GAF2|GABG|GABc|BAG2||GAF2|GABG|GABc|BAG2||
+
+%%sep 1 1 500
+
+X: 54
+T: Branle du Rat
+O:France
+M:2/4
+L:1/8
+R:Branle
+K:G
+[| BB BA/B/ | cB A2 | AA AG/A/ | BA BG \
+| BB BA/B/ | cB A2 | d>e dc | BA G2 |]
+M:6/8
+[| B2G B2G | DEF E2D | B2G B2G | DEF G3 \
+| B2G B2G | DEF E2D | B2G B2G | DEF G3 |]
+
+%%sep 1 1 500
+
+X: 55
+T: Branle du curé
+A:FLANDRE
+O:FRANCE
+M:2/4
+L:1/8
+Q:1/4=150
+K:G
+GG/2G/2|ddBd/2c/2|cBBAG|B2c2|dD2:|
+AA/2A/2|AABBc|d2GG/2G/2|GGF>E|D2GG/2G/2|AABc|d2G2|dc BA|B>A G2||
+
+%%sep 1 1 500
+
+X: 56
+T: Branle simple
+R:Branle simple
+C:Jacques Moderne
+O:France
+M:C
+L:1/4
+Q:1/4=180
+K:F
+A A/2A/2AA|GFBc|c/2B/2A/2G/2 ^F2|A A/2A/2AA|GFE/2D/2G|G^FG2|
+B B/2B/2BB|A/2G/2F/2E/2DB|A/2G/2B/2A/2B2|G
+G/2G/2GG|EEF/2E/2G|G^FG2:|
+
+%%sep 1 1 500
+
+X: 57
+T: Branle simple
+O:France
+C:Jacques Moderne
+I:16th century
+R:Branle simple
+M:C
+L:1/4
+Q:120
+K:F
+c d/e/ f e/f/|g/f/e/d/ ec|d/e/f/e/4d/4 c2:|
+c c/c/ c d/f/|e/d/c/B/ AF|G/A/B/A/4G/4F2:||
+
+%%sep 1 1 500
+
+X: 58
+T: Branle simple
+O:France
+C:Jacques Moderne
+I:16th century
+R:Branle simple
+M:C
+L:1/4
+Q:120
+K:F
+A A/2A/2AA|GFBc|c/2B/2A/2G/2 ^F2|A A/2A/2AA|GFE/2D/2G|G^FG2|
+B B/2B/2BB|A/2G/2F/2E/2DB|A/2G/2B/2A/2B2|G G/2G/2GG|EEF/2E/2G|G^FG2:|
+
+%%sep 1 1 500
+
+X: 59
+T: Branle simple
+R:branle simple
+C:Jacques Moderne
+H:XVI eme siecle
+O:France
+Z:S. Piron
+M:4/4
+L:1/4
+Q:1/4=140
+K:F
+cd/2e/2fe/2f/2|g/2f/2e/2d/2ec|d/2e/2f/2e/4d/4c2:|
+|:cc/2c/2cd/2f/2|e/2d/2c/2B/2AF|G/2A/2B/2A/4G/4F2:|
+
+%%sep 1 1 500
+
+X: 60
+T: Branles Gay
+O: Trad Breton
+R: branles, waltz
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dmix
+|: "D"F3EF2 | D6 | F3 EFG | A6 \
+|1 "D"A2B2c2 | d4d2 | "C"c2B2c2 | A4G2 \
+:|2 "C"A2B2A2 | G4F2 |
+| G2E2F2 | "D"D6 \
+|: "D"d6 | "C"c4B2 | "D"e2d2e2 | "C"c6 \
+| "G"B2c2d2 | "Am"c2B2A2 | "C"G2F2G2 |1 A2B2c2 :|2 "D"A6 |]
+
+%%sep 1 1 500
+
+X: 61
+T: Branles de villages 1
+S:Andy Hornby, UGB record
+R:Branle
+O:France
+M:4/4
+K:GMix
+dd|\
+ge dc|B2c2|d2dd|BG dd|ge dc|B2c2|B2Ac|G2::
+GA|\
+BA/B/ cc|BA B/c/d|G/A/B A2|A2GA|\
+BA/B/ cc|BA B/c/d|G/A/B A2|G2:|
+
+%%sep 1 1 500
+
+X: 62
+T: Branles de villages 1
+S:Andy Hornby, UGB record
+R:Branle
+O:France
+M:4/4
+Z:posted by Trish O'Neil 7/97
+K:GMix
+dd|\
+ge dc|B2c2|d2dd|BG dd|ge dc|B2c2|B2Ac|G2::
+GA|\
+BA/B/ cc|BA B/c/d|G/A/B A2|A2GA|\
+BA/B/ cc|BA B/c/d|G/A/B A2|G2:|
+
+%%sep 1 1 500
+
+X: 63
+T: Branles de villages 1
+D:UGB
+R:Branle
+O:France
+M:4/4
+K:GMix
+dd|\
+ge dc|B2c2|d2dd|BG dd|ge dc|B2c2|B2Ac|G2::
+GA|\
+BA/B/ cc|BA B/c/d|G/A/B A2|A2GA|\
+BA/B/ cc|BA B/c/d|G/A/B A2|G2:|
+
+%%sep 1 1 500
+
+X: 64
+T: Branles de villages 2
+S:AH; UGB record
+R:Branle
+O:France
+M:2/4
+L:1/8
+K:C
+cc BA/B/|cB/A/G2|cc BA/B/|cG AG::\
+A/B/c BA|GF E>F|
+ED ED/E/|C/D/E/F/ G2|\
+A/B/c BA|GF EA|AG/F/ EG|GG/F/ EF/E/|D/C/D C2||
+
+%%sep 1 1 500
+
+X: 65
+T: Branles de villages 2
+S:AH; UGB record
+R:Branle
+O:France
+M:2/4
+L:1/8
+Z:posted by Trish O'Neil 7/97
+K:C
+cc BA/B/|cB/A/G2|cc BA/B/|cG AG::\
+A/B/c BA|GF E>F|
+ED ED/E/|C/D/E/F/ G2|\
+A/B/c BA|GF EA|AG/F/ EG|GG/F/ EF/E/|D/C/D C2||
+
+%%sep 1 1 500
+
+X: 66
+T: Branles de villages 2
+D:UGB record
+R:Branle
+O:France
+M:2/4
+L:1/8
+K:C
+cc BA/B/|cB/A/G2|cc BA/B/|cG AG::\
+A/B/c BA|GF E>F|
+ED ED/E/|C/D/E/F/ G2|\
+A/B/c BA|GF EA|AG/F/ EG|GG/F/ EF/E/|D/C/D C2|]
+
+%%sep 1 1 500
+
+X: 67
+T: Branles de villages 3
+S:AH; UGB record
+R:Branle
+O:France
+M:2/4
+L:1/8
+K:Gm
+Gc GA|BA G>A|BB AG|cB AG::\
+G/A/B AG|FE D>F|
+ED ED/E/|C/D/E/F/ G2|\
+G/A/B AG|FE D>E|F/G/_A/F/ GF/E/|F/E/D C2||
+
+%%sep 1 1 500
+
+X: 68
+T: Branles de villages 3
+S:AH; UGB record
+R:Branle
+O:France
+M:2/4
+L:1/8
+Z:posted by Trish O'Neil 7/97
+K:Gm
+Gc GA|BA G>A|BB AG|cB AG::\
+G/A/B AG|FE D>F|
+ED ED/E/|C/D/E/F/ G2|\
+G/A/B AG|FE D>E|F/G/_A/F/ GF/E/|F/E/D C2||
+
+%%sep 1 1 500
+
+X: 69
+T: Branles de villages 3
+D:UGB record
+R:Branle
+O:France
+M:2/4
+L:1/8
+K:Gm
+Gc GA|BA G>A|BB AG|cB AG::\
+G/A/B AG|FE D>F|
+ED ED/E/|C/D/E/F/ G2|\
+G/A/B AG|FE D>E|F/G/_A/F/ GF/E/|F/E/D C2|]
+
+%%sep 1 1 500
+
+X: 70
+T: Branles de villages 4
+S:AH; UGB record
+R:Branle
+O:France
+M:2/4
+L:1/8
+K:CDor
+c2 BA|G^F G>G|ED CD/E/|FE DC|\
+c2 BA|GF/G/ EF/E/|D/E/C/D/ =B,C/D/|E/F/D C2::
+ED/C/ DG|E/F/G/A/ B>c|dc/B/ AG|G^F G2|\
+ED/C/ DG|E/F/G/A/ B>C|
+DC/B,/ A,G,|A,/B,/A, G,D|\
+GF/E/ DC|GF/E/ DC|_AA G_A|GF E2|zF GC|FG C2:|
+
+%%sep 1 1 500
+
+X: 71
+T: Branles de villages 4
+S:AH; UGB record
+R:Branle
+O:France
+M:2/4
+L:1/8
+Z:posted by Trish O'Neil 7/97
+K:CDor
+c2 BA|G^F G>G|ED CD/E/|FE DC|\
+c2 BA|GF/G/ EF/E/|D/E/C/D/ =B,C/D/|E/F/D C2::
+ED/C/ DG|E/F/G/A/ B>c|dc/B/ AG|G^F G2|\
+ED/C/ DG|E/F/G/A/ B>C|
+DC/B,/ A,G,|A,/B,/A, G,D|\
+GF/E/ DC|GF/E/ DC|_AA G_A|GF E2|zF GC|FG C2:|
+
+%%sep 1 1 500
+
+X: 72
+T: Branles de villages 4
+D:UGB record
+R:Branle
+O:France
+M:2/4
+L:1/8
+K:CDor
+c2 BA|G^F G>G|ED CD/E/|FE DC|\
+c2 BA|GF/G/ EF/E/|D/E/C/D/ =B,C/D/|E/F/D C2::
+ED/C/ DG|E/F/G/A/ B>c|dc/B/ AG|G^F G2|\
+ED/C/ DG|E/F/G/A/ B>C|
+DC/B,/ A,G,|A,/B,/A, G,D|\
+GF/E/ DC|GF/E/ DC|_AA G_A|GF E2|zF GC|FG C2:|
+
+%%sep 1 1 500
+
+X: 73
+T: la Fille du Coupeur de Paille
+O: France
+R: branle (maraichin)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|: "G"G2d2 d2B2 | d2cB "D7"A4 |  "G"G2d2 d2B2 | d4 "D7"A4 :|
+|: "D7"A3B c2B2 | A2B2  "G"G4 | "D7"A2d2 c2B2 | A4  "G"G4 :|
+|::: "Em"G4 F2E2 | "D"F2G2 A4 | "Em"G2AB A2G2 |1,3 "D"E2F2 E2D2 :|2,4 "D7"E2F2 "G"G4 :|
+
+% A French tune using an in-body key change
+%
+%%sep 1 1 500
+
+X: 74
+T: Horses Branle
+M:4/4
+L:1/8
+Q:1/4=127
+C:Trad
+K:G
+"A"\
+|: G>A BB cB Ac | BA GF E2 D2 | G>A BB cB Ac | BG AF G2 G2 :|
+"B"\
+|: dc/2B/2 AB cB/2A/2 GB | AG FG A>B A2 \
+|  dc/2B/2 AB cB/2A/2 GB | AG GF G2 G2 :|
+K:F
+"C"\
+|: B/2A/2G B/2A/2G FG A2 | DE FG AB AG \
+|  B/2A/2G B/2A/2G FG A2 | DE FG GF G2 :|
+
+%%sep 1 1 500
+
+X: 75
+T: Horses Bransle
+T: Branle des Cheveaux
+S: http://lesters-tune-a-day.blogspot.co.uk/2013/02/tune-159-horses-brandle.html
+N: collected by Thoinot Arbeau (1520-1595)
+M: 4/4
+L: 1/8
+K: G
+|:\
+G3A B2B2 | c3B A2c2 | B3A G2F2 | E4 D4 |\
+G3A B2B2 | c3B A2c2 | B2G2 A2F2 | G4 G4 :|
+|:\
+d2cB ABc2 | c2BA GAB2 | A2G2 F2G2 | A4 A4 |\
+d2cB ABc2 | c2BA GAB2 | A2G2 F2A2 | G4 G4 :|
+|:\
+_B2AG _B2AG | F2G2 A4 | D2E2 F2G2 | A2_B2 A2G2 |\
+_B2AG _B2AG | F2G2 A4 | D2E2 F2G2 | A2G2 G4 :|
+
+%%sep 1 1 500
+
+X: 76
+T: Horses Bransle
+T: Branle des Cheveaux
+S: http://lesters-tune-a-day.blogspot.co.uk/2013/02/tune-159-horses-brandle.html
+N: collected by Thoinot Arbeau (1520-1595)
+M: 4/4
+L: 1/8
+K: G
+|:\
+"G"G3A B2B2 | "C"c3B "D7"A2c2 | "G"B3A "Em"G2F2 | "A7"E4 "D7"D4 |\
+"G"G3A B2B2 | "C"c3B "D7"A2c2 | "G"B2G2 "D7"A2F2 | "G"G4 G4 :|
+|:\
+"G"d2cB "Am"ABc2 | "D7"c2BA "G"GAB2 | "A7"A2G2 F2G2 | "D7"A4 A4 |\
+"G"d2cB "Am"ABc2 | "D7"c2BA "G"GAB2 | "A7"A2G2 "D7"F2A2 | "G"G4 G4 :|
+|:\
+"Gm"_B2AG _B2AG | "D7"F2G2 A4 | D2E2 F2G2 | A2_B2 "G"A2G2 |\
+"Gm"_B2AG _B2AG | "D7"F2G2 A4 | D2E2 F2G2 | A2G2 "G"G4 :|
+
+%%sep 1 1 500
+
+X: 77
+T: Horses Branle
+M:4/4
+L:1/8
+Q:1/4=127
+C:Trad
+K:G
+"A"\
+|: G>A BB cBAc | BAGF E2D2 | G>A BB cBAc | BGAF G2 G2 :|
+"B"\
+|: d c/B/ AB c B/A/ GB | AGFG A>B A2 |  d c/B/ AB c B/A/ GB | AGGF G2 G2 :|
+K:F
+"C"\
+|: B/A/ G B/A/ G FG A2 | DEFG ABAG |  B/A/ G B/A/ G FG A2 | DEFG GF G2 :|
+
+%%sep 1 1 500
+
+X: 78
+T: Horse's Branle
+M:2/2
+L:1/8
+Q:250
+K:G
+|: G3  A B2 B2 | c3  B A2 c2 | B3  A  G2 F2 | E4 D4 \
+|  G3  A B2 B2 | c3  B A2 c2 | B2 G2  A2 F2 | G4 G4 :|
+|: d2 cB A2 B2 | c2 BA G2 B2 | A2 G2  F2 G2 | A4 A2 d2 \
+|  d2 cB A2 B2 | c2 BA G2 B2 | A2 G2  G2 F2 | G4 G4 :|
+K:Dm
+|: B2 AG B2 AG |^F2 G2 A4    | D2 E2 ^F2 G2 | A2  B2 A2 G2 \
+|  B2 AG B2 AG |^F2 G2 A4    | D2 E2 ^F2 G2 | G2 ^F2 G4 :|
+
+%%sep 1 1 500
+
+X: 79
+T: The Torch Branle
+K:GDor
+M:C
+G2 A2 B2 B2 | A6 A2 | G2 B2 A2 G2 | ^F4 ^F4 | G2 A2 B2 B2 | \
+A6 c2 |  B2 AG A2 A2 | G4 G4 :: E4 ^F4 | G4 G4 :|

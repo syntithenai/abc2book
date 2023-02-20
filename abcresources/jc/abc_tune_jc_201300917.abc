@@ -1,0 +1,26 @@
+X: 1
+T: Laurel Street
+C: Paul Milde 1995
+R: polka
+%S: s:4 b:46(16,14,16)
+R: polka
+S: printed copy dated "9/1/98"
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+%M: C|	% Original time signaature
+%L: 1/8	# Original was 1/4
+M: 2/4
+L: 1/8
+K: G
+"^A"|:\
+"G"B2cB | "D"A2B2 | "G"G2B2 | d2g2 |\
+"C"e3f | g2e2 | "D"a2g2 | f2e2 ||\
+"G"d2ed | B2e2 |
+[1 "G"d2B2 | A2G2 | "D"A2Bc | B2A2 | "G"G2 "D"F2 | "G"G4 :|\
+[2 "G"d2G2 | A2B2 | "C"c2ed | B2A2 | "G"G2 "D"F2 | "G"G2 "^Fine"z2 |] [K:D]
+"^B"|:\
+"D"A3B | A2G2 | F2A2 | d2A2 |\
+[1 "G"B3A | G2F2 | E2D2 | E2F2 :|\
+[2 "A7"e3f | g2c2 | "D"e2d2 | d4 :|
+[3 "G"B3A | G2F2 | E2D2 | C2 "A7"E2 ||\
+"D"D3E | F2D2 | F2A2 | d2f2 |\
+"A7"e3f | g2c2 | "D"e2d2 | "^DC al Fine"d2 =c2 |]

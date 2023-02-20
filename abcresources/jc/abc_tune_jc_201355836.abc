@@ -1,0 +1,797 @@
+X: 0
+T: THE THIRD BOOK of the most Celebrated jiggs, Lancashire hornpipes, Scotch and Highland Lilts, Northern Frisks, Morris's and Cheshire Rounds ...
+C: John Walsh, ca. 1730
+Z:Pete Stewart 2004
+K:
+%%begintext align
+%% THE THIRD BOOK
+%% of
+%% the most Celebrated Jiggs, Lancashire
+%% Hornpipes, Scotch and Highland Lilts,
+%% Northern Frisks, Morris's and Cheshire Rounds,
+%% with Hornpipes the Bagpipe manner.
+%% To which is added the Black Joak, the White Joak, the Brown,
+%% the Red, and the Yellow Joaks.
+%% With variety of Whims and Fancies of diff'rent humour,
+%% fitted to the genious of Publick Performers.
+%%endtext
+
+X: 1
+T:Ravenscroft's fancy
+M:3/2
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:cmin
+EGBe dcBAG4 | cBAG AFGA D4 | B,DFA GFED EcBA | GEDE B,EDFE4 ||
+gfed cBAGA4 | fedc BAGFE4 | edcB AGFE DcBA | GEDE B,EDFE4 ||
+EDCB, CA,G,A, CA,G,A, | FEDC DB,=A,B, DB,=A,B, | GFED EGFE DcBA | GEDE B,EDFE4 ||
+Bdfb fdBd fagf | edcB AGFE D4 | B,DFA GFED EcBA | GEDE B,EDFE4 ||
+B3A GFED EGEC | c3B AGFE FAFD | d3c BAGF EcBA | GEDE B,EDFE4 ||
+bgaf gefd f2d2 | BGAF GEFC D4 | EGFA GBAc Bedc | BAGF GEFDE4 ||
+
+X: 2
+T:Tower Waits Hornpipe
+M:3/2
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:gmin
+g4bag^fg4 | edcB AGFE DCB,A, | B4GFEDE2G2 | cded cABc ^F2D2 |
+g4bag^fg4 | edcB AGFE DCB,A, | B,2G2A,2G2G,2^F2 | GEDC B,GA,^FG,4 ||
+f4dBcA BFGE | E2C2E2G2c4 | g4ecdB cABG | ^F2D2F2A2d4 |
+d2b2BAGFE2C2 | c2a2AGFED2B,2 | G,2g2^fdec dAB^F | GEDC B,GA,^FG,4 ||
+
+X: 3
+T:Restauration Spring Garden Hornpipe
+M:3/2
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:gmin
+gab2a2g^fg2d2 | cde2d2cBc2A2 | Bcd2c2BAB2AB | G2ed cBAG^F4 |
+gab2a2g^fg2d2 | cde2d2cBc2A2 | Bcd2c2BAB2AG | D2G2^FGAFG4 ||
+def2f2ede2c2 | CDE2D2C=B,C4 | cde2e2dcd2B2 | B,CD2C2B,A,B,4 |
+b2aba2g^fg2d2 | e2dc d2c=Bc4 | bagf edcB AGFE | DCB,A, B,GA,^F G4 ||
+
+X: 4
+T:A Trip to Bow fair, a Hornpipe
+M:3/2
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:gmin
+B,4CDEF GABc | d2B4FE D2B,2 | C4 DEFG ABcd | e2 c4GB A2F2 |
+B,4CDEF GABc | d2B4FE D2B,2 | Bgfe dcBd cBAG | FEDC B,CDA, B,4 ||
+f3e defe dcBA | B2F2_AcBA GEDE | g3f efgf edc=B | c2G2_BdcB AF=EF |
+f3e defe dcBA | B2F2_AcBA GEDC | DFB2CEA2B,DGF | EDCB, A,B,CA, B,4 ||
+Bdfb fdBd f_agf | g2e4cdA2F2 | BABc dcBA GFED | CB,CD EFGB,A,4 |
+Bdfb fdBd f_agf | g2e4cda2f2 | GBAc Bdfb fdBG | AFGD ECDA,B,4 ||
+
+X: 5
+T:Forcers Jigg
+M:6/8
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:GMin
+g3G2=B | c2CC3 | cgc =bgc | =B3_AG3 | ceg c_ag | _a2 FF3 | Bdg Bgf | g2 EE3 | BdB BbB | B
+dB Bb_a | gfe fBd | e2EE3 || bBB Bdf | f2FF3 | c'cc cef | g2GG3 |
+cgc =bgc | =B2GG3 | CGC =B,GC | =B,2A,G,3 | gGc Dc=B | c2CC3 ||
+
+X: 6
+T:Goodmans Fields Hornpipe
+M:3/2
+L:1/8
+C:Ravenscroft?
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:D
+B,4DEFE DCB,^A, | B,2GF EDCB,^A,4 | f2bg afge fdec | d2gf edcB^A2F2 |
+B,4DEFE DCB,^A, | B,2GF EDCB,^A,4 | gede fdcd ecBc | dcdBf2^A2B4 ||
+D4FABc dcdA | Bcdc BAGF E4 | E4GBcd edec | dfgf edcB^A4 |
+b2ag fedc Bdfb | a2gf edcB Acea | g2fe dcB^AB2fe | dcBd F2^A2B4 ||
+
+X: 7
+T:Green Man Hornpipe
+M:3/2
+L:1/8
+C:Ravenscroft
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:G
+g4 d3cB4 | edcB AGFED4 | dcBA GFEDC4 | AGFE DCB,A,G,4 |
+G,B,A,G, A,CB,A, B,DCB, | CEDC DFEGF4 | GBAB AcBA BdcB | cedf egfag4 ||
+b4a3gf4 | g2ba gfed^c4 | dBAG Fd^cB AGFE | F2d2E2^c2d4 |
+GBdc BAG=F F2E2 | Aced cBAGG2^F2 | gdcB ecBA dBAG | cABGD2F2G4 ||
+
+X: 8
+T:Black Mary's Hornpipee
+M:3/2
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:D
+AFDF AFDF G2E2 | AFDF ABcde2E2 | AFDF AFDFG2E2 | afdf ecAc d2D2 ||
+ecAc ecAc d2B2 | ecAc efgea2E2 | AFDF AFDF g2e2 | afdf gecA d2D2 ||
+
+X: 9
+T:Salt Fish and Dumplins
+M:4/4
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:A
+cB | A3B ABcd | fgaf ecBA | d3f ecBA | G2B4Bc | d3e fgaf | ecBAG3B | Ac Bd ce Bd | c2A4 ||
+af | ecAc e3f | efde cdec | dcde fgab | g2e4dc | dcde fgac | dcBA GBeB | ceac Bcdec2A4 ||
+
+X: 10
+T:Chark's Hornpipe
+M:3/2
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:D
+d2A2F2D2A2d2 | cde2Bcd2c2A2 | d2f2efg2fga2 | A2d2cdecd4 ||
+fefg fedc B2d2 | c2e2d2B2^A2F2 | BcdB cdec defd |
+F2B2^ABc^AB2AG | FEFD GFGE AGAF | BABG cBcA dcdB | efedc2A2dcde | f2d2cdecd4 ||
+
+X: 11
+T:Black Joak
+M:6/8
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:G
+D | D2GG2G | A2A A>GA | B>cB B>AG | A>BA A>GF | G3E2D | D.EFG2 ||
+B | B2d d>ed | e>fgd2B | B2d d>ed | e>fgd2B | c>ca B>Bg | A>BA A>GA | B>cB B>AG | A>BA A>GF | G3E2D | D>EFG3 ||
+
+X: 12
+T:White Joak
+M:6/8
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:d
+d2d fed | dcB A2G/F/ | B2B Bcd | A2F DEF | G3BAG | FGED3 ||
+A2A ABc | defe3 | A2A ABc | def e2d/c/ | B2d A2d | G2d F>GA | B2B Bcd | A2F DEF | G3BAG | FGED3 ||
+
+X: 13
+T:Brown Joak
+M:6/4
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:Gmin
+GA | B3A G2d3g^f2 | g3ab2f2d2B2 | f6A4G2 | ^F2d2c2=B2g2f2 | b3a g2A2B2^F2 | G6G,4 ||
+gf | g3a b2^f2d2f2 | g3a b2c'3b a2 | ^f6d4f2 | g3ab2^f2d2f2 | g2d2B2c2D2^F2 | G6G,4 ||
+
+X: 14
+T:Red Joak
+M:4/4
+L:1/4
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:G
+b/a/ | g>agB | d/B/d/e/db/a/ | g>agB | A2Ab/a/ | g>agB | d/B/d/e/ db/a/ | gedB | G2G ||
+e | dGB/c/d/B/ | dBg>e | dGB/c/d/B/ | A2Ae | dGB/c/d/B/ | dGg>a | b/a/g/e/ g/e/d/B/ | G2G ||
+D | G/A/B/G/ B/c/d/B/ | G/A/B/G/ B/c/d/e/ | dBc/B/A/G/ | A2AD | G/A/B/G/ B/c/d/B/ |
+G/A/B/G/ B/c/d/e/ | dB d/B/A/G/ | G2G ||
+
+X: 15
+T:Jack the Horse Coursers Hornpipe
+M:4/4
+L:1/4
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:G
+Ge | dc/B/ A/B/c/d/ | FE/D/ G/D/G/B/ | A/D/F/A/ G/D/G/B/ | A/D/F/A/Ge | dc/B/ AB/G/ | FE/D/cB/A/ | BA/G/F>G | G2 ||
+dg | fe/d/ e f/d/ | ^cB/A/ d/A/d/f/ | e/A/e/g/ f/A/d/f/ | e/A/e/f/Bg | fe/d/^c>B | B2Be | dc/B/AB/G/ |
+FE/D/ B/G/B/d/ | A/F/A/c/ B/G/B/d/ | A/F/A/c/Ge | dc/B/AB/G/ | FE/D/cB/A/ | BA/G/F>G | G2 ||
+
+X: 16
+T:Yellow Joak
+M:4/4
+L:1/8
+Z:ps
+K:F
+f2c A>Bc | F2cf3 | afd gec | fcB A2c | A>GF C>FE | (F3F3) ||
+c2c acB | aBAG3 | c2c acB | gBAG2f/g/ | afd gec | fcB A2B/c/ | dBG cAF | BGFE2c | A>GF C>FE | (F3F3) ||
+
+X: 17
+T:Carpenters Morris
+M:3/2
+L:1/4
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:dMIN
+F2E2D/E/F/D/ | EG2A^C2 | F2E2D/E/F/D/ | EA,2^CD2 ||
+F2G2A/B/c/A/ | BG2cE2 | F/E/F/G/ A/B/c/A/ B/^c/d | eA2^cd2 ||
+f2e2d/e/f/d/ | eg2a^c2 | f2e2d/e/f/d/ | eA2^cd2 ||
+F2F/G/AA/B/c | EG2AB2 | AG/F/ E/F/G/E/ FE/D/ | D2^CD3 ||
+
+X: 18
+T:Cheshire rowling Hornpipe
+M:6/4
+L:1/4
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:Dmin
+FDFE^CE | D>E F/D/ECc | C2FE/F/GE | FDFE^CE | D3A>GF/E/ | D2FE/F/GE ||
+AFDd>c=B | c3G>FE/D/ | C2FE/F/GE | D>d^c=Bed/c/ | d3A>GF/E/ | D2FE/F/GE ||
+fafege | cegcAF | C2FE/F/GE | a/g/f/e/ dg/f/e/d/^c | d3AFD | D/E/FDE/F/GE ||
+
+X: 19
+T:Downfall of a Ginn a Hornpipe
+M:3/2
+L:1/8
+C:Ravenscroft
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:G
+E4G4B4 | e2dc BAGF G2E2 | gfeg fe^dfe2B2 | A2cB AGFE^D2B,2 |
+E4G4B4 | e2dc BAGFG2E2 | gfeg fe^dfe2BA | GFEG B,2^D2E4 ||
+G4B4d4 | g2fe dcBA B2G2 | bagb agfa g2dc | BAGBD2F2G4 |
+BA^G^F EdcB c2A2 | AGFE DcBA B2G2 | gfeg fe^dfe2BA | GFEGB,2^D2E4 ||
+
+X: 20
+T:Sunderland Hornpipe
+M:3/2
+L:1/8
+C:Ravenscroft
+S:Walsh 1731
+Z:Pete Stewart 2004
+N:'superfluous' accidentals are as printe
+Z:ps
+K:D
+DEFG ABcAd4 | fgaf e2dcB2A2 | BcdBA2GFG2B2 | egbg edcB AGFE |
+DEFG ABcAd4 | fgaf e2dcB2A2 | BcdB A2GFE2c2 | dBAG FdEcd4 ||
+ABcd efgaf4 | bagf gefg c2A2 | DEFG AB^cdB4 | egba gfed c2A2 |
+afdB ^cedc B2A2 | bgec dfedc2A2 | afge fdec dBAG | F2d2E2c2d2 ||
+
+X: 21
+T:Blew Bell
+M:3/2
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:CMin
+E4GABDE4 | cBAG FGAED2F2 | BAGF EFEDC2F2 | AGFE B,EDFE4 ||
+e4gbge cecA | F4fgfe dcde | D2E2c3B AGFE | AGFE B,EDFE4 ||
+EFGAB2E2D2E2 | FGA=B c2F2=E2F2 | g3f edcB AGFE | AGFE B,EDFE4 ||
+
+X: 22
+T:Flat Cap
+M:3/2
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:dminor
+DEFGA2D2FGA2 | c2G4C2EFGE | DEFGA2D2FGA2 | d2A4GF EFGE ||
+DEFG ABAG ABAG | c2C4C2EFGE | DEFG ABAF ABAF | d2A4GF EFGE ||
+f2d2g2e2f2d2 | g2e4c2efge | f2d2g2e2f3e | d2A4GF EFGE ||
+defd efge fgaf | g2e4c2efge | defd efge agfe | d2A4GF EFGE ||
+F2A2G2B2F2A2 | c2G4C2EFGE | F2A2G2B2F2A2 | d2A4GF EFGE ||
+
+X: 23
+T:Manchester Hornpipe
+M:3/2
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:FDor
+A2F4f2f2ed | e2B4A2G2FE | A2F4f2a2gf | f2c4B2A2GF ||
+A2F2B2G2c2A2 | e2B4A2G2FE | A2F2B2G2c2A2 | f2c4B2A2GF ||
+fgaf g2a2b2ag | a2gfg2a2=e2dc | fgafg2a2b2ag | f2c4B2A2GF ||
+FGAF A2c2A2c2 | EFGEG2B2G2B2 | FGAF ABcA cd=ec | f2c4B2A2GF ||
+f2F4fga2gf | g2E4gab2ag | a2F4Bc _d2cB | c2e4B2A2GF ||
+c2f4g2a2gf | B2f4g2a2gf | A2f4g2a2gf | c2f4B2A2GF ||
+fgaf gabg fgaf | g2e4B2G2FE | fgaf gaba fgaf | f2c4B2A2GF ||
+ABc2Bc_d2c=de2 | B2G4A2G2FE | ABc2Bc_d2c=d=e2 | f2c4B2A2GF ||
+
+X: 24
+T:Huckle and Buff
+M:3/2
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:F
+fgaf f2F2f3f | gabag2G2g3g | agab agfe dcBA | BAGFG2e2f4 ||
+ABcd dAfd cAfd cAGF | ABcd cagf gedc | ABcd cAfd cAGF | EFGA GEcA GEDC |
+fgag f2F2 f3f | gabag2G2g3g | agab agfe dcBA | BAGF G2e2f3_e |
+dfdB dfbf dfdB | AcAF Acfc AcAF | EGEC EGcG EGEC | EGFAG2=B2"D.C."c4 ||
+
+X: 25
+T:Bess Kings Hornpipe
+M:3/2
+L:1/4
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:Gmin
+c2e2g2 | fd2e/d/c_a | gfedc=B | cG2d/e/dc ||
+eg2_abe | df2g_ad | ce2fgd | =B2G2G2 ||
+b2bedb | a2adc_a | g2gc=Bc | c3=Bc2 ||
+Gcdefd | Bdefge | cefg_ae | d3cc2 ||
+cc'gegb | dbfdf_a | gc=BgA^f | gG_AFG=B ||
+cGEGCF | BFDFDG | cGEGCD/E/ | D>EDC=B,G ||
+CG_AG_AC | B,FGFGB, | _A,FGE_A/G/F/E/ | D4C2 ||
+
+X: 26
+T:Runing Footmans Jigg
+M:6/4
+L:1/4
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:D
+A | d>cBA>GF | E>FGF>ED | DFADFA | DFAA2A | dAddAd | dAdc3 | d>cBA>GF | Eecd2 ||
+cdeefe | edcB2A | AceAce | EA^GA3 | d>cBA>GF | E>edc>BA | dfaefd | eAcd3 ||
+
+X: 27
+T:Millers dance on the Windmill
+M:6/8
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+N:3/8 printe
+Z:ps
+K:D
+d3DFA | d3DFA | d3def | ecA aec | ecA aec | ecA aec | ecA EA^G | AECA,3 ||
+a3 Ace | a3 Ace | a3efg | fda fda | fda fda | fda fda | fdf Adc | dAFD3 ||
+
+X: 28
+T:Bess Kings Jigg
+M:6/4
+L:1/4
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:Gmin
+e/f/ | g3f>ed | egc=B>cd | e.dcB>AG | _AF3/2E/4F/4G2 ||
+G/_A/ | B>cBe2e/4f/4g | fe/d/c/B/B2b | g>feded/c/ | g3g2f | edc=Bcd | efg_a2g | fe/d/e Gc=B | (c3c2) ||
+
+X: 29
+T:The George or Folly Hornpipe
+M:3/2
+L:1/8
+C:Ravenscroft
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:GMin
+F2B,4G2F2B,2 | BAGF GCEF D4 | edcB cGBc BAGF | GFED ECDFA,4 |
+F2B,4G2F2B,2 | BAGF GCEF D4 | edcB A2f2edcB | AFGD ECDA,B,4 ||
+f2B4b2g2e2 | cdec f2B2A4 | Bcde fBAB gBAB | babg afg=ef2 |
+f2_a4gf gede | g2b4ag af=ef | b2fdg2ecf2dB | AFED ECDA,B,4 ||
+
+X: 30
+T:The Hector of Edgeworth's Hornpipe
+M:3/2
+L:1/4
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:G
+B>c B/A/G/F/EB | e>g f/g/f/e/^df | g/a/bf/g/ae/f/g | Bee>^de2 ||
+B/A/B/c/ B/A/G/F/ G/A/ B | e/d/c/B/ A/B/A/G/FD | GBA/B/c/A/ B/c/d | DGF/G/A/F/G2 |
+g/f/g/a/ g/f/e/d/^ce | a/g/a/b/ a/g/f/e/^df | g/b/b/b/ f/a/a/a/ e/g/g/g/ | Be^d/e/f/^d/e2 ||
+
+X: 31
+T:Presbyterian Hornpipe
+M:3/2
+L:1/4
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:GMin
+GBBGc/B/A/G/ | ^FAAFA2 | GBA/B/c/A/ B/c/d | DGGBAG ||
+gbbgba/g/ | faafag/f/ | efgfga | f3edc |
+BdfBdf | AcfAcf | GBdGBd | ^F3EDC |
+B,DDB,DC/B,/ | A,CCA,CB,/A,/ | G,B,A,CB,D | CED^FG2 ||
+
+X: 32
+T:Presbyterian Jigg
+M:4/4
+L:1/4
+N:penultimate bar has 6 crotchets printed - here correcte
+Z:ps
+K:Emin
+BG2B/c/ | dGdG | BG2B/c/ | d2B2 | cA2c/d/ | eAeA | eA2c/d/e2B2 ||
+Gg2f/g/ | a/g/f/e/dc/B/ | Aa2g/a/ | b/a/g/f/ e/f/g/a/ | Gg2f/g/ |\
+a/g/f/e/dg | f/g/a/f/ dg | f/g/a/f/dg | f/g/a/f/dg | f2e2 ||
+
+X: 33
+T:Wakefield Jigg
+M:6/8
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:Gmin
+d | g2a bag | ^fga dcB | ABc BAG | ^F2G AFD | g2a bag | ^fga dcB | ABc BAG | G2^FG2 ||
+fg2fed | cde dcB | ABc def | c3B3 | bag ^f2g | a3ABG | bg2bg2 | dg^fg3 ||
+
+X: 34
+T:Ratcliffe Cross
+M:3/2
+L:1/8
+C:Ravenscroft
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:F
+f2c4BcA2F2 | D2Bd GB DFE2C2 | EGBA GFEDC2c2 | AFEF CFEGF4 ||
+cfaf bagf e2c2 | Bdgd gfedc2B2 | Acfc fedcB2c2 | AFEF CFEGF4 ||
+f2c2_egfe dBAB | g2d2fagf =ecBc | a2e2fagf edcB | AFEF CFEGF4 ||
+afcf Acfad2B2 | bgdg Bdgbe2c2 | dBGB DFBdE2c2 | AFEF CFEGF4 ||
+
+X: 35
+T:Ravenscrofts Maggot
+M:3/2
+L:1/8
+C:Ravenscroft
+S:Walsh 1731
+Z:Pete Stewart 2004
+N:unnessecary accidentals as printed. penultimate bar as printed.
+Z:ps
+K:E
+E4G2B2egbg | edcB AGFE^D2B,2 | E4G2B2egbg | egfg Bedfe4 ||
+egbg edcB=c2A2 | =ceag fed^cB2G2 | Bdgf edef gabg | gfeg fedfe4 ||
+B2E2c2^D2B2E2 | cBAG FGEF^D2B,2 | EGFA GBAB cBAG | FGEFB,2^D2E4 ||
+e2E2=F2E2c2E2 | bfge fdeB =c2B2 | e2E2=F2E2=c2F2 | cBcA GEGBe4 ||
+
+X: 36
+T:Peckets Hornpipe
+M:3/2
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:E
+agfe defd e2E2 | GABGF2f2d4 | cBAc BAGBe2G2 | AGFDB,2^D2E4 ||
+GBGE GBGE^D2F2 | AcAF AcAFG2B2 | fafd egec dfdB | agfe Bedfe4 ||
+
+X: 37
+T:Peacock Jigg
+M:6/4
+L:1/4
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:E
+E3G2A | BGEe2B | c/d/ecBA/G/F/E/ | F3B,3 | E3G2A | BGEe2d | c/d/ecfeB | e3E3 ||
+g3ed/c/B | (e3e2)B | c/d/ecBA/G/F/E/ | F3B,2f/g/ | a3g3 | f/g/ a/g/f/e/d2B | c/d/ecf dB | e3E3 ||
+
+X: 38
+T:Plimouth Jigg
+M:6/4
+L:1/4
+S:Walsh 1731
+Z:Pete Stewart 2004
+N:printed last note is dotted minim-here correcte
+Z:ps
+K:D
+d | faAdfd | B2ge2d | Be2a2f | dBgecA | FAdAaf | d2AD2 ||
+A | d>cBA/G/FA | d/c/Bge2d | a3A2d/e/ | fd/e/fge/f/g | af/g/aAdc | d3D2 ||
+
+X: 39
+T:Cackling of the Hens
+M:4/4
+L:1/4
+S:Walsh 1731
+Z:Pete Stewart 2004
+N: bar 16 as printe
+Z:ps
+K:D
+dAd/e/f/g/ | ag/f/ e/f/d/e/ | A>A d/c/d/e/ | f/g/f/g/ a>a | (a2a/)g/f/a/ | g/f/e/g/ f/e/d/e/ | A2d/c/d/e/ | f/a/g/f/e2 | d4 ||
+dddd/d/ | f>a dd | dddd/d/ | f>a dd/d/ | f>a d/e/f/g/ | f>a dd | b<gdd/d/ | f>a dd/d/ |
+b>g dd/d/ | f>a dd/d/ | a2a/g/f/a/ | g/f/e/g/ f/e/d/e/ | A>A dd/e/ | f/a/g/f/e2 | d4 ||
+
+X: 40
+T:The running Morris
+M:6/8
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:A
+f/g/ | aga Bcd | cBc ABc | dcd BcA | GABE2f/g/ | aga Bcd | cde ^def | efg Be^d | (e3e2) ||
+g/a/ | bab fga | gfg efg | aga Bcd | cBc ABc | dcd Bcd | ede cde | fcd Bag | a3a3 ||
+
+X: 41
+T:Cheshire Round
+M:3/2
+L:1/4
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:C
+c2B2A2 | Ad2AB/c/d/B/ | c2B2A2 | Gc2AB/c/d/B/ ||
+eg2BA2 | Aa2AB/c/d/B/ | dgBgA2 | Gc2AB/c/d/B/ ||
+c/d/ e/c/ B/c/ d/B/ A/B/c/A/ | Ad2AB/c/d/B/ | cg2BA/B/c/A/ | Gc2AB/c/d/B/ ||
+
+X: 42
+T:New York the new way
+M:3/2
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:GMin
+EGFE DFED C3B | ABcd c3C DEFD | EGFE DEFD C3c | FBAc B3B, DEFD ||
+E2G2_AGFE DEFD | CcBd c3C DEFD | E2G2_AGFE DEFD | B,BAc B3B, DEFD ||
+B2d2 edcB ABcA | GcBd c3C DEFD | E2d2edcB ABcA | FBAcB3B, DEFD ||
+BGEG FDB,D C3c | ABcdc3C DEFD | BGEG FDB,D C3e | d2B2B3B, DEFD ||
+
+X: 43
+T:Red Lyon Hornpipe
+M:3/2
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:GMin
+BdBd DEFDE2C2 | BdBd FBAcB2B,2 | BdBd DEFDE2gf | edcB FBAcB2B,2 ||
+Bdfd BdcBA2F2 | DFBF GFGED2B,2 | Bdfd BdcB A2F2 | DFBF DBAcB4 ||
+
+X: 44
+T:White Fryars Hornpipe
+M:4/4
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:G
+B2 | cBAG FGAF | GABGA2D2 | F2D2F2(A2 | A2)B2cBAG | FGAF GABG | ABcdB2G2 | G6 ||
+B2 | cBcde4 | g4agfe | defd efge | a2A2A3B | cBcd e4 | g4agfe | defd ABcd | B2G2G2 ||
+
+X: 45
+T:Poyntins whim
+M:4/4
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:F
+cB | A2F4GA | Bcde fgab | e2g4fg | afge fdec | dBcA fdcB | A2F4 ||
+fg | agaf bagf | efge fagf | e2g4fg | afge fdec | dBcA fdcB | A2F4 ||
+
+X: 46
+T:Peg Huglestones Hornpipe
+M:4/4
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:C
+GF | E2A4GA | c4dcBA | c2e2dcBA | d2B4GF | E2A4GA | c4cBcA | c2e2dcBA | G2E4 ||
+gf | e2g2fedc | d2g2edcB | c2e2dcBA | d2B6 | e3f gefg | fefga4 | agfe dcBA | G2E4 ||
+
+X: 47
+T:New  White Hart Hornpipe
+M:3/2
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:D
+d2Bc dB AG FGAF | G2E2efedc2A2 | BcdB ABAG FGAG | F2D2D2c2d4 ||
+d2de fdfg fgad | c2a2B2^g2a2ed | cdec d2cB ABAG | FGAFD2c2d4 ||
+dAF2BGE2AFD2 | cdefe2E2FGAF | d2A2B2G2A2F2 | gfed cdecd4 ||
+
+X: 48
+T:Liverpool Jigg
+M:6/4
+L:1/4
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:D
+a/g/ | f>ga b>ag | g>fg efg | a>ga Bed | c2AA2a/g/ | f>ga b>ab | g>fg e>fg | a>gf eca | f2dd2 ||
+e/d/ | c>def/g/af | ecaB2c | d>cdBed | c2AA2B/c/ | d>cdBcd | g>fe/d/c>de | a>gfed/c/B/A/ | d2DD2 ||
+
+X: 49
+T:Northern Frisk
+M:3/2
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:Amin
+A2e4A2ecBA | GABcd2G2B2AG | A2e4A2ecBA | E2A4c2B2A2 ||
+edcB ABcd ecBA | GABc dcBA BcdB | AecA ceac BA^G^F | E2A4c2B2A2 ||
+e2a2d2g2c2f2 | BcdB GABG BcdB | ea^gb edcB ABcA | E2A4c2B2A2 ||
+e2e2e2e2e4 | dcBA G2d2BcdB | eaec AcBA ^GAB^G | E2A4c2B2A2 ||
+
+X: 50
+T:New wild Morris
+M:12/8
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:D
+d | def Bcd cde ABc | dcB AGF Edcd2D | def Bcd cde ABc | dcB EA^G A3A2 || a | agf fed gfe edc |
+fed dcB cde ^A2f | gfe dcB(B3B2)c | dDd dcB efe edc | fFf fed cde Aag | fed Adc (d3d2) ||
+
+X: 51
+T:Glassis Hornpipe
+M:3/2
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:D
+d3B ABAG F2A2 | G2B2=cBAGF2A2 | d3B ABAG ^cBcA | d3B ABAGF2D2 ||
+G2B2=cBAGF2A2 | B2G2gfed^c2A2 | d2f2gfed cdec | A2d2cdecd2D2 ||
+f3g fgafb2B2 | g3f gfedc2A2 | d3f gfed cdec | A2d2 cdecd2D2 ||
+BAGB AGFA F2D2 | d2ef gfedc2A2 | d2b2c2a2B2g2 | bagf efgaf2d2 ||
+A,B,CD DEFD E2A,2 | B2G2gfedc2A2 | dfbf gbge dfaf | A2d2cdecd2D2 ||
+
+X: 52
+T:The Hilland Solo
+M:4/4
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+N:aka Dunbroon(RC)
+Z:ps
+K:A
+ef fa fg fg | dg dg BGB2 | ef ea fg eg | ef ea cAc2 |
+ef fa fg fg | dg dg BGB2 | eA cA eA cA | eA cA BG B2 |
+eA cA eA cA | BG BG BG B2 | e/e/e/e/ ee f/f/f/f/ ff | e/e/e/e/  ee cAc2 |
+e/e/e/e/ ee f/f/f/f/ ff | d/d/d/d/ dd BGB2 | e/e/e/e/ ee a/a/a/a/ aa | e/e/e/e/ ee dBd2 |
+d/d/d/d/ da c/c/c/c/ ca | B/B/B/B/Bg BGB2 | Ac/d/e2 Af/g/a2 | Ac/d/e2cAc2 |
+Ac/d/e2 Af/g/a2 | AB/c/d2BGB2 | Ac/d/e2 Af/g/a2 | Ac/d/e2cAc2 |
+d/d/d/d/ da c/c/c/c/ ca | B/B/B/B/ Bg BGB2 | A/B/c/d/ eA eA d2 | A/B/c/d/ eA eA c2 |
+Ac/d/ eA eAc2 | Ae/f/ gd BGB2 | e/e/e/e/ e/e/e/e/ f/f/f/f/ f/f/f/f/ | e/e/e/e/ e/e/e/e/ cAc2 |
+f/f/f/f/ g/g/g/g/  f/f/f/f/ f/f/f/f/ | d/d/d/d/ d/d/d/d/ BGB2 | e/e/e/e/ e/e/e/e/ a/a/a/a/ a/a/a/a/ | e/e/e/e/ e/e/e/e/ cAc2 |
+d/d/d/d/ d/d/d/d/ c/c/c/c/ c/c/c/c/ | B/B/B/B/ Bg BGB2 | A/B/c/d/e2 A/B/c/d/a2 | A/B/c/d/e2cAc2 |
+A/B/c/d/e2 A/B/c/d/a2 | A/B/c/d/e2cAc2 | A/B/c/d/e2 A/B/c/d/a2 | A/B/c/d/e2cAc2 |
+d2a/g/f/e/ c2a/g/f/e/ | B2g2BGB2 | e/e/e/e/ eA f/f/f/f/ fA | e/e/e/e/ eA cA c2 |
+e/e/e/e/ eA f/f/f/f/ fA | d/d/d/d/ dG BGB2 | e/e/e/e/ eA a/a/a/a/ aA | e/e/e/e/ eA cA c2 |
+d/d/d/d/ da c/c/c/c/ ca | B/B/B/B/ Bg BGB2 | eA d/c/B/A/ eA d/c/B/A/ | eA d/c/B/A/ d/c/B/A/ B2 |
+eA d/c/B/A/ eA d/c/B/A/ | BG BG BG B2 | A/B/c/d/ e/f/g/e/a4 ||
+
+X: 53
+T:The First New Dutch Skipper
+M:6/4
+L:1/4
+N:p26 missing in my copy; this is John Offord's version
+Z:ps
+K:D
+D2AF2D | D2AF2D | ABcd2A | ABcd2D | D2AF2D | D2AF2D | ABcdCB | EF^GA3 ||
+e2ee2c | d2ef3 | efgf3 | efgf3 | gfegfe | fedc2B | d2AF2B | A2dc2d | e2eagf | efcd3 ||
+M:6/8
+L:1/8
+K:dmin
+dDE FED | DDE FED | def eag | fed e^ca | dDE FED | DDE FED | def eag | fed edc | =BA^GA3 ||
+A_Bc cdc | cdA BAG | =Bcd ded | fed e^cA | afd e^cA | fede^cA | agf efg | Ad^cd2 ||
+K:D
+a | dcd ABc | dAFD2d | def eag | fed cBA | dcdABc | dAc eAe | fed cBA | AECA,2e | ecA ecA |
+efgg2f | efg gfe | dcB dcB | Bdf B/c/d/e/f | bfdB3 | FGA FGA | dAF GFE | GBe GBe |
+Bcd cBA | defecA | def ecA | dcdABc | dAFD3 ||
+
+X: 54
+T:Butcher Row
+M:6/8
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+N:aka 'Pibroch'(D.Johnson)[RC}; extra pick-up notes as printed; strain 10
+N:has leading note in same bar;
+Z:ps
+K:D
+g | f>ga a2g | f>ga gdB ||\
+g | f>ga e>fg | f>ga gdB ||\
+g | f2e f/e/f/g/a | gec fdB ||\
+e>fe cAd | cdc fdB ||
+ABA cAd | cec fdB ||\
+cAd cAd cac BdB ||\
+a2e f/e/f/g/a | g/f/e/d/c f/e/d/c/B ||\
+e>fe f/e/f/g/a | g/f/e/d/c f/e/d/c/B ||
+aec aec | aec BGB ||\
+B | c>Bc c>Bc | c>Bc BGB ||\
+ceA dfA | ceA fdB ||\
+cac dbd | cac BGB ||
+A>BA cAd | cec fdB ||\
+e3g3 | aec fdB ||\
+e>fe f>ga | gec fdB ||\
+e3c3 | cec fdB ||
+A3c3 | c3 BGB ||\
+cAd cAd | cec fdB ||\
+e3g3 | a2cB2g ||\
+a2c a2c | a2cB2g ||
+a3e3 | cec fdB ||\
+A/A/A/A/e A/A/A/A/e | A/A/A/A/e BGB ||\
+A/A/A/A/e A/A/A/A/g | A/A/A/A/e BGB ||
+A/A/A/A/A cAc | A/A/A/A/A BGB ||\
+e/e/e/e/e cAc | e/e/e/e/e BGB ||\
+a/a/a/a/a cAc | a/a/a/a/a BGB ||
+A/A/A/A/A A/A/A/A/A | A/A/A/A/A BGB ||\
+A3d3 | c2BGB ||\
+cAd cAd | cAd BGB ||\
+aec aec | aec fdB ||
+
+X: 55
+T:Plimouth Hornpipe
+M:3/2
+L:1/4
+S:Walsh 1731
+Z:Pete Stewart 2004
+Z:ps
+K:A
+Aceag>f | gB2ed/c/B/A/ | Aceag>b | EA2B/c/ d/c/B/A/ ||
+a/g/f/e/ d/e/f/d/ e/f/g/e/ | gB2ed/c/B/A/ | d/c/B/A/ G/A/B/G/ A/B/c/A/ | EA2B/c/ d/c/B/A/ ||
+
+X: 56
+T:Sigr. Geminianis minuet with his Graces
+M:3/8
+L:1/8
+S:Walsh 1731
+Z:Pete Stewart 2004
+N:Trills placed as printed. Where they occur over demi-semi=quavers they
+N:may be intended to indicate a trill ending with the demi-semi-quaver
+N:pair. A slur mark occurs over the note group and thus restricts the
+N:position of the trill mark
+Z:ps
+K:D
+|: d2c | d2c | de2 | f2e | g2f | e2d | cd2 | e3 :|
+|: ecA | fdA | gec | a3 | bge | cde | fe2 | d3 :|
+|: B2c | d2c | BAF | B2A | Ggf | e2d | cB2 | F3 :|
+|: A3 | B3 | c3 | dcB | e3 | fdc | BfF | B3 :|
+|: [L:1/16] d4Tc>Bc/ | d4c>Bc/ |\
+de e3Td/e/ | egf2 e2 |\
+g3a/g/ f2 | e3f/e/ d2 |\
+cd Td3c/d/ | e6 :|
+|: e2TcBcA | f2TdcdA |\
+g2Tfedc | a6 |\
+b/a/g/f/ g/f/e/d/ e/d/c/B/ | c/A/B/c/ d/e/f/g/ a/g/ f/e/ |\
+g/f/e/d/ e3Td/e/ | d6 :|
+|: dAdfec | dAdfec |\
+dAabag | Tf4e2 |\
+gabgaf | efgefd |\
+cd d3Tc/d/ | e/a/^g/f/ e/d/c/B/ A2 :|
+|: ec/B/cA/B/cd/e/ | fd/c/dA/B/c/d/e/f/ |\
+g/f/e/d/ c/A/B/c/ e/d/f/^g/ | a6 |\
+b/a/g/f/ g/f/e/d/ e/d/c/B/ | c/A/B/c/ d/e/f/g/ a/c'/b/a/ |
+d'dTe3d | d6 :|\
+|: d/A/B/c/ d/f/e/c/ | d/A/B/c/ dfec |\
+d/A/B/c/ d/e/f/^g/ a=g | Tf4e2 |
+gE g/b/a/g/ fD | eC e/g/f/e/ fd |\
+cdd3Tc/d/ | e/c/A/c/ e/c/A/c/a2 :|\
+|: [L:1/32] efed cAa>g | fgfe dAb>a |
+gagf efed cef^g | agab agab a2=gf |\
+gabg efge cdec | ABcA defd abc'a |\
+d'2d2 e6d2 | d12 :|
+|: [L:1/16] (3dAd (3fAf (3eAe | (3dAd (3fAf (3eAe |\
+(3dAd (3eAe (3aAa | Tf4e2 |
+(3gba (3bag (3agf | (3egf (3gfe (3fed |\
+(3cBA (3dcd d>cd/ | (3ea^g (3aed (3cBA :|\
+|: (3ede (3cBA (3cBA | (3fef (3dcd (3ABA |
+(3gfe (3edc (3cBA | a6 |\
+(3bag (3gfe (3gfe | (3c'ba (3c'ba (3c'ba |\
+(d'd e3d | d6 :|

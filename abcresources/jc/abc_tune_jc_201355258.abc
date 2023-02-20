@@ -1,0 +1,32 @@
+
+X: 1
+T: Zemer Atik (Dm)
+O: Israel
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dm
+%V: 1
+%V: 2
+%%staves (1 2)
+% - - - - - - - - - -
+V: 1
+|| "Intro"a4 a4 | gagf g2e2 | "Bb"defd "A7"efe^c | "Dm"d8 ||
+[|   "A"^cdBc decd | e8 | "Gm"efga gfed | "A"e8 |
+w: Od na-shu-va el ni-gun a-tik, ve ha ze-mer yif ve  ye-'e-rav.
+%
+     "A"eaag gffe | "Dm"d2e2 "A"^c4 | "Gm"^cdBc decB | "A"A8 |]
+w: Od ga-vi-a me-shu-mar,~ na-shik, na-shik, A-li-zei ei-na-yim ve-lei-vav.
+%
+[| "F"a4 a4 | "C"gagf "A"g2e2  | "Dm"f6 ed | "A"e2a2 e2A2 |
+w: To-vu to-vu o-ha-lei-nu. Ki ma-chol hi-fi-tsi-a,
+%
+   "F"a4 a4 | "C"gagf "A"g2e2  | "Bb"defd "A"efe^c | "Dm"d8 |]
+w: To-vu to-vu o-ha-lei-nu. Od na-shu-va el ni-gun a-tik.
+% - - - - - - - - - -
+V: 2
+[| f4 f4 | efed e2c2 | B4 G4 | F8 ||
+[| A4 BAG2 | A3e d^cBA | ^c4 BAGB | ABAG A4 |
+   A2^c2 d2G2 | F4 AEFG | A4 B2G2 | AB^cd efge |
+   f4 f4 | efed e2c2 | dAde f2A2 | ed^cB A4 |
+   f4 f4 | efed e2c2 | _A4 G4 | F8 |]

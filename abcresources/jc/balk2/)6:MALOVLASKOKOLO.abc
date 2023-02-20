@@ -1,0 +1,17 @@
+X: 296
+T:Malo Vlasko Kolo
+O:Serbia
+F: http://www.youtube.com/watch?v=OiocJdvheTA
+M:6/8
+L:1/8
+Q:1/4=180
+K:Bb
+%%MIDI program 69
+%%MIDI bassprog 22
+%%MIDI chordprog 21
+%%MIDI bassvol 75
+%%MIDI chordvol 60
+|:"Bb"FGA BAB |"Bb"FGA BAB|"F"FED C2B,|"Bb"D2F GFE|
+  "Bb"FGA BAB |FGA BAB    |"F"FED C2B,|"Bb"B,6::
+  FED C2B,    |D2F GFE    |FED C2B,   |"F"F2z F2z |
+  "Bb"FED C2B,|D2F GFE    |FED C2B,   |B,6        :|

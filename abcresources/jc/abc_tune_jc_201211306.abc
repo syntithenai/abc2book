@@ -1,0 +1,20 @@
+X: 217
+T: Malo Ja Malo Ti
+T: Slavjanka
+O: Serbia
+S: Deborah Jones VIFD Book
+M: 2/4
+L: 1/8
+Q: 1/4=160
+K: Ador
+%%MIDI program 110
+%%MIDI bassprog 115
+%%MIDI chordprog 66
+|:"C" [G4e4]                            |[=Fd][Ec] [G2e2]        |\
+  [=Fd][Ec] [G2e2]                      |[=Fd][Ec] [G2e2]        |
+  [E/c/][^F/d/][Ge] "G" [G/B/][A/c/][Bd]|"D7" [Ac][FA] "G" [G2B2]|\
+  "D7" [Ac][B/d/][A/c/] "A7" [GB][EG]   |"D" [F2A2] [FA] z       :|
+|:"D7" c3B                              | BA AG                  |\
+  "A7" GF FE                            | "D" ED D2              |
+  DEFG                                  | AB c2                  |\
+  "D7" c/B/A "A7"BG                     |"D" [F2A2] [FA] z       :|

@@ -1,0 +1,30 @@
+X: 1
+T: Tolka Polka
+C: Donal Lunny
+O: Ireland
+R: polka
+S: Fiddle Hell Online 2022-4-8 handout for Kevin Burke workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+% %continueall
+"^A"|:\
+A3B c2g2 | d2e2 c2A2 | BcBA G2d2 | A2B2 G2E2 ||\
+A3B c2g2 | d2e2 c2A2 | BcBA G2d2 | B2A2 A4 :|
+"B"|:\
+d3e ^f2a2 | g2a2 ^f2d2 | gedc B2dc | BAG2 BAGB ||\
+A3B c2g2 | d2e2 c2A2 | BcBA G2d2 | B2A2 A4 :|
+"^C"|:\
+e3^f g2f2 | d2e3 ^fg2 | ^f2d2 fgfe | d2c2 B2d2- ||\
+dcB2 c2g2 | d2e2 c2A2 | BcBA G2d2 | B2A2 A4 :|
+"^A variation"[|\
+A3B c2g2 | d2e2 c2A2 | BcBA G2d2 | A2B2 G2d2- ||\
+dcB2 c2g2 | d2e2 c2A2 | BcBA G2d2 | B2A2 A4 |]
+"^B variation"|:\
+d3e ^f2a2 | g2a2 ^f2d2 |[M:3/4] ge dc B2 | dc BA G2 |[M:4/4]\
+(3ABc d2- dcB2 |[M:6/4] c2g2 d2e2 c2A2 |[M:4/4] BcBA G2d2 | B2A2 A4 :|
+"^B var. in 4"|:\
+d3e ^f2a2 | g2a2 ^f2d2 | gedc B2dc | BAG2 (3ABc d2- ||\
+dcB2 c2g2 | d2e2 c2A2 | BcBA G2d2 | B2A2 A4 :|
+%%text Extra measures ("vamping") are often inserted between the parts.

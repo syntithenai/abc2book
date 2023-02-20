@@ -1,0 +1,26 @@
+X: 11321
+T: the BIRKS OF INVERMAY
+O: Scottish melody.
+Q: "Slow."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.132 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(Bcde) |\
+f6 f2 (fd3)(c3B) | (c3B)(c2d2) {F}G6 B2 |\
+(F3G) (FE)(DE) F4 (B3F) | D4 (F3G) F4 (Bcde) |\
+f4 g2(ab) | (fd3)(c3B) |\
+(e2d2)(c2B2) {F}G4 (d3c) |\
+(BG3)(F3D) (F3G) (B3c) | d4 c4 {Bc}B4 :|
+|: F3E |\
+{E}D6 F2 (G3F)(G2B2) | (c3B)(c2d2) {F}G6 g2 |\
+(f3g)(f2d2) (e2d2)(c2B2) | (e3f) (gfed) {d}c4 f3e |\
+(d2f2)(g2a2) b4 (a3g) | (fd3)(c2B2) {F}G4 (d3c) |\
+(BG3)(F2D2) FG3B3c | d4 c4 {Bc}B4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

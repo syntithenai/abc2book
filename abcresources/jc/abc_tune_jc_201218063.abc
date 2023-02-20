@@ -1,0 +1,58 @@
+%%text RJ Set 003 Reels
+
+
+X: 1
+T: Joys of Qu\'ebec
+I: RJ Quebec R-41 A reel
+M: C|
+R: reel
+K: A
+ee |\
+"A"eccc c2ee | eccc c2ee | fAeA dAcA | "E7"dBBB B2dd |\
+"E7"dBBB B2dd |
+dBBc B2(3Bcd |\
+[1 "E7"e2ee gfeg | "A"fe^df e2 :|[2 "E7"e2ee fefg | "A"a6 \
+|: (3ABc |\
+"A"[A4e4] "D"[A4f4] | "A"[e3A3][fA] [A2e2]AB |
+"A"[c4e4] "D"[d4f4] | "A"[c3e3]d [c2e2]Ac |\
+"A"B2A2 G2A2 | "E7"B3c B2Bc |[1 d2e2 gfeg | "A"fe^df e2 :|[2 "E7"d2e2 fefg | "A"afec A2 |]
+
+
+X: 2
+T: Gasp\'e Reel
+I: RJ R-30 with modifications
+R: reel
+M: C|
+L: 1/8
+%: u=!upbow!
+%: v=!downbow!
+K: D
+"D"u[fA] z2 ((3uf/g/f/ e2)d2 | zuAFA "D#dim"B2A2 |\
+"Em"v[g2B2]zvgf2ev(A | "A"B)ABc ((3BdB)A2 |\
+"D"vf2((3fgf) e2d2 | AAFA "D#dim"((3BdB)A2 |
+"Em"g2fa ((3faf) eu(A |1 "A"B2)uc2 "D"d4 :|[2 "A"B2uc2 "D"d2 "D#dim"((3faf) |:\
+"Em"e2f2 "A/C#"gf (ve2 | "D"f2) g2 "Bm"a3(f |\
+"Em"e2)ff "A/C#" gf eA | "F#m"BABc "B7" ((3BdB)A2 |
+"Em"e2f2 "A/C#"gf (ve2 | "D"f2) g2 "Bm"a3 |\
+[1 (uf | "Em"e2)ff gf e(uA | "A"B2)uc2 "D"d2 "D#dim"(3faf :|\
+[2 a | "Em"vb2 ((3aba) gfe(uA | "A"B2)uc2 "D"d4 |]
+
+
+X: 3
+T: Eddie's Reel
+I: RJ R-42 G reel
+M: C|
+R: reel
+K: G
+G2 |:\
+"G"DGBd gag2 | DGBd gag2 | DGBd gfed | "D7"c4 cdcB |\
+"D7"AFAd fgf2 | AFAd fgfe |[1 d2d2 eged | "G"B4 BcBA :|
+[2 "D7"d2d2 cAFA | "G"G6 |]\
+d2 |\
+"G"[B4b4] [B2b2][B2a2] | [B4g4] [B2g2]d2 | [B2b2][B2b2] [B2a2][B2g2] | "D7"[A4f4] [A2f2]d2 ||\
+"D7"[A4a4] [A2a2][A2g2] | [A4f4] [Af][Ag][Af][Ae] | [D2d2][D2d2] [Ae][Ag][Ae][Dc] | "G"[D4B4] [D2B2] |]
+d2 |\
+"G"[B4b4] [B2b2][B2a2] | [B6g6] z2 | [B4b4] [B2b2][B2b2] | "C"[c4c'4] [c2c'2][A2e2] ||\
+"Am"[A4a4] [A2a2][A2g2] | "D7"[A4f4] [Af][Ag][Af][Ae] | d2d2 cAF[DA] | "G"G6 |]
+% text 05/22/10
+

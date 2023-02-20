@@ -1,0 +1,28 @@
+X: 20442
+T: the BLUE-EYED LASSIE
+%R: strathspey, hornpipe
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.44 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(d>B) |\
+(A<F)(E>D) D3B, | A,>B, (D>E) D3F |\
+(G>F)(G>A) (B>A) (Bc/d/) | F2E2 E2(d>B) |\
+(A<F)(E>D) D3B, |
+A,>B, (D>E) D2(d>e) |\
+f2(ed) (A>B)(d>e)| f2(e>d) d2 |] (f>g) |\
+a>fa>b (a<f)(ed) | B2(e>f) e2(de) |
+(f>e)(d>B) (d<B) (A<F) | B,2(E>F) E2(AG) |\
+{G}F2(ED) A2(GF) | (B>A) (Bd) A3d |\
+B2g2 (f>a)(e>f) | d2D>E D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The above melody was the composition of Robert Riddell of Glen-Riddel.
+%% Burns' song, "I gaed a waefu' gate yestreen," is sung to this air.
+%%endtext
+%%sep 1 1 300

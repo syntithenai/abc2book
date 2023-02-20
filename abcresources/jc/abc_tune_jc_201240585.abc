@@ -1,0 +1,23 @@
+X: 40221
+T: The Shepherd's Wife
+Q: "with expression"
+B: Gows 4th Book p.22 #1
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Bar 9 has 7 8th notes. Fixed by matching bar 13's rhythm.
+M: 6/8
+L: 1/8
+K: Eb
+V: 1
+B |\
+~E2F ~G2A | ~B2e (ed).B | c>de {c}BAG | (FG).E {E}D>CB, |
+!E2F ~G2A | ~B2e (ed).B | Tc>de {g}(fe).d | {d}e3 e2 :|
+|: e/f/ |\
+~g>ag (gf).d | e>fe {e}d2B | Tc>de {c}BAG | (FG).E TDCB, |
+~g>ag {g}f2b | ~e>fe {e}d2g | Tc>de {g}fed | {d}e3 e2 :|
+V: 2 clef=bass middle=d
+z |\
+e2d e2f | g2e b2g | a3 gfe | A2=A B3 |
+e2B e2f | g2c' b2g | a3 b2B EGB e2 :|
+|: z |\
+e'3 d'2b | c'2=a b2g | _a3 gfe | A2=A B3 |
+!p!(e'3 d'3) | (c'3 b3) | a3 b2B | eBG E2 :|

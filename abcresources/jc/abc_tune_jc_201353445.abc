@@ -1,0 +1,41 @@
+X: 1
+T: Wizard of Oz medley p.1
+M: 6/8
+L: 1/8
+K: D
+P: Over the Rainbow
+|: "D"D4 "Bm"d4 | "F#m"c2AB c2"D7"d2 \
+| "G"D4 "G7"B4 | "D"[A2-E2][A2-D2] [A2-^C2][A2=C2] \
+|| "G"B,4 "Gm"G4 | "D"F2DE "B7"F2G2 |
+| "E(m)"E2CD "A7"E2F2 | "D"D6 "A7"zA \
+|| "D"FAFA "D6"FAFA | "Em7"GAGA GA"A7"Bc \
+| "D"d4- d4- | d4 z4 |]
+%
+P: Jump at the Sun
+K: Dm
+|: "Dm"DFA ^G2A | DFA ^G2A | dAA dAA | AGF "A"E3 | "Dm"DFA ^G2A | DFA ^G2A | dAA "Gm"BAG | "A7"FGE "Dm"D3 :|
+|: "Dm"dAA fed | "A7"eAA gfe | "Dm"fed fed | "A"e^cA "A7"B2A | "Dm"dAA fed | "A7"eAA gfe | "Dm"dAA "Gm"BAG | "A7"FGE "Dm"D3 :|
+%
+P: Ding, Dong! The Witch Is Dead
+M: C|
+L: 1/8
+K: D
+[|"D"A4 A3F | "A7"G2A2 "D"F4 | F2E2 D3E | F2E2 D4 \
+| "D"A4 A3F | "Em"G2A2 "(A)"=c2B2 | "D"A4- "Bm"A4- | "Em"A4- "A7"A2z2 |
+| "D"A4 A3F | "A7"G2A2 "D"F4 | F2E2 D3E | F2E2 D4 \
+| "D"F2A2 "Bm"d3e | "Em"f2e2 "A7"d2e2 | "D"d8- | d4 z4 |]
+%
+P: We're Off to See the Wizard
+M: 6/8
+L: 1/8
+K: D
+|: "D"DEF "A7"GFE | "D"D3 z3 | "D"DEF "A7"GFE | "D"D3 z3 \
+| "D"D2D "Bm"d2d | "G"B2B "A7"c2c | "D"ddd "E7"dcB | "A"A3 z3 |
+| "G"BBA "A7"B2c | "D"dAA Az2 | "Em"GGF "A7"EEA | "D"FFE Dz2 \
+| "D"D2D "Bm"d2d | "G"B2B "A7"c2c | "Em"eee "E7"edB | "A"A2z "A7"A3 :|
+[| "D"d2A "A7"F2G | "D"Ad2 z2A | "G"BAG "A7"FGE | "D"D3 z2D \
+| "G"D2D d2d | "F#m"ccc "Em"B2B | "Em"eee "E7"e2c | "A"A3 "A7"z2A |
+| "G"BBB "A7"BBc | "D"d2A "Bm"F2A | "Em"GGF "A7"E2G | "D"F2E D2D \
+| "G"D2D d2d | "A"c2c "G"B2B | "Em"e6- | "E7"e3 z2E |
+| "A"eee "Em"eee | "E7"e2c A2z | gfe dcB | cz {^g}a Az "A7"A \
+| "D"d2A "A7"F2G | "D"Ad2 z2e | "Em"fff "A7"efe | "D"d3 z3 |]

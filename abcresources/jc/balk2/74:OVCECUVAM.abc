@@ -1,0 +1,18 @@
+X: 374
+T: Ovce Cuvam
+O: Serbia
+F: http://www.youtube.com/watch?v=v4xYynz6lC8
+M: 2/4
+L: 1/8
+Q: 1/4=160
+K: Eb
+%%MIDI gchord fzcz
+"Bb"B2 B2|"Fm"A2 A2|"Eb"G2 G2|"Bb"F2 F2|\
+"Eb"EF G2|"Fm"AG A2|"Eb"GF G2|"Bb"F4:|
+%%MIDI program 70 Bassoon
+"Eb"G2G2|B4|"Ab"A4-|A2G2|\
+"Eb"G2G2|B4|"Ab"A4-|A3G|
+"Bb"G2G2|B4|"Ab"A4-|A3G|\
+"Eb"F2G2|A2G2"Fm"|A4|G4|"Bb"F4-|F4|
+"Eb"G2G2|"Bb"B4|"F"A4-|A3G|\
+"Eb"F2G2|A2G2|"Fm"A4|G4|"Bb"F4-|F4|

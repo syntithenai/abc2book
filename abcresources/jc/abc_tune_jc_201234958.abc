@@ -1,0 +1,27 @@
+X: 20913
+T: CINDERELLA SETT (tune 6)
+C:
+N: The MS has it labelled as tune 3, but it's the 6th tune, not the second tune 3.
+%R: reel, hornpipe
+B: Elias Howe "The Musician's Companion" 1843 p.91 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="6"
+(3(cde) |\
+f2fa g2gb | a2a2 afga | b2ba g2gf | efge ecde |\
+f2fa g2gb | a2a2 afga | b2ba g2gf | efge f2 H|]
+(AB) |\
+c>Af>d d>BG>B | d>Bf>d c>AF>A | c>Af>d B>GE>G | B>dc>B A>GA>B |
+c>Af>c d>BG>B | d>Bf>d c>AF>A | c>Af>c B>dc>B | A>GF>E "^D.C."F2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies balance to the right,
+%% all promenade,
+%% gentlemen the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,21 @@
+X: 1
+T: Sedi Donka    [C]
+R: SQQ.SQQ.QQSQQ
+O: Bulgaria
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 7.7.11/16
+L: 1/16
+P: ABABCDCD...AB
+K: C
+P: A
+|: "C"eGc ~e2 dB | "G"dGB ~d2 cB | "G"AB GD GAB "C"~c2 cG \
+|  "C"eGc ~e2 dB | "G"dGB ~d2 cB | "G"AB GD "A"GAB "D"~A2 z2 :|
+P: B
+|: "G"ABG ~B2 AG | "G"ABG ~d2 cB | "G"AB GD GAB "C"~c2 cG \
+|  "G"ABG ~B2 AG | "G"ABG ~d2 cB | "G"AB GD "A"GAB "D"~A2 "fine"z2 :|
+P: C
+|: "A"^c_BG ~A2 AE |  A_BG ~A2 AE | "A"A_B ^cd "Gm"efd "A"~e2 eA \
+|  "A"^c_BG ~A2 AE |  A_BG ~A2 AE | "Gm"d^c _BA G_BG "A"~A2 z2 :|
+P: D
+|: "Gm"_bc'b ba ag | "Dm"a_ba gf ef | "A"gf ed "Gm"efd "A"~e2 eA \
+|  "Gm"_bc'b ba ag | "Dm"a_ba gf ef | "A"gf ed "Gm"^c_BG "A"~A2 z2 :|

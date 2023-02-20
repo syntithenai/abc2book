@@ -1,0 +1,20 @@
+X: 716
+T: McFadden's Favorite
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #716
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0716/oneill-1001-0716-1.abc
+%%slurgraces 1
+%%graceslurs 1
+%m: Tn = (3n/o/n/
+%m: Tn2 = (3n/o/n/ m/n/
+M: C|
+L: 1/8
+K: G
+"^A"\
+[| G2(FG) (3(EFG) DB, | G,A,B,D EA,TA,2 | DG{A}GD EGaf | gedc BdAF ||
+|| G2BG EGDB, | G,A,B,D EA,TA,2 | DG{A}GD EGef | gedc BGHG2 |]
+"^B"\
+[| Tgfga bgaf | gabg eaaf | gfga bgeg | (3(efg) dc BGG2 ||
+|| Tgfga bgaf | gabg eaaf | gabf gedc | Baag (3(efg) d"_D.C."B |]

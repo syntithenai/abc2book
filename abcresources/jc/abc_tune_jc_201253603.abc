@@ -1,0 +1,22 @@
+
+X: 1
+T: B\logos\lawiony  [F]
+N: The l-slash chars may not print correctly
+M: 2/4
+L: 1/16
+K: F
+"^Intro"C2E2 EFG2 | B2A2 G4 | F6 z2 \
+|: C2F2 FGA2 | C2F2 FGA2 | C2F2 FGA2 \
+|1,3 B2A2 G2F2 :|2,4 B2A2 G4 | F4 z4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: B\logos\lawiony  [G]
+N: The l-slash chars may not print correctly
+M: 2/4
+L: 1/16
+K: G
+"^Intro"D2F2 FGA2 | c2B2 A4 | G6 z2 \
+|: D2G2 GAB2 | D2G2 GAB2 | D2G2 GAB2 \
+|1,3 c2B2 A2G2 :|2,4 c2B2 A4 | G4 z4 :|

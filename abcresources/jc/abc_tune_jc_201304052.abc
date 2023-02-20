@@ -1,0 +1,29 @@
+X: 1
+T: Lord what's come to my Mother
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (131)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2A BAG | d3 B2e | d>cB eEA | F3 D3 |\
+G2A BAG | e3 d2g | fed e^c2 | d3- d3 :|
+|:\
+A2B c>dc | B2e ^d2f | g>fe f^d2 | e3- e2B/c/ |\
+dde dGA | Bc/B/ A/G/ ADf | gde d(c/B/) (A/G/) | G3- G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man turns the 2d Wo. then he and the 2d Man leads
+%% thro the 1st and 2d Wo. and so come in their own Places
+%% again .| Then the 1st Wo. begins and does the same :| then
+%% both cast off and clap twice and cast up to the Top then
+%% right and left quite round then cast off and double
+%% figure between the 3d Cu. and so turn it out.
+%% [CCDM2]
+%%endtext
+%%sep 1 8 500

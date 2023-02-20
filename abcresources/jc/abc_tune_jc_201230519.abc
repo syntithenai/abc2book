@@ -1,0 +1,31 @@
+X: 13
+T: the Salamanca Castanets
+%R: waltz, minuet
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.7 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 3/4
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+dc |\
+BdGdBd | cdA2dc | BdGBAG | A^F Dd cA |\
+BdGd=Bd | cde2dc | BdBGA^F | G2g2 |]
+fd |\
+Bcdefg | fdB2dB | ABcdec | AGF2GA |\
+Bcdefg | fdB2dc | BABGA^F | G2g2 |]
+d2 |\
+c'c'/b/ ab c'a | bag2b2 | aa/g/ ^fg af | gbd'2d2 |\
+c'c'/b/ ab c'a | bagbag | ac'bag^f | g2G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Tune play'd straight thro')
+%%begintext align
+%% Swing with right hands round the 2d Cu: then with left .| the Lady whole figures
+%% round the top Cu: & the Gent: round the bottom .| & set contrary corners .| .
+%%endtext
+%%text DOUBLE FIGURE (Each strain repeated)
+%%begintext align
+%% The 3 Ladies lead round the 3 Gent: .| the 3 Gent: lead round the 3 Ladies |: whole
+%% poussette .| set contrary corners |: hands 6 round & back again .| & the double triangle |: .
+%%endtext

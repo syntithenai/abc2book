@@ -1,0 +1,29 @@
+X: 1
+T: the Round Ear'd Cap
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (91)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+cdc cdc | c3- c2c | efe efe | e3- e2e |\
+gag gag | g3- g2f | f3  e3  | d3- d2 :|
+|: g |\
+gfe efg | A3- A2f | fed def | G3- G2e |\
+edc cde | F3- F2f | e3  d3  | c3- c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% First and 2d Cu. clap hands and Back to Back and turn .|
+%% Then all four lead up forward and back and sett and turn
+%% single :| then all four Jigg it and take both right and
+%% left hands go round in your places .| then 1st Man turns
+%% the 3d Wo. and the 1st Wo. turns the 2d Man then both
+%% half figure with the 1st Cu. they turn with their right and
+%% left quite round :|
+%%endtext
+%%sep 1 8 500

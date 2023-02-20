@@ -1,0 +1,8 @@
+% Change the tempo inside a line of music.
+X:1
+T:TEST: tempo change
+M:6/8
+L:1/8
+Q:3/8=72
+K:C
+c3c3 | [M:2/4] [Q:3/8=1/4] c2c2 |

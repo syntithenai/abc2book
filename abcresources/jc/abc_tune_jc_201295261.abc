@@ -1,0 +1,49 @@
+
+X: 0
+T: Klezmer Reel Medley 6
+P: C instruments
+K: G
+P: Jackson's Breakdown
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+|: "D"Ad f/g/f/e/ | dF A>d |1,3 "A7"cE G>B | "D"AD F2 :|2,4 "A7"cA Bc | "D"d2 d2 :| [K:A]
+|: "A"[e2c2] [e2c2] | ea [e2c2] | "E7"bf ge |1,3 "A"ac e2 :|2,4 "A"a2 a2 :|
+P: Lebedich un Freilech
+R: freilach
+O: Abe Schwartz
+Z: 1998 John Chambers <jc:trillian.mit.edu>
+N: For contras: this tune is 64 bars, twice through the dance.
+M: 4/4
+L: 1/8
+K: DDor
+A^G/A/ _BA =GF EA | \
+|: "Dm"D>D FE- ED EF | A^G BA- AG FE | D>D FE- ED EF |1 A>^G B>G A A,B,^C :|
+|2 D4- D || D FA | "Dm"d2d2 d2de | "Am"c/B/A AA- AD FA | "Dm"d2d2 d2de | "Am"c/B/A AA- AG FE |
+| "Dm"D>D FE- ED EF | A^G BA- AG FE | D>D FE- ED EF | D4- D || [K:D]
+|: D GA \
+| "G"B4- BA B>A | GD3 zDGA | "D7"B>"/"A B>"/"A B>"/"A B>"/"A | "G"GD3 zDGA |
+| "G"B4 "Gm"_B4 | "A"AG FE- EE FG | "D"A>F "A7"G>E "D"F>D "A7"E>C | "D"D4- D:|
+P: Golden Slippers
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+GA \
+|  "G"B2B2 BAGA | B2B2 B2GA | B2B2 c3B | "D7"B2A2 A2FG |  A2A2 AGFG | A2A2 A2FG | A2c2 B2A2 |1 "G"A2G4 \
+                                                                                           :|2 "G"A2G6 :|
+|| "G"D6 G2 | B2A2 G2F2 | "C"E6 G2 | "Am"c2B2 A2G2 | "D7"F3D F2G2 |1 "D7"A2A2 A2D2 | "G"G2D2 G2A2 | B8 \
+                                                                 :|2 "D7"A2A2 A2c2 | B3c B2A2 | "G"G6 |]
+P: Golden Slippers
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+GA \
+|  "Gm"B2B2 BAGA | B2B2 B2GA | B2B2 c3B | "D7"B2A2 A2^FG |  A2A2 AG^FG | A2A2 A2^FG | A2c2 B2A2 |1 "Gm"A2G4 \
+                                                                                               :|2 "Gm"A2G6 :|
+|: "Gm"D6 G2 | B2A2 G2F2 | "Cm"E6 G2 | c2B2 A2G2 | "D7"^F3D F2G2 |1 "D7"A2A2 A2D2 | "Gm"G2D2 G2A2 | B8 \
+                                                                 :|2 "D7"A2A2 A2c2 | B3c B2A2 | "Gm"G6 |]

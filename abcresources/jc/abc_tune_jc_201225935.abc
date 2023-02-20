@@ -1,0 +1,32 @@
+X: 10052
+T: WALTZ
+C: Mozart
+%R: waltz
+N: This is version 1, for ABC software that doesn't understand crescendo/diminuendo symbols.
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.5 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 !segno!|:\
+(^FG)"_cres."(FG)(FG) "^fz"| .c2.c2G2 | (^FG)"_cres."(FG)(FG) "^fz"| .d2.d2G2 |\
+(ed)cBAG | A4 d2 | (cB)AGAB | c4 :| g2 |\
+(^fg)(fg)(fg) "^fz"| .B2.B2g2 | (^fg)(fg)(fg) "^fz"| .c2.c2g2 "^fz"|
+.d2.d2g2 "^fz"| .e2.e2g2 | (f"_dim."g)fedc | ^c"_dim."d=cBAG |\
+(^FG)(FG)(FG) !ff!| .c2.c2G2 !p!|(^FG)(FG)(FG) !ff!| .d2.d2G2 |\
+(ed)cBAG | A4 d2 | (cB)AGAB | "^Fin."c4 H|]
+|: G2 |\
+e4 d2 | c4 de | ff3e2 | (e2d2)G2 |\
+e4 d2 | c4 ^c2 | d^cdefd | c4 :|\
+Bc !f!|\
+d2f2 Bc | d2f2 Bc | d2f2f2 | f4 G2 |\
+e4 d2 | c4 ^c2 | d^cdefd | c4 |]
+ee |\
+e2e2 ee | e2e2e2 | e2d2c2 | B2B2 ee |\
+e2e2 ee | e2e4- | efedcB | A4 :|\
+ee |\
+e2e2 AB | c2c2 cc | c2c2 cd | e2e2 de |\
+(fg)fedc | (^cd)"_D.C.al.Fin."=cBAG !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

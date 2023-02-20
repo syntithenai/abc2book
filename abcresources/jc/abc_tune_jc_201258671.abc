@@ -1,0 +1,33 @@
+X: 1
+T:The Conundrum
+M:2/4
+L:1/8
+Q:80
+C:P.R. MacLeod
+S:March
+K:HP
+|: {g}A3/4B/4|\
+{gcd}c{e}A3/4{d}c/4 {g}e3/4f/4{gcd}c |\
+{g}A3/4{d}c/4{g}e3/4a/4 {fg}f{g}e3/4f/4 |\
+{ag}ae3/4f/4 {g}e3/4f/4{gcd}c |\
+{g}A3/4{d}c/4{gef}e3/4c/4 {gBd}B{e}A3/4B/4 |
+{gcd}c{e}A3/4{d}c/4 {g}e3/4f/4{gcd}c|\
+{g}A3/4{d}c/4{g}e3/4a/4 {fg}f{g}e3/4f/4|\
+{ag}ae3/4f/4 {g}e3/4f/4{gcd}c|\
+{gBd}B{e}A{GAG}A:|
+|:\
+{g}f3/4g/4|\
+{ag}ae3/4f/4 a/2e/2{ag}a|\
+e3/4f/4a3/4e/4 {gfg}f{g}e3/4f/4|\
+{ag}ae3/4f/4 {g}e3/4f/4{gcd}c|\
+{g}A3/4{d}c/4{gef}e3/4c/4
+[1 {gBd}B{g}f3/4g/4 |\
+{ag}ae3/4f/4 a/2e/2{ag}a |\
+e3/4f/4a3/4e/4 {gfg}f{g}e3/4f/4|\
+{ag}ae3/4f/4 {g}e3/4f/4{gcd}c|\
+{gBd}B{e}A{GAG}A:|
+[2 {e}A3/4B/4|\
+{gcd}c{e}A3/4{d}c/4 {g}e3/4f/4{gcd}c|\
+{g}A3/4{d}c/4{g}e3/4a/4 {fg}f{g}e3/4f/4|\
+{ag}ae3/4f/4 {g}e3/4f/4{gcd}c|\
+{gBd}B{e}A{GAG}A:|

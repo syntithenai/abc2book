@@ -1,0 +1,29 @@
+X: 13
+T:Alunelul de la Horezu
+O:Romania
+Z:transcribed by Jutta Weber_Karn
+Z:converted to abc notation by Seymour Shlien
+F:http://www.folkloretanznoten.de/
+M:2/4
+L:1/16
+K:Dm
+Q:1/4 = 121
+%%MIDI chordprog 24 % Acoustic Guitar (nylon)
+%%MIDI bassprog 32 % Acoustic Bass
+%%MIDI program 23 % Tango Accordian
+%%MIDI beat 97 87  77 4
+%%MIDI chordvol 60
+%%MIDI bassvol 116
+%%MIDI gracedivider 4
+%%MIDI drum dd 51 51  90 60
+%%MIDI drumon
+|:"D"FFFD FFFD       |FFFD ^G2A2                 |\
+  [1"Ddim"B=cAB ^G2A2|"D"F^GAF DFA z             :|\
+  [2"Ddim"=cBAB ^G2A2|"D"F^GAF D2z2              |:
+  "Ddim" B=cAB ^G2A2 |"D"F^EFF ^G2A2             |\
+  "Ddim"=cBAB ^G2A2  |[1"D"F^GAF DFAz            :|\
+  [2"D"F^GAF D2z2    |:
+  "Ddim" B=cAB ^G2A2 |"D"{=c}d2{^G}F2 {F}^G2{G}A2|\
+  "Ddim"=cBAB ^G2A2  |[1"D"F^GAF DFAz            :|[2"D"F^GAF D2z2|:
+  "D"FFFD FFFD       |FFFD ^G2A2                 |F^EFF ^G2A2     |\
+  [1F^GAF DFAz       :|[2F^GAF D2z2              |

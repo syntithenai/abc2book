@@ -1,0 +1,23 @@
+X: 12
+T: Air in Queen Mab
+%R: air, jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.6,7 #12
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+|:\
+a3 {g}f>ed | (fb)b b2d' |\
+(af).a (ge).g | (fdf) {f}e3 |\
+a3 {g}f>ed | (fb)b b2d' |
+aff gea | fdd d3 ::\
+(fa2) Te3 | (fa2) Te3 |\
+(fa).a ^gbd' | c'aa a2(b/c'/ |\
+d'2)(a/f/ b2)(g/e/ |
+a2)(f/d/ g2)(e/c/ |\
+d2)b a2b | (ag).f {f}e2A |\
+d3 {f}e>de | (fd').d' d'2b |\
+aff gea | fdd d3 :|

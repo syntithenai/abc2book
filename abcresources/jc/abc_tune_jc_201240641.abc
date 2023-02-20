@@ -1,0 +1,34 @@
+X: 4043
+T: the Marchioness Cornwallis's Strathspey
+C: by Mr Marshall
+%R: strathspey, air
+N: This is version 2, for ABC software that understands voice overlays and crescendo notation.
+U: p=!crescendo(!
+U: P=!crescendo)!
+B: Niel Gow & Sons "Complete Repository" v.4 p.4 #3 (and top 2 staves of p.5)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "SLOWLY"
+K: Eb
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 4-bar lines; the book scrunches the notes too much for current formatting software.
+V: 1 staves=2
+B,/A,/ |\
+(G,//A,//B,3/)~B,>C TE2G,E | (B,EB).E [GE][FD][FD]B,/A,/ |\
+(G,//A,//B,3/)~B,>C TE2Ee | Tc>BA>B GEE :|
+B |\
+(e/d/).c/.B/ e>B d>BeB | f>Ba>g {g}f2Tfg |\
+(a>g)f>e (ed).c.B | {E}e>cB>G B,EEc/d/ |
+(e.E)(c.E) (B.E)(G.E) | pa>fg>e d<fPHf>~B, |\
+C>ED>F E>BG>e | Tc>BA>B GE[EB,G,] |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+[G2e2][G2e2] GBx2 & x2GA x2e2 | g2eg bB B/A/G/F/ |\
+E2GA (G/B/)(e/g/) EG | A>Bcd e2D :| z |\
+[B2a2][B2g2] [B2f2][B2g2] | d2fe x4 & B4 B/d/f/b/ Be |
+f>edc cBAG | A2B2 EeEz |\
+[c2c'2][A2a2] [G2g2][E2e2] | [D2d2][E2e2] [B2b2]H z>g |\
+a2f2 gd eG | A>Bc>d e2E |]

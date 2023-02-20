@@ -1,0 +1,18 @@
+X: 2173
+T: the Malt-man.   a Jig.
+%R: slip-jig, air
+B: Niel Gow & Sons "Complete Repository" v.2 p.17 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 9/8 
+L: 1/8
+K: G
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+D | .E/.F/.G.G .G2g dBG | F2A- AEA TF2D | .E/.F/.G.G G2g def | g2G- G>AG G2 :: c | Bcd efg dBG | TF2A- AEA TF2D |
+dBd ece def | g2G GAG G2 :: (d//e//f/) | g3 Tf2e dBG | TF2A- AEA TF2D | gag Tf2e def | g2G- GAG G2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | G3 g3 g3 | d3 ^c3 d3 | g3 g3 g3 | g3 d3 G2 :: z | G3 c3 B3 | d3 ^c3 d3 |
+B3 c3 B2A | G3 d3 G2 :: z | g3 d3 B3 | d3 ^c3 d3 | e3 d3 =c3 | B3 d3 G2 :|

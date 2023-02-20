@@ -1,0 +1,18 @@
+X: 11404
+T: the FAIRIE
+Q: "Sprightly."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.140 #4 (and p.141 #1)
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c2d |\
+(ec)e f2g | a2e (fa)f | (ec)e (fd)c | {c}B3 e2e |\
+(e>f)e (ed)c | d3 d2d | (dc)d (fe)d | c3 (ec)e |\
+(fd)f (ge)g | a3 (ag)f | (ed)c (BA)G | A3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,27 @@
+X: 1812
+T: THE SWEET BIRDS ARE SINGING
+O: Tyrolian
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.181 #2
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+% -------------------------
+V: 1
+A |\
+(AG)GG | (FA)AA | (Ag)(ec) | dFFA |\
+A2EG | F3A | (AG)GG | (FA)AA |\
+Agec | (dF)FA |
+A2EG | F4 |\
+e2cA | dfa2 | (gA) (eg) | (fA) (df) |\
+e2(cA) | dfa2 | gA ce | d3 |]
+% -------------------------
+V: 2
+F |\
+(FE)EE | (DF)(DF) | G2GG | F2FD |\
+E3E | D3F | (FE)EE | (DF)(DF) |\
+G2GG | F2FD |
+E3E | D4 |\
+(GA) (GA) | (Ad) (Ad) | EA GA | FA FA |\
+GA GA |FA FA | (EG) (GA) | F3 |]

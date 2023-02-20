@@ -1,0 +1,42 @@
+X: 271
+T: the Foot March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.27 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The phrasing is quite irregular; staff breaks are arbitrary to give even spacing.
+M: 3/4
+L: 1/8
+K: G
+%%staffsep 40
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"1."[|\
+G2 B2 d2 | f2 g2 zb |\
+agfed>c | TB6 |\
+G2 B2 d2 | {d2}HTc4 ze |\
+d4 (3(gfe) | d6 "2d"|]|\
+G2 B2 d2 | Ac Te4 "3d"|]
+[|\
+{e2}d4 (3(cdc) | TB4 e2 |\
+d^cde d2 | gfe d3 "4th"|]|\
+Te4 fg | g2 Tf3 e |\
+d^cde d2 | G2 BA B2 "5th"|[|\
+HTe4 fg |
+Hd6 |\
+cAeGFE | D3 cBA |\
+(3(BAG) HG6 "6th"|]|\
+HTe4 (3(dcB) | {d2}H^c4 (d/A/F/D/) |\
+(3(ABc) HTB4 | e2 dcBA |\
+GFGA {G}F2 |
+(3(ABc) HB4 |\
+ef g3 e | d4 (3(cBA) |\
+HG4 g/d/B/G/ "7."|[|\
+HTG4 (3(GAB) | HTB4 (3(Bcd) |\
+{d2}HT^c4 (3(cde) | d4 (3(cBA) |\
+HG6 |]
+"8th"[|\
+HTe4 fg | Hd6 |\
+(3(cBA) (3(BAG) G2 | fg {g}Hf3 e |\
+d3 ed^c | Hd2 G2 B2 |\
+GABc d2 | f g3 Hd2 |\
+cBA G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

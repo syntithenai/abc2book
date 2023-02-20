@@ -1,0 +1,21 @@
+X: 30643
+T: HUFF'S HORNPIPE
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.64 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Bar 5 has an initial quarter-note B; changed to match bar 1.
+N: Bar 3 is a 16th-note short; not fixed.
+M: 2/4
+L: 1/16
+K: B
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(3FGA |\
+B2 B3BdB | cBAG FFGA | B2[d2B2][dB]dc | cf=eg fd_ec |\
+B2 B3BdB | cBAG FFGA | Bdce dfAc | Bbfd B4 H:|
+|: B2 |\
+d4 dBfd | cBAB cAf[ec] | B=ege bgeB | ABcd c2Bc |\
+dBdf bfdB | cAfc afcA | dBbf afg=e | f=efg fd_ec :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

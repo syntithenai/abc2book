@@ -1,0 +1,24 @@
+X: 1
+T: Ma Maitresse
+C: harm. Jean-Marie Coulondre
+O: trad. Morvan, France
+R: bour\'ee 3T
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+S: NEFFA 2019 French Jam handout p.2 #2
+M: 3/8
+L: 1/8
+K: Cm
+V: 1 staves=2
+|:\
+"Cm"e4c2 | "Fm"f6 | "G"e2d2e2 | "Cm"c2c=Bcd |\
+"Cm"e4c2 | "Fm"f6 | "G7"e2d2=B2 |1 "Cm"c4d2 :|2 "Cm"c4=B2 ||
+|:\
+"Cm"cde2g2 | "G"d4g2 | "G7"fgf2e2 | "G7"d4=B2 |\
+"Cm"cde2g2 | "G"d3cd2 | "G7"g2f2=B2 |1 "Cm"c4=B2 :|2 "Cm"c6 |]
+V: 2
+|:\
+g4e2 | c6 | G2=B2c2 | e4 f2 |\
+g2f2e2 | c6 | G2=B2G2 |1 c6 :|2 c6 ||
+|:\
+c4c2 | d4=B2 | G2=B2c2 | f2d4 |\
+G2G4 | =B4B2 | G2=A2=B2 |1 c6 :|2 c6 |]

@@ -1,0 +1,29 @@
+X:1
+T: Putney Ferry
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:Em
+I:speed 150
+%W:        A1                                                A2
+% voice 1 (1 lines, 31 notes)
+K:Em
+M:6/8
+L:1/16
+B2 |e4 f2 g4 a2 b6 d6 e3 f g2 f4 e2 d2 B4B4 B2 |e4 f2 g4 a2 b6 d6 e3 f g2 f4 e2 d2 B4B4 b2 |
+%W: B1
+% voice 1 (1 lines, 34 notes)
+b4 b2 a3 g a2 g6 g4 f2 g3 a b2 a3 g a2 g6g4 f2 |g4 f2 g4 a2 b4 b2 b3 a g2 f4 e2 d3 c d2 e6e4 b2 |
+%W: B2
+% voice 1 (1 lines, 34 notes)
+b4 b2 a3 g a2 g6 g4 f2 g3 a b2 a3 g a2 g6g4 f2 |g4 f2 g4 a2 b4 b2 b3 a g2 f4 e2 d3 c d2 e6e4 f2 |
+%W: C1
+% voice 1 (1 lines, 35 notes)
+g3 f e2 d4 f2 g3 f e2 d4 f2 b3 a g2 f4 a2 g6g4 f2 |g4 f2 g4 a2 b4 b2 b3 a g2 f4 e2 d3 c d2 e6e4 f2 |
+%W: C2
+% voice 1 (1 lines, 34 notes)
+g3 f e2 d4 f2 g3 f e2 d4 f2 b3 a g2 f4 a2 g6g4 f2 |g4 f2 g4 a2 b4 b2 b3 a g2 f4 e2 d3 c d2 e6e4 ||

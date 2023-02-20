@@ -1,0 +1,23 @@
+X: 1
+T: Shottish 12
+T: Schottis efter Erik Westman, Hack\aas
+S: Erik Westman, Hack\aas (1883-1970
+N: Arr. Sven Rydh
+O: Scandinavia
+M: 4/4
+L: 1/8
+K: D
+V: 1
+|: A |\
+ f4 (d3B) | (A>B) A>G F2 A>d | (c>d) e>f (g>A) B>c | d>e f>g a2 a2 |
+ f4 (d3B) | (A>B) A>G F2 A>d | (c>d) e>f (g>A) B>c | d2 d2 d2 z :|[K:A]
+|: f |\
+ (e>f) e>f (e>c) (A>c) | (e>a) e>c A2 c>c | [c2E2] B>B E2 (G>B) | (B>A) (c>e) a2 a2 |
+ (e>f) e>f (e>c) (A>c) | (e>a) e>c A2 c>c | [c2E2] B>B E2 (G>B) | (B>A) c>B A3 z :|
+V:2
+|: A |\
+ [A4D4] ([A3F3]G) | ([AF]>[AG]) [AF]>[AE] ([A2D2] [A2F2]) | (A>B) G>F E2 G2 | (F>G) F>E F2 (GF) |\
+ [A4D4] ([A3F3]G) | ([AF]>[AG]) [AF]>[AE] ([A2D2] [A2F2]) | (A>B) G>F (E2 G2) | [A2F2] [A2G2] [A2F2] "fine"z :|
+|: f |\
+ (c>d) c>A c>E [E2C2] | A2 E2 C2 E2 | E2 (G>F) E2 B,2 | D>F A>B c2 c2 |\
+ (c>d) c>A E2  [E2C2] | A2 E2 C2 E2 | E2 (G>F) E2 B,2 | (G>F) E>D C3 "d.C."z :|

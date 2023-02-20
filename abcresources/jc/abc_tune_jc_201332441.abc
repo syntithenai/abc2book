@@ -1,0 +1,27 @@
+X: 1
+T: Running Footman
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master" printed by John Walsh, London
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.6 #11
+N: 2nd part has initial repeat but no final repeat.
+Z: 2012-2013 John Chambers <jc:trillian.mit.edu>
+N: Added rest to fix the missing pickup note to 2nd phrase.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g/f/ |\
+g>fe dcB | ABc BAG | GBd FAd | GBd FAd |\
+gdg gdg | gdg fe/f/d | g>fe d>cB | Agf g2 :|
+|: z |\
+fga aba | agf ed^c | (d/f/a)f (d/f/a)f | Ad^c dgf |\
+(g/=c/B)c (g/=c/B)c | (g/=c/B)c f>ed | g>fe d>cB | Agf g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man Heys with the 2d and 3d Wo. his Partner at
+%% the same Time Heys with the 2d and 3d Men .|  Then Hey
+%% on your own Sides :|  First Cu. cross over below the 2d Cu.
+%% and then below the 3d .|  First Cu. leads up the Middle to
+%% the Top, foot it and cast off.
+%%endtext

@@ -1,0 +1,40 @@
+X: 712
+T: Shaun Truish Willichan
+R: strathspey
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.71 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Ddor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A,2 |\
+DDD2 D3F TE4 A,3F | F4 (E2TD2) GFED C2E2 |\
+DDD2 D3F E4 A,3E | F4 E2TD2 C3A,A,2 :|
+|: G2 |\
+A3cA2F2 G3AG2E2 | F3GF2D2 GFED C2G2 |\
+A3cA2F2 G3AG2E2 | F2D2 GFED C2A,2A,2 :|
+|: A2 |\
+ddd2 d3f Te4 A3e | {de}f4 Te2d2 gfed c2e2 |\
+ddd2 d3f Te4 A2e2 | f2d2 gfed Tc3AA2 :|
+|: g2 |\
+a2a2 _bagf g2g2 agfe | f2f2 gfed e2c2c2g2 |\
+a2a2 _bagf g2g2 agfe | f2d2 gfed Tc2A2A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+d4d4 A4A4 | d4d4 c4c4 |\
+d4d4 A4A4 | d4d4 A4A2 :|\
+|: z2 |\
+f4f4 e4e4 |
+d4d4 c4c4 |\
+f4f4 e4e4 | d4d4 A4A2 :|\
+|: z2 |\
+d4d4 A4A4 | d4d4 c4c4 |\
+d4d4 A4A4 |
+d4d4 A4A2 :|\
+|: z2 |\
+f4f4 e4e4 | d4d4 c4c4 |\
+f4f4 e4e4 | d4d4 A4A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

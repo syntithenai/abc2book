@@ -1,0 +1,45 @@
+X: 3141
+T: Mrs Hamilton of Pincaitlands    Strathspey
+C: by Nath:Gow:
+%R: strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.14 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: C
+% - - - - - - - - - -
+% Voice 1 reformatted for 4 lines (8,8,5,7 bars), for compactness and proofreading.
+V: 1 clef=treble staves=2
+GF |\
+TE3FG2G2 A2c2A2F2 | E2c2 {A}G2FE ([E2C2][D2B,2]) [D3B,3]F |\
+TE3FG2G2 A3B c2f2 | (e2g2) f2d2 {B}c4 Tc2GF |\
+TE3FG2G2 A2c2G2e2 | F2d2E2c2 {E}D4 D2GF | TG3FG2G2 A2c2G2E2 | (F2A2) G2E2 [C4G,4E,4] [C2G,2E,2] |]
+!p!gf | (e2g2) f2d2 {B}c4 Tc2de | (f2a2) g2e2 d4 Td2gf | (e2f2) d2B2 (c2e2) G2E2 | \
+(F2A2) G2E2 [C4G,4E,4] [C2G,2E,2]gf | (e2g2) f2d2 {B}c4 Tc2de |\
+(f2a2) g2e2 d4 Td2"_Exp.o"ef | g3ef3d e2c2 G2E2 |\
+(F2A2) G2E2 [C4G,4E,4] [C2G,2E,2] |]
+|: !p!GF | \
+E2C2C2C2 E2C2G2E2 | "_cres."(F2A2) G2E2 [E2C2][D2B,2] [D2B,2]!f!GF |\
+E2C2G2E2 c2G2c2e2 | [fd][ec][dB][cA] [BG][AF][GE][FD] [E2C2][E2C2][E2C2] :|\
+!p!(gf) |\
+(e2g2) f2d2 cd/e/ f/g/a/b/ c'2de |
+(f2a2) g2e2 de/f/ g/a/b/c'/ d'2gf |\
+(e2f2) d2B2 (c2e2) G2E2 | (F2A2)G2E2 [C4G,4E,4] [C2G,2E,2] \
+(gf) |\
+(e2g2) f2d2 cd/e/ f/g/a/b/ c'2de | (f2a2) g2e2 de/f/ g/a/b/c'/ d'2"_Exp.o"ef |\
+g3e f3d e2c2 G2E2 | (F2A2)G2E2  [C4G,4E,4] [C2G,2E,2] |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |\
+c4e4 f4F4 | c4C4 G2g2G4 | c4e4 f4e2f2 | g4G4 c2G2C4 | c4e4 f4e4 | d4c4
+G4g4 | c4e4 f4c4 | f4g4 c2G2C2 |] !p!z2 | c4g4 (e2g2)e2c2 | f4c4 (g2d'2) b2g2 | c'4g4 a4e4 |
+f4 g2G2 c2G2 C4 | [c4g4][B4g4] (c2g2) e2c2 | [f4c4]e2c2 g2d'2 b2g2 | c'4b4 c'4e4 | f4g2G2 c2G2 C2 |] |:\
+!p!z2 |\
+CcGc CcGc 
+CcGc EcGc | FcAc EcGc Ggdg Gg!f!dg | cgeg cgeg cgeg cgeg | f4 g3G c2G2C2 :|
+!p!z2 |\
+[c4e4g4][B4d4g4] [c4e4g4]z4 | [c4f4a4][c4e4g4] [B4d4g4]z4 | c4g4 a4e4 | f4g2G2 c2G2 C4 |
+[c4e4g4][B4d4g4] [c4e4g4]z4 | [c4f4a4][c4e4g4] [G4d4g4]z4 | c4g4 a4e4 | f4g2G2 c2G2 C2 |]
+% - - - - - - - - - -
+%%text N.B. The 3d & 4th Strains are meant for harp.d only.

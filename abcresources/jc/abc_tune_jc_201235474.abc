@@ -1,0 +1,30 @@
+X: 21172
+T: BARCAROLE SETT (tune 5)
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.117 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain has a final 6-count c plus a 2-count rest, plus a pickup for strain 2. Fix: shortened the c.
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+GG |\
+cccc e2e2 | g2ag e2e2 | g2g2 d2d2 | e2g2 c'2BB |\
+c2cd e2ef | g2ag e2e2 | g2gf d2gf | c4 z2 H|]
+c2 |\
+d2dd cBAG | d2d2 cBAG | d2gB dcAB | A2GG G3G |\
+c2cd edef | ggag e2ee | g2ff d2g2 | c4- "^D.C."c2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% swing between the side couples,
+%% forward six,
+%% swing to place with partners,
+%% balance four,
+%% next two, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

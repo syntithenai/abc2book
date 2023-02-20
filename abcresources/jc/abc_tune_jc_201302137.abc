@@ -1,0 +1,22 @@
+X: 689
+T: the Lightning Flash   #2
+R: reel
+%S: s:2 b:14(7+7)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #689
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0689/oneill-1001-0689-1.abc
+%m: ~n2 = o/4n/m/4n
+N: Compacted via repeats and multiple endings [JC]
+M: C|
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+"^A"\
+[|] (dc) | BG{A}GB AFDE | FEFG \
+[1  Adgd | BG{A}GB AGFA | (3(Bcd) cA G2 :|\
+[2 (3(ABc) de | ~f2fd ecAc | BGAF G2 |]
+"^B"\
+|: (Bc) | dgga bgaf | dcde \
+[1 fdcA | dgga bgag | fdcA G2 :|\
+[2 fefg | abag fgag | fdcA G2 |]

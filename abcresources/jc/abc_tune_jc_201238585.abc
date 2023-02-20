@@ -1,0 +1,73 @@
+X: 30
+T: les Amusements de Spa.
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #30
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+aec AEC | A,DE F2E | cde fga | BcA {A}B2E |\
+aec AEC | A,DE F2E | cde fga | EAG A3 :|
+|:\
+cde aAc | Bcd bBd | ced cBA | BEE E3 |\
+cde aAc | Bcd bBd | ceA EAG | AA,A, A,3 :|
+M: 6/8
+K: Am
+[| "Mineur"\
+aec AEC | A,DE F2A | ABc BcA | ^G2^F ^G2E |\
+aec AEC | A,DE F2E | ABc BcA | BA^G A3 |]
+[|\
+cde edc | B2A B2G | Bcd {d}cBA | ^G2^F ^G2E |\
+ABc BcA | ^GBe ^gab | edc {c}BA^G | A3 A3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+a3- a3 | A3-A3 | a3 d3 | e3- e3 | A3 A3 |
+a3- a3 | A3 d3 | e3 A3 :||: a3 A3 | g3 e3 |
+a3 A3 | e3 E3 | A3 a3 | g3 e3 | a2c e2E | A3- A3 :|
+M: 6/8
+K: Am
+[| "Mineur"\
+a3- a3 | A3- A3 | c3 def | e2B E3 | A3- A3 |
+a3- a3 | c2A e2f | d2e A3 |]\
+[| a3 ^f3 | g2d G3 | d3 f3 |
+e2B E3 | c2A d2f | e3 E3 | c2A d2e | aec A3 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Les Amusements de Spa.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first Couple take hands, go between the
+%% fourth and change places, then Balanc\'e and
+%% Rigaudon while the third and second Couple
+%% do the same - - - 1/2
+%%endtext
+%%begintext align
+%%   The fourth Couple take hands, go between
+%% the first and change Places, then Balanc\'e and
+%% Rigaudon, while the second and third Couple
+%% do the same - - - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   The four Ladies half Right hand and Left
+%% to the opposite places, then the four Gentlemen
+%% do the same - - - 1/1
+%%endtext
+%%begintext align
+%%   The first and second Couple hands Round
+%% to their places, while the third and fourth
+%% Couple do the same - - - 1/2
+%%endtext
+%%begintext align
+%%   __
+%%endtext
+%%sep 1 1 400

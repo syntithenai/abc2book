@@ -1,0 +1,20 @@
+X: 2151
+T: Torry Burn.  a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.2 p.15 #1 (top 2 staves continued from p.14)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+D |\
+~G2(BG) Bdd2 | ~c2ec egg2 | G2(BG) TBcdg | edcB A2G :| d | Tg2bg afed | Te>def gdBG |
+Tg2bg afgd | Tedef g2ga || bagf gfed | {f}edef gdBG | (TcBc).d efge | dBGB TA2G |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+g2g2 g2g2 | c2c2 c2c2 | g2g2 B2B2 | c2c2 d2G :| z | g2g2 B2G2 | c2d2 g2G2 |
+g2g2 d2B2 | c2d2 G2G2 || g2d2 e2B2 | c2d2 g2g2 |\
+[a2A2][b2B2] [c'2c2][c'2c2] | [d'2d2][d'2d2] [d'2d2][gG] |]

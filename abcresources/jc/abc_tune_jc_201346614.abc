@@ -1,0 +1,10 @@
+X: 1
+T: TEST: dots
+%%staffwidth 400
+M: none
+K: C
+%:      D2DE       F2FG |       A2AB cd      d2 :|
+|: "..."D2DE !_...!F2FG | +_...+A2AB cd"_..."d2 :|
+w: quotes** bangs** plusses** underscores**
+|: "..."D2DE !^...!F2FG | +^...+A2AB cd"^..."d2 :|
+w: quotes** bangs** plusses** underscores**

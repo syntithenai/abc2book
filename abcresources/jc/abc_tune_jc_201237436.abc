@@ -1,0 +1,29 @@
+X: 261
+T: Capt Hood's Quick March
+C: Abraham Mackintosh
+R: jig, march
+M: 6/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Abraham Mackintosh "A Collection of Strathspeys, Reels, Jigs &c.", Newcastle, after 1797, p.26
+F: http://imslp.info/files/imglnks/usimg/a/a8/IMSLP80796-PMLP164326-Abraham_Mackintosh_coll.pdf
+N: The dot over the 2nd g in part 2's bar 10 is probably wrong.
+K: C
+V: 1
+e/d/ |\
+e2E Gcc | cAc c2A | (G/A/B)B B2c | BGA Bed |\
+c2G A2A | G2[AF] EFG | [c2F2][cF] [cE][BF][cG] | [B3F3] [cE2]ed :|
+|: (c/d/e).e e2f | e2d c2A | G/A/BB B2c | BcA GAB |\
+G2G G2G c2c c2A | [c2F2][cF] [cE][BF][cG] | [B3F3] ced :|
+V: 2
+g/f/ |\
+e2c ceg | afa gec | (B/c/d).d d2e | dBc dgf |\
+e2c cdc | cGc cde | fga gfe | d3 cgf :|
+|: (e/f/g)g .g2a | gef gec | B/c/dd d2g | dec Bcd |\
+e>fe e<ge | f2a gec | fga g<c'e | d3 cgf :|
+V: 3 clef=bass middle=d
+z |\
+c3 e3 | f2f e2f | g3 G3 | g3 B3 |\
+c2e f2f | e2c' c'b_b | agf edc | g2G c2B :|
+|: c3 C3 | c2d e2f | g2G gfe | f2^f g3 |\
+c'2c c'2_b | a2f e2c | A2f c'2c | g2G c2B :|

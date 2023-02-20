@@ -1,0 +1,51 @@
+X: 10641
+T: the MANLY HEART
+C: Mozart
+Q: "Andantino"
+%R: air, waltz, jig
+B: "Edinburgh Repository of Music" v.1 p.64 - p. 67 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The temp voices in bars 38 & 42 are a bit odd, but they're transcribed in this version.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 arranged for longer staff lines.
+V: 1 clef=treble
+"^Sy."GGG |\
+Azz d'3 | bz "^So."d (dB)B | BGG FAc | cBd dgf |\
+fed dcB | {B}Az d dBB | BGG FAc | cBd gz f |
+efd de^c | d2d afd | gz g afd | gzz ggg |\
+az a d>ef | gzz g (f/g/) (f/g/) | a2c'/a/ g2a/f/ | g2z "^Sy."d'd'd' | b2z (d/^c/=c/B/A/d/) |
+Gz d (dBB) | BGG (F/G/A/B/)(c/d/) | dBd dgf |\
+(f/e/)(g/f/)(e/d/) (d/c/)(e/d/)(c/B/) | (BA)z z2z | z6 | z6 | z6 |
+z2d afd | g2g b/a/g/f/e/d/ | gzz ggg | az a d>ef |\
+gzz g f/g/ f/g/ | a2c'/a/ g2a/f/ | g2z "^Sy."dg b/>g/ | (gf)z d>g b/g/ |
+"_Sy."fz f dg b/>g/ | Tgfd d>g b/g/ | fzz bz a | gz f ez d |\
+c/c/d/e/f/g/ a2a & czz x3 | bz b az a | gzz bz a | gz f ez d |
+c/c/d/e/f/g/ a2a & czz x3 | bz b az a | (g//a//g//f//) g/a/b/c'/ d'/b/g/d/c/B/ | A2c'/a/ agf |\
+(g//a//g//f//) g/a/b/c'/ d'/b/g/d/B/G/ | E2c'/>a/ d'2f | g2z "_Sy."d'>bc'/a/ | ggg gzz |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=treble
+"[64.1]"
+GGG | Dzz A2F | Gz B (BG)G | GDD DFA | AGB BAG | dcB BAG |
+"[64.2]"
+Fz B BGG | GDD DFA | AGB cz d | G2G FGG | F2d =c2d |
+"[64.3]"
+Bz d =c2d | Bzz eee | cz c d2d | ezz BBB | c2c d2d | G2z
+"[65.1]"
+ddd | g2z (A2F) | Gzz z2z | z6 | z6 | z6 |
+"[65.2]"
+z2d dBB | BGG (F/G/A/B/)(c/d/) | cBd g2f | e>fd d>e^c | d2d =c2d |
+"[65.3]"
+B2d c2d | Bzz eee | cz c d2d | ezz BBB | c2c B2A | G2z
+"[66].1"
+GB d/>B/ | (BA)z dBG | dz d GB d/>B/ | TBAd dBG | dzz gz d |
+"[66].2"
+ez B cz G | A/A/B/c/d/e/ f2f & Azz x3 | gz e cz d | Bzz gz d | ez B cz G |
+"[66].2"
+A/A/B/c/d/e/ d2d & Azz x3 | gz e cz d | B2z z2z | z2c d2c |
+"[p.67.1]"
+B2z z2z | z2e/>c/ B2A | G2z g2d | BBB Bzz |]

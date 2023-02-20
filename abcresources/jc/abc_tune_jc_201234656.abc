@@ -1,0 +1,19 @@
+X: 20684
+T: LILLA'S A LADY.
+O: German air.
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.68 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Bars 10,12 have an extra 1/6 note; not fixed.
+N: The 2-note pickup doesn't fit with the last measure's rhythm; not fixed.
+M: 3/8
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(d2c2) |\
+(B2d2).d2 | (e2d2).d2 | (B2d2).d2 | d4(cB) |\
+cBcdef | (g2f2)e2 | (e2d2)d2 | d4B2 |\
+(d2c2)c2 | a6 c | (c2B2)B2 | g6 d |\
+(d2c2)c2 | (c2B2)B2 | d^ced=cA | G6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,6 @@
+X: 1
+T: TEST: Keysig tonic + separate accidentals.
+%%staffwidth 300
+P: K: D_e _B^f ^c % zengule
+K: D_e _B^f ^c % zengule
+[| DCDE FGABc | dcBA GFED  |]

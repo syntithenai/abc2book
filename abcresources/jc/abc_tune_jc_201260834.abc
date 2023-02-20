@@ -1,0 +1,26 @@
+X:1
+T: Cat's Cradle
+N:
+C:
+S:Play  3  times
+A:
+O:
+R:
+M:6/8
+K:Em
+I:speed 150
+%W:
+% voice 1 (1 lines, 39 notes)
+K:Em
+M:6/8
+L:1/16
+B2 |b2 a2 g2 f2 e2 ^d2 e6e4 f2 g2 a2 b2 a2 b2 g2 f6f4 f2 |g2 f2 e2 a2 g2 f2 b2 a2 g2 c'4 c'2 b2 a2 g2 f2 g2 e2 ^d6d4 B2 |
+%W:
+% voice 1 (1 lines, 39 notes)
+b2 a2 g2 f2 e2 ^d2 e6e4 f2 g2 a2 b2 a2 b2 g2 f6f4 f2 |e2 f2 g2 f2 g2 a2 g2 a2 b2 a2 b2 c'2 b2 e'2 e2 f2 b2 ^d2 e6e4 d2 |
+%W:
+% voice 1 (1 lines, 39 notes)
+d'2 c'2 b2 a2 g2 f2 e6e4 b2 c'2 b2 a2 g2 f2 e2 ^d6d4 f2 |e2 f2 g2 f2 g2 a2 g2 a2 b2 a2 b2 c'2 b2 e'2 e2 f2 b2 ^d2 e6e4 d2 |
+%W:
+% voice 1 (1 lines, 37 notes)
+d'2 c'2 b2 a2 g2 f2 e6e4 d'2 e'2 d'2 c'2 b2 a2 ^g2 a6a4 d2 |e2 f2 g2 f2 g2 a2 g2 f2 e2 ^d4 B2 c2 B2 A2 G2 A2 F2 E6E4 ||

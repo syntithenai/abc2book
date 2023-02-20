@@ -1,0 +1,31 @@
+X: 141
+T: Poyntins Maggot
+T: Longways for &c.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.71
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+N: The rhythms don't quite match at the strains' ends; not fixed.
+M: 6/4
+L: 1/4
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A3 E3 | C>DE A,2A |\
+D2B E2c | Fdc B3 :: e |\
+a3 e3 | c>de A2f |\
+G2e F2d | EcA BGE |\
+FAC B,B^G | A3 A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st Cu. take both hands, the 2d Cu. do the
+%% same, and go round in each others places .|
+%% the same back again :| the 1st Man change
+%% place with the 2d Wo. the 2d Man with the 1st
+%% Wo. and all four turn single .| hands across
+%% and turn quite round, then 1st Cu. turn proper :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

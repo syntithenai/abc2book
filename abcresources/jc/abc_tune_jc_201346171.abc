@@ -1,0 +1,23 @@
+X: 1
+T: Tri Godini Se Ljubevme  [C]
+O: Macedonia
+R: devetorka
+M: 9/8
+L: 1/8
+Q: 2/8 2/8 2/8 3/8
+K: C
+P: instr.
+"A"[|\
+"C"e>c ef ed c2d | e>c ef ed ccz |\
+"C"[eg]>[ce] [eg][fa] [eg][df] [c2e2][df] | [eg]>[ce] [eg][fa] [eg][df] "C7"[ce][df][eg] |
+"B"|\
+"F"[f2a2] [f2a2] [eg][fa] [fa][eg][df] | "C"[e2g2] [e2g2] [df][eg] [eg][df][ce] |\
+"Dm"[d2f2] [d2f2] [ce][df] "G7"[df][ce][Bd] | "C"[ce][Bd] [ce][df] [e2g2] "A7"[^ce][df][eg] |
+"Dm"[f2a2] [f2a2] [eg][fa] "G7"[fa][eg][df] | "C"[e2g2] [e2g2] [df][eg] "Am"[eg][df][ce] |\
+"G"g^f ^ef g2 =f=ed | "C"cB ^AB "F"cd "C"cc"fine"z |]
+P: vocal:
+"C"|:\
+"C"cB ^AB cd c3 | cB ^AB cd "C7"c3 | "F"A2 A2 A2 AGF | "Fm"G_A cB AG "C"G3 :|
+"D"|:\
+"Gm"G2 "Dm"d2 c_B A2=B | "(C)"c_B AG "G7"GF "C"E2F/G/ |\
+"Dm"A2 AG "G7"GF "C"E2C | "Dm"DE FE "G7"D2 "C"C3 :|

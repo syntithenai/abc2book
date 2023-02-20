@@ -1,0 +1,33 @@
+X: 70
+T: Mrs Waller
+C: Carolan
+%R: reel
+B: "The Hibernian Muse" p.44
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. LXX.
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c'2c'e' bd' {c'}ba | gd (e/f/g) eca2 |\
+gf (e/f/e/d/) c2z2 & x4 zECE | d2z2 e2z2 & zFDF zGDG |\
+f2z2 g2z2 & zAFA zBGB | g2a2 (c'bab) |
+c'2ba (ga/g/) (fg/f/) | Te4 dd de/d/ |\
+de/d/ e/f/g cc cd/c/ | B/A/c/G/ d2 cEBD |\
+A[cC]G[BB,] [AA,]AGB | EcdB  (g/a/g/f/) (g/a/g/f/) | (e/f/e/d/) (e/f/e/d/)
+(c/B/c/d/) (c/B/c/d/) | (e/c/A/c/) e/c/A/c/ d/B/G/B/ d/B/G/B/ |\
+(c/A/F/A/) f/A/F/A/ Gd (c/B/A/G/) | c4 c4 |]|\
+g{g}fed cBAG & G{G}FED CB,A,G, | ABcd ee/f/ g2 & A,B,CD E(E/F/) [G2E2C2] |\
+(A/G/A/B/) c/B/c/A/ (B/A/B/c/) d/c/d/B/ |
+(c/B/c/d/) e/d/e/c/ (d/c/d/e/) f/e/f/d/ |\
+eadg cedc | BgAf Ge Tdc/B/ |\
+(e/f/g/f/ e)c a2b2 | c'ebd acgB | Aage feTdc | [c8G8E8] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+c'4 g4 | b2g2 c'2c2 | b2c'2 x4 | x8 | x8 | e'2f'2 g'2g2 |
+c'2d'2 e'2d'2 | c'gec g2z2 | g2c'2 e2f2 | g2fg e2g2 |\
+f2e2 f2g2 | c2z2 e2z2 | c2z2
+e2z2 | a2z2 b2z2 | a2f2 g2g2 | c4 c4 |]| g{g}fed cBAG | ABcd c2c2 | f2F2 g2G2 |
+a2c'2 b2g2 | c'2b2 a2f2 | g2f2 g2G2 | c2z2 fdgG | c2g2 f2g2 | f2e2 g2G2 | c8 |]

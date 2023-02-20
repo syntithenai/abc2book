@@ -1,0 +1,22 @@
+X: 10
+T: the Extrodinary Gazette
+%R: jig
+B: "Twenty Four Favourite Dances for the Year 1779", Thomas Straight, ed. p.5 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1779
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The dance's phrasing icons are truly strange in this one.
+M: 6/8
+L: 1/8
+K: Bb
+|:\
+B,2B B,2B | GEC FDB, | B,2B B,2B | fdB AGF |\
+Gce FBd | GcB AGF | GED CBA | B3 C3 :|
+|:\
+cAF ecA | dBF fdB | cde dcB | AcA F2E |\
+DFB EGc | FBd Gce | fdB AFA | B3 B,3 :|
+%%begintext align
+%% Right hands across .|. left hands back again :|. Cross
+%% over and back to back .|. :|: lead thro' the bottom
+%% the same through the top and Cast off .:|:. :|:: lead
+%% out sides .|:. .:|::
+%%endtext

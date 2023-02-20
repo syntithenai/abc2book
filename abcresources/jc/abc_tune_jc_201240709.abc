@@ -1,0 +1,17 @@
+X: 4083
+T: Dunfermline Races.   a Reel.
+%R: reel
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.8 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+e !segno!|: cA .c/.d/.e cA c/d/e | =gG-GB d2-Tde | cA c/d/e cA c/d/e | aAAc e2-ed :| c>def =gage | =gGGB d2-dB |
+Tc>def gage | aAAc e2-ed || Tc>def =gage | =gGGB d2-dB | cdef efge | aefd efTe!segno!d |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z !segno!|: a2a2 a2a2 | =g2g2 g2g2 | a2a2 a2a2 | a2e2 A2A2 :| a2a2 a2a2 | =g2g2 g2g2 |
+a2a2 e2e2 | a2e2 A2A2 || a2a2 a2a2 | =g2g2 g2g2 | a2a2 e2e2 | a2e2 A2!segno!A2 |]

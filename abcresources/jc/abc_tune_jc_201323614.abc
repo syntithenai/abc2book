@@ -1,0 +1,26 @@
+X:1
+T: The Phoenix Rejuvenated
+N:
+C:Pat Shaw (adapted)
+S:Play  4  times
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 44 notes)
+K:D
+M:4/4
+L:1/16
+d4 A4 F4 D4 |B2 c2 d4 e2 d2 c4 |B2 c2 d4 e2 f2 g4 |a6 g2 f2 e2 d2 c2 |d4 A4 F4 D4 |G2 A2 B2 c2 d4 A4 |B2 A2 G2 F2 G2 F2 E2 D2 |C6 B, C D8 |
+%W: A2
+% voice 1 (1 lines, 44 notes)
+d4 A4 F4 D4 |B2 c2 d4 e2 d2 c4 |B2 c2 d4 e2 f2 g4 |a6 g2 f2 e2 d2 c2 |d4 A4 F4 D4 |G2 A2 B2 c2 d4 A4 |B2 A2 G2 F2 G2 F2 E2 D2 |C6 B, C D8 |
+%W: B1
+% voice 1 (1 lines, 44 notes)
+F4 A4 F4 A4 |d4 e2 d2 c2 B2 A4 |d2 e2 f2 g2 a4 f4 |g2 f2 e2 d2 c2 B2 A4 |B4 d4 A4 d4 |G4 g2 f2 e2 d2 c2 B2 |A4 a2 g2 f2 e2 d4 |c6 B c d8 |
+%W: B2
+% voice 1 (1 lines, 44 notes)
+F4 A4 F4 A4 |d4 e2 d2 c2 B2 A4 |d2 e2 f2 g2 a4 f4 |g2 f2 e2 d2 c2 B2 A4 |B4 d4 A4 d4 |G4 g2 f2 e2 d2 c2 B2 |A4 a2 g2 f2 e2 d4 |c6 B c d8 ||

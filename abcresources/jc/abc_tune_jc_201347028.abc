@@ -1,0 +1,29 @@
+X: 1
+T: Tunbridge Beauties
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (117)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: There's a full beat (half note) missing at the end of the first strain.
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+g4 d3e | dcBA G2A2 | B3B c2d2 | e2dc d2=e^f |\
+g4 d3e | dcBA G2A2 | B2 (B/c/d) (cB) (AG) | G4 |]
+[|\
+b4 f3g | fedc B2d2 | f4 c3d | cB AG F2A2 |\
+B2BG c2d2 | e2dc d2g^f | g2ga a3g | g8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man setts to his own then crosses over with the 2d Wo. then
+%% the 1st Man and 2d We. sett and cross over and change Places then
+%% the 1st and 2d Men take Hands and lead between the 1st and 2d We.
+%% and come into their Places again then all four clap and take hands
+%% and go half round into their own Places again then the 1st and 2d
+%% We. take hands and lead between the 1st and 2d Men into their own
+%% Places again then all four clap and take hands and go half round
+%% into their own places again the rest doing the same.
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,15 @@
+X:1
+T:Honeysuckle, The
+O:Irish
+M:C
+R:Hornpipe
+L:1/8
+%%printtempo 0
+Q:160
+K:D
+(3ABc|\
+"D"d2 c>d "Bm"(3Bcd A>F|"D"D>FA>F "G"G>BA>G| "D"F>Ad>A "Bm"F>Ad>f| "E7"(3efe (3dcB "A"A>g~f>e|
+"D"d2 c>d "Bm"(3Bcd A>F|"D"D>FA>F "G"G>BA>G| "D"F>Ad>B "A"(3ABA (3GFE|"D"F2D2~D2:|
+|:(3ABc|\
+"D"d2 d>e "Bm"f>de>c|"D"d>ef>g "A"{f}a2{b}a>f| "G"~g>ee>g| "D"~f>dd>f|"E7"(3efe (3dcB "A"A>g~f>e|
+"D"d2 (uc>ud) "Bm"(3Bcd A>F|"D"D>FA>F "G"G>BA>G|"D"F>Ad>B "A"(3ABA (3GFE|"D"F2D2~D2:|

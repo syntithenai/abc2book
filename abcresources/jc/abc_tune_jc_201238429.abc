@@ -1,0 +1,27 @@
+X: 30771
+T: PERTH HORNPIPE
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.77 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Initial rests added to strains 2,4 to fix the rhythm.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+G2B>G d>GB>G | A2B>d e>de>g |\
+G2B>G d>GB>G | A>BA>G E4-E2 :|
+|:\
+z2 |\
+g>ag>e g>dd>g | e>fg>a b>ef>g |\
+g>ag>e d>Bg>e | d>cB>A [G4E4][G2E2] :|
+|: D2 |\
+G>dB>d G>dB>d | A>ec>e A>ec>e |\
+G>dB>d G>dB>G | A>BA>G E4E2 :|
+|:\
+z2 |\
+g>ag>e g>dd>g | e>fg>a b>ef>g |\
+g>ag>e d>Bg>e | d>cB>A [G4E4][G2E2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

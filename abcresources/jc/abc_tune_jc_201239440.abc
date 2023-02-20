@@ -1,0 +1,21 @@
+X: 3283
+T: the Glasgow Lasses.   a Reel.
+O: Old.
+%R: reel, air
+B: Niel Gow & Sons "Complete Repository" v.3 p.28 #3 (and top 4 staves of p.29)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - -
+V: 1 staves=2
+C |\
+TF>G FA cA Af | TF>G FA BGGA | ~F>G FA cAAc | d>f f>g affC | TF>G FA cA Af |
+TF>G FA BGGA | TF>G  FA cAAc | d>e f>g aff |]| f/g/ | {fg}a>g fc A(cc f/)g/ | a>g f>c egg f/g/ | a>g fc (d/e/f) cA |
+(B/c/d) ~G>B AFF f/g/ | a>g fc Acc f/g/ | {fg}a>g f>c egg f/g/ | a>f g>e f<cf>A | (B/c/d) ~G>B AFF |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+F2f2 F2F2 | F2f2 c2c2 | F2f2 F2f2 | B2c2 G2Gz | F2f2 F2F2 |
+F2f2 c2c2 | F2f2 F2f2 | B2c2 F2F |]| z | f2f2 ff2z | f2a2 c'2cz | f2a2 b2a2 |
+b2c'2 f2fz | f2f2 f2fz | f2a2 c'2cz | f2e2 f2f2 | B2c2 F2F |]

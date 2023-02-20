@@ -1,0 +1,34 @@
+X: 1
+T: Marche des Cabrettaires
+R:march, polka
+S:http://lesters-tune-a-day.blogspot.com/2013/02/tune-165-marche-des-cabrettaires.html
+M:4/4
+L:1/8
+K:G
+DGA |\
+B2B2 BcBA | G2G>A GDGA | B2G2  F2G2 | A>BcB A2AB |\
+c2c2 cdcB | A2A>B A2Bc | d2d>e dcBA | Ggfe  dBGA ||
+B2B2 BcBA | G2G>A GDGA | B2d2  c2B2 | A>BcB A2AB |\
+c2c2 cdcB | A2A>B A2Bc | d2d>e dcBA | G4    G |]
+|: z2d |\
+BdBd B3d | e>dcB cA2c | AcAc A3c | d>cBA B3d |\
+BdBd B3d | e>dcB cA2c | AcAc A3c | d>cBA G :|
+
+%%sep 1 1 500
+
+X: 2
+T: Marche Des Cabrettaires
+R:march, polka
+M:4/4
+L:1/8
+K:Gmaj
+zD GA |:\
+B>B BB | Bc BA | G4 | z D GA |\
+B2 G2 | F2 G2 | A4 | z A AB |
+c>c cc | cd cB | A4 | z A Bc |\
+d>d de | dc BA |1 B3 A | GD GA :|2 G>A BA | G3 d ||
+|:\
+Bd Bd | B3 d | ed cB | c A2 c |\
+Ac Ac | A3 d | dc BA |1 B G2 d :|2 GD GA |
+
+%%sep 1 1 500

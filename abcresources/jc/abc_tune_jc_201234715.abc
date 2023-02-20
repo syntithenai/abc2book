@@ -1,0 +1,18 @@
+X: 2072
+T: Clanrannald's    Reel
+%R: reel
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.7 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Em
+% - - - - - - - - - -
+V: 1 staves=2
+B, |\
+E2TEB GEE(^c | d)>DDA FDAF | E2TEB GEGd | F<DAF BEE :| (e/f/ | g)>eBA TG>FE(g | f)dAG TF>ED(f |
+g)eBA TG>FEe | d<BTA>F BE E(e/f/ || g)>eBA TG>FE(g | f)dAG TF>EDf | ebfa efde | BdFA BEE |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | e2e2 e2e2 | d2d2 d2d2 | e2e2 e2g2 | a2b2 e2e :| z | e2e2 e2e2 | d2d2 d2d2 |
+e2e2 e2e2 | g2b2 e2e2 || e2e2 e2e2 | d2d2 d2d2 | e2d'2 c'2b2 | g2b2 e2e |]

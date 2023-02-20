@@ -1,0 +1,19 @@
+X: 1
+T: Marche des prisonniers
+T: Quadrille des Laurentides, Part 4
+R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Sometimes played with an extra beat before repeating.
+S: "Reel à Quatre": André Bouchard (piano), Denis Pépin (accordéon), Susie Lemay (accordéon) Vincent Ouellet (violon).
+S: https://www.youtube.com/watch?t=75&v=V7DMxjByckI
+M: C|
+L: 1/8
+K: D
+|:\
+ "D"dcde f2e2 |    d2F2 A4 |     dcde f2e2 | "G"d2G2    B4 |\
+"A7"Acef g3f  |    e2d2 c4 |     c2Bc B2AB |    A2G2 "D"F4 |
+ "D"dcde f2e2 |    d2F2 A4 |     dcde f2e2 | "G"d2G2    B4 |\
+"A7"Acef g3g  | "D"fefg a4 |"A7"a^gab aecd |    e2f2 "D"d4 :|
+|:\
+"D"{B}A2FA d2Ad | f2df a4 | "A7"a^gab a2c2 | a^gab a2ec |\
+"D"   A2FA d2Ad | f2df a4 | "A7"a^gab aecd | e2f2 "D"d4 :|

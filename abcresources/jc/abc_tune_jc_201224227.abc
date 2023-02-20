@@ -1,0 +1,32 @@
+X: 80
+T: Tiagharna Mhaighe-co
+C: Thady Keenan
+%R: air, reel, hornpipe
+B: "The Hibernian Muse" p.49 #2
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. LXXX.
+M: C
+L: 1/8
+Q: "Dolce"
+K: Gdor
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+(GF) |\
+D>G (GA/c/) d2cA | d2G>A (G>F)D2 |\
+D>G (G/A/c) d2fd | (d>c) TA>G G2 :|\
+|: d2 |\
+(fd)(fg) a2(gf) | (dc) (d/e/f) (F>G)(FD) |
+(fd)(fg) a2(gf) | d2(ga) g2(ag) |\
+(fd)(fg) a2(gf) | (dc) (d/e/f) (F>G)(FD) |\
+(D>G) cA (GF) fd | (d>c) TA>G G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+g2d2 B2A2 | B2c2 d2D2 |\
+G2d2 g2B2 | c2d2 G2 :|\
+|: z2 |\
+d2d2 d2d2 | B2B2 B2B2 |
+d2d2 d2d2 | g2G2 G2z2 |\
+d2D2 D2z2 | b2B2 B2z2 |\
+B2c2 d2B2 | c2d2 G2 :|

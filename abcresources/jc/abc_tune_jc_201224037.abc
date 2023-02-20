@@ -1,0 +1,23 @@
+X: 08009
+T: BATEMAN'S REEL
+C: Bob McQuillen 27 Aug 90
+B: Bob's Note Book 8 #9
+%R: reel
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A,B, \
+| D2A,D FDFA | BAdB AFDF | A2FA BAFD | EDFD EDB,A, |\
+| D2A,D FDFA | BAdB AFDF | AFAd fedB | AFEF D2 :|
+|: DE \
+| FABd BAFA | BAFD EDB,D | FDFA BAFA | Bdef e2de |\
+| f2fd edBA | dfed BAdB  | AFAB dBAF | EDEF D2 :|
+%%begintext align
+%% It's a
+%% real pleasure to write this tune for
+%% Dave Bateman - He's doing lots of fine
+%% calling in the Monadnock Region and
+%% elsewhere, and is the spark pug for contra
+%% dancing in Nashua, Hew Hampshire's "Gate City."
+%%endtext

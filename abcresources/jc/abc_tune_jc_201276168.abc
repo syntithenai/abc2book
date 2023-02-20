@@ -1,0 +1,16 @@
+X: 899
+T: the First of May
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #899
+R: hornpipe
+%S: s:2 b:9(5+4)
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0899/oneill-1001-0899-1.abc
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play ABAB CBCB
+M: 2/4
+L: 1/16
+K: Ador	% MoI has A major.
+(AG) \
+"^A"|: EAAB cBcA | dcde f2(ef) | gedc dfe [1,3 d | cAGF G2G2 :|[2,4 c | A2AA A2 :|
+"^B"|: (fg) | a2af g2ge | fgfd e2(ed) | cdef gfed | cAGF G2"^->A2"G2 |]

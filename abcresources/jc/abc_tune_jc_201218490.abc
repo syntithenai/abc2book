@@ -1,0 +1,18 @@
+X:10
+T:Here Awa', There Awa'
+C:arr. Carlo Minasi
+M:3/4
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Andante  "1/4=120
+Z:Peter Dunk 2012
+K:F
+!p!([c3A3] [BG][AF][GC])|([F3A,3] [GC] [F2A,2])|\
+([G3E3C3] [FA,] [G2C2])|[A2F2] [f4F4B,4]|\
+([c3F3A,3] [BFD][AFC][GCB,])|([F3C3A,3] G A2)|\
+([d3A3F3] [^cGA,] [d2F2D2])|D4 z2|
+([A2F2D2] d2 [^c2G2A,2])|([d3F3D3] e f2)|\
+([c2G2E2] d2 cB)|([A3F3] [BG] [c2A2])|\
+([A2F2D2] d2 [^c2G2A,2])|([d3F3D3] e f2)|\
+L"rall."( G A2 A3)|D4 z2|]

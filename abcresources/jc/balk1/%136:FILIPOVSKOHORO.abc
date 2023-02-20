@@ -1,0 +1,33 @@
+X: 136
+T: Filipovsko Horo
+O: Bulgaria
+N: adapted from  Favorite Horas and Racenica's 1968 (Emile Kolev and
+N: Tolop Bakalov) pages 29-30
+F: http://www.youtube.com/watch?v=ebSUznO7dWY
+M: 2/4
+L: 1/8
+K: Bb
+V:1
+%%MIDI program 0
+V:2
+%%MIDI program 0
+[V:1] fg fg|fg (3gfe|ef ef|\
+[V:2] de de|de (3edc|cd cd|\
+[V:1]ef (3fed|de ef|(3ffe (3eed|d2z2|
+[V:2]cd (3dcB|Bc cd|(3ddc (3cBF|B2 z2|
+[V:1]ef (3fed|de ef|(3ffe (3eed|d2z2|\
+[V:2]cd (3dcB|Bc cd|(3ddc (3cBF|B2 z2|\
+[V:1]de ef |(3ffd (3eed|d2 d2|
+[V:2]Bc cd |(3ddc (3cBF|(3BBF (3BBB|
+[V:1]fg fg|fg (3gfe|ef ef|\
+[V:2]de de|de (3edc|cd cd|\
+[V:1]ef (3fed|de ef|(3ffd (3ffd|
+[V:2]cd (3dcB|Bc cd|(3ddc (3cBF|
+[V:1]d2 z2|de ef|(3ffe (3eed|\
+[V:2]B2 z2|Bc cd|(3ddc (3ccB|\
+[V:1]d2 d2|:g3 a|(3ffe (3ede|(3ffe (3eed|
+[V:2]B2 B2|:e3 f|(3ddc (3cBc|(3ddc (3cBF|
+[V:1](3dde f2|g3 a|(3ffe (3ede|\
+[V:2](3BBc (3ddB|e3 f|(3ddc (3cBc|\
+[V:1](3ffe (3eed|[1d2 d2:|[2d2 d2:|
+[V:2](3ddc (3cBF|[1(3BBF (3BBF:|[2B2 B2:|

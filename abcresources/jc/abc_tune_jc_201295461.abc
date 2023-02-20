@@ -1,0 +1,39 @@
+
+X: 1
+T: Thalassaki Mou   [Cm]
+T: My Little Sea
+O: Greece
+Z: 2019 by John Chambers <jc@trillian.mit.edu>
+S: Pinewoods Collection
+M: 7/8
+L: 1/8
+K: Cm
+"^I"|: AGF |\
+"Cm"E2D CB, "Bb"CD | "Eb"E2F GA GF | "Fm"EDF "Bb"EF DB, |1 "Cm"C3z :|2 "Cm"C3 C2 !Fine!z2 |]
+"A"|:\
+"Cm"C3 "Fm"~F2 EF | "Cm"G3 zA GF | "Bb"F2F ED CD | "Eb"E3- E2 ~DC | "Cm"~E2D C2 z2 :|
+"B"|:\
+"Fm"F3 ~F2 EF | "Cm"G2F ~E2 DC | C3 G2 {A}GF | "Bb"FEF "Cm"ED C2 | "Bb"D2F EF DB, |1 "Cm"C3 zCDE :|2 "Cm"C3 z |]
+"C"|: AGF | "Cm"E2D CB, "Bb"CD | "Eb"E2F GA GF | "Fm"EDF "Bb"EF DB, | "Cm"C3z :|
+w: Tha-l\'as-sa ky\'al-mi-ro** ne-r\'o** na se xe-h\'a-*so dhen* bo-*r\'o.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Thalassaki Mou   [Em]
+T: My Little Sea
+O: Greece
+Z: 2019 by John Chambers <jc@trillian.mit.edu>
+S: Pinewoods Collection
+M: 7/8
+L: 1/8
+K: Em
+"^I"|: cBA |\
+"Em"G2F ED "D"EF | "G"G2A Bc BA | "Am"GFA "D"GA FD |1 "Em"E3z :|2 "Em"E3 E2 !Fine!z2 |]
+"A"|:\
+"Em"E3 "Am"~A2 GA | "Em"B3 zc BA | "D"A2A GF EF | "G"G3- G2 ~FE | "Em"~G2F E2 z2 :|
+"B"|:\
+"Am"A3 ~A2 GA | "Em"B2A ~G2 FE | E3 B2 {c}BA | "D"AGA "Em"GF E2 | "D"F2A GA FD |1 "Em"E3 zEFG :|2 "Em"E3 z |]
+"C"|: cBA | "Em"G2F ED "D"EF | "G"G2A Bc BA | "Am"GFA "D"GA FD | "Em"E3z :|
+w: Tha-l\'as-sa ky\'al-mi-ro** ne-r\'o** na se xe-h\'a-*so dhen* bo-*r\'o.

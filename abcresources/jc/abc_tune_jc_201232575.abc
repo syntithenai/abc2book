@@ -1,0 +1,939 @@
+
+X: 0
+T: 24 Country Dances for the Year 1748
+C: T. Davis, ed.
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Occasional figured bass is transcribed as numbers separated by '/', since ABC has no reliable way to do "correct" figured-bass notation.
+N:
+K:
+%%center Twenty Four
+%%center Country Dances
+%%center for the Year 1748
+%%center With a Thorough Bass for the Harpsicord with Figures or
+%%center Directions to each DANCE: Compos'd for the Entertainment and
+%%center Diversion of Gentlemen & Ladies that are Lovers of English Dancing
+%%center by T. Davis
+%%center London Printed for H. Waylett at the black Lyon in Exeter Change in the Strand
+%%center Where may be had, Twelve SOLOS by the same Author, and the Judgement of Paris by Mr Arne.
+%%center
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Fort Agustus
+%R: reel, hornpipe
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The only repeat sign is in the middle; the 2nd strain ends with a double bar line.
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+d |\
+g>agb | g>agb | g2 dB | A3 B | G>A Bc | d2 g2 | dBAB | G3 :: G | A>BAG |
+A>BAG | BdcB | A3 d | g>agb | g>agb | gBAB | G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z |\
+G4- | G4- | G4 | d4 | G2 g2 | G>ABc | "6;4"d2 "5;3"D2 | G3 :: z | d4 |
+d4 | g2 G2 | d4 | G4 | G4 | "6"B2 d2 | G3 |]
+%%begintext align
+%% First Cu. foot it & cast off into the 2d Couple's Place, then foot it & cast off into the 3d Couple's
+%% Place | Then lead up to the Top & cast off into the 2d Couple's Place, then Right Hand &
+%% left quite round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+T: Westminster Bridge
+P: 2d Strain once
+%R: reel, march
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat; fixed to match comment at top.
+N:
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+|:\
+B2B2 (dc)(BA) | G2G2 G4 | (ef)g2 d2g2 | Tc4 B4 |\
+(GAB2) G2D2 | (FGA2) F2D2 | (B^c)d2 {f}e2^c2 | d4 D4 :|
+d2d2 (edcB) | c2a2 a4 | c2c2 (dcBA) | B2g2 g4 |\
+e2e2 e2f2 | g4 G4 | (FG)A2 F2D2 | (Bc)d2 B2G2 |
+c2c2 ^c2c2 | d4 =c4 | B2G2 F2D2 | (BA)G2 F2D2 |\
+(efg2) (fga2) | g4 c4 | B2G2 {F}FED2 | G4 G,4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+G4 d4 | z2c'2 "6"b2d'2 | "6"c'2"6"b2 "6"a2g2 | "5"f2"7"d2 g2"6;4"d2 |\
+"6"B4 G4 | d4 "6"f4 | "6;5"g4 "4"a4 | d4 d4 :|\
+z2"7;#"e2 "6"^g2"#"e2 | a4 A4 | z2"7"d2
+"6"^f2"3"d2 | g4 G2"6"B2 |\
+c4 "6"c'4 | "6"b2b2 b2^c'2 | d'4 d4 | z2"6"f2 g2G2 |\
+A4 "#"a2"4"g2 | "6"f2d2 "6;4"e2"6;5"f2 | g4 d4 | g4d4 |\
+c'2"6"b2 "6;4"a2d2 | g2"6"b2 "5"f2"7"d2 | "5;3"g4 "4 3"d4 | G4- G4 |]
+%%begintext align
+%% The first Cu. set & cast off one Cu. & set and turn then the 2d Cu. do the same || Then the first & 2d
+%% Man clap Hands and the 1st & 2d Wo. clap Hands at the same time and then clap Hands with
+%% each Partner the first Cu. cast off one Cu. and foot it & Right Hand & left quite round ||
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3
+T: Lovets Reel
+C:
+%R: reel
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed.
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+a2 |\
+e2A2 (dcBA) | e4 (dc)(BA) | a2c2 ( dcBA) | G2 B4 a2 |\
+e2A2 (dcBA) | e4 (dcBA) | a2c2(TB2A2) | E2 A4 :|
+|: e2 |\
+c2A2 (agfe) | c2A2 (agfe) | c2A2a2A2 | G2 B4 e2 |\
+c2A2 (agfe) | c2A2 (agfe) | a2c2B2A2 | E2 A4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+a2 |\
+A8- | A8- | A8 | e8 | A8- | A8- | A4 e4 | A6 :|\
+|: z2 |
+A4 a4 | A4 a4 | A4 "6"f4 | e8 |\
+A4 a4 | A4 a4 | A4 e4 | A6 :|
+%%begintext align
+%% The first Man foot it to the 2d Wo. & cast off with his Partner into the 2d Cu. Place    then the
+%% 2d Man foot it to the first Wo. & cast off with his Partner into their Places | Then the first Cu.
+%% take Hands & lead thro' the 2d Cu. and cast up to Top: Right Hand & left into the 2d Couple's
+%% Place and turn. ||
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4
+T: Merry Hary
+C:
+%R: jig
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed.
+M: 6/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+|:\
+G4d2 TB3AB2 | G2B2d2 g2d2B2 | G4d2 TB3AG2 | F2A2d2 A2F2D2 |\
+G4d2 TB3AB2 | G2B2d2 g2d2B2 | (ef)g2e2 (fg)a2g2 | f6 g6 :|
+|:\
+G4b2 a2f2d2 | F4a2 g2e2^c2 | d2f2a2 b2g2e2 | Te6 d6 |\
+Tc4B2 c2f2a2 | B4A2 B2d2g2 | Tf2e2f2 g2d2B2 | TA6 G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+g6 G6 | g6 G6 | g6 G6 | d6- d6 |\
+g6 G6 | g6 "6"B6 | c6 "6"A6 | "4"d4"3"D2 G6 :|
+|:\
+e6 d6- | d6 "+6"e6 | "6"f6 "6;5"g6 | "4"a4"#"A2 d6 |\
+"6;4"e4"5"^g2 a4 "6"f2 | "6;4"d4"5"f2 g4"6"e2 | d4 "6"c2 "6"B4 G2 | "4"d4"3"D2 G6 :|
+%%begintext align
+%% First and 2d Cu. set to their Partners & Hands a cross half Round   the same again which brings
+%% each into their Places || Cast off & lead thro' the 3d Cu. and cast up into the 2d Cu. Place
+%% cast up to the Top & Right Hand & left half Round which brings them into the 2d Cu. Place.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 5
+T: Leister House
+%R: reel
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed.
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+|:\
+(gfed) c2a2 | (gfed) c2g2 | {f}e2(dc) B2c2 | d4 G4 |\
+(gfed) c2a2 | (gfed) c2e2 | A3c BcdB | c4 C4 :|\
+|:\
+(GFEF) G2c2 |
+(GFEF) G2c2 | A2c2 ^F4 | G4 G,4 |\
+a2^f2 g4- | g2e2 f4 | e2dc BcdB | c4 C4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+c4 c4 | c4 c4 | c2"6"a2g2"6;5"^f2 | "5;3"g4 g4 | c4 c4 | c4 "6"e4 | "6;5"f2d2 "4"g2"3"G2 | c8 :|\
+|:\
+c4 "6"e4 |
+c4 "6"e4 | f4 "7;#"d4 | "5;3"g4 G4 |\
+"#"d4 z2e2 | c4 z2d2 | "6"e2f2g2G2 | c8 :|
+%%begintext align
+%% First Cu. foot it and cast off one Cu. & turn. the 2d Cu. do the same || Cast off & lead up a Breast
+%% with the 2d Cu. & cast off into the 2d Couple's Place & Right Hand & left all Round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 6
+T: Glascon Lasses
+%R: march, reel
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed.
+M: 2/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+c |\
+F>GFd | cAcf | F>GFA | BG2c |\
+F>GFd | cA2c | d>efg | af2 :|
+|: (f/g/) |\
+a>gfF | Ac2f/g/ | a>gfF | eg2f/g/ |\
+a>gfc | d/e/f cA | B/c/d BG | AF2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z |\
+f2 f2 | f2 f2 | f2 f2 | c2 c2 |\
+f2 "6;4"f2 | "5;3"f2 z"6"a | bg"6"ac' | f3 :|\
+|: z |\
+f2 f2 |
+f2 z2 | f2 "6"d2 | c4 |\
+f2 "6"a2 | b2 f2 | "6"d2 c2 | f3 :|
+%%begintext align
+%% First Man foot it to the 2d Wo. and cast off into the 2d Man's Place, & the 2d Wo. cast up at the
+%% same Time into the first Wo. Place | Then the 2d Man foot it to the first Wo. (he being a Top) and
+%% cast off into his Place, and the first Wo. cast up into her Place || Then the 1st & 2d Man foot it to their
+%% Partners   the first Cu. cast off one Cu. take Hands with the 2d Cu. and lead up foot it & cast off
+%% into the 2d Couple's Place.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 7
+T: Lucky Dick
+%R: jig
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed.
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+|:\
+A2a g2f | edc B3 | c2d ecA | G2A BGE |\
+A2a g2f | edc B3 | c2d ecA | BAG A3 :|
+|:\
+E2G B2e | d2c B3 | ecA e2a | g2f e3 |\
+fdB df2 | ecA ce2| dBG AdB | {c}TB3 A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+A3 e3 | c2A e3 | a3 a3 | e3 e3 |\
+A3 e3 | a2A e3 | a3 a3 "6"d2e A3 :|\
+|: e3 "6"g3 |
+"6"b2a "6"g2e | a3 "6"c'3 | e'2d' "6"c'2a |\
+"6"d'3 b3 | "6"c'3 a3 | "6"b3 "6"c2"6;5"B |"4 3"e3 A3 :|
+%%begintext align
+%% First Man hay with the first & second Woman, then the first Wo. hay with the 1st and 2d Man ||
+%% Cross over two Couples lead up to the top and cast off ||
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8
+T: Maclod's Rant
+%R: march, reel
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats corrected to match the "Last Strain once" comment.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+|:\
+B4 A2G2 | GGG2 G2A2 | B4 A2G2 | AAA2 A2d2 |\
+B4 A2G2 | GGG2 G2B2 | EEE2 E2F2 | GGG2 G4 :|
+d3ed2g2 | d4 B2c2 | ddd2 d2g2 | d4 B2c2 |\
+ddd2 g2d2 | ccc2 g2c2 | BBB2 g2B2 | AAA2 A4 |
+G3A B2d2 | E4 D2B,2 | GGG2 B2d2 | E4 D2B,2 |\
+C2D2E2F2 | G2e2 d4 | B4 A2G2 | GGG2 G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+G8 | "6"e8 | g4 G4 | d8 | G8 | "6"e8 | "6;5"c4 "5;3"d4 | G8 :|\
+"Last Strain once"\
+g4 g4 | g4 G4 | g4 g4 | g4 G4 |
+"6"b8 | "6"a8 | g4 G4 | d8 | z8 | z2c2"6"B2G2 | "6"e4 g4 | z2c2"6"B2G2 | "6"e4 c'4 | z2c'2b2"6"f2 | g4 d4 | G8 |]
+%%begintext align
+%% The first Couple foot it & turn the 2d Cu. to the Top   then foot it and turn the 2d Cu. into their
+%% Places | Dance inside below the 3d Couple   cast up into the 2d Couple's Place take Hands side ways
+%% foot it and turn |
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 9
+T: Ken Green
+%R: slip-jig
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The only repeat sign is in the middle; not fixed because it's not obvious what's correct.
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+|:\
+G3  B2c dBG | gfe dcB A3 |\
+cBc EFG AFD | EFG AGF G3 :|
+|:\
+AFD DFA AFD | dBG GBd dBG |\
+ede EFG F3  | G3 D2=F ECE |\
+A3  E2G FDc | (Bd)E FDF G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+g3 G3 g3 | "6"e3 g2G d3 |\
+"6;4"e3 "6;5"^c3 "5;3"d3 | "6;4"g3 "4;3"d3 G3 :|\
+|:\
+d3 d3 d3 | g3 G3 "5;3"g3- |
+"6;4"g3 "6;5"^c3 "5;3"d3 | "6"B3 "b7;5"G3 "5;3"c3 |\
+"6"^c3 "7;#"A3 "5;3"d3 | g2c d2D G3 |]
+%%begintext align
+%% First Couple cast off one Couple and Back to Back then cast up into their Places & Back to Back |
+%% Take Hands and lead down the Middle below the 3d Couple & cast up into the 2d Couple's Place
+%% then lead up a breast with the 2d Cu. & cast off into the 2d Couple's Place & turn |
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10
+T: Hart Hall
+%R: jig
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed.
+M: 6/4
+L: 1/4
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+F |\
+B2B Bbg | fdB A2B | cde dcB | cAF F2F |\
+B2B Bbg | fdB G2F | Ged cBA | BFD B,2 :|
+|: F |\
+B2B B>cB/_A/ | GEE GBe | c2c c>dc/B/ | AFF Acf |\
+.g(ec) .f(dB) | .e(cB) A>GF | Ged cBA | BFD B,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z |\
+B3 "6"d2e | "6"d3 f3 | "6;5"a3 b3 | "6"a3 f3 |\
+B3 d2e | "6"d3 "6;4 5"B3 | "6;5"e3 "5;3"f3 | B2B B2 :|
+|: z |\
+"6"d3 "b7;5"B3 | "5;3"e3 z2z | "6"=e3 "7;+"c3 | "5+3" f3 z2z |\
+"6"e3 "6"d3 | "6"e3 f2d | "6;5"e3 "5;3"f3 | B2B B2 :|
+%%begintext align
+%% The first Man cast off & turn the 3d Wo. (his Partner turning the 2d Man at the same Time) then his Partner;
+%% then set & cast up to Top & set & turn | Then the first Man clap Hands with the 2d Man (and 1st Wo. with
+%% the 2d Wo. at the same Time) then with their Partners & turn them; then the first and 2d Man clap Hands
+%% with their Partners   then with each other & turn into the 2d Couple's Place.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11
+T: The green Room
+%R: march, reel
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8- and 10-bar staffs.
+V: 1 staves=2
+ed |\
+c2A2A2B2 | Tc4 c2e2 | d2c2B2A2 | BAGF E2ed |\
+c2A2A2B2 | Tc4 c2e2 | d2c2 TB4 | A6 :|
+ba |\
+g2e2e2f2 | Tg4 g2b2 | a2g2f2e2 | fe^dc B2ba |\
+g2e2e2f2 | Tg4 g2b2 | a2g2 Tf4 | e6 ga |\
+b2d2 Td4 | b2d2 Td4 |
+b2d2d2d2 | c2B2 A2fg |\
+a2c2 Tc4 | a2c2 Tc4 | a2c2B2A2 | G2F2E2ed |\
+Tc2A2A2c2 | Tc4 c2e2 | d2c2 TB4 | A6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z2 |\
+A8 | A8 | d4 "6"f4 | e4 "6"g4 |\
+a4 z4 | A4 "6"c4 | "6;5"d4 "4#"e4 | A6 :| "Last Strain once"z2 |\
+e8 | e8 | a4 "6"c'4 | "#"b4 z2"6"^d2 |
+e8 | e8 | "6;5"a4 "4#"b4 | e8 |\
+"5"g8 | g8 | g4 "7"e4 | a4 A4 |\
+a8 | a8 | a4 "6;5"^d4 | e4 "6"g4 |\
+a4 z4 | A4 "6"c4 | "6;5"d4 "4#"e4 | A6 |]
+%%begintext align
+%% First & 2d Man foot it to their Partners & turn them to the Man's Side | then foot it to their Partners and
+%% turn each into their Places | First Cu. cast off one Cu. & lead up footing it to the Top & cast off to the
+%% 2d Couple's Place   then the first Cu. foot it to the 2d Cu. then to themselves & turn |
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 12
+T: Jemmy Jigger
+%R: jig
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+|:\
+B2d cBA | BAG ^F3 | G2B A^FD | GBG A^FD |\
+ded cdc | BAG ^F3 | G2g (^f/g/a)f | g3 G3 :|
+d2f edc | dcB A3 | B2d cAF | BdB cAF |\
+fgf efe | ded {d}c3 | BdB cAF | B3 B,3 |
+d2f- fd=B | c2e- ecA | B2d- dBG | ^F2A- AFD |\
+d3 c3 | BcB A3 | dBG A^FD | G3 G,3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+G3 "+6"a2^f | g2e "#"d2c | "6"B2G "#"d3 | "6"B2G "#"d3 |\
+"6"b3 "+6"a3 | g2e "#"d2c | "6"B2e "#"d2D | G3- G3 :|\
+"Last Strain once"\
+b3 c'2a | b2g f2e |
+d2B f3 | d2B f3 |\
+b2d' c'2a | b3 f2e | d2B f2F | B3 dfb |\
+d'3 "7;="G3 | "b6"c'3 "7"f3 | "6"b3 "6"e3 | "#"d3 z2z |\
+b3 a2^f | g3 "#"d2c |
+"6"B2G "#"d2D | G3 G3 |]
+%%begintext align
+%% Cross over and Right Hand & left with the 2d Cu. half Round. cast off & set
+%% to the 3d Cu. & turn   Lead off out Sides with the 2d Couple and turn &
+%% Right Hand & left quite-Round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 13
+T: Johnny Grot's House
+%R: reel
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Initial pickup note c changed to quarter note, to agree with other beginnings and endings.
+N: Final repeat symbol added to agree with the 2nd strain's initial repeat.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+c2 |\
+fff2 f2a2 | fff2 f2a2 | f3gf2A2 | G6 A2 |\
+FFF2 F2A2 | FFF2 F2f2 | c3dc2A2 | F6 :|
+|: AB |\
+c3dc2A2 | ccc2 c2f2 | c3dc2a2 | {a}g6 (fg) |\
+aaa2 a2d2 | ggg2 g2c2 | fff2 A2G2 | F6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z2 |\
+f8- | f8 | f4 d4 | e4 c4 |\
+f8- | f8 | f4 c'4 | f6 :|\
+|: z2 | "6"a4 z2f2 |
+"6"a4 z2f2 | "6"a4 z2f2 | e4 c4 |\
+f4 z4 | "6"e4 z4 | "6"A2"6;5"B2 "6;4"c2"3"E2 | F6 :|
+%%begintext align
+%% The first Man foot it to his Partner & turn the 2d Wo. & stop in the 2d Man's Place and the 2d Man turn
+%% the 1st Wo. at the same Time. the 1st Man was turning the 2d Wo. & stop in the 1st Man's Place | Then the
+%% 2d Man foots it to the 1st Wo. & turns his own Partner & stops in his own Place; & the 1st Man turns his
+%% Partner at the same Time & stope in his own Place   First & 2d Cu. lead downwards a breast and
+%% Hands half Round then lead up abreast & cast into the 2d Couple's Place.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 14
+T: Easton Hall
+N: The "E" in the name isn't clear; it looks more like a script "l". Walsh has the tune as "Easton Hall".
+%R: reel
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed because the dance isn't clear.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+c2 |\
+(fga2) (fga2) | f4 c4 | d2f2d2B2 | A2c2A2F2 |\
+(fga2) (fga2) | f4 c4 | d2f2(TB2A2) | G6 :|
+c2 |\
+(ABc2) (ABc2) | A2c2A2F2 | (d_ef2) (def2) | d2f2d2B2 |\
+b2g2 Tg4 | a2f2 Tf4 | {a}g2f2 efge | f6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z2 |\
+f4 z2f2 | "6"a2c'2a2f2 | b4 z4 | "6"a4 z4 |\
+f4 z2f2 | "6"a2c'2a2f2 | b4 d4 | c6 :| z2 |
+f4 f4 | f4 z4 | b4 b4 | b4 z4 |\
+"7;="c'4 z4 | f4 "6"a2b2 | "4"c'4 "3"c4 | f6 |]
+%%begintext align
+%% First and 2d Man foot it to their Partners & turn them off the Men's Side; then foot it to their
+%% Partners & turn them into their Places | Cross over the whole Figure and Hands across
+%% quite Round |
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 15
+T: Capt. Flash
+%R: slip-jig
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: The 2nd strain does have 5 bars.
+M: 9/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+|: a3 A2c B2A | agf edc B3 | AaA AAA BAG | Aag fe^d e3 :|
+|: e3 E2d (Tc2B) | ced cBA G3 |\
+   ecA ABA g2a | ecA ABA f2a | edc dcB A3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|: A3 A3 e3 | a3 A3 e3 | A3 A3 e3 | a3 "4 #"b3 e3 :|\
+|: z2z "6"g3 "6;4 5"e3 | a3 A3 e3 |
+"6"c3 A3 e3 | "6"c3 A3 d3 | "6"c3 "7"e3 A3 |]
+%%begintext align
+%% First Man sets to the 2d Wo. and cross over one Couple with his Partner: Hands across half
+%% Round lead thro' the 2d Couple and cast up to Top set & turn; Haands a cross half Round
+%% and turn ||
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 16
+T: Kitty's Frolick
+%R: jig
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed with final repeat sign.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+d |\
+g2g gba | g3 (Tf2e) | dcB ABc | {c}(B>A)B G3 |\
+GBd AFD | GBd AFD | Bdg {f}e>d^c | d3 D2 :: B/c/ |
+d2d deB | c3 A,2A/B/ | c2c cdA | B3 G,2c |\
+Bdg edc | Bdg edc | Bdg Agf | g3 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z |\
+g3 "6;4 3"d3 | G3 "6;4"A3 | "6"B3 "6;4"c3 | "6;4"d3 GBd |\
+g3 "6"f3 | g3 "6"f3 | "6;5"g3 "4 #"a3 | d3- d2 :: z |
+"5"^g3 "7;5;#"e3 | "5;3"aec A3 | "5"f3 "7"d3 | "5;3"gdB G3 |\
+"5;3"g3 "5;3"c3 | "5;3"g3 "5;3"c3 | "6;4"d3 "5;3"d3 | G3- G2 :|
+%%begintext align
+%% First & 2d Cu. Hands across half Round & Back to Back with their Partners; then half Round again (which
+%% brings the 1st Cu. to the Top) Back to Back again with their Partners || The 1st Man hay of the Women's Side
+%% and the 1st Wo. hay of the Men's Side at the same Time & meet at the Top, contrary Side then 1st & 2d Cu.
+%% foot it & Hands across half Round which brings the first Couple into the 2d Couple's Place.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 17
+T: Bromely Assembly
+%R: jig
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+N: The 2nd strain has initial repeat but no final repeat; fixed by adding final repeat symbol.
+N: The word "down" in the dance description was added above the text in a smaller font.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+A |\
+d2d {g}Tf>ef | e2e {a}Tg>fg | fag fed | ced cBA |\
+d2d {g}Tf>ef | e2e {a}Tg>fg | fba {a}T^g>fg | a3 A2 :|
+|:\
+a | a2a bab | g2g aga | f2f fed | ced cBA |\
+d2d {g}Tf>ef | e2e {a}Tg>fg | fed {d}Tc>Bc | d3 D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z |\
+d3 d'3 | "6"c'3 "7"a3 | d'3 d3 | a3 A3 |\
+d3 d'3 | "6"c'3 "6;5"c3 | d3 "4;#3"e3 | A3- A2 :|
+|: z |\
+d3 z3 | "6"e3 "6"c'3 | d'3 d3 | a3 A3 |\
+d3 d'3 | "6"c'3 "7"a3 | d'2"6;5"g "4"a2"3"A | d3 d2 :|
+%%begintext align
+%% Set and cast off down two Cu. Right Hand & left half Round and turn your Partners off their own Side |
+%% The first Man turn Hands with the 2d Cu. & the first Wo. do the same with the 3d Cu. at the same Time
+%% and meet in the middle & turn, lead thro' the 3d Cu. & then a Top into the 2d Couple's Place.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 18
+T: Berely Square
+%R: minuet
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: Bass last bar has extra beat; fixed by shortening the first two notes to match the first strain's ending.
+M: 3/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 6-bar staffs for small printing, 4-bar staffs might be better for reading.
+V: 1 staves=2
+ag |\
+f2 d4 ef (gfed) | e2 A4 B2 A2G2 |\
+F2A2G2B2 E2g2 | (fedc) d2 D4 :|\
+|: fg |\
+(agfe) ^d2 b4 (ga) | (bagf) g2 e4 ef |
+(gfed) c2 a4 ( fg) | (agfe) f2 d4 A2 |\
+B2 g4 B2 (edcB) | ^c2 a4 c2 fedc |\
+dfb2 cea2 Bdg2 | (fedc) d2 D4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z2 |\
+d8 "6"b4 | "6;3"a4 z4 "6;5"c4 | "5;3"d4 g4- g2"6"e2 | "6"f2a2 d4 z2 :|\
+|: z2 |\
+z4 "#"B4 B4 | z4 e4 e4 |
+z4 A4 A4 | z4 d4 "b5"f4 |\
+g4 z4 "6;5"^g4 | a4 z4 "6"a4 | d4 "6;4"g4- g2e2 | f2a2 d4 z2 |]
+%%begintext align
+%% The first Man turn his Partner & then the 2d Man, & 2d Wo. & then his Partner: and mind that he begins
+%% with his right Hand; and changes his Hand every Turn, which will bring him properly into his
+%% Place | Cross over & figure a Top: then the first Man turn the 3d Wo. & then his Partner, but the first
+%% Wo. turns the 2d Man at the same Time the 1st Man is turning the 3d Wo. lead thro' the 3d Cu. & cast up
+%% into the 2d Cu. Place then the 1st Man turns the 2d Wo. & then his Partner the first Wo. turning the 3d
+%% Man at the same Time her Partner is turning the 2d Woman.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 19
+T: Pultney Green
+%R: slip-jig
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: Added dot to 2nd bass note in 1st measure; removed dot from last bass note.
+M: 9/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+|:\
+c3 g2f edc | aga ABc B3 |\
+c3 (TB2A) GFE | Ddc BGB c3 :|\
+|:\
+c3 c2_B AGF | d3 d2c BAG |
+edc fed gfe | agf eac B3 |\
+c3 {c2}B2A GFE | A3 {A2}G2F EDC |\
+Adc Bed cfe | dgc BGB c2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+c3 "6"b3 c'3 | "6"f3 "7;#"d3 g3 |\
+a3 "6;4"d3 "6"e3 | "6"f3 g3 c3 :|\
+|:\
+"6"e3 "b7;5"c3 f3 | "6"^f3 "7;5;#"d3 g3 |
+c'3 "7"g3 "6"e3 | "6"f3 "7;5"d3 g2f |\
+"6"e3 "6;4"d3 c3- | "6;4"c3 "6"B3 c3- |\
+"6;4"c3 "6;4"d3 "6;3"e3 | "6;5"f3 "5;3"g3 c2 |]
+%%begintext align
+%% First Cu. cast off one Cu. & up again; cross over & turn in the 2d Couple's Place || Then the first 2d &
+%% 3d Cu. set to their Partners & turn them of the Men's Side; then set again & turn them of their
+%% own Side | The 1st Cu. being then in the 2d Cu. Place lead thro' the 3d Cu. & cast up into the
+%% 2d Cu. Place & cross to the Top & Hands a cross half Round. ||
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 20
+T: Jenny's Whim
+%R: march, reel
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+d/e/ |\
+f2 ed/c/ | dBAg | f2 ed | c e2 d/e/ |\
+f2 ed/c/ | dBAg | f2 ed | A d2 :|
+D/E/ |\
+FA, TA,2 | EA, TA,2 | {G}F2 TED | C E2 D/E/ |\
+FA, TA,2 | EA, TA,2 | f2 ed | A d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z |\
+dd'"6"c'a | zg"6"f"6"e | dd'"6"g"7;#"e | a2 A2 |\
+dd'"6"c'a | zg"6"f"6"e | d2 a2 | d3 :|\
+z | "6;4"A2 "5;3"A2 |
+A4 | "6;4"A2 A2 | A4 |\
+"6;4"A2 "5;3"A2 | A4 | d2 a2 | d3 |]
+%%begintext align
+%% First Cu. cast off into the 2d Cu. Place, then right Hand & left half Round the first & 2d Man foot it
+%% to their Partners & turn them into their Places | The 1st Man foot it to the 2d Wo. & turn her
+%% The 2d Man do the same with the first Wo.   First Couple cast off the 2d Cu. and turn & the 3d Couple
+%% & turn, take Hands & lead up to Top & cast off one Cu. right Hand & left all Round |
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21
+T: Frible
+%R: slip-jig
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed with a final repeat symbol.
+M: 9/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has just a single staff for compactness.
+V: 1 staves=2
+|:\
+ABc ABc {c}TB2A | efg agf e3 :|\
+|:\
+fed def {f}Te2d | edc cde {e}d2c |\
+dcB Bcd {d}c2B | cde dcB A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+a3 A3 e3 | "6"g3 "7;#"b3 e3 :|\
+|:\
+"6"d'3 d'3 "7"^g3 | "6"c'3 c'3 "7"f3 |\
+"6"d'3 d'3 "7"e3 | a2c d2e A3 :|
+%%begintext align
+%% The first Cu. cast off into the 2d Cu. Place the 2d Cu. cast off into their own Places first & 2d
+%% Man take Hands & foot it to their Partners & lead thro' to the Women's Side & the 1st & 2d Wo do
+%% the same at the same Time to the Men's Side. then foot it & Hands half round into the 2d Cu. Place.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 22
+T: Pretty Miss's Fancy
+%R: reel
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has final repeat but no initial repeat; not fixed.
+N: The 4th strain has initial repeat but no final repeat; not fixed.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+|:\
+(fgaf) d4 | (gabg) e4 | (fgaf) e2d2 | (cdec) A4 |\
+(fgaf) d4 | (gabg) e4 | f2a2 (cdec) | d4 D4 :|
+|:\
+F2A2F2D2 | G2B2G2E2 | F2A2F2D2 | (CDEC) A,4 |\
+F2A2F2D2 | G2B2G2E2 | F2d2 (cdec) | d4 D4 :|
+[|\
+=f2d2^c2A2 | (=f2ed) ^c2A2 | (de=f2) (efg2) | T=f4 e4 |\
+=f2d2^c2A2 | (=fed2) c2A2 | (ag=f2) (_bag2) | Te4 d4 :|
+|:\
+.A2(=F2E2D2) | ._B2(G2T=F2E2) | .A2(=F2TE2D2) | ^C4 A,4 |\
+.A2(=F2TE2D2) | ._B2(G2T=F2E2) | A2d2 (^cdec) | d4 D4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+z2d2"6"f2d2 | z2"6"e2g2"6"e2 | z2"6"f2"6"g2"7;#"e2 | a2A2c2A2 |\
+z2d2"6"f2d2 | z2e2g2e2 | d'2d2 "4"a2"#"A2 | d8 :|\
+|:\
+d4 z4 | "6;4"d4 z4 | "6"f4 d4 | A4 z4 |
+d4 z4 | "6;4"d4 z4 | f2d2 a2A2 | d8 :|\
+[|\
+"b"d4 "#"a4 | "b"d4 "#"a4 | "="d2d'2 "6"c'2a2 | "4"d'2"b"d2 a4 |\
+"b"d4 "#"a4 | "b"d4 "#"a4 | "6"=f2d2 "6;5"g2e2 | "4"a2"#"A2 d4 :|
+|:\
+"b"d4 z4 | "b6;4"d4 z4 | "b"d4 "6"_B4 | "#"A8 |\
+d4 z4 | "b6;4"d4 z4 | d2"6"=f2 "4"a2"#"A2 | d8 |]
+%%begintext align
+%% First Man foot it to the 2d Wo. and turn the 2d Man; the 1st & 2d Wo. turning at the same Time | Then the 1st Wo.
+%% foot it to the 2d Man & turn the 2d Wo. the 1st & 2d Man turning at the same Time || First & 2d Man foot it
+%% to their Partners and change Sides; then foot it again & change to their own Sides | Cast down two Cu.
+%% and cross over to the top | Foot it and cast off one Couple Hands a cross all round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 23
+T: The Lovisa
+%R: march, reel
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The last line of the dance description has an undecipherable word.
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+|:\
+A4 e4 | {d}c2Bc A2B2 | {d}c2Bc A2e2 | d2c2 B4 |\
+A4 e4 | {d}c2Bc A2B2 | {d}c2Bc A2a2 | g2f2 e4 :|
+"last Strn once"\
+e4 =g4 | f2ef d2c2 | (d2c2) (TB2^A2) | (d2c2) (TB2^A2) |\
+d4 f4 | e2d2 (Tc2B2) | (Tc2B2) (A2^G2) | {d}(Tc2B2)(A2G2) |
+e4 a4 | (Tg2f2)e2a2 | {a}g2fe a2e2 | d2c2 B4 |\
+{d}Tc2BA B2e2 | {d}Tc2(BA) B4 |
+{d}c2(BA) B2e2 | {d}c2(BA) B3e |\
+f2ed g2fe | f2b2 {a}g4 | a2e2 {d}c2(BA) | TB4 A4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+A2a2g2e2 | a4 z2"6"g2 | a4 z2"6"c'2 | "6"b2a2"6"g2e2 |\
+A2a2"6"g2e2 | a4 z2"6"g2 | a4 "6"c'4 | "6;4"b2"#"B2 e4 :|\
+c'4 "="e'4 | d'2c'2 b2^a2 | b4 z2f2 | b4 z2"#"f2 |\
+b4 d'4 | c'2b2 a2g2 |
+a4 z2e2 | a4 z2e2 |\
+"6"c2A2c2d2 | e4 z2A2 | e4 z2"6"c'2 | b2a2"6"g2e2 |\
+a4 z2g2 | a4 g2e2 | a4 z2"6"g2 | a4 e2c2 |\
+d2"6"b2 e2"6"c'2 | d'2b2 e'2d'2 | "6"c'2g2a2"6"d2 | "4"e2"3"E2 A4 |]
+%%begintext align
+%% The first Man cast off & meet & turn his Partner (she footing it to the 2d Wo while he casts off) then the first
+%% Wo. cast off & meet & turn her Partner (he footing it to the 2d Man while she casts off) | Take Hands &
+%% draw with the 2d Cu. footing it ??ll a top   cast off one Cu. foot it & turn it out |
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 24
+T: (missing dance)
+%R: ___
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+K:
+%%text The 24th dance in this publication is missing in the online copies.
+
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+__
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+__
+%%begintext align
+%%
+%%endtext

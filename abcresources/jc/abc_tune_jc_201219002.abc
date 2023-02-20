@@ -1,0 +1,43 @@
+X: 01
+T: the New Town of Edinburgh
+%R: reel
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.97 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+E |\
+(A,EAc) (d/c/B/A/) (GA) | (c/d/e) (c/d/e) BB,B,C |\
+(A,EAc) (d/c/B/A/) (GA) | (c/d/e) (c/d/e) AA,A, ::\
+E |\
+(FE)(AE) (FE)(AE) |
+(C/D/E) (C/D/E) B,BBE |\
+(FE)(AE) (FE)(AE) | (B,/C/D) (B,/C/D) A,AA ::\
+d |\
+(Tc>de)A (GA)(FA) | (EA)(DA) B,BBd |\
+(Tc>de)A fAeA |
+dc(TB>A) EAA ::\
+c |\
+(Aceg) ag(Tfe) | dc(TBA) GB-Bc |\
+Aaba eaca | Ba (f/g/a) aAA :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | A2A2 B2B2 | A2A2 a2a2 | e2e2 A2A :: z | a2a2 a2a2 |
+a2a2 b2b2 | a2a2 a2a2 | e2e2 A2A :: z | a2a2 a2a2 | a2a2 b2b2 | a2a2 a2a2 |
+d2e2 A2A :: z | a2a2 a2a2 | d2d2 e2e2 | a2a2 a2a2 | d2e2 A2A :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The first and Second Couple foot it and change sides .|
+%% the same back again :|
+%% foot it all four Right hands across .|.
+%% foot it Left hands back again :|:
+%% lead down two couple foot it to your Partner .||
+%% lead up to the Top foot it and cast off :||
+%% hands Round four with the third couple .||.
+%% Right and Left at Top :|:
+%%endtext
+%%sep 2 2 400

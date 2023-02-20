@@ -1,0 +1,16 @@
+X: 667
+T: the Scolding Wife
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #667
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0667/oneill-1001-0667-1.abc
+M: C|
+L: 1/8
+K: D
+"^A"\
+[| D2(DE) FEFD | GFGA BGAF | D2(DE) FEFG | AdcA  GECE \
+|| D2(DE) FEFD | GFGA BGAc | d2(dg) fdce | fd=cA AGG2 |]
+"^B"\
+[| fdcd   fgaf | gfga bgag | fdcd   fgag | fd=cA G2G2 \
+|| fdcd   fgaf | gfga bgag | bgag   fgag | fd=cA AGG2 |]

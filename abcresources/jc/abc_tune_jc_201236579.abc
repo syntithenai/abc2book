@@ -1,0 +1,28 @@
+X: 225
+T: the Rising of the year 1715.
+T: Tha tighn' fodham eiridh.
+R: air, strathspey
+N: This is version 1, for ABC software that doesn't understand diminuendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.102 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat symbol; fixed with added final repeat.
+M: C
+L: 1/8
+Q: "Moderate Bachanalian Chorus."
+K: Eb
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+|:\
+!p!B,<E(TE>D) (E>C)E<B, | "_cres"c<F~F>G ({G}A<G)(FE) |\
+!p!G<B~B>c B<aTg>f | {d}e>c B>G TF2 E2 :|
+|:\
+!p!G<ETE>F TE>CB,<E | C<F(~F>G) TF>EC<E |\
+"_cres"B,>CE>d {d}e>dc<He | B<Ge>G TF2 E2 :|
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|: !p!e2g2 a2g2 | "_cres"a2g2 f2e2 | !p!e2d2 efg2 | a2b2 B2e2 :|
+|: !p!e2g2 a2g2 | a2A2 a2A2 | "_cres"g2f2 g2Ha2 | [e2g2][e2b2] [e2a2][e2g2] :|
+% = = = = = = = = = =

@@ -1,0 +1,33 @@
+X: 462
+T: Ma Chere Amie
+C: James Hook (1746-1827)
+%R: air
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: John Treat - "Gamut for the Fifes", 1779, p.46 #2
+F: https://archive.org/details/GamutFortheFifes
+N: The left edge is torn off, so most of the first 2 bars are missing.
+N: The first 2 bars taken from several other versions that all have the same beginning.
+N: The other missing bars haven't been found yet, and are shown as "z16" rests.
+S: https://archive.org/details/austen1676459-2001 (bars 13,14)
+M: 2/4
+L: 1/16
+K: G
+%%continueall
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+G4 G2F2 | d4 A4 | A4 (dc)(BA) | G3A/G/ F2z2 | G4 G2G2 | d4 A4 |\
+B4 AFGE | D6 D2 | c3dc2B2 | B2A2 G4 |\
+(FGAB) c2B2 | B4 A2D2 | c3dc2B2 | B2A2 G4 :|
+(FGAB c2)B2 | HB4 HA4 | B4 (cB)(cB) | d2B2g2z2 |\
+d4 cBAG | e8 | G4 AcBA | GBdf fgdB |\
+GDGB AcBA | GBdg fgdB | GDGB AcBA | (A4 G4) |
+"missing bars"z16 | z16 |\
+A2D2F2A2 | G4 D2G2 | F4 F4 | G4 FDEG |\
+F6 F2 | A3BA2G2 | d2c2 B4 |\
+D4 F2G2 | G4 F2D2 | A3BA2G2 | d2c2 B4 |\
+D4 F2G2 | HG4 HF4 | B4 AGAG | B2G2B2 z2 |
+"missing bars"z16 | z16 |\
+Hc4 d2e2 | G4 FAGF | G2G2G2G2 |\
+G2G2F2F2 | G2G2G2G2 | G2G2F2F2 | (c2B2) A4 |]\
+y16 y16 y16 y16 y16 y16 y16 y16
+% - - - - - - - - - - - - - - - - - - - - - - - - -

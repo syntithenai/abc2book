@@ -1,0 +1,22 @@
+X: 1
+T: Amerikenskaya    [Gm]
+O: Belf's Rumanian Orchestra
+S: Email from Jon Cannon 2016-1-2
+R: freylach
+M: 2/4
+L: 1/16
+Q: 1/4=100
+K: Gm
+"A"|:\
+"Gm"G4 d4 | c2B2- B2c2 | d2c2 B2c2 | d2c2 B2A2 |\
+G4 d4 | c2B2- B2c2 | "Fm"B2F2 G2_A2 | "Gm"HG8 :|
+"B"|:\
+"F"ABc2- c2BA | c2BA "Gm"G4 | GFFB "Fm"B_AAG | "Gm"Gc"(F"BA "Bb)"B4 |\
+"F"ABc2- c2BA | c2BA "Gm"G4 | GFFB "Fm"B_AAG | "Gm"G8 :|
+"C"|:\
+"Bb"B8 | B8 | B4 B4 | B4 B4 |\
+d2c2 B4 | !p!d2c2 B4 | "Cm"e2d2 c4 | !p!e2d2 c4 |\
+"F"f2e2- e2d2- | "Bb"d2c2- c2B2 | "F"c2B2 d2c2 | "Bb"B2A2 G2F2 :|
+"D"[| "Cm"G2cc cccc | c2B2 A2G2 | "Bb(Fm)"F2BB BBBB | B2_A2 G2F2 \
+"E"|:\
+"Gm"G6 GB | "Fm"B_AAG "Gm"G2c2 | "Gm"G6 GB | "Fm"B_AAG "Gm"G4 :|

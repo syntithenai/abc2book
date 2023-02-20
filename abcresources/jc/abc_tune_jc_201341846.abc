@@ -1,0 +1,90 @@
+X: 129
+T: Suomenmaa SATB
+C: words: Aleksis Kivi
+C: music: V\"ain\"o Pesola
+S: http://kotkanlaulumiehet.fi/wp-content/uploads/2017/03/Suomenmaa-V%C3%A4in%C3%B6-Pesola-.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2+4/4
+K: Eb
+% dim/cres..endo symbols:
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+V:1 name="S" clef=treble   middle=B
+V:2 name="A" clef=treble   middle=B
+%%score (1 2)
+%%continueall yes
+% - - - - - - - - - -
+[V:1] "^mf"E4 | F2D2 E3F | (G2A>)F G2 zc ||
+[V:2] E4 | F2D2 E3F | (G2A>)F G2 zc ||
+%
+[V:1] B2 G2 | G2F2 G3z | z2 "^p"B2 | e2 e4 dc ||
+[V:2] B2 G2 | G2F2 G3z | z2 B2 | A2 A4 AG ||
+%
+[V:1] e3d d2B2 | f2 pf4 Ped ||
+[V:2] ABc c B2B2 | c2(c2 =B2) cc
+%
+[V:1] ec f2 | "^mf"g4 | g2f2 | f2e2 | pe2d2 ezP zf ||
+[V:2] ec d2 | e4 d2d2 | c2c2 | =B2B2 Bz zc ||
+% - - - - - - - - - -
+[V:1]"^P.496"c3B c2G2 | c6 a2 ||
+[V:2] (G2A)A A2G2 | F2G2 A2c2 ||
+%
+[V:1] g3e e2d2 | "^mp"He4 | "^p"e4 | ed de ||
+[V:2] d3c c2B2 | _c4 | (_c2B2) | =BB BB ||
+%
+[V:1] (d2c)=B Bz zd | (G2A)G | (G2d>)G G2zE ||
+[V:2] (d2c)=B Bz zd | (G2A)G | (G2A>)G G2zE ||
+%
+[V:1] E>D E>D | E>F F z/G/ | G>F G>F ||
+[V:2] E>D E>D | E>F F z/G/ | G>F G>F ||
+% - - - - - - - - - -
+[V:1]"^P.497"G>B Bz/c/ | c>B c>B | c>e e2 ||
+[V:2]         G>A Az/c/ | c>B c>B | c>e e2 ||
+%
+[V:1] "^mf"c"^rit."d e2 Hd3c | pc3B c2PG2 | c6 a2 ||
+[V:2]      c4 =B3G | (G2A)A A2G2 | F2G2 A2c2 ||
+%
+[V:1] "^mp"g3e e2f2 | "^f"Hg4 |      G4 | (^F2G)B ||
+[V:2]      d3c e2d2 | "_f" e4 | "_mp"G4 | (^F2G)B ||
+%
+[V:1] B3A | (G2A)G Gz zG | (C2 E)C ||
+[V:2] B3A | (G2A)G Gz zG | (C2 E)C ||
+% - - - - - - - - - -
+[V:1] "^P.498"=B3C Cz "^f"c2 | e2e2 | c3=B | c3=B ||
+[V:2]         =B3C Cz "^f"c2 | e2e2 | c3=B | c3=B ||
+%
+[V:1] =B2e2 | f2f2 | e3d | e3d | d2f2 ||
+[V:2] =B2e2 | d2d2 | e3d | e3d | d2d2 ||
+%
+[V:1]  g3g g2f2 | f3=e e2c2 | d3d ||
+[V:2] =e3e d2c2 | =B3B B2G2 | c3c ||
+%
+[V:1]  d2d2 c3z | z2"^ff"g2 "^rit."|  a2a2  a3g | g3a f2 g2 ||
+[V:2] =B2B2 G3z | z2     G2 | _e2e2 _d3d | c3c c2=d2 ||
+% - - - - - - - - - -
+[V:1]"P.499" e2e2 |  e3d d4 | z2 "^p"G2 | c3B B2c2 ||
+[V:2]        c2c2 | =B3B B4 | z2     G2 | G3G G2A2 ||
+%
+[V:1] A3 G F2_d2 | _dc c4 d2 | c3B A2e2 ||
+[V:2] F3=E F2_d2 | _dc c4 d2 | c3B A2e2 ||
+%
+[V:1] f>e e4 c2 | _d>c c4 A2 | "^rit."BB A4    G2 | "^mf"HA6 z2 ||
+[V:2]_d>e e4 c2 | _d>c c4 A2 |        BB(A2 E2)F2 |      HA6 z2 ||
+%
+P: Tempo I
+[V:1] "^p"E4 | F2D2 E3F | (G2A>)F G2zc  B2G2 ||
+[V:2] "_p"E4 | F2D2 E3F | (G2A>)F G2zc  B2G2 ||
+% - - - - - - - - - -
+[V:1]"P.500"G2F2 G3z | z2B2 | e2 e4 dc ||
+[V:2]       G2F2 G3z | z2B2 | A2 A4 AG ||
+%
+[V:1] e3  d d2B2 | f2 f4      ed | ec f2 ||
+[V:2] ABc c B2B2 | c2(c2 =B2) cc | ec d2 ||
+%
+[V:1] g4 | g2f2 | f2e2 |  e2d2 ez zf |  c3  B c2G2 ||
+[V:2] e4 | d2d2 | c2c2 | =B2B2 Bz zc | (G2A)A A2G2 ||
+%
+[V:1] c6 "^f"a2 | g3e | e4  e4    | He4 |]
+[V:2] F2G2 A2c2 | d3c | c4 (c2A2) | HG4 |]

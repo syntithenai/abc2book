@@ -1,0 +1,20 @@
+X:336
+T:Hunsdon House
+C:John Playford, 1657
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%stretchstaff 0
+Q:3/8=90
+M:6/8
+L:1/8
+K:C
+%%textfont Times-Roman-Bold 20
+%%center Play  ABBBB x 3
+%%MIDI gchord bb
+%%MIDI program 71     Clarinet
+%%MIDI chordprog 46   Orchestral Harp
+%%MIDI bassprog 42    Cello
+P:A
+|: "C"C2G E2A | "C"GE2 "G"D2C | "Am"c2e "G"dB2 | "D7"A3 "G"G3 :|
+P:B
+|: "Em"g2f eB2 | "Am"c2B Ade | "Dm"f2e "G"dB2 | "D7"A3 "G"GAB |\
+"Am"c2B AE2 | "Dm"F2E DAB | "Am"cde "Dm"f2 e | "^FOUR B's!" "G7"d3 "C"c3 :|

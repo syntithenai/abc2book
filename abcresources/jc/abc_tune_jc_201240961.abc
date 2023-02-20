@@ -1,0 +1,19 @@
+X: 4193
+T: Miss Dundass of Arniston's    Reel
+C: by Nath. Gow
+%R: reel
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.19 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+A |\
+F<DA>F E=CC>E | FDAD BDAD | dDAF E=C-C>E | Dd AF D2D :| (g | f)dad e=cce | fdad bdad |
+fdad e=cc(e | f)>dec ~d2d(g || f)>dad e=c-c>e | fdge afbg | adfa g=ceg | (f/g/a) (ef) d2-d |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d2d2 =c2c2 | d2[d2f2] [g2d2][d2f2] | [d2f2]d2 =c2c2 | d2A2 d2D :| z | c'2c'2 =c'2c'2 | d2[d2f2] [d2g2][d2f2] |
+d2d2 =c2c2 | d2A2 d2d2 || d'2d'2 =c'2c'2 | d2e2 f2g2 | f2d2 =c2^c2 | d2A2 D2D |]

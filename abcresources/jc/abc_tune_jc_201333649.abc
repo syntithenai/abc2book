@@ -1,0 +1,32 @@
+X:1
+T: Sally In Our Alley
+N:
+C:
+S:
+A:
+O:
+R:
+M:3/4
+K:C
+I:speed 100
+%W:         A
+% voice 1 (1 lines, 23 notes)
+K:C
+M:3/4
+L:1/16
+e4 d2 e d c2 d2 |c6 c B A2 G2 |F2 E2 D2 C2 C2 c2 |c4 z2 g f e2 f2 |
+%W: .
+% voice 1 (1 lines, 23 notes)
+e4 d2 e d c2 d2 |c6 c B A2 G2 |F2 E2 D2 C2 C2 c2 |c4 z2 e f g2 e2 |
+%W:         B
+% voice 1 (1 lines, 24 notes)
+a2 g2 f2 e2 f2 d2 |g2 f2 e2 d2 e2 c2 |f2 e2 d2 c2 B2 A2 |G4 z2 g f e2 f2 |
+%W:
+% voice 1 (1 lines, 24 notes)
+e4 d2 e d c2 d2 |c4 B2 e f g2 d2 |f2 e2 d2 c2 G2 B2 |c4 z2 e f g2 e2 |
+%W:
+% voice 1 (1 lines, 24 notes)
+a2 g2 f2 e2 f2 d2 |g2 f2 e2 d2 e2 c2 |f2 e2 d2 c2 B2 A2 |G4 z2 g f e2 f2 |
+%W:
+% voice 1 (1 lines, 25 notes)
+e4 d2 e d c2 d2 |c4 B2 e f g2 d2 |f2 e2 d2 c2 G2 B2 |c4 z2 g f e2 f2 |c8 ||

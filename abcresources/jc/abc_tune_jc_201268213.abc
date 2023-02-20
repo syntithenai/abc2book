@@ -1,0 +1,28 @@
+
+X: 1
+T: Det \"Ar F\"or Dig
+C: Harry Ludhahl
+R: tango
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+%%continueall
+"Intro"D2 E2D2 |\
+"G"B8- | B2AB "C"c2"D7"BA | "G"B4 G4- & z4 z2E_E | G2D2 B2"Eb7"_B2 & D2 x6 |\
+"Am"A2AB c4- | "D7"c2c2 B2A2 | "G"G4 "Am"dB"D7"cA | "G"G2"D7"d2 "G"g2z2 "A"||[K:Gm]
+"Gm"dd2c B4- | BG^FG A2B2 | "Cm"E4 E4- | E8 |\
+"D7"cc2B A4- | AD^CD E2D2 | "Gm"G8- | G2z2 z4 & zD^CD E=EF^F |
+"Gm"dd2c B4- | BG^FG A2B2 | "D"A4 ^F4- & z4 z2B,_B, | F2^F2 G2"E7"^G2 & A,2z2 z4 |\
+"A7"A=B2=E A4- | A=E^DE ^F2G2 | "D7"A8- & z2^F2 =E2_E2 | A2D2 =E2D2 & D2x2 z4
+"B1"|: [K:G]\
+"G"B8- | B2AB "C"c2"D7"BA | "G"B4 G4- & z4 z2E_E | G2D2 B2"Eb7"_B2 & D2x2 z4 |\
+"Am"A2AB c4- | "D7"c2c2 B2A2 | "G"B8- & z4 z2E_E | B2D2 E2D2 & D2x2 z4 "B2"||y\
+"G"B8- | B2AB "C"c2"D7"BA | "G"B4 G4- & z4 z2E_E | G2D2 B2"Eb7"_B2 & D2x2 z4 |
+"Am"A2AB c4- | "D7"c2c2 B2A2 | "G"G8- & z2D2 "C"E2"Cm"_E2 | "G"G2G2 A2G2 & D2z2 z4 "C"||y\
+"Bm"F4 B4- | B2F2 F2G2 | "Em"F3=F E4- | E2F2 G2F2 |\
+"F#7"F4 ^c4- | c2^c2 d2e2 | "Bm"d6"C#dim"_d2 | "D7"c2D2 E2D2 "B3"||y
+"G"B8- | B2AB "C"c2"D7"BA | "G"B4 G4- & z4 z2E_E |\
+G2D2 B2"Eb7"_B2 & D2 x6 | "Am"A2AB c4- | "D7"c2c2 B2A2 |\
+[1 "G"G8- & z2 D2 E2_E2 | G2D2 E2D2 & D2x2 z4 :|\
+[2 "G"G4 "Am"dB"D7"cA | "G"G2"D7"d2 "G"g2 z2 |]

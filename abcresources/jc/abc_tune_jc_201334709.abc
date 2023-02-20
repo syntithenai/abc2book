@@ -1,0 +1,34 @@
+X: 1
+T: Scornfull Nancy
+P: Longways for as many as will
+%R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.40
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: 2nd part has initial repeat but no final repeat.
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+G2 |\
+G3A G2(FE) | (FE)(DC) A3c | G3A (GA)(GE) | G4 c2(cd) |\
+(ed)(cA) (cA)(GE) | (FE)(DC) A3c | G3A (GA)(cE) | TG3A c2 :|
+|: GA |\
+c2e2 e2(de) | (fe)(dc) A2(GA) | c3d (ed)(ec) | (f3g/)a/ g3a |\
+(ga)(gf) e2(de) | (fe)(dc) A3g | (e/f/g) G2 (GA)(GE) | G4 c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+cdef e2c2 | d3e defd | e2f2 e2A2 | G2gf e2ed |\
+c2a2 f2c2 | d3e fgaf | g4 G4 | c4 c2 :|
+|: z2 |\
+c4 c'2b2 | a2f2 d2e2 | A2B2 c4 | d2e2 e2f2 |\
+e2d2 c2Bc |  d3e fedg | c2e2 g2G2 | c4 c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First and 2d Men side to their Partners once. go Back to Back .|
+%% then 1st Man side to the 2d Man and the 1st Wo. to the 2d Wo. at the same time. and go back to back :|
+%% then turn sides, and turn your Partner in the 2d Place .|
+%% then go the whole figure with the 2d Cu. :|
+%%endtext

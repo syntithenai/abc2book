@@ -1,0 +1,21 @@
+%%scale 1.0
+%%titlefont Times-Roman 24.0
+%%titleleft no
+%%titlespace 0.60cm
+%%musicspace 0.40cm
+%%leftmargin 1.00cm
+X: 1
+T: The Embroiderer's Jig
+C: Muriel Johnstone
+C: from Muriel Johnstone and Keith Smith "Vintage Goldring"
+C: arr. T. Traub 2-4-2014
+R: jig
+M: 6/8
+L: 1/8
+K: Bb
+|: f|"Bb"dcB BFG|"Eb"BGE E2 G|"Bb"FGB dcB|"C"cdB "F"c2 f|
+"Bb"dcB BFG|"Eb"BGE E2 G|"F"FGB cBc|"Bb"dBB B2 :|
+f|"Bb"dcB "Eb"gfd|"Cm"ede "F"f2 F|"Cm"Gcc ced|"Eb"cde "F"f2 e|
+"Bb"dcB gfd|"Eb"ede "F"f2 F|"Eb"GBB "F"cBc |"Bb"dBB B2 f||
+"Bb"dcB "Eb"gfd|"Cm"ede "F"f2 F|"Bb"dcB BFG|"Eb"Bcd "F"c2 E|
+"Bb"DEF Ffd|"F"cBc "Bb"d2 F|"Eb"G2 B "F"cBc|"Bb"dBB B2 |]

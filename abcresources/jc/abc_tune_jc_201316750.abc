@@ -1,0 +1,26 @@
+X: 1
+T: the New Invention
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.270
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The somewhat odd 1st/2nd-ending syntax is here translated to ABC form.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+d2g f>ed | e2g d>cB | c2B ABG | AF>E D3 |\
+a2a g/a/bB | g2g f/g/aB | c2B ABG |[1 AF2 G3 :|[2 AF2 G2 |]
+g/a/ |\
+bag agf | gfe dcB | e2e e2(e//f//g/) | f2e e3 |\
+ddd dcB | BAG FED | a2e fdg |[1 ef2 g2 :|[2 ef2 g3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man turns the 2. wo. with his right-hand, and his Partner with the left .| The 2. cu. do the ame :|
+%% All four hands quite round, then right and left half round .| The 1. cu. being in the 2. cu. place,
+%% hands quite round and lead through the 3. cu. and turn your Partners.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

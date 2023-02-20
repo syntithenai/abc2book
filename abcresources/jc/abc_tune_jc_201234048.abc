@@ -1,0 +1,19 @@
+X: 20223
+T: MINUET
+C: Corelli.
+%R: minuet, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.63 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 3/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+g2efg2 | c2c2d2 | efefg2 | e2d2c2 |\
+g2efg2 | c2c2d2 | efefg2 | e2d4 :|\
+|:\
+d2d2e2 | fefgf2 | e2e2f2 | gfgag2 |\
+agfedc | g3fed | efe2d2 | c6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

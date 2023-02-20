@@ -1,0 +1,1153 @@
+%%URL: http://www.8ung.at/diatonica/abc/czital.abc
+%%Last-Modified: Mon, 10 Jun 2002 21:57:00 GMT
+%%Content-Length: 27826
+%%Content-Type: text/plain; charset=iso-8859-1
+% downloaded from http://www.8ung.at/diatonica
+
+% Some comments:
+% Since most of the music is trad., I use the  C: field
+% to indicate from which source (record, book etc) I
+% got the tune.
+% Composers are indicated in brackets after the tune name.
+
+
+% For any questions, comments etc email me: chzei@bigfoot.com
+
+X:1
+T:Lombardina
+C:R. Tesi: Il ballo della lepre 8a
+M:6/8
+L:1/8
+K:C
+GAB cde|egf edc|1 Bce dcB|\
+AG^F G2G:|2 Bce d2g|^fga b2g g3||
+|:gag gag| fed dde |fef agf| ege c2c|\
+gec gec| a2a  abc'| bag fed| c2c c3:|
+
+X:2
+T:Laterna magica
+C:R. Tesi: Il ballo della lepre 8b
+M:6/8
+L:1/8
+K:G
+dc|BBB BcA|GGG GBd|cAc BGB|AAA ABc|\
+ddd dec|BBB BcA|GFE DEF|GGG G:|
+|:zB|~d2B ~d2B|eee e3|~c2A ~c2A|ddd d3|\
+BBB BAG|EFG ABc|BAG DEF|GGG G:|
+
+X:3
+T:Giga ferrarese
+C:R. Tesi: Il ballo della lepre 8c
+C:Roberto Tombesi
+M:6/8
+L:1/8
+K:C
+g|ece dBd|cBc cde|fef agf|ege c2d|\
+e^fg fga|g^fg Bcd|edc BcA|G3-G2:|
+|:g|gag gag|^fef d2e|fef agf|ege c3|\
+eGe eGe|fAf fAf|efe dcB|B2c c2:|
+
+X:4
+T:Giga Emiliana
+C:R. Tesi: Il ballo delle lepre 8d
+M:6/8
+L:1/8
+K:G
+dc|BcB ABA|GGB GFG|ABc cBA|BdB GGG|
+ABc cBA|ded ddd|ABA GFE|1 ~E2D D2:|2 ~E2D D||
+|:de|dcB BAG|e2e ecd|cBA AGF|d2d d3|
+Bdd  cee|Bdd  cee|Bdd  Add|G3  z:|
+
+X:5
+T:Bergamasco e Tresca
+C:R. Tesi: Il ballo dela lepre 8e+f
+C:ABCD -ABCD - Tresca
+S:Organetto diatonico
+M:2/4
+L:1/16
+K:G
+d2c2|:BGBd BGBd|cBcd cBAG|\
+FGAB cBdc|BAGF GABc|
+dedc BcdB|cBcd cBAG|\
+FGAB dcBA|1 G4 d2c2:|2 GBAG FEDC||
+|:B,DGD B,DGD|CEGE CEGE|\
+DFAF DFAF|GBAG FEDC|
+B,DGD B,DGD|CEGE CEGE|\
+DFAF DFAF|1 G4 D2C2:|2 G4 ABcd||
+|:e2=f2 e2d2|cdcB ABcd|1 edcd cBcd|\
+B2A2 ABcd:|2 edcd cBcB| A4 A2B2||
+|:cecA cecA|BdBG BdBG|\
+cecA BdBG|B2A2 A2B2|
+cecA cecA|BdBG BdBG|\
+cecA BdBG|1 A4 ABcd:|2 A4||
+P:Tresca
+z2 Bd B2G2|A2Ac A2F2|G2Bd B2G2|\
+FGA2 DEF2|G3d d2d2|\
+c2Ac e2e2|dBGB d2d2|
+cAFA c2c2|dBGB d2d2|\
+c2Ac e2e2|dBGB d2d2|dedc BcBA||\
+G2GB d2d2|c2Ac ecec|
+dBGB dBdB|cAFA cAcA|\
+dBGB dBdB|ecAc ecec|dBGB d2d2|
+dedc BcBA|G3B d2d2|ceee ceee|\
+Bddd Bddd|Addd Addd|Bddd Bddd|
+ceee ceee|Bddd Bddd|dedc BcBA|\
+GFGA Bcde|(3d2c2d2 e2d2|g8||
+
+X:6
+T:Moresca nuziale (D. Craighead, R. Tesi)
+M:3/4
+L:1/8
+K:C
+"A"AB cd|:eE ce dB|cA Ec BG|\
+ABc BcB|1 AG AB cd:|2 AG dc Bc||!
+|:AF AB ce|dz dd cB|\
+cBA BcB|1 AG dc Bc:|2 AG AB cd||!
+|:"B"d2 Be ee|d2 Be ee|fed edc|BG AB cG:|\
+dG Be Ge|d2 Be ee|!
+fed edc|BG AB cG|\
+dG Be Ge|dG dG eG|\
+fed edc|BG AB cd:|!
+"B1"d2 Be ee|d2 Be ee|fed edc|BG AB cG|\
+dG Bd eG|dG Bd eG|fed edc|BG AB cG||
+|:dG/A/ Bc de|dG/A/ Bc de|\
+fed edc|1 BG AB cA:|2BG AB cd||
+"Coda"eE ce dB|cA Ec BG|ABc BcB|1 AG AB cd:|2 AG dc Bc||
+|: AF AB ce|dz dd cB|1 cBA BcB|AG dc Bc:|2 cBA B2G|\
++Ac+z +Ac++Ac+ GB|cBA B2G|\
++Ac+z +Ac++Ac+ GB|cBA B2G|\
++Ac+z +Ac++Ac+ GB|cBA B2G|+A6c6+|]
+
+X:7
+T:Valzer
+C:Amedeo de Laurentiis
+C:Balli popolari in Abruzzo I/7
+C:ABAABCA
+M:3/4
+L:1/8
+K:G
+d (3ded|d2 zd (3ded|d2zd (3ded|dc c2z2|z3 c (3cdc|\
+c2zc (3cdc|c2zA (3ABc|ed d2z2|z3d (3ded|
+d2 zd (3ded|d2zd (3ded|dc c2z2|z3B (3Bcd|\
+d2zd de|fe dc (3cBA|G3g g2|g2z:|
+|:zg2|fe dc (3cBc|ed GB (3Bcd|dc FA (3ABc|ed Gd (3deg|\
+fe dc (3cBc|ed Gd (3deg|fe dc (3cBA|
+GB Bc (3deg|fe dc (3cBc|ed GB (3Bcd|dc FA (3ABc|\
+ed Gd (3deg|fe dc (3cBc|ed Gd (3deg|
+fe dc (3cBA|G3gg2|g2z:|\
+B|GB (3Bcd (3deg|fe f4|fe dc (3cBA|G6||
+
+X:8
+T:Quadriglia
+C:Domenico Rosica
+C:Balli popolari in Abruzzo I/8
+M:6/8
+L:1/8
+K:G
+D2D|GDG BGB|d2d ded|~d2c c2d|~c2B B2D|\
+GDG BGB|d2d ded|fed cBA|G3:|
+g2g|fgf efe|d2B d2d|ded cBA|B2G g2g|\
+fgf efe|d2B d2d|ded cBA|G3:|
+d ded|BBB BdB|GGG GAG|DGD BGB|A2A ABA|\
+FFF FAF|DDD DFD|AFA cAc|B2d ded|\
+BBB BdB|GGG GAG|DGD BGB|e2e- eef|\
+g2g- gfe|~e2d-d2B|d2c cBA|e2d- def|\
+g2f fed|~e2d- d2B|d2c cBA|G2:|
+
+X:9
+T:Quadriglia
+C:Vincenzo De Rosa
+C:Balli popolari in Abruzzo I/10
+M:6/8
+L:1/8
+K:G
+DGD|GDG DGB|d2d dcB|A2c cBA|B2G DGD|\
+GDG DGB|d2d dcB|A2c cBA|G3||*
+g2g|f2e f2e|d2B ddd|c2 A/B/ c2e|~d2B g2g|\
+f2e f2e|d2B d2e|fed cBA|G3||**
+
+X:10
+T:Mazurka
+C:Amedeo de Laurentiis
+C:Balli popolari in Abruzzo I/15
+M:3/4
+L:1/8
+K:G
+GB cd|e3dd2|e3dd2|d3cc2|z2FA Bc|\
++d3f3+ +Ac+ +A2c2+|f2e2f2|e3 dd2|z2GB cd|
+e3dd2|e3dd2|d3cc2|z2d2g2|\
+f2~e2d2|c2~B2A2|G3GG2|G2:|
+|:GB cd|ed Bd GB|ed GB cd|dc Ac FA|EF GA Bc|\
+dc Ac FA|dc FA Bc|ed Bd GB|DG AB cd|
+ed Bd GB|ed GB cd|dc Ac FA|EF AB cd|\
+fe dc de| fe dc BA|G3GG2|G2:|
+|:z2+B2d2+|eg eg eg|eg eg eg|fe f3e|FA Bc de|\
+fe f3e|FA Bc BA|+c6-e6-+|+c2e2+z2+c2e2+|
+eg eg eg|eg eg eg|fe f3e|FA Bc de|\
+fe dc de| fe dc BA|G3GG2|G2:|
+
+X:11
+T:Saltarella
+C:Fanciuollo Rapacchietta
+C:Balli popolari in Abruzzo II/2
+M:6/8
+L:1/8
+K:G %C#
+de|fed cBA|G2||
+%1
+g geg|f2e ede|e2d ded|d2c cBA|G2B Bcd|\
+d2e edc|B2d deg|fed cBA|G3 ||
+%2
+Bcd|d2e edc|e2d ded|d2c cBc|e2d deg|\
+f2e ede|e2d  deg|fed cBA|G2||
+%3
+d ded|cAc edc|BGB dcB|AFA cBA|G2d ded|\
+cAc edc|BGB dcB|ABc def|g2||
+%4
+g geg|f2e ede|e2d ded|d2c cBc|e2d deg|\
+f2e ede|e2d  deg|fed cBA|G2||
+%5
+d dcB|AFA czA|BGB dzB|AFA czA|G2d dcB|\
+AFA cBA|BGB dcB|AFA cBA|G2||
+%6
+d dcB|AFA czA|BGB dzB|AFA czA|G2d dcB|\
+AFA cBA|BGB dcB|ABc def|g2||
+%7
+g geg|fed cBA|B2d G2B|ABc F2A|+G3-B3-d3-++G3B3d3+|\
+%40sec
+ABc f2e|e2d d3|f2e c3|d3-d3|
+%8
+f2e c3|e2d d3|f2e c3|d3-d3|\
+f2e c3|e2d d3|f2e c3|d3||
+%9
+zde|f2e ede|e2d ded|d2c cBA|G2B Bcd|\
+d2e edc|B2d deg|fed cBA|G2||
+%10
+B BAG|FGA ABc|e2d ded|d2c cBc|e2B BAG|\
+FGA ABc|e2d deg|fed cBA|G2||
+%11
+%60sec
+G GGG|FFF AAA|GGG BBB|AAA ccc|\
+BBB ddd|ccc eee|ddd ggg|fff eee|
+ddd ggg|fff eee|ddd ddd|AAA ccc|\
+BBB ddd|fed cBA|G2||
+%12=3
+d ded|cAc edc|BGB dcB|AFA cBA|G2d ded|\
+cAc edc|BGB dcB|ABc def|g2||
+%13
+g geg|f2e ede|e2d ded|d2c cBc|e2d deg|\
+f2e ede|e2d deg|fed cBA|G3-G3||
+%84 sek
+%14
+f2e c3|e2d B3|f2e c3|d3-d3|\
+f2e c3|e2d B3|f2e c3|d3||
+%15
+Bcd|d2e ede|e2d ded|d2c cBc|e2d deg|\
+f2e ede|e2d deg|fed cBA|G2||
+%16
++dg+ +dg++ce++dg+|+df++eb++df+ +ce++dg++ce+|\
++Bd+z+dg+ +dg++ce++dg+|+df++eb++df+ +ce++dg++ce+|\
++Bd+z+dg+ +dg++ce++dg+|+df++eb++df+ +ce++dg++ce+|\
++Bd++Ac++Bd+ +GB++FA++GB+|+Ac++Bd++Ac+ +FA++GB++FA+|\
++GB++FA++GB+ +GB++FA++GB+||!
+%17
++Ac++Bd++Ac+ +ce++dg++ce+|+Bd++Ac++Bd+ +GB++FA++GB+|\
++Ac++Bd++Ac+ +FA++GB++FA+|+GB+z+dg+ +dg++ce++dg+|\
++df++eb++df+ +df++eb++df+|+dg++ce++dg+ +dg++ce++dg+|\
++df++eb++df+ +df++eb++df+|+dg++ce++dg+ +dg++ce++dg+|!
+%18
++df++eb++df+ +ce++dg++ce+|+Bd++Ac++Bd+ +GB++FA++GB+|\
++Ac++Bd++Ac+ +FA++GB++FA+|+GB++FA++GB+ +GB++FA++GB+|\
++Ac++Bd++Ac+ +ce++dg++ce+|+Bd++Ac++Bd+ +GB++FA++GB+|\
++Ac++Bd++Ac+ +FA++GB++FA+|+GB+z||!
+%19=3
+d ded|cAc edc|BGB dcB|AFA cBA|G2d ded|\
+cAc edc|BGB dcB|ABc def|g2||
+%20=4
+g geg|f2e ede|e2d ded|d2c cBc|e2d deg|\
+f2e ede|e2d  deg|fed cBA|G2||
+%21=10
+B BAG|FGA ABc|e2d ded|d2c cBc|e2B BAG|\
+FGA ABc|e2d deg|fed cBA|G2||
+%22=6
+d dcB|AFA czA|BGB dzB|AFA czA|G2d dcB|\
+AFA cBA|BGB dcB|ABc def|g2||!
+%23
+g geg|f2e f2e|e2d ded|d2c cBA|e2d deg|\
+f2e d2e|e2d deg|fed cBA|G2||
+%24=11
+G GGG|FFF AAA|GGG BBB|AAA ccc|\
+BBB ddd|ccc eee|ddd ggg|fff eee|
+ddd ggg|fff eee|ddd ddd|AAA ccc|\
+BBB ddd|fed cBA|G3-G3||
+%25=14
+f2e c3|e2d B3|f2e c3|d3-d3|\
+f2e c3|e2d B3|f2e c3|d3||
+%26=15
+Bcd|d2e ede|e2d ded|d2c cBc|e2d deg|\
+f2e ede|e2d deg|fed cBA|G2||
+%27
++dg+ +dg++ce++dg+|+df++eb++df+ +df++eb++df+|\
++dg++ce++dg+ +dg++ce++dg+|\
++df++eb++df+ +df++eb++df+|+dg++ce++dg+ +dg++ce++dg+|\
++df++eb++df+ +ce++dg++ce+|+Bd++Ac++Bd+ +GB++FA++GB+|
++Ac++Bd++Ac+ +FA++GB++FA+|+GB++FA++GB+ +GB++FA++GB+|\
++Ac++Bd++Ac+ +ce++dg++ce+|+Bd++Ac++Bd+ +GB++FA++GB+|\
++Ac++Bd++Ac+ +FA++GB++FA+|+GB+z2 +df+z2|+Bdg+z2|]
+
+X:12
+T:Mazurka vecchia
+C:Basilio D'Amico
+C:Balli popolari in Abruzzo II/11
+M:3/4
+L:1/8
+K:G
+e|ed Bd Gd|dc+A3c3+d|dc Ac Fc|+ce++Bd+ +B3d3+e|\
+ed Bd Gd|dc+A3c3+d/e/|fe dc B/c/B/A/|Gz+B3d3g3+:|
+|:g|(3edB (3GBc (3deg|+df+e +d3f3+e|fe de fe|ed +G2B2d2+gd|\
+(3edB (3GBc (3deg|+df+e +d3f3+d/e/|
+fe fe fe|+ce++Bd+ +B2d2+ gd|\
+(3edB (3GBc (3deg|+df+e +d3f3+e|fe dc B/c/B/A/|Gz+B3d3g3+||
+g|f2{f/e/}d2 {d/e/}fe|ed (3dcB (3Bcd|dc (3cBA (3ABc|dc c2 g2|\
+f2{f/e/}d2 {d/e/}fe|ed (3dcB (3Bcd|f2 (3fed (3cBA|G2 G2||
+gz|:(3ggg (3ggg (3ggg|(3fff (3fff (3fff|\
+(3eee (3eee (3eee|(3ddd (3ddd (3ddd|\
+(3BBB (3BBB (3ddd|1 (3ccc (3ccc (3ccc|(3AAA (3AAA (3ccc|\
+(3BBB (3BBB (3BBB:|2 cz (3FAB cde| dz(3fed (3cBA|G2 G2||
+
+X:13
+T:Quadriglia
+C:Basilio D'Amico
+C:Balli popolari in Abruzzo II/16
+M:6/8
+L:1/8
+K:G
+Bce |def gfe |d2B d2g| f2e e2f| e2d Bce |\
+def gfe| d2B d2g |fed cBA |G3:|!
+|:ggg|f2e f2e|d2B d2d|c2A e2f|~e2d g2g|\
+f2e f2e|d2B d2g|fed cBA|G3:|
+
+X:14
+T:Quadriglia
+C:Francesco Veroni
+C:Balli popolari in Abruzzo II/17
+M:6/8
+L:1/8
+K:G
+B Bcd|e2B BAG|D2B BAG|DGA BcB|\
+A2A ABc|1 d2A AGF|
+E2A AGF|EFG ABA|\
+G2:|2 d2c cde|d2d ded|fed cBA|G2||
+|:d ded|B2d ded|A2d ded|c2d ded|B2d ded|\
+B2d ded|A2d ded|fed cBA|1 G2:|2 G3||
+|:DGB |GBd GBd |d2d ded |c2c cBA| B2B DGB|\
+GBd GBd |d2d ded |fed cBA|G3:|
+|:DEF|GGG edB|d2c EFA|fed def|e2d DEF|\
+GGG edB|d2c EFA|fed cBA|G3:|
+
+X:15
+T:Quadriglia
+C:Pietro Tavani
+C:Balli popolari in Abruzzo II/18
+M:6/8
+L:1/8
+K:G
+d ded|BGB ded|~c2A ded|~c2A ded|~B2G ded|\
+BGB ded|~c2A ded|fed cBA|1 G2:|2 G3||
+|:DDD|GDG BGB|~c2A ded|~c2A ded|~B2G DDD|\
+GDG BGB|~c2A ded|fed cBA|1 G3:|2 G2||
+d ded|{d}g2d ded|{e}f2d ded|fed fed|{d}g2d ded|\
+{d}g2d ded|{e}f2d ded|fed cBA|G3-G2||
+|:d|dcB BAG|F2d d3|F2d d2d|(3ege d B2d|\
+dcB BAG|F2d ded|fed cBA|1 G3-G2:|2 G2||
+
+X:16
+T:Mazurca (a Passetto)
+C:Organetto e Tarantelle 3
+M:3/4
+L:1/8
+K:G
+Bd Bd|e2Bd Bd|d2 Ac Ac|d2Ac Ac|e2 Bd Bd|\
+e2Bd Bd|d2 Ac Ac|f2e2d2|c2B2~A2|G6||\
+GB cd eg|f6|e6|f4e2|d6-|d6|\
+GB cd eg|f2e2d2|c2B2~A2|G2Bd Bd||\
+ed GB cd|dc FA Bc|dc FA Bc|ed GB cd|\
+ed GB cd|dc FA Bc|fe dc BA||\
+B2B2 c2|d2 c2 ~B2|A2 AB cd|e2e2e2|e2=fe dc|\
+d2d2d2|d2 ed cB|A2A2AB|c2 B2 A2|G6||\
+GB cd eg|f6|e6|f4e2|d6|\
+GB cd eg|fe dc de|fe dc BA|G2 Bd (3GBd||\
+ed GB cd|dc FA Bc|dc FA Bc|ed GB cd|\
+ed GB cd|dc FA Bc|fe dc BA|G2 (3GBd (3GBd||\
+e2  (3GBd (3GBd|d2 (3FAc (3FAc|d2 (3FAc (3FAc|e2  (3GBd (3GBd|\
+e2  (3GBd (3GBd|d2 FA (3Bcd|f2 e2 d2|c2 B2 ~A2||\
+B2B2 c2|d2 c2 ~B2|A2 AB cd|e2e2e2|e2=fe dc|\
+d2d2d2|d2 ed cB|A2A2AB|c2 B2 A2|G6||\
+GB cd eg|f6|e2f2e2|d6|GB cd eg|fe de de|fe dc BA|G6||**
+
+X:17
+T:Mazurka
+C:Balli tradizionali in Umbria 23
+M:3/4
+L:1/8
+K:C
+EE/E/ EE FE|A2 A3 B|c2 c3 A|e2 e3 e|\
+fe dc BA|e2 e3 d|e2 e3 d|ec A4|
+EE/E/ EE FE|A2 A3 B|c2 c3 A|g2 f4|\
+fg fe dc|B6|ef ed cB|A2 A4|]
+e3 c BA|e3 c BA|e3 f ef|e4 d2|\
+f3 e dc|B4E2|d3 c Bc|B4 A2|
+e3 c BA|e3 c BA|e3 a aa|g4 f2|\
+d3 e fg|e3 c BA|B3 d cB|A2 A4|]
+
+X:18
+T:Furlana
+C:Ferdinando Valcelli
+C:Balli tradizionali in Umbria 26
+M:6/8
+L:1/8
+K:G
+d3|cBA ABc|d2B d2g|fed cBA|B2G- G2d|\
+cBA ABc|d2B d2g|fed cBA|G3-G2|]
+F|A2F A2e|d3 g2g|fed cBA|B2G- G2F|\
+A2F A2e|d3 g2g|fed cBA|G3||
+
+X:19
+T:Valzer Triste
+C:Valla/Guglielmetti
+N:
+M:3/4
+L:1/4
+K:C
+e3|~dcd|e3|~ede|fga|ag~f|e3-|e3|
+def|~fed|cde|~edc|Bcd|~dcB|A3-|A3:|
+K:G
+|:B>c B/A/|Gcd|efg|~d B2|B>c B/A/|GAB|cdc|A3|
+c>d c/B/|ABc|ded|f3-|f~ed|~fed|cBA|G3-|G3:|
+
+X:20
+T:I Disertori - Valzer
+C:Valla/Guglielmetti
+M:3/4
+L:1/4
+K:C
+e e/e/ e/e/|edc|B3-|B2A/G/|d d/d/ d/d/|dcB|A>B c/B/|
+A2A/B/|ccc|cBA|eB>c|dcB|A3-|A3:|
+|:A>B c/d/|e3|dcB|A2-A/B/|cBA|e3|f/e/da|e3|
+egf|efe|dcB|A2 A/B/|cBA|Bcd|BAG|A3-|A3:|
+
+X:21
+T:Mazurca di Ivano
+C:Valla/Guiglelimetti
+M:3/4
+L:1/8
+K:C
+AB|c2B2A2|ef e4|c2B2A2|a6|\
+a2g2f2|ef/e/d4|f2e2d2|de/d/ c4|
+c2B2A2|ef e4|c2B2A2|a6|\
+a2g2f2|ef/e/d4|ef ed cB|AB A2:|
+|:AB|cB cB cd|c4 BA|ed ed ef|e6|\
+e2 fe dc|ed B4|d2 ed cB|dc A2AB|
+cB cB cd|c4 BA|ed ed ef|e6|\
+e2 fe dc|ed B4|ef ed cB|ABA2:|
+
+X:22
+T:Bisagna
+C:La Ciapa Rusa: ten .. 1b
+M:6/8
+L:1/8
+K:G
+G2B d2e|c2d e2d|G2B d2e|c2e d3|d3 d3:|
+|:d2c B2d|cBA BAG|d2c B2d|cBA G3:|
+
+X:23
+T:Polca
+C:La Ciapa Rusa: ten .. 1c
+M:2/4
+L:1/16
+K:G
+d2|g3d e2d2|e6 d2|BdBd B2d2|~c2A2- A2d2|\
+a3d a2d2|a3a a2d2|(3ded (3cdc (3BcB A2|B2G2- G2d2|
+g3d e2d2|e6 d2|BdBd e2d2|~c2A2- A2d2|\
+a3d a2d2|f3f f2~e2|d2~c2 B2~A2|G8-|G4||
+e2(3ded|B3B B2d2|~c2A2 A2B2|c3B c2d2|~e2d2 d2g2|\
+g3f f2e2|f4 ~e2d2|A6d2|G6-|G4:|
+d2|edBd edBd|gdBd edBd|gdBd edBd|~d2c2 c2d2|\
+adcd edcd|adcd edcd|adcd edcd|~B2G2 G2d2|\
+edBd edBd|gdBd edBd|gdBd edBd|~d2c2 c2d2|\
+d2d2 e2de|f2f2 f2~e2|d2~c2 B2~A2|G6-|G4||
+
+X:24
+T:Giga
+C:La Ciapa Rusa: ten .. 1d
+M:6/8
+L:1/8
+K:G
+Bcd|B2d B2d|d2c ccd|c2d c2d|e2d Bcd|\
+B2d B2d|d2c d^cd|f2d cBA|G6-|G3:|
+|:d2d|f3e3|d2B ded|d2c cdc|c2B d^cd|\
+f3e3|d2B ded|d2c cBA|G6-|G3:|
+
+X:25
+T:Courenta dei Butei
+C:La Ciapa Rusa: ten .. 2b
+M:6/8
+L:1/8
+K:C
+G|c2c cde|e2c cBc|d2d dcd|e3 c2G|\
+c2c cde|e2c cBc|d2d ded|1 c3 c2:|2 c3 c3||
+K:G
+|:Bcd edc|Bcd d2A|ABc ded|cBA B2G|\
+Bcd edc|Bcd d2A|ABc ded|1 cBA G3:|2 cBA G3 G2||
+
+X:26
+T:Mazurca di Valle Borbera
+C:La Ciapa Rusa: ten .. 3
+N:
+M:3/4
+L:1/8
+K:G
+GA Bc de|d2 d2-de|d2d2c2|c2B4|\
+GB de dc|1 B2A4|AB cd cB|A2G4:|2 B2 A2 (3ABc|\
+d3c B/c/B/A/|G2G2 z2||
+|:dB GB GB|dB GB GB|cA FA FA|cA FA FA|\
+dB GB GB|dB GB GB|e6|(3ded (3cdc B/c/B/A/|G2G2z2:|
+
+X:27
+T:Giga di Roccagrimalda
+C:La Ciapa Rusa: ten ..
+M:6/8
+L:1/8
+K:G
+D|G2F G2A|B2B BAB|d2d ded|B3-B2D|\
+G2F G2A|B2B BAB|d2d ded|B3 zBc||
+|:B2A ABc|B2A ABc|BAB dcB|Add dBc|\
+B2A ABc|B2A ABA|GFE DEF|1G3 zBc:|2 G6:|
+
+X:28
+T:Alessandrina
+C:La Ciapa Rusa: Antologia.. 4b
+M:6/8
+L:1/8
+K:G
+e2f|g2g g2g|g3-gfg|a2g f2e|d3-d2g|\
+g2d d2B|dcA c2e|edB cBA|GBd G3||
+|:GBd GBd|GBd dcA|ABd ABd|ABd dBG|\
+GBd GBd|GBd dcA|d2e fed|cBA GBd|G6:|
+
+X:29
+T:Giga
+C:La Ciapa Rusa: Antologia .. 4d
+M:6/8
+L:1/8
+K:G
+Bc|
+
+X:30
+T:Principessa (M. Martinotti) - Mazurca
+C:La Ciapa Rusa: Antologia
+M:3/4
+L:1/8
+K:C
+A^G AB cd|e2c2A2|fe de fa|e2c2A2|\
+dc Bd cB|cB Ac BA|
+|1BE dE cE|B2B2z2:|2 B2e2e2|A2A2z2\
+|:ec Ae cA|ec Ae cA|fc Af cA|fc Af cA|
+|1ed Be dB|ed Be dB|e2 cB cd|B6:|2 ed cB cd|\
+e2c2A2|d2c2B2|A2A2z2:|
+
+X:31
+T:Monferrina di Frankie
+C:La Ciapa Rusa
+C:La Ciapa Rusa: Antologia
+M:6/8
+L:1/8
+K:G
+D2D|GDG BGB|d2d ded|fed cBA|B2G D2D|\
+GDG BGB|d2d ded|fed cBA|G3:|
+K:D
+|:A2A|ABA GFE|F2D A2A|A2A ABc|d3 A2A|\
+ABA GFE|F2D A2A|A2A GFE|D3:|**
+
+X:32
+T:Sbrando del Roero
+C:La Ciapa Rusa: Retanavota 4b
+N:
+M:6/8
+L:1/8
+K:G
+D DED|B3 A3|G2D DED|F2D DED|G2D DED|\
+B3 A3|G2D DED|FED DEF|G3:|
+|:Bcd|B2B Bcd|d2c ABc|A2A ABc|e2d  DED|\
+B3 A3|G2D DED|FED DEF|G3:|
+|:G2B|d2d d2d|g2d d2d|fed cde|d2B G2B|\
+d2d d2d|g2d d2d|fed cBA|G3:|
+
+X:33
+T:Sbrando di Bra
+C:La Ciapa Rusa: Retanavota 4c
+M:6/8
+L:1/8
+K:G
+ded B2B|BcB G3|G2A BAB c2B A3|\
+cdc A2A ABA F3|c2d fed|1 cBA B2G:|2 cBA G3||
+|:d2d GdG|BGB d2B|ded fed|cBA B2G|\
+d2d GdG|BGB d2B|ded fed|cBA G3:|
+|:d2B GBd|c2A F3|f2e ded|cBA B2G|\
+d2B GBd|c2A F3|f2e ded|cBA G3:|
+
+X:34
+T:Monferrina modenese
+C:La Ciapa Rusa: Retanavota 4f
+M:6/8
+L:1/8
+K:G
+zBA|G2D G2B|d3 zcB|ABc DEF|GAB BAG|\
+G2D G2B|d3 zcB|ABc DEF|G3:|
+|:z2G|BAG BAG|GFF FzF|cBA cBA|BAB G2G|\
+BAG BAG|GFF Ace|dAB cEF|G3:|
+
+X:35
+T:Il passo del bosco (M.Martinotti) - Mazurca
+C:La Ciapa Rusa: Retanavota 9a
+M:3/4
+L:1/8
+K:G
+~DG BA ~GE|B6|~DG BA ~GE|c4-cc|\
+cA Fc EA|~D4 (3EFE|1 DE FG AG|BA G4:|
+|2 Dc AF (3cAF|G2G2z2\
+|:DE FD (3EFA|BG DB GD|BG EB (3BGE|~C6|
+(3A,B,C (3DEC (3ECA,|AF DA FD|1CD FD CD|\
+~B,6:|2 ~cA FD/E/ F/G/A|G2G2z2||
+
+X:36
+T:Amsun (M. Martinotti) _ Mazurca
+C:La Ciapa Rusa: Retanavota 9c
+M:3/4
+L:1/8
+K:G
+d2|g2f2~e2|d3B cd|e2~d2c2|~B4d2|Bd Gd Bd|1 {f}d2c2c2|\
+Ac FA Bc|e2d2d2:|2 d2 cA Bc|d2 dc B/c/B/A/|G2G2z2||
+|:ec Ag fe|dB Gd cB|cA Fc BA|BA Bc d2|\
+ec Ag fe|dB Gd cB|cA Fc BA|1 G2 (3GBd (3cBd:|2 G2G2z2||
+
+X:37
+T:La Casa di Vronovsky - Schottisch
+C:La Ciapa Rusa: Aji  & Safran 1 a
+M:4/4
+L:1/8
+K:C
+AGAB c2 A2|BABc d4|e2 dc B2d2|1 cdcB c2 A2:|2  cdcB A4||\
+A2 ce d2 B2|G^FGA D4|
+E2 (3DCB, A,2 EF|GABG cBA^G|\
+A2 ce d2 B2|G^FGA =F4|fedc BDGB|dcBc A4||**
+
+X:38
+T:Fruja fruja Ciacio (M. Martinotti) - Mazurca
+C:La Ciapa Rusa: Aji  & Safran
+M:3/4
+L:1/8
+K:G
+d3d cB|d3d BA|G3 B (3BAG|GD GB dB|A3A (3EAc|
+A3c ~BA|1 B3 c (3dcB|AG FA d2:|2 BG DG (3DGB|G6|]
+|:AG FD FA|AG FD (3FGA|BA GD GA|BA GE (3GAB|\
+cE Ac EA|
+BD GB DG|1 AG FE DC|\
+B,A, G,G, (3G,DG:|2 AG FD (3FGA|G2G2z2|]
+K:C
+G3E Gc|e4 c2|Gc ec (3cde|f2 d2(3FGA|A3F Ac|~B6|\
+B3A BA|G2E2 (3GEG|
+c3G cd|e6|d3c de|f2~c4|\
+Bc dB dB|Gc ee cG|dc Bd (3dcB|c2c2z2|]
+
+X:39
+T:Marlipo (M. Martinotti) - Mazurca
+C:La Ciapa Rusa: Aji  & Safran 5c
+M:3/4
+L:1/8
+K:C
+GB dG Bd|c2A2F2|GB dG Bd|F2A2c2|\
+GB dG Bd|(3cdc (3BcB (3ABA|AG AB cA|B4B2:|
+d2 BG Bd|c2 AF Ac|d2 BG Bd|~c2~B2~A2|\
+d2 BG Bd|c2 AF Ac|(3cdc (3BcB (3ABA|G2G2z2:|
+
+X:40
+T:Pifferata Degli Abba
+C:La Ciapa Rusa
+M:2/4
+L:1/16
+K:G
+dd|:g2d2 B2d2|G3A G2GB|d2BG d2BG|AGAB Adef|\
+gfed cBAF|GFGA G2GB|dcBA DFAF|1G4 Gdef:|2G6 d2||\
+BcBA G2d2|BcBA Gdef|gfed cdBG|d2f2 d2dd|BcBA Gddd|\
+BcBA Gdef|gfed cBAG|1DFAF G2B2:|2DFAF G3||
+
+X:41
+T:Monferrina
+C:Tre Martelli: Brüzè Carvè 1
+C:Valle Bormida
+M:6/8
+L:1/8
+K:G
+DEF|GFG BGB|d2d ded|c2c cdc|B2G DEF|\
+GFG BGB|d2d ded|fed cBA|G3:|
+|:g2g|~f2e f2e|~d2B d2d|cAA e2e|~d2B g2g|\
+~f2e f2e|~d2B d2e|fed cBA|G3:|
+
+X:42
+T:Mazurca Uacia - ch'al - pianz (Enzo Conti)
+C:Tre Martelli: Brüzè Carvè
+C:ABABCBCB
+M:3/4
+L:1/8
+K:G
+dc BA GA|B6|cB A2 G2|F2 D4|\
+CE GC EG|F2 D2 D2|CE G2 F2|G2 G2 z2:|!
+K:C
+|:e3 B cd|e3 B cd|de dc BA|A2 G2 G2|\
+e2 eB cd|e2 eB cd|de dc Bd|c2 c2 z2:|!
+K:G
+|:B4 c2|d6|A4 B2|c6|\
+e4 A2|d4 G2|A2 Bc BA|G2 G2 z2:|
+
+X:43
+T:Sbrando ("Smarlon")
+C:Tre Martelli: Brüzè Carvè 12
+M:6/8
+L:1/8
+K:G
+B2c|d2d ded|B2B dcB|AGA cBA|B2G B2c|\
+d2d ded|B2B dcB|AGA cBA|G3:|
+|:ABA|G2G AGA|B2G ABA|GAB cBA|B2G B2c|\
+d2d ded|B2B dcB|AGA cBA|G3:|
+K:C
+|:GAB|c2c cde|f2f fed|g2g fed|e2c GAB|\
+c2c cde|f2f fed|gag fed|c3:|**
+
+X:44
+T:Brando
+C:Tre Martelli: Omi E Paiz 1a
+M:6/8
+L:1/8
+K:G
+DEF|GFG BAG| F2A ABc| ABc edc|B2G DEF|\
+GFG BAG| F2A  ABc| ded cBA |1 G3:|2 G3 G3||
+|:dBG D2D|ecA E2E|EFG ABc|def ~e2d|\
+dBG D2D|ecA E2E|ABc ded|cBA G3:|
+
+X:45
+T:Brando
+C:Tre Martelli: Omi e Paiz 1b
+M:6/8
+L:1/8
+K:G
+DEF|G2G B2B|G2G B2B|ABc cBA|B2G DEF|\
+G2G B2B|G2G B2B|ABc cBA|G3:|
+|:def|g3  g3|g3  gfe|ded cBA|B2G def|\
+g3  g3|g3  gfe|ded cBA|G3:|
+K:C
+|:GAB|c2c dcd|e2c efe|d^cd fed|e2c GAB|\
+cBc dcd|e2c efe|d^cd fed|c3:|
+
+X:46
+T:Brando 'd Gamondi (Andrea Sibilio)
+C:Tre Martelli: Omi e Paiz 1c
+M:6/8
+L:1/8
+K:G
+G2A|BcB AGF|G2G B2c|ded cBA|B2B BcB|\
+A2d e2c|A3 d2c|BcB ABA|G3:|
+|:G2A|BcB AGF|G2G B2B|cGc edc|BdB GAB|\
+AFD DEF|G2G ecG|dBG ABA|G3:|
+K:C
+|:GAB|cde def|ged cef|g2_g f2e|dBA GAB|\
+cde def|ged cef|g_gf e2d|c3:|
+
+X:47
+T:Ra strà per Rod - The Road To Rod (Enzo Conti) - Scottish
+C:Tre Martelli: Omi e Paiz 2c
+M:2/4
+L:1/16
+K:G
+GA|B>BBB BdcB|A2AA A2Bc|\
+decd f2e2|d2B2 G2A2|\
+B>BBB BdcB|
+A2AA A2Bc|decd fecA|G2~B2 G2:|\
+K:c
+|:cd|e2ee dcBc|
+A2AA BGDG|A2A2 G2F2|E4 c2d2|\
+e2ee dcBc|A2AA BGDG|A2A2 B2B2|c6:|
+
+X:48
+T:Monferrina
+C:Tre Martelli: Omi e Paiz 7b
+M:6/8
+L:1/8
+K:C
+GAB|cBc GAB|cBc GAB|cBc edc|B3 ABc|\
+d^cd AB=c|d^cd AB=c|d^cd fed|c3:|
+|:e2d|c2G GAc|B2A d2c|BcB ABA|G3 e2d|\
+c2G GAc|B2A d2c|BcB AGB|c3:|
+
+X:49
+T:Monferrina
+C:Tre Martelli: Omi e Paiz 7c
+M:6/8
+L:1/8
+K:G
+DEF|GFG BGB|d3 e2d|cBA ABc|B3 GBd|\
+gfg B2B|d3 e2d|fed cBA|G3:|
+|:g2g|fed def|e2d def|edc cBA|B3 G2g|\
+fed def|e2d def|edc cBA|G3:|
+
+X:50
+T:Mazurca
+C:Tre Martelli: Omi e Paiz 8b
+M:3/4
+L:1/8
+K:G
+A4c2|e4A2|e2d2c2|d4B2|\
+G4B2|d4G2|edc2B2|1 A4z2:|2 A2A2z2||\
+|:Bc d2 cB|AB c4|cd e2 dc|Bc d4|1 GA Bc dg|\
+f2f3f|e2e3f|ef/e/ d4:|2 ed ce dc |\
+d2Bd gg|fe dc BA|G2G2z2||
+
+X:51
+T:Polka di Nello
+C:Tre Martelli: Omi e paiz 11b
+M:2/4
+L:1/16
+K:G
+dd|d2ee e2dd|d2c2 c2e2|e3d f3c|e2e2 d(3Bdg|b2b2 g2g2|
+f3e d3e|1 f3e dcFc|e2dd d2dd:|2 f3e dcAF|G2(3BdB G2Bd||
+K:C
+|:e3e fede|ceeg ceeg|Bddf B2Bd|a2gg g2g2|
+e4 fe (3ded|ceeg ceeg|B2(3Bdf a2B2|c2cc c4:|
+
+X:52
+T:Polca di Ernesto Sala
+C:Tre Martelli: Omi e paiz 11c
+M:2/4
+L:1/16
+K:G
+B2|.d4 efed|.B4 z2d2|B2d2 B2d2|c2A2 z2d2|\
+f4 e2d2|c2A2 z2d2|1 f4 e2d2|B2G2 z2:|2 f4 def2|g6:||
+GA|B2B2 B2GA|B2B2 B2GA|B2GB GBGB|A2A2 A4|\
+c2c2 cBAB|c2A2 z2d2|~d2~c2 ~B2A2|B2G2 G2GA|\
+B2B2 B2GA|B6 dd|dcBc dcBc|A2A2A4|\
+c2c2 cBAB|c2A2 z2d2|~d2~c2 ~B2A2|G8|]\
+|:d4g4|f6e2|c2A2 e2d2|B6 GA|\
+B2c2 d2e2|c2A2 z2 d2|~d2~c2 ~B2A2|1 B2G2 z4:|2 G6||
+
+X:53
+T:Courento dla Rocho
+C:Peron/Ferrero
+M:6/8
+L:1/8
+K:G
+d3|A2B cBA|G2G d2d|A2B cBA|G3d3|\
+A2B cBA|G2G d2d|A2B cBA|G3||*
+dBd|e2e gfe|d2B ded|A2B cAe|d2B dBd|\
+e2e gfe|d2B ded|A2B cBA|G3:|**
+
+X:54
+T:Courenta - Le belle si maritano
+C:Peron/Ferrero
+M:2/4
+L:1/8
+K:G
+{Bd}g2 {Bd}g2|{Bd}gg fe|dc BA|ed/d/ d2|\
+{Bd}g2 {Bd}g2|{Bd}gg fe|dc BA|G3 f/e/||\
+dc BA|G2 df/e/|dc BA |ed/d/ d2|\
+{Bd}g2 {Bd}g2|{Bd}gg fe|dc BA|G4||\
+e3 e|d3 e|d>c cc|dc B2|\
+e3 e|d3 e|f>e dc|B2 GB||\
+|:dd e/d/B/d/|ed gB|dF dF|AG G2|\
+dd e/d/B/d/|ed gB|1dd/c/ BA|G2GB:|2dd/d/ ed|g4||**
+
+X:55
+T:Saltarello
+C:Baraban
+M:2/4
+L:1/16
+K:G
+G3F|:E2B,2 E2GF|E2A2 B2c2|B2A2 F2A2|G3F E2GF|\
+E2B,2 E2GF|E2A2 B2c2|B2A2 FAGF|1 E3G/G/ G3F:|2 E3B/B/ B2d2||
+|:c3A/B/ c2A2|B3G/A/ B2G2|F2B2 FBFB|G3F E2Bd|\
+c3A/B/ c2A2|B3G/A/ B2G2|F2B2 FBFB|1 E3B/B/ B2d2:|2 E4 DGBd||
+|:edBG edBG|dcAF DFAc|dcAF fecA|edBG DGBd|
+edBG edBG|dcAF DFAc|dcAF fecA|1 G2(3DDD DGBd:|2 G8||
+
+X:56
+T:Manfrina della Valcamonica
+C:Baraban
+M:2/4
+L:1/16
+K:G
+GBcd|e2ed c2B2|d2A2 ABcd|\
+f2fe d2c2|1e2B2 Bdef|g2fg agfe|g2f2 f2e2|
+g2f2 f2e2|e2d2:|2  e2B2- B2z2|g4b4|\
+abag fgfe|dedc BcBA|G2G2|]
+K:C
+|: zggg|gece geae|\
+gece geae|fede gfed|
+cGAB cdef|gecg geae|\
+gecg g2^fg|bc'ba gfed|c4:|
+
+X:57
+T:Tarantella
+C:Y. Dour: Accordéons diatoniques
+M:6/8
+L:1/8
+K:G
+ded BGB|ded AFA|cdc AFA|cdc BGB|\
+ded BGB|ded AFA|ABc dcB|ABA G3:|
+|:+G2d2+ +Gd+ +G2B2+ +GB+|+G2d2+ +Gd+ +F3A3+|\
++F2c2+ +Fc+ +F2A2+ +FA+|+F3d3+ +G3B3+|\
++G2d2+ +Gd+ +G2B2+ +GB+|+G2d2+ +Gd+ +F3A3+|\
+ABc dcB|ABA G3:|
+|:ded BGB|ded +A3-f3-+|+A2f2+ +Af+ +A3e3+|\
++A3f3+ +B3-g3-+|+B2g2+ +Bg+ +B3d3+|\
++B3g3+ +A3-f3-+|+A2f2+ e fed|cBA G3:|
+
+X:58
+T:Saltarella
+C:Y. Dour: Accordéons diatoniques
+M:6/8
+L:1/8
+K:G
+d|dcB AFA|cBA BGB|dcB AFA|cBA G3|\
+dcB AFA|cBA BGB|dcB ABc|def g2||
+|:g|geg f2e|edc e2d|dcd d2c|cBc e2d|\
+deg f2e|edc e2d|deg fed|cBA G2:|
+G|AFA cBA|BGB dcB|AFA cBA|G3-G2||
+
+X:59
+T:Quadriglia
+C:Y. Dour: Accordéons diatoniques
+M:6/8
+L:1/8
+K:G
+B|BAd d2B|BAG D2B|BAG FAF|EFE D2B|\
+BAd d2B|BAG D2B|BAG FAF|E2F G3||
+|:+B2d2+ +Bd+ +B2d2+ +Bd+| +Bd++Ac++GB+ +F2A2+ +FA+|\
++c2e2+ +ce+ +c2e2+ +ce+|+ce+BA +G3B3+:|\
+|:GAB BAB|BAB B2B|GAB BAB|B2d c3|
+|1 ABc cBc|cBc c2c|ABc fed|\
+cBA B3:|2 cde ede|fed dcd|ede fed|cBA G3||
+|:D2D GDG|BGB dBd|geg fed|1 cBA B2G:|2 cBA G3||
+
+X:60
+T:Courenta
+C:Gian Renzo Dutto
+C:Valle Vermenagna
+M:6/8
+L:1/8
+K:G
+B,|DB,D GDG|B3-BzB|ABA DEF|G3-G2B,|\
+DB,D GDG|B3-BzB|ABA DEF|G3GFG||
+A2D A2D|B2G GFG|A2A AGA|BAG G2B,|\
+DB,D GDG|B3-BzB|ABA DEF|1 G3 GFG:|2 G2G G3||
+K:C
+|:a2g ega|e3 cde|fed fed|d2c c3|\
+a2g ega|e3 cde|fed fed|c3-c2e||
+d2d def|e2e e2g|gfe d2f|f2e e3|\
+a2g ega|e3 cde|fed fed|1 c3-c2e:|2 c3-c2||
+
+X:61
+T:Ballo La Vienna Corentina e suo Saltarello
+C:Roberto Tombesi
+S:Organetto diatonico
+M:2/4
+L:1/16
+K:C
+cdef g2g2|agaf g2e2|cdef g2fe|defd e2c2:|
+|:egfe dfed|cedc B2G2|cdef g2fe|1 dfed c2c2:|2 dfed c4||
+"Suo Saltarello"|:cdef g2fg a2gf g2e2|cdef g2fe d2ef e2c2:|
+|:e2ge d2fd c2ec B2AG|a2gf e2dc G2dB c2c2:|
+
+X:62
+T:Manfrina della Valcamonica
+C:Vincenzo Caglioti
+S:Oragnetto diatonico
+M:2/4
+L:1/16
+K:G
+GBcd|e2ed c2B2|d2A2 ABcd|\
+f2fe d2c2|1e2B2 Bdef|g2fg agfe|g2f2 f2e2|
+g2f2 f2e2|e2d2:|2  e2B2- B2z2|g4b4|\
+abag fgfe|dedc BcBA|G2G2|]
+K:C
+|: zggg|gece geae|\
+gece geae|fede gfed|
+cGAB cdef|gecg geae|\
+gecg g2^fg|bc'ba gfed|c4:|
+
+X:63
+T:Valzer
+C:Riccardo Tesi
+M:3/4
+L:1/4
+K:G
+G B|d3|B c/B/ A/B/|c>d c-|cDD|c>d c-|cDD|B>dB-|BGB|
+d3|B c/B/ A/B/|c>d c-|cDD|c>d c-|cEF|G>G G|G:|
+K:C
+|:GF|E3|E F/E/ D/E/|F>E D-|Ddc|1 B2G-|\
+GBA|G2E-|E:|2 B2G|GA-A/B/|c2c|c2G||
+|:A2B|c2d|ec-c/G/|1G2c|BA-A/D/-|D2B|AG-G/E/|\
+EFG:|2G3|BA-A/E/|GF-F/B,/|C>CC-|C||
+
+X:64
+T:Monfrina
+C:Roberto Tombesi
+C:Bagolino e Ponte Caffaro
+M:12/8
+L:1/8
+K:G
+z2d|g2g gfe f2f fed|e2e efe d3-d2e|\
+e2d dcB d2c cde|f2f fgf e2d d3|
+g2g gfe f2f fed|e2e efe d3-d2e|\
+e2d dcB d2c cde|fed cBA Gz2:|
+K:C\
+|:G3|e2e efe d2c cBA|G2G GFE G2F Fde|\
+f2f fgf e2d d2c|BGB BGB AGA Bcd|
+e2e efe d2c c2c|cGc cde g2f f3|\
+a2a agf g2g gfe|d2d dcB c3:|
+
+X:65
+T:Pàiris
+C:Roberto Tombesi
+M:2/4
+L:1/16
+K:C
+e2A2 e2Ae |fedf e4|fedc Bcde |edcB A4|\
+e2A2 e2Ae |fedf e4|c'bab c'2(3bc'b |1 a2z2 zf3:|2 a2z2 a4||
+|:gagf efed cdcB (3ABA G2|B2G2 B2G2 cBcd e4|\
+gagf efed cdcB (3ABA G2|B2G2 B2G2 cBcd c4:|
+
+X:66
+T:Polesana
+C:Roberto Tombesi
+M:6/8
+L:1/8
+K:C
+G|e2e e2e|e2d dcB|B2c z2e|\
+e2f f2g|g2d ded|c2B zAB|]!
+|:cBc edc|BABA dcB|1 ABA cBA|\
+G3-GAB:|2 ABc cBA| G3-GzG|]!
+d2d d2d|d2 edc|c2B GAB|\
+c2e e2e|e2d fdB|B2c zde|]!
+|:fef agf|ede gfe|1 ded fed|\
+c3-cde:|2 def fed|c3-cz2|]
+
+X:67
+T:Tarantella di Montemarano
+C:Mario Salvi
+S:Organetto diatonico
+M:12/8
+L:1/8
+K:C
+e f2e|:d2e f2e ded c2B|A2c e2d cdc B2A|\
+B2c d2e ded c2B|1 +Ace+z+Ace+ \
+efe ez+Ace+ f2e:|2 Az+Ace+ +A3c3e3+ z2c cdc||
+|:Bz2 BcB B2d ded|cz2 ABA A2c cdc|\
+c2B B2c Bcd c2B|1 A2A ABA A2c cdc:|2 +A6-c6-e6-++A2c2e2+e f2e||
+|:dzd d2c Bcd c2B|czc c2d efe d2c|\
+BzB B2c ded c2B|1 AzA A2B cBA cBA:|2 +A6-c6-e6-++A2c2e2+A B2c||
+|:d2z BcB B2B c2d|c2z ABA A2A B2c|\
+ded B2c ded c2B|1 AzA ABA AzA B2c:|2 +A3c3e3+ efe cAc efe||
+|:cAc efe ded cdc|B2z ded BEB ded|\
+BEB ded cdc BcB|Az2 efe cAc efe|
+cAc efe ded cde|f3-fde fed fed|\
+edc edc dcB dcB|1 Az2 efe cAc efe:|2 A3 eze fzf efe\
+|:dzd dcd eze ded|czc cBc dzd cdc|\
+c2B BzB cBc dcd|1 e3 ede fzf efe:|2 c2B B2c ded c2B|\
+A3 +A3c3e3+ cBA A3|G2 +GBd+ +G3B3d3+ e2z d2z||
+K:G
+|:dzA z2d d2e d2c|d2B BcB e2d e2d|\
+d2c cBc d2e d2c|1 Bcd Bcd ezd e2d:|2 B3 Bcd eee ded||
+|:cdc cBc ded cdc|BcB Bcd eee ded:|cdc cBc d2e d2c|B3 Bcd ez2 dz2|
+A2z ABc dz2 cz2|Bz2 Bcd ez2 dz2|Az2  ABc dz2 cz2|Bz2 Bcd ez2 dz2|
+Azd Azd d2e d2c|dcB Bcd eze ded|\
+czc cBc d2e d2c|+G3-B3-d3-++GBd+z2 BcB B2d|
+d2A ABA c2A ABA |c2B BcB BcB B2d|d2A ABA c2A ABA |c2B Bcd e2d e2d|
+fzf f2d f2d f2d|gzg g2d g2d g2d|fzf f2d f2e d2c|+G6B6d6+ z2B c2d||
+|:eze ede f2e d2c|B2d dcd e2d c2B|1 A2c cdc BcB ABc|
+d2B BcB BzB c2d:|2 A2c cdc BcB ABA|\
+G2 +GBd+ +G6B6d6+ d3|c2 +ceg+ +c3-e3-g3-++c2e2g2+=f fef||
+K:C
+|:e2d cde d3d3|c2e c3 (2fe fef|\
+e2d cde d3d3|1 c3 +c3e3g3+ z2 f fef:|2 +c6-e6-g6-+ +c2e2g2+c d2 e||
+|:a2 aba aza b2a|g2g c'g ege geg|\
+f2e d2c B3d3|1 c2e c2e czc d2e:|2 c2e +c3e3g3+ f2e f2e||
+|:d3d3 e2d e2d|c3c3 f2e f2e|\
+ded dcd e2d e2d|1 c3c3 f2e f2e:|2 c3 c3 f3 +^F3A3d3+||
+K:G
+G2 +GBd+ +G3B3d3+ ez2 dz2|:dzA z2d d2e d2c|dzB BcB e2d e2d|\
+d2A ABA d2e d2c|1 Bcd Bcd e2d e2d:|2 +G3B3d3+ BcB A2c Bzc|\
+ded BcB Aze d2c|BcB dcB A2c B2c|ded BcB Aze d2c|B2d ded d2c B2c|\
+ded ded d2c B2c|ded ded d2c B2c|d6 +c3e3+ +d3f3+|+d6g6+ +d3f3+ +c3e3+|\
++b3d3+ ded d2c B2c|ded ded d2c B2A|G2z z2 +G6B6d6+||
+
+X:68
+T:Donna Lombarda
+S:La Piva del carner
+M:3/4
+L:1/4
+K:G
+BBA|G2D/G/|BBA|G2D|\
+GAB|c2B|~d~c(3B/c/d/|d~cB|\
+A>B(3c/d/e/|=f~ed|c~BA|B2D|\
+d/D/e/D/d/D/|A2B|~cBA|G3||
+BBA|G2G|BBA|G2G|\
+GAB|c2B|BAG|A3|\
+AAB|c2c|cBA|B2B|\
+BAG|A2B|cBA|G3||
+BAD|G2G|BAD|G2G|\
+GAB|c2B|BGG|A3|\
+AAB|c2c|cBA|B2B|\
+BAG|A2B|cBA|G3||
+
+X:69
+T:Bigordino
+C:La Piva dal Carnèr: La pegra 2b
+M:6/8
+L:1/8
+K:G
+G2A|BAB dcA|B2G G2A|Bed cBA|G3:|
+|:GFG|E2A A2G|FED GFG|E2E FEF|GFG GFG|\
+E2A A2G|FED GFG|E2E FEF|G3:|
+
+X:70
+T:Giga
+C:La Piva dal Carner: La pégra 2d
+M:6/8
+L:1/8
+K:G
+d3 c3|B2G GAB|A2A AGA|B2G G2G|\
+d3 c3|B2G GAB|A2A ABA|1 G3 G2G:|2 G3 GAB||
+|:GAB GAB|A2A ABc|ABc ABc|B2G GAB|\
+GAB GAB|A2A ABc|d2c B2A|1 G3 GAB:|2 G3-G3||
+
+X:71
+T:Furlana di Virgilio
+C:La Piva dal Carner: La pégra 4b
+M:6/8
+L:1/8
+K:C
+G|:cGc ece|g2g gag|f2d def|e2c c2G|\
+cGc ece|g2g gag|f2d e2d|1 c3 c2G:|2 c3 c3||
+K:G
+|:d2d d2e|d2c Bcd|c2A cBA|B2G G2B|\
+d2d d2e|d2c Bcd|c2A cBA|1 G3 G2B:|2 G3 G2G||
+
+X:72
+T:Furlana di Migliara
+C:La Piva dal Carner: La pégra 4c
+M:6/8
+L:1/8
+K:C
+G|e3-e2G|e3-e2c|d2d fed|e2c c2G|\
+e3-e2G|e3-e2c|d2d fed|1 c3-c2G:|2 c3 cB_B||
+A3 BcA|G2B
+

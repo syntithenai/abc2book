@@ -1,0 +1,15 @@
+X: 1
+T: Hjerdafeld
+C: Ian Burns
+O: Shetland
+P: reel
+N: SRS 8.7
+S: printed copy from unknown source in Concord Slow Scottish Session collection
+F: http://ramshaw.info/slowjamtunes/PDF/Tunes_H/Hjerdafeld.pdf
+P: Play A1A2 A1A2 B1B2 B1A3
+M: C
+L: 1/8
+K: G
+"^A"|:::(ge) | dB B/B/B (AG)AB | {F}G2(BG) (AG)E2 | (DE)GA BGA(B |1,3 cA)BG A2 :|2,4 AcBA G2 :|
+"^B"|::  B2  | efge f/g/a (gf) | gage dBA(G | DE)GA BGAB |1,3 cABG A2 :|2 AcBA G2 :|
+"^A3"|| (ge) | dB B/B/B (AG)AB | G2(BG) AGE2 | (DE)GA BGAB | AcBA ["most" G2 |] |["last"[G4G,4] |]

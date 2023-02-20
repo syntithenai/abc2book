@@ -1,0 +1,25 @@
+X: 448
+T: Sirba de la Vorona
+O: Romania
+M: 6/8
+L: 1/8
+Q:1/4=240
+K: Aphr
+%%MIDI program 41 viola
+%%MIDI chordprog 45 octave=1 Pizzicato Strings
+%%MIDI bassprog 32 Acoustic Bass
+%%MIDI chordvol 40
+%%MIDI bassvol 40
+%%MIDI gchord czfz
+|:"Am"A3-A3    |"G"fed-d3    |"Dm"dcB cBA|"G"G3-G3  |\
+  "Em" efg fed |"Em"edc "C"c3|"Dm"edc dcB|"Am"A3-A3 :|
+K:EPhr
+%%MIDI program 71 Clarinet
+  "Am"A2B c2d  |"Em"e2f d2f  |e3-e3      |e3 Ace    |\
+  "Am"a3 agf   | g3 "C"^fef  |"Em" ede-e3|e3-e2z    |
+  "Am"A2B c2d  |"Em"e2f fed  |e3-e3      |"Am"a3-a3 |\
+  "Bdim"b3 ag^f|"G"g3 g^fe   |"Em"fed e3-|e3-efg    |:
+  "Am"a3 "Em"e3|efg"Dm" f2d  |d3-d3-     |d3 def    |\
+  "G"g3 "Dm"d3 |cdc _B2A     |"G"G3-G3-  |G3 GAB    |
+  "Am"c3 e3    |"Dm"efg f2d  |d3-d3      | GAB"Am"c3|
+  "G"_B2A _B3  |-BAG         |"Am"A3-A3- |A3-A3     :|

@@ -1,0 +1,36 @@
+X: 1211
+T: My Bonnie
+O: College Song
+%R: song, waltz
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: C
+V:1
+V:2 clef=bass middle=D
+%%continueall 1
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [GE] | [eG]>[dF][cE] | [dF][cF][AF] | [GE][E2-C2-] | [EC]z[GE] | [eG]>[dF][cE] | [cE][BE][cE] | [d3-G3-] | [d2G2]
+w: 1.~My Bon-nie is o-ver the o-cean,* My Bon-nie is o-ver the sea,*
+w: 2.~O blow, ye winds, o-ver the o-cean,* And blow, ye winds, o-ver the sea,*
+w: 3.~Last night as I lay on my pil-low,* Last night as I lay on my bed,*
+w: 4.~The winds have blown o-ver the o-cean,* The winds have blown o-ver the sea,*
+[V:2] [cC] | [cC]>[GC][GC] | [AF][AF][cF] | [cC][G2-C2-] | [GC]z[cC] | [cC]>[GC][GC] | [AA,][^GB,][AA,] | [B3-G3-] | [B2G2]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [GG] | [eG]>[dF][cE] | [dF][cF][AF] | [GE][E2-C2-] | [EC]z[GE] | [AF][dA][cA] | [BF][AF][BF] | [c3-E3-] | [c2E2]z ||
+w: My Bon-nie is o-ver the o-cean,* O bring back my Bon-nie to me.*
+w: O blow, ye winds, o-ver the o-cean,* And bring back my Bon-nie to me.*
+w: Last night as I lay on my pil-low,* I dream'd that my Bon-nie was dead.*
+w: The winds have blown o-ver the o-cean,* And bro't back my Bon-nie to me.*
+[V:2] [BG] | [cC]>[GC][GC] | [AF][AF][cF] | [cC][G2-C2-] | [GC]z[cC] | [cF][dF][dF] | [dG][cG][dG] | [c3-C3-] | [c2C2]z ||
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] "^Chorus"[G3E3] | [c3G3] | [A3F3] | [c3F3] | [BF][BF][BF] | [BF][AF][BF] | [c2E2][dG] | [e3G3] |
+w: Bring back, bring back, Bring back my Bon-nie to me, to me;
+[V:2]          [c3C3] | [c3E3] | [c3F3] | [A3F3] | [dG][dG][dG] | [dG][cG][dG] | [c2C2][BG] | [c3C3] |
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [G3E3] | [c3G3] | [A3F3] | H[d2^F2][cF] | [BG][BG][BG] | [BF][AF][BF] | [c3-E3-] | [c2E2] |]
+w: Bring back, bring back, O bring back my Bon-nie to me.*
+[V:2] [c3C3] | [c3E3] | [c3F3] | H[A2D2] [dA] | [dG][dG][dG] | [dG][cG][dG] | [c3-C3-] | [c2C2] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

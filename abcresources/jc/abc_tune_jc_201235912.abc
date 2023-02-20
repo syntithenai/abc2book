@@ -1,0 +1,32 @@
+X: 21463
+T: Spanish Sett (tune 3)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.146 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+e/f/ |\
+g3 c'3 | g2e c2e | f3 a3 | g2e cef |\
+g3 c'3 | g2e c2e | fef a2g | [e3c3] [e2c2] H|]
+g |\
+g^fg gfg | g3 e2g | c'2c' c'bc' | ^c'3 d'2g |\
+e'2d' c'2b | a2g f2e | f2a g2e | c3 "^D.C."c2 |]
+g |\
+g3 efg | a3 g2g | a2b c'2a | a3 g2g |\
+e'2d' c'2b | a2g f2e | f2a g2B | cd^d ef"^D.C."^f |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% back to back,
+%% balance four,
+%% ladies chain,
+%% promenade four,
+%% next two, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,55 @@
+X: 1
+T: Irish Lullaby
+C: J.R. Shannon
+M: 6/8
+L: 1/8
+V: 1 clef=treble
+K: D%(D, C)
+%%continueall 1
+%| "^Intro"B2c d2c | B2A F2A | B2d de2 | d2 |
+"^verse"[|
+	"D"F2E D2E | FA2- A3 |
+w: 1~O-ver in Kil-lar-ney,_
+w: 2~Oft, in dreams, I wan-der_
+	"Bm"B2c B2F | "D"A3- "A7"A2 A |
+w: Man-y years a-go,_ Me
+w: To that cot a-gain,_ I
+	"D"F2E D2E | F2A A2^A |
+w: Mith-er sang a song to me In
+w: feel her arms a hug-gin' me As
+	"E7"B2E E2F | "A7"E3 D2E |
+w: tones so sweet and low, Just a
+w: when she held me then. And I
+	"D"F2E D2E | FA2 F2A |
+w: sim-ple lit-tle dit-ty, In her
+w: hear her voice a hum-min' To me
+	"Bm"B2c B2F | "D"A3 zFA |
+w: good ould I-rish way, And I'd
+w: as in days of yore, When she
+	"G"B2c d2c | "D"B2A F2D |
+w: give the world if she could sing That
+w: used to rock me fast a-sleep Out-
+	"E7"F2E E2F | "A7"E3- "A7+5"^E3 |]
+w: song to me this day._
+w: side the cab-in door._
+"^chorus"[|\
+	"D"F2E D2E | FA2- A3 |
+w: Too-ra-loo-ra-loo-ral,_
+	"G"B2^A B2c | "Ddim"d3 z3 |
+w: Too-ra-loo-ra-li,
+	"D"d2c "G"d2B | "D"AF2- F3 |
+w: Too-ra-loo-ra-loo-ral,_
+	"E7"B2E E2F | "A7"E3 "A7+5"^E3 |
+w: Hush now don't you cry!_
+	"D"F2E D2E | F A3- A2 |
+w: Too-ra-loo-ra-loo-ral,_
+	"G"B2^A B2c | "Ddim"d6 |
+w: Too-ra-loo-ra-li,
+	"D"d2[ec] "G"d2B |1 "D"AF2 "A7"zED |
+w: Too-ra-loo-ra-loo-ral, That's an
+	"E7"F2D "G"D2D |
+w: I-rish lul-la-
+	D3 z3 :|2 "D"AF2 F2A |
+w: by. loo-ral, That's an
+	"E7"B2d "A7"dH[e2c2] | "D"d6 |] |
+w: I-rish lul-la-by.

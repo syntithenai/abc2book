@@ -1,0 +1,54 @@
+%%text RJ Set (temporary)
+
+
+X: 1
+T: The Silver Spire
+M: C|
+L: 1/8
+R: reel
+K: Dmaj
+|"D"D2FE DEFA|dcde fdAF|"G"G2BG "D"F2AF|"Em"EFGE "A"DCB,A,|
+"D"D2FE DEFA|dcde fdAF|"G"G2BG "D"FEDF|"A"EDCE "D"D4:|
+|:"A"A,B,CD EFGE|"D"FDEF GABc|"G"dBBA "Bm/F#"Bcde|"Em"f2gf "A"e3c|
+"D"d2fd "A"c2ec|"G"BcdB "D"AFDF|"G"G2BG "D"FEDF|"A"EDCE "D"D4:|
+
+
+X: 2
+T: Father Kelly's Reel
+R: Reel
+C: Fr Patrick Joseph Kelly
+S: Roaring Jelly collection
+M: C|
+L: 1/8
+K: G
+GA |\
+"G"B2 GB "G/A"AGEG | "G/B"DGGF "G"GABd | "C"c2AB "C/B"cBAG | "Am"EAAG "D"FDGA |
+"G"B2GB AGEG | DGGF GABd | "C"cdef "G"gdBd | "D"cAFA "G"G2 :|
+|: Bc |\
+"G"d2Bd gdBd | d2 Bd gdBd | "C"e2 ce agfe | "D"defg agfe |
+"G"d2Bd gdBd | d2 Bd gdBd | "C"c2dc "G"BAGB | "D"ADFA "G"G2 :|
+
+
+X: 3
+T: Music In The Glen
+M: C|
+L: 1/8
+R: reel
+K: Am
+|:\
+"A"A2cA "D"FA"(E)"ED | "A"CEAc BABc | "D"d2fd "A"c2ec | "Bm"dBcA "E"BAFE |
+"A"AcBA "D"FA"(E)"ED | "A"CEAc BABc | "D"defg "A"agaf |1 "E"ecBc "A"A3E :|\
+[2 "E"ecBc "A"A3B ||
+|:\
+"A"cA eA "D"fA"(E)"ed | "A"cAec "E"dBGB | "A"cAeA "D"fe"(E)"fg | "A"aecA "E"BAFA |
+"A"cAeA "D"fe"(E)"fg | "A*"a2ga "E"bgeg | "A"a2ga "D"faec |1 "Bm"dBcA "E"BAFA :|\
+[2 "Bm"dBcA "E"BAFE |]
+%%begintext ragged
+%% *Transition: After the A chord with the asterisk, backup drops out.
+%%endtext ragged
+%%begintext ragged
+%% If ending with this tune, tack on an A at the end.
+%%endtext ragged
+%%textfont Times-Roman 6.0
+%%date 4/18/11
+

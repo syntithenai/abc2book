@@ -1,0 +1,28 @@
+X: 1
+T: B\aatsman D\"ack
+T: bondpolska fr\aan Viksta efter Ceylon Wallin
+O: Sweden
+R: hambo, polska
+S: Fiddle Hell Online 2020-11-05
+S: Fiddle Hell Online 2022-4-2 handout for Bronwyn Bird's Swedish Jam
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+Z: from 1999 John Chambers <jc@trillian.mit.edu>, modified to match FH handout
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+"^A"\
+|: ([DG,]>G) (B<G) [DG,]>G | {G}B2 B3 (B | c)>(B A)(G F)>G | {G}A2 A4 |
+| (D>F) A(D F)>A | {A}[c2E2] [c3E3] (c | d)>(c BA) G>A | {A}[B2D2] [B4D4] :|
+"^B"\
+|: e2 (e>d) c>e | d2 (d/e/)d/c/ B>d | c>(B A)(G F)>A | [G2G,2] BG/B/ d>d |
+|  e2 (e>d) c>e | d2 (d/e/)d/c/ B>d | c>(B A)(G F)>A | {A}[G2G,2] [G4G,4] :|
+% - - - - - - - - - -
+V: 2
+|: "G"(B,>D) (G<D) B,>D | {D}G2 [G3G,3] (G | "(D)"A)>(G F)(D A,)>B, | "D7"{B,}C2 C4 |
+| "D7"(A,>D) F(A, D)>F | "Am"{F}A2 A3 (A | "D7"B)>(A GD) C>F | "G"{F}[G2G,2] [G4G,4] :|
+|: "C"c2 (c>B) A>c | "G"B2 (B/c/)B/G/ D>G | "D7"A>(G F)(D A,)>C | "G"B,2 GD/G/ [BG]>B |
+|  "C"c2 (c>B) A>c | "G"B2 (B/c/)B/G/ D>G | "D7"A>(G F)(D A,)>C | "G"{C}[D2B,2] [D4B,4] :|
+%%text Harmony by Carol Olson
+% - - - - - - - - - -

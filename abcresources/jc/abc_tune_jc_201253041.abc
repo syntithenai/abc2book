@@ -1,0 +1,29 @@
+X: 1
+T: Black Joak
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.27 #57
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+N: Note unusual phrasing: The two strains are 3x2=6 and 2x5=10 bars long.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D>EF G2G | A>BA AGA | B>cB BAG | A>BA AGF | G3 E3 | D>EF G3 :|\
+|:\
+B2c d2d | e>fe d2c |
+B>cd d>ed | e>fg f>ed | c2g B2g |\
+A>BA AGA | B>cB BAG | A>BA AGF | G3 E3 | D>EF G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Hands round, all four quite round, Hands round, all
+%% four back again, clap Hands with your Partner, then
+%% clap Sides and right and left half round, then lead down
+%% and lead up, clap Hands with your Partner, and right and
+%% left quite round at Top.
+%%endtext

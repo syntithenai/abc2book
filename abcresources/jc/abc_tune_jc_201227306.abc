@@ -1,0 +1,25 @@
+X: 1071
+T: SOMERVILLE QUICK-STEP
+C: Henry Berlyn
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.107 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: The note lengths don't add up at several phrase boundaries.
+M: 2/4
+L: 1/16
+K: F
+|:\
+f3ef3g | a3f c3A | c3eg3e | e6z2 |\
+c2ba g4 | c2ag f4 | c2gf e2g2 | f4z2 :|
+|: b2a2g2f2 | e2f2g4 | a2g2a2b2 | d'2c'2c'4 |\
+b2a2g4 | a2g2f4 | g2f2e2g2 | f4z2 H:|
+K: Bb
+d4 d4 | d4 d4 \
+|:\
+f8 | (3e2d2e2 (3g2f2e2 | d4 d4 | d4 g2f2 |\
+e6 c2 | d2g2 f2ed | c2f2 =e2ag | f4 z4 |
+e2ed c4 | d2de f4 | g2e2 g4 | f2d2 f4 |\
+e2ed c2e2 | d2de f4 | g2f2 c2d2 | B4 z2 :|
+|: (3FFF |\
+F2A2c2 (3FFF | F2 B2d2 (3FFF | F2 (3FFF A2c2 | d4 B2 (3FFF |\
+F2A2c2 (3FFF | F2 B2d2 (3FFF | F2 (3FFF A2(3AAA | B4 "^da Capo"z4 :|

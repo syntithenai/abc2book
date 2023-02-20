@@ -1,0 +1,62 @@
+
+X: 1
+T: Suite de Gavotte
+S: PDF from Steve Gruverman
+C: As learned from Dominique Jouve,
+C: (9/04) and from the recording
+C: "Sonneurs de Clarinette en Bretagne"
+K:
+
+
+X: 1
+T: Gavotenn Jean-Louis Joncourt (ton simple)
+%O: Brittany, France
+S: PDF from Steve Gruverman
+S: As learned from Dominique Jouve, (9/04) and from the recording "Sonneurs de Clarinette en Bretagne".
+M: 4/4
+L: 1/8
+Q: 1/4=152
+P: form: ABABC
+K: C
+"A"|: "C"ce ed cB"Am"A2 | "G"Bc d>B "C"c2 c2 :|
+"B"|: "C"ce ed "F"cB AG | "Am"AB cd "G"B2 B2 :|
+"C"|: "Am"ce ee "Dm"dd "Am"c2 | "Am"ce ee "Dm"dd "Am"c2 |
+   |  "Am"ce ee "Dm"dd  "C"c2 | "Am"AB cd  "G"B2 B2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Tam Kreiz
+%O: Brittany, France
+S: PDF from Steve Gruverman
+S: As learned from Dominique Jouve, (9/04) and from the recording "Sonneurs de Clarinette en Bretagne".
+M: 3/4
+L: 1/8
+Q: 3/8=66
+K: G
+"A"\
+|: Bdc \
+| "G"B3 ABA | "G"G3 ABc | "G"d3 "Am"e3 | "G"d3 :|
+Q: 3/8=108
+"B"[|] B2c | "G"d2e d2c | "G"B2A B2c | "G"d2c BAG | "D"A3
+ y/    B2c | "G"d3 "Am"e3  | "G"d2c B2d | "C"c2"rit."B "D"A3 | "G"G3 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Gavotenn Baptiste (ton double)
+%O: Brittany, France
+S: PDF from Steve Gruverman
+S: As learned from Dominique Jouve, (9/04) and from the recording "Sonneurs de Clarinette en Bretagne".
+N: On older recordings, the 4th is often quite sharp.
+M: 4/4
+L: 1/8
+Q: 1/4=152
+K: G
+"A"|: "G"B2 Bd dd "C"c2 | "C"cA "D"BB "G"G2 G2 :|
+"B"|: "G"B2 Bd dd "C"c2 | "G"de/f/ "C"gf/e/ "G"d2 "D"d2 |
+   |  "G"B2 Bd dd "C"c2 | "C"cA "D"BB "G"G2 G2 :|

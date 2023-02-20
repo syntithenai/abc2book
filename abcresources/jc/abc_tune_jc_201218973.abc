@@ -1,0 +1,22 @@
+X: 1
+T: Miss Breamers Fancy
+%R: reel
+B: "Twenty Four Favourite Dances for the Year 1783", Thomas Straight, ed. p.1 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1783
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C	% Actually 2/4
+L: 1/16
+K: A
+|:\
+edcB c2A2 | e2 a4 gf | edcB AGAB | cdef B4 |\
+edcB c2A2 | e2 a4 ga | bagf agfe | ^defd e4 :|
+|:\
+BAGF G2E2 | A2 e4 dc | dcBA BAGF | EFGA F4 |\
+dcBA G2B2 | e2c2 f2fg | agfe dcBA | GABG A4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right hands across left hands back again .|.
+%% change sides back again :|. lead down 2 Cu
+%% up again & cast off .|: allemand with the
+%% right & left hand :|:
+%%endtext

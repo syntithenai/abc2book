@@ -1,0 +1,79 @@
+
+X: 1
+T: Pennsylvania Polka  [F]
+C: Lester Lee & Zeke Manners, 1942
+R: polka
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: F
+% %indent 250
+"I1"[|]cde | "F"f2 cd- | dA c2 | F2 CD- | DA,C2 |
+"A"[|\
+"F"cc zc | AA zA | FA FC- | C2 z2|\
+"F"zC FA | c2 d2 | "C7"dE3- | E2 z2|
+w: Strike up the mu-sic the band has be-gun,* The Penn-syl-va-nia Pol-ka.*
+"C7"dd zd | BB zB | GB GE- | E2 z2|\
+zC EG | c2 "C9"d2 | "F"dA3- | A2 zA |
+w: Pick out your part-ner and join in the fun,* The Penn-syl-va-nia Pol-ka.* It
+"F"cc zc | AA zA | FA FC- | C2 z2|\
+zC FA | "F7"c2 _e2 | "Bb"_e d3- | d2 z2|
+w: start-ed in Scran-ton, It's now num-ber one* It's bound to en-ter-tain ya*
+"Bb"d^c d^d | "C7"e3 =d | "F"d c3 | zA FD |\
+"C7"C E2 G | d2 E2 | "F"G F3- | "Fine"F |]
+w: Ev'-ry-bo-dy has a ma-nia to do the pol-ka from Penn-syl-va-nia.*
+K: Bb
+"I2"[|]fga | "Bb"b2 fg- | gd f2 | B2 FG- | GDF2 |
+"B"[|\
+"Bb"F4 | G4 | A4 | G4 |\
+"Bb"F2 G2 | A2 B2 | "F7"A>e ee | e4 |
+w: While they're danc-ing,    Ev'-ry-bo-dy's cares are quick-ly gone.
+"F7"F4 | G4 | A4 | G4 |\
+"F7"F2 G2 | A2 G2 | "Bb"F>d dd | d4 |
+w: Sweet ro-manc-ing,          This goes on and on un-til the dawn.
+"Bb"F4 | G4 | A4 | G4 |\
+"Bb"F2 G2 | A2 B2 | "Eb"c>G GG | G3 c |
+w: They're so care-free,      Gay with laugh-ter, hap-py as can be. They
+"Cm"c>G ^FG | c2 "F7"dc | "Bb"B>F =EF | "(Gm)"B3 B |
+w: stop to have a beer, Then the crowd be-gins to cheer.  They
+"F7"A3 G | F3 ^F | "C7"GB "F7"Ac | "Bb"B "d.C."y |]
+w: kiss and then        They start to dance a-gain.
+%%begintext
+	I1 and I2 (intro and interlude) are optional; omit them for 16/32/64-bar dances.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2
+T: Pennsylvania Polka  (G)
+C: Lester Lee & Zeke Manners, 1942
+R: polka
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+"I1"[|] def | "G"gz de- | eB d2 | Gz DE- | EB,D2 \
+"A"[|\
+"G"dd zd | BB zB | GB GD- | D2 z2|\
+"G"zD GB | d2 e2 | "D7"eF3- | F2 z2|
+"D7"ee ze | cc zc | Ac AF- | F2 z2|\
+zD FA | d2 "D9"e2 | "G"eB3- | B2 zB |
+"G"dd zd | BB zB | GB GD- | D2 z2|\
+zD GB | "G7"d2 =f2 | "C"=f e3- | e2 z2|
+"C"e^d e^e | "D7"f3 =e | "G"e d3 | zB GE |\
+"D7"D F2 A | e2 F2 | "G"A G3- | "Fine"G |]
+K: C
+"I2"[|] gab | "C"c'z ga- | ae g2 | cz GA- | AEG2 \
+"B"[|\
+"C"G4 | A4 | B4 | A4 |\
+"C"G2 A2 | B2 c2 | "G7"B>f ff | f4 |
+"G7"G4 | A4 | B4 | A4 |\
+"G7"G2 A2 | B2 A2 | "C"G>e ee | e4 |
+"C"G4 | A4 | B4 | A4 |\
+"C"G2 A2 | B2 c2 | "F"d>A AA | A3 d |
+"Dm"d>A ^GA | d2 "G7"ed | "C"c>G =FG | "(Am)"c3 c |
+"G7"B3 A | G3 ^G | "D7"Ac "G7"Bd | "C"c "d.C."y |]
+%%begintext
+	I1 and I2 (intro and interlude) are optional; omit them for 16/32/64-bar dances.
+%%endtext

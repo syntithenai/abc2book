@@ -1,0 +1,27 @@
+X: 1051
+T: the Flaggon
+%R: reel
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.5 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The book has the initial double bar, but no initial repeat; fixed.
+M: C|
+L: 1/8
+K: G	% actually Gmix and Gdor.
+% = = = = = = = = = =
+% Voice 1 reformatted for 3 8-bar lines, for compactness and proofreading.
+V: 1 staves=2
+c |:\
+BG G/G/G BGdG | BG G/G/G G2 gd | BG G/G/G BGdB | (A/B/c) =Fc AFcA ::\
+g2dB G(B/c/ d).B | g2dB gbaf | g2dB G(B/c/ d).B | A=fcf AFcA :|
+(B/c/d) .g.d (B/c/d) gd | (B/c/d) gd BGG_B | (A/_B/c) =fc (A/B/c) fc | (A/_B/c) =fc AFFc ||\
+(B/c/d) gd (B/c/d) gd | (B/c/d) gd Bdgd | (=f>ga)>.g fgfd | cA=fc AFFc |]
+(B/c/d) Gd Bd Gd | (B/c/d) Gd BGG_B | (A/_B/c) =Fc Ac Fc | (A/_B/c) =Fc AFFc ||\
+(B/c/d) Gd Bd Gd | (B/c/d) Gd Bd Gd | (=f>ga)>.g fgfd | cA=fc AFF |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |:\
+g2g2 g2g2 | g2g2 g2g2 | g2g2 g2g2 | =f2f2 f2f2 :: g2g2 g2g2 | g2g2 g2g2 | g2g2 
+g2g2 | =f2f2 f2f2 :| g2g2 g2g2 | g2g2 g2g2 | =f2f2 f2f2 | =f2f2 f2f2 || g2g2 g2g2 |
+g2g2 g2g2 | a2a2 a2a2 | =f2f2 f2f2 |] g2g2 g2g2 | g2g2 g2g2 | =f2f2 f2f2 |
+=f2f2 f2f2 || g2g2 g2g2 | g2g2 g2g2 | a2a2 a2a2 | =f2f2 f2f |]

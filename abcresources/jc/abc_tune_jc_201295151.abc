@@ -1,0 +1,22 @@
+X: 1
+T: Justin Otter Schottische
+C: John Krumm
+R: shottish
+S: copy of MS of unknown origin on Bruce Sagan's box.com site
+S: (Source info at lower right of tune is nearly illegible.)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+"^A"[|] (3ABc !segno!||\
+"D"d>c d>c d2 A2 | "G"B2 d2 "Em"g3 g |\
+"D"f>g a>f "Bm"g>f e>d | "E"e>f e>d "A7"c>A B>c ||
+"D"d<c d<c d2 A2 | "G"B2 d2 "Em"g3 g |\
+[1 "D"f>g a>f "A7"g2 c2 | "D"d6 :|\
+[2 a>f d>f "A7"g>e c>e | "D"d2 [d2A2F2] !fine![d4A4F4] |]
+"^B"|:\
+"Bm"B4 F4 | B>c d>B F4 |\
+B2 c2 d2 e2 | "F#7"f2 f>g f>e d>c ||\
+"Bm"B4 F4 | B>c d>B F4 |
+|[1 "Em"(3GEG (3BGB (3dBd (3geg | "F#7"f2 f>g f>e d>c \
+:|[2 "A7"A3^G A3 ^G | A A3 B2 !segno!c2 |]

@@ -1,0 +1,23 @@
+X: 4381
+T: TROUBADOUR'S MARCH
+R: March
+%R: march
+B: James Kerr "Merry Melodies" v.4 p.41 #381
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Initial repeat added to Trio to clarify the repeat pattern.
+M: 2/4
+L: 1/16
+K: C
+%%slurgraces yes
+%%graceslurs yes
+(C/G,/C/E/) !segno!|\
+G2^F2G2A2 | G2c>d e2g2 | c'2 c'4 d'2 | c'2b>a g2g>f |\
+e2e2g2g2 | agfe dcBA | G2c>d e2d2 | c2c2c2 H:|
+|:\
+(c/B/c/d/) |\
+e2a2^g2b2 | a2e2 =g3f | e^def e=dcB | dcBc A2c>d |\
+e2a2^g2b2 | a2e2=g3f | e^def e=dcB |[1 A2A2A2 :|[2 A2A2G2G2 !segno!||
+[K:F]\
+|: c2 |\
+f2f2 ({fg}fefg) | (f2e2)e2c2 | g2g2 ({ga}g^fga) | (g2=f2)f2c2 |\
+a2a2 ({ab}agab) | (ag^fg) ag=fd | c2=B2 {_Bc}B2G2 | (FAcf) "_D.C."F2 :|

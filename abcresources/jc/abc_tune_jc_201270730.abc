@@ -1,0 +1,19 @@
+X:207
+T:Duchess of Grafton
+C:John Young, 1713
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=100
+%%stretchstaff 0
+%%MIDI gchord bzbb
+%%MIDI program 68     Oboe
+%%MIDI chordprog 70   Bassoon
+%%MIDI bassprog 114   Steel Drums
+K:Gm
+P:A
+|: z | "Gm"g>a "D7"^f=e/d/ | "Gm"g2 "Eb"g=f/_e/ | "Bb"dd "Cm"e/d/c/B/ | "D7"A2 "Gm"G2 |
+"Bb"d/e/f "/"fe/d/ | "F"c2 "/"C2 | "D7/F#"c/d/e "/"ed/c/ | "Gm"Bb "F"af | "Dm"ad "A7"f/=e/d/^c/ | "Dm"d3 :|
+P:B
+|: d/e/ | "Bb"f2 "F/A"f2 | "Gm"f>g "Bb/F"f/g/f/d/ | "Eb"e>d cd | "F"B2 A2 |
+"D"A>G "/"^FG | "D"A>G "/"^FG | "D"A>B "/"c/B/c/A/ | "D7"d>=e "/"^f/e/f/d/ | "Gm"g>a "Eb"ba/g/ | "Cm"^fg "D7"g>f | "Gm"g3 :|

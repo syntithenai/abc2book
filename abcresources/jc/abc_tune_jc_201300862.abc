@@ -1,0 +1,16 @@
+X: 845
+T: the Last of the Twins
+R: hornpipe
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #845
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0845/oneill-1001-0845-1.abc
+M: C|
+L: 1/8
+K: A
+"^A"[|]\
+  (3efg | a>ec>e f>ec>B | A>ce>a f>ec>A | G>AB>c d>ef>e | d>cB>A B2 ||
+| (3efg | a>ec>e f>ec>B | A>ce>a f>ec>A | G>AB>c d>ef>g | a2 A2 A2 :|
+"^B"\
+|:(3efg | a>ga>b a>gf>e | f>ef>g f>ec>A | G>AB>c d>ef>e | d>cB>A B2 ||
+| (3efg | a>ga>b a>gf>e | f>ef>g f>ec>A | G>AB>c d>ef>g | a2 a>g a2 :|

@@ -1,0 +1,29 @@
+X: 20103
+T: the BANKS OF FORTH
+C: James Oswald.
+Q: "Moderate."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.10 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: E
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G3F |\
+(E4 G2A2) B4 (e3f) | (g3a) (gf)(ed) c6 e2 |\
+B4e4 (cBAG) F2E2 | A3B (cBAG) {G}F4 (G2F2) |\
+E4 G3A B4 (e3f) | (g3a) (gf)(ed) {d}c6 d2 |\
+(e3f) (g^ab2) {g}f4 (e2d2) | (cde2) (c3B) B4 :|
+|: B4 |\
+(e3df2)f2 (g3ab2)d2 | (c3Bc2)d2 e6 G2 |\
+(A3GA2)B2 (c2a)g f2e2 | (d2ef) (fe)(dc) B6 B2 |\
+(c2A2c2)e2 (B2G2E2)G2 | (A2c2) (f2ga) {f}d6 B2 |\
+(cedc) (BA)(GF) E4 (b2ag) | (f2ga) (gf)(ed) e4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The song beginning "Ye sylvan powers that rule the plain," is sung to this air.
+%%endtext
+%%sep 1 1 300

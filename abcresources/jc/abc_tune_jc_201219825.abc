@@ -1,0 +1,19 @@
+X: 2
+T: Knights of Malta
+%R: march, reel
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.1 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+|:\
+G>A Gg | fd ce | dBAG | FAD2 |\
+G>A Gg | fd ce | dBcA | G2G,2 :|
+|:\
+d>edB | c>dcA | BdBG | FAFD |\
+d>edB | c>dcA | BGAF | G2G,2 :|
+%%begintext align
+%% Lead down the middle, up again, Hands across
+%% and back again, Right hands and left.
+%%endtext

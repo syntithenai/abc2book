@@ -1,0 +1,29 @@
+X: 1
+T: La laine des moutons
+O: Qu\'ebec
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: printed MS "transcribed by TP 9/01", probably Tom Pixton
+N: presented by France Bourque, Oktoberfest 2001
+M: 3/4
+L: 1/8
+K: Dm
+"^instr."[|]\
+AAA | "Dm"AG FA GF | "C"GF EG FE | "Bb"FE DC DE | "Dm"D4 z2 ||
+"^vocal[|]\
+A,2 | "Dm"DD D2 E2 | "Gm"F4 F2 | "A7"EF G2 E2 | "Dm"F2 D2 \
+A,2 | "Dm"DD D2 E2 | "Bb"F4 A2 | "A7"AG F2 E2 | "Dm"D4 ||
+w:1.~La Laine des Moutons, c'est nous qui la tondaines, \
+     la laine des moutons, c'est nous qui la tondons.
+"^Chorus"[|]\
+[A2D2] \
+| "A"[E3^C4] [A2E2] | "Dm"[F4D4] [A2F2] | "A7"[AF][GE [F2D2] [E2^C2] | "Dm"[F2D2] [D2A,2] [A2D2] \
+| "A"[E3^C4] [A2E2] | "Bb"[F4D4] [A2F2] | "Gm"[AF][GE] [F2D2] "A7"[E2^C2] |"Dm"[D3D3] |]
+w: Tondon, tondons, la Laine des moutaines,
+   tondons, tondons, la laine des moutons.
+W:
+W:lavons, lavaines
+W:cardons, cardaines
+W:filons, filaines
+W:tissons, tissaines
+W:vendons, vendaines
+W:

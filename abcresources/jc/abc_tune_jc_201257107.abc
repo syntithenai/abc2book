@@ -1,0 +1,26 @@
+X: 1
+T: Broom of the Cowden Knows
+O: Scotland
+R: air
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: Image from "Musick for Allan Ramsay's Collection of Scots Songs", from Darlene Wigton 2017-5-31
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - -
+% Voice 1 arranged as 4 4-bar staffs, with modern chord symbols::
+V: 1
+D2 | "D"D3 F "A"A3 B | "D"(AF) (TE>D) "Bm"D2 (d>A) | "G"B2 (d>e) "D"{de}f2 (Te>d) | "G"B6 d2 |
+w: How blyth was J each morn* to* see my* Swain ~come* o'er the* Hill. he
+"D"(A>B) (d>e) "A"{de}f2 (Te>d) | "D"d2 (D>E) F2 (ED) | "G"G3 "D"A "G"(B>cd) "D"F | "A"E8 |]
+w: leap'd* the* Brook, ~~&* flew to* me; J* met him ~with** good will.
+"D"D3 F A3 B | "D"A F "A"E> F "D"D2 (d>A) | "G"B2 d> e "Bm"(d>e"D"f) A | "G"B6 d2 |
+w: O, the ~Broom, the bon-ny, bon-ny ~Broom; The* Broom ~of the Cow-**den Knows: J
+"D"(A>B) (d>e) f2 (Te>d) | "D"(dc) (BA) {G}F2 (ED) | "G"G3 B "D"(A>Bd) F | "A"E6 |]
+w: wish* J* were ~with* my* dear* Swain, with* his Pipe ~and** my Ewes.
+% - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z2 | d4 "_6"c2 A2 | d2 A2 B2 "_6"f2 | g4 d2 D2 | G6 z2 | "_6"f2 d2 "_6/4"a2 "_3"A2 |
+d6 d2 | "_6"B3 "_6"F G2 D2 | A8 |] d4 D4 | "_6/4"a2 "_3"A2 d2 z2 |
+g4 "_6"f2 d2 | g6 z2 | "_6"f2 d2 "_6/4"a2 "_3"A2 | d6 d2 | "_6"B2 G2 "_6"G2 D2 | A6 |]

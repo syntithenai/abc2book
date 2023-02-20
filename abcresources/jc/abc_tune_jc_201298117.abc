@@ -1,0 +1,61 @@
+
+X: 1
+T: Kyrkl\aat av Arne Mod\'en   [A]
+C: Arne Mod\'en
+S: https://www.youtube.com/watch?v=V24xwpkzQbg (Arne playing)
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+L: 1/16
+M: 2/4
+K: A
+E2 |\
+A6 EA | B6 Bc |\
+d2-d2 f3d | d2cB A2AB |\
+c2-ce d3c | cBBG E2GA |
+B2-Bd c2BG | A6 :|\
+|: cd |\
+e2-ea f3e | eddB G2Bc |\
+d2{c}df e3d |
+dcec A2cd |\
+e2ea f3e | eddB G2GA |\
+B2-Bd c2BG | A6 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Kyrkl\aat av Arne Mod\'en   (G)
+C: Arne Mod\'en
+%date: 2012-5-18
+S: https://www.youtube.com/watch?v=V24xwpkzQbg (Arne Modén playing)
+S: https://www.youtube.com/watch?v=oa-IcNpQGDE (Torbjörn Näsbom, Pär Näsbom  et al.)
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+L: 1/16
+M: 2/4
+K: G
+D2 |\
+G6 DG | A6 AB | c2-c2 e3c | c2BA G2GA | B2-Bd c3B | BAAF D2FG |
+A2-Ac B2AF | G6 :: Bc | d2-dg e3d | dccA F2AB | c2{B}ce d3c |
+cBdB G2Bc | d2dg e3d | dccA F2FG | A2-Ac B2AF | G6 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Kyrkl\aat av Arne Mod\'en   [G]
+C: Arne Mod\'en
+S: http://www.fiolin.eu/tunes.html#kyrklat_arne_moden
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+L: 1/16
+M: 2/4
+K: G
+D2 |\
+G6 GB | A6 AB |\
+c2c2 e3c | cBBA G2GA |\
+B2Bd c3B | BAAF D2FG |
+A2c2 BGAF |1 G6 :|2 G4 \
+|: GABc |\
+d2g2 e3d | dccA F2AB |\
+c2c2 d3c |
+cBBA GABc |\
+d2g2 e3d | dccA FDFG |\
+A2Ac BGAF |1 G4 :|2 G6 |]

@@ -1,0 +1,18 @@
+X: 145
+T: Pashtu Kvasim
+O: Israel
+D: Israeli Folk Dance Souvenir
+C: Metitiahu Shelem 1953
+M: 2/4
+L: 1/8
+K: Dm octave=1 clef=treble+8
+Q: 1/4=132
+%%MIDI program 74 recorder
+%%MIDI bassprog 45 Pizzicato Strings
+%%MIDI gchord fzzz
+"C"CDDG      |CDDG      |"Gm"GGGF   |"Dm"ED/C/D2|\
+"C"C/D/E/C/DG|C/D/E/C/DG|"Gm"GGGF   |ED/C/D2    |:
+zGGG         |AGGG      |AGFE/F/    |[1G4       :|[2G3E|\
+"Dm"GEDC     |GEDC      |DEFG       |ED/C/D2    |
+"C"CDEF      |GEDC      |"Gm"E/F/G3-|G4         |\
+"C"CDEF      |GEDC      |"Dm"E/C/D3-|D4         |

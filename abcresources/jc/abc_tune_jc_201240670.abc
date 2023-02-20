@@ -1,0 +1,25 @@
+X: 4061
+T: the Royal Highlanders welcome from Waterloo
+O: Communicated by Mr McLeod of Rasa.
+%R: air, strathspey
+B: Niel Gow & Sons "Complete Repository" v.4 p.6 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "SLOWLY"
+K: G
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 staves, for compactness and proofreading.
+V: 1 staves=2
+B |!p!\
+d2d>B ~d>e d>B | e<e e>d e3 Tf | "^sf"g>edB TA>GAB | E<E TE>D [G3D3B,3] B || d2d>B ~d>ed>B | e<e e>^d e3 Tf |
+g>edB TA>GAB | E<E TE>D [G3D3B,3] |]| d | !f![g2B2D2G,2] gb TB>ABG | EAA>B .A(afa) | (g/f/).e/.d/ Bg dB AG |
+(F/G/A) D>c BGGd || !f![g2B2D2G,2] g<b TB>ABG | EA A>B .A(afa) | (g/f/e/d/) B>g (e/d/c/B/ c/B/A/G/) | (6:4(F/G/A/G/F/E/ D)>c BGG |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |!p!\
+[g2B2][g2B2] [g2B2][g2B2] | [g2c2][g2c2] [g2c2]A2 | "^sf"B>cBG d2(fg) | c2d2 g2G2 ||
+[g2B2][g2B2] [g2B2][g2B2] | [g2c2] [g2c2] [g2c2]A2 | B>cBG d2(fg) | c2d2 g2G |]| z | !f!G2g2 G4 |
+c2A2 d2=c'2 | b2g2 g2fe | d2D2 G2g2 || !f!G2g2 G2B2 | c2A2 d2=c'2 |
+b2g2 c2c'2 | d'2d2 g2G |]

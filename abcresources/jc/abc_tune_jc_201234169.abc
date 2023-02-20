@@ -1,0 +1,18 @@
+X: 20311
+T: I GADE A WAEFU' GATE YESTREEN
+Q: "Andante"
+%R: strathspey, march
+B: "Edinburgh Repository of Music" v.2 p.31 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%slurgraces
+%%graceslurs
+f>e |\
+d3 e (d>e) (fe) | d2 B2 B2 (AB) | d3 e (d>e) (fd) | f2 e2 e2 (fe) |\
+d3 e (d>e) (fe) | d2 B2 B2 (dB) | A3 B (A>B) (de) | {de}f2 d2 d2 :|
+|: (f>g) |\
+a3 b (af) ({f}ed) | d2 B2 B2 (f>g) | a3 b af ({f}e>d) | f2 e2 e2 f>g |\
+a3 b (af) ({f}ed) | d2 B2 Hg2 {fedc}B2 | A3 B (A>B) (d>e) | {de}f2 d2 d2 :|

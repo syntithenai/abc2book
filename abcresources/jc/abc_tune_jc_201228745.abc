@@ -1,0 +1,28 @@
+X: 11563
+T: the HIGHLAND LADDIE
+C: Dr. P. Hayes
+Q: "Moderate."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.156 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+(c>d)cf (f<e)(d>c) | d2(fd) (d<c)(BA) |\
+(B>c)(de) f2(ag) | (fd)(cA) AG zc |\
+(c>dc)f (f<e)(d>c) | d2(f<d) (d<c)(B<A) |\
+(Bc)(de) f2da | (ag)(fe) (fg)f2 |]
+c3f (a<f)(ef) | (f>ga)b af zf |\
+f2c2 (de)(fg) | (a>ba)f eg zg |\
+(a>ba)f (g>ag)e | (f>gf)d He2 zc |\
+(Ac)(de) (fe)(fd) | (cd)(gb) afz2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The younger George Colman's song,
+%% "When cruel parents sullen frown,"
+%% is sung to the above air.
+%%endtext
+%%sep 1 1 300

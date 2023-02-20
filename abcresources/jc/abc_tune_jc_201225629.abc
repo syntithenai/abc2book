@@ -1,0 +1,27 @@
+X:993
+T:The highland laddie
+R:Reel
+O:Scotland
+S:Gibbon's Collection of Scots tunes
+B:Gibbon's Collection of Scots tunes
+Z:Transcription, chords:Mike Long
+M:C|
+L:1/8
+K:D
+V:1 stv=2
+V:1 clef=treble
+V:2 clef=bass
+[V:1]A2|\
+[V:2]z2|\
+[V:1]"D"F2 (ED) FGAF|"G"BAGF "A"E3 B|"D"A2 D2 (FG) A2|"G"BcdA "A"F2 A2|\
+[V:2]D,2 z2 D,2 F,2 |   G,F,E,D,    A,2A,,2|   D,2F,E,   D,2 F,2 |G,2 G,,2 D,3 C,      |\
+[V:1]"D"D2 d>e d3 f|"A"e2 E2 ~E3 D|\
+[V:2]B,,2 G,2 F,2 D,2   |G,2 G,,2 A,,2 A,2   |\
+[V:1]"D"F2 A2 "G"BdcB|"A"A2 D2 F2 A2:|
+[V:2]D,2 F,2 G,2 G,,2     | D,4D,,4         :|
+[V:1]|:"D"d3 e defd|"G"gfed "A"e2 f>e|"D"d2 A2 F2 A2|\
+[V:2]|:   D,2G,2 F,3F, |   E,2 D,2 A,4      |B,2 C2 D2 F,2 |\
+[V:1]"G"BcdA "A"F2 A2|\
+[V:2]G,2 G,,2 D,2 D2    |\
+[V:1]"D"D2 d2 (d3 e/f/|"A"e2)E2 ~E3 D|"D"F2 A2 "G"Bd~cB|"A"A2 D2 F2 A2:|
+[V:2]B,2 G,2 F,2 D,2      |G,2 G,,2 A,,2 A,2   |D,2 F,2 G,2 G,,2      |D,4 D,,4         :|

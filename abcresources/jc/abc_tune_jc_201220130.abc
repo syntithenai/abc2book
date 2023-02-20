@@ -1,0 +1,30 @@
+X: 031
+T: the Lass of Peatie's mill
+%R: reel
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.3 #1
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Q: "slow"
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1
+TA>G |\
+{G}F2(TED) F2A2 | (d3e/f/) TA3d | B>cdA (BA)(GF) | TE6 TA>G |
+{G}JF2(TED) JF2A2 | (d3e/f/) TA3d | BcdB cd {f}e(d/c/) | d3e d2 :|
+|: (f>g) |\
+{f}Te3d {d}c2(TBA) | (d3e/f/) TA3d | BcdA (BA)(GF) | TE6 f>g |
+(a/g/f) (g/f/e) f>dB>g | (Te3d/e/) TA2(GF) | G2JB2 A2(Tdc) | d3e d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+z2 |\
+B4 "2;6;4"c4 | "5"B4 "6"F2f2 | g3"6"f g2G2 | "4"A2"3"ab ag"6"f"6"e | d4 "6;4;2"c4 |
+"5"B4"6"F2f2 | g4 a2A2 | d2A2 D2 :|\
+|: D2 |\
+"6"G4 A4 | B4 "6"F2f2 | g3"6"f g2G2 |
+"4"A2"3"ab ag"6"fe |\
+"6"f2"6"e2 d2g2 | a2"4;2"g2 "6"f2d2 | "6"b2"6;4"g2 "4"a2"3"a2 | d2A2 D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

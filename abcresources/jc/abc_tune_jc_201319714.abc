@@ -1,0 +1,29 @@
+X: 1
+T: Old Noll's Jigg
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.319 "E e 4"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E |\
+FED D2E | FED D2d | ^c2d A2d | ^c2d A2E |\
+FED D2E | FED D2e | fed c>=BA | A3- A2 :|\
+c |\
+ABc F2c | ABc F2f | def B2d | Bcd G2g |
+efg c2e | fga B2a | bag g3 | f3- f2a |\
+fga def | efg ^cde | def efd | ^c3 A2a |\
+bag aAa | bag aAa | bag f>ed | d3- d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man turn single into the 1. wo. place, the 1. wo. does the same at the same time, and set to
+%% their Partners, and cast off .| The other cu. do the same :| Then right-hands a-cross, and left-hands back
+%% again; Then Figure through the 2. cu. and make two hops, and cast off, and turn to their own sides.
+%% [DMDfD]
+%%endtext
+%%sep 1 1 300
+%%text Note: The Last Strain is to be play'd but once.
+%%sep 1 8 500

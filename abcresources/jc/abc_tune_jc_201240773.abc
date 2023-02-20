@@ -1,0 +1,27 @@
+X: 4101
+T: Savourna Deligh
+O: A Favorite Irish Air
+%R: air, strathspey
+N: This is version 2, for ABC software that understands voice overlays.
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.10 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow"
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+A |\
+d2d>e (dc) c>d | TB>A(B=c) ~B>AF>d | AGFE D2FA & xEDC x4 | B>cTc2 [d3F3]A ||\
+(df)ad (c/d/)e dc | TB>AB=c TB>AF>d | A>B (A/G/).F/.E/ D2FA | B>cTc2 [d3F3] :|
+|: A |\
+!p! d2~de f2ef | Tg2fe fdB>c | (df)ed (ce)dc | TBAB{d}c TBAF>a ||\
+!f!a2 (a/g/)f/e/ d2dc | TB>AFd Td>e {de}Hf2 {edcB}| !p!A>B (A/G/)F/E/ D2FA | B>cTc2 [d3F3] :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+d2d'2 a2A2 | gfga x4 & d4 gfd2 | zcd^A B2F2 | G2A2 d3z || d2d'2 a2a2 | gfga gfd2 |
+f2ga b2f2 | geaA d3 :||: z |!p! d2d'2 d'2c'd' | e'2f'2 b3z | [b3f'3][bf'] [a3e'3][ae'] | [gd']f[g2d'2] [f2d'2][d2d'2] ||
+!f!zf ga b2f2 | gfd2 d'2 Hd2 | !p! f2ga b2f2 | ge aA [d3D3] :|

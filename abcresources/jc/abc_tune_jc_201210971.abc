@@ -1,0 +1,31 @@
+X: 201
+T: Firn di Mekhutonim aheym
+R: horra
+O: Naftule Brandwein
+D: Naftule Brandwein 1923
+B: The Compleat Klezmer p.44
+Z: John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 3/8
+L: 1/16
+%Q: 3/8=60
+K: EPhr^G
+%%MIDI gchord fcc
+|: EE \
+| "E"^G4 "Dm"(3FED | "E"E6- | E2c2B2 | "Am"A6 \
+| A4 (3FED | "Dm"D6 | D2B2A2 | "E"G4 "Dm"(3FED |
+| "E"E3G BA | G3B dc | B3d fe | "Dm"d3c BA \
+| "E"G3A BA | G3F "Dm"ED | "E"E3e BG | E2z2 :|
+|: EE \
+| "Am"E2c2"E7"B2 | "Am"A3E AE | A6- | A6 \
+| "Dm"A2f2e2 | d3A dA | d6- | d3c cB |
+| "E"Bddc cB | Bddc cB | B6- | B3c BA \
+| GBBA AG | GBBA AG | G6- | G3F "Dm"ED |
+| "E"E3G BA | G3B dc | B3d fe | "Dm"d3c BA \
+| "E"G3A BA | G3F "Dm"ED | "E"E3e BG | E2z2 :|
+|: EE \
+| "Am"e6- | e6- | e6- | e4 "G7"d2 \
+| "C"c6- | c4 "E7"B2 | "Am"A6- | A4 "Cb7"G2 |
+| "F"F6- | F4 "A7"E2 | "Dm"D6- | D6 \
+| "E"B4 B2 | B4 (3cBA | G4 G2 | G4 "Dm"(3FED |
+| "E"E3G BA | G3B dc | B3d fe | "Dm"d3c BA \
+| "E"G3A BA | G3F "Dm"ED | "E"E3e BG | E2z2 :|

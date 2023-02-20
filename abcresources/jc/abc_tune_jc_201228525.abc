@@ -1,0 +1,19 @@
+X: 1133
+T: Link Him Dodie   Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.13 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+Ae-e>d c<ATc2 | B=g-g>d B<GB<d | (A/B/c/d/ e)A c<ATc2 | A<ag<b a<Ac<e :| (a/g/f/e/ c)a eac2 | B=g-g>d BGB<^g |
+(a/g/f/e/ c)<a e<ac<a | A<ac<a eAc<e || (a/g/f/e/ f).d e<dc2 | B<g-g<d B<GB<d | (A/B/c/d/ e).A cATc2 | A<ag<b a<Ac<e |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+a2a2 a2a2 | =g2g2 G2G2 | a2a2 a2a2 | e2e2 A2A2 :| a2a2 a2a2 | =g2g2 G2G2 |
+a2a2 a2a2 | a2a2 a2a2 || a2a2 a2a2 | =g2g2 g2g2 | a2a2 a2a2 | e2e2 a2A2 |]

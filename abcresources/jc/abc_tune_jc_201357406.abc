@@ -1,0 +1,348 @@
+% folk-songs.abc
+%
+%%footer Laatste wijziging: <dinsdag 20 september 2005 18:10:27 bert>
+%
+% A collection of folk songs from all over Europe, collected by Bert
+% Van Vreckem.
+%
+% As far as I know, all the tunes are traditional or in the public
+% domain. If you find one that is under copyright protection, please
+% let me know, so I can remove it from the collection.
+%
+% These transcriptions are public domain. You can do what you want
+% with them, but please be so kind as to give credit where due...
+
+X:1
+T:Az a sz\'ep
+O:Hungary
+Z:Bert Van Vreckem, 11-aug-2001 <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:C
+"C"GE G2|GE G2|"F"AB cA|"C"GE G2|"F"A3 F|"G"D G3|"C"C C3|C4|
+w:Az a sz\'ep, az a sz\'ep, a-ki-nek a sze-me k\'ek, a-ki-nek a sze-me k\'ek
+"C"GE G2|GE G2|"F"AB cA|"C"GE G2|"F"A3 F|"G"D G3|"C"C C3|!fine!C4||
+w:Cso-da-sz\'ep, cso-da-sz\'ep, a-ki-nek a sze-me k\'ek, a-ki-nek a sze-me k\'ek
+"C"cc "G"BB|"F"AA "G"GG|"F"A A3|F4|
+w:1.~L\'am az en-y\'em, l\'am az en-y\'em s\"o-t\'et-kek
+w:2.~Ha nem vag-yok a ba-b\'am-nak e-leg-sz\'ep,
+"G"BB "F"AA|"C"GG "F"FF|A A3|"C"E4|
+w:1.~M\'eg-se vag-yok a ba-b\'am-nak e-l\'eg szep
+w:2.~\"Us-se meg a v\'a-lo-gat-tot ne-h\'es-z\'eg~(mert!)
+"C"GE G2|GE G2|"F"AB cA|"C"GE G2|"F"A3 F|"G"D G3|"C"C C3|"C"!D.C.!C4||
+w:Az a sz\'ep, az a sz\'ep, a-ki-nek a sze-me k\'ek, a-ki-nek a sze-me k\'ek
+
+X:2
+T:Believe me if all those endearing young charms
+T:My Lodging is in the Cold Ground
+T:Spanish walz
+C:Traditional
+C:Thomas Moore
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+H:In 1808, Thomas Moore wrote `Believe me...' to the tune of this much older air. The poem
+H:was written for a lady (maybe his own wife) that suffered from a skin disease.
+R:Air
+O:Ireland
+M:3/4
+L:1/4
+K:D
+F/E/|"D"D>ED|DFA|"G"GBd|d2c/B/|"D"A>GF|"A7"EDE|("D"F3|F2)F/E/|
+"D"D>ED|DFA|"G"GBd|d2c/B/|"D"A>dF|"A7"EDE|("D"D3|D2)A/G/|
+"D"FAd|d2A/F/|"G"GBd|d2c/B/|"D"A>GF|"A7"EDE|("D"F3|F2)F/E/|
+"D"D>ED|DFA|"G"GBd|d2c/B/|"D"A>dF|"A7"EDE|("D"D3|D2)||
+W:1. Believe me, if all those endearing young charms,
+W:Which I gaze on so fondly today,
+W:Were to change by tomorrow, and fleet in my arms,
+W:Like fairy gifts, fading away,
+W:Thou wouldst still be adored as this moment thou art,
+W:Let thy loveliness fade as it will;
+W:And around the dear ruin, each wish of my heart
+W:Would entwine itself verdantly still!
+W:
+W:2. It is not while beauty and youth are thine own,
+W:and thy cheeks unprofaned by a tear,
+W:That the fervor and faith of a soul can be known,
+W:To which time will but make thee more dear!
+W:No, the heart that has truly loved never forgets,
+W:But as truly loves on to the close;
+W:As the sunflower turns on her god, when he sets,
+W:The same look which she turned when he rose!
+
+%%scale .65
+X:3
+T:Black velvet band
+C:Trad.
+O:Ireland
+D:a.o. The Dubliners, `Original Dubliners'
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:3/4
+L:1/4
+K:E
+B/B/|"E"B2 B/B/|GAB|A(G(G)|G2)F/F/|EFG|"A"EDC|"B7"(B,3|B,2)B/A/|
+w:In a neat litt-le town they call Bel-fast__ an ap-pren-tice to trade I was bound_ and it's
+"E"G/(G/ G)G|(B,C)D|"C#m"E2F|G2E/E/|"B7"FGA|DEF|("E"E3|E2) B/B/|
+w:ma-ny_ an hour's_ sweet hap-i-ness have I spent in that neat lit-tle town_ till a
+"E"B2B|GAB|A2G|G2F|EFG|"A"EDC|"B7"(B,3|B,2)B/A/|
+w:sad mis-for-tune came o-ver me which caused me to stray from the land_ far a-
+"E"G>G G|B,CD|("C#m"E2F)|G2E|"B7"FGA|DEF|("E"E3|E2)
+w:way from my friends and re-la-_tions be-trayed by the black vel-vet band._
+"^Chorus"B|"E"B2 B|(GA)B|A(G(G)|G2)F|EFG|"A"EDC|"B7"(B,3|B,2)B/A/|
+w:Her eyes they shone_ like dia-monds.__ I thought her the queen of the land_ and her
+"E"G>G G|B,CD|("C#m"E2F)|G2E|"B7"FGA|DEF|("E"E3|E2)|]
+w:hair it hung o-ver her shoul-_der tied up with a black vel-vet band._
+W:2. Well, I was out strolling one evening
+W:Not meaning to go very far
+W:When I met with a pretty young damsel
+W:Who was selling her trade in the bar.
+W:When I watched, she took from a customer
+W:And slipped it right into my hand
+W:Then the law it came and arrested me
+W:Bad luck to the black velvet band.
+W:
+W:3. Next morning before judge and jury
+W:For a trial I had to appear
+W:And the judge, he said, "Me young fellows...
+W:The case against you is quite clear
+W:And seven long years is your sentence
+W:You're going to Van Dieman's Land
+W:Far away from your friends and relations
+W:To follow the black velvet band."
+W:
+W:4. So come all you jolly young fellows
+W:I'd have you take warning by me
+W:Whenever you're out on the liquor, me lads,
+W:Beware of the pretty colleen.
+W:She'll fill you with whiskey and porter
+W:Until you're not able to stand
+W:And the very next thing that you'll know, me lads,
+W:You're landed in Van Dieman's Land.
+
+X:4
+T:Goede nacht, kameraden
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/> 2005-09-20
+M:C|
+L:1/4
+K:F
+C/> C/|"F"F2 F> F|"C7"G2 G G|"F"A A "C7"G/F/ E|"F"F2 z c|
+w:1.~Goe-de nacht, ka-me-ra-den, wij slui-ten de-_ze dag. De
+w:2.~Goe-de nacht, ka-me-ra-den, be-waar een moe-_dig hart, En
+c> A F/ A/ G/ F/ |"C7"G2 C C|"F"F F "C7"G G|"F"A3 A|
+w:ster-ren on-zer la-ge lan-den, aan 't~blau-we fir-ma-ment, Die
+w:ster-ren-glans in jon-ge dro-men. Want al-tijd zal de zon, Door
+"Bb"d d "F"c A|F2 "C7"G2|"F"A B "C7"G G|"F"F F2|]
+w:zul-len met hun glans, de som-ber-heid ver-ban-nen.
+w:don-k're nach-ten heen, weer hoog aan d'he-mel ko-men.
+
+%%scale .75
+X:5
+T:Jan mijne man
+C:Trad., Arr. Bert Leemans
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+%%staves {1 (2 3)}
+K:Dm
+V:1 clef=treble
+"Dm"FF/E/ DD|"Am"EC "Dm"DD|"Dm"FF/E/ DD|"Am"EC "Dm"D2|
+w:Jan mij-ne man wou rui-ter wor-den, kon hij ge-ra-ken aan een peerd.
+V:2 clef=treble
+AA/G/ FF|GE FF|AA/G/ FF|GE F2|
+V:3 clef=treble
+D2 A,2|DA, D2|D2 A,2|DA, D2|
+w:Jan, Jan, Jan, Jan, Jan, Jan, Jan, Jan, Jan, Jan
+V:1 clef=treble
+"F"FF/G/ AG|FG A2|F(F/G/) AG|FG A2|
+w:'k~Pak-ke den bran-del uit den heerd, dan heeft Jan mij-ne man een peerd.
+V:2 clef=treble
+AA/B/ cc|cd c2|AA/B/ cc|cd c2|
+V:3 clef=treble
+(F4|F)A F2|(A4|A)B A2|
+w:Jan,___ Jan___
+V:1 clef=treble
+"Dm"FF/E/ DD|"Am"EC "Dm"DD|"Dm"FF/E/ DD|"Am"EC "Dm"D2|]
+w:Jan mij-ne man wou rui-ter wor-den, kon hij ge-ra-ken aan een peerd.
+V:2 clef=treble
+AA/G/ FF|GE FF|AA/G/ FF|GE F2|
+V:3 clef=treble
+D2 A,2|DA, D2|D2 A,2|DA, D2|
+w:Jan, Jan, Jan, Jan, Jan, Jan, Jan, Jan, Jan, Jan
+W:2. Jan mijne man wou ruiter worden, kon hij geraken aan een zaa'l.
+W:'k Breek er een ei, 'k geef hem de schaal
+W:Dan heeft Jan mijne man een zaa'l
+W:Jan mijne man wou ruiter worden, kon hij geraken aan een zaa'l.
+W:
+W:3. Jan mijne man wou ruiter worden, kon hij geraken aan een spoor
+W:'k Breek er ne pot en 'k geef hem d'oor
+W:Dan heeft Jan mijne man een spoor
+W:Jan mijne man wou ruiter worden, kon hij geraken aan een spoor
+W:
+W:(instr.)
+W:
+W:4. Jan mijne man wou ruiter worden, kon hij geraken aan een toom
+W:'k Scheur er zijn hemd, 'k geef hem de zoom
+W:Dan heeft Jan mijne man een toom
+W:Jan mijne man wou ruiter worden, kon hij geraken aan een toom
+W:
+W:5. Jan mijne man wou ruiter worden, kon hij geraken aan een zweep
+W:'k Scheur er zijne jas, 'k geef hem een reep
+W:Dan heeft Jan mijne man een zweep
+W:Jan mijne man wou ruiter worden, kon hij geraken aan een zweep
+W:
+W:(Str. 1)
+
+
+%%scale .6
+X:6
+T:De oogst gaat in
+T:Oogstlied
+C:Traditioneel
+O:Vlaanderen
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/> 2005-09-20
+S:Opgetekend door Herman Dewit
+N:De gewone tekst is voor de voorzanger, tekst in hoofdletters voor het koor.
+M:6/8
+L:1/8
+K:F
+[Q: "Largo"] G|A2G F2G|A2G F2G|A2G F2G|A2G +fermata+F3||
+w:Droog uit, droog in, de oogst gaat in. DROOG UIT, DROOG IN, DE OOGST GAAT IN.
+[Q: "Allegro"]C|F2F F2F|G G G F3|+fermata+F3 z2C|F2F F2F|G2G F3|+fermata+F3||
+w:En is den boer zijn ko-ren nu in? JA! En is den boer zijn hooi nu in? JA!
+A A B|c c B A2 G|A2F-+fermata+F3|+fermata+F3 A A B|c2 B A2 G|A2F-+fermata+F3|+fermata+F3||
+w:Nu gaan we lek-ke-re rijst-pap e-ten!_ JA! Met brui-ne sui-ker niet ge-me-ten!_ JA!
+[Q: "Presto"]A A B|c c B A2 G|A2F A A B|c2 B A2 G|F2F z2||
+w:NU GAAN WE LEK-KE-RE RIJST-PAP E-TEN! MET BRUI-NE SUI-KER NIET GE-ME-TEN!
+[K:Bb][M:2/4][Q: "Largo"]F|F F GA|B2 d c|B2 AG|GF F2|z2 d2|c4|BG +fermata+F2|
+w:We zien er on-ze schen-ker van ver-re_ ko-_men. VI-VA! VI-_VA!
+F F G A|B2 F2|FG FE|ED D2||
+w:En hij is ge-tooid met scho-_ne_ bloe-_men
+[Q: "Presto"]D E|F> G F E|D z D E|F> G F E|D2 B2|
+w:EN DAT STAAT IN ON-ZE ZIN, EN 'T~IS HEM DIE IK BE-MIN. MAAR
+F2 B2|c2 =B2| c =B c d|c4|[Q: "Rall."]d2 d d|G2 c2|BA GA|B2||
+w:ZIE DAAR IS NOG O-LIE, O-LIE IN. MAAR ZIE, DAAR IS NOG O-_LIE_ IN.
+[Q: "Largo"] +segno+D E|F3 G|F E D C|(B,3 D)|F2 D E|
+w:(meisjes)~~EN HOE ZOU'N WE RE-PEN DAT WE VLAS_ HAAN. EN HOE
+F3 G|F E D C|(B,3 D)|F4||
+w:ZOU'N WE DRIN-KEN DAT WE'N GLAS_ HAAN.
+|:[Q: "Presto"]F> F F F|G> E E2|G G G G|F> E D2|
+w:(tutti)~~VI-VA DE GE-NE-VE-RE EN HOE MEER HOE LIE-VE-RE,
+F F F E|D D D D|E E F F|B,2 z2+segno+:|
+w:DE GE-NE-VER IN DE SNAP IS VEEL BE-TER ALS PAP!
+
+%%scale .65
+X:7
+T:The Rocky Road to Dublin
+C:Traditional
+O:Ireland
+D:a.o. The Dubliners, `The Complete Dubliners', 1997
+B:`The Dubliners Song Book', Wise publications, 1974
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:6/8
+K:DDor
+A A2A|"Dm"A2A "C"G2E|"Dm"D2D A,2D|D2D ( DE ) G|A2F "C"G2E|
+w:1.~While in the mer-ry month of May_ from me home I star-_ted, left the girls of
+w:2.~*In Mul-lin-gar that night I res-ted limbs so wear-_y star-ted by day-
+w:3.~*In Dubi-lin next ar-rived I thought it such a pi-ty to be so soon de-
+w:4.~*From there I got a-way, me spi-rit ne-ver fai-_ling, lan-ded on a
+w:5.~*The boys of Li-ver-pool,_ when we safe-ly lan-_ded, called me-self a
+"Dm"D2F "C"E2C|C2D EFG|"Dm"A2F "C"G2E|"Dm"D3 A,2D|
+w:Tu-am near-ly bro-ken hear-ted, sa-lu-ted fa-ther dear, kissed me
+w:light next mor-ning light and air-_y. Drank a drop~o' the pure~to keep me
+w:prived a view of such fine cit-_y. Then I took a stroll al a-
+w:quay just as the ship was sai-_ling. Cap-tain at me roared, said no
+w:fool. I could no lon-ger stand_ it, blood be-gan to boil, tem-per
+D2D (EF)G|A2F "C"G2E|"Dm"D2F"C"E2C|"C"C2D EFG|
+w:dar-lin' moth-_er, drank a pint of beer me grief and fears to smo-ther, then
+w:heart from sin-_king that's the Pad-dy's cure when-e'er he's on for drin-king. To
+w:long the quali-ty, me bun-dle it was sto-len in a neat lo-ca-li-ty.
+w:room_ had_ he when I jumped a-board a ca-bin found for Pad-_dy.
+w:I was loo-_sing. Poor old E-rin's Isle_ they be-gan a-bu-_sing.
+"Dm"A2A d2A|c2G A2d|d2Ac3|A2c d2A|
+w:off to reap the corn and leave where I was born, cut a stout black-
+w:hear the las-sies smile,_ laugh-ing all the while at me curi-ous
+w:Some-thing crossed me mind,_ when I looked be-hind, no bun-dle could
+w:Down a-mong the pigs, I skipped some fun-ny jigs,~I played some hear-ty
+w:"Hurrah me soul," sais I,~me shi-lle-lagh I let fly.~Some Gal-way boys were
+"C"c2A G2E|C2D ( E/F/ ) GG/G/|"Dm"A2A d2G|c2A A2A|
+w:thorn to ban-ish ghost and gob-_lin. In a brand new pair of brogues I ratt-led
+w:style, 't~would set your heart a-bubb-_lin'. They_ ask'd me was I hired, the wa-ges
+w:I find upon me stick a-wobb-_lin'. In-_qui-ring after the rogue, they said me
+w:rigs. The wa-ter 'round me bubb-_lin'. When_ off to Ho-ly-head, I wished me-
+w:by and saw I was a-hubb-_lin',__ then with loud hurr-ay, they joined in
+ddA c2A|A2A c2A|"C"c3 G2G|G2E C2D|EFG "Dm"A2A|
+w:o-ver the bogs and fright-ened all the dogs on the rock-y road to Dub-i-lin. One, two,
+w:I_ re-quired 'till I was all-most tired of the rock-y road to Dub-i-lin.**
+w:Con-_naught brogue_ wasn't_ much in vogue on the rock-y road to Dub-i-lin.**
+w:self_ was dead or bet-ter far in-stead on the rock-y road to Dub-i-lin.**
+w:the_ af-fray we quick-ly cleared the way for the rock-y road to Dub-i-lin.**
+"C"G2E "Dm"D3||"Dm"D2D D2E|F2G A2F|"C"G2E D2F|
+w:three, four, five. Hunt the hare and turn her down the rock-y road and
+"C"E2D C2D|EFG "Dm"A2F|"C"G2E "Dm"D2|]
+w:all the ways to Dub-i-lin, whack fol-al-de-rol.
+%scale .75
+
+X:8
+T:De Snijdersbank
+C:Traditional
+D:'t Kliekske, Volksmuziek & dialectzang uit Vlaanderen
+Z:Bert Van Vreckem, 2004-05-10 <http://flanders.blackmill.net/music/>
+M:4/4
+L:1/4
+K:C
+C>C CE|GG G2|G>A GF|ED C2|
+w:1.~Es dadd' ie gi\"en snaa-ders-bank? Ja, dadd' es een snaa-ders-bank!
+C>C CE|GG/G/ G2|G>A GF|ED/D/ C||
+w:Es dadd' ie gi\"en ket en ne lank? Ja, dadd' es een ket en ne lank!
+||:G/G/|GG/G/ GG/G/|GG G :||
+w:en een ket en ne lank en een snaa-ders-bank
+C|F>F E>E|DD DD|G3
+w:Vi-va, vi-va, vi-va de snaa-ders-bank.
+C|F>F E>E|DD DD|C2 z2|]
+w:Vi-va, vi-va, vi-va de snaa-ders-bank.
+W:2. Es dadd' ie gi\"en boerenhou\"es? Ja, dadd'es...
+W:Es dadd' ie gi\"en dikke lou\"es? Ja, dadd'es...
+W:En een dikke lou\"es een een boerenhou\"es
+W:En een ket en ne lank en een snaadersbank
+W:Viva, viva, viva de snaadersbank (bis)
+W:
+W:3. Es dadd' ie gi\"en koekepan? Ja, dadd'es...
+W:Es dadd' ie prinses Marian? Ja, dadd'es...
+W:En prinses Marian en een koekepan
+W:En een dikke lou\"es een een boerenhou\"es
+W:En een ket en ne lank en een snaadersbank
+W:Viva, viva, viva de snaadersbank (bis)
+W:
+W:4. Es dadd' ie gi\"en dik halfrond? Ja, dadd'es...
+W:En es dadd' ie gi\"en boerekont? Ja, dadd'es...
+W:En een boerekont en een dik halfrond
+W:(etc...)
+W:Viva, viva, viva de snaadersbank (bis)
+W:
+W:5. Es dadd' ie meni\"er Van Roy? Ja, dadd'es...
+W:En es dadd' ie gi\"en dikke vlooi? Ja, dadd'es...
+W:En een dikke vlooi en meni\"er Van Roy
+W:(etc...)
+W:Viva, viva, viva de snaadersbank (bis)
+W:
+W:6. Es dadd' ie gi\"en krieketout? Ja, dadd'es...
+W:En es dadd' ie gi\"en faa\"eferflou\"et? Ja, dadd'es...
+W:En een krieketout en een faa\"eferflou\"et
+W:(etc...)
+W:Viva, viva, viva de snaadersbank (bis)
+W:
+W:7. Es dadd' ie ne natte vis? Ja, dadd'es...
+W:En es dadd'ie ons tante Wis? Ja, dadd'es...
+W:En ons tante Wis en ne natte vis
+W:(etc...)
+W:Viva, viva, viva de snaadersbank (bis)
+W:
+W:8. Es dadd'ie een wouterkan? Ja, dadd'es...
+W:En benne'k ik gi\"ene zotte man? Ja, ge zetj ne zotte man!
+W:En ne zotte man en een wouterkan
+W:En ons tante Wis en ne natte vis
+W:En een krieketout en een faa\"eferflou\"et
+W:En een dikke vlooi en meni\"er Van Roy
+W:En een boerekont en een dik halfrond
+W:En prinses Marian en een koekepan
+W:En een dikke lou\"es een een boerenhou\"es
+W:En een ket en ne lank en een snaadersbank
+W:Viva, viva, viva de snaadersbank (bis)

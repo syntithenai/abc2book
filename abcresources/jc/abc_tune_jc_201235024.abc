@@ -1,0 +1,29 @@
+X: 20971
+T: CHASE POLKA
+N: Bowing and Fingering arranged by W. B. LAYBOURN.
+B: K\"ohler's Violin Repository, v.2, 1885 p.97 #1
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Part labels (ABCD) added by John Chambers for clarity.
+N: The order of the parts isn't clearly stated. A common polka form would be AABBACCDA.
+P: AABBACCDA
+M: 2/4
+L: 1/16
+K: D
+"A"|:\
+{^g}a2{c}d2{c}d2{c}d2 | d2c>d e>fg2 |\
+{a}g2c2c2c2 | {e}d>cde fga2 |\
+{^g}a2{c}d2{c}d2{c}d2 | d2c>d e>fg2 |
+{a}g2c2 {a}g2c2 | {f}(.d>.c)de d2 "B"::[K:A] (.c3.d) gabc' |\
+d'2c'2 (.e'3.a) | c'2b2 (.d'3.g) |\
+b2a2 c'2 | (.e3.f) gabc' |
+d'2c'2 (.e'3.a) | c'2b2 (d'3.g) |\
+(ba)(ag) a4 "_D.C.""C"::[K:G] [f6A6D6] a2 | (.g>.a)bg (ag)Be |\
+d2F2 d2F2 | (.B>.G)GF G4 :|
+"D"[|\
+B,4 ^A,2B,2 | C2B,2 ^D2E2 |\
+G2F2 ^A2B2 | c2B2 z4 |\
+[f6A6D6] a2 | (.g>.a)bg (ag)Be |
+d2F2F2F2 | {A}G>FGA Bcd2 |\
+[f6A6D6] a2 | (.g>.a)bg (ag)Be |\
+d2F2d2F2 | {B}(.A>.G)GE G4 "_D.C."|]

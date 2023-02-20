@@ -1,0 +1,27 @@
+X: 112
+T: Tunbridge Frisk
+%R: reel, march
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.56
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+G4 G2B2 | AGAB A2c2 | B2g2 A2G2 | AGFE D2D2 |\
+G4 G2B2 | AGAB A2g2 | f2ed e2^c2 | d6 |]
+A2 |\
+d4 g2c2 | B4 g2B2 | A2c2 B2G2 | AGFE D2A2 |\
+BABc B2B2 | cBcd c2g2 | B2AG D2F2 | G6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First and 2d Cu. foot it and turn,
+%% then 1st and 2d Men foot it and turn,
+%% two We. do the same, 1st Man cast
+%% off two Cu. 1st Wo. cast off one Cu.
+%% and cast up again, foot it and turn
+%% in the 2d Cu. Place.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

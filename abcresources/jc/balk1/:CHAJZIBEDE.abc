@@ -1,0 +1,19 @@
+X: 90
+T: Chaj Zibede
+O: Albania
+M: 2/4
+L: 1/8
+Q: 1/4=180
+K: Am
+%%MIDI program 23
+%%MIDI drum dddd 41 41 43 43 80 50 50 50
+%%MIDI drumon
+z2G2 |G2G2 |D2E2 |E2E2  |\
+D2D2 |D2D2 |C2B,2|A,2B,2|\
+C4   |B,4  |A,4  |z4    |
+C4   |E4   |D4   |G,4   |\
+C4   |E4   |D4-  |D2 E2 |\
+G2 E2|E2 E2|D4   |z4    |
+D2G2 |G2G2 |D2E2 |E2E2  |\
+D2D2 |D2D2 |C2B,2|A,2B,2|\
+C4   |B,4  |A,4  |z4    |

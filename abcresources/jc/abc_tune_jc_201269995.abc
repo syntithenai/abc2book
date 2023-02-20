@@ -1,0 +1,28 @@
+X: 1
+T: Draw Cupid
+%R: march, reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (169)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat added to matche the dance description
+M: C|
+L: 1/4
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+f2 Ff | e3 d | BG Ec | A3 A |\
+Ad dc | =B3 g | c>d d>c | c3 f |\
+(fe) (ed) | (dc) (cB) | (BA) GF | E3 A |\
+(Ad) (dc) | (BA) GF | EF (F//G//A/) (G/F/) | F4 :|
+c2 G (G//A//B/) | A3 e | fd ge | ^c3 a |\
+(ag) ba | (gf) (ed) | ^cd (d//e//f/) (e/d/) | d3 f |\
+(fe) (ed) | (dc) (cB) | (BA) (GF) | E3 A |\
+(Ad) (dc) | (BA) GF | EF (F//G//A/) (G/F/) | F4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Note The 1st strain is to be play'd twice and the last but once
+%%begintext align
+%% The 1st Cu. go the whole Figure of Eight with the 2d Cu. and then cross
+%% over and turn .| Then the other Cu. do the same :| Then cross over and
+%% Back to Back then right and left quite round.
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,22 @@
+X: 4321
+T: Kev Green
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 9/8
+L: 1/8
+K: G
+%
+V: 1
+|: G3 B2c dBG | gfe dcB A3 | cBc EFG AFD | EFG AGF G3 :: AFD DFA AFD |
+  dBG GBd dBG | ede EFG F3 | G3 D2=F ECE | A3 E2G FDc |  BdE FDF G3 |]
+%
+V: 2 clef=bass middle=d
+|: g3 G3 g3 | e3 g2G d3 | e3 ^c3 d3 |  g3 d3 G3 :: d3 d3  d3 |
+   g3 G3 g3-| g3 ^c3 d3 | B3  G3 c3 | ^c3 A3 d3 | g2c d2D G3 |]
+%%begintext align
+First Cu. cast off one Cu. and Back to Back, then cast up into their Places and
+Back to Back, take hands and lead down the middle below the 3d Cu. and 
+cast up into the 2d Cu.s Place, then lead up abreast with the 2d Cu. and cast
+off into the 2d Cu.s Place and turn |
+%%endtext

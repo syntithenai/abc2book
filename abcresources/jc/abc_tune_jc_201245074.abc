@@ -1,0 +1,21 @@
+X:1
+T:Ada's Kujawiak    [Bm/B]
+R:Kujawiak
+O:Poland
+%info: cpl
+B:A Little Couple-Dancemusik
+N:See The Pinewoods Collection for a fancier version
+Z:Moshe Braner <mbraner@usa.net>
+M:3/4
+L:1/8
+K:Am
+%%indent 400
+"F#"{^e}f4 f2 | {^e}f4 f2 | {^e}f>f f2 f2 | f2 f2 f2 |
+|: "Bm"B>d f^e fe | f>g ~f2 ed | "F#"e>^d ed ed | ef ~e2 dc |
+   "Bm"dc dc "/A"dc | "/G#"de d2 "/G"cB | "F#"c>d c2 B^A |\
+|1 "Bm"B4 "F#".F2 |2 "Bm"B2 B2 z2 ||
+|: "F#"c>d c^A Fc | "Bm"d>e dc Bd | "A"e>f ec Ac | "D"d>d e2 ^e2 |
+   "F#"f>d' c'3 b | ^ac' g3 e | d>f c2 f2 | "Bm"B2 B2 z2 :|
+K:B
+|: "B"d>f B2 df | "E"e>g c2 eg | "F#"a>c' f2 f/g/=a/^a/ | "B".b z (3d'bf dB |
+   "B"d/e/=e/f/ B2 df | "E"e/f/g c2 eg | "F#"f>g ab c'a | "B"b2 b2 z2 :|

@@ -1,0 +1,27 @@
+X: 4307
+T: Paxton's Humour
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 12/8
+L: 1/8
+K: G
+%
+V: 1
+|:\
+G3 Bcd efg dcB | A3 agf gfe fga |\
+G3 Bcd efg dcB | edc BcA G3 G,3 :|
+|:\
+{a}Tg>fg dgb- bgd bgd | {g}Tf>ef dfa- afd afd |\
+{a}Tg>fg dgb- bgd bgd | {g}Tf>ef agf gdB G3 |]
+%
+V: 2 clef=bass middle=d
+|:\
+g3 g3 g3 g3 | d3 d3 d3 d3 | g3 g3 g3 g3 | c'3 d'3 g3 G3 :|
+g3 g3 g3 g3 | d3 d3 d3 d3 | g3 g3 g3 g3 | d'3 d3 g3 G3 |]
+%%begintext align
+First Man turn his Partner, then both cast off and take hands round .|
+the 2d do the same :|
+then the 1st Cu. cross over and go the figure of 8 between the 2d Cu into the 2d Cu. Place .|
+then right and left with the 2d Cu.
+%%endtext

@@ -1,0 +1,28 @@
+X: 1
+T: Ranting Roaring Willey
+%R: triple hornpipe, slip-jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (113)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: There's no time signature given.
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 9/8
+L: 1/8
+K: Dmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B |\
+AFD D>ED FAB | c>dc GEF G2B | AFD D>ED FAA | d>ed F2G A2A |
+d>ed F2G A2A | c>dc E2F G2B/c/ | d2A B2B B/c/dB | AGF E2D D2 :|
+|: A |\
+d>ef f>ef d2A | c>de ede c2A | d>ef f>ef f>ef | d>ef f>ef d2A |
+d>ef f>ef d2A | c>de e>de c2B/c/ | d2A B2A B/c/dB | AGF E2D D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. cast off and clap Hands then they being in the
+%% 2d Cu. Place the 2d Cu. cast off and do the same :| then
+%% they draw the 1st Cu. into the 2d and the 2d into the 1st
+%% Cu. Places then right and left then the 1st Cu. Cast off
+%% and turn it out :|
+%%endtext
+%%sep 1 8 500

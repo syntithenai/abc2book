@@ -1,0 +1,21 @@
+X: 599
+T: Ve David [in E]
+O: Israel
+Z: 1997 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/abc
+M: 4/4
+L: 1/8
+K: Edor
+"^Intro"\
+|: "Em"E2 E2 "D"D2 (EF) | "Em"G2 A2 (GA) (GF) | E2 E2 "D"DD CD | "Em"E8 :|
+w: Ve Da-vid ye-*fe ey-na-*yim,* hu' ro-'e ba-sho-sha-nim.
+%%sep 5 5 200
+K: Ephr^G=F
+|: "E"EB Bc Bc BA |[1 "Dm"GA GF ED "E"E2 :|[2 "Dm"GA GF ED "E"E3/2E/
+w: Ve Da-vid ye-fe ey-na-yim, hu' ro-'e ba-sho-sha-nim.
+| "Am"EA AA BA "E"B2 | EB Bd "Am"c/B/A "E"B2 ||
+w: Hi-ka Sha-ul be-a-la-fav, ve Da-vid be-ri-ve-vo-tav.
+| "Dm"GG G2 A2 GF | "E"E8 | "E"[GB][GB] [G2B2] "Dm"[A2c2] [GB][FA] | "E"[B8E8G8] |
+w: Ben yi-shai chai ve-kay-yam.  Ben yi-shai chai ve-kay-yam.
+W: And David was pleasing to the eyes, a shepherd among the flowers.
+W: Saul killed thousands, and David tens of thousands.
+W: His sons will live and prosper.

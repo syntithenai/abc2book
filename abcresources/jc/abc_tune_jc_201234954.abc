@@ -1,0 +1,33 @@
+X: 20912
+T: CINDERELLA SETT (tune 5)
+C:
+%R: reel, march
+B: Elias Howe "The Musician's Companion" 1843 p.91 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Initial rest added to 2nd strain, to fix the rhythm.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+c2 |\
+f3a cgec | f6 (ef) | .g2.g2.g2 ab | c'4 a2z2 |\
+g2g^f g2gf | g2a2 b4 | aaba ggag | f2a2f2 H|]
+z2 |\
+CFAc FAcf | Acfa cfac' | c'bba aggf | feed dccB |\
+CFAc FAcf | Acfa cfac' | c'bba aggf | fede "^D.C."f2 |]
+c2 |\
+f2g2 a4 | fAcf a4 | g2a2 b4 | gceg b4 |\
+e2f2 g4 | eGce g4 | cdef g2a2 | f4 "^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies forward and back,
+%% gentlemen the same,
+%% -- all chassa across partners,
+%% all balance to corners,
+%% turn partners,
+%% repeat the figure.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

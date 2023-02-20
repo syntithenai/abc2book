@@ -1,0 +1,26 @@
+X: 1
+T: Lyavo horo
+O: Strandzha, S.E. Thrace
+%%musicspace 0.20cm
+L: 1/8
+M: 9/8
+Z: John Chambers <jc@trillian.mit.edu>
+P: A BC BD BC BD
+K: C
+"A"\
+|: "C"~E2- EG {E}F2 FEC | "Dm"~D2- DC EF ~E2C | "C"~E2- EG .F2 ~E2C |1 "G7".D2 GA ~G2 FED :|2 "Dm"D2- DA, .D2 ~D3 ||
+"B"\
+| "C"E4 {F}G2 (~F2E) | "G7"D2 D2 (DE) (~D2C) | "Am"E2- E2 "C"{F}G2 (~E2C) | "Dm"D4 D2- D3 |
+w: 1.~Dra-ga-no* Dra-gan-ko,* m\`u-ri, is-*lya-zi* na-vun,*
+w: 2.~Kol-ko si* ro-bya ka-*ra-ha, ro-*bya, ro-*bin-ki.*
+w: 3.~Tur-tsi, ya-*na-dol-tsi,* ab-re ba-rem ni ka-*zhe-te,*
+w: 4.~Syan-ka i-*ma-te-li,* ab-re, syan-ka o-re-*ho-va,*
+| "C"E2 E2 {F}G2 (~F2E) | "G7"D2 D2 (DE) (~D2C) |  "Am"E2 E2 "C"{E}F2 (~E2C) | "Dm"D4 D2- D3 ||
+w: 1.~ta da vi-dish,* Dra-gan-ko,* m\`u-ri, kol-ko tur-tsi* i-dat.*
+w: 2.~i si gin-ka* ula-him-ka,* m\`u-ri, nai-na-presh v\`ur-* vya-she.
+w: 3.~k\`u-de-to ni* ka-ra te,* ab-re, de-to ni vo-*di-te.
+w: 4.~o-da i-ma-*te li si,* ab-re, o-da kla-den-*cho-va?
+"C"\
+|: "C"~E2- EC EF ~G2C | "C"GF ~E2 FG FEC | "C"~E2- EC EF ~G2C |1 "C"FE EC "Dm".D2 ~D2C :|2 "C"FE EC "Dm".D2 ~D3 ||
+"D"\
+|: "Dm"~d2 dc ed ~d2c | "(C)"e2 ed ed "Dm"~d2c | "C"ef fe gf fec |1 "Dm"~d2 dg .d2 ~d2c :|2 "Dm"~d2 dg .d2 ~d3 |]

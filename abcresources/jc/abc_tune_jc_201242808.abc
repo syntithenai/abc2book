@@ -1,0 +1,19 @@
+X: 369
+T: Site Momi
+O: Bulgaria
+F: http://www.youtube.com/watch?v=4UYDlgfO3-k
+W: adapted from Martin Junghans/Jutta Weber-Karn transcription
+W: http://www.folkloretanznoten.de/
+M: 9/8
+L: 1/16
+K: F#m
+%%MIDI gchord fzfzfzfz2
+|:"E"edcB B2B2 BABc "A"A2A2"E"G2|G2G2 B2B2 BABc "A"A2A2"E"G2|
+  edcB B2B2 "D"BABc A2A2G2|[1"B"B2B2 BABc "f#m"AGGE F2FGAB:|[2"B"B2B2 BABc "f#m"AGGE F2F2 z2|
+L: 1/8
+|"f#"F2 B2 B B A2 G|A2 B2 B2 A2 G|G2 B2 B c A2 G| G2 F2 F2 F2 z|
+|"Bm"[B,F]2 [DB]2 [B,B] [B,B] "D"[DA]2 [DG] | "Bm"[B,A]2 [B,B]2 [EB]2 "D"[DA]2 [DG]|\
+"Bm"[B,G]2 [B,B]2 [EB] [Fc] "D"[DA]2 [DG]|"E" G2 "F#m"F2 F2 F2 z|
+%%MIDI gchordoff
+|:EG GF FG A2 G|EG GF FG A2 G|\
+|[B,FG][B,FG] [B,FG][B,F] [B,F][B,FG] [DFA]2 [EG]|[EG]2 F2 F2 F2 z:|

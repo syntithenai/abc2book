@@ -1,0 +1,27 @@
+X: 21423
+T: CUCKOO SETT (tune 3)
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.142 #3 (and top staff of p.143)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+A2 |\
+AFDF AGFG | AGFE D2 EF | GECE GECE | GFED C2C2 |\
+DEFG A2d2 | cAGF G2AG | FEFD CDEG | [A2F2]D2D2 H|]
+FG |\
+A2d2d2 (ed) | (cB)(A^G) .A2AB | c2c2c2 (dc) | (BA)(GF) .G2AG |\
+(FE)(FD) (fe)(fd) | (cA)(GF) .G2(AG) | FEFD (CD)(EG) | [A2F2]D2"^D.C."D2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First lady balance to the gentleman on her right,
+%% and swing,
+%% balance to the next, &c.
+%% The other ladies perform the same, then the gentlemen the same
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

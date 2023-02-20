@@ -1,0 +1,29 @@
+X: 481
+T: the Drunken Wife
+T: the Drunken Wifie
+N: The music page has "Wifie"; the table of contents and other sources have "Wife"
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.48 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The bass line is missing the "pickup" rests in both strains; fixed.
+M: C
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+d |\
+cAec dBgB | cAec A/A/A ae |\
+cAec dBgB | cA A/A/A Tf2e :|
+|: (f/g/ |\
+a/g/f/e/) ca B/B/B gB | (a/g/f/e/ a)e Tf2(ef/g/ |\
+a)efc B/B/B gB | cA A/A/A Tf2e :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 b2b2 | a2a2 a2a2 |\
+a2a2 b2b2 | a2a2 a2a :|
+|: z |\
+a2a2 b2b2 | a2a2 a2a2 |\
+a2a2 b2b2 | a2a2 a2a :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

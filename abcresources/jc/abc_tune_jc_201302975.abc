@@ -1,0 +1,53 @@
+
+X: 1
+T: Lo Yissa Goy [Cm]
+T: Vine and Fig Tree
+O: Trad Jewish
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Cm
+%%staffsep 40
+G,CD \
+| "Cm"E2 "G7"D-D "Cm"C2 "G7"D2 | "Cm"E2-E2 zG, CD \
+| "Cm"E2 "G7"D2 "Cm"C2 "G7"=B,2 |1 "Cm"C4 z :|2 "Cm"C6 z2 ||
+|: "Cm"G2 GG G2 G2 | "Fm"A2 G2 F4 \
+| "Bb(G7)"F2 F-F F2 G2 |1 "Eb(Cm)"E2 F2 G4 :|2 "Cm"E2 "G7"D2 "Cm"C :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+T: Lo Yissa Goy
+T: Vine and Fig Tree
+O: Trad Jewish
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dm
+A,DE | "Dm"F2 "A7"E-E "Dm"D2 "A7"E2 | "Dm"F2-F2 zA, DE |
+w: Lo yis-sa goy el* goy che-rev* lo yil-me-
+w: And ev-ery man 'neath his vine and fig tree shall live in
+| "Dm"F2 "A7"E2 "Dm"D2 "A7"^C2 |1 "Dm"D4 z A,DE :|2 D6 z2 ||
+w: du od mil-cha-ma. Lo yis-sa \-ma.
+w: peace and un-a-fraid. And ev-ery \-fraid.
+|: "Dm"A2 AA A2 A2 | "Gm"B2 A2 G4 |
+w: Lo yis-sa goy el goy che-rev
+w: And in-to plow-shares beat their swords,
+| "A7"G2 G-G G2 A2 |1 "Dm"F2 G2 A4 :|2 "Dm"F2 "A7"E2 "Dm"D :|
+w: lo yil-me-du od mil-cha-ma. mil-cha-ma.
+w: Na-tions* shall learn war no more. war no more.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3
+T: Lo Yissa Goy [Em]
+T: Vine and Fig Tree
+O: Trad Jewish
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Em
+B,EF | "Em"G2 "B7"F2 "Em"E2 "B7"F2 | "Em"G4 zB, EF | "Em"G2 "B7"F2 "Em"E2 "B7"^D2 |1 "Em"E4 z B,EF :|2 E6 z2 ||
+|: "Em"B2 BB B2 B2 | "Am"c2 B2 A4 | "B7"A2 A2 A2 B2 |1 "Em"G2 A2 B4 :|2 "Em"G2 "B7"F2 "Em"E :|

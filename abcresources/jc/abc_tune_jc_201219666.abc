@@ -1,0 +1,24 @@
+X: 27
+T: Gramachree Molly
+O: In the Duenna
+%R: hornpipe, reel
+B: "The Hibernian Muse" p.16 #2
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. XXVII.
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F |\
+(c>d)cA (d>e)fd | (c>A)G>A F2zc |\
+(f>e)fg fedc | (dc)fA c2zc |\
+(f>e)fg fedc | dcBA Hd2ze |\
+f>edc d>eHf> d | (c<A) (TG>A) F3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+f2a2 b2B2 | c2c2 Fc fe |\
+d2g2 c'2ba | baf2 zcc'b |
+a2zb c'2za | bagf HB2z2 | a2za bgHdz/ B/ | c2C2 F3 |]

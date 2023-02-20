@@ -1,0 +1,23 @@
+X: 20252
+T: LADY CHARLOTTE BRUCE'S FAVOURITE
+C: Hath. Gow.
+Q: "Slow."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.25 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B |\
+A2(c A/B/c)A | TB2d G2B | A2B {d}cAF | TE2F G2B |\
+A2c (A/B/c)A | TB2d GAB | (c<A)F B<GE | F3 F2 :|\
+f |\
+(e/f/g)e f2c | Td2e f2a | {a}gfg a2f | Te2f g2a |
+(e/f/g)e f2c | {Bc}d2B Acf | (cAF) BGE | F3 F2f |\
+(e/f/g)e f2c | d2e f2a | {a}gfg a2f | e2f (ga)b |\
+afc Td>ef | {d}cBA B>cd | cAF BGE | F3 F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

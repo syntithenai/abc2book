@@ -1,0 +1,29 @@
+X: 1
+T: the Cookow
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.337 "G g"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat added to satisfy the dance instructions.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+cBcd cdcd | edef efef | gfga gagf | edef efef |\
+g2d2 g2d2 | g2d2 g2d2 | c2B>A A3G | G6 :|\
+Bc |\
+d2de dcBA |
+G6 Bc | dB dB dB dB | G6 ef |\
+g2ga gfed | c6 ef | ge ge ge ge | c6 fg |\
+af cf af cf | af cf af ef | g2(fe) d3c | c6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first man goes back to back with the second woman, then turn right-hands with her; the first
+%% woman and second man do the same. The first couple takes both hands and half round and back
+%% again, then cross over and half Figure, then all four quite round. The first Strain twice, and the second
+%% once, and Repeat.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

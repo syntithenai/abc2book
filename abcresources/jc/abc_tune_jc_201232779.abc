@@ -1,0 +1,33 @@
+X: 179
+T: the Game Cock
+T: Longways for &c.
+%R: reel
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.90
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+Bc |\
+A2G2 FGAB | F2 D4 Bc | A2G2 gfgB | c2 e4 dc |\
+d2a2 c2g2 | B2f2 A2e2 | gfed cdec | d2 D4 :|
+|: Bc |\
+A2G2 F2d2 | E2c2 D2B2 | A2G2 F2a2 | BcdB c2B2 |\
+A2G2 FGAF | BcdB cdec | fgaf befc | d2 D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st Cu. Arms half round, then cast off below
+%% the 2d Cu. the same again and cast up .| the 2d
+%% Cu. lead down, fall back, lead thro' the 1st Cu. and
+%% cast off into their own places :| then lead to the
+%% wall and back again, then all four hands a cross
+%% quite round .| the 1st Man and 2d Wo. change
+%% places, then the 2d Man and 1st Wo. change
+%% places, then all four hands half round, the 1st Cu.
+%% cast off :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

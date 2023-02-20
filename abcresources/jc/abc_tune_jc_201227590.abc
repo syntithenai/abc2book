@@ -1,0 +1,35 @@
+X: 1087
+T: Lewis Castle
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+GAG Bcd | g3  b3  | bag fga  | d3  c3 |\
+BAG Bcd |^c2d efg | fed Ad^c | d3- d3 :|
+|:\
+ DFA   dcB  | c3  B3  | edc BAG | FGA D2B/c/ |\
+(dB)g (dB)g | BcB ABc | BAG DGF | G3- G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+G3 z2z | gdB GBd | f3  d3  | fed e2f |\
+g3 G3  | A2B ^c3 | d2g a2A | d2c BAG :|
+|:\
+d3 f2g | agf g2G | c3  G3 | d3  c3  |\
+G3 z2z | G3  d3  | G2c d3 | G2A BAG :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+The 1st & 2d Cu. hands round, the 1st Cu. casts off & hands round with 3d Cu.
+then lead up between the 2d Cu. & cast off. Foot it all four, the 1st Man to
+the 2d Wo. and the 2d Man to the 1st Wo. hands all four across quite round,
+then clap with your Partner 4 times & lead thro' the 3d Cu.
+%%endtext

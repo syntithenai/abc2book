@@ -1,0 +1,34 @@
+X: 1083
+T: Tod's Assembly
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: 2nd part has initial repeat but no final repeat.
+M: 6/4
+L: 1/4
+K: Fdor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c |\
+AFa g2=e | fcd c2B | (AG)F (dc)B | (AG)F =E2c |\
+AFd B2G | ECc A2F | DB,B AGF | F3- F2 :|
+|: c |\
+cB=A cec | dB=A B2B | BG_A BdB | cAG A2c |\
+dcB AGF | =EGB dfa | cBA GF=E | F3- F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+z3 zzc' | afb a2g | f2A Bcd | c2F c2z |\
+f2B d2z | c2A d2z | B3 c3 | f3 F2 :|
+|: z |\
+zzf =A3 | B2f dfd | e2f g3 | a2e cBA |\
+B3 c2d | c3 z3 | AGF c3 | F3- F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First Man sett to the 2d Wo. & turn single, then turn her .|
+the 2d Man do the same :|
+cross over & figure thro' 1st Cu. Right & left quite round .|
+lead thro' 3d Cu. and thro' 2d Cu. then cast off & turn four Partners :|
+%%endtext

@@ -1,0 +1,19 @@
+%%staffwidth 300
+X:1
+T: TEST: Vocal SATB score.
+N: All parts written "on the staff" without commas.
+N: All parts should show scale from low C to high c'.
+K: C
+V:1 name="soprano" clef=treble   middle=B
+V:2 name="alto"    clef=treble   middle=B
+V:3 name="tenor"   clef=tenor    middle=B
+V:4 name="bass"    clef=bass     middle=d
+%
+[V:1] | CDEF GABc | cdef gabc' |
+w:  C D E F  G A B c |  c d e f  g a b c' |
+[V:2] | CDEF GABc | cdef gabc' |
+w:  C D E F  G A B c |  c d e f  g a b c' |
+[V:3] | CDEF GABc | cdef gabc' |
+w:  C D E F  G A B c |  c d e f  g a b c' |
+[V:4] | CDEF GABc | cdef gabc' |
+w:  C D E F  G A B c |  c d e f  g a b c' |

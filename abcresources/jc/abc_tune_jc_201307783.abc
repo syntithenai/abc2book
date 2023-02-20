@@ -1,0 +1,14 @@
+X: 1
+T: Masbo Polketten No. 1
+C: Trad.
+R: 1/4=112
+S: http://www.nyckelharpa.org/archive/written-music/american-allspel-list/ 2022/9/25
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: 1/4=112
+K: C
+"^A"\
+|: "C"G2c2 e2c2 | c2Bc "G7"d2G2 |1 "G7"B2d2 f2B2 | "(C)"(dc)Bc "C"e2c2 :|2 "G7"B2d2 f3B | "(C)"d2c2 "C"c4 "^B":: "F"f2f2 a3f |
+| "C"f2e2 g3e | "G7"e2d2 (fd)Bd | "C"d2c2 (ec)eg || "F"g2f2 a3f | "C"f2e2 g3e | "G7"e2d2 (fd)Bd | "(C)"d2c2 "C"c4 :|
+N: The original has lots of harmony notes, mostly an octave lower; this version has only the melody.

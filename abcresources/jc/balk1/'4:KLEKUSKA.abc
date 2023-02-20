@@ -1,0 +1,16 @@
+X: 274
+T: Klekuska
+O: Macedonia
+M: 4/4
+L: 1/16
+Q: 1/4=108
+K: Cm =A
+%%MIDI 71  clarinet
+%%MIDI trim 7/8
+%%MIDI drum d3d2d2 35 35 35  100 70 60
+%%MIDI drumon
+c3B ABcd e4 d4|c3B ABcd e4 d4|\
+c3B ABcd e4 d4|c3B ABcd c2c2 c4::
+K:C_B
+c3B ABcd efg2e4|c3B ABcd efg2e4|\
+c3B ABcd efg2e4|c3B ABcd c2c2c4:|

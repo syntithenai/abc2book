@@ -1,0 +1,23 @@
+X:1
+T: Moggy Laughter
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 210
+%W: A1                                                                      B1
+% voice 1 (1 lines, 52 notes)
+K:G
+M:4/4
+L:1/16
+G2 z2 G2 z2 G2 z2 G2 z2 |A3 B A3 G F4 A4 |B2 G2 G2 G2 G4 G4 |d3 e d3 c B4 c4 |d3 e d3 B c4 B4 |A3 B A3 E F4 A4 |B3 c B3 G c4 B2 A2 |B c d2 A2 B2 G4 G4 |
+%W: B2                                                                      A2
+% voice 1 (1 lines, 52 notes)
+d3 e d3 B c4 B4 |A3 B A3 E F4 A4 |B3 c B3 G c4 B2 A2 |B c d2 A2 B2 G4 G4 |G2 z2 G2 z2 G2 z2 G2 z2 |A3 B A3 G F4 A4 |B2 G2 G2 G2 G4 G4 |d3 e d3 c B4 c4 |
+%W: B3                                                                      B4
+% voice 1 (1 lines, 52 notes)
+d3 e d3 B c4 B4 |A3 B A3 E F4 A4 |B3 c B3 G c4 B2 A2 |B c d2 A2 B2 G4 G4 |d3 e d3 B c4 B4 |A3 B A3 E F4 A4 |B3 c B3 G c4 B2 A2 |B c d2 A2 B2 G4 G4 ||

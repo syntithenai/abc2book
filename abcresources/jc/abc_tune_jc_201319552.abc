@@ -1,0 +1,38 @@
+X:1
+T: Old Hob
+N:
+C:
+S:aka The Mouse Trap
+A:
+O:
+R:
+M:6/8
+K:D
+I:speed 150
+%W:             A1
+% voice 1 (1 lines, 20 notes)
+K:D
+M:6/8
+L:1/16
+D2 |D4 E2 F4 G2 A4 B2 c3 B A2 B2 c2 d2 e2 c2 A2 A2 d4d4 D2 |
+%W:
+% voice 1 (1 lines, 19 notes)
+D4 E2 F4 G2 A4 B2 c3 B A2 B2 c2 d2 e2 c2 A2 A2 d4d4 D2 |
+%W:         A2
+% voice 1 (1 lines, 19 notes)
+D4 E2 F4 G2 A4 B2 c3 B A2 B2 c2 d2 e2 c2 A2 A2 d4d4 D2 |
+%W:
+% voice 1 (1 lines, 20 notes)
+D4 E2 F4 G2 A4 B2 c3 B A2 B2 c2 d2 e2 c2 A2 A2 d4d4 c d |
+%W:         B1
+% voice 1 (1 lines, 17 notes)
+e2 c2 A2 d3 e f2 B6 g6 f2 e2 d2 e3 d e2 A6A4f2|
+%W:
+% voice 1 (1 lines, 20 notes)
+g4 f2 e4 d2 c3 d e2 A4 A2 B3 c d2 e2 c2 A2 A2 d4d4 c d |
+%W:         B2
+% voice 1 (1 lines, 17 notes)
+e2 c2 A2 d3 e f2 B6 g6 f2 e2 d2 e3 d e2 A6A4f2|
+%W:
+% voice 1 (1 lines, 18 notes)
+g4 f2 e4 d2 c3 d e2 A4 A2 B3 c d2 e2 c2 A2 A2 d4d4 ||

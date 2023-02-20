@@ -1,0 +1,52 @@
+X:1							% Reference Number
+T:Daniel Fellowship
+T: Theme Song
+C:
+Z: Contributed 2008-06-07 00:40:39 by ming tsang tsang94@rogers.com
+K:
+%  N: 				% Notes
+%  S:Music Source: Hymnal 		% Source
+Q:1/4=100					% Tempo
+M:3/4						% Meter
+L:1/4						% Default note length
+%%staves  ss
+V:ss Clef=treble
+V:aa Clef=treble up  merge
+K:G						% Key
+% ABC tune notation
+%%MIDI PROGRAM 1 0 % Piano 1
+%   %MIDI PROGRAM 2 0 % Piano 1
+%
+% 1
+[V:ss] D|  B2 B  | A2 (G/F/)   | G2 A   | F2 D   |
+w:  5 3 3 2 1 7 1 2 7 5
+w:  5 3 3 2 1 7 1 2 7 5
+% 6
+[V:ss] (E F) G  | (G A) B  | A3  | z z D   |
+w:  6 7 1 1 2 3 2  5
+w:  6 7 1 1 2 3 2  5
+% 10
+[V:ss] B2 B | A2 (G/F/)   | G2 A   | F2 D   |
+w:  3 3 2 1 7 1 2 7 5
+w:  3 3 2 1 7 1 2 7 5
+% 14
+[V:ss] E F G |  (A E) F | G3   | z z (B/d/)   |
+w:  6 7 1 2 6 7 1   3 5
+w:  6 7 1 2 6 7 1   3 5
+% 18
+[V:ss] e2 e  | d2 (B/A/)   | B2 A   | G2 B/d/   |
+w:  6 6 5 3 2 3  2 1  3 5
+w:  6 6 5 3 2 3  2 1  3 5
+% 22
+[V:ss] e2 e  |d2  (B/A/)  | B3   | z z (B/d/)   |
+w:  6 6 5 3 2 3     3 5
+w:  6 6 5 3 2 3     3 5
+% 26
+[V:ss] e2 e | d2 (B/A/) | B2 A | G3 |
+w:  6 6 5 3 2 3  2 1
+w:  6 6 5 3 2 3  2 1
+% 30
+[V:ss]  E F G | (A E) F   | G3   | z z   |
+w:  6 7 1 2 6 7 1
+w:  6 7 1 2 6 7 1
+%End of file

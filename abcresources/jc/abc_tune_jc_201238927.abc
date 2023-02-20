@@ -1,0 +1,33 @@
+X: 315
+T: Freilakhs "Shmaravoznik
+N: Cf. Henry Weinstein's
+R: freilach
+Q: 1/4=120
+B: German Goldenshteyn "Shpilt klezmorimlach klingen zoln di gesalach" New York 2003 v.3 #15
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Em
+%stretchlast no
+%"A"[|]
+z(B^AB c^cd^d) [| (e^d)eB- B4- | B2^A2 B4 |\
+=G^FGE- E4 | D2D2^F2=G2 | A6 B2 | (3(B2^A2)=G2 (3(G2^F2)E2 |\
+[1 ^A2 B6 :|\
+[2 E8- | E2E2F2E2 ||
+%"B"\
+|:\
+G4 A4 | A2G2 F2E2 | A2 G6- | G2E2F2E2 | G4 A4 | {c}B2E2 c2B2 | A8- | A2A2B2c2 | d4 c4 | B4 A2G2 |\
+B2 G6- |\
+[1 G4 z2F2 | D4 E2F2 | G6 F2 | E8- | E4 z2E2 :|
+[2 G2E2 F2E2 | D4 E2F2 | G2A2 G2F2 | E8- | E2 e2e2e2 \
+%"C"
+|:\
+e3E E4- | E2B2 d2c2 | c2 B6- |\
+B2e2e2e2  | e4 E4 | {d}c2B2 A2G2 | A8- |\
+A2A2B2c2 | d4 c4 |
+B4 A2G2 | B2 (G6 |\
+[1 G2)E2F2E2 | D4 E2F2 | G2A2 G2F2 | E8- | E2 e2e2e2 :|\
+[2 G2E2F2E2 | D4 E2F2 | G2A2G2F2 | "da Capo"E8 |]
+["Coda" D4 E2F2 | G6 F2 | D4 E2F2 | G6 F2 |\
+D4 E2F2 | G6 E2 | e8- | e4 z2 |]\
+y16 y16 y16 y16 y16 y16 y16 y16 y16 y16

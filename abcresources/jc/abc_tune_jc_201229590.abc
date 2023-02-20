@@ -1,0 +1,20 @@
+X: 126006
+T: MISS GAYTON'S HORNPIPE
+R: Hornpipe.
+%R: hornpipe, reel
+B: James Kerr "Merry Melodies" v.1 p.26 s.0 #6
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The (.*.*) notation is used for the straight-line slurs in this tune.
+M: 2/4
+L: 1/16
+K: G
+(dc) |\
+Bdgf g2(dc) | Bdgf g2(d^c) |\
+dfag fed^c | dfag fedc |\
+Bdgf g2(dc) | Bdgf g2d2 |\
+efge fgaf | g2b2g2 :|
+|: (ga) |\
+b2bg a2af | (gf)ge d2dB |\
+c2ec B2dB | AGAB A2(ga) |\
+b2bg a2af | (gf)ge (.d2.d2) |\
+efge fgaf | g2b2g2 :|

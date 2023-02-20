@@ -1,0 +1,19 @@
+X: 450
+T: Tasino
+O: Serbia & Macedonia
+S: Atanas Kolarovski - music AK-003
+F: http://www.youtube.com/watch?v=ZlYfZBeNd1U
+M: 6/8
+L: 1/8
+Q: 1/4=180
+K: F
+%%MIDI program 64
+%%MIDI beat 97 87 77 3
+%%MIDI gchord fzzfzz
+%%MIDI bassprog 24
+%%MIDI bassvol 50
+|: "F"F3 EFG  | F3 EFG     | F3 EFG     |F3 B3      |
+   D3 CD_E    | D3 CD_E    | D3 B,CD    |C3 F3    :|
+%%MIDI program 57
+|: "Gm"C3 FGB |"Am" A3 AGF |"Gm" C3 FGB |"Am"A3 c3  |
+   "Gm"C3 FGB |"Am" A3 AGF |"Gm" C3 FGA |"Gm"G3 G3  :|

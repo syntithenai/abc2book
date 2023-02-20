@@ -1,0 +1,29 @@
+X:435
+T:Maggie's Moving On
+C:Colin Hume, 1998
+H:For Maggie Grant of New Jersey.
+H:The tune also "moves on", going through various keys and not getting back to where it started.
+M:3/4
+L:1/4
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%MIDI beat 100 95 80
+Q:1/4=125
+K:D
+P:A
+|: "D"A3/ F/ A | "Bm"d2 c | "G"B3/ c/ d | "A7"A/F/- F E |\
+"Bm"D d c | "G"B3 | "Em"B e d | "A7"c2 B |
+%%vskip 20
+"D"A3/ F/ A | "Bm"d2 e/f/ | "Em"g e3/ d/ | "A7"d c3/ B/ |\
+"D"A d f | "Em"g B2 | "A7"A e3/d/ | "D"d3 :|
+P:B
+|: "Am"=c e c | "Dm"B A2 | "B7"A B F | "Em"A G2 |\
+"C"G A3/ E/ | "D7"G F G/A/ | "G"B d =c/B/ | "D"A3 |
+%%vskip 20
+"Dm"d =f d | "A7"d c2 | "F#7"c e c | "Bm"c B2 |\
+"G"B d2 | "E7/G#"B d2 | "A"c e d/c/ | "E7"B3 :|
+P:C
+|: "A"A3/ B/ c | "Bm"d B2 | "E7"B3/ c/ d | "A"f e2 |\
+"D"f3/ ^g/ a | "A"e c B | "F#m"A3/ B/ c | "E7"B3 |
+%%vskip 20
+"A"E3/ C/ E | "F#m"A2 ^G | "D"F3/ ^G/ A | "E7"E/C/- C B, |\
+"F#m"A,3/ B,/ C | "Bm"D/B/- B2 | "E7"^G,3/ A,/ B, | "A"A,3 :|

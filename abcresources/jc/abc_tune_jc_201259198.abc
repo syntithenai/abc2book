@@ -1,0 +1,69 @@
+
+X: 1
+T: Calliope House   [E]
+C: Dave Richardson
+R: jig
+N: Calliope House is a folk center in Pittsburgh.
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: E
+zB | "E"eBB gBB | "(B7)"fBB "E"gBB | "F#m"cff f2e | "B"fge cec | "E"BcB B2G | B2c e2f |
+   |1 "A"gbg gfe | "B7"f3- f :|2 "A"gbg "B7"fec | "E"e3- e |: ga | "E"b3 gbb | "(B7)"fbb "E"[ge]bb | "A"a3 gag |
+   | "B7"fgf fec | "E"BcB B2G | "(C#m)"B2c e2f |1 "A"gbg gfe | "B7"f3- f :|2 "A"gbg "B7"fec | "E"e3- e |]
+
+
+X: 34
+T: Andy Dejarlis
+O:possibly by Andy Dejarlis
+B: BSFC Session Tune Book 2016 p.60
+B: BSFC Tune Book XXXIII-10
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M:6/8
+L:1/8
+R:Jig
+K:E
+z |\
+"E"EGB EGB | "E"EGB "A"c2B | "E"EGB EGB | "D"=DFA "(B7)"B2A |\
+"E"EGB EGB | "E"EGB "A"c2a | "E"g2f "B7"Bcd | "E"e3 e2 :|
+|: a |\
+"E"gbg efg | "A"{g}b2a c3 | "F#m"f2g f2e | "B7"dcB c2B |\
+"E"gbg efg | "A"{g}b2a c2g | "B"g2f Bcd | "E"e3 e2 :||
+
+
+X: 1
+T: All the Rage   [E]
+C: Larry Unger 1989
+%date: 1989
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: E
+e \
+| "E"fgg gfe | fgg g2e | "A"cee "E"Bee | "F#m7"gfe "B7"f2e \
+| "E"fgg gfe | fgg g2b | "(A)"gfe "B7"fed | "E"e3- e2 :|
+|: e \
+| "A"cee "E"Bee | "A"cee "E"B2e | "A"ece "F#m7"fef | "E"gbg "B7"f2e \
+| "A"cee "E"Bee | "A"cee "E/G#"B2b | "F#m"gfe "B7"fed | "E"e3- e2 :|
+
+
+X: 1
+T: the New Fiddle
+C: Dan R. MacDonald (Cape Breton)
+S: Jerry Holland's Second Collection of Fiddle Tunes
+S: BSFC Tune Book p.61 #2
+O: 2000
+R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: E
+a |\
+"E"Tg2e ede | BGE EGB | "D"=dcB AFD | A,=DF A=df |\
+"E"Tg2e ede | BGE EGB | "D"=dcB AGF | "E"TE3 E2 :|
+a |\
+"E"gbe bge | Bba gfe | "D"=dcB AFD | A,=DF A=df |\
+"E"gbe bge | Bba gfe | "D"=dcB AGF | "E"TE3 E2 |]
+a |\
+"E"gbe bge | Bba gfe | "D"=dcB AFD | A,=DF A=df |\
+"E"gbg "B7"faf | "E"eba gfe | "D"=dcB AGF | "E"TE3 E2 |]

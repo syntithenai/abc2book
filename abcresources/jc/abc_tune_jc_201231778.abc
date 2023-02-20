@@ -1,0 +1,21 @@
+X: 15
+T: Rakes of Dublin
+%R: jig
+B: "Twenty Four Country Dances for the Year 1782", Thomas Skillern, ed. p.8 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1782#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+E |\
+EFA ABc | Bdc cAF | EFA ABc | def e2e |\
+(f/e/f/g/)a edc | Bdc cAF | EFA ABc | cdB [A2E2A,2] :|
+|: e |\
+(a/g/a/b/)a aec | Bbb baf | efa aec | (a/g/a/)b/a aec |\
+def efg | a2c cBA | def efF | EFA [A2E2A,2] :|
+%%begintext align
+%%   First Cu. hands three
+%% with the 2d Lady then with the
+%% 2d Gent: Lead down the middle
+%% up again and Cast off
+%%endtext

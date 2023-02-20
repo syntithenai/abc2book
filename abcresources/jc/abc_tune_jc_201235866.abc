@@ -1,0 +1,15 @@
+X: 21422
+T: We'll Kiss the world before us
+%R: slip-jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.142 #2
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 9/8	% The book has 6/8
+L: 1/8
+K: Ddor
+"_Brisk"\
+   e | f2d e^cA Ace | f2d ge^c d2e | f2d (e/f/g)e cde | (f/g/a)f ge^c | d2 :|
+|: e | (f/g/a)f ged cde | (f/g/a)f gec g2e | (f/g/a)f ged cde | f2d ge^c d2 :|
+|: e | fda fda ece | fda ^cAc d2e | f2d (e/f/g)e cag | fed e^cA d2 :|
+|: e | faf c'af gec | faf c'af g2c | faf _bgf eag | Tf2d ge^c d2 :|
+|: e | fdd ddd A^ce | fdd A^ce dfa | fdd ddd A^ce | dfa ge^c d2 :|
+|: e | fff faf gec | fff faf g2c | fga _bgf eag | fed e^cA d2 :|

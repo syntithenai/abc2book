@@ -1,0 +1,61 @@
+
+X: 1
+T: the Ashford Anniversary   [G]
+O: ca. 1580
+S: Jacob Paix 1583
+S: Pierre Phal\`ese ca. 1580
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Barnes v.2 p.5
+P: 3 times
+M: C
+L: 1/8
+K: G
+|:\
+"G"G2G2 A2G2 | "G"G2D2 "D7"D2EF |\
+"G"G2G2 A2G2 | "D7"D4 D4 :|
+|:\
+"G"B2B2 B2AB | "C"c2B2 "(D7)"A2G2 |\
+"G"B2B2 B2AB | "C"c2B2 "D7"A2c2 |\
+"G"B2G2 "D7"A2GF | "G"G4 G4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: the Ashford Anniversary   (A)
+O: ca. 1580
+S: Jacob Paix 1583
+S: Pierre Phal\`ese ca. 1580
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Barnes v.2 p.5
+P: 3 times
+M: C
+L: 1/8
+K: A
+|:\
+"A"A2A2 B2A2 | "A"A2E2 "E7"E2FG |\
+"A"A2A2 B2A2 | "E7"E4 E4 :|
+|:\
+"A"c2c2 c2Bc | "D"d2c2 "(E7)"B2A2 |\
+"A"c2c2 c2Bc | "D"d2c2 "E7"B2d2 |\
+"A"c2A2 "E7"B2AG | "A"A4 A4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: the Ashford Anniversary   (D)
+O: ca. 1580
+S: Jacob Paix 1583
+S: Pierre Phal\`ese ca. 1580
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Barnes v.2 p.5
+P: 3 times
+M: C
+L: 1/8
+K: D
+|:\
+"D"d2d2 e2d2 | "D"d2A2 "A7"A2Bc |\
+"D"d2d2 e2d2 | "A7"A4 A4 :|
+|:\
+"D"f2f2 f2ef | "G"g2f2 "(A7)"e2d2 |\
+"D"f2f2 f2ef | "G"g2f2 "A7"e2g2 |\
+"D"f2d2 "A7"e2dc | "D"d4 d4 :|

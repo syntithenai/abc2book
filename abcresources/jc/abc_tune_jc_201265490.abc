@@ -1,0 +1,38 @@
+X:1
+T: Crown the Year
+N:
+C:
+S:
+A:
+O:
+R:
+M:3/2
+K:D
+I:speed 250
+%W: A1
+% voice 1 (1 lines, 20 notes)
+K:D
+M:3/2
+L:1/16
+d4 B4 ||f8 |f4 c4|c4 f4 |B16 |f8 |g4 f4 |e8|e4 d4 |c16 |c8 |d12 |e4 c6 |d2
+%W:
+% voice 1 (1 lines, 15 notes)
+e16 |e8 |f8 |g4 f4|f4 e4 |g12 |f4 e8 |d16 |c4 B4 |f12|f12 |
+%W: A2
+% voice 1 (1 lines, 18 notes)
+f8 |f4 c4|c4 f4 |B16 |f8 |g4 f4 |e8|e4 d4 |c16 |c8 |d12 |e4 c6 |d2
+%W:
+% voice 1 (1 lines, 15 notes)
+e16 |e8 |f8 |g4 f4|f4 e4 |g12 |f4 e8 |d16 |c4 B4 |f12|f12 |
+%W: B1
+% voice 1 (1 lines, 21 notes)
+f8 |f4 e4|e4 f4 |g4 f4 |e8 |d8 |d8 |e4 f4 |e4 a4 |b16 |g8 |f6 |g2 f6 |c2 d8 |
+%W:
+% voice 1 (1 lines, 18 notes)
+e6 |f2 e6 |B2 c8 |d8 |c4 d4|d4 B4 |^A16 |c8 |d8|d4 c4 |B8 |b12|b12 |
+%W: B2
+% voice 1 (1 lines, 21 notes)
+f8 |f4 e4|e4 f4 |g4 f4 |e8 |d8 |d8 |e4 f4 |e4 a4 |b16 |g8 |f6 |g2 f6 |c2 d8 |
+%W:
+% voice 1 (1 lines, 18 notes)
+e6 |f2 e6 |B2 c8 |d8 |c4 d4|d4 B4 |^A16 |c8 |d8|d4 c4 |B8 |b12|b12 ||

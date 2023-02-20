@@ -1,0 +1,17 @@
+X: 1
+T: Christmas in Killarney    [A]
+C: John Redmond, James Cavanaugh, Frank Weldon
+R: jig
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+%%continueall 0
+f |\
+"A"e2A A2A | e2A A2A | "D"fed fed | "A"e2A A2A | "D"f2g a2g | "A"f2e z2A |
+"B7"BcB "E7"A2G | "A"A3 z2 |] f | "A"e2A A2A | e2A A2A | "D"fed fed | "A"e2A A2A |
+"D"f2g a2g | "A"f2e "F#m"c2A | "B7"BcB "E7"A2G | "A"A3 z2 |] c | "F#m"c2f f2g | a2f z2g |
+"D"a2g f2g | "F#m"c3 z2c | "E"B2e e2f | g2B B2B | "F#m"a2a "B7"g2f | "E"e3 "E7"z2 |]
+f |\
+"A"e2A A2A | e2A A2A | "D"fed fed | "A"e2A A2A | "D"f2g a2g | "A"f2e z2A |
+c2c "E7"d2"A7"e | "D"f3 "Bm"z2g | "D"a2g "D#dim"a2f | "A"e2a "F#m"z2A | "B7"BcB "E7"A2G | "A"A3 z2 |]

@@ -1,0 +1,19 @@
+X:498
+T:Mrs Booth's Minuet
+C:John Young, c. 1719
+L:1/4
+M:3/4
+%%MIDI beat 100 95 80
+%%MIDI gchord bff
+%%MIDI program 69
+%%MIDI chordprog 7
+%%MIDI bassprog 44
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=115
+K:F
+P:A
+|: "F"a "C/E"e3/d/4e/4 | "Dm"f "Am/C"c3/B/4c/4 | "Bb"d "F/A"c "C7/G"B | "F"AG/A/F |\
+"F"a "C/E"e3/d/4e/4 | "Dm"f "Am/C"c3/B/4c/4 | "Bb"d "C"c/B/A/G/ |1 "F"F/c/d/e/f/g/ :|2 "F"F/E/F/G/"G7"A/=B/ |
+P:B
+|: "C"cC-"C/B"C/=B,/4C/4 | "Am"cC-"Am/G"C/=B,/4C/4 | "F"f"C/G"e"E7/G#"d | "Am"ed/e/c |\
+"G"gd-"G/F#"d/^c/4d/4 | "Em"e=B-"Em/D"B/A/4B/4 | "C"c"Dm"f"G"d | "C"c/d/e/f/g/e/ :|

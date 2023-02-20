@@ -1,0 +1,1200 @@
+X:200
+T:B200-  How Lovely's a Woman
+Q:1/4=120
+L:1/4
+M:6/4
+K:G
+d|efgfdB|cdeA2B/2B/2|cdefga|d3/2e/2^cd2e/2f/2|\
+g3/2f/2edBG|cBA=f2A/2B/2|cdedBc|A3/2G/2FG2|]
+
+X:201
+T:B201-  How Unhappy a Lover Am I
+Q:1/4=120
+L:1/4
+M:3/4
+K:Dm
+D/2E/2|F3/2G/2A|F3/2E/2F|(D3|D2)A/2B/2|\
+c3/2B/2A|dde|(^c3|c2)d/2c/2|\
+B3/2A/2G|c3/2B/2A|GAF|E3/2D/2C|\
+FGA|BG3/2F/2|(F3|F2)":s:"d/2e/2|\
+f3/2e/2d|efd|(^c3|c2)A/2B/2|
+c3/2B/2A|^F3/2G/2A|(B3|B2)A/2G/2|\
+F3/2E/2F|GAB|ABc|=B2e/2f/2|\
+^c3/2d/2e|f3/2e/2^c|(d3|d2)|]
+
+X:202
+T:B202-  How unhappy is Phyllis in love, or Let Oliver now...
+Q:1/4=120
+L:1/4
+M:3/4
+K:Dm
+A|dde|^c3/2B/2c|dAd|dff|\
+^c3/2B/2c|d2||A|dde|^c3/2B/2c|\
+dAd|def|^c3/2B/2c|d2||A|\
+dde|fef|gef|gga|\
+f2e|f^cd|eef|e3|\
+^c3/2B/2c|dd2|eef|e3|^c3/2B/2c|d2|]
+
+X:203
+T:B203-  How vile are the sorid intrigues (of the town)
+Q:1/4=120
+L:1/4
+M:6/4
+K:Gm
+D.|G3/2A/2Bc/2A3/2B|A3/2B/2G^F3|(G/2A/2)B(A/2B/2)cB|\
+A/2D3/2^FG2A|B3/2c/2dd3/2B/2d|c/2A3/2cB2A|\
+(B/2c/2)dB(d/2e/2)fd|B2AB3||(d/2e/2)fdf3/2e/2d|\
+c/2A3/2cB2A|B/2A3/2BA2G|(^F/2G/2)AFD3|(D/2E/2)FF(G/2A/2)BB|\
+A2Gf3|d3/2c/2Bc/2A3/2B|A2Gg3|f3/2e/2dg/2d3/2(c/2B/2)|\
+A2GG3|]
+
+X:204
+T:B204-  The hunt is up
+S:(1st/2)
+Q:1/4=120
+L:1/8
+M:6/8
+K:Dphrygian
+zB,C DEF|zB,C DEF|zGFE2D|CC2C2C|\
+GG2G2G|FF2F2F|FED zDz|(D3D3)|]
+
+X:205
+T:B205-  The hunt is up
+S:(2nd/2)
+Q:1/4=120
+L:1/4
+M:C|
+K:C
+c3/2G/2 E/2F/2G|c3/2G/2 E/2F/2G|AGFE|D2DC|\
+CE/2D/2EF/2E/2|FB/2D/2DG|FED/2C/2D|C2C2|]
+
+X:206
+T:B206-  Hyde Park
+Q:1/4=120
+L:1/4
+M:6/4
+K:Bb
+deffdB|defc2B|dcdefd/2e/2|fc3/2B/2B3:|\
+c3/2d/2ccAF|FGAABc|Bcddef|fefd3/2c/2B|\
+cdee3/2f/2e|cdec3/2B/2A|BBcdde|fc3/2B/2B3|]
+
+X:207
+T:B207-  I am a poor and harmless maid, or In my freedom is all..
+Q:1/4=120
+L:1/4
+M:3/2
+K:Dm
+ddd|d2e2^c3/2d/2|d3ccc|c2d2B3/2A/2|A3:|\
+AAA|A2(=B/2c/2 d)c3/2e/2|=B3ccc|c2A2G3/2F/2|\
+F3FFG|A3/2A/2 (=B/2c/2)d^c3/2c/2|d3|]
+
+X:208
+T:B208-  I am come to lock all fast
+Q:1/4=120
+L:1/4
+M:C|
+K:Dm
+Add3/2e/2|^cee2|(e/4f/4g/2) (f/2e/2) (f/2e/2) (f/2d/2)|\
+(^c/2d/2) (e/2d/2)d2|A3/2d/2=Be|(d/2c/2) (d/2=B/2)c2|\
+(f/2e/2) (d/2c/2) (d/2=B/2) (c/2A/2)|(^G/2A/2) (=B/2A/2)A2|\
+zefd|zfge|a3/2g/2f(e/2d/2)|(e/2f/2) (e/2d/2)^c (=B/2A/2)|\
+(A/2G/2) (F/2E/2) (F/2G/2)A|\
+(e/2d/2) (^c/2=B/2) (c/2d/2) (e/2c/2)|\
+(d/4e/4f/2) (e/2d/2) dd|]
+
+X:209
+T:B209-  I am confirmed a woman can
+Q:1/4=120
+L:1/4
+M:3/2
+K:C
+c2c2c2|A6|G2A3B|c6|\
+c2A2d2|c4(G2|G2)A3G|G6:|\
+d2d2e2|c4(d2|d2)B3A|d6|\
+d2B3A|G4(c2|c2)D3c|c4G2|\
+c4B2|A4G2|G2AGF2|E6|\
+F2G2A2|F3EFG|E2D3C|C6|]
+
+X:210
+T:B210-  Pauls Steeple (I am the Duke of Norfolk)
+S(1st/2) see John Anderson, My Jo
+Q:1/4=120
+L:1/4
+M:C|
+K:Gm
+GGGG|B3c/2B/2|AFFF|F3F|\
+GGGA|B3c|dddd|d3c|\
+BBBB|B3B|cccc|c3c|\
+d2cB|AGA2|=BGGG|G4|]
+
+X:211
+T:B211- I am the Duke of Norfolk
+S:(2nd/2) see also John Anderson, My Jo, + Sound a Charge(2)
+Q:1/4=120
+L:1/4
+M:C
+K:Gm
+G|G^FGA|B2BB|AFFF|F2^FD|\
+G2GA|B2AG|D2D2|D2de|\
+fdBd|f3d|cAFA|c2Bc|\
+ddcB|A2G^F|G2G2|G3|]
+
+X:212
+T:B212-  I live not where I love
+S:(1st/3) by Morley, for 1st bk. of Ayres, 1600
+Q:1/4=120
+L:1/4
+M:C|
+K:G
+BdcB|dAGG|dg^fd|e3/2d/2d2::\
+cegG|BdA2|ceBd|A3/2G/2G2:|]
+
+X:213
+T:B213-  I live not where I love
+S:(2nd/3)
+Q:1/4=120
+L:1/4
+M:3/2
+K:D dorian
+BcA|G2ABcA|B2cdef|d2B2cA|G3:|]
+dde/2^f/2|g2BBcd|e3de^f|g3a/2g/2 ^f/2e/2 f/2e/2|d3|]
+
+X:214
+T:B214-  I live not where I love
+S:(3rd/3)
+Q:1/4=120
+L:1/4
+M:3/2
+K:G
+ddB|(GF)GBcA|B2cde=f|d2B2cA|G3:|\
+^cde|=f2efge|^c2cAde|=f2(e/2f/2)gf(e/2d/2)|d3ddB|\
+(GF)GBcA|B2cde=f|d2B2cA|G3|]
+
+X:215
+T:B215- I loathe that I did love
+S:(1st/2)
+Q:1/4=120
+L:1/4
+M:C|
+K:C
+G|G3/2G/2G^F/2E/2|G2zG|GGcc|B2zG|\
+cBA(G|G)DE(F/2G/2|AG2F)|G3(G/2A/2|\
+Bc)dG|ccBe|dccB|.c3|]
+
+X:216
+T:B216- I loathe that I did love
+S:(2nd/2)
+Q:1/4=120
+L:1/4
+M:4/2
+K:Am
+A2AAc2B2|A6G2|c3cd2B2|(c4c4)|\
+A2c3cBA|c2c2B2A2|A3GG2A2|.(A4A4)|]
+
+X:217
+T:B217-  I love you more and more each day
+S:(1st/2)
+Q:1/4=120
+L:1/4
+M:C|
+K:C
+g/2|f(d/2c/2)g(f/2e/2)|(d/2e/2) (d/2c/2)B2|\
+c(B/2A/2) f(e/2d/2)|d2c3/2c/2|\
+e(d/2c/2)d(c/2B/2)|c3/2d/2B3/2d/2|\
+e/2d/2 (c/2B/2)A (B3/4c/4)|A2G3/2||d/2|\
+BGc3/2c/2|(c/4d/4e/2) (d/2c/2)A3/2f/2|\
+(f/4g/4a/2) (g/2f/2) (e/2^c/2) (d/2e/2)|e2d3/2d/2|\
+AdB3/2g/2|dge(g/2f/2)|(e/2d/2) (c/2B/2)A(f/2e/2)|\
+(d/2c/2) (B/2A/2)Gc3/4d/4|d2c3/2|]
+
+X:218
+T:B218-  I love you more and more each day
+S:(2nd/2)
+Q:1/4=120
+L:1/4
+M:C|
+K:Gm
+d/2|d3/2d/2ee|c3/2c/2d3/2d/2|B3/2B/2 (A/4B/4c/2) (B/2A/2)|\
+A2G3/2d/2|d3/2=e/2ff|(=e/2f/2) (e/2d/2)^c3/2=e/2|\
+a(a/2g/2)f3/2=e/2|=e2d3/2|||f/2|fe/2d/2)g3/2f/2|\
+e3/2d/2c3/2c/2|cde3/2d/2|c2B3/2B/2|\
+(B/4c/4d/2) (c/2B/2)G3/2B/2|(A/4B/4c/2) (B/2A/2)^F3/2d/2|\
+edc(B3/4A/4)|A2.G3/2|]
+
+X:219
+T:B219-  I loved thee once, I'll love no more
+Q:1/4=120
+L:1/4
+M:6/4
+K:Dphrygian
+D|D2AA2G|F3/2G/2AG2E|F2GA3/2B/2c|dA2D2:|\
+c|cccc2c|c2de2e|f3/2e/2fg3/2f/2g|ae2d3|\
+cccc2c|c3/2d/2 e/2f/2g2d|dA2A3/2G/2F|GA2D2|]
+
+X:220
+T:B220-  I never saw a face till now
+Q:1/4=120
+L:1/4
+M:3/4
+K:F
+cBA|d2c|fe2|d2c|\
+B2A|BG2|F3|cBA|\
+d2c|fe2|d2c|_e2c|\
+d=B2|c3|":s:"BAG|c2A|\
+FG3/2(F/4G/4)|(AB)c|(de)f|cA2|\
+G3|cA(d/2c/2)|B2A|dc2|\
+(fe)d|(e/2f/2)ec|de2|f3|]
+
+X:221
+T:B221-  I often for my Jenny strove
+Q:1/4=120
+L:1/4
+M:3/4
+K:G
+g|d/2B3/2c|A2G|ABc|D3|EG2|Bd2|efg|e2g|\
+d/2B3/2c|A2G|ABc|D3|EFG|Bcd|A2G|G3||\
+gab|efg|a/2f3/2g|e2d|B^cd|efg|e2d|d3|\
+d/2B/2 (c/2B/2) (A/2G/2)|Bd2|FD2|EG2|\
+(Bc)d|(ef)g|A2G|G2|]
+
+X:222
+T:B222-  I tell thee, Dick
+S:(1st/2)
+Q:1/4=120
+L:1/4
+M:3/4
+K:G
+G/2 B/2G/2|d3/2e/2 f/2d/2|g3/2B/2 c/2d/2|\
+e3/2d/2 c/2B/2|A/2d/2 ^c/2d/2 e/2c/2|\
+d3/2||d/2 A/2B/2|c3/2B/2 A/2G/2|F3/2 F/2 G/2E/2|\
+A3/2 G/2 F/E/|D/2d/2 c/2B/2 A3/4G/4|G3/2|]
+
+
+X:223
+T:B223-  I tell the, Dick
+S:(2nd/2)
+Q:1/4=120
+L:1/4
+M:3/4
+K:G
+d|d2e|d2c|B2A|G2d|\
+(ef)g|(fg)a|a2g|g2||a|\
+b2g|a2f|g2e|f2B|c2B|\
+A2a|f2B|c2B|A2G|F2E|\
+D2a|a2g|g2f|g2|]
+
+X:224
+T:B224-  I went from England into France
+Q:1/4=120
+L:1/4
+M:3/4
+K:Gmixolydian
+B/2 B/2B/2|B3/2A/2 G/2F/2|E3/2A/2 A/2A/2|A3/2G/2^F/2E/2|\
+D/2G/2 G/2E/2 ^F/2G/2|A3/2A/2 B/2c/2|d3/2c/2 B/2A/2|\
+A3/2B/2 G/2G/2|GDE/2F/2|G/2D/2 (G/4A/4B/2) A3/4G/4|\
+(G3|G3/2)|]
+
+X:225
+T:B225-  I would I were in my own country
+S:(1st/2) Duke of Norfolk variant, see I am the Duke
+Q:1/4=120
+L:1/4
+M:C|
+K:Gdorian
+GGBA/2G/2|AAcB/2A/2|GGBA/2G/2|ddd2:|\
+fdB3/2d/2|cAF3/2A/2|BGF3/2A/2|GGG2|]
+
+X:226
+T:B226-  I would I were in my own country
+S:(2nd/2)
+Q:1/4=120
+L:1/4
+M:C|
+K:Gdorian
+Bddc/2B/2|cA^F2|BGgA|Bcd2|\
+dffe/2d/2|c3/2B/2Ac|BG3/2G/2^F|G4||\
+d3/2f/2e3/2g/2|^f3/2d/2=BG|A3/2c/2B3/2d/2|\
+c3/2A/2^FD|d3/2f/2e3/2g/2|^f3/2a/2gd|\
+c3/2G/2BA|.G4|]
+
+X:227
+T:B227- I'll  go no more to the old exchange
+S:or, The new royal exchange
+Q:1/4=120
+L:1/4
+M:C|
+K:F
+a/2g/2f/2e/2 fc|d/2e/2f/2g/2ea/2g/2|\
+f/2e/2dd3/2c/2|d3A|def3/2f/2|gab3/2b/|\
+a/2g/2fe3/2d/2|d4|cd/2e/2f3/2A/2|B/2c/2dc3/2c/2|\
+d/2e/2fe3/2f/2|g3a|bag3/2f/2|e3/2d/2c3/2c/2|\
+d/2e/2fe3/2f/2|f4|]
+
+X:228
+T:B228-  I'll never love thee more
+Q:1/4=120
+L:1/4
+M:6/4
+K:G
+D|D2DG2A|B2BD2D|B2BA2G|(E3E2)D|\
+D2DG2A|B2BD2D|B2BA2G|(d3d2)d|\
+B2BA2G|c2d.e2d|d2BA2G|(E3E2)D|\
+D2DG2A|Bcde2d|dB2A2G|(G3G2)|]
+
+X:300
+T:B228B-  Montrose Lyns
+S:Blaikie MS, c 1692
+Q:1/4=120
+M:C
+K:G
+G,|B,DEG|BA/G/DE|GAAA/G/|E3D|(F/E/((F/G/) (A/G/)A/G/|\
+(A/B/A/)G/DE|d3||a|dBAG|cdeg|(d/g/d)B/ (A/B/A/)G/|A3G|\
+FGAG|ABe2|ABAG|A3G|A,DEG|ABeg|(d/e/d/)B/ (A/B/A/)G/|G3|]
+
+X:301
+T:B228C- Chevy Chace
+S:Oswald's CPC, bk 5, c 1753
+Q:60
+L:1/4
+M:3/4
+K:Amixolydian
+A|A3/4B/4dd|e3/4f/4A3/2a/2|a/(g/4f/4) {f/}e3/2d/|B2z/A/|\
+A/B/dd|e3/4f/4A3/2a/|a/f/ (ef3/4)a/4|A2|]
+
+X:302
+T:B228D-  Chevy Chase (long, Scots, in 6 line verses)
+S:A Second Set of [30 Scots Songs], Bremner, c 1757
+Q:60
+L:1/4
+M:3/4
+K:Gmixolydian
+D|D3/4 E/4GG|A3/4 B/4DB|c/ B/A3/2 G/|{F/}E2G|\
+D3/4 E/4 GG|A3/4 B/4 Dz/ B/|c/ B/ c3/2 d/2|e2e|\
+d3/4 B/4 AG|c/ d/ ez/e/|d/ B/ A3/2 G/|E2G|\
+D/ E/ AG|A/ B/ cz/e/|d/ B/ A3/2 G/|G2|]
+
+X:229
+T:B229-  Ianthe the lovely
+Q:1/4=120
+L:1/4
+M:C|
+K:Gm
+G/2|BB/2G/2dd/2d/2|(e/2d/2) c/2B/2 A3/2B/2|\
+cB/2A/2 B/2d/2 (g/2d/2)|BA/2G/2G3/2||A/2|\
+BB/2c/2dd/2e/2|fe/2d/2c3/2F/2|\
+BB/2c/2 (d/2e/2) f/2e/2|dc/2B/2B":s:"(e/2c/2)|\
+BB/2B/2cc/2d/2|(e/2d/2) c/2B/2Ag/2^f/2|\
+gg/2d/2Bc/2d/2|(e/2d/2) (c/2B/2Ad/2c/2|\
+BA/2G/2G3/2|]
+
+X:230
+T:B230-  If love's a sweet passion
+S:by H. Purcell
+Q:1/4=120
+L:1/4
+M:3/4
+K:Gm
+d|c3/2d/2B|cAd|B3/2A/2 (B/2G/2)|G2e/2d/2|
+cc(c/4d/4e/2)|dBd|(de/2)d/2c|d2||d/2c/2|\
+=Bcd|ecf|GAB|A2d|edg|(g/2f/2) (g/2f/2) (e/2d/2)|\
+(e/2d/2) (c/2d/2) (c/2B/2)|B2d/2e/2|\
+cc(c/4d/4e/2)|ed*d/4=e/4f/2)|f=e(e/4^f/4g/2)|\
+^f3/2e/2d|g(d/2e/2)f|dB\/c/2d|B3/2A/2G|G2|]
+
+X:231
+T:B231-  In a desert in Greenland
+Q:1/4=120
+L:1/4
+M:3/4
+K:D
+d/2e/2|ff(e/2d/2)|eef/2e/2|dde/2f/2|A2d/2c/2|\
+BAF/2G/2|AB=c|B3/2B/2 f/2e/2|e2d/2e/2|\
+ff(e/2d/2)|ee/2e/2 f/2e/2|dde/2f/2|A2d/2c/2|\
+BAF/2G/2|AB=c/2c/2|B3/2B/2 f/2e/2|e2||:(e/2f/2)|\
+gg (f/2e/2)|f e/2f/2 (A/2B/2)|d d/2f/2 e/2d/2|\
+e3/2 d/2B|d/2d/2 A/2B/2 A3/4F/4|\
+A3/2B/2A|d d/2f/2 e/2d/2|e(e/4f/4g/2) (f/2e/2)|\
+ff/2g/2 e3/4d/4|d2:|]
+
+X:232
+T:B232-  In Crete
+Q:1/4=120
+L:1/4
+M:3/4
+K:F
+FFG|A3/2G/2F|FFE|F3|A/2B/2cB|A2(G|G)FG/2F/2|E3/4F/4E/2D/2E|\
+CFB|A2(G|G)FG/2F/2|E/2F/4E/4 D/4E/4F/4D/4E|\
+A/4G/4A/4B/4cB|A3/2A/2 G/2F/2|FFE|F3||\
+FFF|B3/2B/2 A/2G/2|GG^F|G2G|AGF|E3/2F/2G|\
+FGG/2B/2|A3|]
+
+X:233
+T:B233-  In January last
+Q:1/4=120
+L:1/4
+M:C|
+K:G
+g|d3/2B/2 (A/2B/2) (A/2G/2)|G2D2|E3/2G/2 (G/2A/2) (B/2G/2)|\
+A3g|d3/2B/2 (A/2B/2) (A/2G/2)|(G/2A/2) (B/2A/2)D3/2D/2|\
+(E/2F/2)GAB|g3B|c3/2d/2 (e/2d/2) (e/2=f/2)|=f2(e/2f/2) (g/2e/2)|\
+(d/2e/2) (d/2B/2) (A/2B/2) (A/2G/2)|A3g|\
+d3/2B/2 (A/2B/2) (A/2G/2)|G2D3/2D/2|\
+(E/2F/2)G(B/2d3/2)|.g3|]
+
+X:234
+T:B234-  In peascod time
+Q:1/4=120
+L:1/4
+M:6/4
+K:G
+G2AB2G|BA2G2G|c2BA2^G|A2AA2A|\
+c2cc2c|B2BB2B|A3/2B/2AG2G|G2GG2G|]
+
+X:235
+T:B235-  In sad and ashy weeds
+Q:1/4=120
+L:1/4
+M:6/4
+K:C
+G|G2GA2B|c3e3|f2Ac2E|D2CC2:|c|\
+G2GA3/2B/2c|E2EF3/2G/2A|D2EF3/2B/2A|\
+G3zzA||G2FE2D|F2GA2B|c2ED2C|.(C3C2)|]
+
+X:236
+T:B236-  In Summer Time (Pills tune)
+Q:1/4=120
+L:1/4
+M:3/4
+K:G
+GGG|d2c|BAB|c2d|\
+(c/2B/2)AG|ABc|A(G2|G3):|\
+dde|fde|fg2|gfe|dcd|\
+fed|dde|f2e|dcB|c2d|\
+(c/2B/2)AG|ABc|(B/2A/2)(G2|G3)|]
+
+X:237
+T:B237-  Iris on the bank of Thames
+Q:1/4=120
+L:1/4
+M:C|
+K:Dm
+d3/2A/2fe|ge^c2|d3/2e/2 (f/2c/2)d|(c/2B/2)AA2|\
+e3/2f/2e^c|d3/2e/2f2|":s:"cAd=B|ge^c2|\
+d3/2e/2fe|(d/2^c)d/2.d2|]
+
+X:238
+T:B238-  (My love is gone to) Jamaica
+Q:1/4=120
+L:1/4
+M:C|
+K:F
+FAAB/2c/2|dcd2|cAAG/2F/2|G2F2:|\
+ffed/2c/2|ddcA|ffe/2f/2g|d2c2|\
+ffed/2c/2|ddcA|B/2c/2dcB/2A/2|G2F2|]
+
+X:239
+T:B239-  Jenny, come tye my cravat
+Q:1/4=120
+L:1/4
+M:3/4
+K:D
+A|FDF/2G/2|A3/2G/2F|ECE/2F/2|G3/2F/2E|\
+FDF/2G/2|A3/2B/2A|f/2g/2af|e2||d|\
+f/2g/2af|g3/2f/2e|cAe/2f/2|f2e|\
+f/2g/2af|g3/2f/2e|cAc|d2|]
+
+X:240
+T:B240-  [Ah!] Jenny Gin
+Q:1/4=120
+L:1/4
+M:6/4
+K:Gm
+d|B2Ac2G|(^FG)A(AB)c|B2Aec2|(A3A2)d|\
+B2Ac2G|(^FG)AA2^c|d2(e/2f/2)f2(e/2d/2)|d3f3|\
+(d3/2c/2)B(df)c|(AB)c(c2e)|d3/2c/2Bcc2|\
+(^F3F2)g|(d2B) (cd)e|dg^fg2(d/2e/2)|\
+(fd)BB2(G|G) (G2G2)|]
+
+X:241
+T:B241-  Jenny my blithest maid [defect. 12th meas]
+Q:1/4=120
+L:1/4
+M:3/4
+K:F
+Acf|g3/2f/2d|d/2fd/2 f/2d/2|c/2A/2 G/2F/2G|\
+Acf|g3/2f/2d|b/2/a/2 g/2f/2 g/2a/2|dff||\
+a3/2b/2 b/2a/2|ggd|g/2a/2 g/2e/2 d3/4c/4|c(d/2e/2) d/2c/2|\
+f3/2d/2cA|Ggg|a/2g/4f/4 g/2d/2 e/2c/2|Aff|]
+
+X:242
+T:B242-  Jenny's cogwheel
+Q:1/4=120
+L:1/4
+M:C|
+K:Gmixolydian
+G/2G/2BdD|(G/2A/2)BA2|G^fgB|ee/2f/2^d2|\
+(e/2d/2) e/2^f/2gB|(c/2B/2) (A/2G/2)^F3/2F/2|\
+G^F/2E/2e3/2d/2|B/2B/2 A3/4G/4.G2|]
+
+X:243
+T:B243-  Jenny's delight
+Q:1/4=120
+L:1/4
+M:6/4
+K:G
+(B/2c/2)|d(e/2d/2) (c/2B/2)e2f/2g/2|\
+d(c/2B/2) (A/2G/2)A2(E/2F/2)|GFGA2B/2c/2|\
+d(B/2c/2) (B/2A/2)A2d|BA(G/2F/2)ADE|\
+=F3/2E/2FE2c/2d/2|e(d/2c/2) (B/2A/2)d2c/2B/2|\
+A3/2G/2FG2":s:"g|f(e/2d/2) (e/2f/2)d(c/2B/2) (A/2G/2)|\
+ceEF2c/2c/2|c2B/2c/2AEG|G3/2A/2F.G2|]
+
+X:244
+T:B244-  The jewel in the tower
+Q:1/4=120
+L:1/4
+M:C|
+K:Am
+C/2|G3/2A/2 G/2E/2 D/2C/2|EA3/4B/4A3/2":s:"G/2|\
+c3/2d/2 e3/4f/4 e/2d/2|c/2B/2 A/2G/2c3/2G/2|\
+c3/2d/2 e3/4f/4 e/2d/2|c/2B/2 A/2G/2cB/2A/2|\
+G3/2^A/2 G/2E/2 D/2C/2|EA3/4B/4A3/2|]
+
+X:245
+T:B245-  Jig a Jog-Goo
+Q:1/4=120
+L:1/8
+M:6/8
+K:Dphrygian
+B|A3/2B/2c F3/2G/2A|B,BF D2B|A3/2B/2c F3/2G/2A|\
+BB,F D2B|A3/2B/2c F3/2G/2A|B3/2c/2d/2e/2 f3/2e/2d|\
+cdB A3/2G/2A|B,BF D2|]
+
+X:246
+T:B246-  Joan to the maypole
+Q:1/4=120
+L:1/4
+M:C|
+K:Am
+GG/2G/2cc/2c/2|dc/2d/2e2|g3/2g/2 (a/2g/2) (f/2e/2)|\
+(f/2e/2) (d/2c/2)c2:|(g/2^f3/2) (g/2G3/2)|\
+(g/2^f3/2) (g/2G3/2)|GG/2G/2cc/2d/2|\
+ed/2c/2BA|(a/2^g3/2) (a/2A3/2)|(a/2^g3/2) (a/2A3/2)|\
+GG/2G/2cc/2d/2|ed/2c/2BA|]
+
+X:247
+T:B247-  Joan's ale is new
+Q:1/4=120
+L:1/4
+M:6/4
+K:F
+F|FFfe2d|c3B2B|B3A2A|A3G2F|\
+FFfe2f|g3e2c|deff2e|(f3f2)||f|\
+f2fe2e|dddc2A|BABc2c|c2AF2F|\
+F2fe2f|g2fe2c|deff2e|(f3f2)c|\
+f3e2d|c2BA2F|B3c2c|(f3f2)|]
+
+X:248
+T:B248-  Joan's placket is torn
+Q:1/4=120
+L:1/4
+M:6/4
+K:G
+d|B2BB3/2A/2G|A3/2B/2AA3/2d/2c|B3/2A/2BA3/2G/2F|\
+(G3G2):|d|g2de2d|g2de2d|g2edBG|(A3A2)d|\
+B2BB3/2A/2G|A3/2B/2AA3/2d/2c|B3/2A/2BA3/2G/2F|(G3G2)|]
+
+X:249
+T:B249-  Jockey's gone to the wood
+Q:1/4=120
+L:1/4
+M:3/4
+K:C
+cA/4E3/4G|d3/2e/2 d3/4B/4|cG/4E3/4G|c3:|\
+eg/4e3/4a|g3/2f/2e|d3/4e/4 d/4B3/4 c3/4d/4|\
+B3/2G/2 A/2B/2|c3/4d/4 c/2B/2A|\
+f3/4g/4 f3/4e/4 d3/4B/4|.cG/4E3/4G|.c3|]
+
+X:250
+T:B250-  Jockey's jealousy
+Q:1/4=120
+L:1/4
+M:C|
+K:Dm
+D|AAdd|(d/4e/4f/2) (e/2d/2)A2|c2(c/2d/2) (c/2A/2)|\
+(B/2A/2) (G/2F/2)E2|DDAA|dd(d/4e/4f/2) (e/2d/2)|\
+A3/2=B/2 (c/2B/2) (B/4c/4d/2)|c=BA2|A3||z/2A/2|\
+(B/2A/2) (G/2F/2) (c/2d/2) (c/2A/2)|\
+(d/2e/2) (d/2c/2)f3/2g/2|\
+(a/2f/2) (e/2d/2) (c/2A/2) (d/2G/2)|G2F3/2f/2|\
+(f/4g/4a/2) (g/2f/2)d3/2c/2|(c/4d/4=e/2) (d/2c/2)A3/2A/2|\
+(B/2A/2) (G/2F/2) (E/2F/2) (E/2D/2)|^c2d|]
+
+X:251
+T:B251-  Jog On, or Eighty-Eight
+S:(1st/2)
+Q:1/4=120
+L:1/4
+M:3/4
+K:Ddor
+G|c2G|c2d|ede|d2G|\
+c2B|c2d|e3|d2:|d|\
+e2f|g2g|fef|e2e|\
+ded|ABc|B3|.A2|]
+
+X:252
+T:B252-  Jog On, or Eighty-Eight
+S:(2nd/2)
+Q:1/4=120
+L:1/4
+M:6/4
+K:Gmixolydian
+c|ccGccd|efeddB|cccggf|e3d2d|\
+ddef3/2g/2f|eeedcB|c2cBcd|A3G2|]
+
+X:253
+T:B253-  John Anderson, my Jo (Skene MS)
+S:(1st/2) see I am the Duke of Norfolk
+Q:1/4=120
+L:1/4
+M:C
+K:Am
+B|AGAB|c3d|BGGG|G3B|\
+AGAB|c3c|cBcd|e4|\
+eged|cde2|d3/2e/2dc|B2cd|\
+edcB|AB^cd|eAAA|A3|]
+
+X:254
+T:B254-  John Anderson, my Jo
+S:(2nd/2)
+Q:1/4=120
+L:1/4
+M:C|
+K:Am
+A3/4G/4|EAAA/2G/2|c3/2d/2c3/2d/2|BA/2G/2GG|G3E/2D/2|\
+EAAA/2B/2|c3/2d/2cd|ed/2c/2cd|e3||g|\
+ed/2c/2c3/2d/2|c/2d/2 e/2f/2gd/2c/2|BgG/2A/2 B/2c/2|\
+d3c/2d/2|e3/2d/2cd/2e/2|f/2e/2 d/2c/2BA/2^G/2|\
+A/2B/2 c/2d/2 e/2d/2 c/2B/2|A3|]
+
+X:255
+T:B255-  John, come kiss me now
+S:(1st/2)
+Q:1/4=120
+L:1/4
+M:4/2
+K:Gmixolydian
+G3/2A/2BGc4|G3/2A/2BGd4|G3/2A/2BGA3/2B/2cA|\
+BGA^FG4:|]
+
+X:256
+T:B256-  John, come kiss me now
+S:(2nd/2)
+Q:1/4=120
+L:1/4
+M:C|
+K:G
+G3/2A/2BA/4G3/4|cEcB/2A/2|G3/2A/2 B/2A/2B/2c/2|dDd2|\
+G3/2A/2BA/4G3/4|c/2B/2c/2d/2 ed/2c/2|B/2c/2d/2B/2 A3/2G/2|\
+GG,G2|d2gf|e3f|gB/2c/2de|fggf|gd/2c/2BB|cDe/2B/2 A/2G/2|\
+ABAF|.G4|]
+
+X:257
+T:B257-  John Dory
+Q:1/4=120
+M:6/4
+L:1/4
+K:C
+G|A2GA2B|c2GG2E|F2ED2G|C2CC2c/2c/2|\
+c2cd2d|e3e2e/2e/2|d2cc2B|c3c2E/2E/2|\
+F2ED2G|C3C2|]
+
+X:258
+T:B258-  Johnny Armstrong
+Q:1/4=120
+M:3/4
+L:1/4
+K:Gm
+(B/c/)|d2c|BGF|(FG)B|~c2(B/c/)|\
+d2c3/4d/4|BGF|GBB3/4c/4|B2::d/f/|\
+gf(e/4c/4B/)|~cBc|dbg|f2d|\
+(cd)f|(b/2a/2)(b/2a/2) g/2f/2|dgg3/4a/4|g2f|\
+g3/4a/4ba|(g/2b/2)(g/2f/2) d/2g/2|\
+f3/4g/4 (f/4d3/4) ~(c3/4B/4)|c2d3/4f/4|g(b/2g/2)(f/2d/2)|\
+(e/2d/2)(e/2d/2) (c/2B/2)|GB(B3/4c/4)|B2::\
+L:1/4
+M:6/8
+B/4c/4|dc/ B/G/F/|GB/ ~c/B/c/|dc/ B/G/F/|\
+GB/B::(d/4e/4)|f/d/B/ ~c/B/c/|d/b/g/ fd/|\
+c/d/f/ ba/|g/a/f/ga/|b/a/g/ f/b/g/|\
+f/d/B/ c/B/c/|dg/ f/d/c/|B/c/A/G:|]
+
+X:259
+T:B259-  Joy to the Bridegroom
+Q:1/4=120
+M:3/4
+L:1/4
+K:C
+g2g|g2g|a^g2|a2g|\
+ae2|f2e|fd2|c3||\
+e2e|e2e|fe2|d2d|\
+c2d/2c/4d/4|e2d/2c/2|dc2|c3|]
+
+X:260
+T:B260-  Joy to the Person of My Love
+Q:1/4=120
+M:C|
+L:1/4
+K:Dm
+dA/2B/2cF|G/2A/2B/2c/2A3/2A/2|G/2F/2E/2D/2E3/2D/2|D4|:\
+D/2E/2F/2G/2Ad/2e/2|f/2d/2e/2c/2dA/2B/2|c3/2 B/4A/4G3/2F/2|F4::\
+cA/2F/2c3/2c/2|d/2D/2F/2G/2A3/2A/2|G/2F/2E/2D/2E3/2D/2|D4:|]
+
+X:261
+T:B261-  Kind Husband and Imperious Wife
+Q:1/4=120
+M:6/4
+L:1/4
+K:Gm
+B3|ABG^FED|G3B3|ABGAG^F|G3B3|\
+ABG^FED|G3B3|ABG^FED|(G3G2) ":s:"(A/B/)|\
+cBAcBA|(c3c2)(B/2A/2)|Bcdedc|d3c3|\
+cBAcBA|c3B3|ABGAG^F|(G3G2)|]
+
+X:262
+T:B262-  King James's Jig, or The Country Farmer
+Q:1/4=120
+M:6/4
+L:1/4
+K:C
+G|A3/2B/2cB2c|d2dd3/2e/2f|(eA)dB3/2A/2G|d2dd2G|\
+A3/2B/2cB2c|d2dd2f|e3/2A/2dB3/2A/2G|d2dd2||g|\
+e3/2f/2gabc'|g2gg2e|a3gec|d2dd2e|\
+f3/2g/2a(e/2f/2)gG|cAef2g|e3/2d/2cdGB|d2dd2|]
+
+X:263
+T:B263-  King Solomon
+Q:1/4=120
+M:4/4
+L:1/4
+K:Ddorian
+DAAG|A3/2A/2E2|F3/2E/2DE/2F/2|G3/2F/2EE|\
+DAAG|A3/2A/2EE|F3/2E/2DE/2F/2|G3/2F/2EE||\
+DFEE|DD^C2|DC/2D/2EE|DFEE|\
+DC/2B,/2DC|DC.D2|]
+
+X:264
+T:B264-  King William's March, or Hark, Hark and Yonder
+Q:1/4=120
+M:C
+L:1/4
+K:G
+d2de|d2B2|d3/2e/2d3/2e/2|d2B2|\
+dB/2c/2dB/2c/2|dB/2c/2de/2f/2|g(f/2e/2)d(c/2B/2)|A2D2||\
+A3/2B/2A3/2B/2|A2D2|GBd2|dBd2|\
+egd(c/2B/2)|(c/2B/2) (A/2G/2)A2|GBd(c/2B/2)|\
+A2G2|Bcde|A2G2|]
+
+X:265
+T:B265-  The King's Delight
+Q:1/4=120
+M:6/4
+L:1/4
+K:D
+d|d2da2a|f3/2e/2f3/2d/2ed|e3/2f/2ea3/2b/2 a/2g/2|f3e2:|d|\
+d2da2a|f3/2e/2fdef|g3/2a/2gf3/2e/2f|e3/2d/2AB":s:"c|\
+defg/2fe/2d|e3d2|]
+
+X:266
+T:B266-  The King's Jig, or Winchester Wedding
+Q:1/4=120
+M:3/4
+L:1/4
+K:Bb
+B,|DEF|G2F|FDB,|D2F|BG2|c2F|\
+(DE)F|G2F|FDF|GAB|cAF|B2B,|DEF|GGF|\
+D2B,|DEF|BAG|c2C|(DE)F|GGF|D2F|(GA)B|\
+cAF|B2":s:"g|fdB|f2B|c2G|cde|GGc|A2F|\
+BGE|GBG|cAd|GAB|B2A|.B2|]
+
+X:267
+T:B267-  Labandala Shot
+Q:1/4=120
+M:3/4
+L:1/4
+K:Aphrygian
+F/2G/2|A2B|G3/2F/2G|F3/2G/2F::\
+_A/2B/2cc|B2B|z_AA|G3/2F/2G::\
+D/2_E/2FF|F3/2_E/2 D/2E/2|FF=E|F3/2G/2F:|\
+_E/2F/2GG|G3/2_A/2G|_A3/2B/2A||G2G|\
+G/2_A/2BB|B2B|z_AA|G3/2F/2G|\
+_A/2B/2cB|_A2B|G3/2F/2G|F/2=E/2F/2G/2_A/2B/2|\
+ccB|_A2B|G3/2F/2G|=A3/2B/2A|]
+
+X:268
+T:B268-  Ladies of London
+Q:1/4=120
+M:6/4
+L:1/4
+K:Bb
+Bcdcde|dcBf2d|efgfde|c3c2d|\
+Bcdedc|dcBb2a|gaf=efg|g3f3||\
+fgab2a|gfed2b|abg^fga|a3g3|\
+fgabdg|fgdc2d|BBffeg|c3.B3|]
+
+X:269
+T:B269-  Lady, Lie Near Me
+Q:1/4=120
+M:3/4
+L:1/4
+K:F
+A/2B/2cA|GAF|dcf|d2c:|\
+f3/2g/2a/2g/2|ffc|ffg|a2g|\
+aag|f3/2g/2a|cA2|G2F|]
+
+X:270
+T:B270-  The Lass of Cumberland
+S:(1st/2)
+Q:1/4=120
+L:1/4
+M:C|
+K:Gm
+d|c3/2^B/cd|B3/2A/GA|BdB3/2c/|(d/c/)(d/e/)f3/2b/|\
+a3/2g/fa|c3/2^B/cc|ddg3/2A/|BGG:|]
+
+X:271
+T:B271-  The Lass of Cumberland
+S:(2nd/2)
+Q:1/4=120
+L:1/4
+M:C|
+K:Gm
+d|c3/2B/cd|B3/2A/G3/2B/|FBB3/2c/|(d/c/) (d/e/)f2|\
+ag(f/a/)b|d(c/B/)c3/2c/|ddg3/2A/|BGG||G|\
+f3/2g/f3/2d/|(g/a/) (g/f/)b2|bg(g/a/)b|ddd2|\
+e/d/c/B/ c3/2B/|A/B/A/G/ A(B/c/)|ddg3/2a/|bgg|]
+
+X:272
+T:B272- Last Christmas 'twas my chance
+S:'Pills' tune, not original. see BM541 for it
+Q:1/4=120
+L:1/4
+M:C
+K:G
+D|GABc|d3B|cBAG|F2DD|GABG|c3B|ABAG|F2(cB)|A3G|G3|]
+
+X:273
+T:B273-  Lavender Green
+Q:1/4=30
+L:1/8
+M:3/8
+K:F
+F c c|c B/A/ G/F/|F d d|d3|\
+F c c|c B/A/ G/F/|{c/}B A G|F3|]
+
+X:274
+T:B274-  Lay By Your Pleading
+S:(1st/2)
+Q:1/4=120
+L:1/8
+M:C
+K:Gdorian
+G3/2A/ B3/2c/d2G2|g2g3/2a/ ^f2d2|g3/2g/ ^f3/2d/ g3/2g/ f3/2d/|\
+B3/2B/ c3/2d/ A2G2::B3/2c/ d3/2e/ f2B3/2B/|g2B3/2B/f2F3/2F/|\
+G3/2A/ B3/2c/ d3/2e/ f3/2d/|g3/2g/ ^f3/2g/ g4:|]
+
+
+X:275
+T:B275-  Lay By Your Pleading
+S:(2nd/2)
+Q:1/4=120
+L:1/4
+M:C|
+K:Gm
+G/A/B/c/dG|g^f/g/ad|ba/g/ f/e/d/d/|[1 c/d/B/c/AG:|\
+[2 c/d/B/c/AG/|:A/|BG3/4B/4cF3/4c/4|BG3/4d/4cB|\
+ff3/4e/4 d3/4c/4 B3/4B/4|\
+[1 c3/4d/4 B3/4c/4AG/:| [2 c3/4d/4 B3/4c/4AG|]
+
+
+X:276
+T:B276-  Lay the Bent to the Bonny Broom
+Q:1/4=120
+L:1/8
+M:3/4
+K:Gdorian
+A|BA GG AB|cB A2Bc|d2dd (d/e/ d/c/)|d2zd dc|\
+B2d2cB|
+M:2/4
+L:1/8
+A2GA|\
+M:3/4
+L:1/8
+AB AG AB|G4z|]
+
+X:277
+T:B277-  The Leather Bottle
+Q:1/4=120
+L:1/4
+M:6/4
+K:Bphrygian
+B|B2Be2e|dc2B2B|B2BA2A|d2cB2B|\
+c2de2e|dc2B2B|A2A(B3/2B/)c|d2cB2B|\
+B2BA2A|B2BG2G|B2BA2A|d2cB2B/B/|\
+B2BA2A|B2BG2G|d2dg2d|d3/2 e/dB2|]
+
+X:278
+T:B278-  Let Caesar Live Long
+Q:1/4=120
+L:1/4
+M:3/4
+K:G
+G|d3/2 e/d|GAB|B3/2 c/A|G2G|\
+d3/2 e/d|G3/2 A/B|B3/2 c/A|G2||B|\
+A(B/A/) (G/F/)|G(A/G/) (F/E/)|A3/4B/4 A3/4G/4F|B2(B/c/)|\
+dde|cce|d3/2 c/ B/c/|B2A|\
+B3/2 c/d|G3/2 A/ B/c/|c3/2 B/A|(B3/4c/4) (B3/4A/4)G|\
+(A3/4B/4) (A3/4G/4)F|G3/2 A/B|B3/2 c/A|G2|]
+
+X:279
+T:B279-  Let Mary Live Long
+Q:1/4=120
+L:1/8
+M:3/4
+K:Dm
+F2|A3 Bc2|f4f2|(f/g/a) (gf) (ed)|\
+(e/f/g) (fe) (dc)|B3 A (GA)|(BA) (GF)F2|A3 Bc2|\
+(f3/2g/ f3/2g/)a2|(gf/e/)d3 c|c4||ee|(e/f/g)g2g2|\
+(g3/2a/ gf)e2|(fed)c d2|f4e3/2d/|c2G2A2|\
+B4c2|A2F2G2|(A/B/c) (B/A3/2)c2|d2B2d2|\
+(e/f/g)c2zf|(f/g/a) (gf)e2|f4|]
+
+X:280
+T:B280-  Let the Critics Adore
+Q:1/4=120
+L:1/4
+M:3/4
+K:F
+f/g/|agf/c/|d3/2 c/d|cfA|G3/2 c/ A/B/|\
+cFf3/4g/4|afc|d2c|d/e/fA|\
+G3/2 B/ A/B/|ccf3/4g/4|afc|d3/2 d/ d/c/|\
+d/e/fA|G2A3/4B/4|ccA3/4B/4|cc (3 d/e/f/|\
+f3/2 e/ f/g/|ad(3 e/f/g/|g2A3/4B/4|cc(3 d/e/f/|\
+fdf3/4g/4|adg|e2e3/4f/4|gg (3g/a/b/|\
+a2g/a/|bdg3/4f/4|e2d/e/|fcd3/4e/4|\
+d2b3/4a/4|d3/2 g/e|f2|]
+
+X:281
+T:B281-  Let the Soldiers Rejoice
+Q:1/4=120
+L:1/4
+M:3/4
+K:C
+c/d/|e3/2 f/g|g3/2 f/e|(f3/4g/4 f3/4e/4) (d3/4e/4)|e3/2 d/c|\
+cGc|(e3/4d/4 c3/4d/4 e3/4f/4|g3/2) a/ ^f|gg||d|\
+d3/4e/4de|d2g3/4f/4|(e3/4f/4) (e3/4f/4) (g/e/)|f2f3/4g/4|\
+a(g/f/) (e/d/)|(e/4f/4g/) (f/e/) (d/c/)|(c/4d/4e/) c3/2 B/|cc|]
+
+X:282
+T:B282-  Let Traitors Plot On
+Q:1/4=120
+L:1/4
+M:3/4
+K:F
+F/G/|A3/2 B/c|G3/2 A/B|A(B/A/) (G/F/)|E2F|\
+D3/2 E/F|G3/2 A/ G/F/|EC2|zzG/A/|\
+^F3/2 G/A|B2c/c/|d(c/B/) (A/G/)|^F2d|\
+_e(d/c/) (B/A/)|B3/2 A/G|GG2|zzc|\
+c(B/A/)B|A3/2=B/c|=B3/2 ^c/d|^c2(B/A/)|\
+B(A/G/) (F/E/)|E3/2 D/C|D2z|zzG/G/|\
+D3/2 E/F|E2D/C/|cBA|d2(A/B/)|\
+cGA|B3/2 c/A|G3/2 F/E|F2||"Chorus:"c|\
+AAB|G2A|FFG|E2(D/C/)|\
+F(E/D/)G|FGA|A3/2 G/^F|G2(A/B/)|\
+c(d/c/) B/A/|B3/2 B/c|def|e2d/c/|\
+d2d/A/|B2(A/G/)|G3/2 F/E|F2|]
+
+X:283
+T:B283-  Liberty's the Soul of Living
+Q:1/4=120
+L:1/4
+M:C|
+K:Am
+A3/2 e/ (d/c/) (B/A/)|eA^G(E/D/)|A3/2 B/c(B/A/)|(dc3/4)d/4BB|\
+c3/2 c/g(f/e/)|d3/2 e/ff|e3/2 e/ (a/g/) (f/e/)|(dc/)d/ ee||\
+c3/2 d/e(d/c/)|A3/2 d/B)A/G/)|c3/2 B/Af|d3/2 g/e(d/c/)|\
+e3/2 e/ff|^f3/2 f/ gg|^g3/2 g (a/e/) (d/c/)|B3/2 c/AA||\
+M:3/4
+L:1/4
+"Chorus"A|e3/2 f/e|d3/2 e/ (d/c/)|B2(B/4c/4d/2)|c3/2 B/A|\
+e3/2 f/d|e2||(e/f/)|g3/2 f/e|f3/2 g/a|\
+f3/2 g/e|d2(e/f/)|e3/2 B/c|c3/2 B/A|A2|]
+
+X:284
+T:B284-  Lie Lulling Beyond Thee
+Q:1/4=120
+L:1/4
+M:6/4
+K:Am
+E2Ec3/2 B/c|d3/2 c/de3|E2Ec3/2 B/A|^G3A3:|\
+c2cd3/2 c/d|e3/2 f/ed2G|c2cd3/2 c/d|e3d3|\
+e3/2 f/ed3/2 c/B|c3/2 B/Ae3|E2Ec3/2 B/A|^G3A3|]
+
+X:285
+T:B285-  Light o' Love (Earl of Bedford)
+Q:1/4=120
+L:1/4
+M:6/4
+K:C
+zGcBGE|F3/2 G/ED2D|zGcBGE|F3/2 E/DC2C||\
+F3/2 G/FE3/2 D/C|F3/2 G/AD2D|zGcBGE|F3/2 E/DC2C|]
+
+X:286
+T:B286-  Lilliburlero
+S:(1st/2)
+Q:1/4=120
+L:1/4
+M:6/4
+K:G
+G3/2 A/GB2B|A3/2 B/Ac3|(Bd)Gc2B|AGFG3:|\
+g2fg2d|=f2fe2d|efga2d|edcB3|\
+(ed)cBcd|(ed)c(Bc)d|(ed)Bc2B|(AG)FG3|]
+
+X:287
+T:B287-  Lilliburlero
+S:(2nd/2)
+Q:1/4=120
+L:1/4
+M:6/4
+K:G
+G3/2 A/GB2B|A3/2 B/Ac3|BdGc2B|AGFG3|\
+G3/2 A/GB2B|A3/2 B/Ac3|BdGc2B|AGFG3||\
+g2fg2d|=f2fe2d|efgg2d|edBA3|\
+(ed)c(Bc)d|(ed)c(Bc)d|edBc2B|AGFG3|]
+
+X:288
+T:B288-  Loath to Depart
+Q:1/4=120
+L:1/4
+M:6/4
+K:Bb lydian
+AAAA2d|c3/2 d/BA3|G3/2 A/BA2G|d3/2 c/BA2G|\
+AAAA2d|c3/2 d/BA3|d3/2 c/BA2=B|cA2=B3|]
+
+X:289
+T:B289-  Logan Water
+Q:1/4=120
+L:1/4
+M:C
+K:Gm
+d|BA/G/ G3/2 B/|F/D/C/D/F2|BGG/B/(F/G/)|(B/A/)(B/c/)d2|\
+ed/c/dc/B/|c/B/A/G/F3/2 B/|G/A/B/c/ (d/e/)(c/d/)|BA/G/G|]
+
+X:290
+T:B290-  London is a Fine Town (Watton Towns End)
+S:(1st/2)
+Q:1/4=120
+L:1/8
+M:C|
+K:Gdorian
+c/B/|AF FF A c2 B/A/|GA B3/2c/d3e|\
+fg/f/ ed/e/ fFFF|GG A3/2B/G3:|]
+
+X:291
+T:B291-  London is a Fine Town
+S:(2nd/2)
+Q:1/4=120
+L:1/4
+M:C|
+K:Gdorian
+c2|AFFD|F2F2|GABc|dd2e|\
+ffee|ffFF|GGAB|G2:|]
+
+X:292
+T:B292-  Long Cold Nights
+Q:1/4=120
+L:1/4
+M:3/4
+K:Dmixolydian
+G2B|d2g|d2g|(d/ B3/2) (A/G/)|\
+A3/2 (c/d)|e2g|(g/a/ b) (a/g/)|e2g|\
+G2B|d2g|d2g|(d/ B3/2)g|\
+a2(g/e/)|g2(d/B/)|A2G|e2d||\
+gG3/2 (A/4G/4)|gG(A/B/)|g3/2 d/ (g/d/)|B2(A/G/)|\
+aAB|aAg|(g/a/b) (a/g/)|e2g|\
+G3/2 (A/ B)|d2g|d2g|(d/ B3/2)g|\
+(g/a/)b(a/g/)|e2(d/B/)|A2G|e2d|]
+
+X:293
+T:B293-  Lord Willoughby
+S:(1st/2)
+Q:1/4=120
+L:1/4
+M:C|
+K:Gm
+G2cc|B3/2 A/GA/B/|cCEF|G4|\
+G2cc|B3/2 A/GA/B/|cCEF|G3||G|\
+EDEF|GGGG|GFGA|BBB2|\
+B2GA/B/|c2GF/E/|DCC=B,|C3|]
+
+X:294
+T:B294-  Lord Willoughby
+S:(2nd/2)
+Q:1/4=120
+L:1/4
+M:C|
+K:Cm
+G2c2|B3/2 A/GA/B/|cCEF|G4|\
+EGc=B|c=BcC|E/D/C/D/ E/D/E/F/|G3/2 G/"in missing bass"zz|\
+D3/2 E/FE/F/|GFGF|GFG=A|B4|\
+G2=A=B|c2GG|FED2|C3/2 C/"in missing bass"zz|]
+
+X:295
+T:B295-  Love Will Find Out the Way
+Q:1/4=120
+L:1/4
+M:3/4
+K:F
+AFc|BGA/B/|cAG|[1 F3:|[2 F2||E/F/|\
+G3/2 A/ G/F/|E3/2 C/ F/G/|AG3/2F/||
+B2A/B/|c3/2 F/ E/D/|ECF/G/|AG3/2 F/|F2|]
+
+X:296
+T:B296-  A Lovely Lass to  Friar Came
+Q:1/4=120
+L:1/4
+M:C|
+K:G
+(A/B/)|cBAG/A/|AFGA/B/|cB/B/AG|(F G/A/)G||G|\
+Gddd|eddd|edd(c/B/)|B2AB/c/|\
+d2GG/G/|(A/G/) (A/B/)GA/B/|cBAG|(FG/A/)G|]
+
+X:297
+T:B297-  Lumber me (L'homme Arme)
+Q:1/4=120
+L:1/4
+M:4/4
+K:Ddorain
+d2ed|cBcA|AcBA|AGA2|\
+AAAG|ABcA|BAGF|GEF2|\
+FDFD|CGA2|c3/2 B/AG|FGED|\
+DFED|FGA2|A/B/c/d/ fe|dcd2|]
+
+X:298
+T:B298-  Lusty Gallant
+Q:1/4=120
+L:1/8
+M:4/4
+K:Cm
+E2|E2FG A2=AB|c2G2c2G2|=E2FGG2FE|DCD2=E4::\
+E2DEF2F2|G2=A2B2B2|=A2G2F2E2|DCD2C4:|]
+
+X:299
+T:B299-  Magina-Cree
+Q:1/4=120
+L:1/4
+M:6/4
+K:Gdorian
+B3/2 c/ d/e/f2c|A2Fc2A|B3/2 c/dd3/2 c/d|B3/2 A/Gd2G|\
+B3/2 c/ d/e/f2c|A2Fc2A|B3/2 c/de3/2 f/g|^f3/2 e/fg2G|]
+

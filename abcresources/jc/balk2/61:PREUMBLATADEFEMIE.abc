@@ -1,0 +1,13 @@
+X: 361
+T: Preumblata de Femie
+O: Romania
+M: 4/4
+L: 1/8
+Q: 1/4=132
+K: G
+%%MIDI program 48
+|:G2 A2 A2 A2|B4 A2GF  |E3D A3G    |G6 (3DEF|\
+  G2 A2 A2 A2|B4 A4    |GF E6-     |E8      :|
+%%MIDI program 75
+|:G3 A B2 c2 |dcBA B4  | G3 A B2 c2|dcBA B4 |\
+  G2 AA3 G2  |B2-B3 ABA|G8-        |G8      :|

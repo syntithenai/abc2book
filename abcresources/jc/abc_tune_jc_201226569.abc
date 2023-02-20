@@ -1,0 +1,20 @@
+X: 10332
+T: DUNDEE WALTZ
+C:
+%R: waltz
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.33 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The timesig says 3/8, but it's clearly 3/4.
+N: Bar 8 has only 3 1/8 notes; fixed by adding dot to the G to match bar 16.
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d>c |\
+B2B2d>g | b2b2c>B | A2A2^c>^f | a2a2d>c |\
+B2B2d>g | b2b2c>B | Ad^cd=cA | G3z :|
+G2 |\
+c>Bc>ed>e | c>Bc>ed>e | g2f2d2 | c>eG2G2 |\
+c>Bc>ed>e | c>Bc>ed>e | g2f2d2 | c3"^D.C."z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

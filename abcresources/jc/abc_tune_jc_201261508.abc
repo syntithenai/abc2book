@@ -1,0 +1,39 @@
+X: 1
+T: \vCekurjankino Horo
+Z: John Chambers <jc@trillian.mit.edu> from ms by Barbara McOwen
+N: Dance presented by Yves Moreau
+M: 7/8
+L: 1/8
+K: Am
+P: Slow:
+"A"|: "Am"A2 de e2d |     de eA gfe \
+   |  "Dm"cd df e2d | "Am"c2 BG A2G :|
+"B"|: "G"G2 AB "C"c2G | de dB A2G \
+   | "Am"G2 AB    cBA |1 "D"A4 d2G :|2 "Am"A2 AE A3 |]
+"C"|: "C"cG cd e2e | "C7"e2 e2 "F"e2d \
+   |  "G"g2 d2 ded |1 "C"c4 c2G :|2 "C"c4 c3 |]
+"D"|: "G"g2 d2 ded | "D"cd cB A2G \
+  |1 "Am"c2 c2 cde |"D"d4 d2G :|2 "G"dc cB ABG | "C"c4 c3 |]
+"E"|: "C"c7 | "G"B7 | de fg f2d | de dc B2G \
+   |  "C"c7 | "G"B7 | "Am"dc cB "G"ABG \
+   |1 "Am"A2 AG "G7"GAB \
+  :|2 "Am"A2 AE A3 |]
+P: Fast:
+"F"[| "Am"dc cB  ABG | A2 AE ABc \
+   | "Em"BG B2 G^FG | "Am"A2 AE A3 ||
+   || "Am"A2 G^F EFG | A2 AE ABc \
+   | "Em"BG B2 G^FG | "Am"A2 AE A3 |]
+"G"[| "G"G2 GB _AGF | GD EF G2D \
+   |     GD B2 _ABc | d2 dG d2d ||
+   || "Cm"d2 =ef f_ed | "G"d2 _ef edc \
+   |  "Fm"d2 cd cB_A | "G"_AB AG G3 |]
+"H"|: "Cm"d2 =ef f_ed | "G"d2 _ef edc \
+   |  "Fm"_B2 Bd cB_A |1 "G"GB_AG GdG \
+  :|2 "G"GB _AG G3 |]
+"I"[| "A"^FG AE FGA | "Gm"_BG "A"AE AEE \
+   |1    ^FG AE FGA | "Gm"_BG "A"Ae A2E \
+  :|2    ^FG A2 A_B^c | "Gm"^c_B AG "A"A3 |]
+"J"|: "Gm"d^c de edc | "A"^c2 cd dc_B \
+   |  "Gm"_BE FG GAB | "A"^c_B AG A2A :|
+"K"|: "A"^c_B AG A2A |    AG GE ^FGA \
+   | "Gm"^c_B AG A2A | "A"AG GE  A3 :|

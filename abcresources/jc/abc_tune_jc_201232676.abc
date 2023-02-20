@@ -1,0 +1,546 @@
+X: 00
+T: 24 Country Dances for the Year 1774
+Z: 2011 John Chambers <jc:trillian.mit.edu> (dances added in 2014)
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.1
+K:
+%%center 24 Country Dances for the Year 1774
+%%center With proper Tunes & Directions to each Dance, as they
+%%center are Perform'd at Court, Bath, & all Publick Assemblys
+%%center - - - - -
+%%begintext
+%% This collection uses consistent icons to mark the end of musical strains within the dance description.
+%% They use dots above the horizontal line for the repeat count, and dots below the line to count the strains.
+%% When rotated 1/4 turn to make them typeable, they are:
+%%    .|.  1st time 1st strain
+%%    :|.  2nd time 1st strain
+%%    .|:  1st time 2nd strain
+%%    :|:  2nd time 2nd strain
+%% A few tunes have more strains, and .|:. and .|:: are used for the first time through the 3rd and 4th.
+%%endtext
+
+%%sep 1 1 500
+X: 25
+T: Bromley Bells
+R: reel
+M: C|
+L: C|
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.13 #1
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: AcTc2 dBGB | cbge (f/e/f/g/) af | AcTc2 dBGf | ecd=B c2C2 :|
+|: g2ec a2fc | BGbg fed^c | dAfd gebg | fed^c d2DA/B/ |
+cAaf dBbg | afef (g/f/e/d/) c2 | dfBd cegb | afce f2F2 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Right hands across .|. Left hands back again :|.
+%% cast off 1 Cu. & turn 2d Cu. do the same .|: lead
+%% down 2 Cu. up 1 & Right & Left :|:
+%%endtext
+
+%%sep 1 1 500
+X: 26
+T: The Rainbow
+R: reel
+M: C|
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.13 #2
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: g2dB c(f/g/) ac | BGTG2 AFDd | g2dB c(f/g/) ac | BedF G2G,2 :|
+|: d2ef g3b | (af).e.d (^ce).c.A | (af).d.A (ge).^c.A | Bd^ce d2D2 |
+dedB cfa2 | cdcA Bdg2 | egce dgAe | dcBA G2G,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & change sides .|. back again :|. hands six
+%% half round & back again .|: lead down one Cu.
+%% Right & Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+X: 27
+T: The Wedding Ring
+R: reel
+M: 2/4
+L: 1/16
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.14 #1
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: BFDF BdcB | cAFA cedc | dbfd g2fe | d2cB A2GF |
+   BFDF BdcB | cAFA cedc | dbfd g2fe | dcBA B4  :|
+|: BcBA BcBA | Bcde f2F2 | GAG^F GAG^F | GABc d2D2 |
+   EFED EFED | EFGA B2B,2 | C2g2 fdec | B2F2 B,4 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Right hands across Left hands back again .|. cross over &
+%% back to back :|. lead thro' the bottom the same thro' the top
+%% & cast off .|: lead out sides :|:
+%%endtext
+
+%%sep 1 1 500
+X: 28
+T: The Recruits
+R: reel
+M: 2/4
+L: 1/16
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.14 #2
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: gcac gcc'c | gcgc' agfe | gegc' gcc'c | egfe d2d2 :|
+|: GEcA GFEF | GEcA GFEF | GEcA GFEF | dfed c4 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Right hands across quite round .|. left
+%% hands back again :|. cross over 1 Cu. &
+%% turn .|: Right & Left :|:
+%%endtext
+
+%%sep 1 1 500
+X: 29
+T: The Fandango
+R: jig
+M: 6/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.15 #1
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: d2d dcd | B2G FGA | d2d d3  | fda f2d |\
+   d2d dcd | B2G FGA | d2d d2g | e2a f2d :|
+|: aba f2d | AFd AFd | aba f2d | BGd BGd |\
+   aba f2d | B2G F2A | B2d e2c | d3- d3  :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Turn Right hands & cast off 1 Cu. .|. turn Left hands and
+%% cast off below the 3d Cu. :|. hands 6 round .|: lead up the
+%% middle & cast off 1 Cu. :|: turn corners & turn your
+%% Part: .||. the same at the other corners :||. Man whole
+%% figure at bottom & Wo. at top the same time .||: then the
+%% Wo. hey at bottom & Man at top :||:
+%%endtext
+
+%%sep 1 1 500
+X: 30
+T: Miss Hamiltons Reel
+R: reel
+M: C|
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.15 #2
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+   f | d2AG F>GA>B | d2A>F E3f | d2AG F>GA>g | (f/g/)a ef d3 :|
+|: g | f>ed>e c>de>g | f>ed>f g3a | f>ed>e c>de>g (f/g/)a ef d3 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. .|. up again :|. lead down
+%% the middle up again & cast off .|: :|: set
+%% corners & turn .||. the same at the other
+%% corners :||. hey up & down & foot it
+%% out .||: :||:
+%%endtext
+
+%%sep 1 1 500
+X: 31
+T: Once a Night
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.16 #1
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: f2g afc | Acf Bdf | cba gfe | fcB AGF |\
+   f2g afc | Acf Bdf | cba gfe | f3 F3 :|
+|: Tc=Bc GFE | F=Bd fga | gec c=Bc | d=BG TG3 |\
+   c=BA GFE | DF=B dfa | gec fd=B | c3 C3 |
+   c3 Acf | d3 Bdf | cef gab | agf edc |\
+   c3 Acf | d3 Bdf | cbg ece | f3 F3 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Cast off & hands 4 round with the 3d Cu. .|. cast up & hands
+%% 4 round at top :|. figure down contrary sides then on your
+%% own sides .|: lead down 2 Cu. & cast up lead thro' the top
+%% & cast up :|:
+%%endtext
+
+%%sep 1 1 500
+X: 32
+T: The Dove House
+R: reel
+M: C|
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.16 #2
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+   E2 | AEcA ecaf | ecBA GBGE | AEcA ecaf | edcB A2 :|
+|: A2 | BEGB dgbd | cAce aecA | BEGB ((3cde) ((3fga) | edcB A2 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. .|. lead up and cast
+%% off :|. hands 4 at bottom .|: Right
+%% & Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+X: 33
+T: The French Assembly
+R:
+M: 3/8
+L: 1/16
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.17 #1
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: c2cBcA | B2BABG | A2AFAF | G2D2D2 |\
+   c2cBcA | B2BABG | A2AFAF | G6 :|
+|: G2g2g2 | G2g2g2 | agfedc | BcdBG2 |\
+   G2g2g2 | G2g2g2 | fafde^c | d6 |
+   c2cBcA | B2BABG | A2AFAF | G2D2D2 |\
+   c2cBcA | B2BABG | A2AFAF | G6 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Allemand to the Right & cast off .|. Allemand to the Left
+%% and cast up :|. hands 4 across quite round cross over & turn .|:
+%% hands 6 round back to back lead thro' the top & cast off :|:
+%%endtext
+
+%%sep 1 1 500
+X: 34
+T: Cranford Lodge
+R: slip jig
+M: 9/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.17 #2
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+   g |\
+f2d  (ec)A (BG)g |  f2d  (ec)A (Bd)g |\
+f2d  (ec)A (BG)B | (ef)g (Be)d (cA) :|
+|: g |\
+(fg)a (fd)c (BG)g | (fg)a (ef)d (eA)g |\
+(fg)a (fd)c (BG)B | (ef)g (Be)d (cA) :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu. .|. up again :|. cross
+%% over 1 Cu. & turn .|: Right and
+%% Left :|:
+%%endtext
+
+%%sep 1 1 500
+X: 35
+T: The Frisky
+R: jig
+M: 6/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.18 #1
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: c>de e>dc | Bcd c2A | c>de e>dc | B>AG A3 :|
+|: cBc cBc | ded c2A | cBc cBc | B>AG A3 :|
+|: a>ba g>ag | f>gf f>ed | c>de f>ed | c>dB A3 :|
+|: E[AC]E F[AD]F | Bcd cBA | E[AC]E F[AD]F | dcB A3 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Turn Right hands & cast off 1 Cu. .|. .|. turn Left & cast
+%% off below the 3c Cu. :|. :|: hands round 6 .|:. :|:. lead up to
+%% the top foot it & cast off .|:: :|::
+%%endtext
+
+%%sep 1 1 500
+X: 36
+T: The Dress'd Ship
+R: reel
+M: C|
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.18 #2
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+e |\
+cAEc d2(d/e/f) | ecac dB-Be |\
+cAEc dfea | fdBe cA-A :|
+|: f/g/ |\
+aecA f/g/a/f/ ec | dfec dB- Bf/g/ |\
+aecA f/g/a/f/ ec | fdBe cA-A :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% 1st Man set to the 2d Wo. & turn .|. 1st
+%% Wo. do the same :|. cast off 1 Cu. &
+%% Allemand .|: cast up & Allemand & lead
+%% down in the 2d Cu.s place :|:
+%%endtext
+
+%%sep 1 1 500
+X: 37
+T: La Nouvelle Hambourgh
+R: reel
+M: 2/4
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.19 #1
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: DFAd | fage | cA d/c/d/e/ | d2d2 | AGFE | DFAd | fage | d2d2 :|
+|: ecAd | fdAf | gfed | cB/c/ A2 | ecAd | fdAg | fe/d/ ed/c/ | d2d2 :|
+K: Dm
+|: FEDE | FGAd | AGFE | FED^C | FEDE | FGAd | ^cde^c | d2d2 :|
+|: fedf | gfeg | fd^cd | e^cA2 | FEDE | FGAd | ^cdeg | e^cd2 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu. & turn .|. lead thro' the bottom & cast up :|. hands
+%% 6 round .|: lead thro' the top & cast off :|: set corners & turn .|:. :|:.
+%% lead out sides .|:: :|::
+%%endtext
+
+%%sep 1 1 500
+X: 38
+T: Portsmouth Review
+R: reel
+M: C
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.19 #2
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+   A |\
+d2AF GEcA | Bgec d/c/d/e/ dA |\
+d2AF GEcd | cBA^G A3 :|
+|: A |\
+e2cA eAfA | fa {g}fe/d/ e/d/c/B/ A>A |\
+e2cA Bbag | fe/d/ ed/c/ d3 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Half right & Left .|. & back again :|.
+%% cast off hands 4 with the 3d Cu. .|:
+%% Right & Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+X: 39
+T: The Royal salute
+R: reel
+M: C
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.20 #1
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+e2 |\
+(dc)(BA) (cB)(AG) | A2E2 E2A2 | F2F2 F2e2 | c4 B2e2 |
+(dc)(BA) (cB)(AG) | A2E2 E2a2 | (ag)(fe) gfe^d | e6 :|
+|: Bc |\
+d2d2 d2d2 | d2c2 e4 | f3e dcBA | G3F E2e2 |
+fdcd fagb | a2gf e2d2 | (dc)(BA) (cB)(AG) | A6 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Lead down 2 Cu. & ballance Allemand .|. up
+%% again & ballance Allemand :|. 3. 1st Cu. ballance
+%% all round .|: cast off Right & Left :|:
+%%endtext
+
+%%sep 1 1 500
+X: 40
+T: Justice Ballance
+R: reel
+M: C|
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p._20 #2
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+GABc defd | g2fe d2d2 | ecBA dBAG | cABG {G}F2ED |
+GABc defd | g2fe a2g2 | fafd ege^c | d2D2 D3 :|
+|: A |\
+defg a2c2 | c2BA B2d2 | ecBA dBAG | cABG AFED |
+GABc defd | g2fe d2c2 | BdBG AcAF | G2G,2 G,3 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% 1st Cu. lead thro' the 2d Cu. & cast up .|. 2d Cu.
+%% lead thro' the 1st Cu. & cast off :|. cross over
+%% & turn .|: Right & Left :|:
+%%endtext
+
+%%sep 1 1 500
+X: 41
+T: The Lasses of Portsmouth
+R: reel
+M: C|
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.21 #1
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: f2fd fdTB2 | c2cA cATF2 | (G/A/)B (B/A/)G (A/B/)c (c/B/)A | GdcB (A/B/)c/A/ F2 |
+   f2fd fdTB2 | c2cA cATF2 | (G/A/)B (B/A/)G Agfe | dc/B/ d/c/B/A/ B4 :|
+|: bBTB2 bBTB2 | fdTd2 fdTd2 | geTc2 fdTB2 | edcB A/B/c/A/ Fg/a/ |
+   bBTB2 bBTB2 | fdTd2 fdTd2 | gecA fdBG | ce d/c/B/A/ B4 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Turn your Part: cast off & hands 4 with the 3d
+%% Cu. .|. turn again cast up & hands 4 at top :|. lead
+%% thro' the 3d Cu. & cast up .|: lead thro' the top
+%% cast off & Right & Left :|:
+%%endtext
+
+%%sep 1 1 500
+X: 42
+T: Maccarony Dance
+R: jig
+M: 6/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.21 #2
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: d2d def | gfe dBG | BBB ccc | efg dBG \
+|  d2d def | gfe dBG | efg BdB | G2G G3 :|
+|: Bdd Bdd | GAB GAB | ccc BBB | FGA FGA \
+|  Bdd Bdd | GAB Bcd | efg BdB | G2G G3 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Allemand to the Right & cast off .|. Allemand
+%% to the Left & cast up :|. lead down 1 Cu. up again
+%% & cast off .|: Right & Left :|:
+%%endtext
+
+%%sep 1 1 500
+X: 43
+T: The Merry Hunters
+R: hornpipe
+M: 2/4
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.22 #1
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: F>FF>F | TG3d | c>BA>G | (A>c)f2 |\
+   F>FF>A | G3f  | (e>dc>=B) | c4 :|
+|: c>cc>c | b3a  | g>(fe>d) | c>BA>G |\
+   A>Fc>A | f2ed |  c>BA>G | F4 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The first Cu: lead thro the 3d Cu: cast off lead up thro
+%% the 2d Cu: .|. :|. foot it and back to back right Hands
+%% and left .|: :|:
+%%endtext
+
+%%sep 1 1 500
+X: 44
+T: The Queen's Night-Cap
+R: hornpipe, reel
+M: 2/4
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.22 #2
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: f>ff>f | Tf3d | cAGF | G2AB |\
+   cfff | f2ed | eg =Bd | c4 :|
+|: gggg | Tg2a2 | gfed | cBAG |\
+   AFcA | f2ed | cBAG | F4 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Hands all four a cross .|. and back again :|. Cross
+%% over one Cu: lead thro the 3d Cu: .|: right Hands
+%% and left :|:
+%%endtext
+
+%%sep 1 1 500
+X: 45
+T: The Boot
+R: hornpipe
+M: 2/4
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.23 #1
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(a>e)(c>A) | Td2c>B | (a>e)(c>A) | T[B4E4] |\
+a>ec>A | G>BE>d | c>Ae>c | [B4E4] :|
+|:\
+(B>E)(d>E) | c>ec>A | B>dc>g | a4 |\
+f>de>c d>Bc>a | f>dc>B | A4 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The first Man and Wo: sets to the 2d Man and all
+%% three turn hands .|. the same to the 2d Wo: :|. the
+%% first Cu: cross over and lead thro the 3d Cu: and
+%% cast up and right Hands and left .|: :|:
+%%endtext
+
+%%sep 1 1 500
+X: 46
+T: Polly Cleveland's Favourite
+R: reel
+M: 2/4
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.23 #2
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2 Tc2 | (dA) (FD) | dfed | c2 TB2 |\
+AceG | FdcB | A2T^G2 | A4 :|
+|:\
+AB cd | e2f2 | gbag | Tf4 |\
+egfc | dBA2 | TB3c | dBAG |\
+F2TE2 | D4 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The first and 2d Cu: set and Change sides .|. set and lead
+%% to your own side :|. cross over foot it right Hands and
+%% left .|: :|:
+%%endtext
+
+%%sep 1 1 500
+X: 47
+T: Miss Molly's Wigg
+R: hornpipe, reel
+M: 2/4
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.24 #1
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d>Bc>A | (B>G)G2 | d>Bc>A | B4 |\
+(D>FA>c) | B>GTe2 | A>FE>^c | d4 :|
+|:\
+d=fed | ecc2 | egfe | f>dd2 |\
+e>ca2 | d>Bg2 | e>cB>A | G4 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Hands a cross foot it .|. hands a cross back again
+%% and foot it :|. cross over and half figure right
+%% Hands and left .|: :|:
+%%endtext
+
+%%sep 1 1 500
+X: 48
+T: May Day Morn
+R: jig
+M: 6/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.24 #2
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: dBG  g2d | BGB A2c  | BGd g2c | BdD G>GG :|
+|: fdf Ta2g | fdA e^cA | fdf g2c | BcA G>GG :|
+|: B2D  c2D | DFA cBA  | B2D d2g | BdD G>GG :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The first Man sets and turns the 2d Wo: .|. the first Wo:
+%% set and turns the 2d Man :|. cross over one Cu: and lead
+%% up cast back and turn .|: :|: set and back to back
+%% foot it right hands and left .|:. :|:.
+%%endtext

@@ -1,0 +1,38 @@
+X: 21831
+T: YE BANKS AND BRAES O' BONNIE DOON
+O: Scotch air
+Q: "Slow"
+%R: air, jig, waltz
+N: This is version 1, for ABC software that doesn't understand diminuendo/crescendo notation.
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.183 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+%%sysstaffsep 40
+%%systemsep 50
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+!p!F |\
+B2B (c>B)c | (df)d (c>B)c |\
+(d>c)B B(GF) | (FG)B c2F |\
+B2B ({d}c>B)c | (df)d ({d}cB)c |\
+({Bc}d>c)B B(GF) | FG(B {dc}B2) :|
+|: (d/e/) |\
+!f!f2g fdB | f2{a}g fdB |\
+fdB fdB | H"_dim..."g>f(e/d/) H"_dim..."d{ced}Hc !p!F |\
+B2B c>Bc | d(f/e/)d {d}cBc |\
+({Bc}d>c)B B(GF) | (FG)(B {dc}B2)  :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+!p!(F/E/) |\
+(DF)B (AG)A | (Bd)B (FD)F |\
+(F>E)D G(ED) | (DE) (G/B/) [A2F2] (F/E/) |\
+(DF)B (AG)A | (Bd)B (FD)F |
+({DE}F>E)D G(ED) | (DE)(D {FE}D2) :|
+|: (B/c/) |\
+!f!d2e dBD | d2e dBD |\
+dBD dBD | H"_dim..."e>d(c/B/) H"_dim..."B{AcB}HA !p!F/E/ |
+(DF)B (AG)A | B(d/c/)B FDF | ({DE}F>E)D G(ED) | (DE)(D {FE}D2) :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

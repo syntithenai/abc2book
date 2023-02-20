@@ -1,0 +1,26 @@
+X: 2092
+T: Miss Graham of Inchbrakie's    Strathspey    or Mrs Duffs Fancy
+%R: strathspey, air
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.8 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow"
+K: C
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 6-bar lines.
+V: 1 staves=2
+G |\
+c>d {cd}e>d {B}Tc>AGE | (CG) cB/c/ d[DB,][DB,]G |\
+c>d {cd}e>d {B}Tc>A GE | G,<G,TA,>B, {B,}C2C :|\
+e/f/ |\
+Tg>a {a}gf/e/ c'gec | Tfa/f/ eg/e/ Td>cde |
+Tg>a {a}gf/e/ c'gec | f>de>B {B}c2ce ||\
+Tg>a {a}gf/e/ c'gec | (f/a/g/)f/ (e/g/f/)e/ Td>cde |\
+G>c{c}e>d {B}c>A GE | G,<G,TA,>B, C2C |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | c2c2 c2c2 | e2c2 G2g2 | c2c2 e2c2 | G2G2 c2c :| z | c'2c'2 c'2c'2 |
+b2c'2 g2G2 | c'2c'2 c'2c'2 | f2g2 c2c2 || c'2c'2 c'2c'2 | bgc'c g2G2 | c2c'>b afec | B<Bg>f [e2c2]c |]

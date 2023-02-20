@@ -1,0 +1,2281 @@
+% folk-dances.abc
+%
+%%footer Laatste wijziging: <vrijdag 23 september 2005 01:12:48 bert>		p. $P
+
+%%textfont Times-Bold 25
+%%center Volksdansen
+%%textfont Times-Roman 16
+%%begintext
+Dit is een verzameling met volksdansmuziek van over heel Europa die ik verzameld heb door
+de jaren. Voor zover ik weet zijn alle nummers traditioneel of in het publieke domein. Als je
+er toch een zou vinden dat door het auteursrecht beschermd wordt, laat het me dan weten,
+zodat ik het zo nodig uit de verzameling kan verwijderen.
+
+Deze transcripties zijn publiek domein. Je kan ermee doen wat je wil, maar wees zo
+vriendelijk om je bronnen te vermelden.
+%%endtext
+%%vskip 1cm
+%%begintext
+This is a collection of folk dance tunes from all over Europe, that I collected over the
+years. As far as I know, all the tunes are traditional or in the public domain. If you find
+one that is under copyright protection, please let me know, so I can remove it from the
+collection if necessary.
+
+These transcriptions are public domain. You can do what you want with them, but please be so
+kind as to give credit where due...
+%%endtext
+%%vskip 1cm
+%%begintext
+Bert Van Vreckem <http://flanders.blackmill.net/music/>
+%%endtext
+
+%%partsspace 0.0cm
+%%partsfont Times-Roman 13.0
+%%partsbox 1
+
+X:1
+T:Abraham
+C:Traditioneel
+O:Hoogstraten (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:G
+D/D/|GG GA|B2 BB/B/|AA AB|G2z2||
+BB BA/B/|cA AA/B/|cB ce|d2 zc|
+w:A-bra-ham was ne goe-ie vent vol-le-gens het tes-ta-ment. Hij
+BB Bc|dd de|dc BA|d2z2|
+w:had wel ze-ven zo-nen, maar ik hem ze nie ge-kend.
+|:BB BA/B/|cA AA/B/|cB ce|d2 zc|BB Bc|dd de|dc BA|G2 zD/D/:|
+w:*****    *****    ****  **   ****  ****  ****  *(A-bra)-
+GG GA|B2 BB/B/|AA AA|G2 z d/d/|
+w:ham had ze-ven zo-nen en ze dee-en al'-maal zo. En ze
+cc cc/c/|BB BB/B/|AA AA|G2 z D/D/|
+w:1.~~zaai-den zo en ze maai-den zo en ze dans-ten al'-maal zo. **
+w:2.~~a-ten zo en ze dron-ken zo en ze slie-pen al'-maal zo. **
+|:GG GA|B2 BB/B/|AA AA|G2 z d/d/|cc cc/c/|BB BB/B/|AA AA|G2 z:|
+
+X:2
+T:Adam
+C:Traditioneel
+O:Midden-Brabant, Nederokkerzeel (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:G
+"_Solo"GG|GG GG|GD GA|BB AA|G2 z2|
+w:A-dam had er ze-ven zo-nen, ze-ven zo-nen had A-dam.
+|:"_Tutti"d2B2 d2B2|AA AA|BA G2:|
+w:Zo deed A-dam met zijn ze-ven zo-nen dan.
+|:d2B2 d2B2|AA AA|BA G2!D.C.!x:|
+
+X:3
+T:Alter Masur
+C:\"Osterreichische Tanzweise
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:3/4
+L:1/4
+Q:1/4=108
+R:Masurkazeitmass
+K:D
+f/g/|aff|fee/f/|gee/b/|a2|f/g/|aff|fee/f/|gcc|d2:|
+|:[K:G]D/E/|DBB|B>AA|Dcc|C>BB|DDD|c/d/ e/d/ c/B/|A/G/ F/G/ A/D/|[1B2:|[2G3||
+|:gf>e|eFF|fe>d|dGG|ed^c|cBc|[1ced|cBB:|[2ceF|G2|]
+
+X:4
+T:Ap Siencyn
+C:Traditional
+O:Cymru
+B:Blodau'r Grug: Cant o Alawon Dawnsio Poblogaidd Cymru
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+R:Jig
+M:6/8
+L:1/8
+K:G
+P:A
+d/c/|"G"B2B Bgf|"C"e2e efg|"G"ded dcB|"D7"cAA A2 d/c/|\
+"G"BcB Bgf|"C"efe efg|"G"ded "D7"cBA|"G"BGG G2!fine!:|g/a/|
+P:B
+"G"b2g "D"a2f|"C"gfg "G"dcB|"C"cde "G"dgB|"D"BAA A2 g/a/|\
+"G"b2g "D"a2f|"A"gfe "D"agf|"G"bag "A7"fge|"D"dgf "D7"ed!D.C.!c|]
+
+X:5
+T:Aredje d'Ottrez
+C:Traditional
+O:Wallonie
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:6/8
+L:1/8
+N:Intro (AB AB A)3
+Q:1/4=132
+K:D
+P:A
+F3 A3|GFE F2D|F2F A2A|GFE E3|F3 A3|GFE F2D|F2F A2A|GFE E3||
+P:B
+|:AGF AGF|B2B A2A|Bcd ABA|GFE F2 D|AGF AGF|B2B A2A|Bcd ABA|GFE D3:|
+
+X:6
+T:Astridin Vals
+Z:Bert Van Vreckem, 2004-04-16 <http://flanders.blackmill.net/music/>
+R:Wals
+M:3/4
+L:1/4
+K:Am
+E|:"Am"A2 B|c2 d|c c/d/ c/B/|A c e|"F"a>g f/e/|\
+"G"d f a|[1"Am"e2 c|"E7"B2E:|[2"C"e3-|"E7"e3|
+"Dm""F"a>g f/e/|"G"d f a|"C""Am"e>f e/d/|"Am"c A B|\
+"F"c f e|"G"d c B|"Am"A A/B/ c/d/|e>A c/e/|
+"Dm""F"a>g f/e/|"G"d f a|"C""Am"e>f e/d/|"Am"A2 B|\
+"F"c f e|"G"d c B|"Am"A3-|A2|]
+
+X:7
+T:Avant-Deux Lucie
+C:Traditional
+O:Wallonie
+N:For N couples, play AABBAABB N times.
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+N:(AABBAABB)xN  ABB
+K:G
+P:A
+|:DG B2|GB d2|cA EF|AG E2|DG B2|GB d2|cA EF|Gz Gz:|
+P:B
+|:BB (Bd)|d4|GG (GB)|B4|DE FG|[1A2 G2|GA (Be)|d ^cc:|[2AG AB|ce dF|Gz Gz|]
+
+X:8
+T:Bakmes fr\aan Kall
+C:Efter J.Jonsson (Joute i Byom)
+C:Arr. Alm Nils Ersson/Dissonant
+R:Bakmes
+M:3/4
+L:1/4
+Q:"l\aangsamt"
+%%staves [1 2]
+K:Am
+V:1
+|:E|"Am"E c/B/ (A/^G/)|(A c) e|a ^g/b/ (a/g/)|\
+V:2
+|:E|C E D|C A/B/ c/d/|f/e/ d B|\
+V:1
+"C"e ((3d/e/d/) "G"B|"Am"c A (A/c/)|("E7"B {B}[^GB]) {B}[GB]|"Am"A c/B/ ("E7"A/^G/)|"Am"A2:|
+V:2
+((3c/d/c/) B E/G/|A A A- & x G F-|A E D & F xx |C E D|C2:|
+V:1
+|:("Am"A/B/)|c2 c|"E7"(3c/d/c/ B c|"A(V)"e2c|c2 B/c/|"Dm(V)"d2 d|"G7(III)"((3d/e/d/) B/G/ (B/d/)|
+V:2
+|:E|A, E/^G/ A|A (3^G/^F/G/ A|c/B/ A E-|E F G|F/E/ D c|B G D/B/|
+V:1
+"F"f2 f|"C"e>d c|"E7"e>(d B/d/)|("Am"c A) A/c/|("E7"B {B}[^GB]) {B}[GB]|"Am"A2:|
+V:2
+d/c/ B G-|G (3B/c/B/ A|C E/^F/ ^G|A G F-|FED|C2:|
+
+X:9
+T:Bal in de straat
+N:Amerikaanse vorm van gemeenschapsdans, samengesteld door het echtpaar D. Foster (Decatur, IL).
+O:USA
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/2
+L:1/4
+Q:1/2=120
+K:D
+DCB,|A, e2 ^d|eg fe|(d2 ^c2|d)D CB,|A, e2 ^d|eg fe|(d4|d)f ed||
+|:f2 (d2|d)f ed|(f4|f)d ef|g2 d2|B2 g2|(f4|f)d cd|
+z e2 ^d|eA de|z f2 e|dd cd|z e2 ^d|eg fe|(d4|d)(F G^G||
+(A4|A))(F GA|(B4|B))(GAB|(c4|c))BAg|f>^e f=e|d(F G^G|
+(A4|A))(F GA|(B4|B))GAB|c2 c>B|Ag fe|(d4|d)f ed:|
+
+X:10
+T:Bekedorfer
+T:Vliegen vangen
+O:B\"uckeburg, Duitsland
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+Q:1/4=132
+K:D
+|:A2 FA|d2 A2|AG FG|B2 A2|A2 FA|d2 cB|AG FE|D2 z2:|
+|:E2 E2|D2 z2|B2 B2|A2 z2|F3 G|A3 B|AG FE|D2 z2:|
+|:AF DF|AF DF|E2 E2|E4|GE CE|GE CE|D2 d2|D2 z2:|
+|:EA, CE|FA, DF|AG FG|B2 A2|EA, CE|FA, DF|AG FE|D2 z2:|
+
+X:11
+T:Bezemdans
+C:Traditioneel
+O:Achtel (Vlaanderen)
+B:"Achtel Zalig Oord", Vlaams Dansarchief
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:4/4
+L:1/8
+N:Voorspel (ABB) x3 A
+K:C
+P:Voorspel
+|:GG/G/ GG GG ^FG|AA/A/ AA AA ^GA|BB/B/ BB BB AB |[1 cc/c/ BA GF ED :|[2 c2 G2 c2 ||
+P:A
+GG/G/ GG GG ^FG|AA/A/ AA AA ^GA|BB/B/ BB BB AB|cc/c/ BA GF ED |
+GG/G/ GG GG ^FG|AA/A/ AA AA ^GA|BB/B/ BB BB AB|c2 G2 c || c Bc |:
+P:B
+M:2/4
+L:1/8
+d2 c2|B2 A>B|AG (G2|G) e ee|e>d (d2|d) f ff| f>e (e2|e) c Bc |
+d2 c2|B2 A>B|AG (G2|G) ^FG|A2 A2|B2 c2|d>c Bc |[1 d c Bc :|[2 (d2 d z |]
+
+X:12
+T:Bezemdans
+C:Traditioneel
+O:Winksele-Delle (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:C|
+L:1/4
+N:(AAB)x2 A
+K:G
+P:A
+D |: B B B B|B/c/ d G2|A/B/ c F/G/ A|G/A/ B G D|B B B B|B/c/ d G2|A/B/ c F/G/ A|G B G D :|
+P:B
+K:D
+A A A f/e/|d3 A/d/|c c c3/ G/|B A F2|A A A f/e/|d3 A/d/|
+c c c3/ G/|B A F2|A A A f/e/|d3 A/d/|c c c B/c/|d z z2 |]
+
+X:13
+T:Bezemdans
+C:Traditioneel
+O:Vlaanderen
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:G
+Bc dB|ed d/c/B|dc c/B/A|Bc d|Bc dB|ed d/c/B|dc c/B/A|GB G2:|
+|:BG ee|d/c/B d2|dc c/B/A|ed d/c/B|BG ee|d/c/B d2|dc c/B/A|GB G2:|
+
+X:14
+T:Biessanwals
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/> 2005-09-20
+R:Wals
+M:3/4
+L:1/4
+%%staves [ 1 2 3 ]
+K:C
+P:A
+V:1
+|:"C"G3|"Em"G>FE|"Dm"F3|"G7"F>ED|"C"E2C|GEC|"G"B,2C|D>EF|
+V:2
+|:c3|B3|A3|G3|E3|G3|D2E|F2 [DG]|
+V:3
+|:G E/F/ G/E/|G E/F/ G/E/|F D/E/ G/D/|F D/E/ F/D/|EEC|GEC|B,2C|D>EF|
+V:1
+"C"G3|"Em"G>FE|"Dm"F3|"G7"F>ED|"C"(3E/F/E/ C/G/ E/C/|"G"F/D/ B,/C/ D/B,/|"C"CE"G"D|"C"C3:|
+V:2
+c3|B3|A3|G3|E3|F2D|E3-|E3:|
+V:3
+G E/F/ G/E/|G E/F/ G/E/|F D/E/ G/D/|F D/E/ F/D/|(3E/F/E/ C/E/ C/E/|FDB,|CED|C3:|
+P:B
+V:1
+|:"Dm"F D/F/ D/F/|"G7"B, D/B,/ D/F/|"C"E C/E/ C/E/|G,CE|\
+V:2
+|:D2F|B,2D|C2E|E2C|
+V:1
+"G"F (3D/F/D/ B,|FDA|"C"G>EG|c/C/ E/C/ G/E/|
+V:2
+D>B,G,|G,A,B,|C/B,/ C/D/ E/F/|G3|
+V:1
+"Dm"F D/F/ D/F/|"G7"B, D/B,/ D/F/|"C"E C/E/ C/E/|G,CE|\
+V:2
+D2F|B,2D|C2E|E2C|
+V:1
+"G"F (3D/F/D/ B,|FDB,|"C"CE"G"D|"C"C3:|
+V:2
+D>B,G,|G,A,B,|C C/D/ E/D/|C3:|
+
+X:15
+T:Boer en Boerinneke
+%%staffsep 25
+C:Traditioneel
+O:Hoogstraten (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:C|
+K:G
+P:A
+DG|B2 B2 (BA) GA|G4 D2 DD|E2 E2 C2 E2|(D4 D) z DG |
+w: Zie-hier zijn de lus-_ti-ge boer-kens, ja, ja, lus-tig dat wij zijn._ En de
+B2 B2 (BA) (GB)|A2 A2 E2 EE|F2 F2 E2 F2|(G4 G) z (Bc)|
+w: vro-lij-ke_ boe-_rin-ne-kens, ja, ja, vro-lijk dat zijn wij._  En_
+d2 (dc) B2 (AB)|(cd) (cB) A2d2|d2d2c2c2|(B4B) z (GA) |
+w: dat het_ nu re-_gent_ of_ waait, toch zijn we goed-ge-luimd._ En_
+c2 (cB) A2 (GA)|Bc BA G2 D2|E2E2F2F2| (G4G)z z2 ||
+w: of de_ zo- mer_ in de win-ter draait, we zijn steeds op-ge-ruimd._
+P:B
+K:C
+E2 EF G2 GG|c2 BA BBB z|d2 (dc) B2 BB |A2A2G4|
+w: Een lus-tig boer-ke, een la-chend boe-rin-ne-ke, wel dat_ is nu wat het moet zijn.
+E2 EF G2 GG|c2 BA BBB z|d2 DE (dc) (BA)|G2G2G4|
+w: Een ploe-gend boer-ken, een mel-kend boe-rin-ne-ke, o, dat is toch_ zo_ lief en fijn.
+D2 DE F2 FF |E2 EF GGG z|B2 BB B2 A2|A2 G2 G4 |
+w: Een zaai-end boer-ke, een lap-pend boe-rin-ne-ke, maar is dat ook niet net en fijn?
+F2 FE D2 DD|B2 BA GGG z|d2 (dc) B2 BB |A2A2G4|
+w: Een maai-end boer-ke, een oog-stend boe-rin-ne-ke, wel, kan_ er nog iets be-ters zijn?
+E2 EF G2 GG|c2 BA BBB z|d2de (dc) Bd|cc c2 cz |]
+w: Een lus-tig boer-ke, een la-chend boe-rin-ne-ke, zou er wel ie-_mand ge-luk-ki-ger zijn?
+
+X:16
+T:Boerenkermis
+T:De boerkes smelten van vreugd'
+C:Traditioneel
+O:Vlaanderen
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:6/8
+Q:3/8=102
+K:G
+"^Voorspel"D|"G"G2A Bcd|GGG Gdc|"D"BAG "D7"DEF|"G"G3 z2D||
+|:"G"G2A Bcd|GGG G2c|Bcd dcB|"D7"B3 A2D|"G"G2A Bcd|GGG Gdc|"D"BAG "D7"DEF|"G"G3 z2B||
+"G"B2B B2A|B2c d2G|"D"FFE FFE|F2G A2A|AAA AAA|AAA AAA|"G"B2A "A7"GEA|"D"D3 z2D||
+"G"GGG GGF|"D"F2E E2E|"C"ccc "G"BBB|"D"AAd d2B|"G"ddd "C"c2c|
+"G"BAB "D7"A2B|"G"ddd "C"ccc|"G"BAB "D"Adc|BAG "D7"DEF|[1"G"G3 z2D:|[2"G"G3 z2|]
+
+X:17
+T:Boerenplof
+O:Nederland
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:4/4
+K:C
+"G"GA Bc dc Bd|"C"c2c2 c2 (3GAB||
+!segno! "C"cG EG "G"FA GF|"C"ED EG "G"FA GF|"C"ED CD ED CE|"G"D2 G2 G2 (3GAB|
+"C"cG EG "G"FA GF|"C"ED EG "G"FA GF|GA Bc dc Bd|[1"C"c2c2 c2 (3GAB:|[2"C"c2 c2 c4||
+|:"G"dB GB d4|"C"ed cA G4|"G"dB GB d4|"C"ed cA G4|
+"F"AF CF Ac BA|"C"GE CE Gc BA|"G"GA Bc dc Bd|[1"C"c2 c2 c4:|[2"C"c2c2 c2 (3GA!segno!B||
+
+X:18
+T:Bonjoer
+%%staffsep 20
+C:Traditioneel
+O:Wilder (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:6/8
+K:G
+P:A
+Q:3/8=112
+D E2F|G2G G2G|G2G A2G|G3 (F3|F2) z d3 |(F6|F2) z d3|(G6|G2) D E2 F|
+w: *** **** **** *** Bon-jour_ Bon-soir_ ***
+G2G G2G|G2G A2G|G3 (F3|F2) z d3|(F6|F2) z d3|(G6|G2) z B2 c ||
+w: **** **** *** Bon-jour_ Bon-soir_ **
+P:B
+Q:3/8=152
+%%staffsep 45
+|: d3 B2 c|d3 c2 B|c3 A3|A2 z A2 B|c3 A2 B|c3 B2 A |
+B3 G3|G2 z d3|(G6|G2) z D3 |[1 (G6|G2) z B2 c :|[2 (G6|G) z |]
+
+X:19
+T:Bonjoer
+%%staffsep 20
+C:Traditioneel
+O:Winksele-Delle (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:G
+z D EF|Gz/G/ GG|(GB) AG|G2 F2|z2 d2|F4|z2 d2|G4|
+w: *** **** **** ** Bon-jour Bon-soir
+z D EF|Gz/G/ GG|(GB) AG|G2 F2|z2 d2|F4|z2 d2|(G4|G) z z (B/c/) ||
+w: *** **** **** ** Bon-jour Bon-soir_ **
+P:B
+%%staffsep 45
+Q:1/4=126
+|:dg fe|{e}dc c(c/d/)|eA A(B/c/)|dG (G/A/B/c/) |
+dg fe|{e}dc c(c/d/)|eA (d/c/B/A/) |[1 GB G(B/c/) :|[2 GB Gz |]
+
+X:20
+T:Bourr\'ee
+O:France
+Z:Bert Van Vreckem, 2004-06-26 <http://flanders.blackmill.net/music/>
+R:Bourr\'ee
+M:2/4
+L:1/8
+K:G
+"G"B2 BG|"D"F>G AB|c2 AF|"G"G>A Bc|"G"B2 BG|"D"F>G AB|c2 AF|"G"G2 G2:|
+|:"D"F>A FA|"G"G>B GB|"D"A>c Ac|"G"B2 G2|"D"F>A FA|\
+"G"G>B GB|[1"Am"dc BA|"D"d2 z2:|[2"D"dc BA|"G"G2 z2|]
+
+X:21
+T:Bourr\'ee de Plaix
+R:Bourr\'ee \`a 3 temps
+S:Mic Baudimant
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:3/4
+L:1/4
+%%staves [ 1 2 3 ]
+K:Gm
+V:1
+"Gm"d2 e|dcB|"F"ABc|"Bb"BAG|"Gm"d2 e|dcB|"F"cBA|"Gm"G3:|
+V:2
+d2d|d2d|c2c|c2c|B2B|B2B|c2c|c2c:|
+V:3
+b2b|b2b|a2a|a2a|g2g|g2g|a2a|a2a:|
+V:1
+|:"F"A2B|AGA|"Bb"d2B|"Gm"AG2|"F"A2B|AGA|"Bb"dB"D7"A|"Gm"G3:|
+V:2
+|:A2A|A2A|B2B|B2B|c2c|c2c|d2d|d2d:|
+V:3
+|:d2d|d2d|e2e|e2e|f2f|f2f|g2g|g2g:|
+
+X:22
+T:Bourr\'ee des Jeunes
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+R:Bourr\'ee
+M:3/4
+L:1/4
+K:C
+g|:g/f/ e f|g2 d/e/|f d f|e c g|g/f/ e f|g2 d/e/|f d B|[1c2 g:|[2c2 c|
+|:e d c|B2 d/e/|f d f|e c c|e d c|B2 d/e/|f d B|c2 c:|
+
+X:23
+T:Bourr\'ee d'Oulches
+R:Bourr\'ee
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:3/4
+L:1/4
+K:C
+G|:c d/c/ B/A/|G c e|d f B|d c G|c d/c/ B/A/|G c e|d f B|[1c2 G:|[2c2 e/f/|
+|:g a g|d2 d/e/|f d/f/ d/f/|e c e/f/|g a g|d2 d/e/|f d B|[1c2 e/f/:|[2c2 z|]
+
+X:24
+T:Bourr\'ee droite d'Issoudun
+C:Traditional
+R:Bourr\'ee
+O:B\'erichou, Auvergne, France
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:3/4
+K:C
+z2 DE|F2 D2 B,2|C4 ED||
+|:!segno!C4 D2|E2 C2 EF|G2 G2 F2|D4 ED|C4 D2|E2 C2 EF|G2 F2 E2|[1D4 ED:|[2D4 EF||
+|:G2 G2 F2|E2 C2 DE|F2 F2 E2|D4 EF|G2 G2 F2|E2 C2 DE|F2 D2 B,2|[1C4 EF:|[2!segno!C6|]
+
+X:25
+T:Bourr\'ee du diable
+R:Bourr\'ee
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/> 2005-09-20
+M:2/4
+L:1/8
+K:Cm
+"Cm"cd2e|"G7"d>c =BG|"Cm"cd2e|"F"f>e de|"Cm"cd2e|"G7"d>c =BG|"Cm"ce "G7"d=B|[1"Ab"cz c2:|[2"Cm"cz c2||
+|:"Cm"cd2e|"Fm"f>e de|"G7"g ^f2 e|d>c =BG|"Cm"cd2e|"G7"d>c =BG|"Cm"ce "G7"d=B|[1"Ab"cz c2:|[2"Cm"cz c2|]
+
+X:26
+T:La Montagnarde
+R:Bourr\'ee \`a 3 temps
+C:Traditional
+O:Auvergne
+B:Trad Magazine Hors S\'erie ``Tablatures 2'', 1997
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:3/8
+L:1/8
+Q:3/8=69
+K:C
+P:Intro/ending
+ze/f/g/a/|ge/f/e/d/|c2G|c3||
+P:A
+"C"c/d/ee|c/d/ee|c/e/gf|e2d|c/d/ee|c/d/ee|c/e/gf|[1"G"d2d:|[2"G"d2G|
+P:B
+|:"C"c2B|"F"ABc|"G"d>ef|"C"edG|c2B|"F"ABc|"G"d>ed|[1"C"c2G:|[2"C"c3|]
+
+X:27
+T:Bruiloftsdans
+C:Traditioneel
+O:Achtel (Vlaanderen)
+B:"Achtel Zalig Oord", Vlaams Dansarchief
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:C
+G2|GF EF|G2 zG|GF EF|G2 z G| cc dd|ee cc|Bc dc|BA AG|G2 z2 |
+|: G2 EG|c2 z2|d2 cd|E D|G2 EG|c2 z2|d2 cB|c2z2 :|
+GG GG|AA G2|GG GG|AA G2|e2 c2|e2 c2|dd cB|c2 z2 |]
+
+X:28
+T:Daalse Rij
+C:Traditioneel
+O:Leefdaal, Vlaanderen
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+Q:1/4=120
+N:Intro (AB)x2
+K:F
+P:Intro
+"F"FF/F/ FA|c3 (E/F/)|"C7"GG/A/ BE|"F"FFF c||
+P:A
+|:("F"c/d/)c/B/ Ac|f2- f/e/f/g/|(a/b/)a/g/ (f/e/)d/c/|"C"B3f|\
+% 5
+(e/f/)e/d/ ce|g2- gg/a/|("C7"b/a/)g/f/ e/f/e/d/|("F"c/d/)c/B/ Ac|
+% 9
+("F"c/d/)c/B/ Ac|f2- f/e/f/g/|(a/b/)a/g/ (f/g/)f/e/|"Bb"d2 zd|\
+%13
+b/a/g/f/ e/f/e/d/|"F"c/d/c/B/ A/B/c/d/|"C7"e/f/g/a/ b/g/f/e/|\
+[1"F"faf c:|[2"F"fff z||
+P:B
+K:Bb
+%33
+|:"Bb"d/f/d/f/ d/f/d/f/|"Eb"e/g/e/g/ e/g/e/g/|"F"f/a/f/a/ f/a/f/a/|"Bb"g/f/=e/f/ dz|
+"Bb"d/f/d/f/ d/f/d/f/|"Eb"e/g/e/g/ e/g/e/g/|"F"f/a/f/a/ g/f/g/a/|"Bb"bbb z:|
+
+X:29
+T:Danse de dj'v\^a
+O:Wallonie
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:D
+P:A
+D|:FD FD|E3 E/F/|GE GE|F3 A|AA Bc|dc/B/ AG|F2 E2|[1 E2 zE:|[2 E2 zA||
+P:B
+|:FA FA|G2 zG|EG EG|F2 zF|DF DF|EC/D/ EF|G2 A2|[1 F3 A:|[2 D2 zD|]
+
+X:30
+T:Draaiende Winden
+C:Traditioneel
+O:Minderhout (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/> 2005-09-20
+Q:1/4=104
+M:2/4
+L:1/8
+N:Voorspel (AAB) x6
+K:C
+P:Voorspel
+E/G/|"C"cc EE/G/|"Dm"AA DD/E/|"G7"FG AB|"C"c2 z E/G/ ||
+P:A
+!segno!|: "C"cc EE/G/|"Dm"AA DD/E/|"G7"FG BA|"C"GF EE/G/ |
+"C"cc EE/G/|"Dm"AA DD/E/|"G7"FG AB |[1G2 z E/G/ :|[2 c2 z C ||
+P:B
+K:F
+"F"AA A/^G/2A/^G/|A2 zc|cc AF|"C"AG GC|GG G/^F/G/^F/|G2 zC| "C7"CE GB|"F"AF FC|
+"F"AA A/^G/A/^G/|A2 zc|cc AF|"Gm"Bc d2|d>d "C7"cB|"F"Ac cc/d/|"C7"cB AG|F2 z E/!segno!G/|]
+
+X:31
+T:Dubbele klappolka
+R:Polka
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+Q:1/4=126
+K:F
+cc A2|dd c2|cc BA|B4|ee d2|ee d2|[1cf ed|c4:|[2cc de|f4||
+Q:1/4=120
+A2 c2|f2 cA|B2 c2|e4|B2 c2|e2 dB|A2 c2|f4|A2 c2|f2 cA|B2 c2|e4|B2 c2|e2 de|f2 f2|f4||
+A3 c|ff f2|B3 c|ee e2|B3 c|ee e2|A3 c|ff f2|A3 c|ff f2|B3 c|ee e2|B3 c|ee e2|c>c de|ff f2|]
+
+X:32
+T:Eierdans
+D:'t Kliekske Instrumentaal (1978)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+P:(AABBAACCDC)2
+M:6/8
+K:C
+P:A
+G|: "C"c>de e>dc|"G"d2d d2G|"C"c>de e>dc|("G"d3 d2) G:|
+P:B
+|: "C"c>d "D"c>BA|"G"B>cB B>AG|"C"c>d "D"c>BA|("G"G3 G2) G:|
+P:C
+M:4/4
+|:"C"G2 cB "F"A2 dc|"G7"B2 cd "C"c2G2|"C"G2 cB "F"A2 dc|"G7"B2 cd "C"c4:|
+P:D
+"C"egec "G"dcBc|"C"egec "G"dcBc|"C"egec "D7"B2 A2|"G7"B2 cd "C"c4||
+
+X:33
+T:Ferlandus
+T:La Ferlande
+B:De Gruytter nr. 146
+Z:Bert Van Vreckem, 2004-04-03 <http://flanders.blackmill.net/music/>
+M:6/8
+L:1/8
+K:C
+g|:"C"c2c cde|"G"d2G G2g|"C"c2c cde|"G"d2G G2G|"F"ABc "G7"cdB|"C"c2c c2G|"F"ABc "G7"cdB|"C"c2c +fine+c2g:|
+e2a g2f|ede c2g|e2a g2f|ede ccB|"F"A2"C"G GcB|"F"A2"C"G GcB|"F"A2G "G7"A2B|"C"c2G G2g|
+g3-g2g|"G7"g3-g2g|"C"gfg "F"agf|"G7"g2g g2G|"C"GAB "F"cBA|"G7"d2d d2G|"C"GAB "F"cBA|"G7"d2d d2g|
+"G7"gfe dcB|"C"c2c c2g|"G7"gfe dcB|"C"c2c c2G|cBc "G7"dcd|"C"e2c c2G|cBc "G7"dcd|"C"e2c cgf|
+"C"e2d "G7"dgf|"C"e2d "G7"dgf|"C"e2d "F"e2f|"G7"g2d d2d|"G"d3-d2d|"D7"d3-d2d|"G"dcd "C"edc|"D7"d2d d+D.C.+|]
+
+X:34
+T:Ffaniglen
+T:Difyrrwch Gw\^yr Llanfabon
+C:Traditional
+O:Cymru
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:C|
+L:1/4
+Q:1/2=120
+K:G
+P:A
+G/A/|"G"BBBd|GGG>A|BB"C"ce|"D7"d3 c|"G"BBBd|"Am"AAA>B|cc "D7"B/A/G/F/|"G"G3:|
+P:B
+e/f/|"G"gg "D7"de/f/|"G"ggde/f/|gg"A7"a/g/f/e/|"D"d3 ^c/d/|\
+"E"ee "A"A ^c/d/|"E"ee "A"A f/g/|"A7"agfe|"D7"d3 d/c/|
+"G"BBBd|"Em"GGG>A|"G"BB"C"ce|"D7"d3 e/f/|"Em"gg"Bm"f>f|\
+"C"ee"G"d>d|"Am"ce "D7"d/c/B/A/|"G"G3|]
+
+X:35
+T:Fezelen
+C:Traditioneel
+O:Hoogstraten (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:G
+P:A
+D2|G2B2|A2 G2|AG FA|Gz D2|G2B2|A2 G2|AG FE |
+D2D2 |c2c2|cB ce|(d4|d2) z(c/B/)|AE E(B/A/)|GD D(A/G/)|
+FD FA|d2 z(c/B/)|AE E(B/A/)|GD D(A/G/)|FD FA |[1 Gz :|[2 Gz z2 ||
+P:B
+(d/^c/d/e/) dB|=cA Gz|(d/^c/d/e/) dB|=cB Az|(d/^c/d/e/) dB|=cA d2|dd cc|(B2 B) z |
+(d/^c/d/e/) dB|=cA Gz|(d/^c/d/e/) dB|=cB Az|(d/^c/d/e/) dB|=cA e2|dd cA|G |]
+
+X:36
+T:Garde Sus
+C:Traditioneel
+O:Achtel (Vlaanderen)
+B:"Achtel Zalig Oord", Vlaams Dansarchief
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+N:Voorspel |:AABB:| ad lib.
+K:F
+P:Voorspel
+C2| FFFF|FGAB|cA cA|F2 zC ||
+P:A
+!segno!|: FFFF|FGAB|cc BA|G4|cccc|cc c2|c>B AG |[1 A2 FC :|[2 F2 z2 ||
+P:B
+|: c>B AB|cc cA|BBBB|dc B2|c>B AB|cc cA|c>B AG |[1 F2 z2 :|[2 F z!D.S.!C |]
+
+X:37
+T:Gathering Peascods
+T:Erwtjes plukken
+B:The English Dancing Master, John Playford (London, 1651)
+O:Engeland
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:C|
+L:1/4
+K:G
+|:"G"d2 dd|B>c dd|"C"ed cB|"D"A3 B|AG GF|[1 "G"G4:|[2 "G"G3 G||
+|:"D"FD FG|A2 BA|"G"G/A/B AG|"D"F3 F|"A"ED E>D|[1 "D"D3 G:|[2 "D"D3 d||
+|:"G"BG GA/B/|"C"c3 c|"G"BG GA/B/|"D"A3 d|"G"BG GA/B/|"C"c>d e d/c/|"G"Bc/B/ "D"A>G|"G"G3 z:|
+
+X:38
+T:Gemeenschapsmenuet
+C:Traditioneel
+C:Arr. Bert Van Vreckem
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/> 2005-09-20
+M:3/4
+L:1/8
+P:(AB)4
+%%staves [1 2]
+K:D
+P:A
+V:1
+|:"D"d2 (d>e) (f>g)|a2 a4|"G"b2 (bg) (d'b)|"D"a2 a4|\
+V:2
+|:d2 (d>e) (f>d)|[d2f2] [d4f4]|g2 (gd) (ag)|[d2f2] [d4f4]|\
+V:1
+"A7"g2 (g>b) (a>g)|("D"f>g a)f ed|("A"e>f g)A Bc|"D"{c}d2 d4:|
+V:2
+e2 (e>g) (f>e)|d3 e f2|(AB cd ef)|e2 {fe}d4:|
+P:B
+V:1
+|:"D"f2 f>d a>f|"A"{f}e2 e3 c|"Bm"d2 (d>f) (e>d)|"F#m"{e}c2 c4|\
+V:2
+|:[A2d2] [Ad]e d2|{ed}c3 B A2|Bc (dc) (Bd)|cB A2 F2|\
+V:1
+"G"B2 B>G d>B|"D"A>d FG AB|"A7"c>d ef gc|"D"{e}d2 d4:|
+V:2
+GA BA GB|AG FG AF|(AB cd ef)|e2 {fe}d4:|
+
+X:39
+T:La Mouche
+C:Traditioneel
+O:Gent, Vlaanderen
+B:Gentse Contradansen, Muziekmoza\"iek
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:6/8
+L:1/8
+Q:3/8=126
+%%staves [ 1 2 ]
+P:AABB
+K:E
+P:A
+% 1
+V:1
+B|"E"MB2e Me2g|Mg3 b2B|"A"c{/b}ag "B"fed |"E"eBG E2B|\
+V:2 clef=bass middle=D
+z|    EBG  E2z|EBG E2G|   A2A        B2B,|   E3  z2z|\
+% 5
+V:1
+"E"MB2e Me2g|Mg3 b2B|"A"cag "B"fed |"E"e3    e2 ::f|
+V:2
+    EBG  E2z|EBG E2G|   A2A    B2B,|   EB,G, E,2::z|
+% 9
+P:B
+V:1
+"E"geB E2g|"B"fdB B,2f|"E"gfe dcB|"F#"^ABc F2e|\
+V:2
+   EEE EEE|   DDD DDD |   EEE EEE|     FFF FFF|\
+% 13
+V:1
+!f!Fec' "(B)"Fdb|"F#"Fec' "(B)"Fdb|"E"gfe "F#"Pc3|"B"B3  B2B|
+V:2
+   FFF       FFF|    FFF       FFF|   EEE     FFF|   BFD B,2z|
+%17
+V:1
+"E"MB2e Me2g|Mg3 b2B|"A"cag "B"fed|"E"eBG E2B|\
+V:2
+    EBG  E2z|EBG E2G|   A2A   B2B,|   E3  z2z|\
+%21
+V:1
+"E"MB2e Me2g|Mg3 b2B|"A"c{/b}ag "B"fed|"E"e3    e2:|
+V:2
+    EBG  E2z|EBG E2G|   A2A       B2B,|   EB,G, E,2:|
+
+X:40
+T:La Mouche
+C:Traditioneel
+O:Gent, Vlaanderen
+B:Gentse Contradansen, Muziekmoza\"iek
+N:Originally in E. Slightly edited
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:6/8
+L:1/8
+Q:3/8=126
+%%staves [ 1 2 ]
+P:AABB
+K:C
+P:A
+% 1
+V:1
+G|"C"MG2c Mc2e|Me3 g2G|"F"A{/g}fe "G"dcB |"C"cGE C2G|\
+V:2 clef=bass middle=D
+z|    CGE  C2z|CGE C2E|   F2F        G2G,|   C3  z2z|\
+% 5
+V:1
+"C"MG2c Mc2e|Me3 g2G|"F"Afe "G"dcB |"C"c3    c2 ::d|
+V:2
+    CGE  C2z|CGE C2E|   F2F    G2G,|   CG,E, C,2::z|
+% 9
+P:B
+V:1
+"C"ecG C2e|"G"dBG    D2 d  |"C"edc BAG|"D"^FGA D2c|\
+V:2
+   CCC CCC|   B,B,B, B,B,B,|   CCC CCC|    DDD DDD|\
+% 13
+V:1
+!f!DFA "(G)"DGB|"D"DFA "(G)"DGB|"C"edc "D"PA3|"G"G3   G2G |
+V:2
+   DDD      DDD|   DDD      DDD|   CCC    DDD|   GDB, G,2z|
+%17
+V:1
+"C"MG2c Mc2e|Me3 g2G|"F"Afe "G"dcB |"C"cGE C2G|\
+V:2
+    CGE  C2z|CGE C2E|   F2F    G2G,|   C3  z2z|\
+%21
+V:1
+"C"MG2c Mc2e|Me3 g2G|"F"A{/g}fe "G"dcB |"C"c3    c2 :|
+V:2
+    CGE  C2z|CGE C2E|   F2F        G2G,|   CG,E, C,2:|
+
+X:41
+T:La Tintin
+C:Traditioneel
+O:Gent, Vlaanderen
+B:Gentse Contradansen, Muziekmoza\"iek
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+Q:1/4=120
+P:ABABAB
+%%staves [1 2]
+%%MIDI program 1 % Acoustic Grand Piano
+%%MIDI chordprog 25 % Acoustic Guitar (nylon)
+%%MIDI bassprog 33 % Acoustic Bass
+K:Bb
+P:A
+V:1
+"Bb"B(d cB)|"Bb"f2 "Cm"ga|("Eb"bg) "F"fe|"Bb"{f}e2 !pralltriller!d2|"Bb"B(d cB)|"Bb"f2 "Cm"ga|("Eb"be) "F"dc|"Bb"B2 z2:|
+V:2 clef=bass
+B2 b2|(af) (ec)|(de) (fF)|b2 B2|B2 b2|(af) (ec)|(de) (fF)|B4:|
+P:B
+V:1
+|:(3"Bb"dff (3fff|(3"Eb"egg (3ggg|(3"Cm"gfe (3dcB|"F"A2 F2|(3"Bb"dff (3fff|(3"Eb"egg (3ggg|(3"F"fed (3cBA|"Bb"B2 B,2:|
+V:2
+|:B2 d2|e2 d2| c2 e2|f2 F2|B2 d2|e2 e2|f2 F2|B4:|
+
+X:42
+T:Gyvataras
+C:Traditional
+O:Lithuania
+Z:Bert Van Vreckem, 2001-08-11 <http://flanders.blackmill.net/music/>
+Z:Transcribed from a recording by Bert Blancquaert and Hilde Raskin (2001-08-09, Dworp, Flanders),
+Z:performed by Edvinas Vilkas and Lina Duduliene
+M:2/4
+L:1/8
+K:G
+"G"dd e/d/c|dd d2|dd e/d/c|"D7"dA A>B|AB cd|ff f>e|dc BA|"G"G2 G2:|
+|:"G"Gd de|d4|Gd de|d4|d2 "C"e2|"G"d2 "D7"c2|dc BA|"G"G2 G2:|
+
+X:43
+T:Hal- en Bergenkermis
+C:Traditioneel
+O:Minderhout (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:C|
+L:1/4
+N:(Voorspel AABB) x3 Voorspel
+K:C
+P:Voorspel
+"C"EE E E/F/|ED CG|"F"A2 "G7"B2|"C"c3 z ||
+P:A
+|:"C"EE E E/F/|ED C2|GG G G/A/|GD C2|G3 c |
+ "G"B3 d |[1 "Am"A z "D7"B z|"G"AG "G7"G2 :|[2 "Dm"A z "G7"B z|"C"cccz ||
+P:B
+|: "C"GG c>A|"F"AG "C"Gz|"Dm"FF "G7"A>F|"C"FE Ez|"C"GGc B/c/ |
+"Dm"dA Az |[1 "G"BB "D7"A>B|"G"AG "G7"Gz :|[2 "Dm"d>c "G7"Bd|"C"cc cz |]
+
+X:44
+T:Hanske van Leuven
+C:Traditioneel
+O:Westerlo (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:D
+A>A A>A|A>G F>A|A>A B>F|A2G2|G>G G>G|G>F E>A|A>A B>c|d2 z2:|
+F4|[D4A4]|(3ABA G>F|A2G2|e2d2|c3B| A>A (3ABc|d2z2|]
+
+X:45
+T:Havermeuleke
+C:Traditioneel
+O:Westerlo
+B:Hopsasa, Vlaams Dansarchief
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+R:Mars
+Q:1/4=120
+N:Voorspel (ABB) ad lib. C
+M:2/4
+L:1/8
+K:G
+P:Voorspel
+Bc|(3B/c/B/A AB|(3A/B/A/G GA|G>F EF|Gz z3/2D/||
+P:A
+!segno!Gz Bz|Gz (3DGB|dz Dz|Gz Bc||
+P:B
+|:(3B/c/B/A AB|(3A/B/A/G GA|G>F EF|(3E/F/E/D Bc|
+(3B/c/B/A AB|(3A/B/A/G GA|G>F EF|1Gz Bc:|2Gz z3/2!segno!D/||
+P:C
+Gz Bz|Gz (3DGB|dz Dz|Gz z2|]
+
+%%scale 0.65
+X:46
+T:Heiluizer
+C:Traditioneel
+O:Achtel (Vlaanderen)
+B:"Achtel Zalig Oord", Vlaams Dansarchief
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+%%staffsep 35
+M:2/4
+L:1/8
+N:Voorspel AA BB C DD E FF GG / Voorspel AA C DD E FF GG / Voorspel A BBB Voorspel
+K:C
+P:Voorspel
+GG AB|cc Bc|d2 B2|c3 z|
+P:A
+GG AB|cc BA|GG FE|F/E/F D2|GG AB|cc Bc de/d/ cB |[1 c2 A2 :|[2 ( c2 c ) G ||
+P:B
+M:6/8
+|:c2c B2B|A2A G2G|AAA G2G|F2F EEF|G2G GFG |\
+A2A AGA|B2B A2B |[1 [M:2/4][L:1/8] cc c G :|[2 ( c2 c ) B/c/ ||
+P:C
+"_Vlugger"dcBA|GG zc|AA z d/c/|BABc|"_Rall."cc c G ||
+w:****************** Al
+P:D
+M:6/8
+"_Trager"c2c B2B|A2A G2G|AAA G2G|F2F EEF|G2G GFG|
+w:is't dat wij maar boer-kens zijn, wij ken-nen de lief-de toch zo fijn, en we gaan op zwier en we
+A2A AGA|B2B A2B|[1 [M:2/4] [L:1/8] (c2c) G :|[2 [M:4/4] [L:1/8] (c2c)z zG EG ||
+w:gaan op zwier, en we ma-ken veel ple-zier!_ Al zier!_ En in ons
+P:E
+L:1/4
+(c2 c/)B/ A/G/|BAzF|(A2 A/)G/ A/G/|EzzG|
+w:land_ me-ten ze ver-kens, in hol-_land is't maar vis Zes
+c2 c/B/ A/G/|BAzF|(A2 A/)G/ A/G/| [M:2/4] E4 z4 ||
+w:da-gen moe-ten we wer-ken eer 't~on-_ze zon-dag is.
+P:F
+M:6/8
+|:c2c B2B|A2A G2G|AAA G2G|F2F EEF|
+w:Tie-re-lie-re ver-kens-nie-re ma-ge-re pee-kens zijn niet vet, en we
+G2G GFG|A2A AGA|B2BA2B|(c3 c2)z:|
+w:gaan op zwier en we gaan op zwier en we ma-ken veel ple-zier!_
+P:G
+M:2/2
+L:1/4
+|:GGGc|AAAd/c/|Bfed|ceg|GGGc|AAAd/c/|Bfed|[1cecz:|2 cz (cc/)z/ |]
+
+%%scale 0.75
+X:47
+T:Hoffed ap Hywel
+T:Powell's Fancy
+C:Traditional
+O:Cymru
+B:Blodau'r Grug: Cant o Alawon Dawnsio Poblogaidd Cymru
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:9/8
+L:1/8
+Q:3/8=120
+K:F
+"F"f2d cAF cAF|"Bb"f2d "F"cAF "C"B2G|"F"f2d cAF cAF|"Bb"GAB "G7"AGF "C"EDC:|
+|:"F"f2a afa afa|"F"f2a afa "C"gec|"F"f2a afa afa|"Bb"gab "G"agf "C"edc:|
+T:Breuddwyd y Wrach (neu: Gyrru'r Byd o'Mlaen)
+T:The Witch's Dream (or: Kick the World Before Me)
+K:C
+|:"C"cec e2f gec|"C"cec e2c "G"dBG|"C"cec e2f gec|"C"ege "G"fdB "C"c3:|
+|:"G"GBG B2c dBG|"G"ede B2c dBG|"G"GBG B2c dBG|"C"ege "G"fdB "C"c3:|
+
+X:48
+T:Holleblokkendans
+O:Vlaanderen
+Z:Bert Van Vreckem, 2004-04-03 <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:G
+P:A
+G/A/B/c/ dd|ee dd|G/A/B/c/ dd|cB/A/ G2|G/A/B/c/ dd|ge dd|G/A/B/c/ dd|cB/A/ G2:|
+P:B
+|:F>G AA|BB AA|F>G AA|GF/E/ D2|F>G AA|dB AA|F>G AA|GF/E/ D2:|
+
+X:49
+T:Hoogstraatse galop
+C:Traditioneel
+O:Hoogstraten (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:4/4
+L:1/4
+K:C
+(3c/e/f/|f3/2f/ ed|c2 cz|a3/2a/ gf|e2 ez|g3/2f/ ed|cz z/f/ e/d/|cc de|(f2f/)a g/f/|
+L:1/8
+e2e2 e>g gg|a2a2 g2z2|d2d2 d>e fg|a2g2 e>g gf|e2e2 e>f ff|a2a2a2 ab|ba fa ag ef|ed gd c2|]
+
+X:50
+T:Italiaanse Mazurka
+R:Mazurka
+Z:Bert Van Vreckem, 2004-06-26 <http://flanders.blackmill.net/music/>
+M:3/4
+L:1/4
+K:G
+"G"G/A/ B/c/ d/e/|"D"d d>e|d d c|"G"c B2|\
+"Em"G/B/ d/e/ d/c/|"Am"B A2|"D"A/B/ c/d/ c/B/|"G"A G2|
+"G"G/A/ B/c/ d/e/|"D"d d>e|d d c|"G"c B2|\
+"Em"G/B/ d/e/ d/c/|"Am"B A A/4B/4c/|"D"d d/c/ B/A/|"G"G G z||
+|:"G"d/B/ G/B/ G/B/|d/B/ G/B/ G/B/|"D"c/A/ F/A/ F/A/|c/A/ F/A/ F/A/|\
+"G"d/B/ G/B/ G/B/|d/B/ G/B/ G/B/|"Am"e e2|"D"(3d/e/d/ (3c/d/c/ B/4c/4B/4A/4|"G"G G z:|
+
+X:51
+T:Jan Pirrewit
+C:Traditioneel
+O:Nederokkerzeel (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:3/4
+K:G
+L:1/4
+D|:B/B/ B A|G/G/ G G/G/|GFG|AzD|F/F/ FG|A/A/ A A/B/|cBA|[1 BzD :|2 Gz D/D/|
+DEF|Gz E/E/|EFG|AzD|B/B/ BA|G/G/ G A/B/|cBA|G !fine!z D||
+L:1/8
+|:BB/B/ Bd Bd|BB/B/ Bd Bd|BB/B/ Bd Bd|c4 D2|DE FG AB|
+cB AG FE|[1 DE FG A^A|B4D2:|2DE FG AB|Gz!D.C.!G2|]
+
+X:52
+T:Jan Smet
+C:Traditioneel
+O:Nederokkerzeel (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+N:Voorspel (AABB) ad lib.
+N:De dans kan naar believen herhaald worden. Er wordt echter steeds ge\"eindigd tijdens
+N:de A-muziek, waarbij de muzikanten op een willekeurige maat ophouden met spelen en er
+N:pret in hebben de dansers zonder muziek te zien verder dansen.
+Q:1/2=116
+M:2/2
+L:1/4
+K:G
+P:Voorspel
+d|"G"Bzzd|Bzzd|"D7"fecA|"G"G2zd||
+P:A
+!segno!"G"Bzzd|Bzzd|"D7"edcB|(d2c)c|Azzc|Azzc|fecA|1("G"d2G)d:|2"G"d2G||
+P:B
+d/d/|:"G"dBG d/d/|dBGd|edcB|("D7"d2c) c/c/|cAF c/c/|cAFc|fecA|1("G"B2G) d/d/:|2"G"G2z!D.S.!d|]
+
+X:53
+T:Jan Smet
+C:Traditioneel
+O:Perk (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:G
+Q:1/4=100
+d|:"G"B2zd|B2zd|"D7"ed cB|(d2c)c|A2zc|A2zd/d/|dc BA|1"G"G2zd:|2"G"G2z2||
+Q:1/4=126
+|:("G"B>c) dd|(cA) FF|(c>A) FF|"D7"ee dG|(B>c) dd|(cA) FF|(c>A) FF|1"G"ed Gz/:|2"G"ed !D.C.!G|]
+
+X:54
+T:Jan van Leuven
+C:Traditioneel
+O:Winksele-Delle (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:6/8
+Q:3/8=108
+N:Voorspel (AABB) ad lib.
+K:G
+P:Voorspel
+d2d d2B|d2d d2B|d^cd e2d|c2AG3||
+P:A
+!segno!|:d2d d2B|d2d d2B|d^cd e2d|c2BA3|c2cc2A|c2cc2A|cBc d2c|1B2A G3:|2B2A G2D||
+P:B
+|:DEF G2E|EFG A2A|ABc ded|1cBA B2D:|2cBA G2!D.S.!z|]
+
+X:55
+T:Jig: The Atholl Highlanders
+R:Double jig
+O:Schotland
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:6/8
+Q:3/8=120
+K:G
+Bc !segno!|:"G"d2d dBG|dBG "F"ABc|"G"d2d dBG|"F"ABc B2A|"G"d2d dBG|
+dBG "F"ABc|"G"dgd "C"edc|[1"D"BcB "G"GBc:|[2"D"BcB "G"G3||
+|:"G"GBd GBd|"C"Gce Gce|"G"GBd GBd|"F"A2A A3|"G"GBd GBd|"C"Gce Gce|"G"dgd "C"edc|"D"BcB "G"G3:|
+|:g2d dcB|g2d dcB|g2d dcB|"F"ABc B2A|"G"g2d dcB|g2d dcB|dgd "C"edc|"D"BcB "G"G3:|
+|:"G"B2B BAB|"F"c2c cBc|"G"B2B BAB|"F"A2A AGA|"G"B2B BAB|"F"c2c cBc|"G"dgd "C"edc|[1"D"BcB "G"G3:|[2"D"BcB "G"GB!segno!c||
+
+%%scale 0.6
+X:56
+T:Mr. Haendel's Jig
+C:Georg Friedrich Haendel
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+R:Double Jig
+M:6/8
+L:1/8
+Q:3/8=120
+%%MIDI chordprog 25 % Acoustic Guitar (nylon)
+%MIDI gchordoff
+%%staves [ 1 2 3 ]
+K:G
+% Eerste systeem
+% M1
+V:1
+%%MIDI program 24 % Tango Accordion
+%%MIDI control 7 80
+D|:"G"G2B "D7"A2c|Bcd G2A|"G"Bcd "C"cde|"G"d3-d2 d|\
+V:2
+%%MIDI program 24 % Tango Accordion
+%%MIDI control 7 70
+D|:D2G F2A|G3 D2F|GAB ABc|B2D G,2G|\
+V:3 clef=bass
+%%MIDI transpose -12
+%%MIDI program 33 % Acoustic Bass
+A|:G2z d2z|g2z d2z|g2z c2z|g2z b2z|\
+% M5
+V:1
+"C"e2A "D"ABc|"G"d2G "Em"GAB|"D"cdc "G"BAB|[1"D"A3-A2D:|[2"D"A3-A2A|
+V:2
+EFG FGA|D2d BAG|F2f g2G|[1F3-F2D:|[2F3-F2F|
+V:3
+c2z d2z|g2z e2z|f2z g2z|[1d2c B2A:|[2d2^c d2z|
+% Tweede systeem
+% M9
+V:1
+|:"D"A2A A2"E"B|"Am"cde A2c|"Am"e2e e2"D"f|"Em"g2G G2"D7"A|\
+V:2
+|:FGA D2^G|ABc E2A|cde E2c|BAG cBc|\
+V:3
+|:d2z d2e|a2e c2A|a2z a2d|e2z e2d|\
+% M13
+V:1
+"G"BAG "C"c3-|"D7"cBA "G"d2c|"G"BcB "D7"AGA|[1"G"G3-G2A:|[2"G"G3-G2d[K:Gm]||
+V:2
+D2d edc|f3-fga|d2g A2f|[1g3-g2F:|[2g3-g2z[K:Gm]||
+V:3
+GAB c3|def g2z|d2z d2z|[1g2d G2z:|[2g2d G2z[K:Gm]||
+% Derde systeem
+% M17
+V:1
+|:"Gm"g2G "F"g2G|"Eb"gab "Bb"g2f|"Cm"edc "D7"BcA|"Gm"Bcd GAB|\
+V:2
+|:GAB AGF|EFG E2D|E2E F2^F|GAB B2G|\
+V:3
+|:g2z f2z|e2z d2z|c2z d2z|G2z B2z|\
+% M21
+V:1
+"Cm"cde "F"ABc|"Bb"F2b "Eb"a2g|"Bb"fed "F"cBc|[1"Bb"B3-B2d:|[2"Bb"B3-B2f|
+V:2
+EFG FGA|DEF EFG|F2B F2E|[1D2E F2z:|[2D2E F2z|
+V:3
+c2z f2z|B2z e2z|d2z c2z|[1B2f b2z:|[2B2f b2z|
+% Vierde systeem
+% M25
+V:1
+|:"Bb"b2B b2B|"F"ABc F2d|"Gm"g2G g2G|"D7"^FGA "Gm"D2d|\
+V:2
+|:def Bcd|FGA C3|Bcd GAB|D2C B,3|\
+V:3
+|:B2z d2B|f2z c2A|G2z B2c|d2z G2B|\
+% M29
+V:1
+"Cm"edc "Eb"BAG|"D"^f=ef "Gm"g=f_e|"D7"dcB AGA|[1"Gm"G3-G2f:|[2"Gm"G3-G2|]
+V:2
+cBA GFE|D=E^FG2_E|D2D ^F2A|[1B2A G2z:|[2B2A G2|]
+V:3
+c2d e3|d2c B2c|d2d ^f2f|[1g3 G2z:|[2g3 G2|]
+
+%%scale 0.7
+X:57
+T:Kadril van Brussel
+T:I
+C:Traditioneel (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:F
+P:Voorspel
+"F"A2 A>G|FG AB|c3 d|c4| c2 c>c|dc BA|"C7"G2 c2|"F"F4||
+P:A
+"F"A2 A>G|FG AB|c3 d|c4|[1 c2 c>c|dc BA|"C7"G>c cc|c4:|[2 "G"=B B>B|=BG AB| "C7"c4-|cA AB||
+P:B
+"F"c2 BA|"C"G2 "C7"^G2|"F"A2 F2|zA AB|c2 BA|"C"G2 "C7"^G2|"F"A4|zA AA|
+"G"G3 A|=B2 G2|"C"A2 G2|zG Gc|"G"=B3 G|"G7"GG A=B|"C"c4|z2 z"C7"c||
+P:C
+"F"F>F FG|A3 A|A>A AA|"Bb"B3 B|B>B BB|B2 AB|"F"d2 cB|A2 zc|
+F>F FG|A3 A|"Bb"d2 c2|"F"A2 zd|"Bb"d>d dd|"F"c2 FA|"C7"cB AG|"F"F2 [F2A2C2f2]|]
+T:II
+M:6/8
+K:C
+P:Voorspel
+"C"EGA GAB|cBA G3|"G"G^FG "G7"^GAB|("C"c3 c2)z||
+P:A
+"C"EGA GAB|cBA G3|"G"FEF d3|"C"E^DE c3|EGA GAB|cBc A3|"G"G^FG =fed|"C"c2z c2z||
+P:B
+[K:G] "G"B2z d2z|dcB "D"A3|A2z c2z|"D7"cBA "G"G3|B2z d2z|"C"cBc e3|"D7"fed cBA|"G"G2z G2z||
+P:C
+[K:C] "C"EGA GAB|cBA G3|"G"FEF d3|"C"E^DE c3|EGA GAB|cBc A3|"G"G^FG =fed|"C"c2z c2z||
+P:D
+[K:F] |:"F"A2z G2z|(F3 F)Ac|("Bb"d3 d)fd|("F"c3 c2)z|"C7"B2z d2z|"F"c3 AFG|"C"A2c "C7"G2c|"F"F2z f2z:|
+P:E
+[K:C] "C"EGA GAB|cBA G3|"G"FEF d3|"C"E^DE c3|EGA GAB|cBc A3|\
+"G"G^FG =fed|"C"c2z c2z|]
+T:III
+K:G
+M:2/4
+L:1/16
+P:Voorspel
+"G"G2DG B2GB|(d^cde) d2B2|("D7"edcB) A2F2|"G"G4 G4||
+P:A
+!segno!x"G"G2DG B2GB|(d^cde) d2B2|("D7"edcB) A2F2|"G"dcBA B2d2|\
+G2DG B2GB|(d^cde) d2B2|("A"Ad^cB) A2c2|"D"d2dd "D7"d2d2|
+"G"G2DG B2GB|(d^cde) d2B2|("D"edcB) A2F2|"G"dcBA B2d2|\
+G2DG B2GB|("D"ABcd) e2G2|("D7"FGAB) (cdef)|"G"g2z2 g2z2!fine!||
+P:B
+[K:C] [L:1/4] ("C"g2|g/)e/ f/a/|g2|e e|"G"f d|"G7"b a|"C"g>f|e2|\
+(g2|g/)e/ f/a/|g2|e e|"G"d f|"G7"e d|"C"c2|c z!D.S.!|]
+T:IV
+K:C
+L:1/16
+P:Voorspel
+"C"G2E2 C2E2|(G2cd) e4|("G7"dedc) (BGAB)|"C"c2z2 c2z2||
+P:A
+|:"C"G2E2 C2E2|(G2cd) e4|("G"dedc) (BcBA)|(GAGF) E2C2|\
+"C"G2E2 C2E2|(G2cd) e4|("G"dedc) (BGAB)|"C"c2z2 c2z2:|
+P:B
+[K:F] "F"A2A2 c2c2|(cdcA) c4|("C"AcBA) G2G2|("C7"ABAG) "F"F2F2|\
+A2A2 c2c2|(cdcA) c4|"G"=B2G2 d2G2|"C"c2cc "C7"c2c2|
+"F"A2A2 c2c2|(cdcA) c4|("C"AcBA) G2G2|("C7"ABAG) "F"F2F2|\
+A2A2 c2c2|("C7"BABc) d4|c2c2 E2E2|"F"F2z2 f2z2||
+P:C
+[K:C]|:"C"G2E2 C2E2|(G2cd) e4|("G"dedc) (BcBA)|(GAGF) E2C2|\
+"C"G2E2 C2E2|(G2cd) e4|("G"dedc) (BGAB)|"C"c2z2 c2z2:|
+
+%%scale 0.7
+X:58
+T:Kadril van Diest
+C:Traditioneel
+O:Vlaanderen
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:C|
+L:1/4
+K:C
+T:I
+P:Intro
+ee!trill!G ^F/G/|cc e/^d/e/f/|dd B/G/B/d/|czcz||
+P:A
+!segno!"C"ee!trill!G ^F/G/|cc e/^d/e/f/|"G7"dd B/G/B/d/|"C"ccg2|\
+ee!trill!G ^F/G/|cc e/^d/e/f/|"G7"dd B/G/B/d/|"C"czcz||
+P:B
+[K:Am]"Am"ABcA|e/^d/e/f/ e A/c/|"E7"Be e/d/c/B/|"Am"cBAE|\
+ABcA|"Dm"f2-f d|"E7"edcB|"Am"AzG2||
+P:C
+[K:C]"C"eeG ^F/G/|cc e/^d/e/f/|"G7"dd B/G/B/d/|"C"ccg2|\
+eeG ^F/G/|cc e/^d/e/f/|"G7"dd B/G/B/d/|"C"czcz||
+P:D
+[K:F]"F"f2 e>d|cBA2|"Bb"d2 c>B|"F"AGFA|\
+"C7"Gccc|c2-cd|ecde|"F"fzfz!segno!|]
+%
+T:II
+K:C
+P:Intro
+E>E G/C/E/G/|cB EA|GD/E/ F/G/A/B/|cz cz||
+P:A
+|:!segno!"C"E>E G/C/E/G/|cG EA|"G"GD/E/ F/G/A/B/|AG EC|\
+"C"E>E G/C/E/G/|cG EA|"G7"GD/E/ F/G/A/B/|"C"cz cz:|
+P:B
+|:"C"E>^D E>^D|EC G,C|E>^D EA|\
+[1G2- Gc|"G7"BD EF|B2- BA|"C"AG CD|Ez"G7"Gz:|
+[2"G"G2- GG|GD GA|Bd/B/ GB|"D7"AE ^FD|"G"GG/G/ GG||
+P:C
+"C"E>E G/C/E/G/|cG EA|"G"GD/E/ F/G/A/B/|AG EC|\
+"C"E>E G/C/E/G/|cG EA|"G"GD/E/ F/G/A/B/|"C"cz cz!segno!|]
+%
+T:III
+M:6/8
+L:1/8
+P:Intro
+c2d edc|a2^f g2e|def GAB|c2zc2z||
+P:A
+!segno!"C"c2d edc|a2^f g2e|c2d edc|"G7"B2c d2G|\
+"C"c2d edc|a2^f g2e|"G7"def GAB|"C"c2zc2z||
+P:B
+K:G
+"G"B2d e2g|"D7"f3- f2A|B2d f2e|"G"e2d B2B|\
+A2B gfe|"D7"B2d fed|cde dcA|"G"G3- Gzz||
+P:C
+K:C
+"C"c2d edc|a2^f g2e|c2d edc|"G"B2c d2G|\
+"C"c2d edc|a2^f g2e|"G7"def GAB|"C"c2zc2z||
+P:D
+K:F
+"F"f3 e2A|d3 c2A|FEF AcA|"C7"G2c c2c|\
+"Bb"d2e gfd|"F"c2f afd|"C7"c=Bc ^cde|"F"f2z f2z!segno!|]
+%
+T:IV
+M:2/4
+L:1/8
+K:C
+P:Intro
+E^D EG|AG E2|G^G AB|cz cz||
+P:A
+|:!segno!"C"E^D EG|AG E2|CB, CE|"G"D3D|\
+FE FG|BA F2|[1"G7"D^C DF|DG/G/ GG:|[2"G7"G^G AB|"C"cz cz!fine!||
+P:B
+K:F
+"F"F2 A>B|c2 d>e|fe fg|a2 f2|"C7"ef gf|ec de|"F"fe fa|"C7"gc/c/ cc|
+"F"F2 A>B|c2 d>e|fe dc|"Bb"d2 z2|d2 g>f|"F"cA cf|"C7"gc de|"F"fz fz!segno!|]
+
+%%scale 0.65
+X:59
+T:Kadril van Mazel
+T:Kadril van Mazenzele
+S:Fotocopie van met de hand geschreven partituur
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:C
+T:Eerste figuur
+P:Voorspel
+G|"C"GG "F"AB|"C"cB "Am"ce|"G"GG "G7"AB|"C"c3||
+P:A
+C/E/!segno!|"C"GG "F"AA|"C"GE CE|"G"GG "F"AB|"C"G2 EG|"C"GG "F"AB|"C"cB "Am"ce|"Dm"dc "D7"BA|"G"G3 C/E/|
+"C"GG "F"AA|"C"GE CE|"G"GG "F"AB|"C"G2 EG|"C"GG "F"AB|"C"cB "Am"ce|"G7"GG AB|"C"c2||
+P:B
+GG|:"C"e2 "G"d2|"C"c2 "G7"Bd|"F"c2 A2|"C"G2 E2|G3 A|G>F EF|G2 "F"A2|"G7"G2 z2|
+"C"c3 d|e>e ee|"G7"d2 d2|"C"e2 z2|c3 d|"Am"e>e ee|"G"d2 "G7"d2|[1"C"c2 GG:|[2"C"c2||
+P:C
+M:6/8
+"C"cBc|:"F"A2A c2c|"C"G2G "C"c2c|"G"d2d "G7"c2d|"C"e2z "C7"cBc|
+"F"A2A c2c|"C"G2G "C"c2c|"G"d2d "G7"c2B|[12"C"c2z "C7"cBc:|[3c2z||[M:2/4]C/E/!segno!||
+T:Tweede figuur
+K:G
+P:Voorspel
+G|"G"GD "C"GA|"G"BA "Em"GB|"Am"AE "D7"FD| "G"Gz||
+P:A
+!segno!B/c/|"G"dd "C"ee|"G"dd zB/c/|dd "C"ee|"G"d2 zB/c/|"G"dd ef|"C"gg fe|"Em7"dB GB|"D"A2 zB/c/|
+"G"dd "C"ee|"G"dd zB/c/|dd "C"ee|"G"d2 zB/c/|"G"dd ef|"C"gd dB|"D7"dc BA|"G"GB dB|GB, DB,|G,3||
+P:B
+G|"G"GD GA|"Em"BA GB|"D"AG FA|"G"G2DG|"G"GD GA|"Em"BA GB|"A7"AG FE|"D"D3 G|
+"G"GD GA|"Em"BA GB|"D"AG FA|"G"G2DG|"G"GD GA|"Em"BA GB|"Am"AE "D7"FD| "G"G2z!segno!|]
+T:Derde figuur
+K:C
+P:Voorspel
+"C"G AG|c2 c2|d2 c2|(e4|e)(efg)|("G"gf) (fe)|"D7"d2 "G7"e2|("C"c4|c)||
+P:A
+!segno!G EG|"C"CC/C/ (C2|C)C B,C|("G7"D4|D)F EF|"G7"B,B,/B,/ (B,2|B,)B, A,G,|("C"G4|G)G EG|
+"C"CC/C/ (C2|C)C DE|"F"F4|A4|"G7"GG/G/ GA|Gz zG/A/|"rall."GF ED|"C"Cz||G|
+P:B
+"C"CC/C/ CE|"G7"DD/D/ DF|"C"EG "F"AF|"C"EC "G6"ED|"C"CC/C/ CE|"G7"DD/D/ DF|"C"EG "D5"EC|"G"Dz G,B,|
+"C"CC/C/ CE|"G7"DD/D/ DF|"C"EG "F"AF|"C"EC "G6"ED|"C"CC/C/ CE|"G7"DD/D/ DF|"C"EG "G7"ED C||
+"a tempo"G AG|"C"c2c2|d2c2|(e4|e)G AG|[c2e2][c2e2]|[d2f2][c2e2]|([e4g4]|[eg])e fg|"G7"g2f2|e2f2|(d4|d)d ef|fd BA|"G"G2 "F"a2|("G"g4|g)G AG|
+"C"c2c2|d2c2|(e4|e)G AG|[c2e2][c2e2]|[d2f2][c2e2]|([e4g4]|[eg])G AG|"C7"g2e2|f2g2|"F"a4|"Fm"c'4|"G7"bg fd|B2G2|("C"c4|c)!segno!|]
+T:Vierde figuur
+P:Voorspel
+"F"A3A|"C"G2G2|"F"A4|"G7"B4|("C"c4|c)z||
+P:A
+!segno!C>E|"C"G2G2|G2 c>A|(G4|G)G FE|"G7"D4|DF ED|("C"C4|C)c cB|"F"A3A|B3A|"C"A2 Gz|zG AG|
+"Dm"F3D|"G7"G3F|"C"F2Ez|zC EG|"G7"c3c|d2c2|("F"A4|A)c BA|"C"G3G|"F"A2 "G7"B2|("C"c4|c)||
+P:B
+E>F|"C"G>G GG|AG ^FG|A2G2|E2 z2|"G7"D3E|F2F2|"C"E3F|G2G2|"F"A3A|"C"G2G2|"F"A4|"G7"B4|("C"c4|c)z!segno!|]
+
+%%scale 0.75
+X:60
+T:Kadril van Schaffen
+C:Traditioneel
+O:Vlaanderen
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/> 2005-09-20
+M:6/8
+L:1/8
+Q:3/8=112
+K:C
+T:Eerste figuur
+[P:Voorspel] GAG|"C"C2E G2F|"G7"B,3 GAG|"G7"B2c d2B|"C"c2z .| [P:A] "G7"GAG|
++segno+|:"C"C2E G2F|"G7"B,2 GAG|"G7"B,2F A2G|"C"C3 GAG|"C"C2E G2F|
+"G7"B,3 GAG|"G7"B2c d2B|[1"C"c2z "G7"GAG:|[2"C"c2 z .| [P:B] "C7"cdc|
+[K:F]|:"Gm"B2A G2A|"C7"B2z BcB|"F"A2G F2G|"Dm"A2z ABA|"Gm"G2z A2z|
+[1"C7"B2z =B2z|"Bb"d2c =B2d|"F"c2z cdc:|\
+[2"C7"B2z G2z|"F"F2A c2A|"F"F2+fine+z .| "G7"GAG+segno+||
+T:Tweede figuur
+[K:C] [P:Voorspel] G^FG|"C"c2c E^DE|G2G "C7"G^FG|"F"A2c "G"B2d|"C"c2z .| [P:A] "G7"G^FG|
++segno+|:"C"c2c E^DE|G2G CB,C|"G"DEF A2G|E2z G^FG|"C"c2c E^DE|G2G G^FG|
+[1"E"BAG "A7"AE^F|"G"G2z "G7"G^FG:|[2"G7"BAG GAB|"C"c2z .| [P:B] "C7"GBc|
+|:"F"d2d "G7"A2B|"C"c2G GAG|"G7"FDF A2G|"C"E2z "C7"GBc|[1"F"d2d "G7"A2B|"C"c2G GAG|
+BAB"D7"c2^F|G2z "C7"GBc:|[2"F"d2d c2d|"C"e2c G^FG|\
+"F"A2c "G"B2d|"C"c2+fine+z .| "G7"G^FG+segno+||
+T:Derde figuur
+[P:Voorspel] C|"C"G^FG "F"A=FA|"C"G2E C2E|"D7"D2^D E2^F|"G"G3- Gz .| [P:A] "G7"C|
++segno+|:"C"G^FG "F"A=FA|"C"G2E C2E|"G7"F2D C2B,|"C"C2E Gz C|G^FG "F"A=FA|
+"C"G2E C2E|[1"D7"D2^D E2^F|"G"G3- Gz "G7"C:|[2D2B "D7"AE^F|"G"G3 -Gz .| [P:B] G|
+|:"F"A^GA dcB|"C"c2G Ez G|"G7"A2F EFG|"C"A2G Ez G|"F"A^GA dcB|
+"C"c2G Ez G|[1"F"A^GA "D7"cBc|"G7"d3- dz G:|\
+[2"F"AFA "G7"BGB|"C"c3- c2+fine+z .| "G7"C+segno+||
+T:Vierde figuur
+[M:2/4] [P:Voorspel] G|"C".c.c.c.B|.c.G zG|"F"A>F "G7"AB|"C"c2z .| [P:A]G|
++segno+"C".c.c.c.B|.c.G zG|"F"A>F Ac|"C"e2 ze|"D7".d.d.d.c|.d.d ze|d>cBA|"G7"G2 zG|
+G>^FGA|B2 zB|B>^ABc|d2 zG|B>AGG|d>cBB|d>^cde|ez .| [P:B] GG|
+w:**** ** **** ** **** **** **** * Si tu
+"C"c4-|ce"G7"^de|("C"c4|G)z e>e|("G7"d4|G)z d>d|("C"e4|c) z"G7"GG|
+w:veux,_ faire mon bon-heur,_ Mar-gha-ri-te, Mar-gha-ri-te. Si tu
+"C"c4-|ce"G7"^de|("C"c4|G)z e>e|"Dm"d2 f2|"G7"e2 d2|"C"c4-|c2+fine+ .| zG+segno+||
+w:veux,_ faire mon bon-heur,_ Mar-gha-rit', donne-moi ton coeur!_ *
+
+X:61
+T:Kaloem
+C:Traditioneel
+O:Duffel
+B:"Dansen en volksleven uit Duffel", Vlaams Dansarchief
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:F
+P:A
+fz cz|fz z2|fz cz|fz z2||
+P:B
+cc cB/A/|BB B2|BB B/A/G|AA AC| FG AB|cc cA|BA BG|FF F2||
+P:C
+|:AD DA|=BA/G/ A2|AD DA|1GF/E/ D2:|2 GF/E/ DE|Fz zD|Dz zD|Fz zE|D2z2|]
+
+X:62
+T:Karnavalsdans
+T:L'Ordinaire des Dames
+Z:Bert Van Vreckem, 2004-03-24 <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+Q:1/4=110
+P:(ABC)3 A
+K:G
+P:A
+|:"G"BB AG|"C"cc BA|"G"BB AG|"Am"A2 "D7"d2|"G"BB AG|"C"cc BA|"G"B/c/d "C"e/f/g|"G"BG G2:|
+P:B
+|:"Em"gg fe|"Bm"ff ed|"G"B/c/d "C"e/f/g|"G"BG G2|"Em"gg fe|"Bm"ff ed|"G"B/c/d "D"e/f/g|"G"BG G2:|
+P:C
+|:"G"BG "C"ec|"G"dB "D7"cA|"G"BG "Am"cA|"D7"FA A2|"G"BG "C"ec|"G"dB "D7"cA|"G"B/c/d "C"e/f/g|"G"BG G2:|
+
+X:63
+T:Klapschottisch
+C:Traditioneel
+O:Achtel (Vlaanderen)
+B:"Achtel Zalig Oord", Vlaams Dansarchief
+R:Schottisch
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+N:(Voorspel A B C) x2 Voorspel
+M:C|
+L:1/8
+K:G
+P:Voorspel
+D2 !segno!|"G"B2 Bd "Em"G2 GB|"Am"AG "D7"FA "G"G z D2||
+P:A
+|:"G"B2 Bd "Em"G2 GB|"Am"AG "D7"FA "G"Gz D2|"D7"DE FG AB c^c|ed ^ce dz D2|
+"G"B2 Bd "Em"G2 GB|"Am"AG "D7"FA "G"Gz D2|"D7"DE FG AB cA|[1"G"G2 G2 Gz D2:|[2"G"G2 G2 G2 z2||
+P:B
+K:D
+|:"A7"AB AB AB AB|"D"f2 d2 AF Ad|"A7"c2 B2 GG FG|"D"B2 A2 F4|
+"A7"AB AB AB AB|"D"f2 d2 AF Ad|"A7"cB AA gg fe|[1"D"dz f2 dz z2:|[2"D"dz f2 dz D2||
+P:C
+K:G
+|:"G"B2 Bd "Em"G2 GB|"Am"AG "D7"FA "G"Gz D2|"D7"DE FG AB c^c|ed ^ce dz D2|
+"G"B2 Bd "Em"G2 GB|"Am"AG "D7"FA "G"Gz D2|"D7"DE FG AB cA|[1"G"G2 G2 Gz D2:|[2"G"G2 G2 G2 z2!segno!||
+
+X:64
+T:Klapsprong
+O:Vlaanderen
+Z:Bert Van Vreckem, 2001-08-11 <http://flanders.blackmill.net/music/>
+N:Repeat ad lib.
+M:2/4
+L:1/8
+K:C
+"C"CE/F/ GG|"F"AA "C"G2|CD/E/ "F"FF|"C"EG "G"D2|"C"EC CC|"F"FC CC|"C"EE "F"F/E/F|"G"D4|
+"C"GF/E/ "F"FD|"C"EG "G"D2|"C"EF/G/ "F"AG|FE "G"D2|"C"EC CC|"F"FC CC|"C"EE "G"D/E/D|"C"C4|]
+
+X:65
+T:Klumpakojis
+C:Traditional
+O:Lithuania
+B:Muzika \vSoki\;u Pamok\.el\.ese, Stasys Kazlauskas (\vSiauli\;u pedagoginis institutas), \vSiauliai, 1997
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:C
+"C"[CE]([C/E/][D/F/] [CE])([C/E/][D/F/]|"C"[CE])([C/E/][D/F/] [E2G2])|"G"[FA]([F/A/][E/G/] [D2F2])|"C"[EG]([E/G/][D/F/] [C2E2])|\
+"C"[CE]([C/E/][D/F/] [CE])([C/E/][D/F/]|"C"[CE])([C/E/][D/F/] [E2G2])|"G"[FA]A/(G/ F/E/F/D/|"C"C)E Cz|
+"C"[CEG](G AG)|"G"[B,D][B,D] [B,D]z|"G"[B,DG](G AG)|"C"[CE][CE] [CE]z|\
+"C"[CEGc][CEGc] [CEGc]z|"F"[CFA][CFA] [CFA]z|("G"G>F E/F/E/D/|"C"C)z  [CEGc]z|]
+
+X:66
+T:De Kolom
+C:Traditioneel
+O:Vlaanderen
+Z:Bart Vanhaverbeke <bvanhaverbeke@unicall.be>
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+N:bert: getransponeerd naar G (vanuit C), C-muziek toegevoegd
+L:1/8
+M:4/4
+K:G
+D|:G2 G2 G3 D|GB dB G3 B|BA Ac cB Bd|1d>c BA B2 G D:|2d>c BA G2 A>B||
+cc Bc dd A>B|cc BA BG A>B|cc Bc dd A>B|cc BA G2 z2||
+B2 B2 B/A/B/c/ d2|cB Ad B2 G2|B2 B2 B/A/B/c/ d2|cB Ad G2 z||
+
+X:67
+T:Kreupelen Duynen
+C:Traditioneel
+O:Diest (Vlaanderen)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:C
+!segno!C2 E>D|C2 D>E|F>E F>G|F2 E2|
+w:Vi-va't ple-zier en het wa-ter van den De-mer
+G2 F>E|D2E>F|G2G2|[1C2 z2:|[2C2 EF|
+w:Vi-va't ple-zier en het gil-de-bier bier. Kreu-p'len
+|:G(A/G/) FE|Fz DE|F(G/F/) ED|Ez EF|
+w:Duy-nen_ was zo zat, Kreu-p'len Duy-nen_ was zo zat, Kreu-p'len
+GG FE|AF ED|G2G2|[1Cz EF:|[2C2 z2!segno!|]
+w:Duy-nen was zo zat, en hij viel op zijn gat. Kreu-p'len gat.
+
+X:68
+T:Lelenderis
+C:Traditional
+O:Lithuania
+Z:Bert Van Vreckem, 2001-08-11 <http://flanders.blackmill.net/music/>
+Z:Transcribed from a recording by Bert Blancquaert and Hilde Raskin (2001-08-09, Dworp, Flanders),
+Z:performed by Edvinas Vilkas and Lina Duduliene
+M:2/4
+L:1/8
+K:G
+"G"BG DB,|"C"CE E2|"D"A/F/A/F/ AF|"G"GA B2|BG DB,|"C"CE E2|"D"A/F/A/F/ AF|"G"G2 G2||
+"G"d/B/d/B/ dg|gd "D"c2|c/A/c/A/ cf|fe "G"d2|d/B/d/B/ dg|gd "D"c2|dc BA|"G"G2 G2|]
+
+X:69
+T:L\aangdansen fr\aan Solleron
+O:Sverige
+S:Transcribed from an old recording
+Z:Bert Van Vreckem, 2004-05-15 <http://flanders.blackmill.net/music/>
+M:3/4
+L:1/4
+K:Eb
+"Bb7"B, D E|F>A "Ebm"^F|E ^F/=F/ E/D/|"Bb7"E>D B,|\
+"Bb7"B, D E|F>A "Ebm"^F|E ^F/=F/ E/D/|"Ebm"E E2:|
+|:"Ebm"B A F|"Bb7"A>F "Ebm"^F|"Ebm"^F B A|"Bb7"F A/F/ ^F|"Ebm"E ^F "Bb7"=F|"Ebm"E3:|
+
+X:70
+T:Maclote d'Habiemont
+C:Traditional
+O:Wallonie
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/16
+P:(AB)4
+K:G
+P:A
+D|D3E F2FE|D2E2 F2FG|A2F2 D2F2|E2EF E2E2|D3E F2FE|D2E2 F2FG|A2F2 D2F2|D4D2z2||
+P:B
+A2Bc d2cB|A2B2 B2A2|A2Bc d2cB|A2G2 F4|A2A2 B2A2|G2F2 E2FG|A2F2 E2F2|D4D2z2|]
+
+X:71
+T:Meiboomdans
+C:Traditioneel
+O:Hoogstraten, Vlaanderen
+B:"Dansen uit Hoogstraten", Vlaams Dansarchief
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:C/
+L:1/4
+N:Intro (AABCCC)x4
+K:G
+P:Intro
+D|B B/A/ G/F/A/G/|{FG}F E E F/G/|D c B A|G A G D||
+P:A
+|:B B/A/ G/F/A/G/|{FG}F E E F/G/|D c c B/A/|B G G D|\
+B B/A/ G/F/A/G/|{FG}F E E F/E/|D c B A|G A G D:|
+P:B
+|:G G G G/A/|B B/A/ G G/B/|A A A G/A/|B/G/F/E/ D D|\
+G G G G/A/|B B/A/ G G/B/|A A/G/ F A|[1(G2G/)z/ D:|[2(G2G/) z/ B/c/||
+P:C
+|:d d e/d/c/B/|A A z A/B/|c c B A|(B2 B/)z/ B/c/|\
+d d e/d/c/B/|A A z A/B/|c c B A|[1(G2G/)z/ B/c/:|[2(G2G/)z/|]
+
+X:72
+T:Meidans
+T:Schoon Lief
+C:Traditional
+O:Vlaanderen
+B:Dans nu 2
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+Q:1/4=66
+M:3/4
+L:1/8
+% TODO: Ok, hier is vanalles misgelopen. Originele versie verloren, dus dat wordt
+% leuk om te verbeteren...
+K:Am
+E|"Am"AB c3 B/A/|"E7"^G2 "Am"A z z A |:"Am"A E A3 B|"E7"B c "Am"A3 c|"Dm"c d/c/ B3 A|
+w:* ***** ** 1.~~Schoon lief, hoe ligt gij hier en slaapt, in u-wen _ eer-sten
+"E7"A2 B2 z B|B B B3 B|"Am"c A "E7"^G3 E|"Am"A B c3 B/A/| "E7"^G z "Am"A:|
+w:dro-me? Wil op-staan en de mei ont-vaan, hij staat hier al zo scho-ne. *
+%
+W:Schoon lief, hoe ligt gij hier en slaapt,
+W:in uwen eersten drome?
+W:Wil opstaan en den mei ontvaan,
+W:Hij staat hier al zo schone
+W:
+W:Ik zou voor genen mei opstaan
+W:mijn vensterken niet ontsluiten.
+W:Plant uwen mei waar't u gerei
+W:plant uwen mei daarbuiten
+W:
+W:Waar zou'k hem planten of waar doen?
+W:'t Is al op 's heeren strate.
+W:De winternacht is lang en koud,
+W:hij zou zijn bloeien laten.
+W:
+W:Schoon lief, laat hij zijn bloeien staan,
+W:wij zullen hem begraven
+W:op 't kerkhof bij den eglantier.
+W:Zijn graf zal rozekens dragen.
+W:
+W:Schoon lief, en om die rozekens
+W:zal 't nachtegaalken springen,
+W:en voor ons bei in elken mei
+W:zijn schoonste liedekens zingen.
+
+X:73
+T:Minijonas
+C:Traditional
+O:Lithuania
+Z:Bert Van Vreckem, 2001-08-11 <http://flanders.blackmill.net/music/>
+Z:Transcribed from a recording by Bert Blancquaert and Hilde Raskin (2001-08-09, Dworp, Flanders),
+Z:performed by Edvinas Vilkas and Lina Duduliene
+M:3/4
+L:1/4
+K:G
+D!segno!|"G"G2 G|"D"A2 A/B/|"D7"cBA|"G"G2 D|G2 G|"D"A2 A/B/|"D7"c B A|"G"G2 B/c/|
+|:"G"d2 d|d e d/B/|"D"c c B|A2 A/B/|c A A|c d/c/ B/c/|[1"D7"d d c|"G"B2 B/c/:|[2"D7"B B A|"G"G2 B/c/|
+|:"D"d e d|"D7"c B A|"G"G2 G/A/|B A G|"D"A2 A/B/|"D7"c B A|[1"G"G2 B/c/:|[2"G"G2 !segno!D|]
+
+X:74
+T:Molenmazurka
+C:Traditioneel (Vlaanderen)
+O:Achtel
+R:Mazurka
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:3/4
+L:1/4
+Q:1/4=120
+K:C
+P:Voorspel
+"C"E/D/ E/F/ G|"F"A/G/ A/B/ c|"G"G A B| "C"c c z||
+P:A
+!segno!|:"C"E/D/ E/F/ G|"F"A/G/ A/B/ c|"C"G A c/>d/|"G"c B z|\
+"G"D/C/ D/E/ F|"G7"F/E/ F/G/ A|"G"B B A/>B/|"C"A G z|
+"C"E/D/ E/F/ G|"F"A/G/ A/B/ c|"C"c B c|"Dm"d A2|\
+"Dm"d>c B/A/|"Am"c>B A/G/|[1"G"B>A G/F/|"C"E2z:|[2"G"B>A G/A/4B/4|"C"c c G|
+P:B
+|:"C"c/B/ A/G/ E/G/|"F"A/G/ F/E/ F/G/|"G"B/A/ G/F/ E/F/|"C"A/G/ E/G/ E/G/|\
+"C"c/B/ A/G/ E/G/|"F"A/G/ F/E/ F/G/|[1"G"B/A/ G/F/ E/D/|"C"C z G:|[2"G"B/A/ G/G/ A/B/|"C"c c z||
+P:C
+|:"C"e>e d/e/|"G7"f2 z|"G"d>d c/d/|"C"e2 g|\
+c>B d/c/|"G"B>A G/A/|B>A G/F/|"C"E2 z|
+"C"E>E D/E/|"G7"F2 z|"G"D>D C/D/|"C"E2 G|\
+c>B d/c/|"G"B>A G/A/|[1B>A G/A/4B/4|"C"c c z:|[2B>A G/B/|"C"c c z !D.S.!|]
+
+X:75
+T:Mie Katoen
+T:Boerencarr\'e
+T:I
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+Q:1/4=120
+P:(ABCDA)2
+K:C
+[P:A](3G/c/e/|"C"gg/g/ g^f|g^f ga|"G7"fe fa|"C"ag e (3G/c/e/|\
+gg/g/ g^f|g^f ga|"G"fe "G7"fB|"C"czc'!fine!||G|
+[P:B]"G"d2 d^c|dd/B/  GG|"C"e2 e^d|ee/c/ GG|\
+"G"G^F/G/ B^A/B/|d^c/d/ fe/f/|"G7"aa/g/ f/e/d/c/|B z B (3G/c/e/|
+[P:C]"C"gg/g/ g^f|g^f ga|"G7"fe fa|"C"ag e (3G/c/e/|\
+gg/g/ g^f|g^f ga|"G"fe "G7"fB|"C"cz c'||C|
+[P:D][K:F]"F"c3 (=B/d/)|c3 (d/c/)|"C7"BC BC|"F"F/G/A/B/ cc|\
+c3 (=B/d/)|c3 (d/c/)|"C7"Bc de|"F"f z f !D.C.!|]
+T:II
+M:6/8
+Q:3/8=120
+P:(ABCDA)2
+K:F
+[P:A]C|"F"F2C A2F|(c3 A2)A|"C"G2F G2c|"F"A2G F2C|\
+F2C A2F|(c3 A2)A|"C"G2F G2c|"F"F2z f2!fine!||C|
+[P:B]"C"G2F G2B|"F"A2d c2f|"C"e2G B2d|"F"(dc)A F2A|\
+"C"G2F G2B|"F"A2d c2f|"C7"edc BAG|"F"Fc=B "C7"_BAG||
+[P:C]"F"F2C A2F|(c3 A2)A|"C"G2F G2c|"F"A2G F2C|\
+F2C A2F|(c3 A2)A|"C"G2F G2c|"F"F2z f2||[K:Bb]F|
+[P:D]"Bb"{G}F=EF (B2A)|"Eb"G^FG (c2B)|"F7"ABc F2F|"Bb"(GF)d B2F|\
+{G}F=EF (B2A)|"Eb"G^FG (c2B)|"F7"ABc Fdc|"Bb"B2z B2!D.C.!|]
+T:III
+M:2/4
+L:1/8
+Q:1/4=120
+P:(ABCA)2
+K:F
+[P:A]C|("F"C3 F/G/)|A3 G|F(d dc)|("C"cB) B2|\
+"Bb"D2 (D/E/)F/G/|"F"CF/A/ c2|"C7"cG/A/ BE|"F"Fz F c!fine!||
+[P:B]"F"fe dc|=Bc d>c|(c4|A2 F2)|"C"EG B2|B2 d>c|("F"c4|A2) c>c|
+[P:C]"F"fe dc|(=Bc) (d>c)|(c4|A2) F>F|\
+"C"EG c2|("C"c=B_BG)|"F"F2 C>A|Fz F!D.C.!|]
+
+X:76
+T:Na\vsliukas
+T:The widow
+C:Traditional
+O:Lithuania
+Z:Bert Van Vreckem, 2001-08-11 <http://flanders.blackmill.net/music/>
+Z:Transcribed from a recording by Bert Blancquaert and Hilde Raskin (2001-08-09, Dworp, Flanders),
+Z:performed by Edvinas Vilkas and Lina Duduliene
+N:Repeat and change tempo in part B ad libitum
+M:4/4
+L:1/4
+K:G
+"G"B B B A/G/|"C"c c c B/A/|"G"B B B A/G/|"D"A/B/4A/4 G/A/ "G"G/G/ G|"G"d d d c/B/|"C"e e e d/c/|
+"G"d d d c/B/|"D"c/d/4c/4 B/A/ "G"G/G/ G|:"G"B/d/d/d/ d/e/ d|B/d/d/d/ d/e/ d|B/d/d/d/ d/e/ d|B/d/d/d/ "D"B "_ad lib.""G"d:|
+
+X:77
+T:Oira
+C:Traditional
+O:Lithuania
+Z:Bert Van Vreckem, 2001-08-11 <http://flanders.blackmill.net/music/>
+Z:Transcribed from a recording by Bert Blancquaert and Hilde Raskin (2001-08-09, Dworp, Flanders),
+Z:performed by Edvinas Vilkas and Lina Duduliene
+M:2/4
+L:1/8
+K:G
+"G"d2 d>c|BB B2|dd d>c|BB B2|"D"cA cA|cA cA|"D7"dc BA|"G"G2 G2||
+"G"GG/A/ B/A/G|"D"cA cA|"D7"AA/B/ c/B/A|"G"dB dB|GG/A/ B/A/G|"D"cA cA|
+w:*** *** Oi-ra, oi-ra! *** *** Oi-ra, oi-ra! *** *** Oi-ra, oi-ra!
+"D7"AA/B/ c/B/A|"G"dB dB|GG/A/ B/A/G|"D"cA cA|dc BA|"G"G2 G2|]
+w:*** *** Oi-ra, oi-ra! *** *** Oi-ra, oi-ra! ** ** Oi-ra!
+
+X:78
+T:One hundred Pipers
+T:Ringelrei
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:6/8
+Q:3/8=120
+K:C
+c/d/|"C"e2e ede|"F"f2f f2a|"G"g2e dcd|"C"c3-c2||
+!segno!c/d/|"C"e2G GEG|"F"A2c c2a|"C"g2e edc|"G7"e2d d2c/d/|"C"e2G GEG|"F"A2c c2a|"G"g2e "G7"dcd|"C"c3-c2||
+e/f/|"C"g2g geg|"F"a2c' c'2a|"C"g2e edc|"G7"e2d def|"C"g2g geg|"F"a2c' c'2a|"G"g2e "G7"dcd|"C"c3-c2 !D.S.!||
+
+%%scale .7
+X:79
+T:Oogstkoekenkermis
+C:Traditioneel
+O:Vlaanderen
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:3/4
+L:1/4
+K:G
+P:Voorspel
+D|"G"G G/B/ G/B/|d d B|"D7"d e f|"G"g z||
+P:A
+D|:"G"G G/B/ G/B/|d d B|G G/B/ c/B/|"D7"A2 D|F>A F/A/|d>A F/A/|d ^c =c|"G"B2 D|
+"G"G G/B/ G/B/|d d B|G G/B/ c/B/|"D7"A2 z|d>^c d/e/|d>^c d/e/|d =c A |[1"G"G2 D:|[2"G"G2||
+P:B
+D|:"G"G/B/ A/G/ F/G/|"Am"c/B/ A/G/ F/E/|"D7"D/E/ F/G/ A/G/|c/B/ A D|
+"G"G/B/ A/G/ F/G/|"Am"c/B/ A/G/ F/E/|"D7"D/E/ F/G/ A/G/|[1"G"B/A/ G D:|[2"G"B/A/ G z||
+P:C
+"G"D2 G|B2 "B7"A|"Em"G B "C"e|"G"d2 d|D2 B|"D7"A2 B|c B A|"G"G2 G|
+"G"D2 G|B2 "B7"A|"Em"G B "C"e|"G"d2 d|D2 B|+fermata+"D7"d2 c/B/|A B A|"G"G2||
+P:D
+D|:"G"G/B/ A/G/ F/G/|"Am"c/B/ A/G/ F/E/|"D7"D/E/ F/G/ A/G/|c/B/ A D|
+"G"G/B/ A/G/ F/G/|"Am"c/B/ A/G/ F/E/|"D7"D/E/ F/G/ A/G/|[1"G"B/A/ G D:|[2"G"B/A/ G z||
+P:E
+"G"D2 G|B2 "B7"A|"Em"G B "C"e|"G"d2 d|D2 B|"D7"A2 B|c B A|"G"G2 G|
+"G"D2 G|B2 "B7"A|"Em"G B "C"e|"G"d2 d|D2 B|+fermata+"D7"d2 c/B/|A B A|"G"G2+D.C.+|]
+
+X:80
+T:Oude steltendans
+O:Kempen (Vlaanderen)
+Z:Bert Van Vreckem, 2004-04-03 <http://flanders.blackmill.net/music/>
+C:Traditioneel
+M:C|
+L:1/4
+K:Ddor
+(A|"Dm"d)d "C"ec|"Dm"dd "Am"Ad|"F""C"cc "G"BG|"Am"A2 z(A|"F""C"c)c "G"GF|"Am"AA "Eb""C"Gc|"F""Am"AA "G"GG|"Am"A2 z(c|
+"Dm"d)e "F"fe|"Bb""Dm"dd "Am"Ad|"G"cG "F"FA|"Em""Am"A2z (A|"Dm"D)D "Am"AA|"G"BB Gd|"C"ec "G"Bc|"Dm"d2z2|]
+
+%%scale .75
+X:81
+T:Padispanas
+C:Traditional
+O:Lithuania
+Z:Bert Van Vreckem, 2001-08-11 <http://flanders.blackmill.net/music/>
+Z:Transcribed from a recording by Bert Blancquaert and Hilde Raskin (2001-08-09, Dworp, Flanders),
+Z:performed by Edvinas Vilkas and Lina Duduliene
+M:3/4
+L:1/4
+K:G
+"G"d B d|e d c|d c B|"D"A2 A|c A c|f2 f|f e>d|"G"B2 d|d B d|e d c|d>c d|"C"e3|"D7"f e d|c B A|"G"!fine!G3:|
+"G"B G B|c B G|B A G|"D"A2 A|A F A|d2 d|d c>B|"G"G2 G|B G B|c B G|B A B|"C"c3|"D7"d c B|A G F|"G"!D.C.!G3||
+
+X:82
+T:Polka
+R:Polka
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:Am
+"Am"Aa Aa|"C"g/a/g/f/ ec|"G"dd BG|"F"A/B/c/d/ eA|\
+"Am"A2a2|"C"g/a/g/f/ ec|"Am"A>B "G"cB|[1 "F"A2A2:|[2 ("Am"A2 A) B/c/||
+|:"G"dd "Em"BG|"Am"A/B/c/d/ "C"ec|"G"dd "Em"BG|"Am"A/B/c/d/ "C"e2|\
+"G"dd "Em"BG|"Am"A/B/c/d/ "C"ec|"Am"A>B "G"cB|[1 "F"A2 AB/c/:|[2 "Am"Aa Aa||
+
+X:83
+T:Polka d\`el Grawi\`ete
+C:Traditional
+O:Wallonie
+R:Polka
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:F
+P:A
+FG|AA BA|Gz/E/ EF|Gz/c/ cB|Az FG|AA BA|Gz/E/ EF|G2c2|F2||
+P:B
+FG|AF GA|B2 GA|BA Bc|BA FG|AA BA|G2 EF|GG AG|G C||
+
+X:84
+T:Polka: I'll buy boots for Maggie
+R:Polka
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:Am
+"Am"A>B cd|"C"eg ga|"Em"eg/e/ "G"dB|"Am"AB "G"G2|\
+"Am"A>B cd|"C"eg ga|"Em"eg/e/ "G"dB|"Am"BA A2:|
+|:"Am"ea ab|c'b a2|"F""_Am/F"ea ab|c'b a2|\
+"D""_Am/F#"ea ab|"F""_Am/F"c'b a2|"Em"eg/e/ dB|"Am"BA A2:|
+
+X:85
+T:Polka Keturine
+C:Traditional
+O:Lithuania
+R:Polka
+B:Muzika \vSoki\;u Pamok\.el\.ese, Stasys Kazlauskas (\vSiauli\;u pedagoginis institutas), \vSiauliai, 1997
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:G
+"G"GB AG|"G"d2 d2|"D"Ac BA|"G"G2 G2|"G"GB AG|"G"dd d2|
+"D"Ac "G"BA|"G"G2 G2|:("C"ce) c2|("G"Bd cB)|("D"Ac BA)|[1GB AG:|[2"G"G2G2|]
+
+X:86
+T:La Polka Noire
+O:Wallonie
+R:Polka
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/16
+N:(ABB) ad lib.
+K:G
+P:A
+G8|F8|(E3F) (G3E)|D6 z2|c>ed>c B>dc>B|A>cB>A B2G2|
+G8|F8|(E3F) (G3E)|D6 z2|c>ed>c B>dc>B|\
+M:3/4
+L:1/16
+A>cB>A G2z2 B2d2||
+M:2/4
+P:B
+G4 B2d2|G4 B2d2|c2cc c2e2|G2z2 c2e2|A4 c2e2|A4 c2e2|d3c B2A2|[1 B4 B2d2:|[2 G4 z2|]
+
+X:87
+T:Polka van Perk
+C:Traditioneel
+O:Vlaanderen
+R:Polka
+Z:Bert Van Vreckem, 2004-05-15 <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:C
+ce ce|gf/e/ fd|Bd Bd|fe/b/ ec|ce ce|gf/e/ fd|Bd e/d/c/B/|cec2:|
+|:e>f ge|f/e/d/c/ B2|f>d Bd|gf ec|e>f ge|f/e/d/c/ B2|f>d Bd|gB c2:|
+
+X:88
+T:Le Renard
+R:Maraichine
+C:Traditional
+O:Marais Nord Vend\'ee
+B:Trad Magazine Hors S\'erie ``Tablatures 2'', 1997
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+Q:1/4=126
+K:C
+"C"cg gf|gf/e/ "G"dd|"C"cg gf|g2 "G"d2:|
+|:"G"de fe|de/d/ "C"cc|"G"de fe|d2 "C"c2:|
+W:T'as perdu ta queue, mon renard
+W:T'iras point \'a la chasse (bis)
+W:
+W:Celui qui t'la fait, mon renard
+W:T'as fait faire do grimaces (bis)
+
+X:89
+T:Rondinella
+Z:Bert Van Vreckem, 2001-08-11 <http://flanders.blackmill.net/music/>
+C:Traditioneel
+O:Vlaanderen
+M:6/8
+L:1/8
+Q:3/8=108
+K:G
+%%staves [(1 2)]
+P:Voorspel
+V:1
+"G"B2G B2G|"D"F2E D3|"D7"d2A B2c|"G"B3 B2z||
+V:2
+x6        |x6       |x6         |x6       ||
+P:A
+V:1
+"G"B2G B2G |"D"F2E D3|"D7"d2A d2A|("G"B2A) G3 |\
+V:2
+   G2G E2B,|   D2D D3|    D2D E2F|   (G2D) B,3|\
+V:1
+"G"B2G B2G |"D"F2E D3|"D7"d2A d2A|("G"B2A) G3||
+V:2
+   G2G E2B,|   D2D D3|    D2D E2F|   (G2D) G3||
+P:B
+V:1
+"G"D2D G2G|("C"G2F) E3|"G"G2G "C"c2c|("Am"c2B) "D"A3|\
+V:2
+D2D (B,C)D|(   E2D) C3|   G2F  (EF)G|    (A2G)    F3|\
+V:1
+"G"d2A "D7"d2A|("G"B2"D"A) "Em"G3|"D"D2D "A"E2"D7"F|"G"G3 G3||
+V:2
+   D2D     E2F|      (G2D)     E3|   D2D   ^C2   =C| B,3 B,3||
+
+X:90
+T:Roosmarijntje
+Z:Bert Van Vreckem, 2001-08-11 <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:G
+"G"d>d dd|(dB) G2|"D"A>A AA|(AF) D2|
+w:Dag mijn Roos-ma-rijn-_tje. Dag mijn Au-gus-tijn-_tje.
+"G"GB GB|GB "D"d2|dd dd/d/|dd "G"G2|
+w:'t~Schijnt dat jij mij gaar-ne ziet. Nee, nee, nee, dat ge-loof ik niet.
+"G"d>d dd|(dB) G2|"D"A>A AA|(AF) D2|"G"GB GB|GB !fermata!"D7"d2"_ad lib."x:|
+w:'t~Kan me niet meer sche-_len, 't~Kan me niet meer sche-_len. Jij blijft hier en ik ga door.
+
+X:91
+T:Rozenwals
+C:Traditioneel
+O:Achtel, Vlaanderen
+R:Wals
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:3/4
+L:1/4
+K:G
+P:Intro
+"G"D G B|B G B|"D"d c "G"B|!fermata!"D7"A3||
+P:A
+|:"G"D G B|B G B|(d d/^c/ d/e/|d B) z|"D"D F A|"D7"c3|(e d c| "G"B3)|
+"G"D G B|B G B|(d d/^c/ d/e/|d B) z|("C"Le c "D"A)|("G"Ld B G)|("D7"Lc A F)|"G"G3:|
+P:B
+"G"B G E|(D D/)F/ A/B/|"D"!tenuto!c !tenuto!c !tenuto!c|"D7"Lc3|\
+"D"c A F|"D7"(D D/)F/ A/c/|"G"!tenuto!B !tenuto!B !tenuto!B|LB3|
+D G B|D3|"Am"E A c|E2 F/E/|"D"D F A|[1"D7"c2 e|e d c|"G"B3:|\
+[2"D7"c B A|"G"G/F/ G/B/ "D7"A/F/|"G"G3||
+P:C
+|:("G"d>e d/c/|B3)|("D"c>d c/B/|"D7"A3)|\
+"D"D F A|"D7"Lc2 e/e/|.e .d .c|"G"!tenuto!B2 D|
+(D G B)|("E7"e d B)|("Am"d c A)|E2 (F/E/|"D"D) F A|"D7"c B A|\
+[1"G"d d d|"D"d3:|[2"G"G B "D7"A|"G"G3 !D.C.!|]
+
+X:92
+T:Schottisch 1984
+C:Lieven Lepeer, 1984
+R:Schottisch
+Z:Bert Van Vreckem, 2004-06-03 <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:C
+zE/F/|Gc cc|d/c/B/A/ GE/F/|GE EF/E/|DG GE/F/|Gc cc|d/c/B/A/ GE/F/|GF ED|C2:|
+|:zC/D/|CB, DG|G2-GF/G/|FE Gc|c2 cC/D/|CB, DG|B2-BA|GG AB|[1c2:|[2[EGc]4||
+|:c>G EE|FA c2|G/G/G/G/ AB|ce c2|c>G EE|FA c2|G/G/G/G/ AB|c:|
+
+X:93
+T:Schottisch Gersoise
+T:Mijmering
+C:Traditioneel
+O:Wallonie
+R:Schottisch
+Z:Bert Van Vreckem, 2004-08-22 <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:G
+% M 1-4
+V:1
+"G"Bc "D7"de/f/|"Em"gB "Bm"d>d |"C"e/d/c/B/ "Am"AA/B/|"D7"c/d/e/f/ "G"ed|\
+V:2
+G2    A2       |B2     B/A/G/F/|E3          F/G/     |FG/A/        B2   |\
+V:3
+g2    f2       |e2     d2      |c3          A        |dd           g2   |
+% M 5-8
+V:1
+"G"Bc "D7"de/f/|"Em"gB "Bm"d>d |"C"e/d/c/B/ "D7"A/c/B/A/|"G"GB G2 :|
+V:2
+D2    A2       |B2-    B/A/G/F/|EF/G/       FD/C/       |B,D   B,2:|
+V:3
+g2    f2       |e2     d2      |c2          d2          |G2    z2 :|
+% M 9-12
+V:1
+|:"G"gg "D"ff|"Em"ee "G"d>d  |"C"e/d/c/B/ "Am"AA/B/|"D7"c/d/e/f/ "G"ed|\
+V:2
+|:B2    A2   |G2     B/A/G/F/|E3          F/G/     |FG/A/        B2   |\
+V:3
+|:G2    d2   |e2     B2      |c3          A        |d2           g2   |\
+% M 13-16
+V:1
+"G"gg "D"ff|"Em"ee "G"d>d  |"C"e/d/c/B/ "D7"A/c/B/A/|"G"GB G2 :|
+V:2
+B3    A    |G2-    G/A/G/F/|EF/G/       FD/C/       |B,D   B,2:|
+V:3
+G2    d2   |e2     B2      |c2          d2          |G2    z2 :|
+
+X:94
+T:Schotse Wals
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+R:Wals
+M:3/4
+L:1/4
+K:G
+D|"G"G>Bd|dB"C"e|"G"dBg|dB"D"A|"G"G>Bd|dBG|"D7"DBA|"G"G2:|d|
+"G"g>fg|"C"efg|"A7"eag|"D"fed|"G""Em"g>fg|"C"edc|"G""Em"BAG|"D"d2||B|
+"C""Am"cec|"G"Bdg|d>B A/G/|"D"BAf|"C""Em"g>fe|"G"dgB|"D7"dcA|"G"G2||d/c/|
+"G"B B/A/ B/c/|edB|"D7"dcA|"G"cBd/c/|B B/A/ B/c/|edB|"D7"def|"G"g2|]
+
+X:95
+T:Sensommervals
+O:Sverige
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/> 2005-09-23
+M:3/4
+L:1/8
+Q:3/4=56
+%%staves [ 1 2 3 ]
+K:D
+V:1 name="I v"
+|:("D"ab) (ag) (fe)|"D"d2 (AF) D2|("D"DF) (Ad) (cB)|"G"B2 (GE) B,2|
+V:2 name="II v"
+|:(fg) (fe) (dA)|(FA) (dA) F2|D2 F2 F2|G2 (BA) (GF)|
+V:3 clef=bass name="B"
+|:d'2 z2 a2|d2 z2 A2|d2 e2 f2|g2 z2 g2|
+V:1
+("A"B,C) (EA) (ce)|(gf) (ed) (cB)|(Ac) (ec) (ac)|[1"D" d2 (fd) A2:|[2"D"d2 d2 z2||
+V:2
+(EA) (ce) (eg)|(ba) (gf) (ed)|c2 a2 g2|(fd) (ad) (fa):|f2 [D2d2] z2||
+V:3
+a2 z2 e2|a2 z2 e2|a2 A2 c2|d2 f2 a2:|d2 d2 z2||
+V:1
+|:("D"DF) (AF) (dF)|("D"DF) (AF) (dF)|"G"G2 (BA) (GF)|(GF) (ED) (CB,)|
+V:2
+|:[A,6D6]|[A,6D6]|[B,6D6]|[G,6D6]|
+V:3
+|:d2 z2 A2|d2 z2 f2|g2 z2 d2|g2 z2 g2|
+V:1
+("A"A,C) (EA) (ce)|(gf) (ed) (cB)|(Ac) (ec) (ac)|[1"D"d2 (fd) (AF):|[2"D"d2 d2 z2|]
+V:2
+[A,4E4] [C2E2]|[E4A4] [E2A2]|[E4c4] [c2e2]|[D2d2] [D2A2] [F2A2]:| [D2d2] D2 z2|]
+V:3
+a2 z2 e2|a2 z2 e2|a2 A2 c2|d2 f2 a2:|d2 d2 z2|]
+
+X:96
+T:Stokkendans
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/4
+Q:2/4=120
+N:Repeat, change tempo and key ad lib.
+K:C
+E2|G2|D/F/ E/D/|E C|E2|G2|D/F/ E/D/|C2:|
+|:C/D/ E/C/|D D/E/|F F|E E|C/D/ E/C/|D D/E/|F G|C2:|
+
+X:97
+T:Streep
+C:Traditioneel
+O:Nederokkerzeel, Vlaanderen
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:G
+|:[Q:1/4=100]"_Adagio""G"!fermata!g4|"D"!fermata!f4|"C"e>^d e>f|"G"!fermata!d4|| [Q:1/4=152] "_Allegro""Am"c>e d>c|"G"B>d c>B|"D7"A>c B>A|[1("G"B2 G)!fermata!z:|[2"G"G2 G2||
+[Q:1/4=168]"_Allegro presto""G"Bd G2|Bd G2|AB cA|"C"e2 "G"d2|"G"Bd G2|Bd G2|"D7"AB cA|[1"G"G2G2:|[2"G"G3z||
+
+X:98
+T:Tampet
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:C
+G>A G>A|G2 EG|c>d c>d|c2 Gc|ef/e/ de|fd B2|zG AB|[1c2 CE:|[2c2 z2||
+|:ef/e/ de|fd B2|zG AB|ce g2|ef/e/ de|fg a2|gf ed|[1c3z:|[2c2z2||
+|:g2 e2|g2 e2|c'>b c'>a|g2 e2|f2 d2|e2 c2|dG AB|c2 z2:|
+[K:F] a3 g|fe fa|d'c' =bc'|a2a2|ba gf|eg c'2|c'b ag|f2z2|]
+
+X:99
+T:Tarantella Calabraise
+R:Tarantella
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:6/8
+L:1/8
+Q:3/8=140
+K:Am
+a2a|"Am"e2e a2a|e2e ede|"Dm"f2f "G7"fgf|"C"e3-e2e|\
+"E7"e2d ded|"Am"d2c cdc|"E7"B^GB dcB|[1"Am"A3 a2a:|[2"Am"A3 EAB||
+|:"Am"cBc "G7"dcB|"F"c2A ABc|"E7"B2B dcB|"Am"c2A EAB|\
+"Am"cBc "G7"dcB|"F"c2A ABc|"E7"B2B dcB|[1"Am"A3 EAB:|[2"Am"A3 a2a||
+|:"Am"e2e a2a|e2e ede|"Dm"f2f "G7"fgf|"C"e3-e2e|\
+"E7"e2d ded|"Am"d2c cdc|"E7"B^GB dcB|[1"Am"A3 a2a:|[2"Am"A3 "G7"GAB||
+|:"C"cBc ece|g2g gag|"Dm"f2f "G7"fgf|"C"e2e "G7"GAB|\
+"C"cBc ece|g2g gag|"Dm"bag "G7"fed|[1"C"c3 "G7"GAB:|[2"C"c3|]
+
+X:100
+T:Texas Valsen
+O:Danmark
+R:Wals
+Z:Bert Van Vreckem, 2004-05-15 <http://flanders.blackmill.net/music/>
+M:3/4
+L:1/8
+K:G
+dc|"G"B2 Bc AB|G2 GA B/A/G|"D"A2 AB c/B/A|"G"B2 d2 dc|\
+"G"B2 Bc AB|G2 GA B/A/G|"D"A2 AB c/B/A|"G"G4:|
+|:G2|"D"A3 B c/B/A|"G"B2 d2 dB/d/|"C"e2 d2 B2|"D"A3 B cB|\
+"D"A3 B c/B/A|"G"B2 d2 GA|[1"G"B2 Bc AB|G2:|[2"G"B2 Bc AF|G2 D2|]
+
+X:101
+T:Tio personen folskan
+T:Vijfparendans
+R:Polka
+O:Finland
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:D
+"D"A>G FG|Ad d2|A>G FE|"A7"EF "D"D2|A>G FG|Ad dd/e/|"G"fd "A7"ec|"D"d2d2 :|
+"D"f>d ff|"G"e>c ee|"D"f>d ff|"A"e/d/c/B/ "A7"A2|"D"f>d ff|"G"e>c eg|"D"fd "A7"ec|"D"d2d2 :|
+
+X:102
+T:Tovercirkel
+T:The Irish Washerwoman
+T:Bean Gaedhealach
+R:Double jig
+O:Ireland
+B:The Dance Music of Ireland - 1001 Gems; Cpt. Francis O'Neill, Sgt. James O'Neill; Dublin; #317
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:6/8
+L:1/8
+K:G
+(d/c/)|"G"BGG DGG|BGB dcB|"D7"cAA DAA|cAc edc|"G"BGG DGG|BGB dcB|"D7"cBc Adc|"G"BGG G2:|
+|:(g/a/)|"G"bgg dgg|bgb bag|"D7"aff dff|afa agf|"C"egg "G"dgg|"C"cgg "G"Bgg|"D7"cBc Adc|"G"BGG G2:|
+
+X:103
+T:Valse des Montagnes
+C:Traditional
+O:Wallonie
+R:Wals
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:3/8
+L:1/16
+N:Intro (AABBCC)x2
+K:D
+P:A
+  fa|ga fa eg|fa d2 fa|eg A2 ce|df A2 fa|ga fa ea|fa d2 fa|eg A2 ce|d2 z2:|
+P:B
+|:fa|eg A2 ce|df A2 fa|eg A2 ce|df A2 fa|ga fa eg|fa d2 fa|eg A2 ce|d2 z2:|
+P:C
+|:a2|b2a2f2|d4 a2|b2a2f2|e4 a2|b2a2f2|dcdfaf|edefge|d2:|
+
+X:104
+T:Valce Ardennaise
+C:Traditional
+O:Wallonie
+R:Wals
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:3/8
+L:1/16
+N:Intro (AABB) x2 A
+K:C
+P:A
+G2|[EGc]B cd ef|[c2e2g2]g2g2|^ga ga ga|.g2.g2.e2|[GBf]d (fd) (fd)|[Gce]c (ec) (ec)|[FBd]B (dB) (dB)|[E4c4]:|
+P:B
+|:G2|EC EC EC|FD FD FD|EC EC EC|G,4 .G2|C2[c2e2][c2e2]|G,2[d2f2][d2f2]|[c2e2] (ec) (dB)|c4:|
+
+X:105
+T:De Vlegerd
+O:Gelderland-Overijssel, Nederland
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:4/4
+L:1/4
+K:G
+z/D/|GA Bz/c/|AB Gz/A/|Bc dz/e/|cd Bz/G/|GG eef|ge dB/c/|dd cA/A/|[1dc B3/2z/:|[2dd G2||
+|:[L:1/8]B>B B>B B>c ^cd|e>A A>A A2zG|F>A A>A A>B c^c|d>G G>G G3/2G|
+B>B B>B B>c ^cd|e>A A>A A2zd|d>^c d>e d=c BA|G2G2G2z2:|
+
+X:106
+T:Wals 31/12
+T:Voor Kirsten
+C:Lieven Lepeer, 2002-12-31
+R:Wals
+Z:Bert Van Vreckem, 2004-03-24 <http://flanders.blackmill.net/>
+M:3/4
+L:1/4
+K:Dm
+"A7"A|"Dm"d2 d|"F"c f/e/ d/c/|"G"d/c/ d/e/ g/f/|"A7"e e/g/ f/e/|"Dm"d2 d|"F"c f/e/ d/c/|"G"d/c/ d/e/ g/f/|"A7"e3|
+"C"e2 f/e/|"Dm"d2 A|"Gm"G2 F/G/|"A7"A3|"C"e2 f/e/|"Dm"d d/A/ G/F/|"A7"E2 F/E/|[1D2:|[2D3||
+|:"F"F2 F|"C"G F G|"F"A/c/ B/A/ G/F/|"A7"E2 E|"Dm"D D/F/ E/D/|"C"E/D/ E/G/ F/E/|"F"F/E/ F/A/ G/F/|"A7"E E/G/ F/E/|
+"F"F2 F|"C"G F G|"F"A/c/ B/A/ G/F/|"A7"E2 E|"Dm"D D/F/ E/D/|"C"E/D/ E/G/ F/E/|"Dm"D2 "A7"^C|"Dm"D3:|
+|:"F"A2 B/A/|"C"G2 "A"G|"F"A/c/ B/A/ G/F/|"A7"G2 G|"Bb"F2 G/F/|"F"C c/B/ A/G/|"C7"E2 F|"C"G3|
+"F"A2 B/A/|"C"G2 "A"G|"F"A/c/ B/A/ G/F/|"A7"G2 E|"Dm"D/>C/ D/F/ E/D/|"C"E/>D/ E/G/ F/E/|[1"F"F/>E/ F/A/ G/F/|"A7"E2 E:|[2"Dm"D2 "A7"^C|"Dm"D3|]
+
+X:107
+T:Wandeling
+C:Traditioneel
+O:Kampenhout, Vlaanderen
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:G
+[Q:"Adagio"]z2 D2|:G2 G2|G>F G>A|(B4|G)z (3DGA|B2 B2|B>A B>c|(d4|B)z GB|
+d2d2|(d3/2e/4d/4) cB|cz c2|(c3/2d/4c/4) BA|B2 AG|A2 FA|dc BA|[1GF ED:|[2G2 Gz||
+|:[Q:"Allegro"]DB (B/A/G)|e^c d2|Dc (c/B/A)|DB (B/A/G)|DB (B/A/G)|e^c d2|Dc (c/d/c/A/)|GG G!D.C.!z:|
+
+X:108
+T:Were Di
+C:Traditioneel
+O:Vlaanderen
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+N:Deze melodie is gebaseerd op die van de Rijzembezemdans, een tradionele
+N:Vlaamse dans, opgetekend door Theofiel Peeters. De aanpassingen zijn gedaan
+N:voor de zwaarddans `Were Di'
+M:2/4
+L:1/8
+Q:1/8=200 "Presto"
+K:F
+"C"cB/A/ BF|"C7"GC "F"Fz|:"F"FF/F/ FE/F/|"C7"GA/G/ "F"FC|\
+"C"GG/G/ "F"AF|"C"GF/A/"C7"G2:|
+"F"FF/F/ FE/F/|"C"GC Cz|cB/A/ BF|"C7"GC "F"Fz|]
+
+X:109
+T:Zevensprong
+O:Nederland
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:C
+L:1/8
+K:G
+G>F G>A B2 B>B|A2 A>A B2 G2|G>G G>A B2 B>B|A2 A2 !fine!G2||
+w:Heb je al ge-hoord van de ze-ven de ze-ven, heb je al ge-hoord van de ze-ven-sprong?
+zd|(d3 d/) B/ (e3 e/) c/|d2 c2 (c3 c/) c/|(c3 c/) A/ (d3 d/) c/|c2 B2 B2(3ddd|G6 !D.C.!z2|]
+w:Wie zegt_ dat ik_ niet dan-sen kan?_ Ik dans_ ge-lijk_ een e-del-man. En dat is 1,~2,~...
+%
+W:Chorus:
+W:Heb je al gehoord van de zeven de zeven, heb je al gehoord van de zevensprong?
+W:Wie zegt dat ik niet dansen kan? Ik dans gelijk een edelman.
+W:
+W:En dat is een. (Chorus)
+W:
+W:En dat is een. En dat is twee. (Chorus)
+W:
+W:En dat is een. En dat is twee. En dat is drie. (Chorus)
+W:
+W:etc.
+W:
+W:En dat is een. En dat is twee. En dat is drie. En dat is vier.
+W:En dat is vijf. En dat is zes. En dat is zeven. (Chorus)
+W:
+W:En dat is een. En dat is twee. En dat is drie. En dat is vier.
+W:En dat is vijf. En dat is zes. En dat is zeven.
+W:
+W:Heb je al gehoord van de zeven de zeven, heb je al gehoord van de zevensprong?
+
+X:110
+T:Zigeunerpolka
+O:Aus dem Kuhl\"andchen
+R:Polka
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:G
+G/A/B/c/ dd/^c/|dd/^c/ dd|gg fe|ed d2|A>B cc/B/|cc/B/ cc|ee dc|cB B2|
+gg  fe|d2 z2|ee dc|B2 z2|gg  fe|d2 z2|ee dc|B2 z2|
+Bz dz|Bz dz|c>B cd|ed dz|Bz dz|Bz dz|c>B cd|B2 z2|]
+
+X:111
+T:Svensk Maskerad
+T:Zweedse maskerade
+O:Danmark
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:C
+L:1/8
+K:G
+P:Intro
+D|G2 G>G G2 Ac|B2 B>B B2 ce|ed Bd d^d ef|g2 g>g g2 z||
+P:A
+D|:G2 G>G G2 Ac|B2 B>B B2 ce|ed Bd dc AF|[1G2 G>G GD B,D:|[2G2 G>G !fine!G2||
+P:B
+M:3/4
+L:1/8
+Bc|:d2 B2 ge|d2 B2 ed|c2 A2 BA|GF GA Bc|d2 B2 ge|d2 B2 ed|[1c2 A2 F2|G4 Bc:|[2c2 A2 d2|[G4B4d4g4]||
+P:C
+M:2/4
+L:1/8
+d2|:dB ge|dB GB|dc Ac|ed Bd|dB ge|dB GB|dc AF|[1G2 d2:|[2G3/2 !D.C.!D||
+
+X:112
+T:Der Schlesische oder Zwiefacher
+C:Nach alte Tanzmelodie
+R:Zwiefacher
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:3/4
+L:1/4
+Q:1/4=144
+K:D
+A A/G/ F/G/|A2 d|[M:2/4]c/d/ e|d/e/ f|[M:3/4]A A/G/ F/G/|A2 d|[M:2/4]c/d/ e/c/|d z:|
+|:[Q:1/4=138][M:3/4]A g/A/ g|A f/A/ f|[M:2/4]c/d/ e|d/e/ f|[M:3/4]A g/A/ g|A f/A/ f|[M:2/4]c/d/ e/c/|[1dz:|[2d d/d'/|
+|:[Q:1/4=116][M:2/4]b g/b/|a f/a/|g e/g/|f d//a//f//d//|e A/g/|f d//a/4^g//a//|g/e/ c/A/|[1d d/d'/:|[2dz|]

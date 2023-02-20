@@ -1,0 +1,24 @@
+X: 21664
+T: the MILLER
+N: AKA "Mary Morison"
+Q: "Moderate."
+%R: reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.166 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(FG) |\
+A3B (AG)(FE) | (D3E) F2G2 | A3B c2(BA) | d4 G2(FG) |\
+A3B (AG)(FE) | (D3E) F2G2 | (A2f2) e3f | d4 [A2D2] :|
+|: A2 |\
+d3e f2c2 | (ABc2) F2A2 | G3A B3c | d4 G2(c>B) |\
+A3B (AG)FE | D3E F2G2 | A2f2 e3f | d4 [A2D2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Sir J. Clerk's song, "O Merry may the Maid be that
+%% marries wi' the Miller," is sung to the above air.
+%%endtext
+%%sep 1 1 300

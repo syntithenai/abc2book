@@ -1,0 +1,23 @@
+X: 112
+T: les Fe'tes de' Tempe
+N: The use of apostrophes in the title is a bit odd.
+%R: reel, march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.54 #112
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain has an initial repeat but no final repeat; not fixed.
+M: 2/4
+L: 1/8
+K: D
+!segno!|:\
+(d2 f2) | aa af/a/ | gg ge/g/ | fd' af |\
+d2 f2 | aa af/a/ | gb/g/ ec | d2 d2 ::\
+A2 c2 | ee ed/c/ | dffd |
+ceec |\
+Bd dc/B/ | cfed | cBA^G | ADcB !segno!::\
+!p!(AG)(FA) | G2 G2 |\
+(GF)(EG) | F2 F2 |\
+FA !f!dc | egfa |
+d'agf | edcB |\
+!p!(AG)(FA) | G2 G2 | (GF)(EG) | F2 F2 |\
+FA !f!dc | egfa | gb/g/ ec | d2 d2 |]

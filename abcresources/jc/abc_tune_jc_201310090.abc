@@ -1,0 +1,33 @@
+
+X: 1
+T: the Minstrel Boy (high)   [C]
+R: march
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+P: AA BA
+K: C
+"^A"[|] G !segno!||\
+"C"c3 d | fe dc | e2 "(G)"g2 | "(Am)"c'2 bc' |\
+"F"a2 g2 | "C"e>f ge | "G7"d4 | "C fine"c3 :|
+"^B"[|] e ||\
+"Am"c'2 b2 | a2 bc' | "G"b3 a | g3 g |\
+"Am"a3 e | e3 e | "F"a2 "G7"b2 | "C"c'2 e"d.S."d |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Minstrel Boy (low)   [C]
+R: march
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+P: AA BA
+K: C
+"^A"[|] G, !segno!||\
+"C"C3 D | FE DC | E2 "(G)"G2 | "(Am)"c2 Bc |\
+"F"A2 G2 | "C"E>F GE | "G7"D4 | "C fine"C3 :|
+"^B"[|] E ||\
+"Am"c2 B2 | A2 Bc | "G"B3 A | G3 G |\
+"Am"A3 E | E3 E | "F"A2 "G7"B2 | "C"c2 E"d.S."D |]
+

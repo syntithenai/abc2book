@@ -1,0 +1,28 @@
+X:1
+T:Coppermill Studio
+M:9/8
+L:1/8
+Q:80
+C:Bruce Gandy
+S:Jig
+K:HP
+|: d | \
+{g}Be{A}e{g}e2f{gf}g3 | \
+{a}Be{A}e{gf}g2e{g}fd{e}A | \
+{g}Be{A}e{g}e2f{gf}g2e |
+{g}fedagf{gef}e2 :: \
+f | \
+{gf}g2B{g}B{d}B{e}B{g}efg | \
+{a}fef{g}def{gf}g2f |
+{g}eg{f}g{a}B{d}B{e}B{gf}g2e | \
+{g}fedagf{gef}e2 :: \
+d |
+{g}Be{A}e{g}e2f{gef}edB | \
+{g}d{e}d{G}d{g}ded{gBd}B2A | \
+{g}Be{A}e{g}e2f{gef}edB |
+{g}def{gf}g2f{gef}e2 :: \
+f | \
+g{a}fg{aBG}B2e{a}gfe | \
+{g}fa{g}a{g}a2g{a}f2a |
+g{a}fg{aBG}B2e{a}gfe | \
+{g}fedagf{gef}e2 :|

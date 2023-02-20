@@ -1,0 +1,35 @@
+X: 1
+T:The Postman's Knock
+M:6/8
+C:
+S:Bacon (RD ex Blunt MSS)
+N:
+A:Adderbury
+O:English
+R:Jig
+%:
+%:
+%:
+L:1/16
+K:D
+I:speed 500
+P:A
+D3D | D2F2G2 A4 F2  | G2A2B2 A4 A2 | d2A2G2 F2E2D2  | E6-E4     \
+%:
+ D2 | D2E2F2 A2A2A2 | G2A2B2 A4 F2 | E2d2c2 B2A2^G2 | A6-A2     \
+%:
+A3A | A2G2F2 F2d2d2 | d2D2E2 F4 F2 | F2F2F2 d2c2B2  | c6 B4     \
+%:
+ A2 | d2d2d2 d2A2F2 | E2F2G2 B4 A2 | A2d2F2 FF3E2   | D6 D4     ||\
+%:
+I:speed 600
+P:B
+%:
+   A4   A2    A2A2A2     | B2c2d2      A6    |\
+w: Ever-y     morn-ing as  true as the clock,
+   d3cB2      d4    F2   | F4  E2      F6    |
+w: some-bod-y hears the    post-man's  knock.
+   A4   A2    A2A2A2     | B2c2d2      A6    |\
+w: Ever-y     morn-ing as  true as the clock,
+   d2c2B2     A4    d2   | d6          c6    | d6     d6 ||
+w: some-bod-y hears the    post-       man's   knock.

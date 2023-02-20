@@ -1,0 +1,50 @@
+%%text RJ Set 093 NEFFA 2008 French Canadian Set
+
+
+X: 1
+T: Le Diable Vert
+M: C|
+L: 1/8
+K: G
+DC |\
+"G"B,G,B,D GDGB | ed (3ddd "G#°"(dB)GB |\
+"Am7"cBAG FDEF |["1,3" "D7"GBAG "D7+/D"FE :|["2,4" "D7"GBAF "G"G2 :|
+|: A2 |\
+"Em"[B3E3] [BE][B2E2] ef | "Em"gfeg "Bm"fB (3BB(B | "Em"e)BBe BBef | "Em"gB-{/c}BA "D"BAGA |
+"Em"BEBE B2 ef | "Em"gfeg "Bm"fB (3BB(B | "C"e)(f (3gfe) dBG(B | "D7"cB)AF G2 :|
+
+
+X: 2
+T: La Tuque Rouge, aka le Reel des Habitants
+M: C|
+L: 1/8
+K: Ador
+|:\
+"Am"a2ab agef | "G"gfga gfed | "Am"eaab agef | "Em(G)"gedB "Am"cA A2 ||\
+"Am"eaab agef |
+                "G"gfga gfed | "(Em)"gfge "G"dBGB | "Em"cBAG "Am"A4 ::\
+"Am"EAAB AGAB | cded "D7"cB c2 |
+                                 "G"DGGA GFGA | BcdB "Em"cBAG ||\
+"Am"A4 A3 B | AGAB "Am(C)"cdef | "G"gfge dBGB | "Em"cBAG "Am"A4 :|
+% text 04/23/08
+
+
+X: 3
+T: Hommage \`a la Belle Gasp\'esie
+C: Marcel Messervier
+R: reel
+M: C|
+L: 1/8
+K: A
+EA |\
+"A"c3 d cBAc | feef e2 EA |\
+"A"c2 cd "A#dim"cBAc | "Bm7"edde d2 Bc ||\
+dcde dcBA | "E7"BABc B3 e |
+ecef edcB |[1 cBcd cA :|[2 "A"Ac (3BcB "A7"A3 A |:\
+"D"aA=gA "D/F#"(3faf "D/G#"ec | "A"Acef "F#m"ecAF |\
+"Bm7"EEBE "E7"cE (3BcB |
+"A"ABcd "A7"ecBA ||\
+"D"aA=gA "D/F#"(3faf "D/G#"ec | "A"Acef "F#m"ecAF |\
+"Bm7"EEBE "E7"cE (3BcB | "A"Ac (3BcB A4 :|]
+% text 04/12/14
+

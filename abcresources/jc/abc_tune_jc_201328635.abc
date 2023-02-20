@@ -1,0 +1,24 @@
+X: 1
+T: Rays of Hope
+C: David A. Kaynor and Rebecca R. Weiss 2019
+N: formerly 2019-10-19 Waltz
+S: IwAR3Vc2opIFSLSh0Fi2HWYEC6yhL7hwQ54_L
+M: 3/4
+L: 1/8
+K: G
+% = = = = = = = = = =
+V: 1 staves=2
+D2 | "G"G3FG2 | "D"A4d2 | "G"B6- | B4D2 | "Em"G3FG2 | "Am"E3DC2 | "D"D6- | D4 ||\
+D2 | "G"G3FG2 | "D"A4d2 | "G"B6- | B4D2 |  "C"E3FG2 |     G3AB2 | "D"A6- | "D7"A4 |]
+D2 | "G"G3FG2 | "D"A4d2 | "G"B6- | B4D2 | "Em"G3FG2 | "Am"E3DC2 | "D"D6- | D4 ||\
+D2 | "G"G3FG2 | "D"A4d2 | "G"B6- | B4D2 |  "C"E3FG2 |  "D"G4F2  | "G"G6- | G2 |]
+|: B2d2 | "G"g3ag2 | "D"f4d2 | "C"e6- | e4  ef | "G"g3ag2 | "Am"e2d2c2 | "D"d6- | d2 ||\
+   e2f2 | "G"g3ag2 | "D"f4d2 | "C"e6- | e2f2g2 | "G"d3cB2 |  "D"A2G2F2 |1 "G"G6- | G2 :|2"G"G6- | G4 |]
+% = = = = = = = = = =
+V: 2
+A,2 | "G"D3DD2 | "D"F4A2 | "G"G6- | G4 B,2 | "Em"E3 D E2 | "Am"C3A,A,2 | "D"A,6- | A,4 ||\
+A,2 | "G"D3DD2 | "D"F4A2 | "G"G6- | G4 B,2 | "C"C3DE2 | E3FG2 | "D"F6- | "D7"F4 |]
+A,2 | "G"D3DD2 | "D"F4A2 | "G"G6- | G4 B,2 | "Em"E3 D E2 | "Am"C3A,A,2 | "D"A,6- | A,4 ||\
+A,2 | "G"D3DD2 | "D"F4A2 | "G"G6- | G4 B,2 | "C"C3DE2 | "D"D4C2 | "G"[D6B,6]- | [D2B,2] |]
+|: G2B2 | "G"d3dd2 | "D"d4B2 | "C"c6- | c4cd   | "G"d3ed2 | "Am"c2A2E2 | "D"[A6F6] | A2 ||\
+   c2d2 | "G"d3dd2 | "D"d4B2 | "C"c6- | c2d2c2 | "G"B3AG2 |  "D"F2D2C2 |1 "G"[D6B,6]- | [D2B,2] :|2 "G"[D6B,6]- | [D4B,4]|]

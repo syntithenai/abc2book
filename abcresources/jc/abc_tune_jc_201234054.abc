@@ -1,0 +1,25 @@
+X: 2022
+T: Lady Cunningham's    Strathspey
+%R: strathspey, air
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.2 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "Slow"
+K: A
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 6-bar lines.
+V: 1 staves=2
+Tc>B |\
+A2A,2A,3C E3FE2c2 | TB3c {d}c2BA G2B2 B2Tc>B |\
+A2A,2TA,3C E3FE2d2 | {d}Tc3e {d}c2BA E2A2A2 :|\
+Tc>d |\
+e3fe2c2 (a2g2f2e2) | Tf2ga (ec)T.B.A G2B2 TB2c>d |
+e3fe2c2 (a2g2f2e2) | Tf2ga (ec)BA E2A2 A2Tc>d ||\
+.e2.c2.A2.a2 .f2.d2.B2.b2 | ({d}cBc).a (ec)TBA G2B2 B2cd |\
+{cd}e3d.c2.B2 .A2.G2.F2.E2 | (F/G/A3) TE3C A,2A2A2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | a4A4 c4A4 | G4A4 e4E2z2 | a4A4 c4A4 | e4E4 A4A2 :| z2 | c'4a4 f2e2d2c2 | d4a4
+e4E2z2 | c'4a4 f2e2d2c2 | d4e4 A4A2z2 || a4a4 a4a4 | a4A4 e4E2z2 | c'3ba2g2 f2e2d2c2 | d4e4 A4A2 |]

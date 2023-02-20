@@ -1,0 +1,54 @@
+X: 1
+T: Love lies a bleeding
+P: Longways for as many as will
+%R: hornpipe, rant
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.40 #74
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.109 "L"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: There's an extra 1/8 note between the two strains. The strains should probably be repeated, but neither dance says this.
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[| G>A B>c d2 G2 | g2 ^f>g a2 d2 | b2 a>g f>e d2 | c>d B>c A2 G2 |]\
+A | B2 G>B c2 F>c | B2 G>d c2 B2 | f2 f>e d>c B>B | c>d B>c A2 G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the Presence, then to your We. Lead up
+%% all forward and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1st Man and Wo. cast off into the 2d Cu. Place and
+%% meet, then go round each other Back to Back, and cast
+%% off into your Places, then do the same-over again .|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then the two Men clap Hands with each other, and the
+%% two We. with each other, and then with your Wo. then
+%% the 1st Cu. cast off into the 2d Cu. Places, and clap
+%% Hands as before, then turn your own Wo. once round,
+%% and so to the End :|
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the Presence, then to your We. Lead up all forward and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1st man and wo. cast off into the 2d cu. place and meet, then go round each other back to back, and
+%% cast off into your places, then do the same-over again. This to the first Strain of the Tune.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then the two men clap hands with each other, and the two we. with each other, and then with your
+%% wo. then the 1st cu. cast off into the 2d cu. places, and clap hands as before, then turn your own wo. once
+%% round, and so to the end. This to the second Strain.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

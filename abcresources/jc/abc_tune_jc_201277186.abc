@@ -1,0 +1,16 @@
+X: 87
+T: For Ireland I'd Not Tell Her Name   #2
+R: air, waltz
+%S: s:3 b:14(7+7)
+B: O'Neill's 1850 #87
+Z: Transcribed by John Chambers <jc@trillian.mit.edu>
+N: Three-bar phrases (often stretched to 4 bars).
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+Q: "With expression"
+M: 3/4
+L: 1/8
+K: Em
+"^A"[|] G>A |: B2 E2 (EF) | G2 A2 (BA) | B4 (EG) ||[1  F2 E2 ((3DEF) | A2 F2 (EF) | D4 (FA) :|[2F2 E2  (DE) |
+| F2 E2 E2 | HE4 "^B"|[|(Bc) | d2 e2 ((3dBA) | G2 B2 d2 | e4 ((3fge) || d2 e2 (BA) | (GF) (EF) (AF) | D4 (F"^->A2"A) |]

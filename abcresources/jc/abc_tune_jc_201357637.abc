@@ -1,0 +1,46 @@
+%%scale 1.07
+%%barsperstaff 4
+X:1
+T:Good King Wenceslas
+C:Lyrics: John Mason Neale, Music: Traditional
+M:4/4
+L:1/4
+K:F
+%%staves{RH1}
+V:RH1 clef=treble
+|:"F"F F "Dm"F "C7"G|"F"F F C2|"Bb"D "F"C "Bb"D "C7"E
+w:1.~Good King Wen-ces-las looked out on the feast of
+w:2.~"Hith-er, page, and s tand by me, it thou know'st it,
+w:3.~"Bring me flesh and bring me wine, bring me pine longs
+|"F"F2 F2|F F "Dm"F "C7"G|"F"F F C2|"Bb"D "F"C "Bb"D "C7"E
+w:Ste-phen, when the snow lay 'round a-bout, deep and crisp and
+w:tell-ing, yon-der peas-ant, who is he? Where and what his
+w:hith-er, Thou and I will see him dine, when we bear him
+|"F"F2 F2|"F"c "Bb"B "F"A "C"G|"F"A "C"G "Dm"F2|"Bb"D "F"C "Bb"D "C7"E
+w:e-ven. Bright-ly shone the moon that night, though the frost was
+w:dwell-ing?" "Sire, he lives a good league hence, un-der-neath the
+w:thith-er." Page and mon-arch forth they went, forth they went to-
+|"F"F2 F2|C C "Dm"D "C7"E "Bb"F "F"F "C"G2|"F"c "Bb"B "F"A "C7"G
+w:cru-el, when a poor man came in sight, gath-'ring win-ter,
+w:moun-tain; right a-gainst the for-est fence, by Saint Ag-nes
+w:geth-er, through the rude wind's wild la-ment and the bit-ter
+|("F"F2 "Bb"B2)|1 "F"F4:|2 "F"F3 "D7"z||
+w:fu- _el.
+w:foun- _tain."
+w:weath- __er.
+K:G
+|:"G"G G "Em"G "D7"A
+w:4.~"Sire, the night is
+w:5.~In his mas-ter's
+|"G"G G D2|"C"E "G"D "C"E "D7"F|"G"G2 G2|G G "Em"G "D7"A
+w:dark-er now, and the wind blows strong-er. Falls my heart, I
+w:steps he trod, where the snow lay dint-ed. Heat was in the
+|"G"G G D2|"C"E "G"D "C"E "D7"F|"G"G2 G2|d "C"c "G"B "D"A
+w:know not how, I can go no long-er." "Mark my foot-steps,
+w:ver-y sod which the Saint had print-ed. There-fore, Chris-tian
+|"G"B "D"A "Em"G2|"C"E "G"D "C"E "D7"F|"G"G2 G2|D D "Em"E "D7"F
+w:my good page, tread thou in them bold-ly. Thou shalt find the
+w:men, be sure, wealth or rank pos-sess-ing; ye who now will
+|"C"G "G"G "D"A2|"G"d "C"c "G"B "D"A|("Em"G2 "C"c2)|1 "G"G4|2 "G"!fermata!G4||
+w:win-ter's rage freeze thy blood less cold- _ly."
+w:bless the poor shall your-selves find bless- __ing.

@@ -1,0 +1,23 @@
+X:2
+T:Babylon is Fallen
+L:1/8
+M:4/4
+V:1
+V:2
+V:3 transpose -24
+V:4 merge
+K:EMin
+[V:1] |:    B2B2 BGE2|   A2AF G2A2|    B2B2 GFEG|   F2 F/G/F E4 y:|
+[V:2] |:    G2G2 E2G2|   F2F2 D2F2|    E2G2 BAG2|   D2 D2    B,4y:|
+[V:3] |:    e2e2 B2e2|   d2d2 A2d2|    g2e2 e2e2|   B2 B2    e4 y:|
+[V:4] |:"Em"x8       |"D"x8       |"Em"x8       |"D"x4   "Em"x4 y:|
+%
+[V:1]    B3 c dBd2|    e2   f2     ed B2|   B3 c dB d2|   e2     f2     e4|
+[V:2]    E3 E G2G2|    G2   D2     E2 E2|   E3 E E2 E2|   G2     D2     E4|
+[V:3]    g3 a b2g2|    e2   B2     e2 e2|   g3 a b2 g2|   e2     B2     e4|
+[V:4] "G"x8       |"Em"x2"D"x2 "Em"x4   |"G"x8        |"Em"x2 "D"x2 "Em"x4|
+%
+[V:1] |:    B>BBB G2 GE|   A2AF G2A2|    B>BBB G2 EG|    F2 F/G/F  E4 y:|
+[V:2] |:    G>GGG E2 EE|   F2FD D2F2|    G>GGG E2 GE|    D2 DE     B,4y:|
+[V:3] |:    e>eee B2 BB|   d2dA A2d2|    e>eeB B2 eB|    B2 B2     e4 y:|
+[V:4] |:"Em"x8         |"D"x8       |"Em"x8         |"D" x4   "Em" x4 y:|

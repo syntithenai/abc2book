@@ -1,0 +1,40 @@
+X: 1
+T: Barley Mow
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.103 #146 (206)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.240
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: In DMDfD, the a notes in bars 15 and 16 lack the flats.  The high a in bar 7 has a flat, however.
+M: 6/4
+L: 1/4
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+B2F B2c | d3- d2e | (fd)B (dc)B | (cF2) F2f |\
+(dc)B e2f | g3- g2g | _agf (cf)=e | f3- f2 |]\
+f |\
+c2f c2d | e3- e2f |
+(gG)G (cd)e | A3- A2c |\
+d2B e2c | f2d (ga)f | b3- b2_a | g_ab f2f |\
+e3 (g2f) | f3 def | cde c2B | Bb2- b2 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1st Man sett to the 2d Wo. fall back and turn single, then turn
+%% the 2d Wo. and cast off into the 2d Man's Place .| The 1st Wo.
+%% do the same :| Then all four Hands half round and turn single,
+%% then right Hands and left with your Partners, then lead thro'
+%% above, and cast off into the 2d Cu. Place.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man set to the 2. woman, falls back and turn single, then turn 2. woman and cast off into the
+%% 2. man's place .| The 1. woman does the same :| All 4. hands half round and turn single, then right
+%% and left with your Partners, then lead thorow above and cast off into the 2. cu. place.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

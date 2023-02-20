@@ -1,0 +1,18 @@
+X: 1495
+T: the Traveller
+T: aka Walker Street, Carpenter's Reel
+T: an siu\.balta\.c
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill 1850 "Music of Ireland" #1495
+O: F.O'Neill
+Z: John B. Walsh, 8/22/96
+M: C|
+L: 1/8
+K: G
+"^A"[|] D2 \
+|  G2(BG) dGBG | ABcd cBAG | Bdgd ((3efg) dB | cBAG FADF ||
+|| G2(BG) dGBG | ABcd cBAG | Bdgd ((3efg) (dc) | BGAF HG2 |]
+"^B"[| (Bd) \
+|  {a}g2(dg) Bgdg | gabg agef | g2(dg) Bgdg | cBAG FADF ||
+|| {a}g2(dg) Bgdg | gabg agef | gfga gfed | ((3efg) (fa) gedB |]

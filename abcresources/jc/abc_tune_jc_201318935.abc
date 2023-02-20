@@ -1,0 +1,19 @@
+X: 859
+T: Off To California
+R: hornpipe
+%S: s:3 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #859
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0859/oneill-1001-0859-1.abc
+M: 2/4
+L: 1/16
+K: G
+"^A1"|: (3(DEF) | G>FG>B A>GE>D | G>Bd>g e2(3(def) | g>fg>d e>dB>G | A>BA>G E2 "A2"|| (3(DEF) | G>FG>B A>GE>D |
+| G>Bd>g e2(3(def) | g>fg>d e>dB>G | A>BA>F G2 "^B":: (3(def) | g>fe>g f>ed>f | e>de>f e>dB>d |
+| g>fg>d e>dB>G | A>BA>G E2 "A3"|| D2 | (3(GAG) B>G A>GE>D | G>Bd>g e2(3(def) | g>fg>d e>dB>G | A>BA>F G2 :|
+%%begintext align
+%% "Off to California" is perhaps better known as a US than an Irish
+%% tune. Irish immigrants to the USA tended to keep in close contact
+%% with their original home and O'Neill's books includes many tunes
+%% with obvious US reference.
+%%endtext

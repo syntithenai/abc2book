@@ -1,0 +1,22 @@
+X: 6
+T: Sir William Curtis's Reel
+%R: reel
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.3 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The final notes in each strain probably shouldn't be dotted; not fixed.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+d2(af) d2(fd) | e2(ge) (dc)(BA) |\
+(df)(af) (de)(fd) | (eg)(ce) d3 :|
+|: (fa) |\
+g2(ge) f2(fd) | (cA)(Bc) (df)(af) |\
+(ag)(ge) (gf)(fd) | (eg)(ce) d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st & 2d Cu: hands across, back again,
+%% down the mid: up again, right and left at top.
+%%endtext

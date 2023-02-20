@@ -1,0 +1,62 @@
+X: 1
+T: Cuckolds all arow
+P: For four or eight
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.141 #191 (281)
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.15 "C 2"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+a2a a2g | f2g a2d |\
+e2e f>ef | g3- g2 |]\
+B |\
+cdc B>AB | A2A f(ef) |
+g2d ed2 | B3 G>AB |\
+c>dc B>AB | A2A f>ef |\
+g2d ed2 | B3 G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Meet all forwards and back .| That again :|
+%% Turn Back to back with the Co. We. faces again, go about the Co.
+%% We. not turning your Faces .| Turn Back to back to your own, Faces
+%% again, go above your own not turning Faces
+%% Sides all with your own .| Sides with the Co. :|
+%% Men change Places, We. change Places, Hands all and go round .| We. change
+%% Places, Men change Places, Hands all and go round to your Places :|
+%% Arms all with your own .| Arms with the Co .:|
+%% Men put the Cu. We. back by both Hands, fall even on the Co. side, Men cast
+%% off to the Right, your We. following come to the same Place again .|
+%% Put them Back again, fall on your own Side, Men cast off to the left
+%% Hand and come to your Places. the We Following :|
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% Meet all forwards and back .| that again :|
+%%
+%%		Turn back to back with the co. we facas [sic] again, go about the co. we.
+%%		not turning your faces .| Turn back to back to your own, faces
+%%		again, go above your own, not turning faces :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Sides all with your own .| Sides with the co :|
+%%
+%%		Men change places, we. change places, hands all, go round .| we. change
+%%		places, men change places, hands all and go round to your places :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Arms all with your own .| Arms with the co .:|
+%%
+%%		Men put the co. we. back by both hands, fall even on the co. side,
+%%		men cast off to the right, your we. following come to the same place
+%%		again .| Put them back again, fall on your own side, men cast off
+%%		to the left-hand and come to your places, the we. following :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

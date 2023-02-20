@@ -1,0 +1,40 @@
+X: 30451
+T: the CUCKOO
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.45 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added initial rest to voice 1 to get proper alignment.
+M: C
+L: 1/8
+P: Key of D Minor.
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+zA |\
+AFDF AGFG | AGFE D2EF | GE^CE GECE | GFEF D2D^C |\
+DEFG A2=fd | c[aA][gG][fF] [g2G2][aA][gG] |\
+[fF][eE][fF][dD] [^c^C][dD][eE][gG] | [f2F2][d2D2][d2D2] :|
+|: A2 |\
+d^cde de=fd | =cBAG A2AB | =cBcd cdec | dBcA G2AG |\
+FEFD =fefd | c[aA][gG][fF] [g2G2][aA][gG] |\
+[fF][eE][fF][dD] [^c^C][dD][eE][gG] | [f2F2][d2D2][d2D2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+F2z2 F2z2 | F2F2 F2z2 | E2z2 E2z2 | D2D2 D2z2 |\
+D2D2 ^C2z2 | A,2CD E2z2 | D3F EFGE | D2F2F2 :|
+|: z2 |\
+BABc BcdB | AGFE F2z2 | A2A2 G2G2 | BGAF E2z2 |\
+A,2z2 D^CDB, | A,2CD E2z2 | D^CDF EFGE | D2F2F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+d2z2 d2z2 | d2d2 d2z2 | a2z2 a2z2 | d2d2 d2z2 |\
+d'2b2 a2z2 | f2ed c2z2 | d2f2 a2A2 | d2d2d2 :|
+|: z2 |\
+B2f2 d2B2 | c2c2 f2z2 | f2f2 e2c2 | f2f2 c'2z2 |\
+d2z2 B2z2 | f2ed c2z2 | d2f2 a2A2 | d2d2d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

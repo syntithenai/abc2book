@@ -1,0 +1,18 @@
+X: 423
+T: Varnenski Predsvatben Tantz
+O: Bulgaria
+F: http://www.youtube.com/watch?v=hDycMXoEbCA
+F: http://www.youtube.com/watch?v=6hfjbmiFZao
+M: 4/4
+L: 1/8
+Q: 1/4=144
+K: Am
+%%MIDI gchord f2zfzfz2
+%%MIDI program 50
+%%MIDI bassprog 24
+%%MIDI bassvol 60
+|:"A"A2E A2A2B|c2B ABcdz         |A2E A2A2B          |c2B A2A2z   :|
+%%MIDI program 73
+%%MIDI gchordoff
+  "D"A2d dcBAz|[M:7/8]d2c B2z2   |[M:4/4]"A"A2E A2A2B|"D"c2B ABcdz|
+  "E"e2c dcBAz|[M:7/8]"D"dec d2z2|[M:4/4]"A"A2E A2A2B|c2B A2A2z   |

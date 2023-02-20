@@ -1,0 +1,36 @@
+X: 9
+T: Maiden's Choice
+C: Michael Dabney
+%R: reel
+B: Michael Dabney "Twelve Minuets and Twelve Dances" p.11 #1
+S: http://imslp.org/wiki/12_Minuets_and_12_Dances_(Dabney,_Michael)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces mostly 4- or 8-bar staffs.
+V: 1
+|:\
+E3G B3e | cfed e4 |\
+g2(eg) f2(df) | ecB=A B4 ::\
+B2g2 {c}B2AG |
+AFFF AFFF |\
+A2f2 A2GF | GEEE GEEE |\
+G2B2 e3g | fafd e4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+|:\
+z4 e3g | a2gf g4 |\
+e2c2 d2B2 | e2f2 B4 ::\
+e4 e4 | B4 B4 |
+B4 B4 | e4 e4 |\
+e2z2 g2e2 | b2B2 e4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right hands across quite
+%% round, left hands back
+%% again cross over Right
+%% and left at top.
+%%endtext

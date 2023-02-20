@@ -1,0 +1,40 @@
+X: 1
+T: Wooly and Georgey
+T: Woolly and Georgey
+P: Longways for as many as will
+%R: minuet
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.112 #159 (223)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.248
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the instructions.
+M: 3/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G4 (GAB2) A2G2 | c2A2 (ABc2) B2A2 | B3A G3A B3c | (d6 e2) D4 |\
+G4 (GA)B2 (dB)(AG) | A4 c2d2 e3f | g2e2 (dfdB) A2G2 | G6 A2 B4 :|
+[|
+c3d e2d2 g2d2 | B3c d2B2 e2d2 | G3A B2c2 d2G2 | F4 A4 A4 |\
+D6 E2 D2B,2 | G6 E3 D2B,2 | d6 B2 A2G2 | G6 A2 B4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text Note. The first Strain is to be play'd twice and the last but once.
+%%begintext align
+%% The 1st Cu cast off and Figure in, the 2d Cu. do the same; then all four
+%% Hands half round and cast up, then back again and cast up, then 1st Man
+%% and 2d Wo. change Places, the other Cu. do the same; then sett all four
+%% and turn S. and lead thro' the 3d Cu. into the 2d Cu. Place; the rest do
+%% the same.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% The 1. cu cast off and Figure in, the 2. cu do the same; then all four hands half round and cast up,
+%% then back again and cast up, then 1. man and 2. woman change places, the other cu. do the same, then
+%% set all four and turn S. and lead through the 3. cu. into the 2. cu. place; the rest do the same.
+%% [DMDfD]
+%%endtext
+%%text Note: The 1. Strain must be played twice, and the 2. but once.
+%%sep 1 8 500

@@ -1,0 +1,943 @@
+F: http://www.srcf.ucam.org/round/files/rbbop.abc 2009-2-9
+
+X:1
+T:Apley House
+M:C
+L:1/8
+B:The Round Band Book of Playford
+K:G
+"G"B2G2 Bcd2 | "C"e2c2 "D7"A2c2 | "G"B2G2 g2G2 | "G"B4 d4 :: \
+"D"f2a2 bagf | "A7"e2g2 g2fe | "D"f2a2 bagf | "A7"e4 "D"d4 :|
+|: \
+"C"e2c2 cdec | "G"d2B2 BcdB | "Em"g2G2 "D"G2A2 | "G" B4 d4 \
+"Am"e2c2 "D7"cdec | "G"d2B2 BcdB | "Em"g2G2 "D"G2A2 | "G"B4 d4 ||
+
+X:2
+T:Argeers
+T:The Wedding Night
+M:C|
+L:1/8
+B:The Round Band Book of Playford
+K:Bb
+"Bb"Bcde c2B2 | "F"A2F2 F4 | "F"f2c2 "Bb"f3"F7"e | "Bb"d2B2 B4 \
+"Gm"Bcde "Cm"c2B2 | "F"A3B c2F2 | "Eb"GAB2 "F7"ABcd | "Bb"B6 z2 :|
+|: \
+"F"ABc2 ABc2 | "F"f2"C7"c2 "F"f2"C7"c2 \
+"F"AB"C"c2 "F"AB"C"c2 | "F"f2"C7"c2 "F"f2"F7"c2 \
+"Bb"f2ed "F"e2fe | "Bb"d2cB "F"c3F | "Eb"GABc "F7"ABcd | "Bb"B6 z2 :|
+
+X:3
+T:The Bishop
+T:to the tune of Miss Dollands Delight
+M:C|
+L:1/8
+Q:C4=128
+B:The Round Band Book of Playford
+K:A
+"A"A2 a4 g2-|"D"g2 f4 "A"e2 |\
+"D"f2a2 "A"e2c2 | "Bm"d2B2 "E7"A2G2 |\
+"A"A2 a4 g2-| "D"g2 f4 "A"e2 |\
+"D"f2 a2 "B7"B2^d2 |"E"e4 E4 :|
+|: \
+"E7"E2 d4 cB | "A"c2 e4 d2 |\
+"A"c2a2 A2c2 | "E7"B2E2 E4 |\
+"A"A2 c4 BA | "D" B2 a2 g2 f2 |\
+"E7" e2 d2 c2 B2 | "A" A4 A,4 :|
+
+X:4
+T:The Black Nag
+M:6/8
+L:1/8
+B:The Round Band Book of Playford
+K:G
+B, |\
+"Em"E2E "D"F2F | "C"G2G "B"AGA | "Em"BAG "B"FGF | "Em" E3-E2 :|
+|: E |\
+"Bm"FDB, FDB, | "Bm"FDB, FDB, | "Em"BGE BGE | "Em"BGE BGE |
+"Bm"FDB, FDB, | "Bm"FDB, FGA | "Em"BAG "B"FGF | "Em"E3-E2 :|
+
+X:5
+T:The Boatman
+M:6/8
+L:1/8
+Q:95
+B:The Round Band Book of Playford
+K:C
+"C"GE2 "G7"G2G | "C"GE2 "G7"G2G | "Am"c2c B2A | "Dm"d3 "G7"D3 |\
+"C"GE2 "G7"G2G | "C"GE2 "G"G2G | "Am"c2d "G7"e2d | "C"c3 C3 :|
+|:\
+"Am"c2d "Dm"e2d | "C"c2B "F"A2G | "F"F2F E2D | "Dm"d3 "G7"D2D |\
+"C"GE2 "G7"G2G | "C"GE2 "G7"G2G | "Am"c2d "G7"e2d | "C"c3 C3 :|
+
+X:6
+T:Broom, the Bonny Bonny Broom
+M:4/4
+L:1/8
+Q:200
+B:The Round Band Book of Playford
+K:G
+"G"d3e "D7"d3e | "G"dcBA G4 | "Em"g2ga bagf | "C"e6 f2 |\
+"G"g3a b2ab | "Em"g2GA "G"B2AG | "Am"A2A2 e3c | "D"A8 :|
+
+X:7
+T:Chelsea Reach
+M:6/8
+L:1/8
+Q:112
+B:The Round Band Book of Playford
+K:F
+c | "F"A>GF "C7"G2E | "F"F2F F2f | "Bb"def def | "C"g2e c2c |\
+"F"ABc ABc | "Bb"Bcd d>cB | "F"A>GF "C7"G2e | "F"f2F F2 ||
+f | "F"f>gf "Bb"d>cd | "Bb"d>ed "F"c>BA |\
+"Dm" A>Bc "G7"cd=B | "C"c2c "C7"c2c |\
+"F"AGA "Bb"BAB | "C"GAB "F"cBc | "Gm7"def "C7"fge | "F" f2F F2 ||
+
+X:8
+T:Chestnut
+T:or Dove's Figary
+M:C|
+L:1/8
+Q:180
+B:The Round Band Book of Playford
+K:F
+"Dm"d2a2 g2f2 | "Gm"e3d "A"^c2A2 |\
+"Dm"d2e2 f2f2 | "C"g2fg "F"a4 :|
+|:\
+"F"a2ab c'2ba | "C"g2ga b2ag |\
+"F"a2a2 "Dm"a2gf | "Gm"g3f "Dm"f4 |
+"F"a2ba bagf | "C"g2ag agfe |\
+"Dm"f2d2 "Gm"d2g2 | "C"e3d "Dm"d4 :|
+
+X:9
+T:Childgrove
+M:2/2
+L:1/8
+Q:112
+B:The Round Band Book of Playford
+K:F
+A2 | "Dm"A2d2 d2e2 | "Dm"f4 e2d2 | "Gm"g2f2 e2d2 | "Am"e3d cBA2 |\
+"Dm"A2d2 d2e2 | "Dm"f4 "C"e2a2 | "Gm"g3f "A7"efed | "Dm" d6 :|
+|:\
+fg | "F"a2f2 f2a2 | "C"g2e2 e2g2 | "Dm"f2d2 defd | "A7"e2 A4 fg |\
+"F"a2f2 f2a2 | "Gm"g3f efge | "Dm" f2ed "A7"e2d^c | "Dm"d6 :|
+
+X:10
+T:Confesse
+M:6/8
+L:1/8
+Q:105
+B:The Round Band Book of Playford
+K:Bb
+"Gm"G2A B2c | "Gm"d2d d2d |\
+"Cm"e3 d2d | "Eb"g3 "D"^f3 :: \
+"F"a2f "Gm"b2g | "Dm"af2 "Gm"d2e |
+"Bb"fd2 "Cm"c2d | "F7"dc2 "Bb"d3 |\
+"Gm"B2c "Dm"d>ed | "Cm"ed2 "F"c3 |\
+"Gm"d2g "Cm"^f2g | "D7"a^f2 "Gm"g3 :|
+
+X:11
+T:Dargason
+T:or Sedany
+M:6/8
+L:1/8
+Q:120
+B:The Round Band Book of Playford
+K:F
+"F"A2F F2F | "F"A2B c>BA | "Gm"B2G G2G | "Bb"B2c "C7"d>cB |\
+"F"A2F F2F | "Dm"f2f e>dc | "Gm"B2G G2G | "C7"g2f e>dc :|
+
+X:12
+T:Dick's Maggot
+M:3/2
+L:1/8
+Q:450
+B:The Round Band Book of Playford
+K:G
+"G"g2 d4 B4 "C"A2 | "G"Bcd2 "D7"ABc2 "G"B4 |\
+"G"g2 d4 B4 "C"A2 | "G"Bcd2 "D7"G2F2 "G"G4 :|\
+"D"f2 a4 f4 "Bm"d2 | "Em"gab2 "A7"efg2 "D"f4 |
+"D"f2 a4 f4 d2 | "G"def2 "A7"AB^c2 "D"d4 |\
+"G"Bcd2 "G7"Bcd2 "C"e4 | "A7"efg2 efg2 "D" f4 |\
+"G"g2 d4 B4 "C"c2 | "D7"A8 "G"G4 |]
+
+X:13
+T:The Doldrum
+M:6/8
+L:1/8
+Q:C3=120
+B:The Round Band Book of Playford
+K:C
+G | c2 c cBc | d2 d def | gec BAG | c2 c c2 G |\
+c2 c cBc | d2 d def | gec BAG | c2 c c2 :|
+|:\
+e/2f/2 | g2 g ece | d2 d BGB | g2 g ece |\
+d3-d2 e/2f/2 | g2 g ece | d2 d BGB | gec BAG | c3-c2 :|
+
+X:14
+T:The Dressed Ship
+M:C|
+L:1/8
+B:The Round Band Book of Playford
+K:A
+e2 | "A"c2A2 E2c2 | "E7"d4 def2 |\
+"A"e2c2 a2c2 | "Bm"d2 B4 "E7"e2 |\
+"A"c2A2 E2c2 | "D"d2f2 "A"e2a2 |\
+"D"f2d2 "E7"B2e2 | "A"c2 A4 :|
+|:\
+fg | "A"a2e2 c2A2 | "D"fgaf "A"e2c2 |\
+"D"d2f2 "A"e2c2 | "Bm"d2 B4 "E7"fg |\
+"A"a2e2 c2A2 | "D"fgaf "A"e2c2 |\
+"D"f2d2 "E7"B2e2 | "A"c2 A4 :|
+
+X:15
+T:The Fandango
+M:6/8
+L:1/8
+Q:120
+B:The Round Band Book of Playford
+K:D
+"D"d2d dcd | "G"B2G "A"FGA | "D"d2d d3 | "D"fda "A7"f2d |\
+"D"d2d dcd | "G"B2G "A"FGA | "Bm"d2d "Em"d2g | "A7"e2a "D"f2d :|
+|:\
+"D"aba f2d | "D"AFd AFd | "D"aba f2d | "G"BGd BGd |\
+"A7"aba "D"f2d | "G"B2G "D"F2A | "G"B2d "A7"e2c | "D" d6 :|
+
+X:16
+T:Fourpence, Halfpenny, Farthing
+T:or The Jockey
+M:6/8
+L:1/8
+B:The Round Band Book of Playford
+K:Bb
+"Gm"B2d dBd | "F"A2c cAc |\
+"Gm"B2d "Bb"dBd | "F"f3 "Gm"b3 |\
+"Bb"B2d dBd | "F"A2c cAF |\
+"Gm"G/2A/2BG "F"A/2B/2cA | "Eb"G3 "Bb"B3 :|
+|:\
+"F"{c}f2g "Bb"fdB | "Gm"{d}b2g "Bb"fdB |\
+"C"e2g "Bb"fdB | "F"A3 c3 |\
+"Bb"D2F FDF | "Gm"B2d "F"cAF |\
+"Eb"G/2A/2BG "C"A/2B/2cA | "Gm"G3 B3 :|
+
+X:17
+T:Gathering Peascods
+M:C|
+L:1/4
+Q:120
+B:The Round Band Book of Playford
+K:G
+G | "G"d2dd | "G"B>cdd | "C"edcB | "D"A3B | "G"AG "D7"GF | "G"G3 :: \
+G | "D"FDFG | "D"A2BA | "G"G/2A/2B "A7"AG |
+    "G"F3F | "Em"ED "A7"E>D | "G"D3 :: \
+D | "G"BGG A/2B/2 | "C"c3c | "G"BGG A/2B/2 | "C"c3c |\
+    "G"BGG A/2B/2 | "C"c>de d/2c/2 | "G"B c/2B/2 "D7"A>G | "G"G3 :|
+
+X:18
+T:Green Sleeves and Yellow Lace
+M:6/8
+L:1/8
+B:The Round Band Book of Playford
+K:Gm
+G | "Gm"B2B B>cd | "F"cAF F>GA | "Eb"B2G G>AB | "D"A>^F=E D2A |\
+"Gm"B2B B>cd | "F"cAF F>GA | "Gm"B>AG "D"A^F2 | "Gm"G3 G2 :|
+|:\
+=e | "Bb"f2f f>_ed | "F"cAF F2f | "Gm"g2a bag | "Dm"fdd d2=e |\
+"Bb"f2f f>_ed | "F"cAF F2A | "Gm"B>AG "D"A^F2 | "Gm"G3 G2 :|
+
+X:19
+T:Greenwich Park
+M:2/2
+L:1/4
+B:The Round Band Book of Playford
+K:F
+"F"F2 "C"c2 | "F"A3 "C7"d | "F"cA "Gm"GF | "C7"GE DC |\
+"F"F2 "C"c2 | "F"A3 "C"d | "F"cf "Gm"dg | "F"e4 :|
+|:\
+"C"e2 "C7"g2 | "F"c3 "C"e | "F"fc cA | "Bb"d3 c |\
+"Gm"dB "Bb"BG | "C"EG "F"Cc | "Gm"BA "C"GF | "F"F4 :|
+
+X:20
+T:Grimstock
+M:6/8
+L:1/8
+Q:95
+B:The Round Band Book of Playford
+K:G
+"G"g2f g2d | "Em"e>fg "Bm"f2d |\
+"Em"B>cd "D"e2d | "Am"cdB "D"A2"G"G |\
+"G"g2f g2d | "C"e>fg "D7"f2d |
+"G"B>cd "C"e2d | "D7"c>BA "G"G3 :: \
+"G"GGA "G7"BGA | "G6"BGA "G"BGD |\
+"C"GGA "G"BGA | "D7"BGA "G"G3 :|
+
+X:21
+T:The Gued Man of Ballangigh
+T:to the tune of Hunt the Squirrel
+M:6/8
+L:1/8
+Q:120
+B:The Round Band Book of Playford
+K:A
+"A"Ae2 e2f | "A"e3 c3 | "A"ABc "D"B2A | "A"ABc "E7"B2A |\
+"A"Ae2 e2f | "A"e3 c3 | "A"ABc "E7"B2A | "A"A3 A3 :|
+|:\
+"D"d2e fed | "D"d2e fed | "Bm"d2e f2g | "F#m"a3 a2g/2f/2 |\
+"A"ec2 ec2 | "F#m"ec2 e3 | "Bm"ABc "E7"B2A | "A"A3 A3 :|
+
+X:22
+T:The Health
+T:or The Merry Wassail
+M:C|
+L:1/4
+Q:180
+B:The Round Band Book of Playford
+K:G
+B/2c/2 | "G"dd "D"d>c | "G"B G2 c/2d/2 |\
+"C"ee B>c | "D4"d3 "D"A/2B/2 |\
+"C"cc "D7"BA | "G"B2 "D7"A"G"G |\
+"Am"AB "D7"A>G | "G"G3 :|
+
+X:23
+T:Hey Boys, Up Go We
+M:6/8
+L:1/8
+Q:C3=128
+B:The Round Band Book of Playford
+K:C
+z | "G" d2 d d2 c | B2 c d2 G | "Dm" A2 A "G7" B>AB | "C" c3-c2 z |\
+"G" d2 d "D7" d2 c | "G" B2 c d2 G | "F" A2 A "G7" B>AB | "C" c3-c2 ||
+F | "F" FGF "C" EDE | "G" D2 D BAB | "C" c2 G "F" A G2 | "C" E3 C>DE |\
+"F"F>GF "C"E>DE | "G" D2 D "G7" B>AB | "C" c2 G "F"A G2 | "C" E3 C2 :|
+
+X:24
+T:Hit and Miss
+T:to the Tune of Daphne
+M:6/8
+L:1/16
+B:The Round Band Book of Playford
+K:G
+E2 | "Em"G4A2 B4e2 | "Bm"d3ef2 "Em"e4Bc |\
+"G"d2B2G2 "D"A2F2D2 |"C"E2G2F2 "Em"E4 :: \
+z2 | "Em"g4g2 "D"f4f2 | "C"e3fe2 "Bm7"d2B4 |
+"Em"d3cB2 "Am"A4G2 | "D"G2F4 "G"G4 :: \
+z2 | "G"d2d2e2 d2B2G2 | "D"d2efg2 a2f2d2 |\
+"Em"B3AG2 "Bm"F4E2 | "C"e2e2d2 "Em"e2B2B2 |\
+"G"d3cB2 "Am"A2E2G2 | "D"F3GF2 "Em"E4 :|
+
+X:25
+T:The Hole in the Wall
+M:3/2
+L:1/4
+Q:200
+B:The Round Band Book of Playford
+K:Bb
+"Bb"d>e d/2e/2f "F"cf | "Gm"B>c B/2c/2d "Dm"Ad |\
+"Eb"G>A G/2A/2B "Bb"Fd | "Eb"B3 "F"A "Bb"B2 :|\
+"Gm"b>a g/2a/2b "Cm"ag | "D"^f>g f/2g/2a da |
+"Gm"b>a g/2a/2b "Cm"ag | "Gm"g3 "D7"^f "Gm"g2 |\
+"Eb"G>A G/2A/2B "F"A/2B/2c | "Gm"B>c B/2c/2d "F"c/2d/2e |\
+"Bb"d>e d/2e/2f "F"Ff | "Cm"d3 "F"c/2d/2 "Gm"B2 ||
+
+X:26
+T:Hunsdon House
+M:6/8
+L:1/8
+B:The Round Band Book of Playford
+K:C
+"C"C2G E2A | "C"GE2 "G"D2C |\
+"Am"c2e "G"dB2 | "D7"A3 "G"G3 :: \
+"Em"g2f eB2 | "Am"c2B Ade |
+"Dm"f2e dB2 | "G7"A3 GAB |\
+"Am"c2B AE2 | "Dm"F2E DAB |\
+"Am"cde "Dm"f2e | "G7"d3 "C"c3 :|
+
+X:27
+T:If all the World were Paper
+M:6/8
+L:1/8
+Q:110
+B:The Round Band Book of Playford
+K:C
+G | "F"A2G A2B | "C"c3 C3 | "C"E2D E2F | "G"G3-G2 E |\
+ "F"F2E "C"F2G | "F"A2F D2c | "G7"d2G A2B | "C"c3-c2 ||
+
+X:28
+T:The Indian Queen
+M:2/2
+L:1/8
+Q:C2=118
+B:The Round Band Book of Playford
+K:D
+fg | "D"a2f2 d2f2 | "A"e4 A4 | "D"F2A2 A2f2 | "A"e6 fg |\
+"D"a2f2 d2f2 | "A"e4 A4 | "Bm"F2A2 "A7"A2f2 | "D"d6 :: \
+cd | "A"edcB A2e2 | "F#m"f2c2 "Bm"d2B2 |
+"Bm"fga2 "E7"b2^g2 | "A"a6 ef |\
+"G"gfed "A"c2a2 | "Em"B2g2 "A"A2fg |\
+"Em"e2d2 "a7"e2c2 | "D"d6 :|
+
+X:29
+T:Jack's Maggot
+M:C|
+L:1/8
+B:The Round Band Book of Playford
+K:D
+dc | "D"d2D2 F2A2 | "G"BABc "A"d2e2 |\
+"D"fga2 "G"Bcd2 | "Em7"e3f "A7"e2c2 |\
+"D"d2D2 F2A2 | "G"Bcd2 "A"c2ag |\
+"D"f2d2 "A7"e2c2 | "D"d4- d2 :|
+|:\
+fg | "D"a2 f4 a2 | "Bm"f2 d4 ef |\
+"Em"gfed c2 d2 | "A7"e6 fg |\
+"D"a2f2 d2 f2 | "D"A2d2 F2A2 |\
+"A7"d3e e3d | "D"d6 :|
+
+X:30
+T:Jacob Hall's Jig
+T:to the tune of Under and Over
+M:6/8
+L:1/8
+Q:C3=128
+B:The Round Band Book of Playford
+K:Gm
+"Gm"G2 g "F"f2 =e|"Bb"d3 c3|"Gm7"B>cd "C7"c2 B|"F"A3 "Dm"F3|\
+"Gm"G2 g f2 g|"Dm"a3 "Bb"d2 d|"C"=e>fg "Dm"g f2|"Gm"g3-g2 z:|
+|:\
+"Dm"f2 f f>=ed|"C"c2 c "F"c2 A|"Gm7"B>cd "C7"c2 B|"F"A3 F3|\
+"Gm"G2 g f2 g|"Dm"a3 d2 d|"C"=e>fg "Dm"g f2|"Gm"g3-g2 z:|
+
+X:31
+T:Jamaica
+M:2/2
+L:1/8
+B:The Round Band Book of Playford
+K:F
+"F"F2A2 A2Bc | "Bb"d2"F"c2 "Bb"d4 |\
+"F"c2A2 "Dm"A2GF | "C7"G4 "F"F4 |\
+"F"F2A2 A2Bc | "Dm"d2"Am"c2 "Dm"d4 |\
+"Am"c2A2 "Bb"A2GF | "C7"G4 "F"F4 ||
+"Dm"f2f2 "Am"e2dc | "Bb"d2d2 "F"c2A2 |\
+"Dm"f2f2 "C"efg2 | "G7"d4 "C7"c4 |\
+"F"f2f2"C7"e2dc | "Dm"d2d2 "Am"c2A2 |\
+"Gm"Bcd2 "F"c2"Bb"BA | "C7"G4 "F" F4 ||
+
+X:32
+T:Jenny pluck Pears
+M:6/8
+L:1/8
+Q:120
+B:The Round Band Book of Playford
+K:F
+"Gm"G2G "F"A>Bc | "Gm"B>AG "Dm"F2D |\
+"Gm"G2G "F"A>Bc | "Gm"B>AG "Dm"F2D |\
+"Bb"d2d "F"c2A | "Gm"B>AG "Dm"F2D |\
+"C"E>FG "F"F>EF | "Gm"G3 G3 :|
+M:3/4 L:1/4 Q:100ÿ
+"Gm"Gdc | "Gm"B2"F"A | "Gm"Gd"F"c |\
+"Gm7"B2 "F"A | "Gm"Gd"F"c |\
+"Bb"B>A"Gm"G | "F"F>EF | "Gm"G3 ||
+
+X:33
+T:Juice of Barley
+M:6/8
+L:1/8
+B:The Round Band Book of Playford
+K:Am
+"Am"A2A "F"e2d | "G"efg "C"G2G | "F"A2A "Dm"e2c | "Am"A3 c3 |\
+"F"A2A "G"e2d | "C"efg G2G | "F"A2A "G"e2c | "Am"A3 c3 |]
+|:\
+"C"c2c c2B/2c/2 | "G" d2d d2d | "C"e2e "F"a2g | "C"e3 "G"g3 |\
+"Am"c2c "F"c2B/2c/2 | "G"d2d "F"d>ef | "F"e>dc "G"BcG | "Am"A3 c3 :|
+
+X:34
+T:Lilli Burlero
+M:6/8
+L:1/8
+Q:C2=122
+B:The Round Band Book of Playford
+K:G
+"G"G>AG B2B | "Am"A>BA "D7"c3 |\
+"G"BdG "Am"c2B | "D7"AGF "G"G3 |\
+"Em"G>AG "G"B2B | "D"A>BA "C"c3 |\
+"G"BdG "Am"c2B | "D7"AGF "G" G3 |]
+|:\
+"G"g2 f g2d | "F"=f2f "C"e2d |\
+"C"e^fg "G"g2d | "C"edB "D"A3 |\
+"C"edc "G"Bcd | "C"edc "G"Bcd |\
+"Em"edB "Am"c2B | "D7"AGF "G"G3 :|
+
+X:35
+T:Lull Me Beyond Thee
+M:6/8
+L:1/8
+B:The Round Band Book of Playford
+K:F
+"Dm"A2A "F"f>ef | "C"gfg "F"a3 | "Dm"A2A "Gm"f>ed | "A"^c3 "Dm"d3 |\
+"F"A2A "Bb"f>ef | "Gm"g>fg "A"a3 | "Dm"A2A "Gm"f>ed | "A"^c3 "Dm"d3 |]
+|:\
+"F"f2f "C"g>fg | "F"a>ba "C"g2c | "F"f2f "C"gfg | "F"a3 "C"g3 |\
+"F"a>ba "C"g>fe | "Dm"f>ed "Am"a3 | "F"A2A "Gm"f>ed | "A"^c3 "Dm"d3 :|
+
+X:36
+T:Mad Robin
+M:2/2
+L:1/4
+B:The Round Band Book of Playford
+K:Bb
+d | "Bb"f d2 g | "Bb"f B2 c | "Gm"de/2d/2 "Cm"cB | "F"c/2B/2A/2G/2 F2 |\
+"Bb"f "Eb"d2 g | "Bb"f "Gm"B2 c | "F"d e/2d/2 "F7"c>B | "Bb"B3 :|
+|:\
+f | "Gm"b>a "F"gf | "Gm"g d2 =e | "Dm"dg "D7"g>^f | "Gm"g3 f |\
+"F"f e2 d | "Bb"f d2 "Gm"c/2B/2 | "Cm"AG "F7"c>B | "Bb"B3 :|
+
+X:37
+T:Mage on a Cree
+M:6/8
+L:1/8
+Q:120
+B:The Round Band Book of Playford
+K:F
+"Gm"G>cd/2e/2 "F"f2c | "F"A2F c2A | "Bb"B>cd d>cd | "Gm"B>AG d2G |
+"Gm"G>cd/2e/2 "F"f2c | "F"A2F c2A | "Bb"B>cd e>fg | "D7"^f>ef "Gm"g2G :|
+
+
+X:38
+T:The Maid In The Moon
+T:to the tune of All In A Garden Green
+M:2/2
+L:1/8
+B:The Round Band Book of Playford
+K:G
+"G"d4 "D"d2d2 | "Em"B3c "D"d2d2 |\
+"C"e2d2 "Am"c2B2 | "D"A6B2 |\
+"C"c3d efg2 | "G"G3A Bcd2 |
+"Am7"c2B2 "D7"AGAB | "G"G6z2 ::\
+"G"d2dd d2d2 | "C"e2"D7"f2 "G"g4 |\
+"Em"B2BB B2G2 | "Am"A2B2 "D7"c4 |
+"G"B3A GAB2 | "Am"c3B "D7"ABc2 |\
+"G"d3c Bcd2 | "C"e3d cdBc |\
+"Am"A2G2 "D"G2F2 | "G"G6z2 :|
+
+X:39
+T:Maids' Morris
+M:2/2
+L:1/4
+B:The Round Band Book of Playford
+K:C
+G |\
+"C"cc "F"A/2B/2c | "G"B d2 c/2B/2 |\
+"Am"cA "D7"A^f | "G"g3 :: \
+g- |\
+"F"a "G7"f2 f- | "C"g e2 e-|
+"Dm"fA "F"Ad | "G"BG Gg |\
+"F"a/2g/2f "G7"fe/2f/2 | "C"g/2f/2e/2d/2 cd |\
+"G"BG "G7"ge | "C"c3 :|
+
+X:40
+T:The Merry Andrew
+M:C|
+L:1/8
+S:Maggot Pie
+B:The Round Band Book of Playford
+K:Am
+"Am"A3B c2d2 | "Em"e4 "Am"a4 | "C"g2a2 e2g2 | "Bm"^f2gf "Em"edcB |\
+"Am"c3d e2^f2 | "Em"g4 "G"b4 | "D7"a2^f2 "A7"g2e2 | "D"d8 :|
+|:\
+"C"e3d cde^f | "G"g3d "Em"g4 | "Am"c3B ABcd | "E7"e3B e4 |\
+"Am"A3G "D"^FGAB | "A"c3d e3"D"^f | "Em"g2d2 d2B2 | "Am"A4 A4 :|
+
+X:41
+T:The Merry Merry Milk Maids
+M:6/8
+L:1/8
+Q:120
+B:The Round Band Book of Playford
+K:C
+c |\
+"C"c>dc G2g | "C"e3-e2 c |\
+"C"cdc "C7"G2_B | "F"A3-A2 F |\
+"F"F>GA/2B/2 "C"c2A | "Dm"d>cB/2A/2 "G"G2g |\
+"C"e>fg "G7"d2c | "C"c3-c2 ||
+c |\
+"C"e>fg g>ag | "C7"e>fg g>fe |\
+"F"f2g "G7"a2b | "C"c'6 |\
+"C"c'2g e>fg | "F"a2f "G7"d>ef |
+"C"g2e c>de | "G"d2B G>AB |\
+"C"c2c "F"A>Bc | "D7"d2c "G"B>AG |\
+"C"c>de "G7"d2c | "C"c3-c2 ||
+
+X:42
+T:Mr Beveridge's Maggot
+M:3/2
+L:1/8
+B:The Round Band Book of Playford
+K:Gm
+"Gm"g4 "D"^f3=e/2f/2 "Gm"g4 | "D"d2cB "D7"ABc2 "Gm"B2G2 |\
+"Eb"g4 "F7"a3g/2a/2 "Bb"b4 | "F"f2ed "F7"cde2 "Bb"d2B2 :: \
+"Bb"d2 f4f2 "F"f4 | "Cm"c2 e4e2 "F"e4 |
+"Gm"B2 d4d2 d2cB | "Cm"ABc2 "Gm"B2AG "D"^F2D2 |\
+"D"d2 a4a2 a2d2 | "Gm"b2a2 "D7"g2^f2 "Gm"g4 |\
+"Bb"de=f2 "Gm"Bcd2 "Cm"ABc2 | "Gm"B2G2 "D7"G3^F "Gm"G4 :|
+
+X:43
+T:Mr Isaac's Maggot
+M:3/2
+L:1/4
+Q:200
+B:The Round Band Book of Playford
+K:C
+"C"g2 e2 "Dm"d2 | "C"c/2d/2e "Dm"dc "G"dG |\
+"C"G c2B "F"A2 | "Dm"A d2A "G"BG |\
+"C"g2 e2 "G"d2 | "Am7"c/2d/2e "Dm"dc "G"dG |\
+"C"Gc2B "F"Af/2e/2 | "Dm"dc "G7"dB "C"c2 ||
+"C"EG2 "G7"A "C"G2 | "C"EG2 "F"A/2B/2 "C"cG |\
+"Am"EG2 "G7"A "C"G2 | "Am"EG2 A/2B/2 "C"c "G"G |\
+[L:1/8] \
+"C"g3f/2g/2 "F"a3g/2f/2 "C"g3f/2g/2 | "Am"agfe "Dm7"fedc "G"d2G2 |
+"C"g3f/2g/2 "Am"a3g/2f/2 "Em"g3f/2g/2 | "F"agfe "G7"defg "C"e2c2 |\
+"Am"e4 "F"f3e/2f/2 "C"g4 | "Am"cde2 "Dm"d2c2 "G7" d2G2 |\
+"C"e4 "G7"f3e/2f/2 "C"g4 | "C"G2c2 "Dm7"cde2 "G"d2"(C)"c2 ||
+
+X:44
+T:My Lord Byron's Maggot
+M:6/8
+L:1/8
+B:The Round Band Book of Playford
+K:D
+A | "D"AFA AFA | "D"AFA A2d |\
+"D"dAd dAd | "D"dAd d2d |\
+"D"fga "A7"efg | "D"fga "A7"efg |
+"D"fga "E7"a2^g | "A"a3 a2 :|\
+a | "D"fdd "A7"gee | "D"fdd "A7"gee |\
+"D"fdd "G"g>ag/2f/2 | "A"e3 e2f/2g/2 |
+"D"a2z "A7"g2z | "D"f2z "A7"e2z |\
+"D"f2z "G"g2z | "D"f2z "A"e2a |\
+"D"f/2g/2ad "A7"eAa | "D"f/2g/2ad "A7"eAa |\
+"G"f>ed "A7"ee2 | "D"d3 d2 ||
+
+X:45
+T:Never Love Thee More
+M:6/8
+L:1/8
+B:The Round Band Book of Playford
+K:G
+E | "G"D>ED "Am7"G2A | "G"B>cB "C"A2G |\
+"G"dB2 "C"A2G | "Am"E3 "D7"E2E |\
+"G"D>ED "Em"G2A | "G"B>cB "C6"A2G |\
+"G"dB2 "C"c2d | "C"e3 e2e |
+"G"dB2 "C"A2G | "Am7"c2d "C"e>dc |\
+"G"dBc A2G | "Am"E3 "D7"E2E |\
+"G"D>ED G>AG | "G7"Bcd "C"e>dc |\
+"G"dBc "C7"A2G | "G"G3 G2 ||
+
+X:46
+T:Newcastle
+M:4/4
+L:1/8
+Q:200
+B:The Round Band Book of Playford
+K:G
+A | "G"B2d2 "D7"G2A2 | "G"G3A G2D2 | "G"B2d2 G2d2 | "C"e2 g4 fe |\
+"G"d2B2 A2G2 | "C"E2 e4 dc | "G"d2B2 "D7"A3G | "G"G6 :|
+|:\
+ef | "G"gfed g3B | "Am"A2 g4 A2 | "Em"G3A "Bm"B2F2 | "Em"E2 e4 f2|\
+"G"gfed g3B | "Am"A2A2 c3d | "C"e2B2 "D7"A3G | "G"G6 :|
+
+X:47
+T:Nonesuch
+M:C|
+L:1/4
+Q:120
+B:The Round Band Book of Playford
+N:Almost the same as "A la Mode de France"
+K:C
+a |\
+"Dm"af ga | "Dm"fe/2f/2 da | "Dm"af ga | "Dm"f2 fa |\
+"F"af ga | "Dm"fe/2f/2 da | "F"af ga | "Dm"f2 de ||
+"C"ec de | "Dm"fe/2f/2 de | "Am"ec de | "Dm"f2 de |\
+"Am"ec de | "Dm"fe/2f/2 de | "Am"ec de | "Dm"f2 d |]
+
+X:48
+T:The Old Mole
+M:6/8
+L:1/8
+Q:120
+B:The Round Band Book of Playford
+K:G
+"G"G2G "C"E>FG | "D"A2F D2D | "G"G2G "C"E>FG | "D"A3 d3 |\
+"Em"B2G E>FG | "D"A2F "Bm"D2D | "Am"E>FG "D7"F>EF | "G"G3 G3 :|
+
+X:49
+T:Old Noll's Jig
+M:6/8
+L:1/8
+B:The Round Band Book of Playford
+K:F
+E | "Dm"FED "Bb"D2E | "Dm"FED D2d |\
+"Am"^c2d "Dm"A2d | "Gm"^c2d "Dm"A2E |\
+"Dm"FED "Gm"D2E | "Dm"FED D2e |\
+"Dm"fed "E7"c>=BA | "Am"A3 A2 :|
+c | "F"ABc F2c | "F"ABc F2f |\
+"Bb"def B2d | "Gm"Bcd G2g |\
+"C"efg "C7"c2e | "F"fga "Bb"B2a |\
+"Gm"bag "C7"g3 | "F"f3 f2 ||
+a | "Dm"fga "Bb"def | "Gm"efg "A"^cde |\
+"Dm"def "Gm"efd | "A"^c3 A2a |\
+"Gm"bag "Dm"aAa | "Gm"bag "Dm"aAa |\
+"Gm"bag "A7"f>ed | "Dm"d3 d2 |]
+
+X:50
+T:Oranges and Lemons
+M:4/4
+L:1/8
+B:The Round Band Book of Playford
+K:D
+A2 | "A"d2e2 afed | "G"e3d "A7"B3A | "D"d3f afed | "A7"e3f "D"d2 :: \
+ga | "G"b6 fg | "D"a6 fe | "D"d3f afed | "G"e3d "A7"B3A |
+"Bm"d3f "Em"afed | "A7"e3f "D"d2ga | "G"b6 fg | "F#m"a6 fe |\
+"Bm"d3 f afed | "E7"e3d "A7"B3A | "D"d3f afed | "A7"e3f "D"d4 :|
+
+X:51
+T:Orleans Baffled
+M:3/2
+L:1/4
+Q:250
+B:The Round Band Book of Playford
+K:D
+"D"d2 a2 f2 | "Em"gb2 B "A7"cA |\
+"D"dc/2d/2 "A7"ed/2e/2 "D"fe/2f/2 | "G"gf/2g/2 "A7"ea "D"fd |\
+"A"A2 e2 c2 | "Bm"df2 F "E7"^GE |
+"A"A^G/2A/2 "E7"BA/2B/2 "A"cB/2c/2 | "D"dB/2c/2 "E7"Be "A"cA |\
+"D"Ad "D7"d=c "G"BG | "E"Be "E7"ed "A"cA |\
+"Bm"dc/2d/2 "A7"eA "D"fA | "Em"gB "A7"ec "D"d2 ||
+
+X:52
+T:Parsons farewell
+M:C|
+L:1/8
+Q:200
+B:The Round Band Book of Playford
+K:F
+e |\
+"Dm"f2d2 d2ef | "C"g2c2 c3c |\
+"Bb"def2 e2 d2 | "F"c2A2 A4 :: \
+a2 |\
+"Dm"f4 f2a2 | "F"f4 f2a2 |
+"Dm"fga2 fga2 | "C"g2e2 e4 |\
+"C"efg2 efg2 | "Dm"f2d2 "Bb"defg |\
+"F"a2gf "C"ede2 | d6 :|
+
+X:53
+T:The Phoenix
+M:C|
+L:1/8
+Q:C4=130
+B:The Round Band Book of Playford
+K:F
+"F"f2 c2 A2 F2 | "C7"cdef g2 e2 |\
+"F"fg a2 "Bb"g2 f2 | "C7"e3 d/2e/2 "F"f4 :|
+|:\
+"F"f2 c2 A2 F2 | FGAB c2 A2 |\
+"Bb"dBcA "Gm"BGAF | "C7"E3 D/2E/2 "F"F4 :|
+
+X:54
+T:Picking up Sticks
+T:to the tune of Lavena
+M:6/8
+L:1/8
+Q:120
+B:The Round Band Book of Playford
+K:F
+d | "Dm"d2d "A7"^c>=Bc | "Dm"d2d A2A |\
+"Bb"d2d "A7"^c>=Bc |"Dm"d3 A2_B |
+"Gm"B>dc "C7"B>cB | "F"A>BA "C"G>FE |\
+"Dm"F>GA "Gm"G>AF | "Am"E3 "Dm"D2 :|
+
+X:55
+T:The Queen's Jig
+M:6/8
+L:1/8
+Q:C6=116
+B:The Round Band Book of Playford
+K:D
+A | "D"d2e fef | "G"g3 "D"fga | "Bm" fgf "Em"e2d | "A7"e3 A2A |\
+"D"d2e fef | "G"g3 "D"fga | "D"fgf "A7"e2d | "D"d3-d2 :|
+|:\
+a | "D"aba "G"g2f | "A7"g3 "D"fga | "Bm"fgf "Em"e2d | "A7"e3 A2a |\
+"D7"aba "G"g2f | "G"g3 "D"fga | "A"fgf "A7"e2d | "D"d3-d2 :|
+
+X:56
+T:The Round
+T:to the tune of Mr Lane's Maggot
+M:2/2
+L:1/8
+B:The Round Band Book of Playford
+K:F
+"Dm"a4 "Am"g4 | "Dm"f2gf "Am"e2A2 | \
+"Bb"defg "A"e2A2 | "Bb"defg "A"e2A2 |\
+"F"a2ba "C"g2ag | "Dm"f2gf "Am"e2A2 | \
+"Gm"defg "A7"e2^c2 | "Dm"d4 :|
+|:\
+"F"F2A2 "Dm"F2A2 | "F"F2A2 "Dm"F2A2 |\
+"Gm"A2GA "F"F2A2 | "Bb"A2GA "Dm"F2A2 |\
+"F"FGAG "Gm"FGAG | "F"FGAG "Bb"FGAf |\
+"Gm"e2d2 "A7"e2^c2 | "Dm"d4 :|
+
+X:57
+T:Rufty tufty
+M:C|
+L:1/4
+Q:180
+B:The Round Band Book of Playford
+K:G
+d | "D"d2 de | "D"f2 ef | "G"gg "A7"f>e | d4 :: \
+"G"gf ed | "D7"dc "G"B>c | "G"dd "Am"cB | "D7"A2 "G"G2 :|
+|:\
+"G"B>c dd | "C"ec "G"d2 | "G"B>c dd | "C"ecd "G"B/2c/2 |\
+"G"dd cB | "D"A2 "G"G2 :|
+
+X:58
+T:Sellenger's Round
+M:6/8
+L:1/8
+B:The Round Band Book of Playford
+K:C
+"G"G3 G>AB | "C"c3 c>de | "F"d2c "G"B>AB | "C"c6 |\
+"G"G2G G>AB | "C" c3 "Am"c>de | "Dm"d2c "G"B>AB | "C" c3-c2 :|
+|:\
+d | "Am"e3 e>dc | "Dm"d3 d2d | "G"B>cd d>cB | "D"A3 d2B |\
+"C"c>dc "G"B2G | "D7"A>Bc "G"B2G | "C"A2G "D7"^FEF | "G"G3-G2 :|
+
+X:59
+T:The Shrewsbury Lasses
+M:C|
+L:1/8
+Q:C4=122
+B:The Round Band Book of Playford
+K:D
+(3ABc | "D"d2 "A"A4 G2 | "Bm"F2 D4 F2 |\
+"Em"E2 G2 "A7"F2 E2 | "D"F2 D2 F2 A2 |
+"Bm"d2 "E7"f4 d2 | "A"c2 e4 A2 |\
+"Bm"B2 d2 "E7"B2 ^G2 | "A"A6 ::\
+(3ABc | "G"d2 B4 G2- | "Em"G2 E4 "Am"a2- |\
+"D"a2 f4 d2- | "Bm"d2 B4 b2- |
+"Em"b2 g4 e2- |  "A7"e2 c4 A2 |\
+"G"G2 B4 G2 | "D"FG A2 F2 D2 |\
+"G"G2 B4 G2 | "D"F2 A2 d2 f2 |\
+"Em"f2 e2 "A7"d2 c2 | "D"d6 :|
+
+X:60
+T:Sion House
+M:3/2
+L:1/4
+B:The Round Band Book of Playford
+K:F
+"F"Fc "C7"AG/2F/2 "F"c2 | "Gm7"f>edg "C"ed/2c/2 |\
+"F"fc "Gm"dc/2B/2 "Dm"AD | "Gm"Be "Gm7"d2 "C7"c2 :|
+|:\
+"Gm"g>a gf/2e/2 "C7"de | "F"fc2d "Bb"BA |\
+"Bb"B>A Bc dA | "F"A3G "C"G2 |
+"F"cA2"Gm"d "F"cf | "Gm"dg2d "C7"ed/2c/2 |\
+"F"fc2"Gm"b "Bb"ag | "C7"g3f "F"f2 :|
+
+X:61
+T:Step Stately
+T:to the tune of Jack Pudding
+M:6/8
+L:1/8
+Q:100
+B:The Round Band Book of Playford
+K:Gm
+D | "Gm"G2 G "F"A2 F | "Gm"B G2 "Cm"c2 A |\
+"Gm"d B2 "Cm"A2 G | "Gm"G3-G2 D |\
+"Cm"G2 G "F7"A2 F | "Gm"B G2 "Cm"c2 A |\
+"Bb"d B2 "F"A2 G | "Gm"G3-G2 ||
+g | "Bb"f d2 "F"e2 c | "Bb"d B2 "Cm"c2 A |\
+"Gm"B G2 "F"A F2 | "Bb"B3-B2 B |\
+"F"c A2 "D"d2 A | "D"^F D2 "Gm"B2 "Cm"c |\
+"Bb"d B2 "F"c A2 | "Gm"G3-G2 |]
+
+X:62
+T:A Trip to Kilburn
+T:to the tune of Black and Grey
+M:2/2
+L:1/8
+Q:250
+B:The Round Band Book of Playford
+K:C
+"Am"A2A2 "Dm"d2B2 | "Am"c4 A2d2 |\
+"G"B4 G2g2 | "G"B4 G4 |\
+"Dm"A2A2 "G"d2B2 | "C"c3B "F"A2d2 |\
+"G"B2G2 BcdB | "Am"A4 e4 :|
+|:\
+"Am"a2e2 "Dm"fedc | "Am"a2e2 "Dm"fedc |\
+"G"g2d2 "Dm"BcdB | "G"g2d2 BcdB |\
+"Am"a2e2 "Dm"fgag | "Am"agfe "Dm"fedc |\
+"G"B2G2 BcdB | "Am"A4 e4 :|
+
+X:63
+T:A Trip To Paris
+M:C|
+L:1/8
+Q:C2=128
+B:The Round Band Book of Playford
+K:C
+A2 |\
+"Am"c3 d e2 e2 | c3 d e2 e2 |\
+c2 e2 c2 e2 | "Dm"c2 Bc A2 A2 |\
+"Am" c3 d e2 e2 | "Dm"c3 d e2 e2 |\
+"Am"c2 A2 "E7"B2 ^G2 | "Am" A4 A2 ||
+e2 |\
+"F"a4 a2 ^g2 | "Am"a2 =gf e2 e2 |\
+"F"a4 a2 ^g2 | "Am"a2 =gf e2 e2 |\
+"Dm"f3 e "G"d2 g2 | "C"e6 f2 |\
+"Dm"d6 e2 | "Am"c6 d2 |
+"Dm"d2 c2 "G7"d2 B2 | "C"c6 c2 |\
+"Dm6"B2 c2 d2 e2 | "Am"c2 Bc A2 c2 |\
+"Dm6"B2 c2 d2 e2 | "Am"c2 Bc A2 c2 |\
+"C"A2 F2 G2 A2 | "G" B4 "F"a4 |\
+"C"e2 dc "E7"d2 cB | "Am"A6 ||
+
+X:64
+T:The Twenty-Ninth of May
+M:2/2
+L:1/8
+Q:200
+B:The Round Band Book of Playford
+K:D
+f2 |\
+"D"a2f2 "A7"g2"D"f2 | "Em"edcB "A"A2f2 |\
+"Em7"g2B2 "A7"c3B/2c/2 | "D"d6 f2 |\
+"D"a2f2 "A7"g2"D"f2 | "Em"edcB "A"A2f2 |\
+"G"g2B2 "A7"c3B/2c/2 | "D"d2A2 F2ED ||
+"D"F2A4 GF | "G"G2B4 B2 |\
+"A"cde2 cde2 | "A"c2Bc A2de |\
+"D"f2ef d2ef | "Em"g2fg "A7"e2fg |\
+"D"a2B2 "A7"c3B/2c/2 | "D"d6 |]
+
+X:65
+T:Upon A Summer's Day
+M:6/8
+L:1/8
+B:The Round Band Book of Playford
+K:Bb
+d | "Gm"d2d B2G | "Gm"d3 d2=e/2f/2 | "Cm"g2f "F7"g2a | "Bb"b3 b2B |\
+"Gm"B2B A2G | "F"f3 "Bb"g3 | "Dm"a2B "F"A2G | "Gm"G3 G2 :|
+|: a |\
+"Dm"a2a f2d | "Dm"a3 a2f | "Gm"g2f "F7"g2a | "Bb"b3 b2B |\
+"Gm"B2B "Am"A2G | "Dm"f3 "Gm"g3 | "Dm"a2B "F"A2G | "Gm"G3 :|
+
+X:66
+T:The Wherligig
+T:to the tune Woodicock
+M:6/8
+L:1/8
+Q:110
+B:The Round Band Book of Playford
+K:Dm
+A |\
+"Dm"d2d f>ed | "Am"c2A c2c | "Dm"d2d f>ed | "Am"cAA A2A |\
+"Dm"d2d f>ed | "Am"c2A c2c | "Dm"d2d f>ed | "Am"cAA A |]
+|: d |\
+"F"c2B c>BA | "Gm"BGG G2G | "Am"AAA A>Bc | "Dm"dDD D2d |\
+"F"c2B c>BA | "Gm"BGG G2G | "Am" AAA A>Bc | "Dm"dDD D :|
+

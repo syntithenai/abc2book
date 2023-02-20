@@ -1,0 +1,17 @@
+X: 33
+T: Top of Cork Road
+T: Father O'Flynn
+R: jig
+B: NEFR #33
+B: Ryan/Cole
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: The note values aren't right between the parts.  Any of the usual initial pickup notes fixes it.
+M: 6/8
+L: 1/8
+K: D
+c- \
+| "D"dAF DFA | "G"Bed "A7"cBA | "D"dcd "A7"ede | "D"faf "A7"ecA \
+| "D"dAF DFA | "G"Bed "A7"cBA | "D"dcd "A7"ede | "D"fdd d2 :|
+|: g \
+| "D"fdf fga | "A7"ece efg | "Bm"dcd fed | "F#m"cAA A2=c \
+| "G"BGB Bcd | "D"AFA ABc | "G"dcd "A7"efg | "D"fdd d2 :|

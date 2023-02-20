@@ -1,0 +1,19 @@
+X: 976
+T: the Hunt   #2
+O: Ireland
+R: reel; long dance, set dance
+%S: s:3 b:13
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #976
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0976/oneill-1001-0976-1.abc
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2 BA2
+M: C|
+L: 1/8
+K: G
+%%continueall
+D2 "^A"|:\
+GABG AGEG | Tc2(ce) dcBA | GABA GED [1,3 G | EAAG AcBA :|[2,4 E | G2GG !fine!G2 "^B":: D2 |
+GABc d2(de) | =f2f2 f2(ed) | e2e2 efge | d2de d2(cB) |
+cBcd edcB | A2AB A2G2 | g2g2 gedB | A2AB A2"^->A2"(GE) |]

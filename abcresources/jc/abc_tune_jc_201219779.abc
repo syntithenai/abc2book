@@ -1,0 +1,21 @@
+X: 29
+T: the Caledonian Hunt
+%R: strathspey, reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.12 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The original does break the staffs inside measures, though slightly more oddly than here.
+M: C
+L: 1/16
+K: D
+A2 |\
+F3Ad2A2 Bd3A3F | G2B2A2F2 B2E2E3G |\
+.F2.A2.d2.A2 .B2.d2.A2.F2 | GB3A3G F2D2-D3G |\
+F3Ad2A2  Bd3A3F | GB3TA3F
+B2E2-E3G |\
+F3A d3A Bcd2 A2G2 | F2A2 E3g f2d2d2 |[| f2 |\
+(defg) a3f b3ga3f | (defg) a3f ge3e3f |\
+(defg) a3f
+b3ga3f | Aa3a3g f2d2d3f |\
+(defg) a3f b3ga3f | (defg) a3f g2e2e3g |\
+f3de3f d3BA3F | A3Bd3e f3dd2 |]

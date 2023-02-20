@@ -1,0 +1,22 @@
+X: 21802
+T: GRAMACHREE
+O: Irish air.
+Q: "Slow."
+%R: air, hornpipe
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.180 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+c>dc>A ~d>ef>{e}d | c>AG>A F2zc |\
+f>efg fe{e}dc | d>cfA c2zc |\
+f>efg fe{e}dc | d>cBA d2 z(3(c/e/g/) |\
+f>e{e}dc deHf>{gag2f2e2}d !p!| "^>"c>AG>A F2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The song by Sheridan, "Had I a heart for falsehood framed," is sung to the above air.
+%%endtext
+%%sep 1 1 300

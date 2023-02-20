@@ -1,0 +1,15 @@
+X: 1845
+T: the Battle of Aughrim
+R: march
+%S: s:5 b:22(4+3+6+4+5)
+B: O'Neill's 1850 #1845
+Z: Bob Safranek, rjs@gsp.org
+Z: There is no way to duplicate the notation of the grace notes in bar 8
+M: 2/4
+L: 1/16
+K: G
+[| (ABAG) (ABAE) | (ABAG) (ABAE) | (ABAG) (ABAE) | (ABAG) (ABAE) |
+ ((3AGA) ((3AGA) ((3AGA) A>E | ((3AGA) ((3AGA) ((3AGA) A>E | ((3AGA) ((3AGA) ((3AGA) A>E |
+ {D/E/F/GA}B3c d3e | d2e2 d2f2 | d2e2 d2f2 | d2e2 d2e2 | Td8 | cBAG HE4 |
+ (ABAG) (ABAE) | (ABAG) (ABAE) | (ABAG) A>E | ((3AGA) ((3AGA) ((3AGA) A>E |
+ ((3AGA) ((3AGA) ((3AGA) A>E | (GABc) d3e | d3e d2f2 | d2e2 d4 | (cBAG) HE4 |]

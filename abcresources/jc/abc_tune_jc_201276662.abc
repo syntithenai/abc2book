@@ -1,0 +1,40 @@
+X: 2
+T: The Flogging
+R: reel
+M: 4/4
+L: 1/8
+K: Gmaj
+|:B~G3 BGdG|B~G3 (3Bcd gd|B~G3 BdcB|AGFG ABcA:|
+|:~g3d BGBd|~g3d fgaf|~g3d BGBd|AGFG ABcA:|
+|: (3Bcd gd Bdgd|Bdgd BGG2|Ac=fc Ac=fc|Ac=fc A=FF2|
+(3Bcd gd Bdgd|Bdef ~g3a|bgaf gdBd|AGFG ABcA|]
+T:Ivy Leaf, The
+R:reel
+H:2 versions. 3rd version: #194. Version in Emix: #696
+D:Mary Bergin: Feadoga Stain 2
+D:Cran: The Crooked Stair
+Z:id:hn-reel-190
+M:C|
+K:Amix
+A2ed cdec|AEAe dBGB|A2ed cdec|1 AGEF GABG:|2 AGEF GABd||
+|:eaag ed (3Bcd|~g3d BGBd|1 eaag edcB|AGEF GABd:|2 ~A3B =cBcd|(3efg fa gedB||
+"Version 2:"
+~A3e cAec|Ae~e2 dBGB|A2ed (3Bcd ed|BGEF GA (3BAG|
+Ae~e2 ae~e2|Ae~e2 dBGB|A2ed (3Bcd ed|BGEF GA (3Bcd||
+eaag ed (3Bcd|~g3d BGBd|1 eaag edcB|AGEF GA (3Bcd:|2 ~A3B =cBcd|(3efg fa gedB||
+T:Trim the Velvet
+R:reel
+S:Mary Bergin
+H:Similar to "Kiss the Maid behind the Barrel", #549
+D:Mary Bergin: Feadoga Stain 2.
+Z:id:hn-reel-2
+M:C|
+K:G
+~G3B AGFD|GBdB BAFA|~G3B AGFA|defd cAFA|
+~G3B ~A3c|BcdB BAFA|~G3B AGFA|defd cAFA||
+dgeg dg~g2|dedB cAFA|dgeg dg~g2|defd cAFA|
+d3e dBGB|dGBd cAFA|dgeg dg~g2|defd cAFA||
+~g3a bgaf|g2ab c'baf|g2af g2af|defd cAFA|
+~g3a bgaf|g2ab c'ba2|bg~g2 af~f2|defd cAFA||
+BGdG BG~G2|(3BAG dB cAFA|BGdG BG~G2|defd cAFA|
+BGdG BG~G2 |DGBd cAFA|~B3G c2ce|defd cAFA||

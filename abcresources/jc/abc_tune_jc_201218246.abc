@@ -1,0 +1,50 @@
+X: 0081
+T: BROOKLYN WALTZ
+C: Composed by S. Knaebel
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.8-9
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+V: 1 clef=treble nm="FIRST CORNOPEAN\nor BUGLE in Bb"  snm="B1"
+V: 2 clef=treble nm="SECOND CORNOPEAN\nor BUGLE in Bb" snm="B2"
+V: 3 clef=bass middle=d nm="TROMBONE"   snm="T"
+V: 4 clef=bass middle=d nm="OPHICLEIDE" snm="O"
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+U: P=!crescendo(!
+U: p=!crescendo)!
+K: Eb
+%----------
+V: 1
+K: F
+|: !p!c4(AB) | c4(dc) | ((3cdc)B2B2 | ((3BcB)A2A2 | (AG^FGAG) | (=Fd)c4 | (AG^FGAG) | =F4z2 :|
+|: !f!(GAG^F)G2 | c2G4 | d2G2d2 | e4(c=B) | A2(=B^c).d.e | f3.e.d.c | =B2g2B2 | c4z2 :|
+|: !p!(A_B)c4 | d3(cB).A | G3(dc).B | (dc)A4 | (A_B)c4 | d3(cB).A | G3(dc)E | F4"_FINE"z2 :|
+K:Bb
+"TRIO"\
+|: !p!B4(dB) | A4(BA) | G3(AB).G | F4z2 | _E3(GF).E | (DF)B4 | A(B=Bcd)c | "_D.C. al fine"B4z2 H:|
+%----------
+V: 2
+K: F
+|: !p!A4(FG) | A4(BA) | ((3ABA)G2G2 | ((3GAG)F2F2 | z2E2E2 | F2A4 | E2z2E2 | F4z2 :|
+|: !f!E2E2E2 | E2E2E2 | F4F2 | z2G2E2 | F2F2FG | A6 | F2z2F2 | E4z2 :|
+|: !p!(FG)A4 | _B3(AG).F | E3(BA).G | (BA)F4 | (FG)A4 | B3(AG).F | E2z2G2 | F4z2 H:|
+K:Bb
+|: !p!z2F2F2 | z2F2F2 | _E3(FG)E | D4z2 | F3zz2 | z2F4 | F2z2F2 | F4z2 :|
+%----------
+V: 3
+K: Eb
+|: !p!z2b2b2 | z2b2b2 | z2b2b2 | z2b2b2 | z2b2_a2 | g2e4 | a2z2a2 | g4z2 :|
+|: !f!b2b2b2 | b2b2b2 | =a2c'2f2 | b4b2 | c'2c'2c'2 | c'2c'2c'2 | c'2z2c'2 | b4z2 :|
+|: !p!z2e2b2 | z2e2b2 | z2B2b2 | z2e2e'2 | z2e2b2 | z2e2b2 | a2z2a2 | g4z2 H:|
+K: Ab
+|: !p! z2c'2a2 | z2a2a2 | a2z2a2 | a4z2 | b3(_d'c').b | azc'4 | d'2z2d'2 | c'4z2 :|
+%----------
+V: 4
+K: Eb
+|: !p!e4z2 | e4z2 | d4z2 | e4z2 | B4z2 | e4z2| B2z2B2 | e2E2z2 :|
+|: !f!B2B2B2 | B2B2B2 | =A2A2A2 | B2d2f2 | e2e2e2 | e2e2e2 | f2z2f2 | B4z2 :|
+|: !p!E2z2z2 | E2z2z2 | B2z2z2 | E2z2z2 | E2z2z2 | E2z2z2 | B2z2B2 | E4z2 H:|
+K: Ab
+|: !p!A4z2 | c4z2 | _d2z2d2 | A4z2 | g3zz2 | azA4 | E2z2e2 | A4z2 :|

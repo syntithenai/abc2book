@@ -1,0 +1,14 @@
+X: 1433
+T: Lord Gordon's Reel   #2
+R: reel
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #1433
+Z: Transcribed by Bob Safranek, rjs@gsp.org
+N: Compacted by using labels and play order [JC]
+P: Play ABCB
+M: C|
+L: 1/8
+K: D
+"^A"[|](dB) | AD ((3FED) AD ((3FED) | ADFD A2(GF) | EFGA BE (3({F}EDE) | defd B2 |]
+"^B"[| (AB) | defd efdB | AFDF A2(Bc) | dBcA BGAF | EFGA HB2 |]
+"^C"[| (de) | f>d ((3{e}dcd) fgag | fddf a2(gf) | efga beef | degd "^->B"B2 |]

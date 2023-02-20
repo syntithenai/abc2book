@@ -1,0 +1,28 @@
+X: 20991
+T: PHANTOM SETT (tune 4)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.99 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+FE |\
+D2B2F2d2 | B2f2d2b2 | f2d2 edcB | A2c2c2 FE |\
+D2B2F2d2 | B2f2d2b2 | f=edc c2de | f6 z2 H|]
+(^f2 |\
+g2) =B2c2 =e2 | f2 A2B2 d2 | _e2G2 cdcB | A2c2c2 FE |\
+D2B2F2d2 | e2F2c2B2 | A2g2f2A2 | c4 "^D.C."B2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Forward two cross over,
+%% chassa,
+%% cross back,
+%% all balance four,
+%% next two, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

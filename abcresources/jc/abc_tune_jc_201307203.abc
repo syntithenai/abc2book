@@ -1,0 +1,25 @@
+X: 1
+T: Mariannas vals % av Bj\"orn St\aabi
+C: av Bj\"orn St\aabi
+S: Bruce Sagan's "scanfolk" session archive
+F: https://app.box.com/s/u6iiren0igvsukrhdducy7orq72jayq8/file/763358363601
+R: waltz
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Ddor	% and D
+% - - - - - - - - - -
+"^A"[|] zA2 |:\
+"Dm"d3 (e d^c) | (dA) (FA) df | a3 (b a^g) | "C"a2 (c2 e2) |\
+"A7"g3 (a g^f) | g2 (e^c) eg |[1,3 "Dm"(fe) (df) ag | "A"e4 A2 :|\
+[2,4 "Dm"(fe) (df) "A7"e^c | "Dm"d3 "^fine":|
+"^B"|: ze2 |:\
+"Dm"d3 (^c de) | f2 (d2 B2) | "C"c3 (B cd) | c2 e2 dc | "E"B2 (e2 d2) |\
+[1,3 B2 ^G2 EG | "Am"(Ac) (Bd) cf | "A"e4 e2:|\
+[2,4 "Am"c4 B2 | (A^G) (Ac) "E"Bc | "Am"A3 :|[K:D]
+"^C"|: (B A^F) |:\
+"D"D3 (G FE) | D2 (DF) Ad | (AF) (Ad) fg | a4 (fa) |\
+"A7"(ag) (ea) ge | "D"(gf) (df) ag |\
+[1,3 "A"(eA) (cd) (ef) | "A7"e3 (c AF) :|\
+[2,4 "A7"(ec) e2 ef | "D"d3 :|
+

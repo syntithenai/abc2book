@@ -1,0 +1,28 @@
+X: 20813
+T: COQUETTE SETT (tune 6)
+N: This is a version of the New Rigged Ship
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.81 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="6"
+G |\
+c2c c2e | c2c c2e | dBG G2B | dBG GAB |\
+c2c c2e | c2c dBG | ABc dBG | c3 c2 H|]
+e/f/ |\
+g2e g2e | c2c ceg | a2f a2f | d2d def |\
+g2e g2e | c2c dBG | ABc dBG | c3 "^D.C."c2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across,
+%% -- all balance,
+%% -- all chain,
+%% -- all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

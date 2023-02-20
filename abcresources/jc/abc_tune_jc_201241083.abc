@@ -1,0 +1,32 @@
+X: 422
+T: MISS NAPIER OF MERCHISTON HALL
+C: R. MACKINTOSH
+R: Jig
+B: Glen Collection p.42 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Dm
+%
+V: 1
+A |\
+d3 {f}ed^c | dAG FED | d3 =c=BA | GAF EDC |\
+f3 ed^c | d=cB AGF | (GFG) EAG | FDD D2 :|
+a |\
+bag afd | bag afd | ecg efg | efd gec |\
+bag afd | bag afd | ^cde Aae | fdd d2a |
+bag afd | bag afd | ecg efg | efd gec |\
+def efg | fga gab | agf gfe | fdd d2 |]
+%
+V: 2
+z |\
+d3 [b3g3d3] | [a3f3d3] [a3f3d3] | d3 [a3f3] | c3 g3 |\
+d3 [b3g3d3] | [a3f3d3] [a3f3d3] | c3 ^c3 | d3 [a2f2d2] :|
+z [K: clef=treble]|\
+[G3E3D3] [A3F3D3] | [G3E3D3] [A3F3D3] | C3 [G3E3] | G,3 [G3E3] |\
+[G3E3D3] [A3F3D3] | [G3E3D3] [A3F3D3] | A,3 [E3^C3] | D3 [A3F3] |
+[G3E3D3] [A3F3D3] | [G3E3D3] [A3F3D3] | C3 [G3E3] | G,3 [G3E3] [K: clef=bass middle=d]|\
+d'3 ^c'3 | d'3 b3 | a3 [^c'3a3] | [d'3d3] [a2f2d2] |]

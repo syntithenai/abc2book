@@ -1,0 +1,12 @@
+X: 1
+T: Campbell's Dilemma
+C: David A. Kaynor 1978
+%D:1978
+M: 4/4
+K: D
+|: ((3ABc) \
+| "D"d2 c>d "G"B>d "D"A2 | "G"B>d "A"d>c "D"d2 "A"((3ABc) | "D"d2 cd "G"e>A "F#m"f>A | "Em"e>d c>B "A"A2 ((3ABc) |
+| "D"d2 c>d "G"B>d "D"A2 | "G"B>d "A"d>c "D"d2 ((3efg) | a2 e>f "Em"g>A f>A | "A"((3efe) ((3ABc) "D"d2 :|
+|: ((3efg) \
+| "D"a3b a>f d>f | "A"g>A f>A e2 d>e | "D"f>A "A"g>A "D"((3aba) f>d | "Em"e>d c>B "A"A2 ((3efg) |
+| "D"a3b a>f g>a | "G"((3bag) f>d "A"e2 d>e | "D"f>A "A"g>A "D"((3aba) f>d | "A"((3efe) d>c "D"d2 :|

@@ -1,0 +1,47 @@
+X: 1
+T: Hey Boys up go we
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.124 #182 (248)
+B: "The Dancing-Master: Containind Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.106
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+D2d c2B | A2G F>GA | G2F E2D | d3- d2 |]\
+A |\
+d2e fgf | ecd B2A | d2B B2A | A3- A2e |\
+a2g f>ed | g2e c>Bc | d2F E2c | d3- d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the Presence, then to your We. lead up all forward and back; that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1st Man take his own Wo. and the 2d Wo. by their Hands, and go round
+%% 'till they come into their own Places, the 2d Man standing still; then the 1st
+%% Cu. and 2d Man do the same, the 2d Wo. standing still, then fall back and
+%% turn single; then the two Men Back to Back, and the two We. Back to Back
+%% at the same Time; then the 1st Cu. clap Hands and cast off, the two Men clap
+%% Hands on their Side, and the two We. clap Hands on the other Side, and so
+%% on to the next.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% Honour to the Presence, then to your we. Lead up all forward and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. man take his own wo. and the 2. wo. by their hands, and go round till they come into their
+%% own places, the 2. man standing still, then the 1. man and wo. with the 2. man do the same, the 2.
+%% wo. standing still, then fall back and turn S. then the two men back to back, and the two we. back to
+%% back at the same time, then the 1. cu clap hands and cast off, the two men clap hands on their side,
+%% and the two we. clap hands on the other side; and so on to the next.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

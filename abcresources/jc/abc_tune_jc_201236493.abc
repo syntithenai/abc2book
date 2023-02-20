@@ -1,0 +1,25 @@
+X: 2221
+T: Mrs Muir Mackenzie's   Reel
+%R: reel
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.22 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: In bars 2,6 flats added to the low B, notes, to match the bass notes.
+N: (Around 1800, it wasn't yet clear that accidentals applied to notes in a different octave.)
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 8-bar lines, for compactness and proofreading.
+V: 1 staves=2
+E |\
+Cc2G ECC_E | DT_B2F D_B,B,D | CTc2G E>FGf | ecde c/c/c Tc2 ||\
+Gc2G ECC_E |  D_B2F D_B,B,D | C~c2G TE>FGf | ecde c/c/c c |]
+e |\
+gece .g(aTg>e) | fd_Bd f(gTf>d) | gece g(aTg>e) | fdg>e c/c/c Tce ||\
+gece .g(aTg>e) | fd_Bd f(gTf>d) | cedf egfa | gefd c/c/c c |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | c2c2 c2c2 | _B2B2 B2B2 | c2c2 c2c2 | g2G2 c2c2 || c2c2 c2c2 | _B2B2 B2B2 |
+c2c2 c2c2 | g2G2 c2c |] z | c'2c'2 c'2c'2 | _b2b2 b2b2 | c'2c'2 c'2c'2 |
+g2G2 c2c2 || c'2c'2 c'2c'2 | _b2b2 b2b2 | c'2g2 c2f2 | g2G2 c2c |]

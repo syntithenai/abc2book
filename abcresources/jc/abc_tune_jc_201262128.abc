@@ -1,0 +1,16 @@
+X:1
+T:Christmas Day i'da Moarnin
+C:Fredamann Stickles
+O:Shetland
+R:Jig
+M:6/8
+L:1/8
+%%printtempo 0
+Q:180
+K:Ador
+d2e|\
+"D"f2d {fg}f3|"A"e2d ^c2A|"G"BG2 d2d|B2GG2f|"Em"e2fg2f|
+"A"e2d ^c2A|ABA ABA|"D"d3d2e|f2a-a3|"A"e2d ^c2A|
+"G"B G2 d2d|B2G G2f|"A"e2f g2f|e2d ^c2A|ABA ABA|"D"d3-d3||
+|:"Em" e3 (4edef|{gf}g3 {Bc}B3|"Am"A2A A2A|"G"B2c d2B|"C"e3 (4edef|
+"Em"{gf}g3 {Bc}B3|"Am"A2d "G"d2B|1 "Am" A3-A3:|2 "Am"A3 Ade|]

@@ -1,0 +1,27 @@
+X: 3032
+T: the Highland President
+C: by the Late Mr Geo.Jenkins
+%R: air, strathspey
+N: This is version 2, for ABC software that understands voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.3 p.3 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "Slowish"
+K: Gm
+% - - - - - - - - - -
+V: 1 staves=2
+F2 |\
+D2G2-G3^F ~G3A B2cB | A2F2c2F2 d2F2 (dc.BA) | G2D2-D3C TB,3A, G,2dc | (cB).A.G (BA).G.^F G4 G,3=F |
+D2G2-~G3^F G3A B2cB | A>F~F2 c>F~F2 d>F~F2 (dcBA) | GABG ABcA BcdB (cd)(fg) | (fd)(cd) (Bc)(AB) {^F}G4 G,2 |]
+[| B2 |\
+G2g2-g3.B (B2d2) G2Tg>a | .b.g.d.g .B.d.G.B .D.G.B,.D .G,.B,.D.G | F2f2-f3c (A2.c2) F2Tf>g | .a.f.c.f .A.c.F.A CFA,C FAcf |
+G2g2-g2dc (B2d2).G2 AG | F2f2-f2cB (A2c2).F2 BA | GABG ABcA BcdB (cd)(fg) | (fd)(cd) (Bc)(AB) {F}G4 G,2 |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+G4 g3d g2^f2 g4 | =f4f4 F4F4 | G4G4 G4B4 | c4d2D2 G4G2z2 |
+g4 g3d g6 =e2 | x4a4 b4x4 & f12 f4  | g4d4 g4c4 | d4D4 G4G2 |]
+[| z2 |\
+g4g4 G4g4 | g8 G8 | F4f4 F4f4 | f8 F8 |
+g4g4 G4G2z2 | F4f4 F8 | G2g2 ^f4 g4 c4 | d4D4 G4G2 |]

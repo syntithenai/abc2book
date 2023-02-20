@@ -1,0 +1,17 @@
+X:1
+T:Pipe on the Hob
+M:6/8
+L:1/8
+R:Jig
+K:G
+%%printtempo 0
+Q:160
+|:B|\
+"Am"c3 "C"edc |edc "G"BAG| "Am"ABA gfg| "G"eaf "Em"ged |
+"Am"c3 "C"edc|"C"edc "G"deg |"Am"age "G"dBe| "Am"ABA A2:|
+|:"Am"f |\
+"C"g3 gea|"C"age "G"edB|"Am"ABA gfg| "G"eaf "Em"gef |
+"Am"g3 "C"gea|age "G"deg| "Am"age "G"dBe|"Am"ABA A2:|
+|:"Am" B|\
+"Am"c3 "G"dcd |"Am"ecA AGE | cBc "G"dcd|
+"Am"ecA A2 B|cBc "G"dcd|"C"ede "G"gab|"Am"age "G"dBe| "Am"ABA A2 :|

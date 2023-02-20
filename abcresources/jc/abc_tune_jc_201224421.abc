@@ -1,0 +1,28 @@
+X: 082
+T: Mrs GORDON UVIE
+C: Wm MARSHALL
+R: Reel
+B: Glen Collection p.8 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: The final g sharp in the bass of bar 8 should probably be g natural.
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: D
+%
+V: 1
+|:\
+{c}d2(Ad) cdAd | cdef gecA | {c}d2(Ad) cdAd | BAGF EDCA, :|
+dDFA fDFA | dDFA dcBA | eE^GB ^gEGB | eE^GB edce |
+dDFA fDFA | dDFA dcBA | GABc defg | (fa)(Be) dcBA |]
+%
+V: 2
+|:\
+D2[d'2f2] [d'2a2][d'2f2] | e2[c'2a2] A2[g2e2] |\
+[a2f2d2][d'2f2] [d'2a2][d'2f2] | g2a2 A2[g2e2] :|
+D2[f2d2] [a2d2][f2d2] | [a2f2d2][a2f2d2] [a2f2d2][a2f2d2] |\
+[^g2e2][g2e2] [b2g2e2][b2g2e2] | [d'2^g2e2][d'2g2e2] [c'2a2][c'2a2g2] |
+[d'2a2f2][a2d2] [a2d2][a2d2] | d2[d'2a2] f2[d'2a2] |\
+g2[b2g2] f2[d'2a2] | d2G2 A2[g2e2A2] |]

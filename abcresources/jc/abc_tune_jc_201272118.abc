@@ -1,0 +1,329 @@
+X: 1
+T:The Grand Slam
+M:4/4
+L:1/8
+S:(3) As Written
+R:Reel
+K:A
+AB|"A"c<e e>f ecBA|"D"a>g fd "A"e2 fa|"A"c2 c>B "F#m"Afec|"B7"B2 B>c "E7
+"B2 ed|!
+"A"c<e e>f ecBA|"D"a>g fd "A"e2 A>B|"A"ce"D"fa "A"c<e "E7"d>B|"A"A2 "D"A
+>B "A" A2 cd|!
+e>A Ac eaga|"D"f>e df "A"e2 fa|"A"c2 c>B "F#m"Afec|"B7"B2 B>c "E7"B2 cd|
+!
+"A"e>A Ac eaga|"D"f>e fg "D#dim"a2 AB|"A"ce"D"fa "A"c<e "E7"d>B|A2 A>B A
+2 cd|!
+"A"e>A Ac eaga|"D"f>e fg "D#dim"a2 AB|"A"ce"D"fa "A"c<e "E7"d>B|A2 A>B A
+2||
+
+X: 2
+T:The Battle of Waterloo
+M:4/4
+L:1/8
+S:(4) As Written
+R:Reel
+K:Am
+ed/2B/2|"Am"A2 A>B AG GA|"C"c>d ec "Dm"d2 e<g|"Am"a>g ed "Em"ed BA|"G"G>
+E GA "Em"G2 ed/2B/2|!
+"Am"A2 A>B AG GA|"C"c>d ec "Dm"d2 e<g|"Am"a>g ed "Dm"cA "Em"BG|"Am"A2 A>
+B A2 ef|!
+"C"g>f ed c>d ef|"C"g>a ge g2 ef/2g/2|"Am"a>g ed "Em"ed BA|"G"G>E GA "Em
+"G2 ed/2B/2|!
+"Am"A2 A>B AG GA|"C"c>d ec "Dm"d2 e<g|"Am"a>g ed "Dm"cA "Em"BG|"Am"A2 A>
+B A2  ed/2B/2|!
+"Am"A2 A>B AG GA|"C"c>d ec "Dm"d2 e<g|"Am"a>g ed "Dm"cA "Em"BG|"Am"A2 A>
+B A2||
+
+X: 3
+T: My Wife's a Wanton Wee Thing
+M:6/8
+L:1/8
+S:
+R:Jig
+K:D
+
+X: 4
+T:Barley Cakes
+M:6/8
+L:1/8
+Q:224
+C:"Bremner, c. 1757"
+S:Here from RSCDS Victory Book (#4), there from Gow 3rd Repository
+R:Jig
+N:Dance: Barley Bree (Book gives AABBB, I do AABBA
+K:G
+|:  c | B2G  (B/2c/2d)B | A2=F (A/2B/2c)A | B2G  (B/2c/2d)B | d3 g3 | !
+        B2G  (B/2c/2d)B | A2=F ABc | dcB cBA | G3 G,2 :| !
+|:  d | gag fgf | e2d B3 | gfe f2g | a3 d3 | !
+        c2a B2g | ABG FED | GAB AGF | G3 G2 :| !
+
+X: 5
+T:Fiddler's Whim
+M:6/8
+L:1/8
+R:Jig
+K:D
+G|"D"[F2A2] A dcB|"D"AFA f2e|"D"dAF DFA|"Em"BEE E2 [FA]|!
+"D"[F2A2]A dcB|"D"AFA "G"g2 f|"A"ecA ceg|"D"fdd d2:||!
+f/g/|"D"a2 f b 2f|"D"agf "G"g2 e|"A"c2 e a2 e|"A"gfe "D"f2 g|!
+"D"a2 f b2 f|"D"agf "G"g2 e|"A"c2 e "(C#)"gfe|"D"d2 f d2:||!
+
+X: 6
+T:My Wife's A Wanton Wee Thing - 2nd Part
+M:6/8
+L:1/8
+C:Trish Barker
+R:Jig
+K:D
+z| A3 Adc|A3 A3|G3 G3 |G3 G3|A3 Adc|A3 A2 E|!
+D3 =C3|D3-D2:|| z |F3 D3|F3 A3|E3 =C3|E3 G3|!
+F3 D3|F3 B3|A3 G3|F3-F2 d/e/|fgf d3|fgf d3|!
+efe =c3|efe =cde|fgf d3|fgf Bcd|d3 c3|dAF D2||
+
+X: 7
+T:Barley Cakes - 2nd Part
+M:6/8
+L:1/8
+C:Trish Barker
+R:Jig
+K:G
+||: z|G2 D G3|=F2 D F3|G2 D G3|G3 B3|G2 D G3|!
+=F2 D FGA|BAG AG^F|G3 G,2:||:z| B3 A3|c2 B G3|!
+edc d2 B|c3 F3|A3 G3|F3 D3|G2 G F2 F|GDB,G,2:||
+
+X: 8
+T:North of the Grampians / Taobh Tuath Nan Garbh Bheann
+M:4/4
+L:1/8
+Q:120
+C:Capt. S. Fraser
+S:James G-H learnt this tune from J Hunter
+R:Strathspey
+K:C
+F |: E>F G>A G<E E<c | E/F/G G<c c<e d2 |  E>F G>A G<E E>G | F>D B,<G, B
+,/C/D F2 :| !
+e>c e/f/g e<c c>f | e<c e>f e/f/g f/g/a | e>c e/f/g e<c c>e | f>d B<G B/
+c/d f2 | !
+e>c e/f/g e<c c>f | e<c e>f e/f/g f/g/a | (3gfe (3dcB (3cBA (3GFE | F>D
+B,<G, B,/C/D F2 ||
+
+X: 9
+T:Earl of Morton's Jig
+M:6/8
+L:1/8
+Q:112
+C:William Gow
+S:Beauties of Gow (Some written ornaments simplified)
+R:Jig
+K:C
+ |: F | "C"E/F/GG cdc | "G"BAB "C"cGE | "Dm"FdF "C"EcE | "G7"dDD D2 F |
+!
+"C"E/F/GG cdc | "G"BAB "C"cGE | "Dm"FEF "G"DGF | "C"ECC C2 :| !
+f | "C"ecc gcc | "F"acc "C"gcc | "C"ecc gcc | "G7"fdd d2f | !
+"C"ecc gcc | "F"acc "C"gcc | "Dm"fef "G"dgf | "C"ecc c2 f | !
+"C"ecc gcc | "F"acc "C"gcc | "C"ecc gcc | "G7"fdd d2 G/F/ | !
+"C"E/F/GG cdc | "G"BAB "C"cGE | "Dm"FEF "G"DGF | "C"ECC C2 ||
+
+X: 10
+T:Durham Rangers
+M:4/4
+L:1/8
+R:Reel
+K:D
+F-G| "D"ABAF A2 de|"D" fg"A"ef "D"d2dA|"G"BcdB "D"ABAF|"A7"G2 E2 E2 F-G|
+!
+"D"ABAF A2 de|"D"fg"A"ef "D"d2 dA|"G"BcdB "A7"ABAG| F2 D2 D2 :|!
+|(ag)| "D"fefg afdf|"A" edcB Adfa|"G"g2 bg "D"f2 af|"Em"g2 e2 "A7"e2 (FG
+)|!
+"D"ABAF A2 de|"D"fg"A"ef "D"d2 dA|"G"BcdB "A7"ABAG|"D"F2 D2 D2 (ag)|!
+| "D"fefg afdf|"A" edcB Adfa|"G"g2 bg "D"f2 af|"Em"g2 e2 "A7"e2 (FG)|!
+"D"ABAF A2 de|"D"fg"A"ef "D"d2 dA|"G"BcdB "A7"ABAG|"D"F2 D2 D2||
+
+X: 11
+T:Far Frae Hame
+M:C
+L:1/8
+R:Reel
+K:G
+
+X: 12
+T:Miss Susan Cooper
+M:C
+L:1/8
+C:R Cooper
+S:James Hunter
+R:Reel
+K:D
+(3ABc|"D"dfed "G"B2 dB|"D"A2 F-A DAFA|A-Bde fa^ga|"E7"=g2 fd "A"eAce||!
+"D"dfed "G"B2 dB|"D"A2 F-A DAFA|A-Bde fafd|"A"eAce "D"d2:||!
+dc|"Bm"B-cde fBBc|def^g "A"a2 gf|eAce a2 ^ga|"G"=g2 fd "A"eAce|!
+"D"dfed "G"B2 dB|"D"A2 F-A DAFA|A-Bde fafd|"A7"eAce "D"d2:||
+
+X: 13
+T:Captain Campbell
+M:4/4
+L:1/8
+Q:90
+S:Hunter
+R:Strathspey
+D:The Driven Bow (Track 7)
+K:A Minor
+E<AA>B c>AB<G | D<GG>A B>d c/2B/2A/2G/2 |
+E<AA>B c>Bc<e |1 d<Bg>B A2 A>G :|2 d<B g>B A2 A>B ||!
+A<aa>g e>dc<e | d>eg>e d/2c/2B/2A/2 G<B |
+A<aa>g e>dc<e | d<Bg>B A2 A>B | !
+A<aa>g e>dc<e | d>eg>e d/2c/2B/2A/2 G<B |
+c>Ad<B e>dc<e | d<Bg>B A2 A>G ||
+
+X: 14
+T:Mason's Apron
+M:4/4
+L:1/8
+S:ABB ABB
+R:Tune 4
+K:A
+||:ed|"A"c2 A2 ABAF|"A"EFAB dcBA|"Bm"d2 B2 BcBA|Bcde "E7"gfed|!
+"A"c2 A2 ABAF|"A"EFAB dcBA|"Bm"Bcde fefa|"E7"edcB A2:||!
+:ed|"A"cAeA fAeA|"A"cAeA fedc|"Bm"dBfB gBfB|dBfB "E7"gfed|!
+"A"cAeA fAeA|"A"cAeA fedc|"Bm"Bcde "A"fefa|"E7"edcB "A"A2:||
+
+X: 15
+T:Corn Rigs
+M:C
+L:1/8
+S:ABAB
+R:Reel
+N:transcribed from notes given at a Scottish Fiddling workshop , November
+N:1997.  The workshop was run by the Sydney Scottish Fiddlers, for more
+N:information contact Trish Barker +61 2 9416 2402
+N:Tune has no repeat
+H:Chris Duncan Workshop - Nov 9
+Z:Tim Barker, Nov 9
+K:D
+A||:d2 de f2 ed|cBcd e2 A2|d2 de fgfe|d2a2a2A2|!
+d2 de gfed|cBcd e2 A2|BcdB edcB|A2d2d2 A||!
+|d2 a2 f2 a2|cBcd e2 A2|d2 a2 fg ef|d2 a2 a2 A2|!
+d2 a2 bagf|gfed c2 A2|BcdB edcB|A2 d2 d2:||
+
+X: 16
+T:Peter's Peerie Boat
+M:6/8
+L:1/8
+C:Tom Anderson
+S:AAB
+R:Jig
+K:D
+A/2B/2c||:"D"d2 d D2 D|"G"EFG "A"ABc|"D"d2 d "Bm"Bed|"A"cAA "(C#)"ABc|!
+"D"d2 d D2 D|"G"EFG "A"ABc|"D"d2 A "A"GFE|1"D"FDD DBc:|2"D"FDD D2 A|!
+||:"D"d2 d f2 d|"A"c2 c e2 c|"G"B2 B dcB|"D"A3 A2 F|!"G"GFG "A"BAG|
+"D"F2 A d3|"Em"E2 G B3|"A"C2 E A3|!"D"dcd fed|"A"cBc edc|{Bc}"G"B^AB "(B
+)"dcB|
+"D"A3 A2 F|!"G"GFG "A"BAG|"D"F2 A a2 g|"D"fed "A"Adc|"D"d3 D3||
+
+X: 17
+T:Corn Rigs - 2nd Part
+M:C
+L:1/8
+C:Trish Barker
+R:Reel
+K:D
+A2||:F2 FG A2 AF|E2 EF G2 E2|F2 A2 dedc|A2 c2 c2 A2|!
+F2 FG BAGF|E2 A2 C2 E2|G3 G cBAG|E2 F2 F2:||:A2|!
+d4 A4|e4 A4|d4 decd|A2 d2 e4|!
+d2 f2 gfed|edcB A2 E2|G3 G cBAG|E2 F2 F2:||
+
+X: 18
+T:Peter's Peerie Boat - 2nd Part
+M:6/8
+L:1/8
+C:Trish Barker
+R:Jig
+K:D
+A/B/c||:d2 d F2 F|GAB cde|f2 f dcd|e3 cde|!
+d2 d F2 F|GAB cde|f2 d cBc|1d3-d2 A:||2 d3-d2 A||!
+d2 d F2 d|c2 c E2 c|B2 B G2 B|A3-A2 F|G3 E3|!
+F3 D3|E3 D3|C3 A,3|d2 d F2 d|c2 c E2 c|!
+B2 B G2 B|A3-A2 F|G3 E3|F3 A3|dcB Afe|([F3d3] [F2d2])||
+
+X: 19
+T:Spootiskerry
+M:4/4
+L:1/8
+R:Reel
+K:G
+||:DE|"G"G2 DE GDEG|DEGA B2 AB|G2 DE GABd|"C"eged "G"B2 AB|!
+G2 DE GDEG|DEGA "Em"B2 AB|"G"g2 ed "C"edBA|"G"B2 G2 G2:||!
+ef|"Em"g2 eded B2|BABG "C"E2DE|"G"GA Bd "C"eged|"G"B2 A2 "D"A2 ef|!
+"Em"g2 eded B2|BABG "C"E2 DE|"G"GA Bd "C"eged|"Em"B2 G2 "G"G2 ef|!
+"Em"g2 eded B2|BABG "C"E2 DE|"G"GA Bd "C"eged|"Em"B2 A2 "D"A2 DE|!
+G2 DE GDEG|DEGA "Em"B2 AB|"G"g2 ed "C"edBA|"G"B2 G2 G2||
+
+X: 20
+T:Staten Island
+M:C
+L:1/8
+Z:Tim Barker, '9
+K:D
+||:AG|FD FG A2A2|dfed dcBA|vB2 GB uA2 FA|G2 E2 E2 AG|!
+FD FG A2 A2|dfed dcBA|d2 cd efge|f2 d2 d2:||!
+fg|va2 fa ug2 eg|f2 df ecAB|=c2 c2 efge|=c2 c2 efge|!
+ va2 fa ug2 eg|f2 df ecAB|d2cd efge|f2 d2 d2:||
+
+X: 21
+T:De'il Among the Tailors
+M:4/4
+L:1/8
+S:AA BBB
+R:Tune 1
+K:A
+|:g2|"A"a2 eg "E"a2 eg|"A"a2 eg "C#"fedc|"Bm"dfBf "C#"dfBf|"E"dfba gefg|
+!
+"A"a2 eg "E"a2 eg|"A"a2 eg "C#"fedc|"Bm"defd "A"ecBA|"E"E2 G2 "A"A2:||!
+|:ed|"A"ceAe "E"ceAe|"A"ceag "C#"fedc|"Bm"dfBf "C#"dfBf|"Bm"dfba "E"gfed
+|!
+"A"ceAe "G#"ceAe|"F#m"ceag "C#"fedc|"Bm"defd "A"ecBA|"E"E2 G2 "A"A2:||
+
+X: 22
+T:Staten Island - 2nd Part
+M:C
+L:1/8
+C:James G-H
+R:Hornpipe
+K:D
+fe|dAde f2 f2|fagf|fedA|d2 Bd d2 Ad|d2 c2 c2 d2|!
+dAde f2 f2|fagf fede|f2 ed cdec|d2 [F2d2] [F2d2] :|| !
+||: de|f2 df e2 ce|d2 Ad cAED|=C2 C2 EFGE|=C2 C2 EFG2|!
+f2 df e2 ce|d2 AB cAEG|F2 AB cdec|d2 [F2d2] [F2d2]:||
+
+X: 23
+T: De'il Amamg the Tailors - 2nd Part
+M:4/4
+L:1/8
+R:Reel
+K:A
+
+X: 24
+T:Jig of Slurs
+M:6/8
+L:1/8
+C:PM George, S McLennan
+R:Jig
+N:'Normal' tune often played in sessions
+K:D
+
+X: 25
+T:Atholle Highlanders
+M:6/8
+L:1/8
+R:Jig
+K:A
+"A"e3 e>cA|e>cA B>cd|e3 e>cA|"E"B>cd c>BA|!
+"A"e3 e>cA|e>cA B>cd|"A"e<ae f>ed|"E"c>dB "A"A3:||!
+"A"A>ce A>ce|"D"A>df A>df|"A"A>ce A>ce|"E"B>cd c>BA|!
+"A"A>ce A>ce|"D"A>df A>df|"A"e<ae f>ed|"E"c>dB "A"A3:||!
+"A"a>ee e>dc|a>ee e>dc|a>ee e>dc|"E"B>cd c>BA|!
+"A"a>ee e>dc|a>ee e>dc|a>ee f>ed|"E"c>dB "A"A2:||!
+c|"A"c>Ac c>Ac|"D"d>Bd d>Bd|"A"c>Ac c>Ac|"G"B>=GB B>=GB|!
+"A"c>Ac c>Ac|"D"d>Bd d>Bd|"A"e<ae f>ed|"E"c>dB "A"A2:||!
+
+% Output from ABC2Win  Version 2.1 f on 25/03/2001

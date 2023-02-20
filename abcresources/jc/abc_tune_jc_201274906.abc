@@ -1,0 +1,28 @@
+X: 1
+T: Farewell to the Creeks
+R: jig-time pipe march
+Z: John Chambers <jc:trillian.mit.edu>
+N: Scots Guards p.95 #188
+N: The WWI ballad "Banks of Sicily" is based on this pipe march.
+M: 6/8
+L: 1/8
+K: A
+"A"|: a |\
+"A"e2c cBc | "D"def "E7"e2d | "A"cde "F#m"Ace | "Bm"edc "E7"B2a |\
+"A"e2c cBc | "D"def "E7"e2d | "A"cde      edc | "E7"B3   "A"A2 :|
+"B1"[|]  e |\
+"A"ece aga | "D"fef "E7"dcd | "A"cde "F#m"Ace | "Bm"edc "E7"B2e |\
+"A"ece aga | "D"fef "E7"dcd | "A"cde      edc | "E7"B3   "A"A2 ||
+"B2"[|]  e |\
+"A"ece aga | "D"fef "E7"dcd | "A"cde "F#m"Ace | "Bm"edc "E7"B2a |\
+"A"e2c cBc | "D"def "E7"e2d | "A"cde      edc | "E7"B3   "A"A2 |]
+"C"|: B |\
+"A"cz2 "D"d3  | "A"e2c  cBA | "D"d2f   "A"c2e |     edc "E7"B2A |\
+"A"cz2 "D"d3  | "A"e2c  cBA | "A"cde      edc | "E7"B3   "A"A2 :|
+"D1"[|]e |\
+"A"a2e "D"f2a | "A"e2f  ecA | "D"d2f   "A"c2e |     edc "E7"B2e |\
+"A"a2e "D"f2a | "A"e2f  ecA | "A"cde      edc | "E7"B3   "A"A2 ||
+"D2"[|]e |\
+"A"a2e "D"f2a | "A"e2f  ecA | "D"d2f   "A"c2e |     edc "E7"B2a |\
+"A"e2c cBc | "D"def "E7"e2d | "A"cde      edc | "E7"B3   "A"A2 |]
+%%text The D1 part is often repeated, rather than playing D2.

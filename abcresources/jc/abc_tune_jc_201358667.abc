@@ -1,0 +1,974 @@
+% This is a collection of tunes in ABC form, transcribed,
+% modified, or at least accumulated by Doug Mast <mast@iglou.com>.
+% See also http://www.rileyirishmusic.com/ .
+
+% Reels	and similar
+
+X:5
+T:Banjo Tramp
+M:4/4
+L:1/8
+S:Transcribed by Doug Mast.
+S:Usually played in D?
+R: reel
+K:F
+CD | "F" C2 A,2 C2 F2 | A6 BA | "B_"G2 F E2 C D2  | "F" C6 CD |
+| "F" C2 A,2 C2 F2 | A6 BA | "G7" G2 FE D2 E2 | "C7" G6 CD |
+| "F" C2 A,2 C2 F2 | A6 BA | "B_" G2 F E2 C D2 | "F" C6 DE |
+| "F" FCA,B, "C" C2 DE | "F" FCA,B, "C" C2 CD | "C7" C2 E2 G2 E2 | "F" F6 G2 |
+| "F" A2 c2 d2 c2 | A6 BA | "B_" G2 F E2 C D2  | "F" C6 G2 |
+| "F" A2 c2 d2 c2 | A6 BA | "G7" G2 FE D2 E2 | "C7" G6 G2 |
+| "F" A2 c2 d2 c2 | A6 BA | "B_" G2 F E2 C D2 | "F" C6 DE |
+| "F" FCA,B, "C" C2 DE | "F" FCA,B, "C" C2 CD | "C" C2 E2 G2 E2 | "F" F6 ||
+
+X:10
+T: Boil The Breakfast Early
+M: 4/4
+L: 1/8
+R: reel
+K: Gmaj
+|G3B AD~D2|GB~B2 c2BA|G2 BG ADDF| GE~E2 c2BA|
+|G3B AD~D2| GB~B2  c2 Bc|dBcA BGAF| GE~E2 c2 Bc||
+|d2 fd edB^c|d2 ef g2 fe|d2 fd edBA|  GE~E2 c2 Bc|
+|d2 fd edB^c|d2 ef g2 fg|af (3gfe fdcA |  GE~E2 c2 Bc||
+|dA~A2 dAFA|dA~A2 defe|dA~A2 dAFA| GE~E2 c2 Bc|
+|dA~A2 dAFA|d2d^c defe| d2cA (3Bcd AF|G2Bd gdBA ||
+
+X:15
+T: Boyne Hunt, The
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+|(3ABA FA DAFA | (3ABA FA BE~E2 | (3ABA FA DAFA |ABde fdd2:|
+|fa{b}af a3f |gfga be ~e2 |fa{b}af afdB | ABde fdd2 |
+|fa{b}af a3f |gfga be e2|fgfe dedB |ABde fdd2 |
+
+X:20
+T:Cold Frosty Morning
+R:reel
+C:Melvin Wine
+S:Transcribed by Doug Mast from playing of Whitt Mead et al.
+M:C|
+L:1/8
+K:G
+G2 B2|:d4 d2 ed|BBdB G2 B2|d4 d2ed|BBdB D2 G2|
+|B4 B2A2|GAGG EG2E|DB,DF G2GA|BGAB G2|
+(G,2|G,)B,DF G2G2|GBAG EG2E|DB,DF G2GA|BGAB G2|
+(G,2|G,)B,DF G2G2|GBAG EG2E|DB,DF G2GA|1 BGAB G4:|2 BGAB G2 B2:|
+
+X:25
+T:Craig's Pipes
+R:reel
+M:C|
+K:G
+|B3 B2 AGA|B2GB AGED|B3B2 AGB|AGBG AGED|
+|B3 B2 AGA|B2dB AGEG|Beed BddB|AGBG AGEG||
+|DG ~G2 DGBG|DGBG AGEG|DGGF GABc|dBAc BGGE|
+|DG ~G2 DGBG|DGBG AGEG|DGGF GABc|dBAc BGGB||
+|d2 Bd efge|~d2 BG AGEG|d2Bd efge|~a2bg ageg|
+|d2 Bd efge|~d2 BG AGEG|d2Bd efge|~a2bg aged||
+
+X:30
+T: Dierdre Shannon's
+T: Paddy Shannon's
+R: reel
+S: Trian
+C: Paddy Shannon
+M: 4/4
+L: 1/8
+K: G
+B |: dgge dGBG| ~F2DE FGAB | dgge dGBG| DC ~C2 DGGB |
+| dgge dGBG | ~F2DE FGAB | ~c2cd fdef | defd g3e :|
+| dGFG AGFG | ABcA d3e | =fedc  AGFG |AG=FD DCC2 |
+| DE=FE DG G2 | AGFG ABcA | ~d3e =fedc | AGGF G3 |
+| DGGG AGFG | ABcA d3e | =fedc  AGFG |AG=FD DCC2 |
+| DE=FE DG G2 | AGFG ABcA | d3e =fedc | AGGF G3 ||
+
+X:35
+T:The Drunken Landlady
+M:C
+L:1/8
+R:Reel
+K:D
+A | BEEE BAFA | BEEE BAFB | ABAF D3 E | FAAd BAFA |
+BEEE BAFA | BAdA BAFB | A2 Bc dfec | dBAF E3 :|
+|: A | Beef e2 de | fdef dBAF | A2 FA D3 E |
+FAAd BAFA | Beef e2 de | fdef dBAF | A2 Bc dfec | dBAF E2 :|
+
+X:40
+T:John Dwyer's
+M:C|X:2
+L:1/8
+R:reel
+K:G
+ge|dBBA GEDE|GB~B2 dBGB|A2 AB AGED|(3EFG AB c2Bc|
+dBBA GEDE|GB~B2 dBGA|B2 BA BcdB|AGAB G2:|
+|:ga|bg ~g2 | bg ~g2|af ~f2 af ~f2| bg ~g2 bgag|eaag a2ga|
+bg ~g2 agef|g2 ge dBGA|B2 BA BcdB|AGAB G2:|
+
+X:45
+T: Farewell To Connaught
+M: 4/4
+L: 1/8
+R: reel
+K: Dmix
+|: D2 ED (3EFG AB | cBcd c2 AG | Add^c d2 cd | ed^cd edcd |
+| D2 ED (3EFG AB | cBcd c2 AG | ABAG EGAB | cAGE ED D2 :|
+|: eggf g2 ed | cded cAGc | eaag a2ag | egag ed^cd |
+eggf g2 ed | cded cAGc | ABAG EGAB | cAGE ED D2 :|
+
+X:50
+T:First House in Connaught
+M:C
+L:1/8
+R:reel
+K:G Major
+|:GF|DG~G2 AGG2|BGdG BG G2|DF~F2 AFF2|ABcA BGAF|!
+|DG~G2 AGG2|BGdG BG G2|defg agfd|cAFA G2:|
+|: Bd|~g2ga gfdf |g2bg ageg|~f2dg f2dg |fgaf bgaf|!
+|~g2ga gfdf|g2bg agfe|defg agfd|cAFA G2:|
+
+X:55
+T:Killarney Boys of Pleasure
+R:reel
+M:C|
+K:Edor
+|:FD|~E2ED E2FA|BFAF DEFA|~B3d e2ed|(3Bcd AF DEFD|
+|~E2ED E2FA|BFAF DEFA|~B3d e2ed|1 BdAF DE :|2 BdAF DEFA||
+|:Be~e2 Be~e2|BdAF DEFA|~f2fe f2fe|dBAF DEFA|
+|Be~e2 Be~e2| BdAF DEFA|~f2fe defe|1 dBAF DEFA:|2 dBAF DE ||
+
+X:60
+T:Longford collector, The
+M:C|
+R:Reel
+S:Michael Coleman
+K:G
+D|:~G2GA Bddg|eBB2 eBdB|~G2GA B2cB|AGAB GEDE|
+|~G2GA Bddg|eBBB d2ef|gfga gedB|1 AcBA GEDE |2 AcBA GEE2 :|
+|:gfga gedf|eB~B2 d2ef|gfga gedB|AcBA GEE2|
+|gfga gedf|eB~B2 d2ef|gbaf gedB |1 AcBA GEE2:|2 AcBA GEDE:|
+
+
+X:65
+T:The Maids of Mitchelstown
+M:4/4
+L:1/8
+R:reel
+S:As played by the Bothy Band on "Out of the Wind, into the Sun"
+S:Transcribed by Doug Mast.
+K:Dm
+| "Dm"D2 AG "Am7"EG G2 | "Dm"A2 GA "Am7"cA GE | "Dm"D2 AG "Am7"EG G2 | "Am7"Ac GE "Dm"ED cE|
+|  "Dm"D2 AG "Am7"EG G2 |  "Dm"A2 GA "Am7"cA GE |  "Dm"D2 AG "Am7"EG G2 | "Am7"Ac GE  "Dm"ED D2|
+|  "C"EG AB c2 BG | "D"Ad de "Gm"f2 ed | "Am"cA GE "B#maj7"F3G | "Am"Ac GE "Gm"ED D2|
+|  "C"EG AB c2 BG | "D"Ad de "Gm"f2 ed | "Am"cA GE "a_7"F3G | "Am"(3ABc (3Bcd "Gm"cA GE |
+| "(Descant) Dm"F3D "Am7"E4 | "Dm"DF ED "Am7"CA, A,2 | "Dm"F3D "Am7"E3F | "Am7"GA GE "Dm"ED D2 |
+| "Dm"F3D "Am7"E4 | "Dm"DF ED "Am7"CA, A,2 | "Dm"F3D "Am7"E3F | "Am7"GA GE "Dm"ED D2 |
+| "C"C2 AG G4 | "D"AG ^FA "Gm"G4 | "Am"EC DG, "B_"C4 | "Am"B,C DE "Gm"A,D D2 |
+| "C"C2 AG G4 | "D"AG ^FA "Gm"G4 | "Am"EC DG, "B_"C4 | "Am"B,C DE "Gm"A,C EC |
+
+X:70
+T: Man Of The House
+M: 4/4
+L: 1/8
+R: reel
+K: Emin
+|E2BE GABG|E2BE ADFD|E2BE GABe|dBAc BEED|
+|E2BE GABG|E2BE ADFD|E2BE GABe|dBAc BEEB||
+|efge fgaf|gfed edBd|efge fgaf|gfed Beed|
+|efge fgaf|gfed efga|bgaf gfed|eBBA GEFD||
+
+X:75
+T:The Merry Blacksmith
+T:Paddy on the Railroad
+T:Paddy on the Handcar
+M:C|
+L:1/8
+R:reel
+K:D
+|:d2 dA BAFA|ABdA BAFA|ABde f2ed|Beed egfe|
+|d2 dA BAFA|ABdA BAFA|ABde fdec|dBAF D2:|
+|:a2 ag f2 fe|d2 dA BAFA|ABde fded|Beed egfe|
+| a2 ag f2 fe|d2 dA BAFA|ABde fdec|dBAF D2:|
+
+X:80
+T:Navvy on the Line
+S:John Skelton and Kieran O'Hare, "Double Barrelled"
+M:C
+L:1/8
+R:reel
+K:G Major
+|G2ge dBGB|A2AB AGEF|G2ge dBGB|AGAB A2GA|!
+B2ge dBGB|AGAB AGEG|~g2gd egdB|AGFA G2 z2 |]!
+|g2BA GABd|edBA GABd|g2BA GABd|~e2ed edBd|!
+g2BA GABd|edBA GABd|~g2gd egdB|AGFA G2 z2|]!
+
+X:85
+T:Otter's Holt, The
+M:C|
+R:reel
+K:Bm
+|: de| fB BA FEFB|~A2FB ABde|fB BA FEFA|BdcA B2 de|
+|fB BA FEFB|A2FB ABde|faaf egfe|dBBA B3:|
+|: c|~d2fd Adfa|bfaf efdB|d2fd Adfa|bfaf e3f|
+|~d2fd Adfa|bfaf efde|fB BA FEFA|BdcA B2 :|
+
+X:90
+T:Pigeon on a Gate
+M:2/2
+R:reel
+K:Em
+|:BE (3EEE BdcA|BABd BAFE|D2 (3DDD ADFA|DFAB ADFA|
+|BE (3EEE BdcA|BABd BAFE|D2 (3DDD FD ef|dBAF E4:|
+|:Beed efed|Be (3eee gfed|dAFA d3B|AF (3FFF DEFA|
+|Beed efed|Be (3eee gfed|dAFA d2 ef|dBAF E4:|
+
+X:95
+T:Sailor's Bonnet, The
+M:C|
+R:Reel
+S:Michael Coleman
+K:D
+|:A2FA df~f2|dfef dBB2|A2FA dfec|dBAF ADD2:|
+|:afab afdf|afef dB~B2|fbba bafa|~b2af fee2|
+bf~f2 afef|afef dBB2|~A2FA dfec|dBAF ADD2:|
+
+X:100
+T: Swinging on a Gate
+M: C|
+L: 1/8
+R:reel
+K: G
+|:"G"gedB G2AB | "Am"cABG AGEF | "G"G2Bd "C"g2fg | "D"eaag fdef |
+| "G"gedB G2AB | "C"cABG AGEG | "Am"cABG "G"AGEG |1 "D"DGGF "G"G2 z2 :|2"D"DGGF "G"G2 Bd |
+|:"G"~g2ga bgaf | "Em"gfed B2AG | "Am"EAAB cBAG | EAAB "D"cdef |
+| "G"~g2ga bgaf | "Em"gfed B2AB | "Am"cABG "G"AGEG |1 "D"DGGF "G"G2 Bd :|2 "D"DGGF "G"G2 z2 :|
+
+X:105
+T:Tarbolton, The
+M:C|
+R:Reel
+S:Michael Coleman
+K:G
+|: Eeed e2BA|GBAF GFEF|Ddd^c d2AG|FDAG FDDF|
+|Eeed efge|fedf edBA|GABG FGAc|1 BGAF GEED |2 BGAF GEE2:|
+|:gfef gebe|gebe gfef|~d2 fd Adfd|BdAG FDD2|
+|~G2 BG ~F2AF|~E2 ef gfed|B2(3BcB AGFA| BGAF GEE2:|
+
+X:110
+T:Whistling Rufus
+M:4/4
+L:1/8
+R:reel
+S:Transcribed/Arranged by Doug Mast.
+K:C
+ED |"C" CB,CD EGAB | cBcd c2 G2 | C2 C E2 D C2 | G6 ED |
+| "C" CB,CD EGAB | cBcd c2 G2 | "D7" D2 D D2 C A,2 | "G7" D6 ED |
+| "C" CB,CD EGAB | cBcd c2 G2 | C2 C E2 D C2 | G6 AB |
+| "F" cBcd cBAG | "C" EFGA G2 E2 | "G7" D2 D E2 CD | "C" C6 GA |
+| "C" G2 E2 D2 C2 | G6 GA | G2 E2 D2 G,2 | "G" B,6 B,C |
+| "G" B,2 A,2 D2 F2 | "F" A6 AB | A2 G2 F2 C2 | "C" E6 GA |
+| "C" G2 E2 D2 C2 | G6 CB, | C2 C D3 E2 | "F" F8 |
+| "F" FGFC A,B,CD | "C" EGEC G,2 G,2 | "G7" A,2 B,2 A, G,3 | "C" C6 ||
+
+% Jigs, Slides, Slipjigs and similar
+
+X:115
+T:Bank of Turf, The
+R:jig
+M:6/8
+K:D
+B|:~A3 DFA|BAF DFA|dcd ede|fef def|
+|~g2f gab|afd Bcd|1 ede efd|cBA Bcd|2 ede efe | d3 dcd:|
+|:eAA efg|~f2e fga|gfe fed|edB ABd|
+|eAA efg|~f2e fga|gfe dcB|1 A3 ABd| A3 dcB:|
+
+
+X:120
+T:Garrett Barry's
+M:6/8
+R:jig
+K:Dmix
+|:DEF G3|AGE c2A|dcA d2e|fed cAG|
+|~F3 GFG|AGA cde|dcA GEA|1~D3 D2A:|2~D3 D2A||
+|:dcA d2e|fed ege|dcA c2d|egd ecA|
+|dcA d2e|fed ege|dcA GEA|1~D3 D2A:|2~D3 D2 z||
+
+X:125
+T:A Blast of Wind
+R:slip jig
+M:9/8
+L:1/8
+K:D
+~d3 dAG FED|dec dAF ~G3|ABc dAG FGA|=cBc E2F GFE:|
+!D2g fdf ecA|d2g fdf ~g3|d2g fdf eAB|=cBc E2F GFE|
+!D2g fdf ecA|d2g fdf ~g3|afd gec dAB|=cBc E2F GFE||
+
+X:130
+T:Cock and the Hen, The
+R:slip jig
+S:Cathal McConnell
+N:Also in Bm, see #51
+D:Joe McHugh & Barry Carroll: The Long Finger.
+D:Dervish: Playing with Fire
+Z:id:hn-slipjig-14
+M:9/8
+K:F#m
+~F3 FEF ~c2E|~F3 FEF AFE|~F3 FEF c2d|ecA BAF AFE:|
+|:ecA ABc d2f|ecA ABc BAF|ecA ABc d2B|cBA BAF AFE:|
+
+X:135
+T: Cook In The Kitchen, The
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+|: E | DGG GAG | =FDE ~F2E | DGG GFG | A2 d cAF |
+|DGG GAG | =FDE F2 d | cAG FGA | BGF G2 :|
+|: A | ~B3 BAG | ~A3 AGF | ~G3 GFG | A2 d cAG |
+|~B3 BAG | ~A3 A2 d | cAG FGA | BGF G2 :|
+|: B | d2 e f2 g | a2 g fed | cAG FGA | BdB cAF |
+|d2 e f2 g | a2 g fed | cAG FGA | BGF G2 :|
+
+X:140
+T: Dever The Dancer
+M: 9/8
+L: 1/8
+R: slip jig
+K: Emin
+|:BEE BEF G2A|BEE BAG FGA|BEE BEF G2A|B^cd ABG FED:|
+|ded cAF G2A|Bdd def gfe|ded cAF G2A|B^cd ABG FED|
+|ded cAF G2A|Bdd def gfe|agf gfe d2A|B^cd ABG FED||
+
+X:145
+T:Hardiman the Fiddler
+R:slip jig
+M:9/8
+K:Dmix
+|:~A2G FDE ~F2G|~A3 AGA cAG|~A2G FDE ~F2G|Add ded cAG:|
+|Add d2e ~f3|Add ded cAG| Add d2e ~f2g|agf ged cAG|
+|Add d2e ~f3| Add ded cBc | dcA d2e f2g|agf ged cAG||
+
+X:150
+T:Kathleen Hehir's Slide
+M:12/8
+R:slide
+K:D
+|:A|dcd e2d c2E EFG|B2B BAG F2D D2A|dcd e2d c2E EFG|ABA GFE D3 z2:|
+|:E|F2A d3 c2B G3|ABA G2E B2A F3|F2A d3 c2B G2F|EFG ABc d3 z2:|
+|:A|d2c d2e f2d A3|f3 fed c2d ecA|d2c d2e f2d A2F|EFG ABc d3 z2:|
+|:f|a2f f2d Adf agf|g2e e2c Ace gfg|a2f f2d Adf agf|gec ABc d3 z2:|
+
+X:155
+T: The Legacy Jig
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+|~G3 B2d|~g3 gab|~G3 ~B3|dBA AFD|
+|~G3 B2d|~g3 gab|age ege|1dBA ABA:|2dBA ABd|
+|~e3 edB|~d3 dBd|~e3 edB|dBA ABd|
+|~e3 edB|~d3 def|~g3 ~e3|dBA ABd|
+|~e3 edB|~d3 dBd|~e3 edB|gdB ABd|
+|~e3 edB|~d3 def|~g3 ~e3|dBA ABA||
+
+X:160
+T: The Lisheen Jig
+T: Farewell To Lisheen
+M: 6/8
+L: 1/8
+R: jig
+S: Michelle Mulcahy
+K: Dmaj
+|dfd cec|{c}BAF AFD|dfd cec| {c}BAF EFA|
+|dfd cec|{c}BAF AFD|1 FAB AFD|EFE DFA:|2~F3 AFD |EFE D2E||
+|DEF ABd|{d}BAF AFE|DEF ABd|{d}BAF E2F|
+|DEF ABd|{d}BAF ABd| D2B AFD|1 EFE DA,B,:|2 EFE DFA||
+
+X:165
+T:The Lisheen Slide
+M: 12/8
+L: 1/8
+R:slide
+K: Gmaj
+|: ~B3 BAB G2B A2G | ~B3 BAG A2B cBA |
+|~B3 BAB GBA GBd | gfe dBG A2B cBA :|
+|: ~g3 ~d3 ede def | gfg aga bab afd |
+|~g3 ~d3 ede def | gfg aga bgf g3 :|
+
+X:170
+T:Tom McElvogue's (Jig 01)
+S:Learned by Jeni Westerkamp from other harpers, via Eileen Gannon.
+S:We previously called it "Eileen's Jig".
+S:Transcribed by Doug Mast.
+M:6/8
+R:jig
+L:1/8
+K:G
+|: DGB BAB | GBd dBd | edc dcB | ceg  e/2f/2ga |
+| gdB BAB | GBd dBd | edc dcB |1 cAF GFE |2  cAF  G3 :|
+|: ded gda | bag agd | e2e aeb | c'ba bge |
+| ded gda | bag aed | e/2f/2ga gdB | BGF G3 :|
+|: d2d BdB | GFG Bdg | ecA dBG | F2G ABc |
+| d2d BdB | GFG Bdg | ecA dBG | FEF G3 :|
+
+X:175
+T:Paddy McNicholas
+T:The Black Rogue
+M:6/8
+L:1/8
+R:jig
+K:D
+d|cAA BGG|cAA A2d|cAA BGG|AFD D2d|
+|cAA BGG|ABA AFD|GFG BGB|AFD D2:|
+|:e|fef gfg|afd cBA|fef gfg|afd dfg|
+agf gfe|fed e2d|cAF G2B|AFD D2:|
+
+X:180
+T:Rambling Pitchfork, The
+M:6/8
+R:jig
+K:DMaj
+E|~F3 AFF|dFF AFD|~G3 ABc|ded cAG|
+|~F3 AFF|dFF AFD|GFG BGB|AFD D2:|
+|:A|d2e fed|ecA AFA|d2e f2g|faf gfe|
+|d2e fed|ecA AGF|GFG BGB|AFD D2:|
+
+X:185
+T:The Rolling Wave
+T:The Humours of Trim
+R:Double jig
+M:6/8
+L:1/8
+K:D
+|FEF DED|D2d cAG|FEF DED|~A2F GFE|
+|FEF DED|D2d cAG|~F3 GFG|~A2F GFE:|
+|:D2d cAd|cAd cAG|F2d cAG|~F3 GFE|
+|D2d cde|fed cAG|~F3 GFG|~A2F GFE:|
+
+X:190
+T:Scatter the Mud
+R:JIG
+M:6/8
+K:G
+|  eAA ~B2A | eAA ABd | eAA ~B2A | dBG GBd |
+| eAA ~B2A | eAA AGE | GAB dge |1 dBA ABd :|2 dBA A2 d|
+|: eaa egg | dBA ABd | eaa egg | dBG GBd |
+| eaf gfe | dBA AGE | GAB dge |1 dBA A2 z:|2 dBA ABd|
+
+X:195
+T:Shores of Lough Gowna, The
+T:Banks of Lough Gowna, The
+R:JIG
+M:6/8
+L:1/8
+K:D
+A | B3 BAF | FEF DFA | ~B3 BAF | d2 e fdB |
+B3 BAF | FEF DFA | def gfe | fdB B2 :|
+A | def a2 b | afb afe | dFA def | gfe  fdB |
+def a2 b | afb afe | def gfe | fdB B2 :|
+
+X:200
+T:Tar Road To Sligo, The
+M:6/8
+L:1/8
+R:Jig
+K:D
+e | fdB Bcd | ecA BAG | FAA ABc | dcd efg |
+|fdB Bcd | ecA BAG | FAA Aag | fdc d2 :|
+B | Adf Adf | gfg efg | afd dcd | Bed cBA |
+|Adf Adf | gfg efg | afd bge | edc d2 B |
+|Adf Adf | gfg efg | afd dcd | Bed cBA |
+|fdB gec | afd bge | ~a3 bge | edc d2 ||
+
+X:205
+T: Tatter Jack Walsh
+M:6/8
+L:1/8
+R:Double Jig
+K:DMix
+|:e|~f3 ded|cAB c2e|dcA GFG|Add efg|
+|~f3 ded|cAB c2e|dcA GFG|Ad^c d2:|
+|:A|dfa afd|dfa agf|~g3 ged|^cde gfg|
+|afd fed|cAB c2e|dcA GFG|Ad^c d2:|
+
+X:210
+T: Walls Of Liscarroll, The
+M: 6/8
+L: 1/8
+R: jig
+K: Dmix
+|: dcA AGE | GED D2E | GEE cEE | GAB cde |
+|dcA AGE | GED D2E | GEE cEE | DED D3:|
+|~d3 ecA | ~d3 ecA | GEE cEE | GAB cde |
+|~d3 ecA |  ~d3 ecA | GEE cEE |DED D3 |
+|dcd ecA | dcd ecA | GEE cEE | GAB cde |
+|dcA AGE | GED D2E | GEE cEE |DED D3 ||
+
+
+
+% Hornpipes, Barn Dances, Marches, etc.
+
+X:215
+T:Buck from the Mountain
+M:4/4
+R:Hornpipe
+K:D
+|AFAd BGBd |AFAd f3e|dfgf edBc|dBAF EFD2|
+|AFAd BGBd |AFAd f3e|dfgf edBc|dfec d2ef|
+|g2ge cABc |dAde f2ef|g2ge cABc|dBAF EFD2|
+|AFAd BGBd |AFAd f3e|dfgf edBc|dfec d4||
+
+X:220
+T:The Clan's March
+M:C|
+R:March
+K:Em
+|:B|E>D EF G>F GA|B2 e2 d B2 A|G>F GB AF DE | F2 E2 D3 B |
+|E>D EF G>F GA|B2 e2 d B2 A|G>F GB AF DE | FE ED E3:|
+|:B| B2 e2 e2 de | f2 fe d B2 B |A2 AB d2 de | dB AB d2 BA |
+| B2 e2 e2 de | f2 fe d B2 B|A>G FB AF DE | FE ED E3:|
+
+X:225
+T:Coleman's March
+M:C|
+R:March
+K:D
+|"D"F8|"G/D"G6FG|"D"A2AB AFD2|"A"E6FG|
+|"D"A2d2"A"c4|"G"B2BA "D"FED2|"Em"E2EF "A7"GFE2|1"D"D4ABAG:|2"D"D4DFAc||
+|:"D"d8|"A"c8|"G"B2Bc dcB2 |"D"A6 FG|
+|"D"A2d2c4|"G"B2 BA "D"FED2|"Em"E2EF "A7"GFE2|1"D"D4DFAc:|2"D"D2z2A2G2||
+
+X:230
+T:Coleman's Barn Dance
+M: 4/4
+L: 1/8
+R:barn dance
+K:G
+|:D2 DE G2 GA| B2BA Bc d2|dBge dBAB|GEED EAGE|
+|(3DDD DE G2 GA| B2BA Bc d2|dBge dBAB|G2 {f}g2 {f}g2 z2:|
+|b2 b2 a2 a2|gage d2Bc|dBge dBAB |GEED E2 ga|
+|(3bbb b2 (3aaa a2|gage d2Bc|dBge dBAB |G2 {f}g2 {f}g2 z2|
+|b2 b2 a2 a2|gage d2Bc|dBge dBAB |GEED EAGE|
+|(3DDD DE G2 GA| B2BA Bc d2|dBge dBAB|G2 {f}g2 {f}g2 z2||
+
+X:235
+T:Delahunty's
+T:The Wicklow Hornpipe
+E:7
+M:C
+L:1/8
+R:Hornpipe
+K:D
+FG|ABAF DEFG|AGAB =c2 (3AB^c|dcde fdAF|DGGF G2FG|
+ABAF DEFG|AGAB =c2 (3AB^c|dcde fdAG|F2D2 D2:|
+de|fedf ecAF|Gggf g2fg|a2 ab agec|dcAF G2FG|
+ABAF DEFG|AGAB =c2 (3AB^c|dcde fdAG|F2D2 D2:|
+
+X:240
+T: Lucy Farr's Barn Dance
+M: 4/4
+L: 1/8
+R:barn dance
+K: G
+|: (3DEF |G2 G2 G2 G2|GABG ~E2 D2|B4 B4|BddB A3 A|
+|BcdB G2 G2|GABG ~E2 D2|DEGA BddB|~A2 G2 G2 :|
+z2 |BcdB G2 G2|GABG ~E2 D2|DEGA B2dB|~B2 A2 A3 A|
+|BcdB G2 G2|GABG ~E2 D2|DEGA BddB|~A2 G2 G2 :|
+
+X:245
+T: Fermanagh
+M: 4/4
+L: 1/8
+R: highland
+K: Dmaj
+dB|:A2 FA AddB|A2 FD EFGB|(3ABA FA (3AAA FA|1 BGEG FDdB:|2 BGEG FDD2||
+|dAFA (3fff fe|dAFA Beec|dAFA (3fff fe|GFEF GABc|
+|dAFA (3fff fe|dAFA Beec|d2 cd (3Bcd A2|(3Bcd ec d2 dB||
+
+X:250
+T:Jackie Tar
+T:Cuckoo's Nest, The
+R:hornpipe
+M:4/4
+K:EDor
+|:Bd|e2ed efge|d2BA BcdB|ABde (3fga ef|d2A2 A2Bd|
+|edef g2fe|dBGB d2=cB|AGFE DEFA|G2E2 E2:|
+|:GA|BGEG BGEG|BAGF E2FG|AFDF AFDF|AGFE D2EF|
+|GFGB g2fe|dBGB d2=cB|AGFE DEFA|G2E2 E2:|
+
+X:255
+T:Kim's Lament Polka
+M:2/4
+L:1/8
+Q:
+C:Paul Rito
+S:By Paul Rito, Transcribed/Arranged by Doug Mast
+R:Polka
+K:G
+G/A/|:"G"BA GF|"C"G2 "D"AG/A/|BA GF|"Em"E2 "D"DG/A/|
+|"G"BA GF|"C"G2 "D"AG/A/|"G"BA "D"GF|1"G" G3 G/A/:|2"G"G3 B/c/|
+|"G"dd ef|g2  zg/a/|"G"ba "D"gf| "G"g2 zg/e/|
+|"G"dd ed|"Em"B2 z G/A/|"C"BA "D"GF|1"G" G3 B/c/:|2 "G"G3 ||
+
+X:260
+T:Kitty's Wedding
+M:4/4
+R:hornpipe
+K:D
+fe|:d2 Bd A2 FA|BAFE D2ED|B,DA,D DFBF|AFDF E2 fe|
+|d2 Bd A2 FA|BAFA D2 ED|B,DA,D DFBF|AFEF D2:|
+|: fg|afed bafd|Adfd edBA|DFAd FAde|fdgf e2 fg|
+|afed bafd|Adfd edBA|DFAd FAdf|eABc d2:|
+
+X:265
+T:London Pride
+M:4/4
+L:1/8
+S:As played by John Kirkpatrick on the Albion Country Band album "Battle of the Field."
+S:Transcribed/arranged by Doug Mast.
+R:hornpipe
+K:C
+"F"A3B c2A2|"C"GF ED C4|"Dm"D2 A2 "Am"AG FE|1 "Dm"D3E F2G2 :|2 "Dm"D4 D4||
+|:"F"A3B c2A2|"G"dc BA "Em"G4 |"Dm"A2 A2 "G"B2 B2 | "Dm"d4 "F"A4 |
+"F"A3B c2A2|"C"GF ED C4|"Dm"D2 A2 "Am"AG FE|1 "Dm"D3E F2G2 :|2 "Dm"D4 D4||
+
+X:270
+T:Merry Sherwood Rangers
+T:Durham Rangers
+M:4/4
+L:1/8
+S:As played by Ashley Hutchings et al. on the album
+"Kicking up the Sawdust"
+S:Transcribed/arranged by Doug Mast.
+R:hornpipe
+K:D
+FG | "D"AB AF A2 d2 | fg ef d2 A2 | "G"Bc dB "D"AB AF | "A"G2 E2 E2 FG |
+"D"AB AF A2 d2 | fg ef d2 A2 | "G"Bc dB "A"AB AG | "D"F2 D2 D2 ag |
+fe fg af df | ed cB A2 d| g2 bg f2 af | g2 e2 e2 FG |
+"D"AB AF A2 d2 | fg ef d2 A2 | "G"Bc dB "A"AB AG | "D"F2 D2 D2 ag |
+
+X:275
+T: Charlie O'Neill's
+T: The Donnegal Highland
+M: 4/4
+L: 1/8
+R: highland
+K: Emin
+A|BEBE cBcA|BEBE cAFA|BEBE cBcB|Addc BGGA|
+|BEBE cBcA|BEBE cAFA|BEBE cBcB|Addc BGBd||
+|(3gag fg (3BBB BA|G2 ag fdef|(3gag fg (3BBB BA|GBdc BGBd|
+|(3gag fg (3BBB BA|G2 ag fdcA|GBdB cdef|gbaf g3 A||
+
+X:280
+T:Off to California
+M:C
+R:hornpipe
+K:G
+(3DEF|\
+GFGB AGED|GBdg e2 (3def|gfgd edBG|ABAG E2(3DEF|
+GFGB AGED|GBdg e2 (3def|gfgd edBG|(3ABA GF G2:|
+|:gfeg fedf|edef edB2|gfgd edBG|ABAG E2(3DEF|
+GFGB AGED|GBdg e2 (3def|gfgd edBG|(3ABA GF G2:|
+
+X:285
+T: Peacock's Feather, The
+R: hornpipe
+M: 4/4
+L: 1/8
+K: D
+| FEED A2 AB | defd Bdef | ~g2fd efdB | AFED E2 DE |
+|FEED A2 AB | defd Bdef | (3gfe fd BedB |1 AFEF D2 z2 :|2 Adfe de ||
+|: fg |afge fdec | defd Bdef | ~g2fd efdB | AFED E2 DE |
+|FEED A2 AB | defd Bdef | (3gfe fd BedB |1 Adfe de :|2 AFEF D4 ||
+
+X:290
+T:Sheriff's Ride
+M:4/4
+L:1/8
+N:Original key was E minor.
+S:As played by John Kirkpatrick et al. on the Albion Country Band album "Battle of the Field."
+S:Transcribed/transposed/arranged by Doug Mast.
+R:hornpipe
+K:Dm
+"Dm"AG |F2 D2 D2 EF|"C"GF E2 "Dm"D3A|d2 d2 d2 ed|"C"c2 A2 A2 AB|
+"F"c2 c2 "Bflat"dc cB|"F"cB A2 "Gm"G2 FD|"Dm"F2 FG "C"cBAG|"Dm"A2 D2 D3 A|
+"Dm"d2 d2 d2 ed | "C"c2 A2 A4 | "Dm"d2 de f2 ed | "C"cd c2 A2 AB |
+"F"c2 c2 "Bflat"dc cB|"F"cB A2 "Gm"G2 FD|"Dm"F2 FG "C"cBAG|"Dm" A2 D2 D4||
+
+X:295
+T: Tailor's Twist, The
+M: C|
+R: hornpipe
+S: Noel Hill
+K: D
+FE| DA,FD AFdc| Bged ceag| fedc Bged| ceBe AF (3GFE|
+|   DAFD AFdc| Bged ceag| fedc Bgec| d2dc d2 :|
+|: fg|~a2 af dfaf| bagf eAce| ~g2gA (3Bcd ef| gbfg egfe|
+|  ~d2 ec dDFA| Bged ceag| fedc Bgec| d2dc d2:|
+
+X:300
+T:Tuamgraney Castle
+T:Loch Gamhna
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Ador
+cB|A2AB AGEG|AGAB cBcd|(3efg fa gedc|B2G2 G2 cB|
+A2AB AGEG|AGAB cBcd|(3efg fa gedB|c2A2 A2:|
+(3efg|a2ab ageg|agab a2ge|dega gedc|B2G2 G2 (3efg|
+|a2ab ageg|agab a2ge|dega gedB|c2 A2 A2 (3efg|
+|a2ab ageg|agab a2ge|dega gedc|BcdB GcBc|
+A2AB AGEG|AGAB cBcd|(3efg fa gedB|c2A2 A2||
+
+% Waltzes, slow tunes
+
+X:305
+T: Air Tune, The
+M: 4/4
+L: 1/8
+C: Liz Carroll
+S: Michelle Mulcahy
+R: Air
+K: Dmaj
+FG|Af{g}fe f2ed|f/2g/2adef2ed|Beed fded|BAAd BAFG|
+|Af{g}fe f2ed|f/2g/2ade efed|dBBe dAB/2c/2d|1 EFED D2:|2 EFED Defg||
+|a2ga fgef|{f}edcd FADA|Beed fded|BAAd BAFG|
+|Aaga fgef|{f}edcd FADA|GB{c}BA B/2c/2dBA|1 Affe defg:|2 Affe d2||
+
+X:310
+T:Boadicea
+M:9/8
+L:1/8
+S:As played by Dave Swarbrick and friends on the album "Flittin'" (Transatlantic, 1981)
+R: Air
+K:G
+|:Bcd|"D"c3 A3 A3|A3 z2A def|"C"(g3 g2) f e3|"G"d3 c3 Bcd|
+|"D"c3 A3 A3|a3 z2g fga|"C"(g3 g2) f e3 |"G"(d3 d2)c Bcd |
+|"D"c3 A3 A3|A3 z2A def|"C"(g3 g2) f e3|"G"d3 c3 Bcd|
+|"D"c3 A3 A3|a3 z2g fga|"C"g2f d3 f3|"G"g6 f2g|
+|"Am"(e3 e2)d c2d|"G"(B3 B2)A G2A |B3 c3 d3|"C"e3 f3 g3|
+|"Am"(e3 e2)d c2d|"G"(B3 B2)A G2F |"Em"E3 G3 c3|"D"(d3 d2) c Bcd|
+|"D"cA2 z2 A Bcd|cA2 z2 A Bcd |"G"D3 G3 F3 |"Em"(E12|E3) z3 Bcd|
+|"D"cA2 z2 A Bcd|cA2 z2 A Bcd |"G"D3 G3 F3 |"C"(G12|"G"G12|G8):|
+
+X:315
+T:Bonnie Galloway
+M:3/4
+L:1/8
+S:Jody Stecher, "Snake Baked a Hoecake"
+R:Waltz
+K:G
+|z2 D2E2|:G3A G2|G2E2G2|A3B A2|A2B2c2|d4 de|d4 de|d2c2B2| A6 |1 z2 D2 E2:|
+|2 z2 d2 e2|: g6|z2 e2 g2|c6 | z2 B2 c2 | e6| z2 d2 e2 | A6| z2 D2 E2 |
+|G3A G2|G2E2G2|A3B A2|A2B2c2|d4 de|d4 de|d2c2B2|1 A6 |z2 d2 e2:|2 A6 ||
+
+X:320
+T: Gentle Maiden, The
+M:3/4
+L:1/4
+R:Waltz
+K:G
+|: D| G>AG| F>ED | d3 | e>fg | d>cB | A2G | E3- | E2F |
+| G>AG| F>ED | d3 | e>fg | d>cB | A2G | G3- | G2 :|
+|: d | d>ef | g2g | g3| g>fe | d>cB| A2G | E3- | E2F |
+| G>AG| F>ED | d3 |e>fg | d>cB | A2G | G3- | G2 :|
+
+X:325
+T:Give Me Your Hand
+Z:Chords by Ken Laberteaux irtrad-l 2001-11-7
+M:3/4
+L:1/8
+R:Waltz
+K:G Major
+D2|"C"E2 G2 G2|"G"G4 D2|"C"E2 G2 G2|"G"G4 D2|"C"E2 G2 G2|"G"G2 A2 B2 |"Bm"B2 e2 d2|"Em"B4 AG|
+"Am"A2 A2 ed|"Em"B2 B2 dB|"D"A3 B AG|"C"E4 D2|"C"E2 G2 G2|"G"G4 D2|"C"E2 G2 G2|"G"G4 D2|
+"C"E2 G2 G2|"G"G2 A2 B2|"D"D3 B AB|"G"G4 D2|"C"E2 G2 G2|"G"G2 A2 B2|"Bm"B2 e2 d2|"Em"B4 AG|
+"Am"A2 A2 ed|"Em"B2 B2 dB|"D"A2 A2 Bd|"C"e4 dB|"G"d2 d2 e2|g4 ed|"Am"e2 e2 g2|"D"a4 ge|
+"G"g2 g2 de|"Em"g2 g2 de|"C"g2 g2 a2|"G"b6|"G"b2 b2 b2|b4 ag|"D"a2 ag ab|a4 gf|
+"C"e2 e2 ge|"G"d2 d2 gd|B2 B2 dB|"D"A3 c BA|"G"G3G Bd|"F"=f4 ed| "C"e2 e2 g2|"Am"e4 dB|
+"G"d2 d2 gd|"Em"B2 B2 dB|"D"A3 c BA|"G"G4|]
+
+X:330
+T:Hewlett
+M:3/4
+L:1/8
+C:Turlough O'Carolan
+R:Waltz
+K:D
+|: AF | D2 D2 FG | AB c2 A2 | d2 f2 fg | fe d3 B |
+| A2 F2 F2 | G3 A BG | AF D2 D2 | D4 :|
+|: AB | A2 D2 AB | A2 D2 AB | A2 d2 d2 | dc BA GF |
+| G2 G,2 GA | G2 G,2 GA | G2 GA BG | AF D2 D2 |
+| FE F2 G2 |  AB c2 A2 | fe fg ag | fe d3 B |
+| A2 F2 F2 | G3 A BG | AF D2 D2 | D4 |]
+
+X:335
+T: Love, Lie Beside Me
+T: A Ghra, Luigh Lamh Liom
+S: Grainne Yeats, "The Belfast Harp Festival"
+M: 2/2
+L: 1/8
+R:Waltz
+K:C
+ef|:g2 g2 g2 ag|f2 f2 f2 gf|e2 e2 f2 ed|edef g4|
+|g2 e2 gedc |d2 d2 ed c2| c2 c2 dcA>d |cAGA F2 :|
+Ac|: dcAG GA c2 |d2 d2 ed  c2|e2 e2 fe d2|edef g4|
+|g2 e2 fedc |d2 d2 ed c2| c2 c2 dcA>d |cAGA F2 :|
+
+X:340
+T:Mist-Covered Mountains of Home
+M:3/4
+L:1/8
+S:Jody Stecher, "Snake Baked a Hoecake"
+R:Waltz
+K:Am
+|: z4 E2 |A3B A2|A2 c2 d2 | e2 A3 B|A2 G2 E2|G3A G2|G2 B2 c2 |d2 A3B|A2G2E2|
+|c3 B c2 | d3 c d2 | e2 f2 g2 | B3A G2 | A3 ^c e2 | d3 c B2 | A6  :|
+|: z4 e2 | e2A2e2 | e4 e2 | d2e2g2| e3d BA |G3A G2| d6 |e3d e2 |d2 c2 B2 |
+
+X:345
+T:Near the Karpat Mountain
+M:3/4
+L:1/8
+S:As played by Brave Combo on the album "Polkas for a Gloomy World"
+S:Transcribed by Doug Mast.
+R:Waltz
+K:D
+|: "D"A2 A2 A2 | "E"^G4 E2 | "D"F2 D4 | D2 F2 A2 | "C#m"E4 "Bm"D2 | "A"C2 A,4 |
+| "A"A,2 C2 D2 | E4 D2 | "D"F2 "G"G4 | "D"F2 F2 A2 | "C#m"E4 "Bm"D2 | "A"C2 A,4 |
+| "A"A,2 C2 D2 | E4 D2 | "D"F2 "G"G4 | "D"F2 F2 A2 | "C#m"E4 "Bm"D2 | "A"C2 A,4 :|
+|: "G"GA B^A BG | "D"FG A^G AF | "E"EF GA, B,C | "D"DE FG ^GA |
+| "G"GA B^A BG | "D"FG A^G AF | "A"EF GA, B,C | "D"D2 D4 :|
+|: "(Harmony) D"f2 f2 f2 | "E"e4 c2 | "D"d2 A4 | F2 A2 d2 | "C#m"c4 "Bm"B2 | "A"A2 E4 |
+| "A"E2 A2 B2 | c4 B2 | "D"A2 "G"B4 | "D"d2 d2 f2 | "C#m"c4 "Bm"B2 | "A"A2 E4 |
+| "A"E2 A2 B2 | c4 B2 | "D"A2 "G"B4 | "D"d2 d2 f2 | "C#m"c4 "Bm"B2 | "A"A2 E4 :|
+|: "G"df gf ge | "D"de f^e fd | "E"cd eA GA| "D"FG AB cd |
+| "G"df gf ge | "D"de f^e fd | "E"cd eA GA| "D"F2 F4 :|
+
+X:350
+T:Toda Cousa que an Virgen
+M:3/4
+L:1/8
+H:Cantigas de Santa Maria, #117
+R:Waltz
+K:C
+|:"G"d2 B4|"F"c2 A4|"G"BA G4|BA G2 F2|
+|"G"G2 A2 B2|"F"c2 A4|1"F" A2 B2 c2 |"G"d6 :|2 "F"GF E2 F2|"G"G6|
+|:"G"B2 d4|"F"e2 f4|"G"g2 fe d2|ed c2 B2|
+|1"G"A2 BA G2|"F"A2 B4|"F"c2 B2 A2 |"G"B6 :|
+|2"G"A2 BA G2|"F"F2 A4|"F"AB cB A2|"C"G6|
+|:"G"d2 B4|"F"c2 A4|"G"BA G4|BA G2 F2|
+|"G"G2 A2 B2|"F"c2 A4|1"F" A2 B2 c2 |"G"d6 :|2 "F"GF E2 F2|"G"G6||
+
+% Misc., international
+
+X:355
+T:Armenaki Eimai Kyra Mou
+M:2/4
+L:1/16
+Q:
+R:
+S:From a Greek bouzouki book . . .
+K:C
+|"Dm"dcBA Bcd2|defe fed2|dcBA Bcd2|defe fed2|
+|"Dm"dcBA "C"c_BAG|"F"FGA_B AGGF|"Dm"D_EFG "Cm"FG_ED| "Dm"D3c "C"efgf|
+|"C"g3c efgf|g3c efgf|g_agf feed|"Dm"d2gf feed|
+|"Dm"d2c_B AGF_E|D3_E DCD2|"Gm"g3g g2 g2|"Dm"a2f2 _e2d2|
+|"Cm"g3f _ef_e2| "Dm"d8 | "Gm"g3f _ef_e2|"Dm"dcde fgeg|
+|"F"(f8|f8)|f2f2 "Cm"_ef_ed| "Dm"d8||
+
+X:360
+T:Dudulas
+S: Traditional Hungarian
+S: Learned from Beverly Woods and Seth Austen
+S:Transcribed by Doug Mast.
+M:4/4
+L:1/8
+K:C
+|d4 A4 | A2 B2 cB A2 | d4 A4 | A2 B2 cB A2 |
+| G4 A2 G2 | F4 E2 D2 | G4 F2 E2 | D8 |
+| G4 A2 G2 | F4 E2 D2 | G4 F2 E2 | D8 |
+
+X:365
+T:Imeland Och Grimeland
+S:As taught by Alicia Ericsson
+S:Arranged by "Trouble with Latitude"
+S:Transcribed by Doug Mast.
+M:4/4
+L:1/8
+K:G
+|: "D" A,G, A,B, A,2 A,2 | DE FE D2 D2 | "C"F3E C2 C2 | zE AF "G"D2 D2 |
+| "D" A,G, A,B, A,2 A,2 | DE FE D2 D2 | "C"F3E CE AF | "G"D2 D2 "D"D4 :|
+|: "D" d^c de =c2 cB | AB AF D2 D2 | "C"F3E C2 C2 | zE AF "G"D2 D2 |
+| "D" d^c de =c2 cB | AB AF D2 D2 | "C"F3E CE AF | "G"D2 D2 "D"D4 :|
+K:A
+|: "(in A) A" ED EF E2 E2 | AB cB A2 A2 | "G"c3B G2 G2| zB ec "D" A2 A2 |
+| "A" ED EF E2 E2 | AB cB A2 A2 | "G"c3B GB ec | "D"A2 A2 "A"A4 :|
+|: "A" a^g ab =g2 gf | ef ec A2 A2|  "G"c3B G2 G2| zB ec "D" A2 A2 |
+|"A" a^g ab =g2 gf | ef ec A2 A2|  "G"c3B GB ec | "D"A2 A2 "A"A4 :|
+
+X:370
+T:Kuhilaat
+M:4/4
+L:1/8
+K:C
+S:by Seppo Sillanpaa, from his album "Lamentarola"
+C:Seppo Sillanpaa
+CEF |"C" G2 G2 EF GE |"G" D2D2 DFED |"C" E2 C2 zFED | E2 C2 zCEF |
+|"C" G2 G2 EF GE |"G" D2D2 DFED |"C" E2 C2 zFED | CB,CD EGcB |
+|: "F" A6 AB | c2 c2 B2 A2 |"Em" AB G4 EF | G2 B2 G2 GE |
+|"Dm" F2 E2 D3C |"G" B,CDE FGFD |"C" E2 C2 zFED |1 CB,CD EGcB:|2  E2 C3 ||
+
+X:375
+T:Lamentarola
+M:3/4
+L:1/8
+R:
+K:F
+|:"Dm"ag fe d^c | dA GF ED | "Gm"ba gf ed | "A7"^cA GA cG | ^FA c_e dc | BG FG DF |
+|EG Bd cB | AF EF CE | DF BA BA | GE ^cG Ec | dA GA fd | e2 A4 :|
+|: ed ^c=B Aa | fe de fc | dc =BA Gg | ed cd eB | cB AG Ff | dc Bc dA |
+| BA GF Ee | ^c=B AB ^cA | d^c dA eA | fe fA Ge | "Dm"FE Fd "A"E^c | "Dm"d2 D4 :|
+
+
+X:380
+T:Myhrpolska
+M:3/4
+L:1/8
+K:C
+S:by Per Myhr, 1843-1927; as played by Hoven Droven
+C:Per Myhr
+|:"C" G,B, C2 DE|CD B,3D|E2 (3EDE (3FzE |"G"DB, G,4 |
+|"C" G,B, C2 DE|CD B,3D|E2 (3EDE (3FzE |1 "G"DB, "C"C2 z2 :|2 "G" DB, "C"C2 zE |
+|"F" DB, C2 EG|FA G2E2|"G" EF D3B, |C2 D2 zE |
+|"F" DB, C2 EG|FA G2E2|"G" EF D3B, |1 "C" C2 C2 zE:|2 "C" C2 C4 ||
+
+X:385
+T:The Vagabond
+M:4/4
+L:1/8
+Q:
+R:
+S:As arranged by Bartok, from a Slovakian folk tune
+S: Harmonized by Doug Mast
+K:C
+|"Am"A^G AB "Em"=G2 E2|"A"G^F E2 "Em"G^F E2|"Am"A^G AB "Em"=G2 E2|"A"G^F E2 "Em"G^F E2|
+|"C"EG FE "D"D2 C2|"G"B,C D2 "C"CD E2|"C"EG FE "Am"D2 C2|"E"B,C D2 "Am"CB, A,2|
+|"A"A^G AB "Em"=G2 E2|"Am"G^F E2 "Em"G^F E2|"A"A^G AB "Em"=G2 E2|"Am"G^F E2 "Em"G^F E2|
+|"C"EG FE "D"D2 C2|"G"B,C D2 "C"CD E2|"C"EG FE "D"D2 C2|"E"B,C D2 "Am"CB, A,2||
+|"(Harmony) Am"cB cd "Em"B2 G2|"A"BA G2 "Em"BA G2|"Am"cB cd "Em"B2 G2|"A"BA G2 "Em"BA G|
+|"C" CE DC "D"B,2 A,2|"G"G,A, B,2"C"A,B, C2|"C" CE DC "Am"B,2 A,2|"E"^G,A, B,2"Am"A,^G, A,2|
+|"A"^cB cd "Em"B2 G2|"Am"BA G2 "Em"BA G2|"A"^cB cd "Em"B2 G2|"Am"BA G2 "Em"BA G|
+|"C" CE DC "D"B,2 A,2|"G"G,A, B,2"C"A,B, C2|"C" CE DC "D"B,2 A,2|"E"^G,A, B,2"Am"A,^G, A,2||
+
+
+
+
+
+
+
+
+
+

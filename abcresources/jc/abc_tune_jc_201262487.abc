@@ -1,0 +1,19 @@
+X: 1
+T: the Clachan
+C: Peter White
+R: jig
+N: There's also an unrelated strathspey tune by the same name.
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: Emailed PDF from Steve Wyrick 2009-2-17
+M: 6/8
+L: 1/8
+K: G
+G "A1"[|\
+"G"D3 G2B | d2B G2D | "C"E2G c2e | "G"d3- d2d |\
+"Am"A2B "D7"cBA | "G"d2B "Em"G2B | "Am"A2G "A7"F2G | "D7"A2F E2 |]
+_E "A2"[|\
+"G"D3 G2B | d2B G2D | "C"E2G c2e | "G"d3- d2d |\
+"Am"cde "D"ABc | "G"Bcd "Em"GAB | "Am"ABc "D7"def | "G"g3 "fine"g2 |]
+"(B7)"f "B"[|\
+"Em"e2^d e2B | GBe "(B7)"g2f | "Em"e2^d e2B | G3 "A7"f2e |\
+"D"d2^c d2A | F3 F2G | "A7"ABA GFE | "D"Ddc AFE "to A2"[|]|]

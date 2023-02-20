@@ -1,0 +1,13 @@
+% We sometimes see K: lines like this. It's not valid ABC, but it's useful to
+% have test cases for mistakes like this to see how they're handled.
+
+X:1
+T:Ballinasloe
+M:2/4
+L:1/8
+R:Reel
+B:Harding's All-Round Collection, No. 118 (1905)
+Z:AK/Fiddler's Companion
+K:B Flat
+|: b/a/b/a/ b/f/d/f/ | g/a/b/a/ gf | b/f/d/f/ g/e/c/e/ | d/f/F/d/ cB :|
+|: F/c/A/c/ F/d/B/d/ | F/c/d/e/ df | b/f/d/f/ g/e/c/e/ | d/f/F/d/ cB :|

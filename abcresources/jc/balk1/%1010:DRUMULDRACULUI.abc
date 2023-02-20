@@ -1,0 +1,19 @@
+X:1010
+T: Drumul Dracului
+O: Hungary
+F: http://www.youtube.com/watch?v=pREGdz6HWhg
+F: http://www.youtube.com/watch?v=CnYRvZGXE_Y
+M: 2/4
+L: 1/8
+K: Fm
+Q: 1/4=160
+%%MIDI drum dd 40 40
+%%MIDI drumon
+FGAG|FGAG|FGAB|c4|\
+Bcdc|Bcdc|TB3z|BATG2|
+FGAG|FGAG|FGAB|cz2c|\
+cdBc|ABGA|F4-|F2z2|
+BcFF|FGAG|BcFF|FGAG|\
+A2A2|TB4|AFAB|c4|
+BcFF|FGAG|BcFF|FGAG|\
+A2A2|TB4|cBAG|F4|

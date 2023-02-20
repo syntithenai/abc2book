@@ -1,0 +1,47 @@
+X: 58
+T: Zillertaler Laendler
+O: Austria
+Z: Deborah Jones VIFD 2
+F: http://www.youtube.com/watch?v=_dqwz_kAseY
+F: http://www.youtube.com/watch?v=8fYW_tAEZPI
+M: 3/4
+L: 1/8
+Q: 1/4=150
+K: G
+%%MIDI program 41
+%%MIDI bassprog 33
+%%MIDI chordprog 24
+P:A
+   (3DEF                  |"G" [B,6D6G6]          |[D6G6B6]         |\
+   "D7" [F4c4d4] [c2d2f2] |"G" [B2d2g2] z2 [G2B2] |
+P:B
+|: "G" [G3B3][Bd] [B2-d2-]|[B2d2] [A2c2] [G2B2]   |\
+   [F6-A6-]               |[F6A6]                 |\
+   [A3c3][ce][c2-e2-]     |[c2e2][B2d2][A2c2]     |\
+   [G6-B6-]               |[G6B6]                 |
+   [B3d3][fa][f2-a2-]     |[fa]a ag fe            |\
+   [1"D7"[c6g6]           |[c6f6]                 |\
+   [A3c3][eg][e2-g2-]     |[eg]g gf fd            |\
+   "G" [B6f6]             |[B6e6]                 :|[2 "C" [c6f6]   |
+   [c6e6]                 |"D7"[F2c2d2] z f f2    |\
+   fe dc BA               |"G" G2 z2 "D7" [F2c2d2]|\
+   "G" [G2B2d2g2] z4      |
+P:C
+|: g2 gg                  | "C" ge cA ce          |\
+   ge cA ce               |"G" gd BG Bd           |\
+   gd BG Bd               |"D7" fdcA F2           |
+   ed cA F2               |"G"ed d^c de           |\
+   d3 g gg                | "C"ge cA ce           |\
+   ge cA ce               | "G" gd BG Bd          |
+   gd BG Bd               |"D7"fd cA A2           |\
+   fe dc AF               |"G" G2 z2 "D7" [F2c2d2]|\
+   "G" [G2B2d2g2] z4      :|
+P:D
+|: D2 GA                  |"G" B3 [Bd] [B2d2]     |\
+   [G3B3] B AG            |"D7" [F3A3] d d2       |\
+   [A3c3] F AB            | [F3c3] c cF           |
+   c3 AGF                 | "G" G3 [Bd][Bd]D      |\
+   [G3B3] D Bc            | [B6-d6-]              |\
+   [B2d2] z d cB          |"C" [c6-e6-]           |
+   [c2e2] z [eg] [eg][eg] | "D7" [c2f2] z f f2    |\
+   fe dc BA               |"G" G2 z2 "D7" [F2c2d2]|"G" [G2B2d2g2] z4 :|

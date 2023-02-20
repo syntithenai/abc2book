@@ -1,0 +1,34 @@
+X:511
+T:V\aakn opp, du som sover
+C:Ludvig Mathias Lindeman
+O:Norway
+F:http://abc.musicaviva.com/tunes/lindeman-ludvig-mathias/vaakn-opp-du/vaakn-opp-du-pno2.abc
+V:1 Program 1 19 up %Church organ
+V:2 Program 1 19 merge down %Church organ
+V:3 Program 1 19 bass up %Church organ
+V:4 Program 1 19 bass merge down %Church organ
+M:6/4
+L:1/4
+K:Bb
+V:1
+D|FDCB,DF|G>BAGBd|cAGF2D|FDCB,D=F|G>BAGBd|
+V:2
+B,|CB,A,B,2B,|B,>DED2=E|F2=EC2B,|CA,A,B,G,E|D>=EFF2F|
+V:3
+F,|F,2F,F,2_A,|G,2^F,G,2G,|C2B,A,2B,|A,F,_E,D,2A,|B,2CB,DB,|
+V:4
+B,,|A,,B,,E,D,B,,D,|E,>D,C,B,,G,,B,,|A,,C,C,F,,2G,,|F,,2^F,,G,,B,,C,|B,,>G,F,D,B,,G,,|
+%
+V:1
+cAGF2F|GGFEDC|E>GcBAF|BBcd2c|BAGFBc|B3z2|]
+V:2
+F2=EC2B,|B,=B,DCB,C|C2EDCC|FDG^F2D|D=FED2E|D3z2|]
+V:3
+A,C/D/B,A,2F,|_E,F,G,G,2G,|G,2G,F,2A,|F,B,G,A,2A,|B,C2DB,A,|F,3z2|]
+V:4
+C,>B,,C,F,,2D,|_E,D,=B,,C,G,,E,|C,>E,C,F,2E,|D,G,E,D,2^F,,|G,,A,,2B,,G,,F,,|B,,3z2|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

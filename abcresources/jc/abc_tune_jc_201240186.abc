@@ -1,0 +1,29 @@
+X: 373
+T: Miss Kelman's Strathspey
+C: by Wm Christie
+R: strathspey
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c."
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+D |\
+~G>AG>D B,>CD>=E | F>C (A,/B,/).C/.A,/ F>CF<A |\
+~G>AG>D B,>CD>=E | F>CA,>D B,G,G, :|\
+d |\
+g>dB>d g>bg>d | Tf>c (A/B/).c/.A/ f<cf>a |
+g>dB>d g>a {ga}b>g | Ta>^f d>f g2~g>d ||\
+(g/a/b) (.d.b) (f/g/a) (.c.a) | B<g A<f {AB}c>B AF |\
+G>ATG>D B,>CD>=E| TF>CA,>D B,<G,G, |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+G2B2 g2G2 | A2F2 f2F2 | G2B2 g2B2 | A2d2 G2G :| z | g2g2 g2g2 | a2f2 a2f2 |
+g2g2 g2g2 | d'2d2 g2G2 || g2b2 a2f2 | g2f2 =e2f2 | g2B2 G2B2 | A2d2 G2G |]
+% = = = = = = = = = =

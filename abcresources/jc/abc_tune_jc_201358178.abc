@@ -1,0 +1,17 @@
+X:1
+T:Schottis från jämtland
+R:schottis
+M:4/4
+L:1/16
+Q:1/4=125
+K:G
+P:A
+| B2\
+|: "G" d3b ba3 a3g gf3|f3e ed3 "C"[c6e6] B2|"D" A3G F2A2 {A}[D4d4] [D4d4]\
+| "G" d3B G2B2 {B}[D4d4] dB3| d3b ba3 a3g gf3|f3e ed3 "C"[c6e6] B2\
+| "D" A3G F2A2 {A}[D4d4] d2F2|"G"{F}[G,4G4] [G,2g2][G,2F2] [G,6G6] B2:|
+P:B
+|: "G" [D4d4] dB3 "C"e4 eB3|"G"[D4d4] dB3 "D"c6 B2|.A3G F2A2 [D4d4] [D4d4]\
+| "G" .d3B G2B2 [D4d4] dB3|[D4d4] dB3 "C"e4 eB3|"G"[D4d4] dB3 "D"c6 B2\
+| A3G F2A2 {A}[D4d4] d2F2| "G" {F}[G,4G4] [G,G][G,3F3] [G,6G6] B2:||
+

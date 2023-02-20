@@ -1,0 +1,34 @@
+X: 13
+T: Gracey Nugent
+C: Carolan
+%R: march, reel
+B: "The Hibernian Muse" p.8 #2 - p.9 #1
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. XIII.
+M: C|
+L: 1/8
+K: Gm
+%%slurgraces
+%%graceslurs
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+G2D2 G2A2 | B2cB {B}A2{G}F2 | d2G2 cBAG | T^F4 D4 |\
+BABc B2c2 | dcde f2d2 | g2d2 cBTAG G6 |]|\
+de |\
+f2f2 fgfe | f2F2 F2ef | g2g2 gagf |
+g2G2 G2ga |\
+b2B2 BcdB | bBd'2 Tc'2b2 | a2Tg2 f2=ed | f2c2 cdec |\
+f2c2 c2{d}ef | g2d2 defd | g4 Te2de | f2B2 Tf2ef |\
+g2d2 c2B2 | cBAG ^FGAF | G4 G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+G4 B2d2 | g2e2 f2F2 | G4 c4 | d4 D4 |\
+g^fga g2a2 | babc' d'2b2 | g2b2 d'2d2 | g2d2 G2 |]|
+z2 |\
+z2d'2 b2c'2 | z2f2 f2z2 | z2B2 c2d2 | z2g2 g2z2 |\
+z2B2 B2z2 | B2b2 a2g2 | f2c2 f2b2 | a4 c'4 |
+a4 f4 | b4 g4 | z2g2 c'2c2 | z2d'2 a4 |\
+b4 a2g2 | a2c'2 d'2d2 | g4 G4 |]

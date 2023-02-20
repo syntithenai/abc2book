@@ -1,0 +1,33 @@
+X: 1274
+T: Yell yell
+%R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.27 #4 (and all of p.28)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Note the 6-bar phrases in strains D and F.
+M: C
+L: 1/8
+K: Em
+%%continueall 0
+% - - - - - - - - - -
+V: 1 staves=2
+"^A"|: e |\
+B<E TBA/B/ dD B/A/G/F/ | B<ETB>A BE-E>g | f>ae<f dD B/A/G/F/ | B<E TBA/B/ dE-E "^B":| f | gebe a/g/f/e/ d>f | gebe a/g/f/e/ be |
+gebe a/g/f/e/ df | gebf a/g/f/e/ f/e/d/c/ || d/c/d/e/ f/e/d/c/ dD B/A/G/F/ | (BE)TB>A BEef | gebe a/g/f/e/ df | gebe a/g/f/e/ be ||
+gebe a/g/f/e/ df | ef/a/ ba/f/ af/e/ (f/e/)d/B/ | d/e/f/g/ a/g/f/e/ d<DA>F | Ee-e>g fae "^C"|]| f | E2 (TBA/B/) dD B/A/G/F/ |
+B<ETB>A dE-Eg | faef dD B/A/G/F/ | (B<E)TB>A dE-E>e || E2 (TBA/B/) dD B/A/G/F/ | (B<E)TB>A dE-E>g | faef dD B/A/G/F/ |
+(BE)TB>A dEE "^D"|[| f | ge-e>b fdaf | ge-e>b ge-e>b | ge-e>b fdaf | ge-e>b geeB | dfef dD B/A/G/F/ |
+B<E (TBA/B/) dE-Ef || gee>b fdaf | ge-e>b ge-e>b | ge-e>b fdaf | ge-e>b geeB- | Bbef dDA>F |
+Ee-e>g f<ae "^E"|: f | dE-Ee (eD)Df | (dE)Ee dETB>A | Bdef dDTA>F | EB-B>A eEE "^F":: e | bebf adaf |
+bebf bebf | bebf adaf | gbgb faef | deBd FDAF |1 EBTB>A dEE :|2 Eee>g fae |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|: z |
+e2e2 d2d2 | e2e2 e2e2 | e2e2 d2d2 | e2B2 e2E :| z | e2e2 d2d2 | e2e2
+e2e2 | e2e2 d2d2 | e2e2 e2e2 || f2a2 d'2d2 | e2B2 e2e2 | e2e2 d2d2 | e2e2
+e2e2 || e2e2 d2d2 | e2e2 e2e2 | f2a2 d'2d2 | e2B2 e2E |]| z | e2e2 d2d2 |
+e2e2 e2e2 | e2e2 d2d2 | e2B2 e2e2 || e2e2 d2d2 | e2e2 e2e2 | e2e2 d2d2 | e2B2 e2E |]| z |
+e2e2 d2d2 | e2e2 e2e2 | e2e2 d2d2 | e2e2 e2e2 | f2a2 d'2d2 | e2B2 e2e2 || e2e2
+d2d2 | e2e2 e2e2 | e2e2 d2d2 | e2e2 e2e2 | e2e2 d2d2 | e2B2 e2E |: z |
+e2e2 d2d2 | e2e2 e2e2 | e2e2 d2d2 | e2B2 e2e :: z | e2e2 d2d2 | e2e2 e2e2 |
+e2e2 d2d2 | e2e2 e2e2 | f2a2 d'2d2 |1 e2B2 e2e :|2 e2B2 e2E |]

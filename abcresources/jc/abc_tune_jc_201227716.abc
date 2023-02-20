@@ -1,0 +1,31 @@
+X: 10941
+T: COTILLION No. 13. tune 1
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.94 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Initial rest "pickup" added to 2nd strain to fix the rhythm.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+fg |\
+a3g fgaf | d2dc dcde | fege dcBA | ^defe =dcBA |\
+a3g fgaf | d2dc dcdf | fege dcBc | d2f2d2 H|]
+z2 |\
+e2fe dcBA | defg a2af | g2ge f2fd | e^def e4 |\
+e2fe dcBA | defg a2a2 | f2f2 a^gfg | a2c'2"^D.C."a2 |]
+f2 |\
+b4 ^abc'a | b4 f2e2 | dcBc dBfd | c2c2c2f2 |\
+b4 ^abc'a | b4 e2e2 | dcBc dBc^A | B2B2"^D.C."B2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 right and left,
+%% balance partners and turn,
+%% ladies chain,
+%% promenade 4,
+%% side couples the same.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

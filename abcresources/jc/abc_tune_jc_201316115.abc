@@ -1,0 +1,16 @@
+X:1
+T:Nancy's Waltz
+C:Alan Marchand
+M:3/4
+L:1/8
+R:Waltz
+K:D
+%%printtempo 0
+Q:160
+AB|:\
+"A"c4 cd|e4fg|"D"f4 ed|"A"cA3 AB|c4cd|ec3 (3ABA|
+"G"G3 A BG|"D"FA3 AB|"A"c4 cd|e2a2a2|"D"f3 f ed|
+"A"c A3 EF|"G"[G4G,4] AB|d3d BG |"D"F3 G FD |1"A"E4 AB:|2E4 e2||
+|:"D"f4 ed |"A"c A3 EF|"G"G3A BG|"D"F A3 de|f3f ed|ca3 ef|
+"G"g3 f ed|"A"e4 ab|c'4c'a|e c3 Bc|"D"d4 ef|ec3EF|
+"G"[G,3G3]G AB|d3d BG|"D"F3 G FD|1E4 e2:|2E6|]

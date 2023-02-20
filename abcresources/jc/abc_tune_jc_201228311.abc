@@ -1,0 +1,23 @@
+X: 111
+T: Bedford House
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.56 #111
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Fixed incorrect rhythms in bars 5, 10 & 13 (dotted 8th + 2 16th notes -> 1/4 + 2 16th notes).
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d/e/ |\
+fde fgf | fde fgf | fdB fdB | ccc Tc2d/e/ |\
+fde fgf | fde fgf | fdB ecA | B3 B,3 :|
+|: A/B/ |\
+cFd cFe | cFd c2A/B/ | cFd cFe | fed c2A/B/ |\
+cFd cFe | cFd c3 | fdB ecA | B3 B,3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu. 4 Hands round at Bottom cast
+%% up and 4 Hands round at top cross over 3 Cu.
+%% lead up and cast of Right and Left at top
+%%endtext

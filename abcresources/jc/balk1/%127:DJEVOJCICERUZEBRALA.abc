@@ -1,0 +1,21 @@
+X: 127
+T: Djevojcice Ruze Brala
+O: Croatia
+F: http://www.youtube.com/watch?v=K3wpE0fIoJc
+F: http://www.youtube.com/watch?v=me44Rmk5HBk
+M: 2/4
+L: 1/8
+K: Fphr
+Q:1/4=108
+%%MIDI program 20 Reed Organ
+P:A
+[FD][GE][AF][BG]|[A2F2][A2F2]-|[A2F2][GE][AF]|\
+|:[BG][BG][cA][BG]|[A2F2][A2F2]|[BG][BG][cA][BG]|[A2F2][A2F2]|
+[GE][GE][AF][GE]|[F2D2][GE][AF]:|\
+[BG][BG][cA][BG]|[A2F2][A2F2]|[BG][BG][cA][BG]|[cA][BG][A2F2]|\
+[GE][GE][AF][GE]|[F4D4]|
+P:B
+FGAB|A4-|A4|\
+|:[BG][BG][cA][BG]|[A2F2][A2F2]|[BG][BG][cA][BG]|[A2F2][A2F2]|\
+[GE][GE][AF][GE]|[1[F2D2][GE][AF]:|[2[F4D4]|
+[B4G4]|[A4F4]|[GE][GE][AF][GE]|[F4D4]|[B4G4]|[A4F4]|[cA][BG][AF][GE]|[F4D4]|

@@ -1,0 +1,39 @@
+X:2858
+T:A vir\'agok vet\'elked\'ese
+C:anon.
+O:Hungary
+B:Bart\'ok/Kod\'aly, Transylvanian Hungarian Folksongs
+N:The 8-bit characters are deliberate.  I think it's just plain
+N:offensive to insist that speakers of languages other than English
+N:should go through hoops learning TeX character codes so they can
+N:use their own alphabet, and the TeX crap needs to be deep-sixed
+N:as soon as possible.
+N:
+N:"I" is BarFly's inverted-fermata sign, "H" is a fermata
+N:The very long lines are to align the beats right in the source
+N:Things I couldn't get into the ABC:
+N: 1. the B gracenote in bar 1 and G gracenote in bar 4 have crossed flags
+N: 2. I *think* the fermata and inverted fermata are meant, but the printed
+N:    signs don't have dots.
+Z:Jack Campin 2001 (from a paper copy I made 20 years ago)
+F:http://abc.musicaviva.com/tunes/hungary/a-viragok-vetalkedese.abc
+%Posted at abcusers Feb 8th 2001 by Jack Campin.
+M:4/4
+%M:(4/4) % what they actually wrote, meaning it isn't strict
+L:1/4
+Q:1/4=86
+%Q:Lento, poco rubato 1/4=84-88 % what they actually wrote
+K:Gmix
+(D/|     G) B            ({B}d2-{(3ded})      |      (d{c/B/})     (c{B/A/})
+(B2{c/B/A/}.B/) z/ z|
+  ({B/c/}d2{c/B})            c (B{c/B/}{A/B/})|      (c{B/A/})     (B{G})    HA2
+Hz|
+         A         B  ({A/B/}c2{d/c/B/})      |   ({B}d2{c/B}) ({A/}B/)
+(HG3/{A/B/})        z|
+  ({A/B/}c{B/A/}) (B{A/G}) (IA2{G})           |({G/A/}B{A/G/})     JA        HG2
+|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

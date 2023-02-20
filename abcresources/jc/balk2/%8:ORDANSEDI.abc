@@ -1,0 +1,24 @@
+X: 258
+T: Ordan Sedi
+T: Deninka
+O: Macedonia
+F: http://www.youtube.com/watch?v=QQC83XQOiBk
+F: http://www.youtube.com/watch?v=4c156pkWHZg
+S: Deborah Jones VIFD Book 1
+M: 7/8
+L: 1/8
+Q: 1/4=160
+K: D
+%%MIDI gchord f2zc2c2
+%%MIDI program 25
+%%MIDI bassprog 36
+   "D" fda Tf2 "A7" fe              |"D" Td2 A dA dA                  |\
+   aga Tf2 "A7" fe                  | "D" d2 A dA de                  |
+   fga Tf2 "A7" fe                  | "D" d2 A "D7" de fg             |\
+   "G" f2 e "A7"ed ef               | "D" d2 A d2-d2                  |
+|: "D" [F2d2] [Fd] [A2c2]"G"[G2B2]  | "A7"[F2A2][GB] [A2c2][G2B2]     |\
+   "D" [F3-A3-] [F2-A2-] [F2-A2-]   |[F3-A3-] [F2-A2-] [F2A2]         :|
+|: "D" [D2F2][EG] [F2A2][GB][FA]    | "A7" [EG][DF][EG] [F2A2][FA][EG]|\
+   "D" [D2F2][EG] [FA][GB] [F2-A2-] | [F3-A3-][F2-A2-][F2A2]          |
+   "D" [D2F2][EG] [F2A2][GB][FA]    | "A7" [EG][DF][EG] [F2A2][FA][EG]|\
+   "D" [D3-F3-] [D2-F2-][D2-F2-]    | [D3-F3-] [D2-F2-][D2F2]         :|

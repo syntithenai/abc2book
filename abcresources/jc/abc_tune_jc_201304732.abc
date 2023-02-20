@@ -1,0 +1,698 @@
+
+X: 0000
+T: Minuets Cotillons & Country Dances
+C: Ignatius Sancho
+B: Minuets Cotillons & Country Dances, 1775, London
+S: British Library shelfmark a.o.b.(1.)
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+K:
+%%sep 5 5 300
+%%center Minuets Cotillons & Country Dances
+%%center for the
+%%center Violin, Mandolin, German FLute, &
+%%center H A R P S I C H O R D
+%%center Composed by an African
+%%center Most humbly Inscribed to his Grace
+%%center HENRY DUKE of BUCCLEUGH, &c, &c, &c.
+%%center --------------------
+%%center London Printed for the Author
+
+% %newpage
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 031
+T: Minuetto 1
+C: Ignatius Sancho (1775)
+B: "Minuets Cotillons & Country Dances", 1775 p.3 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+N: For ABC version 2, which handles multiple voices on a staff.
+N: The booklet's Corni parts have a C-clef on the 2nd line (middle=E).
+N: Change che clef= and middle= fields to get your preferred clef notation.
+R: minuet
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+V: 1 nm=Corni1 snm=C1 clef=alto   middle=E staves=2
+V: 2 nm=Corni2 snm=C2 clef=alto   middle=E
+V: 3 nm=Viol1  snm=V1 clef=treble middle=B staves=2
+V: 4 nm=Viol2  snm=V2 clef=treble middle=B
+V: 5 nm=Bassi  snm=B  clef=bass   middle=d
+%%score (1 2) (3 4) 5
+% - - - - - - - - - -
+[V:1] |: c>B A2 G2 | F2 C2 F>G | A2 F2 c>d | c2 B2 A2 | c6- | c6 | z2 G2 A2 |1 A2 G4 :|2 A2 G4 :|
+[V:2] |: A>G F2 C2 | A,2 F,2 B,>C | F2 B,2 A2 | A2 G2 F2 | C6- | C6 | z2 C2 F2 |1 F2 C4 :|2 F2 C4 :|
+[V:3] |: c>B A2 G2 | F2 C2 F>G | A2 F2 c>d | c2 B2 A2 | !f!G>A !p!B2 A2 | !f!G2 !p!e2 f2 | g>a b2 a2 |1 a2 g4 :|2 a2 g4 :|
+[V:4] |: A>G F2 E2 | F2 C2 F>G | A2 F2 A2 | A2 G2 F2 | !f!E>F !p!G2 F2 | !f!E2 !p!G2 A2 | B2 g2 f2 |1 f2 e4 :|2 f2 e4 :|
+[V:5] |: f2 a2 c'2 | f4 f2 | f2 a2 f2 | c'2 c2 f2 | !f!.c2 !p!(e2 f2) | !f!c2 !p!b2 a2 | !f!g.f e2 f2 |1 c2 c'bag :|2 c2 C4 :|
+% - - - - - - - - - -
+[V:1] |: c6- | c6 | c2B2A2 | A2G2z2 | c6- | c6 | B2A2G2 | {G}A4z2 | c6- | c6 | B2A2G2 | F6 :|
+[V:2] |: C6- | C6 | C4F2   | F2C2z2 | C6- | C6 | G2F2C2 | F,4z2 | C6- | C6 | G2F2C2 | A,6 :|
+[V:3] |: gec2b2 |  b2a2g2 | gabagf | f3 edc  | !f!C2!p!(b2a2) | !f!C2!p!(b2a2) |\
+      {a}g2f2e2 | {e}f4z2 | !f!.C2 !p!(B2A2) | !f!.C2 !p!(B2A2) | (3(dcB)A2G2 | F6 :|
+[V:4] |: gec2g2 |  g2f2e2 | efgcBA | A2G2z2  | !f!C2!p!(g2f2) | !f!C2!p!(g2f2) |\
+    (3(dcB)A2G2 | {G}A4z2 | !f!.C2!p!(G2F2)  !f!.C2!p!(G2F2) | (3(BAG)F2E2 | F6 :|
+[V:5] |: c2c2c2 |  c2c2c2 | c2e2f2 | c'2c2z2 | !f!z2!p!(e2f2) | !f!z2!p!(e2f2) |\
+      !f!B2c2c2 |  d3 agf | !f!e4 !p!.f2 | !f!e4!p!.f2 | !f!B2c2C2 | F6 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 041
+T: Minuetto 2 Rondo
+C: Ignatius Sancho (1775)
+B: "Minuets Cotillons & Country Dances", 1775 p.4 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+N: For ABC version 2, which handles multiple voices on a staff.
+N: The B strain really is missing a note in the last measure of the Viol2 part. (Try F or A if you like.)
+N: The booklet's Corni parts have a C-clef on the 5th line (middle=A).
+N: Change the clef= and middle= fields to get your preferred clef notation.
+N: The book has the Corni parts at the top, but available ABC software got confused when it "went missing"
+N: after the first strain, and misformatted the Viol and Bassi parts.  The order here worked normally,
+N: after I moved the Viol parts to the top position..
+R: minuet
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Bb
+V: 1 nm=Viol1  snm=V1 clef=treble middle=B staves=2
+V: 2 nm=Viol2  snm=V2 clef=treble middle=B
+V: 3 nm=Corni1 snm=C1 clef=alto   middle=A staves=2
+V: 4 nm=Corni2 snm=C2 clef=alto   middle=A
+V: 5 nm=Bassi  snm=B  clef=bass   middle=d
+%%score (1 2) (3 4) 5
+% - - - - - - - - - -
+P: A:
+[V:1] |: d4(c3/d//e//) | (dc)(BA)B2 | FBdBFd | c3d/e/ dz | d4c3/d//e// | dcBABF | G<gf<ed<c | HB6 :|
+[V:2] |: F2 B2 A2 | B2 z2 z2 | FBdBFB | A3 B/c/ Bz | F2 B2 A2 | B2 z2 F2 | G<ed<cB<A |  B6 :|
+[V:3] |: d4 c2 | d2  z2 z2 | f2 f2 d2 | c4 d2 | d4 c2 | d2 z2 z2 | B>c d2 c2 | HB6 :|
+[V:4] |: B4 F2 | B,2 z2 z2 | d2 d2 B2 | F4 B2 | B4 F2 | B2 z2 z2 | B2  F2 F2 | B,6 :|
+[V:5] |: B2 d2 f2 | b2 z2 z2 | z2 b2 B2 | f2 F2 B2 | B2 d2 f2 | b2 z2 d2 | e2 f2 F2  | HB6 :|
+% - - - - - - - - - -
+P: B:
+[V:1] |: x6         | x6     | x6     | x6      | bagabg  | agfgaf | g3/a//b// agf=e | f6  :|
+[V:2] |: d>ed>ed>=e | f2c2f2 | g2c2B2 | A>Bc2z2 | gf=efge | f2ABcA | B3/c//d// cBAG | "_da Capo"x6 :|
+[V:5] |: B2 d2 f2   | A2c2f2 |=e2g2c'2| f2ac'af | c2c,2z2 | f2F2z2 | b2c'2c2 | fgfedc :|
+% - - - - - - - - - -
+P: C:
+[V:1] |: d>e d2 c2 | B>c B2 A2 | G2 g2 f2 | e2 d2 z2 | (gd)(bg)Tg2 | (gd)(bg)Tg2 | (Ae)(dc)(BA)  |          G6 :|
+[V:2] |: B>c B2 A2 | G>A G2^F2 | G2 e2 d2 | c2 B2 z2 | x6          | x6          | (Ac)(BA)(G^F) |"_da Capo"G6 :|
+[V:5] |: G2  B2 d2 | g2 b2 d'2 | e4   =B2 | c2 g2 z2 | G2   B2  d2 | g2   b2 d'2 |  c2  d2  D2   |      Ggfedc :|
+% - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 051
+T: Minuetto 3
+C: Ignatius Sancho (1775)
+B: "Minuets Cotillons & Country Dances", 1775 p.5 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+R: minuet
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+V: 1 nm=Corni snm=C clef=bass   middle=D
+V: 3 nm=Violi snm=V clef=treble middle=B
+V: 5 nm=Bassi snm=B clef=bass   middle=d
+%%score (1 2) (3 4) 5
+% - - - - - - - - - -
+[V:1] |: G2 G>GG>G | G2 D2 G2 | B2 B>BB>B | B2 G2 B2 | d2 d>dd>d | d2 B2 d2 | d2 c2 B2 | B2 A4 :|
+[V:2] |: z6        | z6       | G2 G>GG>G | G2 D2 G2 | B2 B>BB>B | B2 G2 B2 | z6       | z6    :|
+[V:3] |: G2 G>GG>G | G2 D2 G2 | B2 B>BB>B | B2 G2 B2 | d2 d>dd>d | d2 B2 d2 | (d/e/d) c2 B2 | TB2 A4 :|
+[V:4] |: G,6       | x6       | G2 G>GG>G | G2 D2 G2 | B2 B>BB>B | B2 G2 B2 | (B/c/B) A2 G2 | G2 F4 :|
+[V:5] |: g2 d2 B2  | G2 z2 z2 | g2 d2 B2  | G2 z2 z2 | G2 B2 d2  | g2 z2 z2 | z2 g2 G2 | d2 d'c' ba :|
+% - - - - - - - - - -
+[V:1] |: z6 | z6 | z6 | z6 | d2 z2 z2 | d2 z2 z2 | GA B2 A2 | G6 :|
+[V:2] |: z6 | z6 | z6 | z6 | B2 z2 z2 | B2 z2 z2 | G2 D2 D2 | G,6 :|
+[V:3] |: x6        | x6       | x6       | x6       | x6              | x6              | (3(edc) B2 A2 | G6 :|
+[V:4] |: d2 d>dd>d | d2 g2 d2 | c2 a2 c2 | c2 B2 A2 | (3(gfg)  d2 B z | (3(gfg)  d2 B z | (3 cBA  G2 F2 | G6 :|
+[V:5] |: b2 b>bb>b | b4    g2 | a2 f2 d2 | g2 G2 d2 | .g2     (b2 g)z | .G2      b2 gz  | c2      d2 D2 | G6 :|
+% - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 061
+T: Minuet 4
+C: Ignatius Sancho 1775
+%R: minuet
+B: "Minuets Cotillons & Country Dances", 1775 p.6 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: B2 d>Bd>B | Tc4 (d/e/d) | (gG)(GA)(AB) | B>Ac>A F2 | TB2 d>Bd>B | Tc4 (d/e/d) | g2 f>de>c | {c2}HB6 :|
+[V:2] |: B4 b2 | f2 a2 b2 | e2 c2 B2 | f2 F2 fe | d2 B2 b2 | a2 f2 b2 | e2 d2 f2 | HB2 dBfd :|
+[V:1] |: F2 G2 A2 | TB3 c d2 | G2 A2 B2 | Tc3 d e2 | A2 B2 c2 | (d>c)(e>d)(f>e) | (ga)(bf)(ed) | Td2 c4 |]
+[V:2] |: B2 B2 B2 | Bdfd B2 | ed c2 B2 | f2 F2 F2 | fe d2 c2 | B2 z2 z2 | e2 d2 B2 | f3 "^da Capo"edc |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 062
+T: Minuet 5
+C: Ignatius Sancho 1775
+N: This is version 2, for ABC software that understands voice overlays and tremolo notation.
+N: Note the overlaid C in the first strain's last bar; the run of 8th notes works only for the repeat.
+%R: minuet
+B: "Minuets Cotillons & Country Dances", 1775 p.6 #2 (and top of p.7)
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: f2 a4 | (ga/b/) b4 | (fa)(df)(eg) | f2 c4 | B2 .g.e.c.B | A2 .f.c.B.A | AFcAfA | {A2}G6 :|
+[V:2] |: fefgab | c'geceg | f2 b2 c'2 | f2 a2 f2 | g2 e2 c2 | f2 a2 f2 | f2 f2 f2 | c2 c'bag & c6 :|
+[V:1] |: G>B TB4 | A>c Tc4 | (dc)(ef)(GB) | TA3 B c2 | (fc)(fg)(^ga) | Td2 Te2 (fc) | Tdc/B/ A2 TG2 | F6 :|
+[V:2] |: e2 g2 c2 | f2 a2 f2 | (gf)(ed)(ce) | f2 f2 f2 | a4 f2 | b4 a2 | b2 c'2 c2 | f2 c2 F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 071
+T: Minuet 6
+C: Ignatius Sancho 1775
+%R: minuet
+B: "Minuets Cotillons & Country Dances", 1775 p.7 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: fc Tc2 ac | dfeg f2 | g2 bagf |{a}g2 fedc | gc Tc2 gc | ac Tc2 ac | ga b2 Ta2 | {a2}g6 :|
+[V:2] |: f2 a2 f2 | b4 a2 | b2 b2 b2 | c'2 c2 z2 | e2 e2 e2 | f2 f2 f2 | e4 f2 | c2 c'bag :|
+[V:1] |: fc Tc2 d_e | df B4 | gd Td2 ef | eg c4 | B2 eBgB | Acdefc | (d3/c//B//) A2 TG2 | f6 :|
+[V:2] |: a2 a2 a2 | b2 B2 b2 |=b2 b2 b2 | c'2 e2 e2 | c2 c2 e2 | f2 f2 f2 | b2 c'2 c2 | f2 c2 F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 081
+T: Le Jour de May          F
+C: Ignatius Sancho 1775
+%R: march, reel
+B: "Minuets Cotillons & Country Dances", 1775 p.8 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: a2e2c2A2 | (B2cd) c2A2 | d2fz c2ez | (B2cd) c2A2 | a2e2c2A2 | (B2cd) c2A2 | d2fz c2ez | BdcB A4 :|
+[V:2] |: a4 A4 | e4 a4 | d4 A4 | e4 A4 | a4 A4 | e4 a4 | d4 A4 | e4 A4 :|
+[V:1] A2E2 (c2BA) | (e2dc) a4 | ffdd eecc | BBdd c2A2 | (c2A2)(e2c2) | (a2e2) c'4 | ggaa bbee | B2^d2 "^da Capo"e4 |]
+[V:2] A4 A4 | A4 c2BA | d4 c4 | d2e2 a4 | A4 A4 | A4 a2A2 | e4 g2a2 | b2B2 e4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% All Round, Back again, Four Lead up, fall back, Ballance four Round,
+%% Every Gentleman turn his Partner, the other four do the same, Every
+%% Gentleman turn his Partner into her Place.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 082
+T: The Merry wives of Westminster.          E
+C: Ignatius Sancho 1775
+%R: jig
+B: "Minuets Cotillons & Country Dances", 1775 p.8 #2 (and top of p.9)
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] A | AA,A, A,2D | CEA CEA | DFA DFA | BcA  GFE | AEA cBA | BEB dcB | cae fed | cAA A2 :|
+[V:2] z | A3    c2B  | A3  c3  | d3  f3  | B2^d e3  | a3  A2a | g3  e2g | a2c d2e | A3  a2 :|
+[V:1] e | ecA   aec  | dBb bgd | cAc cAc | BGE  E2e | ece aec | dBb bgd | ceA BdG | AAA A2 :|
+[V:2] z | a3    A2a  | a3  g3  | a3  A3  | e3   geg | a3  A2a | a3  g3  | a2c d2e | Ace a2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The First Couple cast off one Cu. hands round four with the third Cu. .| Cast up
+%% and hands round four at top :| Cross over one Cu. foot it and turn your Partner :|.
+%% Lead thro the Bottom Cast up into the Second Cu.s Place Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 091
+T: Le Contes des Fees.          F.
+C: Ignatius Sancho 1775
+%R: march, reel
+B: "Minuets Cotillons & Country Dances", 1775 p.9 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: cfcA | cfcA | c2BA | dBGB  | cfcA  | cfcA | cBAG | F2F2 :|
+[V:2] |: f2a2 | f2F2 | a2f2 | b2c'2 | f2a2  | f2F2 | ABc2 | F2f2 :|
+[V:1] |: fafd | egec | dfed | c2A2  | BdBG  | AcAF | cBAG | F2F2 :|
+[V:2] |: f2Ff | e2Ee | f2g2 | c2f_e | d2=e2 | f2F2 | ABc2 | F2f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% All Round Back again Each Gentleman turn his Partner Ballance and Rigadoon Step,
+%% Each Gentleman turn his Partner the other way, Ballance and Rigadoon Step.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 101
+T: Christmas Eve.          E.
+C: Ignatius Sancho 1775
+%R: jig
+B: "Minuets Cotillons & Country Dances", 1775 p.10 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: B
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: BAB (FBd) | ecA BFA | {c}BAB FBd | ecA B3 :: fbf gec | fdB ecA | fbf gec | ecA B3 :|
+[V:2] |: b3 B3 | f3 B2e | d3 B2b | f3 B3 :: b3 e3 | d3 c3 | B3 e3 | c2f B3 :|
+[V:1] |: FBd FBd | ecA BFD | FBd FBd | ecA B3 :: fdf fdB | geg gec | bgb bfd | ecA B3 :|
+[V:2] |: b3 B3 | f3 B3 | b3 B3 | e2f Bdf :: b3 B3 | b3 B2c | d2e d2B | f2F B3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The First Cu. foot it to the Second Wo. without turning .| the same to the Second Man :|
+%% Lad down one Cu. .|. up again and cast off :|: Right hands across half round with the
+%% third Cu. .|| Left hands back again .||. Foot it Right and Left at top :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 102
+T: Le Douze de Decembre.          F.
+C: Ignatius Sancho 1775
+%R: march, reel
+B: "Minuets Cotillons & Country Dances", 1775 p.10 #2 (and top of p.11)
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: e2g2 g2c2 | dcBA G2G2 | ABcA BcdB | c2g2 g4 | e2g2 g2c2 | dcBA G2G2 | ABcA BcdB | c2c2 c4 :|
+[V:2] |: c4 e4 | g4 e2c2 | f4 d2g2 | e2c2 e2g2 | c'4 c2e2 | g4 e2c2 | f4 d2g2 | c2g2 c'4 :|
+[V:1] |: e2g2 g2c2 | f2a2 a4 | e2g2 g2c2 | dcde f4 | e2g2 g2c2 | f2a2 a2d2 | e2c2 BcdB | c2c2 c4 :|
+[V:2] |: c4 e4 | f4 F2f2 | e4 c2e2 | g4 agab | c'4 c4 | a4 f4 | g4 G4 | c2G2 C4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% All Ballance and hands round, Back again, The 1st four Allmande, the other four Chassee at
+%% the same time: the other four do the same, the first four Chassee at the same time.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Nothing at all          E.
+C: Ignatius Sancho 1775
+%R: reel
+B: "Minuets Cotillons & Country Dances", 1775 p.11 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: b2fd cdec | dBcA BFED | b2fd cdec | dBcA B2B,2 :: fgfd gabg | fdcB cAGF |
+[V:2] |: B2b2 a2f2 | b2f2 B4 | b2B2 a2f2 | b2f2 b2B2 :: B2B2 B2B2 | B2d2 f2F2 |
+[V:1] fgfd gabg | fdec B2B,2 :: EBGB EBGB | AcAc BFDB, | EBGB EBGB | ABcA B2B,2 :|
+[V:2] B2B2 B2B2 | B2f2 B4 :: e2e2 g2g2 | f2f2 B4 | g2g2 e2e2 | f2f2 B4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The First and Second Cu. foot it Right and Left half round .| the same back again :| Lead
+%% down two Cu. .|. up again and cast off :|: Hands round four at Bottom .||. Right & Left at top :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 121
+T: Kew Gardens          E.
+C: Ignatius Sancho 1775
+%R: reel
+B: "Minuets Cotillons & Country Dances", 1775 p.12 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: f2ed cAeg | fdAf ecAG | FAdf Bdgb | afec d2D2 :: f2ed ceac | dfed cBAG |
+[V:2] |: d'2d2 f2c'2 | d'2d2 a4 | d'2d2 g2G2 | A2a2 d4 :: d2d'2 a2c'2 | b2e2 a4 |
+[V:1] FAdF GBdg | fdaf ecA2 | f2ed ecBA | g2bg afed | Bdgb Adfa | gedc d2D2 :|
+[V:2] d2d'2 b2g2 | a2d2 a4 | d'2d2 a4 | b2g2 f4 | g2e2 f2d2 | a2A2 d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The First Cu. foot it and Cast off two Cu. .| Foot it and cast up again :| Cross over two
+%% Cu. Lead up to the top and Cast off .|. Foot it hands round all Six :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 122
+T: La Loge de Richmont.          F.
+C: Ignatius Sancho 1775
+%R: jig
+B: "Minuets Cotillons & Country Dances", 1775 p.12 #2 (and top of p.13)
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: EBB GBB | EBB G2B | egg fdB | ecA B3 :: bfd gec | fdB A2F | bfd gec | ecA B3 :|
+[V:2] |: g3 e3 | g3 e3 | c3 d3 | e2f B3 :: b3 B3 | b3 f2e | d3 e3 | c2f Bdf :|
+[V:1] |: d2e fdB | d2e fdB | edc dcB | A2B cAF | d2e fdB | d2e fdB | dfb dfb | edc B3 :|
+[V:2] |: b3 B3 | b3 B3 | f3 b3 | f3 e3 | d3 B3 | b3 B3 | B3 B3 | f3 B3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% All round, back again, first four Lead up Ballance Lead back again, the other four do the same,
+%% The first & third Men turn their Partners with right hands under the Arms, the 2d & 4th Cu. at the
+%% same time Allmande back again, the 2d & 4th Cu do the same as the 1st & 3d the 1st & 3d do the same as
+%% the Second and fourth.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 131
+T: The Carravan          E.
+C: Ignatius Sancho 1775
+%R: reel, march
+B: "Minuets Cotillons & Country Dances", 1775 p.13 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] A2 | AEDC B,dcB | d>cd>B AGFE | AEDC B,dcB | c>AB>G A2 :: e2 | (a>e)d>c (f>e)(f>a) | (e>c)(B>A) BGFE |
+[V:2] z2 | A2a2 g2e2 | a2e2 A4 | a2Aa g2e2 | a2e2 A2 :: z2 | a2A2 d2B2 | c2^d2 e4 |
+[V:1] (a>e)dc (f>e)(f>a) | (e>c)BA {A}B3E | TA2 B/A/c TB2 c/B/d | c>Ae>c BGFE | Tf2 g/f/a (e>c)BA | f>dc>B A2 :|
+[V:2] A2a2 d2B2 | c2f2 e2z2 | A2a2 g2e2 | a2A2 e4 | d2BA G2A2 | d2e2 A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first Cu.foot it and cast off two Cu. .| foot it and cast up again :| cross over two Cu. Lead
+%% up to the top and cast off .|. hands round four at bottom Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 141
+T: L'Homme et La Femme          F.
+C: Ignatius Sancho 1775
+%R: march
+B: "Minuets Cotillons & Country Dances", 1775 p.14
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: Dd2B | (AF)(ED) | Dd2B | (B3A) | Dd2B | (AF)(ED) | (A>F)(G>E) | (E3D) :|
+[V:2] |: d2fg | d2f2 | d2fg | d2D2 | d2fg | d2f2 | d2A2 | d2D2 :|
+[V:1] |: ff2d | (ec)(BA) | ff2d | (f3a) | ff2d | ecBA | (a>f)(g>e) | (e3d) :|
+[V:2] |: d2d'2 | c'4 | d'2d2 | d'2d2 | d2f2 | a4 | f2a2 | d2d'2 :|
+[V:1] |: D>d E>d | F>d E>d | f>Bc>d | (Td3c) | Gb2G | Fa2F | (ge)(dc) | (c3d) :|
+[V:2] |: d2z2 | d2z2 | d2e2 | A2a2 | g2e2 | f2d2 | a2A2 | d2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% All Round, back again, Each Gentleman turn his Partner, Ballance, turn each others
+%% Partner, Ballance a Rigadoon Step, Every Gentleman turn his Partner into her place.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 151
+T: Les Nains          F.
+C: Ignatius Sancho 1775
+%R: march
+B: "Minuets Cotillons & Country Dances", 1775 p.15 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: .c2.d2.e2.f2 | (c2BA) (c2BA) | .c2.d2.e2.f2 | g2ab {a}g4 :: c'2(c2d2e2) | (bagf) e2c2 | cc'cc' dc'dc' | baga f4 :|
+[V:2] |: f4z4 | f4f4 | f4z4 | c4c4 :: c'4z4 | c4c4 | a4b4 | g2c'2 f4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% All round, back again, The first four Right and
+%% Left, the other four do the same.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 152
+T: The Friendly Visit          E.
+C: Ignatius Sancho 1775
+%R: march
+B: "Minuets Cotillons & Country Dances", 1775 p.15 #2
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: e>B TB2 | (3FGA (3GFE | B,>GB,>G | (3FGA (3GFE | e>B TB2 | (3gfe (3dcB | (3bfe (3dcB | (3FB=A B2 :|
+[V:2] |: e2e2 | d2e2 | g2e2 | B2e2 | e2g2 | e2B2 | d2B2 | f2 B2 :|
+[V:1] |: e>BB>c | (3_dcB c>A | f>cc>=d | (3edc d>B | b>g (3bgb | a>f (3afa | (3gfe (3Bed | e2 E2 :|
+[V:2] |: e2e2 | g2a2 | f2f2 | =a2b2 | g2e2 | f2d2 | e2b2 | e4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first Cu. Hey Contrary sides .| Then on the other sides :| Lead down one
+%% Cu. up again and cast off .|. Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 161
+T: Just so in the North          E.
+C: Ignatius Sancho 1775
+%R: reel
+B: "Minuets Cotillons & Country Dances", 1775 p.16 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: G2g2 dBdB | G2g2 ecec | G2g2 dBdB | edcB AFED | G2g2 dBdB | G2g2 ecec | G2g2 ecBA | EcAF G2G,2 :|
+[V:2] |: g4 G4 | g4 G4 | g4 G4 | c2G2 d4 | G4 g4 | G4 g4 | G2B2 c4 | A2d2 G4 :|
+[V:1] |: g2b2 afed | e2g2 dBAG | c2ec B2dB | A2BG AFED | G2g2 dBdB | c2a2 fdfd | g2b2 ecec | BAGF G2G,2 :|
+[V:2] |: g4 f4 | e4 B4 | e2c2 G2B2 | c2^c2 d4 | G4 g4 | a4 d4 | B2G2 c4 | A2d2 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first Second & third Cu. foot it hands round Six .| The same back again :| Lead down
+%% two cu. foot it to your Partner Lead up and cast off .|. Lead thro' the third Cu. and cast up
+%% Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 162
+T: Les Matadors          F.
+C: Ignatius Sancho 1775
+%R: march
+B: "Minuets Cotillons & Country Dances", 1775 p.16 #2 (and top of p.17)
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: c2ec  | d2fd | e2dc  | B2AG | c2ec  | d2fd | ecdB  | c2c2 :|
+[V:2] |: c2c'2 | b2g2 | c'2c2 | g4   | c2c'2 | b2g2 | c'2g2 | c4   :|
+[V:1] |: e2ge  | f2a2 | d2fd  | e2g2 | c2ec  | d2fd | ecdB  | c2c2 :|
+[V:2] |: c'2c2 | f4   | g2b2  | c'4  | e4    | f4   | g2G2  | c4   :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Ballance all Eight half round, back again, The first and third Cu. lead up turn under the
+%% Arms into their own Places, the Second & fourth Chassee at the same time, the 2d & 4th Lead
+%% up turn under the Arms into their Places, the first and third Chassee at the same time.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 171
+T: Le Vieux Garcon          F.
+C: Ignatius Sancho 1775
+%R: waltz
+B: "Minuets Cotillons & Country Dances", 1775 p.17 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: AdA | Bge | cBc | dcd | AdA | Bge | cBc | d3 :: Aaa | Agg | Aff | ecA |
+[V:2] |: fff | ggg | aaa | bbb | fff | ggg | aga | d3 :: AAA | AAA | ddd | aaa |
+[V:1]    Aaa | Agg | ecA | d3 :: faf | afd | ege | gec | faf | afd | ecA | d3 :|
+[V:2]    AAA | AAA | aaa | d3 :: d2d | d2d | c2c | A2A | d2d | d2f | a2A | d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% All round, back again, Each Gentleman turn his Partner, Ballance, turn each others
+%% Partner, Ballance a Rigadoon Step, Every Gentleman turn his Partner into her Place.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 181
+T: La Maison de la Reine.          F.
+C: Ignatius Sancho 1775
+%R: reel
+B: "Minuets Cotillons & Country Dances", 1775 p.18 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: f2cA GFGA | FGAB c2f2 | f2cA f2cA | GFGA G4 | f2cA GFGA | FGAB cfcA | defd cAfd | cBAG F4 :|
+[V:2] |: f4 c4 | f4 c2F2 | f4 F2A2 | c4 C4 | f4 c4 | f4 F2A2 | B4 A2F2 | c4 F4 :|
+[V:1] |: f2cA fgag | fcBA GABc | defd gfga | bagf {f}e4 | a2fd b2ge | bgaf gedc | defd cBcf | cBAG F4 :|
+[V:2] |: f4 F4 | f4 c4 | B4 G4 | F2f2 c4 | f4 g4 | c2f2 c4 | B4 A2F2 | A2c2 f4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% All Ballance and go round, back again, The four Gentlemen turn each others Partners,
+%% Chassee all Eight turn your Partners into their Places, Chassee all 8 again & turn your Partners.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 182
+T: The Sword Knott          E.
+C: Ignatius Sancho 1775
+%R: march, reel
+B: "Minuets Cotillons & Country Dances", 1775 p.18 #2
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: g2dB cecA | BdBG FAD2 | BdgB ceac  BAGF G2G,2 :: BdBG cecA | defd d^cBA |
+[V:2] |: g2g2 c'2d'2 | g2G2 d2f2 | g2g2 c'2c'2 | d'2d2 g4 :: g2g2 g2g2 | f2d2 A2^c2 |
+[V:1] fafd gbge | agfe d2D2 | g2dB cecA | BdBG FADc | BdgB ceac | BAGF G2G,2 :|
+[V:2] d2f2 g2g2 | a2A2 d4 | g2g2 c'2d'2 | g2G2 d2f2 | g2g2 c'2c'2 | d'2d2 g4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The First Cu.foot it and cast off two Cu. .| foot it and cast up again :| cross over
+%% two Cu. Lead up to the top and cast off .|. Hands round four at bottom Right & Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 191
+T: L'Etourderie de Catos.          F.
+C: Ignatius Sancho 1775
+B: "Minuets Cotillons & Country Dances", 1775 p.19 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: (3CEG (3GEC | (3CEG cG | (3FAF (3EGE | D2 G,2 | (3CEG (3GEC | (3CEG cG | (A/B/c/A/) (B/c/d/B/) | c2 C2 :|
+[V:2] |: c2 z2 | c2 e2 | f2 c2 | (3GBd (3fed | A2 z2 | c2 e2 | f2 g2 | c4 :|
+[V:1] (3ceg (3gec | (3Bcd (3dBG | (3AcA (3GEG | F2 D2 | (3ceg (3gec | (3dfa (3afd | (e/f/g/e/) (3dBd | c2 C2:|
+[V:2] c'2 c2 | g2 G2 | f2 c2 | g4 | c2 c'2 | f2 d2 | c2 g2 | c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% All round, back again, the first four Chassee and hands across in the middle the other four at the
+%% same time Ballance and the Gentlemen turn their Partners under their Arms, the other 4 the same.
+%%endtext

@@ -1,0 +1,121 @@
+X: 1
+A:Adam de la Halle
+T:A Dieu comant/Adan se sont/Super te
+N: (with semi-breves)
+M:3/4
+L:1/4
+Q:1/4=90
+K:F Lydian
+%
+V:1 clef=treble-8 middle=B,
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+%%MIDI program 1       74 recorder
+%%MIDI program 2       72 piccolo
+%%MIDI program 3       70 bassoon
+%%sysstaffsep    28.0pt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% triplum %%%%%%%%%%%%%%%%%%%%%%%%%%%
+[V:1][K:C]
+   C2  D  | E2 ((3E/D/C/)| F2  E |
+w: A  Dieu  com-***       mant a-
+    D   E  F |((3:2:2E/DE) ((3E/D/C/) | B,2 D |
+w: mou-re-tes,   Car**       je**       m'en*
+    E2   C | C2 ((3C/B,/A,/)| B,2  D | E2 ((3:2:2D/E) |
+w: vois Do- lans  por**       les dou- che-      tes*
+    F2 ((3E/D/C/)|((3:2:2D/E(3:2:2DC/)  B, | C2 z |
+w: Fors   dou**          pays***       d'Ar- tois
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+((3:2:2EF/) ((3:2:2E/D) C |  D  D   E|  F2 z |
+w:     Chi*        est* si  mus et des-trois;
+   E2   F | G   G  F |  E2 z |
+w:Pour che que li bour-geois
+((3E/D/C/) B, C|  D  E   F |((3E/D/C/)
+w: Ont**  es-té  si four-me-   nés**
+((3:2:2B,C/) ((3D/C/B,/)| A,    B,2| C2 z |
+w:    Qu'il*    ne**    quiert drois ne~lois.
+((3:2:2D/CD)   E | F2 z | F2 F |((3:2:2E/DC)
+w:     Gros** tour-nois  Ont a-        nu-**
+    B,| C   B, C | D    E   F| E
+w: lé, con-tes et rois Jus-ti-ches
+   D   C | B,   C    D| E2 z |
+w: et pré-las, tant de fois
+    C   _B, A,| G, A, G,|
+w: Que main-te be-le com-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   F,2 G, |   _B,2  C |((3:2:2D/CD)
+w: pain-gne    Dont Ar-       ras**
+   E | F2 ((3F/E/D/)|((3:2:2EF/) ((3:2:2F/D) C| D
+w: me-hain-gne**            Lais-*     sant* a-mis
+   D   E | F    F  D | E2 z |
+w: et mai- sons et har-nois,
+   G2  F |((3:2:2E/DC)   D |((3:2:2E/DE)
+w: Et fui-       ent,** chà  deus,**
+   ((3E/D/C/)| B,2 z |((3:2:2C/B,C)  D |
+w:    chà**   trois,        Sous-** pi-
+    E2 ((3E/D/C/)| F2   E |((3:2:2D/CB,2)| C3 ||
+w: rant   en**    terre es-       tran-**  ge
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% duplum %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[V:2][K:C]
+(3:2:2F/ F ((3E/D/C/) B,|((3B,/A,/G,/) ((3:2:2A,B,/) (3:2:2C/
+w:    A-dan   se**   sont   lo-**             é*    d'a-
+    C |(3:2:2C/  C   B,   C |(3:2:2D/  D
+w: mours;   Mais je m'en dois    plus qui
+((3E/D/C/)  D| E2 z |(3:2:2D/  D   E  F | E2
+w: nus**  bla- mer        Con-ques à nul jour
+((3:2:2EF/)| G (3:2:2E/ C   E | F  G2 |(3:2:2G/ G
+w:     ne*  poi     loy-au-té trou-ver.        Je cui-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+(3:2:2G/  G   G | F ((3F/E/D/) (3:2:2E/  E| G G
+w:   dai au pre-miers  A-**         voir a-mi-e
+    E |(3:2:2F/ F   F ((3F/E/D/)| E2 z |(3:2:2F/ G
+w: par      loi-au-ment  ouv-**   rer.      Mais gi
+(3:2:2G/ G   E |(3:2:2C/ C  C ((3D/C/B,/)| A,2 z|(3D/
+w:  peus-se lon-      gu-e-ment  ba-**     er;    Car
+     D/  D/  C   D |(3:2:2E/   E ((3E/D/C/) D |
+w: quant je miex ai-     mai, Plus  me**   con-
+(3:2:2E/   E   E ((3:2:2F/E)| D2 z |(3:2:2A,/  B,  C  D|
+w:  vient maux en-     du-*  rer.        Non-ques ce-le
+(3:2:2C/  D   E  D|(3:2:2F/  F  E    F | G2 z |
+w:   que j'a-moi-e,      Ne me vaut mon-strer
+    C   B,  A,|(3:2:2C/ C   C (3:2:2C/  B,| A,  E
+w: San-lant où       je me dus-     se con-for-ter
+(3:2:2D/  D|(3:2:2F/ F  F  E | D2 z | A,  B, C |
+w:    Ne mer-    chi es-pé-*   rer.  Tout a-des
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     D  E    F |(3:2:2E/ D   E ((3E/D/C/) | F2 z |
+w: m'é-toit paine     a moi es-   kié-**    ver.
+(3:2:2G/   G ((3F/E/D/) E |(3:2:2F/ F   F    G |
+w:   Trop mi    don-** na        à pen-ser  Ains
+((3:2:2D/C) B, ((3:2:2CD/)|(3:2:2G/  G  F ((3F/E/D/)| C2 z |
+w:     que* je        le*       peus-se ouv- li-**    er,
+((3:2:2ED/) (3:2:2E/  F  G |(3:2:2G/   A (3:2:2G/  G
+w:     Or*       voi je bien     sans dou-    ter que
+(3:2:2E/  E|  C   F ((3:2:2GF/)|(3:2:2E/  D ((3:2:2EF/)
+w:   loi-aus hom est      per-*      dus qui      veut*
+ ((3E/D/C/)| D2 z |(3:2:2E/  E   E ((3:2:2F/G)|((3:2:2AF/)
+w:  a-**     mer.        Ne nus che       m'es a-     vis*
+    E ((3:2:2FE/)| D2 ((3:2:2ED/)| C2 z |(3:2:2E/    C   E
+w: ne       s'en* doit       mer-* ler;	      Fors chil qui
+    G | F ((3E/D/C/) E |((3:2:2GA/) ((3G/F/E/) D  | F3 ||
+w: bé-  e    A**    ser-       ver*    de**  quil- ler.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% tenor %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[V:3][K:F]
+ F,2 F, | A,2 z | F,2 A,| G,2 F,|
+w:Super~te
+				 A,2 F, | G,2 z | A,2 C | C2 z |
+%%%%
+ D2  C | C2 G, | B,2 A, | G,2 z | F,2 G,|
+					 A,3 | G,2 A,| F,2 G, | A,2 B, | G,2 z |
+%%%%
+ A,2 B, | A,2 z | G,2  F, | F,2 G, |
+				    A,2 G, | F,2 z | G,2 G, | F,3 ||
+%%%%%%% repeat
+ F,2 F, | A,2 z | F,2 A,| G,2 F,|
+w:Super~te
+				 A,2 F, | G,2 z | A,2 C | C2 z |
+%%%%
+ D2  C | C2 G, | B,2 A, | G,2 z | F,2 G,|
+					 A,3 | G,2 A,| F,2 G, | A,2 B, | G,2 z |
+%%%%
+ A,2 B, | A,2 z | G,2  F, | F,2 G, |
+				    A,2 G, | F,2 z | G,2 G, | F,3 ||

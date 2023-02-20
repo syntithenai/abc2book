@@ -1,0 +1,26 @@
+X:1
+T: Halsway Manners
+N:
+C:Tune is "Halsway Manor Jig" by Liz Donaldson
+S:Play 3 times
+A:
+O:
+R:
+M:6/8
+K:C
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 41 notes)
+K:C
+M:6/8
+L:1/16
+c2 |G2 A2 c2 G2 A2 c2 e2 G2 d2 c4 A2 G2 A2 c2 e2 G2 d2 c4 A2 G6 |G2 A2 c2 G2 A2 c2 e2 G2 d2 c4 A2 G2 A2 c2 e2 G2 d2 c4 A2 G6 |
+%W: N2
+% voice 1 (1 lines, 40 notes)
+g6 e2 g2 e2 f2 e2 d2 c2 d2 e2 g6 e2 g2 e2 f2 e2 c2 d6 |g3 e g2 e2 g2 e2 f2 e2 d2 c2 d2 e2 f6 e2 f2 e2 d2 c2 A2 G2 e2 f2 |
+%W: B1
+% voice 1 (1 lines, 42 notes)
+g3 e g2 e2 g2 e2 f2 e2 d2 c2 d2 e2 g2 e2 g2 e2 g2 e2 f2 e2 c2 d6 |g3 e g2 e2 g2 e2 f2 e2 d2 c2 d2 e2 f6 e6 d2 e2 f2 g2 a2 b2 |
+%W: B2
+% voice 1 (1 lines, 39 notes)
+c'4 a2 g2 e2 d2 e2 g2 a2 g2 e2 f2 g4 a2 c'2 a2 g2 e2 d2 c2 d4 e2 |g4 a2 c'2 a2 d'2 c'2 a2 g2 e2 d2 c2 G4 e2 d2 G2 A2 c6 c4 ||

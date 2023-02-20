@@ -1,0 +1,24 @@
+X:1
+T:Nell Flaherty's Drake
+M:6/8
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+|: e | \
+{g}A3/2B/2{GdG}c{g}c/2e3/2{A}e | \
+{gcd}c3/2B/2{G}A{g}c/2e3/2{A}e | \
+{g}A3/2B/2{GdG}c{g}c/2e3/2{A}e |
+{gcd}c3/2B/2{G}B{gBG}B2e{g}A3/2B/2{GdG}c{g}c/2e3/2{A}e | \
+{gcd}c3/2B/2{G}A{g}c/2e3/2{A}e | \
+a2{GdG}a{fg}f2e |
+{gcd}c3/2B/2{G}A{GAG}A2 :: \
+{gf}g | \
+a2{GdG}a{fg}f2e |
+{g}c/2e3/2{A}e{g}c/2e3/2{A}e | \
+a2{GdG}a{fg}f2e | \
+{gcd}c3/2B/2{G}B{gBG}B2{gf}ga2{GdG}a{fg}f2e |
+{g}c/2e3/2{A}e{g}c/2e3/2{A}e | \
+a2{GdG}a{fg}f2e | \
+{gcd}c3/2B/2{G}A{GAG}A2 :|

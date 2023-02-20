@@ -1,0 +1,35 @@
+X: 10723
+T: COTILLION No. 3. tune 3
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.72 #3 (and p.73 #1)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strains pickup+last note have lengths inconsistent with the 1st strain; not fixed.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!p!AB |\
+(cff) f2f | f2A Bcd | (d2c) (c2B) | BA^G (AAB) |\
+c2f f2f | f2A Bcd | (d2B) dBG | F3 F H|]
+!ff!GA |\
+(BA)G (BA)G | GFE FGA | (BA)G (BA)G | GAE FAB |\
+c2f f2f | (f2A) Bcd | (d2c) cBG | F3- "^D.C."F2 |]
+!f! f |\
+ede faf | {f}ede f3 | (fed) cfc | {c}BAG Acf |\
+ede faf | {f}ede f3 | (fed) (cfc) | {c}BAG "D.C."F2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 lead to the right,
+%% chassa out,
+%% form lines across the hall,
+%% ladies forward and back,
+%% gentlemen the same,
+%% ladies chain across the hall,
+%% all forward and back,
+%% swing to place with partners,
+%% side couples the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

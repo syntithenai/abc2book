@@ -1,0 +1,29 @@
+X: 1
+T: Will the Circle Be Unbroken
+C:
+R: march
+S: Fiddle Hell Online 2022-4-3 handout for Ellen Carlson's chord analysis workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+DE |\
+"G (G,B,D)"G4 G4- | G4 B2A2 | G4 B4- | B4 B2A2 |\
+"C (C,E,G)"G4 A4 | G4 E4 | "G"D8- | D2 DE |
+"G"G4 G4- | G4 B2d2 | d4 B4- | B4 G2A2 |\
+B4 B4 | "D (D,F#,A)"A4 B2A2 | "G"G8- | G4 z4 |]
+
+X: 2
+T: Will the Circle -- only chord tones
+C:
+R: march
+S: Fiddle Hell Online 2022-4-3 handout for Ellen Carlson's chord analysis workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+DD |\
+"G (G,B,D)"G4 G4- | G4 B2B2 | G4 B4- | B4 B2B2 |\
+"C (C,E,G)"G4 G4 | G4 E4 | "G"D8- | D2 DD |
+"G"G4 G4- | G4 B2d2 | d4 B4- | B4 G2G2 |\
+B4 B4 | "D (D,F#,A)"A4 F2A2 | "G"G8- | G4 z4 |]

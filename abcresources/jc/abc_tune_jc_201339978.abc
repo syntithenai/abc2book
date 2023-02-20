@@ -1,0 +1,46 @@
+X: 1
+T: Spotted Pony with variations
+C: trad. US.
+O: arr. Andy Reiner
+R: march, reel
+S: Fiddle Hell Online 2021-11-04
+Z: 2020 John Chambers <jc:trillian.mit.edu> (and added simple chords)
+M: C|
+L: 1/8
+K: D
+"^A"|:\
+"D"vD2D2 "A"E2E2 | "D"F2F2 "G"G2G2 | "D"ABde fede | f2a2 "A"e4 ||\
+"D"vD2D2 "A"E2E2 | "D"F2F2 "G"G2G2 | "D"ABde fede | "A"f2e2 "D"d4 :|
+|:\
+"D"vA2a2 f4 | (uef)ed "G"B2B2 | "D"ABd(ue fe)de | f2a2 "A"e4 ||\
+"D"uA2a2 f4 | uefed "G"B2B2 | "D"ABd(ue fe)de | "A"f2e2 "D"d4 :|
+"^B"|:\
+vD2DD E2EE | F2FF G2G,2 | (uA,B,)DE FEDE | F2A2 E4 ||\
+uD2DD E2EE | F2FF G2G,2 | A,B,D(uE FE)DE | F2E2 D4 :|
+|:\
+uA,2vA2 uF4 | EFE(uDB,) B,B, | A,B,DE FEDE | F2A2 (uE4 ||\
+D2)A2 F3(uF | EF)E(uD B,2)B,B, | A,B,DE FEDE | F2E2 D4 :|
+"^C"|:\
+vD2FD E2GE | F2AF G2BG | ABde fede | f2a2 e4 ||\
+uD2FD E2GE | F2AF G2(uFG) | vABde fede | f2e2 d4 :|
+|:\
+vA2uF2 (vA,2D)uF | vGFED B,2D2 | A,2D2 B,2D2 | G,2F2 GFG^G ||\
+vA2uF2 (vA,2D)(uF | GF)ED B,2D2 | G,A,B,D A,B,DE | FDE2 D2DD :|
+"^D"|:\
+vDEFD EFGE | FGA(uF GA)BG | ABde fede | fga(uf e2)vD2- ||\
+DEF(uD EF)vG(E | FG)A(F GA)B(G | AB)de fede | vf(ude)vc ud2vAA :|
+|:\
+vaAAA fAAA | eAfA BDDD | ABde fAde | fAAA eAAA ||\
+aAAA fAAA | gfed BDDD | ABde fAAA eAAA d2d2 :|
+"^E"|:\
+vD2[A2D2] E2[A2E2] | F2[A2F2] G2[A2G2] | [AD][AD] k[AD][AD] [AD]Bde | f2[f2A2] e2[e2A2] ||\
+vD2[A2D2] E2[A2E2] | F2[A2F2] G2[A2G2] | [AD][AD] k[AD][AD] [AD]Bde | f2e2 [d4D4] :|
+|:\
+va4 f4 | efed B2[B2D2] | [AD]D[BD]D [dD]D[eA]A | fe(ef) [e4A4] ||\
+v[a4A4] [f4A4] | [g4A4] [g4B4] | ABde (vABd)e | [fA]A[eA]A [1 vd(uefg) :|2 d2 u(3(GFE) ||
+"^F"|:\
+vDADA EAEA | FAFA GA (3(vEFG | A)Bde fed(ue | (3fga) gf e2v[A2D2-] ||\
+vDADA EAEA | FAFA GA (3(EFG) | (3(uABc) de fede | (3(fgf)e2 (3(ded)c2 :|
+|:\
+vd2a2 (ef2)f | (fg2)f edBA | G2(uAB) (cd2)e | vf(uA[e2A2]) [e3A3]e ||\
+vddaA AfAA | eAAd B(D (3[BD]cB) | ABde (ef2)e | f(A[e2A2]) [1 dAAA :|2 [d4D4] |]

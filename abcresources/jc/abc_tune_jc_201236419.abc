@@ -1,0 +1,27 @@
+X:2206
+T:The Middleton Medley
+P:Tarholm Brig
+C:James McCroskie
+R:Medley (8x32)
+B:RSCDS 22-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+|:A|"D"d>c "G"d>B "D"A<FA>B|"Bm"D<D"D7"F>E "G"D<BB>D|\
+    "D"A,>B, B>E "Bm"F>E F<A|"G"B<d"D"A>F "A7"E2 E>A|
+    "D"d>c "G"d>B "D"A<FA>B|"Bm"D<D"D7"F>E "G"D<BB>D|\
+    "D"A,>F"G"D>B, "D"A,>B, "Em7"D>B|"D"A<F"A7"d>F [E2C2A,2] "D"[D2A,2]||
+    "D"f2 e>f "G"d<BB>A|"D"d<ba>d "A7"c<AA>d|\
+    "D"f2 f>e "G"d<BB>A|"D"d/f/b a>f "A"e2 e>d|
+    "D"f2 e>f "G"d<BB>A|"D"d<ba>d "A7"c<AA>F|\
+    "D"(3DFA "D7"(3AFA "G"BAB "D"d>A|"Bm7"dfb "Em7"a>f "D"d2 d|]
+P:Craighall
+C:J. Stanley Hamilton
+M:6/8
+L:1/8
+K:A
+e|"A"fec A2A|"D"BAF D2F|"A"E2e "B7"cBA|"E"GBB "E7"B2e|
+  "A"fec A2A|"Bm"BAF d2F|"A"EFA "E7"BcB|"A"A3 A2||
+e|"A"aga Ace|"D"f2e fga|"A"e2A "B7"cBA|"E"GBB B2e|
+  "A"aga "A7"ecA|"Bm"BAF d2F|"A"EFA "E7"BcB|"A"A2A A2|]

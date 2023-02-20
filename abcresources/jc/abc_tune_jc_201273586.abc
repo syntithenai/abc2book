@@ -1,0 +1,27 @@
+X: 1
+T: the Ewe With a Crooked Horn
+R: strathspey
+%D:1811
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS
+M: C
+L: 1/16
+K: Amix
+"A"\
+[| "A"EA3  A3B  "G"G3A BG3 |  "A"EA3 A2Bc "G"dB3 "A"cA3 |\
+[1  "G"d3c  B3A "Em"G3A BG3 |  "A"EA3 A3c  "G"BG3 "A"A4 :|\
+[2 "Em"Bcd2 c3e  "G"d3c BG3 |  "A"EA3 A3c  "G"BG3 "A"A4 |]
+K: Edor
+"B"\
+[|"Em"Be3  e3f  "D"d3e dB3 | "Em"Be3 e3f  "D"ge3    fd3  \
+|  "A"ce3  e3f  "D"d3e dB3 | "Em"Be3 e3g  "D"fd3 "Em"e4  |
+y|"Em"Be3  e3f  "D"d3e dB3 | "Em"Be3 e3f     ge3  "A"a3e \
+| "Em"g3a gfe2  "G"dG3 d3B |  "A"a4  g3e "Bm"fd3 "A7"e4 |]
+K: D
+"C"\
+[| "D"Ad3  d3e  "A"c3d    ec3 | "D"Ad3 d2ef "A"g3e    fd3 |\
+[1 "D"Ad3  d3e  "A"c3d    ec3 | "D"Ad3 d3f  "A"ec3 "D"d4 :|\
+[2 "G"g2f2 e3d "A7"cA3 "G"B3G | "D"Ad3 d3f  "A"ec3 "D"d4 |]
+"D"\
+|: "D"a3d  f3d "A7"g3c    ec3 | "D"a3d f3d     a3d    fg3 \
+|  "D"a3d  f3d "A7"g3c    ec3 | "D"a3g fa3 "A7"ge3 "D"d4 :|

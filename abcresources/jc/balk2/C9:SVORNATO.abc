@@ -1,0 +1,19 @@
+X: 439
+T: Svornato
+O: Bulgaria
+F: http://www.youtube.com/watch?v=PzGmZoH4hJU
+F: http://www.youtube.com/watch?v=J9Xa5ZpD3E0
+M: 9/8
+L: 1/8
+Q: 1/4=120
+K: Bm
+%%MIDI program 25
+%% MIDI chordprog 21
+%%MIDI chordvol 40
+%%MIDI gchord c
+dBBB d2e2f|dBBB e2 f3 |\
+afff e2f2f|ddBB BB B3 |
+"Bm"F2F2F2F2D |"Em"F2E2E2E3   |\
+"Bm"F2F2F2F2D |"Em"F2E2E2E3   |
+"Em"E2E2E2E2F |"D"D2B,2B,2E3   |\
+"Em"E2E2E2E2F |"Bm"D2B,2B,2B,3|

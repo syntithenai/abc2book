@@ -1,0 +1,27 @@
+X: 1
+T: Vemodig vals - with descant harmony
+T: Melancholy waltz
+C: Skogsby-Lasse
+N: Edvard "Skogsby-Lasse" Larsson, (1925-2008)
+N: Skogsby-Lasse spelade munspel.
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Em
+% - - - - - - - - - %
+V: 1 staves=2
+|:\
+"Em"B6 | G2 F2 E2 | B6 | G2 A2 G2 | "B7"F6 | FA G2 F2 | "Em"E6 | "B7"B,6 |
+"Em"B6 | G2 F2 E2 | B6 | G2 A2 G2 | "B7"F6 | FA G2 F2 | "Em"E6- |1 E4 z2 :|2 E4 z2 ||
+|:\
+"Em"e4 B2- | B2 "(Am)"c2 A2 | "Em"e4 B2- | B2 "(Am)"A2 G2 | "B7"F6 | FA G2 F2 | "Em"E3 FGA | "B7"B6 |
+"Em"e4 B2- | B2 "(Am)"c2 A2 | "Em"e4 B2- | B2 "(Am)"A2 G2 | "B7"F6 | FA G2 F2 | "Em"E6- |1 E4 z2 :|2 E4 z2 |]
+% - - - - - - - - - %
+V: 2
+|:\
+Bb gb ge | Bb gb ge | Bb gb ge | Bc BA GA | Bb ab af | Bc BA GA | Bb gb ge | Bc BA GF |
+Bb gb ge | Bb gb ge | Bb gb ge | Bc BA GA | Bb ab af | ^dc' ba gf | eB ge Be |1 GB EG Be :|2 G6 ||
+|:\
+B2 ge ge | A2 ge ge | G2 eB eB | G2 F2 E2 | ^D2 f^d fd | Bc BA GF | G3 ABc | B2 A2 F2 ||
+B2 ge ge | A2 ge ge | G2 eB eB | G2 F2 E2 | ^D2 f^d fd | Bc BA GF | EB, GE BG |1 eB ge bg :|2 G6 |]

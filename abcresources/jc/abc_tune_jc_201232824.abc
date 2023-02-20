@@ -1,0 +1,29 @@
+X: 17
+T: Marmont's Retreat
+%R: reel
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.9 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+N: The left edge is very fuzzy, and the dance's words there are guesses.
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+e2 |\
+ceAe ceAe | ceAe Geed |\
+ceAe ceAe | BABc A2 :|
+|: a2 |\
+faea daca | faea gbbg |\
+faea daca | gabg a2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Each strain repeated)
+%%begintext align
+%% Set & change sides set & back again |: lead down
+%% the mid: up again and right and left |: .
+%%endtext
+%%text DOUBLE FIGURE (Tune play'd twice thro' with repeats)
+%%begintext align
+%% Hands across quite round & back again |: lead down the mid: up
+%% again [half?] poussette |: the double triangle |: & turn corners |: .
+%%endtext

@@ -1,0 +1,25 @@
+X: 14017
+T: DEBBIE'S JIG
+C: Bob McQuillen 28 May'08
+B: Bob's Note Book 14 #17
+%R: jig
+%D:2008
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+F \
+| DFA FAd | Adf edA | BdB AFD | GFG E2F |\
+| DFA FAd | Adf edc | dcB AFA | Bdc d2 :|
+|: e \
+| fdf edc | dcB A2g | fdf gag | faf e2f |\
+| afd edc | dBd AFD | GBG FAd | cBc d2 :|
+%%begintext align
+%% Debbie Ash lives in
+%% Peterborough, where I live. She is a farrier, shoeing horses
+%% all over (mostly their feet); she is involved in Search-and-Rescue
+%% with her sweet doggies (who wash my neck) and
+%% she likes to attend our contra dances as an observer.
+%% All the best to you, Debbie - see you at Aesop's for coffee
+%% in the morning! love, MAC
+%%endtext

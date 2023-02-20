@@ -1,0 +1,31 @@
+X: 31461
+T: COTILLION No. 32. LA SOMNAMBULA SETT tune 1
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.146 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+(Bd)g b2g | d2g B2e | d2B g2B | (d^c=c) A2 (f/g/) |\
+(a/g/).f/.e/.d/.^c/ (d/e/).f/.g/.a/.f/ | ( ga)b g2c | cBA d2F | G2G G2 H|]
+D/F/ |\
+A2d f2d | a2f d2A | (d/^c/)(d/c/)(d/c/) dfa | e2c ABc |\
+d2^c B2A | B2A G2F | (GB)e (gf)e | a2^c "^D.C."d2 |]
+D |\
+(B,D)G (GD)B | B2B (BA)G | (FD)A (AF)A | c2c (cB)A |\
+G2B d2g | ^d2e (ec)A | d2D (DE)F | GB^A Be"^D.C."d |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All alamand corners,
+%% alamand partners,
+%% all balance to corners,
+%% turn partners,
+%% grand chain,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

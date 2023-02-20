@@ -1,0 +1,23 @@
+X: 21822
+T: THE KILCHATTON WEDDING REEL
+R: reel
+B: K\"ohler's Violin Repository, v.2, 1885 p.192 #2
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part's 2nd ending has an extra 1/8 note at the beginning, but the 1st ending doesn't.
+N: Fixed by moving the 1st ending back 1/8 note.
+M: C|
+L: 1/8
+K: F
+uc |\
+Addf cAAa | fAAf cAAf | Addf cAAa | f^c d/d/d {^F}G2G :|
+|: uf |\
+defc d/d/d ~g2 | fd d/d/d (ec)c[1e | defc d/d/d ~g2 | f^c d/d/d {^F}G2G |\
+[2 ua |\
+bagf dfga | f^c d/d/d {^F}G2G |]
+uc |\
+Ad d/d/d ~"^\="cA A/A/A | fA A/A/A ~"^\="cA A/A/A |\
+Ad d/d/d ~"^\="cA A/A/A | f^c d/d/d {^F}G2G |]
+[| ua |\
+fddf ef~g2 | (fd)df ecca | fddf efga | f^c d/d/d {^F}G2Ga |
+fddf ef~g2 | (fd)df ecca | bgaf dfga | f^c d/d/d "^Fine."{^F}G2G "^D.C."|]

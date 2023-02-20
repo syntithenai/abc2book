@@ -1,0 +1,29 @@
+X: 1
+T: Reel of the Buffalo
+C: music: Calvin Vollrath
+C: notation: Trent Bruner
+R: reel
+S: Fiddle Hell Online 2021-11-3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: E
+"^A"[|] G,3A, !segno!|:\
+B,EDF E"^*"EGE | FEDF E2GA | Beef edBG | F2B2- B2G,A, | B,EDF EzGE | FEDF E2GA |
+BeBA GEDB, E4- EGFD | E4- E2 [1 G,A, :|2 ef \
+"^B"|:\
+geee Beee | ceee BAGF |[M:3/4] EFGA Bzef gef^d |[M:2/4]
+B4- BcB^A | JB4- B2ef | geeg fddf | ecce dBAc |\
+B2B,2 BAGF | E4- EGFD !coda!| E4- E2 [1 ef :|2 G,!segno!A, |]
+!coda!E4 EFGA | B2B,2 BAGF | E4- EGFD | "_rit."E4 EFGA |\
+B2B,2 | BAGF | {GF}E8- | E8 |]
+%%begintext align
+%% When I listen to this tune, it seems to tell me a story
+%% of the past when the Buffalo roamed our land freely.
+%%endtext
+%%begintext align
+%% * PERFORANCE NOTE: On the first bar of the tune,
+%% the sixth note of the bar (E) is to be played almost "ghost-like".
+%% This means that you barely hear it, but it's there.
+%% It's my expressive interpretation of the melody at this point of the tune.
+%%endtext

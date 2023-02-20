@@ -1,0 +1,48 @@
+X:092
+T: Irish Fox Hunt
+N: O'Farrell's Pocket Companion v.1 (Sky ed. p.85)
+M: C
+L: 1/8
+Q: 120 % "slow"
+K: G
+DE| G2GB d2d2| dedB d3z| G2GB edcB| A4G2 (3def|
+g2fe f2ed| edBG A2GE| G>ABG AGAB| G4G2 ||
+P:2
+DE| G2GA B2B2| c2c2B2B2| c2c2B2 BG| A4G2 (3def|
+g3a gfed| edBG A2GE| G>ABG AGAB| G4G2 :|
+P:3
+z2| G2GB d2g2| e2g2d2g2| G2GB dedB| A4A2 (3def|
+gfga gfed| e2dB A2GE| G>ABG A2G2| G4G2 :|
+P:4
+z2| DEGA .B.G.G.G| .A.G.G.G BGGG| .A.G.B.G .c.G.B.G|\
+A4G2 (3def|
+g2ba gfed| e2dB GAGE| G>ABG AGAB| G4G4 ||
+P:5 "Horns"
+{GA}A4 {GA}A4| {GA}A4 {GA}A4| {cd}d4 {cd}d4| {cd}d4 {cd}d4|
+{FE}F4 {FE}F4| {FE}F4 {FE}F4||
+P:6 "Cry of the Hounds"
+[Q:240]
+F/D/E/F/ F/D/E/F/ F/D/E/F/ F/D/E/F/| F/D/G/D/ F/D/E/D/ F/D/G/D/ F/D/E/D/|
+f/d/e/d/ f/d/e/d/ f/d/e/d/ f/d/e/d/| f/d/g/d/ f/d/e/d/ f/d/g/d/ f/d/e/d/|
+g/d/g/d/ f/d/e/d/ g/d/g/d/ f/d/e/d/| .g.g.gz .f.f.fz| .e.e.ez .f.f.fz||
+P:7 "Horns"
+[Q:120]
+{GA}A4 {GA}A4| {GA}A4 {GA}A4| {cd}d4 {cd}d4||
+P:8 "The Fox's Lamentation"
+[M:3/4] AB/c/| d2F2A2| d4fe| d2F2A2| {d}c4 BA| B2F2A2|
+B2 dcBA| B2F2A2| B4-BA| F2d2d2|
+F2 dcBA| BdcBAF| E2F2A2| A4 :|
+de| f2f2 ag| f2e2d2| cBcefc| B4-BA| A2d2d2|
+F2 dcBA| BdcBAF| E2F2A2| A4 ||
+P:9 "The Foxhunter's Jigg"
+[K:D][M:9/8][Q:300]
+A| F2D F2D G2E| F2D F2D E2D| F2D F2D G2E| A2D DFD E2 :|
+P:9b
+D| B2B BAB BAB| B2E EGE FED| ABc d2B AFA| B2d DFD E2 :|
+P:9c
+d| f2d f2d g2e| f2d f2d e2d| f2d f2d g2b| afd dfd e2 :|
+P:9d
+d| ABc d2B AFA| B2d EGE FED| ABc d2B AFA| B2d DFD E2 :|
+P:9e
+D| AFd AFd G2E| AFd AFd E2D| AFd AFd G2E|1 A2D DFD E2 :|
+[2 [Q:120] A2D DFD E3| D9||

@@ -1,0 +1,29 @@
+X: 1
+T: London Scotch Measure
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #13 (7)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+ED |\
+C3E G3c | GECE GAcE | F3c GEcE | D2 d4 ed |\
+AGEG cBAc | GABc e2(dc) | efga gedc | A2 c4 :|
+|: ef |\
+gfga gfed | fefg a2gf | e2dc efge | f2 d4 AB |\
+cBAG AGFE | FDdc B2AG | AcGc EGDG | E2C2 C2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+%% The 1st and 2d Cu. Hands across quite round and turn all
+%% single then hands across back and turn .| then 1st Man
+%% and 1st Wo. back to back and lead thro the 3d Cu. and
+%% thro the 2d Cu. and right and Left quite round with the
+%% 2d Cu. and turn your Partner :| The 2d Cu. being at top
+%% Lead down to the Bottom and foot it . then both dance up
+%% again back to back and turn :|
+%%endtext
+%%sep 1 8 500

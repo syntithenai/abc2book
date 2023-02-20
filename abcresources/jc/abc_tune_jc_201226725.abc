@@ -1,0 +1,25 @@
+X: 1041
+T: Mr John Shaw Stewart's Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.4 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+% = = = = = = = = = =
+% Voice 1 reformatted for 2 6-bar lines, for compactness and proofreading.
+V: 1 staves=2
+G |\
+DG-G>c (B/c/d) Tc>B | A>Fc>F d>Fc>F |\
+DG-G>c d>=efd | c<Af>A {A}G2G :|\
+A |\
+Gg-g>a {ga}b2ag | f>ca>c f>ca>f |
+dgg>a {ga}b2ag | {g}f>d{d}c>A {A}G2G>A ||\
+Gg-g>a {ga}b2ag | fcf>g {fg}a>gfa |\
+g>af>g d>fc<f | A>Fc>A {A}G2G |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | g2g2 g2g2 | f2f2 f2f2 | g2g2 g2g2 | d2d2 g2G :| z |
+g2g2 g2g2 | f2f2 f2f2 | g2g2 g2g2 | d2d2 G2G2 || g2g2 g2g2 |
+f2f2 f2f2 | g2g2 b2c'2 | d'2d2 g2g |]

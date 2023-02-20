@@ -1,0 +1,16 @@
+X: 1
+T: Dover Pier   [C]
+O: Preston 24CD, 1791
+B: Preston 24CD, 1791
+B: Barnes v.1 p.29
+%Q: 1/4=100
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+d2 \
+| "C"c2e2 E2G2 | "F(Dm)"F2D2- D2A2 | "Dm"d2f2 "(D7)"A2c2 | "G7"B2G2- G2B2 \
+| "C"c2e2 "F"f2a2 | "C"g2e2 d2c2 | "G7"G2B2 d2f2 | "C"e2 c4 :| 
+|: g2 \
+| "C"g2e2 d2e2 | "F"c2c'2 b2a2 | "C"g2e2 d2c2 | "G7"B2d2 B2G2 "I"\
+| "F"A2c2 "C/E"e2G2 | "Dm"F2A2 "(Am)"d2E2 | "G7"D2G2 B2d2 | "C"e2 c4 :| 

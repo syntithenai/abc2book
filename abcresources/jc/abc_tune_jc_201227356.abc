@@ -1,0 +1,33 @@
+X: 10741
+T: OH NANNY WILT THOU GANG WITH ME
+Q: "Andantino Affettuoso"
+%R: strathspey
+B: "Edinburgh Repository of Music" v.1 p.74 - p.76 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The "Bis:" notation to repeat measure 25 was transcribed as two identical measures.
+M: C
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V:1 clef=treble
+A3B |\
+(cf3)(ed3) c4 (A3B) | (c3d) c3A G4 {d}c3E | (GF2)z z2F2 F6 A2 | (G3dc2B2) {B}A4 (A3B) |
+(cf3) (ed3) c4 (A3B) | (c3d) (cA3) G4 (d3E) | F6 F2 F6 A2 | G4({AG} A2B2) {B}A4 z2c2 |
+f3(ga2a2) (g2e2) z2c2 | (d2e2f2).f2 {f}e4 z2c2 | a4 (gf)(ed) g6 af | e4 (gf)(ed) c4 z4 |
+%p.75
+(d3e) f2f2 (e2c2) z2A2 | (B3cd2).d2 (c2A2) z2F2 | B6 (AG) A2f2 z2!f!c2 | .B2.A2.G2.F2 Hc4 z4 |
+(d3e) f2f2 (e2c2) z2A2 | (B2c2d2).d2 (c2A2) z2F2 | B6 (AG) A2f4 (ed) | (dc)(BA) (cB)(AG) F4 z2c2 |
+{d}c=Bcd c2_B2 A2f2 z2c2 | {d}c=Bcd c2_B2 A2f2 z2c2 | (cdef) (g2ab) afz2 dBz2 | G2(B>d) c3B (B4 A2)c2 |
+({d}c=Bcd) c2_B2 A2f2 z2c2 | ({d}c=Bcd) c2_B2 A2f2 z2c2 | (cdef) (g3a/b/) (af)z2 (dB)z2 | "Adagio."A2 {c}B4 {A}TG2 {FG}F4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V:2 clef=treble
+F3G |\
+(Ad3)(c3B) A4 (F3G) | (A3B) (A3F) E4 z4 | z2{d}c2{e}d2B2 c4 {B}A2{G}F2 | (E2B2A2G2) {G}F4 F3G |
+(Ad3) (cB3) A4 F3G | A3B AF3 E4 z4 | z2f2e2d2 {d}c4 {B}A2{G}F2 | E4 {FE}F2G2 {G}F4 z4 |
+z2c2f2f2 e2c2 z2A2 | (=B3cd2)d2 {d}c4 z4 | z2f2 d2A2 =B4 {cd}c2fd | c4 (ed)(c=B) c4 z4 |
+% p.75
+=B3c d2d2 c4 z2F2 | G3AB2B2 A2F2 z4 | z2G2G2 (FE) F2A2 z2!f!c2 | B2A2G2F2 HE4 z4 |
+=B3c d2d2 c4 z2F2 | G2A2B2B2 A2F2 z4 | G6 (FE) F2c2 d2cB | (BA)(GF) (AG)(FE)
+F4 z2A2 | ({B}AGAB) A2G2 F2A2 z2A2 | ({B}AGAB) A2G2 F2A2 z2A2 | (G2cd) (e2fg) fAz2 BGz2 |
+E2GB A3F G4 F2A2 | {B}AGAB A2G2 F2A2 z2A2 | {B}AGAB A2G2 F2A2 z2A2 | G=Bcd (e3f/g/) fAz2 BGz2 | "^Adagio."F2 {A}G4 {F}TE2 {DE}F4 |]

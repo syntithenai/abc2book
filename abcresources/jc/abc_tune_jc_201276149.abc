@@ -1,0 +1,17 @@
+X: 1600
+T: the First of June
+R: hornpipe
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #1600
+O: F.O'Neill
+Z: Michael D. Long, 10/02/98
+Z: Michael Hogan
+M: C|
+L: 1/8
+K: G
+"^A"|: (B>c) \
+| d>dc>A (3ddd c>A | ~G2A>F G2A>G | F>Af>e d>cE>F | G>gf>e (3ded (3cBA ||
+| d>dc>A (3ddd c>A | G>gf>a g2g2 | d>BG>E D>DE>F | G2g2 g2 :|
+"^B"\
+|:(e>f) | (3gag f>g e>Be>f | g>bf>g e2f>g | a>ba>g f>ed>f | e>gf>e d2 ||
+| e>f | g>af>g e>fd>d | g>dB>G A>GE>F | G>BG>E D>DE>F | G2g2 g2 :|

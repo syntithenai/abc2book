@@ -1,0 +1,16 @@
+X: 818
+T: Hillside Cottage
+R: hornpipe
+%S: s:3 b:13(5+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #818
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0818/oneill-1001-0818-1.abc
+M: 2/4
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+"^A"[|] D \
+|: G>B A/G/E/D/ | G/B/d/g/ e>f | {a}g/f/g/e/ d/B/ [1,3 A/c/ | B/G/A/F/ G/F/E/D/ :|[2,4 g/e/ | d/B/A/B/ G :|
+|: z     | gd/g/ e/d/g/d/ | e/a/a/b/ a/g/e/f/ | gd/g/ e/d/g/d/ | e/g/f/a/ g ||
+| (g/a/) | b/a/g/b/ a/g/(f/a/) | g/a/g/e/ de/f/ | {a}g/f/g/e/ d/B/g/e/ | d/B/A/B/ G :|

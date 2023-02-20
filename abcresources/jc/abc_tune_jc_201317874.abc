@@ -1,0 +1,33 @@
+X:1
+T:VI. Now, O now, I needs must part,
+C: John Dowland
+O: From The First Booke of songs or Ayres of foure parts, with Tableture for the Lute
+T:Cantus
+M:3/2
+L:1/2
+Z:Laura Conrad <lconrad@laymusic.org> abcusers 2001-04-05
+N:Original clef, C on first line
+K:Gmix
+%%MIDI nobarlines
+%1
+|:  B2   A | G2 ^F | E2   G |  A2 z | B2   d | c2  B | A2 B
+w:1.~Now, O now, I   needs must part, part- ing though I ab- sent
+w:While I live I needs must love, love lives not when hope is
+w:2.~Deare, when I from thee am gone, Gone are all my joyes at
+w:And al- though your sight I leave,  Sight where in my joyes doe
+w:3.~Deare, If I do not re- turne, Love and I shall die to-
+w:Part we must though now I die, Die I do to part with
+%2
+A2 z |    B2 A |    G2 ^F | E2 G | A2 z | B d c > c B A | G6 :|
+w:mourn.  Ab- sence can no joy im- part: joy once fled can- not re- turne.
+w:gone.  Now at last de- spaire doth prove, love di- vi- ded lov- eth none.
+w:once. I loved thee and thee a- lone, In whose love I joy- ed once.
+w:lie, Till that death doth sence be- reave, Ne- ver shall af- fec- tion die.
+w:gether. For my ab- sence ne- ver mourne, Whom you might have joy- ed ever:
+w:you.  Him des- paire doth cause to lie, Who both lived and di- eth true.
+%3
+|:c2 c | c2 e | d2 e | d2 z | c > c B | A c B | A6 | B2 A |
+w:Sad de- spair doth drive me hence, this des- paire un- kind- nes sends. If that
+%4
+G2 ^F | E2 G | A2 z | B d c > c B A G6 :|
+w:part- ing bee of- fence, it is shee which then of- fends.

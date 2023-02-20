@@ -1,0 +1,26 @@
+X:1
+T: Angels Unawares
+N:
+C:Trad.
+S:Tune is: The Streams of Lovely Nancy
+A:
+O:
+R:
+M:3/4
+K:A
+I:speed 180
+%W: A
+% voice 1 (1 lines, 20 notes)
+K:A
+M:3/4
+L:1/16
+A2 A2 |A4 c4 E2 D2 |D4 C4 C2 D2 |E2 A2 c2 B2 B4/3 |A4/3 G4/3 A8 |G2 A2
+%W:
+% voice 1 (1 lines, 17 notes)
+B4 e4 |d2 c2 B2 e2 d2 c2 |B2 A2 c4 E6 |F E E8 G2 |A2
+%W: B
+% voice 1 (1 lines, 18 notes)
+B4 e4 d2 |c2 B2 c2 d2 c2 B2 |A2 c4 E4 E4 |B4 e2 d2 B2 G2 |
+%W:
+% voice 1 (1 lines, 13 notes)
+A4 c4 E2 D2 |D4 C4 C2 D2 |E4 A4 c2 B2 |A8 ||

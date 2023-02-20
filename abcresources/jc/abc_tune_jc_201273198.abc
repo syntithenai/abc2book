@@ -1,0 +1,26 @@
+X:1
+T: Epsom New Wells
+N:
+C:
+S:
+A:
+O:
+R:
+M:3/2
+K:Am
+I:speed 200
+%W:   A
+% voice 1 (1 lines, 22 notes)
+K:Am
+M:3/2
+L:1/16
+a4 e8 |a4 ^g8 |a4 b4 |c'4 b2 |a2 b4 |e4 f4 |a4 d4 |f4 A4 |d4 B4 |e4 E4 |^G4 A8 |
+%W:
+% voice 1 (1 lines, 22 notes)
+a4 e8 |a4 ^g8 |a4 b4 |c'4 b2 |a2 b4 |e4 f4 |a4 d4 |f4 A4 |d4 B4 |e4 E4 |^G4 A8 |
+%W:   B
+% voice 1 (1 lines, 25 notes)
+B4 e8 |d2 B2 c4 |A4 c4 |f4 d4 |g2 f2 e4 |c4 e4 |a4 ^f4 |b2 a2 ^g4 |b4 e4 |a4 B4 |^g4 a8 |
+%W:
+% voice 1 (1 lines, 25 notes)
+B4 e8 |d2 B2 c4 |A4 c4 |f4 d4 |g2 f2 e4 |c4 e4 |a4 ^f4 |b2 a2 ^g4 |b4 e4 |a4 B4 |^g4 a8 ||

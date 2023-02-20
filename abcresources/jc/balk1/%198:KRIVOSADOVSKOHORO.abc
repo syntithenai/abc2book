@@ -1,0 +1,32 @@
+X: 198
+T: Krivo Sadovsko Horo
+O: Bulgaria
+F: http://www.youtube.com/watch?v=TZ6PZQ3MQIo
+F: http://www.youtube.com/watch?v=AmqZGrz7VSo
+F: http://www.youtube.com/watch?v=ennl5ROshpg
+M: 13/16
+L: 1/16
+K: Em
+Q:1/4=108
+V:1
+%%MIDI program 73
+|  Bc^de fBfge f3B     |fgba bagf    ef4     |\
+   Bc^de fzfge ef3     |zBcc ecAB2- B2z2     |
+%%MIDI program 110
+|  Bc^de fBfge f3B     |fgba bagf    ef4     |\
+   Bc^de fzfge ef3     |zBcc ecAB2- B2z2     |
+V:2 clef=bass
+%%MIDI control 7 80
+| B,,2z2 F,,2z3 B,,2z2|E,,2z2 F,,2z3 B,,2z2 |\
+  B,,2z2 F,,2z3 B,,2z2|A,,2z2 A,,2z3 B,,2z2 |
+| B,,2z2 F,,2z3 B,,2z2|E,,2z2 F,,2z3 B,,2z2 |\
+  B,,2z2 F,,2z3 B,,2z2|A,,2z2 A,,2z3 B,,2z2 |
+V:1
+%%MIDI program 45
+%%MIDI program 73
+|: Bc^de f2e^de cBc^d  |Bc^de f2e^de cBc^d   :|
+%%MIDI program 110
+|: Bc^de f2e^de cBc^d  |Bc^de f2e^de cBc^d   :|
+V:2
+|: z2B,,2 z3B,,2 z2F,,2|z2B,,2 z3B,,2 z2F,,2 :|
+|: z2B,,2 z3B,,2 z2F,,2|z2B,,2 z3B,,2 z2F,,2 :|

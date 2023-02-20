@@ -1,0 +1,23 @@
+X: 1
+T: Pool's Hole
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.154
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The time signature is just "2".
+N: The ":S:" is an early segno, meaning to repeat the last 4 measures.
+M: 2/2
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2e2 | f2ef gf ed | e2A2 d2e2 | f2ef gf ed | e4 |][| f2g2 | a2ga ba gf | g2c2 f2g2 |
+a2ga bagf | g2fe f4 "^:S:"| e4 d2e2 | ^c2BA f4 | e2a2 d2^c2 | d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First cu. cast off to the second proper, and then the Figure to the second improper, then the men change
+%% places, and the two we. the like, then all hands quite round, S|: and right and left (with your own first)
+%% to the second proper.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,34 @@
+X: 1083 #3
+T: COTILLION No. 8. tune 3
+C:
+%R: polka, reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.83 #3 (and p.84 #1)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The commas in the dance description are a bit odd; not fixed.
+N: Initial rest "pickup" added to 3rd strain, to fix the rhythm.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+G2G2G2 BG | D2D2D2 cA | G2G2G2 AB | AGFE DEFD |\
+G2G2G2 BA | D2D2D2 Ac | cBAG BAGF | G2G2G2 H|]
+(Bc) |\
+d2g2d2B2 | dcBc A2AB | c2a2c2A2 | BcdB G2 Bc |\
+d2g2b2B2 | dcBc A2AB | cBAG D2B2 | (B4 "^D.C."A2) |]
+z2 |\
+B2G2B2d2 | d2 cB A2D2 | A2F2A2c2 | c2 BA B4 |\
+B2G2B2d2 | {e}d2 cB A4 | B2G2B2d2 | d2d2"^D.C."d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First lady join with second couple,
+%% forward and back, 3,
+%% balance 4,
+%% partners chassa across 4,
+%% back to back 4
+%% promenade 4
+%% others the same, &c.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,28 @@
+X: 10661
+T: LOVE WILL FIND OUT THE WAY.
+Q: "Slow."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.66 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D>E |\
+F3 G (FE) | D>E F2 (Bc) |\
+d2 (ed) (cB) | {d2}c4 (D>E) |\
+F3 G (FE) | D>E F2 B2 |\
+(cd/e/) d2 c2 | {Bc}B4 :|\
+|: (d>e) |\
+f2 (gf) (ed) | e2 (fe) (dc) |\
+d2 (ed) (cB) | {A}G4 (B/c/d/e/) |
+f3 g (fe) | {e}d2 (cB) (cd/e/) |\
+{e}d2 (cB) (ee/g/) | Hf4 (d>e) |\
+(fd) (gf) (ed) | (ec) (fe) (dc) |\
+(dB) (ed) (cB) | {A}HG4 D>E |\
+F3 G (FE) | D>E F2 B2 |\
+(cd/e/) d2 c2 | B4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

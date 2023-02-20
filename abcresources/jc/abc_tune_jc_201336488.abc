@@ -1,0 +1,32 @@
+X: 1
+T: Moldavian Tunes
+T: Sher
+S: PDF for WC Klezmer Jam 2013-11-24
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K:
+C2 "A"|\
+"F"A4- | AC "D7"_B>A |\
+"Gm  D7"G4- | "Gm"GF ED |\
+"C7"C>D EF | GA _Bc |\
+"F"A4 | "C7"(3cdc (3_BAG |
+"F"A4- | AC "D7"_B>A |\
+"Gm"G4- | GF ED |\
+"C7"C2 d2 | c2 d2 |\
+(3cdc (3_BAG | "F"F2 z2 :|
+"B"|:\
+"F"(3cAF (3cAF | (3cAF C2 |\
+"Gm"(3d_BG (3d_BG | (3d_BG D2 |\
+"C7"C e2 d | (3cdc (3_BcB |\
+(3A_BA (3GAG | [1 "F"c4 :|[2 "F"F2 "A7"z2 ||
+"C"|:\
+"Dm"D>E FG | Ad ^cd |\
+A4- | A3 d |\
+"D7"^cd ed | ^c_B AB |\
+"Gm"A G3- | G3 d |
+^cd ed | ^c>_B AG |\
+_B4- | BE FG |\
+"A7"^GA- AA | T^GF EF |\
+[1 "Dm"D A3- | A4 :|\
+[2 "Dm"E D3- | D2 "C7"C2 |]

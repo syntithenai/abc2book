@@ -1,0 +1,15 @@
+X: 40
+T: Gordon's Tune   #2
+R: air
+%S: s:2 b:16(4+4)
+B: "O'Neill's 1850 #40"
+Q: "With spirit"
+O: J.O'Neill
+Z: Norbert Paap, norbertp@bdu.uva.nl
+N: Compacted by using labels and play order [JC]
+P: Play AABA
+M: C
+L: 1/8
+K: Gm
+"^A"|: dc | B2 Bc B2 AG | G>A Bc d2 cA | G2 GF D2 D^F | G4 "^fine"G2 :|
+"^B"[| GA | B2 c2 d3 B | c2 d=e f2 d>g | g>f dc B2 d2 | c3 B "->A"G2 |]

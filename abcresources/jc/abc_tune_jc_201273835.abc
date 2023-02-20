@@ -1,0 +1,527 @@
+
+X: 1
+T: Bothwell Castle
+R: reel, strathspey
+M: C|
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: 19th century tune book collected by W.A. Cocks.
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: Bb
+z2 | D3E F3E D2B2 (B2d2) | D2E2 F2D2 A,CFA (c2d2) | D3E FEFE D2B2F2d2 |
+edcB Agfe d2B2B2 :| f2 | d'3c'/b/ ((3agf) ((3edc) B2f2d2b2 | f>dg>f d'3/b/ ((3fdB) A2c2c2f2 |
+d'3c' bc'bg fefg afga | bgab c'bag f2b2b2 bc' | d'bab c'aga bg^fg a=f=ef |
+g_ede fBgB A2c2c2 (f/g/)a | [b4d4] [g4e4] [c2A2][f2A2] {e}d2 (B/c/d) | e2d2 ((3cdB) ((3ABG) F2B2[B2F2D2] |]
+
+
+%%sep 5 1 500
+
+X: 2
+T: The Bridge of Geary
+R: reel
+M: C|
+L: 1/8
+N: The 2nd part has an initial repeat but no final repeat.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: 19th century tune book collected by W.A. Cocks.
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: A
+a |\
+A/A/A eA cAeA | Bffe fBBa | A/A/A eA cAeA | EFAB cAA :|
+|: g |\
+a2ea cAeA | Bffe fBBg | a2ea cAaA | EFAB cAAg |
+a2ea cAac | Bffe fBBg | afbg afed | ceBd cAA |]
+
+
+%%sep 5 1 500
+
+X: 5
+T: Chelmsford Races
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: 19th century tune book collected by W.A. Cocks.
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: A
+[EA,] |\
+A2A AGA | B2B e2e | cec A2A | GAB EFG |\
+A2A AGA | B2B e2c | dfe dcB | A2A A2 :|
+|: c |\
+efe cde | f2f f3  | gfg efg | a2a a3 |\
+efe cde | f2g agf | efe dcB | A2A A2 :|
+
+
+%%sep 5 1 500
+
+X: 6
+T: Corry's Jig
+T: Drops of Brandy
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: 19th century tune book collected by W.A. Cocks.
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: Dmix
+A |\
+F2D DED | AFD AFD | F2D DED | A2B G3 |\
+F2D DED | AFD AFD | E2c AFD | G2B G2 :|
+|: A |\
+F2A d^cd | F2A AFD | F2A d^cd | A2B G3 |\
+F2A d^cd | F2A AFD | E2c BAB | G2B G2 :|
+|: g |\
+f2d f2d | afd faf | f2d f2d | a2b g3 |\
+f2d f2d | afd faf | efe c2e | g2a g2 :|
+|: a |\
+fdf ece | dBd AFD | D2d d^cd | A2B c3 |\
+dBd cAc | BdB AFD | E2c AFD | G2B G2 :|
+
+
+%%sep 5 1 500
+
+X: 7
+T: The Cottagers
+R: reel, march
+M: 2/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: 19th century tune book collected by W.A. Cocks.
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: Bb
+d2d2 e2e2 | f2dB c2AF | B2B2 c2c2 | d2de c4 |\
+d2d2 e2e2 | f2dB c2AF | B2B2 c2d2 | e2cA B4 :|
+|: d2f2 f2gf | b2f2 f2gf | d2f2 f2f2 | gfed c4 |\
+d2f2 f2gf | b2f2 f2gf | bagf edcB | ABcd B4 :|
+
+
+%%sep 5 1 500
+
+X: 8
+T: The Forest of Hermanstadt
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: 19th century tune book collected by W.A. Cocks.
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: A
+e |\
+c2e B2e | cec A2e | a2a agf |(f3 e2)e|\
+c2e B2e | cec A2e | f2f faf | e3 E2 :|
+|: e |\
+cec A2a | gbg e2d | cea fdB |(A3 G2)e|\
+g2a e2a | f2d c2e | f2b gfg | a3 A2 :|
+
+
+%%sep 5 1 500
+
+X: 9
+T: Gardiner Lads
+C: by Rob[indecipherable]
+N: Attr. Robert Whinham (1814-1893) in the William Green MS.
+R: reel
+M: C|
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: 19th century tune book collected by W.A. Cocks.
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: A
+((3EFG) !Segno!|\
+ABcA GAFG | EFDE CDB,C | A,CEA FBdc | BEFG ABcd |
+(3eag (3fed (3cfe (3dcB | (3AcB (3AGF EFGA | BcdB GEFG | AcBG A2 :|
+ze |\
+c/B/AaA gAfA | eAe'A c'AaA | (3fga (3gfe (3def (3edc | (3Bcd (3ABc (3GAB (3EFG |
+ABcA GAFG | EFDE CDB,C | A,CEA FdBA | GEFG A2 H||
+ed |\
+(c/B/)AaA gAfA | eAe'A c'AaA | (3fga (3gfe (3def (3edc | (3Bcd (3ABc (3GAB (3EFG |
+ABcA GAFG | efde cdBc | (3Ace (3cea | (3ec'b (3aec | (3Bcd (3EFG AcBG !Segno!|]
+
+
+%%sep 5 1 500
+
+X: 10
+T: Gregg's Pipes
+R: reel
+M: C|
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: 19th century tune book collected by W.A. Cocks.
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: A
+   f | eAcA eAAf | eAcA BFFf | eAcA eAcA | B/B/B cA BFF :|
+|: B | cAcA cAAB | cAcA BFFB | cAcA EAcA | B/B/B cA BFF :|
+|: A | EA,CA, EA,A,A | EA,CA, FB,B,A | EA,CA, EA,CA, | B,/B,/B, CE FB,B, :|
+|: g | aece aAAe | aece fBBg | aece cAec | dfce fBB :|
+
+
+%%sep 5 1 500
+
+X: 11
+T: Henrico
+R: reel
+M: 2/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: 19th century tune book collected by W.A. Cocks.
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: D
+A2 |\
+d2fe dcdB | A2A2 F2F2 | d2fe defg | e2a2 a4 |\
+d2fe dcdB | A2A2 F2F2 | d2ge fdec | d2d2d2 :|
+|: fg |\
+a2ag f2fe | d2de fdef | gagf efed | cdcB A4 |\
+A2d2 cecA | A2e2 cecA | A2d2 cecA | d2d2d2 :|
+
+
+%%sep 5 1 500
+
+X: 12
+T: Horsly Lasses
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: 19th century tune book collected by W.A. Cocks.
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: D
+F |\
+DFA d2f | efd c2A | Bcd ABF | GEE E3 |\
+DFA d2f | efd c2A | Bcd ABG | FDD D2 :|
+|: g |\
+fdf agf | geg bag | fdf agf | gee e2g |\
+fdf agf | geg bag | fgf ede | ddd d2 :|
+
+
+%%sep 5 1 500
+
+X: 13
+T: The Laird O Cocpen with variations
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: 19th century tune book collected by W.A. Cocks.
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The name is usually "Cockpen", pronounced "co-pen".
+K: Gm
+D/=E/F/ |\
+GAG B2c | AFF F2B/A/ | GAG a2a/g/ | fdd d2=e |\
+fgf f=ed | cdB A2B/c/ |d_ed d2c | BGG G2 :|
+|: B/c/ |\
+dgg gab | aff f2g/a/ | dgg gag | fdd d2=e |\
+fgf f=ed | cdB A2B/c/ | d_ed d2c | BGG G2 :|
+|: F/=E/ |\
+D[GB,][GB,] B[GB,][GB,] | D[FA,][FA,] A[FA,][FA,] | D[GB,][GB,] BAG | g^fg d2=e |\
+fca fcB | AcB AGF | Ddc BAG | DG^F G2 :|
+| g/a/ |\
+bgg dgg | aff cff | bgg dgg | fdd d2f/g/ |\
+aff cff | Aff FGA | d.e/.d/.c/.B/ .c.d/.c/.B/.A/ | BGG G2 :|
+|: B,A, |\
+G,B,D (GAB) | A,CF (A=Bc) | (G,B,D) (GBd) | {a}g^fg d2d/d/ |\
+(dbd) (cac) | (Bg)B FGA |
+({_e}dcB) {d}cBA |1 {c}BAG ({B}AGF) :|2 BGG G2 :||: g | gGg bag | fFf c'Ba |
+gGg bag | ^fga d2=e/=f/ |\
+gGg bag | .d/.=e/.f/.e/.d/.c/ FGA | GeG FdF | [DB,][EC][FA,] [G2B,2] :|
+
+
+%%sep 5 1 500
+
+X: 14
+T: London Hornpipe
+R: hornpipe, reel
+M: C|
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: 19th century tune book collected by W.A. Cocks.
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: A
+((3EFG) |\
+AEcA eca[ec] | fe^de fecA | AEcA dBge | begb ((3gfe) ((3dcB) |
+AEcA ecae | fe^de Bdfa | bgeg daf^d | e2g2 e2 :|
+|: (EF) |\
+GABc dBfe | dcdc d2EF | GABc dBed | cBcB (c2cB) |
+AGBA cBdc | edfe gegb | ((3aed) ((3cBA) EdBG | A2c2 A2 :|
+
+
+%%sep 5 1 500
+
+X: 15
+T: Love Knott
+R: reel
+M: 2/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: 19th century tune book collected by W.A. Cocks.
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: D
+"f"ABc |\
+d2z2 f2z2 | a6 g2 | f2e2d2c2 | B2A2G2F2 |\
+e2z2 f2z2 | g6 f2 | e2d2c2B2 | A2a2f2e2 |
+d2z2 d2z2 | d2z2 d2z2 !Segno!|| "pp"a4-a4 |\
+f4z2z2 | d'4-d'4 | a4z2g2 | f2z2 f4- |
+f2e2d2e2 | d4z2z2 | z8 | d4-d4 |\
+d4b4 | a4-a4 | f4d4 | c4d4 |
+g4f4 | f4e4 | z8 | d4-d4  |\
+d4e4 | f4-f4 | a4-a4 | ^g4-g4 |
+=g4-g4 | {g}f4z2z2 | z8 | d'4-d'4 |\
+c'2d'2e'2d'2 | c'2z2b4- | b4 zgab | a3za4- |
+a2g2f2g2 | f4z2z2 | z2z2zdfa | d'4-d'4 |\
+c'2d'2e'2d'2 | c'2z2b4- | b4 d3e | f4f4 f2e2d2e2 |
+d4z2z2 | z8 | "f"a2z2 f2z2 | d'4-d'4 |\
+f2z2 (fe)de | d2d2 f2a2 | d2 fa d'2 z2 | d2 cdedcd |
+e2B2 g4- | g2 agfedc | B2 cdefga | b2 c'2 d'2 z2 |\
+a2 gabagf | edcB Agfe | d2 fa d'2 z2 | d2 cdedcd |
+e2B2 g4- | g2 agfedc | B2 cdefga | b2 c'2 d'2 z2 |\
+a2z2 c2z2 | d4 z2z2 !Segno!|| "DC"y
+
+
+%%sep 5 1 500
+
+X: 16
+T: Morpeth Rant
+R: reel
+M: C|
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: 19th century tune book collected by W.A. Cocks.
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: G
+DF | G2.D.C B,G,B,D | ECEG FDFA | BGcA dBAG | F2A2 AcBA | G2.D.C B,G,B,D |
+ECEG FDFA |BGcA dBAG | D2G2G2 :||: (ef) | gdBG FAce | dBAG GFED |
+cecA BdBG | F2D2 D2(EF) | ECEG cBAG | FDFA dcBA | Bgfe dcBA | B2G2G2 :|
+
+
+%%sep 5 1 500
+
+X: 17
+T: Mr Mackintoshes Reel
+R: reel, strathspey
+M: C|
+L: 1/8
+N: Also known as Lady Mackintosh's Reel and Knit the Pocky.
+N: Bar 2 is missing half a beat. Other versions have cBAG and cAGF as the first half of the bar.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: 19th century tune book collected by W.A. Cocks.
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: Dm
+Addc defd | cA EGEC | Addc defd | edce dd/d/ d2 :|
+|: defg afdf | edce (g/f/e/d/) ce | defg afdg | ecge dd/d/ d2 |
+   defg afdg | edce (g/f/e/d/) ce | defg afge | fdge dd/d/ d2 :|
+
+
+%%sep 5 1 500
+
+X: 18
+T: The New Opera Hat
+R: jig
+M: 6/8
+L: 1/8
+N: The 2nd part has an initial repeat, but no final repeat.
+N: The tune works well in either 32-bar (AAB) or 48-bar (AABB) form.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: 19th century tune book collected by W.A. Cocks.
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: D
+A |\
+d2d def | A2A A2A | B2d c2e | d2f ecA |\
+d2d def | A2A A2A | B2d c2e | d3- d2 :|
+|: f |\
+e2e efg | f2e d2f | e2e efg | f3  d2f |\
+e2e efg | f2e d2f | e2d c2B | A2G F2E |
+F2F GFG | A2A A2A | B2d c2e | d2f e2g |\
+F3  GFG | A2A A2A | B2d c2e | d3- d2 |]
+
+
+%%sep 5 1 500
+
+X: 19
+T: Newcastle Hornpipe
+R: hornpipe, reel
+M: C|
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: 19th century tune book collected by W.A. Cocks.
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: A
+e2 | a2cd e2EG | A2CC E2A2 | d2fd cec2 | B2ba gefg | a2Ac e2
+EG | A2CC E2c2 | dfed cBAG | B2A2 A2 :||: ce | ecAa fdBg | gefg a2ag |
+f2fe dcBA | GBe^d e2fg | a2ag f2fe | dcBA GFED | CEAc edBG | B2A2 A2 :|
+
+
+%%sep 5 1 500
+
+X: 20
+T: Quad
+R: reel
+M: 2/4
+L: 1/16
+N: The pickup notes don't "add up" correctly.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: 19th century tune book collected by W.A. Cocks.
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: G
+D2 |\
+G4 A2B2 | {a}g3fg3b | (eg)(fg) (ag).f.e | defg Bcde |\
+G4 B2c2 | {a}g3fg3a | bgea gBed | G4 :|
+|: D4 |\
+F2A2 c4 | ((3gfa) ((3gfe) ((3ded) ((3cBA) | B2d2 g4 | (3Bdg (3fed {e}(3dcd (3ecA |
+(3GBd (3gba (3gfe (3dcB | (3d^cd (3^dec (3A^GA (3cAF | (3GFG (3BAB (3d^cd (3efg | (3ABc (3DBA G2 :|
+|: d8 | e2d2B2f2 | g2f2e2d2 | e2d2c2B2 |\
+d2e/d/c/d/ b2a2 | g2f2A2e2 | ^d2e2D2B2 | G4 :|
+
+
+%%sep 5 1 500
+
+X: 21
+T: Rokeby
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+F: http://www.asaplive.com/archive/detail.asp?id=R1200008
+N: Link from "Andy Turner" <magpielane@dsl.pipex.com> tradtunes 2010-12-17
+N: From a tune book which is part of the Cocks Collection held by Northumberland Record Office  at
+N: Gosforth, with photocopies at the Black Gate and Morpeth Chantry. The book is a real miscellany
+N: of styles, and covers the gamut of 19th century light music. It is anonymous, and evidently the
+N: work  of  several  different  hands,  but  nevertheless has some traditional items of interest,
+N: including some rare and unique tunes.
+M: 6/8
+L: 1/8
+K: Bb
+|: B3  dcB | fdB BAB | cAF FGA | BDE FGA |\
+   B3  dcB | fdB BAB | cAF FGA | Bdf b3 :|
+|: BDF BDF | dDF BDF | ACF ACF | cCF ACF |\
+   BDF BDF | dDF BDF | ACF cCF | BDF B3 :|
+|: fed fed | bag fed | bag fed | c2d edc |\
+   fed fed | bag fed | fgf fed | c2d "D.Capo"edc |]
+
+
+%%sep 5 1 500
+
+X: 22
+T: La Romanella
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+F: http://www.asaplive.com/archive/detail.asp?id=R1200008
+N: Link from "Andy Turner" <magpielane@dsl.pipex.com> tradtunes 2010-12-17
+N: From a tune book which is part of the Cocks Collection held by Northumberland Record Office  at
+N: Gosforth, with photocopies at the Black Gate and Morpeth Chantry. The book is a real miscellany
+N: of styles, and covers the gamut of 19th century light music. It is anonymous, and evidently the
+N: work  of  several  different  hands,  but  nevertheless has some traditional items of interest,
+N: including some rare and unique tunes.
+M: 6/8
+L: 1/8
+K: Bb
+f |\
+b2f f=ef | d2B BAB | c2c cde | fdB B2f |\
+b2f f=ef | d2B BAB | cgf edc | B3- B2 :|
+|: d |\
+F2F FGA  | B2B BAB | c2c cde | edd d2f |\
+b2f f=ef | d2B BAB | cgf edc | B3- !fine!B2 :|
+|: c |\
+d2d dcd | G2G GAB | A2A AGA | BAB G2B/c/ |\
+d2d dcd | G2G GAB | A2A AGA | G3- G2  :|
+|: B |\
+A2e d2c | BAB G2B | A2e d2c | B3 G2B |\
+d2d dcd | G2G GAB | A2A AGA | G3- !D.Capo!G2 :|
+
+
+%%sep 5 1 500
+
+X: 23
+T: Scottie come over the Border
+R: jig
+M: 6/8
+L: 1/8
+N: In bars 9, 11 and 15, notes pencilled in above the staff were used.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: 19th century tune book collected by W.A. Cocks.
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: Bb
+B,3 D2F | Bdc B2F | G>AG G2g | fed c2B | B,3 D2F | Bdc B2F | G>AG FEF | GBD C2B, :|
+|: def fdf | geg fdB | def gab | def c2d | def fdB | gec cde | dbg fdf Bcd c2B :|
+
+
+%%sep 5 1 500
+
+X: 24
+T: Shutter's Hornpipe New Way
+R: reel
+M: C
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: 19th century tune book collected by W.A. Cocks.
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: A
+E2 |\
+A3B ABcd | ecA2 A2Bc | B3c Be^dc | BAGF E2E2 |\
+A3B ABcd | edcB Acea | gbeg fa^df | e2e2 e2 :|
+|: E2 |\
+e3d cdBc | ABGA F2F2 | f3e decd | BcAB G2fg |\
+agfe dcBA | GFED C2E2 | FAGB Afed | c2A2 A2 :|
+
+
+%%sep 5 1 500
+
+X: 25
+T: The Village Maid
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+F: http://www.asaplive.com/archive/detail.asp?id=R1200008
+N: Link from "Andy Turner" <magpielane@dsl.pipex.com> tradtunes 2010-12-17
+N: From a tune book which is part of the Cocks Collection held by Northumberland Record Office  at
+N: Gosforth, with photocopies at the Black Gate and Morpeth Chantry. The book is a real miscellany
+N: of styles, and covers the gamut of 19th century light music. It is anonymous, and evidently the
+N: work  of  several  different  hands,  but  nevertheless has some traditional items of interest,
+N: including some rare and unique tunes.
+M: 1/4
+L: 1/16
+K: F
+|: FEFG F2A2 | G2F2 F4 | AGAB A3c | c2B2 A4 |\
+   c3dc2f2 | c3dc2a | b2g2f2e2 | f4 f4 H:|
+|: c2c2B2A2 | c2c2B2A2 | d2d2c2B2 | d2d2c2B2 |\
+   c2c2B2A2 | c2c2B2A2 | B2G2F2E2 | F4 F4 :|
+|: FGAB cdcB | A2f2e2f2 | FGAB cdcB | A2f2e2f2 |\
+   d2b2b2b2 | c2a2a2a2 | gagf efed | cdcB "D.Capo"ABAG |]
+
+
+%%sep 5 1 500
+
+X: 26
+T: Wardell's Fancy
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+F: http://www.asaplive.com/archive/detail.asp?id=R1200008
+N: Link from "Andy Turner" <magpielane@dsl.pipex.com> tradtunes 2010-12-17
+N: From a tune book which is part of the Cocks Collection held by Northumberland Record Office  at
+N: Gosforth, with photocopies at the Black Gate and Morpeth Chantry. The book is a real miscellany
+N: of styles, and covers the gamut of 19th century light music. It is anonymous, and evidently the
+N: work  of  several  different  hands,  but  nevertheless has some traditional items of interest,
+N: including some rare and unique tunes.
+M: C
+L: 1/8
+K: F
+cB |\
+Acf2 f2gf | egb2 b2gb | afge fdge | {f}e2c2 c2cB |\
+Acf2 f2gf | e/f/gB2 B2cB | AFBG AFGE | F2F2 F2 :|
+|: cB |\
+Afcf Afcf | dB FD B,2dc | =Bgdg Bgdg | ec GE C2cB |\
+Acf2 f2gf | e/f/gB2 B2cB | AFBG AFGE | F2F2 F2 :|

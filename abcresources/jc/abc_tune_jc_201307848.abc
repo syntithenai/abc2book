@@ -1,0 +1,21 @@
+X: 1
+T:Mason's Apron, The
+R:reel
+H:This is the standard two-part version, with some variations. See also #644, #645, #646
+H:This version is sometimes also played in G, see #740
+Z:id:hn-reel-643
+M:C|
+K:A
+eg|:aA~A2 cBAF|EFAB cABc|dB~B2 BcBA|Bcde fefg|
+aA~A2 cBAF|EFAB cABc|dcde fgaf|1 ecBc A2eg:|2 ecBc A2AB||
+|:c2ec fcec|c2ec fcec|d2fd gdfd|d2fd gfed|
+c2ec fcec|c2ec fedc|dcde fgaf|1 ecBc A2AB:|2 ecBc A2||
+"variations"
+eg|:aA~A2 ABAF|EFAB cABc|dB~B2 dcBA|Bcde fefg|
+aA~A2 ABAF|EFAB c2BA|Bcde fgaf|edcB A2eg|
+aA~A2 ABAF|EFAB cABc|dB~B2 dcBA|Bcde fefg|
+aA~A2 ABAF|EFAB cABc|dcBc dfaf|edcB A2AB||
+cAeA fAeA|cAeA fedc|dBfB gBfB|dBfB gfed|
+cAeA fAeA|cAeA fedc|Bcde fgaf|edcB A2AB|
+c2ec fcec|c2ec fedc|=c2ec fcec|=c2ec fcec|
+c2ec fcec|c2ec fedc|dcBc dfaf|ecBc A2||

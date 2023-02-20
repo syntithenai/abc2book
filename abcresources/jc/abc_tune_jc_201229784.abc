@@ -1,0 +1,19 @@
+X: 129
+T: Lady Ann Hope's Favourite
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.51 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: The ornament at the start of bar 11 is a bit odd.
+M: C
+L: 1/16
+K: G
+ge |\
+Td3B G2Bc (dc)BA G2Bc | d3Bg3B A4 A2Bc |\
+d3BG2B2 d2ga b3a | g3ed2B2 TG4 G2 :|
+|: a2 |\
+(ga)ba Tg2d2 (ef)gf e2dB | d2ef (ge)dc A4 A2a2 |\
+gaba Tg2d2 efgf e2dB | Td2ef (ge)dB d4 d3a |
+(ga)ba g3d efgf e2dB | d2(e/g/)(f/a/) gedB A4 A2ge |\
+"^#~"d3BG2B2 d2ga b3a | g2e2d2B2 G4 TG2 |]

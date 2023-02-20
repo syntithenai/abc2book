@@ -1,0 +1,26 @@
+X: 1
+T:Hiking Song
+M:C
+L:1/8
+Q:80
+C:arr. Mike Evans
+S:March
+K:HP
+[| a3/4g/4|
+{a}fd{e}Af{g}((3e/2f/2e/2)d-d{g}A3/4B/4|
+{G}Af{g}Ae{Gdc}d2-d{g}e3/4f/4|  !
+g{f}g{a}fe{Gdc}d{gdc}d-d{g}d3/4e/4|
+{g}fd{gdc}df{ag}a2-a{g}a3/4g/4|
+{a}fd{e}Af{g}((3e/2f/2e/2)d-d{g}A3/4B/4|  !
+{G}Af{g}Ae{Gdc}d2-d{g}B3/4c/4|
+{g}dc{g}B{G}A{g}f3/4g/4a-aA3/4B/4|
+{G}Aaf3/4d/4{g}e{Gdc}d2-dA|] [|  !
+{Gdc}d3/2{g}f/2aG3/4A/4{Gdc}d{g}f{ag}a3/2A/2|
+{g}B{Gdc}d{gf}gf{g}e2{A}e{g}f3/4g/4|
+a3/2f/2{Gdc}d3/2c/2{g}B{Gdc}d{gef}e3/4d/4{g}c3/4B/4|  !
+{G}Aaf3/4d/4{g}e{Gdc}d2-dA|
+{Gdc}d3/2{g}f/2aG3/4A/4{Gdc}d{g}f{ag}a3/2A/2|
+{g}B{Gdc}d{gf}gf{g}e2{A}e{g}f3/4g/4|  !
+a3/2f/2{Gdc}d3/2c/2{g}B{Gdc}d{gef}e3/4d/4{g}c3/4B/4|
+{G}Aaf3/4d/4{g}e{Gdc}d2{gdG}d|]
+

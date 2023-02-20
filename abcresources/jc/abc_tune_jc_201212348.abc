@@ -1,0 +1,17 @@
+X:1026
+T: Hia Zumba Zai
+O: Romania
+W:
+W: Henrik Bredholt http://www.klezmerduo.dk/
+F: http://sviraj.com
+M: 4/4
+L: 1/4
+K: Dm
+Q: 1/4=240
+%%MIDI program 41 % Viola
+%%MIDI chordprog 45 % Pizzicato Strings
+%%MIDI bassprog 45 % Pizicato Strings
+"Dm"DAAA|AAAA|"Gm"BABc|"Dm"A4|\
+"A7"GGGG|"Dm"FGAF|"A7"EDEF|"Dm"D4::
+"C"G2 FE|"F"F4|"C"GABG|"F"A4|\
+"C"GGGG|"F"FGA2|"A7"GGFE|D2z2:|

@@ -1,0 +1,29 @@
+X: 14036
+T: HARVEY'S FIDDLE
+C: Bob McQuillen Summer'09
+B: Bob's Note Book 14 #36
+%R: jig
+%D:2009
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em	% and G
+D \
+| EFG FED | EGB AGA | BdB AFD | E2E E2D |\
+| EFG FED | GBG A2d | BGE DEF | E3- E2 :|
+|: A \
+| BGB BdB | AFA AGA | Bde dBG | EAG FED |\
+| GEG FGA | BdB A2B | dBG FED | E3- E2 :|
+%%begintext align
+%% At some point during
+%% the summer, I had a dream about Harvey Tolman. He
+%% was playing his fiddle, and this was the tune he played.
+%% It sure wasn't a Cape Breton style tune such as Harvey
+%% plays, at least I don't think it is, but it's what I got.
+%% Dreams are sure funny.
+%%endtext
+%%begintext align
+%% Note: The 2nd part is missing a measure, and the rhythms of the pickup notes are wrong.
+%% It should probably have an ending bar like the 1st part.
+%% So I took the liberty of adding | E2- E2 :| as the last bar. [JC]
+%%endtext

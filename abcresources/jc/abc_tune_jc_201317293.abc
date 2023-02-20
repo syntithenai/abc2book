@@ -1,0 +1,18 @@
+X:529
+T:Nine Elms
+C:John Young, 1727
+L:1/4
+M:3/2
+%%MIDI gchord GcHcIc
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=90
+K:G
+P:A
+[| "C"G "G/B"G "Am"G | "G"d2 "/"e/f/g "C"ed/c/ | "Am"c2- "/"cB "D7"AB |\
+"Em"G2- "/"GA/B/ "Am"cB | "D"A2- "/"A "C"G "G/B"G "Am"G |
+"G"d2 "/"e/f/g "C"ed/c/ | "Am"c2- "/"cA "A7"B^c |\
+"Bm"d2- "/"de/d/ "A7"^c/d/e/d/ | "D"d2- "/"dd "/"cB |
+P:B
+"C"c2 "/"BA "G/B"BG | "Am"c2- "/"cB "D7"AB | "Em"G2 "/"G/A/B "D7"GF | "G"G2- "/"Gd "/"cB |
+"C"c2 "/"BA "G/B"BG | "Am"c2- "/"cB "D7"AB | "Em"G2 "/"G/A/B "D7"GF | "G"G2- "/"G |]

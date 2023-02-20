@@ -1,0 +1,19 @@
+X: 061
+T: Minuet 4
+C: Ignatius Sancho 1775
+%R: minuet
+B: "Minuets Cotillons & Country Dances", 1775 p.6 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: B2 d>Bd>B | Tc4 (d/e/d) | (gG)(GA)(AB) | B>Ac>A F2 | TB2 d>Bd>B | Tc4 (d/e/d) | g2 f>de>c | {c2}HB6 :|
+[V:2] |: B4 b2 | f2 a2 b2 | e2 c2 B2 | f2 F2 fe | d2 B2 b2 | a2 f2 b2 | e2 d2 f2 | HB2 dBfd :|
+[V:1] |: F2 G2 A2 | TB3 c d2 | G2 A2 B2 | Tc3 d e2 | A2 B2 c2 | (d>c)(e>d)(f>e) | (ga)(bf)(ed) | Td2 c4 |]
+[V:2] |: B2 B2 B2 | Bdfd B2 | ed c2 B2 | f2 F2 F2 | fe d2 c2 | B2 z2 z2 | e2 d2 B2 | f3 "^da Capo"edc |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

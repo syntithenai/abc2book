@@ -1,0 +1,18 @@
+X: 20102
+T: PORTRAIT CHARMANT
+Q: "And.o"
+%R: march, reel
+B: "Edinburgh Repository of Music" v.2 p.10 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Ignored (possibly accidental) dots note in bars 5, 9.
+M: C
+L: 1/8
+K: G
+d2 |\
+d6 c2 | (c2B2) z2B2 | c2d2 e2c2 | (B3c/B/) A2z2 |\
+d4 c2A2 | G6 A2 | B2c2 d2e2 | A6 |] A2 |\
+d4 a3f | g6 d2 |
+d2c'2 a2f2 | a4 {bc'}g2d2 |\
+g4 d2B2 | A2gg (ge)cA | G6 A2 | c6 {dc}B2 |\
+d2c'2 a2f2 | (fg)dB (ge)cA | G4 B3A | G6 |]

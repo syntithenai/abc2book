@@ -1,0 +1,20 @@
+     %!HARMONY ABC @
+     %Harmony/Melody File to ABC Vers 2.9.9 April 1998-March 2004
+     %Written by Guillion Bros. on a Chris Walshaw format
+     %Please e-mail us your comments and bugs reports : didier@myriad-online.com
+     %Wednesday, December 27, 2006 14:35:18
+
+
+X:1     %Music
+T:Maid of the Mill     %Tune name
+C:     %Tune composer
+N:Filkins Tradition     %Tune infos
+Q:1/4=120     %Tempo
+V:1     %
+     %!STAVE 0 'Piano 1' @
+     %!INSTR 'Piano 1 [Ch1]' 0 0 @
+M:6/8     %Meter
+L:1/8     %
+K:G
+z D |G3/2F/G B2 G |F3/2G/A d2 E |E3/2F/E F2 D |G4 z d |d3/2e/d dcB |cAB c2 B |ABc ecA |G3 F3 D |G3/2F/G B2 G |G3/2F/G B2 G |F3/2G/A d2 E |E3/2F/E F2 D |G6 |]
+     %End of file

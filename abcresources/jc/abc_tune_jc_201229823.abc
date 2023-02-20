@@ -1,0 +1,39 @@
+X: 12
+T: Cupid in Armour
+%R: waltz
+B: "Le Sylphe, Twenty Four Country Dances with Figures for the Year 1818", Button & Whitaker, p.6 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1818
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 3/8
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+G2e2c2 | e2c2e2 | d2B2G2 | (e4c2) |\
+G2e2c2 | e2c2e2 | dgdBcA | G4 :|
+|: G2 |\
+(GA).B.c.d.e | (f4e2) | d4c2 | B4G2 |\
+(cd).e.f.g.a | (g2c'2)e2 | (gf)e2d2 | c4 :|
+|: Gc |\
+e2(Gc)e2 | (Gc)e2z2 | f2z2 (Bd) | f2(Bd)f2 |\
+e2Gce2 | Gce2z2 | (ga)(gf)(dB) | c4 :|
+|: G2 |\
+G4fd | B2dBG2 | c4c'g | e2gec2 |\
+G4fd | B2dBG2 | cegfdB | c4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center WALTZ FIGURE        (Each strain repeated)
+%%begintext align
+%% The 1st Lady meets & turns 2d Gent: a la waltz
+%% 1st Gent: turns 2d Lady a la waltz |:
+%% promenade a la waltz |: whole poussette with
+%% sauteuse step |: & swing cor.s a la waltz |:
+%%endtext
+%%center COUNTRY DANCE FIGURE        (Each strain repeated)
+%%begintext align
+%% Hands 3 round on Ladies side & 2d Lady passes under
+%% to her place hands 3 on Gent: side & 2d Gent: do same |:
+%% down the mid: up again allemande |: set contrary corners |:
+%% lead thro' bottom & right & left with top Cu: |: .
+%%endtext
+%%sep 1 1 450

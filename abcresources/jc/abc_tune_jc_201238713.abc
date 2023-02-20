@@ -1,0 +1,19 @@
+X: 311	% 85
+T: la Valeta Waltz
+T: Spanish Circle Quadrille
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.31 #1
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+V: 1 name="85"
+[|\
+D4G2 | A4G2 | F4F2 | d6 | D4A2 | B4A2 |  A4 G2 | d6 |\
+d4B2 | G4E2 | A4c2 | e6 | e4d2 | B4G2 | ddd2d2 | G6 ||[K:=f]
+[K:F]\
+C4F2 | G4F2 | F4E2 | c6 | C4G2 | A4G2 | G4F2 | c6 |\
+c4A2 | F4D2 | G4B2 | d6 | d4c2 | A4F2 | ccc2c2 | F6 ||
+[K:Bb]\
+F4B2 | c4B2 | B4A2 | f6 | F4c2 | d4c2 | c4B2 | f6 |\
+f4d2 | B4G2 | c4e2 | g6 | g4f2 | d4B2 | fff2f2 | B6 |]

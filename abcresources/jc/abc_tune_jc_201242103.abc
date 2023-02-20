@@ -1,0 +1,44 @@
+X: 50
+T: le Passe-pied de la Reine
+%R: minuet, waltz
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #50
+M: 3/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+FEDEFG | AGABcA | d2B2e2 | c2BcA2 |\
+efg2B2 | cde2A2 | d2e2{d}c2 | d6 :|\
+|:\
+A2FGA2 | D2d2c2 | {c2}B4A2 | ^G2B2e2 |
+{e2}d4c2 | B2A2B2 | c2dcBc | A6 |\
+EDEGFA | GFGBA=c | B2e4 | {d}Tc3de2 |\
+A2A2A2 | A2BAGF | GA/B/F2TE2 | D6 :|
+|:\
+a2a2a2 | d6 | edefge | f2efd2 |\
+gfgafg | edefde | cd(Td3c/d/) | e6 :|\
+|:\
+AGAB=cA | B2ABG2 |
+BAB^cdB | c2BcA2 |\
+dcdecd | edefge | f2e2d2 | a6- |\
+agfedc | Bcdefd | ef/g/f2Te2 | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+d6 | c6 | B2G2E2 | A2e2a2 |
+g2g2g2 g4f2 | b2g2a2 | defgfe :||: d4 c2 |
+B4A2 | ^G4A2 | d4c2 | B4A2 | e2f2^g2 |
+a2d2e2 | A2c2e2 | a6 | edegfa | gfefge |
+"[p.2]"\
+a2A2g2 | f2d2d'2 | c'4d'2 | g2a2A2 | defgfe :||:
+d2c2A2 | B2b2f2 | g2e2a2 | d'2a2d2 | b4a2 |
+g4f2 | e2f2d2 | A2agfe :||: f4d2 | g2d2G2 |
+^g4e2 | a2e2A2 | f4z2 | c4A2 | d2c2B2 |
+A2agfe | f2d2f2 | gabc'd'2 | g2a2A2 | d2A2D2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400

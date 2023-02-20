@@ -1,0 +1,33 @@
+X: 10783
+T: COTILLION No. 6. tune 3
+C:
+%R: march, reel
+N: This is version 1, for ABC software that doesn't understand diminuendo annotation.
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.78 #3 (and p.79 #1)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The f in bar 2 of the 3rd strain should probably be sharp, as in bar 6.
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(dc) |\
+B2d2 A2c2 | BABc d2G2 | A2A2 c2c2 | cBAB G2(dc) |\
+B2d2 A2c2 | BABc (d2G2) | A2A2 ^F2F2 | G4- G2 H|]
+|: (Bc) |\
+d2d2 e2e2 | (dcBc) d2Bc | d2d2 e2e2 | (dcBc) d2d2 |\
+gaba g2d2 | (e4 d2g2) |[1 ^f2f2 fgab | g4 g2 :|[2 B2B2 ABcA | B4 "^D.C."B2 |]
+ag |\
+g^f=ef d2f2 | gfga b2(ag) | g^f=ef d2c2 | c=BAB G2(ag) |\
+g^f=ef d2f2 | g^fga b2g2 | "dim."a2a2 ^f2f2 | g4- "^D.C."g2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies all forward and back,
+%% gentlemen the same,
+%% all chassa across partners,
+%% all balance partners and turn,
+%% grand chain,
+%% promenade 8.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

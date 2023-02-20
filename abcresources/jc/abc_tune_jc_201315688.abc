@@ -1,0 +1,38 @@
+
+X: 1
+T: My Wife's a Wanton Wee Thing
+O: Athole Parts 1 & 4
+S: MS by Barbara McOwen, Jan 2005, in Concord Slow Scottish Session collection
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+f/e/ |\
+"D"d2A dfe | d3 A2B | "C"=cdc cGE | =c3 "A7"E2^c |\
+"D"d2A dfe | d3 "A7"A2G | "D"FDF "A7"ECE | "D"D3- D :|
+f/g/ |\
+"D"aba fdf | a3 "G7"g2f | "C"gag e=ce | g3 "A7"efg |\
+"D"aba fdf | "D7"a3 "G"g3 | "Em7"fdf "A7"ece | "D"d3- "A7"d2 |]
+f/g/ |\
+"D"aba fdf | aba fdf | "C"gag e=ce | gag "(A7)"e=ce |\
+"D"aba fdf | "D7"afa "G"gab  | "Em7"fga "A7"gec | "D"d3- d2 |]
+
+%%sep 1 1 500
+
+X: 2
+T: My Wife's a Wanton Wee Thing
+O: Caledonian Companion, p.41
+B: Caledonian Companion, p.41 (with variations).
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+   fe \
+| "D"d2A dfe | d3 A2B | "C"=c>dc cGE | =c3 "A7"E2^c \
+| "D"d2A dfe | d3 "A7"A2G | "D"FDF "A7"ECE | "D"D3- D :|
+   FG \
+| "D"A>BA FDF | A3 "C"=c3 | G>=cG E=CE | G3 "G"B3 \
+| "D"A>BA FDF | A3 "G" g3 | "D"fdf "A7"ece | "D"d3- d |]
+   FG \
+| "D"A>BA FDF | AdA FDF | "C"G>AG E=CE | G=cG E=CE \
+| "D"A>BA FDF | AFA "A7"a2g | "D"fga "A7"gfe | "D"d3- d |]

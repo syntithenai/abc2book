@@ -1,0 +1,17 @@
+X: 10461
+T: SEE THE CONQUERING HERO COMES
+C: Handel
+Q: "Pomposo"
+%R: march
+B: "Edinburgh Repository of Music" v.1 p.46 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: There's a faint ':' repeat symbol after the double bar, but no final repeat symbol; ignored.
+M: 2/4
+L: 1/16
+K: G
+|:!segno!\
+d4 B3c | d4 G4 | A>Bc>d c2B2 | (B4 A4) |\
+B>cd>e d2d2 | g4 d4 | {c}B>AG>A B2TA2 | "_Fine."G8 :|
+B>AB>c B2B2 | (A4 G2)AB | {c}c2B2A2G2 | (G4{AG}F4) |\
+B>AB>c B2B2 | e4 ^c4 | d2e>d d2^c2 | d4 d=cBc !segno!|]

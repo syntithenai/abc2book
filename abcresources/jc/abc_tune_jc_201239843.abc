@@ -1,0 +1,28 @@
+X: 343
+T: MISS JOHNSON PITWORTH
+C: J. WALTER 2nd Coll.
+R: Reel
+B: Glen Collection p.34 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Gm
+%
+V: 1
+A |\
+B2dB AFFA | B2dB fBdB | Afcf AFFA | dDA^F G2G :|
+d |\
+g2bg dgbg | f2af cfaf | g2bg dgbg | ^fgaf Tg2gd |
+gbdb caBg | Afcf AFFA | GABc dcBg | dDA^F G2G |]
+%
+V: 2
+z |\
+B2[b2f2] [c'2f2][c'2f2] | B2[b2f2] [d'2f2][b2f2] |\
+[c'2f2][a2f2] [c'2f2]f2 | d2[c'2a2] [b2g2][bg] :|
+z |\
+G2[g2d2] B2[g2d2] | F2[f2c2] A2[f2c2] |\
+G2[g2d2] B2[g2d2] | d2[c'2a2] [b2g2][b2g2] |
+d2f2 e2d2 | c2A2 F2[f2c2] | g2[d'2b2] d2[d'2b2] | a2[a2d2] [b2g2][gG] |]

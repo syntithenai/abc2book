@@ -1,0 +1,103 @@
+% bach.abc -*- abc -*-
+%
+% Songs for choir, written by J.S. Bach
+%
+% $Id: bach.abc,v 1.2 2004/04/03 13:46:22 bert Exp $
+%
+X:1
+T:Dir, dir, Jehova, will ich singen
+T:Chorale nº 46, BWV 299
+C:M:Johann Sebastian Bach, 1725
+C:T:Bartholomäus Crasselius, 1697
+B:Schemelli's Book
+M:3/4
+L:1/4
+Q:1/4=82
+%%staves [(1 2) (3 4)]
+V:1 clef=treble name="Soprano" sname="S"
+V:2 clef=treble name="Alto"    sname="A"
+V:3 clef=bass   name="Tenore"  sname="T"
+V:4 clef=bass   name="Basso"   sname="B"
+K:Bb
+V: 1
+F|(B d/c/)   d/B/|g  e2         |(f B)    e |!trill!c2 !fermata!B |c     e     d|
+w: 1.~Dir, dir,__ Je-_ho-va, will_ ich sin-gen, denn wo ist
+w: Dir will__ ich_ mei-ne Lie--der brin-gen, ach, gib mir
+V: 2
+D|(F B/A/)   B   |B  G2         |(F G/A/) B |(BA)      !fermata!F |F     F>    F|
+V: 3
+%%MIDI transpose -24
+b|(b f'/e'/) f'  |e' (b/a/b/c'/)|d'2      g'|(f'>e')   !fermata!d'|c'/b/ c'/a/ b|
+V: 4
+%%MIDI transpose -24
+b|(d c)      B   |e  (g/f/g/e/) |(b/a/ g) e |f2        !fermata!B |a/g/  a/f/  b|
+%
+V: 1
+c  d/c/ d/B/|A/B/ !trill!B>c    |!fermata!c2:|A   |(B c)  d    |G g/e/ c/=B/|
+w:doch ein_ sol--cher_ Gott wie du? *********
+w:dei-nes_ Gei--stes_ Kraft dar-zu. Dass ich_es thu' im_ Na--
+V: 2
+A  B/A/ B   |E    F/E/     F/=E/|!fermata!F2:|F   |F2     F    |E>G    E/D/ |
+V: 3
+c' f    f   |c'   b        f/g/ |!fermata!a2:|c'  |(f a)  b    |b>b    (c'  |
+V: 4
+f  e    d   |c    d/c/     d/B/ |!fermata!F2:|f/e/|d (e/d/c/B/)|e>e    (_a  |
+%
+V: 1
+c/d/ d>e|!fermata!e2 c|{B}A (B/A/G/F/)|f>B (g|g/) f/ {e}d c/B/|!fermata!B2|]
+w:men_ Je-su Christ, so wie es___ dir durch ihn_ ge-f\"al-lig_ ist.
+V: 2
+E_AG|G2G|F(GA)|B>B (B|B/) B/ B A|!fermata!F2|]
+V: 3
+c'/) c'/ c'=b|!fermata!c'2 c'|c'2c'|d'>d'e'|b f' e'/d'/|!fermata!d'2|]
+V: 4
+_a/) g/ fg|!fermata!c2 e|f2 e|d g/f/ e/d/|e f F|!fermata!B2|]
+%
+W:2. Zeuch mich, o Vater, zu dem Sohne,
+W:damit dein Sohn mich wieder zieh zu dir;
+W:dein Geist in meinem Herzen wohne
+W:und meine Sinne und Verstand regier,
+W:daß ich den Frieden Gottes schmeck und fühl
+W:und dir darob im Herzen sing und spiel
+W:
+W:3. Verleih mir, Höchster, solche Güte,
+W:so wird gewiss mein Singen recht getan
+W:so klingt es schön in meinem Liede,
+W:und ich bet dich im Geist und Wahrheit an
+W:so hebt dein Geist mein Herz zu dir empor,
+W:daß ich dir Psalmen sing im höhern Chor.
+W:
+W:4. Denn der kann mich bei die vertreten
+W:mit Seufzern, die ganz unaussprechlich sind,
+W:der lehret mich recht gläubig beten,
+W:gibt Zeugnis meinem Geist, dass ich dein Kind
+W:und ein Miterbe Jesus Christi sei,
+W:daher ich Abba! Lieber Vater schrei.
+W:
+W:5. Wenn dies aus meinem Herzen schallet,
+W:durch deines heilgen Geistes Kraft und Trieb,
+W:so bricht dein Vaterherz und wallet
+W:ganz brünstig gegen mir vor heißer Lieb,
+W:dass mirs die Bitte nicht versagen kann,
+W:die ich nach deinem Willen hab getan.
+W:
+W:6. Was mich dein Geist selbst bitten lehret,
+W:das ist nach deinem Willen eingericht
+W:und wird gewiss von dir erhöret,
+W:weil es im Namen deines Sohns geschicht.
+W:Durch welchen ich dein Kind und Erbe bin
+W:Und nehme von dir Gnad um Gnade hin.
+W:
+W:7. Wohl mir, dass ich dies Zeugnis,
+W:darum bin ich voller Trost und Freudigkeit
+W:und weiß, dass alle gute Gabe,
+W:die ich von dir verlange jederzeit,
+W:die gibst du und tust überschwänglich mehr
+W:als ich verstehe, bitte und begehr.
+W:
+W:8. Wohl mir, ich bitt in Jesu Namen,
+W:der mich zu deiner Rechten selbst vertritt,
+W:in ihm ist alles Ja und Amen,
+W:was ich von dir im Geist und Glauben bitt:
+W:Wohl mir, Lob Dir! itzt und in Ewigkeit,
+W:dass du mir schenkest solche Seligkeit.

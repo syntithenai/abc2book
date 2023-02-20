@@ -1,0 +1,15 @@
+X: 80
+T: Cimpoi
+C: Romania
+F: http://www.youtube.com/watch?v=v8RsJwXrrWw
+F: http://www.youtube.com/watch?v=rkiNE_chHzU
+S: Mihai and Alexandru David, Gypsy Camp Vol. 1
+M: 6/8
+L: 1/8
+K: C
+Q: 1/4=160
+%%MIDI drum dddd2z 43 43 43 45 50 40 40 60
+%%MIDI drumon
+|:  A,A,D ^C2_B,| A,A,D ^C2_B,| A,A,D ^C2_B,|A,A,A, A,2z  :|
+    e6-         |e6           |A6-          |A6          \
+|: ^c/d/cd dcz  | ^c/d/cd dcz | ^c/d/cd dcz |_BAA AA2     :|

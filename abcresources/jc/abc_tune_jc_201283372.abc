@@ -1,0 +1,18 @@
+X: 1
+T: Guilderoy    [Am]
+O: Thomas Nixon 1778
+B: Thomas Nixon, Copybook, 1778
+R: reel
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - -
+V: 1 staves=2
+zE |\
+A2 A>B cB cd | e2 dc d2 cd | e2 A2 cA G<E | G6 cB |
+A>G AB cB cd | e>d ef e2 a>g | f>e d>c B2 c2 | A6 :|
+|: ef |\
+g>f ga g2 fe | fe dc d2 (3Acd | e2 A2 cA G<E | G6 cB |
+A>G AB cB cd | e>d ef e2 a>g | f>e d>c B2 c2 | A6 :|
+% - - - - - - - - - - - - - - -

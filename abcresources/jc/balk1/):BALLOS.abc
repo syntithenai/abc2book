@@ -1,0 +1,26 @@
+X: 29
+T: Ballos
+O: Greece
+M: 4/4
+L: 1/8
+Q: 1/4=180
+K: F
+%%MIDI drum dzdd 36 40 40
+%%MIDI drumon
+  z2 [A2F2] [B2G2] [c2A2]\
+|:[d2B2] z[dB] [d2B2] [d2B2]      |[dB][cA][dB][ec] [dB][cA][B2G2]|\
+  [c2A2] z[cA] [c2A2] [c2A2]      |[cA][BG][cA][dB] [cA][BG][A2F2]|\
+  [B2G2] z[BG] [B2G2] [B2G2]      |
+  [BG][AF][BG][cA] [BG][AF][G2E2] |[e2c2] [d2B2] [c2A2] [B2G2]    |\
+  [A3F3] [AF] [AF][BG][cA][dB]    |[c4A4] [BG][cA] [B2G2]         |\
+  [1[A4F4] [B2G2] [c2A2]          :|[2 [A6F6] z2                  |
+%%MIDI drumoff
+  F3 F F2 G2                      |A3 A AG F2                     |\
+  z G3 E2 C2                      |F8                             |\
+  z G3 E2 C2                      | F8                            |
+%%MIDI drumon
+  B2 zB B2 B2                     |BABc BAG2                      |\
+  A2 zA A2 A2                     | AGAB AGF2                     |\
+  G2 zG G2 G2                     | GFGA GFE2                     |
+  z B3 A2 G2                      | F3G AB c2                     |\
+  A4 G2 G2                        | F8                            |

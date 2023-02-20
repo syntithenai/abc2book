@@ -1,0 +1,24 @@
+X: 08085
+T: OWEN'S REEL
+C: Bob McQuillen 27 Jan 91
+B: Bob's Note Book 8 #85
+%R: reel
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part collapses easily to a 4-bar phrase with alternate last bars.
+N: The 1st part almost works, too, except that the first bars aren't identical.
+M: C
+L: 1/8
+K: D
+FE \
+| D2FA GABd | cdeg fdcd | edfd gfed | cedB AGFE |\
+| DFAF GABd | cdeg fdcd |
+| edfd gfed | Addc d2 :: ed \
+| cBAB cdeg | fdBc defa | bgeg afdf |1,3 efga gf :|2,4 gece d2 :|
+%%begintext align
+%% Owen Iselin is
+%% the nice young son of Mike and Alouette from
+%% Nelson, NH, and one night when I was playing
+%% piano at a dance over there, Owen kept me
+%% company. He's pretty much of a live wire, and
+%% we had a good time together. I liked his stories!
+%%endtext

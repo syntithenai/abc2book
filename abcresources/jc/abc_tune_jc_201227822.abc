@@ -1,0 +1,32 @@
+X: 10
+T: the Bed Chamber
+%R: jig
+B: Kitty Bridges "Collection of Country Dances 1745" p.10
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-bridges1745
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The rhythms are incorrect at the strain boundaries; not fixed.
+N: Several measures have note lengths that don't add up to 6/8; not fixed.
+M: 6/8
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Bc |\
+d2B2G2 D4EF | G2E2F2 G4Bc |\
+d2B2G2 D4EF | G2E2F2 D4 :|\
+FG |\
+A2A2B2 ABcB2 FG | A2A2A2 A4FG |
+A2A2B2 A/B/cB2 FG | A2A2B2 A4d2 \
+|:\
+BGBGBG | FDFDFD | BGcAdB d2 |\
+BGBGBG FDFDFD | F2D2F2 G4d2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center The Bed Chamber
+%%begintext align
+%%   Your Part.r fall back one coup.l you
+%% follow her, back again and turn Hands
+%% You set to the 2d Wom.n your Part.r to the
+%% 2d Man and turn, your Part.r fall down
+%% the Middle you after her, Then your Part.r
+%% set to the 3d Man, you to the 2d Wom.n
+%% and turn in the Middle.
+%%endtext

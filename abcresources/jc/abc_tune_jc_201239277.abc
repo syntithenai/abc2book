@@ -1,0 +1,42 @@
+X: 3242
+T: Mr Ronald Crawford's   Strathspey
+C: by Nath.Gow
+%R: strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.24 #2 (last 2 staffs on p.25)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain's last bar has only 3 8th notes; fixed by changing the last F to a quarter note.
+N: The last bar has only 6 16th-notes, making the rhythm of repeats wrong; not fixed.
+M: 2/4
+L: 1/16
+Q: "Very Slow with Expresion."
+K: Fm
+% - - - - - - - - - -
+% Voice 1 reformatted for 5 8-11-bar lines, for compactness and proofreading.
+V: 1 staves=2
+G |\
+{FG}TA3G {=E}F3G | TA3B{AB}c4 | !f!.[E2G,2][E2G,2] .[G2B,2].[G2B,2] | [E2G,2][E2G,2] [G4B,4] ||\
+!p!{FG}A3G {=E}F3G | TA3B {AB}c3B | [A2C2][A2C2] [G2C2][G2=E2C2] | [F2A,2][F2A,2][F3A,3] :|\
+c | Tf3ga2f2 | c2Tc2 f4 | Tg3ab2g2 |
+e2e2 g4 ||\
+Tf3g {b}a2gf | c2=e2f2g2 | "_Expr.vo"{g}a3f {f}g3=e | Tf4 {=ef}F2c2 ||\
+(Tf=e)fg a2f2 | c2Tc2 f4 | (Tgf)ga b2g2 | e2Te2 g4 || ~agab (gb)ag | (af)g=e Hf4 |
+!p![A2C2][A2C2] [G2C2][G2=E2C2] | [F2A,2][F2A,2] (FG)AB |:\
+!f!Tc4TA3G | TF3GA2c2 | (B2e2) (G2B2) | .E.F.G.A .B.c.=d.e ||\
+{=B}c4 TA3G | (F2c2) f2g2 | {fg}a3f {f}g3=e |
+[1 Tf4 ({=ef}FG)AB :|[2 Tf4 {=ef} F2 |] (ag) | f2c2c2c2 | Tf3g {b}a2gf | g2e2 e2e2 | Tg3a {c'}b2ag ||\
+f2c2 c2c2 | {=eg}f3=e f2g2 |
+"_Expr.vo"{fg}a3f {f}g3=e | Tf4 {=ef} F2ag ||\
+f2c2c2c2 | f/g/f/.=e/ fg {b}a2gf | g2e2e2e2 | (g/a/g/).f/ ga {c'}b2ag ||\
+"^Expr.vo"{g}a3f {f}g3=e | f2c2 Hf4 | !p![A2C2][A2C2] [G2C2].[G2=E2C2] | [F2A,2][F2A,2][F2A,2] |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | F2f2 A2G2 | F2f2 a2f2 | !f!E2e2 E2e2 | E2e2 E4 || !p!f2c2 f2=e2 | f2d2 c2B2 | A2B2 c2C2 | F2f2F3 :|
+a | F2f2 F2c2 | f3ga2f2 | e2E2 e2B2 | e2f2g2c2 || f2=e2 f4 | a2g2f2=e2 | "_Expr.vo"f2b2 c'2c2 | f2c2 F4 || F2f2 F2c2 |
+f2g2 a2f2 | E2e2 E2e2 | E2e2 g2c2 || [f4F4] [c4C4] | f2c2 HF3G | !p!A2B2 c2C2 | F2f2F4 |: !f!Ffcf Ffcf |
+Ffcf Ffcf | EeBe EeBe | EeBe EeBe || fc'ac' fc'=ec' | fc'cc' fc'=ec' | fgaf bgc'c |[1 fcAc F4 :|[2 f2c2 F2 |]
+z2 |\
+fc'ac' fc'ac' | fc'ac' fc'ac' | ebgb ebgb | ebgb cc'gc' ||\
+fc'ac' fc'ac' | fc'cc' fc'=ec' | "_Expr.vo"f2b2 c'2c2 |  f2c2 F4 ||\
+z2[f2a2c'2][f2a2c'2][f2a2c'2] | [f4a4c'4-] [f4a4c'4] | z2[e2g2b2][e2g2b2][e2g2b2] | [e4g4b4] [c4g4c'4] ||\
+"_Expr.vo"f4 c4 | f4 HF2G2 | !p!A2B2 c2C2 | F2f2F2 |]

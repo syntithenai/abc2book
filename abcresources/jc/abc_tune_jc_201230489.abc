@@ -1,0 +1,28 @@
+X: 13
+T: La Belle Annette
+R: march, polka
+M: 2/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 
+|: d2fd | {b}a2fd | A>BcA | (d/c/d/e/)d2 | FDGE | AFBG | F>Adf | (e/d/c/B/)A2 :|
+|: ([E2A,2-]T[F2A,2]) | (G/A/G/F/)[E2A,2] | ([F2A,2-][G2A,2]) | (A/B/A/G/)F2 |\
+F>Adf | g>bge | {g}fedc | (d/c/d/e/)d2 :|
+|:[A3F3]G | .[F2A,2].[F2A,2] | G3F | .[E2A,2].[E2A,2] | [F3A,3]E | D>FAd | A>FG>E | [D4A,4] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: d2d'2 | c'2d'2 | a2A2 | dd'af | d2e2 | f2g2 | a2fd | a2A2 :|
+|: AaAa | AaAa | DdDd | DdDd | d2fd | g2b2 | a2A2 | dAD2 :|
+|: DdDd | DdDd | AaAa | AaAa | d2A2 | d2fd | a2A2 | d2D2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands across -- back again : cross over quite round the 2d & 3d
+%% Cu: lead up the middle & Cast off -- Ballance & Allemance --
+%% same back again --
+%%endtext

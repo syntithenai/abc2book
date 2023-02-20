@@ -1,0 +1,10 @@
+X:1
+T:TEST: Time Signatures
+%%staffwidth 200
+M:6/8
+K:D
+[| DEF GAB | cde d3 |]
+M:3/4
+[| DE FG AB | cd e d3 |]
+M:6/8
+[| DEF GAB | cde d3 |]

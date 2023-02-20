@@ -1,0 +1,57 @@
+X: 1
+T: Trenchmore
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.149 #200 (298)
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.44
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+F2G A2B | A2G AFD | G>AB B>AB | B>AB B>AG |\
+F2G A2B | A2G AFD | G>AB B>AB | B>cd B>AG |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lean up all a D. forward and back .:| Cast off, meet below
+%% and come up, do so .:| First Cu. go down under the 2d Cu.
+%% Arms, the 3d Cu. come up under the 1st. Do this forward
+%% and back :| or .:|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First Man sett to the 2d Wo. then to his own, then to the 3d
+%% Wo. then to his own, then to the 4d Wo. then to his own,
+%% and so to all the We. and Men. then your Wo. do the same
+%% then arm then as you sett to them, arming your own,
+%% then your Wo. do the same.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Lead up again, then turn your Wo. with your right
+%% Hand, and the 2d Wo. with your left your Wo. falling as you
+%% turn 'till you come to your Place; then your Wo. do the
+%% same, you following her, the rest doing these Changes.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% Lead up all a D. forward and back .:| Cast off, meet below and come up, do so .:| First cu. go down
+%% under the 2. cu. arms, the 3. cu. come up under the first. Do this forward and back :| or .:|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First man set to the second wo. then to his own, then to the third wo. then to his own, then to the
+%% fourth wo. then to his own, and so all the women and men, then your wo. do the same; then
+%% arm them as you set to them, arming your own, then your wo. as much.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Lead up again, then turn your woman with your right-hand, and the second woman with your left,
+%% your woman falling as you turn till you come to your place, then your woman do the same, you
+%% following her, the rest doing these Changes.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

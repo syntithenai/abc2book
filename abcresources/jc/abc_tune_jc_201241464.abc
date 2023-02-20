@@ -1,0 +1,26 @@
+X: 4363
+T: Tha biodag aig Mac Thomais. "Mc Homas (Thomson) has a Dirk."
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.4 p.36 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+d |\
+cA .c/.d/.e Tc2Ac | B=GdG TB2GB |\
+cA .c/.d/.e Tc2Ac | B=G dB {B}A2A :| ^g |\
+aeec aeef | =gddB gdd^g |
+aeeg aeed | cABG {G}A2Ag |\
+aeec aeef | =gddB gdd^g |\
+aeec aefa | cA BG {G}A2A |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+[a2A2][a2A2] [a2A2][a2A2] | [=g2=G2][g2G2] [g2G2][g2G2] |\
+[a2A2][a2A2] [a2A2][a2A2] | [=g2=G2][g2G2] [a2A2][aA] :| z |\
+[a2A2][a2A2] [a2A2][a2A2] | [=g2=G2][g2G2] [g2G2][g2G2] |
+[a2A2][a2A2] [a2A2][a2A2] | [e2E2][e2E2] [A2A,2][A2A,2] |\
+[a2A2][a2A2] [a2A2][a2A2] | [=g2=G2][g2G2] [g2G2][g2G2] |\
+[a2A2][a2A2] [c'2c2][d'2d2] | [e'2e2][e'2e2] [a2A2][aA] |]

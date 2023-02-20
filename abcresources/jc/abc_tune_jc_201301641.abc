@@ -1,0 +1,38 @@
+X:2
+T:Les Anneaux d'Or
+G:Kazimodal
+R:Rond de Saint-Vincent
+C:Traditionnel, arrangement http://kazimodal.trad.org
+Q:C2=90
+P:D
+M:4/4
+K:Am
+P:C
+%MIDI program 109
+%MIDI bassprog 32
+%%MIDI bassvol 127
+V:1
+%%MIDI gchord z
+"Em"E/2E/2E/2 |
+V:2
+A/2A/2A/2 |
+%%text Basse continue en La
+P:D
+V:1
+%%MIDI gchord f2f2fffffff2ffcf
+|: AB A/2B/2c/2A/2 G/2A/2B A/2G/2^F/2E/2
+%%MIDI gchord f2f2fffffff2ffcf
+	|1 AB A/2B/2c/2A/2 G/2A/2B A/2E/2E/2E/2 :|2\
+%%MIDI gchord f2f2fffffff2f2cf
+	AB A/2B/2c/2A/2 G/2A/2B AA/2B/2 ||
+%%MIDI gchord f2fff2fffff2f2ff
+|: cd/2c/2 Bc/2B/2 A/2G/2^F EA/2B/2
+%%MIDI gchord f2fff2fffffff2ff
+	|1 cd/2c/2 BB/2A/2 G/2A/2B/2G/2 AA/2B/2	:|2\
+%%MIDI gchord f2fff2ffffffffff
+	 cd/2c/2 BB/2A/2 G/2A/2B/2G/2 A/2E/2E/2E/2 ||
+V:2
+|: de d/2e/2f/2d/2 c/2d/2e d/2c/2B/2A/2
+	|1 de d/2e/2f/2d/2 c/2d/2e d/2A/2A/2A/2	:|2 de d/2e/2f/2d/2 c/2d/2e dd/2e/2 ||
+|: fg/2f/2 ef/2e/2 d/2c/2B Ad/2e/2
+	|1 fg/2f/2 ee/2d/2 c/2d/2e/2c/2 dd/2e/2	:|2 fg/2f/2 ee/2d/2 c/2d/2e/2c/2 d/2A/2A/2A/2 ||

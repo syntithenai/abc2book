@@ -1,0 +1,20 @@
+X: 786
+T: Over the Moor to Maggie
+R: reel
+%S: s:3 b:24(8+8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #786
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0786/oneill-1001-0786-1.abc
+%m: Tn = (3n/o/n/
+M: C|
+L: 1/8
+K: G
+"^A"[|] (DE/F/) \
+| G2(GA) BABd | efg(e d)BAG | E(AAG) ABA(G | E)DEG A(cBA) ||\
+| G2(GA) BABd | e(fge) dBAG | E(GGF) GBA(G | E)DEF G2 |]
+"^B"|| (ga) |\
+b2bg a2af | (gfg)(e d)BAG | e(aag) abag | ed (3(efg) a2ga ||\
+bTg-g2 afd(f | g)fge dBAG | e(ggf) gba(g | e)def g2 |]
+"^C"|: cd |\
+e2ec d2dB | c2cA B2AG | EAA(G AB)AG | E(D (3EFG A2) (cd) ||\
+efg(e df)ed | BdA(c G2)AG | E(GGF) GBA(G | ED)EF G2 :|

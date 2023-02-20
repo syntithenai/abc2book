@@ -1,0 +1,314 @@
+
+X: 1
+T: Si Bheag Si Mhor
+M: 3/4
+L: 1/8
+%Q: 225
+C: Turlough O'Carolan
+R: planxty
+S: Pgmulvaney <Pgmulvaney:aol.COM>
+Z: Probably the first tune composed by Carolan.  Si Bheag and Si Mhor are two
+Z: hills in County Leitrim associated in the local folklore with two bands of
+Z: fairies continually at war with each other.
+N: In fact, I am told, Carolan most likely arranged, but did not compose, the
+N: tune. I also believe the Faeries involved have since gone to the negotiations
+N: table, and are now making a mint in the post-peace-process-tourist-trade.
+N: PS: Sometimes referred to as "she begs for more". but never by me, of
+N: course. Must be reference to Guiness...
+K: D
+de \
+| f3ed2 | d3ed2 | B4 A2 | F4 A2 | BA Bc d2 | e4 de | f4 e2 | d4 f2 |
+| B4 e2 | A4 d2 | F4 E2 | D4 f2 | B4 e2 | A4 dc | d4 d2 | d4 :|
+|: de \
+| f3 e d2 | ed ef a2 | b4a2 | f4 ed | e4 a2 | f4 e2 | d4 B2 | A4 BA |
+| F4 E2 | D4 f2 | B4 e2 | A4 a2 | ba gf ed | e4 dc | d4 d2 | d4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+T: Jamie Allen
+T: Jimmy Allen
+T: Reel of Tullochgoram
+O: c.1800
+R: reel
+M: 2/4
+L: 1/8
+Z: John Chambers <jc:trillian.mit.edu>
+N: Jamie Allen (1734-1810) was a Northumbrian small-pipes player.
+N: This tune is attributed to him, but the details aren't known.
+K: G
+G/A/ \
+| "G"BG GA | "Em"B2 GA/B/ | "Am"cA AB | "D7"c2 BA |
+"G"Gg "C"ge | "G"d2 B>c | "D7"dd c/B/A | "G"G3 :|
+|: B/A/ |\
+"G"Gg g>f | "Em"ed cB | "Am"Aa a>g | "D7"fd ef |
+"C"g>a ge | "G"d2 B>c | "D7"dd c/B/A | "G"G3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3
+T: Rights of Man
+C: Irish
+M: C|
+N: From the Roaring Jelly collection.
+R: hornpipe
+K: Em
+GA |\
+"Em"BcAB GAFG | EFGA B2ef | gfed edcB | "Am"cBAG (3A/B/A/ GA |
+"Em"BcAB GAFG | EFGA B2ef | gfed "Bm"Bgfg | "Em"e2E2 E2 :|
+|: ga |\
+"Em"bgbg efga | bgbg e2fg | "D"afaf defg | afaf d2dd |
+"Em"eAfA gAaA | bAaA gAfA | gfed "Bm"Bgfg | "Em"e2E2 E2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4
+T: Cliffs of Moher
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: Ador
+|:"Am"a2a  bag |  eaf  ged |     c2A BAG |     EFG ABd \
+|     eaa  bag |  eaf  ged |     c2A BAG | "Em"EFG "Am"A3 :|
+||"Am"e=fe dBA | ~e3   dBA |  "G"GAB dBA |     GAB ~d3 \
+| "Am"e=fe dBA | ~e3   dBA |  "G"GAB dBG | "Em"EFG "Am"[E3A3] ||
+||"Am"e=fe dBA |  e=fe dBA |  "G"GAB dBA |     GAB ~d3 \
+| "Am"e=fe dee |  cee  Bee | "Em"EFG BAG |  "G"EDB, "Am"A,3 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 5
+T: Paddy on the Railroad
+T: The Merry Blacksmith
+O: Ryan 1883
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+K: D
+A2 \
+| "D"d2dA BAFA | ABdA BAFA | ABde "(Bm)"f2ed | "Em"Beed "A7"egfe | "D"d2dA BAFA |
+| "D"ABdA BAFA | ABde "A7"fdec | "D"dBAF D2 :: fg | "D"a2ag f2fe | d2dA BAFA |
+| "D"ABde "(Bm)"f2ed | "Em"Beed "A7"egfe | "D"abag fgfe | d2dA BAFA | ABde "A7"fdec | "D"dBAF D2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 6
+T: The Rose in the Heather
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: D
+|: "D"FAF "A7"EFE | "D"DFA BAF | "D"ABd "A7"ede | "D"fdB "A7"AFE \
+|  "D"FAF "A7"E[FD][EB,] | "D"DFA BAF | "D"AdB "A7"AFE | "(D)"FDC "D"D3 :|
+|: "D"fdB ABd | "D"faa afd | "G"gfg "D"fed | "Em"Bee "A7"efg \
+|  "D"fdB ABd | "D"faa afa | "G"baf "A7"gfe | "(D)"fdc "D"d3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 7
+T: Out on the Ocean
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 6/8
+L: 1/8
+K: G
+E |\
+"G"D2B BAG | BdB "D7"ABA | "G"GED G2A | ~B3 "D7"AGE |\
+"G"D2B BAG | BdB "D7"ABA | "G"GED G2A |1 "G"BGF G2 :|2 "G"BGF GBd ||
+|:\
+"Em"~e3 edB | efe edB | "D"~d3 dBA | d2d dBA |\
+"G"G2A B2d | "C"ege "D7"dBA | "G"GED "D7"G2A |1 "G"BGF GBd :|2 "G"BGF G2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8
+T: Out On the Ocean
+C:J-73
+R:Jig
+M:6/8
+L:1/8
+K:A
+GF \
+| "A"E2c cBA | cec "E7"BcB | "A"AFE "(E)"A2B | "A"cec "E7"BAF \
+| "A"E2c cBA | cec "E7"BcB | "A"AFE "(D)"A2B | "E7"cAG "A"A :|
+ ce \
+| "F#m"f3 fec | "D"fgf fec | "A"efe ecB | e2e "E7"ecB \
+| "A"A2B c2e | "D"faf "E7"ecB | "A"AFE "(D)"A2B | "E7"cAG "A"A |]
+ ce \
+| "F#m"f3 fec | "D"fgf fec | "A"efe "E7"efg | "A"agf "E7"ecB \
+| "A"A2B c2e | "D"faf "E7"ecB | "A"AFE "(D)"A2B | "E7"cAG "A"A |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 9
+T: Red is the Rose
+R:reel
+M:C
+L:1/8
+F:http://www.slowplayers.org/MPSP/MPSP_Ballads.abc	 2002-05-22 18:17:54 UT
+K:D
+"D" D4    D3    E | "Bm"  F6        D2 | "Em" E3 F E2 D2 | "G" B,6 z A, |
+w: Red is the rose by yon-der gar-den grows, and
+"D" D4    D3    E | D D3 "F#m" F2   A2 | "G" (B6 (d)B) | "A" A8 |
+w: fair is the lil-ly of the val - - ley.
+"G" (B3c) B2   A2 | "F#m" (F2 E2) D3 F | "G" (G2 F2) "E7" E2 D2 | "G" B,6 "A7" E2 |
+w: Clear - is the wa - ter that flows - from the Boyne, but
+"D" D4 "Bm" F2 A2 | "G"   B4 "D" A2 F2 | "Em" (E6 ("Am"F)E) | "D" D6 z2 |]
+w: my love is fair-er than a - - ny.
+%W:
+%W: Come over the hills, my bonnie Irish lass,
+%W: come over the hills to your darling.
+%W: You choose the rose love, and I'll make the vow,
+%W: and I'll be your true love forever.
+%W:
+%W: 'Twas down by Killarney's green woods that we strayed,
+%W: and the moon and the stars they were shining.
+%W: The moon shone it's rays on her locks of golden hair,
+%W: and she swore she'd be my love forever.
+%W:
+%W: It's not for the parting that my sister pains,
+%W: it's not for the grief of my mother.
+%W: It is all for the loss of my bonnie Irish lass,
+%W: that my heart is breaking forever.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10
+T: Father Kelley's Reel
+T: The Rossmore Jetty
+O: Ireland
+Z: John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: G
+GA \
+| "G"B2GB "C"AGEG | "D7"DGGF "G"GABd | "Am"c2AB cBAG | "D7"FGAG FDDA |  "G"B2GB "C"AGEG |
+| "D7"DGGF "G"GABd | "C"cdef "(G)"gedc | "D7"BGAF "G"G2 :: Bc | "G"d2Bd gdBd | d2Bd gdBd |
+| "C(Am)"e2ce agfe | "D7"defg agfe |  "G"d2Bd gdBd | d2Bd gdBd | "Am"cBAc "G"BAGB | "D7"AGFA "G"G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 18
+T: Whiskey Before Breakfast
+M: C|
+R: reel
+K: D
+|: "D"A,B,DE D2FG | AFBF A2EF | "G"G2BG "D"F2AF |1,3 "A7"EDEF EDB,A, :|2,4 "A"EDEF "D"D4 |]
+|: "D"F2d2 d2Bc | dcdA BAFA | "Em"e4 e2ef | gfed "A7"cABc |
+y3 |\
+   "D"d2fd "A"c2ec | "G"BABd "D"BAFD | "G"G2BG "D"F2AF | "A7"EDEF "D"D2 z2 :|
+%%text Roaring Jelly  R-69
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 19
+T: Temperance Reel
+T: Teetolaler's Reel
+O: Ryan 1883
+R: reel
+B: Ryan’s Mammoth Collection, 1883
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: "G"G2GF GABc | dBge dBAc | "Em"BEED EFGA |1,3 "D7"BGAF GFED :|2,4 "D7"BGAF "G"G4 :|
+|: "Em"Beed e3f | geaf gfed |1,3 "D"Bdde d3e | fdaf gefd :|2,4 "Em"BEED EFGA | "D7"BGAF "G"G4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 20
+T: Temperance Reel
+T: Teetolaler's Reel
+O: Ryan 1883
+R: reel
+B: Ryan’s Mammoth Collection, 1883
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: "G"G2GF GABc | dBge dBAc | "Em"BEED EFGA | "D7"BGAF GFED | "G"G2GF GABc |
+| dBge dBAc | "Em"BEED "(C)"EFGA | "D7"BGAF "G"G4 :: "Em"Beed e3f | geaf gfed |
+| "D"Bdde d3e | fdaf gefd | "Em"Beed e3f | geaf gfed |  BEED "(C)"EFGA | "D7"BGAF "G"G4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21
+T: Planxty Fanny Power
+T: Fannuidh de Paor
+T: Mrs. Trench
+R: jig, waltz
+C: O'Carolan
+B: O'Neill's 673
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Lively"
+N: Originally a lively jig, but often played as a waltz.
+N: Mrs. Trench was Miss Fanny Powers' (or Fannuidh de Paor's) married name,
+N: so it is likely that O'Carolan got the gig to play at her wedding.
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"A2E ABc | "D"d2c "E7"B2A | G2F EFE | G2A B2d |\
+|  "A"cBA cde | "D"f2B "Bm"B2A | "E7"GFE EFG | "A"A3- A2 :|
+|: e \
+| "A"ec/d/e ec/d/e | "F#m"AcA AcA | "D"fd/e/f fd/e/f | "Bm"BdB BdB |\
+| "A"cde "D"fga | "E7"gab "A"efe | cBA "E7"BcB | "A"A3- A2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 22
+T: Planxty Fanny Power
+T: Fannuidh de Paor
+T: Mrs. Trench
+C: O'Carolan
+R: jig, waltz
+B: O'Neill's 673
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Lively"
+N: Originally a lively jig, but often played as a waltz.
+N: Mrs. Trench was Miss Fanny Powers' (or Fannuidh de Paor's) married name,
+N: so it is likely that O'Carolan got the gig to play at her wedding.
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2D GAB | "C"c2B "D7"A2G | F2E DED | F2G A2c |\
+|  "G"BAG Bcd | "C"e2A "Am"A2G | "D7"FED DEF | "G"G3- G2 :|
+|: d \
+| "G"dB/c/d dB/c/d | "Em"GBG GBG | "C"ec/d/e ec/d/e | "Am"AcA AcA |\
+| "G"Bcd "C"efg | "D7"fga "G"ded | BAG "D7"ABA | "G"G3- G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 23
+T: March of Saint Timothy
+C: Judi Morningstar 1985
+M: C|
+L: 1/8
+K: G
+|:\
+"G"B3c d2B2 | "D7"A3B c2A2 | "Em"G3A B2G2 | "Bm"G2F2 E2D2 | "C"E3F G2E2 |\
+"G"D2G2 B2d2 |1 "Am"c3B A2G2 | "D7"F2A2 D2c2 :|2 "Am"cBAG "D7"F2A2 | "G"G6 |]
+dd |\
+"D7"c2d2 A2c2 | F2A2 D2dd | "G"B2d2 G2B2 | D2G2 B,2dd |\
+"D7"c2d2 A2c2 | F2A2 D2dd | "G"d2D2 E2F2 | G2A2 B2 |]
+dd |\
+"D7"c2d2 A2c2 | F2A2 D2dd | "G"B2d2 G2B2 | D2G2 B,2G2 |\
+"C"E3F "C#dim"G2E2 | "G"D2G2 "Em"B2d2 | "Am"cBAG "D7"F2A2 | "G"G8 |]

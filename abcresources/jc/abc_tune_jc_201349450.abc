@@ -1,0 +1,17 @@
+X:771
+T:The Virgin's Frolick
+C:John Young, 1713
+L:1/4
+M:3/2
+%%MIDI gchord fcHcfc
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=100
+%%MIDI ratio 3 1
+K:Gm
+P:A
+|: "Gm"g>^f gd B2 | "Cm"e>d cB "D7"A2 | "Gm"BG "Cm"cB "A7"AG | "D"^F2- "A7"FG "D7/F#"A2 |\
+"Gm"g>^f gd B2 | "Cm"e>d cB "D7"A2 | "Gm"B/c/d "Cm"c/d/e "D7"dc | "Gm"B2- "D7"BA "Gm"G2 :|
+P:B
+|: "Bb"ba bf "Bb7"d2 | "Eb"gf ge "F7"c2 | "Bb"Bd "F"cf "Eb"ed | "F7"c3B "Bb"B2 |\
+"Gm"B>c dB "Dm"fd | "Cm"e>f "C7"g=e "D7"a^f | "Gm"g>a "D7"b^f "Gm"gd | "D7"B3A "Gm"G2 :|

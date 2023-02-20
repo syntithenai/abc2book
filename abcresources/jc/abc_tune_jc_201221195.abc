@@ -1,0 +1,37 @@
+X: 44
+T: Maurice O Connor
+T: Maurice O'Connor
+C: Carolan
+%R: reel
+B: "The Hibernian Muse" p.27
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. XLIV.
+M: C|
+L: 1/8
+K: G 
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+{g}fefg fgfg | {b}agab a2ab | c'bc'd' c'd'c'b | {b}a2Tgf f2c2 |\
+{e}f2de fedc | BABc B2B2 | gfef gagf | {f}e2Tdc c2c2 |
+fefg f2f2 | gfga g2g2 | agfg agfg | agab c'4 |\
+c'bc'a babg | agaf gfge | fdBd gece | f2fg f4 |]
+[|\
+cBcd cBAG | [fF][_e_E][dD][cC] [B2B,2][B2B,2] |\
+EFGA GAGA | [gG][fF][eE][dD] [c2C2][c2C2] |\
+FGAF GABG | ABcA BcdB | cdec defd | c2g2 {f}e2de |
+f2{e}fg f2{e}dc | B2Bc B2B2 | efga g2gf | {f}e2Tdc c2c2 |\
+fc'c'c' dbbb | caaa Bggg | {f}e2dc cdcB | {B}A2TGF F4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+f2c2 A2c2 | f2c2 f2z2 | a2f2 a3g | f2c2 F2z2 |\
+d2B2 f2F2 | B2c2 d2B2 | e2c2 g2G2 | c2d2 e2c2 |
+A2G2 A2F2 | c2d2 e2c2 | f2c2 f2c2 | f3g a2f2 |\
+a2f2 g2e2 | f2d2 e2c2 | d2d2 c2c2 | f2c2 F4 |]
+[|\
+f2f2 e2c2 | f2F2 B2B2 | c2d2 e2c2 | g2G2 c2c2 |\
+A2f2 B2g2 | c2a2 d2b2 | e2c'2 f2d'2 | a2b2 c'2b2 |
+a2b2 a2f2 | d2f2 {e}d2{c}B2 | c2e2 c2f2 | g2G2 c2c2 |\
+A2a2 B2b2 | A2a2 G2g2 | c'2b2 a3b | c'2c2 f4 |]

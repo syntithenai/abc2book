@@ -1,0 +1,29 @@
+X: 10821
+T: NEWMARKET HORSE-RACE; OR, JOHN PATERSON'S MARE GOES FOREMOST
+R: jig
+B: K\"ohler's Violin Repository, v.1, 1885 p.82
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+u(c/B/) |\
+AFA (.f2.c) | AFA (.f2.c) | AFA fcB | A3 (.F2.A) |\
+BGB (.g2.d) | BGB (g2.d) | BGB gdc | B3 G2c/B/ |
+AFA (.f2.c) | AFA (.f2.c) | AFA fcB | A3 FGA |\
+{Bc}B>AB {cd}c>Bc | {de}d>Bd {ef}e>de | f>ed gdc | B3 G2 "^Fine."|]
+uc |\
+(A/B/)cF (A/B/)cF | (A/B/)cF (A/B/)cF | (A/B/)cF fcB | A3 (.F2.c) |\
+(B/c/)dG (B/c/)dG | (B/c/)dG (B/c/)dG | (B/c/)dG gdc | B3 (.G2.B) |
+(A/B/)cF (A/B/)cF | (A/B/)cF (A/B/)cF | (A/B/)cF fcB | A3 FGA |\
+{Bc}B>AB {cd}c>Bc | {de}d>Bd {ef}e>de | f>ed gdc | B3 G2 |]
+uc |\
+AFA (.f2.c) | f/g/a/g/f/e/ f2c | f/g/a/g/f/e/ fcd | A3 F2A |\
+BGB (.g2.d) | e/f/g/f/e/d g2d | e/f/g/f/e/d/ gdc | B3 G2c |
+AFA (.f2.c) | f/g/a/g/f/e/ f2c | f/g/a/g/f/e/ f(cf) | A3 FGA |\
+{Bc}B>AB {cd}c>Bc | {de}d>Bd {ef}e>de | f>ed gdc B3 G2 |]
+uc |\
+f/g/a/g/f/e/ f/g/a/g/f/e/ | f/g/a/g/f/e/ f/g/a/g/f/e/ | f/g/a/g/f/e/ fcf | A3 F2d |\
+g/a/b/a/g/^f/ g/a/b/a/g/^f/ | g/a/b/a/g/^f/ g/a/b/a/g/^f/ | g/a/b/a/g/^f/ gdc | B3 G2c |
+f/g/a/g/f/e/ f/g/a/g/f/e/ | f/g/a/g/f/e/ f/g/a/g/f/e/ | f/g/a/g/f/e/  f(cf) | A3 FGA |\
+{Bc}B>AB {cd}c>Bc | {de}d>Bd {ef}e>de | f>ed gdc | B3 G3 "_D.C.":|

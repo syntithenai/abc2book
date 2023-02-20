@@ -1,0 +1,14 @@
+X:70
+T:Devil's Dream
+M:2/4
+Q:1/4=100
+L:1/16
+K:A
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+e2|agae agae|agae fedc|dfBf dfBf|dfBf agfe|agae agae|agae fedc|
+dfed cABA|E2A2A2::e2|ceAe ceAe|ceAe fedc|dfBf dfBf|
+dfBf agfe|ceAe ceAe|ceAe fedc|defd cABA|E2A2A2:|

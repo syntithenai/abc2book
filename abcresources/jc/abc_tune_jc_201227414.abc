@@ -1,0 +1,33 @@
+X: 10781
+T: COTILLION No. 6. tune 1
+C:
+%R: reel
+N: This is version 2, for ABC software that understands diminuendo annotation.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.78 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f2 |\
+(fg.f=e) Qf2qb2 | (fg).f.=e Qf2qd2 | QB2qB2 Qc2qc2 | (d=ed.c) QB2qf2 |\
+fgf=e Qf2qb2 | (ga).g.^f Qg2qe2 | "^>"d2c2B2"^>"A2 | (c4 B2) H|]
+F2 |\
+(cd).c.=B Qc2qc2 | Qf2qd2 Q.B2q.F2 | (de).d.^c Qd2qd2 | Qg2qe2 Qc2q.a2 |\
+.b2a2 .b2a2 | (bB).c.d (ef).g.a | (ba).g.f (ed).c.B | (d4 "^D.C."c2) |]
+d2 |\
+d2dd d2d2 | (g4 ^f2)d2 | d2dd d2d2 | ([b4g4] [a2^f2])d2 |\
+ga.b.g (^fg).a.f | (ga).b.g (^fg).a.f | (Qg2qd2) Q.B2q.G2 | "^D.C."d6 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 right and left,
+%% balance 4 and turn partners,
+%% ladies chain,
+%% promenade 4,
+%% side couples the same.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

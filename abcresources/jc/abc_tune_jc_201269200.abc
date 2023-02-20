@@ -1,0 +1,25 @@
+X:1
+T:Donald Willie and His Dog
+M:9/8
+L:1/8
+Q:80
+C:D. Morrison
+S:Jig
+K:HP
+|: {g}A2{d}c{g}c{d}A{d}c{gBd}B2{e}G|
+{g}A2{d}c{g}c{d}A{d}c{gBd}B3|
+{g}A2{d}c{g}c{d}A{d}c{gBd}B2{e}A|  !
+{gcd}c2{e}A{g}A{d}B{e}G{d}A3:| |:
+{gBd}B2e{g}eA{d}c{gBd}B2{e}A|
+{gBd}B2e{g}eA{d}c{gBd}B3|  !
+{gcd}c2e{g}eA{d}c{gBd}B2{e}A|
+{gcd}c2{e}A{g}A{d}B{e}G{d}A3:| |:
+{g}A2{d}c{g}A{d}B{G}B{gcd}c2{e}A|  !
+{g}A2{d}B{g}A{d}c{G}c{gBd}B3|
+{g}A2{d}c{g}A{d}B{G}B{gcd}c2{e}B|
+{gcd}c2{e}A{g}A{d}B{e}G{d}A3:| |:  !
+{gef}e2c{g}cfd{gef}e2c|
+{g}cec{g}cdc{gBd}B3|
+{gef}e2c{g}cfd{gef}e2d|  !
+{gcd}c2{e}A{g}A{d}B{e}G{d}A3:|
+

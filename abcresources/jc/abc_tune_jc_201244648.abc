@@ -1,0 +1,2450 @@
+
+%%pagesize 28.00cm
+%%printtempo no
+%%TITLE American Veteran Fifer
+
+X:1
+T:Civil War Musician's Q.S.
+S:American Veteran Fifer, #1
+C:By A.F. Hopkins National Fife Major.
+M:2/4
+L:1/16
+Q:1/8=180
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+((3def) | gage dedB | efeB dBAG | efeB dedB | gbag f2 ((3def) |
+gage dedB | efeB dBAG | efed fafd | g2b2g2 :|
+|| f2| g8 | {f}gf g6 | {f}gfga gdBG | efe^c A4 |
+{e}f8 | {e}fe f6 | {e}fafd ege^c | dbag fdef |
+{f}g8 | {f}gf g6 | {f}gfga gdBG | efec A4 |
+{f}a3g b2 a2 | (3abagf gdBG | efed fafd | g2b2g2 ||
+
+
+X:2
+T:Tallewan
+S:American Veteran Fifer, #2
+C:Donated by John Benjamin, Fifer - Co. G, 80th Mich. Val. Inf.
+M:6/8
+L:1/8
+Q:1/8=300
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+B | d2B BAB | G2d def | gfg edB | gfg A2B |
+d2B BAB | G2d def | gfg edB| dAB G2 :|
+|: z | d3 g3 | efg d3 | B2B BAB | dBG A3 |
+d3 g3 | efg d2B | ded dBG | ABA G2 :|
+
+
+X:3
+T:Charley Over the Water
+S:American Veteran Fifer, #3
+C:To Jno. R. Weathers Washington D.C., Co. F 144th Ind. Val. Inf.
+M:6/8
+L:1/8
+Q:1/8=300
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+G | GBd dBd | ege dBG | GBd dBd | efg a2G |
+GBd dBd | ege dBd | gbg afd | e2f g2 :|
+|: g | gbg afd | ege dBG | gbg afd | efg a3 |
+gbg afd | ege dBG | GBd dBd | egf g2 :|
+
+
+X:4
+T:Post No. 2 G. A. R.
+S:American Veteran Fifer #4
+C:Donated by John Benjamin, Fifer - Co. G, 80th Mich. Val. Inf.
+M:2/4
+L:1/16
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: AG | E2A2 A2cd | edef gfed | ea2a abag | ea2a a2g2 |
+edA2- A2cd | edef gfed | ea2a gfed | cBAG A2 :|
+|: A2 | A2a2 a4 | gfga gedB | G2g2 g4 | edef gedB |
+A2a2 a4 | gfga gedB | gage dBGB | AcBG A2 :|
+
+
+
+X:5
+T:Erin Forever
+S:American Veteran Fifer, #5
+M:6/8
+L:1/8
+Q:280
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A | DFD F2A | d2f ecA | G2e F2d | E2F GFE |
+DFD F2A | d2f ecA | faf gec | dfe d2 :|
+|: f/g/ | a2f d2d | A2a agf | g2e c2A | G2g gfe |
+f2d g2e | a2f b3 | gfe ABc | dfe d2 :|
+
+
+X:6
+T:McLeod's Reel
+S:American Veteran Fifer, #6
+C:Donated by Major J.N. Bogart, Co. I .31st N.J. Vol.
+M:4/4
+L:1/8
+Q:1/8=320
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: d | G2 g2 edeg | BBBA B2 BA | G2 g2 edeg | AAAG A2 AB |
+G2 g2 edeg | BBBA B2 BA | e2 e2 edef | gedB A2 z :|
+|: B | GABc dGBG | BBBA B2 BA | GABc dGBG | AAAG A2 AB |
+GABc dGBG | BBBA B2 Bc | eeed e2 df | gedB A2 z :|
+
+
+X:7
+T:Larry O'Gaff
+S:American Veteran Fifer #7
+M:6/8
+L:1/8
+Q:1/8=300
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: ((3d/e/f/) | gGG BAG | ded dBG | cec BdB | ABc def |
+gGG BAG | ded dBG | cec BdB | AGA G2 :|
+|: d | dgg gag | gag afd | daa aba | aga bag |
+gba gfe | dge dBG | cBc Adc | BGG G2 :|
+
+
+X:8
+T:Cuckoo's Nest
+S:American Veteran Fifer #8
+C:Donated by Major J.N. Bogart, Plainfield N.J. Co.I.81st N.J. Vol. Inf.
+M:C
+L:1/8
+Q:1/4=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: c/d/ | ecAc ecAc | edcB A2 Bc | dBGB dBGB | dcBA G3G |
+ABcd e2 a2 | gedc d2 ed | cBcA GABd | c2 A2 A2 z:|
+|: c/d/ | e2 a2 a2 ba | gfed e2 ef | g2 g2 g2 ag | fedc d2 ed |
+cABF A2 a2 | agec d2 ed | cBcA GABe | c2 A2 A2 z:|
+
+
+
+X:9
+T:The Rambler
+S:American Veteran Fifer, #9
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: A2d cBA | fga gec | ded cAF | GFG AFD |
+A2d cBA | fga gec | ded cAF | Adc d3 :|
+|: fad fad | fga agf | egc egc | efg gfe |
+fga gab | afd ecA | fed cAG | Adc d3 :|
+
+
+X:10
+T:C. E. Larrabee's Lark
+S:American Veteran Fifer, #10
+C:By A.F. Hopkins Co. A. 134th O. Vol
+M:2/4
+L:1/16
+Q:1/8=180
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: Bc | dg2a gedB | AGAB d2e2 | d2>e2 dBAG | A6 dd |
+dg2a gedB | AGAB d2e2 | d2B2 AGAB | G6 :|
+|: Bc | dg2a gfga | ea2b a2ba | gfga gafa | gafg efde |
+Bdga gfga | ea2b a2ba | gfga gedB | A2A2G2 :|
+
+
+
+X:11
+T:Irish Washerwoman
+S:American Veteran Fifer #11
+C:To Jno.R.Weathers, Washington, D.C. Co. F. 144th Ind.Val.Inf.
+M:6/8
+L:1/8
+Q:1/8=300
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: d/c/ | BGG DGG | BGB dcB | cAA DAA | cAc edc |
+BGG DGG | BGB dcB | cBc Adc | BGG G2 :|
+|: g/a/ | bgg dgg | bgb bag | aff dff | fdf agf |
+egg dgg | cgg Bgg | dcB Adc | BGG G2 :|
+
+
+X:12
+T:From the Three Camps
+S:American Veteran Fifer #12
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: c/d/ | e2 A AGA | c2 d e2 f | g2 e f2 d | e2 d cBA |
+e2 A AGA | c2 d e2 f | gfe dcB | A3 A2 :|
+|: f | g3 f3 | e2 d ABc | d2 c def | g2 f e2 A |
+g3 f3 | e2 d cBA | c2 e d2 B | A3 A2 :|
+
+
+
+X:13
+T:Highland Laddie or The White Cockade
+S:American Veteran Fifer, #13
+C:Donated by John Benjamin, Co.G, 30th Mich. Vol.Inf.
+M:2/4
+L:1/8
+Q:1/8=180
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+G/A/ | BB c/B/A/G/ | BB Bg | dB c/B/A/G/ |  F/G/A/B/ AG/A/ |
+BB c/B/A/G/ | Bd gg/a/ | b/a/g/f/ a/g/f/e/ | dBB :|
+|: B/c/ | dB gB | dd dB/c/ | dB gf/g/ | aA AG/A/ |
+BB c/B/A/G/ | Bd gf/a/ | b/a/g/f/ a/g/f/e/ | dBB :|
+
+
+X:14
+T:The Recruiting Sergeant
+S:American Veteran Fifer, #14
+C:Donated by Col. Le Roy Van Horn, Co. A. 18th U.S. Inf.
+M:2/4
+L:1/8
+Q:1/8=180
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: B | Be e2 | d/c/B/c/ d/c/B/A/ | Be e2 | d/c/B/c/ A2 |
+Be ef | g/f/g/e/ d>c | BG AF | G3 :|
+|: g | fd de/f/ | gd/B/ Gg | fd d/e/f/g/ | a3 g |
+fd de/f/ | g/f/g/e/ d>c | BG AF | G3 :|
+% Possibly incorrect.  Sounds better with the C's
+% in the first line as C#, as follows:
+% B | Be e2 | d/^c/B/^c/ d/^c/B/A/ | Be e2 | d/^c/B/^c/ A2
+
+X:15
+T:Leo Murray's Musetta
+S:American Veteran Fifer, #15
+C:Arr. by A.F. Hopkins, Co. A. 154th O.V.I.
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: e | (ea)a (eg)g | (ea)a ged | (ea)a geg | ece ged |
+(ea)a (eg)g | (ea)e aga | gec ded | cAA A2 :|
+|: A | ABe g3 | ede a3 | (ga)b age | (ga)g edB |
+ABe g3 | ede a3 | gec (de)d | cAA A2 :|
+
+
+X:16
+T:Francis Murray's Musicale
+S:American Veteran Fifer, #16
+C:By A.F. Hopkins Co.A.154th O.V.I.
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: A | ABc dcd | ecA cde | fef ged | cAA A3 |
+ABc dcd | ecA cde | fef ged | cAA A2 :|
+|: d | efg a2a | ged cde |  efg a2a | gef g2z |
+efg a2a | ged cde | fef ged | cAA A2 :|
+
+
+X:17
+T:Leon Beall's Bonhomie
+S:American Veteran Fifer, #17
+C:By A.F. Hopkins National Fife Major.
+M:2/4
+L:1/16
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: de | f2ag e2gf | defd ecBA | d2fd B2ge | cegb ageg |
+fgaf efge | defd ecBA | d2fd ebge | d2f2d2 :|
+|: fg | a2fb a2fb | a2fb afed | faea fdBA | dfef gefg |
+a2fb a2fb | a2fb afed | faea fdBA | d2f2d2 :|
+
+
+
+X:18
+T:What Can The Matter Be
+S:American Veteran Fifer #18
+C:W.R.Miller, Co.K.15th O.V.I.
+M:6/8
+L:1/8
+Q:1/8=300
+K:A 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: e2z e2z | eca ecA | d2z d2z | dBc dcB |
+e2z e2z | eca ecA | FAd cdB | A3 A3 :|
+|: ecd ecd | eca ecA | dBc dBc | dBc dcB |
+ecd ecd | eca ecA | FAd cdB | A3 A3 :|
+
+
+X:19
+T:George Brown's Bonvivant
+S:American Veteran Fifer, #19
+C:Arr. by A.F. Hopkins, National Fife Major
+M:2/4
+L:1/16
+Q:1/8=180
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: G2ge d2ed | B2ge dBAB | G2ge d2ed | BAGB AGED |
+G2ge d2ed | B2ge dBAB | G2ge d2ed | BGAB G4 :|
+|: B2e2 e2>g2 | fgaf gfed | B2e2 e2>g2 | fgaf g2>e2 |
+B2e2 e2>g2 | fgaf gfed | efga bagf | gafd e4 :|
+
+
+
+X:20
+T:Paul Revere's Ride or Jefferson and Liberty
+T:1776
+S:American Veteran Fifer, #20
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: B/c/ |  d2B BcB | F2B B2e | cBc ABc | ecA ABc |
+d2B BcB | F2B B2f | fed cBc | F2B B2 :|
+|: B | B2c d2e | f2^g a3 | f2^g a2f | ecA A2A |
+B2c d2e | f^ga b3 | fed cBc | F2B B2 :|
+
+
+X:21
+T:American Eagle Quickstep
+S:American Veteran Fifer, #21
+M:2/4
+L:1/8
+Q:1/8=200
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: B/A/ | GDEG | BA/G/ Bd | edgB | A/B/A/G/ ED |
+GDEG | BA/G/ Bd | GABG | A/G/A/B/ G :|
+|: B/c/ | de/f/ gf | ed BB/c/ | dBgB | A/B/A/G/ ED |
+de/f/ gf | ed ef/g/ | G>A BG | A/G/A/B/ G :|
+
+
+X:22
+T:J. L. Blatchley Banter
+S:American Veteran Fifer, #22
+M:2/4
+L:1/16
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|:AG | EA2B A2cd | ee2c d2cd | ea2a g2ag | da2a g2ag |
+edB(B A2)cd | ee2c d2cd | ea2b gedB | A6 :|
+|:cd | ea2b a2ga | ba2b a2ef | gafd ea2a | gafd ecBA |
+Aeab a2ga | ba2b a2ef | gafd efdB | A6 :|
+
+
+X:23
+T:Mason's Q.S.
+S:American Veteran Fifer, #23
+C:By John B. Mason, Drum Major 154th O.V.I.
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: A | E2A c2A | d2B G2G | A2B c2d | e2f d2d |
+e2f gfe | d2B G2A | e2e dcB | A3 A2 :|
+|: a | a2e c2A | B2c e2a | a2e c2d | e2f d2d |
+e2f gfe | d2B G2B | efe dcB | A3 A2 :|
+
+
+X:24
+T:Old 76 Stop March
+S:American Veteran Fifer, #24
+C:By Jonathan Jenics.
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: A | Addc | defd | dAAF | GEFD |
+Addc | defg | e>d c/d/e/c/ | d3 :|
+|: A | defg | afdf | edef | gfez |
+defg | afdf | e>d c/d/e/c/ | d3 :|
+
+
+
+X:25
+T:Eden Quickstep
+S:American Veteran Fifer, #25
+C:By Col. Le Roy Van Horn, Ex President N.A. of C.W.M.
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: D | F2A AFA | d2e f2g | ecA AGF | G2E F2D |
+F2A AFA | d2e f2g | ecA ABc | d3 d2 :|
+|: f | f2d def | g2e f2d | ecA AGF | G2E F2D |
+F2A AFA | d2e f2g | ecA ABc | d3 d2 :|
+
+
+X:26
+T:Ed Kellog's Q. S.
+S:American Veteran Fifer #26
+C:Donated by Theo. B. Jobi, Bugler Co.M.8th O.V.C.
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: FA A2 | Bd d2 | fdef | dB B/c/d |
+FA A2 | Bd d2 | adef | d2-d2 :|
+|: fa a2 | fa d2 | fdef | dB B/c/d |
+FA A2 | Bd d2 | fdef |  d4 :|
+
+
+X:27
+T:Major J. N. Bogart's Banquet
+S:American Veteran Fifer, #27
+C:By A.F. Hopkins Fife Major
+M:2/4
+L:1/16
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: AB  |  (dA2)A (BG2)G  |  BABc d2cd  |  efed efed  |  efge a2ga  |
+ba2b agef  |  gedB A2GA  |  Bdef edBG  |  A6 :|
+|: cd  |  ea2b agef  |  gafa gfed  |  ea2b afgb  |  a6 ed  |
+ea2b agef  |  gedB G2A2  |  Bdef edBG  |  A6 :|
+
+
+X:28
+T:Tatter Jack
+S:American Veteran Fifer, #28
+C:Donated by Denman Duncan, Drummer Burkholder Post Drum Corps.
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: F | F>BB B2B | dcd fed | cAA eAA | ced cBA |
+F>BB B2c | def b2a | fed cde | fef B2 :|
+|: f/g/ | afg a2b | afg a2A | ABA cBA | ced cBA |
+F>BB B2c | def b2a | fed cde | fef B2 :|
+
+
+X:29
+T:Arkansas Traveler
+S:American Veteran Fifer #29
+M:2/4
+L:1/16
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: "^As Originally Written" A2 | dfed B2B2 | A2A2 d4 | e2e2 f2f2 | efed B2A2 |
+dfed B2B2 | A2A2 d4 | dcdA BdAG | fdec d2 :|
+|: fg | agfa gfeg | fedf ecA2 | dcdf edeg | fefa e2fg |
+agfa gfeg | fedf ecA2 | dcdA BdAG | Fdec d2 :|
+
+
+X:30
+T:Tom Brown's Burletta
+S:American Veteran Fifer, #30
+C:By A.F. Hopkins, Co.A.154th O.V.I.
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: "^Stop March." A | d>ed cBA | geg f3 | geg fdf | ece dBA |
+d>ed cBA | geg f3- | fag ecA | d2z z2 :|
+|: f | a3- agf | g3- gfe | fef age | dfd cBA |
+d>ed cBA | geg f3- | fag ecA | d2z z2 :|
+
+
+X:31
+T:John Benjamin's Q.S.
+S:American Veteran Fifer, #31
+By A.F. Hopkins National Fife Major
+M:6/8
+L:1/8
+Q:1/8=300
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: GAB- BAG | Bde dBd | gfg- ged | efg a3 |
+gab age | gag edB | deg edB | egf g3 :|
+|: d6- | dBe dBG | g6- | geg- ged |
+g3- (gb)a | geg edB | deg- ged | egf g3 :|
+
+
+X:32
+T:E. A. Grow's Quickstep
+S:American Veteran Vifer #32
+C:By A.F. Hopkins National Fife Major
+M:2/4
+L:1/16
+Q:1/8=180
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: G2B2A2B2 | GBde d2d2 | (df)gg (df)gg | (ea)ab a2a2 |
+G2B2A2B2 | GBde d2d2 | g2bg (ab)ge | d2f2 g4  :|
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: a2a2- abag | (fa)ge f2d2 | Ac(ea) Ac(ea) | gefb a2f2 |
+a2a2- abag | (fa)ge f2d2 | Ac(ea) Ac(ea) | d2f2 d4 :|
+
+
+X:33
+T:Pernard Brown's Buffet
+S:American Veteran Fifer #33
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: ((3A/B/c/) | d2 f c2 e | dfd Aef | gag fdf | efe a3 |
+d2 f c2 e | dfd Aef | gag fdf | eaf d2 :|
+|: f | g3- gag | fzg fzf | efe aba | faf dBA |
+g3- gag | fzg fzf | eaf gec | dfA d2 :|
+
+
+X:34
+T:The Jay Bird
+S:American Veteran Fifer #34
+C:Arr. by A.F.Hopkins, Fife Major National Association of Civil War Mus.
+M:2/4
+L:1/16
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: G2B2 BGBG | F2A2 AFAF | G2e2e2d2 | cdec A4 |
+G2B2 BGBG | F2A2 AFAF | dcde dBAG | F2D2D4 :|
+|: f2d2f2d2 | fdfg a4 | ecAc ecAc | ecef g4 |
+f2d2f2d2 | fdfg a4 |[1 efec dedB | c2A2 A2Ad :|[2 dcde dBAG | F2D2 D4 |
+
+
+X:35
+T:Guilderoy
+S:American Veteran Fifer #35
+M:2/4
+L:1/16
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: AG | E2AB ABcd | efec d2cd | ecAB ABcA | BGEF G2AG |
+E2AB ABcd | efec d2cd | efaf gedB | A2B2A2 :|
+|: ef | g3a gfef | gage d2cd | ecAB ABcA | BGEF G2AG |
+E2AB ABcd | efec d2cd | efaf gedB | A2B2A2 :|
+
+
+
+X:36
+T:Firemans Quick Step
+S:American Veteran Fifer #36
+C:A.F. Hopkins National Fife Major
+M:2/4
+L:1/16
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: d2fd c2ec | d2fd A4 | BGBd cdec | defg abaf |
+d2fd c2ec | d2fd A4 | BGBd cdec | d2f2d2z2 :|
+|: a4 a4 | a6 ef | gfed cdec | defd A4 |
+a4a4 | a6 ef | gfed cdec | d2f2d2z2 :|
+
+
+X:37
+T:Walters Quickstep
+S:American Veteran Fifer #37
+T:By his Father Thos. B. Jobe, Ex President N.A. of C.W.M. Bugler Co.M.8th O.V.C.
+M:6/8
+L:1/8
+Q:1/8=300
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: GAB- BAB | GBd- def | gfg gfg | dgB A2 B |
+GAB- BAB | GBd- def | gfg edB | ABA G3 :|
+|: gfg edB | ded def | gfg gfg | eaa a2f |
+gfg edB | ded def | gab age | def g3 :|
+
+
+X:38
+T:Jobe's Q.S.
+S:American Veteran Fifer #38
+C:By Thos B. Jobe Comdr. Burkholder Post.115 G.A.R. Yellow Springs O.
+M:2/4
+L:1/16
+Q:1/8=180
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: {c}B2{c}B2{c}B2{c}B2 | {c}BAGB AGEG | DCDE GFGA | BAGB A2d2 |
+{c}B2{c}B2{c}B2{c}B2 | {c}BAGB AGEG | DCDE GFGA | BGAF G4 :|
+|: Bd2e dBAG | Bdge dBAG | Bd2e dBAG | BAGB A4 |
+Bd2e dBAG | Bdfd dBAG | Bd2e dBAG | AGFA G4:|
+
+X:39
+T:1776-Adam Bells March-1812
+C:Donated by Thos. B. Jobe, Bugler Co.M.8th O.V.C.
+S:American Veteran Fifer #39
+M:2/4
+L:1/16
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+E2B2B2A2 | B2BA BcdB | AFDF AFDF | A2AB A2GF |
+E2B2B2A2 | B2B2g2e2 | dcB2 AGF2 | G2E2 E4 :|
+|: e2ee e2g2 | e2ee e2f2| d2dd d2f2| d2dd d2f2|
+e2ee e2g2 | e2ee e2f2| gfed edBA | B2E2 E4 :|
+
+
+X:40
+T:M. A. Moon's Q.S.
+S:American Veteran Fifer, #40
+C:By A.F. Hopkins, National Fife Major
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A | dzd B2d |  cge fdA | cea gec | dfe a3 |
+dzd B2d | cge fdA | (fa) (eg) ce | (df)A d2 :|
+|: f | La3 La3 | afa geB | Lg3 Lg3 | gea fdA |
+Ld3 Lc3 | Bcd efg | (fa) (eg) ce | (df)A d2 :|
+% Note: the "L" symbols are used in Barfly to denote accents.  Not standard abc.
+
+X:41
+T:The Turkey Gobbler
+S:American Veteran Fifer #41
+C:Donated by John A. Cruthers Bass Drummer Co.D.18th O.V.I.
+M:2/4
+L:1/16
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: G(AG)(A G)(AG)(A | G)BeB dBAG | F(AF)B A(BA)(B | A)cdf agec |
+d(BG)(A G)(AG)(A | G)BeB dBAG | F(AF)(B A)(BA)(B | G)Bdg G4 :|
+|: Bdg(a g)(fa)(f | g)(fa)(f g)dBG | FAe(f e)(df)(d | e)(df)(d e)fed |
+Bdg(a g)(fa)(f | g)(fa)(f g)dBG | FAef edAF | GBdg G4 :|
+
+
+X:42
+T:Eddie Littleton's Libation
+S:American Veteran Fifer #42
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: F | B>cd efg | (fb)g f2 d/e/ | (fa)f ede | fdB cAF |
+B>cd efg | (fb)g f2 d/e/ | faf edc | B2z z2 :|
+|: z | {g}a6 | {a}bza fde | {d}f6 | {f}azf eAB |
+d3- dfA | d3- dfA | (df)A (df)A | def gab |
+a6 | {a}bzg fde | {d}f6 | {f}azf dAB |
+d3- dfA | d3- dfA | (df)A (df)A | d2z z2 :|
+
+
+X:43
+T:J N Hamberger's Quickstep
+S:American Veteran Fifer, #43
+C:To J.N. Hamberger 12th.U.S. Inf. by A..Hopkins Fife Major
+M:6/8
+L:1/8
+Q:1/8=280
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: d | e>fe dzB | AGB AGE | AGA ABd | ede a3 |
+e>fe dzB | A(GB) AGE | ABd ege | dBG A2 :|
+|: z | e>(fa) e>(fa) | ede g3- | g>(ef) g>(ef) | g(fa) ged |
+e>(fa) e>(fa) | ede g3 | ege dBG | A3 A2 :|
+
+
+X:44
+T:B.F. Hilliker's Q.S.
+S:American Veteran Fifer, #44
+C:To B. F. Hilliker Los Angeles Cal. Drummer Co.A. Son Wm. Live Eagle Read by A.F. Hopkins
+M:2/4
+L:1/16
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: AB | Acef efge | fadc d2cd | e2fa efaf | gage dBGA |
+BABc defg | fd2c d2cd | edfd efdB | A2z2z2 :|
+|: cd | e2a2- a2>f2 | gedB G2>A2 | Bdga gfag | fd2c d2cd |
+e2a2- abaf | gedB G2>A2 | Be2f edBG | A2z2z2 :|
+
+
+X:45
+T:The Dashing White Sergeant
+S:American Veteran Fifer, #45
+C:Arr. by E.B. Hopkins Springfield O. Orderly Seargent Co.A.154th O.V.I.
+M:2/4
+L:1/8
+Q:1/8=180
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: d/B/ | G/F/G/A/ G/A/B/c/ | d/c/d/e/ d/g/b/a/ | gedB | gA Ad/B/ |
+G/F/G/A/ G/A/B/c/ | d/c/d/e/ d/g/b/a/ | gefd | gbg :|
+|: f/g/ | aa a/b/a/g/ | ff f/a/g/e/ | dAeA | d/c/d/e/ f/g/e/f/ |
+aa a/b/a/g/ | ff f/a/g/f/ | dAeA | dfd :|
+
+
+X:46
+T:College Hornpipe
+S:American Veteran Fifer, #46
+C:Donated by Dr. Wm. M. Haffner, Yellow Springs O.
+M:2/4
+L:1/16
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|:fe | d2D2 D2AG | FAd2 dfed | e2E2 E2ed | cea2 a2>f2 |
+gfga bagf | gfge dcBA | Bdce dfeg | f2d2d2 :|
+|: AG | FAdA FAdA | B2G2 G2BA | GBed GBed | c2A2 A2>f2 |
+gfga bagf | gfge dcBA | Bdce dfeg | f2d2d2 :|
+% This tune is virtually identical to Quickstep No. 1 in the regualtion fife calls.
+
+
+X:47
+T:T.B. Jobe's Jubilee
+S:American Veteran Fifer, #47
+C:By A.F. Hopkins, Fife Major N.A. C.W.M.
+M:2/4
+L:1/16
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: cd | ecec dedB | ecec ddef | gfge fafd | efge a2>g2 |
+edec dedB | ecec ddcd | eeaf gedB | A6 :|
+|: cd | e2a2- abab | ea2b agef | gaga efga | efga gfed |
+e2a2- abab | ea2b agef | geag edBG | A6 :|
+
+
+
+X:48
+T:T.E. Hills Quickstep
+S:American Veteran Fifer #48
+C:To T.E. Hill Ashland Oregon Co.I.34th Mi. Vol. Inf. by A.F. Hopkins Fife Major
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+d/e/ | faeg | d/f/e/a/ f/d/B/A/ | dfeg | f/a/d/f/ e(a |
+f)(ae)g | d/f/e/a/ f/d/B/A/ | df e/b/g/e/ | dfd :|
+|: e/f/ | g2- g/a/g/e/ | f2- f/a/f/d/ | e{e}a e{e}a | e{e}a/b/ a/g/e/f/ |
+g2- g/a/g/e/ | f2- f/a/f/d/ | e/e/a/b/ a/g/e/c/ | dfd :|
+
+
+
+X:49
+T:Haste To The Wedding
+S:American Veteran Fifer #49
+C:Donated by John Benjamin, Co.G.30th Mich.Vol.Inf.
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+ A | AFA Aaf | ede fdB | AFA AGF | GFG EFG |
+AFA Aaf | ede fdB | AFA faf | d3 d2 :|
+|: a | afa afa | bgb bgb | afa agf | gfg efg |
+a3 f3 | ede fdB | AFA Aaf | edc d2 :|
+
+
+
+X:50
+T:Old 1812 Q. S.
+S:American Veteran Fifer #50
+C:Donated by John B. Mason, Spring Valley Ohio Drum Major 154th O.V.I.
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+DFAd | AFAd | DFAd | A/G/F/G/ E2 |
+DFAd | AF Ag | fdef | d2 d2 :|
+|: fd de/f/ | gfed | cA/B/ A/B/c/d/ | eA A2 |
+fd de/f/ | gfed | cA/B/ A/B/c/e/ | dfd :|
+
+
+X:51
+T:Lassie of Gowie
+S:American Veteran Fifer #51
+C:Donated by John Benjamin, Fifer, Royal Oak, Mich.
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: D | DFA AFA | BdB AFA | DFA AGF | GFG E2E |
+DFA AFA | BdB AFA | Bcd ece | d2- dz2 :|
+|: f | fdf fdf | ecA A2f | fdf fdf | geg a2g |
+fdf fdf | ecA AFA | Bcd ece | d2- dz2 :|
+
+
+
+X:52
+T:Burkholder Post No 115 G.A.R.
+S:American Veteran Fifer #52
+C:By A.F. Hopkins, Yellowsprings, O.
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+DF AB/c/ | defg | ea dc/d/ | e/d/c/B/ A>F |
+DF AB/c/ | defg | ed c/A/B/c/ | dfdz :|
+|: g e2 e | fa2a | fa dc/d/ | e/d/c/B/ A>f |
+ge2e | fa2a | dd c/A/B/c/ | dfdz :|
+
+
+
+X:53
+T:Wm Davenport's Quickstep
+S:American Veteran Fifer #53
+C:To Wm. Davenport Co.K.129th O.V.I.
+M:2/4
+L:1/16
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: A2 | d2d2 c2>A2 | BdGB AFAe | g2g2 f2fe | fage bgec |
+dedd czcA | BdGB AFAe | gaga fbge | B2c2d2 :|
+|: z2 | a2a2 f2af | gbge cAce | g2g2 e2ge | fafd cABc |
+dedd czcA | BdGB AFAe | gaga fbge | A2c2d2 :|
+
+
+
+X:54
+T:Liverpool Hornpipe
+S:American Veteran Fifer #54
+C:Donated by Dr. Wm. M. Haffner, Bass Drummer Co.A.154th O.V.I.
+M:2/4
+L:1/16
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A2 | FDFA dfaf | gefd ecBA | GBGB FAFA | EFGA GFED |
+FDFA dfaf | gefd ecBA | afdf gecA | d2f2d2 :|
+|: A2 | dfdf cece | Bcde dcBA | GBGB FAFA | EFGA GFED |
+FDFA dfaf | gefd ecBA | afdf gecA | d2f2d2 :|
+
+
+X:55
+T:F.D. Steels Q.S.
+S:American Veteran Fifer #55
+C:To F.D.Steel Fifer 186th N.Y.Vol.Inf. Gouverneur N.Y.
+M:6/8
+L:1/8
+Q:1/8=320
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+d | cAA BGG | cAA Add | cAA BGG | FDD Ddd |
+cAA BGG | cAA AGF | GAB ABG | FDD D2 :|
+|: A/d/ | f3 g3 | afd cAA | f3 g3 | afd dfg |
+afa geg | fdf ecA | dcd dAG | FDD D2 :|
+
+
+
+X:56
+T:On The Road To Boston
+S:American Veteran Fifer #56
+C:As played by the N.A.of C.W.M. leading the G.A.R. Parade at Boston Aug. 16th 1904, A.F.Hopkins Fife Major
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+f2 fe/f/ | gfed | cdef | d2 AF/A/ |
+f2 fe/f/ | gfed | cdef | d2 d2 :|
+|: a2 ag/a/ | bagf | g2 gf/g/ | agfe |
+f2 fe/f/ | gfed | cdef | d2 d2 :|
+
+
+X:57
+T:Kinlock
+S:American Veteran Fifer, #57
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+d/e/ | f>ed AFA | BGB AFA | f>ed AFA | Bec d2 d/e/ |
+f>ed AFA | BGB AFA | f>ed AFA | Bec d2 :|
+|: a | f2a e2a | d>ed cBA | f2a e2a | ba^g a2 a |
+bgb afa | geg fed |  f>ed AFA | Bec d2 :|
+
+
+X:58
+T:Campbells Are Coming
+S:American Veteran Fifer #58
+C:To W.D. Stark, Fifer, Sparta Ill Co.B.19th Wis.
+M:6/8
+L:1/8
+Q:1/8=300
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+G | Bde dBG | B2 B B2 A | Bde dBG | A2 A A2 G |
+Bde dBG | BcB gab | geg dBG | B2 B B2 :|
+|: d | g2 g gab | d2 d d2 B/d/ | g2 g g>ab | e2 e e2 d  |
+d>ef g>fe | d>ef gab | geg dBG | [1B2 B B2 :| [2 ABA G2z |
+
+
+X:59
+T:Finnigans Wake
+S:American Veteran Fifer #59
+M:C
+L:1/4
+Q:1/4=200
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+G>A B A | Bded | g/g/g/g/ ge | dBA2 |
+G>A BA | Bded | g/g/g/g/ gd | efg2 :|
+|: g>fga | gfed | g>fga | gfe2 | g>fga |
+gfed | e/e/e/e/ ed | efg2 :|
+
+X:60
+T:Garry Owen
+S:American Veteran Fifer #60
+C:The Special Favorite of Theodore Roosevelt, President U.S.A.From 1901.to 1909.
+M:6/8
+L:1/8
+Q:1/8=300
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+g/f/ | edc BAG | BcB Bgf | edc BAG | ABA Agf |
+edc BAG | BcB B2c | def gdB | B>AA Az :|
+|:B/c/ | d2B d2B | d2B dgf | e2 c e2 c | e2 c e2 f |
+g2 a b2 a | g2 e d2B | def gdB | AzA Az :|
+
+
+X:61
+T:O'Lassie Art Thow SLeeping Yet
+S:American Veteran Fifer #61
+C:Donated by J.Benjamin, Royal Oak, Mich.
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+B | A2 A AFA | d2d def | g2 e f2 d | edB Bcd |
+A2 A AFA | d2 e f2 g | afd efe | d3 d2 :|
+|: f | g2 g gab | f2 f fga | e2 e ede | fdB Bcd |
+A2 A AFA | d2 e f2 g | afd efe | d3 d2 :|
+
+
+
+X:62
+T:My Love She's But A Lassie Yet
+S:American Veteran Fifer #62
+C:Donated by John Benjamin,Co. G.30th Mich.Vol.Inf.
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+d/c/ | dDFA | dD Dd/c/ | dDFA | BE Ed/c/ |
+dDFA | Bgfe | d/c/B/A/ Bc | dDD :|
+|: f/g/ | afge | fd df/g/ | afga | be ef/g/ |
+af ge | fd fe | d/c/B/A/ Bc | dDD :|
+
+
+X:63
+T:Denman Duncan's Drumbeat
+S:American Veteran Fifer, #63
+C:By A.F. Hopkins, Director Burkholder Post Drum Corps.
+M:2/4
+L:1/16
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: AG | EA2B ABcd | ee2f edcd | ea2a abag |  ea2b a2ge |
+dA2B ABcd |  ee2f edcd | ea2b agdB | AcBG A2 :|
+|: cd | ea2a a4 | gfga gedB | Gg2g g4 | edef gedB |
+ea2b a4 | gfga gedB | gfaf gedB | AcBG A2 :|
+
+
+
+X:64
+T:Girl I Left Behind Me
+S:American Veteran Fifer #64
+M:2/4
+L:1/8
+Q:1/8=180
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: e | dB c/B/A/G/ | BG E>F | GG G/A/B/c/ | d2 Bg/f/ |
+ed c/B/A/G/ | BG E>G | FA DE/F/ | G2 G :|
+|: G/A/ | Bdef | gdBG | Bdef | g2 fg/f/ |
+ed c/B/A/G/ | BG E>G | FA DE/F/ | G2 G :|
+
+
+X:65
+T:The Raw Recruit
+S:American Veteran Fifer #65
+C:To M.L.Maynard, Fifer, Chardon O. Co.E.105th O.V.I.
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A | d2d def | d2d d2f | ecA Acd | ecA ABc |
+d2d def | d2d dgf | ecA ABc | d3 d2 :|
+|: f | a2f a2f | d2d dfg | b2g b2g | e2e efg |
+a2f a2f | d2d dgf | ecA ABc | d3 d2 :|
+
+
+
+X:66
+T:Off She Goes
+S:American Veteran Fifer #66
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+F2A G2B | ABc d3 | F2A G2B | AFD E3 |
+F2A G2B | ABc d3 | f2d g2f | edc d2 z :|
+|: faf d2f | gbg e2g | faf d2f | ecA A3 |
+faf d2f | gbg e2g | f2dg2f | edc d3 :|
+
+
+X:67
+T:Gray Eagle
+S:American Veteran Fifer, #67
+C:Donated by J.L.Blatchley, Fifer Co.F.2nd N.Y Heavy Artillery
+M:2/4
+L:1/16
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+fe | dB2d ABAF | Adfd e2fe |dB2d ABAF | Adfe d2fe |
+dB2d ABAF | Adfd e2fg | afge fded | Adfe d2 :|
+|: fg | affg a2fg | affb a2>f2 | gfga bgaf | gefd e2fg |
+affg a2fg | affb a2>f2 | gfga bgaf | gefd d2 :|
+
+
+X:68
+T:Comin' Thro' The Rye
+S:American Veteran Fifer #68
+M:2/4
+L:1/8
+Q:1/8=180
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A>A A<f | e>d e<f | A>A B>A | d4 |
+A>A a>f | e>d e<f | A>A B>A | d4 :|
+|: a>f d<f | e>d e<f | a>f g<a | b2>> b2| 
+a>f g>e | f>d e<f | A>A B>A | d4 :|
+
+
+X:69
+T:Kippy Smith's Favorite
+S:American Veteran Fifer #69
+C:C.E.Larrabee, Binghamton, N.Y.
+M:6/8
+L:1/8
+Q:1/8=300
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: G | {B}GED DGB | dce def | gdB AGA | BGE DEG |
+{B}GED DGB | dce def | gdB AGA | BFA G2 :|
+|: B/c/ | d2e B2d | gfa gfe | d2e B2d | gfa g2 e/e/ |
+d2e B2d | gfa gfe | dgB AGA | BGA G2 :|
+% The second staff of this tune, #69, is identical to the second staff of tune #70.
+% This is highly suspicious and one of the tunes was believed to be in error. Both were
+% contributed by the same person, however, and the contributor may
+% have knowingly composed or played both tunes with the same second half.
+% Cyrenus Larabee and Bradley W. Smith, both of Andover, both served in Company H of the
+% 85th New York Volunteers.  There were other folks named Smith in the 85th, but not from
+% Andover and not in Company H.
+
+X: 70
+T:The Soldiers Lament
+S:American Veteran Fifer #70
+C:C.E.Larrabee, Binghamton, N.Y.
+M: 6/8
+L: 1/8
+Q:300
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: G | GBd (gf)g | f>ed cBA | G>Bd efg | f>de def |
+gbg afd | c>(de) dBA | G>AB c>Ad | B>GA G2 :|
+|: B/c/ | d2e B2d | gfa gfe | d2e B2d | gfa g2 e/e/ |
+d2e B2d | gfa gfe | dgB AGA | BGA G2 :|
+% The second staff of this tune, #70, is identical to the second staff of tune #69.
+% This is highly suspicious and one of the tunes is believed to be in error. Both were
+% contributed by the same person, however, and are not common, so the contributor may
+% have knowingly composed or played both with the same second half.
+
+X:71
+T:Kenderbeck's Q.S.
+S:American Veteran Fifer #71 - also found in Bruce and Emmett
+C:C.E. Larrabee
+M:2/4
+L:1/16
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+ag | (fa)gf (eg)fe | d2d2 d2ed | (ce)dc (Bd)cB | A2A2 A2BA |
+(GB)AG (FA)GF | EFGA Bcde | (fa)gf (eg)fe | d2d2d2 :|
+|: AG | FAdA fdAF | EAcA ecAG | FAdf a2(ba) | gfed cBAG |
+FAdA fdAF | EAcA ecAG | FAdf agec | d2d2d2  :|
+
+
+X:72
+T:Huntsman Hornpipe
+S:American Veteran Fifer, #72
+C:Donated by Maj. J.N. Bogarte, Plainfield, N.J. Co.I.31st N.J.Vol.Inf.
+M:2/4
+L:1/16
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+AG | F2d2 d2cd | ecAc d2de | fdfd gfge | afdf ecAG |
+F2d2 d2cd | ecAc d2de | fdgf edcB | A2A2A2 :|
+|: fg | agfe dcBA | B2G2 G2ga | bagf gfed | c2A2 A2fg |
+afaf bge2 | gfge afd2 | agbg fedc | d2d2d2 :|
+
+
+X:73
+T:Jordan Is A Hard Road
+S:American Veteran Fifer #73
+M:2/4
+L:1/8
+Q:1/8=180
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: B/A/ | G/F/G/B/ dd | c/B/c/e/ d2 | G/F/G/B/ dd/d/ | c/A/ z z B/A/ |
+G/F/G/B/ dd | c/B/c/e/ d (3d/e/f/ | gg/d/ e/f/d/c/ | B/G/zz :|
+|: (3d/e/f/ | gg f>d | g/g/g/g/ f<d | gg/g/ f/g/a/g/ | f/d/ zz (3d/e/f/
+| g/a/g/g/ fd/d/ | e/f/e/B/ dB/B/ | c/d/c/A/ B/e/d/c/ | B/G/ zz :|
+
+
+X:74
+T:Bob Tail Hoss
+S:American Veteran Fifer #74
+C:Donated by Thos. B. Jobe, Bugler Co.M.8th O.V.C.
+M:2/4
+L:1/8
+Q:1/8=180
+K:A 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: e | fe c/c/e/e/ | fec z/A/ | cB z>A | cBce |
+fe c/c/e/e/ | fec z/A/ | BB c>B | A3 :|
+E | A2 c>e | a3 a | ff a>f | e3 e |
+fe c/c/e/e/ | fe c>A | BB c>B | A3 :|
+
+
+X:75
+T:Howell's Q.S.
+C:Donated by Frank Hewett, Co.K.1st O.V.H.A.
+S:American Veteran Fifer #75
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+D3 F2A | d2f ecA | G2BF2A | E2F GFE |
+D3 F2A | d2f ecA | dfa gbg | egf d3 :|
+|: f3 a3 | gbg ecA | d3 f3 | egf age |
+f3 a3 | gbg ecA | dfa gbg | egf d3 :|
+
+
+X:76
+T:Rory O'More
+S:American Veteran Fifer #76
+C:Donated by W.R. Miller, Co.K.15th O.V.V.I.
+M:6/8
+L:1/8
+Q:1/8=300
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+e | dGG BAG | dGG G2e | dcB BAG | FGA ABc |
+dGG BAG | Bcd edc | Bcd def | gGG G2 :|
+|: g | gfe dcB | cBA G2F | EFG ABc | edc d2d/f/ |
+gfe dcB | cBA G2F | EFG ABc | edc d2 :|
+
+
+X:77
+T:W. M. Larrabee Q.S.
+C:By A.F. Hopkins, National Fife Major
+S:American Veteran Fifer, #77
+M:6/8
+L:1/8
+Q:1/8=300
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+((3d/e/f/) | gfg e2d | ((3Bcd)e dBG | BAB dBG | ABA def |
+gfg e2d | ((3Bcd)e dBG | BAB dBG | ABA G2:|
+|: ((3d/e/f/) | gag b2a | gag edB | dBg edB | ABA def |
+gag b2a | gag edB | BAB dBG | ABA G2 :|
+
+
+X:78
+T:Granny Will Your Dog Bite
+S:American Veteran Fifer #78
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+d>A FA | GBFA | d/c/d/A/ FA | Bc d>d |
+d>A FA | GBFA | d/c/d/A/ FA | Bc d2 :|
+|: d/c/d/e/ fa | gfec | d/c/d/e/ fa | gf ef/g/ |
+a/b/a/f/ ge | fdef | d/c/d/A/ FA | Bc d2 :|
+
+
+X:79
+T:Get There Eli
+S:American Veteran Fifer, #79
+C:J.L. Blatchley, Port Crane, N.Y.
+M:2/4
+L:1/8
+Q:1/8=180
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+D | GG GB/c/ | d/e/d/B/ de/f/ | gg g/d/B/d/ | e/c/A/F/ d/c/A/F/ |
+GG GB/c/ | d/e/d/B/ de/f/ | g/f/g/d/ e/c/A/F/ | GB/d/ g:|
+|:B/d/ | g/f/g/d/ e/f/g/e/ | d/B/g/d/ e/g/d | g/f/e/d/ a/g/f/d/ | f/e/g/^c/ d2 |
+a/g/f/g/ b/g/d | g/f/e/g/ d/B/G | A/B/c/d/ e/f/g/a/ | b/g/a/f/ g:|
+
+
+
+X:80
+T:Anna
+S:American Veteran Fifer #80
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A | dd d/A/d/e/ | f/d/g/e/ f<e | ee e/A/d/e/ | f/d/g/f/ e<d |
+ff f/e/f/g/ | a/f/b/a/ g<e | e/d/c/d/ e/g/f/e/ | dfd :|
+|: F/G/ | Af f/e/d/A/ | B/A/B/c/ d<A | Ag g/f/e/d/ | d/A/f/A/ e<d |
+Aa a/g/f/e/ | d/A/g/A/ g<e | f/e/d/A/ g/f/e/A/ | a/g/e/c/ d :|
+
+
+X:81
+T:All Take Tea
+S:American Veteran Fifer #81
+C:J.L. Blatchley, Co.E.2nd N.Y.H. Artillery
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A | d2d def | edc d2e | f2f fga | gfe f2g |
+a2a agf | g2g gfe | fed afd | edc d2 :|
+|: d/f/ | a2a aba | g2g gef | g2g gag | fde f2A |
+d2d def | e2e efg | a2f gfe | d2f d2 :|
+
+
+
+X:82
+T:Nancy Hanks
+S:American Veteran Fifer #82
+C:J.L.Blatchley, Port Crane, N.Y.
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A | AF/A/ dA/d/ | fd/f/ a>f | gg/f/ eA | ff/e/ dA |
+AF/A/ dA/d/ | fd/f/ a>f | gg/f/ ec | dfd :|
+|: A | gg/f/ eA | ff/e/ dA | c/d/e/f/ gf | e/d/c/B/ A2 |
+dd/e/ fd | c/d/e/f/ ge | af gf/e/ | dfd :|
+
+
+X:83
+T:Ruth
+S:American Veteran Fifer #83
+C:J.L. Blatchley, Co.E.2nd N.Y.H.A.
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A | dd df/g/ | a/b/a/f/ d2 | ee e/f/g/a/ | b/a/f/d/ e>A |
+dd de/f/ | g/f/e/d/ a>a | b/a/f/d/ b/a/g/e/ | dfd :|
+|: d/f/ | aa a/f/e/d/ | f/e/d/f/ e>f | gg g/b/a/g/ | f/e/d/f/ Ad/f/ |
+aa a/f/e/d/ | gg g/b/a/g/ | f/a/g/e/ b/g/e/c/ | dfd :|
+
+
+X:84
+T:All Is Well
+S:American Veteran Fifer #84
+C:J.L. Blatchley, Co.E.2nd N.Y.H.A.
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+F/G/ | A2d f2d | B2dA3 | c2e g3 | fed A3 |
+A2d f2d | e2f g3 | a2f gfe | d2f d2 :|
+|: d/f/ | a2g fed | e2d cBA | c2d e2A | d2e f3 |
+g2b gfe | f2a fed | cde gfe | d2f d2 :|
+
+
+X:85
+T:Grace
+S:American Veteran Fifer #85
+C:J.L. Blatchley, Co.E.2nd N.Y.H.A.
+M:6/8
+L:1/8
+Q:1/8=300
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+D | G2B d2g | a2g efg | d2g b2g | a3 a2G |
+G2B d2g | a2g efg | d2b a2f | g3 g2 :|
+|:d | gab g2d | e2g d2d | gab g2d | efg a3 |
+b2g efg | dBg dBG | ABc def | g2b g2 :|
+
+
+
+X:86
+T:Twilight
+S:American Veteran Fifer #86
+C:J.L. Blatchley, Port Crane N.Y.
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+F/G/ | Ad/e/ fd/f/ | af/d/ A2 | Ac/e/ gf/e/ | f/e/d/f/ A2 |
+Ad/f/ a2 | g/f/e/f/ g2 | f/e/d/f/ a/g/e/c/ | dfd :|
+|: d/f/ | a/b/a/g/ f/e/d/e/ | f/d/e/f/ g2 | g/a/g/f/ e/d/c/d/ | e/f/g/e/ a2 |
+a/b/a/f/ g/a/g/e/ | f/g/f/d/ g/f/e | f/e/d/A/ g/f/e/c/ | dfd :|
+
+
+X:87
+T:Biddy Oats
+S:Bruce & Emmett
+S:American Veteran Fifer #87
+N:a slightly different version appears in Bruce & Emmett
+C:By J.L. Blatchley, Co.E.2nd N.Y.H.A.
+M:2/4
+L:1/8
+Q:1/8=200
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+((3A/B/c/) | df/d/ Ad/A/ | FA/F/ DA | d/c/B/A/ g/f/e/d/ | e/f/c/e/ d/c/B/A/ |
+df/d/ Ad/A/ | FA/F/ De/f/ | g/e/f/d/ e/c/d/B/ | Acd :|
+|: f/e/ | dF/G/ Ag/f/ | eE/F/ Gf/e/ | d/A/F/A/ g/f/e/d/ | c/e/d/B/ Af/e/ |
+d/A/B/c/ d/G/g/f/ | e/d/c/d/ e/A/a/g/ | f/e/d/c/ d/g/e/c/ | dfd :|
+
+
+
+X:88
+T:Montezuma
+S:American Veteran Fifer #88
+C:J.L. Blatchley, Co.E. 2nd N.Y.Heavy Artillery
+M:2/4
+L:1/16
+Q:1/4=90
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+fg | afge fdec | dfed A2AG | FAdf gfed | cdec A2fg |
+afge fdec | dfed A2AG | FAdf gedc | d2f2d2 ::
+cd | eAAA eAeA | eAfA eAfa | gfed cBAG | BGDG B2AG |
+FAdc BGed | cABc defg | afbg fedc | d2f2d2 :|
+
+
+X:89
+T:Widow Machree
+S:American Veteran Fifer #89
+C:J.L. Blatchley, Port Crane, N.Y.
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A | ABc dzd | efd b3 | a3 f3 | efd B2A |
+ABc dcd | efd b3 | a3 f3 | egf d2 :|
+|: f | gfg bag | fef agf | efe ede | fed B2A |
+ABc dcd | efd b3 | a3 f3 | edc d2 :|
+
+
+
+X:90
+T:J. T. Burbank's Q.S.
+S:American Veteran Fifer #90
+C:To J.T. Burbank Drummer 6th Pa.Res By A.F. Hopkins Fife Major
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A | F/A/d dc/d/ | e/c/A/c/ dc/d/ | e/c/A/c/ d/e/f/d/ | g/e/a/g/ b/g/e/c/ |
+d/e/c/e/ dd/d/ | e/c/A/c/ dc/d/ | f/a/g/e/ b/g/e/c/ | dfd :|
+| d |: Aa f2- | fA/d/ f/A/d/f/ | Af d2- | dF/A/ d/F/A/d/ | 
+e/c/A/c/ dc/d/ | e/c/A/c/ dc/d/ |[1 e/c/A/c/ d/e/f/d/ | g/e/a/g/ b/g/e/c/ :|[2 f/a/g/e/ b/g/e/c/ | dfdz |
+
+
+
+X:91
+T:The Black Bird (A Dirge)
+S:American Veteran Fifer #91
+M:2/4
+L:1/8
+Q:1/4=90
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A | B2 A>G | B2 (3ABc | d>c dA | G2 FG |
+A2 fd | cABG | F2 D>D | D2 z :|
+|: A |  defg  | a2 fa | gfga | g2{ag}fe |
+defg | agfe | f2 d>d | defg |
+agfa | g2fe | fdcA | f2 ed |
+cABG | FBAG | F2D>D | D3 :|
+
+
+X:92
+T:The Bonnie BLue Flag
+S:American Veteran Fifer #92
+M:6/8
+L:1/8
+Q:1/8=300
+K:A 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+"^Play 8va only." e | c2 c c2 c | d2 d d2 d | e2 e c2 A | B3-Bze |
+a2 a g2 a | f2ec2A | c2BA2G | A3-A2 :|
+|: e | a3-a2e | g3-g2e | f2fa2f | e3-e2e |
+a2ee2e | g2fe2d | c2dc2B | A3-A2 :|
+
+
+X:93
+T:Soldier's Joy
+S:American Veteran Fifer #93
+C:Donated by W.A. Hopkins, Co.A.154th O.V.I. Greenville, Ohio
+M:C|
+L:1/8
+Q:1/4=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+FG | AFDF AFDF | A2d2d2cB | AFDF AFDF | G2E2E2FG |
+AFDF AFDF | A2d2d2fg | fafd egec | d2d2d2 :|
+|: de | fdfd fagf | ecec egfe | fdfd fagf | edcB A2de |
+fdfd fagf | ecec egfe | fafd egec | d2d2d2 :|
+
+
+X:94
+T:The Rogues March
+S:American Veteran Fifer #94
+M:6/8
+L:1/8
+Q:1/8=280
+K:A 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+"^Play 8va only." c2 c cde | f2 f f3  | efe e2 c | e3 c2 z |
+c2 c cde | f2 f f3| efg a2 c | B3 A2 z :|
+|: a3 g3  | fef e3 | a3 g2 e | f3 e2 d|
+c2 c cde | f2 f f3 | efg a2 c | B3 A2 z :|
+
+
+X:95
+T:O! Susanna
+S:American Veteran Fifer #95
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+d/e/ | fa ab | af d>e | ffed | e3d/e/ |
+faab | afde | ffee | d3 :|
+|: z | g2g2 | b b2 b | aafd | e3 d/e/ |
+faab | afde | ffee | d3 :|
+
+
+X:96
+T:We Won't Go Home 'Till Morning
+S:American Veteran Fifer #96
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+d/e/ | f2f fef | g3f2f | e2e ede | f3d2 d/e/ |
+f2f fef | g3 a2g | f2f ede | d3 d2 :|
+|: f/g/ | a2a b2b | a3-a zf/g/ | a2a b2b | a3-a zd/e/ |
+f2f fef | g3f2f | e2e ede | f3d2 d/e/ |
+f2f fef | g3b3 | aba gfe | d3 d2 :|
+
+
+X:97
+T:Bonnie Doon
+S:American Veteran Fifer #97
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A | d2d e2e | faf ede | fed dBA | ABd d2f/e/ |
+d2d e2e | faf ede | fed dcB | ABc d2 :|
+|: f/g/ | a2b afd | a2b afd | afd afd | baf e2 f/e/ |
+d2d e2e | faf ede | fed dcB | ABc d2 :|
+
+
+
+X:98
+T:Johnny McGill
+S:American Veteran Fifer #98
+M:6/8
+L:1/8
+Q:1/8=300
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+g | dBB BAG | dBB B2g | dBB BAB | GEE E2g |
+dBB BAG | dBB BAG | A3 BAB | GEE E2 :|
+|: d | g3 aga | bge dBG | g3 aga | bge ega |
+bgb afa | gef g2e | dBB BAB | GEE E2 :|
+
+
+
+X:99
+T:Dixie
+S:American Veteran Fifer #99
+C:By Dan Emmet.
+M:2/4
+L:1/8
+Q:1/8=180
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+d/B/ | GG G/A/B/c/ | dddB | ee e>d | ed e/f/g/a/ |
+b3g/d/ | g3d/B/ | d3A/B/ | G3 :|
+|: d | gbag | eg2e | a3e | a3d |
+gbag | ef g>e | dB g>B | BA zd |
+G3B | A3c | Bd b>a | ag zd |
+G3B | A3c | Bd b>a | agz :|
+
+
+X:100
+T:Oyster River Hornpipe
+S:American Veteran Fifer #100
+C:To E. Echarot, Fifer North Bend, Neb. Co.C.69th O.V.I.
+M:2/4
+L:1/8
+Q:1/8=180
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+D | GB B/A/G/A/ | Be e/f/g/e/ | dB AG/A/ | B/c/B/A/ G/F/E/D/ |
+GB B/A/G/A/ | Be e/f/g/e/ | dB AG/A/ | BGG :|
+|: e/f/ | g>a g/f/e/d/ | gg ag/a/ | bb ag/a/ | bb/a/ g/f/e/d/ |
+e/f/g/a/ g/f/e/d/ | gg ag/a/ | bb ag/a/ | bgg :|
+
+
+X:101
+T:When We Go Down To Washington
+S:American Veteran Fifer #101
+C:By A.F. Hopkins Fife Major Product of 1862
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+f/e/ | dB- Bc/B/ | FB- Bc/d/ | cA- A/B/c/d/ | e2 f>e |
+dB- Bc/B/ | FB- B>c | df- f/e/d/c/ | B3 :|
+|: f/g/ | af af/a/ | bf ab/a/ | fede | f3 f/e/ |
+dB cd/c/ | FB- BB/c/ | df- f/e/d/c/ | B3 :|
+
+
+
+X:102
+T:No Party Q.S.
+C:By W.M. Larrabee Binghamton N.Y.
+S:American Veteran Fifer #102
+M:6/8
+L:1/8
+Q:1/8=300
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+g | dBG GFG | ABA ABd | ege dBG | BAA Age |
+dBG GFG | ABA ABd | ege dBd | def g2:|
+|: e | def gfg | efg a2 f | gab efg | dBG A2 d |
+def gfg | efg a2 f | gbb egg | def g2:|
+
+
+X:103
+T:Dream Q. S.
+S:American Veteran Fifer #103
+C:By W.M. Larrbee Binghamton, N.Y.
+M:2/4
+L:1/16
+Q:1/8=180
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+d2 | gfgd B2BA | GFGB D2DG | GDGB A2Ac | BGBc d2ef |
+gfgd BcBA | GFGB D2DG | GDGB ADFA | G2B2G2 :|
+|: D2 | GDGB A2Ac | BGBc d2ef | gfgg agfe | ddcd e2f2 |
+gfgd B2BA | GFGB D2DG | GDGB ADFA | G2GF G2 :|
+
+
+X:104
+T:French'es Favorite
+S:American Veteran Fifer #104
+C:By A.F. French, Co.F.15th Vt. Vol. Inf.
+M:C
+L:1/4
+Q:1/4=180
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+B/c/ | d {e}ddd/e/ | dddc | Bcde | d2dB/c/ |
+d{e}ddd/e/ | dddc | BA A/G/F/A/ | G2-G :|
+|: B/c/ | dBgB/c/ | dBg{a}g | gede | d2dd |
+cBcd | eddc | BA A/G/F/A/ | G2-G :|
+% Your message prompted me to finish researching Orrin A. French, of the 15th, and your A. F. French
+% is not related.
+%
+% However .. I think I've found your man:  Augustus F. French, Co. F, 15 Vermont Infantry, musician.
+% He's the only one I could see who fits your criteria.
+%
+% Assuming this is the right man, I believe he is one Augustus Fordyce French, b. 07 FEB 1828
+% Cabot,Washington Co., Vermont, son of Lyndon Smith French and Annie Elizabeth Farnham.  Augustus
+% F. French applied for a pension in 1887 when he was living in New York.  This appears to be the
+% Augustus French who was enumerated in the 1880 census (Long Island, Queens, New York City-Greater,
+% New York, Astoria, NA Film Number T9-0918 Page Number 130B) with wife Hannah, and children Julia
+% and Agustus.  He was a cabinet maker at that time.
+
+X:105
+T:Merry Men Home From The War
+S:American Veteran Fifer #105
+C:By W.M. Larrabee Binghamton N.Y.
+M:6/8
+L:1/8
+Q:1/8=300
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+D | GAB BAB | GBd def | gfe edB | BAA A2B |
+GAB BAB | GBd def | gfe edB | dBG G2 :|
+|: d | gfg efg | abg afd | ege edB | BAA A2B |
+GAB BAB | GBd def | gfe edB | dBG G2 :|
+
+
+X:106
+T:Fifth Maine Quickstep
+S:American Veteran Fifer #106
+C:W.M. Larrabee, Binghamton, N.Y.
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+F/G/ | Ad dc/d/ | ee ea/g/ | fd d/c/d/f/ | e/d/c/B/ A/G/F/G/ |
+Ad dc/d/ | ee ea/g/ | f/e/d/f/ ec | d/f/e/c/ d :|
+|: F/G/ | Ad/e/ f/d/d/d/ | c/d/e/f/ g/e/e/c/ | d/e/f/g/ a/g/e/c/ | d/f/e/d/ c/B/A/G/ |
+Fd/e/ f/d/d/d/ | c/d/e/f/ g/e/e/c/ | d/e/f/g/ a/g/e/c/ | d/f/e/c/ d :|
+
+
+
+X:107
+T:Union Quickstep
+S:American Veteran Fifer #107
+C:By C.E. Larrabee, Binghamton, N.Y.
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: ((3A/B/c/) | ddd c/d/ | e/c/A/c/ ee | d/c/B/c/ A/c/e/c/ | d d/f/ aa/f/ |
+ddd c/d/ | e/c/A/c/ ee | d/c/B/c/ A/c/e/c/ | dfd :|
+|: A | g2 g/d/e/f/ | g2 gf | eee d/e/ | f2 fa/f/ |
+ddd c/d/ | d/c/A/c/ ee | d/c/B/c/ A/c/e/c/ | dfd :|
+
+
+X:108
+T:Hell On The Wabash
+S:American Veteran Fifer #108
+C:As Played by Col. Le Roy Van Horn Co. A 18th U.S.I.
+M:2/4
+L:1/16
+Q:1/8=180
+K:A 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+((3efg)  | a2a2 A3B | cdec A2Bf | =g2g2 =G3A | Bcdc =Gz2^g |
+a2a2 A3B | cdec A2(3BAG | Ac ((3efg) aefd | cABG A2:|
+|: A2 | ce z e eecA | ce z e eecA | Bd z d ddB=G | Bd z d ddB=G |
+ce z e eecA | ce z e eecA | Ac ((3efg) aefd | cABG A2:|
+
+
+X:109
+T:British Grenadiers No 1
+S:American Veteran Fifer #109
+C:By C.E. Larrabee, Binghamton, N.Y.
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A/c/ | dA de/f/ | gf ef/g/ | afef | e/d/c/B/ AB/c/ |
+dA de/f/ | gf ef/g/ | ad f/e/d/c/ | dfd :|
+|: F/G/ | A>B AG | FG A>A | BB g/f/e/c/ | d2c ((3A/B/c/) |
+dc/d/ ed/e/ | fe/f/ gf/g/ | ad f/e/d/c/ | dfd :|
+
+
+X:110
+T:British Grenadiers No 2
+S:American Veteran Fifer #110
+C:By C.E. Larrabee, Binghamton, N.Y.
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+D | D/E/F/G/ A((3A/B/c/) | d/c/B/c/ A>A | A/B/c/d/ eg | f/g/a/f/ dd/d/ |
+f/d/f/d/ gg | e/d/e/g/ ff | d/c/d/f/ ee | d/c/B/c/ d :|
+|: ((3A/B/d/) | ee d/c/B/A/ | ee d/c/B/A/ | aa/g/ fe | aa/g/ fe |
+f/d/f/d/ gg | e/d/e/g/ ff | d/c/d/f/ ee | d/c/B/c/ d :|
+
+
+X:111
+T:Ricketts Hornpipe
+S:American Veteran Fifer #111
+C:Donated by Dr. Wm. M. Haffner, Co.A.154th O.V.I.
+M:C|
+L:1/8
+Q:1/8=320
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: ((3ABc) | dcdA FAdf | edcB A2 g2 | fgaf gfed | edcB Agfe |
+dcdA FAdf | edcB A2 g2 | fafd egec | d2d2d2 :|
+|:fg | afaf d2 ga | bgbg e2 fg | afba gfed | edcB Agfe |
+dcdA FAdf | edcB A2 g2 | fafd egec | d2d2d2 :|
+
+
+
+X:112
+T:Old Dan Tucker
+S:American Veteran Fifer #112
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+((3A/B/c/) | dddA | dd dA/A/ | ddef | AABc |
+dddA | dd dA/A/ | ddef | AA B:|
+|: d | f>f f2 | ed Bd | e>e ef | AA Bd |
+f>f a2 | fd Bd | e>e ef |[1AA B :|[2 Ac d2  |
+
+
+X:113
+T:Mary's Dream (A Dirge)
+S:American Veteran Fifer #113
+M:C |
+L:1/16
+Q:1/4=110
+K:C 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+B4 E3G B6 A2 | G3E F3G E6 F2 | G3F G3A B3A Bd3 | e4 A3B A4 B3A |
+Gg3 -g3e dB3 -B3G | A4 B4 g6 f2 | e6 d2 B3A Bd3 | e4 E3F E8 :|
+|:d7 e d3c d3d | g8 d4 B2d2 | e3d e3f g3f g3a | b4 e8 B3A |
+Gg3 -g3e dB3 -B3G | A4 B4 g6 f2 | e6 d2 B3A Bd3 |  e4 E3F E8 :|
+
+
+X:114
+T:John Brown or Glory Halleluah
+S:American Veteran Fifer #114
+M:2/4
+L:1/8
+Q:1/4=120
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+d2 d>c | B>d g>a | b>b b>a | g2 z g | e2 e>f | g>f g>e | d>e d>B | d2 z d |
+d2 d>c | B>d g>a | b>b b>a | g2 z g | a2 a>a | g2 f2 | g4- | g2 z2||
+d3 c | B>d g>a | b3 a | g3 z | e3 f | g>f g>e | d2 d>c | B2 z2|
+d3 c | B>d g>a | b2 b>a | g2 z g | a2 a2 | g2 f2 | g4 | g2 z2 |
+
+
+X:115
+T:Charles Wallaces Q.S.
+S:American Veteran Fifer #115
+C:Donated by Chr.Wallace Pres. N.A. of C.W.M. Co.I.120th O.V.I. Denver Col. 1905
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+((3A/B/c/) | dfAe | ((3d/e/c/)d/f/ A/c/e/c/ | d/e/f/g/ a/f/a/f/ | g/a/g/e/ a((3A/B/c/) |
+dfAe | ((3d/e/c/)d/f/ A/c/e/c/ | d/e/f/g/ a/b/a/f/ | g/a/e/a/ d :|
+|: d/f/ | aa- a/b/a/b/ | f/a/f/a/ g/e/B/c/ | d/c/d/f/ e/f/g/e/ | f/a/d/f/ ea |
+a/b/a- a/b/a/b/ | f/a/f/a/ g/e/B/c/ | d/c/d/f/ e/a/g/e/ | dfd :|
+
+
+
+X:116
+T:The Croquette
+S:American Veteran Fifer #116
+C:To Geo. Harris, Fifer Marysville O. Co. 121st O.V.I.
+% Company assignment of Geo. Harris missing or too faint to see
+M:2/4
+L:1/8
+Q:1/8=190
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+z | F>G AA | BB A2 | d/c/d/e/ fg/f/ | edBd |
+F>G AA | BB A2 | d/c/d/e/ fg/e/ | dcd :|
+|: e/f/ | gfef | gf e2 | gfed | cB A2 |
+F>G AA | BB A2 | d/c/d/e/ fg/e/ | dcd :|
+
+
+X:117
+T:Carry Me Back To Virginny
+S:American Veteran Fifer, #117
+C:To S. Philips Salem W.Va. 3rd W.Va.Inf.
+M:6/8
+L:1/8
+Q:1/8=280
+K:Amaj 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+"^8va only." e | efe c2e | efe c2e | fze czA | B3- B2 e |
+efe c2e | fze c2e | fze dcB | A3- A2 :|
+|: e | fzf a2f | fec e2e | fzf agf | e3 e2g |
+aba g2e | fzf ezc | efe dcB | A3 A2 :|
+
+
+X:118
+T:Off To Charleston
+S:American Veteran Fifer #118
+C:H.C. Langston Co.E.11th O.V.I. Co.D.147th O.V.I.
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+((3D/E/F/) | GG/A/ Be | d/B/G/B/ A/G/E/G/ | DG/A/ Be | d/B/A/B/ GE/F/ |
+GG/A/ Be | d/B/G/B/ Ad/f/ | gg/e/ dd/c/ | d/G/A/B/ G :|
+|: d/f/ | gfe>d | B/A/G/B/ Ae/f/ | gf e>d | ea ae/f/ |
+gf e>d | B/A/G/B/ A/G/E/G/ | DG/A/ Bg/e/ | d/B/A/B/ G :|
+
+
+
+X:119
+T:Bartlett's 2.S.
+S:American Veteran Fifer #119
+M:6/8
+L:1/8
+Q:1/8=300
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(3d/e/f/ | g2 g g2 g | g2 g g2 g | bag agf | ggg g2 z |
+a2 a a2 a | a2 a a2 a | agf gfe | ddd d2 :|
+|:B/c/ | d3e2d | dg z dg B/c/ | d3 e2 d | daz daB/c/ |
+d3 e2 d | db z ag z | eg z Baf | g3 g2 :|
+B/c/ | d2 z d2 z | d3 d^cd | B3 B3 | B3 Bcd |
+e3 e3 | e3 gfe | d3 d3 | d3 dcB | A3 A3 |
+ABc def | g2 z def | g2 z def | gzd bzd | g3 g2 :|
+% Original had missing notes (bar too short) in second bar of second staff
+% Additional rest inserted at the end of the measure.
+
+
+X:120
+T:Langston's Quickstep
+S:American Veteran Fifer #120
+C:H.C. Langston Co.E.11th O.V.I.
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+((3D/E/F/) | GDG BGB | dBd g2g | f2e efe | A3 A((3EFG) |
+AFA cAc | ece f2f | f2e efe | B3- B((3DEF) |
+GDG BGB | dBd g2g | f2e efe | a3 a2f/g/ |
+a>ba agf | gag gfe | fed c2e | d3 d2 :|
+|: d/e/ | fgf a2e | f2a d2c/d/ | efe edc | d3- d2c/d/ |
+efe ede | fgf fef | gag- gfg | a3- a2d/e/ |
+fgf g2e | f2a d2c/d/ | e2e ede | a3- a2f/g/ |
+a>ba agf | g>ag gfe | ged c2e | d3 d2 :|
+
+
+
+X:121
+T:Wrecker's Daughter
+S:American Veteran Fifer #121
+M:2/4
+L:1/16
+Q:1/8=220
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+aaa z aaa z | aaa z aaa z | E2A2 d4{de} | d2c2B2A2 |
+bbb z bbb z | bbb z bbb z | B2d2 g4{ga} | g2f2e2d2 |
+ccc z ccc z | ccc z ccc z | A2ce a4 | A2ce a4 |
+f2e2d2f2 | e2d2c2e2 | ddd z ddd z | d6 z2:|
+e2e2f2e2 | c2c2d2c2 | B2B2f2e2 | c3GABcd |
+e2e2f2e2 | c2c2d2c2 | B2B2 f2e2 | A2 z2a4:|
+F4 A2d2 | F4 A2d2 | G4 B2d2 | F4 A2d2 |
+E4 G2B2 | A4 d2f2 | e2^gg g2g2 | a2 z2 a4 |
+F4 A2d2 | F4 A2d2 | G4 B2d2 |  F4 A2d2 |
+E4 G2B2 | A4 d2f2 | e2AA B2c2 | d2 z2 d4:|
+
+
+X:122
+T:The Squirrel Hunter's Q.S.
+S:American Veteran Fifer, #122
+M:2/4
+L:1/8
+Q:1/8=180
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+B/d/ | e>d BB/B/ | e/f/e/d/ BB/A/ | G/F/G/B/ dd/d/ | B/A/B/c/ d>d |
+e/f/e/d/ B/A/B/d/ | e/f/e/d/ BB/A/ | G/F/G/B/ d/e/d/d/ | BAA :|
+|: B/d/ | e>e aa/a/ | e/d/e/f/ g2 | G/B/G/B/ dd/d/ | B/G/B/c/ d2 |
+e/ee/ aa/a/ | e/d/e/f/ g2 | G/B/G/B/ d/e/d/d/ | BAA :|
+
+
+X:123
+T:F. Deitzman's Quickstep
+T:Stop March
+S:American Veteran Fifer #123
+C:To F. Deitzman Portland Oregon Co.A.17th Mo. Vol. Inf. By A.F. Hopkins Fife Major
+M:2/4
+L:1/8
+Q:1/8=180
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+((3A/B/c/) | dd/d/ c/d/e/c/ | (d/e/)A/c/ df/f/ | (f/a)a/ a/b/g/e/ | (f/a/)g/e/ b/g/e/c/ |
+d/d(d/ c/)z/e/c/ | (d/e/)A/c/ df/f/ | f/a/g/e/ b/g/e/c/ | d z z :|
+|: ((3A/B/c/) | d2- d/A/d/f/ | ba- ad/f/ | (f/a)a/ a/b/g/e/ | f/a/g/e/ f/d/c/A/ |
+d2- d/A/d/(f/ | b)a- ad/f/ | (f/a)a/ (a/b/)g/e/ | d z z :|
+
+
+
+X:124
+T:Lamplighter's Hornpipe
+S:American Veteran Fifer, #124
+C:To Sam Mullhaney Portsmuoth O. 117th O.V.I.
+%"Mullhaney" is barely legible and could be "Mollbaney" or "McIlhaney"
+M:C|
+L:1/8
+Q:1/8=300
+K:Amaj 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+cd | ecec eagf | ecec eagf | ecec fedc | d2 B2 B2 cd |
+ecec eagf | ecec eagf | efde cdBc | A2A2A2 :|
+|: cd | edcd e2 fe | dcBc d2 ed | cAcA dcBA | B2B2B2 cd |
+edcd e2 fe | dcBc d2 ed | cagf edcB | A2A2A2 :|
+
+
+X:125
+T:Corn Cob Clog
+S:American Veteran Fifer #125
+C:By Dr. Wm. M. Haffner, Bass Drummer Co.A.154th O.V.I.
+M:2/4
+L:1/16
+Q:1/8=180
+K:A 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+"^8va only." A2ga fedf | ecAc ((3B/c/B/)ABc | A2ga fedf | ecAc B2b2 |
+A2ga fedf | ecAc ((3B/c/B/)ABc | fedf ecAc | ((3B/c/B/)ABc A4 :|
+|: A2ga A2ga | A2ga fece | A2ga A2ga | fece B2b2 |
+A2ga A2ga | A2ga fece | fedf ecAc | ((3B/c/B/)ABc A4 :|
+
+
+X:126
+T:Fannie's Festival
+S:American Veteran Fifer #126
+C:By A.F. Hopkins, Fife Major N.A. of C.W.M.
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(f/a/)f/A/ e(f/a/) | (e/a/)e/A/ d(e/a/) | d/e/d/A/ cd | cB- B/c/e/c/ |
+[1 d/e/c/E/ Gc | dc- c/d/c/d/ | e/g/e/c/ de | gf f/A/d/e/ :|
+[2 d/e/d/B/ A/F/A/B/ | c/d/e/d/ gf | e/f/e/d/ fe | dfd ||
+ z |: a4- | afed | ff- f/a/f/e/ | d/f/e/d/ BA |
+[1 cc- c/d/c/B/ | A/c/e/f/ eA | dd- d/e/d/B/ | A/d/f/a/ fe :|
+[2 d/e/d/c/ d/e/d/B/ | A/F/A/d/ gf | e/f/e/d/ fe | dfd z |
+
+
+
+X:127
+T:Edna's Entracte
+S:American Veteran Fifer #127
+C:By A.F. Hopkins, Co.A.154th O.V.I.
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+f/aa/ e/gg/ | f/aa/ ga/g/ | f/aa/ g/e/c/e/ | d/f/e/c/ Ad/e/ |
+f/aa/ e/gg/ | f/aa/ ga/g/ | f/aa/ g/e/c/A/ | dfd z :|
+|: A/c/d/f/ bf | a2 f/a/f/a/ | g/f/g/e/ Bc | e/c/d/f/ e/d/c/B/ |
+A/c/d/f/ bf | a2 f/a/f/a/ | g/f/g/e/ Bc | df d2 :|
+
+
+
+X:128
+T:Henry's Halcyou
+S:American Veteran Fifer #128
+C:A.F. Hopkins, National Fife Major
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+f/g/ | a3 g3 | fag ecA | d2f e2g | fba efg |
+a3 g3 | fag ecA | d2f ebg | ecA d2 :|
+|: z | e2f gfe | a3- afa | gbg faf | efa geA |
+def gef | a3- afa | gbg faf | ecA d2 :|
+
+
+
+X:129
+T:The Fiefers Delight
+S:American Veteran Fifer #129
+C:To D. Selah Fifer, Chardon O. Co.A.128th O.V.I.
+M:6/8
+L:1/8
+Q:1/8=300
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+f | gfe edB | gfg GAB | gfe edB | dBA A2f |
+ gfe edB | gfg a2b | gfg efg | dBG G2 :|
+|: B/c/ | d2B d2B | gfg GAB | d2B d2g | ecA ABc |
+d2B d2B | gfg a2b | gfe efg | dBG G2 :|
+
+
+
+X:130
+T:O.S & S.H. Q.S.
+S:American Veteran Fifer #130
+C:Rudolph Burkhardt, Co.A.23rd Ky.V.V.I.
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A | BAF DFA | BzBBzA | BAF dzd | c3 z2 c |
+BGB dcB | ABc def | Bed cBc | d3 z2 :|
+|: d | eze cBA | dze fzd | eze cBA | dze fzA |
+BAB dcB | ABc dzf | efg ABc | d3 z2 :|
+
+
+
+X:131
+T:Go To The Devil And Shake Yourself
+S:American Veteran Fifer, #131
+C:Donated by W.E. Miller Co.K.15th O.V.V.I.
+M:6/8
+L:1/8
+Q:1/8=280
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+Add dcB | ABA AFA | Add d2e | fec B2A |
+Add dcB | ABA AFA | dfd ege | fdd d3 :|
+|: afd dcd | BGG G3 | bge ede | cAA A3 |
+Add dcB | ABA AFA | dfd ege | fdd d3 :|
+
+
+X:132
+T:Maggie's Melange
+S:American Veteran Fifer #132
+C:By A.F. Hopkins, Fife Major N.A. of C.W.M. 1905.
+M:2/4
+L:1/16
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+((3ABc) | d2(fa) d2(fa) | d2(fa) bafa | d2(fa) gece | d2fd edcB |
+Ad(fa) d2(fa) | d2(fa) bafa | d2(fa) gece | d2f2d2 :|
+|: ((3ABc) | e2e2- efed | fe2f edcB | Acef gagf | ag2a gfef |
+geab a2aa | ba2b agef | geaf gaed | cA2B A2 :|
+
+
+
+X:133
+T:Moulton's Q.S.
+S:American Veteran Fifer #133
+C:By A.F. Hopkins, Dedicated to B.M. Moulton Commander Department of Ohio G.A.R. 1904-1905
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+((3B/c/B/) | ABce | e/f/e/c/ d/e/f/g/ | f/a/a/f/ ga | a/f/g/a/ g/e/d/c/ | 
+B/A/B/c/ ed | e/f/e/c/ d/e/f/g/ | f/a/a/f/ ga/f/ | g/e/c/A/ d :|
+|: z | a4- | a>g f/a/a/f/ | ge fd/d/ | e/f/e/c/ dA |
+df a2- | a3g | f/a/a/f/ gc | dfd :|
+
+
+
+X:134
+T:J H Ware's Quickstep
+S:American Veteran Fifer #134
+C:To J.H. Ware El Paso Tex. Drummer Co. E.114th Pa. by A.F. Hopkins
+M:6/8
+L:1/8
+Q:1/8=300
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+A2d ded | c2B A2A | Beg Ace | dfA d3 |
+[1 Ace efe | ede a3 | Acd ded | fef a3 :|
+[2 B2c edB | Adf a3 | gec ABc | d3 d3 |
+|: a3 a3 | a^ga f3 | f3 fef | efA d3 |
+f3 fed | cef g3 |[1 g3 gfg | efg a3 :|[2 fag ecA | d3 d3  |
+
+
+
+X:135
+T:John H Stuntz Quickstep
+S:American Veteran Fifer #135
+C:To John H. Stuntz, Pasadena Cal. Fifer Co.I.10th Pa. By A.F. Hopkins
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+((3A/B/c/) | df2 e/d/ | fa2 f/a/ | b/a/f/a/ f/e/d/e/ | fe2 f/e/ |
+df2 e/d/ | fa2 f/a/ | b/a/f/a/ g/e/B/c/ | dfd :|
+|: c/d/ | ee- e/c/e/g/ | ff2 e/f/ | gg/a/ g/e/g/a/ | ba2 a/g/ |
+f/g/a/b/ a/f/g/e/ | fb a2 | fa- a/b/g/e/ | dfd :|
+
+
+
+X:136
+T:Wild Goose
+S:American Veteran Fifer #136
+C:By Theo. B. Jobe, Bugler Co.M.8th O.V.C.
+M:2/4
+L:1/8
+Q:1/8=180
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+dgde | BB/c/ B/A/G/z/ | G/A/B/c/ dB | A/G/A/B/ A2 |
+dgde | BB/c/ B/A/G/z/ | G/A/B/c/ dB | A/G/A/B/ G2 :|
+|: g2 b2 | g4 | GA Bd | A/G/A/B/ A2 |
+g2 b2 | g4 | GA Bd | A/G/A/B/ G2 :|
+
+
+
+X:137
+T:Libby Prison Q.S.
+S:American Veteran Fifer #137
+C:By Theo. B. Jobe learned from a comrade while in Libby Prison in 1865
+M:6/8
+L:1/8
+Q:280
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+d | fze dcB | AzF F3 | AGF EFG | BAG FAd |
+fze dcB | AzF d3 | ecA ABc | d3- d2 :|
+|: f | gze fzd | ced cBA | gze fzd | cec A2f |
+gze fzd | cde fga |[1 efe dcB | A3- A2 :|[2 ced cBc | d3- d2 z  |
+
+
+X:138
+T:Yankee Doodle
+S:American Veteran Fifer #138
+M:2/4
+L:1/8
+Q:1/8=180
+K:D 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: A | ddef | dfec | ddef | d2 cA |
+ddef | gfed | cABc | d2 d:|
+|: z | B>c BA | Bc d2 | A>B AG | FG A2 |
+B>c BA | Bcd2 | Adce | d2 d :|
+
+
+
+X:139
+T:Turkey In the Straw
+S:American Veteran Fifer #139
+M:C|
+L:1/8
+Q:1/4=180
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+BA|GG z G G2 Bc|dd z d d2 GA|BB z B BAGA|BA z ^G A2 BA|
+GG z G G2 Bc|dd z d d2 GA|BAGA dBGA|BGAF G2:|
+|:d2|Bd z d d4|cd z d d2 d2|ce z e e4|ce z c e2 d2|
+g2 g2 d2 d2|B2 B2 A2 GA|BABc dBGA|BGAF G2:|
+
+
+X:150
+T:The Assembly
+S:American Veteran Fifer (Camp Duty #4)
+M:2/4
+L:1/16
+Q:1/8=180
+K:G 
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+|: dBGB e2e2 | dBGB AFD2 | dBGB efge | dBGB A4 :|
+|: ABcA Bcd2 | efge d2d2 | gfge dBGB | cAFA G4 :|
+
+

@@ -1,0 +1,17 @@
+X: 1
+T: Nyan Cat Song
+C: Miku Hatsune
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+F: http://www.youtube.com/watch?v=flkn64IyefI
+F: http://musescore.com/user/4237/scores/20321
+M: 4/4
+L: 1/16
+K: B
+%%indent 350
+def2 aede fbd'e' d'ab2 | f2df f2bc' abc'e' d'e'c'2 ||
+|:\
+f2g2 =d^d2c dcB2 B2c2 | =d2dc Bc^ef gdfc cBcB | d2f2 gdfc dB=d_e dcBc | d2Bc dfc=d cdc2 B2c2 |
+f2g2 =d^d2c dcB2 B2c2 | =d2dc Bc^df gdfc dBcB | d2f2 gdfc dB=d_e dcBc | d2Bc dfc=d cdc2 B2B2 ||
+B2FG B2FG Bcdc edef | B2B2 FGBF edcB EDEF | B2FG B2FG BBcd BFGF | B2BA BFGB edef d2c2 |
+B2FG B2FG Bcdc edef | B2B2 FGBF edcB EDEF | B2FG B2FG BBcd BFGF | B2BA BFGB edef B2B2 :|

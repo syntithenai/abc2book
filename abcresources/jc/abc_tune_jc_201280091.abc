@@ -1,0 +1,15 @@
+X: 282
+T: the Gentle Maiden   #2
+R: air, jig
+%S: s:1 b:9
+B: O'Neill's 1850 #282
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+Q: "Slow"
+M: 6/8
+L: 1/8
+K: G
+"^A"[|] F | (G>AG) (F>ED) | d3 (e>fg) | (d>cB) [1 A2G | E3- E2 :|[2 (A2{BA}G) | G3- "fine"G2 y\
+"^B"|[| d | (d>ef) g2g | g3 (g>fe) | d>cB {B}A2G | E3- "^->A2"E2 y|]

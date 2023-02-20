@@ -1,0 +1,13 @@
+X:1
+T:Il Valzer di Mezzanotte -- Third harmony
+K:Am treble middle=B
+K:Am
+M:3/4
+R:Waltz
+L:1/8
+zz2A,B,|:"Am"C6|"Dm"D6|"Am"CB, A,4|-A,2 B,CB,A, |"E7"^G,6|B,6|"Am"A,^G, A,4|
+z4A,B,|"Am"C6|"A7"E6|"Dm"DC A,4|-A,2CDCB,|"Am"A,2z2C2|"E7"^G,2z2B,2|"Am"A,6|1 A,zz2:|2"Am" +fine+A,zz4||
+[K:A]"A"C6|D2 E3 F|"E7"(E6|"Bm7"E2)G3 F|"E7"E4 E2|D6|"A"C6|-C2 C2 B,2|"F#"^A,6|-^A,2 C3 ^A,|
+"Bm"B,6|"D"-B,2 C2 B,2|"A"A,6|"E"G,6|1"A"A,6|-A,6:|2"A"A,3 A, A,2|z4 A,B,||
+[K:Am]"P lyrical"y/"Am"Czz4|"Dm"B,zz4|"Am"A,zz4|"E7"^G,6|"Am"(C2D2)C2|"Dm"(B,2C2)B,2|"Am"(A,2B,2)A,2|"E7"^G,||
+%

@@ -1,0 +1,20 @@
+X:1
+T: Ed Shaw's Waltz
+I:
+C: W-22
+C: Ed Shaw  August 1987
+M: 3/4
+L: 1/4
+Z:
+R: waltz
+K: D
+"D"[A3d3f3]| [d2f2][Ae]| "G"[G2d2] "Em"[EB]| "D"[D3A3]|\
+   A>B[Ad]| [d2f2][Adf]| "A"[A3c3e3]| "A7"zBc|
+"D"[A3d3f3]| [d2f2][Ae]| "G"[G2d2] "Em"[EB]| "D"[D3A3]|\
+   [DA][GB][Fd]| AD "A"[Ge]| "D"DAG| [F3d3]|]
+\
+"D"[d2f2a2] "G"[gb]| "D"[d2a2] "G"[Bg]| "D"[A2f2] "A"[Ge]| "D"[F3d3]|\
+"D"[Af] "Em"[Ge] "D"[Fd]| "D"[Adf] "Em"[GBe] "D"[FAd]| [A3d3f3]| "G"[d3g3b3]|
+"D"[F2d2a2] "G"[Gdb]| "D"[F2d2a2] "G"[EBg]| "D"DA "A"[Ge]| "D"FA "A"[Ge]|\
+"D"[Af] "Em"[Ge] "D"[B,Fd]| [A,Adf] "Em"[B,GBe] "D"[DFAd]| A,D "A"[CGe]| "D"[D3F3A3d3]|]
+%

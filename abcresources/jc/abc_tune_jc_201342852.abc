@@ -1,0 +1,51 @@
+
+X: 1
+T: T\"a\"all\"a Pohjant\"ahden alla #1   [Dm]
+O: Trad Finland
+M: 2/4
+L: 1/8
+K: Dm
+[| "Dm"AA AA | "Gm"A>G "A7"EG | "Dm"G>F DF | "Dm"[F2D2] "A7"[E2^C2] \
+|: "A7"AE "Dm"FD | "A7"EA, "Bb"DF | "Gm"A>G "A7"FE | "Dm"D2 D2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: T\"a\"all\"a Pohjant\"ahden alla #2   [Dm]
+C: S\"av: Petri Laaksonen
+C: San: Turkka Mali
+M: 6/8
+L: 1/8
+K: Dm
+DF \
+| "Dm"A2A G2F | E2D ZAA \
+| "Gm"B2B B2A | "C"A2G "C7"zFE \
+| "Dm"[A2D2]A "A7"[G2^C2]A | "Dm"[G2D2]F zED |
+|1 "G"GG2 F2G | "A"E3 z \
+:|2 "A"[A2D2]A "A7"[A^C]A2 | "Dm"D3 z2 \
+|: A \
+| "Gm"B2B "C"c2B | "Dm"A2D zDA |
+| "Gm"GG2 "A7"zFE | "Dm"E2D "F"z[AC][AC] \
+| "Bb"[d2F2][dF] [c2F2][dF] | "F"[c2A2][AF] zFG \
+| "A"[A2D2]A "A7"[A2^C2]A | "Dm"D3-Dz :|
+
+%%sep 1 1 500
+
+X: 1
+T: T\"a\"all\"a Pohjant\"ahden alla #2   [Am]
+C: S\"av: Petri Laaksonen
+C: San: Turkka Mali
+M: 6/8
+L: 1/8
+K: Am
+Ac \
+| "Am"e2e d2c | B2A Zee \
+| "Dm"f2f f2e | "G"e2d "G7"zcB \
+| "Am"[e2A2]e "E7"[d2^G2]e | "Am"[d2A2]c zBA |
+|1 "D"dd2 c2d | "E"B3 z \
+:|2 "E"[e2A2]e "E7"[e^G]e2 | "Am"A3 z2 \
+|: e \
+| "Dm"f2f "G"g2f | "Am"e2A zAe |
+| "Dm"dd2 "E7"zcB | "Am"B2A "C"z[eG][eG] \
+| "F"[a2c2][ac] [g2c2][ac] | "C"[g2e2][ec] zcd \
+| "E"[e2A2]e "E7"[e2^G2]e | "Am"A3-Az :|

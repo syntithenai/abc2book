@@ -1,0 +1,40 @@
+X:1
+T:The MacRae Meadow
+M:C
+L:1/8
+Q:80
+C:March
+S:
+K:HP
+{g}c3{g}B{G}A2{gde}ce | \
+{gfg}f3e{gcd}c4 | \
+a4{GdG}ae{g}fa |
+{fg}f3e{gcd}c4 | \
+{Gdc}d3e{gfg}f2{g}ed | \
+{gcd}c3d{g}e4 |
+{g}f2a2{ef}ec{Gdc}dc | \
+{gBd}B4{G}A4|]
+a4{GdG}ae{g}fa |
+{gfg}f3e{gcd}c4 | \
+{g}c3{g}B{G}A2{gde}ce | \
+{fg}f3e{gcd}c4 |
+{Gdc}d3e{gfg}f2{g}ed | \
+{gcd}c3d{g}e4 | \
+{g}f2a2{ef}ec{Gdc}dc |
+{gBd}B4{G}A4|]
+{g}c3{g}B{G}A2{gde}ce | \
+{gfg}f3e{gcd}c4 |
+{g}c3/2d/2{gcd}c{g}B{G}A2{gde}ce | \
+{gfg}f3e{gcd}c4 | \
+{Gdc}d3e{gfg}f2{g}ed |
+{G}A3B{GdG}c3{g}e | \
+{g}f3a{ef}ec{Gdc}dc | \
+{gBd}B4{G}A3{g}e|]
+a2{g}a2{GdG}ae{g}fa | \
+{gfg}f3e{gcd}c4 | \
+{g}c3/2d/2{gcd}c{e}B{G}A2{gcd}ce |
+{fg}f3e{gcd}c4 | \
+{Gdc}d3e{gfg}f2{g}ed | \
+{G}A3B{GdG}c3{g}e |
+{g}f3a{ef}ea{Gdc}dc | \
+{gBd}B4{G}A4|]

@@ -1,0 +1,20 @@
+X: 902
+T: Rakes of Clonmel.
+T: Boys of the Lough
+R: jig
+%S: s:7 b:16(4+4+4+4+4+4+4)
+B: O'Neill's 1850 #902
+O: F.O'Neill
+Z: Tom Keays (htkeays@mailbox.syr.edu)
+%abc 1.6
+M: 6/8
+R: jig
+L: 1/8
+K: Am
+"^A"|: (A/B/) | cBA GED | EAA A2B | cBA edc | BGG G2 ||
+| (e/^f/) | g^fg efg | dBG Bcd | ecA GED | EAA A2 :|
+"^B"|: a | aea aed | cAA A2(e/^f/) | gea gdc | BGG G2[fB] ||
+|[1 gea gfe | dBG Bcd | ecA GED | EAA A2 :|
+|[2 cBc d^cd | edc Bcd | ecA GED | EAA A2 |]
+"^C"|: B | Aaa a^ga | bge e2^f | g^fg bge | dBG G2 ||
+| B | cBc d^cd | efe Bcd | ecA GED | EAA A2 :|

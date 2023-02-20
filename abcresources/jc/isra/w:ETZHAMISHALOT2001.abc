@@ -1,0 +1,25 @@
+X: 77
+T:Etz Hamishalot 2001
+C:Greek
+O:Israel
+F: http://www.youtube.com/watch?v=z3M882V6Azk
+M:4/4
+L:1/8
+K:Bb
+Q:1/4=88
+V:1
+%%MIDI program 74
+|:G2F3/2A/G2zD|F3/2E/DC F3/2E/DC|zGAF GzG/A/B|c/B/A  A/B/G G/A/F E/F/z:|
+%%MIDI program 55
+|:G,3/2D/Dz .D.D.DD|CDB,CA,G,A,G,|G,3/2D/Dz .D.D.DD|EFGA G2FD:|
+V:2
+%%MIDI channel 10
+L:1/16
+|:C,,2F,,F,, C,,2A,,A,, C,,2A,,2 C,,2A,,2 |
+C,,2F,,F,, C,,2A,,A,, C,,2A,,2 C,,2A,,2 |
+C,,2F,,F,, C,,2A,,A,, C,,2A,,2 C,,2A,,2 |
+C,,2F,,F,, C,,2A,,A,, C,,2A,,2 C,,2A,,2 |
+C,,2F,,F,, C,,2A,,A,, C,,2A,,2 C,,2A,,2 |
+C,,2F,,F,, C,,2A,,A,, C,,2A,,2 C,,2A,,2 |
+C,,2F,,F,, C,,2A,,A,, C,,2A,,2 C,,2A,,2 |
+C,,2F,,F,, C,,2A,,A,, C,,2A,,2 C,,2A,,2 :|

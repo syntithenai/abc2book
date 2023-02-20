@@ -1,0 +1,20 @@
+X: 135012
+T: the TEETOTALLER REEL
+Q: "Irish Reel."
+R: Reel.
+%R: reel
+B: James Kerr "Merry Melodies" v.1 p.35 s.0 #12
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+(u(3DEF) |\
+G2({A}GF) GABc | d2(ec) dBAc |\
+BEED EFGA | BGAF GFED |\
+DGGF GABc | d2(ec) dBAc |\
+BEED EFGA | BcAF G2 :|
+|: B2 |\
+Beed e3f  | geaf gfed |\
+Bdde d3e  | fdaf gfed |\
+Beed e3f  | geaf gfed |\
+BEED EFGA | BcAF G2 :|

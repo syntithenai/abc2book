@@ -1,0 +1,39 @@
+X: 41
+T: Athol Brays
+T: Longways for as many as will.
+%R: strathspey
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.21
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 4th Strain has initial repeat but no final repeat; fixed.
+N: Bar 10 has only 3 beats; fixed by making it like bar 8.
+M: C|
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2 |\
+B4 A2G2 Bcd2 efg2 | B3AG2B2 AAA2 A2d2 |\
+B4 A2G2 Bcd2 e2B2 | A2F2D2B2 GGG2G2 :|
+|: ef |\
+g2d2B2g2 d2g2d2B2 | gfed B2g2 Tf4 A2ef |\
+gfed B2g2 d2g2d2B2 | cBAG F2A2 GGG2G2 :|
+|: c2 |\
+B2G2(B2G2) (B2G2) (Bcd2) | B2G2 Bcd2 g4 A4 |\
+(B2G2)(B2G2) (B2G2) Bcd2 | D4 D2B2 GGG2G2 :|
+|: B2 |\
+G2g2 gfed B2g2 gfed | B2g2D2g2 f4 A2ef |\
+gfed B2g2 d2g2d2B2 | cBAG F2A2 GGG2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. foots it & cast off .| 1st Cu. foots it again, 1st Man casts
+%% down & then 1st Wo. casts up :| 1st Man heys with the 2d & 3d Wo. 1st Wo.
+%% Heys the same time with 2d & 3d Men .| 1st Man heys with 2d and 3d
+%% Men, 1st Wo. at the same time heys with 2d & 3d We. :| 1st Man foots
+%% it with the 3d Wo. & turns her, 1st Wo. does the same at the same time with
+%% the 2d Man .| 1st Man foots it with the 2d Wo. & turns her, 1st Wo. does
+%% the same at the same time with the 3d Man :| The 1st Cu. leads thro'
+%% the 2d and 3d Men, and turn in the 2d Cu. Place .| Then the 1st Cu.
+%% leads through the 2d & 3d We. and turn in the 2d Cu. Place.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

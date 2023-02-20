@@ -1,0 +1,36 @@
+X: 10862
+T: COTILLION No. 9. tune 2
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.86 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d>e |\
+f>BB>c d>FF>A | B>DD>E F2e>d |\
+(dc)(ed) (gf)(cd) | eFBd c2d>e |\
+f>gf>d f>ec>d | e>cd>B c>BG>E |\
+D>FB>d c>BG>A | B2d2B2 H|]
+!pp! F2 |\
+F>FG>A {c}B>AB>d | c>Bc>A B>df>e |\
+d>ed>c (cB)(BG) | FDB>D C>ED>C |\
+B,>A,B,>D F>GF>D | B,>A,B,>D F>DF>B |\
+d>Bc>A B2A>B | G2G2 {A}G>FD>F |
+!ff!B2B,>D F>DB>A | G2G2 {A}G>FD>F |\
+B2B,>D F>Bd>c | {d}c>Bc>d B>AB>c |\
+d>ed>B c>BG>A | B>cB>G F>DC>B, |\
+F>DE>F G>AB>c | d2B2B3 c/d>e |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance 4 and turn,
+%% next 2, &c.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

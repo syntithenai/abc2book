@@ -1,0 +1,53 @@
+X:1
+T:Heykens's Serenade  "Play parts 1 - 2 - 3 - 1"
+M:C|
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+[| {gfg}fA{gfg}f2 | \
+{gf}gf{gef}e2 | \
+{Gdc}d3/2e/2{gfg}fd |
+{g}A2{GAG}A2 | \
+{gf}gA{gf}g2 | \
+{fg}fA{gfg}f2 |
+{gef}e3/2f/2{gef}ed | \
+{gcd}ce{ag}a2{gfg}fA{gfg}f2 | \
+{gf}gf{gef}e2 |
+{Gdc}d3/2e/2{gfg}fd | \
+{g}A2{GAG}A2 | \
+{gBd}B{Gdc}d{gf}g2 |
+{ag}af{Gdc}d3/2e/2 | \
+{gfg}fA{gef}eA | \
+{Gdc}d2{gdG}d2|] [ |
+{GAG}A2{gcd}c2 | \
+{gef}ed{gBd}B2 | \
+{GAG}A2{gcd}c2 |
+{ag}af{gef}e2 | \
+{Gdc}df{gef}ed | \
+{gcd}ce{ag}a2 |
+{gBd}Be{gfg}fB | \
+{gef}e2{A}e2{GAG}A2{gcd}c2 | \
+{gef}ed{gBd}B2 |
+{GAG}A2{gcd}c2 | \
+{ag}af{gef}e2 | \
+{Gdc}df{gef}ed |
+{gcd}ce{ag}a2 | \
+{gBd}B{Gdc}d{gcd}cB | \
+{gBd}BA{GAG}A2|] [ |
+{gef}ed/2c/2{a}gf/2e/2 | \
+{ag}af{ag}ad | \
+{gcd}ca{gBd}Bg |
+Af{g}d/2c/2d/2e/2 | \
+{gef}ed/2c/2{a}gf/2e/2 | \
+{ag}af{ag}ad |
+{gef}ed{gcd}cB | \
+{g}A2{gef}e2{gef}ed/2c/2{a}gf/2e/2 | \
+{ag}af{ag}ad |
+{gcd}ca{gBd}Bg | \
+Af{g}d/2c/2d/2e/2 | \
+{gef}ed/2c/2{a}gf/2e/2 |
+{ag}af{ag}ad | \
+{gef}ed{gcd}cB | \
+{g}A2{ag}a|]

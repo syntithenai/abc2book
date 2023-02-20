@@ -1,0 +1,16 @@
+X: 1
+T: Polkette fr\aan L\"ovstabruk #1
+C: Trad.
+R: polka
+S: http://www.nyckelharpa.org/archive/written-music/american-allspel-list/ 2022/10/19
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: 1/4=120
+K: F
+"^A"[|] cB |\
+"F"A2c2 F2GA | "Gm"B2d2 G2GF | "C7"E2G2 C2DE | "F"F2A2 "(C7)"c2cB |
+"F"A2c2 F2GA | "Gm"B2d2 G2GF | "C7"E2G2 C2DE |[M:3/4] "F"F2A2 F6 :|
+[M:2/4] z2 "^B"|:\
+"F"C2F2 A3G | F2d2 c4 | "C7"C2EE E2G2 | "F"C2FF F2A2 |
+"F"C2F2 A3G | F2d2 c4 | "C7"C2EE E2GA | [M:3/4] G2C2 "F"F6 :|

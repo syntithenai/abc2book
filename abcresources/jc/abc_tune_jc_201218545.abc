@@ -1,0 +1,19 @@
+X: 11
+T: Colonel Tarleton's Quick March
+%R: march, jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.6 #11
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+f/g/ |\
+a>ba agf | bc'd' a2^a | bgf efd | d3 c2 f/g/ |\
+a>ba agf | b>c'd' a2^a | bge afd | fge d2 :|
+|: c/d/ |\
+e2c A2f/g/ | a2f d2b/c'/ | d'c'b e'2d' | c'>d'b a2^a |\
+b2g egb | a2f dfa | b>c'd' agf | {fg}a>gf e2 f/g/ |
+a>ba agf | bc'd' a2^a | bgf efd | d3 c2 f/g/ |\
+a>ba agf | bc'd' a2^a | bge afd | fge d2 :|

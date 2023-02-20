@@ -1,0 +1,38 @@
+X: 09
+T: Colln McBain's Reel
+%R: reel
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.101 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gdor
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c |\
+(B/c/d) Gd BGdB | (A/B/c) Fc AFcA |\
+(B/c/d) Gd BGdB | (^F/G/A) DF G2-G ::\
+=f |\
+f2Bf B/B/B fB | c>d(TcB) ABcA |
+Gg-ga bag^f | gb (a/g/^f) g2-ga |\
+(g/a/b) fd Bdfd | cdTcB ABcA |\
+Bdg^f gdc_e | dBcA G2-G |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g2g2 g2g2 | f2f2 f2f2 |\
+g2g2 g2g2 | d2d2 G2G :: z |\
+B2B2 b2b2 |
+f2f2 f2f2 |\
+g2g2 g2g2 | d2d2 G2G2 |\
+B2B2 B2B2 | f2f2 f2f2 |\
+g2a2 b2c'2 | d'2d2 g2G |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st and 2d Cu: foot it and change sides .|
+%% the same back again :|
+%% lead down thro the third Cu:
+%% cast up into the 2d Cu: Place
+%% lead up to the top and cast off :|:
+%%endtext
+%%sep 2 2 400

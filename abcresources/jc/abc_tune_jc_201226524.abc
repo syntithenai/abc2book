@@ -1,0 +1,24 @@
+X: 103106
+T: SOLDIERS JOY
+O: Kerr c.1880
+Q:"Reel."
+R: Reel.
+%R:reel
+B: James Kerr "Merry Melodies" v.1 p.3 s.1 #6
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: D
+(FG) |\
+AFDF AFDF | A2d2 d2(cB) |\
+AFDF AFDF | G2E2 E2(FG) |\
+AFDF AFDF | A2d2 d2(fg) |\
+afdf gece | d2d2 d2 |]
+(de) |\
+f2f2 fagf | edcd egfe |\
+f2f2 fagf | edcB A2g2 |\
+fefg fagf | edcd efge |\
+fafd egec | d2d2 d2 |]\
+{D}"_Fin."D4 |]

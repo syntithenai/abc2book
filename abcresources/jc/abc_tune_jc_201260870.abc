@@ -1,0 +1,21 @@
+X:108
+T:Caulking Jig
+C:John New, 2009
+L:1/8
+M:6/8
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=112
+K:G
+%%textfont Times-Roman-Bold 20
+%%center Play AABBC AABBC AABBC AABBC A for the dance by Colin Hume.
+P:A
+|: "G"d2B- BAG | "C"E2G- G2B | "G"d2B- BAG | "D"LA2 "D"LB2 "D"Lc2 |\
+"G"d2B- BAG | "C"E2G- G2A | "G"BdB "D"AGF | "G"G3- G3 :|
+P:B
+|: "G"D2G c2B | "F"A3- AGE | "G"D2G A2B | "F"dcB A3 |\
+"G"D2G A2B | "C"c2e- ecB | "D"A2G FGA | "G"G3- G3 :|
+P:C
+"G"D2A B2c | "D"d3- d3 | "G"d2B c2d | "C"ece g3- |\
+"C"geg "F"ag=f | "C"g=fe "G"fed | "C"ece "G/B"dcB | "Am"cAc "Em"BGE |
+"D" "^Hold chord all the way"^FDF FDF | GDG GDG | ADA ADA | BDB BDB |\
+cDc cDc | ^cDc cDc | dDd DdD | "D"L[Dd]2 "D/E"L[Dd]2 "D/F"L[Dd]2 |]

@@ -1,0 +1,20 @@
+X: 2
+T: Karis Pers Polska
+O: trad
+R: hambo-polska
+Z: John Chambers <jc@trillian.mit.edu>
+N: Possibly the best-known hambo-polska tune. The first part is sometimes not repeated.
+M: 3/4
+L: 1/8
+K: D
+|:\
+"D"A2 AB A>G | G2 FD F>A |\
+d2 de d>c | "G"c2 BG B2 |\
+"Em"e2 ef e>d | "A7"d2 cA c>e |\
+[1,3 a2 ag f>e | "D"d>e fg a2 :|\
+[2,4 "A7"a2 af g>e | "D"dz d4 :|
+|:\
+"G"g2 eg e>g | "D"f>e dc d>f |\
+"A7"e>d cA B>c | "D"d>e fg a2 |\
+"G"g2 eg e>g | "D"f>e dc d>f |\
+"A7"e>d cA B>c | "D"dz d4 :|

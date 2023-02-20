@@ -1,0 +1,51 @@
+%%text RJ Set 106 NEFFA 2011 Jigs to Reel
+
+
+X: 1
+T: The Rambling Pitchfork
+M: 6/8
+L: 1/8
+K: D
+|:\
+"D"F3 AFF | dFF AFD | "G"GFG ABc | "A"ded cBA |\
+"D"F2 F AFF | dFF AFD | "G"GFG BAG | "A"AFD "D"D3 :|
+|:\
+"D"d2 e fed | "A"ecA AFA | "D"dcd efg | "A"f/g/af gec |\
+"D"d2 e fed | "A"ecA AGF | "G"G3 BGB | "A"AFD"D" D3 :|
+
+
+X: 2
+T: The Trows o' Truggles Water
+C: Chris Stout
+S: Roaring Jelly collection
+M: 6/8
+K: Ddor
+|:\
+"Dm"D2F EDC | DED CA,G, | "G"B,2D CB,A, | B,A,G, A,B,C |\
+"Dm"D2F EDC | DED C2B,- | "G"B,2D CB,A, | G,A,G, G,3 :|
+"Am"AcB ABc | ded cAG | "F"AcB ABc | dcB A3 |\
+"Dm"AcB ABc | ded cAG | "G"B2d cBA | GAG G3 |
+"Am"AcB ABc | ded cAG | "F"AcB ABc | dcB A2 e- |\
+"Dm"edc dcB | cBA BAG | "F"ABA GEC |[" " "G"DED D3 |]\
+["Trans" "G".D2z4 |]
+
+
+X: 3
+T: Dancing Bear, the
+C: Bob McQuillen 1978
+I: Dancing Bear, The	R-116	Em	reel
+M: C|
+R: reel
+K: Em
+|:\
+"Em"EFGF EFGF | EFGA G2E2 | "A"EFGF EFGF | EFGA G2E2 |\
+"C"EFGF EFGF |
+EFGA B2e2 | "B7"B2Bc BAGF | "Em"G2E2 E4 ::\
+"Em"e2ef gfef | gfe2 e4 |
+"A"e2ef gfef | gfe2 e4 |\
+"C"e2ef gfef | gfe2 e2dc | "B7"BABc BcBA | "Em"GFE2 E4 :|
+%%begintext ragged
+%% For the E half-notes in the B part, fiddles do a slide up to the harmonic E.
+%% Do this when Debby so signals.
+%%endtext ragged
+

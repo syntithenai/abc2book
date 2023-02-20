@@ -1,0 +1,3883 @@
+X:59
+T:Gander's Strut (h)
+B:NFID.246a
+K:
+059gand_s
+S:PT
+L:1/8
+M:C
+R:hornpipe
+Q:300
+K:G
+BAGE D2D2|BAB^c d2d2|cBAG E2E2|D2EF G2G2:|
+Bdef gfed|Bd (3efg a2a2|Bdef gfed|BGAF G2G2:|
+
+%%%
+
+X:141
+T:Paddy's Rambles Through the Park (air)
+B:NFID.096b
+141paddys_r
+S:JD
+L:1/8
+M:3/4
+R:air 3/4
+Q:120
+K:Em
+A/G/F/G/|[E2A,2][A2E2][A2E2]|G2 B2 BA|BG3 G2|G4 AG|
+[E2A,2][A2E2][AE]B|c4 BA|^GE3 [E2B,2]|[E4B,4]||^cd|
+e2ed ^c<e|d2 d^c Bd|^c2 cB Ac|B4 EF|
+G3B e^c|d3e f^d|e2 E2 ^G2|[A4E4] z2|]
+%
+"VAR" [E2A,2]|[A2E2]a2a2|[M:C]A2g2g2BA|[M:3/4]BG3G2|G4B^A|A2a2a2|
+[M:C] A2g2g2BA|[M:3/4] ^GE3 [E2B,2]|[E4B,4]z2 "_etc"||
+
+%%%
+
+X:186
+T:Wild Irishman (r)
+B:NFID.106b
+186wild_i
+S:SD
+L:1/8
+M:C
+R:reel
+Q:360
+K:A=G
+edcB A2 (3cBA|eA (3cBA e3f|edcB ABce|1 f2ge d3|2 f2ge d2Bc||
+defd gefd|dged cABc|defd gefd|gage d2Bc|
+defd gefd|dged cABc|defg a2ag|(3fga ec dcdg||
+
+%%%
+
+X:139
+T:Paddy Quigley's Barndance*
+B:NFID.092b ("untitled barndance")
+139paddy_q
+S:JD
+N:The source has an eight-measure section labelled "Last" after the
+tune - I'm not sure how it fits in with the rest of the tune, so I've
+included it here and in the MIDI file exactly as the source has it.
+L:1/8
+M:C
+R:hornpipe % A-B-A from segno to |dBAB G4| which replaces 2nd ending
+Q:280
+K:G
+d3c|:"^segno"B2BA Bdge|d2de dBGA|B2BA Bdge|1 dBAB G2 G>c:|\
+[2 dBAB G2ef||
+gfed edBd|gfed e3f|gfed efge|dBAB G2ef|
+gfed edBd|gfed e2ef|gabg efge|dge^c dBGA||
+"LAST" B2BA Bage|d2eB dBGA|B2BA Bdge|dBAB d2G,A,|
+B,2B,A, B,DGE|B,DEB, DB,G,A,|B,2B,A, B,DGE|DB,A,B, G,4|[g2B2]z2z4||
+
+%%%
+
+X:187
+T:Willie Corrigan's* (j)
+B:NFID.062 ("untitled double jig")
+187willie
+S:JD
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:D=C
+%A
+d2B|: cAG A2D|DED A2d|cAG A2D|DED GED|
+cAG A2D|DED AGE|FDF ECE|DED GED:|
+%B1
+d2e fdg|ecA AFA|d2g fdg|eaa gec|
+d2e f^ga|ecA AGE|FDF EFE|DEF GED|
+%B2
+d2e fdg|ecA AFA|dcd efg|eaf gec|
+d2e f^ga|ecA AGE|FAF EFE|DEF GED||
+%C
+B/A/BG A/B/AG|BGE Edc|B/A/BG A/B/AE|GED Ddc|
+B/A/BG A/B/AG|BGE E2c|dcd A2G|1 FDD Ddc:|2 FDD DdB||
+
+%%%
+
+X:120
+T:Mick McShane's Highland* (h)
+B:NFID.155a ("untitled highland")
+120mick_mc
+S:CC
+L:1/8
+M:C
+R:hornpipe
+Q:280
+K:A=G
+ed|: c<AAB cAAF|G2GF GABd|cA~A2 cAAg|(3fga fd gfed:|
+K:Am
+cde^f gage|dBGB dedB|cde^f gage|(3^fga ^fd g^fed|
+cde^f gage|dBGB dg^fg|(3aba ^fa g^fed|cde^f g^fed||
+
+%%%
+
+X:87
+T:Jimmy Lyons' Highland*
+B:NFID.155b ("untitled highland")
+087jimmy_L
+S:CC
+N:The source does not show the C in the triplet at the start
+of measure 10 as natural, but I'm presuming this was a "scribal
+error".
+L:1/8 % dotted rhythm in part A
+M:C
+R:hornpipe
+Q:280
+K:A=G
+cAA=G EAAB|cAAa a^gae|cAAG EAA=c|BA=GB d=ged:|
+K:Am
+cE (3cBc gedB|cBAb aged|cBcd e^fge|dBGB dged|
+cE (3cBc gedB|(3cdc Bb a2ga|(3bag (3ag^f gage|dBGB dged||
+
+%%%
+
+X:185
+T:Watchdog at the Gate* +(h)
+B:NFID.155c ("untitled highland")
+185watchd
+S:CC
+N:First part should be played an octave lower than notated.
+L:1/8
+M:C
+R:hornpipe
+Q:280
+K:Am
+GB|AA B/A/G/A/ ed B/c/B/A/|GABG dGBG|
+AA B/A/G/A/ ed B/c/B/A/|GABG (3ABA:|
+Gd|ebag e^de^f|gggg dgBG|Abag e^de^f|gdBG (3ABA ^GA|
+Abag e^de^f|gggg dg^fg|(3ag^f (3gfe dfA^F|\
+GEDB, (3A,B,A, G,2||
+= = =
+P:simplified version
+B|A2AG edBA|GABG dGBG|A2AG edBA|GABG A3:|
+d|ebag e^de^f|g2^fg dgBG|Abag e^de^f|gdBG A2GA|
+Abag e^de^f|g2^fg dgfg|a^fge dBA^F|GBAG A4||
+
+%%%
+
+X:010
+T:Brass Band March
+B:NFID.156
+010brass
+S:CC
+L:1/8
+M:C
+R:march
+Q:300
+K:G
+%A1
+G4 G3A|B2 d4 g2|e2eg e2d2|B2.D2.E2.F2|
+"5"G4 GFGA|G2 (3FGF (3EFE D2|G4 GFGA|G2 F/G/F E2D2|
+"9"A4 A^GAB|A2F2 E/F/E D2|A4 A^GAB|c6 B/c/B|
+%A2
+"13"A2 D/E/F/G/ A2 D/E/F/G/|A2F2 E/F/E D2|B4 BABc|d6||
+g2|"17"e2eg e2d2|[B6G6] (3BcB|A2c2 ABcA|B2G2 E4|
+"21"e2 ef e2d2|[B6G6][B2G2]|ABc2 AB^c2|d6||
+%B
+c2|"25"B2c2^c2d2|[M:3/2] b4a4 a^gab|[M:C] a2B2^c2d2|g4 gfga|
+g2B2^c2d2|
+[M:3/2] "30"b4a4 a^gab|[M:C] a2B2c2 de|B2D2E2F2|
+"33"G2 F/G/F E/F/E D2|B2c2^c2d2|[M:3/2]  b4a4 a^gab|[M:C] A2B2^c2d2|
+"37"g4 gfga|g6G2|A2B2c2d2|e2f2g2^g2|
+"41"a2ba g2f2|g2ag f2g2|a2ba g2ag|e2ge d2e2|
+"45"c2e2 B/c/B A2|G4 GFGA|G2 (3EGE D2E2|G6 (3BcB|
+"49"A2aa a2e2|g6 (3efg|a2 (3efg a2ef|g2 c4 g2|
+"53"e2ee e2^d2|e2=d2 c/B/c A2|G2gg g2a2|g2eg e2d2|c8|]
+
+%%%
+
+X:147
+T:Pat Harvey's Mazurka*
+B:NFID.177b (as "Mazurka")
+147pat_h
+S:F&MB
+L:1/8
+M:3/4
+R:waltz % A-B-A
+Q:240
+K:G
+g|:b>g d2B2|G>B e2g2|f>d (3cdc A2|G>B e2g2|
+b>g d2[c2E2]|A>c e2g2|f>e [D2d2]f2|1 a2g2 g>a:|2 a2g2 g>d||
+B>d g2-g>e|f>g a2g2|f>g e3f|ge[G,2G2d2][D2B2]|
+d2g2-g>e|f>g a2g2|1 a2g2 g>d:|2 a2 Hg2 g>a||
+
+%%%
+
+X:85
+T:Irish Stew* (r)
+B:NFID.172 ("untitled reel")
+085irish_s
+S:F&MB
+N:This reel seems to be comprised of parts of other tunes -
+maybe "Morning Dew" in part A, "Glass of Beer" in part B,
+"Miss Patterson's Slippers" in part D!
+L:1/8
+M:C
+R:reel
+Q:360
+K:Em
+P:part A
+E2E2 BAFD|E2 ~E2 dAFD|E2~E2 BAFA|BdAB FAD|
+P:part B
+Beed B^cdA|Bee^c dAFA|Eeed B^cde|(3efg ef dAFA|
+Eeed B^cdA|Beef dAFD|Eeed B^cde|faef dAFE||
+P:part C
+fB ~B2 fe^ce|fBfb eA^ce|fB ~B2 fe^ce|faef ^ceAG|
+fB ~B2 fe^ce|fBfb eA^ce|fB ~B2 fe^ce|faef ^ceAD||
+P:part D
+B,EEF GEFD|A,DDE FDED|B,EEF GFGB|AFdf FEED|
+B,EEF (3GFE (3FED|A,DDE (3FED (3FED|GBGB FBFB|AFdF E4|]
+
+%%%
+
+X:94
+T:King George IV Highland
+B:NFID.173a
+094king_g
+S:F&MB
+N:1:I changed last note of measure 5 from |A,| to |B,| and last note
+of part B from |G,| to |G|.
+N:2:I have changed the last triplets in m.8 from |(3DA,D (3B,A,D| to
+|(3DE^F (3GBd|.
+N:3:I have removed the rolls on the first A's in mm 2,3,5,6, and 7 from
+the MIDI file due to program problems in reproducing an accurate sound.
+L:1/8
+M:C
+R:hornpipe
+Q:240
+K:Am
+A,A,A,B, (3CB,A, EA,|A,2EA, (3B,A,D (3B,A,G,|A,2EA, (3CB,A, ED|\
+B,DGE (3DA,D (3B,A,G,|
+A,4 CDEB,|A,2EA, (3DB,D (3B,A,G,|A,3B, (3CB,A, ED|\
+B,DGE (3DE^F (3GBd||
+e2AB (3cBA eA|e2A^f (3gag (3fed|e2AB (3cBA ed|Bdge (3ded (3BAG|
+e2AB (3cBA eA|e2A^f (3gag (3fed|a2^fg efdA|Bdge (3ded (3BAG||
+
+%%%
+
+X:175
+T:Teelin Highland 2 (h)
+B:NFID.173b
+175teel_h2
+S:F&MB
+N:I changed last note of measure 5 from |A,| to |B,| and last note
+of part B from |G,| to |G|.
+L:1/8
+M:C
+R:hornpipe
+Q:240
+K:A=G
+d|(3cde eg fdeA|cdef gfgA|(3Bcd ea fdfa|ge (3dcB c<AA:|
+g|a2ea fd[ge][fd]|[ec]<A (3cBA c<efg|a2ea fdfa|ge (3dcB c<AAg|
+[A2a2]ea fd[ge][fd]|[ec]<A (3cBA c<efg|(3agf ge fdfa|ge (3dcB c<AA||
+
+%%%
+
+X:105
+T:Lads of Laois (r)
+B:NFID.170  ("untitled reel")
+105lads_L
+S:F&MB
+L:1/8
+M:C
+R:reel
+Q:360
+K:Em
+%A
+G|EB, ~B,2 E2FE|DA, ~A,2 DEFD|GEED EFGA|B2e^c dBAF|
+EB, ~B,2 E2FE|DA, ~A,2 DEFD|Eeed B^cdA|(3B^cd ec BFAF||
+%B
+EB, ~B,2 E2FE|DA, ~A,2 DEFD|GEED EFGA|Bbe^c dBAF|
+E2 B,E GB,EG|D2A,D FA,DF|(3EEE BE dEBE|(3ABA FA BEE2||
+%C
+eB ~B2 egfe|defa gfed|Bdef gfge|fgaf gfed|
+ebed BAFA|BE ~E2 BAFA|(3B^cd ef gefd|gbfb edBd||
+%D
+eB ~B2 egfe|defa gfed|Bdef g2ge|fgaf gfed|eB (3BBB GBFB|
+Eeed egfa|gbgb fafa|egfd eGFD||
+
+%%%
+
+X:150
+T:Piping In the Chapel* (r)
+B:NFID.171  ("untitled reel")
+150piping
+S:F&MB
+H:This is a composite of two Ed Reavy tunes, "Never Was Piping So Gay"
+(parts A and B) and "Maudabawn Chapel" (parts C and D).
+N:Source has |DGBe| in measure A3 and |^cbgd| in measure B4. I have
+changed both.
+L:1/8
+M:C
+R:reel
+Q:360
+K:G
+P:part A
+G,A,B,D GBdB|cafd cAFD|(3EFG BG dGBG|AF (3FFF dFAF|
+(3GGG BG DGBd|cafd cdef|gfge cBcA|1 FGAF GEDB,:|2 FGAF G4||
+P:part B
+g3d ^cdBG|DGBd cAFA|GBBA BcdB|cafd ^cdef|
+gb (3agf gdBG|DGBd cAFA|BG (3GGG AF (3FFF|BdcA G4:|
+P:part C
+EGFD EDB,A,|G,A,B,D EB,DB,|G,A,B,D GABd|gabg ea (3abf|
+gabg efge|dged BGBd|(3efg fa gbe^c|dBAF GEED:|
+P:part D
+(3EEE BE eEBE|GABG AFDF|(3EEE BE eEBE|BAFD A,DFA|
+BeBe eEBE|BAFA B^cdf|(3efg fa gbe^c|1 dBAF GEED:|2 dBAF E4||
+
+%%%
+
+X:119
+T:Merrily Kissed the Quaker + (j)
+B:NFID.183a2
+119merr_k
+S:DOD
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:D
+P:version 1
+A|def A2f|g2f e3|def A2A|B3 d3|
+def A2f|a>gf e2c|d>ef ecA|1 g3 d2:|2 B3 d2||
+A|def A2f|b2f a2f|def a2g|f3 a2f|
+def a2f|b2f a2f|def ecA|B3 d3|
+def A2f|b2f a2f|def a2g|f3a2a|
+b2g efg|a2f d2A|def [e2A2]A B3 d2||
+= = =
+P:version 2
+A|def A2A|BGB A2A|def A2g|f2a gfe|
+def A2A|BGB A2A|fed faf|e3d2:|
+A|def f2a|f2a fed|def faf|efe ecA|
+def f2a|f2a f>ed|fed faf|e3d2:|
+
+%%%
+
+X:122
+T:Milestone Jig
+B:NFID.184
+122mile
+S:DOD
+C:Arthur Darley
+N:Darley (1873-1929) was a Dublin-area musician who was equally at home in
+both the classical and traditional modes. He collaborated with P.J.McCall to
+produce a collection of traditional tunes (dmac folder in webABC). He was
+also head of the Irish Music Club and was the first music director for the
+Abbey Theater. The "Swedish Jig" is probably his best-known composition.
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:G
+P:Part 1
+d2c|: B>AG D>GA|B>cd d>BG|cBc A>FD|A>Bc c>BA|
+"5"B>AG D>GA|B/c/dB e>fg|d>cB A>Bc|1 B>GG G>dc:|2 B>GG G2||
+P:part 2
+B|"9"AFD DEF|GBc d2B|BAc BAG/B/|AGF FED|
+"13"AFD DEF|GBd g2e|dcB ABc|1 BGG G2:|2 BGG GB||
+P:part 3
+d|"17"g2d BGG|Bcd dBG|c2B AFD|cBA def|
+"21"g2d efg|a/a/ge d2e|dcB ABc|1 BGG GB:|2 BGG G2||
+P:part 4
+A|"25"D2A cBA|DEF GAB|D2B cBA|DEF G2A|
+"29"D2A Bcd|efg age|dcB ABc|1 BGG G2:|2 BGG Gd||
+P:Part 5
+c|"33"B3 BAG|dcB BAG|A3 AFD|AGF ABc|
+"37"B3 BAG|Bcd efg|edc BcA|1 BGG Gd:|1 BGG G2||
+P:Part 6
+B|"41"A3 AFD|ABc AFD|B3 Bcd|edc BAG|
+"45"A3 ABc|AFD Bcd|edc BdA|1 BGG G2:|2 BGG GB||
+P:Part 7
+d|"49"g3 gdB|gdB BAG|A3 dAF|DFA cBA|
+"53"g3 gdB|gfe dcB|edc BcA|1 BGG GB:|2 BGG G2||
+P:Part 8
+A|"57"D3 DFA|cBA AGF|GFG Bcd|edc BAG|
+"61"D3 DFA|Bcd efg|age dcA|BGG G2:|
+
+%%%
+
+X:151
+T:Piping Jig
+B:NFID.185a
+151piping_J
+S:DOD
+N:1:Cut time is notated in Part A only but is in fact continued "simile"
+through the tune.
+N:2:G's in source are natural - I have sharpened them.
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:Bm % dor
+P:Part 1
+e|f2B B>cA|B>ce f2a|e>ce fec|A>Bc e2f|
+"5"a>cc B>cA|B>ce f2e|f>aa fae|f>ec B2:|
+P:Part 2
+z|"9"a2f aff|efa ^g2e|ece fec|ABc e2f|
+"13"a2f aff|efa ^g2c|faa fae|fec B3|
+"17"a2f aff|efa ^g2e|ece fec|ABc e2f|
+"21"acc BcA|Bce f2e|faa fae|fec B2||
+P:Part 3
+f|"25"BcA B3|Bce f^ga|cAB c2B|c2A cef|
+"29"BcA B3|Bce f2e|faa fae|fec B2:|
+P:Part 4
+f|"33"a2f eff|Bff f2e|faa eff|Aee e2c|
+"37"a2f eff|Bff f2e|faa faf|fec B3|
+"41"a2f eff|Bff f2e|faa eff|Aee e2c|
+"45"B2B cBc|Bce f2e|faa fae|fec B3|]
+
+%%%
+
+X:54
+T:Francie Quinn's* (slip jig)
+B:NFID.185b ("untitled slip jig")
+054fran_q
+S:DOD
+L:1/8
+M:9/8
+R:slip jig
+Q:320
+K:A
+c2A ABA ecA|cec aec fga|c2A ABA ecA|BcB fdB Bcd:|
+cde aec aec|c/d/ec aec fga|cec aec aec|BcB fdB Bcd:|
+
+%%%
+
+X:37
+T:Doctor Peter's Hornpipe
+B:NFID.194c
+037doct_p
+S:DOD
+N:Bottom note of the double stop ([AF], [ec]) is the
+melody note.
+L:1/8
+M:C
+R:hornpipe
+Q:270
+K:D
+cB|A<D [AF]A BG (3Bcd|A<D [AF]A d2cd|e<A[ec]e fd (3fga|\
+edcB AGFG|
+A<D [AF]A BG (3Bcd|A<D [AF]A d2cd|e<A[ec]e faec|d2f2d2:|
+cd|e<A [ec]e fd (3fga|e<Ace f2f^e|=ea^gf edcB|(3ABA GB A2G2|
+FEFA dfaf|g2b2g2ag|(3faf df (3efe ce|dfec d2:|
+
+%%%
+
+X:26
+T:Connaught Man in Tyrone* (j)
+B:NFID.229b
+026conn_mt
+S:PT
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:A=G
+G|EGG BGG|AGG BGG|Agg fed|cAA A2G|
+EGG BGG|AGG BGG|Agg fed|cAA A2:|
+e|eaa efg|eaa ged|eaa efg|age dcd|
+eaa efg|eaa ged|cde ged|cAA A2:|
+
+
+%%%
+
+X:004
+T:Bargain Is Over (j)
+B:NFID.181
+004barg_o
+S:DOD
+N:Variant of "Behind the Bush in the Garden"
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:Am
+B|c2A AGE|c2A AGE|edc dcB|cBA GAB|
+c2d e2a|g2e ded|cBA BAG|[A3E3] [A2E2]B|
+c2A AGE|c2A AGE|G2G GAE|G3 E2G|
+c2d e2a|g2e ded|c2A BAG|EA2 A2||
+B|c2B c2d|ege e2d|c2B c2d|e3 GAB|
+c2B c2d|ege e2d|cBA BAG|[A3E3] [A2E2]B|
+c2B c2d|e2e e2d|c2B c2d|e3 GAB|
+c2d e2a|g2e ded|c2A BAG|EA2 A2||
+
+%%%
+
+X:133
+T:Neil Gow's Strathspey +
+B:NFID.191b
+133neil_g
+N:I apologize for not knowing which of the notes in the double-stops is
+the melody note. I'm guessing that it's the bottom note in m.5 and the
+top note in m.6.
+S:DOD
+L:1/8
+M:C
+R:hornpipe
+Q:280
+K:F
+FGAF E<GF2|AFcF A<cc2|dfcf BfAf|
+[1 (3agf (3efd (3cdB (3ABG:|2 (3agf (3efg f<F [A2F2]||
+[AF][BG][cA]B A<[fA] [f2A2]|[ec][fd][ge]e f<a a2|bgaf gefg|
+[1 (3agf (3efd (3cdB (3ABG:|2 (3agf (3efg a<f Hf2|]
+= = =
+P:simplified version in D
+K:D
+DEFD C<ED2|FDAD F<AA2|BdAd GdFd|1 fdcB AGFE:|2 fdce dDD2||
+[FD][GE][AF]G F<[dF] [d2F2]|[cA][dB][ec]c d<f f2|gefd ecde|
+[1 fdcB AGFE:|2 fdce fdd2|]
+
+%%%
+
+X:164
+T:Seamus Seán Mór's Strathspey*
+B:NFID.193 ("untitled strathspey")
+164seam_sm
+S:DOD
+L:1/8
+M:C
+R:hornpipe
+Q:280
+K:A
+E|ABGA FAEC|DFCE (3B,CD (3EFG|ABGA FAEd|(3cAc (3BGB (3Afe (3dcB|
+ABGA FAEC|DFCE (3B,CD (3EFG|AfGe FdEd|cABG A3:|
+A/B/|: AaB<b aece|dfec Bd c/B/A/G/|AaB<b aced|(3cAc (3BGB (3Afe (3dcB|
+AaB<b aece|dfec Bd c/B/A/G/|AECE FDB,d|(3cAc (3BGB A2 [c2E2]:|
+
+%%%
+
+X:31
+T:Cruihagmore Strathspey* +
+B:NFID.194a ("untitled strathspey")
+031cruih
+S:DOD
+N:This tune is almost identical to a reel called "The
+Watchmaker"
+L:1/8
+M:C
+R:hornpipe
+Q:280
+K:Gm % dor
+A|B<GGB A<FFA|B<GGA BcdB|B<GGB A<FFA|(3BAG AF D<GG:|
+A|B2dB fBdB|F2AF cFAF|B2dB fBdc|dggf dgga|
+f<ddf =e<c[ec]e|d<BBd cAFA|1 GABc dd/=e/dc|BGAF DGG:|
+[2 GABc d=ega|f<ddA G2[B2G2]:|
+= = =
+P:simplified version in Am
+B|cAAc BGGB|cAAB cdec|cAAc BGGB|(3cBA BG EAA:|
+B|c2ec gcec|G2BG dGBG|c2ec gced|eaag eaab|
+g<eeg ^fddf|ecce dBGB|1 ABcd e2ed|cABG EAA:|
+[2 ABcd e^fab|geeB A4|]
+
+%%%
+
+X:012
+T:Broken Bridge Hornpipe +
+B:NFID.194b
+012broken
+S:DOD
+L:1/8
+M:C
+R:hornpipe
+Q:280
+K:A
+ed|(3cec Ac BAFA|EAce aecA|GABc dcde|gfdc BEGB|
+cB (3ABc BAFC|EAce ae^de|gfdB FAcB|Aaga A2:|
+cd|(3efe ^de aece|gfdB F2f2|(3efe ^de fedc|BAGF E2cd|
+(3efe ^de aece|gfdB F2f2|eagf (3efe (3dcB|Aaga A2:|
+= = =
+P:simplified version in G
+K:G
+dc|B2GB AGEG|DGBd gdBG|FGAB cBcd|fecB ADFA|
+BAGB AGEB,|DGBd gd^cd|fecA EGBA|Ggfg G2:|
+Bc|d2^cd gdBd|fecA E2e2|d2^cd edcB|AGFE D2Bc|
+d2^cd gdBd|fecA E2e2|dgfe d2cA|Ggfg G2:|
+
+%%%
+
+X:018
+T:Captain Cadbury's* (ss) +
+B:NFID.192a ("untitled strathspey")
+018capt_c
+S:DOD
+L:1/8
+M:C
+R:hornpipe
+Q:280
+K:Bb
+F<DDC B,CDG|F<DDd cAG2|F<DDC B,CDG|dcBG F<D C2:|
+DFBF GFBF|DFBF G<FD2|DFBF GFBF|dcBG F<D C2|
+DFBF GFBF|DFBd fde2|d<bfd ecdB|cABG F<D C2||
+= = =
+P:version in D
+K:D
+A<FFE DEFB|A<FFf ecB2|A<FFE DEFB|fedB A<F E2:|
+FAdA BAdA|FAdA B<AF2|FAdA BAdA|fedB A<F E2|
+FAdA BAdA|FAdf afg2|f<gaf gefd|ecdB A<F E2||
+
+%%%
+
+X:172
+T:Strength in the Bow* + (s'spey)
+B:NFID.192b ("untitled strathspey")
+172str_b
+S:DOD
+L:1/8
+M:C
+R:hornpipe
+Q:280
+K:F
+cFAF cFAF|cFAF D<GG2|CFAF cAfd|1 cBAG (3FFF [A2F2]:|\
+[2 cBAG (3FFF FA||
+cfaf gfaf|cfaf e<gg2|cfaf gfaf|gfga (3fff [f2A2]|
+cfaf gfaf|cfaf e<gg2|f<ad<f c<fAd|cBAG (3FFF F2|]
+= = =
+P:version in D
+K:D
+ADFD ADFD|ADFD B,<EE2|A,DFD AFdB|1 AGFE (3DDD [F2D2]:|\
+[2 AGFE (3DDD DF||
+Adfd edfd|Adfd c<ee2|Adfd edfd|edef (3ddd [d2F2]|
+Adfd edfd|Adfd c<ee2|d<fB<d A<dFB|AGFE (3DDD D2|]
+
+%%%
+
+X:008
+T:Bonnie Traveller Strathspey* +
+B:NFID.192c ("untitled strathspey")
+008bonn_t
+S:DOD
+L:1/8
+M:C
+R:hornpipe
+Q:280
+K:F#m
+C|FGAB c<FAc|B^dec B/A/G/F/ EG|FGAB c<FAc|Be c/B/A/G/ A<F|
+g|agfc fgaf|egBe GBeg|abga fgaf|ec c/B/A/G/ A<FFg|
+agfc fgaf|bge<B e/f/g/a/ bg|accB ceBG|ec c/B/A/G/ A<FF||
+= = =
+P:simplified version in Em
+K:Em
+B,|EFGA BEGB|A^cdB AEDF|EFGA BEGB|AdBF GEE:|
+f|gfeB efge|dfAd FAdf|gafg efge|dBBF GEEf|
+gfeB efge|afdA dgaf|gBBA BdAF|dBBF GEE||
+
+%%%
+
+X:134
+T:Neili Boyle's Highland
+B:NFID.191a
+134neili
+N:1:Single-note triplet |(3AAA| replaced by |~A2|.
+N:2:Part 1 anacrusis |fg| replaced by |gf|.
+S:DOD
+L:1/8
+M:C
+R:hornpipe
+Q:280
+K:A=G
+gf|eA~A2 eAfA|eA~A2 g2fg|eA~A2 ecge|dBGB d2fa|
+eA~A2 egfd|eA~A2 g2fg|(3agf (3gfe fdec|dBGB d2||
+fg|aA~A2 BA~A2|aA~A2 g2fg|aA~A2 edge|dBGB d2fg|
+aA~A2 eA~A2|aA~A2 g2fg|(3agf ge fdeB|dBGB g2||
+
+%%%
+
+X:161
+T:Sally Kelly's Reel
+B:NFID.188b
+161sally
+S:DOD
+L:1/8
+M:C
+R:reel
+Q:360
+K:Em
+DF|GEed e2eg|fede fgab|gefd e2BG|AcBA GEEF|
+Eee^d e2eg|fede fgab|gefd e2BG|(3ABc BA GEE||
+F|GABd G2GB|GABd cAAa|gefd e2BG|1 AcBA GEE:|\
+[2 AcBA GEE2|]
+
+%%%
+
+X:32
+T:Cruit Island Reel*
+B:NFID.188c  ("untitled reel")
+032cruit
+S:DOD
+N:Part 1 resembles "Man of the House"
+L:1/8
+M:C
+R:reel
+Q:360
+K:Em
+D|E2BE GABe|E2BG FDDF|E2BE GABG|FdAd FBAF|
+E2BE GABe|E2BG FDDF|EFGE FGAF|GdBG FDDF||
+EeeB GBAF|EddA FAFD|EedB cABG|FDFA dAFD|
+EeeB GBAF|EedA FDDF|Eege fde^c|d^cBA FDDF||
+
+%%%
+
+X:118
+T:Meenafanad Reel*
+B:NFID.189 ("untitled reel")
+118meen
+S:DOD
+L:1/8
+M:C
+R:reel
+Q:360
+K:D
+f|dBBA FEFA|dcde fgfe|dBBA FEFA|(3Bcd cA Bafe|
+dBBA FEFA|dcde (3fga fe|dBBA FEFA|(3Bcd cA B3||
+c|d2Bc dcde|fbbf afea|fdBc dcde|fbaf (3efe de|
+fdBc dcde|fbbf a2fa|bfff afff|bfaf eafe||
+
+%%%
+
+X:79
+T:House With No Roof* (sj)
+B:NFID.186a  ("untitled slip jig")
+079house
+S:DOD
+L:1/8
+M:9/8
+R:slip jig
+Q:300
+K:D
+F|E2B B>AF B>cd|E2B BAF A2F|E2B B>AF B>cd|e>dB BAF A2F|
+E2B B>AF B>cd|E2B BAF A2F|E2B B>AF B>cd|e>dB BAF A2||
+c|d2f fdB Bcd|c2e ecA ABc|d2f fdB Bcd|c>BA BAF A2c|
+d2f fdB Bcf|c2e ecA ABc|a2a aec Bcd|e>dB BAF A2||
+
+%%%
+
+X:160
+T:Saint John's Eve* (j)
+B:NFID.186b ("untitled double jig")
+160saint
+S:DOD
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:D
+c|: d>ef edB|B>AF FEF|B>AF D>FA|d2f edB|
+d>ef e>dB|B>AF FEF|B>AF DEF|1 EDB, DAB/c/:|\
+[2 EDB, DBc/B/||
+A>FA d2e|f>af f>ed|e>fe edB|d>cd e>dB|
+AFA d2e|f>af f>ed|e>dB A>Bd|1 edc dBd/B/:|\
+[2 edc dAB/c/||
+
+%%%
+
+X:51
+T:Flora McDonald's Reel
+B:NFID.187a
+051flora_m
+S:DOD
+L:1/8
+M:C
+R:reel
+Q:360
+K:Em
+E2EF BAFD|E2E^c dAFD|E2EF EFGA|BdAd FDD|
+Eeed eEEF|Eee^c dDDF|Eeed B^cde|faef dDD|
+
+%%%
+
+X:88
+T:John McNeil's Reel
+B:NFID.187b
+088john_mc
+N:Sometimes called "Big John McNeill's"
+S:DOD
+L:1/8
+M:C
+R:reel
+Q:360
+K:A
+A,2CE FECE|AECE FECE|A,2CE FECE|FCEC B,DCB,|
+A,2CE FECE|AECE FECE|B,DCE DFE=G|FA=GB cAAf||
+eAfA e2 (3agf|eAfA eAce|dfca B2cd|eAfA eAcd|
+eAfA e2fg|1 agag fedc|BAGF EDCB,:|2 agag fece|\
+fagb a2a2||
+
+%%%
+
+X:113
+T:Margaret Stuart's Reel
+B:NFID.188a
+113marg_s
+S:DOD
+L:1/8
+M:C
+R:reel
+Q:360
+K:Bm % dor
+f2Bf dBfB|(3f^ga ea cAec|f2Bf dBfB|1 ecac cBBe:|2 a2ec dBB2||
+FBBc dBAc|EA (3AAB cABA|FBBc defb|afec dBBA|
+FB (3BBc dBAc|eAAB cABA|dBdb cBca|ecAB cABe||
+
+%%%
+
+X:89
+T:Jude's Bush (r)
+B:NFID.238b
+089judes
+S:JL
+N:A setting of "Saint Ruth's Bush"
+L:1/8
+M:C
+R:reel
+Q:360
+K:Am
+Bd|eAAB cBcA|GE~E2 E2EG|A^GAB cBcd|eaag egd2|
+eAAB cBcA|GE~E2 E2EG|A^GAB cdge|dBGB A2:|
+Bd|eaag a2ag|eaaa baag|ede^f g2gg|eggg edBd|
+eaag a2ag|eaaa baag|e2e^f gage|dBGB A2:|
+
+%%%
+
+X:99
+T:Kitty Gordon's (r)
+B:NFID.238c
+099kitty_g
+S:PT
+L:1/8
+M:C
+R:reel
+Q:360
+K:D
+DFA=c BGAF|DFAF EDEF|DFA=c BGAF|Agfe d2d2|
+DFA=c BGAF|DFAF EDEF|DFA=c BGAF|Agfe d^cBA||
+d2fd adfd|^cde=c gce^c|d2fd adfd|(3efg fe d^cBA|
+d2fd adfd|^cde=c gce^c|DFA=c BGAF|Agfe d2d2||
+
+%%%
+
+X:110
+T:Low Park (Hare's Paw) (r)
+B:NFID.239a
+110low_p
+S:JMcK
+L:1/8
+M:C
+R:reel
+Q:360
+K:G
+G2BG ABGA|EE (3EDE GEDG|GFGA BABd|(3efg fd edBA|
+G2BG ABGA|EE (3EDE GEDG|(3GFG GA BABd|(3efg fd e3f||
+g2fg edBc|d2dd Bdd2|(3efg fg edBd|(3efg fd e3f|
+g2fg edBc|d2dd Bdd2|(3efg fg edBd|(3efg fd edBA||
+
+%%%
+
+X:111
+T:Make Your Breakfast (r)
+B:NFID.239b
+111make_yb
+S:PT
+L:1/8
+M:C
+R:reel
+Q:360
+K:D=C
+dA~A2 dAFA|deef g2fe|dA~A2 dAFD|[E2G,2]E2 c2BA|
+dA~A2 dAFA|deef g2fe|dA~A2 dAFD|ee2e c2BA:|
+d2fd adfd|d2fd g2fe|d2fd adfd|ee2e c2BA|
+d2fd adfd|d2fd g2fg|afge fdec|[E2G,2]E2 c2BA:|
+
+%%%
+
+X:53
+T:Four Courts (r)
+B:NFID.237a
+053four_c
+S:JMcK
+L:1/8
+N:1:|~D2| replaces |(3DDD| in 1,2,3,5,6, and 7.
+N:2:|BGFG| replaces |BG (3GGG| in mm.3 and 7.
+N:3:Use upper note of the double stop as the melody note.
+M:C
+R:reel
+Q:360
+K:G
+AD~D2 ADBD|AD~D2 G2FG|AD~D2 BGFG|(3Bcd cA G2FG|
+AD~D2 ADBD|AD~D2 G2FG|AD~D2 BGFG|(3Bcd cA  G3||
+F|E2BE dEBE|B3A GAGF|E2BE dEBE|BcBA GAGF|
+E2BE dEBE|BABA GABc|(3ded ^cd dBGA|(3Bcd cA G4||
+A2D2 [G2B2][G2B2]|[F2A2][F2A2] GFED|[A4D4] [G2B2][G2B2]|\
+[G2B2]b2 [GB]BdB|A4B2B2|ABAF GABc|d^cde dBGA|(3Bcd cA G2FG||
+
+%%%
+
+X:77
+T:Highland Man Who Kissed His Grannie (r)
+B:NFID.237b
+077highl_m
+S:PT
+N:This is a version of "Tie the Bonnet" (ONMI #1350). Source
+has the drone note as D, which I'm sure is the way that Turbet
+played it. I personally think it should be E, so in the ABC
+I changed measures 5-7 accordingly. See which version you prefer!
+(And if you don't care about drones, just play A.)
+L:1/8
+M:C
+R:reel
+Q:360
+K:Am
+"A minor"[A2D2] [AD]g ^fdec|[A2D2] [AD]A BAGB|[A2D2] Ag ^fdef|g2gd BGGB|
+[A2E2] [AE]g ^fdec|[A2E2] AA (3cBA GB|[A2E2] Ag ^fdef|g2gd BGGB:|
+eaa^f gfed|^cAeA cAeA|eaaf g^fef|g2gd BGGB|
+eaa^f (3agf ed|^cAeA cAeA|a^fge fdef|g2gd BGGB:|
+
+%%%
+
+X:78
+T:Holly Bush (r)
+B:NFID.238a
+078holly
+S:PT
+Z:Robinson/Black
+N:I added the second ending to Part 2 to avoid ending the tune
+on a triplet |(3EFG)|.
+L:1/8
+M:C
+R:reel
+Q:360
+K:D=C
+(3EFG|:A2FA DAFA|Adde fded|cG (3GGG EGGG|cded cABG|
+(3ABA FA DEFG|Adde fded|cG (3GGG cded|cAGE D2FG:|
+Addc defg|adde dcAB|c2cB cd (3efg|aged cAG2|
+Addc defg|adde dcAB|cG (3GGG cded|1 ^cAGE D2 (3EFG:|\
+[2 ^cAGE HD4|]
+
+%%%
+
+X:039
+T:Drowsy Maggie setting 1 (r)
+B:NFID.235b
+039dr_magg1
+S:PT
+L:1/8
+M:C
+R:reel
+Q:360
+K:Em % dor
+EDBE dEBE|EDB^c dAFD|EDE^c d2ed|^cABc dAFD|
+EDBE dEBE|BAB^c dAFD|EDE^c d2ed|^cABc dAFD||
+dffe dfBf|dffe ^ceAc|dffe dfff|fef^g ae^ce|
+dffe dfBf|dffe ^ceAc|afge fded|BAB^c dAFD||
+
+%%%
+
+X:40
+T:Drowsy Maggie setting 2 (r)
+B:NFID.162a
+040dr_magg2
+S:F&MB
+N:First notes of measures 1,2,3,5,6,7,9,11, and 13 are ornamented
+by rolls. I have omitted most of them here as they tend to clog
+up the playback.
+L:1/8
+M:C
+R:reel
+Q:360
+K:Em % dor
+~E2BE ^cEBE|E2B^c AGFD|E2BE ^cEBA|FAB^c dAFD|
+E2BE ^cEBE|E2B^d AGFD|E2BE ^cEBA|FAB^c dAFA||
+~d2fd d^cBe|(3^cBA eA ceAc|d2fe d^cBd|(3^cde f^g aece|
+d2fe d^cBd|(3^cBA eA cdeg|f2e^c dcBb|^gebg ae^cA||
+
+%%%
+
+X:29
+T:Cregg's Pipes (r)
+B:NFID.169a ("untitled reel")
+029cregg
+S:F&MB
+L:1/8
+M:C
+R:reel
+Q:360
+K:G
+B3d BAGA|B2GB AGED|B2GA BGdG|AdBG AGED|
+B3d BAGA|B2GB AGED|Eeed BcdB|AdBe AGFE||
+%B
+DGBG DGBG|DGBG AGEG|DGBA BABc|dBAd BGG2|
+DGBG DGBG|DGBG AGEG|DGGA BABc|dBAd BGGB||
+%C
+d2Bd efge|dBGB AGED|d2Bd efgb|agbg ageg|
+d3d efge|d2GB AGED|d2Bd efgb|agbg ageg||
+
+%%%
+
+X:005
+T:Billy Rush's Jig
+B:NFID.182a
+005billy_r
+S:DOD
+N:Almost identical to the Jerry O'Brien setting in "Irish Folk
+Dance Music" (in the webABC misc folder)
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:A
+E>FE ECE|F>AA BAB|cec d/f/dB|c>BA BAF|
+E>FE ECE|F>AA BAB|c>ec BAB|1 cAA A3:|2 c>AA A2||
+B|c>ee e>cA|d>cB cBA|B>cB BAB|c>ec dcB|
+c>ee ecA|d>cB cAF|E>FE ECE|1 F>AA A2:|2 F>AA B>AF||
+
+%%%
+
+X:70
+T:Hardiman's Fancy (j)
+B:NFID.182b
+070hard_f
+S:DOD
+N:1:This tune is notated with cut time throughout. I
+have indicated it in the first two measures.
+N:2:De Danann recorded this as "Joe Derrane's"
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:D
+z|B>dB B>AF|A>FE E>FE|DFA def|afe dBA|
+BeG BAF|AFE EFE|DFA def|edB B2:|
+d|efe edB|AFF dFF|def afa|bc'b afa|
+bff afa|baf edB|def afd|edB B2:|
+
+%%%
+
+X:009
+T:Boys of the Town (j)
+B:NFID.229a
+009boys_t
+S:JMcK
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:G
+f|ged B2A|BGE G2A|BdB ABA|GBd e2f|
+ged B2A|BGE G2A|BdB AGA|BGG G2:|
+B|def gfg|eaa eaa|bag e2d|efg efg|
+def gfg|afd efg|edB AGA|BGG G2:|
+
+%%%
+
+X:81
+T:Humors of Glendart (j)
+B:NFID.230a
+081hu_glen
+S:JMcK
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:D
+A|BAF AFD|FEF DFA|BAF AFD|FEE E2A|
+BAF AFD|FEF DFA|dcB AFE|FDD D2:|
+A|def d2B|AFA AFA|def def|ede fBA|
+def d2B|AFA AFA|dcB AFE|FDD D2:|
+
+%%%
+
+X:42
+T:Drunken Piper (r)
+B:NFID.236a
+042drunk_p
+S:JMcK
+N:I have replaced |(3EEE| with |~E2| in mm 1,2,5 and 6, and
+|(3DDD| with |~D2| in mm 3 and 4.
+L:1/8
+M:C
+R:reel
+Q:360
+K:Em
+BE~E2 BEdE|BE~E2 BAFB|AD~D2 ADBD|AD~D2 (3B^cd cd|
+BE~E2 BEdE|BE~E2 BAFE|DEFA B^cdB|AFDE FEE2:|
+e2de feef|afed Bdd2|f2ef d2ef|dBAF EFGB|
+e2de feef|dfaf bfaf|1 gbge fefA|dBAF EFGB:|\
+[2 gbge fgfe|dBAF EFGA||
+
+%%%
+
+X:43
+T:Drunken Reel
+B:NFID.236b
+043drunk_R
+S:PT
+N:I have replaced |(3EEE| with |~E2| in mm 1,2,5 and 6, and
+|(3DDD| with |~D2| in mm 3 and 4.
+L:1/8
+M:C
+R:reel
+Q:360
+K:Em % dor
+GA|BE~E2 BEdE|BE~E2 AGFG|AD~D2 ADFA|AD~D2 ADFA|
+BE~E2 BEdE|BEBB d^cBA|d^cde fgfe|d^cAD E|
+GB|A^cec d2cB|A^cec ddcB|A^cec d2dB|A2FD E|
+
+%%%
+
+X:44
+T:Errigal Braes + (r)
+B:NFID.236c
+044err_b
+S:PT
+N:The source shows measure 4 and 8 as 2/4 (cAGG and A,G,=CE).
+I have added a version with all measures in 4/4 (the effect
+on dancers of a 2/4 measure in a reel can only be imagined).
+[BB]
+L:1/8
+M:C
+R:reel
+Q:360
+K:D
+Addd d2DD|Adeg fdec|BcBA G2AB|[M:2/4] cA GG|
+[M:C]Addd d2dd|Adeg fdec|BcBA G2AB|cAGE FD (3DDD||
+FDAD FD (3DDD|ED=CE FD (3DDD|FDAD ED=CG,|A,G,=CE FD (3DDD|
+FDAD FD (3DDD|ED=CE FD (3DDD|FDAD ED=CG,|[M:2/4] A,G, =CE||
+= = =
+P:all 4/4 version
+[M:C] Addd d2DD|Adeg fdec|BcBA G2AB|c3A cBAG|
+Addd d2dd|Adeg fdec|BcBA G2AB|cAGE FD (3DDD||
+FDAD FD (3DDD|ED=CE FD (3DDD|FDAD ED=CG,|A,G,=CE FD (3DDD|
+FDAD FD (3DDD|ED=CE FD (3DDD|FDAD ED=CG,|A,3B, =C2E2||
+
+%%%
+
+X:020
+T:Carrigmore Road* (j)
+B:NFID.232a  ("untitled jig")
+020carrig
+S:JMcK
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:D
+FE|DB,A, DFA|dcd ecA|B/c/dB AFD|EDE FDB,|
+"5"A3 DFA|dcd ecA|B/c/dB AFA|1 Bdd d:|2 Bdd d2||
+%
+B|"9"AFA dfa|b/a/fb afd|g3 fdf|ede fdB|
+"13"AFA dfa|b/a/fb afd|B/c/dB AFA|1 Bdd d2:|2 Bdd dfe||
+%
+"17"dAF AFE|DFE DFA|dcd ede|fdB BAB/c/|
+"21"dAF AFE|DFE DFA|d2f ede|1 fdd d2A:|2 fdd d2||
+$
+B|"25"AFA dcd|BAB dAF|DEF EDE|FDB, B,A,B,|
+"29"AFA dcd|BAB dAF|DEF EDE|1 FDD D2:|2 FDD D3|]
+
+%%%
+
+X:63
+T:Gortmore Jig*
+B:NFID.232b ("untitled jig")
+S:PT
+Z:Robinson/Black
+063gort
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:A=G
+G|ABA A2B|G2G G2B|ABA ABd|e2d efg|
+ABA A2B|G2G GAB|c2A BAG|A3A2:|
+f|g2e e2f|gfe dBA|g2e e2f|g2a b2a|
+g2e e2f|gfe dcB|c2A BAG|A3A2:|
+
+%%%
+
+X:015
+T:Byrne's Reel
+B:NFID.235a
+015byrnes
+S:JMcK
+L:1/8
+M:C
+R:reel
+Q:360
+K:G
+Bddd edgd|edgd BAA2|Bddd edgd|BGAG EG G2:|
+g2dg agbg|g2dg eaa2|g2dg agbg|edef ggg2|
+g2dg agbg|g2dg eaa2|(3bag (3agf gded|BGAG EGG2:|
+
+%%%
+
+X:003
+T:Ballygawley Jig*
+B:NFID.230c ("untitled jig")
+003ballyg
+S:PT
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:D
+AG|: FAD FAD|fed cAG|EG=C EGC|=cBd cAG|
+FAD FAD|fed cAG|EFG BAG|1 F<AD D2E:|2 F<AD D2||
+g|fed ceA|ceA cBA|fed fed|cec d2e|
+fed ceA|ceA cBA|EFG BAG|1 FAD D2:|2 FAD D3|]
+
+%%%
+
+X:116
+T:McAleer's Jig*
+B:NFID.231a ("untitled jig")
+116mcal
+S:JL
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:D
+f|a2f def|gfg efg|afd def|ecA A2e|
+aff def|gfg efg|agf a/g/fe|d3 d2:|
+A|dAA AAA|BAA FAA|dcd ede|fed def|
+gag fgf|ecA ABA|BAA fAA|Add d2:|
+
+%%%
+
+X:117
+T:McEnespie's Kitchen* (j)
+B:NFID.231b  ("untitled jig")
+117mcen_k
+S:PT
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:D
+D|DFA AFA|BGB A2B|=cEE EFG|AFD D2D|
+DFA AFA|BGB AFA|dcd ecA|d3 d2:|
+g|fdf fdf|ecA A2g|fdf fdf|g3 e2g|
+fdf fdf|ecA AGA|Bcd ecA|d3 d2:|
+
+%%%
+
+X:138
+T:Paddy In London (j)
+B:NFID.231c ("untitled jig")
+138paddy_L
+S:PT
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:Am
+g^f|eAA ^fAA|g^fg age|dBG GFG|BAG Bcd|
+eAA ^fAA|g^fg age|dBd gdB|ABA A:|
+zd|e^fg a2a|aba age|de^f g2g|gba ged|
+e^fg a2a|aba age|dBB gBB|ABA A:|
+
+%%%
+
+X:106
+T:Lass of Killiecrankie Highland
+B:NFID.247b
+106lass_k
+S:JL
+L:1/8
+M:C
+R:hornpipe
+Q:270
+K:A=G
+eAA2 (3Bcd ef|eAA2 Bc [d2D2]|eAA2 (3Bcd ef|gedB A2A2:|
+(3efg aa afef|gage dBe2|(3efg aa afef|gedB A2A2|
+(3efg aa afef|gage dBe2|AA (3Bcd efef|gedB A2A2|]
+
+%%%
+
+X:169
+T:Steeping the Flax* (p)
+B:NFID.247c  ("untitled polka")
+169steep
+S:PT
+L:1/8
+M:C
+R:polka % A-B-A
+Q:450
+K:G
+e/f/|g2B2 d2G2|B2d2 d3B|c2A2 F2A2|e2d2 d2ef|
+g2B2 d2G2|B2d2 d3B|c2A2 F2A2|A2G2G3:|
+B|A2d2 d^cdf|a2f2 f3a|g2e2 edeg|f2d2 d^cdB|
+A2d2 d^cdf|a2f2 f2a2|g3f g2e2|1 d4 d2^c:|2 d4 d2ef||
+
+%%%
+
+X:137
+T:Oul' Jiggy Thing* (j)
+B:NFID.230b  ("untitled jig")
+137oul_jt
+S:JL
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:Am
+AAA G^FG|ABB cBc|dcd e^ff|g^fg edB|
+ABA G^FG|ABB cBc|dcd e^fe|dcB A3:|
+eaa aga|e^fg d^cd|e^fg gfg|bgg a/g/^fe|
+eaa aga|e^fe dcd|e^fg gfg|edB A3:|
+
+%%%
+
+X:156
+T:Right Lock of Fiddlers* (h)
+B:NFID.246b ("untitled hornpipe")
+156right
+S:PT
+L:1/8
+M:C
+R:hornpipe
+Q:300
+K:D
+ag|(3faf de (3faf de|fgaf bagf|(3efe cA eAcA|(3Bcd ef geag|
+(3faf de (3faf de|fgaf bagf|(3efe ce ABcd|e2d2d2:|
+zA|BcdA BcdA|BcdA Bcd2|cdef gf (3efe|defd A2AA|
+BcdA BcdA|BcdA Bcd2|cdef gfec|e2d2d2:|
+
+%%%
+
+X:48
+T:Falcarragh House* (h)
+B:NFID.246c (PT) ("untitled hornpipe")
+048falc_h
+S:PT
+N:I wasn't sure what the source notation was trying to tell
+me about pickup notes and first endings, so I simplified
+things a little.
+L:1/8
+M:C
+R:hornpipe
+Q:300
+K:A
+cB|AcBc Acec|dcBc defg|aecd edcA|=GABc dBG2|
+AcBc Acec|dcBc defg|aecB Aced|c2B2A2:|
+fg|a2ec Acec|dcBc defg|aecd edcA|=GABc dBG2|
+AcBc Acec|dcBc defg|aecB Aced|1 c2B2A2:|2 c2B2 HA4|]
+
+%%%
+
+X:114
+T:Mary Kate Cassidy's* (h)
+B:NFID.247a ("untitled hornpipe")
+114mary_kc
+S:PT
+N:I have a suspicion that the 6th note in measures 2
+and 5 should be a C instead of a D (C fits the harmony
+better). I put C in measure 5 for the MIDI file - see if
+it makes any difference to you.
+L:1/8
+M:C
+R:hornpipe
+Q:300
+K:D
+AG|FDFA dAFA|GEFD A,DEG|FAdf afdf|(3efe (3dcB AGFE|
+FDFA dAFA|GEFD A,CEG|FAdA BGEC|D2 (3DDD D2:|
+dd|cdef gece|dfaf bafa|a<gBg gfAc|(3efe (3dcB AGFE|
+F<DFA dAFA|GEFD A,DEG|FAdA BGEC|D2 (3DDD D2:|
+
+%%%
+
+X:80
+T:Humors of Finntown* (r)
+B:NFID.244a ("untitled reel")
+080hu_finn
+S:JMcK
+L:1/8
+M:C
+R:reel
+Q:360
+K:D
+A3=c BGGB|AFFD EDD2|A3=c BGGB|efec d4|
+A3=c BGGB|AFFD E2D2|A3=c BGGB|efec d2||
+(3ABc|d2fd gdfd|efec dcBA|d2fd gdf2|efec d2 (3ABc|
+d2fd gdf2|efec dcBA|A3=c BGGB|efec d4|]
+
+%%%
+
+X:27
+T:Connie Haughey's* (r)
+B:NFID.244b ("untitled reel")
+027conn_h
+S:PT
+N:First part not repeated in source.
+L:1/8
+M:C
+R:reel
+Q:360
+K:Em
+E2GE BEGE|D2FD ADFD|E2GE BEGA|(3B^cd Ac BEE2:|
+gfef gfeg|fdDd fdDf|g2ef gfed|efga baef|
+gfef gfeg|fdDd fdD2|efga bage|dBA^c BEE2||
+
+%%%
+
+X:014
+T:By the Fort How Sad Was I (march)
+B:NFID.245a
+014by_fort
+S:JMcK
+L:1/8
+M:C
+R:march
+Q:150
+K:D
+A>G|FDFG A2FG|Add<e dcAG|F2F>F F2DE/F/|GFE>E E2A>G|
+FDFG A2FG|Add<e dcAG|F2F>D GE=CE|D2D>D D2||
+zA|d>cde f2 f/a/g/f/|edce d2cA|d>cde fde2|d2d>d d2de|
+f>dcA dcAG|F2F>D GE=CE|D>EFA dcAG|F2D>D HD4|]
+
+%%%
+
+X:61
+T:Glenhead Reel*
+B:NFID.242c ("untitled reel")
+S:JMcK
+Z:Robinson/Black
+061glenh
+L:1/8
+M:C
+R:reel
+Q:360
+K:D
+D2ED ADBA|f2fe dBB2|AF (3FFF DFAF|BFAF EGFE|
+D2ED ADBA|f2fe dBB2|AF (3FFF DFAF|1 EDEF D2 (3A,B,C:|\
+[2 EDEF D3||
+A|defe dfaf|g2bg affe|dBBA FAdd|f2gf efde|
+fgaf g2bg|affe dBB2|AF (3FFF DFAF|1 EDEF D3:|\
+[2 EDEF D2 (3A,B,C||"LAST TIME" EDEF HD4|]
+
+%%%
+
+X:131
+T:Mosey McGinley's Reel*
+B:NFID.243b ("untitled reel")
+131mosey
+S:JMcK
+L:1/8
+M:C
+R:reel
+Q:360
+K:Am
+DEGA BG (3G^FG|AGBG (3ABA GE|DEGA e2ed|BABG A2GE|
+DEGA BG (3G^FG|AGBG (3ABA GE|DEGA e2ed|BABG A2||
+Bd|eA~A2 (3Bcd eg|^fGG^F GABd|eA~A2 B/c/d e/^f/g|\
+dBGB A2Bd|
+eA~A2 (3Bcd eg|^fGG^F GA (3Bcd|eg (3g^fg eaaf|gedB A4|]
+
+%%%
+
+X:145
+T:Parish of Kilcar* (r)
+B:NFID.243c  ("untitled reel")
+145par_k
+S:JMcK
+L:1/8
+M:C
+R:reel
+Q:360
+K:Em
+BE~E2 E2 (3DEF|G2AG FGAc|BE~E2 B2ef|gfed g2fg|
+BE~E2 E2 (3DEF|G2AG FGAc|BE~E2 B2ef|gfed e2||
+ef|gfga bgeg|fefg afdf|gfga bgeg|fedf e3f|
+gfga bgeg|fefg afdf|(3gfg bg fgaf|gfed (3efg fg||
+
+%%%
+
+X:157
+T:Road to Brighton (r)
+B:NFID.240a
+157road_b
+S:JL
+L:1/8
+M:C
+R:reel
+Q:360
+K:G
+dc|BGGG GG (3GGG|DGGG Bcd2|ABAA F2AF|DAFA DAFA|
+BGGG G2 (3GGG|DGGG Bcd2|B^cdf efec|d=cAF G2:|
+GA|Bd (3ddd d2d2|fd (3ddd ad (3ddd|BddB ABAf|gfe^c dcBB|
+Ad (3ddd d2d2|fd (3ddd ad (3ddd|Bddf efe^c|d=cAF G2:|
+
+%%%
+
+X:166
+T:Sleepy Maggie (r)
+B:NFID.240b
+166sleepy
+S:PT
+L:1/8
+M:C
+R:reel
+Q:360
+K:Bm
+B2b2 fBBB|B2af edcA|B2b2 a3f|fef^g aece:|
+dfBf dfBf|ceAe ceAe|dfBf dfBf|faaf edce:|
+fBBA FBBf|fBBA edce|fBBA FBBf|faaf edce:|
+
+%%%
+
+X:167
+T:Sporting Days of Easter (r)
+B:NFID.240c
+167sport
+S:JL
+L:1/8
+M:C
+R:reel
+Q:360
+K:G
+BG~G2 DGGG|Bdef gded|BG~G2 DGGA|BGAG EDD2:|
+g3e fgaf|g2ge fdd2|g2ge fga2|bgaf gfed|
+gage fgaf|g2ge fdd2|g2fg a2ga|bgaf gfed||
+
+%%%
+
+X:180
+T:Turniskey Lasses (r)
+B:NFID.241
+180turn_L
+S:PT
+Z:Robinson/Black
+L:1/8
+M:C
+R:reel
+Q:360
+K:Em
+B2BA G2AG|FADA FADA|B2BA GAB^c|dBA=c BGE2|
+B2BA G2AG|FADA FADA|B2BA GAB^c|dBA=c BGE2:|
+e2ge bege|defg afdf|e2ge bege|BdAc BGE2|
+e2ge bege|defg afdf|gfed egfe|dBAc BGE2:|
+
+%%%
+
+X:109
+T:Loughran's #1* (r)
+B:NFID.242a  ("untitled reel")
+109lough
+S:JL
+L:1/8
+M:C
+R:reel
+Q:360
+K:G
+d^c|BGAF DGG2|ABcA defg|(3agf ge fde^c|d=cAG Add^c|
+BGAF DGG2|ABcA defg|(3agf ge fdAf|1 dcAF G2:|2 dcAF G3||
+B|defg a2fa|gede d^cA2|defg add2|^cdef g2fe|
+defg a2fa|gfde d^cAG|1 FEFG A2BA|dcAF G3:|
+[2 FEFG A2fe|dcAF G2DC||
+
+%%%
+
+X:168
+T:Spud Gathering* (r)
+B:NFID.242b  ("untitled reel")
+168spud
+S:JL
+L:1/8
+M:C
+R:reel
+Q:360
+K:G
+D|G2BG dGBd|cBcd efga|bggg agef|gedB AGED|
+G2BG dGBd|cBcd efga|bggg agef|1 gedc BGG:|2 gedc BGG2||
+bggg agef|gedB AGEG|DB,B,C DEGA|Bdgb age2|
+bggg agef|gedB AGEG|DB,B,C DEGA|1 Bdgd BGG2:|\
+[2 Bdgd BGG "_DC"||
+
+%%%
+
+X:57
+T:Gallagher's March 1 (j)
+B:NFID.085b
+057gall_M1
+S:JD
+L:1/8
+M:6/8
+R:jig % A(16)-B(8 repeated)-A(16)
+Q:320
+K:A=G
+ed|cBA eAA|fed cBA|def gfg|BcB Bed|
+cBA eAA|fed cBA|c2e dB^G|ABA Aed|
+cBA eAA|fed cBA|def gfg|BcB Bcd|
+e3 ef^g|aed cBA|c2e dB^G|ABA A2||
+^g|afa geg|fed cBA|def gfg|BcB B2^g|
+afa geg|fed cBA|c2e dB^G|1 ABA A2:|\
+[2 ABA Aed||
+
+%%%
+
+X:91
+T:Kildare Fancy (h)
+B:NFID.245b
+091kild_f
+S:PT
+L:1/8
+M:C
+R:hornpipe
+Q:300
+K:D
+dB|AFDF AFdB|(3ABA Ad fedc|BAef gefd|edcB A2 dB|
+AFDF AFdB|(3ABA Ad fedc|BAef gefd|ec (3ABc d2:|
+de|fdcd (3Bcd AF|Ddcd fdcd|eA (3AAA fA (3AAA|\
+(3efe (3dcB A2de|
+fdcd (3Bcd AF|Ddcd fdcd|eAfA gAfA|ec (3ABc d2:|
+
+%%%
+
+X:67
+T:Gravel Walks to Gran(n)ie (r)
+B:NFID.161
+067grav_w
+S:F&MB
+Z:Robinson/Black
+N:The first setting of this tune is per the source, i.e. in A mix.
+I've added a second setting in Am (actually A dorian since all F's
+are sharp) which is closer to the current popular setting. [BB]
+L:1/8
+M:C
+R:reel
+Q:360
+K:A=G
+%A
+AAeA BAeA|Aaed BAGB|AAeA BAfa|gedc BAGB|
+AAeA BAeA|Aaed BAGB|AAeA BAfa|gedc BAGB||
+%B
+(3AAA aA gAfA|(3AAA eA BAGB|(3AAA aA gAfa|\
+gedc BAGB|
+(3AAA aA gAfA|(3AAA eA BAGB|ABcd egfa|gedc BAGB:|
+%C
+cA (3AAA AGAB|cA (3AAA BGBd|cA (3AAA A2fa|fage dBGB|
+cA (3AAA AGAB|cA (3AAA BGBd|cA (3AAA A2eg|fage dBGB||
+%D
+(3=ccc =gc acgc|(3=ccc =gc BA=GB|(3=ccc =gc acef|=ged=c BA=GB|
+(3=ccc =gc acgc|(3=ccc =gc BA=GB|AB=cd e=gfa|=ged=c BA=GB:|
+= = =
+P:setting in Am
+K:Am
+%A
+AAeA BAeA|Aaed BAGB|AAeA BA^fa|gedc BAGB|
+AAeA BAeA|Aaed BAGB|AAeA BA^fa|gedc BAGB||
+%B
+(3AAA aA gA^fA|(3AAA eA BAGB|(3AAA aA gA^fa|\
+gedc BAGB|
+(3AAA aA gA^fA|(3AAA eA BAGB|ABcd eg^fa|gedc BAGB:|
+%C
+cA (3AAA A^GAB|cA (3AAA BGBd|cA (3AAA A2^fa|^fage dBGB|
+cA (3AAA A^GAB|cA (3AAA BGBd|cA (3AAA A2eg|^fage dBGB||
+%D
+(3ccc gc acgc|(3ccc gc BAGB|(3ccc gc ace^f|gedc BAGB|
+(3ccc gc acgc|(3ccc gc BAGB|ABcd eg^fa|gedc BAGB:|
+
+%%%
+
+X:011
+T:Brian Boru's March
+B:NFID.175a
+011brian
+S:F&MB
+L:1/8
+M:6/8
+R:jig
+Q:250
+K:A=G
+e2d|: c<AA A>ed|c<AA A>Bc|d>BG BGB|d>BG G>ed|
+c<AA A>ed|c<AA A2B|=cde fdf|1 e>AA A>ed:|2 ecA A2||
+B|cde/f/ g2a|g2a gfg|GAB/=c/ d2B|d2e dBG|
+Bd (3e/f/g/ a3|aba ged|=cde fdf|ecA A2:|
+B|=cBA a3|^cBA [A3a3]|B>AG d>BG|B>AG d>BG|
+=c>BA ab/a/g|aba ged|=cde fdf|ecA Aed||
+
+%%%
+
+X:124
+T:Miss Johnson's (r)
+B:NFID.069b
+124miss_j
+N:This is recognizable as a relative of "Miss
+Johnson" in O'Neill's (ONMI.1376)
+S:JD
+L:1/8
+M:C
+R:reel
+Q:360
+K:D
+AG|:F2FE DFA,F|DFED CDEG|FGFE DCDF|EDEF GBAG|
+F2FE DAA,F|DFED CDFG|AFGE FDED|CDEF GBAG:|
+FGAc BA^GB|AFdF eFdF|FGAc BAGF|GBec dcBG|
+FGAB AGFG|AFdF eFde|fdec dcBA|Bdce dABG|
+FGAB AGFG|AF (3FFF eFdF|FGAc BAGF|GBec dcBG|
+FGAB AGFG|AFdf eFdg|fdec dcBA|^GBec dBAG|]
+
+%%%
+
+X:41
+T:Drowsy Maggie setting 3 (r)
+B:NFID.068a
+041dr_magg3
+S:JD
+N:If you get tired of the single-note triplets, you can
+replace |(3EEE| with |^DE| or |DE| and |(3ddd| with |^cd|
+or |(3d^cd|.
+L:1/8
+M:C
+R:reel
+Q:360
+K:Em
+E2BE ^ceBe|(3EEE BG FADF|E2Bd ^cEBc|dfe^c dAFD|
+(3EEE Bd ^cEBE|E2BG FADF|E2Bd ^ceBc|dfe^c dAFA||
+d2fd d^cBd|^cAea ceAc|(3ddd fd d^cBA|^gbeg ae^cA|
+(3ddd fd d^cBd|^cdef gbag|fge^c dcBA|^GAB^c dAFA|
+d2fd d^cBd|(3^cBA eA ceAc|(3d^cd fd dcBA|^GAB^c dAFA|
+(3ddd fd d^cBd|^cdef gbag|fge^c dcBA|^GAB^c dAFD|]
+
+%%%
+
+X:50
+T:Five Mile Chase (r)
+B:NFID.068b
+050five_m
+S:JD
+N:1:This is closer to "New Mown Meadows" than the "Five
+Mile Chase" (aka "Four Hand Reel") that I know.
+N:2:|~A2| replaces |(3AAA|.
+N:3:I removed the anacrusis |ga| because it seems incorrect.
+L:1/8
+M:C
+R:reel
+Q:360
+K:D
+eA~A2 BGBd|egfd edBg|eA~A2 BGBc|d2ec dBAG|
+eA~A2 BGBd|egfd edBa|g2bg faec|dfec dBAG:|
+fdad BdAd|fafd cdeg|fdad BdAd|dfec dBAG|
+fdad BdAd|fafd cdef|gbag faec|dfec dBAg:|
+
+%%%
+
+X:71
+T:Hare in the Corn (r)
+B:NFID.069a
+071hare_c
+N:1:This is a version of "Curragh Races" that only makes sense if
+it's considered an A minor (dorian mode) tune instead of A major
+N:2:The |g2a| anacrusis makes no sense either since it's going in
+the wrong direction (towards |b| and not down into |e|). I left
+it in but it's probably better to ignore it!
+S:JD
+L:1/8
+M:C
+R:reel
+Q:360
+K:Am
+g2a|: eABA eABA|GBde dBGg|(3e^fe cA eAcA|dBGB Ag^fa|
+(3e^fe cA eAdB|GBde dBGB|c2Ac B2GB|1 dBGB Ag^fg:|2 dBGB A^GAB||
+c2ec gece|(3ccc ec dBGB|c2ec gcec|dBGB A^GAB|
+cde^f (3gag fg|a^fge dBGB|c2Ac B2GB|1 dBGB A^GAB:|\
+[2 dBGB Ag^fa|]
+
+%%%
+
+X:006
+T:Black Haired Lass (r)
+B:NFID.066
+006black_h
+S:JD
+L:1/8
+M:C
+R:reel
+Q:360
+K:A=G
+e2d|: cBAG Acec|Bdgd BGGB|cBAB cdeg|1 dfec Aaed:|2 fded cAAB||
+cdef gfeg|fdfa gfed|cdef gfeg|fded cAAB|
+cdef gfeg|fdfa gfgb|afge fdec|dfec Aaed||
+
+%%%
+
+X:16
+T:Cameronian's Kilt* (r)
+B:NFID.067a (as "Cameronian")
+016camer
+N:This isn't related to the D-major tune of the same name, so I
+renamed it a bit to distinguish it.
+S:JD
+L:1/8
+M:C
+R:reel
+Q:360
+K:G
+dc|: Bdgd BGGB|Ac=fc A=FFc|Bdgd BGGB|(3ABc =Fc AGGc|
+Bdgd BGGB|Ac=fc A=FFc|_B2BA Bd=fd|1 cAF=B AGGc:|2 cAFB AGGA||
+_B2BA B2GA|_BABd cBAB|G^fga gfga|=bgaf defd|
+gagf d^cde|fdc_B A=F (3FEF|Gg^fg dg=bg|fdcA AGGc||
+
+%%%
+
+X:36
+T:Dispute at the Crossroads (Doctor Gilbert's) (r)
+B:NFID.067b (JD)
+036disp_cr
+S:JD
+N:If you get tired of the triplets, you can replace |(3BBB| with
+|^AB| or |AB| and |(3eee| with |^de| or |de|.
+M:C
+R:reel
+Q:360
+K:Em
+gf|eBBe BAB^c|d2AF AFDG|eBBA Bdgb|afdf efgf|
+eBBe BAB^c|d2AF AFDd|Be (3eee Begb|afdf efgf||
+eB (3BBB BAB^c|d2AF AFDg|eB (3BAB Begb|afdf egfg|
+eB (3BBB BAB^c|d2AF AFDd|Be (3eee Begb|afdf efgf|
+eB (3BBB gB (3BBB|defg afdf|g2bg f2af|gefd edBb|
+afdf edB^c|dBAF AFDd|Ge (3eee Begb|1 afdf efg|\
+[2 afdf egfg||
+
+%%%
+
+X:38
+T:Drops of Brandy (sj)
+B:NFID.061b ("untitled slip jig")
+038drops
+S:JD
+L:1/8
+M:9/8
+R:slip jig
+Q:300
+K:A
+fed cBA eAA|fed cBA B=GB|fed cBA eAA|faf =gfg B=GB:|
+Ace aec aec|Ace aec dB=G|Ace aec aec|dcd B=GB dcB:|
+
+%%%
+
+X:76
+T:High Road to Dublin* (sj)
+B:NFID.061b ("untitled slip jig")
+076high_rd
+S:JD
+L:1/8
+M:9/8
+R:slip jig
+Q:300
+K:Em
+G2A Bee ege|GFG BGB AFD|G2A Bee Bee|d^cd A2G FED:|
+d^cd fdf ecA|d^cd fdf gec|d2e f^ga e^cA|B^cd A/B/AG FED:|
+
+%%%
+
+X:007
+T:Black Mare of Fanad (r)
+B:NFID.065
+007black_m
+S:JD
+N:Close relative of "Nine Points of Roguery"
+L:1/8
+M:C
+R:reel
+Q:360
+K:D
+A,|D2FD GFED|AdAF AdAF|D2FA GFED|=cE (3EEE cEEF|
+"5"DEFD GFED|AdAF AdAF|D2FA GFEc|dD (3DDD dDD:|
+B|"9"=c2cA B2BG|A2Ad AGFE|(3DDD FA GFEd|=cE (3EEE ceed|
+"13"=cecA BdBG|Adcd fdAF|(3DED FA GFEc|dD (3DDD dDD:|
+c|"17"d2fa gfec|defg abaf|d2fa gfga|be (3efe beef|
+"21"d2fa gfec|defg abaf|d2fa gfeg|fage fdA:|
+B|"25"=cecA BdBG|Adcd fdAF|D2FA GFEd|=cE (3EEE ceed|
+"29"(3=cdc ca B2BG|A2Ad AGFE|(3DED FA GFEc|d2 (3DDD dDDB|
+"33"=c2cA B2BG|A2Ad AGFE|(3DED FA GFEd|=cE (3EEE ceed|
+"37"=cecA BdBG|Adcd fdAF|(3DED FA GFEc|dD (3DDD dDD||
+
+%%%
+
+X:96
+T:King Of The Pipers 1 (Kilrane) (j)
+B:NFID.057b
+096king_pk
+S:JD
+N:The source shows the sixth measure of the B part in 9/8 time,
+as follows |geg fdg eAG|. On the presumption that this is a
+performer or scribal error, I have removed the first triplet.
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:D
+d|: A2D B2G|ABG FED|A2D B2D|G=cG GFE|
+"5"A2D B2G|ABG FDB,|=CEG =cBA|G=cG GFE:|
+"9"dfa afd|dfd cAG|F2A =cAF|GAG GFE|
+"13"dfa afd|fdg eAG|F2A =cAF|GAG GFE:|
+"17"dfd dfd|dfd cAF|dfd dAF|GFE GFE|
+"21"dfd cec|Bcd AFD|=CEG =cBA|G=cG GFE:|
+"25"dDD cDD|BDD ADD|dDD cDD|G=cG GFE|
+"29"dDD cDD|BDD ADD|=CEG =cBA|G=cG GFE:|
+
+%%%
+
+X:98
+T:Kiss the Maid Behind the Byre (j)
+B:NFID.058b
+098kiss_m
+S:JD
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:Am
+c2B|: ABA AGE|cBc d^cd|e^fe edB|g^fg a2b|
+age c2e|dBG GAB|c2e dcB|1 A3 E3:|2 A3 A2||
+^g|aba ae^f|g^fg efg|aba ae^f|g^fg efg|
+age c2e|dBG GAB|c2e dcB|1 A3 A2:|2 A3 E3|]
+
+%%%
+
+X:152
+T:Policeman's Holiday (j)
+B:NFID.061a
+152pol_h
+S:JD
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:D
+ge|dBG B,DG|Bdd dBG|ecA A,CE|Ace gfe|
+dBG B,DG|Bdd dcB|Ace agd|fed d:|
+ef|gea fdg|ece dBG|GBd gfe|dBG GBd|
+gea fdg|ece dcB|Ace agd|fed d:|
+c=c|B=c^c dbf|agd fe^d|dbf agd|fed bge|
+dbf agd|Bag gdB|Ace agd|fed d:|
+
+%%%
+
+X:22
+T:Cat that Kittled in Jamie's Wig (h)
+B:NFID.079a
+022cat
+S:JD
+N:Version of "Loch Leven" ("Women's Rock" or "Cliff" in other
+collections) - but I like Doherty's name better! (I checked -
+"kittled" means "had kittens")
+L:1/8
+M:C
+R:hornpipe
+Q:240
+K:Am
+cB|: A<A,A,B, CDE^F|GA (3G^FE G2cB|A<A,A,B, CDEd|(3cBA (3BA^G AecB|
+A<A,A,B, CDE^F|GA (3G^FE G2cd|(3edc (3Bcd (3cBc (3e^fg|
+[1 (3ABc (3BA^G ABcB:|2 (3ABc (3BA^G ABcd||
+e<aa^f gfgd|e<aa^f g2 (3Bcd|e<aa^f gfe^d|(3e^fg (3dcB A2cd|
+e<aa^f gfgd|e<aa^f gfga|(3bag (3^fga (3gfg (3Bcd|\
+(3e^fg (3dcB (3cec (3BeB||
+
+%%%
+
+X:45
+T:Ewe With the Crooked Horn (h)
+B:NFID.079b
+045ewe_ch
+S:JD
+L:1/8
+M:C
+R:hornpipe % A-B-A, last measure ending on BGG2
+Q:240
+K:G
+(3DEF|:G2DG B,GDE|=F2CF _BFA^F|G2DG B,GDG|(3Bcd (3cBA B<GGD|
+G2DG B,GDE|(3=FGF A,F CFA,^F|G2DG B,GDG|(3Bcd (3cBA B<GGf||
+gdBd gbag|=fcAc fagf|gdBd gbag|(3=fed cA B<GGf|
+gdBd gbag|=fcAc fagf|g2gg gbag|(3fed cA BGAF||
+
+%%%
+
+X:34
+T:Darby Gallagher's (j)
+B:NFID.057a
+034darb_g
+S:JD
+N:Variant of "East at [Humors of] Glendart" [BB]
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:D
+d2A|: BAF ADD|FEF DFA|BAF AFD|AFE EFA|
+BAF AFE|DFA d2g|fed Bcd|AFD DFA:|
+def d2B|AFA ABc|def def|ede fdB|
+def d2B|AFA AFA|gfe fdB|AFD DFA:|
+
+%%%
+
+X:132
+T:Ned Gallagher's* (r)
+B:NFID.076b  ("untitled reel")
+132ned_g
+S:JD
+L:1/8
+M:C
+R:reel
+Q:360
+K:G
+DGBG dGBG|GF/G/BG cAFA|DGBG dG (3gag|fdcA BGFE|
+DGBG dGBG|GF/G/BG cAFA|DGBG dGBd|ceAc BGAF||
+gfga gbag|fdfg afdf|(3gag fa gbag|fdcA BGAf|
+g2gf gbag|fed^c dfag|bagf gbag|fd (3cBA BGFE||
+
+%%%
+
+X:128
+T:Molloy's* (r)
+B:NFID.077a  ("untitled reel")
+128molloy
+S:JD
+L:1/8
+M:C
+R:reel % A-B-A, ending |GBAG FDD2|
+Q:360
+K:D
+A2Bc|:d2Ad fdAF|GFEF GABc|(3ddd Ad fdAF|GBAG FEDc|
+d2Ad fdAF|GFEF GABc|dcde fdAF|1 GBAG FDDc:|2 GBAG FDDg||
+fgaf bgag|fgaf gbeg|fgag bagf|gbag fddg|
+fgaf bgag|fgaf gfeg|fedc dcBA|^GABc dfec||
+
+%%%
+
+X:140
+T:Paddy Ryan's Dream (r)
+B:NFID.077b ("untitled reel")
+140paddy_r
+S:JD
+N:John Doherty's version of this classic reel.
+L:1/8
+M:C
+R:reel
+Q:360
+K:Am
+ed|cA~A2 cABG|EGDC B,CDB,|CA,B,G, A,B,^CD|EAGB Aced|
+cAGA cABG|EGDC B,CDB,|CA,B,G, A,B,^CD|EAGB A2:|
+^fg|a^gae ceA^f|g^fgd BG^FB|Agae cBAc|BGED CEAg|
+agae ceA^f|g^fgd BGBd|cBcd edcB|Aagb ae:|
+
+%%%
+
+X:142
+T:Paddy's Vision* (r)
+B:NFID.077c ("Paddy Ryan's Dreams?" - otherwise untitled)
+142paddys_v
+S:JD
+N:1:Key signature in source is C (no flats or sharps) but result doesn't
+sound right, so I've changed it to F.
+N:2:Part 2 resembles Part 2 of "Paddy Ryan's Dream" but the first part
+doesn't even come close (for one thing, it's in a major key)
+L:1/8
+M:C
+R:reel
+Q:360
+K:F
+cF (3FFF cFdF|cFEF CFAc|(3BcB GB DGBG|1 DGBd cBAB:|2 DGBd cBAG||
+Fffe fdcA|Fffe fd^ce|dg^fg bgaf|dg^fg bgaf|
+d^cde fdcA|Fffe fde^f|(3gag dg (3gag dg|bgag fafd||
+
+%%%
+
+X:170
+T:Stormy Weather (r)
+B:NFID.075a
+170storm
+S:JD
+L:1/8
+M:C
+R:reel
+Q:360
+K:D
+D2FD DFAF|DGBG FGAc|dcdA Bede|fdgf ecAF|
+D2FE DFAF|(3GGG BG FABc|dcdA BGBd|AGFE (3DED CE|
+D2FD DFAF|DGBG FGAc|dcdA Bede|fdgf ecAG|
+FAEA DFAF|(3GGG BG FABc|dcdA BGBd|AFEF D2||
+ag|fgab agfa|gfef fdBc|dBAF ABde|fagf e^deg|
+[1 fgab agfa|(3gag (3fgf edBc|dBAF AdAF|EDEF D2:|
+[2 fgab agfa|g2ba gfec|dcBA BcdB|AGFE DA,B,C||
+
+%%%
+
+X:146
+T:Passing Ship*  (r)
+B:NFID.075b ("untitled reel")
+146pass
+S:JD
+L:1/8
+M:C
+R:reel
+Q:360
+K:Am
+AG|EAAB c2BA|GBdc BAGD|EAAB cde^f|gedB eAAG|
+EAAB c2BA|GBdc BAGD|EAAB cde^f|gedB eAAg||
+eaag edBd|g2bg edBd|(3ggg bg e^fge|dBgB BAAg|
+eaag edBd|(3ggg bg edBd|gabg e^fge|dBgB cBAG||
+
+%%%
+
+X:155
+T:Reel of Rathlin*  (r)
+B:NFID.076a ("untitled reel")
+155reel_r
+S:JD
+L:1/8
+M:C
+R:reel
+Q:360
+K:A=G
+ed|ceAe cAec|BdGd BGdG|ceAd cBce|1 dBgB Aa:|\
+[2 dBgB BAAB||
+P:2
+cBcd efgf|dcdf edcB|A^gab agfa|gedg e2fg|
+abag fage|dcdf edcB|Aa^ga egfa|gedB Aaed:|
+P:3
+(3cBA eA ceAc|BGdG BdGd|cAeA ceAc|dBgB Aaed|
+(3cBA eA ceAc|BGdG BdGd|cBcd ef^ga|gedB A4|]
+
+%%%
+
+X:125
+T:Miss Patterson's Slipper / Roscommon  (r)
+B:NFID.071
+125miss_pa
+S:JD
+N:Parts C, D & E are actually "Roscommon Reel", which was the
+usual second tune played after "Miss Patterson's" (a/k/a/ "Master
+Crowley's"). The folks notating the tune evidently weren't aware
+that Doherty (following Coleman) was playing two reels and not one.
+L:1/8
+M:C
+R:reel
+Q:360
+K:Em
+E3D|: B,GEG B,GEG|(3FAF DF A,DFD|B,GEG B,EGB|AFdF (3EEE E2|
+B,GEG B,GEG|(3FAF DF A,DFD|B,GEG FGAB|AFdF (3EEE E2:|
+P:B
+ebgb faeg|fd^cd Adf^d|ebgb fae^c|dBAF (3EEE E2|
+ebgb faeg|fcde f^gaf|GAB^c dcdB|AFdF (3EEE ED:|
+P:C
+EFGA BA^GB|AF (3FFF dFAF|EFGA B2dB|1 AFdF (3EEE ED:|\
+[2 AFdF EBfg||
+P:D
+eB (3BBB efge|fa (3a^ga b=gaf|eB (3BBB efge|fagf egfg|
+eB (3BBB efge|fa (3a^ga b=gaf|fagf egfe|dBAF EFGA||
+P:E
+B2BA B^cdB|AD (3FED ADFA|B2BA B^cdB|AF (3FEF E^cdc|
+B2BA B^cdB|AD (3FED ADFA|d^cBA BcdB|AFdF (3EEE E2|]
+
+%%%
+
+X:135
+T:Nine Pint Coggie  (r)
+B:NFID.072a (JD)
+135nine_p
+S:JD
+N:All triplets in this tune are single-note in NF. I
+changed them for playback purposes.
+L:1/8
+M:C
+R:reel
+Q:360
+K:A
+E|A2cA GABc|dcBA GEGB|(3AGA cA Bcdf|ecBd cAAa|
+(3AGA cA GABc|dcBA GEFG|AcEc ABcd|ecdB cAA:|
+a|(3aga Aa fddf|(3bab Bb geeg|(3aga Aa fdfa|ecBd cAAa|
+(3aga Aa fddf|(3bab Bb gefg|agae fdfa|ecdB cAE:|
+
+%%%
+
+X:154
+T:Rakish Paddy  (r)
+B:NFID.072b
+154rak_p
+S:JD
+L:1/8
+M:C
+R:reel % A-B-A
+Q:360
+K:D
+ed|:=cded (3cdc Bd|AdGd ADDd|ddd^c d3e|fdeg fded|
+[1 (3=cdc Bd (3cdc (3BcB|(3ABA Gd ADD2|DEFG Adde|=cAGd ADDB:|
+[2 (3=cdc Bd cGBd|=cAG=F E=CB,C|(3DE=F EG FAdB|=cA (3GFE D3g||
+efgb (3agf g2|gagf eB=ce|d2ad bdad|abag fddf|
+efgb (3agf g2|gagf eB=ce|defg abag|1 fage dcd|2 faec dfed||
+
+%%%
+
+X:165
+T:Skirl of the Pipes* (march)
+B:NFID.088b (untitled)
+165skirl
+S:JD
+L:1/8
+M:C
+R:march
+Q:280
+K:A=G
+ag|e2A2 ABcd|e2ec d2ef|g2B2 d3e|dcBA G2g2|
+e2A2 ABcd|e2ec d2fa|g2B2 edBG|A4A2:|
+%B
+ag|e2d2e2 fg|a2af g2ge|d2FG G2Bc|dcBA G2g2|
+e2d2e2 fg|a2af g2eg|d2B2 edBG|A4 A2ag|
+%C
+e2d2e2 fg|a2af g2ge|d2G2G2 Bc|dcBA G2g2|
+e2A2 ABcd|e2ec d2fa|g2B2 edBG|A4HA2|]
+
+
+%%%
+
+X:188
+T:You're Welcome Home Royal Charlie (march)
+B:NFID.089
+188youre_w
+S:JD
+N:In the NF, the C's in measures 1 and 5 are sharp, as expected
+from the key signature of D (actually A mix). I have flattened them
+because I think they sound better as naturals. You can change them
+back by deleting the = before the note. [BB]
+L:1/8
+M:C
+R:march
+Q:280
+K:A=G
+E2A2 ABcd|e2A2 B2A2|GAGF GABc|d2G2 dBAG|
+E2A2 ABcd|e2f2 g2a2|g2e2 d2B2|1 A4 AGED:|2 A4 A2ag||
+%B
+e2a2a2 ga|b3a g2e2|d2ef g2a2|g2e2d2 cd|
+e2a2a2 ga|b3a g2ed|c2e2 dcBc|1 A4 A2cd:|2 A4 G2AB||
+%C
+c2cB c2c2|cdef g2dc|B2G2 d2G2|BcdB GABG|
+c2cB c2G2|cdef g2fg|a2e2 dcBc|1 A4A2B2:|2 A4 A4||
+
+%%%
+
+X:129
+T:Monaghan Switch (r)
+T:Ladies of Tullybardee
+B:NFID.070
+129mon_s
+S:JD
+L:1/8
+M:C
+R:reel % A-B-C-A, final |FDGE D4|
+Q:360
+K:D
+Bc|:dAAG FDGE|FDGF E2Bc|dAAG FDGE|FDGE D2Dc|
+dAAG FDGE|FDGF E2FG|ABAG FDGE|FDGE D2Bc|
+%B
+dAAG FDGE|FDGF E2Bc|dAAG FDGE|FDGE Dgfe|
+dAAG FDGE|FDGF E2FG|ABAG FDGE|FDGE D2Dd||
+%C
+cA (3AAA cAGE|cABG E2ED|cA (3AAA dAAG|FDGE D2Dd|
+cA (3Bcd cAAB|cBcd efga|fded cABd|1 cAGE D2Dd:|\
+[2 cAGE Dgfe||
+
+%%%
+
+X:112
+T:March of the Meeatoiteen Bull
+B:NFID.087a
+112march
+S:JD
+L:1/8
+M:C
+R:march % A-B-C-B
+Q:280
+K:A=G
+e2|A2BA e2ef|edBd e2g2|G2GB d2e2|dBGB d2e2|
+A2BA e2ef|edBd e2a2|gfed efed|B2A2A2:|
+%B
+e2|a3g e2a2|edef g2a2|G2GB d2de|dBGB d2e2|
+a3g e2a2|edef g2a2|gfed eaed|B2A2A2:|
+%C
+e2|A2AA eA~A2|cAAA e2g2|G2GG dG~G2|BAGB d2e2|
+A2AA eA~A2|cAAA e2a2|gfed eaed|B2A2A2:|
+
+%%%
+
+X:144
+T:Paps of Glencoe (m)
+B:NFID.087b
+144paps
+S:JD
+N:I have changed the pickup measure to Part 2 from the source's
+|e^g| to |ef|, and also changed the last note in measure 4 of Part 2
+from |g| to |f|.
+L:1/8
+M:C
+R:march
+Q:280
+K:A=G
+ec|ABAc e2cd|eada e2cA|BdGB d2Bd|eAce dGBG|
+A2BA e2cd|eada eAcA|1 B2GB e2dB|B2A2A2:|\
+[2 B2GB e2dB|c2A2A2||
+%B
+ef|gaga eAcA|e2df eABA|g2fg dGBd|eAce dGBf|
+gaga eAcA|e2dg eABA|BdGB e2dB|1 c2A2A2:|2 c2A2A4|]
+
+%%%
+
+X:184
+T:Up at Dawn* (march)
+B:NFID.088a  ("untitled march")
+184up_dawn
+S:JD
+L:1/8
+M:C
+R:march
+Q:280
+K:Am
+BG|A2e2e2 dB|d2e^f gea2|A2e2e2 dB|g2ed B2AG|
+A2e2e2 dB|d2e^f gea2|gedB g2ed|B2A2A2:|
+BG|A2a2a2 ge|d2e^f gea2|A2a2a2 ge|dged B2A2|
+A2a2a2 ge|d2e^f gea2|gedB g2ed|B2A2A2:|
+
+%%%
+
+X:013
+T:Bundle and Go (j)
+B:NFID.085a
+013bundle
+S:JD
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:Am
+a|gee edB|g^fg B2a|gee edB|dBG A2a|
+gee edB|g^fg a2b|age edB|1 dBG A2:|2 dBG AB^c||
+d2B d2B|g^fg age|d2B d2B|dBG AB^c|
+d2B d2B|g^fg a2b|1 age edB|dBG AB^c:|\
+[2 age edB|dBG A2a||
+
+%%%
+
+X:64
+T:Grania's Welcome Home part 1 (march)
+B:NFID.086-1
+064gran_wh1
+S:JD
+Z:Robinson/Black
+L:1/8
+M:C
+R:march
+Q:280
+K:A=G
+e3d c2A2|e2A2 Bcd2|e3d c2A2|d2G2 Bcd2|
+e3d c2A2|e2A2B2A2|G2Bd gfge|1 d2G2 Bcd2:|\
+[2 d2G2 Bcdf||
+%B
+ed~c2 agfa|e2A2 Bcd^f|ed (3cBc gfeg|d2G2 Bcdf|
+ed~c2 agfa|gfeg f2ec|d2e^f gfge|1 d2G2 Bcd|\
+[2 d2G2 Bcd2||
+
+%%%
+
+X:65
+T:Grania's Welcome Home part 2 (j)
+B:NFID.086-2
+065gran_wh2
+S:JD
+Z:Robinson/Black
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:A
+eAA cBA|eAA fga|eAA d2e|dB=G Bcd|
+eAA cBA|ed=c B2A|=GBd =gfe|dB=G Bcd:|
+cBA aga|ecA Bcd|cBA =gfg|dB=G Bcd|
+cBA aAA|=gAA f2e|def =gfe|dB=G Bcd:|
+
+%%%
+
+X:66
+T:Grania's Welcome Home part 3 (r)
+B:NFID.086-2
+066gran_wh3
+S:JD
+Z:Robinson/Black
+N:Note extra measure in repeat of Part 2. [BB]
+L:1/8
+M:C
+R:reel % A-B-A
+Q:360
+K:A=G
+A2ed|:cdBc ABcd|eaec eaed|cdBc A2Bc|1 ~d2 dc dfed:|\
+[2 ~d2 dc d2eg||
+fdfa ecAc|e^def ecAg|fdfa ecAc|~d2 dc d2eg|
+[1 fdfa ecAc|e^def ecAg|fdfg aece|dcde (3fga ed:|
+[2 fdfa ecAc|e^def e^gfg|aece fdBA|^GABc dfed|ceBe A2HA,2|]
+
+%%%
+
+X:73
+T:Hawk's Nest* + (h)
+B:NFID.082a  ("untitled highland")
+073hawks_n
+S:JD
+N:Anacrusis is better as a triplet (i.e |(3AB^c| instead of |AB^c|).
+L:1/8
+M:C
+R:hornpipe % A-B-A ending on BGG2 or FDD2
+Q:280
+K:C
+(3AB^c||ded^c defd|(3cdc AF cFA^c|(3ddd d^c dfeg|fdcA AGGc|
+ded^c defd|(3cdc AF cFA^c|ddd^c dfeg|fdcA BGG^f||
+K:G
+g2gf gbag|fgab c'afa|g2gf gbag|(3fed cA BGGf|
+g2gf gbag|fgab c'afa|d'c'bd' c'age|fd (3cBA Ggfg||
+= = =
+P:version in G/D
+K:G
+(3EF^G||ABA^G ABcA|(3GAG EC GCE^G|(3AAA A^G AcBd|cAGE EDDG|
+ABA^G ABcA|(3GAG EC GCE^G|AAA^G AcBd|cAGE FDD^c||
+K:D
+d2dc dfed|cdef gece|d2dc dfed|(3cBA GE FDDc|
+d2dc dfed|cdef gece|agfa gedB|cA (3GFE Ddcd||
+
+
+%%%
+
+X:171
+T:Strathy Point* (h)
+B:NFID.082b ("untitled highland")
+171strath
+S:JD
+L:1/8
+M:C
+R:hornpipe
+Q:280
+K:A=G
+A2eA BAef|g2dg BABG|~A2 eA Beea|gedB Aaga|
+~A2 eA BAef|g2dg BABG|~A2 eA Beea|gedB cAAe||
+a2ea caef|g2Bg dgB^g|a2ea cafa|gedB cAA^g|
+a2ea caef|g2Bg dgB^g|(3agf (3gfe (3fed (3fga|\
+(3gfe (3dcB cAAe||
+
+%%%
+
+X:90
+T:Kilcar Fiddlers* (h)
+B:NFID.083a ("untitled highland")
+090kilc_f
+S:JD
+N:This is an A-B-A tune. My suggested final measures
+for the repeat of the A part: |fdec dBcA|d4-d4||
+L:1/8
+M:C
+R:hornpipe
+Q:280
+K:D
+AG|FADA FADF|ABAG FEED|FGAF G2Dg|fdec dABG|
+FEDF AdAF|GBAG FEED|FGAF G2Dg|fdec defg||
+%B
+(3aba fa dafa|(3gag eg =cge^g|a2fa dafa|gbag fdfg|
+(3aba fa dafa|(3gag eg =cgeg|fage fde^c|1 dABG FDD^g:|\
+[2 dBAG FDDG||
+%C
+FEDF AdAF|GBAG FEED|FGAF D2Dg|fdec dABG|
+FEDF AdAF|GBAG FEED|FGAF D2Dg|fdec dABG ||
+
+%%%
+
+X:002
+T:Atlantic Roar (h)
+B:NFID.083b
+002atl_r
+S:JD
+L:1/8
+M:C
+R:hornpipe
+Q:280
+K:G
+(3DEF|G2GF G2Gf|gefd e^cAG|F2FE F2D2|G2GF GDB,D|
+G2GF G2Gf|gefd e^cAG|F2FE F2DF|AB (3AGF GA:|
+Bc|de (3d^ce d2B=c|(3def ga bgdc|de (3d^ce d2=cB|A2D2A2 FA|
+de (3d^ce d2B=c|(3def ga bgdc|(3BdB GB (3AcA FA|G6:|
+
+%%%
+
+X:174
+T:Teelin Highland 1 (h)
+B:NFID.080c
+174teel_h1
+S:JD
+L:1/8
+M:C
+R:hornpipe
+Q:280
+K:A=G
+A|(3Bcd eg fdeA|(3Bcd ef gfga|(3Bcd eg fdeA|gedB A2A:|
+^g|a2ea fAed|cABA cee^g|a2ea fdea|gedB A2A:|
+
+%%%
+
+X:181
+T:Twenty One Highland + (h)
+B:NFID.081a
+181twenty
+S:JD
+L:1/8
+M:C
+R:hornpipe
+Q:280
+K:Am
+CEA,B, CA,B,C|B,DG,D B,DA,G,|CEA,B, CEC2|1 B,2G,B, A,2A,B,:|\
+[2 B,2G,B, A,DDd||
+c2ec acec|c2ec (3ege (3dBG|c2ec acec|(3ege (3dcB A2AB|
+c2ec acec|c2ec (3ege (3dBG|(3aaa ag (3e^fg (3^fga|\
+(3gag (3^fed (3cBA (3GED||
+= = =
+P:simplified version
+ceAB cABc|BdGd BdAG|ceAB cec2|1 B2GB A2AB:|\
+[2 B2GB Add2||
+c2ec acec|c2ec e2dG|c2ec acec|e2dB A2AB|
+c2ec acec|c2ec e2dG|a2ag eg^fa|g2^fd cAGD||
+
+%%%
+
+X:019
+T:Carndonagh* (h)
+B:NFID.081b  ("untitled highland")
+019carn
+S:JD
+L:1/8
+M:C
+R:hornpipe
+Q:280
+K:D
+B2BG A2AB|defd edBG|B2Bd A2Ag|fa (3efe d2dc|
+B2Bd A2AB|defd edBG|B2Bd A2Ag|faec d2dg||
+faaf gabg|afdf edBg|faaf gabg|afef d2dg|
+faaf gabg|afdf edBG|B2Bd A2Ag|faef d2Dc||
+
+%%%
+
+X:121
+T:Mickey Nugent's* (h)
+B:NFID.081c ("untitled highland")
+121mickey
+S:JD
+L:1/8
+M:C
+R:hornpipe
+Q:280
+K:A=G
+ed|cAAd BGGB|A2AB cded|cA (3ABc dBGB|ce (3dcB A2:|
+AB|cdef gedB|G2GB dGBd|cdef gedg|a2a^g abc'a|
+^geea fddf|edce dBGB|ABcd (3efg af|gedB HA2:|
+
+%%%
+
+X:52
+T:Follow Me Down to Limerick (sj)
+B:NFID.099a
+052foll_me
+S:SD
+L:1/8
+M:9/8
+R:slip jig
+Q:280
+K:G
+cAG GDG G2=F|DGG GFG B/c/dd|cAG GDG G2=F-|1 =FGA =fed cAd:|\
+[2 =FGA =f2d cA^F||
+%B
+GBd gaf g2f|def gbg afd|cde =fge f2d|cde =f2d cAF|
+GBd gaf g2f|def gbg afd|ba^g a=gf g2d|^cde =f2d =cAG||
+%C
+BGB AFA G2A|B2B GBd cBA|=f2f ece d2=F-|1 FGA =f2d cA^G:|\
+[2 FGA =f2d cAd||
+
+%%%
+
+X:75
+T:Heart of Me Kitty + (j)
+B:NFID.099b
+075heart
+S:SD
+Z:Robinson/Black
+N:Source has Part 2 measure 3 as |def g3 gab|. Since a stray
+9/8 measure doesn't seem to fit, I have removed the |def|.
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:Am
+cAA eAA|BAA edc|BGG dGG|g2g dBG|
+cAA eAA|BAA e2^f|g2g dBG|1 cAA A2B:|2 cAA A3:|
+a3 a2b|agb age|g3 gab|c'ag age|
+a3 abc'|c'2c' ba^f|g2g dBG|1 cAA A3:|2 cAA A2B||
+= = =
+P:version in Em
+K:Em
+GEE BEE|FEE BAG|FDD ADD|d2d AFD|
+GEE BEE|FEE B2^c|d2d AFD|1 GEE E2|2 GEE E3:|
+e3 e2f|edf edB|d3 def|ged edB|
+e3 efg|g2g fe^c|d2d AFD|1 GEE E3:|2 GEE E2F||
+
+%%%
+
+X:104
+T:Ladies of Gormond
+B:NFID.080a ("highland")
+104ladies
+S:JD
+N:NF has |(3AAA| where I have |A2|.
+L:1/8
+M:C
+R:hornpipe
+Q:280
+K:A=G
+ec|:A2cA dBeA|A2cA dBGB|A2cA dBec|1 (3fga e<a cAAE:|\
+[2 (3fga e<a cAAg||
+aefd (3fga (3edc|df (3edc d<BBG|aefd (3fga (3edc|df (3edc c<AAg|
+aefd (3fga (3edc|df (3edc d<BBa|A2cA dBec|(3fga e<a cAAE||
+
+%%%
+
+X:173
+T:Tartan on the Heather
+B:NFID.080b ("strathspey")
+173tart
+S:JD
+L:1/8
+M:C
+R:hornpipe
+Q:280
+K:A
+B|AFFA EA,CE|AFFA df (3ecB| AFFA EA,CA|1 df (3ecA GAc:|2 df (3ecA BcA||
+f|ecca fddf|eAce a2gf|ecca fdec|(3dfd (3cec B<EGB|
+ecca fddf|eAce fagb|(3agf (3afe (3fed (3cBA|(3efg (3aga (3fed (3cdB||
+
+%%%
+
+X:101
+T:Kitty in the Lane
+B:NFID.093a ("barndance")
+101kitty_L_bd
+S:JD
+L:1/8
+M:C
+R:hornpipe
+Q:280
+K:G
+dc|: BGBd cBce|dgbg (3ded ^cd|fecA FD^CD|GFGc ed^cd|
+BGBd cBce|dgbg (3ded ^cd|1 fecA FD^CD|GG,B,D G2Ac:|\
+[2 fecA FDEF|GgdB G2d2||
+%B
+[M:3/4] g4gg|f6|e3fg2|d6|B3AG2|B2d2g2|f4e2|e2^d2e2|
+a6|g4 a2|g2f2e2|f6|f2e2^d2|e2g2f2|e4d2|B4d2|
+%C
+g6|f4=f2|e2f2g2|d6|B2A2G2|B2d2g2|f4e2|e2^d2e2|
+a6|g4a2|g2f2e2|f4e2|d2e2f2|g2b2a2|[g6B6]|d4c2||
+%D
+[M:4/4] BGBd cBce|dgbg (3ded ^cd|fecA FDEF|GFGc ed^cd|
+BGBd cBce|dgbg (3ded ^cd|fecA FDEF|1 GgdB G2Ac:|\
+[2 G4 e2f2||
+%E
+gfga gdBg|e^def ecAe|d^cde dBGB|A^GAB AFDf|
+gfga gdBg|e^def ecAe|dBGc EcAF|1 GG,B,D G2Bd:|\
+[2 GG,B,D G2Ac||
+
+%%%
+
+X:47
+T:Fair Donegal* (waltz)
+B:NFID.094 (as "Mazurka")
+047fair_don
+S:JD
+L:1/8
+M:3/4
+R:waltz
+Q:240
+K:A
+EA cd ce|Ac ea ce|df B2 Ba|gf fe e2|
+EA cd ce|Ac ea ce|df Bc BA|GB A2 AE|
+%B
+AB cd cE|Ac ea ec|df B2 ba|gf fe e2|
+EA cd cE|Ac ea ec|df Bc BA|BG A2 AE||
+%C 10m
+Ac e2 ec|(3efg a2 ab|(3agf e2 ea|(3gfe d2 dg|(3fed c2 cB|\
+Ac e2 ec|(3efg a2 ab|(3agf e2 ea|(3gfe d2 cB|cd e2 B2||
+%D 4m
+e^d eB ge|fa fB ^df|e^d eB ge|fa fB ^df|[M:2/4] ef de|
+%E
+[M:6/8]|: cdB AeA|cdB AeA|BcB =GdG|BdB =GdG|
+cdB AeA|cdB AeA|[M:3/4] GA Bc (3dBG|1 HA2 A2 ed:|2 A3A3||
+
+%%%
+
+X:60
+T:Ghost of Bunglass (air)
+B:NFID.091a
+060ghost
+S:JD
+Z:Robinson/Black
+L:1/8
+M:6/8
+R:jig
+Q:220
+K:G
+DEF|: G2G G2D|G2G G2B|d2B g2B|A2G E2D|
+G2G G2D|G2G G2E|D2C B,2A,|1 G,3-G,2D:|2 G,3-G,2f||
+g2a b2g|e2d B2d|g2a b2g|e3 e2g|
+fga d2g|fga d2f|ecA dAF|1 G3-GBd:|2 HG6|]
+
+%%%
+
+X:33
+T:Dancing on the Door* (h)
+B:NFID.091b ("untitled barndance")
+033danc_d
+S:JD
+L:1/8
+M:C
+R:hornpipe % A-B-C-A
+Q:240
+K:D
+F3E|:D2A,2D2F2|A^GAB A=GFE|D2A,2D2F2|E2cB AGFE|
+D2A,2D2F2|A^GAB A2F2|GFEF GABc|d4 d2zg||
+%B
+fefg agfe|fedc dAdf|e^def efgf|eABc defg|
+fefg abag|fgfe dcdf|e^def e=dcB|ABcd efgb|
+%C
+a^gab aAdf|gfga gAcd|fedc Bgec|dDFA d2eg|
+fefg abag|fgfe dcdA|BcdB cdec|d2cB AGFE||
+
+%%%
+
+X:55
+T:Francie Welsh's Barndance
+B:NFID.092a
+055fran_w
+S:JD
+L:1/8
+M:6/8
+R:jig
+Q:260
+K:D
+F2G|: [A3F3] d3|DFA d2f|e^d2 eg2|[B3G3] c2B|
+A2B c2d|eg2 B2c|dfe dcB|A3 F2G|
+%B
+[A3F3] d3|DFA d2f|e^d2 eg2|[B3G3] c2B|
+A2B c2d|eg2 B2c|d3 d3|1 d3z D/F/G/^G/:|2 d3 ^d2f||
+%C
+ecA EAc|e3 a2g|fdA FAd|f3 a3|
+^gbg [f3d3]|efe d3|cac B2c|A3 F2G|
+%D
+[A3F3] d3|DFA d2f|e^d2 eg2|[B3G3] c2B|
+A2B c2d|eg2 B2c|d3 d3|Hd6|]
+
+%%%
+
+X:108
+T:Lillie McEvoy's* (bd)
+B:NFID.110a ("untitled barndance")
+108lill_mc
+S:SD
+L:1/8
+M:6/8
+R:jig
+Q:300
+K:C
+G2e d2c|Gce d2c|A^GA d2f|a3 a2a|
+aba g2e|d2B A2B|1 [c2E2]c dcA|G2F E2|
+[2 cBc e2d|c2e e3||edc G3|edc G2e|fed A3|
+fed A2c|B2A ^G2A|1 B3-B2B|cdc cBA|G3 c2d:|
+[2 B3 [B3G3]|cdc B2d|c3 E2F||
+
+%%%
+
+X:93
+T:King Billy's March
+B:NFID.110b
+093king_b
+S:SD
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:A=G
+(3Bcd|: eAA BAA|eAA Bcd|eAA fed|BGG Bcd|
+eAA BAA|eAA Bcd|faf gfe|1 dBG Bcd:|2 dBG BdB||
+A3 a3|ged e2A|A2A a2B|BAG BdB|
+A2A a2a|gef g2f|gba g2e|dBG BdB:|
+
+%%%
+
+X:001
+T:Ardara Circus* (m)
+B:NFID.110c ("untitled march")
+001ard_c
+S:SD
+N:Source version second ending of part 2 is |A2[A2E2] A/A/A d4|.
+L:1/8
+M:C
+R:march % A-B-A
+Q:300
+K:A=G
+ABcd|:e2dB gedB|e2dB GABc|e2BG dGBc|d2[B2E2] ABcd|
+e2dB gedB|e2dB GABd|e2ed B2A2|1 A2[A2E2] ABcd:|2 A2aa a2a2||
+e2ef gedB|e2ef g2g2|d2BG dGBd|g2fg a2a2|
+e2ef gedB|e2dB GABd|e2ed B2A2|1 A2fg a2a2:|2 A4 A4|]
+
+%%%
+
+X:30
+T:Croagh Lasses* (h)
+B:NFID.108b("untitled highland")
+030croagh
+S:SD
+L:1/8
+M:C
+R:hornpipe
+Q:300
+K:G
+G2GD G2 (3ABc|G2G2 EDEF|G2GD G2AB|cAGE DcBA|
+G2GD G2 (3ABc|G2G2 EDEF|G2GD G2AB|cAGE D2Bc||
+%
+d2dc d2 (3efg|d2d2 BABc|d2dc d2d2|cAGE D2Bc|
+d2dc d2 (3efg|d2d2 (3cBA Bc|d2dc d2cd|cAGE DcBA||
+
+%%%
+
+X:21
+T:Cassidys of Teelin* (h)
+B:NFID.109a ("untitled highland")
+021cass_t
+S:SD
+L:1/8
+M:C
+R:hornpipe
+Q:300
+K:D=C
+A2AG ABcA|G2EC GCEG|A2AG ABcA|BGAG FDD2:|
+defd cAAc|BGBd cAA2|1 defd cAAc|BGAG FDD2:|
+[2 defd cAAA|(3Bcd AG FD (3EFG||
+
+
+%%%
+
+X:158
+T:Robbie's Cottage* (ss)
+B:NFID.109b ("untitled strathspey")
+158rob_c
+S:SD
+N:Note extra measure in second ending of B part.
+L:1/8
+M:C
+R:hornpipe
+Q:270
+K:D
+DEFG A<FD2|B,2ED CA,A,2|DEFG A<FD2|1 E2E2D2D2:|2 E2E<A D2DB||
+A<FFd B<GGB|c<BAa f<ddB|A<FFd B<GGB|
+[1 (3cBA (3cde f<ddB:|[2 (3cBA (3cde (3fed (3cBA|\
+(3EFG (3EFG F<D HD2|]
+
+%%%
+
+X:74
+T:Hay For the Cow* + (barn dance)
+B:NFID.109c ("untitled barndance")
+074hay_c
+S:SD
+L:1/8
+M:C
+R:hornpipe
+Q:270
+K:D
+AFAd f2d2|e^def B3d|c2EF G3A|BAAB A2F2|
+AFAd f2d2|e^def B3d|c2EF GABc|1 d2e2d2FG:|2 d2c2d2||
+%B
+ag|fdad f2f2|e^de^a b2bd'|c'bge c3d|(3efe (3dcB A2a2|
+fdad f2f2|e^de^a b2bd'|c'bge c3d|(3efe dc d2:|
+%
+P:alternate second part
+ag|fdad f2f2|efdc B2Bd|cBGA c3d|e2dB A2a2|
+fdad f2f2|efdc B2Bd|cBGA c3d|(3efe dc d2:|
+
+%%%
+
+X:178
+T:Tinker's Yellow Pony* (r)
+B:NFID.106a ("untitled reel")
+178tink_yp
+S:SD
+N:Variant of "Yellow Tinker"
+L:1/8
+M:C
+R:reel % played A-B-C-D-E-B, with final as |gbag fdcA|G4-G2z2|
+Q:360
+K:G=F
+G|:DG~G2 DEFC|DG~G2 AdcA|DG~G2 DE^FG|1 AFF2 AdcA:|2 AFF2 ABc2||
+%B
+"5"dg~g2 dg^cd|dgg2 gdc2|dG~G2 dGBd|cAFA c2Bc|
+"9"dg~g2 dgA^c|dgg2 ^fdce|g2de ^fgaf|gbag fdcA||
+%C
+"13"B2BG BdB2|BdBG c2Bc|d2BG BGBd|cA^FA c2cA|
+"17"B2BG BdB2|BdBG c2Bc|d^cde f2fd|cFF2 AdcA||
+%D
+"21"G2GE FDFD|G2 (3ABc fdcA|G2GE F2FG|AFF2 AdcA|
+"25"DGG2 DEFC|DGG2 AdcA|DGG2 DEFG|AF (3FEF ABc2||
+%E
+"29"G2GE FDB,D|GAfg ^fdcA|G2GE F2FG|AF (3FEF AdcA|
+"33"G2GE FDB,D|GAfg ^fdcA|G2GE F2FG|AF (3FEF ABc2||
+
+%%%
+
+X:017
+T:Canamine Highland
+B:NFID.107 (SD)
+017canam
+Z:Robinson/Black
+L:1/8
+M:C
+R:hornpipe
+Q:280
+K:A=G
+ed|cAA2 EAAB|cBAB cded|cAAA EAAc|BAGB d2ed|
+"5"cAA2 EAAB|cBAB cded|cAAA EAAc|BAGB d2ed||
+P:A minor
+K:Am
+"9"c2ce g2ge|c2 (3e^fg a2ab|c2ce g2ge|dBGB A2AB|
+"13"c2ce g2ge|c2 (3e^fg a2ga|b2a^f g2e2|dBGB A2AB|
+%
+"17"c2ec gcec|c2 (3e^fg a2aB|c2ec gce2|dBGB A2AB|
+"21"c2ec gcec|c2 (3e^fg a2ab|a^fg^f e2e2|dBGB A4|]
+
+%%%
+
+X:56
+T:Fruit of the Vine* (r)
+B:NFID.104c ("untitled reel")
+056fruit
+S:SD
+N:Note that only Part 2 repeats.
+L:1/8
+M:C
+R:reel
+Q:360
+K:Em
+BAFD E2EE|E2BE FBEB|BAFD E2EG|FD (3DDD ADFA|
+BAFD E2EE|E2BE FBE2|BAFD E2EG|FDD2 ADFA||
+^cdeg faec|d2Ad BEE2|d2eg fae^c|dBAG FDFA|
+^cdeg faec|d2Ad BEEB|agfa gfe^c|dBAF DEFA:|
+
+%%%
+
+X:176
+T:Templehouse (r)
+B:NFID.105a
+176temple
+S:SD
+L:1/8
+M:C
+R:reel
+Q:360
+K:Em
+EFGA BGFE|D2ED ADED|EFGA BEE2|BAFA BEEB:|
+gfef g2eg|fede fgaf|gfef g2ed|BAFA BEEB|
+gfef g2eg|fede fgaf|eeef gfed|BAFA BEEB:|
+
+%%%
+
+X:49
+T:Fiddler Doyle's* (r)
+B:NFID.105b ("untitled reel")
+049fidd_d
+S:SD
+N:Lower note of the double-stop is the melody note.
+L:1/8
+M:C
+R:reel
+Q:360
+K:D=C
+d|A2AG Addc|A2AG ECCE|A2AG Adde|(3fgf ef fdd2|
+A2AG Addc|A2AG ECCE|(3ABA AG Adde|(3fgf ef fdd:|
+e|fd^cd [eA][fB]ce|fd^cd efge|fd^cd [eA][fB]ce|eaag edde|
+fd^cd [eA][fB]ce|fd^cd efge|a2ag efg(3e/f/g/|aged ^cAAG||
+
+%%%
+
+X:84
+T:Irish Highland
+B:NFID.108a
+084irish_h
+S:SD
+N:NFID has only the low A at the end of each phrase.
+L:1/8
+M:C
+R:hornpipe
+Q:280
+K:A=G
+A2AB c2e2|dcBA G2D2|A2AB c2BA|B2e2 [A4A,4]|
+A2AB c2A2|B2BA G2E2|e2ed c2BA|1 B2e2 [A4A,4]:|\
+[2 B2e2 [e4A4]||
+%B
+A3B c2A2|B2BA G2E2|A2AB c2BA|B2e2 [A4A,4]|
+A3B c2A2|B2BA G2E2|e2ed c2BA|B2e2 [A4A,4]|
+%C
+e2ed c2A2|B2BA G2E2|e2ed c2BA|B2e2 [A4A,4]|
+[e3A3]d c2A2|B2BA G2[B,2E2]|e2ed c2BA|B2e2 [A4A,4]||
+
+%%%
+
+X:86
+T:Ivy Leaf (r)
+B:NFID.103b
+086ivy_L
+S:SD
+Z:Robinson/Black
+N:I have replaced single-note triplets as follows: |(3aaa-|
+with |(3aga| on mm 5,7, and 9: |(3ggg-| with |(3gfg| in
+mm 6 and 10.
+L:1/8
+M:C
+R:reel
+Q:360
+K:Am % dor
+A2eA BAe2|^fgfa gedB|A2eA BAeA|1 BAGD EAAE:|2 BAGD EAA2||
+a2 (3aga aba^f|g2 (3gfg gagB|a2 (3aga aba^f|gedB A4|
+a2 (3aga aba^f|g2 (3gfg gage|b2a^f gedg|eaa2 gedB:|
+
+%%%
+
+X:72
+T:Harvest Moon (r)
+B:NFID.103a
+072harv_m
+N:I'm not sure if the |_b| really belongs in
+measure 15 or not - I'm leaning towards "not"
+but I left it in anyway.
+S:SD
+L:1/8
+M:C
+R:reel
+Q:360
+K:G
+DGGE FGAF|GDDE =FDCF|DGGE FGA^c|d2cA G2GF|
+DGGE FGAF|G2GE =FDCF|DGGE FGA^c|d2cA AGGe||
+f2de fcAG|f2de f2ag|f2de fcAe|fgfd c2de|
+f2de fcAe|f2de f3g|a_bag fgef|d2cA AGG2:|
+
+%%%
+
+X:126
+T:Miss Percy's (r)
+B:NFID.104a
+126miss_pe
+S:SD
+Z:Robinson/Black
+L:1/8
+M:C
+R:reel
+Q:360
+K:Am % dor
+ed|:cA~A2 BAeA|BAeA dBGB|eA~A2 Bde^f|g2ge dBGB:|
+c2ec gcec|c2gc dBGB|c2ec gce^f|g2ge dBGB|
+c2ec gcec|c2gc dBGB|Aaag e^fge|dBGB A4|]
+
+%%%
+
+X:107
+T:Last House of (in) Connaght (r)
+B:NFID.104b
+107last_h
+S:SD
+N:This sounds more like the tune usually called
+"Dinny O'Brien's".
+L:1/8
+M:C
+R:reel
+Q:360
+K:D=C
+de|: fd ~d2 dcAB|c2Bd cAGE|D2Ad (3EFG AB|c3e dcAg|
+fd ~d2 dcAB|c2Bd cAGE|D2Ad (3EFG AB|cAGE D2Ag:|
+fd ~d2 defd|ad ~d2 bdad|c2 ~c2 cdef|gc ~c2 acga|
+(3aba ga faec|d2AB cAGE|D2Ad (3EFG AB|cAGE D2Ag:|
+
+%%%
+
+X:83
+T:Idle Road (j)
+B:NFID.100b ("untitled jig")
+083idle
+S:SD
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:G
+E|DBB Dcc|DBB c2e|dBG FGA|BGB AFD|
+DBB Dcc|DBB c2e|dBG FGA|BGG G2:|
+G|GBd efg|fed cAF|G2G g2g|afd cAF|
+DBB Dcc|DBB c2e|dBG FGA|BGG G2:|
+
+%%%
+
+X:69
+T:Hammer the Tin* (j)
+B:NFID.100c ("untitled jig")
+069hamm_t
+S:SD
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:D=C
+A2G|:FED EFG|A2G FED|f2d efd|cAG FED|
+F2D EFG|A2G FED|f2d cAG|1 Add d2g:|2 fad fad||
+faa agf|egc egc|egg gfe|fef gfe|
+aba gfe|fed cAG|1 Add d2g:|2 Add d2c||
+
+%%%
+
+X:123
+T:Minestrone Jig*
+B:NFID.101  ("unidentified jig")
+123mine
+S:SD
+N:1:As far as I can tell, this tune is a combination of three
+other jigs:
+Part A & B = "Shandon Bells"
+Part C = not sure
+Part D = 2nd part of "Kitty Lie Over"
+Part E = 1st part of "Kitty Lie Over"
+N:It looks like this tune is played A-B-C-D-E-D-E!
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:D
+P:part A
+B|AFD DFA|dfd cBA|BEE EDE|B2A Bcd|
+"5"AFD DFA|dfd cBA|Bcd ecA|d3 d2:|
+P:part B
+g|"9"fdd dcd|faa afd|cAA eAA|cAc efg|
+"13"fdd dcd|faa afd|cAA ABc|d3d2:|
+P:part C
+D|"17"DFA BAF|ABd edB|B2B AFD|F<EE-E2E|
+"21"DFA BAF|ABd edB|B2B AFD|ADD D2:|
+P:part D
+g|"25"fdd dcd|fdd d2g|fdd def|gfg e2g|
+"29"f2a e2g|B2A A2F|ABA GFE|FDD D2:|
+P:part E
+B|"33"AFD DFA|BcB BAF|ABA AFD|FEE E2B|
+"37"AFD DFA|BcB BAF|ABA AFE|FDD D2:|
+
+
+%%%
+
+X:82
+T:Humors of Whiskey (sj)
+B:NFID.159a
+082hu_whis
+S:F&MB
+L:1/8
+M:9/8
+R:slip jig
+Q:300
+K:D
+gfe fBB/B/ fBB|gfe fBB/B/ fga|gbe fBB fBB|agf efd cBA:|
+d2e fdf ecA|d2e fdf gfe|d2e fdf efg|agf efd cBA:|
+
+%%%
+
+X:159
+T:Rory O'More (j)
+B:NFID.159c
+159rory
+S:F&MB
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:G
+g2e|:dBG BAG|dBG g2e|dBG BAG|FAA ABc|
+dBG BAG|Bdd edc|Bd^c def|1 gfa gfe:|2 gdB dBd||
+g2e dcB|cBA BGE|DGG FAF|GBd e2f|
+gfe dcB|cBA BGE|1 DGG AGA|BGG GBd:|2 DGG FAF|GBd gfe||
+
+%%%
+
+X:103
+T:Knights of St. Patrick 2 (j)
+B:NFID.100a
+103kn_sp2
+S:SD
+N:NF contains two extra measures in the second part
+which I have rearranged into a first and second ending.
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:D
+A|dff f2f|dAG FED|GBG FAF|E=CE GFE|
+DFA ABc|dfd cBA|f2a gec|dAF D2:|
+^g|:aba fdf|aba agf|g2g ece|gag gfe|
+def gfg|aba gfe|1 dfa gfe|aba gfe:|
+[2 dfa gfe|fge d3|]
+
+%%%
+
+X:182
+T:Two Chimneys* (j)
+B:NFID.152b ("untitled jig")
+182two_c
+S:CC
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:Am
+B|:c2B c2e|d3 d2B|c2B c2e|d2B G2B|
+c2B c2e|d2d ^c2d|1 e2a a2b|a2g e2d:|\
+[2 e2a a2^g|a3 b2a||
+g2e e2d|^c2d e2^f|g2e e2d|^c2A A2B|
+a2e e2d|^c2d e2^d|1 e2a a2^g|a3 b2a:|\
+[2 e2a a2b|a2g e2d||
+
+%%%
+
+X:163
+T:Scotsman Over the Border (j)
+B:NFID.233a  ("untitled jig")
+163scots
+S:PT
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:D
+D2D FDF|AFA dcB|BdB BAB|def edB|
+ADD FDF|AFA dcA|B/c/dB AFA|1 dAF EDC:|\
+[2 dAF EFA||
+%B
+dfa afa|bag f2e|dfa afd|dfd ecA|
+dfa afa|bag f2e|fdA B/c/dB|AFD EFE|
+D2a afa|bag f2e|dfa adf|dfd ecA|
+dfa afa bag f2e|fdB B/c/dB|AFD EDC||
+
+%%%
+
+X:183
+T:Uncle Ned the Rambler* (j)
+B:NFID.233b ("untitled jig")
+183uncle
+S:PT
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:A=G
+A/B/|c2A BAG|EAA EAB|cBc dcd|eaf ged|
+c2A BAG|EAA EAB|ceg dBG|EA^G A2:|
+B|cBc dcd|eaf ged|ef^g a2a|aba ged|
+cBc dcd|eaf ged|ceg dBG|EA^G A2:|
+
+%%%
+
+X:24
+T:Con Cassidy's Reel +
+B:NFID.153a
+024con_c
+N:I have removed the |A/B/=B/c/| anacrusis in part 1 of version 1.
+S:CC
+L:1/8
+M:C
+R:reel
+Q:360
+K:F
+z2|CF (3FEF CFAF|cFdF cFA^c|dgfd cAFA|(3GFG AF GFDB,|
+"5"CF (3FEF CFAF|cFdF cFA^c|dgfd cAFA|1 G^FGA =F2 :|2 G^FGA =F2||
+%
+FG|"9"Abag fgfd|caaa agfa|gagf efed|cggg g^fga|
+"13"a=bag fgfd|caaa agfa|gagf efed|Aage (3fgf e^c|
+%
+"17"dd (3ddd dcA^c|dfeg fef^c|dgfd cAFA|(3G^FG A=F GFDB,|
+"21"CF (3FEF CFAF|cFdF cFA^c|dgfd cAFA|G^FGA =F2||
+= = =
+P:simplified version in G
+K:G
+z2|DG~G2 DGBG|dGeG dGB^d|eage dBGB|(3AGA BG AGEC|
+"5"DG~G2 DGBG|dGeG dGB^d|eage dBGB|1 A^GAB =G2:|2 A^GAB =G2||
+%
+GA|"9"B2ba gage|dbba bagb|abag fgfe|daag a^gab|
+"13"b2ba gage|dbba bagb|abag fgfe|Bbaf g2f^d|
+%
+"17"e2ed edB^d|egfa gfg^d|eage dBGB|A2BG AGEC|
+"21"DG~G2 DGBG|dGeG dGB^d|eage dBGB|A^GAB =G4|]
+= = =
+P:version in D
+K:D
+A,D (3DCD A,DFD|ADBD ADF^A|BedB AFDF|(3EDE FD EDB,G,|
+A,D (3DCD A,DFD|ADBD ADF^A|BedB AFDF|1 E^DEF =D2 F/G/^G/A/:|\
+[2 E^DEF =D2z2|:
+%B
+Fgfe dedB|Afff fedf|efed cdcB|Aeee e^def|
+f^gfe dedB|Afff fedf|efed cdcB|Ffec (3ded c^A|
+%C
+BB (3BBB BAF^A|Bdce dcd^A|BedB AFDF|(3E^DE F=D EDB,G,|
+A,D (3DCD A,DFD|ADBD ADF^A|BedB AFDF|E^DEF =D2z2|]
+
+%%%
+
+X:153
+T:Port Cliffs Reel*
+B:NFID.154  ("untitled reel")
+153port_c
+S:CC?
+N:The last measure of the first part is not shown as a second ending
+in the source. Even with that change, this tune seems a little
+off-balance.
+L:1/8
+M:C
+R:reel
+Q:360
+K:G
+Bdgd BGdG|cBAc BGdG|Bdgd (3efg ec|1 BGAc BGdG:|2 cdef gabg||
+dedB cBAB|cdef gabg|dedB dedc|BGAf gabg|
+dedB cBAB|cdef (3ggg fa|gedg egfa|gedc BGdG||
+
+%%%
+
+X:35
+T:Derrylahan Harbor* (r)
+B:NFID.169b ("untitled reel")
+035derry
+S:F&MB
+N:Source has |d<G (3GGG dGBG| in mm 1,3,5, and 7
+L:1/8
+M:C
+R:reel
+Q:360
+K:G
+DGFG dGBG|dGBG ABcA|DGFG dGBG|cBAG ABcA|
+DGFG dGBG|dGBG ABcA|DGFG dGBG|cBAG ABcd||
+(3efe df eAAG|egdB GBdf|edef gage|dBgB GABd|
+(3efe df eAAf|(3ege dB GBdA|(3Bcd ef gage|dBgB GABd||
+
+%%%
+
+X:46
+T:Fair Day in Carrick* (j)
+B:NFID.151b ("untitled jig")
+045fair_day
+S:CC
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:Am % dor
+cBA BAG|EAA A2B|cBc Adc|BGG G3|
+g^fg age|dcB g2^f|edc Bcd|1 e^cA ^fed:|2 e^cA A2||
+^g/a/|: ae^c ae^c|A^GB A2^f|gdB gdB|G^FA GAB|
+=cBc d^cd|e^de a2g|edc Bcd|1 e^cA A2^g:|2 e^cA ^fed||
+
+%%%
+
+X:25
+T:Con's Basket of Turf* (j)
+B:NFID.152a ("untitled jig")
+025cons_bt
+S:CC
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:Am
+G|Aee edc|BGB dBG|Aee e^fg|dBG A2G|
+Aee edc|BGB dBG|c2d e^fg|dBG A2:|
+G|Aaa a^ga|ba^f gde|eaa a^ga|ba^f g2d|
+eaa a^ga|ba^f geB|c2d e^fg|dBG A2:|
+
+%%%
+
+X:100
+T:Kitty in the Lane (r)
+B:NFID.153b
+100kitty_L
+S:CC
+N:NF version has |d/e/d/c/ df edcA| as first measure.
+L:1/8
+M:C
+R:reel
+Q:360
+K:A
+d2df edcA|fB~B2 fecA|de (3fga edca|eAAa eAAe|
+d2fa eAce|fB~B2 fecA|de (3fga edca|eAAa eAAe||
+(3aba ga fbea|fB~B2 fece|(3aba ga fbaf|1 eAAa eAce:|\
+[2 e^dea (3fga ec||
+
+%%%
+
+X:136
+T:On the Road (r)
+B:NFID.167
+136on_road
+S:F&MB
+L:1/8
+M:C
+R:reel % played A-B-C-D-E-A, suggested final measures
+|EdcA GEFG|A4z4|
+Q:360
+K:D
+%A
+FDDE FDGE|FDDF ABAG|FDDE FDGF|EdcA GBAG|
+FDDE FDGE|FDDF ABAG|FDDE FDGF|EdcA GEFG||
+%B
+Addd ABAF|Ad (3dcd A2FG|Ad (3dcd A2FG|EdcA GEFG|
+Ad (3dcd ABAF|Ad (3dcd A2Bc|defd AFED|1 EdcA GEFG:|\
+[2 EdcA GBeg||
+%C
+fd (3dcd fdge|fdfg afge|fd (3dcd fdef|g2bg ebge|
+fd (3dcd fdge|fdfg afge|fd (3dcd fdgf|Edcd efge||
+%D
+fbec dBAF|Ad (3dcd edBc|defd AFED|EdcA G2eg|
+fbec dBAF|Ad (3dcd edBc|defd AFED|EdcA GABc||
+%E
+dD (3DDD AD (3DDD|dD (3DDD ADBc|dD (3DDD ADED|EdcA GABc|
+dD (3DDD AD (3DDD|dD (3DDD A2Bc|defd AF (3FED|1 EdcA GABc:|\
+[2 edcA GBAG|]
+
+%%%
+
+X:162
+T:Scotch Mary (r)
+B:NFID.168a
+162scotch_m
+S:F&MB
+L:1/8
+M:C
+R:reel
+Q:360
+K:Am
+%A
+cE (3EDE cded|cE (3EDE G2AB|cE (3EDE cded|c2AG EAAB|
+cE (3EDE cded|cE (3EDE G2AB|c2cd ebed|(3cdc AG EAAd||
+%B
+eaag edBd|eg^fa g2gd|eaag edBd|(3cdc AG EAAd|
+eaag edBd|eg^fa g2fg|(3ag^f (3gfe fded|(3cdc AG EAAB||
+%C
+cded ^cded|=cAG^F G2Bd|cded ^cded|(3cdc AG EAAB|
+cded ^cded|=cAG^F G2Bd|cdea ^fbed|(3cdc AG EAAd||
+
+%%%
+
+X:179
+T:Toss the Feathers (r)
+B:NFID.168b
+179toss
+S:F&MB
+N:Note that NF shows twelve measures in second part. I have
+added a version where the second part consists of four bars plus
+two four-bar endings - in other words, same amount of measures
+arranged a little differently. [BB]
+L:1/8
+M:C
+R:reel % A-B-A
+Q:360
+K:Em
+%A
+D|EBB2 EBEB|EeBA FADF|EBB2 EBEB|eAge dBAF|
+(3EEE BE (3EEE BE|EeBA FADF|(3EEE BE (3EEE BE|eage edBd||
+%B
+Bdef gfge|fede feef|gebe gebe|fede fbef|
+gb (3bbb fa (3aaa|efge dBAF|gfed efge|fede feef||
+gebe gebe|fede feef|gb (3bbb fa (3aaa|efge dBAF|]
+%%%
+P:version with amended second part
+EBB2 EBEB|EeBA FADF|EBB2 EBEB|eAge dBAF|
+(3EEE BE (3EEE BE|EeBA FADF|(3EEE BE (3EEE BE|eage edBd||
+%B
+Bdef gfge|fede feef|gebe gebe|fede fbef|
+[1 gb (3bbb fa (3aaa|efge dBAF|gfed efge|fede fee|
+[2 gebe gebe|fede feef|gb (3bbb fa (3aaa|efge dBAF|]
+
+%%%
+
+X:127
+T:Moll an Tiarna (r)
+B:NFID.165
+127moll_t
+S:F&MB
+N:1:Parts of this tune remind me "An Deontanach" (The Volunteer).
+N:2:This is played A-B-C-D-E-B (with B repeating and ending on
+|GG2G G4| instead of the second ending.)
+L:1/8
+M:C
+R:reel
+Q:360
+K:C
+%A
+Gccd ecBc|d2ec dcAc|G2cd ecfe|AA2A AGED|
+Gccd ecBc|d2ec dcAg|^fafd =fdec|G2 (3G^FG G=FEF||
+P:B
+Gccd e2ce|d2Bd c2cd|ecfd ecfe|1 AA2A AGE^|\
+[2 GG2G G2e^f||
+P:C
+gbge ^fafd|egdB cBcd|egfd ecdc|AA2^G A2e^f|
+g2 f2 e4|dd2B cBcd|egfd ecdB|GG2^F G2e=f|
+P:D
+gage ^fafd|egdB cBcd|egfd ecdc|AA2^G A2e^f|
+gage ^fafd|egdB cBcd|egfd ecdB|GG2^F G=FEF||
+P:E
+Gccd e3c|d3B c3d|egfd ecdc|AA2A AGE^F|
+Gccd e2ce|d2Bd c2cd|ecfd ecdB|GG2^F G4||
+
+%%%
+
+X:130
+T:Morning Dew (r)
+B:NFID.166
+130morn_d
+S:F&MB
+L:1/8
+M:C
+R:reel
+Q:360
+K:Em
+P:part A
+d^c|B2EB FBed|B2GB ADFA|B2EB FBEA|dedB ADFA|
+B2EB FBed|B2GB ADFA|B2EB FBEA|dedB AGFD||
+P:part B
+EBEB BAFA|EBEe ADFA|EBEB BAFA|dfdB ADFA|
+EBEB BAFA|EBEe ADFA|EBEB BAFA|dfdB AGFA||
+P:part C
+B2eB fBeB|B2eB ADFA|(3BBB eB fBeB|dedB ADFA|
+B2eB fBed|B2eB ADFA|(3B^cd ea fbec|B^cdB ADFA||
+P:part D
+BAGF EFGA|BEE2 BAFA|BAGF EFGE|FB, (3B,B,B, FB,GB,|
+BAGF EFGA|BEE2 BAFA|(3B^cd ea fbec|B^cdB ADFA||
+= = =
+P:variation A6-8
+EBGB AGFD|BAGF EFGA|BABd ADFA|
+P:variation B7
+[B3E3]e BAFA|
+
+%%%
+
+X:62
+T:Glory Reel
+B:NFID.162b
+062glory
+S:F&MB
+Z:Robinson/Black
+N:C sharps as per source. [BB]
+L:1/8
+M:C
+R:reel
+Q:360
+K:G
+G2BG dGBG|G2BG AFDF|GBBG dGBG|(3ccc Bc AFD|
+E2B2B2 ^cA|BGEG AFDF|[B4E4] [B2E2] ^cA|Bd^cB AFDF|
+[B4E4] [B2E2] ^cA|BGEG AFDF|[B4E4] [B2E2] ^cA|Bd^cB AFDf||
+gagf edef|g2fg e^cAF|gagf e2af|gefd e^cA|
+
+%%%
+
+X:92
+T:Kiltyfanad Reel
+B:NFID.163
+092kiltyf
+S:F&MB
+Z:Robinson/Black
+N:Very similar to "Nine Points of Roguery"
+L:1/8
+M:C
+R:reel
+Q:360
+K:D
+DEFD GEFE|Dd (3ddd ABAF|DEFD GFEG|=cedB cGE=C|
+DEFD GEFE|Ddcd ABAF|DE (3FED GFEd|cABc dADB||
+%B
+[=c4E4] [B4G4]|A2BG AGFE|DEFD GFEG|=cedB cGEG|
+=cBAc BAGB|Ad^cd fcAF|DE (3FED GFEd|cABc dADB|
+=cedB cGEG|A=cBe AGFE|DE (3FED GFEG|=cedB cGEG|
+=cBAc BAGB|Ad^cd fdAF|DEFD GFEd|cABc dADB||
+%C
+d2fa gefd|defg abaf|defa gfga|be (3ede bgec|
+d2fa gefc|defg abaf|dgfa gfeg|f2ge fdAG||
+%D
+(3GGG eG (3FFF dF|EDEG FEDd|(3Bcd ef gfea|fage fdAG-|
+(3GGG eG (3FFF dF|EDEG FDEC "_DC"||"LAST TIME" EDCE D4||
+
+%%%
+
+X:115
+T:Mary o' the Wisp (r)
+B:NFID.164
+115mary_w
+S:F&MB
+L:1/8
+M:C
+R:reel
+Q:360
+K:D
+dB|:Add2 ecdB|Addc dedB|Acde fdeg|fbge fdB^G|
+Add2 ecdB|Addc dedB|Acde fbed|cA~A2 cA~A2:|
+fAge fdge|fdge fdB2|fage fefg|aA~A2 aA~A2|
+fAge fdge|fbge fefg|abaf egfd|cA~A2 cA~A2:|
+
+%%%
+
+X:149
+T:Pipe March
+B:NFID.178
+149pipe_m
+S:F&MB
+L:1/8
+M:4/4
+R:march
+Q:280
+K:A=G
+%A
+A3c B2GB|A2D2 D3B|AGFE DEFG|A4-AGFG|
+A3c (3BcB GB|A2D2 A4|GFED CDEF|G4 F2G2|
+A3c B2GB|A2D2 D3B|AGFE DEFG|A4-AGFG|
+A2d2 (3cdc Ac|(3BdB G2A4|GFED CDEF|G4 F2E2||
+%B
+D2d2F2d2|A2D2D4|D2d2 DEFG|A3B AGFE|
+D2d2F2d2|A2D2A4|GFED CDEF|G4 F2 (3EGE|
+D2d2F2d2|(3AdA D2D2-D2-|D3A DEFG|A6 Bc|
+dcbd cBAc|B2G2A4|GFED CDEF|G4 F2 (3EGE||
+%C
+D3E F2D2|A2D2F2D2|A3B AFDF|A2B2 AGFE|
+D3E F2D2|A2D2F2D2|G3E GECE|G2A2 GECE|
+D3E F2D2|A2D2F2D2|A3B AFDF|A4 B3c|
+dcBd cBAc|B2G2A4|GFED CDEF|G4F2E2||"FINAL" [D8D,8]|
+
+%%%
+
+X:23
+T:Clear Into Morning* (sj)
+B:NFID.160b ("untitled slip jig")
+023clear
+S:F&MB
+L:1/8
+M:9/8
+R:slip jig
+Q:300
+K:G
+BdB BAB g3|BdB BAB dcA|BdB BAB g3|gfe fed ecA:|
+afd def g2b|afd dfa gfe|afd def g2a|gfe fed ecA:|
+
+%%%
+
+X:148
+T:Penny Dancing* (sj)
+B:NFID.160c  ("untitled slip jig")
+148penny
+S:F&MB
+L:1/8
+M:9/8
+R:slip jig
+Q:300
+K:G
+AAG FEF G2B|A2G E2G cAG|AAG FEF G2A|deg fed cAG:|
+A>dd d^cd f3|Ade ded cAG|A>dd d^cd f2g|agf ged ^cAG:|
+
+%%%
+
+X:97
+T:King William's Rambles (j)
+B:NFID.176
+097king_w
+S:F&MB
+N:In the "Langstrom's Pony"/"Mooncoin" family. The source has a
+9/8 measure (ecA-AcA-Af=g) after measure 5 in the F part.
+L:1/8 % dotted rhythm in part 7
+M:6/8
+R:jig
+Q:320
+K:A=G
+ecA cBA|ecA Bcd|ecA c2e|dBG Bcd|
+ecA cBA|eAA BAB|GBd gfe|dBG Bcd:|
+P:2
+ecA a2a|ecA Bcd|ecA gfg|dBG Bcd|
+ecA a2a|gba gef|gba gfe|dBG Bcd:|
+P:3
+eAA fAA|eAA Bcd|eAA fAe|dBG Bcd|
+eAA fAA|eAA BAB|GBd gfe|dBG Bcd:|
+P:4
+eAA a2A|eAA Bcd|eAA gAe|dBG Bcd|
+eAA aAA|gAA faf|dfa gfe|dBG Bcd:|
+P:5
+fed cBA|ecA Bcd|fed cBA|dBG Bcd|
+fed cBA|cBA BAB|GBd gfe|dBG Bcd:|
+P:6
+gaf g2f|ecA Bcd|gaf g2e|dBG Bcd|
+gaf g2f|ecA Afg|agf gfe|dBG Bcd:|
+P:7
+cee cee|cee Bcd|cee c/e/-e2|dBG Bcd|
+cee cee|cee BAB|GBd gfe|1 dBG Bcd:|\
+[2 dBG BdB|A6|]
+
+%%%
+
+X:95
+T:King Of The Pipers (j)
+B:NFID.177a
+095king_p
+S:F&MB
+N:According to NFID, this tune is played with a return to
+Part B from part F. My suggestion for a final measure in
+Part B is |GAG G3|.
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:G
+A2F B2F|A2G FED|A2F B2F|G>AG GFE|
+A2F B2F|A2G FED|G2B cAF|G>AG GFE:|
+%B
+d>fg age|d^cd ecA|G>AB cAF|G>AG GFE|
+d>fg afa|geg fdA|G>AB cAF|G>AG GFE:|
+%C
+d2e d3|ded ^cBA|d2e d2A|GFG AFD|
+d2e d3|ded ^cBA|G>AB cAF|G>AG GFE:|
+%D
+def def|def e^cA|def def|G>AG GFE|
+def def|def e^cA|G>AB cAF|G>AG GFE:|
+%E
+D3D3|D3 ABc|D3D3|G>AG GFE|
+D3D3|D3D3|G>AB cAF|G>AG GFE:|
+%F
+[e3A3][f3B3]|BAG FED|[e3A3][f3B3]|G>AG GFE|
+[e3A3][f3B3]|BAG FED|G2B cAF|G>AG GFE:|
+
+%%%
+
+X:177
+T:Tin Fiddle* (h)
+B:NFID.174a ("untitled highland")
+177tin_f
+S:?
+L:1/8
+M:C
+R:hornpipe
+Q:300
+K:G
+DGGF DGGE|=F2cF dFcF|DGGG DGGg|fdcA BdAF|
+DGGF DGG=F|E=FcF dFcF|DGGF DGGg|fdcA BGBd||
+g2bg dgbg|faag bgaf|g2bg dgbg|agfa gfga|
+bgag f<deg|fdcA BGBd|g2gf (3gab ag|fdcA BGAF||
+
+%%%
+
+X:28
+T:Contented Mind* (h)
+B:NFID.174b ("untitled highland")
+028cont_m
+S:?
+L:1/8
+M:C
+R:hornpipe
+Q:280
+K:Em
+GA|B<EBA B<EBA|B<dFA DEFA|B<EBA B<EBA|(3B^cd (3FGA B<E:|
+Ba|gfef g<ebe|fede f<dad|gfef g<ebe|fede feef|
+gbeb gbag|fded fgaf|(3gbg (3fbf (3efe (3dBA|(3B^cd (3FGA B<E||
+
+
+%%%
+
+X:58
+T:Gallagher's March 2 (j)
+B:NFID.175b
+058gall_M2
+S:F&MB
+L:1/8
+M:6/8
+R:jig
+Q:280
+K:A=G
+e2d|:cBA ecA|fed cBA|dfa gfg|BdB Bed|
+cBA ecA|fdf ecA|c2e dBe|ABA A2d:|
+agf g2e|fdf ecA|dfa gfg|BcB B2^g|
+agf g2e|fdf ecA|cec dBe|AeA A2d:|
+
+%%%
+
+X:68
+T:Gusty's Frolics (sj)
+B:NFID.058a
+068gusty_f
+S:?
+L:1/8
+M:9/8
+R:slip jig
+Q:280
+K:D
+A,DD A,DD FEF|A,DD DFA GE=C|A,DD DCD FDF|GAG E=CE GE^C|
+A,DD DCD FEF|A,DD DFA GE=C|A,DD DCD FEF|GAG E=CE GFE||
+%B
+FDF ABG A2G|FDF ABc dAG|FDF ABG A2F|GFG E=CE GFE|
+FDF ABG A2G|FDF ABc dAG|FED dcB A2F|GFG E=CE GFE||
+%C
+Add Add fdf|Add dfa gec|Add Add fdf|gag ece gec|
+Add Add fdf|Add dfa gec|Add dcd fdf|gag ece gfe||
+%D
+dfd cec d2B|AFD DED AFD|GBd d=cB cBc|1 GEB, =CEF GED:|\
+[2 GEB, =CEF GE^C||
+
+%%%
+
+X:102
+T:Knights of St. Patrick 1 (j)
+B:NFID.059
+102kn_sp1
+S:?
+L:1/8
+M:6/8
+R:jig % A-B-A, final m.16 |A,CE D3|
+Q:320
+K:D
+(3ABc|def gfe|dcd AFD|GBG FAF|A,CE GFE|
+"5"dcd faf|dcd AFD|GBc dAF|A,CE D2c|
+"9"def gfe|dcd AFD|GBG FAF|E2F GFE|
+"13"dcd faf|dcd AFD|GBc dAF|A,CE D2||
+^g|"17"a^ga fdf|Adf agf|gfg e^de|Ace gfe|
+"21"fef gfg|a^ga ba=g|fed cBA|1 dAF D2:|\
+2 dAF DFA||
+
+%%%
+
+X:143
+T:Paidin O'Rafferty (j)
+B:NFID.060
+143paidin
+S:?
+L:1/8
+M:6/8
+R:jig
+Q:320
+K:A
+EAc EAd|EAc BAF|EAc EAd|AGB AFD|
+"5"EAc EAd|EAc efg|aec BAG|AcB AFE:|
+P:2
+"9"e^de fga|eae ecA|e^de fga|AcB AFE|
+"13"e^de fga|eae efg|1 aec B2G|AcB AFE:|
+[2 aec BAG|ABA ABc||
+P:3
+"17"dAF E2F|ABc BAB|cAF E2F|ABA AFE|
+"21"cAF E2F|ABc dcd|fed c2B|AcB AFE|
+"25"cAF E2F|ABc dfd|cAF E2F|ABA AFE|
+"29"cAF E2F|ABc dcd|fed cdB|AcB AFE||
+P:4
+"33"Ace Adf|Ace cBc|Ace Adf|AcB AFE|
+"37"Ace Adf|Ace agf|eac BAG|1 AcB AFE:|2 ABA ABc||
+P:5
+"41"dAF E2F|ABc BAB|cAF E2F|ABA AFE|
+"45"cAF E2F|ABc dcd|fed c2B|AcB AFE|
+"49"cAF E2F|ABc dfd|cAF E2F|ABA AFE|
+"53"cAF E2F|ABc dcd|fed c2B|AcB AFD||
+

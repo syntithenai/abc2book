@@ -1,0 +1,28 @@
+X: 10922
+T: COTILLION No. 12. tune 2
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.92 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c2 |\
+c2de f2g2 | a4 fgfe | d2ef B2d2 | cdcB A2c2 |\
+c3d/e/ f2g2 | a4 (fedc) | (d2ef) (e2fg) | f6 H:|
+|: (ef) |\
+g2ag d2e2 | g2ed c2c2 | d2c2c2c2 | cdcB A3(e/f/) |\
+g2ag d2e2 | f2ed .c2(de) | f2ga g2=B2 | "D.C."c6 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance partners and turn,
+%% next 2 forward, &c.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

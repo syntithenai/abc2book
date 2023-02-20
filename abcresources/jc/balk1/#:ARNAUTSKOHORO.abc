@@ -1,0 +1,28 @@
+X: 23
+T: Arnautsko Horo
+O: Macedonia
+F: http://www.youtube.com/watch?v=ICWAU0HbBrQ
+M: 2/4
+L: 1/8
+K: Bb octave=-1
+V:1
+%%MIDI program 42 cello
+Q: 1/4=120
+  dedc   |c3F    |GABc   |cBAc   |BAAF         |G3F          |GABc         |
+  dedc   |c3F    |GABc   |cBAc   |BcAF         |G4-          |G4           |
+  F2GA   |B4     |BcdB   |c2B2   |A2cA         |BcAB         |G4           |
+  F2GA   |B4     |BcdB   |c2B2   |A2cA         |B4-          |B4           |
+|:c2c2   |c2de   |fedc   |c2A2   |BcAB         |G4           |d4           |
+  c3B    |AGF2   |B3A    |c2AB   |G4-          |G4           :|
+V:3 name=drum clef=perc stafflines=4
+K: none
+L:1/16
+%%MIDI channel 10
+%%MIDI drummap ^A 35 % Acoustic Bass Drum
+%%MIDI drummap ^c 47 % Low-Mid Tom
+  ^A4^A4 |^A6^c2 |^A4^A4 |^A6^c2 |^A4^A4       |^A6^c2       |^A2^c2^A2^c2 |
+  ^A6^c2 |^A4^A4 |^A6^c2 |^A4^A4 |^A2^c2^A2^c2 |^A4z4        |z8           |
+  ^A4^A4 |^A6^c2 |^A4^A4 |^A4^A4 |^A4^A4       |^A2^c2^A2^c2 |^A4z4        |
+  ^A4z4  |^A6^c2 |^A4^A4 |^A4^A4 |^A4^A4       |^A4z4        |z8           |
+|:^A4^A4 |^A6^c2 |^A4^A4 |^A4^A4 |^A2^c2^A2^c2 |^A4z4        |^A4z4        |
+  ^A4^A4 |^A4^A4 |^A4^A4 |^A4^A4 |^A4z4        |z8           :|

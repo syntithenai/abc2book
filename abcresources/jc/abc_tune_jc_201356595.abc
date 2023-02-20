@@ -1,0 +1,122 @@
+%!abctab2ps -s 0.8 -k 0
+X:1
+%
+%%titleleft
+%%historicstyle
+%%squarebrevis
+%%sysstaffsep    20.0pt
+%%systemsep      55.0pt
+%%topmargin      2.50cm
+%%topspace       -0.40cm
+%%composerspace  -12pt
+%
+T:Adieu mes amours
+C:Josquin des Prez
+B:Odhecaton A
+M:2/1 display=C|
+L:1/2
+K:GDorian
+%
+V:C bracket=4
+%
+G2 B2 | A2 G2 | d3 c/ B/ | c2 B2 | z A2 G/ F/ | G2 F2 |
+w:
+z c2 B/ A/ | B G2 A- | A G/ A/ B/ A/ G/ F/ | E4 | z2 G2 |
+w:
+A3 B | c2 d2 | z c2 B/ A/ | B > A B A/ G/ | F2 G2 |
+w:
+z F > G A/ B/ | c > B A/ G/ B- | B/ A/ G2 F | G3 B- | B A/ G/ B2 |
+w:
+A3 c- | c B/ A/ B/ A/ G/ F/ | E2 F2 | G3 A- | A/ G/ B2 A/ G/ |
+w:
+F4 | z4 | z2 c2 | B d > c B/ A/ | G B2 A/ G/ | 
+w:
+F A > B c- | c B/ A/ B/ A/ G/ F/ | E2 F2 | G3 A- | A/ G/ B2 A/ G/ |
+w:
+F4 | z2 E2 | D G2 F | G2 B2 | A2 G2 |
+w:
+d3 c/ B/ | c2 B2 | z A2 G/ F/ | G2 F2 | z c2 B/ A/ |
+w:
+B G2 A- | A G/ A/ B/ A/ G/ F/ | E4 | z2 G2 | A3 B |
+w:
+c2 d2 | z c2 B/ A/ | B > A B A/ G/ | F2 G2 | z F > G A/ B/ |
+w:
+c > B A/ G/ B- | B/ A/ G2 F | G4- | G4 |]
+w:
+%
+%---------------------------------------------------------
+V:A clef=treble8
+%
+g4 | f2 g2- | g f d2 | e f g2 | f3 e/ d/ | c2 d2 | 
+w:
+e2 f2 | B > c e d- | d/ c/ c2 B | c > d e/ f/ g- | g/ f/ f2 e | 
+w:
+f d > c B/ A/ | G2 A > B | c d e f | B > c d/ e/ f- | f/ e/ d2 c | 
+w:
+d2 z F- | F/ G/ A/ B/ c G- | G/ A/ B/ c/ d > c | d4 | G2 d2 | 
+w:
+d2 c2 | d4 | c2 A2 | B3 A/ G/ | F2 G2 | 
+w:
+A2 z d | e > f g/ a/ b- | b/ a/ g2 f | g2 z2 | G2 d2 | 
+w:
+d2 c2 | d4 | c2 A2 | B3 A/ G/ | F2 G2 | 
+w:
+A B F > G | A/ B/ c G > A | B c d2- | d2 g2 | f2 g2- | 
+w:
+g f d2 | e f g2 | f2 z e/ d/ | c2 d2 | e2 f2 | 
+w:
+B > c e d- | d c2 B | c > d e/ f/ g- | g f2 e | f d > c B/ A/ | 
+w:
+G2 A > B | c d e f | B > c d/ e/ f- | f/ e/ d2 c | d2 z F- |
+w:
+F/ G/ A/ B/ c G- | G/ A/ B/ c/ d2- | d B _e > d | d4 |]
+w:
+%
+%---------------------------------------------------------
+V:T clef=treble8
+%
+z4 | z4 | G2 B2 | A2 G2 | d4 |
+w: A- dieu mes a- mours,
+z4 | z4 | z4 | z4 | c3 B | A2 G2 | F4 |
+w: a Dieu vous com- mand,
+z4 | z4 | G2 B2 | A2 G2 | d4 |
+w: A- dieu je vous dy 
+c3 B | G2 A2 | G4- | G4 |
+w: jusqu- ez au prin- temps
+z4 | z4 | z4 | G2 d2 | d2 c2 | d4 | 
+w: Je suis en sou- ci 
+c3 B | G2 A2 | G4- | G4 |
+w: de quoy je vi- vray
+z4 | z4 | z4 | G2 d2 | d2 c2 | d4 |
+w: La rai- son pour quoy 
+c3 B | G2 A2 | G4 |
+w: je le vous di- ray:
+z4 | G2 B2 | A2 G2 | d4 |
+w: Je n'ay plus d'ar- gent, 
+z4 | z4 | z4 | z4 | c3 B | A2 G2 | F4 |
+w: vi- vray je du vent,
+z4 | z4 | G2 B2 | A2 G2 | d4 |
+w: Se l'ar- gent du roy 
+c3 B | G2 A2 | G4- | G4 |]
+w: ne vient plus sou- vent.
+%
+%---------------------------------------------------------
+%
+V:B clef=bass
+K:Gmin
+N:Note that the key is G minor where the other parts have G dorian; I'm not sure he really meant this, and we're going to have to add some ficta.
+%
+z4 | z4 | z4 | z4 | d2 f2 | e2 d2 | a4 | g3 f |e2 d2 | c4 |
+w: A- dieu mes a- mours, a Dieu vous com- mand,
+z4 | d2 f2 | e2 d2 | a4 | g3 f | d2 e2 | d4 | a2 f g- | g e d2 | g4 |
+w: A- dieu je vous dy jus- quez au prin- temps, jus- quez au * prin- temps, 
+z4 | d2 a2 | f2 g2 | a4 | g3 f | d2 e2 | d4 |
+w: Je suis en sou- ci de quoy je vi- vray
+z4 | z4 | z4 | z4 | d2 a2 | f2 g2 | a4 | g3 f | d2 e2 | d B > c d/ e/ | f c > d e/ f/ |
+w: La rai- son pour quoy je le vous di- ray, **** *****  
+g e d2 | g4 |
+w: *** *
+z4 | z4 | z4 | d2 f2 | e2 d2 | a4 | g3 f | e2 d2 | c4 |
+w: Je n'ay plus d'ar- gent, vi- vray je du vent,
+z4 | d2 f2 | e2 d2 | a4 | g3 f | d2 e2 | d4 | a2 f g- | g f/ e/ d2 | g4- | g4 |]
+w: Se l'ar- gent du roy ne vient plus sou- vent, ne vient plus * * sou- vent.

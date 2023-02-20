@@ -1,0 +1,26 @@
+X: 30563
+T: LITTLE WAIST
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.56 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Initial rest added to strains 1,3 to fix the rhythms.
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+z |\
+[ec]Gg [ec]Gg | f2f f2f | eGg eGg | d2d d2d |\
+eGg eGg | ^f2f f3 | gdb de^f | g3 g2 :|
+|: d |\
+g^fg bag | ^f2f f3 | =fef agf | e2e e3 |\
+d^cd fed | g2g g3 | def efd | c3 c2 :|
+|: G |\
+cGe cGe | dGf dGf | edc cBc | d2d d2G |\
+cGe cGe | dGf dGf | eca ^fdf | g2g g2 :|
+|: z |\
+G2g G2B | AcB ABc | B2g B2d | ced cde |\
+f2f e3 | a2a g3 | fed cdB | c3- c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,21 @@
+X: 80
+T: Cacanka
+O: Serbia
+F: http://www.youtube.com/watch?v=qvJmFSY64bc
+M: 2/4
+L: 1/16
+K: C
+Q:1/4=120
+%%MIDI program 21 Accordian
+"G"[GB][Ac][Bd][ce] [df]2[ce]2|[df]2[ce][eg] [df]2[ce]2|\
+"F"[fa][eg]"D"[df][eg] [df]2[ce]2|"G"[ce][A^c][Bd]2 [Bd][A=c][Bd][ce]|
+"F"[fa][eg]"D"[df][eg] [df]2[ce]2|"G"[ce][A^c][Bd]2 [Bd][A=c][Bd][ce]|\
+"F"[fa][eg][df][eg] [df]2[ce]2|"G"[ce][A^c][Bd][=cg] [Bd]4::
+K:G
+"D"[DF][EG][FA][GB] [Ac]2[GB]2|[Ac]2[GB][Bd] [Ac]2[GB]2|\
+"C"[ce][Gd][Ac][Gd] "A"[Ac]2[GB]2|"D"[GB][E^G][FA]2 [FA][E=G][FA][GB]|
+"C"[ce][Gd][Ac][Gd] "A"[Ac]2[GB]2|"D"[GB][E^G][FA]2 [FA][E=G][FA][GB]|\
+"C"[ce][Gd][Ac][Gd] "A"[Ac]2[GB]2|"D"[GB[][E^G][FA][=Gd] [FA]4:|
+W:
+W:Martin Junghans and Jutta Weber-Karn
+W: www.folkloretanznoten.de/

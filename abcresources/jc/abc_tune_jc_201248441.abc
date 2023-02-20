@@ -1,0 +1,29 @@
+
+X: 6
+T: Da Auld Resting Chair
+M:4/4
+L:1/4
+C:Tom Anderson
+S:Shetland
+R:Slow Air
+K:G
+D |\
+"G"B>c "D"A>B | "G"GDB,G, | "C"CA "G"B,G | "A"^C/E/A/<G/ "D"FD |\
+"G"B>c "D"A>B | "G"GDB,G, | "Am"CA "D"DF |1 "G"G3D :|2 "G"G3 d ||
+"D"c/B/A/G/ "G"g>d | "C"eg "G"dB | "C"c>d "G"BG | "A"E A/G/ "D"FD |\
+c/B/A/G/ "G"g>d | "C"eg "G"dB | "C"c d/e/ "D"dF | "G"G3 d |
+c/B/A/G/ "G"g>d | "C"eg "G"dB | "C"c>d "G"BG | "A"^C/E/A/<G/ "D"FD |\
+"G"B>c "D"A>B | "G"GDB,G, | "Am"CA,"D"DF | "G"G3 |]
+
+%%sep 2 1 500
+
+X: 51
+T: Da Auld Resting Chair (Harmony)
+M:4/4
+L:1/4
+R:Air
+K:D
+D | G2 FD | B,DGB | c2B2 | A>G F/D/C/A,/ | D2F2 | G3D | ECA,D/C/ | B,DG ||
+c | d2 c2 | BGDB, | E2DB | AEDC | B,/D/G/A/ FD | B,DGB | cA FD/C/ | B,3 ||
+F | A/G/F/D/ B,/D/G/B/ | ceBG | E>FGD | ^C/E/E D=C | A/G/D/B,/ B,/D/G/B/ | c2BG | E2FD/C/ | B,3 ||
+B | A/G/F/D/ B2 | c2 BG | EFGD | E2 D/C/A,/F/ | G2F2 | G2DB, | C2A,D/C/ | B,3 |]

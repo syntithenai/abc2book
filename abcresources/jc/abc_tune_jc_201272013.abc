@@ -1,0 +1,1055 @@
+
+X: 1
+T: Early American Reels
+K:
+
+%%sep 2 1 500
+
+X: 2
+T: The Auld Grey Cat
+O: c.1880
+B: Kerr "Merry Melodies", c.1880, v.1; No.8, p.28
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: EDor
+|: "Em"{^d}e2e2 E2-EF | GFGA BABc | "D"{c}d2d2 D2-DE | FAdB AFED |  "Em"{^d}e2e2 E2-EF |
+| GFGA BABc | "D"{c}dcBA "B7"BAGF | "Em"E4 e2z2 :: "Em"{d}B2e2 e2-ed  | Bdef gfed |
+| "D"A2d2 d3B | ABde fedf | "Em"e2B2 "D"g2B2 | "C"a2B2 "B7"b3a | "Am"gfed "B7"BAB^d | "Em"e6 z2 :|
+
+%%sep 2 1 500
+
+X: 3
+T: Batchelder's Reel
+O: 1883
+R: reel
+B: Ryan's "Mamouth Collection" 1883, as the "Atlanta Hornpipe"
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+c2 \
+|: "F"f2af "C7"efge | "F"f2c2- c2=Bc | "Bb"dcBA BAGF |1,3 E"C7"FGA Bcde :|2,4 E"C7"FGE "F"F4 :|
+|: "F"A2cA cAcA | "Bb"B2dB dBdB |1,3 A2"F"cA cAcA | "C7"BAGF EFGB :|2,4 A"F"cfa "C7"bgeg | "F"f2a2 f4 :|
+
+%%sep 2 1 500
+
+X: 4
+T: The Black Dance   [F]
+O: 1760
+B: M.Landrin, Paris 1760
+B: R.Bride "Twenty Four Country Dances for the Year 1769"
+B: David Rutherford, London 1772
+R: march
+B: RSCDS 12-10(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Adapted from Rutherford 1772"
+M: C|
+L: 1/8
+K: F
+cA |\
+"F"F2F2 "Gm"GABG | "C7"cdcB "F"A2cA |\
+[1 "Bb"F2F2 "Gm"GABG | "C7"c6 cA :|\
+[2 "Dm"F2F2 "C7"GABG | "F"F6 |]
+de |\
+"Bb"f2f2 f2ed |  "F"c2c2 c2AG |\
+"Dm"F2GA "Am"c2BA | "Gm"G2G2 "C7"G2de |\
+"Dm"f2f2 f2ed | "Am"c2c2 c2AG |\
+"Bb"F2GA "C7"B2AG | "F"F2F2 F2 |]
+
+%%sep 2 1 500
+
+X: 5
+T: Bonaparte Crossing the Rhine
+%C: R-130 [RJ collection]
+O: 1837
+S: Sheet music published 1837 by Geo Willig, Philadelphia, as "Caledonian March"
+N: Attributed to "A Professor" by Geo Willig
+M: C
+L: 1/8
+Z:
+R: march
+K: D
+FG |\
+"D"A>BAF A2de | f>efa d2dc | "G"B>cdB "D"AFED | "A"E2EF E2FG |
+y3 |\
+"D"A>BAF A2de | f>efa d2dc | "G"B>cdB "D"AF"A"EF | "D"D2D>E D2 |]
+de |\
+"D"f>efg a3A | "G"B>ABc "D"d3A | "G"B>cdB "D"AFDF | "A"E2E>F E2FG |
+y3 |\
+"D"A>BAF A2de | f>efa d2dc | "G"B>cdB "D"AF"A"EF | "D"D2D>E D2 |]
+
+%%sep 2 1 500
+
+X: 6
+T: The Boys of Bluehill
+T: The Beaux of Oak Hill
+O: 1839
+R: hornpipe, reel
+Z: John Chambers <jc:trillian.mit.edu>
+B: Knauff "Virginia Reels" 1839
+B: Ryan "Mammoth Collection" 1883
+B: Kennedy p.?
+B: Allan's 74
+B: Cranitch 73 & 75
+B: O'Neill's p.197
+B: Brody p.54
+M: C|
+L: 1/8
+K: D
+|: dB | "D"BAFA DAFA | "G"BABd "A7"e2de | "D"fagf "A7"egfe | "D"dfed "G"B2dB |
+| "D"BAFA DAFA | "G"BABd "A7"e2de | "D"faaf "A7"egfe | "D"d2 "(G)"d2 "D"d2 :|
+|: fg | "D"afdf a2gf | "Em"efga b2"(A7)"ag | "D"fagf "A7"egfe | "D"dfed "G"B2dB |
+| "D"BAFA DAFA | "G"BABd "A7"e2de | "D"faaf "A7"egfe | "D"d2 "(G)"d2 "D"d2 :|
+
+%%sep 2 1 500
+
+X: 7
+T: The Breakdown    [A]
+T: Wake up Susan
+R: hornpipe, reel
+O: Kerr c.1880
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Kerr (Merry Melodies), vol. 4; No. 268, pg. 29
+B: Kennedy v.1 p.13 #23
+M: C|
+L: 1/8
+K: A
+((3efg) \
+| "A"a2A2 AcBA | E2A2 AcBA | "Bm"F2B2 BcBA | "E7"GABc defg | "A"a2A2 AcBA |
+E2A2 AcBA | "E7"GABc defg | "A"aece A2 :: cB | "A"A2{g}a2 A2{g}a2 | A2AB c2BA |
+"E7"E2{^d}e2 E2{d}e2 | E2Bc d2cB | "A"A2{g}a2 A2{g}a2 | A2AB c2BA | "E7"E2Bc d2cB | "A"A2c2 A2 :|
+
+%%sep 2 1 500
+
+X: 8
+T: Childgrove [Dm]
+O: Playford 1701
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+B: Karpeles & Schofield p.22,52; Playford Ball; Raven p.23; Barlow #426
+L: 1/8
+N: Sometimes played in dorian rather than minor.
+K: Dm
+|: A \
+| "Dm"Ad de | f2 ed | "Gm"gf ed | "Am"e>d c/B/A \
+| "Dm"Ad de | f2 ea | "Gm"g>f "A7"e/f/e/d/ | "Dm"d3 :|
+|: f/g/ \
+| "F"af fa | "C"ge eg | "Dm"fd d/e/f/d/ | "Am"eA Af/g/ \
+| "F"a>g f/g/a/f/ | "C"g>f e/f/g/e/ | "Dm"fe/d/ "A7"ed/^c/ | "Dm"d3 :|
+
+%%sep 2 1 500
+
+X: 9
+T: College Hornpipe
+R: hornpipe, reel
+O: c.1766
+N: H&C  p.136, Harding 6 (in C), Hunter 336, Skye p.173, Litten p.19, BSFC II-7
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+g>f \
+| "G"g2 G2 G2dc | Bd g2 g2 bg \
+| "A7"a2 A2 A2 AG | "D7"FA d2 d2 ef \
+| "G"gfed edcB |
+| "C"cBAG "(A7)"AGFE \
+| "D7"DGFA GBAc | "G"B2G2 G2 :: dc \
+| "G"Bdgd Bdgd | "C"e2 c2 c2 ed |
+| "A7"^ce ae ce ae | "D7"f2 d2 d2 ef \
+| "G"gfed edcB | "C"cBAG "(A7)"AGFE \
+| "D7"DGFA GBAc | "G"B2G2 G2 :|
+
+%%sep 2 1 500
+
+X: 10
+T: The Deil Amang the Tailors
+T: The Devil's Dream
+O: Scotland c.1790
+N: Allan's p.17
+N: BSFC I-22 and IV-11
+N: Bain p.8
+N: H&C p.108
+N: Hardie p.36
+N: Hunter 229
+N: OTDT p.74
+N: RSCDS  14-7
+N: Scots Guards, p.192
+N: SFT p.2
+N: SV p.29 (3 variations by J.S.Skinner)
+N: Skye p.4 w/3rd part
+N: Kennedy v.1 p.18
+M: C|
+L: 1/8
+K: A
+e{f}g \
+| "A"a2e{f}g a2e{f}g | a2ea fedc | "Bm"d{e}fBf dfBf | dfba "E7"gefg | "A"a2e{f}g a2e{f}g |
+| a2ea fedc | "D"defd "A"ecBA | "E7"E2G2 "A"A2 :: ed | "A"c{d}eAe ceAe | ceag fedc |
+| "Bm"d{e}fBf dfBf | dfba "E7"gfed | "A"c{d}eAe ceAe | ceag fedc | "D"defd "A"ecBA | "E7"E2G2 "A"A2 :|
+
+%%sep 2 1 500
+
+X: 11
+T: The Devil's Dream
+O: Scotland c.1790
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+(3efg |\
+"A"agae agae | agae fedc | "Bm"dfBf dfBf | dfba "E7"gefg | "A"agae agae |
+agae fedc | "D"defd "A"ecBA | "E7"E2G2 "A"A2 :: ed | "A"ceAe ceAe | ceag fedc |
+"Bm"dfBf dfBf | dfba "E7"gfed | "A"ceAe ceAe | ceag fedc | "D"defd "A"ecBA | "E7"E2G2 "A"A2 :|
+
+%%sep 2 1 500
+
+X: 12
+T: The (Old) Dominion Reel    [D]
+O: 1839
+M: C|
+B: George P. Knauff’s Virginia Reels, vol. III (Baltimore, 1839)
+Z: Mary Lou Knack
+R: reel
+M: C|
+L: 1/8
+K: D
+A2 \
+|: "D"d2d2 "A7"cdec | "D"dfab afdf | "G"g2ge "D"f2fd |1,3 "Em"edcB "A7"A2Bc \
+                                                   :|2,4 "A7"edce "D"d2 :|
+|: A2 \
+| "D"dfaf dfaf | "Em"efgf "A7"edce | "D"dfaf dfaf | "E7"ea^gb "A7"a2A2 |
+| "D"dfaf dfaf | "G"g2gf edcB | "A7"ABcd efga | "D"fd"A7"ec "D"d2 :|
+
+%%sep 2 1 500
+
+X: 13
+T: Farewell to Whiskey
+%T: Ladies Triumph
+O: Niel Gow 1801
+N: Niel Gow 1801 First Collection
+D: Marie Fielding on Fiddlers Five CD 8
+B: Kennedy (has "Ladies' Triumph" as alternate title)
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+   GE \
+| "G"D2G2 B2AG | "Am"A2E2- E2G2 | "G"D2G2 B2AG | "Bm"d2B2- B2d2 \
+| "C"e2g2 "G"d2B2 | "Am"cBAG "D7"A2B2 | "G"D2G2 "D7"BAGA | "G"B2G2- G2 :|
+|: Bc \
+| "G"d2B2 g2B2 | "Am"cBAG "D7"A2Bc | "G"d2B2 g2d2 | "C"e2g2- g2d2 \
+| "C"e2g2 "G"d2B2 | "Am"cBAG "D7"A2B2 | "G"D2G2 "D7"BAGA | "G"B2G2- G2 :|
+
+%%sep 2 1 500
+
+X: 14
+T: Fisher's Hornpipe
+O: James Fishar 1778
+R: hornpipe, reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+(3A/B/c/ \
+| "D"dAFD "G"GBAG | "D"FDFD "G"GBAG | "D"FDFD "A7(C)"GEGE | "D"FDFD "A7"EABc | "D"dAFD "G"GBAG |
+| "D"FDFD "G"GBAG | "D"FGAB "A7"cdec | "D"d2d2 d2 :: cd | "A"ecAc egfe | "D"fdAd fagf |
+| "A"ecAc efgf | "E7"edcB "A"A2A2 | "G"BGDG BdcB | "D"AFDF AFdA | "G"BdcB "A7"AGFE | "D"D2[d2D2] [d2D2] :|
+
+%%sep 2 1 500
+
+X: 15
+T: The Flowers of Edinburgh #1
+O: Oswald, c.1742
+Z: John Chambers <jc:trillian.mit.edu>
+N: Probably the best-known Scottish reel.
+B: Oswald "Curious Collection of Scots Tunes (II)" c.1742
+B: The Universal Magazine, April 1749, as "Flowers of Edinburgh".
+R: reel
+M: C|
+L: 1/8
+K: G
+GE | "G"D2DE G2GA | BGBd cBAG | "D7"FGFE DEFG | AFdF E2GE || "G"D2DE G2GA |
+| "G"BGBd "C"efge | "G"dcBA "D7"GFGA | "G"B2G2 G2 :: d2 | "G"g2gd gbag | "D7"f2fd fagf |
+| "Em"e2ef gfed | B2e2 "(C)"e2ge || "G"dBGB d2d2 | "C"edef g2fe | "G"dcBA "D7"GFGA | "G"B2G2 G2 :|
+
+%%sep 2 1 500
+
+X: 16
+T: The Flowers of Edinburgh #1
+O: Oswald, c.1742
+Z: John Chambers <jc:trillian.mit.edu>
+N: Probably the best-known Scottish reel.
+B: Oswald "Curious Collection of Scots Tunes (II)" c.1742
+B: The Universal Magazine, April 1749, as "Flowers of Edinburgh".
+R: reel
+M: C|
+L: 1/8
+K: G
+GE | "G"D2DE G2GA | BGBd cBAG | "D7"FGFE DEFG | AFdF E2GE || "G"D2DE G2GA |
+| "G"BGBd "C"efge | "G"dcBA "D7"GFGA | "G"B2G2 G2 :: d2 | "G"g2gd gbag | "D7"f2fd fagf |
+| "Em"e2ef gfed | B2e2 "(C)"e2ge || "G"dBGB d2d2 | "C"edef g2fe | "G"dcBA "D7"GFGA | "G"B2G2 G2 :|
+
+%%sep 2 1 500
+
+X: 17
+T: The Flowers of Edinburgh #1
+O: Oswald, c.1742
+Z: John Chambers <jc:trillian.mit.edu>
+N: Probably the best-known Scottish reel.
+B: Oswald "Curious Collection of Scots Tunes (II)" c.1742
+B: The Universal Magazine, April 1749, as "Flowers of Edinburgh".
+R: reel
+M: C|
+L: 1/8
+K: G
+GE | "G"D2DE G2GA | BGBd cBAG | "D7"FGFE DEFG | AFdF E2GE || "G"D2DE G2GA |
+| "G"BGBd "C"efge | "G"dcBA "D7"GFGA | "G"B2G2 G2 :: d2 | "G"g2gd gbag | "D7"f2fd fagf |
+| "Em"e2ef gfed | B2e2 "(C)"e2ge || "G"dBGB d2d2 | "C"edef g2fe | "G"dcBA "D7"GFGA | "G"B2G2 G2 :|
+
+%%sep 2 1 500
+
+X: 18
+T: Galopede   [G]
+T: Yarmouth Reel
+T: Persian Dance
+%T: Corn Field
+O: Preston 1801
+R: Reel
+N: The AABC pattern is for the country dance "Galopede".  This tune is
+N: used for several dances, with several different repeat patterns.
+%P: AABC
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Preston "24 Country Dances for 1801" 1801
+B: Kerr - Merry Melodies vol. 4 (No. 296)
+B: Cecil Sharp "Country Dance Tuens" 1909
+B: Karpeles & Schofield p.1 1951
+B: Kennedy v.1 p.31 #63 1951
+B: Barnes v.1 p.43
+M: C|
+L: 1/8
+K: G
+   dc \
+| "G"B2Bc "D7"A2AB | "G"G2G2 G2AB |1,3 "C"cBcd edcB | "D7"A2A2 A2 :|2,4 "C"cBAG "D7"FGAF | "G"G2G2 G2 :|
+|: dc \
+| "G"B2gf "C"e2ed | "D7"dcBc A2dc |1 "G"B2gf "C"edcB | "D7"A2A2 A2 :|2 "G"BdcB "D7"AcBA | "G"G2G2 G2 |]
+|: Bc \
+| "G".d2.d2 .d2g2 | .d2.d2 .d2g2 |1 .d2.d2 "(C)"edcB | "D7"A2A2 A2Bc :|2 "C"edcB "D7"dcBA | "G"G2G2 G2 |]
+
+%%sep 2 1 500
+
+X: 19
+T: The Girl I Left Behind Me
+T: Brighton Camp
+O: 1758
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+B: E.Hunt p.13(F)
+B: Karpeles & Schofield P.31(F), p.55(G)
+B: Nan Fleming-Williams and Pat Shaw "English Dance Airs" Book 3 p.5 (1968, 1984)
+N: Many versions exist from all over the British Isles. Commonly used for sword dances.
+M: C
+L: 1/4
+K: G
+g/f/ \
+| "G"ed/c/ BA | "C"BG E>F | "G"GG G/A/B/c/ | "D7"d2 Bg/f/ \
+|  "G"ed/c/ BA | "C"BG E>G | "D7"FA DE/F/ | "G"G2 G :|
+|: d/c/ \
+| "G"Bd "D7"ef | "G"gd "D7"B>A | "G"Bd "Em"ef | "C"g2 "D7"fg/f/ \
+|  "G"ed/c/ BA | "C"BG E>G | "D7"FA DE/F/ | "G"G2 G :|
+
+%%sep 2 1 500
+
+X: 20
+T: The Green Fields of America
+O: c.1840
+M: C|
+L: 1/8
+R: Reel
+S: William Sydney Mount manuscripts, c.1840
+B: Howe "Diamond School for the Violin", 1861
+B: Ryan "Mammoth Collection" 1883; p.41
+B: O'Neill "Dance Music of Ireland: 1001 Gems" 1907
+Z: Transcribed by Trish O'Neil (chords by John Chambers)
+K:G
+|: "C"c2(ec) "G"B2(dB) | "Am"AGAB "(D7)"AGEF | "G"GAGE DEGB | "Am"AGAB "D7"AGAB | "C"c2(ec) "G"B2(dB) |
+"Am"AGAB "(D7)"AGEF | "G"GAGE DEGA | "D7"BGAF "G"G2z2 :: "G"GABc d2ef | "(C)"gage "G"dBGB |
+"C"c2(ec) "G"B2(dB) | "Am"AGAB AGE2 | "G"gfgd "(C)"efge | "G"dBAG "Am"AGEF | "G"GAGE DEGA | "D7"BGAF "G"G2z2 :|
+
+%%sep 2 1 500
+
+X: 21
+T: Hull's Victory    [F]
+O: 1842
+R: hornpipe, reel
+B: Elias Howe's "Musician's Companion" 1842
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+"C7"c2 \
+| "F"fcfa fcfg | "C7"agfe "F"f2AB | "(C)"c2cd c2B2 | "C7"ABGA "F"F2c2 | "F"fcfa fcfa |
+| "C"g2g2 g2ag | "G7"fedc ^BcdB | "C"c2e2 c2 :: "C7"c2 | "F"fefg agfe | "Bb"d2B2 B2ef |
+| "G7"g^fga bag=f | "C7"e2c2 c2de | "F"fcfa fcfa | "C7"gcgb gcgb | "F"agfa "C7"gfeg | "F"f2a2f2 :|
+
+%%sep 2 1 500
+
+X: 22
+T: The Huntsmen's Chorus
+C:von Weber
+O:1821
+N:This march opens the third act of von Weber's opera Der Freishutz, first performed in Berlin in 1821.
+B:Howe "Diamond School for the Violin" 1861, p.21
+B:Phillips "Fiddlecase Tunebook" 1989; p.29
+R:reel
+Z:John Chambers <jc:trillian.mit.edu>
+M:2/4
+L:1/8
+K:G
+|: D |\
+"G"GD G/A/B/c/ | d2 B2 |  "D7"Ad Ad | "G"B/c/B/A/ GD | "G"GD G/A/B/c/ |
+d2 "C"c2 | "G"B/A/G/A/ "D7"BA | "G"G3 :: A | "G"B>B BA | "Em"G2 AB |
+"Am"c>c cB | "D7"AF ED | "G"BB/A/ G/A/B/c/ | d2 "C"c2 | "G"B/A/G/A/ "D7"BA | "G"G3 :|
+
+%%sep 2 1 500
+
+X: 23
+T: Jamie Allen
+T: Jimmy Allen
+T: Reel of Tullochgoram
+O: c.1800
+R: reel
+M: 2/4
+L: 1/8
+Z: John Chambers <jc:trillian.mit.edu>
+N: Jamie Allen (1734-1810) was a Northumbrian small-pipes player.
+N: This tune is attributed to him, but the details aren't known.
+K: G
+G/A/ \
+| "G"BG GA | "Em"B2 GA/B/ | "Am"cA AB | "D7"c2 BA | "G"Gg "C"ge |
+"G"d2 B>c | "D7"dd c/B/A | "G"G3 :: B/A/ | "G"Gg g>f | "Em"ed cB |
+"Am"Aa a>g | "D7"fd ef | "C"g>a ge | "G"d2 B>c | "D7"dd c/B/A | "G"G3 :|
+
+%%sep 2 1 500
+
+X: 24
+T: Judy's Reel
+T: The Maid Behind the Bar
+O: Ryan 1883
+%: Kiss the Maid Behind the Barrel
+%: Indy's Favorite
+%: the Green Mountain
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+DE \
+|: "D"FAAB AFED | FAA[BG] ABde | "Bm"fBBA Bcde | f2ef "A7"edBA | "D"FAAB AFED |
+| FAA[BG] ABde | "Bm"fBBA "G"BcdB | "A7"AFEF "D"D4 :: "D"fgab afde | fdad bdfd | "Em"efga bgef |
+| gebe "A7"gfeg | "D"fgaf bfaf | defd efde | "Bm"fBBA "G"BcdB | "A7"AFEF "D"D4 :|
+
+%%sep 2 1 500
+
+X: 25
+T: Lady Anne Montgomery
+R: reel
+M: C|
+L: 1/8
+K: D
+A |\
+"D"FADA FADA | FAdA "G"BAdA | "D"FADF "Em"EDEF | "A"DB,A,B, "D"D3E | "D"FADA FADA |
+FAdA "G"BABc | "D"dBAF "Em"E3F | "A"DB,A,B, "D"D3 :: e | "D"f3f fede | fedB ABde |
+f2fe "Bm"fede | "Em"fgaf "A"efde | "D"f3f fede | fedB ABde | "G"fded "Em"BdAd | "A"egfe "D"d3 :|
+
+%%sep 2 1 500
+
+X: 26
+T: Lady Walpole's Reel  (A)
+O: Howe 1867
+R: reel
+M: C|
+L: 1/8
+N: Originally in Bb
+Z: Transcribed to abc by Mary Lou Knack; slightly modified by John Chambers
+B: Howe "1000 Jigs and Reels", c. 1867; pg. 80
+B: White's Unique Collection of Jigs, Reels, etc. Boston: White-Smith Music Publishing Co., 1896
+B: New England Fiddler's Repertoire
+K: A
+E2\
+| "A"A2c2 "E7"cdBc \
+| "A"A2E2 "E7"EFED \
+| "A"CEAE "D"DCDF \
+| "E7"EFED "A"C2A,2 |
+| "A"AEcA     ecfe \
+|     agfe     dcBA \
+|  "E"GBeB "B7"AGAc \
+| "B7"BAGF "E"E2 :|
+|: e2 \
+| "A"eaec     AcAE \
+| "D"DCDE     FEDC \
+| "Bm"B,2fe     dcBA \
+|  "E"GABG "E7"E2 (3efg |
+| "A"aece "D"fdBd \
+| "A"ceAc  "E"BGE2 \
+| "E7"efed     cBAG \
+| "A"A2c2     A2 :|
+
+%%sep 2 1 500
+
+X: 27
+T: Lady Walpole's Reel  [Bb]
+O: Howe 1867
+R: reel
+M: C|
+L: 1/8
+Z: Transcribed to abc by Mary Lou Knack; slightly modified by John Chambers
+B: Howe "1000 Jigs and Reels", c. 1867; pg. 80
+B: White's Unique Collection of Jigs, Reels, etc. Boston: White-Smith Music Publishing Co., 1896
+B: New England Fiddler's Repertoire
+K: Bb
+F2\
+| "Bb"B2d2 "F7"decd \
+| "Bb"B2F2 "F7"FGFE \
+| "Bb"DFBF "Eb"EDEG \
+| "F7"FGFE "Bb"D2B,2 |
+| "Bb"BFdB     fdgf \
+|     bagf     edcB \
+|  "F"Acfc "C7"BABd \
+| "C7"cBAG "F"F2 :|
+|: f2 \
+| "Bb"fbfd     BdBF \
+| "Eb"EDEF     GFED \
+| "Cm"C2gf     edcB \
+|  "F"ABcA "F7"F2 (3fga |
+| "Bb"bfdf "Eb"gece \
+| "Bb"dfBd  "F"cAF2 \
+| "F7"fgfe     dcBA \
+| "Bb"B2d2     B2 :|
+
+%%sep 2 1 500
+
+X: 28
+T: Lamplighter's Hornpipe  [A]
+O: 1862
+B: Bruce & Emmett’s Drummers & Fifers Guide  (1862)
+Z: John Chambers <jc:trillian.mit.edu>
+N: Cole p.93
+N: NEFR
+M: C|
+L: 1/8
+K: A
+cd \
+| "A"[ee]c[ee]c eagf | "A"[ee]c[ee]c eagf \
+| "A"[ee]c[ee]c "F#m"fedc | "Bm"d2B2 "E7"B2cd | "A"[ee]c[ee]c eagf |
+| "A"[ee]c[ee]c eagf | "E7"[ee]f[dd]e [cc]d[BB]c \
+| "A"E2A2 A2 :: cd | "A"edcd e2fe | "E7"dcBc d2ed |
+| "A"[cc]A[cc]e "F#m"dcBA | "Bm"GABc "E7"B2cd \
+| "A"edcd e2fe | "E7"dcBc d2ed \
+| "A"cagf "E7"edcB | "A"A2c2 A2 :|
+
+%%sep 2 1 500
+
+X: 29
+T: Largo's Fairy Dance    [D]
+T: The Fairy Reel
+T: Old Molly Hare
+C: Nathaniel Gow
+O: 1809
+Z: John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: C|
+N: Many versions from all over the British Isles and North America.
+N: Nath. Gow (variations by Skinner)
+N: H&C 88
+N: OTDT p.71
+N: BSFC I-24 and III-16 and IV-5 and V-5
+N: Hunter 219
+N: Fairy Dance in Skye 57
+N: Bain 7 (he thinks it's trad Shetland)
+N: Varella 78
+N: Gow 268 but C
+D: Fiddlers 3+2 tape A6
+K: D
+de \
+|: "D"f2fd f2fd | f2fd "A7"cAeA | "D"f2fd "G"gfed | "A7"cABc "D"defg :|
+|: "D"a2af "G"b2ba | "Em"g2ge "A7"a2ag | "D"f2fd "G"gfed | "A7"cABc [1 "D"defg :|2 "D"d2 |]
+
+%%sep 2 1 500
+
+X: 30
+T: Little Ben  [C]
+O: from Merrill's manuscript
+O: from Thompson's "Twenty Four Country Dances for the Year 1793"
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+|: "C"C2CC C2C2 | "C"E2CC  C2C2 | "C"c4      g4 |"Dm"f4 d4 \
+|  "G"G2GG G2G2 | "G7"G4   f2d2 | "C"c4 "(F)"c4 | "C"c8 :|
+|:"G7"G2de fedc | "G7"B2d2 B2G2 | "C"E2C2  E2G2 | "C"cdef g2e2 \
+| "Dm"f2de fedc | "G7"B2d2 B2G2 | "C"c4 "(F)"c4 | "C"c8 :|
+|: "C"g4   gagf |"(Am)"e4  e4   |"Dm"f4      f4 |"G7"d4 z2 \
+|  "C"e4   efed | "Am"c2e2 c2e2 |"Dm"d4  "G7"d4 | "C"c8 :|
+
+%%sep 2 1 500
+
+X: 31
+T: Little Ben  [D]
+O: from Merrill's manuscript
+O: from Thompson's "Twenty Four Country Dances for the Year 1793"
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|: "D"D2DD D2D2 |  "D"F2DD D2D2 | "D"d4      a4 |"Em"g4 e4 \
+|  "A"A2AA A2A2 | "A7"A4   g2e2 | "D"d4 "(G)"d4 | "D"d8 :|
+|:"A7"A2ef gfed | "A7"c2e2 c2A2 | "D"F2D2  F2A2 | "D"defg a2f2 \
+| "Em"g2ef gfed | "A7"c2e2 c2A2 | "D"d4 "(G)"d4 | "D"d8 :|
+|: "D"a4   abag |"(Bm)"f4  f4   |"Em"g4      g4 |"A7"e4 z2 \
+|  "D"f4   fgfe | "Bm"d2f2 d2f2 |"Em"e4  "A7"e4 | "D"d8 :|
+
+: 1
+
+X: 0
+T: MacLeod's Reel
+T: Miss/Mrs. MacLeod's
+O: Scotland, 1809
+Z: John Chambers <jc:trillian.mit.edu>
+B: Gow's "Fifth Collection of Strathspey Reels" 1809, p.36
+N: Sometimes called "Uncle Joe" in America.
+B: Skye p.8
+B: Hunter 249
+B: BSFC I-61 and III-45
+S: Winston  Scotty  Fitzgerald
+D: Celtic 40 Fiddlers 3+2 tape A6
+R: reel
+M: C|
+L: 1/8
+K: G
+BA \
+| "G"G2g2 "(C)"edeg | "G"~B2BA "(D7)"B2BA | "G"G2g2 "Em"edeg | "Am"A2AG "D7"A2BA | "G"G2g2 "(C)"edeg |
+"G"~B2BA B2d2 | "C"~e2ef edef | "G"gedB "D7"A2 :: BA | "G"~G2BG dGBG | B2BA "(D7)"B2BA |
+"G"~G2BG "Em"dGBG | "Am"A2AG "D7"A2BA | "G"~G2BG dGBe | dBAG B3d | "C"~e2ef edef | "G"gedB "D7"A2 :|
+
+%%sep 2 1 500
+
+X: 32
+T: The Market Lass  [C]
+O: 1799?
+M: 2/4
+L: 1/16
+K: C
+gf \
+| "C"e2c2 cBce | "G7"d2B2 G2AB | "C"cBcd edef | e4 "G7"d2gf | "C"e2c2 cBce |
+|"G7"d2B2 G2c2 | "G7"Bcde fdcB | "C"c2c2 c2 :: EF | "C"GFGA GABc | "G7"dBdB G2DE |
+|"G7"FEFG FBdc | "G7"BAGF "C"E2EF | "C"GFGA GcBc | "F"AGAB "Dm"Ad"(#)"cd | "G7"Bcde fdcB | "C"c2c2 c2 :|
+
+%%sep 2 1 500
+
+X: 33
+T: The Market Lass  [D]
+O: 1799?
+M: 2/4
+L: 1/16
+K: D
+ag \
+| "D"f2d2 dcdf | "A7"e2c2 A2Bc | "D"dcde fefg | f4 "A7"e2ag | "D"f2d2 dcdf |
+|"A7"e2c2 A2d2 | "A7"cdef gedc | "D"d2d2 d2 :: FG | "D"AGAB ABcd | "A7"ecec A2EF |
+|"A7"GFGA Gced | "A7"cBAG "D"F2FG | "D"AGAB Adcd | "G"BABc "Em"Be"(#)"de | "A7"cdef gedc | "D"d2d2 d2 :|
+
+%%sep 2 1 500
+
+X: 34
+T: The Mason's Apron
+O: Ross 1780
+N: In most old collections.
+B: Robert Ross "A Choice Collection of Scots Reels or Country Dances", 1780 as "The Mason Laddie"
+B: Gow "Complete Repository", Part 2, 1802; pgs. 24-25
+R: reel
+M: C|
+L: 1/8
+Z: 1996 by John Chambers <jc:trillian.mit.edu>
+K: A
+ed | "A"c2A2 ABAF | EFAB dcBA | "Bm"d2B2 BcBA | Bcde "E7"gfed || "A"c2A2 ABAF |
+| "A"EFAB dcBA | "D"Bcde fefa | "E7"edcB "A"A2 :: ed | "A"cAeA fAeA | cAeA fedc |
+| "Bm"dBfB gBfB | dBfB "E7"gfed || "A"cAeA fAeA | cAeA fedc | "D"Bcde fefa | "E7"edcB "A"A2 :|
+
+%%sep 2 1 500
+
+X: 35
+T: My Love is But a Lassie Yet
+O: Bremner 1757
+R: reel, march
+Z: 2001 John Chambers <jc:trillian.mit.edu>
+S: printed page SRSNH 2.14 in the Concord Slow Scottish Session collection
+B: Bremner's "Scots Reels", 1757 as "Miss Farqharson's Reel"
+B: Aird "Selections of Scotch, English, Irish and Foreign Airs", v.II, p.1, #1, c.1782
+N: Reused by Robert Burns for his song.
+M: C|
+L: 1/8
+K: D
+   dc \
+| "D"d2D2 F2A2 | d2D2 D2dc | d2D2 F2A2 | "Em"e2E2 "A7"E2dc \
+| "D"d2D2 F2A2 | "G"B2g2 "A7"f2e2 | "D"dcBA "A7"Bcde | "D"f2d2 d2 :|
+|: fg \
+| "D"a3f "A7"g3e | "D"f2d2 d2fg | a2f2 gfga | "Em"b2e2 "A7"e2fg \
+| "D"a2af "A7"g2ge | "D"f2fd "A7"e2ec | "D"dcBA "A7"Bcde | "D"f2d2 d2 :|
+
+%%sep 2 1 500
+
+X: 36
+T: Paddy on the Railroad
+T: The Merry Blacksmith
+O: Ryan 1883
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+K: D
+A2 \
+| "D"d2dA BAFA | ABdA BAFA | ABde "(Bm)"f2ed | "Em"Beed "A7"egfe | "D"d2dA BAFA |
+| "D"ABdA BAFA | ABde "A7"fdec | "D"dBAF D2 :: fg | "D"a2ag f2fe | d2dA BAFA |
+| "D"ABde "(Bm)"f2ed | "Em"Beed "A7"egfe | "D"abag fgfe | d2dA BAFA | ABde "A7"fdec | "D"dBAF D2 :|
+
+%%sep 2 1 500
+
+X: 37
+T: Paddy on the Turnpike
+O: Ohio 1842
+S: Cari Fuchs' collection
+B: Cole p.23
+B: Ryan's Mammoth Collection, 1883
+B: Richmond County, Ohio, musician Ruben Fisher's notebook, 1842
+L: 1/8
+N: See also "Bunch of Keys", the same tune in G Mixolydian.
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: C|
+K: GDor
+|: "Gm"DGG^F G2GA | BGdG _eGdG | "F"DFFE F2FG | AFcF dFcF | "Gm"DGG^F ~G2GA |
+BAGA Bcde | "F"fefd cAFA | "D7"BGA^F "Gm"G4 :: "Gm"dgg^f g2ga | baga "C7"bage | "F"dffg ~f2fg |
+agfg agfe | "Gm"dgg^f g2ga | bagf "C7"dcde | "F"fefd cAFA | "D7"BGA^F "Gm"G4 :|
+
+%%sep 2 1 500
+
+X: 38
+T: Petronella
+R: Reel
+O: Scotland, 1817
+B: (Nathanial) Gow's Repository, Part Fourth, 1817
+M: 4/4
+K: D
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+   dA \
+| "D"F2AF "A7"E2AE | "D"D2D2 D2FA | d2cd e2d2 | "A7"cdec ABAG |\
+| "D"F2AF "A7"E2AE | "D"D2D2 D2FA | d2cd "A7"e2c2 | "D"d4- d2 :|
+|: dA \
+| "D"F2fd A2af | "Em"g2gf edcB | "A7"A2ec Aceg | "D"f2fd AdAF |\
+| "D"D2fd A2af | "Em"g2gf edcB | "A7"A2ec Agec | "D"d4- d2 :|
+
+%%sep 2 1 500
+
+X: 39
+T: President Garfield's Hornpipe  [Bb]
+O: 1883
+C: Harry Carleton
+B: Ryan's Mammoth Collection of Fiddle Tunes, 1883
+R: hornpipe
+M: 4/4
+L: 1/8
+Z: 2000 John Chambers jc:trillian.mit.edu
+K: Bb
+dc |\
+"Bb"BFDF BFDF | BABc dcde | "F7"fcAc fcAc | f=efg f_edc |
+"Bb"BFDF BFDF | BABc dcde | "F7"fgag fedc | "Bb"B2d2 B2 :|
+|: ba |\
+"Eb"geBG EGBg | "Bb"fdBF DFBf | "F7"eAgf eAgf | "Bb"dBgf dBba |
+"Eb"geBG EGBg | "Bb"fdBF DFBf | "F7"=efag f_edc | "Bb"B2d2 B2 :|
+
+%%sep 2 1 500
+
+X: 40
+T: President Garfield's Hornpipe  [D]
+O: 1883
+R: hornpipe
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Ryan's Mammoth Collection of Fiddle Tunes, 1883
+U: Printed MS from Mike Briggs
+M: C|
+L: 1/8
+K: D
+fe |\
+"D"dAFA dAFA | dcde fefg | "A"aece aece | "A7"a2b"(#)"g agfe |
+"D"dAFA dAFA | dcde fefg | "A"ad'c'b agfe | "A7"(3ded ce "D"d2 :|
+|: d'c' |\
+"G"bgdB GBd'b | "D"afda fdba | "A7"geba geba | "D"fdba fdga |
+"G"bgdB GBd'b | "D"afda fdc'b | "A7"abc'b agfe | "A7"(3ded ce "D"d2 :|
+
+%%sep 2 1 500
+
+X: 41
+T: The Rakes of Mallow  [G]
+%T: the Jolly Sailor
+N: Called "Sandy Lent the Man His Mill" in some old books
+O: 1733
+Z: John Chambers <jc:trillian.mit.edu>
+B: Walsh "Caledonian Country Dances" 1733, p.34
+B: Burke Thumoth collection (as “Rakes of Marlow”), 1745
+M: C
+L: 1/4
+K: G
+|:\
+"G"GB GB | GB c/B/A/G/ | "D7"FA FA | FA d/c/B/A/ ||\
+"G"GB GB | GB d2 |  "D7"c/B/A/G/ F/G/A/c/ | "G"BG G2 :|
+|:\
+"G"gf/e/ dc | Bc "(D7)"d2 | "G"gf/e/ dc | B[gd] "D7"A2 ||\
+"G"gf/e/ dc | BG "C"c2 | "D7"c/B/A/G/ F/G/A/c/ | "G"BG G2 :|
+
+%%sep 2 1 500
+
+X: 42
+T: The Reconciliation
+T: The Olive Branch Hornpipe
+%T: Humphrey's Reel
+%T: Crannciuil Umfrei
+O: Ryans 1883
+R: reel
+B: O'Neill's 1850 (hornpipe)
+B: Ryan’s "Mammoth Collection", 1883, titled “The Olive Branch”
+D: Matt Molloy & Sean Keane: Contentment is Wealth.
+Z: id:hn-reel-95
+M: C|
+L: 1/8
+K: A
+|: "A"A2 c{B}A eAfA | eAfA "E7"ecBc | "A"A2 c{B}A eAfA | "(E)"ecBc "E7"AFEF | "A"A2 c{B}A eAfA |
+| eAfA "E7"ecBc | "A"ABAF EAcf | "E7"ecBc "A"A4 :: "A"A2{B}ce a3f | "E7"efed cdcB |
+| "A"A2{B}ce a3g | "Bm"fbba "E7"gefg | "A"a2ae faec | "Bm"dBcA "E7"BAFG | "A"ABAF EAcf | "E7"ecBc "A"A4 :|
+
+%%sep 2 1 500
+
+X: 43
+T: Rickett's Hornpipe
+O: Scotland 1781
+B: Alexander McGlashan's "Collection of Scots Measures", 1781
+M: C|
+Z:
+R: reel
+K: D
+(3ABc |\
+"D"dcdA FAdf | "A"edcB A2g2 | "D"fgaf "G"gfed | "A"edcB Agfe | "D"dcdA FAdf |
+"A"edcB A2g2 | "D"fafd "A"egec | "D"d2f2 d2 :: fg | "D"afaf d2ga | "G"bgbg "A"e2fg |
+"D"afba "G"gfed | "A"edcB Agfe | "D"dcdA FAdf | "A"edcB A2g2 | "D"fafd "A"egec | "D"d2f2 d2 :|
+
+%%sep 2 1 500
+
+X: 44
+T: The Road to Boston
+T: The March to Boston
+O: 1775
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+de \
+| "D"f4 ~f2ef | "(G)"g2f2 e2d2 | "A7"c2d2 e2f2 | "D"d2A2 F2A2 \
+| "D"f4 ~f2ef | "(G)"g2f2 e2d2 | "A7"c2d2 e2c2 | "D"d6       :|
+|: fg \
+| "D"a4    ~a2^ga | "G(Bm)"b2a2 g2f2 | "Em"g4  ~g2fg | "A7"a2g2 f2e2 \
+| "D(Bm)"f4 ~f2ef | "G(Em)"g2f2 e2d2 | "A7"c2d2 e2c2 |  "D"d6       :|
+
+%%sep 2 1 500
+
+X: 45
+T: The Soldier's Joy
+T: The King's Head Reel
+R: reel
+O: Joshua Campbell 1778
+B: Joshua Campbell's Collection 1778
+B: RSCDS 2-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: The earlier name of this tune was "The King's Head Reel"
+M: C|
+L: 1/8
+K: D
+FG \
+| "D"AFDF AFDF | "D"A2d2 d2cB | "D"AFDF AFDF | "A7"G2E2 E2FG | "D"AFDF AFDF |
+| "D"A2d2 d2de | "D"fafd "A7"egec | "D"d2f2 d2 :: de | "D"f2fd fagf | "A7"e2ec egfe |
+| "D"f2fd fagf | "A7"edcB A2g2 | "D"f2fd fagf | "A7"e2ec egfe | "D"fafd "A7"egec | "D"d2f2 d2 :|
+
+%%sep 2 1 500
+
+X: 46
+T: Speed the Plough
+C: John Morehead
+Z: John Chambers <jc:trillian.mit.edu>
+O: c.1800
+N: Skye, p.5
+N: Caledonian Companion, p.37
+N: Allan's p.3 #6
+N: Harp and Claymore, p.96 (with variations by J.S.Skinner)
+N: Hardie p.37
+N: SFT p.7
+N: Litten p.23
+N: Skye  p.5
+N: Kennedy V.1 p.16
+N: Allan's p.3
+N: Phillips p.44 from Topic 12T280
+N: J.S.Skinner(?)
+D: Bill Hardie on "The Fiddler's Companion" tape
+M: C|
+L: 1/8
+K: A
+E \
+| "A"~A2Ac efec | eaec efec | "D"dfdB "A"cecA | "Bm"dcBA "E7"GABc || "A"~A2Ac efec |
+eaec efec | "D"decd "Bm"BcAB | "E7"FAGB "A"A3 :: g | "A"a2(3bag aAce | aAgA fAeA |
+"D"dfdB "A"cecA | "Bm"dcBA "E7"GABd || "A"(3cBA eA "(D)"fA"A"eA | "D"fgaf "A"ecAc | "D"decd "Bm"BcAB | "E7"FAGB "A"A3 :|
+
+%%sep 2 1 500
+
+X: 47
+T: Staten Island Hornpipe
+O: Aird 1782
+B: RSCDS 47-7
+R: hornpipe, reel
+Z: John Chambers <jc:trillian.mit.edu>
+N: There are Staten Islands in Scotland and Argentina, as well as in the USA.
+N: Cole p.97
+M: C|
+L: 1/8
+K: D
+|: AG | "D"FDFG A2A2 | dfed dcBA | "G"B2GB "D"A2FA | "A7"G2E2 E2AG | "D"FDFG A2A2 |
+| dfed dcBA | d2d2 "A7"efge | "D"f2d2 d2 :: fg | "D"a2fa "A7"g2eg | "D"f2df "A7"ecA2 |
+| "C"=c2c2 efge | "C"=c2c2 efge | "D"a2fa "A7"g2eg | "D"f2df "A7"ecA2 | "D"d2d2 "A7"efge | "D"f2d2 d2 :|
+
+%%sep 2 1 500
+
+X: 48
+T: The Steamboat
+O: c.1830
+M: 4/4
+L: 1/8
+R: Hornpipe
+B: George Spencer manuscript (Leeds, 1831)
+B: Kerr's Merry Melodies Book 1 (Glasgow c1883)
+B: MacDonald – Skye Collection (1887)
+K: G
+(3def \
+| "G"g2bg d2gd | "G"BcdB G2AB | "C"c2ec "Am"A2cA | "D7"FGAB cdef | "G"g2bg d2gd |
+"G"BcdB G2AB | "C"cedc "D7"BAGF | "G"A2G2 G2 :: Bc | "G"dBdB g2gf | "C"ecec "A7"a2ag |
+"D7"fefd "G"gfgb | "A7"agfe "D7"d2 (3def | "G"g2bg d2gd | "G"BcdB G2AB | "C"cedc "D7"BAGF | "G"A2G2 G2 |]
+
+%%sep 2 1 500
+
+X: 49
+T: (Reel of) Stumpie
+T: Wap an' Rowe
+O: Trad (1734)
+Z: John Chambers <jc:trillian.mit.edu>
+R: polka
+M: C|
+L: 1/4
+%Q: 112
+K: A
+d \
+|: "A"ce a2 | a/g/f/e/ a2 | ce a2 | "Bm"bB "E7"B2 \
+ | "A"ce a2 | a/g/f/e/ a2 | ce "E7"B>d | "A"cA A> :|
+B \
+|: "A"ce ed/c/ | "D"df f>d | "A"ce "F#m"f/e/c/A/ | "Bm"cB "E7"B2 \
+ | "A"ce ed/c/ | "D"df f>d | "A"ce "E7"B>d | "A"cA A> :|
+
+%%sep 2 1 500
+
+X: 50
+T: Su(c)k(e)y bids me
+O: 1747
+R: reel
+B: Johnson's "200 Country Dances" 1751
+B: Rutherford's "200 Country Dances" 1756 p.25
+B: The Imperial Magazine (1761),
+B: RSCDS 12-10(II)
+B: Gow's Repository
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F
+A \
+| "F"F2CD "Bb"F2d2 | "F"cAFA "C7"GEDC \
+| "F"F2CD "Bb"F2d2 | "C7"cABG "F"F3 :|
+A \
+|  "F"c2AB     c2f2 |  "C"egec  "G7"dfd=B \
+| "C7"c2AB  "F"c2f2 | "G7"efd=B "C7"c3 |]
+d \
+|  "F"cfed     cBAF | "G9"A2AF  "C7"GEDC \
+|  "F"F2CD "Bb"F2d2 | "C7"cABG   "F"F3 |]
+
+%%sep 2 1 500
+
+X: 51
+T: Temperance Reel
+T: Teetolaler's Reel
+O: Ryan 1883
+R: reel
+B: Ryan’s Mammoth Collection, 1883
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: "G"G2GF GABc | dBge "D/f#"dBAc | "Em"BEED EFGA | "D7"BGAF GFED || "G"G2GF GABc |
+| "G"dBge "D/f#"dBAc | "Em"BEED "(C)"EFGA | "D7"BGAF "G"G4 :: "Em"Beed e3f | geaf gfed |
+| "D"Adde d3e | fdaf gefd || "Em"Beed e3f | geaf gfed | BEED "(C)"EFGA | "D7"BGAF "G"G4 :|
+
+%%sep 2 1 500
+
+X: 52
+T: Walker Street (Carpenter's Reel)
+O: Ryan 1883
+B: Ryan’s "Mammoth Collection", 1883; p.72
+B: Kohler’s "Violin Repository", 1881-5
+B: White’s Unique Collection, 1896; No. 41, p.8
+B: Cole p.45
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: "G"~G2 BG [dD]GBG | "D7"ABcd cBAG | "G"BdgB dgBd | "C"cBAG "D7"FDEF |  "G"~G2 BG [dD]GBG |
+"D7"ABcd cBAG | "G"BdgB dgBd | "D7"cAFD "G"G4 :: "G"g2dg Bgdg | gabg "D7"agef | "G"g2dg Bgdg |
+"C"cBAG "D7"Fdef |  "G"g2dg Bgdg | gabg "D7"agef | "C"gfga "(G)"gfed | "C"eg"D7"fa "G"g4 :|
+
+%%sep 2 1 500
+
+X: 53
+T: The White Cockade
+O: Playford, 1687
+R: march
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Playford "Apollo's Banquet", 1687, just called "a Scots tune"
+M: C|
+L: 1/8
+K: G
+"(D7)"GA \
+| "G"B2Bd cBAG | "G"B2B2 B2GA | "G"B2Bd cBAG | "D7"B2A2 A2GA \
+| "G"B2Bd cBAG | "G"B2d2 "Em"g2ga | "C"bagf "D7"efge | "G"d2B2 "(D7)"B2 :|
+|: "(D7)"Bc \
+| "G"d2B2 g2Bc | "G"d2d2 "(D7)"d2Bc | "G"d2B2 "Em"g2fg | "Am"a2A2 "D7"A2GA \
+| "G"B2d2 "D7"cBAG | "G"B2d2 "Em"g2ga | "C"bagf "D7"efge | "G"d2B2 "(D7)"B2 :|
+
+%%sep 2 1 500
+
+X: 54
+T: The Wind That Shakes the Barley
+R: reel
+O: c.1800
+N: May be an Irish variant of Largo's Fairy Dance Reel (Nathaniel Gow 1809)
+B: Henry Robson's "The Northern Minstrel's Budget", c.1800
+B: Joshua Gibbons (Lincolnshire) private MS c.1825
+B: Surenne (Dance Music of Scotland), 1852; pg. 41
+B: Stewart-Robertson (The Athole Collection), 1884; pg. 89
+B: MacDonald (The Skye Collection), 1887; pg. 35
+B: RSCDS 21-8(II) (in A)
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: "D"A2AB AFED | "G"B2BA B2d2 | "D"A2AB AFED |1 "G"gfed "A7"B2d2 :|2 "G"gfed "A7"Bcde |]
+|: "D"f2fd "G"g2ge | "D"f2fd "A7"ecBA |1 "D"f2fd "G"g2ge | "D"afed "A7"Bcde :|2 "D"defg "Bm"afba | "Em"gfed "A7"BcdB |]

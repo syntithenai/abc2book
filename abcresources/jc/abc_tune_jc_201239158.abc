@@ -1,0 +1,24 @@
+X: 321
+T: Mr McIntosh's Reel
+C: by Wm Christie
+R: reel
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c." p.32 #1
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+Q: "Vivace"
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+B, |\
+(A,<A)A>G TF2D>=C | (B,<B)B>A ~G2E>c | dDA>G ~F2DB, | A,DCE .F.D.A.D :| .A.d.c.d {d}f2(Td>c) | BbBd cAeA |
+.A.d.c.d {d}Tf2(.d.B) | Adce fdad || .A.d.c.d {d}f2(Td>c) | BbBd cAeA | dDAG FBAB, | A,DCE .F.D.A.D |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | D2A2 d2f2 | g2d2 e2A2 | B2c2 d2G2 | F2A2 D2d2 :| d2a2 d'2f2 | g2^g2 a2=g2 |
+f2a2 d2g2 | f2a2 d2d'2 || f2a2 d'2f2 | g2^g2 a2=g2 | f2c2 d2D2 | F2A2 D2d2 |]
+%ther_and_go = = = = = = = = = =

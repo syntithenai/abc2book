@@ -1,0 +1,41 @@
+X: 1
+T: Bi\vcak    [G]
+O: Bulgaria
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 14/16
+L: 1/16
+P: A4B2 A2B1 C2 D2 E2 F2 G2 H2 I A2B2
+Q: 1/8 1/8 1/8 3/16 1/8 3/16
+K: G
+%%indent 350
+"A"\
+|::: "D7"d2- dc c2 c2B "G"BG "C"c2B | "D"A2 A2 BA GF2 "G"G2 G2z :::|
+"B"\
+|: "C"FG GA A2 "D7"A3 c2 "G"BAG |\
+[1,3  "D7"AD Ac B2 ~A2G "G"GA Bcd :|\
+[2,4  "D7"AD Ac B2 ~A2G "G"G2 !ginf!G3 :|
+"C"\
+|: "D7"d^c de ^c2 c2B cd "G"BAG |\
+[1,3 "D7"AD Ac B2 ~A2G "G"GA Bcd :|\
+[2,4 "D7"AD Ac B2 ~A2G "G"G2 G3 :|
+"D"\
+|: "E eronf ..."E2 A2 G2 A3 GF E3 | E2 G2 F2 E3 A2 G2F |\
+                E2 A2 G2 A3 GF E3 | E2 G2 F2 E3 E2 E3 :|
+"E"\
+|: "Am"A2 d2 c2 "Dm"d3 "Am"cB A3 |\
+[1,3 A2 c2 B2 A3 "Dm"d2 "E7"c2B :|\
+[2,4 A2 c2 B2 "E7"A3 "Am"A2 A3 :|
+"F"\
+|: "Am"GA AG AB "Dm"cdB "Am"cB A2E |\
+[1,3 "Am"GA AG AB "Dm"cdB "Am"cB Aee :|\
+[2,4 "Am"GE GA AG "Dm"cBA "Am"A2 AAA :|
+"G"\
+|: "Dm"~d2- dB cB "Am"A2B "Dm"d2 "Am"c2B |\
+[1,3 "Dm"AG "Am"cB AG "Dm"c2B "Dm"d2 "Am"c3 :|\
+[2,4 "Am"AG cB AG "Dm"c2B "Am"A2 "Am"A2G :|
+"A"\
+|: "Am"AG cB AG "Dm"c2B "Am"A2 "Am"A2G |\
+[1,3 "Am"AG cB AG "Dm"c2B "Am"A2 "Am"A2G :|\
+[2,4 "Am"AG cB AG "Dm"c2B "Am"A2 "Am"A3 :|
+"I"\
+|| G14- | "eb Dbpo"G14 |]

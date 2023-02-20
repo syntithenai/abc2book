@@ -1,0 +1,24 @@
+X: 1
+T: L\aangdans fr\aan Soller\"on
+O: efter Reser Anna Larsson, Soller\"on, Dalarna
+B: Svenska L\aaatar, Dalarna nr 1478
+B: Paul B\"ackstr\"om, "L\aatar fr\aan Dalarna", nr 196
+N: "SEL00998 Version utformad och utskriven av Stefan Lind\'en, senast \"andrad 130426"
+S: Fiddle Hell Online 2020-11-05 handout from Bronwyn Bird
+S: Fiddle Hell Online 2022-4-2 handout for Bronwyn Bird's Swedish Jam
+Z: John Chambers <jc@trillian.mit.edu>
+N: Tune for a simple, well-known line dance by the same name.
+M: 3/4
+L: 1/8
+K: Dm
+V: 1 staves=2
+|: ("Dm"A2 "A7"^c2) "Dm"d2 | "A7"e3 g "Dm"f2 | "Dm"d2 (fe) "(A7)"d^c | "Dm"d3 ^c "A7"A2 \
+|  ("Dm"A2 "A7"^c2) "Dm"d2 | e3 g "Dm"f2 | "Dm"d2 (fe) "(A7)"d^c | "Dm"d4 d2 :|
+|: "A7"a2 g2 e2 | "A7"g3 e "Dm"f2 | "Dm".f2 .a2 "A7".g2 | .e2 ge "Dm"f2 | d2 (fe) "(A7)"d^c | "Dm"d4- d2 :|
+
+% Harmony from another (unrecorded) source:
+%V: 2
+%|: "A7"AG [A2E2] "Dm"[AF][GA] | "A7"A^c ec "Dm"[d2D2] | F2 DE "A7"FG | "Gm"F2 B2 "A7"AG \
+%|  "A7"F2 [A2E2] "Dm"[A2F2] | "A7"B2 A^c "Dm"[d2D2] | F2 D2 "A7"B2 | "Dm"AG FE [A2D2] :|
+%|: "A7".[f2A2] .[e2A2] .^c2 | A^c ec "Dm"d2 | DE F2 "Gm"B2- | "A7"B2 A^c "Dm"[d2D2] \
+%|  "Gm"[B2D2] "Dm"[A2D2] "A7"[A-G][AE] | "Dm"[A4F4][A2D2] :|

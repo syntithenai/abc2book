@@ -1,0 +1,28 @@
+X: 1
+T: Struan Robertson
+C:
+R: strathspey
+B: Susie Petrov Her Book of Musick p. 114
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+P: AB CDCD ABCD
+M: C
+L: 1/8
+K: Bm
+F "A"|\
+"Bm"B2 d>e f>e f/g/a | "A"A2 c>B A>c e>c |\
+B2 d>e f>e f<a | "F#m"g/f/e a>c "Bm"B2 f :| z
+"B"[|\
+"Bm"d>f B>f d>f B>f | "A"c<e A>e c<e A>e |\
+"Bm"d>f B>f d>f B>f | "A"c<a e>c "Bm"B2 f2 ||
+||\
+"Bm"d>f B>f "E"d>f B>f | "A"c<e A>e c<e A>e |\
+"Bm"f/g/a "A"e>c "Bm"d>B "A"c<A | "D"d<f "A"e>c "Bm"B2 f2 |]
+"C"|:\
+"D"d>e f>g a>f d>f | "A"e>A c<A c/e/A c<A |\
+"D"d>e f>g a>f d<f | "A"e>c A>c "Bm"B2 f2 :|
+"D"[|\
+"Bm"B2 B>c d>c B/c/d | "A"c>B A>c e>A c<A |\
+"Bm"B2 B>c d>c B/c/d | "A"c<A e>c "Bm"B2 f2 ||
+||\
+"Bm"B2 B>c d>f d>f | "A"c<e A>e a>e c<A |\
+"Bm"f>d "A"e>c "Bm"d<B "A"c<A | "D"d>f "A"e>c "Bm"B2 f2 |]

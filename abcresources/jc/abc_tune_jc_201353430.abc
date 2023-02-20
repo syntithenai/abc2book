@@ -1,0 +1,15 @@
+X:804
+T:The Wives' Victory
+C:Thomas Bray, 1699
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=112
+%%MIDI chordname dim 0 3 6 9
+M:6/8
+L:1/8
+K:Gm
+P:A
+|:d | "Gm"g3/^f/g "D7"a3/g/a | "Gm"b3/a/g "Dm"f3/e/d | "Eb"g2d "Cm"c3/d/B | "D"A3- "/"A2B/c/ |\
+"Bb"d2z "F"A2z | "Gm"B2z "Bb"f2z | "Cm"c3/d/e "F"c2B | "Bb"B3- "/"B2 :|
+P:B
+|: d/e/ | "Bb"f3/g/f "/"B3/c/d | "Adim"e3/d/c "G"d3/=e/f | "C"=e3/^f/g "Am"a2b | "D"^f3- "/"f2d/c/ |\
+"Gm"B2z "Cm"e2z | "F"A2z "Bb"d2z | "Eb"G3/A/B "D7"B3/A/G | "Gm"G3- "/"G2 :|

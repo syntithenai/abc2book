@@ -1,0 +1,76 @@
+
+X: 1
+T: \vSrote\vs   [A]
+T: Shrotesh
+O: Croatia
+R:
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+P: Play A part slowly, B part faster.
+K: A
+"^Intro".e.e/.e/ .e.e .ez .ez !A!|:\
+"A"ec "E"dB "A"cA AA | "E"BG GG "A"cA AA |\
+"A"ec "E"dB "A"cA AA | "E"ee e/f/g aa az :|
+!B!|:\
+"D"ag f2 "A"ed c2 | "E"BB/c/ dB "A"AB c2 |\
+"D"ag f2 "A"ed c2 | "E"e/e/e fg "A"aa az :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: \vSrote\vs   [D]
+T: Shrotesh
+O: Croatia
+R:
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+P: Play A part slowly, B part faster.
+K: D
+"^Intro".A.A/.A/ .A.A .Az .Az !A!|:\
+"D"AF "A"GE "D"FD DD | "A"EC CC "D"FD DD |\
+"D"AF "A"GE "D"FD DD | "A"AA A/B/c dd dz :|
+!B!|:\
+"G"dc B2 "D"AG F2 | "A"EE/F/ GE "D"DE F2 |\
+"G"dc B2 "D"AG F2 | "A"A/A/A Bc "D"dd dz :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: And'aman Palikanari    [Dm]
+T: Sta Dyo
+R: sta dyo
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Dm
+D2 | "Dm"A2 (AG) | F2 A2 | "G"G4 | (FE) D2 | "C"E2 (EF) | G2 D2 | "Dm"D4- | D2 :|
+w: 1.~And-'a-man* pa-li-ka-na-*ri, dho-dhe-*ka hro-non,
+w: 2.~Na ma-tho* to dho-ksa-ri,** ke to* po-le-mo,
+w: 3.~Mon ma-tha* tin a-ga-pi** tin pa-*te-ri-mi,
+|: (ED) | "C"C2 (DE) | "F"F2 A2 | "Gm"(G4 | FE) D2 | "C"E2 (EF) | G2 D2 | "Dm"D4- | D2 :|
+w: 1.~ge-*ni-tsa-*ro me pi-**ran pe-ra* stin fran-ghia.
+w: 2.~mi-*dhe dho-*ksa-ri ma-**tha, mi-dhe* po-le-mo.
+w: 3.~ta* si-dhe-*ra pa-tou-**sa, ke vga-*za ne-ro.
+%
+W: 1. When I was a young man of twelve, they took me as a Janissary to foreign lands.
+W: 2. To learn the bow and war; neither the bow did I learn nor war.
+W: 3. I only learned of love for the homeland.  I pressed iron and drew water.
+
+%%sep 1 1 500
+
+
+X: 1
+T: And'aman Palikanari   [Em]
+T: Sta Dyo
+R: sta dyo
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Em
+E2 | "Em"B2 (BA) | G2 B2 | "A"A4 | (GF) E2 | "D"F2 (FG) | A2 E2 | "Em"E4- | E2 :|
+|: (FE) | "D"D2 (EF) | "G"G2 B2 | "Am"(A4 | GF) E2 | "D"F2 (FG) | A2 E2 | "Em"E4- | E2 :|

@@ -1,0 +1,20 @@
+X: 1
+T: Red River Jig
+C: trad.
+%D:
+R: mixed
+S: Fiddle Hell Online 2022-4-6 handout for Calvin Vollrath workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4	% and 2/4
+L: 1/16
+K: A
+[e3A3][ec] "^A"||\
+"A"dfed [ec]A(3BcB [e2A2]cA |: "A"dfed [ec]A(3BcB [e2A2]cA | dfec [e2A2][eA]f ed[ec]A |[M:2/4]
+[E3A,3][EA,] [E2A,2]Ac |[M:3/4] "A"dfed [ec]A(3BcB [e2A2]cA |[M:2/4] dfed [ec][eA](3f=gf |\
+[e2A2]ce dcdA | "A7"(3BcdcB A=GFE ||
+"^B"||[K:=g][K:D] "D"DCDE [D3A,3]F |\
+EDCE DEFG | AAFD EDFE | DCDE D2DF |\
+EDCE DEFG | AAFD EDFE | DCDE [D3A,3]F |
+EDCE DEFG !coda!|[M:3/4] (3ABcdB "A7"A[AG][AF][AE] "D"[A2D2](3ABc |[K:A]\
+"Bm"dfed "E7"[ec]A(3BcB "A"[e2A2]cA :|[K:=g][K:D][M:2/4]\
+!coda!|"D"(3ABcdB [A[AG][AF][AD] | "D"[D8-A,8-] | "D"[D2A,2] "^tacet"z2 z4 |]

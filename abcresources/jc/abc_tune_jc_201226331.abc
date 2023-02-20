@@ -1,0 +1,25 @@
+X: 10201
+T: the HON. RAMSAY MAULE'S MARCH.
+C: Nathaniel Gow.
+%R: march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.20 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The thythms at the strains' boundaries don't match; not fixed.
+M: C
+L: 1/16
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F2 |\
+B4B3B f6d2 | c3de2c2 (B2A2)(G2F2) |\
+B4B3B {Bc}d4c3B | A3Bc2d2 c3FG3A |\
+B4B3B f3df3d | g2e2c3B (B2A2)(G2F2) |\
+B4B3B c3de3c | A3Bc3A [B4D4] :|
+|: (Bcde) |\
+f4f3f {ga}b4a3g | f2d2 g3e (e2d2)(c2B2) |\
+f4f3f g3=eg3b | a3bg3a f4d3_e |\
+f3g/f/ d2z2 e3f/e/ c2z2 | d2B2G2c2 (B2A2)(G2F2) |\
+B4B3B e6d2 | c3Bc3A [B6D6] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,31 @@
+X: 1
+T: Lament for the Death of Rev. Archie Beaton
+C: J. Mason 1971
+S: James Hunter Collection of Scottish Fiddle Tunes
+Z: John Erdman <jperdman:agate.NET
+N:
+N: The Rev Archie Beaton was minister of Dundonald Parish Church, Ayrshire.
+N: A champion of Gaelic culture, he died suddenly while acting as president of
+N: An Comunn Gaidhealach at the Stirling Mod in 1971. The air was written by
+N: John Mason, a native of the Orkney Islands now practicing law in Troon. He
+N: is conductor of the Kilmarnock and Ayr Strathspey and Reel Society, and a
+N: well known conductor at Fiddle Rallies.
+M: C
+%Q: 1/4=58
+%P: Slow and pathetic
+L: 1/8
+%%staffsep 45
+K: G
+Bc \
+| "G"d3 d "D7"{e}dc {Bc}BA | "G"{F}G2 B2 D3 G \
+| "C"{EF}E2 {F}GE "G"{DE}D3 B, | "Am"{B,}A,4- "D7"A,2 (Bc) \
+| "G"d3 d "D7"{e}dc {Bc}BA | "Em"{F}G2 B2 "Bm"D3 G |
+| "C"{EF}E2 {d}cA "D7"{G}F3 D | "G"{D}G6  :| {C}B,A, \
+| "G"G,3 B, "(D)"D3 D | "G"{Bc}B3 A "C"{F}G3 E \
+| "G"{DE}D2 {F}GE "(Em)"{DE}D3 B, | "Am"{B,}A,4- "D7"A,2 {C}B,A, |
+| "G"G,3 B, "(D)"D3 D | "G"{Bc}B3 A "C"{F}G3 E \
+| "G"{DE}D2 {F}GB, "D7"{A,B,}A,3 B, | "G"{A,}G,4- "D7"A,2 {C}B,A, \
+| "G"G,B, DG Bd ga | {ga}b3 a "C"{ga}g3 e |
+| "G"{^c}d2 {ga}ge "Em"{^c}d3 B | "Am"{B}A4- "D7"A2 (Bc) \
+| "G"d3 d "D7"{de}dc {Bc}BA | "Em"{F}G2 B2 "Bm"D3 G \
+| "Am"E2 {d}cA "D7"{G}FD CA, | "G (C G)"{A,}G,6 z2 |]

@@ -1,0 +1,26 @@
+X:1
+T:Fanny Power  " "
+M:6/8
+L:1/8
+Q:80
+C:Trad. arr. E Mole.
+S:Slow Air
+K:HP
+|: {g}A | \
+{Gdc}d2{e}A{Gdc}d3/2e/2{g}f | \
+{gf}g2f{gef}e2d |
+{gde}dc{e}B{G}A2{GAG}A | \
+{gcd}c3/2B/2{g}c3/4d/4{gef}e2{gf}g | \
+{a}f3/2e/2d{g}f3/2g/2a |
+B3/2g/2f{gef}e2d | \
+{gde}dc{e}B{G}A3/2d/2{g}c | \
+{Gdc}d3{gdG}d2 ::
+{g}f3/4g/4 | \
+{ag}af3/4g/4a{g}af3/4g/4a | \
+d3/2f/2d{gde}dfd |
+{gf}ge3/4f/4g{f}ge3/4f/4g | \
+{cd}c3/2e/2c{gcd}cec | \
+{g}f3/2e/2d{g}f3/2g/2a |
+B3/2g/2f{gef}e2d | \
+{gde}dc{e}B{G}A3/2d/2{g}c | \
+{Gdc}d3{gdG}d2 :|

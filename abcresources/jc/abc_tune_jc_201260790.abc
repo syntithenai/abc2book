@@ -1,0 +1,17 @@
+X: 652
+T: Catherine Nowlan   #2
+T: caitilin ni nuallain
+R: air, waltz
+%S: s:3 b:12(4+4+4)
+C: O'Carolan
+B: O'Neill's 1850 #652
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Compacted by using labels and play order [JC]
+P: Play AB CB
+Q: "Slow"
+M: 3/4
+L: 1/8
+K: D
+"^A"[|] (AB/c/) | (d2F)z (d>c) | (B2A)z (AB/c/) | d4 c2 | B4 |]
+"^B"[|  (d>c) | ({Bc}B>A) ({GA}G>F) ({EF}E>D) | Dz D2 (DF/A/) | B2 (ez c)z | "^fine"d4 |]
+"^C"[| (d>e) | fz (az (f>e)) | dz (.d.c.B.A) | d4 cz | "->B"B4 |]

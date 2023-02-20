@@ -1,0 +1,30 @@
+X: 1
+T: Old Hob
+%: the Mouse Trap
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (48)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+D2E F2G | A2B c>BA | Bcd ecA | Ad2- d2D |\
+D2E F2G | A2B c>BA | Bcd ecA | Ad2- d2 :|
+|: (c/d/) |\
+ecA d>ef | B3 g3 | (fe)d e>de | A3- A2f |\
+g2f e2d | c>de A2A | B>cd ecA | Ad2- d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man turn the 2d Wo. then cast off with his Partner
+%% .| The 2d Man do the same with the 1st Wo :| Then
+%% the 1st Man change Places with the 2d Wo. and the
+%% 2d Man with the 1st Wo Hands half round then the 1st
+%% Cu. cast off .| The 1st Cu. lead down the Middle and cast
+%% up behind the 3d Cu. into the 2. Cu. Place and turn
+%% Hands :|
+%%endtext
+%%sep 1 8 500

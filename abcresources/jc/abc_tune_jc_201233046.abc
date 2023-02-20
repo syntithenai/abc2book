@@ -1,0 +1,32 @@
+X: 182
+T: Mrs MUIR MACKENZIE
+C: Wm GOW
+R: Reel
+B: Glen Collection p.18 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: C
+%
+V: 1
+E |\
+Cc2G ECC_E | D_B2F D_B,B,D | Cc2G E>FGf | ecde c/c/c c2 |
+Gc2G ECC_E | D_B2F D_B,B,D | C~c2G E>FGf | ecde c/c/c c ||
+e |\
+gece .g(aTg>e) | fd_Bd .f(gTf>d) | gece .g(aTg>e) | fdg>e c/c/c ce |
+gece .g(aTg>e) | fd_Bd .f(gTf>d) | cedf egfa | gefd c/c/c c |]
+%
+V: 2
+z |
+c2[c'2g2] c2[g2_e2] | _B2[_b2f2] B2[f2d2] |\
+c2[c'2g2] [c'2g2][c'2g2] | [e'2c'2g2][f'2b2g2] [e'2c'2][e'2c'2] |
+c2[c'2g2] c2[b2_e2] | _B2[_b2f2] B2[f2d2] |\
+c2[c'2g2] [c'2g2][c'2g2] | [e'2c'2g2] [f'2b2g2] [e'2c'2][e'c'] ||
+z |\
+c2[c'2g2] e2[c'2g2] | _B2[_b2f2] d2[b2f2] |\
+c2[c'2g2] e2[c'2g2] | [b2g2][b2g2] [c'2c2][c'2c2] |
+c2[c'2g2] e2[c'2g2] | _B2[_b2f2] d2[b2f2] |\
+c2[b2g2] [c'2g2][d'2g2] | [e'2g2][b2g2] [c'2c2][c'gec] |]

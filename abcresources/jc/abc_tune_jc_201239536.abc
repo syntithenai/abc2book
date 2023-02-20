@@ -1,0 +1,19 @@
+X:3306
+T:It's Just for Fun
+P:Quickstep
+C:Nathaniel Gow
+R:Jig (8x32)
+B:RSCDS 33-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Bb
+%%staffsep 45
+|:F|"Bb"B2 B "F/A"cde|"Bb"fdB "Bb7/D"Bcd|"Cm/Eb"e2e "C7"GAB|"F"cAF "F7/Eb"FGA|\
+    "Bb"B2 B "F7/C"cde|"Bb"fdB Bcd|
+                                   "Cm"e2 e "F7"FGA|"Bb"B3 B2:|\
+f|"Gm"b2 b gab|"Dm"afd def|"Eb"g2 g "F7/C"efg|"Bb/D"fdB "Bb"B2 f|
+  "Gm"b2 b "C7"gab|"Dm"afd "Bb"d2 "Gm"b|"F/C"agf "C7"gf=e|"F"f3-"F7/A"f2 f|\
+  "Gm"b2 b "C7"gab|"Dm"afd "Bb7/D"def|
+                                      "Eb"g2 g "F7/C"efg|"Bb/D"fdB "Bb7"B2 f|\
+  "Eb"gfg "D7"aga|"Gm"bag "Bb/D"fed|"Cm/Eb"ced "F7"cBA|"Bb"B3-B2|]

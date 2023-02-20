@@ -1,0 +1,24 @@
+X: 184
+T: Hora Veche
+O: Romania
+F: http://www.youtube.com/watch?v=6z0G9W9sgZo
+F: http://www.youtube.com/watch?v=jAWrBSdwcKY
+M: 2/4
+L: 1/8
+Q: 1/4=108
+K: Em^F
+%%MIDI program 110 Fiddle
+%%MIDI bassprog 32 Acoustic Bass
+%%MIDI chordprog 24 Acoustic Guitar
+%%MIDI gchord fzcz
+P:A
+"E"Z             |:\
+"E"zB,EF         |G3F                |"A"A3G   |"E"G2F2 |\
+zB,^DE           |"F#m"F3E           |^DCCB,   |"E"B,4  |
+zB,EG            |B3^A               |"A"c3B   |e2A2    |\
+zABc             |"E"BGAF            |"B"GE^F^D|"E"E4   :|
+P:B
+"B"zB^AB         |"E"G4              |zB^AB    |"F#m"F4 |\
+FGAB             |cBAc               |"E"B4-   |"B"BB^AB|
+"E"e4-           |eBcd               |"A"c4-   |c4      |\
+"E"(3BGB "A"(3AFA|"E"(3GEG "F#m"(3FDF|"E"E4-   |E2 z2   :|

@@ -1,0 +1,18 @@
+X: 1
+T: Hughie and Allan's Reel
+C: Kinnon Beaton
+%D:_
+R: reel
+S: Fiddle Hell Online 2022-4-7 handout for Andrea Beaton's workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+%%continueall
+"^A"|: dB |\
+AF F/F/F AFEF | DFAd f2df | eB B/B/B bf f/f/f | afed B2dB ||
+AF F/F/F AFEF | DFAd f2df | eB B/B/B bf f/f/f | edef d2 :|
+df "^B"|:\
+ad d/d/d afef | ad d/d/d a2fa | be e/e/e bafa |
+be e/e/e bafg || ad d/d/d afef | ad d/d/d a2fa |
+edBd efdB | AFEF [1 D/D/D Df :|2 D2 |]

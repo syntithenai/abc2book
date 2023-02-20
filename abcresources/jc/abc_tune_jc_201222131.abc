@@ -1,0 +1,30 @@
+X: 55
+T: Wanstead Maggot
+T: Longways for as many as will.
+%R: reel
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.28
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats adjusted to match the Note.
+N: The rhythms don't quite match at the strain boundaries; not fixed.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D2 G4 FE | F2 A4 A2 | G2 B4 AG | B2 d4 cB | c2 e4 dc | B2 d4 cB | A2G2 BAGF | G8 :|
+|:\
+gfga gfga | g2 b4 a2 | fefg fefg | f2 a4 gf | gfga gfga | g2 b4 ag |
+f2d2 fed^c | d8 :: cB | c2 e4 dc | B2 d4 cB | A2G2 BAGF | G6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man setts twice to the 2d Wo. & turns Her
+%% into his own Place .| The 1st Wo. and 2d Man the same
+%% :| The 1st Man Hey's on the We.s side and into his
+%% own Place .| Then the 1st Wo. the same on the Mens
+%% side :| Then all four sett .| and Right Hand and
+%% Left once round.
+%%endtext
+%%center Note: Each Strain is to be play'd twice over.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

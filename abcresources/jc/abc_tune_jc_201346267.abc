@@ -1,0 +1,118 @@
+
+X: 7
+T: Trip to Dilington    [G]
+O: 1779
+R: reel
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The B part is repeated in the original, but the dancers didn't agree and the dance has 5 phrases.
+L: 1/8
+M: C
+K: G
+% - - - - - - - - - -
+% Voice 1 may be adjusted for readability.
+V: 1 brace=2 staves=2
+"A"|:\
+"G"G2Bd g2dB | g2dB "D"AFED |\
+"G"G2Bd g2dB | "D7"AGAB "G"G4 \
+"B":|\
+"G"B2dB "D"Adef | "A"ge"D"fd "A7"^c2A2 |
+"G"g2bg "D"fgaf | "A7"ged^c "D"d4 \
+"C"|:\
+"G"G,2B,D GBdB | "Am"AcEA "D7"GFED |\
+"G"G,2B,D GBdB |"D7"AGAB "G"G4 :| [b2G,2]
+% - - - - - - - - - -
+% Voice 2 preserves the original staff layout.
+V: 2 clef=bass middle=d
+|:\
+g4 g4 | g2G2 d4 |\
+g4 G4 | d2d2 G2g2 \
+:|\
+g4 f2d2 | ^c2d2 a4 |
+b2^c'2 d'2d2 | a2A2 d2D2 \
+|:\
+B4 G4 | c2A2 d4 |\
+B4 G2B2 | d2D2 G4 :| [d'2D2]
+% - - - - - - - - - -
+%%begintext align
+%% The first Cu. hands 3 round with the second Lady .|
+%% the same with the 2d Gent.n :|
+%% lead down two Cu. up again and cast off :|.
+%% Allemande with your partner with the Right hand .||
+%% Allemande with the Left hand .||.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 7
+T: Trip to Dilington    (A)
+O: 1779
+R: reel
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The B part is repeated in the original, but the dancers didn't agree and the dance has 5 phrases.
+L: 1/8
+M: C
+K: A
+% - - - - - - - - - -
+"A"|:\
+"A"A2ce a2ec | a2ec "E"BGFE |\
+"A"A2ce a2ec | "E7"BABc "A"A4 \
+"B":|\
+"A"c2ec "E"Befg | "B"af"E"ge "B7"^d2B2 |
+"A"a2c'a "E"gabg | "B7"afe^d "E"e4 \
+"C"|:\
+"A"A,2CE Acec | "Bm"BdFB "E7"AGFE |\
+"A"A,2CE Acec |"E7"BABc "A"A4 :| [c'2A,2]
+% - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 7
+T: Trip to Dilington    (C)
+O: 1779
+R: reel
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The B part is repeated in the original, but the dancers didn't agree and the dance has 5 phrases.
+L: 1/8
+M: C
+K: C
+% - - - - - - - - - -
+"A"|:\
+"C"C2EG c2GE | c2GE "G"DB,A,G, |\
+"C"C2EG c2GE | "G7"DCDE "C"C4 \
+"B":|\
+"C"E2GE "G"DGAB | "D"cA"G"BG "D7"^F2D2 |
+"C"c2ec "G"BcdB | "D7"cAG^F "G"G4 \
+"C"|:\
+"C"C2EG cege | "Dm"dfAd "G7"cBAG |\
+"C"C2EG cege |"G7"dcde "C"c4 :| [g2G,2]
+% - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 7
+T: Trip to Dilington    (D)
+O: 1779
+R: reel
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The B part is repeated in the original, but the dancers didn't agree and the dance has 5 phrases.
+L: 1/8
+M: C
+K: D
+% - - - - - - - - - -
+"A"|:\
+"D"D2FA d2AF | d2AF "A"ECB,A, |\
+"D"D2FA d2AF | "A7"EDEF "D"D4 \
+"B":|\
+"D"F2AF "A"EABc | "E"dB"A"cA "E7"^G2E2 |
+"D"d2fd "A"cdec | "E7"dBA^G "A"A4 \
+"C"|:\
+"D"D2FA dfaf | "Em"egBe "A7"dcBA |\
+"D"D2FA dfaf |"A7"edef "D"d4 :| [a2A,2]
+% - - - - - - - - - -

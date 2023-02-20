@@ -1,0 +1,14 @@
+X: 137
+T: Hora Mare 2
+O: Romania
+M: 2/4
+L: 1/8
+Q: 1/4=120
+K: Bm
+%%MIDI program 41
+%%MIDI bassprog 25
+%%MIDI bassvol 70
+|:"Bm"F4     |B4    | (3cde (3dcB          |cdz2        |\
+  (3cde (3dcB|cdz2  | (3cde (3dcB          |BFBz        :|
+|:"D"feed    |"A"ce3|"D" f/e/e/d/ d/c/d/e/ |"A"fdA2     |
+  "D"feed    |"A"ce3|"Em" f/e/e/d/ d/c/c/B/|[1"Bm" Bcde :|[2 "Bm"B2z2|

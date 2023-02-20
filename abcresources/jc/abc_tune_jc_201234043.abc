@@ -1,0 +1,26 @@
+X: 20221
+T: Where will our good man Laye
+%R: march, reel
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.22
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+"_Brisk"(BA) |\
+G2 g4 (fe) | d4 B4 | A2 =f4 (ed) | c4 TA4 |\
+G2 g4 (fe) | {e}d4 TB4 | (cB)(AG) F2A2 | B2 G4 :|
+|: (Bc) |\
+(dc)(BA) (GA)(Bc) | d4 TB4 | (cB)(AG) (=FG)(AB) | c4 TA4 |\
+(dc)(BA) (GA)(Bc) | d4 TB4 | (cB)(AG) F2A2 | B2 G4 :|
+|: (Bc) |\
+d2d2 d2(Bc) | (d^c)(de) d2(AB) | c2c2 c2(AB) | (cB)(cd) c2(Bc) |\
+d2d2 d2(Bc) | (d^c)(de) d2(AB) | (cB)(AG) F2A2 | TB2 G4 :|
+|: (BA) |\
+Ggfg agfg | d2g2 TB4 | A=fef gfef | c2f2 TA4 |\
+Gg^fg agfg | d2gd B2gB | cBAG FADc | B2 G4 :: (Bc) |
+dB Gg d2B2 | dB Gg d3B | cA =F=f c2A2 | cA =F=f c3A |\
+dBGB e2(ce) | f2df g3B | cBAG FdAc | B2 {A}G4 :: (Bc) |
+dgBg dgBg | dgBg d2(AB) | A=fA=f cfAf | c=fAf c2(Bc) |\
+dBgB dBgB | dBge {e}d3B | (cB)(AG) F2A2 | B2 G4 :|

@@ -1,0 +1,22 @@
+X: 9
+T: Ako umran il zaginam
+O: Macedonia
+F: http://www.youtube.com/watch?v=Thfym1XecHo
+F: http://www.youtube.com/watch?v=zcjmmHXLOns
+M: 7/8
+L: 1/8
+K: Dm
+%%MIDI program 33
+%%MIDI chordprog 45
+%%MIDI gchord GzzHzzz
+|:"Dm" fff edec|ddd dAce   |ddd dAce    |\
+  [1ddd d=B^ce :|[2 ddd d4 |
+%%MIDI program 21
+|:"Gm"G2G GFGA |"F"F2E FEFA|"Gm"A2G FGFE|\
+  [1D2F G4     :|[2"Dm"D7  |
+P:B
+%%MIDI program 40
+  "F"FED A2A2  |FED A2A2   |"Dm"d2d c2B2|"F"A2B AA3|\
+  "F"FED A2A2  |FED A2A2   |"Gm"G2G A2G2|"Dm"F2E D4|
+  "Dm"d3 c2B2  |"Am"A7     |"Dm"d2d c2B2|"Am"A7    |\
+  "Gm"B2B A2G2 |"F"F7      |A2G F2E2    |"Dm"D7    |

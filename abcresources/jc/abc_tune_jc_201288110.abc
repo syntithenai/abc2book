@@ -1,0 +1,16 @@
+X: 620
+T: How the Money Goes
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #620
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0620/oneill-1001-0620-1.abc
+M: C
+L: 1/8
+K: G
+"^A"\
+[| G2Bd gdBd | cBAc BGEF | G2Bd gdBd | ecAF GFED ||
+|| G2Bd gdBd | cBAc BGEF | G2Bd gdBd | ecAF G2 |]
+"^B"\
+[| ef | gbef gedf | gbef g2ef | gbef gedc | BGAF G2 ||
+|| ef | gbef gedf | gbef g2ga | bgaf gfed | egfa g2 z2 |]

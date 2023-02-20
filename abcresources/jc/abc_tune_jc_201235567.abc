@@ -1,0 +1,31 @@
+X: 21222
+T: MASSASOIT SETT (tune 2)
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.122 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Strain 1 has only 7 bars; the last bar of strain 3 has an extra beat.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="2"
+de |\
+fefe gfed | e^de=d fedc | B>AB>c d>ef>d | edBd A2de |\
+fefe gfed | B2ge ceAc | defe d2 H|]
+A2 |\
+Ad(3(dcd) f2a2 | Ac(3(cBc) e2g2 | Ad(3(dcd) f2a2 | (3(bag) (3(agf) (3(gfe) (3(fed) |\
+Ad(3(dcd) f2a2 | Ac(3(cBc) e2g2 | f>ad>f e>gc>e | d>ef>e "^D.C."d2 |]
+A,DFA DFAd | FAdf Adfa | (ba)(ag) (gf)(fe) | (ed)(dc) (cB)(BA) |\
+A,DFA DFAd | FAdf Adfa | (ba)(ag) (gf)(fe) | edBd d2f2"^D.C."d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Grand right and left,
+%% all balance to partners,
+%% and turn,
+% grand chain,
+% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,53 @@
+X: 1
+T: Kymmenen Kymmenen   [C]
+O: Kivijat dance version
+M: 2/4
+L: 1/8
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+K: F
+"A"|:\
+"F"AA BA | "C7"G2 c2 | cd ed |  c2 c2 |\
+"F"AA BA | "C7"AG G2 | GG AG | "F"GF F2 :|
+"B"|:\
+"F"cc dc | "C"e2 e2 | cc dc | "F"f2 f2 |\
+fe dc | "C7"ed c2 |1 ed BG | "F"dc A2 :|2 "C7"ed cd/e/| "F"ff f2 |]
+"C"[|\
+"F"A2 A2 | "C7"G2 B2 | "F"AA "C7"GG | "F"FA C2 |\
+"F"A2 A2 | "C7"G2 B2 | "F"AA "C7"GG | "F"F2 z2 |]
+"D"|:\
+"F"cc AF | "Bb"d2 d2 | "C7"BB GE | c2 c2 |\
+"F"cc AF | "Bb"d2 "F"c2 | "C7"B2 AG | "F"F2 z2 :|
+"A"[|\
+"F"AA BA | "C7"G2 c2 | cd ed |  c2 c2 |\
+"F"AA BA | "C7"AG G2 | GG AG | "F"GF F2 |]
+"C"[|\
+"F"A2 A2 | "C7"G2 B2 | "F"AA "C7"GG | "F"FA C2 |\
+"F"A2 A2 | "C7"G2 B2 | "F"AA "C7"GG | "F"F2 [f2c2A2] |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2
+T: Kymmenen Kymmenen   [D]
+O: Kivijat dance version
+M: 2/4
+L: 1/8
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+K: G
+"A"|:\
+"G"BB cB | "D7"A2 d2 | de fe |  d2 d2 |\
+"G"BB cB | "D7"BA A2 | AA BA | "G"AG G2 :|
+"B"|:\
+"G"dd ed | "D"f2 f2 | dd ed | "G"g2 g2 |\
+gf ed | "D7"fe d2 |1 fe cA | "G"ed B2 :|2 "D7"fe de/f/| "G"gg g2 |]
+"C"[|\
+"G"B2 B2 | "D7"A2 c2 | "G"BB "D7"AA | "G"GB D2 |\
+"G"B2 B2 | "D7"A2 c2 | "G"BB "D7"AA | "G"G2 z2 |]
+"D"|:\
+"G"dd BG | "C"e2 e2 | "D7"cc AF | d2 d2 |\
+"G"dd BG | "C"e2 "G"d2 | "D7"c2 BA | "G"G2 z2 :|
+"A"[|\
+"G"BB cB | "D7"A2 d2 | de fe |  d2 d2 |\
+"G"BB cB | "D7"BA A2 | AA BA | "G"AG G2 |]
+"C"[|\
+"G"B2 B2 | "D7"A2 c2 | "G"BB "D7"AA | "G"GB D2 |\
+"G"B2 B2 | "D7"A2 c2 | "G"BB "D7"AA | "G"G2 [g2d2B2] |]

@@ -1,0 +1,26 @@
+X: 20171
+T: At setting Day
+%R: air, strathspey
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.17 #1
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Some grace notes are slurred; others aren't; ABC has no reliable way to say which.
+M: C
+L: 1/8
+K: G
+"_Slow"(B>c) |\
+(d<B)(c<A) G2d2 | (e<g)(f<a) Tg3(f/e/) |\
+(d<B) (TA>G) E2 (A/B/)c | TB2{AB}A2 z2A2 |\
+(BA)(Bc) d3e | Tfefg{fg}a3g | (f<a)(f<d) B2^c2 |
+(Td>^c)d2 z2 :: (de) | (fd)(fg) {fg}a3g |\
+(Tfe)(Tdc) {c}B3c | (dG)(gf) (Ted)(TcB) |\
+(TAG)A2 z2(Bc) | (d<B)(c<A) G2d2 |\
+(e<g)(f<a) Tg3(f/e/) |
+(d<B) (TA>G) E2F2 | T(G>F)G2 z2 :: B>c |\
+{e}d(c/B/) {d}c(B/A/) (GB)d2 | eEfF gG (g/b/a/g/) |\
+(f/e/d/c/) (B/A/G/F/) Gg {f}e(d/c/) | (TB3/A//B//) A2 z2A2 |
+.B(B/d/) .^c(c/e/) dDeE | (3(fag) (3(fed) {fg}a3g |\
+(fd)Bb a(g/f/) {a}g(f/e/) | (Td>^c)d2 z2 :: (d>e) |\
+.f(A/d/) .f(d/f/) a3g | (3(fdf) (3(afc) {c}B3c |
+.d/(B/TA/G/) .e/(c/TB/A/) .b/(g/Tf/e/) {e}d(c/B/) | (TA>G)A2 z2(B>c) |\
+(3(dBG) (3(cAF) G2 (3(dBg) | (3(ec'b) (3(agf) Tg3(f/e/) |\
+(d<B) TA>G Ee (d/c/B/A/) | (TG>F)G2 z2 ::

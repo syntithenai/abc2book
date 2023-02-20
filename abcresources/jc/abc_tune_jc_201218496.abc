@@ -1,0 +1,17 @@
+X: 10
+T: Scots Measure
+%R: reel, scots measure
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.5 #10
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+D2 |\
+F2A2 B2d2 | e2f2 a3b | a2(ba) (ba).f.e | {de}f2 e4 D2 |\
+F2A2 B2d2 | e2f2 {bc'}d'3b | (ab).a.f Te3d | {de}f2 d4 :|
+|: a2 |\
+g2a2 (bc')d'2 | (ab)(af) Te3d | (fd)(fa) (ba).f.d |{de}f2 e4 d2 |\
+B2d2 F2A2 | B2d2 {bc'}d'3b | (ab).a.f Te3d | {de}f2 d4 :|

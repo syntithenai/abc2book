@@ -1,0 +1,26 @@
+X: 32811
+T: THE KEEL ROW -- with Variations
+R: reel, hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.281 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Only the 1st Variation is labelled.
+N: The 2nd Variation has no initial repeat, but had a final repeat.
+M: 2/4
+L: 1/8
+K: G
+   (udc) | B2GB | c2Ac | B2GB | (AF)Dc | B2GB | c2Ac | BGAF | G2 :|
+|: (udc) | Bddg | e2(dc) | B2GB | (AF)Dc | Bddg | e2(dc) | BGAF | G2 :|
+P: 1st Var
+|:  (dc) | BdGB | ceAc | BdGB | AFDc | BdGB | ceAc | BGAF | G2 :|
+|: (udc) | Bdgf | edcB | cBAG | FAAc | Bdgf | edcB | BGAF | G2 :|
+P: 2nd Var
+|: (udc) | (3Bcd (3GAB | (3cde (3ABc | (3Bcd (3GAB | (3FAd (3DFA |\
+           (3Bcd (3GAB | (3cde (3ABc | (3Bed (3cBA | G2 :|
+|: (udc) | (3BGB (3dBd | (3gdc (3BAG | (3FDF (3AFA | (3cAG (3FED |\
+           (3BGB (3dBd | (3gdc (3BAG | (3Bed (3cBA | G2 :|
+P: 3rd Var
+|: (ud'c') | b2gb | c'2ac' | b2gb | (af)dc' | b2gb | c'2ac' | bgaf | g2 :|
+|: (ud'c') | bd' d'g' | e'2(d'c') | b2gb | (af)dc' | bd' d'g' | e'2 (d'c') | bgaf | g2 :|
+P: Reprise
+|: (udc) B2GB | c2Ac | B2GB | (AF)Dc | B2GB | c2Ac | BGAF | "^Fine"G2 :|

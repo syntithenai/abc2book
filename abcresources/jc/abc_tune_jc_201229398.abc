@@ -1,0 +1,27 @@
+X: 122
+T: MISS INNES OF EDINGIGHT
+C: I. COOPER
+R: Strathspey
+B: Glen Collection p.12 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: G
+%
+V: 1
+|:\
+G3B G3B d3B d3B | G3G B3G A3D F3D | (GABc) d3B e3f g3e | (d3c) (B3A) (BG3) G4 :|
+g3b f3d e3d c3B | (cec2) (BdB2) A3D F3D | g3b f3d e3f g3e | (d3c) (B3A) BG3 G4 |
+g3b f3d e3d c3B | (cec2) (BdB2) A3D F3D | (GABc) d3B e3f g3e | d3c B3A BG3 [G4B,4] |]
+%
+V: 2
+|:\
+[g4G4] [b4g4d4] [b4g4d4] [b4g4d4] | G4 [g4d4] D4 [a4f4d4] |\
+[g4G4] [b4g4d4] c4 [c'4g4e4] | d4 [c'4f4] G4 [b4g4d4] :|
+G4 [b4g4d4] c4 [g4e4] | A4 B4 d4 [a4f4d4] |\
+B4 [b4g4d4] c4 [c'4g4e4] | d4 [c'4f4] G4 [b4g4d4] |
+G4 [b4g4d4] c4 [g4e4] | A4 B4 d4 [a4f4d4] |\
+B4 [b4g4d4] c4 [c'4g4e4] | d4 [a4f4] G4 [g4d4G4] |]

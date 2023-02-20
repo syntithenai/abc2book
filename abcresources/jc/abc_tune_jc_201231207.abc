@@ -1,0 +1,326 @@
+
+X: 0
+T: 14 Social Dances for 2000
+C: devised by Roy Goldring
+K:
+%%sep 5 5 400
+%%center 14
+%%center Social Dances
+%%center for 2000
+%%center .
+%%center devised by
+%%center Roy Goldring
+%%center .
+%%center with original music by
+%%center Neil Barron, Nancy Dickson,
+%%center Ian Findlay, Alastair Hunter
+%%center and Muriel Johnstone
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Groom's Jig
+P: Tune for "The Findlays' Jig"
+C: Ian Findlay
+B: Roy Goldring "14 Social Dances for 2000"
+R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+A |\
+"A"E>Ac e<ae | "F#m"f>ae "A"c>BA | "A"E>Ac e<ae | "F#m"f>ec "E7"B2c |
+"A"E>Ac e<ae | "F#m"f>ae "A"c>BA | "D"f>af "E7"e>dB | "A"c>A"D"A "A"A2 |]
+e |\
+"D"f>ed f<af | "A"e>dc e<ae | "D"f>ed f<af | "A"e>cA "E7"B2c |
+"A"E>Ac e<ae | "F#m"f>ae "A"c>BA | "A"E>Ac "E7"e<aB |"A"c>A"D"A "A"A2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+T: Teem the Tide
+P: Tune for "Aileen's Reel"
+C: Ian Findlay 1981
+B: Roy Goldring "14 Social Dances for 2000"
+R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+B |\
+"A"c2cA E2EA | "Bm"FBBA "E7"GBBd | "A"c2cA E2EA | "Bm"FGAB "A"cAAB |
+"A"c2cA E2EA | "Bm"FBBA "E7"GBBd | "A"c2cA E2EA | "E7"GEdB "A"cAA |]
+e |\
+"A"agae "D"[f2d2]fa | "A"ecce "E7"dBBe | "A"agae "D"[f2d2]fa | "E7"ecdB "A"cAAe |
+"A"agae "D"[f2d2]fa | "A"ecce "E7"dBBc | "A"AceA "D"dfaf | "E7"ecdB "A"cAA |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3
+T: Manderston House
+C: A.Mackintosh
+P: Tune for "Chain Walk"
+B: Roy Goldring "14 Social Dances for 2000"
+R: strathspey
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+D |\
+"G"G>B G>D G>B d<g | "G"G>B "Am/c"A>G "D"F<D d>F |\
+"G"G>B "D7/f#"A>B "G"G>B d<g | "Am/c"a<g "D7"b>a "G"g/g/g g/a/b |
+"G"G>B G>D G>B d<g | "G"G>B "Am/c"A>G "D"F<D d>F |\
+"G"G>B "D7/f#"A>B "G"G>B d<g | "Am/c"a<g "D7"b>a "G"g/g/g g |]
+g/a/ |\
+"G"b>g a>b g<d g>f | "C"e/f/e/d/ "Am"c/d/c/B/ "D"A/B/A/G/ F<D |\
+"G"b<g a>b gdBG | "C"c<e "D7"d>B "G"G/G/G Gg/a/ |
+"G"(3bgb "D/f#"(3afa "Em"(3geg "D"(3fdf | "C"(3ece "G/b"(3dBG "D"F>A F<D |\
+"C"E<G C>E "D7"F<A D>c | "G"B<d "D7"A>c "G"B<G G |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4
+T: Renatton's Fancy
+C: J.Scott Skinner & J.Murdoch Henderson
+P: Tune for "Chantry Hall"
+B: Roy Goldring "14 Social Dances for 2000"
+R: strathspey
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+[|\
+"G"D>G B<d "Am"c<A "A7/c#"E>G | "D7"F>G A>e "G"d<B B<g |\
+"G"G>A B>d "Am"c<A "A7/c#"E>G | "D7"F>A d>c "G"B<G G2 |
+"G"D>G B<d "Am"c<A "A7/c#"E>G | "D7"F>G A>e "G"d<B B<g |\
+"G/B"G/F/G/A/ B/A/B/d/ "Am/c"c<A "A7/c#"E>G | "D7"F>A d>c "G"B<G G2 |]
+[|\
+"G"g>d "C"e<g "G/b"d<B B>G | "Am"c>d e/d/c/B/ "D7"A<a a>f |\
+"G"g>d "C"e<g "G/b"d<B B>G | "D7"(3FDF (3Adc "G"B<G G>d |
+"G"g>d "C"e<g "G/b"d<B B>G | "Am"c>d e/d/c/B/ "D7"A<a a>f |\
+"G"(3gbg "D"(3afd "C"(3ege "G/b"(3dBG | "D7"(3FDF (3Adc "G"B<G G2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 5
+T: The Barley Crop
+C: Ian Findlay
+P: Tune for "The Geordies' Diamond Reel'"
+B: Roy Goldring "14 Social Dances for 2000"
+R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+cB |\
+"A"A2a2 "D"f2a2 | "A"efec "D7"BcdB |\
+"A"A2a2 "D"f2a2 | "A"efec "E7"B2cB |
+"A"A2a2 "D"f2a2 | "A"efec "D7"BcdB |\
+"A"ABce afec | "E7"BdcB "A"A2 :|
+|: e2 |\
+"A"agae cAce | "A"agae c2ea |\
+"Bm"b^abf dBdf | "Bm"b^abf d2fb |
+"A"agae cAce | "A"agae c2ea |\
+"D"fgaf "E7"ecdB | "A"A2"E7"A2 "A"A2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 6
+T: Tom Dey
+C: J.Scott Skinner
+P: Tune for "Hutton Castle"
+B: Roy Goldring "14 Social Dances for 2000"
+R: strathspey
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+[|\
+"A"e2 f>e c<e A>B | "A7"c2 B>A "D"F<A "A/c#"E>C |\
+"Bm"D2 F>D "A"C<E A>a | "A/c#"e<c "B7"[A^D]>c "E7"[B2G2=D2] c>d |
+"A"e2 f>e c<e A>B | "A7"c2 B>A "D"F<A "A/c#"E>C |\
+"Bm"D2 F>D "A"(3CEA (3cea | "A/c#"e<c "E7"B>A "A"A2 A>e ||
+"A/c#"a2 "B7/d#"b>a "E7"g<b "A7"e>e | "D"f2 a>f "A/c#"e<a c>A |\
+"Bm"d>B "E7/g#"e>d "A"c<e c>A | "B7"B>e (3^def "E7"e2 ef/g/ |
+"F#m"a>f "B7/d#"b>a "E"g<b "A7/c#"e>e | "D"f>d a>f "A/c#"e<a c>A |\
+"Bm"(3FGA "E7"(3Bcd "A7"(3cde "D"(3fga | "A/e"(3edc "E7"(3BAG "A"A2 A2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 7
+T: The Warehouse
+C: Neil Barron
+P: Tune for "Inchmickery"
+B: Roy Goldring "14 Social Dances for 2000"
+R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+G |\
+"C"c2c cBc | "F"d2c "A7/E"A2G | "Dm"d2d "Dm/c"def | "G7/b"e2d "/d"B2G |
+"Gm7"g2e "C7"Gge | "F"d2c "Dm"Agf | "D7/a"edc "G7"d2B | "C"c3 c2 :|
+|: d |\
+"C"e2c "C7"Gec | "F"d2c "A7/E"AGA | "Dm"f2d "A7/c#"Af^c | "D7"e2d "G7"BAB |
+"Gm7"g2e "C7"Gge | "F"d2c "Dm"fgf | "D7/a"edc "G7"d2B | "C"c3 c2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8
+T: Mrs Mary Stoker
+C: Muriel Johnstone 1987
+P: Tune for "The Isle of Tiree"
+B: Roy Goldring "14 Social Dances for 2000"
+R: strathspey
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The C chords in bars 7 and 15 aren't in the score, but implied by a C in the bass part.
+M: C
+L: 1/8
+K: G
+Bc ||\
+"G"d2 g>d B<G G>B | "Am"c>B AG "C"E2 "D7"D2 |\
+"G"D>E GA B2 Bd | "C"(3efg "G"d>B "D7"A2 d2 |
+"G"d2 g>d "Em"B<G G>B | "Am"c>B AG "C"E2 EG |\
+"G"D>E GA B2 "C"(3gfe | "G"d<B "D7"A>G "G"G2 |]
+G>F |\
+"C"E2 (3EFG "G"D2 D<G | "Am"A>G "D7"AB "G"d3 e |\
+"Bm"d2 BA "Em"G2 G<B | "Am"c>B AG "C"E2 "D7"D2 |
+"G"d2 g>d "G7"B<G G>B | "C"c>B AG "Am"E2 EG |\
+"G"D>E GA B2 "C"(3gfe | "G"d<B "D7"A>G "G"G2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 9
+T: Ardrossan Hornpipe
+C: Muriel Johnstone 1999
+P: Tune for "Miss Johnstone of Ardrossan"
+B: Roy Goldring "14 Social Dances for 2000"
+R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+{g}a2 |\
+"A"e2AB cAec | "E"B2EG "E7"BGdB | "A"cAeA "D"fA"A"eA | "E"B2E2 E2{g}a2 |
+"A"e2AB cAec | "E"B2EG "E7"BGdB | "A"cA"D"df "A"ec"E7"Bd | "A"c2"D"A2 "A"A2 ||
+E2 |\
+"A"A2EA cAGA | "Bm"FBcB dB^AB | "E"G2ef gefg | "A"a2A2 "E7"BEFG |
+"A"A2EA cAGA | "Bm"FBcB dB^AB | "E"G2gf "E7"ecBd | "A"c2"D"A2 "A"A2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10
+T: The Soft Shoe Hornpipe
+C: Muriel Johnstone 1998
+P: Tune for "Mr. Hamilton's Hornpipe"
+B: Roy Goldring "14 Social Dances for 2000"
+R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+dc |\
+"G"Bdd2 "G7"BcdB | "C"c2e2- efge | "Am"a2A2 ABcA | "D"d2D2 "D7"D2dc |
+"G"Bdd2 "G7"BcdB | "C"cee2 efge | "Am"aA-AB "D7"cBcA | "G"B2"C"G2 "G"G2 :|
+ba |\
+"G"g2G2 "D"f2F2 | "C"e2E2 "G"d2D2 | "Am"c2A2- ABcA | "D7"d2D2 D2ba |
+"Em"g2G2 "D"f2F2 | "C"e2E2 "G"d2D2 | "Am"cA-AB "D7"cBcA | "G"B2"C"G2 "G"G2 |]
+ba |\
+"Em"b2G2 "D"f2F2 | "C"e2E2 "G"d2D2 | "Am"c2A2- ABcA | "D"d2D2 "D7"D2dc |
+"G"Bdd2 "G7"BcdB | "C"cee2 efge | "Am"aA-AB "D7"cBcA | "G"B2"C"G2 "G"G2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11
+T: Kilrenny Jig
+C: Alastair Hunter
+P: Tune for "The Pele Tower"
+B: Roy Goldring "14 Social Dances for 2000"
+R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+cB |:\
+"F"A2F FEF | "Bb" f2d "F/a"cAF | "Gm"GBA G2F | "Gm"D2F "C7"DCC |
+"F"A2F FEF | "Bb"f2d "F/a"cAF | "Gm"D2B "C7"EDE |1 "F"F3 FcB |2 "F"F3 F2 ||
+g |\
+"F"a2f "C"gfe | "Bb"fed "F"c2A | "Gm"Gdd d2e | "Gm"f2d "C7"cAc |
+"F"agf "C"gfe | "Bb"fed "C7"c2B | "F7"A2F | "Bb"GFD | "F"CFF F2 ||
+f |\
+"F"a2f "C"gfe | "Bb"fed "F"c2A | "Gm"Gdd d2e | "Gm"f2d "C7"cAc |
+"F"faf "C"ege | "Bb"fed "C7"c2B | "F7"A2F "Bb"FDD | "F"CFF F |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 12
+T: The Ruby Wedding
+C: Neil Barron
+P: Tune for "The Post Chaise"
+B: Roy Goldring "14 Social Dances for 2000"
+R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+A/B/ |\
+"F"cdc c2A | "C7"GFG "F"A2B | "F"cdc "Bb"fed | "F"cAF "C7"GAB |
+"F"cdc c2A | "C"GFG "D7"ABc | "Gm"Bgf "C7"efg | "F"f3 f2 :|
+|: E/F/ |\
+"C7"G2E CcB | "F"A2G Fdc | "Gm"B2A "G7/b"Ggf | "C7"e2d "C7/e"cfg |
+"F"a2a "C"geg | "Dm"f/g/af "Am"edc | "Gm"Bgf "C7"efg | "F"f3 f2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 13
+T: Brighouse Feast
+C: Ian Findlay
+P: Tune for "St. Columba's Reel"
+B: Roy Goldring "14 Social Dances for 2000"
+R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+fe |\
+"D"dcde f2ed | "G"BcdB "D/f#"A2FG | "D"ABde fgaf | "Em"g2e2 e2fe |
+"D"dcde f2ed | "G"BcdB "D/f#"A2dc | "A7"Bagf "D"edcd | "A7"egfe "D"d2 |]
+fg |\
+"D"agfe defg | "D"afed "G"B2cd | "D"ABdf afed | "A7"f2e2 e2fg |
+"D"agfe defg | "D"afed "Em"B2cB | "A7"Acea geag | "D"f2"G"d2 "D"d2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 14
+T: Susanne Hegel's Strathspey
+C: Nancy Dickson
+P: Tune for "Susanne's Strathspey"
+B: Roy Goldring "14 Social Dances for 2000"
+R: strathspey
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+c2 |\
+"F"f<c "C7/e"c>B "Dm"A>G "F/c"A<F | "Bb"D>C D<F "F/a"C4 |\
+"Bb"D>C D<F "F/a"C>F A<F | "G7/b"G>A =B<G "C7"c4 |
+"F"f<c "C7/e"c>B "Dm"A>G "F/c"A<F | "Bb"D>C D<F "Gm"B2 "C7"c>B |\
+"F"A<c F>A "C7"B>G E<G | "F"A<F "C7"F>E "F"FGAB |]
+"F"c2 C>C "Bb"D>C D<F | "Bb"d2 B<d c4 |\
+"F"c2 C>C "Bb"D>C D<F | "G7"G>A =B<G "C7"c4 |
+"F"c2 f>c "Bb"d>c B<c | "G7/b"d2 g<d "C7"e4 |\
+"F"f<c "C7/e"c>B "Dm"A>G "F/C"A<F | "Bb"d>B "C7"G<E "F"F2 |]

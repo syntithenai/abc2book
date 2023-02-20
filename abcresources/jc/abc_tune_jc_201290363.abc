@@ -1,0 +1,16 @@
+X: 1818
+T: Indeed Then You Wont   #1
+N: The title doesn't have an apostrophe.
+R: jig
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #1818
+Z: Bob Safranek, rjs@gsp.org
+M: 6/8
+L: 1/8
+K: G
+d \
+| gfe d2B | cBA BAG | gfe d2B | cAF G2d |
+| gfe d2B | cBA GBd | gbg d2B | cAF G2 :|
+|: G \
+| FGA A2d | cAd cAG | FGA A2d | cAF G2G |
+| FGA A2d | cAd cAG | gbg d2B | cAF G2 :|

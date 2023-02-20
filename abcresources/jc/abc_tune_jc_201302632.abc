@@ -1,0 +1,21 @@
+X: 181
+T: the Little Black Rose - No.3
+R: air
+%S: s:3 b:24(8+8+8)
+B: O'Neill's 1850 #181
+Z: henrik.norbeck@mailbox.swipnet.se
+N: All the E notes are natural, so the E-flat in the key signature seems wrong.
+N: Note that the 2nd and 3rd strains here are identical except for the ">" stress markings.
+Q: "Slow"
+M: 3/4
+L: 1/8
+K: Gm
+({A}G>F) \
+| D2 D2 ({A}G>F) | D2 D2 (G>A) | "^>"B4 A2 | "^>"G4 (G>A) |\
+| "^>"B2- B(dcB) | "^>"A2- A(cBA) | "^>"G4 G2 | G4 ||
+|| (D>=E) \
+| "^>"F2- F(.G.A.B) | c2- c>d (c/B/A/G/) | F2 D=E TE2 | F2- F(D.A.c) |\
+| {Bc}B2- B(.A.G.^F) | (.G.A.B.c) A>G | G4 G2 | G4 ||
+||  (D=E) \
+| F2- F(.G.A.B) | c2 c>d (c/B/A/G/) | F2 D=E TE2 | F2- FD.A.c |\
+| {Bc}B2- B(AG^F) | (.G.A.B.c) (A>G) | "^>"G4 G2 | G4 |]

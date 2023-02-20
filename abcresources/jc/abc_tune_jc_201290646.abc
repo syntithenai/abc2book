@@ -1,0 +1,12 @@
+X:190
+T:Iona Jig
+C:D.H. MacEachern
+R:Jig
+M:6/8
+%%printtempo 0
+Q:180
+K:Gm
+F|\
+"Gm" {/A}GAG dcd| "F"fef cAc|"Gm" {/A}GAG dcd| "Gm"gfg d2B|"Gm"{/A}GAG dcd| "F"fef cAc|
+"Bb"{e}dBd "F"cAF| "Gm"G3G2::d|"Gm" {/a}gfg dBd| "F"fef cAc| "Gm"{/a}gfg dBd| gfg d2f|
+[1 "Gm"gfg dBd| "F" fef cAc| "Bb" dBd "F" cAF| "Gm" G2G :|2 "Gm"fef gfg| "Dm"afd "F" cAF| "Gm"dBG "F"cAF| "Gm"G2G|]

@@ -1,0 +1,32 @@
+X: 1
+T: Greenwich Park
+P: Longways for as many as will
+%R: reel, march
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.101 #140 (202)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.237
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[| F2 c2 | A3 d | cA GF | GE DC | F2 c2 | A3  d |  cf   dg  | e4 |]
+[| e2 g2 | c3 e | fc cA | d3  c | dA GF | EG Cc | (BA) (GF) | F4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. lead up and cast off below the 2d Cu. .| the 2d Cu. do
+%% the same :| The 1st Cu. cross over below the 2d Cu. and turn up
+%% the Middle into their own Places .| Then Back to Back with their
+%% Partners, the 1st Cu. clap Hands with their Partners and cast off :|
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. lead up and cast off below the 2. cu :| The 2. cu. do the same :| The 1. cu. cross over
+%% below the 2. cu. and turn up the middle into their own places .| Then back to back with their 
+%% Partners, the 1. cu. clap hands with their partners and cast off .:|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

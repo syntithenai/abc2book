@@ -1,0 +1,13 @@
+X:420
+T:Louis' Waltz
+R:Waltz
+M:3/4
+%%printtempo 0
+Q:130
+K:D
+(uA>G)|\
+"D"F2 (D>F)A>d| f4(e>f)| "G"(gb-bg) f>g| "E7"(B3d)c>B| "A7"(A>G)E>F G>A| c2B2A2|
+"D"(F3E) F>G| "A7" F4 (A>G)| "D7"F2D>FA>d| "B7"f4 (e>f)| "Em"(gb-bg) f>g|(B3d) c>B| "A7"(A>G)E>F G>A|
+"A7/C"c2 (B>c)A>c| "D"(d3e)d2| d3 (A B>)A| "A7"G3(A B>)A| c2B2A2| "D"(F3D) F>A| d2(c2d2)|
+"Em"e4 (e>f)| "A7"e2A2 (G>E)| "D"F3 F F2| F4 E>F| "Em"(G3A) B>A|
+"A7"c2B2A2| "D"(F3D) F>A| "D7"d2(c2d2)| "Em"E3 E (E>F)| "A7"G2F2E2| "D"D3E "A7"D2| "D"D4|]

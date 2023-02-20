@@ -1,0 +1,17 @@
+X: 4291
+T: CLOG HORNPIPE
+R: Hornpipe.
+%R: clog, hornpipe, reel
+B: James Kerr "Merry Melodies" v.4 p.31 #291
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: This tune should perhaps be written an octave lower.
+M: C|
+L: 1/8
+K: G	% and Em
+d'2 |:\
+bgfg dgfg | dgfg dgfg |\
+[1 bgfg dgfg | ad'^c'd' e'd'=c'a :|\
+[2 ee'd'c' bagf | g2b2g2 z2 |]
+|: f |\
+e^def gfgf | e2e'2 b4 |\
+(ac')ba (gb)ag |[1 (fa)gf e2B2 :|[2 (fa)gf e2 |]

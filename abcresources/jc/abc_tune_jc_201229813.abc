@@ -1,0 +1,55 @@
+X: 12
+T: A CONCEAL'D HEALTH
+R: reel, march
+M: C|
+L: 1/8
+Z: 2011,2014 John Chambers <jc:trillian.mit.edu>
+B: Thomas Bray's Country Dances 1699 p.30
+N: Duple minor longways
+P: AA B ad lib.
+Q: 1/2=88 "with intensity"
+K: Cm
+%----------------------------------------
+V: 1
+"A"[|]d2 |\
+(ed)c2 d2G2 | (cB)A2 B2E2 | (AG)F2 G2c2 | =B2d2 z2d2 |\
+(ed)c2 (fe)d2 | (gf)e2 (fe)(dc) | B2e2 def2 | g2e2 z2 :|
+"B"[|]B2 |\
+B2F2 FGA2 | G2c2 =A3A | d3d cB=AG | ^F2=A2 z2A2 |\
+(Bc)d2 (cd)e2 | (de)f2 (=e^f)g2 | ^f2g2 =ABc2 | B2G2 z2G2 |
+(Bc)B2 (=Bc)B2 | (cd)c2 (de)d2 | e2de (fe)dc | =B2d2 z2d2 |\
+(ef)e2 (=ef)e2 | (fg)f2 (ga)g2 | (ag)fe def2 | e2c2 z2 |]
+%----------------------------------------
+V: 2
+=B2 |\
+c4 G4 | E4 E4 | C4 C2E2 | D2 =B,4 =B2 |\
+c4 _B4 | B4 D4 | E2G2 F4 | E4 G2 :|
+G2 |\
+F4 D2F2 | E4 C2F2 | F4 _E4 | D2 ^F4 F2 |\
+G4 =F4 | F2 G4 =A2 | =A2B2 A2^F2 | G2 B,4 G2 |
+G4 =F4 | G4 G4 | G4 A2F2 | D2 =B,4 =B2 |\
+c4 _B4 | c4 c4 | c2dc =B2G2 | G2E4 |]
+%----------------------------------------
+V: 3 clef=bass middle=d
+"G"g2 |\
+"Cm"c'2z2 "Gm"b2z2 | "Ab"a2z2 "Eb"g2z2 | "Fm"f2z2 "Cm"e2c2 | "G"g2ga gfed |\
+"Cm"c2z2 "Bb"d2z2 | "Eb"e2z2 "Bb"b2z2 | "Eb"g2e2 "Bb"b2B2 | "Eb"e6 :|
+"Eb"e2 |\
+"Bb"d2z2 B2z2 | "Eb"e2"Cm"c2 "F"f2z2 | "Bb"B2z2 "Cm"c2z2 | "D"d2z2 D2z2 |\
+"Gm"G2z2 "F"=A2z2 | "Bb"B2z2 "C"c2z2 | "D"d2"Gm"G2 "D"d2D2 | "Gm"G2z2 d2z2 |
+"Gm"g2z2 "G7"d2z2 | "Cm"e2z2 "G"=B2z2 | "Cm"c2z2 "Fm"F2z2 | "G"G2z2 g2z2 |\
+"Cm"c'2z2 "C7"g2z2 | "Fm"a2z2 "C"=e2z2 | "Fm"f2z2 "G7"g2z2 | "Cm"c6 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%center A Conceal'd Health, a New Country Dance.
+%%center First Strain twice, last but once.
+%%begintext align
+%% The 1st Man and 2d Wo. cross over to each others place, and turn both to the right Hand, and
+%% stand with their Faces out, the other cu. doing the same after them .| Then all four go half
+%% round to their left Hands and stand as at first, then Men and We. Right and left twice, each Man
+%% beginning with his own Wo. first :| Then all four Hands half round to the left Hand, and each Man
+%% change places with his own; the Men being improper, then Men clap their Womens right Hand, and left
+%% Hand, and both their Hands against Wemens, and all turn single: This is half the last Strain. Then each
+%% Man turn his Wo. with the right Hand, three quarters round, and close their Feet, standing all on a row
+%% longways of the Room, with their right Shoulders to each other, the Men eing uppermost, and make a
+%% little stop;, and then turn the 1st cu. down, the 2d cu. up. And so to the end.
+%%endtext

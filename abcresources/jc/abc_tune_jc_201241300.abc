@@ -1,0 +1,19 @@
+X: 4311
+T: Ayrshire Lasses.   a Strathspey.
+C: by the Earl of Eglinton
+%R: strathspey
+B: Niel Gow & Sons "Complete Repository" v.4 p.31 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - -
+V: 1 staves=2
+c |\
+G<cE<c Td>cd<e | d<de>d cAAc | G<c E<c Td>cd<e | c<AGF E<CC :| f | {ef}g>ec<g e<gc<g | {ef}g<ec<g d<DDf |
+{ef}g<ec<g e<gc<g | c<AG>F E<CCf || {ef}g>ec<g e>gcg | {ef}g>ec<g d<DDe/f/ | g<ec<e Td>cd>e | c>AG>F E<CC |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+c2c2 g2g2 | g2c2 f2f2 | e2c2 g2g2 | f2gG c2c :| z | c'2c'2 c'2c'2 | c'2c'2 b2g2 |
+c'2c'2 c'2c'2 | f2g2 c2c2 || c'2c'2 c'2c'2 | c'2c'2 b2g2 | c2c'2 g2g2 | f2e2 c2c |]

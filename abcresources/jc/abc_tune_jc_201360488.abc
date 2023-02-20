@@ -1,0 +1,26 @@
+%%scale 1.13
+%%barsperstaff 4
+X:1
+T:I'm Thinking Tonight of My Blue Eyes
+C:Words & Music: A. P. Carter
+M:4/4
+L:1/4
+K:D
+%%staves{RH1}
+V:RH1 clef=treble
+|z2 F G|"D"A/2 A3/2 D E|F2 G F|"G"E B,2 z
+w:2 3 4 4 0 1 2 3 2 1 1
+w:1.~Would been bet-ter for us both had we nev-er
+w:C.~Oh, I'm think-_ing to-night of my blue eyes
+|z2 B B|"A"A A G F|E E D E|"D"F2 z2
+w:5 5 4 4 3 2 1 1 0 1 2
+w:in this wide and wick-ed world had nev-er met.
+w:who is sail-_ing far o-_ver the sea.
+|z2 F3/2 G/2|A2 D E F2 G3/2 F/2|"G"E E3/2
+w:2 3 4 0 1 2 3 2 1 1
+w:For the pleas-ure we've both seen to-geth-er
+w:Oh, I'm think-ing to-night of my blue eyes
+|z2 B B|"A"A2 G F|(E D) F E|"D"D2 z2||
+w:5 5 4 3 2 1 0 2 1 0
+w:I am sure, love, I'll nev-_er for-get.
+w:and I wonder if he ev-er thinks of me.

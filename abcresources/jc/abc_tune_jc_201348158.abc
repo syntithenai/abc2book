@@ -1,0 +1,12 @@
+X: 1160
+T: Up and Down Again   #2
+R: slipjig
+%S: s:1 b:6
+B: O'Neill's 1850 Music of Ireland #1160
+O: F.O'Neill
+Z: Stephen Foy (shf@access.digex.net)
+%: abc 1.6
+M: 9/8
+K: G
+"^A"|: GAB EFE EFE |[1,3 GAB EFE AFD :|[2,4 FED AdB AFD \
+"^B":: GAB BdB BdB |[1,3 GAB BdB AFD :|[2,4 cBA AdB AFD :|

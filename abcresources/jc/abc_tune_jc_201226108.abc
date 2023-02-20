@@ -1,0 +1,68 @@
+X: 101
+T: the Shadow Man
+C: words: Alfred Hyatt
+C: music: J. S. Fearis
+Q: "Andante con moto."
+%R: air, jig
+N: This is version 1, for ABC software that doesn't understand voice overlays or tremolo notation.
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+V: 1
+V: 2 brace=2 staves=2
+V: 3 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1]
+[V:2]
+[V:3]
+%
+[V:1]
+[V:2]
+[V:3]
+%
+[V:1] [| x6 | x6 | x6 | x3 x2 |]
+[V:2] [| [EC-][GC][cEC] [B2E2C2][AEC] | [A2F2B,2][GFB,] [e2B2F2][dBF] | [c2E2C2]"_dim..."[EC] [B2^D2C2][ADC] | [G2E2C2]F, H[G2F2D2] |]
+[V:3] [| [c3C3] [G3G,3] | [d3D3] [G2G,2][^G^G,] | [A3A,3] [^F3^F,3] | H[G3G,3]- [G2G,2] |]
+%
+[V:1] G | E- E E E2 E | F2 F F2 F | E2 G A2 c | G3- G2 G |
+w: ~ Just at the hour 'twixt dusk and dark The shad-ow-man I see._ He
+w: So clev-*er is the shad-ow-man          That with his mag-ic key_ The
+[V:2] G, | [E-C-E,][ECG,][EC] [E2B,2][EA,] | [F2B,2A,2][FB,G,] [F2B,2G,2][FB,G,] | [E2C2G,2][ECG,] [F2C2A,2][FC_A,] | [E3-C3G,3-][E2C2G,2]z |
+[V:3]z | [c3C3] [G3G,3] | [d3D3] [G3G,3] | [c3C3] [c3C3] | [c2C2]G e2G |
+%
+[V:1] F2 E F2 D | E2 A G2 E | D2 B B2 A | G3- G2 G | G2 G c2 _B |
+w: creeps with foot so soft, yet hark! As plain-ly as can be_    To lit-tle ones I
+w: shad-ows locked a-way he can        Loose from cap-tiv-i-ty._ He puts the shad-ows
+[V:2] [F2B,2G,2][FB,G,] [F2B,2G,2][FB,G,] | [E2C2G,2][ECG,] [E2^A,2G,2][EA,G,] | [D3B,3G,3] [D3C3^F,3] | [D2B,2G,2]G [=F2B,2]G, | [G2_E2_B,2][GDB,] [G2C2B,2][GB,] |
+[V:3] [B3D3] [G3G,3] | [c3C3] [^c3^C3] | d2D d2D | [G3-G,3-] [G3G,3] | [_e3_E3] [_B3B,3] |
+%
+[V:1] _B2 F F2 ^F | G2 G c2 _B | _A3- A2 A | G2 G G2 G | G2 D D2 _E |
+w: hear him call; He's dressed in coat of gray_ He's bring-ing back the shad-ows all That
+w: on the wall,   He paints them on the blind;_   And where he leads the shad-ows all  You
+[V:2] [_A2D2_B,2][ADB,] [A2D2B,2][^FDB,] | [G2_E2_B,2][GDB,] [G2C2B,2][GB,] | [_A2D2_B,2][ADB,] [A2D2B,2][ADB,] | [G2_E2_B,2][GDB,] [G2C2B,2][G^CB,] | [G2D2=B,2][DB,G,] [D2G,2][_E_DG,] |
+[V:3] [f3F3] [_B3_B,3] | [_e3_E3] [_B3_B,3] | [f3F3] [_B3_B,3] | [_e3_E3] [e3E3] | [d3D3] [B2B,2][_B_B,] |
+%
+[V:1] G2 G G2 G | G2 D D2 _E | =E2 E ^F2 F | G3- HG2z |]
+w: bring-ing back the shad-ows all That hide through-out the day._
+w: where he leads the shad-ows all You ver-y soon will find._
+[V:2] [G2_E2_B,2][GDB,] [G2C2B,2][G^CB,] | [G2D2=B,2][DB,G,] [D2G,2][_E_DG,] | [=E2C2G,2][ECG,] [D2C2^F,2][^FDC] | [G2D2B,2]G, H[G2=F2D2B,2]G, |]
+[V:3] [_e3_E3] [e3E3] | [d3D3] [B2B,2][_B_B,] | [A3A,3] [d3D3] | [G3-G,3-] H[G2G,2]z |]
+%
+[V:1] "^Refrain."E> E E (ED) C | G2 A G2 G | c2 G E> D C | F3- F2 F |
+w: "Fol-low me all* to shad-ow land, As fast as ev-er you can,_ For
+[V:2] z2G, [G2E2C2]G, | z2G, [G2E2C2]G, |  z2G, [G2E2C2]G, | z2B, [G2F2B,2]z |
+[V:3] [c6C6] | [c6C6] | [c6C6] | [d3D3] [G2G,2]z |
+%
+[V:1] F> F F (FE) D | E2 A G2 G | ^F2 F F> E D | B2 A G3 |
+w: shad-ow-land leads* to fair-y-land," And that's the song of the shad-ow-man;
+[V:2] z2G, [G2F2B,2]G, | z2G, [G2E2C2]z | z2A, [^F3D2C3] | [B2=F2B,2][AFC] [G3F3D3] |
+[V:3] [d3D3] [G3G,3] | [c6C6] | [d6D6] | [G2G,2][AA,] [B2B,2]G |
+%
+[V:1] G E G c3 | A F A Hc (CD) | E3 D3 | C3- C2z |]
+w: "Fol-low me all, fol-low me all To* shad-ow-land."_
+[V:2] z2G, [G3E3C3] | z2[cFC] H[cFD] z2 | [G2E2C2]B, [F2D2B,2]G,- | [E3C3G,3] [c'2g2e2c2]z |]
+[V:3] [c3-C3-] [c2C2]_b | (a3 _a2)z | [G6G,6] | [C2C,2]g [c'2g2c2]z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

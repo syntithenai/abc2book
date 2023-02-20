@@ -1,0 +1,28 @@
+X: 10862
+T: the SOUTERS OF SELKIRK
+O: Scottish air.
+Q: "With spirit."
+%R: slip-jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.86 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: All the strains have final repeats, but no initial repeats; fixed.
+M: 9/8
+L: 1/16
+K: A
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+e3fe2  e2c2a2 fedcBA | e3fe2 e2c2a2  g4B2 |\
+e2f2e2 e2c2a2 fedcBA | d3ef2 e2c2a2 {a}g4B2 :|
+|:\
+a2A2c2 a2fgaf fedcBA | a2A2c2 a2fgaf {a}g4B2 |\
+a2A2c2 a2fgaf fedcBA | d3ef2  e2c2a2 {a}g4B2 :|
+|:\
+cde2a2 cde2a2 fedcBA | cde2a2 cde2a2 {a}g4B2 |\
+cde2a2 cde2a2 fedcBA | d3ef2  e2c2a2 {a}g4B2 :|
+|:\
+a2A2a2 A2a2A2 fedcBA | a2A2a2 A2a2A2 {a}g4B2 |\
+a2A2a2 A2a2A2 fedcBA | d3ef2  e2c2a2 {a}g4B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

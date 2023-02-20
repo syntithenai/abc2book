@@ -1,0 +1,22 @@
+X: 2113
+T: Ailen a Roon
+O: Irish
+%R: air, waltz
+B: Niel Gow & Sons "Complete Repository" v.2 p.11 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: The bass notation in bar 5 is a bit odd; it's transcribed similarly to bar 1, to make sense in modern notation.
+M: 3/4
+L: 1/8
+Q: "SLOW"
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+(A2B2).c2 | ~d3e{e}f2 | A2.B2~.c2 | d6 || A2 B2 c2 | d3e{de}f2 | (A2B2)c2 | d6 :: gf(ga)(ga) | (g2B2)B2 |
+Tfe(fg)(fe) | .d2(B2A2) || Tgfgag2 | Tfefgf2 | ~ed(eg)(fe) | (d2B2).A2 || Ha3gfe | ~d3e{de}f2 | (A2B2)c2 | [d6A6F6] :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+f2g2e2 | f2a2d'2 | f2g2c2 | d6 || [f2d2]g2[a2e2] | f2a2d'2 | f2g2e2 | d2D2z2 :: e'4b2 | efg2e2 |
+d'4a2 | f2g2f2 || e4c'2 | d4d'2 | a6 | f2g2d2 || Tf3edA | F2A2d2 | f2g2e2 | d2D2z2 :|

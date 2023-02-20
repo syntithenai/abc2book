@@ -1,0 +1,25 @@
+X: 11662
+T: the LAMENT
+C: Samuel Webbe, Jun.
+Q: "Plaintive and slow."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.166 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Flag added to B in last bar, to fix the rhythm.
+M: 6/8
+L: 1/16
+K: A
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+c4dc c2B2 f>e | ec3A2 B4E2 |\
+Ac3B2 ca3f2 | A3BG2 A4A2 |\
+c4dc {c}B4f>e | ec3A2 B4E2 |\
+Ac3B2 c2af3 | A3BG2 A4c>B |
+B2e2g2 af3e2 | ^df3A2 {A}G4B2 |\
+e3fg2 gc3f2 | B2c2^d2 e4e2 |\
+a2e2c2 cB3B2 | f2d2B2 AG3E2 |\
+Ac3B2 ca3f2 | A3BG2 A4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

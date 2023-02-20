@@ -1,0 +1,28 @@
+X:639
+%%annotationfont Times-Roman 14
+T:Cape Breton's Welcome To Shetland
+C:Joe Buchanan's Scottish Tome - Page 191.0
+I:191 0
+C:Willie Hunter
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+F |S EC ((3CCC) C2 B,C A,B,CE FECE | FB ((3BBB) BcBA | Bffe f2 fg |
+ac ((3ccc) eA ((3AGA) | cBAF EC B, | FGAF Eaaf ecBc A2 :|
+| fg | ae ((3eee) efed | ce ((3eee) fece | bf ((3fff) fgfe | defd Befg |
+ae ((3eee) efed | ce ((3eee) fece | fdge afed | cABG A2 fg |
+%%vskip 5
+%%sep 1 20 560
+"@-41,27|"
+"@-35,12First Time"
+ae ((3eee) efed | ce ((3eee) fece | bf ((3fff) fgfe | defd Befg !invisible!] |
+ae ((3eee) efed | ce ((3eee) fece | fdec dBcA | Aagf eAGF S|]
+%%vskip 5
+%%sep 1 20 560
+"@-41,33|"
+"@-35,16Last Time"
+fg ae ((3eee) efed | ce ((3eee) fece | bf ((3fff) fgfe | defd B2 cB !invisible!] |
+cdBc ABGA | FGEF DECD | B,CCE FABc | defg a2 !fine!|]
+W:Errata: Will not actually play properly in abc2midi as written.

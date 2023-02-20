@@ -1,0 +1,18 @@
+X: 15312
+T: Hardie Knute
+%R: air, waltz, minuet
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.5 p.31 #2
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Rest added to edges of strains to fix the rhythms of repeats.
+M: 3/4
+L: 1/16
+K: Bm
+%%slurgraces 1
+%%graceslurs 1
+"_Slow" z2 |\
+B4 B4 d3e | {e}f4 a4 Te3d | B4 e4 Te3d | B8 z2 :: d2 |\
+B4 {AB}d4 {B}A3F | {E}F4 A4 TE3D | E4 E4 {E}F3A | B8 z2 :|
+|: A2 |\
+B6 c2 (defg) | (af3)(af3)Te3d | B4 e4 (def/e/d)  | B8 z2 :: d2 |\
+(B2AB) (dB3) (AF3) | (EDEF) (A2F2)(E2D2) | E6 A2 (FEFA) | B8 z2 :|

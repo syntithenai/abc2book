@@ -1,0 +1,15 @@
+X: 432
+T:Stara Sapcanka
+O:Serbia
+F: http://www.youtube.com/watch?v=34BQUCiwcT4
+M:2/4
+L:1/8
+Q:1/4=132
+K:Ddor clef=treble
+%%MIDI gchord GI
+|:"G"G3E              |F/2G/2F/2G/2 F2                      |CE E/2C/2D/2E/2|\
+  F/2G/2F/2G/2 F2     |CE E/2C/2D/2E/2                      |F/2G/2F/2G/2 F2|
+  CE E/2C/2D/2E/2     |"Dm"D2 B,G,:: "G"d3/2c/2 d/2c/2c/2d/2|\
+  d/2c/2c/2d/2 e3/2d/2| c/2B/2B/2c/2 c/2B/2B/2c/2           |
+  c/2B/2B/2c/2 c3/2B/2| GBBB                                |c/2B/2B/2c/2 c2|\
+  cBAG                |"Dm"A2D2                             :|

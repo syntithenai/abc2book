@@ -1,0 +1,20 @@
+X:323
+T:Helena
+C:Colin Hume, 1988
+C:Sweet and Graceful
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=75
+H:For Helena Moss on her marriage to Jim Crouch
+%%MIDI program 48     String Ensemble 1
+%%MIDI chordprog 48   String Ensemble 1
+%%MIDI bassprog 43    Contrabass
+%%MIDI gchord c2cc
+K:G
+P:A
+|: "G"G3/A/ "/"BG | "Bm"dB "Em"GD | "C"E3/F/ "/"GA | "D"D2- "/"D[FA]/[GB]/ |\
+"Am"[A-c-]2 "/"[Ac][GB]/[Ac]/ | "G"[B-d-]2 "/"[Bd]G | "C"[ce]3/[df]/ "Em"[eg]B |1 "D7"A2- "/"AD :|2 "D7"A2 "G"G2 ||
+P:B
+|: "Am"cB/c/ "D"Ad | "C"cB/c/ "D"AD | "G"G[Bd] "Em"[Bd][Ac]/[GB]/ | "A7"[GB]2 "D7"[FA]2 |\
+"G"G3/B/ "G7"dG | "C"[ce]/[Bd]/[Ac]/[GB]/ "D"[FA]D | "C"Ec "Am"cB/c/ | "D7"A2 "G"G2 :|

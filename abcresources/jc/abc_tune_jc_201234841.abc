@@ -1,0 +1,34 @@
+X: 20822
+T: PROVIDENCE SETT (tune 2)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.82 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Fixed problems with rhythms between strains with the final f2 in strain 1 and the initial rest in strain 3.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="2"
+c |\
+c2c a2a | faf c2c | ABc def | gba g2c |\
+c2c a2a | faf c2c | def gae | (g3 f2) H|]
+A/B/ |\
+cdc cde | faf gAB | cdc cBA | G3 GAB |\
+cdc cfa | agf ecg | afd GAc | (d3 "^D.C."c2) |]
+z |\
+A2B cdc | cdc cfg | agf fed | cBA B3 |\
+G2A Bgf | egf | edc BAG | FED "^D.C."C2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% -- ladies chain,
+%% promenade four,
+%% -- next two forward, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

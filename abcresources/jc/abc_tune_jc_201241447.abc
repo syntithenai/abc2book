@@ -1,0 +1,29 @@
+X: 4356
+T: The Gold Ring
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+%
+V: 1
+|: G2(Bd) | cAFD | GBdg | d2B2 |\
+   c2(Ac) | TBABG | cA FD | G2G,2 :|
+|: d2(Bc) | dB ge | d2(Bc) | d2G2 |\
+   g2(eg) | Tfefd | e2^c2 | d=cBA |
+   G2(Bd) | cAFD | GBdg | d2B2 |\
+   (ce) Ac | (Bd) GB | (Ac) DF | G2 G,2 :|
+%
+V: 2 clef=bass middle=d
+|: g2g2 | d2d2 | g2g2 | g2g2 |\
+   a2f2 | g2e2 | c2d2 | g2G2 :|
+|: g2g2 | g2g2 | g2g2 | g2g2 |\
+   e2e2 | d2g2 | a2A2 | d2d2 |
+   g2g2 | d2d2 | g2g2 | g2g2 |
+   a2f2 | g2e2 | c2d2 | g2G2 :|
+%%begintext align
+First and 2d Cu. Set and half Right and Left .|
+the same back again :|
+cast off and lead thro' the 3d Cu. cast up two Cu. and turn single at top, and change sides .|
+Set sides and turn sides cast off and turn :|:
+%%endtext

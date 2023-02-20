@@ -1,0 +1,26 @@
+X:1
+T: Bonnie Cate
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:A
+I:speed 100
+%W: A1
+% voice 1 (1 lines, 27 notes)
+K:A
+M:4/4
+L:1/16
+a3 b a2 g2 a2 e4 f2 |e2 d2 c2 B2 c2 A4 B2 |c2 A4 B c d2 B4 c d |c3 e d2 c2 B8 |
+%W: A2
+% voice 1 (1 lines, 27 notes)
+a3 b a2 g2 a2 e4 f2 |e2 d2 c2 B2 c2 A4 B2 |c2 A4 B c d2 B4 c d |c3 e d2 c2 B8 |
+%W: B1
+% voice 1 (1 lines, 30 notes)
+c2 A4 B c d2 B2 e2 c2 |f2 d4 e f g4 e2 f g |a3 b a2 f2 e2 g2 a2 f2 |e3 f e2 c2 A4 A4 |
+%W: B2
+% voice 1 (1 lines, 30 notes)
+c2 A4 B c d2 B2 e2 c2 |f2 d4 e f g4 e2 f g |a3 b a2 f2 e2 g2 a2 f2 |e3 f e2 c2 A4 A4 ||

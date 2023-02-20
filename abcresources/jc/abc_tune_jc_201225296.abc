@@ -1,0 +1,32 @@
+X: 92
+T: London Hornpipe
+T: Longways for as many as will.
+%R: triple hornpipe
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.46
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the dance pattern.
+M: 3/2
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D2F2 A2d2 fga2 | g2 e4 B2 dcBA |\
+dABG AFGE FDEF | A,2 D4 GF E2D2 :|
+|:\
+BdBF GBGE FAFD | C2 E4 B,2 C2E2 |\
+fafc dfdA GFED | A,2 D4 GF E2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. lead forward and back again,
+%% lead thro' the 2d Cu. cast up into your own
+%% Places and cast down again .| 1st Cu. lead
+%% down and up again leading thro' the
+%% 2d Cu. cast down and up again :| the 1st and
+%% Men double figure on the Wo. side, the
+%% 1st Man casting down into the 2d Man's
+%% Place .| the two Wo. do the same on the
+%% Mens side the 1st Wo. casting down.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

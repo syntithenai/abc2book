@@ -1,0 +1,29 @@
+X: 20162
+T: LAWERS HOUSE
+O: Scottish air.
+Q: "Moderate."
+%R: reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.16 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has an initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: Am
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+ed |\
+c2(BA) A2(ed) | c2(BA) a3e |\
+dega egdg | B2G2G2 (ed) |\
+c2BA A2ed | c2BA a3g |\
+egdg caBg | c2A2A2 :|
+|: eg |\
+agab abag | dega (ga/b/) ag |\
+degb egdg | B2G2G2 eg |\
+agab abag | dega (ga/b/) ag |\
+degb egdg | c2A2A2 eg |
+agab abag | dega (ga/b/) ag |\
+degb egdg | B2G2G2 ed |\
+c2BA A2ed | c2BA a3g |\
+egdg caBg | c2A2A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

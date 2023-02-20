@@ -1,0 +1,33 @@
+X: 8
+T: Maclod's Rant
+%R: march, reel
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats corrected to match the "Last Strain once" comment.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+|:\
+B4 A2G2 | GGG2 G2A2 | B4 A2G2 | AAA2 A2d2 |\
+B4 A2G2 | GGG2 G2B2 | EEE2 E2F2 | GGG2 G4 :|
+d3ed2g2 | d4 B2c2 | ddd2 d2g2 | d4 B2c2 |\
+ddd2 g2d2 | ccc2 g2c2 | BBB2 g2B2 | AAA2 A4 |
+G3A B2d2 | E4 D2B,2 | GGG2 B2d2 | E4 D2B,2 |\
+C2D2E2F2 | G2e2 d4 | B4 A2G2 | GGG2 G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+G8 | "6"e8 | g4 G4 | d8 | G8 | "6"e8 | "6;5"c4 "5;3"d4 | G8 :|\
+"Last Strain once"\
+g4 g4 | g4 G4 | g4 g4 | g4 G4 |
+"6"b8 | "6"a8 | g4 G4 | d8 | z8 | z2c2"6"B2G2 | "6"e4 g4 | z2c2"6"B2G2 | "6"e4 c'4 | z2c'2b2"6"f2 | g4 d4 | G8 |]
+%%begintext align
+%% The first Couple foot it & turn the 2d Cu. to the Top   then foot it and turn the 2d Cu. into their
+%% Places | Dance inside below the 3d Couple   cast up into the 2d Couple's Place take Hands side ways
+%% foot it and turn |
+%%endtext

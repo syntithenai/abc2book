@@ -1,0 +1,20 @@
+X: 138029
+T: the RAKES OF CLONMEL
+Q: "Irish Jig."
+R: Jig.
+%R: jig
+B: James Kerr "Merry Melodies" v.1 p.38 s.0 #29
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Changed initial pickup to 16th-notes to make repeats work correctly.
+M: 6/8
+L: 1/8
+K: Am
+ve/d/ |\
+cBA BGE | EAA uA2uB | c>Bc A>Bc | BGG G2 e/^f/ |\
+g>^fg ege | dBG Bcd | ecA dBg | EAA A2 :|\
+ua |\
+a^ga uA2ua | ecA A2g | g^fg G2g | dBG g2B |
+cBc C2c | dcd D2d | edc Bcd ecA A2 ||\
+ua |\
+aea aed | cBc uA2ug | gdg gdc | BAB G2 A/B/ |\
+cBc C2c |dcd D2d | edc Bcd | ecA A2 |]

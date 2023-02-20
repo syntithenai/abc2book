@@ -1,0 +1,44 @@
+X:119
+T:Cherkessia Kfula
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=120
+M:2/2
+L:1/4
+K:G
+V:1
+P:A
+"G"[Bd][Bd]2[Ac] |[GB][FA][DG]2 | "C"[Gc][Gc]2[Bd] |[ce]2[ce]2 | "G"[Bd][Bd]2[Ac] | "G"[GB]2[FA]2 | "D"[Ad]4 | "D7"[Ad]4 |\
+"G"[Bd][Bd]2[Ac] |[GB][FA][DG]2 | "C"[Gc][Gc]2[Bd] |[ce]2[ce]2 | "G"[Bd][Bd]2[Ac] | "D"[GB]2[FA]2 | "G"[GG]4 | "G7"[GG]4 |
+P:B
+"C"[ce][ce]2[Bd] |[Ac][Bd][ce]2 | "G"[Bd][Bd]2[Ac] |[GB][Ac][Bd]2 | "D"[Ac][Ac]2[GB] | "D"[FA]2[GB][Ac] | "G"[Bd]4 | "G7"[Bd]4 |\
+"C"[ce][ce]2[Bd] |[Ac][Bd][ce]2 | "G"[Bd][Bd]2[Ac] |[GB][Ac][Bd]2 | "D"[Ac][Ac]2[GB] | "D7"[FA]2[GB][FA] | "G"[GG]4 |[GG]4 |]
+V:2
+X32 |
+N:Replace by blank line and X field
+T:Cherkessia Kfula - Minor version
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=120
+M:2/2
+L:1/4
+K:Gm
+P:A
+V:1
+K:Gm
+%%MIDI control 10 127  % speaker
+%%MIDI program 71     Clarinet
+%%MIDI chordprog 32   Acoustic Bass
+%%MIDI bassprog 32    Acoustic Bass
+"Gm"[Bd][Bd]2[Ac] |[GB][^FA][DG]2 | "Cm"[Gc][Gc]2[Bd] |[ce]2[ce]2 | "Gm"[Bd][Bd]2[Ac] | "Gm"[GB]2[^FA]2 | "D7"[Ad]4 |[Ad]4 |\
+"Gm"[Bd][Bd]2[Ac] |[GB][^FA][DG]2 | "Cm"[Gc][Gc]2[Bd] |[ce]2[ce]2 | "Gm"[Bd][Bd]2[Ac] | "D7"[GB]2[^FA]2 | "Gm"[GG]4 | "G7"[GG]4 |
+V:2
+%%MIDI control 10 0  % speaker
+%%MIDI program 73     Flute
+gg2f | e2d2 | cc2d | e2e2 | dg2a | b2ag | a4- | a4 |\
+bb2a | g2d2 | cc2d | e2e2 | gd2e | dc BA | G4- | G4 |
+P:B
+V:1
+"Cm"[ce][ce]2[Bd] |[Ac][Bd][ce]2 | "Gm"[Bd][Bd]2[Ac] |[GB][Ac][Bd]2 | "D7"[Ac][Ac]2[GB] | "D7"[^FA]2[GB][Ac] | "Gm"[Bd]4 | "G7"[=Bd]4 |\
+"Cm"[ce][ce]2[Bd] |[Ac][Bd][ce]2 | "Gm"[Bd][Bd]2[Ac] |[GB][Ac][Bd]2 | "D7"[Ac][Ac]2[GB] | "D7"[^FA]2[GB][FA] | "Gm"[GG]4 |[GG]4 |]
+V:2
+ee2d | cde2 | dg2a | b2b2 | aa2g | ^f2ga | b4 | =b4 |\
+c'g2f | edc2 | dg2a | b2b2 | aa2g | ^f2ga | g4 | g4 |]

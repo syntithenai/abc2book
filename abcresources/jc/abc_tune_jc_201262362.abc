@@ -1,0 +1,51 @@
+
+X: 1
+T: Cine Citt\`a  [Am]
+C: Daniel Thonon 1986
+R: waltz
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: Printed MS from ?
+M: 3/4
+L: 1/4
+K: Am
+V: 1
+zcd |:\
+"Am"e2a | "E7"b2a | "Am"e3- | ecd | efe | edc | "E7"B3- | BBc |
+"F(Dm)"ddd | "G7"dBc | "F(Dm)"ddd | "G7"dBc | "F(Dm)"ded | "E7"c2B | "Am"A3 | A3 :|
+|:\
+"F"a3 | "G"def | "C"g3 | "Am"cde | "F"fed | "E7"cBc/d/ | "Am"e3 | eaa |
+"F"a3 | "G"def | "C"g3 | "Am"cde | "F(Dm)"fed | "E7"c2B | "Am"A3- | A3 :|
+V: 2
+z3 |:\
+a3 | ^g3 | =g3 | ^f3 | =f3 | e3 | e3- | ede |
+fff | fde | fff | fde | fed | c2d | e3 | e3 :|
+|:\
+f3 | Bcd | e3 | ABc | ded | cBc/B/ | A3 | G3 |
+f3 | Bcd | e3 | ABc | ded | c2d | e3- | e3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Cine Citt\`a  [Bm]
+C: Daniel Thonon 1986
+R: waltz
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: Printed MS from ?
+M: 3/4
+L: 1/4
+K: Bm
+V: 1
+zde |:\
+"Bm"f2b | "F#7"c'2b | "Bm"f3- | fde | fgf | fed | "F7"c3- | ccd |
+"G(Em)"eee | "A7"ecd | "G(Em)"eee | "A7"ecd | "G(Em)"efe | "F7"d2c | "Bm"B3 | B3 :|
+|:\
+"G"b3 | "A"efg | "D"a3 | "Bm"def | "G"gfe | "F7"dcd/e/ | "Bm"f3 | fbb |
+"G"b3 | "A"efg | "D"a3 | "Bm"def | "G(Em)"gfe | "F7"d2c | "Bm"B3- | B3 :|
+V: 2
+z3 |:\
+b3 | ^a3 | =a3 | ^g3 | =g3 | f3 | f3- | fef |
+ggg | gef | ggg | gef | gfe | d2e | f3 | f3 :|
+|:\
+g3 | cde | f3 | Bcd | efe | dcd/c/ | B3 | A3 |
+g3 | cde | f3 | Bcd | efe | d2e | f3- | f3 :|

@@ -1,0 +1,45 @@
+X: 1
+T: Come, Thou Fount of Every Blessing
+M: 3/2
+L: 1/4
+N: from Songs of Praise, \2511992.
+N: Words: Robert Robinson (1735-1790)
+N: Music: Nettleton, melody from A Repository of Sacred Music, Part II, 1813; harm. Carl Haywood (b.1949)
+%%staves (S A) | (T B)
+K: Eb
+V: S
+V: A
+V: T clef=bass
+V: B clef=bass
+V:S
+"Bb7"GF | "Eb"E2 E2 GB | "Bb7"F2 F2 "Eb"GB | "Ab"c2 "Eb"B2 "Bb7"GF |
+w: 1.~Come, Thou fount of ev-ery bless-ing, Tune my heart to sing thy
+w: 2.~Here I raise my Eb-en-e-zer, Hith-er by thy help I'm
+w: 3.~O, to grace how great a debt-or, Dai-ly I'm con-strained to
+"Eb"E4 "Bb7"GF | "Eb"E2 E2 GB | "Bb7"F2 F2 "Eb"GB | "Ab"c2 "Eb"B2 "Bb7"GF |
+w: 1.~grace; Streams of mer-cy nev-er ceas-ing, Call for songs of loud-est
+w: 2.~come; And I hope, by thy good pleas-ure, Sure-ly to ar-rive at
+w: 3.~be; Let that grace, Lord, like a fet-ter, Bind my won-d'ring heart to
+"Eb"E4 B"Bb7"(c/d/) | "Eb"e2 d2 "Ab"c"Eb"B | "Ab"(cB) "Eb"G2 B"B7"(c/d/) | "Cm"e2 "Gm"d2 "Ab"c"Bb9"B |
+w: 1.~praise. Teach me* some me-lo-dious son-*net, Sung by* flam-ing tongues a
+w: 2.~home. Je-sus* sought me when a stran-*ger, Wan-d'ring* from the fold of
+w: 3.~Thee. Prone to* won-der, Lord, I feel* it, Prone to* leave the God I
+"Eb"e4 "Bb7"GF | "Eb"E2 E2 GB | "Bb7"F2 F2 "Eb"GB | "Ab"c2 "Eb"B2 "Bb7"GF | "Eb"E4 |]
+w: 1.~bove. Praise the mount, O fix me on it. Mount of God's un-chang-ing love.
+w: 2.~God. He, to save my soul from dan-ger, In-ter-posed His pre-cious blood.
+w: 3.~love. Here's my heart, Lord, take and seal it, Seal it from thy courts a-bove.
+V: A
+CD | B,2 B,2 EE | D2 D2 EE | E2 E2 ED |
+B,4 CD | B,2 B,2 EE | D2 D2 EE | E2 E2 ED |
+B,4 EA | G2 B2 AG | (ED) E2 EA | G2 (GF) EC |
+(_A2 G2) CD | B,2 B,2 EE | D2 D2 EE | E2 E2 ED | B,4 |]
+V: T
+aa | g2 g2 bb | b2 b2 bg | a2 (bc') ba |
+g4 ba | g2 g2 bb | b2 b2 bg | a2 (bc') ba |
+g4 ba | b2 e'2 e'e' | (af) b2 ba | c'2 b2 aa |
+(c'2 b2) aa | b2 e'2 e'e' | (af) b2 ba | c'2 b2 aa | g4 |]
+V: B
+BB | e2 e2 eG | B2 B2 ee | a2 (ga) bB |
+e4 eB | e2 e2 eG | B2 B2 ee | a2 (ga) bB |
+e4 gf | e2 g2 ae | e2 e2 gf | c2 g2 af |
+e4 BB | e2 e2 eG | B2 B2 ee | a2 (ga) bB | e4 |]

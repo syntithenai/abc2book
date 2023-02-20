@@ -1,0 +1,25 @@
+X: 12242
+T: the Last Time I came o'er the Moor
+%R: air
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.24 #2
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Added rest to 2nd strain's pickup note, to fix the rhythm.
+N: Dropped dot from last note, to fix the rhythms of repeats.
+M: C
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"(A>G) |\
+F2(TE>D) d3e | {de}f2(Te>d) c2(TB>A) |\
+B3A (FEF)A | B4 {Bc}d3A |\
+F2(TE>D) d3f | (ef/g/) (Te>d) c2(TB>A) |
+(B/d/c/e/ d/f/e/g/) (fe)(dc) | B4 {Bc}d2 :: ze |\
+c2TB>A A3f | ecBc A3F |\
+A3B ABdF | A4 d3A |
+BABd B2AF | AFAB d3e |\
+(fe)(dc) (BA)(GF) | {F2}E4 HD3F |\
+A3F A3F | AFEF A3F |
+(EDE)F (ABd)F | A4 d3A |\
+B2(B/c/)d F2(TE>D) | EF (AB/c/) d3e |\
+(f/g/e/f/ d/e/B/d/) (ABd)g | {f2}Te4 d2 :|

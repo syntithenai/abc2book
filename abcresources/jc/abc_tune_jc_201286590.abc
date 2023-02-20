@@ -1,0 +1,14 @@
+X: 1402
+T: the Highway To Limerick
+R: reel
+%S: s:2 b:12(6+6)
+O: F. O'Neill
+B: O'Neill's 1850 #1402
+Z: Bob Safranek, rjs@gsp.org
+N: Key changed to A dorian because all f notes have a sharp.
+M: C|
+L: 1/8
+K: Ador
+"^A"\
+|: EAAB cBAc | BAGB dBGA | EAAB cBcd | ((3efg) dB TBAA2 "^B":| eaag efge | dBGc AGE2 |
+| eaag ef^ga | ba^gb a2(ab) || ((3c'ba) (bg) efge | dBgd TBGG2 | EAAB {d}cBcd | ((3efg) dB TBAA2 |]

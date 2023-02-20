@@ -1,0 +1,19 @@
+X: 1571
+T: the Top of the Morning
+R: hornpipe
+%S: s:2 b:9(5+4)
+B: O'Neill's 1850 #1571
+O: F.O'Neill
+Z: Michael Hogan
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play (A1A2)x2 + (BA2)x2
+M: 2/4
+L: 1/16
+K: G
+(3(DEF) "^A"\
+|: G>FG>A G2A>B | c>AF>A G2A>B | c>Bc>e d>B \
+[1,3 G>B | A>GF>E D>EF>D :|[2,4 A>B | G2G>G "^fine"G2 :|
+"^B"|: (A>B) \
+| c>Bc>d e2d>c | B>AB>c d2B>G \
+| G>FG>A B2A>G | A2d>e d>cA>"^->A2"F |]

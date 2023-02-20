@@ -1,0 +1,22 @@
+X: 1
+T: Sweet Nothings
+C: Daron Douglas
+N: For the dance 'Sweet Nothings', by Carl Dreher.
+R:
+S: http://104.169.204.122/ECD/Biggest%20Flirt%20%28Sweet%20Nothings%29/Sweet%20Nothings%20%28music%29.pdf 2019-12-1
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Em
+"^A"[|\
+"Em"BE- EB "Bm"AF | "Em"G2 EE "Bm"DD | "Em"EB- BG "Bm"AF | "Em"E2 E4 |\
+"Em"BE- EB "Bm"AF | "Em"GE "Am"AE "Em"Bc | "Bm"Bd ff gf | "Em"ee- e4 |]
+"B"[|\
+"C"g4 e2 | "B"g2 f4 | "Em"e2 BA GF | E6 |\
+"Am"g3 e fg | "Em"fe- e3 e | "C"c6 | "B"f4- fa |
+"Em"b4 gf | "C"f2 e4 | "Am"g3 f ec | "Em"B4 f2 |\
+"C"ge ge "Am"a3 | "Em"b2 a2 g2 | "Am"c3 c- cc | "Bm"f2 g2 f2 |]
+"C"[|\
+"Em"eB- BB AF | B2 G4 | "Am"GF EE cA | "B"B4 G2 |\
+"Em"B3 A- AG | "C"G4 GF | "Am"E4- ED | "Em"E6 |]
+

@@ -1,0 +1,24 @@
+X: 180
+T: Good-Night, Ladies
+Q: "Sostenuto."
+%R: air, march
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The bar line at the end of the 1st staff doesn't make sense; not fixed.
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[|!f!\
+d4 B4 | F B- B4 z2 | d4 B4 | c c- c4 z2 | d4 B4 | e e- e4 z |
+w: 1.~Good-night, la-dies!* Good-night, la-dies!* Good-night, la-dies!*
+w: 2.~Fare-well, la-dies!* Fare-well, la-dies!* Fare-well, la-dies!*
+w: 3.~Sweet dreams, la-dies!* Sweet dreams, la-dies!* Sweet dreams, la-dies!*
+%
+e | d3 d c3 c | B6 z2 |: "Allegro."d> c B c d d d | c c c2
+w: We're going to leave you now.  Mer-ri-ly we roll a-long, roll a-long,
+%
+d f f2 | d> c B c d d d2 | "Ritard molto."c> c d "Repeat pp"c B4 :|
+w: roll a-long, Mer-ri-ly we roll a-long, O'er the dark blue sea.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

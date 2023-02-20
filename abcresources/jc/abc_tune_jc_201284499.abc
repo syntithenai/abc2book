@@ -1,0 +1,26 @@
+X:4
+T:Hanter-dro 4
+G:Kazimodal
+R:Hanter-zañs
+C:Traditionnel, arrangement http://kazimodal.trad.org
+Q:C2=95
+P:E4
+M:3/4
+S:Tonioù Breizh-Izel 1910 (Plañwour/An Oriant)
+K:Dm
+P:E
+%%MIDI gchord fccffz
+%%MIDI chordprog 42
+%%MIDI bassprog 43
+%%MIDI program 41
+|: "Dm"DF/2E/2 D"F"F {EF}"C"E2 | \
+	"Gm"(G/2F/2)(G/2A/2) {FG}"Am"FG/2E/2 "Bb"FD |
+"Dm"DF/2E/2 D"F"F {EF}"C"E2 | \
+	"Gm"(G/2F/2)A/2G/2 {FG}"Bb"F"C"(E/2F/2) "Dm"D2 :|
+|: "F"A(A/2B/2) "Gm"GA {FG}"Bb"FD | \
+	"Gm"G(G/2A/2) "C"EG "Bb"(F/2E/2)(F/2G/2) |
+"F"A(A/2B/2) "Gm"GA {FG}"Bb"FD |1 \
+	"C"G(G/2A/2) {FG}"Gm"F"Am"E "Bb"D2 :|2 \
+	"C"G(G/2A/2) {FG}"Gm"F"Am"E "Dm9"D2 ||
+%%text 1: guitare descente Dm, C, Bb, Am + bombarde + fl\^ute
+%%text 2: guitare Dm cordes aigu\"e +/- 1 ton + fl\^ute + concertina

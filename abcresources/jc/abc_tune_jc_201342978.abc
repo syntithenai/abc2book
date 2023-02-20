@@ -1,0 +1,31 @@
+X: 1
+T: Take Me Out to the Ball Game
+C: Albert von Tilzer
+R: waltz
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: F
+[| "F"Fzf | "(Dm)"dcA | "C7"c3 | G3 | "F"Fzf | "(Dm)"dcA | "C"c3- | c3 |
+| "D7"d^cd | ABc | "Gm"d2B | G3 | "G7"d2d | def | "C"ged | cAG |
+|  "F"Fzf | "(Dm)"dcA | "C7"c3 | G2A | "F"F2G | "F7"ABc | "Bb"d3- | dde |
+|  "Bb"fz2 | "G7/B"fz2 | "C"fed | "D7"c=Bc | "G(m)"d3 | "C7"e3 | "F"f3- | fz2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Take Me Out to the Ball Game
+C: Albert von Tilzer
+R: waltz
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: G
+[| "G"Gzg | "(Em)"edB | "D7"d3 | A3 | "G"Gzg | "(Em)"edB | "D"d3- | d3 |
+| "E7"e^de | Bcd | "Am"e2c | A3 | "A7"e2e | efg | "D"afe | dBA |
+|  "G"Gzg | "(Em)"edB | "D7"d3 | A2B | "G"G2A | "G7"Bcd | "C"e3- | eef |
+|  "C"gz2 | "A7/C#"gz2 | "D"gfe | "E7"d^cd | "A(m)"e3 | "D7"f3 | "G"g3- | gz2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500

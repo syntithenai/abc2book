@@ -1,0 +1,22 @@
+X: 1
+T: Christ Was Born on Christmas Day
+P: piffero primo c0006
+O: German
+%R: jig
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+V: 1
+V: 2
+%%score (1 2)
+% - - - - - - - - - -
+V: 1 staves=2
+[|\
+d2B G2B | d2e d3  | d2B G2B | d2e d3  |\
+c2c c2d | c2B A2B | d2B G2c | B2A A2B | G3 G3 |]
+% - - - - - - - - - -
+V: 2 
+[| x6 | G6 | x6 | G6 | E2G F3 | G3 F3 | x6 | G3 F3 | E3 D3 |]
+%% - - - - - - - - - -

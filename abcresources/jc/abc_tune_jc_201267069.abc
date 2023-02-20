@@ -1,0 +1,20 @@
+X:296
+T:Danza de San Pablo (CT 371)
+R:Danza
+C:Tradicional
+S:Música Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza, transcrita en Cuideiru.
+N:Se la llama danza de San Pablo, por ser el día de esta festividad cuando preferentemente se ejecuta.
+N:Intervienen personas de ambos sexos, divididas indistintamente en dos coros.
+A:Asturies
+O:Cuideiru
+Z:Cancioneru de Torner 371
+M:6/8
+L:1/8
+Q:3/8=80
+K:G
+"1º coro"
+d2 d|(B>A)B c2 B|A2 G A2 A|F2 G B2 A|G2 G/z/ A2 A|F2 E G2 F|E2 D
+"2º coro"
+G2 G|G2 G B2 A|G3 G3-|Gz2 :||

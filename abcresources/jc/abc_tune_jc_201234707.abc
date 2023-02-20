@@ -1,0 +1,64 @@
+X: 20721
+T: BARTLETT'S QUICKSTEP
+C: * Composed by Dr. John C. Bartlett, of Chelmsford.
+%R: jig, quickstep
+B: Elias Howe "The Musician's Companion" 1843 p.71 #1 (and also p.72 #1)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added triplet notation to the initial 3 pickup notes, to get the bar lines aligned.
+N: Strain 1 has 8 bars, strain 2 has 9 bars, and strain 3 has 14 bars.
+N: (Connecting bar lines used for readability, but not used in book.  Change this if you like.)
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+(3c/d/e/ |\
+{f}f2f {f}f2f | {f}f2f {f}f2f | agf gfe | fff f2z |\
+{g}g2g {g}g2g | {g}g2g {g}g2g | gfe dc=B | (ccc c2) :|
+|: (A/B/) |\
+c3 d2c | cfz cf (A/B/) | c3 d2c | cgz cg (A/B/) |\
+c3 d2c | caz gfz | dfz cfz | egz cde | f3- f2 :|
+%p.73
+|: A/B/ |\
+.c2z .c2z | c3 c=Bc | A3 A3 | A3 ABc |\
+d3 d3 | d3 fed | c3 c3 |
+c3 cBA | G3 G3 | GAB cde | f2z z2e |\
+f2z z2g | f2[ec] f2[ec] | f3- f2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z |\
+A2A B2B | A2A B2B | fed edG | AAA A2z |\
+e2e f2f | e2e f2f | edc FED | (EEE E2) :|
+|: z |\
+A3 B2A | A2z A2z | A3 B2A | c2z c2z |\
+A3 B2A | Afz [eB][cA]z | BAz A2z | GBz ABG | A3- A2 :|
+%p.73
+|: z |\
+.A2z .A2z | A3 AGA | F3 F3 | F3 FGA |\
+B3 B3 | B3 dcB | A3 A3 |
+A3 AGF | E3 E3 | EFG ABG | A2z z2B |\
+A2z z2B | A2B B2A | A3- A2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z |\
+f3 f3 | f3 f3 | A3 c3 | fff f2z |\
+c3 c3 | c3 c3 | e2f g2G | (ccc c2) :|
+|: z |\
+f3 b2z | z3 z3 | f3 b2z | z3 z3 |\
+f3 b2z | f2z f2z | B2z f2z | c2z c3 | f3- f2 :|
+%p.73
+|: z |\
+.f2z .f2z | f3 f3 | f3 f3 | f3 f3 |\
+B3 B3 | B3 B3 | f3 f3 |
+f3 f3 | c3 c3 | c3 c3 | f2z z2c |\
+f2z z2c | f2c f2c | f3- f2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% * Entered,
+%% according to Act of Congress in the year 1842,
+%% by Charles H. Keith,
+%% in the Clerk's office of the District Court of Massachusetts.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

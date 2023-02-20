@@ -1,0 +1,127 @@
+X:359
+T:Sonata \`a3
+T:Trio-sonata
+T:1. Allegro
+C:Giuseppe Sammartini, arr. (Continuo-realisation) Frank Nordberg
+O:Italy
+F:http://abc.musicaviva.com/tunes/sammartini-giuseppe/sammartini-sonata-01/sammartini-sonata-01.abc
+%WARNING!
+%These are sketches I made as a part of the work transcribing
+%Sammartini's trio sonata for Musica Viva. I take no responsibility
+%for any errors. The finished transcription is available in gif format
+%at http://www.musicaviva.com/common_room/sammartini-sonata-01.html
+%   Frank Nordberg
+M:C
+L:1/8
+K:C
+T:1. Allegro
+"^Vln 1"cB/c/ dB cGEG|cB/c/ dB cG z2|ed/e/ fd ec Gc|ed/e/ fd ecz2|
+e(e/f/) e(e/f/) d(d/e/) d(d/e/)|c(c/d/) c(c/d/) Bddd|e z d z e z d z|d z c z ag/^f/ ge|
+g2^f2g2zd|cB2d cB2g|(g^f)(fe) (ed)(dc)|(cB)(BA) A(G/^F/) GE|G2^F2G4:|]
+g^f/g/ af gdBd|g^f/g/ af gd z d|(ed)(dc) (cB)(BA)|(AG)(G^F) F z G z|
+A z B zA2z2|d^c/d/ ec dA^FA|d^c/d/ ec dAz2|e^d/e/ ^fd eBGB|e^d/e/ ^fd eBz2|
+g(g/a/) g(g/a/) ^f(f/g/) f(f/g/)|e(e/^f/) e(e/f/)^d2z2|(^de)(e^f)f2z2|(^fe)(e^d)d2z2|
+z4a2e2|^f4-fg/a/ gf|e4-e^f/g/ fe|^d2^f2-fe/d/ ef|
+e2^d2e=d/c/ BA|G2^F2E2zg|=fe2g fe2e|dc2e dc2G|cB/c/ dB cGEG|
+ed/e/ fd ecGc|e(e/f/) e(e/f/) d(d/e/) d(d/e/)|c(c/d/) c(c/d/) B/A/G/A/ B/c/d/e/|fzezd>c B/c/d/e/|
+f z e z d2z2|cccc _BBBB|A2z/A/B/c/ dddd|ccccB2z2|
+(fe)(ed) (dc)(cB)|(BA)(AG) Gg2f|ed/c/ dB c z A z|B z f z e z d z|c8|]
+T:2. Adagio
+M:3/4
+L:1/8
+^c2c2c2|def2z2|^d2d2d2|e^fg2z2|=f2e2d2|^ce- e/d/e/f/ ed|^ce- e/d/e/f/ ed|
+^c2G2G2|G2z2z2|de=f2e2|d2f2e2|^d^f- f/e/f/g/ fe|^d^f- f/e/f/g/ fe|^d2A2A2|
+A2z2z2|g>^ff3e|e^fg2g2-|g2^f2e2|de=f2f2-|f2e2d2|cde2e2-|
+e2d2c2|B2_B2B2|_B2A2A2-|A2^G2e2-|e2d2f2|^d4z2|=d2z2z2|
+d2z2z2|cBB3A|Ae- e/d/e/f/ ed|ce- e/d/e/f/ ed|c/A/B/A/ c/e/f/e/a2|c2d2B2|A6|]
+T:3. Allegro
+M:3/8
+L:1/8
+|:ccc|ccc|ccc|c3|cBA|GFE|FGF|FEz|gfe|agf|edc|
+B3|d/B/d/B/d/B/|ed2|d/B/d/B/d/B/|ed2|g^fe|dcB|cAd|G3|ggg|
+ggg|ggg|g3|g/^f/e/d/c/B/|e/d/c/B/A/G/|cBA|G3:|g/a/gf|e/f/ed|c/d/c_B|
+_BA2|a/b/ag|^f/g/fe|d/e/dc|cB2|Gc2|Gd2|Ge2|edz|fff|fff|
+fff|fez|eee|eee|edc|B3|c3|d3|e3|f>ge|
+fd2|c3|g/e/g/e/g/e/|agz|g/e/g/e/g/e/|agz|cBA|GFE|FDG|C3|
+gf/e/d/c/|a/g/f/e/d/c/|fed|ccc|ccc|cB/A/G/F/|EFG|C3|]
+
+
+X:2
+T:Sonata \`a3 - vln 2
+C:Giuseppe Sammartini
+M:C
+L:1/8
+K:C
+z8|z8|cB/c/ dB cGEG|cB/c/ dB cG z2|
+c(c/d/) c(c/d/) B(B/c/) B(B/c/)|A(A/B/) A(A/B/) GBBB|c z B z c z B z|G z G z ^FG/A/ BG|
+B2A2G2zB|AG2B AG2e|(ed)(dc) (cB)(BA)|(AG)(G^F) F z B z|B z A zG4:|]
+BA/B/ cAB2z2|BA/B/ cAB2zB|(cB)(BA) (AG)(G^F)|(^FE)(ED) D z B z|
+BBBB BBBB|BBB^AB2z2|(^fg)(ga)a2z2|(ag)(g^f)f2z2|
+e2B2c4-|cd/e/ dcB4-|Bc/d/ cBA4-|AB/c/ BAG2zA|
+^F z G z F2z2|^fe/f/ gef2z2|^fe/f/ gef2z2|g^f/g/ afg2z2|g^f/g/ afg2z2|
+G2^F2E2e2-|e2^d2e2ze|dc2e dc2G|FE2G FE2zz4z2zG|
+cB/c/ dB cGEG|c(c/d/) c(c/d/) B(B/c/) B(B/c/)|A(A/B/) A(A/B/)G2z2|dzczB>A G/A/B/c/|
+d z c z B2z2|cccc cccc|c2z2dddd|ddddd2z2|
+z4(fe)(ed)|(dc)(cB)B2A2|GF/E/ FD E z z f-|fe/d/ eA c z B z|c8|]
+T:2. Adagio
+M:3/4
+L:1/8
+A2A2A2|A6|B2B2B2|B4z2|B2B2B2|Ag- g/f/g/a/ gf|eg- g/f/g/a/ gf|
+e2e2d2|^c2z2z2|d2d2^c2|d2d2=c2|Ba- a/g/a/b/ ag|^fa- a/g/a/b/ ag|^f2f2e2|
+^d2z2z2|e2^d3e|e4z2|^AB^c2c2-|c2B2=A2|^GAB2B2-|B2A2G2|
+^FGA2A2-|A2G2G2|c2c2c2|c2B2^G2|A2A2A2|A6|A2z2z2|
+B2z2z2|A2^G3A|Ac- c/B/c/d/ cB|Ac- c/B/c/d/ cB|A2z2z2|A2B2^G2|A6|]
+T:3. Allegro
+M:3/8
+L:1/8
+|:eee|eee|eee|e3|edc|B2c|dB2|c2z|edc|fed|cBA|
+G3|B/G/B/G/B/G/|cB2|B/G/B/G/B/G/|cB2|g^fe|dcB|cAd|G3|edc|
+B3|edc|B3|B3|G3|AG^F|G3:|z3g/a/gf|e/f/gG|
+GF2|z3|a/b/ag|^f/g/aA|AG2|eg2|dg2|eg2|cBz|ddd|ddd|
+ddd|dcz|ccc|ccc|Aff|f3|e3|B3|c3|d>ec|
+dcB|c3|e/c/e/c/e/c/|fez|e/c/e/c/e/c/|fez|cBA|GFE|FDG|C3|
+c3|c3|dcB|ccc|ccc|cB/A/G/F/|EFG|C3|]
+
+X:3
+T:Sonata \`a3 - bass
+C:Giuseppe Sammartini
+%I have not find a good way to notate figured bass in abc.
+%In the first movement I have experimented a little with using the chord symbol function,
+%but I wasn't satisifed with that solution. Any good ideas?
+M:C
+L:1/8
+K:C
+C,2z2C,2z2|C,2z2C,2z2|C,2"7"G,,2C,2z2|C,2"7"G,,2C,2z2|
+C,2z2G,,2z2|A,,2^F,,2G,,2"-"B,,G,,|C, z G,, z C, z G,, z|"7"E,, z "6"E, z "#"D,2G,,2|
+"6/4"D,2"#"D,,2G,,2z2|z8|z8|z4"#"D, z G,,z|"6/4"D, z "#"D,, z G,,4:|
+G,,2z2G,,2z2|G,,2"7/#"D,2G,,2z2|z8|z4"#"D, z "6/4"D, z|
+"#"D, z "6/4"D, z "#"D,2 z2|z4 "#"D,2 z2|"6"^F,2 "#6/4"E,2 "#"D,2 z2|z4E,2z2|"6"G,2"#"^F,2E,2z2|
+E,E,E,E, "6"^D,"6"=D,"-"D,"-"D,|"7"^C,"7"=C,"-"C,"#6"C, "#"B,,"-"B,,"6/4"B,,"-"B,,|"#"B,,2z2"#"B,,"-"B,,"6/4"B,,"-"B,,|"#"B,,2z2"n"B,,2"-"A,,2|
+"6"G,,2E,,2A,,2z2|"7/#"D,2z2G,,2z2|"7"C,2z2"7"^F,,2z2|"#"B,,2z2E,,2zA,,|
+"6/4"B,,2"7/#"B,,2E,2z2|"6/4 - 5/#"B,,4E,2z2|z8|z8|C,2z2C,2z2|
+C,2G,,2C,2z2|C,2z2G,,2z2|A,,2"6"^F,,2G,,2z2|"6"B,,z C, z G,,2z2|
+G,, z "6/4"G,, z G,,G,G,"-"F,|"6"E,"-"E,"-"E,"-"E, "-"E,,"-"E,,"-"E,,"-"E,,|F,,"-"A,"-"A,"-"G, "6"^F,"-"F,"-"F,"-"F,|"6"^F,,"-"F,,"-"F,,"-"F,,G,,2z2|
+z8|z4G,,2"7/n5"B,,2|C,2"7"G,,2C, z F,, z|"7"G,, z "6"A,, z "6/4"G,, z G,, z|C,8|]
+T:2. Adagio
+M:3/4
+L:1/8
+G,2G,2G,2|F,4z2|A,2A,2A,2|G,4z2|^G,2G,2G,2|A,2A,2A,2|A,,2A,,2A,,2|
+A,,2z2z2|z6|F,2A,2A,,2|D,2z2z2|B,,2B,,2B,,2|B,,2B,,2B,,2|B,,2z2z2|
+z6|E,2B,2B,,2|E,6|^F,2^A,,4|B,,2z2z2|E,2^G,,4|A,,2z2z2|
+D,2^F,,4|G,,2E,,2E,2|F,2^D,4|E,2E,2E,,2|F,,2F,,2F,,2|F,,2F,,2F,,2|^F,,2F,,2F,,2|
+^G,,2G,,2G,,2|A,,2E,2E,,2|A,,2E,,2E,,2|A,,2E,,2E,2|A,,6|A,,2D,2E,2|A,,6|]
+T:3. Allegro
+M:3/8
+L:1/8
+|:C,E,D,|C,E,D,|C,E,,G,,|C,E,G,|C3|G,2C,|B,,G,,2|C,C,z|C,2E,|F,3|^F,3|
+G,G,G,|G,3|G,,G,,G,,|G,,3|G,,G,,G,,|G,,3|z3|z3|z3|C,B,,A,,|
+G,,A,,B,,|C,B,,A,,|G,,3|G,,3|C,3|C,D,D,,|G,,3:|C,2z|C,2z|C,E,,2|
+F,,3|^F,,3|^F,,3|^F,,3|G,,3|C,C,C,|B,,B,,B,,|C,C,C,|G,G,,z|D,D,C,|B,,B,,A,,|
+G,,B,,G,,|C,C,z|C,C,B,,|A,,A,,G,,|F,,3|G,,G,,G,,|G,,G,,G,,|G,,G,,G,,|G,,G,,G,,|G,,2C,|
+F,G,G,,|C,C,C,|C,3|C,C,C,|C,3|C,C,C,|C,3|z3|z3|z3|
+C,3|F,3|F,G,G,,|C,C,C,|C,C,C,|C,B,,/A,,/G,,/F,,/|E,,F,,G,,|C,3|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

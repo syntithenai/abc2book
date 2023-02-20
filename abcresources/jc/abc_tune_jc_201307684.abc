@@ -1,0 +1,32 @@
+X:1
+T: Mary K
+N:
+C:Dave Wielser
+S:Adapted from Scherzo
+A:
+O:
+R:
+M:3/2
+K:G
+I:speed 228
+%W: A1
+% voice 1 (1 lines, 27 notes)
+K:G
+M:3/2
+L:1/16
+g4 b2 |a2 b4 |g4 c'4 |a4 g4 |b2 a2 b4 |g4 a4 |f4 g4 |b2 a2 b4 |g4 c'4 |a4 b4 |a2 g2 a4 |f4 e8 |
+%W: A2
+% voice 1 (1 lines, 27 notes)
+g4 b2 |a2 b4 |g4 c'4 |a4 g4 |b2 a2 b4 |g4 a4 |f4 g4 |b2 a2 b4 |g4 c'4 |a4 b4 |a2 g2 a4 |f4 e8 |
+%W: B
+% voice 1 (1 lines, 23 notes)
+e4 e2 |e2 e8 |f8 |e4 c2 |d2 e4 |f4 g8 |e4 e2 |d2 e4 |f8 |g4 g4 |f2 e2 f4 |^d4 e8 |
+%W:
+% voice 1 (1 lines, 23 notes)
+e4 e2 |e2 e8 |f8 |e4 c2 |d2 e4 |f4 g8 |e4 e2 |e2 e4 |f4 g8 |f6 |f2 f4 |e4 d4 |c4
+%W: C
+% voice 1 (1 lines, 34 notes)
+B4 |B,2 ^C2 ^D4 |D2 E2 F4 |F2 G2 A4 |F2 G2 A4 |A2 B2 c4 |c4/3 d4/3 |e4/3 ^d4 |B2 ^c2 d4 |d2 e2 f4 |f2 g2 a4 |g4 f4 |e4 ^d4 |B4
+%W:
+% voice 1 (1 lines, 34 notes)
+b4 |B2 ^c2 ^d4 |d2 e2 f4 |f2 g2 a4 |f2 g2 a4 |a2 b2 c'4 |c'4/3 d'4/3 |e'4/3 ^d'4 |b2 b2 b4 |b4 b4 |b4 c'4 |b4 a4 |g4 f4 |B4 |e12|e12 ||

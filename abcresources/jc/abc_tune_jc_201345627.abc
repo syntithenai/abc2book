@@ -1,0 +1,105 @@
+
+X: 1
+T: Too Klez for Comfort    [Cm]
+C: Steven Rauch
+S: Printed page from Steve Rauch
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Cm
+G,CE "A"|:\
+"Cm"^FG2G FEDC | "Cm"^FG- G3 G,CE |\
+"Cm"^FG2G FEDC | "G7"D4- DG,=B,D |\
+"G7"=EF2F _EDC=B, | "G7"=EF- F3 G,=B,D |
+"Fm"F2A2 "G7"GFED | "Cm"C6 z2 :|\
+"B"|:\
+"Cm"c3G c3G | "Cm"cGcG cB=AG |\
+"Cm"^FG=AB AGFE | "Cm"^FG- G3 CEG |
+"Cm"c3G c3G | "Cm"cGcG cB=AG |\
+"D7"^FG=AG "G7"FEDE |1 "Cm"C4- CCEG :|2 C6 z2 \
+"C"|:\
+"Fm"=EF2F FF_ED | "Cm"DE2E EEDC |
+"G7"^CD2D DD=C=B, | "Cm"C=B,CD ED"(C7)"EC |\
+"Fm"=EF2F FF_ED | "Cm"DE2E EEDC |\
+"G7"D2A2 GFED | "Cm"C6 z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Too Klez for Comfort    [Dm]
+C: Steven Rauch
+S: Printed page from Steve Rauch
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dm
+A,DF "A"|:\
+"Dm"^GA2A GFED | "Dm"^GA- A3 A,DF |\
+"Dm"^GA2A GFED | "A7"E4- EA,^CE |\
+"A7"^FG2G =FED^C | "A7"^FG- G3 A,^CE |
+"Gm"G2B2 "A7"AGFE | "Dm"D6 z2 :|\
+"B"|:\
+"Dm"d3A d3A | "Dm"dAdA dc=BA |\
+"Dm"^GA=Bc BAGF | "Dm"^GA- A3 DFA |
+"Dm"d3A d3A | "Dm"dAdA dc=BA |\
+"E7"^GA=BA "A7"GFEF |1 "Dm"D4- DDFA :|2 D6 z2 \
+"C"|:\
+"Gm"^FG2G GG=FE | "Dm"EF2F FFED |
+"A7"^DE2E EE=D^C | "Dm"D^CDE FE"(D7)"FD |\
+"Gm"^FG2G GG=FE | "Dm"EF2F FFED |\
+"A7"E2B2 AGFE | "Dm"D6 z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Too Klez for Comfort    [Em]
+C: Steven Rauch
+S: Printed page from Steve Rauch
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Em
+B,EG "B"|:\
+"Em"^AB2B AGFE | "Em"^AB- B3 B,EG |\
+"Em"^AB2B AGFE | "B7"F4- FB,^DF |\
+"B7"^GA2A =GFE^D | "B7"^GA- A3 B,^DF |
+"Am"A2c2 "B7"BAGF | "Em"E6 z2 :|\
+"C"|:\
+"Em"e3B e3B | "Em"eBeB ed^cB |\
+"Em"^AB^cd cBAG | "Em"^AB- B3 EGB |
+"Em"e3B e3B | "Em"eBeB ed^cB |\
+"F#7"^AB^cB "B7"AGFG |1 "Em"E4- EEGB :|2 E6 z2 \
+"D"|:\
+"Am"^GA2A AA=GF | "Em"FG2G GGFE |
+"B7"^EF2F FF=E^D | "Em"E^DEF GF"(E7)"GE |\
+"Am"^GA2A AA=GF | "Em"FG2G GGFE |\
+"B7"F2c2 BAGF | "Em"E6 z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Too Klez for Comfort    [Am]
+C: Steven Rauch
+S: Printed page from Steve Rauch
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+EAc "^A"|:\
+"Am"^de2e dcBA | "Am"^de- e3 EAc |\
+"Am"^de2e dcBA | "E7"B4- BE^GB |\
+"E7"^cd2d =cBA^G | "E7"^cd- d3 E^GB |
+"Dm"d2f2 "E7"edcB | "Am"A6 z2 :|\
+"^B"|:\
+"Am"a3e a3e | "Am"aeae ag^fe |\
+"Am"^de^fg fedc | "Am"^de- e3 Ace |
+"Am"a3e a3e | "Am"aeae ag^fe |\
+"B7"^de^fe "E7"dcBc |1 "Am"A4- AAce :|2 A6 z2 \
+"^C"|:\
+"Dm"^cd2d dd=cB | "Am"Bc2c ccBA |
+"E7"^AB2B BB=A^G | "Am"A^GAB cB"(A7)"cA |\
+"Dm"^cd2d dd=cB | "Am"Bc2c ccBA |\
+"E7"B2f2 edcB | "Am"A6 z2 :|

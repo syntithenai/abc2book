@@ -1,0 +1,24 @@
+X: 32801
+T: PRINCESS BEATRICE GALOP
+C: Com. by W.B. Laybourn, 1885
+R: galop, polka
+B: K\"ohler's Violin Repository, v.3, 1885 p.280 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: 2/4
+L: 1/16
+K: A
+"Introduction"[|\
+vA2AA A2A2 | A4 z2uA2 | A2E2A2c2 | e4 z2uE2 | E2G2B2d2 | e2g2b2c'2 | d'8- | d'4z2 ||
+uE2 !segno!|"Galop"\
+c6((3cdc) | ^B2c2d2c2 | (=B2c2)d2c2 | {c/}B2^A2B4 | B6((3BcB) |  ^A2B2c2B2 | =A2B2c2B2 | "_>"A2"_>"G2"_>"F2"_>"E2 |
+c6((3cdc) | ^B2c2d2c2 | (=B2c2)d2c2 | {c/}B2^A2B4 | B6((3BcB) |  ^A2B2c2B2 | =A2(Bc) defg | a2z2z2 :|
+|: uE2 |\
+E2d2(QB4 q| B2)c2{e/}d2c2 | E2d2(QB4 q| B2)c2{e/}d2c2 | E2e2(Qc4 q| c2)d2{f/}e2c2 | E2e2(Qc4 q| c2)d2{f/}e2c2 | 
+E2d2(QB4 q| B2)c2{e/}d2c2 | E2e2(Qc4 q| c2)e2{g/}f2c2 | (d6e2) | (f6g2) | a2(gf) edcB | A2z2z2 "^D.C.":|
+uE2 |\
+A2(Bc defg | a2)(gf edcB | A2)(GF EDCB, | A,2)(B,C DEFG | A2)c2e2a2 | c'2e2b2c'2 | d'2z2z4 | z8 |
+v.E2(FG ABc^d | e2)(fgabc'^d' | e'2)d'2b2g2 | e2d2B2G2 | E2D2B,2A,2 | (G,2E2F2G2 | A2)z2z4 | z4z2uE2 |
+(E6F2) | (G6A2) | (B6c2) | (d6e2) | (g6f2) | (.e6{g/}.f2) | e2d2c2B2 | A2G2F2"_D.C."E2 !segno!|]

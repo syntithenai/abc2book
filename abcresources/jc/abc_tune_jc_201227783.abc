@@ -1,0 +1,35 @@
+X: 1098
+T: the Luxborough
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A2 |\
+defe d2A2 | F6 E2 | FGFE DEFG | AGAB A2A2 |\
+defe d2A2 | F6 E2 | FGFE DEFG | A6 :|
+|: c2 |\
+fgag f2c2 | A6 d2 | bagf e2d2 | c6 A2 |\
+agfe fed^c | d^cBA BAGF | GFED A2A,2 | D6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+B4 z2^c2 | defe d2A2 | D4 B4 | A8 |\
+z4 z2A2 | defe d2A2 | d4 B4 | A6 :|
+|: z2 |\
+z4 z2c2 | fgag f2d2 | G4 A2B2 | A2ab agfe |\
+f4 a4 | d4 G4 | g2ab a4 | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+The 1st & 2d Cu. set across & Jigg it all 4 round single .|
+then set again & Jigg it round & turn to your own Places :|
+then cross below 2d Cu. & turn & up again to your own Places .|
+then the 1st Man change Places with the 2d Wo. & the 1st Wo. with the 2d Man, then Hands half round and cast off :|
+%%endtext

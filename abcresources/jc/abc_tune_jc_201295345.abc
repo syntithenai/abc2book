@@ -1,0 +1,6 @@
+X: 1
+T: TEST: Keysig: D (two sharps)
+%%staffwidth 10cm
+P: K: D
+K: D
+[| GABc defg | gfed cBAG |

@@ -1,0 +1,17 @@
+X: 751
+T: the Jolly Tinker
+R: reel
+%S: s:6 b:21(5+4+4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #751
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0751/oneill-1001-0751-1.abc
+N: The "D.C." at the end seems rather pointless.
+M: C|
+L: 1/8
+K: D
+"^A"|: A3F GFGB | A2af gedB | ABAF GFGB | dBGB [1 dedB :|[2 d2(3(Bcd) ||
+"^B"|: edef g2(ef) | g2(af) gfed | ed (3(efg) ageg | a2(bg) aged :|
+"^C"|: eaag edBd | eaag (3(efg) dg | eaag efge | dBGB d2(3(Bcd) :|
+"^D"|: edgd ed (3(Bcd) | edgd e2 (3(Bcd) | edgd efge | dBGB d2(Bd) :|
+"^E"|: eA (3AAA edBd | edef gefd | eA (3AAA efge | dBGB d2(Bd) ||
+    || ea{b}ag edBd | edef gefd | efgb afge | dBGB ded"_D.C."B |]

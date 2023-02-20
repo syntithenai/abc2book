@@ -1,0 +1,14 @@
+X: 420
+T: Stinjacko Kolo
+O: Serbia
+M: 2/4
+L: 1/16
+K: D
+V:1
+%%MIDI program 25 Acoustic Guitar (steel)
+|:dddd BBBB    |dddd BBBB    |AAAA AAAA |AAAA z4   :|
+  GGGG GGGG    |AAAA AAAA    |FFFF z4   |GGGG EEEE |A4 A4 |DDDDDDDD|
+V:2
+%%MIDI program 32
+|:D,,2z2 B,,2z2|D,,2z2 B,,2z2|A,,2z2 z4 |A,,2z2 z4 :|
+  G,,4 z4      |A,,2z2 z4    |F,,4 z4   | G,,4 E,,4|A,4 z4|D,4 z4  |

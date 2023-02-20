@@ -1,0 +1,42 @@
+X: 1
+T:Blue Bonnets
+M:6/8
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+e| |:
+{g}A2{GdGe}A{gcd}c2e|
+a2{GdG}a{g}a2e|
+{g}f2{GdG}f{g}f/2a3/2f|  !
+{gef}e3/2c/2{G}A{gBd}B2{d}c|
+{g}A2{GdGe}A{gcd}c2e|
+a2{GdG}a{g}a2e|  !
+{gfg}f3/2e/2d{g}c2{GdG}e|
+{g}f/2a3/2c{gBd}B2{G}A:| |:
+{g}A3/2{d}c/2e{gef}e3/2c/2e|  !
+{gfg}f3/2e/2d{gcd}c3/2B/2{G}A|
+{g}A3/2{d}c/2e{g}f3/2g/2a|
+A3/2B/2{GdG}c{gBd}B2{G}A|  !
+{g}A3/2{d}c/2e{gef}e3/2c/2e|
+{gfg}f3/2e/2d{gcd}c3/2B/2{G}A|
+a3/2g/2f{gef}e3/2c/2e|  !
+{g}f/2a3/2c{gBd}B2{G}A:| |:
+{Gdc}d3{gdG}d3|
+{g}d/2f3/2e{gde}d3/2B/2{G}A|  !
+{gde}d3/2B/2{G}B{gBd}B2{G}A|
+a3/2g/2f{gef}e2d|
+{Gdc}d3{gdG}d3|  !
+{g}d/2f3/2e{gde}d3/2B/2{G}A|
+{gde}d3/2c/2B{g}A3/2B/2c|
+{Gdc}d3/2e/2f{gef}e2d:| |:  !
+{gdG}d3/2f/2a{g}a3/2f/2d|
+a3/2g/2f{gfg}f3/2e/2f|
+{Gdc}d3/2f/2a{g}a3/2f/2d|  !
+{gdG}d3/2e/2f{gef}e2d|
+{gdG}d3/2f/2a{g}a3/2f/2d|
+a3/2g/2f{gfg}f3/2e/2f|  !
+{gde}d3/2c/2B{g}A3/2B/2c|
+{Gdc}d3/2e/2f{gef}e2d:|
+

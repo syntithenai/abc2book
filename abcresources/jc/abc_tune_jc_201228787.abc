@@ -1,0 +1,22 @@
+X: 11603
+T: the TENPENNY PIECE
+C: J. F. Erskine.
+Q: "With spirit."
+%R: slip-jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.160 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Eb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+EGB {c}B=AB cde | BeB GBG FDB, |\
+EGB {c}B=AB cde | faf dBd eBG :|\
+gGg gbg Beg | =ABd=efd ABd |
+gGg gbg Beg | =ABd fad eBG |\
+gGg gbg Beg | =ABd =efd ABd |\
+{f}ede cec BAG | {B}AGA FBA GEB, |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

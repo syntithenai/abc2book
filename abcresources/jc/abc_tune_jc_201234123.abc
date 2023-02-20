@@ -1,0 +1,31 @@
+X: 20282
+T: the Scot of Yarrow
+%R: air, march, reel
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.28 #2 (and all of p.28)
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: In bar 27, the last note is ambiguous, either B or A.
+M: 2/4
+L: 1/16
+K: D
+%%slurgraces 1
+%%graceslurs 1
+|: "_Slow"\
+D3ED2F2 | (DF)(EF) (DE)(FG) | A2D2 (BA)(GA) | TF4 (TE3D) |\
+D3ED2F2 | (ED)(EF) E2(gf) | e2E2 (gf)(ed) | TB4 {Bc}d4 |
+D3ED2F2 | (DF)(EF) (DE)(FG) | A2d2 (cB)(AG) | F4 (TE2D2) |\
+G2g2 G2(FE) | F2f2 F2(ED) | E2E2 (gf)(ed) | TB4 {Bc}d4 :|
+|:\
+dgfe d2D2 | dgfe d2A2 | (dc)(BA) (Bc)(dA) | F4 (E2D2) |\
+e2E2 eagf | e2E2 eagf | (ba)(gf) (gf)(ed) | TB4 {Bc}d4 |
+.d(gfe) d2D2 | .d(gfe) d2D2 | (dc)(BA) (Bc)(dA) | F4 (E2D2) |\
+(GE)(GB) (GE)(GB) | (FD)(FA) (FD)(FA) | (EF)(GE) (gf)(ed) | B4 {Bc}d4 :|
+|:\
+dAFD ADFD | dDFD ADFD | (dc)(dc) (dA)(BG) | TF4 (E2D2) |\
+e2 e4 (gf) | eEGE BEGE | b3a (gf)(ed) | TB4 {Bc}d4 |
+(DF)AF (DF)(dF) | (DF)(AF) (DF)(dF) | (DE)(FG) (AF)(dA) | F4 (GF)(ED) |\
+G2 G4 (AB) | A2 F4 (AF) | E2E2 (gf)(ed) | TB4 {Bc}d4 :|
+|:\
+(fg)(af) dfAf | dfAf dfAf | agfe dABd | TF4 (E2D2) |\
+(egb)e eBGE | (egb)g eBGE | (ba)(gf) (gf)(ed) | TB4 {Bc}d4 |
+(fga)f dfAf | dfAf dfAf | (ag)(fe) dABG | {G}F4 (E2D2) |\
+G2b2F2a2 | E2g2D2f2 | A2a2 (gf)(ed) | TB4 d4 :|

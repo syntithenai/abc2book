@@ -1,0 +1,29 @@
+X: 21011
+T: FRANKLIN SETT (tune 4)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.101 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+|:\
+F2B BdB | BGB BGB | FBB Bcd | ecc fed |\
+cBB Bdc | BGB BGB | FBB Bcd | ecA B3 H:|
+|:\
+b2g fdf | b2g fdf | fgf fed | dcc c3 |\
+b2g fdf | b2g fdf | BcB Bcd | ecA "^D.C."B3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance four,
+%% next two, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

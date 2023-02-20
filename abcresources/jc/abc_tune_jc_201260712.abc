@@ -1,0 +1,32 @@
+X:1
+T: Catching of Fleas
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 165
+%W: A
+% voice 1 (1 lines, 23 notes)
+K:G
+M:6/8
+L:1/16
+d2 |B3 A G2 d4 g2 f3 e d2 a3 g f2 g2 d2 B2 a2 f2 d2 b2 a3 g g4 d2 |
+%W:
+% voice 1 (1 lines, 22 notes)
+B3 A G2 d4 g2 f3 e d2 a3 g f2 g2 d2 B2 a2 f2 d2 b2 a3 g g4 b2 |
+%W: B1
+% voice 1 (1 lines, 25 notes)
+a3 b g2 f3 g e2 ^d2 B2 e2 d2 B2 g2 e2 c2 f g a2 f2 g a b2 a3 g g4 b2 |
+%W:
+% voice 1 (1 lines, 27 notes)
+a3 b g2 f g a2 d2 e f g2 e2 d e f2 B2 a b c'2 a2 b3 a g f g2 f4 e4 b2 |
+%W: B2
+% voice 1 (1 lines, 25 notes)
+a3 b g2 f3 g e2 ^d2 B2 e2 d2 B2 g2 e2 c2 f g a2 f2 g a b2 a3 g g4 b2 |
+%W:
+% voice 1 (1 lines, 26 notes)
+a3 b g2 f g a2 d2 e f g2 e2 d e f2 B2 a b c'2 a2 b3 a g f g2 f4 e4 ||

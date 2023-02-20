@@ -1,0 +1,200 @@
+
+X: 1
+T: Ajisino Oro
+O: Albania
+M: 4/4
+L: 1/8
+K: Gm
+P: Instrumental
+"D"A2 B2 c2 BA | "Gm"BcBA G2 ^FE | "D"DEDC D2 E2 | ^F2 G2 A4 |
+"D"A2 B2 c2 BA | "Gm"BcBA G2 ^FE | "Cm"D2 C2 A2 G2 | "D"^FGFE D4 ||
+P: Vocal
+|: "Gm"G2 G^F "Cm"E E2 F | E2 ED C4 | "D"^F2 G2 A2 BG | A6 Z2 |
+"D"^F2 G2 A2 B2 | "Cm"G3A ^F2 ED | "Cm"C2 DE "D"^FGFE | D6 Z2 :|
+|: "D"A4 d4 | cB BG A4 | "Gm"G2 AB "Cm"cBAG | "D"^F6 Z2 |
+"Cm"C3D E2 ^F2 | GAG^F E4 | C2 DE "D"^FGFE | D6 Z2 :|
+
+
+X: 2
+T: Tarantella Capriciosa
+D: Joel Perri / Tarantella del Diavolo
+Z: MB, 001128
+M: 6/8
+L: 1/8
+K: F
+|: CDE FED | C2C c2c | B2B   BAG | A2 FC-C2 |
+   CDE FED | C2C c2c | CD_E =EFG |1 A6 :|2 A4-AG ||
+|: gag gfe | d2^c d2G | gag gfe |1 dc=B c2G :|2 dc=B c3 ||
+
+
+X: 3
+T: Hora Femeillor
+O: Rom
+M: 5/8
+L: 1/8
+K: Am
+|: "Dm"d2c BA | "Am"A3-A2 | "Dm"d2c BA | "Am"A3-A2 |\
+   "Dm"d3-d2  | "Am"e3-e2 | "E7"d2c BA |1 "Am"e3-e2 :|2 "Am"A3-A2 ||
+|: "Am"a3-a2 | a3-a2 | "A7"a2g fe | "Dm"d2 d3 |\
+   "G"g2 g3 | "F"a2g fe | "E7"d2c BA |1 "Am"A3-A2 :|2 A3 G2 ||
+|: "C"c3 d2 | "C7"e3 g2 | "A7"a2g fe | "Dm"d3-d2 |\
+   "G"g2 g3 | "F"a2g fe | "E7"d2c BA |1 "Am"A3 G2 :|2 A3-A2 ||
+
+
+X: 4
+T: Finnish Schottische
+T: Jack in the Green
+M: C
+L: 1/8
+K: D
+|: "D"D2 F2 A>G F<E | D>F A<d f2 ef | "A7"g2 ec A>c e<f | e>d c<B A>G F<E |
+   "D"D2 F2 A>G F<E | D>F A<d f2 ef | "A7"g2 ec A>c e<c \
+  |1 "D"d2 d2 d2 AF :|2 "D"d2 d2 d2 A2 ||
+K: Gm
+|: "Gm"d2 d2 d2 =c2 | _B>c B<A G2 FG | "D7"A>B A<G F>_E F<E | D2 DE D2 CB, |
+   "Cm"C2 CD E>G =F<E | "Gm"D2 DG B>d c<B | A>B A<G ^F>D =E<F \
+  |1 G2 G2 G2 B2 :|2 G2 G2 G2 "D"^FE ||
+
+
+X: 5
+T: Imala Majka
+T: (alternative tune for the dance "Karam Fil")
+O: Bulgaria
+M: 7/8
+L: 1/8
+K: Dm
+"Dm"D3 A2 AG | A3 F4 | "Gm"G3 "Dm"A2 F2 | "Am"E3 "Dm"D4 |\
+"Dm"D3 A2 AG | A3 F4 | "Gm"G3 "C"c2 B2 | "F"A3-A4 |
+"Dm"A3 d2 dc | "Gm"d3 G4 | "C"A2B c2 B2 | "Dm"A2G F2 E2 |\
+"Dm"D3 c2 B2 | "Gm"A3 G4 | "Dm"F3 "Am"EF EC | "Dm"D3-D4 |
+"Dm"A3 B2 c2 | "Gm"d3-d4 | "C"G3  c2 B2 | "Dm"A3-A4 |\
+"Dm"F3 E2 D2 | "Gm"G3-G4 | "Dm"F3 "Am"EF EC | "Dm"D3-D4 |
+"Dm"A3 d2 c2 | "Gm"B3-B4 | "C"G3  F2 E2 | "Dm"F3-F4 |\
+"Dm"F3 E2 D2 | "Gm"G3-G4 | "Dm"F3 "Am"EF EC | "Dm"D3-D4 |
+
+
+X: 6
+T: Kupilemel
+O: Israel
+M: C
+L: 1/8
+K: C
+|: "Am"AA ed cd2c | edcB A2 "G"G2 \
+  |1 "C"cc     dd    cc      BA    | "E7"e8 \
+ :|2 "C"cc "Dm"dd "C"cc "Bb"_B/A/B | "Am"A8 ||
+"A"ee fg aa-a2 | ee fg a8 | "A7"a2 g2 f2 e2 | "Dm"~dA fe d4 |
+"G"dd ef gg-g2 | dd ef g4 | "G7"g2 f2 e2 d2 | "C"cc d^d "E7"e4 ||
+
+
+X: 7
+T: Hora Lenta
+O: Rom
+M: 5/8
+L: 1/8
+K: Am
+|: "Am"e2cBA | ^GA2-A2 | "Dm"B2A^GF | F-F4 |\
+      "E"E2^F^GA | B2dcB | "Am"A2Bcd | "E"e3e2 |
+   "Am"e2cBA | ^GA2-A2 | "Dm"B2A^GF | E-F4 |\
+      "E"E2^F^GA | B2dcB | "Am"A2E "E"cB |1 "Am"A2Bcd :|2 "Am"A2GAB ||
+|: "C"c2BBA | "F"A2GGF | F2EED | "G"D2CB,C |\
+       D3D2 | G2FFD | "C"E2DEF | "G"G2GAB |
+   "C"c2BBA | "F"A2GGF | F2EED | "G"D2cBc |\
+   "Dm"d2cBA | "E"^G2E^FG | "Am"A2E "E"cB |1 "Am"A2G "G"AB :|2 "Am"A2Bcd ||
+
+
+X: 8
+T: Aide Mandalyo
+T: Zeimbekiko
+O: Greece
+N: The rhythm can be thought of as 4/4+5/4.   Transcribed in a manner
+N: that emphasizes the 3-3-2 3-3-2-2 beat that is typically used.
+Z: Moshe Braner, Dec. 2001
+M: 18/8
+L: 1/8
+P: (ABA)x3
+K: D
+|: "D"FF/G/F "D"ED2 "D"F2 "A"FE/F/E "D"DDE "D"FG "A"A2 |
+   "D"FF/G/F "D"ED2 "D"F2 "A"FE/F/E "D"DD2 "D"D2 "D"D2 :|
+"G"G3 "G"G3 "G"G2 "G"GG/A/G "D"FA2 "D"^GA "D"F2 |
+"D"zAB "D"=cdc "D"BA "D"^GAB "D"GA2 "D"A2 "D"F2 |
+"G"G3 "G"G3 "G"G2 "G"GG/A/G "D"FA2 "D"^GA "D"F2 |
+"A"zA2 "A"A3 "A"ED "A"CDE   "D"CD2 "D"D2 "D"D2 ||
+
+
+X: 9
+T: Mori Shej
+O: Rom
+D: Czsokolom - May I Kiss Your Hand
+M: C
+L: 1/8
+K: Am
+|: "Am"AA-AA-A3B | AG-GA-A2 G2 | "C"ee-ee-e3d | ed-de-e4 :|
+|: "G"D4-D4 | E^FFG-G4 | "Am"AB-BA-A2 G2 | ED-DC-C4 |
+"G"B,C D2 D2 D2 | "E7"E2 DC E2 DC | "Am"A,2 A,2-A,4 | A,4-A,4 :|
+
+
+X: 10
+T: Odeno Oro
+O: Macedonia
+M: 6/8
+L: 1/8
+P: AA BB CCCC DDDD, then in fifths, then as at first - drone D throughout
+K: Dm
+|: D3 D2E | F2E D3 | E3 EDC | E3 EFE |\
+   D3 D2E | F2E D3 | E3 EDC | D3 D3 :|
+|: A3 G2A | F2E D3 | E3 EDC | E3 EFG |\
+   A3 G2A | F2E D3 | E3 EDC | D3 D3 :|
+|: DEC D2E | FGE FGE | DEC D2E | FGE D2A, :|
+|: FGE FGE | DEC D2E | FGE FGE | DEC D2E :|
+
+
+X: 11
+T: Syrtos Pyleas
+O: Greece
+M: 7/8
+L: 1/8
+P: AABB AABB CC AA...
+K: A
+|: "A"c2d e2 fe | "E7"ded "A"c2 A2 | c2d e2 fe | "E7"ded "A"c4 :|
+|: "D"fff f2 "A"e2 | "D"fed "A"cd ef | "Bm(D)"fed "B(A)"cB cA | "E"B3-B4 :|
+K: Am
+|: "Am"BAA A2 Bc | e^dd dc BA | BAA A2 Bc | e^dd d2 c2 |
+   "Am"^fgf gf e^d | ^ded ed cB | B2A AB Bc | "E"cBB B4 :|
+
+
+X: 12
+T: Vangelio
+R: Kalamatianos
+M: 7/8
+L: 1/8
+K: G
+|: "G"G2A B2 cB | A2G B2 D2 | G2A B2 cB | A2G G2 z D :|
+|: "G"B2c "C"e2 "G"d2 | B2c "C"e2 "G"d2 | G2A B2 cB | "D"A2G "G"B2 G2 :|
+
+
+X: 13
+T: Dans Varietais
+O: Breton?
+M: C|
+L: 1/8
+K: Em
+|: "Em"E2B2B2AB | G2E2E4 | "D"A2AGF2FE | "Bm"DEFAG2F2 |
+   "Em"E2B2B2AB | G2E2E4 | "D"A2AGF2FE | "Bm"DEFG "Em"E4 :|
+ "Em"EFGF EFGF | EFGA B4 | "D"DEFE D3E | F2A2 G2F2 |
+ "Em"EFGF EFGF | EFGA B3 D- | "D"DEFG F2 A2 | G2 F2 "Em"E4 ||
+
+
+X: 14
+T: Zante
+O: Greece
+M: 4/4
+L: 1/4
+K: Dm
+"Dm"A2 A G/F/ | "Bb"ED "A"^CE | "Dm"D4-|D4 |\
+ "A"E2 E>F | "Gm"G>A B2 | "Dm"A4-|A4 ||
+"Bb"d2 dc | "Gm"B2-BA | GA B2 | "Dm"A4 |\
+"Bb"F2 FG | "A"F E/D/ ^CE | "Dm"D4-|D4 ||
+"Dm"f2 f>f | "Gm"eg "A"f>^c | "Dm"d4-|d4 |\
+"Bb"d2 de | dc "C"G>B | "F"A4-|"A"A4 ||
+"Bb"d2 "C"cB | "Dm"A>D EF | "Gm"GA B-B/c/4B/4 | "Dm"A4 |\
+"Dm"f2 "Gm"fg | "A"f e/d/ ^ce | "Dm"d4-|d4 ||

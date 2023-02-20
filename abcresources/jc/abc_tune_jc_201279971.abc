@@ -1,0 +1,26 @@
+X:1
+T: The Gelding of the Devil
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:Em
+I:speed 165
+%W: A
+% voice 1 (1 lines, 37 notes)
+K:Em
+M:6/8
+L:1/16
+e2 |B4 B2 e4 e2 f4 d2 g4 g2 a3 b g2 f4 e2 ^d3 ^c d2 e4 e2 |B4 B2 e4 e2 f4 d2 g4 g2 a3 b g2 f4 e2 ^d3 ^c d2 e4 e2 |
+%W: B1
+% voice 1 (1 lines, 42 notes)
+^d3 ^c d2 e3 d e2 f3 e f2 g4 g2 a3 b g2 f4 e2 ^d3 ^c d2 e4 e2 |^d3 ^c d2 e3 d e2 f3 e f2 g4 g2 a3 b g2 f4 e2 ^d3 ^c d2 e4 e2 |
+%W: B2
+% voice 1 (1 lines, 42 notes)
+^d3 ^c d2 e3 d e2 f3 e f2 g4 g2 a3 b g2 f4 e2 ^d3 ^c d2 e4 e2 |^d3 ^c d2 e3 d e2 f3 e f2 g4 g2 a3 b g2 f4 e2 ^d3 ^c d2 e4 e2 |
+%W: B3
+% voice 1 (1 lines, 41 notes)
+^d3 ^c d2 e3 d e2 f3 e f2 g4 g2 a3 b g2 f4 e2 ^d3 ^c d2 e4 e2 |^d3 ^c d2 e3 d e2 f3 e f2 g4 g2 a3 b g2 f4 e2 ^d3 ^c d2 e4 ||

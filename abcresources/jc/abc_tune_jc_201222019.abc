@@ -1,0 +1,41 @@
+X: 0541
+T: the Ridicule __ a Cotillion.
+%R: jig
+%N: This is version 1, for ABC software that doesn't understand some ABC 2.* features.
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1808, No. 5 p.4 #1
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances5
+M: 6/8
+L: 1/8
+K: F
+P: First strain 8va.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+(.C.C.C) |\
+F2(F A2)(A | c3) (BAG) | F2F A2c | G3 CDE |\
+F2(F A2)(A | c3) (BAG) | F2F A2A | F3 :|
+"^loco"f2e |\
+{e}d^cd e2c | d2A f2e | {e}d^cd f2a | e3 f2e |\
+{e}d^cd e2c | d2A a2g | {g}fed e2^c | d3 =c2c |
+cAf cAf | dBa bgf | egb gec | f2a c2c |\
+cAf cAf | dBa bgf | edc cde | f3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2z |\
+fac' fac' | "fz"e"^dim..."gc' egc' | fac' fac' | egc' cgb |\
+fac' fac' | "fz"e"^dim..."gc' egc' | fac' fac' | f3 :|
+z2z |\
+[a3f3d3] [a3g3d3] | [a3f3d3] z2z | [a3f3d3] [a3f3d3] | [a3e2^c3] z2z |\
+[a3f3d3] [a3g3d3] | [a3f3d3] [a3e2^c3] | [a3e3c3] [g3e3A3] | [f3d3] egc' |
+fac' fac' | fbd' fbd' | fbc' fbc' | fac' fac' |\
+fac' fac' | fbd' fbd' | fbc' fbc' | [a3f3] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The top and bottom Couples chasse into the opposite places and rigadoon,
+%% each Gent: and his Partner go back to back in each others places,
+%% lead up the middle and moulinet to their places,
+%% the side Couples do the same.
+%%endtext
+%%sep 1 5 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -

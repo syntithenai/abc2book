@@ -1,0 +1,19 @@
+X: 4024
+T: Countess of Cassilli's    Reel
+C
+%R: reel
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.2 #4 (and top 2 staves of p.3)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+(F |\
+E)>CA,C TE2-EF | (ABc)A BB,B,(F | E)>CA,C TE2EF | TE>FAB cAA :| Te/>d/ | A<Ac>A eAA(=g | f)>dec dBTB>c |
+A<Ac>A eAAa | (f/g/a) e>f cAAe || A<Ac>A eAA(=g f)>dec dBBd | cAGA FAEA | (c/d/e) (f/g/a) cAA |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | A2A2 A2A2 | A2A2 B2B2 | A2A2 c2d2 | e2E2 A2A :| z | a2a2 a2c'2 | d'2c'2 b2b2 |
+a2a2 a2c'2 | d'2e'2 a2a2 || a2a2 a2c'2 | c'2c'2 b2b2 | a2e2 d2c2 | A2[d2E2] A2A |]

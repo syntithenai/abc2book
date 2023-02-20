@@ -1,0 +1,54 @@
+X:523
+T:New London Assembly (4 parts)
+C:Colin Hume, 2016
+L:1/2
+M:4/4
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=100
+%%scale 0.7
+%%MIDI ratio 3 1
+%%MIDI chordname 7sus 0 5 7 10
+%%MIDI chordname 2 0 4 7 14
+K:G
+P:A
+V:1
+%%MIDI program 40     Violin
+%%MIDI control 10 127  % Left speaker
+Bd | c2 | Ac | B2 | GB | A>E | GF | ED |
+V:2 treble
+%%MIDI program 40     Violin
+%%MIDI control 10 80
+DB | G2 | CA- | AG/F/ | ED | C2 | ED | CA, |
+V:3 tenor octave=-2
+%%MIDI program 42     Cello
+%%MIDI control 10 40
+g2 | e2 | g2 | d'2 | b2 | g2 | a2 | f2 |
+V:4 bass octave=-2
+%%MIDI program 43     Contrabass
+%%MIDI control 10 0  % Right speaker
+G2 | A2 | d2 | gf | e2 | A2 | d2- | d2 ||
+V:1
+Bd | c2 | ce | d2 | dg | cg | Bg | A>G | GF | EF | A2 | G2 ||
+V:2
+DB | G2 | GF- | FA | G2 | A2 | G>F | ED | C2 | C2 | B,2- | B,2 ||
+V:3
+g2 | ea | a2- | a2 | bd' | e'c' | d'2 | c'2 | a2 | d2 | d2 | dd ||
+V:4
+G2 | Ae | d2 | Bd | e2 | a2 | b2 | c'2 | d2 | D2 | G2 | GG ||
+P:B
+V:1
+FA | BA | G>F | E2 | FA | d^c | B>^c | A2 |
+V:2
+D2 | D2 | E>B, | D^C | DE | FA | D2 | D^C |
+V:3
+d2 | d2 | e2 | g2 | a2 | b2 | ^g2 | =g2 |
+V:4
+DF | GB | EF/G/ | A2 | d^c | BA | EF/^G/ | A2 |
+V:1
+fe | ed | d^c | ^cB | A>B | ^cd | e2- | e^c/d/ | eA | A>G | G2- | G2 |]
+V:2
+DE/F/ | GA | B2 | =F2 | ^F>^G | A2 | ^G2- | ^G A/B/ | ^c^C | =C>B, | B,2- | B,2 |]
+V:3
+d'2 | b2 | d'2 | b2 | ^c'2- | ^c'2 | b>b | b2 | g2 | a2 | g2 | gg |]
+V:4
+d2 | e2 | f2 | ^g2 | a2 | =f2 | e>e | e2 | A2 | d2 | G2 | GG |]

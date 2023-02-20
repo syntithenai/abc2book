@@ -1,0 +1,34 @@
+X: 13
+T: Bill Clement
+C: Muriel Johnstone
+B: Roy Goldring "14 Social Dances"
+P: Tune for "the Thornhill Strathspey"
+R: strathspey
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+"D"(3FGA d>d "A7"f>e "D/F#"d>A | "Em/G"(3Bcd g>f "A"e<A A>G |\
+"D"(3FGA d>d "A7"f>e "Bm"dg | "A"(3fga e>d "G"BA Bd |
+"D"(3FGA d>d "A7"f>e "D/F#"d>A | "Em/G"(3Bcd g>f "A"e<A A>G |\
+"D"(3FGA d>d "A7"f>e "Bm"dg | "A"(3fga e>d "D"A<d d ||
+g |\
+"D"(3fga a>b "D/F#"d>c dD | "C"E<=c c>d "Em"ed "A7"eg |\
+"D"(3fga a>b "D/F#"dcdD | "C"E<=c c>e "D"d2 dg |
+"D"(3fga a>b "D/F#"d>c dD | "G"(3GAB g>f "A7"edef |\
+"D"(3FGA d>d "A"f>e dg | "A7"(3fga e>d "D"A<d d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+D2 [d'2a2f2] [a2A2] [f2F2] | G2 [e'2b2g2] A2 [e'2c'2a2] |\
+D2 [d'2a2f2] [a2A2] [b2B2] | A2 [c'2a2e2] G2 [d'2b2g2] |
+D2 [d'2a2f2] [a2A2] [f2F2] | G2 [e'2b2g2] A2 [e'2c'2a2] |\
+D2 [d'2a2f2] [a2A2] [b2B2] | A2 [c'2a2e2] D2 [d'af] ||
+z |\
+D2 [d'2a2f2] F2 [d'2a2f2] | =C2 [=c'2g2e2] [e2E2] [a2A2] |\
+D2 [d'2a2f2] F2 [d'2a2f2] | =C2 [=c'2g2e2] D2 [d'2a2f2] |
+D2 [d'2a2f2] F2 [d'2a2f2] | G2 [b2g2d2] A2 [c'2a2e2] |\
+D2 [d'2a2f2] [a2A2] [b2B2] | A2 [c'2a2e2] D2 [d'af] :|

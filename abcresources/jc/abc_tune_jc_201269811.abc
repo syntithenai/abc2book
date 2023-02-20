@@ -1,0 +1,13 @@
+X: 490
+T: the Downhill of Life   #2
+R: jig, air
+%S: s:2 b:11(5+6)
+B: O'Neill's 1850 *490
+O: F.O'Neill
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+Q: "Slow"
+M: 6/8
+L: 1/8
+K: G
+"^A"|: ((3d/e/f/) | gGD G>AB | def g2f/e/ | ded BGA |[1 E3 F2 :|[2 G3 G2 |]
+"^B"[|] d |: dBG gfg | afd g2 [1 b/a/ | gfe dBG | A3- A2 B/c/ :|[2 f/e/ | dBG DEF | G3 G2 |]

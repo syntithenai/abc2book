@@ -1,0 +1,26 @@
+X:1
+T: At Rainbow's End
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:Em
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 30 notes)
+K:Em
+M:4/4
+L:1/16
+B4 |e4 ^d4 e4 f4 |g8 g4 g4 |f4 e4 e4 ^d4 |e12 g4 |f6 g2 e4 f4 |^d8 d4 g2 a2 |f2 g2 e2 f2 e4 ^d4 |e12 B4 |
+%W: A2
+% voice 1 (1 lines, 29 notes)
+e4 ^d4 e4 f4 |g8 g4 g4 |f4 e4 e4 ^d4 |e12 g4 |f6 g2 e4 f4 |^d8 d4 g2 a2 |f2 g2 e2 f2 e4 ^d4 |e12 e4 |
+%W: B1
+% voice 1 (1 lines, 27 notes)
+f6 e2 f4 g4 |a8 a4 d4 |e4 d4 e4 f4 |g12 g4 |f6 e2 f2 g2 a4 |^d8 d4 g4 |^d4 e4 B4 B4 |e12 e4 |
+%W: B2
+% voice 1 (1 lines, 26 notes)
+f6 e2 f4 g4 |a8 a4 d4 |e4 d4 e4 f4 |g12 g4 |f6 e2 f2 g2 a4 |^d8 d4 g4 |^d4 e4 B4 B4 |e12 ||

@@ -1,0 +1,23 @@
+X: 132
+T: Broom of Cowden Knows
+%R: air
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.13 #2
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Q: "slow"
+M: C
+L: 1/8
+K: Dmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1
+|:\
+A3B d3Je | d>BTA>G G2g>d | e2g>a {ga}b2(Ta>g) | Te6 g2 |
+d>eg>a Jb2(Ta>g) | g2G>A {c}B2(TA>G) | c3d e>fg>B | A8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+|:\
+d'2"4;2"c'2 "6"babc' | "6;4"d'2"5;3"d2 ga"6"bg | c2zd g2G2 | c2c'b c'd'"6"e'c' |
+"6"b3"6"c' "6;4"d'2"5;3"d2 | g4 "4;2"=f4 | "6"ede"6"B c2G2 | d8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

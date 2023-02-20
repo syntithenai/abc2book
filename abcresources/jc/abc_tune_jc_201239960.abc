@@ -1,0 +1,32 @@
+X: 352
+T: Hawick, a Strathspey
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.35#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: G
+V: 1
+c |\
+(B/c/d) .d-.d d<dBG | (A/B/c) .c-.c c<cAc |\
+(B/c/d) .d-.d d<dBG | ~Ec (B/A/G/F/) G2Gc |
+(B/c/d) .d-.d d<gBG | (A/B/c) cc caAc |\
+(B/c/d) d>d {f}g>dBG | E>c B/A/G/F/ G2G ||
+c |\
+B<G~G>c BdBG | A<=FF>c AcAc |\
+BGGc BdBG | ~Ec (B/A/G/F/) G2~G ||
+c |\
+BGGc (B/c/d/c/) BG | A=FFc (A/B/c/B/) Ac |\
+BGGc B<g~BG | E>c (B/A/G/F/) G2G |]
+V: 2 clef=bass middle=d
+z |\
+[b2g2d2][b2g2d2] [b2g2d2][b2g2d2] | [a2f2d2][a2f2d2] [a2f2d2][a2f2d2] |\
+[b2g2d2][b2g2d2] [b2g2d2][b2g2d2] | [g2e2c2][a2f2d2] [g2d2B2][g2d2B2] |
+[b2g2d2][b2g2d2] [b2g2d2][b2g2d2] | [a2f2d2][a2f2d2] [a2f2d2][a2f2d2] |\
+[b2g2d2][b2g2d2] [b2g2d2][b2g2d2] | [g2e2c2][a2f2d2] [g2d2B2][gdB] ||
+z |\
+[g2d2B2][g2d2B2] [g2d2B2][g2d2B2] | [=f2c2A2][f2c2A2] [f2c2A2][f2c2A2] |\
+[g2d2B2][g2d2B2] [g2d2B2][g2d2B2] | [g2e2c2][a2f2d2] [g2d2B2][gdB] ||
+z |\
+[g2d2B2][g2d2B2] [g2d2B2][g2d2B2] | [=f2c2A2][f2c2A2] [f2c2A2][f2c2A2] |\
+[g2d2B2][g2d2B2] [g2d2B2][g2d2B2] | [g2e2c2][a2f2d2] [g2d2B2][gdB] |]

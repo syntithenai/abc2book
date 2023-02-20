@@ -1,0 +1,37 @@
+W: The Lady:
+X: 2044
+T: Corant la Lorain
+%R: courante
+B: Henry Playford "Apollo's Banquet", London 1687 (5th Edition)
+F: https://archive.org/details/apollosbanquetco01rugg
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: Initial rest added to fix the rhythms of repeats.
+M: 3/2
+L: 1/8
+K: Gm
+% - - - - - - - - - -
+zG |\
+G3AB2 AGg3d | e6 d2c3d |\
+B3AB2 c2c3B | A6 a2b3a |\
+g2fef2 gac3d | e2A2f3 ee3d |\
+d6- d4 :|
+|: [M:3/4]\
+g2a2b2 | f3ed2 |\
+g3cf2 | c4B2 |\
+b2f3g | a3ef2 |\
+c3a=e2 | =e4d2 ::\
+g3ab2 | a2g2a2 |
+f4d2 | g3fe2 |\
+d2c2g2 | B6 |\
+f3ed2 | e2f2g2 |\
+e4(dc) | f2g2a2 | b2a2b2 |[M:C|]\
+^f6 d2 | B2G2 d2g2 |
+f2 d4 ba | g2d2 e3f |\
+c2 B4 :: f2 | f2ed c3d |\
+e2 e4 f=e/f/ | g2c2 c3B |\
+c2 c4 Bc | A2 F4 BA |
+G2 G4 gc | f2Bc c3B |\
+B2 B4 !segno!y b>b | b2a2 a2g>f |\
+g2 g4 ae | f2 f4 dA |\
+B2c2 A3G | G2 HG4 |]
+% - - - - - - - - - -

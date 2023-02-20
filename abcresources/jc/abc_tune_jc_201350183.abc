@@ -1,0 +1,49 @@
+X: 1
+T: Waltham Abbey   [F]
+T: Walton Abey
+C: J.Playford 1713
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: Barnes II p.139
+M: C|
+L: 1/8
+%Q: 1/2=104
+K: F
+|: "F"f2g2 a2ga | "Bb"bagf "C"e2c2 | "Bb"d2B2 "C7"G2c2 | "F"A2F2 "C7"c4 |
+|  "F"f2g2 a2ga | "Bb"bagf "C"e2c2 | "Bb"d2B2 "C7"G2c2 |1 "F"A2 F6 :|2 "F"A2F2- "G7"F4 ||
+|: "C"G2E2 GEGE | c2G2 "F"A2F2 | "Bb"d2B2 dBdB | "Gm"g2d2 "C7"e2c2 |
+| "F"a2gf "C/E"g2fe | "Dm"defg "C(Am)"e2c2 | "Bb"dcBA "C7"G2c2 | "F"A2 F6 :|
+
+%%sep 1 1 500
+X: 1
+T: Waltham Abbey   (G)
+T: Walton Abey
+C: J.Playford 1713
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: Barnes II p.139
+M: C|
+L: 1/8
+%Q: 1/2=104
+K: G
+|: "G"g2a2 b2ab | "C"c'bag "D"f2d2 | "C"e2c2 "D7"A2d2 | "G"B2G2 "D7"d4 |
+|  "G"g2a2 b2ab | "C"c'bag "D"f2d2 | "C"e2c2 "D7"A2d2 |1 "G"B2 G6 :|2 "G"B2G2- "A7"G4 ||
+|: "D"A2F2 AFAF | d2A2 "G"B2G2 | "C"e2c2 ecec | "Am"a2e2 "D7"f2d2 |
+| "G"b2ag "D/f#"a2gf | "Em"efga "D(Bm)"f2d2 | "C"edcB "D7"A2d2 | "G"B2 G6 :|
+
+%%sep 1 1 500
+X: 1
+T: Waltham Abbey   (D)
+T: Walton Abey
+C: J.Playford 1713
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: Barnes II p.139
+M: C|
+L: 1/8
+%Q: 1/2=104
+K: D
+|: "D"d2e2 f2ef | "G"gfed "A"c2A2 | "G"B2G2 "A7"E2A2 | "D"F2D2 "A7"A4 |
+|  "D"d2e2 f2ef | "G"gfed "A"c2A2 | "G"B2G2 "A7"E2A2 |1 "D"F2 D6 :|2 "D"F2D2- "E7"D4 ||
+|: "A"E2C2 ECEC | A2E2 "D"F2D2 | "G"B2G2 BGBG | "Em"e2B2 "A7"c2A2 |
+| "D"f2ed "A/c#"e2dc | "Bm"Bcde "A(F#m)"c2A2 | "G"BAGF "A7"E2A2 | "D"F2 D6 :|

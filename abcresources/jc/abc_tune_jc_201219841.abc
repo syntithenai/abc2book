@@ -1,0 +1,22 @@
+X: 2
+T: They say there is an Eccho here
+%R: jig
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.1 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D |\
+G2G GFG | A2D D2D | A2A AGA |\
+B2G G2A | B2B BAG | D3- D2 :|
+|: G |\
+GFG D2G | E2C C2A | AGA E2A |\
+F2D Ddc | BAG DGF | G3- G2 :|
+%%begintext align
+%%   First & 2d Cu. pas Rigadoon Chassee , first
+%% Man turn Partner under the Arm .| the same
+%% back again & do with Left Arm :| Cross over
+%% 1 Cu pas Rigadoon :|. Right & Left at top
+%% and pas Rigadoon :|:
+%%endtext

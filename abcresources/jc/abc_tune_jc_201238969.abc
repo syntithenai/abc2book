@@ -1,0 +1,25 @@
+X: 3182
+T: St Patricks Day in the Morning.   a Jig.
+O: Irish
+%R: jig
+N: This is version 2, for ABC software that understands voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.3 p.18 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - -
+% Voice 1 has each phrase (8+6+8 bars) on a staff.
+V: 1 staves=2
+|:\
+G2G G2B | ded dBG | ABc BGD | E2E TE2D | G>AG TG2B | d>ed dBG | ABc BGD | TE3 G3 :|
+def g2e | f2d e2B | def g2e | f2d e3 | def gfe | Tf>ed efg ||
+!p!.G2.G G2B | ded dBG | ABc BGD | EFE TE2D | G>AG TG2B | d>ed dBG | ABc BGD | TE3 G3 |]
+% - - - - - - - - - -
+% Voice 2 preserves the original staff layout
+V: 2 clef=bass middle=d
+|:\
+g3 g3 | g3 g3 | d3 B3 | c3 [c3C3] | B3 G3 | g3 g3 | d3 B3 | c3 G3 :|
+g6 & B3 c3 | g6 & d3 e3 | g6 & B3 c3 | g6 & d3 e3 |
+g6 & B3 c3 | g6 & d3 e3 || !p!g3 g3 | g3 g3 |
+d3 B3 | c3 c3 | B3 G3 | g3 g3 | d3 B3 | c3 G3 |]

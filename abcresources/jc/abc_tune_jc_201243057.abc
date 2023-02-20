@@ -1,0 +1,32 @@
+X: 751
+T: Double Kisses
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.75 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has final repeat but no initial repeat; not fixed.
+N: The final low Es in the first strain's bass line should probably be low Cs.
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+e |\
+c2GE c2de | c2GE dDDe |\
+c2GE cdec | eagf ecc :|\
+(e/f/ |\
+g)cge gc-c(e/f/ | g)cge ad-d(e/f/ |
+g)cge gcge | f(aTgf) ec-c(e/f/ |\
+g)cge gc-c(e/f/ | g)cge ad-dg |\
+aegd ecdB | A(aTgf) ec-c :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+c2c2 c2c2 | c2c2 d2d2 |\
+c2c2 c2c2 | G2G2 E2E :|\
+z |\
+c2c2 c2c2 | c2c2 d2d2 |
+c2c2 c2c2 | f2g2 c2c2 |\
+c2c2 c2c2 | c2c2 d2d2 |\
+c2d2 e2f2 | g2G2 c2c :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

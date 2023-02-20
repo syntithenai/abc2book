@@ -1,0 +1,57 @@
+
+X: 1
+T: Waukin' o' the Fauld
+R: strathspey
+M: C
+L: 1/8
+K: Ador
+A>G \
+| "Am"E-<A A>B A2 g>e | "G"d>B AG "C"E2 D>E \
+| "G"G>A B>A "C"G-<E D>E | "G"G>A B>A G>E D>G |
+| "Am"E-<A A>B "D"A2 G>A | "G"B>A Bd "C"e2 g>a \
+| "G"b>a g>e de/f/ g>B | "Em"A>G E-<G "Am"A2-A ||
+B \
+| "Am"A-<a a>b "D"a2 g>a | "G"b2 a>g "C"e2 d>e \
+| "G"g>a g-<b G>A B-<G | "G"g/f/g/a/ gb "Em"GA BG |
+| "Am"A-<a a>b "D"a2 g>f | "C"e>d e-<g "Am"a2 g>a \
+| "G"b/a/g a/g/e de/f/ g>B | "Em"A>G E-<G "Am"A2-A |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Waukin' o' the Fauld
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: C
+L: 1/16
+K: Ador
+G2 \
+| "Am"EA3 A3B A4 g3e | "G"d3B A2G2 E4 D3E \
+| "G"G3A B3A GE3 D3E | "G"G3A B3A "Em"G3E DG3 |
+| "Am"EA3 A3B A4 G3A | "G"B3A G2d2 "C"e4 g3a \
+| "G"b3a g3e d2ef g3B | "Em"A3G EG3 "Am"A4 A2 |]
+B2 \
+| "Am"Aa3 a3b "D"a4 g3a | "G"b4 a3g e4 d3e \
+| "G"g3a gb3 G3A BG3 | "C"gfga gb3 "Em"G3A BG3 |
+| "Am"Aa3 a3b "D"a4 g3f | "C"e3d eg3 a4 g3a \
+| "G"bag2 age2 d2ef g3B | "Em"A3G EG3 "Am"A4 A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Waulkin'O'the Fauld
+S:Johnny Cunningham CD "Fair Warning"
+F:http://www.ibiblio.org/fiddlers/WAT_WAZ.htm 2012-9-18
+M:C
+L:1/16
+K:Ddor
+C3A, |\
+D4 D3E D4 c3A | G3E D2C2 A,4 G,2A,2 |\
+C3D E3D CA,3 G,2A,2 | C3D E3D C3A, G,2A,2 |
+A,D3 D3E D4 C2D2 | E3D E2G2 A4 c2d2 |\
+e3d c2A2 G2AB c2EF/E/ | D3C A,C3 |1 D4 :|2 D6 z2 |]
+Ad3 d3e d4 c2d2 | e4 d3c A4 G2A2 |\
+c3d e.gz2 C3D E.Cz2 | {B}cBcd c2.ez C2D2 E2F2 |
+Ad3 d3e d4 c2B2 | A3G A2c2 d4 c2d2 |\
+edc2 dcA2 G2AB c2EF/E/ | D3C A,C3 D6 z2 |]

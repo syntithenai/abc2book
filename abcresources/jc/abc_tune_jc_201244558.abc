@@ -1,0 +1,33 @@
+X: 1
+T: A la Gran Mu\~neca
+T: (To the Big Doll)
+C: Melody: Jes\'us Ventura 1919
+C: Lyrics: Miguel F. Os\'es
+P: Play A1 B A2 C A2
+M: 4/4
+L: 1/8
+K: Am
+"A1"[|\
+"E7"E2E^F ^G2GA | B2Bc ddcB | "Am"A2AB c2cd | e2 FF EECA, |
+"E7"E,2E^F ^G2GA | B2Bc ddcB | "Am"A2AB c2AB | c2AB | cBAB |
+"A7"A2AB ^c2cd | e2ef ggfe | "Dm"d2de f2fg | a2fe defa |
+"Am"aecd efef | "E7"edBc decB | "Am"A2 "n.c."Bc decB | "Am"A2 "E7"z2 "Am"z2 |]
+%%sep 8 8 1
+"B"[|] cB |\
+"Am"B2AA A2cB | B2 A4 AB | c2cc c2dc | "Em"e2B4 Bc |
+d2dc B2BA | A2 ^G4 BA | ^G2G=F E2ED | "Am"C2z2 z2cB |
+"Am"B2AA A2cB | B2 A4 ed | "A7"^c2c_B | A2AG | "Dm"F2z2 z2DF |
+"Bb"_B2BB B2cB | "Am"A2E2 z2EF | "E7"E2^GA B2cB | "Am"A2 "E7"z2 "Am"z2 |]
+%%sep 8 8 1
+P: Alternate form of A, ad lib:
+"A2"[|] !segno!E2 |:\
+"E7"E3^G B3c | d3e f3e | "Am"a2 e6 | a4 z4 :|
+"A7"e3^c/d/ e3f | g3a _b3a | "Dm"d'2 a6 | "Dm"z2fe defa |
+"Am"aecd efef | "E7"edBc decB "*"| "Am"A2 "n.c."Bc decB | "Am"A2 "E7"z2 "Am"z2 "^fine"|]
+%%sep 10 10 1
+"C"[|] E2 |\
+"A"^c3c c2dc | "E7"e4 B4 | z2B^c dcde | "A"d4 ^c4 |
+"Am"z2cB BA^GA | "Em"c4 B4 | z2Bc ddcB | "Am"e4 z4 |
+"A"^c3c c2dc | "E7"e4 B4 | "A7"Z3B   ^ccde | "D"e4 d4 |
+"Dm"F2FF FFGF | "Am"A4 E3F | "E7"E2^GA B2cB | "Am"A2 "E7"z2 "Am"z2 !segno!|]
+%%text * This bar is often omitted.

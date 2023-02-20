@@ -1,0 +1,36 @@
+X: 1781
+T: ANDANTE
+C: S. Knaebel
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.178 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+U: P=!crescendo(!
+U: p=!crescendo)!
+M: 3/4
+L: 1/8
+Q: "DOLCE"
+K: F
+% -------------------------
+V: 1
+|:"PRIMO"\
+(c2 f2) .e2 | d6 | (d2 g2) .f2 | e6 |\
+(a2 g2) .f2 | e4 g2 | (gf) P(fep) (e/d/)(c/e/) | (Qe2dq) !p!(_BA)B |
+(c2 f2) e2 | c6 | (d2 g2) .f2 | e6 |\
+(a2 g2) f2 | (f2 e2) .d2 | c>f (ab) {a}(g/^f/g/).a/ | (g4 f2) ]
+!ff!a>a a.g.f.e | .d.e.d.^c .d.e | .f.^c .d.e.f.g | a>a a2 z2 |\
+b>b bag^f | ga b2 (g^g) | a2>>^c2 c>c | dz "^>"d2 z2 |
+"_DOLCE"(c2 f2) e2 | d6 | (d2 g2) .f2 | e6 |\
+(a2 g2) .f2 | b2 (g^g) a2- | a>b a2 g2 | (g4 f2) |]
+% -------------------------
+V: 2
+"SECONDO"
+(A2 F2) .A2 | B6 | (=B2 G2) .B2 | c6 |\
+(f2 e2) .d2 | (c=Bc).d (e/d/B/_B/) | A2 PG2p (F^F) | QG3q !p!(EFG) |
+(A2 F2) A2 | B6 | (=B2 G2) .B2 | c6 |\
+(^c4 d2) | (A4 B2) | c3 d {c}(B/A/B/).e/ | (B4 A2) ]
+!ff!A>A .A.B .A.G | .F.G .F.E .D.^C | .D.E.F.G.A.d | ^c>c c2 z2 |\
+G>G .G.A .B.c | BA GB/B/ BB | AA/A/ !/!A4 | Fz "^>"D2 z2 |
+"_DOLCE"(A2 F2) A2 | B6 | (=B2 G2) .B2 | c6 |\
+(c2 B2) A2 | (d2 =B2) c2- | c>d c2 _B2 | (B4 A2) |]

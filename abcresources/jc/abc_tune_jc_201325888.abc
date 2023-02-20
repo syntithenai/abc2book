@@ -1,0 +1,33 @@
+
+X: 1
+T: Poskaku\vsa  [Em]
+O: Bosnia
+M: 2/4
+L: 1/8
+K: Em
+|: "Em"[EG][EG] [FA][GB] | "Em"[Ac][GB] [FA][EG] \
+| "Em"[EG][EG] [G2B2] | "Am"[Ac][GB] [FA][EG] \
+| "Em"[EG][EG] [G2B2] | "Am"[Ac][GB] [FA][EG] \
+| "B"[F2A2] [F2A2] | [F2A2] z2 :|
+|: "G"[Bd][^A^c] [Bd][Ac] | "Em"[Bd][GB] [FA][EG] \
+| "Em"[EG][EG] [G2B2] | "Am"[Ac][GB] [FA][EG] \
+| "Em"[EG][EG] [G2B2] | "Am"[Ac][GB] [FA][EG] \
+| "B"[F2A2] [F2A2] | [F2A2] z2 :|
+
+
+%%sep 3 1 500
+
+X: 2
+T: Poskaku\vsa  [Am]
+O: Bosnia
+M: 2/4
+L: 1/8
+K: Am
+|: "Am"[Ac][Ac] [Bd][ce] | "Am"[df][ce] [Bd][Ac] \
+| "Am"[Ac][Ac] [c2e2] | "Dm"[df][ce] [Bd][Ac] \
+| "Am"[Ac][Ac] [c2e2] | "Dm"[df][ce] [Bd][Ac] \
+| "E"[B2d2] [B2d2] | [B2d2] z2 :|
+|: "C"[eg][^d^f] [eg][df] | "Am"[eg][ce] [Bd][Ac] \
+| "Am"[Ac][Ac] [c2e2] | "Dm"[df][ce] [Bd][Ac] \
+| "Am"[Ac][Ac] [c2e2] | "Dm"[df][ce] [Bd][Ac] \
+| "E"[B2d2] [B2d2] | [B2d2] z2 :|

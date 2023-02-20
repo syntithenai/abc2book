@@ -1,0 +1,676 @@
+X: 000
+T: Twenty Four Country Dances for the Year 1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston & Son, eds "Twenty Four Country Dances for the Year 1799", London 1799
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799#
+K:
+%%center Preston's
+%%center Twenty four COUNTRY DANCES for the Year 1799
+%%center With proper Tunes & Directions to each Dance,
+%%center as they are performed at
+%%center COURT, BATH, and all PUBLIC ASSEMBLIES
+%%center -----------------------------------
+%%center London, Printed & Sold by Preston & Son, at their Wholesale Warehouses 97 Strand
+%%begintext align
+%% Transcription notes:
+%%
+%% The tune numbers below the clef and key signature are used in the file names to preserve the dance order.
+%% Many abbreviations use small superscript letters with a dot underneath.
+%% Common terms like "1st", "2d" and "3d" are transcribed without the dots.
+%% Uncommon abbreviations include the ".", to set off the letter(s) printed as a superscript.
+%% The original staff breaks are ignored, and the music is formatted to (mostly) have 4 or 8 bars per line.
+%% The lines are joined into staffs to look good at a small scale, but you may want to reformat the staffs.
+%% The dance descriptions are mostly transcribed with the original line breaks, but this isn't significant.
+%% The file names start with the tune's number, to preserve the order of tunes/dances.
+%%endtext
+%%center -----------------------------------
+
+% Remove the first space to enable these for the whole collection:
+% %slurgraces yes
+% %graceslurs yes
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 353
+T: Shaccabac or Blue Beard
+%R: march
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1799" p.157 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799# 2014-8-10
+N: This tune really does have all isolated notes, with no beaming at all.
+M: 2/4
+L: 1/16
+K: G
+|:\
+G4 d3 B | G4 d3 B | c3 d c3 B | A3 G F4 |\
+G4 d3 B | G4 d3 B | c3 A G3 F | G4 z4 :|
+|:\
+d4 g3 f | e3 d c3 B | A3 B c3 d | B4 G4 |\
+ed4 g3 f | e3 d c3 B | A3 c F3 A | G4 z4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Ballance & 3 round Ladies Side same on the
+%% Gentlemans lead down the middle up again and
+%% Allemand with Partner
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 354
+T: Croppies lie Down
+%R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1799" p.157 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799# 2014-8-10
+N: The rhythms at the strains' boundaries aren't quite correct; not fixed.
+M: 6/8
+L: 1/8
+K: G
+g |\
+dBG GFG | ABA (AB) d | e f/g/ e dBd |\
+[1 gGG Gg e :|[2 gGG G2 :|
+|: e |\
+def gfg | efg a2f | gab efg |\
+[1 dBG AGF :|[2 dBd G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change sides and back again lead down
+%% one Cu: up atain and cast off lead thro
+%% the bottom Cu: cast up thro the top Cu:
+%% cast off and Allemand
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 355
+T: I'll make you fain to follow me
+%R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1799" p.158 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799# 2014-8-10
+M: 6/8
+L: 1/8
+K: C
+C |\
+EGA c2e | dDD D2C | EGA cdc | BAB cGE |\
+F2d E2c | dDD D2D | EGA c2G | ECC C2 :|
+|: g |\
+ega gec | fge d2c | ega gec | gea gec |\
+ega gec | fge d2D | EGA c2G | ECC C2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hey contrary Sides .| Hey on your own Sides :|
+%% lead down the middle up again :|. Right & Left :|:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 356
+T: Stirling Bridge
+%R: strathspey
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1799" p.158 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799# 2014-8-10
+M: C|
+L: 1/16
+K: F
+f2 |\
+cF3d3F AF3F2f2 | dF3d3F D6f2 |\
+cF3d3F c3df3g | agfe f3c d6 :: f2 |\
+c3df2g2 a3fg2a2 |
+fc3d2f2 FC3D2f2 |\
+[1 c3df2g2 af3g3b | agfe f2c2 d6 :|\
+[2 c3df2g2 a6b2 | agfe f2c2 d6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Right hands across .| Left hands back
+%% again :| lead down the middle up again
+%% and cast off :|.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 357
+T: The Straw Bonnett
+%R: strathspey, reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1799" p.159 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799# 2014-8-10
+M: C|
+L: 1/8
+K: A
+E |\
+A>BA>B (c/B/A) eA | ceAc B>cBE |\
+A>BAB c/B/A eA | ceBc A>BA :|
+|: e |\
+ecfd ec{de}f2 | eaec B>cBE |\
+ecfd ec{de}f2 | eaec A>BA :|
+|: !p!B |\
+cBAG AFEC | EAdc {c}B3B |\
+cBAG AFEC | EdcB B2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change sides .| and back again :| lead
+%% down the middle two Cu: :|. lead up
+%% again & cast off :|: swing Corners :||
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 358
+T: The North Sea Fleet
+%R: strathspey
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1799" p.159 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799# 2014-8-10
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C|
+L: 1/16
+K: F
+A2 |\
+F3c dcBA cF3c3A | F3c dcBA B2G2G2A2 |\
+F3c dcBA cF3c3A | f3gf2e2 f2F2 F2 :|
+|: d2 |\
+cf3 gagf d2f2c2f2 | d3ga2f2 g2d2d2f2 |\
+cf3 gagf d2f2c2f2 | Bcd2 c2B A2F2F2d2 |
+cf3 gagf d2f2c2f2 | dg3a3f e2g2g2b2 |\
+a2f2d2g2 fd3c3A | BG3c2B2 A2F2 F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st & 2d Ladies take hands & lead thro'
+%% between the 1st & 2d Gent.n .| the 1st and 2d
+%% Gent.n lead tho' between their Part.rs :| cross
+%% over one Cu: & turn :|. Right & Left at top :|:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 359
+T: The Margravine's Waltz
+%R: waltz
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1799" p.160 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799# 2014-8-10
+N: This is usually played in major nowadays.
+M: 3/8
+L: 1/16
+K: Gmix
+(3(DEF) |\
+G2G2G2 | B2B2B2 | d2d2d2 | e4f2 |\
+g2f2e2 | d2c2B2 | A2G2F2 | G4 :|
+|: Bc |\
+d2d2 ed | cBA2 AB | c2c2 dc | BAG2 Bc |\
+d2d2g2 | e4g2 | abagfe | d4 :|
+|: D2 |\
+D2G2B2 | D2A2c2 | D2B2d2 | c4Bc |\
+d2B2G2 | E4cB | A2G2F2 | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Turn your Partner with the Right hand quite
+%% round .| turn back with your Left hand :| lead
+%% down two Cu: & foot it :|. lead back again to
+%% the 2d Cu.s place :|: Hands 6 half round .||
+%% Hands 6 back again :||
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 360
+T: Miss Stuarts Reel
+%R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1799" p.160 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799# 2014-8-10
+M: C|
+L: 1/8
+K: F
+C |\
+F<FAF {EF}GFEC | F<FAB {AB}cBAf |\
+af{d}c{B}A cGGc | dfeg f3 :||: C | ffaf efce |
+fcaf gfde |[1 fafc dBfd | cf e/f/g/e/ fF F :|\
+[2 fbac defB | Acde fF F |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast of two Cu: .| up again :| lead down the
+%% middle :|. up again :|: turn Corners :|| lead out
+%% sides :||:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 361
+T: Little Fanny's Love or Lady Bairds Reel
+%R: strathspey
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1799" p.161 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799# 2014-8-10
+M: C|
+L: 1/8
+K: A
+a |\
+e<cc>B A>BAE | F<AE>A F<AE>a |\
+e<cc>B A>BA>B | B<ee>^d e3 :|
+|: =g |\
+f<dd>B c>de>c | d<BB>G A>BcE |\
+F<AE>A F<AE>f | {f}ed/c/ {e}dc/B/ {B}A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & change sides .| change sides back
+%% again :| lead down the middle foot it :|.
+%% Allemand :|:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 362
+T: The Bath Waltz
+%R: waltz
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1799" p.161 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799# 2014-8-10
+M: 3/8
+L: 1/16
+K: F
+|:\
+.F2(d2B2) | F2(d2B2) | {f}e4cB | A2cAF2 |\
+F2d2B2 | F2d2B2 | {f}e4cA | B6 :|
+|:\
+f2fgab | f4d2 | cBcdef | d2B2B2 |\
+f2fgab | f4d2 | e2c2A2 | B6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Cu: set to the 2d Lady and turn your
+%% Part.r .| set to the 2d Gent.n & turn your
+%% Part.r :| lead down the middle and foot it :|.
+%% Allemand :|:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 363
+T: Diddelot Reel
+%R: strathspey
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1799" p.162 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799# 2014-8-10
+N: The dance starts with the unusual abbreviation "1.t" for "first".
+M: C|
+L: 1/8
+K: D
+E |\
+F<AA>B d>ef>e | d<fd>B A<FE>G |\
+F<AA>B d>ef>e | fae>a d3 :|
+|: e |\
+(f<a)a>f (g<b)b2 | (c<e)e2 (c<e)e2 |\
+(f<a)a>f g<bb2 | (A<c)c>e d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1t Lady turn the 2d Gent.n .| 1st Gent.n turn
+%% the 2d Lady :| lead down two Cu and foot it :|.
+%% lead up again and cast off :|:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 364
+T: The Bugle Horn
+%R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1799" p.162 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799# 2014-8-10
+M: 2/4
+L: 1/8
+K: D
+a |\
+affd | d2AA | dfeg | f>gf>a |\
+affd | d2AA | eeef | d3 :|
+|: d |\
+d2Af | d2Af | dfdf | d2Aa |\
+affd | d2Af | eeef | d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Right hands across .| Left hands back
+%% again :| lead down the middle foot it :|.
+%% Allemand :|:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 365
+T: Campbel has got his Wife again
+%R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1799" p.163 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799# 2014-8-10
+M: C|
+L: 1/8
+K: D
+c |\
+dB AF A/A/A Ac | dB AF E/E/E EB |\
+dBAF Agfe | dBAF D/D/D D :|
+|: g |\
+fdfa egfe | fdfa B/B/B Bg |\
+fdfa egfe | dBAF D/D/D D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Gent: follow his Part.r into 2d Cu.s place .|
+%% 1st Lady follow her Part.r back to proper
+%% places :| lead down the middle :|. Allemand :|:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 366
+T: Lord Duncan's Reel
+%R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1799" p.163 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799# 2014-8-10
+M: C|
+L: 1/8
+K: F
+|:\
+FEFA cAAc | FcAc G/G/G G2 |\
+FAAc fcgc | abga f/f/f f2 :|
+|:\
+fdcA FcAc | fdcA G/G/G G2 |\
+fgaf cfcA | GFGA F/F/F F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Right hands across .| left hands back again :|
+%% lead down the middle :|. Allemand :|:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 367
+T: The Sailor's Reprieve
+%R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1799" p.164 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799# 2014-8-10
+N: Corrected typo: One "hand" is spelled "hant".
+M: 6/8
+L: 1/8
+K: F
+"_p"(c/B/) |\
+AFF "_f"TF>EF | AFF "_f"TF>EF |\
+dGG "_f"TG^FG | "_f"dGG G2"_p"(c/B/) |\
+AFF "_f"TF>EF | AFF "_f"TF>EF |\
+def c>dc | AFF F2 :|
+|: "_p"f/g/ |\
+"_f"afc cfa | gec "_p"c2e |\
+"_f"fdB Bdf | "_p"ecA A2c |\
+"^f"dBG GBd | "^p"cAF F2c |\
+"^f"d>ef c>dc | "^ff"AFF F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Lady turn 2d Gent: with right hand, 2d Lady with
+%% Left, 1st Gent: turn 2d Lady with right hand, & 2d Gent:
+%% with left, 1st Cu: cross over one Cu: & turn, then
+%% hands across quite round at top.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 368
+T: The Triumph
+%R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1799" p.164 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799# 2014-8-10
+N: There are two odd oval symbols below bars 5 and 6.
+M: C|
+L: 1/8
+K: G
+g |\
+dBAG cAGF | Ggfe {e}d3g |\
+dBAG cAGF | G2A2 G3 ::\
+A2c2 B2d2 | A2c2 B2d2 |
+AAAc BBBd | dcBA {A2}G4 :|\
+|: B3d dcBA |\
+B3d dcBA |\
+B2cd efge | dcBA G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Right hands across .| Left back again :| 1st Gent:
+%% take his Part.r with right hand & lead her down
+%% to 3d Cu: place :|. 2d Gent cast of & go to the Rig.t
+%% hand side of the 1st Lady :|: 2d Gent take each
+%% hand of 1st Lady & lead her up to the top in triumph
+%% .|| 1st Cu: cross over one Cu: & turn :||
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 369
+T: Pas Russe, Or the Russian Dance
+%R: march, reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1799" p.165 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799# 2014-8-10
+M: C|
+L: 1/8
+K: D
+a3f |\
+g2eg f2d2 | e2d2 e2a2 |\
+d2d2 d2ef | g2e2 f2d2 |\
+e2d2 e2a2 | d4 :|
+|: d2ef |\
+g2e2 f2d2 | c2B2 A2A2 |\
+d2d2 d2ef | g2e2 f2d2 |\
+c2B2 A2a2 | d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Foot it & hands 4 half round .|
+%% Foot it & hands 4 back again :|
+%% Lead down the middle foot it :|.
+%% Turn Partner with both hands :|:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 370
+T: Paddy O' Boderam
+%R: jig
+Q: "Expressivo"
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1799" p.165 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799# 2014-8-10
+M: 6/8
+L: 1/8
+K: G
+(e/f/) |\
+g2d d2d | B2G G2G | !p!DGG FAA | GBB B2(e/f/) |\
+!f!g2d d2d | B2G G2G | !p!DGG FAA | GGF G2 :|
+|: d |\
+!f!A2d B2d | cBc A2d | !p!edc BAG | d3- d2d |\
+!f!gfe dcB | e2A A2e | !p!dBG AGA | G3 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Lady figure thro' between the 1st & 2d Gent:n
+%% round to her place, 1st Gent figure thro' betwen
+%% the 1st & 2d Lady round to his place; 1st Couple
+%% Promenade down the middle, and up again,
+%% and cast of one Cu:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 371
+T: Drops of Whiskey
+%R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1799" p.166 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799# 2014-8-10
+P: All.o assai
+M: 6/8
+L: 1/8
+K: C
+|:\
+!f!cec GEC | Add d2d | !p!cec GEC | ecc c2c |\
+!f!cec GEC | Add d2d | !p!cec GEC | ecc c2z :|
+|:\
+!f!gec dBG | gec dBG | !p!agf edc | BGG G2G |\
+!f!cdc cAA | !p!ded Hd2 (e/f/) | !f!gec AdB | ecc c2z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Cu: cast down one Cu: & set, lead up the
+%% middle, cast of one Cu: 1st & 2d Cu: change sides
+%% and set, and back again and set
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 372
+T: Stuart's a coming
+%R: strathspey
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1799" p.166 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799# 2014-8-10
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: Removed dot from e in bar 4 to fix the rhythm.
+M: C|
+L: 1/8
+K: Amix
+e |\
+c<Ac>d e2eg | d<gB<G {Bc}d2de |\
+c<Ac>d e2ef/g/ | a>eg>d e2d :|
+|: g |\
+a>ge>g a>ge>g | d>gB>G {Bc}d2dg |\
+a>ge>g a>ge>g | a>bg>a e2eg |
+a>bg>a e<gd<g | B<GB<G {Bc}d2de |\
+c<Ac>d e2eg | aegd e3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Lady cast of one Cu: & go into the 2d
+%% Gent.s place, her Partner follow her, 1st Gent:
+%% go back to his place, the Lady follow him
+%% lead down the middle foot it up again & cast of
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 373
+T: Scotch Militia Reel
+%R: strathspey
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1799" p.167 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799# 2014-8-10
+N: I've interpreted the long 2-bar slurs as 1st & 2d endings, although there are no "1" and "2" markings.
+M: C|
+L: 1/16
+K: A
+A2 |\
+A,3A (cde2) {d}c4 A2c2 | d3B dcBA G2B4d2 |\
+c3A (cde2) {d}c4 A3c | d2B2e2B2 c2A4 :: g2 |\
+a3e agfg a3fe3c |
+d3B dcBA G2B4e2 |\
+[1 a3e agfg a3fe3c | d2B2e2d2 c2A2 A2 :|\
+[2 c3ed3f e3ag3b | a2e2 {g}f2ed c2A2 A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st & 2d Cu: set & change sides .| set and
+%% change sides back again :| lead down two Cu:
+%% foot it :|. lead up again & cast of :|:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 374
+T: Bow Vow or Mr Kill Devil
+%R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1799" p.167 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799# 2014-8-10
+M: 6/8
+L: 1/8
+K: Em
+E |\
+G2A B2A | G2E E2G | F2A AdA | F2D DEF |\
+G2A B2A | G2B AB^c | d2D DED | F2E E2 :|
+|: ^d |\
+e2B BcB | e2B g2e | d2A ABA | d2A f2^d |\
+e2B BcB | e2B g2e | d2D DED | F2E E2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Cu: set to the 2d Lady & hands 3 round .|
+%% set & hands 3 back again :| cross overone Cu:
+%% & turn :|. right & left at top :|:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 375
+T: Old Neils Ramble
+%R: strathspey
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1799" p.168 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799# 2014-8-10
+M: C
+L: 1/8
+K: A
+f |\
+e<cg>e fB2f | ecae f3g |\
+(a/g/f/e/) ac fB2g | afec A3 :|
+|: E |\
+A<AcA BF2B | A<Ac>A aefa |\
+e<ac<a BF2g | a/g/f/g/ ac A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Lady take hands with the 2d & 3d Gent.n
+%% & foot it to the outside of the room, same time 1st
+%% Gent: take hands with 2d & 3d Ladies & foot it to the
+%% opposite side of the room  turn face to face & set 3
+%% & 3 to each other lead down middle foot it Allem.d
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 376
+T: Sprigs of Laurel for Admiral Nelson
+%R: reel, march
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Preston "Twenty four Country Dances for the Year 1799" p.168 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-prestons1799# 2014-8-10
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: Should there be a D.C. at the end, and an AABA repeat pattern?
+M: 2/4
+L: 1/8
+K: D
+a |\
+fafa | a>gfa | gfge | f/g/f/e/ da |\
+fafa | a>gfa | gfge | d3 H:|
+|: A |\
+d>efd | c>BAA | B>cdB | AGFA |\
+d>efd | c>BAA | GFED | A3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Right hands across .| Left hands back :|
+%% lead down the middle foot it :|. Le Poussette
+%% with the top Cu: :|:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

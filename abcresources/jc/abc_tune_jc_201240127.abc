@@ -1,0 +1,70 @@
+X: 36
+T: les Plaisirs de Flore
+%R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #36
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+dBAG |\
+ecBA BdBF | GDB,G, dBAG | ecBA BdBF | G2G,2 dBAG |\
+ecBA BdBF | GDB,G, dBAG | ecBA BdBF | G4 :|
+|: bgfe |\
+afed ged^c | dAFD bgfe | afed ged^c | d2D2 dBce |\
+dG,B,D GBAF | GgBc dBce | dG,B,D GBAF | G4 :|\
+[K:Gm]
+"Mineur"bag^f |\
+gedc BAG^F | GDB,G, BGBd | e^FAc dDcB | A2D2 bag^f |\
+gedc BAG^F | GDB,G, dGBd | e^FAc dcBA | G2G,2 :|
+|: deff |\
+FEDE FBcA | Bdfb deff | FEDE FBcA | B2B,2 dBAG |\
+ecBA dBA^F | G2G2 dBAG | ecBA dBA^F | G2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+g4 |\
+c4 d4 | G4 g4 | c4 d4 | G4 g4 | c4 d4 |
+G4 g4 | c4 d4 | G4 :||: g4 | f4 e4 | d4 g4 | f4
+e4 | d4 g2c2 | B2G2B2d2 | g4 G2c2 | B2G2B2d2 | G4 :|\
+[K:Gm]
+"Mineur"g2a2 | b2c'2d'2d2 | g4 G4 | c4 B2AG | d4 g2a2 | b2c'2
+d'2d2 | g4 G4 | c4 B2d2 | G4 :||: B4 | d2B2 d2f2 | B4 B4 |
+d2B2 d2f2 | B4 b4 | c'4 d'2d2 | e4 B4 | c4 d2D2 | G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Les Plaisirs de Flore.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and fourth Couple Right hand and
+%% Left, while the second and third Couple do the
+%% same - - - - 1/2
+%%endtext
+%%begintext align
+%%   The first and second Couple Right hand and
+%% Left, while the third and fourth Couple do the
+%% same - - - - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   All Eight the Double Moulinet to the Right
+%% one Quarter of the Course and Rigaudon, then
+%% Chass\'e and change places with their Partners - 1/1
+%%endtext
+%%begintext align
+%%   One other Quarter of the Course in the same
+%% manner - - - - 1/1
+%%endtext
+%%begintext align
+%%   One other Quarter of the Course in the same
+%% manner - - - - 1/2
+%%endtext
+%%begintext align
+%%   Compleat the Course in the same manner - 1/2
+%%endtext
+%%sep 1 1 400

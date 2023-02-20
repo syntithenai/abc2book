@@ -1,0 +1,18 @@
+X: 3143
+T: the Tweedale Club    Strathspey
+C: by Nath:Gow
+%R: strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.14 #3 (plus top 2 staves of p.15)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - -
+V: 1 staves=2
+c | G<Ec>G TA>GEc | G<EcE dDDc |1 GEcG A>BcA | GeEc TD2C :|2 GEcG A>Bca | gcfe Td2c |]
+|: e/f/ | gcg>e cgeg | ada>f Td>efa |1 gcge cgeg | (3faf (3ege Td2c :|2 geaf ecBG | A<cE<c TD2C |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | c2c2 c2c2 | c2c2 G2g2 |1 c2c2 f2f2 | c2c2 G2c :|2 c2c2 f2f2 | e2f2 g2c |]
+|: z | c'2c'2 c'2c'2 | d'2d'2 d'2d'2 |1 c'2c'2 c'2c'2 | f2g2 G2c :|2 c'2f2 e2g2 | f2c2 G2[cC] |]

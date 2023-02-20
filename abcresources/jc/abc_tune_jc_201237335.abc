@@ -1,0 +1,18 @@
+X:257
+T:Cook in the Kitchen
+M:6/8
+L:1/8
+R:Jig
+K:G
+||:"G  --APart--" D2 G GAG | FDE "F"=F2E | "G"DGG GFG | "D"Add "G"cAG |
+  "G" D2 G GAG | FDE "F"=F2d | "C" cAG  FGA  |1 "D" BGF "G"G2 E   :||
+2 "D" BGF "G"G2A ||:
+  "G  --BPart--" ~B3    Bdc | "D" ~A3 dcA   | "G" ~G3 GFG  | "C" Add "D"
+cAG |
+  "G" ~B3    Bdc | "D" A2A  dA"G"G  | "D" FDE F2d  |1 "D" cAF  "G"G2"D"A
+:||2 "D" cAF  "G"G2z||:
+  "D  --CPart--" d2e f2 g     | a2g     fed       | "C" cAG FGA  | B2 B
+cAG |
+  "D" d2e f2 g     | a2g     fed       | "C" cAG FGA  |1 BG"D"F "G"G2z :
+||2 BG"D"F "G"G2E ||
+% Written by ABC2Win  Version 2.2 beta on 9/4/2005

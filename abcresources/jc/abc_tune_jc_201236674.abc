@@ -1,0 +1,16 @@
+X: 2296
+T: the SAILOR'S WIFE
+R: Jig.
+%R: jig
+B: James Kerr "Merry Melodies" v.2 p.32 #296
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Initial "pickup" rest added to fix the rhythms of repeats.
+M: 6/8
+L: 1/8
+K: Em
+z |\
+EFG F2E | e2f g2a | bag fed | BdB AFD |\
+EFG F2E | e2f g2a | bag fe^d | e3 E2 :|
+|: f |\
+gab gab | gab bag | fda fda | fda agf |\
+gab bag | fga agf | efg fe^d | e3 E2 :|

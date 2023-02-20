@@ -1,0 +1,17 @@
+X: 1
+T: Bonaparte's Retreat
+O: Benny Thomasson version
+R: march, reel
+S: Fiddle Hell Online 2021-11-07 handout for Rodney Miller workshop
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: The repeat notation is ambiguous.
+M: C|
+L: 1/8
+K: D
+z4 D3E |\
+"D"F2F2 F2F2 | A2F2 F2F2 | "A"E2D2 EDEF | G2F2 (3EFEDE |
+"D"F2F2 F2F2 | A2F2 F2F2 | "A"EFED2 E2FE | "D"D4 z3 z :|
+"D"d4 dfef | d4 A2Bc | dedB A2F2 |1 E2D2 A2Bc :|2 E2D2 "A"E2FE | "D"D2D2 D2D2 | "^fine"D6 A2 |
+"D"f2d2 f2df | a2dg f2df | "A"e2df edef | g2f2 (3efede |
+"D"f2d2 f2df | a2dg f2df | "A"e2df e2fe | "D"d4 d3e :|
+%%text Rodney Miller's handout.

@@ -1,0 +1,20 @@
+X: 2074
+T: Corant.
+%R: courante
+B: Henry Playford "Apollo's Banquet", London 1687 (5th Edition)
+F: https://archive.org/details/apollosbanquetco01rugg
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: Fixed incorrect rhythm by adding rest to bar 5.
+M: 3/2
+L: 1/8
+K: C
+% - - - - - - - - - -
+c |\
+c3d efg2 g3f/g/ | a3g f2e2 f3d |\
+d4 c2e2 f3e | d3d e2ef ^f3(^e/^f/) |\
+g6- g4 z :: d | d3c BAG2 c3B |
+A4 f4 e3d |\
+^c3(B/c/) d2e2 e3d | d6 d2 g3f |\
+e3d c2_BA _B3c | A4 d3e B3(A/B/) |\
+c3d e2f2 d3c | c6- c4 |]
+% - - - - - - - - - -

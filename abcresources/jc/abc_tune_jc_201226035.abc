@@ -1,0 +1,16 @@
+X: 10081
+T: THE HIGH LEVEL
+R: reel
+B: K\"ohler's Violin Repository, v.1, 1885 p.8 #1
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: There is a notation "Da Capo. E." below the last measure.
+M: C|
+L: 1/8
+K: Bb
+((3FGA) !segno!|\
+BdFB DFBd | fbdf BdFB | ceAc EGCB, | A,CFA gfec |
+BdFB dFBd | fbdf BdFB | GABc de=ef | agec "Fine"B2 :|
+|: (cB) |\
+Afcf Afcf | AFAc fcAc | dfBf dfBf | dBdf bfdf |
+=egcg egcg | =eceg bgeg | fcaf =ebge |[1 {g}f=efg f2 :|[2 (f=e)fg (fe)_ec !segno!|]

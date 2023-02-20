@@ -1,0 +1,45 @@
+X: 32581
+T: RONDO, OR APE SHENKIN -- Irish Air
+R: jig
+B: K\"ohler's Violin Repository, v.3, 1885 p.258 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The last phrase has 2 extra bars in the run leading down to the B at the top.
+N: 1) Conflicting use of dot and flag; fixed by making it like other similar bars.
+M: 6/8
+L: 1/8
+P: Allegretto
+K: G
+(ud/c/)!segno!|\
+(.B2.B) Bgf | {f}(.e2.e) e>fg | d>ed d>cB | (B<AvA) A2d/c/ |\
+(.B2.B) Bgf | (.e2.e) e>fg | d>ed cBA | (.G2.G) G2 ||
+vg/ua/ |\
+(b2g) (a2f) | g>fe d>cB | c>de (d<g)uB | (B<A)vA A2g/a/ |\
+(b2g) (a2f) | g>fe a>gf | b>ag f>ge | d>gf edc |
+(.B2.B) Bgf | {f}(.e2.e2) e>fg | d>ed d>cB | (B<A)vA A2d/c/ |\
+(.B2.B) Bgf | {f}(.e2.e) e>fg | d>ed cBA | (.G2.G)"^Fine."G2 H|]
+vg/ua/ |\
+bgg fgg | eggdgg | bgg fgg | b3 a2g/a/ |\
+bgg fgg | egg dgg | bgg f>ef | a3 g2d/c/ |
+Bdd Add | Bdd G2e/d/ | cee Aee | cee A2f/e/ |\
+dff Bff | dff B2g/f/ | eag fba | gc'b ad'c' |
+{bc'}b>ab gab | {ab}a>ga fga | {ga}g>fg efg | (f<^d)vB B^cd |\
+efg fga | gfe fe^d | efg fga | gfe ce^d |
+efg fga | gab abc' | bag agf | gab abc' |\
+(b<g)vg {ga}g>fg | add fdd | (b<g)vg {ga}g>fg | bd'd' ad'd' |
+(b<g)vg {ga}g>fg | add fdd | (b<g)vg {ga}g>fg | bd'd' ad'd' |\
+bag c'ba | e'd'c' bag | fba gfe | dgf {ef}edc "_D.C."!segno!|]
+"Minor."\
+ve>(fg/e/) f>(ga/f/) | g>ab (b<g)ue | ^d>(ef/d/) e>(fg/e/) | (f<^d)vB B3 |\
+e>(fg/e/) f>(ga/f/) | g>ab (b<g)ue | c'>ba g>af | e3 e'3 |
+e'>d'c' c'>bc' | d'>c'b b>ag | e'>d'c' c'>bc' | d'>c'b b>ag |\
+(g<d)vg gdg | (a<d)va ada | b>ag g>fg | "1)"(a<f)vd (.d2.c') |
+b>ag g>fg | (a<f)vd (.d2.c) | Bdg Bdg | ceg ceg |\
+cea cea | dfa dfa | dfb dfb | ^dfb dfb |
+^dfa baf | ^dfa baf | e>(fg/e/) f>(ga/f/) | g>ab (b<g)ue |\
+^d>(ef/d/) e>(fg/e/) | (f<^d)vB B^cd | e>(fg/e/) f>(ga/f/) | g>ab (b<g)ue |
+c'>ba g>fe | bfd (.B2.B) | (c<B)vB ^dee | (c<B)vB fgg |\
+(c<B)vB faa | (g<e)ve (.e2.g) | (d/e/d/c/B/A/) (G2.a) | (b<g)vg (.g2.g) |
+(d/e/d/c/B/A/) (.G2.a) | (b<g)vg (.g2.a) | (b<g)vg aff | (g<e)ve e'>d'c' |\
+d'c'b c'ba | bag agf | gfe dcB | gfe dcB |
+gfe gfe | gfe {ef}e>d"_D.C."c !segno!|] %

@@ -1,0 +1,2077 @@
+
+X: 01
+T: Leap Year
+P: Glasgow Peggy
+C:Traditional
+R:Jig (8x24) ABB
+B:RSCDS Gr-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:D
+B|"D"A2F FED|"G"G2G G2B|"D"A2F FED|"A"E3 E2B|
+  "D"A2F FED|"G"G2G G2B|"D"[A2F2][GE] "A7"[F2D2][EC]|"D"[F3D3] D2|
+|:A2|"Bm"d2d dcd|"G"B2B B2d|"D"A2F FED|"A"E3 E2c|
+     "Bm"d2d dcd|"G"B2B B2d|"D"[A2F2][GE] "A7"[F2D2][EC]|"D"[F3D3] D2:|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: John Grumlie
+O: Trad
+B: RSCDS Graded 1 #02
+B: RSCDS Originally Ours p.145
+R: jig
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+F \
+| "Bb"D2F "F7"F2G | "Gm"F2G "F7"B2B/c/ | "Bb"d2B "G7"e2d | "C7"d3 "F"c2F \
+| "Bb"D2F "F7"F2G | "Bb"FGA "Eb"B2c    | "Bb"d2f "F7"edc | "Bb"B3- B2 ||
+|: B/c/ \
+| "Bb"d2d "Gm"B2B | "Cm"e3 "F7"c2c | "Bb"d2B "G7"e2d | "C7"d3 "F"c2F \
+| "Bb"D2F "F7"F2G | "Bb"F3 "Eb"e2e | "Bb"d2f "F7"edc | "Bb"B3- B2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 02
+T: Watson's Reel
+%
+P: John Grumlie
+C:Traditional
+R:Jig (8x24) ABB
+B:RSCDS Graded 1 #2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Bb
+F|"Bb"D2F F2G|F2G B2c|d2B "Cm"e2d|"F"d3 c2 F|
+  "Bb"D2F F2G|FGA "Gm"B2c|"Bb"d2f "F7"edc|"Bb"B3-B2||
+|:B/c/|"Bb"d2d B2B|"Cm"e3 "F"c2c|"Bb"d2B "Cm"e2d|"F"d2 c2F|
+       "Bb"D2F F2G|"Bb"F3 "Cm"e2e|"Bb"d2f "F7"edc|"Bb"B3 b2:|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 03
+T: The Merry Reapers
+P: The Hundred Pipers
+C:Traditional
+R:Jig (8x24) ABB
+B:RSCDS Gr-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:F
+F/G/|"F"A2C CDC|"Bb"D2F F2d|"F"c2A A>GF|"C"[G2E2][GE] [G2E2] F/G/|
+     "F"A2C C>DC|"Bb"D2F F2d/d/|"F"c2A "C7"G>AG|"F"F2F F2||
+|:A/B/|"F"c2c cAc|"Bb"d2f f2d|"F"c2A "Dm"A>GF|"C"[G2E2][GE] [G2E2] A/B/|
+       "F"c2c "C"cde|"Dm"f2f "Bb"f2e/d/|"F"c2A "C7"G>AG|"F"F2F F2:|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 04
+T: Davy's Locker
+P: The Boatie Rows
+C:Traditional
+R:Reel (8x24) ABB
+B:RSCDS Gr-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:F
+F|"F"A2c2 "C"c3d|"F"c2f2 "Bb"gfed|"F/A"c2A2 "G7/B"G3F|"C"G6 F2|
+  "F"A2c2 "C"c3d|"F"c2f2 "Bb"gfed|"F/A"c2A2 "C"G3A|"F"F6||
+|:c2|"F"f2c2 c2de|f2c2 c2f2|"Bb"d3c d2f2|"C"g6 e2|
+     "Dm"f2a2 "Bb"d3f|"F"c3f c2A2|"Gm"G3F "C7"G2A2|"F"F6:|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 05
+T: Galloway House
+P: Aitken Drum
+C:Traditional
+R:Reel (8x32)
+B:RSCDS Gr-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/4
+K:G
+G/A/|"G"BB BA/G/|"C"E2 G>E|"G"DD "C"EG|"D7"BAA G/A/|
+     "G"BB BA/G/|"C"E2 G>E|"G"DD "D7"EF|"G"G3||
+G/A/|"G"BB BA/G/|"C"c2 ec|"G"Bd "Em"BG|"D7"BAA G/A/|
+     "G"BB "G7"BA/G/|"C"E2 G>E|"G"DD "D7"EF|"G"G3|]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 06
+T: The Highland Fair
+P: Muirland Willie
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Gm
+D|"Gm"G2A "Eb"B2c|"Bb"d>ed f3|"F"cAc "Bb"f2d|"Gm"dcB "D7"AG^F|
+  "Gm"G2A "Eb"B2c|"Bb"d>ed b2b|"Ao"a>ga "D7"d<g^f|"Gm"g3 G2||
+d|"Eb"g2a "Bb"b2b|d2e "F"f3|"F7"cAc "Bb"f2d|"Eb"dcB "F"AG"D7"^F|
+  "Gm"G2A "Eb"B2c|"Bb"d>ed b2b|"Ao"a>ga "D7"d<g^f|"Gm"g3 G2|]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 07
+T: Lady Catherine Bruce's Reel
+P: The Laird o' Cockpen
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Gm
+D|"Gm"G>AG B2"C7"B|"F"A>FF F2A|"Gm"G>AG g2g|"Dm"f<dd d2e|
+  "Bb"fBd fed|"Cm"c>d"C7"B "F"A2B/c/|"Gm"d>ed "D7"d2c|"Gm"B>GG [G2B,2]||
+d|"Gm"g2g g>a"C7"b|"F"a<ff f2a|"Gm"gBd g>ag|"Dm"f<dd d2d/e/|
+  "Bb"fBd "F"f>e"Gm"d|"Cm"c>d"C7"B "F"A2B/c/|"Gm"d>ed "D7"[d2^F2]c|\
+        "Gm"B<GG [G2B,2]|]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 08
+T: The Honeymoon
+P: Oh gin I were where Gadie rins
+C:Traditional
+R:Reel (8x32)
+B:RSCDS Gr-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:C
+|:A|"C"G2GA c2cd|e2e2e2 dc|"C+"e2e2e2 dc|"Dm"d2de "G7"edcA|
+    "C"G2GA c2cd|e2e2e2 dc|"G7"g2G2 [G2F2]AB|"C"[c6G6E6]:|
+|:a2|"C"g2e2e2 "A7"g2|"Dm"f2d2"G7"d2 gf|\
+         "C"e2c2"Em"e2g2|"Am"c'bc'e' "Dm"d'c'"G7"ba|
+     "C"g2e2e2 "A7"g2|"Dm"f2d2"G7"d2 gf|"C"e2c2 [e2c2]"G7"[g2B2]|"C"[c'6e6]:|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 09
+T: Mr Watson's Favourite
+%
+P: The Lass o' Gowrie
+C:Traditional
+R:Reel (8x32)
+B:RSCDS Graded 1 #9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/8
+K:C
+G/F/ |\
+"C"EG GA/B/ | c>d cB | "F"A>G Ac | "G"d>e dG/F/ |
+"C"EG GA/B/ | c>d "E7"e>d | "F"d/c/B/A/ "C"G/A/c/E/ | "G7"D2 "C"C ||
+g/f/ |\
+"C"eg ce/f/ | g/f/e/f/ "A7"gf/e/ | "Dm"fa df/g/ | a/g/f/g/ ag/f/ |
+"C"eg "G"d>e | "Am"c>A "G"G"F"a | "C"ge gf/e/ | "G7"d2 c |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10
+T: Mrs Cholmondeley's Reel
+P: The Lass o' Patie's Mill
+C:Traditional
+R:Reel (8x32)
+B:RSCDS Gr-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:C
+|:G>F|"C"E2DC E2G2|"Am"c3"G7"xd "C"e2zG|"F"A>BcB "Dm"AGFE|"G"E2D4 G>F|
+      "C"E2DC E2G2|"Am"c3d/e/ "C"G2zc|"F"ABcA "G"Bcde|"C"c6:|
+|:e2|"Dm"fedc "G7"cBAG|"C"c3d e2zG|"F"A>BcG "Dm"AGFE|"G"E2D4 ef|
+     "C"gefd ec"F"Af|"G"e2d4 "C7"E2|"F"F2 G>A "G7"G2 [B2F2D2]|"C"[c6E6]:|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11
+T: Here's a Health to Ane I Lo'e Dear
+C: Traditional
+B: RSCDS Graded 1 #11
+O: arr. T. Traub 6-23-2003
+R: Jig
+M: 6/8
+L: 1/8
+K: D
+f/e/ |\
+"D"d2 A "G"B>AF | "D"A3-Afe | "D"d2 A "G"Bgf | "A"e3-efe |\
+"D"d2 A "G"B>cd | "A"cBA d2 G | "D"FDF "A"ECE | "D"D3 z2 :|
+|: F |\
+"D"AAA BAF | "D"A3-A2 F | "D"AAA "G"Bgf | "A"e3-e2 A |\
+"D"ABA "G"Bcd | "A"cBA "Bm"d2 G | "D"FDF "A"ECE | "D"D3 z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11
+T: The Moray Reel
+%
+P: Here's a health to ane I lo'e dear
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:D
+f/e/|"D"d2A "G"B>AF|"D"A3-A2 f/e/|d2A "G"Bgf|"A"e3-e2fe|
+     "D"d2A "G"B>cd|"A"cBA "Bm"d2 A/G/|"D"F>DF "A7"E>CE|"D"D3 z2||
+F|"D"A>AA BAF|"D"A3-A2 F|A>AA "G"Bg"E7"f|"A"e3-e2 A|
+  "D"A>BA "G"Bcd|"A"c>BA "Bm"d2 A/G/|"D"F>DF "A7"E>CE|"D"D3 z2|]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 12
+T: Mrs Stewart Sinton's Reel
+%
+P: Pibroch o' Donuil Dhu
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+"G"d>BB "C"e>fg|"G"d>BB B2G|d>BB "C"e>fg|"G"d>BG "D7"A2G|
+"G"d>BB "C"e>cc|"G"d>BB B2G|"Am"A>AB c>de|"G"d>BG "D"A2"G"G||
+"G"d>BB "C"e>cc|"G"d<BB B2G|d<BB "C"e<cc|"G"dBG "D7"A2G|
+"G"d>BB "C"e<cc|"G"d>BB B>AG|"Am"A<AB c>de|"G"dBG "D7"A2"G"G|]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 13
+T: Miss Welsh's Reel
+P: The Campbells are comin'
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-13
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:F
+F|"F"Acd cAF|A2A A2G|Acd cAF|"C"G2G G2F|
+  "F"Acd cAF|"Dm"A>BA "F"f>ga|"Bb"fdf "F"cAF|A2A A2||
+c|"F"f2f f>ga|c>dc cAF|"Dm"f2f f>ga|"Bb"d2d d2c|
+  "F"c>de "Bb"f>ed|"F"c>de fga|"Bb"fdf "F"cAF|A2A A2|]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 14
+T: Berwick Johnnie
+P: He's o'er the hills that I lo'e dear
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-14
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+D|"G"DEG G2G|BAG "C"E2G|"G"DEG G<dB|"D7"BAG "G"G2E|
+  "G"DEG G2G|"G7"BAG E2e|"G"d2e dBG|"D7"BAG "G"G2||
+B|"G"d2"C"e "G"dBG|BAG "C"E2e|"G"d2"C"e "G"dBG|"D7"BAG "G"G2B|
+  "G"d2"C"e "G"dBG|"G"BAG "C"E2G|"G"DEG G<dB|"D7"BAG "G"G2|]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 15
+T: The Isle
+P: Bonnie Dundee
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-15
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+|:A/B/|"F"c>dc cdc|"Bb"fed "F"c2B|AcC AcC|"C7"G>GG G2A/B/|
+       "F"cdc cdc|"Bb"fed "F"c2 c/B/|A<cC "C7"G<cC|"F"F<FF F2:|
+|:C|"F"F>FF FBA|"C"GCC C2C|GGG GAB|"F"BAA A2F|
+    [AF]>G[AF] "C7"[BE]>A[BE]|"F"[cF]>B[cF] "Bb"[d2F2] c/B/|\
+          "F"AcC "C7"G<cC|"F"F<FF F2:|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 16
+T: Duff's House
+P: I lo'e nae laddie but ane
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-16
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+B/A/|"G"G>AG GBd|"C"e3-e2 f/g/|"G"d>BG GAB|"D"A3-A2 B/A/|
+     "G"G>AG GBd|"C"e3-e2 f/g/|"G"dgB "D7"A>GA|"G"G3-G2||
+d|"G"d>ef g>fg|"C"e3-e2 f/g/|"G"dBG GAB|"D"A3-A2 B/A/|
+  "G"G>AG GBd|"C"e3-e2 f/g/|"G"dgB "D7"A>GA|"G"G3-G2|]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 17
+T: Miss Betty Boyle
+%
+P: We're a' noddin'
+C:Traditional
+R:Reel (8x32)
+B:RSCDS Gr-17
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:G
+GA|"G"[B4D4] A2G2|"D"A2A2 BAGA|"G"[B4D4] [A2C2][G2B,2]|"D7"BAGF "G"G2 GA|
+   "G"[B4D4] A2G2|"D"A2A2 BAGA|"G"[B4D4] [A2C2][G2B,2]|"D7"BAGF "G"G2||
+dc|"G"B2Bc d2ge|d2d2d2 Bc|d2d2 "C"edcB|"Am"cB"A7"AG "D"F2 dc|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 17
+T: We're a' noddin'
+R: march
+B: RSCDS Graded 1 #17
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Original had repeat on 2nd part, but bars numbered for 2x16 bars.
+M: C
+L: 1/8
+%--------------------
+K: G
+[GB,][AC] \
+| "G"[B4D4] [A2C2][G2B,2] | "D7"[A2D2][A2D2] [BD4]AGA \
+| "G"[B4D4] [A2C2][G2B,2] | "C"BA"D7"GF "G"[G2D2] :|
+[BG][cA] \
+| "G"[d2B][d2B] [d2B]"C"[ge]>[ec] | "G"[d2B][d2B] [d2B][BG][cA] \
+| [d2B][d2B] "C"edcB | cB"A7"AG "D"F2 ||
+[dB][cA] \
+| "G"[B2G][BG][cA] [d2B]"C"[ge][ec] | "G"[d2B][d2B] [d2B][BG][cA] \
+| "G"[d2B2]"F"[d2A2] "E7"edcB | "Am"cBAG "D7"[A2F2C2] |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 17
+T: We're a' noddin'
+R: march
+B: RSCDS Graded 1 #17
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Original had repeat on 2nd part, but bars numbered for 2x16 bars.
+M: C
+L: 1/8
+%--------------------
+K: G
+[GB,][AC] \
+| "G"[B4D4] [A2C2][G2B,2] | "D7"[A2D2][A2D2] [BD4]AGA \
+| "G"[B4D4] [A2C2][G2B,2] | "C"BA"D7"GF "G"[G2D2] :|
+[BG][cA] \
+| "G"[d2B][d2B] [d2B]"C"[ge]>[ec] | "G"[d2B][d2B] [d2B][BG][cA] \
+| [d2B][d2B] "C"edcB | cB"A7"AG "D"F2 ||
+[dB][cA] \
+| "G"[B2G][BG][cA] [d2B]"C"[ge][ec] | "G"[d2B][d2B] [d2B][BG][cA] \
+| "G"[d2B2]"F"[d2A2] "E7"edcB | "Am"cBAG "D7"[A2F2C2] :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 18
+T: Wedderburn's Reel
+P: Duncan Gray
+C:Traditional
+R:Reel (8x32)
+B:RSCDS Gr-18
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/4
+K:A
+"A"EA "E7"[GD]"A"[AE]|"Bm"Bc "E"[G2E2]|"A"[A2E2] "E7"B>d|"A"[cE][AC][AC]z|
+"A"EA "E7"[GD]"A"[AE]|"Bm"Bc "E"[G2E2]|"A"[A2E2]"E7"B>d|"A"[cE][AC][AC]z||
+"A"ce ed/c/|"Bm"dd d2|dc "B7"BA|"E"G"B7"[BF] "E7"E2|
+"A"ef/e/ "E7"d"A"c|"Bm"B/c/d/B/ "E7"G2|"A"[A2E2]"E7"B>d|"A"[cE][AC][AC]z|]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 19
+T: Kitty Campbell's Reel
+P: Old Rosin the Beau
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-19
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:A
+|:E|"A"A>GA c>BA|[e3c3A3] "D"[f3d3A3]|"A"e>cA A>Bc|"D"F3-F2 E|
+    "A"A>GA c>BA|[e3c3A3] "D"[f3d3A3]|"A"e>cA "E7"BAG|"A"A3-A2:|
+|:c/d/|"A"e2e "E"efg|"D"a2f a2f|"A"e>cA A>Bc|"D"F3-F2 E|
+       "A"A>GA c>BA|[e3c3A3] "D"[f3d3A3]|"A"e>cA "E7"BAG|"A"A3-A2:|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 20
+T: Tarry a While
+P: Tarry a While
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-20
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Bb
+F|"Bb"B>cB F2D|F2F F2d|"Cm"e>fe "Bb"dcB|"C7"d3 "F7"c2F|
+  "Bb"B>cB F2D|F2F Fde|"Bb"fdB "F7"c2d|"Bb"B3 B2||
+e|"Bb"d2f fed|"Cm"e2g cde|"Bb"d>cB "C7"BAB|"F"d>cA F2e|
+  "Bb"d2f fed|"Cm"efg "F7"cde|"Bb"dcB "C7"BAB|"Bb"[d3B3F3] "F"[c3A3F3]|]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21
+T: Regent's Favourite
+P: Willie Brewed a Peck o' Maut
+C:Traditional
+R:Reel (8x32)
+B:RSCDS Gr-21
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:Eb
+GA|"Eb"B2e2 "Ab"cBAG|"Fm"c2f2 "Bb"edcB|"Eb"e3c B2G2|"Ab"c2"F7"F2 "Bb"F2GA|
+   "Eb"B2e2 "Ab"cBAG|"Fm"c2f2 "Bb"edcB|"Eb"e3c "Bb"B2G2|"Eb"B2"Ab"E2"Eb"E2||
+ef|"Eb"g3e "Bb"f3d|"Eb"edcB e3G|"Fm"A3c "Eb"B2G2|"Ab"c2"F7"F2 "Bb"F2 ef|
+   "Eb"g3e "Bb"f3d|"Eb"edcB "Eb7"e3G|"Ab"A3c "Bb7"B3A|"Eb"G2"Ab"E2"Eb"E2|]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 22
+T: Kendall's Hornpipe
+P: Ower the Water
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-22
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:D
+"D"D2A AFA | "G"B/c/dF "D"E2D | DFA AFA | "G"BAB "D"def |
+"D"DFA AFA | "G"Bcd "D"AFD | "Bm"dfd "A"ecA | "G"[B3G3] "D"[d3F3] ||
+"D"dfd "A"ecA | "D"d2F "A"E2 "D"D | "D"dfd "A"ecA | "G"B3 "D"d2A |
+"D"dfd "A"ecA | "D"d2F "A"E2 "D"D | "D"D2A "F#m"AFA | "G"[B3G3D3] "D"[d3A3F3] |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 23
+T: Argyll's Fancy
+P: Argyll is my Name
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-23
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Bb
+F|"Bb"F>BB BAB|"Cm"dcc "F7"c2e|"Bb"d>cB "F"A<fF|"F7"FG[AE] "Bb"[B2D2] F|
+  "Bb"F>BB BAB|"Cm"dcc "F7"c2e|"Bb"d>cB d<fF|"F7"FG[AE] "Bb"[B2D2]||
+f|"Bb"fdB Bdf|fed "Cm"e2g|"Bb"fdB Bdf|"Cm"fe"C7"d "F"c2 d|
+  "Cm"e>fe "F"e>fe|"F"F>GF "F7"e2f/e/|"Bb"d>cB d<fF|"F7"FG[AE] "Bb"[B2D2]|]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 24
+T: Miss Flora's Favourite
+P: Miss Flora's Favourite
+C:Traditional
+R:Reel (8x32)
+B:RSCDS Gr-24
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:C
+f|"C"e<ccc c2ec|"F"fe"D7"dc "G"Bagf|"C"e<ccc "F"c2"D7"ac|"G7"BGAB "C"c3 f|
+  "C"e<ccc c2ec|"F"fe"D7"dc "G"Bagf|"C"e<ccc "F"c2"D7"ac|"G7"BGAB "C"c3||
+F|"C"EFGE "F"FGAc|"G"BcdB "C"cdef|"C"efge "F"af"D7"dc|"G7"BGAB "C"c2zF|
+  "C"EFGE "F"FcAc|"G7"BcdB "C"cgeg|"Am"aA"A7"ag "Dm"fedc|"G7"BGAB "C"c3|]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Flora's Favourite
+R: reel
+B: RSCDS __-24
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: C
+|: f \
+| "C"e<c cc c2ec | "F"fe"(D/F)"dc "G7"Bagf | "C"e<c cc "D7"c2ac | "G7"BGAB "C"c3 :|
+|| F \
+| "C"EFGE "F"FGAc | "G7"BcdB "C"cdef | efge "F"af"(D7)"dc | "G7"BGAB "C"c2z ||
+|| F \
+| "C7"EFGE "F"FcAc | "G7"BcdB | "C"cgeg | "A7"aAag "Dm"fedc | "G7"BGAB "C"c2z |]
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: John Grumlie
+O: Trad
+B: RSCDS Graded 1 #02
+B: RSCDS Originally Ours p.145
+R: jig
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+F \
+| "Bb"D2F "F7"F2G | "Gm"F2G "F7"B2B/c/ | "Bb"d2B "G7"e2d | "C7"d3 "F"c2F \
+| "Bb"D2F "F7"F2G | "Bb"FGA "Eb"B2c    | "Bb"d2f "F7"edc | "Bb"B3- B2 ||
+|: B/c/ \
+| "Bb"d2d "Gm"B2B | "Cm"e3 "F7"c2c | "Bb"d2B "G7"e2d | "C7"d3 "F"c2F \
+| "Bb"D2F "F7"F2G | "Bb"F3 "Eb"e2e | "Bb"d2f "F7"edc | "Bb"B3- B2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Lass o' Gowrie
+T: The Lakes of Sligo
+R:march
+B:RSCDS Graded 1 #9
+B:RSCDS Originally Ours p.146
+B:Kerr, Merrie Melodies v.3 p.24 #377
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C|
+L:1/8
+K:C
+[GE][FD] \
+| "C"[E2C2][G2E2] [G2E2][AF][BD] | [c3E3][dF] [c2E2][B2G2] \
+| "F"A3G A2c2 | "G"d3e d2 GF \
+| "C"E2G2 G2[AF]B | "Am"[c3E3][dF] [e3G4]d \
+| "F"cBAG "C"c2E2 | "G7"D4 "C"C2 ||
+gf \
+| "C"e2g2 c3d | edef "(A7)"g2fe \
+| "Dm"f2a2 d3e | fefg "G7"a2gf \
+| "C"e2g2 "G7"d3e | "Am"cBcd e3d \
+| "F"cBAG "C"c2E2 | "G7"D4 "C"C2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Lass o' Gowrie
+T: The Lakes of Sligo
+R:march
+B:RSCDS Graded 1 #9
+B:RSCDS Originally Ours p.146
+B:Kerr, Merrie Melodies v.3 p.24 #377
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:2/4
+L:1/8
+K:C
+G/F/ \
+| "C"EG GB | c>d cB \
+| "F"A>G Ac | "G"d>e dG/F/ \
+| "C"EG GB | "Am"c>d ed \
+| "F"cA "C"Ge | "G7"d2 "C"c |]
+c/d/ \
+| "C"eg cd | e>f "(A7)"gf/e/ \
+| "Dm"fa de | "G7"f>g ag/f/ \
+| "C"eg "G7"de | "Am"c>d ed \
+| "F"cA "C"Ge | "G7"d2 "C"c |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Lass o' Gowrie
+T: The Lakes of Sligo
+R:march
+B:RSCDS Graded 1 #9
+B:RSCDS Originally Ours p.146
+B:Kerr, Merrie Melodies v.3 p.24 #377
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C|
+L:1/8
+K:D
+[AF][GE] \
+| "D"[F2D2][A2F2] [A2F2][BG][cE] | [d3F3][eG] [d2F2][c2A2] \
+| "G"B3A B2d2 | "A"e3f e2 AG \
+| "D"F2A2 A2[BG]c | "Bm"[d3F3][eG] [f3A4]e \
+| "G"dcBA "D"d2F2 | "A7"E4 "D"D2 |]
+ag \
+| "D"f2a2 d3e | fefg "(B7)"a2gf \
+| "Em"g2b2 e3f | gfga "A7"b2ag \
+| "D"f2a2 "A7"e3f | "Bm"dcde f3e \
+| "G"dcBA "D"d2F2 | "A7"E4 "D"D2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Lass o' Gowrie
+T: The Lakes of Sligo
+R:march
+B:RSCDS Graded 1 #9
+B:RSCDS Originally Ours p.146
+B:Kerr, Merrie Melodies v.3 p.24 #377
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:2/4
+L:1/8
+K:D
+A/G/ \
+| "D"FA Ac | d>e dc \
+| "G"B>A Bd | "A"e>f eA/G/ \
+| "D"FA Ac | "Bm"d>e fe \
+| "G"dB "D"Af | "A7"e2 "D"d |]
+d/e/ \
+| "D"fa de | f>g "(B7)"ag/f/ \
+| "Em"gb ef | "A7"g>a ba/g/ \
+| "D"fa "A7"ef | "Bm"d>e fe \
+| "G"dB "D"Af | "A7"e2 "D"d |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11
+T: Here's a Health to Ane I Lo'e Dear
+C: Traditional
+B: RSCDS Graded 1 #11
+O: arr. T. Traub 6-23-2003
+R: Jig
+M: 6/8
+L: 1/8
+K: D
+f/e/ |\
+"D"d2 A "G"B>AF | "D"A3-Afe | "D"d2 A "G"Bgf | "A"e3-efe |\
+"D"d2 A "G"B>cd | "A"cBA d2 G | "D"FDF "A"ECE | "D"D3 z2 :|
+|: F |\
+"D"AAA BAF | "D"A3-A2 F | "D"AAA "G"Bgf | "A"e3-e2 A |\
+"D"ABA "G"Bcd | "A"cBA "Bm"d2 G | "D"FDF "A"ECE | "D"D3 z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 114
+T: He's O'er the Hills That I Lo'e Dear [2x]
+N: Berwick Johnnie
+B: RSCDS Graded 1 #14
+C: arr. T. Traub, 2-26-2004
+L: 1/8
+M: 6/8
+%--------------------
+K: G
+D | "G"DEG G2 G | "G"BAG "C"E2 G | "G"DEG G<dB | "D"BAG "G"G2 E | "G"DEG G2 G |
+"Em"BAG "C"E2 e | "G"d2 e "Em"dBG | "D"BAG "G"G2 || B | "G"d2 e dBG | "G"BAG "C"E2 e |
+"G"d2 e dBG | "D"BAG "G"G2 B | "Bm"d2 e "Em"dBG | "G"BAG "C"E2 G | "G"DEG G<dB | "D"BAG "G"G2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: He's o'er the hills that I lo'e dear
+R: jig
+B: RSCDS Graded 1 #14
+Z: John Chambers <jc:trillian.mit.edu>
+B: RSCDS Graded #14
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+E \
+| "G"DEG G2G | BAG "C"E2G | "G"DEG G<dB | "D7"BAG "G"G2E \
+| "G"DEG G2G | BAG "C"E2e | "G"d2e dBG | "D7"BAG "G"G2 :|
+|: B \
+| "G"d2e dBG |  BAG "C"E2e | "G"d2e dBG | "D7"BAG "G"G2B \
+| "G"d2e dBG |  BAG "C"E2G | "G"DEG G<dB | "D7"BAG "G"G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 121
+T: Pibroch o' Donuil Dhu
+R: jig
+B: RSCDS Graded 1 #12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+G \
+| "G"d>BB "(C)"efg | "G"d>BB B2G \
+| d>BB "(C)"efg | "G"d>BG "D7"A2"G"G \
+| "G"d>BB "C"e>cc | "G"d>BB B2G \
+| "Am"A>AB cde | "G"dBG "D7"A2 :|
+|: G \
+|  "G"d>BB "C"e>cc | "G"dBB B2G \
+| "G"d>BB "C"e>cc | "G"dBG "D7"A2"G"G \
+| "G"d>BB "C"e>cc | "G"d>BB BAG \
+| "Am"A2B cde | "G"dBG "D7"A2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 121
+T: Willie brewed a peck o' maut
+R: reel
+B: RSCDS Graded 1 #21
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%
+K: Eb
+GA \
+| "Eb"B2e2 cBAG | "Fm"c2f2 edcB | "Eb"e3c B2G2 | "F7"c2F2 "Bb7"F2GA \
+| "Eb"B2e2 cBAG | "Fm"c2f2 edcB | "Eb"e3c B2G2 | "Bb7"B2E2 "Eb"E2 ||
+ef \
+| "Eb"g3e "Bb7"f3d | "Eb"edcB [e3G3]G | "Ab"A3c "Eb"B2G2 | "F7"c2F2 "Bb7"F2ef \
+| "Eb"g3e "Bb7"f3d | "Eb"edcB [e3G3]G | "Ab"A3c "Bb7"B3A | "Eb"G2E2 E2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 121
+T: Willie brewed a peck o' maut
+R: reel
+B: RSCDS Graded 1 #21
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%
+K: Eb
+GA \
+| "Eb"B2e2 cBAG | "Fm"c2f2 edcB | "Eb"e3c B2G2 | "F7"c2F2 "Bb7"F2GA \
+| "Eb"B2e2 cBAG | "Fm"c2f2 edcB | "Eb"e3c B2G2 | "Bb7"B2E2 "Eb"E2 :|
+|: ef \
+| "Eb"g3e "Bb7"f3d | "Eb"edcB [e3G3]G | "Ab"A3c "Eb"B2G2 | "F7"c2F2 "Bb7"F2ef \
+| "Eb"g3e "Bb7"f3d | "Eb"edcB [e3G3]G | "Ab"A3c "Bb7"B3A | "Eb"G2E2 E2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 121
+T: Willie brewed a peck o' maut
+R: reel
+B: RSCDS Graded 1 #21
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%
+K: F
+AB \
+| "F"c2f2 dcBA | "Gm"d2g2 fedc | "F"f3d c2A2 | "G7"d2G2 "C7"G2AB \
+| "F"c2f2 dcBA | "Gm"d2g2 fedc | "F"f3d c2A2 | "C7"c2F2 "F"F2 :|
+|: fg \
+| "F"a3f "C7"g3e | "F"fedc [f3A3]A | "Bb"B3d "F"c2A2 | "G7"d2G2 "C7"G2fg \
+| "F"a3f "C7"g3e | "F"fedc [f3A3]A | "Bb"B3d "C7"c3B | "F"A2F2 F2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 121
+T: Willie brewed a peck o' maut
+R: reel
+B: RSCDS Graded 1 #21
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%
+K: G
+Bc \
+| "G"d2g2 "(Em)"edcB | "Am"e2a2 "D7"gfed | "G"g3e "(Em)"d2B2 | "A(m)"e2A2 "D7"A2Bc \
+| "G"d2g2 "(Em)"edcB | "Am"e2a2 "D7"gfed | "G"g3e "(Em)"d2B2 | "D7"d2G2 "G"G2 :|
+|: ga \
+| "G"b2-bg "D7"a2-af | "G"gfed "(Em)"[g3B3]B | "C"c2-ce "G"d2B2 | "A(m)"e2A2 "D7"A2ga \
+| "G"b2-bg "D7"a2-af | "G"gfed "(Em)"[g3B3]B | "C"c2-ce "D7"d3c | "G"B2G2 G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: He's o'er the hills that I lo'e dear
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+B: RSCDS Graded #14
+M: 6/8
+L: 1/8
+K: G
+E \
+| "G"DEG G2G | BAG "C"E2G | "G"DEG G<dB | "D7"BAG "G"G2E \
+| "G"DEG G2G | BAG "C"E2e | "G"d2e dBG | "D7"BAG "G"G2 :|
+|: B \
+| "G"d2e dBG |  BAG "C"E2e | "G"d2e dBG | "D7"BAG "G"G2B \
+| "G"d2e dBG |  BAG "C"E2G | "G"DEG G<dB | "D7"BAG "G"G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 141
+T: He's O'er the Hills That I Lo'e Dear
+R: jig
+B: RSCDS Graded 1 #14
+N: Suggested tune for Berwick Johnnie
+Z: arr. T. Traub, 2-26-2004
+M: 6/8
+L: 1/8
+K: G
+D |\
+"G"DEG G2 G | "G"BAG "C"E2 G | "G"DEG G<dB | "D"BAG "G"G2 E |\
+"G"DEG G2 G | "Em"BAG "C"E2 e | "G"d2 e "Em"dBG | "D"BAG "G"G2 ||
+B |\
+"G"d2 e dBG | "G"BAG "C"E2 e | "G"d2 e dBG | "D"BAG "G"G2 B |\
+"Bm"d2 e "Em"dBG | "G"BAG "C"E2 G | "G"DEG G<dB | "D"BAG "G"G2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 141
+T: He's O'er the Hills That I Lo'e Dear
+R: jig
+B: RSCDS Graded 1 #14
+N: Suggested tune for Berwick Johnnie
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+E \
+| "G"DEG G2G | BAG "C"E2G | "G"DEG G<dB | "D7"BAG "G"G2E \
+| "G"DEG G2G | BAG "C"E2e | "G"d2e dBG | "D7"BAG "G"G2 :|
+|: B \
+| "G"d2e dBG |  BAG "C"E2e | "G"d2e dBG | "D7"BAG "G"G2B \
+| "G"d2e dBG |  BAG "C"E2G | "G"DEG G<dB | "D7"BAG "G"G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 151
+T: Bonnie Dundee
+R: jig
+B: RSCDS Graded 1 #15
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+B/c/ \
+| "G"d>ed dBd | "C"gfe "D7"d2c | "G"BdD BdD | "D7"A2A ABc \
+| "G"d>ed dBd | "C"gfe "D7"d2c | "G"(B<d)D "D7"(A<d)D | "G"G>AG G2 :|
+| : D \
+| "G"G2G GcB | "D7"ADD D2D | A2A ABc | "G"cBB B2G \
+| "G"B>AB "D7"cBc | "G"dcd "C"edc | "G"(B<d)D "D7"(A<d)D | "G"G>AG G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 151
+T: Bonnie Dundee
+R: jig
+B: RSCDS Graded 1 #15
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+A/B/ \
+| "F"cdc cAc | "Bb"fed "C7"c2B | "F"AcC AcC | "C7"G2G GAB \
+| "F"cdc cAc | "Bb"fed "C7"c2B | "F"A<cC "C7"G<cC | "F"FGF F2 :|
+|: C \
+| "F"F2F FBA | "C7"GCC C2C | G2G GAB | "F"BAA A2F \
+| "F"AGA "C7"BAB | "F"cBc "Bb"dcB | "F"A<cC "C7"G<cC | "F"FGF F2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Aitken Drum
+B: RSCDS Graded
+O: Gow 1800
+Z: John Chambers <jc:trillian.mit.edu>Scotland
+M: C
+L: 1/8
+K: G
+[GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "(Em)"[E2C] [G2E] | "Am"[B2G] [A2F] "D7"[A2F] [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "D7"[E2C] [F2C] | "G"[G6B,] :|
+|: [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] \
+| "C"[c4E] [e2G] [c2E] | "G"[B2D] [d2G] "(Em)"[B2D] [G2E] | "Am"[B2G] [A2F] "D7"[A2F] [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "D7"[E2C] [F2C] | "G"[G6B,] :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Aitken Drum
+B: RSCDS Graded
+O: Gow 1800
+Z: John Chambers <jc:trillian.mit.edu>Scotland
+M: C
+L: 1/8
+K: G
+[GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "(Em)"[E2C] [G2E] | "Am"[B2G] [A2F] "D7"[A2F] [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "D7"[E2C] [F2C] | "G"[G6B,] :|
+|: [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] \
+| "C"[c4E] [e2G] [c2E] | "G"[B2D] [d2G] "(Em)"[B2D] [G2E] | "Am"[B2G] [A2F] "D7"[A2F] [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "D7"[E2C] [F2C] | "G"[G6B,] :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Aitken Drum
+B: RSCDS Graded
+Z: John Chambers <jc:trillian.mit.edu>Scotland
+M: C
+L: 1/8
+K: G
+[GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "(Em)"[E2C] [G2E] | "Am"[B2G] [A2F] "D7"[A2F] [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "D7"[E2C] [F2C] | "G"[G6B,] ||
+|| [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] \
+| "C"[c4E] [e2G] [c2E] | "G"[B2D] [d2G] "(Em)"[B2D] [G2E] | "Am"[B2G] [A2F] "D7"[A2F] [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "D7"[E2C] [F2C] | "G"[G6B,] |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Aitken Drum
+B: RSCDS Graded
+Z: John Chambers <jc:trillian.mit.edu>Scotland
+M: C
+L: 1/8
+K: G
+[GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "(Em)"[E2C] [G2E] | "Am"[B2G] [A2F] "D7"[A2F] [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "D7"[E2C] [F2C] | "G"[G6B,] ||
+|| [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] \
+| "C"[c4E] [e2G] [c2E] | "G"[B2D] [d2G] "(Em)"[B2D] [G2E] | "Am"[B2G] [A2F] "D7"[A2F] [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "D7"[E2C] [F2C] | "G"[G6B,] |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Aitken Drum
+B: RSCDS Graded
+Z: John Chambers <jc:trillian.mit.edu>Scotland
+M: C
+L: 1/8
+K: G
+[GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "(Em)"[E2C] [G2E] | "Am"[B2G] [A2F] "D7"[A2F] [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "D7"[E2C] [F2C] | "G"[G6B,] ||
+|| [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] \
+| "C"[c4E] [e2G] [c2E] | "G"[B2D] [d2G] "(Em)"[B2D] [G2E] | "Am"[B2G] [A2F] "D7"[A2F] [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "D7"[E2C] [F2C] | "G"[G6B,] |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Aitken Drum
+B: RSCDS Graded
+Z: John Chambers <jc:trillian.mit.edu>Scotland
+M: C
+L: 1/8
+K: G
+[GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "(Em)"[E2C] [G2E] | "Am"[B2G] [A2F] "D7"[A2F] [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "D7"[E2C] [F2C] | "G"[G6B,] ||
+|| [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] \
+| "C"[c4E] [e2G] [c2E] | "G"[B2D] [d2G] "(Em)"[B2D] [G2E] | "Am"[B2G] [A2F] "D7"[A2F] [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "D7"[E2C] [F2C] | "G"[G6B,] |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Boatie Rows
+B: RSCDS Graded
+S: handwritten MS by Barbara McOwen
+R: march, air
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+G2 \
+| "G"B2d2 d3e | "G"d2g2 "C"agfe | "G"d2B2 "Em"A3G | "Am"B2A2 "D"A2G2 \
+| "G"B2d2 d3e | "G"d2g2 "C"agfe | "G"d2B2 "D7"A3B | "G"G4 G2 :|
+|: d2 \
+| "G"g2d2 d2ef | "G"g2d2 d2g2 | "C"e3d e2g2 | "Am"a4 "D"a2f2 \
+| "G"g2b2 "C"e2g2 | "G"d3g d2B2 | "Am"A3G "D7"A2B2 | "G"G4 G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Boatie Rows
+B: RSCDS Graded
+S: handwritten MS by Barbara McOwen
+R: march, air
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+G2 \
+| "G"B2d2 d3e | "G"d2g2 "C"agfe | "G"d2B2 "Em"A3G | "Am"B2A2 "D"A2G2 \
+| "G"B2d2 d3e | "G"d2g2 "C"agfe | "G"d2B2 "D7"A3B | "G"G4 G2 :|
+|: d2 \
+| "G"g2d2 d2ef | "G"g2d2 d2g2 | "C"e3d e2g2 | "Am"a4 "D"a2f2 \
+| "G"g2b2 "C"e2g2 | "G"d3g d2B2 | "Am"A3G "D7"A2B2 | "G"G4 G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Duncan Gray
+B: CDS Graded No.18
+R: March
+M: C
+L: 1/4
+K: A
+[|\
+"A"EA GA | "E7"Bc G2 | "A"A2 "E7"B>d | "A"cA A2 |\
+"A"EA GA | "E7"Bc G2 | "A"A2 "E7"B>d | "A"cA A2 |]
+[|\
+"A"ce  ed/c/ | "Bm"dd dB/c/ | d>c "B7"BA | "E7"GF E2 |\
+"A"ec "E7"dB | "A"cA "E7"B2 | "A"A2 "E7"B>d | "A"cA A2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Duncan Gray
+B: CDS Graded No.18
+R: March
+M: C
+L: 1/4
+K: A
+[|\
+"A"EA GA | "E7"Bc G2 | "A"A2 "E7"B>d | "A"cA A2 |\
+"A"EA GA | "E7"Bc G2 | "A"A2 "E7"B>d | "A"cA A2 |]
+[|\
+"A"ce  ed/c/ | "Bm"dd dB/c/ | d>c "B7"BA | "E7"GF E2 |\
+"A"ec "E7"dB | "A"cA "E7"B2 | "A"A2 "E7"B>d | "A"cA A2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Duncan Gray
+B: CDS Graded No.18
+R: March
+M: C
+L: 1/4
+K: G
+[| "G"DG FG | "D7"AB F2 | "G"G2 "D7"A>c | "G"BG G2 \
+|  "G"DG FG | "D7"AB F2 | "G"G2 "D7"A>c | "G"BG G2 |]
+[| "G"Bd  dc/B/ | "Am"cc cA/B/ | c>B "A7"AG | "D7"FE D2 \
+|  "G"dB "D7"cA | "G"BG "D7"A2 | "G"G2 "D7"A>c | "G"BG G2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Duncan Gray   [A]
+B: CDS Graded No.18
+R: March
+M: C
+L: 1/4
+K: A
+|: "A"EA GA | "E7"Bc G2 | "A"A2 "E7"B>d | "A"cA A2 :|
+[| "A"ce  ed/c/ | "Bm"dd dB/c/ | d>c "B7"BA | "E7"GF E2 ||
+|| "A"ec "E7"dB | "A"cA "E7"B2 | "A"A2 "E7"B>d | "A"cA A2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Galway Hornpipe
+O: Trad
+R: hornpipe, reel
+B: RSCDS Graded
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A2 \
+| "D"D2FA dAFD | "A7"CDEF G2FE | "D"D2FA dcdf | "E7"edcB "A7"AGFE |
+| "D"D2FA dAFD | "A7"CDEF G2FG | "D"AdcB "A7"AGFE | "D"D2F2 D2 ||
+|| de \
+| "D"fefg fedc | "Em"B^ABc B2cd | "E7"e^def e=dcB | "A"~A2ce aABc |
+| "D"dcde fdAF | "Em"GFGA BdcB | "D"AdcB "A7"Agec | "D"d2f2 d2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Galway Hornpipe
+O: Trad
+R: hornpipe, reel
+B: RSCDS Graded
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A2 \
+| "D"D2FA dAFD | "A7"CDEF G2FE | "D"D2FA dcdf | "E7"edcB "A7"AGFE |
+| "D"D2FA dAFD | "A7"CDEF G2FG | "D"AdcB "A7"AGFE | "D"D2F2 D2 ||
+|| de \
+| "D"fefg fedc | "Em"B^ABc B2cd | "E7"e^def e=dcB | "A"~A2ce aABc |
+| "D"dcde fdAF | "Em"GFGA BdcB | "D"AdcB "A7"Agec | "D"d2f2 d2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Aitken Drum
+C:for Galloway House 8x32R
+R:reel
+B:RSCDS Graded
+B: Angus Macleod (the Scottish National Dance Company)
+M:4/4
+%
+K:G
+L: 1/8
+GA| "G"B2 B2 B2 AG | "C"E4 G3 E| D2 D2 E2 G2| "A"B2 A2 "D"A2 GA \
+  | "G"B2 B2 "G7"B2 AG | "C"E4 G3 E| "D"D2 D2 E2 F2| "G"G6||
+GA| "G"B2 B2 B2 AG | "C"c4 e2 c2| "G"B2 d2 "Em"B2 G2 | "A"B2 A2 "D"A2 GA \
+  | "G"B2 B2 "G7"B2 AG | "C"E4 G3 E| "D"D2 D2 E2 F2| "G"G6|]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Aitken Drum
+C: for Galloway House 8x32R
+R: reel
+B: RSCDS Graded
+B: Angus Macleod (the Scottish National Dance Company)
+M: 4/4
+%
+K: G
+L: 1/8
+GA| "G"B2 B2 B2 AG | "C"E4 G3 E| D2 D2 E2 G2| "A"B2 A2 "D"A2 GA \
+  | "G"B2 B2 "G7"B2 AG | "C"E4 G3 E| "D"D2 D2 E2 F2| "G"G6||
+GA| "G"B2 B2 B2 AG | "C"c4 e2 c2| "G"B2 d2 "Em"B2 G2 | "A"B2 A2 "D"A2 GA \
+  | "G"B2 B2 "G7"B2 AG | "C"E4 G3 E| "D"D2 D2 E2 F2| "G"G6|]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Aitken Drum (transpos, The
+R:Reel
+S:8 x 32 Reel 1,2,3,4  2,3,4,1
+B:RSCDS Graded
+B: Angus Macleod (the Scottish National Dance Company)
+M:4/4
+L:1/8
+%
+K:G
+|:"G"B2 B2 B2 AG | "C"E4         G3E   |\
+"G"D2 D2 E2 G2 | "Am"B2 A2 "D7"A2 GA |!
+"G"B2 B2 B2 AG | "C"E4         G3E   |\
+"D7"D2 D2 E2 F2 | "G"G6         GA   :|!
+|: \
+"G"B2 B2 B2 AG | "C"c4         e2 c2 |\
+"G"B2 d2  B2 G2 | "Am"B2 A2 "D7"A2 GA |!
+"G"B2 B2 B2 AG | "C"E4         G3E   |\
+"D7"D2 D2 E2 F2 |1 "G"G6         GA   :|2 "G"G6  z2  ||
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Aitken Drum
+B: RSCDS Graded
+Z: John Chambers <jc:trillian.mit.edu>Scotland
+M: C
+L: 1/8
+%
+K: G
+[GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "(Em)"[E2C] [G2E] | "Am"[B2G] [A2F] "D7"[A2F] [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "D7"[E2C] [F2C] | "G"[G6B,] ||
+|| [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] \
+| "C"[c4E] [e2G] [c2E] | "G"[B2D] [d2G] "(Em)"[B2D] [G2E] | "Am"[B2G] [A2F] "D7"[A2F] [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "D7"[E2C] [F2C] | "G"[G6B,] |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Aitken Drum
+B: RSCDS Graded
+B: Angus Macleod (the Scottish National Dance Company)
+Z: John Chambers <jc:trillian.mit.edu>Scotland
+M: C
+L: 1/8
+%
+K: G
+[GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "(Em)"[E2C] [G2E] | "Am"[B2G] [A2F] "D7"[A2F] [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "D7"[E2C] [F2C] | "G"[G6B,] ||
+|| [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] \
+| "C"[c4E] [e2G] [c2E] | "G"[B2D] [d2G] "(Em)"[B2D] [G2E] | "Am"[B2G] [A2F] "D7"[A2F] [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "D7"[E2C] [F2C] | "G"[G6B,] |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Aitken Drum
+B: RSCDS Graded
+B: Angus Macleod (the Scottish National Dance Company)
+Z: John Chambers <jc:trillian.mit.edu>Scotland
+M: C
+L: 1/8
+%
+K: G
+[GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "(Em)"[E2C] [G2E] | "Am"[B2G] [A2F] "D7"[A2F] [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "D7"[E2C] [F2C] | "G"[G6B,] :|
+|: [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] \
+| "C"[c4E] [e2G] [c2E] | "G"[B2D] [d2G] "(Em)"[B2D] [G2E] | "Am"[B2G] [A2F] "D7"[A2F] [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "D7"[E2C] [F2C] | "G"[G6B,] :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 141
+T: He's O'er the Hills That I Lo'e Dear
+R: jig
+B: RSCDS Graded 1 #14
+N: Suggested tune for Berwick Johnnie
+Z: arr. T. Traub, 2-26-2004
+M: 6/8
+L: 1/8
+K: G
+D |\
+"G"DEG G2 G | "G"BAG "C"E2 G | "G"DEG G<dB | "D"BAG "G"G2 E |\
+"G"DEG G2 G | "Em"BAG "C"E2 e | "G"d2 e "Em"dBG | "D"BAG "G"G2 ||
+B |\
+"G"d2 e dBG | "G"BAG "C"E2 e | "G"d2 e dBG | "D"BAG "G"G2 B |\
+"Bm"d2 e "Em"dBG | "G"BAG "C"E2 G | "G"DEG G<dB | "D"BAG "G"G2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 141
+T: He's O'er the Hills That I Lo'e Dear
+R: jig
+B: RSCDS Graded 1 #14
+N: Suggested tune for Berwick Johnnie
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+E \
+| "G"DEG G2G | BAG "C"E2G | "G"DEG G<dB | "D7"BAG "G"G2E \
+| "G"DEG G2G | BAG "C"E2e | "G"d2e dBG | "D7"BAG "G"G2 :|
+|: B \
+| "G"d2e dBG |  BAG "C"E2e | "G"d2e dBG | "D7"BAG "G"G2B \
+| "G"d2e dBG |  BAG "C"E2G | "G"DEG G<dB | "D7"BAG "G"G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 17
+T: We're a' noddin'
+R: march
+B: RSCDS Graded 1 #17
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Original had repeat on 2nd part, but bars numbered for 2x16 bars.
+M: C
+L: 1/8
+%
+K: G
+[GB,][AC] \
+| "G"[B4D4] [A2C2][G2B,2] | "D7"[A2D2][A2D2] [BD4]AGA \
+| "G"[B4D4] [A2C2][G2B,2] | "C"BA"D7"GF "G"[G2D2] :|
+[BG][cA] \
+| "G"[d2B][d2B] [d2B]"C"[ge]>[ec] | "G"[d2B][d2B] [d2B][BG][cA] \
+| [d2B][d2B] "C"edcB | cB"A7"AG "D"F2 ||
+[dB][cA] \
+| "G"[B2G][BG][cA] [d2B]"C"[ge][ec] | "G"[d2B][d2B] [d2B][BG][cA] \
+| "G"[d2B2]"F"[d2A2] "E7"edcB | "Am"cBAG "D7"[A2F2C2] |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 17
+T: We're a' noddin'
+R: march
+B: RSCDS Graded 1 #17
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Original had repeat on 2nd part, but bars numbered for 2x16 bars.
+M: C
+L: 1/8
+%
+K: G
+[GB,][AC] \
+| "G"[B4D4] [A2C2][G2B,2] | "D7"[A2D2][A2D2] [BD4]AGA \
+| "G"[B4D4] [A2C2][G2B,2] | "C"BA"D7"GF "G"[G2D2] :|
+[BG][cA] \
+| "G"[d2B][d2B] [d2B]"C"[ge]>[ec] | "G"[d2B][d2B] [d2B][BG][cA] \
+| [d2B][d2B] "C"edcB | cB"A7"AG "D"F2 ||
+[dB][cA] \
+| "G"[B2G][BG][cA] [d2B]"C"[ge][ec] | "G"[d2B][d2B] [d2B][BG][cA] \
+| "G"[d2B2]"F"[d2A2] "E7"edcB | "Am"cBAG "D7"[A2F2C2] :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 121
+T: Willie brewed a peck o' maut
+R: reel
+B: RSCDS Graded 1 #21
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%
+K: Eb
+GA \
+| "Eb"B2e2 cBAG | "Fm"c2f2 edcB | "Eb"e3c B2G2 | "F7"c2F2 "Bb7"F2GA \
+| "Eb"B2e2 cBAG | "Fm"c2f2 edcB | "Eb"e3c B2G2 | "Bb7"B2E2 "Eb"E2 :|
+|: ef \
+| "Eb"g3e "Bb7"f3d | "Eb"edcB [e3G3]G | "Ab"A3c "Eb"B2G2 | "F7"c2F2 "Bb7"F2ef \
+| "Eb"g3e "Bb7"f3d | "Eb"edcB [e3G3]G | "Ab"A3c "Bb7"B3A | "Eb"G2E2 E2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 121
+T: Willie brewed a peck o' maut
+R: reel
+B: RSCDS Graded 1 #21
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%
+K: F
+AB \
+| "F"c2f2 dcBA | "Gm"d2g2 fedc | "F"f3d c2A2 | "G7"d2G2 "C7"G2AB \
+| "F"c2f2 dcBA | "Gm"d2g2 fedc | "F"f3d c2A2 | "C7"c2F2 "F"F2 :|
+|: fg \
+| "F"a3f "C7"g3e | "F"fedc [f3A3]A | "Bb"B3d "F"c2A2 | "G7"d2G2 "C7"G2fg \
+| "F"a3f "C7"g3e | "F"fedc [f3A3]A | "Bb"B3d "C7"c3B | "F"A2F2 F2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 121
+T: Willie brewed a peck o' maut
+R: reel
+B: RSCDS Graded 1 #21
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%
+K: G
+Bc \
+| "G"d2g2 "(Em)"edcB | "Am"e2a2 "D7"gfed | "G"g3e "(Em)"d2B2 | "A(m)"e2A2 "D7"A2Bc \
+| "G"d2g2 "(Em)"edcB | "Am"e2a2 "D7"gfed | "G"g3e "(Em)"d2B2 | "D7"d2G2 "G"G2 :|
+|: ga \
+| "G"b2-bg "D7"a2-af | "G"gfed "(Em)"[g3B3]B | "C"c2-ce "G"d2B2 | "A(m)"e2A2 "D7"A2ga \
+| "G"b2-bg "D7"a2-af | "G"gfed "(Em)"[g3B3]B | "C"c2-ce "D7"d3c | "G"B2G2 G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 121
+T: Willie brewed a peck o' maut
+R: reel
+B: RSCDS Graded 1 #21
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%
+K: Eb
+GA \
+| "Eb"B2e2 cBAG | "Fm"c2f2 edcB | "Eb"e3c B2G2 | "F7"c2F2 "Bb7"F2GA \
+| "Eb"B2e2 cBAG | "Fm"c2f2 edcB | "Eb"e3c B2G2 | "Bb7"B2E2 "Eb"E2 ||
+ef \
+| "Eb"g3e "Bb7"f3d | "Eb"edcB [e3G3]G | "Ab"A3c "Eb"B2G2 | "F7"c2F2 "Bb7"F2ef \
+| "Eb"g3e "Bb7"f3d | "Eb"edcB [e3G3]G | "Ab"A3c "Bb7"B3A | "Eb"G2E2 E2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Halloween
+C: Ed Pearlman, 1982
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: C|
+L: 1/8
+K: Dm
+|: A,2 \
+| "Dm"D2DE FEDC | "Gm"B,4 G,2B,2 | "Dm"A,2DF AGFD | "C"EFGE CDEC \
+| "Dm"D2DE FEDC | "Gm"B,4 G,2B,2 | "Dm"A,2DF "A7"AGFE | "Dm"F2D2 D2 :|
+|: E2 \
+| "Dm"F2EF "A7"G2FE | "Dm"F2ED "C"E2FE | "Bb"D2FA "F"C2FA | "Gm"B,2DF "A7"A,2=B,^C \
+| "Dm"D^CDE FED=C | "Gm"B,4 G,2B,2 | "Dm"A,2A2 "A7"AGFE | "Dm"F2D2 D2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Halloween
+C: Ed Pearlman, 1982
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: C|
+L: 1/8
+K: Dm
+|: A,2 \
+| "Dm"D2DE FEDC | "Gm"B,4 G,2B,2 | "Dm"A,2DF AGFD | "C"EFGE CDEC \
+| "Dm"D2DE FEDC | "Gm"B,4 G,2B,2 | "Dm"A,2DF "A7"AGFE | "Dm"F2D2 D2 :|
+|: E2 \
+| "Dm"F2EF "A7"G2FE | "Dm"F2ED "C"E2FE | "Bb"D2FA "F"C2FA | "Gm"B,2DF "A7"A,2=B,^C \
+| "Dm"D^CDE FED=C | "Gm"B,4 G,2B,2 | "Dm"A,2A2 "A7"AGFE | "Dm"F2D2 D2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Halloween
+C: Ed Pearlman, 1982
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: C|
+L: 1/8
+K: Dm
+|: A,2 | "Dm"D2DE FEDC | "Gm"B,4 G,2B,2 | "Dm"A,2DF AGFD | "C"EFGE CDEC || "Dm"D2DE FEDC |
+| "Gm"B,4 G,2B,2 | "Dm"A,2DF "A7"AGFE | "Dm"F2D2 D2 :: E2 | "Dm"F2EF "A7"G2FE | "Dm"F2ED "C"E2FE |
+| "Bb"D2FA "F"C2FA | "Gm"B,2DF "A7"A,2=B,^C || "Dm"D^CDE FED=C | "Gm"B,4 G,2B,2 | "Dm"A,2A2 "A7"AGFE | "Dm"F2D2 D2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Halloween
+C: Ed Pearlman, 1982
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: C|
+L: 1/8
+K: Dm
+|: A,2 | "Dm"D2DE FEDC | "Gm"B,4 G,2B,2 | "Dm"A,2DF AGFD | "C"EFGE CDEC || "Dm"D2DE FEDC |
+| "Gm"B,4 G,2B,2 | "Dm"A,2DF "A7"AGFE | "Dm"F2D2 D2 :: E2 | "Dm"F2EF "A7"G2FE | "Dm"F2ED "C"E2FE |
+| "Bb"D2FA "F"C2FA | "Gm"B,2DF "A7"A,2=B,^C || "Dm"D^CDE FED=C | "Gm"B,4 G,2B,2 | "Dm"A,2A2 "A7"AGFE | "Dm"F2D2 D2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Halloween
+C: Ed Pearlman, 1982
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: C|
+L: 1/8
+K: Dm
+|: A,2 \
+| "Dm"D2DE FEDC | "Gm"B,4 G,2B,2 | "Dm"A,2DF AGFD | "C"EFGE CDEC \
+| "Dm"D2DE FEDC | "Gm"B,4 G,2B,2 | "Dm"A,2DF "A7"AGFE | "Dm"F2D2 D2 :|
+|: E2 \
+| "Dm"F2EF "A7"G2FE | "Dm"F2ED "C"E2FE | "Bb"D2FA "F"C2FA | "Gm"B,2DF "A7"A,2=B,^C \
+| "Dm"D^CDE FED=C | "Gm"B,4 G,2B,2 | "Dm"A,2A2 "A7"AGFE | "Dm"F2D2 D2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Halloween
+C: Ed Pearlman, 1982
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: C|
+L: 1/8
+K: Dm
+|: A,2 \
+| "Dm"D2DE FEDC | "Gm"B,4 G,2B,2 | "Dm"A,2DF AGFD | "C"EFGE CDEC \
+| "Dm"D2DE FEDC | "Gm"B,4 G,2B,2 | "Dm"A,2DF "A7"AGFE | "Dm"F2D2 D2 :|
+|: E2 \
+| "Dm"F2EF "A7"G2FE | "Dm"F2ED "C"E2FE | "Bb"D2FA "F"C2FA | "Gm"B,2DF "A7"A,2=B,^C \
+| "Dm"D^CDE FED=C | "Gm"B,4 G,2B,2 | "Dm"A,2A2 "A7"AGFE | "Dm"F2D2 D2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Here's a Health to Ane I Lo'e Dear
+C: Traditional, from RSCDS Graded, arr. T. Traub 6-23-2003
+R: Jig
+M: 6/8
+F: http://tastysoftware.com/abc/MorayReelJ.abc
+K: D
+L: 1/8
+   f/e/ \
+| "D"d2 A "G"B>AF | "D"A3-Afe | "D"d2 A "G"Bgf | "A"e3-efe \
+| "D"d2 A "G"B>cd | "A"cBA d2 G | "D"FDF "A"ECE | "D"D3 z2 :|
+|: F \
+| "D"AAA BAF | "D"A3-A2 F | "D"AAA "G"Bgf | "A"e3-e2 A \
+| "D"ABA "G"Bcd | "A"cBA "Bm"d2 G | "D"FDF "A"ECE | "D"D3 z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: He's o'er the hills that I lo'e dear
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+B: RSCDS Graded #14
+M: 6/8
+L: 1/8
+K: G
+E \
+| "G"DEG G2G | BAG "C"E2G | "G"DEG G<dB | "D7"BAG "G"G2E \
+| "G"DEG G2G | BAG "C"E2e | "G"d2e dBG | "D7"BAG "G"G2 :|
+|: B \
+| "G"d2e dBG |  BAG "C"E2e | "G"d2e dBG | "D7"BAG "G"G2B \
+| "G"d2e dBG |  BAG "C"E2G | "G"DEG G<dB | "D7"BAG "G"G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: He's o'er the hills that I lo'e dear
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+B: RSCDS Graded #14
+M: 6/8
+L: 1/8
+K: G
+E \
+| "G"DEG G2G | BAG "C"E2G | "G"DEG G<dB | "D7"BAG "G"G2E \
+| "G"DEG G2G | BAG "C"E2e | "G"d2e dBG | "D7"BAG "G"G2 :|
+|: B \
+| "G"d2e dBG |  BAG "C"E2e | "G"d2e dBG | "D7"BAG "G"G2B \
+| "G"d2e dBG |  BAG "C"E2G | "G"DEG G<dB | "D7"BAG "G"G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Laird o' Cockpen
+O: Trad
+R: jig
+M: 6/8
+L: 1/8
+Z: 2000 John Chambers <jc:trillian.mit.edu>
+B: RSCDS Graded #7
+K: Gm
+   D \
+| "Gm"G>AG B2B | "F"A>FF F2A | "Gm"G>AG "Eb"g2g | "Bb"f<dd d2e \
+| "Bb"fBd fed | "F"c>dB "D"A>Bc | "Gm"d>ed "D7"d2c | "Gm"B>GG G2 :|
+|: d \
+| "Gm"g2g g>ab | "F"a<ff f2a | "Gm"gBd "Eb"g>ag | "Bb"f<dd d2e \
+| "Bb"fBd fed | "F"c>dB "D"A>Bc | "Gm"d>ed "D7"d2c | "Gm"B>GG G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Laird o' Cockpen
+O: Trad
+R: jig
+M: 6/8
+L: 1/8
+Z: 2000 John Chambers <jc:trillian.mit.edu>
+B: RSCDS Graded #7
+K: Gm
+   D \
+| "Gm"G>AG B2B | "F"A>FF F2A | "Gm"G>AG "Eb"g2g | "Bb"f<dd d2e \
+| "Bb"fBd fed | "F"c>dB "D"A>Bc | "Gm"d>ed "D7"d2c | "Gm"B>GG G2 :|
+|: d \
+| "Gm"g2g g>ab | "F"a<ff f2a | "Gm"gBd "Eb"g>ag | "Bb"f<dd d2e \
+| "Bb"fBd fed | "F"c>dB "D"A>Bc | "Gm"d>ed "D7"d2c | "Gm"B>GG G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Laird o' Cockpen
+O: Trad
+R: jig
+M: 6/8
+L: 1/8
+Z: 2000 John Chambers <jc:trillian.mit.edu>
+B: RSCDS Graded #7
+K: Gm
+   D \
+| "Gm"G>AG B2B | "F"A>FF F2A | "Gm"G>AG "Eb"g2g | "Bb"f<dd d2e \
+| "Bb"fBd fed | "F"c>dB "D"A>Bc | "Gm"d>ed "D7"d2c | "Gm"B>GG G2 :|
+|: d \
+| "Gm"g2g g>ab | "F"a<ff f2a | "Gm"gBd "Eb"g>ag | "Bb"f<dd d2e \
+| "Bb"fBd fed | "F"c>dB "D"A>Bc | "Gm"d>ed "D7"d2c | "Gm"B>GG G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Laird o' Cockpen
+O: Trad
+R: jig
+M: 6/8
+L: 1/8
+Z: 2000 John Chambers <jc:trillian.mit.edu>
+B: RSCDS Graded #7
+K: Gm
+   D \
+| "Gm"G>AG B2B | "F"A>FF F2A | "Gm"G>AG "Eb"g2g | "Bb"f<dd d2e \
+| "Bb"fBd fed | "F"c>dB "D"A>Bc | "Gm"d>ed "D7"d2c | "Gm"B>GG G2 :|
+|: d \
+| "Gm"g2g g>ab | "F"a<ff f2a | "Gm"gBd "Eb"g>ag | "Bb"f<dd d2e \
+| "Bb"fBd fed | "F"c>dB "D"A>Bc | "Gm"d>ed "D7"d2c | "Gm"B>GG G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 17
+T: Miss Betty Boyle
+P: We're a' noddin'
+C:Traditional
+R:Reel (8x32)
+B:RSCDS Gr-17
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:G
+V:1
+GA|"G"[B4D4] A2G2|"D"A2A2 BAGA|"G"[B4D4] [A2C2][G2B,2]|"D7"BAGF "G"G2 GA|
+   "G"[B4D4] A2G2|"D"A2A2 BAGA|"G"[B4D4] [A2C2][G2B,2]|"D7"BAGF "G"G2||
+dc|"G"B2Bc d2ge|d2d2d2 Bc|d2d2 "C"edcB|"Am"cB"A7"AG "D"F2 dc|
+%%staves (1 2)
+[V:1] "G"B2Bc d2"C"ge|"G"d2d2d2 Bc|"G7"d2d2 "E7"edcB|"Am"cBAG "D7"[A2F2C2]|]
+%V:2
+%[V:2]    x8          |   x8       |    B2A2    ^G4  |    E4       x2      |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Persian Dance
+O: 1812
+B: Nath Gow's dances 1812
+R: reel
+B: RSCDS 1-1
+B: RSCDS Graded
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Variant of Galopede, Yarmouth Reel, without the middle part
+M: C|
+L: 1/8
+K: G
+   dc \
+| "G"B2Bc "D7"A2AB | "G"G2G2 G2AB \
+|1,3 "C"cBcd edcB | "D7"A2A2 A2 \
+:|2,4 "C"cBAG "D7"FGAF | "G"G2"C"G2 "G"G2 :|
+|: Bc \
+| "G".d2.d2 .d2g2 | .d2.d2 .d2g2 \
+|1,3 .d2.d2 "C"edcB | "D7"AGAB A2Bc \
+:|2,4 "G"d2B2 "D7"dcBA | "G"G2B2 G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Persian Dance
+O: 1812
+B: Nath Gow's dances 1812
+R: reel
+B: RSCDS 1-1
+B: RSCDS Graded
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Variant of Galopede, Yarmouth Reel, without the middle part
+M: C|
+L: 1/8
+K: G
+   dc \
+| "G"B2Bc "D7"A2AB | "G"G2G2 G2AB \
+|1,3 "C"cBcd edcB | "D7"A2A2 A2 \
+:|2,4 "C"cBAG "D7"FGAF | "G"G2"C"G2 "G"G2 :|
+|: Bc \
+| "G".d2.d2 .d2g2 | .d2.d2 .d2g2 \
+|1,3 .d2.d2 "C"edcB | "D7"AGAB A2Bc \
+:|2,4 "G"d2B2 "D7"dcBA | "G"G2B2 G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 18
+T: Wedderburn's Reel
+P: Duncan Gray
+C:Traditional
+R:Reel (8x32)
+B:RSCDS Gr-18
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/4
+K:A
+V:1
+%%staves (1 2)
+[V:1]"A"EA "E7"[GD]"A"[AE]|"Bm"Bc "E"[G2E2]|"A"[A2E2] "E7"B>d|"A"[cE][AC][AC]z|
+[V:1]"A"EA "E7"[GD]"A"[AE]|"Bm"Bc "E"[G2E2]|"A"[A2E2]"E7"B>d|"A"[cE][AC][AC]z||
+[V:1]"A"ce ed/c/|"Bm"dd d2|dc "B7"BA|"E"G"B7"[BF] "E7"E2|
+[V:1]"A"ef/e/ "E7"d"A"c|"Bm"B/c/d/B/ "E7"G2|"A"[A2E2]"E7"B>d|"A"[cE][AC][AC]z|]
+%V:2
+%[V:2]   C2     x2         |    F2    x2    |   x2         E2 |   x4           |
+%[V:2]   C2     x2         |    F2    x2    |   x2        E2 |   x4           ||
+%[V:2]   x4      |    x4   |x4       |   x4              |
+%[V:2]   x4             |    x4             |   x2        E2 |   x4           |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: We're a' noddin'
+R: march
+B: RSCDS Graded-17
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Original had repeat on 2nd part, but bars numbered for 2x16 bars.
+M: C
+L: 1/8
+K: G
+|: [GB,][AC] \
+| "G"[B4D4] [A2C2][G2B,2] | "D7"[A2D2][A2D2] [BD4]AGA \
+| "G"[B4D4] [A2C2][G2B,2] | "C"BA"D7"GF "G"[G2D2] :|
+[BG][cA] \
+| "G"[d2B][d2B] [d2B]"C"[ge]>[ec] | "G"[d2B][d2B] [d2B][BG][cA] \
+| [d2B][d2B] "C"edcB | cB"A7"AG "D"F2 ||
+[dB][cA] \
+| "G"[B2G][BG][cA] [d2B]"C"[ge][ec] | "G"[d2B][d2B] [d2B][BG][cA] \
+| "G"[d2B2]"F"[d2A2] "E7"edcB | "Am"cBAG "D7"[A2F2C2] |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: We're a' noddin'
+R: march
+B: RSCDS Graded-17
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Original had repeat on 2nd part, but bars numbered for 2x16 bars.
+M: C
+L: 1/8
+K: G
+|: [GB,][AC] \
+| "G"[B4D4] [A2C2][G2B,2] | "D7"[A2D2][A2D2] [BD4]AGA \
+| "G"[B4D4] [A2C2][G2B,2] | "C"BA"D7"GF "G"[G2D2] :|
+[BG][cA] \
+| "G"[d2B][d2B] [d2B]"C"[ge]>[ec] | "G"[d2B][d2B] [d2B][BG][cA] \
+| [d2B][d2B] "C"edcB | cB"A7"AG "D"F2 ||
+[dB][cA] \
+| "G"[B2G][BG][cA] [d2B]"C"[ge][ec] | "G"[d2B][d2B] [d2B][BG][cA] \
+| "G"[d2B2]"F"[d2A2] "E7"edcB | "Am"cBAG "D7"[A2F2C2] |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: We're a' noddin'
+R: march
+B: RSCDS Graded-17
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Original had repeat on 2nd part, but bars numbered for 2x16 bars.
+M: C
+L: 1/8
+K: G
+|: [GB,][AC] \
+| "G"[B4D4] [A2C2][G2B,2] | "D7"[A2D2][A2D2] [BD4]AGA \
+| "G"[B4D4] [A2C2][G2B,2] | "C"BA"D7"GF "G"[G2D2] :|
+[BG][cA] \
+| "G"[d2B][d2B] [d2B]"C"[ge]>[ec] | "G"[d2B][d2B] [d2B][BG][cA] \
+| [d2B][d2B] "C"edcB | cB"A7"AG "D"F2 ||
+[dB][cA] \
+| "G"[B2G][BG][cA] [d2B]"C"[ge][ec] | "G"[d2B][d2B] [d2B][BG][cA] \
+| "G"[d2B2]"F"[d2A2] "E7"edcB | "Am"cBAG "D7"[A2F2C2] :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: We're a' noddin'
+R: march
+B: RSCDS Graded-17
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Original had repeat on 2nd part, but bars numbered for 2x16 bars.
+M: C
+L: 1/8
+K: G
+|: [GB,][AC] \
+| "G"[B4D4] [A2C2][G2B,2] | "D7"[A2D2][A2D2] [BD4]AGA \
+| "G"[B4D4] [A2C2][G2B,2] | "C"BA"D7"GF "G"[G2D2] :|
+[BG][cA] \
+| "G"[d2B][d2B] [d2B]"C"[ge]>[ec] | "G"[d2B][d2B] [d2B][BG][cA] \
+| [d2B][d2B] "C"edcB | cB"A7"AG "D"F2 ||
+[dB][cA] \
+| "G"[B2G][BG][cA] [d2B]"C"[ge][ec] | "G"[d2B][d2B] [d2B][BG][cA] \
+| "G"[d2B2]"F"[d2A2] "E7"edcB | "Am"cBAG "D7"[A2F2C2] :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 17
+T: We're a' noddin'
+R: march
+B: RSCDS Graded 1 #17
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Original had repeat on 2nd part, but bars numbered for 2x16 bars.
+M: C
+L: 1/8
+%
+K: G
+[GB,][AC] \
+| "G"[B4D4] [A2C2][G2B,2] | "D7"[A2D2][A2D2] [BD4]AGA \
+| "G"[B4D4] [A2C2][G2B,2] | "C"BA"D7"GF "G"[G2D2] :|
+[BG][cA] \
+| "G"[d2B][d2B] [d2B]"C"[ge]>[ec] | "G"[d2B][d2B] [d2B][BG][cA] \
+| [d2B][d2B] "C"edcB | cB"A7"AG "D"F2 ||
+[dB][cA] \
+| "G"[B2G][BG][cA] [d2B]"C"[ge][ec] | "G"[d2B][d2B] [d2B][BG][cA] \
+| "G"[d2B2]"F"[d2A2] "E7"edcB | "Am"cBAG "D7"[A2F2C2] |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 17
+T: We're a' noddin'
+R: march
+B: RSCDS Graded 1 #17
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Original had repeat on 2nd part, but bars numbered for 2x16 bars.
+M: C
+L: 1/8
+%
+K: G
+[GB,][AC] \
+| "G"[B4D4] [A2C2][G2B,2] | "D7"[A2D2][A2D2] [BD4]AGA \
+| "G"[B4D4] [A2C2][G2B,2] | "C"BA"D7"GF "G"[G2D2] :|
+[BG][cA] \
+| "G"[d2B][d2B] [d2B]"C"[ge]>[ec] | "G"[d2B][d2B] [d2B][BG][cA] \
+| [d2B][d2B] "C"edcB | cB"A7"AG "D"F2 ||
+[dB][cA] \
+| "G"[B2G][BG][cA] [d2B]"C"[ge][ec] | "G"[d2B][d2B] [d2B][BG][cA] \
+| "G"[d2B2]"F"[d2A2] "E7"edcB | "Am"cBAG "D7"[A2F2C2] :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Willie brewed a peck o' maut
+R: reel
+B: RSCDS Graded-21
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Eb
+   GA \
+| "Eb"B2e2 cBAG | "Fm"c2f2 edcB | "Eb"e3c B2G2 | "F7"c2F2 "Bb7"F2GA \
+| "Eb"B2e2 cBAG | "Fm"c2f2 edcB | "Eb"e3c B2G2 | "Bb7"B2E2 "Eb"E2 :|
+|: ef \
+| "Eb"g3e "Bb7"f3d | "Eb"edcB [e3G3]G | "Ab"A3c "Eb"B2G2 | "F7"c2F2 "Bb7"F2ef \
+| "Eb"g3e "Bb7"f3d | "Eb"edcB [e3G3]G | "Ab"A3c "Bb7"B3A | "Eb"G2E2 E2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21
+T: Willie brewed a peck o' maut
+R: reel
+B: RSCDS Graded 1 #21
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Eb
+   GA \
+| "Eb"B2e2 cBAG | "Fm"c2f2 edcB | "Eb"e3c B2G2 | "F7"c2F2 "Bb7"F2GA \
+| "Eb"B2e2 cBAG | "Fm"c2f2 edcB | "Eb"e3c B2G2 | "Bb7"B2E2 "Eb"E2 :|
+|: ef \
+| "Eb"g3e "Bb7"f3d | "Eb"edcB [e3G3]G | "Ab"A3c "Eb"B2G2 | "F7"c2F2 "Bb7"F2ef \
+| "Eb"g3e "Bb7"f3d | "Eb"edcB [e3G3]G | "Ab"A3c "Bb7"B3A | "Eb"G2E2 E2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Willie brewed a peck o' maut
+R: reel
+B: RSCDS Graded-21
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Eb
+   GA \
+| "Eb"B2e2 cBAG | "Fm"c2f2 edcB | "Eb"e3c B2G2 | "F7"c2F2 "Bb7"F2GA \
+| "Eb"B2e2 cBAG | "Fm"c2f2 edcB | "Eb"e3c B2G2 | "Bb7"B2E2 "Eb"E2 :|
+|: ef \
+| "Eb"g3e "Bb7"f3d | "Eb"edcB [e3G3]G | "Ab"A3c "Eb"B2G2 | "F7"c2F2 "Bb7"F2ef \
+| "Eb"g3e "Bb7"f3d | "Eb"edcB [e3G3]G | "Ab"A3c "Bb7"B3A | "Eb"G2E2 E2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21
+T: Willie brewed a peck o' maut
+R: reel
+B: RSCDS Graded 1 #21
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+   AB \
+| "F"c2f2 dcBA | "Gm"d2g2 fedc | "F"f3d c2A2 | "G7"d2G2 "C7"G2AB \
+| "F"c2f2 dcBA | "Gm"d2g2 fedc | "F"f3d c2A2 | "C7"c2F2 "F"F2 :|
+|: fg \
+| "F"a3f "C7"g3e | "F"fedc [f3A3]A | "Bb"B3d "F"c2A2 | "G7"d2G2 "C7"G2fg \
+| "F"a3f "C7"g3e | "F"fedc [f3A3]A | "Bb"B3d "C7"c3B | "F"A2F2 F2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Willie brewed a peck o' maut
+R: reel
+B: RSCDS Graded-21
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+   AB \
+| "F"c2f2 dcBA | "Gm"d2g2 fedc | "F"f3d c2A2 | "G7"d2G2 "C7"G2AB \
+| "F"c2f2 dcBA | "Gm"d2g2 fedc | "F"f3d c2A2 | "C7"c2F2 "F"F2 :|
+|: fg \
+| "F"a3f "C7"g3e | "F"fedc [f3A3]A | "Bb"B3d "F"c2A2 | "G7"d2G2 "C7"G2fg \
+| "F"a3f "C7"g3e | "F"fedc [f3A3]A | "Bb"B3d "C7"c3B | "F"A2F2 F2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21
+T: Willie brewed a peck o' maut
+R: reel
+B: RSCDS Graded 1 #21
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+   Bc \
+| "G"d2g2 "(Em)"edcB | "Am"e2a2 "D7"gfed | "G"g3e "(Em)"d2B2 | "A(m)"e2A2 "D7"A2Bc \
+| "G"d2g2 "(Em)"edcB | "Am"e2a2 "D7"gfed | "G"g3e "(Em)"d2B2 | "D7"d2G2 "G"G2 :|
+|: ga \
+| "G"b2-bg "D7"a2-af | "G"gfed "(Em)"[g3B3]B | "C"c2-ce "G"d2B2 | "A(m)"e2A2 "D7"A2ga \
+| "G"b2-bg "D7"a2-af | "G"gfed "(Em)"[g3B3]B | "C"c2-ce "D7"d3c | "G"B2G2 G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Willie brewed a peck o' maut
+R: reel
+B: RSCDS Graded-21
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+   Bc \
+| "G"d2g2 "(Em)"edcB | "Am"e2a2 "D7"gfed | "G"g3e "(Em)"d2B2 | "A(m)"e2A2 "D7"A2Bc \
+| "G"d2g2 "(Em)"edcB | "Am"e2a2 "D7"gfed | "G"g3e "(Em)"d2B2 | "D7"d2G2 "G"G2 :|
+|: ga \
+| "G"b2-bg "D7"a2-af | "G"gfed "(Em)"[g3B3]B | "C"c2-ce "G"d2B2 | "A(m)"e2A2 "D7"A2ga \
+| "G"b2-bg "D7"a2-af | "G"gfed "(Em)"[g3B3]B | "C"c2-ce "D7"d3c | "G"B2G2 G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Willie brewed a peck o' maut
+R: reel
+B: RSCDS Graded-21
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Eb
+   GA \
+| "Eb"B2e2 cBAG | "Fm"c2f2 edcB | "Eb"e3c B2G2 | "F7"c2F2 "Bb7"F2GA \
+| "Eb"B2e2 cBAG | "Fm"c2f2 edcB | "Eb"e3c B2G2 | "Bb7"B2E2 "Eb"E2 :|
+|: ef \
+| "Eb"g3e "Bb7"f3d | "Eb"edcB [e3G3]G | "Ab"A3c "Eb"B2G2 | "F7"c2F2 "Bb7"F2ef \
+| "Eb"g3e "Bb7"f3d | "Eb"edcB [e3G3]G | "Ab"A3c "Bb7"B3A | "Eb"G2E2 E2 :|

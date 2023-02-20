@@ -1,0 +1,32 @@
+X: 1071
+T: Lord Banff's Strathspey
+%R: strathspey
+B: Niel Gow & Sons "Complete Repository" v.1 p.7 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: This is version 1, for ABC software that doesn't understand voice overlays or crescendo/diminuendo notation.
+M: C
+L: 1/16
+Q: "VERY SLOW"
+K: E
+% - - - - - - - - - -
+V: 1 staves=2
+GF |\
+EB,3TB,3C TE3FG3c | .B3(G AG)(FE) TF3EC3F |\
+EB,3(TB,3C) TE3FG2g2 | f3e{e}g3f Tf4{ef}e2 :|
+B2 |\
+.e3gb3g (a3g)(f3e) | Tf2af Tg2bg {g}f3e c3f |\
+.e3gb3g (a3g)(f3e) | (fa)(ga) (ba).g.f {f}e4 e3B ||
+y |\
+e3g {eg}b3g (a3g)(f3e) | (fa)(gf) (gb)(ag) Tf3ec3{d}e |\
+"^cresc . . . . ."TB3e (cB)(AG) A3Bc3A | "^dim . . . . ."G3E B2GE TF4 [E2G,2] |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+e4[g3e4]a [g6e6]a2 | g4e4 b4a4 |\
+e4[g2e4]a2 [g4e4]e4 | b4B4 e2B2E2 :|
+z2 |\
+e4e'4 c'2b2a2g2 | a4g2e2 b4a4 |\
+g4e4 c'2b2a2g2 | a4 b2B2 e2B2E4 ||
+y |\
+e4e'4 c'2b2a2g2 | a4g2e2 b4a4 |\
+g4e4 f2g2a2^d2 | e4E4 B2B,2E2 |]

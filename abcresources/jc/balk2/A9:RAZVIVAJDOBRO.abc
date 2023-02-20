@@ -1,0 +1,21 @@
+X: 419
+T: Razvivaj Dobro
+O: Bulgaria
+M: 7/8
+L: 1/8
+K: Fdor
+Q: 1/4=120
+P:A
+%%MIDI program 20 Reed Organ
+BcA B4|AGA F4|BcA B4|AGc-c4|\
+BcA B4|AGA F4-|F3 AFFA|Bc2 F4|
+P:B
+%%MIDI program 70 Bassoon
+%%MIDI drum d2dd2d2 48 45 47 47 80 50 60 50
+%%MIDI drumon
+|:F3-F2A2|A3-A3F|FEAz2AG|F3-F2A2-|A3-A3F|F3z4:|
+P:C
+[Ac]3 [=A^c]2[_A=c]2|[ce]3 [ce]2[=A^c][_A=c]|[FB]3-[FB]2A2|c3^c2=c2|
+P:D
+|:cBAB3c|BA2-A4|cBAB3A|c7|\
+ecB c2 B2|AF2-F4|AFFA2B2|F3-F4:|

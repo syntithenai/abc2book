@@ -1,0 +1,22 @@
+X: 12
+T: Silence
+%R: jig
+B: "Twenty Four Favourite Dances for the Year 1783", Thomas Straight, ed. p.6 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1783
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+f/g/ |\
+afd ecA | d3 A2=c | BAG gBe | c3- c2f/g/ |\
+afd ecA | d3 A2=c BAG E>dc | d3- d2 :|
+|: c/d/ |\
+ecA ecA | a3 e2f | ecA AB^G | A3- A2F/G/ |\
+AFD BGE | (c3 d2)f/g/ | afd dec | d3- d2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Change sides and back again .|. lead down the
+%% middle up again & cast off .|: allemand with
+%% the right & left hands :|. hands 6 quite
+%% round :|:
+%%endtext

@@ -1,0 +1,36 @@
+X: 08
+T: Rolla and Cora
+%R: reel, march
+B: Thompson "A Favourite Collection of Country Dances 1800", p.8
+F: https://deriv.nls.uk/dcn23/1205/2168/120521683.23.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has an initial repeat but no final repeat; fixed to match the dance.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for a US-letter/A4 page size.
+V: 1
+fg |\
+a2a2 bagf | e2g2 c2de | f2ga b2a2 | gfga g2fg |\
+a2a2 bagf | e2a2 A2=B^c | d2ef e2^c2 | d6 :|
+|: fg |\
+a2a2 bagf | e2a2 A2=B^c | d2ef g2f2 | {f}e6 de |\
+fefd gfge | agaf babg | a2f2 {a}g2fe | f6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z2 |\
+f2c'2a2c'2 | c2g2e2g2 | a2gf e2f2 | c2c'2c2z2 |\
+d2a2f2a2 | c2a2e2a2 | f2d2 a2A2 |
+d2A2D2 :||: z2 |\
+d2a2d2a2 | ^c2a2e2a2 | f2ed ^c2d2 | A2a2A2z2 |\
+d2B2e2c2 | f2d2g2e2 | f2a2c'2c2 | d2A2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Lady turn the 2d Gent .|
+%% 1st Gent. turn 2d Lady .|.
+%% Lead down 2 Cu: & foot it :|.
+%% Lead up again & Allemand :|:
+%%endtext
+%%sep 2 2 400

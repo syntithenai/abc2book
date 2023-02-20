@@ -1,0 +1,15 @@
+X: 78
+T: Three coins in the fountain
+B: "Lakewood Music Center" handwritten song fakebook
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Eb
+% %continueall 0
+%%barnumbers 0
+% - - - - - - - - - - - - - - -
+|:\
+"Eb"z2c2 B2AG | "Fm"B2 "Bb7"F6 | "Fm"A2A2 GFEF | "Eb"G8 |\
+E2"-M7"E2 "Cm7"E2FG | "F7"F2"  Cm7 F7"C6 | "Abm6"F2F2 ED"Bb7"CD !segno!| "Eb"E8 :|
+"Ab"e2e2 dcBc | "Eb"B8 | "Abm"e2e2 fe_d_c | "Fm   Bb7"B8 "D.C."y!segno!:|\
+"Eb"E6 "-9"GB | "Ab"e6 Ac | "Fm"e6 Ac | "Eb   F+9"e6- | "Fm7  Eb"e6 z2 |]

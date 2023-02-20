@@ -1,0 +1,17 @@
+X: 103	% 25
+T: Climbing The Golden Stairs
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.10 #3
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Bars 10,13 have an extra 16th-note; not fixed.
+N: The rhythms at repeats aren't correct; not fixed.
+M: 2/4
+L: 1/16
+K: D
+V: 1 name=25
+|:\
+dddd fa3 | dddd fa3 | dddd .f2.a2 | e6 (ef) |\
+gfed c2(ef) | gfed .c.e | aa2a .g2.e2 | d6 (3(AB.c) :|
+|:\
+d2f2b3a | a2 g6 g | c2e2a3^g | a6 (3ABc |\
+d2f2b3a | a2 g6 g | aaaa g3e |1 d4- d2 (ABc) :|2 d4- d2 |]

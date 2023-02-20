@@ -1,0 +1,16 @@
+X: 411
+T: the Enniskillen Dragoons   #2
+R: march, air
+%S: s:1 b:8
+N: Irish title: draguni.de inis-ce.tlann
+B: O'Neill's 1850 #411
+O: F.O'Neill
+Z: henrik.norbeck@mailbox.swipnet.se
+N: Compacted by using labels and play order [JC]
+P: Play AB BA
+Q: "Moderate"
+M: 2/4
+L: 1/8
+K: D
+"^A"[|] (A/F/) !segno!|| D>D E>F | G>A c>B | (3(AGE) D>D | D3 \
+"^B"|:  A   | d>d B>d | c>A B>G | (3(EDE) c>B | A3 :| G/!segno!E/ |]

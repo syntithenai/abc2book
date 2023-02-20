@@ -1,0 +1,33 @@
+X: 5
+T: Col: Greville's Waltz
+%R: waltz
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.3 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(AB) |\
+.c2(cdcB) | (A2F2)(fe) |\
+.d2(defd) | (cdcBAG) |\
+(F2f2)e2 | (d2b2)a2 |\
+(gagfed) | (cdcBAB) |\
+.c2(cdcB) | (A2F2)(fe) |
+.d2(defd) | (cdcBAG) |\
+(F2E2F2) | (D2B2A2) |\
+(G2c2E2) | F4 |: (EF) |\
+.G2(ecec) | (A2f2)e2 |\
+(defedc) | (=B2G2B2) |\
+(c2e2g2) |
+{f}f4e2 |\
+(d2c2=B2) | c4 :: (Ac) |\
+(B2g2B2) | (A2f2A2) |\
+(GABAGF) | .E2(CDEC) |\
+.F2(GFEF) | .D2(cBAB) |\
+(G2c2E2) | F4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands 4 back again, down the mid: up again,
+%% Allemande & Swing corners.
+%%endtext

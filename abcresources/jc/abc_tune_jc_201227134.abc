@@ -1,0 +1,17 @@
+X: 10622
+T: NICOLSON STREET HORNPIPE
+C: Composed by W.B. Laybourn
+R: hornpipe
+B: K\"ohler's Violin Repository, v.1, 1885 p.62 #2
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Added missing initial repeat to 2nd phrase.
+M: C|
+L: 1/8
+K: Bb
+u(d>c) |\
+(B>A)B>c (B>F)D>F | (B>A)B>c (B>F)D>F | GBAc Bdce | (d>c)e>d c2d>c |
+(B>A)B>c (B>F)D>F | (B>A)B>c (B>F)D>F | GBAc Bgfe | d2B2B2 :|
+|: u(de) |\
+fB{cBA}B2 GB{cBA}B2 | FB{cBA}B2 EB{cBA}B2 | DB{cBA}B2 FB{cBA}B2 | Gc{dc=B}c2 c2de |
+fB{cBA}B2 GB{cBA}B2 | FB{cBA}B2 EB{cBA}B2 | DB{cBA}B2 Gc{dc=B}c2 | d2B2B2 :|

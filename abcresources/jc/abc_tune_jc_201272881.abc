@@ -1,0 +1,29 @@
+X:1
+T: Elverton Grove
+N:28 November 2002
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W:
+% voice 1 (1 lines, 32 notes)
+K:G
+M:4/4
+L:1/16
+D4 |G4 e4 d4 c4 |B8 A4 G2 A2 |B4 D4 A4 D4 |B4 D4 A4 D4 |G4 e4 d4 c4 |B8 A6 B2 |c4 B2 A2 B4 A2 G2 |G12 D4 |
+%W:
+% voice 1 (1 lines, 31 notes)
+G4 e4 d4 c4 |B8 A4 G2 A2 |B4 D4 A4 D4 |B4 D4 A4 D4 |G4 e4 d4 c4 |B8 A6 B2 |c4 B2 A2 B4 A2 G2 |G12 c4 |
+%W:
+% voice 1 (1 lines, 29 notes)
+B4 A4 G4 F4 |E8 e8 |B4 A4 G4 F4 |E2 ^D2 E2 F2 E4 c4 |B4 A4 G4 F4 |E8 e8 |B4 A4 G4 F4 |E12 e2 f2 |
+%W:
+% voice 1 (1 lines, 35 notes)
+g4 f2 e2 f4 e2 d2 |e4 d2 c2 d4 c2 B2 |c4 B2 A2 B4 A2 G2 |A2 G2 F2 E2 D4 d4 |d12 d4 |d12 e2 f2 |g4 f2 e2 f4 e2 d2 |
+%W:
+% voice 1 (1 lines, 30 notes)
+e4 d2 c2 d4 c2 B2 |c4 B2 A2 B4 A2 G2 |A2 G2 F2 E2 D4 d4 |e4 G4 d4 G4 |c8 B8 |E2 F2 G4 D4 F4 |G12 ||

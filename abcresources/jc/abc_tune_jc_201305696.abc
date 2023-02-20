@@ -1,0 +1,17 @@
+X: 1
+T: Magnus' Waltz
+C: Jennifer Wrigley
+%S: s:5 b:32(6+7+6+6+7)
+%D:
+R: waltz
+S: Fiddle Hell Online 2022-4-10 handout for Hazel Wrigley's workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+"^A"|: uD2 | "G"B4 c>B | "D/F#"A2 B2 c2 | "Em"d2 (uB2 A2) | "G/D"(G2 F2) uG2 | "C"E3 (E F>G) | "G"D G3 B2 |
+"A7"(B2 A2) ^G2 | "D"A4 D2 || "G"B4 vc>uB | "D"A2 (B2 c2) | "Em"d2 (uB2 A2) | "G/D"G2 (uF2 G2) | "C"E3 (E F>G) |
+"G"D uG3 [c2G2] | "D"[B3G3] [cG] [A2G2] | "G"G4 "^B":: E2 | "G"D2 (d3 c) | "D/F#"B2 A2 vG2 | "Em"(A2 B2) c2 |
+"G/D"(B2 A2) G2 | "C"E3 ve3 (uc | "G"d2 B2) G2 | "A"(E>F G)>(vA B>c) | "D"A6 || "G"[A4G4] [A2G2] |
+"D/F#"[A4F4] uA2 | "B7/D#"B2 b2 a2 | "Em"g6 | "C"E3 (uE F>G) | "G"D G3 c2 | "D"B3 c A2 | "G"G4 :|
+%%center A waltz for St Magnus, the Patron Saint of Orkney.

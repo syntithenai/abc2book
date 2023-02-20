@@ -1,0 +1,20 @@
+X: 15
+T:Ana Be'Koach
+C:Ovadia Chamama 2007
+O:Israel
+F: http://www.youtube.com/watch?v=1EdL_TLbHsg
+M:4/4
+L:1/8
+K:Dm
+Q:1/4=80
+%%MIDI program 41
+%%MIDI gchord ff
+%%MIDI bassprog 117
+"D" z2D2 D4-           |DDED "Am"C2A,2-|\
+A,EDC "Dm"D4-          |DB,CB,"Am"A,4  |
+"Dm"FFGF F4-           |FGFG "Edim"A2E2|\
+-EEFE "Dm"G2D2-        |DDED ^C4       |
+F/E/D F/E/D F/E/D F/E/D|"Am" A,CC2-C4  |\
+F/E/D F/E/D F/E/D F/E/D|"Am" A,CC2-C4  |
+B,C D2 CB, C2          |B,C D2 CB, C2  |\
+A,B,/A,/ G,4 A,/B,/C   |

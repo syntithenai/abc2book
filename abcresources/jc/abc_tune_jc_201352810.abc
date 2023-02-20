@@ -1,0 +1,36 @@
+X: 1
+T:William and Nancy
+M:6/8
+C:
+S:Bacon (MDT)
+N:transposed from F to G
+A:Bledington
+O:English
+R:Jig
+%:
+%:
+%P:A/2(AB)$^2$(AC)$^2$(A)
+P:A.(AB)2(AC)2(A)
+L:1/8
+K:G
+Q:C3=96
+P:A
+|:D|G2 G GBd|e2 e dBG|A2 d BAG|E2 F G2:|\
+P:B
+|:d|e2 d B2 d|gfe  d2 d|e2 d B2 d|gfe  d2 \
+c|B2 B Bcd|e2 e dBG|A2 A BAG|E2 F G2:|\
+Q:C3=84
+P:C
+|:z|\
+M:3/8
+L:1/8
+d3|\
+M:6/8
+e3   d3|B3   d3|(2gf   e3|d3   d3|e3   d3|\
+M:3/8
+L:1/8
+B2 d|\
+Q:C3=96
+M:6/8
+gfe  d2 \
+c|B2 B Bcd|e2 e dBG|A2 A BAG|E2 F G2:|

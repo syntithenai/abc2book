@@ -1,0 +1,15 @@
+X: 64
+T: Farewell to Ballymoney
+R: air, waltz
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #64
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+Q: "Slow and tenderly"
+O: F.O'Neill
+M: 3/4
+L: 1/8
+K: D
+"^A" [|] (DE) |  F2 G2 ((3ABc) |  d2 A2 (AG) | (F2 D2) .F2 |  E2 D2 \
+"^B1"||  (de) | (f2 e2)  .d2   | (c2 A2) G2  | .A2 (d2 e2) |  d4 |]
+"^B2"[|] (de) | (f2 e2    d2)  | (c2 d2) cA  | (G2 c2) .E2 | (D2 C2) \
+"^A" ||   DE  |  F2 G2 ((3ABc) | (d2 A2) AG  | (F2 D2) .E2 |  D4 |]

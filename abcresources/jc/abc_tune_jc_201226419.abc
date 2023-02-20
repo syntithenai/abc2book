@@ -1,0 +1,17 @@
+X: 10262
+T: HERE AWA, THERE AWA
+Q: "Slow with Express."
+%R: waltz
+B: "Edinburgh Repository of Music" v.1 p.26 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added dot to last note in each strain.
+M: 3/4
+L: 1/8
+K: Am
+|:\
+g3 fed | c3 d c2 | d3 c d2 | e2 a4 |\
+g3 fed | c3 d e2 | Te3 d e2 | {=G2}A6 :|
+|:\
+e2 a2 ^g2 | a3 b c'2 | g3 a gf | e3 f g2 |\
+e2 a2 ^g2 | a3 b c'2 | Te3 d e2 | A6 :|

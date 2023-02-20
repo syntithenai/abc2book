@@ -1,0 +1,49 @@
+X: 1
+T: Up with Aily
+P: Longways for as many as will
+%R: triple hornpipe, slip-ig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.140 #187 (279)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.16
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+D2d A2F A2F | D2d A2F GFE | D2d A2F GAB | =c3 GE=C GE=C |][|\
+d>ef f>ef f>ef | d>ef f>ga ecA | d>ef f>ef f>ed | e3 E2F GFE |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Man take his own Partner with his left Hand, and the Man of
+%% the second Couple with his right Hand, so leads to the second
+%% Woman and falls back again, so cast off into the second Man's
+%% Place, the second Man turning up at the same time into his, and
+%% the two Women at the same time turning round single in their
+%% proper Places.  The first Woman takes the second Man with her right
+%% Hand, and the second Woman with her left, so leads to her Partner
+%% being in the second Man's Place, and falls back again, then cast off
+%% into the second Woman's Place, the second Woman at the same time
+%% turning up into hers, and the two Men turning round Single :|
+%% The first Couple being in the second's Place, go Back to back, then
+%% cast up into their proper Places, the second Couple at the same
+%% Time turning down into theirs .| All four take Hands and go clear
+%% round, then each Couple being in their proper Places, first Couple
+%% cast off into the second's Place :|
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%%    First man takes his own partner with his left-hand, and the man of the 2. cu. with his right-hand, so
+%% leads to the 2. wo. and falls back again, so cast off into the 2. man's place, the 2. man turning up at the
+%% same time into his, and the two we. at the same time turning round single in their proper places,
+%% the 1. wo. takes the 2. man with her right-hand and the 2. wo. with her left, so leads to her Partner being
+%% in the 2. man's place, and falls back again, then casts off into the 2. wo's place, the 2. wo. at the same time
+%% turning up into hers, and the two men turning round single :| The 1. cu. being in the 2d's place, go back
+%% to back, then cast up into their proper places, the 2d. cu. at the same time turning down into theirs .|
+%% All 4 take hands and go clear round, then each cu. being in their proper places, first cu. cast off into
+%% the 2d's place :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

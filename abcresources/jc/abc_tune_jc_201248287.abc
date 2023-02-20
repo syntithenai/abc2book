@@ -1,0 +1,25 @@
+X: 1
+T: The Atholl Highlanders Jig (Balkanized)
+O: Trad
+N: This tune works well in the middle-eastern "hejaz/hijaz/freygish" scale.
+R: jig-time march
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: _B^c	% A hijaz
+c/d/ \
+| "A"e3 e>cA | ecA "Gm"Bcd \
+|1,3 "A"e3 e>cA | "Gm"Bcd cBA \
+:|2,4 "A"e-<ae "Dm"fed | "Gm"cdB "A"A2 :|
+|: c/B/ \
+| "A"A>ce Ace | "Dm"A>df Adf \
+|1,3 "A"A>ce Ace | "Gm"Bcd c2B \
+:|2,4 "A"e-<ae "Dm"fed | "Gm"cdB "A"A2 :|
+|: e \
+| "A"a2e edc | a2e edc \
+|1,3 a2e edc | "Gm"Bcd cBA \
+:|2,4 "A"e-<ae "Dm"fed | "Gm"cdB "A"A2 :|
+|: B \
+| "A"c>Ac cAc | "Gm"d-<Bd dBd \
+|1,3 "A"c-<Ac cAc | "Gm"B-<GB Bcd \
+:|2,4 "A"e-<ae "Dm"fed | "Gm"cdB "A"A2 :|

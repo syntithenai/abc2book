@@ -1,0 +1,17 @@
+X: 223
+T: The Keel Row
+R: reel
+M: C|
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Abraham Mackintosh "A Collection of Strathspeys, Reels, Jigs &c.", Newcastle, after 1797, p.22
+F: http://imslp.info/files/imglnks/usimg/a/a8/IMSLP80796-PMLP164326-Abraham_Mackintosh_coll.pdf
+K: A
+V: 1
+d | c2Ac d2Bd | c2Ac BGEd | cAAc d2Bd | cABG A3 :|
+|: d | ceea {g}f2ed | c2Ac BGEd | ceea {g}f2ed |1 cABG A3 :|2 cabg afe |]
+V: 2 clef=bass middle=d
+z | [a2c'2e'2][a2c'2e'2] [e2g2b2e'2][e2g2b2e'2] | [a2c'2e'2][a2c'2e'2] [e2g2b2][e2g2b2] |\
+    [a2c'2e'2][a2c'2e'2] [e2g2b2e'2][e2g2b2e'2] | [a2c'2e'2][e2g2b2e'2] [a3c'3e'3] :|
+|: z | a2c'2 d'2c'b | a2A2 e2E2 | a2c'2 d'2c'b |1 a2e2 a2A :|2 a2e2 a2A |]
+

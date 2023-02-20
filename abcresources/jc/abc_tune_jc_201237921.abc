@@ -1,0 +1,22 @@
+X:1
+T:2-Part Lark  / Boys of the Town / Geese in the Bog
+R:jig
+M:6/8
+"2-Part Lark in the Morning"
+K:D
+dcB|:AFD D2A|DEF A2d|BGG dGG|BAG BdB|
+AFD D2A|DEF A2B|def gfe|1 fdd dcB :|2 fdd d2B:|
+|: Add fdd|add fed|Add fed|edB BAF|
+Add fdd|add efg|faf ede|1 fdc d2B :|2 fdd d3 ||
+K:G
+"The Boys of the Town"
+ef|:ged B2A|BGE G2A|B2B ABA|GBd e2d|
+ged B2A|BGE G2A|BdB AGA|1 BGF G2f:|2 BGF G2B|
+|:def g3|eaa eaa|bag e2d|egg efg|
+def gfg|afd efg|edB AGA|1 BGF G2B :|BGF G3||
+K:C
+"The Goose in the Bog"
+AB|:cEE GEE|cEE GAB|cEE GED|EAA A2B|
+cEE GEE|cEE GAB|cBA BAG|EAA A2B :|
+|: cde ged|eaa ged|cde ged|eaa a2B|
+cde ged|eaa ged|c2A BAG|EAA A2B:||

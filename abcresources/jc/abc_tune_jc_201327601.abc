@@ -1,0 +1,43 @@
+X: 1
+T:Ragtime Pipers
+M:C|
+L:1/8
+Q:80
+C:R. Mathieson
+S:Hornpipe
+K:HP
+|: e2|
+{g}A{Gdc}d{g}A3/4d/4{g}f3/4a/4|
+{g}a3/4f/4{a}g3/4e/4{gBd}B{g}e3/4d/4|  !
+{gcd}c{g}e3/4c/4{g}A3/4{d}c/4{g}e3/4A/4|
+{g}d3/4f/4a3/4f/4{gf}g{a}f3/4e/4| |
+{g}A{Gdc}d{g}A3/4d/4{g}f3/4a/4|  !
+{g}a3/4f/4{a}g3/4e/4{gBd}B{g}e3/4c/4|
+{g}A3/4{d}c/4{g}e3/4a/4g3/4e/4{g}c3/4d/4|
+{g}e3/4d/4{c}d3/4c/4{Gdc}d2:| |:  !
+| {ag}af3/4d/4{g}A3/4d/4{g}f3/4a/4|
+{g}a3/4f/4{a}g3/4e/4{gBd}B{g}e3/4d/4|
+{gcd}c{g}e3/4c/4{g}A3/4{d}c/4{g}e3/4A/4|  !
+{g}d3/4f/4a3/4f/4{gf}g{a}f/4g3/4| |
+{ag}af3/4d/4{g}A3/4d/4{g}f3/4a/4|
+{g}a3/4f/4{a}g3/4e/4{gBd}B{g}e3/4c/4|  !
+{g}A3/4{d}c/4{g}e3/4a/4g3/4e/4{g}c3/4d/4|
+{g}e3/4d/4{c}d3/4c/4{Gdc}d2:| |:
+| {g}A3/4d/4{g}f3/4A/4{g}d3/4f/4a3/4f/4|  !
+{a}g3/4a/4g3/4e/4{gBd}Bg3/4e/4|
+{gcd}c{g}e3/4c/4{g}A3/4{d}c/4{g}e3/4A/4|
+{g}d3/4f/4a3/4f/4{gf}g{a}f3/4e/4| |  !
+{g}A3/4d/4{g}f3/4A/4{g}d3/4f/4a3/4f/4|
+{a}g3/4a/4g3/4e/4{gBd}Bg3/4e/4|
+{g}A3/4{d}c/4{g}e3/4a/4g3/4e/4{g}c3/4d/4|  !
+{g}e3/4d/4{c}d3/4c/4{Gdc}d2:| |:
+{g}f/4g3/4|
+{ag}ag/4a3/4f3/4A/4{g}f/4a3/4|  !
+{gf}g{a}f/4g3/4{a}B/4{G}B3/4{g}e3/4d/4|
+{gcd}c2{g}e3/2{gcd}c2|
+{g}A{gcd}c{gef}e| |  !
+{ag}ag/4a3/4f3/4A/4{g}f/4a3/4|
+{gf}g{a}f/4g3/4{a}B/4{G}B3/4{g}e3/4c/4|
+{g}A3/4{d}c/4{g}e3/4a/4g3/4e/4{g}c3/4d/4|  !
+{g}e3/4d/4{c}d/2c/4{Gdc}d2:|
+

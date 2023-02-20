@@ -1,0 +1,696 @@
+
+X: 0
+T: Italian Session at NEFFA 2019
+K:
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Arrivederci, Roma   [A]
+C: Music: Renato Rascel (1955)
+%C: English words: Carl Sigman
+C: Italian words: Pietro Garinei & Sandro Giovannini
+N: From the MGM movie "The Seven Hills of Rome"
+M: C|
+L: 1/8
+K: A
+%P: Chorus:
+"A"|: E2 | "A"c6 e2 | "Dm"d6 "E7"c2 | "A"B4 A4- | A6 E2 | "A"c6 G2 |
+w: Ar-ri-ve-der-ci, Ro-ma...* Good-bye, good-
+ "C#7"B6 "C#7+"A2 | "D"F4- "F#7"F4- | "Bm"F4 "B"|| "E"GGGG |"E"G3B "(Bm)"G3F |
+w: bye, to Rome.** 1.~Si ri-tro-va~a pran-zo~a Squar-cia-
+w: | | ~ 2.~Si ri-ve-de~a spas-so~in ca-roz-
+ "E"F2E2 GGGG | G3B "(Bm)"G3F | "E"F2E2 "I"[|]GGGG |
+w: rel-li, fet-tuc-ci-ni~e vi-no dei Cas-tel-li, co-me~ai tem-pi
+w: zel-la, e ri-pen-za~a quel-la "ciu-ma-chel-la", ch'e-ra tan-to
+G3B "(Bm)"G3F | "E7"F2E2 "Dm"d2"E7"c2 |1 "A"e8- | "(E7)"e4 z2 :|2 "A"A4- "(D)"A4- | "A"A6 |]
+w: bel-li che Pi-nel-li~im-mor-ta-l\`o!
+w: bel-la~e~ che gli~ha det-to sem-pre | || "No!"
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 2
+T: Bella Ragazza   [A]
+T: Babbo non Vuole
+O: Italia
+M: 3/4
+L: 1/4
+K: A
+"Verse"z2 [cA] |\
+"A"[e2c2][cA] | [ec][dB][cA] | "E7"[B2G2][cA] | [d2B2][^d^B] |\
+"A"[ec][c2A2]- | [c2A2] [c'a] | [e'c'][c'2a2] ||
+w: 1.~Bel-la ra-gaz-*za dal-le trec-ce bion-de,
+w: 2.~Ve-nir se voi* vo-le-te nel giar-di-no,
+w: 3.~Un gel-so-mi-no a voi v'ho re-ga-la-re,
+w: 4.~Poi vi di-r\`o* che ro-s'~a pri-ma-ve-ra,
+z2 [cA] |\
+"A"[e2c2][cA] | [ec][dB][cA] | "E7"[B2G2][cA] | [d2B2][^d^B] |\
+"A"[ec][c2A2]- | [c2A2] [c'a] | [e'c'][c'2a2] |]
+w: 1.~i gio-va-ni* per voi fan-no la ron-da.
+w: 2.~vi tro-ve-re-*te~o bel-la~un gel-so-mi-no.
+w: 3.~in pe-gno del* mio ve-ro~e gran-de~a-mo-re.
+w: 4.~non \`e quan-to* voi sie-te tan-to ca-ra.
+"Refrain"AAA |\
+"D"[f2d2][fd] | [fd][ge][af] | "A"[e2c2][ec] | [ec][fd][ge] |\
+"Bm"[d2B2][dB] | "E7"[dB][ec][fd] | "A"[c3A3] |]
+w: Bab-bo non vuo-le, mam-ma nem-me-no, co-me fa-re-mo~a fa-re l'a-mor.
+AAA |"D"[f2d2][fd] | [fd][ge][af] | "A"[e2c2][ec] | [ec][fd][ec] |\
+"E7"[g2B2][gB] | [gB][fd][gd] | "A"[a3c3] |]
+w: Bab-bo non vuo-le, mam-ma nem-me-no, co-me fa-re-mo~a fa-re l'a-mor.
+%%text The last phrase (8 bars) may be played every time, or only the last time.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 3
+T: (C'\'e la) Luna Mezzo Mare   [E]
+O: Sicilian folk tune
+R: jig, tarantella
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+S: https://www.youtube.com/watch?v=n9FMvfvkBro [Lou Monte]
+S: https://www.youtube.com/watch?v=Pflp9MdhXSM [Patrizio Buanne]
+S: https://www.youtube.com/watch?v=yb2KwewOBEA [Dean Martin]
+S: https://www.youtube.com/watch?v=onr3Kn7UUgE [Toni di Marti]
+M: 6/8
+L: 1/8
+K: E
+"Chorus/Verse"|:\
+z3 z3 | z3 z3 | z3 z3 | z3 g2g |\
+"E"e2e "(B7)"f2f ||["Nx" "E"e2e "(B7)"f2f || "E"e2d c2B |
+"B7"B3 F3- | F3 z3 | z3 z3 | z3 a2a |\
+"B7"f2f f2e | d2d d2c | B2B c2d | "E"e3 z3 :|
+"Intro/Bridge" [|\
+"E"g3 "(B7)"f3 | "E"e3 c2B | e2d c2B | "B7"d6 |\
+f3 e3 | d3 d2c | B2B c2d | "E"e3 z3 |]
+"Coda"[|\
+"E"g3 "(B7)"f3 | "E"e3 z2g | "E7"a2g f2g | "A"a3 z3 |:\
+["Nx" "A"a2a b2a | "E"g2g e2e | "B7"f2f e2d | "E"e3 z3 :|
+%
+%W:Re-occuring Chorus:
+%W:     C'e 'na luna mezz'u mare.  Mamma mia m'a maritare.
+%W:     Figlia mia a cu te dare?  Mamma mia pensace tu.
+%W:          There is a moon is in the middle of the sea.  Oh mother I must get married.
+%W:          Oh my daughter who will we get for you? Mother I leave it up to you.
+%W:Repeating Bridge:
+%W:     La lariula pesce fritt'e baccala (or Oh Mama, la la la la la la).
+%W:     Uei cumpa no calamare c'eggi'accatta.
+%W:          La lariula (meaningless scat), fried fish and cod.
+%W:          Oh godfather, I will buy him a squid.
+
+
+X: 4
+T: Ciao, Ciao, Bambina   [D]
+T: Piove
+C: Modugno-Verdi
+M: C|
+L: 1/4
+F: http://www.youtube.com/watch?v=ygiHfNMwpdI (Domenico Mudugno)
+F: http://www.youtube.com/watch?v=8t3Ru6EaF-Q (Domenico Mudugno)
+F: http://www.youtube.com/watch?v=vQFUv2M6LRg (Carla Codevilla, Enzo-Trio, Dalida)
+K: D
+A2 | B2 c2 | "Em"B2 B2 | zG FE | G2 G2 | "A7"zA Bc | "D"A2 A2 | zF ED | F4 |
+zF ED | "D(Bm)"F2 F2 | zA GF | "F#m"A2 A2 | zA Bd | "B7"c2 B2 | "E7"z^G AB | "A"c4 |
+"A7"zA Bc | "Em"B2 B2 | zG FE | G2 G2 | "A7"zA Bc/-c/ | "D"A2 A2 | zF ED | F4 |
+zF ED | "D(Bm)"F2 F2 | zA GF | "F#m"A2 A2 | zA BA | "E7"B2 B2 | "A7"zc de/-e/ | "D"d4 | z2 |]
+%
+%:Verse:
+%:     Mille violini suonati dal vento        Tutti i colori dell'arcobaleno
+%:     Vanno a fermare una pioggia d'argento  Ma piove, piove sul nostro amor
+%:Spoken:
+%:     Ciao, bambina!  Ti voglio bene da morire!  Ciao! Ciao!
+%:Final refrain:
+%:     Ciao, ciao, bambina, non ti voltare   Non posso dirti rimani ancor
+%:     Vorrei trovare parole nuove           Ma piove, piove sul nostro amor
+%:
+%W:Translation:
+%W:    Bye, bye baby, one more kiss, and then I'll lose you forever.
+%W:    Like a fairy tale love goes by. Once upon a time it was here, then it isn't any more.
+%W:    What's trembling on your little face?  Is it rain or tears?  Tell me what it is.
+%W:    I'd like to find new words.  But it's raining, it's raining on our love.
+%:
+%:    But it's raining, it's raining on our love   A thousand violins, played by the wind
+%:    All the rainbow's colours   Are going to stop a silver rain
+%:    Bye, bye, baby, don't turn back. I can't tell you to stay longer.
+%:    But it's raining, it's raining on our love   Goodbye, baby!
+%:    I love you so much that   I could die!   Bye!   Bye!
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 5
+T: Ciribiribin   [A]
+C: music: Alberto Pestalozza (1898)
+M: 3/4
+L: 1/8
+K: A
+"A"[| e2 c2 ||\
+"A"B4 A2 | G4 A2 | FG E4- | E2 A2 B2 | "A"c4 e2 | f4 a2 | "E7"g6 | z2 g2 b2 ||\
+"E7"f4 a2 | g4 f2 | gf B4 | z2 B2 c2 | "E7"d4 e2 | f4 g2 |
+"A"e6 | z2 e2 c2 ||\
+"A"B4 A2 | G4 A2 | FG E4- | E2 e2 f2 | "F#7"=g4 f2 | =g4 f2 | "Bm"f6 | z2 B2 c2 ||\
+"E7"d4 c2 | B4 f2 | "A"ec A4 |
+"(Dm)"z2 A2 B2 |\
+"A"c2 e2 c2 | "E7"B4 e2 | "A"A4 z2 "B"[| c2 c3 c ||\
+"F#m"f6 | c2 c3 c | "C#7"g6 | c2 c3 c | "C#7"c6 | G2 A3 B | "F#m"c6- | c2 z2 c2 ||
+"C#"c6- | c2 z2 e2 |\
+"E7"e6 | z2 e_edc | e2 e_edc | "A"e2 e_edc | "E7"e6 | z2 "C"|: "E7"e_edc ||\
+"A"e4 c2 | B4 A2 | E2 z2 A2 | B4 A2 |
+"A"E4 c2 | B4 A2 | "Bm"d6 | z2 f=fed ||\
+"E7"g4 f2 | d4 c2 | B2 z2 B2 | c4 B2 | "E7"f4 a2 | g4 f2 | "A"f6 | e2 "E7"e_edc ||\
+"A"e4 c2 | B4 A2 |
+E2 z2 A2 | B4 A2 |\
+"A"E4 c2 | "(A+)"B4 A2 | "D"f6 | z2 gf^ef ||\
+"D"a6 | z2 gf^ef | "A"a6 "I"| z2 cB^AB | "Bm"d4 G2 | "E7"c4 B2 | "A"A6 | z2 :|
+
+
+X: 6
+T: Funicul\`i-Funicul\`a    [A]
+C: Luigi D'Enza 1880
+R: tarantella
+M: 6/8
+L: 1/8
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+K: A
+"A"|: e3 \
+| "A"a6- | a2a g2g \
+| e2e f2f | c3 c3- \
+| c2c "E7"B2A | "A"A6 \
+| z2c "E7"B2A | "A"A6- | Az2 :|
+"B"[| c3 \
+| "C#m"c6- | c2c "G#7"^d2d \
+| "C#m"c2c "G#7"^d2d | "C#m"c3 c3- \
+| c2G "G#7"G2G | "C#m"G6 \
+| z2G "G#7"G2G | "C#m"G6- | Gz2 e3 |
+| "E"e6- | e2e "B7"f2f \
+| "E"e2e "B7"f2f | "E"e3 e3- \
+| e2B "B7"B2B | "E"B6 \
+| z2B "B7"B2B | "E"B6- | Bz2 z3 |]
+"C"|: "E7"[g3e3] [fd]z2 | [g3e3] [fd]z2 \
+| "(D)"[a2f2][ge] [f2d2][af] | "E7"[g3e3] z3 \
+|  "E7"[g3e3] [fd]z2 | [g3e3] [fd]z2 \
+| "(D)"[a2f2][ge] [f2d2][af] | "A"[e2c2][cA] [c2A2][cA] |
+| "C#7"[c2B2][cB] [c2B2][cB] | "F#m"[c2A2][cA] [c2A2][cA] \
+| "C#7"[c2G2][cG] [c2G2][cG] | H"F#m"[a6f6c6A6F6] \
+| "D"[b2g2][af] [f2d2][af] | "A"[e2c2][cA] [c2A2][dB] \
+| "E7"[e2c2][dB] [c2A2][BG] | "A"[A3A3] z3 :| Hz3 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 7
+T: Giga di Rocca Grimalda   (A)
+O: Italy
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+N: Rocca Grimalda is a small town in the Piedmont 30 km northwest of Genoa.
+D: La Ciapa Rusa: track "Carnevale di Roccagrimalda" from album "Ten da chent l'arch\"et che la sunada l'e longa"
+S: printed MS of unknown origin
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"A2G A2B | c2c cBc \
+| e2e efe | c3 z2 :: c/d/ \
+| "E7"c2B Bcd | c2B Bcd |
+| cBc edc | Bee ecd \
+| "E7"cBB Bcd | cBB BcB \
+| AGF EFG | "A"A3 z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 8
+T: "The Godfather" Theme   [Bm]
+T: Speak Softly, Love
+C: music: Nino Rota (1911-1979)
+%C: words: Larry Kusik
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bm
+FBd "A"||\
+"Bm"cBdB "Em"cBGA | "Bm"F4 zFBd |\
+cBdB cBF=F | "Em"E4 zEG^A ||\
+"Em6"c4 zEG^A | "Bm"B4 zB,DA |
+"Em"GFAG "F#7"GFF^A, | "Bm"B,4 z[BD][BD][_BD] "B"||\
+"A7"[A4C4] [c2E2] [BD][GB,] | "D"[F4A,4] z[FD][AF][FD] |\
+"C"[E4=C4] "C#dim"zEG^E | "F#m"F4 "F#7"zFBd "C"||\
+"Bm"cBdB "Em"cBGA |
+"Bm"F4 zFBd |\
+cBdB cBF=F | "Em"E4 zEG^A ||\
+"Em6"c4 zEG^A | "Bm"B4 zB,DA |\
+"Em"GFAG "F#7"GFF^A | "Bm"B4 z |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 9
+T: La Tua Danza S\`i Leggier\`a    [A]
+T: The Green Hills of Tyrol
+T: The Scottish Soldier
+C: Gioacchino Rossini 1829
+N: Rossini's opera "Guglielmo Tell" 1829
+R: waltz
+N: Scottish version of a melody from Rossini's opera "William Tell", which was
+N: supposedly based on an Alpine folk melody.  Several sets of words have been
+N: written to this tune.  There's a pipe setting  that  is  played  as  a  3/4
+N: retreat march.
+M: 3/4
+L: 1/8
+K: A
+|: EAB \
+| "A"c3 Acd | e3 fcf | "E7"ed BG Bf | "A"ec AE AB | "A"c3 Acd | e3 fcf |
+| "E7"ed BE GB | "A"A3 :: "A7"Ace | "D"a4 gf | "A"fe eA cf | "E7"ed dc de |
+| "A"dc cA ce | "D"a4 gf | "A"fe eA cf |1 "E7"ed dc dB | "A"e3 :|2 "E"ed BE GB | "A"A3 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 10
+T: Mattinata   [D]
+T: This Is Our Day
+T: You're Breaking My Heart
+R: waltz
+C: Ruggiero Leoncavallo 1904
+F: https://www.scribd.com/document/374973992/IMSLP482691-PMLP116350-mattinata-pdf
+%date: 1904
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A "A"\
+| "D"def d{ed}cB | "G"dE2 "Em"z2F | "Em"GBd "A7"c{dc}B> C | "D"A3 z2F |
+| "B7"FGA F^D>B, | "Em"FE2 z2D | "F#m"CFA "C#7"^G^EC | "F#m"c3- "A7"c2 |]
+A "B"\
+| "D"def d{ed}cB | "G"dE2 "Em"z2F | "Em"GBd "A7"c{dc}B> C | "D"A3 z2A |
+| "Adim"=cBc A2^G/A/ | "A"f3 e2c | AEC "E7"FD^G | "A"A3- "A7"A3 |]
+"C"\
+|: "D"AFA "Bm"B3 | "D"A{BA}FA "Bm"BB2 | "C#7"B^GB "F#m"c2c | "E7"Bcd "A7"e3 | "F#7"gf> c "Bm"c2d |
+| "E7"ed> ^G "D"B2A |1 "Gm"d_Bd "D"AFD | "A7"GG> C "D"D2z :|2 "Gm"d_Bd "D"AFd | "A7"gg> c "D"d2z |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 11
+T: O Marenariello   [Em,E]
+C: Salvatore Gambardella (1893)
+M: 6/8
+L: 1/8
+P: Andante
+%%slurgraces
+K: Em
+"Intro"[|]y (e2f) |\
+("B7"e3 ^d3) | zAB cBA | "Em"{B}A2G/F/ G3- | G2z (e2f) |\
+("B7"e3 ^d3) | z^de fgf | "Em"{f}e ^DE "B7"FGF | "Em"{GF}E2z z2 |]
+"A"[| B, |\
+"Em"B3 "B7"ABA | "Em"G3 G3 | zGF "B7"E^DF | "Em"Ey "pp"gf "B7"e^df |\
+"Em"ez2 z2B, | "Em"B3 "D7"ABA | "G"G3 "C"G3 | "Em"zGF "B7"E^DF |
+"Em "Ey "pp"gf "B7"e^df | "E"ez2 "(B7)"z3 |] [K:E]\
+"B"|: "E"GDE G2E | "A"C3 "E"B,3 |\
+G^^FG "C#7"A2G | "F#m"{AG}F3 z3 |\
+ABc "B7"d2c | "E"c2B E2z |
+"F#m"FGA "B7"G2F | "E"B3 "(B7)"z3 "C"|]|\
+"E"z2G B2G | B3 B3 |\
+z2c d2c | "F#m"c2B A3 |\
+z2F A2F | "B7"A3 A3 |\
+z2B c2B | "E"{BA}G6 ||
+z2G B2G | B3 B3 |\
+z2G A2B | "F#m"d3 c3 |\
+z2c B2A | "E"G3 B3 |\
+z2G "B7"{FG}F2E | "E"E3- "A"E3- | "E"E3 z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 12
+T: O Maria, Mari   [Bm,B]
+C: Eduardo di Capua (1865-1917)
+O: Italy
+R: waltz
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bm
+"Intro"[|]C/D/EF \
+| "Bm"DF2 "F#7"C/D/EF | "Bm"DF2 "F#7"^A/B/cd \
+| "Bm"BF2 "F#7"C/D/EF | "Bm"B,3 z3 |  z3 ||
+"A"\
+|: "(F#7)"z2F \
+| "Bm"d3- "F#7"dc/B/^A/c/ |  "Bm"B/^A/B2- "(B7)"B2z \
+|  "Em"B3- BB/^A/B/G/ |  "Bm"F/^E/F2- F2z \
+|  "F#7"E3- EE/^D/E/F/ |  "Bm"=D3 D2z |
+|  "Em"C3- "F#7"CC/^B,/C/D/ | "Bm"B,3 \
+"B":: [K:B]  "(F#7)"z[BD][cE] \
+| "B"[B3-D3-] "(F#7)"[BD][GE][AF] | "B"[D3-F3-] [DF][DF][DG] \
+| [GD][GD][AD] [AD][AD][FD] | "C#m"[G3-E3-] [G3E3] |
+| "F#7"[A3F3] [B2G2][cA] | (3[A/F][B/G][A/F] [G2-E2-] [GE][GE][GE] \
+| [AF][AF][AF] [AF][BG]>[cA] | "B"(3[G/E][A/F][G/E] [F2-D2-] [FD][BD][cE] \
+| "B"[B3-D3-] "(F#7)"[BD][GE][AF] | "B"[D3-F3-] [DF][BD][cE] |
+| "G#7"[dF][dF]>[^^c^E] [dF][eG][f=A] | "C#m"(3[d/F][e/G][d/F][c2-E2-] [cE][cE][dF] \
+| "E"[e3G3] "Em"[c2=G2E2][dGE] | "B"[B3-D3F3-] [BDF][GE][AF] \
+| "F#7"[F3-E3-] [FE][cAE][dAE] | "B"[B3D3F3] :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 13
+T: O Mio Babbino Caro    [A]
+O: from "Gianni Schicchi"
+C: Giacomo Puccini
+S: Gary Dahl "Italian Songa & Arias for Accordion" pub. Mel Bay 2003 p.12
+S: https://www.music-for-music-teachers.com/o-mio-babbino.html
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+%%continueall 1
+E [| "A"AAA c2G | "(D)"F3 "A"E3 | "A"ABc A2a | e3- e2c ||
+"E"e2B "Bm"d2c | "Fm"A3 A3 | ABc "B7"A2G | "E"B3- B2 E ||
+"A"A3 cAG | "(D)"F3 "A"E3 | ABc A2a | e3- e2f ||
+"D"a2f "E"e2d | "Cm"e3 "Fm"c3 | "D"ABc "Bm"A2F | "Fm"A3- A2 |]
+f | "D"a2f "E7"e2d | "A"a2e "D"d2c | "Bm"f6- | "D"f2d "E"c2B |] "A"A3 z3 |
+ "A"AAA c2G | "(D)"F3 "A"E3 | ABc A2a | e3- e3 | "D"ABc "Bm7"A2F | "A"A3 z2 |]
+
+
+X: 14
+T: O Mio Babbino Caro    [D]
+O: from "Gianni Schicchi"
+C: Giacomo Puccini
+S: Gary Dahl "Italian Songa & Arias for Accordion" pub. Mel Bay 2003 p.12
+S: https://www.music-for-music-teachers.com/o-mio-babbino.html
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% %continueall 1
+A, [|\
+"D"DDD F2C | "(G)"B,3 "D"A,3 | "D"DEF D2d | A3- A2F ||\
+"A"A2E "Em"G2F | "Bm"D3 D3 | DEF "E7"D2C | "A"E3- E2 A, ||
+"D"D3 FDC | "(G)"B,3 "D"A,3 | DEF D2d | A3- A2B ||\
+"G"d2B "A"A2G | "Fm"A3 "Bm"F3 | "G"DEF "Em"D2B, | "Bm"D3- D2 |]
+B |\
+"G"d2B "A7"A2G | "D"d2A "G"G2F | "Em"B6- | "G"B2G "A"F2E |] "D"D3 z3 |\
+"D"DDD F2C | "(G)"B,3 "D"A,3 | DEF D2d | A3- A3 | "G"DEF "Em7"D2B, | "D"D3 z2 |]
+
+
+X: 15
+T: O Mio Babbino Caro    [D]
+O: from "Gianni Schicchi"
+C: Giacomo Puccini
+S: Gary Dahl "Italian Songa & Arias for Accordion" pub. Mel Bay 2003 p.12
+S: https://www.music-for-music-teachers.com/o-mio-babbino.html
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% %continueall 1
+A [|\
+"D"ddd f2c | "(G)"B3 "D"A3 | "D"def d2d' | a3- a2f ||\
+"A"a2e "Em"g2f | "Bm"d3 d3 | def "E7"d2c | "A"e3- e2 A ||
+"D"d3 fdc | "(G)"B3 "D"A3 | def d2d' | a3- a2b ||\
+"G"d'2b "A"a2g | "Fm"a3 "Bm"f3 | "G"def "Em"d2B | "Bm"d3- d2 |]
+b |\
+"G"d'2b "A7"a2g | "D"d'2a "G"g2f | "Em"b6- | "G"b2g "A"f2e |] "D"d3 z3 |\
+"D"ddd f2c | "(G)"B3 "D"A3 | def d2d' | a3- a3 | "G"def "Em7"d2B | "D"d3 z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 16
+T: O Sole Mio  [D]
+C: music: Eduardo di Capua 1898
+%C: words: Giovanni Capurro
+N: Words by G. Capurro
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: D
+"A"|: "D"zA GF | E2 D2 | DE FD | "Em"C2 B,2 | zC DE |
+"A7"CB, B,2- | B,C DE | "D"(B,A,) A,2 | "D"zA GF | E2 D2 |
+DE FD | "Em"{D}C2 B,2 | zG FE | "D"AF ED | "A7"E3 F | "D"E2{FE}D2 "B"|]|
+zHd yHdyHcy | "D"(cA) A2 | zc cB | "Em"{B}G4 | zc cB | "Em"{B}G2 G2 | "A7"zE FG | "D"A4 |
+z2 z A | "Gm"_B2 B2 | zG d>_B | "D"A2 A2 | zF ED | "A7"A4 | zF {EF}E>C | "D"D4 :|
+y4 y4 y4 y4 y4 y4 |["Coda" zF ED | "A7"A2 A2 | zA [fA]>[eG] | "D"[d4F4] |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 17
+T: Santa Lucia   [D]
+O: Italy, trad Napoli
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+R: waltz
+L: 1/8
+M: 3/4
+K: D
+|: "D"A2 A3 d \
+| "A7"dc c4 \
+| "G"G2 G3 B \
+| "D"BA A4 \
+| "B7"F2 B2 A2 \
+| "Em"A_AG4 \
+| "A7"G2 F2 E2 \
+| "D"B2 A4 :|
+|: "D"f2 e2 d2 \
+| "Em"cB e4 \
+| "G"e2 d2 B2 \
+| "D"^GA d4 \
+| "D"fd dA AF \
+| "Em"Ge e4 \
+|1 "A7"e2 B3 c \
+| "D"e2 d4 \
+:|2 "A7"e2 f3 e \
+| "D"e2 d4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 18
+T: Tarantella Napoletana    [Bm]
+T: Wedding Tarantella
+T: Cicerenella
+R: tarantella
+O: Italy
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+N: If the D part is used, the order may be ADBC or ADABAC.
+M: 6/8
+L: 1/8
+P: ABACA(DA)
+K: Bm
+%
+"A"\
+|: b2b \
+| "Bm"f2f b2b | f2f f2f | "Em"g2g gag | "Bm"g2f fgf \
+| "F#7"f2e efe | "Bm"e2d ded | "F#7"d2c d2c | "Bm"B2z :|
+"B"\
+|: B2c \
+| "Bm"dcd "Em"edc | "Bm"dcd "Em"edc | "Bm"dcB "F#7"^ABc | "Bm"B2z B2c \
+| "Bm"dcd "Em"ede | "Bm"fef "Em"gfe | "Bm"dcB "F#7"^ABc | "Bm"B2z :|
+"C"\
+|: "A7"ABc \
+| "D"dcd fdf | a2a aba | "A7"a2g gag | "D"g2f "A7"ABc \
+| "D"dcd fdf | a2a a^ga | "A7"c'ba gfe | "D"d2z :|
+"D"\
+|: f2g \
+| "D"a2a b2a | "A7"g2f e2f | g2g a2g | "D"f2e d2f \
+| "B7"a2a b2a | "Em"g2f e2f | "A7"gag f2e | "D"d2z :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 19
+T: Tarantella Siciliana (Em)
+R: tarantella
+O: Italy
+B:
+D:
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+   Bef \
+| "Em"g>ag "B7"f>gf | "Em"e2b fbb | "B7"fbb fbb | "Em"gfe Bef \
+| "Em"g>ag "B7"f>gf | "Em"e2b fbb | "B7"fbb fbb | "Em"e3 :|
+|: bc'b \
+| "B7"afg  aba | "Em"gef gag | "B7"f^de fga | "Em"bge b2b \
+| "B7"afg  aba | "Em"gef gag | "B7"fc'b agf | "Em"e3 :|
+|: EGB \
+| "Em"ez2 "Am"ez2 | "Em"e3 zdc | "B7"BcB AGF | FBG "Em"E2z \
+| "Em"ez2 "Am"ez2 | "Em"e3 zdc | "B7"BcB AGF | "Em fine"E3  :|
+|: zBc \
+| "G"dBG dBG | dBG ded | "D7"cBA cBA | "G"dBG zBc \
+| "G"dBG dBG | dBG d^cd | "D7"fed cBA | "G"G3 :|
+|: zGF \
+| "Em"EzE- EEG | BzB- BzB | "B7"AFG ABA | "Em"GFE zGF \
+| "Em"EzE- EEG | BzB- B^AB | "B7"dcB AGF | "Em"E3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 20
+T: Torna a Sorrento   [Em,E]
+T: Come Back To Sorrento
+C: Ernesto De Curtis (1902)
+R: waltz
+O: Italy
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Em
+"A"\
+|: "Em"EF GA BG | B2 B4 \
+| "Am"AB cA cA | "Em"e2 e4 \
+| "C"ef gf ef | "Em"B2 B4 \
+| "B7"AB AG FG | "Em"E4 z2 :| [K: E]
+"B"\
+[| "E"ed Bc dB | "Fm"c2 c4 \
+| "B7"dc Bc dB | "E"c2 c4 \
+| GA BG FE | "F#m"A2 A4 \
+| "B7"Bc dc Bd | "E"G4 z2 |]
+"C"\
+[|"E"ed Bc dB | "Fm"c2 c4 \
+| "B7"fe de fd | "C"e2 e4 \
+| "Am"ef =gf ef | "Em"B2 B4 \
+| "B7"AB A=G FG | "Em"E4 z2 |]
+"D"\
+[|"E"ef d3 c | "Fm"e6 \
+| "B7"zd ef dc | "E"B2 B4 \
+| "Am"A2 =c2 e2 | "Em"=g3 f e2- \
+| "B7"ef ^d3 e | "Em"e4 z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 21
+T: Tra Veglia e Sonno    [Em,E]
+T: Between Awake and Asleep
+C: Mo. Luigi Canora
+R: mazurka
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 3/4
+L: 1/8
+P: AABBACCA
+K: Em
+"A"\
+|: "Em"e>f ge BG | "Am"F2-F4 | "B7"A>B cA F^D | "Em"E2-E4 \
+| "Em"B,>E GB ef | "B7"e>^d f4 |1,3 {f}e>^d f4 | "Em"{g}f>e g4 :|
+[2,4 "B7"{e}^d>c BA GF | "Em"Ez [eG]!fine!z z2 :|\
+"B"\
+|: "Em"Bc/B/ ^AB cB | "B"^d>e f4 \
+| "B7"Bc/B/ ^AB cB | "Em"e>f g4 |
+| "E7"e=f/e/ ^de fe | "Am"e>c A2>> c2 | "B"B>c B>A G>F \
+|1,3 "Em"A3 _A G2 :|2,4 "Em"Ez [eG]z z2 :|
+"A"\
+|: "Em"e>f ge BG | "Am"F2-F4 \
+| "B7"A>B cA F^D | "Em"E2-E4 \
+| "Em"B,>E GB ef | "B7"e>^d f4 \
+|1 {f}e>^d f4 | "Em"{g}f>e g4 :|
+[2 "B7"{e}^d>c BA GF | "Em"Ez [eG]z z2 |][K:E]\
+"C"\
+|: "B7".d>.f .c.e .B.d | "B7"Az [A3D3] .e \
+| "B7".d>.f .c.e .B.d | "E"c>c G3 ^F |
+| "E".G>.A .^A.B .^B.c | "B7"dz [d3B3] G \
+|1,3 "B7".A>.B .c.d .e.f | "E"gz [g3B3] .e \
+:|2,4 "B7"A>B ^Bc gf | "E"ez [eG]z z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 22
+T: Tu Scendi Dalle Stelle
+C: Alfonso Maria de' Liguori 1744
+M: 6/8
+L: 1/8
+K: A
+[ec] |\
+"A"[e2c2][fd] [e2c2][dB] | "A"[dB][c2A2]- [c2A2][BG] |\
+"A"[cA][dB][ec] [ec][dB][cA] | "E7"[B3G3]- [B2G2][cA] |\
+"E7"[B2G2][cA] [d2B2][cA] | "E7"[B3G3] "D"[f2d2][fd] |\
+"E7"[ec][fd][ec] [dB][cA][BG] | "A"[c3A3]- [c2A2][cA] |
+"E7"[B2G2][cA] [d2B2][cA] | "E7"[B3G3] "D"[f2d2][fd] |\
+"E7"[ec][fd][ec] [dB][cA][BG] | "A"[A3E3]  [c2A2][ec] |\
+"E7"[d2B2][dB] [BG][cA][dB] | "A"[c2A2][cA] [cA][dB][ec] |\
+"E7"[d2B2][dB] [BG][cA][dB] | "A"[c3A3]- [c2A2][cA] |
+"A"[cA][BG][cA] [ec][dB][cA] | "E7"[B3G3]- [B2G2][cA] |\
+"E7"[B2G2][cA] [d2B2][cA] | "E7"[B3G3] "D"[f3d3] | "E7"[ec][fd][ec] [dB][cA][BG] |\
+"A"[c3A3]- [c2A2][cA] | "E7"[B2G2][cA] [d2B2][cA] |\
+"E7"[B3G3] "D"[f3d3] | "E7"[ec][fd][ec] [dB][cA][BG] | "A"[A3E3] z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 23
+T: Il Valzer di Mezzanotte    (Bm/B)
+C: Franc Amodio 1937
+S: Roaring Jelly collection
+P: (AABBC)xN+A
+M: 3/4
+R: Waltz
+L: 1/8
+K: Bm
+F cc de "A"[|\
+"Bm"f6 | "Em"g6 | "Bm"fe d4- | d2ef ed |\
+"F7"c6 | e6 | "Bm"dc B4 | "Bm/F"zF Bc de |
+"Bm"f6 | "B7"a6 | "Em"gf e4- | e2 fg fe |\
+"Bm"d2 z2 f2 | "F7"c2 z2 f2 | "Bm"B3 B B2 |1 !fine!B :|2 "Bm"B2 z2 z2 |]
+K: B
+"B"|:\
+"B"f4 z2 | g2 a2 zb | "F7"a6- | "Cm7"a2 c'3 b |\
+"F7"a4 a2 | g4 =g2 | "B"f6- | f2 f2 e2 |
+"G#7"d6 | d2 f2 zd | "Cm"e6- | "E"e2 f2 e2 |\
+"B"d2 z2 e2 | "F"c2 z2 f2 | "B"B2 zB B2 |1 B6 :|2 "(Bm)"B [K:=g=d=A][K:Bm]
+F Bc de "C"[|\
+"Bm"f4 d2 | "Em"e4 c2 | "Bm"d4 B2 | "F#7"c4 f2 |\
+"Bm"(f2g2)f2 | "Em"(e2f2)e2 | "Bm"(d2e2)d2 | "F#7"c "d.C."y|]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 24
+T: Vieni Sul Mar    [E]
+O: trad Italy
+R: waltz
+Z: 2019 John Chambers <jc@trillian.mit.edu>
+S: Enrico Caruso recording
+M: 3/4
+L: 1/4
+K: E
+"A"[|] EF |\
+"E"GcB | "B7"GEF | "E"GE2 | zEF |\
+GAB | "A"cdc | "B7"F3 | zEF |\
+"E"GcB | "B7"GEF | "E"GE2 | zEF |
+"C#m"GcB | "B7"FAG | "E"E3 | z \
+"B"||\
+EF |\
+"C#m"Gcd | edc | "G#7"c^B2 | z^BB |\
+"C#m"ccd | "F#m"ef=g | "G#7"^g3 | z"(B7)"GF |
+"E"EGB | eed | "A"dc2 | zGA |\
+"B7"BcB | AGF | "E"E3 | z3 \
+"C"\
+|: "E"G3  | "B7"FEF | "E"E3- |
+E3 | "A"e3 | cAc | "E"B3- |\
+B3 "I"| "A"ece | "G#m"dBd | "F#m"cAc |\
+"E"B3 | "E"G3  | "B7"FEF | "E"E3 | z :| z3 |]

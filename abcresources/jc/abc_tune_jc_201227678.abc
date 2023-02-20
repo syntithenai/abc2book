@@ -1,0 +1,19 @@
+X: 109203
+T: BRAES ABOON BONAW
+Q: "Strathspey."
+R:  Strathspey.
+%R: strathspey
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: James Kerr "Merry Melodies" v.1 p.9 s.2 #3
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: D
+|:\
+vD>vFuA>uB A<F A<d | D>FA>F {F}E2 (E<F) |\
+D>FA>B d>ef>e | vd>uB d<F E2 (E<F) :|
+|:\
+d>ef>e d<A F>A | d>ef>A B2 (B<e) |\
+d>ef>d e<f d>uA | B<d A<F E2 [1 (E<F) :|[2 (E<d) |]

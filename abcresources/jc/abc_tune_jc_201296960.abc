@@ -1,0 +1,16 @@
+X: 788
+T: the King of the Clans
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #788
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0788/oneill-1001-0788-1.abc
+M: C|
+L: 1/8
+K: G
+"^A"[|] B \
+| d2(GA) Bdg(e | de)d(B AG)EG | D(GBG) dGBG | ceg(e dc)Bc |\
+| d(GBd) g(dBd) | gdb(g- ag)ef | ga (3(gfe) dBg(e | dBA)c BGG |]
+"^B" [| f \
+| (g2b)g (3(efg) d(f | gd)B(G AG)EG | D(GBG) dGBG | ceg(e dc)Bd |\
+| g2(bg) edg(e | dB)GB (AG)EG | D(GBd) gec(e | d)BAc BGG |]

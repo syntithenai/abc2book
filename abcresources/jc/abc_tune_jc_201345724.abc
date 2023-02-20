@@ -1,0 +1,32 @@
+X:1
+T: The Topaz
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:D
+I:speed 150
+%W: A
+% voice 1 (1 lines, 26 notes)
+K:D
+M:6/8
+L:1/16
+A G |F2 G2 A2 A2 B2 =c2 B2 G2 B2 A2 F2 A2 B2 G2 E2 E2 F2 G2 A2 F2 D2 D4 A G |
+%W:
+% voice 1 (1 lines, 24 notes)
+F2 G2 A2 A2 B2 =c2 B2 G2 B2 A2 F2 A2 B c d2 B2 c d e2 c2 d6 D4 a g |
+%W: B1
+% voice 1 (1 lines, 24 notes)
+f2 d2 f2 f2 d2 f2 e2 c2 e2 e2 c2 e2 f2 d2 f2 f2 d2 f2 g2 e2 g2 g2 e2 g2 |
+%W:
+% voice 1 (1 lines, 24 notes)
+f2 d2 f2 f2 d2 f2 e2 c2 e2 e2 c2 A2 B c d2 B2 c d e2 c2 d6 D4 a g |
+%W: B2
+% voice 1 (1 lines, 24 notes)
+f2 d2 f2 f2 d2 f2 e2 c2 e2 e2 c2 e2 f2 d2 f2 f2 d2 f2 g2 e2 g2 g2 e2 g2 |
+%W:
+% voice 1 (1 lines, 22 notes)
+f2 d2 f2 f2 d2 f2 e2 c2 e2 e2 c2 A2 B c d2 B2 c d e2 c2 d6 D4 ||

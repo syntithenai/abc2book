@@ -1,0 +1,16 @@
+X: 1
+T: Maid of Black
+R: strathspey
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+"A"[|] B |\
+"D"A2 A>B A>B d>e | "D"f>A "A"e>A "D"f>d "G"B<d |\
+"D"A2 A>B A>B d>e | "D"f>d a>f "A"e2 "D"d :|
+"B"[|] e |\
+"D"f>e d>e f>g a>f | "A"e>d B<d e>f g>e |\
+"D"f>e d>e f>g a>f | "Em"g>e "D"a>f "A"e2 d ||
+e |\
+"D"f>e d>e "Bm"f>g a>f | "Em"e>d B<d "A"e>f g>e |\
+"D"f>a "A"e>f "D"d>f "Bm"B<d | "D"A>d "D"a>f "A"e2 "D"d |]

@@ -1,0 +1,17 @@
+X: 1499
+T: Welcome Home
+T: failte ro.mad a .baile.
+R: reel
+%S: s:4 b:16(4+4+4+4)
+O: Cronin
+B: O'Neill's "Music of Ireland" 1850 #1499
+Z: John B. Walsh, walsh@math.ubc.ca 8/22/96
+M: C|
+L: 1/8
+K: D
+"^A"[|] (AG) |\
+FEFG AFD(c | BA)GB AGFD | FEFG A3(g | fd)ec dcAG ||
+FEFG AFD(c | BA)GB AGFD | FEFG A3(g | fd)ec d2 |]
+"^B"\
+[| (de) | fedf edce | dcAB cAGg | fedf edcA | Adce d2 ||
+|| (de) | fedf edce | dcAB cAGE | FEFG A3(g | fd)ec d2 |]

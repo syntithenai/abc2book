@@ -1,0 +1,14 @@
+X: 597
+T: the Wedding   #2
+R: reel
+%S: s:2 b:11(5+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #597
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0597/oneill-1001-0597-1.abc
+N: Compacted via repeats and multiple endings [JC]
+N: Also, all the slurs were dropped in this version, because they differed in the repeats. (JC)
+M: C|
+L: 1/8
+K: G
+"^A"|: dc | B2AG BGAF | G2Bd gedc | BGAG BGAG |[1,3 FDEF G2 :|[2,4 FDEF  G2 :| 
+"^B"|: ef |:: g2ge fgaf |[1,4 g2ge fddf |[2,5 bgef g2(3def :|[3,6 gfge fddg |] bgag bgag | fdef g2 :| 

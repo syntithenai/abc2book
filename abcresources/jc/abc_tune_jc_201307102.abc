@@ -1,0 +1,62 @@
+
+X: 1
+T: Marcia Reale
+T: Royal March
+T: Italian National Anthem
+C: words: Goffredo Mameli 1847
+C: music: Michele Novaro 1847
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+S: Helene Criscio, Tony Santorella "Italian Favorites for Accordion" 1997
+S: https://en.wikipedia.org/wiki/Il_Canto_degli_Italiani
+N: This is two versions combined. The melodies are about the same; their 2nd parts have somewhat different lyrics.
+M: C
+L: 1/8
+K: C
+%%continueall 1
+G2 | "C"(G>A) G4 e2 | (e>f) e4 e2 | (g>f) e4 "G"d2 |
+w: Fra-tel-*li d'I-ta-*lia l'I-ta-*lia se
+%
+"C"(e>d) c2 z2 G2 | (G>A) G4 e2 | (e>f) e4 e2 | (g>f) e4 "G7"d2 | (e>d)c2 z2 "C"e2 |
+w: de-*sta dell-'el-*mo di Sci-*pio s\`'e cin-*ta la tes-*ta Do-
+%
+"E7"e2 B4 d2 | "Am"(c>B) A4 A2 | "E7"(^G>A) B4 E2 | E2 He4 "G7"G2 |
+w: v'\`e la Vit-to-*ria le por-*ge la chio-ma ch\'e
+%
+"C"(G>A) G4 e2 | (e>f) e4 e2 | (g>f) e4 "G7"d2 | "C"c C/C/CC "C7"^CD^DE ||
+w:schia-*va di Ro-*ma. Id-di-o la cre-\`o.
+%
+K: F
+"F"z2 zA A2 A>^G | B2 A>c c2 c>=B |
+w: Strin-giamci  in co-or-te Strin-giamci in co-
+w: Fra-tel-li d'I-tal-lia, l'I-ta-lia s'\`e
+%
+d2 c>c c2 d>e | f2 A>A (d>c) (3cBA |
+w: or-te Vo-lia-mo alla mor-te, che Ita-*lia *chia-
+w: de-sta, de-l'el-mo di Sci-pio s'\`e cin-*ta* la
+%
+"C7"B2- B>B B2 B>A | c2 B>B B2 B>A |
+w: m\`o* strin-giamci in co-or-te strin-giamci in co-
+w: te-sta. Do-v'\`e la Vit-to-ria? Le por-ga la
+%
+c2 B>B g2 g>f | e2 e>d c2 d>e |
+w: or-te vo-lia-mo alla mor-te che Ita-lia chia-
+w: chio-ma, ch\'e schia-va di Ro-ma id-dio la cre-
+%
+"F"f2 zf "Dm"f2 f>e | g2 f>f fg/f/ ed |
+w: m\`o strin-giamci in co-or-te vo-lia-**mo alla
+w: \`o; Strin-giam-ci~a co-or-te, Siam pron-ti* al-la
+%
+"Am"(e^c) A>f  "Dm"f2 f>e | g2 f>f fg/f/ "E7"(dc) |
+w: mor-*te vo-lia-mo alla mor-te che Ita-lia* chia-*
+w: mor-*te, Siam pron-ti~al-la mor-te l'I-ta-lia* chia-*
+%
+"A"a2 zA "F"A2 A>^G | B2 A>c c(d/c/) =Bc |
+w: m\`o strin-giamci in co-or-te strin-giam-ci* in-co-
+w: m\`o; strin-giam-ci~a co-or-te, Siam pron-ti* al-la
+%
+"C7"e2 d>d (de) fg | "F"a2 a>a "C7"g2 g>g |
+w: or-te vo-lia-*mo alla mor-te che Ita-lia chia-
+w: mor-te, Siam pron-ti al-la mor-te l'I-ta-lia chia-
+%
+[1 "F"f z z2 | z2 zg | a2 a>a | "C"g2 g>g | "F"kfz kf>kf kfz Kf2 :|2 "F"fz Kf |]
+w: m\`o. Che Ita-lia che Ita-lia chia-m\`o.****   m\`o.  S\`i!

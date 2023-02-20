@@ -1,0 +1,16 @@
+X: 328
+T: Do You Mistrust Me?   #2
+T: b-fuil a\.mras agad orm?
+R: air, jig
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #328
+O: J.O'Neill
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: Compacted via repeats and multiple endings [JC]
+Q: "Slow with feeling"
+M: 6/8
+L: 1/8
+K: Gm
+"^A"|: d>cB A>Bc | GAF (F<B) (B/c/) | dcd edc |1 dBA G2 (B/c/) :|2 dGG "fine"G2z |]
+"^B"[| F>GA BAB | c>Bc dBB | F>GA BAB | c>de {e}d2 |]
+"^C"[| (B/c/) | dcB cBA | G^FG B2(B/c/) | ded cBc | dGG G2z |]

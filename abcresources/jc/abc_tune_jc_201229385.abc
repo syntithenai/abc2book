@@ -1,0 +1,36 @@
+X: 12
+T: Barnet Fair
+C: Michael Dabney
+%R: jig
+B: Michael Dabney "Twelve Minuets and Twelve Dances" p.12 #2
+S: http://imslp.org/wiki/12_Minuets_and_12_Dances_(Dabney,_Michael)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces mostly 4- or 8-bar staffs.
+V: 1
+|:\
+fdB BAB | cde dcB | fdB Ged | cBA TB3 :|\
+|:\
+ABc cdc | cBA GAB |
+ABc cdB | ABG F3 |\
+fdB BAB | cde dcB | fdB Ged | cBA B3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+|:\
+B3 dfb | abc' b2z | b2d e2e | f2f B3 :|\
+|:\
+f3 a3 | agf =efg | f3 abg | f2c F3 |
+B3 dfb | abc' b3 | b3 e2e | f2f B3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st Man foot it to the
+%% 2d Wo: and not turn _ the
+%% 1st Wo: the same to the 2d
+%% Man _ cast off 1 Cu: lead thro
+%% the top and cast off _ Hands
+%% Six round and foot it.
+%%endtext

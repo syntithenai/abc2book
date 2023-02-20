@@ -1,0 +1,32 @@
+X: 1281
+T: CONGRESS WALTZ
+O: Arranged by E. A. la Forrest
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.128 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: The time signature is 3/4, but the music is in 3/8 time.
+M: 3/8
+L: 1/16
+K: G
+%
+V: 1
+"PRIMO"d2 |\
+g2d2e2 | dd/c/ B2d2 | c2cB A2c2 | B2Bc d2G2 |\
+g2d2e2 | dd/c/ B2d2 | c2cB A2c2 | G4 :|
+|: D2 |\
+D4 FA | d^cdefd | ^cdefge | f2d2A2 |\
+D4 FA | d^cdefd | ^cdefge | d4 :|
+|: B2 |\
+(dc)(Bc)(Bc) | A4 c2 | (cB)(AB)(e>d) | d4B2 |\
+(dc)(Bc)(Bc) | A4 c2 | {c}BABdcA | B4 :|
+%
+V: 2
+"SECONDO"G2 |\
+B2B2c2 | BB/A/ G2B2 | A2AG F2A2 | G2GA B2G2 |\
+B2B2c2 | BB/A/ G2B2 | A2AG F2A2 | B4 :|
+|: z2 |\
+F2F2F2 | F2F2F2 | E2G2G2 | F2A2d2 |\
+F2F2F2 | F2F2F2 | G2G2G2 | F4 :|
+|: G2 |\
+BA^GAGA | F4 A2 | AGFGc>B | B2^cdBG |\
+BAGAGA | F4 A2 | GFGBAG | G4 :|

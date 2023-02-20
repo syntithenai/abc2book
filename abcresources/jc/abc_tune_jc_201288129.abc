@@ -1,0 +1,18 @@
+X:334
+T:Hoxton Square
+C:John Young, c. 1710
+L:1/4
+M:3/2
+%%MIDI gchord fcHcfc
+%%MIDI beat 100 95 80
+%%MIDI ratio 3 1
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+N:Suggested introduction: Last two bars of the A-music.
+Q:1/2=96
+K:D
+P:A
+|: d "A7"a/g/a/b/ | "D"ad2f "Em"ed | "A"eA2B/c/ "D/F#"d/e/d/c/ | "G"Bg2f "E7/G#"ed | "A"e3d "A7"a/g/a/b/ |
+"D"ad2f "Em"ed | "A"eA2B/c/ "D/F#"d/e/d/c/ | "G"Bg2f "A7"ed | "D"d3 :|
+P:B
+|: B "D7"AF | "G"G>A B/A/B/c/ "Em"B/c/d | "A"c/d/eAa "Bm"gf | "E"^gab/a/g/f/ "E7"eg | "A"a3b "D7"af |
+"G"g>a b/a/g/f/ "Em"g/f/e/d/ | "A"e/d/c/B/AB "D7"AF | "G"G>A B/A/G/F/"A7"ED | "D"D3 :|

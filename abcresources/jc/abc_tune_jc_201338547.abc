@@ -1,0 +1,55 @@
+
+X: 1
+T: Sm\aa grodarna
+T: Little frogs
+O: Sweden
+M: 2/4
+L: 1/8
+K: F
+c | "F"A>A Ac | A>A Ac | dc BA | "C7"G2 zB
+w: 1.~Sm\aa gro-dar-na,  sm\aa gro-dar-na \"ar lus-ti-ga att se. Sm\aa
+w: 2.~Ej svan-*sar, ej svan-*sar, ej \"or-on ha-va de. Ej
+w: 3.~Kou-ack-ack-ack, kou-ack-ack-ack, kou-ack-ack-ack-ack-ack Kou-
+  | G>G GB | G>G GB | cB AG | "F"F2 z :|
+w: gro-dar-na, sm\aa gro-dar-na \"ar lus-ti-ga att se.
+w: svan-*sar, ej svan-*sar, ej \"or-on ha-va de.
+w: ack-ack-ack, kou-ack-ack-ack, kou-ack-ack-ack-ack-ack
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+T: Sm\aa groderna    [G]
+T: Sm\aa grisarna
+T: Little frogs, little pigs
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+O: Denmark
+M: 2/4
+L: 1/8
+K: G
+   d | "G"B>B Bd | B>B Bd | ed cB | "D7"A2 zc | A>A Ac | A>A Ac | dc BA | "G"G2 z :|
+K: A
+|: e | "A"c>c ce | c>c ce | fe dc | "E7"B2 zd | B>B Bd | B>B Bd | ed cB | "A"A2 z :|
+K: D
+|: a | "D"f>f fa | f>f fa | ba gf | "A7"e2 zg | e>e eg | e>e eg | ag fe | "D"d2 z :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3
+T: Sm\aa groderna
+K:
+W:Smaa groderna, smaa groderna, \"ar lustiga att se,
+W:Smaa groderna, smaa groderna, \"ar lustiga att se,
+W:Ej \"oron, ej \"oron, ej svansar hava de,
+W:Ej \"oron, ej \"oron, ej svansar hava de,
+W:Goachacha, Goachacha, Goachachachacha,
+W:Goachacha, Goachacha, Goachachachacha.
+W:
+W: Little frog, little frog, he's funny to look at,
+W: Little frog, little frog, he's funny to look at,
+W: No ears, no ears, and no tails have they,
+W: No ears, no ears, and no tails have they,
+W: Ribbit ribbit, ribbit ribbit, ribbit ribbit ribbit,
+W: Ribbit ribbit, ribbit ribbit, ribbit ribbit ribbit.
+

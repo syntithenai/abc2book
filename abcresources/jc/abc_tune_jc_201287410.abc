@@ -1,0 +1,26 @@
+X: 1
+T: Hon.ble Mr. Fraiser (of Lovat's) Reel
+C:
+R: reel
+S: handout for Mari Black online session 2022-2-6 (www.mariblack.com)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bm
+# = = = = = = = = = =
+V: 1 staves=2
+"^A"[|] g |\
+"Bm"f2(ef) dfBd | "A"cAec aecA | "Bm"f2(ef) dfBd | "A"ef"F#"dc ("Bm"dBBg) || f2(ef) dfBd |
+"A"cAec aecA | ("Bm"Bcd)B "F#"cdeg | "Bm"fd"F#"ec "Bm"dBB "^B"|[| f | "Bm"{B}b2(fd) {B}b2(fd) | "A"c(ea)^g aecA |
+"Bm"{B}b2(fd) b2(fd) | "A"ef"F#"dc "Bm"d(BBf) || {B}b2(fd) b2(fd) | ("A"cea)^g aecA | "Bm"Bb^ab "Em"gbeg | "F#"fedc "Bm"dBB |]
+# = = = = = = = = = =
+V: 2 clef=bass middle=d
+z |\
+[B2d2f2][B2d2f2] [B2d2f2][B2d2f2] | [A2c2e2][A2c2e2] [A2c2e2][A2c2e2] |\
+[B2d2f2][B2d2f2] [B2d2f2][B2d2f2] | c'2f2 b2B2 ||\
+[B2d2f2][B2d2f2] [B2d2f2][B2d2f2] | [A2c2e2][A2c2e2] [A2c2e2][A2c2e2] |\
+d2B2 ^A2f2 |  b2f2 B2B |[| z |\
+[B2d2f2][B2d2f2] [B2d2f2][B2d2f2] | [A2c2e2][A2c2e2] [A2c2e2][A2c2e2] |
+[B2d2f2][B2d2f2] [B2d2f2][B2d2f2] | c2F2 B2B2 ||\
+[B2d2f2][B2d2f2] [B2d2f2][B2d2f2] | [A2c2e2][A2c2e2] [A2c2e2][A2c2e2] |\
+ d2f2 e2c2 | f2F2 B2B |]

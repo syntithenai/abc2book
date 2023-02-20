@@ -1,0 +1,22 @@
+X: 283
+T: Lieut. ABERCROMBY
+C: I. COOPER
+R: Reel
+B: Glen Collection p.28 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: Bb
+%
+V: 1
+|: B>df>b g>bf>d | e>gd>f c>FA>F  | B>df>b g>bf>d | (e/d/c/B/) A>c B/B/BB2 :|
+|: D>FB>d E>Gc>e | e>df>d c/c/cc2 | D>FB>d E>Gc>e | (e/d/c/B/) A>c B/B/BB2 :|
+%
+V: 2
+|: B2[b2d2] [b2e2][b2d2] | [a2f2][b2f2] [a2f2][c'2f2] |\
+   B2[b2d2] [b2e2][b2d2] | [a2f2][c'2f2] [d'2b2][d'2b2] :|
+|: B2[b2f2] [b2g2][a2f2] | [b2f2][b2f2] [a2f2][a2f2] |\
+   B2[b2f2] [b2g2][a2f2] | [b2f2][e'2f2] [d'2b2][b2f2d2B2] :|

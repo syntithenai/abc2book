@@ -1,0 +1,24 @@
+X: 1071
+T: Old Simon the King.
+%R: slip-jig
+B: Henry Playford "Apollo's Banquet", London 1687 (5th Edition)
+F: https://archive.org/details/apollosbanquetco01rugg
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 9/4
+N: Bar 9 has only 8 4th notes; not fixed because several fixes work equally well.
+L: 1/8
+K: F
+% - - - - - - - - - -
+G2 |\
+A3Bc2 c3dc2 c4G2 | A3Bc2 c3de2 f4f2 |\
+A2F2F2 F4G2 A3Bc2  | d4c2 B4A2 G4 :|
+|: a2 |\
+g4f2 e4d2 c4a2 | g3afg e3fde c2d2e2 |\
+f2F2F2 (AB)(cB)(AG) A4D2 | g2G2G2 (Bc)(dc)(BA) B4G2 :|
+|:\
+ABc2E2 (c2G2) c4G2 | ABc2E2 c2G2E2 c4G2 |\
+ABc2G2 c2A2F2 A4F2 | Bcd2G2 efg2d2 B4G2 :|
+|:\
+e3fga g2e2c2 d3dec | e3fga g2e2c2 f3gaf |\
+a2b2c'2 c2A2F2 A2B2c2 | d3egd B3AB2 G2ABG |]
+% - - - - - - - - - -

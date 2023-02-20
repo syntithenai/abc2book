@@ -1,0 +1,18 @@
+X: 1
+T: Bummer's Reel
+P: piffero primo b0038
+O: safd 060
+%R: reel
+S: http://ancients.sudburymuster.org/mus/ssp/pdf/mountainF.pdf
+N: aka Fletcher's Delight, Lancaster Reel, Levantine's Barrel, Reilly's Own
+N: There are two versions of this tune in the SAFD collection.
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Glyd	% All the c notes are sharp.
+BA |\
+(GB)(DG B2)(BA) | G2ed (cd)(AG) | (FA)(DF A)(DFA) | (GB)(ed B2)BA |\
+(GB)(DG B2)(BA | G2)ed (cd)(AG) | (FA)(DF A)(DFA) | G2B2 G2 :|
+|: d2 |\
+e2f2 g2ed | (edcd) B2AG | (FA)(DF A)(DFA) | GBed B2zd |\
+e2f2 g2ed | (edcd) B2AG | (FA)(DF A)(DFA) | G2B2 G2 :|

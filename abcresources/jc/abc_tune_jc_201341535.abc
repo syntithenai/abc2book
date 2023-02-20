@@ -1,0 +1,40 @@
+
+X: 1
+T: Strumi\vcka Petorka
+O: Macedonian
+S: Pinewoods International Collection, recordings
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 5/8
+L: 1/8
+K: F
+"A"|:\
+"F"[FC][CA,] [^GE][AF][FC] | [=B^G][cA] ~[d2_B2][cA] |\
+[=B^G][cA] ~[_B2=G2][AF] | [^GE][AF] [=G2C2][CA,] |\
+[FC][CA,] [^GE][AF][FC] | [=B^G][cA] ~[d2_B2][cA] |\
+[M:3/8] "F"[cA] z z |[M:5/8] "F"[fd][_ec] ~[d2B2][cA] ||
+"F"[FC][CA,] [^GE][AF][FC] | [=B^G][cA] ~[d2_B2][cA] |\
+[=B^G][cA] ~[_B2=G2][AF] | [^GE][AF] [=G2C2][CA,] |\
+[FC][CA,] [^GE][AF][CA,] | [FC][CA,] [^GE][AF][FC] |\
+"C7"[G2B,2] [EG,][FA,][GB,] |1 "F"[FA,]z C[D=B,][E_B,] :|2 "F"[F2A,2] [F2A,2] "Fine"z |]
+%
+"B"|:::\
+"F"[=B^G][cA] [cA][cA][cA] y:::|\
+"F"[ec][dB] ~[c2A2][cA] | "Bb"[dB][_ec] ~[d2B2][cA] |\
+"F"[=B^G][cA] "Bb"~[d2+B2][cA] | "F"[=B^G][cA] "C7"[_B2=G2][AF] |\
+"F"[ec][fdB] ~[c2A2][cA] | "Bb"[dB][_ec] ~[d2B2][cA] |\
+"F"[f2F2] [FC][AF][cA] |
+"C7"[BG][AF] ~[G2E2][FC] ||\
+"F"[ec][dB] ~[c2A2][cA] | "Bb"[dB][_ec] ~[d2B2][cA] |\
+"F"[=B^G][cA] "Bb"~[d2+B2][cA] | "F"[=B^G][cA] "C7"[B2=G2][AF] |\
+"F"[CA,][FD] [AF][cA][AF] | "C7"[BG][AF] ~[G2E2][FC] |\
+[GC]z [EC][FD=B,][GE_B,] | "F"[FA,]z [F2A,2]z |]
+%
+"D"[|\
+"F"CF AcA | BA~G2F | =Bc ~d2c | =Bc ~_B2A |\
+"F"CF AcA | BA~G2F | "F"^GA ~F2c | =Bc ~_B2A ||
+"F"CF AcA | BA~G2F | =Bc ~d2c | =Bc ~_B2A |\
+"F"=Bc "D7"~d2c | "G"B2 _AGF | "G"TG2- G3- | G2- G3 |]
+%
+"E"|:\
+"Gm"^cd BAG | "D"A^F "Gm"~G2D | GD BAG | "D7"A^F "G"~G2D |\
+"Gm"GD BAG | "Cm"AB cdB | "D7"cA "Gm"BGB | "D7"A^F "Gm"G2z "d.C."y :|

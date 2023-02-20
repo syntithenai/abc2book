@@ -1,0 +1,20 @@
+X: 4
+T: the General Toast
+%R: jig
+B: "Twenty Four Favourite Dances for the Year 1779", Thomas Straight, ed. p.2 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1779
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|:\
+G>AG gfg | ede d2G | G>AG gfg | e3 d3 |\
+G>AG gfg | ede d2B | c>dc BcB | A3 TG3 :|
+|:\
+B>cd d3 | d>cB A2G | B>cd d>ed | c>BA G3 |\
+B>cd d3 | d>cB A2G | B>cd d>gd | c>BA G3 :|
+%%begintext align
+%% Hey contrary sides .|. then on your own side
+%% :|. lead down the Middle up again and cast off
+%% .|: right and left at top :|:
+%%endtext

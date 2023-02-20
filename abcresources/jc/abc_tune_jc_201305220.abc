@@ -1,0 +1,52 @@
+%%scale .67
+%%topmargin 10pt
+X: 1
+T: MacPhail's Magic
+T: 8x32R 3C (RSCDS Book 46)
+P: MacPhail's Magic
+C: Colin Dewar
+C: from John Chambers
+B: RSCDS 46-8
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+|: C/D/E |"F"F2F2 ^GAFD | "F"CDFG "Dm"A2GF | "Gm"G2GA BABc | "Gm"dcBA "C7"GFEC |"F"F2FG "C7"^GAFD | "F"CDFG "F#dim"AcBA | 
+"Gm"d/c/B AF "C7"GFED | "F"C2F2 F2 :|"F7"F_E |"Bb"D2F2 "Gm"defd | "Am"e2c2 "F#dim"_e2dc | "Gm"d2B2 "C7"d2cB | "F"AB=Bc "F7"dcAF |
+ "Bb"D2F2 "Gm"defd | "Am"e2c2 "F#dim"_e2dc | "Gm"d/c/B AF "C7"GFED | "F"C2F2 F2 ||"F7"F_E |"Bb"D2F2 "Gm"defd | 
+"Am"e2c2 "F#dim"_e2dc | "Gm"d2B2 "C7"d2cB | "F"AfcA "C7"dBGE | "F"F2FG ^GAFD | "F"CDFG "D7"AcBA | "Gm"d/c/B AF "C7"GFED | "F"C2F2 F2 |]
+
+X: 1
+P: Douglas Hornpipe
+C: Athole Colln, arr. T. Traub 6-30-2011
+C: a.k.a. Huntsmans' Hornpipe (in Ryan's)
+R: reel
+M: 4/4
+L: 1/8
+K: C
+|: GE|"C"C2 c2 c2 Bc|"G"dBGB "C"c2 cd|"C"ecec "F"fdfd|"Dm"gece "G"dBGE|"C"C2 c2 c2 Bc|
+"G"dBGB "Am"c2 Bc|"G"dBdB "D"cAGF|"G"G2 B2 G2 :||:ef|"C"gfed cBAG|"F"A2 F2 F2 fg|
+"Dm"agfe "(D)"dcBA|"G"B2 G2 G2 ef|"C"gege "F"fafa|"C"gege "F"fafa|"C"geaf "G"edcB|"C"c2 e2 c2 :|
+
+X: 1
+P: Admiral Nelson Hornpipe
+R: Hornpipe, reel
+C: attrib. to Niel Gow, RSCDS Book 19
+C: arr. T. Traub 2-26-05
+M: 4/4
+K: F
+|: cB|"F"A2 F2 FAGF|"C"EG B2 BdcB|"F"Acde "G"fagf|"C"e2 c2 cdcB|"F"A2 F2 FAGF|
+"C"EG B2 BdcB|"F"Acdf "C"ecdB|"F"A2 F2 F2 :||: (3cde|"F"fcAc fagf|"C"gece gbag|
+"F"afge "G"fdgf|"C"e2 c2 c2 fe|"Bb"dcBA "Gm"B2 gf|"C"edcB "F"A2 (3cde|"F"fcdB "C"cABG|"F"A2 F2 F2 :|
+
+X: 0
+P: Quindaro Hornpipe
+R: reel
+C: New England
+C: arr. T. Traub 6-26-03
+M: 4/4
+L: 1/8
+K: G
+|: gf|"G"g2 G2 G2 BG|"D"FADF "G"G2 Bc|"G"dBed "C"cBAG|"D"FA D2 D2 gf|"G"g2 G2 G2 BG|"D"FADF "Em"G2 AB|"C"cedc "D"BAGF| "G"G2 B2 G2 :|
+|: dc|"G"BgBc d2 cB|"Am"caAB "D7"c2 BA|"G"Bded "C"cBAG|"D"FA D2 D2 ga|"G"bgfg dgfg|"Em"bgfg dgfg|"C"edcB "D"AGFA |"G"G2 B2 G2 :|

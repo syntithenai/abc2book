@@ -1,0 +1,31 @@
+X: 31331
+T: COTILLION No. 25. BATTLE OF NEW ORLEANS tune 4
+T: the COMBAT
+%R: reel, march
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.133 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added rest at start of 3rd strain to fix the rhythm.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+c2 |\
+c2a2 a>ba>g | gfef c2f2 | d2ef gabg | f2gf e2c2 |\
+c2a2 abag | gfef c2f2 | d2ef gabg | g4 f2 H|]
+ef |\
+ge c4 fg | af c4 ga | b2b2 a2a2 | gfed c2ef |\
+ge c4 fg | af c4 ga | b2g2f2e2 | g4 "^D.C."f2 |]
+z2 |\
+c2cc cccc | c2cc c2c2 | c2cc cccc | c2cc c2c2 |\
+c2cc cccc | c2cc c2c2 | c2cc c2c2 | c2cc "^D.C."c4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across,
+%% all promenade,
+%% first 4 right and left,
+%% balance.
+%% Sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

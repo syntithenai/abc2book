@@ -1,0 +1,5 @@
+X: 1
+T: TEST: Figured bass using newline
+%%staffwidth 300
+K: C bass
+[| "5"C4 "6\n4"G4 | "6\n5\n3"B2"7"G2 "5"C4 |]

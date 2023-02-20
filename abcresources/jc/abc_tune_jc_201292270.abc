@@ -1,0 +1,108 @@
+X: 1
+T: Jazz Suite No. 2, Op.99    [Cm]
+T: Waltz No. 2
+C: Dmitry Shostakovich
+R: waltz
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+U: k=!accent!
+% dim/cres..endo symbols:
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: 3/4
+L: 1/8
+K: Cm
+%%continueall 0
+[| "Cm"Z4 ||\
+"Cm"G6  | E4D2 | C6 | z2C2D2 |\
+E2C2E2 | G4A2 | "Fm"G6 | F6 |\
+F6 | D4 C2 | "G7"=B,6- | =B,2G,2B,2 |
+D2=B,2D2 | F2G2A2 | "Cm"^F6 | G6 |\
+[e6c6] | [d4G6]c2 | "Fm"[B4F6]A2 | [F6C6] |\
+"Bb7"([d6B6] | [c4F6]B2) | "Eb"[B6G6] |]| "Ab"z2.[e2c2E2].[f2d2F2] |
+"Cm".[g2e2G2] ([geG][fdF]) ([geG][afA]) | "Bb7/Ab".[f2d2F2] ([fdF][ecE]) ([fdF][geG]) |\
+"Eb".[e2c2E2] z2 .[g2e2G2] | "Ab"z2.[e2c2E2].[f2d2F2] |\
+"Cm".[g2e2G2] ([geG][fdF]) ([geG][afA]) | "Bb7/Ab".[f2d2F2] ([fdF][ecE]) ([fdF][geG]) |\
+"Cm".[e2c2E2] z2 .[g2e2G2] | "Ab"z2.[c'2e2c2].[d'2f2d2] |
+%
+"Cm".[e'2g2e2] ([e'ge][d'fd]) ([e'ge][f'af]) | "G7".[d'2f2d2] ([d'fd][c'ec]) ([d'fd][e'ge]) |\
+.[c'2g2e2c2]z4 | z6 | z6 | z6 |[|\
+"Cm"[G6g6]  | [E4e4][D2d2] | [C6-c6-] | [C2c2][C2c2][D2d2] |\
+[E2e2][C2c2][E2e2] | [G4g4][A2a2] | "Fm"[G6g6] | [F6f6] |
+%
+[F6f6] | [D4d4] [C2c2] | "G7"[=B,6=B6]- | [=B,2=B2][G,2G2][B,2B2] |\
+[D2d2][=B,2=B2][D2d2] | [F2f2][G2g2][A2a2] | "Cm"[^F6^f6] | [G6g6] |\
+"Cm""^>"[c'6e6c6] | d4[c'2c2] & [g6G6] | "Fm"B4[a2A2] & [f6F6] | F6 & [c6C6] |
+%
+"Bb7"d6 & [b6B6] | c4[b2B2] & [f6F6] | B6 & [g6G6] | "Ab"z2.[e2c2E2].[f2d2F2] |\
+"Cm".[g2e2G2] ([geG][fdF]) ([geG][afA]) | "Bb7/Ab".[f2d2F2] ([fdF][ecE]) ([fdF][geG]) |\
+"Eb".[e2c2E2] z2 .[g2e2G2] | "Ab"z2.[e2c2E2].[f2d2F2] |\
+"Cm".[g2e2G2] ([geG][fdF]) ([geG][afA]) | "Bb7/Ab".[f2d2F2] ([fdF][ecE]) ([fdF][geG]) |\
+"Cm".[e2c2E2] z2 .[g2e2G2] | "Ab"z2.[c'2e2c2].[d'2f2d2] |
+%
+"Cm".[e'2g2e2] ([e'ge][d'fd]) ([e'ge][f'af]) |\
+"G7".[d'2f2d2] ([d'fd][c'ec]) ([d'fd][e'ge]) | .[c'2g2e2c2]z4 |]|\
+"Cm"[G2E2G,2] z2 "Bb7"!f!"_>"[d2B2A2D2] | "Eb"[g'6e'6g6] | [g'6e'6g6] |\
+([g'2e'2g2][d'2b2d2][c'2a2c2] | [g'2b2g2][e'2g2e2][g'2b2g2]) |\
+"Bb7"[b'6d'6b6] | [b'6d'6b6] | "Eb"([a'2c'2a2][g'2b2g2][e'2g2e2] |\
+[c'2e2c2][d'2f2d2][e'2g2e2]) | "C7"[a'6c'6a6] | [g'6b6g6] |
+%
+Q("F"[g'2b2g2] [f'2a2f2] "C7"[=e'2g2=e2]q | "Fm7"[f'2f2] [_e'2_e2] [f'2f2]) |\
+("Eb"[e'4g4e4] [g'2b2g2]) | ("Bb7"[d'4f4d4] [a'2b2a2]) | ("Eb"[e'4g4e4] [g'2b2g2]) |\
+p([g'4e'4g4] [b'2f'2b2])P | !f![e''6g'6e'6] | [e''6g'6e'6] |\
+("Eb"[e''2g'2e'2] [d''2f'2d'2] [c''2e'2c'2] | [b'2d'2b2] [g'2b2g2] [b'2d'2b2]) |\
+"Bb7"[d''6f'6d'6] | [d''6f'6d'6] | ("Eb"[d''2f'2d'2] [c''2e'2c'2] [b'2d'2b2] |
+%
+[a'2c'2a2] [e'2g2e2] [g'2b2g2]) | [g'6e'6g6] | [g'6e'6g6] | "Ab"[a'6e'6a6] |\
+("Fm7"[a'2f'2a2] [g'2e'2g2] [a'2f'2a2] | "Eb/G"[b'4g'4b4] [g'2e'2g2]) |\
+("Bb/D"[d'2b2d2] [e'2c'2e2] [f'2d'2f2] | "/Eb"[g'2e'2g2] [f'2f2] [e'2e2] |\
+"/Eb"[_d'2_d2] [c'2c2] [=b2=B2] | "Ab"[c'2c2]) z4 |\
+"Ab/Eb"[e2c2A2] ([d2=B2A2] [e2c2]) | [c'4a4e4] [e2c2A2] |\
+[e2c2A2] ([_d'2a2f2] [c'2a2e2]) | ("Eb7/Bb"[c'4g4e4] [b2g2_d2]) |
+%
+"Eb7"([=a4g4c4] [b2g2_d2]) | ([f'4b4g4] [e'2_d'2g2]) | ("Eb7"[_d'2g2f2] [c'2e2] [=b2f2=d2]) |\
+"Ab"[c'4a4e4] [e2c2A2] | [e2c2A2] ([d2=B2A2] [e2c2]) | ([c'4a4e4c4] [e2c2A2E2] |\
+[e2c2A2E2] ([f2_d2A2F2] [g2e2G2])) | ("Db"[a4f4A4] [b2g2B2]) | "Fm7/C"[c'4a4c4] [c'2a2c2] |
+%
+("Bb7"[d'2b2d2] [c'2a2c2] [d'2b2d2]) | ("Eb"[e'4g4e4] [_d'2g2_d2]) |[|\
+!f!"Ab"[c'4a4e4] [e2-c2A2] | [e2c2] ([d2=B2] [e2c2]) & A2 =A4 |\
+"Ab"[c'4a4e4] [e2-c2A2] | [e2c2A2] ([_d'2a2f2] [c'2a2e2]) |\
+"Eb7/Bb"[c'4g4e4] [b2g2_d2] | "Cm7/Eb"[=a4g4c4] "Bdim"[b2g2_d2] |\
+"Eb/Bb"[f'4_d'4g4] [e'2d'2g2] | "Cm/Eb"[_d'2g2f2] [c'2g2e2] "G7"[=b2f2=d2] |
+%
+"AbM7"[c'4a4e4] "AbM7"[e2c2A2] | "Cm/Eb"[e2c2A2] [d2=B2A2] [e2c2] |\
+"Cm/Ab"[c'4a4e4] [e2c2A2] | "Cm/Eb"[e2c2] ([f2_d2] [g2e2]) & A2 B4 |\
+"Bbm/Db"([a4f4_d4] [b2g2]) | "Fm/C"[c'4a4f4] [c'2a2f2] | "Bb7"[d'2a2f2] [c'2a2f2] [d'2a2f2] |\
+"Cm"[e'6b6g6] | Q"G7"[g'6g6] |]| "Cm"z6 | z6 | z6 | z6q |[|[K:clef=bass middle=d]
+"Cm"g6 | e4 d2 | c6- | c2 c2 d2 | e2 c2 e2 | g4 a2 | "Dm7"g6 |\
+f6 | f6 | d4 c2 | "G7/D"=B6- | B2 G2 =B2 | d2 =B2 d2 | f2 g2 a2 |
+%
+"Cm"^f6 | g6 | [e'6c'6]  |[d'4g4] [c'2g2] | "Dm7/F"[b4f4] [a2f2] | [f4c4] | [d'6a6] |\
+"Gm7"[c'4a4] [b2a2] | "Cm"[b6g6] |]|[K:clef=treble]\
+z2 !p!.[.e'2c'2e2] .[f'2d'2f2] | "Cm".[g'2e'2c'2g2] ([g'e'g][f'd'f]) ([g'e'g][a'f'a]) |\
+"Dm7/A".[f'2d'2f2] ([f'd'f][e'c'e]) ([f'd'f][g'e'g]) |\
+"Cm".[e'2c'2e2] z2 .[g'2e'2g2] |
+%
+z2 .[e'2c'2e2] .[f'2d'2f2] | "Cm".[g'2e'2c'2g2] ([g'e'g][f'd'f]) ([g'e'g][a'f'a]) |\
+"Dm7/A".[f'2d'2f2] ([f'd'f][e'c'e]) ([f'd'f][g'e'g]) |\
+"Cm".[e'2c'2e2] z2 .[g'2e'2g2] | z2 .[e'2c'2e2] .[f'2d'2f2] |\
+"Cm".[g'2e'2c'2g2] ([g'e'g][f'd'f]) ([g'e'g][a'f'a]) |\
+"Dm7/A".[f'2d'2f2] ([f'd'f][e'c'e]) ([f'd'f][g'e'g]) | "Cm".[e'2c'2e2] z4 |\
+"G7"p[G4F4E4=B,4G,4] D2 P|]
+%
+[| !f!"Cm"[g6G6] | ([e4E4] [d2D2]) | [c6C6] |\
+[c2C2] ([c2C2] [d2D2]) | ([e2E2] [c2C2] [e2E2]) | ([g4G4] [a2A2]) | "Fm6/D"[g6G6] |\
+[f6F6] | [f6F6] | "Ddim/G"([d4D4] [c2C2]) |\
+"G7/D"[=B6-=B,6-] | [B2B,2] ([G2G,2] [=B2=B,2]) |\ 
+([d2D2] [=B2=B,2] [d2D2] ) | ([f2F2] [g2G2] [a2A2]) | "D7/C"[^f6^F6] | "Cm/G"[g6G6] |
+%
+"Cm"[e'6c'6g6] | "Fm"([d'4g4f4] [c'2e2]) | ([b4f4d4] [a2c2]) | [f6c6A6] |\
+"Bb7/D"[d'6a6f6] | ([c'4a4e4] [b2a2d2]) | "Eb"[b6g6e6] | "Ab"z2.[e'2c'2e2].[f'2d'2f2] |\
+"Cm".[g'2e'2g2] ([g'e'c'g][f'd'f]) ([g'e'g][a'f'a]) | "bb'7/ab'".[f'2d'2f2] ([f'd'f][e'c'e]) ([f'd'f][g'e'g]) |\
+"Eb".[e'2c'2e2] z2 .[g'2e'2g2] | "Ab"z2.[e'2c'2e2].[f'2d'2f2] |
+%
+"Cm".[g'2e'2g2] ([g'e'g][f'd'f]) ([g'e'g][a'f'a]) | "Bb7/ab'".[f'2d'2f2] ([f'd'f][e'c'e]) ([f'd'f][g'e'g]) |\
+"Cm".[e'2c'2e2] z2 .[g'2e'2g2] | "Ab"z2.[e'2c'2e2].[f'2d'2f2] |\
+"Cm".[g'2e'2g2] ([g'e'g][f'd'f]) ([g'e'g][a'f'a]) | "G7".[f'2d'2f2] ([f'd'f][e'c'e]) ([f'd'f][g'e'g]) |\
+.[e'2c'2e2] z2 !f!k"G7"[f'2d'2=b2g2f2] | "Cm"k[e'2c'2g2e2] z4 |]

@@ -1,0 +1,31 @@
+X: 1
+T: Ianthe the Lovely
+P: Longways for as many as will
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.82 #111 (105)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain is to be play'd twice over" instruction.
+N: The leftmost part of the dance description is quite illegible.
+N: "Ianthe" in the title is illegible, but it's legible in the Table of Contents.
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+B2AG e2cd | edcB A2(AB) |\
+c2(BA) (Bd) (gd) | (cB) (AG) G3 :: A |\
+B2(Bc) d2(de) | f2(ed) c2F2 |
+(BA) (Bc) d2(gf) | (ed)(cB) B2d2 |\
+=B2BB c2d2 | (ed)(cB) A2g^f |\
+g2(dc) B2d2 | (ed)(cB) A2d2 | (cB) (AG) G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Man turn the 2d Wo. the other two the same, then the 1st
+%% ??? his Partner thro' the 2d Cu. and up again, and cast
+%% ??? right and left quite round; then the 1st Man turn the 3d
+%% ??? ??? 1st Wo. the 2d Man, then he turns his own Partner,
+%% ??? 1st Man turn the 2d Wo. and the 1st Wo. the 3d Man, and
+%% ??? own Partner again.
+%%endtext
+%%sep 1 8 500

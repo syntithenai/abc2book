@@ -1,0 +1,32 @@
+X: 10702
+T: COTILLION No. 2. tune 2
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.70 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+!p!F2F FG^G | A(fd) A(AG) | F(FE) DFD | CEA (c/B/)(A/G/)F/E/ |\
+!f!F2F FG^G  | A(fd) AAG | F(FE) D(DE) | DFE D2 H|]
+A !p!|\
+"^>"[E3A,3] FGA | BAB E2[AA,] | "^>"[E3A,3] FGA | BAB A^G=G !f!|\
+F2F FG^G | A(fd) A(AG) | .F(FG) .E(EF) | .D(FA) "^D.C."d2 |]
+A |\
+[A3F3] [^c3E3] | [d3F3] zde | fed agf | e[a^c][ac] [a2c2]z |\
+[A3F3] [c3E3] | [d3F3] z!p!de | !f!fed agf | ed^c =BA"^D.C."G |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% ladies chain,
+%% promenade 4,
+%% other couples the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

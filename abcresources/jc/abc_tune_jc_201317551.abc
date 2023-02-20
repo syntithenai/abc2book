@@ -1,0 +1,18 @@
+X: 306
+T: Norah the Pride of Kildare   #2
+T: nora an bla\`t g-cille-dara
+R: air, jig
+%S: s:2 b:14(7+7)
+B: O'Neill's 1850 #306
+O: F.O'Neill
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: Compacted via repeats and multiple endings [JC]
+N: The first 2 bars have rests instead of dots in their BA>F halves; this was ignored to enable the compression.
+N: Most non-musicians won't hear the difference, so play any dotted notes with a good separation if you like.
+Q: "Slow"
+M: 6/8
+L: 1/8
+K: D
+"^A"[|] A |: d>cd BA>F | d>cd {c}BA>F | GAB [1 Ad>e | f>ed e2 :|[2 Ad(e/d/) | c>Bc d2 |]
+"^B"[|  A | BGd AFd | (GFE) ({G}FD)>A | B>cd AHf(f/e/) | (dec) B2 ||
+    || HA | f>ed edB | Ad(c/d/) e2Ha | f>ed edB | AHf((3e/d/c/) d2 |]

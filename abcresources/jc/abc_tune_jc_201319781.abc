@@ -1,0 +1,16 @@
+X: 1441
+T: the Old Schoolmaster
+R: reel
+%S: s:2 b:16(8+8)
+B: O'Neill's 1850 #1441
+O: McFadden
+Z: Bob Safranek, rjs@gsp.org
+Z: Ornaments (~) in bars 5 and 13 are turns.
+Z: Ornament (~) in bar 11 is a mordent.
+M: C|
+L: 1/8
+K: C
+[| G2(GA) cded | cA (3AAA (cG)AG | EGGA cdea | gece Td2(cA) \
+|| ~G3A cded | cA (3AAA (Ac)AG | EGGA cdea | gece d2Hc2 |]
+[| g3d efgd | ea{b}ag eaag | eg{a}gf (~gf)gb | afge d2cd \
+|| eg{a}gf ~g3d | ea{b}ag eaaa | gede cdea | gece Td2(c"_D.C."A) |]

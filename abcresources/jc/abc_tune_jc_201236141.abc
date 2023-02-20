@@ -1,0 +1,36 @@
+X: 216
+T: Macpherson of Strathmashy.
+T: Stradh-maisidh.
+R: air, strathspey
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.99 #1
+N: This is version 2, for ABC software that understands crescendo symbols.
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+% dim/cres..endo symbols:
+U: p=!crescendo(!
+U: P=!crescendo)!
+M: C
+L: 1/8
+Q: "Slow Strathspey Style"
+K: Cm	% Starts with Eb, Ab chords, then cadences on Cm.
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for 2 8-bar lines, for compactness and proofreading.
+V: 1 staves=2
+e |\
+!p!B>G{EF}G>F E>CC<E | B,>G,E>G, B,3e | !f!B<G {EF}G>F E>CC<E | =B,<G,{^F}G>B, C2C<e ||\
+!p!B>G{EF}G>E E>CC<E | B,<G,E>G, B,3e | !f!B<G{EF}G>F E>CD<G | =B,<G,{^F}G>B, C2-C |]
+G | !p!c>d{d}e>^f g>GG>=A | B<eG>_A {A}B2B(e/d/) | !f!c>d{d}e>^f g>GGz/c/ |\
+G<c {=Bc}d<B c2cd || !p!~e>fg>e pf<db>Pd | pB<G{G}e>PG B2Ba | "_Exp"g>f{d}e>d c>de>g | G<c {=Bc}e>B c2c |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+E2e2 A2a2 | E2e2 E2e2 | E2e2 A2a2 | G2g2 [C2c2]z2 || E2e2 A2a2 |
+E2e2 E2e2 | E2e2 c2=B2 | G2g2 c2-c |] z | c2c'2 =B2bz | g2e2 d2B2 | c2c'2 =B2c2 |
+e2g2 c3a || g2e2 B2b2 | E2e2 B2[B2f2] | e2g2 a2g2 | G2g2 c2c |]
+% = = = = = = = = = =
+%%begintext align
+%%Small text at upper right:
+%%   "Macpherson of Strathmashy," whose recitations occasioned the Publication of Ossian by his Friend.
+%%endtext

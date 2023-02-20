@@ -1,0 +1,76 @@
+%%text RJ Set 071
+
+
+X: 1
+T: Pipe On The Hob
+M: 6/8
+L: 1/8
+R: jig
+Z: abc by J. Walsh
+K: Dmix
+A \
+| "D"d^cd A2G | F2D DED | "C"EDE cBc | E2D "D"D2A |\
+| "D"dcB "Am7"cBA | "Bm7"BAG "Am7"A2G | "C"EDE cBc | "C"E2D "D"D2 :|
+g \
+|  "D"f2d d^cd | f2d d^cd | "C"edB c2d | "C"ede "A"age |\
+|  "D"f2d d^cd | f2d d^cd | "C"ede age | "A"ed^c "D"d2 |]
+e \
+|  "D"f2d d^cd | f2d d^cd | "C"edB c2d | "C"ede "A"age |\
+|  "D"fef "C"gfg | "D/B"afa "Am7"g2e | "D"fed "C"eag | "A"ed^c "D"d2 |]
+
+
+X: 2
+T: Wild One
+C:Mary Pantaleone
+R:jig
+M:6/8
+L:1/8
+Z:abc by Debby Knight
+K:Dm
+A, \
+|    "Dm"DEF DGD | "F"ADc AGF |\
+[1,3 "Bb"DEF DGD | "Am"ADF EDC :|\
+[2,4 "Bb"dcA "Dm"GAF | "Am"EDC "Dm"D2 :|
+|: A \
+|    "Dm"d2c A2c | "F"dcA cdc |\
+[1,3 "Bb"d2c A2G | "Am"FGE FED :|\
+[2,4 "Bb"dcA "Dm"cdF | "Am"EDC "Dm"D2 :|
+
+
+X: 3
+T: Indian Point
+R:jig
+C:Rick Mohr  4/89
+Z:Translated to abc by Debbie Knight
+M:6/8
+K:Em
+|:\
+"Em"B,EF G2A | BAG FED | "C"CEF G2A | BAG BAG |\
+"D"FED A,2D | FEF AGF |[1 "Em"EFG BAG | "B" F3 FED :|\
+[2 "Em"GFE "D"FED |
+"Em"E3 E2 |: A |\
+"Em"Bef gfe | "C"cef gfe | "D"dfg agf | "Em"gfe "D"fed |\
+"Em"Bef gfe | "C"ceg a2a | "B"bag fgf | "Em"e3 e2 :|
+
+
+X: 4
+T: The Roaring Barmaid
+C: Tony O'Sullivan
+R: jig
+Z: Translated to abc by Debbie Knight
+M: 6/8
+K: G
+"^A"|:\
+"G"G3 EGD | "C/G"G3 EGD | "G"DGG BGG | dGG BdB ||\
+"G"G3 EGD | "G/B"G3 EGD | "C"GAB deg | "D" deg edB :|
+"^B"|:\
+"G"deg b3 | "G/B"bab deg | "C"b3 bag | "D"edB deg ||\
+"G"b3 bab | "G/B"agg bgg | "C"agg efg | "D"deg edB :| "G"G6 |]
+%%text B part 1st harmony:
+GGB d3 | dcd GGB | d3 dcB | GGD GGB | d3 dcd ||\
+cBB dBB | cBB GAB | GGB cAG :| D6 |]
+%%text B part 2nd harmony:
+Bcd g3 | geg Bcd | g3 ged | cBG Bcd | g3 geg ||\
+edd gdd | edd Bcd | Bcd gfd :| B6 |]
+% text 01/25/06
+

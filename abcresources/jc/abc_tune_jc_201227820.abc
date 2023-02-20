@@ -1,0 +1,45 @@
+X:1
+T:The 10th H.L.I. Crossing The Rhine
+S:March
+M:6/8
+L:1/8
+Q:60
+K:HP
+|: {g}A|
+{Gdc}d3/2f/2{g}A{Gdc}d2f|
+{g}f3/2g/2a{fg}f3/2e/2d|
+{g}c2{GdG}e{g}A3/2{d}c/2e|!
+{g}e3/2f/2g{fg}f3/2e/2d|
+{Gdc}d3/2f/2{g}A{Gdc}d2f|
+{g}f3/2g/2a{fg}f3/2e/2d|
+{g}c2{GdG}e{g}A3/2{d}c/2e|
+{Gdc}d3{gdG}d2:| |:  !
+{gf}g|
+a2f{Gdc}d2f|
+{g}f/2a3/2f{g}f3/2e/2d|  !
+{g}c2{GdG}e{g}A3/2{d}c/2e|
+{g}e3/2f/2g{fg}f3/2e/2d|
+a2f{Gdc}d2f|  !
+{g}f/2a3/2f{g}f3/2e/2d|
+{g}c2{GdG}e{g}A3/2{d}c/2e|
+{Gdc}d3{gdG}d2:| |:  !
+{g}A|
+{Gdc}d3{g}A3/2d/2f|
+{g}f/2a3/2f{g}f3/2e/2d|
+{gcd}c3{g}A3/2{d}c/2e|  !
+{g}e3/2f/2g{fg}f3/2e/2d
+{Gdc}d3{g}A3/2d/2f|
+{g}f/2a3/2f{g}f3/2e/2d|  !
+{gcd}c2{GdG}e{g}A3/2{d}c/2e|
+{Gdc}d3{gdG}d2:| |:!
+{gf}g|
+a2{GdG}aA3/2d/2f|
+{g}f/2a3/2f{g}f3/2e/2d|
+{g}c2{GdG}e{g}A3/2{d}c/2e|  !
+{g}e3/2f/2g{fg}f3/2e/2d|
+a2{GdG}aA3/2d/2f|
+{g}f/2a3/2f{g}f3/2e/2d|  !
+{g}c2{GdG}e{g}A3/2{d}c/2e|
+{Gdc}d3{gdG}d2:|
+
+% Output from ABC2Win  Version 2.1 h on 25/01/99

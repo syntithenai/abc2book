@@ -1,0 +1,21 @@
+X: 1251
+T: Fill the Stoup.   a Reel
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.1 p.25 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+a |\
+{f}e2Tc2 eAAa | {f}e2Tc2 fBBa | {f}e2Tc2 eAcA | dfce fBB :: a | e<Ac>A eAAf |
+eAcA fBBa | eAcA eAcA | dfce fB B :: f | eaca eAAf | eace fBBa | eaca eace |
+dfce fBB :: a | eAcA eAAa | eAcA fBBa | eAcA eAcA | dfce fBB :|
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | a2a2 a2a2 | a2a2 b2b2 | a2a2 a2a2 | d'2c'2 b2b :: z | a2a2 a2a2 |
+a2a2 b2b2 | a2a2 a2a2 | d'2c'2 b2b :: z | a2a2 a2a2 | a2a2 b2b2 | a2a2 a2a2 |
+d'2c'2 b2b :: z | a2a2 a2a2 | a2a2 b2b2 | a2a2 a2a2 | d'2c'2 b2b :|

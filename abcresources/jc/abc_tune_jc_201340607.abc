@@ -1,0 +1,17 @@
+X: 1
+T: the Star-Spangled Banner   [C]
+C: Music: John Stafford Smith
+C: Words: Francis Scott Key
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+GE \
+| "C"C2 E2 G2 | "Am"c4 "E7"ed | "Am"c2 E2 "D7"^F2 | "G"G4 GG \
+| "C"e3 d c2 | "G7"B4 AB | "C"c2 c2 G2 | E2 C2 :|
+ee \
+| "C"e2 f2 g2 | g4 fe | "G7"d2 e2 f2 | f4 f2 \
+| "C"e3 d c2 | "G7"B4 AB | "Am"c2 E2 "D7"^F2 | "G"G4 |]
+G2 \
+| "C"c2 c2 cB | "F"A2 A2 "A7"A2 | "Dm"d2 fe dc | "C"c2 "G7"HB2 GG \
+| "C"c3 def | Hg4 "C"cd | "C"e3 f "G7"d2 | "C"c4 |]

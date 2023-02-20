@@ -1,0 +1,20 @@
+X: 68
+T: CAMERONIAN RANT	
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.29
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The meaning of both the Segno and the D.S at the end isn't obvious.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+f !segno!|\
+c>F (3FFF c>FA>F | c>F (3FFF c2A>c |\
+B>G (3GGG B>GA>G | BG (3GGG Tc2 A H:|
+G |\
+F>ff>g f>dc>A | F>ff>g f>dc>A |\
+G>gg>a g>fe>d | g>fg>a g>fe>d |
+F>ff>g f>dc>A | F>Ac>f {f}e2c>f |\
+(3efg d>f (3efg d>e | f>ag>a f>cd>"_D.S."f !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

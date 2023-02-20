@@ -1,0 +1,16 @@
+X: 1839
+T: Harrington Hall   #1
+R: march
+%S: s:2 b:16(8+8)
+B: O'Neill's 1850 #1839
+Z: Bob Safranek, rjs@gsp.org
+Z: Added a repeat at start of B part
+M: 6/8
+L: 1/8
+K: D
+A \
+| d2d ceA | dff f2g | afd dcd | e>(de/f/) gfe |\
+| d2d ceA | dff f2g | afd Bgf | edc d2 :|
+|: g \
+| fdf fga | fdd dcd | eAA fAA | g>(fg/a/) gfe |\
+| d2d ceA | dff f2g | afd Bgf | edc d2 :|

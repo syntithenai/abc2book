@@ -1,0 +1,19 @@
+X: 4283
+T: Perth-Shire Volunteer's    Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.28 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+A |\
+EA c/d/e Tc2Ac | e>B (d/c/)B/A/ GB-Bd | ec c/d/e Tc2Ac | d<Be>d cAA :| g | a>e (a/g/).f/.e/ a2ec | dB (d/c/).B/.A/ GB-Bg |
+ae (a/g/).f/.e/ a2ec | dB (d/c/).B/.A/ EA-Ad || ceGe FdEc | d>B (d/c/).B/.A/ GB-B.d | cedf eagb | (a/g/).f/.e/ a>e cAA |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+[a2A2][a2A2] [a2A2][a2A2] | g2a2 e2e2 | [a2A2][a2A2] [a2A2][a2A2] | b2e2 a2A :| z | c2A2 c2A2 | G2A2 e2E2 |
+[a2A2][a2A2] [a2A2][a2A2] | g2a2 a2A2 || a2e2 d2c2 | G2A2 E2E2 | A2d2 c2e2 | c2e2 A2A |]

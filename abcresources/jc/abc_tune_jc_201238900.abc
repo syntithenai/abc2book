@@ -1,0 +1,35 @@
+X: 31533
+T: COTILLION No. 38. MASTER HUMPHREY'S SETT tune 5
+T: Galopede
+T: Yarmouth Reel
+T: Persian Dance
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.153 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(dc) |\
+B2(Bc) A2(AB) | G2G2 G2(AB) | (cB)(cd) (ed)(cB) | A2A2A2 (dc) |\
+B2(Bc) A2(AB) | G2G2 G2(AB) | c2(AB) FDEF | G2G2G2 H|]
+(dc) |\
+B2(gf) (ed)(cB) | (dc)(Bc) A2(dc) | B2(gf) (ed)(cB) | A2A2A2 (dc) |\
+B2(gf) (ed)(cB) | (dc)(Bc) A2(dc) | (BdcB) (Ac)BA | G2G2"^D.C."G2 |]
+(Bc) |\
+d2d2 d2g2 | d2d2 d2g2 | d2d2 edcB | c2A2A2 (Bc) |\
+d2d2 d2g2 | d2d2 d2g2 | d2(Bc) dcBA | G2G2"^D.C."G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% 2 ladies forward and back,
+%% 2 gentlemen the same,
+%% balance 4,
+%% and turn partners,
+%% grand chain,
+%% promenade 8.
+%% Sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

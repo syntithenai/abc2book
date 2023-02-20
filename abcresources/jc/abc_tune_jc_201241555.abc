@@ -1,0 +1,21 @@
+X: 4417
+T: "KISS ME QUICK" GALOP
+R: Galop
+%R: galop, polka, march
+B: James Kerr "Merry Melodies" v.4 p.46 #417
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The key signature at the end is a bit odd.
+M: 2/4
+L: 1/8
+K: D
+A |\
+fedc | BdAF | Adcd | e3A |\
+fedc | BdAd | fedc d3 :: f |\
+edcB | cdec | Bfed | c3f |\
+edcB | ceaf | edcB | Az "_D.C."[ac] :|
+[K:=c][K:G]\
+|: d |\
+d3B | g3B | d^c =c2- | cccc |\
+f3e | d3c | Bed2- | dddd |\
+d3B | g3B | d^c =c2- | cccc |\
+f3e | e^c=cA |[1 G4- | Gdd :|[1 G4- | G2z |][K:D]

@@ -1,0 +1,48 @@
+
+X: 1
+T: Bingo  [F]
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+C \
+| "F"F2F F2F | F2F F2F | "C7"E2F G2E | C3- C2C \
+| "C7"G2G G2G | G2G G2G | "F"F2G A2G | "F"F3- Fz2 |
+| "F"A3 F3 | "Bb"B2A G2z | "C7"G3 E3 | "F"A2G F2z \
+| "F"A3 F3 | "Bb"B2A G2F | "C7"E2C D2E | "F"F3- Fz2 \
+|| "F"F6 | F6 | F6 | F6 | F6- | F3 z2 |]
+
+
+%%sep 3 1 500
+
+X: 2
+T: Bingo  [G]
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2G G2G | G2G G2G | "D7"F2G A2F | D3- D2D \
+| "D7"A2A A2A | A2A A2A | "G"G2A B2A | "G"G3- Gz2 |
+| "G"B3 G3 | "C"c2B A2z | "D7"A3 F3 | "G"B2A G2z \
+| "G"B3 G3 | "C"c2B A2G | "D7"F2D E2F | "G"G3- Gz2 \
+|| "G"G6 | G6 | G6 | G6 | G6- | G3 z2 |]
+
+
+%%sep 3 1 500
+
+X: 3
+T: Bingo  [A]
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"A2A A2A | A2A A2A | "E7"G2A B2G | E3- E2E \
+| "E7"B2B B2B | B2B B2B | "A"A2B c2B | "A"A3- Az2 |
+| "A"c3 A3 | "D"d2c B2z | "E7"B3 G3 | "A"c2B A2z \
+| "A"c3 A3 | "D"d2c B2A | "E7"G2E F2G | "A"A3- Az2 \
+|| "A"A6 | A6 | A6 | A6 | A6- | A3 z2 |]

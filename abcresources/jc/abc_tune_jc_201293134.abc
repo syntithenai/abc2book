@@ -1,0 +1,44 @@
+X:1
+T:Jimmy Findlater
+M:C
+L:1/8
+Q:80
+C:
+S:MARCH
+K:HP
+[| e | \
+{g}A2{GdGe}Ad{gcd}c3/2B/2{G}A{d}c | \
+{gef}e3/2c/2ac{gef}e2-ef | \
+{gfg}f3/2e/2{g}f/2a3/2{ef}e3/2c/2{g}A{d}c |
+{gef}e3/2d/2{gde}d/2c3/2{e}B2-Be | \
+{g}A2{GdGe}Ad{gcd}c3/2B/2{G}A{d}c | \
+{gef}e3/2c/2ac{gef}e2-ef |
+{gfg}f3/2e/2{g}f/2a3/2{ef}e3/2c/2{gde}dB | \
+{g}A4{GAG}A3|] [ | \
+e |
+{g}f3/2e/2{g}fa{ef}e3/2c/2{gde}dB | \
+{g}A3/2B/2{GdG}cd{gef}e2-ef | \
+{gfg}f3/2e/2{g}f/2a3/2{ef}e3/2c/2{g}A{d}c |
+{gef}e3/2d/2{gde}d/2c3/2{e}B2-Be | \
+{g}f3/2e/2{g}fa{ef}e3/2c/2{gde}dB | \
+{g}A3/2B/2{GdG}cd{gef}e2-ef |
+{gfg}f3/2e/2{g}f/2a3/2{ef}e3/2c/2{gde}dB | \
+{g}A4{GAG}A3|] [ | \
+e |
+{g}A3/2B/2{GdG}cd{gde}dc{G}ce | \
+{g}f3/2e/2{g}da{ef}e2-ef | \
+{gfg}f3/2e/2{g}f/2a3/2{ef}e3/2c/2{g}A{d}c |
+{gef}e3/2d/2{gde}d/2c3/2{e}B2-Be | \
+{g}A3/2B/2{GdG}cd{gde}dc{G}ce | \
+{g}f3/2e/2{g}da{ef}e2-ef |
+{gfg}f3/2e/2{g}f/2a3/2{ef}e3/2c/2{gde}dB | \
+{g}A4{GAG}A3|] [ | \
+e |
+{ag}a2{GdGe}Aea3/2f/2{g}A/2a3/2 | \
+{gfg}fA{g}f/2a3/2{ef}e2-ef | \
+{gfg}f3/2e/2{g}f/2a3/2{ef}e3/2c/2{g}A{d}c |
+{gef}e3/2d/2{gde}d/2c3/2{e}B2-Be | \
+{g}A3/2B/2{GdG}cd{gde}dc{G}ce | \
+{g}f3/2e/2{g}da{ef}e2-ef |
+{gfg}f3/2e/2{g}f/2a3/2{ef}e3/2c/2{gde}dB | \
+{g}A4{GAG}A3|]

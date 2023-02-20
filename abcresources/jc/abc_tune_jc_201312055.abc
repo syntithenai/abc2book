@@ -1,0 +1,26 @@
+X:1
+T: Mistwold
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W:      A1
+% voice 1 (1 lines, 29 notes)
+K:G
+M:4/4
+L:1/16
+D4 |G4 A4 B4 c4 |d8 B4 d4 |c8 A4 c4 |B4 A2 G2 A4 D4 |G4 A4 B4 c4 |d8 B4 d4 |c4 A4 G4 F4 |G12 D4 |
+%W:      A2
+% voice 1 (1 lines, 30 notes)
+G4 A4 B4 c4 |d8 B4 d4 |c8 A4 c4 |B4 A2 G2 A4 D4 |G4 A4 B4 c4 |d8 B4 d4 |c4 A4 G4 F4 |G6 A2 B4 c4 |
+%W:      B1
+% voice 1 (1 lines, 23 notes)
+d8 B4 d4 |c8 A4 c4 |B8 G4 B4 |A4 F4 D8 |E8 F8 |G8 A4 c4 |B8 A8 |G6 A2 B4 c4 |
+%W:      B2
+% voice 1 (1 lines, 20 notes)
+d8 B4 d4 |c8 A4 c4 |B8 G4 B4 |A4 F4 D8 |E8 F8 |G8 A4 c4 |B8 A8 |G12 ||

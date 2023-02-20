@@ -1,0 +1,29 @@
+X: 101
+T: The merry Dancers
+R: jig
+M: 6/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Abraham Mackintosh "A Collection of Strathspeys, Reels, Jigs &c.", Newcastle, after 1797, p.10
+F: http://imslp.info/files/imglnks/usimg/a/a8/IMSLP80796-PMLP164326-Abraham_Mackintosh_coll.pdf
+K: G
+V: 1
+c |\
+TB>AB cGE | G2G G2c | TB>AB cGE | D2D D2c |\
+TB>AB cGE | GAB c2e | dcB (A/B/c).B | AFD D2 :|
+|: c |\
+(B/c/d).B GBG | (B/c/d).B G2c | (B/c/d).B GBG | AFD D2c |\
+(B/c/d).B GBG | B/c/dB c2e | dcB (A/B/c).B | AFD D2 :|
+|: g |\
+Tf3 {ef}gdB | gdB G2g | Tf3 {ef}gdB | AFD D2g |\
+Tf>ef gdB | def gdB | cac BgB | AFD D2 :|
+V: 2 clef=bass middle=d
+z |\
+g3 e2c | [d2B2][ec] [d2B2]z | g3 e2c' | [b2g2][af] [b2g2]z |\
+g3 e2c' | b2g e2c' | b2g f2g | d3 D2 :|
+|: z |\
+[d'3b3g3] [d'3b3g3] | [d'3b3g3] [d'3b3g3] | [d'3b3g3] [d'3b3g3] | [a3f3d3] [a3f3d3] |\
+[d'3b3g3] [d'3b3g3] | [d'3b3g3] e2c' | b2g f2g | d3 D2 :|
+|: z |\
+dd'c' b2g | b2g b2g | d'2c' b2g | d3 D2z |\
+dd'c' b2g | f2d' b2g | f3 g3 | d3 D2 :|

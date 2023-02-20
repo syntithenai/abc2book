@@ -1,0 +1,24 @@
+X: 11732
+T: AULD ROBIN GRAY
+C: Rev. W. Leeves.
+Q: "Slow and pathetic."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.173 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+F>GA>B {B}A2zA | B>Gd>B {B}A2zD |\
+F>GA>B {B}A2GF | EDG>F (F2E)D |\
+F>GA>B {B}A2zA | B>cd>F {A}G2EE |\
+F<A df g<ecd | F>G{F}E>D D2z |]
+=F |\
+=F2E>F D2F>G | A>A_BG A2EE |\
+=F>EF^F GFG^G | A>^G d>G A2zA |\
+^F<D A>B {B}A2AA | B>AGF {A}G2zE |\
+F<A df g<ecd | F>GE>D D2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

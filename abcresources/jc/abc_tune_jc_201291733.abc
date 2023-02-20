@@ -1,0 +1,46 @@
+X: 1
+T: Jack's Health
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.125 #185 (249)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.111 "L 2"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Poor legibility along CCDM1 left edge corrected with help from DMDfD.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+B>AG d>e=f | e2e e>fg | d>cB c>de | A2A A2d |\
+B>AG d>e=f | e2e e>fg | d>cB A>GF | G2G G2 |]
+f/g/ |\
+afd d>ef | g2a b2a | g2a f>e d/^c/ | d2d d2c/B/ |\
+c>dc B2c | A2G F2B | E>FG A>GF | G2G G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the Presence, then to your We. lead up all forward and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1st Cu. cross over with the 2d Cu. and Back to Back, the 1st Man being on
+%% the Wo. Side, then the 1st Man Back to Back with the 2d Wo. and the 1st Wo.
+%% Back to Back with the 2d Man, the 1st Man leading the 2d Wo. to the Presence,
+%% and the 1st Wo. with the 2d Man lead down at the same Time; then all four
+%% face together, and Hands right and left to the End.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% Honour to the Presence, then to your we.  Lead up all forward and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. cu. cross over with the 2. cu. and back to back, the 1. man being on the 1. wo side, then the
+%% 1. man back to back with the 2. wo. and 1. wo. back to back with the 2. man, the 1. man leading the
+%% 2. wo. to the Presence, and the 1. wo. with the 2. man lead down at the same time, then all four face
+%% together, then hands right an [sic] left to the end.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

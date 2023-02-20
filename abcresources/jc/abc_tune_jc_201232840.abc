@@ -1,0 +1,22 @@
+X: 17
+T: Young Roscius
+%C: Mr. Gray
+%R: slip-jig
+B: Mr. Gray "24 Country Dances for the Year 1805" p.9 #1
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has final repeat but no initial repeat (plus the :S: "segno" symbol); not fixed.
+M: 9/8
+L: 1/8
+K: D
+|: ":S:"\
+d3 AFA AFA | BGB efd cBA |\
+{e}dcd AFA AFA | Bgf edc d2 :|
+[|\
+a3 fdf fdf | b3 geg geg |\
+a3 fdf fdf | Bcd egf ed"_D.C."c "^:S:"y:| 
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Whole Figure with the top Cu:, down
+%% the mid: up again, & Allemande.
+%%endtext

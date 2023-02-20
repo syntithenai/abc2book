@@ -1,0 +1,14 @@
+X: 328
+T: Nevestinsko
+O: Bulgaria
+M: 7/8
+L: 1/8
+Q: 1/4=120
+K: G
+%%MIDI drum dzzdzdz 50 50 50
+%%MIDI drumon
+|: d2e dc BA|GDG AG AB    |c2c cB AB    |GDG AG AB|cBA B2z2|
+  ded dc BA |cBA B4    |GDG AG AB    |c2c cB AB    |\
+  GAB A2 AG |A7       |A7         :|
+  dzd ^cd ef|:gzg gf ed |edc Bd AG    |B2c d4      |\
+  gzg gf ed |edc Bd AG  |[1B2c dB cd  :|[2 B2A G2z2|

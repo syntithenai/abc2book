@@ -1,0 +1,21 @@
+X: 1221
+T: KNIGHT'S WALTZ
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.122 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: G
+D/GB/ |\
+.d2(^cded) | B>dg2g2 | (fa)d2c2 | Bd G>DG>B |\
+.d2(^cded) | Bdg2g2 | (fa)d2 ef | g4 :|
+|: d/ed/ |\
+a>fd>AB>c | (cB).e.d.d2 | (^cd)(Ad)(=cA) | _B=BG2 d/ed/ |\
+a>fd>AB>c | (cBe).d.d2 | (^cde).d.d2 | (^cded).=c.A | G4 H:|
+G2 |\
+(e^def).^f.g | (cBcd).^d.e | (fdcG).A.B | (cGAB).c.d |\
+(e^def).^f.g | (cBcd).^d.e | (fdBG).A.B | c4 :|
+K: C
+|: g2 |\
+(fdBG) .F.D | (CEGc) .e.g | (fdBG) .F.D | (cGAB).c.d |\
+(e^def).^f.g | (cBcd).^d.e | (fdBG).A.B | c4 "^D.C.":|

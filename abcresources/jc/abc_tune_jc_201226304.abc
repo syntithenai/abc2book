@@ -1,0 +1,26 @@
+X: 101
+T: Mrs Harwood
+C: Carolan
+%R: jig
+B: "The Hibernian Muse" p.64
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. CI.
+M: 6/8
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+aed cAA | (c/d/e)e ea^g | [a2e2c2]b c'cc' | d'ad' {f'}e'2d' | c'(d'/c'/b/a/) c'ec | e2e ega | (a/b/c')a (b/c'/d')a |
+Tg3 e3 | ({d}c/B/A)A AaA | Aa^g aed | c(d/c/B/A/) GBg | GBg dBG | cAA c'(a/b/c') | bga ged |
+c(d/c/B/A/) eB^G | A3- A3 |]\
+e(c/d/e) d(B/c/d) | TcBA GAB | Aca Aca | gee c'2d' | e'(c'/d'/e') d'(b/c'/d') |
+c'(a/b/c') bge | c'(a/b/c') bga | Tgee e3 | (e/f/g/)e/c ged | cAA GE[dD] | [cC][AA,]a ^g(e/^f/g/)e/ | TcAA A3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+a3 z2z | A3 e2E | A2z a2z | f2z e2z | a2z A2z | c3 z2z | f3 g2f |
+ecg c'cz | a3 c2d | e2E A2B | A2d G3 | z2z B3 | A3 a3 | g3 c2B |
+A2d e2E | aec A3 |] c2a B2^g | A2d G2z | A3 A3 | c3 A2B | c2a B2^g |
+A2a g3 | f3 e2f | c2c' c3 | c3 c2B | A3 c2B | A2c e3 | a3 A3 |]

@@ -1,0 +1,23 @@
+X: 8
+T: Al Kanfei Hakesef
+C: Naomi Shemer 1970
+O: Israel
+F: http://www.youtube.com/watch?v=G13o-IjpzFk
+F: http://www.youtube.com/watch?v=Rc6_xMsk7Kw
+F: http://www.youtube.com/watch?v=YyRh3V-LUmU
+M: 2/4
+L: 1/8
+K: Cm
+Q:1/4=160
+%%MIDI program 66 Tenor Sax
+%%MIDI chordprog 24 Acoustic Guitar (nylon)
+%%MIDI bassprog 32 Acoustic Bass
+|:"Cm"C2C2|C2C2    |EEDC     |"Gm"B,4 |\
+  "Cm"C2C2|C2C2    |"Gm"GGFE |"Fm"F4  |
+  "Cm"E2E2|"Bb"B2AG|F2F2     |"Cm"c2BA|\
+  "Gm"G2EF|GFE2    |[1B4     |=B4     :|[2"Gm"D4|"Cm"C4|
+K:D
+  "G"G3D  |G2G2    |"F#m"F2C2|F4      |\
+  "G"G3A  |B2AG    |"F#m"F4- |F4      |
+  "G"G4   |"A"A4   |"G"B2F2  |B4      |\
+  c2BA    |^G2F2   |"F#m"F2C2|F4      |

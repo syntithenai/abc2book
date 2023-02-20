@@ -1,0 +1,13 @@
+X: 950
+T: the End of The Day   #2
+R: jig
+%S: s:2 b:16(6+6)
+B: O'Neill's 1850 #950
+O: J.O'Neill
+Z: Tom Keays (htkeays@mailbox.syr.edu)
+%abc 1.6
+M: 6/8
+L: 1/8
+K: G
+"^A"[|] A |: B>AB G2D | G>AG GBd |1,3 cBA GFG | Ade dcA :|2,4 gfe dcB | AFA cBA :|
+"^B"|:: B2d ded |1 dBd gdc :|2 ece afd :|3 ded def | gfe dcB | AFA cBA :|

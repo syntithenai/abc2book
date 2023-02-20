@@ -1,0 +1,36 @@
+X: 10681
+T: HE WAS FAM'D FOR DEEDS OF ARMS.
+C: D. Corri.
+Q: "Andante espressivo."
+%R: air, march
+N: This is version 2, for ABC software that understands trailing grace notes or crescendo symbols.
+U: p=!crescendo(!
+U: P=!crescendo)!
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.68 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+!f!c6 d2 | (e3d)(c3A) |\
+G4 E4 | G4 z4 !p!|\
+Te6 (de) | {g}f4 e4 |\
+({e}d3c)(d3e) | d4 z4 |\
+!f!c6 d2 | (e3d)(c3B) |\
+A4 f4 | f4 z2d2 |\
+e4 (f2g2) | G4 ({A/G/^F/G/}A2B2) |\
+.c4 .e4 | .c4 z4 |\
+!f!B6 c2 | d3GA3B |
+c4 d4 {e/d/c/d/}| e4 z4 |\
+!p!f4 (g3f) | {f}e4 (d2c2) |\
+!f!d4 (^f3g) | HG8 |\
+c6 d2 | e3dc2A2 |\
+"^cres."G3EG3pc | e8P- |\
+!p!e3Gc3"^cres."e | g8- |\
+g2(fe) (!ff!dc)(BA) | G3GA2B2 |\
+d3c c4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

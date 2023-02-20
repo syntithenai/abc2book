@@ -1,0 +1,19 @@
+X: 1
+T: Lady Glasgow
+T: 8x32 3C (MMM I)
+P: Lady Glasgow
+C: attrib. to Earl of Eglintoun, Glen Collection 1895
+C: from John Chambers 2011
+L: 1/16
+R: Strathspey
+Z: Ceolas Fiddler's Companion
+S: Glen Collection, 1895
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+K: A
+|:"A"A2cd e3c f3d e3c | "A"A2cd e3d cA3 "(E7)"e4 \
+| "A"A2cd e3c "F#m"f3d "(A)"e3c | "Bm"df3 "A"ce3 "E7"B3c d4 :|
+[|"A"a3e c3e agfe c3e | "A"a3e c3e A3c "(E7)"e4 \
+| "A"a3e c3e "A/c#"agfe c3e | "Bm"df3 "A"ce3 "E7"B3c d4 |]
+[|"A"a3e c3e agfe c3e | "A"a3e c3e A3c "(E7)"e4 \
+| "F#m"fa3 "A/e"ea3 "D"df3 "A/c#"ce3 | "Bm"B3c B3c "E7"d3e f4 |]
+

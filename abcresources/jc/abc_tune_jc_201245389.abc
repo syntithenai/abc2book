@@ -1,0 +1,43 @@
+X: 1
+T: Ain't She Sweet?
+C: M.Ager [1927]
+M: C|
+L: 1/8
+K: Eb
+|: "Eb"c4 "G"=B4 | "Bb7"_B4 zc2B | "Eb"c2c2 "G"=B2B2 | "Bb7"_B4 zc2B |
+w: 1.~Ain't she sweet? See her com-ing down the street! Now I
+w: 2.~Ain't she nice? Look her o-ver once or twice. Now I
+| "Eb"e2e2 "G7"d2d2 | "C7"c2cc- cBA2 | "F7"G4 "Bb7"F4 |1 "Eb"E4 "Bb7"z4 :|2 "Eb"E2e2 "Eb7"e2e2 ||
+w: ask you ve-ry con-fi-den-*tial-ly, ain't she sweet? nice? Just cast an
+[| "Ab7"e8- | e2e2 e2e2 | "Eb"e4 B4- | "Eb"B2e2 "Eb7"e2e2 | "Ab7"e8- |
+w: eye* in her di-rec-tion* Oh, me! Oh, my!
+| "Ab7"e2e2 e2e2 | "Eb"e4 B4- | "Bb7"B4 z4 |]| "Eb"c4 "G"=B4 | "Bb7"_B4 zc2B |
+w: * Ain't that per-fec-tion? | | I re-peat, don't you
+| "Eb"c2c2 "G"=B2B2 | "Bb7"_B4 zc2B | "Eb"e2e2 "G7"d2d2 | "C7"c2cc- cBA2 | "F7"G4 "Bb7"F4 | "Eb"E4 z4 |]
+w: think that's kind of neat? And I ask you ve-ry con-fi-den-*tial-ly, ain't she sweet?
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2
+T: Ain't She Sweet? [F]
+C: M.Ager [1927]
+M: C|
+L: 1/8
+K: F
+|: "F"d4 "A"^c4 | "C7"=c4 zd2c | "F"d2d2 "A"^c2c2 | "C7"=c4 zd2c | "F"f2f2 "A7"e2e2 |
+| "D7"d2dd- dcB2 | "G7"A4 "C7"G4 |1 "F"F4 "C7"z4 :|2 "F"F2f2 "F7"f2f2 |[| "Bb7"f8- | f2f2 f2f2 | "F"f4 c4- |
+| "F"c2f2 "F7"f2f2 | "Bb7"f8- | "Bb7"f2f2 f2f2 | "F"f4 c4- | "C7"c4 z4 |]| "F"d4 "A"^c4 | "C7"=c4 zd2c |
+| "F"d2d2 "A"^c2c2 | "C7"=c4 zd2c | "F"f2f2 "A7"e2e2 | "D7"d2dd- dcB2 | "G7"A4 "C7"G4 | "F"F4 z4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3
+T: Ain't She Sweet? [G]
+C: M.Ager [1927]
+M: C|
+L: 1/8
+K: G
+|: "G"e4 "B"^d4 | "D7"=d4 ze2d | "G"e2e2 "B"^d2d2 | "D7"=d4 ze2d | "G"g2g2 "B7"f2f2 |
+| "E7"e2ee- edc2 | "A7"B4 "D7"A4 |1 "G"G4 "D7"z4 :|2 "G"G2g2 "G7"g2g2 |[| "C7"g8- | g2g2 g2g2 | "G"g4 d4- |
+| "G"d2g2 "G7"g2g2 | "C7"g8- | "C7"g2g2 g2g2 | "G"g4 d4- | "D7"d4 z4 |[| "G"e4 "B"^d4 | "D7"=d4 ze2d |
+| "G"e2e2 "B"^d2d2 | "D7"=d4 ze2d | "G"g2g2 "B7"f2f2 | "E7"e2ee- edc2 | "A7"B4 "D7"A4 | "G"G4 z4 |]

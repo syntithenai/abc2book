@@ -1,0 +1,70 @@
+X: 1
+T:The Berkeley Wassail
+M:3/4
+C:Jon Berger
+S:
+N:Copyright (c) Jon Berger
+Z:Jon said to spread this around all you like, but keep his name with it.
+A:Berkeley Morris
+O:
+R:
+%:abc2mtex:no
+K:F
+L:1/8
+V:1
+%T:descant
+Q:1/4=150
+   f2 | f2  c2  (cB) | A2  c2  A2  | c2  d2  f2  | e4
+   c2 | d2  f2  f2   | f>c A2  c2  | B2  c2  d2  | e4
+   c2 | d2  d2  e2   | f2  f2  c2  | d2  f2  c2  | c4
+|: z2 | z4      z2   | z6          | z6          | z2 z2
+   e2 | f2  f2  (ag) |(fc) A2 (ce) | f2  f2  e2  | c4    :|
+w: God  bless you and_ send_ you a_  hap-py  New   Year.
+w: The  yeast and the_ bar-ley drive_ sor-rows be-fore~'em.
+w: So   bring us a_    bot - tle and_ fill up our bowl.
+w: Good friends and com - pan - ions the_ great-est of all.
+V:2
+%T:melody
+   c2 | c2  A2  G2   | F2  F2  C2  | F2  B2  A2  | G4
+w: With pipe and with fid-dle, with drum and with bell,
+w: Through weeds and through snow we have come to your door.
+w: Some nut-meg and gin-ger to make us all merry,
+w: Come join in our Was-sail and raise up your voice,
+   c2 | d2  B2  d2   | c>A F2  A2  | G2  c2 =B2  | c4
+w: we sing our was-sail, me boys, to wish you all well.
+w: A small drop of port - er is all we im-plore.
+w: Or whis-key or bran-dy or ci-der or sher-ry.
+w: For now is the sea - son to sing and re-joice,
+   c2 | d2  d2  e2   | f2  c2  A2  | B2  c2  A2  | G4
+w: Long life and good  for-tune to   all who live  here!
+w: And  then we will   sing with all pro-per de-corum;
+w: Strong drink and its vir-tues our songs will ex-tol,
+w: And  num-ber your  bles-sings, the great and the small;
+|: z2 | z4      z2   | z4      G2  | A2  A2 (cB) | A2 A2
+w:                             God  bless you and_ send you
+w:                             The  yeast and the_ bar-ley
+w:                             So   bring us a_    bot-tle
+w:                             Good friends and com - pan-ions
+   c2 | f2  c2  d2   |(cA) F2 (FF) | A2 (BA) G2  | F4    :|
+w: God  bless you and  send_ you a_  hap-py_ New   Year.
+w: The  yeast and the bar - ley drive_ sor-rows_ be-fore~'em.
+w: So   bring us a    bot - tle and_ fill up_ our  bowl.
+w: Good friends and com- pan - ions the_ great-est_ of all.
+V:3
+%T:bass
+   F2 | F2  F2  E2   | C2  G,2 E,2 | A,2 B,2 C2  | C4
+   C2 | B,2 D2  F2   | F>C C2  F,2 | G,2 G,2 G,2 | G4
+   C2 | D2  D2  E2   | F2  F2  E2  | F2  A2  F2  | E4
+|: C2 | F2  F2 (AG)  | F2  F2  C2  | D2  D2 (EG) | F4
+w: God  bless you and_ send you a    hap-py  New_  Year.
+w: The  yeast and the_ bar-ley drive sor-rows be - fore~'em.
+w: So   bring us a_    bot-tle and   fill up our_  bowl.
+w: Good friends and com - pan-ions the great-est of_ all.
+   C2 | B,2 A,2 (A,B,)|C2  C2  C2  | B,2 B,C C2  | F4    :|
+w: God  bless you and_ send you a    hap-py_ New   Year.
+w: The  yeast and the_ bar-ley drive sor-rows_ be-fore~'em.
+w: So   bring us a_    bot-tle and   fill up_ our  bowl.
+w: Good friends and com - pan-ions the great-est_ of all.
+%
+W: alternative vessels for verse 3:
+W: So bring us a bot-tle (barrel, tank truck) and fill up our bowl.

@@ -1,0 +1,24 @@
+X: 1
+T: Nestinarsko oro
+O: Bulgaria
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+N: handwritten MS of unknown origin in CFO collection
+M: 2/4
+L: 1/16
+Q: 1/4=180
+P: I.ABAB.CDEF.GHIJ.CDEF.D
+K: Ador
+%%indent 400
+"I"[| !gajda+drum!e4- | e4       | A4-        | A4       | "Am"z4     |
+"A"|: A2Bc dcde | dcde A2AE | dece dcBG | A4 A2AG :|
+"B"|: dece dcBG | A2AG ABcd | dece dcBG | A4 A2AG :|
+%%sep 1 8 500
+"C"|: cded e4 | cded e2e2 | cded e3E | dccB A3G :|
+"D"|: dccB ABG2 | cGcB ABG2 | dccB ABGB |1 A3G ABcd :|2 A4 AEA2 ||
+"E"|: dGcd dGcd | eGed ceA2 :| y8 y8 y8 y8 y8 y8 y8
+"F"|: eGed cdA2 | cABG ABcd | eGed cdA2 |1 cABG A3G :|2 cABG A3D ||
+%%sep 1 8 500
+"G"|: E2FG AGAB | AGAB E2E2 | ABGB AGFD | E4 E2E2 :|
+"H"|: ABGB AGFD | E2ED EFGA | ABGB AGFE |1 E4 ABB2 :|2 E4 E2E2 ||
+"I"|: GABA B4 | GABA B2B2 | GABA B4 | AGGF E2ED :|
+"J"|: AGGF EFD2 | G2GF EFD2 | AGGF EFDF |1 E2ED EFGA :|2 E4 E2E2 ||

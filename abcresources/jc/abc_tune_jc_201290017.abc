@@ -1,0 +1,37 @@
+
+X: 1
+T: Illan hiljaisuudessa #1
+O: Kiikoinen
+M: 3/4
+L: 1/8
+K: Am
+EE \
+|: "Am"A4   A2  |     E4  E2 | "Dm"(D3 E) (DC) |  "E7"B,4  A,B,\
+|  "Am"C3B, A,B,|  "F"C4  D2 |  "C"E6-         |  "E7"E2z2 EE :|
+|: "E7"E4   ^G2 |     B4  EE | "Am"(A3^G) (AB) | "(F)"c4   cc  \
+|  "Dm"(B3c) BA | "E7"^G4 E2 | "Am"A6-         |      A2z2 AA :|
+|: "Dm"d3e   dc | "E7"B4  e2 | "Am"c3d     cB  |      A4   B2 \
+|      c3B   AB |  "F"c4  d2 |  "C"e6-         |  "E7"e2z2 ee |
+|  "Dm"d3e   dc | "E7"B4  e2 | "Am"c3d     cB  | "(F)"A4   c2 \
+|  "Dm"B3f   ed | "E7"c4  B2 |1 "Am"A6- | A2z2 ee :|2 "Am"A6- | A2z2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Illan hiljaisuudessa #2
+T: Ei pit\"asi nuorena lempi\"a
+C: Trad.
+O: Kiikoinen
+M: 3/4
+L: 1/8
+K: Am
+E2 \
+|: "Am"c4 cc | "G"B4 cB | "F"A4 A2 | "E7"E4 E2 \
+| "Am"C4 D2 | C2 B,2 A,2 | "E7"E6- | E2 z2 :|
+|: E2 \
+| "E7"E4 ^G2 | B4 EE | "Am"A4 B2 | "F"c4 cc \
+| "Dm"B4 A2 | "E7"^G4 E2 | "Am"A6- | A2z2 :|
+|: "Dm"d3e   dc | "E7"B4  e2 | "Am"c3d cB  |      A4   B2 \
+|  "Am"c3B   AB |"(F)"c4  d2 |  "C"e6-     |  "E7"e2z2 ee |
+|  "Dm"d3e   dc | "E7"B4  e2 | "Am"c3d cB  | "(F)"A4   c2 \
+|  "Dm"B3f   ed | "E7"c4  B2 |1 "Am"A6- | A2z2 ee :|2 "Am"A6- | A2z2 |]

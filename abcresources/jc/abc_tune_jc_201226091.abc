@@ -1,0 +1,30 @@
+X: 100
+T: Drops of Brandy
+T: Longways for as many as will.
+%R: slip-jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.50
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G>AB B>AG B>AB | GAB dBG B2g |\
+G>AB B>AB B>AG | F>GA (AF)D F2A :|
+|:\
+GAB gdB gdB | GAB gdB d2e |\
+GAB gdB gdB | FGA AFD F2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man turn 2d wo. & cast off .| the 2d
+%% Wo. turn the 1st Man & cast off :| Then lead
+%% to the Wall & back again then take Hands
+%% all 4 quite round .| the 1st Cu. lead thro'
+%% the 2d Cu. & cast off, Foot it to each
+%% other and turn Hands :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

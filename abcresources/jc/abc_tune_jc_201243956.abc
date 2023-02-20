@@ -1,0 +1,27 @@
+X: 396
+T:Auld Lang Syne
+N: page 149
+N: pentatonic
+C:words Robert Burns
+M:4/4
+L:1/8
+K:G
+%
+P:Verse
+"Am7"A2 | "D"D3 D D2 F2 | "A7"E3 D E2 F2 | "D"D3 D "D7"F2 A2 | "G"B6 B2 |
+"D"A3 F F2 D2 | "A"E3 D E2 "F#m7"FE | "Bm"D3 B, "Gm"B,2 "Am7"A,2 | "D"D6 ||
+%
+P:Chorus
+"Gm"B2 | A3 F F2 D2 | "A7"E3 D E2 B2 | "D"A3 F "D7"F2 A2 |  "G"B6 B2 |
+"D"A3 F F2 D2 | "A"E3 D E2 "F#m7"FE | "Bm"D3 B, "Gm"B,2 "Am7"A,2 | "D"D6 ||
+%
+P:Verse #2
+"Am7"A2 | "D"D3 D D2 F2 | "A7"E3 D E2 FE | "D"D3 D "D7"F2 A2 | "G"B6 B2 |
+"D"A3 F "Bm"F2 D2 | "G"E3 D "Am7"E2 "F#m7"FE | "Bm"D3 B, "Gm"B,2 "Am7"A,2 | \
+"D"D8- | D4 ||
+%
+P:Chorus-Polka
+"G"B4 | "D"A6 F2 | F4 D4 | "A7"E6 D2 | E4 B4 | "D"A6 F2 | "D7"F4 A4 | "G"B8- |
+B4 d4 | "D"A6 F2 | F4 D4 | "A7"E6 D2 | E4 "F#7"F2 E2 | "Bm"D6 B,2 | \
+"G"B,4 "A7"A,4 | "D  G"D8- | "D"D2 z4 |]
+%%TODO: Here is where the newer tunes are...

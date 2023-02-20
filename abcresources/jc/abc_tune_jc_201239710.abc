@@ -1,0 +1,23 @@
+X: 3390
+T: RONDO BY DIABELLI
+%R: march, reel
+B: James Kerr "Merry Melodies" v.3 p.43 #390
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has final repeat but no initial repeat; fixed.
+N: (The 3rd strain has both initial and final repeats; not fixed.)
+M: 2/4
+L: 1/16
+%%slurgraces yes
+%%graceslurs yes
+K: D
+uA2 |\
+(dA)Bc defg | a2a2 f4 | gaba gfed | cded (cB)A2 |\
+(dA)Bc defg | a2a2 f4 | (gb)(eg) (ce)(Ac) | d6 H::\
+a2 |\
+A6 a2 | A6 a2 | g2f2g2e2 | {g}f2e2d2a2 |\
+A6 a2 |
+A6 a2 | g2f2g2e2 | "_D.C."d6 ::\
+[K:=c][K:G]\
+(Bc) |\
+de ^ce dece | dgba gfed | cBAG FDEF | GFGA BABc |\
+de^ce dece | dgba gfed | cBAG FDEF | "_D.C."G6 :|

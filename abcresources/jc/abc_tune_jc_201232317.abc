@@ -1,0 +1,26 @@
+X: 16
+T: Mrs Hamiltons of Wishaws Strathspey
+R: strathspey
+Q: "Slow"
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.8 #16
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: C
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Bar 8 is missing a beat; fixed by making it like the last bar.
+K: A
+E2 |\
+A2A2A2A2 A3GE2G2 | A2A2c2A2 [B6E6]c2 |\
+A2A2A2F2 G3AB2c2 | F3B AGFE A4 A2 :|
+|: fg |\
+a3e agfb a3fe2c2 | A2A2c2e2 f2B2B2 fg |\
+a3e agfb a3fe2c2 | E2E2E2 FG A4 A2 ||
+fg |\
+a3e agfb a3fe2c2 | A2A2c2e2 f2B2B2 cd |\
+c2e2e2a2 | f2d2d2b2 | E2E2 E2FG A4 A2 :|
+%%begintext align
+%% The first Lady Set to 2d Gent: & turn .|
+%% the first Gent: set to the 2d Lady & turn :|
+%% down the middle up again :|.
+%% Allemand :|:
+%%endtext

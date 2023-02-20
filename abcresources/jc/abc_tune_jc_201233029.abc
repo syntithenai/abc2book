@@ -1,0 +1,583 @@
+
+X: 0
+T: Twenty-four Country Dances For the Year 1826
+C: Goulding & d'Almaine
+K:
+% %center  - - - - - - - - - - - - - - -
+% %center With proper Figures and Directions to each Dance performed at Almack's, Bath and all Public Assemblies.
+% %center London Printed by Goulding and D'Almaine, No. 20 Soho Sq. & to be had of I. Willie 7 Westmd. St Dublin.
+% %center  - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: the Huntsmen's Chorus
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/16
+M:2/4
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/3545
+K:C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+c4 cdef | g4 e2e2 | d2g2d2g2 | efed c2 G2 |\
+c4 cdef | g4 e2e2 | d2g2b2a2 | g4 z2 |]
+d2 |\
+e4 e2e2 | c4 c2c2 | f4 f2f2 |d4 d2d2 |\
+e2ee e2e2 | c2cc c2c2 | f2ff f2e2 | d4 z2G2 |
+e4 e2e2 | {g}f4 e2e2 | d4 edcd | (e4c2) G2 |\
+e4 e2e2 | g2f2e2e2 | edcd e2d2 | c4 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across -- lead down the middle and swing corners at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+T: Agnes
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/16
+M:2/4
+U:l = !accent!
+U:w = !wedge!
+N:Part of 'Leise leise fromme weise' from Der Freischuet
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/3546
+K:F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c4 (=Bcdc) | f4 (efgf) | a4 (gfed) | (d4 c2) F2 |\
+G2A2B2=B2 | c2 "^>"f4 (ed) | d2c4 E2 | F4 z2|]
+fg |\
+"^>"a2gf (ef)cA | (dc).B.G (dc).B.G | \
+"^>"a2gf (ef).c.A | (dc).B.G (dc).B.G |
+agfe dcBA | GABc defg | a2gf efge | f2F2 F4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead down the middle, up again, right & left at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3
+T: Untitled. (p)G&D.03
+M:2/4
+L:1/8
+Q:200
+S:Goulding & D'Almaine,1826
+F:http://www.cpartington.plus.com/links/Gou&dal1.abc
+R:.Air
+N:Title missing from Photocopy.
+Z:vmp.Andrea Kirkby
+K:G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g |\
+dBAG | GB D>E | GG c>B | (B2{cB}A) g |\
+dBAG | GB D>E | GB A>B | G2z :|
+|: B |\
+c>Bcd | ec g>e | dB Gg | e>f g/2f/2g/2e/2 |\
+dBAG | GB DE | G>B Ad | G2z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% [dance not transcribed]
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4
+T: le Solitaire
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:6/8
+N:the "B" in bar 20 could be a "g". Hard to read photocopy
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/3548
+K:C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g |\
+e2e c2g | (e3 c2)g | e2e edc | d3 - d2g |  \
+e2e c2g | (^f3 d2)d | g2g ag^f |g3 - g2 ||
+g |\
+e2e e2e | e2a e2e | ba^g fed | c2e c2e |\
+e2e edc | Bag g2f | e2e edc | g3 - g2f |
+e3 -ede | f3 -fef | d2d dgg | e2c Bcd | \
+e3 -ede | f3 -fde | d2d dgB | c3 - c2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Gent: and 2d Lady change places 2nd Gent and 1st Lady do the same right & left
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 5
+T: O! Twine a Wreath
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:2/4
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/3549
+K:G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d/c/ |\
+Bdgf | agec | edBG | A2z d/c/ |\
+Bdgf | (ag)ec | Be/d/ c/B/c/A/ | G2 z ||
+B|\
+Ac ed/c/ | Bdg B | Ac ed/c/ | B2 zd | \
+^cBA g | fed (3b/g/e/ | d>d ^c/d/e/c/ | d2 !D.C.!z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Lady & 2d Gent: change places, 2d Lady & 1st Gent: do the same
+%% lead down the middle, up again & right & left
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 6
+T: Giovinetto Cavalier
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:6/8
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/3550
+K:G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+d2B d2B | dce A2A | A2B c2B | AGA B2d |\
+d2B d2B | (dce) A2f | g/f/g/d/B/G/ g/f/g/d/B/G/ | A/e/d/c/B/A/ G2 ||
+B |\
+c2A c2A | FGA Ddc | B2c dBe | dcB A2B |\
+c2A c2A | FGA D2f | g/f/g/d/B/G/ g/f/g/d/B/G/ | A/e/d/c/B/A/ G2|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Balancez 1st & 2d Couples, retaining hands, lead down the middle and chain figure of four at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 7
+T: der Freischutz Waltz
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:3/4
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/3551
+K:C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+Gce | \
+(ag).e.G.c.e | (ag).e.G.c.e | (gf).d.G.B.d | (fe).c.G.c.e |\
+(ag).e.G.c.e.| (ag).e.G.c.e | (gf).d.G.B.d | c2z |]
+DGB |\
+(ed)BDGB | (ed)BDGB | (dc)AD^FA | (cB)GDGB |\
+(ed)BDGB | (ed)BDGB | dcAD^FA | G2z !D.C.! |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% WALTZ Figure
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8
+T: Casper's Song
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:2/4
+N:Yes, this really is a peculiar tune.
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/3552
+K:E min
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+e2 e2 | ed/c/ Bc | B2 z2 | \
+B2 e2 | ^dd/e/ ff | B4 | \
+=de/f/ gB/c/ | Td4 | \
+G2 Te2 | .d.b Te2 | db z2 |
+Bd cf | gd b2 | Bd cf | gd b2 | \
+"^>"g3 f/e/ | (d/e/d/c/) (B/c/B/A/) | G/A/B/c/ d2 | e3 f |
+"^>"g3 f/e/ | (d/e/d/c/) (B/c/B/A/) | G/A/B/c/ Td2 |\
+G2 Te2 | .db Te2 | .db z2 | \
+TB4 | eE z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% FANCY Figure
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 9
+T: Lucy Dear
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/16
+M:2/4
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/3553
+K:D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F2GA B2cd | e2cA f4 | d2cd ecA2 | BAGF E3G |\
+F2GA B2cd | e2cA f4 | d2cd B2ed | cBcA d4 ||
+A2A2B2B2 | cBcA d2d2 | A2ag (gf).e.d | B2cc d2f2 |\
+A2A2B2B2 | cBcA d2d2 | A2ag gfed | B2cc d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change sides, back again, lead down the middle and right & left
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 10
+T: Faustus
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:6/8
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/3554
+K:D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F/G/ |\
+|:!segno! AAA AAA | "^>"[f2A2]d A2F | GBG FAF | Eed cBA |\
+    AAA AAA | "^>"[f2A2]d A2F | Ged cBc | d2D D2 :|
+|: c/d/ |\
+eee ecA | ffe def | eee ecA | dfe d2c/d/ |\
+eee ecA | aaa agf | eae dcB | AFG AFG !segno! :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Balancez 1st & 2d Couples, retaining hands
+%% lead down the middle & chain, figure of four at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 11
+T: William Tell
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:6/8
+N: the repeat-barlines are written with 4 dots (vertically aligned)
+N: instead of 2, ABC doesn't have a notation for this
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/3555
+K:F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+FG |:!segno! \
+ABc cFG | ABc c2c | f2f fAc | f2f fgf |\
+edc BAG | A2f fgf | edc BAG | F2A F2 ||
+c |\
+(Ac).c (cf).f | e2c c2A | (Bd).d (dc).B | BAG A2A |\
+Afe d2d | cdc cef | g2g GA=B | c3- (!D.C.!c2 B) !segno! :|
+% overkill repeats ?!!
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Balancez 1st & 2d Couples, retaining hands,
+%% lead down the middles & chain figure of four at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 12
+T: Captain Clapperton
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:2/4
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/3556
+K:C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+cG/G/ cG/G/ | dBGB     | cedg | ecc G |\
+cG/G/ cG/G/ | dBG g/f/ | ecdB | cCC ||
+e |\
+dG/G/ dG/G/ | f/e/d/c/ B/A/G/F/ | EG ce       | d/c/B/c/ Bc |\
+dG/G/ dG/G/ | f/e/d/c/ B/A/G/F/ | E/G/c/e/ dB | cCC |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 3 Couples, lead down the middle and hands across at the top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 13
+T: Il Crociato
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:2/4
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/3557
+K:F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+.d.a.g.f | .e.g.c.c | .B.d.c.B | AcFc |\
+dB ec    | fdge     | afdg     | egc ||
+A |\
+GA/B/ cd/e/ | faf A | GA/B/ cd/e/ | fcde |\
+fagf | egcA | Bdce | fFF |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands four around lead down the middle & allemande
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 14
+T: Algiers Waltz
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/16
+M:3/8
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/3558
+K:F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+AB |\
+cfedcB | AGFGAB | (cd).c2.f2 | (cd).c2.f2 |\
+cfedcB | AGFGAB | cdc2e2     | f4 ||
+c |\
+(cA).f2.f2 | (ec).g2.g2 | (cA).f2.f2 | (ec).g2.g2 |\
+(fc) (a2g2) | (fc) (a2g2) | f2F2F2 | F2F2F2 |
+F2(3AGF c2 | F2(3AGF c2 | d2d2e2 | (f2a2) AG |\
+F2(3AGF c2 | F2(3AGF c2 | d2d2e2 f4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% WALTZ Figure
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 15
+T: the Enterprize
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:6/8
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/3561
+K:A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+e |\
+e2c e2c | a2g fed | (cd)e fed | (cB).A (GB) e | \
+e2c e2c | a2g fed | cde edB   | BAA A2 ||
+c |\
+B2e e2e | ^def (Bb).a | gfe e^de | f^dB B2c |\
+B2e e2e | ^def Bba | gfe ^def | e3- !D.C.!e2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Half right & left back again lead down the middle and pousette
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 16
+T: the Fly-Flappers
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:2/4
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/3562
+K:D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: dz dz | fddd  | ez ez | geee | fagf  | edcd | ez cz |1 dDFA :|2 d2 za ||
+|: Az az | Az gz | Az fz | ecAc | dz dz | befg | fdec  |1 dafd :|2 dDFA |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Lady & 2d Gent: change places, 2d Lady & 1st Gent: do the same
+%% lead down the middle, up again & right & left
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 17
+T: Anatomie Vivante
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:6/8
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/3563
+K:Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(FG).F |\
+(d2c) (d2c) | B2d (FG)F | (e2d) (e2d) | c2f (FG)F |\
+d2c   B2A   | G2=B cde  | dcB    BcA  | B2z ||
+(cd)c |\
+a2g f2=e | f2c cdc | a2g f2=e | f2z (f=e)d |\
+c2c (dc)B | A2A (cB)A | Gdc BAG | F2 !D.C.!F :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Balancez 1st and 2d Couple, lead down the middle, & chain figure of four round
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 18
+T: Old Ebony
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:2/4
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/3564
+K:Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+BB/c/ dB | edcB | A/B/c/A/ FF | A/B/c/A/ FG/A/ |\
+BB/c/ dB | edcB | A/B/c/A/ FA | B2z ||
+d/e/ |\
+.f(f/g/) .f(f/g/) | fbag | fd Bd | c/B/A/B/ cd/e/ |\
+.f(f/g/) .f(f/g/) | fbag | f>g f/d/e/c/ | BbB |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Lady & 2d Gent: change places, 2d Lady & 1st Gent: do the same,
+%% lead down the middle, up again & right & left
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 19
+T: Uncle Gabriel
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:6/8
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/3565
+K:D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+d2A F2A | d2d dcd | e2c A2c | e2e ede | \
+f2f f2f | g2g gfe | dfd cBc | d3 - d2 ||
+A |\
+A2A ABc | d2e f2A | d2e f2^g | a2A A2F |\
+G2A B2c | d2d def | gfe dec | d2f d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st three Couples advance & retreat, lead down the middle and pousette at top
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 20
+T: Quite Correct
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:6/8
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/3566
+K:G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+g2g (gf)g | d2d (d^c)d | G2A B2c | d2d def |\
+g2g gfg | d2d d^cd | Bed cBA | AGG G2 ||
+d|\
+d2d d^cd | e2e e^de | f2f fed | a2A AB^c |\
+d2d d^cd | e2e efg | fed ^cBc | d3 - d2 !D.C.! |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Balancez 1st & 2d Couple, lead down the middle. & chain, figure of four round
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 21
+T: the Crusaders
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/16
+M:2/4
+N:Repeat marks i 1st and last bars are 4 dots vertically.
+N:Those in the middle are the usual 2
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/3567
+K:C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+ed |: !segno! \
+c2F2F2 ed | c2G2G2 (gf) | e2c2 c2e2 | dcBc d2 ed |\
+c2G2G2 ed | c2G2G2 gf | e2c2 d2B2 | c4 z2 :|
+|: Bc |\
+d2de f2d2 | e2ef g2c2 | d2de fedc | B2c2d2 Bc |\
+d2de f2d2 | e2e^f g2e2 | d3e dBcA | G2G2!D.C.!A2B2 !segno!:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change sides, back again, lead down the middle & pousette
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 22
+T: Walladmoor
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:6/8
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/3568
+K:A min
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c/B/ |\
+ABA e2d | cBA  B2E | ABA B2E | ABA B2E |\
+ABA e2d | cBA ^GBE | A2B cdB | A3 - A2 ||
+G |\
+cdc g2f | edc BdG | cdc d2G | cdc d2G |\
+cdc g2f | edc (Bd) ^G | A2B cdB | A2a A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead down the middle, right & left, & chain, figure of four
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 23
+T: the Infant Lyra
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/16
+M:2/4
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/3569
+K:Eb
+%%graceslurs 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+BG |\
+(E2G2B2e2) | d2f2B2 A2 | G2B2E2A2   | (G4 {AG}F2) B2 |\
+(E2G2B2e2) | d2f2B2 g2 | f2B2 dcB=A | B4 z2 :|
+|: Bc |\
+.d2(de) .f2(fg) | agfe dcBA | G2GA B2c2 | F4 z2 Bc |\
+.d2(de) .f2(fg) | agfe dcBA | G2e2 gfed | e4 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Right and left, lead down the middle and up again
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 24
+T: la Neige
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:6/8
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/3570
+K:F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |:\
+c2f A2c | FAF C2c | (cB)G (cB)G | d2c A2c | \
+c2f A2c | FAF C2c | (cB)G  dcA | F3-F2 ||
+A |\
+A2A ABc | def A2A | AAA A=B^c | d3 - d2A |\
+A2A A=B^c | def A2A | A2A A=B^c |(dA)f A!D.C.!B=B :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% [ illegible - lead down the middle ?? ] and chain figure of four round
+%%endtext

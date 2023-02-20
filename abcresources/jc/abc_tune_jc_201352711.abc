@@ -1,0 +1,22 @@
+X: 415
+T: Will You Come Down to Limerick   #2
+R: slip-jig, hop-jig
+%S: s:3 b:17(5+6+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #415
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0415/oneill-1001-0415-1.abc
+N: Compacted via repeats and multiple endings [JC]
+M: 9/8
+L: 1/8
+K: G
+"^A"[|] d !segno!\
+|: cAG GDG G2d | cAG GFG Add | cAG GDG G2A |\
+[1 FGA =fed cAd :|[2 FGA =fed cAG |]
+"^B"\
+|: def gaf g2f | def gbg afd |\
+[1 cde =fge f2d | cde =fed cA^F :|\
+[2 bag agf g2d | cde =fed cAG |]
+"^C"\
+|: BGB AFA G2A | BAB GBd cBA |\
+[1 BGB AFA G2A | FGA =fed cAG :|\
+[2 fdf ece d2A | FGA =fed cA!segno!G |]

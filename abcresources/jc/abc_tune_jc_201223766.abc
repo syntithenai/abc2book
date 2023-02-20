@@ -1,0 +1,30 @@
+X: 76
+T: Buxton Wells
+T: Longways for as many as will.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.38
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the dance's phrasing.  This may not be what was intended.
+M: 1/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+dAF BGE | AFD d2e | fdB ecA | dBG F2G |\
+AFD BGE | cAF g2f | ecA ^GEA | FB^G A2 :|
+|: c |\
+ecA dfd | BdB G2f | gec ^AFB | FB^A B2c |\
+dBF GEd | eBe c2A | dfd BGA | FDc d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands all four a Quarter round 1st Man & 2d Wo
+%% change Places, then Hands another Quarter round
+%% then 2d Man & 1st Wo. change Places, which makes
+%% all Proper .| The two Men lead thro' the two We. &
+%% cast in own Places & turn Hands :| Hands across
+%% quite round, and back again .| Lead to the
+%% Wall and Back again 1st Cu. cast off & turn.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

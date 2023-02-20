@@ -1,0 +1,23 @@
+X: 2032
+T: Sir James Baird's    Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.3 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+Bc |\
+dG3d3B Td4 G2Bc | d3d (ed)cB c2A2 A2Bc |\
+d2G2Bg3 Ag3Gg3 | d3G {c}B2AG D2G2G2 :|\
+e2 |\
+Td3eg3a (gaba) g4- | g2G2 {e}d2cB eA3 Te4 |
+d3eg3a (gaba) g4 | d2G2 {c}B2AG D2G2G2e2 ||\
+d3eg3a (gaba) g2dc | B2g2 {e}d2cB [A3D3]B {d}c2BA |\
+B2G2d2B2 d2gf e2c2 | d3G {c}B2AG D2G2G2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | g4G4 B4G4 | B4G4 d4D4 | g4G4 d4B4 | G4d4 g4G2 :| z2 | g4g4 b4g4 | g4G4 a4a4 |
+g4g4 g4g4 | d4d4 g4g4 || g4g4 g4g4 | g4g4 d4d4 | g4g4 g4c'4 | d'4d4 g4G2 |]

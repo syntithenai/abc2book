@@ -1,0 +1,74 @@
+
+X: 1
+T: Storrers hornpipe 1    [A]
+O: England 1838
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.3
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+"A"|: ed |\
+"A"c2A2 AcBA | "E"G2E2 E2FE | "B7"^D2B2 BcBA | "E7"G2E2 E2ed |
+"A"c2A2 AcBA | "E7"GABc defg | "A"aecA "E7"Gfed | "A"c2A2 A2 :|
+"B"|: ce |\
+"A"fece agfe | "A"fec2 c2ce | "A"fece agfe | "Bm"d2B2 "E7"B2ce |
+"A"fcea agfe | "D"fefg agfe | "Bm"dcBA "E7"Gfed | "A"c2A2 A2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Storrers hornpipe 1    (G)
+O: England 1838
+S: "Community Dances Manual 6", EFDSS, Jack Hamilton ed., 1981 p.3
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+"G"|: dc |\
+"G"B2G2 GBAG | "D"F2D2 D2ED | "A7"^C2A2 ABAG | "D7"F2D2 D2dc |
+"G"B2G2 GBAG | "D7"FGAB cdef | "G"gdBG "D7"Fedc | "G"B2G2 G2 :|
+"A"|: Bd |\
+"G"edBd gfed | "G"edB2 B2Bd | "G"edBd gfed | "Am"c2A2 "D7"A2Bd |
+"G"eBdg gfed | "C"edef gfed | "Am"cBAG "D7"Fedc | "G"B2G2 G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Storrers hornpipe 2   (G)
+T: Bank's Hornpipe. WI.030
+M: C|
+%Q: 180
+S: Wm Irwin, 1838 MS, AGG's Transcription
+R: Hornpipe
+O: England 1838
+A: Lake District
+Z: vmp.Chris Partington.2005
+K: G
+gd |\
+B2G2 GBAG | F2D2 DEDC | B,2A2 ABAG | F2D2 D2gd |
+B2G2 GBAG | FGAB cdef | gdBG AcFA | G2G2 G2 :|
+|: Bd |\
+edcd gdBd | e2c2 c2cd | edef gdBG | E2A2 A2Bd |
+edee gdBd | edBG A2GA | BdBd AdAd | B2G2 G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Storrers hornpipe 2   [Bb]
+T: Bank's Hornpipe. WI.030
+M: C|
+%Q: 180
+S: Wm Irwin, 1838 MS, AGG's Transcription
+R: Hornpipe
+O: England 1838
+A: Lake District
+Z: vmp.Chris Partington.2005
+K: Bb
+bf |\
+d2B2 BdcB | A2F2 FGFE | D2c2 cdcB | A2F2 F2bf |
+d2B2 BdcB | ABcd efga | bfdB ceAc | B2B2 B2 :|
+|: df |\
+gfef bfdf | g2e2 e2ef | gfga bfdB | G2c2 c2df |
+gfgg bfdf | gfdB c2Bc | dfdf cfcf | d2B2 B2 :|

@@ -1,0 +1,23 @@
+X: 10931
+T: P. BAILLIE'S STRATHSPEY
+C: By P. Baillie
+R: strathspey
+B: K\"ohler's Violin Repository, v.1, 1885 p.93 #1
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Broke long beams, for readability.
+M: C|
+L: 1/16
+K: D
+uF2 |\
+(Dd3) (dc2) (cB3) (BA3) | a3f df3 {f}e3d ef3 |\
+(Dd3) (dc3) (cB3) BA3 | A3F EF3 DDD2 D2 :|
+|: uA,2 |\
+(B,3D) (A,3D) (B,3D) (A,3F) | (E3F) (G3A) (BA)GF (GF)ED |\
+(B,3D) (A,3D) (B,3D) (GB3) | (.A3.F) (E3F) DDD2 D2 :|
+|: uf2 |\
+(.a3.b) (a3f) d3e fd3 | (gb3) (fa3) {f}e3d ef3 |\
+(.a3.b) (af3) d3e fd3 | {f}e3d ef3 ddd2 d2 :|
+|: ud2 |\
+(BA3) (AG3) (GF3) (ED3) | (BABc) d2F2 {F}E4 (E2d2) |\
+(BA3) (AG3) (GF3) (ED3) | (.D3.B,) (A,3B,) DD"^Segue Reel."D2 D2 :|

@@ -1,0 +1,56 @@
+X: 21121
+T: WHIPPLE'S SETT (tune 1)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.112
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The phrasing here is somewhat irregular.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="1"
+a |\
+(gf).a (fe).a | (ed).d d2A | Bcd efg | (f3 e2)a |\
+(fe).a (fe).b | (ag).g g2f | efg ABc | d[fdA][fdA] [f2d2A2] H|]
+z |\
+[A3F3] [AF][AF][AF] | [A3G3] [AG][AG][AG] | [A3F3] [AF][AF][AF] | [A3G3] [AG][AG][AG] |\
+FAd fff | ^GBe ^ggg | Ace aaa | Be^g bbb |
+c'ae d'be | c'ae d'be | c'ae d'be | c'ae d'be |\
+(c'a).a (ae).e | (ec).c (cA).A | (AF).F (FE).E | ^d2z z2z | =D2z z2z |
+CEA cea | DFA dfa | EAc eac' | e'2z ^g2z |\
+(aA).A (AB).B | (Bc).c (cd).d | (de).e (ef).f | H[g3A3] H[g3A3] "^D.C."y |]
+P:MINOR.
+[K:=f=c][K:Dm]
+z |:\
+a3 f3 | d3 A3 | (BA).A (AA).A | (BA).A (AA).A :|\
+d3- def | e3- efg |  ^f3- fga | g3- ga_b |\
+(b^c).c ccc | dAA {=c}BAG |
+F3 E3 | D2z z2C | (F2A) (=c2A) |:\
+(f2c) (a2f) | ebg fed | c=Bd c_BG | F2A c2A :|\
+f2c a2f | E2A ^c2A | (e2^c) (a2e) |
+D2A d2A | (f2d) a2f | [^gd][g2d2] [gd][g2d2] | [^gd][g2d2] [gd][g2d2] |\
+[a^c]aa aaa | aAA AAA | A_B=B =c^cd | _e=ef ^fg^g |:\
+a3 f3 | d3 A3 |
+(BA).A AAA | (BA).A AAA :|\
+d3- def | e3- efg | ^f3- fga | g3- gab |\
+b^cc ccc | dAA {=c}BAG | F3 "^D.C."E3 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All balance to partners,
+%% balance to corners,
+%% balance partners and turn,
+%% chassa out and form lines across the hall,
+%% right and left,
+%% ladies chain,
+%% balance partners,
+%% swing to places,
+%% first two cross over, back,
+%% give right hand to partner,
+%% and form the grand star,
+%% balance and swing to places,
+%% next two, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

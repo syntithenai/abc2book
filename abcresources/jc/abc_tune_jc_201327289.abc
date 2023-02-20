@@ -1,0 +1,39 @@
+X: 1
+T: the Queen's Delight
+T: the Rakes delight
+N: DMDfD has "The Rake's delight" and "1728" handwritten below the title.
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.44 #80
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.202
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The actual time signature is "3I".
+N: Repeats added to agree with the dance instructions in CCDM1. (DMDfD doesn't mention music phrasing.)
+M: 6/8
+L: 1/4
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+f2f f>ga | f2f f>ed | c2c A>GF | A2A A2 :|
+|: B |\
+G2G G>AB | c2c c>BA | (de)c f2d | (ga)f b2g | (ec)f f2e | f3- f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first Cu. clap and cast off, This to the first
+%% Strain once. And lead through the 3d Cu. and cast
+%% off, This to the first Strain twice. Then right and
+%% left quite round, This to the second Strain once.
+%% And lead through the Top and cast off, This to the
+%% second Strain twice.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. clap and cast off .| and lead through the 3. cu. and cast off :| Then Right and left quite
+%% round, and lead up through the top and cast off.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

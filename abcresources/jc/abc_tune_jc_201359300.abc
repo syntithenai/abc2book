@@ -1,0 +1,32 @@
+X:124
+T:Toy 2
+C:anon.
+O:England or Scotland
+B:Pickeringe 17
+N:Guitar transcription, originally for lute.
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/england/pickeringe-17-gtr.abc
+V:1 program 1 24 up transpose -12
+V:2 program 1 24 down merge transpose -12
+M:C
+L:1/4
+Q:1/2=56
+K:A
+V:1
+ce ed/c/|BA F2|fa ce|fa ce|ce [ec]e/d/|\
+BA F2|A3/A/ Ac|A3/A/ Ac|
+V:2
+A,4|E,2 [D2F,2]|A,4|A,4|\
+A,4|E,2 [D2F,2]|[E4A,4]|[E4A,4]|
+%
+V:1
+ed/e/ f/e/d/c/|BA F2|fa c/d/e|fa c/d/e|\
+cd/e/ f/e/d/c/|BA F2|AF/G/ A/B/c/d/|eA Ac|]
+V:2
+A,4|E,2 [D2F,2]|A,4|A,4|A,4|\
+E,2 [D2F,2]|A,4|A,4|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

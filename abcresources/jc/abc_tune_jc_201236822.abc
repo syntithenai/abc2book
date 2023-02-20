@@ -1,0 +1,33 @@
+X: 231
+T: Waltz
+C: Abraham Mackintosh
+R: waltz
+M: 3/8
+L: 1/16
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Abraham Mackintosh "A Collection of Strathspeys, Reels, Jigs &c.", Newcastle, after 1797, p.23
+F: http://imslp.info/files/imglnks/usimg/a/a8/IMSLP80796-PMLP164326-Abraham_Mackintosh_coll.pdf
+K: D
+V: 1
+(3A,B,C |\
+D2D2D2 | F2F2F2 | A2A2A2 | B4c2 | d2c2B2 | A2G2F2 | E2D2C2 | D4 :|
+|: A2 |\
+A2d2d2 | A2e2e2 | A2f2f2 | e4fg | a2f2d2 | B4cd | efedcB A4 :|
+|: f2 |\
+f2e2f2 | g4f2 | e2d2e2 | f4e2 | d2c2d2 | {f}e4d2 | Tc6 | F4 f2 |
+f3gf2 | fb3f2 | f3gf2 | fc'3f2 | f3gf2 | fd'3b2 | {d'}c'2b2^a2 | b4 |]
+(3d'c'b |\
+a2f2d2 | B2G2 ^ga | b2^g2e2 | c2A2 f=g | a2f2d2 | B2g2f2 | e2d2c2 | d4 fg |
+agfed=c | B2G2 ^ga | ba=gfed | c2A2 f=g | agfed=c | B2g2f2 | e2d2c2 | d4 |]
+V: 2 clef=bass middle=d
+z2 |\
+D2d2d2 | D2d2d2 | d2e2f2 | g2G2a2 | b2a2g2 f2e2d2 | g2a2A2 | d4 :|
+|: z2 |\
+f6 | c6 | d6 | A2a2z2 | f2d2f2 | g4f2 | e2e2e2 A4 :|
+z2 |\
+[d2a2][c2a2][d2a2] | [e2a2][e2a2][d2a2] | [c2a2][B2a2][c2a2] | [d2-a2][d2a2][f2^a2] |\
+b2^a2b2 | c'4b2 | f2^a2c'2 | ^a2f2z2 |
+B2d2f2 | B2d2f2 | ^A2c2f2 | ^A2c2f2 | B2d2f2 | d2B2d2 | e2f2F2 | B4 |]
+z2 |\
+d4f2 | g2G2z2 | e4^g2 | a2A2z2 | d4f2 | g2e2d2 | g2a2A2 | d4z2 |
+d4f2 | g2G2z2 | e4^g2 | a2A2z2 | d4f2 | g2e2d2 | g2a2A2 | d4 |]

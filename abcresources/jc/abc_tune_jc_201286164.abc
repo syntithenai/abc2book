@@ -1,0 +1,18 @@
+X: 914
+T: Higgin's Hornpipe
+R: hornpipe
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #914
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0914/oneill-1001-0914-1.abc
+M: C|
+L: 1/8
+K: D
+"^A"[|]\
+F>E | D>FA>F D>GB>G | F>Ad>e f>dA>F | F>A (3def g>fe>d | (3efd (3cdB (3ABG (3FGE || D>FA>F D>GB>G |
+| F>Ad>e f>dA>G | F>Ad>g f>ed>c | d2f2d2 "^B":: c>d | e>A (3AAA f>A (3AAA | g>A (3AAA f>A (3AAA |
+| e>Af>A g>Af>A | (3efd (3cdB (3ABG (3FGE || D>FA>F "^1)"E>GB>G | F>Ad>e f>dA>G | F>Ad>g f>ed>c | d2f2d2 :|
+%%begintext align
+%% 1) O'Neill's 1850 and other published versions have D here, as in the A part,
+%% but the E sounds fine, and may be treated as a variant if you like.
+%%endtext

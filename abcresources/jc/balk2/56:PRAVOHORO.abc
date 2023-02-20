@@ -1,0 +1,28 @@
+X: 356
+T: Pravo Horo
+M: 2/4
+L: 1/8
+Q: 1/4=200
+P:AABBCCDD
+K: Gm
+%%MIDI program 65
+P:A
+CD D2 |D2 (3^FEF| ^F2 (3GFG|A2 z2|\
+cd d2|cB c2|BA B2|A4|
+CD D2 |D2 (3^FEF| ^F2 (3GFG|A2 z2|\
+cd d2|cB c2|BA B2|A4|
+cd d2|cB c2|BA B2|A4|\
+AB B2|AG G2|D>E ^FG|A4|
+cd d2|cB c2|BA B2|A4|\
+AB B2|AG G2|D>E ^FE|D4|
+P:B
+|:(3dcd (3dcd |(3dcd (3dcd|\
+(3cBc (3cBc |(3cBc (3cBc|
+(3BAB (3BAB |(3BAB (3BAB|\
+[1A>G ^FG|A4:|\
+[2A>G ^FE|D4|
+P:C
+|:(3^FGA (3AGA|(3^FED (3DEF|\
+(3^FDE (3FDE|[1(3^FED A2:|[2(3^FED D2|
+P:D
+|:^F2G2|(3^FED (3DEF|^F2G2|(3^FED D2:|

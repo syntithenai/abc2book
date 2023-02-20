@@ -1,0 +1,17 @@
+X: 1
+T: Brumley Brae (Recommended Version)
+N: Recommended by who(m)? ;-)
+C: William McPherson (1919-1974)
+R: reel
+S: printed page in Concord Slow Scottish Session collection
+Z: 2015 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+%%staffsep 35
+A  | "D"{c}d2cd AFD(d | cd)AF DFAF | "Em"EB, B,/B,/B, GFED | "A7"CEGB =cA^cA |
+y2 | "D"{c}d2cd AFD(d | cd)AF DFAF | "Em"GBgf "E7"ecdB | "A7"AFGE "D"D3 :|
+(a | "D"^ga)fd A(a^ga) | fdA(a ^ga)fd | "Em"eB B/B/B bagf | "E7"edcB "A7"Aa^g(a |
+y2 | "D"^ga)fd A(a^ga) | fdA(a ^ga)fd | "Em"eB B/B/B BABG | "A7"FDEC D3 |]
+(a | "D"^ga)fd A(a^ga) | fdA(a ^ga)fd | "Em"eB B/B/B bagf | "E7"edcB "A7"A^ABc |
+y2 | "D"{c}d2cd AFD(d | cd)AF DFAF | "G"G,3B, "A7"A,CEG | "(D)"FD"A7"EC "D"D2 |]

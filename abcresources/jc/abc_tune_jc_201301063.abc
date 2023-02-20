@@ -1,0 +1,18 @@
+X: 1
+T: Le Roi (the King)
+O: France
+M: C|
+L: 1/8
+K: D
+V: 1
+"^Intro"\
+| "D"agf2 "Bm"agf2 | "Em"bagf "A7"edcB \
+"A"\
+|: "D"A2d2 "Bm"Bcd2 | "Em"e3f "A7"e2e2 | "D"A2d2 "Bm"Bcd2 | "A7"e3d "D"Hd4 :|
+"B"\
+[| "D"f2ed "A7"e2e2 | "D"ffed "A7"e2e2 | "G"gfed "A7"e2e2 | "G"gfed "A7"e2e2 | "D"fed2 "Bm"fed2 | "Em"gfed "A7"a4 |]
+V: 2
+"A"\
+|fed2 fed2 | gfed cBAG |: [A4F4] F4 | G4 ABcA | F2A2 FGA2-| A2G2 F4 :|
+"B"\
+[| f2ed e2e2 | ddcB A4 | ABcB c2c2 | Bdfg a4- | agf2 agf2 | bagf edcB |]

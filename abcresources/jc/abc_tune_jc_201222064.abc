@@ -1,0 +1,16 @@
+X:54
+T:Hail to the Chief
+C:James Sanderson
+M:C|
+Q:1/2=100
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A2 B>c d2 c>B|A>BA>F E2 D2|A2 d>e f2 e>d|e>de>f e2 z2|A2 B>c d2 c>B|
+A>BA>F E2 D2|A2 d>c B>d A>F|A2 d>d d2 z2||f2 f>f f2 g>f|e>def ec A2|f2 f>f f2 ed|
+e2 a>a agfe|d2 d>c B2 d>B|Adde f2 ed|B2 dB A>BAF|A2 d>d d2 z2||D2 d>B A>F D2|
+G2 e>f e>d B2|FAde f2 ed|B<d AF E>GF>E|D2 d>B A>F D2|Eeef e>d B2|A2 dc Bd AF|d2 d>d d2 z2|]

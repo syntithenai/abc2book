@@ -1,0 +1,22 @@
+X: 14
+T: Alunelul de la Orodel
+O: Romania
+M: 2/4
+L: 1/16
+Q:1/4 = 108
+K: G
+%%MIDI program 110 % Fiddle
+%%MIDI chordprog 32 % Acoustic Bass
+%%MIDI beat 93 83  73 4
+%%MIDI chordvol 80
+%%MIDI gchord GzIz
+|:gfaf  ge=fd|=fdec  dB G2|gfaf  ge=fd   |fefd  g2 g2 |
+  gfaf  ge=fd|=fdec =fB=f2|=f3d ^c2 d2   |B2d2  G4::
+%%MIDI chordprog 32 % Acoustic Bass
+%%MIDI beat 93 83  73 4
+%%MIDI chordvol 80
+%%MIDI gchord GzIz
+  "G"B2d2 G4 |B2G2 G4     | B2d2 G4      |B2G2 G4     :|
+|:"G"B8      |dcBB- B4    |"Am" c8       | edcc-  c4  |\
+  "G"g8      |=fed2 dcB2  | B2d2 "D"c2d2 |B2G2G4 ::
+  "G"B2d2 G4 |B2G2 G4     | B2d2 G4      |B2G2 G4     :|

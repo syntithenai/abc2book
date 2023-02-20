@@ -1,0 +1,17 @@
+X: 1
+T: the Machine without Horses
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+B: RSCDS 12-12
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2{A}B/c/ dBG | "C"Gge "G"dBG | "C"cec "G"dBd | "Am"ABG "D7"FED \
+| "G"G2{A}B/c/ dBG | "C"Ggf efg | "D"afd "A7"ge^c | "D"d3- d2 :|
+{B}c \
+| "G"dBd dBd | "D7"cAc cAc | "G"Bdg dBG | "Am"ABG "D7"FED \
+| "G"dBd dBd | "D7"cAc cAc | "G"Bdg dBG | "D7"cAF "G"G2 |]
+{B}c \
+| "G"dBd dBd | "D7"cAc cAc | "G"Bdg "Em"dBG | "A7"ABG "D7"FED \
+| "G"GDG BGB | "G"dBd g2d | "C"efg "D7"agf | "G"g3- g2 |]

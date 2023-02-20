@@ -1,0 +1,14 @@
+X:29
+T:Kaustisten Polkka
+M:2/4
+L:1/16
+Q:1/4=120
+R:polka
+K:Am
+|: "Am" ABcd e2a2 | e2c2 cBcd | "E" c2B2 ~B2AB | "Am" cBAB A2E2 | !
+"Am" ABcd e2a2 | e2c2 cBcd | "E" c2B2 ~B2AB | "Am" cBA2 E4 :| !
+|: "Am" ABcd e2a2 | "Dm" c'2b2 ~a2^ga | "E" b2e2 e^geg | "Am" baa2 a2^ga | !
+"Am" ABcd e2a2 | "Dm" c'2b2 ~a2^ga | "E" b2e2 e^geg | "Am" baa2 a4 :| !
+|: "C" g2ag eceg | c'2g2 eceg | "G" gfag gdBd | "C" c2c2 cdef | !
+g2ag eceg | c'2g2 eceg | "G" gfag gdBd |[1 "C" c2c2 c3e :|
+[2 "C" c2c2 c4 ||

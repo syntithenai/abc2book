@@ -1,0 +1,11 @@
+X:3
+T:octavo, transpose and octavo fields agree
+L:1/8
+M:NONE
+% This is another minimalist composition.  The tune goes up and down by octave steps
+% After allowing for the octavo annotations, the tune should play as written
+% i.e. all the notes on the middle line but with octavo clefs.
+K:
+B[K: octavo=+1 middle=b transpose=+12]b [K: octavo=+2 middle=b' transpose=+24]b'
+[K: octavo=+1 middle=b transpose=+12]b [K: octavo=0 middle=B transpose=0]B
+[K: octavo=-1 middle=B, transpose=-12]B, [K: octavo=-2 middle=B,, transpose=-24]B,,

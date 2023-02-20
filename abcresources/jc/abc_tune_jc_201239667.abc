@@ -1,0 +1,21 @@
+X: 3362
+T: Rattling Roaring Willie. or Mr Robertson of Ladykirks' Delight.
+%R: slip-jig
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.36 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Several trailing grace notes transcribed as 16th notes, to satisfy all ABC software.
+M: 9/8
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+f |\
+ecA ABA cef | (T=g2f/g/) BGB Td2f | ecA ABA ceg | (Ta2g/a/) ecA e2f/g/ | {b}agf ecA cef |
+(T=g2f/g/) .B.G.B Td2B | ABA Tc2A cea | cAc BGB A2 :: f | ecA acA ecA | B=GB gdB Td2f | ecA acA ecA |
+{b}agf ecA e2f/g/ | {b}agf ecA cef | {a}=gfg BGB Td2B | ABA Tc2A cea | cAc BGB A2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | a3 a3 a3 | =g3 g3 g3 | a3 a3 a3 | a3 a3 a3 | a3 a3 a3 |
+=g3 g3 g3 | a3 a3 a3 | e3 E3 A2 :: z | a3 a3 a3 | =g3 g3 g3 | a3 a3 a3 |
+a3 a3 a3 | a3 a3 a3 | =g3 g3 g3 | a3 a3 a3 | e3 E3 A2 :|

@@ -1,0 +1,18 @@
+X: 2102
+T: Earl of Breadalbane's    Reel
+%R: reel
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.10 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Edor
+% - - - - - - - - - -
+V: 1 staves=2
+e |:\
+E/E/E EG B3c | dBAd FDAF | E/E/E EG B3g | f^dBd e3f :| Tg>fef Tg>feg |Tfeda fadf |
+Tg>fef Tg>feg | f^dBd e3f || Tg>fef gfeg | Tf>eda fadf | gbeg bgeg | f^dBd e3f |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |: e2e2 e2e2 | d2d2 d2d2 | e2e2 e2e2 | b2B2 e2e2 :| e2e2 e2e2 | d2d2 d2d2 |
+e2e2 e2e2 | b2B2 e2e2 || e2e2 e2e2 | d2d2 d2d2 | e2e2 e2e2 | b2B2 e2e2 |]

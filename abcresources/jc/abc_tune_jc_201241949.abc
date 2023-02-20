@@ -1,0 +1,28 @@
+X: 491
+T: MISS WATSON
+T: re-named Belhelvie House
+C: Wm MARSHALL
+R: Strathspey
+B: Glen Collection p.49 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Bm
+%
+V: 1
+|:\
+B,<B B>F B/B/B d2 | c>B A<c e/d/c/B/ Ac | B,<B B>F B/B/B d2 | TcB Ac B2 B,2 :|
+d2- df d/d/d Td2 | cB Ac e/d/c/B/ Ac | d2- df d/d/d (fd) | cA ec B2 B,2 |
+d2- df d/d/d Td2 | cB Ac e/d/c/B/ Ac | d2- df cA ec | dB cA B2 B,2 |]
+%
+V: 2
+|:\
+B2[b2f2] d2[b2f2] | A2[a2e2] c2[a2e2] |\
+B2[b2f2] d2[b2f2] | A2[a2e2] B2[b2f2d2] :|
+b2[f'2d'2] f2[f'2d'2] | a2[e'2c'2] e2[e'2c'2] |\
+b2[f'2d'2] f2[f'2d'2] | a2a2 [b2B2][f2d2B2] |
+b2[f'2d'2] f2[f'2d'2] | a2[e'2c'2] e2[e'2c'2] |\
+[b2B2][d'2d2] [a2A2][a2A2] | [b2B2]f2 B2[b2f2d2B2] |]

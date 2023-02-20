@@ -1,0 +1,23 @@
+X: 21832
+T: LOVAT'S RESTORATION -- Strathspey
+R: strathspey
+B: K\"ohler's Violin Repository, v.2, 1885 p.183 #2
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: As written, this is a 24-bar strathspey.
+M: C|
+L: 1/8
+K: D
+uf |\
+d<d (f>d) (e>d)f>d | B<B (e>B) (c>A)e<A | d<d(f>d) (e>d)f<d | F<F (d>F) ~E2Df |
+d<d (f>d) (e>d)f>d | B<B (e>B) (c>A)e<A | d<d(f>d) (e>d)f>d | (.e>.c) (d>F) ~E2(D :|
+uB) |\
+A<Fd>F (e>F)(d>F) | A<F(d>F) (e>F)G<B | A<F(d>F) (e>c)d<f | A<dF<d ~E2(DB) |
+A<F(d>F) (e>F)d>F | A<F(d>F) (E>F)G<g | {fg}(.a>.f)(e>c) (d>f)(B<d) | (A<d) (F<d) "^Segue Reel."~E2"_D.C."D |]
+%
+P: Reel
+uB |\
+AGFd (F/G/A)~d2 | fdAF E/E/E~B2 | AGFd (F/G/A)~d2 | (fd)AF ~E2D :|
+ug |\
+(fd)fa (bg)gb | (ag)ga (ge)eg | (fd)fa (bg)gb | (af)df {ef}e2dg |
+(fd)fa (bf)fb | (af)df (bg)eg | (fg)af (ga)bg | (af)df {ef}e2"^D.C.""_Fine."d |]

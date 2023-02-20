@@ -1,0 +1,40 @@
+X: 13321
+T: the SPANISH PATRIOTS
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.13 p.32 #1
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Bass line slightly modified for software that doesn't implement voice overlays.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+(3ABc |\
+d>cd>A F>AF>A | d>cd>A F2 (3(def) |\
+g>fg>e f>ef>d | c2A2 A2B>c |\
+d>cd>A F>AF>A |
+d>cd>A F2 (3(def) | g>fg>e f>ef>d |\
+A2[d2F2] [d2F2] :: fg |\
+a3f a>fa>f | b>gb>g e2f>g |
+a3f (3(bag) (3(fed) | c2[A2C2] [A2C2]f>g |\
+a3f a>fa>f | b>gb>g e2f>g |\
+a>fa>f a>ge>c | A2[d2F2] [d2F2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z2 |\
+d2[d'2f2] [d'2f2][d'2f2] | d2[d'2f2] [d'2f2]z2 |\
+c'2a2 d'2d2 | a2A2 agfe |\
+d2[d'2f2] [d'2f2][d'2f2] | d2[d'2f2] [d'2f2]z2 |\
+a4 A4 | d2D2 d2 :|
+|: z2 |\
+D2d2 D2d2 | G2g2 Agfe | d2f2 g2^g2 | a2A2 a2z2 |\
+D2d2 D2d2 | G2g2 A2z2 | d2f2 a2A2 | d2D2 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hey on your own side then contrary sides
+%% down the mid: up again hand 4 round.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

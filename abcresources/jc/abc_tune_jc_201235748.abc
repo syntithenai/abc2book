@@ -1,0 +1,32 @@
+X: 21351
+T: IRISH SETT (tune 4)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.135 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+c/d/ |\
+e2a c2a | e2a edc | eaf edc | dcd B2c/d/ |\
+e2a c2a | e2a edc | Bba gfg | baa a2 H|]
+g/a/ |\
+b2e c'2e | b2e c'2e | bag c'ba | gaf e2c/d/ |\
+e2a c2a | e2a edc | Bba gfg | baa "^D.C."a2 |]
+c/d/ |\
+e3 e2e | f2d B2G | GBe ee/f/e/c/ | dcc c2c/d/ |\
+e3 e2e | f2d B2A | GBe e/f/e/d/c/B/ | Ace "^D.C."A2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% swing half round in the centre,
+%% swing six round that couple,
+%% first four balance partners and turn,
+%% ladies chain,
+%% promenade four.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

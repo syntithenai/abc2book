@@ -1,0 +1,32 @@
+X: 12101
+T: Bonny Charity
+%R: reel+jig
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.10 #1 (and top 4 staves of p.11)
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+"_Brisk"g2 |\
+dBTAG (DE)(GA) | TB2(AG) G2c_B | A2(G=F) =f3g | {fg}a2(AB) A2(ge) |\
+dBTAG (DE)(GA) | B2(TA>G) G3B |
+A2B2 g3a | {ga}b2(d>e) d2(cB) |\
+A2B2 g3a | (b<a) (g<e) (g<e) (d<B) | A2G=F =f3g | {fg}a2(AB) A2(GA) |\
+TB2(AB) Tc2(Bc) |
+d2(ef) g3e | (de)(dB) (cA)(dc) | TB2(AG) G2 :: g2 |\
+dBAG (DE)(GA) | BdAB GABG | cATG=F =fede | =fgab ABge |
+dBTAG DEGA | BdAB GABG | AGAB gfgd | egde BcdB |\
+AGAB gdBg | dBgd BgdB |
+cAG=F =fede | =fgab ABge |\
+dBAG DEGA | TBABG gfgd | egBg ABcd | B2TA>G G2 :|
+|: "^Giga"y[M:6/8] "_Allegro"g |\
+dcB ABG | DGA BAG | A=FA cAc | faf cfc |\
+Bdc BAG | DGA BAG | BGB dBd | gbg dgd |
+BGB dBd | gbg dgc | A=FA cAc | =faf cfa |\
+gde dBd | GBd gec | dgc BgB | Agf G2 :|
+|: g |\
+dcB ABG | Dga bag | a=FA c=fc | AcA =FAa |\
+gdc BAG | Dga bag | bGB dBd | (g/a/b)g dgd |
+BGB dBd | (g/a/)bg dgc | a=FA c=fc | (A/B/)cA =FAa |\
+gde (d/c/B/A/)B | GBd (g/f/e/d/)e | dgc BgB | Agf G2 :|

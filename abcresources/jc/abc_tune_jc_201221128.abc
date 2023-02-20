@@ -1,0 +1,24 @@
+X: 43
+T: Irish Air
+O: "In Love in a Camp"
+%R: jig
+B: "The Hibernian Muse" p.26 #2
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has final repeat but no initial repeat; fixed.
+N: Fixed the rhythm between strains by adding an initial rest "pickup" to the 2nd strain.
+N: AKA Johnny McGill, Come Under My Plaidie, Life is all Checkered, Contentment is Wealth, the Black Rogue, etc.
+P: No. XLIII.
+M: 6/8
+L: 1/8
+K: F	% and Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+f |\
+cAA A>GF | cAA A2f | cAA A>GA | FDD D2 :||: z | f3 g>fg | afd cBA |
+f3 g>fg | afd d2f/g/ | agf gfe | fed def | cBA A>GA | FDD D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+f2z F2z | f2z F2z | f2z c2z | d2z D2 :: z | A2z c2z | f2z F2z |
+A2z c2z | d2z D2z | d2z a2z | d'2z d2z | f2z a2A | d2z D2 :|

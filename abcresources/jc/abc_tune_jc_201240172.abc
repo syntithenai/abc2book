@@ -1,0 +1,39 @@
+X: 372
+T: Lament for the Death of Lady Dunbar of Northfield
+C: by Wm Christie
+R: lament, air, waltz, jig
+N: This is version 2, for ABC software that understands diminuendo symbols.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c."
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slow, Con Lamento."
+K: Gm
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 slightly reformatted for 2 8-bar lines.
+V: 1 staves=2
+(G/A/) |\
+(QB2qA) (QG2~q^F) | GD=E .F.C z/A/ |\
+(QB2qA) (QG2~q^F) | .G(Bc) {Bc}[d2F2](B/d/) ||\
+"_cres."fBd {d}Tc2B | ABG .F.C z/D/ |\
+(QE2qD) (QC2qB,) | A,D^F [G2B,2] :|
+|:\
+(d/e/) |\
+"_Dolce"[f2d2][ge] [f2d2][ec] | ([dB][ec])[cA] .[dB].B (d/f/) |\
+"_cres."g2d {d}b2g | (fd)Tc {Bc}[B2F2D2] (g/a/) ||\
+Qb2qB Qf2qB | !p!(Ad)G .^F.D z/D/ |\
+!f!(E2D) (C2B,) | A,D^F [G2B,2] :|
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+g2^f g2d | B2c F2^F | G2A Bcd | edc B2B ||\
+d2b a2g | fBc F2z | EGB A2G | d2D G2 :||: z |
+[B3b3] [b2B2]e | f2F B2z | egb d2e | f2F B2e ||\
+dfb Bdg | !p!^f2g d2z | !f!EGB A2G | d2D G2 :|
+% = = = = = = = = = =

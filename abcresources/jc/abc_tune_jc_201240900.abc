@@ -1,0 +1,31 @@
+X: 4161
+T: the Flowers (Magistrates) of Edinburgh
+%R: air, reel
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.4 p.16 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: 2nd strain has final repeat but no initial repeat; fixed.
+M: C
+L: 1/8
+Q: "SLOWLY"
+K: G
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+GE |\
+D3E G3A | (BG)(dG) (cB)(AG) |\
+(GF).E.D (DEF).G | (AF)(dF) [E3^C3]G |\
+~D3E ~G3A |
+(TBA)(Bd) e2!p!fg |\
+(dB)AG TA2GA | B2G2 [G2B,2] :: (d/e/!f!f) |\
+~gfga (g/a/b) ag | fefg (f/g/a) gf |
+e^def gfe=d | B2e2 e2(fg) |\
+(dB)AG (B/c/d) cB | (eg)(fa) Hg2dc |\
+!p!(cB) AG (FA)(Dc) | B2G2 [G2D2B,2] :|
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+[bg2]c' |\
+[b2g2][c'2g2] [b2g2]f2 | g2G2 e2^c2 | d2[gd2]f f^cde | f2df a2z2 | [g2b2][g2c'2] [g2b2]f2 |
+g3a c'cc'2 | [b2d'2][e2^c'2] [f2d'2][g2b2] | d'2[bg2]c' g2 :: [d'2=c'2] | [bd'2]abf g2 ^c'2 | d'^c'd'e' f'2b^d' | e'bga b2B2 |
+eEGB e2=c'2 | b2fg G2ed | c2d2 He2f2 | g2^c2 d2F2 | GBdg G2 :|

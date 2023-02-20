@@ -1,0 +1,20 @@
+X: 902
+T: Bonaparte's Defeat   #2
+R: hornpipe
+%S: s:2 b:10(6+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #902
+Z: Transcribed by Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0902/oneill-1001-0902-1.abc
+%m: Tn = (3n/o/n/
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play (A1A2)x2 + (BA2)x2
+M: C|
+L: 1/8
+K: Amix
+%%slurgraces yes
+%%graceslurs yes
+A>G "^A"\
+|: E>AA>G A>cB>A | G>AB>c d2e>f | {a}g>fg>e [1,3 d>cB>d | c>AB>A (TGE)E>D :|[2,4 e>dB>G | A2A>A A2 :|
+"^B"\
+|: e>f |:{a}g>fg>e a>ga>e | g>fg>e d>cB>d |  c2c>B A2G>A | B>cB>A (TGE)E>"->A2"D |]

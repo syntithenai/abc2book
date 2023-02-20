@@ -1,0 +1,15 @@
+X: 239
+T: Who Are You?
+R: air, march
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #239
+O: F.O'Neill
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+Q: "With spirit"
+M: 2/4
+L: 1/8
+K: G
+"^A1"[|]   G   | AA (Bd) | (cB) AG       | (ED/)E/     GG | G3 ||
+"^B1"[| (B/d/) | ee  dg  | (B>A G)(B/c/) | dd (e/>d/)B/G/ | A3 |]
+"^B2"||     d  | ee  dg  | (B>A G)(B/d/) | cB    (TAB/)G/ | E3 ||
+"^A2"|  (F/G/) | AA  Bd  | cB   AG       | E(D/E/)     GG | G3 |]

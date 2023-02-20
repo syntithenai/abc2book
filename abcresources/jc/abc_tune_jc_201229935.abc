@@ -1,0 +1,27 @@
+X: 13051
+T: Woes my Heart that we shou'd sunder
+%R: air, reel + jig
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.3 p.5
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Initial pickup "conflicts" with 1st strain's repeat; fixed by adding initial repeat symbol.
+M: C
+L: 1/8
+K: C
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"c2 |:\
+(GE)(DE) G3c | (AG)(Ac) A2(GA) | c3d (eg)(de) | c3d (de)g2 | (GE)(DE) G3c | (_BA)(GF) f3a | g>age (fe)(dc) |
+A3G (GAc2) :: (fe)(fg) (fg)(ag) | (ed)(ef) (ge)(dc) | (de)(ga) (eg)(de) | c3d (de)g2 | E2(DE) G3c | (AG)(AF) f3a |
+g3(f/e/) (fe)(dc) | A3G (GA)c2 :: (G<E)G2 (TAG)A2  | (ce)(dc) TA2(GA) | (cd)(ef) (ge)(dc) | aegc {cd}e2g2 | GEG2 TAGA2 |
+c2de a3g | c'gae gd ed/c/ | A3G (GA)c2 :: f2 f4 (ga) | ge e4 (a/g/)e | (dc)de a(g/e/) g(e/d/) | cAcd (de)g2 |
+GEG2- Gedc | Ac a4 g2 | ac'ga e(d/c/) (d/c/)(d/e/) | TA3G (GA)c2 :: G2 G4 (ed) | (cA) A4 (ge) | dcgc acgc |
+(fe)(dc) (ef)g2 | (EGce) (FAdf) | (Gcg)c a3b | (3(c'ba) (3(gfe) (3(agf) (3(edc) | A3G (GA)c2 :: f2f2 (a/g/f) (a/g/f) |
+g<e e4 (a/g/e) | d2 (a/g/e) g2 e/d/c | (d>e)(c>d) (de)g2 | G4 (TAG)A2 | c2de a3g | g>age (fe)(dc) | TA3G (GA)c2 :|
+P: Giga
+[M:6/8] |:\
+G2A (cd)e | cAA TA2G | c2a gec | gec deg |\
+GEG AGA | cde a2g | (a/b/c')a gec | TA2G ABc :|
+|:\
+f2g agf | (e/f/g)c gec | afd gec | Td2c deg |\
+G3 AGA | cde a2g | c'af gec | TA2G ABc :|

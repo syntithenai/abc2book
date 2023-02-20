@@ -1,0 +1,16 @@
+X:633
+T:Sabina
+C:John Young: Dancing Master c. 1719
+L:1/4
+M:3/4
+%%MIDI beat 100 95 80
+%%MIDI gchord chihch
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=115
+K:G
+P:A
+|: "G"G/F/ "/"G/A/ "/"B/c/ | "G"d "/"GD | "C"E "/"c/B/ "/"A/G/ | "D"F "/"E/F/ "/"D/E/ |\
+"C"C "/"E "/"G | "Am"c "/"d/c/ "/"B/A/ | "C"G/c/ "G"d "D7"D | "G"G3 :|
+P:B
+|: "G"g/f/ "/"g/a/ "/"b/g/ | "D"a "/"f "/"d | "Em"g/f/ "/"g/a/ g/f/ | "C"e "/"c'e |\
+"G"d "/"b "/"d | "Am"c "/"a "/"c | "G"B "/"g/a/ "D7"f/a/ | "G"g3 :|

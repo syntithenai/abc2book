@@ -1,0 +1,32 @@
+X: 20884
+T: RANZ DES VACHES
+O: Swiss melody.
+Q: "Moderate."
+%R: air, jig, waltz
+N: This is version 2, for ABC software that understands diminuendo/crescendo notation.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.88 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/16
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+c2e2e2 g4e2 | (gf)(ed) ({d}e2 c4)G2 |\
+c2e2e2 g4e2 | (gf)(ed) d2- d4z2 |\
+{d}g4e2 c6 | {c}e4c2 HG6 |\
+{f}g4e2 {f}g4e2 | (g/f/e/d/) c2e2 d4Hz2 |]\
+"^Quick."y[M:2/4]\
+!p!e2ec d2G2 |
+e2ec d2G2 |"^cres."\
+e2ec d2G2 | e2ec d2G2 |\
+!f!e2Qec qd2G2 | !p!G8 |]\
+"Moderate."y[M:6/8]\
+{f}g4e2 {f}g4e2 | (!p!g/f/e/d/) c2e2 d4Hz2 |\
+{f}g4ez {f}g4ez | (g/f/e/d/) c2e2 c4z2 |\
+Qc12q |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

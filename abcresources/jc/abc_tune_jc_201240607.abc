@@ -1,0 +1,29 @@
+X: 402
+T: Mrs J. ROSE
+C: D. MACINTYRE
+R: Strathspey
+B: Glen Collection p.40 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Dm
+%
+V: 1
+a |\
+f<d d>c A<d d<f | e>c g>c e/f/g/e/ c<a | f<d d>c A<d d<f | {f}e>c a/g/f/e/ f<dd :|
+A |\
+d>e f>e d<A A<F | E<c G<c E<C C<A | d>e f/g/e/f/ d<A A<F | E>c A/=B/^c/A/ {d}d<D D<A |
+d>e f>e d<A A<F | E<c G<c E<C C<A | DFEg FaGb | a>A a/g/f/e/ f<dd |]
+%
+V: 2
+z |\
+d2[d'2a2] f2[d'2a2] | c2[c'2g2] e2[c'2g2] |\
+d2[d'2a2] f2[d'2a2] | [c'2a2][^c'2a2] [d'2d2][afd] :|
+z |\
+d2[d'2a2] f2[d'2a2] | c2[c'2e2] [c'2g2][c'2e2] |\
+d2[d'2a2] f2[d'2a2] | a2fe d2[a2f2d2] |
+d2[d'2a2] f2[d'2a2] | c2[g2e2] [g2c2][g2c2] |\
+d2B2 A2G2 | d2[^c'2a2] [d'2d2][afd] |]

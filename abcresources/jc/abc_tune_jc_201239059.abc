@@ -1,0 +1,18 @@
+X: 3201
+T: Earl of Dalkeiths    Reel
+%R: reel
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.20 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - -
+V: 1 staves=2
+A |\
+FCA,F F/F/F AF | G/G/G BA GDDG | FCA,C F/F/F Ac | dfcf AFF :| c | Tf>gag fefc | d/d/d ba gdde |
+Tf>gag fcdB | AcGB AFFc || fgag f>efc | d/d/d ba gdde | fcae fcdB | AcGB AFF |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | f2f2 f2f2 | g2g2 g2g2 | f2f2 f2f2 | b2c'2 f2f :| z | f2f2 f2a2 | b2g2 b2c'2 |
+a2f2 f2b2 | c'2c2 f2f2 || f2f2 f2a2 | b2g2 b2c'2 | a2c'2 f2b2 | c'2c2 f2F |]

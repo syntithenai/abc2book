@@ -1,0 +1,27 @@
+X: 1
+T:Major Bobby
+M:6/8
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+{g}c/2d/2|:
+{g}e2{GdG}e{gef}e3/2{g}c/2e|
+{ag}a2c{gef}e2f|  !
+{Gdc}d2B{gBG}B3/2c/2d|
+{gfg}f2e{g}c/2{d}A3/2{d}c|
+{g}e2{GdG}e{gef}e3/2{g}c/2e|  !
+{ag}a2c{gef}e2f|
+{g}d3/2B/2{G}B{g}B/2{d}G3/2{d}B|
+{G}A3{GAG}A2:| |:  !
+a|
+{fg}f2d{gdc}d3/2e/2f|
+{gef}e2c{g}c2{GdG}e|
+{Gdc}d2B{gBG}B3/2c/2d|  !
+{gcd}c2{g}e{A}e2a|
+{fg}f2d{gdc}d3/2e/2f|
+{gef}e2c{g}c2{GdG}e|  !
+{g}d3/2B/2{G}B{g}B/2{d}G3/2{d}B|
+{G}A3{GAG}A2:|
+

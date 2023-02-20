@@ -1,0 +1,44 @@
+X: 1
+T:Hook, Line and Sinker
+T:
+M:4/4
+C:
+S:Beverly Buchanan
+N:Dance by Andy Klapper (klapper@cs.uky.edu) and SBM
+H: abcTranscriber Alex Boster <boster@acm.org> (Squash Beetle Morris)
+A:Bledington
+O:English
+R:Reel
+P:${1}\over{2}$A(AB)(AC)$^2$(AD)
+%P:A.(AB).(AC)2.(AD)
+L:1/8
+K:Am
+L:1/8
+P:A
+||AcBA B2 G2|ABcd e2 e2|c3 A B2 G2|AcBA G2 EG|\
+AcBA B2 G2|ABcd e2 e2|c2 Ac BAGB|A4 A3 B||
+P:B
+|:c2 c2 cdec|dedc B2 gf|efed c2 Ac|BcBA G2 EG|\
+AcBA B2 G2|ABcd e2 e2|c2 Ac BAGB|1 A4 A3 B:|2 A4 A3 z||
+P:C
+||c2 c2 cdec|dedc B2 gf|\
+L:1/4
+e>fe>d|c2 Ac|B>cB>A|G2 EG|\
+L:1/8
+AcBA B2 G2|ABcd e2 e2|c2 Ac BAGB|A4 A3 B|\
+c2 c2 cdec|dedc B2 gf|efed c2 Ac|BcBA G2 EG|\
+L:1/4
+A>cB>A|B2 G2|A>Bc>d|e2 e2|\
+L:1/8
+c2 Ac BAGB|A4 A3 z||
+P:D
+||c2 c2 cdec|dedc B2 gf|efed c2 Ac|BcBA G2 EG|\
+L:1/4
+A>cB>A|B2 G2|A>Bc>d|e2 e2|c2 A>c|BAGB|A4|A3 B|\
+c2 c2|c>de>c|d>ed>c|B2 g>f|e>fe>d|c2 A>c|B>cB>A|G2 EG|\
+L:1/8
+AcBA B2 G2|ABcd e2 e2|c2 Ac BAGB|A4 A3 z||
+% Notes: The C and D are just the B part with slows.  For the C, bars 3-4 and
+% bars 13-14 *of the B* are slowed.  For D part, bars 5-12 *of the B* are
+% slowed.  The chording is just one quick suggestion from Beverly (who
+% plays this on a piano accordion).

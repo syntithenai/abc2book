@@ -1,0 +1,23 @@
+X: 1
+T: Tom Jones's Waltz
+%C: Mr. Gray
+%R: waltz
+B: Mr. Gray "24 Country Dances for the Year 1803" p.1 #1
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1803_(Various)  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Bar 3 has some 16th-notes that obviously should be 8th-notes, as in bar 15.
+M: 3/4
+L: 1/16
+K: D
+(FG) |\
+A2D2D2 | B2efed | c2ABcA | d2D2 (fg) |\
+a2f2d2 | a4 (ec) | d2B2^G2 | A4 :|
+|: A2 |\
+d2D2=c2 | B2G2B2 | e2E2d2 | c2A2c2 |\
+(dcd).e.f.g | a4 (fd) | c2ABcA | d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Gen: sett to the 2d Lady & turn the 3d the
+%% 1st Lady sett to the 2d Gen: & turn the 3d Lead
+%% down the middle up again right & left.
+%%endtext

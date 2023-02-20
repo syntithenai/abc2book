@@ -1,0 +1,27 @@
+X: 119
+T: Gruzanka
+O: Serbia
+M: 2/4
+L: 1/8
+K: F#m
+Q: 1/4 = 120
+%%MIDI program 71
+%%MIDI bassprog 32
+%%MIDI chordprog 73
+%%MIDI chordvol 53
+%%MIDI bassvol 70
+P:A
+|:"E" B2AG |"C#m" ABc2|"B" B2AG  | "A"FGA2  |\
+  "E"G4    | "F#"F2A2 |[1"A"G2F2 |EFGA      :|[2G2F2- |"F#m"F2z2|
+P:B
+Q: 1/4=160
+|:"E"EGEG  |"F#m" FAEG|FEFG      |"A"A2GF   |\
+  "E"EGEG  |"F#m" FAEG|FEFE      | FEF2     :|
+P:C
+|:"A"=cBA2 | AGFE     |"F#"F4    | EF3      |\
+  "E"EFGA  |"G#" GAGF |"A"EF3-   |"F#" F2EF |
+  "D"GAB2  |"E" =c2B2 |A2G2      |"F" F4    |\
+  "E"EFGA  |"G#" GAGF |"A"EF3-   |"F#" F2EF :|
+P:D
+|:"A"zEFG  | AGAG     |FEFG      | AGAG     |
+  FEFG     | AGAG     |"F#"E2F2  | E2F2     :|

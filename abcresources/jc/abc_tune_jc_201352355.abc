@@ -1,0 +1,41 @@
+X: 1
+T: Whitehall
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.31 #51
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The dance is essentially identical to DMDfD's "White-Hall", but the tunes have some small differences.
+M: 6/4
+L: 1/4
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+C |\
+F>GA B>cd | e>fg a>ba | g3 c3 |\
+B>cB A>BA | G>AF E>DC | F3 A2 |]
+A |\
+B>cd G>gf | e>dc g>ag | e3 c3 |\
+B>cB A>BA | G>AF E>DC | F3 A3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the Presence, Lead up forward and back .| That again :|
+%% Cast off, 1st Man and Wo. lead up, 2d Cu. in their Places, then cast off
+%% 2d Cu. into your Places, then Men take Hands and likewise We. and fall
+%% back, then the 1st Cu. cast off, and 2d Cu. lead up as before, then cross
+%% over Men and We. into each other's Places, then Men and We. go Back
+%% to Back, then Men and also We. go right Hands a whole Turn, and left
+%% Hands a Turn with your own.  Which is the first Part.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1st Cu. lead down and walk round the 2d Cu. into their own Places,
+%% then cross right over and stand in the 2d Cu. Place, the 2d Cu. moving
+%% up a little, then the 2d Cu. go the Figure of 8, then both Men take
+%% their own We. by both Hands, the 1st Man put his Wo. back, and the
+%% 2d Man pull his Wo. to him, 'till both Men and We. fall into their own
+%% Places, then Men and We. fall back, then the 1st Wo. cross over to the
+%% 2d Man, then presently the 1st Man go behind the 1st Wo. and turn
+%% the 2d Wo. turning both together, sett to your own, then right Hands
+%% round, and so to the rest.
+%%endtext
+%%sep 1 8 500

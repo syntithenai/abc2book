@@ -1,0 +1,23 @@
+X: 20031
+T: Walley Honey
+%R: slip-jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.3 #1
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Added missing flag to 2nd note in bar 17.
+M: 9/8
+L: 1/8
+K: C
+|: "_Brisk"\
+cGG G2G cAA | cGG G2G c3 | cGG G2G cAA | B2c (d/e/f)d c3 :: e |\
+d(e/f/)g G2c AFe | d(e/f/)g G2G f2e |
+d(e/f/)g G2c AFc | TB2c (d/e/f)d c2 :: g |\
+ecG EGc AFg | ecG EGc f2g | ecG EGc AFc | TB2c (d/e/f)d c2 :|
+|: g |\
+ecg ecg fda | ecg eca g2c' | ecg ecg fda | gfe dcB c2:: G |\
+TE2G G(A/B/)c AFc |
+TE2G GAB c(e/f/)g | TE2G G(A/B/)c AFa | Tg2f efd c2 :: e |\
+c2G EGG cAa | g2G Aca Tg2e | Tf2e age dcd |
+e2G AdB c2 :: G |\
+(E/F/G)G (E/F/G)G cAA | (E/F/G)G (E/F/G)G c(e/f/g) | (EG)G (EG)G cAA |
+TB2c (d/e/f)d c2 :: e |\
+d(e/f/)g G2c AFe | d(e/f/)g G2G f2e | d(e/f/)g G2c AFa | TB2c (d/e/f)d c2 :|

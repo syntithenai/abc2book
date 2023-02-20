@@ -1,0 +1,30 @@
+X: 443
+T: Mr LINDSAY
+C: D. Mc LAREN
+R: Reel
+B: Glen Collection p.44 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Em
+%
+V: 1
+F |\
+EBGB E/E/EB2 | FDAF DEFD |1 EBGB E/E/EB2 | DFAF BEE :|2 EB,GE FDAF | GBAF {F}E2E ||
+f |\
+efge bgfd | Bgfg afdf | efge bgfd | Bagf {f}e2(ef) |
+efge bgfd | Bgfg afdg | bfge f^deB | GBAF {F}E2E |]
+%
+V: 2
+z |\
+e2[b2g2] B2[g2e2] | d2[a2f2] A2[a2f2] |\
+[1 e2[b2g2] B2[g2e2] | [a2f2][a2f2] e2[bge] :|\
+[2 e2[b2g2] d2[a2f2] | B2d2 e2[bge] ||
+z |\
+g2f2 e2[b2g2] | g2[d'2b2] d2[d'2a2] |\
+g2f2 e2[b2g2] | e2^d2 e2[b2g2] |
+g2f2 e2[b2g2] | g2[d'2b2] d2[d'2a2] |\
+e2[b2g2] [c'2a2][b2g2] | B2^d2 e2[bge] |]

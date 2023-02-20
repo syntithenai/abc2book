@@ -1,0 +1,24 @@
+X: 20743
+T: LIGHTLY TREAD, 'TIS HALLOWED GROUND.
+C: J. Scotland.
+Q: "Moderate."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.74 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/8
+K: G
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(B>c)A | Gz e | (d>e)c | B2z |\
+.dz .d | .gz B | .Gz .G | F2z |\
+(d>B)G | (e>c)A | (f>e)f | g2z |\
+(g>d)B | (e>f)g | B>cA | G3 :|
+|:\
+D2D | (E>D)E | (F>E)F | G2z |\
+d2d | e2d | (dc)B | (BA)z |\
+(d>e)=f | e2e | e>^fg | f2z |\
+(g>d)B | (e>f)g | (B>c)A | G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

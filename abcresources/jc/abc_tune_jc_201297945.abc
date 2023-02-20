@@ -1,0 +1,55 @@
+X:1
+T:Krakowiak  #2
+O:oprac. muz.: K. Kopi\'nski
+R:krakowiak
+S:handwritten MS of unknown origin
+N:"Polskie ta\'nce regionalne i narodove"
+Z:2009 John Chambers <jc:trillian.mit.edu>
+M:2/4
+L:1/16
+K:F
+"^intro"c2cd c2cd | c2B2 A2G2 \
+"A"\
+[|!Segno!\
+  C2F2 F2F2 | FE G4 D2 \
+| FE G4 D2 | FE G4 D2 \
+| C2A2 A2A2 | AG B4 A2 \
+| AG D4 E2 | F2A2 kc4 |
+| C2F2 F2F2 | FE G4 D2 \
+| C2A2 A2A2 | A^G =B4 F2 \
+| E2c2 c2c2 | c=B _B4 A2 \
+| AGDF E2G2 | F4 F4 \
+"B"\
+|: [K:Bb] F4 B3A | c2B2 z2Bc |
+| d2c2 B3A | A2G4 z2 \
+| G4 c3=B | d2 c4 cd \
+| e2c2 G2A2 |1 B2d2 f4 :|2 B4 "fine"B4 |]\
+"C"\
+|: F3e e2c2 | d2 B4 AG \
+| F3F G2A2 | B4 d4 |
+| F3e e2c2 | d2 B4 AG \
+| F3F G2A2 | B4 B4 :| \
+"D"\
+|: [K:=e][K:F]\
+  C3B B2G2 | A2 F4 ED \
+| C3C D2E2 | F4 A4 \
+| C3B B2G2 | A2 F4 ED \
+| C3C D2E2 | F4 F4 :|
+"E"\
+[| A2 c4 =B2 | c2=B2 c4 \
+| B2 d4 ^c2 | d2e2 f4 \
+| A2 c4 =B2 | d2cA F4 \
+| G2 B4 E2 | FEFA F4 \
+|| G2 B4 E2 | F2FA c4 \
+| d2 f4 ed | d2cA F4 |
+| G2 B4 E2 | FEFA c4 \
+| G2 B4 E2 | FEFA F4 \
+"F"\
+|[| E2G2 B3d | c2 A4 c2 \
+| =Bcdc _B3G | F2 A4 (3FGF \
+| E2G2 B3d | c2 A4 c2 |
+| =Bcdc _B2G2 | F2A2 F4 \
+|| B2d2 f3d | c2 A4 c2 \
+| =Bcdc _B3G | F2 A4 c2 \
+| B2d2 f3d | c2 A4 c2 \
+| =Bcdc _B2G2 | F2z2 !Segno!F4 |]

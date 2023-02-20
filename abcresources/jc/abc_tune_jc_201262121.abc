@@ -1,0 +1,740 @@
+
+X: 1
+T: All Through the Night
+P: piffero primo c0000
+O: Welsh traditional
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+V: 1
+V: 2
+%%score (1 2)
+% - - - - - - - - - -
+V: 1 staves=2
+[|\
+G3F  E2G2 | A3G  F2D2 | E4   F3F  | G8 |\
+G3F  E2G2 | A3G  F2D2 | E4   F3F  | G8 |
+c2B2 c2d2 | e2d2 c2B2 | c2B2 A2G2 | B3A G2F2|\
+G3F  E2G2 | A3G  F2D2 | E4   F3F  | G8 |]
+% - - - - - - - - - -
+V: 2
+[|\
+B,2D2 E2D2 | ^C2E2 F2D2 | =C4  E2D2 | B,CDD D2C2 |\
+B,2D2 E2D2 | ^C2E2 F2D2 | =C4  E2D2 | B,2EC D2E=F |
+E2G2  G2G2 | G2A2  G2E2 | E2D2 E2E2 | G2F2  E2D2 |\
+B,2D2 E2D2 | ^C2E2 F2D2 | =C4  E2D2 | B,2C2 B,4 |]
+%% - - - - - - - - - -
+
+
+X: 2
+T: Angels We Have Heard on High
+P: piffero primo c0001
+O: French traditional
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+V: 1
+V: 2
+%%score (1 2)
+% - - - - - - - - - -
+V: 1 staves=2
+[|\
+B2B2 B2d2 | d3c B4 | B2A2 B2d2 | B3A G4 |\
+B2B2 B2d2 | d3c B4 | B2A2 B2d2 | B3A G4 ||\
+d4 edcB | c4 dcBA |
+B4 cBAG | A3D D4 | G2A2 B2c2 | B4 A4 ||\
+d4 edcB | c4 dcBA | B4 cBAG | A3D D4 | G2A2 B2c2 | B4 A4 | G8 |]
+% - - - - - - - - - -
+V: 2
+[|\
+G8 | G2F2 G4 | G8 | F4 D4 | G2F2 G4 | F4 G4 | G2G2 G4 | G2F2 D4 ||
+G2BA G4 | G2AG F4 | F2GF E4 | x8 | D6 E2 | D2 G4 F2 ||
+G2BA G4 | G2AG F4 | F2GF E4 | x8 | D6 E2 | D2 G4 F2 | D8 |]
+%% - - - - - - - - - -
+
+
+X: 3
+T: As With Gladness Men of Old
+P: piffero primo c0003
+O: Conrad Kocher
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+V: 1
+V: 2
+%%score (1 2)
+% - - - - - - - - - -
+V: 1 staves=2
+[|\
+A2GA B2A2 | d2d2 c4 | F2G2 A2F2 | E2E2 E4 |\
+A2GA B2A2 | d2d2 c4 | F2G2 A2F2 | E2E2 E4 |\
+c2B2 A2c2 | e3d  c4 | F2G2 A2d2 | c2B2 A4 |]
+% - - - - - - - - - -
+V: 2
+[|\
+E8 | D2E2 E4 | D2D2 E2D2 | B,2B,2 C4 |\
+E8 | D2E2 E4 | D2D2 E2D2 | B,2B,2 C4 |\
+E2ED C2E2 | E4 E4 | D2D2 E2D2 | E3D C4 |]
+%% - - - - - - - - - -
+
+
+X: 4
+T: Away In a Manger
+P: piffero primo c0004
+O: German
+%R: waltz
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+V: 1
+V: 2
+%%score (1 2)
+% - - - - - - - - - -
+V: 1 staves=2
+d2 |\
+d3 c B2 | B3 A G2 | G2 F2 E2 | D4 D2 | D3 E D2 | D2 A2 F2 | E2 D2 G2 | B4 d2 |
+d3 c B2 | B3 A G2 | G2 F2 E2 | D4 D2 | c3 B A2 | B2 A2 G2 | A2 E2 F2 | G4 |]
+% - - - - - - - - - -
+V: 2
+B2 |\
+B3 A G2 | D6 | E2 D2 C2 | B,4 D2 | A,6 | A,6 | C2 B,4 | G4 B2 |
+B3 A G2 | D6 | E2 D2 C2 | B,4 D2 | F3 G A2 | D6 | E2 E2 D2 | D4 |]
+%% - - - - - - - - - -
+
+
+X: 5
+T: Christmas Is Coming v.1
+P: piffero primo c0007
+O: English traditional
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+V: 1
+V: 2
+|\
+g4 d3d | g2 g4 g2 | g2g2 f2e2 | d8 | g3G G2A2 | B2G2 B2d2 |
+e4 d2c2 | B8 | B3c B2A2 | G2g2 d2B2 | c4 d2F2 | G8 |]
+
+
+X: 6
+T: Christmas Is Coming v.2
+P: piffero secondo c0008
+O: English traditional
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+V: 1
+V: 2
+[|\
+G2A2 B2c2 | d2e2 d2B2 | c2d2 e2f2 | g2d2 B2d2 | G2A2 B2c2 | d2e2 d2B2 |
+c2A2 d2f2 | g2a2 g2f2 | e2e2 d2c2 | B3c  BAGF | E2A2 d2c2 | B2d2 B4 |]
+%%text The 2nd voice may be played an octave higher.
+
+
+X: 7
+T: Christ Was Born on Christmas Day
+P: piffero primo c0006
+O: German
+%R: jig
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+V: 1
+V: 2
+%%score (1 2)
+% - - - - - - - - - -
+V: 1 staves=2
+[|\
+d2B G2B | d2e d3  | d2B G2B | d2e d3  |\
+c2c c2d | c2B A2B | d2B G2c | B2A A2B | G3 G3 |]
+% - - - - - - - - - -
+V: 2
+[| x6 | G6 | x6 | G6 | E2G F3 | G3 F3 | x6 | G3 F3 | E3 D3 |]
+%% - - - - - - - - - -
+
+
+X: 8
+T: Deck the Hall v.1
+P: piffero primo c0009
+O: Welsh traditional
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+% - - - - - - - - - -
+[|\
+d3c B2A2 | G2A2 B2G2 | ABcA B3A | G2F2 G4 |\
+d3c B2A2 | G2A2 B2G2 | ABcA B3A | G2F2 G4 |
+A3B c2A2 | B3c d2A2 | B^cd2 efg2 | f2e2 d4 |\
+d3c B2A2 | G2A2 B2G2 | eeee d3c | B2A2 G4 :]
+%% - - - - - - - - - -
+
+
+X: 9
+T: Deck the Hall v.2
+P: piffero secondo c0010
+O: Welsh traditional
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+% - - - - - - - - - -
+[|\
+B3A G2c2 | B2A2 G2B2 | cBAF  G3c  | B2A2 B4 |\
+B3A G2c2 | B2A2 G2B2 | cBAF  G3c  | B2A2 B4 |
+F3G A2F2 | G3A  B2F2 | d^cBA GFE2 | A2G2 F4 |\
+B3A G2c2 | B2A2 G2B2 | cBAB  c4   | d2c2 B4 |]
+%% - - - - - - - - - -
+
+
+X: 10
+T: Ding Dong Merrily on High v.1
+P: piffero primo c0011
+O: French
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+% - - - - - - - - - -
+[|\
+D8 | D8 | D8 | D8 ||\
+G2G2 AGFE | D6 D2 | (E2G2) (G2F2) | G4 G4 |\
+G2G2 AGFE | D6 D2 | (E2G2) (G2F2) | G4 G4 ||
+d3c BcdB | c3B ABcA | B3A GABG | A3G FGAF |\
+G3F EFGE | F3E D2D2 | E2G2 G2F2 | G4 G2z2 |]
+%% - - - - - - - - - -
+
+
+X: 11
+T: Ding Dong Merrily on High v.2
+P: piffero primo c0012
+O: French
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+% - - - - - - - - - -
+[|\
+(B4 A4) | (B4 c4) | (B4 A4) | (B4 c4) ||\
+d4 c4 | B2A2 B4 | c4 c4 | B2c2 d4 |\
+d4 c4 | B2A2 B4 |
+                  c4 c4 | B2c2 d4 ||\
+B2A2 G4 | A2G2 F4 | G2F2 E4 | F2E2 D4 |\
+E2D2 ^C4 | D2E2 F4 | c4 c4 | B2A2 B4 |]
+%% - - - - - - - - - -
+
+
+X: 12
+T: The First No\"el v.1
+P: piffero primo c0014
+O: French
+%R: waltz
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - -
+FE |\
+D3EFG | A4Bc | d2c2B2 | A4Bc |\
+d2c2B2 | A2B2c2 | d2A2G2 | F4FE |\
+D3EFG | A4Bc | d2c2B2 | A4Bc |
+d2c2B2 | A2B2c2 | d2A2G2 | F4 || FE |\
+D3EFG | A4dc | B4B2 | A6 |\
+d2c2B2 | A2B2c2 | d2A2G2 | F4 |]
+%% - - - - - - - - - -
+
+
+X: 13
+T: The First No\"el v.2
+P: piffero primo c0015
+O: French
+%R: waltz
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - -
+A2 |\
+F2D2cB | A2A2G2 | F4Bc | d2c2B2 | A4Bc | d4A2 | DEFGAc | d2A2G2 |
+F2D2cB | A2A2G2 | F4Bc | d2c2B2 | A4Bc | d4A2 | DEFGAc | d2A2 ||
+A2 |\
+F2D2cB | A2AGF2 | GABcde | f2d2c2 | B2A2G2 | F2G2E2 | DEFGAc | d4 |]
+%% - - - - - - - - - -
+
+
+X: 14
+T: The Friendly Beasts
+O: English 12th centurn
+%R: waltz
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+V: 1
+V: 2
+%%score (1 2)
+% - - - - - - - - - -
+V: 1 staves=2
+G2G2A2 | B4B2 | A4F2 | G4G2 | d4d2 | e4ee | d4d2 | B4B2 ||
+B4A2 | c4B2 | A4G2 | B6 | d2d2c2 | B4G2 | A4F2 | G6 |]
+% - - - - - - - - - -
+V: 2
+G2E2EF | G2GFED | C2A,2D2 | B,4D2 | G2G4 | G2C4 | F2G2A2 | G2F2E2 ||
+DEFGA2 | E3FG2 | E2C2B,^C | D2E2F2 | G4E2 | G2F2E2 | E2c2c2 | B6 |]
+%% - - - - - - - - - -
+
+
+X: 15
+T: The Friendly Beasts v.1
+P: piffero primo c0016
+O: English 12th centurn
+%R: waltz
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - -
+[|\
+G2G2A2 | B4B2 | A4F2 | G4G2 | d4d2 | e4ee | d4d2 | B4B2 ||\
+B4A2 | c4B2 | A4G2 | B6 | d2d2c2 | B4G2 | A4F2 | G6 |]
+%% - - - - - - - - - -
+
+
+X: 16
+T: The Friendly Beasts v.2
+P: piffero primo c0017
+O: English 12th centurn
+%R: waltz
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - -
+[|\
+G2E2EF | G2GFED | C2A,2D2 | B,4D2 | G2G4 | G2C4 | F2G2A2 | G2F2E2 ||
+DEFGA2 | E3FG2 | E2C2B,^C | D2E2F2 | G4E2 | G2F2E2 | E2c2c2 | B6 |]
+%% - - - - - - - - - -
+
+
+X: 17
+T: God Rest Ye Merry Gentlemen
+P: piffero primo c0043
+O: English
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: G
+% - - - - - - - - - -
+E |\
+EB BA | GF ED | EF GA | B3 E |\
+EB BA | GF ED | EF GA | B3 B |\
+cA Bc | de BA |
+                GE FG | A2 || GA |\
+B2 cB | BA GF | E2 G/F/E | A2 GA |\
+Bc de | BA GF | E3 |]
+%% - - - - - - - - - -
+
+
+X: 18
+T: Good Christian Men Rejoice
+P: piffero primo c0044
+O: German 14th cent
+%R: waltz
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: G
+% - - - - - - - - - -
+G |\
+G2G | B2c | d2e | d2d | G2G | B2c | d2e | d3 ||\
+d2e | d2c | B2A | G3  | G3  | G3  | A2A | B2A |
+G2A | B3 || d2e | d2c | B2A | G3  | A2A | B3A |\
+G2A | B3 || E2E | F2F | G3  | d3  | B2B | A2A |\
+G3- | Gz2 |]
+%% - - - - - - - - - -
+
+
+X: 19
+T: Good King Wenceslas
+P: piffero primo c0046
+O: Latin carol, 16th cent
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: G
+% - - - - - - - - - -
+[|\
+GG GA | GG D2 | ED EF | G2 G2 | GG GA | GG D2 | ED EF | G2 G2 ||
+dc BA | BA G2 | ED EF | G2 G2 | DD EF | GG A2 | dc BA | G2 c2 | G4 |]
+%% - - - - - - - - - -
+
+
+X: 20
+T: Go Tell It On the Mountain
+P: piffero primo c0045
+O: spiritual
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+% - - - - - - - - - -
+[|\
+B2d2 d2e2 | d2 B4 G2 | A2A2 G2A2 | B6 G2 |\
+B2d2 d2e2 | d2 B4 G2 | A2A2 G2E2 | D4 Hc4 ||
+B4 B>AG>E | D4 G4 | AA2A A2G2 | B2d2 (ed3) |\
+B4 B>AG>E | D4 G2c2 | B2B2 AGA2 | G8 |]
+%% - - - - - - - - - -
+
+
+X: 21
+T: Hark the Herald Angels Sing
+P: piffero primo c0047
+O: spiritual
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+% - - - - - - - - - -
+[|\
+D2G2 G3F | G2B2 B2A2 | d2d2 d3c | B2A2 B4 ||\
+D2G2 G3F | G2B2 B2A2 | d2A2 A3F | F2E2 D4 ||\
+d2d2 d2G2 | c2B2 B2A2 |
+d2d2 d2G2 | c2B2 B2A2 ||\
+e2e2 e2d2 | c2B2 c4 | A2Bc d3G | G2A2 B4 ||\
+e2e2 e2d2 | c2B2 c4 | A2Bc d3G | G2A2 G4 |]
+%% - - - - - - - - - -
+
+
+X: 22
+T: Here We Come A-Caroling
+P: piffero primo c0048
+O: English wassail song
+%R: waltz+march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - -
+D |\
+D2E F2E | D2E F2E | D2A A2A | A3 A2A |\
+B2B A2F | A3  G2F | E2D E2F |[M:3/8] G3 ||[M:4/4] F2G2 |
+A4 d2B2 | A4 F2G2 | A2A2 d2B2 | A4 F2G2 |\
+A4 B2F2 | G2E2 D2C2 | D3E F3D | G4 F2G2 |\
+A4 B2F2 | G2E2 D2C2 | D6 z2 |]
+%% - - - - - - - - - -
+
+
+X: 23
+T: I Heard the Bells on Christmas Day
+P: piffero primo c0058
+O: J Baptiste Calkin
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: D
+% - - - - - - - - - -
+D |\
+F>^E FF | G>F G^G | Ad cB | B>A AA |\
+A>G  FG | F>E DE  | FG AB | C>E D :|
+%% - - - - - - - - - -
+
+
+X: 24
+T: It Came Upon a Midnight Clear
+P: piffero primo c0049
+O: Richard S. Willis
+%R: waltz, jig
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - -
+D |\
+B2F AGE | D2E D2D | EFG GAB | A3- A2D |\
+B2F AGE | D2E D2D | E2E FED | G3- G2B |
+B2B, B,^C^D | E2F G2B | AGF EFE | D3- D2D |\
+B2F AGE | D2E D2D | E2E FED | G3- G2 |]
+%% - - - - - - - - - -
+
+
+X: 25
+T: Jingle Bells
+P: piffero primo c0050
+O: James Pierpont
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: G
+% - - - - - - - - - -
+[|\
+DB AG | D3 D/D/ | DB AG | E4 |\
+Ec BA | F3 F | dd cA | B3 D ||\
+DB AG | D3 D/D/ | DB AG |
+E3 E |\
+Ec BA | dd dd | ed cA | G3 z |[|\
+BB B2 | BB B2 | Bd GA | B4 |\
+cc cc | cB BB/B/ |
+BA AB | A>z d2 ||\
+BB B2 | BB B2 | Bd GA | B4 |\
+cc cc | cB BB/B/ | dd cA | G3 z |]
+%% - - - - - - - - - -
+
+
+X: 26
+T: Joy To the World
+P: piffero primo c0051
+O: Geo F Handel
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - -
+[|\
+d2 c>B | A3 G | F2 E2 | D3 A |\
+B3 B | c3 c | d4- | d3 d ||\
+dc BA | A>G Fd |
+dc BA | A>G FF |\
+FF FF/G/ | A3 G/F/ | EE EE/F/ | G3 F/E/ |\
+D d2 B | A>G FG | F2 E2 | D4 |]
+%% - - - - - - - - - -
+
+
+X: 27
+T: O Come All Ye Faithful
+P: piffero primo c0013
+O: traditional
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: D
+% - - - - - - - - - -
+d |\
+d2 Ad | e2 A2 | fe fg | f2 ed |\
+d2 cB | cd eg | f2 e>d | d3 z |\
+a2 gf | g2 f2 |
+ef de | c>B A |]|\
+d | dc de | d2 Af | fe fg | f2 ef |\
+gf ed | c2 eg | f2 e>d | d3 |]
+%% - - - - - - - - - -
+
+
+X: 28
+T: O Come O Come Emmanuel
+P: piffero primo c0052
+O: French
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: Em
+% - - - - - - - - - -
+E |\
+GB BB | Ac BA | G3 A | BG EG | AFED | E3 A | AE EF | G2 FE | D3 G |
+AB BB | Ac BA | G3 |[| d | d3 B | B3 B | Ac BA | G3 A | BG EG | AF ED | E3 |]
+% - - - - - - - - - -
+
+
+X: 29
+T: O Holy Night
+P: piffero primo c0053
+O: Adolphe Adam
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - -
+[|\
+F3 F2F | A3- A2A | B2B G2B | d6 | A2A F2D | D3 F2G | A3 G2E | D6- | D6 | F3 F2F | A3 A2A |
+B2B G2B | d6 | A2A ^G2F | c3 A2B | c3 d2c | F6 | z3 z2A | A3 B3 | E3 A3 | B2A d2F | B3 A2A |
+A3 B3 | E3 A3 | B2A d2F | A6 | d6- | d3 c2B | c6- | c3 z2c | e6 | e2B B2B | d6 | d3 z2d | f6 | e3- e2A |
+d6- | d3 c2B | A6- | A2A B2A | A6- | A2 z2d | e6- | e3- e2A | f6- | f3 e3 | d6- | d2c d2e | d6- | d6 |]
+% - - - - - - - - - -
+
+
+X: 30
+T: O Little Town of Bethlehem
+P: piffero primo c0054
+O: Lewis H Redner
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: G
+% - - - - - - - - - -
+B |\
+BB ^AB | dc EA | GF/G/ AD | B3 B |\
+BB ed | dc EA | GF/G/ BA | G3 B |
+BB AG | F2 FF | EF GA | B3 B |\
+BB ^AB | dc Ee | dG B>A | G3 |]
+% - - - - - - - - - -
+
+
+X: 31
+T: Pat-A-Pan
+P: piffero primo c0002
+O: French
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Em
+V: 1
+V: 2
+%%score (1 2)
+% - - - - - - - - - -
+V: 1 staves=2
+E2E2 |\
+B2B2 A2B2 | G2FG A2F2 | B4 G4   | F4 F2G2 |\
+F2D2 E2F2 | G2EF G2A2 |
+B4 ABAG | F4 F2G2 |\
+F2D2 E2F2 | G2FG A2F2 | B4 F4   | E4 |]
+% - - - - - - - - - -
+V: 2
+E2E2 |\
+G2G2 F2G2 | E2^DE F2D2 | G4 E4 | ^D4 D2E2 |\
+^D2B,2 ^C2D2 | E2EF E2F2 | G4 FGFE | ^D4 D2E2 |\
+^D2B,2 ^C2D2 | E2^DE F2C2 | ^D2^C2 B,2A,2 | B,4 |]
+%% - - - - - - - - - -
+
+
+X: 32
+T: Silent Night
+P: piffero primo c0055
+O: Franz Xaver Gruber (1818)
+%R: air, waltz
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+% - - - - - - - - - -
+[|\
+A>BA | F3 | A>BA | F3 |\
+e2e | c3 | d2d | A3 |\
+B2B | d>cB | A>BA | F3 |
+B2B | d>cB | A>BA | F3 |\
+e2e | g>ec | d3 | Hf3 |\
+d>AF | A>GE | D3- | D3 |]
+% - - - - - - - - - -
+
+
+X: 33
+T: Un Flambeau, Jeanette Isabelle
+P: piffero primo c0005
+O: French
+%R: air, waltz
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/8
+K: G
+% - - - - - - - - - -
+[|\
+d2G | GFG | ABc | B2G |\
+d2G | GFG | ABA | G3  |\
+d2d | dcB | BAG | G2F |\
+EFG |
+D2D | c2c | B2A |\
+G2z | A2z | BcB | A2d |\
+B2A | G2z | A2z | BcB |\
+A2d | G3 | Gz2 |]
+% - - - - - - - - - -
+
+
+X: 34
+T: We Three Kings
+P: piffero primo c0056
+O: John H Hopkins jr
+%R: air, waltz
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: Em	% and G
+% - - - - - - - - - -
+[|\
+B2A | G2E | FGF | E3  | B2A | G2E | FGF | E3 |\
+G2G | A2A | B2B | dcB | ABA | G2F | E3 |[| F2HA |
+G2G | G2D | G2E | G3  | G2G | G2D | G2E | G3 |\
+G2G | A2B | c2B | A2B | G2G | G2D | G2E | G3 |]
+% - - - - - - - - - -
+
+
+X: 35
+T: We Wish You a Merry Christmas
+P: piffero primo c0057
+O: English
+%R: air, waltz
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - -
+D2 |\
+G2 GA GF | E2 E2 E2 | A2 AB AG | F2 D2 D2 |\
+B2 Bc BA | G2 E2 DD | E2 A2 F2 | G4 |]
+D2 |\
+G2 G2 G2 | F4    F2 | G2 F2 E2 | D4 A2 |\
+B2 A2 G2 | d2 D2 DD | E2 A2 F2 | G4 |]
+% - - - - - - - - - -
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

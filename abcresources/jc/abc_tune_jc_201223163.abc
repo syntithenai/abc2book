@@ -1,0 +1,23 @@
+X: 07011
+T: BILLY'S FAVORITE
+C: Bob McQuillen 27 July 89
+B: Bob's Note Book 7 #11
+%R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+FE \
+| DFA dec | dAF AdA | GBG FAd | AFD EFE |\
+| DFA dec | dAF AdA | GBG FAF | EDC D  :|
+|: cd \
+| efe cBA | dcd AFA | GAB AFA | dAF GFE |\
+| DFA GBd | Ace dAF | GAB Adf | edc d  :|
+%%begintext align
+%% I had such a good time
+%% at Augusta this year with great accordion player
+%% Billy McComiskey - he really got me cranked
+%% up on my button box! - I hope this tune really
+%% will be one of your favorites, Billy; it comes to you
+%% with every good wish from your friend, Bob.
+%%endtext

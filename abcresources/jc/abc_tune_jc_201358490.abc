@@ -1,0 +1,32 @@
+X: 1
+A:Adam de la Halle
+T:Li dous regars de ma Dame
+N: (condensed)
+M:3/4
+L:1/4
+Q:1/4=120
+K:F
+%
+V:1 clef=treble
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+%%MIDI program 1       70 bassoon
+%%MIDI program 2       71 clarinet
+%%MIDI program 3       72 piccolo
+%
+[V:1] [K:C](c/B/) (A/G/F)  |(F/G/)  (A/B/c)   | B  (cd)    | e  (f/e/d)   | f2  z||
+[V:2] [K:F] F     (E/D/C)  |(C/B,/) (A,/G,/F,)| E, (F,G,)  | A, (A,B,)    | C2  z||
+[V:3] [K:F] F,    (A,/B,/C)|(C/D/)  (D/E/F)   | E  (D/C/B,)| A, (B,/A,/G,)| F,2 z||
+w:   1.4.7.~Li     dous**    re-*    gars**    de  ma**    Da-***     me
+w:    3.~~~Diex    gart**    son*    gent**    cor de**    blas-***   me.
+w:    5.~~~Je      ne**      vi*     on-**    ques par**  m'a-***    me
+%
+[V:1] [K:C](fd)   _B |(de)   (f/g/)  |(f/e/d2)  | f3 ||
+[V:2] [K:F](F,G,) _E,|(G,A,) (B,/C/) |(B,/A,/G,2)| F,3||
+[V:3] [K:F](CD)   _E |(DC)   (B,/A,/)|(A,  B,2)  | C3 ||
+w:     2.8.~Me*  fait es-*   pé-rer   mer-*  ci.
+w:     6.~~~Da-*  me  plus*  plai-sant de*    li.
+%
+W:Notes:
+W:  The Bb in the second line of the top part is editoral.
+W:  Notated with equal semibreves

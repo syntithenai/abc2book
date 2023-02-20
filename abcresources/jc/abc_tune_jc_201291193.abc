@@ -1,0 +1,12 @@
+X: 1
+T: I\,tele    (E)
+O: Romania
+Z: 1999John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/16
+K: E
+B2 \
+|: "E"^abge ~f2fe | fege ~f2fe | ^abge ~f2fe | fege ~feB2 |
+|  "E"^abge ~f2fe | fege ~f2fe | ^abge ~f2fe | "B7"fgfd "E"e2z2 :|
+|: "Am"^ga2a a=gfe | ^ga2a a=gfe | ^ga2a a=gfe | "B"^abc'b a=gfe |
+|  "Am"^ga2a a=gfe | ^ga2a a=gfe | "B"^abc'b a=gfd | "E"eB"B7"cd "E"e2z2 :|

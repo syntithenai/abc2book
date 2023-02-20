@@ -1,0 +1,44 @@
+X:1
+T:Andrew Warnock
+M:C
+L:1/8
+Q:80
+C:Tom MacAlister
+S:March
+K:HP
+[| c | \
+{gef}e2{Gdc}d{e}c{gcd}c2{gBd}B{G}A | \
+{g}c/2e3/2{g}fa{ef}e2-e3/2d/2 | \
+{gcd}c2{gBd}B{G}A{g}f3/2e/2{Gdc}d{e}c |
+{g}B4{GdG}B2{g}e3/2d/2 | \
+{g}c/2e3/2{Gdc}d{e}B{gcd}c2{gBd}B{G}A | \
+{g}c/2e3/2{g}fa{ef}e3a |
+f/2a3/2{cd}ce{Gdc}d3/2c/2{g}B{d}c | \
+{G}A4{GAG}A3|] [ | \
+e |
+{ag}a3/2g/2{a}fe{gfg}f3/2e/2{Gdc}d{e}c | \
+{g}e3/2f/2{g}ec{gef}e3{AGAG}A | \
+{ag}a3/2g/2{a}fe{Gdc}d3/2e/2{gcd}c{e}A |
+{g}B4{GdG}B3e | \
+{ag}a3/2g/2{a}fe{gfg}f3/2e/2{Gdc}d{e}c | \
+{gef}e2{g}f/2a3/2{ef}e3a |
+f/2a3/2{cd}ce{Gdc}d3/2c/2{g}B{d}c | \
+{G}A4{GAG}A3|] [ | \
+a |
+{AGAG}A2{gcd}c{e}A{Gdc}d3/2B/2{gcd}c{e}A | \
+{g}c/2e3/2{A}e3/2f/2{gef}e3a | \
+{AGAG}A2{gcd}c{e}A{Gdc}d3/2c/2{gBd}B{G}A |
+{g}B4{GdG}B3a | \
+{AGAG}A2{gcd}c{e}A{Gdc}d3/2B/2{gcd}c{e}A | \
+{g}c/2e3/2{g}fa{ef}e3a |
+f/2a3/2{cd}ce{Gdc}d3/2c/2{g}B{d}c | \
+{G}A4{GAG}A3|] [ | \
+e |
+{gf}g3/2a/2{f}ge{g}f/2a3/2{fg}fd | \
+{g}e3/2f/2{g}ec{gef}e3A | \
+{gf}g3/2a/2{f}ge{g}f/2a3/2{ef}ec |
+{Gdc}d2{gcd}c{e}A{GdG}B3e | \
+{gf}g3/2a/2{f}ge{g}f/2a3/2{fg}fd | \
+{g}c/2e3/2{g}f/2a3/2{ef}e3a |
+f/2a3/2{cd}ce{Gdc}d3/2c/2{g}B{d}c | \
+{G}A4{GAG}A3|]

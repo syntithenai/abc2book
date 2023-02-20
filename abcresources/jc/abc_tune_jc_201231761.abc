@@ -1,0 +1,29 @@
+X: 15
+T: How imperfect is Expression __
+C: (Capt. O__)
+R: reel, march
+M: 2/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 
+|: D4(DEFE) | D4A,4 | F2D2A2F2 | D4A,4 | d2A2f2A2 | d2A2f2A2 | e3dc2B2 | .A2.A2A4 :|
+|: (a3f)a2.a2 | (g3e).g2.g2 | (f3d).f2.f2 | .e2.e2 (dcBA) | (defe) d2A2 | (Bcdc) B2F2 | {A}G2FE A2A2 | D8 :|
+|: [A6F6][A2F2] | (B3A)(G3F) | [F6A,6][F2A,2] | (G3F)(E3D) | D3FA2=c2 | B3dE3G | F4TE4 | D8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: d4d4 | d4A4 | f2d2a2f2 | d4A4 | d4D4 | d4D4 | e4E4 | A2a2A4 :|
+|: [a8f8d8A8] | [a8f8d8A8] | [a8f8d8A8] | [a8f8d8A8] | d'4d'2a2 | b4b2f2 | {a}g2fe a2A2 | d4D4 :|
+|: D2d2D2d2 | D2d2D2d2 | D2d2D2d2 | D2d2D2d2 | D2d2f4 | g6b2 | a4A4 | d4D4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands across & hands 4 round. back again -- first Cu: lead
+%% down the middle & cast up into their places -- 3 Cu: lead
+%% up the middle & cast down into their places -- Ballance
+%% Pas Rigadoon & Allemande --
+%%endtext

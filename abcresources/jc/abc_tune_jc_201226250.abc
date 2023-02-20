@@ -1,0 +1,24 @@
+X: 10172
+T: ORANGE AND BLUE
+Q: "With spirit."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.17 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Rewrote last bar as 2 endings, since ABC doesn't represent alternate notes with different head sizes.
+M: 6/8
+L: 1/8
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g !segno!|:\
+e2c {d}cBc | G2c E2c | e2c ege | c3 cde |\
+f2d d2c | B2d d2c | B2G BdB | GBc def |
+e2c {d}cBc | G2c E2c | e2c ege | c3 ceg |\
+a2f g2e | f2d e2c | BdB GAB | c3 c2 |] f |
+e2g gag | e2g gag | e2c ege | c3 cde |\
+f2a aga | f2a aga | f2d faf | d3 def |
+efg gag | efg gag | ecd ege | ccd efg |\
+afa geg | fdf edc | BdB GAB |1 cag fed !segno! :|2 c3 c3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

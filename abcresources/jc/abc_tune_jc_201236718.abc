@@ -1,0 +1,18 @@
+X:99022
+T:Kendall's Hornpipe
+P:Ower the Water
+C:Traditional
+R:Jig (8x32)
+B:RSCDS Gr-22
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:D
+"D"D2A AFA|"G"B/c/dF "D"E2D|DFA AFA|"G"BAB "D"def|
+"D"DFA AFA|"G"Bcd "D"AFD|"Bm"dfd "A"ecA|"G"[B3G3] "D"[d3F3]||
+"D"dfd "A"ecA|"D"d2F "A"E2 "D"D|"D"dfd "A"ecA|"G"B3 "D"d2A|
+V:1
+%%staves (1 2)
+[V:1] "D"dfd "A"ecA|"D"d2F "A"E2 "D"D|"D"D2A "F#m"AFA|"G"[B3G3D3] "D"[d3A3F3]|]
+%V:2
+%[V:2]    x6        |   x6            |   x3       C3 |   x6                  |]

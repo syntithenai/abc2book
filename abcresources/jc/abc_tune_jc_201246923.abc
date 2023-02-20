@@ -1,0 +1,23 @@
+X:1
+T:Andy Irvings Polka
+R:polka
+M:4/4
+L:1/8
+Q:1/4=200
+K:G
+V:1
+% Fiddle
+% 1 sharp
+z7E |\
+|: "G" D>EDB, DEG>A | Bd AB/A/ "C" GEcE | "G" D>EDB, DEG>A |\
+[1 "D" Bd AB/A/ "G" G2 GE :|2 "D" Bd AB/A/ "G" G2 GA |
+|: "G" Bdd>B "C" cee>c | "G" Bd AB/A/ "C" GEcE | "G" Bdd>B "C" cee>f |\
+[1 "Em" ge"D"fd "C" e2 eA :|2 "Em" ge"D"fd "C" e2 ef |
+|:"Em" ge"D"fd "C" ed"G"B>A | "G" Bd AB/A/ "C" GEcE | "G" D>EDB, DEG>A |\
+[1 "D" Bd AB/A/ "G" G2 Gf :|2 "D" Bd AB/A/ "G" G2 GE |
+|: "G" D>EDB, DEG>A | Bd AB/A/ "C" GEcE | "G" D>EDB, DEG>A |\
+[1 "D" Bd AB/A/ "G" G2 GE :|2 "D" Bd AB/A/ "G" G2 GA | 
+|: "G" Bdd>B "C" cee>c | "G" Bd AB/A/ "C" GEcE | "G" Bdd>B "C" cee>f |\
+[1 "Em" ge"D"fd "C" e2 eA :|2 "Em" ge"D"fd "C" e2 ef |
+|:"Em" ge"D"fd "C" ed"G"B>A | "G" Bd AB/A/ "C" GEcE | "G" D>EDB, DEG>A |\
+[1 "D" Bd AB/A/ "G" G2 Gf :|2 "D" Bd AB/A/ "G" G2 G z |

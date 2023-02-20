@@ -1,0 +1,51 @@
+X: 1
+T: Giga di Roccaforte Mondov\`i   [G]
+R: jig
+Z: 2014 by John Chambers <jc:trillian.mit.edu>
+F: https://www.youtube.com/watch?v=g__17kxpqqI
+N: A close relative of Cock of the North
+M: 6/8
+L: 1/8
+K: G
+d \
+| "G"B2B BAG | G2d e2d | "G"B2B BAG | "D7"A2A A2d \
+| "G"B2B BAG | G2d e2d | "G"BcB "D7"ABA | "G"G3- G2 :|
+|: d \
+| "G"g2d "C"e2d | "G"g2d "C"e2d | "G"B2B BAG | "D7"ABc def \
+| "G"g2d "C"e2d | "G"g2d "C"e2d | "G"BcB "D7"ABA | "G"G3- G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2
+T: Giga di Roccaforte Mondov\`i   (D)
+R: jig
+Z: 2014 by John Chambers <jc:trillian.mit.edu>
+F: https://www.youtube.com/watch?v=g__17kxpqqI
+N: A close relative of Cock of the North
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"F2F FED | D2A B2A | "D"F2F FED | "A7"E2E E2A \
+| "D"F2F FED | D2A B2A | "D"FGF "A7"EFE | "D"D3- D2 :|
+|: A \
+| "D"d2A "G"B2A | "D"d2A "G"B2A | "D"F2F FED | "A7"EFG ABc \
+| "D"d2A "G"B2A | "D"d2A "G"B2A | "D"FGF "A7"EFE | "D"D3- D2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3
+T: Giga di Roccaforte Mondov\`i   (A)
+R: jig
+Z: 2014 by John Chambers <jc:trillian.mit.edu>
+F: https://www.youtube.com/watch?v=g__17kxpqqI
+N: A close relative of Cock of the North
+M: 6/8
+L: 1/8
+K: A
+e \
+| "A"c2c cBA | A2e f2e | "A"c2c cBA | "E7"B2B B2e \
+| "A"c2c cBA | A2e f2e | "A"cdc "E7"BcB | "A"A3- A2 :|
+|: e \
+| "A"a2e "D"f2e | "A"a2e "D"f2e | "A"c2c cBA | "E7"Bcd efg \
+| "A"a2e "D"f2e | "A"a2e "D"f2e | "A"cdc "E7"BcB | "A"A3- A2 :|

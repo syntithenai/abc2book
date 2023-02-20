@@ -1,0 +1,33 @@
+X: 31191
+T: COTILLION No. 18. NIAGARA SETT tune 4
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.119 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain has only 7 bars.
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+cGAB cde^f | g2 G4 cB | AcBd cedf | ecge d2G2 |\
+cedc dfed | efga g2c'2 | e2e2 dcde | c2c2c2 H|]
+EF |\
+G>GG>G G2G2 | E2G2E2C2 | A2A2 d2dc | BcAB G2EF |\
+G>GG>G GEFG | A2G2 G2gf | fgaf e2d2 | c2c2"^D.C."c2 |]
+E2 |\
+A^GAB AcBA | B2E2 E2AB | cBcd cedc | c2B2 B2e2 |\
+a^gab ac'ba | gabg a2f2 | eafd c2"^D.C."B2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple promenade round,
+%% 2d 3d & 4th the same,
+%% form lines lengthwise the hall,
+%% 1st lady in each sett balance with each gentleman
+%% and turn who she pleases,
+%% Gentlemen perform the same,
+%% all balance and swing to place.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

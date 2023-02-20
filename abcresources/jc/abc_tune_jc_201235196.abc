@@ -1,0 +1,28 @@
+X: 2102
+T: Isle of Sky.   Scotish Measure.
+%R: reel, march, Scotch measure
+B: Niel Gow & Sons "Complete Repository" v.2 p.10 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "SLOWISH"
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+dB |\
+A2D2 (GF).E.D | A2D2 (GF).E.D |  B2E2 (EF).G.A | B2E2 (EFG)A ||\
+A2GF d2cB | {B}A2GF TE2DE | FE.D.B, (A,B,).D.E | F2D2 D2 :|
+ag |\
+f2d2 (fg)ag | f2d2 (fg)af | g2e2 (ef)ga | b2e2 e2ag ||\
+f2d2 fgag | f2d2 fgag | (fg)ab afeg | f2d2- d2 |]
+de |\
+f2df {f}e2Be | d2Ad B2FA | (BE)(dE) (EF)(GA) | (BE)(dE) .E(cde) ||\
+.f2df .e2Be | d2Ad B2FB | A2A,2 (A,B,).D.E | {DE}F2D2 D2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |\
+D2d2 D4 | D2d2 D4 | [e4E4] [e4E4] | [e4E4] [e4E4] ||\
+[d4D4] [d4D4] | [A4A,4] [B4B,4] | F2G2 A2A2 | D2d2 D2 :| z2 |
+d4 d'4 | d4 d'4 | e4 e'4| e4 e'4 || d4 d'4 | d4 d'4 | f2g2 a2A2 | d4 D2 |] z2 |
+d'4 c'4 | b4 f4 | [e4E4] [e4E4] | [e4E4] [a4A4] || d4 c4 | B4 G4 | F4 A4 | D2d2 D2 |]

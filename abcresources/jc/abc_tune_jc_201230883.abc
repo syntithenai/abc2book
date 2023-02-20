@@ -1,0 +1,30 @@
+X: 142
+T: LORD ELCHO
+C: R. MACKINTOSH
+R: Reel
+B: Glen Collection p.14 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: The MS has the last 3 notes of part 1 beamed, but the same notes in the last bar are not beamed.
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: G
+%
+V: 1
+d |\
+[g2B2D2G,2](dB) cgec | BgdB cAFD | [g2B2D2G,2](dB) cgec | BdAc BGG :|
+c |\
+BdGB egce | BdGB A(DDc) | BdGB egce | dBcA B(GGc) |
+BdGB egce | BdGB FADC | B,DGD EGce | dBcA BG G |]
+%
+V: 2
+z |\
+G2[b2g2d2] [g2e2][g2e2] | [g2d2][g2d2] [f2d2][f2d2] |\
+G2[b2g2d2] [g2e2][g2e2] | [g2d2][f2d2] [g2d2][gdG] :]
+z |\
+G2[g2d2] c2[g2e2] | G2[g2d2] D2[f2d2] |\
+G2[g2d2] c2[c'2g2] | [b2g2d2][a2f2d2] [b2g2d2][b2g2d2] |
+G2[g2d2] c2[g2e2] | G2[g2d2] D2[f2d2] |\
+G2[b2g2] [c'2g2e2][c'2g2e2] | [b2g2d2][a2f2d2] [g2d2G2][gdG] |]

@@ -1,0 +1,29 @@
+X: 1
+T: John Black's Daughter
+P: Longways for &c.
+%R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.63
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (45)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The tune is commonly known as "Green Grow the Rashes O".
+N: The versions of the tune and dance in CCDTB and CCDM2 are identical, even the capitalization.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B | G/G/G B>A BGGB | A/A/A e>d eAAB | c3e d/c/B/A/ BG | A/A/A B>A GE E |]
+B | G/G/G g>f gddg | e/e/e a>g aeef | ga ef d/c/B/A/ BG | A/A/A B>A GE E |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | G2gd A2B2 | c2zB c2zB | Aaec B2GB | A2d2 e2E |]
+z | G2zd B2GB | c2zB c2zd | edcA B2GB | A2d2 e2E |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hey on the Mens side .|
+%% Then foot it to Partners, then to sides, turn single after Each :|
+%% then the 1st Man turn 3d Cu. half round, and cast up into the 2d Place .|
+%% The Wo. do the same back again :|
+%% change sides and foot it, cast up, change sides and foot it and cast off .|
+%%endtext

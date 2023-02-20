@@ -1,0 +1,22 @@
+X: 14
+T: the Forum
+%R: jig
+B: "Twenty Four Country Dances for the Year 1781", Thomas Skillern, ed. p.7 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1781#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+c |\
+ceg fdB | cGE C2a |\
+gec Bfe | e3 d2 :: g |\
+g>ag ecg | fge d2G |
+ceg gfe | e3 d2G |\
+Afd Bgf | ece g2G |\
+Afe dcB | c3- c2 :|
+%%begintext align
+%%   Four Hands across .| back
+%% again :| Cross over one Cu. figure
+%% thro' the top :|. four Hands at
+%% bottom Right and Left at top :|:
+%%endtext

@@ -1,0 +1,23 @@
+X:1
+T:Highland Whisky
+C:Neil Gow
+R:strathspey
+B:BSFC III-21 and III-45 and IV-10
+B:OTDT p.76
+B:RSCDS 2-5(b)
+B:Scots Guards 297
+B:Skye p.26
+N:2nd measure of B part has F#, G or G# in various versions.
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C
+L:1/8
+K:A
+E \
+| "A"A-<A A2 A>B c-<e | "Bm"B-<B B>c "E7"d>e f-<a \
+| "A"A-<A A2 A>B c>d | ef/g/ a>c "E7"B2 "A"A> :|
+e \
+| "A"(3cBA e>A "D"f>A "A"e>A | "Bm"F-<B B>A "E7"^G-<B B>e \
+| "A"(3cBA e>A "D"f>A "A"e>A | ef/g/ a>c "E7"B2 "A"A> ||
+e \
+| "A"(3cBA e>A "D"f>A "A"e>A | "Bm"F-<B B>A "E7"^G-<B B>e \
+| "A"A-<c "E7"B>d "A"c-<e "D"d>f | "A"ef/g/ a>c "E7"B2 "A"A |]

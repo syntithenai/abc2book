@@ -1,0 +1,27 @@
+X:767
+T:The Valentine's Day Massacre
+C:Colin Hume, 1986
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=100
+%%MIDI gchord cc
+%%MIDI program 46
+%%MIDI chordprog 73
+%%MIDI chordvol 50
+%%MIDI chordname 7sus 0 5 7 10
+K:D
+P:A
+[| "D"A2 FG | "Em"F2 E2 | "G"D3C | "A7"B,2 C2 | "D"A,2 A2 | "F#m"A2 GA | "G"B3G | "A7sus"A2- "A7"A2 |
+P:B
+"D"A2 FG | "A/C#"A2 A2 | "G/B"B2 GA | "B7/D#"B3A | "Em"G2 ed | "G/D"c2 B2 | "A7/C#"E2 FE | "D"D2- "D7"D2 |
+L:1/8
+M:6/8
+Q:3/8=118
+K:G
+P:C
+"G"d3 "/"D3 | "C"EFG "D7"ABc | "G"d3 "/"D2B | "Am"cdB "D7"A3 |\
+"G"d3 "/"D3 | "C"EFG "D7"ABc | "G"d3 "Am"D2c | "D7"BcA "G7"G3 |
+P:D
+"C"_e=eG "/"_e=e_B | "G"=BdB "/"G3 | "D"D^CD "D7"A3 | "D"D^CD "G7"B2d |\
+"C"_e=eG "/"_e=e_B | "G"=BdB "/"G3 | "D7"d^de "/"A^AB | "G"G3- "A7"G3 |]

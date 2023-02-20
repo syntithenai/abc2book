@@ -1,0 +1,33 @@
+X: 1
+T: By the Light of the Silvery Moon
+C: Words: Ed Madden (1909)
+C: Music: Gus Edwards (1909)
+F: http://scriptorium.lib.duke.edu/sheetmusic/n/n05/n0558/
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+"intro"[|]\
+c>d e>d c2 | "C"e4- "A7"e2- | "D7"e2 c>d "G7"e>c d2 | "C"c4 "G7"c2- | "C"c2 z2 z2 z2 ||
+"verse"\
+[| "C/G"G2 z2 "Ebdim"A2 z2 | "G7/D"B2 z2 "C"c2 z2 | "C/E"B>d c>A "Ebdim"B>d c>A | "Dm"F6 z2 |
+w: 1.~Place: park, scene: dark, Sil-v'ry moon is shin-ing thro' the trees;
+w: 2.~Act two, scene new, Ros-es bloom-ing all a-round the place;
+ "Dm"A2 z2 "E7"B2 z2 | "A7"^c2 z2 "Dm"d2 z2 | "G7"B>d =c>A B>d c>A | "C"E2- "C#dim"E2- "G/D"E2 "G7"z2 |
+w: 1.~Cast two: me, you, Sound of kiss-es float-ing on the breeze.**
+w: 2.~Cast three: you, me, Preach-er with a sol-emn look-ing face.**
+ "C"G2 z2 "Ebdim"A2 z2 | "G7/D"B2 z2 "C"c2 z2 | "C/E"B>d c>A "Ebdim"B>d c>A | "G"B6 z2 |
+w: 1.~Act one, be-gun, Di-a-logue: "Where would you like to spoon?"
+w: 2.~Choir sings, bell rings, Preach-er: "You are wed for-ev-er-more."
+"D7"e2 z2 ^F2 z2 | "G"d2 z2 G2 z2 | "Am"A>B c>E "D7"B2 A2 | "G7"G6 |]
+w: 1.~My cue, with you, Un-der-neath the sil-v'ry moon.
+w: 2.~Act two, all through, Ev-'ry night the same en-core.
+"chorus"\
+|: E>F | "C"G8- | "C"Gz c>d e>d c2 | "D7"A8- | "D7"Az d2 c2 A2 | "G7"B8- |
+w: By the light_ of the sil-ver-y moon,_ I want to spoon,
+ "G7"Bz GA BA G2 | "Am"A4 "D7"E4 | "G7"G4 z2 E>F | "C"G8- |
+w: _ To my hon-ey I'll croon love's tune. Hon-ey-moon
+ "C"Gz c>d e>d c2 | "F"A4- "A7/E"A4- | "Dm"Az d2 "A7"e2 "Dm"f2 | "C"e2 "C7"c2 "D7"d2 "Fm"f2 |
+w: _ keep a-shin-ing in June.__ Your sil-v'ry beams will bring love
+ "Am"e2 c>d e>d c2 | "E7"e4- "A7"e4- | "D7"ez c>d "G7"e>c d2 | "C"c4- "F"c4- | "C"c2 z2 z2 :|
+w: dreams, we'll be cud-dl-ing soon,__ By the sil-ver-y moon._

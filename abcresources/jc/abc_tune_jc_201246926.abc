@@ -1,0 +1,26 @@
+X:1
+T: Andy Kerrin's Hornpipe
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 232
+%W:
+% voice 1 (1 lines, 46 notes)
+K:G
+M:4/4
+L:1/16
+B4 |E4 E2 D2 E2 F2 G2 A2 |B4 B2 A2 B4 e4 |B4 e4 B4 A4 |G2 B2 F2 B2 E4 E2 D2 |E4 E2 D2 E2 F2 G2 A2 |B4 B2 A2 B4 e4 |B4 e4 B4 A4 |G2 B2 F2 B2 E4 B4 |
+%W:
+% voice 1 (1 lines, 47 notes)
+E4 E2 D2 E2 F2 G2 A2 |B4 B2 A2 B4 e4 |B4 e4 B4 A4 |G2 B2 F2 B2 E4 E2 D2 |E4 E2 D2 E2 F2 G2 A2 |B4 B2 A2 B4 e4 |B4 e4 B4 A4 |G2 B2 F2 B2 E4 d4/3 |e4/3 f4/3
+%W:
+% voice 1 (1 lines, 59 notes)
+g4 B4 |d2 B2 G2 B2 c2 A2 B2 G2 |E2 G2 F2 E2 D2 E2 F2 G2 |A2 B2 c2 d2 e2 f e d2 ^c2 |d4 d4/3 e4/3 f4/3 |g4 B4 d2 B2 G2 B2 |c2 A2 B2 G2 E2 G2 F2 E2 |D2 E2 F2 G2 A2 c2 B2 A2 |G4 B4 G4 d4/3 |e4/3 f4/3
+%W:
+% voice 1 (1 lines, 56 notes)
+g4 B4 |d2 B2 G2 B2 c2 A2 B2 G2 |E2 G2 F2 E2 D2 E2 F2 G2 |A2 B2 c2 d2 e2 f e d2 ^c2 |d4 d4/3 e4/3 f4/3 |g4 B4 d2 B2 G2 B2 |c2 A2 B2 G2 E2 G2 F2 E2 |D2 E2 F2 G2 A2 c2 B2 A2 |G4 B4 G4 ||

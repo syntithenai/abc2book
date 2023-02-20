@@ -1,0 +1,21 @@
+X: 30
+T:Jig of Slurs
+N: page 9
+N: heptatonic
+R:jig
+C:G. S. MacLellan
+P:D & E Dorian
+M:6/8
+K:D
+ "D"Add dcd| "G"Bdd "D"Add| "G"Bdd "D"Add|\
+ "Em"Bee "A7"edB| "D"Add dcd|
+ "G"Bdd "D"Add| "G"Bdd "A7"cde| "D"fdd d2B::\
+ "D"A2f fef|"D"a2f fed|
+"G"B2e ede|"A"f2f edB| "D"A2f fef|\
+"D"a2f fed|"G"Bdd "A"cde|"D"fdc d2B::
+"G"G2g gfg| "Em"age "G"gdB| "G"G2g gfg| "Em"agf "G"gab|\
+   "G"G2g gfg| "Em"age "G"gdB| "Em"e2e "C"efg|"Bm" fed "Em"edB::
+"G"GBB Bdd| dee "Em"edB| "G"GBB Bdd|"Em" dee efg|\
+"G"GBB Bdd| dee "Em"edB| "Em"e2e "C"efg| "Bm"fed "Em"edB:|
+%%newpage
+%%text 19

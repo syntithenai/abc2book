@@ -1,0 +1,89 @@
+X: 1
+T: Polska efter Lena Jonsson [1]
+N: Learned in workshop 2008-10-4, in Worcester MA USA
+R: polska
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: D
+|:(A,2D2) D2D2 F2ED | (E2A,2) A,2A,2 G2FE \
+| (DE)FG (AB)cd e2f2 |1,3 g2ec d2AG (GF)(ED) :|2,4 {f}g2ec {c}d4- d4 :|
+|:a3g (fg)fe (de)dB | A2A2 (AG)EG F4 \
+| a3g (fg)fe (de)dB | A2A2 (AG)(EG) F3E \
+| (DE)FG F2(F2 E2)E2 |
+| (DE)FG F2F2 E4 \
+| (DE)FG F2(F2 E2)E2 | (DE)(FG) F4 E4 \
+| (DE)FG (AB)cd e2f2 |{f}g2ec {c}d4- d4 :|
+
+%%sep 1 1 500
+X: 2
+T: Polska efter Lena Jonsson [2]
+N: Learned in workshop 2008-10-4, in Worcester MA USA
+R: polska
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Am
+|: A3c e4 e4 | a3g f2ed c4 \
+|  G3B d4 f4 | e3d c2BA e4 \
+|  E2^F^G A2B2 c2dc | B2G2 A8 :|
+|: G2ce g4 g3e | fefa g4 G4 \
+|  e3d c2BA e4 | e2fe d2B2 B4 \
+|  a4 g2b2 a4 | g2fe d2ef e4 \
+|  E2^F^G A2B3 c2dc | B2G2 A8 :|
+
+%%sep 1 1 500
+X: 3
+T: Marsch efter Karl Lindblad
+O: H\"alsingland
+S: Lena Jonsson, workshop in Arlington, Massachusetts, Oct 2008
+R: march, ganglat
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Ador
+%%slurgraces 1
+[c2E2G,2] \
+| ([BDG,]G)(Bd) c2 ((3cdc) | (BG)(Bd) c2(cg) \
+| (fd)(fa) g2(dg) | (fd)(fa) g2(dg) \
+| f2{gf}(e^d) f3e | [M:3/2] e2e2 e4- e2 :|
+|:[M:C] AB \
+| c4 c2-(c/d/c/B/ | c2)a2 ^g2a2 \
+| B4 (Bc)BA | B2d2 c2B2 \
+| A2^GA B2AB |
+| c2Bc d2cd \
+| e4 (ef)e^d | e2g2 f2(e^d) \
+| e2c2 (Bd)B"(#)"G | A6 :|
+
+%%sep 1 1 500
+X: 4
+T: Polska efter Vingel-Anders
+O: H\"alsingland
+S: Lena Jonsson, workshop in Arlington, Massachusetts, Oct 2008
+R: polska
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+(f/ \
+| e)>(d c)(>e a)>c' | e>(d c)>e (3g(bg) \
+| e>(c d)>(B c)>A |1,3 ((3EGB) e2- e>(f :|2,4 ((3EGB) A4 :|
+|: [A2E2] (e>d) (3c(ec) | [A2D2] (f>e) (3d(fd) \
+| B2 (b>g) e>g |1,3 a>c' e>a c>e :|2,4 (a/g/f/g/) a4 :|
+
+%%sep 1 1 500
+X: 5
+T: "Turkl\aaten"
+T: Polska efter lars \AAhs, \"Alfdalen
+O: Dalarna
+S: Lena Jonsson, workshop in Arlington, Massachusetts, Oct 2008
+R: polska
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Ador
+z | aa Tg2 (eg) | aa Tg2 (ef) | d2 e3 :|
+|: (B \
+| c)>d e<f g>a | Tfe/d/ e2 (c2 | B)>(d c<B) AG |1 ((3GBG) A3 :|2 A2 A4 |]
+[| aa g2 (ef) | d2 e2 (c2 | B)>(d c<B) AG | A2 A4 |]

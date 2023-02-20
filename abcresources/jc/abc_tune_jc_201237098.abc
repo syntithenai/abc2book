@@ -1,0 +1,29 @@
+X: 241
+T: Mrs GARDEN OF TROUP
+C: R. PETRIE
+R: Strathspey
+B: Glen Collection p.24 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: F
+%
+V: 1
+C |\
+F>GFd cFdF | ECCF E/F/G/E/ CE | F>GFd cFAf | c>f a/g/f/e/ f2f :|
+c |\
+fcac bcac | Af b/a/g/f/ egga | fcac bcac | Af a/g/f/e/ f2fc |
+fcac bcac | Af b/a/g/f/ e(gga) | dBdf cAcf | Af a/g/f/e/ f2f |]
+%
+V: 2
+z |\
+[f2F2][a2f2c2] [a2f2c2][a2f2c2] | [c2C2][b2g2c2] [b2g2c2][b2e2c2] |\
+[f2F2][a2f2c2] [a2f2c2][a2f2c2] | [a2f2c2][b2e2c2] [f2F2][afc] :|
+z |\
+[f2F2][f'2c'2a2] [e'2c'2g2][f'2c'2a2] | [f2F2][f'2c'2a2] [c2C2][e'2c'2g2] |\
+[f2F2][f'2c'2a2] [e'2c'2g2][f'2c'2a2] | [f2F2][b2e2c2] [f2F2][a2f2c2] |
+[f2F2][f'2c'2a2] [e'2c'2g2][f'2c'2a2] | f2[f'2c'2a2] [c2C2][b2e2c2] |\
+[B2B,2][b2f2d2] [c2C2][a2f2c2] | [c2C2][b2e2c2] [a2f2][fcF] |]

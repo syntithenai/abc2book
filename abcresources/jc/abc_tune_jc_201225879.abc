@@ -1,0 +1,16 @@
+X: 10032
+T: German Waltz
+B: "Man of Feeling", Gaetano Brandi, ed. p.3 #2
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: G
+def |\
+g2g2g2 | a2a2a2 | b2g2g2 | afedef |\
+g2g2g2 | a2a2a2 | gfedef | g4 |]
+ABc |\
+d2cBAG | e2dcBA | c2BAGF | GFGABc |\
+d2cBAG | e2dcBA | GFEDEF | G4 |]
+%
+%%center -

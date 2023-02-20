@@ -1,0 +1,350 @@
+X:0
+T:24 Country Dances for the Year 1809
+C:Cahusac
+Z:Flynn Titford-Mock, 2007
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+K:
+%%sep 5 5 500
+
+X:1
+T:Major Spicer
+M:6/8
+L:1/8
+R:Jig
+B:WM Cahusac - Twenty Four Country Dances for the Year 1809, No. 1
+N:"With proper Directions to each Dance as they are performed at
+N:Court, Bath, and all Public Assemblies."
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:A
+e/d/|c2c dcd|e2c a2f|e2c AGA|{GA}B2G E2e/d/|c2c dcd|e2c a2f|
+ecA {c}BAB|(A3 A2::G/A/|B2B Bcd|{cd}e2c A2 A/G/|F2F FGA|
+{GA}B2G E2 G/A/|B2B Bcd|e2c a2f|ecA AGA|c3 B2:|
+
+X:2
+T:Time's a Tell Tale
+M:6/8
+L:1/8
+R:Jig
+B:WM Cahusac - Twenty Four Country Dances for the Year 1809, No. 2
+N:"With proper Directions to each Dance as they are performed at
+N:Court, Bath, and all Public Assemblies."
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:D
+A|d2d dcd|a2a age|d2d dcd|e2c ABc|d2d dcd|
+a3 age|d3 {f}ede|(d3 d2)::F/G/|A2A Adc|B2B BGF|
+E2E EAG|G3 F2F/G/|A2A Adc|B2b bge|c2a ABc|(d3 d2):||
+
+X:3
+T:Morgiana
+M:6/8
+L:1/8
+S:W.M. Cahusac's Annual Collection of 24 Country Dances for 1809, No. 3
+N:"With proper Directions to each Dance as they are performed at
+N:Court, Bath, and all Public Assemblies."
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:F
+c|(cA)c {fg}a2g|fed c2d|(cA).c (fc).a|(ba).g (gf).d|(cA)c a2 g|fed c2d|(cA).c (fc).f|(ag).e f2||
+g|gag fed|ccc b2c|(ac).c (fc).c|acc g3|gag fed|dcc b2c|(ac).c (fc).c|gfe dcB||
+AFG A2c|AFG A2c|B2d A2c|(G3-G)cB|AFG A2c|AFG A2c|d2f e2g|f3-f2||
+
+X:4
+T:Fairy Dance
+M:2/4
+L:1/8
+S:W.M. Cahusac's Annual Collection of 24 Country Dances for 1809, No 4 (London, 1809)
+N:"With proper Directions to each Dance as they are performed at
+N:Court, Bath, and all Public Assemblys."
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:G
+B2 BG|B2 BG|B2 BG|FDAF|B2 BG|cBAG|FDEF|G4:|
+|:d2 dB|e2 ed|c2 cA|d2 dc|B2 BG|E2 cA|FDEF|G2 G2:|
+
+X:5
+T:Labyrinth, The
+M:6/8
+L:1/8
+R:Jig
+B:WM Cahusac - Twenty Four Country Dances for the Year 1809, No. 5 (London)
+N:"With proper Directions to each Dance as they are performed at
+N:Court, Bath, and all Public Assemblies."
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:G
+G/A/|B2B {c}BAB|c3 {d}cBc|A2A {B}AGA|B3 {d}cBA|G2G {A}GFG|
+{B}(A3 A2)G|{G}FED DEF|(G3 G2)::B/c/|d2d {e}dcd|e2d {d}cBc|
+A2A Adc|B3 {d}cBA|G2G {A}GFG|{B}(A3 A2)G|{G}FED DEF|(G3 G2):|
+
+X:6
+T:Shaddle, The
+M:6/8
+L:1/8
+R:Jig
+B:WM Cahusac - Twenty Four Country Dances for the Year 1809, No. 6 (London)
+N:"With proper Directions to each Dance as they are performed at
+N:Court, Bath, and all Public Assemblies."
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:D
+A|f2e dcB|A2F D2E|F>GF {G}FED|CEE E2A|f2 e dcB|
+A2F D2E|FGF {F}EDE|(D3 D2)::A|g2e f2d|c2A d2f|
+g2e f2d|cee e2A|gfe fed|cBA def|gfe fed|(f3 e2):|
+
+X:7
+T:Woodcutter, The
+M:2/4
+L:1/8
+R:Hornpipe
+B:WM Cahusac - Twenty Four Country Dances for the Year 1809, No. 7 (London)
+N:"With proper Directions to each Dance as they are performed at
+N:Court, Bath, and all Public Assemblies."
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:D
+A|df/>d/ a/>f/b/>a/|g/>f/e/>d/ c/>d/e/>A/|d/>Ad/>f/ a/>f/b/>a/|g/>f/e/>d/ c>A|df/>d/ a/>fd/>f/|
+g/>f/e/>d/ c/>d/e/>c/|d/>e/f/>g/ a/>f/e/>d/|B/>d/c/>e/d::A|c/>d/e/>f/ g/>e/c/>A/|d/>e/f/>g/ a/>f/e/>d/|
+B/>e/g/>f/ b/>a/g/>f/|e/>c/d/>B/ AA|c/>d/e/>d/ d/>c/B/>A/|d/>c/d/>e/ f/>g/a/>f/|b/>a/g/>f/ e/>d/c/>B/|A/>d/c/>e/ d:||
+
+X:8
+T:Mariner's Departure, The
+M:C|
+L:1/8
+R:Reel
+B:WM Cahusac - Twenty Four Country Dances for the Year 1809, No. 8 (London)
+N:"With proper Directions to each Dance as they are performed at
+N:Court, Bath, and all Public Assemblies."
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:G
+G2 DE G2e2|DBAG AFED|G2 DE G2e2|dBcA G4:||
+D2 Bc d2g2|fafd cedc|B2 GA B2^c2|dfe^c d4|
+G2 DE G2e2|DBAG AFED|G2 DE G2e2|dBcA G4||
+
+X:9
+T:Runaway,
+M:2/4
+L:1/8
+B:WM Cahusac - Twenty Four Country Dances for the Year 1809, No. 9 (London)
+N:"With proper Directions to each Dance as they are performed at
+N:Court, Bath, and all Public Assemblies."
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:D
+FAdA|f2 ed|cea^g|ba=ge|FAdA|f2 ed|1 gedc|d2d2:|2 agec|d2d2||
+|:{e}dAfe|dAfe|dAfd|gedc|dAfe|dAfd|1 gedc|d2d2:|2 agec|d2d2||
+
+X:10
+T:Egerton! for Ever!
+M:6/8
+L:1/8
+B:WM Cahusac - Twenty Four Country Dances for the Year 1809, No. 10 (London)
+N:"With proper Directions to each Dance as they are performed at
+N:Court, Bath, and all Public Assemblies."
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:Bb
+BcB d2d|cdc f2e|dBF Ggf|ecB AGF|BcB d2d|cdc f2e|dBF Gec|AFA B3:|
+|:FGF D2B,|FGF D2B,|BAB cdc|ABG F2D|EGc FAd|GBe Acf|dba gf=e|fgf _edc:||
+
+X:11
+T:Sir Arthur Wellesly's [sic] Dash
+M:3/8
+L:1/8
+R:Waltz
+B:WM Cahusac - Annual Collection of Twenty Four Favorite Country Dances for 1809, No. 11 (London)
+N:"With proper Directions to each Dance as they are performed at
+N:Court, Bath, and all Public Assemblies."
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:G
+(d/c/)|BBB|Bcd|efg|d2 (d/c/)|BBB|ecA|G2 (A/G/)|F2 (d/c/)|
+BBB|Bcd|efg|{^g}a2 (f/d/)|B(=g/f/e/d/)|^c(a/b/a/g/)|fdd|d2:|
+|:a/f/|def|gab|.c'(c'/a/b/g/)|a/f/dd|{a}gfe|{e}(c/B/A/G/)|.B(d/c/A/B/)|B2:||
+
+X:12
+T:Ephemeral Emporer, The
+M:2/4
+L:1/8
+B:WM Cahusac - Annual Collection of Twenty Four Favorite Country Dances for 1809, No. 12 (London)
+N:"With proper Directions to each Dance as they are performed at
+N:Court, Bath, and all Public Assemblies."
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:A
+a>e c/A/e/c/|d/c/B/A/ G/B/B/e/|a>e c/A/e/c/|G/A/B/c/ AA:|
+|:A,/C/E/A/ c/A/e/c/|B/G/E/c/ B/G/E/z/|A,/C/E/A/ c/A/e/c/|d/B/G/B/ AA:|
+|:e/c/a/g/ f/e/d/c/|B/G/E/c/ B/G/E/z/|A,/B,/C/D/ E/A/c/A/|d/B/e/G/ AA:||
+
+X:13
+T:Marchioness of Tavistock's Waltz
+M:3/8
+L:1/8
+R:Waltz
+B:WM Cahusac's Annual Collection of Twenty Four Favorite Country Dances for the Year 1809, No. 13 (London)
+N:"With proper Directions to each Dance as they are performed at
+N:Court, Bath, and all Public Assemblies."
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:C
+c/d/|eee|fef|g2 a|g2 e/g/|fff|eee|ddf/e/|d2 c/d/|
+eee|fef|g2^g|abc'|gec|d g2|.e(e/f/d/e/)|c2:||
+(B/c/)|ddd|e2 g|^f/g/a/b/c'/a/|bg (B/c/)|ddd|e2 g|^f/g/a/b/c'/a/|g2:||
+
+X:14
+T:Smash the Windows
+M:6/8
+L:1/8
+R:Jig
+B:WM Cahusac - Annual Collection of Twenty Four Favourite Country Dances, No. 14 (London)
+N:"With proper Directions to each Dance as they are performed at
+N:Court, Bath, and all Public Assemblies."
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:Eb
+E|B,2E G2B|e2g fdB|c2e A2c|B2c BGE|B,2E G2B|e2g fdB|gbg afd|e2 z z2:|
+|:g/a/|b2g e2B|B2g bag|a2f d2B|B2f agf|g2e a2f|b2g c'2a|gbg afd|e2z z2:||
+
+X:15
+T:Devonshire Go, The
+M:6/8
+L:1/8
+R:Jig
+B:WM Cahusac - Annual Collection of Twenty Four Favorite Country Dances for 1809, No. 15 (London)
+N:"With proper Directions to each Dance as they are performed at
+N:Court, Bath, and all Public Assemblies."
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:Bb
+b2f dBd|f2d f2d|b2f dBd|c2A c2A|b2f dBd|f2d f2d|gfe dcB|ABG FED:|
+|:DFB DFB|EGB EGB|Ace ecA|Bdf fdB|DFB DFB|EGB EGB|Ace ecA|B3 b3:||
+
+X:16
+T:Kinnegad Slashers
+M:6/8
+L:1/8
+R:Jig
+B:WM Cahusac - Annual Collection of Twenty Four Favorite Country Dances for 1809, No. 15 (London)
+N:"With proper Directions to each Dance as they are performed at
+N:Court, Bath, and all Public Assemblies."
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:D
+A|d>AF d>AF|ABA ABc|d>AF d>AF|Eee efg|d>AF d>AF|ABA A2g|fed c>BA|Add d2:|
+|:dfa afd|efe e2f|dfa afd|fga afd|dfa afd|efe e2g|f>ede c>BA|Add d3:||
+
+X:17
+T:Sir Charles Cotton's Hornpipe
+M:C
+L:1/8
+R:Hornpipe
+B:WM Cahusac - Annual Collection of Twenty Four Favorite Country Dances for 1809, No. 17 (London)
+N:"With proper Directions to each Dance as they are performed at
+N:Court, Bath, and all Public Assemblies."
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:D
+F>G|A2A2 BAGF|G2E2E2zf|gfge cecA|d2D2D2 f>g|
+A2d2d3f|ec a2 aedc|dfBd ce^GB|A2A2A2:|
+|:A>G|F2D2D2 d>c|B2G2G2 B>A|^G2 E2 E2 e>d|c2A2A2 zc|
+dfaf dAB=c|BGdB g3e|fadf egec|d2d2d2:|
+
+X:18
+T:Spanish Patriots, The
+M:2/4
+L:1/8
+B:Cahusac - Annual Collection of Twenty Four Favorite Country Dances for 1809, No. 18 (London)
+N:"With proper Directions to each Dance as they are performed at
+N:Court, Bath, and all Public Assemblies."
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:C
+(c/B/c/d/) c/e/G/B/|c/B/c/d/ c/e/g/e/|(c/B/c/d/) c/e/G/c/|A/c/B/d/ cc':|
+|:(d/^c/d/e/) dg|dadb|(d/^c/d/e/) dg|b/a/g/^f/ g2:||
+
+X:19
+T:Miss Hutton's Reel
+M:2/4
+L:1/
+R:Reel
+B:WM Cahusac - Annual Collection of Twenty Four Favorite Country Dances for 1809, No. 19 (London)
+N:"With proper Directions to each Dance as they are performed at
+N:Court, Bath, and all Public Assemblies."
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:D
+d'>a f/>d/a/>f/|g/>f/e/>d/ c/e/e/a/|d'>a f/>d/a/>d/|c/>d/e/>f/ dd:|
+|:D/>F/A/>d/ f/>d/a/>f/|e/>c/A/>f/ e/>c/A/z/|D/>F/A/>d/ f/>d/a/>f/|g/>e/c/>e/ dz:|
+|:a/>f/d'/>c'/ b/>a/g/>f/|e/>c/A/>f/ e/>c/ A/>F/|D/>E/F/>G/ A/>d/f/>d/|g/>e/a/>c/ dd:||
+
+X:20
+T:Lady Ann Stewart's Reel
+M:C|
+L:1/8
+R:Reel
+B: Cahusac - Annual Collection of Twenty Four Favorite Country Dances for 1809, No. 20 (London)
+N:"With proper Directions to each Dance as they are performed at
+N:Court, Bath, and all Public Assemblies."
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:A
+B|(A/B/c) BA (BG).F.B|(A/B/c) BA ceae|(A/B/c) BA (BA).F.B|AFEF A2A:|
+|:f|ecac BAFB|ecac faea|ecac (BA)FB|{B}AFEF (A2 A)e/f/|
+ecac BAFB|ecac faea|dfca cAFB|{B}AFEF A2A:||
+
+X:21
+T:Buds of May, The
+M:2/4
+L:1/8
+B: Cahusac - Annual Collection of Twenty Four Favorite Country Dances for 1809, No. 21 (London)
+N:"With proper Directions to each Dance as they are performed at
+N:Court, Bath, and all Public Assemblies."
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:D
+gb b2|fa a2|eg fd|ec BA|gb b2 fa a2|Bd ce|d2D2:|
+|:fa fd|gb ge|fa fd|ce e2|fa fd|gb ge|Ad ce|d2D2:|
+
+X:22
+T:Banquet of Fancy, The
+M:6/8
+L:1/8
+B:WM Cahusac - Annual Collection of Twenty Four Favorite Country Dances for 1809, No. 22 (London)
+N:"With proper Directions to each Dance as they are performed at
+N:Court, Bath, and all Public Assemblies."
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:Bb
+f2d Bdf|fec dBF|FGA Bcd|fec A2F|f2d Bdf|fec dBF|FGA Bcd|ezc B2F:|
+|:e2d cfe|d2c B2d|cAA FGA|BdB F2F|e2d cfe|d2c B2c|A2A {A}GFG|FcA fca:||
+
+X:23
+T:Fairy Prince, The
+M:9/8
+L:1/8
+B:WM Cahusac - Annual Collection of Twenty Four Favorite Country Dances for 1809, No. 23 (London)
+N:"With proper Directions to each Dance as they are performed at
+N:Court, Bath, and all Public Assemblies."
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:Bb
+B3 dcB fed|cde GcB AGF|B3 dcB fed|ced cBA B2z:|
+|:f2 (=e/f/) f2 (=e/f/) dcB|f2 (=e/f/) fef dcB|f2 (=e/f/) f2 (=e/f/) cBA|GBA GF=E F2z:|
+|:b2B b2B b2B|gfe dcB AGF|bbb bbb ba|fed cBA B2z:||
+
+X:24
+T:Boney in the Dumps
+M:6/8
+L:1/8
+R:Jig
+B:WM Cahusac - Annual Collection of Twenty Four Favorite Country Dances for the Year 1809, No. 24 (London)
+N:"With proper Directions to each Dance as they are performed at
+N:Court, Bath, and all Public Assemblies."
+Z:Transcribed and edited by Flynn Titford-Mock, 2007
+Z:abc's:AK/Fiddler's Companion
+K:Bb
+Bdf dcB|ceg edc|dfd BdB|cAF F3|Bdf DFB|EGB efg|fed cBA|B3 B3:|
+|:AcA FGA|Bdf fed|gfe dcB|cAF F3|G2B F2B|G2B F2e|dcB FGA|B3 B3:||
+

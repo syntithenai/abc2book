@@ -1,0 +1,25 @@
+X: 1
+T:Jimmy Blue
+M:C|
+L:1/8
+%%staffsep 40
+F:http://corneymusers.org/orig/JIMMYBLU.ABC
+C:Colin N Craig New Zealand
+R:hornpipe, reel
+K:HP
+a \
+| "D"f/d/d/f/ Ad/f/ | "G"GB/d/ "D"A/d/d/A/ \
+||1,3 "D"f/d/d/f/ Ad/f/ | "A"Ac/e/ A/e/e/ \
+:|2,4 "D"f/d/d/f/ ad/f/ | "A"Ac/e/ "D"d :|
+|: c/d/ \
+| "A"eA/e/ A/e/e/A/ | "D"dA/f/ A/d/d/A/ \
+||1,3 "A"eA/f/ A/e/e/A/ | "D"f/A/d/f/ "(A)"a \
+:|2,4 "A"eA/f/ A/e/e/f/ | "A"Ae/A/ "D"d :|
+|: a \
+| "D"f/d/d/f/ A/d/d/f/ | "G"GB/d/ GB/d/ \
+||1,3 "D"A/d/d/f/ f/a/d/f/ | "A"Ac/e/ A/e/e/ \
+:|2,4 "D"A/d/d/f/ f/a/d/f/ | "A"Ac/e/ "D"d :|
+|: c/d/ \
+| "A"e/A/A/e/ A/e/e/A/ | "D"f/A/A/f/ A/f/f/d/ \
+||1,3 "A"e/A/A/e/ A/e/e/A/ | "D"f/A/d/f/ "(A)"a \
+:|2,4 "A"eA/f/ A/e/e/f/ | "A"Ae/A/ "D"d |]

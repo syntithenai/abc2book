@@ -1,0 +1,32 @@
+X:1
+T:The 92nd Gordon Highlanders' March
+M:C|
+L:1/8
+Q:80
+C:
+S:2/4 March
+K:HP
+|: {g}e/2d/2 | \
+{gcd}c{e}A{gef}e{g}A | \
+{gcd}c{e}B3/4{d}c/4{g}A{g}e3/4d/4 |
+{gcd}c{e}A{gef}e{g}A | \
+{g}B3/4c/4{g}d3/4B/4{g}G{g}e3/4d/4{gcd}c{e}A{gef}e{g}A | \
+{gBd}B{g}A/4{d}G3/4{gf}g{a}f3/4g/4 |
+{ag}ag3/4f/4{gf}ge3/4d/4 | \
+{g}B3/4c/4{g}d3/4B/4{g}G :: \
+{g}e/2d/2 |
+{gcd}ce{g}e3/4A/4{g}e3/4A/4 | \
+{gcd}ce{g}e{ag}a | \
+{cd}ce{g}e3/4A/4{g}e3/4A/4 |
+{g}B3/4c/4{g}d3/4B/4{g}G{g}e3/4d/4{gcd}ce{g}e3/4A/4{g}e3/4A/4 | \
+{gBd}B{g}A/4{d}G3/4{gf}g{a}f3/4g/4 | \
+{ag}ag3/4f/4{gf}ge3/4d/4 |
+{g}B3/4c/4{g}d3/4B/4{g}G :: \
+{gf}g | \
+{ag}aA/2{GAG}A/2{g}eA/2{GAG}A/2 |
+{gcd}c{e}B3/4{d}c/4{g}A{gf}g | \
+{ag}aA/2{GAG}A/2{g}eA/2{GAG}A/2 | \
+{g}B3/4c/4{g}d3/4B/4{g}G{gf}g{ag}aA/2{GAG}A/2{g}eA/2{GAG}A/2 |
+{gBd}B{g}A/4{d}G3/4{gf}g{a}f3/4g/4 | \
+{ag}ag3/4f/4{gf}ge3/4d/4 | \
+{g}B3/4c/4{g}d3/4B/4{g}G :|

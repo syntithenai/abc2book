@@ -1,0 +1,20 @@
+%%scale 1.33
+X:1
+T:Spanish Fandango - #113
+C:Unknown - but looking
+L:1/4
+M:3/4
+K:D
+V:1 clef=treble
+|:"D"f A D|"A"e A D|"D"F G A|A F D
+|1"A"G C E|EG F|"D"F A, G|F C F:|
+|2"A"c E A,|A G A|"D"d A, D|B A A||
+|"G"B D G,|B c d|"D"A A, D|F A, D
+|"A"G C E|E G F|"D"F A, G|F A, D
+|"F#m"F C E|D C D|"G"G D G,|E D E
+|"A"A E A,|c E A,|"D"A F D|1"D"A,3|2"D"A, D d||
+V:2 clef=treble
+|:f3|e3|d e f|A3|1G3|G B A|F3|F A d:|
+|2c3|c B c|d3|d c =c||
+|B3|B c d|A3|F3|G3|G B A|F2 G|A3
+|F3|F E F|G3|G F G|A3|c3|d A F|1D3|2D A d||

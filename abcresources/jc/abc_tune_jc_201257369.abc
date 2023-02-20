@@ -1,0 +1,61 @@
+
+X: 1
+T: B\`u b\`u g\=ao
+%T: Bu4 bu4 gao1
+T: Stepping high
+%T: 步步高 (难度版)
+O: trad Guangdong
+Z: 2011 John Chambers <jc@trillian.mit.edu>
+S: http://www.gangqinpu.com/fullread.asp?id=4974
+M: 4/4
+L: 1/16
+K: C
+|: z8 | z8 ||\
+E2E2 G4 | Tg2e2 decd | A2c2 G2G2 | z2EG D2E2 |\
+G2EG c2E2 | G4 FGE2 | FGE2 DEGA | C4- C2DE |
+C2DE C2DE | C2C2- C2D2 | EDE2- E2G2 | A2c2 G2F2 |\
+EDE2 z2G2 | d4 z2e2 | dedc Acde | Tc3A G2A2 |
+Tc2Ac G2c2 | c4 z4 | c2AG EGAc | G4 G4 |\
+CDE2 [D2B,2]E2 | CDE2 [D2B,2]E2 | [G2E2]ED C2B,2 | C4- C2z2 |
+z2G,A, C2D2 | E2E2 z2G2 | c2B2 A2G2 | e2e2- e2d2 |\
+c4 z2 | .[d2B2].[dB].[ec] .c4 | .[d2B2].[dB].[ec] .c4 | Tedcd Tedcd |
+Teged c4 | z2Ac G2E2 | z2A2 G2F2 | E2D2 C2D2 |\
+E2A,2 B,2D2 | E2E2 z2AG | E2G2 | z2Ac |
+G2G2 z2Ac | G2G2 z2Td2 | c2c2 z2ed | c2c2 z2Td2 |\
+e2e2- e2d2 | e2d2 e2g2 | d2c2 B2A2 | G2G2 z2AG |
+F2G2- G2F2 | G2z2 .c'z E2 | G2ED CDEG | D2G,2 C4 |\
+[c'3c4]b a2a2 | [g3G4]f e2e2 | [f3F4]e d2d2 | [e3c3]d c2G,A, |
+C2C2 C2DE | G2G2- G2cA | GcAG E2DE | D2 C4 D2 |\
+E3D E2G2 | A2B2 cded | c4 c4 | J[c'8c8] |]
+
+
+%%sep 5 1 500
+
+X: 2
+T: B\`u b\`u g\=ao
+%T: Bu4 bu4 gao1
+T: Stepping high
+%T: 步步高 (难度版)
+O: trad Guangdong
+Z: 2011 John Chambers <jc@trillian.mit.edu>
+S: http://www.gangqinpu.com/fullread.asp?id=4974
+M: 4/4
+L: 1/16
+K: D
+|: z8 | z8 ||\
+F2F2 A4 | Ta2f2 efde | B2d2 A2A2 | z2FA E2F2 |\
+A2FA d2F2 | A4 GAF2 | GAF2 EFAB | D4- D2EF |
+D2EF D2EF | D2D2- D2E2 | FEF2- F2A2 | B2d2 A2G2 |\
+FEF2 z2A2 | e4 z2f2 | efed Bdef | Td3B A2B2 |
+Td2Bd A2d2 | d4 z4 | d2BA FABd | A4 A4 |\
+DEF2 [E2C2]F2 | DEF2 [E2C2]F2 | [A2F2]FE D2C2 | D4- D2z2 |
+z2A,B, D2E2 | F2F2 z2A2 | d2c2 B2A2 | f2f2- f2e2 |\
+d4 z2 | .[e2c2].[ec].[fd] .d4 | .[e2c2].[ec].[fd] .d4 | Tfede Tfede |
+Tfafe d4 | z2Bd A2F2 | z2B2 A2G2 | F2E2 D2E2 |\
+F2B,2 C2E2 | F2F2 z2BA | F2A2 | z2Bd |
+A2A2 z2Bd | A2A2 z2Te2 | d2d2 z2fe | d2d2 z2Te2 |\
+f2f2- f2e2 | f2e2 f2a2 | e2d2 c2B2 | A2A2 z2BA |
+G2A2- A2G2 | A2z2 .d'z F2 | A2FE DEFA | E2A,2 D4 |\
+[d'3d4]c' b2b2 | [a3A4]g f2f2 | [g3G4]f e2e2 | [f3d3]e d2A,B, |
+D2D2 D2EF | A2A2- A2dB | AdBA F2EF | E2 D4 E2 |\
+F3E F2A2 | B2c2 defe | d4 d4 | J[d'8d8] |]

@@ -1,0 +1,33 @@
+X: 30882
+T: COTILLION No. 6. BLACK HAWK SETT tune 2
+%R: reel
+N: This is version 1, for ABC software that doesn't understand tremolo notation.
+N: The tremolo symbol isn't really needed here, because the 4-dot notation says the same thing.
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.88 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+d2BG B2G2 | D2DD "_...."D4 | c2AF A2FF | D2DD "_...."D4 |\
+d2BG B2G2 | D2DD "_...."D4 | d2dd "^...."d4 | [B6G6] H|]
+d2 |\
+.d2(3(gfg) b2g2 | d2(3(gfg) b2g2 | d2(3(a^ga) c'2f2 | g2(3(bab) c'4 |\
+.d2(3(gfg) b2g2 | e2(3(a^ga) c'2f2 | b2(3(c'bc') d'2d2 | g6 "^D.C."y|]
+z2 |\
+_B2BB B2AG | ^F2G2 "_>"A4 | c2cc c2BA | B2c2 d4 |\
+d4 dcBd | c4 cBAc | B4 BAGF | D6 "^D.C."y |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 lead to right,
+%% chassa out and form lines across the hall,
+%% all right and left across the hall,
+%% ladies all chain across the hall,
+%% all forward and back,
+%% swing partners to place.
+%% Side couples the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,884 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 29
+B: RSCDS Book 29
+K:
+%%center Book29/2900-Title.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2901
+T: Land o' Cakes
+P: Lady Kinloch of Gilmerton's Strathspey
+C:Petrie's 4th Coll.
+R:Strathspey (8x32)
+B:RSCDS 29-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+"D"D<D F>A d>c d>e|f>e f>b a>f e>d|\
+"G"B<d "D"A<d "Em"G<d "D"F<d|"Em"E<e e>d "A"c<e"A7"cA
+"D"D<D F>A d>c d>e|f>e f>b a<f e>d|\
+"G"B<d "D"A<d "Em"G<d "D"F<d|"Em"[BG]>e "A"[dA]>c "D"d2 Dz||
+"Bm"f2 fb f<dc>B|"A"e2 ea e<cB>A|\
+"E"^G<e A<e B<e B<e|"Bm"d<f "E7"e>^G "A7"A>=G F>E|
+"D"D<D F>A d>c d>f|"Em"e>d e>f "A"e>c B>A|\
+"G"B<d "D"A<d "Em"G<d "D"F<d|"Em"B<e"A"d>c "D"d2 Dz|]
+%%center Book29/2901-Land_o_Cakes-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2902
+T: Lord Kilmory's Delight
+P: Ferguson's Rant
+C:Aird Vol. 3
+R:Reel (8x32)
+B:RSCDS 29-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:G
+|:dc|"G"B2AG DGBG|"D"FAdA "G"DGAG|B2AG DGBG|"D7"B2A2A2 dc|
+     "G"BGDG "F#o"cAFA|"G"dBgB "C"ec"D"Af|"Em"gfed "D7"cBAd|"G"B2"C"G2 "G"G2:|
+|:ga|"G"bdgd Bdgd|bdBg BdgB|"Am"cedc "G"BGdc|"C"c2 "A/C#"BA "D"A2 "D7"dc|
+     "G"BGDG "F#o"cAFA|"G"dBgB "C"ec"D"Af|"Em"gfed "D7"BdAd|"G"B2"C"G2 "G"G2:|
+%%center Book29/2902-Lord_Kilmorys_Delight-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2903
+T: Well Done Jack
+P: Jack's Alive
+C:Old M.S. circa 1820
+R:Jig (8x32)
+B:RSCDS 29-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+D|"G"G2G GAB|"D"A2A "D7"ABc|"G"dBd "D7"cAc|"G"BGB "D7"AFD|\
+  "G"G2G GAB|"D"A2A ABc|
+                        "G"BGB "D7"AFA|"G"GDB, G,B,D||\
+  "G"G2G GAB|"D"A2A "D7"ABc|"G"dBd "D7"cAc|"G"BGB "D7"AFD|
+  "G"G2G "A7"GAB|"D"A2A "D7"Adc|"G"BGB "D7"AFA|"G"G3 G2||\
+f|"G"g2g gag|"D"f2f fgf|"Am"e2e efg|
+                                    "D"afd "D7"def|\
+  "Em"g2g "A7"gag|"D"f2f "Bm"fgf|"A7"efe efg|"D"a2z "D7"[d2=c2A2]z||\
+  "G"gbg "C#o"gbg|
+                  "D"faf "Bm"faf|"Em"efe "A7"efg|"D"afd "D7"def|\
+  "G"gbd' "G7"Bcd|"C"ecA "Am"ABc|"G"dcB "D7"cBA|"G"G3 G2|]
+%%center Book29/2903-Well_Done_Jack-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2904
+T: Fair Donald
+P: Lady Dick Lauder's Strathspey
+C:J. Taylor Album
+R:Strathspey (8x32)
+B:RSCDS 29-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:Bb
+%
+F|"Bb"B/c/d BF "Eb"G>B "Bb"F>B|F>B d/c/B/c/ "F"dc "F7"cd|\
+  "Gm"B/c/d "Bb"BF "Eb"G>B "Bb"F>B|"Cm"G>B G/F/E/D/ "F7"C2 "Bb"B,F|
+  "Bb"B/c/d BF "Eb"G>B "Bb"F>B|F>B d/c/B/c/ "F"dc "F7"cd|\
+  "Gm"B/c/d "Bb"BF "Eb"G>B "Bb"F>B|"Cm"G>B G/F/E/D/ "F7"C2 "Bb"B,||
+d|"Bb"B>BdB f>Bdf|"Eb"e>g "Bb"d>f "Cm"g/f/e/d/ "F7"c>d|\
+  "Bb"B>BdB f>Bdf|"Eb"e>g "Cm"g/f/e/d/ "F7"c2 "Bb"Bd|
+  "Bb"B>BdB f>Bdf|"Eb"e>g "Bb"df "Cm"g/f/e/d/ "F7"c>d|\
+  "Gm"B/c/d "Bb"BF "Eb"G<B "Cm"e<g|"Bb"f>b "Eb"g/f/e/d/ "F7"c2 "Bb"B|]
+%%center Book29/2904-Fair_Donald-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2905
+T: The Sutherland Reel
+P: Sutherland's Reel
+C:Trad. adapted by Muriel A. Johnstone
+R:Reel (8x40) ABABB
+B:RSCDS 29-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:A
+"A"e2fg a2f2|e2c2 a4|e2fg a2c2|"A"e4 "D"a2gf|
+"A"e2fg a2f2|e2c2 agfe|"G"d2B2 =g2B2|d4 f2ed||
+"A"e2A2 c2A2|eaAB c2cd|efed c2A2|"A"e4 a2gf|
+"A"e2AB c2A2|eaAB c3e|"G"dB=GB dB=gB|"G"d4 f4|]
+%%center Book29/2905-Sutherland_Reel-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2906
+T: The Charmer
+P: Innes's Jig
+C:Aird Vol. 3
+R:Jig (8x32)
+B:RSCDS 29-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+|:D|"G"GAG BAG|d2G "C"e2g|"Am"edc "A"BAG|EAA "D7"A2B|
+    "G"GAG BAG|"G7"d2[G=F] "C"[e2E2]G|"Am"gfe "D7"dec|"G"BGG G2:|
+|:d|"G"gdB GAG|DED GAG|"Am"edc "A"BAG|EAA "D7"A2f|
+    "G"gdB GAG|"Am"ecA "D7"FED|"Em"gfe "D7"ded|"G"BGG G2:|
+%%center Book29/2906-Charmer-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2907
+T: The Crossing
+P: Aberlour House
+C:Alex. Troup
+R:Strathspey (8x32)
+B:RSCDS 29-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:Bb
+%
+D/C/|"Bb"B,>D F>D B>c d>c|"Eb"B/A/G/F/ "Bb"B>D "F"C2 CD/C/|\
+  "Bb"B,>D F>D B>c d>c|"Eb"B/A/G/F/ "F7"d>c "Bb"B2 B D/C/|
+  "Bb"B,>D F>D B>c d>c|"Eb"B/A/G/F/ "Bb"B>D "F"C2 CD/C/|\
+  "Bb"B,>D F>D B>c d>c|"Eb"B/A/G/F/ "F7"d>c "Bb"B2 B||
+f|"Bb"edcB f>B "Eb"b>B "Bb"f>B|d>B f/g/f/d/ "F7"e2 ef|\
+  "Bb"edcB f>B "Eb"b>B "Bb"f>f|"Eb"G/F/E/D/ "F7"c/d/f/d/ "Bb"B2 Bf|
+  "Bb"edcB f>B "Eb"b>B "Bb"f>B|"Bb"d/B/d/f/ "Eb"g/f/e/d/ "F"c2 "F7"cd/e/|\
+  "Bb"B>F d>f "Eb"g/f/g/a/ b>g|"F"f>d "F7"d'>c' "Bb"b2 b|]
+%%center Book29/2907-Crossing-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2908
+T: Braw Sir John
+P: The Village Bells
+C:Six Favourite Scotch Dances by Charles Bayne
+R:Reel (8x32)
+B:RSCDS 29-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:G
+D|"G"GGGG GBdB|cBgf edcB|"Am"cAAa agfg|edcB "D7"cAdB|
+  "G"GGGG GBdB|cBgf edcB|"Am"cBcd efge|"D7"dBcA "G"G2||
+d|"G"dddd dgfg|agfg edcB|"Am"cccc cgfg|"A7"agfe "D7"dcBA|
+  "G"dddd dgfg|agfg edcB|"Am"ca"G"Bg "Am"Afge|"D7"dBcA "G"G2|]
+%%center Book29/2908-Braw_Sir_John-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2909
+T: The Happy Meeting
+P: Greenholm
+C:Trad. (Kerr's Coll.)
+R:Jig (8x32)
+B:RSCDS 29-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+|:d|"G"dBG GBd|"C"efg g2e|"G"dBG "Em"GAB|"D"A3- "D7"A2d|
+    "G"dBG "G7"GBd|"C"efg g2e|"G"dBG "D7"ABA|"G"G3-G2:|
+|:B/c/|"G"d2g gfg|"C"e2g gfg|"G"dBG "Em"GAB|"Am"A3- "D7"A2d|
+    "G"dBG "G7"GBd|"C"efg g2e|"G"dBG "D7"ABA|"G"G3-G2:|
+%%center Book29/2909-Happy_Meeting-AL.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2910
+T: Ross Meor
+P: The Ury Water
+C:J. Scott Skinner
+R:Strathspey (8x32)
+B:RSCDS 29-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:C
+G|"C"e>d c>B "F"A>G A>c|"C"G<E"Am"C>E "G7"D3 G|\
+  "C"e>d c>B "F"A>G A>c|"C"G>c "G7"d>B "C"c3 G|
+  "C"e>d c>B "F"A>G A>c|"C"G<E "F#o"C>E "G7"D3 G|\
+  "C"c>d c>B "F"A>G A>c|"C"G<E "G7"D>E "C"C3||
+G//F//E//D//|"C"C>D E>G "F"A>G A>c|"C"G<E "Am"C>E "G7"D3 G,|\
+  "C"C>D "C7"E>G "F"A>G A>c|"C"G<E "G7"D>E "C"C3 E|
+  "C"C>D E>G "F"A>G A>c|"C"G<E "F#o"C>E "G7"D3 c/d/|\
+  "C"e>g "F"a>c' "C"g>e "F"d>c|"C"A>G "G7"d>e "C"c3|]
+%%center Book29/2910-Ross_Meor-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29051
+T: Sutherland's Reel
+O: Trad
+R: reel
+B: RSCDS 29-5
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+| "A"e2fg "D"a2f2 | "A"e2c2 a4 | e2fg a2c2 | e4 "D"a2gf \
+| "A"e2fg "D"a2f2 | e2c2 agfe | "G"d2B2 =g2B2 | d4 f2ed |
+| "A"e2A2 c2A2 | eaAB c2cd | efed c2A2 | e4 "D"a2gf \
+| "A"e2AB c2A2 | eaAB c3e | "G"dB=GB dB=gB | d4 f4 |]
+%%center Book29/26051-Sutherlands_Reel-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29052
+T: Sutherland's Reel
+O: Trad
+R: reel
+B: RSCDS 29-5
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+|:"A"e2fg "D"a2f2 | "A"e2c2 a4 | e2fg a2c2 | e4 "D"a2gf \
+| "A"e2fg "D"a2f2 | e2c2 agfe | "G"d2B2 =g2B2 | d4 f2ed :|
+|:"A"e2A2 c2A2 | eaAB c2cd | efed c2A2 | e4 "D"a2gf \
+| "A"e2AB c2A2 | eaAB c3e | "G"dB=GB dB=gB | d4 f4 :|
+%%center Book29/26051-Sutherlands_Reel.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29053
+T: Lady Kinloch of Gilmerton's Strathspey
+R: strathspey
+B: RSCDS 29-1
+O: Petrie's 4th Collection
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Goulding: Twenty Scottish Country Dances 1793
+N: "Oh soldiers, for you ain dear sakes
+N: For Scotland's love, the Land o' Cakes" (Robert Fergusson)
+M: C
+L: 1/8
+%--------------------
+K: D
+| "D"D<D F>A d>c d>e | f>e f>b a>f e>d \
+| "G"B<d "D"A<d "Em"G<d "D"F>d | "Em"E>e e>d "A"c<e "A7"cA |
+| "D"D<D F>A d>c d>e | f>e f>b a>f e>d \
+| "G"B<d "D"A<d "Em"G<d "D"F>d | "Em"[BG]>e "A"[dA]>c "D"d2 Dz ||
+|| "Bm"f2 fb f<d c>B | "A"e2 ea e<c B>A \
+| "E"^G<e A<e B<e B<e | "Bm"d<f "E7"e>^G "A7"A>=G F>E |
+| "D"D<D F>A d>c d>f | "Em"e>d e>f "A"e>c B>A \
+| "G"B<d "D"A<d "Em"G<d "D"F>d | "Em"B<e "A"d>c "D"d2 Dz ||
+%%center Book29/29011-Lady_Kinloch_of_Gilmertons_Strathspey-1.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29054
+T: Jack's Alive
+T: Dusty Bob's Jig
+O: Old MS circa 1820
+R: jig
+B: RSCDS 29-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2G GAB | "D"A2A "D7"ABc | "G"dBd "D7"cAc | "G"BGB "D7"AFD \
+| "G"G2G GAB | "D"A2A ABc | "G"BGB "D7"AFA | "G"GDB, G,B, ||
+D \
+| "G"G2G GAB | "D"A2A "D7"ABc | "G"dBd "D7"cAc | "G"BGB "D7"AFD \
+| "G"G2G GAB | "D"A2A ABc | "G"BGB "D7"AFA | "G"G3 G2 |]
+f \
+| "G"g2g gag | "D"f2f fgf | "C"e2e efg | "D7"afd def \
+| "Em"g2g gag  | "D"f2f fgf | "A7"efe efg | "D"a2z "D7"d2 ||
+z \
+| "G"gbg gbg | "D"faf faf | "Em"efe "A7"efg | "D7"afd def \
+| "G"gbd' Bcd | "Am"ecA ABc | "D7"dcB cBA | "G"G3 G2 |]
+%%center Book29/29031-Jacks_Alive_Dusty_Bobs_Jig.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29055
+T: Fair Donald
+T: 8x32S 3C
+P: Lady Dick Lauder's Strathspey
+R: strathspey
+C: RSCDS 29-4
+C: 1997 by John Chambers, mods by T. Traub 11-3-02
+D: J. Taylor Album
+M: C
+L: 1/8
+%--------------------
+K: Bb
+|: F \
+| "Bb"B/c/d BF "Eb"G>B "Bb"F>B | F>B d/c/B/c/ "F7"dc cd \
+| "Gm"B/c/d BF "Eb"G>B "Bb"F>B | "Cm"G>B G/F/E/D/  "F7"C2 "Bb"B, :|
+d \
+| "Bb"~B2 dB f>B df | "Eb"e>g "Bb"d>f "Cm"g/f/e/d/ "F7"c>d \
+| "Bb"~B2 dB f>B df | "Eb"e>g "Cm"g/f/e/d/ "F7"c2 "Bb"B ||
+d \
+| "Bb"~B2 dB f>B df | "Eb"e>g "Bb"df "Cm"g/f/e/d/ "F7"c>d \
+| "Gm"B/c/d BF "Eb"G<B e<g | "Bb"f>b "Eb"g/f/e/d/ "F7"c2 "Bb"B |]
+%%center Book29/29041-Fair_Donald.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29056
+T: Lady Dick Lauder's Strathspey
+R: strathspey
+B: RSCDS 29-4
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+D: J. Taylor Album
+M: C
+L: 1/8
+%--------------------
+K: Bb
+F \
+| "Bb"B/c/d BF "Eb"G>B "Bb"F>B | F>B d/c/B/c/ "F7"dc cd \
+| "Gm"B/c/d BF "Eb"G>B "Bb"F>B | "Cm"G>B G/F/E/D/  "F7"C2 "Bb"B, :|
+d \
+| "Bb"~B2 dB f>B df | "Eb"e>g "Bb"d>f "Cm"g/f/e/d/ "F7"c>d \
+| "Bb"~B2 dB f>B df | "Eb"e>g "Cm"g/f/e/d/ "F7"c2 "Bb"B ||
+d \
+| "Bb"~B2 dB f>B df | "Eb"e>g "Bb"df "Cm"g/f/e/d/ "F7"c>d \
+| "Gm"B/c/d BF "Eb"G<B "Cm"e<g | "Bb"f>b "Eb"g/f/e/d/ "F7"c2 "Bb"B |]
+%%center Book29/29041-Lady_Dick_Lauders_Strathspey-1.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29057
+T: Lady Dick Lauder's Strathspey
+R: strathspey
+B: RSCDS 29-4
+Z: 2006 by John Chambers <jc:trillian.mit.edu>
+S: printed MS from Barbara McOwen dated Feg 1987
+D: J. Taylor Album
+M: C
+L: 1/16
+%--------------------
+K: A
+E \
+| "A"ABc2 A3E "D"FA3 "A"EA3 | "A"E3F A3B "E7"cB3 B3c \
+| "A"ABc2 A3E "D"FA3 "A"EA3 | "Bm"F3E D3C  "E7"B,4 "A"A,3 :|
+c \
+| "A"AAA2 c3A e3A ce3 | "D"d3f "A"c3e "Bm"fedc "E7"B3c \
+| "A"AAA2 c3A e3A ce3 | "D"d3f "Bm"fedc "E7"B4 "A"A3 ||
+c \
+| "A"AAA2 c3A "F#m"e3A ce3 | "D"d3f "A"ce "Bm"fedc "E7"B3c \
+| "A"ABc2 A3E "D"FA3 "Bm"df3 | "A"e3a "D"fedc "E7"B4 "A"A3 |]
+%%center Book29/29041-Lady_Dick_Lauders_Strathspey-3.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29058
+N: Fair Donald
+N: 8x32S 3C
+T: Lady Dick Lauder's Strathspey
+R: strathspey
+C: RSCDS 29-4
+C: 1997 by John Chambers, mods by T. Traub 11-3-02
+D: J. Taylor Album
+M: C
+L: 1/8
+%--------------------
+K: Bb
+|: F \
+| "Bb"B/c/d BF "Eb"G>B "Bb"F>B | F>B d/c/B/c/ "F7"dc cd \
+| "Gm"B/c/d BF "Eb"G>B "Bb"F>B | "Cm"G>B G/F/E/D/  "F7"C2 "Bb"B, :|
+d \
+| "Bb"~B2 dB f>B df | "Eb"e>g "Bb"d>f "Cm"g/f/e/d/ "F7"c>d \
+| "Bb"~B2 dB f>B df | "Eb"e>g "Cm"g/f/e/d/ "F7"c2 "Bb"B ||
+d \
+| "Bb"~B2 dB f>B df | "Eb"e>g "Bb"df "Cm"g/f/e/d/ "F7"c>d \
+| "Gm"B/c/d BF "Eb"G<B e<g | "Bb"f>b "Eb"g/f/e/d/ "F7"c2 "Bb"B |]
+%%center Book29/29041-Lady_Dick_Lauders_Strathspey.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29059
+T: Mr. Grant of Pilnacree's Strathspey
+C: Malcolm McDonald
+B: RSCDS 29-4
+Z: John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 4/4
+%--------------------
+K: D
+|: f | "D"d>A F<D A<D F<D | "G"G>A "E7"B/A/G/F/ "Am"E<e e>f \
+     | "D"d>A F<D A<D F<D | "G"G>B "A7"A/B/c/A/ "D"dD D :|
+|| f | "D"~d2 f>d "A7"g>e "D"f<d | "Em"B<e "E7"e>d "A"c<A A>f \
+     | "D"~d2 f>d "A7"g>e "D"f<d | "A7"ea a>g "D"f<d df |
+    || "D"~d2 f>d "A7"g>e "D"f<d | "Em"B<e "E7"e>d "A"c<A A>f \
+     | "D"d>A "F#m"F<A "G"G<B "D"F<A | "Em"E>g "A7"f/g/a/g/ "D"fd d |]
+%%center Book29/29041-Mr_Grant_of_Pilnacrees_Strathspey-1.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29071
+T: Aberlour House
+C:Alex Troup
+B:RSCDS 29-7
+R:strathspey
+Z:2009 John Chambers <jc:trillian.mit.edu>
+M:C
+L:1/16
+K:Bb
+DC \
+| "Bb"B,3D F3D B3c d3c | "Eb"BAGF "Bb"B3D  "F"C4 C2DC \
+| "Bb"B,3D F3D "Gm"B3c d3c | "Eb"BAGF "F7"d3c "Bb"B4 B2 :|
+f2 \
+| "Bb"edcB f3B "Eb"b3B "Bb"f3B | "Bb"d3B fgfd "F7"c4 c2f2 \
+| "Bb"edcB f3B b3B "Bb"f3B | "Eb"GFED "F7"cdfd "Bb"B4 B2 |]
+f2 \
+| "Bb"edcB f3B "Eb"b3B "Bb"f3B | "Bb"dBdf "Eb"gfed "F"c4 "F7"c2dc \
+| "Bb"B3F d3f "Eb"gfga b3g | "F"f3d "F7"[d'3d3][c'c] "Bb"[b4B4] [b2B2] |]
+%%center Book29/29071-AberlourHouse_Bb-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29081
+T: The Village Bells
+R:reel
+B:RSCDS 29-8
+O:Six Faavourite Dances by Charles Boyne
+N:Suggested tune for Braw Sir John
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:4/4
+L:1/8
+K:G
+D \
+| "G"GGGG GBdB | cBgf edcB | "Am"cAAa agfg | edcB "D7"cAdB |
+| "G"GGGG GBdB | cBgf edcB | "Am"cBcd efge | "D7"dBcA "G"G3 ||
+|: d \
+| "G"dddd dgfg | agfg edcB | "Am"cccc cgfg | "A7"agfe "D7"dcBA |
+| "G"dddd dgfg | agfg edcB | "Am"ca"G"Bg "Am"Afge | "D7"dBcA "G"G3 |]
+%%center Book29/29081-Village_Bells-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29082
+T: Greenholm
+B: Kerr's Violin IV
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: G
+ e |: "G"d>BG GBd | "C"efg g2e | "G"d>BG "Em"GAB | "Am"A3 "D7"A2d | \
+   |  "G"d>BG GBd | "C"efg g2e | "G"d>BG "D7"ABA | "G"G6 :|
+Bc |: "G"d2g  gfg | "C"e2g gfg | "G"d>BG "Em"GAB | "Am"A3 "D7"A2d | \
+   |  "G"d>BG GBd | "C"efg g2e | "G"d>BG "D7"ABA | "G"G6 :|
+%%center Book29/29091-Greenholm-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29083
+T: Happy Meeting
+T: 8 x 32J 3C (RSCDS Bk. 29)
+P: Greenholm
+R: jig
+C: Kerr's, arr. T. Traub 7-8-99
+M: 6/8
+%--------------------
+K: G
+L: 1/8
+|: d|"G"dBG GBd|"C"efg g2 e|"G"dBG GAB|"D"A3-A2 d|"G"dBG GBd|"C"efg g2 e|"G"dBG "D"ABA |"G"G3-G2 :|
+B/c/|"G"d2 g gfg|"C"e2 g gfg|"G"dBG GAB|"D"A3-A2 d|"G"d2 g gfg|"C"e2 g gfe|"G"dBG "D"ABA|"G"G3-G2 d||
+"G"d2 g gfg|"C"e2 g gfg|"G"dBG "Em"GAB|"A7"A3-"D"A2 d|"G"dBG GBd|"C"efg g2 e|"G"dBG "D"ABA|"G"G3-G2 |]
+%%center Book29/29091-Greenholm-TT.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29084
+N:Happy Meeting
+N:8 x 32J 3C (RSCDS Bk. 29)
+T: Greenholm
+R:jig
+B:Kerr's Merrie Melodies v.4 #257 p.28
+Z:arr. T. Traub 7-8-99
+M:6/8
+%
+K:G
+L:1/8
+d |\
+"G"dBG GBd | "C"efg g2 e | "G"dBG GAB | "D"A3-A2 d |\
+"G"dBG GBd | "C"efg g2 e | "G"dBG "D"ABA | "G"G3-G2 :|
+B/c/ |\
+"G"d2 g gfg | "C"e2 g gfg | "G"dBG GAB | "D"A3-A2 d |\
+"G"d2 g gfg | "C"e2 g gfe | "G"dBG "D"ABA | "G"G3-G2 |]
+d |\
+"G"d2 g gfg | "C"e2 g gfg | "G"dBG "Em"GAB | "A7"A3-"D"A2 d |\
+"G"dBG GBd | "C"efg g2 e | "G"dBG "D"ABA | "G"G3-G2 |]
+%%center Book29/29091-Greenholm.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29085
+T: Aberlour House
+C: Alex Troup
+B: RSCDS 29-7
+R: strathspey
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Bb
+DC \
+| "Bb"B,3D F3D B3c d3c | "Eb"BAGF "Bb"B3D  "F"C4 C2DC \
+| "Bb"B,3D F3D "Gm"B3c d3c | "Eb"BAGF "F7"d3c "Bb"B4 B2 :|
+f2 \
+| "Bb"edcB f3B "Eb"b3B "Bb"f3B | "Bb"d3B fgfd "F7"c4 c2f2 \
+| "Bb"edcB f3B b3B "Bb"f3B | "Eb"GFED "F7"cdfd "Bb"B4 B2 |]
+f2 \
+| "Bb"edcB f3B "Eb"b3B "Bb"f3B | "Bb"dBdf "Eb"gfed "F"c4 "F7"c2dc \
+| "Bb"B3F d3f "Eb"gfga b3g | "F"f3d "F7"[d'3d3][c'c] "Bb"[b4B4] [b2B2] |]
+%%center Book29/AberlourHouse_Bb-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29086
+T: Aberlour House
+C: Alex Troup
+B: RSCDS 29-7
+R: strathspey
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Bb
+DC \
+| "Bb"B,3D F3D B3c d3c | "Eb"BAGF "Bb"B3D  "F"C4 C2DC \
+| "Bb"B,3D F3D "Gm"B3c d3c | "Eb"BAGF "F7"d3c "Bb"B4 B2 :|
+f2 \
+| "Bb"edcB f3B "Eb"b3B "Bb"f3B | "Bb"d3B fgfd "F7"c4 c2f2 \
+| "Bb"edcB f3B b3B "Bb"f3B | "Eb"GFED "F7"cdfd "Bb"B4 B2 |]
+f2 \
+| "Bb"edcB f3B "Eb"b3B "Bb"f3B | "Bb"dBdf "Eb"gfed "F"c4 "F7"c2dc \
+| "Bb"B3F d3f "Eb"gfga b3g | "F"f3d "F7"[d'3d3][c'c] "Bb"[b4B4] [b2B2] |]
+%%center Book29/AberlourHouse_Bb_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29087
+T: Greenholm
+B: Kerr's Violin IV
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: G
+ e |: "G"d>BG GBd | "C"efg g2e | "G"d>BG "Em"GAB | "Am"A3 "D7"A2d | \
+   |  "G"d>BG GBd | "C"efg g2e | "G"d>BG "D7"ABA | "G"G6 :|
+Bc |: "G"d2g  gfg | "C"e2g gfg | "G"d>BG "Em"GAB | "Am"A3 "D7"A2d | \
+   |  "G"d>BG GBd | "C"efg g2e | "G"d>BG "D7"ABA | "G"G6 :|
+%%center Book29/Greenholm-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29088
+T: Happy Meeting
+T: 8 x 32J 3C (RSCDS Bk. 29)
+P: Greenholm
+R: jig
+C: Kerr's, arr. T. Traub 7-8-99
+M: 6/8
+%--------------------
+K: G
+L: 1/8
+|: d|"G"dBG GBd|"C"efg g2 e|"G"dBG GAB|"D"A3-A2 d|"G"dBG GBd|"C"efg g2 e|"G"dBG "D"ABA |"G"G3-G2 :|
+B/c/|"G"d2 g gfg|"C"e2 g gfg|"G"dBG GAB|"D"A3-A2 d|"G"d2 g gfg|"C"e2 g gfe|"G"dBG "D"ABA|"G"G3-G2 d||
+"G"d2 g gfg|"C"e2 g gfg|"G"dBG "Em"GAB|"A7"A3-"D"A2 d|"G"dBG GBd|"C"efg g2 e|"G"dBG "D"ABA|"G"G3-G2 |]
+%%center Book29/Greenholm-TT.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29089
+N:Happy Meeting
+N:8 x 32J 3C (RSCDS Bk. 29)
+T: Greenholm
+R:jig
+B:Kerr's Merrie Melodies v.4 #257 p.28
+Z:arr. T. Traub 7-8-99
+M:6/8
+%--------------------
+K:G
+L:1/8
+d |\
+"G"dBG GBd | "C"efg g2 e | "G"dBG GAB | "D"A3-A2 d |\
+"G"dBG GBd | "C"efg g2 e | "G"dBG "D"ABA | "G"G3-G2 :|
+B/c/ |\
+"G"d2 g gfg | "C"e2 g gfg | "G"dBG GAB | "D"A3-A2 d |\
+"G"d2 g gfg | "C"e2 g gfe | "G"dBG "D"ABA | "G"G3-G2 |]
+d |\
+"G"d2 g gfg | "C"e2 g gfg | "G"dBG "Em"GAB | "A7"A3-"D"A2 d |\
+"G"dBG GBd | "C"efg g2 e | "G"dBG "D"ABA | "G"G3-G2 |]
+%%center Book29/Greenholm.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29090
+T: Lady Dick Lauder's Strathspey
+R: strathspey
+B: RSCDS 29-4
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+D: J. Taylor Album
+M: C
+L: 1/8
+K: Bb
+F \
+| "Bb"B/c/d BF "Eb"G>B "Bb"F>B | F>B d/c/B/c/ "F7"dc cd \
+| "Gm"B/c/d BF "Eb"G>B "Bb"F>B | "Cm"G>B G/F/E/D/  "F7"C2 "Bb"B, :|
+d \
+| "Bb"~B2 dB f>B df | "Eb"e>g "Bb"d>f "Cm"g/f/e/d/ "F7"c>d \
+| "Bb"~B2 dB f>B df | "Eb"e>g "Cm"g/f/e/d/ "F7"c2 "Bb"B ||
+d \
+| "Bb"~B2 dB f>B df | "Eb"e>g "Bb"df "Cm"g/f/e/d/ "F7"c>d \
+| "Gm"B/c/d BF "Eb"G<B "(Cm)"e<g | "Bb"f>b "Eb"g/f/e/d/ "F7"c2 "Bb"B |]
+%%center Book29/LadyDickLaudersS-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29091
+T: Lady Dick Lauder's Strathspey
+R: strathspey
+B: RSCDS 29-4
+Z: 2006 by John Chambers <jc:trillian.mit.edu>
+S: printed MS from Barbara McOwen dated Feg 1987
+D: J. Taylor Album
+M: C
+L: 1/16
+K: A
+E \
+| "A"ABc2 A3E "D"FA3 "A"EA3 | "A"E3F A3B "E7"cB3 B3c \
+| "A"ABc2 A3E "D"FA3 "A"EA3 | "Bm"F3E D3C  "E7"B,4 "A"A,3 :|
+c \
+| "A"AAA2 c3A e3A ce3 | "D"d3f "A"c3e "Bm"fedc "E7"B3c \
+| "A"AAA2 c3A e3A ce3 | "D"d3f "Bm"fedc "E7"B4 "A"A3 ||
+c \
+| "A"AAA2 c3A "F#m"e3A ce3 | "D"d3f "A"ce "Bm"fedc "E7"B3c \
+| "A"ABc2 A3E "D"FA3 "Bm"df3 | "A"e3a "D"fedc "E7"B4 "A"A3 |]
+%%center Book29/LadyDickLaudersS_A-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29092
+T: Lady Dick Lauder's Strathspey
+R: strathspey
+B: RSCDS 29-4
+Z: 2006 by John Chambers <jc:trillian.mit.edu>
+S: printed MS from Barbara McOwen dated Feg 1987
+D: J. Taylor Album
+M: C
+L: 1/16
+K: A
+E \
+| "A"ABc2 A3E "D"FA3 "A"EA3 | "A"E3F A3B "E7"cB3 B3c \
+| "A"ABc2 A3E "D"FA3 "A"EA3 | "Bm"F3E D3C  "E7"B,4 "A"A,3 :|
+c \
+| "A"AAA2 c3A e3A ce3 | "D"d3f "A"c3e "Bm"fedc "E7"B3c \
+| "A"AAA2 c3A e3A ce3 | "D"d3f "Bm"fedc "E7"B4 "A"A3 ||
+c \
+| "A"AAA2 c3A "F#m"e3A ce3 | "D"d3f "A"ce "Bm"fedc "E7"B3c \
+| "A"ABc2 A3E "D"FA3 "Bm"df3 | "A"e3a "D"fedc "E7"B4 "A"A3 |]
+%%center Book29/LadyDickLaudersS_A_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29093
+T: Lady Dick Lauder's Strathspey
+R: strathspey
+B: RSCDS 29-4
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+D: J. Taylor Album
+M: C
+L: 1/8
+K: Bb
+F \
+| "Bb"B/c/d BF "Eb"G>B "Bb"F>B | F>B d/c/B/c/ "F7"dc cd \
+| "Gm"B/c/d BF "Eb"G>B "Bb"F>B | "Cm"G>B G/F/E/D/  "F7"C2 "Bb"B, :|
+d \
+| "Bb"~B2 dB f>B df | "Eb"e>g "Bb"d>f "Cm"g/f/e/d/ "F7"c>d \
+| "Bb"~B2 dB f>B df | "Eb"e>g "Cm"g/f/e/d/ "F7"c2 "Bb"B ||
+d \
+| "Bb"~B2 dB f>B df | "Eb"e>g "Bb"df "Cm"g/f/e/d/ "F7"c>d \
+| "Gm"B/c/d BF "Eb"G<B "(Cm)"e<g | "Bb"f>b "Eb"g/f/e/d/ "F7"c2 "Bb"B |]
+%%center Book29/LadyDickLaudersS_Bb-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29094
+T: Lady Dick Lauder's Strathspey
+R: strathspey
+B: RSCDS 29-4
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+D: J. Taylor Album
+M: C
+L: 1/8
+K: Bb
+F \
+| "Bb"B/c/d BF "Eb"G>B "Bb"F>B | F>B d/c/B/c/ "F7"dc cd \
+| "Gm"B/c/d BF "Eb"G>B "Bb"F>B | "Cm"G>B G/F/E/D/  "F7"C2 "Bb"B, :|
+d \
+| "Bb"~B2 dB f>B df | "Eb"e>g "Bb"d>f "Cm"g/f/e/d/ "F7"c>d \
+| "Bb"~B2 dB f>B df | "Eb"e>g "Cm"g/f/e/d/ "F7"c2 "Bb"B ||
+d \
+| "Bb"~B2 dB f>B df | "Eb"e>g "Bb"df "Cm"g/f/e/d/ "F7"c>d \
+| "Gm"B/c/d BF "Eb"G<B "(Cm)"e<g | "Bb"f>b "Eb"g/f/e/d/ "F7"c2 "Bb"B |]
+%%center Book29/LadyDickLaudersS_Bb_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29095
+T: Lady Dick Lauder's Strathspey
+R: strathspey
+B: RSCDS 29-4
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+D: J. Taylor Album
+M: C
+L: 1/8
+K: Bb
+F \
+| "Bb"B/c/d BF "Eb"G>B "Bb"F>B | F>B d/c/B/c/ "F7"dc cd \
+| "Gm"B/c/d BF "Eb"G>B "Bb"F>B | "Cm"G>B G/F/E/D/  "F7"C2 "Bb"B, :|
+d \
+| "Bb"~B2 dB f>B df | "Eb"e>g "Bb"d>f "Cm"g/f/e/d/ "F7"c>d \
+| "Bb"~B2 dB f>B df | "Eb"e>g "Cm"g/f/e/d/ "F7"c2 "Bb"B ||
+d \
+| "Bb"~B2 dB f>B df | "Eb"e>g "Bb"df "Cm"g/f/e/d/ "F7"c>d \
+| "Gm"B/c/d BF "Eb"G<B "(Cm)"e<g | "Bb"f>b "Eb"g/f/e/d/ "F7"c2 "Bb"B |]
+%%center Book29/LadyDickLaudersS_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29096
+T: Lady Kinloch of Gilmerton's Strathspey
+R: strathspey
+B: RSCDS 29-1
+O: Petrie's 4th Collection
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Goulding: Twenty Scottish Country Dances 1793
+N: "Oh soldiers, for you ain dear sakes
+N: For Scotland's love, the Land o' Cakes" (Robert Fergusson)
+M: C
+L: 1/8
+K: D
+%
+"D"D<D F>A d>c d>e | f>e f>b a>f e>d |\
+"G"B<d "D"A<d "Em"G<d "D"F>d | "Em"E>e e>d "A"c<e "A7"cA ||
+%
+"D"D<D F>A d>c d>e | f>e f>b a>f e>d |\
+"G"B<d "D"A<d "Em"G<d "D"F>d | "Em"[BG]>e "A"[dA]>c "D"d2 Dz |]
+%
+"Bm"f2 fb f<d c>B | "A"e2 ea e<c B>A |\
+"E"^G<e A<e B<e B<e | "Bm"d<f "E7"e>^G "A7"A>=G F>E ||
+%
+"D"D<D F>A d>c d>f | "Em"e>d e>f "A"e>c B>A |\
+"G"B<d "D"A<d "Em"G<d "D"F>d | "Em"B<e "A"d>c "D"d2 Dz |]
+%%center Book29/LadyKinlochOfGilmertonsS-JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29097
+T: Lady Kinloch of Gilmerton's Strathspey
+R: strathspey
+B: RSCDS 29-1
+O: Petrie's 4th Collection
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Goulding: Twenty Scottish Country Dances 1793
+N: "Oh soldiers, for you ain dear sakes
+N: For Scotland's love, the Land o' Cakes" (Robert Fergusson)
+M: C
+L: 1/8
+K: D
+%
+"D"D<D F>A d>c d>e | f>e f>b a>f e>d |\
+"G"B<d "D"A<d "Em"G<d "D"F>d | "Em"E>e e>d "A"c<e "A7"cA ||
+%
+"D"D<D F>A d>c d>e | f>e f>b a>f e>d |\
+"G"B<d "D"A<d "Em"G<d "D"F>d | "Em"[BG]>e "A"[dA]>c "D"d2 Dz |]
+%
+"Bm"f2 fb f<d c>B | "A"e2 ea e<c B>A |\
+"E"^G<e A<e B<e B<e | "Bm"d<f "E7"e>^G "A7"A>=G F>E ||
+%
+"D"D<D F>A d>c d>f | "Em"e>d e>f "A"e>c B>A |\
+"G"B<d "D"A<d "Em"G<d "D"F>d | "Em"B<e "A"d>c "D"d2 Dz |]
+%%center Book29/LadyKinlochOfGilmertonsS_JC.abc
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29098
+T: Mr. Grant of Pilnacree's Strathspey
+C: Malcolm McDonald
+B: RSCDS 29-4
+Z: John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 4/4
+K: D
+|: f | "D"d>A F<D A<D F<D | "G"G>A "E7"B/A/G/F/ "Am"E<e e>f \
+     | "D"d>A F<D A<D F<D | "G"G>B "A7"A/B/c/A/ "D"dD D :|
+|| f | "D"~d2 f>d "A7"g>e "D"f<d | "Em"B<e "E7"e>d "A"c<A A>f \
+     | "D"~d2 f>d "A7"g>e "D"f<d | "A7"ea a>g "D"f<d df |
+    || "D"~d2 f>d "A7"g>e "D"f<d | "Em"B<e "E7"e>d "A"c<A A>f \
+     | "D"d>A "F#m"F<A "G"G<B "D"F<A | "Em"E>g "A7"f/g/a/g/ "D"fd d |]
+
+%%center Book29/MrGrantOfPilnacreesS-JC.abc
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29099
+T: Mr. Grant of Pilnacree's Strathspey
+C: Malcolm McDonald
+B: RSCDS 29-4
+Z: John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 4/4
+K: D
+|: f | "D"d>A F<D A<D F<D | "G"G>A "E7"B/A/G/F/ "Am"E<e e>f \
+     | "D"d>A F<D A<D F<D | "G"G>B "A7"A/B/c/A/ "D"dD D :|
+|| f | "D"~d2 f>d "A7"g>e "D"f<d | "Em"B<e "E7"e>d "A"c<A A>f \
+     | "D"~d2 f>d "A7"g>e "D"f<d | "A7"ea a>g "D"f<d df |
+    || "D"~d2 f>d "A7"g>e "D"f<d | "Em"B<e "E7"e>d "A"c<A A>f \
+     | "D"d>A "F#m"F<A "G"G<B "D"F<A | "Em"E>g "A7"f/g/a/g/ "D"fd d |]
+
+%%center Book29/MrGrantOfPilnacreesS_JC.abc

@@ -1,0 +1,58 @@
+%!abctab2ps -s 0.75
+X:1
+%
+%%pageheight     26.70cm
+%%botmargin      0.50cm
+%%topspace       -1.40cm
+%%titlespace     0.40cm
+%%musicspace     0.25cm
+%%partsspace     -0.30cm
+%%textspace      0.0cm
+%%vocalspace     23.0pt
+%%sysstaffsep    45.0pt
+%%maxshrink      0.55
+%%strictness1    0.80
+%%titlefont      Helvetica-Bold 16.0
+%%subtitlefont   Helvetica 14.0
+%%composerfont   Helvetica 12.0
+%%partsfont      Times-Roman 12.0 box
+%%textfont       Times-Roman 10.0
+%%gchordfont     Palatino-Roman 13.0
+%%wordsfont      Times-Roman 10.0
+%%barnumberfont  Times-Roman 11.0 box
+%%barlabelfont   Times-Bold 18.0 box
+%%parskipfac     0.1
+%%titleleft      yes
+%%tabrhstyle     none
+%
+T:Glory in the Meetinghouse
+T:From  Luther Strong
+C:Key of E; banjo tuning g#EG#BE (open D capoed up 2 frets)
+D:Library of Congress AAFS L2
+L:1/4
+%M:4/4
+%K:E banjo5tab
+K:banjo5tab
+%
+P:A
+"I",,b-"Sl",,d "I"[aa] "T",,,,a "I"a "T",d "I",a "T",,b | "I",a-"P"a " I\nX"[aa] "T",,,,a "I"La2 "I"[aa1] "T",,,,a | \
+"I",,b-"Sl",,d "I"[aa] "T",,,,a "I"a "T",d "I",a "T",,a | "I",,b-"P",a "I",,b-"P",,a "I"L,,,a2 " I\nCk"[aa1] "T",,,,a |
+|"I",,b-"Sl",,d "I"[aa] "T",,,,a "I"a "T",d "I",a "T",,b|"I",a-"P"a " I\nX"[aa] "T",,,,a "I"La2 "I"d1-"Sl"[e,,,a] |\
+"I"e-"P"a "I",a "T",,,,a "I"[a] "T",d "I",a "T",,a | "I",,b-"P",a "I",,b-"P",,a "I"L,,,a2 "I"[aaa1] "T",,,,a:|
+P:B
+|:"I",,,a-"H",,,c "I",,a-"H",,b "I"L,a2 "I"[aa1] "T",,,,a | "I",,b-"P",a "I",,b-"P",,a "I",,a "T",,,a " I\nX"[aa] "T\nX",,,,a|\
+"I",,,a-"H",,,c "I",,a "T",,,,a "I",,b-"P",a "I",,b-"P",,a| "I",,a "T",,,a " I\nX"[aa] "T",,,,a "I"L,,,a2 "I"[aa1] "T",,,,a|
+|"I",,,a-"H",,,c "I"[aa] "T",,,,a "I",,b-"P",a "I"[,ab] "T",,,,a |"I",,b-"P",a "I",,b-"P",,a "I",,a "T",,,a " I\nX"[aaa] "T",,,,a|\
+"I"a "T",d "I",a "T",,a "I",,b-"P",a "I",,b-"P",,a| "I",,a "T",,,a " I\nX"[,aa] "T",,,,a "I"L,,,a2 "I"[aa1] "T",,,,a:|
+P:Alternate (high) B part:
+|:"I"a-"H"e "I"e "T",,,,a "I"Lh2 "I"h1 "T",,,,a | "I"f-"H"h "I"f "T",,,,a "I"e "T",f "I",f "T",,,,a|\
+"I"a "T",,,,a "I"e "T",,,,a "I"f-"H"h "I"h "T",,,,a | "I"e "T",f " I\nX",a "T",,,,a "I"L,f2 "I"[ef1] "T",,,,a|
+|"I"a-"H"e "I"e "T",,,,a "I"Lh2 "I"h1 "T",,,,a | "I"f-"H"h "I"f "T",,,,a "I"e "T",f "I",f "T",,,,a|\
+"I"e-"P"a "I",a "T",,,,a " I\nX"[aa] "T",d "I",a "T",,a |"I",,b-"P",a "I",,b-"P",,a "I"L,,,a2 "I"[aa1] "T",,,,a:|
+
+%%sep 0.05cm 0.2cm 4cm
+%%begintext
+%%From: Library of Congress AAFS L2; also, by the Hurricane Ridgerunners on "Young Fogies", Rounder CD 0369
+%%Five-string banjo tab by John Wright, 06/2000
+%%endtext
+

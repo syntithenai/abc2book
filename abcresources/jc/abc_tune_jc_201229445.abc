@@ -1,0 +1,21 @@
+X: 12342
+T: Blow Bonnetts
+%R: air, reel
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.34 #2
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Added dot to last note of both strains, to fix the rhythm, but there's still a missing 8th note at the beginning.
+M: C
+L: 1/16
+K: D
+%%slurgraces 1
+%%graceslurs 1
+|: "_Slow"\
+(def2) (e3d) {d}e4 A4 | (d2c2)(B2A2) (B2A2)(G2F2) |\
+G6A2 (GAB2) A2G2 | F2A2d2F2 TE4 D4 |\
+(def2) (Te3d) {d}e4 A4 | (B3c/d/) (c3d/e/) (d3e/f/) A4 |
+(B3d)(c3e) d2f2 e2(fg) | f4 Te3d d6 :: A2 |\
+d2f2e2d2 {fg}a6c2 | (d2c2)(B2A2) {cd}e6dc |\
+B2A2B2c2 {Bc}d4 Tc2B2 |
+A2d2F2d2 TE4 D4 |\
+(d2c2B2)A2 B2G2(F2G2) | (g2f2)(e2d2) Tc2B2 A4 |\
+(B/c/d3) (c/d/e3) (d/e/f3) (e/f/g3) | Tf4 (Te3d) d6 :|

@@ -1,0 +1,26 @@
+X: 3191
+T: Lady Charlotte Campbell's    Strathspey
+C: by Nath: Gow.
+%R: strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.19 #1
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+c !segno!|\
+{Bc}d>cBG AcTB>c | {Bc}d>cBG EAFD |\
+{Bc}d>cBG Ac Bc/d/ | ecAF TG2G :|\
+d | g/f/g/a/ gd Bgdg | {a}gf/e/ Tf>g accf |
+(g/f/g/a/ g)d BgdB | e>cAF {F}G2G,d ||\
+g/f/g/a/ gd Bgdg | {a}gf/e/ Tf>g aAAf |\
+gdbf gdec | BdDF ["or" (G/F/G/A/ B/A/B/c/) ["or" (GA Bc) !segno!|]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z !segno!|
+g2g2 f2g2 | g2g2 c2e2 | g2g2 f2g2 | c2d2 g2G :| z | g2b2 g2g2 | g2g2
+d2d2 | g2b2 g2G2 | c2d2 G2G2 || g2b2 g2g2 | g2g2 d2d2 | g2g2 b2c'2 | d'2d2 g2G2 !segno!|]
+%%text No ABC software seems to handle the "or" alternate notation used in Gow's last bar.

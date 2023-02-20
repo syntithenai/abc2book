@@ -1,0 +1,2090 @@
+
+X: 0
+T: HILL COUNTRY TUNES
+T: Instrumental Folk Music of Southwestern Pennsylvania
+S: Collected and Edited by: Samuel Preston Bayard (Philadelphia 1944)
+N: American Folklore Society
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K:
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 1
+T: 1A. BUFFALO GALS
+T: Hagantown Gals
+B: Sam Bayard, "Hill Country Tunes" 1944 #1A
+S: Played by Irvin Yaugher Jr., Mt. Independence, Fayette County, PA, Oct 19 1943.
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+EF |\
+ G2A2 B2^/c2 | eddB G2B^/c | d2^/cB A2Ac | e2d2- d2EF |
+ G2A2 B2^/c2 | eddB G2B^/c | d2^/cB A2F2 | A2G2- G2 || z2 |
+Jg2fg e2d2 | eddB G2z2 | {B}d2^/cB A2Ac | e2d2- d2ef |
+ g2fg e2d2 | e2dB G2B^/c | d2^/cB A2F2 | A2G2- G2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2
+T: 1B. BUFFALO GALS
+T: Johnstown Gals
+B: Sam Bayard, "Hill Country Tunes" 1944 #1B
+S: Played by Mrs Sarah Armstrong, (near) Derry, Westmoreland County, PA, Nov 18 1943.
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D2 |\
+G3A  B2G2 | BcdB G2Bc | d2cB A2F2 | AGFE D2EF |
+G3A  B2G2 | BcdB G2Bc | d2cB A2F2 | G4   G2 || (3def |
+g3f  e2d2 | BcdB G2ef | ggf2 e2d2 | e2a2 a2f2 |
+g2f2 e2d2 | BcdB G2Bc | d2cB A2F2 | G2   G2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 3
+T: 2. SWEET ELLEN
+B: Sam Bayard, "Hill Country Tunes" 1944 #2
+S: Played by Irvin Yaugher Jr., Mt. Independence PA, Oct 19 1943.  Learned from his great-uncle.
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A,2 |\
+D2DE  F2ED | FAAF  A3A  | BABc dBAG | F2ED E2FE |
+A,DDD F2ED | FAAF  A3A  | BABc dBAG | F2D2 D2 || de |
+fa2b  afde | fede  fede | fa2b afde | fee2 e3e |
+faab  afde |.fz ed B2A2 | BcdB AGED | F2D2 D2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 4
+T: 3. THE ROCKY MOUNTAIN HORNPIPE
+C: Emery Martin
+B: Sam Bayard, "Hill Country Tunes" 1944 #3
+S: Played by Emery Martin, Dunbar, Fayette County, PA, Sep 29 1943. Composed by himself.
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A,2- |\
+A,2DE FEDE | F2[A2D2] [A2D2]A2 | BABc dBAF | F2[E2A,2] [E2A,2]FE |
+D2DE FE D2 | F2[A2D2] [A2D2]B2- | BABc dBAA | F2D2 D2:: (3ABc |
+d2(3efg fedd | c2dd B2A2 | BABc dedd | B2A2 A2(3ABc |
+d2(3efg fedd | c2dd B2A2 | BABc dBAG | F2D2 D2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 5
+T: 4. JINNY IN THE LOWLANDS
+B: Sam Bayard, "Hill Country Tunes" 1944 #4
+S: Played by Played by Emery Martin, Dunbar, PA, Oct 14 1943. Learned from his father.
+N: Variant of Billy in the Lowlands (Low Grounds).
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+G,2- |\
+G,2C2 _/E2G2 | c3d c2G2 | ABcB ABcB | AGEC D2C2 |
+G,2C2 _/E2G2 | c3d c2G2 | ABcB ABcd | ee^fg a2a2 ||
+[M:6/5]a2e2- e^fgf g2d2 |[M:4/4] BddB A2G2 | e^fgg a2a2 | e^fgg g2g2 |
+e^fgf g2d2 | BddB A2G2 | ABcB ABcB | AGEC D2HC2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 6
+T: 5. REEL
+T: Billy in the Lowlands (variant)
+B: Sam Bayard, "Hill Country Tunes" 1944 #5
+S: Played by David P Gilpin, Connellsville, Fayette County, PA, Sep 22 1943. Learned in Dunbar, PA.
+N: Variant of Billy in the Lowlands (Low Grounds).
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+%Q: "Very Quick"
+M: C|
+L: 1/8
+K: C
+G,2 |\
+G,2C2 E2G2 | cBcd c2B2 | A^GAB cBcd | e2a2 {e}g2G,2 |
+G,2C2 E2G2 | cBcd c2B2 | A^GAB cBcA | GED_B, C2 || cc |
+eg2^f g2ag | ec2B c2d2 | ea2g a2ag | ecAB c2cd |
+eg2^f g2ag | ec2B c2G2 | A^GAB cBcA | GED_B, C2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 7
+T: 6. O DEAR MOTHER MY TOES ARE SORE
+B: Sam Bayard, "Hill Country Tunes" 1944 #6
+S: Played by Irvin Yaugher Jr, Mt Independence, PA, Oct 19 1943. Learned from his great-uncle.
+R: jig
+%Q: "Mod."
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+He2^f edB | GA>B AGE | CD2 ^/F/E/DE | A3 Az2 :|
+|: e2^f g2a | ge^c dz_/a | e>_/ae dBG | ABA GEC | D3 ^/F/E/DE | A3 Az2 :|
+P: VAR:
+"a."^g2 || "b."e |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 8
+T: 7. I'LL DANCE A JIG AND I'LL DANCE NO MORE
+B: Sam Bayard, "Hill Country Tunes" 1944 #7
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18 1943.
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Amix
+Bcd |\
+e2e efe | d2B G2A | B2B BAG | AAA Bcd |
+e2e efe | d2B G2A | Bcd A2F | A2z z2c/d/ |
+e2e ef^/g | a2f d3 | ef^/g e2c | e3- e2c/d/ |
+e2e ef^/g | a2f d3 | ef^/g e2c | e2z z2c/d/ |
+e2e efe | d2B G2A | B2B BAG | A2"D.C."z |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 9
+T: 8A. THE CUCKOO'S NEST
+B: Sam Bayard, "Hill Country Tunes" 1944 #8A
+S: Played by Emery Martin, Dunbar PA, Oct 14 1943. Learned from his father.
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Amix
+ef/^g/ | a6 a2 | bae2 e3f | g2f2 g2g2 | agaf d3f |
+e2fg a2a2 | ab ag/f/ e2 "a."(3fgf | edBA "b."GABd | c2A2 A2 ||
+e2- | eccc AAcA | AcBA G2B2 | [BD]dBA [BD]dBA | [BD]dBA G2B2 |
+ABcd e2fg | agaf d2 "d."gf | "c".edBA "b."GABd | c2A2 A2 |]
+P: VAR:
+"a."{f}gf || "b."GGAB || "c"d/d/ | "d."f2 |] y8 y8 y8 y8 y8 y8 y8 y8
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 10
+T: 8B. THE CUCKOO'S NEST
+B: Sam Bayard, "Hill Country Tunes" 1944 #8B
+S: Played by Irvin Yaugher Jr, Mt. Independence PA, Oct 19 1943. Learned from his great-uncle.
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Amix
+He>f | edcd edcd | ecdB G2Bc | dBGB dBGB | dBcA G2z2 |
+ABcd e2"a."af | ^/g2ec d2"b."^/c2 | "c"BcBA GABd | c2.A2 .A2 || z2 |
+e2a2 a3f | b2a2 e3f | g2e2 g3e | a2g2 d3e |
+| e3c A2e2 | g2ec d3^/c | BABA GABd | c2.A2 .A2 |]
+P: VAR:
+"a."a2 || "b."d2 || "c."cABA |] y8 y8 y8 y8 y8 y8
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 11
+T: 9. THE YELLOW HEIFER
+B: Sam Bayard, "Hill Country Tunes" 1944 #9
+S: Played by Emery Martin, (near) Dunbar PA, Oct 14 1943. Learned from his father.
+N: This is another variant of the Cuckoo's Nest.
+N: Sam Bayard wrote:  "Irvin Yaugher, of Mt. Independence in Fayette County, regards this tune
+N: as simply a derivative of "Paddy on the Turnpike" (No. 31 in the present collection) -- which
+N: is not beyond the bounds of possibility."
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Amix
+"a."ef/g/ |[M:6/4] a6 a2 abaa |[M:4/4] baba "b."e3f | "c."g2f2 gfgg | "d."agaf "e."e2fg |
+a3a "f."abaa | ba "g."ba/g/ e2ef | g2a2 [fA]edB | [A4D4] [A2D2] ||
+F | E2A2 [A3E3]A | "h."Agfe ddBA | G2EE G2DG | "i."G^/cBA "j."GGED |
+EFG2 A3A | BABd e2f2 | gf"k."ge dfAd | ^/cBA2 A2 |]
+P: VAR:
+"a."e2 || "b."e2ef || "c."g2f2 g2g2 || "c."g2g2 aggg || "c."g2f2 gagg || "d."afaf || "e."e3f || "f."a2a2 ||
+"f."baaa || "g."ba || "g."bg || "g."ge || "g."gf || "h."Aggf || "i."GBBA || "j."AGED || "k."g/f/e |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 12
+T: 10. FIRE IN THE MOUNTAIN
+B: Sam Bayard, "Hill Country Tunes" 1944 #10
+S: Played by Irvin Yaugher Jr., Mt. Independence, PA, Oct 19 1943.  Learned from his great-uncle.
+N: Sam Bayard wrote: This tune bears a slight resemblance to that of the well-known "Short'nin
+N: Bread."  The title has been a "floating" one for some time, apparently -- it appears to quite
+N: different tunes in Decca Album No.66 (recorded from the playing of a Georgia fiddler) and Joyce
+N: 1909, No.200.  Witht he first part of No.10, compare the melody of "The Organ Grinder Swing."
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+F2A2 A2BA | F2A2 A2z2 | F2A2 A2BA | F2E2 E3D |
+F2A2 A2BA | F2A2 A2zB/c/ | d2d2 ecBA | F2E2 D2 z2:|
+|: d2d2 A2Bc | d2e2 f2z2 | d2d2 A2BA | F2E2 D2z2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 13
+T: 11A. THE HONEYCOMB ROCK
+B: Sam Bayard, "Hill Country Tunes" 1944 #11
+S: Played by Irvin Yaugher Jr., Mt. Independence, PA, Oct 19 1943.  Learned from his great-uncle.
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+Hge | dB^/cA BAGB | dB^/cA [BD]z "a."Hge | dB^/cA BAGB | AGF[AD] Gz :|
+|: ze/f/ | g2fg afdf | g2fg az "b."^/ga | "c."baag .f2.d2 | edef gz :|
+P: VAR:
+"a."Hg2 || "b."zf || "c"b2 |] y8 y8 y8 y8 y8 y8 y8 y8
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 14
+T: 11B. THE MCCLELLANTOWN HORNPIPE
+B: Sam Bayard, "Hill Country Tunes" 1944 #11
+S: Played by Emery Martin, Dunbar, PA, Oct 14 1943. Learned from his father.
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+"a."Bc | dB^/cA BAGB | "b."dB (3cBc d3 B/c/ | dB^/cA BAGB | AF[AD]F G3 :|
+|: e/f/ | g2fg afde/f/ | g2fg a3a | b2a2 g2f2 |1 edef g3 :|2 edef g2 Hg>e |]
+P: VAR:
+"a."d4- | d || "b."dBcA Bdge |] y8 y8 y8 y8 y8 y8 y8 y8
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 15
+T: 12. REEL
+B: Sam Bayard, "Hill Country Tunes" 1944 #12
+S: Played by David P Gilpin, Connellsville, PA, Sep 22 1943. Learned in Cumberland, MD.
+N: Variant of Kerr #113 "Push about the Jorum", etc.
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+Hd>c | BG2B "a."A2Ac | "b."BGBd [g2B2]e>d | BG2B A2"c."Ac | BdAF G2 :|
+|: ef | g2 (3fgf e2d2 | eaa^g a2e<f | g2 (3fgf e2d2 | [b2d2][a2c2] [g2B2] (3def |
+| g2 (3fgf e2d2 | eaa^g a2ef | gefa e2d2 | "d."BdAF G2 :|
+P: VAR:
+"a."A3c || "b."BA || "c."Ad || "d"bc |] y8 y8 y8 y8 y8 y8
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 16
+T: 13. QUADRILLE
+B: Sam Bayard, "Hill Country Tunes" 1944 #13
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18 1943.
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A |\
+F2A [d2D2]F | A[AG][AF] [AE][AF][AG] |\
+[A2F2]A [d2D2]F | A[AG][AF] [A2E2]z |
+F2A [d2D2]F | A[AG][AF] [A3E3] |\
+c>BA ABc | [d3D3] [dD]z :|
+|: e |\
+[f2A2]e [d2D2]c | d2c {c}[BD]cd |\
+[e2A2]d [c2E2]B | [AD3]BA A2G |
+FGA d2F | [AD][AG][AF] [A3E2] |\
+cBA ABc | [d3D3] [dD]z :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 17
+T: 14. ROLLING OFF A LOG
+B: Sam Bayard, "Hill Country Tunes" 1944 #14
+R: jig
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 5 1943.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: D
+D2F A2d | f2d A2F | G2G [e2A2G2]d | cBA GFE |
+D2F A2d | f2d A2F | G2G [e2A2G2]d | cBc d3 ||
+|: e2d cBA | f2e dcd | e2d cBA | f2e d3 :|
+g2f e2d | c2B A2G | F2E D2F | Dz2 Dz2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 18
+T: 15. THE BONNY MAID
+B: Sam Bayard, "Hill Country Tunes" 1944 #15
+N: Whistled by F. P. Provance (as he formerlo played it on the violin),
+N: Point Marion, Fayette County, PA, Oct 16 1943.
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: D
+z2 |\
+FA2"a."B d3B | ABAF E2D2 | FA2"a."B d3B | cdec .d2.f2 |
+FA2"a."B d3B | ABAF E2D2 | FA2B d2d2 | cdec dz ||
+|: fg |\
+a2af g2ge | faec dcBA | a2af g2ge | faec d2 :|
+P: VAR:
+"a."A |] y8 y8 y8 y8 y8 y8 y8 y8
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 19
+T: 16. LEATHER BREECHES
+B: Sam Bayard, "Hill Country Tunes" 1944 #16
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18 1943.
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: G
+DGBG AGBG | DGBG AGEG | DGBG [AD]GBG | DEDB, A,B,G,z |
+DGBG AGBG | [AD]GBG AGEz | cBcB "a."AGFE | DDGA BAG ||
+D |\
+GABc d2dc | Bcdc BAG2 | GGBd g2gf | efgf edBA |
+GABc d2dc | Bcdc "b."Bcd2 | g2fg edB2 | A2GA BAG2 |]
+P: VAR:
+"a."AAFE || "b."B2 |] y8 y8 y8 y8 y8 y8 y8 y8
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 20
+T: 17. TIDDLE TOOK TODFISH
+B: Sam Bayard, "Hill Country Tunes" 1944 #17
+S: Played by David P. Gilpin, Connellsville, PA, Sep 22 1943.  Learned at Dunbar, PA.
+N: This tune has so far proved untraceable.
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: D
+(3ABc |\
+d2[fA]e c2ec | "a."BcdB AFDF | G2"b."BG F2AF | EDEF GABc |
+d2fe c2ec | BcdB AFDF | G2"b."BG F2AF | EGFE D2 :|
+A2- \
+|: Acef gfgz | Ace^g agaz | Acef g2gf |1 faec d2B2 :|2 faec d2 |]
+P: VAR:
+"a."B2dB || "b."BA |] y8 y8 y8 y8 y8 y8 y8 y8 y8 y8
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 21
+T: 18. BUTTERMILK AND CIDER
+B: Sam Bayard, "Hill Country Tunes" 1944 #18
+S: Played by Irvin Yaugher Jr, Mt Independence, PA, Oct 19 1943.
+S: Learned from Jim Lawry, a fiddler of that same region.
+N: This is a variant of a widely known Irish reel sometimes called "Going to California".
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: A
+A2- |\
+AcBA FAE2 | Aceg f2g2 | agfe fecB | AcBA F2E2 |
+AcBA F2E2 | Aceg f2g2 | agfe fecA | B2A2 A2 || e2- |
+eaga fecd | eaga f2 (3efg | agfe fecA | BcBA F2E2 |
+AcBA F2E2 | Aceg f2 (3efg | agfe fecA | B2A2 A2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 22
+T: 19. THE ROAD TO BOSTON
+B: Sam Bayard, "Hill Country Tunes" 1944 #19
+N: Whistled by J. W. Devan (as he formerly played it on the file), Connellsville, PA, Oct 20 1943.
+N: This old fifers' march is known by the above name in the Northeast as well as in Pennsylvania.
+N: The tune itself is international and -- in the present state of our knowledge --  not
+N: assignable to any definite place of orogin.
+R: reel
+M: 4/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: D
+f6 (3eef g2f2e2d2 | c2d2e2f2 d2AA F>FA2 | f6 ef g2f2e2d2 | c2d2e2f2 d4d4 :|
+|: a6ga b2a2g2f2 | g6g>g a2g2f2e2 | f6e>f g2f2e2d2 | c2d2e2f2 d2z2z4 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 23
+T: 20. LARDNER'S REEL
+B: Sam Bayard, "Hill Country Tunes" 1944 #20
+S: Played by Irvin Yaugher Jr, Mt Independence, PA, Oct 19 1943. Learned by ear from other local fiddling.
+N: Bayard points out that variants of the first half of this tune are found frequently in
+N: the American instrumental tradition, "it seems to have no steadfast association with
+N: any one second strain."
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: A
+[A2E2] |\
+[A2E2]Ac BA^/GB | Acef/g/ a2ga |\
+bgeg aece | fedc BAGB |
+A2Ac BA^/GB | Acef/g/ a2g>b | bgeg aece | fedB A2 || z2 |
+E2[A2E2] [BE]AGB | [A2E2][cE][AE] eAcA |\
+B2de fedf | e2ge "a."bgeg |
+agae faec | defg agaf |\
+eagf edcB | A2^/c2 A2 |]
+P: VAR:
+"a."bge2 |] y8 y8 y8 y8 y8 y8 y8 y8
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 24
+T: 21. THE KING'S HEAD
+B: Sam Bayard, "Hill Country Tunes" 1944 #21
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 5 1943.
+N: This is the other name of Soldier's Joy, found in many old collections.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: D
+B2 |\
+A2FG [AD]FDF | [A2D2][d2D2] [d2D2]"a."cB |\
+A2FG [AD]FDF | {F}GFED E2FG |
+A2FG [AD]FDF | [A2D2][d2D2] [d2D2]e2 |\
+f2af e^/gfe | d2[f2d2] Hd2 || de |
+f2de f2"b."af | e2cd e2g2 |\
+f2de fgaf| edcB A4 |
+f2de f2"b."af | e2cd e2g2 |\
+f2af e^/gfe | d2[f2d2] Hd2 |]
+P: VAR:
+"a."B2 || "b."a2 |] y8 y8 y8 y8 y8 y8 y8 y8
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 25
+T: 22. HASTE TO THE WEDDING
+B: Sam Bayard, "Hill Country Tunes" 1944 #22
+S: Played by Emery Martin, Dunbar, PA, Oct 14 1943. Learned from his father.
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: D
+D- |\
+DFA Adf | "a."Adf fdd | "b."AFF DFF | EEE EFE |
+DFA Adf | "a."Adf fdd | [AD]FA efe | [d3D3] [dD]z ||
+(3e/f/g/ |\
+aaa agf | gab baf | faa aff | gfg efg |
+aaa "c."gff | edf fdd | [AD]FA dfd | [d3D3] [d2D2] |]
+P: VAR:
+"a."Aff || "b."dAF || "c."fff |] y6 y6 y6 y6 y6 y6
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 26
+T: 23. THE WIND THAT SHOOK THE BARLEY
+B: Sam Bayard, "Hill Country Tunes" 1944 #23
+N: Whistled and sung by F.P.Provance (as he formerly played it on the violin), Point Marion, PA, Oct
+N: 16 1943.  Learned from fiddlers playing it in eastern Fayett and Western Somerset Counties, PA.
+R: hornpipe, reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: D
+A2A>B A>GE>F | G>FG>A B>cd>B |\
+| A2A>B A>GF>f |1 g>fe>d B>c d>B :|2 g>fe>d B>cd>e ||
+|: f2f>e f2f>e | "a."f>ef>d B>cd>e |\
+f2f>e f2f>g |1a>fe>d B>cd>e :|2 a>fe>c B>c!D.C.!d>B |]
+P: VAR:
+"a."f2 |] y8 y8 y8 y8 y8 y8 y8 y8 y8 y8
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 27
+T: 24. DANCE TUNE
+B: Sam Bayard, "Hill Country Tunes" 1944 #24
+N: Copied from manuscript of Denune Provance, Peachen, Fayette County, PA, Sep 21 1943.
+S: Learned from traditional players about Dunbar.
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: F
+   a2g fed | c2A c2f | ege cde | fef a3 |
+   a2g fed | c2A c2f | ege cde | f6 :|
+|: g3  f3 | ege c3  | =BdB GAB | c=Bc g3 |
+   g3  f3 | ege c3  | =BdB GAB | c6 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 28
+T: 25. DANCE TUNE
+B: Sam Bayard, "Hill Country Tunes" 1944 #25
+N: Copied from manuscript of Denune Provance, Peachen, Fayette County, PA, Sep 21 1943.
+S: Learned from traditional players about Dunbar.
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: C
+g^fg c'2e | g^fg .c'2c | BdB GAB |1 cBc g3 :|2 c3- c3 ||
+|: g^fg age | cBc G2c | BAB GAB |1 cBc g3 :|2 c3- c2z |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 29
+T: 26. DANCE TUNE
+B: Sam Bayard, "Hill Country Tunes" 1944 #26
+N: Copied from manuscript of Denune Provance, Peachen, Fayette County, PA, Sep 21 1943.
+S: Learned from traditional players about Dunbar.
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: C
+g2^f g2a | gec G3 | fdB GAB | cBA G3  |
+g2^f g2a | gec G3 | fdB GAB | c3- c3 ::
+c3  _B3  | Acf a3 | _b3 d3  | fef gfd |
+c3  _B3  | Acf a3 | _b3 d2e | fag f3 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 30
+T: 27. WALTZING WITH THE ONE I LOVE
+C: Sarah Armstrong
+B: Sam Bayard, "Hill Country Tunes" 1944 #27
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18 1943. Composed by herself.
+R: waltz
+M: 3/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: D
+Ad |\
+[f4A4] [f2A2] | e2 d2 "a."B2 | A3 B AG | F2 D2 F2 |\
+[e4A4] [e2A2] | c2 B2 A2 | d3 c "b."d>B | A2 F2 A2 |
+[f4A4] [f2A2] | e2 d2 "a."B2 | A3 B AG | F2 D2 F2 |\
+[e4A4] [e2A2] | c2 B2 c2 | d6- | d2 z2 FG |
+A3 B A>G | F2 D2 F2 | A2 F2 A2 | d6 |\
+A4 cB | A2 c2 B2 | A2 c2 B2 A2 F2 G2 |
+A3 B A>G | F2 D2 F2 | A2 F2 A2 | d4 "c."cd |\
+[e4A4] [e2A2] | c2 B2 c2 | d6- | d2 z2 |]
+P: VAR:
+"a."cB || "b."dB || "c."d2 |] y6 y6 y6 y6 y6 y6 y6 y6 y6 y6
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 31
+T: 28. DREAM SONG
+C: Sarah Armstrong
+B: Sam Bayard, "Hill Country Tunes" 1944 #28
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18 1943. Composed by herself.
+N: "Mrs Armstrong relates that she dreamed of seeing here Uncle Laney -- the most accomplished
+N: fiddler in the family, and the one who knew the greatest store of old music -- sitting on a
+N: log in a clearing and playing this air on his violin. The tune impressed her so by its wistful
+N: quality that she still recalled it when awake; so she at once tried it out on her fiddle and
+N: committed it to memory."
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: G
+Bc | d2BG e2dc | B2AB/A/ G2EF | G2FGA2GF | G6 :| ef |
+g2eg f2d2 | e2ce d2BA | G2Bd e2dB | "D.C. to fine"A6 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 32
+T: 29. LANEY TUNIN' HIS FIDDLE
+C: Sarah Armstrong
+B: Sam Bayard, "Hill Country Tunes" 1944 #29
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18 1943. Composed by herself.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: D
+e2e2 A2A2 | [A2D2][A2D2] A,3z | [A2D2]FA B2A2 | [A2D2]FA B2A2 |
+e2e2 A2A2 | D2D2 A,4 | D2FA B2[A2D2] | [AD]zz2 Dz z2 :|
+|: D2FA B2[A2D2] | [A2D2]FA B2[A2D2] | c3B [A2D2][AF]A | [B2D2][A2D2] [A4D4] |
+D2FA B2[A2D2] | D2FA B2[A2D2] | c2B2 AAGE | D2DD D2z2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 33
+T: 30. QUADRILLE
+B: Sam Bayard, "Hill Country Tunes" 1944 #30
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18 1943.
+N: In bar 12 the g was g2; this was probably an error.
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: D
+A- |\
+A2A F2A | def edB A2A F2"a."G | ABA GFE |
+D2D F2A | def edB | A2A F2G | ABc "fine"d2|| e |
+f2d A2d | fef a^/gf | e2c A2c | ece a2^/g |
+f2d A2d | fef a^/gf | ef^/g a2c | d2z d"D.C."cB |]
+P: VAR:
+"a."a |] y6 y6 y6 y6 y6 y6 y6 y6
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 34
+T: 31A. PADDY ON THE TURNPIKE
+B: Sam Bayard, "Hill Country Tunes" 1944 #31A
+S: Played by Irvin Yaugher Jr, Mt Independence, PA, Oct 19 1943. As played by his great-uncle.
+N: The 4/4+5/4 time signature was used by Bayard, to say that some bars contain 5 beats.
+R: reel
+M: 45/44
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: Ador
+((3EFG) |\
+A3^G A2"a."AB | ^cdef gfed | BG-G2 G2 ((3DEF) GA | BGAF GFED |
+"b."EAA^G A2A2 | BABd e2d2 ef | gage dBGB | ^/cABG A2 :: z2 |
+ea-ab a3f | bfaf "c."gfed | efga g3g | bfaf ^/ge dz |
+eaab a3f | bfaf ^/ge dz ef | gage dBGB | ^/cABG A2 :|
+P: VAR:
+"a"B2 || "b."EAA2 || "c."ge dz |] y8 y8 y8 y8 y8 y8
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 35
+T: 31B. PADDY ON THE TURNPIKE
+B: Sam Bayard, "Hill Country Tunes" 1944 #31B
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18 1943.
+R: reel
+M: C
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: G
+   D2G2 G2G2 | BAGA  B2G2 | E2G2 G2G2 | EDEF EDB,C |
+   D2G2 G2G2 | BAGA  B2d2 | efgf e2d2 | B2A2 G2z2 :|
+|: e2a2 a2a2 | ba^ga b2a2 | e3f  g2ge | d2ge d2d2  |
+   e2a2 a2a2 | ba^ga b2a2 | e3f  g2ge | d^/cBA G2z2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36
+T: 32. HARRY COOPER
+B: Sam Bayard, "Hill Country Tunes" 1944 #32
+S: Played by Irvin Yaugher Jr, Mt Independence, PA, Oct 19 1943.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+%%slurgraces
+K: G
+(3D>EF |\
+G2DC B,G,B,[DG,] | EDEG FDD2 | G3A ^/cAcA | EAA2 A2 (D>EF |
+G2DC B,G,B,D | EDEG FDD2 | G2Bd e^/cAF | G2GG G2 || ef |
+g2d2 e2^/cA | dBAG FDD2 | G3A ^/cAcA | EAA2 A2ef |
+g2d2 e2^/cA | cBAG FDD2 | G2Bd e^/cAF | G3G G2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 37
+T: 33. OLD REEL
+B: Sam Bayard, "Hill Country Tunes" 1944 #33
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 13 1943.
+N: The first part occurs as the second part of "Wake Up Susan" in other collection.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: D
+A,2- | A,2D2 B,2D2 | A,2DE FED2 | E2A2 F2A2 | E2AB cBA2 |
+A,2[D2G,2]B,2[D2G,2] | A,2DE FED2 | E2A2 "a."A3B | AGFE D2 :: A2 |
+d2dA dAF[AD] | E2E2 EFGA | B2"b."Bc BAFE | D2[d2D2] [dD]ABc |
+d2"c."dA dAF[AD] | E2E2 EFGA | B2Bc BAFE | D2 [d2D2] [d2D2] :|
+P: VAR:
+"a."A2B2 || "b."B2 || "c."d2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 38
+T: 34. LITTLE HORNPIPE
+B: Sam Bayard, "Hill Country Tunes" 1944 #34
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 13 1943.
+N: The first part occurs with different second parts in other collections.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: D
+z2 | D2FE D2FG | AAdB "a."AGFE | D2FE D2F2 | A,2E2 D2E2 |
+D2FE "b."D2FG | AAdB A2F2 | "c."GBAG FDED | A,2D2 D2 :|
+|: A2 | d2dA d2dA | dAdA B2A2 | A2ed c2ed | cded cABc |
+d2dA d2dA | dAdA B2A2 | GBAG FDED | A,2D2 D2 |]
+P: VAR:
+"a."AAFE || "b."DE || "c."GBAA |] y8 y8 y8 y8 y8 y8
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 39
+T: 35. WHISKEY
+B: Sam Bayard, "Hill Country Tunes" 1944 #35
+S: Played by Irvin Yaugher Jr, Mt Independence, PA, Oct 19 1943. One of his mother's favorite tunes.
+N: Tune 159 has the same first part and a different second part.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+%%slurgraces
+K: G
+(3DEF | G2EG D3E | GGAG Bdd2 | "a."d2ed B2A2 | GBAG EGG2 |
+G2EG D3E | GGAG Bdd2 | g2ed B2"b."A2 | GBAF Dz ||
+z2 | g2ed B2A2 | G>BAG Bdd2 | g2ed B2A2 | GBAF Dz z2 |
+g2ed B2A2 | G>BAG Bdd2 | e6- e>f | g2ed B2A2 | GBAF Dz |]
+P: VAR:
+"a."d2e2 B3A || "b."AF |] y8 y8 y8 y8 y8 y8 y8 y8
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 40
+T: 36. Schottische
+B: Sam Bayard, "Hill Country Tunes" 1944 #36
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18 1943.
+N: In the Ford collection as "Crystal Schottische".
+R: reel, hornpipe, shottish
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: G
+G>A |\
+BcBA G2D2 | GGBd g3g | f2AB c2Bc | ed^cd B2G2 |
+BcBA G2D2 | GGBd g3g | f2AB cBAF | G4 G2 :: FG |
+"a."ABAF A2A2 | "b."defg a3a | b2^c2 [e2A2]c2 | d^cdB A2FG |
+ABAF A2A2 | defg a3a | b2^c2 [e2A2]c2 | d2d2 d2 :|
+P: VAR:
+"a."A3F B2A2 || "b."d2fg |] y8 y8 y8 y8 y8 y8 y8 y8
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 41
+T: 37. QUADRILLE
+B: Sam Bayard, "Hill Country Tunes" 1944 #37
+S: Played by Mrs. Sarah Armstrong, (near) Derry, PA, Nov 18, 1943.
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: A
+e | a2e c2e | [aA]e[aA] [e2A2]c | BAB dcB | A2c cde |
+[a2A2]e c2e | aea e3c | "a."BAB dcB | A3 A2 :: z |
+E2E A2A | cAc e2c | BAB dcB | A2c cBc |
+E2E A2A | cAc e2c | "a."BAB dcB |1 A3- A2 :|2 A3- A"D.C."ce |]
+P: Var:
+"a."B2B |] y6 y6 y6 y6 y6 y6 y6 y6
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 42
+T: 38. QUADRILLE
+B: Sam Bayard, "Hill Country Tunes" 1944 #38
+S: Played by Mrs. Sarah Armstrong, (near) Derry, PA, Nov 18, 1943.
+N: The first half of this quadrille is known in New England: see Burchenal, "American Country-Dances", No.1.
+N: In Seventy Good Old Dances, No.8, p.24, is a tune which bears a very slight resemblance to this,
+N: and which may or may not be a relative.
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: A
+e | eaf e2c | BAB c3 | E2A B2B | cBc dcd |
+eaf e2c | BAB c3 | E3 EFG | A3 A2 :: e- |
+ecA Acd | ecA A2c | ecA cAc | "a."B2B dcd |
+ecA Acd | ecA A2c | "b."e2e efg |1 a3 a2 :|2 a3 a2f |]
+P: Var:
+"a."B>BB || "b."e>ee |] y6 y6 y6 y6 y6 y6 y6 y6 y6 y6
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 43
+T: 39. WHAT THE DEVIL AILS YOU
+B: Sam Bayard, "Hill Country Tunes" 1944 #39
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18, 1943.
+R: shottish
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: D
+.D>F[AD]>B [A2D2][f2A2] | D>FA>B [A2D2][a2A2] | ^/g2f2 e2d2 | c>dc>B A2G2 |
+F>GA>B A2[f2A2] | D>FA>B A2[a2A2] | ^/g2f2 e2d2 | cABc d2z2 ||
+e2e2 a2a2 | c>Ac>d e4 | B2e2 c2e2 | B2e>f e>dc>d |
+e2e2 a2a2 | c>Ac>d e4 | e2^gf edcB | A4- [A2F2]"D.C."z2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 44
+T: 40. SCHOTTISCHE
+B: Sam Bayard, "Hill Country Tunes" 1944 #40
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18, 1943.
+R: shottish
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: D
+"a."A>A |\
+F2d2 F2d2 | c2B2 BABc | d2F2 GFGA | B2A2 AGFE |
+D2d2 F2d2 | c2B2 B4 | ABcd efge | f2d2 d2 :: "b."de |
+[f2A2][f2A2] [e2A2][e2A2] | d2A2 AFAd | c2EF GFGA | B2A2 AGF[AD] |
+[f2A2][f2A2] [e2A2][e2A2] | d2"c."AA AFAd | c2cB AGFE | D2d2 d2 :|
+P: Var:
+"a."D2 || "b."z2 || "c."A2 |] y8 y8 y8 y8 y8 y8 y8 y8
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 45
+T: 41. QUADRILLE
+B: Sam Bayard, "Hill Country Tunes" 1944 #41
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov. 18, 1943.
+N: A quadrille always played at the dances in Schwalm's Grove,
+N: a dancing ground not far from Derry [Pennsylvania].
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: A
+E |\
+A2E A2c | e2e ece | fga e2c | e3 efg |
+agf d2f | fec A2c | "a."efe dcB | A2z A2z :|
+|: e |\
+a2e g2e | fec Ace | A2e g2e | fec B3 |
+a2e g2e | fec Acd | efe dcB | A2Z Za :|
+P: Var:
+"a."e2e |] y6 y6 y6 y6 y6 y6 y6 y6
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 46
+T: 42. STOP TUNE, or TAKE OFF YOUR HAT TO THE LADIES
+B: Sam Bayard, "Hill Country Tunes" 1944 #42
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov. 18, 1943.
+N: Perhaps this was originally a stage piece. Somewhere in the course of playing,
+N: the performer used to stop and take off his hat; hence the titles.
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: D
+A |\
+d3 d2e | [f3A3] e2d | B2c d2B | A2F D2z |
+d3 d2e | f3 e2d | B2d e2f | e3- e2A |
+d3 d2e | f3 e2d | B2d e2B | A2F D2z |
+Az2 Dz2 | Az2 Dz2 | F2F E2D | F2F E2F |
+Az2 Dz2 | Az2 Dz2 | F2F A,2A, | D3- D2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 47
+T: 43. MUDDY WATER
+B: Sam Bayard, "Hill Country Tunes" 1944 #43
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov. 18, 1943.
+R: hornpipe, reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: D
+HAG |\
+F2 D2 DE"a."FD | E2 "c."A,2 A,3 E | F3 F G2 FG | A2d2 dB AG |
+F2 D2 DEFD | E2 "c."A,2 A,3 E | F2 EF G2 FE | D2 F2 D2 :: A2 |
+d3 e f2 ed | c2 ed cB "b."A2 | d3  e fe de | f2 a2 a3 A |
+d3 e f2 ed | c2 ed cB "b."A2 | A2 Bc dB AG | F2 D2 D2 :|
+P: Var:
+"a."FG || "b."AA | "c"[E2A,2][E2A,2] |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 48
+T: 44. OLD MARCH
+B: Sam Bayard, "Hill Country Tunes" 1944 #44
+N: Whistled by F.P. Provance, Point Marion, PA, Sept 19, 1943. Learned from Sam Waggle, fifer, of Dunbar.
+R: jig-time march
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+P: Leisurely
+K: Edor
+A |\
+B2E EDE | B2c d2B | A2F FEF | DEF AFA |
+B2E EDE | B2c d2A | Bcd F2"a."A | E3- E2 :: A |
+~B2"b."B B<cA | B2c d2e | d2B BAF | DEF AFA |
+~B2"b."B BcA | B2c d2A | Bcd F2"a."A | E3- E2 :|
+P: Var:
+"a."F || "b."c |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 49
+T: 45. SWALLOW TAIL
+B: Sam Bayard, "Hill Country Tunes" 1945 #45
+S: Played by Irvin Yaugher Jr., Mt. Independence, PA, Oct 19 1943. Learned from Bill Lowry, a local fiddler, now deceased.
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: Ador
+e- |\
+efe AGA | efe edB | ded GFG | ded dze |
+efe AGA | efe gzf | efe edB | A3 A2 || e |
+ef^g a2b |[M:9/8] a^/ge g3 d3 |[M:6/8] ef^g a2b |[M:9/8] a^/ge a2z d3 |
+[M:6/8] ef^g a2b | a^/ge gz2 | G>Bd edB | A3 A2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 50
+T: 46. QUADRILLE
+B: Sam Bayard, "Hill Country Tunes" 1944 #46
+S: Played by John Kubina, (near) Davistown, Greene County, PA, Sept 3, 1943.
+S: Learned from Ann Peterson, fiddler, in East Pittsburgh.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+%%slurgraces
+K: Ador
+{d}eAA eAA | BAG Bcd | eAA eAA | BAA g2f |
+eAA eAA | BAG Bcd | efg fed | eAA A2z |
+eaa a^ga | bag fed | eaa a^ga "a."baf g2z |
+eaa a^ga | bag fed | efg fed | eAA A2z |]
+P: Var:
+"a"bbf |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 51
+T: 47. QUADRILLE
+B: Sam Bayard, "Hill Country Tunes" 1944 #47
+S: Played by John Kubina, (near) Davistown, Greene County, PA, Sept 3, 1943.
+S: Learned from Ann Peterson, fiddler, in East Pittsburgh.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+%%slurgraces
+K: Gm
+{^c}d- |\
+dGG GGG | BGB dcB | AFF FFF | AFA c2-c/ ^c/ |
+dGG GGG | "a."BGB d2"*"=e | f"*"=ed cBA | "b."{Bc}BGG Gz || c |
+dgg dff | dgg fdc | dgg {de}d2c | BGG Gz (G//A//B//c//) |
+dgg dff | dgg fdc | {d}g2z {de}d2c | "c."BGG G2 |]
+P: Var:
+"a."BAB || "b."G3- G || "c (when going to beginning)"BGG [B2G2] |] y6 y6 y6 y6
+%%text Notes marked "*" occasionally flatted.
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 52
+T: 48. THE RED BRICK HOUSE IN GEORGIA TOWN
+B: Sam Bayard, "Hill Country Tunes" 1944 #48
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18, 1943.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C
+L: 1/8
+K: Ador
+"a."e3^c A2A2 | e^cef g2d2 | B3A G2G2 | AGAB "b."cBA2 |
+e3^c A2A2 | e^cef g2d2 | efgf e2d2 | B2G2 A2z2 ||
+e2a2 a2^/g2 | edef g2d2 | e3e ^/g2d2 | edef ^/g2d2 |
+e2a2 a2g2 | edef ^/g2d2 | efgf e2d2 | B2G2 A2z2 |]
+P: Var:
+"a."e2e^c  || "b."c2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 53
+T: 49. REEL
+B: Sam Bayard, "Hill Country Tunes" 1944 #49
+S: Played by John Kubina, (near) Davistown, PA, Sept 3, 1943.
+S: Learned from Mat. Cain, fiddler, in the North Side, Pittsburgh.
+N: Called "The Bummer's Reel" by some in Pennsylvania, though often nameless.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: 4/4
+L: 1/8
+K: Bb
+{F}B2 |\
+BdFB d2dc | Bdgf =efdB | AcFA c2cA | Bdgf =efdc |
+BdFB d2dc | Bdgf =efdB | AcFA cdcA | B2d2 B2 || g2- |
+g2a2 b2a2 | gf=ef gfdB | AcFA cdcA | Bdgf =efdB |
+g2a2 b2a2 | gf=ef gfdB | AcFA cdcA | B2d2 [B2D2]z2 ||
+FBBB B2B2 | BABc BAG2 | Fccc c2c2 | cBcd cBAG |
+FBBB B2B2 | BABc BAG2 | F2z A/B/ c2A2 | B2d2 [B2D2] |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 54
+T: 50. QUADRILLE AND HORNPIPE
+B: Sam Bayard, "Hill Country Tunes" 1944 #50
+S: Played by Robert Crow, Claysville, Washington County, PA, Sept 13, 1943.
+N: Learned in that region.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: 4/4
+L: 1/8
+K: D
+D2- |\
+D2^/FA d2F2 | "a."GBAG F2 ((3EFE) | DD^GA dAF[AD] | A,2A,2 A,2z2 |
+D2FA dA "b."FD | G2"c."AF G2=cB | A2ff "d."ge^/cA | d2fe d2 || "e."((3efg) |
+a2f2 d2ef | ^/ga^/gf e2"f."fg | a2f2 d2"g."gf | ed^/cB A2fg |
+a2f2 d2ef | gagf e2a2- | a2 a4 g2 | ((3fgf) e2 Hd2 |]
+P: Var:
+"a."BB || "b."F2 || "c."{G}BB || "d."gece || "e."fg || "f."ff || "f."aa || "g"ff |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 55
+T: 51. QUADRILLE
+B: Sam Bayard, "Hill Country Tunes" 1944 #51
+S: Played by Robert Crow, Claysville, PA, Spe 13, 1943.  Learned in that region.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: G
+((3DEF) |\
+G2G2 BcdA | [c2E2]cc egfe | G2G2 BdcB | AGFE DFA2 |
+GFGA BcdA | c2"a."cc egfe | defg agfa | g2 ((3agf) g2 || fg |
+afdf afdf | "b."bfdf bfdf | afdf afdf | agfe d2"c."d2 |
+ed^cd egfe | dcBc d2ef | gafe "d."dcBA | "e."G2G2 G2 |]
+P: Var:
+"a."cd || "b."bfff bfff || "c."dd || "d."dBBA || "e."G2GG G2 |] y8 y8 y8 y8
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 56
+T: 52. THE DRUNKEN HICCOUGHS
+B: Sam Bayard, "Hill Country Tunes" 1944 #52
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18, 1943.
+N: This tune is also quite popular in Fayette County.  Its variants show little change.  The
+N: title is one of the "floating" variety, being mentioned in Odum, "An American Epoch", p.202,
+N: and Carmer, "Stars Fell on Alabama", p.276; and found in connection with a quite different
+N: air in Ford, p.126.  The tune's usual title in Pennsylvania is "The Oil City Quickstep".
+R: reel
+M: C
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: G
+dc |\
+[B2D2].D2 [B2D2].D2 | [B2D2]D2 [B2D2]AB | [c2E2]E2 [c2E2]E2 | [c2E2]E2 [c2E2]dc | [B2D2]D2 [B2D2]D2 |
+[B2D2]D2 BABc | d4 d4 | d2e2 d2c2 | [B2D2]D2 [B2D2]D2 | [B2D2]D2 [B2D2]AB |
+[c2E2]E2 [c2E2]E2 | [c2E2]E2 [c2E2]d2 | g2f2 e2d2 | e2d2 c2Bc | d2c2E2F2 | G6 ||
+z2 |\
+D4 G2B2 | d6 ^cd | e2"a."e2 d2B2 | G6 A2 | B2cB "b."A2G2 | D4 B,2D2 |
+E2^/FE D2B,2 | D6 B,C | D4 G2B2 | "c."d6 ^cd | e2e2 d2B2 |
+G2B2 d2ga | b4 a2b2 | c'4 e2f2 | a4 gfga | g2z2 z2 |]
+P: Var:
+"a."ee | "b."A2A2 | "c."d4 ^c2d2 | y8 y8 y8 y8 y8 y8
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 57
+T: 53. QUADRILLE
+B: Sam Bayard, "Hill Country Tunes" 1944 #53
+S: Played by Robert Crow, Claysville PA, Sept 13, 1943.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: G
+D2- |\
+D2D2 DcBA | E2[c2E2] [c2E2]AG | FGAB cdef | g2d2 ecB2 |
+D4 D2{c}BA | E2[c2E2] [c2E2]AG | FGAB cdef | g2 ((3agf) [gB]z :|
+ef |\
+g2f2 g2d2 | ed^/cd B2G2 | [AD]FDF [AD]cBA | GABc d2ef |
+g2f2 g2d2 | edcd B2G2 | AFDF AcBA | G2[GG2]G [GG]z |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 58
+T: 54. THE FLOWERS OF EDINBURGH
+B: Sam Bayard, "Hill Country Tunes" 1944 #54
+S: Played by John Kubina, (near) Davistown, PA, Sept 3 1943.
+S: Learned from traditional players in Pittsburgh.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: G
+D2zD G2G2 | BGBd cBAG | FGFE D2DF | ABAF D2z2 |
+D3D G2G2 | BGBd efge | dcBA GFGA | B2G2 G2 || ef |
+g2g2 gbag | f2f2 fagf | e^def gfe=d | B2e2 e2((3efe) |
+dBGB d2^cd | edef g2fe | dcBA GFGA | B2G2 G2z2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 59
+T: 55. HIGH LEVEL (HORNPIPE)
+B: Sam Bayard, "Hill Country Tunes" 1944 #55
+S: Played by John Kubina, (near) Davistown, PA, Sept 3 1943.
+S: Learned from traditional players in and around Pittsburgh.
+R: hornpipe, reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+N: A version of this tune appears as "President Garfield's Hornpipe" in One Thousand, p.101.
+N: A different meody under the name of "High Level" is in Kerr, No.394, and DeVille, No.7.
+K: Bb
+"a."dc |\
+BFDF BFDF | BABc d^/cd=e | fcAc fcAc | "b."fgag fedc |
+BFDF BFDF | BABc d^/cd=e | .f2ag fedc | .B2.d2 .B2 || HbHa |
+gecA FAcz/g/ | fdBF DFBd | eAgf eAgf | dBgf dfba |
+gecA FAcz/g/ | fdBF DFBd | A2ag fedc | B2d2 [B2D2] |]
+P: Var:
+"a."Ac || "b."f=e |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 60
+T: 56. THE LOP-EARED MULE
+B: Sam Bayard, "Hill Country Tunes" 1944 #56
+S: Played by Robert Crow, Claysville, PA, Sept 13, 1943.  Learned in that region.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+%%slurgraces
+K: G
+g2- |\
+g2b2 d2c2 | ((3BcB) A2 G4 | FGAB c2^/F2 | GABc d2g2- |
+g2b2 d2c2 | ((3BcB) A2 G4 | FGAB "a."cAFA | "b."G2BA G2 ::[K:D] {EFG}A2 |
+[a2A2][a2A2] [a3A3]g | f2d2 d2ef | g2G2 B2c2 | ed^/cB A2 "c."((3EFG) |
+[a2A2][a2A2] [a3A3]g | f2d2 d2ef | g2 ((3fgf) e2ce | f2[f2d2] [f2d2] |]
+P: Var:
+"a."c2F2 || "b."G3G G2 || "c"((3FFG) |] y8 y8 y8 y8 y8 y8
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 61
+T: 57. CLOUD'S REEL
+B: Sam Bayard, "Hill Country Tunes" 1944 #57
+S: Played by Robert Crow, Claysville, PA, Sept 13, 1943.  Learned in that region.
+N: A hornpipe in the Bayard Coll., No.182, has a first part slightly resembling the first of this
+N: reel; otherwise the tune is unknown to the editor, and no other version has been identified.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: G
+dc |\
+B2G2 G2AB | cGE2 [c4E4] | DE^/FG A2F2 | DFA2 d3c |
+B2G2 G2AB | cGE2 [c4E4] | DEFG AcBA | GB"a."AF G2z2 ||
+[B2G2]dd {d}b2[B2D2] | c2{f}e2 a3g | f2f2 b2f2 | agfe d2z2 |
+"b."B3B/B/ b2[B2D2] | c2e2 a3g | f2f2 b2f2 | gfga gz |]
+P: Var:
+"a."AG- G2z2 | "b."d3d/d/ |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 62
+T: 58. THE SNOUTS AND EARS OF AMERICA
+B: Sam Bayard, "Hill Country Tunes" 1944 #58
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 5, 1943.
+N: The title of this fine, spirited tune may not be a corruption, but as it stands it is
+N: incomprehensible.  The editor knows of no other version; but it is not impossible that
+N: the air is a derivative of the familiar "Irish Washerwoman" tune, recase in 4/4 time,
+N: and with the order of parts reversed.  If so, it makes a distinct improvement on the
+N: original melody.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: D
+A2 |\
+d2D2 D2D2 | F2A2 d2ed | c2A2 ABcd e2A2 A2Bc |
+dcBA G2F2 | E2[A2D2] ABAG | F2D2 E2DE | F2D2 D2 :: D2 |
+F2D2 D2D2 | F2D2 [A2D2]BA | G2[E2A,2] [E2A,2][E2A,2] | A2d2 d2AG |
+F2D2 D2D2 | F2A2 A2BA | G2E2 A3G | F2D2 D2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 63
+T: 59. QUADRILLE
+B: Sam Bayard, "Hill Country Tunes" 1944 #59
+S: Played by Robert Crow, Claysville, PA, Sept 13, 1943.  Learned in that region.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: C
+G2- |\
+[G2G,2]BB A2G2 | E2G2 [c4E4] | [G2G,2]Bc d2c2 | ((3BcB) A2 G4- |
+[G2G,2]"a."cd e2d2 | c2E2 [F4A,4] | G2Bc "b."dcBd | c2 ((3dcB) c2z2 ||
+K: G
+d2cc B2d2 | g2a2 b4 | a2"c."bb d'2f2 | gfga b2z2 |
+d2gf e2d2 | B2d2 g2z2 | f2ga b2f2 | gfga g2z2 |]
+P: Var:
+"a."Bc || "b."d2B2 || "c."aa |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 64
+T: 60. SCHOTTISCHE
+B: Sam Bayard, "Hill Country Tunes" 1944 #60
+S: Played by Robert Crow, Claysville, PA, Sept 13, 1943.  Learned in that region.
+N: The A,2 notes in bars 2 and 6 are probably typos.
+R: shottish
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+%%slurgraces
+K: D
+((3FG^G) |\
+[AD2]>BA>G F>Ad>=c | B>=c B>A [G2A,2] e>d | [ce4]c2B "a."A>gf>e |
+d>ef>g a2 {E}((3F>G^G) | [AD2]>BA>G F>A d>=c | B>=c B>A [G2A,2] e>d |
+[ce4]c2B A>gf>e | d2[f2d2] [f2d2] :: ((3efg) | [a2A2][f2d2] {g}f>ef>g |
+[a2A2][g2B2] [gB]>f[gB]>a | b2e2 e>fg>a | b2a2 a>gf>g |
+[a2A2][f2d2] f>ef>g | [a2A2][g2B2] [gB]>fg>a | b2c2 a2c2 | d>ef>e d2 :|
+P: Var:
+"a."A>ce>c |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 65
+T: 61. QUADRILLE
+B: Sam Bayard, "Hill Country Tunes" 1944 #61
+S: Played by Robert Crow, Claysville, PA, Sept 13, 1943.  Learned in that region.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: G
+DG |\
+[B2D2]BB B2"a."G2 | [AD]GFE DFAB | [c2E2] [cE][cE] c2F2 | AGFE DFA2 |
+[d2D2][dD][dD] [d2D2][d2D2] | e2f2 g2e2 | d2c2 ((3BcB)A2 | "b."GGGG [G2G,2] :: "c."Bc |
+[d2D2][dD][dD] [d2D2]e2 | dcBA G2[BD]d | [g2B2]gg g2g2 | agfe d2B2 |
+c2aa aaa2 | B2gg ggg2 | B2cd e2f2 | gdef [gB]z :|
+P: Var:
+"a."FA || "b."G3G || "c."((3ABc) |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 66
+T: 62. MAGGOTS IN THE SHEEP HIDE
+B: Sam Bayard, "Hill Country Tunes" 1944 #62
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18, 1943.
+N: A notable feature of this dance air is its short three-note prelude, which is never played except
+N: at the very start, and is left out of all subsequent repetitions.  Preludes of an unvarying sort
+N: are quite unusual in our traditional dance music.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: D
+"[Prelude]"A2 | d6 e2 |:\
+f2d2 A2F2 | G2A2 B3c | d2A2 G2E2 | D2F2 A2d2 |
+f2d2 A2"a."FF | G2A2 B3c | d2A2 G2E2 | D4 D4 ::
+F2A2 [A3D3]F | [A6D6] A2 | B2Bc d2B2 | B2A2 A2F2 |
+G3G G2G2 | F2[A2D2] F2[A2D2] | [d2D2]A2 G2E2 | D4 D4 :|
+P: Var:
+"a."F2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 67
+T: 63. MAGGOTS IN THE SHEEP HIDE
+B: Sam Bayard, "Hill Country Tunes" 1944 #63
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18, 1943.
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+%%slurgraces
+K: D
+B |\
+A2F DFA | d2d def | gfe fed | fed Bcd |
+A2F DFA | d2e f2g | aed efe | d3 d2 :: e/f/ |
+g2"a."g/a/ gfe | f2{f}g fed | e2e ede | fed Bcd |
+A2F DFA | d2e f2g | aed efe | d3 d2 :|
+P: Var:
+"a."a |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 68
+T: 64. MAGGOTS IN THE SHEEP HIDE
+B: Sam Bayard, "Hill Country Tunes" 1944 #64
+S: Played by David P. Gilpin, Connellsville, PA, Sept 22, 1943.  Learned at Dunbar, PA.
+N: The editor knows of no other set of this highly characteristic reel tune.
+N: The third part was composed by the player, David Gilpin.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: G
+ef |\
+gfga gfed | B[B2G2][BG] [B2G2]dB | [AF][A2F2][AF] [A2F2]dc | B[B2G2]"a."[BG] [B2G2]ef |
+gfga gfed | B[B2G2][BG] [B2G2]cB | A^GAB cdef | [g2B2] [gB2]f [g2B2] ::
+K:D
+((3FG^G) |\
+A2fg fedc | B[g2B2]f g3B | ABcd ecAc | dcde f3A- |
+A2fg fedc | B[g2B2]f [g2B2][eA]>[eA] | ABcd egfe | [d4F4] [d2F2] :|
+P: 1st part again
+!Segno!\
+|: A2- |\
+A2[A2G2] F3E | DFAg [f2A2][f2A2] | Acef gfe2 | defg a2AA- |
+A2[A2G2] F3E | DFAg f2ff | Acef gfec |1 "b"dfec d2 ((3FG^G) :|2 [d3F3]c [d2F2] |]
+P: Var:
+[K:G]"a."F ||[K:D] "b."d2dc |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 69
+T: 65. QUADRILLE
+B: Sam Bayard, "Hill Country Tunes" 1944 #65
+S: Played by Robert Crow, Claysville, PA, Sept 13, 1943.  Learned in that region.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: G
+[d2D2]ef gafe | d2[B2D2] [g2B2]z2 | [d2D2]ef gfga | b2a2 e2z2 |
+d2ef gafe | d2B2 [g2B2]e2 | d2c2 ((3BcB) AG | FFAF [B2G2]z2 ||
+D2GD "a."GBAG | E2E2 EGFE | D2G2 "b."GABc | d2.[c2-E2] .[c2-E2]e2- |
+e2d2 egfe | d2c2 ((3BcB)A2 | D2"c."FA AFAc | BAFA G2z2 |]
+P: Var:
+"a."[BD]GAG || "b."[BD]GBc || "c."AA |] y8 y8 y8 y8
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 70
+T: 66. OVER THE STUMP AND BACK AGAIN
+B: Sam Bayard, "Hill Country Tunes" 1944 #66
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18, 1943.
+N: The story Mrs Armstrong tells concerning this tune illustrates the extremely casual  way
+N: in  which a country dance tune can acquire a new name.  On one occasion, when the player
+N: was a small girl, her uncle Laney Gray was sitting n their home playing this tune on his
+N: fiddle. Someone came into the house with the news that old Dan Riffle (a local character
+N: still well remembered by many people in the Derry neighborhood) was trying  to  drive  a
+N: team  back  and  forth  across a stump.  The team was reluctant, and Dan was yelling and
+N: swearing at the animals in a great passion.  When Laney heard this, he at once exclamed,
+N: "There's  a  name for my tune -- `Over the stump and back again!'" Mrs Armstrong did not
+N: state that her uncle had composed thi air; in all  likelihood,  he  was  merely  casting
+N: about for some suitable name to give to it, and this little incident inspired him!
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: D
+A2 |\
+d3d A2B2 | AGFE D2"a."F2 | E2E2 [c2E2][c2E2] | [B2E2][B2E2] [c2E2]A2 |
+d2d2 A2B2 | AGFE D2D2 | "b."E2E2 c2Bc | d4 d2 :: A2 |
+d3d f2f2 | d2d2 f3f | g2gf e2"c."cd | edcB A2A2 |
+d3d f2f2 | d2d2 f3f | g2gf e2ce | f2d2 d2 :|
+P: Var:
+"a."DD || "b."E3E | "c."c2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 71
+T: 67. DANCE TUNE
+B: Sam Bayard, "Hill Country Tunes" 1944 #67
+N: Copied from manuscript of Denune Provance, Peachen, PA, Sept 21, 1943.
+N: Learned in the mountains behind Peachen and Dunbar.
+R: polka, reel
+M: 2/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: Bb
+F2GF D2F2 | G2F2 d3e | d2c2 G2A2 |1 cBAG F2z2 :| B8 ||[K:=e]
+K: F
+|: c2dc A2c2 | f2e2e2z2 | g2c2d2e2 |1gfed c2z2 :| f6 z2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 72
+T: 68. DANCE TUNE
+B: Sam Bayard, "Hill Country Tunes" 1944 #68
+N: Copied from manuscript of Denune Provance, Peachen, PA, Sept 21, 1943.
+S: Learned from traditional players about Dunbar.
+R: polka, reel
+M: 2/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: F
+|: f3e f2a2 | gfeg fcAc | f3e "a."f2a2 | gfeg f4 :|
+|: a6 a2 | c'6 a2 | g6 g2 | d8 | e6 f2 | a2g2 e2c2 |
+[1 d2c2 c2B2 | A8 :|[2 f3e fefg | f4 "Da Capo"c4 |] "Final measure at end."y16 | f8 |]
+P: Var:
+"a."f3a |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 73
+T: 69. THE BLACKSMITH
+B: Sam Bayard, "Hill Country Tunes" 1944 #69
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18, 1943.
+N: Tunes contructed like this one, with the second part consisting almost entirely of the first part
+N: repeated an octave higher, are not often encountered in the repertories of American country fiddlers.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+R: reel, polka
+M: C
+L: 1/8
+K: D
+"a."HAG |\
+F2D2 "b."D2DD | F2D2 D2EF | G2E2 EDEF | G2E2 E4 |
+F2[AD][AD] [A3D3][AD] | F2[A2D2] [A2D2]d2 | c2e2 B2c2 | [d4D4] [d2D2] :: de |
+f2d2 d3e | f2d2 d2ef | g2e2 edef | g2e2 e4 |
+f2af d2d2 | fgaf d2d2 | c2A2 B2c2 | [d4D4] [d2D2] :|
+P: Var:
+"a."D2 || "b."D3D || "b."DDDD |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 74
+T: 70. THE COTTAGE BY THE SEA, or THE RED HEADED GIRL
+B: Sam Bayard, "Hill Country Tunes" 1944 #70
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18, 1943.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+R: reel, polka
+M: C
+L: 1/8
+K: D
+d2- |\
+d3D D2D2 | A,2D2 D2EF | GFED E2FE | DEFG A2Bc |
+d3D D2D2 | A,2D2 D2FG | A2Bc d2F2 | EDEF D2 :: FE |
+"a."DEFG A3A | D2GA B3^/c | B2A2 F2D2 | EDEF E2FE |
+DEFG A4 | D2GA B3B | A2Bc d2F2 | EDEF D2 :|
+P: Var:
+"a."D2FG |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 75
+T: 71. JOHNNY GET YOUR HAIR CUT
+B: Sam Bayard, "Hill Country Tunes" 1944 #71
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18, 1943.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+N: The first part of this tune, unaccompanied by any other strain,
+N: has been sung in southwestern Pennsylvania to the jingles
+N:    Johnny get your hair cut, hair cut, hair cut,
+N:    Johnny get your hair cut, just like me!
+N: and
+N:    Granny will your dog bite, etc. -- No, child, no!
+N: These little refrains are current all over the country, often to
+N: entirely different strains of music.
+R: reel, polka
+M: C
+L: 1/8
+K: D
+A2 | dfed B2A2 | B2A2 F2A2 | dfed B2AA | B2c2 d2 :| z2 |
+d2f2 a3a | b2a2 f2e2 | defg a2a2 | b2a2 f3z |
+d2f2 a3a | b2a2 f2e2 | dfed B2A2 | B2c2 d4 ||
+D2FG A2Bc | d3d F2B2 | A3A E2B2 | A3A F2E2 |
+DEFG A2Bc | d2d2 F2B2 | A3A E2FE | D4 D2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 76
+T: 72. FAREWELL TO WHISKEY
+B: Sam Bayard, "Hill Country Tunes" 1944 #72
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18, 1943.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+N: No other versions of this tune have been noted.  This is another case of a tune-title being
+N: misapplied, since No.72 is not the (Scottish) tune, attributed to Neil Gow, which generally
+N: goes by the name "Farewell to Whiskey," and is well known in western Pennsylvania.
+R: reel, polka
+M: C
+L: 1/8
+K: D
+A3B [A2D2]FG | [A2D2]d2 [f2A2]d2 | A3B A2[A2F2] | G2F2 [A2E2]D2 |
+[A3D3]B [A2D2][AF]G | [A2D2]d2 [f4A4] | g2f2 e2[e2c2] | [d4D4] [d2D2]z2 ||
+[e3A3]f [e2A2]cd | e2[a2A2] ^g2f2 | [e3A3]f [e2A2]c2 | d2c2 B2[A2D2] |
+[e3A3]f [e2A2]cd | e2[a2A2] [a2A2]z2 | d2c2 B2cB | A2c2 "D.C."A2z2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 77
+T: 73. MACDONAHUE'S HORNPIPE
+B: Sam Bayard, "Hill Country Tunes" 1944 #73
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18, 1943.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+R: hornpipe, reel
+M: C
+L: 1/8
+K: D
+"a."D3D D2D2 | FDFA dAF2 | "b."E3E E2E2 | EDEF "c."GFEF |
+"d."D3D D2D2 | FDF[AD] dAF2 | E3E EGFE | D2F2 D2 ||
+AA |\
+d2dA F2A2 | dAdA F2A2 | e2ec A2cd | efec A2Bc |
+d2dA F2A2 | dAdA F2[A2D2] | "e."E2EE EGFE | D2F2 D4 |]
+P: Var:
+"a."D2DD D2DD || "b."E2EE || "c."GFE2 || "d."D2DD || "e."E2E2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 78
+T: 74. DOWN YONDER
+B: Sam Bayard, "Hill Country Tunes" 1944 #74
+N: Copied from manuscript of Denune Provance, Peachen, PA, Sept 21, 1943.
+S: Learned from traditional players about Dunbar.
+R: polka, reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: C
+e4 dc3 | eged cc'b_b | a4 gf3 | ac'ag f4 |
+ecdc ecdc | eg2e g4 | ecdc ecdc | eg2e g4 |
+^ff2 f2 ed2 | ^ff2 f2 ed2 | g2^fg =fed2 | g2^fg =fed2 |
+e4 dc3 | eged cc'b_b | a4 gf3 ac'ag f4 |
+ecdc ecdc | eg2e gz ^fg | a4 b2g2 | c'2 g ^f "_Da Capo"=fy |]
+w: | | | *** [sic~in~MS]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 79
+T: 75. HOG EYE AN' A 'TATER
+B: Sam Bayard, "Hill Country Tunes" 1944 #75
+S: Played by Irvin Yaugher Jr, Mt Independence, PA, Oct 19 1943. As played by his great-uncle.
+N: This is not the melody which accompanies the well known and often recorded sea shanty called
+N: "Hog eye," nor is it the playparty song tune with a similar name known farther south (see
+N: Sharp-Karpeles, "English Folk Songs from the Southern Appalachians, II, No.250). A somewhat
+N: different version, with the parts in reverse order, is in Bayard Coll., No.288, from Greene
+N: County, where the title is simply "Hog Eye," and has an indecent meaning.
+N:
+N: In Fayette County, this tune has the following associated rhyme:
+N:    I went down to Sally's house
+N:    'Bout ten o'clock or later;
+N:    All she had to give to me
+N:    Was a hog-eye and a 'tater.
+N: The rhyme accompanying the set known in Greene County is:
+N:    As I was going down the street,
+N:    A pretty little girl I chanced to meet;
+N:    I stepped right up and kissed her sweet,
+N:    And asked her for some hog-eye meat.
+N: No other sets of the tune are known to the editor.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: Am
+A2 |\
+ABAG E2AB | c2dB c2G2 | ABAG E2AB | ^/c2A2 A2G2 |
+ABAG E2AB | c2cA d2d2 | e^fed B2AB | ^/c2A2 A2 || AB |
+^/c2B2 c2d2 | e2^f2 e3d | ^c2B2 c2d2 | e2A2 A2AB |
+^/c2B2 c2d2 | e2^f2 e3d | ^c2A2 B2zd | ^/c2A2 A2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 80
+T: 76. FINE TIMES AT OUR HOUSE
+B: Sam Bayard, "Hill Country Tunes" 1944 #76
+S: Played by Irvin Yaugher Jr, Mt Independence, PA, Oct 19 1943. As played by his great-uncle.
+N: The title of this tune has the appearance of being an importation from the British Isles; and
+N: no doubt the melody is too.  Another set, with a variant form of the title, and a different
+N: second part, is in Bayard Coll., No.227, from Center County.  It is case in a different mode
+N: from this, which disguises it greatly.
+N:   "Bub" Yaugher knew the following rhyme associated with this tune:
+N:      Possum up a gum stump,
+N:      Coonie in the holler,
+N:      Devil's on the other side --
+N:      Don't you hear him holler?
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: Ador
+E2- |\
+E^/FED [E2C2][E2C2] | ABAG ABc"a."E- | E^/FED [E2C2][E2C2] | ABAG ^/FDD2 |
+E^/FED [E2C2][E2C2] | ABAG AB^/cd | e3f e2d2 | ^/cA {A}BA A2 :: z2 |
+e2af e2"b."d2 | ^cdef ^/g2z2  | e2af e2d2 | ^cde2 a2z2 |
+e2af e2d2 | ^cdef ^/g2z2  | e2zg e2d2 | ^/cAB"c."G A2 |]
+P: Var:
+"a."z || "b."d^c || "c."^G |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 81
+T: 77. QUADRILLE
+B: Sam Bayard, "Hill Country Tunes" 1944 #77
+S: Played by Robert Crow, Claysville, PA, Sept 13, 1943.  Learned in that region.
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: C
+G- |\
+GEF cGE | FEF d2c | B/c/BA GAB | cde cBA |
+G^/FE cGE | FEF d2c | B/c/BA GAB | c2 ((3d/c/B/) cz ||
+z |
+e3 g/^f/ag | e2c ABA | G3 g^fe | d3- d2z |
+e3 g/^f/ag | e2c ABA | G^FG A2B | cGE [c2E2] |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 82
+T: 78. QUADRILLE
+B: Sam Bayard, "Hill Country Tunes" 1944 #78
+S: Played by Robert Crow, Claysville, PA, Sept 13, 1943.  Learned in that region.
+N: This tune affords clear evidence of the transmission of imported German folk dance music in
+N: Pennsylvania.  Its first part has a close variant in the opening section of "Langenh\"ager,"
+N: a norther German dance air:  see Burchenal, "Folk-Dances of Germany," p.36. ...
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+%%slurgraces
+K: G
+G- |\
+"a."G2B {Bc}BAB | dcB [c3E3] | egf def | gfe cBA |
+G2"b."B {c}BAB | dcB [c3E3] | egf def | "c."agf [g2B2] :: z |
+{fga}b2f gfe | d2c B2e | f2e def | gfe def |
+b2f gfe | d2c B2e | f2e def | g2 ((3a/g/f/) [gB]z :|
+P: Var:
+"a."GBB || "b."B/B/ || "b."B/c/ || "c."G2 ((3agf) |] y6 y6 y6 y6 y6 y6
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 83
+T: 79. REEL
+B: Sam Bayard, "Hill Country Tunes" 1944 #79
+S: Played by David P Gilpin, Connellsville, Fayette County, PA, Sep 22 1943.
+S: Learned from Steve Piadnik, a Polish fiddler.
+N: Variant of Billy in the Lowlands (Low Grounds).
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+((3e/f/^f/) |: g^fga g=fed | cBcd cBAG | "a."Acdc BGAB |
+[1 cBce a3g :|[2 "b."[c3E3]B [c4E4] || [e4E4] c3A | G6 z2 | g3g ^f2g2 |
+ag3 {g}^fgfg | e2cB c2A2 | G6 ^f2 | g2g a2B2 | "c."cBcd [c2E2] ||
+P: 1st part again
+K:G
+^AB |: "d."d2d2 e2f2 | g2d2 B3B | ABAG FDEF |[1 GFGA Bc^c2 :|[2 "e."G4 G2 |]
+P: Var:
+"a."A2dc || "b."[c2E2]cB c4 || "c."[cE][c2E2]B [c2E2] || "d."d3d e2e^f || "e."G3G G2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 84
+T: 80. THE OLD MAN AND OLD WOMAN SCOLDIN'
+B: Sam Bayard, "Hill Country Tunes" 1944 #80
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18, 1943.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+N: [This tune] has been revised to fit the "Old Man and Woman" pattern: it is a shortened
+N: form of "Governor King's March," an old fifers' tune of western Pennsylvania.
+M: 2/4
+L: 1/16
+K: D
+"Slow"DEFG |\
+A4 A3B | A4 FED2 | B4 B3A | B2d2 d2B2 | B2A2 A2F2 |
+A2F2 E2D2 | E4 E3F | E4 DEFG | A4 A3B | A4 FED2 | B4 B3A |
+B2d2 d2B2 | B2A2 A2F2 | A2F2 E2FE | D4 [d4D4] | [d4D4] z4 |: "Fast"A2 | d3A A2A2 |
+f2d2 d2cd | e2A2 f2A2 | d2A2 A2Bc | d3A A2A2 | f2d2 d2cd | efed c2B2 | A4 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 85
+T: 81. REEL
+B: Sam Bayard, "Hill Country Tunes" 1944 #81
+S: Played by David P. Gilpin, Connellsville, PA, Sept 22, 1943.  Learned at Dunbar, PA.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: G
+E2- |\
+EFGB | A<eAB | cBAB A<eAB | cBAc BAGB |
+[1 AGFG E2 :|[2 AFDF G2 |: ((3def) | [g2B2]fg edB^/c |
+BAGB AFDF | GFGB A"a."GAc |[1 BAGB A2 :|[2 BcAF [G2G,2] |]
+P: Var:
+"a."F |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 86
+T: 82. REEL
+B: Sam Bayard, "Hill Country Tunes" 1944 #82
+S: Played by David P. Gilpin, Connellsville, PA, Sept 22, 1943.  Learned at Dunbar, PA.
+R: reel, hornpipe
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: G
+((3def) |: g>dB>G | D>GB>d | e>dB>G D>GA>B |[1 c>BA>G ^/F>GA>B |
+c>Bc>d e2ef :|[2 c>BA>F D>FA>c | "a."B2 G>F G2 |] ((3def) |:
+g>fg>a g>fe>^d | e>^de>f e>d^/c>B |[1 A>BA>G F>GA>B |
+^/c>B^/c>d e2e>f :|[2 A>BA>G F>GA>^/c | "a."B>GG>F G2 |]
+P: Var:
+"a."BG2F |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 87
+T: 83. REEL
+T: Mountain Hornpipe
+T: Douglas' Favorite
+B: Sam Bayard, "Hill Country Tunes" 1944 #83
+S: Played by David P. Gilpin, Connellsville, PA, Sept 22, 1943.  Learned at Dunbar, PA.
+N: This is a set of a quite well known dance air which, in commercial fiddle-tune collections,
+N: generally goes by the name of "Douglas Favorite, or the Mountain Hornpipe."
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+%%slurgraces
+K: G
+((3DEF) |\
+G2gf edBA | G2gf edBG | DFGB AGBG | DFA"a."B cBA^/F |
+G2gf edBA | G2gf edef | gfgf e^cAF | G2GF G2 || "b."Gd |
+B2Bc "c."d2B2 | "d."cBcd e2A2- | A2AB "e."cBcA | GBBd "g."{d}g2Bc |
+d^cdf e^deg | fefa gfge | d^cdf ecAF | "g."G2GF G2 |]
+P: Var:
+"a."d || "b."Ad || "c."d2dB || "d."c2cd || "e."cBc2 || "f."gB || "g."G2G2G2 || "g."G2[g2B2][g2B2] |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 88
+T: 84. ROSEMONT QUADRILLE
+B: Sam Bayard, "Hill Country Tunes" 1944 #84
+N: Played by Emery Martin, (near) Dunbar, PA, Oct 14, 1943.
+N: Learned from his brother, who learned it from F.P. Provance.
+N: Emery Martin learned this tune by ear, and for a long while called it "The Fillmore Provance Tune,"
+N: thus -- as is quite common -- naming it after the fiddler from whose playing his own family acquired
+N: it.  Later, upon his playing the air for someone else, he was told that the title given here was the
+N: correct one, and accordingly adopted it.  His informant also told him that the tune, under this name,
+N: was to be found in the collection "Gems of the Ball," which the editor has not seen.
+R: reel, polka
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: G
+[A2-D2] |\
+[AD]B[AD][AD] F2[A2D2] | d2F2 [A3D3]d | "a."cc[e2A2] B2c2 | dcde f2[A2-D2] |
+[AD]B[AD][AD] F2[A2D2] | d2F2 [A3D3]d | "a."cce2 B2c2 | d4 {B}=c2z2 ||[K:^f=c]
+K: G
+g6 B2 | cBA2 G2"b."[A2D2] | [E6G,6]FE | D4 F2A2 | d4 {B}c4 | B2G2 [A2D2]F2 |
+G2[F2G,2] [E2G,2]D2 | [G4G,4] B2d2 | g6 B2 | cBA2 G2A2 |
+f4 e2z2 | d2B2 G3E | D2G2 B3d | d2AB c2F2 | [G6G,6] "D.C."y |]
+P: Var:
+"a."c2 || "b."[A2E2] |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 89
+T: 85. GUILDEROY
+B: Sam Bayard, "Hill Country Tunes" 1944 #85
+N: Played by irvin Yaugher Jr., Mt. Independence, PA, Oct 19, 1943.  Learned from his great-uncle.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: Amix
+[A2E2] |\
+E2A2 "a."ABcd | efge d2cd | e2A2 A2 ((3cBA) | GFEF GFED |
+E2A2 ABcd | efge d2cd | e2a2 ^gfed | c2A2 A2 || ef |
+g3a gfef | gage | d2cd | e2A2 "b."AcBA | GFEF GFED |
+E2A2 ABcd | efge d2cd | e2a2 ^gfed | c2A2 A2 |]
+P: Var:
+"a."A2 || "b."A2 ((3cBA) |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 90
+T: 86. BONAPARTE'S RETREAT
+B: Sam Bayard, "Hill Country Tunes" 1944 #86
+N: Played by irvin Yaugher Jr., Mt. Independence, PA, Oct 19, 1943.  Learned from his great-uncle.
+R: march
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+%%slurgraces
+K: Am
+((3E^FG) | AzA2 {cB}AGE2 | cde^/c d2 ((3e^f^/g) | a>^/ged ^/cA GE | {E}A2A>B A2 :|
+|: e^f/^/g/ | a>^ged ^/cde^f | ^/g^fga g2e/^f/^g | a^/ged ^/cA GE | A2 "a."A>B A2 |]
+P: Var:
+"a."A2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 91
+T: 87. BONAPARTE'S RETREAT
+B: Sam Bayard, "Hill Country Tunes" 1987 #87
+N: Whistled by F.P. Provance, Point Marion, PA, Sept 19, 1943. Learned from Sam Waggle, fifer, of Dunbar.
+R: march
+M: 2/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+P: Rather Slow
+K: G
+D2 |\
+B3 "a."A/B/ | dB AG | AG AB | cB AG | B3 "a."A/B/ | dB AG |
+AG AB | G2 G>G | G2 :: d2 | g3 a/b/ | g2 d2 |
+g3 a/b/ | g2 G2 | AG AB | G2 G>G | G2 :|
+P: Var:
+"a."B |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 92
+T: 88A. NAPOLEON CROSSING THE RHINE
+N: Variant of The Blackbird
+B: Sam Bayard, "Hill Country Tunes" 1944 #88A
+N: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18, 1943.
+R: slow march
+M: C
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: D
+A2 | B2AF A2Bc | d>cdF G2FG | A2fe dBAG | F2D2 D2 :| A2 |
+d>efg a2af | g>fga g2fe | d>e"a."fg a2ag | f2d2 d2fg |
+a2fd g2fe | d2B2 g2fe | d2AF ABAG | F2D2 D2 |]
+P: Var:
+"a."f>g |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 93
+T: 88B. BLACKBIRD
+B: Sam Bayard, "Hill Country Tunes" 1944 #88B
+N: Played by Emery Martin, (near) Dunbar, PA, Oct 14, 1943. Learned from his father.
+R: slow march
+M: C|
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+P: Slow and Stately
+K: G
+A | [B4D4] {^/c}BAG2 | [A4D4] [AD]B^c2 | d2d2 ((3B^cB) A2 | G4 F2G2 | [A2D2][A2D2] [B2D2]G2 |
+F2D2 E2C2 | B,4 G,3A, | G,6 z2 | G,3A, B,2C2 | D2D2 {A}B2G2 |
+F3G AGF2 | G6- G2 | G,3A, B,2C2 | [D2G,2][D2G,2] [E2G,2]C | B4 G,3A, | G,6 z2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 94
+T: 89. BONAPARTE CROSSING THE ALPS
+B: Sam Bayard, "Hill Country Tunes" 1944 #89
+N: Played by F.P. Provance (as he formerly played it on the violin), Point Marion, PA, Oct 16, 1943.
+N: Learned from the fifers at Dunbar.
+P: Mod.; measured.
+R: march
+M: C
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: Ador
+"a"d2 |\
+e2A2 A2gf | e2d2 "b."B<A ((3B^cd) | e2A2 A2B<A | G2A2 B<A ((3B^cd) |
+e2A2 A2gf | e2d2 BA ((3B^cd) | e2f2 g2B2 | A6 :: z2 |
+e3d e3f | g2a2 g2e2 | d3e d2B2 | d3e d2B2 |
+e3d e3f | g2a2 g2e2 | d2e<f g2B2 | A6 |]
+P: Var:
+"a."f2 || "a."ef || "b."BA |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 95
+T: 90. RANAHAN'S MARCH
+T: THE FREE-MASON'S MARCH
+T: NAPOLEON CROSSING THE RHINE
+B: Sam Bayard, "Hill Country Tunes" 1944 #90
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18, 1943.
+N: Sam adds: Some Fayette County players call it "Bruce's March," while among Green County
+N: fiddlers its name generally is "The Star of Bethlehem."  The editor once heard it played
+N: by a New Jersey fiddler who gave it the ubiquitous name of "Bonaparte's Retreat."  Of the
+N: three titles given here, the first commemorates a local band-master.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+R: march
+M: C
+L: 1/8
+K: D
+DF |\
+A2A>B A2d[eA] | [fA]>e fa [f2A2]ed | BAdB AFD[AF] | "a."E>DE>F [A2E2]DF |
+A2A>B A2d[eA] | f>e fa [f2A2]ed | BAdB AF EF/E/ | D2[d2D2] [d2D2] || fg |
+afdf a2AB/c/ | d>cde f2AF | G>FGA Bd AF | "a."E>DEF E2DF |
+A2A>B A2de | f>e fa f2ed | BAdB AF EF/E/ | D2[d2D2] [d2D2] |]
+P: Var:
+"a."E2E>F |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 96
+T: 91. MARCH TUNE (THE SECOND PART OF RANAHAN'S MARCH)
+B: Sam Bayard, "Hill Country Tunes" 1944 #91
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18, 1943.
+N: The editor knows nothing about the derivation or history of this march tune.
+N: It was played along with No. 90, as its name indicates.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+R: march
+M: 4/4
+L: 1/8
+K: D
+A,2 |: D2D>E F2ED | A2A>B A2de | f3e d3F/G/ |1 A2A>B AGFE :|
+[2 A2A>B A2 |: fe | dA d4 gf | eB e4 fe | dcBA FEDF | [A2D2] [AD]>B "D.C."[A2D2] :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 97
+T: 92. FORTY MILES
+B: Sam Bayard, "Hill Country Tunes" 1944 #92
+N: Played by Irvin Yaugher Jr., Mt. Independence, PA, Oct 19, 1943.
+N: Learned from hearing "martial bands" (fife and drum corps) play it.
+R: jig-time march
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+%%slurgraces
+K: D
+F/E/ |\
+D2E F2G | ABA AGE | [E2=C2][EC] {Bc}d2d |
+B>cB BAF | E2F ^G2A | B2B ^/g/f/ef | ded ABc |
+d3- d2 || d | "a."^/g/f/ef def | gfg e2g | fed cBA|[M:9/8]
+GFE D2E F2^G |[M:6/8] A2A ^g/f/ef | ded ABc | d3- d2 |]
+P: Var:
+"a."f |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 98
+T: 93. ROCK'S HORNPIPE
+B: Sam Bayard, "Hill Country Tunes" 1944 #93
+N: Played by Irvin Yaugher Jr., Mt. Independence, PA, Oct 19, 1943. Learned from his great-uncle.
+N: Fiddlers spell the local title of this Irish tune as we give it here; but they always pronounce
+N: it "JirROCK's," stressing the last syllable.  It has long been quite popular in Fayette County,
+N: but has not thus far turned up elsewhere in western Pennsylvania.
+N: Other variants are in O'Neill, "Music of Ireland", No.1597; Joyce 1909, No.63.
+R: hornpipe, reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+%%slurgraces 0
+K: D
+AG |\
+F[AD]DD DFED | CE[EA,][EA,] | A,E[EA,][EA,] A,[EC][EA,][EA,] | DF[AD]c [BD]A[BD]c |
+defe dcBA | FADD DFED | CEA,A, A,[EC]EE |
+DFAd B^/GEC | D2DD D2 || d>e | fdfa f2e>c | defe dcBA |
+Bdef {f}^/gfed | c2A2 A2"a."d>e | fdfa f2e>c |
+defe dcBA | GABc dBAG | F2DD D2 |]
+P: Var:
+"a."e>^/g |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 99
+T: 94. JOHN NEWGRANT COME HOME WITH A PAIN IN HIS HEAD
+B: Sam Bayard, "Hill Country Tunes" 1944 #94
+S: Played by Mrs Sarah Armstrong, (near) Derry, PA, Nov 18, 1943.
+N: This air -- an excellent specimen of what Irish Fiddlers would call a "double jig" -- is quite
+N: new to the editor; and so is its name, which sounds like a line from some one of the rhymes often
+N: attached to fiddle tunes.  There can be little doubt that No.94 belongs to Irish tradition.
+R: jig
+M: 6/8
+L: 1/8
+K: D
+F |\
+AFD FDF | AFA dcB | AFD FDF | E2E GFG |
+AFD FDF | G2G2 BAG | "a."FGA ABc | dAF Dz :: A |
+d2d "b."BAG | F2A ABc | d2d BAF | E2e edc |
+"c."dcd "b."BAG | F2A ABc | dcd BAF | EFE E2 |]
+P: Var:
+"a."A2A || "b."BAA || "c."d2d |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 100
+T: 95. HANG ON
+B: Sam Bayard, "Hill Country Tunes" 1944 #95
+N: Played by Irvin Yaugher Jr., Mt. Independence, PA, Oct 19, 1943. Learned from his grandfather.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+%%slurgraces
+K: D
+"a."((3ABc) | d2dB d2dB | d2dB "b."G3A | B2d2 efed | B2A2 A2 :|
+|: ((3efg) | a2a2 f2d2 | {f}gfed B2d2 | efed efed | B2A2 A2 :|
+P: Var:
+"a."Bc || "b."G2A2 |]

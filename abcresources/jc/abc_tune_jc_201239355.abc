@@ -1,0 +1,22 @@
+X: 3262
+T: Kempshott Hunt
+%R: march, reel
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.26 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+f |\
+e2ce | {d}cB/A/ ce | ce (d/c/)B/A/ | dBBf ||\
+e2ce | {d}cB/A/ ce | cedf | eAA :: B |\
+(3(ABA) (.e.c) | f>de>c | (3(ABA) (.e.c) | dBTB>c ||
+(3(ABA) (.e.c) | fded | ce df | eAA :: e |\
+!p!{g}a2ec | {g}a2ec | {g}a2ec | dBB>g ||\
+{g}a2ec | {g}a2fd | cedf | eAA :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | A2a2 | A2a2 | A2a2 | e2ed || c2A2 | a2A2 | a2d2 | a2A :: z | a2c'2 | d'2c'2 | a2A2 |
+e2e2 || a2a2 | d2cd | e2E2 | A2A :: z | !p!A2a2 | A2a2 | A2a2 | e2E2 || a2a2 | A2A2 | e2E2 | A2A :|

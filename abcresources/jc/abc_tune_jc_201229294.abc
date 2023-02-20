@@ -1,0 +1,27 @@
+X: 12171
+T: the Bush aboon Traquair
+%R: air
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.17
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Adjusted 1st, last notes in 1st strain to match the others, so the rhythms of repeats work right.
+M: C
+L: 1/16
+K: D
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"D2 |\
+{DE}F4 A4 d6 f2 | Te2d2 e2(fg) {f}e6 A2 | TF4 A4 f3ec3B | {B4}A8 D6 :: d2 |\
+(c3B)(A3B) (c2d2e2)f2 | Tg3af3g {f}Te6 A2 |
+(d3e)(f3g) {fg}a3bTa3g | Tf3g (agf)e d6 e2 |\
+(Tc2B2c2)d2 e6(gf) | {ef}g2f2Te3d e4 (D3E) | {DE}F4 A4 f2e2 d2(cB) | {B4}A8 D6 :|
+|: D2 |\
+(F2A2)(D2A2)  {c}d6cB | A2f2 (gfed) {d}e4 (A3G) | F2a2f2d2 B4 (Bc)d2 | {B4}TA8 D6 :: d2 |\
+(cdcB ABAB cBcd cdef) |
+(d<A)f2 (e<A)g2 {f}e6 A2 | (dABc defg) {fg}a2(.a.a) {fg}a2(.a.a) | (f3g) (agfe) d6 e2 |\
+(cdcB ABAB cBcd cdef) |
+(gAGA) (fAGA) (efg)f (eGFE) | (FD3) (AF3) (d3f)(B3d) | (AdcB AGFE) D6 :: A2 |\
+F4 A4 d6 f2 |
+(edcd) (eA)(gf) (edcd) (eGFE) | (FD3) (AF3) (d3f)(B3d) | A8 D6 :: d2 |\
+Tc2Bc A2B2 (c2d2e2)f2 | g2A2f2A2 {f}e6 A2 |
+d2(AG) F2A2 d2(fg) a2g2 | (f3g) (agfe) d2(fg) a2d2 |\
+c2(Bc) A2B2 (cAdA eAfA) | g2(ag) (fagf) e4 (D3E) | {DE}F4 A4 (f3e)(d3B) | {B4}TA8 D6 :|

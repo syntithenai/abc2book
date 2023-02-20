@@ -1,0 +1,35 @@
+X:1
+T: The Thames Valley Diamond
+N:
+C:Pat Shaw
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A
+% voice 1 (1 lines, 17 notes)
+K:G
+M:4/4
+L:1/16
+d6 e2 d4 c4 |B4 A4 G4 B4 |A6 B2 A4 G4 |F4 E4 D4 E2 F2 |
+%W: B
+% voice 1 (1 lines, 26 notes)
+G4 G4 B4 A2 G2 |A4 G4 E4 D4 |E4 G8 A4 |G16 |d4 d4 f4 e2 d2 |e4 d4 B4 A4 |B4 d8 e4 |d16 |
+%W:
+% voice 1 (1 lines, 31 notes)
+e4 e4 g4 f2 e2 |d4 B4 G4 A2 B2 |c4 c8 B4 |A4 G4 E4 D2 E2 |G4 G4 B4 A2 G2 |A4 G4 E4 D4 |E4 G8 A4 |G16 |
+%W: C
+% voice 1 (1 lines, 25 notes)
+B6 A2 B4 ^c4 |d4 d4 d8 |G6 F2 G4 A4 |F16 |B6 A2 B4 ^c4 |d4 e4 f4 d4 |g4 f4 e6 d2 |d16 |
+%W:
+% voice 1 (1 lines, 27 notes)
+e6 d2 e4 f4 |g4 g4 g8 |c6 B2 c4 d4 |B16 |e6 d2 e4 f4 |g4 f4 f4 e4 |c4 B4 A4 G4 |E8 D4 E4 |
+%W: D
+% voice 1 (1 lines, 36 notes)
+G4 G4 B4 c2 d2 |G4 G4 B4 c2 d2 |c4 B4 A4 G4 |A4 G4 E4 D4 |G4 G4 B4 c2 d2 |G4 G4 B4 c2 d2 |e4 d4 c4 B4 |A8 d4 e2 f2 |
+%W:
+% voice 1 (1 lines, 36 notes)
+g4 g4 f4 g2 f2 |e4 e4 d4 e2 d2 |c4 d2 c2 B4 c2 B2 |A2 G2 F2 E2 D4 E2 F2 |G4 G4 B4 A2 G2 |A4 c4 e4 g4 |d4 B8 A4 |G16 ||

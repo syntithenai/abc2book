@@ -1,0 +1,53 @@
+X:17066
+T:The sick tune
+C:anon., arr. Frank Nordberg
+O:England
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/england/sick-tune/sick-tune-gtr2.abc
+V:1 Program 1 24 up %Classical guitar
+V:2 Program 1 24 merge down %Classical guitar
+V:3 Program 1 24 merge %Classical guitar
+V:4 Program 1 24 merge down %Classical guitar
+M:C
+L:1/8
+Q:1/4=80
+K:Em -8va % Gm with capo on third fret
+V:1
+"^Capo III"e2e2g4|B2B2d4|e2e2g2a2|f4e4|
+V:2
+B8|z8|B8|B4B4|
+V:3
+E8|F8|E4G2F2|^D4E4|
+V:4
+E,8|B,8|E,4E2A,2|z2B,2E,4|
+%
+V:1
+e3eg3g|B3Bd3d|e3eg3a|fe^dfe4|
+V:2
+B8|z8|B8|B4B4|
+V:3
+E6E2|F8|E6z2|z8|
+V:4
+z2E,6|B,2B,4B,2|z2E,4A,2|B,4E2E,2|
+%
+V:1
+d2B2d2c2|B2A2G2B2|c2e2e2^d2|e4e4|
+V:2
+z8|z8|z8|B4B4|
+V:3
+F6z2|z8|A2G2F4|E4E4|
+V:4
+B,6A,2|G,2F,2E,4|A,2C2B,4|z2E,6|
+%
+V:1
+dcBc dBcd|BAGA BcdB|cde2e2^d2|e4e4|]
+V:2
+z8|z8|z8|B4B4|]
+V:3
+z8|z8|z4F4|E4E4|]
+V:4
+B,6A,2|G,8|A,2C2B,4|z2E,6|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.

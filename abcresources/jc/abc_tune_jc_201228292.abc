@@ -1,0 +1,49 @@
+X: 11181
+T: The Yellow hair'd Laddie
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.118-120
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: handwritten "J.Ogiby April.17.1833" at bottom of p.118
+N: The final repeat symbol seems wrong.
+M: 3/4
+L: 1/8
+K: D
+%%continueall
+%%graceslurs 0
+(D>E) | F2 {B}A2 (B>c) | d3 e f2 |\
+w: In* A-pril when* Prim-ro-ses
+A2 {c}(BA) (GF) | (F2 E2) (D>E) | F2 {B}A2 (B>c) |
+w: paint the* sweet* plain* And* Sum-mer ap-*
+(d>c) (de) {de}f2 |[1 (A>B) (A<F) {F/}(E>D) | D4 :|\
+w: \-proach-*ing* re-joi-*ceth* the* Swain 
+[2 A2 gf {f/}e>d | d4 |: (de) | {de}f2 {a/}(gf) (ed) |
+w: \-joi-ceth* the* Swain The* Yel-low* hair'd*
+{d}c2 (ec) (B<A) | (B>cd) {c/}B {B/}(A>F) | F2 E2 (D>E) |\
+w: Lad-die* would* oft-**en times* go* To*
+F2 {B}A2 (B>c) | {e/}(d>c) (d>e) {de}f2 |[1 (A>B) (A<F) {F/}(E>D) | D4 :|
+w: wilds and deep* glens* where* the Haw-*thorn* trees* grow
+[2 A2 (gf) {f/}(Te>d) | d4 (de) | f2 {a/}gfed | d3 e f2 |\
+w: Haw-thorn* trees* grow.
+(A>d) (A<F) {F/}([EE]>D) | D4 :|
+%
+W: 2 There under the shade of old sacred Thorn
+W: With freedom he sung his loves ev'ning and morn
+W: He sang with so soft and enchanting a sound
+W: That Silvans and Fairies unseen danc'd around.
+W: 
+W: 3 The Shepherd thus sung Tho young Mary be fair 
+W: Her beauty is dash'd with a scornfull proud air 
+W: But Susie is handsome and sweetly can sing
+W: Her breath like the breeze gives perfume in the Spring. 
+W: 
+W: 4 That Maddie in all the gay bloom of her youth 
+W: Like the Moon was inconstant and never spoke truth 
+W: But Susie was faithful good humour'd and free 
+W: And fair as the Goddess that sprung from the Sea. 
+W: 
+W: 5 That Mama's fine Daughter with all her great dow'r
+W: Was aukwardly airy and frequently sour 
+W: Then sighing he wish'd would Parents agree 
+W: The witty sweet Susie his Mistress might be. 
+%
+%%center -

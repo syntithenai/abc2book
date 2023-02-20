@@ -1,0 +1,24 @@
+X: 1301
+T: Miss Ann \AEmelia Stuart's Strathspey
+C: by D.Mackintyre
+B: Niel Gow & Sons "Complete Repository" v.1 p.30 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: The final segnos aren't matched by any earlier segnos.
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - -
+% Voice 1 formatted for layout and proofreading.
+V: 1 staves=2
+|:\
+TF>GAF cFA>f | a/g/f/e/ f>F {FG}AG~G>A | TF>GAF cFA>f |\
+[1 a/g/f/e/ {e}f>d c>AA<f :|2 a/g/f/e/ f>d c<AA>c |]
+Tf>gfd c<aTf>c | d<fTc>A AGG>c |\
+(f/e/f/g/ a/g/f/e/) f>cd<f | c<fTf>d c<aTa>g ||
+.f.a.d.f .c.fA>f | a/g/f/e/ f>F {FG}AGTG>A |\
+TF>GAc .d.e.f.g | a/g/f/e/ {e}f>d c<AA<f !segno!|]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+|: f2f2 f2f2 | f2a2 c'2c2 | f2f2 f2f2 |[1 c'2b2 a2f2 :|[2 c'2b2 a2f2 |] [f2a2][f2b2] a2f2 |
+b2f2 c'2c2 | f2f2 [f2-a2][f2b2] | a2b2 f2e2 || d2B2 A2f2 | f2a2 c'2c2 | f2e2 d2B2 | c2B2 A2F2 !segno!|]

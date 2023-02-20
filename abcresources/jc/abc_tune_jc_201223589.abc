@@ -1,0 +1,25 @@
+X: 73
+T: Mr Stewart of Ballechen's Welcome Home
+R: strathspey
+Q: "Slow"
+B: William Shepherd "1st Collection" 1793 p.7 #3
+F: http://imslp.org/wiki/File:PMLP73094-Shepherd_Collections_HMT.pdf
+C: William Shepherd (17??-1812)
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: First part rewritten without 1st/2nd endings, due to problems it caused for some ABC software.
+N: The 8-bar 2nd part is repeated in the MS; the repeated 1st part is 4-bars, giving 24 bars total.
+M: C
+L: 1/16
+K: Am
+E2 |\
+A3A {AB}c3B A2E2E2^F2 | {EF}G3DE2G2 DCB,A, G,2E2 |\
+A3A {AB}c3B A2E2 E2cd | {cd}e3dc2B2 A4 A2 |
+E2 |\
+A3A {AB}c3B A2E2E2^F2 | {EF}G3DE2G2 DCB,A, G,2A,B, |\
+C3A,E3B, E3CF3D | E3A cBA^G A4 A2 |]
+|: e2 |\
+a3ba3e c3d {cd}e3c | B3Gd3B g3d edcB |\
+a3ba3e c3d {cd}e3c | E3A cBA^G {G}A4 A,2 ||
+e2 |\
+a3ba3e c3d {cd}e3c | B3dg3e dcBA G2AB |\
+c3AB3^G A3EF3D | E2EF EDCB, A,4 A,2 :|

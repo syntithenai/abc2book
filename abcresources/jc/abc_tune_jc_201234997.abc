@@ -1,0 +1,14 @@
+X: 20944
+T: Montrose Scots Measure
+%R: reel, Scots measure
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.94 #4
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+"_Brisk"(GE) |\
+(DE)G2 G3A | (BA)(Bd) e3g | (de)(ge) (dB)(AG) | {GA}B2A2 A2(GE) | (DE)G2 G3A |
+(BA)(Bd) e3g | (de)(ge) (dB)(Ad) | B2G2 G2 :: (Bc) | (dB)(dB) d3e | (dB)(dB) (de)(gd) |
+e3f (gf)(ga) | {ga}b2e2 e3f | (gf)(gf) (gf()dB) | (AB)(de) (ga)(ba) | g3e (dB)(Ad) | TB2G2 G2 :|

@@ -1,0 +1,33 @@
+X: 861
+T: Lady Ann Erikin's Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.86 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Final bass notes shortened to fix the rhythms at repeats.
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c |\
+C2-Cc (d/c/B/A/) cG | EGcE FDDE |\
+C2-Cc (d/c/B/A/) cG | EGDF ECC :|\
+g |\
+ecac (ed/c/) gc | (f/e/f/g/ a)e
+fddg |\
+ecgc (e/d/c) gc | (e/f/g) df eccg |\
+ecgc (e/d/c) gc | (f/e/f/g/ a)e fddf |\
+(e/d/c) (d/c/B) (c/B/A) (G/F/E) | (C/D/E/F/) GD ECC |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+c2c2 c2c2 | c2c2 d2d2 |\
+c2c2 c2c2 | G2G2 C2C :|\
+z |\
+c2c2 c2c2 | c2c2
+d2d2 |\
+c2c2 c2c2 | G2G2 C2C2 |\
+c2c2 c2c2 | c2c2 d2d2 |\
+c2c2 c2c2 | G2G2 C2C |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

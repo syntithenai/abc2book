@@ -1,0 +1,31 @@
+X: 1
+T: U \vsest
+O: Serbia
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: C|
+L: 1/8
+K: C
+|: "C"e2ec egfe | "G"d2dB  dfed | "Am"c2cA cedc | "G"B2BG BdcB |
+|  "F"A2AF AcBA | "C"G2GE GBAG | "G7"F2FD FAGF |1 "C"E2GA Bcd^d :|2 "C"E2EC E4 ||
+|: "F"A2AF AcBA | "C"G2GE GBAG | "G7"F2FD FAGF |1,3 "C"E2CD EFG^G :|2,4 "C"HE2EC E4 :| [K:G]
+|: "G"DGB2 Bdc2 | "D7"cAc2 "G"B3G | "D7"Bdc2 cAc2 |1,3 "G"B2BG B2BG :|2,4 "G"B2BG G4 :|
+P: with harmony
+K: C
+|: "C"[e2c2][ec][cG] [ec][ge][fd][ec] | "G"[d2B2][dB][BG] [dB][fd][ec][dB] \
+| "Am"[c2A2][cA][AE] [cA][ec][dB][cA] | "G"[B2G2][BG][GD] [BG][dB][cA][BG] |
+| "F"[A2F2][AF][FC] [AF][cA][BG][AF] | "C"[G2E2][GE][EC] [GE][BG][AF][GE] \
+| "G7"[F2D2][FD][DB,] [FD][AF][GE][FD] |1 "C"[E2C2][GE][AF] [BG][cA][d^A][^dB] :|2 "C"[E2C2][EC][CG,] [E4C4] ||
+|: "F"[A2F2][AF][FC] [AF][cA][BG][AF] | "C"[G2E2][GE][EC] [GE][BG][AF][GE] \
+| "G7"[F2D2][FD][DB,] [FD][AF][GE][FD] |1,3 "C"[E2C2][CG,][DB,] [EC][FD][G^D][^GE] :|2,4 "C"H[E2C2][EC][CG,] [E4C4] :| [K:G]
+|: "G"[DB,][GD][B2G2] [BG][dB][c2A2] | "D7"[cA][AF][c2A2] "G"[B3G3][GD] \
+| "D7"[BG][dB][c2A2] [cA][AF][c2A2] |1,3 "G"[B2G2][BG][GD] [B2G2][BG][GD] :|2,4 "G"[B2G2][BG][GD] [B4G4] :|
+P: Bb instruments
+K: D
+|: "D"[f2d2][fd][dA] [fd][af][ge][fd] | "A"[e2c2][ec][cA] [ec][ge][fd][ec] \
+| "Bm"[d2B2][dB][BF] [dB][fd][ec][dB] | "A"[c2A2][cA][AE] [cA][ec][dB][cA] |
+| "G"[B2G2][BG][GD] [BG][dB][cA][BG] | "D"[A2F2][AF][FD] [AF][cA][BG][AF] \
+| "A7"[G2E2][GE][EC] [GE][BG][AF][GE] |1 "D"[F2D2][AF][BG] [cA][dB][e=B][=ec] :|2 "D"[F2D2][FD][DA,] [F4D4] ||
+|: "G"[B2G2][BG][GD] [BG][dB][cA][BG] | "D"[A2F2][AF][FD] [AF][cA][BG][AF] \
+| "A7"[G2E2][GE][EC] [GE][BG][AF][GE] |1,3 "D"[F2D2][DA,][EC] [FD][GE][A=E][^AF] :|2,4 "D"H[F2D2][FD][DA,] [F4D4] :| [K:A]
+|: "A"[EC][AE][c2A2] [cA][ec][d2B2] | "E7"[dB][BG][d2B2] "A"[c3A3][AE] \
+| "E7"[cA][ec][d2B2] [dB][BG][d2B2] |1,3 "A"[c2A2][cA][AE] [c2A2][cA][AE] :|2,4 "A"[c2A2][cA][AE] [c4A4] :|

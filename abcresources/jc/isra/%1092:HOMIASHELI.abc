@@ -1,0 +1,19 @@
+X: 1092
+T: Homia Sheli
+O: Israel (Greece)
+F: https://www.youtube.com/watch?v=93-fPifK2Lw
+F: https://www.youtube.com/watch?v=Kz0VG9yt6j4
+F: https://www.youtube.com/watch?v=XCiet6hHUyc
+M: 7/8
+L: 1/8
+K: Bm
+Q: 1/4=120
+%%MIDI 68 oboe
+%%MIDI gchord f
+%%MIDI bassprog 80
+"Bm"FF2 FFFF|FFA2 BGA   |F4 z3      |FF2 FFFF    |\
+FFA2 BGA    |F4 z3      |FBcd ecB   |d2Bc3z      |
+B^ABd Bc2   |"Em"z4eed  |ee2d e2d   |"Bm"d2c B4  :|\
+f2f e3z     |dcB c3z    |
+"Em"e2ed2c2 |"Bm"B4z3   |\
+f2f e3z     |"Bm"dcB c3z|"Em"e2ed2c2|"Bm"B4z3    |

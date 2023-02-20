@@ -1,0 +1,50 @@
+X: 14
+T: BARTLETT HOUSE
+%R: reel
+M: C|
+L: 1/8
+Z: 2011,2014 John Chambers <jc:trillian.mit.edu>
+B: Thomas Bray's Country Dances 1699 p.34
+N: Duple minor longways, 1st couple improper
+P: AA BB ad lib.
+Q: 1/2=88 "flowing"
+K: Bb
+%----------------------------------------
+% V:1 arranged to give fewer, longer staff lines.
+V: 1
+"A"|:\
+bagf gfed | edcB A2F2 |\
+GAB2 A2F2 | A2c2 c4 |\
+efg2 e2g2 | def2 c2f2 |\
+d2cB G2c2 | F2A2 B4 :|
+"B"|:\
+fdBd fdcB | AGAB cAGF |\
+Bcde f2ga | b2g2 g3a |\
+bfd2 g2c2 | fdB2 e2A2 |\
+dBG2 F2f2 | d2B2 B4 :|
+%----------------------------------------
+V: 2
+|: D4 E4 | C4 C2A,2 | B,2G,2 A,2C2 | F2C2 A,4 |
+C2E2 G2E2 | F2D2 F2C2 | D2F2 E2C2 | D2C2 D4 :|
+|: D4 B,2D2 | C4 A,4 | B,4 C4 | B,2E2 C2F2 |
+B,4 B,2C2 | B,2D2 E2F2 | F2G2 C2B,2 G,2A,2 B,4 :|
+%----------------------------------------
+V: 3 clef=bass middle=d
+|: "Bb"B4- "Eb"B4 | "Cm"e4 "F"f4 | "Eb"e4 "F"f4 | "F"F4 f2ed |
+"Cm"c4 c'4 | "Bb"b4 "F"a4 | "Bb"b2d2 "Eb"e2-"Cm"e2 | "Bb"f2"F"F2 "Bb"B4 :|
+|: "Bb"B8 | "F"F4 f2e2 | "Bb"d2B2 "F"A2f2 | "Gm"g2"Eb"e2 "F7"f2e2 |
+"Bb"d4 "Eb"e2-"Cm"e2 | "Bb"d4 "Cm"c2-"F"c2 | "Bb"B2-"Gm"B2 "F"A2"Bb"d2 | "Eb"e2"F"f2 "Bb"B4 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%center Bartlett-House, a New Country Dance.
+%%center First Man begins Improper.
+%%begintext align
+%% The 1st Man cast off and turn up to the right Hand, to his own place, as at first, his Wo. following
+%% to the 2d Wo. place, the 2d Man casts up at the same time, and down again to his own place,
+%% as at first, his Wo. following at the same time to the 1st Wo. place, that is half round; then each Man
+%% lead his Wo. to the wall and back again .| The same again, only the We. do what the Men did, and
+%% the Men do what the We. did :| Then right Hands, and left Hands twice, each Man beginning with
+%% his own Wo. first, then foot it twice and close your Feet, the 1st Man and 2d Wo. standing with their left
+%% Shoulders to each other longways the Room, the 1st Wo. and 2d Man the same; then each Man go back
+%% with the contrary Wo. to the same place again .| Then all four cast off to the right Hand half round,
+%% and then right Hands and left three times beginning with the contrary Wo. first :| And so to the end.
+%%endtext

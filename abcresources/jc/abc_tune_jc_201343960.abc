@@ -1,0 +1,24 @@
+X: 1
+T: Teviot Brig
+T: Teviot Bridge
+B: BSFC Scottish Fiddle Rally Concert Music Book
+N: BSFC  VIII-21
+N: Gow's Repository 1817.
+N: Hunter  304
+N: OTDT  p.64
+N: Skye  p.176
+O: Gow's Repository 1817
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+f "A" |:\
+  "A"ecA E2A | "D"F2A "A"E2A | "E"EFG ABc | "D"d2c "E7"B2f |\
+  "A"ecA E2A | "D"F2A "A"E2c | "D"d2f "A"ecA |1 "E7"B3 "A"Aaf :|2 "E7"B3 "A"A2 ||
+f "B1" |\
+  "A"ecA Ace | "D"fdf fga | "A"ecA AcA | "E7"BGE E2f |\
+  "A"ecA Ace | "D"agf "A"edc | "D"dfa "A"ecA | "E7"B3 "A"A2 ||
+f "B2" |\
+  "A"ecA Ace | "D"fdf fga | "A"ecA AcA | "E7"BGE E2c/d/ |\
+  "A"ece "D"fdf | "E7"geg "F#m"agf | "Bm"edc "E7"BAG | "A"A3 A2 |]

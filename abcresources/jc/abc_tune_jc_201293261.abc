@@ -1,0 +1,49 @@
+X: 1
+T: Reel de Minuit
+M:2/4
+L:1/16
+Z:abc by Bruce Osborne - bosborne@kos.net
+K:D
+AG |\
+"D"F2D2 DFAF | "A7"G2E2 E3F | "G(Em)"GFGA BGBd | "A7"ceAc dBAG |
+"D"F2D2 DFAF | "A7"G2E2 E3F | "G(Em)"GFGA "A7"BGEG | "D"F2D2 D2 :|
+|: de |\
+"D"f2df "A"edce | "D(Bm)"dfec dcBA | "G"GBef "(Em)"gfgf | "A7"edcB Acde |
+"D"f2df "A"edce | "D(Bm)"dfec dcBA | "G"GABc "A7"dBAG | "D"F2D2 D2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Danse de Compagne
+C: Philippe Bruneau
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin, with the tune labelled "Violin"
+M: C|
+L: 1/8
+K: G
+D2 |\
+"G"Gg2g g2d2 | "C"efge "G"dBG2 | "Am"Aa2a    a2a2 | "D7"fgab    afdf |
+"G"g3g  g2d2 | "C"efge "G"dBGB | "Am"cBAc "G"BAGB | "D7"AGFA "G"G2 :|
+|: D2 |\
+"G"GABc d2Bd | "C"efge "G"dBG2 | "C"efge "G"dBGB | "Am"cBAG "D7"FADF |
+"G"GABc d2Bd | "C"efge "G"dBG2 | "C"efge "G"dBGB | "D7"cAFD  "G"G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Reel de Montebello
+C: by Richard For\^et
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+|:\
+"Am"EABc ecBA | "Fmaj7"FABc ecBA | "G"GABc dBGB | "Em7"edBA GE/F/ ED |
+"Am"EABc ecBA | "Fmaj7"FABc AcBA | "G"GABc "Em7"dBGE | EDEG [1 "Am"A3A :|[2 "Am"A2ce ||
+|:\
+"Am"aece gecA | "G"GABc dcBd | gddf ddgd | "Am"edef (3efe ce |
+"Am"aece gecA | "G"GABc dcBd | gedg edBd | "Am"cBcd [1 cAce :|[2 cBAG |]
+
+%%sep 1 1 500

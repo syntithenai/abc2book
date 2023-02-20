@@ -1,0 +1,54 @@
+X: 4022
+T: the Highland Brigade at Waterloo
+C: by John Gow
+%R: air, jig, march
+B: Niel Gow & Sons "Complete Repository" v.4 p.2 #2 (and all of p.3)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "SLOWLY"
+K: Ador
+% - - - - - - - - - -
+% Voice 1 reformatted with mostly 8-bar lines, to fit on single page.
+V: 1 staves=2
+"^A"[|] g |\
+Te>dB ABd | Te>dB dBG | e>dB ABd | e>ge/d/ TB2A |\
+Te>dB ABd | Te>dB dBG | e>dB ged | edB A2 :|
+"^B"|: ^g |\
+(aA)a (aA)a | gdg TB>AG | (aA)a (aA)a | (aA)a Ta>ge |\
+(aA)a (aA)a | gdg TB>AG | e>dB ged | edB "^Fines"A2y :|
+"^C"|: e |\
+.A.B/.d/.e .A.B/.d/.e | AB/d/e d2G | AB/d/e AB/d/e | AB/d/g Te2d |\
+AB/d/e AB/d/e | AB/d/e d2G | Te>dB ged | edB A2 :|
+"^D"|: g |\
+aA/e/a aA/e/a | gd/e/g TB2G | aA/e/a aA/e/a |  aA/e/a Ta2g |\
+aA/e/a aA/e/a | gd/e/g TB2G | Te>dB ged | edB A2 :|
+"^E"|: e |\
+AB/d/e/d/ AB/d/e/d/ | AB/d/e/d/ TB2G | AB/d/e/d/ AB/d/e/d/ | AB/d/g/d/ Te2d |\
+AB/d/e/d/ AB/d/e/d/ | AB/d/g/d/ TB2G | e>dB g>ed |
+edB A2 :|"^F"|: e |\
+aA/e/a/e/ aA/e/a/e/ | gd/e/g/d/ TB2G | aA/e/a/e/ aA/e/a/e/ | aA/e/a/^g/ Ta2e |\
+aA/e/a/e/ aA/e/a/e/ | gd/e/g/d/ TB2G |
+Te>dB ged | edB A2 :|\
+"^G"|: g |\
+(e/g/).e/(d/e/).d/ (e/g/).e/(d/e/).d/ | (e/g/).e/(d/g/).d/ TB2G | (e/g/).e/(d/e/).d/ (e/g/).e/(d/e/).d/ | (e/g/).e/(d/g/).d/ TB2A |
+(e/g/).e/(d/e/).d/ (e/g/).e/(d/e/).d/ | (e/g/)e/.d/g/.d/ TB2G | Te>dB g>ed | edB A2 :|\
+"^H"|: e |\
+(a/b/)a/.^g/(a/e/) (a/b/)a/.^g/(a/e/) | (=g/a/)g/.d/(g/d/) TB2G |
+(a/b/)a/.^g/(a/e/) (a/b/)a/.^g/(a/e/) | (a/b/)a/.^g/(a/e/) ~a2g |\
+(a/b/)a/.^g/(a/e/) (a/b/)a/.^g/(a/e/) | (=g/a/)g/.d/(g/d/) TB2G | Te>dB g>ed | edB A2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+[A3e3a3] [A3e3a3] | [A3e3a3] [G3d3g3] | [A3e3a3] [A3e3a3] | [A3e3a3] [A3e3a3] | [A3e3a3] [A3e3a3] | [A3e3a3] [G3d3g3] |
+[A3e3a3] [D3d3] | [E3e3] [A2e2a2] :||: z | [A3a3] [A3a3] | [G3g3] [G3g3] | [A3a3] [A3a3] | [A3a3] [A3a3] | [A3a3] [A3a3] |
+[G3g3] [G3g3] | [A3a3] [D3d3] | [E3e3] "^Fines"[A2A,2]y :||: z | [A3a3] [A3a3] | [A3a3] [G3g3] | [A3a3] [A3a3] | [A3a3] [A3a3] | [A3a3] [A3a3] |
+[A3a3] [G3g3] | [A3a3] [D3d3] | [E3e3] [A2A,2] :||: z | [A3a3] [A3a3] | [G3g3] [G3g3] | [A3a3] [A3a3] | [A3a3] [A3a3] |
+[A3a3] [A3a3] | [G3g3] [G3g3] | [A3a3] [D3d3] | [E3e3] [A2A,2] :||: z | [A3a3] [A3a3] | [A3a3] [G3g3] |
+[A3a3] [A3a3] | [A3a3] [A3a3] | [A3a3] [A3a3] | [A3a3] [G3g3] | [A3a3] [D3d3] |
+[E3e3] [A2A,2] :||: z | [A3e3a3] [A3e3a3] | [G3g3] [G3g3] | [A3e3a3] [A3e3a3] | [A3e3a3] [A3e3a3] |
+[A3e3a3] [A3e3a3] | [G3g3] [G3g3] | [A3a3] [D3d3] | [E3e3] [A,2A2] :||: z | [A3e3a3] [A3e3a3] |
+[A3e3a3] [G3g3] | [A3e3a3] [A3e3a3] | [A3e3a3] [A3e3a3] | [A3e3a3] [A3e3a3] | 
+[A3e3a3] [G3g3] | [A3a3] [D3d3] | [E3e3] [A,2A2] :||: z | [A3e3a3] [A3e3a3] | [G3g3] [G3g3] | [A3e3a3]
+[A3e3a3] | [A3e3a3] [A3e3a3] | [A3e3a3] [A3e3a3] | [G3g3] [G3g3] | [A3a3] [D3d3] | [E3e3] "^D.C."[A,2A2] |]

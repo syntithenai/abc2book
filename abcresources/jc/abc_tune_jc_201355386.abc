@@ -1,0 +1,4019 @@
+
+X: 1
+T: A oanzigs Hendl
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: Ab
+|: [C2A2] \
+| "Eb7"([B,2G2][D2B2]) | "Ab"([C2A2] [Ec])z [C2A2] \
+| "Eb7"([B,2G2][D2B2]) | "Ab"[c2E2] z2 [A2C2] \
+| "Eb7"([B,2G2][D2B2]) | "Ab"([C2A2] [Ec])z [e2A2] \
+| "Eb7"([G2d2][D2G2]) | "Ab"[A2C2] z2 :|
+|: [e2A2] \
+| "Eb7"([G2d2][D2B2]) | "Ab"([E2c2] [C2A2])z [e2A2] \
+| "Eb7"([G2d2][D2B2]) | "Ab"[E2c2] z2 [e2A2] \
+| "Eb7"([G2d2][D2B2]) | "Ab"([E2c2] [C2A2])z [E2c2] \
+| "Eb7"([D2B2][B,2G2]) | "Ab"[A2C2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 2
+T: A oanzigs Hendl
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: Bb
+|: [D2B2] \
+| "F7"([C2A2][E2c2]) | "Bb"([D2B2] [Fd])z [D2B2] \
+| "F7"([C2A2][E2c2]) | "Bb"[d2F2] z2 [B2D2] \
+| "F7"([C2A2][E2c2]) | "Bb"([D2B2] [Fd])z [f2B2] \
+| "F7"([A2e2][E2A2]) | "Bb"[B2D2] z2 :|
+|: [f2B2] \
+| "F7"([A2e2][E2c2]) | "Bb"([F2d2] [D2B2])z [f2B2] \
+| "F7"([A2e2][E2c2]) | "Bb"[F2d2] z2 [f2B2] \
+| "F7"([A2e2][E2c2]) | "Bb"([F2d2] [D2B2])z [F2d2] \
+| "F7"([E2c2][C2A2]) | "Bb"[B2D2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 3
+T: A oanzigs Hendl
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: C
+|: [E2c2] \
+| "G7"([D2B2][F2d2]) | "C"([E2c2] [Ge])z [E2c2] \
+| "G7"([D2B2][F2d2]) | "C"[e2G2] z2 [c2E2] \
+| "G7"([D2B2][F2d2]) | "C"([E2c2] [Ge])z [g2c2] \
+| "G7"([B2f2][F2B2]) | "C"[c2E2] z2 :|
+|: [g2c2] \
+| "G7"([B2f2][F2d2]) | "C"([G2e2] [E2c2])z [g2c2] \
+| "G7"([B2f2][F2d2]) | "C"[G2e2] z2 [g2c2] \
+| "G7"([B2f2][F2d2]) | "C"([G2e2] [E2c2])z [G2e2] \
+| "G7"([F2d2][D2B2]) | "C"[c2E2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 4
+T: A oanzigs Hendl
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: Eb
+|: [G2E2] \
+| "Bb7"([F2D2][A2F2]) | "Eb"([G2E2] [BG])z [G2E2] \
+| "Bb7"([F2D2][A2F2]) | "Eb"[G2E2] z2 [G2E2] \
+| "Bb7"([F2D2][A2F2]) | "Eb"([G2E2] [BG])z [B2G2] \
+| "Bb7"([A2F2][D2B,2]) | "Eb"[E2E2] z2 :|
+|: [B2G2] \
+| "Bb7"([A2F2][F2D2]) | "Eb"([G2E2] [EE])z [B2G2] \
+| "Bb7"([A2F2][F2D2]) | "Eb"[G2E2] z2 [B2G2] \
+| "Bb7"([A2F2][F2D2]) | "Eb"([G2E2] [EE])z [G2E2] \
+| "Bb7"([F2D2][D2B,2]) | "Eb"[E2E2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 5
+T: A oanzigs Hendl
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: F
+|: [A2F2] \
+| "C7"([G2E2][B2G2]) | "F"([A2F2] [cA])z [A2F2] \
+| "C7"([G2E2][B2G2]) | "F"[A2F2] z2 [A2F2] \
+| "C7"([G2E2][B2G2]) | "F"([A2F2] [cA])z [c2A2] \
+| "C7"([B2G2][E2C2]) | "F"[F2F2] z2 :|
+|: [c2A2] \
+| "C7"([B2G2][G2E2]) | "F"([A2F2] [FF])z [c2A2] \
+| "C7"([B2G2][G2E2]) | "F"[A2F2] z2 [c2A2] \
+| "C7"([B2G2][G2E2]) | "F"([A2F2] [FF])z [A2F2] \
+| "C7"([G2E2][E2C2]) | "F"[F2F2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 6
+T: A oanzigs Hendl
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: G
+|: [B2G2] \
+| "D7"([A2F2][c2A2]) | "G"([B2G2] [dB])z [B2G2] \
+| "D7"([A2F2][c2A2]) | "G"[B2G2] z2 [B2G2] \
+| "D7"([A2F2][c2A2]) | "G"([B2G2] [dB])z [d2B2] \
+| "D7"([c2A2][F2D2]) | "G"[G2G2] z2 :|
+|: [d2B2] \
+| "D7"([c2A2][A2F2]) | "G"([B2G2] [GG])z [d2B2] \
+| "D7"([c2A2][A2F2]) | "G"[B2G2] z2 [d2B2] \
+| "D7"([c2A2][A2F2]) | "G"([B2G2] [GG])z [B2G2] \
+| "D7"([A2F2][F2D2]) | "G"[G2G2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 7
+T: die Alte Kathe (C)
+R:zwiefacher
+O:Bavaria
+Z:John Chambers <jc@trillian.mit.edu>
+N:From handwritten MS and transcription by Tom Pixton
+M:3/4
+K:C
+|:      "C"[G3E3] [FD][EC][FD] | [G2E2] z2 [c2E2] |[M:2/4]"G7"[B2D2] [d2F2] | "C"[c2E2] [e2G2] \
+|[M:3/4]"C"[G3E3] [FD][EC][FD] | [G2E2] z2 [c2E2] |[M:2/4]"G7"[B2D2] [d2F2] | "C"[c2E2] z2 :|
+M:3/4
+|:      "F"[A2F2] [fA][eG] [f2A2] | "C"[G2E2] [eG][^d^F] [e2G2] |[M:2/4]"G7"[B2G2] [d2F2] | "C"[c2E2] [e2G2] \
+|[M:3/4]"F"[A2F2] [fA][eG] [f2A2] | "C"[G2E2] [eG][^d^F] [e2G2] |[M:2/4]"G7"[B2G2] [d2F2] | "C"[c2E2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 8
+T: die Alte Kathe (D)
+R:zwiefacher
+O:Bavaria
+Z:John Chambers <jc@trillian.mit.edu>
+N:From handwritten MS and transcription by Tom Pixton
+M:3/4
+K:D
+|:      "D"[A3F3] [GE][FD][GE] | [A2F2] z2 [d2F2] |[M:2/4]"A7"[c2E2] [e2G2] | "D"[d2F2] [f2A2] \
+|[M:3/4]"D"[A3F3] [GE][FD][GE] | [A2F2] z2 [d2F2] |[M:2/4]"A7"[c2E2] [e2G2] | "D"[d2F2] z2 :|
+M:3/4
+|:      "G"[B2G2] [gB][fA] [g2B2] | "D"[A2F2] [fA][^e^G] [f2A2] |[M:2/4]"A7"[c2A2] [e2G2] | "D"[d2F2] [f2A2] \
+|[M:3/4]"G"[B2G2] [gB][fA] [g2B2] | "D"[A2F2] [fA][^e^G] [f2A2] |[M:2/4]"A7"[c2A2] [e2G2] | "D"[d2F2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 9
+T: die Alte Kathe (F)
+R:zwiefacher
+O:Bavaria
+Z:John Chambers <jc@trillian.mit.edu>
+N:From handwritten MS and transcription by Tom Pixton
+M:3/4
+K:F
+|:      "F"[c3A3] [BG][AF][BG] | [c2A2] z2 [f2A2] |[M:2/4]"C7"[e2G2] [g2B2] | "F"[f2A2] [a2c2] \
+|[M:3/4]"F"[c3A3] [BG][AF][BG] | [c2A2] z2 [f2A2] |[M:2/4]"C7"[e2G2] [g2B2] | "F"[f2A2] z2 :|
+M:3/4
+|:      "Bb"[d2B2] [bd][ac] [b2d2] | "F"[c2A2] [ac][^g=B] [a2c2] |[M:2/4]"C7"[e2c2] [g2B2] | "F"[f2A2] [a2c2] \
+|[M:3/4]"Bb"[d2B2] [bd][ac] [b2d2] | "F"[c2A2] [ac][^g=B] [a2c2] |[M:2/4]"C7"[e2c2] [g2B2] | "F"[f2A2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 10
+T: die Alte Kathe (G)
+R:zwiefacher
+O:Bavaria
+Z:John Chambers <jc@trillian.mit.edu>
+N:From handwritten MS and transcription by Tom Pixton
+M:3/4
+K:G
+|:      "G"[d3B3] [cA][BG][cA] | [d2B2] z2 [g2B2] |[M:2/4]"D7"[f2A2] [a2c2] | "G"[g2B2] [b2d2] \
+|[M:3/4]"G"[d3B3] [cA][BG][cA] | [d2B2] z2 [g2B2] |[M:2/4]"D7"[f2A2] [a2c2] | "G"[g2B2] z2 :|
+M:3/4
+|:      "C"[e2c2] [c'e][bd] [c'2e2] | "G"[d2B2] [bd][^a^c] [b2d2] |[M:2/4]"D7"[f2d2] [a2c2] | "G"[g2B2] [b2d2] \
+|[M:3/4]"C"[e2c2] [c'e][bd] [c'2e2] | "G"[d2B2] [bd][^a^c] [b2d2] |[M:2/4]"D7"[f2d2] [a2c2] | "G"[g2B2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 11
+T: Der Anf\"anger (Bb)
+C: David Schonfeld
+N: Composed for NOMAD 2004
+M: 23/44
+L: 1/8
+K: Bb
+|: "Bb"B2 f3 d | B2 F2 D2 | "Eb"E2 G2 | "F7"F2 A2 \
+|  "Bb"B2 f3 d | B2 F2 D2 | "F7"F2 A2 | "Bb"B3  z :|
+|: "Cm"e3 d cd | e2 d2 c2 | "F7"A2 c2 | "Bb"B2 d2 \
+|  "Cm"e3 d cd | e2 d2 c2 | "F7"[f2F2] [a2A2] | "Bb"[b2B2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 12
+T: Der Anf\"anger (C)
+C: David Schonfeld
+N: Composed for NOMAD 2004
+M: 23/44
+L: 1/8
+K: C
+|:  "C"c2 g3 e | c2 G2 E2 |  "F"F2 A2 | "G7"G2  B2 \
+|   "C"c2 g3 e | c2 G2 E2 | "G7"G2 B2 |  "C"c3   z :|
+|: "Dm"f3 e de | f2 e2 d2 | "G7"B2 d2 |  "C"c2  e2 \
+|  "Dm"f3 e de | f2 e2 d2 | "G7"[g2G2] [b2B2] |  "C"[c'2c2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 13
+T: Der Anf\"anger (Eb)
+C: David Schonfeld
+N: Composed for NOMAD 2004
+M: 23/44
+L: 1/8
+K: Eb
+|: "Eb"e2 b3 g | e2 B2 G2 |  "Ab"A2 c2 | "Bb7"B2 d2 \
+|  "Eb"e2 b3 g | e2 B2 G2 | "Bb7"B2 d2 | "Eb"e3   z :|
+|: "Fm"a3 g fg | a2 g2 f2 | "Bb7"d2 f2 | "Eb"e2  g2 \
+|  "Fm"a3 g fg | a2 g2 f2 | "Bb7"B2 d2 | "Eb"e2  z2 :|
+
+
+%%sep 1 1 500
+
+X: 14
+T: Der Anf\"anger (F)
+C: David Schonfeld
+N: Composed for NOMAD 2004
+M: 23/44
+L: 1/8
+K: F
+|:  "F"f2 c'3 a | f2 c2 A2 | "Bb"B2 d2 | "C7"c2 e2 \
+|   "F"f2 c'3 a | f2 c2 A2 | "C7"c2 e2 | "F"f3   z :|
+|: "Gm"b3 a  ga | b2 a2 g2 | "C7"e2 g2 | "F"f2  a2 \
+|  "Gm"b3 a  ga | b2 a2 g2 | "C7"c2 e2 | "F"f2  z2 :|
+
+
+%%sep 1 1 500
+
+X: 15
+T: 's Bachm\"uhlerl (Ab)
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: Ab
+|: "Ab"[cA][BG] [AF][BG] [cA][dB] | [c2A2][e2c2] [e4c4] \
+| "Eb7"[B2G2] [dB][c=A] [dB][BG] | "Ab"A2F2 E4 \
+| "Ab"[cA][BG] [AF][BG] [cA][dB] | [c2A2][e2c2] [e4c4] \
+| "Eb7"[B2G2] [dB][c=A] [dB][BG] |1 "Ab"A2 z2 z2 :|2 "Ab"A2 z2 EF ||
+|: "Eb7"E2 [BG][BG] [BG][BG] |[B2G2] z2 EF \
+| "Ab"E2 [cA][cA] [cA][cA] | [c2A2] z2 EF \
+| "Eb7"E2[B2G2] [B4G4] | "Ab"E2[c2A2] [c4A4] \
+|1 "Eb7"[e2G2] [dB][cA] [BG][dB] | "Ab"[c2A2] z2 EF \
+:|2 "Eb7"[fd][ec] [=d=B][ec] [_d_B][BG] | "Ab"A2 z2 z2 |]
+
+
+%%sep 1 1 500
+
+X: 16
+T: 's Bachm\"uhlerl (Bb)
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: Bb
+|: "Bb"[dB][cA] [BG][cA] [dB][ec] | [d2B2][f2d2] [f4d4] \
+| "F7"[c2A2] [ec][d=B] [ec][cA] | "Bb"B2G2 F4 \
+| "Bb"[dB][cA] [BG][cA] [dB][ec] | [d2B2][f2d2] [f4d4] \
+| "F7"[c2A2] [ec][d=B] [ec][cA] |1 "Bb"B2 z2 z2 :|2 "Bb"B2 z2 FG ||
+|: "F7"F2 [cA][cA] [cA][cA] |[c2A2] z2 FG \
+| "Bb"F2 [dB][dB] [dB][dB] | [d2B2] z2 FG \
+| "F7"F2[c2A2] [c4A4] | "Bb"F2[d2B2] [d4B4] \
+|1 "F7"[f2A2] [ec][dB] [cA][ec] | "Bb"[d2B2] z2 FG \
+:|2 "F7"[ge][fd] [=e^c][fd] [_e=c][cA] | "Bb"B2 z2 z2 |]
+
+
+%%sep 1 1 500
+
+X: 17
+T: 's Bachm\"uhlerl (Eb)
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: Eb
+|: "Eb"[GE][FD] [EC][FD] [GE][AF] | [G2E2][B2G2] [B4G4] \
+| "Bb7"[F2D2] [AF][G=E] [AF][FD] | "Eb"E2[c2E2] [B4G4] \
+| "Eb"[GE][FD] [EC][FD] [GE][AF] | [G2E2][B2G2] [B4G4] \
+| "Bb7"[F2D2] [AF][G=E] [AF][FD] |1 "Eb"E2 z2 z2 :|2 "Eb"E2 z2 [BG][cA] ||
+|: "Bb7"[B2D2] [FD][FD] [FD][FD] |[F2D2] z2 [BD][cA] \
+| "Eb"[B2G2] [GE][GE] [GE][GE] | [G2E2] z2 [BG][cA] \
+| "Bb7"[B2D2][F2D2] [F4D4] | "Eb"[B2E2][G2E2] [G4E4] \
+|1 "Bb7"[B2D2] [AF][GE] [FD][AF] | "Eb"[G2E2] z2 [BG][cA] \
+:|2 "Bb7"[cA][BG] [=A^F][BG] [c_A][dB] | "Eb"[e2G2] z2 z2 |]
+
+
+%%sep 1 1 500
+
+X: 18
+T: 's Bachm\"uhlerl (F)
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: F
+|: "F"[AF][GE] [FD][GE] [AF][BG] | [A2F2][c2A2] [c4A4] \
+| "C7"[G2E2] [BG][A^F] [BG][GE] | "F"F2[d2F2] [c4A4] \
+| "F"[AF][GE] [FD][GE] [AF][BG] | [A2F2][c2A2] [c4A4] \
+| "C7"[G2E2] [BG][A^F] [BG][GE] |1 "F"F2 z2 z2 :|2 "F"F2 z2 [cA][dB] ||
+|: "C7"[c2E2] [GE][GE] [GE][GE] |[G2E2] z2 [cE][dB] \
+| "F"[c2A2] [AF][AF] [AF][AF] | [A2F2] z2 [cA][dB] \
+| "C7"[c2E2][G2E2] [G4E4] | "F"[c2F2][A2F2] [A4F4] \
+|1 "C7"[c2E2] [BG][AF] [GE][BG] | "F"[A2F2] z2 [cA][dB] \
+:|2 "C7"[dB][cA] [=B^G][cA] [d_B][ec] | "F"[f2A2] z2 z2 |]
+
+
+%%sep 1 1 500
+
+X: 19
+T: Bayrischer Bauer [Bb]
+T: Maderl
+R: zweifacher
+M: 32/44
+L: 1/8
+K: Bb
+|: [FD][BF][dB] \
+|"Bb"[f3d3] [ec] [d2B2] | [d2B2] [e2c2] [f2d2] \
+|"Eb"[g4e4] | "F7"[c4A4] \
+|    [e3c3] [dB] [c2A2] | [A2c2] [d2B2] [e2c2] \
+|"Bb"[f4d4] | [d4B4] \
+|    [BF][dB] [d2B2] [cA][BG] | "F7"[A4F4] [F2E2] |
+|"F7"[cE][eG] [e2G2] [dF][cE] | "Bb"[B4D4] [d2F2] \
+|    [d2B2] [f2d2] | "Eb"[e2c2] [g2B2] \
+|"F7"[c2A2] [ec][dB] [c2A2] | "Bb"[d2B2] [f2d2] \
+|    [B2F2] [d2B2] | "F7"[cA][dB] [e2c2] [A2E2] | "Bb"[B2D2] z :|
+
+
+%%sep 1 1 500
+
+X: 20
+T: Bayrischer Bauer [C]
+T: Maderl
+R: zweifacher
+M: 32/44
+L: 1/8
+K: C
+|: [GE][cG][ec] \
+| "C"[g3e3] [fd] [e2c2] | [e2c2] [f2d2] [g2e2] \
+| "F"[a4f4] | "G7"[d4B4] \
+|    [f3d3] [ec] [d2B2] | [B2d2] [e2c2] [f2d2] \
+| "C"[g4e4] | [e4c4] \
+|    [cG][ec] [e2c2] [dB][cA] | "G7"[B4G4] [G2F2] |
+|"G7"[dF][fA] [f2A2] [eG][dF] | "C"[c4E4] [e2G2] \
+|    [e2c2] [g2e2] | "F"[f2d2] [a2c2] \
+|"G7"[d2B2] [fd][ec] [d2B2] | "C"[e2c2] [g2e2] \
+|    [c2G2] [e2c2] | "G7"[dB][ec] [f2d2] [B2F2] | "C"[c2E2] z :|
+
+
+%%sep 1 1 500
+
+X: 21
+T: Bayrischer Bauer [F]
+T: Maderl
+R: zweifacher
+M: 32/44
+L: 1/8
+%%partsspace 0
+K: F
+%%indent 400
+"intro"| "F"[c3A3] [BG] [A2F2] | [A2F2] [B2G2] [c2A2] | "Bb"[d4B4] "C7"[GB,][AC] | "F"[F2A,2] z ||
+|: [CA,][FC][AF] \
+|  "F"[c3A3] [BG] [A2F2] | [A2F2] [B2G2] [c2A2] \
+| "Bb"[d4B4] | "C7"[G4E4] \
+|     [B3G3] [AF] [G2E2] | [E2G2] [A2F2] [B2G2] \
+|  "F"[c4A4] | [A4F4] \
+|     [FC][AF] [A2F2] [GE][FD] | "C7"[E4C4] [C2B,2] |
+| "C7"[GB,][BD] [B2D2] [AC][GB,] | "F"[F4A,4] [A2C2] \
+|     [A2F2] [c2A2] | "Bb"[B2G2] [d2F2] \
+| "C7"[G2E2] [BG][AF] [G2E2] | "F"[A2F2] [c2A2] \
+|     [F2C2] [A2F2] | "C7"[GE][AF] [B2G2] [E2B,2] | "F"[F2A,2] z :|
+
+
+%%sep 1 1 500
+
+X: 22
+T: Bayrischer Bauer [G]
+T: Maderl
+R: zweifacher
+M: 32/44
+L: 1/8
+%%partsspace 0
+%%indent 400
+K: G
+"intro"| "G"[d3B3] [cA] [B2G2] | [B2G2] [c2A2] [d2B2] | "C"[e4c4] "D7"[AC][BD] | "G"[G2B,2] z ||
+|: [DB,][GD][BG] \
+| "G"[d3B3] [cA] [B2G2] | [B2G2] [c2A2] [d2B2] \
+| "C"[e4c4] | "D7"[A4F4] \
+|    [c3A3] [BG] [A2F2] | [F2A2] [B2G2] [c2A2] \
+| "G"[d4B4] | [B4G4] \
+|    [GD][BG] [B2G2] [AF][GE] | "D7"[F4D4] [D2C2] |
+|"D7"[AC][cE] [c2E2] [BD][AC] | "G"[G4B,4] [B2D2] \
+|    [B2G2] [d2B2] | "C"[c2A2] [e2G2] \
+|"D7"[A2F2] [cA][BG] [A2F2] | "G"[B2G2] [d2B2] \
+|    [G2D2] [B2G2] | "D7"[AF][BG] [c2A2] [F2C2] | "G"[G2B,2] z :|
+
+
+%%sep 1 1 500
+
+X: 23
+T: B\"ohmischer Winde (Ab)
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: Ab
+|: "Ab"[A2C] [AC][BE] [cA][dB] | [e4c] [e2c] \
+| "Db"[f2d][f2d] "Ab"[e4c] | "Db"[f2d][f2d] "Ab"[e4c] \
+| "Eb7"[d3B] [dB] [B2G] | "Ab"[c4A] [A2C] \
+| "Eb7"[B2D][B2D] "Ab"[A4C] | "Eb7"[B2D][B2D] "Ab"[A4C] :|
+|: "Eb7"[e3G] [dG] [B2G] | "Ab"[c4A] E2 \
+| "Db"[F2D][A2F] "Ab"[E4C] | "Db"[F2D][A2F] "Ab"[E4C] \
+| "Eb7"[e3G] [dG] [B2G] | "Ab"[c4A] [A2C] \
+| "Eb7"[B2D][B2D] "Ab"[A4C] |1 "Eb7"[B2D][B2D] "Ab"[A4C] :|2 "Eb7"E2[G2D] "Ab"[A4C] ||
+
+
+%%sep 1 1 500
+
+X: 24
+T: B\"ohmischer Winde (Bb)
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: Bb
+|: "Bb"[B2D] [BD][cF] [dB][ec] | [f4d] [f2d] \
+| "Eb"[g2e][g2e] "Bb"[f4d] | "Eb"[g2e][g2e] "Bb"[f4d] \
+| "F7"[e3c] [ec] [c2A] | "Bb"[d4B] [B2D] \
+| "F7"[c2E][c2E] "Bb"[B4D] | "F7"[c2E][c2E] "Bb"[B4D] :|
+|: "F7"[f3A] [eA] [c2A] | "Bb"[d4B] F2 \
+| "Eb"[G2E][B2G] "Bb"[F4D] | "Eb"[G2E][B2G] "Bb"[F4D] \
+| "F7"[f3A] [eA] [c2A] | "Bb"[d4B] [B2D] \
+| "F7"[c2E][c2E] "Bb"[B4D] |1 "F7"[c2E][c2E] "Bb"[B4D] :|2 "F7"F2[A2E] "Bb"[B4D] ||
+
+
+%%sep 1 1 500
+
+X: 25
+T: B\"ohmischer Winde (Eb)
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: Eb
+|: "Eb"E2E[FD] [GE][AF] | [B4G] [B2G] \
+| "Ab"[c2A][c2A] "Eb"[B4G] | "Ab"[c2A][c2A] "Eb"[B4G] \
+| "Bb7"[A3F] [AF] [F2D] | "Eb"[G4E] E2 \
+| "Bb7"[F2D][F2D] "Eb"[E4E] | "Bb7"[F2D][F2D] "Eb"[E4E] :|
+|: "Bb7"[B3D] [AD] [F2D] | "Eb"[G4E] [B2G] \
+| "Ab"[c2A][e2c] "Eb"[B4G] | "Ab"[c2A][e2c] "Eb"[B4G] \
+| "Bb7"[B3D] [AD] [F2D] | "Eb"[G4E] E2 \
+| "Bb7"[F2D][F2D] "Eb"[E4E] |1 "Bb7"[F2D][F2D] "Eb"[E4E] :|2 "Bb7"[B2D][d2A] "Eb"[e4G] ||
+
+
+%%sep 1 1 500
+
+X: 26
+T: B\"ohmischer Winde (F)
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: F
+|: "F"F2F[GE] [AF][BG] | [c4A] [c2A] \
+| "Bb"[d2B][d2B] "F"[c4A] | "Bb"[d2B][d2B] "F"[c4A] \
+| "C7"[B3G] [BG] [G2E] | "F"[A4F] F2 \
+| "C7"[G2E][G2E] "F"[F4F] | "C7"[G2E][G2E] "F"[F4F] :|
+|: "C7"[c3E] [BE] [G2E] | "F"[A4F] [c2A] \
+| "Bb"[d2B][f2d] "F"[c4A] | "Bb"[d2B][f2d] "F"[c4A] \
+| "C7"[c3E] [BE] [G2E] | "F"[A4F] F2 \
+| "C7"[G2E][G2E] "F"[F4F] |1 "C7"[G2E][G2E] "F"[F4F] :|2 "C7"[c2E][e2B] "F"[f4A] ||
+
+
+%%sep 1 1 500
+
+X: 27
+T: B\"ohmisher Winde (Ab)
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: Ab
+|: "Ab"[A2C] [AC][BE] [cA][dB] | [e4c] [e2c] \
+| "Db"[f2d][f2d] "Ab"[e4c] | "Db"[f2d][f2d] "Ab"[e4c] \
+| "Eb7"[d3B] [dB] [B2G] | "Ab"[c4A] [A2C] \
+| "Eb7"[B2D][B2D] "Ab"[A4C] | "Eb7"[B2D][B2D] "Ab"[A4C] :|
+|: "Eb7"[e3G] [dG] [B2G] | "Ab"[c4A] E2 \
+| "Db"[F2D][A2F] "Ab"[E4C] | "Db"[F2D][A2F] "Ab"[E4C] \
+| "Eb7"[e3G] [dG] [B2G] | "Ab"[c4A] [A2C] \
+| "Eb7"[B2D][B2D] "Ab"[A4C] |1 "Eb7"[B2D][B2D] "Ab"[A4C] :|2 "Eb7"E2[G2D] "Ab"[A4C] ||
+
+
+%%sep 1 1 500
+
+X: 28
+T: B\"ohmisher Winde (Bb)
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: Bb
+|: "Bb"[B2D] [BD][cF] [dB][ec] | [f4d] [f2d] \
+| "Eb"[g2e][g2e] "Bb"[f4d] | "Eb"[g2e][g2e] "Bb"[f4d] \
+| "F7"[e3c] [ec] [c2A] | "Bb"[d4B] [B2D] \
+| "F7"[c2E][c2E] "Bb"[B4D] | "F7"[c2E][c2E] "Bb"[B4D] :|
+|: "F7"[f3A] [eA] [c2A] | "Bb"[d4B] F2 \
+| "Eb"[G2E][B2G] "Bb"[F4D] | "Eb"[G2E][B2G] "Bb"[F4D] \
+| "F7"[f3A] [eA] [c2A] | "Bb"[d4B] [B2D] \
+| "F7"[c2E][c2E] "Bb"[B4D] |1 "F7"[c2E][c2E] "Bb"[B4D] :|2 "F7"F2[A2E] "Bb"[B4D] ||
+
+
+%%sep 1 1 500
+
+X: 29
+T: B\"ohmisher Winde (Eb)
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: Eb
+|: "Eb"E2E[FD] [GE][AF] | [B4G] [B2G] \
+| "Ab"[c2A][c2A] "Eb"[B4G] | "Ab"[c2A][c2A] "Eb"[B4G] \
+| "Bb7"[A3F] [AF] [F2D] | "Eb"[G4E] E2 \
+| "Bb7"[F2D][F2D] "Eb"[E4E] | "Bb7"[F2D][F2D] "Eb"[E4E] :|
+|: "Bb7"[B3D] [AD] [F2D] | "Eb"[G4E] [B2G] \
+| "Ab"[c2A][e2c] "Eb"[B4G] | "Ab"[c2A][e2c] "Eb"[B4G] \
+| "Bb7"[B3D] [AD] [F2D] | "Eb"[G4E] E2 \
+| "Bb7"[F2D][F2D] "Eb"[E4E] |1 "Bb7"[F2D][F2D] "Eb"[E4E] :|2 "Bb7"[B2D][d2A] "Eb"[e4G] ||
+
+
+%%sep 1 1 500
+
+X: 30
+T: B\"ohmisher Winde (F)
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: F
+|: "F"F2F[GE] [AF][BG] | [c4A] [c2A] \
+| "Bb"[d2B][d2B] "F"[c4A] | "Bb"[d2B][d2B] "F"[c4A] \
+| "C7"[B3G] [BG] [G2E] | "F"[A4F] F2 \
+| "C7"[G2E][G2E] "F"[F4F] | "C7"[G2E][G2E] "F"[F4F] :|
+|: "C7"[c3E] [BE] [G2E] | "F"[A4F] [c2A] \
+| "Bb"[d2B][f2d] "F"[c4A] | "Bb"[d2B][f2d] "F"[c4A] \
+| "C7"[c3E] [BE] [G2E] | "F"[A4F] F2 \
+| "C7"[G2E][G2E] "F"[F4F] |1 "C7"[G2E][G2E] "F"[F4F] :|2 "C7"[c2E][e2B] "F"[f4A] ||
+
+
+%%sep 1 1 500
+
+X: 31
+T: Eichelober (Ab)
+R: zwiefacher
+M: 23/44
+L: 1/4
+K: Ab
+|: E \
+| "Ab"[AC][cE] | [eA][cE] | "Eb7"[BD] [dG] [GD] | "Ab"[AC] [cA] E \
+| "Ab"[AC][cE] | [eA][cE] | "Eb7"[BD] [dG] [GD] | "Ab"[AC] z :|
+|: [AC] \
+| "Db"[d-F] [d-D] [dA] | "Ab"[c-E] [c-C] [cA] || "Db"[d-F] [d-D] [dA] | "Ab"[c-E] [c-C] E \
+| "Ab"[AC][cE] | [eA][cE] | "Eb7"[BD] [dG] [GD] | "Ab"[AC] z :|
+
+
+%%sep 1 1 500
+
+X: 32
+T: Eichelober (Bb)
+R: zwiefacher
+M: 23/44
+L: 1/4
+K: Bb
+|: F \
+| "Bb"[BD][dF] | [fB][dF] | "F7"[cA] [eF] [AE] | "Bb"[BD] [dB] F \
+| "Bb"[BD][dF] | [fB][dF] | "F7"[cA] [eF] [AE] | "Bb"[BD] z :|
+|: [BD] \
+| "Eb"[e-G] [e-E] [eB] | "Bb"[d-F] [d-D] [dB] || "Eb"[e-G] [e-E] [eB] | "Bb"[d-F] [d-D] F \
+| "Bb"[BD][dF] | [fB][dF] | "F7"[cA] [eF] [AE] | "Bb"[BD] z :|
+
+
+%%sep 1 1 500
+
+X: 33
+T: Eichelober (Eb)
+R: zwiefacher
+M: 23/44
+L: 1/4
+K: Eb
+|: B, \
+| "Eb"EG | [BG][GE] | "Bb7"[FD] [AF] [DB,] | "Eb"E [GE] B, \
+| "Eb"EG | [BG][GE] | "Bb7"[FD] [AF] [DB,] | "Eb"E z :|
+|: [eG] \
+| "Ab"[cA] A [ec] | "Eb" [BG] [GE] [eG] | "Ab"[cA] A [ec] | "Eb" [BG] [GE] B, \
+| "Eb"EG | [BG][GE] |1"Bb7"[FD] [AF] [DB,] | "Eb"E z :|2 "Bb7"[FD] [AF] [dA] | "Eb"[eG] z :|
+
+
+%%sep 1 1 500
+
+X: 34
+T: Eichelober (F)
+R: zwiefacher
+M: 23/44
+L: 1/4
+K: F
+|: [CA,] \
+| "F"[FC][AF] | [cA][AF] | "C7"[GE] [BC] [EB,] | "F"[FA,] [AF] [CA,] \
+| "F"[FC][AF] | [cA][AF] | "C7"[GE] [BC] [EB,] | "F"[FA,] z :|
+|: [fA] \
+| "Bb"[dB] [BF] [fd] | "F" [cA] [AF] [fA] | "Bb"[dB] [BF] [fd] | "F" [cA] [AF] C \
+| "F"[FC][AF] | [cA][AF] |1"C7"[GE] [BC] [EB,] | "F"[FA,] z :|2 "C7"[GE] [BG] [eB] | "F"[fA] z :|
+
+
+%%sep 1 1 500
+
+X: 35
+T: Eisenkeilnest (Bb)
+O: Bavaria
+M: 2/4
+L: 1/8
+K: Bb
+|: [F2F2] \
+| "Bb"[BD][AC] [BD][cF] \
+| [dB][cA] [dB][ec] \
+|[M:3/4][f2d2] [fd][=e^c] [fd][g_e] \
+| [f2d2] z[fd] [=e^c][fd] \
+|[M:2/4][g2e2] [f2d2] \
+| [e2c2] [d2B2] \
+|[M:3/4]"F7"[dB][cA] [cA][=B^G] [cA][d_B] |
+| [c2A2] z2 [f2A2] \
+|[M:2/4]"Bb"[d2B2] [B2D2] \
+|[M:3/4]"F7"[c2F2] z2 [f2A2] \
+|[M:2/4]"Bb"[d2B2] [B2D2] \
+|[M:3/4]"F7"[c2F2] z2 [A2F2] \
+| "Bb"[BD][AC] [BD][cF] \
+| [dB][cA] [dB][ec] \
+|[M:3/4]"F7"[fA][fA] [fA][eG] [dF][cE] \
+| "Bb"[B2D2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 36
+T: Eisenkeilnest (C)
+O: Bavaria
+M: 2/4
+L: 1/8
+K: C
+|: [G2G2] \
+| "C"[cE][BD] [cE][dG] \
+| [ec][dB] [ec][fd] \
+|[M:3/4][g2e2] [ge][^f^d] [ge][a=f] \
+| [g2e2] z[ge] [^f^d][ge] \
+|[M:2/4][a2f2] [g2e2] \
+| [f2d2] [e2c2] \
+|[M:3/4]"G7"[ec][dB] [dB][^c^A] [dB][e=c] |
+| [d2B2] z2 [g2B2] \
+|[M:2/4]"C"[e2c2] [c2E2] \
+|[M:3/4]"G7"[d2G2] z2 [g2B2] \
+|[M:2/4]"C"[e2c2] [c2E2] \
+|[M:3/4]"G7"[d2G2] z2 [B2G2] \
+| "C"[cE][BD] [cE][dG] \
+| [ec][dB] [ec][fd] \
+|[M:3/4]"G7"[gB][gB] [gB][fA] [eG][dF] \
+| "C"[c2E2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 37
+T: Eisenkeilnest (F)
+O: Bavaria
+M: 2/4
+L: 1/8
+K: F
+|: [C2C2] \
+| "F"[FA,][EG,] [FA,][GC] \
+| [AF][GE] [AF][BG] \
+|[M:3/4][c2A2] [cA][=B^G] [cA][d_B] \
+| [c2A2] z[cA] [=B^G][cA] \
+|[M:2/4][d2B2] [c2A2] \
+| [B2G2] [A2F2] \
+|[M:3/4]"C7"[AF][GE] [GE][^F^D] [GE][A=F] |
+| [G2E2] z2 [c2E2] \
+|[M:2/4]"F"[A2F2] [F2A,2] \
+|[M:3/4]"C7"[G2C2] z2 [c2E2] \
+|[M:2/4]"F"[A2F2] [F2A,2] \
+|[M:3/4]"C7"[G2C2] z2 [E2C2] \
+| "F"[FA,][EG,] [FA,][GC] \
+| [AF][GE] [AF][BG] \
+|[M:3/4]"C7"[cE][cE] [cE][BD] [AC][GB,] \
+| "F"[F2A,2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 38
+T: Eisenkeilnest (G)
+O: Bavaria
+M: 2/4
+L: 1/8
+K: G
+|: [D2D2] \
+| "G"[GB,][FA,] [GB,][AD] \
+| [BG][AF] [BG][cA] \
+|[M:3/4][d2B2] [dB][^c^A] [dB][e=c] \
+| [d2B2] z[dB] [^c^A][dB] \
+|[M:2/4][e2c2] [d2B2] \
+| [c2A2] [B2G2] \
+|[M:3/4]"D7"[BG][AF] [AF][^G^E] [AF][B=G] |
+| [A2F2] z2 [d2F2] \
+|[M:2/4]"G"[B2G2] [G2B,2] \
+|[M:3/4]"D7"[A2D2] z2 [d2F2] \
+|[M:2/4]"G"[B2G2] [G2B,2] \
+|[M:3/4]"D7"[A2D2] z2 [F2D2] \
+| "G"[GB,][FA,] [GB,][AD] \
+| [BG][AF] [BG][cA] \
+|[M:3/4]"D7"[dF][dF] [dF][cE] [BD][AC] \
+| "G"[G2B,2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 39
+T: Der Finker (Bb)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: none
+L: 1/8
+K: Bb
+|:[M:3/4][L:1/8]"Bb"[F2D2] [FD][GE] [FD][EC] \
+| [M:2/4][L:1/8]"Bb"[D2B,2] [F2D2] | [B2D2] [d2F2] \
+|1,3[M:3/4][L:1/8]"F7"[c2E2] [e2A2] [A2E2] | "Bb"[BD][AC] [BD][GE] [FD][EC] \
+:|2,4[M:3/4][L:1/8]"F7"[c2E2] [cE][BD] [AC][cE] | "Bb"[B2D2] z2 z2 :| \
+| [M:3/4][L:1/8]"F7"[c2A] [cA][dB] [ec][fd] |
+| [M:2/4][L:1/8]"F7"[e2c2] [c2A2] | [e2c2] [c2A2] \
+| [M:3/4][L:1/8]"Bb"[d2B2] [Bd][ec] [fd][ge] \
+| [M:2/4][L:1/8][f2d2] [d2B2] | [f2d2] [d2B2] \
+| [M:3/4][L:1/8]"F7"[c2A] [cA][dB] [ec][fd] | [e2c2] [ec][dB] [c2A2] \
+| "Bb"[dB][ec] [fd][=e^c] [fd][g_e] |
+| "Bb"[f2d2] z2 B,D \
+|:[M:3/4][L:1/8]"Bb"[F2D2] [FD][GE] [FD][EC] \
+| [M:2/4][L:1/8]"Bb"[D2B,2] [F2D2] | [B2D2] [d2F2] \
+|1[M:3/4][L:1/8]"F7"[c2E2] [e2A2] [A2E2] | "Bb"[BD][AC] [BD][GE] [FD][EC] \
+:|2[M:3/4][L:1/8]"F7"[c2E2] [cE][BD] [AC][cE] | "Bb"[B2D2] z2 z2 |]
+
+
+%%sep 1 1 500
+
+X: 40
+T: Der Finker (C)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: none
+L: 1/8
+K: C
+|:[M:3/4][L:1/8]"C"[G2E2] [GE][AF] [GE][FD] \
+| [M:2/4][L:1/8]"C"[E2C2] [G2E2] | [c2E2] [e2G2] \
+|1,3[M:3/4][L:1/8]"G7"[d2F2] [f2B2] [B2F2] | "C"[cE][BD] [cE][AF] [GE][FD] \
+:|2,4[M:3/4][L:1/8]"G7"[d2F2] [dF][cE] [BD][dF] | "C"[c2E2] z2 z2 :| \
+| [M:3/4][L:1/8]"G7"[d2B] [dB][ec] [fd][ge] |
+| [M:2/4][L:1/8]"G7"[f2d2] [d2B2] | [f2d2] [d2B2] \
+| [M:3/4][L:1/8]"C"[e2c2] [ce][fd] [ge][af] \
+| [M:2/4][L:1/8][g2e2] [e2c2] | [g2e2] [e2c2] \
+| [M:3/4][L:1/8]"G7"[d2B] [dB][ec] [fd][ge] | [f2d2] [fd][ec] [d2B2] \
+| "C"[ec][fd] [ge][^f^d] [ge][a=f] |
+| "C"[g2e2] z2 CE \
+|:[M:3/4][L:1/8]"C"[G2E2] [GE][AF] [GE][FD] \
+| [M:2/4][L:1/8]"C"[E2C2] [G2E2] | [c2E2] [e2G2] \
+|1[M:3/4][L:1/8]"G7"[d2F2] [f2B2] [B2F2] | "C"[cE][BD] [cE][AF] [GE][FD] \
+:|2[M:3/4][L:1/8]"G7"[d2F2] [dF][cE] [BD][dF] | "C"[c2E2] z2 z2 |]
+
+
+%%sep 1 1 500
+
+X: 41
+T: Der Finker (F)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: none
+L: 1/8
+K: F
+|:[M:3/4][L:1/8]"F"[c2A2] [cA][dB] [cA][BG] \
+| [M:2/4][L:1/8]"F"[A2F2] [c2A2] | [F2C2] [A2F2] \
+|1,3[M:3/4][L:1/8]"C7"[G2E2] [B2G2] [E2C2] | "F"FE FG AB \
+:|2,4[M:3/4][L:1/8]"C7"[G2E2] [GE][FD] [EC][GB,] | "F"[F2A,2] z2 z2 :| \
+| [M:3/4][L:1/8]"C7"[G2E] [GE][AF] [BG][cA] |
+| [M:2/4][L:1/8]"C7"[B2G2] [G2E2] | [B2G2] [G2E2] \
+| [M:3/4][L:1/8]"F"[A2F2] [FA][BG] [cA][dB] \
+| [M:2/4][L:1/8][c2A2] [A2F2] | [c2A2] [A2F2] \
+| [M:3/4][L:1/8]"C7"[G2E] [GE][AF] [BG][cA] | [B2G2] [BG][AF] [G2E2] \
+| "F"[AF][BG] [cA][=B^G] [cA][d_B] |
+| "F"[c2A2] z2 FA \
+|:[M:3/4][L:1/8]"F"[c2A2] [cA][dB] [cA][BG] \
+| [M:2/4][L:1/8]"F"[A2F2] [c2A2] | [F2C2] [A2F2] \
+|1[M:3/4][L:1/8]"C7"[G2E2] [B2G2] [E2C2] | "F"FE FG AB \
+:|2[M:3/4][L:1/8]"C7"[G2E2] [GE][FD] [EC][GB,] | "F"[F2A,2] z2 z2 |]
+
+
+%%sep 1 1 500
+
+X: 42
+T: Der Finker (G)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: none
+L: 1/8
+K: G
+|:[M:3/4][L:1/8]"G"[d2B2] [dB][ec] [dB][cA] \
+| [M:2/4][L:1/8]"G"[B2G2] [d2B2] | [G2D2] [B2G2] \
+|1,3[M:3/4][L:1/8]"D7"[A2F2] [c2A2] [F2D2] | "G"GF GA Bc \
+:|2,4[M:3/4][L:1/8]"D7"[A2F2] [AF][GE] [FD][AC] | "G"[G2B,2] z2 z2 :| \
+| [M:3/4][L:1/8]"D7"[A2F] [AF][BG] [cA][dB] |
+| [M:2/4][L:1/8]"D7"[c2A2] [A2F2] | [c2A2] [A2F2] \
+| [M:3/4][L:1/8]"G"[B2G2] [GB][cA] [dB][ec] \
+| [M:2/4][L:1/8][d2B2] [B2G2] | [d2B2] [B2G2] \
+| [M:3/4][L:1/8]"D7"[A2F] [AF][BG] [cA][dB] | [c2A2] [cA][BG] [A2F2] \
+| "G"[BG][cA] [dB][^c^A] [dB][e=c] |
+| "G"[d2B2] z2 GB \
+|:[M:3/4][L:1/8]"G"[d2B2] [dB][ec] [dB][cA] \
+| [M:2/4][L:1/8]"G"[B2G2] [d2B2] | [G2D2] [B2G2] \
+|1[M:3/4][L:1/8]"D7"[A2F2] [c2A2] [F2D2] | "G"GF GA Bc \
+:|2[M:3/4][L:1/8]"D7"[A2F2] [AF][GE] [FD][AC] | "G"[G2B,2] z2 z2 |]
+
+
+%%sep 1 1 500
+
+X: 43
+T: Habervogl
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 23/4
+L: 1/8
+K: Bb
+|: "F7"F2 \
+| "Bb"[d2F2] [dF][dF] [dF][dF] | [d2F2] [c2F2] [B2F2] \
+| "Eb"[B2G2][G2E2] | [G4E4] | [B2G2][G2E2] | [G4E4] \
+| "F7"[c2E2] [cE][cE] [cE][cE] | [c2E2] [B2E2] [G2E2] \
+| "Bb"[G2E2][F2D2] | [F4D4] |
+| "Bb"[G2E2][F2D2] | [F4D4] \
+||"Bb"[B2D2] [BD][BD] [BD][BD] | [B2D2] [A2D2] [G2D2] \
+| "F7"[A2E2][AE][BE] | [c4E4] | [A2E2][AE][BE] | [c4E4] \
+| "F7"[f2A2] [fA][fA] [fA][fA] | [f2A2] [e2A2] [A2E2] | "Bb"[B2D2] z2 :|
+|: F2 \
+| "Bb"G2 F=E FB | "F7"[A2F2][e2A2] | [A2F2][e2A2] \
+|     G2 F=E FA | "Bb"[B2D2][d2F2] | [B2D2][d2F2] \
+| "Bb"G2 F=E FB | "F7"[A2F2][e2A2] | [A2F2][e2A2] \
+| "F7"F2 [AF][cA] [ec][AF] | "Bb"[B2D2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 44
+T: Habervogl
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 23/4
+L: 1/8
+K: C
+|: "G7"G2 \
+| "C"[e2G2] [eG][eG] [eG][eG] | [e2G2] [d2G2] [c2G2] \
+| "F"[c2A2][A2F2] | [A4F4] | [c2A2][A2F2] | [A4F4] \
+| "G7"[d2F2] [dF][dF] [dF][dF] | [d2F2] [c2F2] [A2F2] \
+| "C"[A2F2][G2E2] | [G4E4] |
+| "C"[A2F2][G2E2] | [G4E4] \
+||"C"[c2E2] [cE][cE] [cE][cE] | [c2E2] [B2E2] [A2E2] \
+| "G7"[B2F2][BF][cF] | [d4F4] | [B2F2][BF][cF] | [d4F4] \
+| "G7"[g2B2] [gB][gB] [gB][gB] | [g2B2] [f2B2] [B2F2] | "C"[c2E2] z2 :|
+|: G2 \
+| "C"A2 G^F Gc | "G7"[B2G2][f2B2] | [B2G2][f2B2] \
+|    A2 G^F GB |  "C"[c2E2][e2G2] | [c2E2][e2G2] \
+| "C"A2 G^F Gc | "G7"[B2G2][f2B2] | [B2G2][f2B2] \
+| "G7"G2 [BG][dB] [fd][BG] | "C"[c2E2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 45
+T: Habervogl
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 23/4
+L: 1/8
+K: F
+|: "C7"C2 \
+| "F"[A2F2] [AF][AF] [AF][AF] | [A2F2] [G2E2] [F2C2] \
+| "Bb"[F2D2][D2B,2] | [D4B,4] | [F2D2][D2B,2] | [D4B,4] \
+| "C7"[G2E2] [GE][GE] [GE][GE] | [G2E2] [F2D2] [D2B,2] \
+| "F"[D2B,2][C2A,2] | [C4A,4] |
+| "F"[D2B,2][C2A,2] | [C4A,4] \
+||"F"F2 FF FF | F2 E2 D2 \
+| "C7"[E2C2][EC][FD] | [G4E4] | [E2C2][EC][FD] | [G4E4] \
+| "C7"[c2E2] [cE][cE] [cE][cE] | [c2E2] [B2E2] [E2B,2] | "F"[F2A,2] z2 :|
+|: C2 \
+| "F"D2 C=B, CF | "C7"[E2C2][B2E2] | [E2C2][B2E2] \
+|    D2 C=B, CE | "F"[F2C2][A2F2] | [F2C2][A2F2] \
+| "F"D2 C=B, CF | "C7"[E2C2][B2E2] | [E2C2][B2E2] \
+| "C7"C2 [EC][GE] [BG][EC] | "F"[F2A,2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 46
+T: Habervogl
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 23/4
+L: 1/8
+K: G
+|: "D7"D2 \
+| "G"[B2G2] [BG][BG] [BG][BG] | [B2G2] [A2F2] [G2D2] \
+| "C"[G2E2][E2C2] | [E4C4] | [G2E2][E2C2] | [E4C4] \
+| "D7"[A2F2] [AF][AF] [AF][AF] | [A2F2] [G2E2] [E2C2] \
+| "G"[E2C2][D2B,2] | [D4B,4] |
+| "G"[E2C2][D2B,2] | [D4B,4] \
+||"G"G2 GG GG | G2 F2 E2 \
+| "D7"[F2D2][FD][GE] | [A4F4] | [F2D2][FD][GE] | [A4F4] \
+| "D7"[d2F2] [dF][dF] [dF][dF] | [d2F2] [c2F2] [F2C2] | "G"[G2B,2] z2 :|
+|: D2 \
+| "G"E2 D^C DG | "D7"[F2D2][c2F2] | [F2D2][c2F2] \
+|    E2 D^C DF |  "G"[G2D2][B2G2] | [G2D2][B2G2] \
+| "G"E2 D^C DG | "D7"[F2D2][c2F2] | [F2D2][c2F2] \
+| "D7"D2 [FD][AF] [cA][FD] | "G"[G2B,2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 47
+T: Herz Siebner
+M: 34/44
+L: 1/8
+K: Ab
+[Ec][DB] \
+| "Ab"[C4A4] [E2c2] | "Eb7"[B,4G4] [E2G2] \
+| "Ab"[C4E4] [B,2D2] | [A,6C6] \
+| "Eb7"[B,3D3][CE][D2F2] | [C4E4][B,2D2] \
+| "Ab"[A,6-C6-] | [A,4C4] [CA][DB] |
+| "Ab"[E2c2][C2A2] [E2c2][C2A2] | "Eb7"[E2c2][D2B2] [B,4G4] \
+| [Ed][Ed] [E2d2] [G2e2] | "Ab"[Ec][Ec][E2c2] [A2c2] \
+| "Ab"[E2c2][C2A2] [E2c2][C2A2] | "Eb7"[E2c2][D2B2] [B,4G4] \
+| [Ed][Ed] [E2d2] [G2e2] | "Ab"[A2c2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 48
+T: Herz Siebner
+M: 34/44
+L: 1/8
+K: Bb
+[Fd][Ec] \
+| "Bb"[D4B4] [F2d2] | "F7"[C4A4] [F2A2] \
+| "Bb"[D4F4] [C2E2] | [B,6D6] \
+| "F7"[C3E3][DF][E2G2] | [D4F4][C2E2] \
+| "Bb"[B,6-D6-] | [B,4D4] [DB][Ec] |
+| "Bb"[F2d2][D2B2] [F2d2][D2B2] | "F7"[F2d2][E2c2] [C4A4] \
+| [Fe][Fe] [F2e2] [A2f2] | "Bb"[Fd][Fd][F2d2] [B2d2] \
+| "Bb"[F2d2][D2B2] [F2d2][D2B2] | "F7"[F2d2][E2c2] [C4A4] \
+| [Fe][Fe] [F2e2] [A2f2] | "Bb"[B2d2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 49
+T: Herz Siebner [C]
+M: 34/44
+L: 1/8
+K: C
+[Ge][Fd] \
+| "C"[E4c4] [G2e2] | "G7"[D4B4] [G2B2] \
+| "C"[E4G4] [D2F2] | [C6E6] \
+| "G7"[D3F3][EG][F2A2] | [E4G4][D2F2] \
+| "C"[C6-E6-] | [C4E4] [Ec][Fd] |
+| "C"[G2e2][E2c2] [G2e2][E2c2] | "G7"[G2e2][F2d2] [D4B4] \
+| [Gf][Gf] [G2f2] [B2g2] | "C"[Ge][Ge][G2e2] [c2e2] \
+| "C"[G2e2][E2c2] [G2e2][E2c2] | "G7"[G2e2][F2d2] [D4B4] \
+| [Gf][Gf] [G2f2] [B2g2] | "C"[c2e2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 50
+T: Herz Siebner
+M: 34/44
+L: 1/8
+K: Db
+[af][ge] \
+| "Db"[f4d4] [a2f2] | "Ab7"[e4c4] [a2c2] \
+| "Db"[f4A4] [e2G2] | [d6F6] \
+| "Ab7"[e3G3][fA][g2B2] | [f4A4][e2G2] \
+| "Db"[d6-F6-] | [d4F4] [FD][GE] |
+| "Db"[A2F2][F2D2] [A2F2][F2D2] | "Ab7"[A2F2][G2E2] [E4C4] \
+| [AG][AG] [A2G2] [c2A2] | "Db"[AF][AF][A2F2] [d2A2] \
+| "Db"[A2F2][F2D2] [A2F2][F2D2] | "Ab7"[A2F2][G2E2] [E4C4] \
+| [AG][AG] [A2G2] [c2A2] | "Db"[d2F2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 51
+T: Herz Siebner
+M: 34/44
+L: 1/8
+K: Eb
+[BG][AF] \
+| "Eb"[G4E4] [B2G2] | "Bb7"[F4D4] [B2D2] \
+| "Eb"[G4B,4] [F2A,2] | [E6G,6] \
+| "Bb7"[F3A,3][GB,][A2C2] | [G4B,4][F2A,2] \
+| "Eb"[E6-G,6-] | [E4G,4] [GE][AF] |
+| "Eb"[B2G2][G2E2] [B2G2][G2E2] | "Bb7"[B2G2][A2F2] [F4D4] \
+| [BA][BA] [B2A2] [d2B2] | "Eb"[BG][BG][B2G2] [e2B2] \
+| "Eb"[B2G2][G2E2] [B2G2][G2E2] | "Bb7"[B2G2][A2F2] [F4D4] \
+| [BA][BA] [B2A2] [d2B2] | "Eb"[e2G2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 52
+T: Herz Siebner
+M: 34/44
+L: 1/8
+K: F
+[cA][BG] \
+| "F"[A4F4] [c2A2] | "C7"[G4E4] [c2E2] \
+| "F"[A4C4] [G2B,2] | [F6A,6] \
+| "C7"[G3B,3][AC][B2D2] | [A4C4][G2B,2] \
+| "F"[F6-A,6-] | [F4A,4] [AF][BG] |
+| "F"[c2A2][A2F2] [c2A2][A2F] | "C7"[c2A2][B2G2] [G4E4] \
+| [cB][cB] [c2B2] [e2c2] | "F"[cA][cA][c2A2] [f2c2] \
+| "F"[c2A2][A2F2] [c2A2][A2F2] | "C7"[c2A2][B2G2] [G4E4] \
+| [cB][cB] [c2B2] [e2c2] | "F"[f2A2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 53
+T: Herz Siebner [G]
+M: 34/44
+L: 1/8
+K: G
+[dB][cA] \
+| "G"[B4G4] [d2B2] | "D7"[A4F4] [d2F2] \
+| "G"[B4D4] [A2C2] | [G6B,6] \
+| "D7"[A3C3][BD][c2E2] | [B4D4][A2C2] \
+| "G"[G6-B,6-] | [G4B,4] [BG][cA] |
+| "G"[d2B2][B2G2] [d2B2][B2G] | "D7"[d2B2][c2A2] [A4F4] \
+| [dc][dc] [d2c2] [f2d2] | "G"[dB][dB][d2B2] [g2d2] \
+| "G"[d2B2][B2G2] [d2B2][B2G2] | "D7"[d2B2][c2A2] [A4F4] \
+| [dc][dc] [d2c2] [f2d2] | "G"[g2B2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 54
+T: Leit, leit, leitl m\"ua\ssts lusti sein
+M: none
+K: Ab
+|: EAc \
+|[M:2/4][L:1/8]"Ab"e4 | e4 \
+|[M:3/4][L:1/8]e2 c2 A2 | "Eb7"G2 B2 e2 | G2 B2 e2 \
+|[M:2/4][L:1/8]"Eb7"e4 | e4 \
+|[M:3/4][L:1/8]e2 d2 B2 | "Ab"A2 c2 e2 |
+| A2 c2 e2 \
+|[M:2/4][L:1/8]"Ab"e4 | e4 \
+|[M:3/4][L:1/8]e2 c2 A2 | "Eb7"G2 B2 e2 | G2 B2 e2 \
+|[M:2/4][L:1/8]"Eb7"e4 | e4 \
+|[M:3/4][L:1/8]e2 d2 B2 | "Ab"A2 z :|
+
+
+%%sep 1 1 500
+
+X: 55
+T: Leit, leit, leitl m\"ua\ssts lusti sein
+M: none
+K: Bb
+|: FBd \
+|[M:2/4][L:1/8]"Bb"f4 | f4 \
+|[M:3/4][L:1/8]f2 d2 B2 | "F7"A2 c2 f2 | A2 c2 f2 \
+|[M:2/4][L:1/8]"F7"f4 | f4 \
+|[M:3/4][L:1/8]f2 e2 c2 | "Bb"B2 d2 f2 |
+| B2 d2 f2 \
+|[M:2/4][L:1/8]"Bb"f4 | f4 \
+|[M:3/4][L:1/8]f2 d2 B2 | "F7"A2 c2 f2 | A2 c2 f2 \
+|[M:2/4][L:1/8]"F7"f4 | f4 \
+|[M:3/4][L:1/8]f2 e2 c2 | "Bb"B2 z :|
+
+
+%%sep 1 1 500
+
+X: 56
+T: Leit, leit, leitl m\"ua\ssts lusti sein
+M: none
+K: Eb
+|: B,EG \
+|[M:2/4][L:1/8]"Eb"B4 | B4 \
+|[M:3/4][L:1/8]B2 G2 E2 | "Bb7"D2 F2 B2 | D2 F2 B2 \
+|[M:2/4][L:1/8]"Bb7"B4 | B4 \
+|[M:3/4][L:1/8]B2 A2 F2 | "Eb"E2 G2 B2 |
+| E2 G2 B2 \
+|[M:2/4][L:1/8]"Eb"B4 | B4 \
+|[M:3/4][L:1/8]B2 G2 E2 | "Bb7"D2 F2 B2 | D2 F2 B2 \
+|[M:2/4][L:1/8]"Bb7"B4 | B4 \
+|[M:3/4][L:1/8]B2 A2 F2 | "Eb"E2 z :|
+
+
+%%sep 1 1 500
+
+X: 57
+T: Leit, leit, leitl m\"ua\ssts lusti sein
+M: none
+K: F
+|: CFA \
+|[M:2/4][L:1/8]"F"c4 | c4 \
+|[M:3/4][L:1/8]c2 A2 F2 | "C7"E2 G2 c2 | E2 G2 c2 \
+|[M:2/4][L:1/8]"C7"c4 | c4 \
+|[M:3/4][L:1/8]c2 B2 G2 | "F"F2 A2 c2 |
+| F2 A2 c2 \
+|[M:2/4][L:1/8]"F"c4 | c4 \
+|[M:3/4][L:1/8]c2 A2 F2 | "C7"E2 G2 c2 | E2 G2 c2 \
+|[M:2/4][L:1/8]"C7"c4 | c4 \
+|[M:3/4][L:1/8]c2 B2 G2 | "F"F2 z :|
+
+
+%%sep 1 1 500
+
+X: 58
+T: Leit, leit, leitl muasst lustig sei [Bb]
+R: zweifacher
+M: 23/44
+L: 1/8
+K: Bb
+|: [FD][BF][dB] \
+|"Bb"[f4d4] | [f4d4] | [f2d2] [d2B2] [B2F2] \
+|"F7"[A2F2] [c2A2] [f2c2] | [A2F2] [c2A2] [f2c2] \
+|"F7"[f4A2] | [f4A4] | [f2e2] [e2c2] [c2A2] \
+|"Bb"[B2F2] [d2B2] [f2d2] | [B2F2] [d2B2] [f2d2] |
+|"Bb"[f4d4] | [f4d4] | [f2d2] [d2B2] [B2F2] \
+|"F7"[A2F2] [c2A2] [f2c2] | [A2F2] [c2A2] [f2c2] \
+|"F7"[f4A2] | [f4A4] | [f2e2] [e2c2] [c2A2] \
+|"Bb"[B2B2] z :|
+
+
+%%sep 1 1 500
+
+X: 59
+T: Leit, leit, leitl muasst lustig sei [C]
+R: zweifacher
+M: 23/44
+L: 1/8
+K: C
+|: [GE][cG][ec] \
+| "C"[g4e4] | [g4e4] | [g2e2] [e2c2] [c2G2] \
+|"G7"[B2G2] [d2B2] [g2d2] | [B2G2] [d2B2] [g2d2] \
+|"G7"[g4B2] | [g4B4] | [g2f2] [f2d2] [d2B2] \
+| "C"[c2G2] [e2c2] [g2e2] | [c2G2] [e2c2] [g2e2] |
+| "C"[g4e4] | [g4e4] | [g2e2] [e2c2] [c2G2] \
+|"G7"[B2G2] [d2B2] [g2d2] | [B2G2] [d2B2] [g2d2] \
+|"G7"[g4B2] | [g4B4] | [g2f2] [f2d2] [d2B2] \
+| "C"[c2c2] z :|
+
+
+%%sep 1 1 500
+
+X: 60
+T: Leit, leit, leitl muasst lustig sei [F]
+R: zweifacher
+M: 23/44
+L: 1/8
+K: F
+%%partsspace 0
+%%indent 400
+"intro"|"F"[c4A4] | [c4A4] | [c2A2] [A2F2] [F2C2] | "C7"[E2C2] [GE][BG][AF][GE] | "F"[F2F2] z ||
+|: [CA,][FC][AF] \
+| "F"[c4A4] | [c4A4] | [c2A2] [A2F2] [F2C2] \
+|"C7"[E2C2] [G2E2] [c2G2] | [E2C2] [G2E2] [c2G2] \
+|"C7"[c4E2] | [c4E4] | [c2B2] [B2G2] [G2E2] \
+| "F"[F2C2] [A2F2] [c2A2] | [F2C2] [A2F2] [c2A2] |
+| "F"[c4A4] | [c4A4] | [c2A2] [A2F2] [F2C2] \
+|"C7"[E2C2] [G2E2] [c2G2] | [E2C2] [G2E2] [c2G2] \
+|"C7"[c4E2] | [c4E4] | [c2B2] [B2G2] [G2E2] \
+| "F"[F2F2] z :|
+
+
+%%sep 1 1 500
+
+X: 61
+T: Leit, leit, leitl muasst lustig sei [G]
+R: zweifacher
+M: 23/44
+L: 1/8
+K: G
+%%partsspace 0
+%%indent 400
+"intro"|"G"[d4B4] | [d4B4] | [d2B2] [B2G2] [G2D2] | "D7"[F2D2] [AF][cA][BG][AF] | "G"[G2G2] z ||
+|: [DB,][GD][BG] \
+| "G"[d4B4] | [d4B4] | [d2B2] [B2G2] [G2D2] \
+|"D7"[F2D2] [A2F2] [d2A2] | [F2D2] [A2F2] [d2A2] \
+|"D7"[d4F2] | [d4F4] | [d2c2] [c2A2] [A2F2] \
+| "G"[G2D2] [B2G2] [d2B2] | [G2D2] [B2G2] [d2B2] |
+| "G"[d4B4] | [d4B4] | [d2B2] [B2G2] [G2D2] \
+|"D7"[F2D2] [A2F2] [d2A2] | [F2D2] [A2F2] [d2A2] \
+|"D7"[d4F2] | [d4F4] | [d2c2] [c2A2] [A2F2] \
+| "G"[G2G2] z :|
+
+
+%%sep 1 1 500
+
+X: 62
+T: 's Lerchal
+M: 23/44
+L: 1/8
+K: Bb
+[D2B,2] \
+| "Bb"[DB,][FD] [FD][DB,] | [DB,][FD] [FD][DB,] \
+| "Bb"[DB,][FD] [F2D2] [GE][FD] | "F7"[E4C4] [C2A,2] \
+| "F7"[CA,][EC] [EC][CA,] | [CA,][EC] [EC][CA,] \
+| "F7"[CA,][EC] [E2C2] [FD][EC] | "Bb"[D2B,2] z2 [f2d2] |
+| "Eb"[g2e2] [f2d2] | "(Cm)"[e4c4] \
+| "Bb"[f2d2] [e2c2] | "(Gm)"[d4B4] \
+| "F7"[c3A3]  [ec][dB][cA] | "Bb"[d2B2] [g2e2] [f2d2] \
+"I"\
+| "Eb"[g2e2] [f2d2] | "(Cm)"[e4c4] \
+| "Bb"[f2d2] [e2c2] | "(Gm)"[d4B4] \
+| "F7"[cA][dB] [ec][fd] [ge][af] | "Bb"[b2d2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 63
+T: 's Lerchal
+M: 23/44
+L: 1/8
+K: C
+[E2C2] \
+| "C"[EC][GE] [GE][EC] | [EC][GE] [GE][EC] \
+| "C"[EC][GE] [G2E2] [AF][GE] | "G7"[F4D4] [D2B,2] \
+| "G7"[DB,][FD] [FD][DB,] | [DB,][FD] [FD][DB,] \
+| "G7"[DB,][FD] [F2D2] [GE][FD] | "C"[E2C2] z2 [g2e2] |
+| "F"[a2f2] [g2e2] | "(Dm)"[f4d4] \
+| "C"[g2e2] [f2d2] | "(Am)"[e4c4] \
+| "G7"[d3B3]  [fd][ec][dB] | "C"[e2c2] [a2f2] [g2e2] \
+"I"\
+| "F"[a2f2] [g2e2] | "(Dm)"[f4d4] \
+| "C"[g2e2] [f2d2] | "(Am)"[e4c4] \
+| "G7"[dB][ec] [fd][ge] [af][bg] | "C"[c'2e2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 64
+T: 's Lerchal
+M: 23/44
+L: 1/8
+K: Eb
+[G2E2] \
+| "Eb"[GE][BG] [BG][GE] | [GE][BG] [BG][GE] \
+| "Eb"[GE][BG] [BG][BG] [cA][BG] | "Bb7"[A4F4] [F2D2] \
+| "Bb7"[FD][AF] [AF][FD] | [FD][AF] [AF][FD] \
+| "Bb7"[FD][AF] [AF][AF] [BG][AF] | "Eb"[G2E2] z [BG][=A^F][BG] |
+| "Ab"[c2A2] [B2G2] | "(Fm)"[A4F4] \
+| "Eb"[B2G2] [A2F2] | "(Cm)"[G4E4] \
+| "Bb7"[F3D3] [GE][A2F2] | "Eb"[GE][AF] [BG][cA] [B2G2] \
+"I"\
+| "Ab"[c2A2] [B2G2] | "(Fm)"[A4F4] \
+| "Eb"[B2G2] [A2F2] | "(Cm)"[G4E4] \
+| "Bb7"[FD][GE] [AF][BG] [cA][dB] | "Eb"[e2G2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 65
+T: 's Lerchal
+M: 23/44
+L: 1/8
+K: F
+[A2F2] \
+| "F"[AF][cA] [cA][AF] | [AF][cA] [cA][AF] \
+| "F"[AF][cA] [cA][cA] [dB][cA] | "C7"[B4G4] [G2E2] \
+| "C7"[GE][BG] [BG][GE] | [GE][BG] [BG][GE] \
+| "C7"[GE][BG] [BG][BG] [cA][BG] | "F"[A2F2] z [cA][=B^G][cA] |
+| "Bb"[d2B2] [c2A2] | "(Gm)"[B4G4] \
+| "F"[c2A2] [B2G2] | "(Dm)"[A4F4] \
+| "C7"[G3E3] [AF][B2G2] | "F"[AF][BG] [cA][dB] [c2A2] \
+"I"\
+| "Bb"[d2B2] [c2A2] | "(Gm)"[B4G4] \
+| "F"[c2A2] [B2G2] | "(Dm)"[A4F4] \
+| "C7"[GE][AF] [BG][cA] [dB][ec] | "F"[f2A2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 66
+T: 's Luada [C]
+R: zweifacher
+M: 43/44
+L: 1/8
+K: C
+|: z2 \
+| "C"[G4E4] [E4C4] | "G7" [EC][FD] [FD][CE] [D2B,2] | "C"[DB,][EC] [EC][DB,] C2 \
+| "C"[G4E4] [E4C4] | "G7" [EC][FD] [FD][CE] [D2B,2] | "C"C2 z2 :|
+|: [c2E2] \
+| "G7"[B2G2] [B2G2] [A2F2] [A2F2] | "C"[G2E2] [G2E2] [E4C4] \
+| "G7"[F2D2] [F2D2] [D2B,2] [D2B,2] | "C"[EC][DB,] [EC][FD] [G2E2] [c2E2] \
+| "G7"[B2G2] [B2G2] [A2F2] [A2F2] | "C"[G2E2] [G2E2] [E4C4] \
+| "F"[A2F2] [A2F2] "G7"[B3D3] [BD] | "C"[c2E] [c2E] [c2E] :|
+
+
+%%sep 1 1 500
+
+X: 67
+T: 's Luada [D]
+R: zweifacher
+M: 43/44
+L: 1/8
+K: D
+|: z2 \
+| "D"[A4F4] [F4D4] | "A7" [FD][GE] [GE][DF] [E2C2] | "D"[EC][FD] [FD][EC] D2 \
+| "D"[A4F4] [F4D4] | "A7" [FD][GE] [GE][DF] [E2C2] | "D"D2 z2 :|
+|: [d2F2] \
+| "A7"[c2A2] [c2A2] [B2G2] [B2G2] | "D"[A2F2] [A2F2] [F4D4] \
+| "A7"[G2E2] [G2E2] [E2C2] [E2C2] | "D"[FD][EC] [FD][GE] [A2F2] [d2F2] \
+| "A7"[c2A2] [c2A2] [B2G2] [B2G2] | "D"[A2F2] [A2F2] [F4D4] \
+| "G"[B2G2] [B2G2] "A7"[c3E3] [cE] | "D"[d2F] [d2F] [d2F] :|
+
+
+%%sep 1 1 500
+
+X: 68
+T: 's Luada [F]
+R: zweifacher
+M: 43/44
+L: 1/8
+K: F
+%%partsspace 0
+%%indent 400
+"intro"| "F"[c4A4] [A4F4] | "C7"[BE][BE] [B2C2] [E2B,2] | "F"[F4A,4] ||
+|: z2 \
+| "F"[c4A4] [A4F4] | "C7" [AF][BG] [BG][FA] [G2E2] | "F"[GE][AF] [AF][GE] F2 \
+| "F"[c4A4] [A4F4] | "C7" [AF][BG] [BG][FA] [G2E2] | "F"F2 z2 :|
+|: [f2A2] \
+| "C7"[e2c2] [e2c2] [d2B2] [d2B2] | "F"[c2A2] [c2A2] [A4F4] \
+| "C7"[B2G2] [B2G2] [G2E2] [G2E2] | "F"[AF][GE] [AF][BG] [c2A2] [f2A2] \
+| "C7"[e2c2] [e2c2] [d2B2] [d2B2] | "F"[c2A2] [c2A2] [A4F4] \
+| "Bb"[d2B2] [d2B2] "C7"[e3G3] [eG] | "F"[f2A] [f2A] [f2A] :|
+
+
+%%sep 1 1 500
+
+X: 69
+T: 's Luada [G]
+R: zweifacher
+M: 43/44
+L: 1/8
+K: G
+%%partsspace 0
+%%indent 400
+"intro"| "G"[d4B4] [B4G4] | "D7"[cF][cF] [c2D2] [F2C2] | "G"[G4B,4] ||
+|: z2 \
+| "G"[d4B4] [B4G4] | "D7" [BG][cA] [cA][GB] [A2F2] | "G"[AF][BG] [BG][AF] G2 \
+| "G"[d4B4] [B4G4] | "D7" [BG][cA] [cA][GB] [A2F2] | "G"G2 z2 :|
+|: [g2B2] \
+| "D7"[f2d2] [f2d2] [e2c2] [e2c2] | "G"[d2B2] [d2B2] [B4G4] \
+| "D7"[c2A2] [c2A2] [A2F2] [A2F2] | "G"[BG][AF] [BG][cA] [d2B2] [g2B2] \
+| "D7"[f2d2] [f2d2] [e2c2] [e2c2] | "G"[d2B2] [d2B2] [B4G4] \
+| "C"[e2c2] [e2c2] "D7"[f3A3] [fA] | "G"[g2B] [g2B] [g2B] :|
+
+
+%%sep 1 1 500
+
+X: 70
+T: Nagelschmied (Bb)
+R: zwiefacher
+M: 3/4
+L: 1/4
+K: Bb
+F \
+| "Bb"B>BB | "F7"Acf | A>AA | "Bb"Bdf \
+| "Bb"B>BB | "F7"Acf | A/A/AA | "Bb"BzF |
+| "Bb"B>BB | "F7"Acf | A/A/AA | "Bb"Bz  \
+|:["N times" F |[M:2/4] "Bb"BF | dB |[M:3/4]"F7"fz/A/A | "Bb"Bz :|
+
+
+%%sep 1 1 500
+
+X: 71
+T: Nagelschmied (C)
+R: zwiefacher
+M: 3/4
+L: 1/4
+K: C
+G \
+| "C"c>cc | "G7"Bdg | B>BB | "C"ceg \
+| "C"c>cc | "G7"Bdg | B/B/BB | "C"czG |
+| "C"c>cc | "G7"Bdg | B/B/BB | "C"cz  \
+|:["N times" G |[M:2/4] "C"cG | ec |[M:3/4]"G7"gz/B/B | "C"cz :|
+
+
+%%sep 1 1 500
+
+X: 72
+T: Nagelschmied (F)
+R: zwiefacher
+M: 3/4
+L: 1/4
+K: F
+C \
+| "F"F>FF | "C7"EGc | E>EE | "F"FAc \
+| "F"F>FF | "C7"EGc | E/E/EE | "F"FzC |
+| "F"F>FF | "C7"EGc | E/E/EE | "F"Fz  \
+|:["N times" C |[M:2/4] "F"FC | AF |[M:3/4]"C7"cz/E/E | "F"Fz :|
+
+
+%%sep 1 1 500
+
+X: 73
+T: Nagelschmied (G)
+R: zwiefacher
+M: 3/4
+L: 1/4
+K: G
+D \
+| "G"G>GG | "D7"FAd | F>FF | "G"GBd \
+| "G"G>GG | "D7"FAd | F/F/FF | "G"GzD |
+| "G"G>GG | "D7"FAd | F/F/FF | "G"Gz  \
+|:["N times" D |[M:2/4] "G"GD | BG |[M:3/4]"D7"dz/F/F | "G"Gz :|
+
+
+%%sep 1 1 500
+
+X: 74
+T: Neun D\"orfer
+R: zwiefacher
+M: 32/44
+L: 1/8
+K: Ab
+|:"Ab"[e3c3] [ec] [e2c2] | [e2c2] [c2A2] [A2E2] \
+| "Eb7"[G2E2] [B2G2] | [e2d2] [d2G2] | [G2E2] [B2G2] \
+|  [e3G3] [eG] [e2G2] | [e2G2] [d2G2] [B2G2] \
+| "Ab"A2 [c2A2] | [e2c2] [c2A2] | A2 [c2A2] |
+| "Ab"[e3c3] [ec] [e2c2] | [e2c2] [c2A2] [A2E2] \
+| "Eb7"[G2E2] [B2G2] | [e2d2] [d2G2] | [G2E2] [B2G2] \
+|  [e3G3] [eG] [e2G2] | [e2G2] [d2G2] [B2D2] \
+| "Ab"[A2C2] [c2E2] | "Eb7"[e2G2] [G2D2] | "Ab"[A2C2] z2 z2 :|
+
+
+%%sep 1 1 500
+
+X: 75
+T: Neun D\"orfer
+R: zwiefacher
+M: 32/44
+L: 1/8
+K: Bb
+|:"Bb"[f3d3] [fd] [f2d2] | [f2d2] [d2B2] [B2F2] \
+| "F7"[A2F2] [c2A2] | [f2e2] [e2A2] | [A2F2] [c2A2] \
+|  [f3A3] [fA] [f2A2] | [f2A2] [e2A2] [c2A2] \
+| "Bb"B2 [d2B2] | [f2d2] [d2B2] | B2 [d2B2] |
+| "Bb"[f3d3] [fd] [f2d2] | [f2d2] [d2B2] [B2F2] \
+| "F7"[A2F2] [c2A2] | [f2e2] [e2A2] | [A2F2] [c2A2] \
+|  [f3A3] [fA] [f2A2] | [f2A2] [e2A2] [c2E2] \
+| "Bb"[B2D2] [d2F2] | "F7"[f2A2] [A2E2] | "Bb"[B2D2] z2 z2 :|
+
+
+%%sep 1 1 500
+
+X: 76
+T: Neun D\"orfer
+R: zwiefacher
+M: 32/44
+L: 1/8
+K: C
+|:"C"[g3e3] [ge] [g2e2] | [g2e2] [e2c2] [c2G2] \
+| "G7"[B2G2] [d2B2] | [g2f2] [f2B2] | [B2G2] [d2B2] \
+|  [g3B3] [gB] [g2B2] | [g2B2] [f2B2] [d2B2] \
+| "C"c2 [e2c2] | [g2e2] [e2c2] | c2 [e2c2] |
+| "C"[g3e3] [ge] [g2e2] | [g2e2] [e2c2] [c2G2] \
+| "G7"[B2G2] [d2B2] | [g2f2] [f2B2] | [B2G2] [d2B2] \
+|  [g3B3] [gB] [g2B2] | [g2B2] [f2B2] [d2F2] \
+| "C"[c2E2] [e2G2] | "G7"[g2B2] [B2F2] | "C"[c2E2] z2 z2 :|
+
+
+%%sep 1 1 500
+
+X: 77
+T: Neun D\"orfer
+R: zwiefacher
+M: 32/44
+L: 1/8
+K: Eb
+|:"Eb"[B3G3] [BG] [B2G2] | [B2G2] [G2E2] [E2B,2] \
+| "Bb7"[D2B,2] [F2D2] | [B2A2] [A2D2] | [D2B,2] [F2D2] \
+|  [B3D3] [BD] [B2D2] | [B2D2] [A2D2] [F2D2] \
+| "Eb"E2 [G2E2] | [B2G2] [G2E2] | E2 [G2E2] |
+| "Eb"[B3G3] [BG] [B2G2] | [B2G2] [G2E2] [E2B,2] \
+| "Bb7"[D2B,2] [F2D2] | [B2A2] [A2D2] | [D2B,2] [F2D2] \
+|  [B3D3] [BD] [B2D2] | [B2D2] [A2D2] [F2D2] \
+| "Eb"E2 [G2E2] | "Bb7"[B2D2] [D2B,2] | "Eb"[E2] z2 z2 :|
+
+
+%%sep 1 1 500
+
+X: 78
+T: Neun D\"orfer
+R: zwiefacher
+M: 32/44
+L: 1/8
+K: F
+|:"F"[c3A3] [cA] [c2A2] | [c2A2] [A2F2] [F2C2] \
+| "C7"[E2C2] [G2E2] | [c2B2] [B2E2] | [E2C2] [G2E2] \
+|  [c3E3] [cE] [c2E2] | [c2E2] [B2E2] [G2E2] \
+| "F"F2 [A2F2] | [c2A2] [A2F2] | F2 [A2F2] |
+| "F"[c3A3] [cA] [c2A2] | [c2A2] [A2F2] [F2C2] \
+| "C7"[E2C2] [G2E2] | [c2B2] [B2E2] | [E2C2] [G2E2] \
+|  [c3E3] [cE] [c2E2] | [c2E2] [B2E2] [G2E2] \
+| "F"F2 [A2F2] | "C7"[c2E2] [E2C2] | "F"[F2] z2 z2 :|
+
+
+%%sep 1 1 500
+
+X: 79
+T: Neun D\"orfer
+R: zwiefacher
+M: 32/44
+L: 1/8
+K: G
+|:"G"[d3B3] [dB] [d2B2] | [d2B2] [B2G2] [G2D2] \
+| "D7"[F2D2] [A2F2] | [d2c2] [c2F2] | [F2D2] [A2F2] \
+|  [d3F3] [dF] [d2F2] | [d2F2] [c2F2] [A2F2] \
+| "G"G2 [B2G2] | [d2B2] [B2G2] | G2 [B2G2] |
+| "G"[d3B3] [dB] [d2B2] | [d2B2] [B2G2] [G2D2] \
+| "D7"[F2D2] [A2F2] | [d2c2] [c2F2] | [F2D2] [A2F2] \
+|  [d3F3] [dF] [d2F2] | [d2F2] [c2F2] [A2F2] \
+| "G"G2 [B2G2] | "D7"[d2F2] [F2D2] | "G"[G2] z2 z2 :|
+
+
+%%sep 1 1 500
+
+X: 80
+T: Neun H\"auser [Ab]
+T: Nine Houses
+O: Bavaria
+M: none
+K: Ab
+|: [CE][EA][Ac] \
+| [M:3/4][L:1/8]"Ab"[c2e2] z[ce] [c2e2] | ~[c2e2] [A2c2] [E2A2] \
+| [M:2/4][L:1/8]"Eb7"[E2G2] [G2B2] | [B2e2] [G2B2] | [E2G2][G2B2] \
+| [M:3/4][L:1/8]"Eb7"[G2e2] z[Ge] [G2e2] | ~[G2e2] [E2d2] [D2G2] \
+| [M:2/4][L:1/8]"Ab"[C2A2] [E2c2] | [A2e2] [E2c2] | [C2A2] [E2c2] |
+| [M:3/4][L:1/8]"Ab"[c2e2] [ce][ce] [ce][ce] | ~[c2e2] [A2c2] [E2A2] \
+| [M:2/4][L:1/8]"Eb7"[E2G2] [G2B2] | [B2e2] [G2B2] | [E2G2][G2B2] \
+|1 [M:3/4][L:1/8]"Eb7"[B2e2] [Be][Be] [Be][Be] | ~[B2e2] [G2d2] [E2G2] | "Ab"[C2A2] z \
+:|2[M:3/4][L:1/8]"Eb7"[B2e2] [Be][Be] [Be][Be] | ~[B2g2] [d2f2] [d2g2] | "Ab"[c2a2] z :|
+
+
+%%sep 1 1 500
+
+X: 81
+T: Neun H\"auser [Bb]
+T: Nine Houses
+O: Bavaria
+M: none
+K: Bb
+|: [DF][FB][Bd] \
+| [M:3/4][L:1/8]"Bb"[d2f2] z[df] [d2f2] | ~[d2f2] [B2d2] [F2B2] \
+| [M:2/4][L:1/8]"F7"[F2A2] [A2c2] | [c2f2] [A2c2] | [F2A2][A2c2] \
+| [M:3/4][L:1/8]"F7"[A2f2] z[Af] [A2f2] | ~[A2f2] [F2e2] [E2A2] \
+| [M:2/4][L:1/8]"Bb"[D2B2] [F2d2] | [B2f2] [F2d2] | [D2B2] [F2d2] |
+| [M:3/4][L:1/8]"Bb"[d2f2] [df][df] [df][df] | ~[d2f2] [B2d2] [F2B2] \
+| [M:2/4][L:1/8]"F7"[F2A2] [A2c2] | [c2f2] [A2c2] | [F2A2][A2c2] \
+|1 [M:3/4][L:1/8]"F7"[c2f2] [cf][cf] [cf][cf] | ~[c2f2] [A2e2] [F2A2] | "Bb"[D2B2] z \
+:|2[M:3/4][L:1/8]"F7"[c2f2] [cf][cf] [cf][cf] | ~[c2a2] [e2g2] [e2a2] | "Bb"[d2b2] z :|
+
+
+%%sep 1 1 500
+
+X: 82
+T: Neun H\"auser [C]
+T: Nine Houses
+O: Bavaria
+M: none
+K: C
+|: [EG][Gc][ce] \
+| [M:3/4][L:1/8] \
+	"C"[e2g2] z[eg] [e2g2] | ~[e2g2] [c2e2] [G2c2] \
+| [M:2/4][L:1/8] \
+	"G7"[G2B2] [B2d2] | [d2g2] [B2d2] | [G2B2][B2d2] \
+| [M:3/4][L:1/8] \
+	"G7"[B2g2] z[Bg] [B2g2] | ~[B2g2] [G2f2] [F2B2] \
+| [M:2/4][L:1/8] \
+	"C"[E2c2] [G2e2] | [c2g2] [G2e2] | [E2c2] [G2e2] |
+| [M:3/4][L:1/8] \
+	"C"[e2g2] [eg][eg] [eg][eg] | ~[e2g2] [c2e2] [G2c2] \
+| [M:2/4][L:1/8] \
+	"G7"[G2B2] [B2d2] | [d2g2] [B2d2] | [G2B2][B2d2] \
+| [M:3/4][L:1/8] \
+	"G7"[d2g2] [dg][dg] [dg][dg] | ~[d2g2] [B2f2] [G2B2] | "C"[E2c2] z :|
+
+
+%%sep 1 1 500
+
+X: 83
+T: Neun H\"auser [Eb]
+T: Nine Houses
+O: Bavaria
+M: none
+K: Eb
+|: [GB][Be][eg] \
+| [M:3/4][L:1/8]"Eb"[g2b2] z[gb] [g2b2] | ~[g2b2] [e2g2] [B2e2] \
+| [M:2/4][L:1/8]"Bb7"[B2d2] [d2f2] | [f2b2] [d2f2] | [B2d2][d2f2] \
+| [M:3/4][L:1/8]"Bb7"[d2b2] z[db] [d2b2] | ~[d2b2] [B2a2] [A2d2] \
+| [M:2/4][L:1/8]"Eb"[G2e2] [B2g2] | [e2b2] [B2g2] | [G2e2] [B2g2] |
+| [M:3/4][L:1/8]"Eb"[g2b2] [gb][gb] [gb][gb] | ~[g2b2] [e2g2] [B2e2] \
+| [M:2/4][L:1/8]"Bb7"[B2d2] [d2f2] | [f2b2] [d2f2] | [B2d2][d2f2] \
+| [M:3/4][L:1/8]"Bb7"[f2b2] [fb][fb] [fb][fb] | ~[f2b2] [d2a2] [B2d2] | "Eb"[G2e2] z :|
+
+
+%%sep 1 1 500
+
+X: 84
+T: Neun H\"auser [F]
+T: Nine Houses
+O: Bavaria
+M: none
+K: F
+|: [Ac][cf][fa] \
+| [M:3/4][L:1/8]"F"[a2c'2] z[ac'] [a2c'2] | ~[a2c'2] [f2a2] [c2f2] \
+| [M:2/4][L:1/8]"C7"[c2e2] [e2g2] | [g2c'2] [e2g2] | [c2e2][e2g2] \
+| [M:3/4][L:1/8]"C7"[e2c'2] z[ec'] [e2c'2] | ~[e2c'2] [c2b2] [B2e2] \
+| [M:2/4][L:1/8]"F"[A2f2] [c2a2] | [f2c'2] [c2a2] | [A2f2] [c2a2] |
+| [M:3/4][L:1/8]"F"[a2c'2] [ac'][ac'] [ac'][ac'] | ~[a2c'2] [f2a2] [c2f2] \
+| [M:2/4][L:1/8]"C7"[c2e2] [e2g2] | [g2c'2] [e2g2] | [c2e2][e2g2] \
+| [M:3/4][L:1/8]"C7"[g2c'2] [gc'][gc'] [gc'][gc'] | ~[g2c'2] [e2b2] [c2e2] | "F"[A2f2] z :|
+
+
+%%sep 1 1 500
+
+X: 85
+T: Neun H\"auser [G]
+T: Nine Houses
+O: Bavaria
+M: none
+K: G
+|: [B,D][DG][GB] \
+| [M:3/4][L:1/8] \
+	"G"[B2d2] z[Bd] [B2d2] | ~[B2d2] [G2B2] [D2G2] \
+| [M:2/4][L:1/8] \
+	"D7"[D2F2] [F2A2] | [A2d2] [F2A2] | [D2F2][F2A2] \
+| [M:3/4][L:1/8] \
+	"D7"[F2d2] z[Fd] [F2d2] | ~[F2d2] [D2c2] [C2F2] \
+| [M:2/4][L:1/8] \
+	"G"[B,2G2] [D2B2] | [G2d2] [D2B2] | [B,2G2] [D2B2] |
+| [M:3/4][L:1/8] \
+	"G"[B2d2] [Bd][Bd] [Bd][Bd] | ~[B2d2] [G2B2] [D2G2] \
+| [M:2/4][L:1/8] \
+	"D7"[D2F2] [F2A2] | [A2d2] [F2A2] | [D2F2][F2A2] \
+| [M:3/4][L:1/8] \
+	"D7"[A2d2] [Ad][Ad] [Ad][Ad] | ~[A2d2] [F2c2] [D2F2] | "G"[B,2G2] z :|
+
+
+%%sep 1 1 500
+
+X: 86
+T: Die Nomadin (Bb)
+C: David Schonfeld
+N: Composed for NOMAD 2004
+M: 23/44
+L: 1/8
+K: Bb
+B de \
+|:"Bb"f2 b2 b2 | "Eb"g4 e2 | "F7"c2 f2 f2 | "Bb"d4 B2 \
+| "Bb"f2 b2 b2 | "Eb"g4 e2 | "F7"c2 f2 f2 | "Bb"B2 zB de |
+| "Bb"f2 b2 | "Eb"g2 e2 | "F7"c2 f2 | "Gm"d2 B2 \
+| "F7"c2 f2 f2 | "Bb"d2 B2 de | "Bb"f2 b2 | "Eb"g2 e2 \
+| "F7"c2 f2 | "Gm"d2 B2 | "F7"c2 f2 f2 |1 "Bb"B3 zde :|2 "Bb"B2 z |]
+
+
+%%sep 1 1 500
+
+X: 87
+T: Die Nomadin (C)
+C: David Schonfeld
+N: Composed for NOMAD 2004
+M: 23/44
+L: 1/8
+K: C
+c ef \
+|:"C"g2 c'2 c'2 | "F"a4 f2 | "G7"d2 g2 g2 | "C"e4 c2 \
+| "C"g2 c'2 c'2 | "F"a4 f2 | "G7"d2 g2 g2 | "C"c2 zc ef |
+| "C"g2 c'2 | "F"a2 f2 | "G7"d2 g2 | "Am"e2 c2 \
+| "G7"d2 g2 g2 | "C"e2 c2 ef | "C"g2 c'2 | "F"a2 f2 \
+| "G7"d2 g2 | "Am"e2 c2 | "G7"d2 g2 g2 |1 "C"c3 zef :|2 "C"c2 z |]
+
+
+%%sep 1 1 500
+
+X: 88
+T: Die Nomadin (Eb)
+C: David Schonfeld
+N: Composed for NOMAD 2004
+M: 23/44
+L: 1/8
+K: Eb
+A GA \
+|:"Eb"B2 e2 e2 | "Ab"c4 A2 | "Bb7"F2 B2 B2 | "Eb"G4 E2 \
+| "Eb"B2 e2 e2 | "Ab"c4 A2 | "Bb7"F2 B2 B2 | "Eb"E2 zE GA |
+| "Eb"B2 e2 | "Ab"c2 A2 | "Bb7"F2 B2 | "Cm"G2 E2 \
+| "Bb7"F2 B2 B2 | "Eb"G2 E2 GA | "Eb"B2 e2 | "Ab"c2 A2 \
+| "Bb7"F2 B2 | "Cm"G2 E2 | "Bb7"F2 B2 B2 |1 "Eb"E3 zGA :|2 "Eb"E2 z |]
+
+
+%%sep 1 1 500
+
+X: 89
+T: Die Nomadin (F)
+C: David Schonfeld
+N: Composed for NOMAD 2004
+M: 23/44
+L: 1/8
+K: F
+B AB \
+|:"F"c2 f2 f2 | "Bb"d4 B2 | "C7"G2 c2 c2 | "F"A4 F2 \
+| "F"c2 f2 f2 | "Bb"d4 B2 | "C7"G2 c2 c2 | "F"F2 zF AB |
+| "F"c2 f2 | "Bb"d2 B2 | "C7"G2 c2 | "Dm"A2 F2 \
+| "C7"G2 c2 c2 | "F"A2 F2 AB | "F"c2 f2 | "Bb"d2 B2 \
+| "C7"G2 c2 | "Dm"A2 F2 | "C7"G2 c2 c2 |1 "F"F3 zAB :|2 "F"F2 z |]
+
+
+%%sep 1 1 500
+
+X: 90
+T: N\"udli
+R: zwiefacher
+M: none
+K: Bb
+(3FGA \
+|[M:2/4][L:1/8]"Bb"B2 F2 | "F7"c2 F2 \
+|[M:3/4][L:1/8]"Bb"Fd d2 "F7"c2 | "Bb"B2 AG "F7"F2 \
+|[M:2/4][L:1/8]"Bb"B2 F2 | "F7"c2 F2 \
+|[M:3/4][L:1/8]"Bb"Fd dB "F7"cA | "Bb"B3 z :|
+|: "F7"Bc \
+|[M:2/4][L:1/8]"Bb"d2 B2 | "Cm"e2 c2 \
+|[M:3/4][L:1/8]"F7"f2 fg fe | "F7"c2 cA F2 \
+|[M:2/4][L:1/8]"Bb"d2 B2 | "Cm"e2 c2 \
+|[M:3/4][L:1/8]"F7"f2 fg fd | "Bb"B3 z :|
+
+
+%%sep 1 1 500
+
+X: 91
+T: N\"udli
+R: zwiefacher
+M: none
+K: C
+(3GAB \
+|[M:2/4][L:1/8]"C"c2 G2 | "G7"d2 G2 \
+|[M:3/4][L:1/8]"C"Ge e2 "G7"d2 | "C"c2 BA "G7"G2 \
+|[M:2/4][L:1/8]"C"c2 G2 | "G7"d2 G2 \
+|[M:3/4][L:1/8]"C"Ge ec "G7"dB | "C"c3 z :|
+|: "G7"cd \
+|[M:2/4][L:1/8]"C"e2 c2 | "Dm"f2 d2 \
+|[M:3/4][L:1/8]"G7"g2 ga gf | "G7"d2 dB G2 \
+|[M:2/4][L:1/8]"C"e2 c2 | "Dm"f2 d2 \
+|[M:3/4][L:1/8]"G7"g2 ga ge | "C"c3 z :|
+
+
+%%sep 1 1 500
+
+X: 92
+T: N\"udli
+R: zwiefacher
+M: none
+K: Eb
+(3[BG][=AF][_A_F] \
+|[M:2/4][L:1/8]"Eb"[E2G2] [B,2E2] | "B7"[F2A2] [D2F2] \
+|[M:3/4][L:1/8]"Eb"[EG][GB] [G2B2] "B7"[F2A2] | "Eb"[E2G2] [DF][CE] "B7"[B,2D2] \
+|[M:2/4][L:1/8]"Eb"[E2G2] [B,2E2] | "B7"[F2A2] [D2F2] \
+|[M:3/4][L:1/8]"Eb"[B,E][GB] [GB][EG] "B7"[FA][DF] | "Eb"[E3G3] z :|
+|: "B7"[EG][FA] \
+|[M:2/4][L:1/8]"Eb"[G2B2] [E2G2] | "Fm"[A2c2] [F2A2] \
+|[M:3/4][L:1/8]"B7"[B2d2] [Bd][ce] [Bd][Ac] | "B7"[F2A2] [FA][DF] [B,2D2] \
+|[M:2/4][L:1/8]"Eb"[G2B2] [E2G2] | "Fm"[A2c2] [F2A2] \
+|[M:3/4][L:1/8]"B7"[B2d2] [Bd][ce] [Bd][GB] | "Eb"[E3G3] z :|
+
+
+%%sep 1 1 500
+
+X: 93
+T: N\"udli
+R: zwiefacher
+M: none
+K: F
+(3[cA][=B^G][_B=G] \
+|[M:2/4][L:1/8]"F"[F2A2] [C2F2] | "C7"[G2B2] [E2G2] \
+|[M:3/4][L:1/8]"F"[FA][Ac] [A2c2] "C7"[G2B2] | "F"[F2A2] [EG][DF] "C7"[C2E2] \
+|[M:2/4][L:1/8]"F"[F2A2] [C2F2] | "C7"[G2B2] [E2G2] \
+|[M:3/4][L:1/8]"F"[CF][Ac] [Ac][FA] "C7"[GB][EG] | "F"[F3A3] z :|
+|: "C7"[FA][GB] \
+|[M:2/4][L:1/8]"F"[A2c2] [F2A2] | "Gm"[B2d2] [G2B2] \
+|[M:3/4][L:1/8]"C7"[c2e2] [ce][df] [ce][Bd] | "C7"[G2B2] [GB][EG] [C2E2] \
+|[M:2/4][L:1/8]"F"[A2c2] [F2A2] | "Gm"[B2d2] [G2B2] \
+|[M:3/4][L:1/8]"C7"[c2e2] [ce][df] [ce][Ac] | "F"[F3A3] z :|
+
+
+%%sep 1 1 500
+
+X: 94
+T: A oanzigs Hendl
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: Ab
+|: [C2A2] \
+| "Eb7"([B,2G2][D2B2]) | "Ab"([C2A2] [Ec])z [C2A2] \
+| "Eb7"([B,2G2][D2B2]) | "Ab"[c2E2] z2 [A2C2] \
+| "Eb7"([B,2G2][D2B2]) | "Ab"([C2A2] [Ec])z [e2A2] \
+| "Eb7"([G2d2][D2G2]) | "Ab"[A2C2] z2 :|
+|: [e2A2] \
+| "Eb7"([G2d2][D2B2]) | "Ab"([E2c2] [C2A2])z [e2A2] \
+| "Eb7"([G2d2][D2B2]) | "Ab"[E2c2] z2 [e2A2] \
+| "Eb7"([G2d2][D2B2]) | "Ab"([E2c2] [C2A2])z [E2c2] \
+| "Eb7"([D2B2][B,2G2]) | "Ab"[A2C2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 95
+T: A oanzigs Hendl
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: Bb
+|: [D2B2] \
+| "F7"([C2A2][E2c2]) | "Bb"([D2B2] [Fd])z [D2B2] \
+| "F7"([C2A2][E2c2]) | "Bb"[d2F2] z2 [B2D2] \
+| "F7"([C2A2][E2c2]) | "Bb"([D2B2] [Fd])z [f2B2] \
+| "F7"([A2e2][E2A2]) | "Bb"[B2D2] z2 :|
+|: [f2B2] \
+| "F7"([A2e2][E2c2]) | "Bb"([F2d2] [D2B2])z [f2B2] \
+| "F7"([A2e2][E2c2]) | "Bb"[F2d2] z2 [f2B2] \
+| "F7"([A2e2][E2c2]) | "Bb"([F2d2] [D2B2])z [F2d2] \
+| "F7"([E2c2][C2A2]) | "Bb"[B2D2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 96
+T: A oanzigs Hendl
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: C
+|: [E2c2] \
+| "G7"([D2B2][F2d2]) | "C"([E2c2] [Ge])z [E2c2] \
+| "G7"([D2B2][F2d2]) | "C"[e2G2] z2 [c2E2] \
+| "G7"([D2B2][F2d2]) | "C"([E2c2] [Ge])z [g2c2] \
+| "G7"([B2f2][F2B2]) | "C"[c2E2] z2 :|
+|: [g2c2] \
+| "G7"([B2f2][F2d2]) | "C"([G2e2] [E2c2])z [g2c2] \
+| "G7"([B2f2][F2d2]) | "C"[G2e2] z2 [g2c2] \
+| "G7"([B2f2][F2d2]) | "C"([G2e2] [E2c2])z [G2e2] \
+| "G7"([F2d2][D2B2]) | "C"[c2E2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 97
+T: A oanzigs Hendl
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: Eb
+|: [G2E2] \
+| "Bb7"([F2D2][A2F2]) | "Eb"([G2E2] [BG])z [G2E2] \
+| "Bb7"([F2D2][A2F2]) | "Eb"[G2E2] z2 [G2E2] \
+| "Bb7"([F2D2][A2F2]) | "Eb"([G2E2] [BG])z [B2G2] \
+| "Bb7"([A2F2][D2B,2]) | "Eb"[E2E2] z2 :|
+|: [B2G2] \
+| "Bb7"([A2F2][F2D2]) | "Eb"([G2E2] [EE])z [B2G2] \
+| "Bb7"([A2F2][F2D2]) | "Eb"[G2E2] z2 [B2G2] \
+| "Bb7"([A2F2][F2D2]) | "Eb"([G2E2] [EE])z [G2E2] \
+| "Bb7"([F2D2][D2B,2]) | "Eb"[E2E2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 98
+T: A oanzigs Hendl
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: F
+|: [A2F2] \
+| "C7"([G2E2][B2G2]) | "F"([A2F2] [cA])z [A2F2] \
+| "C7"([G2E2][B2G2]) | "F"[A2F2] z2 [A2F2] \
+| "C7"([G2E2][B2G2]) | "F"([A2F2] [cA])z [c2A2] \
+| "C7"([B2G2][E2C2]) | "F"[F2F2] z2 :|
+|: [c2A2] \
+| "C7"([B2G2][G2E2]) | "F"([A2F2] [FF])z [c2A2] \
+| "C7"([B2G2][G2E2]) | "F"[A2F2] z2 [c2A2] \
+| "C7"([B2G2][G2E2]) | "F"([A2F2] [FF])z [A2F2] \
+| "C7"([G2E2][E2C2]) | "F"[F2F2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 99
+T: A oanzigs Hendl
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: G
+|: [B2G2] \
+| "D7"([A2F2][c2A2]) | "G"([B2G2] [dB])z [B2G2] \
+| "D7"([A2F2][c2A2]) | "G"[B2G2] z2 [B2G2] \
+| "D7"([A2F2][c2A2]) | "G"([B2G2] [dB])z [d2B2] \
+| "D7"([c2A2][F2D2]) | "G"[G2G2] z2 :|
+|: [d2B2] \
+| "D7"([c2A2][A2F2]) | "G"([B2G2] [GG])z [d2B2] \
+| "D7"([c2A2][A2F2]) | "G"[B2G2] z2 [d2B2] \
+| "D7"([c2A2][A2F2]) | "G"([B2G2] [GG])z [B2G2] \
+| "D7"([A2F2][F2D2]) | "G"[G2G2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 100
+T: 's Bachm\"uhlerl (Ab)
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: Ab
+|: "Ab"[cA][BG] [AF][BG] [cA][dB] | [c2A2][e2c2] [e4c4] \
+| "Eb7"[B2G2] [dB][c=A] [dB][BG] | "Ab"A2F2 E4 \
+| "Ab"[cA][BG] [AF][BG] [cA][dB] | [c2A2][e2c2] [e4c4] \
+| "Eb7"[B2G2] [dB][c=A] [dB][BG] |1 "Ab"A2 z2 z2 :|2 "Ab"A2 z2 EF ||
+|: "Eb7"E2 [BG][BG] [BG][BG] |[B2G2] z2 EF \
+| "Ab"E2 [cA][cA] [cA][cA] | [c2A2] z2 EF \
+| "Eb7"E2[B2G2] [B4G4] | "Ab"E2[c2A2] [c4A4] \
+|1 "Eb7"[e2G2] [dB][cA] [BG][dB] | "Ab"[c2A2] z2 EF \
+:|2 "Eb7"[fd][ec] [=d=B][ec] [_d_B][BG] | "Ab"A2 z2 z2 |]
+
+
+%%sep 1 1 500
+
+X: 101
+T: 's Bachm\"uhlerl (Bb)
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: Bb
+|: "Bb"[dB][cA] [BG][cA] [dB][ec] | [d2B2][f2d2] [f4d4] \
+| "F7"[c2A2] [ec][d=B] [ec][cA] | "Bb"B2G2 F4 \
+| "Bb"[dB][cA] [BG][cA] [dB][ec] | [d2B2][f2d2] [f4d4] \
+| "F7"[c2A2] [ec][d=B] [ec][cA] |1 "Bb"B2 z2 z2 :|2 "Bb"B2 z2 FG ||
+|: "F7"F2 [cA][cA] [cA][cA] |[c2A2] z2 FG \
+| "Bb"F2 [dB][dB] [dB][dB] | [d2B2] z2 FG \
+| "F7"F2[c2A2] [c4A4] | "Bb"F2[d2B2] [d4B4] \
+|1 "F7"[f2A2] [ec][dB] [cA][ec] | "Bb"[d2B2] z2 FG \
+:|2 "F7"[ge][fd] [=e^c][fd] [_e=c][cA] | "Bb"B2 z2 z2 |]
+
+
+%%sep 1 1 500
+
+X: 102
+T: 's Bachm\"uhlerl (Eb)
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: Eb
+|: "Eb"[GE][FD] [EC][FD] [GE][AF] | [G2E2][B2G2] [B4G4] \
+| "Bb7"[F2D2] [AF][G=E] [AF][FD] | "Eb"E2[c2E2] [B4G4] \
+| "Eb"[GE][FD] [EC][FD] [GE][AF] | [G2E2][B2G2] [B4G4] \
+| "Bb7"[F2D2] [AF][G=E] [AF][FD] |1 "Eb"E2 z2 z2 :|2 "Eb"E2 z2 [BG][cA] ||
+|: "Bb7"[B2D2] [FD][FD] [FD][FD] |[F2D2] z2 [BD][cA] \
+| "Eb"[B2G2] [GE][GE] [GE][GE] | [G2E2] z2 [BG][cA] \
+| "Bb7"[B2D2][F2D2] [F4D4] | "Eb"[B2E2][G2E2] [G4E4] \
+|1 "Bb7"[B2D2] [AF][GE] [FD][AF] | "Eb"[G2E2] z2 [BG][cA] \
+:|2 "Bb7"[cA][BG] [=A^F][BG] [c_A][dB] | "Eb"[e2G2] z2 z2 |]
+
+
+%%sep 1 1 500
+
+X: 103
+T: 's Bachm\"uhlerl (F)
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: F
+|: "F"[AF][GE] [FD][GE] [AF][BG] | [A2F2][c2A2] [c4A4] \
+| "C7"[G2E2] [BG][A^F] [BG][GE] | "F"F2[d2F2] [c4A4] \
+| "F"[AF][GE] [FD][GE] [AF][BG] | [A2F2][c2A2] [c4A4] \
+| "C7"[G2E2] [BG][A^F] [BG][GE] |1 "F"F2 z2 z2 :|2 "F"F2 z2 [cA][dB] ||
+|: "C7"[c2E2] [GE][GE] [GE][GE] |[G2E2] z2 [cE][dB] \
+| "F"[c2A2] [AF][AF] [AF][AF] | [A2F2] z2 [cA][dB] \
+| "C7"[c2E2][G2E2] [G4E4] | "F"[c2F2][A2F2] [A4F4] \
+|1 "C7"[c2E2] [BG][AF] [GE][BG] | "F"[A2F2] z2 [cA][dB] \
+:|2 "C7"[dB][cA] [=B^G][cA] [d_B][ec] | "F"[f2A2] z2 z2 |]
+
+
+%%sep 1 1 500
+
+X: 104
+T: 's Lerchal
+M: 23/44
+L: 1/8
+K: Bb
+[D2B,2] \
+| "Bb"[DB,][FD] [FD][DB,] | [DB,][FD] [FD][DB,] \
+| "Bb"[DB,][FD] [F2D2] [GE][FD] | "F7"[E4C4] [C2A,2] \
+| "F7"[CA,][EC] [EC][CA,] | [CA,][EC] [EC][CA,] \
+| "F7"[CA,][EC] [E2C2] [FD][EC] | "Bb"[D2B,2] z2 [f2d2] |
+| "Eb"[g2e2] [f2d2] | "(Cm)"[e4c4] \
+| "Bb"[f2d2] [e2c2] | "(Gm)"[d4B4] \
+| "F7"[c3A3]  [ec][dB][cA] | "Bb"[d2B2] [g2e2] [f2d2] \
+"I"\
+| "Eb"[g2e2] [f2d2] | "(Cm)"[e4c4] \
+| "Bb"[f2d2] [e2c2] | "(Gm)"[d4B4] \
+| "F7"[cA][dB] [ec][fd] [ge][af] | "Bb"[b2d2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 105
+T: 's Lerchal
+M: 23/44
+L: 1/8
+K: C
+[E2C2] \
+| "C"[EC][GE] [GE][EC] | [EC][GE] [GE][EC] \
+| "C"[EC][GE] [G2E2] [AF][GE] | "G7"[F4D4] [D2B,2] \
+| "G7"[DB,][FD] [FD][DB,] | [DB,][FD] [FD][DB,] \
+| "G7"[DB,][FD] [F2D2] [GE][FD] | "C"[E2C2] z2 [g2e2] |
+| "F"[a2f2] [g2e2] | "(Dm)"[f4d4] \
+| "C"[g2e2] [f2d2] | "(Am)"[e4c4] \
+| "G7"[d3B3]  [fd][ec][dB] | "C"[e2c2] [a2f2] [g2e2] \
+"I"\
+| "F"[a2f2] [g2e2] | "(Dm)"[f4d4] \
+| "C"[g2e2] [f2d2] | "(Am)"[e4c4] \
+| "G7"[dB][ec] [fd][ge] [af][bg] | "C"[c'2e2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 106
+T: 's Lerchal
+M: 23/44
+L: 1/8
+K: Eb
+[G2E2] \
+| "Eb"[GE][BG] [BG][GE] | [GE][BG] [BG][GE] \
+| "Eb"[GE][BG] [BG][BG] [cA][BG] | "Bb7"[A4F4] [F2D2] \
+| "Bb7"[FD][AF] [AF][FD] | [FD][AF] [AF][FD] \
+| "Bb7"[FD][AF] [AF][AF] [BG][AF] | "Eb"[G2E2] z [BG][=A^F][BG] |
+| "Ab"[c2A2] [B2G2] | "(Fm)"[A4F4] \
+| "Eb"[B2G2] [A2F2] | "(Cm)"[G4E4] \
+| "Bb7"[F3D3] [GE][A2F2] | "Eb"[GE][AF] [BG][cA] [B2G2] \
+"I"\
+| "Ab"[c2A2] [B2G2] | "(Fm)"[A4F4] \
+| "Eb"[B2G2] [A2F2] | "(Cm)"[G4E4] \
+| "Bb7"[FD][GE] [AF][BG] [cA][dB] | "Eb"[e2G2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 107
+T: 's Lerchal
+M: 23/44
+L: 1/8
+K: F
+[A2F2] \
+| "F"[AF][cA] [cA][AF] | [AF][cA] [cA][AF] \
+| "F"[AF][cA] [cA][cA] [dB][cA] | "C7"[B4G4] [G2E2] \
+| "C7"[GE][BG] [BG][GE] | [GE][BG] [BG][GE] \
+| "C7"[GE][BG] [BG][BG] [cA][BG] | "F"[A2F2] z [cA][=B^G][cA] |
+| "Bb"[d2B2] [c2A2] | "(Gm)"[B4G4] \
+| "F"[c2A2] [B2G2] | "(Dm)"[A4F4] \
+| "C7"[G3E3] [AF][B2G2] | "F"[AF][BG] [cA][dB] [c2A2] \
+"I"\
+| "Bb"[d2B2] [c2A2] | "(Gm)"[B4G4] \
+| "F"[c2A2] [B2G2] | "(Dm)"[A4F4] \
+| "C7"[GE][AF] [BG][cA] [dB][ec] | "F"[f2A2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 108
+T: Saulocker
+R: Zwiefacher
+P: (P4W2)
+M: 43/44
+L: 1/8
+K: Eb
+|: (3Bcd \
+| "Eb"{cd}e2G2 G2G2 | E2G2 G2G2 | "Bb7"B2 AG A2 | "Eb"c2 B=A B2 \
+| "Eb"e2G2 G2G2 | E2G2 G2G2 | "Bb7"B2 AG AB |1 "Eb"G4 :|2 "Eb"G4 ||
+|: G2 \
+| "Bb7"G2 F=E F4 | "Eb"A2 G^F G4 | "Bb7" B2 AG AB | "Eb"c2 BA (3Bcd \
+| "Eb"e2G2 G2G2 | E2G2 G2G2 |1 "Bb7"B2 AG AB | "Eb"G4 :|2 "Bb7"B2 =AB cd | "Eb"e4 |]
+%%sep 5 5 200
+K: Bb
+|: (3fga \
+| "Bb"{ga}b2d2 d2d2 | B2d2 d2d2 | "F7"f2 ed e2 | "Bb"g2 f=e f2 \
+| "Bb"b2d2 d2d2 | B2d2 d2d2 | "F7"f2 ed ef |1 "Bb"d4 :|2 "Bb"d4 ||
+|: d2 \
+| "F7"d2 c=B c4 | "Bb"e2 d^c d4 | "F7" f2 ed ef | "Bb"g2 fe (3fga \
+| "Bb"b2d2 d2d2 | B2d2 d2d2 |1 "F7"f2 ed ef | "Bb"d4 :|2 "F7"f2 =ef ga | "Bb"b4 |]
+%%sep 5 5 200
+P: Bb instruments:
+K: F
+|: (3cde \
+| "F"{de}f2A2 A2A2 | F2A2 A2A2 | "C7"c2 BA B2 | "F"d2 c=B c2 \
+| "F"f2A2 A2A2 | F2A2 A2A2 | "C7"c2 BA Bc |1 "F"A4 :|2 "F"A4 ||
+|: A2 \
+| "C7"A2 G=F G4 | "F"B2 A^G A4 | "C7" c2 BA Bc | "F"d2 cB (3cde \
+| "F"f2A2 A2A2 | F2A2 A2A2 |1 "C7"c2 BA Bc | "F"A4 :|2 "C7"c2 =Bc de | "F"f4 |]
+%%sep 5 5 200
+K: C
+|: (3gab \
+| "C"{ab}c'2e2 e2e2 | c2e2 e2e2 | "G7"g2 fe f2 | "C"a2 g=f g2 \
+| "C"c'2e2 e2e2 | c2e2 e2e2 | "G7"g2 fe fg |1 "C"e4 :|2 "C"e4 ||
+|: e2 \
+| "G7"e2 d=c d4 | "C"f2 e^d e4 | "G7" g2 fe fg | "C"a2 gf (3gab \
+| "C"c'2e2 e2e2 | c2e2 e2e2 |1 "G7"g2 fe fg | "C"e4 :|2 "G7"g2 =fg ab | "C"c'4 |]
+
+
+%%sep 1 1 500
+
+X: 109
+T: Saulocker (in Bb)
+R: Zwiefacher
+M: 43/44
+L: 1/8
+K: Bb
+|: (3fga \
+| "Bb"b2d2 d2d2 | B2d2 d2d2 | "F7"f2 ed e2 | "Bb"g2 f=e f2 \
+| "Bb"b2d2 d2d2 | B2d2 d2d2 | "F7"f2 ed ef | "Bb"d4 :|
+|: d2 \
+| "F7"d2 c=B c4 | "Bb"e2 d^c d4 | "F7" f2 ed ef | "Bb"g2 fe (3fga \
+| "Bb"b2d2 d2d2 | B2d2 d2d2 |1 "F7"f2 ed ef | "Bb"d4 :|2 "F7"f2 =ef ga | "Bb"b4 |]
+
+
+%%sep 1 1 500
+
+X: 110
+T: Saulocker (in C)
+R: Zwiefacher
+M: 43/44
+L: 1/8
+K: C
+|: (3gab \
+| "C"c'2e2 e2e2 | c2e2 e2e2 | "G7"g2 fe f2 | "C"a2 g=f g2 \
+| "C"c'2e2 e2e2 | c2e2 e2e2 | "G7"g2 fe fg | "C"e4 :|
+|: e2 \
+| "G7"e2 d^c d4 | "C"f2 e^d e4 | "G7" g2 fe fg | "C"a2 gf (3gab \
+| "C"c'2e2 e2e2 | c2e2 e2e2 |1 "G7"g2 fe fg | "C"e4 :|2 "G7"g2 ^fg ab | "C"c'4 |]
+
+
+%%sep 1 1 500
+
+X: 111
+T: Saulocker (in Eb)
+R: Zwiefacher
+M: 43/44
+L: 1/8
+K: Eb
+|: (3Bcd \
+| "Eb"e2G2 G2G2 | E2G2 G2G2 | "Bb7"B2 AG A2 | "Eb"c2 B=A B2 \
+| "Eb"e2G2 G2G2 | E2G2 G2G2 | "Bb7"B2 AG AB | "Eb"G4 :|
+|: G2 \
+| "Bb7"G2 F=E F4 | "Eb"A2 G^F G4 | "Bb7" B2 AG AB | "Eb"c2 BA (3Bcd \
+| "Eb"e2G2 G2G2 | E2G2 G2G2 |1 "Bb7"B2 AG AB | "Eb"G4 :|2 "Bb7"B2 =AB cd | "Eb"e4 |]
+
+
+%%sep 1 1 500
+
+X: 112
+T: Saulocker (in F)
+R: Zwiefacher
+M: 43/44
+L: 1/8
+K: F
+|: (3cde \
+| "F"f2A2 A2A2 | F2A2 A2A2 | "C7"c2 BA B2 | "F"d2 c=B c2 \
+| "F"f2A2 A2A2 | F2A2 A2A2 | "C7"c2 BA Bc | "F"A4 :|
+|: A2 \
+| "C7"A2 G^F G4 | "F"B2 A^G A4 | "C7" c2 BA Bc | "F"d2 cB (3cde \
+| "F"f2A2 A2A2 | F2A2 A2A2 |1 "C7"c2 BA Bc | "F"A4 :|2 "C7"c2 =Bc de | "F"f4 |]
+
+
+%%sep 1 1 500
+
+X: 113
+T: Schellen-Neuner [Ab]
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: Ab
+   [AC][BE] \
+| "Ab"[c2A2][A2]  [c4A4] | [e2c2][c2A2] [e4c4] \
+| "Eb7"[d2B2]   [GB][fd] [ec][dB] | "Ab"[cA][dB] [cA][BG] [AF][BG] \
+"I"\
+| "Ab"[c2A2][A2]  [c4A4] | [e2c2][c2A2] [e4c4] \
+| "Eb7"[dB][cA] [BG][AF] [GE][BG] | "Ab"[A2A2] z2 :|
+|: Ac \
+| "Ab"[e2c2][c2A2] [e4c4] | "Eb7"[d2B2][B2G2] [d4B4] \
+| "Ab"[c2A2][A2F2] [c4A4] | "Eb7"[B2G2][G2E2] [B4G4] \
+| "Ab"[c2A2][A2]   [c4A4] | [e2c2][c2A2] [e4c4] \
+|1"Eb7"[dB][cA] [BG][AF] [GE][BG] | "Ab"[A2C2] z2 \
+:|2 "Eb7"[fd][ec] [=d=B][ec] [_d_B][BG] | "Ab"[A2A2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 114
+T: Schellen-Neuner [Bb]
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: Bb
+   [BD][cF] \
+| "Bb"[d2B2][B2F2] [d4B4] | [f2d2][d2B2] [f4d4] \
+| "F7"[e2c2] [Ac][ge] [fd][ec] | "Bb"[dB][ec] [dB][cA] [BG][cA] \
+"I"\
+| "Bb"[d2B2][B2F2] [d4B4] | [f2d2][d2B2] [f4d4] \
+| "F7"[ec][dB] [cA][BG] [AF][cA] | "Bb"[B2B2] z2 :|
+|: [BF][dB] \
+| "Bb"[f2d2][d2B2] [f4d4] | "F7"[e2c2][c2A2] [e4c4] \
+| "Bb"[d2B2][B2F2] [d4B4] | "F7"[c2A2][A2F2] [c4A4] \
+| "Bb"[d2B2][B2F2] [d4B4] | [f2d2][d2B2] [f4d4] \
+|1"F7"[ec][dB] [cA][BG] [AF][cE] | "Bb"[B2D2] z2 \
+:|2 "F7"[ge][fd] [=e^c][fd] [_e=c][cA] | "Bb"[B2B2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 115
+T: Schellen-Neuner [C]
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: C
+   [cE][dG] \
+| "C"[e2c2][c2G2]  [e4c4] | [g2e2][e2c2] [g4e4] \
+| "G7"[f2d2]   [Bd][af] [ge][fd] | "C"[ec][fd] [ec][dB] [cA][dB] \
+"I"\
+| "C"[e2c2][c2G2]  [e4c4] | [g2e2][e2c2] [g4e4] \
+| "G7"[fd][ec] [dB][cA] [BG][dB] | "C"[c2c2] z2 :|
+|: [cG][ec] \
+| "C"[g2e2][e2c2] [g4e4] | "G7"[f2d2][d2B2] [f4d4] \
+| "C"[e2c2][c2G2] [e4c4] | "G7"[d2B2][B2G2] [d4B4] \
+| "C"[e2c2][c2G2]   [e4c4] | [g2e2][e2c2] [g4e4] \
+|1"G7"[fd][ec] [dB][cA] [BG][dF] | "C"[c2E2] z2 \
+:|2 "G7"[af][ge] [^f^d][ge] [=f=d][dB] | "C"[c2c2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 116
+T: Schellen-Neuner [Eb]
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: Eb
+   [EG,][FB,] \
+| "Eb"[G2E2][E2]  [G4E4] | [B2G2][G2E2] [B4G4] \
+| "Bb7"[A2F2]   [DF][cA] [BG][AF] | "Eb"[GE][AF] [GE][FD] [EC][FD] \
+"I"\
+| "Eb"[G2E2][E2]  [G4E4] | [B2G2][G2E2] [B4G4] \
+| "Bb7"[AF][GE] [FD][cA] [BG][AF] | "Eb"[G2E2] z2 :|
+|: EG \
+| "Eb"[B2G2][G2E2] [B4G4] | "Bb7"[A2F2][F2D2] [A4F4] \
+| "Eb"[G2E2] E2    [G4E4] | "Bb7"[F2D2][D2B,2] [F4D4] \
+| "Eb"[G2E2][E2]   [G4E4] | [B2G2][G2E2] [B4G4] \
+|1 "Bb7"[AF][GE]  [FD][cA] [BG][AF] | "Eb"[G2E2] z2 \
+:|2 "Bb7"[cA][BG] [=A^F][BG] [c_A][dB] | "Eb"[e2G2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 117
+T: Schellen-Neuner [F]
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: F
+   [FA,][GC] \
+| "F"[A2F2][F2C2]  [A4F4] | [c2A2][A2F2] [c4A4] \
+| "C7"[B2G2]   [EG][dB] [cA][BG] | "F"[AF][BG] [AF][GE] [FD][GE] \
+"I"\
+| "F"[A2F2][F2C2]  [A4F4] | [c2A2][A2F2] [c4A4] \
+| "C7"[BG][AF] [GE][dB] [cA][BG] | "F"[A2F2] z2 :|
+|: [FC][AF] \
+| "F"[c2A2][A2F2] [c4A4] | "C7"[B2G2][G2E2] [B4G4] \
+| "F"[A2F2][F2C2] [A4F4] | "C7"[G2E2][E2C2] [G4E4] \
+| "F"[A2F2][F2C2]   [A4F4] | [c2A2][A2F2] [c4A4] \
+|1 "C7"[BG][AF]  [GE][dB] [cA][BG] | "F"[A2F2] z2 \
+:|2 "C7"[dB][cA] [=B^G][cA] [d_B][eB] | "F"[f2A2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 118
+T: Schellen-Neuner [G]
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: G
+   [GB,][AD] \
+| "G"[B2G2][G2D2]  [B4G4] | [d2B2][B2G2] [d4B4] \
+| "D7"[c2A2]   [FA][ec] [dB][cA] | "G"[BG][cA] [BG][AF] [GE][AF] \
+"I"\
+| "G"[B2G2][G2D2]  [B4G4] | [d2B2][B2G2] [d4B4] \
+| "D7"[cA][BG] [AF][ec] [dB][cA] | "G"[B2G2] z2 :|
+|: [GD][BG] \
+| "G"[d2B2][B2G2] [d4B4] | "D7"[c2A2][A2F2] [c4A4] \
+| "G"[B2G2][G2D2] [B4G4] | "D7"[A2F2][F2D2] [A4F4] \
+| "G"[B2G2][G2D2]   [B4G4] | [d2B2][B2G2] [d4B4] \
+|1 "D7"[cA][BG]  [AF][ec] [dB][cA] | "G"[B2G2] z2 \
+:|2 "D7"[ec][dB] [^c^A][dB] [e=c][fc] | "G"[g2B2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 119
+T: Der Schlesische oder Zwiefacher
+C:Nach alte Tanzmelodie
+R:Zwiefacher
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:3/4
+L:1/4
+Q:1/4=144
+K:D
+|:         A A/G/ F/G/ | A2 d | [M:2/4]c/d/ e | d/e/ f | [M:3/4]A A/G/ F/G/ | A2 d | [M:2/4]c/d/ e/c/ | dz :|
+|: [M:3/4] A g/A/ g | A f/A/ f | [M:2/4] c/d/ e | d/e/ f | [M:3/4] A g/A/ g | A f/A/ f | [M:2/4] c/d/ e/c/ |1 dz :|2 d d/d'/ |
+|: [M:2/4] b g/b/ | a f/a/ | g e/g/ | f d//a//f//d// | e A/g/ | f d//a/4^g//a// | g/e/ c/A/ |1 d d/d'/ :|2 dz |]
+
+
+%%sep 1 1 500
+
+X: 120
+T: Zwiefacher: Schneider
+O: Bavaria
+R: zwiefacher
+K: C
+
+
+%%sep 1 1 500
+
+X: 121
+P: Schneider
+R: zwiefacher
+O: Bavaria
+B:
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: The top note is the melody.
+M: 2+3/4
+L: 1/4
+P: (P²WP²W²)²((P²WP³W²)²
+K: C
+P: in C:
+|: "C"[cGE] [GEC] | [ecG] [cGE] | "G7"[dBG] [BGG] [dBG] | "C"[ecG] [cGE] | [gec] [ecG] \
+|1 "G7"[dBG] [fdB] [dBG] | "C"[ecG] z z :|2 "G7"[gdB] [fBG] [dBF] | "C"[cE] z z ||
+|: "F"[cAF] [fcA] | [afc] [fcA] | [cAF] [fcA] [afc] | "C"[gec] z | [ecG] [cGE] | [gec] [ecG] \
+|1 "G7"[gdB] [fdB] [dBG] | "C"[ecG] z z :|2 "G7"[gdB] [fBG] [dBF] | "C"[cE] z z |]
+%%sep 5 5 200
+P: in F:
+K: F
+|: "F"[fcA] [cAF] | [afc] [fcA] | "C7"[gec] [ecc] [gec] | "F"[afc] [fcA] | [c'af] [afc] \
+|1 "C7"[gec] [bge] [gec] | "F"[afc] z z :|2 "C7"[c'ge] [bec] [geB] | "F"[fA] z z ||
+|: "B"[fdB] [bfd] | [d'bf] [bfd] | [fdB] [bfd] [d'bf] | "F"[c'af] z | [afc] [fcA] | [c'af] [afc] \
+|1 "C7"[c'ge] [bge] [gec] | "F"[afc] z z :|2 "C7"[c'ge] [bec] [geB] | "F"[fA] z z |]
+%%sep 5 5 200
+P: Bb instruments:
+P: in D:
+K: D
+|: "D"[dAF] [AFD] | [fdA] [dAF] | "A7"[ecA] [cAA] [ecA] | "D"[fdA] [dAF] | [afd] [fdA] \
+|1 "A7"[ecA] [gec] [ecA] | "D"[fdA] z z :|2 "A7"[aec] [gcA] [ecG] | "D"[dF] z z ||
+|: "G"[dBG] [gdB] | [bgd] [gdB] | [dBG] [gdB] [bgd] | "D"[afd] z | [fdA] [dAF] | [afd] [fdA] \
+|1 "A7"[aec] [gec] [ecA] | "D"[fdA] z z :|2 "A7"[aec] [gcA] [ecG] | "D"[dF] z z |]
+%%sep 5 5 200
+P: in G:
+K: G
+|: "G"[gdB] [dBG] | [bgd] [gdB] | "D7"[afd] [fdd] [afd] | "G"[bgd] [gdB] | [d'bg] [bgd] \
+|1 "D7"[afd] [c'af] [afd] | "G"[bgd] z z :|2 "D7"[d'af] [c'fd] [afc] | "G"[gB] z z ||
+|: "C"[gec] [c'ge] | [e'c'g] [c'ge] | [gec] [c'ge] [e'c'g] | "G"[d'bg] z | [bgd] [gdB] | [d'bg] [bgd] \
+|1 "D7"[d'af] [c'af] [afd] | "G"[bgd] z z :|2 "D7"[d'af] [c'fd] [afc] | "G"[gB] z z |]
+P:
+W: Transcription 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+
+
+%%sep 1 1 500
+
+X: 122
+T: Schneider (in C)
+R: zwiefacher
+O: Bavaria
+B:
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: The top note is the melody.
+M: 2+3/4
+L: 1/4
+K: C
+|: "C"[cGE] [GEC] | [ecG] [cGE] | "G7"[dBG] [BGG] [dBG] | "C"[ecG] [cGE] | [gec] [ecG] \
+|1 "G7"[dBG] [fdB] [dBG] | "C"[ecG] z z :|2 "G7"[gdB] [fBG] [dBF] | "C"[cE] z z ||
+|: "F"[cAF] [fcA] | [afc] [fcA] | [cAF] [fcA] [afc] | "C"[gec] z | [ecG] [cGE] | [gec] [ecG] \
+|1 "G7"[gdB] [fdB] [dBG] | "C"[ecG] z z :|2 "G7"[gdB] [fBG] [dBF] | "C"[cE] z z |]
+
+
+%%sep 1 1 500
+
+X: 123
+T: Schneider (in D)
+R: zwiefacher
+O: Bavaria
+B:
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: The top note is the melody.
+M: 2+3/4
+L: 1/4
+K: D
+|: "D"[dAF] [AFD] | [fdA] [dAF] | "A7"[ecA] [cAA] [ecA] | "D"[fdA] [dAF] | [afd] [fdA] \
+|1 "A7"[ecA] [gec] [ecA] | "D"[fdA] z z :|2 "A7"[aec] [gcA] [ecG] | "D"[dF] z z ||
+|: "G"[dBG] [gdB] | [bgd] [gdB] | [dBG] [gdB] [bgd] | "D"[afd] z | [fdA] [dAF] | [afd] [fdA] \
+|1 "A7"[aec] [gec] [ecA] | "D"[fdA] z z :|2 "A7"[aec] [gcA] [ecG] | "D"[dF] z z |]
+
+
+%%sep 1 1 500
+
+X: 124
+T: Schneider (in F)
+R: zwiefacher
+O: Bavaria
+B:
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: The top note is the melody.
+M: 2+3/4
+L: 1/4
+K: F
+|: "F"[fcA] [cAF] | [afc] [fcA] | "C7"[gec] [ecc] [gec] | "F"[afc] [fcA] | [c'af] [afc] \
+|1 "C7"[gec] [bge] [gec] | "F"[afc] z z :|2 "C7"[c'ge] [bec] [geB] | "F"[fA] z z ||
+|: "B"[fdB] [bfd] | [d'bf] [bfd] | [fdB] [bfd] [d'bf] | "F"[c'af] z | [afc] [fcA] | [c'af] [afc] \
+|1 "C7"[c'ge] [bge] [gec] | "F"[afc] z z :|2 "C7"[c'ge] [bec] [geB] | "F"[fA] z z |]
+
+
+%%sep 1 1 500
+
+X: 125
+T: Schneider (in G)
+R: zwiefacher
+O: Bavaria
+B:
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: The top note is the melody.
+M: 2+3/4
+L: 1/4
+K: G
+|: "G"[gdB] [dBG] | [bgd] [gdB] | "D7"[afd] [fdd] [afd] | "G"[bgd] [gdB] | [d'bg] [bgd] \
+|1 "D7"[afd] [c'af] [afd] | "G"[bgd] z z :|2 "D7"[d'af] [c'fd] [afc] | "G"[gB] z z ||
+|: "C"[gec] [c'ge] | [e'c'g] [c'ge] | [gec] [c'ge] [e'c'g] | "G"[d'bg] z | [bgd] [gdB] | [d'bg] [bgd] \
+|1 "D7"[d'af] [c'af] [afd] | "G"[bgd] z z :|2 "D7"[d'af] [c'fd] [afc] | "G"[gB] z z |]
+
+
+%%sep 1 1 500
+
+X: 126
+T: Schubkarrn (Ab)
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: Ab
+"D"\
+|: "Ab"[cA][dB] [ec][fd] [e2c2] | [cA][dB] [ec][fd] [e2c2] \
+| "Eb7"[d2B2] [B2G2] | "Ab"[c2A2] [A2E2] \
+|  "Ab"[cA][dB] [ec][fd] [e2c2] | [cA][dB] [ec][fd] [e2c2] \
+| "Eb7"[d2B2] [B2G2] |  "Ab"[A2A2] z2 :|
+"E"\
+|:"Db"[f2d2] [=ec][fd] | "Ab"[e2c2] [=d=B][ec] \
+| "Eb7"[d2B2] [c=A][dB] | "Ab"[c2A2] [=BG][cA] \
+"I"\
+| "Db"[f2d2] [=ec][fd] | "Ab"[e2c2] [=d=B][ec] \
+|1 "Eb7"[d2B2] [c=A][dB] | "Ab"[c2A2] z2 \
+:|2  "Eb7"[g2d2] [fe][gd] | "Ab"[a2c2] z2 |]
+
+
+%%sep 1 1 500
+
+X: 127
+T: Schubkarrn (Bb)
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: Bb
+"A"\
+|: "Bb"[dB][ec] [fd][ge] [f2d2] | [dB][ec] [fd][ge] [f2d2] \
+| "F7"[e2c2] [c2A2] | "Bb"[d2B2] [B2F2] \
+|  "Bb"[dB][ec] [fd][ge] [f2d2] | [dB][ec] [fd][ge] [f2d2] \
+| "F7"[e2c2] [c2A2] |  "Bb"[B2B2] z2 :|
+"B"\
+|:"Eb"[g2e2] [^fd][ge] | "Bb"[f2d2] [=e^c][fd] \
+| "F7"[e2c2] [d=B][ec] | "Bb"[d2B2] [^cA][dB] \
+"I"\
+| "Eb"[g2e2] [^fd][ge] | "Bb"[f2d2] [=e^c][fd] \
+|1 "F7"[e2c2] [d=B][ec] | "Bb"[d2B2] z2 \
+:|2  "F7"[a2e2] [gf][ae] | "Bb"[b2d2] z2 |]
+
+
+%%sep 1 1 500
+
+X: 128
+T: Schubkarrn (Eb)
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: Eb
+"A"\
+|: "Eb"[GE][AF] [BG][cA] [B2G2] | [GE][AF] [BG][cA] [B2G2] \
+| "Bb7"[A2F2] [F2D2] | "Eb"[G2E2] [E2B,2] \
+|  "Eb"[GE][AF] [BG][cA] [B2G2] | [GE][AF] [BG][cA] [B2G2] \
+| "Bb7"[A2F2] [F2D2] |  "Eb"[E2E2] z2 :|
+"B"\
+|:"Ab"[c2A2] [=BG][cA] | "Eb"[B2G2] [=A^F][BG] \
+| "Bb7"[A2F2] [G=E][AF] | "Eb"[G2E2] [^FD][GE] \
+"I"\
+| "Ab"[c2A2] [=BG][cA] | "Eb"[B2G2] [=A^F][BG] \
+|1 "Bb7"[A2F2] [G=E][AF] | "Eb"[G2E2] z2 \
+:|2  "Bb7"[d2A2] [cB][dA] | "Eb"[e2G2] z2 |]
+
+
+%%sep 1 1 500
+
+X: 129
+T: Schubkarrn (F)
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: F
+"A"\
+|: "F"[AF][BG] [cA][dB] [c2A2] | [AF][BG] [cA][dB] [c2A2] \
+| "C7"[B2G2] [G2E2] | "F"[A2F2] [F2C2] \
+|  "F"[AF][BG] [cA][dB] [c2A2] | [AF][BG] [cA][dB] [c2A2] \
+| "C7"[B2G2] [G2E2] |  "F"[F2F2] z2 :|
+"B"\
+|:"Bb"[d2B2] [^cA][dB] | "F"[c2A2] [=B^G][cA] \
+| "C7"[B2G2] [A^F][BG] | "F"[A2F2] [^GE][AF] \
+"I"\
+| "Bb"[d2B2] [^cA][dB] | "F"[c2A2] [=B^G][cA] \
+|1 "C7"[B2G2] [A^F][BG] | "F"[A2F2] z2 \
+:|2  "C7"[e2B2] [dc][eB] | "F"[f2A2] z2 |]
+
+
+%%sep 1 1 500
+
+X: 130
+T: Sechsundrei\ssiger (Ab)
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: Ab
+%%indent 300
+"Intro"\
+| "Ab"[e4c4] [d2B2] | [c4A4] [A2A2] \
+| "Eb7"[B2G2] [FE][GD] | "Ab"[A2C2] z2 ||
+"A"\
+|:"Ab"[e4c4] [d2B2] | [c4A4] [A2E2] \
+| "Eb7"[e2c2] [d2B2] | "Ab"[c2A2] [A2E2] :| \
+"B"\
+[|]"Eb7"[G4B,4] [A2C2] | [B4D4] [G2B,2] | "Ab"[A2C2] "Db"[d2F2] |
+| "Ab"[c4E4] | "Ab"[A2C2] "Db"[d2F2] | "Ab"[c4E4] \
+"C"\
+|:"Db"[d2F2] [dF][dF] [BD][dF] | "Ab"[c4E4] [A2C2] \
+| "Eb7"[B2D2] [FE][GD] | "Ab"[A2C2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 131
+T: Sechsundrei\ssiger (Bb)
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: Bb
+%%indent 300
+"Intro"\
+| "Bb"[f4d4] [e2c2] | [d4B4] [B2B2] \
+| "F7"[c2A2] [GF][AE] | "Bb"[B2D2] z2 ||
+"A"\
+|:"Bb"[f4d4] [e2c2] | [d4B4] [B2F2] \
+| "F7"[f2d2] [e2c2] | "Bb"[d2B2] [B2F2] :| \
+"B"\
+[|]"F7"[A4C4] [B2D2] | [c4E4] [A2C2] | "Bb"[B2D2] "Eb"[e2G2] |
+| "Bb"[d4F4] | "Bb"[B2D2] "Eb"[e2G2] | "Bb"[d4F4] \
+"C"\
+|:"Eb"[e2G2] [eG][eG] [cE][eG] | "Bb"[d4F4] [B2D2] \
+| "F7"[c2E2] [GF][AE] | "Bb"[B2D2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 132
+T: Sechsundrei\ssiger (C)
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: C
+%%indent 300
+"Intro"\
+| "C"[g4e4] [f2d2] | [e4c4] [c2c2] \
+| "G7"[d2B2] [AG][BF] | "C"[c2E2] z2 ||
+"A"\
+|:"C"[g4e4] [f2d2] | [e4c4] [c2G2] \
+| "G7"[g2e2] [f2d2] | "C"[e2c2] [c2G2] :| \
+"B"\
+[|]"G7"[B4D4] [c2E2] | [d4F4] [B2D2] | "C"[c2E2] "F"[f2A2] |
+| "C"[e4G4] | "C"[c2E2] "F"[f2A2] | "C"[e4G4] \
+"C"\
+|:"F"[f2A2] [fA][fA] [dF][fA] | "C"[e4G4] [c2E2] \
+| "G7"[d2F2] [AG][BF] | "C"[c2E2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 133
+T: Sechsundrei\ssiger (Db)
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: Db
+"A"\
+|:"Db"[a4f4] [g2e2] | [f4d4] [d2A2] \
+| "Ab7"[a2f2] [g2e2] | "Db"[f2d2] [d2A2] :| \
+"B"\
+[|]"Ab7"[c4E4] [d2F2] | [e4G4] [c2E2] | "Db"[d2F2] "Gb"[g2B2] |
+| "Db"[f4A4] | "Db"[d2F2] "Gb"[g2B2] | "Db"[f4A4] \
+"C"\
+|:"Gb"[g2B2] [gB][gB] [eG][gB] | "Db"[f4A4] [d2F2] \
+| "Ab7"[e2G2] [BA][cG] | "Db"[d2F2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 134
+T: Sechsundrei\ssiger (Eb)
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: Eb
+"A"\
+|:"Eb"[b4g4] [a2f2] | [g4e4] [e2B2] \
+| "Bb7"[b2g2] [a2f2] | "Eb"[g2e2] [e2B2] :| \
+"B"\
+[|]"Bb7"[d4F4] [e2G2] | [f4A4] [d2F2] | "Eb"[e2G2] "Ab"[a2c2] |
+| "Eb"[g4B4] | "Eb"[e2G2] "Ab"[a2c2] | "Eb"[g4B4] \
+"C"\
+|:"Ab"[a2c2] [ac][ac] [fA][ac] | "Eb"[g4B4] [e2G2] \
+| "Bb7"[f2A2] [cB][dA] | "Eb"[e2G2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 135
+T: Sechsundrei\ssiger (F)
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: F
+"B"\
+|:"F"[c'4a4] [b2g2] | [a4f4] [f2c2] \
+| "C7"[c'2a2] [b2g2] | "F"[a2f2] [f2c2] :| \
+"C"\
+[|]"C7"[e4G4] [f2A2] | [g4B4] [e2G2] | "F"[f2A2] "Bb"[b2d2] |
+| "F"[a4c4] | "F"[f2A2] "Bb"[b2d2] | "F"[a4c4] \
+"D"\
+|:"Bb"[b2d2] [bd][bd] [gB][bd] | "F"[a4c4] [f2A2] \
+| "C7"[g2B2] [dc][eB] | "F"[f2A2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 136
+T: Seidas F\"uata (Ab)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: none
+L: 1/8
+K: Ab
+|: E[GD] \
+|[M:2/4][L:1/8]"Ab"[A4C4] | [c3E3][dF] \
+|[M:3/4][L:1/8]"Eb7"[c2E2] [B2D2] [B2D2] | "Ab"[A2C2] [AC][GB,] [AC][BD] \
+"I"\
+|[M:2/4][L:1/8]"Ab"[c4E4] | [e3A3][fA] \
+|[M:3/4][L:1/8]"Eb7"[e2G2] [d2G2] [d2G2] | "Ab"[c2A2] z2 :|
+|: [ec][dB] \
+|[M:3/4][L:1/8]"Ab"[c2A2] [e2c2] [c2A2] | "Bbm"[d2B2] [fd][ec] [dB][cA] \
+| "Eb7"[B2G2] [d2B2] [B2G2] | "Ab"[c2A2] [ec][dB] [cA][BG] |
+|[M:2/4][L:1/8]"Ab"[A4C4] | [c3A3][dB] \
+|[M:3/4][L:1/8]"Eb7"[c2E2] [B2G2] [B2E2] | "Ab"[A2C2] [AC][GB,] [AC][BD] \
+|[M:2/4][L:1/8]"Ab"[c4E4] | [e3A3][fA] \
+|[M:3/4][L:1/8]"Eb7"[e2G2] [d2G2] [d2G2] | "Ab"[c2A2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 137
+T: Seidas F\"uata (Bb)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: none
+L: 1/8
+K: Bb
+|: F[AE] \
+|[M:2/4][L:1/8]"Bb"[B4D4] | [d3F3][eG] \
+|[M:3/4][L:1/8]"F7"[d2F2] [c2E2] [c2E2] | "Bb"[B2D2] [BD][AC] [BD][cE] \
+"I"\
+|[M:2/4][L:1/8]"Bb"[d4F4] | [f3B3][gB] \
+|[M:3/4][L:1/8]"F7"[f2A2] [e2A2] [e2A2] | "Bb"[d2B2] z2 :|
+|: [fd][ec] \
+|[M:3/4][L:1/8]"Bb"[d2B2] [f2d2] [d2B2] | "Cm"[e2c2] [ge][fd] [ec][dB] \
+| "F7"[c2A2] [e2c2] [c2A2] | "Bb"[d2B2] [fd][ec] [dB][cA] |
+|[M:2/4][L:1/8]"Bb"[B4D4] | [d3B3][ec] \
+|[M:3/4][L:1/8]"F7"[d2F2] [c2A2] [c2F2] | "Bb"[B2D2] [BD][AC] [BD][cE] \
+|[M:2/4][L:1/8]"Bb"[d4F4] | [f3B3][gB] \
+|[M:3/4][L:1/8]"F7"[f2A2] [e2A2] [e2A2] | "Bb"[d2B2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 138
+T: Seidas F\"uata (C)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: none
+L: 1/8
+K: C
+|: G[BF] \
+|[M:2/4][L:1/8] \
+	"C"[c4E4] | [e3G3][fA] \
+|[M:3/4][L:1/8] \
+	"G7"[e2G2] [d2F2] [d2F2] | "C"[c2E2] [cE][BD] [cE][dF] \
+"I"\
+|[M:2/4][L:1/8] \
+	"C"[e4G4] | [g3c3][ac] \
+|[M:3/4][L:1/8] \
+	"G7"[g2B2] [f2B2] [f2B2] | "C"[e2c2] z2 :|
+|: [ge][fd] \
+|[M:3/4][L:1/8] \
+	"C"[e2c2] [g2e2] [e2c2] | "Dm"[f2d2] [af][ge] [fd][ec] \
+| "G7"[d2B2] [f2d2] [d2B2] | "C"[e2c2] [ge][fd] [ec][dB] |
+|[M:2/4][L:1/8] \
+	"C"[c4E4] | [e3c3][fd] \
+|[M:3/4][L:1/8] \
+	"G7"[e2G2] [d2B2] [d2G2] | "C"[c2E2] [cE][BD] [cE][dF] \
+|[M:2/4][L:1/8] \
+	"C"[e4G4] | [g3c3][ac] \
+|[M:3/4][L:1/8] \
+	"G7"[g2B2] [f2B2] [f2B2] | "C"[e2c2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 139
+T: Seidas F\"uata (Eb)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: none
+L: 1/8
+K: Eb
+|: B,D \
+|[M:2/4][L:1/8]"Eb"E4 | [G3E3][AF] \
+|[M:3/4][L:1/8]"Bb7"[G2B,2] [F2D2] [F2B,2] | "Eb"E2 ED EF \
+"I"\
+|[M:2/4][L:1/8]"Eb"[G4E4] | [B3G3][cA] \
+|[M:3/4][L:1/8]"Bb7"[B2D2] [A2F2] [A2D2] | "Eb"[G2E2] z2 :|
+|: [BG][AF] \
+|[M:3/4][L:1/8]"Eb"[G2E2] [B2G2] [G2E2] | "Fm"[A2F2] [cA][BG] [AF][GE] \
+| "Bb7"[F2D2] [A2F2] [F2D2] | "Eb"[G2E2] [BG][AF] [GE][FD] \
+|[M:2/4][L:1/8]"Eb"E4 | [G3E3][AF] |
+|[M:3/4][L:1/8]"Bb7"[G2B,2] [F2D2] [F2B,2] | "Eb"E2 ED EF \
+|[M:2/4][L:1/8]"Eb"[G4E4] | [B3G3][cA] \
+|1[M:3/4][L:1/8]"Bb7"[B2D2] [A2F2] [A2D2] | "Eb"[G2E2] z2 \
+:|2[M:3/4][L:1/8]"Bb7"[B2D2] [c2A2] [d2A2] | "Eb"[e2G2] z2 |]
+
+
+%%sep 1 1 500
+
+X: 140
+T: Seidas F\"uata (F)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: none
+L: 1/8
+K: F
+|: C[EB,] \
+|[M:2/4][L:1/8]"F"[F4A,4] | [A3F3][BG] \
+|[M:3/4][L:1/8]"C7"[A2C2] [G2E2] [G2C2] | "F"[F2A,2] [FB,][EC] [FD][GE] \
+"I"\
+|[M:2/4][L:1/8]"F"[A4F4] | [c3A3][dB] \
+|[M:3/4][L:1/8]"C7"[c2E2] [B2G2] [B2E2] | "F"[A2F2] z2 :|
+|: [cA][BG] \
+|[M:3/4][L:1/8]"F"[A2F2] [c2A2] [A2F2] | "Gm"[B2G2] [dB][cA] [BG][AF] \
+| "C7"[G2E2] [B2G2] [G2E2] | "F"[A2F2] [cA][BG] [AF][GE] \
+|[M:2/4][L:1/8]"F"F4 | [A3F3][BG] |
+|[M:3/4][L:1/8]"C7"[A2C2] [G2E2] [G2C2] | "F"[F2A,2] [FB,][EC] [FD][GE] \
+|[M:2/4][L:1/8]"F"[A4F4] | [c3A3][dB] \
+|1[M:3/4][L:1/8]"C7"[c2E2] [B2G2] [B2E2] | "F"[A2F2] z2 \
+:|2[M:3/4][L:1/8]"C7"[c2E2] [d2B2] [e2B2] | "F"[f2A2] z2 |]
+
+
+%%sep 1 1 500
+
+X: 141
+T: Seidas F\"uata (G)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: none
+L: 1/8
+K: G
+|: D[FC] \
+|[M:2/4][L:1/8]\
+	"G"[G4B,4] | [B3G3][cA] \
+|[M:3/4][L:1/8]\
+	"D7"[B2D2] [A2F2] [A2D2] | "G"[G2B,2] [GC][FD] [GE][AF] \
+"I"\
+|[M:2/4][L:1/8]\
+	"G"[B4G4] | [d3B3][ec] \
+|[M:3/4][L:1/8]\
+	"D7"[d2F2] [c2A2] [c2F2] | "G"[B2G2] z2 :|
+|: [dB][cA] \
+|[M:3/4][L:1/8]\
+	"G"[B2G2] [d2B2] [B2G2] | "Am"[c2A2] [ec][dB] [cA][BG] \
+| "D7"[A2F2] [c2A2] [A2F2] | "G"[B2G2] [dB][cA] [BG][AF] \
+|[M:2/4][L:1/8]\
+	"G"G4 | [B3G3][cA] |
+|[M:3/4][L:1/8]\
+	"D7"[B2D2] [A2F2] [A2D2] | "G"[G2B,2] [GC][FD] [GE][AF] \
+|[M:2/4][L:1/8]\
+	"G"[B4G4] | [d3B3][ec] \
+|1[M:3/4][L:1/8]\
+	"D7"[d2F2] [c2A2] [c2F2] | "G"[B2G2] z2 \
+:|2[M:3/4][L:1/8]\
+	"D7"[d2F2] [e2c2] [f2c2] | "G"[g2B2] z2 |]
+
+
+%%sep 1 1 500
+
+X: 142
+T: Sommermichl (Bb)
+R: zwiefacher
+O: Bavaria
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2+3/4
+L: 1/8
+K: Bb
+%%indent 350
+"Intro"[|]\
+F2 | "Bb"B4 | "F7"A4 | "Eb"G4 | "Bb"F4 | "F7"A2 e2 dc | "Bb"B2 z2 ||
+|: "F7"F2 \
+| "Bb"B4 | "F7"A4 | "Eb"G4 | "Bb"F4 \
+|1 "F7"A2 e2 A2 | "Bb"B2 d2 \
+:|2 "F7"A2 e2 dc | "Bb"B2 z2 \
+ cd | "F7"e2 c2 d2 | e2 c2 d2 | e2 c2 d2 | e4 | \
+|: "F7"F2 \
+| "Bb"B4 | "F7"A4 |
+| "Eb"G4 | "Bb"F4 \
+|1 "F7"A2 e2 A2 | "Bb"B2 d2 \
+:|2 "F7"A2 e2 dc | "Bb"B4 \
+ DE \
+|: "Bb"F2 dc BA | "Eb"G2 e2 | "F7"c4 | A2 G2 A2 \
+|1 "Bb"B2 F2 | G2 F2 \
+:|2 "Bb"B2 z2 |]
+
+
+%%sep 1 1 500
+
+X: 143
+T: Sommermichl (C)
+R: zwiefacher
+O: Bavaria
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2+3/4
+L: 1/8
+K: C
+%%indent 350
+"Intro"[|] \
+G2 | "C"c4 | "G7"B4 | "F"A4 | "C"G4 | "G7"B2 f2 ed | "C"c2 z2 ||
+|: "G7"G2 \
+| "C"c4 | "G7"B4 | "F"A4 | "C"G4 \
+|1 "G7"B2 f2 B2 | "C"c2 e2 \
+:|2 "G7"B2 f2 ed | "C"c2 z2 \
+de | "G7"f2 d2 e2 | f2 d2 e2 | f2 d2 e2 | f4 \
+|: "G7"G2 \
+| "C"c4 | "G7"B4 |
+| "F"A4 | "C"G4 \
+|1 "G7"B2 f2 B2 | "C"c2 e2 \
+:|2 "G7"B2 f2 ed | "C"c2 z2 \
+ EF \
+|: "C"G2 ed cB | "F"A2 f2 | "G7"d4 | B2 A2 B2 \
+|1 "C"c2 G2 | A2 G2 \
+:|2 "C"c2 z2 |]
+
+
+%%sep 1 1 500
+
+X: 144
+T: Sommermichl (F)
+R: zwiefacher
+O: Bavaria
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2+3/4
+L: 1/8
+K: F
+|: "C7"c2 \
+| "F"f4 | "C7"e4 | "Bb"d4 | "F"c4 \
+|1 "C7"e2 b2 e2 | "F"f2 a2 \
+:|2 "C7"e2 b2 ag | "F"f2 z2 \
+ga | "C7"b2 g2 a2 | b2 g2 a2 | b2 g2 a2 | b4 | \
+|: "C7"c2 \
+| "F"f4 | "C7"e4 |
+| "Bb"d4 | "F"c4 \
+|1 "C7"e2 b2 e2 | "F"f2 a2 \
+:|2 "C7"e2 b2 ag | "F"f2 z2 \
+AB \
+|: "F"c2 ag fe | "B"d2 b2 | "C7"g4 | e2 d2 e2 \
+|1 "F"f2 c2 | d2 c2 \
+:|2 "F"f2 z2 |]
+
+
+%%sep 1 1 500
+
+X: 145
+T: Sommermichl (G)
+R: zwiefacher
+O: Bavaria
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2+3/4
+L: 1/8
+K: G:
+|: "D7"d2 \
+| "G"g4 | "D7"f4 | "C"e4 | "G"d4 \
+|1 "D7"f2 c'2 f2 | "G"g2 b2 \
+:|2 "D7"f2 c'2 ba | "G"g2 z2 \
+ab | "D7"c'2 a2 b2 | c'2 a2 b2 | c'2 a2 b2 | c'4 | \
+|: "D7"d2 \
+| "G"g4 | "D7"f4 |
+| "C"e4 | "G"d4 \
+|1 "D7"f2 c'2 f2 | "G"g2 b2 \
+:|2 "D7"f2 c'2 ba | "G"g2 z2 \
+ Bc \
+|: "G"d2 ba gf | "C"e2 c'2 | "D7"a4 | f2 e2 f2 \
+|1 "G"g2 d2 | e2 d2 \
+:|2 "G"g2 z2 |]
+
+
+%%sep 1 1 500
+
+X: 146
+T: Das Sternlein (Bb)
+C: David Schonfeld
+N: Yet another variant of Twinkle Twinkle Little Star
+N: Composed for NOMAD 2004
+M: 23/44
+L: 1/4
+K: Bb
+|: "Bb"B B |     f2 f | "Eb"g g | "Bb"f2 f | "F7"e e | "Bb"d "Gm"d | "Cm"c "F7"c | "Bb"B2 z :|
+[| "Bb"f f | "F7"e2 e | "Bb"d d | "F7"c2 c | "Bb"f f | "F7"e     e | "Bb"d     d | "F7"c2 c ||
+|| "Bb"B B |     f2 f | "Eb"g g | "Bb"f2 f | "F7"e e | "Bb"d "Gm"d | "Cm"c "F7"c | "Bb"B2 z |]
+
+
+%%sep 1 1 500
+
+X: 147
+T: Das Sternlein (C)
+C: David Schonfeld
+N: Yet another variant of Twinkle Twinkle Little Star
+M: 23/44
+L: 1/4
+K: C
+|: "C"c c |     g2 g | "F"a a | "C"g2 g |"G7"f f | "C"e "Am"e | "Dm"d "G7"d | "C"c2  z :|
+[| "C"g g | "G7"f2 f | "C"e e |"G7"d2 d | "C"g g |"G7"f     f |  "C"e     e | "G7"d2 d ||
+|| "C"c c |     g2 g | "F"a a | "C"g2 g |"G7"f f | "C"e "Am"e | "Dm"d "G7"d | "C"c2  z |]
+
+
+%%sep 1 1 500
+
+X: 148
+T: Das Sternlein (Eb)
+C: David Schonfeld
+N: Yet another variant of Twinkle Twinkle Little Star
+M: 23/44
+L: 1/4
+K: Eb
+|: "Eb"E E |     B2 B | "Ab"c c | "Eb"B2 B |"Bb7"A A | "Eb"G "Cm"G | "Fm"F "Bb7"F | "Eb"E2 z :|
+[| "Eb"B B |"Bb7"A2 A | "Eb"G G |"Bb7"F2 F | "Eb"B B |"Bb7"A     A | "Eb"G      G |"Bb7"F2 F ||
+|| "Eb"E E | "E7"B2 B | "Ab"c c | "Eb"B2 B |"Bb7"A A | "Eb"G "Cm"G | "Fm"F "Bb7"F | "Eb"E2 z |]
+
+
+%%sep 1 1 500
+
+X: 149
+T: Das Sternlein (F)
+C: David Schonfeld
+N: Yet another variant of Twinkle Twinkle Little Star
+M: 23/44
+L: 1/4
+K: F
+|: "F"F F |     c2 c | "Bb"d d | "F"c2 c |"C7"B B | "F"A "Dm"A | "Gm"G "C7"G | "F"F2  z :|
+[| "F"c c | "C7"B2 B |  "F"A A |"C7"G2 G | "F"c c |"C7"B     B |  "F"A     A | "C7"G2 G ||
+|| "F"F F |     c2 c | "Bb"d d | "F"c2 c |"C7"B B | "F"A "Dm"A | "Gm"G "C7"G | "F"F2  z |]
+
+
+%%sep 1 1 500
+
+X: 150
+T: Zwiefacher: Stille Nacht
+T: Silent Night
+T: W4P4W4PW3PWPWPW3
+K: Bb
+
+
+%%sep 1 1 500
+
+X: 151
+P: Stille Nacht (Silent Night)
+R: Zwiefacher
+C: Franz Gruber
+Z: John Chambers <jc@trillian.mit.edu>
+N: Arrangement by the Cambidge Folk Orchestra (Massachusetts, USA)
+M: 3/4
+L: 1/4
+K: Bb
+| "Bb"[FD]>[GE][FD] |[D3B,3] | "Bb"[FD]>[GE][FD] |[D3B,3] \
+|[M:2/4][L:1/4] "F7"[c2F2] |[A2-E2-] | "Bb"[B2D2] |[F2D2] \
+|[M:3/4][L:1/4] "Eb"[G2E2][GE] |[BG]>[AF][GE] | "Bb"[FD]>[GE][FD] |[D3B,3] |
+|[M:2/4][L:1/4] "Eb"[G2E2] \
+|[M:3/4][L:1/4] [BG]>[AF][GE] |"Bb"[FD]>[GE][FD] |[D3B,3] \
+|[M:2/4][L:1/4] "F7"[c2F2] \
+|[M:3/4][L:1/4] [eA]>[cF][AE] \
+|[M:2/4][L:1/4] "Bb"[B2D2] \
+|[M:3/4][L:1/4] [d3F3] \
+|[M:2/4][L:1/4] [BD2][DB,] \
+|[M:3/4][L:1/4] "F7"[FA,2]>E[CA,] | "Bb"[B,3-B,3-] |[B,B,]zz |]
+
+
+%%sep 1 1 500
+
+X: 152
+P: Stille Nacht (Silent Night)
+R: Zwiefacher
+C: Franz Gruber
+Z: John Chambers <jc@trillian.mit.edu>
+N: Arrangement by the Cambidge Folk Orchestra (Massachusetts, USA)
+M: 3/4
+L: 1/4
+K: F
+| "F"[cA]>[dB][cA] |[A3F3] | "F"[cA]>[dB][cA] |[A3F3] \
+|[M:2/4][L:1/4] "C7"[g2c2] |[e2-B2-] | "F"[f2A2] |[c2A2] \
+|[M:3/4][L:1/4] "Bb"[d2B2][dB] |[fd]>[ec][dB] | "F"[cA]>[dB][cA] |[A3F3] |
+|[M:2/4][L:1/4] "Bb"[d2B2] \
+|[M:3/4][L:1/4] [fd]>[ec][dB] |"F"[cA]>[dB][cA] |[A3F3] \
+|[M:2/4][L:1/4] "C7"[g2c2] \
+|[M:3/4][L:1/4] [be]>[gc][eB] \
+|[M:2/4][L:1/4] "F"[f2A2] \
+|[M:3/4][L:1/4] [a3c3] \
+|[M:2/4][L:1/4] [fA2][AF] \
+|[M:3/4][L:1/4] "C7"[cE2]>B[GE] | "F"[F3-F3-] |[FF]zz |]
+%%sep 1 1 500
+
+
+%%sep 1 1 500
+
+X: 153
+P: Stille Nacht (Silent Night)
+R: Zwiefacher
+C: Franz Gruber
+Z: John Chambers <jc@trillian.mit.edu>
+N: Arrangement by the Cambidge Folk Orchestra (Massachusetts, USA)
+M: 3/4
+L: 1/4
+K: C
+| "C"[GE]>[AF][GE] |[E3C3] | "C"[GE]>[AF][GE] |[E3C3] \
+|[M:2/4][L:1/4] "G7"[d2G2] |[B2-F2-] | "C"[c2E2] |[G2E2] \
+|[M:3/4][L:1/4] "F"[A2F2][AF] |[cA]>[BG][AF] | "C"[GE]>[AF][GE] |[E3C3] |
+|[M:2/4][L:1/4] "F"[A2F2] \
+|[M:3/4][L:1/4] [cA]>[BG][AF] |"C"[GE]>[AF][GE] |[E3C3] \
+|[M:2/4][L:1/4] "G7"[d2G2] \
+|[M:3/4][L:1/4] [fB]>[dG][BF] \
+|[M:2/4][L:1/4] "C"[c2E2] \
+|[M:3/4][L:1/4] [e3G3] \
+|[M:2/4][L:1/4] [cE2][EC] \
+|[M:3/4][L:1/4] "G7"[GB,2]>F[DB,] | "C"[C3-C3-] |[CC]zz |]
+
+
+%%sep 1 1 500
+
+X: 154
+P: Stille Nacht (Silent Night)
+R: Zwiefacher
+C: Franz Gruber
+Z: John Chambers <jc@trillian.mit.edu>
+N: Arrangement by the Cambidge Folk Orchestra (Massachusetts, USA)
+M: 3/4
+L: 1/4
+K: G
+| "G"[dB]>[ec][dB] |[B3G3] | "G"[dB]>[ec][dB] |[B3G3] \
+|[M:2/4][L:1/4] "D7"[a2d2] |[f2-c2-] | "G"[g2B2] |[d2B2] \
+|[M:3/4][L:1/4] "C"[e2c2][ec] |[ge]>[fd][ec] | "G"[dB]>[ec][dB] |[B3G3] |
+|[M:2/4][L:1/4] "C"[e2c2] \
+|[M:3/4][L:1/4] [ge]>[fd][ec] |"G"[dB]>[ec][dB] |[B3G3] \
+|[M:2/4][L:1/4] "D7"[a2d2] \
+|[M:3/4][L:1/4] [c'f]>[ad][fc] \
+|[M:2/4][L:1/4] "G"[g2B2] \
+|[M:3/4][L:1/4] [b3d3] \
+|[M:2/4][L:1/4] [gB2][BG] \
+|[M:3/4][L:1/4] "D7"[dF2]>c[AF] | "G"[G3-G3-] |[GG]zz |]
+
+
+%%sep 1 1 500
+
+X: 155
+T: Stille Nacht
+T: Silent Night - Zwiefacher
+T: W4P4W4PW3PWPWPW3
+C: Franz Gruber
+Z: John Chambers <jc@trillian.mit.edu>
+N: Arrangement by the Cambidge Folk Orchestra (Massachusetts, USA)
+M: 3/4
+L: 1/4
+P: In Bb
+K: Bb
+| "Bb"[FD]>[GE][FD] |[D3B,3] | "Bb"[FD]>[GE][FD] |[D3B,3] \
+|[M:2/4][L:1/4] "F7"[c2F2] |[A2-E2-] | "Bb"[B2D2] |[F2D2] \
+|[M:3/4][L:1/4] "Eb"[G2E2][GE] |[BG]>[AF][GE] | "Bb"[FD]>[GE][FD] |[D3B,3] |
+|[M:2/4][L:1/4] "Eb"[G2E2] \
+|[M:3/4][L:1/4] [BG]>[AF][GE] |"Bb"[FD]>[GE][FD] |[D3B,3] \
+|[M:2/4][L:1/4] "F7"[c2F2] \
+|[M:3/4][L:1/4] [eA]>[cF][AE] \
+|[M:2/4][L:1/4] "Bb"[B2D2] \
+|[M:3/4][L:1/4] [d3F3] \
+|[M:2/4][L:1/4] [BD2][DB,] \
+|[M:3/4][L:1/4] "F7"[FA,2]>E[CA,] | "Bb"[B,3-B,3-] |[B,B,]zz |]
+%%sep 10 10 200
+P: In F:
+M: 3/4
+L: 1/4
+K: F
+| "F"[cA]>[dB][cA] |[A3F3] | "F"[cA]>[dB][cA] |[A3F3] \
+|[M:2/4][L:1/4] "C7"[g2c2] |[e2-B2-] | "F"[f2A2] |[c2A2] \
+|[M:3/4][L:1/4] "Bb"[d2B2][dB] |[fd]>[ec][dB] | "F"[cA]>[dB][cA] |[A3F3] |
+|[M:2/4][L:1/4] "Bb"[d2B2] \
+|[M:3/4][L:1/4] [fd]>[ec][dB] |"F"[cA]>[dB][cA] |[A3F3] \
+|[M:2/4][L:1/4] "C7"[g2c2] \
+|[M:3/4][L:1/4] [be]>[gc][eB] \
+|[M:2/4][L:1/4] "F"[f2A2] \
+|[M:3/4][L:1/4] [a3c3] \
+|[M:2/4][L:1/4] [fA2][AF] \
+|[M:3/4][L:1/4] "C7"[cE2]>B[GE] | "F"[F3-F3-] |[FF]zz |]
+%%sep 10 10 200
+P: In C:
+M: 3/4
+L: 1/4
+K: C
+| "C"[GE]>[AF][GE] |[E3C3] | "C"[GE]>[AF][GE] |[E3C3] \
+|[M:2/4][L:1/4] "G7"[d2G2] |[B2-F2-] | "C"[c2E2] |[G2E2] \
+|[M:3/4][L:1/4] "F"[A2F2][AF] |[cA]>[BG][AF] | "C"[GE]>[AF][GE] |[E3C3] |
+|[M:2/4][L:1/4] "F"[A2F2] \
+|[M:3/4][L:1/4] [cA]>[BG][AF] |"C"[GE]>[AF][GE] |[E3C3] \
+|[M:2/4][L:1/4] "G7"[d2G2] \
+|[M:3/4][L:1/4] [fB]>[dG][BF] \
+|[M:2/4][L:1/4] "C"[c2E2] \
+|[M:3/4][L:1/4] [e3G3] \
+|[M:2/4][L:1/4] [cE2][EC] \
+|[M:3/4][L:1/4] "G7"[GB,2]>F[DB,] | "C"[C3-C3-] |[CC]zz |]
+%%sep 10 10 200
+P: In G:
+M: 3/4
+L: 1/4
+K: G
+| "G"[dB]>[ec][dB] |[B3G3] | "G"[dB]>[ec][dB] |[B3G3] \
+|[M:2/4][L:1/4] "D7"[a2d2] |[f2-c2-] | "G"[g2B2] |[d2B2] \
+|[M:3/4][L:1/4] "C"[e2c2][ec] |[ge]>[fd][ec] | "G"[dB]>[ec][dB] |[B3G3] |
+|[M:2/4][L:1/4] "C"[e2c2] \
+|[M:3/4][L:1/4] [ge]>[fd][ec] |"G"[dB]>[ec][dB] |[B3G3] \
+|[M:2/4][L:1/4] "D7"[a2d2] \
+|[M:3/4][L:1/4] [c'f]>[ad][fc] \
+|[M:2/4][L:1/4] "G"[g2B2] \
+|[M:3/4][L:1/4] [b3d3] \
+|[M:2/4][L:1/4] [gB2][BG] \
+|[M:3/4][L:1/4] "D7"[dF2]>c[AF] | "G"[G3-G3-] |[GG]zz |]
+
+
+%%sep 1 1 500
+
+X: 156
+T: Stille Nacht
+T: Silent Night
+R: Zwiefacher
+C: Franz Gruber
+Z: John Chambers <jc@trillian.mit.edu>
+N: Arrangement by the Cambidge Folk Orchestra (Massachusetts, USA)
+M: 3/4
+L: 1/4
+K: Bb
+| "Bb"[FD]>[GE][FD] |[D3B,3] | "Bb"[FD]>[GE][FD] |[D3B,3] \
+|[M:2/4][L:1/4] "F7"[c2F2] |[A2-E2-] | "Bb"[B2D2] |[F2D2] \
+|[M:3/4][L:1/4] "Eb"[G2E2][GE] |[BG]>[AF][GE] | "Bb"[FD]>[GE][FD] |[D3B,3] |
+|[M:2/4][L:1/4] "Eb"[G2E2] \
+|[M:3/4][L:1/4] [BG]>[AF][GE] |"Bb"[FD]>[GE][FD] |[D3B,3] \
+|[M:2/4][L:1/4] "F7"[c2F2] \
+|[M:3/4][L:1/4] [eA]>[cF][AE] \
+|[M:2/4][L:1/4] "Bb"[B2D2] \
+|[M:3/4][L:1/4] [d3F3] \
+|[M:2/4][L:1/4] [BD2][DB,] \
+|[M:3/4][L:1/4] "F7"[FA,2]>E[CA,] | "Bb"[B,3-B,3-] |[B,B,]zz |]
+
+
+%%sep 1 1 500
+
+X: 157
+T: Stille Nacht
+T: Silent Night
+R: Zwiefacher
+C: Franz Gruber
+Z: John Chambers <jc@trillian.mit.edu>
+N: Arrangement by the Cambidge Folk Orchestra (Massachusetts, USA)
+M: 3/4
+L: 1/4
+K: C
+| "C"[GE]>[AF][GE] |[E3C3] | "C"[GE]>[AF][GE] |[E3C3] \
+|[M:2/4][L:1/4] "G7"[d2G2] |[B2-F2-] | "C"[c2E2] |[G2E2] \
+|[M:3/4][L:1/4] "F"[A2F2][AF] |[cA]>[BG][AF] | "C"[GE]>[AF][GE] |[E3C3] |
+|[M:2/4][L:1/4] "F"[A2F2] \
+|[M:3/4][L:1/4] [cA]>[BG][AF] |"C"[GE]>[AF][GE] |[E3C3] \
+|[M:2/4][L:1/4] "G7"[d2G2] \
+|[M:3/4][L:1/4] [fB]>[dG][BF] \
+|[M:2/4][L:1/4] "C"[c2E2] \
+|[M:3/4][L:1/4] [e3G3] \
+|[M:2/4][L:1/4] [cE2][EC] \
+|[M:3/4][L:1/4] "G7"[GB,2]>F[DB,] | "C"[C3-C3-] |[CC]zz |]
+
+
+%%sep 1 1 500
+
+X: 158
+T: Stille Nacht
+T: Silent Night
+R: Zwiefacher
+C: Franz Gruber
+Z: John Chambers <jc@trillian.mit.edu>
+N: Arrangement by the Cambidge Folk Orchestra (Massachusetts, USA)
+M: 3/4
+L: 1/4
+K: F
+| "F"[cA]>[dB][cA] |[A3F3] | "F"[cA]>[dB][cA] |[A3F3] \
+|[M:2/4][L:1/4] "C7"[g2c2] |[e2-B2-] | "F"[f2A2] |[c2A2] \
+|[M:3/4][L:1/4] "Bb"[d2B2][dB] |[fd]>[ec][dB] | "F"[cA]>[dB][cA] |[A3F3] |
+|[M:2/4][L:1/4] "Bb"[d2B2] \
+|[M:3/4][L:1/4] [fd]>[ec][dB] |"F"[cA]>[dB][cA] |[A3F3] \
+|[M:2/4][L:1/4] "C7"[g2c2] \
+|[M:3/4][L:1/4] [be]>[gc][eB] \
+|[M:2/4][L:1/4] "F"[f2A2] \
+|[M:3/4][L:1/4] [a3c3] \
+|[M:2/4][L:1/4] [fA2][AF] \
+|[M:3/4][L:1/4] "C7"[cE2]>B[GE] | "F"[F3-F3-] |[FF]zz |]
+
+
+%%sep 1 1 500
+
+X: 159
+T: Stille Nacht
+T: Silent Night
+R: Zwiefacher
+C: Franz Gruber
+Z: John Chambers <jc@trillian.mit.edu>
+N: Arrangement by the Cambidge Folk Orchestra (Massachusetts, USA)
+M: 3/4
+L: 1/4
+K: G
+| "G"[dB]>[ec][dB] |[B3G3] | "G"[dB]>[ec][dB] |[B3G3] \
+|[M:2/4][L:1/4] "D7"[a2d2] |[f2-c2-] | "G"[g2B2] |[d2B2] \
+|[M:3/4][L:1/4] "C"[e2c2][ec] |[ge]>[fd][ec] | "G"[dB]>[ec][dB] |[B3G3] |
+|[M:2/4][L:1/4] "C"[e2c2] \
+|[M:3/4][L:1/4] [ge]>[fd][ec] |"G"[dB]>[ec][dB] |[B3G3] \
+|[M:2/4][L:1/4] "D7"[a2d2] \
+|[M:3/4][L:1/4] [c'f]>[ad][fc] \
+|[M:2/4][L:1/4] "G"[g2B2] \
+|[M:3/4][L:1/4] [b3d3] \
+|[M:2/4][L:1/4] [gB2][BG] \
+|[M:3/4][L:1/4] "D7"[dF2]>c[AF] | "G"[G3-G3-] |[GG]zz |]
+
+
+%%sep 1 1 500
+
+X: 160
+T: S\"usserl
+T: (P2WP2WP2W2)2((P2WP2)2P2WP2WP2W2)2
+R: zwiefacher
+O: Bavaria
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N:
+M: 2+3/4
+L: 1/8
+P: Play AABBABBA
+K: Bb
+P: Bb
+|: "Bb"[dB][fd] [fd][ec] | [d2B2] z2 | [dB][fd] [fd][dB] [ge][fd] \
+| "F7"~[f2d2] [ec][dB] | [c2A2] z2 |
+| "Eb"[ge][ge] [ge][bg] [af][ge] | "Bb"~[g2e2] [fd][ec] | [d2B2] z1 \
+| "F7"[fA][fA] [f2A2] [e2c2] | "Bb"[d2B2] z2 z2 :|
+|: "F7"[cA][ec] [ec][dB] | [c2A2] z2 | [cA][ec] [ec][cA] [fd][ec] \
+| "Bb"[dB][fd] [fd][ec] | [d2B2] z2 :|
+%%sep 5 5 500
+P: F
+K: F
+|: "F"[AF][cA] [cA][BG] | [A2F2] z2 | [AF][cA] [cA][AF] [dB][cA] \
+| "C7"~[c2A2] [BG][AF] | [G2E2] z2 |
+| "Bb"[dB][dB] [dB][fd] [ec][dB] | "F"~[d2B2] [cA][BG] | [A2F2] z1 \
+| "C7"[cE][cE] [c2E2] [B2G2] | "F"[A2F2] z2 z2 :|
+|: "C7"[GE][BG] [BG][AF] | [G2E2] z2 | [GE][BG] [BG][GE] [cA][BG] \
+| "F"[AF][cA] [cA][BG] | [A2F2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 161
+T: S\"usserl (Bb)
+R: zwiefacher
+O: Bavaria
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 23/44
+L: 1/8
+K: Bb
+|: "Bb"[dB][fd] [fd][ec] | [d2B2] z2 | [dB][fd] [fd][dB] [ge][fd] \
+| "F7"~[f2d2] [ec][dB] | [c2A2] z2 |
+| "Eb"[ge][ge] [ge][bg] [af][ge] | "Bb"~[g2e2] [fd][ec] | [d2B2] z1 \
+| "F7"[fA][fA] [f2A2] [e2c2] | "Bb"[d2B2] z2 z2 :|
+|: "F7"[cA][ec] [ec][dB] | [c2A2] z2 | [cA][ec] [ec][cA] [fd][ec] \
+| "Bb"[dB][fd] [fd][ec] | [d2B2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 162
+T: S\"usserl (C)
+R: zwiefacher
+O: Bavaria
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 23/44
+L: 1/8
+K: C
+|: "C"[ec][ge] [ge][fd] | [e2c2] z2 | [ec][ge] [ge][ec] [af][ge] \
+| "G7"~[g2e2] [fd][ec] | [d2B2] z2 |
+| "F"[af][af] [af][c'a] [bg][af] | "C"~[a2f2] [ge][fd] | [e2c2] z1 \
+| "G7"[gB][gB] [g2B2] [f2d2] | "C"[e2c2] z2 z2 :|
+|: "G7"[dB][fd] [fd][ec] | [d2B2] z2 | [dB][fd] [fd][dB] [ge][fd] \
+| "C"[ec][ge] [ge][fd] | [e2c2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 163
+T: S\"usserl (F)
+R: zwiefacher
+O: Bavaria
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 23/44
+L: 1/8
+K: F
+|: "F"[AF][cA] [cA][BG] | [A2F2] z2 | [AF][cA] [cA][AF] [dB][cA] \
+| "C7"~[c2A2] [BG][AF] | [G2E2] z2 |
+| "Bb"[dB][dB] [dB][fd] [ec][dB] | "F"~[d2B2] [cA][BG] | [A2F2] z1 \
+| "C7"[cE][cE] [c2E2] [B2G2] | "F"[A2F2] z2 z2 :|
+|: "C7"[GE][BG] [BG][AF] | [G2E2] z2 | [GE][BG] [BG][GE] [cA][BG] \
+| "F"[AF][cA] [cA][BG] | [A2F2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 164
+T: S\"usserl (G)
+R: zwiefacher
+O: Bavaria
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 23/44
+L: 1/8
+K: G
+|: "G"[BG][dB] [dB][cA] | [B2G2] z2 | [BG][dB] [dB][BG] [ec][dB] \
+| "D7"~[d2B2] [cA][BG] | [A2F2] z2 |
+| "C"[ec][ec] [ec][ge] [fd][ec] | "G"~[e2c2] [dB][cA] | [B2G2] z1 \
+| "D7"[dF][dF] [d2F2] [c2A2] | "G"[B2G2] z2 z2 :|
+|: "D7"[AF][cA] [cA][BG] | [A2F2] z2 | [AF][cA] [cA][AF] [dB][cA] \
+| "G"[BG][dB] [dB][cA] | [B2G2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 165
+T: Suserl (Bb)
+M: 2+3/4
+L: 1/8
+K: Bb
+%%indent 250
+"Intro"\
+| "Eb"[GE][GE] [GE][BG] [AF][GE] \
+| "Bb"[G2E2] [FD][EC] | [D2B,2] z2 \
+| "F7"[FC][FD] [F2E2] [A2E2] | "Bb"[B2D2] z2 z2 ||
+"A"|: "Bb"[DB,][FD] [FD][EC] | [D2B,2] z2 \
+| [DB,][FD] [FD][DB,] [GE][FD] \
+| "F7"[F2D2] [EC][DB,] | [C2A,2] z2 \
+| "Eb"[GE][GE] [GE][BG] [AF][GE] \
+| "Bb"[G2E2] [FD][EC] | [D2B,2]  z2 |
+| "F7"[FD][FD] [F2D2] [E2C2] | "Bb"[D2B,2] z2 "fine"z2 :| \
+"B"|: "F7"[CA,][EC] [EC][DB,] | [C2A,2] z2 \
+| [CA,][EC] [EC][CA,] [FD][EC] \
+| "Bb"[DB,][FD] [FD][EC] | [D2B,2] "d.C."z2 :|
+
+
+%%sep 1 1 500
+
+X: 166
+T: Suserl (C)
+M: 2+3/4
+L: 1/8
+M: 2+3/4
+L: 1/8
+K: C
+%%indent 250
+"Intro"\
+| "F"[AF][AF] [AF][cA] [BG][AF] \
+| "C"[A2F2] [GE][FD] | [E2C2] z2 \
+| "G7"[GD][GE] [G2F2] [B2F2] | "C"[c2E2] z2 z2 ||
+"A"|: "C"[EC][GE] [GE][FD] | [E2C2] z2 \
+| [EC][GE] [GE][EC] [AF][GE] \
+| "G7"[G2E2] [FD][EC] | [D2B,2] z2 \
+| "F"[AF][AF] [AF][cA] [BG][AF] \
+| "C"[A2F2] [GE][FD] | [E2C2]  z2 |
+| "G7"[GE][GE] [G2E2] [F2D2] | "C"[E2C2] z2 "fine"z2 :| \
+"B"|: "G7"[DB,][FD] [FD][EC] | [D2B,2] z2 \
+| [DB,][FD] [FD][DB,] [GE][FD] \
+| "C"[EC][GE] [GE][FD] | [E2C2] "d.C."z2 :|
+
+
+%%sep 1 1 500
+
+X: 167
+T: Suserl (Eb)
+M: 2+3/4
+L: 1/8
+K: Eb
+"A"|: "Eb"[GE][BG] [BG][AF] | [G2E2] z2 \
+| [GE][BG] [BG][GE] [cA][BG] \
+| "Bb7"[B2G2] [AF][GE] | [F2D2] z2 \
+| "Ab"[cA][cA] [cA][ec] [dB][cA] \
+| "Eb"[c2A2] [BG][AF] | [G2E2]  z2 |
+| "Bb7"[BG][BG] [B2G2] [A2F2] | "Eb"[G2E2] z2 "fine"z2 :| \
+"B"|: "Bb7"[FD][AF] [AF][GE] | [F2D2] z2 \
+| [FD][AF] [AF][FD] [BG][AF] \
+| "Eb"[GE][BG] [BG][AF] | [G2E2] "d.C."z2 :|
+
+
+%%sep 1 1 500
+
+X: 168
+T: Suserl (F)
+M: 2+3/4
+L: 1/8
+M: 2+3/4
+L: 1/8
+K: F
+"A"|: "F"[AF][cA] [cA][BG] | [A2F2] z2 \
+| [AF][cA] [cA][AF] [dB][cA] \
+| "C7"[c2A2] [BG][AF] | [G2E2] z2 \
+| "Bb"[dB][dB] [dB][fd] [ec][dB] \
+| "F"[d2B2] [cA][BG] | [A2F2]  z2 |
+| "C7"[cA][cA] [c2A2] [B2G2] | "F"[A2F2] z2 "fine"z2 :| \
+"B"|: "C7"[GE][BG] [BG][AF] | [G2E2] z2 \
+| [GE][BG] [BG][GE] [cA][BG] \
+| "F"[AF][cA] [cA][BG] | [A2F2] "d.C."z2 :|
+
+
+%%sep 1 1 500
+
+X: 169
+T: der Wampertgust [Ab]
+R: Zwiefacher
+M: 23/44
+L: 1/8
+K: Ab
+      [AC][BE] \
+| "Ab"[c2A2][A2E2] | [e4c4] \
+| "Ab"[c2A2][A2E2] | [e4c4] \
+| "Eb7"[dB][cA] [dB][fd] [ec][dB] | "Ab"[c2A2] [a2c2] [e2A2] \
+| "Ab"[c2A2][A2E2] | [e4c4] \
+| "Ab"[c2A2][A2E2] | [e4c4] \
+| "Eb7"[dB][cA] [dB][fd] [ec][dB] | "Ab"[c2A2] z2 :|
+|:    [BG][AF] \
+| "Eb7"[G2E2] [GE][BG] | "Db"[A2F2] [AF][cA] \
+| "Eb7"[B2G2] [BG][dB] | "Ab"[c2A2] [cA][ec] \
+| "Eb7"[f2d2] [BG][dB] [dB][BG] \
+| "Ab"[e2c2] [AE][cA] [cA][AE] \
+| "Eb7"[G2E2] [GE][BG] | "Db"[A2F2] [AF][cA] \
+| "Eb7"[B2G2] [BG][dB] | "Ab"[c2A2] [cA][ec] \
+| "Eb7"[f2d2] [BG][dB] [dB][BG] \
+| "Ab"[A2E2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 170
+T: der Wampertgust [Bb]
+R: Zwiefacher
+M: 23/44
+L: 1/8
+K: Bb
+      [BD][cF] \
+| "Bb"[d2B2][B2F2] | [f4d4] \
+| "Bb"[d2B2][B2F2] | [f4d4] \
+| "F7"[ec][dB] [ec][ge] [fd][ec] | "Bb"[d2B2] [b2d2] [f2B2] \
+| "Bb"[d2B2][B2F2] | [f4d4] \
+| "Bb"[d2B2][B2F2] | [f4d4] \
+| "F7"[ec][dB] [ec][ge] [fd][ec] | "Bb"[d2B2] z2 :|
+|:    [cA][BG] \
+| "F7"[A2F2] [AF][cA] | "Eb"[B2G2] [BG][dB] \
+| "F7"[c2A2] [cA][ec] | "Bb"[d2B2] [dB][fd] \
+| "F7"[g2e2] [cA][ec] [ec][cA] \
+| "Bb"[f2d2] [BF][dB] [dB][BF] \
+| "F7"[A2F2] [AF][cA] | "Eb"[B2G2] [BG][dB] \
+| "F7"[c2A2] [cA][ec] | "Bb"[d2B2] [dB][fd] \
+| "F7"[g2e2] [cA][ec] [ec][cA] \
+| "Bb"[B2F2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 171
+T: der Wampertgust [C]
+R: Zwiefacher
+M: 23/44
+L: 1/8
+K: C
+      [cE][dG] \
+| "C"[e2c2][c2G2] | [g4e4] \
+| "C"[e2c2][c2G2] | [g4e4] \
+| "G7"[fd][ec] [fd][af] [ge][fd] | "C"[e2c2] [c'2e2] [g2c2] \
+| "C"[e2c2][c2G2] | [g4e4] \
+| "C"[e2c2][c2G2] | [g4e4] \
+| "G7"[fd][ec] [fd][af] [ge][fd] | "C"[e2c2] z2 :|
+|:    [dB][cA] \
+| "G7"[B2G2] [BG][dB] | "F"[c2A2] [cA][ec] \
+| "G7"[d2B2] [dB][fd] | "C"[e2c2] [ec][ge] \
+| "G7"[a2f2] [dB][fd] [fd][dB] \
+| "C"[g2e2] [cG][ec] [ec][cG] \
+| "G7"[B2G2] [BG][dB] | "F"[c2A2] [cA][ec] \
+| "G7"[d2B2] [dB][fd] | "C"[e2c2] [ec][ge] \
+| "G7"[a2f2] [dB][fd] [fd][dB] \
+| "C"[c2G2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 172
+T: der Wampertgust [Eb]
+R: Zwiefacher
+M: 23/44
+L: 1/8
+K: Eb
+      [EG,][FB,] \
+| "Eb"[G2E2][E2B,2] | [B4G4] \
+| "Eb"[G2E2][E2B,2] | [B4G4] \
+| "Bb7"[AF][GE] [AF][cA] [BG][AF] | "Eb"[G2E2] [e2G2] [B2E2] \
+| "Eb"[G2E2][E2B,2] | [B4G4] \
+| "Eb"[G2E2][E2B,2] | [B4G4] \
+| "Bb7"[AF][GE] [AF][cA] [BG][AF] | "Eb"[G2E2] z2 :|
+|:    [FD][EC] \
+| "Bb7"[D2B,2] [DB,][FD] | "Ab"[E2C2] [EC][GE] \
+| "Bb7"[F2D2] [FD][AF] | "Eb"[G2E2] [GE][BG] \
+| "Bb7"[c2A2] [FD][AF] [AF][FD] \
+| "Eb"[B2G2] [EB,][GE] [GE][EB,] \
+| "Bb7"[D2B,2] [DB,][FD] | "Ab"[E2C2] [EC][GE] \
+| "Bb7"[F2D2] [FD][AF] | "Eb"[G2E2] [GE][BG] \
+| "Bb7"[c2A2] [FD][AF] [AF][FD] \
+| "Eb"[E2B,2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 173
+T: der Wampertgust [F]
+R: Zwiefacher
+M: 23/44
+L: 1/8
+K: F
+      [FA,][GC] \
+| "F"[A2F2][F2C2] | [c4A4] \
+| "F"[A2F2][F2C2] | [c4A4] \
+| "C7"[BG][AF] [BG][dB] [cA][BG] | "F"[A2F2] [f2A2] [c2F2] \
+| "F"[A2F2][F2C2] | [c4A4] \
+| "F"[A2F2][F2C2] | [c4A4] \
+| "C7"[BG][AF] [BG][dB] [cA][BG] | "F"[A2F2] z2 :|
+|:    [GE][FD] \
+| "C7"[E2C2] [EC][GE] | "Bb"[F2D2] [FD][AF] \
+| "C7"[G2E2] [GE][BG] | "F"[A2F2] [AF][cA] \
+| "C7"[d2B2] [GE][BG] [BG][GE] \
+| "F"[c2A2] [FC][AF] [AF][FC] \
+| "C7"[E2C2] [EC][GE] | "Bb"[F2D2] [FD][AF] \
+| "C7"[G2E2] [GE][BG] | "F"[A2F2] [AF][cA] \
+| "C7"[d2B2] [GE][BG] [BG][GE] \
+| "F"[F2C2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 174
+T: der Wampertgust [G]
+R: Zwiefacher
+M: 23/44
+L: 1/8
+K: G
+      [GB,][AD] \
+| "G"[B2G2][G2D2] | [d4B4] \
+| "G"[B2G2][G2D2] | [d4B4] \
+| "D7"[cA][BG] [cA][ec] [dB][cA] | "G"[B2G2] [g2B2] [d2G2] \
+| "G"[B2G2][G2D2] | [d4B4] \
+| "G"[B2G2][G2D2] | [d4B4] \
+| "D7"[cA][BG] [cA][ec] [dB][cA] | "G"[B2G2] z2 :|
+|:    [AF][GE] \
+| "D7"[F2D2] [FD][AF] | "C"[G2E2] [GE][BG] \
+| "D7"[A2F2] [AF][cA] | "G"[B2G2] [BG][dB] \
+| "D7"[e2c2] [AF][cA] [cA][AF] \
+| "G"[d2B2] [GD][BG] [BG][GD] \
+| "D7"[F2D2] [FD][AF] | "C"[G2E2] [GE][BG] \
+| "D7"[A2F2] [AF][cA] | "G"[B2G2] [BG][dB] \
+| "D7"[e2c2] [AF][cA] [cA][AF] \
+| "G"[G2D2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 175
+T: Wei\ssberger Bayrisch  [C]
+R: zwiefache
+O: Bayrischer Wald
+M: 4/4
+L: 1/8
+K: C
+G2 \
+| "C"[e2c2][ec]G [e2c2][ec]G \
+|[M:3/4][L:1/8] [e2c2] [ec][dB] [ec][fd] | "G7"[d4B4] [dB][ec] \
+|[M:4/4][L:1/8] [f2d2][fd]G [f2d2][fd]G \
+|[M:3/4][L:1/8] [f2d2] [fd][ec] [fd][ge] | "C"[e4c4] :|
+|: [g2e2] \
+|[M:4/4][L:1/8] "F"[a2f2][g2e2] [f4c4] | "C"[g2e2] [f2d2] [e4c4] \
+|[M:3/4][L:1/8] "G7"[d3B3] [ec] [f2d2] |1 "C"[ec][dB] [ec][fd] :|2 "C"[e4c4] |]
+
+
+%%sep 1 1 500
+
+X: 176
+T: Wei\ssberger Bayrisch  [G]
+R: zwiefache
+O: Bayrischer Wald
+M: 4/4
+L: 1/8
+K: G
+D2 \
+| "G"[B2G2][BG]D [B2G2][BG]D \
+|[M:3/4][L:1/8] [B2G2] [BG][AF] [BG][cA] | "D7"[A4F4] [AF][BG] \
+|[M:4/4][L:1/8] [c2A2][cA]D [c2A2][cA]D \
+|[M:3/4][L:1/8] [c2A2] [cA][BG] [cA][dB] | "G"[B4G4] :|
+|: [d2B2] \
+|[M:4/4][L:1/8] "C"[e2c2][d2B2] [c4G4] | "G"[d2B2] [c2A2] [B4G4] \
+|[M:3/4][L:1/8] "D7"[A3F3] [BG] [c2A2] \
+|1 "G"[BG][AF] [BG][cA] :|2 "G"[B4G4] |]
+
+
+%%sep 1 1 500
+
+X: 177
+T: Wintergr\"un
+T: W4P2W2P2
+R: zwiefacher
+O:
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N:
+M: 2+3/4
+L: 1/8
+K: F
+P: F
+|: [C2A,2] \
+| "F"[C2A,2] [F2D2] [A2F2] | [d2B2] z[cA] [c2A2] \
+| [C2A,2] [F2D2] [A2F2] | "C7"[c2A2] z[BG] [B2G2] |
+| "C7"[d2B2] z2 | "F"[c2A2] z2 \
+| "Bb"[AC][BD] [B2D2] [E2B,2] | "F"[FA,][EG,] [FA,][GC] [A2F2] \
+| "Bb"[AF][BG] [B2G2] [E2B,2] | "F"[F2A,2] z2 :|
+P: Bb
+K: Bb
+|: [F2D2] \
+| "Bb"[F2D2] [B2G2] [d2B2] | [g2e2] z[fd] [f2d2] \
+| [F2D2] [B2G2] [d2B2] | "F7"[f2d2] z[ec] [e2c2] |
+| "F7"[g2e2] z2 | "Bb"[f2d2] z2 \
+| "Eb"[dF][eG] [e2G2] [A2E2] | "Bb"[BD][AC] [BD][cF] [d2B2] \
+| "Eb"[dB][ec] [e2c2] [A2E2] | "Bb"[B2D2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 178
+T: Wintergr\"un (Bb)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 3/4
+L: 1/8
+K: Bb
+|: [F2D2] \
+| "Bb"[F2D2] [B2G2] [d2B2] | [g2e2] z[fd] [f2d2] \
+| [F2D2] [B2G2] [d2B2] | "F7"[f2d2] z[ec] [e2c2] \
+|[M:2/4] "Eb"[g2e2] z2 | "Bb"[f2d2] z2 |
+|[M:3/4] "F7"[dF][eG] [e2G2] [A2E2] | "Bb"[BD][AC] [BD][cF] [d2B2] \
+|[M:2/4] "Eb"[g2e2] z2 | "Bb"[f2d2] z2 \
+|[M:3/4] "F7"[dB][eA] [e2G2] [A2E2] | "Bb"[B2D2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 179
+T: Wintergr\"un (C)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 3/4
+L: 1/8
+K: C
+|: [G2E2] \
+| "C"[G2E2] [c2A2] [e2c2] | [a2f2] z[ge] [g2e2] \
+| [G2E2] [c2A2] [e2c2] | "G7"[g2e2] z[fd] [f2d2] \
+|[M:2/4] "F"[a2f2] z2 | "C"[g2e2] z2 |
+|[M:3/4] "G7"[eG][fA] [f2A2] [B2F2] | "C"[cE][BD] [cE][dG] [e2c2] \
+|[M:2/4] "F"[a2f2] z2 | "C"[g2e2] z2 \
+|[M:3/4] "G7"[ec][fB] [f2A2] [B2F2] | "C"[c2E2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 180
+T: Wintergr\"un (F)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 3/4
+L: 1/8
+K: F
+|: [C2A,2] \
+| "F"[C2A,2] [F2D2] [A2F2] | [d2B2] z[cA] [c2A2] \
+| [C2A,2] [F2D2] [A2F2] | "C7"[c2A2] z[BG] [B2G2] \
+|[M:2/4] "Bb"[d2B2] z2 | "F"[c2A2] z2 |
+|[M:3/4] "C7"[AC][BD] [B2D2] [E2B,2] | "F"[FA,][EG,] [FA,][GC] [A2F2] \
+|[M:2/4] "Bb"[d2B2] z2 | "F"[c2A2] z2 \
+|[M:3/4] "C7"[AF][BE] [B2D2] [E2B,2] | "F"[F2A,2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 181
+T: Wintergr\"un (G)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 3/4
+L: 1/8
+K: G
+|: [D2B,2] \
+| "G"[D2B,2] [G2E2] [B2G2] | [e2c2] z[dB] [d2B2] \
+| [D2B,2] [G2E2] [B2G2] | "D7"[d2B2] z[cA] [c2A2] \
+|[M:2/4] "C"[e2c2] z2 | "G"[d2B2] z2 |
+|[M:3/4] "D7"[BD][cE] [c2E2] [F2C2] | "G"[GB,][FA,] [GB,][AD] [B2G2] \
+|[M:2/4] "C"[e2c2] z2 | "G"[d2B2] z2 \
+|[M:3/4] "D7"[BG][cF] [c2E2] [F2C2] | "G"[G2B,2] z2 :|
+
+
+%%sep 1 1 500
+
+X: 182
+T: Wirt vo Stoa (Bb)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 3/4
+L: 1/8
+K: Bb
+|: "F7"[F2F2] [G2=E2] [A2_E2] |[M:2/4][L:1/8] "B"[B2D2] z [FD] | [F2D2] z2 \
+|[M:3/4][L:1/8] "Eb"[G2E2] [A2F2] [B2G2] |[M:2/4][L:1/8] "F7"[c2A2] z[BG] | [A2F2] z2 \
+|[M:3/4][L:1/8] [ge][fd] [ec][cA] [AF][cE] | "B"[B2D2] z2 z2 :|
+|: "B"[BD][dF] [dF][cE] [BD][dF] |[M:2/4][L:1/8] [f2B2] [d2B2] | [g2e2] [f2d2] \
+|[M:3/4][L:1/8] "F7"[e2c2] [ec][cA] [GE][eA] |[M:2/4][L:1/8] "B"[d2B2] [dF][cE] | [B2D2] \
+|[M:3/4][L:1/8] [ge][fd] [ec][cA] [AF][cE] | "B"[B2D2] z2 z2 :|
+
+
+%%sep 1 1 500
+
+X: 183
+T: Wirt vo Stoa (C)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 3/4
+L: 1/8
+K: C
+|: "G7"[G2G2] [A2^F2] [B2=F2] \
+|[M:2/4][L:1/8] "C"[c2E2] z [GE] | [G2E2] z2 \
+|[M:3/4][L:1/8] "F"[A2F2] [B2G2] [c2A2] \
+|[M:2/4][L:1/8] "G7"[d2B2] z[cA] | [B2G2] z2 \
+|[M:3/4][L:1/8] [af][ge] [fd][dB] [BG][dF] | "C"[c2E2] z2 z2 :|
+|: "C"[cE][eG] [eG][dF] [cE][eG] \
+|[M:2/4][L:1/8] [g2c2] [e2c2] | [a2f2] [g2e2] \
+|[M:3/4][L:1/8] "G7"[f2d2] [fd][dB] [AF][fB] \
+|[M:2/4][L:1/8] "C"[e2c2] [eG][dF] | [c2E2] \
+|[M:3/4][L:1/8] [af][ge] [fd][dB] [BG][dF] | "C"[c2E2] z2 z2 :|
+
+
+%%sep 1 1 500
+
+X: 184
+T: Wirt vo Stoa
+R: zwiefacher
+M: 3/4
+L: 1/8
+K: Eb
+|: "Bb7"B,2C2D2 |[M:2/4]"Eb"E2 zB, | B,2 z2 \
+|[M:3/4]"Ab"C2D2E2 |[M:2/4]"Bb7"F2 zE | D2 z2 \
+|[M:3/4]"Bb7"cB AF DF | "Eb"E2z2z2 :|
+M:3/4
+|:"Eb"EG GF EG |[M:2/4]B2 G2 | c2 B2 \
+|[M:3/4]"Bb7"A2 AF DA |[M:2/4]"Eb"G2 GF | E2 z2 \
+|[M:3/4]"Bb7"cB AF DF | "Eb"E2z2z2 :|
+
+
+%%sep 1 1 500
+
+X: 185
+T: Wirt vo Stoa (F)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 3/4
+L: 1/8
+K: F
+|: "C7"[C2C2] [D2=B,2] [E2_B,2] \
+|[M:2/4][L:1/8] "F"[F2A,2] z [CA,] | [C2A,2] z2 \
+|[M:3/4][L:1/8] "Bb"[D2B,2] [E2C2] [F2D2] \
+|[M:2/4][L:1/8] "C7"[G2E2] z[FD] | [E2C2] z2 \
+|[M:3/4][L:1/8] [dB][cA] [BG][GE] [EC][GB,] | "F"[F2A,2] z2 z2 :|
+|: "F"[FA,][AC] [AC][GB,] [FA,][AC] \
+|[M:2/4][L:1/8] [c2F2] [A2F2] | [d2B2] [c2A2] \
+|[M:3/4][L:1/8] "C7"[B2G2] [BG][GE] [DB,][BE] \
+|[M:2/4][L:1/8] "F"[A2F2] [AC][GB,] | [F2A,2] \
+|[M:3/4][L:1/8] [dB][cA] [BG][GE] [EC][GB,] | "F"[F2A,2] z2 z2 :|
+
+
+%%sep 1 1 500
+
+X: 186
+T: Wirt vo Stoa (G)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 3/4
+L: 1/8
+K: G
+|: "D7"[D2D2] [E2^C2] [F2=C2] \
+|[M:2/4][L:1/8] "G"[G2B,2] z [DB,] | [D2B,2] z2 \
+|[M:3/4][L:1/8] "C"[E2C2] [F2D2] [G2E2] \
+|[M:2/4][L:1/8] "D7"[A2F2] z[GE] | [F2D2] z2 \
+|[M:3/4][L:1/8] [ec][dB] [cA][AF] [FD][AC] | "G"[G2B,2] z2 z2 :|
+|: "G"[GB,][BD] [BD][AC] [GB,][BD] \
+|[M:2/4][L:1/8] [d2G2] [B2G2] | [e2c2] [d2B2] \
+|[M:3/4][L:1/8] "D7"[c2A2] [cA][AF] [EC][cF] \
+|[M:2/4][L:1/8] "G"[B2G2] [BD][AC] | [G2B,2] \
+|[M:3/4][L:1/8] [ec][dB] [cA][AF] [FD][AC] | "G"[G2B,2] z2 z2 :|
+
+
+%%sep 1 1 500
+
+X: 187
+T: Zimmermo [Ab]
+M: 34/44
+L: 1/8
+K: Ab
+|:"Ab" [A,2C2] [A,C][G,=B,] [A,C][CA] | [E4c4] [C2A2] \
+| "Db"[DB][Fd][F2d2] "Ab"[CA][Ec][E2c2] \
+| "Ab" [A,2C2] [A,C][G,=B,] [A,C][CA] | [E4c4] [C2A2] \
+| "Eb7"[B,G][DB][D2B2] "Ab"[C2A2]z2 \
+::"Eb7"[G2B,2] [GB,][AC] [B2D2] | "Ab"[A2C2] [AC][BD] [c2E2] |
+| "Eb7"[G2B,2] [GB,][AC] [B2D2] | "Ab"[A2C2] [AC][BD] [c2E2] \
+| "Ab" [A,2C2] [A,C][G,=B,] [A,C][CA] | [E4c4] [C2A2] \
+| "Db"[DB][Fd][F2d2] "Ab"[CA][Ec][E2c2] \
+| "Ab" [A,2C2] [A,C][G,=B,] [A,C][CA] | [E4c4] [C2A2] \
+| "Eb7"[B,G][DB][D2B2] "Ab"[C2A2]z2 :|
+
+
+%%sep 1 1 500
+
+X: 188
+T: Zimmermo [Bb]
+M: 34/44
+L: 1/8
+K: Bb
+|:"Bb" [B,2D2] [B,D][A,^C] [B,D][DB] | [F4d4] [D2B2] \
+| "Eb"[Ec][Ge][G2e2] "Bb"[DB][Fd][F2d2] \
+| "Bb" [B,2D2] [B,D][A,^C] [B,D][DB] | [F4d4] [D2B2] \
+| "F7"[CA][Ec][E2c2] "Bb"[D2B2]z2 \
+::"F7"[A2C2] [AC][BD] [c2E2] | "Bb"[B2D2] [BD][cE] [d2F2] |
+| "F7"[A2C2] [AC][BD] [c2E2] | "Bb"[B2D2] [BD][cE] [d2F2] \
+| "Bb" [B,2D2] [B,D][A,^C] [B,D][DB] | [F4d4] [D2B2] \
+| "Eb"[Ec][Ge][G2e2] "Bb"[DB][Fd][F2d2] \
+| "Bb" [B,2D2] [B,D][A,^C] [B,D][DB] | [F4d4] [D2B2] \
+| "F7"[CA][Ec][E2c2] "Bb"[D2B2]z2 :|
+
+
+%%sep 1 1 500
+
+X: 189
+T: Zimmermo [C]
+M: 34/44
+L: 1/8
+K: C
+|:"C" [C2E2] [CE][B,^D] [CE][Ec] | [G4e4] [E2c2] \
+| "F"[Fd][Af][A2f2] "C"[Ec][Ge][G2e2] \
+| "C" [C2E2] [CE][B,^D] [CE][Ec] | [G4e4] [E2c2] \
+| "G7"[DB][Fd][F2d2] "C"[E2c2]z2 \
+::"G7"[B2D2] [BD][cE] [d2F2] | "C"[c2E2] [cE][dF] [e2G2] |
+| "G7"[B2D2] [BD][cE] [d2F2] | "C"[c2E2] [cE][dF] [e2G2] \
+| "C" [C2E2] [CE][B,^D] [CE][Ec] | [G4e4] [E2c2] \
+| "F"[Fd][Af][A2f2] "C"[Ec][Ge][G2e2] \
+| "C" [C2E2] [CE][B,^D] [CE][Ec] | [G4e4] [E2c2] \
+| "G7"[DB][Fd][F2d2] "C"[E2c2]z2 :|
+
+
+%%sep 1 1 500
+
+X: 190
+T: Zimmermo [Db]
+M: 34/44
+L: 1/8
+K: Db
+|:"Db" [d2F2] [dF][c=E] [dF][fd] | [a4f4] [f2d2] \
+| "Gb"[ge][bg][b2g2] "Db"[fd][af][a2f2] \
+| "Db" [d2F2] [dF][c=E] [dF][fd] | [a4f4] [f2d2] \
+| "Ab7"[ec][ge][g2e2] "Db"[f2d2]z2 \
+::"Ab7"[c2e2] [ce][df] [e2g2] | "Db"[d2f2] [df][eg] [f2a2] |
+| "Ab7"[c2e2] [ce][df] [e2g2] | "Db"[d2f2] [df][eg] [f2a2] \
+| "Db" [d2F2] [dF][c=E] [dF][fd] | [a4f4] [f2d2] \
+| "Gb"[ge][bg][b2g2] "Db"[fd][af][a2f2] \
+| "Db" [d2F2] [dF][c=E] [dF][fd] | [a4f4] [f2d2] \
+| "Ab7"[ec][ge][g2e2] "Db"[f2d2]z2 :|
+
+
+%%sep 1 1 500
+
+X: 191
+T: Zimmermo [Eb]
+M: 34/44
+L: 1/8
+K: Eb
+|:"Eb" [e2G2] [eG][d^F] [eG][ge] | [b4g4] [g2e2] \
+| "Ab"[af][c'a][c'2a2] "Eb"[ge][bg][b2g2] \
+| "Eb" [e2G2] [eG][d^F] [eG][ge] | [b4g4] [g2e2] \
+| "Bb7"[fd][af][a2f2] "Eb"[g2e2]z2 \
+::"Bb7"[d2F2] [dF][eG] [f2A2] | "Eb"[e2G2] [eG][fA] [g2B2] |
+| "Bb7"[d2F2] [dF][eG] [f2A2] | "Eb"[e2G2] [eG][fA] [g2B2] \
+| "Eb" [e2G2] [eG][d^F] [eG][ge] | [b4g4] [g2e2] \
+| "Ab"[af][c'a][c'2a2] "Eb"[ge][bg][b2g2] \
+| "Eb" [e2G2] [eG][d^F] [eG][ge] | [b4g4] [g2e2] \
+| "Bb7"[fd][af][a2f2] "Eb"[g2e2]z2 :|
+
+
+%%sep 1 1 500
+
+X: 192
+T: Zimmermo [F]
+M: 34/44
+L: 1/8
+K: F
+|:"F" [f2A2] [fA][e^G] [fA][af] | [c'4a4] [a2f2] \
+| "Bb"[bg][d'b][d'2b2] "F"[af][c'a][c'2a2] \
+| "F" [f2A2] [fA][e^G] [fA][af] | [c'4a4] [a2f2] \
+| "C7"[ge][bg][b2g2] "F"[a2f2]z2 \
+::"C7"[e2G2] [eG][fA] [g2B2] | "F"[f2A2] [fA][gB] [a2c2] |
+| "C7"[e2G2] [eG][fA] [g2B2] | "F"[f2A2] [fA][gB] [a2c2] \
+| "F" [f2A2] [fA][e^G] [fA][af] | [c'4a4] [a2f2] \
+| "Bb"[bg][d'b][d'2b2] "F"[af][c'a][c'2a2] \
+| "F" [f2A2] [fA][e^G] [fA][af] | [c'4a4] [a2f2] \
+| "C7"[ge][bg][b2g2] "F"[a2f2]z2 :|
+
+
+%%sep 1 1 500
+
+X: 193
+T: Zimmermo [G]
+M: 34/44
+L: 1/8
+K: G
+|:"G" [g2B2] [gB][f^A] [gB][bg] | [d'4b4] [b2g2] \
+| "C"[c'a][e'c'][e'2c'2] "G"[bg][d'b][d'2b2] \
+| "G" [g2B2] [gB][f^A] [gB][bg] | [d'4b4] [b2g2] \
+| "D7"[af][c'a][c'2a2] "G"[b2g2]z2 \
+::"D7"[f2A2] [fA][gB] [a2c2] | "G"[g2B2] [gB][ac] [b2d2] |
+| "D7"[f2A2] [fA][gB] [a2c2] | "G"[g2B2] [gB][ac] [b2d2] \
+| "G" [g2B2] [gB][f^A] [gB][bg] | [d'4b4] [b2g2] \
+| "C"[c'a][e'c'][e'2c'2] "G"[bg][d'b][d'2b2] \
+| "G" [g2B2] [gB][f^A] [gB][bg] | [d'4b4] [b2g2] \
+| "D7"[af][c'a][c'2a2] "G"[b2g2]z2 :|

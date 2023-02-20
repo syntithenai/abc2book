@@ -1,0 +1,28 @@
+X: 1
+T: Aldavaloch - or O'er the Moor Amang the Heather
+R: air
+S: Fiddle Hell Online 2020-11-05 Se\'an Heel Slow Airs Workshop
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+(A,D3) TD3E ~D3E D2A,2 | (B,2E2) TE3F {F}TG3F E2D2 |\
+!p!(F2A2) T[A3E3]B T[d3F3]e {de}f3e | {e}d3B (ABd).F TE3F E2D2 :|
+|:\
+(Ad3) Td3e {c}d3e d2A2 | (B3e) Te3f {ef}g3f e2d2 |\
+{d}f3e d2B2 (Ag3) HTf3e | {e}d3B (ABd).F TE3F E2HD2 :|
+|:\
+A,(B,DE DA,DE) (FG)(EF) (DE).D.A, | (B,DEF) E(B,EF) (AF)(dF) TE3D |\
+(DEFG) A3B (AD)FA [e3F3]e | (fd)(eB) (dA)(BF) (EFG).F E2D2 :|
+|:\
+D>d (Tdc/d/) f>d (Tdc/d/) (Dd)fe d2A2 | (E=GB).^d (e^d).e.f (ga)(fg) {f}e3=d |\
+(fd).e.f (dA).B.d (FA)(EF) (AB).d.e | f>de>B d>AB>F (EFG).F TE2"_D.C."D2 :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: D4 d4 D4 F4 | G6 F2 E4 A4 | !p!d'4 c'4 b4 f4 | g4 f2d2 a4 A2z2 :|
+|: d4 d'4 d4 f4 | g6 f2 e4 a4 | !p! f4 d'4 c'4 Hd'3c' | b2g2 f2d2 a4 "^Fine"A2 Hz2 :|
+|: [d4D4] [d4D4] [d4D4] [d4D4] | [e4E4] [e4E4] f2d2 [a4A4] | d4 f2g2 f4 b2c'2 | d'2g2 f2d2 a4 A2z2 :|
+|: f4 d4 d4 f4 | g3f e4 e'2=d'2 a2d'2 | !p!d2a2 f2g2 d2A2 [d4D4] | d2g2 f2d2 a4 A2"^D.C."z2 :|

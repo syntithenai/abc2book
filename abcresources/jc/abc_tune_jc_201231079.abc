@@ -1,0 +1,16 @@
+X: 147110
+T: MY BRAW HIGHLAND LADDIE
+Q: "Slow."
+%R: air, strathspey
+B: James Kerr "Merry Melodies" v.1 p.47 s.1 #10
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: Am
+uG2 |\
+vA2 A>B {B}e2 d>B | A2 G>A B>A Ac |\
+(vB<d) ud>uc cBAG | E2 G>A GEDE |\
+(E<A) A>A g2 (^fg) | e^fg>f edBd |\
+e2 g>^f e2 dB | A2 e>d B>A A2 |]

@@ -1,0 +1,20 @@
+X: 1382
+T: Sleepy Maggy. a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.1 p.38 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bm
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+g !segno!|:\
+Tf2B>b fBde | Tf2Ba eAce | Tf2B>b fBde | Tf>^gaf eAce :| f>BdB fBd(e | f)>BdB eAc(e |
+f)>BdB fBde | Tf>^gaf eAc(e || f)>BdB fBde | f>BdB eAc(e | f)>BdB fBde | Tf>^gaf eAc!segno!e |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z !segno!|:\
+b2b2 b2b2 | b2b2 a2a2 | b2b2 b2b2 | f2f2 a2a2 :| b2b2 b2b2 | b2b2 a2a2 |
+b2b2 b2b2 | f2f2 a2a2 || b2b2 b2b2 | b2b2 a2a2 | b2b2 b2b2 | f2f2 a2!segno!a2 |]

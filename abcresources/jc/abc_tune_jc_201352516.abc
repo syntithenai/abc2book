@@ -1,0 +1,57 @@
+
+X: 1
+T: Wiegenlied
+T: Lullaby
+C: Johannes Brahms (Op.49 No.4 1868)
+M: 3/4
+L: 1/8
+K: Eb
+GG \
+| "Eb"B3 G G2 | B2 z2 GB | e2 d3 c | "Bb7"c2 B2 FG |
+w: 1.~Gu-ten A-bend, gut' Nacht, mit_ Ro-sen be-dacht,_ mit
+w: 2.~Gu-ten A-bend, gut' Nacht, von_ Eng'-lein be wacht,_ die
+| "Bb7"A2 F2 FG | A2 z2 FA | dc B2 d2 | "Eb"e2 z2 "Eb7"EE |
+w: N\"ag'-lein be-*steckt schlupf'_ un-*ter die Deck'. Mor-gen
+w: zei-gen im_ Traum dir_ Christ-*kind-lein's Baum. Schlaf' nun
+| "Ab"e4 cA | "Eb"B4 GE | "Ab"A2 B2 c2 |"Eb"{G}B4 EE |
+w: fr\"uh, wenn Gott will, wirst du wie-der ge- weckt, mor-gen
+w: se-lig und s\"uss, schau' im Traum 's~Pa-ra-dies, schlaf' nun
+| "Ab"e4 cA | "Eb"B4 GE | "Bb7"A2 {BA}G2 F2 | "Eb"E4 |]
+w: fr\"uh, wenn Gott will, wirst du wie-der ge- weckt.
+w: se-lig und s\"uss, schau' im Traum 's~Pa-ra-dies.
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: Wiegenlied
+T: Lullaby
+C: Johannes Brahms (Op.49 No.4 1868)
+M: 3/4
+L: 1/8
+K: F
+AA \
+| "F"c3 A A2 | c2 z2 Ac | f2 e3 d | "C7"d2 c2 GA |
+| "C7"B2 G2 GA | B2 z2 GB | ed c2 e2 | "F"f2 z2 "F7"FF |
+| "Bb"f4 dB | "F"c4 AF | "Bb"B2 c2 d2 |"F"{A}c4 FF |
+| "Bb"f4 dB | "F"c4 AF | "C7"B2 {cB}A2 G2 | "F"F4 |]
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 3
+T: Wiegenlied
+T: Lullaby
+C: Johannes Brahms (Op.49 No.4 1868)
+M: 3/4
+L: 1/8
+K: G
+BB \
+| "G"d3 B B2 | d2 z2 Bd | g2 f3 e | "D7"e2 d2 AB |
+| "D7"c2 A2 AB | c2 z2 Ac | fe d2 f2 | "G"g2 z2 "G7"GG |
+| "C"g4 ec | "G"d4 BG | "C"c2 d2 e2 |"G"{B}d4 GG |
+| "C"g4 ec | "G"d4 BG | "D7"c2 {dc}B2 A2 | "G"G4 |]

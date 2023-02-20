@@ -1,0 +1,34 @@
+X: 1
+T: M\'ori s\'ej    [Gm]
+C: Jozsef Balog 1990
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: https://folkdancefootnotes.org/music/sheet-music/mori-shej-sheet-music/
+S: https://www.youtube.com/watch?v=qqeNxdyp5CE (probably the source for the above sheet-music)
+S: http://www.socalfolkdance.com/dances/M/Mori_Sej.pdf (lyrics)
+N: Language: Hungarian gypsy
+L: 1/16
+M: 2/4
+K: Gdor
+"^Instr."\
+[|\
+"Gm"GG2G- G2{G}A2 | GF3 G4 | "Bb"DED2 D3C | {D}E2D2 D4 |\
+"Gm"G2G2 G2GA | GF3 G4 | "Bb"DED2 D3C | {D}E2D2 D4 ||
+"F"C4 C4C | DEF2- F4 | GA3!G2F2 | DCB,2- B,4 |\
+"F"A,B,CB, CB,C2 | "D"D2CB, D2CB, |[1 "Gm"G,2G,- G,4 | G,4 z3B, :|\
+[2 "Gm"G,2G,2- G,2z2 | G,4 z4 |]
+"^Vocal"\
+|:\
+"Gm"GG3 G2{G}A2 | G2F2 F2{F}G2 | DD3 D3C | DC3 D4 :|
+w:1.~Bu-ter k\'aj egy ber-sesz-ki sz\'an M\'o-ri dr\'a-go pi-ko s\'ej
+w:   Vor-bisz m\'an-ge k\'a-ki-ko-ki M\'o-ri dr\'a-go pi-ko s\'ej
+w:2.~Ki-n\'au tu-ke szom-n\'a-k\'aj* M\'o-ri dr\'a-go pi-ko s\'ej
+w:   L\'a lu-m\'a-ko szom-n\'a-k\'aj* M\'o-ri dr\'a-go pi-ko s\'ej
+w:3.~\'Al-din d\'ev-l\'a mu-r\'a s\'a* M\'o-ri dr\'a-go pi-ko-nya
+w:   M\'o-ri dr\'a-go pi-ko-nya* Mu-r\'a su-k\'ar sz\'a-bi-n\'a
+%
+|: "F"C8 | DE3 (F3G) | GA3 G2F2 | DC3 B,3z |
+w: \'Aj mo-ri s\'ej,* mo-ri dra-go pi-ko-ny\'ej.
+%
+"F"A,B,CB, CB,C2 | "D"D2CB, D2CB, | "Gm"G,G,2G,6 | G,4 z4 :|
+w: \'A-l\'a-l\'a-l\'a-l\'a-l\'a-l\'a-l\'a-l\'a-l\'a-l\'a-l\'a-l\'a-l\'a-l\'a-l\'a-l\'a.
+%%text https://www.youtube.com/watch?v=qqeNxdyp5CE

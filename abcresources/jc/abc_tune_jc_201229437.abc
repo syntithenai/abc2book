@@ -1,0 +1,22 @@
+X: 1232
+T: Siomen Broddie
+%R: strathspey, air
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.23 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Amix
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+cde2 {d}Tc4 eA3cA3 | cde2 {d}Tc4 BG3 BcdB |\
+cde2 {d}Tc4 eA3cA3 | dfd2 cac2 BG3 BcdB :|
+|:\
+Acec Acac Aced {d}Tc3B | Acec Acac B2G2 BcdB |\
+Acec Acac Acec Acac | fdfd ecec B2G2 BcdB :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+a4a4 a4a4 | a4a4 g4g4 | a4a4 a4a4 | d'4c'4 g4g4 :||:
+a4a4 a4a4 | a4a4 g4g4 | a4a4 a4a4 | d'4c'4 g4g4 :|

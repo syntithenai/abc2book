@@ -1,0 +1,32 @@
+X:1
+T: The Merry, Merry Milkmaids
+N:
+C:
+S:Play  3  times
+A:
+O:
+R:
+M:6/8
+K:C
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 37 notes)
+K:C
+M:6/8
+L:1/16
+c2 |c3 d c2 G4 g2 e6e4 c2 c3 d c2 G4 _B2 A6A4 F2 |F3 G A B c4 A2 d3 c B A G4 g2 e3 f g2 d4 c2 c6c4 c2 |
+%W: A2
+% voice 1 (1 lines, 36 notes)
+c3 d c2 G4 g2 e6e4 c2 c3 d c2 G4 _B2 A6A4 F2 |F3 G A B c4 A2 d3 c B A G4 g2 e3 f g2 d4 c2 c6c4 c2 |
+%W: B1
+% voice 1 (1 lines, 29 notes)
+e3 f g2 g3 a g2 e3 f g2 g3 f e2 f4 g2 a4 b2 c'6c'4 g2 |c'4 g2 e3 f g2 a4 f2 d3 e f2
+%W:
+% voice 1 (1 lines, 26 notes)
+g4 e2 c3 d e2 d4 B2 G3 A B2 |c6 A3 B c2 d6 B3 A G2 c3 d e2 d4 c2 c6c4 c2 |
+%W: B2
+% voice 1 (1 lines, 29 notes)
+e3 f g2 g3 a g2 e3 f g2 g3 f e2 f4 g2 a4 b2 c'6c'4 g2 |c'4 g2 e3 f g2 a4 f2 d3 e f2
+%W:
+% voice 1 (1 lines, 25 notes)
+g4 e2 c3 d e2 d4 B2 G3 A B2 |c6 A3 B c2 d6 B3 A G2 c3 d e2 d4 c2 c6c4 ||

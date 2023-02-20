@@ -1,0 +1,28 @@
+X:70
+T:Viel' Kerran  (Once more)
+M:4/4
+L:1/4
+Q:1/4=240
+R:humppa
+P:Intro
+K:Dm
+A d f | "Dm" (a4 | a) A d f | a _a "Gm" (g2 | "A" g) A ^c e |
+a2 g2 | e2 f2 | "Dm" (d4 | d) z d z |
+P:Instr
+"Dm" d e d e | d e d c | A2 A2 | A4 |
+"A7" G A G A | G A G F | "Dm" (D4 | D4) |
+"Dm" d e d e | d e d c | A2 A2 | A4 |
+"F" c A =B c | "G" d =B c d | "A" e2 ^c2 | =B2 A2 |
+"Dm" d4 | A4 | "Gm" G ^F G A | B4 |
+"Dm" A B "Gm" G A | "Dm" F2 "A" E2 | "Dm" (D4 | D4) |
+d4 | a4 | "Gm" g ^f g a | b4  |
+"Dm" a b "Gm" g a | "Dm" f2 "A" e2 | "Dm       fine" (d4 | d} |
+P:Laulu
+|: "Dm" A, D F | (A4 | A) A, D F | A _A "Gm" (G2 | "A7" G) A, ^C E |
+A2 G2 | E2 F2 | E _E "Dm" (D2 | D A, D F | !
+(A4 | A) A, D F | A _A "Gm" (G2 | "A7" G) A, ^C E |
+A2 G2 | E2 F2 | "Dm" (D4 | D) .D .D ._D | !
+"C7" C2 (c2 | c) G G ^G | "F" (A4 | A) D D _D |
+"C7" C D E G | c B A ^G | "F" (A4 | "Dm" A) A, D F | !
+(A4 | A) A, D F | A _A "Gm" (G2 | "A" G) A, ^C E |
+A2 G2 | E2 F2 |[1 "Dm" (D4 | D) :|[2 "Dm  d.Instr al fine" (D4 | D) ||

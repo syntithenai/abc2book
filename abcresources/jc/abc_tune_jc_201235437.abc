@@ -1,0 +1,29 @@
+X: 21142
+T: GAMBLER'S SETT (tune 2)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.114, #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Version 1 for ABC software that doesn't understand !...endo*! annotation
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="2"
+[|\
+G4 d3B | F2F2 z2(BA) | AGGF EDCB, | D2D2 z4 |\
+d4 a3f | d2d2 z2(ed) | (dc)(cB) (BA).G.F | G2G2 z4 H|]
+|:\
+d4 defg | g3d B2z2 | B4 (cB)(ed) | d3B G2z2 |\
+FGAB (cB)(ed) | d"^dim..."g3 e2cA | GFGB dcAB | G2B2G2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance four.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,24 @@
+X: 1
+T: Annie's Waltz
+C: Bruce MacGregor
+R: waltz
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+S: https://www.patreon.com/posts/annies-waltz-40337072 (Bruce teaching the tune)
+S: https://www.youtube.com/watch?v=SKNPTVR2-M8 (Bruce playing the tune)
+M: 3/4
+L: 1/8
+K: A
+(3CEA |\
+"A"c2 E3 A/c/ | "E7"B3 B A>G | "F#m"A2 C2 F>A | "E7"G3 G F>E |\
+"D"F2 A2 d2 | "A"c2 B3 A | "Bm"B2 F2 B>A | "E7"G>F E>D C>B, |
+"A"A,2 E2 A>c | "E7"B3 B A>G | "F#m"A2 C2 F>A | "E7"G3 G F>E |\
+"D"F2 A2 d2 | "E7"c2 E2 G>B | "A"A4 "(E7)"A>B | "A"A2 A>E :|
+|: (3Ace |\
+"A"a2 A>c e>a | "E7"g3 g f>e | "D"f2 F>A d>f | "E7"e3 d- dc |\
+"D"f3 e d>f | "A"e2 d2 c>A | "Bm"B2 F2 B>A | 
+[1 "E7"G>B e>f g>e ||\
+"A"a2 A>c e>a | "E7"g3 g f>e | "D"f2 g3 a | "A"a3 g "E&"f>e |\
+"A"e4 (3EAc | "E7"B4 A>G | "A"A4 "(E7)"A>B | "A"A2 A>E :|
+[2 "E7"G>F E>D C>B, ||\
+"A"A,2 E2 A>c | "E7"B3 B A>G | "F#m"A2 C2 F>A | "E7"G3 G F>E |\
+"D"F2 A2 d2 | "E7"c2 E2 G>B | "A"A2 c2 "(E7)"e2 | "A"a4 |]

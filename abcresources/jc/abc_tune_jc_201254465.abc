@@ -1,0 +1,12 @@
+X: 1824
+T: Bonaparte Crossing The Rhine   #1
+R: march
+%S: s:3 b:16(5+5+6)
+B: O'Neill's 1850 #1824
+Z: Bob Safranek, rjs@gsp.org
+M: C
+L: 1/8
+K: Am
+(E^F/^G/) "^A1"| A>B{d}cB AGEG | cdec d2 (e^f/^g/) | a>=ged cAGE | G>^FGA G2 (E^F/^G/) "^A2"|| AB{d}cB AGEG |
+| cdec d2 (e^f/^g/) | a>=ged cAGE | A2 A>B A2 |]| (e^f/^g/) "^B"| a>=ged cde^f | gega g2 (e^f/^g/) |
+| a>=ged cAGE | G>^FGA G2 (E^F/^G/) "^A2"|| AB{d}cB AGEG | cdec d2 (e^f/^g/) | a>=ged cAGE | A2 A>B A2 |]2"[|]

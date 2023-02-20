@@ -1,0 +1,11 @@
+X: 137
+T: Cherkessiya
+O: Ukraine
+Z: John Chambers <jc:trillian.mit.edu>
+N: The chords in parens may be played during the repeats.
+N: Use the G/C lines for C instruments, the A/D for Bb instruments.
+M: 4/4
+L: 1/8
+K: D
+|: "D"[f2d2][f2d2] "G"[g2d2]"D(Bm)"[f2d2] | "A(Em)"[ec][e2c2][dA] "A"[ec][fd]"D"[d2A2] :|\
+|: "D"[fd][ge][a2f2] "A"[ec][e2c2][dA] | "A"[ec][fd][g2e2] "D"[fd][ec][d2A2] :|

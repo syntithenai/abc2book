@@ -1,0 +1,34 @@
+X: 4
+T: Merry Hary
+C:
+%R: jig
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed.
+M: 6/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+|:\
+G4d2 TB3AB2 | G2B2d2 g2d2B2 | G4d2 TB3AG2 | F2A2d2 A2F2D2 |\
+G4d2 TB3AB2 | G2B2d2 g2d2B2 | (ef)g2e2 (fg)a2g2 | f6 g6 :|
+|:\
+G4b2 a2f2d2 | F4a2 g2e2^c2 | d2f2a2 b2g2e2 | Te6 d6 |\
+Tc4B2 c2f2a2 | B4A2 B2d2g2 | Tf2e2f2 g2d2B2 | TA6 G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+g6 G6 | g6 G6 | g6 G6 | d6- d6 |\
+g6 G6 | g6 "6"B6 | c6 "6"A6 | "4"d4"3"D2 G6 :|
+|:\
+e6 d6- | d6 "+6"e6 | "6"f6 "6;5"g6 | "4"a4"#"A2 d6 |\
+"6;4"e4"5"^g2 a4 "6"f2 | "6;4"d4"5"f2 g4"6"e2 | d4 "6"c2 "6"B4 G2 | "4"d4"3"D2 G6 :|
+%%begintext align
+%% First and 2d Cu. set to their Partners & Hands a cross half Round   the same again which brings
+%% each into their Places || Cast off & lead thro' the 3d Cu. and cast up into the 2d Cu. Place
+%% cast up to the Top & Right Hand & left half Round which brings them into the 2d Cu. Place.
+%%endtext

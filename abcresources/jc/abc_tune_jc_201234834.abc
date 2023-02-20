@@ -1,0 +1,25 @@
+X: 2081
+T: New Rigg'd Ship.    or Miss Findlay's Delight
+%R: jig
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.8 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 12-bar lines, for compactness and proofreading.
+V: 1 staves=2
+G |\
+c2c Tc2e | c2c Tc2e | dBG G2B | dBG GAB ||\
+c2c Tc2e | c2c dBG | A>Bc dBG | c3 Tc2 :| e/f/ |\
+g2e g2e | Tc2c ceg | a2f a2f | Td2d def ||
+g2e g2e | Tc2c dBG | A>Bc dcB | Tc3 c2 e/f/ ||\
+gfe gfe | Tc>dc ceg | agf agf | Td>ed def ||\
+gfe gfe | cec dBG | ABc dBG | cGE C2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+c3 c3 | e3 c3 | g3 G3 | g3 G3 || c3 c3 | e3 c3 | f3 g3 | c3 c2 :| z |
+c'3 c'3 | c'3 c'3 | d'3 d'3 | d'3 d'3 || c'3 c'3 | c'3 g3 | f3 g3 | c3 c2z || c'3 c'3 | c'3 c'3 |
+d'3 d'3 | d'3 d'3 || c'3 c'3 | c'3 g3 | f3 g3 | c3 c2 |]

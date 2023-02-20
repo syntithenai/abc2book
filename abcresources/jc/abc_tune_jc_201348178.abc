@@ -1,0 +1,26 @@
+X:1
+T:Up goes Ely
+N:
+C:
+S:
+A:
+O:
+R:
+M:9/8
+K:G
+I:speed 165
+%W: A
+% voice 1 (1 lines, 29 notes)
+K:G
+M:9/8
+L:1/16
+g f |g4 g2 B4 c2 d4 d2 g4 g2 f4 g2 a3 b a2 g4 g2 B4 c2 d3 e d2 e4 c2 c4 A2 c4 g f |
+%W:
+% voice 1 (1 lines, 26 notes)
+g4 g2 B4 c2 d4 d2 g4 g2 f4 g2 a3 b a2 g4 g2 B4 c2 d3 e d2 e4 c2 c4 A2 c4 B2 |
+%W: B
+% voice 1 (1 lines, 24 notes)
+G4 d2 d4 B2 d4 B2 G4 d2 d4 e2 =f6 G4 d2 d4 B2 d3 e f2 g4 d2 B4 A2 G4 B2 |
+%W:
+% voice 1 (1 lines, 23 notes)
+G4 d2 d4 B2 d4 B2 G4 d2 d4 e2 =f6 G4 d2 d4 B2 d3 e f2 g4 d2 B4 A2 G4 ||

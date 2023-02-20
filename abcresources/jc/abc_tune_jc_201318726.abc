@@ -1,0 +1,14 @@
+X:1
+T:Octopus, The
+R:Jig
+%%printtempo 0
+Q:155
+M:6/8
+L:1/8
+K:D
+A|\
+"D"d2 e fed|"G" BGB "D" A2 G|FAF "A" EAE|"G" DAD "A7" C2 A|
+"D" dAG FAd|"G" BGB "D" AFA|"G" BGD "A" cAa|"D" f2 d d2:|
+|:G|\
+"D" FGA def|"Fdim" ba^g "D" a2 f|"G" g2 B "D" f2 A|"A7" edc "D" d2 d|
+"A" cec ABc|"D" dAb afd|"G" BGe "A" cAa|"D" f2 d d2:|

@@ -1,0 +1,36 @@
+X: 10181
+T: MARCH IN THE BATTLE OF PRAGUE
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.18 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The rhythms don't match at the strain boundaries; not fixed.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+(3ABc |\
+d2d>d d2e/d/c/B/ | A2A>A A2f>d | B2g>e c2e>c | d2d>d d2f>d |\
+e2 c/d/c/d/ eefe || d2 B/c/B/c/ dded | c>d e/d/c/B/ A2^G2 | A2A>A A2 :|
+|:\
+A2 A>B c>d e>f | g2 e>g f2 d>f | a>f d>f g>e f>d | e2 A>A A2 F>G |\
+A2 B>c d2 f>d | B2 g>e f2 d>f | af .d.d gedc | d2d>d d2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+F2F>F F2B>G | F2F>F F2z2 | G2G2 E2 E2 | F2F>F F2d2 |\
+c2A/B/A/B/ ccdc | B2G/A/G/A/ BBcB | A2FD C2B,2 | C2C>C C2 :|
+|:\
+A2 A>B c2 c>d | e2 c>e d2 F>d | f>d A>d e>c d>A | c2 A>A A2 D>E |\
+F2G>E F2 A>A | G2 e>c d2 z2 | F2 FF EGFE | F2F>F F2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+d2d>d d2d2 | d2d>d d2z2 | G2G2 A2A2 | d2d>d d2z2 |\
+A4 A4 | e4 e4 | a2d2 e2e2 | A2A>A A2 :|
+|:\
+A2A>A A2A2 | A2A2 d4 | d2f>d c2d>f | a2A>A A2A2 |\
+d2d>d d2d>f | g2a2 d2z2 | d2d2 A2A2 | d2d>d d2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

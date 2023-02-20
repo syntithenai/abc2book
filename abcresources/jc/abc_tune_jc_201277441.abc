@@ -1,0 +1,40 @@
+X: 1
+T: Four Pence Half penny Farthing
+T: the Jockey
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.119 #175 (237)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.140
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain to be play'd twice over" instruction.
+M: 6/4
+L: 1/4
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B2d (dB)d | A2c (cA)c | B2d (dB)d | f3 b3 |\
+B2d (dB)d | A2c (cA)F | (G/A/)BG (A/B/)cA | G3 B3 :|
+|:\
+f2g (fd)B | b2g (fd)B | e2g (fd)B | A3 c3 |\
+D2F (FD)F | (GA)B (cA)F | (G/A/)BG (A/B/)cA | G3 B3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Note: Each Strain to be play'd twice over.
+%%begintext align
+%% First Man sett to the 2d Wo. then fall back and turn once S. the 1st Wo.
+%% and 2d Man do the like; then 1st Man cross over with the 2d Wo. and
+%% 1st Wo. with the 2d Man; then 1st Cu. being in the 2d Cu. Place, go the
+%% half Figure, and the other Cu. go the half Figure thro' then turn
+%% their own Partners.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% The 1. man set to the 2. wo. and then fall back and turn one S. then 1. wo. and 2. man do the like,
+%% then 1 man cross over with the 2. wo. and 1. wo. with the 2 man, then 1 cu. being in the 2 cu.
+%% place go the half Figure, and the other cu. go the half Figure through, then turn their own
+%% Partners.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

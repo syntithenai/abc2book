@@ -1,0 +1,27 @@
+X: 1322
+T: Tail Toddle
+C: for the Harpsichord and German Flute by Mr Nisbet.
+%R: strathspey, march
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.32 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Pomposo"
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+(e/d/c/B/) !segno!|:\
+A>Ac>A d2BG | A>Ac>A Te2cA |e2cA d2B>G | A>Ac>A dBe2 ::
+A>Ac>e =g2B^G | A>Ac>e a>baf | =g>age dgB^G | A>Ac>A dB "_Fine"He2 ::"_Minore"[K:=f=c=g][K:Am] 
+A>BcA d2B^G | A>Bcd e>fec | f>edc BdB^G | A>BcA (d3/e//f//) e2 :| c>def g>age | (g<e)(g<e) dgBG |
+c>def g>agf | e2Td2 c3d | (e<c)Ae (f<d)c>B | (e<c)BA {A}^G3E | (A<B)cd (e<a) {g}fe/d/ | c2TB2 HA2 (e/d/^c/B/) !segno!y|]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2  !segno!|:\
+(3ac'e' (3ac'e' (3gbe' (3gbe' | (3ac'e' (3ac'e' (3ac'e' (3ac'e' |\
+(3ac'e' (3ac'e' (3gbe' (3gbe' | (3ac'e' (3ac'e' (3ebe' (3ac'e' ::
+(3ac'e' (3ac'e' (3=gbd' (3=gbd' | (3ac'e' (3ac'e' (3ac'e' (3ac'e' |\
+(3bd'=g' (3=c'e'g' (3bd'g' (3gbd' | (3ac'e' (3ac'e' (3ebe' "_Fine"(3ac'He' :: "_Minore"[K:=f=c=g][K:Am] A2a2 b2e2 |
+c3B A2c2 | d4 e4 | c'2a2 f2e2 :| c2c2 c4 | c4 G4 | c4 e3f |
+g2G2 c2z2 | c4 d2ed | c2A2 e2z2 | A2z2 c2d2 | e2E2 HA2  z2 !segno!y|]

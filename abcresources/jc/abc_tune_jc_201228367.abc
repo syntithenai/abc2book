@@ -1,0 +1,27 @@
+X: 1121
+T: LOVE NOT QUICK-STEP
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.112 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+[|\
+g4 b4 | [d'6d6] [c'2c2] | b2a2g2f2 | e2d2c2B2 |\
+A4 a4 | c'6 b2 | a2g2f2e2 | d2c2B2A2 |\
+G2z2 D2z2 | D2z2 D2z2 | ([d8B8] | [B4G4]) z4 |\
+([g8B8] | [d4B4]) z3[cA] | [B4G4] [B4D4] | B2A2G2A2 & C8 |
+([G8B,8] | [G4B,4]) z4 | [G8E8] | [G4E4] [e4G4] |\
+([d8D8] | [B4D4]) z3G | [F2D2]G2 [c2F2][B2G2] | ([A8F8] |\
+[A4F4])z4 | [G8B,8] | [G4B,4][A4C4] | [B8D8] |\
+[d8D8] | [^c6E6][c2E2] | [=c6D6][c2F2] | ([B8G8] |
+[B4G4])z4 | [g8B8] | [f2A2][g2B2][a2c2][g2B2] | [f2d2]z2 "^>"[e4c4] |\
+z4 (3[c2A2][d2B2][e2c2] | ([d8B8] | [d2B2])[c2A2][B2G2][c2A2] | ([B8G8] |\
+[B4G4]) z4 | [g8B8] | [f2A2][g2B2][a2c2][g2B2] | [f2d2]z2 [e4c4] |\
+z4 [G3B,3][AC] | [B8D8] | B2A2G2A2 & C8 | ([G8B,8] |
+[G4B,4])z4 | ([d4B4] [B4G4]) | [g8B8] | [B4D4] BAGA & x4 F4 |\
+G2G2 B2d2 | B2d2 g4 | g2fg agfg | a2d2 c'4 |\
+c'2d'c' bagf | [e8c8] |
+e2f2 g4 | d2^cd edc'b |\
+agfe dcBA | B2d2 g4 | g2fg agfg | a2d2 c'4 |\
+c'2d'c' bagf | e8 | e2f2 g4 | d4 f4 | g4 z4 H|]

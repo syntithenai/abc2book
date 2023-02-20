@@ -1,0 +1,7 @@
+%%postscript /r1{xymove -6 3 RM currentpoint 10 3 rectfill}!
+
+X: 1
+T: TEST: whole & half rests
+K: none
+z8 | z4 z4 |
+

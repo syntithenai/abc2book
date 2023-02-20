@@ -1,0 +1,27 @@
+X: 75
+T: Livet i Finnskogarna
+T: Life in the Finnish Woods
+%D:1915
+C: Carl ("Calle") Jularbo (1893-1966)
+B: published in "Jularbos B\"asta" (1938) in Sweden
+N: Carl was born "Karl Karlsson" in Jularbo (village), Avesta (municipality), Dalarna (county), Sweden.
+O: Dalarna, Sweden
+Z: 2021 by John Chambers <jc:trillian.mit.edu>
+N: Original tune for the US song "Mockingbird Hill" (Les Paul and Mary Ford, 1951)
+S: http://www.folksweden.com/files/Livet_i_Finnskogarna.pdf
+R: waltz
+M: 3/4
+L: 1/8
+K: D
+"^A"|:\
+"D"D3 F Ad | f3 d AF | "G"G3 B dg | "Em"b6 |\
+"A7"a3 g ec | A3 c [1,3 eg | "D"f3 d AF | D6 :|\
+                   [2,4 ec | "D"d3 d d2 | d4 "fine"z2 :|
+"^B"|:\
+"D"f3-f f2 | "D7"g2 f2 e2 | "G"d3 [ce]] dB | "D"A4 [A2a2] |\
+"A7"a3 g ec | A3 c [1,3 eg | "D"f3 d AF | D6 :|\
+                   [2,4 ec | "D"d3 d d2 | d4 z2 :| [K:G]
+"^C"|:\
+"G"B3-B B2 | B2 A2 G2 | "D7"F4 A2 | c4 ^c2 |\
+d3 d d2 | c2 B2 A2 |[1,3 "G"g2 f2 e2 | "D7"de dc BA :|\
+                    [2,4 "G"G3 G G2 | G4 z2 :|

@@ -1,0 +1,23 @@
+X: 202
+T: 2. Les 13 Cantont
+%R:
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.20 #2
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The "1.F" and the repeat symbols for the 3rd strain are inconsistent.
+N: The rhythms between strains are inconsistent.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d4 cBAB | G2B2G2B2 | d4 cBAB | G2B2G2z2 :|\
+|: "2.F"B2 |\
+G2c2A2B2 | GFGA G2B2 | G2c2A2B2 | G4 :|
+|: "2.F."d2 |\
+gfga bagf | g2d2B2G2 | gfga bagf | g6 :|\
+|: "1.F"cd |\
+e6 d2 | c2Bc A2Bc | d6 c2 | B2AB G4 |
+B2G2 G2AB | c2A2 A4 | B2G2 G2FG | A2D2 D4 |\
+B2G2 G2AB | c2A2 A2c2 | B2AG BAGF | G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

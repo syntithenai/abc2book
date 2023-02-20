@@ -1,0 +1,24 @@
+X: 152
+T: 5. La Camar gos
+T: la Camargos
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.15 #2 dance 05 #5
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: There are 3 segno symbols. It could mean the ABACA (rondo) form.
+N: The first strain is harmonically ambiguous; it could be in Bb but ending on Gm.
+N: The rest at the end of the 1st strain should be before the initial 2 pickup notes.
+N: The 2nd strain ends with an empty "measure" containing only a segno symbol.
+M: 6/8
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+Bc |\
+!segno!d2d dcd | B2B BAB | cde dcB | A2A ABc |\
+d2d dcd | B2B cde | dcB AGF | HG3 z |]
+[| "2.f."DGA |\
+B3 BAB | c3 cBc | ded dcB | A3 AGA |\
+B3 BAB | c3 cBc | ded dBc | ded dBc | !segno!y |]
+[| Gba |\
+"2.f."g^fg aba | g^fg aba | gab ag=f | =e3 ede |\
+f2f f=ef | g2g gfg | aba e^fg | ^f2f fBc !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

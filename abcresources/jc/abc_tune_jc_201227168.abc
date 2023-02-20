@@ -1,0 +1,20 @@
+X: 10642
+T: LIFE LET US CHERISH
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.64 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Initial rest "pickup" added to fix the rhythm of repeats.
+N: Added missing bar line between bars 3,4.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+z |\
+B3 cBc | d2g g2z | G3 AGA | BcB A2z |\
+B3 cBc | d2g g2z | B3 AGA | G3 z2 :|
+d |\
+d2c ABc | d2B G2d | d2c ABc | d2B G2d |\
+e2c g2g | d2B g2g | ded dcB | B3 "^D.C."A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

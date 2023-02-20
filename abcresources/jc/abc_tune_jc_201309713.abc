@@ -1,0 +1,26 @@
+X:1
+T: Mill-Field
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:D
+I:speed 165
+%W: A
+% voice 1 (1 lines, 20 notes)
+K:D
+M:6/8
+L:1/16
+d2 |e4 f2 g2 f2 e2 f2 e2 d2 a4 f2 e4 c2 A4 d2 c2 B2 c2 d4 d2 |
+%W:
+% voice 1 (1 lines, 19 notes)
+e4 f2 g2 f2 e2 f2 e2 d2 a4 f2 e4 c2 A4 d2 c2 B2 c2 d4 d2 |
+%W: B
+% voice 1 (1 lines, 17 notes)
+e4 c2 A4 a2 f4 d2 d4 f2 e4 c2 A4 d2 c2 B2 c2 d4 d2 |
+%W:
+% voice 1 (1 lines, 16 notes)
+e4 c2 A4 a2 f4 d2 d4 f2 e4 c2 A4 d2 c2 B2 c2 d4 ||

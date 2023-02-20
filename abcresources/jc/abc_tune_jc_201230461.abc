@@ -1,0 +1,31 @@
+X: 139
+T: Hackney Minuet
+T: Longways for as &c.
+%R: minuet
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.70
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4	% Actually just "3"
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+cde2c2 | d2B2c2 | A2B2G2 | AGABAB |\
+cde2c2 | d2B2c2 | A2B2G2 | A6 :|\
+cBABcd | e4e2 | f2e2d2 | e2c2a2 |
+e2fed2 | e2c2d2 | e2fedc | B6 |\
+cde2c2 | d2B2c2 | A2B2G2 | AGABAB |\
+cde2c2 | e2c2a2 | c2dcBc | A6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center The first twice, & the last but once.
+%%begintext align
+%% First Man lead his Wo. by the right hand half
+%% round, and back again by the left hand .|
+%% cast off 1st into the 2d Cu. place, then into
+%% the 3d Cu. place :| then lead thro' both Cu.
+%% and cast off, then all 3 Cu. take hands round
+%% 'till the 1st Cu. meet in the Middle and
+%% turn hands .|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

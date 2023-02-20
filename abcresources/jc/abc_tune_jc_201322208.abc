@@ -1,0 +1,40 @@
+X:1
+T:Pant Corlan yr Wyn  [G]
+T:the Lambs' Fold Vale
+T:Let Now the Harp
+C:Trad
+O:Wales
+N:This version has a 12-bar 2nd part
+R:Hornpipe
+M:2/2
+L:1/8
+S:handwritten MS of unknown origin
+Z:2009 John Chambers <jc:trillian.mit.edu>
+K:G
+V:1
+BA \
+| "G"G2GA B2G2 | "D7"c2AB c2A2 \
+| "G"B2G2 G2B2 | "D7"d2A2 F2D2 \
+"I"\
+| "G"G2GA B2G2 | "C"c2cB "Am"A2c2 \
+| "G"B2G2 "D7"FGAF | "G"G2G2 G2 :|
+|: dc \
+| "G"B2d2 d2cB | "D7"A2c2 c2BA \
+| "Em"G2B2 "A7"B2AG | "D"F2A2 "D7"F2D2 \
+| "G"G2GA B2G2 | "D7"c2AB c2A2 |
+| "G"B2G2 G2B2 | "D7"d2A2 F2D2 \
+| "G"G2GA B2G2 | "C"c2cB "Am"A2c2 \
+| "G"B2G2 "D7"FGAF | "G"G2G2 G2 :|
+V:2
+DC \
+| B,2B,C D2B,2 | D2CD E2C2 \
+| D2B,2 B,2D2 | F2D2 C2A,2 \
+| B,2B,C D2B,2 | E2ED C2E2 \
+| D2B,2 A,B,CA, | B,2B,2 B,2 :|
+|: z2 \
+| G,4 B,4 | D4 A,4 \
+| E4 ^C4 | D4 C4 \
+| D2CD E2C2  | D2CD E2C2 |
+| D2B,2 B,2D2 | F2D2 C2A,2 \
+| B,2B,C D2B,2 | E2ED C2E2 \
+| D2B,2 A,B,CA, | B,2B,2 B,2 :|

@@ -1,0 +1,25 @@
+X: 162
+T: Earl Moiras Strathspey
+R: strathspey
+M: C
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.16 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: The 1st part may have a final repeat symbol that overlaps the last note's stem.
+N: The 3rd part has a final repeat but no initial repeat.  Added initial repeat.
+N: The last beat of the last bar has inconsistent ties and dots; fixed to be like the previous two beats.
+N: 4th part's 3rd bar has invalid note lengths; beamed the "triplets" like the first beat to fix it.
+K: G
+|: G3GGG3 (Bd3)d4 | c3AB3G A3GF3D |\
+   G3GGG3 (Bd3)d4 | e3gf3a (ga).ba gb3 :|
+[| gg3b3g a3gf3d | ee3g3e d3c B2G2 |\
+   gg3b3g a3gf2d2 | e3g (fg).a.f g4 (g2ab) |
+   c'3ab3g a3ge2g2 | (edc).B g3B (cBA).G A3B |\
+   GG3GG3 (c3e) e4 | d3gf3a gaba gb3 |]
+|: B3Gd3G (edc).B (d2g2) | B3Gd3G A2B2c2e2 |\
+   B3Gd3G edc.B (d2g2) | e3gf3a gaba g4 :|
+[| gb3gb3 (fa3) d4 | e3fg3e d3c B3G |\
+   (g2ab) (g2ab) (f2ga) d4 | e3g f3a g4 (g2ab) |
+   .e3.c'.d3.b .c3.a.B3.g | Bcdc B3G A3GF2D2 |\
+   (3G2A2B2 (3A2B2c2 (3B2c2d2 (3c2d2e2 | d3g (ba).g.f (ag).f.e (dc).B.A |]

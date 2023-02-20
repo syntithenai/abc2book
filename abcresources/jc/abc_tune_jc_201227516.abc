@@ -1,0 +1,30 @@
+X: 10831
+T: COTILLION No. 8. tune 1
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.83 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+abc' |\
+d'4 a4 | f4 d2fa | fagf egfd | cedB Aabc' |\
+d'4 a4 | f4 d2fa | gfed cdec |[1 d2d2 dabc' :|[2 d2d2 d2cd H|]
+e2e2 a2a2 | fgfe dedc | B2B2 e2e2 | dcBc A2cd |\
+e2e2 a2a2 | f2^g^a bc'd'b | c'2c'2 babc' | a2a2 aabc' |
+d'4 a4 | f4 d2fa | gagf egfd | cedB Aabc' |\
+d'4 a4 | f4 d2fa | gfed cdec | d2d2 d2Bd |]
+f2f2f2f2 | fgfe d2Bd | c2e2g2g2 | gb^ab B2(Bd) |\
+f2f2f2f2 | fgfe d2(Bd) | c2eg fedc | B2b2 Bab"^D.C."c' |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 right and left,
+%% balance 4,
+%% ladies chain,
+%% promenade 4,
+%% sides the same.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

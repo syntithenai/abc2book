@@ -1,0 +1,514 @@
+
+X: 1
+T: BLUE MOON
+C: R.Rodgers
+M: C|
+L: 1/8
+K: C
+%
+[| "G7"z2G2 | "C"G4- "Am"G4- | "Dm"GFGA "G7"GGFG- | "C"G4- "Am"G4- | "Dm"GDEF "G7"EEDE- |
+%
+  "C"E4- "Am"E4- | "Dm"ECDE "G7"CCCC- | "C"C4- "Am"C4- | "Dm"C4 ||
+%
+"G7"z2G2 | "C"G4- "Am"G4- | "Dm"GFGA "G7"GGFG- | "C"G G3- "Am"G4- | "Dm"GDEF "G7"EEDE- |
+%
+  "C"E E3- "Am"E4- | "Dm"ECDE "G7"CCCC- | "C"CC3- "(F)"C4- | "C"C4 ||
+%
+zCCC | "Dm7"DDDD "G7"E2E2 | "C"CC3 zCCC | "Dm7"DDDD "G7"E2E2 | "C"C4 zC"C7"CC |
+%
+  "Fm"CCCC "B7"D2D2 | "Eb"_B,B,3 zB,B,B, | "G"=B,B,B,B, "D7"D2D2 | "Dm7"G4  ||
+%
+"G7"z2G2 | "C"G4- "Am"G4- | "Dm"GFGA "G7"GGFG- | "C"G4- "Am"G4- | "Dm"GDEF "G7"EEDE- |
+%
+  "C"E4- "Am"E4- | "Dm"ECDE "G7"CCCC- | "C"C4- "(F)"C4- | "C"C4 |]
+
+
+X: 2
+T: BLUE MOON
+C: R.Rodgers
+M: C|
+L: 1/8
+K: D
+%
+[| "A7"z2A2 | "D"A4- "Bm"A4- | "Em"AGAB "A7"AAGA- | "D"A4- "Bm"A4- | "Em"AEFG "A7"FFEF- |
+%
+  "D"F4- "Bm"F4- | "Em"FDEF "A7"DDDD- | "D"D4- "Bm"D4- | "Em"D4 ||
+%
+"A7"z2A2 | "D"A4- "Bm"A4- | "Em"AGAB "A7"AAGA- | "D"A A3- "Bm"A4- | "Em"AEFG "A7"FFEF- |
+%
+  "D"F F3- "Bm"F4- | "Em"FDEF "A7"DDDD- | "D"DD3- "(G)"D4- | "D"D4 ||
+%
+zDDD | "Em7"EEEE "A7"F2F2 | "D"DD3 zDDD | "Em7"EEEE "A7"F2F2 | "D"D4 zD"D7"DD |
+%
+  "Gm"DDDD "C7"E2E2 | "F"=CC3 zCCC | "A"^CCCC "E7"E2E2 | "Em7"A4  ||
+%
+"A7"z2A2 | "D"A4- "Bm"A4- | "Em"AGAB "A7"AAGA- | "D"A4- "Bm"A4- | "Em"AEFG "A7"FFEF- |
+%
+  "D"F4- "Bm"F4- | "Em"FDEF "A7"DDDD- | "D"D4- "(G)"D4- | "D"D4 |]
+
+
+X: 3
+T: BY THE LIGHT OF THE SILVERY MOON
+C: Edwards (1909)
+M: C
+L: 1/8
+K: G
+B,2 C2 | "G"D8 | z2 GA BA G2 | "A7"E8 | z2 A2 G2 E2 |
+"D7"F8 | z2 DE FE D2 | "G"E4 "A7/C#"B,4 | "D7"D4 B,2 C2 |
+"G"D8 | z2 GA BA G2 | "C"E4- "E7"E4 | "Am"z2 A2 "D7"B2 c2 | "G"B2 G2 "A7"A2 "Cm"c2 |
+"Em"B2 GA BA G2 | "B7"B4- "E7"B4 | "A7"z2 GA "D7"BG A2 | "G"G4- "C"G4- | "G"G2 z2 |]
+
+
+X: 4
+T: BY THE LIGHT OF THE SILVERY MOON
+C: Edwards (1909)
+M: C
+L: 1/8
+K: A
+C2 D2 | "A"E8 | z2 AB cB A2 | "B7"F8 | z2 B2 A2 F2 |
+"E7"G8 | z2 EF GF E2 | "A"F4 "B,7/D#"C4 | "E7"E4 C2 D2 |
+"A"E8 | z2 AB cB A2 | "D"F4- "F#7"F4 | "Bm"z2 B2 "E7"c2 d2 | "A"c2 A2 "B7"B2 "Dm"d2 |
+"F#m"c2 AB cB A2 | "C#7"c4- "F#7"c4 | "B7"z2 AB "E7"cA B2 | "A"A4- "D"A4- | "A"A2 z2 |]
+
+
+X: 5
+T: DEEP PURPLE
+C: P. de Rose
+M: C|
+L: 1/4
+K: F
+ CD | "F"c2 CD | "Cdim"_E2 C^C | "Gm"DG Bd |
+ "C7"c2 ^GA |"F"gf cA | "Cm"G^G Ad | "D7"D4- |
+ D2 ^CD |"Gm"c2 =B_B | "Bbm"A_A G2 | "F"G2 _GF |
+[1 "Ddim"E_E D2 | "C7"D2 _DC | G2 "C+"^Gd | "F"c4- | cz :|
+[2 "Ddim"e_e d2 | "Gm7"d2 _dc | "C7"G2 ^GA | "F"c4- | cz |]
+
+
+X: 6
+T: DEEP PURPLE
+C: P. de Rose
+M: C|
+L: 1/4
+K: G
+ DE | "G"d2 DE | "Ddim"=F2 D^D | "Am"EA ce |
+ "D7"d2 ^AB |"G"ag dB | "Dm"A^A Be | "E7"E4- |
+ E2 ^DE |"Am"d2 _dc | "Cm"B_B A2 | "G"A2 _AG |
+[1 "Edim"F=F E2 | "D7"E2 _ED | A2 "D+"^Ae | "G"d4- | dz :|
+[2 "Edim"f=f e2 | "Am7"e2 _ed | "D7"A2 ^AB | "G"d4- | dz |]
+
+
+X: 7
+T: DREAM
+C: J.Mercer
+M: C
+L: 1/8
+K: C
+|:"C"c8- | c2dc d2c2 | "B7"B8- | B8 | "C"A8- | A2BA B2A2 | "A7"G8- | G8 | "F"F8- | F2GF "Fm"G2F2 |
+[1"C"E2G2 A2B2- | B8 | "D7"^F2A2 B2c2- | c6 B2 | "Dm7"A2B2 c2d2- | "G7"d4 e4 :|
+[2"C"E2G2 "E7"A2[B2-^G2-E2-] | [B4^G4E4] "Am7"[c4A4E2] | "Dm"[d8A8F8] | "G7-9"[e8_A8F8] | "C"[c8-G8-E8-] | [c6G6E6] z2 |]
+
+
+X: 8
+T: DREAM
+C: J.Mercer
+M: C
+L: 1/8
+K: D
+|:"D"d8- | d2ed e2d2 | "C#7"c8- | c8 | "D"B8- | B2cB c2B2 | "B7"A8- | A8 | "G"G8- | G2AG "Gm"A2G2 |
+[1"D"F2A2 B2c2- | c8 | "E7"^G2B2 c2d2- | d6 c2 | "Em7"B2c2 d2e2- | "A7"e4 f4 :|
+[2"D"F2A2 "F#7"B2[c2-^A2-F2-] | [c4^A2F2] "Bm7"[d4B4F4] | "Em"[e8B4G4] | "A7-9"[f8_B8G8] | "D"[d8-A8-F8-] | [d6A6F6] z2 |]
+
+
+X: 9
+T: HEART AND SOUL
+C: H.Carmichael
+%%staffsep 30
+M: C|
+L: 1/8
+K: D
+|:"D"D2D2 "Bm"D4 | "Em"zDCB, "A7"CDE2 | "D"F2F2 "Bm"F4 | "Em"zFED "A7"EFG2 |
+"D"A4 "Bm"D4 | "Em"zBAG "A7"F2E2 | "D"D4- "Bm"DEFG |1 "Em"A2GF "A7"E4 :|2 "D"A2D2- "D7"D4 ||
+"G"zBAG "F#7"F2E2 | "B7"^D4 "E7"E4 | "A7"C4 "D7"=D4 | "C#7"B,4 "F#7"C4 |
+"G"zBAG "F#7"F2E2 | "B7"^D4 "E7"E4 | "A7"C4 "D7"=D4 | "C#7"B,4 "A7"C2A,2 ||
+"D"D2D2 "Bm"D4 | "Em"zDCB, "A7"CDE2 | "D"F2F2 "Bm"F4 | "Em"zFED "A7"EFG2 |
+"D"A4 "Bm"D4 | "Em"zBAG "A7"F2E2 | "F#7"F4-"B7"F4 | "Em"zGFE "A7"D2C2 | "D"D8- | D4 z4 |]
+
+
+X: 10
+T: HEART AND SOUL
+C: H.Carmichael
+%%staffsep 30
+M: C|
+L: 1/8
+K: F
+|:"F"F2F2 "Dm"F4 | "Gm"zFED "C7"EFG2 | "F"A2A2 "Dm"A4 | "Gm"zAGF "C7"GAB2 |
+"F"c4 "Dm"F4 | "Gm"zdcB "C7"A2G2 | "F"F4- "Dm"FGAB |1 "Gm"c2BA "C7"G4 :|2 "F"c2F2- "F7"F4 ||
+"Bb"zdcB "A7"A2G2 | "D7"^F4 "G7"G4 | "C7"E4 "F7"=F4 | "E7"D4 "A7"E4 |
+"Bb"zdcB "A7"A2G2 | "D7"^F4 "G7"G4 | "C7"E4 "F7"=F4 | "E7"D4 "C7"E2C2 ||
+"F"F2F2 "Dm"F4 | "Gm"zFED "C7"EFG2 | "F"A2A2 "Dm"A4 | "Gm"zAGF "C7"GAB2 |
+"F"c4 "Dm"F4 | "Gm"zdcB "C7"A2G2 | "A7"A4-"D7"A4 | "Gm"zBAG "C7"F2E2 | "F"F8- | F4 z4 |]
+
+
+X: 11
+T: HEART AND SOUL
+C: H.Carmichael
+%%staffsep 30
+M: C|
+L: 1/8
+K: G
+|:"G"G2G2 "Em"G4 | "Am"zGFE "D7"FGA2 | "G"B2B2 "Em"B4 | "Am"zBAG "D7"ABc2 |
+"G"d4 "Em"G4 | "Am"zedc "D7"B2A2 | "G"G4- "Em"GABc |1 "Am"d2cB "D7"A4 :|2 "G"d2G2- "G7"G4 ||
+"C"zedc "B7"B2A2 | "E7"^G4 "A7"A4 | "D7"F4 "G7"=G4 | "F#7"E4 "B7"F4 |
+"C"zedc "B7"B2A2 | "E7"^G4 "A7"A4 | "D7"F4 "G7"=G4 | "F#7"E4 "D7"F2D2 ||
+"G"G2G2 "Em"G4 | "Am"zGFE "D7"FGA2 | "G"B2B2 "Em"B4 | "Am"zBAG "D7"ABc2 |
+"G"d4 "Em"G4 | "Am"zedc "D7"B2A2 | "B7"B4-"E7"B4 | "Am"zcBA "D7"G2F2 | "G"G8- | G4 z4 |]
+
+
+X: 12
+T: If I had my life to live over
+C: Henry Tobias & Moe Jaffe (1939)
+N: Copyright assigned 1943 to Bob Miller, Inc.
+N: Copyright assigned 1944 to General Music Publishing Co.
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+B | "D"AF>B | AF>B | AA2- | A3 |
+  fed | "F#7"ce>d | "G"B3- | "B7"B2d |
+  "Em7"dBd | "A7"c2=B/c/ | "F#7"ece | "Bm"d4c/d/ |
+  "E7"fdB  | ^GBf | "A7"e3- | e2B |
+  "D"AF>B | AF>B | AA2- | A2A |
+  fed | "F#7"ce>d | "G"B3- | "B7"B2B |
+  "Em"Bcd | ed"Ddim"B | "D"A3 | "B7"f2A |
+  "Em"GBf | "A7"e2d | "D"d3- | d2 |]
+
+
+X: 13
+T: I WANNA BE LOVED BY YOU
+C: Stothart-Ruby
+M: C
+L: 1/8
+K: C
+|: "C"z2 G2 A>_A G2 | "C"d2 _d2 c2 A2 | "C+"_A2 "G+"G2 "Bb"=A>_A "A7"G2 | "D7"C2 C2 C4 |
+"G7"z2 G2 A>_A G2 | "G7"B2 B2 B3 G | "C"c8- |[1 "D7"c4- "G7"c2z2 :|
+[2 "C7"z2 c2 d>_d c2 | "F"(A2 c6) | "Fm"z2 c2 d>_d c2 | "C"c2 G6 |
+"C7"z2 c2 d>_d c2 | "F"(A2 c4) A2 | "D7"c4 e2 c2 | "G Em B Bb"G8- | "D7"G2z2 "G7"z4 |
+"C"z2 G2 A>_A G2 | "C"d2 _d2 c2 A2 | "C+"_A2 "G+"G2 "Bb"=A>_A "A7"G2 | "D7"C2 C2 C4 |
+"G7"z2 G2 A>_A G2 | "G7"B2 B2 B3 G | "C B7 G7"c8- | "C"c6 z2 |]
+
+
+X: 14
+T: I WANNA BE LOVED BY YOU
+C: Stothart-Ruby
+M: C
+L: 1/8
+K: D
+|: "D"z2 A2 B>_B A2 | "D"e2 _e2 d2 B2 | "D+"_B2 "A+"A2 "C"=B>_B "B7"A2 | "E7"D2 D2 D4 |
+"A7"z2 A2 B>_B A2 | "A7"c2 c2 c3 A | "D"d8- |[1 "E7"d4- "A7"d2z2 :|
+[2 "D7"z2 d2 e>_e d2 | "G"(B2 d6) | "Gm"z2 d2 e>_e d2 | "D"d2 A6 |
+"D7"z2 d2 e>_e d2 | "G"(B2 d4) B2 | "E7"d4 f2 d2 | "A Fm C# C"A8- | "E7"A2z2 "A7"z4 |
+"D"z2 A2 B>_B A2 | "D"e2 _e2 d2 B2 | "D+"_B2 "A+"A2 "C"=B>_B "B7"A2 | "E7"D2 D2 D4 |
+"A7"z2 A2 B>_B A2 | "A7"c2 c2 c3 A | "D C#7 A7"d8- | "D"d6 z2 |]
+
+
+X: 15
+T: I'M IN THE MOOD FOR LOVE
+C: J.McHugh
+M: C
+L: 1/8
+K: C
+|: "C"(3E2F2E2 D2C2 | "Dm7"D8 | "G7"(3D2E2F2 G2A2 | "C"B2c6 |
+ "C"dB2d "C#dim"B2_B2 | "Dm7"A2 c6 | "G7"AG2A G2B,2 |1 "C"G8 :|2 "C"C8 ||
+ "Dm7"DE2F "G7"E2D2 | "C"G2 G2- "A7"G4 | "Fm"DE2F "G7"E2D2 | "C"G8 |
+ "Am6"^FG2A "B7"G2F2 | "Em"B2 B6 | "Cm"Bc2B "D7"d4 | "Fm"DE2D "G7"F4 |
+ "C"(3E2F2E2 D2C2 | "Dm7"D8 | "G7"(3D2E2F2 G2A2 | "C"B2c6 |
+ "C"dB2d "C#dim"B2_B2 | "Dm7"A2 c6 | "G7"AG2A G2B,2 | "C"C8 |]
+
+
+X: 16
+T: I'M IN THE MOOD FOR LOVE
+C: J.McHugh
+M: C
+L: 1/8
+K: D
+|: "D"(3F2G2F2 E2D2 | "Em7"E8 | "A7"(3E2F2G2 A2B2 | "D"c2d6 |
+ "D"ec2e "D#dim"c2=c2 | "Em7"B2 d6 | "A7"BA2B A2C2 |1 "D"A8 :|2 "D"D8 ||
+ "Em7"EF2G "A7"F2E2 | "D"A2 A2- "B7"A4 | "Gm"EF2G "A7"F2E2 | "D"A8 |
+ "Bm6"^GA2B "C#7"A2G2 | "F#m"c2 c6 | "Dm"cd2c "E7"e4 | "Gm"EF2E "A7"G4 |
+ "D"(3F2G2F2 E2D2 | "Em7"E8 | "A7"(3E2F2G2 A2B2 | "D"c2d6 |
+ "D"ec2e "D#dim"c2=c2 | "Em7"B2 d6 | "A7"BA2B A2C2 | "D"D8 |]
+
+
+X: 17
+T: I'M IN THE MOOD FOR LOVE
+C: J.McHugh
+M: C
+L: 1/8
+K: A
+|: "A"(3c2d2c2 B2A2 | "Bm7"B8 | "E7"(3B2c2d2 e2f2 | "A"g2a6 |
+ "A"bg2b "A#dim"g2=g2 | "Bm7"f2 a6 | "E7"fe2f e2G2 |1 "A"e8 :|2 "A"A8 ||
+ "Bm7"Bc2d "E7"c2B2 | "A"e2 e2- "F7"e4 | "Dm"Bc2d "E7"c2B2 | "A"e8 |
+ "Fm6"^de2f "G#7"e2d2 | "C#m"g2 g6 | "Am"ga2g "B7"b4 | "Dm"Bc2B "E7"d4 |
+ "A"(3c2d2c2 B2A2 | "Bm7"B8 | "E7"(3B2c2d2 e2f2 | "A"g2a6 |
+ "A"bg2b "A#dim"g2=g2 | "Bm7"f2 a6 | "E7"fe2f e2G2 | "A"A8 |]
+
+
+X: 18
+T: I'M LOOKING OVER A FOUR-LEAF CLOVER
+C: H.Woods
+M: C|
+L: 1/4
+K: C
+[| "C"c2 GE | D C2 D | E2 G2 | c B2 "Cm"c |
+"D7"d2 DE | ^F2 A2 | d4- | d4 |
+"G7"B2 AG | B A2 G | "C"AA "Gm"AA- | "A7"A4 |
+"D"d2 BA | d B2 A | "G7"GG GG- | G4 ||
+"C"c2 GE | D C2 D | E2 G2 | c B2 "Cm"c |
+"D7"d2 DE | ^F2 A2 | d4- | d4 |
+"Dm"d2 cB | "Fm"d c2 A | "C"B2 "G7"B2 | "A7"B A2 G |
+"D7"A2 Bc | "G7"d2 G2 | "C"c4- | c2 z3 |]
+
+
+X: 19
+T: I'M LOOKING OVER A FOUR-LEAF CLOVER
+C: H.Woods
+M: C|
+L: 1/4
+K: D
+[| "D"d2 AF | E D2 E | F2 A2 | d c2 "Dm"d |
+"E7"e2 EF | ^G2 B2 | e4- | e4 |
+"A7"c2 BA | c B2 A | "D"BB "Am"BB- | "B7"B4 |
+"E"e2 cB | e c2 B | "A7"AA AA- | A4 ||
+"D"d2 AF | E D2 E | F2 A2 | d c2 "Dm"d |
+"E7"e2 EF | ^G2 B2 | e4- | e4 |
+"Em"e2 dc | "Gm"e d2 B | "D"c2 "A7"c2 | "B7"c B2 A |
+"E7"B2 cd | "A7"e2 A2 | "D"d4- | d2 z3 |]
+
+
+X: 20
+T: I'M LOOKING OVER A FOUR-LEAF CLOVER
+C: H.Woods
+M: C|
+L: 1/4
+K: A
+[| "A"a2 ec | B A2 B | c2 e2 | a g2 "Am"a |
+"B7"b2 Bc | ^d2 f2 | b4- | b4 |
+"E7"g2 fe | g f2 e | "A"ff "Em"ff- | "F#7"f4 |
+"B"b2 gf | b g2 f | "E7"ee ee- | e4 ||
+"A"a2 ec | B A2 B | c2 e2 | a g2 "Am"a |
+"B7"b2 Bc | ^d2 f2 | b4- | b4 |
+"Bm"b2 ag | "Dm"b a2 f | "A"g2 "E7"g2 | "F#7"g f2 e |
+"B7"f2 ga | "E7"b2 e2 | "A"a4- | a2 z3 |]
+
+
+X: 21
+T: IT HAD TO BE YOU
+C: Jones
+%%%staffsep 30
+M: C
+L: 1/8
+K: D
+|:"A7"z3A, "A+"B,A,B,C- | "D"C4- "A+"C4 | "D"z3C DCD^D- | "B7"D8 |
+%
+z3^D EDEF- | "E7"F6=D E^DEF- | F3=D E^DEF- | F8 |
+%
+[1 z3E FEFA- | "A7"A8 | z3F "F#7"EFED- | "Bm"D8 |
+%
+z3D DCDE- | "E7"E4 DCDE- | E4 FBFE- | "A7"E4- "Bb7-5"E4 :|
+%
+[2 z2F2 "Bm"FGAB- | "Em"B4 B,CDE- | "Edim"E4 "A7"EFGA- | "D"A4 "F#7"EFED-  |
+%
+"Bm"D3C "Ddim"B,A,B,C- | "A7"C4 "Ddim"B,A,B,C- | "A7"C4 FAFD- | "D"D8- | D6 z2 |]
+
+
+X: 22
+T: IT HAD TO BE YOU
+C: Jones
+%%%staffsep 30
+M: C
+L: 1/8
+K: G
+|:"D7"z3D "D+"EDEF- | "G"F4- "D+"F4 | "G"z3F GFG^G- | "E7"G8 |
+%
+z3^G AGAB- | "A7"B6=G A^GAB- | B3=G A^GAB- | B8 |
+%
+[1 z3A BABd- | "D7"d8 | z3B "B7"ABAG- | "Em"G8 |
+%
+z3G GFGA- | "A7"A4 GFGA- | A4 BeBA- | "D7"A4- "Eb7-5"A4 :|
+%
+[2 z2B2 "Em"Bcde- | "Am"e4 EFGA- | "Adim"A4 "D7"ABcd- | "G"d4 "B7"ABAG-  |
+%
+"Em"G3F "Gdim"EDEF- | "D7"F4 "Gdim"EDEF- | "D7"F4 BdBG- | "G"G8- | G6 z2 |]
+
+
+X: 23
+T: IT HAD TO BE YOU
+C: Jones
+%%%staffsep 30
+M: C
+L: 1/8
+K: A
+|:"E7"z3E "E+"FEFG- | "A"G4- "E+"G4 | "A"z3G AGA^A- | "F#7"A8 |
+%
+z3^A BABc- | "B7"c6=A B^ABc- | c3=A B^ABc- | c8 |
+%
+[1 z3B cBce- | "E7"e8 | z3c "C#7"BcBA- | "F#m"A8 |
+%
+z3A AGAB- | "B7"B4 AGAB- | B4 cfcB- | "E7"B4- "F7-5"B4 :|
+%
+[2 z2c2 "F#m"cdef- | "Bm"f4 FGAB- | "Bdim"B4 "E7"Bcde- | "A"e4 "C#7"BcBA-  |
+%
+"F#m"A3G "Adim"FEFG- | "E7"G4 "Adim"FEFG- | "E7"G4 cecA- | "A"A8- | A6 z2 |]
+
+
+X: 24
+T: IT'S BEEN A LONG, LONG TIME
+C: J.Styne
+M: C
+L: 1/8
+K: G
+B | "G"G>B d>G F>B d>F | E>F (3EFE- E>D E>D | E4 "Ddim"=F4  | "D7"^F8 |
+"Am"A>c e>A ^G>c e>G | =G>A (3GAF- "D7"F>D E>D | "Am7"A4 "D+"^A4 | "G"B4 z>Bc>^c |
+"G"d>e d>e "Dm"=f>e f>e | d2 d4 z>E | "Am"c>d c>d "Cm"_e>d e>d | c2 c4 "D7"z>B |
+"G"G>B d>G F>B d>F | E>F (3EFE- E>d c>B | "Am"e4 "D7"F4 | "G"G6 z |]
+
+
+X: 25
+T: IT'S BEEN A LONG, LONG TIME
+C: J.Styne
+M: C
+L: 1/8
+K: D
+f | "D"d>f a>d c>f a>c | B>c (3BcB- B>A B>A | B4 "Adim"=c4  | "A7"^c8 |
+"Em"e>g b>e ^d>g b>d | =d>e (3dec- "A7"c>A B>A | "Em7"e4 "A+"=e4 | "D"f4 z>fg>^g |
+"D"a>b a>b "Am"=c'>b c'>b | a2 a4 z>B | "Em"g>a g>a "Gm"_b>a b>a | g2 g4 "A7"z>f |
+"D"d>f a>d c>f a>c | B>c (3BcB- B>a g>f | "Em"b4 "A7"c4 | "D"d6 z |]
+
+
+X: 26
+T: Lilli Marlene
+C: Leip-Schultze-Connor
+M: C
+L: 1/8
+K: C
+|: "C"E>E E>F G2 E2 | "Dm7"F>F F>c "G7"B4 |
+   "G7"D>D D>E F2 F>G | "G7"B>A G>F "C"E3 "C7"C |
+   "F"A2 B>c B2 A2 | "C"A2 G2 B3 A |
+   "Dm7"G2 F2 "G7"A3 G | "C"F2 E2 "A(m)7"G3 E |
+   "Dm7"G3 F "G7"F2 d2 | "C"c4 "A(m)7"G2 E2 |
+   "Dm7"G3 F F2 "G7"B,2 | "C"C6 z2 :|
+
+
+X: 27
+T: Lilli Marlene
+C: Leip-Schultze-Connor
+M: C
+L: 1/8
+K: D
+|: "D"F>F F>G A2 F2 | "Em7"G>G G>d "A7"c4 |
+   "A7"E>E E>F G2 G>A | "A7"c>B A>G "D"F3 "D7"D |
+   "G"B2 c>d c2 B2 | "D"B2 A2 c3 B |
+   "Em7"A2 G2 "A7"B3 A | "D"G2 F2 "B(m)7"A3 F |
+   "Em7"A3 G "A7"G2 e2 | "D"d4 "B(m)7"A2 F2 |
+   "Em7"A3 G G2 "A7"C2 | "D"D6 z2 :|
+
+
+X: 28
+T: MEMORIES OF YOU
+C: Blake
+M: C|
+L: 1/4
+K: F
+|:"F"CD D2 | "Gm"DE "E7"E2 | "Am"EF "Dm"Ac | "G7"g4 |
+%
+  "F"fd d2 | "Am"cA "Cdim"A2 | "Gm"GD "Bbm"DD |[1 "F"F2 "C7"z2 :|[2 "F"F2 "A7"z2 ||
+%
+  "Dm"Ad ef | "Gm"Bd ef | "Dm"Ad ef | "G7"A4 |
+%
+  "F"Ad ef | "G7"fd dA | "Am"c2- "Abm"c2- | "Gm"c4 |
+%
+  "F"CD D2 | "Gm"DE "E7"E2 | "Am"EF "Dm"Ac | "G7"g4 |
+%
+  "F"fd d2 | "Am"cA "C7"A2 | "G7"GD "c c'7"DD | "F"F3 z |]
+
+
+X: 29
+T: MEMORIES OF YOU
+C: Blake
+M: C|
+L: 1/4
+K: G
+|:"G"DE E2 | "Am"EF "F7"F2 | "Bm"FG "Em"Bd | "A7"a4 |
+%
+  "G"ge e2 | "Bm"dB "Ddim"B2 | "Am"AE "Cm"EE |[1 "G"G2 "D7"z2 :|[2 "G"G2 "B7"z2 ||
+%
+  "Em"Be fg | "Am"ce fg | "Em"Be fg | "A7"B4 |
+%
+  "G"Be fg | "A7"ge eB | "Bm"d2- "Bbm"d2- | "Am"d4 |
+%
+  "G"DE E2 | "Am"EF "F7"F2 | "Bm"FG "Em"Bd | "A7"a4 |
+%
+  "G"ge e2 | "Bm"dB "D7"B2 | "A7"AE "d d'7"EE | "G"G3 z |]
+
+
+X: 30
+T: (I FOUND A) MILLION-DOLLAR BABY
+C: Warren
+M: C
+L: 1/8
+K: F
+|: "F"z>CD>C F>EG>F | "F"A2 A6 | "F"z>CD>C F>EG>F | "G7"A8 |
+  "G7"z>GA>G A>GA>G | "C7"c2 c4 G>A |[1 "C7"c2c2 C2"C+"D2 | "F"A8 :|[2 "C7"c2c2 B2E2 | "F"F4 E>FG>^G ||
+  "A7"A4 B4 | "A7"z>A^G>A e2 ^c2 | "Dm"A4- "A7"A4- | "Dm"A4 D>EF>^F |
+  "G7"G4 A4 | "G7"z>G^F>G d2A2 | "Gm7"G8- | "C7"G2c>c A2G2 ||
+   "F"z>CD>C F>EG>F | "F"A2 A6 | "F"z>CD>C F>EG>F | "G7"A8 |
+  "G7"z>GA>G A>GA>G | "C7"c2 c4 G>A | "C7"c2c2 B2E2 | "F"F6 z2 |]
+
+
+X: 31
+T: (I FOUND A) MILLION-DOLLAR BABY
+C: Warren
+M: C
+L: 1/8
+K: G
+|: "G"z>DE>D G>FA>G | "G"B2 B6 | "G"z>DE>D G>FA>G | "A7"B8 |
+  "A7"z>AB>A B>AB>A | "D7"d2 d4 A>B |[1 "D7"d2d2 D2"D+"E2 | "G"B8 :|[2 "D7"d2d2 c2F2 | "G"G4 F>GA>^A ||
+  "B7"B4 c4 | "B7"z>B^A>B f2 ^d2 | "Em"B4- "B7"B4- | "Em"B4 E>FG>^G |
+  "A7"A4 B4 | "A7"z>A^G>A e2B2 | "Am7"A8- | "D7"A2d>d "A7"B2"D7"A2 ||
+   "G"z>DE>D G>FA>G | "G"B2 B6 | "G"z>DE>D G>FA>G | "A7"B8 |
+  "A7"z>AB>A B>AB>A | "D7"d2 d4 A>B | "D7"d2d2 c2F2 | "G"G6 z2 |]
+
+
+X: 32
+T: THREE LITTLE WORDS
+C: H.Ruby (1930)
+M: C|
+L: 1/4
+K: D
+|: "D"dA BF- | F4- | FA BA | "Fm6"=c c2 B | "A7"AF GE- | E4- | E2 A2 | "Bm6#"B2 "A7"c2 :|
+   "D7"dB =cA- | AB cd | "Am7"e4 | "D7"F4 | "G"BF GE- | EF "Em"GA  |"Edim"^A2 "B7"B2 | "Bb7"d2 "A7"c2 |
+   "D"dABF- F4- | FA BA | "Fm6"=c c2 B | "A7"AF G"Em"e- | "Gm6"e2 "A7"f2 | "D"d4- | d z3 |]
+
+
+X: 33
+T: UP A LAZY RIVER
+C: H.Carmichael
+M: C
+L: 1/8
+K: F
+|: "D7"D>^F A>_e d>c ^C>D | "D7"c2 "Db7"_c2 "C7"B3 "(D/F#)"A | "G7"=B,>D F>A G>F ^A,>=B, | "G"E2 "Ab"_E2 "G9"D4 |
+[1 "C7"E>d c>=B _B2 ^C>D | "C"A2 "Db7"_A2 "C7"G4 | "F"^G>A C>=B, "C7"_B,>=G "Bdim"D>E | "F"F2 A,C- C4 :|
+[2 "Bb"d>c B>A "Bdim"_A4 | "F"f>e "E7"d>_d "Eb6"c2- "D7"c2 | "G9"d>f d>A "C7"cA2C |
+"F"F>F "E7"E>F "D7"^F4 | "G9"d>f d>A "C7"cA2 C | "F Eb6 Eb F6"F6 z2 |]
+
+
+X: 34
+T: UP A LAZY RIVER
+C: H.Carmichael
+M: C
+L: 1/8
+K: G
+|: "E7"E>^G B>=f e>d ^D>E | "E7"d2 "Eb7"_d2 "D7"c3 "(E/G#)"B | "A7"^C>E G>B A>G =B,>=C | "A"F2 "Bb"=F2 "A9"E4 |
+[1 "D7"F>e d>_d c2 ^D>E | "D"B2 "Eb7"_B2 "D7"A4 | "G"^A>B D>_D "D7"C>=A "Cdim"E>F | "G"G2 B,D- D4 :|
+[2 "C"e>d c>B "Cdim"_B4 | "G"g>f "F#7"e>_e "F6"d2- "E7"d2 | "A9"e>g e>B "D7"dB2D |
+"G"G>G "F7"F>G "E7"^G4 | "A9"e>g e>B "D7"dB2 D | "G F6 F G6"G6 z2 |]

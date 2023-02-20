@@ -1,0 +1,26 @@
+X: 10701
+T: Allegretto
+C:
+Q: "Allegretto"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.70-71
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+!p!A2 |\
+{G}(F2E2F2G2) | (A3B) A2d2 | {d}(c2B2c2A2) | (d3e) f2d2 |\
+{d/}c2B2c2A2 | d4 z(def) | g2ga f2f2 | (b2bd') a2a2 |
+g2g2f2f2 | {f}(e^def) e2a2 | !f!{g}f2e2f2g2 | (a3b) a2d'2 |\
+{d'}(c'2b2c'2a2) | (d'3e') f'2d'2 | {d'}(c'2b2c'2a2) | d'4 z(def) |
+(g2ga) f2f2 | (b2bd') a2b2 | e2e2 {f}(edef) | d6 (cB) |\
+A6 (Bc) | d6 (cd) | (e2ef) g2a2 | f2d2d2 (cB) |
+A2A2A2 (Bc) | d2d2d2 (cd) | (e2ef) g2a2 | d4 z2!f!f2 |\
+!p!(e2d2c2B2) | (c3d) e2f2 | (e2d2c2B2) | A4 z2!p!A2 |
+{G}(F2E2F2G2) | (A3B) A2d2 | {d}c2B2c2A2 | (d3e) f2d2 |\
+{d}c2B2c2A2 | d4 z(def) | (g2ga) f2f2 | (b2bd') a2a2 |
+g2g2f2f2 | {f}(e^def) e2a2 | !f!{g}(f2e2f2g2) | (a3b) a2d'2 |\
+{d'}(c'2b2c'2a2) | (d'3e') f'2d'2 | {d'}(c'2b2c'2a2) | d'4 z(def) |
+(g2ga) f2f2 | (b2bd') a2b2 | e2e2 {f}(edef) | d4 z2 |]
+%
+%%center -

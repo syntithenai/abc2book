@@ -1,0 +1,40 @@
+X: 30832
+T: COTILLION No. 3. OPERA SETT tune 5
+T: Rory O'More
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.83 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+"^>"B3 "^>"B3 | Bdc BAG | FBc dcB | Acc c2z |\
+B3 B3 | Bdc BAG | FBc dcB | dBB B2 H|]
+d |\
+(dc)c cee | (ed)d dff | (fe)e egg | (gf)f fed |\
+"^>"B3 "^>"B3 | Bdc BAG | FBc dcB | cBB B2 |]
+g |\
+fBB dBB | fBB Bbg | fed dcB | Acc cde |\
+fBB cBB | fBB g2f/e/ | def fga | bBB B2 |]
+b |\
+bag gdd | (ed)c B2A | GAB Bcd dgf f2a |\
+bag gdd | edc B2A | GBc Bcd | dgf f2g |
+fBB cAB | fAB Bbg | fed dcB | ABd dde |\
+fBB cBB | fBB g2f/e/ | def fga | bBB "^D.C."B2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple promenade round,
+%% the other couples do the same in rotation,
+%% and form lines lengthwise the hall,
+%% 1st couple balance,
+%% chassa down ten steps,
+%% balance again and chassa down,
+%% other couples the same,
+%% till you have all balanced through, &c.
+%% come to places,
+%% all balance and swing to places.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

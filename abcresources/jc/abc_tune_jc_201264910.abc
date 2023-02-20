@@ -1,0 +1,16 @@
+X: 11
+T: Country Waltz (traditional arranged by Brian Wicklund)
+% %%staffsep .8cm
+M: 3/4
+L: 1/8
+K: D
+% %%vskip .5cm
+                                                          vFuE |\
+"D"vD2 F2 A2 |   A4    FE |      D2   F2 A2  |     f2 d2 (uef) |
+"G" gf e2 a2 |"D"f2 d2 cd |[1"E7"ef   ed cB  |"A7" AB AG      :|\
+                           [2"A7"e2 (uB2 c2) | "D"vd4          |]
+|:                                                        uA2   |\
+ "D"vfg fe dB |    AB AG FE |  D2   F2 A2  | (3(B=cB) vA2 uf2 "^I"|
+"Em" g3  f ed |"A7"c3  d cB |[1A2   c2 e2  |    b2     a2      :|\
+                             [2A2 (uB2 c2) |"D"[d4-F4-]  [d2F2] |]
+% %%stretchlast

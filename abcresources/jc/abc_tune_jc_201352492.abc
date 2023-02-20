@@ -1,0 +1,18 @@
+X: 912
+T: the Widow Cantwell's Fancy
+R: hornpipe
+%S: s:2 b:10(5+5)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #912
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0912/oneill-1001-0912-1.abc
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play (A1A2)x2 + (BA2)x2
+%m: ~n2 = o/4n/m/4n
+M: 2/4
+L: 1/16
+K: G
+%%slurgraces yes
+%%graceslurs yes
+"^A"[|](ge) | dBGG GBdB | (3ABG (3FGE DcBA |[1,3 GFGG GBdB | BAAA A2 :|[2,4 GBdg ecAF |
+| G2G2"^fine"G2 "^B":: (Bc) | dg~g2 dg~g2 | dg~g2 edcB | Aa{b}ag fedc | Bdef g"^->A2"f |]

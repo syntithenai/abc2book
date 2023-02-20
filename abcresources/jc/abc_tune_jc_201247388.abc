@@ -1,0 +1,27 @@
+X: 1
+T: Any thing
+T: Saturday Night
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #3 (15)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The tune is almost the same as for "Any Thing or Sunday Morning" in CCDTB, but the dance is different.
+N: Final repeat sign missing.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+G2A BGB | A3 c3 | Bcd ABc | A2D D2D |\
+G2A BGB | A3 c3 | Bcd Ad^c | d3- d3 :|
+|: d |\
+e2c cde | d2B Bcd | c2A ABc | B2D D2A |\
+B2B Bcd | A2A ABc | Bcd AGF | G3 G2 |]
+% - - - - - - - - - - Dance description: - - - - - - - - - -
+%%begintext align
+%% First Cu. hands across with the 2d half round back
+%% cross over two Cu and lead up the Middle foot at
+%% Top reverss [sic] and Cast off and right hand and left tell [sic]
+%% you come proper then cast off
+%%endtext
+%%sep 1 8 500

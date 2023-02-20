@@ -1,0 +1,86 @@
+
+X: 1
+T: Rapukestit   [Cm]
+T: Crayfish party
+C: Konsta Jylh\"a
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Cm
+"^A"|: "G7"G2 \
+| "Cm"c2 cd ed c=B \
+| dc GE C2 CD \
+| ED EG F2 ~E2 \
+| "G7"D6 DE \
+| "Fm"F2FG AGAB \
+| "Bb7"Bdd2 d3e \
+| fe dc B2 ~A2 \
+| "Eb"G6 "G7"G2 |
+| "Cm"c2 cd ed c=B \
+| dc GE C2 CD \
+| "C7"=E2 EF G2 B2 \
+| "Fm"A4 A4 \
+| "G7"de fe dc =BG \
+| "Cm"cd ed cG EC \
+| "Fm"FG AF "G7"G2 =B2 \
+| "Cm"c6 :|
+"^B"|: "Bb7"GA \
+| "Eb"B2 Be gf ec \
+| Bc BG E2 EG \
+| ~B2 GB ed d2 \
+| "Fm"A6 FG \
+| "Bb7"A2 Ac D2 FG \
+| AG Ac D2 FG \
+| AG Ac d2 ~c2 \
+| "Eb"G6 GA |
+| "Eb"B2 Be gf ec \
+| Bc BG E2 EG \
+| ~B2 GB ed f2 \
+| "Ab"c6 fg \
+| "Fm"ag fe "Bb7"d2 B2 \
+| "Eb"ba gf ecB2 \
+| "Fm"c=B ce "Bb7"d2 _B2 \
+| "Eb"e6 :|
+
+
+X: 1
+T: Rapukestit   [Dm]
+T: Crayfish party
+R: shottish
+C: Konsta Jylh\"a
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dm
+"^A"|: "A7"A2 \
+| "Dm"d2 de fe d^c | ed AF D2 DE | FE FA G2 ~F2 | "A7"E6 EF \
+| "Gm"G2GA BABc | "C7"cee2 e3f | gf ed c2 ~B2 | "F"A6 "A7"A2 |
+| "Dm"d2 de fe d^c | ed AF D2 DE | "D7"^F2 FG A2 c2 | "Gm"B4 B4 \
+| "A7"ef gf ed ^cA | "Dm"de fe dA FD | "Gm"GA BG "A7"A2 ^c2 | "Dm"d6 :|
+"^B"|: "C7"AB \
+| "F"c2 cf ag fd | cd cA F2 FA | ~c2 Ac fe e2 | "Gm"B6 GA \
+| "C7"B2 Bd E2 GA | BA Bd E2 GA | BA Bd e2 ~d2 | "F"A6 AB |
+| "F"c2 cf ag fd | cd cA F2 FA | ~c2 Ac fe g2 | "Bb"d6 ga \
+| "Gm"ba gf "C7"e2 c2 | "F"c'b ag fdc2 | "Gm"d^c df "C7"e2 =c2 | "F"f6 :|
+
+
+X: 1
+T: Rapukestit   [Em]
+T: Crayfish party
+R: shottish
+C: Konsta Jylh\"a
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Em
+"^A"|: "B7"B2 \
+| "Em"e2 ef gf e^d | fe BG E2 EF | GF GB A2 ~G2 | "B7"F6 FG \
+| "Am"A2AB cBcd | "D7"dff2 f3g | ag fe d2 ~c2 | "G"B6 "B7"B2 |
+| "Em"e2 ef gf e^d | fe BG E2 EF | "E7"^G2 GA B2 d2 | "Am"c4 c4 \
+| "B7"fg ag fe ^dB | "Em"ef gf eB GE | "Am"AB cA "B7"B2 ^d2 | "Em"e6 :|
+"^B"|: "D7"Bc \
+| "G"d2 dg ba ge | de dB G2 GB | ~d2 Bd gf f2 | "Am"c6 AB \
+| "D7"c2 ce F2 AB | cB ce F2 AB | cB ce f2 ~e2 | "G"B6 Bc |
+| "G"d2 dg ba ge | de dB G2 GB | ~d2 Bd gf a2 | "C"e6 ab \
+| "Am"c'b ag "D7"f2 d2 | "G"d'c' ba ged2 | "Am"e^d eg "D7"f2 =d2 | "G"g6 :|
+

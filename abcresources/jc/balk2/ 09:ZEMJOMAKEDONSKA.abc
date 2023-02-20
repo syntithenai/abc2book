@@ -1,0 +1,21 @@
+X:2009
+T: Zemjo Makedonska
+O: Macedonia
+F: http://www.youtube.com/watch?v=jbQFOG1qGPU
+F: http://www.youtube.com/watch?v=DSIypRdzQEM
+M: 2/4
+L: 1/8
+K: C clef=treble
+Q: 1/4=120
+%%MIDI program 20 Reed Organ
+%%MIDI bassprog 24 Acoustic Guitar
+%%MIDI chordprog 24 Acoustic Guitar
+%%MIDI gchord fc
+"F"GAAG   |GFFE       |"G"EDDC|"C"CDE2|\
+"F"GAAG   |GFFE       |"G"EDDC|"C"C4  |:
+"C"G,2C2  |"G"B,2"C"C2|"G"D4  |"C"C4  |\
+"G"D2"C"E2|"F"F2"C"E2 |E4-    |E4::
+"F"F3G    |A2A2       |"G"G4  |ED"C"C2|\
+"F"F3G    |A2A2       |"G"G4- |G4     |
+"C"E4     |"G"D4      |"C"C4- |C4     |\
+E4        |"G"D4      |"C"C4- |C4     |\

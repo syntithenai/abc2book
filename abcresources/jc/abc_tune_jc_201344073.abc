@@ -1,0 +1,25 @@
+X: 1
+T: The Strathspey
+T: Strathspey, The
+C: by B. MacIntosh.
+R: strathspey, air
+S: Fiddle Hell Online 2020-11-05 Se\'an Heel Slow Airs Workshop
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Bb
+% - - - - - - - - - -
+V: 1 staves=2
+FE |\
+D2(F2F2B2) E2G2-G2cB | A2c2f2e2 d2b2B2f2 |\
+D2F2-F2B2 E2G2-G2cB | (ABc2)E2e2 d2B2B2 ::\
+a2 |\
+b3BA3a g3GF3f | e2c2 (ed).c.B (A2c2ca3) |
+b3Ba3B g3Bf3B | (ABc2) (.F2.e2) d2B2B2a2 |\
+b3BA3a g3GF3f | e2c2 (ed)cB A2c2-c2BA |\
+G2B2F2B2 E2B2D2F2 | (EFG2) T.F2E2 D2B,2B,2 |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+B4d4 e4=e4 | f4a4 b4d4 | B4d4 e4=e4 | f4F4 B4B,2 :: z2 | g4f4 e4d4 | [a4A4][b4B4] f4F4 |
+d4f4 e4d4 | f4F4 B4d4 | g4f4 e4d4 | [a4A4][b4B4] F4f4 | [e4E4][d4D4] [c4C4][B4B,4] | c4F4 B4B,2 |]

@@ -1,0 +1,24 @@
+X: 1
+T: Drei lederne Strumpf
+O: Germany
+R: polka
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+P: (AB)x6+CC
+K: Bb
+"A"|:\
+"Bb"[f3d3][fd] [d2B2][B2F2] | "Eb"[g2e2]z2 z4 |\
+"F7"[e3c3][ec] [c2A2][A2F2] | "Bb"[f2d2]z2 z2F2 |\
+"Bb"B2d2 "F7"c2e2 | "Bb"d2g2 "Eb"f2e2 |\
+"Bb"d2B2 "F7"c2A2 | "Bb"B2z2 z2AB ||[K:=e][K:F]
+"B"||\
+"F"c2a2 "C7"B2g2 | "F"A2f2 fc AF |\
+"C7"E2d2 cB AG | "F"F2d2 c2AB |\
+"F"c2a2 "C7"B2g2 | "F"A2f2 fc AF |\
+"C7"E2d2 cB AG | "F"F2A2 F2z2 :|[K:C]
+"C"|:\
+"C"[EC][FD][G2E2] [G3E3][EC] | "F"[FD][GE][A2F2] [A3F3][cA] |\
+"G7"[B2G2][B2G2] [A2F2][A2F2] | "C"[GE][AF] [GE][FD] [E4C4] |\
+"C"[EC][FD][G2E2] [G3E3][EC] | "F"[FD][GE][A2F2] [A3F3][cA] |\
+"G7"[B2G2][B2G2] [A2F2][B2F2] | "C"[c2E2][c2E2] [c2E2]z2 :|

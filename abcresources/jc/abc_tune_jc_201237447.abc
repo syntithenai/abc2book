@@ -1,0 +1,17 @@
+X: 262
+T: The bonny Pit Laddie
+R: jig
+M: 6/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Abraham Mackintosh "A Collection of Strathspeys, Reels, Jigs &c.", Newcastle, after 1797, p.26
+F: http://imslp.info/files/imglnks/usimg/a/a8/IMSLP80796-PMLP164326-Abraham_Mackintosh_coll.pdf
+K: D
+V: 1
+   A | dfd cAc | dfd cAc | e3 c3 | dfd cAc | def gec | d3 D2 :|
+|: A | def g2e | f2d faf | e3 c3 | def gfe | faf gec | d3 D2 :|
+|: A | dcB AGF | GAB cAc | e3 c3 | dcB AGF | GAB cAc | d3 D2 :|
+V: 2 clef=bass middle=d
+   z | d2f a2A | d2f a2A | c2e a2A | d2f a2g | f2d a2A | d2A D2 :|
+|: z | fed c2e | d3  d3  | c2e a2g | fed c2e | d3  a2A | d3 D2 :|
+|: a | d'c'b agf | gab c'ac' | e'3 c'3 | d'c'b agf | gab c'ac' | d'3 d2 :|

@@ -1,0 +1,69 @@
+X: 15
+T: la Rose
+%R: reel, march
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #15
+N: The Mineur section has initial repeat but no final repeat.  The dance's pattern is 1-1-2-2-3-4-3.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+G3A B2D2 | E3F E4 | A2A>c BAGF | GFGA G2D2 |\
+G3A B2D2 | E3F E4 | A2Ac BAGF | G4 G,4 :|
+|:\
+cBcd c4 | BABc B2d2 | d2g2c2B2 | AGAB A4 |\
+G3A B2D2 | E3F E4 | A2Ac BAGF | g4 G,4 :| [K:Gm]
+|: "Mineur"\
+d6 e2 | {d}c6 d2 | {c}B2AB c2B2 | AG^FG AEDC |\
+B,2G2 C2A2 | D2c2 E2g2 | C2e2 dcBA | G8 |]
+[|\
+f6 g2 | {f}e6 f2 | dced fedc | BAcB AGFE |\
+D2B2 E2c2 | F2e2 G2b2 | E2g2 fedc | "_Da Capo"B8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+g4 G2G2 | c4 c2c2 | c4 d2D2 | G4 z4 | g4 G2G2 | c4 c2c2 |
+c4 d2D2 | G8 :|\
+|:\
+d4 D2D2 | g4 G2G2 | G2B2c2^c2 | d4 dcBA | G2g2 G4 |
+c4 c2c2 | c4 d2D2 | G4 z4 :|\
+[K:Gm]\
+|: "Mineur"z2g2b2g2 | z2a2^f2d2 | g4 ^f2g2 | d2d'2 c'4 |
+b4 c'4 | d'4 e'4 | c'4 d'2d2 | g4 G4 |]\
+[| z2b2d'2b2 | z2c'2a2f2 | b6 e2 |
+f4 z4 | d4 e4 | f4 g4 | e4 f2F2 | B2b2 "_Da Capo"d'c'ba |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Rose - - - 2/1
+%%begintext align
+%%   The first and third Couple Contretems forward
+%% and Rigaudon, then Contretems in turning and
+%% Rigaudon, while the other Chass\'e in their own
+%% Corners and back again - - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   The first Couple face the fourth and Moulinet
+%% four, while the third Couple do the same
+%% with the second - - - 1/1
+%%endtext
+%%begintext align
+%%   Each Gentleman with his Right hand turns
+%% the Lady on the Left under his Arm and 
+%% Rigaudon, then, with the Left hand, turns his
+%% Partner, and Rigaudon - - 1/2
+%%endtext
+%%begintext align
+%%   The fourth Couple face the first and Moulinet
+%% four, while the second Couple do the same
+%% with the third - - - 1/1
+%%endtext
+%%sep 1 1 400

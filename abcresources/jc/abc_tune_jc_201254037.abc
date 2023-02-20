@@ -1,0 +1,17 @@
+X:1
+T:Bob McQuillen's Reel
+R:Reel
+C:Aly Bain
+M:C|
+L:1/8
+%%printtempo 0
+Q:160
+K:G
+|:GA|\
+"G"B2Bc dcBA |GABG D2AB|"Am"cBcd edcB| "D" AF G/F/E D2GA|
+"G" B2 Bc dcBA| GABG DB,G,B,|"C"CDEC "D"DGFA|"G"G4 G2:|
+Bc|\
+"G"d2 B2 gagf |"Am"e2c2c2 AB|c2A2 abag|"D"f2d2d2 Bc|
+"G"d2 B2 gagf |"C"ec (3.c.c.c ecec |"G"dBGB "D"cAFA|"G"B2G2G2Bc|
+"G"dB (3.B.B.B gagf|"Am"e2c2c2AB|cA (3.A.A.A abag|"D"fgef d2 Bc|
+"G"dB (3.B.B.B gagf|"C"ec (3.c.c.c ecec|"G"dBGB "D"cAFA|"G"B2G2G2|]

@@ -1,0 +1,34 @@
+X: 10963
+T: COTILLION No. 14. tune 3
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.96 #3 (and p.97 #1)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain has only 7 bars. (If 8 bars wanted, copy bar 5 to just after bar 1.)
+N: There's no "D.C." at the end of the 2nd strain.
+N: There's a comma missing in "chassa  cross", but the space is double width.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(A/B/) |\
+c>cc cAd | cAF F>EF | GEC C>GA/B/ |\
+c>cc c>Ad | B>cB/A/ G>AB |c>AF E>DE | FFF F2 H|]
+E/G/ |\
+G>EC cEF | G>EC cGE | F>EF A>GF | FEE E>DE/F/ |\
+G>EC c>EF | G>EC c>GE | F>EF A>FD | DCC C2 |]
+(e/f/) |\
+g>ec =B>AB | c2e Gce | g>ec =BAB | cGe G>AB/c/ |\
+"dim..."AFc "dim..."GEc | "dim..."AFc GEc | G>AG F>ED CCC "^D.C."C2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% chassa de chassa
+%% cross back,
+%% balance partners and turn,
+%% next 2 forward, &c.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

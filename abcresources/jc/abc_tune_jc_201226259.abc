@@ -1,0 +1,20 @@
+X: 10181
+T: 1. THE GREAT EASTERN -- Strathspey
+T: Six Reels and Strathspeys composed by A. W. Doig
+C: A. W. Doig
+R: strathspey
+B: K\"ohler's Violin Repository, v.1, 1885 p.18 #1
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Spaces added to break long beams for readability.
+M: C
+L: 1/16
+K: A
+(ucd) |\
+e3f edcB A3B AE3 | (.F3.A) (d3c) dcBA Be3 |\
+cA3 (a3b) (a3e) cA3 | (3B2c2d2 (3f2e2d2 cA3 A2 :|
+(uef/g/) |\
+a2A2 dcBA (.a3.A) (.g3.A) | (.f3.A) (.a3.A) dcBA Be3 |\
+cA3 (a3b) (a3e) cA3 | (3B2c2d2 (3f2e2d2 cA3 A3e |
+(.a3.b) (a3g) (3f2g2a2 (3e2d2c2 | (3d2f2d2 (3c2a2c2 {c}B3A Ge3 |\
+cA3 (A3B) (A3F)Ee3 | (3f2g2a2 (3B2c2d2 "_Segue Reel"cA3 A2 |]

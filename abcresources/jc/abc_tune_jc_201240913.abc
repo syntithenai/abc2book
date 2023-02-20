@@ -1,0 +1,19 @@
+X: 4164
+T: Sir George Stewart of Grantley's    Strathspey
+%R: air, strathspey
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.16 #4 (and top 2 staffs of p.17)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Very Slow"
+K: F#m
+% - - - - - - - - - -
+V: 1 staves=2
+c>B |\
+A>FA>E TF2EF | A>B {AB}c>B AFE {d}c/B/ | AFAE TF2AB | (c<e) TB>c AFF :| c/e/ | fceB ~c>BAf | ecTB>c A>F Ec |
+fceB {d}c>BAf | ecBc AFFc/e/ || Tf>afc e>f (e/d/)c/B/ | A>B {AB}c>B AFEc/B/ | !p!AFAE F2AB | (c<e) TB>c AFF |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | f2c2 d2cB | A2a>g fd c^e | f2c2 d2cB | A2g^e f2F :| z | z3e agfd' | c'aga fd cz |
+f2g2 agfd' | c'ag^e f2Fz || F2f2 g2a>b | c'b ag fdc^e | !p!f2c2 d2cB | Aa g^e f2F |]

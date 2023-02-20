@@ -1,0 +1,26 @@
+X:1
+T:Within A Mile O' Edinburgh Toon
+M:C
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+{g}c3/2d/2[ | \
+{gef}e3/2c/2{g}B{d}c{g}A2{gcd}c{d}A | \
+{g}g/2a3/2e3/2c/2{gef}e2{g}A3/2B/2 |
+{GdG}ce{g}g/2a3/2{ef}e3/2c/2{gBd}B{G}A | \
+{gcd}c2{g}B2{GdGe}B2{g}c3/2d/2 | \
+{gef}e3/2c/2{g}B{d}c{g}A2{gcd}c{d}A |
+{g}g/2a3/2e3/2c/2{gef}e2{g}A3/2B/2 | \
+{GdG}ce{g}g/2a3/2{ef}e3/2c/2{g}B{d}c | \
+{g}A2{GAG}A3/2B/2{g}A2|]
+{g}e2[ | \
+{g}A3/2B/2{GdG}c3/2d/2{gef}ec{ag}a2 | \
+A3/2B/2{GdG}c3/2d/2{gef}ec{ag}a2 |
+A2{GdGe}A3/2f/2{gef}ec{gBd}B{G}A | \
+{gcd}c{e}A{gcd}ce{gfg}f2{gf}ga | \
+{gef}e3/2c/2{g}B{d}c{g}A2{gcd}c{d}A |
+{g}g/2a3/2e3/2c/2{gef}e2{g}A3/2B/2 | \
+{GdG}ce{g}g/2a3/2{ef}e3/2c/2{g}B{d}c | \
+{g}A2{GAG}A3/2B/2{g}A2|]

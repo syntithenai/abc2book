@@ -1,0 +1,32 @@
+X: 11
+T: Cotillon XI.     l' Indiscrette.
+%R: march, reel
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #11
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+E2 |\
+A2c2 B2d2 | c4 e4 | fedc dcBA | ^GAG^F E2E2 |\
+A2c2 B2d2 | c4 a4 | {a}g2fe gfed | c6 :|
+|: e2 |\
+e2A2 e2A2 | defe f2d2 | d2G2 d2G2 | cded e2e2 |\
+d2c2 B2A2 | ^G4 f4 | {f}e2dc edcB | A6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z2 |\
+a4 e4 | A4 c4 | d6 ^d2 | e4 E4 | a4 e4 | A4 f4 |
+e2f2 g2G2 | c6 :||: z2 | a4 ^c'4 | d'4 d4 | g4 b4 | c'4 c4 |
+d6 ^d2 | e4 =d4 | c2d2 e2E2 | A6 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round: first four turn the other four: change Places, L'Allemande, turn to
+%% the other four again, the other four do the same: Every Gentleman turn his Partner
+%% into her Place.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.

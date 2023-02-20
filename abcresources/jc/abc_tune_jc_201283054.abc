@@ -1,0 +1,35 @@
+
+X: 1
+T: da Greenland Mans Tune
+O: trad Shetland
+R: air
+S: printed page of unknown origin in Concord Slow Scottish Session collection
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slowly"
+K: A	% or maybe Emix
+(c |\
+d2)B (c2A) | BcB E3 | (F2G) (A2G) | FD2 D2(c |\
+d2)B (c2A) | BcB (E2F) | G2A BG2 | A3- A2 :|
+A |:\
+B2(B- B2c) | d2(d- d2B) | A2(A- A2F) | D2E FA2 |\
+B2(B- B2c) | d2(d- d2B) | A2F ED2 |1 E3- E2D :|2 E3- E2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: da Greenland Mans Tune
+O: trad Shetland
+R: air
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: PDF image from Lance Ramshaw 2017-6
+M: 4/4
+L: 1/16
+K: A
+c |\
+"Bm"d3B c3A "E"BcB2 E4 | "D"F3G A3G "Bm"FD3 D3c |\
+"Bm"d3B c3A "E"BcB2 E3F | "E"G3A BG3 "A"A4- A3 :|
+|: A |\
+"G"B3B- B2 zc "G/B"d3d- d2 zB | "D"A3A- A2 zF "D/F"D3E FA3 |\
+"G"B3B- B2 zc "G/B"d3d- d2 zB | "D"A3F FD3 "Em"E4- E3 :|

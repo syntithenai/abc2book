@@ -1,0 +1,38 @@
+X:1
+T: The Greeting
+N:
+C:
+S: Play  3  times
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 30 notes)
+K:Am
+M:4/4
+L:1/16
+e4 |c4 d2 e2 A4 a4 |^g4 a2 b2 e4 a2 =g2 |f4 g2 a2 d4 g2 f2 |e4 f2 g2 c4 f2 e2 |d4 e2 f2 B4 e2 d2 |
+%W:
+% voice 1 (1 lines, 19 notes)
+c4 d2 e2 A4 e4 |f4 B2 c2 B6 A2 |A12 e4 |c4 d2 e2 A4 a4 |^g12 e4 |
+%W: A2
+% voice 1 (1 lines, 29 notes)
+c4 d2 e2 A4 a4 |^g4 a2 b2 e4 a2 =g2 |f4 g2 a2 d4 g2 f2 |e4 f2 g2 c4 f2 e2 |d4 e2 f2 B4 e2 d2 |
+%W:
+% voice 1 (1 lines, 19 notes)
+c4 d2 e2 A4 e4 |f4 B2 c2 B6 A2 |A12 e4 |c4 d2 e2 A4 a4 |^g12 B4 |
+%W: B1
+% voice 1 (1 lines, 24 notes)
+^G4 A2 B2 E4 e4 |^c12 A4 |^F4 G2 A2 D4 d4 |B12 g4 |e4 f2 g2 c4 d2 e2 |A6 B2 c4 g4 |
+%W:
+% voice 1 (1 lines, 26 notes)
+a4 d2 e2 d6 c2 |c12 e4 |c4 d2 e2 A4 a4 |^g4 a2 b2 e4 a2 =g2 |f2 e2 d2 c2 B6 A2 |A12 B4 |
+%W: B2
+% voice 1 (1 lines, 24 notes)
+^G4 A2 B2 E4 e4 |^c12 A4 |^F4 G2 A2 D4 d4 |B12 g4 |e4 f2 g2 c4 d2 e2 |A6 B2 c4 g4 |
+%W:
+% voice 1 (1 lines, 25 notes)
+a4 d2 e2 d6 c2 |c12 e4 |c4 d2 e2 A4 a4 |^g4 a2 b2 e4 a2 =g2 |f2 e2 d2 c2 B6 A2 |A12 ||

@@ -1,0 +1,28 @@
+X:1
+% %topspace       0.50cm
+T: My Cape Breton Home
+I:
+C: W-34
+C: Jerry Holland \2511988
+Z:
+R: Waltz
+M: 3/4
+% slow air
+K: G
+g| "G"g3g fg| "D"a2 f2 d2| "C"c3c Bc| "G"d2 B2 G2| \
+      g3g fg| "D"a2 f2 d2| "Am7"c3c Bc| "D7"d3 f2 [gB]|
+   "G"[g3B3] g fg| "D"a2 f2 d2| "C"c3c Bc| "G"d2 B2 G2| \
+   "Am7"Ec3 cB| "D"A3G F2| "G"G6| G4-G:|
+\
+D| "G"D3G B2| "C"c3c Bc| "G"d3B G2| "Am"A2 G2 "D7"E2| \
+   "G"D3G B2| "C"c3c Bc| "G"dg3 gf| "D7"d2 c2 A2|
+   "G"D3G B2| "C"c3c Bc| "G"d3B G2| "Am"A2 G2 "D7"E2| \
+   "G"Dg3 fg| "Am7"d2 c2 "D7"A2| "G"G6| G4-G|]
+
+% %begintext ragged
+% %Originally written for Jerry's dad; a man who had a tender spot in his heart for an air played
+% %with expression.  It was Jerry's father who introduced Jerry to Cape Breton music.  The tune
+% %"My Cape Breton Home" was given its title to express the love they had for Cape Breton,
+% %its music, and its people.
+% %endtext
+%

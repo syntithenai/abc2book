@@ -1,0 +1,12 @@
+X:1
+T: Dunphy's Hornpipe
+M: C
+L: 1/8
+R: hornpipe
+K:G
+%%printtempo 0
+Q:120
+|: (3DEF | "G" GDBA GBdg | "C" fe{/f}ed "Am" ecAG | "D"F2 (DE) "D7" FGAc | "G" BGAF "D7" GF(ED)|
+| "G" GD(BA) GBdg | "C" fe{/f}ed "Am" ecAG | "D" FA(dB) "D7" cA(DF)|AG{/A}GF "G" G2:|
+|: (Bc) | "G" ~d2(Bd) gdBd | "D" ~g2 (af) "G" gdBd | ~g2 (fg) "Em" ed^cd | "Am" (3efe (d^c) "D" d2 (ef) |
+| "G" ~g2dc ~B2GB | "Am" ecAG "D" ~F2 "D7" D2 | "G" G(BdB) "Am" cA"D"DF|A(G{/A}GF) "G" G2:|

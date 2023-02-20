@@ -1,0 +1,25 @@
+X: 1
+T:An Mhaighdean Mhara
+M:C
+L:1/8
+Q:80
+C:
+S:Air
+K:HP
+|: {g}A4{Gdc}d4-d4|
+{g}e2f2{gf}g{a}f3-f4|
+{gfg}f3e{g}d4-d2ed|  !
+{gcd}c3B{G}A4-A4|
+{g}d3e{gfg}f4-f2((3gfe)|
+{g}f2g2{ag}a4-a4|  !
+{Gdc}d3e{gfg}f4-f2gf|
+{g}e2f2{gf}g4-g4:| |:
+{e}f3g{ag}a4-a4|  !
+g2{a}f2g{a}f3-f4|
+{gfg}f3e{Gdc}d4-d4|
+{gcd}c2B2{G}A4-A4|  !
+{GAG}A4{g}A4-A2B2|
+{g}c2d2{gef}e4-e2f2|
+{gf}g2fe{gfg}f4-f3{g}e|  !
+{Gdc}d2{e}d2-d4-d4:|
+

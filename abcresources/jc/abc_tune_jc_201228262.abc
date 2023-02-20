@@ -1,0 +1,43 @@
+X: 11151
+T: AIR
+C:
+%R: air
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.115
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=4
+!pp!G>B |\
+d4 (c>Be>d) | B4 (G>AB>c) | d4 (c>Be>d) | A4- A2 !p!(B>c) |\
+d4 (c>Be>d) | B4 (A>GB>A) | (G4 F3)F | G4- G2 :|
+|: !p!G2 |\
+g4 (f>gb>a) | f4 (e>fg>e) | d4 (c>Bd>c) | A4- A2 (b>c') |\
+d'4 (c'>be'>d') | b4 (a>gb>a) | (g4 f3)f | g4- g2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+!pp!z2 |\
+B4 (A>Gc>B) | G4 (B,>EG>A) | B4 (A>Gc>B) | F4 F2 !p!(G>A) |\
+B4 (A>Gc>B) | G2>>D2 B,2z2 | z2("^>"_B,2 A,)>_ED>C | B,4- B,2 :|
+|: !p!G2 |\
+e4 (^d>eg>f) | d4 (c>de>c) | B4 (A>GB>A) | F4 F2 (g>a) |\
+b4 (a>gc'>b) | g2>>d2 B2z2 | z2("^>"_B2 A)>_ed>c | B4- B2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3
+!pp!z2 |\
+zDDD Dzz2 | zDDD Dzz2 | zDDD Dzz2 | D4- D2z2 |\
+D4- Dzz2 | D4- Dzz2 | z2("_>"E2 F2)D2 | D4- D2 :|
+|: !p!z2 ||
+G8- | G8- | (G6 E2) | D4- D2z2 |\
+D4- Dzz2 | D4- Dzz2 | z2("_>"E2 E2D2) | D4- D2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 4 clef=bass middle=d
+!pp!z2 |\
+zggg gzz2 | zggg gzz2 | zggg gzc'2 | zd'd'd' d'>c'!p!b>a |\
+g>gb>d' gzz2 | z>gb>d' gzz2 | z2("^>"^c2 d4) | z>gd>B G2 H:|
+|: !p!z2 |\
+g8- | g8- | (g6 c2) | z>df>a d'>c'!mf!b>a |\
+g>GB>d gzz2 | z>GB>d gzz2 | z2("^>"^c2 d4) | z>gd>B G2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

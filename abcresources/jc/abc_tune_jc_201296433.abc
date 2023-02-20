@@ -1,0 +1,20 @@
+X:1
+T:Kevin Keegan's Waltz
+R:Waltz
+M:3/4
+L:1/4
+O:Ireland
+%%printtempo 0
+Q:160
+K:G
+D/|:\
+"G"B2B| "Am"cBc| "G"dg>B| "Bm"d2 d/c/| "Em"BAB| "Am"cAG| "D"F>AD| "D7" FF/A/D|
+"G"B2B| "Am"cBc| "G"dg>B| "Bm"d2 d/c/| "Em"B/G/ D/G/ B/G/| "D"A/F/ D/F/ A/F/ |1 "G"G2G| G2 z/D/:|2
+"C"G2G/G/| "G"G2z/d/|| "Em"g2g| "C"gfe| "G"dg>B| "Bm" d2 d/c/| "Em"BAB| "Am"cAG|
+"D" F>AD| "D7"F F/A/D| "Em"g2g| "C"gfe| "G"dg>B| "Bm" d2 d/c/| "Em"B/G/ D/G/ B/G/|
+"D"A/F/ D/F/ A/F/| "G"G3| GBd| "Em"g2g| "C"gfe| "G"dg>B| "Bm"d2 d/c/| "Em"BAB|
+"Am"cAG| "D"F>AD| "D7"F F/A/ D| "G"B2B| "Am"cBc| "G"dg>B| "Bm"d2d/c/| "Em"B/G/ D/G/ B/G/|
+"D" A/F/ D/F/ A/F/| "G"G3| "D"D/E/ F/G/ A/^A/|| "G"B2B| Bc^c| "Bm"d2d| def|"Em"g3|
+"Em"gfg |"Am" A3| Acd| "C"e3| edB| "G"G2 (G| G)FE| "D"D2 d/d/| dA^A|
+"G"BG,/A,/ B,/C/| "D"D/E/ F/G/ A/^A/| "G"B2B| Bc^c| "Bm"d2d| def| "Em"g3| gfg|
+"Am9"[c3b3]| "Am"[c3a3] | "A#dim7"[^A3g3]| "Bm"d2B| "G/B"(G3 | "Em"G)FE| "Am"D2c/c/| "D7"B2A| "G"G3|]

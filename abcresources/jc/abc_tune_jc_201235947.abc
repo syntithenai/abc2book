@@ -1,0 +1,31 @@
+X: 21492
+T: GRAND MILITARY SETT (tune 5)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.149 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+G2 |\
+e2fe d2ed | c4 G2c2 | d2d2 d2d2 | g4 ^f2=f2 |\
+e2fe d2ed | c4 G2c2 | d2d2 dcde | c4 z2 H|]
+ef |\
+g2g2 b4 | g2g2 c'3g | f2e2 f2d2 | edcB cdef |\
+g2g2 c'3g | g2g2 c'3g | f2e2 f2d2 cEFG ABc"^D.C."d |]
+c2 |:\
+d2d2 dced | cBcd cege :|\
+d2d2 dced | cBcd cdef | gefg agab | c'4 "^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All right and left across the hall,
+%% all balance and change sides again,
+%% all chain across the hall,
+%% all forward and back,
+%% swing partners to place.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

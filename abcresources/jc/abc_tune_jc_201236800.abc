@@ -1,0 +1,24 @@
+X: 2314
+T: DUMFRIES HOUSE
+C: J. Riddell
+R: Scotch Jig.
+%R: jig
+B: James Kerr "Merry Melodies" v.2 p.34 #314
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: G
+uD |\
+G3 uG2ug | dBG GAB | cGE    EFG | AFD DEF |\
+G3 uG2ug | dBG GAB | cEA {G}FEF | G3  G2 uD |\
+G3 uG2ug | dBG GAB | cGE    EFG |
+AFD DEF |\
+G3 uG2ug | dBG GAB | cEA {G}FEF | G3  G2 |]\
+B/c/ |\
+dBd dBd | gag gfe | dBd dcB | AFD D2 B/c/ |\
+dBd dBd | gag gfe |
+dcB AGF | G3  G2 B/c/ |\
+dBd dBd | gag gfe | dBd dcB | AFD D2 B/c/ |\
+dBd ece | fdf gfe | dcB Agf | g3  g2 |]

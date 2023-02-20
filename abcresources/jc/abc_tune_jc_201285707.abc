@@ -1,0 +1,39 @@
+X: 1
+T: det \"ar Hemlandstoner f\"or en H\"alsingegrabb
+C: musik: Kai Gullmai
+C: lyrics: Gus Morris
+R: foxtrot
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+%%continueall
+P: Verse
+A  | "F"c>dc>A "Bb"d3_d | "F"c>dc>A F2zc | "Bb"d>dd>e f>fe>d |
+%: ~
+w: Jag sit-ter p\aa en krug och m\aang-a tyc-ker nog att var-f\"or skall jag sit-ta pa en
+"C7"[c6E6] zA | "F"c>dc>A "Bb"d3_d | "F"c>dc>A F3A |
+%: ~
+w: krog. Jag \"ar tangt hem-i-fr\aan och v\"ar-men i n\aan man har
+"G7"G>A=B>c d>ef>d | "C7"[c6_B6E6] c>d | "F"[f2A2]c>A F2[f2A2] | "Bb"[e2B2][d2B2] [d3B3]d |
+%: ~
+w: gjort att jag moj l\"as-kar med si-fon. Bred-vid mej sl\aass tv\aa sj\"o-m\"an fr\aan Bor-deaux dom
+"C6"c>dc>B G3d | "F"c>dc>A F2A>_A | "G7"G2f2 d2G2 | "C7"[c6_B6E6] |]
+%: ~
+w: g\"or s\aa d\aa och d\aa men jag ser ba-ra p\aa och jag t\"an-ker lugut som s\aa:
+P: Refr\"ang
+c>B | "F"A2c2 FFGA | "Gm"B2dB G3F | "C7"E2[d2E2] [c2E2]cE | "F"F2[d2A2] [c2A2]c2 |
+%: ~
+w: Det \"ar hem-lands-to-ner f\"or en h\"al-sing-e-grabb i H\"al-sing-land. Jo i H\"al-sing-land d\"ar
+"F"A2cc FFGA | "Gm"B2d2 G3F | "C7"E2dd c2E2 | "F"F6 c>B |
+w: s\"at-ter man l\"ans-man p\aa sin h\"og-ra han', det g\"or man i H\"al-sing-land. Och med
+"F"A2c2 FFGA | "Gm"B2dB G3F | "C7"E2[d2E2] [c2E2]E2 | "F"F2[d2A2] [c2A2] cc |
+w: o-ro ut-i blo-det till-h\"or  jag dem som dels bo h\"ar och dels bo d\"ar men som
+"F"A2c2 FFGA | "Gm"B2d2 G4 | E2[d2E2] [c2E2]BE | "F"F4 zFGA |
+w: dock med ti-den \aa-ter-v\"an-der hem. Hem till tor-va och stran'. F\"or n\"ar man
+"Bb"[B2D2]Bc d2=ed | "A7"[d2G2][^cG]>c [c3G3]c | "D7"[d^F]>AA>A c2BA | "G7"A2Ge "C7"[c2_B2E2]c>B |
+w: lyss-nat til bru-set pa hamn-kro-gar-na, da l\"ang-tar man till su-set fr\aan stor-sko-gar-na. Det \"ar
+"F"A2c2 FFGA | "Gm"B2dB G3F | "C7"E2[d2E2] [c2E2]cE | "F"F2[d2A2] [c2A2]c2 |
+w: hem-lands-to-ner f\"or en h\"al-sing-e-grabb, i H\"al-sing-land. Ja i H\"al-sing-land d\"ar
+"F"A2cc FFGA | "Gm"B2d2 G3F | "C7"E2dd c2E2 | "F"F4 [f2c2A2F2]z2 |]
+w: s\"at-ter man l\"ans-man pa sin h\"og-ra han' det g\"or man i H\"al-sing-land.*

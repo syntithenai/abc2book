@@ -1,0 +1,41 @@
+X: 1
+T: Syd\"ameni laulu
+C: music: Jean Sibelius Op.18/6
+C: words: Aleksis Kivi
+R: air
+S: https://www.youtube.com/watch?v=gEwU6I4nL7Q
+S: http://kuorolaiset.jarvenpaankamarikuoro.fi/data/notes/Sydameni-laulu-SATB-2s.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/4
+Q: "Lento assai"
+K: C|
+% continueall 1
+%%barsperstaff 6
+[|\
+"C"GG GG H| "E/C"^GG GG H| "Am/C"AA AA | "Caug"Be ed |
+w: Tuo-nen leh-to, \"oi-nen leh-to, siell' on hie-no hie-ta-keh-to,
+"Am"(3cBA "E"(3^GAB | "Am"A2 Az | "n.c."cB AB | G^F EE |
+w: sin-ne-p\"a lap-se-ni saa-tan.  Siell' on lap-sen lys-ti ol-la,
+AG AF | E>D A,A, | "F"(3CCC (3CCD | "C"E2 E2 H|]
+w: Tuo-nen her-ran vai-ni-ol-la kai-tse-a Tuo-ne-lan kar-jaa.
+[|\
+"C"GG GG | "E/C"^GG GG H| "Am/C"AA AA | !rit.!"Caug"Be ed |
+w: Siell' on lap-sen lys-ti ol-la, il-lan tul-len tuu-di-tel-la
+"Am"(3cBA "E"(3^GAB | "Am"A2 Az | "n.c."cB AB | G^F EE |
+w: hel-mas-sa Tuo-ne-lan im-men.  On-pa kul-lan lys-ti ol-la,
+AG AF | E>D A,A, | "F"(3CCC (3CCD | "C"E2 E2 |]
+w: kul-ta-keh-doss' kel-lah-del-la, kuul-lel-la keh-r\"a\"a-j\"a-lin-tuu.
+[|\
+"C"GG GG H| "E/C"^GG GG H| "Am/C"AA AA |
+w: Tuo-nen vii-ta, rau-han vii-ta!  Kau-ka-na on
+"Caug"Be ed | "Am"(3cBA "E"(3^GAB | "Am"A2 Az |]
+w: vai-no, rii-ta, kau-ka-na ka-va-la maail-ma.
+%
+W: The Song of My Heart (Grove of Tuoni) (English translation by Alex Matson)
+W:
+W: Grove of Tuoni, grove of night!  There thy bed of sand is light.  Thither my baby I lead.
+W: Mirth and joy each long hour yields In the Prince of Tuoni's fields Tending the Tuonela cattle.
+W: Mirth and joy my babe will know, Lulled to sleep at evening glow By the pale Tuonela maiden.
+W: Surely joy hours will hold, Lying in thy cot of gold, Hearing the nightjar singing.
+W: Grove of Tuoni, grove of peace!  There all strife and passion cease.  Distant the treacherous world.

@@ -1,0 +1,23 @@
+X: 109
+T: la Suze
+%R: polka, march, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.52 #109
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 2/4
+L: 1/16
+%%slurgraces 1
+%%graceslurs 1
+K: D
+|:\
+G2B2 B2AG | A2c2 c2BA | B2d2 d2cB | A4 D4 |\
+G2B2 B2AG | A2c2 c2BA | B2d2 D2F2 | G4 G4 ::\
+G4 B2c2 | d4 d2ef |
+g2d2B2G2 | c4 TA4 |\
+G4 B2c2 | d4 d2ef | g2d2B2G2 | c4 TA4 |\
+g2(Td2c2B2) | g2(d2Tc2B2) | g2(d2Tc2B2) | c4 {B}A4 |\
+g2(d2c2B2) |
+g2(d2Tc2B2) | c2(A2TG2F2) | G4 G4 |\
+g2(d2Tc2B2) | g2(d2Tc2B2) | g2(d2Tc2B2) | c4 {B}A4 |\
+g2(d2Tc2B2) | g2(d2Tc2B2) | c2(A2TG2F2) | G4 G4 |]

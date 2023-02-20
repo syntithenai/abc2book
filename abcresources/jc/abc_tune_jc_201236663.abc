@@ -1,0 +1,23 @@
+X: 2291
+T: Willie Winkie's Testament.   a Strathspey.
+%R: strathspey
+B: Niel Gow & Sons "Complete Repository" v.2 p.29 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: The last V:1 note in the 2nd bar is fuzzy, and may be g or f.
+M: C|
+L: 1/16
+K: F
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 4-bar lines, for compactness and proofreading.
+V: 1 staves=2
+f2 |\
+c2F2 ABcA c2F2F2f2 | c2F2 ABcA G3DD2g2 |\
+c2F2 ABcA c2F2A2F2 | G2G2 TA3G F2D2D2 :|
+|: e2 |\
+Tf4 (agfe) f2F2F2c2 | Tf4 (fga2) g2G2G2e2 |\
+(fef2) (gfg2) (agf2) (gfe2) | (def2) Tc3A G2D2D2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+   z2 | f4f4 f4f4 | f4f4 d4d4 | f4f4 f4f4 | c4^c4 d4d2 :|
+|: z2 | f4f4 f4f4 | f4f4 g4g4 | f4g4 a4f4 | B4f4  d4d2 :|

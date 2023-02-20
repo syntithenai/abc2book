@@ -1,0 +1,31 @@
+X: 3112
+T: Nathaniel Gows Lament for the Death of his Brother
+C: by Nath:Gow.
+%R: air, waltz
+N: This is version 2, for ABC software that understands diminuendo symbols.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.11 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Pathetically Slow"
+K: Am
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 8-bar lines.
+V: 1 staves=2
+A/B/ |\
+{AB}c>BA ({^G}!p!eBd | c).A.A ~A2A/B/ | {AB}cBA (e^f)g | BG[GB,] T[G2B,2]A/B/ ||\
+{AB}cBA ({^G}eBd | c).e.a e2!f!d | Tc>BA EAT^G | A[AC][AC] [A2C2] :|
+e |!p!\
+a^ga e(=g/f/)e/d/ | c.A.A TA2A/B/ | {AB}cBA e^fg | BG[GB,] T[G2B,2]e ||\
+a^ga e=g/f/e/d/ | cAA Aed |!f! Tc>BA EA^G | A[AC][AC] [A2C2]e ||
+!p! a^ga e(=g/f/)e/d/ | c.A.A TA2A/B/ | {AB}cBA (e^fg) | BG[GB,] T[G2B,2]e ||\
+"_Expr.o"(ae).g (fd).B | (ec).A (B^G).E | ABc BQ(e/d/)c/B/ | cAAq A2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | a3 !p!e3 | aec A3 | a3 c2d | gdB G3 || a3 e3 | a3 A2!f!B |
+c2d e2E | a2a A2 :| z |!p! a3 e3 | aec A3 | A3 c2d | GBd g2z || a3 e3 |
+ aec A2B |!f!c2d e2E | Ace A3 ||!p! a3 e3 | aec A3 | A3 c2d |
+ GBd g3 ||"_Expr.o" a3 b3 | c'2a e'2e | a2A dQeE | aecq A2 |]

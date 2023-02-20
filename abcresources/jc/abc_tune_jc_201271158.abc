@@ -1,0 +1,44 @@
+X:1
+T:Duncan McGillivray, Chief Steward
+M:6/8
+L:1/8
+Q:80
+C:Jim McGillivray
+S:March
+K:HP
+|: A | \
+{Gdc}d2{gdG}d{g}A3/2d/2f | \
+{g}e3/2f/2{g}d{gef}e3/2c/2{d}A | \
+{g}f2{gf}ga3/2f/2{g}d |
+{g}f/2g3/2f{gef}e2A{Gdc}d2{gdG}d{g}A3/2d/2f | \
+{g}e3/2f/2{g}d{gef}e3/2c/2{d}A | \
+{a}f2{GdG}ga3/2f/2{g}d |
+{g}f/2g3/2{a}e{Gdc}d2 :: \
+A | \
+{GdG}e2{g}A{GdG}f2A | \
+{gf}g2{GdG}g{a}g3/2f/2{g}e |
+{g}f2{gf}ga3/2f/2{g}d | \
+{g}f/2g3/2f{gef}e2A{GdG}e2{g}A{GdG}f2A | \
+{gf}g2{GdG}g{a}g3/2f/2{g}e |
+{a}f2{GdG}ga3/2f/2{g}d | \
+{g}f/2g3/2{a}e{Gdc}d2 :: \
+A |
+{Gdc}d2{gdG}d{g}f3/2e/2{g}d | \
+{gef}e3/2A/2f{a}g3/2f/2{g}e | \
+{g}f2{gf}ga3/2g/2{g}d |
+{g}f/2g3/2f{gef}e2A{Gdc}d2{gdG}d{g}f3/2e/2{g}d | \
+{gef}e3/2A/2f{a}g3/2f/2{g}e | \
+{a}f2{GdG}ga3/2f/2{g}d |
+{g}f/2g3/2{a}e{Gdc}d2 :: \
+A | \
+{ag}a3{g}a3/2g/2{a}f | \
+{gf}g2{GdG}g{a}g3/2f/2{g}e |
+{g}f2{gf}ga3/2f/2{g}d | \
+{g}f/2g3/2f{gef}e2A|1 {ag}a3{g}a3/2g/2{a}f | \
+{gf}g2{GdG}g{a}g3/2f/2{g}e |
+{a}f2{GdG}ga3/2f/2{g}d | \
+{g}f/2g3/2{a}e{Gdc}d2:|2
+{Gdc}d3/2A/2f{g}d3/2e/2f |
+{gef}e3/2A/2f{a}g3/2f/2{g}e | \
+{a}f2{GdG}ga3/2f/2{g}d | \
+{g}f/2g3/2{a}e{Gdc}d2 :|

@@ -1,0 +1,22 @@
+X: 1
+T: Polska fr\aan H\aaln\"as   [G]
+N: Could it actually be from H\"alln\"as?
+T: Kalles Hambo
+T: Bondpolska fr\aan \"Overh\"arde
+C: Trad.
+R: polska, hambo
+S: http://www.nyckelharpa.org/archive/written-music/american-allspel-list/ 2022/9/29
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Compacted via repeats and multiple endings [JC]
+N: The original key was F.
+M: 3/4
+L: 1/8
+Q: 1/4=130
+K: G
+"^A"|: D |\
+"G"(G>B) d2 G>G | "D"(F>A) d4 |\
+[1,3 "D7"(F>A) d2 A>B | cd/c/ "G"(BA) G>D :|\
+[2,4 "D7"(F>A) (d>c) B>A | "G"(A<G) G3 :|
+"^B"|: z |\
+"C"(g>e) (c<g) f>e |"G" (d>g) B<e d2 | "D7"(D>F) (3(AFA) d>B |\
+[1,3 "G"(G>B) (3(dBd) g>g :|[2,4 "G"(B<G) G3 :|

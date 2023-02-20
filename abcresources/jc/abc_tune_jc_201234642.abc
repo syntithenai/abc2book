@@ -1,0 +1,22 @@
+X: 2067
+T: a Scotch Tune
+%R: _
+B: Henry Playford "Apollo's Banquet", London 1687 (5th Edition)
+F: https://archive.org/details/apollosbanquetco01rugg
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain has 8.5 measures; the 2nd has 7.5
+M: 3/2
+L: 1/8
+K: G
+% - - - - - - - - - -
+D2 |\
+G4A2 A3GA2 | (A2B2)(GE) E4D2 |\
+(G2B2)d2 e4(e/f/g) | a4(fg) f3ed2 |\
+g4(fg) e3dc2 | d2B2(B/c/d) e6 |\
+e4(B/c/d) B4(A/B/c) | A3GF2 G6 |
+B4 :: A2 |\
+F4G2 A3BA2 | (d2A2)B2 (A2F2)A2 |\
+G3FE2 g3(agf) | e4d2 d4g2 |\
+d2(B2c2) A3Bc2 | (G2E2)F2 G3AB2 |\
+c3BA2 A4E2 | HG4 |]
+% - - - - - - - - - -

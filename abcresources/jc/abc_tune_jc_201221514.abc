@@ -1,0 +1,32 @@
+X: 04
+T: La Buona Figuiliola __ Lady Jean Murray's Dance
+C: (from Piccini)
+R: reel, march
+M: 2/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: [c2E2]ec | .B.d.G.B | [c2E2]ec | BdGB | [c2E2]cG | c>ege | d>cBA | (3GGG G2 :|
+|: G>ceg | {f}f2ed | G>Bdf | {f}e2dc | .G.c.e.g | .A.c.f.a | {a}g>fed | (3ccc c2 :|
+|: E2{G}FE/F/ | G3c | GFED | {F}E2DC | E2{G}FE/F/ | G3c | .G.F.E.D | C4 :|
+|: e | f>a.d.f | .e.g.c.e | d>e (g/f/)(e/d/) | c>BAG | [f4A4] | e2c2 | (e>d).c.B | [c4E4G4] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: c2c2 | g2g2 | c2c2 | g2g2 | c2c2 | c2c2 | d2D2 | GGG2 :|
+|: e2c2 | g2G2 | B2G2 | c2C2 | e2e2 | f2f2 | g2G2 | cGc2 :|
+|: cccc | cccc | cccc | cccc | cccc | cccc | g2G2 | cGC2 :|
+|: z | g2b2 | c'2e2 | f2d2 | g2G2 | fgab | c'2ef | g2G2 | cGC2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First Cu: foot it with the 2d Lady & turn -- Ditto with the 2d Gen.t --
+%% Gallop down two Cu: & foot it -- go up one Cu: Allemande &
+%% turn round to the right -- foot it 6 in hand -- go the compleat round
+%% to the right -- foot it to your partner and turn with the right hand
+%% half round -- Ditto and turn with the left --
+%%endtext

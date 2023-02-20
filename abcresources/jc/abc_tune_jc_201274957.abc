@@ -1,0 +1,38 @@
+X:1
+T: Farmers' Dance
+N:
+C:
+S:square set
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 29 notes)
+K:D
+M:4/4
+L:1/16
+A4 |d4 A4 d4 e4 |f8 a4 g2 f2 |e4 d4 c4 d4 |e4 A4 e4 e4 |e6 d2 e4 f4 |e6 d2 e4 f4 |g8 f8 |e12 A4 |
+%W: A2
+% voice 1 (1 lines, 28 notes)
+d4 A4 d4 e4 |f8 a4 g2 f2 |e4 d4 c4 d4 |e4 A4 e4 e4 |e6 d2 e4 f4 |e6 d2 e4 f4 |g8 f8 |e12 f4 |
+%W: B1
+% voice 1 (1 lines, 23 notes)
+e4 d4 c4 B4 |A8 d4 c2 B2 |A4 B4 A4 G4 |F8 F2 E2 F2 G2 |A8 B8 |A8 d4 c2 B2 |
+%W:
+% voice 1 (1 lines, 22 notes)
+A4 B4 A4 G4 |F8 F2 E2 F2 G2 |A8 B8 |A8 d4 A4 |d4 A4 d4 e4 |f8 a4 g2 f2 |
+%W:
+% voice 1 (1 lines, 21 notes)
+e4 d4 c4 d4 |e4 A4 e4 e4 |e6 d2 e4 f4 |e4 d2 c2 d4 e4 |f8 e8 |d12 f4 |
+%W: B2
+% voice 1 (1 lines, 23 notes)
+e4 d4 c4 B4 |A8 d4 c2 B2 |A4 B4 A4 G4 |F8 F2 E2 F2 G2 |A8 B8 |A8 d4 c2 B2 |
+%W:
+% voice 1 (1 lines, 22 notes)
+A4 B4 A4 G4 |F8 F2 E2 F2 G2 |A8 B8 |A8 d4 A4 |d4 A4 d4 e4 |f8 a4 g2 f2 |
+%W:
+% voice 1 (1 lines, 20 notes)
+e4 d4 c4 d4 |e4 A4 e4 e4 |e6 d2 e4 f4 |e4 d2 c2 d4 e4 |f8 e8 |d12 ||

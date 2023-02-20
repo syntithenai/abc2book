@@ -1,0 +1,26 @@
+X:1
+T: Cupid's Bridge
+N:
+C:
+S:
+A:
+O:
+R:
+M:3/2
+K:D
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 41 notes)
+K:D
+M:3/2
+L:1/16
+A4 F4 |A4 |d8 |f8 |e4 d4 |e12 |A4 F4 |A4 d8 |f8 |e4 d4 |a12 |b4 a4 |g2 f2 g12 |b4 a4 |g2 f2 e12 |A4 F4 |A4 d4 |f4 a4 |f4 g2 |f2 e2 d2 |d12 |A4 F4 |A4
+%W: A2
+% voice 1 (1 lines, 38 notes)
+d8 |f8 |e4 d4 |e12 |A4 F4 |A4 d8 |f8 |e4 d4 |a12 |b4 a4 |g2 f2 g12 |b4 a4 |g2 f2 e12 |A4 F4 |A4 d4 |f4 a4 |f4 g2 |f2 e2 d2 |d12 |d'4 b4 |d'4
+%W: B1
+% voice 1 (1 lines, 40 notes)
+c'8 |b4 c'4 |b4 ^g4 |a12 |b4 g4 |b4 a4 |f4 d'4 |e4 f4 |d4 e12 |b4 B4 |d4 e8 |f8 |d4 e4 |c12 |A4 F4 |A4 d4 |f4 a4 |b2 a2 g2 |f2 e2 d2 |d12 |d'4 b4 |d'4
+%W: B2
+% voice 1 (1 lines, 37 notes)
+c'8 |b4 c'4 |b4 ^g4 |a12 |b4 g4 |b4 a4 |f4 d'4 |e4 f4 |d4 e12 |b4 B4 |d4 e8 |f8 |d4 e4 |c12 |A4 F4 |A4 d4 |f4 a4 |b2 a2 g2 |f2 e2 d2 |d12 |||

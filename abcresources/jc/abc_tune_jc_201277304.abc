@@ -1,0 +1,27 @@
+X:256
+T:Forres Country Dance
+N:For the dance "The Bees of Maggieknockater" by John Drewry
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=112
+M:6/8
+L:1/8
+K:G
+P:A
+|:B | "G"GDG BGB | "G"dBd gdB | "C"cac "G/B"BgB | "Am"aAA "D7"A2B |\
+"G"GDG BGB | "G"dBd gdB | "Am"c2A "D7"F2d | "G"BGG G2 :|
+P:B
+|: d | "Em"gbg "D"faf | "C"ege "G/B"d2B | "C"cac "G/B"BgB | "Am"cAA "D7"A2B |\
+"G"GDG BGB | "G"dBd gdB | "Am"c2A "D7"F2d | "G"BGG G2 :|
+N:Replace by blank line and X field
+T:The Athlone Jig
+C:Angus Fitchet
+Q:3/8=112
+M:6/8
+L:1/8
+K:D
+P:A
+|:A | "D"FGA "A7"ABc | "D"d2A F2A | "A7"A2G EFG | "D"B2A F2A |\
+"D"FGA "A7"ABc | "D"d2A F2D | "A7"CEG B2A | "D"D3 D2 :|
+P:B
+|: A | "D"f2d AFA | f2d AFA | "Em"gfe "E7/G#"dcB | "A7"AcB A2A |\
+"D"f2d AFA | f2d AFA | "Em"Bed "A7"cBc | "D"d3 d2 :|

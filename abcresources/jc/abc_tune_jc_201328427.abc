@@ -1,0 +1,28 @@
+X: 1
+T: Ranting Highland Man
+%R: reel
+P: Longways for as many as will
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.2
+S: 3: CCD3  http://javanese.imslp.info/files/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.8
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #17 (27)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: There's an extra beat at the end of each phrase.
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+   d2 | G/G/G dG BAGB | A/A/A =FA =fAAd | G/G/G dG BAGB | A/A/A (fe/f/) gG G2 :|
+|: ef | gd ec BcdB | A/A/A =FA =fA Ae/^f/ | gdec BcdB | A/A/A (Tfe/f/) gG G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z2 | g2b2 g2G2 | d'4 d4 | g2b2g2G2 | d2d2 G2g2 :|
+|: z2 | g2c'2 g2G2 | d'2d2 d3c | B2c2 g2G2 | d2d2 G2g2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man foots it and casts off, and turns the 3d Wo. and stands in the 2d Man's Place .|
+%% The 1st Wo. does the same with the 3d Man :|
+%% Foot it corners and turn :|
+%% Foot it the other Corners and turn :|:
+%%endtext

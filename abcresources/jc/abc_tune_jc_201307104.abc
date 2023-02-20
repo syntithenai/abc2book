@@ -1,0 +1,85 @@
+
+X: 1
+T: A is 4 Ada
+C: Marcia Landa 2018
+R: reel
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|:\
+"A"A2cA "Bm"BAcA | "C#m"BAFG "D"AFEF | "A"A2cA "Bm"BAce | "D"fecB "C#m"c2ce | "D"f2af "A"ecBc |
+"C#m"ecBc "D"AFEF | "A"A2cA "D"BAFG | A4 z2 [1 EF :|[2 AG | "F#m"F2Ac fafc | "C#m"ecBc eA2G |
+"F#m"F2Ac fafc | "E"E4 z2AG | "D"F2Ad fafd | "C#m"ecBA c2cB | "D"A2cA "Bm"BAFG | A4 z2 [1 AG :|2EF :|
+
+%%sep 1 1 500
+
+X: 1
+T: Ain't Life Grand
+C: Marcia Landa \2512018
+R: slip-jig
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Em
+P: Play twice
+|:\
+"Em"E2B A2B "Bm"d2B | "Em"E2B A2"D"B F3 | "C"E2B A2B "D"d2e |\
+[1 "D"def e2"Em"d B3 :|[2 "D"fed ^c2=c "Bm"B3 ||[K:=f]
+K: Am
+|: "Am"c3 cBA "G"B2E | "F"c3 cBA "E"B2z |\
+[1 "Am"c3 cBA "G"B2E | "F"EGA G2"E"D E3 :|\
+[2 "Am"A3 ABc "G"B2G | "F"cBA "G"B2G "Am"A3 |]
+P: Play once
+K: F#m
+|:\
+"F#m"F2c B2c "C#m"e2c | "F#m"F2c B2c "E"G3 | "D"F2c B2c "E"e2f |\
+[1 "E"efg f2e "F#m"c3 :|[2 "E"gfe ^d2=d "C#m"c3 ||[K:=f]
+K: Bm
+|: "Bm"d3 dcB "A"c2F | "G"d3 dcB "F#"c2z |\
+[1 "Bm"d3 dcB "A"c2F | "G"FAB A2"F#"E F3 :|\
+[2 "F#m"FAB "A"ABc "Bm"Bce | "F#m"fec "G"dcA "Bm"B"^choke"z2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Chasing Rabbits
+C: Marcia Landa
+R: jig
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: PDF in message from Marcia
+M: 6/8
+L: 1/8
+K: G
+"A"[|] EGA |\
+"G"BcB BcB | "D"A2d "Em"B3 |\
+"Am"ABA ABA | "Em"G2A B3 |\
+"G"BcB BcB | "D"A2d "Em"B3 |\
+"Am"ABA ABA | "B"B6 z3 |
+"G"BcB BcB | "D"A2d "Em"B3 |\
+"Am"ABA ABA | "Em"G2F E3 |\
+"Am"ABA cBA | "Em"G2A B3 |\
+"B"FGF FGF | "Em"E3 z2E "B"|:\
+"Am"[e3-c3-] [e2c2]E |
+"Em"[e3-B3-] [e2B2]E |\
+"Am"[ec][fc][ec] [ec][fc][ec] | "Em"[e3-B3-] [e3B3] |\
+"Am"ABA cBA | "Em"G2A B3 |\
+[1 "B"FGF FGF | B3 z3E :|\
+[2 "B"FGF BcB | "Em"e3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Dot and Clio's Jig
+C: Marcia Landa \2512018
+R: jig
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|:\
+"G"GBA "Bm"GBA | "Em"GBG "C"E2"D"F | "G"GBA "Bm"GBd | "C"ece "D"d2"B"^d |\
+"C"ege "G"dBG | "Am"ABG "C"E2"D"F | "G"GBd "C"ecB |1 "D"AGF "C"E2"D"F :|2 "D"AGF "G"G2d |
+|:\
+"C"ege "G"dBG | "D"AGA "Em"B2"D"d | "C"ege "G"dga | "Em"bgb "D"a2"Em"g |\
+"C"ege "G"dBG | "Am"ABG "C"E2"D"F | "G"GBd "C"edB |1 "D"AGF "G"G2d :|2 "D"AGF "G"G2D |]

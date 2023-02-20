@@ -1,0 +1,19 @@
+X: 3191
+T: the Duchess of Gordon.   a Strathspey.
+C: Daniel Dow
+%R: strathspey
+B: Niel Gow & Sons "Complete Repository" v.3 p.19 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: E
+% - - - - - - - - - -
+V: 1 staves=2
+c |\
+B<E TB>G BE E<e | B<ETB>G FAA>c | B<E B>e c>e TB>(c | B)>GBa g<ee :| g | e>B G<B EB e>c | B<E TB>G Ff-f>g |
+e>B G>B FB E>g | e<c TB>G B<e e>g || e>B G>B EB e>c | B>E TB>G Fa Tg>f | g<b f<g e>c BG | TB>c e>f gee |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+e2e2 e2e2 | e2e2 f2f2 | e2[e2g2] [e2a2][e2g2] | b2B2 e2e :| z | E2e2 e2e2 | e2e2 d2B2 |
+e2e2 d2e2 | A2B2 E2e2 || e2e2 e2a2 | g2e2 B2d2 | e2d2 c2G2 | B2[B2B,2] E2E |]

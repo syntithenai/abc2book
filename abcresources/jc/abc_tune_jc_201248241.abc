@@ -1,0 +1,21 @@
+X: 1
+T: Athole Brose  [D/Dm]
+T: Buckingham House
+C: Abraham Macintosh (1769-?)
+B: H&C p.113 (Am/A); Skye p.73 (D/Dm); Carlin #5 (D/Dm); Kerrs #2 p.17
+R: strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+N: Several books label this tune "Niel Gow's Favorite"; published versions vary greatly.
+M: 4/4
+L: 1/16
+K: D
+G2 \
+| "D"F3D ~D4 A,D3 D3E | F3D ~D4 "G"GAB2 "A7"A3G  \
+| "D"F3D ~D4 A,D3 D3=F | "C"(3E2F2G2 C3G c3G E2 :|
+K: Dm
+C2 \
+| "Dm"Dd3 d3c d3e d3c | Ad3 d3e f3d "A7"e3^c \
+| "Dm"~d4 d3c d3e d3A | "C"c3d ~c4 A3G E2 ||
+C2 \
+| "Dm"Dd3 d3c d3e d3c | Ad3 d3e f3d "A7"e3^c \
+| "Dm"dd3 f3d "C"e3c "Dm"d3A | "C"c3d c3G EC3 G2 |]

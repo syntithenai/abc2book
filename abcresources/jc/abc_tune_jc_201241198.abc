@@ -1,0 +1,33 @@
+X: 4290
+T: The Green Room
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat, and 20 bars.
+M: 2/4
+L: 1/8
+K: A
+%
+V: 1
+e/d/ |\
+cAAB | Tc2ce | dcBA | B/A/G/F/ Ee/d/ |\
+cAAB | Tc2ce | dcTB2 | A3 :|
+|: b/a/ |\
+geef | Tg2gb | agfe | f/e/^d/c/ Bb/a/ |\
+geef | Tg2gb | agTf2 | e3 g/a/ |
+bdTd2 | bdTd2 | bddd | cBAf/g/ |\
+acTc2 | acTc2 | acBA | GF Ee/d/ |\
+TcAAc | Tc2ce | dcTB2 | A3 |]
+%
+V: 2 clef=bass middle=d
+z |\
+A4 | A4 | d2f2 | e2g2 | a2z2 | A2c2 | d2e2 | A3 :|
+|: z |\
+e4 | e4 | a2c'2 | b2z^d | e4 | e4 | a2b2 | e4 |
+g4 | g4 | g2e2 | a2A2 | a4 | a4 | a2^d2 | e2g2 |
+a2z2 | A2c2 | d2e2 | A3 |]
+%%begintext align
+First and 2d Man foot it to their Partners and turn them to the Man's side |
+then foot it to their Partners and turn each into their Places |
+First Cu. cast off one Cu. and lead up, footing it to the Top, and cast off to the 2d
+Cu.s Place, then the 1st Cu. foot it to the 2d Cu. then to themselves and turn |
+%%endtext

@@ -1,0 +1,25 @@
+X: 4142
+T: Tak' your auld Cloak about ye
+%R: air, waltz
+B: Niel Gow & Sons "Complete Repository" v.4 p.14 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: "SLOW WITH EXPR.on"
+K: Bb	% and Gm
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+!f!F |\
+[BD]>[BD] [B3D3]d | c>B A3 c | BA G3 A | ^FG D3 A |\
+[BD]>[BD] [B3D3][dF] | c>B A3 c | BA TGA/B/ AG | ^FG D3 |] "_Dolce"A |
+B>F ~F3 E | D>F ~F3 E | DG ~G3 A | Bc Hd3 c |\
+[BD]>[BD] [B3D3]B | cd "_cresc..."Hf3 ^f | g>d e2 d>c | (c/B/)(A/G/) [G3D3B,3] |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+!f!z |\
+B2 b4 | ag f2 ^f2 | ga b2 c'^c' | d'2 d3 e |\
+B2 G2 b2 | ag f2 ^f2 | g2 e4 | d2 D3 |] "_Dolce"e |
+d2 [d2B2] [c2A2] | [d4B4] [c2A2] | B4 ^F2 | GA HB3 e |
+d2 B2 b2 | AB Hd2 z2 | z>=b c'2 e'2 | d'd [g3G3] |]

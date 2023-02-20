@@ -1,0 +1,40 @@
+X: 1
+T: Ten Pound Lass
+P: Longways for Eight thus.
+%R: march, reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.14 
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: Gdor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+AA d2 | ^F>G Ac | BG GA | Bc/B/ AG |][|\
+AA f>f | ef gf/e/ |
+dd ga | bc'/b/ ag |\
+ff f2 | ^F>G A>c | BG GA | Bc/B/ AG |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Back all a D. meet again .|
+%% Lead up forward and Back :|
+%%
+%%    Go all to the left and cross the Room, then change all places with
+%%    your own .| All that again, to your places :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Sides all ._ That again :|
+%%
+%%    First and last cu. meet, take hands and go round while the other
+%%    go back, the 2. cu. slip up and the 3. down, set and turn S.| All
+%%    this again, to your places.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Arms all .| That again :|
+%%
+%%    Meet all and change places, then hands all on each side, hands and
+%%    go half round .| All that again :|
+%%endtext
+%%sep 1 8 500

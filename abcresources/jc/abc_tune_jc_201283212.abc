@@ -1,0 +1,17 @@
+X: 1
+T: the Grinder's Hornpipe
+C: J Connachan
+R: hornpipe
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+(3GAB \
+| "C"c2GF ECEG | "F"AFAc "G7"BGBd | "C"cGce "Dm"fedc |"G7"Bdba gfed |
+| "C"c2GF ECEG | "F"AFAc "G7"BGBd | "C"cagf "G7"edcB | "C"c2e2 c2 :|
+|::: (3GAB \
+| "C"c2Gc edcB | "F"AFAc "Dm"fedc | "G"BGBd "G7"gfed |1,3 "C"cdcA "G7"G2 \
+                                                    :|2,4 "C"c2e2     c2 :|
+"G7"GF \
+| "C"E2EG  "F"F2FA | "C"G2e2    c3G  |"Dm"F2d2 "G7"B3F  | "C"Eedc "G7"BAGF \
+| "C"E2EG "Dm"F2FA |"Em"G2e2 "F"c2BA | "C"Gedc "G7"BGAB | "C"c2e2     c2 |]

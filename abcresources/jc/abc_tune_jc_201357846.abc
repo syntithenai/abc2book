@@ -1,0 +1,33 @@
+X:3940
+T:Arietta
+C:Franz Joseph Haydn
+O:Austria
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/haydn-franz-joseph/haydn-arietta/haydn-arietta-pno2.abc
+%L = accent
+V:1 Program 1 0 %Piano
+V:2 Program 1 0 bass %Piano
+m: Tn2 = n/o//n//o//n//o//n//
+M:3/4
+L:1/8
+Q:1/4=60 %(?? "Andante")
+K:A
+V:1
+"_p"e2|(e2a2c'2|b4)(d2|c2e2a2)|(a2g2)e2|(e2a2c'2|
+V:2
+ z2|(3A,CE (3A,CE (3A,CE|(3G,B,E (3G,B,E (3G,B,E|(3A,CE (3A,CE (3A,CE|(3E,B,E (3E,B,E (3E,B,E|(3A,CE (3A,CE (3A,CE|
+%
+V:1
+b4)(ge|a2c2TB2|A4)::"_p"a2|(a2e2c2)|(Lc2d2)f2|
+V:2
+(3G,B,E (3G,B,E (3G,B,E|(A,2E2E,2|.A,2).A,,2::z2|(3=G,CE (3G,CE (3G,CE|(3F,A,D (3F,A,D (3F,A,D|
+%
+V:1
+(b2f2^d2)|(^d2e2)e2|(e2b2d'2|c'4)(bg|a2c2TB2|A4):|
+V:2
+(3A,^DF (3A,DF (3A,DF|(3^G,B,E (3G,B,E (3G,B,E|(3G,B,E (3G,B,E (3G,B,E|(3A,CE (3A,CE (3A,CE|(C2E2E,2|.A,2).A,,2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

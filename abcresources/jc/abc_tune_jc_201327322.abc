@@ -1,0 +1,26 @@
+X:1
+T: The Queen's Square
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 28 notes)
+K:D
+M:4/4
+L:1/16
+A4 d8 g4 |f6 e2 d4 d4 |c6 B2 A4 G4 |f6 e2 d8 |A4 d8 g4 |f6 e2 d4 B2 c2 |d4 A4 F4 A4 |d8 d8 |
+%W: A2
+% voice 1 (1 lines, 28 notes)
+A4 d8 g4 |f6 e2 d4 d4 |c6 B2 A4 G4 |f6 e2 d8 |A4 d8 g4 |f6 e2 d4 B2 c2 |d4 A4 F4 A4 |d8 d8 |
+%W: B1
+% voice 1 (1 lines, 38 notes)
+d6 e2 f2 e2 f2 g2 |a4 d8 a4 |g2 a2 g2 f2 e2 f2 e2 d2 |c2 d2 c2 B2 A6 A2 |d6 e2 f2 e2 f2 g2 |a4 d8 a4 |g6 f2 e4 c4 |d8 d8 |
+%W: B2
+% voice 1 (1 lines, 38 notes)
+d6 e2 f2 e2 f2 g2 |a4 d8 a4 |g2 a2 g2 f2 e2 f2 e2 d2 |c2 d2 c2 B2 A6 A2 |d6 e2 f2 e2 f2 g2 |a4 d8 a4 |g6 f2 e4 c4 |d8 d8 ||

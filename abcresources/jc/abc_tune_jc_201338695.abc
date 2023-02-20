@@ -1,0 +1,25 @@
+X:1
+%%staffwidth     16.50cm
+T: Smoke on the Water
+I:
+C: S-S
+C: Zeke Clements
+M: C|
+Q: 1/2=100
+Z:
+R: square
+P: Intro
+K: G
+%%staffwidth     8.5cm
+B2d2 d2e2| d2B2 G2A2| B2G2 A2F2| G2z2|
+P:
+%%staffwidth     16.50cm
+D2E2| "G"G2G2 G2A2| G2E2 D2E2| "C"G2G2 G2E2| "G"G4 D2E2| \
+         G2G2 G2E2| G2G2 B2B2| "A7"A2G2 F2E2| "D7"D4 D2E2|
+      "G"G2G2 G2A2| G2E2 D2E2| "C"G2G2 G2E2| "G"G4 G2A2| \
+         B2d2 d2e2| d2B2 G2A2| "D7"B2G2 A2F2| "G"G4 D2E2|
+      "G"G2 G4 A2| G2E2 D2E2| "C"G2 G4 E2| "G"G4 D2E2| \
+         G2G2 G2E2| G2G2 B2B2| "A7"A2G2 F2E2| "D"D4 D2E2|
+      "G"G2z2 G2z2| G2E2 D2E2| "C"G2 G4 E2| "G"G4 G2A2| \
+         B2d2 d2e2| d2B2 G2A2| "D7"B2G2 A2F2| "G"G4 |]
+%

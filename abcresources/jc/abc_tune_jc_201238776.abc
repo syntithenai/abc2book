@@ -1,0 +1,29 @@
+X: 31302
+T: COTILLION No. 24. EXTRAVAGANT SETT tune 2
+C:
+%R: march
+N: This is version 2, for ABC software that understands voice overlays or tremolo notation.
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.130 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4	% There's no time signature in this tune.
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+[a2c2A2] [a2c2A2] | [a3c3] c' | bagf | e/f/d/e/ c2 |\
+a2 a2 | a3 c' | babg | faf H|]
+e & z |\
+g2bg & B2!trem1!c2 | fedc & B2!trem1!c2 | fgab & A2!trem1!c2 | c'2a2 & A2!trem1!c2 |\
+g2bg & B2!trem1!c2 | fedc & B2!trem1!c2 | efga & GABc | fa"^D.C."f & AcA |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% ladies chain,
+%% promenade 4.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

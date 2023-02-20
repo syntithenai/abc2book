@@ -1,0 +1,17 @@
+X: 1
+T: Bolen le\vzi mlad Stojan    [G]
+R: lesnoto
+O: Bulgaria
+Z: 2017 by John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 7/8
+L: 1/8
+K: G
+"^instr."\
+|: "D7"[ec][fd][fd] [fd][ec] "G"[d2B2] | "C"[dB][ec][ec] [ec][dB] "D7"[c2A2] \
+|1 "G"[cA][dB][dB] [dB][cA] [BG][cA] | [d7B7] \
+:|2 "D7"[cA][dB][dB] [cA][BG] [cA][dB] | "G"[cA]-[B2G2]- [B4G4]- | [B7G7] ||
+"^vocal"\
+|: "G"[GD][B2G2] [B2G2] [B2G2] | "D7"[c3A3] [cA][dB] [cA][BG] \
+| "G"[B7G7]- | [B7G7] :: "D7"[f3d3]- [f2d2] [g2e2] | [f2d2][ec] "G"[d4B4] |
+| "C"[e3c3]- [e2c2] [e2c2] | "G"[d2B2][cA] [B4G4] \
+| "D7"[c2A2][cA] [c2A2] [e2c2] | [d3B3] [cA][dB] [cA][BG] | "G"[B7G7]- | [B7G7] :|

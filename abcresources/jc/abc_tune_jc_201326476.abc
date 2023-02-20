@@ -1,0 +1,29 @@
+X: 1
+T: Prince of Wales's Birth Day
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #22 (12)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The last bar is missing an 8th note.  The c in bar 7 should probably be sharp.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+g4 f2e2 | d2G2G2A2 | (Bcd2) c2B2 | A6 B2 |\
+(cd e4) d2 | (fg a4) g2 | f2(ed) e2(dc) | d8 :|
+|:\
+a4 f2d2 | gab2-b2 a2 | g2fe f2e^d | e4 (efg2) |\
+d4 B2G2 | cde2 e4 | d2cB cBAG | FGAF D4 |
+EFGE FGAF | GABG ABcd | B2AG D2EF | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+%% First Cu. dance and Lead quite down the Middle and cast
+%% up again. to your Place .| then 1st Wo. and 2d Man do the
+%% same, and 1st Wo. cast off below the 2d Wo. :| 1st Cu.
+%% take Hands and go across quite round with the 3d Cu. then
+%% Lead up round the 2d Cu. into the 2d Cu. Place .| then
+%% Right and Left with the 2d Cu. and turn Partners :|
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,25 @@
+X: 1
+T:WHEN THE BATTLE'S O'ER
+M:3/4
+L:1/8
+Q:80
+C:On Repeat
+S:Seconds
+K:HP
+|: {g}c3/2B/2{g}A2{gfg}f2|
+{gde}dc{gef}e2{g}c2|
+{g}c3/2B/2{g}A2{g}c3/2e/2|  !
+{g}dc{Gdc}d4|
+{g}c3/2B/2{g}A2{gfg}f2|
+{gde}dc{gef}e2{g}c2|  !
+{g}c3/2B/2{g}A2{g}c3/2e/2|
+{g}d3/2e/2{g}c4:| |:
+{g}c3/2e/2{g}d2c2|  !
+{gfg}f3/2e/2{g}d2c2|
+{g}c3/2B/2{g}A2{g}c3/2e/2|
+{g}dc{Gdc}d4|  !
+{g}c3/2e/2{g}d2c2|
+{gfg}f3/2e/2{g}d2c2|
+{g}c3/2B/2{g}A2{g}c3/2e/2|  !
+{g}d3/2e/2{g}c4:|
+

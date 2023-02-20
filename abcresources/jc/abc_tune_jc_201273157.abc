@@ -1,0 +1,24 @@
+X:231
+T:The Entertainer
+C:Scott Joplin, 1902, arranged Colin Hume
+L:1/8
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=76
+%%MIDI chordname dim 0 3 6 9
+N:For the dance "The Heathfield Rag" by Colin Hume
+K:C
+%%textfont Times-Roman-Bold 20
+%%center Play  Intro,  Tune 1 with repeat, Tune 2 with repeat, Tune 1 with repeat.
+P:Intro
+[| d'e'c'a-abg2 | decA-ABG2 | DECA,-A,B,A,_A, | G,2 z2 [G,B,DG]2 ||
+P:Tune 1
+|: D^D | "C"Ec-cE "C7"c2Ec- | "F"c4- "C/E"ccd^d | "C"ecde- "G7"eBd2 | "C"c6 D^D |
+"C"Ec-cE "C7"c2Ec- | "F"c4- "C/E"c2AG | "D7"^FAce- "/"edcA | "G"d6 "G7"D^D |
+"C"Ec-cE "C7"c2Ec- | "F"c4- "C/E"ccd^d | "C"ecde- "G7"eBd2 | "C"c6 cd |
+"C"ecde- "C7"ecdc | "F"ecde- "Fm"ecdc | "C/G"ecde- "G7"eBd2 | "C"c6 :|
+P:Tune 2
+|: EF^F | "C"G2AG- "/"GEF^F | "C"G2AG- "C7"GECG, | "F"A,B,CD "Fm"EDCD | "C"G,4- "/"G,EF^F |
+"C"G2AG- "/"GEF^F | "C"G2AG- "/"GGA^A | "D7"BB-BB- "/"BA^FD | "G"G4-Gef^f |
+"C"g2ag- "/"gef^f | "C"g2ag- "C7"gecG | "F"ABcd "Fm"edcd | "C"c4- "C7"cG^FG |
+"F"c2Ac- "Cdim/F#"cAcA | "C/G"Gceg- "Am"gecG | "D7"A2 c2 "G7"ed-dc- | "C"c4 "/"z :|

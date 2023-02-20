@@ -1,0 +1,28 @@
+X:1
+T: The New Figary
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:C
+I:speed 210
+%W: A
+% voice 1 (1 lines, 57 notes)
+K:C
+M:4/4
+L:1/16
+G2 |c3 c d3 d e3 f g2 e2 |f2 e2 d3 c c6 G2 |c3 c d3 d e3 f g3 e |a2 g2 ^f3 g g6 G2 |c3 c d3 d e3 f g2 e2 |f2 e2 d3 c c6 G2 |c3 c d3 d e3 f g3 e |a2 g2 ^f3 g g6 z2 |
+%W: B
+% voice 1 (1 lines, 56 notes)
+g3 g a3 b c'4 b2 c'2 |a3 a b2 a2 ^g4 e2 f a |a2 a2 a2 g2 ^f4 d2 e f |g2 e2 d3 c c8 |g3 g a3 b c'4 b2 c'2 |a3 a b2 a2 _a4 e2 f a |a2 a2 a2 g2 ^f4 d2 e f |g2 e2 d3 c c8 ||
+%W: C       Slower
+% voice 1 (1 lines, 36 notes)
+M:6/8
+L:1/16
+e2 g2 e2 d3 c B2 c4 G2 c4 d2 e2 g2 e2 d3 c B2 c6 e6 |e2 g2 e2 d3 c B2 c4 G2 c4 d2 e2 g2 e2 d3 c B2 c6 e6 |
+%W: D
+% voice 1 (1 lines, 34 notes)
+e2 g2 e2 g6 e2 g2 e2 f6 a3 b c'2 g3 f e2 d4 c2 c6 |e2 g2 e2 g6 e2 g2 e2 f6 a3 b c'2 g3 f e2 d4 c2 c6 ||

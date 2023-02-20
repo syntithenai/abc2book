@@ -1,0 +1,17 @@
+X:11
+T:Norman Toy
+M:2/4
+Q:1/4=100
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+dA dA |df  f2|Bg Af|Ge Ec|dA dA|df f2|Ac eg|fd d2::
+FA d=c|=cB B2|Ac eg|fd d2|Ad fg|fd AF|Ge Ec|d2 d2:|
+%%titleleft
+P:2nd Fife
+dA dA|FA Ad|GB Fd|Bc GE|dA dA|FA Ad|eg ge|dF F2::
+DF DF|FG G2|AA ce|dF F2|AF AB|AF FD|G2 G2|D2 D2:|

@@ -1,0 +1,155 @@
+
+X: 0
+T: Draught 111 Standpiece
+%C: 100304
+K:
+
+
+X: 1
+T: Trenton
+P: piffero primo b0067
+O: Roy Watrous
+%R: reel
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/draft111F.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bm
+F2 |\
+TB3c dcde | fefg f2de | Tf3g fedc | BcdB c2F2 |\
+TB3c dcde | fefg f2ed | cafa eace | d2B2 B2 :: fg |
+afdf gecA | dcde f2dc | Bfcf dfcf | BcdB F2fg |\
+afdf gecA | dcde f2ed | cafa eace | d2B2 B2 :|
+
+
+X: 2
+T: Trenton Outro
+P: piffero primo a0181
+O: Greg Rice
+%R: reel
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/draft111F.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bm
+%%stretchstaff no
+%%stretchlast  no
+F2 | TB3c dcde | Tf4 zede | Tf4 zedc | B4 f4 | B4 z2 |]
+
+
+X: 3
+T: My Tocher's the Jewel
+P: piffero primo b0068
+O: safd
+%R: jig, march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/draft111F.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+E2 |\
+C<FF F2E | (F<A)B cfe | c<cc (A/B/c)B | (A<E)E E2E |\
+C<FF F2E | (F<A)B cfe | c<af e<cB | (A<F)F F2c |
+e>fe e<cA | B<ce f2f | ecA A<cB | A<EE E2E |\
+F<AE F<AE | FAB c<fe | c<af (e<c)B | (A<F)F F3 |\
+z3 z2 |]
+
+
+X: 4
+T: My Tocher's the Jewel  v.2
+P: piffero secondo 10816
+O: Dan Moylan
+%R: jig, march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/draft111F.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+C2 |\
+A,<DD D2C | D<FD Adc | A<AA F2E | F<CC C2C |\
+A,<DD D2C | D<FD Adc | A<cB c<AE | F2D D2E |
+c>Bc/A/ c<AF | D<EE A2A | ccd c<AE | F<CC C2C |\
+D<EC D<EC | D>EF/E A<dc | A<cB c<AE | F<DD D3 |\
+z3 z2 |]
+
+
+X: 5
+T: Kissed Yestere'en
+P: piffero primo b0069
+O: Fifer's Delight
+%R: jig
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/draft111F.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+E |\
+ABA ABd | e<gB A2c | BAB G/G/GG | BAB GAB |\
+cBc dcd | ede a2g | edc Bcd | e2A A2 :|
+|: ^g |\
+a^ga ABA | a^ga A2^f | g^fg G/G/GG | BAB GAB |\
+cBc dcd | ede a2g | edc Bcd | e2A A2 :|
+
+%%center (drum bridge, Barrack Hill, 4 bars)
+
+
+X: 6
+T: Barrack Hill
+P: piffero primo b0070
+O: Roche collection
+%R: jig, march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/draft111F.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Ador
+z |\
+e2A AAA | e2d B3 | e2A AAA | G2A B3 |\
+e2A AAA | e2d B3 | d2B g2B | A3  A2 :|
+|: z |\
+e2d efg | a2f gfe | d2B g2B | d2B d3 |\
+e2d efg | a2f gfe | d2B g2B | A3  A2 :|
+
+% %slurgraces 1
+% %graceslurs 1
+%%center (drum solo, before the reel drags 24 bars)
+
+
+X: 7
+T: Roxburgh Castle  v.1
+P: piffero primo b0072
+O: retrospective
+%R: reel, hornpipe
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/draft111F.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+A2 |\
+G2GB dBGB | c2ce dBGB | c2ec B2dB | A2A2 AcBA |\
+G2GB dBGB | c2ce dcBc | dgfe dcBA | G2G2 G2 :|
+|: d2 |\
+gdBd edBd | gdBd edBd | c2ec B2dB | A2A2 AcBA |\
+G2GB dBGB | c2ce dcBc | dgfe dcBA | G2G2 G2 :|
+
+
+X: 8
+T: Roxburgh Castle  v.2
+P: piffero secondo b0072
+O: John Benoit
+%R: reel, hornpipe
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/draft111F.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+DC |\
+B,2DG Bz2D | E2Gc Bz2=F | E2F2 GABG | F2G2 FEDC |\
+B,2DG Bz2D | E2Gc Bz2A | B2AG FEDC | B,2C2 B,2 :|
+|: A2 |\
+B2GB cz2A | B2GB cz2=F | E2F2 GABG | F2G2 FEDC |\
+B,2DG Bz2D | E2Gc Bz2A | B2AG FEDC | B,2C2 B,2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

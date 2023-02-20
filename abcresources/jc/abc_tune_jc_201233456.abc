@@ -1,0 +1,21 @@
+X: 19
+T: Blenheim House
+R: reel
+M: C|
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Andrew Shaw "Mr Kynaston's Famous Dance" p.19
+N: Longways duple minor
+P: Play AAB
+K: D
+%
+"A"[|]"A" FG |\
+"D"A4- "A"A3B | "Bm"AGFE D2d2 | "E"c2B2 c2d2 | "A"e4- e2f2 |\
+"G"g4 "D"f4 | "Em"gfed "A"cBAG | "D"F2A2 "A"E2c2 | "D"d6 :|
+"B"[|] cd |\
+"A"e4- "E"e3f | edcB "F#m"A2c2 | "Bm"d2c2 d2e2 | "F#"f2-f3 edc |\
+"Bm"B2f2 "F#"^A2c2 | "Bm"BdfB "F#"^A2f2 | "Em"gfed "F#"c3B | "Bm"B6 AG |
+"D"FGAB "A"A2d2 | "Bm"AGFE D2de | "E7"c2B2 c2d2 | "A"e6 fg |\
+"D"afaf d2A2 | "Bm"dAdA F2A2 | "Em"d3e "A"e3d | "D"d6 |]
+"B Bars 2-6"[|]y8 y8 edcB "A"A2c2 | "D"d2c2 "A"d2e2 |\
+"D"f4- fedc | "G"B2g2 "D"A2f2 | "G"BdgB "D"A2f2 y4 y8 y8 y8 y8

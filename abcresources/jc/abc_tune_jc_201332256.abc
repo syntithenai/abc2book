@@ -1,0 +1,20 @@
+X: 968
+T: Rub the bag
+T: cumuil an \'mala
+O: Ireland
+R: jig, long dance, set dance
+%S: s:3 b:22(7-7-8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #968
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0968/oneill-1001-0968-1.abc
+N: The book has the 2nd strain with an initial repeat but no final repeat; fixed by adding final repeat.
+N: This is a set-dance tune used for several dances; ask the caller how to do the repeats.
+P: Play AABA or AABABA
+#m: Mn = (3n/o/n/
+#m: ~n3 = n (3n/o/n/ (3m/n/-n/
+M: 6/8
+L: 1/8
+K: D
+"^A"|: d2d fed | cBA cec | BcB fdB | dcB fdB || d2d fed | cBA cec | ABA ecA |
+| (A/B/c)A [1 ecA :|[2 d2z "^B"|: ded def | efe efg | fgf f2^g | aba a2g | fgf fga | gfe efe ||
+"^A"| ~d3 fed | cBA cec | BcB fdB | (B/c/d)B fdB || ~dcd fed | cBA cec | ABA ecA | A/B/cA d2z :|

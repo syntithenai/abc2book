@@ -1,0 +1,31 @@
+X: 1
+T: Seidas F\"uata (G)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: none
+L: 1/8
+K: G
+|: D[FC] \
+|[M:2/4][L:1/8]\
+	"G"[G4B,4] | [B3G3][cA] \
+|[M:3/4][L:1/8]\
+	"D7"[B2D2] [A2F2] [A2D2] | "G"[G2B,2] [GC][FD] [GE][AF] \
+"I"\
+|[M:2/4][L:1/8]\
+	"G"[B4G4] | [d3B3][ec] \
+|[M:3/4][L:1/8]\
+	"D7"[d2F2] [c2A2] [c2F2] | "G"[B2G2] z2 :|
+|: [dB][cA] \
+|[M:3/4][L:1/8]\
+	"G"[B2G2] [d2B2] [B2G2] | "Am"[c2A2] [ec][dB] [cA][BG] \
+| "D7"[A2F2] [c2A2] [A2F2] | "G"[B2G2] [dB][cA] [BG][AF] \
+|[M:2/4][L:1/8]\
+	"G"G4 | [B3G3][cA] |
+|[M:3/4][L:1/8]\
+	"D7"[B2D2] [A2F2] [A2D2] | "G"[G2B,2] [GC][FD] [GE][AF] \
+|[M:2/4][L:1/8]\
+	"G"[B4G4] | [d3B3][ec] \
+|1[M:3/4][L:1/8]\
+	"D7"[d2F2] [c2A2] [c2F2] | "G"[B2G2] z2 \
+:|2[M:3/4][L:1/8]\
+	"D7"[d2F2] [e2c2] [f2c2] | "G"[g2B2] z2 |]

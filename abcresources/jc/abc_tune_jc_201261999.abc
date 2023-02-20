@@ -1,0 +1,19 @@
+X: 7
+T: Chorus Jig
+I: Chorus Jig	R-3	D/G	reel
+R: reel
+M: C|
+P: Play AAB CCB
+K: D
+AG "A"\
+| "D"F2DF ABAG | FADF A2d2 \
+| D3F ABAF | "A"GFEF G2 :| [K:G]
+Bc "B"\
+| "G"dBcA BGFG | "D"Ad^cd A2B=c \
+| "G"dBcA BGFG | "D"AcBA "G"G2Bc | 
+y3 \
+| "G"dBcA BGFG | "C6"ABcd efge \
+| "G"dBcA BGFG | "D"AcBA "G"G2 H|] [K:D] 
+|: ag "C"\
+| "D"fddd fddd | fdfg "A"abag \
+| "D"fddd fddd | "C"=cdef g2 :|

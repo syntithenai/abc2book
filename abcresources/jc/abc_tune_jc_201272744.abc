@@ -1,0 +1,30 @@
+
+X: 1
+T: Eli Ata
+O: Chassidic
+M: C
+L: 1/8
+K: Gm
+[| "Gm"D2 G2 G2 G2 | "D"^FG (AG) A4 | "D"D2 ^F2 F3 D | "D"D^F (AF) "Gm"G4 |
+w: E-li a-ta v'-o-de-*ka E-lo-hai a-ro-m'-me-*ka
+|  "Eb"G2 B2 B2 B2 | "Gm"Bc (dB) "Cm"c4 | "Gm"BA GB "D"AG (^FA) | "Gm"G6 z2 |]
+w: E-li a-ta v'-o-de-*ka E-lo-hai a-ro-m'-me-*ka
+[| "Gm"B2 d2 d2 d2 | "(Bb)"Bd (fd) "Cm"c4 | "D7"A2 c2 c3 A | "D7"Ac (ec) "Gm"B4 |
+w: E-li a-ta v'-o-de-*ka E-lo-hai a-ro-m'-me-*ka
+|  "Eb"G2 B2 B2 B2 | "Gm"Bc (dB) "Cm"c4 | "Gm"BA GB "D"AG (^FA) | "Gm"G6 z2 |]
+w: E-li a-ta v'-o-de-*ka E-lo-hai a-ro-m'-me-*ka
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2
+T: Eli Ata
+O: Chassidic
+P: When sung, don't repeat the phrases.
+M: C
+L: 1/8
+K: Am
+|: "Am"E2 A2 A2 A2 | "E"^GA BA B4 | "E"E2 ^G2 G3 E | "E"E^G BG "Am"A4 |
+|   "F"A2 c2 c2 c2 | "Am"cd ec "Dm"d4 | "Am"cB Ac "E"BA ^GB | "Am"A6 z2 :|
+|: "Am"c2 e2 e2 e2 | "(C)"ce ge "Dm"d4 | "E7"B2 d2 d3 B | "E7"Bd fd "Am"c4 |
+|   "F"A2 c2 c2 c2 | "Am"cd ec "Dm"d4 | "Am"cB Ac "E"BA ^GB | "Am"A6 z2 :|

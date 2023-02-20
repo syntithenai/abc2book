@@ -1,0 +1,302 @@
+X:121
+T:Wrecker's Daughter *? +
+C:
+B:American Veteran Fifer #121
+M:2/4
+L:1/16
+Q:1/8=240
+K:D
+aaa z aaa z|aaa z aaa z|E2A2 d2de|d2c2B2A2|bbb z bbb z|bbb z bbb z|B2d2 g2ga|g2f2e2d2|ccc z ccc z|ccc z ccc z|A2ce a4|A2ce a4|f2e2c2f2|.d3 z .d3 z|d6 z2:|e2e2f2e2|
+c2c2d2c2|B2B2f2e2|c3GABcd|e2e2f2e2|B2B2 f2e2|A2 z2a4:|F4 A2d2|F4 A2d2|G4 B2d2|F4 A2d2|E4 G2B2|A4 d2f2|e2^gg g2g2|a2 z2 a4|f4 A2d2|f4 A2d2|G4 B2d2| F4 A2d2|E4 G2B2|A4 d2f2|e2AA B2c2|d2 z2 d4:|
+%
+% Original first line had too many notes in several bars; durations were changed to match rhythm of another version
+% Original also contained bar-repeat signs not reproducable verbatim in abc notation.
+% Original notation was as follows:
+% bbb z bbb z|<bar_repeat>|E2A2 d4 de|d2c2B2A2|bbb z bbb z|<bar_repeat>|B2d2 g4 ga|g2f2e2d2|ccc z ccc z|<bar_repeat>|A2ce a4|<bar_repeat>|f2e2c2f2|.d3 z .d3|d6 z2:|e2e2f2e2|
+% c2c2d2c2|B2B2f2e2|c3GABcd|e2e2f2e2|B2B2 f2e2|A2 z2a4:|F4 A2d2|<bar_repeat>|G4 B2d2|F4 A2d2|E4 G2B2|A4 d2f2|e2^gg g2g2|a2 z2 a4|f4 A2d2|<bar_repeat>|G4 B2d2| F4 A2d2|E4 G2B2|A4 d2f2|e2AA B2c2|d2 z2 d4:|
+%Rhythm corrections were made based on sheet music foiund at %http://home.onemain.com/~tedwards3/guitar/wreckers.gif
+%
+%see also versions for piano at library of congress...
+%http://memory.loc.gov/cgi-bin/query/D?mussm:3:./temp/~ammem_JAuT::
+%http://memory.loc.gov/cgi-bin/query/D?mussm:1:./temp/~ammem_ejwR::@@@mdb=aasm,ftvbib,berl,lbcoll,tccc,cwband,coplandbib,musdibib,fine,dcm,flwpabib,afcreed,cowellbib,toddbib,lomaxbib,raelbib,hurston,gottlieb,scsm,omhbib,vv,mussm,dukesm,amss,varstg,awh,awhbib
+%http://memory.loc.gov/cgi-bin/query/D?mussm:2:./temp/~ammem_ejwR::@@@mdb=aasm,ftvbib,berl,lbcoll,tccc,cwband,coplandbib,musdibib,fine,dcm,flwpabib,afcreed,cowellbib,toddbib,lomaxbib,raelbib,hurston,gottlieb,scsm,omhbib,vv,mussm,dukesm,amss,varstg,awh,awhbib
+%http://memory.loc.gov/cgi-bin/ampage?collId=mussm&fileName=sm2/sm1838/011000/011110/mussm011110.db&recNum=0&itemLink=D?mussm:3:./temp/~ammem_ejwR::@@@mdb=aasm,ftvbib,berl,lbcoll,tccc,cwband,coplandbib,musdibib,fine,dcm,flwpabib,afcreed,cowellbib,toddbib,lomaxbib,raelbib,hurston,gottlieb,scsm,omhbib,vv,mussm,dukesm,amss,varstg,awh,awhbib&linkText=0
+%
+% other versions of the tune in abc were found as follows:
+%X: 29
+%T:Wrecker's Daughter Quickstep
+%Z:Jack Campin  *  May 2000  *  http://www.purr.demon.co.uk/jack/
+%M:2/4
+%L:1/16
+%F:http://www.purr.demon.co.uk/jack/Music/colonial.abc    2004-01-09 09:55:18 UT
+%K:D
+% aaaz   aaaz | aaaz   aaaz | F2A2   d2de | d2c2  B2A2 |\
+% bbbz   bbbz | bbbz   bbbz | b2d2   g2ga | g2f2  e2d2 |
+% cccz   cccz | cccz   cccz | A2ce   a4   | A2ce  a4   |\
+%(f2e2)  d2f2 |(e2d2)  c2e2 | dddz   dddz | d4    z4  :|
+%.e2.e2 (f2e2)|.c2.c2 (d2c2)|.B2.B2 (f2e2)| c3^G  ABcd |\
+%.e2.e2 (f2e2)|.c2.c2 (d2c2)|.B2.B2 (f2e2)| A2z2  a4  :|
+%(F4     A2d2)|(F4     A2d2)|(G4     B2d2)|(F4    A2d2)|\
+%(E4     G2B2)|(A4     d2f2)| e2^gg  g2g2 | a2z2  a4   |
+%(F4     A2d2)|(F4     A2d2)|(G4     B2d2)|(F4    A2d2)|\
+%(E4     G2B2)|(A4     d2f2)| e2AA   B2c2 | d4    z4  |]
+%
+%
+%X:129
+%T:Wrecker's Daughter Quickstep
+%Z:Jack Campin  *  May 2000  *  http://www.purr.demon.co.uk/jack/
+%M:2/4
+%L:1/16
+%Q:96
+%K:D
+%aaaz aaaz | aaaz aaaz | F2A2 d2de | d2c2 B2A2 | bbbz bbbz | bbbz bbbz |
+%b2d2 g2ga | g2f2 e2d2 | cccz cccz | cccz cccz  | A2ce a4 | A2ce a4 | (f2
+%e2) d2f2 | (e2d2) c2e2 | dddz dddz | d4 z4 :|: .e2.e2 (f2e2) | .c2.c2 (d
+%2c2) | .B2.B2 (f2e2) | c3^G ABcd | .e2.e2 (f2e2) | .c2.c2 (d2c2) | .B2.B
+%2 (f2e2) | A2z2 a4 :| (F4 A2d2) | (F4 A2d2) | (G4 B2d2) | (F4 A2d2) | (E
+%4 G2B2) | (A4 d2f2) | e2^gg g2g2 | a2z2 a4 | (F4 A2d2) | (F4 A2d2) | (G4
+% B2d2) | (F4 A2d2) | (E4 G2B2) | (A4 d2f2) | e2AA B2c2 | d4 z4 ||
+%
+% also, the tune is very similar to "Reilly's Daughter" if you take out some of the "rat-a-tat, rat-a-tat"s
+%X:1
+%T:Reilly's Daughter
+%M:4/4
+%L:1/4
+%F:http://sniff.numachi.com/~rickheit/dtrad/abc/REILLY2.abc       2004-01-09 10:07:03 UT
+%K:F
+% C C C C| F G A2| A/2A/2 A/2A/2 A A| B A G F| C/2C/2 C/2C/2 C C| F G A2|\
+% A A/2A/2 A A| B A G F| C/2C/2 C C2| F/2F/2 G A2| A A/2A/2 A A/2A/2|\
+% B A G F| C/2C/2 C C C| F G A2| B/2B/2 B A G| F3 z|W:sanitized version of lyrics to reilly's daughter, from http://www.contemplator.com/folk5/reilly.html
+W:As I was sitting by the fire,
+W:                                                      Talking to old Reilly's daughter
+W:                                                      Suddenly a thought came into my head:
+W:                                                      I'd like to marry old Reilly's daughter,
+W:
+W:                                                      Chorus
+W:                                                      Giddy I Ay, Giddy I Ay, Giddy I Ay
+W:                                                      For the one eyed Reilly,
+W:                                                      Giddy I Ay, (bang, bang, bang)
+W:                                                      Play it on your big brass drum.
+W:
+W:                                                      For Reilly played on the big brass drum
+W:                                                      Reilly had a mind for murder and slaughter,
+W:                                                      Reilly had a bright red gilttering eye,
+W:                                                      And he kept an eye on his lovely daughter.
+W:
+W:                                                      Chorus
+W:
+W:                                                      Her hair was black and her eyes were blue
+W:                                                      The colonel and the major and the captain sought her
+W:                                                      The sergeant and the private and the drummer boy, too
+W:                                                      But they never had a chance with O'Reilly's daughter.
+W:
+W:                                                      Chorus
+W:
+W:                                                      I got me a ring and a parson, too,
+W:                                                      I got me a 'scratch' in the married quarter
+W:                                                      Settled me down to a peaceful life,
+W:                                                      As happy as a king with O'Reilly's daughter.
+W:
+W:                                                      Chorus
+W:
+W:                                                      Suddenly a footstep on the stair,
+W:                                                      Who should it be but the one-eyed Reilly
+W:                                                      With two pistols in his hand
+W:                                                      Look for the man who married his daughter.
+W:
+W:                                                      Chorus
+W:
+W:                                                      I took O'Reilly by the hair,
+W:                                                      Rammed his head in a pail of water,
+W:                                                      Fired his pistols in the air,
+W:                                                      A darned sight quicker than I married his daughter.
+W:
+W:                                                      Chorus
+W:
+W:unsanitized version from
+W:                                                                    One-Eyed Riley
+W:
+W:                                   Sitting in O'Riley's bar one day
+W:                                   Drinking whiskey, passing water,
+W:                                   Suddenly a thought come to my mind,
+W:                                   I'd like to fuck O'Riley's daughter.
+W:
+W:                                   CHORUS:
+W:                                   Giddy-eye-eye, giddy-eye-oh
+W:                                   Giddy-eye-eye, for the one-eyed Riley,
+W:                                   Rough 'em up, stuff em up, balls and all,
+W:                                   Hey jig-a-jig-eye-oh.
+W:
+W:                                   Her hair was black, her eyes were blue,
+W:                                   The Colonel, the Major, and the Captain sought her,
+W:                                   The regimental goat and the drummer boy too,
+W:                                   But they never had a fuck with O'Riley's daughter.
+W:
+W:                                   Jack O'Flanagan is my name,
+W:                                   I'm the king of copulation,
+W:                                   Drinking beer my claim to fame,
+W:                                   Fucking women my occupation.
+W:
+W:                                   Walking through the town one day,
+W:                                   Who should I meet but O'Riley's daughter,
+W:                                   Never a word to her did say,
+W:                                   But "Don't you think we really 'oughter?"
+W:
+W:                                   Up the stairs and into bed,
+W:                                   There I cocked my left leg over,
+W:                                   Marianne was smiling then,
+W:                                   Smiling still when the fuck was over.
+W:
+W:                                   Fucked her till her tits were flat,
+W:                                   Filled her up with soapy water,
+W:                                   She won't get away with that,
+W:                                   If she doesn't have twins then she really 'oughter.
+W:
+W:                                   Suddenly footsteps on the stairs,
+W:                                   Old man Riley bent on slaughter,
+W:                                   Bloody great pistol in his hand,
+W:                                   Looking for the one who fucked his daughter.
+W:
+W:                                   He fired the pistol at my head,
+W:                                   Missed me by an inch and quarter,
+W:                                   Hit his daughter Marianne,
+W:                                   Right in the place where she passes water.
+W:
+W:                                   I grabbed O'Riley by the hair,
+W:                                   Shoved his head in a bucket of water,
+W:                                   Rammed his pistol up his ass,
+W:                                   A damn sight quicker than I fucked his daughter.
+W:
+W:                                   Old man Riley's dead and gone,
+W:                                   Shall we bury him? Not fucking likely,
+W:                                   We'll nail him to the shithouse door,
+W:                                   And there we'll bugger him twice nightly.
+W:
+W:                                   Come you virgins, maidens fair,
+W:                                   Answer me quick and true not slyly.
+W:                                   Do you want it straight and square,
+W:                                   Or the way I gave it to one eyed Riley?
+W:
+W:and why not one last version from  ???
+W:One-Ball Riley
+W:
+W:                                                        Traditional Irish
+W:
+W:                                                     As I was sittin by the fire
+W:                                                    Talking to O'Riley's daughter
+W:                                                Suddenly a thought came into my head:
+W:                                                  I'd like to shag O'Riley's daughter
+W:
+W:                                                CHORUS: Giddy aye ay, giddy aye ay,
+W:                                                 giddy aye ay for the one-ball Riley
+W:                                                Giddy aye ay: (three claps or stomps)
+W:                                                    try it on yer own big drum!
+W:
+W:                                              Her hair was black and her eyes were blue
+W:                                          The Colonel and the Major and the Captain sought her
+W:                                          The Sergeant and the Private and the Drummer boy too
+W:                                                All of 'em shagged O'Riley's daughter!
+W:
+W:                                                          CHORUS:
+W:
+W:                                                  Riley played on the big bass drum;
+W:                                               Riley had a mind for murder and slaughter
+W:                                                  Riley had a bright red glitterin eye
+W:                                              And he kept that eye on his lovely daughter
+W:
+W:                                                          CHORUS:
+W:
+W:                                                 While walking thru the park one day
+W:                                                Who should I spy but Riley's daughter?
+W:                                                    Never a word I had to say
+W:                                               But "Don't you think we really oughter?"
+W:
+W:                                                          CHORUS:
+W:
+W:                                                  Got me a bottle and a condom too,
+W:                                                  Got me hands on Riley's daughter
+W:                                                 Settled me down for a good old time
+W:                                                  Doin' things we shouldn't oughter
+W:
+W:                                                          CHORUS:
+W:
+W:                                                     Up the stairs and into bed
+W:                                                I shagged and shagged until I stove her
+W:                                                   Never a word that maiden said
+W:                                               Just laughed like hell till the fun was over!
+W:
+W:                                                          CHORUS:
+W:
+W:                                                  Suddenly a footstep on the stair
+W:                                              Who should it be but Riley out for slaughter
+W:                                                    With two pistols in his hands
+W:                                              Lookin for the man that shagged his daughter
+W:
+W:                                                          CHORUS:
+W:
+W:                                                   Grabbed Old Riley by the ball,
+W:                                                 Rammed his head in a pail of water
+W:                                                   Shoved them pistols up his ass
+W:                                            Adamn sight quicker than I shagged his daughter!
+W:
+W:                                                          CHORUS:
+W:
+W:                                                   As I go walkin' down the street
+W:                                                  People shout from every corner
+W:                                                   There's the randy sonofabitch
+W:                                               That finally shagged Old Riley's daughter!
+W:
+W:                                                          CHORUS:
+W:
+W:                                                  Now all you lasses, all you maids
+W:                                                Answer me now, and don't speak shyly
+W:                                                 Would you have it straight and true
+W:                                                Or the way I gave it to One-Ball Riley?
+W:
+W:                                                          CHORUS:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:
+W:

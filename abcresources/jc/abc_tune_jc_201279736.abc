@@ -1,0 +1,17 @@
+X:266
+T:Gasconne
+C:Monsieur Voisin, 1706
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%MIDI program 71     Clarinet
+%%MIDI chordprog 24   Acoustic Guitar (nylon)
+%%MIDI bassprog 32    Acoustic Bass
+Q:1/2=110
+K:D
+P:A
+|: d | "D"dA Af | "/"fd da | "D"ag/f/ "A7"gf/e/ | "D"f/e/f/g/ fd |\
+"D"dA Af | "/"fd da | "D"ag/f/ "A7"gf/e/ | "D"f3 :|
+P:B
+|: A | "D/F#"AG/F/ "G"BA/G/ | "A"cB/A/ "Bm"dc/B/ | "Em"eg/f/ g/f/e/d/ | "A7"e/d/e/f/ eA |\
+"D/F#"AG/F/ "G"BA/G/ | "A"cB/A/ "Bm"dc/B/ | "Em"gf "A7"e>d | "D"d3 :|

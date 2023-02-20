@@ -1,0 +1,21 @@
+X: 21513
+T: WHERE ARE YOU GOING SWEET ROBIN?
+%R: slip-jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.151 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+AFD EDE AFd | AFD EDE F2d |\
+AFD EDE AFd | AFD EDE D2 H|]
+A |\
+dcd edc BAF | dcd edc B2A |\
+dcd edc Bcd | AFD EDE "^D.C."F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The song, "The Humours of Glasgow Fair," is sung to the above air.
+%%endtext
+%%sep 1 1 300

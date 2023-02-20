@@ -1,0 +1,19 @@
+X: 10881
+T: NANCY DAWSON
+Q: "Slowish"
+%R: air, jig
+B: "Edinburgh Repository of Music" v.1 p.88 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 6/8
+L: 1/8
+K: D
+|:\
+d2d ~d2f | {f}a2f d2f | e2e ~e2f | {f}e2d cBA |\
+d2d ~d2f | "_sf"a2f d2f | fed cdB | A3 A3 :|
+|:\
+e2e ~e2f | {f}e2d cBA | a2a a2b | {b}a2g fed |\
+g2f g2a | b2c' d'2c'/b/ | bag fge | d3 d2f |
+e2e ~e2f | {f}e2d cBA | a2a ~a2b | bag fed |\
+g2f g2a | b2c' Hd'2c'/b/ | (abg) (fg).e | d3- d3 |]

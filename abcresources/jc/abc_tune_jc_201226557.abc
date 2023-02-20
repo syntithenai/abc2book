@@ -1,0 +1,39 @@
+X: 1032
+T: the Sylph
+%R: jig
+N: This is version 2, for ABC software that understands most ABC 2.* features.
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1810, No. 10 p.3 #2
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances5
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+A |\
+AFA dfa | (Qaqg).f e2g | fag Qfqed  | (ce).e e2A |\
+AFA dfa | (Qaqg).f e2g | fad egc | (Qeqd).d d2 :|
+|: "^8va . . ."A  |\
+FAd dcB | BAG F2D | (F/G/A).D (F/G/A).D | (QFqE).E EAG |\
+FAd dcB | BAG F2D | (F/G/A).D GEC | (QCqD).D D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+[a3f3d3] [a3f3d3] | [a3e3c3] [a3c3A3] | [a3d3] "^fz"[=g2B2]z | [a3-A3-] [a2A2]z |\
+[a3f3d3] [a3f3d3] | [a3e3c3] [a3c3A3] | [a3d3] [a3A3] | dfa d2 :|
+K:clef=treble
+|: z |\
+DFA DGB & D3 D3 | DFA DFA & D3 D3 | DFA DFA & D3 D3 | A,CE A2z & A,3- A,2x |\
+DFA DGB & D3 D3 | DFA DFA & D3 D3 | DFA A,EG & D3 A,3 | (GF).F F2 & D2D D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Lady turns the 2d Gent:
+%% the 1st Gent: turns the 2d Lady
+%% down the middle up again
+%% and right and left
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

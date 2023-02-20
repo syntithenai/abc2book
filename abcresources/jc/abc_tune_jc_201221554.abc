@@ -1,0 +1,22 @@
+X: 4
+T: Yorkshire Concert.
+%C: Mr. Gray
+%R: reel
+B: Mr. Gray "24 Country Dances for the Year 1805" p.2 #2
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The dance is identical to #3, The Mariners Compass is Grog.
+M: 2/4
+L: 1/16
+K: F
+|:\
+A3c (BG).G2 | AcFA (GE).C2 |\
+A3c (BF)(GB) | (Ac)(EG) F2F2 :|
+|:\
+G3B (BA).A2 | AcFA (GE).C |\
+G3B AcfA | .B(GFE) F2F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Twice down the mid: up again, hands 4
+%% round at bottom right & left at top.
+%%endtext

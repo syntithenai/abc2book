@@ -1,0 +1,37 @@
+X: 1
+T: J D Robinson of Brasstown
+C: David Kaynor
+S: http://www.natunelist.net/jd-robinson-of-brasstown/
+N: James D Robinson was the chief firefighter in Brasstown, NC. He died August 14, 2015,
+N: while fighting a fire. The medical report suggested a heart attack triggered by stress
+N: and overexertion.  David Kaynor wrote this (Swedish-style) tune in his memory.
+R: march
+L: 1/8
+M: C|
+K: G
+P: A
+V: 1 staves=2
+"D"DF [|\
+"G"G3D G2A2 | B4 d2Bc | d3e "D"d2c2 | "G"B6 AB |\
+"Am"c2A2 A3B | A2E2 E2AG | "D"F2ED "Am"E3D | "D"D6 "D"DF |
+"G"G3D G2A2 | B4 d2Bc | d3e "D"d2c2 | "G"B3G A2B2 |\
+"Am"c2A2 A3B | "D"A2D2 D2"Am"EC | "D"D3G FGAF | "G"G3G A2B2 |] 
+V: 2
+A,D [|\
+D3B, D2D2 | G4 B2G2 | B3c A2F2 | G6 DG |
+A2E2 E3E | E2C2 C2EE | D2CA, C3A, | [F6A,6] A,D |
+D3B, D2D2 | G4 B2G2 | B3c/B/ A2FD | G3D D2G2 |
+A2E2 E3E | F2A,2 A,2CA, | A,3D D2FD | [D3B,3]D E2G2 |]
+P: B
+V: 1
+[|\
+"C"c3G E2G2 | c4 e4 | "G"d3D G2A2 | "G"B6 AB |\
+"Am"c2A2 A3B | A2E2 E2 AG | "D"F2ED "Am"E3D | "D"D6 AB |
+"C"c3G E2G2 | c4 e3f | "G"g3e "D"d2c2 | "G"B6 AB |\
+"Am"c2A2 A3B | "D"A2D2 D2 "Am"EC | "D"D3G FGAF | "G"G6 |] 
+V: 2
+[|\
+G3E C2E2 | G4 c4 | B3B, D2D2 | G6 DG |
+A2E2 E3E | E2C2 C2EE | D2CA, C3A, | [F6A,6] FG |
+G3E C2E2 | G4 c3d | d3c A2FA | G6 DG |
+A2E2 E3E | F2A,2 A,2CA, | A,3D DEFD | [D6B,6] |]

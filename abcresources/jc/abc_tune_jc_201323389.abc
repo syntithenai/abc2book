@@ -1,0 +1,16 @@
+X: 803
+T: Peter Street
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #803
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0803/oneill-1001-0803-1.abc
+M: C|
+L: 1/8
+K: A
+"^A"[|\
+A2 (3(cBA) eA (3cBA | eAaA gAfA | eA (3(cBA) eAfA | BEcE dEBE ||\
+A2 (3(cBA) eA (3cBA | eAaA gAfA | efec eaec | BABc A2Hz2 |]
+"^B"[|\
+E2 (3(GFE) BE (3GFE | BEdE cEBE | A2 (3(cBA) eA (3(cBA) | eAaA gAfA ||\
+efec agaf | efec agaf | ecag fedc | BAGF EFG"_D.C."E |]

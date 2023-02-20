@@ -1,0 +1,29 @@
+X: 051
+T: MISS STEWART
+C: NIEL GOW
+R: Reel
+B: Glen Collection p.5 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: A
+%
+V: 1
+e |\
+A<AcA eAcA | =G<GBG dGBg | A<AcA eAcA | Eaef cAA :|
+B |\
+Aaga eaca | B=gdg BGGB | Aaga eaca | faef cAAB |
+Aaga eaca | B=gdg BGGB | A<AcA dBcA | Eaef cAA :|
+%
+V: 2
+z |\
+[a2A2][c'2a2e2] [c'2a2e2][c'2a2e2] | [=g2=G2][b2g2d2] [b2g2d2][b2g2d2] |\
+[a2A2][c'2a2e2] [c'2a2e2][c'2a2e2] | [c'2a2e2][d'2g2e2] A2[c'ae] :|
+z |\
+[a2A2][c'2a2e2] [c'2a2e2][c'2a2e2] | [=g2=G2][b2g2d2] [b2g2d2][b2g2d2] |\
+a2[c'2a2e2] c2[a2e2] | [a2f2d2][d'2g2e2] A2[c'2a2e2] |
+[a2A2][c'2a2e2] [c'2a2e2][c'2a2e2] | [=g2=G2][b2g2d2] [b2g2d2][b2g2d2] |\
+[a2A2][c'2a2e2] [b2g2e2][c'2a2e2] | [c'2a2e2][b2g2e2] [a2e2A2-] [aeA] |]

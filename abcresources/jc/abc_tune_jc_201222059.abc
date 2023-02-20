@@ -1,0 +1,26 @@
+X: 54
+T: Coulin
+%R: air, minuet
+B: "The Hibernian Muse" p.33 #1
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. LIV.
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+(de/f/) |\
+g2 g>b {b}a(g/e/) | g2 B2 GB/d/ | (g>f) (g/a/b) (ag) |(Tg2 f2) g>f |\
+e2 e>f {a}g(f/e/) | d2 B>dg>d | {f}e(d/c/) B2 TA2 | G4 :|
+|: d>c |\
+B>AG>AB>c | d>^cd>e (de/f/) | (g>f) (ga/b/) (ag) | Tg2 f2 g>f |\
+e2 e>f {a}g(f/e/) | d2 B>dg>d | {f}e(d/c/) BG TA2 | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+g2 G2 z2 | g2 G2 B2 | c2 c2 c2 | d2 D2 z2 |\
+c2 c2 c2 | B2 B2 B2 | c2 d2 D2 | G4 :|
+|: z2 |\
+g2 G2 g>a | b2 B2 z2 | c'2 c'2 c'2 | d'2 d2 z2 |\
+c'2 c2 c'2 | b2 g2 B2 | c2 d2 D2 | G4 :|

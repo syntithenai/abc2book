@@ -1,0 +1,31 @@
+
+X: 1
+T: the Mothers Of St Ann's  (D)
+M: 4/4
+L: 1/8
+R: strathspey
+F: http://www.thesession.org/tunes/display/6372
+K: D
+   de \
+| "D"f2a2 "A"a3g | "D"fA3 "D/f#"d3A | "G"B2d2 "Em7"G3A | "D"FAd2 "A"e2de |
+| "D"f2a2 "A"a3g | "D/f#"fA3 "Bm"d3A | "G"B2d2 "A"e3d | "D"d6 :|
+|: fg \
+| "D"a3g "D/f#"fd3 | "G"g3f "A"ec3 | "Bm"d3c "G"d2G2 | "D/f#"A2"G"d2 "A"e2fg |
+| "D"a3g "D/f#"fd3 | "G"g3f "A"eA3 | "G"B2d2 "A"e3d | "D"d6 :|
+
+
+%%sep 3 1 500
+
+X: 2
+T: the Mothers Of St Ann's  [G]
+M: 4/4
+L: 1/8
+R: strathspey
+F: http://www.thesession.org/tunes/display/6372
+K: G
+   GA \
+| "G"B2d2 "D"d3c | "G"BD3 "G/B"G3D | "C"E2G2 "Am7"C3D | "G"B,DG2 "D"A2GA |
+| "G"B2d2 "D"d3c | "G/B"BD3 "Em"G3D | "C"E2G2 "D"A3G | "G"G6 :|
+|: Bc \
+| "G"d3c "G/B"BG3 | "C"c3B "D"AF3 | "Em"G3F "C"G2C2 | "G/B"D2"C"G2 "D"A2Bc |
+| "G"d3c "G/B"BG3 | "C"c3B "D"AD3 | "C"E2G2 "D"A3G | "G"G6 :|

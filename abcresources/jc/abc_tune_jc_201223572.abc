@@ -1,0 +1,43 @@
+X: 73
+T: America with the Minuet
+T: Longways for as many as will.
+%R: march, reel
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.37
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "First Strain twice" instruction under the first strain.
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+"_First Strain twice"\
+d2D2 F2A2 | B2(AG) A2c2 |\
+(fe)(dc) (BA)(GF) | F6 :|\
+"_2d Strain once"c2 |\
+G2B2 A2d2 | A2(A/B/c) =B2AG |
+c3d e2dc | c6 e2 |\
+f2d2 e2^c2 | d2=B2 ^c2A2 |\
+d3e f2ed | d6 |]
+M:3/4	% The book has just "3"
+[|"_Minuet"\
+fed2f2 | e2a2A2 |\
+d2e2f2 | edefe2 |\
+fed2f2 | e2a2A2 |\
+d2e2^c2 | d6 |]
+agf2a2 | g2c'2c2 |\
+f2g2a2 | gfgag2 |\
+agf2a2 | g2c'2c2 |\
+f2g2e2 | "^D C"e4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%% center 2d Strain but once, and end with the 1st Strain of the Minuet.
+%%begintext align
+%% 1st Cu set & cast behind the 2d Cu. then sett & cast up again
+%% 1st Cu. cross over & figure thro' 2d Cu. & cast up in their
+%% own place. Then the 1st Man dance the Minuet step with
+%% the 2d Wo. & the 2d Man the same to the 1st Wo. the 1st
+%% & 2d Cu. take hands & dance round, then the 1st Man
+%% leads his Partner in the 2d Cu. Place.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

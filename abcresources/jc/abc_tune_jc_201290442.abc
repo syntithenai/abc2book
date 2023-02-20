@@ -1,0 +1,19 @@
+X: 1
+T: Inganess
+C: Hugh Inkster
+O: Orkney, Scotland
+%D:
+R: strathspey
+S: Fiddle Hell Online 2022-4-10 handout for Jennifer Wrigley's workshop
+N: The reel and strathspey versions were on the same handout page.
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+"^A"|:\
+A>G | F2DF A>DF>A | d>FA>d f3e | d>cd>A B>AG>F | G2E2 E2 |
+AG  | F2DF A>DF>A | d>FA>d f3e | d>cd>A B>AG>E | FD D :|
+"^B"\
+|: fg | a2fd A>df>d | e2cA d3F | G>FG>B A>Dd>A | F2E2 E2 |
+[1 fg | a2fd A>df>d | e2cA d3F | G>FG>B A>Dd>A | F2D2 D2 :|
+[2 AG | F2DF A>DF>A | d>FA>d f3e | d>cd>A B>AG>E | FD D :|

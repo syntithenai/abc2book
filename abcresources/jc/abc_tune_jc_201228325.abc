@@ -1,0 +1,32 @@
+X: 111
+T: MISS EDMONDSTONE OF NEWTON
+C: Wm SHEPHERD
+R: Strathspey
+B: Glen Collection p.11 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: D
+%
+V: 1
+F2 |\
+D3FA3F d3FA3F | A3d (gf).e.d c2e2e2f2 |\
+D3FA3F d3FA3F | E3g (fg).a.g f2d2d2 :|
+fg |\
+a3df3d a3d (ba).g.f | A3d (gf).e.d c2e2 e2fg |\
+a3df3d a3d A3F | G3B (AG)FE D2d2 d2fg |
+a3df3d a3d (ba).g.f | A3d (gf).e.d c2e2 e2fg |\
+a3fd3A B2cd A2F2 | G3B efge f2d2d2 |]
+%
+V: 2
+z2 |\
+d4[d'4a4] [d'4a4][d'4a4] | d4[f'4d'4a4] A4[e'4c'4a4] |\
+d4[d'4a4] [d'4a4][d'4a4] | [c'4a4][c'4a4] [d'4a4d4][d'2a2f2d2] :|
+z2 |\
+d4[f'4d'4a4] [f'4d'4a4][f'4d'4a4] | [f'4d'4a4][f'4d'4a4] [g'4e'4a4][e'4c'4a4] |\
+d4[d'4a4] [d'4f4][d'4a4] | A4[c'4a4g4] d4[d'4a4f4] |
+d4[f'4d'4a4] [f'4d'4a4][f'4d'4a4] | [f'4d'4a4][f'4d'4a4] [g'4e'4a4][e'4c'4a4] |\
+[d'4a4f4][d'4f4] [d'4g4][d'4f4] | e4[c'4a4] d4[d'2a2f2d2] |]

@@ -1,0 +1,43 @@
+X: 11121
+T: AIR.  FROM ROSINA
+C:
+%R: jig, air
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.112
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=4
+A |\
+(d2f) (e2f) | (d2e) (d2c) | (B2A) (B2c) | (d3 A2) A |\
+(d2f) (e2f) | (d2e) (d2c) | (B2A) (B2c) | d3- d2 |
+A |\
+F2G A2d | (B2c d2)G | F2A G2F | F3 E2 A |\
+(d2f) (e2f) | (d2e) (d2c) | (B2A) (B2c) | d3- d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+A |\
+(F2A) (E2A) | (F2G) (F2A) | (G2F) (G2E) | F3- F2 z |\
+(F2A) (G2A) | (F2G) (F2A) | (G2F) .G2G  | F3- F2 |
+z |\
+D2E F2F | G2G F2E | D2F E2D | (D3 C2) z |\
+(F2A) (G2A) | (F2G) (F2A) | (G2F) G2-G | F3- F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3
+z |\
+A,6- | A,6- | A,6- | A,3- A,2 z |\
+A,6- | A,6- | A,6- | A,3- A,2 |
+z |\
+d2d d2d | d2e A,2A, | A,2A, A,2A, | A,3- A,2 z |\
+A,2A, A,2A, | A,2A, A,2A, | A,2A, A,2A, | A,3- A,2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 6 clef=bass middle=d
+z |\
+d6- | d6- | d6- | d3- d2 z |\
+d6- | d6- | d6- | d3- d2  |
+z |\
+d3 d3 | d3 d3 | d3 c2d | a3- a2 z |\
+d3 d3 | d3 d3 | d3 d3  | d3- d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,23 @@
+X:496
+T:Mr Lane's Trumpet-Minuet
+C:John Young: Dancing Master c.1719
+N:There are two different tunes to this dance.
+L:1/8
+M:3/4
+%%MIDI beat 100 95 80
+%%MIDI gchord chihch
+%%MIDI program 57
+%%MIDI chordprog 50
+%%MIDI bassprog 46
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=115
+K:D
+P:A
+|: "D"DE F2 F2 | "Bm"de f2 d2 | "E7"fe d2 f2 | "A"ed cB "A7"A2 |\
+"D"DE F2 F2 | "Bm"de f2 d2 | "Em"fe de fg | "A7"e6 :|
+P:B
+|: "D"fg a2 "F#m"c2 | "G"B4 "A"AB/c/ | "Bm"dc de d2 | "A7"ed ef e2 | "D"fe de "Bm"fg | "A7"a6 |
+"D"AG AB "A7"AB | "D"A2 F2 A2 | "D"d2 AB "A7"AB | "D"A2 GF ED |\
+"Bm"f2 fg fg | "A"e2 dc BA | "Bm"d2 "A7"fe dc | "D"d6 :|
+P:C
+"Bm"f2 fg fg | "A"e2 dc BA | "Bm"d2 "Em"fe "A7"dc | "D"d6 |]

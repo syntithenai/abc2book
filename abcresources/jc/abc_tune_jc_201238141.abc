@@ -1,0 +1,26 @@
+X: 30291
+T: WALTZ BY BEETHOVEN
+C:
+%R: waltz
+N: Version 1 for ABC software that doesn't understand diminuendo/crescendo symbols.
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.29 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Should the last note be a c sharp? (It's definitely B sharp in the book.)
+M: 3/8
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!p!Bc |\
+d3ed2 | d2d2d2 | (db)(ba)(ag) | (gf)(fe)(ed) |\
+c3dc2 | c2c2c2 | (ca)(ag)(gf) | (fe)(ed)(dc) |\
+"^fz"B2 B4 | (Bc^cd^de) | A2 A4 | (AedcBA) |
+"^fz"B2 B4 | (Bc^cd^de) | A2 A4 | (AedcBA) |\
+.G2.A2.B2 | .c2.A2.d2 | "_cresc."G>GA>AB>B | c>cA>Ad>d |\
+G>GA>AB>B | c>cA>Ad>d | BgfgdB | "^FINE"G4 |]
+A2 |\
+"_dim."A3BA2 | (Afgfed) | (d2^c2c2) | ^c3Ace |\
+(gfed^cB) | A^GA^ABG | G2F2F2 | F4 A2 |\
+d4 ^d2 | (efga)b2 | d4 e2 | d3Bc"^D.C."^B |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,47 @@
+X: 1
+T: Still, Still, Still
+C:
+C:
+S:
+Q: 1/4=63
+M: 4/4 % time signature
+L: 1/4 % default length
+Z: Contributed 2008-11-08 02:00:27 by ming tsang tsang94@rogers.com
+K:
+%%staves tt
+%%measurenb 0
+%%measurebox 1
+V: ss clef=treble
+V: aa
+V: tt clef=bass
+V: bb
+K: Eb % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% Page 1 : 1
+[V:tt] z4 | z4 | z4 | z4 |
+w:
+[V:tt] ("5"B,2 "4"A,2) | ("3"G, "4"A, "3"G,>) z | ("1"E, "2"F, "3"G, "2"F,) | ("3"G, "2"F, "3"G,>) z |
+w:
+[V:tt] z4 | z4 | z4 | z4 |
+w:
+% Page 3 : 30
+[V:tt] ("5"B,2 "4"A,2) | "3"G,3- "3"G,/ z/ ("1"E,/"3"G,/) | "2"F, ("2"F,/"4"A,/) "7;."D, ("7;."D,/"2"F,/) | "1"E,4 |
+w:
+[V:tt] z4 | z4 | ("3"G, "4"A,) "5"B,2 | "3"G,3 "3"G, |
+w:
+[V:tt] "1"E, "2"F, "4"A, "4"A, | "4"A, "2"F, "3"G,2 | "4"A, ("4"A,/"5"B,/) "6"C "4"A, | "5"B, "5"B, "3"G, "3"G, |
+w:
+% Page 4 : 42
+[V:tt] "6"C "6"C "6"C "5"=B, "7"D | "6"C ("6"C/"5"B,/) "1"E "2"F | z4 |z4 |
+w:
+[V:tt] ("3"G,2 "4"A,2) | ("3"G, "4"A, "3"G,2) | ("1"E, "2"F, "3"G, "2"F,) | "1"E,4 |
+w:
+[V:tt] z4 | z2 z "1"E,/("3"G,/ | "2"F, "2"F,/"4"A,/ "7"D, "7"D,/"2"F,/ | "1"E,2) "4"A,2 | "3"G,4 ||
+w:
+% End
+

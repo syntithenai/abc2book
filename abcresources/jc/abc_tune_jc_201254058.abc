@@ -1,0 +1,29 @@
+X: 1
+T: Bob of Dunblane
+T: Rob of Dunblane
+N: The index has "Rob of Dunblane", but the title on the tune page looks like "Rob of Dunblane".
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (184)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: There's a double repeat sign between the strains, but no repeats at the beginning or end.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+D2A F2A | E2F GE=C | D2A TF2A | D2A TF2A |\
+G2B F2A | E2F GFE | dcB AFB | D2B AFD :|
+|:\
+d2a (f/g/a)f | e2f ge=c | d2a f/g/af | d2a (f/g/a)f |\
+gab fga | e2f gfe | dcB AFB | D2B AFD |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% First Man turn his Partner round and foot it clap hands
+%% twice and cast off in the 2d Cu. Place .| then do the same
+%% and cast off into the 3d Cu. Place :| lead thro' the 3d Cu.
+%% and turn single then lead thro' the 2d Cu. turn single
+%% and sett .| First Cu. take hands and slip one step down
+%% and one back again then cast off and turn :|
+%%endtext
+%%sep 1 8 500

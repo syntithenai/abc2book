@@ -1,0 +1,18 @@
+X: 1
+T: la Donna 'e Mobile    [F]
+C: Giuseppe Verdi
+R: waltz, mazurka
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+%%continueall 0
+[|\
+"F"A2 A2 A2 | "C7"cB G4 | G2 G2 G2 | "F"(BA) F4 |\
+A2 G2 F2 | "C7"(FE) E4 | G2 F2 D2 | "F"(DC) C4 |
+"F"A2 A2 A2 | "C7"cB G4 | G2 G2 G2 | "F"(BA) F4 |\
+A2 G2 F2 | "C7"(FE) E4 | G2 F2 D2 | "F"(DC) C4 |
+"G7"(GA) G2 G2 | "C"c2 G4 | "A7"(AB) A2 A2 | "Dm"d2 A4 |\
+"C7"(cd) c2 c2 | "F"d4 c2 | "C7"B2 A2 G2 | "F"F4 (Cc) |
+"C7"c4 (Cc) | "F"c4 (Cc) | "C7"B2 A2 G2 | F6 |\
+"C7"c6- | "F"c6- | "C7"c6- | "F"c4 ^c2 | "Gm"(ed) "C7"(cB) (AG) | "F"F2 F4 |]

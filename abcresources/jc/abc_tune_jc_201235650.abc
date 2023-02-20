@@ -1,0 +1,20 @@
+X: 21282
+T: MRS. RIGG -- Jig
+R: jig
+B: K\"ohler's Violin Repository, v.2, 1885 p.128 #2
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The first phrase's last note has an incorrect length.  (Fixed.)
+N: The second phrase has a final repeat but no initial repeat.  (Not fixed).
+M: 6/8
+L: 1/8
+K: Gm
+uD |\
+(.G2.G) (B/c/)dB | FAc fcA | (.G2.G) (B/c/)dB | GBd gdg |\
+faf dfd | cfd cAF | (.G2.G) (A/B/)cA | G3 G2 :|
+ud |\
+gag bag | fgf fga | gag bag | gdg gab |\
+gag bag | fcf fga | gdg a^fa | g3 (g2 ||
+d) |\
+gag bag | fgf fga | gag bag | f=e_e dcB |\
+fdf Bcd | c=ef cAF | GBc {^c}(.d2.D) | {^F}G3 G,2 :|

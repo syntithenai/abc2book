@@ -1,0 +1,37 @@
+X:176
+T: Martini's Favorite Minuet ("duett II")
+N: O'Farrell's Pocket Companion v.2 (Sky ed. p.88)
+M: 3/4
+L: 1/8
+R: waltz
+Q: 240
+V: 1 %%MIDI program 1 73 volume=70 % flute
+V: 2 %%MIDI program 1 40 % fiddle
+K: D
+%
+[V:1] d3f e2|e3g f2|d2 e2 fd|{f}g2 e2 z2|gfedcB| A4 Bc|
+[V:2] F3A c2|c3e d2|F2 c2 d2|   e2 c2 z2|edcBAG| F4 GE|
+%
+[V:1] da f2 e2|  {e}d6 :|
+[V:2] F2 D2 c2| [F6B6] :|
+%
+P:2
+[V:1] a2 abag|{f}g2 fdfa |{a}g2 g3f|fedcBA|d2 d/c/d/e/ f2|
+[V:2] f2 fgfe| d2   dadf |   e2 e3d|dcBAGF|F2 F/E/F/G/ A2|
+%
+[V:1] B2 B/A/B/c/ d2|ef ge fd|cdec A2|d3f e2|e3g f2|d2 e2 f2|
+[V:2] G2 G/F/G/A/ B2|cd ec dB|A2 z4  |F3A c2|c3e d2|F2 c2 d2|
+%
+[V:1] {f}g2 e2 z2|gf ed cB|A4 Bc|dA f2 e2|{e}d4 z2||
+[V:2]    e2 c2 z2|ed cB AG|F4 GE|F2 d2 c2| [F6d6] ||
+%
+P:3
+[V:1] FAdd d2|GBee e2|FA D3f |{f}e2 dcBA|FAd ddd|GBe eee|FA d2 c2|{c}d6 :|
+[V:2] DFFF F2|EGcc c2|DF F3d |{d}c2 BAGF|DFF FFF|EGc ccc|DF F2 E2|   F6 :|
+%
+P:4
+[V:1] A4 Bc| d4 fd| A4 GF| FE E4| A4 Bc| d4 fd|Aaa ggf|f2 e2 z2|
+[V:2] F4 GE| F4 dA| F4 ED| DA A4| F4 GE| F4 dA|Fff eed|d2 c2 z2|
+%
+[V:1] FAdd d2|GBee e2|FA D3f |{f}e2 dcBA|FAd ddd|GBe eee|FA d2 c2|{c}d6 ||
+[V:2] DFFF F2|EGcc c2|DF F3d |{d}c2 BAGF|DFF FFF|EGc ccc|DF F2 E2|   F6 ||

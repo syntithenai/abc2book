@@ -1,0 +1,63 @@
+%%text RJ Set 122 NEFFA 2015 Qu\'ebecois
+
+
+X: 1
+T: Louis Cyr
+C: Jean-Claude Mirandette
+M: C|
+L: 1/8
+R: reel
+K: G
+"^A"|:\
+"G"G,3B, D2B,D | EDEF G2"G/F#"GA |\
+"Em"BAGB "D"AGFD | "C" EDEF "D"EDB,D ||\
+"G"G,3B, DDB,D | EDEF G2"G/F#"GA |
+"Em"BAGB "Am/C"AGFD |\
+[1 "D"EDEF "G"GEDB, :|[2 "D"EDEF "G"G2GA \
+"^B"|:\
+"G"BAGB A2GA | BAGB A2"G#dim"AB | "Am"cBAc "G/B"B2AB |
+"C"cABG "D"A2 GA ||\
+"G"BAGB A2GA | BAGB AG"G/F#"FD |\
+"Em"E2 (3[eB][eB][eB] [e2B2] "B"(3[AF][AF][AF] |\
+[1 F2 E2 "Em"E2 GA :|[2 F2 E2 "Em"E2 DB, |]\
+%%text Transition: Don't play those last two eighth notes above.
+
+
+X: 2
+T: Le Printemps
+C: Andr\'e Brunet
+M: C|
+L: 1/8
+R: reel
+K: D
+"A"|:\
+"D"D2FD EDFA | "G"dfec "A"dBAF |\
+"D"(3DDD FA defd | "A"gece "D"fd d2 ||\
+"G"B3d "D/F#"ABAF | "A/E"GFEG "D"FD D2 |
+"D"dcdf "G"edcA |1 "A"Bcde "D"fd d2 :|\
+[2 "A"Bcde "D/A#"fd d2 "^B"|: "Bm"B3B- BcdB |\
+"A"AAEA CEA,E | "Bm"B2FB BcdB |
+"A"Bcec fcec || "Bm"BBFB BcdB |\
+"A"AAEA CEA,E | "G"B3d "D"ABAF |\
+"A/E"GFEG "D"FD D2 :|["Trans""A/E"GFEF"D"D2z2 |]
+
+
+X: 3
+T: Fleur de Mandragore
+C: Michel Bordeleau
+R: Reel
+L: 1/8
+M: C|
+K: A
+"^A"|:\
+"A"EGAE GABA | Aced cA2{A}A |\
+"F#m/C#"EGAE GABB- | BABd cA2{A}A ||\
+"D"EGAE GABA | Aced cA2{A}A |
+"E"EGAE GABB- |[1 BABd cAA2 :|[2 BABc Aceg "^B"|:\
+"A"a4 a2 ga | "Bm"bAaA (3gag ec |\
+"D"dfed cABc | "E"defg agfe ||
+"A"a4 a2 ga | "Bm"bAaA (3gag ec |\
+"D"dfed "A"cABc |\
+[1 "E"dcBc "A"Aceg :|[2 "E"dcBc "A"BA A2 |]\
+["Final""E"dcBc "A"Aceg | "A"a4 a2z2 |]
+

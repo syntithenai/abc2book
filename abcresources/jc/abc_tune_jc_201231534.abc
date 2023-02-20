@@ -1,0 +1,23 @@
+X: 153	% 41
+T: Show Me The Way To Go Home
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.15 #3
+R: reel, march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Bar 4 has extra notes; not fixed.
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="41"
+(3(DEF) |\
+.G2.A2.B2.c2 | d^cde (dB)G2 |\
+ge3 gd3 | ge3 gd3 (3(DEF) |\
+.G2.A2.B2.c2 | d^cde (dB)G2 |
+AB^cd e3g | fde^c d2 (3(DEF) |\
+.G2.A2.B2.c2 | d^cde (dB)G2 |\
+ge3 gd3 | ge3 gd2d |
+[gd][gd][ed]d [gd][gd][ed]d | [gd][gd][ed]d [g2d2]d2 |\
+gg3 gaga | g4- g2d2 ::\
+[gd][gd]ed [gd][gd]ed | [gd][gd]ed [g2d2]d2 |
+[gd][gd]ed [gd][g2d2][gd] | a3b aged |\
+[gd][gd]ed [gd][gd]ed | [gd][gd]ed "^^"[g2d2]d2 |\
+[gd][g3d3] gaga | g4- g2 :| 

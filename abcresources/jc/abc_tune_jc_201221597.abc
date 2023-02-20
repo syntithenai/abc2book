@@ -1,0 +1,25 @@
+X:1
+T: Teviot Brig (Teviot Bridge)
+B: RSCDS __-1
+D: Winston Scotty Fitzgerald on Celtic 17
+N: BSFC  VIII-21
+N: Gow's Repository 1817. Above air from Companion to the Reticule.
+N: Hunter  304
+N: OTDT  p.64
+N: Skye  p.176
+O: Gow's Repository 1817
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/abc/
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+f \
+| "A"ecA AcA | "D"F2A "A"E2A | "A"EFG "F#m"ABc | "Bm"d2c "E7"B2f \
+| "A"ecA AcA | "D"F2A "A"E2c | "D"d2f "A"ecA | "E7"B3 "A"A2 :|
+f \
+| "A"ecA Ace | "D"fdf fga | "A"ecA AGA | "E7"BGE E2c/d/ \
+| "A"ecA Ace | "D"fdf fga | "A"ecA "E7"BGE | "A"A3- A2 ||
+f \
+| "A"ecA Ace | "D"fdf fga | "A"ecA AGA | "E7"BGE E2c/d/ \
+| "A"ece "D"fdf | "E7"geg "F#m"agf | "Bm"edc "E7"BAG | "A"A3- A2 |]

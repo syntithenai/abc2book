@@ -1,0 +1,14 @@
+X: 1
+T: Gloomy Winter's Noo Awa'
+O: trad.
+S: printed copy of unknown origin in Concord Slow Scottish Session collection
+F: http://ramshaw.info/slowjamtunes/PDF/Tunes_G/Gloomy_Winters_Noo_Awa.pdf
+R: strathspey, air
+M: C
+L: 1/8
+K: Am
+"^A"\
+|: "Am"A<A A>B A>G E2 | "C"c<c c>e "G"d>c B2 | "Am"A<A e>A A>G E>C | "G"D<D E>G "Am"A2 A,2 :|
+"^B"\
+|| "F"C<C C>E D>C B,2 | C>B, A,>C "Em"B,<E E2 | "F"c<c c>e d>c B<d | c>A "G"B>G E<A A>B |
+| "F"c<c g>c B<c d2 | c>B A>c "Em"B<e E2 | E>G G/^F/E/D/ "Am"E<A B>d | "F"c>A "G"B>G "Am"E<A A2 |]

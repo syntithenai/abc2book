@@ -1,0 +1,183 @@
+X:930
+T:Minuet
+T:(Flute duet version)
+C:Ludwig van Beethoven
+O:Germany
+R:Minuet
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/beethoven-ludwig-van/be-min01-2fl/be-min01-2fl.abc
+%This is the version for two flutes. The other versions of the same
+%piece at Musica Viva are basically just transpositions and clef
+%variations so I have not bothered to make ABCs of each one.
+%The dynamics etc. in this ABC has been formatted to work with BarFly.
+%See below for an abc2ps version of the file.
+V:1 Program 1 73 %Flute
+V:2 Program 2 73 %Flute
+M:3/4
+L:1/4
+Q:138
+K:G
+V:1
+"mf".d|.b.c'.d'|(d'>bg)|.f.g.a|(a>fd)|"cresc."(g/f/g/a/b)|
+w: mf ************ cresc.
+V:2
+z|"sempre staccato"B/d/B/d/B/d/|B/d/B/d/B/d/|c/d/c/d/c/d/|c/d/c/d/c/d/|B z G|
+w: mf
+%
+V:1
+(b/a/b/c'/d')|"f"(d'e').^c'|(d'>"dim."^c'=c'/b/)|"mf".b.c'.d'|(d'>bg)|.g.a.b|
+w: ***** f ** dim. * mf
+V:2
+"cresc."(g/f/g/a/b/g/)|"f"(fg).a|d z z|z/ "mf"d/B/d/B/d/|B/d/B/d/B/d/|z/ B/G/B/G/B/|
+w: cresc. **** f ** mf
+%
+V:1
+(b>ge)|(f/e/f/g/a)|(g/f/g/a/b)|"dim."(ba).f|.e z :: "mf"(g|.=f).b.d'|
+w: *************dim. ** mf
+V:2
+G/B/G/B/G/B/|^d z (B/d/)|e z (B/g/)|(g"dim."f)^d|e z :: z|"mf"(d/G/)d/=f/g/f/|
+w: ************* dim. * mf
+%
+V:1
+(c'/b/c'/d'/e')|"dim.".d.^g.b|(a/^g/a/b/c')|"p"(f/g/f/e/f/d/)|(g/a/g/f/g/d/)|
+w: ***** dim. ****** p
+V:2
+ec z|"dim."(B/D/)B/d/e/d/|(c/B/A/G/F/E/|"p"D)dc|BGB|
+w: ** dim. ********** p
+%
+V:1
+"cresc."(a/b/a/^g/a/=g/)|(f/d/).e/.f/.g/.a/|"mf".b.c'.d'|(d'>bg)|.f.g.a|
+w: cresc. ********** mf
+V:2
+"cresc."cc^c|d z/ .d/.e/.f/|"mf".g/d/B/d/B/d/|B/d/B/d/B/d/|c/d/c/d/c/d/|
+w: cresc. ***** mf
+%
+V:1
+(a>fd)|(g/f/g/a/b)|"cresc."(b/a/b/c'/d')|"f"(d'/b/d'/b/c'/a/)|[1 g z :|[2 g zz ||
+w: ********** cresc. * f
+V:2
+c/d/c/d/c/d/|B z G|"cresc."(g/f/g/a/b/g/)|"f"(d/B/G/)B/d/D/|[1G z:|[2 G z z ||
+w: ********* cresc. *** f
+%
+V:1
+|:"Trio""f"(d'2d)|(d'2d)|(^c'd').d|(d'2d)|"p"(=f/g/f/e/d)|(e/=f/e/d/e)|
+w: f ******* p
+V:2
+|:"f"(d2D)|(d2D)|(^cd).D|(d2D)|"p".B.G.B|.c.G.c|
+w: f ******* p
+%
+V:1
+(^f/g/f/e/f)|.g z z::z3|"mf"(^c/d/"cresc."e/f/g/a/|b/^c'/d'/c'/b/a/)|(d'/^c'/d'/c'/d'/c'/)|"f"(d'2d)|
+w: ****** mf * cresc. ************* f
+V:2
+.A.d.c|.B z z ::"mf"(a2A)|"cresc."(a2A)|(g3|f) z z |z3|
+w: **** mf * cresc.
+%
+V:1
+(d'2d)|"dim."(=c'3|b) z z |"p"(b/^a/b/a/b/a/|.b) z z |"pp"(_b/=a/b/a/b/a/|
+w: ** dim. * p **** pp
+V:2
+"f"(F/A/d/e/f/g/|a/f/e/d/^c/d/)|"dim."(g/f/g/f/g/f/)|"p"(g/f/g/f/g/f/)|"dim."(g/f/g/f/g/f/)|"pp"(g/f/g/f/g/f/|
+w: f **********dim. **** p ***** dim. *** pp **** p
+%
+V:1
+"p".=b).b (b/c'/)|.a.a(a/b/)|.g z z |"f"(d'2d)|(d'2d)|(^c'd').d|
+w: p ******* f
+V:2
+"p".g).G.e|.c.A.d|.G z z |"f"(d2D)|(d2D)|(^cd).D|
+w: p ***** f
+%
+V:1
+(d'2d)|"p"(=f/g/f/e/d)|(e/=f/e/d/c)|(^f/g/f/e/f)|[1 g z z:|[2 g z||
+w: ** p
+V:2
+(d2D)|"p".B.G.B|.c.G.c|.Ad.c|[1.B z z :|[2"Minuet D.C.".B z||
+w: ** p
+
+
+X:2
+T:Minuet
+%%gchordfont Times-Bold 12
+C:Ludwig van Beethoven
+O:Germany
+R:Minuet
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+%abc2ps version. A version suitable for BarFly is also available.
+M:3/4
+L:1/4
+K:G
+V:1
+.d|.b.c'.d'|(d'>bg)|.f.g.a|(a>fd)|(g/f/g/a/b)|
+w: mf ||||| cresc.
+V:2
+z|"sempre staccato"B/d/B/d/B/d/|B/d/B/d/B/d/|c/d/c/d/c/d/|c/d/c/d/c/d/|B z G|
+w: mf
+%
+V:1
+(b/a/b/c'/d')|(d'e').^c'|(d'>^c'=c'/b/)|.b.c'.d'|(d'>bg)|.g.a.b|(b>ge)|
+w: ***** f *** dim. | mf
+V:2
+(g/f/g/a/b/g/)|(fg).a|d z z|z/ d/B/d/B/d/|B/d/B/d/B/d/|z/ B/G/B/G/B/|G/B/G/B/G/B/|
+w: cresc. | f || mf
+%
+V:1
+(f/e/f/g/a)|(g/f/g/a/b)|(ba).f|.e z :: (g|.=f).b.d'|(c'/b/c'/d'/e')|.d.^g.b|
+w: ||dim. || mf ||| dim.
+V:2
+^d z (B/d/)|e z (B/g/)|(gf)^d|e z :: z|(d/G/)d/=f/g/f/|ec z|"dim."(B/D/)B/d/e/d/|
+w: || dim. ||| mf
+%
+V:1
+(a/^g/a/b/c')|(f/g/f/e/f/d/)|(g/a/g/f/g/d/)|(a/b/a/^g/a/=g/)|(f/d/).e/.f/.g/.a/|.b.c'.d'|(d'>bg)|
+w: | p || cresc. || mf
+V:2
+(c/B/A/G/F/E/|D)dc|BGB|cc^c|d z/ .d/.e/.f/|.g/d/B/d/B/d/|B/d/B/d/B/d/|
+w: | p || cresc. || mf
+%
+V:1
+.f.g.a|(a>fd)|(g/f/g/a/b)|(b/a/b/c'/d')|(d'/b/d'/b/c'/a/)|[1 g z :|[2 g zz ||
+w: ||| cresc. | f
+V:2
+c/d/c/d/c/d/|c/d/c/d/c/d/|B z G|(g/f/g/a/b/g/)|(d/B/G/)B/d/D/|[1G z:|[2 G z z ||
+w: ||| cresc. | f
+%
+V:1
+T:Trio
+|:(d'2d)|(d'2d)|(^c'd').d|(d'2d)|(=f/g/f/e/d)|(e/=f/e/d/e)|
+w: f |||| p
+V:2
+|:(d2D)|(d2D)|(^cd).D|(d2D)|.B.G.B|.c.G.c|
+w: f |||| p
+%
+V:1
+(^f/g/f/e/f)|.g z z::z3|(^c/d/e/f/g/a/|b/^c'/d'/c'/b/a/)|(d'/^c'/d'/c'/d'/c'/)|(d'2d)|
+w: ||| mf * cresc. ||| f
+V:2
+.A.d.c|.B z z ::(a2A)|(a2A)|(g3|f) z z |z3|
+w: ||| mf * cresc.
+%
+V:1
+(d'2d)|(=c'3|b) z z |(b/^a/b/a/b/a/|.b) z z |(_b/=a/b/a/b/a/|
+w: | dim. || p || pp
+V:2
+"f"(F/A/d/e/f/g/|a/f/e/d/^c/d/)|(g/f/g/f/g/f/)|(g/f/g/f/g/f/)|(g/f/g/f/g/f/)|(g/f/g/f/g/f/|
+w: || dim. | p | dim. | pp
+%
+V:1
+.=b).b (b/c'/)|.a.a(a/b/)|.g z z |(d'2d)|(d'2d)|(^c'd').d|
+w: p ||| f
+V:2
+.g).G.e|.c.A.d|.G z z |(d2D)|(d2D)|(^cd).D|
+w: p ||| f
+%
+V:1
+(d'2d)|(=f/g/f/e/d)|(e/=f/e/d/c)|(^f/g/f/e/f)|[1 g z z:|[2 g z||
+w: | p
+V:2
+(d2D)|.B.G.B|.c.G.c|.Ad.c|[1.B z z :|[2"Minuet D.C.".B z||
+w: | p
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

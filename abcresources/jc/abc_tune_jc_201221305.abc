@@ -1,0 +1,21 @@
+X: 46
+T: Air in Harlequin Ranger
+%R: Rmarch, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.21 #46
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+|:\
+d'4 (a<f) f2 | g2 b>d' {b2}a4 |\
+(g<f) f2 (Te<d) d2 | (ba)(gf) {f2}e4 |\
+d'4 (a<f) f2 | g2 b>d' {b2}a4 |\
+(g<f) f2 (Te<d) b2 | (a<f) (Te>f) d4 :|
+|:\
+f4 (Te<d) d2 | (d'c')(ba) b3 c' |\
+(d'<a) f2 (b<g) e2 | (af)(df) {f2}e4 |\
+d'4 (a<f) f2 | g2 b>d' {b2}a4 |\
+(g<f) f2 (Te<d) b2 | (a<f) (Te>f) {e2}d4 :|

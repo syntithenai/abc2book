@@ -1,0 +1,21 @@
+X: 11593
+T: MY LOVE BUILT ME A BONNIE BOWER
+T: the BORDER WIDOW'S LAMENT.
+O: Very ancient.
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.159 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(d>c) |\
+(cB)(BG) (F>G)(Bc) | d2(cB) c2d>c |\
+(cB)(BG) (FG)(Bc) | d2(c>B) B2 :|\
+B2 |\
+(B>d)(fg) g2(f>g) | (gf)(fd) {d}c2(dc) |\
+(c>B)(BG) F>GBc | d2c>B B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

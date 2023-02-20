@@ -1,0 +1,27 @@
+X: 07026
+T: DINA'S WALTZ
+C: Bob McQuillen 6 Oct 88
+B: Bob's Note Book 7 #26
+%R: waltz
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G	% and Em
+DE \
+| "G"G2 G2 GA | BA G2 GA | B2BG AG | "C"E4 DE \
+| "G"G2 GA Bd | "Em"ed B2 de | "G"d2 B2 "Em"G2 | "Am"A4 "D7"Bc |
+| "G"d2 de dc | "Em"BA G2 GA | "G"B2BG AG | "C"E3 "D7"D EF \
+| "G"GA GA Bd | "Em"ed B2dB | "Am"AG E2 "Am7"G2 | "G"G4 ||
+|| B,D \
+| "Em"E2 G2 GA | BG E2 GE | "Bm"D2 B,3 D | "Em"E4 B,D \
+| ED EF GA | BA GE GE | "Bm"D2B,3 D | "Em"E4 GA |
+| "Em"B2 BA GE | "Bm"D2 B,D GA | "Em"BA GE DB, | "Bm"D4 B,D \
+| "Em"ED EF GA | B2ed "Am"BA | "Em"G2 E2 "Am(D)*"ED | "Em"E4 |]
+%%text * Bob suggests the D chord the last time only.
+%%begintext align
+%% With much love to
+%% Dina Blade of Seattle, WA. In the spring I go
+%% out there and visit her, husband Frank,
+%% the Zoo, and the Pike St. Market.  And we
+%% all team up with Andrea Hoag for a dance. Unreal!
+%%endtext

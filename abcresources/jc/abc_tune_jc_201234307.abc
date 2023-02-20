@@ -1,0 +1,19 @@
+X: 20413
+T: WELCH HORNPIPE
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" 1843 p.41 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Initial rest added to fix the rhythm of repeats.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+z2 |\
+d2A2 FDFA | BGBd cABc | dfaf bged | c2 e2e2 fe |\
+d2A2 FDFA | BGBd cABc | dfaf bgec | d2d2d2 :|
+|: f2 |\
+dfBf dfBf | egBg egBg | ceAe ceAe | dfAf dfAf |\
+dfBf dfBf | egBg egBg | [ge][bg][af][ge] [fd][ec][dB][cA] | [d2B2][d2B2][d2B2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

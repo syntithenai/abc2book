@@ -1,0 +1,20 @@
+X: 1792
+T: the Job of Journey Work   #2
+T: Greim Obairaonlae
+R: reel, "long dance"
+%S: s:2 b:13(7+6)
+S: 1792 O'Neill's Music of Ireland
+B: O'Neill's 1850 #1792
+O: F.O'Neill
+Z: Robert Thorpe (thorpe@skep.com)
+Z: ABCMUS 1.0
+N: Compacted by using labels and play order [JC]
+P: Play AA BA BA
+M: C
+L: 1/8
+K: D
+"^A"[| (fe) !segno!\
+|  dcBA FGAB | cABG A2(fe) | d2(cA) BGAF | GBAF DEFG \
+|| ABAF GFEF | D2DE F2G2 | A2d2 cdef |
+|  d2dd "^fine"d2 "^B"|: (de) | f2(ef) gfef |[1 dcAG A2 :|\
+[2 d3c A2(fg) | agfa gfef | dcde f2e!segno!c |]

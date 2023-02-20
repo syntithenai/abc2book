@@ -1,0 +1,22 @@
+X: 250
+T: Kamisica
+O: Bulgaria
+F: http://www.youtube.com/watch?v=FR9phXkLvOo
+M: 7/8
+L: 1/8
+K: Gm
+Q: 1/4=210
+%%MIDI drum dzzdzdz 35 35 35
+%%MIDI program 71
+%%MIDI drumon
+P:A
+|:E2D EFDB,  |C2B, A,B,CD|E2D EFDB,|[1C3F4     :|[2C3 C4|
+P:B
+Q: 1/4=130
+|:FG2 G2G2   |G2F EFG2   |E2D EFDB,|C3 C4      :|
+|:CD2 C2D2   |B,3 DEF2   |E2D EFDB,|C7         :|
+P:C
+Q: 1/4=210
+%%MIDI drum dzzdzzz 35 35
+|:FGF G2F2   |EFE F2E2   |EFE F2E2 |EDB, C4    :|
+|:B,CB, E2D2 |EDB, C4    :|        |:B,CB, E2D2|EDB, C4 :|

@@ -1,0 +1,17 @@
+X:401
+T:The Lass of Richmond Hill
+C:James Hook (c.1790)
+N:For the dance "A Trip to Richmond" by Kate Riley.
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=110
+M:2/2
+L:1/4
+%%MIDI ratio 3 1
+K:D
+P:A
+A | "D"Ad dd | "Em"e/d/c/d/ "A"eg | "D"fd "Em"Be | "A"d2 cA |\
+"D"Ad dd | "Em"e/d/c/d/ "A"e>d | "F#m"cA "E7"B^G | "A"A2- Ad |
+P:B
+"A"cA Ad | "A"cA Ad | "A"ce "Em"gf | "A"f2 ed | "A"cA Ad | "A"cA "D"a>d | "A7"cd ec | "D"d2- d A |
+P:C
+"D"Ad df | "D"f2- fd | "A"ce eg | "A7"g2- ge | "D"f>e dc | "G"dB "A"AG | "D"Fd "A7"Ec | "D"d2- d |]

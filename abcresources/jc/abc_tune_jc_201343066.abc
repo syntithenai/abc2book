@@ -1,0 +1,16 @@
+X: 586
+T: the Tall Slender Maiden   #2
+T: an og-\.bean caol \.fada
+R: air, march
+%S: s:2 b:9(4+5)
+B: O'Neill's 1850 #586
+Z: John B. Walsh (walsh@math.ubc.ca)
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play AB1 B2A
+Q: "With expression"
+M: 2/4
+L: 1/8
+K: D
+"^A"[|] d/e/  | f>e dB | d>B AF | A>B dd | "^fine"d3 |]
+"^B"|: (d/e/) | f>e d/e/f/g/ | af dd/e/ | fa gf |1 e3 :|2 "^->A"B3 |]

@@ -1,0 +1,16 @@
+X:1
+T: Double Lead Through
+C: R-5
+M: C|
+Z:
+R: reel
+K: G
+"G"g2d2 "D"c2A2| "G"G2G2 "(Em)"GABG| "C"E2E2 "D7"F2D2| "G"G8 :| \K: D\
+|:\
+"D"A3d c2d2| A3d c2d2| |1 A3d "A"e2A2| "D"f8 :| \
+                       [2 "A7"A2g2 f2e2| "D7"d2=c2 B2A2 |] \K: G\
+|:\
+"G"G2G2 GABG| "D"A2A2 ABcA| "G"Bcd2 "C"cde2| "D"e2d2 d2ef|
+"C"g2g2 gfe2| "G"d2d2 dcB2| "Am"ABc2 "G"Bcd2 |1 "C"egfe "D7"dcBA :|\
+                                             [2 "D7"e2 f2 "G"g4 |]
+%

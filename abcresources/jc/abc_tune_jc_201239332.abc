@@ -1,0 +1,26 @@
+X: 32561
+T: THE MASHER POLKA 
+C: Composed by W.B. Laybourn, 1885
+P: Newly out.
+B: K\"ohler's Violin Repository, v.3, 1885 p.256 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The times of some of the measures with triplets don't add up correctly.
+N: They've been adjusted to match the rhythm of bar 10.
+R: Polka
+M: 2/4
+L: 1/16
+K: D
+|:\
+(vAB)cd efg^g | a2a2 f4 | ((3g/a/g/)fe ((3fgf)ed | ((3efe)dc (dc)BA |
+(AB)cd efg^g | a2a2 f4 | ((3g/a/g/)fe ((3fgf)ed | e2(.A2.d2)z2 :|
+K: A
+|:\
+ve2a2 a2gf | ((3gag)fe ((3fgf)e2 | e2d'2 d'2c'b | ((3c'/d'/c'/)ba ((3bc'b)a2 |
+e2a2a2 gf | ((3g/a/g/)fe ((3fgf)e | (eb)(bd') ((3c'd'c')b2 | a2(.c'2.a2)z2 "^D.C.":|
+K: G
+|:\
+vd4- d(gbd') | d6 (Bc) | B4- B(dfb) | B6 (db) |\
+(ba) a4 (ca) | (ag) g4 (Ag) | (gf) f4 (Af) | (ed) d4 (Bc) |
+d4- d(gbd') | d6 (Bc) | B4- B(dfb) | B6 (db) |\
+(ba) a4 (dc') | (c'b) b4 (Af) | (fe)(e^d) (de)(ef) | [g2B2][g2B2][g2B2]z2 :|

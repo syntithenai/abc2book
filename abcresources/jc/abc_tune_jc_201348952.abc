@@ -1,0 +1,25 @@
+X: 1
+T: Valssi Puustelista
+C: Konsta Jylh\"a
+R: waltz
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+B: Mauno J\"arvel\"a ed., "Konstan nuottikirja", 1997 p.80
+S:
+M: 3/4
+L: 1/8
+K: D
+"A"|:\
+"D"f6 | (~f2 e2 d2) | (A4 G2) | F6 | (F2 A2 d2) | (~d2 c2 B2) |
+"G"G6- | G6 | "Em"g6 | (~g2 f2 e2) | (B4- Bc) | "A"c6 |
+(c3 d e2) | E3 F G2 | "D"F6- | F6 || "D"f6 | (~f2 e2 d2) |
+(A4 G2) | F6 | (F2 A2 d2) | (~f2 e2 f2) | "G"g6- | g2 z2 g2 |
+(g3 a b2) | "Em"(b2 a2 g2) | "D"(f2 e2 d2) | (c2 B2 F2) | "A"(A2 G2 F2) | (E2 c2 zA) |
+"D"d6- | "^Fine"d6 :|"B"|: "Bm"(fe) dc (B^A) | (c2 B2 F2) | "A"(A4 G2) | "D"F6 |
+"Em"E3 F G2 | (d2 c2 B2) | "F#"c6- | c6 | "Bm"f2 g2 f2 | "A"(a4 g2) |
+"D"f6 | "Em"e6 | "Bm"(dc Bc df) | "F#"(e4 c2) | "Bm"B6- | B6 :|
+"C"|:\
+"D"fe d2 zF | A2 (BA) GF | "A"G2 E4- | E6 | (e2 g)f ed | c2 e2 zc |
+"D"B2 F4- | F6 | (A2 f)e dc | d2 F2 zA | "Em"G2 E4- | E6 |
+"A"(A2 c2 e2) | (~g2 f2 e2) | "D"d6- | "^D.C. senza rep. al Fine"d6 :|
+P: Alternate bars:
+"31-32:"y d2 zD D2 | HD2 z2 z2 |] "8-9:"y4 -G2 z2 g2 | g6 | "16-17:"y4 -F2 z2 A2 | f6 |

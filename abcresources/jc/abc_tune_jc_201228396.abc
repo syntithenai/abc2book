@@ -1,0 +1,91 @@
+X: 11241
+T: MARSEILLES HYMN
+C:
+%R: march
+%N: This is version 2, for ABC software that understands voice overlays and tremolo notation.
+N: Voice 1 is labelled "Flute in F", but its keysig is C while the "Base" voice is E flat.
+N: The (8va... ...8va) notations are used to indicate octava sections, which ABC doesn't much handle yet.
+N: Bar 28 has an extra beat of rest; fixed in one of the way that may work.
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.124-125
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Eb
+% %indent 70
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="Flute in Eb" sname="Fl." staves=4
+K: C
+!f!g>g |\
+c'2 c'2 d'2 d'2 | e'3 c' az a>g |\
+f2 "^>"d'4 b>g | a2 z2 z2 !pp!c'>b |\
+c'2 c'>b (c'3/b//c'//) (d'>c') | (c'b) bz z2 b>c' |\
+d'2 d'>d' (d'3/c'//d'//) e'>d' | c'2 z2 z2 !ff!g>g |
+g2 e>c g2 e>c | G2 z2 !mf!z"^Loco."ggg |\
+d'3 e' f'2 d'b | c'4 _b4 |\
+a2 (c'=b d'c'bc') | "^>"d'4 z4 |\
+z8 | z8 |
+z8 | z4 z2 !ff!z"^(8va..."g | g4- g.g.e.c | d4 z2 "^...8va)"zg|\
+"^>"g4- g.g.e.c | "^>"d4 z4 | z8 | z8 | z8 |
+z8 | z8 | z4 z>!ff!ce>g | c'3 c' c'2 c'2 | e'8 |\
+"^(8va..."f3 f g2 a2 | d6 a2 | g4- gefd | c2 c>c "^...8va)"c2 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 name="Two Bb Clarionets" sname="BbClar"
+K: F
+[cC]>[cC] |\
+[f2A2] [f2A2] [g2B2] [g2B2] | c'3 a fz f>e & ACCC Czz2 |\
+d2 b4 g>e & B2 d2 B2 B2 | f2 z2 z2 f>g & A CCC C2z2 |\
+f2 f>f (f3/e//f//) g>f & C2 C>C C2 C2 | (ag) gz z2 b>a & zBBB B2z2 |\
+b2 b>b b3/a//b// c'>b & e2 e>e e2 e2 | a2 z2 z2 c'>c' & f CCC C2 c>c |
+[c'2c2] [aA]>[fF] [c'2c2] [aA]>[fF] | c2 z2 zccc & C2 z2 z4 |\
+g3 a b2ge & G2!trem1!B2 G2!trem1!B2 | f4 _e4 & A2!trem1!c2 A2!trem1!c2 |\
+d2 (f=e gfef) & (B2 G2 _A4) | [g4G4] z2 z>[bc] |\
+_a3 a (gaba) & =B8 | g4- gb_ag & (_B3 =B) (c_dc_B) |
+f2 f3 (_agf) & (_A2 =A2 B2 =B2) | =e3 d c2 zx & c2 C4 z[c'c] |\
+[c'4A4] [c'A].[c'c].[aA].f | "^>"[g4e4] z2 z[c'c] |\
+[c'4A4] [c'A][c'c][aA]f | [g4e4] z2 z!f![cC] |\
+[f6C6] [f2C2] | "^>"a8 & C4 c4 | [b4B4] [c'2A2] ([d'2B2] |
+[g6d6]) [d'2_a2] | [c'4-a4] [c'a][af][bg][gB] |\
+f2z2 z>FA>c & c>CC>C Cxx2 | [f3c3][fc] [f2c2][f2c2] |\
+a8 & c6 c2 | [b3B3][bB] [c'2A2][d'2B2] |\
+[g6d6] [d'2f2] | c'4- c'abg & f2 c4 B2 | [f2A2] [fC]>[fC] [f2C2] H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 name="Two Eb Horns" sname="EbHrns"
+K: C
+!ff![GG]>[GG] |\
+[c2E2][c2E2] [d2G2][d2G2] | !/![c4E4] [cE]zz2 |\
+[d2A2][d2A2] [d2G2][d2G2] | !/![c4E4] [c2E2]z2 |\
+[c2E2][cE]>[cE] [c2E2][c2E2] | z!/![d3G3] [d2G2]z2 |\
+[d2G2][dG]>[dG] [d2G2][d2G2] | z!/![c3E3] !ff![c2E2][gG]>[gG] |
+%
+[g2G2] [eE]>[cC] [g2G2] [eE]>[cC] | [G2G,2]z2 !mf!z4 |\
+B3_B A2_A2 & G,8 | [G4A,4] [G4C4] |\
+(A2_A2 _A4) & C8 | [B4G4] z2 !p!z>[GG,] |\
+[G8G,8] | [d8G8] |
+%
+c2c3 (_edc) & _A8 | [d6G6] z[GG] |
+%
+[G4C4] [GC].[gG].[eE][cC] | [d4G4] z2z[GG] |\
+[G4C4] [GC].[gG].[eE][cC] | [d4G4] z2z[GG] |\
+[c6E6] [c2E2] | [c4E4] [c4G4] | [c4A4] [c2G2][c2A2] |
+%
+[c6A6] [c2A2] | [c6E6] [d2G2] |\
+[cE]>[cE] [cE]>[cE] [c2E2] z2 | !ff![c3E3] [cE] [c2E2] [c2E2] |\
+[c6E6] [c2G2] | [c4A4] [c2G2][c2A2] |\
+[c6A6] [_e2A2] | [=e4c4] [e2c2] [d2G2] | [c2E2] [cE]>[cE] [c2E2] H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 4 name="Base" sname="Base" clef=bass middle=d
+K: Eb
+!ff!z2 |\
+[e2E2]z2 [b2B2]B2 | zEGB eEz2 | z2z2 B2B2 | EeBG E2z2 |\
+E2z2 E2G2 | Bbfd B2z2 | B2z2 b2B2 | EeBG !ff!E2z2 |
+%
+z2E>G B2e>g | b2z2 z4 | B4 B4 | G8 |\
+A4 =A4 | B4 z2z>b | B8 | G8 |
+%
+_c8 | B2[f2F2] [B2B,2]z2 | z>Be>g bzz2 | e>bf>d Bzz2 |\
+z>Be>g bzz2 | z2z>bf>d Bz | "^>"[e6E6] e2 | _d8 | c4 c2A2 |
+%
+=A6 A2 | B4 B4 | E>eB>G E2z2 | !ff!e3e e2e2 |\
+_d8 | c4 B2A2 | =A6 A2 | Bege b2B2 | e2e>e e2 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

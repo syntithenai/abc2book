@@ -1,0 +1,18 @@
+X: 1293
+T: the Fyket Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.29 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+g2 |\
+Tf3A efge aA3-A3g | Tf3A efgd BG3-G3g | Tf3A efge Tf3A efge | {g}f2df {f}e2d=c B2G2G2 :: (eg) | Ta3a bage aA3- A2eg |
+Ta3a bage gG3G2(eg) |1 Ta3a bage Ta3a bage | g2g2 egdg TB2G2G2 :|2 a2a2 Ta3g agab a2ge | degb egdg TB2G2G2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | a4a4 a4a4 | a4a4 g4g4 | a4a4 a4a4 | a4a4 g4g2 :: z2 | a4a4
+a4a4 | a4a4 g4g4 |1 a4a4 a4a4 | e4e4 g4g2 :|2 a4a4 a4a4 | e4e4 g4g2 |]

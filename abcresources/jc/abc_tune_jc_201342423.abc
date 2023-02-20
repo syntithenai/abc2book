@@ -1,0 +1,47 @@
+% %center Swingin Through the Revolution
+
+
+X: 1
+T: Swingin' Through the Revolution v.1
+P: piffero primo a0789
+O: Dave Gregory
+%R: reel
+F: http://ancients.sudburymuster.org/mus/sng/pdf/swinginthruC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+dc |\
+BdGB DGBd | egfe dcBA | BdGB DGBd | cABc dFGA |\
+BdGB DGBd | egfe dcBA |
+Bdfe dcBA | G2G2 G2 :: BA |\
+.G2.B2 .d2.g2 | .b2.a2 gdgb | dBdg AFAd | dBdg AFAd |
+.G2.B2 .d2.g2 | .b2.a2 gdgb | dBdg AFAd | G2G2 G2 :: GA |\
+G2B2 dBdg | edcB A2BA |
+.G2.B2 .d2.g2 | agfe dcBA |\
+.G2.B2 .d2.g2 | .b2.a2 gdgb | dBdg AFAd | G2G2 G2 :|
+
+
+X: 2
+T: Swingin' Through the Revolution v.2
+P: piffero secondo a0790
+O: a village volunteer
+%R: reel
+F: http://ancients.sudburymuster.org/mus/sng/pdf/swinginthruC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+z |\
+GD GG | ^cd BG | GD GG | Gd BB |\
+GD GG | ^cd BG | GD GG | GB G :|
+|: z |\
+.D.G .B.d | .g.e dd | BB FF | BB FF |\
+.D.G .B.d | .g.e dd | BB FF | GB G :|
+|: z |\
+DG BB | AA Fz | .D.G .B.d | ed BG |\
+.D.G .B.d | .g.e dd | BB FF | GB G :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

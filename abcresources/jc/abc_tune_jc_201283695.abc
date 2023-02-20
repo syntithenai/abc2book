@@ -1,0 +1,27 @@
+X: 1
+T:The Haunting
+M:C
+L:1/8
+Q:80
+C:Neil Dickie
+S:Air
+K:HP
+[| f2|
+{g}B4{g}df{gef}e4dc|
+{g}B2Bc{g}de{gcd}c4{e}A2|  !
+{GdG}B4{g}df{gef}e4d{g}c|
+{Gdc}d4{g}cd{gef}e4de|
+{gfg}f4d{e}B{gef}e4c{g}A|  !
+{Gdc}d2de{gde}dB{gcd}c4B{g}A|
+{GdG}B4{g}fd{gef}e2edc{g}A|
+{GdG}B4{g}A2{GdG}B4|] [|  !
+{g}df|
+{gfg}f4gf{gef}e4{g}fe|
+{Gdc}d2de{gde}dB{gcd}c4B{g}A|  !
+{GdG}B4{g}cd{gef}e4dc|
+{g}B4{d}cd{gef}e4{g}de|
+{gfg}f4d{e}B{gef}e4c{g}A|  !
+{Gdc}d2de{gde}dB{gcd}c4B{g}A|
+{GdG}B4{g}fd{gef}e2edc{g}A|
+{GdG}B4{g}A2{GdG}B4|]  !
+

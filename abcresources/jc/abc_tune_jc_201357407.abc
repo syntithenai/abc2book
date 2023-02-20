@@ -1,0 +1,94 @@
+% folk-tunes.abc
+%
+%%footer Time-stamp: <2004-04-03 15:16:00 bert>
+%
+% A collection of folk tunes from all over Europe, collected by Bert
+% Van Vreckem.
+%
+% As far as I know, all the tunes are traditional or in the public
+% domain. If you find one that is under copyright protection, please
+% let me know, so I can remove it from the collection.
+%
+% These transcriptions are public domain. You can do what you want
+% with them, but please be so kind as to give credit where due...
+
+X:1
+T:Behusher Chosid
+T:Earth
+C:Traditional
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+D:Kroke, "The Sound of the Vanishing Worlds", Oriente Musik Berlin, 1999
+M:C
+L:1/8
+Q:c3=72
+K:C
+% It's not in C, actually, but I don't have a clue about the key.
+% If you can help me out I'd be much obliged.
+P:A
+Q:1/4=100
+% I
+|: "E"ee2f ^g/a/^g/f/ ^g/a/b | "E"ee2f ^g/a/^g/f/ e/f/d/f/ | "E"ee2f ^g/a/^g/f/ ^g/a/b/c'/ |
+[1 "Dm"d'd'/c'/ d'/4c'/4b/b/c'/ "E"be' e'2 :|[2 "Dm"de/f/ ^g>f "E"^g/f/(e e)A ||
+% II
+P:B
+|: "D"d>A de ^f(a a/)a/((3g/^f/e/) | "D"^f(a a)(a a)b/a/ g/^f/e/d/ | "D"d>A d/A/d/e ^f(a a/)a/((3a/b/a/) |
+[1 "Dm"^g/a/b/a/ ^g>f "E"f/e/(e e)A :| "Dm"^g/a/b/a/ ^g>f "E"f/e/(e e/)e/^g/a/ ||
+% III
+P:C
+("E"b2 b/)e/^g/a/ (b2 b/)e/^g/a/ | "E"b/e/^g/a/  b/e/^g/a/ be' e'/e/a/b/ |
+("Am"c'2 c'/)e/a/b/ (c'2 c'/)e/a/b/ | "Am"c'/e/a/b/ c'/e/a/b/ "Am"c'2 "D"d'c'|
+% IV
+P:D
+|: "G"b>a d'/c'/b/a/ "Em"g/^f/(e e)((3d/e/^f/) |[1 gg/^f/ a/g/g/^f/ "D"e/^f/(d d)d :|\
+[2 "Em"g/^f/^f/g/ "Dm"g/f/f/e/ "Em"e4 |]
+
+X:2
+T:Funeral March
+O:Japan
+N:I don't know the original title, author, etc. of this tune. I heard it in the
+N:movie `Akiro Kurosawa's Dreams' of the famous Japanese director Akiro Kurosawa.
+N:It's played during the funeral (hence the title) in the part of the village by
+N:the river.
+N:The tune is rather short, but quite hypnotic when repeated several hundreds of
+N:times (as in the movie).
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:Ddor
+DD (3DDD|A3 A|c>B A>(A|A4)|DD (3DDD|A3 A|E>F E>(D|"_repeat ad lib."D4):|
+
+X:3
+T:Greensleeves
+C:Anonymous
+B:William Ballet's Lute Book, 1580 (England)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:6/8
+K:Am
+A|c2d e>fe|d2B G>AB|c2A A>^GA|B2^G E2A|c2d e>fe|d2B G>AB|c2BA ^G>^F^G|A2A A3|
+g3 g>^fe|d2B G>AB|c2A A>^GA|B2^G E3|g3 g>^fe|d2B G>AB|c2A ^G>^F^G|A3 A3||
+
+X:4
+T:Hitotsu
+C:Traditional
+O:Mongolia (?)
+D:Kaiki (Kodo)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:4/4
+L:1/4
+K:C
+c4|d2 g2|c2 cB|(G2 C2)|c3 d|B2 G2|G>F E(G|C4)|c4|F2 GB|(c4|(c2) ("_rall."B) c)|
+"_A tempo"F2 FG|B2 ce|G2 GF|D4|G2 GA|(G4|C3) E|"_rall."FGF(E|(C4)|C4):|
+
+X:5
+T:Mars der gezworenen
+C:Traditioneel
+O:Vlaanderen
+R:March
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:4/4
+L:1/8
+K:G
+d2-de/d/ Bd ge|d2 d/e/d/c/ B4|de/d/ B2 cd/c/ A2|Bd ec BA Bc|
+d2-de/d/ BG ec|d2 e/d/c/d/ g4|dd/c/ Be dB Ac|Bd Bd B4:|
+|:f2-fe/f/ gf ed|(3gfe dd d4|(3Bcd dd ed cB|d2-dc/B/ AA Bc|
+d2 d/e/d/c/ Bg fe|dc BA c2-cd/e/|dB BB gd cA|(3Bcd BB B4:|

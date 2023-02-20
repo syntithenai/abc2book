@@ -1,0 +1,15 @@
+X:493
+T:Mr Ganiford's Delight
+C:William Ganiford, 1940
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%stretchstaff 0
+%%MIDI ratio 3 1
+Q:1/2=110
+K:Em
+P:A
+|: B | "Em"BE EB | "D"A>G F/G/A | "C"G/F/E GA | "B7"B3 :|
+P:B
+|: B/^c/ | "G"d^c dA | "D"FE/D/ AA/B/ | "C"cd "Am"ef | "B"^d3e |\
+"C"cd "G"Bc/B/ | "Am"A/g/f/e/ "B7"fB | "Em"gB "B7"af | "Em"e3 :|

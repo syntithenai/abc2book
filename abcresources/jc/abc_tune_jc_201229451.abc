@@ -1,0 +1,27 @@
+X: 12361
+T: the Low Lands of Holand
+%R: air, strathspey, jig
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.36 #1
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The book has 2 sharps, but all the G notes are sharp and the tonic is clearly A.
+N: So I show the key as A major, and omit the sharps.
+M: C
+L: 1/8
+K: A
+"_Slow"e2 |\
+{d}Tc3 B (A>B)(c>d) | (e>d)(e>f) e2(dc) |\
+{Bc}d3B (A<F) (E>F) | D6 ({f}Te>d) |\
+c2(BA) (AB)(cd) | (e>d)ef e2(dc) |\
+(dcd)e f3g | e6 (Ted) |
+Tc3B (AB)(cd) | e3f e2(dc) |\
+{Bc}d3B (A<F) (E>F) | D6 F>A |\
+E4 {E}F2A2 | E3F (AB)(cd) |\
+(e>f) e(d/c/) {Bc}dc(TB>A) | A6 :|
+P: Gigg
+M: 6/8
+"_Brisk"E |\
+A2A (Bc)e | f3 a3 | (ec)A (AB)c | (Bc)A (BG)E |\
+(AB)A (Bc)e | f3 a2f | (ec)A TB2A | A3- A2 :|
+|: e |\
+a2a (ga)g | Tf3 {f}e2c | B2B (Bc)e | a2g Tf3 |\
+a3 (ec)A | (Bc)e f2a | efA TB2A | A3- A2 :|

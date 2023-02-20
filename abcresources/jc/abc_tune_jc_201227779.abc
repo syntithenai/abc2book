@@ -1,0 +1,17 @@
+X: 10982
+T: AIKEN DRUM
+Q: "Slowish"
+%R: march
+B: "Edinburgh Repository of Music" v.1 p.98 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Bar 10 changed to be like bar 14, to fix the missing beat.
+M: C
+L: 1/8
+K: G
+G>A |\
+B4 B2AB | c4 c2BA | B4 d2cB | {B}A>GA>B A2GA |\
+B4 B2 A>B | c4 c2BA | (B2d2) A2B2 | {F}G4 G2 :|
+|: GA |\
+B2B2 B2{B}A>G | E2E2- E2GE | {E}D2D2 D2EG | {B}AGAB A2GA |\
+{G}B2B2 B2AG | E2E2- E2GE | D2D2 DEGB | {B}TA4 G2 :|

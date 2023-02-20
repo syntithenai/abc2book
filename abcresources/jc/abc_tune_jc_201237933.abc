@@ -1,0 +1,39 @@
+X: 1
+T: 2nd Armored Division March
+C: Words and Music by Mrs. George S. Patton, Jr.
+P: Db Piccolo
+Q: "Marcia"
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+L: 1/8
+M: 2/4
+K: D
+% %continueall yes
+Z8 ||\
+!f!{a}fz {a}fz | {a}fz {a}fz | {a}fz {a}fz | {a}fz {a}fz | {a}fz {a}fz | {a}fz {a}fz |
+{a}fz {a}fz | {a}gz {a}gz | {a}gz {a}gz |{a}fz {a}fz | {a}f2 z2 | {a}fz {a}fz | {a}f2 {a}fz | {a}fz {a}fz |
+{a}fz {a}fz | {a}fz {a}fz | {a}fz {a}fz | {a}fz {a}fz "^1"| {a}gz {a}g | {a}gz {a}g | {af}d4- | d2 z2 |
+Z6 |\
+(Tb4 | QTa2) z2q | {a}fz {a}fz | {a}fz {a}fz | {a}fz {a}fz | {a}fz {a}fz | {a}fz {a}fz | {a}fz {a}fz |
+{a}fz {a}fz | a4 | a2 (^g2{fg}) | a4- | a2 z2 "^2"||[K:A] !ff!b4 | B2 B2 | Te4- | e2 z2 ||\
+Z4 | !mp!"^>"a.e "^>"a.e | "^>"A"^>"B"^>"c"^>"d | "^>"e2 (T^d2{cd}) | e2 z2 | z2 Te2- |
+ez z2 | z2 Te2- | ez z2 "^3"| Te4- | e4- | ez z(3(Bcd | "^>"e)z z2 ||\
+Z7 | z2"^>"e2 |\
+!ff!pA4 | c2e2 | P{^de}a4- | a2 z2 | z2 zc' | (3(ac'a) e>("^>"c' | Ta4)- | a2 a2 "^4"|]
+P:TRIO
+K: D
+!mf!d3 !ff!e | f>e d>f | a(f/g/ a)(d'/b/ | a)(f/e/ d)>g |\
+"^>"f2 d2- | d2 e2 | d4- | d3 z |\
+B3 c | e>d c>Bp | A2 d2P "^5"| (g2 f2) |\
+"^>"f2 "^>"e2 | "^>"^d2 "^>"e2 |
+"^"f>e ^d>e | a4 |\
+"^solo"d(e/f/ g/a/b/c'/) | (d'/a/f/a/) .d2({^c'}d'2) | A(B/c/ d/e/f/g/ | a/)(e/c/e/) A2a2 "^6"|\
+({^d}e).a "^>"A.a | ({^d}e).a "^>"A.a |
+d(e/f/ g/a/b/c'/ | d'2)z "^>"d>c | B2pd2 | g2 b2P | (a2 f2) | d2 "^>"g>g |\
+"^>"f(d'/c'/ d')"^>"d- | (d/c/B) "^>"e.a |[1 "^To Next Strain"d4- | dz z2 ||\
+["Last"(d4 | d')z z2 H|]
+|| "Interlude"y Z3 | z2 !f!(g2 | .f)z (g2 |p.f)z (Td'2P |\
+Qc'4-) | c'qz z2 | Z3 | z2 !ff!(_b2 | a)z (_b2 | a)z p"^>"d'2 | PQTc'4- | c'qz z2 |\
+Z7 | z2 z !ff!!fine!"^>"a !segno!|]

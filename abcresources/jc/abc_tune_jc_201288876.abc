@@ -1,0 +1,16 @@
+X: 1
+T: Hunt The Squirrel   [A]
+R: jig
+S: Nottingham Music Database
+B: Playford 1709 #30 ("Squirrel")
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Some versions have long e's in bars 1 and 5; others have repeated notes.
+N: The pickups are optional.
+M: 6/8
+K: A
+cB \
+|:"A"Ae-e e2f | e3 c3 | ABc "D"B2A | "A"ABc "E7"B2A \
+| "A"Ae-e e2f | "F#m"e3 c3 | "D(Bm)"ABc "E7"B2A | "A"A3 z3 :|
+ABc \
+|:"D"d2e fed | "C#m"d2e fed | "Bm"d2e f2g | "F#m"a3 agf \
+| "A"ec2 ec2 | "F#m"ec2 e3 | "Bm"ABc "E7"B2A | "A"A3 z3 :|

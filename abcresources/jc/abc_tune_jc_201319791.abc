@@ -1,0 +1,60 @@
+X: 1
+T: Old Simon the King
+P: Longways for as many as will
+%R: slip-jig, triple hornpipe
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.36 #69
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.112
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/4
+L: 1/8
+K: Gmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+A3Bc2 c3dc2 c4G2 | A3Bc2 c3de2 f4f2 |\
+A2F2F2 F4G2 A3Bc2 | d4c2 B4A2 G4 |]\
+a2 |\
+g4f2 e4d2 c4a2 | g3a fg d3f de c2d2e2 |
+f2F2F2 AB cB AG A4F2 | g2G2G2 Bc dc BA B4G2 |\
+ABc2E2 (c2G2)E2 c4G2 | ABc2E2 (c2G2)E2 c4G2 |\
+ABc2G2 (c2A2)F2 A4F2 |
+Bcd2G2 efg2d2 B4G2 |]\
+e3f ga g2e2d2 c3d ec | e3f ga g2e2 c2 f3g ag |\
+a2b2c'2 c2A2F2 A2B2c2 | d3e fd B3AB2 G3A BG |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the Presence, then to your We. Lead up forward and
+%% back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First Man being on his We. Side, lead the 2d Wo. sideway, then the
+%% 1st Wo. with the 2d Man lead to the other Side at the same Time,
+%% then all face, then 1st Cu. cast off, and 2d Cu. fall into the first Cu.
+%% Place; then 1st Cu. lead downward, the 2d Cu. lead to the Presence
+%% at the same Time; then 1st Cu. fall into their own Places,
+%% and 2d Cu cast off to their own Places at the same Time; then
+%% 1st Man Back to Back with the 2d Wo. and the 1st Wo. and 2d Man
+%% Back to Back at the same Time; then 1st Man give right Hand to
+%% the 2d Wo. and Left to his own; then 1st Wo. give right Hand
+%% to the 2d Man, and Left to her own, then the Hey thro' the 2d Cu.
+%% which brings him on his Wo. Side again.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the Presence, then to your we. Lead up forward and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First man being on his wo. side lead the 2. wo. side-way, then the 1. wo. with the 2. man lead to the other side at the same
+%% time, then all face, then 1. cu. cast off, and 2. cu. fall into the 1. cu. places; then 1. cu. lead downward, the 2. cu. lead
+%% to the Presence at the same time; then 1. cu. fall into their own places, and 2. cu. cast off to their own places at the same time,
+%% then 1. man back to back with the 2. wo. and the 1. wo. and 2. man back to back at the same time; then 1. man give right-hand
+%% to the 2. wo. and left to his own; then 1. wo. give right-hand to the 2. man, and left with her own, then the
+%% Hey through the 2. cu. which brings him on his wo. side again.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

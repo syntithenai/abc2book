@@ -1,0 +1,29 @@
+X: 1371
+T: Tail Todle.  a Reel
+O: Supposed Welsh.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.1 p.37 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bm
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+|:\
+!p!d/d/d (fd) g2 dB | d/d/d (fd) Te2 cA |\
+d/d/d (fd) gefd | (e/f/g) (f/g/a) Te2 cA ::\
+!f![=g2B2](dB) BgdB | [g2B2]dB AecA |
+[=g2B2]Bg (a/g/f/e/) fd | (e/f/g) (f/g/a) Te2cA |\
+[=g2B2](dB) BgdB | [g2B2]dB AecA |\
+[=g2B2]Bg (a/g/f/e/) fd | (e/f/g) (f/g/a) Te2cA |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+|:!p!\
+d2d'2 b2g2 | d2d'2 c'2a2 | d2d'2 c'2d'2 | c'2d'2 a2A2 ::!f!\
+[=g2G2][g2G2] [g2G2][g2G2] | [g2G2][g2G2] [a2A2][a2A2] |
+[=g2G2][g2G2] [g2G2][b2B2] | [c'2c2][d'2d2] [a2A2][a2A2] |\
+[=g2G2][g2G2] [g2G2][g2G2] | [g2G2][g2G2] [a2A2][a2A2] |\
+[=g2G2][g2G2] [g2G2][b2B2] | [c'2c2][d'2d2] [a2A2][a2A2] |]
+

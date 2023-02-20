@@ -1,0 +1,20 @@
+X: 1
+T: John's Folly
+C: Andrew Lyon
+R: jig
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+%P: Play AABABA
+M: 6/8
+L: 1/8
+K: Bb
+"F7"F "A"|\
+"Bb"Bcd FBA | "Eb"G^FG BAG |\
+"Bb"FFF BFf | d3 d^cd |\
+"F7"ecA FAc | "Bb"dBF DFB |
+[1 "C7"=E^DE GBd | "F"c3 c2 :|\
+[2 "F7"Agf edc | "Bb"B3 HB2 |]\
+A "B"[|\
+"Gm"GDD BAG | "D7"^FDF AGF |
+"Gm"G2G BAG | "(D7)"d3 d2d |\
+"F7"ecA FAc | "Bb"dBF DFB |\
+"C7"=EDC BAG | "F"F3 "^d.C."F2 |]

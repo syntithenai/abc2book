@@ -1,0 +1,45 @@
+X: 10801
+T: Pale shone the Moon the day was clos'd
+C: Moulds
+Q: "Andante Affetuoso"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.80-81
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+%%continueall
+%%graceslurs 0
+A4 | e6 d2 (c2e2) (c2A2) | (B2f2) (e2G2) A6 A2 |
+w: Pale shone the Moon* the* day* was* clos'd night
+G4 A4 {Bc}d6 c2 | (c8 B4) z2B2 | (e2g2) (f2e2) (^d2c2) (B2A2) |
+w: reign'd in sol-emn  state,* Af-flic-*tion* lull'd* a*
+(G2B2) (c2e2) ^d4 z2f2 | {a}g4 (f2e2) (g2f2) (e2^d2) | e4 z4 z4 z2e2 |
+w: while* re-*pos'd and dreams fore-*told* its* fate  In
+(e2c2) (e2=g2) {g}f4 z2c2 | (d2f2) (^A2c2) B4 z2c2 | {e}d6 B2 c4 (e2c2) |
+w: that* drear* hour did Yo-*rick* rest and as he lay re-*
+(c8 {dc}B4) z2(cd) | e4 e4 e4 z2(fg) | {b}a4 f4 d4 z2f2 |
+w: clin'd*  Thus* fan-cy fram'd with-*in his breast the
+e4 (f3g/a/) (d2B2) (A2G2) | A8 (e2c2)(f2e2) | (edcd) .d4 (d2B2)(e2d2) |
+w: I-dol** of* his* mind.
+(dc^Bc) c4 (A2c2e2a2) | {g}f4 (e2d2) {e/}d2c2{d/}c2B2 | A8 "Da Capo"z4 |]
+%
+W: 2. That soft and gliding on his view,
+W: \t Eliza's form appear'd;
+W: The Child that Love and Nature drew,
+W: \t The Child that Yorick rear'd;
+W: Ah me she cried no more implore,
+W: \t For health can ne'er return;
+W: The Curtain's drop'd the scene is o'er,
+W: \t And peace shall bless thy Urn.
+W:
+W: 3. Yet ere the spirit wings its wav,
+W: \t To that Coelestial shore;
+W: O kind protector fondly say,
+W: \t A Balm of Comfort more;
+W: The Vision ceased yet ere she fled,
+W: \t The tears of pity fell,
+W: And as she rais'd his drooping head,
+W: \t She bade a long farewell.
+%
+%%center -

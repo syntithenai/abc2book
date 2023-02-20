@@ -1,0 +1,21 @@
+X:1
+T:The Black Rider
+C:Howard Shore
+Z:Merecraft of Laurelin
+Q:1/4=160
+M:4/4
+L:1/8
+K:F
+D,4 .D, z3 |z8 |D,4 .D, z3 |z8 |A,4 .A, z3 |z8 |(A,8 |A,8) |D,2 D,2 E,2 C,2 |D,2 B,2 C,2 A,2 |D,2 D,2 E,2 C,2 |D,2 B,2 C,2 A,2 |D,2 D,2 E,2 C,2 |D,2 B,2 C,2 A,2 |
+D,2 D,2 E,2 C,2 |D,2 B,2 C,2 A,2 |A,2 A,2 A,2 A,2 |A,2 A,2 A,2 A,2 |D,.B .c.d D,.c .d.e |.D,d ef .D,e fg |D,.B .c.d D,.c .d.e |D,d ef D,e fg |D,B cB D,B cB |
+D,B cB D,B cB |D,(B cB) A,2 G,2 |D, B,2 A,2 (A cd |.B)D, B,2 A,2 G,2 |D,.A, .B,.A, D,.A, .B,.A, |.D,A, B,A, .D,A, B,A, |.D,A, B,A, .D,A, B,A, |.D,A, B,A, .D,A, B,A, |
+D,.A, .B,.A, D,.A, .B,.A, |D,.A, .B,.A, D,.A, .B,.A, |D,.A, .B,.A, D,.A, .B,.A, |D,.A, .B,.A, D,.A, .B,.A, |D,2 .D,2 z4 |D,(B cB) z4 |D,2 .D,2 z4 |D,(B cB) z4 |D,(B cB) z4 |
+D,2 (G2 F2 E2) |D,2 (G2 F2 E2) |(D2 E2) (E2 F2) |F8 |]
+%End of file
+thx for yr help :)
+-----------------------------------------------------------------------------
+Sinni10-08-2007, 01:37 PMsorry for the late reply, for some reason I didn't get an e-mail although the thread is subscribed...
+can you exactely tell me what's your problem?
+you simply have to edit the key file to your ingame key mapping, then start the program, click on the button with "..." select your abc file and click on "Convert". Then you should have a new .txt file in the same directory as your abc file was which has converted the notes into ingame keys.
+-----------------------------------------------------------------------------
+vBulletin® v3.8.4, Copyright ©2000-2009, Jelsoft Enterprises Ltd.

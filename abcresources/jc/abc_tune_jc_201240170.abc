@@ -1,0 +1,32 @@
+X: 371
+T: Mr MACDONALD OF STAFFA
+C: D. Mc Laren
+R: Reel
+B: Glen Collection p.37 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Gm
+%
+V: 1
+A |\
+B2Gd cBAG | Ffcf AFcA | B2Gd cBAG | FAcA {A}G2GA |
+B2Gd cBAG | Ffcf AFcA | BGcA dBec | dBcA {A}G2G ||
+g |\
+Ggg2 {^fg}dgbg | fadf cfAF | Ggg2 {^fg}dgbg | fdcA {A}G2Gg |
+Ggg2 {^fg}dgbg | fadf cfAF | GBAc Bdce | dBcA {A}G2G |]
+%
+V: 2
+z |\
+G2[g2d2] B2[g2d2] | F2[a2f2] [c'2f2][a2f2] |\
+G2[g2d2] B2[g2d2] | F2[a2f2] G2[b2g2] |
+G2[g2d2] B2[g2d2] | F2[a2f2] [c'2f2][a2f2] |\
+g2e2 d2c2 | d2[a2^f2] [b2g2][bg] ||
+z |\
+G2[g2d2] B2[g2d2] | F2[f2c2] A2[f2c2] |\
+G2[g2d2] B2[g2d2] | d2[a2f2] [b2g2][b2g2] |
+G2[g2d2] B2[g2d2] | F2[f2c2] A2[f2c2] |\
+g2e2 d2c2 | d2[a2^f2] [b2g2][bg] |]

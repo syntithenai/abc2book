@@ -1,0 +1,30 @@
+X: 073
+T: GLASSA HOUSE
+C: I. COOPER
+R: Reel
+B: Glen Collection p.7 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: D
+%
+V: 1
+|: d>fe>c d>BA>F | G>BA>F E/E/EE2 |\
+d>fe>c d>AF>A | B>dc>e d/d/dd2 :|\
+|: d>fa>f g>ec>A |
+d>BA>F E/E/EE2 |\
+[1 d/e/f/g/ a>f g>ec>A | B>dc>e d/d/dd2 :|\
+[2 F>AG>B A>dc>e | d>BA>F D/D/DD2 |]
+%
+V: 2
+|:\
+[d'2f2d2][c'2a2e2] [d'2a2f2][d'2a2d2] | [d'2b2g2][d'2a2f2] [c'2a2][c'2a2] |\
+[d'2a2d2][c'2a2e2] [d'2a2f2][d'2a2d2] | [d'2g2][c'2a2] [d'2f2d2][d'2f2d2] :|\
+|:\
+d2[f'2d'2a2] [e'2c'2a2][e'2c'2a2] |
+[d'2a2f2][d'2a2] [c'2a2][c'2a2] |\
+[1 d2[f'2d'2a2] [e'2c'2a2][e'2c'2a2] | [f'2d'2a2][g'2e'2a2] [f'2d'2][f'2d'2] :|\
+[2 [a2d2][a2e2] [a2f2][a2A2] | [f2d2][g2e2A2] [f2d2][a2f2d2] |]

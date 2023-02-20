@@ -1,0 +1,24 @@
+X: 1
+T: Music for a Found Harmonium
+C: Simon Jeffes (1949-1997)
+%D:1982
+R: reel
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+S: https://www.facebook.com/groups/Fiddletuneoftheday/
+S: https://www.facebook.com/groups/Fiddletuneoftheday/photos/
+M: C|
+L: 1/8
+K: D
+"^A"|: "D"FDGD FDDD | FDGD FDDD | FDGD FDDD | "A"EDCD "D"FDDD :|
+"^B"|: "A"EDCD EDCD | "D"FDCD FDCD | "G"GDED "A"CDGD | "D"FDDD "^fine"D3D :|[K:=f=c]
+K: F
+"^C"|: "F"cFEF GFEF | cFEF "Am"[A3E3]F | "F"cFEF GFEF | cFEF "Am"[A3E3]F :|
+"^D"[| "Bb"BFEF GFEF | BFEF GFEF | "Bb"BFEF "(C)"GE3 | "Bb"BFEF "(C)"GE3 |[K:=B]
+K: D
+"^E"|| "A7"cGFG EGFG | cGFG EGFG | cGFG EGFG | cGFG EGFG |]
+%%begintext align
+%% Parts played in many orders.
+%% Bar 2 of B part often has C natural.
+%% Extra A and B parts are common.
+%% Usually ends with B.
+%%endtext

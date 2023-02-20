@@ -1,0 +1,30 @@
+X: 10732
+T: COTILLION No. 3. tune 4
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.73 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The G in bar 8 should probably be A.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!ff!c2 |\
+(a2ba) (g2ag) | (f2gf) e2fe | d2e^f gabg | (fedc defg) |\
+(a2ba) (g2ag) | (f2gf) (e2fe) | (defg) .[f2A2].[e2G2] | [f2A2]a2[f2G2] H|]
+!p!c2 |\
+.[f2A2].[fA].[fA] [f2A2]c2 | (cdcB) .B2.c2 | f2(ed) dcc=B | c4 (cdcB) |\
+(BA)GF c2c2 | d2gf (fe)dc | (de)fg a2g2 | g(c/B/A/G/) F2 |]
+!p!(cB) |\
+Acfe gfed | cdcB Acde | gfed (dc)(c=B) | cege cdcB |\
+BAGF cABc | dBGf fedc | defg abag | fafa "^D.C."f2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies forward and back,
+%% gentlemen the same,
+%% grand chain,
+%% promenade 8.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

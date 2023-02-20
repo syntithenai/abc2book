@@ -1,0 +1,21 @@
+X: 15
+T: Molly Brown's Whim
+%R: jig
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.8 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+f2g afd | c2d ecA | Bcd efg | fed cBA |\
+f2g afd | c2d ecA | Bcd efg | fge d3 :|
+|:\
+f2g afd' | bgd' afd' | f2g afd | ced cBA |\
+f2g afd' | bgd' afd' | efg fed | cde d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Half right & left, back again, down the
+%% mid up again, Swing Corners.
+%%endtext

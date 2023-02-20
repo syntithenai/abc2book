@@ -1,0 +1,28 @@
+X: 11613
+T: WILLIE BREW'D A PECK O' MAUT.
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.161 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G3A |\
+B4 (e3c) (c3B)(A3G) | c6 f2 (e2d2)(c2B2) |\
+B6 c2 (BG3)F3E | G4 (F3G) F4 (G3A) |\
+B4 (e2c2) (c2B2)(A2G2) | c4 (f3e) (e2d2)(c2B2) |\
+e4 (d3c) B4 (dc)(BA) | G4 (F3G) E6 |]
+g2 |\
+(f3e)(d3c) (c3B)(A3G) | (c3B) (c3d/e/) (A2G2)(F3E) |\
+(A3G) (A3B/c/) (BG3)F2E2 | G4 (F3G) F4 (g3a) |\
+(bg3) (e3f/g/) c6 e2 | (cBAG) B2d2 e6 c2 |\
+(BG3)F3E (F3G) (A3B/c/) | G4 (F3G) E4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% This melody was composed by Allan Masteron, in 1789.
+%% He was one of the "three merry boys" mentioned in
+%% Burns' glorious song; William Nicoll, High School,
+%% Edinburgh, and the Poet were the other two.
+%%endtext
+%%sep 1 1 300

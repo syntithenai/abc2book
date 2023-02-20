@@ -1,0 +1,14 @@
+X: 416
+T: the Rakes of Westmeath
+R: slip-jig, hop-jig
+%S: s:2 b:12(6+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #416
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0416/oneill-1001-0416-1.abc
+M: 9/8
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+|: {A}d3 dAG FED | {A}d2d dAF G2E | ABc dAG FGA | =cBc E2F G2E :| d2g fdf ece | d2g fdf g2e |
+| d2g fdf ece | =cBc E2F G2E || d2g fdf ece | d2g fdf g2e | afd gec d2B | =cBc E2F G2E |]

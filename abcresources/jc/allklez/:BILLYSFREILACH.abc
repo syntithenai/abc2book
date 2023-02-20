@@ -1,0 +1,18 @@
+X: 84
+T: Billy's Freilach
+C: Bill Wise
+N: Taught at MIT Klez Workshop Jan 2001
+M: 4/4
+L: 1/8
+Q: 1/4=144
+K: Am
+"^A"\
+|: "Am"zc2B A2A2 | zccB dcBA | "E"BB2A ^G2G2 | zBBA cBAB
+|  "Am"cc2B A2A2 | zccB dcBA | "E"BB2A ^G2B2 |1 "Am"A8 :|2 "Am"A4- AE/E/ EE |]
+"^B"\
+|: "E"^G2A2 B2c2 | "E"BB2A "E"B"Dm"A"E"^G2 | "E"E2F2 ^G2A2 | "E"^GG2F "E"G"Dm"F"E"E2 |
+|  "E"^G2A2 B2c2 | "Dm"dd2c dcB2 | "Bdim7"zB2A ^G2F2 |1 "E"E4- EE/E/ EE :|2 "E"E4- Ez Ez |]
+"^C"\
+|: "E"E/F/^G zA GA.B2 | E/F/^G zA GF.E2 | E/F/^G zA GAB2 !coda!| "Dm"d>c BA "E"Bz Bz :|
+!coda!\
+| "Dm"D2D2 D2D2 | F2F2 F2F2 | A2A2 A2A2 | "Bdim7"dcBA BA^GF | A^GFG "E"(E2 .e2) |]

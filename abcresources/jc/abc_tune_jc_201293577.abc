@@ -1,0 +1,50 @@
+%%scale 1.05
+%%barsperstaff 4
+X:1
+T:John O' Dreams
+T:(Symphony No. 6, "The Pathetique")
+C:Tchaikovsky (arranged by Bill Caddick)
+M:4/4
+L:1/4
+K:C
+%%staves {RH1 LH1}
+V:RH1 clef=treble name="Piano treble"
+V:LH1 clef=bass name="Piano bass"
+V:RH1
+|"C"z e d c|G E C/2E/2 G|"F"A3-A/2G/2|"C"G4-
+w:1~When mid-night comes and peo-_ple home-_ward tread,
+w:2~A-cross the hill the sun_ has gone_ a-stray,
+w:3~Both man and mas-ter in_ the night_ are one,
+w:4~When sleep it comes the dreams_ come run-_ning clear,
+|G "C"e d c|G E A/2E/2 G|"F"A3-A/2G/2|"C"G4-
+w:_Seek out your blank-kets and_ your fea-_thered bed,
+w:_To-mor-rows cares are ma-_ny dreams_ a-way,
+w:_All things are e-qual when_ the day_ is done,
+w:_The hawks of morn-ing can-_not reach_ you here,
+|G "C"g f e|"G"e2 "G7"d2-|d f e d|"F"d2 c2-
+w:_Home comes the ro-ver, _his jour-ney's o-ver
+w:_The stars are fly-ing, _your can-dles dy-ing,
+w:_The prince and~the plough-man,_ the slave, the free-man,
+w:_Sleep is a ri-ver, _flow on for-ev-er,
+|c "C"e d c|G E C/2E/2 G|"F"A3-A/2G/2|"C"G4-
+w:_Yield up the night time to _old John _O' Dreams
+w:_Yield up the night time to _old John _O' Dreams
+w:_All find their com-fort in _old John _O' Dreams
+w:_And for the boat-man choose _old John _O' Dreams
+|G "C"e d c|G E C/2E/2 G|"F"A3-A/2B/2|"C"C4-
+w:_Yield up the night time to _old John _O' Dreams.
+w:_Yield up the night time to _old John _O' Dreams.
+w:_All find their com-fort in _old John _O' Dreams.
+w:_And for the boat-man choose _old John _O' Dreams.
+|C z3||
+w:_
+w:_
+w:_
+w:_
+V:LH1
+|x x x x|x x x x|x x x x|x x x x
+|x x x x|x x x x|x x x x|x x x x
+|x x x x|x x x x|x x x x|x x x x
+|x x x x|x x x x|x x x x|x x x x
+|x x x x|x x x x|x x x x|x x x x
+|x x x||

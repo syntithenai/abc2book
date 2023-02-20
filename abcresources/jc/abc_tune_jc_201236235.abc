@@ -1,0 +1,24 @@
+X: 21812
+T: JOCK O' HAZLEDEAN
+O: Scotch air.
+Q: "Slow and with feeling.
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.181 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The grace notes after bar lines were placed before the barlines, but some ABC software doesn't like this.
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f |\
+c>A GF F{G}AC>D | {E}F>F{c}B>A (A2 G)f |\
+c>A G>F F{G}ACD | {E}FAGF F2z |]
+A |\
+B>ABc dcf>d | c>A GA/c/ d3 Hf |\
+c>A GF F{G}AC>D | {E}FA {A}G>F F2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Sir Walter Scott's song, "Why weep ye by the tide, lady," is sung to the above air.
+%%endtext
+%%sep 1 1 300

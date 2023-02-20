@@ -1,0 +1,43 @@
+X: 155
+T: Saviour, Like a Shepherd
+C: music: William B. Bradbury
+C: words: Dorothy A. Thrupp
+%R: air, march
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F
+V: 1 
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [G2E2] [G2E2] [GE] [FD] [GE] [AF] | ([B2G2-] [e2G2]) ([B2G2] [G2E2]) | [F2D2] [G2E2] [AF] [cA] [BG] [AF] | [G6E6] z2 |
+w: 1.~Sav-iour, like a shep-herd lead* us,* Much we need Thy tend'-rest care;
+w: 2.~We are Thine; do Thou be-friend* us,* Be the Guard-ian of our way;
+w: 3.~Thou hast prom-ised to re-ceive* us,* Poor and sin-ful tho' we be;
+w: 4.~Ear-ly let us seek Thy fa-*vor,*      Ear-ly let us do Thy will;
+[V:2] [b2e2] [b2e2] [be] [ba] [bg] [bf] | [b4e4] ([e'2e2-] [b2e2]) | [b2B2] [b2B2] [bB] [bB] [bB] [bB] | [b6e6] z2 |
+%
+[V:1] [G2E2] [G2E2] [GE] [FD] [GE] [AF] | ([B2G2-] [e2G2]) ([B2G2] [G2E2]) | [F2D2] [G2E2] [AF] [cA] [BG] [AF] | [G6E6] ||
+w: In Thy pleas-and pas-tures feed* us,*  For our use Thy folds pre-pare;
+w: Keep Thy flock, from sin de-fend* us,* Seek us when we go a-stray;
+w: Thou hast mer-cy to re-lieve* use,*    Grace to cleanse, and pow'r to free;
+w: Bless-ed Lord and on-ly Sav-*iour,*    With Thy love our bos-oms fill;
+[V:2] [b2e2] [b2e2] [be] [ba] [bg] [bf] | [b4e4] ([e'2e2-] [b2e2]) | [b2B2] [b2B2] [bB] [bB] [bB] [bB] | [b6e6] ||
+%
+[V:1] [BG] [BG] | [c2A2] [e4c4] [dB] [cA] | [B2G2] [G4E4] [GE] [GE] | [F2D2] [c2A2] [B2G2] [A2F2] | [G6E6] ||
+w: Bless-ed Je-sus, Bless-ed Je-sus, Thou hast bought us, Thine we are.
+w: Bless-ed Je-sus, Bless-ed Je-sus, Hear, oh, hear us when we pray.
+w: Bless-ed Je-sus, Bless-ed Je-sus, We will ear-ly turn to Thee.
+w: Bless-ed Je-sus, Bless-ed Je-sus, Thou hast loved us, love us still.
+[V:2] [e'e] [e'e] | [e'2a2] [e'4a4] [e'a] [e'a] | [e'2e2] [b4e4] [be] [be] | [b2B2] [b2B2] [b2B2] [b2B2] | [b6e6] ||
+%
+[V:1] [BG] [BG] | [c2A2] [e4c4] [dB] [cA] | [B2G2] H[e4G4] [EE] [FE] | [G2E2] [B2G2] [A3F3] [FD] | [E6E6] z2 |]
+w: Bless-ed Je-sus, Bless-ed Je-sus, Thou hast bought us, Thine we are.
+w: Bless-ed Je-sus, Bless-ed Je-sus, Hear, oh, hear us when we pray.
+w: Bless-ed Je-sus, Bless-ed Je-sus, We will ear-ly turn to Thee.
+w: Bless-ed Je-sus, Bless-ed Je-sus, Thou hast loved us, love us still.
+[V:2] [e'e] [e'e] | [e'2a2] [e'4a4] [e'a] [e'a] | [e'2e2] H[b4e4] [ge] [ae] | [b2e2] [b2e2] [b3B3] [aB] | [g6e6] z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

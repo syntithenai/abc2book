@@ -1,0 +1,46 @@
+X: 1
+T: Arcanul B\uatr\^anesc  [Dm]
+O: Bukovina, NE Romania
+P: AA+(BCDA)x3
+M: C
+L: 1/16
+K: Ddor^G
+"A"[|\
+"Dm"{^c}[d6d6] ([e^c][fd]) "E"~[g6e6]- [ge]([fd][ec][fd]) |\
+"Dm"([ge][af])([af][ge]) [ge]([fd][e^c][fd]) {g}[a4f4] A4 |\
+"Dm"{^c}[d6d6] ([e^c][fd]) "E"~[g6e6]- [ge]([fd][ec][fd]) |\
+"A7"([ge][af])([af][ge]) [ge]([fd][e^c][fd]) "Dm"[d6A6] !fine!z2 |]
+P: vocal:
+"B"|:\
+"Dm"c4 B4 A4 G4 | A3B c3A d6 z2 |\
+A2c2 B2A2 "E"~G4 F4 | "Dm"D2A,2 D2F2 D6 z2 \
+"C"::\
+"Dm"A6 A2 "E"G4 F4 | "Dm"{G}A2A2 ~GFF2 {G}A6 z2 |
+"Dm"A6 A2 "E"~G4 F4 | "A7"{G}A2A2 ~GFF2 "Dm"D6 z2 \
+"D":|\
+"Dm"D6 F2 "E"~G6 F2 | "Dm"{G}A2A2 ~GFF2 {G}A6 z2 |\
+"Dm"D6 F2 "E"~G6 F2 | "A7"A2A2 ~GFF2 "Dm"D6 z2 |]
+
+%%sep 1 1 500
+X: 2
+T: Arcanul B\uatr\^anesc  [Am]
+O: Bukovina, NE Romania
+P: AA+(BCDA)x3
+M: C
+L: 1/16
+K: Ador^d
+"A"[|\
+"Am"{^G}[A6A6] ([B^G][cA]) "B"~[d6B6]- [dB]([cA][BG][cA]) |\
+"Am"([dB][ec])([ec][dB]) [dB]([cA][B^G][cA]) {d}[e4c4] E4 |\
+"Am"{^G}[A6A6] ([B^G][cA]) "B"~[d6B6]- [dB]([cA][BG][cA]) |\
+"E7"([dB][ec])([ec][dB]) [dB]([cA][B^G][cA]) "Am"[A6E6] !fine!z2 |]
+P: vocal:
+"B"|:\
+"Am"g4 f4 e4 d4 | e3f g3e a6 z2 |\
+e2g2 f2e2 "B"~d4 c4 | "Am"A2E2 A2c2 A6 z2 \
+"C"::\
+"Am"e6 e2 "B"d4 c4 | "Am"{d}e2e2 ~dcc2 {d}e6 z2 |
+"Am"e6 e2 "B"~d4 c4 | "E7"{d}e2e2 ~dcc2 "Am"A6 z2 \
+"D":|\
+"Am"A6 c2 "B"~d6 c2 | "Am"{d}e2e2 ~dcc2 {d}e6 z2 |\
+"Am"A6 c2 "B"~d6 c2 | "E7"e2e2 ~dcc2 "Am"A6 z2 |]

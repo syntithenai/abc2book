@@ -1,0 +1,18 @@
+X:3
+T:Clef Changes Within Tune
+T:In-Line Info Fields by [..]
+%%begintext align
+Here is an example for a block of text which is associated with a specific
+tune. It will only be printed if this tune (number 3) is selected.
+The text should be placed after the "T:" field and before the
+block is terminated by a blank line.
+Text which is outside a block is
+always printed; for example, the title at the top of the page.
+%%endtext
+M:C
+L: 1/8
+K:C
+| cdef gabc' [K:C clef=bass] | cdef gabc' [K:D clef=alto] | cdef gabc' [K:D clef=treble] | cdef gabc' |
+%%sep
+%%text Note: this line and the separator above are also associated with this tune.
+

@@ -1,0 +1,28 @@
+X: 4243
+T: Lord McDonald's Strathspey
+T: a Strathspey. Composed by the late Lord McDonald a few days before his Death
+C: Lord McDonald
+%R: strathspey, air
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.24 #3 (and top 2 staffs of p.25)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: "Slowish"
+K: G
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 12-bar lines, for compactness and proofreading.
+V: 1 staves=2
+|:\
+G4 G2D2 | TG3AG3D | GG3 g3e | d3BA3B ||\
+GG3 gaba | g3d eg3 | dB3 g3B |1 cBAG F2A2 :|2 cBcd edef |]\
+gfga g2d2 | B2g2 d2g2 | g3g agfe | Tf3g a2b2 ||
+gaba g2e2 | dB3 g3e | d3B cBAG | TF3G AB3 ||\
+G3g fgaf | g3d BcdB | G3g gabg | Tf3g a2b2 ||\
+gaba bagf | gfed efge | dB3 g3B | cBAG A2B2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+G4 g4 | G4 g4 | B4 c4 | B2G2 d4 || G4 g4 | B4 c4 | B4 g4 |1 d4 D4 :|2 e4 c4 |]
+B4 G4 | g4 B4 | G4 c4 | d4 D4 || G4 g4 | G4 c4 | B4 G4 | d4 D4 || G4 d4 |
+g4 G4 | B4 e2^c2 | d4 d4 || g4 g4 | B4 c4 | B4 G4 | d4 D4 |]

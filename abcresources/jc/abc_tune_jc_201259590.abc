@@ -1,0 +1,45 @@
+%%header	-$P	Telemann Sonata im Kanon, Op 5 No 1 in G	$P
+
+X: 1
+T: Sonata im Kanon,  Op 5 No 1  in G
+T: f\"ur zwei Querfl\"oten oder Violinen
+C: Georg Philipp Telemann
+Z: John Chambers <jc@trillian.mit.edu>
+M: 6/4
+L: 1/8
+K: G
+P: Vivace
+[| "1"z2d2 g2-g2 fedc | "2"BcBABG A2D2z2 | z2d2 g2-g2 fgab | c'2 (ba)(bc') {b}Ta3 gfg |
+  a2 (gf)(ga) f(d/e/) fgab | c'2 babc' {b}Ta4 z2 | zd dddd dDdD d/c/B/A/ |
+  B/c/B/A/ BGcA B/c/B/A/ BGAF | G3 gaf g3 BcA | B/c/B/A/ Bef^d e/f/e/^d/ egfe |
+  ^df TB2 z2 Bg TB2 z2 | Ba2(b/a/) gf gb2 a/g/ fe | f2 B2 T^d2 e2 E2 z2 | z4 a2- a2 ^ga b |
+  e2 (c'b)(c'a) b2 e2 d2 | TcB A2 z2 z4 ^g2 | ae^cA e(d/c/) dAFD d(^c/B/) | ^c2 e2 g2 fe d2 z2 |
+  zAAA (A/B/^c/A/) dD dd (d/e/f/d/) | g2 z2 g2- g2 fedc | BcBABG A2 D2 z2 |  z2d2 g2-g2 fgab |
+  c'2 (ba)(bc') {b}Ta3 gfg | a2 (gf)(ga) f(d/e/) fgab | c'2 babc' {b}Ta4 z2 | zd dddd dDdD d/c/B/A/ |
+  B/c/B/A/ BGcA B/c/B/A/ BGAF | G3 gaf g3 BcA | ((3_BcA) B2z2 ((3=BcA) B2z2 | ((3gaf) ((3gaf) ((3gaf) g3 f/e/ dc' |
+  ((3bc'a) ((3bc'a) ((3bc'a) b(a/g/) a2 Tf2 | gdgdgd gB c2 TA2 | HG(B/A/) G(B/A/) G(B/A/) G2 A2 TF2 | HG4 z2 z6 |]
+%%vskip 20
+P: Adagio
+M: 2/4
+L: 1/16
+K: Em
+[| "1"E2(b<g) ^D2(a<f) | "2"G2(g<e) F2(f<^d) | E2c2 z2B>A | G>Ee>f T^d4 | e>Bg>a Tf2b>f | g>fe2 z2d2- |
+  d2^c>B T^A2B2 | E2e2- e>^cd>B | g>fg>e ^a2b2 | z2(e<^c) z2(d<B) | ^c2T^A2 B2f2- | f2 e4 ^d>F|
+  G2(b<g) F2(a<f) | E2(g<e) ^D2(f<^d) | z2 c4 B>A | G>Ee>f T^d4 | e>Bg>a Tf4 | He2E2 A2B2 | HE4 z4 |]
+%%newpage
+P: Allegro
+M: 2/4
+L: 1/8
+K: G
+[| "1"dg2f | "2"Be2d | Gc2B | e2 d2 | c(B/A/) BG | TF2 G2 | Ad BG | D2 z2 |
+  dg2f | Be2d | Gc2B | e2 d2 | c(B/A/) BG | TF2 G2 | Ad BG | D2 d2- | d(c/B/) c(B/A/) |
+  B(A/G/) A(G/F/) | GB cd | G2 z2 || (G/A/)B (B/A/)G | dddg | (f/g/)a (b/a/)g | ad de |
+  (f/g/)f fg | (a/b/)a ab | T^c2 d2 | eA fA | g2 a(g/f/) | bB a2 | g(f/e/) fd | T^c2 d2 |
+  ea fd | A2 a2- | a(g/f/) g(f/e/) | f(e/d/) e(d/^c/) | dF GA | D2 z2 || dg2f | Be2d |
+  Gc2B | e2 d2 | c(B/A/) BG | TF2 G2 | Ad BG | D2 z2 | dg2f | Be2d | Gc2B | e2 d2 |
+  c(B/A/) BG | TF2 G2 | Ad BG | D2 d2- | d(c/B/) c(B/A/) | B(A/G/) A(G/F/) | GB cd | G2 z2 ||
+|| g(g/f/) ga | b2 e2 | ^dB ge | b2 e2 | ^dB g2 | Tf2 B(^c/B/) | ^AF d2 | ^c2 B(c/B/) | ^AF d2 |
+  ^c2 B(c/d/) | e(d/^c/) d(e/f/) | g2 f2 | e(b _ba) | (_ag f)B | e2 d2 | ^c(B/^A/) Bf | Ff Ff |
+  f(e/d/) e(d/^c/) | d(^c/B/) c(B/^A/) | BD EF | B2 zA | G(A/B/) =c/e/d/c/ || dg2f | Be2d |
+  Gc2B | e2 d2 | c(B/A/) BG | TF2 G2 | Ad BG | D2 z2 | dg2f | Be2d | Gc2B | e2 d2 |
+  c(B/A/) BG | TF2 G2 | Ad BG | D2 d2- | d(c/B/) c(B/A/) | B(A/G/) A(G/F/) | HGB cd | HG2 z2 |]

@@ -1,0 +1,19 @@
+X: 10314
+T: MISS DRUMMOND OF PERTH'S STRATHSPEY
+%R: strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.31 #_
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+a |\
+A>Ae>d Bde2 | dgBg dgBG |\
+A<Aed Bdeg | aegB {B}A2A ::\
+g |\
+a<ae>a c>ae2 | g<g d<g B<g d2 |\
+a>a e>a [gc]>[bg]e>g | a>eg>B {B}A2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

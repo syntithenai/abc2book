@@ -1,0 +1,50 @@
+%%topmargin 20pt
+%%scale 0.7
+X: 1
+T: Waltz medley
+P: Hewlett
+C: O'Carolan
+C: From Paul Milde 12/9/82, via John Chambers
+C: arr. T. Traub 2-Jan-2012
+M: 3/4
+R: waltz
+K: D
+AF| "D"D2 DE FG| "A"AB c2 A2| "Bm"d2 f2 fg| "G"fe d3 B| \
+    "D"A2 F2 F2| "G"G3 B AG| "D"AF "G"D2 "A"D2|1 "D"D4:|2 "D"D4 AB|]
+|:\
+"D"A2 F2 AB| A2 F2 AB| A2 d2 d2| "Bm"dc BA GF| \
+"Em"G2 E2 GA| G2 E2 EF| "A"GF GB AG| "D"AF D3 E|
+"D" FE F2 G2| "A"AB c2 A2| "Bm"fe fg ag| "G"fe d3 B|\
+"D"A2 F2 F2| "G"G3 B AG| "D"AF "G"D2 "A"D2| "D"D6:|
+
+X: 1
+P: Irish Lamentation
+C: trad., arr. T. Traub 6-27-03
+R: Waltz
+M: 3/4
+K: G
+L: 1/8
+|: GA|"G"B2 B2 Bc|"G"B3 A G2|"Am"a2 A2 AB|"D"A4 GA|"G"B2 cB AG|"C"E3 GFE|"D"D2 G2 G2 |"G"G4 :|
+GA|"G"B2 d2 d2|"G"d>e d>B A>B|"G"G2 g2 g2 |"C"g4 ed|"G"B2 d2 d2|"G"d>e d>B A>B|"C"G2 g2 g2|"D"g4 de|
+"F"=f>g f>g f>g| "C"e>d e>g e>g|"G"d2 ed cB|"D"A4 GA|"Em"B2 cB AG|"C"E3 GFE|"D"D2 G2 G2|"G"G4 |]
+
+X: 2
+P: Amelia's Waltz
+C: Bob McQuillen 1981
+R: waltz
+N: "Now a tune for Deanna's sweet daughter; if you haven't met her, you really oughtter."
+Z: 1997 by John Chambers <jc@trillian.mit.edu>, mods by T. Traub 5-27-2002
+M: 3/4
+L: 1/8
+K: D
+|: A,2 \
+| "D"D3 E D2 | D2 F3 E | D2 F2 B2 | "D7"A4 A2 \
+| "G"B2 G3 B | "D"A2 F3 E | "Bm"D2 B,3 B, | "G"B,4 "A7"A,2 |
+| "D"D3 E D2 | D2 F3 E | "Bm"D2 F2 BF | "F#m"A3 F A2 \
+| "G"B3 c d2 | "Em"d2 e2 f2 | "A7"e3 c A2 | "A"A4 :|
+|: ag \
+| "D"f2 a3 f | "D"a2 f2 d2 | "A"e3 c B2 | A3 c fe \
+| "Bm"d3 B d2 | f3 e d2 | "F#m"c3 B A2 | F4 A2 |
+| "G"G2 B3 G | "D"F2 A2 d2 | "A"e2 c2 A2 | "D"d4 f2 \
+| "G"g3 f e2 | "D"a2 f2 e2 | "A"d3 e c2 | "D"d4 z2 :|
+

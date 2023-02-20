@@ -1,0 +1,40 @@
+X:1
+T:Farewell to the Creeks
+M:6/8
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+|: a | \
+{ef}e2c{gcd}c3/2{g}B/2{d}c | \
+{Gdc}d3/2{g}e/2f{gef}e2d | \
+{g}c2{GdG}e{g}A3/2{d}c/2e |
+{gef}e3/2d/2c{gBd}B2a{ef}e2c{gcd}c3/2{g}B/2{d}c | \
+{Gdc}d3/2{g}e/2f{gef}e2d | \
+{g}c2{GdG}e{gef}e3/2d/2c |
+{gBd}B3{G}A2 :: \
+f | \
+{gef}e3/2{g}c/2e{g}f/2a3/2g | \
+{fg}f3/2{g}d/2f{gef}e3/2{g}c/2{d}A |
+{g}c2{GdG}c{g}c/2e3/2c | \
+{gde}d3/2c/2d{gBd}B2f{gef}e3/2{g}c/2e{g}f/2a3/2g | \
+{fg}f3/2{g}d/2f{gef}e3/2{g}c/2{d}A |
+{g}c2{GdG}e{gef}e3/2d/2c | \
+{gBd}B3{G}A2 :: \
+a |
+{GdG}c3{Gdc}d2f | \
+{g}c/2e3/2c{gcd}c3/2{g}B/2{d}A | \
+{Gdc}d2f{gcd}c2e |
+{gef}e3/2d/2c{gBd}B2a{GdG}c3{Gdc}d2f | \
+{g}c/2e3/2c{gcd}c3/2{g}B/2{d}A | \
+{g}c2{GdG}e{gef}e3/2d/2c |
+{gBd}B3{G}A2 :: \
+e | \
+{ag}a2e{gfg}f2a | \
+e2f{gef}e3/2{g}c/2{d}A |
+{Gdc}d2f{gcd}c2e | \
+{gef}e3/2d/2c{gBd}B2e{ag}a2e{gfg}f2a | \
+e2f{gef}e3/2{g}c/2{d}A |
+{g}c2{GdG}e{gef}e3/2d/2c | \
+{gBd}B3{G}A2 :|

@@ -1,0 +1,35 @@
+X: 1
+T: How 'Ya Gonna Keep 'Em Down On the Farm?  [Bb]
+T: (After They've Seen Paree)
+C: music: Walter Donaldson
+C: words: Sam M Lewis, Joe Young
+R: march
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Bb
+% %continueall 0
+% = = = = = = = = = =
+z4 | z4 "^Verse"[|\
+"Bb"B2 G2 | F G3 | A2 G2 | F G3 | "F7"A2 G2 | F2 A2 | "Gm"G4- | "F7"Gz z2 ||
+"Bb"B2 G2 | F2 G2 | "F"AB cE- | "F7"E3 =B | "C7"c2 A2 | G2 A2 | "Gm"Bc dF- | "F7"F4 ||
+"Bb"B2 G2 | F G3 | A2 G2 | F G2 ^G | "F7"A2 =G2 | F2 A2 | "Gm"G4- | "F7"G2 G2 ||
+"Bb"F2 F2 | F2 F2 | F2 dc- | cA ^GA | "C7"c2 B2 | A2 G2 | "F7"F4- | Fz z2 |]
+"^Chorus"|:\
+"Bb"BF GD | "Ddim"F G3 | "F7"A^G AF- | F3 z | A^G AF- | "Bb"F2 A2 | G4- | "F7"Gz z2 ||
+"Bb"BF GD | "Db7"F G2 ^G | "F"A2 B2 | "G#dim"=B2 c2 | "C7"d^c d=c- | c3 c | "F"d^c d=c- | "F7"cz z2 ||
+"Bb"BF GD | "Bbdim"F G2 ^G | "F7"A2 =G2 | F3 z | A2 G2 | F e3 | "D"d4- | d2 z2 ||
+"Bb7"zB cB | dB cB | d B2 B- | Bz z2 | "Eb"zB cB | dB cB | "C7"d B2 B- | Bz z2 ||
+"Bb"BF GD | "Ddim"F G3 | "F7"A^G AF- | F3 z | "Cm7"ed ed- | "F7"d2 c2 | "Bb"B4- | Bz "(F7)"z2 :|
+% = = = = = = = = = =
+%W:Verse:
+%W:  Reuben, Reuben, I've been thinking,  said his wifey dear;
+%W:  Now that all is peaceful and calm,   The boys will soon be back on the farm;
+%W:  Mister Reuben, started winking,      and slowly rubbed his chin;
+%W:  He pulled his chair up close to mother, and he asked her with a grin:
+%W:Chorus:
+%W:  How 'ya gonna keep 'em down on the farm,   after they've seen Paree?
+%W:  How 'ya gonna keep 'em away from Broadway, jazzin' around, and paintin' the town?
+%W:  How 'ya gonna keep 'em away from harm,     that's a mystery;
+%W:  They'll never want to see a rake or plow,  and who the deuce can parleyvous a cow?
+%W:  How 'ya gonna keep 'em down on the farm,   after they've seen Paree?

@@ -1,0 +1,22 @@
+X: 1779
+T: the Bantry Hornpipe
+R: hornpipe, reel
+%S: s:8 b:32(4+4+4+4+4+4+4+4)
+O: Crenin
+B: O'Neill's 1850 #1779
+Z: Bob Safranek, rjs@gsp.org
+M: C|
+L: 1/8
+K: G
+(dc) \
+| BAG(B cB)cA | dbg(e de)dB | cecA ((3Bcd) (BG) | FGA(G FD)EG |
+| BAB(G cB)cA | dbg(e de)dB | cedc ((3BAG) ((3AGF) | G2B2 G2 :|
+|: (cB) \
+| AGA(B cB)ce | dfg(e dc)dB | cecA ((3Bcd) BG | FGA(G FD)EF |
+| (GF)(GA) BGFD | GABG ABcA | dgfe ((3ded) ((3cBA) | G2B2 G2 :|
+|: Bc \
+| dgBg dgBg | ((3gfg) bg fdef | gage dedc | ((3BAG) ((3AGF) G(DB,D) |
+| G(gge) dBGB | cBc(d ef)ge | dgfe ((3ded) ((3cBA) | G2B2 G2 :|
+|: (dc) \
+| B(GGF) G(DB,D) | ((3GFG) (BG) ABcA | (dc)(de) f(dcA) | ((3ded) (cA) d2(cA) |
+| B(GGF) G(DB,D) | ((3GFG) ((3BAG) ABcA | d(gfe) ((3ded) ((3cBA) | G2B2 G2 :|

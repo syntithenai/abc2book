@@ -1,0 +1,59 @@
+%%text RJ Set 104 NEFFA 2010 Scottish Set
+
+
+X: 1
+T: MacLeod's Farewell
+C: Donald Shaw
+M: C|
+L: 1/8
+K: D
+DE |\
+"D"F2BF AFEF | ~D2 DE FABd |\
+"Em7"~e2fd efed | ABeB "A"dBAG |\
+"D"F2BF AFEF | ~D2 DE FABd |
+"Em7"~e2fd efdB |\
+[1 "A"ABde "D"dD :|[2 "A"ABde "D"d \
+|: ABd |\
+"D"A3f edfd | BA Af edfd | "Em7"ABdA BdAB |
+"A"dBAF EDB,D | "Bm"F2BF AFEF |\
+"D"D2 DE FABd | "Em7"e2fd efdB |\
+[1 "A"ABde "D"d :|[2 "A"ABde "D"d2 |]
+
+
+X: 2
+T: Kate and Rose's
+M: C|
+L: 1/8
+K: Dm
+E | \
+"Dm"FD ~D2 AD ~D2 |dDDd dcAG |\
+[1,3 FD ~D2 AGFD |"C"EDCD "A"EFGE :|\
+[3,4 "F"F2 cF dFcF |"C"E3 E EDC :|
+K: Dmix
+|:e | \
+"D"fd ~d2 fdad | f3 f fede | "D"fd ~d2 fdad | "C"cBAB "Am"cBAe |
+"D"fd ~d2 fdad | f3 f fedB | "C"c2 gc acgc |["." "G"B3 B BAG :|["tran." "G"B3z"E7"z4 |]
+%%text The B part works well an octave lower.
+% %text 05/22/10
+
+
+X: 3
+T: Wing Commander Donald Mackenzie's
+C: Phil Cunningham
+M: C|
+L: 1/8
+R: reel
+K: F#min
+|:\
+"A"cE ~E2 cEBE | "F#m"AFFE FAEA |\
+"D"F2FE FGAB | "E7"cBAB cffe ||\
+"A"cE ~E2 cEBE | "F#m"AFFE FAEA |
+"D"F2FE FGAB |[1 "E7"~c2BG "A"A3B :|\
+[2 "E7"~c2Bc "A"Aa ~a2 ::\
+"A"aefe c2Bc | "F#m"AFEF ABce |\
+"D"faba fbaf |
+"E7"ecAB BAce ||\
+"A"aefe c2Bc | "F#m"AFEF ABce | "D"faba fbaf |\
+[1 "E7"ecBc "A"Aa ~a2 :|[2 "E7"ecBc "A"A3B |]
+%%text Choke the ending!
+

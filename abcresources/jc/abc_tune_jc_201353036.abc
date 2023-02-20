@@ -1,0 +1,32 @@
+X: 1
+T: Wimbleton House
+N: Pub: J. Walsh, London, 1748
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/5/50/IMSLP98359-PMLP202128-walsh_caledonian_country_dance_vol2.1.pdf p.40 #300
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:40 #300
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+fgfe d2B2 | AdAF E/E/EE2 | fgfe d2B2 | AdAF D/D/DD2 :|
+|:\
+AF-FG/A/ BGBd | cA-AB/c/ dBdf | ec-cd/e/ f>gfe | dBAF E/E/EE2 |
+AF-FG/A/ BG-GA/B/ | cA-AB/c/ dB-Bc/d/ | ec-cd/e/ f>gfe | dBAd D/D/DD2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d'2d2 f2g2 | f2d2 a2A2 | d'2d2 f2g2 | fgaA d2D2 :|
+|:\
+d'2d2 g2e2 | a2f2 b2g2 | c'2a2 d'2a2 | bgfd a2A2 |
+d'2d2 g2e2 | a2f2 b2g2 | c'2a2 d'2a2 | bgaA d2D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man meet and Set with the 2d Wo. and turn single, then turn her .|
+%% the 2d Cu. does the same :|
+%% then all four Right hands across half round, and Left hands back again .|
+%% then back to back again with your Partner, then Right and Left quite round.
+%%endtext
+%%sep 1 8 500

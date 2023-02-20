@@ -1,0 +1,23 @@
+X:1
+T: The Mary and Dorothy
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:Em
+I:speed 150
+%W:      A1                                                  A2
+% voice 1 (1 lines, 42 notes)
+K:Em
+M:6/8
+L:1/16
+B2 |e4 e2 e3 f g2 f4 f2 f3 g a2 g3 a g2 f3 g f2 b4 B2 B4 B2 |e4 e2 e3 f g2 f4 f2 f3 g a2 g3 a g2 f3 g f2 b4 B2 B4 G A |
+%W: B1
+% voice 1 (1 lines, 29 notes)
+B4 B2 B3 A G2 d4 D2 D4 A B c4 c2 c3 B A2 e4 E2 E3 F G2 |A3 B c2 B4 B,2 E6E4 G A
+%W: B2
+% voice 1 (1 lines, 27 notes)
+B4 B2 B3 A G2 d4 D2 D4 A B |c4 c2 c3 B A2 e4 E2 E3 F G2 A3 B c2 B4 B,2 E6E4 ||

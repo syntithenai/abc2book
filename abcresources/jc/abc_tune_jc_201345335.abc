@@ -1,0 +1,62 @@
+
+X: 1
+T: Tom Kruskal's    [F]
+N: for the dance Sapphire Sea
+C: Emily Troll/Amelia Mason
+R: march
+S: Dance page at 36th Annual Playford Ball 2016-3-5 Framingham MA
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+AG |\
+"F"F2 cF | GF CF | "Bb"DF Fc | BA GF |\
+"Dm"c2 BA | GF DF | "Bb"CF FE | "C"F2 AG |
+"F"GF cF | GF CF | "Bb"DF Fc | BA GF |\
+"Gm"B3 A | GF DF | "C"CF FE | "F"FG AB ||
+"F"c2 BA | GF DC | "Bb"DB AB | AF GA |\
+"Dm"DB AB | AF GA | "Bb"Ac cA | "C"G2 AB |
+"F(Bb)"c2 BA | GF Ac | "Dm"dA AG | A2 GA |\
+"Gm"B3 A | GF DF | "C"CF FE | "F"F2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Tom Kruskal's    (G)
+N: for the dance Sapphire Sea
+C: Emily Troll/Amelia Mason
+R: march
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+BA |\
+"G"G2 dG | AG DG | "C"EG Gd | cB AG |\
+"Bm"d2 cB | "Em"AG EG | "G"DG "D7"GF | "G"G2 BA |
+"G"AG dG | AG DG | "C"EG Gd | cB AG |\
+"Am"c3 B | AG EG | "D7"DG GF | "G"GA Bc ||
+"G"d2 cB | AG ED | "C"Ec Bc | BG AB |\
+"Am"Ec Bc | BG AB | "G"Bd dB | "D7"A2 Bc |
+"G"d2 cB | AG Bd | "Em"eB BA | B2 AB |\
+"Am"c3 B | AG EG | "D7"DG GF | "G"G2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Tom Kruskal's    (A)
+N: for the dance Sapphire Sea
+C: Emily Troll/Amelia Mason
+R: march
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+cB |\
+"A"A2 eA | BA EA | "D"FA Ae | dc BA |\
+"C#m"e2 dc | "F#m"BA FA | "D"EA "E7"AG | "A"A2 cB |
+"A"BA eA | BA EA | "D"FA Ae | dc BA |\
+"Bm"d3 c | BA FA | "E"EA AG | "A"AB cd ||
+"A"e2 dc | BA FE | "D"Fd cd | cA Bc |\
+"F#m"Fd cd | cA Bc | "D"ce ec | "E"B2 cd |
+"A(D)"e2 dc | BA ce | "F#m"fc cB | c2 Bc |\
+"Bm"d3 c | BA FA | "E"EA AG | "A"A2 |]

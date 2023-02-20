@@ -1,0 +1,120 @@
+X:1098
+T:Fantasia 5
+T:TWV 33:5
+C:Georg Philipp Telemann
+O:Germany
+F:http://abc.musicaviva.com/tunes/telemann-georg-philipp/twv33-005/twv33-005-pno2.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+m:Mn3/2 = o/n/8o/8n/8o/8n/
+m:Tn3 = on/8o/8n/8o/8n/8o/8n/8o/8n/8o/8n/8o/8n/8m/8n/4
+M:C
+L:1/16
+Q:1/4=105
+K:F
+V:1
+c2c2 c2de f2f2 f2ga|b2b2 b2ag agf2 z4|C2C2 C2DE F2F2 F2GA|\
+B2B2 B2AG AGF2 z2 a/g/f|
+V:2
+F,2F,,2F,2E,2 D,2C,2B,,2A,,2|G,,2G,2 C,2E,2 F,2F,,2A,,2C,2|\
+F,2F,,2F,2E,2 D,2C,2B,,2A,,2|G,,2G,2E,2C,2 F,2A,2 C2F2|
+%
+V:1
+g2c'2 z2 f/e/d e2a2 z2 d/c/B|c2f2 z2 B/A/G Afef Bfef|cfef dfef cfef Bfef|\
+A2 _e4 dc d2 b4 ag|
+V:2
+E2E,2E2D2 C2C,2C2B,2|A,2A,,2A,2G,2 F,2F,,2 G,2G,,2|\
+A,2A,,2 B,2B,,2 A,2A,,2 G,2G,,2|F,2G,2A,2F,2 B,2G,2=E,2C,2|
+%
+V:1
+a2gf c2e2 f2F2 z2 G2|ACBC ACGC ACcC ACGC|ACBC ACGC AEF2 z2 A2|
+V:2
+F,2B,2C2C,2 z2 F,,2A,,2C,2|F,2G,2F,2E,2 F,2F,,2 z2 E,2|\
+F,2G,2F,2E,2 D,2A,E, F,2^F,2|
+V:1
+BDcD BDAD BDdD BDAD|BDcD BDAD B^FG2 z2 d2|_e2g2 c2e2 A2f2 z edc|
+V:2
+G,2A,2G,2^F,2 G,2G,,2 z2 F,2|G,2A,2G,2^F,2 G,2B,F, G,2=B,2|\
+C_ECE A,CA,C =F,FCA, F,C_B,A,|
+%
+V:1
+d2f2 B2d2 G2_e2 z dc=B|c2_e2 A2c2 ^F2c2 z c_BA|BDGD BDGD AD^FD ADFD|
+V:2
+B,DB,D G,B,G,B, _E,_EB,G, E,B,A,G,|A,CA,C ^F,A,F,A, D,DA,F, D,A,G,F,|\
+G,2B,2 G,2B,2 ^F,2A,2 F,2A,2|
+%
+V:1
+BgcA dB_ec dg^fg G2A2|BGcA dB_ec dg^fg G2d2|cBAG D2^F2 G2 d4 c=B|
+V:2
+[G,2-G,,2][G,2-A,,2] [G,2-B,,2][G,2-C,2][G,4B,,4] z2 ^F,2|[G,2-G,,2][G,2-A,,2] [G,2-B,,2][G,2-C,,2][G,4B,,4] z2 ^F,2|\
+G,2C,2 D,2C,2 B,,2G,,2 =F,2E,D,|
+%
+V:1
+c2 e4 d^c d2fe d=c=BA|G2G2 G2A=B c2c2 c2de|f2f2 f2ed edc2 z4|\
+A2A2 A2=B^c d2d2 d2ef|
+V:2
+E,2C,2 G,2F,E, F,2D,2 z2 F,2|E,2D,2 C,2=B,,2 A,2G,2 F,2E,2|\
+D2C2 =B,2G,2 C2C,2E,2C,2|F,2F,,2F,2E,2 D,2F,2_B,2A,2|
+%
+V:1
+g2g2 g2fe fed2 z2 d/c/B|c2f2 z2 B/A/G A2f2 z2 G/F/E|\
+F2 B/A/G A2 d/c/B c2 f/e/d e2 a/g/f|
+V:2
+G,2E,2A,2A,,2 D,2F,2 B,,2B,2|A,2A,,2A,2G,2 F,2F,,2 F,2B,,2|\
+A,,2G,,2 F,,2B,,2 A,,2D,2 C,2F,,2|
+%
+V:1
+g2c2 z2 g2 _acbc acgc|_acc'c acgc acbc acgc|_aef2 z2 _d2 =B2c2 z2 _B2|\
+A2 B4 AG Afef Bfef|
+V:2
+C,2D,2 E,2C,2 F,2G,2F,2E,2|F,2F,,2 z2 E,2 F,2G,2F,2E,2|\
+F,2_A,E, F,2F,,2 z2 _E,D, E,2=E,2|F,2D,2G,2C,2 F,2F,,2 G,2G,,2|
+%
+V:1
+cfef dfef cfef Bfef|A2 _e4 dc d2 b4 ag|a2gf c2e2 f2F2 z2 c2|\
+d2F2 B2d2 z FED EGFE|
+V:2
+A,2A,,2 B,2B,,2 A,2A,,2 G,2G,,2|F,2G,2A,2F,2 B,2G,2C,2E,2|\
+F,2B,2C2C,2 F,2G,2A,2F,2| B,DB,D G,B,G,B, E,DC=B, C_B,A,G,|
+%
+V:1
+c2E2 A2c2 z _EDC DFED|B2D2 G2B2 =ECGC ECGC|FCAC FCAC GCBC GCBC|
+V:2
+A,CA,C F,A,F,A, D,2/CB,A, B,A,G,^F,|G,B,G,B, E,G,E,G, C,2E,2 C,2E,2|\
+C,2F,2 C,2F,2 C,2G,2 C,2G,2|
+%
+V:1
+ACcC ACcC E2 B4 AG|AFBG cAdB cfef F2BG|AFBG cAdB cfef F2B2|A2GF C2E2 HF4 z4|]
+V:2
+C,2A,2 C,2A,2 C,2D,2E,2C,2|\
+[F,2-F,,2][F,2-G,,2] [F,2-A,,2][F,2-B,,2][F,4F,,4] z2 E,2|\
+[F,2-F,,2][F,2-G,,2] [F,2-A,,2][F,2-B,,2][F,4F,,4] z2 E,2|\
+F,2B,,2 C,2C,,2 HF,4 z4|]
+%
+T:Largo
+V:1
+M:6/8
+L:1/8
+Q:1/4=40
+K:Dmin
+D2FA2d|MB3/2A/B z z G|e2B A>BG|FED z z A|f2e f>ag|
+V:2
+M:6/8
+L:1/8
+Q:1/4=40
+K:Dmin
+[D,2F,2A,2][D,F,A,][D,2F,2A,2][D,F,A,]|[^C,2E,2G,2][C,E,G,] z2 z |\
+[A,,2^C,2E,2A,2][A,,C,E,A,][A,,2C,2E,2A,2][A,,C,E,A,]|\
+[D,2F,2A,2][D,F,A,] z z ^C|[DD,-][D,A,]G, [A,D,-][D,=C]=B,|
+%
+V:1
+e2d e>gf|d2^c d>fe|^c_BA MF3/2E/F|E2A,A3-|AdB TG3|[^C6E6A6]|]
+V:2
+[CC,-][C,G,] F, [G,C,-][C,_B,]A,|[B,B,,-][B,,F,]E, [F,B,,-][B,,A,]G,|\
+[A,A,,-][A,,E,][A,,F,] [D,3/2^A,,3/2-][G,,/^C,/][G,,D,]|[A,,3^C,3] z z [F,A,]|\
+"Vivace D.C."[B,3D3]B,,3|A,,6|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

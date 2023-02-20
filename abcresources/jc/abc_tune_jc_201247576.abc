@@ -1,0 +1,26 @@
+X:1
+T: The Archbishop II
+N:
+C:Tune is "Miss Sally Surman's Delight"
+S: Play  4  times
+A:
+O:
+R:
+M:4/4
+K:A
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 28 notes)
+K:A
+M:4/4
+L:1/16
+A4 |c4 e8 d4 |c8 B8 |A4 E8 G2 A2 |B4 E8 A4 |c6 d2 e4 d4 |c4 a8 g2 f2 |g2 f2 e4 f4 ^d4 |e12 A4 |
+%W: A2
+% voice 1 (1 lines, 27 notes)
+c4 e8 d4 |c8 B8 |A4 E8 G2 A2 |B4 E8 A4 |c6 d2 e4 d4 |c4 a8 g2 f2 |g2 f2 e4 f4 ^d4 |e12 e4 |
+%W: B1
+% voice 1 (1 lines, 27 notes)
+f6 g2 a4 e4 |f4 e8 d2 c2 |f4 e8 d2 c2 |d4 c8 e4 |E4 A8 B4 |c4 f4 e4 d4 |c8 c4 B4 |A12 e4 |
+%W: B2
+% voice 1 (1 lines, 26 notes)
+f6 g2 a4 e4 |f4 e8 d2 c2 |f4 e8 d2 c2 |d4 c8 e4 |E4 A8 B4 |c4 f4 e4 d4 |c8 c4 B4 |A12 ||

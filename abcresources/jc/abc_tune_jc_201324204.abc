@@ -1,0 +1,86 @@
+X:576
+T:Plain Quadrille - Palermo Set
+T:First figure
+%%subtitlefont Times-Roman 28
+C:Sep. Winner, 1877
+L:1/8
+M:6/8
+N:http://memory.loc.gov/cgi-bin/ampage?collId=mussm&fileName=sm/sm1877/07400/07412/mussm07412.db
+Q:3/8=112
+K:G
+%%textfont Times-Roman-Bold 20
+%%center Play twice through; finish with Coda.
+"G"z6 | "G"z3 Bdg !segno! || "G"b2a gfe | "G"(d2B) {a}gfg | "D7"(^g2a) fed | "G"b2g Bdg |\
+"G"b2a gfe | "G"(d2B) {a}gfg | "D7"(^g2a) fed | "G"=g3- g{b}a^g |
+"A7"aAB ^cde | "D"f3- fed | "A7"x3 gfe & ^cBA GFE | "D"(f2d)z {b}a^g&(F2D)x3 |\
+"A7"aAB ^cde | "D"f3- fed | "A7"x3 gfe & ^cBA GFE | "D"d2z & D2x || "^CODA" "G"Bdg |
+"G"b2a gfe | "G"(d2B) {a}gfg | "D7"(^g2a) fed | "G"d'2z "E7"d'3 |\
+"A"^c'3 "D7"=c'3 | "G"b3 "Am/C"aba | "G/D"d3 "D7"fef | "G"g2z !fermata!g || [K:C]g^f |
+"C"agf agf | "C"(a2g g)=fe | "G7"ed^c dfB | "C"d2(=c c)g^f |\
+"C"ag^f agf | "C"(a Lg2 g)=fe | "G7"d^cd fed | "C"=c2z Bdg !D.C.! |]
+N:Replace by blank line and X field
+T:Second figure
+L:1/4
+M:2/2
+N:Notes doubled to convert from 2/4 to 2/2.
+Q:1/2=112
+K:D
+%%textfont Times-Roman-Bold 20
+%%center Play four times through, then from start to FINE.
+A | "A7"A2- A/G/F/G/ | "D"LB2- B/A/^G/A/ | "A7/E"Ld2- d/c/B/c/ | "D/F#"Le2- e/d/c/d/ |\
+"Em/G"Lc2- c/B/^A/B/ | "D/A"LB2- B/A/^G/A/ | "A7"B/A/^G/A/ B/A/^G/A/ | "D"D zd !fine! !fermata! ||
+a/a/ | "D".b.a.^g.a | "A7"c'b g2 | "A7"ef/g/ ba | "D"f3 a/a/ |\
+"D".b.a.^g.a | "A7"c'b g2 | "A7"ef/g/ ba | "D"d2 zF |
+"F#7/C#"FF ^G^A | "Bm"B2 BB | "F#7/A"c {cd} c ^Bc | "Bm"d2 dd |\
+"Em/G"ed cB | "D/A"AF cB | "A7"A^G =Ge | "D"D3 |]
+N:Replace by blank line and X field
+T:Third figure
+L:1/8
+M:6/8
+Q:3/8=112
+K:G
+%%textfont Times-Roman-Bold 20
+%%center Play four times through; finish with Coda.
+"G"[GB]2[GB] [GB]2[GB] | "G"[GB]2(d edG) | !segno! ||\
+"G"B6- | "G"B2(b c'bd) | "G"g6- | "G"g2g {ga}gfe |\
+"D7/F#"d6- | "D7"d2(d' c'ba) | "G"g6- | "G"g2b bbb |
+"C"c'2c' g2a | "G"b2z "B7/D#"b2 f | "Em"{ga}gfe "B7/F#"^def | "Em"e2b bbb |\
+"C"c'2c' g2a | "G"b2z "D7/F#"d'2a | "G"bag "D6/A"fga | "G/B"g2(d "C"edG) ||
+"^CODA" "G"B6- | "G"B2(b c'bd) | "G"g6- | "G"g2g {ga}gfe |\
+"D7/F#"d6- | "D7"d2(d' c'ba) | "G"g3- gfa | "G"g2zg2 !fine! ||
+[K:C]g | "C"{a}g^fg c'2b | "Dm/F"(b2a) (b2a) | "G7"{g}fef b2a | "C"(a2g) (a2g) |\
+"C"{a}g^fg c'2b | "Dm/F"(b2a) (b2a) | "G7"G2A (Bed) | "C"c2d edG !D.S.! |]
+N:Replace by blank line and X field
+T:Fourth figure
+L:1/8
+M:6/8
+Q:3/8=112
+%%MIDI chordname dim 0 3 6 9
+K:G
+%%textfont Times-Roman-Bold 20
+%%center Play A, 4 x (ABA).
+P:A
+DGB | "D7"e2d e2d | "G"e2d B2G | "D7"B2A E2F | "G"A2G DGB |\
+"D7"e2d e2d | "G"e2d B2G | "D7"B2A E2F | "G"G2z !fine!g2 D |
+P:B
+"G"G2F A2G | "G"B2F A2G | "Am/C"F2E A3- | "Am/C"A3- A2A |\
+"D7"A2^G B2A | "D7"d2c E2F | "G"A2G D3- | "G"D3- D2d |
+"G"g2f a2g | "G"b2f a2g | "Am/C"f2e a3- | "C#dim"a2_b a2g | "G/D"=b2e d2b | "D7"a2e f2a | "G"g6- | g2z |]
+N:Replace by blank line and X field
+T:Fifth figure
+L:1/4
+M:2/2
+N:Notes doubled to convert from 2/4 to 2/2.
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=112
+K:G
+%%textfont Times-Roman-Bold 20
+%%center Play four times through, then to FINE.
+G2 GD | G2 !fermata! z3/"G"d/!segno! || "G"de dz/d/ | "G"de dz/d/ | "G"dg fe | "D7/A"fe dz/d/ |\
+"D7"de dz/d/ | "D7"de dz/d/ | "D7"dc' ba | "G"ba gz/d/ |
+"G"de dz/d/ | "G"de dz/d/ | "G"dg fe | "D7/A"fe dz/d/ |\
+"D7"de dz/d/ | "D7"de dz/d/ | "D7"dc' ba | "G"gz gz !fine! ||
+"G"B2 d3/g/ | "G"b4 | "G"g2 d3/B/ | "D7"L(d2 c)z |\
+"D7"F2 A3/c/ | "D7"e4 | "D7"d2 ^c3/=c/ | "G"B4 |
+"G"B2 d3/g/ | "G"b4 | "G"g2 d3/B/ | "D7"L(d2 c)z |\
+"D7"F2 A3/c/ | "D7"e4 | "D7"d2 c3/F/ | "G"G2 gz/d/!D.S.! |]

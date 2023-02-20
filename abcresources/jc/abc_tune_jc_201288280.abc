@@ -1,0 +1,63 @@
+% BSFC Session Tune Book 2016 p.62
+% Hulls + Malcolm + MacArthur Set
+% Hull's Reel
+% Malcolm Finlay
+% MarArthur Road
+
+
+X: 1
+T: Hull's Reel
+M: 4/4
+L: 1/8
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+R: reel
+K: E
+"A"|: c |\
+"E"BE~E2 B2"(A)"Ac | "E"BE~E2 "A"cBce | "E"BE~E2 B2AB | "A"cBce "B7"fefg | "E"BE~E2 B2"(A)"Ac |
+"E"BE~E2 "A"cBce | "F#m"fgfe  c2Bc | "B7"efeB "E"cee "B":: f | "E"gB~B2 g2fg | "C#m"fc~c2 c2Bc |
+"F#m"fc~c2 c2fc | "B7"eB~B2 Bcef | "E"gB~B2 g2fg | "C#m"fc~c2 c2Bc | "F#m"fgfe  c2Bc | "B7"efeB "E"cee  :|
+
+
+X: 2
+T: Malcolm Finlay
+T: Calum Fhionnlaith
+T: Larry Down's Reel
+O: Trad.
+B: S: BSFC Tune Book  p.62 #2
+B: Ryan's Mammoth Collection #279 ("Larry Down's")
+R: reel
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: E
+c |\
+"E"BEGB egbg | "A"Tf2fe gfec |\
+"E"BEGB egbg | "B"Tfefg "E"e/e/e e :|
+f |\
+"E"gebe gbeg | "B"Tfege "A"c/c/c ca |\
+"E"gebe gbeg | "B"Tfefg "E"e/e/e e |]
+f |\
+"E"gebe gbeg | "B"Tfege "A"cdec |\
+"E"GEGB egbg | "B"Tfefg "E"e/e/e e |]
+
+
+X: 3
+T: MacArthur Road #2   [E]
+C: Dave Richardson
+M: C|
+L: 1/8
+Z: John Chambers <jc:trillian.mit.edu> from handwritten MS (by Barbara McOwen?)
+K: E
+c "A"|\
+"E"BG~G2 Bcef | g3e "E7"fece |\
+"A"f2ge fece | "F#m"aege "B7"fece |\
+"E"BG~G2 Bcef | g3e "E7"fece |
+"A"f2ge "F#m"fcec | "B7"Bcef "E"e3 :| z "B"|\
+"E"be~e2 bec'e | be~e2 "E7"fece |\
+"A"f2ge fece | "F#m"aege "B7"fece |
+"E"be~e2 bec'e | bege "E7"fece |\
+"A"f2ge "F#m"fcec | "B7"Bcef "E"e3z ||\
+"E"be~e2 bec'e | be~e2 "E7"fece |
+"A"f2ge fece | "F#m"aege "B7"fece |\
+"E"BG~G2 Bcef | g3e "E7"fece |\
+"A"f2ge "F#m"fcec | "B7"Bcef "E"e3 |]

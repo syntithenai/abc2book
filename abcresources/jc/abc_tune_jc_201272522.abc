@@ -1,0 +1,21 @@
+X:217
+T:Einstein's Reel
+C:Chris Dewhurst
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=110
+M:4/4
+%%MIDI chordname dim 0 3 6 9
+L:1/4
+K:E
+P:A
+"B7"GA | "E"Be "A"ce | "E"Be/c/ -"A"c/B/G/A/ | "E/G#"Be "C#m"cG/B/- | "F#m"B2 "B7"B/G/A/^A/ |\
+"E"Be "A"ce | "E/G#"Be/c/ -"C#m"c/B/c/e/ | "F#7"dc/d/ -d/d/e | "B7"fd c=c |
+"E"Be "A"ce | "E"Be/c/ -"A"c/B/G/A/ | "E"Be fg | "C#7"a3g |\
+"F#/A"fe "Edim/A#"=ge | "E/B"ge/c/ -"C#m"c/B/c/e/ | "F#7"fe/=g/ -"B7"g/e/f | "E"e4 ||
+P:B
+K:C
+"C7"ec dc | "C7"ec/d/ -d/c/d/^d/ | "E"eB ^c^G/B/- | "E"B2 B/c/d/^d/ |\
+"C7"ec dc | "C"ec/d/ -d/c/d/^d/ | "F#m"e^c/^d/ -d/d/e | "B7"^f^d ^c=c |
+K:E
+"E"Be "A"ce | "E"Be/c/ -"A"c/B/G/A/ | "E"Be fg | "C#7"a3g |\
+"F#/A"fe "Edim/A#"=ge | "E/B"ge/c/ -"C#m"c/B/c/e/ | "F#7"fe/=g/ -"B7"g/e/f | "E"e4 |]

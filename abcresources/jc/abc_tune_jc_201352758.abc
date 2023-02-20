@@ -1,0 +1,33 @@
+X: 1
+T: Willa's Birthday
+C: Paul Ukleja
+N: A tune for Willa, who organized the band Carageen.
+R: jig, waltz
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%
+V: 1 sname=D name=Descant
+|:\
+ f2f e3 | .d2d B3 | A3 d3 | .d2f e3 |
+.f2f e3 | .d2d B3 | A3 d3 |1 .e2e d3 :|2 .e2e d2f ||
+|:\
+.e2e .f2f | g2f e2z | .e2e .f2a | g2f e2z |
+ e2z f2z | .g2g f2d | .e2e g2e |1 d2e d2z :|2 d2e d2z |]
+%
+V: 2 sname=T name=Tune
+|:\
+"D"fga "A7"gfe | "Bm"def "G"dcB | "D"A3 d3 | "D"def "A7"ede |
+"D"fga "A7"gfe | "Bm"def "G"dcB | "D"A3 d3 | "A7"ecA "D"d2e :|2 "A7"ecA "D"dcd ||
+|:\
+"A7"eAA "D"fAA | "A7"gaf ecA | "A7"e2A "D"f2A | "G"gaf "A7"e2f |
+"A7"eAA "D"fAA | "A7"geg "G"fed | "A7"ece gfe |1 "D"dfe dcd :|2 "D"dfe d2z |]
+%
+V: 3 name=Bass sname=B clef=bass middle=d
+|:\
+d'3 a3 | b2a g2e | Md3 Mf3 | Ma3 c'd'e' |
+d'3 a3 | b3 gfe | Md3 Mf3 |1 age d2a :|2 age d2z ||
+|:\
+A3- A2c | e2c A2z | A3 d2f | g3 aec |
+A3 d3 | efg G3 | A3 c3 |1 d3- d2z :|2 d3- d2z |]

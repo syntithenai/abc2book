@@ -1,0 +1,35 @@
+X: 3021
+T: Prince Charles Farewell to Scotland
+%R: jig + march
+B: Niel Gow & Sons "Complete Repository" v.3 p.2 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: There's a single !segno! symbol at the end but none elsewhere, so it's ignored here.
+M: 6/8
+L: 1/8
+Q: "Slowly"
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+(A2{cd}e) (ec).e | (ec).e e2c | (A2{cd}e) edc | (Bc).B d2B |\
+(A2{cd}e) ece | (ec).e (ec).e | (dB).d (cA).e | (BcB) d2B ::
+[M:2/4][L:1/16] "_Legato"\
+(ABcA cABc) | (ABcA c3B) | (ABcA cABc) | (BcdB d3B) |\
+(ABcA cABc) | (ABcA cABc) | (3(d2B2d2) (3(c2A2c2) | (BcdB d3"^Fine"B) ::
+(Acec ece)c | (Acec e3)c | (Acec ecA)c | (BcdB d3)B |\
+(Acec ece)c | (Acec ecA)c | d2(3(Bcd) c2(3(ABc) | (BcdB d3)B ::
+!f!(ABcA cAB)c | (ABcA) ~c3.B | (ABcA cAB)c | (BcdB d3)B |\
+(ABcA cAB)c | (ABcA cAB)c | d2(3(Bcd) c2(3(ABc) | (BcdB d3"_D.C."B) :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+[e'3c'3a3] [e'3c'3a3] | [e'3c'3a3] [e'3c'3a3] | [e'3c'3a3] [e'3c'3a3] | [e'3b3g3] [e'3b3g3] |\
+[e'3c'3a3] [e'3c'3a3] | [e'3c'3a3] [e'3c'3a3] | [e'3b3g3] [e'3c'3a3] | [e'3b3e3] [e'3b3e3] ::
+[M:2/4][L:1/16] "_Legato"\
+[e'4c'4a4] [e'4c'4a4] | [e'4c'4a4] [e'4c'4a4] | [e'4c'4a4] [e'4c'4a4] | [e'4b4g4] [e'4b4g4] |\
+[e'4c'4a4] [e'4c'4a4] | [e'4c'4a4] [e'4c'4a4] | [e'4b4g4] [e'4c'4a4] | [e'4b4e4] "^Fine"[e'4b4e4] ::
+[e'4c'4a4] [e'4c'4a4] | [e'4c'4a4] [e'4c'4a4] | [e'4c'4a4] [e'4c'4a4] | [e'4b4g4] [e'4b4g4] |\
+[e'4c'4a4] [e'4c'4a4] | [e'4c'4a4] [e'4c'4a4] | [e'4b4g4] [e'4c'4a4] | [e'4b4e4] [e'4b4e4] ::
+!f!\
+[e4c4A4] [e4c4A4] | [e4c4A4] [e4c4A4] | [e4c4A4] [e4c4A4] | [e4B4G4] [e4B4G4] |\
+[e4c4A4] [e4c4A4] | [e4c4A4] [e4c4A4] | [e4B4G4] [e4c4A4] | [e4B4E4] "_D.C."[e4B4E4] :|

@@ -1,0 +1,36 @@
+X: 20711
+T: FLOWERS OF ITALY
+C:
+%R: reel, hornpipe
+B: Elias Howe "The Musician's Companion" 1843 p.71 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Bar 8, V:2 ends with F, which is clearly wrong; changed to G.
+M: 2/4
+L: 1/16
+K: E
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+E2 |\
+B,2EF GFGB | AGFG A2Ac | BAGF GABc | dcBA B2E2 |\
+B,2EF GFGB | AGFG A2Ac | Bcdc BAGF | EDEF E2 :|
+|: B2 |\
+edef gagf | edef e2Bc | dedc BABc | dedc B2B2 |\
+edef gagf | edef e2B2 | BABc dcBA | GFED E2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+E2B,D EDEG | FEDF F2FA | GFED EFGA | BAGF G2[E2B,2] |\
+E2B,D EDEG | FEDE F2FA | GABA GFED | [GE]FGA G2 :|
+|: z2 |\
+GFGd efed | GFGd B2GA | FGFE GFGA | BcBA G2G2 |\
+GFGd efed | GFGA G2G2 | GFGA BAGF | BAGF G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+e2e2 e2e2 | f2f2 f2f2 | B2B2 e2e2 | B2B2 B2e2 |\
+e2e2 e2e2 | f2f2 f2f2 | e2e2 e2e2 | B2B2 e2 :|
+|: z2 |\
+e2e2 e2e2 | e2e2 e2z2 | B2B2 B2B2 | e2e2 B2B2 |\
+e2e2 e2e2 | e2e2 e2B2 | e2e2 e2e2 | B2B2 e2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,28 @@
+X: 1
+T: Borne Races
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #75 (31)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+fef fed | cgB AGF | BAB- B(d/c/B) | AGF EGC |\
+fef fed | gfg gfe | edc Gc=B | c3- c3 :|
+|: c |\
+geg gec | afa afd | bag agf | gef T^c3 |\
+DFA dfa | GBd gab | agf ed^c | dAF D2c |
+fef fed | cgB AGF | BAB B(d/c/B) | AGF EGC |\
+f2d AGF | gbg edc | fga cfe | f3- f2 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1st Cu. foots it half round to the left then clap
+%% twice and cast off .| then foot it half round to the
+%% right and turn :|| then the 1st 2d and 3d Cu. foot it
+%% to their Partners all at the same time then turn
+%% them then hands round all Six and all turn single ||
+%%endtext
+%%sep 1 8 500

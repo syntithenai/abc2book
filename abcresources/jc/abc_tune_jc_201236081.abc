@@ -1,0 +1,61 @@
+X: 21621
+T: MY AIN KIND DEARIE -- With Variations
+R: air, strathspey
+B: K\"ohler's Violin Repository, v.2, 1885 p.162
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Rhythm corrected in bars 33, 35 to agree with the pattern in bars 32, 36, giving 4 beats in each bar.
+M: C|
+L: 1/16
+K: A
+u(c>B) |\
+{AB}c2E2E2F2 (A3B)A2c2 | (B3c) dcBA {AB}c2F2F2 (c>B) |\
+{AB}c2E2E2F2 (A3B)A2 ag | f3e fgae c2A2A2 (cB) |
+{AB}c2E2E2F2 (A3B) (Ac)ec | Bdce dcBA {AB}c2F2F2 (c>B) |\
+{AB}c2E2E2F2 (A3B) (Ae)ae | (f3{gf}e) (dc)Be c2A2A2e2 |
+(f>{gf}e)fg a2c2 (d>c)de f2A2 | B>ABc dcBA {AB}c2F2F2 (c>B) |\
+{AB}c2E2E2(FG) (A3B) (Ae)ag | (f3{gf}e) (fg)ae c2A2A2 |]
+[|\
+u(c>B) |\
+A2E2C2A,2 A2E2c2E2 | (BE)(cE) dcBA {AB}c2F2F2 (c>B) |\
+A2E2C2A,2 e2A2f2A2 | a(g/f/)ed (c>e)(B>e) c2A2A2 (ef/g/) |
+aece fece aece fece | agfe dcBA {AB}c2F2F2 (c>B) |\
+AECE FECE AECE FECE | a2(g/f/)ed (c>e)(B>e) c2A2A2 |]
+[|\
+u(c>B) |\
+A2(c>A) E2(A>E) C2(E>C) A,2c2 | BABc dcBA {AB}c2F2F2 (c>B) |\
+A2((3ecA) E2((3cAE) C2((3AEC) A,2(ag) | f3e fgae c2A2A2e2 |
+~f2af e2ac d2bd c2aA | (.B>.d)(.c>.e) (.d>.c)B>A {AB}c2F2F2 (c>B) |\
+A2((3ecA) D2((3cAE) C2((3AEC) A,2(ag) | (f3{gf}e) (fg)ae c2A2A2 |]
+[|\
+u(c>B) |\
+{AB}c2E2E2F2 (A3B)A2c2 | {c}(BA)Bc dcBA {AB}c2F2F2 (c>B) |\
+{AB}c2E2(E2F2) (A3B)A2 (a/g/f/e/) | (f/e/d/c/ d/c/B/A/) (G/A/B/A/ G/F/E/D/) C2A,2A,2e2 |
+fdf(g/a/) e3c dbB(c/d/) c3A | {c}BABc dcBA {AB}c2F2F2 (c>B) |\
+{AB}c2E2(E2F2) (A3B)A2 (a/g/f/e/) | (f/e/d/c/ d/c/B/A/) (G/A/B/A/ G/F/E/D/) C2A,2 A,2 |]
+[|\
+% page 163:
+u(c>B) || (3AcB (3AGF (3EAE (3FAF (3EDC (3DCB, (3CB,A, (3ABc |\
+(3B^AB (3cBc (3dcB (3cB=A {AB}c2F2F2 (c>B) |\
+(3AcB (3AGF (3EAE (3FAF (3EDC (3DCB, (3CB,A, (3ecA |
+(3fag (3fed (3cBA (3Bed  c2A2A2 (ef/g/) |\
+(3aec (3aec (3aec (3fec (3aec (3aec (3aec (3fec |\
+(3agf (3efg (3agf (3edc {de}f2F2F2 (c>B) |
+(3AEC (3AEC (3AEC (3FEC  (3AEC (3AEC (3AEC (3FEC |\
+(3AGF (3EFG (3AGF (3EFD C2A,2A,2 |][| u(c>B) |\
+A2E2 E(F/G/ B/A/G/F/) E2(F/G/) AB cd^de |
+cd zuB dcBA {AB}c2F2F2 (c>B) |\
+A2E2 E(F/G/ B/A/G/F/) E(F/G/ A/B/c/d/) eAag |\
+(f/g/a/g/ f/e/d/c/ B).e.^d.=d c2A2A2 (cd/e/) |
+(f3a)e2c2 (d3b)c2 ((3aec) |\
+Bdce dBcA {AB}c2F2F2 (c>B) |\
+A2E2 E(F/G/ B/A/G/F/) E(F/G/ A/B/c/d/ .e).A.a.g |
+(f/g/a/g/ f/e/d/c/ B).e.^d.=d c2A2A2 |][| u(c>B) |\
+A2(.E>.E) E2F2 E2(.A>.A) A2c2 |\
+BEBc dcBA {AB}c2(.F>.F) F2(c>B) |
+A2(.E>.E) E2F2 E2(.A>.A) A2(.a>.a) |\
+f2(.d>.d) B2(.e>.e) c2(.A>.A) A2(ef/g/) |\
+a2(.a>.a) (.a>.g)(.f>.e) a2(.a>.a) (.a>.g)(.f>.e) |
+(.a>.g)(.f>.e) (.d>.c)(.B>.A) {AB}c2(.F>.F) F2(c>B) |\
+A2(.A>.A) A2(F>E) A2(.A>.A) A2(.a>.a) |\
+f2(.d>.d) B2(.e>.e) c2(.A>.A) "_Fine."A2 |]

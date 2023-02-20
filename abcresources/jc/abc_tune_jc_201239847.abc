@@ -1,0 +1,18 @@
+X: 3440
+T: CIRCLE POLKA
+R: Polka.
+%R: polka
+B: James Kerr "Merry Melodies" v.3 p.51 #440
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+|:\
+g4 ^f4 | a2g2 gfe2 | g2f2 fed2 | efg2 edc2 |\
+g4 ^f4 | a2g2 gfe2 | g2f2 fed2 | c2eg c'4 H::\
+[K:G]\
+d'3c' bc'd'e' | d'2b2 dgbd' | c'2a2 dfac' | b2g2 (dg)b2 |
+d'3c' bc'd'e' | d'2b2 dgbd' | c'2a2 dfab | g2b2g2 "_D.C."z2 ::\
+[K:=f][K:C]\
+g2g2a3g | (gc')e2 g3f | (fa)d2 f3d | efed cdef |\
+g2g2a3g | (gc')e2 g3f | (fa)d2 f3B | c2c2c2 z2 :|

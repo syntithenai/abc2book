@@ -1,0 +1,37 @@
+%%scale 0.9
+%%barsperstaff 4
+X:1
+T:Grandma Got Run Over By A Reindeer
+C:Randy Brooks
+M:4/4
+L:1/8
+K:E
+%%staves{RH1}
+V:RH1 clef=treble
+|"E""^Chorus"GGGG GGFE|B G3 z4|GGGB AGFG
+w:Grand-ma got run o-ver by a rein-deer walk-ing home from our house Christ-mas
+|"A"A4 z4|cccc ccBA|"E"B G3 z2 z G
+w:Eve.  You can say there's no such thing as San-ta, but
+|"B7"FFGA GFED|1,2 "E"E4 "D""^To next strain"z2 "A"z2|3. "E"E4 "A"z2|"E""^Fine"z8||
+w:as for me and Grand-pa we be-lieve. lieve.
+|"E""^Verse"z2 GG GGFE|"B"ED2 z4|z2 FG AFEF
+w:1.~She'd been drink-ing too much egg-nog, and we begged her not to
+w:2.~Now were all so proud of Grand-pa, He's been tak-ing this so
+w:3.~Now the goose is on the tab-le, And the pud-ding made of
+|"E"G4 z4|z EEE "E7"GGBB|"A"c A3 z2 AG
+w:go, but she for-got her med-i-ca-tion, and she
+w:well. See_ him in there watch-ing foot-ball, Drink-ing
+w:fig. And_ the blue and sil-ver can-dles, That would
+|"B7"FFGA GFED|"E"E4 z4|"C#m"z2 GG GGFE
+w:stag-gered out the door in-to the snow. When we found her Christ-mas
+w:beer, and play-ing cards with Cou-sin Mel. It's not Christ-mas with-out
+w:just have matched the hair in Grand-ma's wig. I've warned all my friends and
+|"G#m"E D3 z4|"B7"z2 FG AFEF|"E"G4 z4|"E7"z2 EE GGBB
+w:morn-ing at the scene of the at-tack, she had hoof-prints on her'
+w:Grand-ma. All the fami-ly's dressed in black, And we just can't help but
+w:neigh-bors, Bet-ter watch out for your-selves. They should nev-er give a
+|"A"c A3 z2 AG|"B7"FFGA GFED|"E"E2 z2 "^D.C."z4||
+w:fore-head, and in-crim-i-nat-ing Claus marks on her back.
+w:won-der; Should we op-en up her gifts or send them back?
+w:li-cense to a man who drives a sleigh and plays with elves.
+

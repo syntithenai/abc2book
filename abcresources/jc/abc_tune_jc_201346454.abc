@@ -1,0 +1,25 @@
+X: 1
+T: Trip to Hereford
+N: Pub: J. Walsh, London, 1748
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.89 #349
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:89 #349
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: cBAG    | GFG2 | AGcB | A2G2 | cBAG | FAD2 | AGcB | A2G2 :|\
+|: B/c/dd2 | edd2 | edgf | e2d2 | cBAG | FAD2 | AGcB | A2G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: g2g2 | g2g2 | g2g2 | g2g2 | g2g2 | d2d2 | d2d2 | d2g2 :|
+|: g2g2 | g2g2 | g2g2 | g2g2 | g2g2 | d2d2 | d2d2 | d2g2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Foot it 3 and turn .|.
+%% Foot it 3 to the Wo. and turn :|:
+%% Gallop down, up again, cast off .|.
+%% Right and Left :|:
+%%endtext

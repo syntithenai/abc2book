@@ -1,0 +1,189 @@
+%%footer "$P"
+%%topmargin 10pt
+%%botmargin 20pt
+%%gchord 2
+%%staffsep 1.5cm
+%%musicspace 0.5cm
+%%partsspace 0.5cm
+X: 1
+T:Dorshei Tzedek "Shabbat Unplugged" Klezmer tunes (for Bb instruments)
+T:Presented by Terry Traub, May 9, 2015
+T: http://terrytraub.org/DorsheiKlezBb.pdf
+P:Der Gasn Nigun (hora / processional)
+R:horra
+%%composerspace 2cm
+C:from John Chambers / Compleat Klezmer
+B:The Compleat Klezmer p.47
+M:3/8
+L:1/16
+K:G
+|: B,EF | "Am"GA3 A2 | TA4 G2 | "Em"GE- E4- | E2 zB,EF | "Am"GA3 A2 | "D7"TA3G BA | "G"G3D "D"BD | G2z2 D2 |
+"Gm"D3G FG |A3_B ^cd | "A"e3=f ed | T^c3_B AG | "Em"G3F "Am"AF | "Em"G3E "Dm"(3=FED | "Em"E3e BG | E2z :|
+|: B,EG | "Em"B6- | B3B (3d^cB | ^A^c B4- | B3E GB | "Em"d3^c (3dcB | d3^c (3dcB | ^A^c B4- | B3 B,EG |
+"Em"B3^A (3BAG | B3^A (3BAG | F=A G4- | G3 B,EF | "Em"G3F (3GFE | G3F (3GFE | ^DF E4- | E2z :|
+
+X: 1
+P:Khosidl
+M:2/4
+L:1/8
+C:from John Chambers, mods. by T. Traub 5-9-2015
+K:E
+|: "E"E=FEF | GAG=F | "E"G2E2 | B,2E2 | "E"GAGA |"E"B=cBA | "E"B2 G2-|GE=FE || "E"EGB=d|"E" =cBAG | "Dm"AG=FE |"Dm"=D4 |
+"Dm"^C=DE=F |"Dm"GAG=F | "E"G=F E2-|"E"E4 :||: E|"E"B4-|B3E |B4-|B3 E | "E"B3E|"E" B3E | "E"B2 B2|"E"B2 B2 || "E"B=cBc |"E"B3 A |
+"E"GAGA |"E"B4 | "E"B=cBc |"E"B3 A | "E"GAG=F |"E"G=F E2 || "E"B=cBc |"E"B3 A | "E"GAB=c |"Dm"=d4 |
+"Dm"=d=ccB |"Dm"BAAG | "E"GAG=F |"E"E3 :||:z| "E"G3=F |"E"E=DE=F | "E"GAG=F|"E" E4 | "E"E=cBA |"E"GAB=c |
+"E"B4 |"E"e4 || "Dm"=d=cBA |GAB=c | =d=cBA GFE=D | "Dm"^C=DE=F |GAG=F | "E"G=F E2-|E4 :|
+
+%%composerspace .10cm
+X: 1
+P:Tantz, Tantz, Yidelekh
+C:Abe Schwartz orchestra 1917
+C:from Compleat Klezmer
+C:the "Hava Nagilah of the 19th Century"
+R:freylach
+M:4/4
+L:1/8
+K:C
+|: "E"EF^GA BcBA|"E"^G2 GE "Am"A2 A2|"E"B2 B2 dcBA|"E"^G2 GE "Am"A4|
+"E"EF^GA BcBA|"E"^G2 GE "Am"A2 A2|"E"^G2 G2 "Dm"FEFD|  [1"E"E8 :|  [2 "E"E4 "G7"=G4||
+|: "C"cd e2 e2 e2|"G"dedB =G4|"G"GABc defd|"C"e4 "E"edcB|
+"Am"AB c2 c2 c2|"E"B2 B2 E4|"E"EF^GA BcBG|  [1 "Am"A4 "G7"=G4 :|  [2 "Am"A8 ||
+|: "E"E2 ^G2 E2 G2|"Am"A2 A2 "Dm"dcBA|"E"^G2 G2 "Am"AGAc|"E"B2 e2 e4|
+"E"E2 ^G2 E2 G2|"Am"A2 A2 "Dm"dcBA|"E"^G2 G2 "Dm"FEFD|"E"E8 :|
+
+X: 2
+P:Odessa Bulgar #3
+C:from John Chambers
+R:Bulgar, Frailach
+N:from handwritten MS
+M:2/4
+L:1/8
+K:G
+|: zBcB |"Em"e2 B2 |"Em"g2 B2 | "Em"e4 |"Em"zefg | "Am"ag fe |"Am"fe^dc | "B"B4-|"B"B4 |
+"B"B^d dd |"B"d2 cB | "Em"Be ee|"Em" e4 | "Am"fa gf |"B7"gf e^d | "Em"e4 :|
+|: z2 "D7"d2|"G"gb bb|"G" b2 ag|"G"gb bb|"G" b2 ag|"G"b2 c'2|"G" ba c'b|"D"a4- |"D"a4|
+"D"fa aa|"D" a2 gf|"D"fa aa|"D" a2 gf|"D"a2 b2|"D" ag ba|"G"g4 :|
+|: z"B7"g f^d|"Em"e4|"Em" zagf |"Em"g2 fg-|"Em"gf g/2f/2e | e4 |"E7"zc'ba | "Am"a4-|a2 "D7"d2 |
+"G"g3 b |"G"d'c' ba | "B7"ga fg| "Em"ef ga | "Em"bg "B7"af| "Em"ge "B7"f^d | "Em"e4 :|
+
+X: 1
+P:A Nakht in Gan Eydn
+C:Compleat Klezmer, via Jack Campin
+M:2/4
+L:1/8
+K:G
+|:B,EF| "Em"G2 FE|"Em"G2 FE|"Em"FG E2|z "D"DGA| "G"B2 AG|"G"B2 AG|"G"AB G2| 
+"G"z DGB |"G"d2 c2|"G"B2 AG |"B7"GA GF|"Em"E3 "D7"D|"G" G A2 G|"B7" (3BAG (3GFE| [1 "Em"E4 |z :|  [2 "Em"E4-|E2 z||
+|:B|"Em" Be ee|"Em"eB g/2f/2e|"E"^de cB|"Am"A3 A|"Am"^GA Bc|"B7"^de dc|"Em"B4- | B2 "D7"D2|
+"G"DG GB|"G"dd "E7"cB |"Am"eA AA|"Am"AB/2A/2 "B7"GF|"Em"E2 BG|  [1 "Am"AA GA |"Em" B4 |Te3 :|  [2 "B7"AA GF|"Em"E4 | z ||
+|:B"B7"cB |"Em"Te4 | z "B7"BGF |"Em"E4 |z "B7"BcB| "Em"g4- |(3gfe "B7"(3^def|"Em"e4 |
+z d^cd| "E"e=fed|"G"^cd=cB |^cd=cB|"Am"A3 G|"Em"G A2 G|"B7"(3BAG (3GFE|"Em"E4- | E :|
+
+X: 1
+P:Odessa Bulgarish
+R:Bulgar, Frailach
+C:Compleat Klezmer, arr. T. Traub 5-9-2015
+M:2/4
+L:1/8
+K:G
+zB,EG|: S"Em"B2 ^A2|B2 ^c2|d2 ^c2 |B^A G2|"Em"^A/2^c/2B BB|B^AGA|B^cB^A|GFG^A|"Em"B2 ^A2|
+"Em"B2 ^c2|d2 ^c2 |B^A G2|"B7"FG B/2^A/2G|^A2 B2|"Em"E3 B|B/2^A/2G G2|"B7"FG B/2^A/2G|^A2 B2|  [1 "Em"E4 | zB,EG :|  [2 "Em"E4-|+gf+E4 
+|: "Em"z eee|eeee|"F#7"ed^ce|"Bm"d^cBd|"F#7"^cB^Ac|"Em"B^A G2|"B7"FG B/2^A/2G|
+"Em"^A2 B2|"Em"E3 B|B/2^A/2G G2|"B7"FG B/2^A/2G|"B7"^A2 B2|"Em"E4-|E4 :|
+|: "Em"E E2 B|B/2^A/2G G2|"B7"G/2F/2E FG|"Em"^AB G/2F/2E|"Em"E E2 B|B/2^A/2G G2|"B7"FEFG|"Em"F E3 +ES+:|
+
+%%newpage
+X: 1
+T:Waltzes
+P:Mazel
+C:From Pete Sokolow, Klez Kamp 2001
+Z:Some, if not all, of these tunes come from the yiddish show Der galitzianer rebe, recorded by
+Z:the Bagelman (Barry) Sisters in June of 1940 with the Abe Ellstein orchestra featuring 
+Z:Dave Tarras, the great klezmer clarinetist.  Shloymele, malkele (1937), music by Joseph
+Z:Rumshinsky and words by Isidore Lillian.  Glik (1930) music by Alexander Olshanetsky, words by
+Z:Bella Meisell from the operetta Der letster tants.  Libes shmertsn (1923) words and music by 
+Z:Joseph Olshanetsky from the show Shtarker fun libe.
+R:Waltz
+M:3/4
+K:G
+L:1/4
+|: "Em" B, E G | "Em" B/2^A/2 B > c | "B" B ^D2-|"B" ^D3| "B"B, ^D F|\
+"B7" A G F |  [1 "Em" G3-| G3 :|  [2 "Em" E3-| E3 || 
+"E7" E ^G B | "E7" d c B | "Am" c/2B/2 A2-| "Am" A3| "D" D F A| \
+"D7"c B A| "G"B/2A/2 G > B| "B7"A/2G/2 F2||
+"Em" B, E G | "Em" B/2^A/2 B > c | "B" B ^D2-|"B" ^D3| "B"B, ^D F|\
+"B7" A G F | "Em" E3-| E3 |]
+
+X: 2
+P:Shloimele, malkele
+C:Joseph Rumshinsky 1937
+C:From Pete Sokolow, Klez Kamp 2001
+R:Waltz
+M:3/4
+K:G
+L:1/4
+|: "Em" E G B | "Em" e B G | "Am" B A2-|"Am"A3| "Am" AGE|"Am" AGE|"Em"G3-|"Em"G3|
+"G"D G B| "E7"d c B| "Am" d A2-| "Am"A3| "Am" A B c| "D7" e d c| "G" B3-| "B7"B3 :|
+|: "Em" G3| "Em" G F E| "Em" G3| "Em" G F E| "Em" G F E|"F#7" G F E| "B7" F3-| "B7" F3|
+"Am6" A3| "B7" A G F| "Em" G3| "Em" G F E | "Am6/F#" F F F| "B7" F G F| "Em" E3-| "Em" E3 :|
+
+X: 3
+P:Glik
+C:Alexander Olshanetsky 1930
+C:From Pete Sokolow, Klez Kamp 2001
+R:Waltz
+M:3/4
+K:F
+L:1/4
+| "Dm" A3 | "Gm" D E F| "Dm" A3 | "Gm" D E F| "Dm" A d "A7" e| "Dm" f "A7" e "Dm"d| "Dm"A3-|"D7"A3|
+"Gm"d3| "Cm"G A B| "Gm"d3| "Cm"G A B| "Gm" d ^c d| "Gm" e d ^c | "Gm6/E" _B3 | "A7" A3|
+"Dm" A3 | "Gm" D E F| "Dm" A3 | "Gm" D E F| "Dm" A d "A7" e| "Dm" f "A7" e "Dm"d| "Bb7"f3| \
+L:1/8
+"A7"e3 ef^f|
+L:1/4
+"Gm" g g> f| "A7"e/2g/2 f > e| "Dm"f f > e| "E7" d/2f/2 e > d| "Em7b5" e e> d| "A7"^c/2d/2 e f| \
+"Dm" d3-| d3|]
+
+X: 4
+P:Libes shmertsn
+C:Joseph Rumshinsky 1923
+C:From Pete Sokolow, Klez Kamp 2001
+R:Waltz
+M:3/4
+K:G
+L:1/4
+| "Em" E3 | B3 | "Edim"^A3| e3|"Em" E3 | B3 | "Edim"^A3| e3| "Em" e f g| f e > c|"Am"A3-| A3|
+"Am6"F G A| "A#dim"G F E| "B7" B c B| A G F|"Em" E3 | B3 | "Edim"^A3| e3|"Em" E3 | \
+B3 | "Edim"^A3| e3|
+"Em" e f g| "Am"a g f| "D7"e d c| "G" B F G| "Am6"A2 c| "B7"B/2A/2 G F| "Em"E3-|E3|]
+
+X: 5
+P:All My Love
+C:From Pete Sokolow, Klez Kamp 2001
+R:Waltz
+M:3/4
+K:G
+L:1/4
+|: "Em"B3 | "B7"^D3 | "Em"E3-| E G B|"E7" e3 | ^G3 | "Am"A3-| A B c| "B7"B3| F3| "Em"G F E|
+"Am"A B c|  [1 "C#m7b5"G3| "F#7" E3| "B7" F3-|F3:|  [2 "A#dim" G3| "B7" F3| "Em" E3-|E "E7"e d|
+"Am" c > B A| z c e| "Em" B >^A B| "Em" z B c| "B7" A > G F| "B7" z A B| "Em" G > F E| z "E7"e d|
+"Am" c > B A| z c e| "Em" B >^A B| z "C#m7b5"B ^c| "B/F#" ^d2 d| "F#7"^c F c| "B"B3| "B7"B/2=c/2B/2A/2G/2A/2|
+"Em"B3 | "B7"^D3 | "Em"E3-| E G B|"E7" e3 | ^G3 | "Am"A3-| A B c| "B7"B3| f3| "Em"=g f e|"Am"a b c'|\
+"A#dim"=G3| "B7"F3| "Em" E3-|E2 z|]
+W:
+W:Some, if not all, of these waltz melodies come from the yiddish show Der galitzianer rebe, recorded by
+W:the Bagelman (Barry) Sisters in June of 1940 with the Abe Ellstein orchestra featuring 
+W:Dave Tarras, the great klezmer clarinetist.  Shloymele, malkele (1937), music by Joseph
+W:Rumshinsky and words by Isidore Lillian.  Glik (1930) music by Alexander Olshanetsky, words by
+W:Bella Meisell from the operetta Der letster tants.  Libes shmertsn (1923) words and music by 
+W:Joseph Olshanetsky from the show Shtarker fun libe.
+W:
+W:
+X: 1
+P:NOTE: Typical ending to Bulgars, Freilechs, and Chusidls
+R:Bulgar, Frailach
+M:2/4
+L:1/8
+K:G
+"B7"^AB^c^d|"Em" +gfbb+ e4|"B"+gfbb+ B4|"Em"+gfbb+ E4-|"Em"E4 |]
+

@@ -1,0 +1,30 @@
+X: 21483
+T: GRAND MILITARY SETT (tune 3)
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" 1843 p.148 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The last note (a) in bar 13 should probably have a natural sign.
+M: 2/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+[|\
+G~ceg | (ag).f.e | {d}d^c{d}d=c | {B}BA{A}BG |\
+~Gceg | agfe | {e}dcdB | dcc2 H|]
+e^cdc | de/f/ g2 | f^f/g/ a2 | dg/a/ b2 |\
+b^aba | g^fge | dc'/b/ a^f | ag"^D.C."g2 :|
+{A}cz {c}ez | a3b/c'/ | eGcg | dgbg |\
+ceae | be^ge | adBg | c3 "^D.C."z  :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies all forward and back,
+%% gentlemen the same,
+%% all balance and turn partners,
+%% all chain,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

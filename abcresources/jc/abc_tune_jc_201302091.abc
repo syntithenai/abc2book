@@ -1,0 +1,16 @@
+X: 587
+T: the Liffey's Silvery Stream
+T: an a\.main lonn\.ra\.c liffi
+R: march
+%S: s:2 b:16(8+8)
+B: O'Neill's 1850 #587
+Z: John B. Walsh (walsh@math.ubc.ca)
+N: The long written-out ornaments are the same as the ~ ("turn") in bar 15.
+Q: "Slow."
+M: 2/4
+L: 1/16
+K: D
+A2 |(AF3) A2B2 | (d3((3e/d/c/)de) f3e | (dB3) c2(e>f) | d4 z2 |\
+| A2 | A2F2 A2B2 | (d3((3e/d/c/)de) f2Ha2 | B3d c2(ef) | d4 z2 |]
+|| (de) | f2e2 d2B2 | A2F2 E2F2 | (B2((3c/B/A/)Bc) .d2(de) | Hf4 e2 |\
+| A2 | d2c2 B2d2 | g2e2 Ha2e2 | f2d2 B2d2 | ("~"A3B cdeg) | fd3 z2 |]

@@ -1,0 +1,26 @@
+X:1
+T: Spring Allegro
+N:
+C:W.A. Mozart
+S: Tune is "Allegro" by
+A:
+O:
+R:
+M:3/2
+K:G
+I:speed 220
+%W: A
+% voice 1 (1 lines, 32 notes)
+K:G
+M:3/2
+L:1/16
+A4 B4 |c4 |d16 |B4 c4 |d8 |B8 |G8 |g16 |e2 d2 e2 |f2 g8 |e8 |c8 |d16 |B4 c4 |d8 |B8 |G8 |c4 A4 |G8 |F8 |G8 |z4 A4 |B4 c4 |
+%W:
+% voice 1 (1 lines, 29 notes)
+d16 |B4 c4 |d8 |B8 |G8 |g16 |e2 d2 e2 |f2 g8 |e8 |c8 |d16 |B4 c4 |d8 |B8 |G8 |c4 A4 |G8 |F8 |G8 |z4 G4 |G4 G4 |
+%W: B
+% voice 1 (1 lines, 35 notes)
+G12 |F2 G2 A4 |G2 F2 G12 |B4 B4 |B4 B12 |A2 B2 c4 |B2 A2 B12 |d4 d4 |d4 d12 |e2 f2 g4 |f2 e2 d8 |B8 |G8 |A4 e4 |d4 c4 |B4 A4 |
+%W:
+% voice 1 (1 lines, 37 notes)
+G4 F6 |z2 d4 |d4 d4 |d6 |e f g4 |d4 c4 |B4 B4 |A8 |d4 d4 |d4 d6 |e f g4 |d4 c4 |B4 A4 |d8 |^c4 e4 |c4 d4 |d8 |^c4 e4 |c4 d8 |D4 ||

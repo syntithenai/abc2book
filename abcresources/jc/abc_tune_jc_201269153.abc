@@ -1,0 +1,23 @@
+X:1
+T:Donald Campbell's Welcome to Glendale
+M:6/8
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+|: e | \
+{ag}a2e{g}c/2e3/2{g}c | \
+{g}A2{GdGe}A{gcd}c3/2{g}B/2{d}A | \
+{ag}a2e{g}c/2e3/2{g}A |
+{gcd}c3/2{g}B/2{d}A{gBd}B2{d}c{ag}a2e{g}c/2e3/2{g}c | \
+{g}A2{GdGe}A{gcd}c3/2{g}B/2{d}A | \
+{gef}e3/2{g}c/2e{gfg}f3/2e/2{g}c |
+{gcd}c3/2{g}B/2{d}A{gBd}B2{d}c :: \
+{ag}a3{g}a2e | \
+{gfg}f3/2e/2a{fg}f3/2e/2{g}c |
+a2{GdG}a{g}a2e | \
+{gfg}f3/2e/2a{fg}f2{g}ea2{GdG}a{fg}f3/2e/2{g}c | \
+{GdG}c3/2a/2e{fg}f3/2e/2{g}c |
+{gef}e3/2{g}c/2e{gfg}f3/2e/2{g}c | \
+{gcd}c3/2{g}B/2{d}A{gBd}B2{d}c :|

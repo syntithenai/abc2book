@@ -1,0 +1,29 @@
+X:1
+T:Green Grow the Rushes oh
+C:Composer:     %Tune composer
+N:Remarks:     %Tune infos
+Q:1/4=120     %Tempo
+V:1     %
+%!STAVE 0 'Song' @
+%!INSTR 'Piano' 4 0 @
+M:4/4     %Meter
+L:1/8     %
+K:Bb
+B2 FF D2 B, z |B2 cc dB B z |B2 FF D2 B, z |
+w:I'll sing you one, oh! Green grow the rush-es oh! What is your one, oh?
+BB BB BB BB |cc FF B2 B z |
+w:One and one is all a-lone and ev-er-more shall be so.
+ B2 FF D2 B, z | B2 cc dB B z |B2 FF D2 B, z |
+w:I'll sing you two, oh! Green grow the rush-es, oh! What is your two, oh?
+B2 BA/A/ G/G/G G z |c3/2d/ cB A2 F z |
+w:Two, two, for the li-ly-white boys Cloth-ed all in green, oh!
+BB BD EE EE |FF FF B2 B z |
+w:One and one is all a-lone, And ev-er-more shall be so.
+B2 FF D2 B, z |B2 cc dB B z |B2 FF D2 B, z |
+w:I'll sing you three, oh! Green grow the rush-es, oh! What is your three, oh?
+d2 cc/c/ B2 A z | B2 BA/A/ G/G/G G z |c3/2d/ cB A2 F z |
+w:Three, three for the ri-vals, Two, two for the li-ly-white boys Cloth-ed all in green, oh!
+ BB BD EE EE |FF FF B2 B z |]
+w:One and one is all a-lone and Ev-er-more shall be so.
+%End of file
+W:

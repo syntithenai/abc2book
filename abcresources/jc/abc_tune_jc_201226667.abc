@@ -1,0 +1,29 @@
+X: 103
+T: Butter'd Beans
+T: Longways for as many as will.
+%R: march
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.52
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the dance phrasing.
+M: 2/4
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+e |\
+d^fgd | c^fgc | B^fgB | A3e |\
+d^FGd | c^F Fc | BecA | ^F3 :|
+|: g |\
+fabf | eabe | dbc2 | B3e |\
+d/g/b2d | c/^f/a2c | B/d/g2^f | g2z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. clap Hands & Jigg it, then cast off .| The
+%% 2d Cu. do the same :| The 1st Cu. cross over &
+%% half Figure through the 2d, then double Figure
+%% through the 3d Cu. .| The 1st Cu. Right & Left
+%% quite round with the 2d Cu. & turn in the 2d Cu.
+%% Place :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

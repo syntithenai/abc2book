@@ -1,0 +1,69 @@
+X: 34
+T: le Bois de Boulogne.
+%R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #34
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+[B4D4G,4] dBcA | GABc d2d2 | dfga gdcB | AGFE D4 |\
+[B4D4G,4] dBcA | GABc d2d2 | dfga gBcA | G2G,2 G,4 :|
+|:\
+a4 {g}f2ed | g4 {e}d2cB | cfac BdgB | AGFE D4 |\
+a4 {g}f2ed | g4 dcBA | BdBG AcAF | G4 G,4 :|[K:Gm]
+[| "Mineur"\
+B4 dcBA | GBAc Bdce | {e}d2cB AG^FG | AG^F=E D4 |\
+B4 dcBA | GBAc Bdce | d2G2 {B}A2G^F | G2G,2 HG,4 |]
+B4 {e}d2cB | fgfb f4 | G4 {c}B2AG | Bdce d4 |\
+bagf =ed^c=B | A^c=ec Aceg | {g}f2=ed {f}e2d^c | "_Da Capo"d2D2 D4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+G4 B2d2 | g2G2B2G2 | d2c2B2G2 | d4 dcBA | G4 B2d2 |
+g2G2B2G2 | d2c2B2d2 | G8 :||: d4 d'2c'2 | b2d'2b2g2 |
+a2f2g2G2 | d4 f2a2 | d4 d'2c'2 | b2g2f2d2 | g2B2c2d2 | G8 :|[K:Gm]
+[| "Mineur"\
+G2g2^f2d2 | g2d2 G2c2 | B2G2c2e2 | d4 dcBA | G2g2^f2d2 |
+g2d2 G2c2 | B2e2c2d2 | HG8 |] b4 B4 | b4 B4 | g4 G4 |
+g4 G4 | g4 G4 | A4 ^c4 | d4 A4 | "_Da Capo"d8 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Le Bois de Boulogne.
+%%begintext align
+%%   Le Grand Rond - - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Couple advance with
+%% Contretems and Rigaudon, the first Gentleman
+%% and third Lady pass through the fourth Couple
+%% and turn to their places, while the third
+%% Gentleman and first Lady pass through the second
+%% Couple and turn to their places - - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   The first and third Couple hands Round
+%% with the Couple on their Left and change
+%% places, then do the same again 'till you
+%% compleat half the Course - - - 1/1
+%%endtext
+%%begintext align
+%%   Each Couple Back to Back with their
+%% Partners and Allemande - - - 1/2
+%%endtext
+%%begintext align
+%%   The first and third Couple hands Round
+%% with the Couple on their Left and change
+%% places, then do the same again 'till you have
+%% finished the Course - - - 1/1
+%%endtext
+%%sep 1 1 400

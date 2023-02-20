@@ -1,0 +1,26 @@
+X:1
+T: Just A Going
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 36 notes)
+K:D
+M:4/4
+L:1/16
+f2 g2 a4 f4 d4 |f2 g2 a4 f4 d4 |g4 e4 c4 A4 |g4 e4 c4 A4 |G2 F2 G2 A2 G4 g4 |F2 E2 F2 G2 F4 f4 |e4 d4 A4 c4 |d8 D8 |
+%W: A2
+% voice 1 (1 lines, 37 notes)
+f2 g2 a4 f4 d4 |f2 g2 a4 f4 d4 |g4 e4 c4 A4 |g4 e4 c4 A4 |G2 F2 G2 A2 G4 g4 |F2 E2 F2 G2 F4 f4 |e4 d4 A4 c4 |d8 D4 a4 |
+%W: B1
+% voice 1 (1 lines, 36 notes)
+f4 g2 a2 b4 g4 |e4 f2 g2 a4 f4 |d4 e2 f2 g4 f4 |e2 d2 c2 B2 A4 G4 |F4 A4 d4 f4 |A4 c4 e4 g4 |f4 d4 A4 c4 |d8 D4 a4 |
+%W: B2
+% voice 1 (1 lines, 35 notes)
+f4 g2 a2 b4 g4 |e4 f2 g2 a4 f4 |d4 e2 f2 g4 f4 |e2 d2 c2 B2 A4 G4 |F4 A4 d4 f4 |A4 c4 e4 g4 |f4 d4 A4 c4 |d8 D8 ||

@@ -1,0 +1,20 @@
+X: 144119
+T: LONDON BRIDGE
+Q: "Hornpipe."
+R: Hornpipe.
+%R: hornpipe
+B: James Kerr "Merry Melodies" v.1 p.44 s.1 #19
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+B>c |\
+d2A>F D2F>A | d2f>d e2g>e |\
+f>dc>d B>cd>e | f>dg>e d>cB>A |\
+d2A>F D2F>A | d2f>d e2g>e |\
+f>dc>d A>dc>e | f2d2d2 |]
+d>e |\
+f>dc>d B>dA>d | G>dF>d E>FD>F |\
+G>FG>A B>cd>e | f>dg>e d>cB>A |\
+B>eg>e A>df>d | G>Be>G F>Ad>A |\
+g>fe>d A>dc>e | f2d2d2 H|]

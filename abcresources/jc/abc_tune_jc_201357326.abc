@@ -1,0 +1,163 @@
+X:148
+T:Alph. Carriere's Favorite Jig
+T:Basic Melody
+C:Andy De Jarlis
+M:6/8
+L:1/8
+Z:<http://tunes.nhcountrydance.com>.
+K:A
+|"A" A,CE A,CE |"A" A,CE c2 c |"A" {d}cBA fec  |"E7" [e3e3] [e3e3]    |
+|"E7" EGB EGB  |"E7" EGB g2f  |"E7" {g}fec ecB |1"A" [A3A3] [A2A2] A,:|2"A" [A3A3] [A2A2] |]
+((3e/2f/2g/2) \
+|"A" a2 c {d}cBA |"F#m"     f2 d "B7" B3   |"E7" g2 f {g}fec |"A" ecB A2 ((3e/2f/2g/2) |
+|"A" a2 c {d}cBA |"F#m"     f2 d "B7" B3   |"E7" g2 f {g}fec |1"A" ecB A2 :|2"A"ecB A2 A, |]
+
+X:149
+T:Alph. Carriere's Favorite Jig
+T:Ornamentation from Andy De Jarlis, Canadian Old Time Music, London EBX 4123
+C:Andy De Jarlis
+M:6/8
+L:1/8
+Z:<http://tunes.nhcountrydance.com>.
+K:A
+|"A" A,CE A,CE |"A" A,CE c2 c |"A" {d}cBA ((3f/2g/2f/2)ec  |"E7" (c[e2e2]) [e3e3]  |
+|"E7" EGB EGB  |"E7" EGB g2f  |"E7" {g}fec ecB |1"A" ([FA]>[GA][AA]) [A2A2] A,:|2"A" ([FA]>[GA][AA]) [A2A2] |]
+((3e/2f/2g/2) \
+|"A" a2 c {d}cBA |"F#7"     f2 d "B7" B3   |"E7" g2 f {g}fec |"A" ecB (A/2B/2c/2d/2)((3e/2f/2g/2) |
+|"A" a2 c {d}cBA |"F#7"     f2 d "B7" B3   |"E7" g2 f {g}fec |1"A" ecB A2 :|2"A"ecB A2 A, |]
+
+X:168
+T:Arnold Kennedy's Jig
+T:Play with a slightly dotted rhythm throughout
+S:Carter Newell
+M:6/8
+Z:<http://tunes.nhcountrydance.com>.
+K:G
+Bc^c |\ 
+"G"  d^cd .b2f | "G"  agf gdB | "G"  DGB edB   | "C" c3 "Am" (cBc) |
+"D7" D2 F A2 d | "D7" fag f2e | "D7" d^cd ed=c | "G" B3 Bc^c ||
+"G"  d^cd .b2f | "G"  agf gdB | "G"  DGB edB   | "C" c3 "Am" (cBc) |
+"D7" D2 F A2 d | "D7" fag Tf2d| "D7" cAF DEF   | "G" G[GB][GB] [G2B2] z |]
+"G"  G,B,D G2B | "G"  d3 d^cd | "G"  DGB edB   | "C" c3 "Am" (cBc) |
+"D7" D2 F A2 d | "D7" fag Tf2e| "D7" d^cd ed=c | "G" BBB .Bz G,||
+"G"  G,B,D G2B | "G"  d3 d^cd | "G"  DGB edB   | "C" c3 "Am" (cBc) |
+"D7" D2 F A2 d | "D7" fag f2d | "D7" cAF DEF   | "G" G zz |]
+
+X:1380
+T:Murray River Jig
+C:Graham Townsend
+M:6/8
+L:1/8
+R:jig
+Z:<http://tunes.nhcountrydance.com>.
+K:A
+AB\  
+|"A" c2c cBA| E3 EAB | "A" c2c "A7" dcB| "D" F3 FBc|
+  "D" d2d "(B7)"dcB| "E7" g3 g2f |1 "E7" fee e^de | "E7" fed "A" c :|2 "E7" efe dcB | "A" A3 AED |] 
+|: "A" CA,A, A,CE | "G" DB,=G, G,2B, | "A"A,CE AGA | "E7" BEE E2D |
+   "A" CA,A, A,CE | "G" DB,=G, G,2F  | "A" EAA "E7" GAB|1 "A" cAA AED:|2 "A" cAA A|]
+
+X:2032
+T:The Old Box Stove
+C:Ward Allen
+R:jig
+M:6/8
+L:1/8
+Z:<http://tunes.nhcountrydance.com>.
+K:F
+|:AB=B|c2 a B2 g|Aff fcA|Bgg gAB|caa aAB|
+c2 a B2 g|Aff fcA|Bcd bge|f3 :|
+K:Bb
+e3|d2 d d2 d|dBF DFB|d^cd Bdg|f3 fcd|
+e2 e e2 e|ecA F2 A|ede gf=e|f=eg fc_e|
+d2 d d2 d|dBF DFB|d^cd Bdb|g3 gag|
+efg f2 e|d2 f B2 d|cde FGA| B3|]
+
+X: 1976
+T: A Starry Night for a Ramble
+S: Canterbury Country Dance Orchestra, Mistwold record
+M: 6/8
+R: jig
+Z: For more tunes, discussion of the tunes, and other 
+Z: traditional music and dance resources, go to 
+Z: <http://tunes.nhcountrydance.com>.
+K: D
+|: g\
+| "D" f2d A2F| "G" G3  B3 | "D" A2d c2d     | "A7"e3 efg  |
+  "D" f2d A2F| "G" G3  B3 | "D" A2d "A7" cde| "D"d3- d2  :|
+|: f\
+| "G" g2g gfe| "D" f2f fed| "A7" e2e efg    | "D"a3- a2 f |
+  "G" gag gfd| "D" fgf fed| "A7" efe efg    | "A7"a3- a2 :|
+
+X:1978
+T:Steamboat Quickstep
+S:Common New England Repertoire
+M:6/8
+Z:The usual tune for the triple-minor dance Sackett's Harbor.
+Z:<http://tunes.nhcountrydance.com>.
+K:A
+|"A" a2e c2A |"A" Ace a3  |"A" agf edc     |"E7" Bed cBA     |
+"A" a2e c2A |"A" Ace a3  |"A" agf "D" edc |"E7" edB "A" A3 :|
+|"A" Ace efe |"A" efe cBA |"D" Ade f2f     |"D" agf "E7" e2A |
+"A" Ace efe |"A" efe cBA |"A" agf "D" edc |"E7" BcB "A" A3 :|
+
+X:2236
+T:Gigue du Violoneux
+C:Joseph Allard
+M:6/8
+L:1/8
+Z:abc by Peter Yarensky, adapted from
+Z:abc by Bruce Osborne
+Z:<http://tunes.nhcountrydance.com>.
+K:D
+e|\
+f2 d AFA | B2 A d2 f | efg B2 c | d2 e f2 g |
+aba AFA  | B2 c d2 f | efg B2 c | edd d2   :|
+|:d|\ 
+g3 gag   | f2 d fgf  | efe ede  | fdB B2 A  |
+g3 gag   | f2 d fgf  | e2 d efg | aba a2   :|
+
+Square Dance Tunes
+
+X: 404
+T:Darling Nellie Gray
+M:2/4
+L:1/8
+R:Square Dance Tune
+Z:<http://tunes.nhcountrydance.com>.
+K:D
+A, DF\
+|  "D"A2A>B | "D7"AF ED | "G"G>A Bc | d2cB | "D"A2A>A | BA FD | "A7"E2 E>F | EA, DF |
+   "D"A2A>B | "D7"AF ED | "G"G>A Bc | d2cB | "D".A2F>G|"A7"AG EC| "D"D2 D>E| D |]
+|:D EF\
+|"A7 or G"G2G>G | G2A>G | "D"GF FE  | F2DF | A2A>A | BA FD | "A7"E2 E>F |EA, DF |
+  "D"A2A>B  |"D7"AF ED  |"G"G>A Bc  |d2cB  |"D".A2F>G |"A7"AG EC| "D"D2 D>E| D |]
+
+X: 456
+T:Don't Dilly Dally
+C:As played by Lou Heath, 10/24/98, West Hopkinton, NH
+R:reel
+M:2/4
+Z:<http://tunes.nhcountrydance.com>.
+K:F
+L:1/8
+A | "F" c2 d2 | A3 F | "G7" G A2 G | D4 | "C7" E2 c>c | cBG^G | "F" A4 - | A4 |
+"A7" A2>B2 | A2>G2 | GG A2 | "Dm" G F2 G-| "G7" G2>A2 | G2 F2 | "C" EE"G7"F^F | "C7" Gccc|]
+"F" c3 B | Ac2c | c>dcB | A c3 c | c>dcA | GFDF | "C7" G4- | G4 |
+"F" F2F>G | AG F2 | "Bb" G2 GA | BGAB | "C7" c2 d2 |A2 G2 | "F" F4- | F3 |]
+
+X: 1952
+T:Snow Deer
+R:Square Dance Tune
+M:C|
+Z:<http://tunes.nhcountrydance.com>.
+K:D
+A2d2e2|\
+"D"f2fe f2fe| f2d2 c2d2| "E" [e4e4] [e2e2] ef | e2d2 c2B2| \
+  "A7"A4 e4-| e2e2 c2B2| "D"A4 f2>g| f2A2 d2e2|
+"D"f2fe f2fe| f2d2 c2d2| "E"[e4e4] [e2e2] ef | e2d2 c2B2| \
+  "A7"A4 e4-| e2d2 e2f2| "D"d8- | d2 d2 "D7"e2f2|]
+"G"g4 B4-| B2d2 c2B2| "D"A4 f2>g| f6 fg| \
+   "A"f2e2 e2 ^d2| e6 ef| "D"e2d2 c2 B2|A2d2 "D7"e2f2|
+"G"g4 B4-| B2d2 c2B2| "D"A4 f2>g| f6 fg| \
+   "A7"f2e2 e2 f2|g2g2 B2c2| "D"d4 d2>e | d2|]

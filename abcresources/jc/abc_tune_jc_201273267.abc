@@ -1,0 +1,38 @@
+
+X: 1
+T: Erev shel shoshanim [Dm]
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dm
+|: "Dm"D2 DC D2 F2 | "G"G6 D2 | "Gm"G2 GF "C"G2 A2 | "Dm"F6 z2 |
+w: 1.~E-rev shel sho-sha-nim ne-tse na el ha-bu-stan
+w: 2.~Sha-char ho-ma yo-na ro-shech ma-*ley l'tla-lim
+| "Bb"F2 FE F2 G2 | "C"E3 D C4 | "Am"E2 ED E2 F2 | "Dm"D6 z2 :|
+w: 1.~mor be-sa-mim u-le-vo-na l'-ra-g'-lech mi-ftan.
+w: 2.~Pich el ha-bo-ker sho-sha-na ek-te-*fey-nu li.
+|: "Dm"A2 AG A2 F2 | "G"G6 D2 | "Gm"G2 GF G2 A2 | "Dm"F6 z2 |
+w: La-la yo-red le-at ve-ru-ach sho-shan nosh-va
+| "Gm"G2 GF G2 A2 | "Dm"F3 E D4 | "C"E2 ED E2 F2 | "Dm"D6 z2 :|
+w: ha-va el-chash lach shir ba-lat ze-mer shel a-ha-va.
+
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+T: Erev shel shoshanim [Em]
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Em
+|: "Em"E2 ED E2 G2 | "A"A6 E2 | "Am"A2 AG "D"A2 B2 | "Em"G6 z2 |
+w: E-rev shel sho-sha-nim ne-tse na el ha-bu-stan
+w: 2.~Sha-char ho-ma yo-na ro-shech ma-*ley l'tla-lim
+| "C"G2 GF G2 A2 | "D"F3 E D4 | "Bm"F2 FE F2 G2 | "Em"E6 z2 :|
+w: mor be-sa-mim u-le-vo-na l'-ra-g'-lech mi-ftan.
+w: Pich el ha-bo-ker sho-sha-na ek-te-*fey-nu li.
+|: "Em"B2 BA B2 G2 | "A"A6 E2 | "Am"A2 AG A2 B2 | "Em"G6 z2 |
+w: La-la yo-red le-at ve-ru-ach sho-shan nosh-va
+| "Am"A2 AG A2 B2 | "Em"G3 F E4 | "D"F2 FE F2 G2 | "Em"E6 z2 :|
+w: ha-va el-chash lach shir ba-lat ze-mer shel a-ha-va.

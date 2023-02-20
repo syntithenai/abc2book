@@ -1,0 +1,17 @@
+X: 1
+T: \"Ord\"ang\"osf\"uzcs_Mens_Dance.abc
+S: Handwritten transcription by Beth Bahia Cohen at Fiddle Hell 2021
+R:
+S: Fiddle Hell Online 2021-__-__
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/16
+K: none
+%%slurgraces yes
+%%graceslurs yes
+"^A"|: ~^f3e f^gaB ~c2(BA) B^cd^F | ~G>^FGA _BB(B/A/B/G/) [1 ~A4 z4 :2 ~A4 z2 ||
+    |: (uE^F) | (E/^F/~G3 G)^FGA {_e}_BAGB ~A3^F | G^FGA _BB(B/A/B/G/) ~A4 z2 :|
+"^B"|: uE^F^G |\
+	   ~A4 (^g~a3) (^ga/b/a)=f (f^g/=f/e)^c | d^cde {_b}ff({b}f/e/f/d/) [1 ~e4 z :|
+    [2 ~e4 z2 |: (^cd) | vf3(u^ga/g/a) ~a3f (^ga)(~^g3f) e~d3 | _B(^cd2) ~d2_B2 (3(_B^cd)(c3B) A~G3 |
+       _B(^cd)(c d)(cd)=B _Bd~e2- ed~e2 |({_b}f/e/f)({b}f/e/f/e/) d^c_B/A/B/^G/ ~A4 z2 :|

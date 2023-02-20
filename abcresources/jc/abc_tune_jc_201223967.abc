@@ -1,0 +1,30 @@
+X: 7
+T: Moll 'ith Wad
+%R: jig
+B: Name "Kauntze's Collection of the most favorite Dances, Reels, Waltzes, &c."
+F: http://imslp.org/wiki/Kauntze%27s_Collection_of_Dances,_Reels,_Waltzes_etc._%28Various%29
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: This version uses voice overlays to represent the alternative notes in the bass line.
+N: The alternate (higher) notes in these bars should be written with smaller note heads.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c |\
+BAB G2F | E2F G2A | BAB G2B | AFD D2c |\
+BAB G2F | E2F G2A | BGB dcB | AFD D2 :|
+|: A |\
+BGB d2c | BGB d2c | BGB dcB | ecA A2c |\
+BGB d2c | BGB def | gfe dcB | AFD D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g3 G3 | c3 B2A | G3 g3 | d3 D2z | G3 g3 |
+c3 B2A | G3 G3 | d3 D2 :||: z | x3 a3 & g3 f3 | x3 a3 & g3 f3 |
+g3 B2G | c3 d2z | x3 a3 & g3 f3 | g3 d'2c' | b2c' d'2g | d'3 d2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% 1st and 2d Cu: hands across and back again, lead down the middle,
+%% up again, Right and Left at top.
+%%endtext

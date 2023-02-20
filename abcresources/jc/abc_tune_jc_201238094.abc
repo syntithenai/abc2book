@@ -1,0 +1,40 @@
+X: 30211
+T: GRAND MARCH IN NORMA
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.21 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Bar 10 of V:1 has a dot after the A; rhythm fixed to match bar 9, but other fixes are possible.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+D>F | A2F>A d2A>d | f6 e>f | g>fe>d e>dc>B | (A4 F2)B>A |\
+A3G E2B>A | A2A F D2d>c | B2B>c d>cd>e | A2A>A A2 :|
+|: A>A |\
+B2B>B B>^AB>c | (d4 A2)B>A | G>FG>A B>cd>e | (f4 d2)A>A |\
+B2B>B B>^AB>c | (d4 A2)B>A | G>FG>A B>cd>e | d2d>d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+[F2A,2][FA,]>[FA,] [F2A,2]z2 | [A2D2][AD]>[AD] [A2D2]c>d |\
+e>dc>B c>BA>G | F4 Dzz2 |\
+[E2A,2][EA,]>[EA,] [E2A,2]z2 | [F2A,2][FA,]>[FA,] [F2A,2]z2 |\
+[E2D2][E2D2] [E2B,2][E2B,2] | [E2C2][EC]>[EC] [E2C2] :|
+|: z2 |\
+[D2B,2][DB,]>[DB,] [D2B,2]z2 | [D2A,2][DA,]>[DA,] [D2A,2]z2 |\
+B,2B,2 [G2A,2][G2A,2] | [F2A,2][FA,]>[FA,] [F2A,2]z2 |\
+[D2B,2][DB,]>[DB,] [D2B,2]z2 | [D2A,2][DA,]>[DA,] [D2A,2]z2 |\
+B,2B,2 [G2A,2][G2A,2] | [F2A,2][FA,]>[FA,] [F2A,2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+d2d>d d2z2 | d2d>d d2z2 | d2d>d d2z2 | d2d>d d2z2 |\
+c2c>c c2z2 | d2d>d d2z2 | e2e2 e2e2 | a2a>a a2 :|
+|: z2 |\
+g2g>g g2z2 | f2f>f f2z2 | e2e2 A2A2 | d2d>d d2z2 |\
+g2g>g g2z2 | f2f>f f2z2 | e2e2 A2A2 | d2d>d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

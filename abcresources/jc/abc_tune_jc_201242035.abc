@@ -1,0 +1,191 @@
+
+X: 0
+T: 4 New Country Dances
+C: music: William Harmony
+C: dances: Thomas Wilson, London 1812
+N: for No. 38 New Series of La Bell Assemblee.
+F: https://archive.org/details/Wilson4NewCountryDances
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+K:
+%%center -------------------------
+%%center FOUR NEW COUNTRY DANCES.
+%%center Composed by Wm Harmony for No 38 New Series of La Belle Assemblee.
+%%center THE FIGURES BY Mr WILSON.
+%%center -------------------------
+
+%%center Transcription Notes
+%%begintext align
+%% This collection is in the form of a single sheet folded to make 2 pages,
+%% each with 2 dances.
+%% The file names are of the form N_Title, where N in the tune/dance number (1-4].
+%% This produces the publication order for the overall collection.
+%%endtext
+
+% %newpage
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Don't Ye.
+%R: polka, march
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Thomas Wilson & Willian Harmony "Four New Country Dances", 1812
+F: https://ia600206.us.archive.org/26/items/Wilson4NewCountryDances/Wilson%20-%204%20New%20Country%20Dances.pdf
+M: C
+L: 1/8
+Q: "Allegretto"
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+|: fccB AFF2 | AFF2 ECC2 | fccB AFF2 | Cc cB AF F2 :|
+|: d^cdc ddef | =BABG cde2 | d^cdc def>d | ecgf ecc2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: FfFf FfFf | FfFf CcC2 | FfFf FfFf | CcCc FfF2 :|
+|: fefe fed2 | g2f2 edc2 | f2e2 d2d>f | g2G2 c2c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text  SINGLE FIGURE (each strain repeated)
+%%begintext align
+%% The 1st Lady turns the 2d Gentleman the 1st Gent:
+%% turns the 2d Lady |: lead down the middle up
+%% again and half poussette |:.
+%%endtext
+%%center --
+%%text  DOUBLE FIGURE (the tune played twice tho' with rep.ts)
+%%begintext align
+%% Swing with right hands (round the 2d Couple)
+%% then with left |: set 3, then set in your places
+%% |: hands 6 round & back again |: & lead outsides |: .
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2
+T: Bloomsbury Place.
+%R: reel
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Thomas Wilson & Willian Harmony "Four New Country Dances", 1812
+F: https://ia600206.us.archive.org/26/items/Wilson4NewCountryDances/Wilson%20-%204%20New%20Country%20Dances.pdf
+M: 2/4
+L: 1/16
+Q: "Allegretto"
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+cd |\
+eace AcEA | CEA,C E/F/G/A/ Bc/d/ |\
+eace AcEA | CEDG A2 :|
+|: BA |\
+GB Ee Ac Ee | GB Ee Ac Ee |\
+a/g/f/e/d/c/B/A/ Fg/f/e/d/c/B/ | A/G/F/E/ FG [A2C2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+[a2A2]e2[a2A2]e2 | [a2A2]e2 [e2E2]E2 |\
+[a2A2]e2[a2A2]e2 | [a2A2]e2 [a2A2] :|
+|: z2 |\
+[b2g2e2]d'2[a2e2]c'2 | [B2G2E2]d'2[a2e2]c'2 |\
+[c'2e2c2]a2[a2f2d2]d'2 | [b2g2e2]d'2 [a2e2A2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text  SINGLE FIGURE (each strain repeated)
+%%begintext align
+%% Cast off two Couple and back again |: cross
+%% over one Couple and half figure round the
+%% 3rd Couple |: .
+%%endtext
+%%center --
+%%text  DOUBLE FIGURE (the tune played twice tho' with rep.ts)
+%%begintext align
+%% Whole figure at top |: lead down the middle up
+%% again right and left |: turn corners |: hands 4
+%% round at bottom and half poussette at top |:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3
+T: Minny Wow's Fancy, and Puggy's delight.
+%R: reel
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Thomas Wilson & Willian Harmony "Four New Country Dances", 1812
+F: https://ia600206.us.archive.org/26/items/Wilson4NewCountryDances/Wilson%20-%204%20New%20Country%20Dances.pdf
+M: C|
+L: 1/8
+Q: "Allegro"
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+[|\
+cAdB ecTBA | fdcB AGTFE | cAdB ecfd | ec TBA {A}G2z2 | cAdB ecTBA |
+fdcB AGTFE | cAdB ecfd | ed TBG A2z2 |]| efga bgTfe | c'aTgf baTfe | efga bgTfe |
+c'agf edcB | cAdB ecTBA | fdcB AGTFE | cAdB ecfd | ed BG A2z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+A2B2 c2d2 | B2d2 e2E2 | A2B2 c2d2 | c2d2 e2E2 | A2B2 c2d2 |
+B2d2 e2E2 | A2B2 c2d2 | e2E2 A2A2 |]| e2E2 e2E2 | e2E2 e2E2 | e2E2 e2E2 |
+e2E2 e2E2 | A2B2 c2d2 | B2d2 e2E2 | A2B2 c2d2 | e2E2 A2 A,2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text  SINGLE FIGURE (the tune played S.t through)
+%%begintext align
+%% Set and change sides, set and back again |: lead
+%% down the middle up again and right and left with
+%% top Couple .| .
+%%endtext
+%%center --
+%%text  DOUBLE FIGURE (each strain repeated)
+%%begintext align
+%% Hay contrary sides .| hay on your own sides .|
+%% lead down the middle up again set to the top Couple
+%% .| swint corners |:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4
+T: Pray be quiet.
+%R: reel
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Thomas Wilson & Willian Harmony "Four New Country Dances", 1812
+F: https://ia600206.us.archive.org/26/items/Wilson4NewCountryDances/Wilson%20-%204%20New%20Country%20Dances.pdf
+M: 2/4
+L: 1/16
+Q: "Allegretto"
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+|: dcBA G2e2 | cBAG F2d2  | BAGF E2c2 | cBAG F2D2 :|
+|: GABc d2D2 | EFGA B2B,2 | CDEF GABG | ABAG F2D2 :|
+|: dcBA G2e2 | cBAG F2d2  | BAGF E2c2 | FGAF G4   :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: g4 e4 | f4 d4 | e4 c4 | d4 D4 :|
+|: g4 d4 | e4 B4 | c4 B4 | c2^c2 d4 :|
+|: g4 e4 | f4 d4 | e4 c4 | d4 [g4G4] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text  SINGLE FIGURE (each strain repeated)
+%%begintext align
+%% Hands across and back again, |: lead down the
+%% middle up again, right and left |: and set contrary
+%% corners |: .
+%%endtext
+%%center --
+%%text  DOUBLE FIGURE (the tune played twice tho' with rep.ts)
+%%begintext align
+%% Set & half right & left, set back again |: swing with
+%% right hands (round the 2d Cu:) then with left |: the Lady
+%% whole figure round the top Cu: & the Gent: round bottom :| set
+%% contrary corners |: lead thro' bottom & top |: & lead outsides |:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

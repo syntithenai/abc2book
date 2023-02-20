@@ -1,0 +1,25 @@
+X: 1
+T: Nancy
+T: Nancy Clough's March
+C: Tom Clough (1930s)
+S: printed copy in Concord Slow Scottish Session collection
+S: page labelled "VII-10", "Northumbrian Pipers 30" and "Potomac Valley"
+N: Called just "Nancy" by composer Tom Clough (1881-1964), who played the Northumbrian Small Pipes.
+N: There are also several other unrelated tunes called "Nancy".  This Nancy was Tom's first wife.
+N: from thesession.org, arr. Terry Traub 2007-5-3, modified by John Chambers to better match the CSSS version
+M: 4/4
+L: 1/8
+R: reel
+K: D
+   (3ABc \
+| "D"d2D2 F2A2 | "D"d2fe d3A | "D"d3e "(G)"gfed | "A"c2e2 A2Bc \
+| "D"d2D2 F2A2 | "D"d2fe d3A | "G"B2g2 "A"fedc | "D"d6 :|
+|: fg \
+| "D"a3b a2gf | "A7"g3a g2fe | "D"f2d2 "G"gfed | "A"c2e2 A2Bc \
+| "D"d2D2 F2A2 | "D"d2fe d2A2 | "G"B2g2 "A"fedc | "D"d6 :|
+|: (3ABc \
+| "D"dcBA GFED | "D"F2A2 d3A | "D"dcde "(G)"gfed | "A"cdec A2Bc \
+| "D"dcBA GFED | "D"F2A2 d3A | "G"B2g2 "A"fedc | "D"d6 :|
+|: fg \
+| "D"aAaA a2gf |"A7"gAgA g2fe | "D"fefd "G"gfed | "A"cdec A2Bc \
+| "D"dcBA GFED | "D"F2A2 d3A | "G"B2g2 "A7"fedc | "D"d6 :|

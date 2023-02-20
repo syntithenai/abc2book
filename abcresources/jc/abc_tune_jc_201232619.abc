@@ -1,0 +1,49 @@
+X: 176
+T: the Star-Spangled Banner
+T: (Service Version.)
+C: words: Francis Scott Key
+C: music: John Stafford Smith
+Q: "With spirit. (" 1/4=104 ")"
+N: This is version 1, for ABC software that doesn't understand crescendo/diminuendo symbols.
+%R: air, waltz
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Bb
+%%center Prepared for the Army and Navy song and band books, and for School and Community singing.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(F> D) | B,2 D2 "^cres."F2 | B2- B2 ("^>"d> c) | B2 "dim."D2 =E2 | F4 F- F |
+w: 1.~O* say! can you see,* by the dawn's ear-ly light,       What so
+w: 2.~On the shore, dim-ly seen* thro' the mists of the deep, Where the
+w: 3.~O* thus be it ev-er when* free-men shall stand          Be-*
+%
+d3 c B2 | A4 G> A | B2 B2 F2 | D2 B,2 F> D |
+w: proud-ly we hailed at the twi-light's last gleam-ing? Whose broad
+w: foe's haught-y host in dread si-lence re-pos-es.      What is
+w: tween their loved homes and the war's des-o-la-tion!  Blest with
+%
+B,2 D2 "^cres."F2 | B4 "^<"d> c | B2 "dim."D2 =E2 | F4 F F | d3 c B2 |
+w: stripes and bright start, thro' the per-il-ous fight, O'er the ram-parts we
+w: that which the breeze, o'er the tow-er-ing steep,     As it fit-ful-ly
+w: vic-t'ry and peace, may the Heav'n-res-cued land      Praise the pow'r that hath
+%
+A4 G> A | B2 B2 F2 | D2 B,2 !mf!d- d | d2 "^cres."e2 f2 | f4 ||
+w: watch'd, were so gal-lant-ly stream-ing? And the rock-ets' red glare.
+w: blows, half con-ceals, half dis-clos-es? Now it catch-es the gleam
+w: made and pre-served us a na-tion!        Then* con-quer we must,
+%
+"dim."e d | c2 "cres."d2 e2 | e4 e- e | d3 "dim."c B2 | A2- A2 (G> A) |
+w: the bombs burst-ing in air,   Gave* proof tho' the night* that our
+w: of the morn-ing's first beam, In full glo-ry re-flect-ed, now*
+w: when our cause it is just,    And* this be our mot-to: In*
+%
+B2 D2 =E2 | F4 "^Chorus"|]|  F- F !f!|"rit." [Q:1/4=96] B2 B2 (BA) | G2 G2 G2 | c2 "dim."(ed) (cB) |
+w: flag was still there.  O* say, does that* Star-span-gled Ban-ner* yet*
+w: shines on the stream: 'Tis the Star-span-gled* Ban-ner: O long may* it*
+w: God is our trust!"     And the Star-span-gled* Ban-ner in tri-umph* shall*
+"dim."(B2HA2) F F "broaden"| ("cres."B3 c) d e !ff!| f4 B c | d3 e c2 | B4 |]
+w: wave* O'er the land* of the free and the home of the brave?
+%
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

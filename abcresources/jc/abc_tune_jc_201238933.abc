@@ -1,0 +1,18 @@
+X: 3162
+T: Miss Drummond of Perth's    Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.16 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+% - - - - - - - - - -
+V: 1 staves=2
+a |\
+A<ATe>d B<de2 | d<gB<g d<gBG | A<ATe>d B<de>(g | a)>eg>B {B}A2A :| g | a<ae<a c<ae2 | g<gdg B<gTd2 |
+a<ae<a c<ae>(g | a)>eg>B {B}A2Ag || a<ae<a c<ae>^f | g<gd<g B<gd>g | a<ae<a g<be>(g | a)>eg>B {B}A2A |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | a2a2 a2a2 | g2g2 g2g2 | a2a2 a2a2 | e2E2 A2A :| z | a2a2 a2a2 | g2g2 g2g2 |
+a2a2 a2a2 | e2E2 A2A2 || a2a2 a2a2 | g2g2 g2g2 | a2a2 b2c'2 | e'2e2 a2a |]

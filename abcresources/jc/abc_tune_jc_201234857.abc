@@ -1,0 +1,21 @@
+X: 20834
+T: DUKE OF KENT'S REEL.
+O: Scottish
+%R: reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.83 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+C2EC cCEC | FEDE FDdD |\
+EDCD EFGE | FDGE C2C2 :|\
+{cd}e2dc {cd}e2dc | dcBc defd |
+e2dc AcGc | edcB c2c2 |\
+{cd}e2dc {cd}e2dc | dcBc defd |\
+ecdB cABG | AFGE FEDE |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

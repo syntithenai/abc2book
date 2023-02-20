@@ -1,0 +1,19 @@
+X: 32141
+T: JEANIE IN THE GLEN STRATHSPEY -- (NEW)
+C: By J. McQueen, Forres
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.214 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Fixed incorrect note length in bar 5 to match bar 7.
+M: C|
+L: 1/8
+K: Bb
+uF |\
+F<B (B>c) (d>c) B<F | G<c (c>d) (e>d) c<F |\
+F<B (B>c) (d>c) d<g | (.f>.d) (c>d) B<G G :|
+(ud/c/) |\
+B<F (F>B) (G>B) F>B | d>B (F>B) (G<c) c (d/c/) |\
+B<F (F>B) (G>B) F>B | d>g (f>e) (d<B) B(d/c/) |
+B<F (F>B) (G>B) F>B | d<B (F>B) (G<c) c(d/e/) |\
+(3fgf (3edc (3dcB (3AGF | (3BAG (3FBc d<B "_Segue Reel."B "^D.C."|]

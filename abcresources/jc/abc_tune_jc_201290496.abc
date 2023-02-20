@@ -1,0 +1,44 @@
+X:1
+T:The Inner Guard
+M:C
+L:1/8
+Q:80
+C:Robert Mathieson
+S:March
+K:HP
+{g}A[ | \
+{Gdc}d2{e}A2{g}f3/2g{ag}af | \
+{gf}g2{a}d3/2B/2{g}G3d |
+{gcd}c2{g}A{d}c{g}e/2g3/2B3/2c/2 | \
+{Gdc}d2{g}f3/2e/2{gef}ec{g}de | \
+{Gdc}d2{e}A2{g}f3/2g/2{ag}af |
+{gf}g2{a}d3/2B/2{g}G3d | \
+{gcd}c2{g}e3/2c{g}AaB3/2c/2 | \
+{Gdc}d{e}A{g}f3/2e/2{Gdc}d3|]
+f[ | \
+{ag}a2fad/2f3/2{AGAG}A2 | \
+{gf}g2{a}d3/2c/2{gBd}B{e}G{g}B/2d3/2 | \
+{g}e3/2f/2ge{g}c/2e3/2{g}A{d}c |
+{Gdc}d2{g}f3/2e/2{gef}ec{g}de | \
+{ag}a2fad/2f3/2{AGAG}A2 | \
+{gf}g2{a}d3/2c/2{gBd}B{e}G{g}B/2d3/2 |
+{gcd}c2{g}e3/2c/2{g}AaB3/2c/2 | \
+{Gdc}d{e}A{g}f3/2e/2{Gdc}d3|]
+e[ |
+{g}A2{GdGe}Ad{g}f3/2g/2{ag}af | \
+{gf}g2{a}d3/2c/2{gBd}B3/2A/2{g}Gd | \
+{gcd}c2{g}A{d}c{g}e/2g3/2B3/2c/2 |
+{Gdc}d2{g}f3/2e/2{gef}ec{g}de | \
+{g}A2{GdGe}Ad{g}f3/2g/2{ag}af | \
+{gf}g2{a}d3/2c/2{gBd}B3/2A/2{g}Gd |
+{gcd}c2{g}e3/2c/2{g}AaB3/2c/2 | \
+{Gdc}d{e}A{g}f3/2e/2{Gdc}d3|]
+f[ |
+{ag}a2fad3/2f/2af | \
+{gf}g2{a}d3/2B/2{g}G3/2{d}B/2gd | \
+{gcd}c2{g}A{d}c{g}e/2g3/2B3/2c/2 |
+{Gdc}d2{g}f3/2e/2{gef}ec{g}de | \
+{ag}a2fad3/2f/2af | \
+{gf}g2{a}d3/2B/2{g}G3/2{d}B/2gd |
+{gcd}c2{g}e3/2c{g}AaB3/2c/2 | \
+{Gdc}d{e}A{g}f3/2e/2{Gdc}d3|]

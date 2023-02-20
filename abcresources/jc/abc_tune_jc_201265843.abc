@@ -1,0 +1,32 @@
+X: 1
+T: Cure of all Grief
+N: Pub: J. Walsh, London, 1748
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.78 338
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:78 338_
+N: The 2nd part has a begin-repeat but no end-repeat.
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+d2A d2e | f2g a3 | gfe d2g | fge d3 |\
+d2A d2e | f2g a3 | gfe d2g | fge d3 :|
+|:\
+a2g fga | g2f g3 | g2f efg | f2e f3 |\
+d2A d2e | f2g a3 | gfe d2g | fge d3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d3 z3 | d2e fed | e3 f2b | a2A d3 |\
+d3 z3 | d2e fed | e3 f2b | a2A d3 :|
+|:\
+f3 d3 | e3  E3  | e3 c3  | d2A D3 |\
+d3 z3 | d2e fed | e3 f2b | a2A D3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First and 2d Cu. Right hands half round, Left hands back again .|
+%% 1st Cu. cast off 2 Cu :|
+%% Hands 6 round, 1st Cu lead to the top and cast off :|:
+%%endtext

@@ -1,0 +1,40 @@
+X: 1
+T: It's Beginning to Look a Lot Like Christmas   [G]
+C: words & music: Meredith Wilson (1951)
+%D:1951
+R: song
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%P: Play A1A2 B A2 
+K: G
+%%continueall yes
+% = = = = = = = = = =
+"^A1"[|] {A,}B,>C |\
+  "G"(3DED ^C>D "C"E2 G2 | "G"B2 D6 | B3 B "B7"A3 G | "C"E4- "E7"E2 E>F |\
+  "Am"(3GAG E>^E "D"F4 | "D7"(3FGF D>^D "Am"E2 "A7"z^E | "D"F>G A>B "A7"A>G F>E | "Am"A4 "D7"z2 \
+"^A2"[| {A,}B,>C |\
+  "G"(3DED ^C>D "C"E2 G2 | "G"B2 D6 | B3 B "B7"A3 G | "C"E4- "E7"E2 E>F |\
+  "Am"(3GAG F>G "F#"F2 E>_E | "G"D>E G>B "E7"d2 ^D>E | "Am"c4 "D7"F4 | "G"G4 z2 \
+"^B"[| {F}G>A |\
+  "B7"(3BcB (3ABA (3GAG (3FGA | "(Em)"B>B "(B7)"(3AGF "Em"E2 z2 | "D7"(3ABA (3GAG (3FGF "(A)"(3EFG |\
+  "D"A>A "(A7)"(3GFE "D"D2 zD | "D7"d>_d c>B "(A7)"A>G F>E | "Am"D>E D>^C "D7"D2 \
+"^A1"[| B,>C |\
+  "G"(3DED ^C>D "C"E2 G2 | "G"B2 D6 | B3 B "B7"A3 G | "C"E4- "E7"E2 E>F |\
+  "Am"(3GAG E>^E "D"F4 | "D7"(3FGF D>^D "Am"E2 "A7"z^E | "D"F>G A>B "A7"A>G F>E | "Am"A4 "D7"z2 \
+"^A2"[| B,>C |\
+  "G"(3DED ^C>D "C"E2 G2 | "G"B2 D6 | B3 B "B7"A3 G | "C"E4- "E7"E2 E>F |\
+  "Am"(3GAG F>G "F#"F2 E>_E | "G"D>E G>B "E7"d2 ^D>E | "Am"c4 "D7"F4 | "G"G4 z4 |]
+"Dance"[| "G"B4 "D7"A4 | "C"G4 "D7"F2 \
+"^A1"[| B,>C |\
+  "G"(3DED ^C>D "C"E2 G2 | "G"B2 D6 | B3 B "B7"A3 G | "C"E4- "E7"E2 E>F |\
+  "Am"(3GAG E>^E "D"F4 | "D7"(3FGF D>^D "Am"E2 "A7"z^E | "D"F>G A>B "A7"A>G F>E | "Am"A4 "D7"z2 \
+"^A2"[| B,>C |\
+  "G"(3DED ^C>D "C"E2 G2 | "G"B2 D6 | B3 B "B7"A3 G | "C"E4- "E7"E2 E>F |\
+  "Am"(3GAG F>G "F#"F2 E>_E | "G"D>E G>B "E7"d2 ^D>E | "Am"c4 "D7"F4 | "G"G4 z2 |]
+"^B"[| {F}G>A |\
+  "B7"(3BcB (3ABA (3GAG (3FGA | "(Em)"B>B "(B7)"(3AGF "Em"E2 z2 | "D7"(3ABA (3GAG (3FGF "(A)"(3EFG |\
+  "D"A>A "(A7)"(3GFE "D"D2 zD | "D7"d>_d c>B "(A7)"A>G F>E | "Am"D>^C D>E "D7"D2 \
+"^A2"[| B,>C |\
+  "G"(3DED ^C>D "C"E2 G2 | "G"B2 D6 | B3 B "B7"A3 G | "C"E4- "E7"E2 E>F |\
+  "Am"(3GAG F>G "F#"F2 E>_E | "G"D>E G>B "E7"d2 ^D>E | "Am"c4 "D7"F4 | "G"G4  !fine!z2 |]

@@ -1,0 +1,40 @@
+X:2
+T:Bluebells Set
+T:Bluebells of Scotland, Bonnie Charlie, Johnny Scobie, Murdo's Wedding
+C:Chesapeake Caledonian Pipe Band
+Z:by Renee
+P:7
+M:4/4
+Q:60
+K:A
+"Bluebells"
+|:e2|{af}a4 {f}g2f2|{gef}e4{g}f2 g a|c2 {GdG}c2 {GdGc}d2 {g}B2 |{G}A4 {GAG}A2:|
+|:{g}ed| {gcd}c2 {e}A2 {gcd}c2 e2| {af}a3 g {a}f2 g a| {f}g2 e2 {g}f2 d2| {gef}e4 {g}f2 g2|
+{af}a4 {f}g2 f2| {aef}e4 {g}f2 ga| c2 {GdG}c2 {Gdc}d2 {g}B2| {G}A4 {gAG}A2 :|A2
+"2.Bonnie Charlie"
+{GdGc}d3 e {g}f2 d2| {g}B d3 {G}A4| {af}a4 {GdG}a2 f2| {gfg}f e3 {G}e4|
+{GdGc}d3 e {g}f2 d2| {g}B d3 {G}A4|{af}a4 {GdG} a2 f2| {gef}e3 d {gdG}d4
+{f} f2 a2 {g}a2 {GdG}a2| {fg}f2 a2 {f}a4|{GdGc}d3 c {gBd}B2 {G}A2|{gf}g3/2 f/2 {g}e d {gef}e3 {A}e|
+{g}f3 {e}f {gef} e2 d2| {g}B d3 {G}A4|
+{af}a4 {GdGc}a2 f2| {gef}e3 d {gdF}d2|
+"3.Johnny Scobie"
+|{g}AB| {GDG}c3 e {gde}dc {gBd}BA| {Gcd}c2 {e}A2 {GAG}A2 {gcd}ce|
+{ag}a4 {GdG}ag {fg}fe| {gfg}f4 {g}e2 {g}f3/2 g/2|
+{af}a4 {GeG}a2 c2 {GdGc}d2 f2 {gef}e3 {A}e| {g}f2 e2 {af}a2 c2|
+{aGd}B4 {G}A2| "4. Murdo's Wedding"
+|e2|{g}A2 {GdGe} A B {g}A2 {gcd}c e|
+{ag}a2 {fg}f d {gef}e4|
+{g}A2 {GdGe}A B {G}A2 {gcd}c e|
+{g}f3/2 e/2 {gde}dc{gBd}B2 {gef}e10/6 c2/6|
+{g}A2 {GdGe} A B {g}A2 {gcd}c e|
+{ag}a2 {fg}f d {gef}e4|
+{ag}a2 {fg}fd {gef}e2 {fde}d10/6 B2/6|
+{G}A4 {GAG}A4|
+{ag}a2 {fg}f d {gef}e2 {AGAG}A2|
+{ag}a2 {fg}f d {gef}e4|
+{g}A2 {GeGe}AB {G}A2 {acd}ce|
+{g}f10/6 e2/6 {gde}d c {gbd}B2 {gef}e10/6 c2/6|
+{g}A2 {GdGe}A B {G}A2 {gcd}c e|
+{ag}a2 {fg}f d {gef}e4|
+{ag}a2 {fg}f d {gef}e2 {gef}d22/12 B2/12|
+{G}A4 {GAG}A3 z|

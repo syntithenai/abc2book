@@ -1,0 +1,23 @@
+X: 171
+T: le Vieux Garcon          F.
+C: Ignatius Sancho 1775
+%R: waltz
+B: "Minuets Cotillons & Country Dances", 1775 p.17 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: AdA | Bge | cBc | dcd | AdA | Bge | cBc | d3 :: Aaa | Agg | Aff | ecA |
+[V:2] |: fff | ggg | aaa | bbb | fff | ggg | aga | d3 :: AAA | AAA | ddd | aaa |
+[V:1]    Aaa | Agg | ecA | d3 :: faf | afd | ege | gec | faf | afd | ecA | d3 :|
+[V:2]    AAA | AAA | aaa | d3 :: d2d | d2d | c2c | A2A | d2d | d2f | a2A | d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% All round, back again, Each Gentleman turn his Partner, Ballance, turn each others
+%% Partner, Ballance a Rigadoon Step, Every Gentleman turn his Partner into her Place.
+%%endtext

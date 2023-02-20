@@ -1,0 +1,16 @@
+X: 169
+T: As I Roved Out
+R: air, march
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #169
+O: J.O'Neill
+Z: henrik.norbeck@mailbox.swipnet.se
+Z: g2 in bar 2 of 2nd part should be =g2 [Fixed. JC]
+Q: "With expression"
+M: C
+L: 1/8
+K: A
+ag | e2dB A2E2 | G3A B2=g>f | e2dB A2A2 | A6 :|
+| (AB) | =c2AB ^cdef | =g2d2 e2(ef/g/) | a2ab agec | d2c2 A3 ||
+| B | =c2AB ^cdef | =g2d2 e2f^g | a3b agec | d6 ||
+| a>g | e2d>B A2E2 | G3A B2=g>f | e2dB A2A2 | A6 |]

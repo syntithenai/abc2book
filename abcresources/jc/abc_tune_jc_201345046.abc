@@ -1,0 +1,25 @@
+X: 1
+T: Tiroler Polka
+C:
+R: polka
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+"Intro"[|\
+!f!.E2.G2 (G^F)G2 | .F2.A2 (A^G)A2 |\
+B2c2d2e2 | (fe).d.c "_dim. . .".B.A.G.F !segno!|:\
+!mf!E2G2 (G^F)G2 | .e2.e2 c4 |\
+E2G2 (A2G2) | F6 z2 |\
+.D2.F2 (FE)F2 |
+.d2.d2 B4 |\
+B2F2 B2A2 | (AG).E.A G4 |\
+E2G2 (G^F)G2 | .e2.e2 c4 |\
+E2G2 (A2G2) | F6 z2 |\
+B2F2 B2A2 | A2G2 (G^F)G2 |\
+!f!B2GG B2d2 | c2c2c2 !fine!z2 :|
+[K:G]|:!mf!\
+.d2.d2 "^>"d4 | .c2.B2 "^>"G4 |\
+B2A2 (E2F2) | A2G2 D4 |\
+!p!.d.d.d.d .d2.c2 | (c2B2) G4 |\
+.B2.A2 .E2.F2 |[1 .G2.G2.G2 z2 :|[2 G2z2 z4 !segno!|]

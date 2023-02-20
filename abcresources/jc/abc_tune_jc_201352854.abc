@@ -1,0 +1,15 @@
+X:1
+T:Willie With His Tartan Trews  [ABABB]
+C:Trad?
+R:Jig (8x40) ABABB
+B:RSCDS 14-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:A
+f"A" |\
+"A"ecA "D"def | "A"ece c2f | ecA edc | "G"BcB "(E7)"d2f |\
+"A"ecA "D"def | "A"ecf c2e | "D"faf "A7"edc | "Bm"BcB "(E7)"d2 |]
+f"B" |\
+"A"ecA acA | ecA "D"d2f | "A"ecA acA | "G"BcB "(E7)"d2f |\
+"A"ecA acA | ecA cde | "D"faf "A"ecA | "Bm"BcB "(E7)"d2 |]

@@ -1,0 +1,43 @@
+X: 1
+T: Emperor of the Moon
+P: Longways for as many as will
+%R: march, reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.57 #93
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.157 "P"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: CCDM1 has F for the first note in bar 7. The G in DMDfD sounds better, but both sound OK.
+N: The dances are identical except for minor capitalization, spelling and punctuation differences.  (There's an unclosed "(" in DMDfD.
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+G2d2 G2d2 | G2d2 B2AB | G2g2 G2g2 | G2g2 f2=ef |\
+B2f2 B2f2 | B2g2 A2(GF) | G2(AB) c2BA | A4 G4 |]
+[|\
+G2g2 G2g2 | G2g2 G2g2 | B2b2 B2b2 | B2b2 B2b2 |\
+d2f2 d2f2 | d2f2 d2(cB) | c2 (c/d/e) d2g2 | ^f4 g4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The two Men sett to their own, then all four single; then
+%% the two Men Hands, the two We. the same at the same Time,
+%% and meet and sett; then the 1st Cu. cast off to the 2d proper,
+%% and the 2d Cu. cross over to the 2d improper; then the 2d
+%% Wo. Hands with the 1st Wo. and turn to the 2d proper, the 2d
+%% Man at the same Time with the 1st Man to the 2d Proper,
+%% then the 1st Cu. the same, which brings them to the 2d proper.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The two men set to their own, then all four single; then the two men hands, (the two we. the same at the
+%% same time,) and meet and set; then the 1. cu. cast off to the second proper, and the 2. cu. cross over to
+%% the second improper; then the 2. wo. hands with the 1. wo. and turn to the second proper, (the 2. man
+%% at the same time with the 1. man to the second proper, then the 1. cu. the same, which brings them to
+%% the second proper.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

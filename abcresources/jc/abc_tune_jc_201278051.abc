@@ -1,0 +1,31 @@
+X:10
+T:Friiti Ojalan Haavalssi  (Friiti Ojala's wedding waltz)
+M:3/4
+L:1/8
+R:waltz
+K:Em
+|: "Em" B,4 E2 | G4 B2 | e3 ^def | e3 ^def | "Am" e4 d2 | c3 B A2 |
+"Em" (B6 | "B7" B2) z2 B,2 | "Em" B,2 E2 F2 | ~G2 F2 E2 | ~B2 A2 G2 | !
+"B7" f4 e2 | "Em" b6 | "Am" a2 g z2 e | "B7" (f6 | f2) z2 B,2 |
+"Em" B,4 E2 | G4 B2 | e3 ^def | e3 ^def | "Am" e4 d2 | c3 B A2 | !
+"Em" (B6 | "B7" B6) | "Am" A6 | G4 F2 | "B7" f3 e^df | b6 |
+"Am" a2 g2 e2 | "B7" B2 ^c2 ^d2 | "Em" (e6 |[1 e2) "fine" z2 B,2 :|
+[2 e2) z2 G2 | !
+|: "G" G4 B2 | B4 d2 | d4 g2 | "D7" f4 d2 | f6 | "C" ~e2 d z2 c |
+"D7" (A6 | A3) GFE | D3 E F2 | F4 A2 | A4 G2 | F4 E2 | !
+~D2 ^C2 D2 | "C" ^D2 E z2 C | "G" (B,6 | B,2) z2 D2 | "G" G4 B2 |
+B4 d2 | d4 g2 | "D7" f4 d2 | f6 | "C" ~e2 d z2 c | "D7" (A6 | A3) GFE | !
+D3 E F2 | F4 E2 | "G" ~D2 ^C2 D2 | B4 G2 | "D7" D2 ^C2 F2 |
+E2 D z2 B | "G" (G6 |[1 G2) z2 D2 :|[2 G2) z AFA | !
+K:D
+|: "D" d2 d z2 f | "A7" ecA z2 f | "D" (d6 | d2) z AFA | d2 d z2 f |
+~e2 d3 c | "G" (B6 | B2) z2 B2 | B6 | B2 c3 d | !
+"A7" c4 B2 | ~A2 ^G2 A2 |
+[1 c4 B2 | A2 E2 ^E2 | "D" (F6 | F2) z AFA :|
+[2 ~A2 ^G2 A2 | B2 A z2 f | "D" (d6 | d4) c2 | !
+|: "Bm" B6 | "F#7" c4 d2 | "Em" (e4 e)f | g6 | "F#7" f6 | ~e2 d z2 c |
+"Bm" (B6 | B2) z2 F2 | B6 | "F#7" c4 d2 | "Em" e2 g2 b2 | d'4 c'2 | !
+c'2 b2 a2 | g2 z2 e2 | "F#7" (f6 | f)g fedc | "Bm" B6 | "F#7" c4 d2 |
+"Em" (e4 e)f | g6 | "F#7" f6 | ~e2 d z2 c | "Bm" (B6 | B2) z2 b2 | !
+b3 c' d'2 | "Em" c'4 ^e2 | "Bm" f4 b2 | "Em" a4 g2 | "F#7" ~f2 e z2 d |
+c>e d2 c2 | "Bm" (B6 | [1 B2) z2 F2 :|[2 B2) "DC al fine" z2 B,2 ||

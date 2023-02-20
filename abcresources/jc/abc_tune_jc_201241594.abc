@@ -1,0 +1,21 @@
+X: 4440
+T: "MYRINE" VALSE
+C: Henri Laski
+R: Waltz
+%R: waltz
+B: James Kerr "Merry Melodies" v.4 p.50 #440
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: F
+|: !p!\
+A3- | AGF | (E2d) | c3 |\
+B3- | BAG | (F2f) | c3 |\
+d3- | ded |[1 (c3 | A2)A |\
+A3- | AGF | G3- | Gzz :|\
+[2 c3 | A2F | G3- | GAG | F3- | Fzz |]
+|: !ff!\
+f>gf | e>fe | dG>A | B2B |\
+e>fe | d>ed | cF>G | A2c |\
+f>gf | A=B^c | d>ed | fed |\
+e>dc | =BgB | c>cc |[1 czc :|[2 (c=B"_D.C."_B) |]

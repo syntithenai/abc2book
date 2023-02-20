@@ -1,0 +1,33 @@
+X: 10153
+T: FAVOURITE FRENCH WALTZ
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.15 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: A
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!p!e2 |\
+(fe)(^de)=dB "_fz."| A2EAce "_fz."|\
+{c}d2(GBd)f "_fz."| {f}e2EAce !f!|\
+(fe)(^de)=dB | A2(EA)ce |\
+d2G2G2 | A4 :|
+|: !p!A2 |\
+B2(GBd)f | {f}e2EAce |\
+{e}d2(GBd)f | {f}e2(EAc)e |\
+(fe)(^de)=dB | A2(EA)ce |\
+d2(EGB)G | A4 :|
+|: !ff!E2 |\
+A2A2A2 | c2c2c2 |\
+d2d2d2 | c4"^8va("E2 |\
+A2A2A2 | c2c2c2 |\
+d2d2d2 | "8va)"A4 :|
+|: c2 |\
+d2(fd)Bd | c2(ec)Ac |\
+B2(dB)GB | (Ac)(eb)ec |\
+d2(fd)Bd | c2(ec)Ac |\
+B2(dB)GB | A4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

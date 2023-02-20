@@ -1,0 +1,26 @@
+X: 20621
+T: HARK THE BONNY CHRIST CHURCH BELLS
+%R: march, round
+B: "Edinburgh Repository of Music" v.2 p.62 - p.63 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: This is really just a "round", with a few trivial changes to the 2nd voice plus an "ending" in voice 1.
+N: What does the "C key" annotation mean?
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 clef=treble
+c3c c2c2 | c2c2 c2e2 | d2c2 B2A2 | G3G G2G2 |\
+E2G2 D2G2 | c2F2 G2gg | e2a2 def2 | e3d c4 |
+e3e e2e2 | e2e2 e2g2 | f2ef d2c2 | d2G2 d2d2 |\
+e2d2 e2d2 | e2d2 d2cB | c2A2 d2B2 | c3d e4 |
+gggg g2gg g2gg g2G2 | A3A B2c2 | B6 AB | c2B2 c2B2 |\
+c2d2 B2AG | A2F2 G3G | "_C key"[c6C4] gg | e2a2 def2 | e3 d c4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=treble
+z8 | z8 | z8 | z8 | z8 | z8 | z8 |
+z8 || c3c c2c2 | c2c2 c2e2 | d2c2 B2A2 | G3G G2G2 | E2G2 G2G2 | c2F2 G2gg |
+e2a2 def2 | e3d c4 || eeee e2ee | e2ee e2g2 | f2ef d2c2 | d2G2 d2d2 |
+%p.61
+e2d2 e2d2 | e2d2 f2cB | c2A2 d2B2 | c3d e4 || A2F2 G3G | [c8C8] |]

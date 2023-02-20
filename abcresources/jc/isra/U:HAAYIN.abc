@@ -1,0 +1,15 @@
+X: 55
+T: El ha'ayin
+C: Yosef Hadar
+M: 2/4
+L: 1/8
+K: Dm
+Q: 1/4=180
+%%MIDI program 22
+  EFGA|F2 F2|E2 DE|C4 |DEFG|E2 E2|DE C2|D4-|
+Q: 1/4=120
+|:D2FG|F2D2 |A3G  |G4-|G2FG|F2D2 |F3G  |G4-|
+  G2FG|F2D2 |A3G  |G4-|G2EF|E2CE |D4-  |D4 :|
+Q: 1/4=180
+  FGAB|G2 G2|FEF2 |G4 |FGAB|G2 G2|FEF2 |F4 |
+  EFGA|F2 F2|E2DE |C4 |DEFG|E2 E2|D2EC |D4 |

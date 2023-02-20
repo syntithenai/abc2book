@@ -1,0 +1,36 @@
+X: 20341
+T: GRAHAM'S WALTZ
+C:
+%R: waltz
+B: Elias Howe "The Musician's Companion" 1843 p.34 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Adjusted note+rest lengths in final bars, to fix repeat rhythms.
+N: Added missing bar lines in last 4 (i.e., 6) bars.
+N: The last strain has 15 bars.
+M: 3/8
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(cG).E.G.c.e | d2d2d2 |\
+(dB).G.B.d.f | e2c2c2 |\
+(cG).E.G.c.e | d2d2d2 |\
+(fe).f.d(cB) | {d}c4z2 ::\
+g2f2e2 | e4e2 |\
+(gf)e2f2 | {e}d6 |
+e2d2c2 | (G2f2)d2 |\
+c4B2 | {d}c4z2 ::\
+G2d2f2 | e4c2 |\
+B2d2f2 | e2a2g2 |\
+g2d2f2 | e4c2 |\
+(G2f2)d2 | {e}d4z2 ::\
+c2e2g2 | {e}_b2a2b2 |
+a4f2 | e2e2g2 |\
+{e}_b2a2b2 | a4f2 |\
+e4d2 | .c2(ge).c.e |\
+.d2(fd).B.d | .c2(ge).c.e |\
+.d2(fd).B.d | (c2g2)g2 |\
+g2g2g2 | g2^f2=f2 |\
+e2f2"^D.C."d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

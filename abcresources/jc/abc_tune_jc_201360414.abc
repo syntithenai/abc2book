@@ -1,0 +1,54 @@
+%!abctab2ps -tabsize 12 -s0.55
+X:1
+%
+%%topspace 0cm
+%%titlespace 0cm
+%%subtitlespace 0cm
+%%composerspace 0cm
+%%musicspace 0cm
+%%botmargin 0cm
+% %%sysstaffsep 30pt
+%%systemsep 65pt
+%
+B:Telemann, aus Kantate 32 "Schmückt das hohe Fest mit Maien"
+T:II. Rezitativ
+L:1/8
+M:C
+K:A
+%
+V:S clef=treble
+V:B clef=bass bracket=2
+V:L clef=frenchtab
+%
+[V:S] z2 z B G z/G/GA | BBe^d e2 eB | =dBcd cGB^A |
+w: Der Tag, an dem von je-nes Ber-ges Spit-zen des schreck-li-chen Ge-set-zes har-ter
+[V:B] e8- | e8- | e4 "6"^e4 |
+[V:L] x8 x8 x8
+%
+[V:S] ^A2 z/c/f/c/ AABc | c F z/F/F/G/ =AAAG | G2 z/B/B/G/
+w: Klang mit Don-ner und mit star-ken Blit-zen durch al-les Vol-kes Oh-ren drang, da Si-na-
+[V:B] "4+\n2"=e8- | e4 "6\n5"^d4 | e4-
+%
+[V:S] EE e^d | ^d G z/^d/d/e/ ffg^d | e e z/c/^d/e/
+w: i ent-setz-lich schmau-chte und un-sers Rich-ters Ei-fer rau-chte, wird uns ein
+[V:B] e4 | "6"^B8 | c4
+%
+[V:S] ^ddfe | c2 z c c2 G2 | GGGA BBcG | AA z/A/c/A/ e z/e/ =gf |
+w: tröst-lich Ju-bel-fest, da Je-sus, der für uns den al-ten Bund ge-en-det, uns selbst den Geist den Trö-ster
+[V:B] "6+"f4 | "6"e4 "6"^e4- | ^e8 | f4 "6"c4 |
+%
+[V:S] dd zd dA =cB | B2 zF AA BF | =GG z B =GG BE |
+w: sen-det, der al-len Schre-cken dämpft, der al-le Seuf-zer stil-let, die uns der Fluch der
+[V:B] d8 | "6"^d8 | "b"e8- |
+%
+[V:S] eeed B2 z F | FF Bc ddBA | FF z2 z c f^e | f2 z f
+w: Ta-feln aus-ge-preßt und un-sre Brust mit san-ftem Tro-ste fül-let. Ihr Chri-sten eilt, er-
+[V:B] e4 "6"=d4- | d8 | "#"c2 f6- | f4-
+%
+[V:S] fc ^de | ^dd z ^d defd | BF AG G z/B/ ef | =dddc
+w: öff-net ihm die Tü-ren! Macht euch zu-vor von al-lem Wu-ste rein und flieht den ihm ver-haß-ten
+[V:B] f4 | "#"B8- | B4 e4- | e4
+%
+[V:S] c z/A/ Bc | BBdc AA z A | c2 zc eeec | A2 z/c/^d/e/ B2 z2 |]
+w: Pfad, auf den euch Welt und Lü-ste füh-ren! Denn wißt: Wer Chri-sti Geist nicht hat, der ist nicht sein.
+[V:B] A4 | "6"d4 e2 A2- | A8- | A4 "#"B2 e2 |]

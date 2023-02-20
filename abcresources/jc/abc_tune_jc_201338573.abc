@@ -1,0 +1,20 @@
+X: 1
+T: Small Fox, Big Field
+C: Eric Eid-Reiner (2007)
+R: reel
+%S: s:2 b:16(8+8)
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bdor
+% %staffsep 35 % Adjust this as needed
+"A"|:\
+"Bm"d3d "A"cBAF | "Bm"BcdB "E"e2dc |\
+"Bm"B2dB "A"cBAF | "F#m"FGAB cdcA |\
+"Bm"B2dB "A"cBAc | "Bm"defa "E"gefa |\
+"Bm"bafb "A"afec |1 "Em"defe "F#m"dcBA :|2 "F#m"dcAc "Bm"Bz AG ||
+"B"|:\
+"Bm"FB,B,F B,B,FB, | "D"DEFA "E"GAGE |\
+"Bm"FB,B,F B,B,FB, | "G"D=G,B,D "A"C2DE |\
+"Bm"FB,B,F B,B,FB, | "D"DEFA "E"GAGE |\
+"Bm"FBdB "A"cBAG |1 "F#m"FBAc BAFE :|2 "F#m"FBAc "Bm"Bzz2 |]

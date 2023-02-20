@@ -1,0 +1,23 @@
+X: 9
+T: Within a mile of Edin.r
+T: Within a mile of Edinburgh
+N: The title has a odd abbreviation, with a superscript r above a dot standing for "burgh".
+N: 14 bars long.
+%R: strathspey
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.4
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+Q: "Slow"
+M: C
+L: 1/8
+K: D
+f>g |\
+(a<f)(e>f) d2 (f<d) | (B<d)(A<F) A2 (d>e) |\
+(f<a)(b<d') (a<f)(d>f) | (Tf2 e2) z2 (f>g) |\
+(a<f)(e>f)  d2 fd | (B<d) (A<F) A2 (d>e) |\
+(f<a)(b>d') (a<f)(e>f) |
+d4 z4 |\
+(d>e)(f>g) (a>f) d'2 |\
+(d>e)(f>g) afd'd |\
+(d>e)dB AFAd | fdfa Hb>c'Hd'b |\
+a<ff<d B<dA<d | f<ae>f d2 :|

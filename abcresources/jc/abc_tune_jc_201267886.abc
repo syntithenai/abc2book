@@ -1,0 +1,23 @@
+X: 1
+T: Delavaird Bridge
+C: Angus Cameron
+R: strathspey
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: Image from George Meikle, via Sylvia Miskoe
+N: Part of a set for In Traditional Mode, in a dance program from 2012
+M: 4/4
+L: 1/8
+K: D
+"A7"A2 |\
+"D"d>e d>B "F#m"c2 F<A | "G"B>A G>B "D"A2 F<D |\
+"Em"G>B "A"(3GFE "D"F>A "Bm"(3FED | "E7"E>^G B>d "A7"c2 ||
+(3ABc |\
+"D"d>e "Bm"d>B "F#m"c2 F<A | "G"B>A G>B "D"A2 F<D |\
+"Em"G>B "A7"(3GFE "F#m"F>A "Bm"(3FED | "Em"E>G "A7"F>E "D"D2 |]
+N: The original had "B>c" for the pickup to the 2nd half, which is obviously wrong.
+d>e |\
+"D"f>g f>d "A"e2 c<e | "Bm"d>e d>B "F#m"c2 A<F |\
+"Em"G>B e>G "D"F>A d>F | "E7"(3E^GB e>d "A"c<A ||
+d>e |\
+"D"f>g f>d "A"e>d "F#7"c<e | "Bm"d>e d>B "F#m"c>B A<c |\
+"Em"B>G (3BAG "D"A>F "B7"(3AGF | "Em"E>G "A7"F>E "D"D2 |]

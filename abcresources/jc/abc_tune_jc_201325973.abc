@@ -1,0 +1,27 @@
+X: 1
+T: Poyntins Maggot
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (57)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+N: The rhythm isn't correct between the two strains.
+M: 6/4
+L: 1/4
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A3 E3 | C>DE A,2A | D2B E2c | fdc B3 :|\
+|: e |\
+a3 e3 | c>de A2f | G2e F2d | EcA BGE |\
+FAC B,BG | A3 A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. take both hands the 2d Cu. do the same and
+%% go Round in each others places .| the same back again :|
+%% the 1st Man change Place with the 2d Wo. the 2d Man
+%% with the 1st Wo. and all four turn single .| hands across
+%% and turn quite round then 1st Cu. turn proper :|
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,32 @@
+X: 501
+T: HONble Mr FRASER. (of Lovat)
+C: R. MACKINTOSH
+R: Reel
+B: Glen Collection p.50 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: Bm
+%
+V: 1
+g |\
+f2(ef) dfBd | cAec aecA | f2(ef) dfBd | efdc d(BBg) |
+f2(ef) dfBd | cAec aecA | (Bcd)B cdeg | fdec dBB ||
+f |\
+{B}b2(fd) {B}b2(fd) | (cea)^g aecA | {B}b2(fd) {B}b2(fd) | efdc dBBf |
+{B}b2(fd) {B}b2(fd) | (cea)^g aecA | Bb^ab gbeg | fedc dBB |]
+%
+V: 2
+z |\
+b2[f'2d'2] f2[f'2d'2] | a2[e'2c'2] e2[e'2c'2] |\
+b2[f'2d'2] f2[f'2d'2] | a2^a2 b2B2 ||
+b2[f'2d'2] f2[f'2d'2] | a2[e'2c'2] e2[e'2c'2] |\
+b2[f'2d'2] f2[f'2d'2] | a2^a2 b2[fdB] ||
+z |\
+b2[f'2d'2] f2[f'2d'2] | a2[e'2c'2] e2[e'2c'2] |\
+b2[f'2d'2] f2[f'2d'2] | a2^a2 b2B2 |
+b2[f'2d'2] f2[f'2d'2] | a2[e'2c'2] e2[e'2c'2] |\
+b2[f'2d'2] e2[e'2c'2b2] | f2^a2 b2[fdB] |]

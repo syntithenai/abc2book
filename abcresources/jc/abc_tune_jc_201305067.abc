@@ -1,0 +1,43 @@
+X: 1
+T: MacDonald of the Isles
+T: 3 x 32S 3C (Glendarroch #8)
+T: Play 1 2 3
+C: AKA Carrick's Rant
+C: arr. John Chambers, mods by T. Traub 12-21-2002
+C: H&C p.87 (best setting); Skye p.44; BSFC VII-2 and I-55
+P: The Smith's a Gallant Fireman
+M: 4/4
+L: 1/8
+K: D
+A,|"D"~D2 D>F {F}A2 A>B | "D"A>B d>A F2 D2 | "Em"~E2 E>G {G}B2 B>f | \
+  "G"g>f e>d "A7"B>A B/c/d |"D"~D2 D>F {F}A2 A>B |
+"D"A>B d>A F2 D>F| "G"G>B G<B "D"F>A F<A | "Em"E>F G>A "A7"B>A B>c |]|\
+  "D"d2 f>e e<d d>B |A>B d>A F2 D2 |
+"Em"e2 g>f e<e e>f | "G"g>f e>d "A7"B>A B>c | "D"d2 f>e e<d d>B | A>B d>A F2 D2 \
+ | "G"G<B G<B "D"F<A F<A | "Em"E>F G>A "A7"B>A B/c/d |]
+
+X: 1
+P: Miss Drummond of Perth
+C: attrib. to Niel Gow
+C: arr. T. Traub 6-26-03
+R: Strathspey
+M: 4/4
+L: 1/8
+K: Am
+|:a|"Am"A<Ae>d B<d e2|"G"d<gB<g d<gB>G|"Am"A<Ae>d B<de>g|"Am"a>e"G"g>B "Am"A2 A :|
+g|"Am"a<ae<a c<a e2|"G"g<gdg B<g d2|"Am"a<ae<a c<ae>g|"Am"a>eg>B A2 Ag|
+"Am"a<ae<a c<ae>^f|"G"g<gd<g B<gd>g|"Am"a<ae<a "Em"g<be>g|"Am"a>e"G"g>B "Am"A2 A |]
+
+X: 1
+P: Lieutenant Howard Douglas
+R: strathspey
+C: Robert Mackintosh
+C: Winston Fizgerald Collection
+C: Arr. T. Traub 11-25-2002
+M: 4/4
+L: 1/8
+K: Dm
+R: strathspey
+|:d>c|"Dm"A<dd>c A<dd<e|"C"C>Ec>A G/F/E/D/ C>E|"Dm"D<dd>c A<dd<e|"F"f>a"C"g>e "Dm"d/d/d:|
+e/f/g|"Dm"a<df>d a/g/f/e/ f<d|"C"g>c e<c g>c e<g|"Dm"a<df>d a/g/f/e/ f<d|"C"c<a"Am"g>e "Dm"d/d/d e/f/g|
+"Dm"a<df>d "G"a/g/f/e/ f<d|"C"g>c e<c g>c e<g|"Dm"a>g e<c "C"f>e d<e|"Am"d>c A>c "Dm"d/d/d d|]

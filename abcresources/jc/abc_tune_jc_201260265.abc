@@ -1,0 +1,43 @@
+
+X: 1
+T: Carnaval de Lanz
+O: trad. France
+M: 2/4
+L: 1/16
+K: C
+ef "A"|\
+"C"g2ga gfed | c3e e2e2 | "Dm"d3e f2g2 | "F"a4 "G7"g2ef |\
+"C"g2ga gfed | c3e e2e2 | "G7"d3e f2B2 | c4 z2 :|
+|: z2 "B"|\
+"C"C3E G2c2 | "G7"c2B2 d4 | D3E F2G2 | "C"A2G2 c4 |\
+"C"C3E G2c2 | "G7"c2B2 d3c | B2G2 A2B2 | "C"c4 z2 :|
+|: z2 "C"|\
+"C"g3g g2g2 | "F"a3g f2e2 | "G7"f3f f2a2 | "C"g2e2 c4 |\
+"C"g3g g2g2 | "F"a3g f2e2 | "G7"f3f a2g2 | "C"c4 z2 :|[K:F]
+|: c2 "D"|\
+"F"A2F2 F2GA | "C7"B2G2 G6 | GFGA B2G2 | E2C2 C2c2 |\
+"F"A2F2 FGAB | "C7"c6 GA | B2G2 E2G2 | "F"F4 z2 :|
+%%text Usually only A, B parts used.  Sometimes all 4 parts are played.
+
+
+%%sep 5 1 500
+
+X: 2
+T: Carnaval de Lanz
+O: trad. France
+M: 2/4
+L: 1/16
+K: G
+Bc "A"|\
+"G"d2de dcBA | G3B B2B2 | "Am"A3B c2d2 | "C"e4 "D7"d2Bc |\
+"G"d2de dcBA | G3B B2B2 | "D7"A3B c2F2 | G4 z2 :|
+|: z2 "B"|\
+"G"G3B d2g2 | "D7"g2f2 a4 | A3B c2d2 | "G"e2d2 g4 |\
+"G"G3B d2g2 | "D7"g2f2 a3g | f2d2 e2f2 | "G"g4 z2 :|
+|: z2 "C"|\
+"G"d3d d2d2 | "C"e3d c2B2 | "D7"c3c c2e2 | "G"d2B2 G4 |\
+"G"d3d d2d2 | "C"e3d c2B2 | "D7"c3c e2d2 | "G"G4 z2 :|[K:C]
+|: g2 "D"|\
+"C"e2c2 c2de | "G7"f2d2 d6 | dcde f2d2 | B2G2 G2g2 |\
+"C"e2c2 cdef | "G7"g6 de | f2d2 B2d2 | "C"c4 z2 :|
+%%text Usually only A, B parts used.  Sometimes all 4 parts are played.

@@ -1,0 +1,24 @@
+X: 20423
+T: STACY'S HORNPIPE
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" 1843 p.42 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: There's no time signature on this one.
+N: The slur in bar 4 is probably placed wrong.
+N: Added rest at start of 2nd strain to fix the rhythm.
+M: none
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(3(ABc) |\
+d2AG FDFA | Bdce (dc).B.A | (df).a.f gfed | c2e2 e(g.f).e |\
+d2AG FDFA | Bdce dcBA | (df).a.f gece | d2d2 d2 :|
+|: z2 |\
+dcde dcBA | BcdB BAGF | GABG FGAF | E2E2 E2 (3(ABc) |\
+dcde dcBA | BcdB BAGF | gabg fedc | d2d2 d2 :|
+|: (fg) |\
+(af)dA gecA | afdA gecA | dcde defd | e2e2 e2fg |\
+afdA gecA | afdA gecA | babf fedc | d2d2 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

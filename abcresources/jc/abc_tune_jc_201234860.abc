@@ -1,0 +1,23 @@
+X: 2083
+T: O'ER BOGIE
+C:
+Q: "Reel."
+R: Reel.
+%R: reel
+B: James Kerr "Merry Melodies" v.2 p.11 #83
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+N: Last note is too long; not fixed.
+%%slurgraces yes
+%%graceslurs yes
+K: C
+uA |\
+c2{d}cA cGGA | cdcA G2(Gc) |\
+Addc dega | gedc {cB}A2(GA) |\
+{B}c2(cA) cGGA | cd{d}cA {^F}GAcG |\
+Addc dega | gedc {cB}A2({F}GA) |]
+{B}c2ge {B}c2ge | {B}cdcA {^F}GAcG |\
+Addc dega | gedc {cB}A2(GA) |\
+cgeg cgeg | cd{d}cA {^F}GAcG |\
+Addc dega | gedc {cB}A2{F}G2 |]

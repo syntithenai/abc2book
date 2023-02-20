@@ -1,0 +1,18 @@
+X: 3061
+T: DARK HAIR'D MARY
+Q:"Strathspey."
+R: Strathspey.
+%R:strathspey
+B: James Kerr "Merry Melodies" v.3 p.9 #61
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Bar 4 has an invalid dot; fixed to match the final bar 8.
+M: C
+L: 1/16
+K: Ador	% and/or Em
+ua2 |\
+AAA2 uA3uB G3AB3d | veA3 uA3uB dcBA G3B |\
+AAA2 A3B G3AB3d | eA3 A3B GE3 E2 :|
+|: a2 |\
+ge3 e3g d3ed3B | ge3 e3f g3ab3a |\
+gb3 eg3 dg3 Bb3 | eA3 A3B GE3 E2 :|
+

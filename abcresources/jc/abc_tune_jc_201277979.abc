@@ -1,0 +1,100 @@
+
+X: 21
+T: Frible    [A]
+O: T.Davis 1748
+%R: slip-jig
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"A"ABc ABc "E"{c}TB2A | "E"efg "B7"agf "E"e3 :|\
+|:\
+"Bm"fed def "E7"{f}Te2d |
+"A"edc cde "F#(m)"{e}d2c |\
+"Bm"dcB Bcd "E7"{d}c2B | "A"cde "E7"dcB "A"A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 22
+T: Frible    (D)
+O: T.Davis 1748
+%R: slip-jig
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"D"DEF DEF "A"{F}TE2D | "A"ABc "E7"dcB "A"A3 :|\
+|:\
+"Em"BAG GAB "A7"{B}TA2G |
+"D"AGF FGA "B(m)"{A}G2F |\
+"Em"GFE EFG "A7"{G}F2E | "D"FGA "A7"GFE "D"D3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 23
+T: Frible    (G)
+O: T.Davis 1748
+%R: slip-jig
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"G"GAB GAB "D"{B}TA2G | "D"def "A7"gfe "D"d3 :|\
+|:\
+"Am"edc cde "D7"{e}Td2c |
+"G"dcB Bcd "E(m)"{d}c2B |\
+"Am"cBA ABc "D7"{c}B2A | "G"Bcd "D7"cBA "G"G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 24
+T: Frible    (C)
+O: T.Davis 1748
+%R: slip-jig
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"C"cde cde "G"{e}Td2c | "G"gab "D7"c'ba "G"g3 :|\
+|:\
+"Dm"agf fga "G7"{a}Tg2f |
+"C"gfe efg "A(m)"{g}f2e |\
+"Dm"fed def "G7"{f}e2d | "C"efg "G7"fed "C"c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 25
+T: Frible
+%R: slip-jig
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K:
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first Cu. cast off into the 2d Cu. Place the 2d Cu. cast off into their own Places first & 2d
+%% Man take Hands & foot it to their Partners & lead thro' to the Women's Side & the 1st & 2d Wo do
+%% the same at the same Time to the Men's Side. then foot it & Hands half round into the 2d Cu. Place.
+%%endtext

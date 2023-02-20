@@ -1,0 +1,67 @@
+X: 18
+T: la Promenade a quatre
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #18
+N: This version is for ABC software that doesn't understand voice overlays.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+A |\
+[AD6]BA d2c | [B3D6] A2d | efg agf | efd cdB |\
+[AD6]BA d2c | [B3D6] A2d | egf edc | d3- d2 :|
+|: e |\
+[e2A6]f g2f | [e2A6]a e2f | [e2A6]f g2f | [f3A6] e2A |\
+[AD6]BA d2c | [B3D6] A2d | egf edc | d3- d2 :||: [K:Dm]
+|: "Mineur"a |\
+a3 f2a | a3 f2a | g2f gfe | fef dfg |\
+a3 f2a | a3 f2a | g2f gfe | d3- Hd2 :|
+a |\
+aga ^fga | bab b2g | fef efg | aga a2f |\
+fef def | gfg g2e | ede ^cde | f3 "_Da Capo"e2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z |\
+d3 d3 | d3 d3 | g3 fed | a3 z2z | d3 d3 |
+d3 d3 | g3 a3 | d3- d2 :||: z | A3 A3 | A3 A3 | A3 A3 |
+A6 | d3 d3 | d3 d3 | g3 a3 | d3- d2 :| [K:Dm]
+|: "Mineur"z |\
+dfa d'3 | dfa d'3 | g3 a3 | d'3 d2z | dfa d'3 |
+dfa d'3 | g3 a3 | d3- Hd2 :| z | d'3 de^f | g3 G3 | c'3 cde |
+f3 F3 | b3 Bcd | =e3 E3 | a3 A=B^c | d3 "_Da Capo"A2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Promenade a Quatre.
+%%begintext align
+%%   Le Grand Rond - - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and second Couple Chass\'e cross and
+%% Rigaudon, then Allemande to their places - 1/2
+%%endtext
+%%begintext align
+%%   The second and fourth Couple do the same - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   The first and third Couple Balanc\'e and
+%% Rigaudon, then Moulinet, the second and fourth
+%% Couple Balanc\'e, Rigaudon and Allemande at the
+%% same time - - - 1/1
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/1
+%%endtext
+%%begintext align
+%%   All Eight half the Course with Rigaudon at
+%% each Quarter - - - 1/2
+%%endtext
+%%begintext align
+%%   Double Moulinet to your own Places - 1/1
+%%endtext
+%%sep 1 1 400

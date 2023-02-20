@@ -1,0 +1,20 @@
+X: 124
+T: Bulgar: Henry Weinstein's
+C: Henry Weinstein (Kammen 9 #19)
+B: Kammen 9 #19
+Z: John Chambers <jc:trillian.mit.edu>
+R: Bulgar
+K: Dm
+M: 2/4
+L: 1/8
+|: DFA \
+| "Dm"d^c dA- | A^G A2 | FE FD- | DD EF | "Gm"G3 F | "A7"A/^G/F F/E/D | "Dm"^G/=B/ A3- | AD FA
+| "Dm"d^c dA- | A^G A2 | FE FD- | DD EF | "Gm"G3 F | "A7"A/^G/F F/E/D | "Dm"D4-        | D :|
+|: "C7"c[d=B][e_B] \
+| "F"[fA][cA] [fA][a-c-] | [ac][fA] [a2c2] | [c'a][af] [c'a][af]- | [a4f4] \
+| "C7"[g3e3] [af] | [bg][c'/a/][b/g/] [af][ge] | "F"[^ge] [a3f3]- | [af]c "C7"[d=B][e_B]
+| "F"[fA][cA] [fA][a-c-] | [ac][fA] [a2c] | [c'a][af] [c'a][a-f-] | [a4f4] \
+|  "C7"[c'3a3] [af] | [c'/a/][b/g/][af] [b/g/][a/f/][ge] | "F"[f4-f4] | f :|
+|: F"A7"E^C \
+| "Dm"D4- | D[E^C] [FD][GE] | [A4-F4-] | [AF]F ED | "A7"^C2 E2 | B3 ^G | "Dm"A3 ^G | A/^G/F F/E/D
+| "Dm"D4- | D[E^C] "D7"[FD][^F=C] | "Gm"[G4B,4] | [B2D2] z2 | "Dm"AD EF | "A7"A/^G/F F/E/D | "Dm"D4- | D :|

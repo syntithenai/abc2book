@@ -1,0 +1,39 @@
+
+X: 1
+T: Garoun
+T: Springtime
+O:Armenia
+S:Deborah Jones, VIFD Book
+L:1/8
+M:4/4
+%Q:1/4=160
+K:Gm
+|:"Gm"G2 GD G2 A2 |"Cm"B2 B2 A2 G2 |"D7"^F2 FD F2 G2    |"Gm"A2 BA G2 G2 |\
+  "Gm"G2 GD G2 B2 |"Cm"d2 d2 cB AG |"D7"^F2 FD F2 G2    |"Gm"A2 BA G2 G2 :|
+|:"Gm"d2 d2 d2 d2 |    d2 d2 e  d3 |"Cm"c4     B4       | A6 z2          |\
+  "D7"c2 c2 c  c3 |    c2 c2 d2 c2 |"Gm"B4 "D7"c4       |"Gm"d6 z2       :|
+|:"Gm"B2 B2 B  B3 |    B2 B2 A2 B2 |"Cm"c4     B4       | A6 z2          |\
+  "D7"A2 A2 A  A3 |    c2 c2 B2 A2 |"Gm"A2 G2 "D7"G2^F2 |1"Gm"G6 z2      :|2 G2 z2 G2 z2 |
+|:"Gm"G2 GG G2 A2 |"Cm"B2 B2 A2 G2 |"D7"^F2 FF F2 G2    |"Gm"A2 BA G2 z2 |\
+  "Gm"G2 G2 G2 B2 |"Cm"d2 d2 c2 z2 |"D7"A3 G ^F2 G2     |"Gm"A2 BA G2 z2 :|
+
+
+%%sep 5 1 500
+
+X: 2
+T: Garoun
+T: Springtime
+O:Armenia
+S:Deborah Jones, VIFD Book
+L:1/8
+M:4/4
+%Q:1/4=160
+K:Dm
+|:"Dm"d2 dA d2 e2|"Gm"f2 f2 e2 d2 |"A7"^c2 cA c2 d2      |"Dm"e2 fe d2 d2 |\
+  "Dm"d2 dA d2 f2|"Gm"a2 a2 gfed  |"A7"^c2 cA c2 d2      |"Dm"e2 fe d2 d2 :|
+|:"Dm"a2 a2 a2 a2| a2 a2 b a3      |"Gm"g4 f4             | e6 z2           |\
+  "A7"g2 g2 g g3 | g2 g2 a2 g2     | "Dm"f4 "A7"g4       | "Dm"a6 z2      :|
+|:"Dm"f2 f2 f f3  | f2 f2 e2 f2     |"Gm"g4 f4             | e6 z2           |\
+  "A7"e2 e2 e e3 | g2 g2 f2 e2     | "Dm"e2 d2 "A7"d2 ^c2|[1 "Dm"d6 z2    :|[2 d2 z2 d2 z2|
+|:d2 dd d2 e2     |"Gm"f2 f2 e2 d2 |"A7"^c2 cc c2 d2      |"Dm"e2 fe d2 z2 |\
+  d2 d2 d2 f2     | "Gm"a2 a2 g2 z2|"A7"e3 d ^c2 d2       |"Dm"e2 fe d2 z2  :|

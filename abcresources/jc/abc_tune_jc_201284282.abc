@@ -1,0 +1,29 @@
+X: 1
+T: Hamstead Heath
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (152)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+a |\
+f2a A2A | d2d def | e2a fed | e2A A2a |\
+f2a A2A | d2d def | eAa ab^g | a3- a2 |]
+e |\
+c2e A2a | fed d2d | B2d G2g/f/ | g3 b3 |\
+efg a3 | fga b2b | bag f2e | e3- e2f/g/ |
+agf gfe | fed e2A | d2e fgf | e3 A2a |\
+f2a A2A | d2d def | eag fed | d3- d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man go within side of the 2d Man then go round
+%% about him and stand below the 3d Man .| Then the 1st Wo.
+%% do the same :| The 1st Cu. being below the 3d Cu. cross
+%% over above the 3d Cu. and so above the 2d Cu. into their
+%% own Places .| The 1st Man take Hands with his Partner and 
+%% lead down the 2d Cu. then lead up again into your own
+%% Places and cast off :|
+%%endtext
+%%sep 1 8 500

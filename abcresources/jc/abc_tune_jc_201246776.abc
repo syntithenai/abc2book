@@ -1,0 +1,25 @@
+X:1
+T:Anchors Away
+M:C
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+|: {gAd}A4{g}c2e2 | \
+{gfg}f3c{g}f4 | \
+{Gdc}d4{gef}e2A2 |
+{Gdc}d4-d4|1
+{gde}B4{Gdc}d2B2 | \
+{gAd}A2B2{g}c2{Gdc}d2 |
+{g}G2{d}B2{GdG}e2d2 | \
+{gcd}c2{g}A2{gfg}f2{g}e2 :| \
+M:C e2 |
+{gAd}A4{g}c2e2 | \
+{gfg}f3c{g}f4 | \
+{Gdc}d4{gef}e2A2 |
+{Gdc}d4-d4:|2
+{gde}B4{Gdc}d2B2 | \
+{gAd}A2B2{g}c2{Gdc}d2 |
+{g}f3/2A/2{d}G{d}A{gef}e3/2A/2{d}G{d}A | \
+{Gdc}d4{gdc}d4|]

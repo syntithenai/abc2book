@@ -1,0 +1,40 @@
+X: 1
+T: the Merry Milk-maids
+P: Longways for as eight
+%R: jig
+B: "The Dancing-Master" printed by John Walsh, London
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.16 #27
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.27
+N: The dance is formatted in two columns; ## is used to indicate the column boundary.
+Z: 2012-2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+c>dc G2g | e3- e2c | c>dc G2_B | A3- A2F |\
+F>G A/B/ c2A | d>c B/A/ G2g | e>fg d2c | c3- c2 |]
+c |\
+e>fg g>ag | e>fg g>fe | f2g a2b | c'3- c'2g |\
+c'2g e>fg | a2f d>ef |
+g2e c>de | d2B G>AB |\
+c3 A>Bc | d3 B>AG | c>de d2c | c3- c2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up a D. forward and back, Set and turn S .|  That again :| ##
+%% First and third Cu. meet your own, slip between the other, take
+%% Hands across and go round each four .|  The other four as much :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Sides all, sett and turn S .|  That again :| ##
+%% First Man cast off, go to the lower End and stay, the rest following,
+%% the We. as much, sett and turn S .|  All that back again :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Arms all, Sett and turn S.|  That again :| ##
+%% Men back, and go the S. Hey .|  We. as much :|
+%%endtext
+%%sep 1 8 500

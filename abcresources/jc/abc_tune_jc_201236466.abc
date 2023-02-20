@@ -1,0 +1,23 @@
+X: 2212
+T: O'er Bogie wi' my Love.   a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.2 p.21 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: There's a fuzzy "emphatic mark" on the first (g) note in bar 4 that may be a printing error.
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+.c(dc).A cGGA | cdcA ~G3c | Ad-d>c defa | gedc A2GA :| ~c2eg c2eg | cdTcA ~G3c |
+Ad-d>c defa | gedc A3B || c2(e/f/g) c2(e/f/g) | cdcA GAcG | .Ad-d>c defa | gedc AcGA |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+c2c2 c2c2 | c2f2 e2c2 | f2e2 d2d2 | e2e2 f4 :|\
+[c2C2][c2C2] [c2C2][c2C2] | [e'2e2][f'2f2] [e'2e2][c'2c2] |
+[f'2f2][e'2e2] [d'2d2][d'2d2] | [c'2c2][c'2c2] [f'2f2][f'2f2] ||\
+[e'2e2][c'2c2] [c'2c2][c'2c2] | [e2E2][f2F2] [e2E2][c2C2] |\
+[f2F2][e2E2] [d2D2][d2D2] | [c2C2][e2E2] [f2F2][c2C2] |]

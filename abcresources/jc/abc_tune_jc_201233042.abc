@@ -1,0 +1,19 @@
+X: 182
+T: Miss Cay's Jigg
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.18#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: A
+V: 1
+|: A3 cBA | cBA ecA | A3 cBA | cBA GFE |\
+A3 cAG | FGA Bcd | cfe dcB | AGF EFG :|
+|: A3 ecA | fga ecA | Bcd FGA | BcA GFE |\
+A3 ecA | fga efg | aec def | edc BAG :|
+V: 2 clef=bass middle=d
+|: [a3A3] [a3A3] | [a3A3] [a3A3] | [a3A3] [a3A3] | [a3A3] [e3E3] |\
+[a3A3] [a3A3] | [d3D3] [d3D3] | [e3E3] [e3E3] | A3 [e3E3] :|
+|: [a3A3] [a3A3] | d3 A3 | e3 d2^d | e3 E3 |\
+A3 a3 | d3 g3 | a3 d2^d | e3 E3 :|

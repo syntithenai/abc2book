@@ -1,0 +1,25 @@
+X:1
+T: Ram Meadow
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:D
+%W:         A1
+% voice 1 (1 lines, 38 notes)
+K:D
+M:4/4
+L:1/16
+D2 F G A2 F2 A2 F2 A2 F2 |B3 d A3 F E F E D E2 F2 |D2 F G A2 F2 A2 F2 A2 F2 |f a3 f d3 A B c A d2 f2 |
+%W:         A2
+% voice 1 (1 lines, 38 notes)
+D2 F G A2 F2 A2 F2 A2 F2 |B3 d A3 F E F E D E2 F2 |D2 F G A2 F2 A2 F2 A2 F2 |f a3 f d3 A B c A d2 f2 |
+%W:         B1
+% voice 1 (1 lines, 37 notes)
+f d3 f d3 e c3 e c3 |B d3 A F3 E D E F E2 A2 |D2 F G A2 F2 A c3 e g3 |f d3 c d3 A B c A d2 f2 |
+%W:         B2
+% voice 1 (1 lines, 36 notes)
+f d3 f d3 e c3 e c3 |B d3 A F3 E D E F E2 A2 |D2 F G A2 F2 A c3 e g3 |f d3 c d3 A B c A d4 ||

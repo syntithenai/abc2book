@@ -1,0 +1,26 @@
+X: 3012
+T: the Parks of Yester
+%R: air, slip-jig
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.1 #f
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: In bar 1, the tie (BE-E) is probably a typo; there are others like it on the page not near notes.
+M: 9/8
+L: 1/8
+Q: "Slowish Distinctly"
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 8-bar lines, for compactness and proofreading.
+V: 1 staves=2
+A |\
+.F.D.D AFF BE-E | FDD AFF Td2A | FDD AFF BEE | FDD AFF Td2A ||\
+FDD AGF BGE | FDD AFA Td2A | FDD AGF BGE | FDD AFA d2 |]
+[| A |\
+Td3 AGF BGE | Td3 AFA d2A | TB>cd {B}AGF BGE | FDD AFD Td2A ||\
+Td3 AGF BGE | (d/c/B/c/).d AFA d2A | TB>cd {B}AGF BGE | FDD AFA d2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d3 d3 e3 | d3 d3 f3 | d3 d3 e3 | d3 d3 f3 || d3 d3 e3 |
+d3 d3 f3 | d3 d3 e3 | d3 A3 d2 |]\
+[| z | f3 d3 e3 | f3 d3 d3 | g3 f2d e3 |
+d3 d3 f3 || f3 d3 e3 | f3 d3 f3 | g3 f2d e3 | d3 d3 [d2f2] |]

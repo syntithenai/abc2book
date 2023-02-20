@@ -1,0 +1,30 @@
+X: 20823
+T: PROVIDENCE SETT (tune 3)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.82 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has a final repeat, but no initial repeat; not fixed.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+A |\
+FGF f/g/ag | fFF F2A | F>GF f>ga | gGG G2A |\
+FGA fed | c2b a2g | fed cAf | cAF F2 H|]
+A/B/ |\
+c>dc A>BA | c>dc A2B | cde fga | gGG G2A |\
+c>dc A>BA | c2b a2g | fed cAf | cAF "^D.C."F2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Two ladies forward and back,
+%% cross over,
+%% chassa across four,
+%% forward and back four,
+%% swing partners to place,
+%% -- sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

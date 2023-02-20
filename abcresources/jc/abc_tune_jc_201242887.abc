@@ -1,0 +1,29 @@
+X: 702
+T: Argyll's Bouling Green
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.70 #2 and p.71 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Bar 6's first two notes have inconsistentdot/flag combo; fixed to be short-long.
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+   E | Cc-cB c>dec | dBcA G>FTED | Cc-cB c>dec | d>AcE D/D/D D :|
+|: E | G>EcE G>EEA | G<Ec>G E2-EF | G>Ec>E GEEd | c<Ac>E D/D/D D :|
+|: E | Cc c/c/c c>dec | d/c/B/A/ cA GFED | Cc-cB cdec | d/c/B/A/ c>E D/D/D D :|
+|: e | g>ea>e g>eea | g<ea>g e2-ef | g>ea>e geef | g>age d2-d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+c2c2 c2c2 | c2c2 G2G2 | c2c2 c2c2 | c2c2 d2d :|\
+|: z |\
+c2c2 c2c2 |
+c2c2 c2c2 | c2c2 c2c2 | c2c2 d2d :|\
+|: z |\
+c2c2 c2c2 | c2c2 G2G2 |
+c2c2 c2c2 | c2c2 d2d :|\
+|: z |\
+c2c2 c2c2 | c2c2 c2c2 | c2c2 c2c2 | c2c2 d2d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

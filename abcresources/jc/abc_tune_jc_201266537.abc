@@ -1,0 +1,114 @@
+
+X: 1
+T: Daleko sam ja, daleko si ti
+M: 7/8
+L: 1/8
+K: D
+%%continueall
+|:\
+"D"[fA][fA][fA] [fA][gB] [fA][eG] | [d3F3]- [d4F4] |\
+"Em"[eG][eG][eG] [eG][fA] [gB][fA] | [e3G3]- [e4G4] |\
+"A7"[ac][ac][ac] [ac][bd] [a/c/][g/B/][fA] |\
+"G"[gB][gB][gB] [gB][ac] [g/B/][f/A/][eG] |\
+[1 "D"[f2A2][eG] "A7"[dF][eG] [fA][gB] | "D"[f3A3]- [f4A4] :|
+[2 "A7"[e2G2][dF] [cE][dF] [eG][cE] | "D"[d3F3]- [d4F4] |:\
+    "D"[d2F2][dF] [A2F2] "(A7)"[BG]c | "D"[d2F2][dF] [A2F2] [d2A2] |\
+   "E7"[f2B2]e    [d2^G2]- [dG] e | "A7"[c3A3]- [c4A4] |\
+    "G"[d2B2][dB] [c2A2] [B2G2] | "G"[B2G2][cA] [B2G2] [A2F2] |\
+[1 "A7"[A2F2][BG] [A2F2] [GE][FD] | "D"[F3D3]- [F4D4] :|
+[2 "A7"[c2A2][BG] [A2F2] [GE][FD] | "D"[F2D2]- [F4D4] |:\
+    "D"[A2D2][dF] [d2F2] [dF][eG] | [f7A7] |\
+[A2D2][dF] [d2F2] [dF][eG] | [f7A7] |\
+"Em"[f2A2][gB] "B7"[f2A2] [fA][eG] | "Em"[e7G7] |\
+"A7"[f2A2][fA] [gB][fA] [eG][dF] | "D"[d7F7] :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Daleko sam ja, daleko si ti
+R: lesnoto
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: D
+[| "D"[fA][fA][fA] [fA][gB] [fA][eG] | [d7F7] \
+| "Em"[eG][eG][eG] [eG][fA] [gB][fA] | [e7G7] \
+| "A7"[ac][ac][ac] [ac][bd] [a/c/][g/B/][fA] | "G"[gB][gB][gB] [gB][ac] [g/B/][f/A/][eG] |\
+[1 "D"[f2A2][eG] "A7"[dF][eG] [fA][gB] | "D"[f7A7] :|\
+[2 "A7"[e2G2][dF] [cE][dF] [eG][cE] |
+"D"[d7F7] \
+[| "D"[d2F2][dF] [A2F2] "(A7)"[BG]c | "D"[d2F2][dF] [A2F2] [d2A2] \
+| "E7"[f2B2]e [d2^G2]- [d^G2]e | "A7"[c7A7] \
+| "G"[d2B2][dB] [c2A2] [B2G2] | "G"[B2G2][cA] [B2G2] [A2F2] \
+| "A7"[A2F2][BG] [A2F2] [GE][FD] | "D"[F7D7] |
+| "D"[d2F2][dF] [A2F2] "(A7)"[BG]c | "D"[d2F2][dF] [A2F2] [d2A2] \
+| "E7"[f2B2]e ([d2^G2] [d^G2])e | "A7"[c7A7] \
+| "G"[d2B2][dB] [c2A2] [B2G2] | "G"[B2G2][cA] [B2G2] [A2F2] \
+| "A7"[c2A2][BG] [A2F2] [GE][FD] | "D"[F7D7] |]
+|: "D"[A2D2][dF] [d2F2] [dF][eG] \
+| [f7A7] \
+| [A2D2][dF] [d2F2] [dF][eG] \
+| [f7A7] \
+| "Em"[f2A2][gB] "B7"[f2A2] [fA][eG] \
+| "Em"[e7G7] \
+| "A7"[f2A2][fA] [gB][fA] [eG][dF] \
+| "D"[d7F7] :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Daleko sam ja, daleko si ti
+R: lesnoto
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: D
+[| "D"[fA][fA][fA] [fA][gB] [fA][eG] | [d7F7] \
+| "Em"[eG][eG][eG] [eG][fA] [gB][fA] | [e7G7] \
+| "A7"[ac][ac][ac] [ac][bd] [a/c/][g/B/][fA] | "G"[gB][gB][gB] [gB][ac] [g/B/][f/A/][eG] \
+| "D"[f2A2][eG] "A7"[dF][eG] [fA][gB] | "D"[f7A7] |
+| "D"[fA][fA][fA] [fA][gB] [fA][eG] | [d7F7] \
+| "Em"[eG][eG][eG] [eG][fA] [gB][fA] | [e7G7] \
+| "A7"[ac][ac][ac] [ac][bd] [a/c/][g/B/][fA] | "G"[gB][gB][gB] [gB][ac] [g/B/][f/A/][eG] \
+| "A7"[e2G2][dF] [cE][dF] [eG][cE] | "D"[d7F7] |]
+[| "D"[d2F2][dF] [A2F2] "(A7)"[BG]c | "D"[d2F2][dF] [A2F2] [d2A2] \
+| "E7"[f2B2]e [d2^G2]- [d^G2]e | "A7"[c7A7] \
+| "G"[d2B2][dB] [c2A2] [B2G2] | "G"[B2G2][cA] [B2G2] [A2F2] \
+| "A7"[A2F2][BG] [A2F2] [GE][FD] | "D"[F7D7] |
+| "D"[d2F2][dF] [A2F2] "(A7)"[BG]c | "D"[d2F2][dF] [A2F2] [d2A2] \
+| "E7"[f2B2]e ([d2^G2] [d^G2])e | "A7"[c7A7] \
+| "G"[d2B2][dB] [c2A2] [B2G2] | "G"[B2G2][cA] [B2G2] [A2F2] \
+| "A7"[c2A2][BG] [A2F2] [GE][FD] | "D"[F7D7] |]
+|: "D"[A2D2][dF] [d2F2] [dF][eG] \
+| [f7A7] \
+| [A2D2][dF] [d2F2] [dF][eG] \
+| [f7A7] \
+| "Em"[f2A2][gB] "B7"[f2A2] [fA][eG] \
+| "Em"[e7G7] \
+| "A7"[f2A2][fA] [gB][fA] [eG][dF] \
+| "D"[d7F7] :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Daleko sam ja, daleko si ti
+R: lesnoto
+S: MIT Folk Dance Club Songbook
+M: 7/8
+L: 1/8
+K: D
+W:1.~Svud je cve\'ce, svud miri\vsu jorgovani,
+W:   ja se pitam gde su na\vsi sretni dani.
+W:
+W:   Chorus:
+W:   Daleko sam ja, daleko si ti, daleko smo sad moja ljubavi.
+W:   Daleko sam ja, daleko si ti, daleko su sad na\vsi davni sni.
+W:
+W:2. Se\vca\vs li se nekada smo sretni bili?
+W:   Voleli se, ljubili se i grlili.
+W:
+W:3. Ljubav na\vsa prode kao tople ki\vse,
+W:   i prole\vca na\vseg nema, nema vi\vse.

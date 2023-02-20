@@ -1,0 +1,13 @@
+X:641
+T:Dedekii
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 64
+M:6/8
+L:1/8
+Q:1/8=270
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+d|SdBc d2e|dBc d2g|fde fga|b2a gfe|dBc d2e|dBc d2g|fde fba|g2z "fine"z2:|
+d|d3-d2e|(e2d) g2B|d3-dcA|F3 Ace|(e2d) (e2d)|(d2c) a2c|B(GA) .B.e.d|A3 ABc|
+d3-d2e|e2d g2B|e3-edc|A3 (cde)|(d2c) (b2a)|g2d B2e|d3-dAB|G2z "^D.C. al fine"gfe||

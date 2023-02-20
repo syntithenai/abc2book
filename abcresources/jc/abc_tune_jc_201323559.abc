@@ -1,0 +1,57 @@
+%%center Phil the Fluther's Ball
+
+
+X: 1
+T: Phil the Fluther's Ball v.1
+P: piffero primo a0634
+C: Percy French
+O: arr JJ McDonagh
+%R: hornpipe, shottish
+F: http://ancients.sudburymuster.org/mus/sng/pdf/flutherC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+F>E |\
+.D2D2 .d2d>c | B>AB>c .d2d2 |\
+(3DDD D>D d>cd>B | A>BA>F E>GF>E |\
+.D2D2 .d>dc2 | B>AB>c d2d>e |
+f>de>c d>BA>A | B>dc>e d2 :|\
+d>e |\
+.f2f2 .e2e2 | d>ed>B A>FD2 |\
+(3fff (3fff (3eee (3eee | d>cB>e A2d>e |
+.f2f2 .e2e2 | d>ed>B A>FD>F |\
+A>BA>A d>dd>B | A>BA>F TE2F>E |\
+.D2D2 .d2d>c | B>AB>c .d2d2 |
+(3DDD D>D | d>cd>B |\
+A>BA>F E>GF>E | .D2D2 .d2d>c |\
+B>AB>c d2d>e f>de>c d>BA>A | B>dc>e d>D-D2 |]
+
+
+X: 2
+T: Phil the Fluther's Ball v.2
+P: piffero secondo a0650
+O: George Carteris
+%R: hornpipe, shottish
+F: http://ancients.sudburymuster.org/mus/sng/pdf/flutherC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+F>E |\
+.D2A,2 .F2G>F | G>FG>A .F2A2 |\
+(3DDD D>D F>FG>G | F>GF>D C>EF>E |\
+.D2A,2 .F2G>F | G>FG>A F2G>A |
+A2A>G A2G>F | G2A2 F2 :| A>A |\
+.A2d2 .A2A2 | F>GG>D F>DA,2 |\
+(3AAA (3AAA (3AAA (3AAA | F>AG>A F2A>A |
+.A2D2 .A2A2 | F>GG>D F>DA,2 |\
+F2F>E F2F>G | F>GF>E TA2F>E |\
+.D2A,2 .F2G>F | G>FG>A .F2A2 |
+(3DDD D>E F>FG>G | F>GF>D C>EF>E |\
+.D2A,2 .F2G>F | G>FG>A F2G>A |\
+A2A>G A2G>F | GA F>F-F2 |]
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

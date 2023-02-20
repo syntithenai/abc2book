@@ -1,0 +1,23 @@
+X: 21081
+T: SLOW AIR
+C: Rode.
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.108 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+G3A) B4 | e4 d4 |\
+(c4 B2)(ec) | (B3A) G4 |\
+(G3A) B4 | g4 f4 |\
+(e2d2 c2)=B2 | =B4 c4 |]|\
+=E3F G4 | c4 F4 |
+(B2D2 E2)(BA) | G4 F4 |\
+(G3A) B4 | e4 d4 |\
+(c3d e2)F2 | (F3^F G4) |\
+(e3d) c4 | B4 G4 |\
+F4 (F2G2) | E8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

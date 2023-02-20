@@ -1,0 +1,45 @@
+%%text RJ Set 076
+
+
+X: 1
+T: Rock Valley
+M: 6/8
+K: Am
+|:\
+"C"C2E GFE | "F"D2E"Dm"F2A | "G"GAG GBd | "C"cBc "G7"AGE |
+"C"C2E GFE | "F"D2E"Dm"F2A | "G"GAG GBd |1 "C"cdc c3 :|2 "C"cdc cef |]
+|:\
+"C"gag gag | "C"e2c cBA | "C"G2c B2c | "Dm"e2d d^cd |
+"C"gag gag | "C"e2c cBA | "G"G2c "G7"Bcd | "C"cdc c3 :|
+%%text Transition -- play this instead of last measure above:
+| c3^f2g |
+
+
+X: 2
+T: Little Burnt Potato
+R: jig
+Z: Transcribed to abc by Mary Lou Knack
+M: 6/8
+K: D
+fg |:\
+"D"a^ga bag | afd Ade | fdf g2f | "Em (G)"efe Bcd |
+"A"efe dcB | Ace a3 |1 a^ga ba=g | "D"f3 f2g :|2 "A"a^ga b2c | "D"d3 d2g |]
+|:\
+"D"f2A f2A | fgf f2e | def afd | "G"g3 gef |
+"Em"gba gfe | "A"dcB A3 |1 a^ga ba=g | "D"f3 fag :|2 "A"a^ga b2c | "D"d3 |]
+
+
+X: 3
+T: Irishman's Heart to the Ladies
+M: 6/8
+R: jig
+K: A
+a |\
+"A"ecA "D"BAF | "A"AFE EFA | "Bm"Bdc BAB | "E"cBB B2 a |
+"A"ecA "D"BAF | "A"AFE EFA | "Bm"Bdc "E7"BAB | "A"cAA A2 :|
+|: A |\
+"A"cee "D"dff | "A"cee ecA | cde "D"eaf | "A"ecA "E"B2 A |
+"A"cee "D"dff | "A"cee ecA | "Bm"Bdc "E7"BAB | "A"cAA A2 :|
+% text Roaring Jelly  J-17
+% text 05/27/09
+

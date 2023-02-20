@@ -1,0 +1,32 @@
+X:1
+T: Hey-Boys, Up Go We
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 170
+%W: A
+% voice 1 (1 lines, 17 notes)
+K:G
+M:6/8
+L:1/16
+G4 g2 g4 f2 e2 d2 c2 B2 c2 d2 c4 B2 A4 G2 g6g4 G2 |
+%W:
+% voice 1 (1 lines, 16 notes)
+G4 g2 g4 f2 e2 d2 c2 B2 c2 d2 c4 B2 A4 G2 g6g4 ||
+%W: B
+% voice 1 (1 lines, 18 notes)
+d2 |g4 a2 b3 c' b2 a2 f2 g2 f4 d2 g4 f2 e4 d2 d6d4 a2 |
+%W:
+% voice 1 (1 lines, 17 notes)
+d'4 c'2 b3 a g2 c'4 a2 f3 e d2 g4 B2 A4 f2 g6g4 d2 |
+%W:
+% voice 1 (1 lines, 17 notes)
+g4 a2 b3 c' b2 a2 f2 g2 f4 d2 g4 f2 e4 d2 d6d4 a2 |
+%W:
+% voice 1 (1 lines, 16 notes)
+d'4 c'2 b3 a g2 c'4 a2 f3 e d2 g4 B2 A4 f2 g6g4 ||

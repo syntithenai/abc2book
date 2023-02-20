@@ -1,0 +1,56 @@
+%%center jEFFERSON & LIBERTY / BLACK WATCH MEDLEY
+
+
+X: 0
+T: Jefferson and Liberty  v.1
+P: piffero primo a0055
+O: safd 025
+F: http://ancients.sudburymuster.org/mus/med/pdf/jeffblackwC1.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bm
+(B/c/ |"^>"\
+d2)B B^AB | F2B Bcd | c2A ABc | ecA ABc |\
+d2B  B^AB | F2B B2f | fed cdc | F2B B2 :|
+|: d |\
+B2c d2e | f2g a3 | f2g a2f | ecA A2F |\
+B2c d2e | fga b3 | fed cdc | F2B B2 :|
+
+
+X: 1
+T: Jefferson and Liberty  v.2
+P: piffero secondo a0056
+C: Dan Moylan
+F: http://ancients.sudburymuster.org/mus/med/pdf/jeffblackwC1.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bm
+z |"^>"\
+FD2 DCD | DB,2 DCB, | EC2 CDE | CEG GFE |\
+FD2 DCD | A,B,D DEA | DEF GFE | FED D2 :|
+|: z |\
+DEG FAG | AF2 EF2 | AFE FDA, | CEG GED |\
+DEG FAG | AEF G3  | DEF GFE  | FED D2 :|
+
+
+X: 2
+T: Black Watch
+P: piffero primo a0061
+C: Bill Krug
+F: http://ancients.sudburymuster.org/mus/med/pdf/jeffblackwC1.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bm
+Bc |\
+d2B2 B2B2 | F2B2 BcdB | c2A2 A2A2 | ABcd e2dc |\
+d2B2 B2B2 | F2B2 B2de | f3g Tf2e2 | d2B2 B2  :|
+|: z2 |\
+f2fg a2f2 | ecAc e2c2 | d3e Tf2e2 | dcBA B2de |\
+f3g  a2f2 | ecAc e2de | f3g Tf2e2 | d2B2 B2  :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

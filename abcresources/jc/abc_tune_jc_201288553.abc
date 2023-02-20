@@ -1,0 +1,23 @@
+X: 699
+T: the Humors of Schull   #2
+R: reel
+%S: s:2 b:12(6+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #699
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0699/oneill-1001-0699-1.abc
+N: Compacted via repeats and multiple endings [JC]
+N: Key changed from Am to Ador, since there are no F naturals.
+%m: Mn = (3n/o/n/
+M: C|
+L: 1/8
+K: Ador
+%%slurgraces 1
+%%graceslurs 1
+"^A"\
+|: EAAA cAAA | BGGG BcdB |\
+[1 eddBA2(ge) | dBGA (BA)A2 :|\
+[2 EAAB cdef | gedB A2 z2 |]
+"^B"\
+|: eaaa a2(ba) | a2(ba) agef |\
+[1 g2gg gabg | gedB (MBA)A2 :|\
+[2 gedB {d}cBce | gedB A2 z2 |]

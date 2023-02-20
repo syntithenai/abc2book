@@ -1,0 +1,15 @@
+X: 810
+T: Dunphy's Hornpipe
+R: hornpipe
+%S: s:3 b:16(5+6+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #810
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0810/oneill-1001-0810-1.abc
+M: 2/4
+L: 1/16
+K: G
+%%slurgraces 1
+%%graceslurs 1
+"^A"[|](3(DEF) | G>DB>D G2 (3(gag) | f>ee>d e>cA>G | (3(FAF) D>G F>GA>c | (3(BAG) (3(AGF) G>FE>D || G>DB>D G2 (3(gag) | 
+| f2e>d e>cA>G | F>Ad>B c>AD>F | A>G{A}G>F G2 "^B":: B>c | d>cB>d g>dB>d | (3(gag) b>f g>dB>d | (3(gag) f>g e>dc>d |
+| (3(efe) d>c d2(3(def) | (3(gag) d>c (3(BdB) G>c | e>cA>G (3(FAF) D>D | G>Bd>B c>AD>F | A>G{A}G>F G2 :| 

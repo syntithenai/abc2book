@@ -1,0 +1,26 @@
+X: 4141
+T: Gudewife of Peebles
+C: Composed by Nath. Gow.
+%R: air, jig
+B: Niel Gow & Sons "Complete Repository" v.4 p.14 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "SLOW"
+K: Bb
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+B/c/ |\
+(dB).B (AF).F | (G/F/)(G/A/)(B/G/) (FD).D | (dB).B (cA).F | GAB {d}[c2A2F2] (B/c/) ||\
+(dB).B (AF).F | (~G/F/)G/A/B/G/ FDD | (dB)B (cA)F | GBTA [B2F2D2] :|
+|: d/e/ |\
+(fd).f Tg>ab | f(g/f/)(e/d/) (cde) | (fd).f Tg>ab | a2Tg Hf2g ||\
+(fd).g (ec).f | .d(e/d/)(c/B/) HA>BHc | (dB).d (cA).F | (GB)TA [B2F2D2] :|
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z |\
+Bbz Ffz | Eez d2B | [b3B3] Ffz | e2d Ff/e/d/c/ || Bbz Ffz |
+Eez d2B | [b3B3] Ffd | e2f B2 :||: b/c'/ | (d'b).d' e'>f'g' | d'(e'/d'/)(c'/b/) (abc') | (d'b).a g2=e |
+"^dim..."fc'c fHFz || [f'2d'2]"^sf"[d'=b] [e'2c'2][c'a] | be=e Hf>eHa | b2B f2d | e2f B2 :|

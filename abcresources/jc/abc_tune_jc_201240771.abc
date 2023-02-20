@@ -1,0 +1,27 @@
+X: 4101
+T: the Island of Mull
+C: by the Earl of Eglintonn
+%R: jig, air
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.4 p.10 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "SLOW"
+K: A
+% - - - - - - - - - -
+% Voice 1 is formatted as 2 staves, for compactness and proofreading.
+V: 1 staves=2
+A/B/ |\
+{AB}c>BA AFE | (EC).E (EC).E | c>BA (A<e)c | ([cA][BG])[BG] [B2G2] A/B/ ||\
+{AB}c>BA AFE | (EC).E (EC).E | (Ae)c TB>AB | cAA [A2E2C2] :|
+|: E/D/ |\
+(CEA) AcA | (EGB) BdB | (Ace) [eB2]d[cA] | [cA][BG][BG] H[B2G2] c/d/ ||\
+ecA (Ac).A | BGE HE2 TD | (CE).A TB>AB | (cA).A [A2E2C2] :|
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z |\
+[A3a3] cdc | [A2c2]z [A2c2]z | [eA3]dc A2a | egb e'2z || [A3a3] cdc |
+[A2c2]z [A2c2]z | [e3c'3] [e3g3d'3] | A2a A2 :||: G | A2[ac'] [a3c'3] | [e3g3] [g3b3] | [a3c'3] [g2e'2][ae'] |
+egb He'2z || A2a A3 | EGB He2 !f!g | a2c e2E | Ace a2 :|

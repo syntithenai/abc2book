@@ -1,0 +1,31 @@
+X: 011
+T: Auchry
+C: by Wm. Christie
+R: air
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c."
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+Q: "Slow."
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for 2 6-bar lines.
+V: 1 staves=2
+"^Grazioso."c |\
+Tf>ga (c<A)d {cd}c<F ~f/>g/ | {fg}a>gf/d/ (cA)c {c}d2(e/d//e//) |\
+"_cres:"(f/a/).g/.f/.e/.d/ ({d}c>B)A Bcd | (c<f)A {A}TG>FG [F2A,2] :|\
+F | (A//B//c3/)~F (B//c//d3/).B (Ac)f | {d}cAF .A,([BG][AF]) ([A/F/][G2E2])F |
+(A//B//c3/)~F (B//c//d3/).B (Ac)f | "_cres:"(d<g)f (ec)e [f2A2]F ||\
+(A//B//c3/)~F (B//c//d3/).B (Ac)f | {d}cAF .C([c/A/][B/G/])([A/F/][B/G/]) ([A/F/][G2E2])F |\
+"_Exp.o"(A//B//c3/)B (A<d)c (B<b).a | .g(Bd) .c(EG) [F2A,2] |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+"^Grazioso."z |\
+[f3F3] [f2F2]b [a2A2]z | f2B A2F [B2B,2]z | "_cres:"f2b agf dcB | A2F c2C F2 :| z | [f3F3]  [B3B,3] [f3F3] |
+[f3F3] [e2E2][fF] x/[c2C2]z | [f3F3] B2d f2a | "_cres:"[b3B3] c'2c [f3F3] ||\
+[f3F3] [B3B,3] [f3F3] | A3 F3 x/[c2C2]z | "_Exp.o"f2e f2A B2f | g2B c2C F2 |]
+% = = = = = = = = = =

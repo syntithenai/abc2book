@@ -1,0 +1,15 @@
+X: 516
+R: jig, air
+%S: s: 2 b: 16(8+8)
+T: Buttercups and Daisies
+B: O'Neill's 1850 #516
+O: O'Reilly
+Z: Dave Wooldridge
+Q: "Moderate"
+M: C
+L: 1/8
+K: Gm
+   (B>c)  | d2G2 d3c | (cB)(A>G) G3A | B3c d>cdf | g2(c>d) c2 |\
+|  (B>c)  | d2f2 (ed)(cB) | d2d2 b3a | g>bgf d>cdf | A2B>A G2 |]
+|| (d>=e) | f3g (gf)(ed) | b2f>g f2ba | g3a (ba)(bc') | d'2(g>a) g2 |\
+|  (f>e)  | d2b2 (fd)(cB) | c2d2 b3a | g>bgf d>cdf | A2B>A G2 |]

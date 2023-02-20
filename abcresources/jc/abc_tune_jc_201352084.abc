@@ -1,0 +1,38 @@
+
+X: 0
+T: Whiskey Jack
+C: dance: Peggy Roe 2017
+C: music: Nimi Uri
+%date: 2017
+P: Duple minor longways
+K:
+%%begintext
+%% A1 1-4 Duple mad robin CCW, second corners through the middle first, continuing into ...
+%%  __ 5-8 1/2 pousette CCW, then take hands in long lines, including any dancers out at the ends
+%% A2 1-4 Long lines fall back, set in place
+%%  __ 5-8 Come forward, then turn single right
+%% B1 1-4 Long lines fall back, set in place
+%%  __ 5-8 Partner back-to-back
+%% B2 1-4 On the left diagonal, left-hand turn (may be outside the subset)
+%%  __ 5-8 Partner left-shoulder gypsy.
+%%
+%% Note that dancers out at the ends are drawn back into the dance after A1.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Whiskey Jack
+C: Nini Ury
+R: jig
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+B |\
+"Em"e3 ded | "G"B3 A2G | "D"F2D  F2A | d3 "B"B^c^d |\
+"Em"e3 ded | "G"B3 A2G | "B"B,2B BcB | "Em"E3 E4 :|
+|: B |\
+"E"^G2E EFG | "A"A3 A2G | "D"F2D DEF | "G"G3 G3 |\
+"C"E2e  edc |"G"B2A G2A | "B"BcB BcB | "E"E3 E2 :|

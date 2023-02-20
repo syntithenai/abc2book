@@ -1,0 +1,16 @@
+X: 232
+T:Foxtrot Rag
+C: Gordon Stobbe
+B:Gordon Stobbe, New Traditions, NT01
+L:1/8
+M:C|
+K:D
+"D"DEF(A A)BA2|DEF(A A)BA2|"G"BdBd ed B2|"D"A4|
+"D"DEF(A A)BA2|DEF(A A)BA2|"E"ecec ecec|"A"ecB(A A)B A2|
+"D"DEF(A A)BA2|DEF(A A)BA2|"G"B1/2d3/2 B1/2d3/2 e2|"F#"f4|
+"G"edB(e e)d B2|"D"BAF(B B) F2|"A"FEF(A A)F E2|"D" !fine!D2 d2||
+K:G
+"G"B^AB(d d4)|B^AB(G G)GFE|D2B2B2 ^A(B | B4) BGFE|
+"D"D2c2c2 B(c | c4) cGFE |"G"D2B2B2 ^A(B | B4)B4|
+"G"B^AB(d d4)|B^AB(G G)GFE|D2B2B2 ^A(B | B4)B4|
+"C"E^DE(G G2)A2|"G"B^AB(e "E"e2)B2|"A"B^AB(d "D"d)B =A2|"G"G2 !D.C.!A2|]

@@ -1,0 +1,21 @@
+X: 062
+T: Minuet 5
+C: Ignatius Sancho 1775
+N: This is version 2, for ABC software that understands voice overlays and tremolo notation.
+N: Note the overlaid C in the first strain's last bar; the run of 8th notes works only for the repeat.
+%R: minuet
+B: "Minuets Cotillons & Country Dances", 1775 p.6 #2 (and top of p.7)
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: f2 a4 | (ga/b/) b4 | (fa)(df)(eg) | f2 c4 | B2 .g.e.c.B | A2 .f.c.B.A | AFcAfA | {A2}G6 :|
+[V:2] |: fefgab | c'geceg | f2 b2 c'2 | f2 a2 f2 | g2 e2 c2 | f2 a2 f2 | f2 f2 f2 | c2 c'bag & c6 :|
+[V:1] |: G>B TB4 | A>c Tc4 | (dc)(ef)(GB) | TA3 B c2 | (fc)(fg)(^ga) | Td2 Te2 (fc) | Tdc/B/ A2 TG2 | F6 :|
+[V:2] |: e2 g2 c2 | f2 a2 f2 | (gf)(ed)(ce) | f2 f2 f2 | a4 f2 | b4 a2 | b2 c'2 c2 | f2 c2 F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

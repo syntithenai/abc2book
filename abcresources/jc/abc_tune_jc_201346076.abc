@@ -1,0 +1,20 @@
+X: 1
+T: Transrand vals
+C: trad. Sweden
+O: efter Bertil Fernebord via David Kaynor
+R: waltz
+S: The Waltz Book II p.60
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+e>g |\
+"Dm"{fg}f4 e2 | (3(ded) ^c2 d2 |"A"^c>d e2 d2 | "A"^c>d e>f g>e ||
+"Dm"{fg}f4 {ef}e2 | (3(ded) ^c2 d2 |"A"^ce a2 c2 | "Dm"d4 :|
+|: z2 |\
+"A"A2 f>e fg | {fg}f2 {ef}e2 d2 | "A"^c2 g>a Tg>f | e2 {fe}f2 g2 ||
+"Dm"a>b a>g Tfgf | "A"e>g {fg}f>e d>^c | "Dm"d>f eA "A"^ce | "Dm"d4 :|
+%%begintext
+%% Transtrand is a locality in Malung-Sälen Municipality,
+%% Dalarna County, Sweden with 386 inhabitants in 2010.
+%%endtext

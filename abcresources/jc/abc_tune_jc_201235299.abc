@@ -1,0 +1,27 @@
+X: 21073
+T: BAYADERS SETT (tune 6)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.207 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has an initial repeat but no final repeat; not fixed.
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="6"
+f2 |\
+f6 ed | e2c2c2d2 | B2B2B2c2 | c6 fe |\
+d2de f2ed | c2F2 F2EG | ABcd efga | b4 z2 |]
+|: AB |\
+cd c4 f2 | cd c4 A2 | Bc B4 =e2 | g3f =edcB |\
+AB A4 f2 | GA G4 BA | G^FGA Bcd=e | f4 z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies balance to the right,
+%% all promenade,
+%% gentlemen the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

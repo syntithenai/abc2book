@@ -1,0 +1,29 @@
+X: 1
+T: Whistling Rufus
+T: or The One Man Band
+C: music: W. Murdoch Lind
+C: words: Kerry Mills
+O: \251 1899
+R: march
+S: https://digitalcollections.nypl.org/items/977601cf-8e23-9300-e040-e00a1806251c#/?uuid=510d47df-ef5e-a3d9-e040-e00a18064a99
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+"intro"[|] A2 |\
+"D"d6 e2 | f6 a2 | "G"b3c' b3c' | "D"b2a2 "Bm"f2d2 |\
+"E7" e3f e3f | e2B2 c2d2 | "A7"e3f e3f | e2c2 B2A2 | "D"d6 e2 | f6 a2 |
+"G"b3c' "Em"b3c' | "D"b2a2 "Bm"f2d2 | "E7"e3f e3f | e2B2 c2d2 | "A7"e8 | "D"d6 ||\
+!segno!d'2 |\
+bd'2b a2ba | f2d2 edBA | "D"df2d "Gm"ede2 | "D"d4 "^>"d'2z2 |]
+"Verse"||\
+"D"D2DF A2AB | d2d2 BA3 | "D"D2DE FED2 | A8 |\
+"D"D2DF A2AB | d2d2 BA3 | "E7"e2ee edB2 | "A7"e8 |
+"D"D2DF A2AB | d2d2 BA3 | D2DE "Gm"FED2 | "D"A6 d2 |\
+"G"Bd2B A2BA | F2D2 EDB,A, | "D"DF2D "Gm"EDE2 | "D"D2 ||
+"Chorus"|:\
+F2C2D2 |\
+"D"A4A4- | A2B2 A2D2 | "A7"C4 C4- | C2G2 ^D2E2 |\
+"A7"B4 B4- | B2c2 B2G2 | "D"F4 F4- | F2F2 C2D2 |
+"D"A4 A4- | "D7"A2B2 A2D2 | "G"G4 G4- | "Gm"G2A2 G2D2 |\
+ "D" F4 G2F2 | "E7"B,4 "A7"C4 | "D"D8- | D2 !segno!:|

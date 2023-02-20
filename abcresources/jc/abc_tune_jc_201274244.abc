@@ -1,0 +1,33 @@
+X: 1
+T: Fairly shot on her
+P: Longways for as many as will.
+%R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.14
+S: 3: CCD3  http://javanese.imslp.info/files/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.18
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/8
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+G4E2 G4E2 | G4B2 B2G2E2 | G4E2 G4E2 | F4A2 A2F2D2 |\
+G4E2 G4E2 | G4B2 B2G2E2 | c3de2 d2B2G2 | F4A2 A2F2D2 |]
+[| dcBAB2 E2c2E2 | G4B2 B2G2E2 | dcBAB2 E2B2E2 |\
+F4A2 A2F2D2 | dcBAB2 E2c2E2 | G4B2 B2G2E2 | c2d2e2 d2B2G2 | F4A2 A2F2D2 |]
+[| d4g2 g2d2B2 | G4B2 B2G2E2 | d2g2f2 g2d2B2 | F4A2 A2F2D2 |\
+d2g2f2 g2d2B2 | G4B2 B2G2B2 | c3de2 d2B2G2 | F4A2 A2F2D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[| e6 E6 | e6 E6 | e6 E6 | d6 D6 | e6 E6 | e6 E6 | e6 g6 | d6 D6 |]
+[| g6 e6 | e6 E6 | g6 e6 | d6 D6 | g6 e6 | e6 E6 | e6 g6 | d6 D6 |]
+[| g6 G6 | e6 E6 | g6 G6 | d6 D6 | g6 G6 | e6 E6 | e6 g6 | d6 D6 |]
+%%begintext align
+%% The 1st Man foot to the 2d Wo. and turn hands,
+%% the 1st Wo do the same to the 2d Man, 1st Strain .
+%% The 1st Cu. cast off and sett again, cast off behind the 3d Cu. and sett,
+%% then the same to the Top. Second Strain.
+%% The 1st Cu. go the whole Figure with the 2d Cu. then gallop down and up,
+%% and cast off in the 3d Cu. Place Third Strain.
+%%endtext

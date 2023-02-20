@@ -1,0 +1,19 @@
+X: 193
+T: Tzachaki
+O: Israel
+C: Yosef Hadar 1964
+D: Dance Israel!
+M: 2/4
+L: 1/8
+K: Ddor octave=1 clef=treble+8
+Q: 1/4=180
+%%MIDI program 72 Piccolo
+%%MIDI drum dz 41 32
+%%MIDI drumon
+F2EF |G2FE |F2E2 |D2z2|\
+F2EF |C2A,2|D2DE |C2z2|
+F2EF |G2FE |F2E2 |D2z2|\
+C2B,C|D2D2 |C2B,C|D2z2|:
+DEF2-|F2E2 |D2D2 |C3z |\
+DEF2-|F2E2 |C2C2 |D3z :|\
+A,2E2|D2z2 |

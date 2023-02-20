@@ -1,0 +1,17 @@
+X: 591
+T: Downing's Reel
+R: reel
+%S: s:2 b:9(5+4)
+e: Francis O'Neill: "The Dance Music of Ireland" (1907) #591
+Z: Frank Nordberg - http: //www.musicaviva.com
+F: http: //www.musicaviva.com/abc/tunes/ireland/oneill-1001/0591/oneill-1001-0591-1.abc
+N: Compacted via repeats and multiple endings [JC]
+%%slurgraces 1
+%%graceslurs 1
+M: C|
+L: 1/8
+K: G
+"^A"[|] (3DEF !segno!|:::\
+G2FG EGD [1 F | G2BG dGBG :|[2 c | Beed BcAB :|[3 F | GABc dBAB :|[4 A | Beed B2HA2 |]
+"^B"|::\
+BAGA Bcd2 | Beed [1,3 Bcd2 :|[2 B2A2 :| {F}G2GB A2Ac | Beed B2!segno!A2 |]

@@ -1,0 +1,30 @@
+X: 1073
+T: the Lassie with the yellow Coattie.   a Strathspey.
+%R: strathspey
+N: This is version 2, for ABC software that understands voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.1 p.7 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "SLOW"
+K: D	% ending on Bm
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+|:\
+D4D2F2 A3Bd2A2 | TB3Ad3A TB3AB2d2 |\
+{d}D4D3F A3Bd2A2 | (B3c/d/) {B}A3F TE3D B,4 :|!p!\
+Td3ef2d2 e2B2d2A2 | FA3A3B T=c3d{c}B2A2 |
+Td3ef2d2 e2B2d2A2 | (B3c/d/) {B}A3F E3DB,4 ||\
+Td3ef2d2 e2B2d2A2 | FA3A3B T=c3"_sf"dB2A2 |\
+d3e {de}f3d e3cd3A | (cB)(dc) (BA)GF (GF)(ED) B,4 |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+|:\
+D4x4 x4f4 & x4d4 d4d4  | g4f4 g8 & d4d4 d8 |\
+x4x4 f4f4 & f4d4 d4d4 | g4x4 x4g4 & d4d4 a2f2d4 :|!p!
+d4d'4 a2g2f4 | x4x4 "_sf"f4g4 & d4d4 d4d4 |
+f4d4 a4b2f2 | x4x4 x4g4 & d4g2f2 a4d4 ||\
+d4d'4 a2g2f4 | x4x4 f4g4 & d4d4 d4d4 |\
+f4d4 a4b2f2 | g4 a2 a2 x4a4 & d4 f2d2 b4d4 |]

@@ -1,0 +1,24 @@
+X: 4363
+T: Niel Gow
+%R: air, strathspey
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.36 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow"
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 4-bar lines, for better readability
+V: 1 staves=2 clef=treble
+B |\
+A<F {F}d>A BEEB | A<F d>A TB3c |\
+(d/c/).B/.A/ {c}d>A BEE>c | {Bc}d>B AF D3 :|
+|:\
+A, |\
+D<D {DE}F>D TE>B,B,E | D<D [DF,]<[DF,] {c}d<ABd |\
+Ad Fd EB, B,(B/c/) | (d/c/).B/.A/ {c}d>F D3 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d2F2 G2A2 | F2D2 G2g2 | f2d2 G2A2 | FGA2 D2d :||:\
+z | F2D2 G2G2 | F2D2 f2g2 | f2d2 G2G2 | FG A2 D3 :|

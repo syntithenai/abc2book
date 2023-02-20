@@ -1,0 +1,43 @@
+%%scale .7
+%%barsperstaff 4
+X:1
+T:When You and I Were Young, Maggie
+C:Music: J A Butterfield; Lyrics: George W Johnson
+M:4/4
+L:1/4
+K:G
+%%staves {1 2}
+V:1 name=melody
+|d|"G"d B3/4A1/4 G A3/4G1/4|"C"G2 E/2 G E/2|"D"D G3/4-G1/4 B d3/4-d1/4
+w:v1~I wan-dered to day to the hill, Mag-gie, To watch the_ scene be-_
+w:v2~A ci-ty so si-lent and lone, Mag-gie, Where~the young and the gay and the
+w:v3~They say I am fee-ble with age, Mag-gie, My steps are less spright-ly than
+|A3 d|"G"d B3/4A1/4 G A3/4G1/4|"C"G2 E/2 G E/2|"D"D (G3/4B1/4) d A3/4B1/4|"G"G2-G/2 z||
+w:v1~low, The creek and the old rus-ty mill, Mag-gie, Where we~sat in the long long a-go._
+w:v2~best. In pol-ished white man-sion of stone, Mag-gie, Have each found a place of_ rest._
+w:v3~then; My face is a well writ-ten page, Mag-gie, But time a-_lone was the pen._
+|!segno!d|"A7"e e3/4e1/4 c e3/4e1/4|"G"d2 B/2 d B/2|"D"A d/2-d/2 (d/2^c/2) ("A"f/2e/2)|"D"d3 d/2d/2
+w:v1~The green grove is gone from the hill, Mag-gie, Where first the_ dai-_ sies_ sprung. The_
+w:v2~Is built where the birds used to play, Mag-gie, And join in the songs_ that were sung. For we
+w:v3~They say we are a-ged and grey, Mag-gie, as spray by the bra-_ kers_ flung. But to
+w:ch~And now we are a-ged and grey, Mag-gie, the tri-als of life_ near-ly done, Let us
+|"G"d B3/4A1/4 G A3/4G1/4|"C"G2 E/2 G E/2|"D"D G3/4B1/4 d "D7"A3/4B1/4|"G"G2-G1/2 z!D.S.!||
+w:v1~old rus-ty mill is_ still, Mag-gie, Since you and_ I were_ young._
+w:v2~sang as_ gay as_ they, Mag-gie, When you and_ I were_ young._
+w:v3~me you're as fair as you were, Mag-gie, When you and_ I were_ young._
+w:ch~sing of the days that are gone, Mag-gie, When you and_ I were_ young._
+V:2 name=harmony
+|G|G G3/4D1/4 D D3/4D1/4|E2 C/2 E C/2|B, D3/4-D1/4 G G3/4-G1/4
+|F3 F|G G3/4D1/4 D =F3/4F1/4|E2 C/2 E C/2|B, (D3/4G1/4 F) F3/4F1/4|G2-G/2 z||
+|G|G G3/4G1/4 G G3/4G1/4|G2 G/2 G G/2|F A/2A/2 G A/2G/2|F3 F/2-F/2
+|G G3/4D1/4 D =F3/4F1/4|E2 C/2 E C/2|D D3/4G1/4 F F|G2-G/2 z||
+
+
+A city so silent and lone, Maggie,
+Where the young and the gay and the best,
+In polished white mansion of stone, Maggie,
+Have each found a place of rest,
+Is built where the birds used to play, Maggie,
+And join in the songs that were sung;
+For we sang as gay as they, Maggie,
+When you and I were young.

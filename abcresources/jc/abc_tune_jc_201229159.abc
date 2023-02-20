@@ -1,0 +1,64 @@
+X: 1201
+T: Jingle, Bells
+C: music: J.Pierpont
+C: words: J.P.
+Q: "Quickly"
+%N: This is version 2, for ABC software that understands voice overlays and tremolo notation.
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+V:1
+V:2 
+V:3 clef=bass middle=D
+V:4 clef=bass middle=D
+%%score (1 2) (3 4)
+%%continueall 1
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] D | DB AG D2 zD/-D/ | DB AG E2 zE |
+[V:2] D | DD DD D2 zD/-D/ | DD DD C2 zC |
+w: 1.~ Dash-ing thro' the snow In a one horse o-pen sleigh, _
+w: 2.~A day or two a-go        I* thought I'd take a ride, And
+w: 3.~ Now the ground is white,** Go it while you're young, _
+[V:3] B | BB BB B2 zB/-B/ | BB BB G2 zG |
+[V:4] G | GG GG G2 zG/-G/ | GG GG C2 zC |
+%
+[V:1] Ec BA F2 zF | dd cA (B2 G)D |
+[V:2] CE EE D2 zD | FF FF G3 D |
+w: O'er the fields we go,*  Laugh-ing all the way;*
+w: soon Miss Fan-nie Bright Was seat-ed by my side; The
+w: Take the girls to-night, And sing this sleigh-ing song; Just
+[V:3] GG Gc c2 zc | cc Ad d3 B |
+[V:4] CC CC D2 zD | DD DD G3 G |
+%
+[V:1] DB AG D2 zD | DB AG E2 zE |
+[V:2] DD DD D2 zD | DD DD C2 zC |
+w: Bells on bob-tail ring,* Mak-ing spir-its bright, What
+w: horse was lean and lank, Mis-for-tune seem'd his lot, He
+w: get a bob-tailed nag,    Two-for-ty for his speed, Then
+[V:3] BB BB B2 zB | BB BB G2 zG |
+[V:4] GG GG G2 zG | GG GG C2 zC |
+%
+[V:1] Ec BA dd dd | ed cA G3 z |]
+[V:2] CE EE FF FF | FF FF G3 z |]
+w: fun it is to ride and sing     A sleigh-ing song to-night!
+w: got in-to a drift-ed bank,     And we, we got up-sot.
+w: hitch him to an o-pen sleight, And crack! you'll take the lead.
+[V:3] GG Gc cc cc | AA Ac B3 z |]
+[V:4] CC CC DD DD | DD DD G3 z |]
+%
+P: CHORUS (Accompanied by jingling glasses)
+[V:1] |: BB B2 BB B2 | Bd G>A B2 z2 | cc c>c cB B
+[V:2] |: GG G2 GG G2 | GG D>F G2 z2 | EE E>E ED D
+w: Jin-gle, bells! jin-gle, bells! Jin-gle all the way! Oh, what fun it is to ride
+[V:3] |: dd d2 dd d2 | dB B>c d2 z2 | cc c>c cB B
+[V:4] |: GG G2 GG G2 | GG G>G G2 z2 | CC C>C CG G
+%
+[V:1] [1 B/B/ | BA AG (A d3) :|[2 B/B/ | dd cA G3 |]
+[V:2]    G/G/ | GF FE  F4    :|   G/G/ | DD DD G3 |]
+w: In a one-horse o-pen sleigh! In a one-horse o-pen sleigh!
+[V:3]    d/d/ | dd dd d4     :|   d/d/ | AA Ac B3 |]
+[V:4]    G/G/ | AA AA D4     :|   G/G/ | DD DD G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,99 @@
+
+X: 17
+T: Bromely Assembly   [D]
+%R: jig
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+N: The 2nd strain has initial repeat but no final repeat; fixed by adding final repeat symbol.
+N: The word "down" in the dance description was added above the text in a smaller font.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+A |\
+"D"d2d {g}Tf>ef | "A7"e2e {a}Tg>fg |\
+"D"fag fed | "A7"ced cBA ||\
+"D"d2d {g}Tf>ef |
+"A7"e2e {a}Tg>fg |\
+"D"fba "E7"{a}T^g>fg | "A"a3 A2 ::\
+a |\
+"D"a2a "G"bab | "Em"g2g "A7"aga |
+"D"f2f fed | "A7"ced cBA ||\
+"D"d2d {g}Tf>ef | "A7"e2e {a}Tg>fg "I"|\
+"D"fed "A7"{d}Tc>Bc | "D"d3 D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d3 d'3 | "6"c'3 "7"a3 | d'3 d3 | a3 A3 ||\
+d3 d'3 | "6"c'3 "6;5"c3 | d3 "4;#3"e3 | A3- A2 ::
+z |\
+d3 z3 | "6"e3 "6"c'3 | d'3 d3 | a3 A3 ||\
+d3 d'3 | "6"c'3 "7"a3 | d'2"6;5"g "4"a2"3"A | d3 d2 :|
+%%begintext align
+%% Set and cast off down two Cu. Right Hand & left half Round and turn your Partners off their own Side |
+%% The first Man turn Hands with the 2d Cu. & the first Wo. do the same with the 3d Cu. at the same Time
+%% and meet in the middle & turn, lead thro' the 3d Cu. & then a Top into the 2d Couple's Place.
+%%endtext
+
+%%sep 1 1 500
+
+X: 17
+T: Bromely Assembly   (G)
+%R: jig
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+"G"G2G {c}TB>AB | "D7"A2A {d}Tc>Bc |\
+"G"Bdc BAG | "D7"FAG FED ||\
+"G"G2G {c}TB>AB |
+"D7"A2A {d}Tc>Bc "I"|\
+"G"Bed "A7"{d}T^c>Bc | "D"d3 D2 ::\
+d |\
+"G"d2d "C"ede | "Am"c2c "D7"dcd |
+"G"B2B BAG | "D7"FAG FED ||\
+"G"G2G {c}TB>AB | "D7"A2A {d}Tc>Bc |\
+"G"BAG "D7"{G}TF>EF | "G"G3 G,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%%begintext align
+%%% Set and cast off down two Cu. Right Hand & left half Round and turn your Partners off their own Side |
+%%% The first Man turn Hands with the 2d Cu. & the first Wo. do the same with the 3d Cu. at the same Time
+%%% and meet in the middle & turn, lead thro' the 3d Cu. & then a Top into the 2d Couple's Place.
+%%%endtext
+
+%%sep 1 1 500
+
+X: 17
+T: Bromely Assembly   (C)
+%R: jig
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G, |\
+"C"C2C {F}TE>DE | "G7"D2D {G}TF>EF |\
+"C"EGF EDC | "G7"B,DC B,A,G, ||\
+"C"C2C {F}TE>DE |
+"G7"D2D {G}TF>EF "I"|\
+"C"EAG "D7"{G}T^F>EF | "G"G3 G,2 ::\
+G |\
+"C"G2G "F"AGA | "Dm"F2F "G7"GFG |
+"C"E2E EDC | "G7"B,DC B,A,G, ||\
+"C"C2C {F}TE>DE | "G7"D2D {G}TF>EF |\
+"C"EDC "G7"{C}TB,>A,B, | "C"C3 C,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%%begintext align
+%%% Set and cast off down two Cu. Right Hand & left half Round and turn your Partners off their own Side |
+%%% The first Man turn Hands with the 2d Cu. & the first Wo. do the same with the 3d Cu. at the same Time
+%%% and meet in the middle & turn, lead thro' the 3d Cu. & then a Top into the 2d Couple's Place.
+%%%endtext

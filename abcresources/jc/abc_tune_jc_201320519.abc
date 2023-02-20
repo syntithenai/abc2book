@@ -1,0 +1,13 @@
+X:359
+T: Ormond's Lament
+N: O'Farrell's Pocket Companion v.4 (Sky ed. p.154)
+N: "Irish - very old"
+% In the PC there are F sharps in m.3 and 7. Since they sound out of place, I have removed
+% them; they can easily be replaced by inserting a ^ (shift-6) before the letters.
+M: 4/4
+L: 1/8
+Q: 120
+R: march
+K: Am
+ed| c2 BA A2AG| A>Bc>d e3f| g2fg e2 e>f| g2 e>d c3B|
+A2AA g2^fg| aAAA c3c| d>cde f>ga>b| gedc g2d>e| c2A>B A4-|A6||

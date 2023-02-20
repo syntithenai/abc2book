@@ -1,0 +1,30 @@
+X: 31361
+T: COTILLION No. 27. CONCORD SETT tune 1
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.136 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G/F/ |\
+EGc cBc | Bdf f2a | gec cBc | e3 d2 G/F/ |\
+EGc cBc | Bde f2a | gec fdB | d3 c2 H|]
+d |\
+g(b/a/g/f/) e(g/f/e/d/) | c(d/c/B/A/) G2F | EGc cBc | e3 d2 d |\
+g(b/a/g/f/) e(g/f/e/d/) | c(d/c/B/A/) G2g | ^fef def | a3 "^D.C."g2 |]
+E |\
+A^GA E2c | cBc ^G2e | efe edc | c3 B2 E |\
+A^GA E2c | cBc B2e | fed c2B | A3 "^D.C."A2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 right and left,
+%% balance 4,
+%% ladies chain,
+%% promenade 4.
+%% Sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

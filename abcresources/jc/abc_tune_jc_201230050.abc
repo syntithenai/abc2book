@@ -1,0 +1,27 @@
+X: 131
+T: Steer the Gil
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.13 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The high c's in bar 4 are also natural.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+d2de (d/c/B/A/) (G/F/E/D/) | d2df e(gTfe) |\
+d2de (d/c/B/A/) (G/F/E/D/) | E=C-CE c2ce :|
+|:\
+dD-DB A(FTED) | dD-Df egfa |\
+dDDB A(FTED) | E=C-CE =c2ce :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d2d2 d2d2 | d2d2 A2A2 |\
+d2d2 d2d2 | =c2c2 c2c2 :|
+|:\
+d2d2 d2d2 | d2d2 A2A2 |\
+d2d2 d2d2 | =c2c2 c2c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

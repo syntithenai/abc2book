@@ -1,0 +1,57 @@
+
+X: 1
+T: Green Grow the Rashes O
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+|: "G"G4 B3A BG3 G3B | "Am"A2  e3d  eA3 A3B | "C"c3B c3e "G"dcBA G3B |1 "B7"A4 B3A "Em"GE3 E2 :|2 "B7"(3A2B2c2 B3A "Em"GE3 E4 :|
+|: "G"d4 g3f gd3 d4  | "Am"ee3 a3^g ae3 e3f | "C"g3a g3e "G"dcBA G3B |1 "B7"A4 B3A "Em"GE3 E2 :|2 "B7"(3A2B2c2 B3A "Em"GE3 E4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Green Grow the Rashes
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+B: Gow Collection
+M: C
+L: 1/16
+K: G
+D2 |\
+"G"GGG2 B3A B2G2 G2B2 | "Am"AAA2 e3d e2A2 "D7"A2B2 |\
+"C"c3B  ce3  "G"dcBA G3B  | "Am"ABc2 "(B7)"B3A "Em"G2E2 E2 :|
+F2 |\
+"G"GGG2 g3f g2d2 d2g2 | "Am"eee2 a3g a2e2 "D7"e3f  |\
+"C"g3a  g2e2 "G"dcBA G3B  | "Am"ABc2 "(B7)"B3A "Em"G2E2 E2 |]
+F2 |\
+"G"GGG2 g3f g2d2 d2g2 | "Am"eee2 a3g a2e2 "D7"e3f  |\
+"Em"g2b2 e2g2 "G"d2g2 B2g2 | "Am"ABc2 "(B7)"B3A "Em"G2E2 E2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Green Grow the Rashes
+R: strathspey
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS dated 1992 by Barbara McOwen
+B: Gow Collection
+M: C
+L: 1/16
+K: G
+D \
+| "G"GG3 B3A    BG3  G3B | "Am"AA3      e3d     eA3 A3B \
+| "C"c3B ce3 "G"d3B  G3B | "Am"ABc2 "B7"B3A "Em"GE3 E3 ||
+D \
+| "G"G4  B3A    BG3  G3B | "Am"AA3      e3d     eA3 A3B \
+| "C"c3B ce3 "G"d3c  B3G | "Am"ABc2 "B7"B3A "Em"GE3 E3 |]
+F \
+| "G"G4  g3f    gd3  d3g | "Am"ee3      a3g     ae3 e3f \
+| "C"g3a g3e "G"d3B  G3B | "Am"ABc2 "B7"B3A "Em"GE3 E3 ||
+F \
+| "G"G4  g3f    gd3  d3g | "Am"ee3      a3g     ae3 e3f \
+| "C"g3a g3e "G"dcBA G3B | "Am"ABc2 "B7"B3A "Em"GE3 E3 |]

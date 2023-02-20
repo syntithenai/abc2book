@@ -1,0 +1,41 @@
+X:1
+T:Iain Symington
+M:6/8
+L:1/8
+Q:80
+C:Michael Grey
+S:March
+K:HP
+|: A|
+{GdG}c3{g}c3/2e/2{g}A|
+{gAGAG}A2f{gef}e2{g}A|
+a3/2e/2{A}e{g}f3/2e/2{g}A|  !
+{g}c/2e3/2c{gBd}B2{e}A{GdG}c3{g}c3/2e/2{g}A|
+{gAGAG}A2f{gef}e2{g}A|
+{ag}a2e{gfg}f3/2e/2c|  !
+{gBd}B3/2A/2{d}G{g}A2:| |:
+e|
+{gfg}f2e{g}f3/2e/2{g}A|
+{ag}a2f{gef}e3/2c/2a|  !
+c2{GdG}e{g}e2{AGAG}A|
+{g}c/2e3/2f{gcd}c3/2B/2{G}A|1 {gfg}f2e{g}f3/2e/2{g}A|
+{ag}a2f{gef}e3/2c/2a|  !
+{g}a2e{gfg}f3/2e/2c|
+{gBd}B3/2A/2{d}G{g}A2:| |:
+e|  !
+{g}A3/2{d}B/2{e}B{g}c3/2e/2{g}A|
+{gAGAG}A2f{gef}e2{g}A|
+{g}c3/2e/2{g}A{g}A3/2{d}B/2{e}B|  !
+{g}c/2e3/2c{gBd}B2e{g}A3/2{d}B/2{e}B{g}c3/2e/2{g}A|
+{gAGAG}A2f{gef}e2{g}A|
+{ag}a2e{gfg}f3/2e/2c|  !
+{gBd}B3/2A/2{d}G{g}A2:| |:
+e|
+{gfg}f3{g}f3/2{g}e/2a|
+{cd}c2{d}B{g}c2f|  !
+{gef}e2c{gfg}f3/2e/2a|
+c/2e3/2f{gcd}c3/2B/2{G}A|1 {gfg}f3{g}f3/2{g}e/2a|
+{cd}c2{d}B{g}c2f|  !
+{ag}a2e{gfg}f3/2e/2c|
+{gBd}B3/2A/2{d}G{g}A2:|
+

@@ -1,0 +1,32 @@
+X:1
+T: The Beggar Boy
+N:
+C:
+S:Play 3 times
+A:
+O:
+R:
+M:6/8
+K:Em
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 17 notes)
+K:Em
+M:6/8
+L:1/16
+E2 E2 E2 c4 c2 B2 G4 A4 G2 E2 C4 D4 D2 E4 =F2 G2 E4 |
+%W: A2
+% voice 1 (1 lines, 17 notes)
+E2 E2 E2 c4 c2 B2 G4 A4 G2 E2 C4 D4 D2 E4 =F2 G2 E4 |
+%W: B1
+% voice 1 (1 lines, 17 notes)
+E2 E2 E2 c4 c2 B4 G2 A4 G2 E2 G4 B2 A2 B2 c2 E4 D6 |
+%W:
+% voice 1 (1 lines, 22 notes)
+E2 G2 G2 B3 A G2 A2 c2 d c B2 c2 A2 G2 E2 C2 D4 D2 E4 =F2 G2 E4 |
+%W: B2
+% voice 1 (1 lines, 17 notes)
+E2 E2 E2 c4 c2 B4 G2 A4 G2 E2 G4 B2 A2 B2 c2 E4 D6 |
+%W:
+% voice 1 (1 lines, 22 notes)
+E2 G2 G2 B3 A G2 A2 c2 d c B2 c2 A2 G2 E2 C2 D4 D2 E4 =F2 G2 E4 ||

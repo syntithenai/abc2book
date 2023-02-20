@@ -1,0 +1,29 @@
+X: 4192
+T: Niel Gow's Fiddle    a Strathspey
+C: by Nath. Gow
+%R: strathspey, air
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.29 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slowish"
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted slightly for better note spacing.
+V: 1 staves=2
+f/e/ |\
+d>D {B}AG/F/ E=C Cf/e/ | dD (B/A/)G/F/ {F}d2 df/e/ |\
+dD {B}AG/F/ E=CTC>E |"_Exp.rs" D>F {F}d>F {F}A2A f/e/ ||\
+d>D {B}AG/F/ E=C Cf/e/ | dD (B/A/)G/F/
+{F}d2 df/e/ | dD (B/A/)G/F/ E=CTC>E |"_Exp.rs"D>F {F}d>F {F}A2 A |[| f/g/ |\
+{fg}af dg/f/ e=c Tcf/g/ | {fg}afdg fd (f/g/).a/.f/ |\
+af dg/f/
+e=c Tcf/g/ |"Exp.rs" {fg}a>fd>A T[d2F2] [dF]f/g/ ||\
+{fg}af dg/f/ e=c Tcf/g/ | {fg}.a.f.d.A Fd {B}AG/F/ |\
+GB/G/ Fd/F/ E=CCE |"_Exp.rs" D>F {F}d>F {F}A2 A |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | [d2D2][d2D2] [=c2=C2][c2C2] | [d2D2][d2D2] [d2D2][d2D2] | [d2D2][d2D2] [=c2=C2][c2C2] |"_Exp.rs" [d2D2]A2 [d2D2][d2D2] || [d2D2][d2D2]
+[=c2=C2][c2C2] | [d2D2][d2D2] [d2D2][d2D2] | [d2D2][d2D2] [=c2=C2][c2C2] |"_Exp.rs" [d2D2]A2 [d2D2][dD] |[| z | [d'2d2][d'2d2] [=c'2=c2][c'2c2] | [d'2d2][d'2d2] [d'2d2][d'2d2] |
+[d'2d2][d'2d2] [=c'2=c2][c'2c2] |"_Exp.rs" [d'2d2][a2A2] [d2D2][d2D2] || [d'2d2][d'2d2] [=c'2=c2][c'2c2] | [d'2d2][d'2d2] [d2D2][d2D2] | [e2E2][d2D2] [=c2=C2][c2C2] |"_Exp.rs" [d2D2][A2A,2] [d2D2][dD] |]

@@ -1,0 +1,29 @@
+X: 104
+T: DUNNICHEN HOUSE
+C: ARCHd DUFF
+R: Reel
+B: Glen Collection p.10 #4
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: The first d in bar 5 should probably be c.
+N: The second f in bar 10 should probably be g.
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: D
+%
+V: 1
+A |\
+F2DF ABAG | A2DF GEEA | F2DF ABAF |1 A,CEG FDD :|2 Adeg fdd ||
+|: f |\
+(Ad)fd (ge)fd | (Ad)fd ceef |[1 (Ad)fd gefd Adeg fdd :|[2 faef dfBd | Ad (e/f/g) fdd |]
+%
+V: 2
+z |\
+d2[a2f2] [a2f2][a2f2] | [d'2a2][d'2a2] [c'2a2][c'2a2] |\
+d2[a2f2] [a2f2][a2f2] |[1 [g2e2][e2c2] [f2d2][afd] :|2 [g2e2][e2c2] [f2d2][afd] ||
+|: z |\
+d2[d'2a2] [c'2a2][d'2a2] | [d'2a2][d'2a2] [g'2e'2a2][c'2a2] |\
+[1 d2[d'2a2] [c'2a2][d'2a2] | [d'2a2][c'2a2] [d'2a2d2][d'ad] :|\
+[2 [d'2a2d2][c'2a2e2] [d'2a2f2][d'2b2g2] | [d'2a2][c'2a2] [d'2a2d2][d'ad] |]

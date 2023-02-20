@@ -1,0 +1,17 @@
+X: 809
+T: the Kildare Fancy   #2
+R: hornpipe
+%S: s:2 b:11(5+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #809
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0809/oneill-1001-0809-1.abc
+M: 2/4
+L: 1/16
+K: D
+"^A"[|]\
+d>B | A>FD>F A>Fd>B | (3ABA F>A f>ed>c | B>AB>f g>ef>d |\
+[1,3 e>dc>B A2 :|[2,4  e>c (3ABc d2 :|
+"^B"\
+|: d>e | f>dc>d B>dA>F | D>dc>d f>dc>d |\
+[1,3 e>A (3AAA f>A (3AAA | (3efe (3dcB A2 :|\
+[2,4 e>Af>A g>Af>A | e>c (3ABc d2 :|

@@ -1,0 +1,16 @@
+X: 635
+T: Pick Your Partner
+R: reel
+%S: s:4 b:13(5+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #635
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0635/oneill-1001-0635-1.abc
+%m: Tn = (3n/o/n/
+M: C|
+L: 1/8
+K: Bm
+"^A"[|]\
+(ae) | fB (3(cBA) Bcde | fBBd e2(de) | fB (3(cBA) Bcde |[1 fbaf e2 :|[2 fedf ed |]
+"^B"\
+[| Bc | d2(fd) adfd | (3(ded) (fd) edBc | (3(ddd) (fd) adfd | bgaf ed ||
+|| Bc | d2(fd) adfd | d2(fd) edBc | defg Tagaf | bgaf e2 |]

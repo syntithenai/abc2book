@@ -1,0 +1,61 @@
+X: 1
+T: Strose to stroma sou
+C: Melody: Nikis Theodorakis
+C: Lyrics: Iakovos Kampanellis
+F: http://www.youtube.com/watch?v=9hSJjpOb4d4
+M: 6/16
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+L: 1/16
+K: G
+"intro"[|]\
+[^c-^A-] \
+| "G"[d6-B6-] | [d3B3] z2[^c-^A-] \
+| [d6-B6-] | [dB]ed ^cde \
+| [d6-B6-] | [d3B3] z2[^c-^A-] \
+| [d6-B6-] | [d3B3] z2[B-^G-] |
+| "Am"[c6-A6-] | [cA]dc Bcd \
+| "Am"[c6-A6-] | [c3A3] z2[^AF] \
+| "G"[B6-G6-] | [BG]BA ^GAB \
+| "D7"[A6-F6-] | [AF]AG FGA \
+| "G"[G6-D-] | [G3D3] z3 | z6 | z3 |]
+"verse"\
+[| GGG | "G"G6- | G2G F2E | "D7"D6 | z6 | "C"E3 E3 | E3 E2E |
+w: O dhro-mos i-*ne sko-ti-nos os-pou na s'an-ta-
+w: san-ga-lia-sa* m'a-ga-lia-ses mou pi-res ke sou-
+| "G"D6 | D6 | z6 | "G"z3 GGG | G6 | z2G F2G | "Am"A6 | z3 z2A |
+w: mo-so.  kse-pro-va-le me-so-stra-tis to
+w: pi-ra.  kha-thi-ka mes sta ma-tia sou ke
+| "D7"d4 c2 | B4 A2 | c2B2A2 | "G"G6 | z6 | z6 | z6 |]
+w: khe-ri na sou dho-__so.
+w: sti dhi-ki sou mi-__ra.
+[| "G"[d6B6] | [c3A3] z2[BG] | "Am"[e4c4] [d2B2] | [c4A4] [B2G2] | "D7"[A6F6] | z6 | z6 | z6 |
+w: Stro-se to stro-ma sou yia dhio
+| "C"[e6c6] | [e4c4] [e2c2] | [e4c4] [e2c2] | "D7"[d3B3] [^c3^A3] | "G"[d6B6] | z6 | z6 | z6 |
+w: yia se-na ke yia me-*na.
+|: "G"[d6B6] | [c4A4] [B2G2] | "Am"[e4c4] [d2B2] | [c4A4] [B2G2] | "D7"[A6F6] | z6 | z6 | z6 |
+w: na-ga-lia-stou-me~ap'-tin ar-khi,
+| "C"[e6c6] | [e4c4] [e2c2] | "G"[d4B4] [B2G2] | "D7"[c2A2][BG] [c2A2][dB]  | "G"[B6G6] | z6 | z6 | z6 :|
+w: nan' o-la~a-na-sti-me-___na.
+%
+%W: Ο δρόμος είναι σκοτεινός ώσπου να σ'ανταμώσω
+%W: |: ξεπρόβαλε μεσοστρατίς το χέρι να σου δώσω :|
+%W:
+%W:    Στρώσε το στρώμα σου για δυο για σένα και για μένα
+%W:    |: ν'αγκαλιαστούμε απ'την αρχή ναν' όλα αναστημένα :|
+%W:
+%W: Σ'αγκάλιασα μ'αγκάλιασες μου πήρες και σου πήρα
+%W: |: χάθηκα μες στα μάτια σου και στη δική σου μοίρα. :|
+%W:
+%W:    Στρώσε το στρώμα σου ...
+%W:
+%
+W: Dark is the road of my journey until I get to meet you.
+W: |: Come show yourself halfway to me my hand to you I'll offer. :|
+W:
+W:    Make your bed for two for you and for me,
+W:    |: and let us fall in each other's arms to resurrect it all again. :|
+W:
+W: I hugged you and you hugged me too, you took from me and I took from you,
+W: |: I got lost into your eyes and in your destiny. :|
+W:
+W:    Make your bed ...

@@ -1,0 +1,46 @@
+
+X: 1
+T: Karago\'una    [Cm]
+O: Thessaly
+M: C|
+L: 1/8
+Q: 1/2=60
+K: Cdor
+z2 "vocal"\
+|:\
+"Cm"C2C2 (DE)^F2 | G6 ^F2 |\
+G2G2 ^F2G2 | ^F4 (ED)C2 |\
+"Cm"C2C2 "(C)"(DE)=E2 | "Fm"F6 E2 |
+"G"G2G2 ^F2([GE]D) | "Cm"C4 C2 :|\
+|: E2 |\
+(ED)C2 z2E2 | (ED)C2 z2E2 |\
+"G"G2G2 ^F2G2 | "Cm"(ED)C2 z2 :|
+Q:1/2=88
+z2"instr"\
+|: "Cm"cBAG ^FGAB | cBAG ^FEDC |\
+[1 cBAG ^FGAB | c2cG c4 :|\
+[2 =B,CDE ^FGED | "Cm"CG,"G7"A,=B,"Cm"C2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Karago\'una    [Dm]
+O: Thessaly
+M: C|
+L: 1/8
+Q: 1/2=60
+K: Ddor
+z2 "vocal"\
+|:\
+"Dm"D2D2 (EF)^G2 | A6 ^G2 |\
+A2A2 ^G2A2 | ^G4 (FE)D2 |\
+"Dm"D2D2 "(D)"(EF)=F2 | "Gm"G6 F2 |
+"A"A2A2 ^G2([AF]E) | "Dm"D4 D2 :: F2 |\
+(FE)D2 z2F2 | (FE)D2 z2F2 |\
+"A"A2A2 ^G2A2 | "Dm"(FE)D2 z2 :|
+Q:1/2=88
+z2"instr"\
+|:\
+"Dm"dcBA ^GABc | dcBA ^GFED |\
+[1 dcBA ^GABc | d2dA d4 :|\
+[2 =CDEF ^GAFE | "Dm"DA,"A7"B,=C"Dm"D2 |]

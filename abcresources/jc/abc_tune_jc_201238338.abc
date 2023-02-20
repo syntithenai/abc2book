@@ -1,0 +1,28 @@
+X: 3061
+T: Birnham Wood
+C: by John Gow
+%R: air, strathspey, reel
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.3 p.6 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "Slow"
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+A2 |\
+(def).e d3(A {Bc}d3B) AGFE | (DF)(AB) (def).d {f}Te3d B2e2 |\
+(def).e d3A {B}d4 A3g | (gf)(ed) BgTfe f2d2d2 :|
+z2 |\
+(A,D)(FD) (GD)(FD) (BD)(FD) (AD)(FA) | {e}d>cdA (GF)(ED) B,2E2E2 DB, |\
+(A,D)(FD) (GD)(FD) (BD)(FD) (AD)(FA) | .d.f.B.d (FA)GB, A,2D2D2 {E}DC/B,/ |
+(A,D)(FD) (GD)(FD) (BD)(FD) ADFA | {e}d>cdA {A}G>F{F}E>D B,2E2E2 FE |\
+DAFd Afda fd'af gecA | BGdB cAge f2d2d2 |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 | D2d2 d2F2 G4 A4 | d2g2 f2d2 g6 a2 | f2d2 f2d2 g2d2 f2^c2 | d4 G2A2 d2D2D2 :|
+z2 | [f2d16]a2b2a2 g2a2f2a2 | d4 f4 g2^g2 a2z2 | [f2d16]a2b2a2 g2a2f2a2 | d2g2a2g2 f4 d2z2 |
+[f2d16]a2b2a2 g2a2f2a2 | d4 F4 G2^G2 A2z2 | d4 D4 d4 A4 | g4 e2A2 [d2d4]D2D2 |]
+% - - - - - - - - - -
+%%text In bars 5, 7 and 9 the d is a drone held the entire measure.

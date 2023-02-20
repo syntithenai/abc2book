@@ -1,0 +1,31 @@
+X: 1
+T: Trip to Brighton
+O: 1791
+%R: jig
+B: A Musical Souvenir of the Royal Pavilion - Brighton"
+F: https://www.mediafire.com/folder/d9iv45ggjx1fu/Royal_Pavilion_-_Brighton
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+E |\
+(Ac).e (Ad).f | (Bd.g) a2c | (db).d (ca).c | (dB)A (GB)E |\
+(Ac).e (Ad).f | (Bd.g) a2c | (db).d (ca).c | {e}dcB A2 :|
+A |\
+(EG).B (EA).c | (Bc).d (dc).B | cAc dBd | (ec).A (GF).E |\
+(EG).B (EA).c | (Bc).d (dc).B | (cA).c (^dB).a | (ga).f "^D.C."e2 |]
+V: 2 clef=bass middle=d
+z |\
+a3 d3 | e3 a2A | e3 e3 | e3 e3 |\
+a3 d3 | e3 a2A | e3 e3 | d2e A2 :|
+z |\
+e3 e3 | e3 e3 | a3 e3 | c2^d e3 |\
+e3 e3 | e3 e3 | a3 a3 | b2B "^D.C."e2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Change sides back again hands across back again lead down
+%% the middle up again cast off & hands six round.
+%%endtext
+% %sep 2 2 400

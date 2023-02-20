@@ -1,0 +1,15 @@
+X: 1
+T: Hopkele
+C: music: Alexander Olshanetsky
+C: lyrics: Jacob Jacobs
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin, labelled "I-7"
+M: 2/4
+L: 1/8
+K: D
+DFA |\
+"D"d>=c BA | "A7"=cB A^G | "D"Az FD- | DD EF | "A7"Gz EC- | CG FE | "D"F2 "Em"G2 | "E7"^G2 "A7"A2 |
+"D"d>=c BA | "A7"=cB A^G | "D"Az FD- | DD EF | "G"G>A _B/A/G | "D"FD "A7"EC | "D"D4 | "fine"z :|
+|: "D"DFA |\
+"D7"=c4 | zB BA | =c4 | zD FA | "D7"=c>B AB | =cB AG | A F3 | zD GA |
+"G"B4 | zB AG | B4 | ZD GA | "Gm"_BB AG | Gd "(#)"c_B | "A7"A4 | z :|

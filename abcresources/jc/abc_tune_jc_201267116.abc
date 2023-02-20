@@ -1,0 +1,28 @@
+X:405
+T: Dargai
+C: J.S.Skinner
+R: air, pibroch
+N: H&C p.146, SV p.42, Hunter #27
+M: 6/8
+L: 1/8
+%%printtempo 0
+Q: 1/8=80
+K: A
+| "A"({d}c2A) "E"({Bd}B2A) | "A"({d}c2A) {A}He3 \
+| "A"({d}c2A) "E"({Bd}B2A) | "A"({d}c2A) "D"(F2A) |
+| "A"({d}c2A) "E"({Bd}B2A) | "A"({d}c2A) H({g}a2g/f/) \
+| "A"(e2A) ({A}e2c) | "E7"{Ad}HB3 "A"A2 ||
+(c/d/) \
+| "A"({f}e2A) "D"({fa}f2A) | "A"({f}e2A) {Ad}Hc3 \
+| "A"({f}e2A) "D"({fa}f2A) | "A"({f}e2A) "E"({Bd}B2c/d/) |
+| "A"({f}e2A) "D"({fa}f2A) | "A"({f}e2A) ({A}Ha2g/f/) \
+| "A"({f}e2A) ({A}e2c) | "E7"{Ad}HB3 "A"A2 z |]
+P: var
+| "A"({d}c2{AdB}A) ({d}c2{AdB}A) | "A"({d}c2{AdB}A) {A}He3 \
+| "A"({d}c2{AdB}A) ({d}c2{AdB}A) | "A"({d}c2{AdB}A) "D"(F2{AdB}A) |
+| "A"({d}c2{AdB}A) ({d}c2{AdB}A) | "A"({d}c2{AdB}A) ({A}Ha2g/f/) \
+| "A"(e2{AdB}A) ({f}e2c) | "E7"{Ad}HB3 "A"A2 ||
+(c/d/) \
+| "A"({f}e2{AdB}A) "D"({fa}f2{AdB}A) | "A"({f}e2{AdB}A) {d}Hc3 |"A"({f}e2{AdB}A) "D"({fa}f2{AdB}A) |
+"A"({f}e2{AdB}A) ({Bd}c2c/d/) | "A"({f}e2{AdB}A) "D"({fa}f2{AdB}A) |"A"({f}e2{AdB}A) ({A}Ha2g/f/) |
+ "A"({f}e2{AdB}A) ({f}e2c) | "E7"{Ad}HB3 "A"A2 z |]

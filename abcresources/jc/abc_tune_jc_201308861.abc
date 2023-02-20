@@ -1,0 +1,16 @@
+X:457
+T:Meillionen
+C:Walsh, 1735
+M:2/2
+L:1/8
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=100
+K:D
+%%textfont Times-Roman-Bold 20
+%%center 3 A's and 7 B's
+P:A
+|: A2 | "D"d4 f2ed | "A7"cdef g2g2 | "D"f4 "G"gfed | "A"c3d "A7"efge |\
+"D"d2a2 f2ed | "A7"cdef g2ag | "D"f4 "A7"e3d | "D"d6 :|
+P:B
+|: fg | "D"a2d2 c2d2 | "A"e6 fg | "D"a4 "G"gfed | "A"cdef "A7"gedc | "D"d3e "A7"f2g2 | "D"agfe "D7"f2 ed |
+"G"g3a b2a2 | "Em"gagf "A"e2fg | "Bm"f4 "Em"gfed | "A"cdef "A7"g2ag | "D"f4 "A7"e3d | "D"d6 :|

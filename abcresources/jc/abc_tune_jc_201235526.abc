@@ -1,0 +1,34 @@
+X: 211
+T: None left at home but Wife and Bairn.
+T: Gun duine aig a bhaile.
+R: jig
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.97 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Moderate"
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for 2 12-bar lines, for compactness and proofreading.
+V: 1 staves=2
+f/d/ |\
+c<Ac Tf2g | a>gf fed | cAA ~A2d/f/ |"_cresc" c<Ac Tf2g ||\
+{fg}a>gf fcA | AGG G2f/>d/ |!p! c<Ac Tf2g |  a>gf fed ||\
+cAA ~A2c |"_cres" (A/B/c)c (fa)g | (fa)g fdc | AGG G2 |]
+c |!p! (Ac).d (Ac).d | (fd)c Acd | cAA ~A2c |"_cres"(Ac).d (Ac).d ||\
+fdc Acd | AGG ~G2c |!p! (Ac).d (Ac).d | fdc Acd ||\
+cAA ~A2c |"_cresc"(A/B/c)c (fa)g | (fa)g fdc | AGG G2 |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+[f3c'3] [f3c'3] | [f3c'3] [f3d'3] | [f3c'3] [f2c'2]z |"_cres"[f3c'3] [f3c'3] ||\
+[f3c'3] [f3c'3] | [c3c'3] [c2c'2]z |!p![f3c'3] [f3c'3] | [f3c'3] [f3d'3] ||
+[f3c'3] [f3c'3] |"_cres"[f3c'3] [f3c'3] | [f3c'3] [f3c'3] | [c3c'3] [c2c'2] |]\
+z |!p!\
+[f2c'2]z [f2c'2]z | [f2c'2]z [f2c'2]z | [f2c'2]z [f2c'2]z |"_cres" [f2c'2]z [f2c'2]z || [f2c'2]z [f2c'2]z |
+[c3c'3] [c3c'3] |!p! [f2c'2]z [f2c'2]z | [f2c'2]z [f2c'2]z ||\
+[f2c'2]z [f2c'2]z |"_cres" [f2c'2]z [f2c'2]z | [f3c'3] [f3c'3] | [c3c'3] [c2c'2] |]
+% = = = = = = = = = =

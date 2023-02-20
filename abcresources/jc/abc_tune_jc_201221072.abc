@@ -1,0 +1,23 @@
+X: 042
+T: STORY GATE
+C: SP.
+%R: march, reel
+B: J.Gray's Twenty four Country Dances (for the Year 1812) p.4 #2
+S: http://www.eatmt.org.uk/gray_1812.htm 2014-8-7
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+|:\
+C2EG | [c2E2][B2D2] | [c2E2][d2G2] | ((3[ec][ec][ec]) [e2c2] |\
+[g2e2][f2d2] | [e2c2][d2F2] | [c2E2][B2D2] | ((3[cE][cE][cE]) [c2E2] :|
+|:\
+{f}g2ec | fcfa | ^fgec | edBG |\
+{f}g2ec | fcfa | gefd | c2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change sides. back again.
+%% down mid: up again &
+%% allemande.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,36 @@
+X:1
+T:Valse des Niglos (Em/G/E)
+T:Waltz of the Hedgehogs (Em/G/E)
+C:Gusti Malha
+Z:ABC by Moshe Braner, 000825, from xeroxed computer printout from Mary Lea
+N:original (?) keys: Em, G, E (in parts A, B, C)
+M:3/4
+L:1/4
+P:AABBAC (or other combinations, e.g., AABBACA or  ABBACABBA)
+K:Em
+P:A
+|: "Em"Bg^d |  fec | BGF |  E3 |     EFG  |  GFE   | "B7"E/^D/ F2-|F3 |
+   "B7"Bfe  | ^dcB | AFE | ^D3 |    ^DEF  |  FG>^D | "Em"F/E/  G2-|G3 |
+   "Em"Bg^d |  fec | BGF |  E3 | "E7"EF^G | ^GA>B  | "Am"B/A/  c2-|c2-c/A/ |
+L:1/8
+"Am"AB Bc ce | ec dc BA | (3"Em"cdc BA B2 | G2 FE ^DE |\
+"Edim"G2-"(B7)"G2-"(C7)"G2 | "B7"F6 |1 "Em"E3 E E2 | E2 z4 :|2 "Em"EG, B,E GB | e2 z4 ||
+P:B
+K:G
+L:1/8
+ "D"DE FG AB | c^G AB fe | (3"G"ded Be d2-|d2 eg eg |\
+ "D"f2 ed c2-| cf cf cf  | "G"e2 dc B2-|BB AG FE |
+"D7"DE FG AB | c^G AB fe | (3"G"ded Be d2-|d2 ^A2 B2 |\
+ "C"e3 e  e2 | g2 f2 e2  |       "B"B6-|BB AG FE |
+ "D"DE FG AB | c^G AB fe | (3"G"ded Be d2-|d2 eg eg |\
+ "D"f2 ed c2-| cf cf cf  | "G"e2  dc  B2-|B2 ^A2 B2 |
+ "C"e3 e  e2 | g2 f2 e2  | "B"B^D FB ^df |b2 ^A2 B2 |\
+ "C"e3 e  e2 | g2 f2 e2  | "B"B3 B B2 | B2 z4 ||
+P:C
+K:E
+L:1/4
+ "E"Bcd | cBc | egd | cBc  | e3 | "Bbdim(A7)"c3 |      "B7"d3-|d3 |
+"B7"Bca | fce | dcB | A^EF | c3 |            d3 |  "(Edim)"c3 | "E"B2 z |
+ "E"Bcd | cBc | ege | cBc  | e3 |        "E7"f3 | "A6(D7?)"f3-|f z2 |
+"Am"ed=c | =cde | "E"eB2-|B c/B/ G/E/ |\
+ G3 | "B7"F3 | "E"E/G,/ B,/E/ G/B/ | e2 z4 ||

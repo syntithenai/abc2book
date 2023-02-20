@@ -1,0 +1,9 @@
+%%scale 0.90
+X:1
+T:TEST: Grand Clef
+K:C
+V:1 clef=treble middle=b
+V:2 clef=bass   middle=D
+%
+[V:1] [| "c"c"d"d"e"e"f"f "g"g"a"a"b"b"c'"c' | "c'"c'"d'"d'"e'"e'"f'"f' "g'"g'"a'"a'"b'"b'"c''"c'' |]
+[V:2] [| "C,"C,"D,"D,"E,"E,"F,"F, "G,"G,"A,"A,"B,"B,"C"C | "C"C"D"D"E"E"F"F "G"G"A"A"B"B"c"c |]

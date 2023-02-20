@@ -1,0 +1,30 @@
+X: 10601
+T: an SEALLADH MO DHEIREADH DO THEARLACH.
+T: "Prince Charlie's Last View of Scotland."
+O: Gaelic air.
+Q: "Very slow."
+%R: air, waltz, jig
+N: This is version 2, for ABC software that understands crescendo symbols.
+U: p=!crescendo(!
+U: P=!crescendo)!
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.60 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Ignored dot on G note in bar 12.
+M: 6/8
+L: 1/16
+K: Gm
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(GA) !segno!|:\
+~B3cB2 {B}!p!A4(G^F) | GD3B2 =F2D2B,2 |"^cres."\
+B3cB2 A4(G^F) !p!| (pG2PA2)c2 {^c}d4D2 !p!|\
+~B3cB2 A4G^F | GD3B2 (=F2D2) (B,C) |\
+!pp!(D3^CD2) {A,}B,4A,2 | G,2G2^F2 {A}"_>"HG4 :|
+D2 |!p!\
+B3AG2 A2^F2D2 | pB3cPd2 G2^F2D2 "^cresc."|\
+B3AG2 c3BA2 | {^c}d4^F2 HG4 zD !f!|\
+"_>"[B6D6] "_>"[c6E6] | (Td3^cd2) "_>"H[g4B4] (ab) |\
+{e}"^dim."d2c2B2 {d}c2B2A2 | (G^F)pGABPc {^c}Hd4 D2 !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

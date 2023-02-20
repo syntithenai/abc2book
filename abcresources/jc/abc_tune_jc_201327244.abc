@@ -1,0 +1,26 @@
+X:1
+T: The Queen of Sheba
+N:
+C:
+S: Play  3  times
+A:
+O:
+R:
+M:6/8
+K:A
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 35 notes)
+K:A
+M:6/8
+L:1/16
+A2 |A4 e2 e4 c2 d2 e2 f2 g4 f2 e4 d2 c3 B c2 d6d4 A2 |A4 e2 e4 c2 d2 e2 f2 g4 f2 e4 d2 c3 B c2 d6d4 A2 |
+%W: A2
+% voice 1 (1 lines, 35 notes)
+A4 e2 e4 c2 d2 e2 f2 g4 f2 e4 d2 c3 B c2 d6d4 A2 |A4 e2 e4 c2 d2 e2 f2 g4 f2 e4 d2 c3 B c2 d6d4 f g |
+%W: B1
+% voice 1 (1 lines, 39 notes)
+a3 b a2 a2 f2 d2 e4 c2 A4 f g a3 b a2 a2 f2 d2 e6e4 f2 |g3 a g2 f4 e2 f4 d2 B3 c d2 e3 f e2 d4 c2 B6 A4 f g |
+%W: B2
+% voice 1 (1 lines, 37 notes)
+a3 b a2 a2 f2 d2 e4 c2 A4 f g a3 b a2 a2 f2 d2 e6e4 f2 |g3 a g2 f4 e2 f4 d2 B3 c d2 e3 f e2 d4 c2 B6 A4 ||

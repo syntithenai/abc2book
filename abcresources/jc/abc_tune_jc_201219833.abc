@@ -1,0 +1,33 @@
+X: 02
+T: Ross House
+%R: reel
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.97 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+f |\
+d2(TA>G) FGAc | d2(TA>F) E3c |\
+d2A>G FGAg | (f/g/a) ef d3 :|
+|: (g |\
+Tf)>ede =cdeg | Tfedf g3a |\
+Tf>ede =cdeg | (f/g/a) ef d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 d2d2 | d2d2 e2e2 | d2d2 d2d2 | A2A2 D2D :|
+|: z |\
+d2d2 =c2c2 | d2d2 d2d2 | d2d2 =c2^c2 | d2A2 D2D :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st Cu: foot it and cast of two Cu. .|
+%% foot it and cast up again :|
+%% cross over two Cu .|.
+%% lead up to the Top and cast off :|:
+%% Set corners and turn :||
+%% lead outsides and turn :||:
+%%endtext
+%%sep 2 2 400

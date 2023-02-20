@@ -1,0 +1,28 @@
+X: 032
+T: the Highland Laddie
+%R: air
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.3 #2
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: 16-note errors at strains' begin/endings fixed by making initial note into a grace note.
+N: Final repeat sign but no begin-repeat signs anywhere; added at beginning. Maybe the 2 strains should be repeated?
+Q: "slow"
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1
+|:{B}\
+A2D2 F>GAF | (BA)(GF) TE2-E>B | A2D2 TF>GA2 | Bcd>A {G}TF2JA2 |
+D2d2 Td3f | e2E2 TE3D | F2A2 (B/c/d) Tc>B | A2D>E TF2JA2 ||
+~d3e defd | Jg2f>g {f}e2Tf>e | d2{B}A2 {G}TF2A2 | B(d/c/) d>A TF2JA2 |
+D2d2-({e}d3e/f/) | e2D2 TE3D | {E}F2A2 (B/c/d) TcB | A2D2 TF2JA2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+|:\
+de"6"fe d2zd | g"6"f"6"ed a2z2 | de"6"fe d2z"6"f | g4 d4 | "5"babg \
+"6"fefd | "6"g2G2 A4 | de"6"fd g4 | d4 D4 || de"6"f"6"g "6"f3f | "6"e2d2 a4 | b2"6"c'2 \
+d'd"6"fd | g4 d4 | "5"babg "6"fefd | "6"g2G2 A4 | de"6"fd G4 | d4 D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

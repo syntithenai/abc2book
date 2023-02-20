@@ -1,0 +1,26 @@
+X:1
+T: Redding Fair
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:Em
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 46 notes)
+K:Em
+M:6/8
+L:1/16
+g2 f2 e2 f2 e2 ^d2 e4 B2B2 G2 B2 A2 B2 c2 F2 B2 A2 G2 F2 E2E2 e2 f2 |g2 f2 e2 f2 e2 ^d2 e4 B2B2 G2 B2 A2 B2 c2 F2 B2 A2 G2 F2 E2 z2 E2 F2 |
+%W: A2
+% voice 1 (1 lines, 46 notes)
+g2 f2 e2 f2 e2 ^d2 e4 B2B2 G2 B2 A2 B2 c2 F2 B2 A2 G2 F2 E2E2 e2 f2 |g2 f2 e2 f2 e2 ^d2 e4 B2B2 G2 B2 A2 B2 c2 F2 B2 A2 G2 F2 E2 z2 E2 F2 |
+%W: B1
+% voice 1 (1 lines, 31 notes)
+G2 F2 G2 A2 G2 A2 B6B2 G2 A2 B2 A2 B2 ^c2 B2 c2 ^d6 B2 ^c2 d2 |e2 d2 c2 B2 A2 G2 F4 B2 G2 F2 E2
+%W: B2                                                                              FINAL
+% voice 1 (1 lines, 32 notes)
+G2 F2 G2 A2 G2 A2 B6B2 G2 A2 |B2 A2 B2 ^c2 B2 c2 ^d6 B2 ^c2 d2 e2 d2 c2 B2 A2 G2 F4 B2 G2 F2 E2 ||E12 |

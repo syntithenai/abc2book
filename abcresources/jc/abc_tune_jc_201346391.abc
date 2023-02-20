@@ -1,0 +1,26 @@
+X:1
+T: A Trip to Blenheim
+N:
+C:
+S:Play A1/A2/B1/B2
+A:
+O:
+R:
+M:6/8
+K:D
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 38 notes)
+K:D
+M:6/8
+L:1/16
+d2 |d6 A4 d2 d2 A2 F2 D4 d2 d3 e f2 B3 c d2 e4 e2 e3 f e2 |f4 B2 c4 d2 e3 d c2 d4 e2 f3 g a2 ^g3 a b2 a6a4 d2 |
+%W: A2
+% voice 1 (1 lines, 37 notes)
+d6 A4 d2 d2 A2 F2 D4 d2 d3 e f2 B3 c d2 e4 e2 e3 f e2 |f4 B2 c4 d2 e3 d c2 d4 e2 f3 g a2 ^g3 a b2 a6a4 a2 |
+%W: B1
+% voice 1 (1 lines, 36 notes)
+a3 b a2 a3 b c'2 d'4 f2 f4 a2 b4 a2 g4 f2 e6e4 a2 |f3 e d2 b4 a2 f3 e d2 a4 A2 B3 c d2 c3 d e2 d6d4 a2 |
+%W: B2
+% voice 1 (1 lines, 35 notes)
+a3 b a2 a3 b c'2 d'4 f2 f4 a2 b4 a2 g4 f2 e6e4 a2 |f3 e d2 b4 a2 f3 e d2 a4 A2 B3 c d2 c3 d e2 d6d4 ||

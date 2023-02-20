@@ -1,0 +1,28 @@
+X: 68
+T: George Reynolds, Esqr
+T: George Reynolds, Esquire
+C: Carolan
+%R: jit
+B: "The Hibernian Muse" p.43 #1
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. LXIX.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+F2F FGF | Acc c3 | (d/e/f)(e/d/) efg | fGG G2c |\
+AFA dcd | cAc {g}a2g | f(g/f/e/d/) cde | fFF F3 :|
+|:\
+(a/b/c')a (g/a/b)g | fcf fcf | d'(b/c'/d'/b/) c'(a/b/c'/a/) | gdg gab |\
+a(b/a/g/f/) efg | (cd/c/B) ABc | (d/e/f)d ece | fFF F3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+f3 F3 | f3 faf | b3 c'3 | c3 c2z |\
+f3 b3 | f3 f2e | d2B c2c | f3 F3 :|
+|:\
+f3 e3 | f3 F3 | b3 a3 | g3 g3 |\
+f2b c'2c | e2c f2a | b2g c'2c | f3 F3 :|

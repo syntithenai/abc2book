@@ -1,0 +1,35 @@
+X:1
+T:The Old Hag at the Spinning Wheel
+M:6/8
+L:1/8
+Q:80
+C:
+S:Jig
+K:HP
+|: A | \
+{g}d{e}d{c}d{g}f2d | \
+{g}fge{gfg}f2A | \
+{g}d{e}d{c}d{g}f2d |
+{gcd}c2d{g}ec{d}A | \
+{g}d{e}d{c}d{g}f2d | \
+{g}fge{gfg}f2A |
+a{GdG}age{g}c | \
+{Gdc}d3{gdc}d2 :: \
+g |
+{a}fed{g}ec{d}A | \
+{g}A{d}A{e}A{g}ec{d}A | \
+{g}A{d}A{e}A{g}ec{d}A |
+{g}Bcd{g}efg | \
+{a}fed{g}ec{d}A | \
+{g}A{d}A{e}A{g}ec{d}A |
+a{GdG}age{g}c | \
+{Gdc}d3{gdc}d2 :: \
+g |
+{a}fed{g}ea{g}a | \
+fa{g}aea{g}a | \
+fa{g}aec{d}A |
+{g}Bcd{g}efg|1
+{a}fed{g}ea{g}a | \
+fa{g}aec{d}A |
+a{GdG}age{g}c | \
+{Gdc}d3{gdc}d2 :|

@@ -1,0 +1,20 @@
+X: 1
+T: Thomas Shrug March
+C: Thomas Bartlett
+R: march
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+S: Handout at Roaring Jelly practice; online videos
+N: The pickups are sometimes DEF triplets, sometimes DF, sometimes just D.
+M: C|
+L: 1/8
+K: G
+|:\
+"G"{DEF}G3F "(Em)"E2D2 | "A"ED"D7"EF "G"G4 |\
+"G"{DEF}G3F "(Em)"E2D2 | "Am"C2B,2 "D"A,4 |\
+"G"{DEF}G3F "(Em)"E2D2 | "A"ED"D7"EF "G"G4 |\
+"G"GABG A2G2 | "D7"A2GF "G"G4 :|
+|:\
+"G"GABG "(D)"A2G2 | "G"GABG "(D7)"D4 |\
+"G"DGGD GABG | "D7"A2GF "G"G4 |\
+"G"GABG "(D)"A2G2 | "G"GABG "(D7)"D4 |\
+"C"c4 "G"B4 | "D7"A2GF "G"G4 :|

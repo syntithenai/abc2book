@@ -1,0 +1,27 @@
+X: 11341
+T: the Souters of Selkirk
+%R: air, minuet, waltz
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.34 (and p.35)
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: In bars 121,124 (strain 11), 16th notes in triplets changed to Bth notes to fix the rhythm.
+M: 3/4
+L: 1/8
+K: G
+|: "_Slow"\
+Bcd2e2 | d2B2g2 | (ed)(cB)(AG) | Bcd2e2 | {e}d2B2g>a | {f}Tf4 A2 | (B2c2)d2 | g2(ag)(fe) | d2(cB)(AG) | c3d (c/d/)e | {e}d2B2g>a | {g}f4A2 "1":|
+|: g2G2B2 | g3fe2 | {e}d2(cB)(AG) | g2G2B2 | g2(ag)(fe) | Tf4A2 | g2G2B2 | g2(ag)(fe) | d2g2B2 | (cBcd)ec | d2B2g>a | f4A2 "2":|
+|: G2(BcdB) | g2(efge) | d2(BcdB) | G2(BcdB) | g2(efge) | Tf4A2 | G2B2d2 | g2(ag)(fe) | (dcBA)BG | c2e2a2 | d2(fgaf) | g4G2 "3":|
+|: g2(ag)(fe) | d2g2d2 | (ed)(cB)(AG) | g2(ag)(fe) | d2g2(b>c') | {b}a4A2 | g2afge | d2(ef)g2 | ecdBAG | (cBc).d.e.f | d3gf2 |
+{f}g4G2 "4":: (3(dcB)e4 | (3(dcB)e4 | (d<B)G4 | (3(dcB)e4 | (3(dcB)g4 | fga2A2 | (3(dcB)e4 | (3(dcB)g4 | GFGABG |
+cBcdec | d3gf2 | {f}g4G2 "5":: (3(bag)d4 | (3(BAG)e4 | {e}d2(cB)(AG) | (3(BAG)d4 | B2b2ag | (fg)a2A2 | (3(bag)d4 | B2G2e2 |
+(dc)(BA)G2 | ceacBA | BdgBAf | {f}g4G2 "6":: d2(d<B)(d<B) | g2(g<d)(g<d) | edcBAG | d2(d<B)(d<B) | g2(g<e)(g<e) | Tf4A2 |
+d2(d<B)(d<B) | g2(g<d)(g<d) | e2(e<c)(e<c) | f2(f<d)(f<d) | (fga)fdf | {f}g4G2 "7":: g2d2e2 |"P.35" {c}TB4e2 | d>edBAB | (G2A2)B2 |
+(gfg)abc' | {b}a4(gf) | (gf)(gf)(ed) | (ed)(ed)(cB) | (ed)(cB)(AG) | c2e2c2 | d2fgaf | g4G2 "8":: (d<B)B4 | (d<B)A4 | (d<B)G4 |
+(d<B)(d<B)d2 | (g<d)(g<d)g2 | (fg)a2A2 | (d<B)B4 | (d<B)A4 | (d<B)G4 | (e<c)(e<c)e2 | d2g2f2 | {f}g4G2 "9":: g2a2b2 | G3A (G/A/B) |
+E2F2G2 | g2G2B2 | G2b2(ag) | fga2A2 | g4f2 | e3gde | (B2c2)d2 | (e2f2)g2 | a2dgfa | g4G2 "10":: (3(Bcd) (.d.d.d.d) | Gge4 | (dB)(cA)G2 |
+(3(Bcd) (.d.d.d.d) | g3a (g/a/b) | {b}a4A2 | (3(Bcd) (.d.d.d.d) | Gge2dc | BcBAG2 | (3(cde) (.e.e.e.e) | d2fgaf | {f}g4G2 "11":: (bgdB)G2 |
+B2e4 | (ded)BAB | (GBdg)b2 | G2b2(ag) | (fg)a2A2 | (bgdB)G2 | g2(efge) | (c'bag)(fe) | (agfe)(dc) | BdgBAf | {f}g4G2 :|
+|: [M:9/8] "_Brisk"\
+(B/c/d)d (e/f/g)e dBG | (B/c/d)d (e/f/g)e Tf2A | (B/c/d)d (e/f/g)e dBG | c>de dBg Tf2A :|
+|:\
+gGB g(a/g/f/e/) dBG | gdB gdB a(f/g/a/f/) | g(e/f/g/e/) d(B/c/d/B/) | G(B/c/d/B/) | cec dBg Tf2A :|

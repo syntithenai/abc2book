@@ -1,0 +1,29 @@
+X: 31232
+T: COTILLION No. 20. BEETHOVEN SETT tune 5
+C:
+%R: reel, march
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.123 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(eg) |\
+g4 ^fgag | e4 c2Bc | d2g2G2 AB | cBcd cdef |\
+g4 ^fgag | e4 c2Bc | d2g2 G2AB | c2e2c2 H|]
+ef |\
+d2^c2d2 ef | d2^c2d2e2 | f2A2d2c2 | BcAB G2ef |\
+d2^c2d2 ef | d2^c2d2e2 | f2A2d2B2 | c2e2"^D.C."c2 |]
+EF |\
+G3AG2E2 | A2F2F2A2 | G2E2E2G2 | F2D2D2 EF |\
+(G2E2) (c2G2) | F2 A4 A2 | (G2E2) (F2D2) | C2E2"^D.C."C2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies all cross hands,
+%% round and back,
+%% give other hand to partners,
+%% all balance and turn partners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

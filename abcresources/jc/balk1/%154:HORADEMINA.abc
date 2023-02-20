@@ -1,0 +1,24 @@
+X: 154
+T: Hora de Mina
+O: Romania
+S: Mihai & Alexandru David, Gypsy Camp vol. 3
+F: http://www.youtube.com/watch?v=p-N4fxEfoY0
+M: 2/4
+L: 1/8
+K: Gdor
+Q:1/4=140
+G\
+%%MIDI drone 109 67 67 50 50
+%%MIDI droneon
+%%MIDI drum dzdzdzdz 39 38 37 40 70 50 60 50
+%%MIDI drumon
+%%MIDI program 41
+|: c2 c2   |(3cBA GB|c2 c2   |(3cBA GB |
+   c2 c2   |(3cBA GB|c2 c2   |(3cBA GB :|
+%%MIDI program 111
+|: (3BcdTed|(3Bcd GB|(3BcdTed|(3Bcd GB |
+   (3BcdTed|(3Bcd GB|(3BcdTed|(3Bcd GB :|
+|: (3BcdcB |(3Bcd Gz|(3BcdcB |(3Bcd GB :|
+|: (3BcdcB |(3Bcd Gz|(3BcdcB |(3Bcd GB :|
+%%MIDI droneoff
+%%MIDI drumoff

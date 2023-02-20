@@ -1,0 +1,25 @@
+X: 3121
+T: Whistle and I'll come to you my lad
+O: Irish
+%R: air, jig
+B: Niel Gow & Sons "Complete Repository" v.3 p.12 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slow"
+K: Bb
+% - - - - - - - - - -
+V: 1 staves=2
+TB/>c/ |\
+(dBG) {G}FED | Ccd Tc2B/c/ | (dB).G (FD).F |\
+GBB B2B/c/ | (dB).G (FE).D | C(ed) c2(d/e/) |\
+(dB).G (DF).F | (GB).B [B2D2] :: d/c/ | (Bd).f (Bd).f |
+(Bd).f f>ed/c/ | (Bd).f (Bd).f | (ge)c [cA]>ed/c/ |\
+(Bd).f (Bd).f | Bbg Hf>gf/e/ | !p!(dB).G {G}FED |\
+C(ed) c2B/c/ | (dBG) (FDF) | (GB)B [B2D2] :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+B2e dcB | A3 F2z | B2e d3 | e2f B2z | B2e dcB | A2B F2a | b2e d2B | e2f B2 :: z |
+[B3d3f3] [B3d3f3] | [B3d3f3] [A3c3f3] | [B3d3f3] [B3d3f3] | e2e' f'2z |\
+[b3d'3f'3] [b3d'3f'3] | [b2d'2]e' [b2d'2]A | !p!B2e dcB | A2B F2z | B2e d2B | e2f B2 :|

@@ -1,0 +1,16 @@
+X:543
+T:Old Friends and New
+C:Colin Hume, 1998
+L:1/4
+M:3/2
+%%MIDI gchord fcHcfc
+%%MIDI beat 90 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=100
+K:Dm
+P:A
+|: "Dm"d2 "/"f2 "/"A/B/c | "Gm"BA "/"GF "A7"G2 | "Dm"AF "/"FA "C"G2 | "Gm"BG "/"GB "A7"A2 |\
+"Dm"d2 "/"f2 "/"A/G/F |1 "Gm"G3/A/ "/"Bd "A7"A2 :|2 "A7"E3/F/ "/"G^C "Dm"D2 |
+P:B
+|: "F"Ac "/"c3/d/ "C/E"c2 | "Dm"fA "/"A3/d/ "C"c2 | "Bb"dF "/"Fd "F/A"cF | "Gm"BD "/"DB "A7"A^C |\
+"Bb"D2 "/"F2 "Gm"G/A/B |1 "Dm"AD "/"DE "C"C2 :|2 "A7"AG "/"FE "Dm"D2 |]

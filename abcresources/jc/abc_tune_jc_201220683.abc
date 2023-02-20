@@ -1,0 +1,41 @@
+X: 3
+T: ST. JAMES'S HOUSE
+C: "Rigodoon"
+M: 6/4
+L: 1/4
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Thomas Bray's Country Dances 1699 p.10
+P: AA ad lib.
+Q: 3/4=80 "with warmth"
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% V:1 arranged to give fewer, longer staff lines.
+V: 1
+a |\
+f2e (fb)g | (ea)d (^ce)a |\
+f2e (fb)a | f3 e2", "a |\
+f2e (fb)g | (ea)d ^cea |
+f>ge e2d | d3- d2", "A/B/ |\
+c3 ^c3 | def efg |\
+fga gab | afc fcA |\
+cAF fge |
+f3- f2", "g/a/ |\
+b3 g3 | ab/a/g/f/ ga/g/f/e/ |\
+fg/f/e/d/ ^c/d/eA | d3 e3 |\
+fe/f/d/f/ e^c2 | d3- d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+F |\
+A3 A2d | ^cAG A2e | d2^c d2e | d3 ^c2", "e |
+d2A A2d | ^cAG A2e | d2d ^c2A | F3- F2", "F |
+G3 E3 | F2G G2_B | AGF EFG | F3 A2F |
+AFC ABG | A3- A2", "G | F3 c3 | c2d d2^c |
+dAB A^cA | F2d ^c3 | dAF G2G | "F"F3- F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+"Dm"d |\
+"Dm"d2"A"^c "Dm"d2e | "A"a2"Gm"b "A"a2^c | "Dm"d2"A"A "Dm"d2"A"^c | "Dm"d3 "A"a2", "^c |
+"Dm"d2"A"^c "Dm"d2e | "A"a2"Gm"b "A"a2^c | "Dm"d2"Gm"G "A"A3 | "Dm"d3- d2", "f |
+"C"e3 "A"a3 | "Dm"d2"G"=B "C"c2"C7"c | "F"f3 "C"c3 | "F"f3- f3 |
+"F"f3 "C7"c3 | "F"F3 f2", "e | "Bb"d3 "C"e3 | "F"f2-"Dm"f "Edim"e2-"A"e |
+"Dm"d2"Gm"g "A"a2"Dm"f | "Bb"b3 "A"a3 | "Dm"d3 "A"A3 | "Dm"d3- d2 |]

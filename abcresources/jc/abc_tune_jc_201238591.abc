@@ -1,0 +1,27 @@
+X: 31001
+T: COTILLION No. 12. HIGHLAND SETT tune 1
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.100 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+gfg bag | fed g2d  | efg dcB | Adc B2d |\
+gfg bag | fef c'2a | gfe def | a3  g2 H|]
+f/g/ |\
+age dcA | GBd g2g  | d'c'b bag | b3 a2d |\
+efg fga | gab abc' | d'2b c'2a | a3 "^D.C."g2 |]
+B |\
+eBe gfg | bag f2c'  | c'2b a2g | g3 f2B |\
+eBe gfg | bab e'2c' | bag  f2e |^d3 "^D.C."e2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies all forward to the centre and balata,
+%% back and balata.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

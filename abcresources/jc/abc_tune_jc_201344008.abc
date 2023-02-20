@@ -1,0 +1,26 @@
+X:756
+%%annotationfont Times 16
+T:Tha Mitinn Leis A Ghaol
+C:Joe Buchanan's Scottish Tome - Page 508.0
+I:508 0
+C:AKA The Languor of Love
+Z:Carl Allison
+R:Slow Air
+L:1/8
+M:C
+K:D
+"^Slow and tender"D2 FA [Fd]4 | (c2 d2) "_cres"[GB]4 | A2 (Bc) d3 e | \
+!diminuendo(!d2> !diminuendo)!c2 !diminuendo(!(B2 !diminuendo)!A2) z |
+!f!!turn!F2> F2 G2 g2 | {d}f3 e !fermata!d2 z D | !turn!F3 G {FG}A3 F2 | \
+!diminuendo(!(G2 F2) (E2 !diminuendo)!D2) |
+!p!D2 FA d4 | (c2 d2) [GB]4 | A2 (Bc) d3 e | \
+!diminuendo(!d2> !diminuendo)!c2 !diminuendo(!(B2 !diminuendo)!A2) z |
+!f!!turn!F2> F2 G2 g2 | {d}f3 e !fermata!d2 z D | !turn!F3 G {FG}A3 F2 | \
+!diminuendo(!(G2 F2) (E2 !diminuendo)!D2) |
+!p!{d}f2> e2 "_cres"d3 f | (c2 d2) [GB]4 | {d}f2 f2 | \
+!diminuendo(!d2> !diminuendo)!c2 !diminuendo(!(B2 !diminuendo)!A2) z |
+!f!!turn!F2> G2 A2 (ag) | f3 e !fermata!d2 z D | !turn!F3 G {FG}A3 F2 | \
+!diminuendo(!(G2 F2) (E2 !diminuendo)!D2) |
+!f!{d}f2> e2 d2> f2 | (c2 d2) [GB]4 | f2> e2 d4 | c (c>de/) d2 D z |
+!p!!turn!F2> G2 A2 g2 | "_ritard"((3fga) ((3gfe) !fermata!d4 ({DEFGABc}) | \
+!f!d2> B2 A3 F | !diminuendo(!(G2 F2) (E2 !diminuendo)!D2) |]

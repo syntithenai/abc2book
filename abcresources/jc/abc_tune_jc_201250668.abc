@@ -1,0 +1,52 @@
+
+X: 1
+T: The Barrowburn Reel
+C: Addie Harper
+%date: 1988
+Z: John Chambers <jc:trillian.mit.edu>
+N: Addie Harper (who is this - Do we need permission?)
+L: 1/8
+K: D
+   z2 \
+|  "D"~D2DE FAAd | "G"~B2BA BddB | "D"~A2AB "Bm"d2de | "Em"fedB "A7"AFEF |
+y4 \
+|  "D"~D2DE FAAd | "G"~B2BA Bdde | "D"f2af "A7"e2fe | "G"dB"A7"AB "D"d2 :|
+|: cd \
+| "A7"~e2ef ecBA | "D"~f2fg fdBA | "Em"~g2ga gecA | "F#m"a2ag f2ef |
+y4 \
+| "G"g2ga gecA | "D"a2ag f2ef | "G"g2ag "D"f2ed | "G"dB"A7"AB "D"d2 :|
+
+%%sep 1 1 500
+
+X: 2
+T: Father Kelly's Reel
+T: The Rossmore Jetty
+%T: Father Kelley's Reel
+C: Father PJ (Patrick Joseph) Kelly (1925/9/16-2006)
+O: Ireland
+Z: John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: G
+GA | "G"B2GB "C"AGEG | "D7"DGGF "G"GABd | "Am"c2AB cBAG | "D7"FGAG FD[GD]A |
+y4 | "G"B2GB "C"AGEG | "D7"DGGF "G"GABd | "C"cdef "(G)"gedc | "D7"BGAF  "G"G2 :|
+|: Bc | "G"d2Bd gdBd | d2Bd gdBd | "Am"e2ce agfe | "D7"defg agfe |
+   y4 | "G"d2Bd gdBd | d2Bd gdBd | "Am"c2{B}Ac "G"B2{A}GB | "D7"A2{G}FA "G"G2 :|
+
+%%sep 1 1 500
+
+X: 3
+T: The Green Fields of America
+M: C|
+L: 1/8
+R: Reel
+B: O'Neill's 1240
+N: Collected by F. O'Neill
+Z: Transcribed by Trish O'Neil (chords by John Chambers)
+K: G
+|: "C"c2(ec) "G"B2(dB) | "Am"AGAB "(D7)"AGEF | "G"GAGE DEGB | "Am"AGAB "D7"AGAB |
+|  "C"c2(ec) "G"B2(dB) | "Am"AGAB "(D7)"AGEF | "G"GAGE DEGA | "D7"BGAF "G"G2z2 :|
+|: "G"GABc d2ef | "(C)"gage "G"dBGB | "C"c2(ec) "G"B2(dB) | "Am"AGAB AGE2 |
+|  "G"gfgd "(C)"efge | "G"dBAG "Am"AGEF | "G"GAGE DEGA | "D7"BGAF "G"G2z2 :|
+

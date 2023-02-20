@@ -1,0 +1,43 @@
+X: 4181
+T: Capt.n Simon Fraser of Knocky's Favorite
+%R: air, strathspey
+B: Niel Gow & Sons "Complete Repository" v.4 p.18 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "SLOW with EXPR.n"
+K: Am
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+A |\
+(E<A) A>^G A>B cA | (E<A) A>^G {G}[A3E3C3] [=G/D/]F/ | (E<A) A>[^GE] [AEC]>[BGE][cAE][ec=G] | [dB]>[cA][BG]>[A^F] | [G3D3B,3] :|
+|: ~B |\
+(c<e) e>A (d/c/)(B/A/) eA | (c<e) ec A3 B | ce e>c e>^f Hg>[ec] | [dB]>[cA][BG]>[A^F] | [G3D3B,3] :|
+|: a |\
+(e<a) a>^g Ta>bc'a | (e<a) a>^g {g}a3 {b}c' | (e<a) Ta>^g a>bHc' e' | {e'}d'>c' {c'}b>a ~g3 :|
+|: b |\
+(c'<e') e'>a (d'/c'/)(b/a/) e'>a | (c'<e') e'>c' a3 b | (c'<e') e'>c' e'^f'Hg' e' | {e'}d'>c' {c'}b>a g2 g :|
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | [c'2a2][d'2b2] [e'c'][b^g][c'2a2] | zc/d/ eE Ac/e/ ab | c'3b aea"^sf"c | B>c dD G/B/d/g/ G :| |: z |
+[e'2a2][e'2a2] z2 [e'2a2] | zc/d/ eE Ac/e/ a[b^ge] | [c'2a2e2] z2 c'>c' Hb>^f | g>c dD G/B/d/g/ G :| |: z |
+[c'2a2][d'2b2] [e'-c'][e'-b^g] [e'2c'2a2] | za/c'/ e'e a/A/c/e/ az | [c'2a2][d'2b2] [e'c'][b^g] Ha c' | b>c' d'd g2 G :| |: z  |
+[e2A2] [e2A2] z2 [e2A2] zA/c/ eE A,C/E/ Az | [e2A2] [e2A2] [e2c2] H[dB] ^F | GC DD G,/B,/D/G/ G, :|
+N: The last bar of V:2 shifted back to bass clef, but staying in treble is simpler to read.
+%%begintext align
+%% * The Musical world is much indebted to this Gentleman for his
+%% successful labours in rescuing from oblivion many beautiful native
+%% Airs that must ever be dear to the Scot & the Highlander in his work
+%% entitled "The Airs & Melodies peculiar to the Highlands of Scotland".
+%%endtext
+%%center -------- The Isles --------
+N: This is an ABC1 transcription of the tune, but the apparent use of multiple voices is essentially meaningles,
+N: and the tune is slightly easier to read in this version.  The only fragments that are really different are the
+N: D in bar 2, which is an 8th note in the book, and the tied e' notes in the bass in bar 9, which are written as
+N: an E4 half note on the V:1 E line but clearly should be played by the bass player. The rest of the apparent
+N: multi-voice fragments are merely writing the bass "chords" with two stems (up & down) rather than one.
+N: So I didn't bother making a separate ABC2 transcription of this tune.
+N: Also, the last half-measure of the bass reverts to bass clef, but it's a bit clearer if left in treble clef
+N: (and this has nothing to do with the voices).

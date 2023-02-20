@@ -1,0 +1,17 @@
+X: 35
+T: 35. WHISKEY
+B: Sam Bayard, "Hill Country Tunes" 1944 #35
+S: Played by Irvin Yaugher Jr, Mt Independence, PA, Oct 19 1943. One of his mother's favorite tunes.
+N: Tune 159 has the same first part and a different second part.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+%%slurgraces
+K: G
+(3DEF | G2EG D3E | GGAG Bdd2 | "a."d2ed B2A2 | GBAG EGG2 |
+G2EG D3E | GGAG Bdd2 | g2ed B2"b."A2 | GBAF Dz ||
+z2 | g2ed B2A2 | G>BAG Bdd2 | g2ed B2A2 | GBAF Dz z2 |
+g2ed B2A2 | G>BAG Bdd2 | e6- e>f | g2ed B2A2 | GBAF Dz |]
+P: VAR:
+"a."d2e2 B3A || "b."AF |] y8 y8 y8 y8 y8 y8 y8 y8

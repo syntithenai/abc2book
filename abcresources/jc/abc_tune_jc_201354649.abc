@@ -1,0 +1,24 @@
+X: 1
+T: Yidish Khusedl (Joseph Frankel's Orchestra 1919)
+%D:1919
+R: khusidl
+S: Fiddle Hell Online 2020-11-07 workshop by Beth Bahia Cohen
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+Z: from handwritten transcription by Beth Bahia Cohen
+D: Lt. Joseph Frankel's Orchestra 1919
+N: The rhythms don't match at the strain boundaries.
+N: The repeat notation was ambiguous; nested repeat added to produce what was played.
+M: 4/4
+L: 1/16
+K: none	% ^f^c_B = G misheberach (mostly)
+uD2 |\
+"Gm"(_BA)G2 (BA)G2 (BA)G2 D2G2 | (_BA)G2 A2B2 ^c2d2 (_BA)G2 |\
+"Gm"(_BA)G2 (BA)G2 (BA)G2 D2G2 | (d^c)(c_B) (BA)(AG) G4 z2 :|
+|:\
+(^cd)_B2- B2(AG) (^cd)_B2- B2(AG) | (^cd)(cd) (^c_B)(AG) (AB)G2 D2G2 |\
+(^cd)_B2- B2(AG) (^cd)_B2- B2(AG) | (ed)(ed) (^c_B)(AG) G4 z4 :|
+uDG_B |:\
+"Gm"(d7 ^c) (d7 ^c) | (d3^c) (d3^c) d4 B4 |\
+(d^c)(_BA) B2G2 (d^c)(_BA) B2G2 | (d^c)(_BA) _B2e2 "(D)"d^c_BA "Gm"G4 :|
+|: v_BAG |: "D"^FGA2- A2c2 (_BA)G2 _B2G2 |\
+[1,3 "Gm"^FGA2- A2G2 ^FG^F_E ^F2D2 :| [2,4 (^FG)AG ^F3_E D4 :|

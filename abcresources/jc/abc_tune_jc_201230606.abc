@@ -1,0 +1,24 @@
+X: 14028
+T: FLUTE 'N' FIDDLE
+C: Bob McQuillen 23 June'08
+B: Bob's Note Book 14 #28
+%R: reel
+%D:2008
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+P: FLUTE: (Deanna) She plays fiddle, too!
+AF \
+| E2 A4  AF | EFAB A4 | c3B  ABce | f2ec BcAF |\
+| EFA2 ABAF | EFAB c4 | c2cB ABce | f2ec e2  :|
+P: FIDDLE: (Jane)
+|: ce \
+| f2fe cefa | f2af e2fe | c2ef afec | AcBA F2AF |\
+| EFAB A2cB | ABce f4   | afec BcAF | E2A2 A2  :|
+%%begintext align
+%% For Jane Orzechowski and Deanna Stiles. ++
+%% It's so much fun playing music with
+%% Jane and Deanna. We've been together as
+%% "Old New England" since 1992!
+%%endtext

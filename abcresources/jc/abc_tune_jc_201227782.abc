@@ -1,0 +1,27 @@
+X: 10984
+T: the RISING OF THE LARK
+O: Welch air
+Q: "Moderate."
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.98 #4
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Both strains have final repeats but no initial repeats; fixed.
+M: 2/4
+L: 1/8
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+c2G>F | EcGE |\
+F>GAB | cBcd |\
+e<cG>B | c4 ::\
+e>dce | d>cBd |\
+c>BAc |
+BA/B/ G2 |\
+e>dce | d>cBd |\
+c>BAc | BGG z/E/ |\
+F>GAB | c>Bcd |\
+e<cg>B | {B}c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

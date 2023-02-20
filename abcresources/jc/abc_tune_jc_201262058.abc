@@ -1,0 +1,14 @@
+X: 952
+T: the Christening   #2
+R: jig
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #952
+Z: Dan G. Petersen, dangp@post6.tele.dk
+N: Compacted by using labels and play order [JC]
+P: Play ABAB CBCB
+M: 6/8
+L: 1/8
+K: A
+"^A"[| a | cAA cAA | BGG d2B | cAA cAA | cAA g2 |]
+"^B"[| e | | dBB cAA | BGG d2B | (c/d/e).c d2B | cAA A2 |]
+"^C"[| e | d2e g2a | BGB d2B | d2e g2a | gfe g2e |]

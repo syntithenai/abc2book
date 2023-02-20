@@ -1,0 +1,30 @@
+X: 21421
+T: BARCAROLE from MASANIELLO
+C: Auber
+%R: jig, march, tarantella
+B: "Edinburgh Repository of Music" v.2 p.142 - p.143 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: This version arranged for ABC software that understand voice overlays.
+M: 6/8
+L: 1/8
+K: G
+B |\
+B3 BzB | BzB Bcd | (e3 d3-) | d2d d2B |\
+d2c A3- | A2A A2A | cBA Gzb | agf edc |\
+B3- B2B | B zB Bcd | e3 d3- | d2d d2B |
+d2c A3 | A2A A2A | cBA Gzg | AzA AzA |\
+cBA GzD | D3 DDD | D3- D2g | AzA AzA |\
+cBA GzB | B3- B^AF | B3- B2B | A3 d3 |
+d3 g3 | gfe edc | B(ed) B(ed) | A3 d3 |\
+d3 g3 | g2d dcA | xed G(ed) & G2z xz2 | A3 d3 |\
+d3 g3 | gfe edc | Bed Bed | A3 d3 |
+d3 g3 | g2d dcA | G2z z2D | D3- DDG |\
+B6 | B3- BBG |D3 Dzg | A2A A2A |\
+cBA G2D | D3 DDD | D2z z2g | A2A A2A |
+cBA G2B | B3- B^AF | B3 B2B | A3 d3 |\
+d3 g3 | gfe edc | Bed Bed | A3 d3 |\
+d3 g3 | g2d dcA | xed G(ed) & G2z x2B |
+A2-A/B//c// d2-d/e//d// |\
+d3 g3 | gfe edc | Bed Bed | A2-A/B//c// d2-d/e//d// |\
+d2-d/e//f// g3 | g2d dcA | G2z f2z | g2z z2 H|]

@@ -1,0 +1,25 @@
+X: 1202
+T: Dunkeld House
+%R: jig
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.20 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 8-bar lines.
+V: 1 staves=2
+B, |\
+(EFE) G2E | B2E G2E | F2D AFD | dFD AFD ||\
+(EFE) G2E | B2E G2E | (B/c/d)B AFA | BGE E2 :|
+a |\
+(g/a/b).g ege | (g/a/b).g ege | (f/g/a).f dfd | (f/g/a).f dfd ||\
+(g/a/b).g ege | (g/a/b).g ege | (g/a/b).g (f/g/a).f | gee e2a ||
+(g/a/b).g ege | (g/a/b).g ege | (f/g/a).f dfd | (f/g/a).f dfd ||\
+(e/f/g).e (f/g/a).f | (g/a/b).g (e/f/g).e | (d/e/f).d (F/G/A).F | BGE E2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | e3 e3 | e3 e3 | d3 d3 | d3 d3 || e3 e3 | e3 e3 | d3 d3 | e3 e2 :| z | e3 e3 |
+e3 e3 | d3 d3 | d3 d3 || e3 e3 | e3 e3 | B3 B3 | e3 e3 || e3 e3 |
+e3 e3 | d3 d3 | d3 d3 || d3 f3 | g3 a3 | b3 B3 | e3 E2 |]

@@ -1,0 +1,43 @@
+X: 18542
+T: MISS HILL'S FAVORITE
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.13 p.54 #2
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+|:\
+G>Bd>B d>Bc>A | G>Bd>B d>Bc>A |\
+G>Bd>B e>cA>G | F>GA>F D>dc>A |
+G>Bd>B d>Bc>A | G>Bd>B d>Bc>A |\
+G>ed>c B>AG>F | G>FG>A G2z2 :|
+|:\
+F>GA>B c>Bc>A | G>AB>c d>^cd>B |\
+e>AB>c d>GA>B | c>BA>G F>dc>A |
+G>AB>c d>Bc>A | G>AB>c d>Bc>A |\
+d>Bg>f e>ca>g | f>ga>b g2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+|:\
+[bg]d'[bg]d' [bg]d'[bg]d' | [bg]d'[bg]d' [bg]d'[c'a]d' |\
+[bg]d'[bg]d' [ec]a[e^c]a | [fd]a[fd]a [f2d2]z2 |\
+[bg]d'[bg]d' [bg]d'[c'a]d' | 
+[bg]d'[bg]d' [bg]d'[c'a]d' |\
+[b2g2]c'2d'2d2 | [b2g2]d'2 [b2g2]z2 :|\
+|:\
+[fd]a[fd]a [fd]a[fd]a | [gd]b[gd]b [gd]b[gd]b |\
+[ec]a[ec]a [dB]g[dB]g |
+[ec]a[e^c]a [f2d2]z2 |\
+[bg]d'[bg]d' [bg]d'[c'a]d' | [bg]d'[bg]d' [bg]d'[c'a]d' |\
+[bg]d'[bg]d' [ec]a[ec]a | [ad]c'[fd]c' [b2g2]z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & change Places & back again .| Swing with right hand round 1 Cu: then with
+%% left |: set 3 across & 3 in your places .| & hands 6 half round & back again |: .
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

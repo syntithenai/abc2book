@@ -1,0 +1,23 @@
+X: 1
+T: Maggie in the Woods
+C: trad
+O: Ireland
+%S: %S: s:2 b:12(6+6)
+%D: 1925
+R: polka, march
+D: New Republic 2332 (78 RPM), Tom Morrison (1925. 2nd tune in medley).
+S: Fiddle Hell Online 2022-4-5 handout for Tom Morley workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+P: Play A1A2A1A2 B1B2B1A2
+K: G
+"^A"|::: (uB/A/) \
+| "G"vGD GA | "Em"Be e(g/e/) |\
+[1,2 "G"dB B/A/G/A/ | "D"BA A :|\
+[2,4 "G"dB "D"AuB/vA/ | "G" G2 !fine!G :|
+"^B"|:: d \
+| "G"vgf ed | "C"ef g>e |\
+[1,3 "G"dB B/A/G/A/ | "D"BA A :|\
+[2 "G"dB "D"AB/A/ | "G"uG2 G :|\
+"^->A2"y1 |]

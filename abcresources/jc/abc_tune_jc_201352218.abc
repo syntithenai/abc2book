@@ -1,0 +1,51 @@
+X: 1
+T: The Six-Twenty Two-Step
+C: Jimmy Shand
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|| D3 \
+ | "G"G2G "D7"FGA | "G"G2G G2D | B2B "D7"ABc | "G"B3- B2B \
+ | "C"c2c "D7"A2c | "G"B2B "Em"G2B | "Am"ABA "A7"GFE | "D"D3 ||
+|| "D7"d3 \
+ | "G"G2G "D7"FGA | "G"G2G G2D | B2B "D7"ABc | "G"B3- B2B \
+ | "C"c2A "D7"F2e | "G"d2c B2d | "C"ded "D7"cBA | "G"G2z || [K:D]
+|| "A7"A3 \
+ | "D"A2B B2A | Afd A3 | A2f fef | "A7"g3- g2A \
+ | A2e e2d | d2c c3 | ded c2B | "(D)" B2_B A2A |
+ | "D"A2B B2A | Afd A3 | a2d d2c | "G"B3- B2B \
+ | B2g g2B | "D"A2f f2d | "A7"c2A ABc | d2z || [K:G]
+|| "D7"D3 \
+ | "G"G2G "D7"FGA | "G"G2G G2D | B2B "D7"ABc | "G"B3- B2B \
+ | "C"c2A "D7"F2e | "G"d2c B2d | "C"ded "D7"cBA | "G"HG2z|]
+P:Trio
+K:C
+|| G_GF \
+ | "C"E3 B,3 | C3 E3 | A2G G2^F | G3- G3 \
+ | "C"E3 B,3 | C2E A2G | "G7"G3- G3 | B,3- B,3 ||
+ | "Dm"D3 "A7"^C3 | "Dm"D2A, F2E | D2D "A7"^CDE | "Dm"D3- D3 \
+ | "D7"D2^D E2F | ^F2c B2A | "G"G2g "D7"ag^f | "G"g3 ||
+|| G_GF \
+ | "C"E3 B,3 | C3 E3 | A2G G2^F | G3- G3 \
+ | "C"e3 c3 | G3 E3 | "F"B2A A2^G | A3- A3 |
+ | "Dm"f2e d2^c | "G"d3 g3 | "C"e2d cBA | G3- G3^G \
+ | "F"A2c cBA | "C"G2e edc | "G7"BAG FED | "C"C2z || [K:G]
+|| "D7"D3 \
+ | "G"G2G "D7"FGA | "G"G2G G2D | B2B "D7"ABc | "G"B3- B2B \
+ | "C"c2A "D7"F2e | "G"d2c B2d | "C"ded "D7"cBA | "G"G2z |][K:C]
+P: Monty Python's Flying Circus Theme
+C: J.P.Sousa
+"G7"G3 \
+| "C"E2E E^DE | c2G G2E | "Dm"F2E F2G | A3- A2F \
+| "G7"D2D D^CD | B2A A2F | "C"E2^D E2F | G3- G2G |
+| "C"E2E E^DE | e2c c2G | "D7"^F2d d2d | d3- d2c \
+| "G"B2d d^cd | "D7"A2d d^cd | "G"G2^F G2^F | G3 =F3 |
+| "C"E^DE A2G | E3 C3 | "F"A,3 "G7"D3 | "C"C3- C3C \
+| "G"D^CD B2A | "C"G3 c3 | "G"B3 "D7"A3 | "G"G3- G2G |
+| "F"A2A A^GA | "E"B3 B3 | "Am"c2c "G"d2d | "C"e3- "C7"e2e \
+| "F"d2c A2F | "C"E3 c3 | "G7"D3 B3 | "C"cz2 |[K:G]
+|| "D7"D3 \
+ | "G"G2G "D7"FGA | "G"G2G G2D | B2B "D7"ABc | "G"B3- B2B \
+ | "C"c2A "D7"F2e | "G"d2c B2d | "C"ded "D7"cBA | "G"G2z || [K:C]

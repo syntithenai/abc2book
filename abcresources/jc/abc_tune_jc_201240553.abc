@@ -1,0 +1,29 @@
+X: 4011
+T: Eglintoun Castle
+C: Composed by the Earl of Eglintoun
+%R: strathspey, air
+N: This is version 2, for ABC software that understands crescendo symbols.
+U: p=!crescendo(!
+U: P=!crescendo)!
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.1 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow"
+K: Bb
+% - - - - - - - - - -
+% Voice 1 reformatted for 6 6-bar lines.
+V: 1 staves=2
+d |!p!\
+{A}B2F>D {D}GCCd/c/ | ~B>F~G>F {F}B2Bd/c/ |\
+{A}B>F (G/F/)E/D/ (GC)Cd/e/ | f>d (f/e/)(d/c/) (cB)[BFD] :| d |\
+TB>d fe/d/ (dc) cd/c/ | TB>f fe/d/ ({d}c/B/c/d/) B>d |
+TB>d (g/f/)(e/d/) (dc) cd/c/ | "^Expr.o"~B>F~G>F {F}B2B>d ||\
+TB>d fe/d/ (dc) cd/c/ | TB>d (g/f/)(e/d/) ({d}c/B/c/d/) B>F |\
+pTG>B (G/F/)E/D/ GCPH[CA,](d/!p!e/) | f>d (f/e/).d/.c/ (cB)[BFD] |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |!p!\
+B2B2 c2c2 | d2e2 d2B2 | B2d2 e2f2 | d2fF B2B :| z | b2b2 f2f2 | b2de
+fFB2 | b2b2 f2e2 | "^Expr.o"d2e2 d2B2 || b2b2 f2f2 | b2b2 f2d2 | pe2dB egPHfz!p! | d>e fF B2B |]

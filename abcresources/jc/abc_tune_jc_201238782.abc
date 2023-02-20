@@ -1,0 +1,34 @@
+X: 31312
+T: COTILLION No. 24. EXTRAVAGANT SETT tune 5
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.131 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+AB |\
+c4 dcBc | A2A2A2f2 | c2f2d2f2 | f4 e2AB |\
+c4 dcBc | A2A2A2f2 | d2g2f2e2 | g4 f2 H|]
+d2 |\
+b2g2 agfg | a2f2 gfef | d2B2b2f2 | f4 e2c2 |\
+b2g2 agfg | a2f2 gfef | g2a2b2e2 | g4 "^D.C."f2 |]
+c2 |\
+A6 F2 | d6 f2 | e2f2g2a2 | gfed c2c2 |\
+A6 F2 | d6 f2 | g2f2g2e2 | f6 "^D.C."y |]
+a2 |\
+c'4 a4 | f6 a2 | g2f2e2d2 | c6 c2 |\
+f2fe f2c2 | dBAB cdef | .g2(gb) .e2(eg) | f6 "^D.C."y |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% ladies chain,
+%% promenade 4.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

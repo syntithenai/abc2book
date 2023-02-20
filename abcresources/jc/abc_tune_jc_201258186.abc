@@ -1,0 +1,28 @@
+X: 1
+T: Buttock of Beaf
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (96)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/4
+L: 1/4
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(d/c//d//) |\
+B3 g.ab | G>AB c>dc/B/ | A2F F2B |\
+G>_AG F>ED | E>F(G AF)A | B2B, B,2 :|
+|: D/E/ |\
+F3 (BF)D | E3 (GE)C | Gc2- c2d/e/ |\
+f3 (ge)d | c2a (ga)b | d2B B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1st and 2d Cu. Jigg it round with their
+%% hands across .| then the 1st Cu. cast off
+%% behind 2d Cu. and Jigg it :| then cast up turn
+%% Jigg it and turn at top .| then right and left
+%% sett to your Partner and cast off :|
+%%endtext
+%%sep 1 8 500

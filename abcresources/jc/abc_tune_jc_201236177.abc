@@ -1,0 +1,22 @@
+X: 21741
+T: THE DUKE OF ALBANY'S SCHOTTISCHE
+C: By Wm. Findlay
+R: shottish
+B: K\"ohler's Violin Repository, v.2, 1885 p.174 #1
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Removed dot from e2 in bar 17.
+M: 2/4
+L: 1/16
+K: G
+v(B>c) |\
+{e}d>^cd>B G>DE>F | B2A2A2 (A>B) | c>Bc>A E>FA>B | A>GF>E D2(B>c) |
+{e}d>^cd>B G>DE>F | B2A2A2 (A>B) | c>fe>d c>AE>F | A2G2G2 :|
+K: D
+|: v(fg) |\
+a>^gb>a =g>eB>c | ((3edB) A2- A>(FA>d) | ((3cde) f2 (g>e)c>B | ((3Ace) a2 b>af>d |
+a>^gb>a =g>eB>c | ((3edB) A2- A>(FA>d) | (c>d)e>f ((3gab) ((3ABc) | d2f2d2 "^D.C.":|
+K: C
+|: uG2 |\
+c2(G>c e2)(c>e | g>e)a>e (g2f2) | B2(G>B d2)(B>d | g>^f)a>g (=f>d)B>G |
+c2(G>c e2)(c>e | g>e)a>e (g2f2) | B2G>A B>cd>e | c2e2c2 :|

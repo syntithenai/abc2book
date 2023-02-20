@@ -1,0 +1,80 @@
+X: 1
+T: Takeda no Komoriuta
+%T: 竹田の子守唄
+T: Lullaby of Takeda
+O: Japan
+N: Takeda is a small town near Kyoto and Osaka.
+M: C
+L: 1/8
+K: C#m
+[|\
+B2 ce f2 fg | f4 e2 c2 | c2 ef g2 gf | f6 z2 |
+B2 ce f2 fb | g4 f2 e2 | c2 ce e2 ec | c6 z2 |]
+%
+%W: 守も嫌がる　盆から先にゃ
+%W: 雪もちらつくし　子も泣くし
+%W:
+%W: 盆が来たとて　何嬉しかろ
+%W: 帷子は無し　帯は無し
+%W:
+%W: この子よう泣く　守をばいじる
+%W: 守も一日　痩せるやら
+%W:
+%W: 早よも行きたや　この在所越えて
+%W: 向こうに見えるは　親の家  (x2)
+%
+W:1.Mori mo iyagaru, Bon kara saki-nya
+W:  Yuki mo chiratsuku-shi, Ko mo naku-shi
+W:
+W:2.Bon ga kita-tote, Nani ureshi-karo
+W:  Katabira wa nashi, Obi wa nashi
+W:
+W:3.Kono ko you naku, Mori wo ba ijiru
+W:  Mori mo ichi-nichi, Yaseru-yara
+W:
+W:4.Hayo-mo yuki-taya, Kono zaisho koete
+W:  Mukou ni mieru wa, Oya no uchi (x2)
+%
+W:
+W:1.I would hate baby-sitting beyond Bon Festival,
+W:  The snow begins to fall, and the baby cries.
+W:
+W:2.How can I be happy even when Bon Festival is here?
+W:  I don't have nice clothes or a sash to wear.
+W:
+W:3.This child continues to cry and is mean to me.
+W:  I get thinner because the baby cries all day.
+W:
+W:4.I would quickly quit here and go back
+W:  To my parents' home over there.   (x2)
+W:
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2
+T: Takeda no Komoriuta   [Bm]
+%T: 竹田の子守唄
+T: Lullaby of Takeda
+O: Japan
+N: Takeda is a small town near Kyoto and Osaka.
+M: C
+L: 1/8
+K: Bm
+[|\
+A2 Bd e2 ef | e4 d2 B2 | B2 de f2 fe | e6 z2 |
+A2 Bd e2 ea | f4 e2 d2 | B2 Bd d2 dB | B6 z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3
+T: Takeda no Komoriuta   [Am]
+%T: 竹田の子守唄
+T: Lullaby of Takeda
+O: Japan
+N: Takeda is a small town near Kyoto and Osaka.
+M: C
+L: 1/8
+K: Am
+[|\
+G2 Ac d2 de | d4 c2 A2 | A2 cd e2 ed | d6 z2 |
+G2 Ac d2 dg | e4 d2 c2 | A2 Ac c2 cA | A6 z2 |]

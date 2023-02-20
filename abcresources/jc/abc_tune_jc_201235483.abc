@@ -1,0 +1,21 @@
+X: 2118
+T: DUNT THE GRUND AT LEISURE
+C:
+Q: "Strathspey."
+R: Strathspey.
+%R: strathspey
+N: This is version 1, for ABC software that doesn't understand slurred grace notes.
+B: James Kerr "Merry Melodies" v.2 p.15 #118
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+N: Some grace notes are slurred and some aren't, in no clear pattern.
+K: G
+uD2 |\
+{F}GB3{F}GB3 {cB}A4E4 | {F}vG3vB{F}uG3uB {F}G3B{F}G3B |\
+{AB}c3AB3G AAA2 ({f}g3e) | {^c}vd3u=cBA3 {F}G4 G2 ::\
+ue2 |\
+vg3vdug3ua (ba)gf g4 |
+vg3vdug3ub g3dg3b |\
+[1 g3dg3a (ba)gf (e3f) | {f}g3e{^c}d3B {F}G6 :|\
+[2 bagf {f}g3B AAA2 ({f}g3e) | {^c}d3=cBA3 {F}G4G2 |]

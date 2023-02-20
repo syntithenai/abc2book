@@ -1,0 +1,16 @@
+X: 875
+T: the Star Hornpipe
+R: hornpipe
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #875
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0875/oneill-1001-0875-1.abc
+M: 2/4
+L: 1/16
+K: G
+"^A"[|]\
+  (Bc) | dcdf gecA | GFGB D2(EF) | GFGA BABc | dcdf A2 ||
+| (Bc) | dcdf gecA | GFGB D2(EF) | Gedc BAGF | A2G2 G2 :|
+"^B"\
+|:(cB) | AGAB cBcd | edef g2(gf) | edcB cBAG | F2D2 D2 ||
+| (Bc) | dcdf gecA | GFGB D2(EF) | Gedc BAGF | A2G2 G2 :|

@@ -1,0 +1,27 @@
+X: 1092
+T: Marquis of Huntly's Strathspey
+C: by Mr Marshall.
+%R: strathspey, air
+B: Niel Gow & Sons "Complete Repository" v.1 p.9 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: Bar 3 has D2G3 rather than DG3; I fixed it by making it like the other similar bars (esp. 5,7,15).
+M: C|
+L: 1/16
+K: Gm
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+F2 |\
+(DG3)(TG3F) (DG3)(G3A) | TF3GA2B2 cBAG F2A2 |\
+(DG3)(TG3F) DG3 G2g2 | f3c (dc)BA {A}G4G2 :|\
+d2 |\
+Tg3ab2g2 d3gb2g2 | (ag).f.d Tc3d f2c2a2f2 |
+Tg3ab2g2 d3gb2g2 | bagf d3^f ggg2 g4 ||\
+Tg3ab3g a3^fg3d | T=f3cdf3 AF3c3A |\
+(DG3)(TG3F) (D3G) G2g2 | f3c dcBA {A}G4G2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z2 | g4g4 g4g4 | f4f4 f4f4 | g4g4 g4b4 | c'4d'4 g4g2 :|
+z2 | g4g4 g4g4 | f4f4 f4f4 | g4g4 g4g4 | g4d4 G4G4 ||
+     g4g4 d4g4 | f4f4 F4F4 | G4G4 G4B4 | c4d4 G4G2 |]

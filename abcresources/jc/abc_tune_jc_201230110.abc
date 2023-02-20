@@ -1,0 +1,21 @@
+X: 13281
+T: the High way to Edinburgh
+%R: air, march, reel
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.3 p.28
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+"_Slow"F |\
+D2(F>G) F3G | (BG)(FD) F3F | D2(G>A) G2b>g | (f/g/f/)d/ (f/d/c/)B/ G3F | D2(F>G) F3G | B/(G/F) (G/F/)D F3B | G2(FG) B2(cd) |
+(c/d/f/d/) (Tc>B) G3 :: B | B2 c>d f3g | (f/d/c/B/) cd f3f | d2g>a g3a | gfba Tg3f | f2g>a {ga}b3g | fd (e/d/c/B/) B3B |
+(c/B/c/d/) fg (f<d) Tc>B | (B/c/d) (Tc>B) G3 :: F | (D/E/F) (BF) (dF)(BF) | (e/d/c) (B/A/G) F3B | (BG)(BF) (GB) (gf) | (b/g/f) (d/c/B) G3F |
+(D/E/F) F2 TF3G | (BG)(FD) F3B | (G/F/G/A/ B/A/B/c/) (d/B/c/d/ e/c/d/e/) | (f/g/b/g/ f/d/c/B/) G3 :: B | B2c>d f3g | (b/g/f/d/) (c/B/c/d/) f3f |
+(dcd)f g3a | (b/a/g/f/) (d/c/d/f/) g3f | (b/c'/d') (d'/c'/b) Tb3g | (f/g/b/g/ f/d/c/)d/ B2 (c/d/f) | g3b (f<d) (Tc>B) | (B/c/d) (Tc>B) G3 :|
+|: [M:6/8] "_Giga"F |\
+DGG G2F | GBd dgf | Td2c (B/c/d)c | BFF F2F |\
+DGG G2F | GBc dgf | dbg fdc | BGG G2 :|
+|: f |\
+g2b fdB | cdf g2b | fdc (B/c/d)c | BFF F2B |\
+GBF GBF | GBc dgf | dbg fdc | BGG G2 :|

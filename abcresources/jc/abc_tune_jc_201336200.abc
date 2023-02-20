@@ -1,0 +1,32 @@
+X:1
+T: She that Washes a Monday
+N:
+C:
+S:
+A:
+O:
+R:
+M:9/8
+K:Am
+I:speed 165
+%W: A1
+% voice 1 (1 lines, 29 notes)
+K:Am
+M:9/8
+L:1/16
+B4 c2 d2 c2 B2 c2 B2 A2 ^G4 B2B4 A2 G4 E2 c2 B2 c2 d2 c2 d2 e6 E2 A2 A2 A4 B2 c2 B2 A2 |
+%W: A2
+% voice 1 (1 lines, 29 notes)
+B4 c2 d2 c2 B2 c2 B2 A2 ^G4 B2B4 A2 G4 E2 c2 B2 c2 d2 c2 d2 e6 E2 A2 A2 A4 B2 c2 B2 A2 |
+%W: B1
+% voice 1 (1 lines, 27 notes)
+g4 g2 g3 a g2 ^f4 e2 d2 B4B4 A2 ^G4 E2 a4 a2 a3 b a2 ^g4 e2 a4 a2 a4 b2 c'2 b2 a2 |
+%W:
+% voice 1 (1 lines, 27 notes)
+g4 g2 g3 a g2 ^f4 e2 d2 B4B4 A2 ^G4 E2 c2 B2 c2 d2 c2 d2 e6 E4 A2A4 B2 c3 B A2 |
+%W: B2
+% voice 1 (1 lines, 27 notes)
+g4 g2 g3 a g2 ^f4 e2 d2 B4B4 A2 ^G4 E2 a4 a2 a3 b a2 ^g4 e2 a4 a2 a4 b2 c'2 b2 a2 |
+%W:
+% voice 1 (1 lines, 27 notes)
+g4 g2 g3 a g2 ^f4 e2 d2 B4B4 A2 ^G4 E2 c2 B2 c2 d2 c2 d2 e6 E4 A2A4 B2 c3 B A2 ||

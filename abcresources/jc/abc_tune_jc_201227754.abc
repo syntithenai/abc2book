@@ -1,0 +1,19 @@
+X: 10963
+T: BOT AT THE BOWSTER
+R: jig
+B: K\"ohler's Violin Repository, v.1, 1885 p.96 #3
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|:\
+v[c3D3] [B3D3] | ABG FED | GAG BAB | GAG BAB |\
+[c2D2] [B2D2] | ABA fef | (g2d) edc | BcA G3 :|
+|:\
+def gdB | ABG FED | GAG (B/c/)dB | GAG (B/c/)dB |\
+def gdB | ABA fef | (g2d) edc | BAB GAB :|
+|:\
+vcec BdB | ABG FED | GBG BdB | GDG BdB |\
+[1 cec BdB | ABA fef | gdg edc | BdB GAB :|
+[2 cac BgB | Aag fef | gab edc | B3 (G2B) "^D.C."|]

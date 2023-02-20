@@ -1,0 +1,31 @@
+X: 75
+T: New Dutch Skipper
+T: Longways for as many as will.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.38
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the dance's phrasing.  This may not be what was intended.
+N: Repeated "then" deleted from the dance description.  The 2nd strain has 10 bars.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D2A F2D | D2A F2D | ABc d2A | ABc d2D |\
+D2A F2D | D2A F2D | ABc dcB | EA^G A3 ::\
+e2e e2c |
+d2e f3 |\
+efg f3 | efg f3 | gfe gfe | fed c2B |\
+d2A F2B | A2d c2d | e2e agf | efc d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st two Men take Hands & Jump then change Places with
+%% their two Women .| Then 1st Cu. cast of & change Places again
+%% then 2d Cu. cast off :| Hands half round then clap hands
+%% and Jump with your Partner and turn all four single .|
+%% then lead up abreast dance round and cast off into their own
+%% Places.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

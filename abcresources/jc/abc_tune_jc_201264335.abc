@@ -1,0 +1,49 @@
+
+X: 1
+T: Cookie's Hora   [C,Cm]
+R: zhok, horra
+S: Printed page of unknown origin at Watertown MA Klezmer Jam session
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+"A"|:\
+"C"g3a _b2 | ag3 g2 | c'z zg c'g | fe- e4 |\
+"G7"g3f ag | f3e de |[1 "C"c4 e2 | g4 c'2 :|[2 "C"c3G cG | c6 ||
+[K:Cm]\
+"B"|:\
+"Cm"G,2C2 D2 | E3D C2 | E3D C2 | EED2 C2 |\
+G,2C2 D2 |[1 E2D2C2 | "(G)"G4 G2 | "G"=AG ^FE DC :|
+[2 "Cm"E3D "(G)"C=B, | "Cm"C2zG, "(G)"ED | "Cm"C2z2 z2 ||[K:=B=e=A]\
+[K:_E^F] "C"|:\
+"Cm"G6 | "D"^F4 A2 | "G"G3F ED | "Cm"C2z2 z2 |\
+G6 | "D"F4 A2 |
+"G"G6 | "Cm"cB cz z2 |\
+"Cm"G6 | "D"F4 A2 | "G"G3F ED | "Cm"C2zG, =B,C |\
+"G"D2F GF | GE2D =B,D | "Cm"C2 zc GE | C2z2 z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Cookie's Hora   [D,Dm]
+R: zhok, horra
+S: Printed page of unknown origin at Watertown MA Klezmer Jam session
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+"A"|:\
+"D"a3b =c'2 | ba3 a2 | d'z za d'a | gf- f4 |\
+"A7"a3g ba | g3f ef |[1 "D"d4 f2 | a4 d'2 :|[2 "D"d3A dA | d6 || [K:=f=c]
+[K:Dm]\
+"B"|:\
+"Dm"A,2D2 E2 | F3E D2 | F3E D2 | FFE2 D2 |\
+A,2D2 E2 |[1 F2E2D2 | "(A)"A4 A2 | "A"=BA ^GF ED :|
+[2 "Dm"F3E "(A)"D^C | "Dm"D2zA, "(A)"FE | "Dm"D2z2 z2 ||[K:=B]\
+[K:=F^G] "C"|:\
+"Dm"A6 | "E"^G4 B2 | "A"A3G FE | "Dm"D2z2 z2 |\
+A6 | "E"G4 B2 |
+"A"A6 | "Dm"d^c dz z2 |\
+"Dm"A6 | "E"G4 B2 | "A"A3G FE | "Dm"D2zA, ^CD |\
+"A"E2G AG | AF2E ^CE | "Dm"D2 zd AF | D2z2 z2 :|

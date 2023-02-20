@@ -1,0 +1,29 @@
+X: 1
+T: New Whitehall
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.249
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+B2G d2A | B2G (A/B/c)A |\
+B>ed B>AG | G3- G2 |]\
+g |\
+^f2d (=e/^f/)gd | e2c (d/e/f)c |
+d>gf d>cB | B3- B2 |]\
+F |\
+(=E/F/G)D =E2G | (A/B/c)A d2B |\
+(c/d/e)d B>AG | G3- G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. go the Figure through the 2. cu. .| The 2. cu. do the same :| The 1. man goes round the
+%% 2. man till he comes into his own place, then the 2. wo. does the same round the 1. wo. at the same
+%% time, the 1. cu. goes the Figure through the 2. cu. .:| And hands half round and go the single Figure
+%% through the 2. cu. .|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

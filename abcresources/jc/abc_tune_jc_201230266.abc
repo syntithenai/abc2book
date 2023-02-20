@@ -1,0 +1,30 @@
+X: 1352
+T: the Lasses of Stewarton.  a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.1 p.35 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+g !segno!|\
+fdec (d/c/B/c/) d2 | FDDF A3(g |\
+f)de=c TB2{AB}c2 | E=C-CG G3 :: =c |\
+(B/^c/d) (.D.F) AFD=c | (B/^c/d) (.D.F) A3 =c |\
+(B/^c/d) (.DF) (AB=c).A |
+GE=CE G3 :| (=c |\
+B)GAF BGAG | FDDF A3=c |\
+BGAF (AB=c).A | GE=CE G3 |] e |\
+Td>efg afde | afdg (f/g/a) (gf) |
+Td>efg afdf | ge=ce (e/f/g) (Tf>e) |\
+~defg afdf | afdg f/g/a Tg>f |\
+defg Ta>baf | ge=ce gbeg !segno!y|]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z !segno!|\
+d'2a2 d2d2 | d2d2 d2d2 | d2d2 d2d2 | =c2c2 c2c :| z | d2d2 d2d2 | d2d2 d2d2 |
+d2d2 d2d2 | =c2c2 c2c :| z | d2d2 d2d2 | d2d2 d2d2 | d2d2 d2d2 | =c2c2 c2c |] z | d'2d'2 d'2d'2 |
+d'2d'2 d'2d'2 | d'2d'2 d'2d'2 | =c'2c'2 c'2^d'2 | d'2d'2 d'2d'2 | d'2d'2 d'2d'2 | d'2d'2 d'2d'2 | =c'2c'2 c'2^c'2 !segno!y|]

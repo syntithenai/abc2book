@@ -1,0 +1,90 @@
+
+X: 0
+T: An Dro 2
+O: Br\'etagne
+%info: line
+K:
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Saint Patrick's An Dro   [Am]
+T: As Covas Do Rei Cintolo
+O: Breton
+S: http://thesession.org/tunes/display/2290
+S: http://www.youtube.com/watch?v=Cn9vbcZ0brg
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+R: andro
+%Q: 1/4=90
+K: Am
+|: "Am"{G}ABcB A2e2 | "Am"c2A2 "Em"B2e2 \
+|1,3 "Dm"dedc "G"B2AB | "F"c2Ac "Em"B4 \
+:|2,4 "Dm"dedB "F"c2AB | "G"cABG "Am"A4 :|
+|:"Am" {G}ABcd e3e  | "G"d2g2 "C"e2c2 \
+|1,3 "F"ABce "G"d3e | "Dm"dedc "Em"B4 \
+:|2,4 "F"ABce "G"d3B  | "Em"cABG "Am"A4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Andro
+S:Ar Re Youank
+Z:<Rene.Quiniou@irisa.fr> abcusers 2000-05-24
+N:Jou\'e normalement en Sib (Sol mineur)
+M:C|
+L:1/8
+K:Gm
+|: "Gm"GFGA B3A   | G2B2 "F"A3A | AGFA "Gm"G3G  | G2dc B3G \
+|  "Gm"GFGA B2BB- | BGcB "F"A3A | AGFA "Gm"G2GA | "Dm"BGAB "Gm"G4 :|
+|: "Gm"GAGF "Bb"d3d | B2AB "F"c3A | "F7"GFFe "Bb"d3d  | "Eb"B2GB "F"A3A \
+|  "F7"GFec "Bb"d3d | BcdB "F"c3d | "F" cBAB "Gm"G2GA | "Dm"BGAB "Gm"G4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Andro
+S:Ar Re Youank
+Z:<Rene.Quiniou:irisa.fr> abcusers 2000-05-24
+N:Jou\'e normalement en Sib (Sol mineur)
+M:C|
+L:1/8
+K:Am
+|: "Am"AGAB c3B   | A2c2 "G"B3B | BAGB "Am"A3A  | A2ed c3A \
+|  "Am"AGAB c2cc- | cAdc "G"B3B | BAGB "Am"A2AB | "Em"cABc "Am"A4 :|
+|: "Am"ABAG "C"e3e | c2Bc "G"d3B | "G7"AGGf "C"e3e  | "F"c2Ac "G"B3B \
+|  "G7"AGfd "C"e3e | cdec "G"d3e | "G"dcBc "Am"A2AB | "Em"cABc "Am"A4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: An Dro "Ker Breizh"
+N: ("Loud Noise")
+O: from Triple Spiral
+S: Daniel Salomon 2013-1-21
+Q: 1/2=90
+M: 4/4
+L: 1/8
+K: D
+|: "D"DEFG "A7"A3G | "D"F2D2 "A7"A>BA2 | "D"DEFG "A7"A3G | "D"F2D2 "A7"A4 :|
+|: "D"F2GA F3A | "A7"GFE2 "D"F2D2  | "D"F2GA F3A | "A7"FGE2 "D"D4 :|
+|: "A7"FGAG "D"F3D | "A7"E2F2 "D"D2A2  | "A7"FGAG "D"F3D | "A7"E2F2 "D"D4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: An Dro
+O: from Trouz Bras
+S: Daniel Salomon 2013-1-21
+Q: 1/2=90
+M: 4/4
+L: 1/8
+K: Am
+|: "Am"e2az A4 | "Am"ez ed "(G)"B2c2 | "G"dzd2 B2G2 |1,3 "(Am)"ABcd "E7"e4 :|2,4 "E7"ABcB "Am"A4 :|
+|: "Am(F)"A4 ABcB | Az A2 "(G)"B2c2 | "G"dzd2 B2G2 |1,3 "(Am)"ABcd "E7"e4 :|2,4 "E7"ABcB "Am"A4 :|

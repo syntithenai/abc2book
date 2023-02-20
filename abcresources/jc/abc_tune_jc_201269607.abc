@@ -1,0 +1,22 @@
+X: 1
+T: Doway
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (97)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: g^fga b2ag | ^f2a2 d2=ef | g2c2 f2B2 | A4 G4 :|\
+|: BABc (d2cB) | e2c2- c2fe | d2g2 =e2a2 | ^f2d2 (f3e/f/) | g2d2 c2B2 | A4 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. lead thro the 2d Cu. and cast up .| The 2d
+%% Cu. lead thro the 3d Cu. and cast up :| The three
+%% 1st Men and the three 1st We. go the Hey at the same
+%% Time | The 1st Cu. cast off and turn Hands :|
+%%endtext
+%%sep 1 8 500

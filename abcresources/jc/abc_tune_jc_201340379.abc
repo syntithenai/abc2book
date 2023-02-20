@@ -1,0 +1,32 @@
+X: 1
+T: St. Martin's-Lane
+P: Longways for as many as will
+%R: march, reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.197 "S 3"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat added to satisfy the "first Strain played twice" instruction.
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+Bc |\
+d2 d2 d2 d2 | e4 c4 | d2 (cB) A2 d2 | B2 G2 G2 Bc |\
+d2 d2 d2 d2 | e4 c4 | d4 cB (AB) (AG) | G6 :|
+ef |\
+g2 g2 g2 d2 | e4 c4 | f2 f2 fg fe | d6 ef |\
+g2 G2 G2 g2 | f2 F2 F2 fe | d2 e2 c3 B | B6 de |\
+f2 f2 f2 f2 | ^f2 f2 f2 f2 |
+g2 g2 (g3 f/g/) | a2 a2 a2 a2 |\
+b2 b^f g2 a2 | ^f6 ga | b2 B2 B2 b2 | a2 A2 A2 a2 |\
+g2 G2 G2 g2 | ^f2 g2 g3 ^f | g6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%    The 1. man cast off below the 2. man, then turn the 3. wo. and cast up into his own place; then the 1 wo. cast off
+%% below the 2. wo. then turn the 3. man and cast up into her own place.  This to the first Strain played twice.
+%%    Lead down the 2. cu. then all hands a-breast with the 3. cu. and go the Figure through, then cast up all four hands
+%% a-breast with the 2. cu. then lead up and go the Figure through the 2. cu. then meet in the 2. cu. place and turn; the
+%% others do the like.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

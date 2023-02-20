@@ -1,0 +1,23 @@
+X: 2221
+T: the ROCKY ROAD TO DUBLIN
+Q: "Irish Jig."
+R: Slip-Jig.
+%R: slip-jig
+B: James Kerr "Merry Melodies" v.2 p.25 #221
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The A in bar 9 is probably a typo, and should be G.
+M: 9/8
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: Am
+|:\
+"^>"e2c {e}"^>"d2B "^>"A3 | "^>"E2A "^>"A2B c2d |\
+"^>"e2c {e}"^>"d2B A2c | B2G G2A Bcd |\
+"^>"e2c "^>"d2B A3 | E2A A2B c2d |\
+"^>"e2g "^>"^f2a g2e | "^>"d2B "^>"G2A Bcd :|
+|:\
+e2a {b}a2^f g3 | e2a {b}a2^f (g2e) |\
+e2a {b}a2^f (g2e) | d2B G2A Bcd |\
+ea {b}a2^f g3 | e2a {b}a2^f g2a |\
+b2g a2f (g2e) | d2B G2A Bcd :|

@@ -1,0 +1,18 @@
+X: 3225
+T: THADY YOU GANDER
+%R: jig
+N: This is version 2, for ABC software that understands voice overlays and tremolo notation.
+B: James Kerr "Merry Melodies" v.3 p.26 #225
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|:\
+vc2vA uB2uA | c2A B2A |\
+[1 FBB BAB | FBB BAB :|\
+[2 DAA AGA | EAA A2 |:\
+d |\
+cde Bcd | cde B2A |\
+FBB BAB | FBB B2d |\
+cde Bcd | "^2nd"efg a2x & cde B2A |\
+EAA AGA | EAA A2 :|

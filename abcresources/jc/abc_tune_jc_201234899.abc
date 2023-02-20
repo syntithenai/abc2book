@@ -1,0 +1,34 @@
+X: 20872
+T: HAMILTON SETT (tune 6)
+C:
+%R: reel, march
+B: Elias Howe "The Musician's Companion" 1843 p.87 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain has only 3 flats, but there are no Ds, and it's probably best treated as ordinary F minor.
+N: Actually, all the Es are natural, so a keysig of K:_B=e_A might be better, but that's not normal in this style.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="6"
+AB |\
+c2A2 A2f2 | gfef c3A | Bcdc BAGF | EFGA cBAB |\
+c2A2 A2f2 | fgaf c3A | BcdB AGFE | F2A2F2 H|]
+EF |\
+G2GE CEGB | BAdc c3A | Bcdc BAGF | EFGA G2EF |\
+G2GE CEGB | BAdc c3A | BcdB AGFE | F2A2"^D.C."F2 |]
+K: Fdor
+C3 |\
+F2FG A2AB | c6 B2 | A2G2 F2=E2 | GF=EF C3C |\
+F2FG A2AB | c6 B2 | A2G2 F2=E2 | "^D.C."F6 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Grand right and left,
+%% all balance,
+%% turn partners,
+%% -- grand chain,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

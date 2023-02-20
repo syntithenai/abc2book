@@ -1,0 +1,17 @@
+X: 31
+T: the Brown Thorn - 1st Setting   #2
+R: air
+%S: s:1 b:9
+B: O'Neill's 1850 #31
+Q: "Slow"
+O: F.O'Neill
+Z: Norbert Paap, norbertp@bdu.uva.nl
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+M: 3/4
+L: 1/8
+K: G
+"^A"c B>c \
+| (d2B)d ef | (gf/g/) dd (ed/c/) | B2 GB [1 A>G | G3 :|[2 (TA>G) | G3 \
+"^B"|[| c B>c | (d2B)d ef | g2 b2 ({b}a/g/) (f/e/) | e4 z>d | "->A2"d3 |]

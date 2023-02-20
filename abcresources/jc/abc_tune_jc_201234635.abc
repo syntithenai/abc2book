@@ -1,0 +1,28 @@
+X: 2066
+T: CALUM BREUGACH
+C:
+Q: "Strathspey."
+R: Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.2 p.10 #66
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has final repeat but no initial repeat; not fixed.
+M: C
+L: 1/16
+%%staffsep 50
+%%slurgraces yes
+%%graceslurs yes
+K: Am
+uB2 |\
+vGE3E3uG vD3vEuG3uB | AAA2 ue3uA vc3vAue3uA |\
+vGE3E3uG vD3vEuG3uB | c3AB3G AAA2 e2 :|\
+u^f2 |\
+vg3ug ag^fe dcBA G3uB | (ABcd) ue3uA vc3vAue3^f |
+vg3ug ag^fe dcBA G3uB | c3AB3G AAA2 {^g}a4 |\
+gb3 eg3 dg3 BG3 | Gg3 Aa3 Bb3 AB3 |\
+GE3E3G D3EG3B |
+c3AB3G AAA2 e2 ::\
+u^f2 |\
+vge3e3ug vd3veug3ua | vba3a3ug vba3a3ub |\
+vge3e3ug vd3veug3ua | "_Play 2nd part again then D.C."vba3a3u^g a6 :|
+

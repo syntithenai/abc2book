@@ -1,0 +1,28 @@
+X: 1372
+T: North Bridge of Edinburgh.  a Strathspey.
+%R: strathspey
+B: Niel Gow & Sons "Complete Repository" v.1 p.37 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bm
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+B |\
+F>BTB>F B/B/B {c}d2 | {d}Tc>BAc e/d/c/B/ Ac |\
+F>BTB>F B/B/B {c}d2 | {d}Tc>Bc>^A B2B, :| c |
+d2Td>f B/B/B (.f>.d) | {d}Tc>BAe c>Ae>c |\
+{c}d2-Td>f d/d/d .f>.d | {d}Tc>Bc>^A B2Bc |
+d2Td>f d/d/d fd | {d}c>BAe cAec |\
+dfdf cAec | d>Bc>^A B2B, |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z |\
+[b2B2][b2B2] [b2B2][b2B2] | [a2A2][a2A2] [a2A2][a2A2] |\
+[b2B2][b2B2] [b2B2][b2B2] | f2F2 B2[BB,] :| z |\
+[d'2d2][d'2d2] [d'2d2][d'2d2] | [a2A2][a2A2] [a2A2][a2A2] |\
+[d'2d2][d'2d2] [d'2d2][d'2d2] | [f2F2][f2F2] [b2B2][bB]z |\
+[d'2d2][d'2d2] [d'2d2][d'2d2] | [a2A2][a2A2] [a2A2][a2A2] |\
+[b2B2][b2B2] [a2A2][^a2^A2] | [b2G2][f2F2] [B2B,2][BB,] |]

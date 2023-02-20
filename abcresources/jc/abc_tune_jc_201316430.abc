@@ -1,0 +1,26 @@
+X:1
+T: Nel's Farewell
+N:
+C:Tune is Dunant House Wlatz
+S:
+A:
+O:
+R:
+M:3/4
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 26 notes)
+K:G
+M:3/4
+L:1/16
+D4 G6 A2 |B3 G D8 |G3 B e4 d3 B |d12 |g4 g6 f2 |e3 d B4 G3 B |e3 d B4 A3 G |A12 |
+%W: A2
+% voice 1 (1 lines, 28 notes)
+D4 G6 A2 |B3 G D8 |G3 B e4 d3 B |d12 |g4 g6 f2 |e3 d B4 G3 B |e3 d B4 A3 G |G8 B3 d |
+%W: B1
+% voice 1 (1 lines, 37 notes)
+e3 f g4 f3 e |d3 B d8 |e3 f a4 g3 e |d3 B d6 G2 |c3 d e3 f g3 a |g3 e d4 B3 A |G3 F E3 G B3 G |A8 B,3 C |
+%W: B2
+% voice 1 (1 lines, 26 notes)
+D4 F6 A2 |B3 G D8 |G3 B e4 e3 B |d12 |g4 g6 f2 |e3 d B4 G3 B |e3 d B4 A3 G |G12 ||

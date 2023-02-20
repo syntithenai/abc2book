@@ -1,0 +1,17 @@
+X: 082	% 18
+T: Turkey In The Straw
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.8 #2
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The rhythm between the two strains is wrong; not fixed.
+M: 2/4
+L: 1/16
+K: G
+V: 1 name=18
+"^Quadrille"(BA) |\
+GFGA GDB,C | DEDB, D2GA | B2(Bc) BAGA | B2A2 AcBA |\
+GFGA GDB,C |
+DEDB, D2GA | BABc dBGA | BGAF G2 ::\
+Bd2d d2d2 | Bcde d4 |
+ce2e e2e2 | cdeg e2(3(def) |\
+.g2.g2.d2.d2 | MB2MB2 A2(GA) | Bd2e dBGA | BGAF G4 :|

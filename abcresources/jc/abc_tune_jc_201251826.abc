@@ -1,0 +1,26 @@
+X: 1
+T: Benjamin P Emerick QS
+P: piffero primo a0715
+O: John Benoit
+%R: quickstep, polka, march
+F: http://ancients.sudburymuster.org/mus/sng/pdf/benemerickqsC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+dc |\
+B2d2 A2B2 | (GF)GA B2G2 | c2e2 B2d2 | A6 GA |\
+B2G2 c2A2 | d2B2 e2D2 | B2d2 c2A2 | G6 :|
+|: gf |\
+g2d2 e2dc | Bcd2 G2gf | g2d2 e2dB | A6 gf |\
+g2d2 e2dc | Bcd2 G2B2- | Bcd2 c2A2 | G6 :|
+|: dc |\
+B2d2 A2B2 | (GF)GA B2G2 | c2e2 B2d2 | A6 GA |\
+B2G2 c2A2 | d2B2 e2D2 | B2d2 c2A2 | G6 :|
+gf |\
+g2d2 e2dc | Bcd2 G2gf | g2d2 e2dB | A6 gf |\
+g2d2 e2dc | Bcd2 G2B2- | Bcd2 c2A2| G6 |;
+gf |\
+g2d2 e2dc | Bcd2 G2"^>"B2- | BABc d2B2 | A6 GA |\
+B2G2 c2A2 | "rall"d2B2 He2 "^a tempo"dc | B2d2 c2A2 | G4 e2dc |\
+Bcd2 c2A2 | G6 |]

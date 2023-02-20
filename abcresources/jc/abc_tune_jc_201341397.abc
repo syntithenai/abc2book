@@ -1,0 +1,41 @@
+X: 8	% Number at top right
+T: Strawberrys and Cream    [Eb]
+O: 1779
+R: reel
+S: Image from Darlene Wigton
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Eb
+% - - - - - - - - - -
+% Voice 1 has each strain on a new staff:
+V: 1 brace=2
+|:\
+"Eb"[E2G,2] (G/E/D/E/) GEGE | "Bb7"[F2B,2] (A/F/=E/F/) AFAF |\
+"Eb"[E2G,2] (G/E/D/E/) GEGE | "Bb7"FAGF "Eb"E2 E2 :|
+|:\
+"Eb"e2Ge eGeG | "Bb7"f2df fdfd |\
+"Eb"e2Ge eGeG | "Eb"ge"F7"dc "Bb"B2B2 :|
+|:\
+"Eb"E2GE GBeg | "Bb7"F2AF Bdfa |\
+"Eb"bgfe "Bb"df"Eb/g"BG | "Ab"FA"Bb7"GF "Eb"E2E2 :| [b2E2G,2]
+% - - - - - - - - - -
+% Voice 2 preserves the original's staff layout:
+V: 2 clef=bass middle=d
+|:\
+e4 e2e2 | d4 d2G2 |\
+e4 e2e2 | f2b2 e4 :|\
+|: e2z2 e2E2 | B2z2 
+b2B2 | e4 e2E2 | e2f2 B4 :|\
+|:\
+e4 e2E2 | B4 B2B,2 |\
+E2e2 b2g2 | a2b2 e4 :| [d'2D2]
+% - - - - - - - - - -
+%%begintext align
+%% Turn your Partner with the Right hand and cast off one Cu. .|
+%% turn your Partner with the Left hand the Gent.n cast off the Lady cast up :|
+%% set 3 and 3 top & bottom :|.
+%% set 3 and 3 sideways :|:
+%% the Gent.n strike the whole figure at bottom the
+%% Lady at the same time at top and foot to your partner .||.
+%%endtext

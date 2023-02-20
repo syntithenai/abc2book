@@ -1,0 +1,28 @@
+X: 54
+T: the Shealing in the Braes of Rannoch
+T: Bothan airidh 'm braighe Raineach
+C:
+O:
+R: air, waltz
+B: Version from the Concord Slow Scottish Jam session binder 2.
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: "Solemn"
+K: Gm
+% - - - - - - - - - -
+V: 1 staves=2
+!p!G>A |\
+d2 f2 =e>c | (d2 c)z G>A | d2 f2 =e>d | (c2 F)z c>A |\
+c2 d2 c>d | (F2 G)z {A}d>c | {B}A2 F2 G2 | (A2 G)z |]
+"_cres."d>^f |\
+g2 b2 a>g | (f2 d)z d>^f | g2 b2 a>g | (f2 d)z f>=e |\
+(d2 c)z {B}A>G | F2 Gz {A}d>c | {B}A2 F2 G2 | (A2 G)z |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+g2 a2 c'2 | (b2 a)z z2 | g2 a2 c'2 | a2 fz z2 |\
+f2 b2 a2 | f2 cz z2 | f2 c4 | f2 cz |]
+z2 |\
+G4 A2 | B3 z z2 | g4 a2 | b3 z z2 |\
+b2 a2 c2 | d2 cz z2 | f2 c4 | f2 cz |]

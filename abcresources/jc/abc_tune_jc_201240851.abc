@@ -1,0 +1,31 @@
+X: 4131
+T: the Lass of Livingston.
+O: Scotch Measure.
+%R: Scotch measure, reel
+B: Niel Gow & Sons "Complete Repository" v.4 p.13 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "SLOWLY"
+K: F
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+(C/D/E) |\
+~F3G A3f | (cA)(cd) (cA)GF | {FG}A2G2 G2TF>G | A2G2 (AG)(FD) |\
+(CD)(FG) A3f | (cA)GF .G(ABc) | {Bc}d2D2 D2(C/D/E) | F2D2 D2 :|
+(c/d/e) |\
+Tf3g (fg)ag | fcdf cAGF | {FG}A2[G2E2] [G2E2]TF>G | A2G2 G2fg |\
+(af)ga (fc)df | (cA)(GF) GABc | (B/c/d)D2 D2(C/D/E) | F2D2 D2 ||
+(c/d/e) |\
+~f3g (fg)(ag) | (fc).d.f (cA)GF |(f/g/a)g2 g2fg | (f/g/a)g2 HTg3 f/g/ |\
+.a(fg)a .f(cd)f | (cA)(G^F) GABc | {^c}d2D2 D2(=C/D/E) | F2D2 D2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+b2 |\
+a2g2 f2F2 | f2e2 f2=B2 | c2c'2 c2z2 | c2c'2 c'2d'b |
+ab ag f2F2 | AcBA G^FGA | B2b2 B2AG | F2[B2F2-] [B2F2] :| b2 a2e2 f2c'b |
+a2b2 a2=b2 | c'2c2 c2z2 | c2c'2 c'2z2 | [f'4a4] [f'2a2][f'2b2] | [c'2a2]ba g^fga |
+b2B2 B2AG | F2[B2F2-][B2F2] || AG | F2Ac f3g | a2b2 a2=b2 | c'2c'2 c'2z2 | c2c'2 Hc'3z |
+f'2c'2 d'ab2 | [c'2a2]ba g^fga | b2B2 B2AG | F2[B2F2-] [B2F2] |]

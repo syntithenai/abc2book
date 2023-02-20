@@ -1,0 +1,25 @@
+X: 2293
+T: New year's day
+%R: jig, air
+B: Niel Gow & Sons "Complete Repository" v.2 p.29 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - -
+V: 1 staves=2
+A |\
+TF>GF (f/g/ag) | fFF TF2A | F>GF Tf>ga | gGG G2A ||\
+FGA fed | c2b {b}a2g | Tf>ed cAf | cAF F2 :|
+|: A/B/ |\
+c>dc AcA | cdc A2B | cde f>ga | gGG G2A ||\
+c>dc AcA | c2b a2g | Tf>ed cAf | cAF F2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+f3 f3 | f3 f3 | f3 f3 | g3 g3 ||\
+f3 f3 | e3 f2e | d2B A3 | F3 f2 :|
+|: z |\
+[f3a3c'3] [f3a3c'3] | [f3a3c'3] [f3a3c'3] | [f3a3c'3] [f3a3c'3] | [c3e3g3c'3] [c3e3g3c'3] ||\
+[f3a3c'3] [f3a3c'3] | e3 f2e | d2B A3 | F3 f2 :|

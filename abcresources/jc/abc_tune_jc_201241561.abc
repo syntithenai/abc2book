@@ -1,0 +1,24 @@
+X: 441
+T: Lailson's Ride
+%R: _
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: John Treat - "Gamut for the Fifes", 1779, p.44 #1
+F: https://archive.org/details/GamutFortheFifes
+N: Added beam to bar 7, which has 3 1/4-notes in the book.
+N: Bar 21 has c-sharp; bar 22 lacks the sharp. They should probably be the same.
+N: The "fine" is at a very odd place.
+M: 3/8
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g2 |\
+g4e2 | c4d2 | e4f2 | d4g2 |\
+g4e2 | b4a2 | g2a2f2 | g4 :: g2 |\
+B2B2B2 | cdefg2 | B2B2B2 | cdefg2 |\
+g4e2 | g4e2 | c2d2B2 | c4 :|
+|: "^Trio"e2 |\
+(c2G2)e2 | (c2G2)e2 | f2(fe)f2 | d4e2 |\
+(^c2G2)e2 | (c2G2)e2 | d2dcde | c4 :: !fine!e2 |\
+e2^f2g2 | e2c2d2 | e2f2e2 | d4e2 |\
+(c2G2)e2 | (c2G2)e2 | d2dcde | c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

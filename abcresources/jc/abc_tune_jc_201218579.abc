@@ -1,0 +1,29 @@
+X: 2
+T: Minuet
+C: Michael Dabney (c.1760)
+R: minuet
+B: Michael Dabney "Twelve Minuets and Twelve Dances" p.1 #2
+S: http://imslp.org/wiki/12_Minuets_and_12_Dances_(Dabney,_Michael)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Figured bass rewritten as chords for ABC software and people who don't understand figured bass.
+M: 3/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces mostly 4- or 8-bar staffs.
+V: 1
+|:\
+FAcA fd | Tc2 (B2 A2) | G>BAGFE | {E2}F4 z2 |\
+G>A B2 A2 | B>c d2 e2 | f>c B2 TA2 | {A2}G6 :|
+|: c2 fcac | B2 dBgB | A>BcAGF | E>FGE C2 |\
+FAcA fd | {d}c2 BAGF | (3GAB AGFE | {E2}F6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+|:\
+"F"f4 "Bb"b2 | "F"a2 "C7"g2 "F"f2 | "Gm"B2 "F"c2 "C"c2 | "F"FAcA F2 |\
+z2 z2 "F"f2 | "Gm"g>a b2 "C"g2 | "F"a2 "C7"g2 "F"f2 | "C"c6 :|\
+|: "F"f4 f2 |
+"Gm"g2 "C7"e2 c2 | "F"f2 A2 "G7"=B2 | "C"c4 C2 |\
+z2 "F"f2 "Bb"b2 | "F"a2 f2 "Dm"d2 | "Gm"B2 "F"c2 "C"C2 | "F"F6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

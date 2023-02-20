@@ -1,0 +1,24 @@
+X: 272
+T: Mrs FLEMING OF MONESS
+C: N. GOW
+R: Strathspey
+B: Glen Collection p.27 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Bb
+%
+V: 1
+   F | DB,DF B2AG | FB, (G/F/E/D/ E)CCF | DB,DF {c}B2AG | (A/B/c) FA BB,B, :|
+|: B | B<fd<f B<fd<f | F<cA<c F<cA<c | B<fd<f B<fd<f | b/a/g/f/ ge dBB :|
+|: F | D<B,F<B, G<B,F<B, | D<B, (G/F/E/D/ E)CC>F | D<B,F<B, G<B,F<A | BGFE DB,B, :|
+|: g | f<B d/c/B f<Bb<B | f<B e/d/c/B/ c<GG<e | f<B e/d/c/B/ f<Bb<B | AGFE DB,B, :|
+%
+V: 2
+   z | B2[b2f2] d2[b2f2] | d2[b2f2] c2[a2f2] | B2[b2f2] d2[b2f2] | [a2f2][c'2f2] b2B :|
+|: z | B2[b2f2] [b2d2][b2f2] | [a2f2][c'2f2] [a2f2]f2 | B2[b2f2] [b2d2][b2f2] | [b2d2][b2e2] [b2B2][bB] :|
+|: z | B2d2 e2d2 | B2[b2f2] [a2f2][a2f2] | B2d2 e2d2 | c2[a2f2] B2[fdB] :|
+|: z | B2[b2f2] [b2d2][b2d2] | d2[b2f2] [g2e2][g2e2] | d2[b2f2] d2[b2f2] | c2[a2f2] [b2B2][fdB] :|

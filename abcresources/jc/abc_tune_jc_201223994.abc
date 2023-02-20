@@ -1,0 +1,20 @@
+X: 7
+T: the Royal salute
+%R: jig
+B: "Twenty Four Favourite Dances for the Year 1779", Thomas Straight, ed. p.4 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1779
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+D |\
+DFA AFD | GBB B2A/G/ | FGA AFD | GEE E2F/E/ |\
+DFA AFD | GBB B2d | AFD GEC | D3 D2 :|
+|: A |\
+d2d dAF | GBG AFD | d2d dAF | Bed cBA |\
+d2d dAF | GBG AFD | EFG Bge | cAc d2 :|
+%%begintext align
+%% Turn Right hands and cast off one Cu. .| turn Left
+%% and cast off below the 3d Cu: :| hands round six
+%% .|: lead up to the top foot it and cast off :|:
+%%endtext

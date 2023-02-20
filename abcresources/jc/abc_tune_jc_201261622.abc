@@ -1,0 +1,32 @@
+X: 1
+T: Chester Assembly
+N: Pub: J. Walsh, London, 1748
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.95 #355
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:95 #355
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+a/g/ |\
+fddd | d2d2 | (=c/B/c/d/) cG | EG Gg |\
+fddd | d2d2 | (a/g/a/b/) ag | fa- a :|
+|: (a/g/) |\
+fadg | bg2=f | e=c2G | EG2d |\
+cA2(^c/d/) | ee2f/g/ | aa2g | fa2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d'2d2 | f2d2 | e2=c2 | e2=c2 |\
+d2e2 | f2g2 | a2A2 | d3 :|
+|: z |\
+d'2=c'2 | b2g2 | c'2c2 | e2g2 |\
+a2a2 | a2a2 | a2a2 | d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Foot it to your Partner and turn .|.
+%% then foot it sideways and turn :|:
+%% Cross over and half figure .|.
+%% lead thro' the 3d Cu. cast up and turn :|:
+%%endtext

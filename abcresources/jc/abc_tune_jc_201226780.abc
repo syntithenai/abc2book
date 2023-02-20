@@ -1,0 +1,25 @@
+X: 10442
+T: KITTY TYRELL
+O: Irish air.
+Q: "Slow."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.44 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Eb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E>C |\
+B,2C2E2 | E4EF | (G2e2)d2 | {d}c4(de) |\
+(cB)(AG)(FE) | E4EF | G2(AG)(FE) | C4E>C |\
+B,2C2E2 | E4EF | (G2e2)d2 | {d}c4(de) |\
+(cB)(AG)(FE) | E2C2E/F/G | {G}F2E2E2 | E4 :|
+|: (B/c/d) |\
+(e2d2)e2 | c2d2e2 | f2(ed)(c>B) | B4(B/c/d) |\
+(e2d2)e2 | B2(cB)(AG) | G2 (3(EFG) (3(GFE) | C4E>C |\
+B,2C2E2 | E4EF | (G2e2)d2 | {d}c4(de) |\
+(cB)(AG)(FE) | E2C2(E/F/G) | {G}F2E2E2 | E4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

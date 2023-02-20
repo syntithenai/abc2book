@@ -1,0 +1,13 @@
+X: 1169
+T: Moll Roe   #2
+R: slipjig
+%S: s:2 b:12(6+6)
+B: O'Neill's 1850 Music of Ireland #1169
+O: F.O'Neill
+Z: Stephen Foy (shf@access.digex.net)
+N: Compacted via repeats and multiple endings [JC]
+%: abc 1.6
+M: 9/8
+K: G
+"^A"[|] D |:: DGG GAG FGA |[1 BGB cAB c2c :|[2 BGB cAF G2(G/F/) :|[3 BGB cAB c2(B/c/) | ded cAG FGA | BGB cAF G2 |]
+"^B"|:: (B/c/) | ded cAG FGA |[1 ded cAB c2 :|[2 BGB cAF G2 :|[3 ded cAB c2(d/e/) | fed cAG FGA | BGB cAF G2 |]

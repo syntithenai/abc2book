@@ -1,0 +1,1148 @@
+X: 1
+T:Bill Hart's Jig
+M:6/8
+L:1/8
+C:Trad
+R:JIG
+K:G
+~D3  ~A3 | BAG ABA | ~D3  ~A3 | BAG EGE | ~D3  ~A3 | BAG ABc | d2B cB
+A | BAG EGE :|!
+ d2B c2A | BAG ABc | d2B c2A | BAG E2D | d2B c2A | BAG ABc | ded c2A | B
+AG E2D :| !
+~A3 ~ e3| fed efe |~ A3  ~e3 | fed BdB |~ A3  ~e3 | fed efg | aba g2e |
+fed BdB :|!
+ | a2fg2e | fed efg | aba g2e | fed B2A | agf gfe | fed efg | aba
+g2e | fed BdB |
+
+X: 2
+T:Broom Jig
+M:2/4
+L:1/16
+C:Trad
+R:JIG
+K:G
+DEF2 | G4 G2B2 | d2B2 G2B2 | c2B2 c2e2 | d2B2 G2B2 | c4 e2c2 | B4 d2B2 |
+ A4 A2B2 | c2B2 A2B2 | G4 G2B2 | d2B2 G2B2 | c2B2 c2e2 | d4 def2 | g2f2
+g2e2 | d2c2 B2A2 | B4 G4 :|
+ G4 | g4 g4 |  g4 a2g2 | f4 f4 | f4 a2f2 | e4 e4 | e2d2 e2f2 | g2f2 e2d2
+ | B8 | G4 G2B2 | d2B2 G2B2 | c2B2 c2e2 | d4 def2 | g2f2 g2e2 | d2c2 B2A
+2 | B4 G4 | G8|]
+
+X: 3
+T:Dorset Four Hand Reel
+M:4/4
+L:1/8
+R:Reel
+K:G
+D2| G2B2d2 B2 | c2e2c2e2 | G2B2d2c2 | B2A2A2 BA |  G2B2d2 B2 | c2e2c2e2
+| G2B2d2B2 | cB
+A2G2 :|
+ d2 | g2g2 gf e2 | d2d2 dc B2 | A2ABc2d2 | e2d2d2 ef | g2g2 gf e2
+ | d2d2 dc B2 | A2 AB c2A2 | A2G2G2 :|
+
+X: 4
+T:Winster Gallop
+M:2/4
+L:1/16
+R:Polka
+K:G
+G2B2 G2B2 | G2B2 d4 | A2Bc B2A2 | G2B2 d4 | c2e2 g3e | d2B2 d4 | A2Bc B2
+A2 | G4G4 :|
+g2f2 e2d2 | g2f2 e2d2 | g2f2 e2d2 c2B2 A4 | f2e2 d4 f2e2 d4
+| d4 A3c | B2G2 G4 :|
+
+X: 5
+T:Kerry Polka
+M:2/2
+L:1/16
+R:Polka
+K:G
+f2A2B2A2 | f2A2B2A2 | d4e3f | e2d2B2A2 | f2A2B2A2 | f2A2B2A2 | d4 e3f |
+e2d2 d4:| f2a2 f3e |e2d2B2A2 | d4 e3f | e2d2B2A2 | f2a2 f3e | e2d2B2A2 |
+ d4 e3f | e2d2 d4:|
+
+X: 6
+T:Boys of Bluehill
+M:4/4
+L:1/8
+C:Trad
+R:Hornpipe
+K:D
+FG | BAFA  D2 FA | BABd e2 de | faaf egfe | dfed B2 dB | BAFA D2 FA | BA
+Bd e2 de | faaf egfe | d2d2d2:|
+fg | afdf a2 gf | gfga b2 ag | faaf egfe | dfed B2 dB | BAFA D2 FA | BAB
+d e2 de | faaf egfe | d2d2d2:|
+
+X: 7
+T:Tenpenny Bit
+M:6/8
+L:1/8
+C:Trad
+R:jig
+K:G
+eAA eAA | BAB GBd | eAA eAA | def gfg | eAA eAA | BAB GBd | efg edB | BA
+G A3 :|
+eaa aga | bab ged | eaa aga | bab g2 d | eaa eaa | bab ged | efg edB | B
+AG A3:|
+
+X: 8
+T:Morpeth Rant
+M:4/4
+L:1/8
+C:Trad
+R:Rant
+K:D
+A | d2AG FDFA | BGBd cAce | f2fd gfed | c2d2e3 A | d2 AG FDFA | BGBd cAc
+e | f2fd gfed | A2d2d2 :||:A | dfaf dfaf | gfef  g2 ef | gfed cABc | def
+g f3 fe | dfaf dfaf | gfef g2 ef | gfed cABc | d2 f2 d3 :|
+
+X: 9
+T:Harvest Home
+M:4/4
+L:1/8
+C:Trad
+R:Hornpipe
+K:D
+A2 | FADA FADA | defe dcBA | e2f2g2f2 | edcB AGFE | FADA FADA | defe dcB
+A | e2f2 gece | d2f2d2 :||:cd | eAAA fAAA | gAAA fAAA | eAfA gAfA | edcB
+ AGFE
+| DAFA DAFA | defe dcBA | e2f2 gece | d2f2d2:|
+
+X: 10
+T:Pretty Maggie Morrisey
+M:4/4
+L:1/8
+C:Trad
+R:Hornpipe
+K:G
+Bc | dBGB cAFA | 3GFG AF GABc | dgfg efge | dBGB A2 Bc | dBGB cAGA | 3GF
+G AF GABc | dgfg ecAF | G2B2G2 :|
+|:Bc | dgfg egfg | dgfg egfg | dgfg efge | dBGB A2 Bc | dBGB cAFA | 3GFG
+ AF GABc | dgfg ecAF | G2B2G2 :|
+
+X: 11
+T:Showman
+M:4/4
+L:1/8
+C:Trad
+R:Hornpipe
+K:D
+FG | A^GAB Adfd | ~B2 gf edcB | A^GAB AFDF |~E2 ED E2  FG | A^GAB Adf
+d | ~B2 gf edcB | Adfa gecd | eddc d2 :|
+|:cd | e^def gece | dcde fdAd | ~g2 ~f2 ~e2  ~d2 | ~c2 ~B2  A2 FG | A^GA
+B Adfd | ~B2
+ gf edcB | Aafd Bgec | d2f2d2 :|
+
+X: 12
+T:Pullet
+M:4/4
+L:1/8
+C:Trad
+R:Hornpipe
+K:D
+fe |: d2B2B2dB | AFAB ABde | f2B2B2 dB | AGde fefa | b2B2B2 dB | A2 AB A
+Bde | f2B2B2 dB | ABde f2 fe :|
+|: defg abaf | defg a2 af | defg abaf | edef g2 fe | defg abaf | defg a2
+ gf | gfga bagf | edef g2 fe :|
+
+X: 13
+T:Staten Island
+M:4/4
+L:1/8
+C:Trad
+R:Hornpipe
+K:D
+|: AG |FDFG A2 A2 | dfed dcBA | B2 GB A2 FA | G2E2E2 AG | FDFG A2A2 | df
+ed dcBA | d2d2 efge | f2d2d2 :|
+|:fg | a2 fa g2 eg | f2 df ec A2 | .=c2.=c2 efge |. =c2.=c2 efge | a2 fa
+ g2 eg | f2 df ec A2 | d2d2 efge | f2d2d2 :|
+
+X: 14
+T:Pigtown
+M:4/4
+L:1/8
+C:Trad
+R:Reel
+K:G
+|: G2 ge ~d2 ed | ~B2 ge dBAB | G2 ge ~d2 ed | BGAG EFGA | G2ge ~d2 ed |
+ ~B2 ge dBAB | G2 ge ~d2 ed | BGAF G2 :|
+|: ~B2 ~e2 efge | fedf edBA | ~B2 ~e2 efge | fgaf g2 ed | ~B2 ~e2 efge |
+ fedf edBA | ~B2 ~e2 efge | fgaf ~g2 dB:|
+
+X: 15
+T:Mason's Apron
+M:4/4
+L:1/8
+C:Trad
+R:Reel
+K:A
+|: g2 | a2 A2A3F | EFAB cABc | d2 B2B3A | GABc defg | a2 A2A3F | EFAB cA
+Bc | dcde fgaf | edcB A2 :|
+|: ed | c2e2f2e2 | c2e2 fedc | d2f2g2f2 | d2f2 gfed | c2e2f2e2 | c2e2 fe
+dc | dcde fgaf | edcB A2 :|
+
+X: 16
+T:F-Three Hoe Down
+M:2/4
+L:1/8
+C:P Slater
+S:Orig
+R:hd
+K:D
+|: 3DDD FA | BA FA | 3DDD FA | BAE2 | 3DDD FA | BA FA | d>A B>A | EF D2
+:|
+|: 3ddd dA | BA FA | 3ddd df | ed B2 | 3ddd dA | BA FA | f>d e>c | d>B A
+F:|
+
+X: 17
+T:Golden Valley
+M:6/8
+L:1/8
+C:Trad
+R:Quadrille
+K:D
+A |: f2 A f2 A | fgf efe | d2cd2f | e2c Ade | f2A f2A | fgf efe | dcB AB
+c | d3 d3 :|
+|: ABc def | a2ge2d | cde ABc | e2d F2G | ABc def | a2g e2d | cde ABc |
+d3d3:|
+
+X: 18
+T:Alexanders Hornpipe
+M:4/4
+L:1/8
+C:Trad
+R:Hornpipe
+K:D
+| 3ABc | dAFA DFAd | fdcd A2 ef | ~g2 ge fdcd | 3efe 3dcB A2 3ABc | dAFA
+ DFAd | fdcd A2 ef | ~g2 fe fdcd | eddc d2 :|
+|AG | FAdA FAdA | GBdB GBdB | Acec Acec | dfaf 3gfe 3cBA | FAdA FAdA |
+GBdB GBdB | Acef gecd | eddc d2 :|
+
+X: 19
+T:St Anne's Reel
+M:4/4
+L:1/8
+C:Trad
+R:Reel
+K:D
+de | fedc edcB | A2 FA DFAD | BGDG BDGB | A2 DF AFAd | fedc edcB | A2 FA
+ DFAD | BGBd cAce | defe d2 :|
+|: ag | fdfa fdfa | a g2 f g3 f | eceg eceg | b a2 ^g a3 g | fdfa fdfa |
+ a g2 f g3 f | eceg eceg | fdec d2 :|
+
+X: 20
+T:Brian O'Lynn
+M:6/8
+L:1/8
+C:Trad
+R:Jig
+K:G
+B | cAd cAG |~E3 GAB | cAd cAG | EAA A2 B | cAd cAG | ~E3 GAB | cde fed
+| cAA A2 :|
+|: f | ~g3 ged | cAB c2 d | e2 a age | ed^c def | ~g3 ged | cAB cde | fe
+d cAG | EAA A2 :|
+
+X: 21
+T:Bride's Favourite
+M:6/8
+L:1/8
+C:Trad
+R:Jig
+K:G
+G2 A |: ~B3 ~A3 | BdB BAG | B2 B dcB | ABA DFA | ~B3 ~A3 | GBd gdB | A2
+A cB
+A | [1 GFA G2 A :| [2 GFA G2 d :|]
+|: dcB gdB | GBd gdB | cBc ecA | GBd g2d | B2B ABA | GBd gdB | AAA cBA
+ | [1 GFA G2 d :| [2 GFA  [G3B3d3]|]
+
+X: 22
+T:Chief O'Neill's Favourite
+M:4/4
+L:1/8
+C:Trad
+R:Hornpipe
+K:D
+de | fefg afge | fdec dcAG | FD DD DFAB cAdc| A2 de | fefg afge | fdec d
+cA
+G | FEFD GBAG | F2 D2 D2 :|
+ |: DE | =F2 FG A2 AB | =c2 cd cBAG | Adde fded | cAdc A2 de | fefg afge
+ |
+fdec dcAG | FEFD GBAG | F2 D2 D2 :|
+
+X: 23
+T:Cornish Quickstep
+M:4/4
+L:1/8
+C:Trad
+R:Reel
+K:D
+f=f | f2 dc d2  A^G|  A2 d2 f3 f | g2 f2 e2 d2 | c2 B2 A2 f=f | f2 dc d2
+A^G | A2 d2 f3 f | e2 A2 B2 c2 | d4 d2 :|
+|: A2 | F2 AA A2 A2 | G2 BB B2 B2 | A2 cc c2 c2 | defe dcBA | F2 AA A2 A
+2 | G2 BB B2 B2 | A2 cc c2 e2 | d6 :|
+
+X: 24
+T:Eavesdropper
+M:6/8
+L:1/8
+C:Trad
+R:Jig
+K:G
+D | GBB BAG | Bdd dBG | cee dBG | BAA A2 B | GBB BAG | Bdd dBG | cee dBG
+ | BGG G2 :|
+d | gfg afd | efg d2 B | cee dBG | BAA A2 f | gab afd | efg dBG | cee dB
+A
+ | BGG G2 :|
+
+X: 25
+T:Always Welcome
+M:4/4
+L:1/8
+C:Trad
+R:Reel
+K:A
+E2 EF A2 AB | cBAB ce e2 | f2 fe fgaf | ecBc AF F2 | E2 EF A2 AB | cBAB
+ ce e2 | f2 fe fgaf | ecBc A4 :|
+|:A2 Ac eA A/2A/2A | eAfA eA A/2A/2A | B2 Bd fefg | agaf ecBc | A2 Ac eA
+ A/2A/2A | eAfA eA A/2A/2A | f2 fe fgaf | ecBc A4 :|
+
+X: 26
+T:Atholl Highlanders
+M:6/8
+L:1/8
+C:Trad
+R:Pipe March
+K:A
+|: e3 ecA | ecA Bcd | e3 ecA | Bcd cBA | e3 ecA | ecA Bcd | eae fed | cd
+B A3 :|
+|: Ace Ace | Adf Adf | Ace Ace | Bcd cBA | Ace Ace | Adf Adf | eae fed |
+ cdB A3 :|
+|: a2 e edc | a2 e edc | a2 e edc | Bcd cBA | a2 e edc | a2 e edc | eae
+fed | cdB A3 :|
+|: cAc cAc | dBd dBd | cAc cAc | B=GB B=GB | cAc cAc | dBd dBd | eae fed
+ |
+ cdB A3 :|
+
+X: 27
+T:Fisher's Hornpipe
+M:4/4
+L:1/8
+C:Trad
+R:Hornpipe
+K:D
+A2 | dAFA GBAG | FAFA GBAG | FDFD GEGE | FDFD E2 c2 | dAFA GBAG | FAFA G
+BAG | FAdf g2 ec | d2 d2 d2 :|
+f2 | ecAc efge | fdAd fgaf | ecAc efgf | edcB A2 A2 | BGGG BcdB | AGFG A
+2 A2 | BcdB AGFE | D2 d2 d2 :|
+
+X: 28
+T:Lark in the morning
+M:6/8
+L:1/8
+C:Trad
+R:Jig
+K:D
+AFA AFA | BGB BdB | AFA Ade | fed BdB | AFA AFA | BGB BdB | def afe | fd
+B BdB :|
+|: def afa | baf afe | def afe | fdB B2 A | def afa | baf a2 f | gag fgf
+ | edB BdB :|
+|: d2 f fef | fef fef | d2 f fef | edB B2 A | d2 f fef | fef fef | gag f
+gf | edB BAB :|
+|: Add fdd | edd fdB | Add fdd | edB B2 A | Add fdd | ede f2 f | gag fgf
+ | edB BdB :|
+
+X: 29
+T:Pant Corlan yr Wyr
+M:4/4
+L:1/8
+Q:120
+C:Trad - G
+S:Welsh
+K:G
+D2 | G2 GA B2 G2 | c2 AB c2 A2 | B2 G2 G2 B2 | d2 A2 F2 D2 | G2 GA B2 G2
+ | c2 AB c2 A2 | B2 G2 FG A2 |  G4-G2 :|
+|: dc | B2 d2 d2 cB | A2c2 c2 BA | G2 B2 B2 AG | F2A2F2 D2 | G2 GA B2 G
+2 | c2 AB c2 A2 | B2 G2 G2 B2 | d2 A2 F2 D2 | G2 GA B2 G2 | c2 AB c2 A2
+| B2 G2 FG A2 | G4-G2 :|
+
+X: 30
+T:Salmon tails up the water
+M:4/4
+L:1/8
+C:Trad
+K:G
+G2 E2 D2 E2 | G4 G3 A | B2 d2 A2 BA | G2 E2 D4 | G2 E2 D2 E2 | G4 G3 A |
+ B2 d2 A2 BA | G4 G4 :|
+|:  B2 d2 d3 B | c2 e2 e4 | d2 B2 A2 BA | G2 E2 D4 | B2 d2 d3 B | c2 e2
+e3 f | g2 f2 e2 d2 | B4 B4 |
+ B2 d2 d3 B | c2 e2 e4 | d2 B2 A2 BA  | G2 E2 D4  | G2 E2 D2 E2 | G4 G3
+A | B2 d2 A2 BA | G4 G4 :|
+
+X: 31
+T:Castle Kelly
+M:4/4
+L:1/8
+C:Trad
+R:Reel
+K:G
+~A2 cA ~A2 cA | G2 EG G2 EG | ~A2 cA GAcd | ecdB cAAG | ~A2 cA ~A2 cA |
+G2 EG G2 EG | ~A2 cA GAcd | ecdB cA A2 :|
+|: agec d2 ed | cAGE ~G3 A | agec d2 cd | eaag ~a3 f | gedc d2 ed | cAGE
+ G2 EG | A2 cA GAcd | ecdB cA ~A2 :|
+
+X: 32
+T:Boy in the Gap
+M:4/4
+L:1/8
+Q:160
+C:Trad
+K:G
+D2 FA dedc | A2 GE cEGE | D2 FA dedc | A2 GF EFGE | D2 FA dedc | A2 GE c
+EGE | DEFA dedc | A2 GEED D2 :|
+K:D
+|: f2 fgfe d2 | e2 fd edcB | ABcd e2 cd | eaag eaag | fafa fedf | egfd e
+dcB | ABcd e2 dc | A2 GEED D2 :|
+
+X: 33
+T:Sporting Paddy
+M:4/4
+L:1/8
+C:Trad
+R:Reel
+K:G
+EAAB GABG | EAAB G2 ED | EA A2 GABd | edge dBAG | EAAG GABG | EAAB G2 ED
+ | EA A2 GABd | edge d2 :|
+|: ef | ge e2 gede | ge e2 a2 ba | ge e2 ge d2 | efge d2 ef | ge e2 gede
+ | ge e2 a2 ga | bgab gabg | efge dBAG :|
+
+X: 34
+T:Chinese Breakdown
+M:2/4
+L:1/8
+Q:160
+C:Trad
+K:D
+A | dd BA | F F2 A | dd BA | E3 A | cc BA | c c2 B | AA BA | F3 A | dd B
+A | F F2 E | D2 EF | G3 d | e e2 f/2e/2 | c c2 B | A>A Bc | d3 :|
+|:d | fa/2f/2 ed | f f3 | fa/2f/2 ed | c3 e | a a2 a | g g2 e | c cB | A
+-A | fa/2f/2 ed | f f2 e | d>d c=c | B-B | e e2 f/2e/2 | c c2 B | A>A Bc
+ | d3 :|
+
+X: 35
+T:Dingle Regatta
+M:6/8
+L:1/8
+C:Trad
+R:Jig
+K:G
+d^cd e2 d | BAB d2 B | A2 A AGA | B2 A G2 d | d^cd e2 d | BAB d2 B | A2
+A ABA | G3 G2 :|
+|: d3 def | g2g gfg | a2 a aga | b2 a gfe | d2 d def | g2 g gfg | a2 g f
+2 e | def g3 :|
+|: g3 d3 | BdB G3 | ABA DEF | G2 B d3 | g3 d3 | BdB G2 d | ABA DEF | G3
+G3 :|
+
+X: 36
+T:Gallagher's Frolics
+M:6/8
+L:1/8
+C:Trad
+R:Jig
+K:D
+EDE GFE | BAB dBA | BdB BAB | GFG AFD | EDE GFE | GAG dBA | BAG FAF | GE
+E E3 :|
+|: e2 f gfe | g2 a bge | dcd fed | faf fed | e2 f gfe | dfe dBA | BAG FA
+F | GEE E3 :|
+
+X: 37
+T:Irish March
+M:6/8
+L:1/8
+C:Trad
+R:Jig
+K:G
+B2 G c2 A | B2 d A3 | B2 d c2 e | B2 d A3 | B>AB c3 | B>AG A3 | B>AB e>d
+e | B>AG A2 D | G>AB c>GA | A>cd A2D | G>AB c>GA | B>cd A3 | GBG efe | G
+BG FAF | GBG cec | GBG dAD | G>AB c>de | de/2f/2g f2 d | G>AB c>de | de/
+2f/2g f2 d | GGd c e2 | d g2 f a2 | g2 d e2 c | d2 B c2 A | G?AB c>dc |
+B>AG A2 D | GG/2F/2G Eec | BGg f d2 | B>cd e c2 | dBg f d2 | d>gd e c2 |
+ G>AG F D2 | G>AG>B A/2d/2ed/2c/2 | B/2A/2B/2c/2d/2e/2 f/2g/2ag/2f/2 | g
+f/2e/2d e2 d c2 | Bc/2B/2A/2G/2 F/2E/2F/2G/2A/2F/2 | G/2A/2B/2c/2d/2B/2
+c/2d/2e/2f/2g | G/2A/2B/2c/2d/2e/2 f>ga>f | g3-g3 | g3 f3 | Gg/2d/2B/2G/
+2 c/2B/2c/2d/2c/2| Aa/2g/2f/2e/2 d/2c/2d/2e/2d | gB/2=c/2d edc | Bc/2B/2
+A/2G/2 F>ED | E>FG F>EF G3 |
+
+X: 38
+T:Kesh Jig
+M:6/8
+L:1/8
+C:Trad
+R:Jig
+K:G
+GGG GAB | AAA ABd | edd gdd | edB dBA | GGG GAB | AAA ABd | edd gdB | AG
+F G3 :|
+|: BBB dBd | ege dBG | BBB dBG | ABA AGA | BBB dBd | ege dBd | gfg aga |
+ bgg g3 :|
+
+X: 39
+T:Mooncoin Jig
+M:6/8
+L:1/8
+Q:100
+C:Trad
+R:Jig
+K:D
+cBA AEA | AEA Bcd | cBA Ace | dBG Bcd | cBA AEA | AEA Bcd | Ace gfe | dB
+G Bcd :|
+|: cde efg | faf ged | cde efg | faA Bcd | cde efg | afd bge | afd gec |
+ dBG Bcd :|
+|: cBA Aaf | ecA Bcd | cBA g2e | dBG Bcd | cBA Aaa | Agg Aff | Aee efg |
+ dBG Bcd :|
+
+X: 40
+T:Planxty Irwin
+M:6/8
+L:1/8
+C:O'Carolan
+R:Air
+K:G
+d | g2-f e>fg | d2-c B>AG | c2-A B>cd | F2-G A2-d | g2-f e>fg | d2-c B>A
+G | c2-A B>cd | G2 F G2 :|
+|: d | g>ag g>fg | a>ba a>fd | b2 b a>bg | f2-e d>ef | g2-f e>fg | d2-c
+B>AG | c2-A B>cd | G2 F G2 :|
+
+X: 41
+T:Spanish Cloak
+M:6/8
+L:1/8
+Q:100
+K:G
+G2 GAB G | A2 ABc A | G2 GAB d | A2 F2 D2 | G2 GAB G | A2 ABc A| d2 def
+d | c2 A2 F2 |
+g3 agf |d2 g2 a2 |b2 a2 g2 | f2  g2  a2 | b2 a2 g2 | f2 defd | dcAdcA |
+A2 G2 F2 !
+
+X: 42
+T:Redwing
+M:4/4
+L:1/4
+Q:90
+R:reel
+K:G
+GGGB | ddd2 | cege | edd2 | c2cc |BBG2 | AAFF | GGG2 :|
+|:gfe2 | c2eg | fe  d2 | B3 d | e   dd2 |  A3   d | e dd2 | B4 | g f  e2
+  | e2  eg |  fe  d2 | B3  d | e d  d2 | A3 c |  B   AG2  :|
+
+X: 43
+T:Bladon Races
+M:4/4
+L:1/8
+Q:120
+K:G
+D | GG GG | GG GG | AA AA | B2 G2 | cc cc |BB BB | AB AG | F2 D2 |GG GG
+| GG GG
+| AA AA | B2 GB | cc cc | Bcd2 | dc BA | G2 G2 :|
+dd dB | GG GG | AA AA | BB GB | cc cc | BB BB | AB AG | F2 D2 | GG GG |
+GG GG |
+AA AA | B2 GB | cc cc | Bc d2 | dc BA | G2 G2 :|
+
+X: 44
+T:Constant Billy
+M:6/8
+L:1/8
+Q:110
+R:Double Step
+K:G
+D | G2B   BAB | c2A  FGA | BAG E2E | DEF G2 :|
+|: Bcd e2c | ABc d3 | Bcd e2c | ABc def | g2d BAB | c2A FGA | BAG E2 E |
+ DEF | G
+
+X: 45
+T:Portsmouth
+M:4/4
+L:1/8
+Q:160
+R:Hornpipe
+K:G
+D2 |: G2GA BAGF | E4  e4 | d2B2 cBAG |A2F2  D4 | G2GA  BAGF | E4  e4 | d
+2B2  cBAB |G6 :|
+d2 |: g2ga bagf| g2d2 B2d2|d2d2 dcB2|A6  D2 | G2 GA BAGF |  E4  e4 | d2B
+2  cBAB | G6 :|
+
+X: 46
+T:American Patrol
+M:4/4
+L:1/8
+C:Glen Miller
+R:Reel
+K:G
+D | G2G2 GFGA | B2B2 BABc | d2d2 d^cdg |d4 z2 B2 | c2 cB A2 c2 | B2 BA G
+2 B2 | A2E2F2G2 | ABcB ADEF |
+ G2G2 GFGA | B2B2 BABc | d2d2 d^cdg | d4z2 G2 | e2d2c2 B2 | A2G2F2G2 | A
+2 Bc B2A2 |1 G6 :|2 G2 DEFG AB :|*
+c2c2c2c2 | cB c3 ^c | d2d2 dcBc | d6 B2 | c2c2c2c2 | cB c3 ^c | d2d2 dcB
+c | d6 d2 | e2e2 g3e | d2 de dcB2 | c2c2 F3 c | B2 Bc BA G2 |  e2e2 g3e
+| d2 de dc B2 | c2c2 F2A2 |1 G2 DEFG AB :|2 G6 :|
+
+X: 47
+T:Major Mackies Jig
+T:Family Jig
+M:6/8
+L:1/8
+R:Jig
+K:D
+d | ABc dcd | B2 e e2 d | c2 a ag^a | f2d d2d |  ABc dcd | B2 e e2 d | c
+2 a gfe | d3-d2 :|
+|: e | f2f def | g3g2f| e2e cde | f3f2e | ddd def | g2B e2 d | c2a gfe |
+ d3-d2 :|
+
+X: 48
+T:Soldiers Joy
+M:4/4
+L:1/8
+C:Trad
+R:Rant
+K:G
+|: FG | AFDF AFDF | A2 d2d2 cB | AFDF AFDF | G2 E2 E2 FG| AFDF AFDF | A2
+ d2 d2 3efg | fafd egec | d2 d2 d2 :|
+|: de | f2 fd fage | e2 ec egfe | f2 fd fagf | edcB A2 de | fdfd fagf |
+ecec egfe | fafd egec | d2 d2 d2 :|
+
+X: 49
+T:Brighton Camp
+M:4/4
+L:1/8
+R:Rant
+K:G
+|: gf | e2 dc B2 A2 | B2 G2 E2 D2 | G2 G2 GABc | d4 B2 gf | e2 dc B2A2 |
+ B2G2 E2G2 | F2A2 D2 EF | G2-G :|
+|: dc | B2d2 e2f2 | g2 d2 B2 G2 | B2d2 e2f2 | g4 f2 gf | e2 dc B2A2 | B2
+G2 E2G2 | F2A2 D2 EF | G2-G :|
+
+X: 50
+T:Off to California
+M:4/4
+L:1/8
+C:Trad
+R:Hornpipe
+B:DG E2 3DEF | GFGD EDbg | abaf
+K:G
+|:3DEF | GFGB AGED | GBdg e2 3def | gfgd edBG | ABAG E2 3DEF | GFGB AGED
+ | GBdg e2 3def | gfgd edBG | AcBA G2:|
+|: def | gfeg fedf | edef edBd | gfgd edBG | ABAG E2 3DEF | GFGB AGED |
+GBdg e2 3def | gfgd edBG | AcBA G2 :|
+
+X: 51
+T:Rattling Bog
+M:4/4
+L:1/4
+C:Trad
+R:Reel
+K:D
+d/2e/2|f2 f3/2e/2|dB B3/2B/2|Ad d/2c/2d/2e/2|fe e2|f2 f3/2e/2|dB B3/2B/2
+|Aa af|ed d:|
+|:d/2e/2|fd ed|fd ed/2e/2|fa af|ed ed/2e/2|fd ed|fd ed/2e/2|fa af|ed d:|
+
+X: 52
+T:Sailors Hornpipe
+M:4/4
+L:1/4
+C:Trad
+R:Hornpipe
+K:G
+g/2f/2| gG Gd/2c/2| B/2d/2g g/2b/2a/2g/2| aA AA/2G/2| F/2A/2d de/2f/2|
+ g/2f/2e/2d/2  e/2d/2c/2B/2| c/2B/2A/2G/2  G/2F/2E/2D/2| E/2G/2 F/2A/2 F
+/2 G/2B/2 A/2c/2| BG G:|
+|:d/2c/2| B/2d/2g/2d/2 B/2d/2g/2d/2| ec ce/2d/2| ^c/2e/2a/2e/2 c/2e/2a/2
+e/2| fd dB|
+ ce e/2d/2c/2B/2| c/2B/2A/2G/2  G/2F/2E/2D/2| E/2G/2 F/2A/2 F/2 G/2B/2 A
+/2c/2| BG G:|
+
+X: 53
+T:Turkey in the Straw
+M:4/4
+L:1/4
+C:Trad
+R:Reel
+K:G
+B/2A/2| G/2F/2G/2A/2 GB,/2C/2| D/2E/2D/2B,/2 DG/2A/2| BB  B/2A/2G/2A/2|
+BA  AB/2A/2|
+ G/2F/2G/2A/2 GB,/2C/2| D/2E/2D/2B,/2 DG/2A/2| B/2de/2  d/2B/2G/2A/2| BA
+  G:|
+|:A| B/2dB/2 dd| B/2dB/2 d2| c/2ec/2 ee| c/2ec/2  ef| gg dd| B/2dB/2  AG
+/2A/2| B/2de/2  d/2B/2G/2A/2| BA  G:|
+
+X: 54
+T:Buttered Peas
+M:2/2
+L:1/8
+C:trad
+R:polka
+K:G
+dc| B2D2 B2AB| c2D2 c3A| F2d2 FGAB| d2A2 d3c| B2D2 B2AB| c2d2 e4| d2g2
+fgaf| g2g2 g4:|
+ |:d2g2 gfed| c2c2 c4| c2a2 agfe| d2d2  d2ef| g2g2 g2g2| c2d2 e4| d2g2
+fgaf| g2g2 g4:|
+
+X: 55
+T:Humours of Glendart
+M:6/8
+L:1/8
+C:trad
+R:jig
+K:D
+A |BAF ADD | FEF DFA | BAF ADD | FEE E2  A|BAF ADD | FEF DFA | dcB AFE |
+ FDD D2 :|
+|:A |def d2B | ABA AFA | def d2f | efe edB |def edB | ABA AFA | dcB AFE
+| FDD D2 :|
+
+X: 56
+T:Pop Along Polka
+M:2/2
+L:1/8
+Q:150
+C:Trad
+R:Polka
+K:C
+EF | G2e2| F2d2|  E2c2| cGEC |F2 D2 | DEFA | G2 E2 | E2  EF | G2e2| F2d2
+|  E2c2| cGEC | B,CDE | FGAB | c2 c2 | c2 |
+ef g2 | c2 c2 | fg a2 | d2 d2 | c2 BA | BcdB | AGcB | cd e2 | ef g2 | c2
+ c2 | fg a2 | d2 d2 | c2 BA |Bcdf | ed c2 | c2c2 :|
+
+X: 57
+T:Green Groves of Erin
+M:4/4
+L:1/8
+C:Trad
+R:Reel
+K:G
+A2 cA eAcA | G2 Bd gdBG | A2 cA eAcA | BEED EABG | A2 cA eAcA | G2 Bd gd
+BG | A2 cA eAcA | BEEF GABd :|
+ea a2 ea a2 | eg g2 eg g2 | ea a2 ea a2 | edef gedg | eaag bgag | edef g
+3e | dega bgag egfa gedB :|
+
+X: 58
+T:Cook in the Kitchen
+M:6/8
+L:1/8
+C:Trad
+R:Jig
+K:G
+E | DGG GAG | FDE =F2 E | DGG GFG | Add cAG  | DGG GAG | FDE =F2 d | cAG
+ FGA | BGG G2 :|
+A | BcB BAG | ABA AGF | GAG GFG | Add cAG | BcB BAG | ABA ABd | cAG FGA
+| BGG G2 :|
+B | d2 e f2 g | a2 g fed | cAG FGA | Add cAG | d2 e f2 g | a2 g fed | cA
+G FGA | BGG G2 :|
+
+X: 59
+T:Vandalls of Hammerwich
+M:2/4
+L:1/4
+Q:60
+C:Trad
+S:MO
+K:G
+|:GBBB | GBBB | d2c2 |B< B3  A/2 | GBBB | GBBB | dcAF | [1 G4 :| [2 GABc
+ |]
+|:d2 d2  | d <d3 d/2 |  egfe | eddd | dccc | cBB G/2B/2 | dcAF |G4 :|
+
+X: 60
+T:Butterfly, The
+S:Trad
+C:
+R:slip jig
+D:
+M:9/8
+L:1/8
+K:E modal
+|:B2E G2E F3|B2E G2E FED|B2E G2E FGA|B2d d2B AFA:|
+|:B2=c e2f g3|B2=c g2e dBA|B2=c e2f g2a|b2a g2e dBA:|
+|:B3 B2A G2A|B3 BAB dBA|B3 B2A G2A|B2d g2e dBA:|
+
+X: 61
+T:Star Of The County Down,The
+M:4/4
+L:1/8
+S:Trad
+K:D
+|CE F2 F2 F2| EF A2 A2 B2| AB c2 BA F2| EC E6|
+CE F2 F2 F2| EF A2 A2 B2| AB c2 BA F2| E2 F6|
+cc e2 c2 c2| BA B2 B2 B2| AB c2 BA F2| EC E6|
+CE F2 F2 F2| EF A2 A2 B2| AB c2 BA F2| E2 F6|
+
+X: 62
+T:Black Joke
+M:6/8
+L:1/8
+Q:120
+S:Trad Morris
+R:Jig
+K:G
+D|DGG GFG|AcB AGF|GAB dcB|AcB AGF|G3E3|DEFG2:|
+d|B2dd2d|eded2c|B2dd2 d|eded2c|B2BBAG|AcB AGF|
+GAB dcB|AcB AGF|G3E3|DEFG3:|]
+
+X: 64
+T:Galopede
+M:4/4
+L:1/8
+C:Trad
+S:Yarmouth Reel
+R:Reel
+K:G
+|:dc | B2Bc A2AB | G2G2 G2AB | cBcd edcB | A2A2 A2dc |!
+B2Bc A2AB | G2G2 G2AB| cBAG FGAF | G2G2 G2:|!
+dc | B2gf e2ed | dcBc A2dc | B2gf edcB | A2A2 A2dc |!
+B2gf e2ed | dcBc A2dc | BdcB AcBA | G2G2G2 Bc ||!
+d2 d2 d2 g2 | d2 d2 d2 g2 | d2 d2 edcB | A2A2A2 Bc |!
+d2 d2 d2 g2 | d2 d2 d2 g2| edcB dcBA | G2G2G2 ||
+
+X: 65
+T:Girl With The Blue Dress On
+M:4/4
+L:1/8
+C:Trad
+S:Bear Session
+R:Polka
+K:G
+|: Bc | d2 Bd c2 Ac | B2 G2 GFGB | A2 F2 FEFG | A2 G2 G2 Bc | d2 Bd c2 A
+c | B2 G2 GFGB | A2 F2 FEFG | A2 G2 G2 :|
+|:d2 | G2 Bd g3 f | f2 e2 e4 | D2 FA f3 e | e2 d2 d4 | G2 Bd g3 f | f2 e
+2 e2 g2 | fg af e2 f2 | g6 :|
+
+X: 66
+T:John Ryan's
+M:2/4
+L:1/4
+C:Trad
+R:Polka
+K:D
+dd B/c/d/B/|AF AF|dd B/c/d/B/|AF ED|
+dd B/c/d/B/|AF Ad/e/|fd e/d/c|1 d2 d2:|2 d2 d>e||
+|:fd de/f/|gf ed/e/|fd Ad|fd/f/ a>g|
+fd de/f/|gf ed/e/|fd e/d/c|1 d2 d>e:|2 d2 d2||
+
+X: 67
+T:Denis Murphy's
+M:6/8
+L:1/8
+C:Trad
+R:Slip Jig
+K:D
+B|A2D FED|F2A A2f|g2ef2d|e2d Bcd|A2D FED|F2A A2f|a2f efe|d3 d2:|!
+A|d2e f3|gfe f3|gfef2d|e2dB2A|d2e f3|gfe f2g|a2f efe|d3 d2:|
+
+X: 68
+T:Fiery Clock Fyece
+M:6/8
+L:1/8
+C:Trad
+R:Slip Jig
+K:G
+|: d | g2 g G2 A | B2 c d2 e | =f2 f A2 B | c2 d e2 f | g2 g G2 A | B2 c
+ d2 d | efg a2 f | g3 g2 :|!
+|: G/2A/2 | B2 B GAB | c2 B A2 G | F2 E D2 E | F2 G A2 ^A | B2 B GAB | c
+2 B A2 G | FED E2 F | G3 G2 :|
+
+X: 69
+T:La Morisque
+M:4/4
+L:1/4
+Q:120
+C:Susato
+S:Bear Sessions
+K:G
+D|B/2c/2 dde | d3c |B GGA | F2D2 |B/2c/2 dde |d3c |B GGA | G3 :| !
+|: A| BGGA|BGcA|BGGA|F2D2| BGGA|BGcA|BGGA|G3:|
+
+X: 70
+T:Bear Dance
+M:4/4
+L:1/8
+S:Bear Sessions
+K:Em
+B2E2E3A|B2E2E3A|G2G2F2G2|A6GA|B2B2A2A2|G2G2F4|E2G2FED2|E8:|!/
+|: E2GGE2G
+2|FED2D4|E2GGE2G2|A6GA|B2B2A2A2|G2G2F4|E2G2FED2|E4:|!
+
+X: 71
+T:Lindisfarne
+M:3/4
+L:1/8
+Q:120
+C:Matt Seattle 1990
+R:Waltz
+K:D
+A2 | d3 efg | a3 fdA | B2 g2 e2 | d2 c2 A2 | d3 e fg |a3 fdA | B2 g2 f2
+| e4  fg |  a3 fdA| B3 Bgf  | e3 dcB | A3  efg |a3 fdA
+| B2 g2 e2 |A2 d2  c2| d4 :|
+
+|:f2 | e3 fge | a3 fed |B2g2e2 | d2c2A2 | e3 fge | a3 gfe | B2g2f2 | e3
+ efg |a3 fed |
+B3 Bgf  | e3 dcB | A3  efg |  a3  fdA| B2 g2 e2 |A2 d2 c2| d4 :|
+
+X: 72
+T:My Darling Asleep
+M:6/8
+L:1/8
+R:jig
+K:D
+fdd cAA|BAG A2G|FAA def|gfg eag|fdd cAA|BAG A2G|FAA def|1 gec d2e:|2 gec
+ d2z||
+|:FAA Add|FAA BGG|FAA def|gfg eag|fdd cAA|BAG A2G|FAA def|1 gec d2A:|2 g
+ec d2e||
+
+X: 73
+T:Sixpenny Money
+R:jig
+M:6/8
+K:D
+fAA fAA|BAG FGE|~D3 AFA|Bcd ede|fAA fAA|BAG FGE|~D3 AFA|dfd e2d:|
+|:~f3 gfg|afd ede|fef gfg|afd e2d|~f3 gfg|afd edB|~A3 AFA|dfd e2d:|
+
+X: 74
+T:Cliffs of Moher, The
+R:jig
+M:6/8
+K:G
+aga bag|eaf ged|c2A BAG|EFG ABd|eaa bag|eaf ged|c2A BAG|EFG A3:|
+|:efe dBA|efe dBA|GAB dBA|GAB dBd|1 efe dBA|efe dBA|GAB dBG|
+EFG A3:|2 ~e3 dee|cee Bee|EFG BAG|EDB, A,3||
+
+X: 75
+T:Lannigan's Ball
+R:jig
+M:6/8
+K:D
+EFE G2A|B2A Bcd|DED F2G|ABA AFD|EFE G2A|B2A Bcd|edB dBA|1 BGE E2D:|2 BGE
+ E3||
+|:e2f gfe|fag fed|e2f gfe|fdB B3|e2f gfe|fag fed|edB dBA|1 BGE E3:|2 BGE
+ E2D||
+
+X: 76
+T:Paddy Clancy's
+R:jig
+M:6/8
+K:D
+afd edB|d2B AFA|dcd ede|fdf efg|afd edB|d2B AFA|dcd ede|1 fdd d2f:|2 fdc
+ d2e||
+~f3 ~g3|fgf fed|fef gfg|afd e2d|~f3 ~g3|fgf fed|~f3 ede|1 fdc d2e:|2 fdd
+ d2f||
+
+X: 77
+T:Behind the Haystack
+T:Munster Buttermilk
+M:6/8
+L:1/8
+R:Jig
+K:D
+A| d2e fdB | d2e fdB | AFE EFE | AFE EFA |
+d2e fdB | d2e fdB | AFD D2B | AFD D2 :|
+|:B2B BAF | ABc d2B | AFE EFE | AFE EFA |
+B2B BAF | ABc d2B | AFD D2B | AFD D3 :|
+|:g3 f3   | ede fdB | AFE EFE | AFE EFA |
+gag fgf | ede fdB | AFD D2B | AFD D2 :|
+
+X: 78
+T:Lilting Banshee, The
+R:Jig
+M:6/8
+K:G
+EAA EAA|BAB G2A|Bee edB|def gfg|\
+eAA eAA|BAB G2A|Bee edB|dBG A3::
+eaa age|dBA G2A|Aee edB|def gfg|\
+eaa age|dBA G2A|Bee edB|dBG A3:|
+
+X: 79
+T:Connaught Man's Rambles, The
+M:6/8
+R:jig
+K:D
+AG|FAA dAA|BAB dAG|FAA dfe|dBB BAG|FAA dAA|BAB def|gfe dfe|dBB B2:|
+e|fbb faa|fef d2e|fbb faa|fed ede|fbb afe|dBc def|gfe dfe|dBB B2:|
+
+X: 80
+T:Friendly Visit
+M:4/4
+L:1/8
+R:Hornpipe
+K:G
+BA|(3GFG DG BGBd|(3cBc AB cdef|g2df ecAG|FGAB cAFD|(3GFG DG BGBd|
+(3cBc AB cdef|gdBG FAdc|B2G2 G2:|
+(3GBd|g2dB GBdg|e2cA FGAg|f2ed ^cdeg|f2 (3efe dcBA|(3GFG DG BGBd|(3cBc A
+B cd
+ef|gdBG FAdc|B2G2 G2:|
+
+X: 81
+T:Fairies' Hornpipe, The
+M:C|
+L:1/8
+R:hornpipe
+K:G
+(3DEF|GFGA BdcB|AGAB G2Bc|dgfg edcB|cedB A2Bc|
+dggf g2fe|dedc B2AG|ABcA dcAF|G2GF G2:|
+|:Bc|dggf g2fe|dedc B2AG|ABcd edcB|Add^c d2B=c|
+dggf g2fe|dedc B2AG|ABcA dcAF|G2GF G2:|
+
+X: 82
+T:Lemmie Brezil's
+M:4/4
+L:1/8
+R:Hornpipe
+K:D
+AG | F2A2B2A2 | defd B2 AG | FAdA Bcdf | e2d2e2  AG | F2A2B2A2 | defd B2
+ AG | FAdA Bcdf | e2e2d2 :|
+| fg | afdf afdA | defd B2 AG | FAdA Bcdf | e2d2e2 fg | afdf afdA | defd
+ B2AG | FAdA Bcdf  e2e2d2 :|
+
+X: 83
+T:Innocent Hare
+M:3/4
+L:1/8
+Q:120
+K:D
+A | d2 d e2 e | f2 f g2 g | a2 adef | e2 e d2 :|
+f | gbg e2 d | c2 B A2  f | gbg e2 d | c2 B A2 |
+| A | d2 d e2 e | f2 f g2 g | a2 adef | e2 e d2 |
+
+X: 84
+T:La Schottische
+M:4/4
+L:1/8
+Q:140
+R:Schottische
+K:D
+F2 G2 A2 Bc | d2 F2 A4 | BA GF E3 F | GA Bc B2 A2 | F2 G2 A2 Bc | d2
+ F2 A4 | BA GF EG FE | D2 D2 D4 :|
+|: d2 d2 c2 c2 | B2 B2 A4 | BA GF E3 F | GA Bc B2 A2 | d2 d2 c2 c2 | B2
+B2
+A4 |BA GF EG FE | D2 D2 D4 :|
+
+X: 85
+T:Hunting the Hare
+M:4/4
+L:1/8
+S:Bear Sessions
+K:D
+D2 | d2 D2 FG A2 | B2 ed cB A2 | d2 D2 FG A2 | B2 fe d2 A2 | d2 D2 FG A2
+ | B2 ed cB A2 | d2 D2 FG A2 | B2 fe d2 :|
+e2 | fede fede | f2 fg fedf | e2 ef e2 f2 | g2 f2 e2 A2 | d2 D2 FG A2 |
+B2 ed cB A2 | d2 D2 FG A2 | B2 fe d2 :|
+
+X: 86
+T:Durham Rangers
+M:4/4
+L:1/8
+S:Bear Sessions
+K:D
+FG | ABAF A2 de | f2 e2 d2 A2 | BcdB ABAF | G2 E2 E2 FG | ABAF A2 de | f
+2 e2 d2 A2 | BcdB ABAG | F2 D2 D2 :|
+fg | afdf afdf | edcB A2 f2 | g2 bg f2 af | g2 e2 e2 FG | ABAF A2 de | f
+2 e2 d2 A2 | BcdB ABAG | F2 D2 D2 :|
+
+X: 87
+T:Princess Royal
+M:4/4
+L:1/4
+S:Abingdon
+P:AABCBCB
+K:G
+d/2c/2|BAGd/2c/2|BA Gg|e3/2d/2 ce|d3/2c/2 Bd|
+cBAGF/2G/2A/2F/2 Dd/2c/2|\
+B/2A/2B/2G/2 AFG2 G:|
+e3/2e/2 ed|efg2gfed|B/2A/2G/2B/2 A
+2|\
+GG A3/2A/2B/2A/2G g3/2f/2|
+gde2|dBc2|cB AG|\
+F/2G/2A/2F/2Dd/2c/2|B/2A/2B/2G/2 AF|G2 G||
+dc |B2A2|G2 dcB2 A2|G2 g2|e3dc2 e2|d
+3c|
+%  ABC2Win Version 2.1 28/04/2000
+
+X: 88
+T:The Quaker
+M:4/4
+L:1/8
+C:Trad
+S:Bear Sessions
+K:G
+A2|B2B2 AGFE | E2 D2 D3 E | F2 F2 FEFG| A2G2G3B|d2edc2B2|A2E2E2c2|BAGFE2
+F2|G4G2:|
+K:D
+FG|A2A2B2B2| AGFGA2BA|GFEFG2AG|FEDEF3G|A2A2B2B2|AGFGA2BA|GFEF GABc|d6:|
+FG|A2A2B2B2| AGFGA2BA|GFEFG2AG|FEDEF3G|A2A2B2B2|AGFGA2BA|GFEF GABc|d4c4:
+|!
+"alternative bar" |^G2A2^A2B2|
+
+X: 90
+T:Top of the Cork Road
+T:Father O'Flynn
+M:6/8
+L:1/8
+S:Trad Irish
+R:Jig
+K:D
+A|dAF DFA | ded cBA|  d2d efg |fdf ecA| dAF DFA | ded cBA|  d2d efg | fd
+c d2:|
+ e |f2f fga |ecA ABc|dcd Bed |cAA A2 =c |B2B BAG | AFD DFA | dcd efg| fd
+c
+d2 :|
+
+X: 91
+T:Dionne Reel
+M:4/4
+L:1/8
+R:Reel
+K:D
+B | Adfd gdfd | Adfd edcB | Adfd gdfd | egec d2 cB :|!/
+afbf afde | f2 ed bcdf | afbf afde | f2 ec d2 fg :|!/
+Adfd gdfd | Adfd edcB | Adfd gdfd | egec d2 cB:|!/
+afbf afde | f=fed Bcdf | afbf afde | f2 ec d2 fg :|!/
+B2 AG B2 AG | _BBAG EFGA | B2 AG B2 AG | FBDF G4 :|!/
+2FA DAFD | G2 BD G2 3B=cB| Acef gece | defg abaf | D2 FA dAFD | G2 Bd g2
+ 3fgf |
+Acef gedA | dfec d2 cB | D2 FA dAFA | D2 Bd g2 3fgf | Acef gedA | 3ded 3
+cdc 3BcB 3ABA |
+D2 FA dAFA | D2 BG =c2 3B=cB | Acef gedA | dfec defg |
+a fd adfd | g2 e=c g=ce=c | a2 fd adfd | gece defg :|
+
+
+% Output from
+ABC2Win  Version 2.1 i on 16/05/2000
+
+X: 92
+T:Balance the Straw
+M:6/8
+L:1/8
+C:Trad
+S:Davenport
+R:jig
+K:G
+D| G2 B BAB | c2 A ABc | ded cBA | B2 GG2 :|
+ |d2dd2B | c2BB2A| d2dd2B | c2BA2D| G2 B BAB | c2 AABc | ded cBA | B2 GG
+2:|
+
+X: 93
+T:Young Collins
+M:4/4
+L:1/8
+S:Davenport
+K:G
+GABc d2 d2 | c2e2A2Bc | d2d2e2dc| B2A2G4:|
+E2D2EFG2| A2A2G3A|B2A2Bcd2|e2e2dcBA|
+GABc d2 d2 | c2e2A2Bc | d2d2e2dc| B2A2G4:|
+
+X: 94
+T:Dick Gossip
+M:4/4
+L:1/8
+C:Trad
+R:Reel
+K:D
+ef | gB ~B2 gBaB | gB ~B2 gfed | cAeA fAeA | cAef gfef | gB ~B2 gBaB | g
+B ~B2 gfed | cdef gfec | dfec d2 :|
+DE | F2 AF GFED | F2 AF GFED | E2 EF GFED | E2 EF GFED | F2 AF GFED | F2
+ AF GFED | cdef gfec | dfec d2 :|
+
+% Output from ABC2Win  Version 2.1 f on 06/06/2000

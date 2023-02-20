@@ -1,0 +1,32 @@
+X: 701
+T: New Claret
+R: slip-jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.70 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+G2G TB2G (B/c/d)B | GAG TB2G (B/c/d)B |\
+E2E C2C (E/F/G)E | DED TF2D (F/G/A)F :|
+|:\
+G2G g2d (B/c/d)B | GAG g2d (B/c/d)B |\
+c2c e2c (e/f/g)e | ded Tf2d (f/g/a)f :|
+|:\
+gdB GAB gdB | gdB GAB gdg |\
+ece ece ece | (a/g/f/e/d) Tf2d (f/g/a)f :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g3 g3 g3 | g3 g3 g3 |\
+c3 c3 c3 | d3 d3 d3 :|\
+|:\
+g3 g3 g3 | g3 g3 g3 |
+c3 c3 c3 | d3 d3 d3 :|\
+|:\
+g3 g3 g3 | g3 g3 g3 |\
+c3 c3 c3 | d3 d3 d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

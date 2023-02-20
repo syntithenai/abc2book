@@ -1,0 +1,49 @@
+X:1
+T:Exercises - Page 3
+M:C
+L:1/8
+Q:80
+C:
+S:Exercise
+K:HP
+{g}A2A{g}A{g}A | \
+B2{g}B2B{g}B{g}B | \
+c2{g}c2c{g}c{g}c |
+d2{g}d2d{g}d{g}d | \
+e2{g}e2e{g}e{g}e | \
+f2{g}f2f{g}f{g}f |
+G2{g}G2G{g}G{g}G | \
+a2{g}a2a{g}a{g}a | \
+e |
+A2{g}ABc2{g}cd | \
+e2{g}e2a2{g}a2 | \
+f2{g}fdB2{g}BG |
+{g}G2Bd{g}d2e2 | \
+e{g}ABc{g}Bcd{g}cde{g}def{g}efg | \
+e{g}fed{g}edc{g}dcB{g}cBA{g}BAG |
+e | \
+{g}Aceaec{g}BdG{g}A2 | \
+eaec{g}Bd{g}f{g}A2 | \
+e{g}e2c{g}Bc{g}cBA{g}Bcd{g}f2 |
+A2{G}A2A{G}A{G}A | \
+eB{G}Ac{G}Ad{G}A | \
+e{g}eB{G}A{g}fc{G}A{g}Bcd{G}A2 |
+e2{A}e2e{A}e{A}e | \
+e{g}Ae{A}eae{A}e{g}fe{A}e{g}ce{A}e{G}A | \
+M:C| |:
+{g}G3/2A/2{g}B/2d3/2 | \
+{g}f3/2e/2{A}e/2d3/2 | \
+{g}G3/2A/2{g}B/2d3/2 |
+{g}e3/2a/2f/2{g}e3/2 | \
+{g}G3/2A/2{g}B/2d3/2 | \
+{g}f3/2e/2{A}e/2f3/2 |
+a3/2{g}a/2f/2{g}d3/2 | \
+{g}B3/2{G}A/2{g}B/2d3/2 :: \
+{g}A3/2B/2{G}A3/2B/2 |
+{g}d3/2e/2{g}d/2c3/2 | \
+{g}B/2e3/2{A}e3/2f/2 | \
+a3/2g/2f/2{g}e3/2 |
+{g}A3/2B/2{G}A3/2B/2 | \
+{g}d3/2e/2{g}f/2g3/2 | \
+a3/2{g}a/2f/2{g}d3/2 |
+{g}B3/2{G}A/2{g}B/2d3/2 :|

@@ -1,0 +1,32 @@
+X: 0532
+T: the Labyrinth
+%R: jig
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1808, No. 5 p.3 #2
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances5
+M: 6/8
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+GA |\
+B2B {c}BAB | (d2c) ({d}cBc) | {B}A2A (Ad).c | B3 z(d/c/B/A/) | G2G {A}GFG | (BA).A A2G | (FED) (DEF) | G3- G |]
+Bc |\
+d2d dcB | e2d d2B | a2A (Adc) | B3 z(d/c/B/A/) | G2G {A}GFG | {B}A2A A2G | FGA GEA | D3- D(.g.a) |
+b2b ({c'}bab) | (d'2c') ({d'}c'bc') | {g}f2f (fd').c' | b3 z(d'/c'/b/a/) | g2g {a}gfg | (ba).a a2g | (fed) (def) | g3. g |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=D
+z2 |\
+GBd GBd | Gce Gce | FAd FAd | GBd GBd | EGB EGB | CEA CEA | DAc DAc |
+GBd G |] z2 | [B2G2][BG] BAG | c2B B2G | FAd FAd | GBd G2z | EGB EGB | CEA ^CEA | DFA A,^CG | FAF "^Harp Solo."D2z |
+GBd GBd | Gce Gce | FAd FAd | GBd GBd | EGB EGB | CEA CEA | DAc DAc | GBd G |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off two Couples, back again,
+%% down the middle up again and Pousette.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

@@ -1,0 +1,28 @@
+X: 292
+T: Miss Balfour's Strathspey
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.29#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slow"
+R: strathspey
+M: C
+L: 1/8
+K: G
+V: 1
+G |\
+(D<G)~G>F (E<A)~A>F | (G<B)~B>A {A}G>F {F}ED |\
+DG~GF Ec~cB | (Ae)dF G2G :|
+B |\
+Gg~f>e {e}d>BGF | (Ecc)A/G/ (G/F/).A/.F/ DE/F/ |\
+Ggdg e>cAG | (F/A/d) (d/^c/d/e/) (d/e/d/=c/) ({c}~B/A/B/G/) |
+(D<G)GF (EA)AF | .G/.A/.B/.c/ .d/.e/.f/.g/ .a/.b/.c'/.d'/ He'2 |\
+DGGF Ec~cB | (A/B/c/).e/ dF {F}G2 G |]
+V: 2 clef=bass middle=d
+z |\
+[g2d2B2][g2d2B2] [a2e2^c2][a2e2^c2] | [g2d2B2][g2d2B2] [g2d2B2][g2e2c2] |\
+[g2d2B2][g2d2B2] [g2e2c2][g2e2c2] | z^c'd'd gdG :|
+z |\
+zbag zgGz | zce^c dADz |\
+g2b2 c'ac'^c' | [d'4d4] [g4G4] | 
+[g2d2B2][g2d2B2] [a2e2^c2][a2f2d2] | [gdB]zz2 f/g/a/b/ H[c'2g2e2c2] |\
+[g2d2B2][g2d2B2] [g2e2c2][g2e2c2] | z^cdD GgG |]

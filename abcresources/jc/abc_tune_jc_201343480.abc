@@ -1,0 +1,14 @@
+X:732
+T:Tavern in the Town
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=120
+%%MIDI chordname dim 0 3 6 9
+M:2/2
+L:1/4
+%%MIDI ratio 3 1
+K:C
+G | "C"G3G | "/"AG ^FG | "/"E2 G>G | "/"G3 G | "C"G3G | "/"AG ^FG | "G"D2 G>G | "/"GF ED |
+"C"C2 E2 | "C7"G2 c2 | "F"dc Bc | "F#dim"A3 A | "G"B3 B | "G7"BG AB | "C"c2 c>c | "/"cz G>G |
+"G"GB BB | "G7"BG FD | "C"Cc cc | "/"cG EC | "G"B,B BB | "G7"BG AB | "C"c2 "F#dim"A2 | "G7"G3 G |
+"C"G3G | "/"AG ^FG | "/"E2 G>G | "/"G3 G | "C"G3G | "/"AG ^FG | "G"D2 G>G | "/"GF ED |
+"C"C2 E2 | "C7"G2 c2 | "F"dc Bc | "F#dim"A3 A | "G"B3 B | "G7"BG AB | "C"c2 c>c | "/"c3 |]

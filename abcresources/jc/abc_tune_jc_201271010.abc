@@ -1,0 +1,18 @@
+X:207
+T:Duke of Kent's Waltz
+C:Cahusac, 1801
+N:TWO B's for Colin Hume's interpretation.
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=120
+M:3/4
+L:1/8
+K:G
+P:A
+|: "G"gf ga g2 | "D7"f2 de fd | "G"g2 G2 G2 | "G"G4 d2 |\
+"C"e2 e2 f2 | "G"g2 d2 B2 | "Am"c2 c2 B2 | "D7"B2 A4 :|
+P:B
+"D"D2 cB c2 | "G"Bd cB AG | "D"D2 cB c2 | "G"Bd cB AG |\
+"C"ed cd ef | "G"gf ed cB | "Am"ed cB AG | "D7"FA GF ED |
+"G"GF GA Bc | "D"d^c de fd | "Em"g2 G2 G2 | "C"G4 e2 |\
+"Am"^d2 e2 e2 | "G"^c2 d2 d2 | "D7"c2 A2 F2 | "G"G6 |]

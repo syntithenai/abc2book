@@ -1,0 +1,30 @@
+X: 1
+T: R\'echauds dans le grenier
+C: Marc Lemonnier
+R: waltz
+S: handout at NEFFA 2016 from Mark Vidor p.18
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+|:\
+"C"e6 | "G"dz2 ez2 | "Am"cz2 Az2 | "D"d6 |\
+"F"cB Ac BA | "E7"^G2 e3 d | "F"c2 z2 d2 | "C"e4 z2 |
+"C"e6 | "G"d3 e3 | "Am"c3 A3 | "D"d6 |\
+"F"c2 B2 A2 | "Em"B2 E2 G2 |1 "Am"A6- | A2 z4 :|2 "Am"A6 | z2 |]
+|: Bc de |\
+"Dm"fe dc Bc | "G"d4 G2 | g4 ed | "Am"d4 c2 |\
+"Dm"fe dc BA | "E7"^G4 E2 | E2 c2 B2 | "Am"B4 A2 |1 Az :|2 "Am"A6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+|:\
+c6 | Bz2 cz2 | Az2 cz2 | A6 |\
+A2 G2 F2 | E2 c2 zB | A2 z2 G2 | c4 z2 |
+c6 | B3 c3 | A3 E3 |\
+^F6 | A2 e3 d | E4 D2 | |1 E6- | E2 z4 :|2 E6 | z2 |]
+|: z4 |\
+d3 e d^c | d6 | B2 c2 d2 |\
+f4 e2 | d3 e dc | B6 | ^G2 A2 B2 | d4 c2 | c2 :|2 c6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

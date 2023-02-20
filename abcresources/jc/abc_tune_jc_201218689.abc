@@ -1,0 +1,17 @@
+X:13
+T:La Belle Catherine
+M:2/4
+Q:1/4=100
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d2 {e}f/e/d/e/|fd dc|Be e/f/e/d/|cA Ac|d2 {e}f/e/d/e/|fd dc|Be d/c/B/A/|d2 d2::
+FA AG|FA AG|FA e/f/e/d/|cA AG|F/G/A/B/ AF|FA AB/c/|d>e g/f/e/d/|Bcdz:|
+%%titleleft
+P:2nd Fife
+F2 {G}A/G/F/G/|AF F2|G2 G/A/G/F/|EEEE|F2 {G}A/G/F/G/|AF FA|GG EE|F2 F2::
+DF FD|DF FD|FA G/A/G/F/|EEEE|D/E/F/G/ FE|DF FG/A/|d>c A>d|Bcdz:|

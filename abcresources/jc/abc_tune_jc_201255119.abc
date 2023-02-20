@@ -1,0 +1,36 @@
+X: 1
+T: Border Reel
+P: Longways for as many as will
+%R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.43
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: "Each Strain twice." Repeats corrected to match this instruction.
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+cAA eAA | cAA e2c | dBB fBB | dBB f2e |\
+cAA eAA | cAA e2c | d2e fga | edc TB2A :|
+|:\
+cAA f/g/a/g/f/e/ | cAA e2c | d2B f/g/a/g/f/e/ | dBB f2e |\
+cAA f/g/a/g/f/e/ | cAA e2c | d2e fga | edc B2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+a3 A3 | a3 a3 | b3 B3 | b3 B2g |\
+a3 A3 | a3 A3 | f2e d2c | cBA e2A :|
+|:\
+a3 A3 | a3 A3 | b3 B3 | b3 b2g |\
+a3 A3 | a3 A3 | f2e d2c | cBA e2A :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The two 1st Men whole figure round their Partners,
+%% then the 1st Man lead his Partner thro' the 2d Cu.
+%% the two 1st We. figure round the Men and the Wo lead her Partner thro :|
+%% the 1st Man sett to the 2d Wo and turn single.
+%% the 1st Wo. sett to the 2d Man, and 1st Cu. cast off.
+%% the 1st Man takes his Partner by both hands and draws her quite round the 3d Cu. and round the 2d Cu. :|
+%%endtext

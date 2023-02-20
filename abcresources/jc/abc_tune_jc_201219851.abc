@@ -1,0 +1,33 @@
+X: 2
+T: Cotillon II.     la Comme're.
+%R: jig
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #2
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The page actually has M:C, but the music is 6/8 time.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+d |\
+(a>b)a (af)d | (ec)A A2G | (FAd) (fdA) | (GBe) (geB) |\
+(Acf) (afc) | B(ba) (^ge)a | (fd)b (^ge)a | ab^g a2 :|
+|: a |\
+(afe) (^df)B | (agf) g2g | (ged) (ceA) | (gfe) f2a |\
+a(AG) F2a | g(GF) E2g | f(FE D)(ba) | (gfe) d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z |\
+d3 f3 | a3 c'3 | d'3 d3 | e3 e'3 | f3 F3 | d2d' e'2c' |
+d'2b e'2c' | c'2e' a2 :||: z | z2a b3 | ^d'3 e'2z | z2g a3 | c'3 d'3 |
+f2e d2f | e2d c2e | d2e f2g | a2A d2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round: four lead up, during which, the other four go the Chasse\`e in the
+%% Corners: the other four lead up & the first four go the Chasse\`e in the Corners;
+%% Every Gentleman turn his Partner into her Place.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.

@@ -1,0 +1,24 @@
+X: 1503
+T: the Contradiction
+T: an frio.trai.dea.cd.
+R: reel
+%S: s:8 b:16(4+4+4+4+4+4+4+4)
+B: O'Neill's 1850 "Music of Ireland" #1503
+O: J.O'Neill
+Z: transcribed by John B. Walsh, walsh@math.ubc.ca 8/23/96
+M: C|
+L: 1/8
+K: A
+"^A"[|] e !segno!\
+|  c2 ((3{d}cBA) (BE)ED | CEAc dfed | c2 ((3{d}cBA) GABc | defg afed ||
+|| c2 ((3{d}cBA) (BE)ED | CEAc dfed | c2 ((3{d}cBA) GABg | afec A/A/A A |]
+"^B"\
+[  g | aA A/A/A (aA)cA | GBEB EBEg | aA A/A/A (aA)cA | GBEB cAA ||
+|| g | aA A/A/A (aA)cA | GBEB EBEg | agfe fedc | dEFG A2 |]
+"^c"\
+[| e2 \
+|  ae(c'e) ae(c'e) | be(d'e) be(d'e) | c'e(e'e)c'e(e'e) | dcBA (EA)A2 ||
+|| ae(c'e) ae(c'e) | be(d'e) be(d'e) | c'e(e'e)c'e(e'e) | dcBA (EA)A2 |]
+"^D"\
+[| cefe cefe | dcBA (BE)E2 | cefe cefe | fagb afed ||
+|| cefe cefe | ((3fga) ec (BE)E2 | ecea fdfa | (gb)eg (ae)f!segno!d |]

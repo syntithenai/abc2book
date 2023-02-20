@@ -1,0 +1,32 @@
+X: 4303
+T: Mile End Assembly
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/8
+L: 1/8
+K: F
+%
+V: 1
+f/e/ |\
+f2c A2G | FAG F2f/g/ | a>ba Tg2f | efg c2f/g/ |\
+afd gec | fdc =B2g/f/ | e>fg G>c=B | c2C C2 :|
+|: g/f/ |\
+e2g c2a/g/ | f2a d2b | agf ed^c | d2d d2f/e/ |\
+dfb cea | Bdg A2f/e/ | def c>fe | f2f f2 |]
+%
+V: 2 clef=bass middle=d
+z |\
+a3 c'3 | d'3 z3 | f3 b3 | c'3 z3 |\
+f2z e2z | d2z G2=B | c2e g2G | c3- c2 :|
+|: z |\
+z2c'/b/ a3 | z2d'/c'/ b2g | a3 A3 | d3 z3 |\
+b2e a2f | g2e f2d | B3 c3 | F3- F2 |]
+%%begintext align
+First Cu. cast off, 1st Man hands round with the 3d Cu.
+1st Wo at the same time hands round with the 2d Cu. .|
+First Man Heys with the 3d Cu. 1st Wo.
+at the same time Heys with the 2d Cu. :|
+Six hands quite round .|
+First and 2d Cu. Right and Left quite round.
+%%endtext

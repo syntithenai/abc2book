@@ -1,0 +1,24 @@
+X: 1
+T: Welcome to your fool again
+N: Pub: J. Walsh, London, 1748
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.81 #341
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:81 #341
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: e>ae>d | c2B2 | A>GA>B | c>BA2 | B>cd>c | B>cd>c | B>AG>F | E2-E2 :|
+|: E>e E>F | E>e E>F | G>AB>c | Td2 c2 | f>e g>a | f>e g>a | c2 TB2 | A2- A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: A2e2 | A2e>d | c2e2 | A3z/a/ | e3z/a/ | e3z/a/ | b2B2 | e>ag>f & e>dc>B :|
+|: e2z2 | .e2z2 | e>fg>a | bgaA | d>cB>A | d>cB>A | e2E2 | A>ag>f & A3z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu. turn Right hands Single with his Partner and cast off .|
+%% Turn Left hands Single and cast up :|
+%% Cross over and half figure .|
+%% Lead thro' the 3d Cu. cast up and turn :|
+%%endtext

@@ -1,0 +1,20 @@
+X: 30122
+T: KING'S MARCH
+C:
+%R: march, hornpipe, reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.12 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Deleted rest in last bar of 1st strain, to fix the rhythm.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+a>g |\
+f2d>d d2f>d | c>eA>A A2d>c | BGgf edcB | c2A>A A2 d/c/d/e/ |\
+fdAF gecA | gbag f2df | egge ceec |d2d>d d2 :|
+|: AB/c/ |\
+d2d>d d2=c>c | =cBB>B B2^c>d | e>^de>f g>fe=d | c>ed>B A2B>c |\
+d>AF>D f>dA>F | g>ec>A a3g | f>f (3(def) e>e (3(cde) | d2d>d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - -

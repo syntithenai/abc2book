@@ -1,0 +1,16 @@
+X: 1
+T: the Mulberry Garden   (Am)
+T: the Maid in the Mill
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+O: Playford 1670
+B: Barlow #204 p.54 (with repeat in B part)
+B: Barnes v.1 p.83 (without repeat in B part)
+M: 6/8
+L: 1/8
+K: Am
+E \
+| "Am"A2B "C"cGE | "Dm"DEC "G"G2E | "Am"A2B cA2 | "E7"e3- e2E \
+| "Am"A2B "C"cGE | "Dm"DEC "G"G2E | "F"A2B cA2 | "C"e3- e2 |]
+e \
+| "Dm"fed "E7"e2B | "Am"cA2 "Dm"d2c | "G"Bcd "F(Am)"cBA | "E7"^G3- G2F "I"\
+| "E7"E2D C2B, | "Am"A,A2 ^G2A | "Dm"BEc "E7"B2A | "Am"A3- A2 |]

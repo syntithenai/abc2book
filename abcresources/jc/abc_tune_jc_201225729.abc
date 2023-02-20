@@ -1,0 +1,41 @@
+X: 9
+T: Cotillon IX.     la Culotte.
+%R: reel
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #9
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+f2(af) (cA)(GF) | (GA)(BA) (GE)(DC) |\
+F2(ag) (fe)(dc) | (dg)(bg) {f2}e4 |\
+f2(af) (cA)(GF) | (GA)(BA) (GE)(DC) |
+f2(ag) (fe)(dc) | (ed)(c=B) c4 :|\
+|:\
+e2(gb) (af)(ed) | (eg)(A^c) d2D2 |\
+d2(fa) (ge)(dc) | (df)(G=B) c2C2 |\
+f2(af) (cA)(GF) |
+(GA)(BA) (GE)(DC) |\
+F2(ag) (fe)(dc) | (dg)(bg) {f3}e4 |\
+f2(af) (cA)(GF) | (GA)(BA) (GE)(DC) |\
+(FA)(Bc) (dg)(ab) | (ag)(fe) {e2}f4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+f6 a2 | b2g2 c'4 | a4 f2a2 | b2g2 c'4 | f6 a2 | b2g2 c'4 | a2f2 d2e2 |
+f2g2 c4 :||: ^c4 d2f2 | g2a2 d4 | =B4 c2e2 | f2g2 c2c'b | a4 f2a2 | b2g2 c'4 |
+a4 f2a2 | b2g2 c'4 | f6 a2 | b2g2 c'4 | a2f2 b2g2 | c'2c2 f4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round; Chasse\`e a quatre, threaten with the right hand, & beat with the foot
+%% at the same time, the same with the left hand, and beat again with foot: four
+%% hands across: the other four do the same: Every Gentleman turn his Partner in
+%% to her Place.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.

@@ -1,0 +1,51 @@
+X:1
+%% Copyright 1946 Matt Dennis
+T:Angel Eyes
+M:4/4
+L:1/8
+C:Matt Dennis & Earl Brent
+Q:1/4=66
+%%staves (chords melody)
+K:Dm
+%%text (ballad)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Dm6"x4 "Bb7"x2 "A7"x2 | "Dm6"x4 "Bb7"x2 "A7"x2| "Dm6"x4 "Bm7b5"x4 | "Em7b5"x4 "A7"x4 |
+"Dm6"x4 "Bb7"x2 "A7"x2 | "Dm6"x4 "Bb7"x4 | "Dm/A"x4 "A7"x4 | "Dm6"x4 "T.A."x4 ||
+V:melody
+zDA_A- A3G | F2(3FDF- F4 | zDFA eedA- | A8 |
+w:Try to think* that love's not a-round,* still it's un-com-fort-'bly near.*
+zDA_A- A3G | FFDF- F3D | FDFD F2FD- | D8 ||
+w: My old heart* ain't gain-in' no ground* be-cause my an-gel eyes ain't here.*
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Dm6"x4 "Bb7"x2 "A7"x2 | "Dm6"x4 "Bb7"x2 "A7"x2| "Dm6"x4 "Bm7b5"x4 | "Em7b5"x4 "A7"x4 |
+"Dm6"x4 "Bb7"x2 "A7"x2 | "Dm6"x4 "Bb7"x4 | "Dm/A"x4 "A7"x4 | "Dm6"x4 x4 ||
+V:melody
+zDA_A- A3G | F2(3FDF- F4 | zDFA eedA- | A8 |
+w:An-gel eyes* that old dev-il sent,* they glow un-bear-a-bly bright.*
+zDA_A- A3G | FFDF- F3D | FDFD F2FD- | D6d2 ||
+w:Need I say* that my love's mis-spend,* mis-spend with an-gel eyes to-night.* So
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+V:chords
+"Cm7"x4 "F7"x4 | "Bbmaj7"x4 "(Bdim7)"x4 | "Cm7"x4 "F7"x4 | "Bmaj7"x4 x4 |
+"Bm7"x4 "E7"x4 | "Amaj7"x4 x4 | "D#m7"x4 "G#7"x4 | "Em7b5"x4 "A7"x4 |
+V:melody
+dd3- ddcF- | FF3- F4 | dd2d/c/ d2cF- | F6d2 |
+w:drink up* all you peo-*ple,* or-der an-y-thing you see.* Have
+^c4- c=B2c/B/ | EE3- E2z^F | ^GGGG- G2GA- | A8 ||
+w:fun,* you hap-py peo-ple,* the drinks and the laugh's* on me.*
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:chords
+"Dm6"x4 "Bb7"x2 "A7"x2 | "Dm6"x4 "Bb7"x2 "A7"x2| "Dm6"x4 "Bm7b5"x4 | "Em7b5"x4 "A7"x4 |
+"Dm6"x4 "Bb7"x2 "A7"x2 | "Dm6"x4 "Bb7"x4 | "Dm/A"x4 "A7"x4 | "Dm6"x4 "T.A."x4 |]
+V:melody
+zDA_A- A3G | F2(3FDF- F4 | zDFA eedA- | A8 |
+w:Par-don me,* but I got-ta run,* the fact's un-com-mon-ly clear.*
+zDA_A- A3G | FFDF- F3D | FDFD F2FD- | D8 |]
+w:Got-ta find* who's now "Num-ber One"* and why my an-gel eyes ain't here.*

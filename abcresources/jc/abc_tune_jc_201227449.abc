@@ -1,0 +1,46 @@
+%%text RJ Set 107
+
+
+X: 1
+T: Little Dutch Girl
+M:C|
+L:1/8
+K:A
+|: "A"ecef a3f | efed cB A2 | ecef a2 f2 | "E"e4 e4 |
+"A"ecef a3f | efed cBAB | cBAF "E"E2 F2 | "A"A3B A4 :|
+|: "A"e2 ef e2d2 | c3dc2 AB | cBAc "D"d2 c2 | "E"B3c B3e |
+"D" fefg a2f2 | "A"efed cBAB | cBAc "E"BAG2 | "A"A3B A4 :|]
+%%text Transition: Backup plays a big fat A7 on second half of last measure.
+
+
+X: 2
+T: Holloway
+M:C|
+L:1/8
+K:D
+|:\
+"D"fa2f a2fa- | abaf ed3 | "G"B3A BABc | dcdA "A"FA3 |
+"D"fa2f a2fa- | abaf ed3 | "G"B3A BcdB | "A"AFEF "D"D4 :|
+|:\
+"G"B4 d3e | fede fa3 | "Bm"b2 b2- b2a2 | b2a f2ed2 |
+"G"B4 d3e | fede fa2a | "Bm"b2a f2e df | "A"ed c2 "D"d4 :|]
+%%text Transition: cut last note REALLY short and play pickups.
+
+
+X: 3
+T: Walnut Gap
+O:from playing of Snake Chapman
+M:C|
+L:1/8
+K:G
+DE |\
+"G"GABd g2g2 | "C"(3fgf ec"Am7"A3 A- | "D"ABde fd ed | fd ed "G"BG2D |
+"G"GABd g2g2 | "C"(3fgf ec"Am7"A3 A- | "D"ABde fd ed- |1 dBAF "G"G2 :|2 dBAF "G"G3 A |]
+|:\
+"G"B3 B- BAGD | "C"Ec2E c3 D- | "D"DEFG A2 (A/B/c/d/) | e2 d4 B2 |
+"G"e2 dB- BAGD | "C"Ec2E c3 D- | "D"DFAF dFAF | "G"G- [G3B,3] [G4B,4] :|
+%%text Alternate B part
+|:\
+"G"G,B,DG BAGF | "C"ECEG c3 D- | "D"DEFG A2 (A/B/c/d/) | e2 d4 B2 |
+"G"e2 dB- BAGD | "C"Ec2E c3 D- | "D"DFAF dFAF | "G"G- [G3B,3] [G4B,4] :|
+

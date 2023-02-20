@@ -1,0 +1,16 @@
+X: 195
+T: Bonny Laboring Boy   #2
+R: jig, air
+%S: s:2 b:8(4+4)
+B: O'Neill's 1850 #195
+O: F.O'Neill
+Z: 1997 henrik.norbeck@mailbox.swipnet.se
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1B1 B2A2
+Q: "Tenderly"
+M: 6/8
+L: 1/8
+K: D
+"^A"[|] D !segno![| G2F  G2A | d2c AGF | G2F D2D | D3- D2 Hy|]
+"^B"[|] A |: d2e =f2e | d2B cdc | B2B A2G | A3 [1 ABc :|2 AG!segno!F |]

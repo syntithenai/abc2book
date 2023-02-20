@@ -1,0 +1,21 @@
+X: 332	% unnumbered
+T: Old South Schottische
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.33 #2
+R: shottish
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Collapsed written-out repeats, to save space and clarify the music.
+M: 4/4
+L: 1/8
+K: G
+V: 1 name="93"
+|:\
+B>AF>A G2D2 | B>db>a g4 |\
+[1 {fg}f2A>c f2e2 | d>BG>A B2c2 :|\
+[2 {fg}f2A>B c2F2 | G>FG>A !Fine!G4 ||
+K: D
+|:\
+A2A2 F>Ad>f |a>ga>b a4 |\
+"^gliss"{g}b2e>f g2c2 |[1 d>f (3(dcB) A4 :|[2 d>cd>e d4 ||[K:=f=c]
+|:\
+C>EG>c [e2G2][e2G2] | E>Gc>e g4 |\
+{fg}a2d>e f2B2 |[1 ce (3(cBA) G4 :|[2 c>Bc>d c4 |]

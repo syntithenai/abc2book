@@ -1,0 +1,28 @@
+X: 11651
+T: MANUEL AND ARMIDA
+C: Copyright.
+Q: "Slow and plaintively."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.165 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(EF) |\
+G2G2(GF) | E2E2(GA) | B2B2(c=A) | B2z2(cd) |\
+e2e2(fe) | c2c2(ec) | B2B2(cA) | (G2F2)EF |\
+G2G2(GA) | B2B2(GB) | c2(cd)(ef) | (e2d2)(ed) |\
+(cB)(GA)(Bc) | (c2B2)(ec) | B2G2(GF) | E2z2 |]
+(ef) |\
+g2f2(eg) | f2e2(df) | e2d2(c=B) | c2z2(ef) |\
+g2e2(Bc) | B2G2EF | G2B2(ce) | {e}d2z2(cd) |\
+e2f2(ed) | c2e2(dc) | (BA)(GF)EG | F2z2EF |\
+G2B2(Ac) | B2e2(dc) | B2G2(GF) | E2z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The above melody was composed after reading "The Exiles,"
+%% a dramatic sketch by Barry Cornwall.
+%%endtext
+%%sep 1 1 300

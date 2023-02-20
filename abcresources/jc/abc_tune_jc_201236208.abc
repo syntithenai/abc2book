@@ -1,0 +1,25 @@
+X: 21784
+T: MRS. McCASEY
+O: Irish air.
+Q: "Briskly."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.178 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(e/d/) |\
+c2A A>BA | G2G G>AG | A2A A>BA | (f3 e2) (e/d/) |\
+c2A A>BA | G2G GAG | A2A A>BA | c3 e2 :|
+|: G |\
+c2d e2f | g2a g2e | c2d e2f | g3- g2 (f/g/) |\
+a2f g2e | f2d e2d | c2A A>BA | (f3 e2) (e/d/) |
+c2A A>BA | G2G G>AG | A2A A>BA | (f3 e2) (e/d/) |\
+c2A A>BA | G2G G>AG | A2A A>BA | c3 e2 :|
+%%begintext align
+%% The comic song, "Billy O'Rourke's Ramble," is sung to the above air.
+%%endtext
+%%sep 1 1 300
+% - - - - - - - - - - - - - - - - - - - - - - - - -

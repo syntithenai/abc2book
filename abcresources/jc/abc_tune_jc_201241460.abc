@@ -1,0 +1,23 @@
+X: 4362
+T: Lord Balgonie's Favorite     A very old Highland Tune.
+%R: air, strathspey
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.3 p.36 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow with much Expression."
+K: Am
+% - - - - - - - - - -
+V: 1 staves=2
+E |\
+A2 A>B AG E2 | c2~c>e {e}d>c B<G |\
+A<A e2 A>G EC | D<D E>^G {G}AA, A, :: B, |\
+C2 TC>E {E}D>C B,D | ~C>B, A,C B,E H[E2^G,2] |
+!p!c2 Tce {e}d>c Bd | c>A (c/B/)A/G/ (EA).A :: B |\
+!f!c<c g2 TB>c d2 | {Bd}c>B Ac Be H[e2B2^G2] |\
+!p!E2 FE/D/ (EA)(Bd) | c>A (c/B/)A/G/ (EA).A :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | A2A2 ABc2 | a2a2 =g2g2 | a2a2 ABc2 | f2eE A2A :: z | A2A2 B2[E2^G2] | A2F2 E2HE2 |
+!p!a2a2 e2^g2 | a2e2 A2A :: z | !f!c2c'2 g>ab2 | a2f2 e2H[E2e2] | !p!c2dB (c.A)(^G.E) | A2eE A2A :|

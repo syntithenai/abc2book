@@ -1,0 +1,29 @@
+X: 1
+T: Mrs MacPherson of Inveran [ABCDEFAB]
+R: Reel
+O: Scotland
+M: 4/4
+C: P.M. G.S. McLennan
+Z: Richard Robinson <URL:http://www.leeds.ac.uk/music/Info/RRTuneBk/contact.html>
+K: D
+"A"\
+|: g | "D"f2af dfAd | f2af "A7"f2ef   \
+     |    e2ge ceAc | e2fg  "D"f2dy  "B":|\
+   A | "D"d2Ad dfAd | d2Ad "A7"d2cd   |
+     |    c2Ac ceAc | c2Ac  "D"e2dA   \
+    || "D"d2Ad dfAd | d2Ad "A7"d2cd   \
+     |    c2AB cdef | gfea  "D"f2d "fine"y|]
+"C"\
+|: g | "D"f2gf a2fg | a2fg "A7"f2ef   \
+     |    e2fe g2ef | g2ef  "D"e2dy  "D":|\
+   A | "D"d2Ad faef | dfed "A7"d2cd   |
+     |    c2Ac egdf | ceBc  "D"e2dA   \
+    || "D"d2Ad faef | dfed "A7"d2cd   \
+     |    c2AB Aceg | face  "D"e2dy  |]
+"E"\
+|: g | "D"f2ed a2fg | a2gf "A7"f2ef   \
+     |    e2dc g2ef | g2fe  "D"e2d  "F":|\
+   A | "D"d2Ad f2df | gfed "A7"d2cd  |
+     |    c2Ac e2ce | gedc  "D"e2dA  \
+    || "D"d2Ad f2df | "A7"gf ed "D"d2 cd \
+     | "A"cA "G"dB "A"ec "D"fd | "A7"ge dc "D"e2"d.C."d |]

@@ -1,0 +1,23 @@
+X: 32011
+T: A MUCH-ADMIRED GERMAN VALSE
+N: Bowing and Fingering arranged by W. B. Laybourn
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.201 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Fixed the mismatched repeat symbols in parts 2 and 4.
+M: 3/8
+L: 1/16
+K: A
+uE2 |\
+A2{B}AGA2 | A2(.B2.B2) | c2(dc)dB | e2(.c2.A2) |\
+A2{B}AGA2 | A2(.B2.B2) | c2(dc)dB | A4 :|
+|: ue2 |\
+aeceAe | decdBc | ABGAFG | EFCEAg |\
+aeceAe | decdBc | (dc)dcdB | A4 :|
+|: (uAB) |\
+c2{d}cBc2 | c2(.c2.c2) | B2{c}BAB2 | B2(c2e2) |\
+agfedc | fedcBA | GABcdB | A4 :|
+|: uE2 |\
+CEAECE | DFAFDF | CEAECE | B,DBAGE |\
+CEAECE | DFAFDF | (dc)dcdB | A4 :|

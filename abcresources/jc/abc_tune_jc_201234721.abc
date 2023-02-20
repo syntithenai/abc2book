@@ -1,0 +1,22 @@
+X: 20732
+T: MINUET
+C: Hook.
+%R: minuet, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.73 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B2(ABcd) | B2(ABcd) | (cBA)(BcA) | (G2F2)G2 |\
+(AD)(cD)(BD) | (AD)(cD)(BD) | (BA)(cB)(AG) | (GF)(AF)(ED) |\
+B2(ABcd) | B2ABcd | (cBA)(BcA) | (G2F2)G2 |
+(AD)(cD)(BD) | (AD)(cD)(BD) | (E>A)(G2F2) | G6 ::\
+B6 | A6 | G2G2G2 | G2F4 |\
+(dD)(^cD)(BD) | (AD)(GD)(FD) | (dD)(^cD)(BD) | (AD)(GD)(FD) |
+G2G2F2 | G2G2F2 | EGFED^C | D>ED4 |\
+B2(ABcd) | B2(ABcd) | c(BABc)A | (G2F2)G2 |\
+(AD)(cD)(BD) | (AD)(cD)(BD) | E>AG2F2 | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

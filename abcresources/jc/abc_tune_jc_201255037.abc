@@ -1,0 +1,508 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 34
+B: RSCDS Book 34
+K:
+%%center Book34/3400-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3401
+T: C'Est L'Amour/The Flirt
+P: The Pleasures of the Night
+C:A. Bland (24 Country Dances for the year 1792)
+R:Jig (8x32)
+B:RSCDS 34-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:A
+|:e|"A"aec Aec|"D"dff f2 g|"A"aec Aec|"E"BBB B2 g|
+    "A"aec Aec|"D"dff fga|"A"edc "E7"BAG|"A"AA"D"A "A"A2:|
+|:c|"E"BGE edB|"A"cea ecA|"E"BGE "E7"edB|"A"cee "A7"e2 e|
+    "D"fdf agf|"A"ega ecA|"Bm"Bfe "E7"dcB|"A"AA"D"A "A"A2:|
+%%center Book34/3401-CEst_LAmour_The_Flirt-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3402
+T: Royal Albert Country Dance
+P: The Princess Charlotte's Favourite
+C:Trad. (Astor's 24 Country Dances for the year 1804)
+R:Reel (8x32)
+B:RSCDS 34-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:A
+e|"A"ceea "D"f2 ed|"A"c2 AB/c/ "E"BEEe|"A"ceea "D"gfed|"A"cA"E7"BG A2 Ae|
+  "A"ceea "D"f2 ed|"A"c2 AB/c/ "E"BEEe|"A"ceea "D"gfed|"A"cA"E7"BG A2 A||
+B|"A"cAAc "D"dBBd|"A"cAAc "E7"BEEe|"A"cAAc "D"dBBd|"A"cA"E7"BG "A"A2 AB|
+  "A"cAAc "D"dBBd|"A"cAAc "E7"BEEe|"A"cAec "D"dBfd|"A"cA"E7"BG "A"A2 A|]
+%%center Book34/3402-Royal_Albert_Country_Dance-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3403
+T: Glasgow Lasses
+P: Miss Marston's Strathspey
+C:Trad. (Middleton's Selection)
+R:Strathspey (8x32)
+B:RSCDS 34-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+%
+F|"D"D<D F>A "G"B>A B<d|"D"A>B d>f "A7"e>d e<f|\
+  "D"D<D F>A "G"B>A B<d|"A7"A>B d>e "D"f<d dF|
+  "D"D<D F>A "G"B>A B<d|"D"A>B d>f "A7"e>d e<f|\
+  "D"D<D F>A "G"B>A B<d|"A7"A>B d>e "D"f<d d||
+g|"D"f<d d>g "D7"f/g/a/g/ f<d|"G"B>A B<d "A7"e>d e<g|\
+  "D"f<d d>g "D7"f/g/a/g/ f<d|"G"B>A "A7"[BG2]<c "D"[dF]<D D>g|
+  "D"(3fga "G"(3bge "D"(3afd (3dcd|"G"(3Bcd "Em"(3efg "E7"(3fed "A7"(3cBA|\
+  "D7"F<A d>c "G"B>A B<d|"A7"A>B [dG2]>e "D"f<d [dF]|]
+%%center Book34/3403-Glasgow_Lasses-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3404
+T: Niel Gow's Farewell to Whisky
+P: Niel Gow's Farewell to Whisky
+C:Niel Gow's Fifth Coll. (1809)
+R:Reel (5x48) AABAAB
+B:RSCDS 34-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:C
+|:ED|"C"C2c2 cBce|"F"d2A2 A2c2|"C"G2c2 "G"dcde|"C"g2e2 "C7"e3g|
+     "F"a2bc' "C"g2fe|"F"fe"D7"dc d2"G"e2|"C"G2c2 "G7"edcd|"C"e2c2 c2:|
+|:a2|"C"g2e2 c'2e2|"Dm"fedc "G"d2e2|"C"g2e2 c'2ef|g2c'2 "C7"c'2g2|
+     "F"a2bc' "C"g3e|"Dm"fe"D7"dc "G"d2e2|"C"G3c "G7"edcd|"C"e2c2 c2:|
+%%center Book34/3404-Niel_Gows_Farewell_to_Whisky-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3405
+T: Over the Water to Charlie (New Way)
+P: Ower the Water
+C:Old Song adapted
+B:RSCDS 34-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Jig (8x32)
+M:6/8
+L:1/8
+K:D
+|:"D"D2 A AFA|"G"B/c/dF "A"E2 |"D"DFA "D7"AFA|"G"BAB "D"def|\
+  "D"DFA AFA|"G"Bcd "D"AFD|
+                           "Bm"[dB]fd "A"ecA|"G"B3 "D"d3:|\
+"D"dfd "A"ecA|"Bm"d2 F "A"E2 "D"D|"Bm"dfd "A"ecA|"G"B3 "D"[d2f2] "A7"[Ag]|
+"D"dfd "A"ecA|"Bm"d2 F "A"E2D|"D7"D2 A AFA|"G"B3 "D"d3|\
+"D"dfd "A"ecA|"G"Bcd "A"AFD|
+                            "Bm"dfd "A"ecA|"G"B3 "D"d2 f/g/|\
+"D"agf "A"edc|"D"dcB "A"AFA|"D"DFA "D7"AFA|"G"BAB "D"[d3F3]|]
+%%center Book34/3405-Over_the_Water_to_Charlie_New_Way-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3406
+T: New Scotia Quadrille
+P: The Royal Wedding
+C:A. Bland (24 Country Dances for the year 1792)
+B:RSCDS 34-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Reel (2x48) AABAAB
+M:2/4
+L:1/16
+K:G
+|:"G"g2G2 GABc|d2d2 d4|"Am"c2c2 cBAG|"D7"A2D2 D4|
+  "G"g2G2 GABc|d2d2 "Am"[c4E2]|"G"B2G2 "D7"BAGF|"G"G4 [G4B,4]:|
+|:"G"Bcdc BcdB|"C"cded cdec|"D"defe defd|"G"g4 G4|
+  "G"g2G2 GABc|d2d2 "Am"[c4E2]|"G"B2G2 "D7"BAGF|"G"G4 G,4:|
+%%center Book34/3406-New_Scotia_Quadrille-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3407
+T: Couteraller's Rant
+P: Mr Tierney's Reel
+C:Astor's 24 Country Dances for the year 1804
+B:RSCDS 34-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Strathspey (8x32)
+M:C
+L:1/8
+K:G
+d|"G"[gB]<[gB] g>d "Em"B2 Gc/d/|"C"e>c "G"d>B "Am"cA "D7"Ac|\
+  "G"[gB]<[gB] g>d "Em"B2 GA/B/|"Am"c>A "D7"d>c "G"BGGd|
+  "G"[gB]<[gB] g>d "Em"B2 Gc/d/|"C"e>c "G"d>B "Am"cA "D7"Ac|\
+  "G"[gB]<[gB] g>d "Em"B2 GA/B/|"Am"c>A "D7"d>c "G"BGG||
+B|"G"G/F/E/D/ "C"EG "Am"ceAc|"G"B<G d>B "Am"eA"D7"AB|\
+  "G"G/F/E/D/ "C"EG "Am"ceAc|"D7"B<g c>A "G"BGGB|
+  "G"G/F/E/D/ "C"EG "Am"ceAc|"G"B<G d>B "Am"eA"D7"Ac|\
+  "G7"BGdB "Am"cAaf|"D7"g>d e>c "G"BGG|]
+%%center Book34/3407-Couterallers_Rant-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3408
+T: Open the Door to Three
+P: Mr Richardson's Jig
+C:Porteous Coll. 1820
+B:RSCDS 34-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Jig (8x48) AABAA
+M:6/8
+L:1/8
+K:G
+F|:"G"G2 G- GDB,|G,B,D GAB|"Am"[c3E3] "A9"[B3E3]|"D7"ABG FED|\
+   "G"G2 G- GDB,|"G"G,B,D GAB|
+                              "Am"cde "D7"def|1 "G"gdc "D7"BAB:|\
+                                             [2 "D7"g3 G2||\
+f|"G"g2 g- gdB|gdB "D7"def|"Em"gag "G"gdB|"Am"Aag "D"fed|
+  "G"g2 g- gdB|gdB "D"def|"G"gab "D7"agf|"G"gdB GBd|\
+  "G"g2 g- gdB|gdB "D"def|
+                          "Em"gag "G"gdB|"Am"Aa"A7"g fe"D7"d|\
+  "Em"gab "D"fga|"C"efg fed|"Am"cde "D7"def|"G"gdc "D7"BAB|]
+%%center Book34/3408-Open_the_Door_to_Three-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Pleasures of the Night
+B: "A Bland - 24 Country Dances for 1792"
+B: RSCDS "Originally Ours" p.104 #3401
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+e \
+| "A"aec Aec | "D"dff f2g | "A"aec Aec | "E"BBB B2g \
+| "A"aec Aec | "D"dff fga | "A"edc "E7"BAG | "A"AAA A2 :|
+|: c \
+| "E"BGE "E7"edB | "A"cea ecA | "E"BGE "E7"edB | "A"cee "A7"e2e \
+| "D"fdf agf | "A"ega "A7"ecA | "Bm"Bfe "E7"dcB | "A"AA"D"A "A"A2 :|
+%%center Book34/34011-Pleasures_of_the_Night.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Marston's Strathspey
+O: Middleton's Selection
+R: strathspey
+B: RSCDS __-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%
+K: D
+|: F \
+| "D"D<D F>A "G"B>A B<d | "D"A>B d>f "A7"e>d e<f \
+| "D"D<D F>A "G"B>A B<d | "A7"A>B d>e "D"f<d d :|
+|| f \
+| "D"f<d d>g "D7"f/g/a/g/ f<d | "G"B>A B<d "A7"e>d e<g \
+| "D"f<d d>g "D7"f/g/a/g/ f<d | "G"B>A "A7"[BG2]<c "D"[dF]<D D> ||
+|| g \
+| "D"(3fga "G"(3bge "D"(3afd (3dcd | "G"(3Bcd "Em"(3efg "E7"(3fed "A7"(3cBA \
+| "D7"F<A d>c "G"B>A B<d | "A7"A>B [dG2]>e "D"f<d [dF] |]
+%%center Book34/34031-Miss_Marstons_Strathspey-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Farewell to Whiskey
+%T: Ladies Triumph
+O: Gow 1809
+N: Niel Gow, ** many versions**
+D: Marie Fielding on Fiddlers Five CD 8
+B: Kennedy (has "Ladies' Triumph" as alternate title)
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+   AF \
+| "A"E2A2 c2BA | "Bm"B2F2- F2A2 | "A"E2A2 c2BA | "Cm"e2c2- c2e2 \
+| "D"f2a2 "A"e2c2 | "Bm"dcBA "E7"B2c2 | "A"E2A2 "E7"cBAB | "A"c2A2- A2 :|
+|: cd \
+| "A"e2c2 a2c2 | "Bm"dcBA "E7"B2cd | "A"e2c2 a2e2 | "D"f2a2- a2e2 \
+| "D"f2a2 "A"e2c2 | "Bm"dcBA "E7"B2c2 | "A"E2A2 "E7"cBAB | "A"c2A2- A2 :|
+%%center Book34/FarewellToWhiskey_A-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Farewell to Whiskey
+%T: Ladies Triumph
+O: Gow 1809
+N: Niel Gow, ** many versions**
+D: Marie Fielding on Fiddlers Five CD 8
+B: Kennedy (has "Ladies' Triumph" as alternate title)
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+   AF \
+| "A"E2A2 c2BA | "Bm"B2F2- F2A2 | "A"E2A2 c2BA | "Cm"e2c2- c2e2 \
+| "D"f2a2 "A"e2c2 | "Bm"dcBA "E7"B2c2 | "A"E2A2 "E7"cBAB | "A"c2A2- A2 :|
+|: cd \
+| "A"e2c2 a2c2 | "Bm"dcBA "E7"B2cd | "A"e2c2 a2e2 | "D"f2a2- a2e2 \
+| "D"f2a2 "A"e2c2 | "Bm"dcBA "E7"B2c2 | "A"E2A2 "E7"cBAB | "A"c2A2- A2 :|
+%%center Book34/FarewellToWhiskey_A_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Farewell to Whiskey
+%T: Ladies Triumph
+O: Niel Gow 1801
+N: Niel Gow 1801 First Collection
+D: Marie Fielding on Fiddlers Five CD 8
+B: Kennedy (has "Ladies' Triumph" as alternate title)
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+   GE \
+| "G"D2G2 B2AG | "Am"A2E2- E2G2 | "G"D2G2 B2AG | "Bm"d2B2- B2d2 \
+| "C"e2g2 "G"d2B2 | "Am"cBAG "D7"A2B2 | "G"D2G2 "D7"BAGA | "G"B2G2- G2 :|
+|: Bc \
+| "G"d2B2 g2B2 | "Am"cBAG "D7"A2Bc | "G"d2B2 g2d2 | "C"e2g2- g2d2 \
+| "C"e2g2 "G"d2B2 | "Am"cBAG "D7"A2B2 | "G"D2G2 "D7"BAGA | "G"B2G2- G2 :|
+%%center Book34/FarewellToWhiskey_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Farewell to Whiskey
+M:C|
+R:reel
+K:G
+GE |\
+"G"D2G2 B2AG | "Am"A2E2 E3G | "G"D2G2 B2AG | "Bm"d2B2 B3d |
+"C"e2g2 "G"d2B2 | "Am"cBAG "D"A2B2 | "G"D2G2 "D"BAGA | "G"B2G2G2 :|
+|: Bc |\
+"G"d2B2 g2B2 | "Am"cBAG "D"A2Bc | "G"d2B2 g2d2 | "C"e2g2 g3d |
+"C"e2g2 "G"d2B2 | "Am"cBAG "D"A2B2 | "G"D2G2 "D"BAGA | "G"B2G2G2 :|
+%%center Book34/FarewellToWhiskey_G-RJ.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Farewell to Whiskey
+%T: Ladies Triumph
+O: Niel Gow 1801
+N: Niel Gow 1801 First Collection
+D: Marie Fielding on Fiddlers Five CD 8
+B: Kennedy (has "Ladies' Triumph" as alternate title)
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+   GE \
+| "G"D2G2 B2AG | "Am"A2E2- E2G2 | "G"D2G2 B2AG | "Bm"d2B2- B2d2 \
+| "C"e2g2 "G"d2B2 | "Am"cBAG "D7"A2B2 | "G"D2G2 "D7"BAGA | "G"B2G2- G2 :|
+|: Bc \
+| "G"d2B2 g2B2 | "Am"cBAG "D7"A2Bc | "G"d2B2 g2d2 | "C"e2g2- g2d2 \
+| "C"e2g2 "G"d2B2 | "Am"cBAG "D7"A2B2 | "G"D2G2 "D7"BAGA | "G"B2G2- G2 :|
+%%center Book34/FarewellToWhiskey_G_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Farewell to Whiskey
+%T: Ladies Triumph
+O: Niel Gow 1801
+N: Niel Gow 1801 First Collection
+D: Marie Fielding on Fiddlers Five CD 8
+B: Kennedy (has "Ladies' Triumph" as alternate title)
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+   GE \
+| "G"D2G2 B2AG | "Am"A2E2- E2G2 | "G"D2G2 B2AG | "Bm"d2B2- B2d2 \
+| "C"e2g2 "G"d2B2 | "Am"cBAG "D7"A2B2 | "G"D2G2 "D7"BAGA | "G"B2G2- G2 :|
+|: Bc \
+| "G"d2B2 g2B2 | "Am"cBAG "D7"A2Bc | "G"d2B2 g2d2 | "C"e2g2- g2d2 \
+| "C"e2g2 "G"d2B2 | "Am"cBAG "D7"A2B2 | "G"D2G2 "D7"BAGA | "G"B2G2- G2 :|
+%%center Book34/FarewellToWhiskey_G_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Farewell to Whiskey
+M:C|
+R:reel
+K:G
+GE |\
+"G"D2G2 B2AG | "Am"A2E2 E3G | "G"D2G2 B2AG | "Bm"d2B2 B3d |
+"C"e2g2 "G"d2B2 | "Am"cBAG "D"A2B2 | "G"D2G2 "D"BAGA | "G"B2G2G2 :|
+|: Bc |\
+"G"d2B2 g2B2 | "Am"cBAG "D"A2Bc | "G"d2B2 g2d2 | "C"e2g2 g3d |
+"C"e2g2 "G"d2B2 | "Am"cBAG "D"A2B2 | "G"D2G2 "D"BAGA | "G"B2G2G2 :|
+%%center Book34/FarewellToWhiskey_G_RJ.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Marston's Strathspey
+O: Middleton's Selection
+R: strathspey
+B: RSCDS 34-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|: F \
+| "D"D<D F>A "G"B>A B<d | "D"A>B d>f "A7"e>d e<f \
+| "D"D<D F>A "G"B>A B<d | "A7"A>B d>e "D"f<d d :|
+|| f \
+| "D"f<d d>g "D7"f/g/a/g/ f<d | "G"B>A B<d "A7"e>d e<g \
+| "D"f<d d>g "D7"f/g/a/g/ f<d | "G"B>A "A7"[BG2]<c "D"[dF]<D D> ||
+|| g \
+| "D"(3fga "G"(3bge "D"(3afd (3dcd | "G"(3Bcd "Em"(3efg "E7"(3fed "A7"(3cBA \
+| "D7"F<A d>c "G"B>A B<d | "A7"A>B [dG2]>e "D"f<d [dF] |]
+
+%%center Book34/MissMarstonsStr_D-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Marston's Strathspey
+O: Middleton's Selection
+R: strathspey
+B: RSCDS 34-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|: F \
+| "D"D<D F>A "G"B>A B<d | "D"A>B d>f "A7"e>d e<f \
+| "D"D<D F>A "G"B>A B<d | "A7"A>B d>e "D"f<d d :|
+|| f \
+| "D"f<d d>g "D7"f/g/a/g/ f<d | "G"B>A B<d "A7"e>d e<g \
+| "D"f<d d>g "D7"f/g/a/g/ f<d | "G"B>A "A7"[BG2]<c "D"[dF]<D D> ||
+|| g \
+| "D"(3fga "G"(3bge "D"(3afd (3dcd | "G"(3Bcd "Em"(3efg "E7"(3fed "A7"(3cBA \
+| "D7"F<A d>c "G"B>A B<d | "A7"A>B [dG2]>e "D"f<d [dF] |]
+
+%%center Book34/MissMarstonsStr_D_2-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Marston's Strathspey
+O: Middleton's Selection
+R: strathspey
+B: RSCDS 34-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|: F \
+| "D"D<D F>A "G"B>A B<d | "D"A>B d>f "A7"e>d e<f \
+| "D"D<D F>A "G"B>A B<d | "A7"A>B d>e "D"f<d d :|
+|| f \
+| "D"f<d d>g "D7"f/g/a/g/ f<d | "G"B>A B<d "A7"e>d e<g \
+| "D"f<d d>g "D7"f/g/a/g/ f<d | "G"B>A "A7"[BG2]<c "D"[dF]<D D> ||
+|| g \
+| "D"(3fga "G"(3bge "D"(3afd (3dcd | "G"(3Bcd "Em"(3efg "E7"(3fed "A7"(3cBA \
+| "D7"F<A d>c "G"B>A B<d | "A7"A>B [dG2]>e "D"f<d [dF] |]
+
+%%center Book34/MissMarstonsStr_D_JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: O'er the Water to Charlie
+O: Trad
+B: RSCDS 34-5
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+   A | "D"D>FA     AFA | "G"{Bc}d2F "A7"E2D | "D"D>FA     AFA | "G"BAB "D"def \
+     | "D"D>FA     AFA | "G"Bcd      "D"AFD | "D"d>fd "A7"ecA | "G"B3  "D"d2 :|
+|: A | "D"d>fd "A7"ecA | "G"{Bc}d2F "A7"E2D | "D"d>fd "A7"ecA | "G"B3  "D"d2A \
+     | "D"d>fd "A7"ecA | "G"B<d-d   "A7"FED | "D"D>FA     AFA | "G"B3  "D"d2 :|
+%%center Book34/OerTheWaterToCharlie_D-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: O'er the Water to Charlie
+O: Trad
+B: RSCDS 34-5
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+   A | "D"D>FA     AFA | "G"{Bc}d2F "A7"E2D | "D"D>FA     AFA | "G"BAB "D"def \
+     | "D"D>FA     AFA | "G"Bcd      "D"AFD | "D"d>fd "A7"ecA | "G"B3  "D"d2 :|
+|: A | "D"d>fd "A7"ecA | "G"{Bc}d2F "A7"E2D | "D"d>fd "A7"ecA | "G"B3  "D"d2A \
+     | "D"d>fd "A7"ecA | "G"B<d-d   "A7"FED | "D"D>FA     AFA | "G"B3  "D"d2 :|
+%%center Book34/OerTheWaterToCharlie_D_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Pleasures of the Night
+B: "A Bland - 24 Country Dances for 1792"
+B: RSCDS "Originally Ours" p.104 #3401
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+e \
+| "A"aec Aec | "D"dff f2g | "A"aec Aec | "E"BBB B2g \
+| "A"aec Aec | "D"dff fga | "A"edc "E7"BAG | "A"AAA A2 :|
+|: c \
+| "E"BGE "E7"edB | "A"cea ecA | "E"BGE "E7"edB | "A"cee "A7"e2e \
+| "D"fdf agf | "A"ega "A7"ecA | "Bm"Bfe "E7"dcB | "A"AA"D"A "A"A2 :|
+%%center Book34/PleasuresOfTheNight_A-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Pleasures of the Night
+B: "A Bland - 24 Country Dances for 1792"
+B: RSCDS "Originally Ours" p.104 #3401
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+e \
+| "A"aec Aec | "D"dff f2g | "A"aec Aec | "E"BBB B2g \
+| "A"aec Aec | "D"dff fga | "A"edc "E7"BAG | "A"AAA A2 :|
+|: c \
+| "E"BGE "E7"edB | "A"cea ecA | "E"BGE "E7"edB | "A"cee "A7"e2e \
+| "D"fdf agf | "A"ega "A7"ecA | "Bm"Bfe "E7"dcB | "A"AA"D"A "A"A2 :|
+%%center Book34/PleasuresOfTheNight_A_JC.abc

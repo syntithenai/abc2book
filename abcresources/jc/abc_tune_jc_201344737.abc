@@ -1,0 +1,17 @@
+X: 1
+T: Tierps Polskan (Bond Polska fr\aan Viksta)
+C: Trad.
+R: bond-polska
+%S: s:4 b:16(4+4+4+4)
+S: http://www.nyckelharpa.org/archive/written-music/american-allspel-list/ 2022/9/26
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: 1/4=108
+K: G
+"^A"[|] (D |\
+G2) (B>D) G>B | c2 (e<c) A>G | F2 (A<D) F>A | (d>e) (d>c) B>A |
+G2  (B>D) G>B | c2 (e<c) A>G | F2 (A<D) F>A | (A<G) G3 :|
+"^B"|: (D |\
+G)B/d/ g2 g>g | (g<f) f4 | (f>e) (c>e) g>e | (e<d) d4 |
+(c>B) (c>d) e>c | (c>B) (B<c) d>d | D2 (F<A) c>A | (A<G) G3 :|

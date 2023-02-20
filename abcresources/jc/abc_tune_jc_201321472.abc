@@ -1,0 +1,14 @@
+X: 1
+T: P\"a\"askysen valssi
+T: Swallow's waltz
+S: Eino Saaren kokoelmat
+M: 3/4
+K: 1/8
+z \
+| "Am"(A,2 C2 )E2  | (A,2 C2 )E2  | (cdcB)A2 | (cdcB)A2 \
+| "E7"(E2 ^G2) B2 | (E2 ^G2) B2 | "(Dm)"(dedc)B2 | "E7"(dedc)B2 |
+| "Am"(e3fed) | (c4e2) | ([eE][aA])([eE][aA])([aA][^c'^c]) | ([e4E4][c'2c2]) \
+| "Dm"([c'4c4][b2B2]) | "E7"([e'4e4][e2E2]) | [e2E2][eE][^g^G][bB][eE] | "Am"[a4A4]z :|
+|: (e \
+| "Am"a2)(ef)(ed) | (dc)(Ac)(ec) | "E7"(cB)(^GB)(dB) |1,3 (BA)(^cA) E \
+                                                    :|2,4 "Am"A4z :|

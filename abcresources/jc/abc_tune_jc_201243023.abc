@@ -1,0 +1,31 @@
+X: 742
+T: a Feg for a kiss
+R: slip-jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.74 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Added missing dots to final notes in strains.
+M: 9/8
+L: 1/8
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+E2B BGE BGE | FAD AFd AFD |\
+EFG ABc BAG | BeB AGF E3 :|\
+|:\
+eBe geg bge | dAd fdf afd |
+eBe geg bge | (gfe B)e^d e3 |\
+eBe geg bge | dAd fdf afd |\
+(e/f/g)f edc BAG | BeB AGF E3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+e3 e3 e3 | d3 d3 d3 |\
+e3 e3 e3 | b3 B3 e3 :|\
+|:\
+e3 e3 e3 | d3 d3 d3 |\
+e3 e3 e3 | b3 B3 e3 |\
+e3 e3 e3 | d3 d3 d3 |\
+e3 e3 e3 | B3 B3 E3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

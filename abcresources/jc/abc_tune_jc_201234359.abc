@@ -1,0 +1,38 @@
+X: 20451
+T: CINCINNATI HORNPIPE
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" 1843 p.45 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Changed the final rest in voice 1 to a quarter rest.
+N: The held F note at the end of voice 2 is a bit odd.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+|:\
+DAFA DAFA | dAfA eAfA | gAfA edcA | dcBA GFED |\
+DAFA DAFA | dAfA eAfA | gAfA e2d2 | cdeg fdd2 :|
+|:\
+eAAA fAAA | gAAA fAAA | eAfA gAfA | edcB AGFE |\
+Dddd ceee | dfff eggg | fgaf bgec | d2d2 d2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+|:\
+A,FDF A,FDF | AFdA cAdA | eAdA cBAF | BAGF EDCB, |\
+A,FDF A,FDF | BAdA BAdA | eAdA c2B2 | EFGB AFF2 :|
+|:\
+cAAA dAAA | eAAA dAAA | cAdA eAdA | cBAG FEDC |\
+DFFF EGGG | FAAA GBBB | DEFD GECE | F2A2 F4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+|:\
+d2z2 d2z2 | A2d2 A2d2 | e2d2 A2A2 | d2d2 A2A2 |\
+d2z2 d2z2 | A2d2 A2d2 | e2[d2A2] [d2A2]d2 | ABce Add2 :|
+|:\
+A2z2 d2z2 | e2z2 d2z2 | A2d2 e2d2 | A2A2 A2A2 |\
+d2z2 e2z2 | d2z2 G2z2 | f2g2 a2A2 | d2d2 d2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %sep 1 1 300

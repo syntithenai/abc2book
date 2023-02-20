@@ -1,0 +1,15 @@
+X: 281
+T:Mindrele 2
+O:Romania
+F: http://www.youtube.com/watch?v=-Ae6EnmgQKM
+M:6/8
+L:1/8
+Q:1/4=100
+K:BDor
+%%MIDI gchord ffffz2
+|: "B" CCCE2D | CCCE2D        |[1 CCCE2D     | CB,FB,3  :|\
+   [2 FFF=F2D |CB,FB,2D       |
+|: FFF=F2D    | FFF=F2D       | FFF=F2D      |B,B,DF2D  |\
+   FFF=F2D    |[1 B,B,B,B,2D  :|[2 B,B,B,B,3 |
+|: FGGG2F     |=F2DB,3        |FGGG2F        |B3-B2A    |\
+   GGGB2A     |GGGF3          |C/D/EF=F2D    |FFFB,3    :|

@@ -1,0 +1,36 @@
+X: 20531
+T: SPIRITS OF FRANCE
+C:
+%R: reel, polka, hornpipe
+B: Elias Howe "The Musician's Companion" 1843 p.53 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 1/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+(ge) |\
+c2c2 BcdB | cBcd c2(af) | d2d2 dedc | BcdB .G2(FE) |\
+F2d2d2c2 | E2c2c2A2 | B2c2 dced | (cB)(cA) G2 :|
+|: EF |\
+GFEF .G2GE | FEDE .F2FD | ECEG cGEC | DCDE .D2ED |\
+.C2.c2.G2.e2 | c2g2g2 (fe) | d2ed cB[cA]B | (cB)(cd) c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+E2E2 DEFD | EDEF E2fd | B2B2 BcBA | DEFD E2DC |\
+D2F2F2E2 | C2E2E2F2 | D2E2 FEGF | EDEF E2 :|
+|: z2 |\
+EDCD E2EC | DCB,C D2DB, | CG,CE GECG, | B,A,B,C B,2CB, |\
+G,2E2C2c2 | E2e2e2 (dc) | B2cB EDFD | (ED)(EF) E2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+c2c2 g2g2 | c2c2 e2f2 | g2g2 g2g2 | g2g2 g2z2 |\
+f4 f4 | c4 c4 | g2g2 g2g2 | g2g2 G2 :|
+|: z2 |\
+c2c2 c2c2 | G2G2 G2G2 | c2c2 c2c2 | G2G2 G2G2 |\
+c2c2 c2g2 | c2c2c2 z2 | g2g2 g2f2 | g2c2 c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %sep 1 1 300

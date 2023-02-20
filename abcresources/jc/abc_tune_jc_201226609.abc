@@ -1,0 +1,25 @@
+X: 10361
+T: PEGGY I MUST LOVE THEE.
+O: Scottish air.
+Q: "Slow."
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.36 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E |\
+(F2A2) A3c | (B>cB).A F3E |\
+(F2A2) (A>B)(cd) | (cTB3) A3E |\
+(F2A2) A3c | (dc).B.A {G}F3E |\
+(F2A2) (A>B)(cd) | (cTB3) A2z :|
+|: A |\
+(ce)e2- e3f | (e>fe).c B3A |\
+c>ee2- e3f | =g2(g>a) ({g}f3e) |\
+f2 (f//g//a3/) e3f | c2(ac) {c}B3E |\
+(F2A2) (A>B)(c{e}d) | (cTB3) A2z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

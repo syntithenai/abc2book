@@ -1,0 +1,29 @@
+X: 1
+T: Ada's Waltz
+C: David Schonfeld (1992,2001)
+M: 3/4
+L: 1/4
+K: Gm
+Q: 1/4=160
+%%continueall
+"^Intro"\
+GA"A"\
+|| "Eb"BAB | "F7"cde | "Bb"d2g- | "G7"gdf | "Cm"edc | "D7"B2A | "Gm"G3 | z/^F/ G/A/ B/c/ 
+"B"\
+|:"Gm"d3 | g3 | d3- | dcd | "Cm"e2e | efe | "Gm"d3- | dcd |
+| "Cm"e2e | efe | "Gm"d3 | dcB | "A"A2A | "A7"ABG | "D"A3- | "D7"ABc |
+| "Gm"d3 | g3 | d3- | dcd | "Cm"e2e | efe | "Gm"d3- | dcd |
+| "Cm"e2e | efe | "Gm"d3 | dGA | "Cm7"Bdc | "D7"B2A |1 "Gm"G3- | G/^F/ G/A/ B/c/ :|2 "Gm"G3- | GAB 
+"C"\
+[| "F"c2c | "F7"cdc | "Bb"B3- | Bcd | "Eb"e2e | "F7"efe | "Bb"d3 | "Bb7"def |
+| "Eb"g2g | "F7"ga>g | "Bb"f3 | "Gm"d3 | "A"^c=ef | "A7"gf=e | "D"d3- | "D7"dBc 
+"D"\
+[|"Gm"d3 | g3 | d3- | dcd | "Cm"e2e | efe | "Gm"d3- | dcd |
+| "Cm"e2e | efe | "Gm"d3 | dGA | "Cm7"Bdc | "D7"B2A |"Gm"G3- |["1-N"  G=Bc |]
+["(=>Coda)"G GA |] "E"\
+|:[K:G] "G"dgd | gdg | dgd | gdg | "C"ege | geg | "G"d3- | dBc |
+| "G"dgd | gdg | dgd | gdg | "A"ega | "A7"bag | "D"a3- | "D7"ade |
+| "G"dgd | gdg | dgd | gdg | "C"ege | "Am"aea | "B"b3- | "B7"bz^d |
+| "C"ege | geg | "G"dga | "E7"bc'b | "A7"efg | "D7"bad |1 "G"g3- | gBc :|2 "G"g3- | gG/A/ " =>B"_B/c/ |]
+"Coda"\
+[|[K:Gm] "Eb"BAB | "F7"cde | "Bb"d2g- | "G7"gdf | "Cm"edc | "D7"B2A | "Gm"G3- | G |]

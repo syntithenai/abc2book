@@ -1,0 +1,29 @@
+X:0111
+T:Cumberland Reel
+%P:Cumberland Reel
+C:Traditional
+R:Jig (4x32)
+B:RSCDS 1-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:D
+V:1
+%%staves (1 2)
+[V:1] |:A|"D"[f2A2]e [d2A2]c|"G"[d2G2]B "D"A2F|"Em"GFG "A7"EFG|"D"F2G A2A|\
+[V:1]     "G"B2G d2B|"D"A2F d2d|
+[V:1]                           "A7"cde ABc|"D"[d3F3] [d2F2]:|\
+[V:1] d/e/|"D"f2f f2e|f2f f2e|f2f g2f|"A"e2e "A7"e2c|
+[V:1]      "Bm"d2d d2c|d2d d2c|d2B "E7"e2d|"A"c2B "A7"ABc|\
+[V:1]      "Bm"d2d "A7"cBA|"G"B2c "D"d2A|
+[V:1]                                    "Bm"ded "A"cBA|"G"B2c "D"d2f|\
+[V:1]      "A7"e2e e2e|e2e efg|"(D)"a2A "A7"ABc|"D"d3 d2|]
+%V:2
+%[V:2] |:x|   x6             |   x6            |    x6         |   x6     |\
+%[V:2]        x6     |   x6     |
+%[V:2]                               A2z G2z|   x3      x2   :|\
+%[V:2] x   |   A2A A2x|A2A A2x|A2A A2x|   A2A     A2x|
+%[V:2]          F2F F2x|F2F F2x|F2x    ^G2z|   E2z    =G2z|\
+%[V:2]          F2z     x3 |   D2z    D2z|
+%[V:2]                                        F2z    x3 |   x6        |\
+%[V:2]          A2z d2z|c2z B2z|     A2z     G2x|   F3 F2|]

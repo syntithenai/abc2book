@@ -1,0 +1,1013 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 1
+B: RSCDS Book 1
+K:
+%%center Book01/0100-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0101
+T: Petronella
+P: Petronella
+C:Nath. Gow's Repository 1820
+R:Reel (8x32)
+B:RSCDS 1-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:F
+|:fc|"F"A2cA "C7"G2cA|"F"F2F2F2 Ac|"F"f2ef "Gm"g2f2|"C"e2ge c2fc|
+     "F"A2cA "C7"G2cA|"F"F2F2F2 Ac|"F"f2ef "C7"[g2B2]e2|"F"[f4A4] [f2A2]:|
+|:fc|"F"A2af c2c'a|"Gm"b2ba gfed|"C7"c2ge c2bg|"F"a2af cfcA|
+     "F"A2af c2c'a|"Gm"b2ba gfed|"C7"c2ge cbge|"F"f4 [f2A2]:|
+%%center Book01/0101-Petronella-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0102
+T: The Triumph
+P: The Triumph
+C:Aird 1797
+R:Reel (4x24)
+B:RSCDS 1-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:A
+af|"A"eccA "E7"dBBG|"A"A2[a2A2] "D"[f2A2][a2A2]|"A"eccA "E7"dBBG|"A"A2c2A2 af|\
+   "A"eccA "E7"dBBG|"A"A2[a2A2] "D"[f2A2][a2A2]|
+                                               "A"eccA "E7"dBBG|"A"A2c2A2 z2||\
+   "E"B2e2 "A"c2e2|"E"B2e2 "A"c2e2|"E"B2Bd "A"c2ce|"E7"c2B2 A2z2|
+   "E"Be^de "A"cede|"E"Be^de "A"cede|"E"B2Bd "A"c2ce|"E7"c2B2 A2z2||\
+   "A"c2cd e2c2|"E7"B2bc d2B2|
+                              "A"c2cd eagf|"E7"edcB A2 AB|\
+   "A"c2cd "F#7"fedc|"Bm"B2bc "E7"edcB|"A"c2cd ea"D"fe|"E7"edcB A2|]
+%%center Book01/0102-Triumph-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0103
+T: Circassian Circle
+P: Circassian Circle
+C:Traditional
+R:Reel (nx32)
+B:RSCDS 1-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:Bb
+|:dc|"Bb"BFdc B2d2|BFdc B2d2|"F7"cFed c2e2|cdcB AFGA|
+     "Bb"BFdc B2d2|BFdc B2d2|"F7"cdcB AFGA|"Bb"B2[d2F2][B2F2]:|
+|:f2|"Bb"dBfe d2f2|dBfd bfdB|"F7"cAed c2e2|cdcB Acf2|
+     "Bb"dBfe d2f2|dBfd bfdB|"F7"cdcB AFGA|"Bb"B2[d2F2][B2D2]:|
+%%center Book01/0103-Circassian_Circle-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0104
+T: The Nut
+%
+P: The Nut
+C:Traditional
+R:Jig (8x24) ABA
+B:RSCDS 1-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Bb
+F!Segno! |\
+"Bb"B>cB Bed | dcB B2g | "Eb"gfe "Bb"dcB | "C7"dcc "F7"[c2A2F2] F |
+"Bb"B>cB Bed | dgf fba | "Eb"g2B "F7"ABc | "Bb"cBB B2"Fine" ||
+A/B/ |\
+"F"c>dc caf | "C7"=ecd "F"c2c | cdc cAF | "C7"AGG GAB |
+"F"c>dc caf | "C7"=ecd "F"c2c | "Gm"d=ef "C7"[gB]fe | "F"[fA]gf "F7"_edc"D.S." |]
+%%center Book01/0104-Nut-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0105
+T: Meg Merrilees
+P: Meg Merrilees
+C:Traditional
+R:Reel (8x24)
+B:RSCDS 1-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:A
+V:1
+%%staves (1 2)
+[V:1] cd|"A"edcd eagf|fee2 e2cd|efec efec|"E7"cBB2 B2cd|\
+[V:1]    "A"edcd eagf|fee2 e2cd|
+[V:1]                           efec "E7"BABc|"A"A2AA A2||\
+[V:1] ze|"E7"^defe =deBe|"A"ceAe ceAe|"E7"^defe =dcdB|"A"BAAA A2e2|
+[V:1]    "E7"^defe =deBe|"A"ceAe ceAe|\
+[V:1]			"Bm"BA"A"Bc "Bm"de"E7"fg|"A"ag"D"[ad]g "A"[a2c2]||\
+[V:1] cd|"A"e2AB c2Bc|"E7"d2a2 g2   fg|
+[V:1]				    "A"a2c'b a2gf|"Bm"e2dc "E7"B2cd|\
+[V:1]    "A"e2AB c2Bc|"E7"d2a2 g2   fg|"A"agfe "Bm"dcBA|"E7"cBAG "A"A2|]
+%V:2
+%[V:2] x2|   x8       |x8       |x8       |    x8       |\
+%[V:2]       x8       |x8       |
+%[V:2]                           x8           |   x6     ||\
+%[V:2] x2|    x8         |   x8       |     x8        |   x8       |
+%[V:2]         x8        |   x8       |\
+%[V:2]                       x8                  |x6                     ||\
+%[V:2] x2|   z2E2 z2E2|z2[B2G2][B2G2]x2|
+%[V:2]                                  z2c2  z2A2|    z2F2     G2z2|\
+%[V:2]       z2E2 z2E2|z2[B2G2][B2G2]x2|x8              |    x6        |]
+%%center Book01/0105-Meg_Merrilees-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0106
+T: Flowers of Edinburgh
+P: Flowers of Edinburgh
+C:Traditional
+R:Reel (8x32)
+B:RSCDS 1-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:G
+|:GE|"G"D2 DE G2 GA|BGBd "Am"cBAG|"D"FGEF DEFG|"D7"AFdF "C"E2 GE|
+     "G"D2 DE "(Em)"G2 GA|"(G)"BGBd "C"efge|"G"dcBA "D7"GFGA|"G"B2 G2 G2:|
+|:d2|"G"g2 g2 gbag|"B7"f2 f2 fagf|"Em"e2 ef gfed|"e"B2 "d"e2 "c"e2 ge|
+     "G"dBGB d2 d2|"C"edef "A7"g2 fe|"G"dcBA "D7"GFGA|"G"B2 G2 G2:|
+%%center Book01/0106-Flowers_of_Edinburgh-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0107
+T: Strip the Willow/Drops of Brandy
+P: Drops of Brandy
+C:Old Scots Jig called »Hey my Nannie« traced to 17th c.
+R:9/8 Jig (4x40) ABABB
+B:RSCDS 1-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:9/8
+K:G
+"G"d2 c BGB BGB|d2 c BGB "D7"c2A|"G"d2c BGB BGB|"D7"{d}cBc A2B c2A|
+"G"d2 c BGB BGB|d2 c BGB "D7"c2A|"G"d2c BGB BGB|"D7"{d}cBc A2B c2A||
+"G"G2f gdB gdB|"C"G2f "G"gdB "D7"c2A|"G"G2f gag gdB|"Am"{d}cBc A2B c2A|
+"G"G2f gdB gdB|"C"G2f "G"gdB "D7"c2A|"G"G2f gag gdB|"Am"{d}cBc A2B c2A|]
+%%center Book01/0107-Strip_the_Willow_Drops_of_Brandy-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0108
+T: Duke of Perth/Pease Strae/Broun's Reel
+P: Duke of Perth's Reel
+C:Bremner 1757
+R:Reel (8x32)
+B:RSCDS 1-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/4
+K:G
+|:d|"G"G/A/B/c/ d B|g B d B|g B d B|"D"a A A B|
+    "G"G/A/B/c/ d B|g B d B|"Am"c A "D7"d>c |"G"B G G:|
+|:f|"Em"g>a g e|"B"a>b a f|"Em"g>a g e|b e e "B7"f|
+    "Em"g>a g e|"D"a>b a f|"C"g d "D7"e d/c/|"G"B G G:|
+%%center Book01/0108-Duke_of_Perth_Pease_Strae_Brouns_Reel-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0109
+T: Rory O'More
+P: Rory O'More
+C:Irish
+R:Jig (8x32)
+B:RSCDS 1-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+|:e|"G"dGG BGG|dGG G2e|dcB BAG|"D"FAA ABc|
+    "G"dGG BGG|Bcd "C"e2d|"G"Bcd "D7"def|"G"gGG G2:|
+|:g|"Em"gfe eBB|"Am"cBA "Em"G2F|"C"E2F G2A|"G"Bed "Bm"def|
+    "Em"gfe eBB|"Am"cBA "Em"G2F|1"Am"EFG "Em"GAB|"Bm"Bed "D7"[d2c2F2]:|\
+                               [2"Am"E2F "D7"G2A|"G"BGG G2|]
+%%center Book01/0109-Rory_OMore-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0110
+T: Fight About the Fireside
+P: Glenburnie Rant
+C:Niel Gow's Collection 1809
+R:Reel (8x32)
+B:RSCDS 1-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:Am
+e|"Am"A2AB A2AB|"G"GABc dBGB|"Am"A2AB A2e2| "E7"aba^g "Am"a2 a2|
+  "Am"A2AB A2AB|"G"GABc dBGB|"Am"A2AB A2e2| "E7"aba^g "Am"a2||
+e|"Am"a2ab c'2ba|"G"gabc' d'bgb|"Am"a2ab c'2ba|"E7"aba^g "Am"a2e2|
+  "Am"a2ab "D7"c'2ba|"G"gabc' d'bgb|"Am"c'2d'c' "Bo"b2c'b|"Am"ab"E7"a^g"Am"a2|]
+%%center Book01/0110-Fight_About_the_Fireside-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0111
+T: Cumberland Reel
+%P:Cumberland Reel
+C:Traditional
+R:Jig (4x32)
+B:RSCDS 1-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:D
+V:1
+%%staves (1 2)
+[V:1] |:A|"D"[f2A2]e [d2A2]c|"G"[d2G2]B "D"A2F|"Em"GFG "A7"EFG|"D"F2G A2A|\
+[V:1]     "G"B2G d2B|"D"A2F d2d|
+[V:1]                           "A7"cde ABc|"D"[d3F3] [d2F2]:|\
+[V:1] d/e/|"D"f2f f2e|f2f f2e|f2f g2f|"A"e2e "A7"e2c|
+[V:1]      "Bm"d2d d2c|d2d d2c|d2B "E7"e2d|"A"c2B "A7"ABc|\
+[V:1]      "Bm"d2d "A7"cBA|"G"B2c "D"d2A|
+[V:1]                                    "Bm"ded "A"cBA|"G"B2c "D"d2f|\
+[V:1]      "A7"e2e e2e|e2e efg|"(D)"a2A "A7"ABc|"D"d3 d2|]
+%V:2
+%[V:2] |:x|   x6             |   x6            |    x6         |   x6     |\
+%[V:2]        x6     |   x6     |
+%[V:2]                               A2z G2z|   x3      x2   :|\
+%[V:2] x   |   A2A A2x|A2A A2x|A2A A2x|   A2A     A2x|
+%[V:2]          F2F F2x|F2F F2x|F2x    ^G2z|   E2z    =G2z|\
+%[V:2]          F2z     x3 |   D2z    D2z|
+%[V:2]                                        F2z    x3 |   x6        |\
+%[V:2]          A2z d2z|c2z B2z|     A2z     G2x|   F3 F2|]
+%%center Book01/0111-Cumberland_Reel-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0112
+T: Merry Lads of Ayr
+P: The Merry Lads of Ayr
+C:John Riddell (Bremner 1757)
+R:Reel (8x32)
+B:RSCDS 1-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:C
+|:f|"C"edcB cGGf|edce "G7"f2gf|"C"edcB cGGc|"F"A/B/c "C"GE "G7"D2 Df|
+    "C"edcB cGGf|edce "G7"f2gf|"C"edcB cGGc|"F"A/B/c "C"GE "G7"D2 D||
+  d|"C"c2ga "(G)"gede|"C"ccga "(G)"g2ed|"C"cega gece|"F"fa"C"ge "G"d2 de|
+    "C"c2ga "(G)"gede|"C"ccga "(G)"g2ed|\
+                              "Am"cega "C"gece|1 "Dm"fa"C"ge "F"de"G7"fg:|\
+                                              [2 "Dm"fa"G7"ge "C"[c2E2] z|]
+%%center Book01/0112-Merry_Lads_of_Ayr-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 01011
+T: Mrs. MacLeod's Reel
+T: 8x32R
+O: RSCDS-6
+Z: John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+%--------------------
+K:
+P: MacLeod's Reel
+O: Trad
+Z: John Chambers <jc:trillian.mit.edu>
+N: Sometimes called "Uncle Joe" in America.
+N: Skye p.8
+N: Hunter 249
+N: BSFC I-61 and III-45
+N: Winston  Scotty  Fitzgerald
+D: Celtic 40 Fiddlers 3+2 tape A6
+R: reel
+M: C|
+L: 1/8
+K: A
+   cB \
+| "A"A2a2 "(D)"fefa | "A"~c2cB "(E7)"c2cB \
+| "A"A2a2 "F#m"fefa | "Bm"B2BA "E7"B2cB |
+| "A"A2a2 "(D)"fefa | "A"~c2cB c2e2 \
+| "D"~f2fg fefg | "A"afec "E7"B2 :|
+|: cB \
+| "A"~A2cA eAcA | c2cB "(E7)"c2cB \
+| "A"~A2cA "F#m"eAcA | "Bm"B2BA "E7"B2cB |
+| "A"~A2cA eAcf | ecBA c3e \
+| "D"~f2fg fefg | "A"afec "E7"B2 :|
+P: Petronella
+R: Reel
+O: Trad
+M: 4/4
+K: D
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+|: dA \
+| "D"F2AF "A7"E2AE | "D"D2D2 D2FA | d2cd e2d2 | "A7"cdec ABAG |
+| "D"F2AF "A7"E2AE | "D"D2D2 D2FA | d2cd "A7"e2c2 | "D"d4- d2 :|
+|: dA \
+| "D"F2fd A2af | "Em"g2gf edcB | "A7"A2ec Aceg | "D"f2fd AdAF |
+| "D"D2fd A2af | "Em"g2gf edcB | "A7"A2ec Agec | "D"d4- d2 :|
+P: The Flowers of Edinburgh
+O: Trad
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+N: Probably the best-known Scottish reel; in all the old collections.
+N: RSCDS 1-1.
+N: Hardie p.32
+N: Skye p.170
+N: Bain p.33
+N: Williamson p.53
+N: BSFC I-10 and  V-9 and  XI-6
+D: Scottish  Traditional Fiddle Music tape
+D: Jimmy MacLellan on "This is Sidney" tape
+M: C|
+L: 1/8
+K: G
+   GE \
+| "G"D2DE G2GA | BGBd cBAG | "D7"FGFE DEFG | AFdF E2GE |
+| "G"D2DE G2GA | BGBd "C"efge | "G"dcBA "D7"GFGA | "G"B2G2 G2 :|
+|: d2 \
+| "G"g2gd gbag | "D7"f2fd fagf | "Em"~e2ef gfed | B2e2 "(C)"e2ge |
+| "G"dBGB d2d2 | "C"edef g2fe | "G"dcBA "D7"GFGA | "G"B2G2 G2 :|
+%%center Book01/01011-Mrs_MacLeods_Reel.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 01011
+T: The Persian Dance
+O: Nath Gow's dances 1812
+R: reel
+B: RSCDS 1-1
+B: RSCDS Graded
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Variant of Galopede, Yarmouth Reel, without the middle part
+M: C|
+L: 1/8
+%--------------------
+K: G
+   dc \
+| "G"B2Bc "D7"A2AB | "G"G2G2 G2AB \
+|1,3 "C"cBcd edcB | "D7"A2A2 A2 \
+:|2,4 "C"cBAG "D7"FGAF | "G"G2"C"G2 "G"G2 :|
+|: Bc \
+| "G".d2.d2 .d2g2 | .d2.d2 .d2g2 \
+|1,3 .d2.d2 "C"edcB | "D7"AGAB A2Bc \
+:|2,4 "G"d2B2 "D7"dcBA | "G"G2B2 G2 :|
+%%center Book01/01011-Persian_Dance-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 01021
+T: The Triumph
+R: reel
+B: RSCDS 1-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: A
+|: af \
+ | "A"eccA "E7"dBBG | "A"A2a2 "D"f2a2 | "A"eccA "E7"dBBG | "A"A2c2 A2 :|
+z2 \
+|| "E"B2e2 "A"c2e2 | "E"B2e2 "A"c2e2 | "E7"B2Bd "A"c2ce | "E7"[c2A2][B2G2] "A"A2z2 |
+ | "E"Be^de "A"cede | "E"Be^de "A"cede | "E"B2Bd "A"c2ce | "E"[c2E2][B2D2] "A"[A2C2]z2 ||
+|| "A"c2cd e2c2 | "E7"B2Bc d2B2 | "A"c2cd eagf | "E7"edcB "A"A2AB |
+ | "A"c2cd fedc | "E7"B2Bc edcB |  "A"c2cd eagf | "E7"edcB "A"A2 |]
+%%center Book01/01021-Triumph-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Nut
+R: jig
+B: RSCDS 1-4(a)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%
+K: Bb
+F | "Bb"B>cB Bed | dcB B2g | gfe dcB | "F7"dcc c2F | "Bb"B>cB Bed | dgf fba | "Eb"g2B "F7"ABc | "Bb"cBB B2Hz ||
+A/B/ | "F"c>dc caf | "C7"=ecd "(F)"c2c |1 "F"cdc cAF | "C7"AGG GAB :|2 "Bb"d=ef "C7"gfe | "F"fgf "F7"_ed"d.C."c |]
+%%center Book01/01041-Nut.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Nut
+R: jig
+B: RSCDS 1-4(a)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+| "A"A>BA Adc | cBA A2f | "D"fed "A"cBA | "Bm"cBB "E7"B2E |
+| "A"A>BA Adc | cfe eag | "D"f2A "E7"GAB | "A"BAA "fine"A2 |]
+G/A/ \
+|: "E"B>cB Bge | "B7"^dBc "(E)"B2B |1 "E"BcB BGE | "B7"GFF FGA \
+:|2 "A"c^de "B7"fed | "E"efe "E7"=dc"d.C."B |]
+%%center Book01/01041-Nut_A24-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 01042
+T: Tarry Awhile
+O: Printle's Collection 1802
+R: jig
+B: RSCDS 1-4(b)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: D
+A | "D"d>ed A2F | "D"A2A A2f | "G"g>ag "D"fed | "E7"f3 "A7"e2A |
+y2| "D"d>ed A2F | "D"A2A Afg | "D"afd "A7"e2f | "D"d3- "fine"d2 |]
+g | "D"f2a agf | "G"g2b "A7"efg | "D"f>ed "E7"dcd | "A7"f>ec A2g |
+y2| "D"f2a agf | "G"gab "A7"efg | "D"fed "E7"dcd | "(D)"f3 "A7"e2"d.C."z |]
+%%center Book01/01042-Tarry_Awhile-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 01042
+T: Tarry Awhile
+O: Printle's Collection 1802
+R: jig
+B: RSCDS 1-4(b)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: D
+A \
+| "D"d>ed A2F | "D"A2A A2f \
+|1 "G"g>ag "D"fed | "E7"f3 "A7"e2 \
+:|2 "D"afd "A7"e2f | "D"d3- "fine"d2 |]
+|: g \
+| "D"f2a agf | "G"g2b "A7"efg \
+|1 "D"f>ed "E7"dcd | "A7"f>ec A2 \
+:|2 "D"fed "E7"dcd | "(D)"f3 "A7"e2"d.C."z |]
+%%center Book01/01042-Tarry_Awhile-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 01081
+T: The Duke of Perth
+B: RSCDS 1-8
+R: march
+N: Robert Bremner's Collection, 1757
+N: SFT p.5
+N: Allan's p.14
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+%--------------------
+K: G
+B |: "G"G/A/B/c/ dB | gB dB | gB dB | "Am"aA "D7"A/c/B/A/ \
+  |  "G"G/A/B/c/ dB | gB dB | "Am"cA "D7"d>c | "G"BG G :|
+f |: "Em"g>a ge | "B7"a>b af | "Em"g>a ge | be "(B7)"ef \
+  |  "Em"g>a ge | "D7"a>b af | "G"gd "D7"ed/c/ | "G"BG G :|
+%%center Book01/01081-Duke_of_Perth-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 01111
+T: Cumberland Reel
+R: jig
+B: RSCDS 1-11
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: D
+|: A \
+| "D"f2e d2c | "G"d2B "D"A2F | "Em"G>FG "A7"EFG | "D"F2G A2A \
+| "G"B2G d2B | "D"A2F d2d | "A7"c>de ABc | "D"d3- d2 :|
+d/e/ \
+| "D"f2f f2d/e/ | f2f fde | "Bm"f2f g2f | "Em"~e2e "A7"e2c \
+| "Bm"d2d d2B/c/ | d2d dBc | "E7"d2B e2d | "A7"c2B ABc ||
+y2 \
+| "D"d2d "A7"cBA | "G"B2c "D"d2A | "D"d>ed "A7"cBA | "G"B2c "D"d2f \
+| "A7"~e2e ~e2e | ~e2e efg | "(D)"a2A "A7"ABc | "D"d3- d2 |]
+%%center Book01/01111-Cumberland_Reel-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 01121
+T: The Merry Lads of Ayr
+C: John Riddell
+B: RSCDS 1-12
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: C
+|: f \
+| "C"edcB cGGf | edce "F"f2"G"gf | "C"edcB cGGc | "F"A/B/c "C"GE "G7"D2 D :|
+|: d \
+| "C"c2ga "(G)"gede | "C"ccga "(G)"g2ed | "C"cega gece | "F"fa"C"ge "G"d3 :|
+%%center Book01/01121-Merry_Lads_of_Ayr-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Cumberland Reel
+R: jig
+O: c.1815
+S: Rev. Robert Harrison's MS, c.1815, Cumbria
+B: RSCDS 1-11
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: A \
+| "D"f2e d2c | "G"d2B "D"A2F | "Em"G>FG "A7"EFG | "D"F2G A2A \
+| "G"B2G d2B | "D"A2F d2d | "A7"c>de ABc | "D"d3- d2 :|
+d/e/ \
+| "D"f2f f2d/e/ | f2f fde | "Bm"f2f g2f | "Em"~e2e "A7"e2c \
+| "Bm"d2d d2B/c/ | d2d dBc | "E7"d2B e2d | "A7"c2B ABc ||
+y2 \
+| "D"d2d "A7"cBA | "G"B2c "D"d2A | "D"d>ed "A7"cBA | "G"B2c "D"d2f \
+| "A7"~e2e ~e2e | ~e2e efg | "(D)"a2A "A7"ABc | "D"d3- d2 |]
+%%center Book01/CumberlandR-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Cumberland Reel
+R: jig
+O: c.1815
+S: Rev. Robert Harrison's MS, c.1815, Cumbria
+B: RSCDS 1-11
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: A \
+| "D"f2e d2c | "G"d2B "D"A2F | "Em"G>FG "A7"EFG | "D"F2G A2A \
+| "G"B2G d2B | "D"A2F d2d | "A7"c>de ABc | "D"d3- d2 :|
+d/e/ \
+| "D"f2f f2d/e/ | f2f fde | "Bm"f2f g2f | "Em"~e2e "A7"e2c \
+| "Bm"d2d d2B/c/ | d2d dBc | "E7"d2B e2d | "A7"c2B ABc ||
+y2 \
+| "D"d2d "A7"cBA | "G"B2c "D"d2A | "D"d>ed "A7"cBA | "G"B2c "D"d2f \
+| "A7"~e2e ~e2e | ~e2e efg | "(D)"a2A "A7"ABc | "D"d3- d2 |]
+%%center Book01/CumberlandR_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Duke of Perth
+B: RSCDS 1-8
+R: march
+N: Robert Bremner's Collection, 1757
+N: SFT p.5
+N: Allan's p.14
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: G
+B |: "G"G/A/B/c/ dB | gB dB | gB dB | "Am"aA "D7"A/c/B/A/ \
+  |  "G"G/A/B/c/ dB | gB dB | "Am"cA "D7"d>c | "G"BG G :|
+f |: "Em"g>a ge | "B7"a>b af | "Em"g>a ge | be "(B7)"ef \
+  |  "Em"g>a ge | "D7"a>b af | "G"gd "D7"ed/c/ | "G"BG G :|
+%%center Book01/DukeOfPerthM-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Duke of Perth
+B: RSCDS 1-8
+R: march
+N: Robert Bremner's Collection, 1757
+N: SFT p.5
+N: Allan's p.14
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: G
+B |: "G"G/A/B/c/ dB | gB dB | gB dB | "Am"aA "D7"A/c/B/A/ \
+  |  "G"G/A/B/c/ dB | gB dB | "Am"cA "D7"d>c | "G"BG G :|
+f |: "Em"g>a ge | "B7"a>b af | "Em"g>a ge | be "(B7)"ef \
+  |  "Em"g>a ge | "D7"a>b af | "G"gd "D7"ed/c/ | "G"BG G :|
+%%center Book01/DukeOfPerthM_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Flowers of Edinburgh #1
+C: James Oswald, c.1742
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+N: Probably the best-known Scottish reel; in all the old collections.
+B: Oswald "Curious Collection of Scots Tunes (II)" c.1742
+N: RSCDS 1-1.
+N: Hardie p.32
+N: Skye p.170
+N: Bain p.33
+N: Williamson p.53
+N: BSFC I-10 and  V-9 and  XI-6
+D: Scottish  Traditional Fiddle Music tape
+D: Jimmy MacLellan on "This is Sidney" tape
+M: C|
+L: 1/8
+K: G
+   GE \
+| "G"D2DE G2GA | BGBd cBAG | "D7"FGFE DEFG | AFdF E2GE |
+| "G"D2DE G2GA | BGBd "C"efge | "G"dcBA "D7"GFGA | "G"B2G2 G2 :|
+|: d2 \
+| "G"g2gd gbag | "D7"f2fd fagf | "Em"~e2ef gfed | B2e2 "(C)"e2ge |
+| "G"dBGB d2d2 | "C"edef g2fe | "G"dcBA "D7"GFGA | "G"B2G2 G2 :|
+%%center Book01/FlowersOfEdinburgh1_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Flowers Of Edinburgh
+C: arr. Terry Traub 7-30-2000
+R: Reel
+M: 4/4
+%--------------------
+K: G
+L: 1/8
+|: GE|"G"D2 DE G2 GA|BGBd cBAG|"D"FGFE DEFG|AFdF "C"E2 GE|"G"D2 DE G2 GA|
+"G"BGBd "C"efge|"D"dcBA GFGA|"G"B2 G2 G2 :||: Bd|"G"g2 g2 gbag|"D (B7)"f2 f2 fagf|
+"G"edef gfed|"Em"B2 e2 "C"e2 ge|"G"dBGB d2 ^cd|"C"edef g2 fe|"D"dcBA GFGA|"G"B2 G2 G2 :|
+%%center Book01/FlowersOfEdinburgh1_G-TT.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Flowers of Edinburgh #1
+C: James Oswald, c.1742
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+N: Probably the best-known Scottish reel; in all the old collections.
+B: Oswald "Curious Collection of Scots Tunes (II)" c.1742
+N: RSCDS 1-1.
+N: Hardie p.32
+N: Skye p.170
+N: Bain p.33
+N: Williamson p.53
+N: BSFC I-10 and  V-9 and  XI-6
+D: Scottish  Traditional Fiddle Music tape
+D: Jimmy MacLellan on "This is Sidney" tape
+M: C|
+L: 1/8
+K: G
+   GE \
+| "G"D2DE G2GA | BGBd cBAG | "D7"FGFE DEFG | AFdF E2GE |
+| "G"D2DE G2GA | BGBd "C"efge | "G"dcBA "D7"GFGA | "G"B2G2 G2 :|
+|: d2 \
+| "G"g2gd gbag | "D7"f2fd fagf | "Em"~e2ef gfed | B2e2 "(C)"e2ge |
+| "G"dBGB d2d2 | "C"edef g2fe | "G"dcBA "D7"GFGA | "G"B2G2 G2 :|
+%%center Book01/FlowersOfEdinburgh1_G4-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Flowers of Edinburgh #1
+C: James Oswald, c.1742
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+N: Probably the best-known Scottish reel; in all the old collections.
+B: Oswald "Curious Collection of Scots Tunes (II)" c.1742
+N: RSCDS 1-1.
+N: Hardie p.32
+N: Skye p.170
+N: Bain p.33
+N: Williamson p.53
+N: BSFC I-10 and  V-9 and  XI-6
+D: Scottish  Traditional Fiddle Music tape
+D: Jimmy MacLellan on "This is Sidney" tape
+M: C|
+L: 1/8
+K: G
+   GE \
+| "G"D2DE G2GA | BGBd cBAG | "D7"FGFE DEFG | AFdF E2GE |
+| "G"D2DE G2GA | BGBd "C"efge | "G"dcBA "D7"GFGA | "G"B2G2 G2 :|
+|: d2 \
+| "G"g2gd gbag | "D7"f2fd fagf | "Em"~e2ef gfed | B2e2 "(C)"e2ge |
+| "G"dBGB d2d2 | "C"edef g2fe | "G"dcBA "D7"GFGA | "G"B2G2 G2 :|
+%%center Book01/FlowersOfEdinburgh1_G4_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Flowers of Edinburgh #1
+C: James Oswald, c.1742
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+N: Probably the best-known Scottish reel; in all the old collections.
+B: Oswald "Curious Collection of Scots Tunes (II)" c.1742
+N: RSCDS 1-1.
+N: Hardie p.32
+N: Skye p.170
+N: Bain p.33
+N: Williamson p.53
+N: BSFC I-10 and  V-9 and  XI-6
+D: Scottish  Traditional Fiddle Music tape
+D: Jimmy MacLellan on "This is Sidney" tape
+M: C|
+L: 1/8
+K: G
+   GE \
+| "G"D2DE G2GA | BGBd cBAG | "D7"FGFE DEFG | AFdF E2GE |
+| "G"D2DE G2GA | BGBd "C"efge | "G"dcBA "D7"GFGA | "G"B2G2 G2 :|
+|: d2 \
+| "G"g2gd gbag | "D7"f2fd fagf | "Em"~e2ef gfed | B2e2 "(C)"e2ge |
+| "G"dBGB d2d2 | "C"edef g2fe | "G"dcBA "D7"GFGA | "G"B2G2 G2 :|
+%%center Book01/FlowersOfEdinburgh1_G_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 01011
+T: The Flowers of Edinburgh
+O: Trad
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+N: Probably the best-known Scottish reel; in all the old collections.
+N: RSCDS 1-1.
+N: Hardie p.32
+N: Skye p.170
+N: Bain p.33
+N: Williamson p.53
+N: BSFC I-10 and  V-9 and  XI-6
+D: Scottish  Traditional Fiddle Music tape
+D: Jimmy MacLellan on "This is Sidney" tape
+M: C|
+L: 1/8
+%--------------------
+K: A
+|: AF \
+| "A"E2EF A2AB | cAce dcBA | "E7"GAGF EFGA | BGeG F2AF |
+| "A"E2EF A2AB | cAce "D"fgaf | "A"edcB "E7"AGAB | "A"c2A2 A2 :|
+|: e2 \
+| "A"a2ae ac'ba | "E7"g2ge gbag | "Fm"~f2fg agfe | c2f2 "(D)"f2af |
+| "A"ecAc e2e2 | "D"fefg a2gf | "A"edcB "E7"AGAB | "A"c2A2 A2 :|
+%%center Book01/Flowers_of_Edinburgh-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 01011
+T: The Flowers of Edinburgh
+T: My Love's Bonny When She Smiles on Me
+C: James Oswald
+R: reel
+Z: John Chambers <jc@trillian.mit.edu>
+N: Probably the best-known Scottish reel; in all the old collections.
+N: RSCDS 1-1.
+N: Hardie p.32
+N: Skye p.170
+N: Bain p.33
+N: Williamson p.53
+N: BSFC I-10 and  V-9 and  XI-6
+D: Scottish  Traditional Fiddle Music tape
+D: Jimmy MacLellan on "This is Sidney" tape
+M: C|
+L: 1/8
+Q: 1/2=120
+%--------------------
+K: G
+|: GE \
+| "G"D2DE G2GA | BGBd cBAG | "D7"FGFE DEFG | AFdF E2GE |
+| "G"D2DE G2GA | BGBd "C"efge | "G"dcBA "D7"GFGA | "G"B2G2 G2 :|
+|: d2 \
+| "G"g2gd gbag | "D7"f2fd fagf | "Em"~e2ef gfed | B2e2 "(C)"e2ge |
+| "G"dBGB d2d2 | "C"edef g2fe | "G"dcBA "D7"GFGA | "G"B2G2 G2 :|
+%%center Book01/Flowers_of_Edinburgh.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Merry Lads of Ayr
+C: John Riddell
+B: RSCDS 1-12
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+|: f \
+| "C"edcB cGGf | edce "F"f2"G"gf | "C"edcB cGGc | "F"A/B/c "C"GE "G7"D2 D :|
+|: d \
+| "C"c2ga "(G)"gede | "C"ccga "(G)"g2ed | "C"cega gece | "F"fa"C"ge "G"d3 :|
+%%center Book01/MerryLadsOfAyrR-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Merry Lads of Ayr
+C: John Riddell
+B: RSCDS 1-12
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+|: f \
+| "C"edcB cGGf | edce "F"f2"G"gf | "C"edcB cGGc | "F"A/B/c "C"GE "G7"D2 D :|
+|: d \
+| "C"c2ga "(G)"gede | "C"ccga "(G)"g2ed | "C"cega gece | "F"fa"C"ge "G"d3 :|
+%%center Book01/MerryLadsOfAyrR_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Nut
+R: jig
+B: RSCDS 1-4(a)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+| "A"A>BA Adc | cBA A2f | "D"fed "A"cBA | "Bm"cBB "E7"B2E |
+| "A"A>BA Adc | cfe eag | "D"f2A "E7"GAB | "A"BAA "fine"A2 |]
+G/A/ \
+|: "E"B>cB Bge | "B7"^dBc "(E)"B2B |1 "E"BcB BGE | "B7"GFF FGA \
+:|2 "A"c^de "B7"fed | "E"efe "E7"=dc"d.C."B |]
+%%center Book01/Nut_A24-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Nut
+R: jig
+B: RSCDS 1-4(a)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+| "A"A>BA Adc | cBA A2f | "D"fed "A"cBA | "Bm"cBB "E7"B2E |
+| "A"A>BA Adc | cfe eag | "D"f2A "E7"GAB | "A"BAA "fine"A2 |]
+G/A/ \
+|: "E"B>cB Bge | "B7"^dBc "(E)"B2B |1 "E"BcB BGE | "B7"GFF FGA \
+:|2 "A"c^de "B7"fed | "E"efe "E7"=dc"d.C."B |]
+%%center Book01/Nut_A24_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Persian Dance
+O: 1812
+B: Nath Gow's dances 1812
+R: reel
+B: RSCDS 1-1
+B: RSCDS Graded
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Variant of Galopede, Yarmouth Reel, without the middle part
+M: C|
+L: 1/8
+K: G
+   dc \
+| "G"B2Bc "D7"A2AB | "G"G2G2 G2AB \
+|1,3 "C"cBcd edcB | "D7"A2A2 A2 \
+:|2,4 "C"cBAG "D7"FGAF | "G"G2"C"G2 "G"G2 :|
+|: Bc \
+| "G".d2.d2 .d2g2 | .d2.d2 .d2g2 \
+|1,3 .d2.d2 "C"edcB | "D7"AGAB A2Bc \
+:|2,4 "G"d2B2 "D7"dcBA | "G"G2B2 G2 :|
+%%center Book01/PersianDance-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Persian Dance
+O: 1812
+B: Nath Gow's dances 1812
+R: reel
+B: RSCDS 1-1
+B: RSCDS Graded
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Variant of Galopede, Yarmouth Reel, without the middle part
+M: C|
+L: 1/8
+K: G
+   dc \
+| "G"B2Bc "D7"A2AB | "G"G2G2 G2AB \
+|1,3 "C"cBcd edcB | "D7"A2A2 A2 \
+:|2,4 "C"cBAG "D7"FGAF | "G"G2"C"G2 "G"G2 :|
+|: Bc \
+| "G".d2.d2 .d2g2 | .d2.d2 .d2g2 \
+|1,3 .d2.d2 "C"edcB | "D7"AGAB A2Bc \
+:|2,4 "G"d2B2 "D7"dcBA | "G"G2B2 G2 :|
+%%center Book01/PersianDance_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Tarry Awhile
+O: Pringle's Collection 1802
+R: jig
+B: RSCDS 1-4(b)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A | "D"d>ed A2F | "D"A2A A2f | "G"g>ag "D"fed | "E7"f3 "A7"e2A |
+y2| "D"d>ed A2F | "D"A2A Afg | "D"afd "A7"e2f | "D"d3- "fine"d2 |]
+g | "D"f2a agf | "G"g2b "A7"efg | "D"f>ed "E7"dcd | "A7"f>ec A2g |
+y2| "D"f2a agf | "G"gab "A7"efg | "D"fed "E7"dcd | "(D)"f3 "A7"e2"d.C."z |]
+%%center Book01/TarryAwhile_D24-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Tarry Awhile
+O: Pringle's Collection 1802
+R: jig
+B: RSCDS 1-4(b)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A | "D"d>ed A2F | "D"A2A A2f | "G"g>ag "D"fed | "E7"f3 "A7"e2A |
+y2| "D"d>ed A2F | "D"A2A Afg | "D"afd "A7"e2f | "D"d3- "fine"d2 |]
+g | "D"f2a agf | "G"g2b "A7"efg | "D"f>ed "E7"dcd | "A7"f>ec A2g |
+y2| "D"f2a agf | "G"gab "A7"efg | "D"fed "E7"dcd | "(D)"f3 "A7"e2"d.C."z |]
+%%center Book01/TarryAwhile_D24_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Triumph
+R: reel
+B: RSCDS 1-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: af \
+ | "A"eccA "E7"dBBG | "A"A2a2 "D"f2a2 | "A"eccA "E7"dBBG | "A"A2c2 A2 :|
+z2 \
+|| "E"B2e2 "A"c2e2 | "E"B2e2 "A"c2e2 | "E7"B2Bd "A"c2ce | "E7"[c2A2][B2G2] "A"A2z2 |
+ | "E"Be^de "A"cede | "E"Be^de "A"cede | "E"B2Bd "A"c2ce | "E"[c2E2][B2D2] "A"[A2C2]z2 ||
+|| "A"c2cd e2c2 | "E7"B2Bc d2B2 | "A"c2cd eagf | "E7"edcB "A"A2AB |
+ | "A"c2cd fedc | "E7"B2Bc edcB |  "A"c2cd eagf | "E7"edcB "A"A2 |]
+%%center Book01/TriumphR-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Triumph
+R: reel
+B: RSCDS 1-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: af \
+ | "A"eccA "E7"dBBG | "A"A2a2 "D"f2a2 | "A"eccA "E7"dBBG | "A"A2c2 A2 :|
+z2 \
+|| "E"B2e2 "A"c2e2 | "E"B2e2 "A"c2e2 | "E7"B2Bd "A"c2ce | "E7"[c2A2][B2G2] "A"A2z2 |
+ | "E"Be^de "A"cede | "E"Be^de "A"cede | "E"B2Bd "A"c2ce | "E"[c2E2][B2D2] "A"[A2C2]z2 ||
+|| "A"c2cd e2c2 | "E7"B2Bc d2B2 | "A"c2cd eagf | "E7"edcB "A"A2AB |
+ | "A"c2cd fedc | "E7"B2Bc edcB |  "A"c2cd eagf | "E7"edcB "A"A2 |]
+%%center Book01/TriumphR_JC.abc

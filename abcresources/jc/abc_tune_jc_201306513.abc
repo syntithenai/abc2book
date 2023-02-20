@@ -1,0 +1,40 @@
+X: 1
+T: the Man from Skye
+C: P/M Donald MacLeod
+R: hornpipe
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin (labelled "S.G.")
+N: Play with a dotten rhythm.
+M: C\
+L: 1/8
+K: Ador
+Bd "A"\
+| "Am"e2e2 deed | "Am"Beed "D7"B2A2 \
+| "G"GGGB G2B2 | "G"GBBd "Em"B2d2 \
+| "Am"e2e2 deed | "Am"Beed "D7"B2AG |
+| "Dm"AAAB "Em"e2dB | "Am"A4 A2 :|\
+Bd "B1"\
+| "Am"e2g2 "D7"a2ef | "G"gfed B2A2 \
+| "G"GGGB G2B2 | "G"GBBd "Em"B2d2 |
+| "Am"efge "D7"a2a2 | "G"gfed "Em"B2AG \
+| "Dm"AAAB "Em"e2dB | "Am"A4 A2 |]\
+Bd "B2"\
+| "Am"e2g2 "D7"a2ef | "G"gfed B2A2 |
+| "G"GGGB G2B2 | "G"GBBd "Em"B2d2 \
+| "Am"e2ed deed | "Am"Beed "Em"B2AG \
+| "Dm"AAAB "Em"e2dB | "Am"A4 A2 |]
+|: Bd "C"\
+| "Am"e2A2 A2Bd | "Am"eged "D7"B2AB \
+| "G"dGG2 BABG | "G"BdGd "Em"B2d2 \
+| "Am"eA A2 BABd | "Am"egde "G"B2AG |
+| "Dm"AAAB "Em"e2dB | "Am"A4 A2 :|\
+Bd "D1"\
+| "C"e2ed e2ef | "C"gfeg "D7"B2A2 \
+| "G"GGGB G2B2 | "G"GBBd "Em"B2d2 |
+| "C"e2ed "Am"e2ef | "Bm"gfed "Em"B2AG \
+| "Dm"AAAB "Em"e2dB | "Am"A4 A2 |]\
+Bd "D2"\
+| "C"e2ed e2ef | "C"gfeg "D7"B2A2 |
+| "G"GGGB G2B2 | "G"GBBd "Em"B2d2 \
+| "Am"eA A2 "G"BABd | "F"egde "Em"B2AG \
+| "Dm"AAAB "Em"e2dB | "Am"A4 A2 |]

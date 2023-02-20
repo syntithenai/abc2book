@@ -1,0 +1,20 @@
+X: 1
+T: TRUNKLES
+S: Butterworth (MSS); D music from BC
+O: Bucknell
+B: Morris Ring
+P: A.(A2B3C3)4.(A2B3D3)2
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+P: A
+|: d3B c2e2 | dBcA B2G2 | d3B c2e2 | dcBA G4 :|
+P: B
+   d3^c d2g2 | eee^c d2g2 | ee ((3ed^c) B2^c2 | d4 d2 ||
+P: C
+gf | e2c2 cBce | d2B2 BGBd | c2A2 AGAc | B2G2 G2d2 | c2BA G2A2 | G4 G4 ||
+P: D
+[M:2/4]g3f |\
+[M:4/4]e4 c4 | c2B2c2e2 | d4 B4 | B3A B2d2 | c4 A4 |
+   A3G A2c2 | B4 G4 |[M:2/4]G2d2 |[M:4/4]c2BA G2A2 | G4 G4 ||

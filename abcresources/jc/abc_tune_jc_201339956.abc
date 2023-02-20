@@ -1,0 +1,20 @@
+X: 1
+T:Spot the Wallop
+R:jig
+H:See also #77
+Z:id:hn-jig-221
+M:6/8
+K:D
+~F3 DFA|BAF dAG|~F3 DFA|BAF EDE|
+~F3 DFA|BAF d2e|fed edB|BAF AFE:|
+|:Bcd eAA|fed eAA|Bcd eAA|BAF AFE|
+Bcd eAA|fed efg|age edB|BAF AFE:|
+|:DFA ~d3|edc ~d3|DFA d2A|BAF AFE|
+DFA ~d3|edc d2e|fed edB|BAF AFE:|
+"variations"
+|:~F3 DFA|BAF d2A|~F3 DFA|B2F AFE|
+~F3 DFA|BAF d2e|fdd edB|BAF AFE:|
+|:Bcd eAA|fAA eAA|Bcd eAA|BAF AFE|
+Bcd eAA|fed efg|age edB|BAF AFE:|
+|:DFA dcd|edc dAF|DFA ded|BAF AFE|
+DFA dcd|edc d2e|fed edB|BAF AFE:|

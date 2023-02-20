@@ -1,0 +1,45 @@
+X: 1
+T: My ain kind Deary
+P: Longways for as many as will
+%R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCD1: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.28
+S: 6: CCDM: http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.8 #18
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: CCDM has "Play this Part once over" for the 2nd strain; CCD1 has initial repeat but no final repeat.  Both have the same dance.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 is formatted for 4-bar staff lines:
+V: 1
+A |\
+GEDE G2AB | G/A/B TA>G AEEA |\
+GEDE G2Gg | e2d>B dGG :|
+g |\
+e/e/e Td>B dGGB | A/A/A B>G AEEA |\
+GEDE G2Gg | e/e/e Td>B dGG |]
+g |\
+e/e/e gd eBgB | A/A/A B>G AEEA |\
+GEDE G2Gg | e/e/e Td>B dGG |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks:
+V: 2 clef=bass middle=d
+z |\
+g2c'2 b2a2 | g2c2 d2c2 | B2c2 Gg/a/ bg | c'2b>a gGG :|\
+z | c'2b2 bb/a/ bg | fdgG d2c2 |
+B2c2 Gg/a/ bg | c'2b2 bb/a/ b |]
+g |\
+c'2b2 c'2ze | fd gG d2c2 |\
+B2c2 Gg/a/ bg | c'2ba gGG |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. foots it and cast off .|
+%% 1st Cu. foots it in the 2d Cu. Place and lead through the 3d Cu. :|
+%% 1st Man foots it with the 3d Wo. and turns her, his Partner doing the same at the same time with the 2d Man .|
+%% The 1st Cu. does the same at the other Corners :#:
+%% First and 2d Cu. hands across quite round with their Right Hands and foot it .|
+%% then do the same back again with your left hands :|
+%% First Cu. foots it and turns .|
+%% 1st and 2d Cu. Right and Left quite round.
+%%endtext

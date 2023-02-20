@@ -1,0 +1,32 @@
+X: 22
+T: Chilling O guiry
+%R: waltz
+B: "The Hibernian Muse" p.14 #1
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. XXII.
+M: 3/4
+L: 1/4
+K: G
+%%slurgraces
+%%graceslurs
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+GBB | Gcc | GBB | {d2}c2d |\
+GBB | cAd | BGG | G3 :|\
+|:\
+e/f/gg | Tg2a | ecc | {d}Tc3 |
+f/g/aa | a2b | fdd | Td3 |\
+e/f/gg | Tg2a | ecc | Td2c |\
+BGG | cAA | BGG | G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+Ggg | Ggg | Ggg | fdg |\
+Ggg | dfd | gGG | G3 :|\
+|:\
+cc'c' | c'/d'/e'z | c'cc | c3 |
+dd'd' | d'/e'/f'z | d'dd | d3 |\
+ccc | c/d/ez | cec | BGc |\
+gGG | dfd | gGG | G3 :|

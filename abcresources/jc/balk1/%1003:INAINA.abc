@@ -1,0 +1,19 @@
+X: 1003
+T: Ina Ina
+O: Romania
+M: 4/4
+L: 1/8
+K: Ddor
+Q: 1/4=180
+%%MIDI program 20 Reed Organ
+%%MIDI chordprog 32 Acoustic Bass
+%%MIDI bassprog 45 Pizzicator Strings
+%%MIDI gchord f3cfzfz
+"Dm"D2D2 D2D2 |"G"G4 "Dm" F4|\
+"Dm"D2D2 D2D2 |"C"E2C2 C4   |\
+"Dm"D2D2 D2D2 |"G"G4 "Dm"F4 |\
+"Dm"C2D2- D2D2|D4 D4::
+"Dm"d2A2 d2A2 |"G"G4 "Dm"F4 |\
+D2D2 D2D2     |D2E2 C4      |\
+d2A2 d2A2     |"G"G4 "Dm"F4 |\
+C2D2- D2D2    | D4 D4       |

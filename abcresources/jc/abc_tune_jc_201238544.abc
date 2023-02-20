@@ -1,0 +1,38 @@
+X: 30991
+T: COTILLION No. 11. METAMORA SETT tune 4
+C:
+%R: reel
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.99 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+P:
+Ac |\
+e2e2 eagf | e2e2 eagf | efed cdcB | AGAB ABcd |\
+e2e2 eagf | e2e2 eagf | efed cdcB | A2A2A2 H|]
+P:
+[V:1 staves=2]ga |\
+bc'd'c' baga | bagf e2ga | bc'd'c' baga | b2 e'4 ga |\
+bc'd'c' baga | bagf e2ga | bc'd'c' baga | b4 "^D.C."e'2 |]
+[V:2]z2 |\
+z2 [G2C2] E2EF | GABA GFEF | GABA GABc | [d2E2]z2 [d2E2]z2 |\
+z2 [G2B,2] E2EF | GABA GFEF | GABA GABc | [d2E2]z2 "^D.C."[d2E2] |]
+P:
+K: Am
+AB |\
+cedc BdcB | dcBc Aagf | efed cdcB | dcBc A2AB |\
+cedc BdcB | dcBc Afed | cBcA cBcA | e4 "^D.C."e4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies forward and back,
+%% gentlemen the same,
+%% all chassa across and balance,
+%% turn partners.
+%% Repeat the figure.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

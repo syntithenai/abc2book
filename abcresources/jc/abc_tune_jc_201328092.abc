@@ -1,0 +1,18 @@
+X: 1
+T: Rainy Night in Montague 
+C: George Reynolds
+M: C|
+L: 1/8
+R: reel
+K: Dmix
+%%indent 500
+"Intro:" .[D2F2A,2]z2.[D2F2A,2]z2 | .[D2F2A,2]z2 G,A,CD || 
+|:\
+"D"ADCA, G,A,CD | ADCA, G,A,CD | "C"E2 ED EGED | E2 ED EGED | 
+"D"ADCA, G,A,CD | ADCA, G,A,CD | "C"E2 ED EGED |1 "D"D2 DD G,A,CD :| \
+[2 "D"D2 DD D2 DD || 
+|:\
+"D"Addc d2 dc | AGAB c2 cB | "C"AGEG AdcB | "Am"A2 AB c2cB | 
+"D"Addc dedc | AGAB c2 cB | "Am"AGEG AGED |1 "D"D2 DD DEFG :| \
+[2 "D"D2 DD D4 |] 
+%%text On transition, crescendo on the last measure and emphasize the last note.

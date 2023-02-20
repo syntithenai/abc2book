@@ -1,0 +1,42 @@
+X: 1
+T: Vienna
+P: Longways for as many as will
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.42 #82
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.130
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+G2 G2 G2 g2 | f2 d2 B4 | f2 d2 f2 c2 | (AB) (cA) ^F4 |\
+B2 b2 a2 g2 | (^fg) (af) g3 a | f2 d2 (de) f2 | (c3 B/c/) d4 |]
+d2 b2 a2d2 | (a3 g/a/) b4 | (ba) (gf) (ed) (cB) | (de) f2 A4 |\
+A2 c4 d2 | (dc) (cB) f3 f | g2 d2 (ed) (cB) | A4 G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man sett to his own, and cross over with the 2d
+%% Wo. then 1st and 2d We. sett and cross over, and change
+%% Places; then 1st and 2d Men take Hands and lead between
+%% the 1st and 2d. We. and come into their Places again; then
+%% all four clap, take Hands, and go half round into their
+%% own Places again; then the 1st and 2d We. take Hands
+%% and lead between the 1st and 2d Men into their own Places
+%% again; then all four clap, take Hands, and go half
+%% round into their Places again, the rest doing the same.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man sets to his own, and crosses over with the 2. wo. then 1. and 2. wo. set, and cross over
+%% and change places; then 1. and 2. man take hands and lead between the 1. and 2. wo. and come into
+%% their places again; then all four clap and take hands, and go half round into their own places again;
+%% then the 1. and 2. we. take hands and lead between the 1. and 2. men into their own places again;
+%% then all four clap and take hands, and go half round into their places again, the rest doing the same.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

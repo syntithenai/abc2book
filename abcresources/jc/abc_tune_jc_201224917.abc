@@ -1,0 +1,21 @@
+X: 8
+T: the Strasburgh Waltz
+%R: waltz
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.4 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+.G2(GBdB) | .g2(gdBd) | .c2(cABG) | (GFEDEF) |\
+.G2(GBdB) | .g2(gefg) | (fafde^c) | d4 :|
+|: (cB) |\
+.c2(c2ec) | .A2(A2cA) | (BdgdBG) | ({B}A^GADEF) |\
+(GFGABG) | .E2(efge) | (dedBcA) | G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% 1st Cu: set to 2d Lady & hands 3 round, same
+%% with Gent: down the mid: up again, cast off.
+%%endtext

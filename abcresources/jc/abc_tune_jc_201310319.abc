@@ -1,0 +1,19 @@
+X:473
+T:Miss Claire Moir
+C:Dave Brown, 2005
+L:1/8
+M:3/4
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%MIDI beat 100 95 80
+Q:1/4=113
+K:A
+P:A
+[| f ed | "A"c3f ec | "Bm"B3f ed | "F#m"cBA2F2 | "E7"E3F AB |\
+"A"c3f ec | "D6"B3c AF | "G"=G2B3G | "A"A3 f ed |
+"A"c3f ec | "Bm"B3f ed | "F#m"cBA2F2 | "E7"E3EDB, |\
+"A"(3A,B,C EF AF | "F#m"(3EFA cB AF | "G"=G2 B3G | "A"A6 |
+P:B
+"C"=GAB2G2 | "D"F=GA2F2 | "Em"EF=G2E2 | "F#7"F6 |\
+"G"=GAB2G2 | "A"ABc3e | "Bm"def2a2 | "C#7"g4g2 |
+"A"(3agf ec ec | "F#m"(3ecB AF AF | "D"E3F Ac | "E7"B4E2 |\
+"A"(3A,B,C EF AF | "F#m"(3EFA cB AF | "G"=G2 B3G | "A"A6 |]

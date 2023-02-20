@@ -1,0 +1,56 @@
+X: 1
+T: Karamfilo
+O: Makedonija
+R: lesnoto
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: F
+"^instr."
+|: "F"[fA][cF][fA] "(C7)"[c'e][ac] [bd][gB] | "F"[a2c2][gB] [f2A2] [gB][ac] \
+|1 "Bb"[b2d2][bd] [bd][ac] [gB][bd] | "F"[a3-c3-] [a4c4] \
+:|2 "Gm"[g3B3] "C7"[GB][fA] [eG][gB] | "F"[f3-A3-] [f4A4] :|
+"A"\
+[|"F"[F2C2][AF] [A2F2] [A2F2] \
+| "C"[c3A3] [BG][cA] [BG][AF] \
+|1 "F"[A3F3] [AF][BG] [c2A2] \
+:|2 "F"[A3F3] "F7"[B2G2] [c2A2] ||
+"B"\
+|:"Bb"[d2B2][dB] [d2B2] [d2B2] \
+| "(C7)"[e3c3] [dB][ec] [dB][cA] | "F"[c3A3] [AF][BG] [c2A2] \
+| "Gm"[c2A2][BG] [B2G2] [B2G2] \
+| "C"[c3A3] [BG][cA] [BG][AF] \
+|1 "F"[A3F3] "F7"[B2G2] [c2A2] \
+:|2 "F"[A3-F3-] [A4-F4-] | "F"[A3-F3-] [A4-F4-] ||
+%
+W:[Lyrics from Kolyo Kolev & Tatyana Sarbinska]
+W:   Karamfilo, fil filo mome, Karamfilo, fil filo,
+W:   ti karamfil ne nosish, mome na karamfil merishesh /2
+W:
+W:   Druzhkite ti noseya, mome, druzhkite ti noseya,
+W:   Druzhkite ti noseya, mome, ala ne merisheya. /2
+W:
+W:   Vez den stoya na porti, mome, vez den stoya na porti,
+W:   vez den stoyam na porti, mome, pushka darzha vav raka. /2
+W:
+W:   Pushka darzha vav raka, mome, pushka darzha vav raka,
+W:   pushka darzha vav raka, mome, da ubiya teyko ti! /2
+W:
+W:   Zhal mi stana za tebe, mome, zhal mi stana za tebe,
+W:   zhal mi stana za tebe, mome, ke ostanesh sirache. /2
+W:
+W:[Lyrics from A. Apostolova]
+W:   Карамфило филфило моме, карамфило филфило,
+W:   Карамфило филфило моме, ти карамфил не носиш.
+W:
+W:   Ти карамфил не носиш моме, ти карамфил не носиш,
+W:   ти карамфил не носиш моме, на каранфил мирисаш.
+W:
+W:   Друшките ти носеа моме, друшките ти носеа,
+W:   друшките ти носеа моме, ама не мирисаа.
+W:
+W:   Цел ден стојам на порти моме, цел ден стојам на порти,
+W:   цел ден стојам на порти моме, пушка држам во раце.
+W:
+W:   Да убијам татко ти моме, да убијам татко ти,
+W:   жал ми падна за тебе моме, ќе останеш сираче.

@@ -1,0 +1,46 @@
+
+X: 1
+T: D'r Maia  (Gm)
+O: Alsace
+M: 2/4
+L: 1/8
+Q: 1/4=80-92
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: PDF from Steve Gruverman
+K: Gm
+D2 \
+| "Gm"G3 G | "F"A3 A | "Eb"B2 AG | "D7"Ac BA | "Gm"G3 G | "F"A3 A | "Eb"B2 AG | "D7"A4 |
+| "D7"A>B cA | "Eb"B3 A | "Eb"GG BA | "D7"^F3 D | "D7"^F>G AF | "Gm"G4- | G2 :|
+
+
+%%sep 5 1 500
+
+X: 2
+T: D'r Maia  [Am]
+O: Alsace
+M: 2/4
+L: 1/8
+Q: 1/4=80-92
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: PDF from Steve Gruverman
+K: Am
+E2 \
+| "Am"A3 A | "G"B3 B | "F"c2 BA | "E7"Bd cB | "Am"A3 A | "G"B3 B | "F"c2 BA | "E7"B4 |
+| "E7"B>c dB | "F"c3 B | "F"AA cB | "E7"^G3 E | "E7"^G>A BG | "Am"A4- | A2 :|
+
+
+%%sep 5 1 500
+
+X: 3
+T: D'r Maia  (Bm)
+O: Alsace
+M: 2/4
+L: 1/8
+Q: 1/4=80-92
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: PDF from Steve Gruverman
+K: Bm
+F2 \
+| "Bm"B3 B | "A"c3 c | "G"d2 cB | "F#7"ce dc | "Bm"B3 B | "A"c3 c | "G"d2 cB | "F#7"c4 |
+| "F#7"c>d ec | "G"d3 c | "G"BB dc | "F#7"^A3 F | "F#7"^A>B cA | "Bm"B4- | B2 :|
+

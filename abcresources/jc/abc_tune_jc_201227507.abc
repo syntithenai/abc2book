@@ -1,0 +1,25 @@
+X: 10823
+T: ALLOA HOUSE
+O: Gaelic air--printed for the first time.
+Q: "Very slow."
+%R: air
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+N: This is version 2, for ABC software that understands cresc/diminuendo symbols.
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.82 #3 (and p.83 #1)
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/4
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+"_<>"g2 f<d | "_<>"g2 f<d |\
+pgb aPb | "_<>"g2 f<d |\
+pf>e dPc | QB>c d<qb |\
+g>f dc | {c}BA G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

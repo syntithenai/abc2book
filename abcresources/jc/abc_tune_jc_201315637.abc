@@ -1,0 +1,13 @@
+X: 489
+T: My Own Sweetheart   #2
+R: air, march
+%S: s:2 b:10(6+4)
+O: J".O'Neill
+B: O'Neill's 1850 #489
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+Q: "Moderate"
+M: C
+L: 1/8
+K: F
+"^A"|: (f>e) | dc AF DEFG | Acde f2 [1 (fe) |decA G>AGF | D6 :|[2 (ef) | d>ecA G>AGF | "^fine"F6 |]
+"^B"[| (AG) | FA (cd/e/) f2(ef) | {a}gefd cAF>G | Acdf ecd=B | "^->A2"c6 |]

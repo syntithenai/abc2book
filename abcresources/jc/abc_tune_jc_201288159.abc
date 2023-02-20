@@ -1,0 +1,14 @@
+X: 1
+T: Huffman's Hornpipe v.1
+P: piffero primo 10080
+O: Rob Huffman
+%R: hornpipe, reel
+F: http://ancients.sudburymuster.org/mus/sng/pdf/huffmansC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D	% actually G+D
+z2 |\
+G2(BG) (dA)(FA) | G2(BG) D4 | E2(EG) (FG)(AF) | G4 D4 | G2(BG) (dA)(FA) | G2(BG) D4 |
+E2(EG) (FG)(AF) | G4 z2 :| z2 |: d2(dA) (FA)(df) | (ed)(cB) A4 | (ed)(eg) f4 | (ED)(EG) F4 |
+e2(ec) (Ac)(eg) | (fe)(df) (ec)A2 | (GA)(BG) (dA)(FA) |1 E2c2 B2A2 :|2 E2c2 d2 |]

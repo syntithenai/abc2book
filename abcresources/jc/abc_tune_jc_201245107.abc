@@ -1,0 +1,23 @@
+X:2
+T:The Adieu
+C:Thompson, 1776
+F:http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1776#
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+N:Originally in 2/4 and B flat.
+Q:1/2=112
+M:2/2
+L:1/8
+%%MIDI ratio 3 1
+K:G
+P:A
+[| "G"G3A B2AG | "D/F#"A2GF "Em"G2FE | "D7"D2C2 "G"B,2A,G, | "Am"c2B2 "D7"B2A2 |\
+"G"G3A B2AG | "D/F#"A2GF "Em"G2FE | "D7"D2C2 "G"B,edc | "D7"BAGF "G"G4 |
+P:B
+"G"dcBc d2d2 | "G"d2g2 "D"g2f2 | "C"f2e2 "G/B"e2d2 | "D7/A"d2c2 "G"B4 |\
+"G"dcBc d3d | "G"d2g2 "C"G2c2 | "G/D"B4 "D7"A4 | "G"G8 |
+P:C
+"G"G,3A, B,2B,2 | "G"B,3C D2D2 | "G"G3G B2G2 | "D7"F2D2 D4 |\
+"G"G,3A, B,2B,2 | "G"B,2D2 "C"FEDC | "G/D"B,4 "D7"A,4 | "G"G,8 |
+P:D
+"G"d2dc B2c2 | "G"d3g d3g | "D7"fedc B2c2 | "G"d2B2 G4 |\
+"G"d2dc B2c2 | "D7"defg "G"gdBG | "Em"B4 "D7"TA4 | "G"G8 |]

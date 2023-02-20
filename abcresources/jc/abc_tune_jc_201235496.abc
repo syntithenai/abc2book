@@ -1,0 +1,22 @@
+X: 21182
+T: This is no mine ain House
+%R: reel
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.118 #2
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+N: In bar 15, the 2nd a note isn't beamed to the b/c'/ notes; fixed. (Making them {bc'} instead would work, too.)
+M: C
+L: 1/8
+K: D
+"_Lively"A |\
+FAAa Tf2ed | BdAF =cEEA |\
+FAAa faef | dBAF ADD :: A |\
+FA (AB/c/) (d/c/B/A/) dF | GBAF =cEEA |
+FA A(B/c/) (d/c/B/A/) dF | GEAF D/D/D D :: A |\
+FADa face | dBAF =cEEA |\
+FADg faec | dBTAF ADD :: a |
+fa ab/c'/ d'afd | gbaf beea |\
+fa ab/c'/ d'afd | BdTAF ADD :: A |\
+FAdf FAdf | FAdf eEEA |
+FAdf gbec | dBAF ADD :: a |\
+dfad' dfad' | bd'af beea |\
+dfad' baTfe dBTAF | ADD :|

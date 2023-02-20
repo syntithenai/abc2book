@@ -1,0 +1,16 @@
+X: 21201
+T: the LONE VALE
+Q: "Slow with Expression"
+%R: jig, waltz
+B: "Edinburgh Repository of Music" v.2 p.120 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/16
+K: Bb
+BG |\
+"_P."F3GF2 {Bc}d3cB2 | {A}G3FG2 B2G2F2 | F3GF2 {Bc}d3cB2 | {d}c3Bcd B4F2 |\
+F3GF2 {Bc}d3cB2 | G3FG2 B2G2F2 |F3GF2 {Bc}d3c~B2 | {d}c3Bcd B4 :|
+|: "_PP."Bc |\
+d3cd2 e3dcB | {A}G3FG2 B2G2F2 | d3cd2 e4dc | ~B3cd=e f4F2 |\
+d3cd2 e3dcB | G3FG2 B2G2F2 | F3GF2 d3cB2 | c3Bcd B4 :|

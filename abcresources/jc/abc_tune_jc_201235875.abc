@@ -1,0 +1,16 @@
+X: 21432
+T: BOYNE WATER
+%R: march, reel
+B: "Edinburgh Repository of Music" v.2 p.143 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C|
+L: 1/8
+K: Am
+A2 |\
+e3^d e2g2 | d>e dB G2AB | c2BA e2d>B | A3G E2A2 |\
+e3^d e2g2 | dedB G2AB | c2BA e2dB | A3G E2 |]
+|: A2 |\
+G2g>a g3a | g>age d3g | e2a>b a>bc'>b | a3g e2g2 |\
+d>eg>a {ga}b2ab | g2G>A B2AG | c2B>A e2d>B | A3G E2 |]

@@ -1,0 +1,15 @@
+X: 256
+T: When I Crossed the Valley   #2
+R: air, march
+%S: s:2 b:14(7+7)
+B: O'Neill's 1850 #256
+O: J.O'Neill
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+Q: "Moderate"
+M: C
+L: 1/8
+K: F
+"^A"[|] c>B | (BAGF) f3g | {fg}a2g>f (fe)(dc) \
+|[1 d3c A>GA>c | d2e>f f2 :|[2 d>efg agfe | ~d3e f2 "^B"|]| (g>f) | (fedc) c2a2 |
+| (ge)(d>e) c2A>B | c3d c>dc>A | (c3d/e/ f3) "^C"|| e \
+| d>cd>f ({e}d2c).A | cA (cd/e/) f3g | {g}agfd (cd/e/) fB | A3G F2 |]

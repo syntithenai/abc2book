@@ -1,0 +1,29 @@
+X: 4
+T: Ne'er a Bottom
+%R: jig
+B: Kitty Bridges "Collection of Country Dances 1745" p.4
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-bridges1745
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: The spelling and capitalization differs in the tune and dance titles.
+N: The final fed in bar 14 should probably be gfe, to match the first strain's patterns.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B2B BAG | c2c cBA | d2d dcB | AGA B2G |\
+B2B BAG | c2c cBA | d2d dcB | AGF G3 :|
+B/c/ |\
+d2d gBc | d2d gBc | d2d g2f | efd ^cBA |\
+f2f fed | g2g fed | a2a agf | ed^c d2 |]"D.C."y
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center Ne'er a bottom
+%%begintext align
+%%   Lead through the first Coup.l and
+%% on the Outside of the Second, Turn your
+%% Part.r at bottom, Lead through the second
+%% Couple and on the Outside of the first turn
+%% your Partner at top, Hands across all four
+%% at top, then right and left.
+%%endtext

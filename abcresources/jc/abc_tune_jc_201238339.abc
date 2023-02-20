@@ -1,0 +1,39 @@
+X: 30611
+T: DANDY JIM OF CAROLINE
+C:
+%R: reel, march
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.61 #1
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+N: The long notes in the bass line were actually low on the voice 2 staff.
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The long D "harmony" note in bar 15 is a bit odd.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+d2 |\
+g2d2e2d2 | B2d2d2d2 | g2d2e2d2 | B2G2G2d2 |\
+g2d2e2d2 | B2d2d2B2 | c2e2d2c2 | B2G2G2 :|
+GA |\
+B2B2 B2AG | c2e2g3e | d2B2 B2AG | B2B2A2 GA |\
+B2Bd cBAG | cBcd efge | d3e dcBA | B2G2G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+z2[B2D2][B2D2][B2D2] | z2[B2D2][B2D2][B2D2] | z2[B2D2][B2D2][B2D2] | z2[B2D2][B2D2][B2D2] |
+z2[B2D2][B2D2][B2D2] | z2[B2D2][B2D2][B2D2] | z2[A2D2][A2D2][A2D2] | [B2D2][B2D2][B2D2] :|
+z2 |\
+B2d2B2d2 | c2e2c2e2 | B2d2B2d2 | [d2D2][A2D2][A2D2]z2 |\
+B2d2B2d2 | c2e2c2e2 | B2d2c2e2 | [B2D2][B2D2][B2D2] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+G4z4 | G4z4 | G4z4 | G4z4 |\
+G4z4 | G4z4 | D4z4 | G2G2G2 :|
+z2 |\
+[d'4-g4][d'4g4] | c'4c'4 | [d'4-g4][d'4g4] | d2d2d2z2 |\
+[d'4-g4][d'4g4] | [d'4-e'4-c'4][d'4e'4c'4] | [d'4-g4][d'4d4] | g2g2g2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

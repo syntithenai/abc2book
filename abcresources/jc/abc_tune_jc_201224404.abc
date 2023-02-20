@@ -1,0 +1,27 @@
+X: 82
+T: Carolan's Maggot
+%R: reel
+B: "The Hibernian Muse" p.51 #1
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. LXXXII.
+M: C
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+c4 (dcAG) F2A2F2A2 | (fga2) (fga2) {g}f2d2d2e2 |\
+f2F2F2A2 f2F2F2A2 | (dcAc) (dcAc) d2G2G2A2 |]|\
+F2f2{d}c2A2 (fefg) f2c2 |
+(gfga) g2d2 (gfga) g2d2 |\
+(fdfg) fdfg fdfg fdfg | {g}a4 a2d2 ({c}B2Ac) d2G2 |]|\
+(FDFG) FDFG FDFG FDFG | (GDGA) GDGA GDGA GFGA |
+(FAfA) FAfA FAfA FAfA | (dcAc) dcAc dcAc dcAc |\
+(dcd)G dcdG dcdG dcdG | {e}f4 {f}e2d2 ({d}c2Ac) d2G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+f4a4 f4a4 | f4a4 d'4b4 | a4f4 a4f4 | a4f4 g4c4 |]| f4a4 f4a4 |
+g4b4 g4b4 | B4b4 B4b4 | f6b2 f4z4 |]| b4B4 d4g4 | g4G4 B4d4 |
+f4F4 A4c4 | f4g4 a4f4 | b4c'4 d'4b4 | a4b4 f4z4 |]

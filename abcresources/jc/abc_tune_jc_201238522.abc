@@ -1,0 +1,27 @@
+X: 30942
+T: COTILLION No. 9. HORN POND SETT tune 2
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.94 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: E
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(3(Bcd) |\
+e2e2 f2f2 | gafg e2{^a}b2 | f2~f2 g2e2 | decd B2b2 |\
+e2e2 f2f2 | gafg e2{^a}b2 | abga f2{^a}b2 | g2e2e2 H|]
+d>e |\
+f2B2f2B2 | {ef}g2e2 {ef}g2e2 | abga f2b2 | gafg e>Bc>d |\
+e2B2 {ef}g2e2 | f2B2 {fg}a2f2 | {ga}b2g2 fefg | e2g2"^D.C."e2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right and left 4,
+%% balance 4,
+%% ladies chain,
+%% promenade 4.
+%% Sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,37 @@
+X: 278
+T: Koga me mama rodila
+O: Bulgaria
+F: https://www.youtube.com/watch?v=zj8WfLi41b8
+W:transcribed by Jutta Weber-Karn
+W:http://www.folkloretanznoten.de/
+W:converted to abc notation without the lyrics
+M: 2/4
+L: 1/8
+K: Dm
+Q: 1/4 = 104
+%%MIDI program 24 Acoustic Guitar
+V:1
+[Dd]A df   |dA fd   |[Dd]B de-  |e4     |[Dd]A df   |dA fd  |
+V:2 clef=treble
+%%MIDI program 32 Acoustic Bass
+zA3-       |A4      |zB3-       |B4     |zA3-       |A4     |
+V:1
+[Dd]B de-  |e4      |GB dg      |dB gd  |FB dg-     |g4     |eB de      |dB ed     |
+V:2
+zB3-       |B4      |zG3-       |G4     |zF3-       |F4     |zE3-       |E4        |
+V:1
+EA de-     |e4      |EB de      |dB ed  |EA de-     |e4     |DA2d       |A2 [A2d2] |
+V:2
+zA3-       |A4      |zB3-       |B4     |zA3-       |A4     |A4-        |A4        |
+V:1
+A,D2E      |FE D2   |F4         |GF ED  |A,D2E      |FE D2  |A4         |G2F2      |
+V:2
+D[Ad]2[Ad] |D2[Ad]2 | D[Ad]2[Ad]|D2[Ad]2| D[Ad]2[Ad]|D2[Ad]2| D[Ad]2[Ad]|D2[Ad]2   |
+V:1
+EG2F       |E2D2    |A,4        |GF ED  |DE2D       |^C2B,2 |A,3D       |D2D2      |
+V:2
+D[G=B]2[GB]|D2[G=B]2|D[Ad]2[Ad] |D2[Ad]2|Dd2d       |d2[Bd]2|D[Ad]2[Ad] |A2 [Ad]2  |
+V:1
+[Bd]g2f    |e2d2    |[A4d4]     |gf ed  |[Bd]e2d    |^c2B2  |[A4d4]     |[Ad]2[Ad]2|D[Ad]2[Ad]|A2[Ad]2|
+V:2
+Z10        |

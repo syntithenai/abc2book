@@ -1,0 +1,19 @@
+X: 1
+T: the First of October
+C: Chipper Thompson
+R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+S: https://www.facebook.com/groups/Fiddletuneoftheday/ 2020-10-03
+S: https://www.facebook.com/groups/Fiddletuneoftheday/photos/
+M: 6/8
+L: 1/8
+K: D
+"^A"|:\
+A,B,D EDD | EFA BAA | Bde dBA | d{G}Gd F2D ||\
+FDD EDD | B,A,G, {B,}A,A,A, | A,B,D EDB, | {E}DDD D3 :|
+"^B1"[|\
+aba {b}afe | (e/f/a)f edB | Bdd BAA | ^GAB {B}A2A ||\
+bbb {{b}afe | f{a}f{e}f {f}edB | Bdd {c}BAF | EFE {E}DDD |\
+"^B2"[|\
+aba {b}afe | (e/f/a)f edB | Bdd BAA | ^GAB {B}A2A ||\
+A,B,D EDD | EFA BAA | Bdd BAF | EFE D3 |]

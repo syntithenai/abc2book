@@ -1,0 +1,25 @@
+X: 20222
+T: the LASS OF LIVINGSTON
+Q: "Slow."
+%R: air, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.22 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The tune is clearly in F/Dm, but there's no key signature, and the only B has a flat sign.
+M: C
+L: 1/8
+K: Flyd
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+CD |\
+F3G A3d | (cA)(cd) (cA)(GF) |\
+{FG}A2G2 G2(FG) | A2G2 G2(FD) |\
+(C>D)(F>G) A3d | (cA)(GA) (F>G)Ac |\
+d2D2 D2(C>D) | F2D2 D2 |]
+(cd) |\
+f3g (fga)g | (fc)(df) (cA)(GF) |\
+{FG}A2G2 G2(FG) | A2G2 G2(fg) |\
+(a/g/f) (ga) fcdf | (cG)(AF) (GA) (_Bc) |\
+d2D2 D2(CD) | F2D2 D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,36 @@
+X: 30201
+T: CAMBRIDGE MARCH
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.20 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+A2 |\
+d2d>d d2f>d | A2A>A A2d>e | fgaf bagf | e2e>e e2zA |\
+d2d>d d2f>d | B2B>B e3d | c>e A>c B>d ^G>B | A2A>A A2 :|
+|: A>c |\
+e3c e>ce>c | A2A>A A2A>d | f3d f>df>d | A2A>A A2za |\
+a3g fedc | BAGF E2g2 | fa df eg ce | d2d>d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+A2 |\
+F2F>F F2A2 | F2F>F F2F>A | defd gfed | c2c>c c2zA |\
+F2F>F F2A>F | G2G>G B4 | A2A2 ^G2E>D | C2C>C C2 :|
+|: z2 |\
+c3A c>Ac>A | C2C>C C2z2 | A4 A2A2 | F2F>F F2zf |\
+f3e dcBA | GFED C2E2 | DFAd B2AG | F2F>F F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+d2d>d d2d2 | d2d>d d2z2 | d2d2 efg^g | a2a>a a2z2 |\
+d2d>d d2d2 | g2g>g ^g4 | a2c2 e2e2 | A2A>A A2 :|
+|: z2 |\
+a4 a2a2 | a2a>a a2z2 | d4 d2d2 | d2d>d d2z2 |\
+d4 d2d2 | g2g2 a2c2 | d2f2 g2a2 | d2d>d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

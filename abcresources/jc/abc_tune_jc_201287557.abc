@@ -1,0 +1,32 @@
+X:1
+T: The Hop Picker's Feast
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 232
+%W: A1
+% voice 1 (1 lines, 37 notes)
+K:D
+M:4/4
+L:1/16
+A4 |d4 A4 f4 d4 |a8 g2 f2 e2 d2 |g8 f2 e2 d2 c2 |d2 c2 d2 e2 d4 A4 |d4 A4 f4 d4 |a8 g2 f2 e2 d2 |g8 f2 e2 d2 c2 |d12 A4 |
+%W: A2
+% voice 1 (1 lines, 36 notes)
+d4 A4 f4 d4 |a8 g2 f2 e2 d2 |g8 f2 e2 d2 c2 |d2 c2 d2 e2 d4 A4 |d4 A4 f4 d4 |a8 g2 f2 e2 d2 |g8 f2 e2 d2 c2 |d12 z4 |
+%W: B1
+% voice 1 (1 lines, 36 notes)
+e4 z4 f4 z4 |g6 f2 e4 f4 |g2 a2 g2 f2 e2 f2 e2 d2 |c2 d2 c2 B2 A4 A4 |e4 e4 f4 f4 |g6 f2 e4 g4 |f4 a4 f4 d4 |a12 A4 |
+%W:
+% voice 1 (1 lines, 36 notes)
+d4 A4 f4 d4 |a8 g2 f2 e2 d2 |g8 f2 e2 d2 c2 |d2 c2 d2 e2 d4 A4 |d4 A4 f4 d4 |a8 g2 f2 e2 d2 |g8 f2 e2 d2 c2 |d12 z4 |
+%W: B2
+% voice 1 (1 lines, 36 notes)
+e4 z4 f4 z4 |g6 f2 e4 f4 |g2 a2 g2 f2 e2 f2 e2 d2 |c2 d2 c2 B2 A4 A4 |e4 e4 f4 f4 |g6 f2 e4 g4 |f4 a4 f4 d4 |a12 A4 |
+%W:
+% voice 1 (1 lines, 35 notes)
+d4 A4 f4 d4 |a8 g2 f2 e2 d2 |g8 f2 e2 d2 c2 |d2 c2 d2 e2 d4 A4 |d4 A4 f4 d4 |a8 g2 f2 e2 d2 |g8 f2 e2 d2 c2 |d12 ||

@@ -1,0 +1,27 @@
+X: 20502
+T: the WEARY PUN' O' TOW.
+T: "HEY THEN UP GO WE."
+O: Jacobite air.
+Q: "Slow."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.50 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Initial rest added to 2nd strain to fix the rhythm.
+M: 3/4
+L: 1/16
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D4 |\
+G3G G6 G2 | G3A/B/ {B}A6 G2 |\
+F3G {AB}c6B2 | {B4}A8 z2B2 |\
+G3G G6 G2 | GAB2 A6 G2 |\
+F3G {GA}B6 A2 | G8 :|
+|: z2d2 |\
+B3c d6 G2 | c3d e6 G2 |\
+F3G {AB}c6 B2 | {B4}A8 (d3e/f/) |\
+g3f e6 d2 | d3d {e}g6 G2 |\
+F3G {GA}B6 A2 | G8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

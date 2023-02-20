@@ -1,0 +1,30 @@
+X: 2224
+T: Bobin John
+%R:
+N: This is version 2, for ABC software that understands voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.2 p.22 #4 (and top 2 staffs on p.23)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: A simpler version of the bass voice is in the ABC1 version, which has simple ABC chords and bass cleff everywhere.
+M: 3/2
+L: 1/8
+K: Am
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+e2A2- A2c2 TB4 | e2A2- A2c2 BcdB | e2A2- A2c2 TB3c | d2G2 G2d2 BcdB :| c2ef g2c2 e4 | c2ef g2c2 e2g2 |
+a3f g3f Te4 | d2G2 G2d2 BcdB || c2ef g2c2 e4 | c2ef g2c2 e2g2 | a3f g3f ~e4 | d2G2 G2d2 BcdB |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=D
+|:\
+[c4e4] [c4e4] [B4e4] & A4 A4 E4 | [c4e4] [c4e4] [B4e4] & A4 A4 ^G4 |\
+[c4e4] [c4e4] [c4e4] & A4 A4 A4 | [B4d4] [B4d4] [B4d4] & G4 G4 G4 :|\
+[K:Am clef=treble]\
+[E4G4] [E4G4] [E4G4] & C4 C4 C4 | [E4G4] [E4G4] [E4G4] & C4 C4 C4 |
+[F4A4] [E4G4] [E4G4] & C4 C4 C4 |\
+[K:Am clef=bass middle=D]\
+[B4d4] [B4d4] [B4d4] & G4 G4 G4 ||\
+[K:Am clef=treble]\
+[E4G4] [E4G4] [E4G4] & C4 C4 C4 | [E4G4] [E4G4] [E4G4] & C4 C4 C4 |\
+[F4A4] [E4G4] [E4G4] & C4 C4 C4 |\
+[K:Am clef=bass middle=D] [B4d4] [B4d4] [B4d4] & G4 G4 G4 :|

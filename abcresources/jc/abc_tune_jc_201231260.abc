@@ -1,0 +1,38 @@
+X: 14
+T: the Nether Bow has Vanished
+%R: reel
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.104 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat symbol; not fixed.
+M: C
+L: 1/8
+K: Gmix
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+(G,GB).c d>cBd | Tc>AFc (fc)(fc) |\
+(G,GB).c d>cBd | TB>AGd (gd)(gd) ::\
+(g>ab)a Tg>edg | TA>GFc  (fc)(fc) |
+(g>ab)a (Tg>e)dg | TB>AGd (gd)(gd) |\
+(g>ab)a Tg>edg | TA>GFc (fc)(fc) |\
+GBAc Bdce | dg (^f/g/a) (gd)(gd) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g2g2 g2g2 | f2f2 f2f2 |\
+g2g2 g2g2 | d2d2 G2G2 ::\
+g2g2 g2g2 | f2f2 f2f2 |
+g2g2 g2g2 | d2d2 G2G2 |\
+g2g2 g2g2 | f2f2 f2f2 |\
+g2^f2 g2c'2 | d'2d2 g2g2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The first Cu: foot it to the 2d Wo: and hands round 3. .|
+%% the same to the 2d Man :|
+%% lead down one Cu: up again and cast off :|:
+%% foot it & hands round 4 with the 3d Cu: .||
+%% foot it & hands round 4 with the 2d Cu: :||
+%% lead up to the top & cast off right & left at Top :||:
+%%endtext
+%%sep 2 2 400

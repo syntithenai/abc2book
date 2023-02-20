@@ -1,0 +1,15 @@
+X:1
+T:Emma's Waltz
+M:3/4
+L:1/8
+R:Waltz
+K:Am
+%%printtempo 0
+Q:160
+E Ac||\
+"Am"e3fe2|"Am/G#"c2 AE Ac|"Am/G" e3fe2|"Am/F#"c2AB cA|"Dm"B3^A Bc|
+"E7"dE cE B2|"Am"A3B cd|"E7"eE Ac ef|"Am"e3f ed|c2 AE Ac|e3fe2|
+c2 AB cA|"B7"B3^A Bc|"E7"dE cE B2|"Am"A3 B A^G|AB cd e^g|
+"Em"a3 a aA|"G7"a2 gGf2|"C"e3e ef|"Am"eE d2c2|"B7"B3^A Bc|"E7"dE cE B2|
+"Am"A3 B cd|"A7"eE Ac e^g|"Dm"a3 a aA|"G7"aAg2 f2|"C"e3 e ef|
+"Am"(3efe d2 c2|"B7"B3 ^A Bc|"E7"dE cE B2|"Am"A3 B A^G|A4-A2|]

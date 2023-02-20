@@ -1,0 +1,9 @@
+X: 1
+T: Header + One Staff
+C: Nobody
+O: Anywhere
+M: 3/4
+L: 1/8
+K: Bb
+% %stretchstaff 1	% This doesn't seem to work in this example.
+x8 x8 x8 x8 x8

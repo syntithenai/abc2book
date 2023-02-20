@@ -1,0 +1,19 @@
+X:536
+T:Northbourne Hop
+C:Colin Hume, 1998
+L:1/8
+M:4/4
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=66
+%%MIDI chordname dim 0 3 6 9
+K:G
+P:A
+|: z>d | "G"g>Bd>G "/"B>DG>D | "C"[CE]2[B,E]2 "Am"[A,-E-]2[A,E]3/ e/ |\
+"Am"a>ce>A "/"c>EA>E | "D7"[DF]2[CF]2 "/"[B,F-]2[A,F]3/ d/ |
+"G"g>Bd>G "/"B>DG>D | "C"[CE]2[B,E]2 "Am"[A,E]2A>B |\
+"Am"c>BA>G "D7"F>Ad>c | "G"((3BcB) "D7"((3ABA) "G"G2 :|
+P:B
+|: ((3Bc^c) | "G"d>BA>G "/"F>GA>B | "Am"c2c2- "/"c2((3A^AB) |\
+"D7"c>AG>F "/"E>FG>A | "G"B4- "/"B2((3Bc^c) |
+"G"d>^cd>e "G7/B"d>BA>G | "C"c2e2 "C#dim"g2f>e |\
+"D"d>^cd>e "D7"f>de>f | "G"g>d ((3edB) "/"G2 :|

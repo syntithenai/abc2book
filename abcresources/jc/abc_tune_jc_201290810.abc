@@ -1,0 +1,32 @@
+X:1
+T: Irish Reel
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 210
+%W: A1
+% voice 1 (1 lines, 33 notes)
+K:Am
+M:4/4
+L:1/16
+d4 |c8/3 d8/3 |c8/3 e4 A4 |A4 A4 e4 A4 |d8 ^f4 d4 |a4 d4 ^f4 d4 |c8/3 d8/3 |c8/3 e4 A4 |A4 A4 e4 A4 |d4 e4 d4 c4 |B8 A4 d4 |
+%W:
+% voice 1 (1 lines, 32 notes)
+c8/3 d8/3 |c8/3 e4 A4 |A4 A4 e4 A4 |d8 ^f4 d4 |a4 d4 ^f4 d4 |c8/3 d8/3 |c8/3 e4 A4 |A4 A4 e4 A4 |d4 e4 d4 c4 |B8 A4 z4 |
+%W: A2
+% voice 1 (1 lines, 32 notes)
+c8/3 d8/3 |c8/3 e4 A4 |A4 A4 e4 A4 |d8 ^f4 d4 |a4 d4 ^f4 d4 |c8/3 d8/3 |c8/3 e4 A4 |A4 A4 e4 A4 |d4 e4 d4 c4 |B8 A4 d4 |
+%W:
+% voice 1 (1 lines, 32 notes)
+c8/3 d8/3 |c8/3 e4 A4 |A4 A4 e4 A4 |d8 ^f4 d4 |a4 d4 ^f4 d4 |c8/3 d8/3 |c8/3 e4 A4 |A4 A4 e4 A4 |d4 e4 d4 c4 |B8 A4 z4 |
+%W: B1
+% voice 1 (1 lines, 27 notes)
+e4 ^g4 a4 b4 |c'8 B4 c4 |d8 B4 d4 |c'4 a4 b4 ^g4 |e4 ^g4 a4 b4 |c'8 c4 d4 |e4 d4 c4 d4 |B8 A8 |
+%W: B2
+% voice 1 (1 lines, 27 notes)
+e4 ^g4 a4 b4 |c'8 B4 c4 |d8 B4 d4 |c'4 a4 b4 ^g4 |e4 ^g4 a4 b4 |c'8 c4 d4 |e4 d4 c4 d4 |B8 A8 ||

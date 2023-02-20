@@ -1,0 +1,11 @@
+X: 38
+T: Bar
+O: Armenia
+M: 4/4
+L: 1/8
+K: Bm
+Q: 1/4=120
+%%MIDI drum dddd 36 36 36 36 70 50 70 50
+%%MIDI drumon
+F2 FF E2 DE|FFFF E2 DE|zFFF E2 DE |F2 FF E2 DE|
+EDCB, CD E2|EDCD TE4  |EDCB, CD E2|EDCD B,4   |

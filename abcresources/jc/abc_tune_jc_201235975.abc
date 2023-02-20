@@ -1,0 +1,28 @@
+X: 21511
+T: Castle Swien
+%R: waltz
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.151 #1
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+|: "_Slow" \
+d6| {de}f6 | Te4(d<B) | d4(BA) |\
+B4(AF) | A4(FE) | F4(A<F) | (F2E2)D2 |
+D6 | {de}f6 | Te4(d<B) | d4(B<A) |\
+b4(a<f) | (f2e2)f2 | A3Bc2 | d6 :|
+|:\
+a4(f<d) | e4d2 | d4(ef) | a6 |\
+g4(fa) | b4a2 | Tf3ed2 | Te4(d<B) |
+d4(B<A) | B4(A<F) | A3Bd2 | d2e2f>a |\
+b4(a/f/d) | =c4(B<d) | A3B^c2 | d6 :|
+|:\
+(d/e/)ff4 | (d/e/)ff4 | Te3dB2 | d4A2 |\
+(BA)F2B2 | (AF)E2A2 | F4(A/F/)D | (F2E2)D2 |
+D3ED2 | (d/e/)ff4 | Te3dB2 | d3BA2 |\
+(ba)(ba)(ba) | Tf3ed2 | (B2A2)B2 | d6 :|
+|:\
+(a/f/)d(e2d2) | (a/f/)d(e2d2) | d'4Tb>a | a6 |\
+(g2f2)a2 | b4d'b | (af)(af)(Ted) | Te3d (e/d/)B |
+d3B (d/B/)A | TB3A (B/A/F) | (A2B2)d2 | (e2f2)a2 |\
+b4(a/f/)d | =c4(B<d) | A3B^c2 | d6 :|

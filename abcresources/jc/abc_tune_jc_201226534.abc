@@ -1,0 +1,22 @@
+X: 10313
+T: AIR SAVOYARD
+Q: "Allegretto."
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.31 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Am
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E2 |\
+A2e2e2d2 | dcBc A2A2 | B2c2d2e2 | cdcB A2E2 |\
+A2e2e2d2 | dcBc A2A2 | B2c2d2e2 | A4 z2 :|\
+Ac |\
+e6 {^g}a2 |
+e6 {^g}a2 | e2d2c2B2 | dcBc A2(Ac) |\
+e6 {^g}a2 | e6 {^g}a2 | e2d2c2B2 | A6 c2 |\
+B2^f2e2d2 | c2B2A2c2 | B2d2^G2B2 | A6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

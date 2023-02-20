@@ -1,0 +1,8 @@
+X: 1
+T: TEST: Q: with 3 notes + text
+%%staffwidth 200
+Q: "Brzo" 4/8 3/8 4/8=70 "kopanica"
+M: 11/8
+L: 1/8
+K: Ddor
+[| D2dd d2d dcBA |]

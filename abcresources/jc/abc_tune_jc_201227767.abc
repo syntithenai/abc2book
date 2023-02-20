@@ -1,0 +1,26 @@
+X: 10973
+T: MALBROUGH VA-T-EN GUERRE.
+O: French popular melody.
+Q: "Wigh spirit."
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.97 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Both strains have final repeats but no initial repeats; fixed.
+N: The rhythms at strain boundaries are wrong; not fixed.
+M: 6/8
+L: 1/8
+K: G
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+GA !p!|\
+B2B (BAB) | c3 (BcB) | A2A (AGA) | (B3 G2)A |\
+B2B {c}BAB | d^c=c B2c/B/ | A2A ABA | G3- G2 :|\
+|: !f!Bc |\
+d2B e2e | d3- dBc |
+d2d (efg) | d3- d(^c=c) |\
+B2B (BAB) | c3 (BcB) | A2A (AGA) | (B3 G2)A |\
+B2B BAB | (d^c=c) B2c/B/ | A2A ABA | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

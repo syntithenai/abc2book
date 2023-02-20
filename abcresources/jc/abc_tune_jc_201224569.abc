@@ -1,0 +1,13 @@
+X:84
+T:Polly Wolly Doodle
+M:2/4
+Q:1/4=100
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d/e/|ff dd/e/|ff dd/e/|f/f/f/f/ g/g/f/f/|e2 zc/d/|ee cc/d/|ee c z/e/|a/a/a/a/ g/g/e/e/|d2 z::
+d/e/|f2 zd/e/|f2 zd/e/|ff gf|e2 zc/d/|e/e/e/e/ c/c/c/c/|e/e/e/e/ !breath!c e|a/a/a/a/ g/g/e/e/|d2 z:|

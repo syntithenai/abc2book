@@ -1,0 +1,32 @@
+X: 20852
+T: MELLOW HORN SETT (tune 5)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.85 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+N: Last note of 2nd strain rewritten as 2 notes to position the D.C. above the staff.
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+fg |\
+a2f2 f2d2 | c2A2 A2F2 | ABcd c2f2 | g6 fg |\
+a2f2 f2d2 | c2A2 A2F2 | c2f2 g3a | f2a2f2 H|]
+fg |\
+a2a2 a3b | g2g2 g2a2 | f2f2 f2g2 | e2^c2 A2A2 |\
+d2e2 f2g2 | a2f2 d2b2 | a2f2 e2a2 | d4- "D.C."d2 |]
+c2 |\
+f2 a4 gf | ed d4 ba | gfed c2de | fefg acde |\
+f2 a4 gf | ed d4 ba | gfed =Bcde | f2a2"^D.C."f2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Swing partners to place,
+%% ladies chain,
+%% promenade four,
+%% -- sides the same,
+%% -- (a march here if you please.)
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

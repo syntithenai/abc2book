@@ -1,0 +1,24 @@
+X: 20404
+T: the VAIN PURSUIT
+Q: "Plaintive and slow."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.40 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(DE) |\
+F3 E D2 | F3 E D2 | (FA) A2 B>A | D4 (de) |\
+{de}f3 e d2 | {de}f3 e d2 | e3 d (fe) | d B3 (cd) |\
+F3 E D2 | F3 E D2 | (FA) A2 (BA) | A4 (de) |\
+{de}f2 d2 A2 | (B3 F) A>F | E3 D FE | D4 |]
+B>A |\
+F2 A2 B2 | F2 A2 B2 | d3 e (fe) | {e}d2 B2 A2 |\
+F2 A2 B2 | F2 A2 (d/e/f/g/) | f3 e d2 | {c2}B4 AA |\
+d2 f2 a2 | f2 d2 A2 | (BA) (Bc) (dB) | (BA)(GF)(ED) |\
+F3 A (dA) | B3 F AF | E3 D (F/E/D/E/) | D4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

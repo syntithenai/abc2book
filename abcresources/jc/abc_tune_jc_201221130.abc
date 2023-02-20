@@ -1,0 +1,26 @@
+X: 043
+T: LADY GLASGOW
+C: EARL of EGLINTON
+R: Strathspey
+B: Glen Collection p.4 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: A
+%
+V: 1
+|: A2cd e3c f3de3c | A2cd e2d2 (c2A2) e4 | A2cd e3c f3de3c | df3ce3 (TB3c) d4 :|
+a3ec2e2 (ag).f.e (c3e) | a3ec2e2 (A3c) e4 | a3ec2e2 (ag).f.e (c2e2) | df3ce3 (TB3c) d4 |
+a3ec2e2 (ag).f.e (c3e) | a3ec2e2 A2Tc2 e4 | fa3ef3 df3ce3 | B3cB3c d3e f4 |]
+%
+V: 2
+|:\
+A4[c'4a4e4] [a4f4d4][c'4a4e4] | [c'4a4e4][c'4a4e4] [c'4a4e4][c'4a4e4] |\
+A4[c'4a4e4] [a4f4d4][c'4a4e4] | [a4f4][c'4a4e4] [d'4b4e4][b4g4e4] :|
+A4[c'4a4e4] [c'4a4e4][c'4a4e4] | [c'4a4e4][c'4a4e4] [c'4a4e4][c'4a4e4] |\
+A4[c'4a4e4] [c'4a4e4][c'4a4e4] | [a4f4][c'4a4e4] [d'4b4e4][b4g4e4] |
+A4[c'4a4e4] [c'4a4e4][c'4a4e4] | [c'4a4e4][c'4a4e4] [c'4a4e4][c'4a4e4] |\
+A4[c'4a4e4] [d'4a4f4][c'4a4] | e4[d'4b4e4] [d'4b4e4][b4g4e4] |]

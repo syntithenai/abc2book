@@ -1,0 +1,21 @@
+X: 7
+T: the Gipsy Hat
+%R: jig
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.4 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Bar 5 is missing a count; added dot to fix it.
+M: 6/8
+L: 1/8
+K: C
+a |\
+a2e e2c | cde d2G | cBc dcd | e3 {e}d2g |\
+g2e e2c | cde d2G | cBc dcd | {d}c3 c2 |]
+C |\
+CDE CDE | GAB cBc | CDE CDE | GAB c2C |\
+CDE CDE | GAB cBc | g2e e2c | dcd c2 |]
+%%begintext align
+%% First Cu: foot it cast off 2 Cu: and cross up to
+%% the top, Gallop down, up again and cast off,
+%% Right and left at top.
+%%endtext

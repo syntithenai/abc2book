@@ -1,0 +1,26 @@
+X: 2103
+T: He's Dear to me tho' he's far frae me.
+%R: air
+N: This is version 2, for ABC software that understands voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.2 p.10 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "VERY SLOW"
+K: F
+% - - - - - - - - - -
+V: 1 staves=2 clef=treble
+TF/>G/ |\
+{F}A2 (A/G/F/G/) ~F2GA | x4 {A}G2TF>G & f>dcA E2x2 |\
+{F}A>B (A/G/F/G/) F2GA | c>df>e {e}d2c :|\
+A |\
+B>AB>c d>cf>d | c2BA {A}G2F>G |
+A2 (A/G/F/G/) ~F2GA | (cd)(f>e) {e}d2c A ||\
+(TB>A)(Bc) dcfd | {d}c2BA {A2}G2 TF>G & x2GF x4 |\
+A>B (A/G/F/G/) ~F2GA | (cd)f>e {e}d2c |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+f2c2 d2ef | a>baf c'2ab | c'2c2 d2ef | a4 b2[af] :| z | g3a bad'>b | a2f2 c'2z2 |
+f2c2 d2ef | a4 b2[af]z || c'8 & gfga b2ab | a2ef c'2!p!ab | c'2c2 d2ef | a3a b2[af] |]

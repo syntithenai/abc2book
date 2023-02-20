@@ -1,0 +1,30 @@
+X: 21204
+T: FRA DIAVOLO SETT (tune 4)
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.120 #4 (and top staff of p.121)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain's pickup was at both ends; fixed.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+(dc) |\
+BG (3(GGG) BGdG | BG (3(GGG) d2Bd |\
+cA (3(AAA) cAeA | cA (3(AAA) e2 H:|\
+dc |\
+Bdga gdBG | GBga gdBG |
+Aaab ageg | agab agdB |\
+Ggga gdBG | GBga g2ef |\
+(3(gab) ef (3(gab) ef | gaba g"^D.C."e |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Grand right and left,
+%% all balance to partners and turn,
+%% grand chain,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

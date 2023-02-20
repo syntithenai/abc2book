@@ -1,0 +1,25 @@
+X: 113
+T: le Rencontre
+%R: reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.54 #113
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+%%slurgraces 1
+%%graceslurs 1
+K: D
+|:\
+dfaf dfaf | d2c2d2A2 |\
+dfaf (df).a.f | d2c2d4 ::\
+Acec Acec | (6:4:6ABcdef g4 |\
+(fg).a.b {b}a2gf | (ge).f.d {d}c2BA |
+Acec Acec | (6:4:6ABcdef g4 |\
+(fg).a.b {b}a2gf | Te4 d4 ::\
+(DE).F.G A2GF | E2D2A2A2 |\
+DEFG A2GF | E2D2 A4 :|
+|:\
+A2d2c2B2 | c2d2e2f2 |\
+gfed gfed | cdec d2A2 |\
+A2d2c2B2 | c2d2e2f2 |\
+gfed cdec | d4 D4 :|

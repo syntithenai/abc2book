@@ -1,0 +1,45 @@
+#/home/jc/sh/abcjoin: sep=0.
+
+X: 0
+T: Finnish Polkka 3
+K: C
+
+
+X: 1
+T: Vironpolkka
+T: Nauhapolkka
+P: 10x (G2D2G2D2G2)
+M: 2/4
+L: 1/8
+K: G
+P: G:
+c/c/ |: "G"BB Bc/B/ | "D7"AA AB/c/ | dd d/c/B/A/ | "G"GG G2 :: "C"ce ce | "G"Bd Bd | "D7"cD DF | "G"AG G2 :|
+P: D:
+K: D
+a/g/ |: "D"ff fg/f/ | "A7"ee ef/g/ | aa a/g/f/e/ | "D"dd d2 :: "G"gb gb | "D"fa fa | "A7"gA Ac | "D"ed d2 :|
+
+
+X: 2
+T: Nuuskapolkka
+M: 2/4
+L: 1/8
+K: G
+P: G:
+D |: "G"GG/A/ BB | "D7"AA/B/ cc | "G"BB "D7"AA |1 "G"GB D2 :|2 "G"GB G2 ||
+G/B/ || "G"dd BG | "C"e2 z2 | "D7"cc Ae | "G"d2 z2 "I"| dd BG | "C"ez "G"dz | "D7"cz Az | "G"G2z |]
+P: D:
+K: D
+A |: "D"dd/e/ ff | "A7"ee/f/ gg | "D"ff "A7"ee |1 "D"df A2 :|2 "D"df "fine"d2 ||
+d/f/ || "D"aa fd | "G"b2 z2 | "A7"gg eb | "D"a2 z2 | aa fd | "G"bz "D"az | "A7"gz ez | "D"d2z |]
+
+
+X: 3
+T: Piiripolkka
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+| "G"G2G2 GAB2 | G2G2 GAB2 | "D7"A4 F2EF |1 "G"G2E2 "(D7)"D4 :|2 "G"G2G2 G4 :|
+|: "G"{B}d2B2 d2B2 |     G2G2 G4 | "C"{c}e2c2 e2c2 | "D7"A2A2 A4 |
+|  "G"{B}d2B2 d2B2 | "Em"G2G2 G4 | "D7"A2F2   D2EF |  "G"G2G2 G4 :|

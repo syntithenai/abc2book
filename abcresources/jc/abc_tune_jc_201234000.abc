@@ -1,0 +1,28 @@
+X: 202
+T: Prince Charles's last view of Scotland
+T: An Sealladh mo dheireadh do Thearlach
+R: air, jig
+N: This is version 1, for ABC software that doesn't understand cresc/diminuendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" 1816 p.94 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slow & Tender."
+K: Gm
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+(G/A/) !segno!|:\
+~B>cB {B}!p!A2(G/^F/) | G<DB =FDB, | "_cres"B>cB A2(G/^F/) | "_cresc . . ."(GA)c "_>"{^c}d2D ||\
+!p!~B>cB A2(G/^F/) | G<DB (=FD) (B,/C/) | !pp!(D>^C)D {A,}B,2A, | G,(G^F) {A}HG2 :|
+D |\
+!p!B>AG A^FD | "_cresc . . ."B>cd (G^F).D | "_cres"B>AG c>BA | {^c}d2^F HG2z/D/ ||\
+!f![B3D3] [c3A3E3] | (Td>^c)d H[g2e2B2G2]"_dim"(a/b/) | {e}dcB {d}cBA | (TG/"_cresc . . ."^F/)(G/A/)(B/c/) {^c}Hd2D !segno! |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z !segno!|:\
+G2g !p!d'2c' | b2g b2B | "_cres"G2g d2d' | e2e' [d'3d3] || !p!G2g d2d' | b2g d2z | !pp!B2A G2^F | G2d Hg2 :| z |
+!p!gab c'3 | gab [bd][ad]z | "_cres"g2b a2c' | d'2d Hg2z || !f!GBd Acf | B2b He2"_dim"z | bag ag^f | e2e Hd2 z !segno!|]
+% = = = = = = = = = =

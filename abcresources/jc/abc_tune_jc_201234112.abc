@@ -1,0 +1,27 @@
+X: 20273
+T: Rondo.
+T: Suggested by J. P. Knight's air, "Beautiful Venice."
+C: Dounieso.
+Q: "Andante con espressione."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.27 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+f3 f(=ef) | (g3 f3) | b3 bge | (fe)c (ed)c |\
+f3 f(=ef) | (g3 b3) | (aba) (gfg) | f3- f3 |]|\
+c3 c(de) | (e3 d3) | F3 (GF)E | (D2C B,3) |
+c3 c(de) | (e3 G3) | (FG)F (FG)F | (FEC) B,3 |]|\
+f3 f(=ef) | (g3 f3) | b3 bge | (fe)c (ed)B |\
+f3 f(=ef) | (g3 b3) | (aba) (gfg) | f3- f3 |] [K:Eb]
+F3 FGA | (A3 G3) | B3 B(ed) | (dc)B (AG)F |\
+E3 (ed)c | (B3 e3) | (Bc)B (de)f | e3- e2=e |]|\
+f3 f(=ef) | (g3 f3) | b3 bge | (fe)c (ed)B |
+f3 f(=ef) | (g3 b3) | (aba) (gfg) | f3- f3 |]|\
+c3 (ed)c | (B3 F3) | (BAB) (cBc) | (dcd) (ede) |\
+f3 (ed)c | (B3 F3) | (GA)B (AB)c | B3- B3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

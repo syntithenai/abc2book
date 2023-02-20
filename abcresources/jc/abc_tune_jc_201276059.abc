@@ -1,0 +1,36 @@
+X: 1
+T: The First of April  (F)
+M: 6/8
+L: 1/8
+R: jig
+Z: alf.warnock@rogers.com
+K: F
+|: "F"cAF "C"GEC |  "F"cAF "C"GEC | "F"cAF    cAF | "C7"GAE  "F"F3 :|
+|: "F"FAc    fcA | "Bb"dcB "F"AGF | "F"FAc    fcA | "G7"cd=B "C"c3  |
+|  "F"cAF "C"GEC |  "F"cAF "C"GEC | "C"CGB "F"AGF | "C7"GFE  "F"F3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2
+T: The First of April  (G)
+M: 6/8
+L: 1/8
+R: jig
+Z: alf.warnock@rogers.com
+K: G
+|: "G"dBG "D"AFD | "G"dBG "D"AFD | "G"dBG    dBG | "D7"ABF  "G"G3 :|
+|: "G"GBd    gdB | "C"edc "G"BAG | "G"GBd    gdB | "A7"de^c "D"d3  |
+|  "G"dBG "D"AFD | "G"dBG "D"AFD | "D"DAc "G"BAG | "D7"AGF  "G"G3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3
+T: The First of April  [A]
+M: 6/8
+L: 1/8
+R: jig
+Z: alf.warnock@rogers.com
+K: A
+|: "A"ecA "E"BGE | "A"ecA "E"BGE | "A"ecA    ecA | "E7"BcG  "A"A3 :|
+|: "A"Ace    aec | "D"fed "A"cBA | "A"Ace    aec | "B7"ef^d "E"e3  |
+|  "A"ecA "E"BGE | "A"ecA "E"BGE | "E"EBd "A"cBA | "E7"BAG  "A"A3 :|

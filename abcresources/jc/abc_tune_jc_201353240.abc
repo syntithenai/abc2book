@@ -1,0 +1,26 @@
+X:1
+T: The Winster Galop
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A
+% voice 1 (1 lines, 16 notes)
+K:G
+M:4/4
+L:1/16
+G4 B2 B2 G4 B4 |G4 B4 d8 |A4 c2 c2 B4 A4 |G4 B4 d8 |
+%W:
+% voice 1 (1 lines, 13 notes)
+c4 e4 f4 e4 |d4 B4 d8 |A6 c2 B4 A4 |G8 G8 |
+%W: B
+% voice 1 (1 lines, 16 notes)
+g4 f4 e4 d4 |g4 f4 e4 d4 |g4 f2 f2 e4 d4 |c4 B4 A8 |
+%W:
+% voice 1 (1 lines, 12 notes)
+f4 e4 d8 |f4 e4 d8 |d8 A6 c2 |B4 G4 G8 ||

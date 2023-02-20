@@ -1,0 +1,17 @@
+X: 614
+T: The Rabbi's Hornpipe (Leopold Bloom's Hornpipe)
+R: hornpipe, shottish
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Bm
+"F#7"F2 \
+| "Bm"B>F (3Bcd "F#7"c>^A F>A | "Bm"B>c d>^e "(F#7)"f2 e>f \
+|  "Bm"^g>f ^ed "C#7"e>d c>B | "F#7"f2 F2 F2 (3F^G^A
+| "Bm"B>F (3Bcd "F#7"c>^A F>A | "Bm"B>c d>^e "(F#7)"f2 e>f \
+|  "Bm"^g>f ^ed "C#7"e>d c>d | "F#7"=e>d c>d "Bm"B2 :|
+|: "F#7"f2 \
+| "Bm"b>f b>f "B7"b>a g>f | "Em"g>a g>f e4 \
+| "C#7"c'>d' d'>c' c'>b b>^a | "F#7"^a>g g>f f2 f2
+| "Bm"b>f b>c' d'>c' b>f | "Em"g>a g>f e2{fe}^d>e \
+| "F#7"^e>f e>f (3dcB c>d | "Bm"B6 :|

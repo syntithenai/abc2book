@@ -1,0 +1,37 @@
+X: 1
+T: Newmarket (second Part)
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.33 #60
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.89
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+e3 g3 | c>Bc dBG | A>BA c2F | E2F G2e |\
+f3 e3 | d>cd ecA | B2c c2B | c3- c2 |]
+A/B/ |\
+c>dc GA_B | A>GA F>ED | f3 A>Bc | B3- B2G |\
+(EG)c AF>E | (FA)d BGd | ec2 c2B | c3- c2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu. change Places, then the 1st Man take the 2d
+%% Wo. by both Hands, and the 2d Man the 1st Wo. and turn
+%% them 'till one Cu. comes up the Room, and the other
+%% quite down; Then fall back, meet altogether, then fall
+%% back and clap, then all four once round in a  Ring, and
+%% so to the Bottom.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% First cu. change places, then the 1. man take the 2. wo. by both hands, and 2. man the 1. wo. and turn
+%% them till one place [sic] comes up the Room and the other down, fall back, meet all together, then fall and
+%% clap, then all four once round in a ring, and so to the bottom.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,19 @@
+X: 10143
+T: THE FORTH BRIDGE -- Hornpipe
+C: composed by W. B. LAYBOURN
+R: hornpipe
+B: K\"ohler's Violin Repository, v.1, 1885 p.14 #3
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+((3FGA) !segno!|\
+Bbfd cgec | BfdB FdBF | DBFD EBGE | DEFG ABc^c |
+Bbfd cgec | BfdB FdBF | DBFD EBGE | D(ec)A B2 :|
+z2 |\
+FAcA FAcA | FBdB FBdB | GBeB GBeB | FBdB FBdB |
+FAcA FAcA | FBdB FBdB | c=efe gebe | f(=ef)g f2 ||
+z2 |\
+FAB=B cAFA | FBc^c dBGB | GBcd eBGe | FBc^c dBFd |
+FAB=B cAFA | FBc^c dBFB | c=efe gee | f=ege fe"_Da Capo. E."_ec !segno!|]

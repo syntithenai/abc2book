@@ -1,0 +1,26 @@
+X: 419
+T:Uszodi Czardas
+O:Hungary
+P:AB
+L:1/8
+M:2/4
+K:D
+Q:1/4=96
+%%MIDI gchord f2zzf2zz
+P:A
+  "Bm"F2 F2     | "E"^G2 "F#"^A2| "Bm"B2 B2     | F2 "Em"E2     |\
+  "Bm"D3 E      | "F#m"D C3     | "Bm"B,2 B,2   | B,4           |
+|:"Bm"d2 d2     | "Em"e2 "Bm"d2 | "F#m"c2 "Bm"B2| F2 B2         |\
+  "D"d A3       | A2 "Em"G2     | [1 "Bm"F4     | F4            :|
+  [2 "Bm"F4     |"E"^G2 "F#"^A2 |"Bm"B2 B2      | F2 "Em"E2     |\
+  "Bm"D3 E      | "F#m"D C3     | "Bm"B,2 B,2   | B,4           |z4|
+P:B
+Q:1/4=192
+  "Em"E3 B,     |E3 B,          |E2 G2          | "Bm"F2 "Em"E2 |\
+  "Bm"F3 E      | F3 E          | F2 "D"A2      | "Em"G2 "Bm"F2 |
+  "Em"E2 "Bm"B,2|"Em"E2 "Bm"B,2 |"Em"E2 G2      | "Bm"F2 "Em"E2 |\
+  "Bm"B2 "D"A2  |"Em"G2 "Bm"F2  |"Em"E E2^D     | E4            |
+  "G"G3 D       |G3 D           |"Bm"B2 "D"A2   |"G"G3 D        |\
+  "Bm"F3 D      |F3 D           |"D"A2 "Em"G2   |"Bm"F4         |
+  "Em"E3 B,     |E3 B,          |G2 "Bm"F2      |"Em"E4         |\
+  "Bm"B2 "D"A2  |"Em"G2 "Bm"F2  |"Em"E E2 E     |"Em"E4         |

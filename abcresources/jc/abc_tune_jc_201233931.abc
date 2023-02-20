@@ -1,0 +1,35 @@
+X: 20171
+T: REED'S MARCH
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" 1843 p.17 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+A2 |\
+d2d>d d2f>e | d2A2 d2de | f2f>f f2a>g | f>ed>e f2f>g |\
+a2a>a a>=c'b>a | g2g>g g>ba>g | f2ed fagf | e2e>e e2 :|
+|:\
+A>BA>B c>dc>d | e>fe>f g2f>e | d>ed>e f>gf>g | a>ba>b =c'2b>a |\
+b>ge>b a>fd>a | g>fe>d c2BA | B>cd>g f2Te2 | d2d>d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+F2F>F F2A>G | F2D2 F2FA | d2d>d d2f>e | A>GF>G d2d>e |\
+f2f>f g>ag>f | e2e>e e>gf>e | d2cA dfed | c2c>c c2 :|
+|:\
+z2z2 A>BA>B | c>dc>d e2z2 | F>GF>G A>BA>B | f>gf>g a2z2 |\
+g>ec>g f>dA>f | e>dc>c A2GF | G>AB>e d2G2 | F2F>F F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+d2d>d d2z2 | d2d2 d2z2 | d2d>d d2A2 | d2A2 d2z2 |\
+d2d>d d2d2 | G2G2 G2G2 | d2d2 d2d2 | A2A>A A2 :|
+|:\
+A2A2 A2A2 | A2A2 G2z2 | d2d2 d2d2 | d2d2 G2z2 |\
+G2G2 d2d2 | G2G2 A2z2 | G2G2 d2A2 | d2d>d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

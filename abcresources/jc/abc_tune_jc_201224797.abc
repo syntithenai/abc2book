@@ -1,0 +1,23 @@
+X: 88
+T: Counsellor Dillon
+C: Carolan
+%R: jig
+B: "The Hibernian Muse" p.54 #2
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. LXXXVIII.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+dfd cdc | AFF TG2G | GAc d2e |\
+(f/g/a)f (e/f/g)e | fed cAF | FAF {B}c2A |]
+[|\
+dgg gag | abc' {a}bag | (a/b/c')a {g}f2d |\
+cAF cAF | fed cAF | FAF {B}c2A |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[| d'3 a3 | f3 c3 | c'3 b2c' | f3 e3 | d3 A3 | F3 f3 |]
+[| g3 e3 | f3 g3 | f3 d3 | f3 F3 | d3 A3 | F3 f3 |]

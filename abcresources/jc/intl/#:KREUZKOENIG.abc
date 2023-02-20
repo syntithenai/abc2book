@@ -1,0 +1,20 @@
+X: 23
+T:Kreuz Koenig
+T:Kreuz Konig
+T:Kreuzkonig
+T:Kreuzkoenig
+O:Germany
+F: http://www.youtube.com/watch?v=Jlu-GRlRg-c
+F: http://www.youtube.com/watch?v=i3HeXSSCkg8
+F: http://www.youtube.com/watch?v=F_1AfmOsm40
+M:3/4
+L:1/8
+Q:1/4=160
+K:Bb clef=treble
+  [B,4F,4]z2   |[D4B,4]z2       |F2 FF F2         |[B,4F,4]z2
+|:"Dm"F,2D2D2  |EFED "F"C2      |"Dm"F,2"Eb"E2E2  |"Dm"FGFE D2      |
+  F,2D2D2      |EFED "F"C2      |"Dm" A,GFEDC     |"Bb"B,2B,2"Dm"z2 :|
+K:Eb
+Q:1/4=240
+|:"Eb"B,E G2 G2|"Fm"A3 F "Gm"D2 |"Eb"B,E G2 "Cm"c2| "Eb"B3 G E2     |
+  "Eb"B,E G2 G2|"Fm"A3 F "Gm"D2 |"Eb"BcBAGF       | E2 E2 "Dm"z2    :|

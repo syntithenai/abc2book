@@ -1,0 +1,39 @@
+X: 1
+T: Dari M\uune
+O: Armenia
+M: 6/16
+L: 1/16
+Q: 1/8 1/16 1/16 1/8
+S: Boston International Music Club (ed. R. Rosenstock 9/22/02)
+S: https://www.youtube.com/watch?v=k8Ay1mxm1tU [The Gomidas Band]
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+K: Em
+"A"[|\
+"Em"[BG][BG][BG] [B3G3] | [BG][B2G2] [B3G3] |\
+[BG][AF][GE] "D"[AF][GE][FD] | "Em"[G3E3] z3 |
+w: 1.Da-re m\uu-ne chem te-se inch-\uu-pes di-ma-*nam?
+w: 2.Na-mak* m\uua, ches k\uu-re inch-\uu-pes di-ma-*nam?
+w: 3.Tash-k\uun-a-k\uut ches kh\uur-ke vor \uu yes l\uu-va-*nam.
+w: 4.Ash-kir-\uut dzev, mat\uut yer-kar ye-ra-zis pet-ke tes-nam.
+"Em"[BG][BG][BG] [B3G3] | [BG][B2G2] [B3G3] |\
+[BG][AF][GE] "D"[AF][GE][FD] | "Em"[G3E3] z3 |
+w: 1.Da-re m\uu-ne chem te-se chem k\uur-ner di-ma-*nam.
+w: 2.Na-mak* m\uua, ches k\uu-re chem k\uur-ner di-ma-*nam.
+w: 3.Tash-k\uun-a-k\uut ches kh\uur-ke vor \uu yes l\uu-va-*nam.
+w: 4.Ash-kir-\uut dzev, mat\uut yer-kar ye-ra-zis pet-ke tes-nam.
+"Em"[GE][F2E2] [E3B,3] | "D"[F2D2][GE] [A3F3] |\
+"Bm"[BF][AD][GE] [AF][GE][FD] | "Em"[G3E3] z3 |
+w: 1.Tun hoz-degh, yes ho-tegh der-\uu-degh di-ma-*nam.
+w: 2.Tun hoz-degh, yes ho-tegh der-\uu-degh di-ma-*nam.
+w: 3.Tun im sirdes ko-tret-zir inch-\uu-pes di-ma-*nam?
+w: 4.Tun hoz-degh, yes ho-tegh inch-\uu-pes di-ma-*nam?
+"Em"[GE][F2E2] [E3B,3] | "D"[F2D2][GE] [A3F3] |\
+"Bm"[BF][AD][GE] [AF][GE][FD] | "Em"[G3E3] z3 ||
+w: 1.Tun hoz-degh, yes ho-tegh naz-\uu-de di-ma-*nam.
+w: 2.Tun hoz-degh, yes ho-tegh naz-\uu-de di-ma-*nam.
+w: 3.Tun im sirdes ko-tret-zir chem k\uur-ner di-ma-*nam.
+w: 4.Tun hoz-degh, yes ho-tegh chem k\uur-ner di-ma-*nam.
+"B"|:\
+B>GB BB>A | B>GB {B}.eB>A | B>AG "D"AG>F | "Em"G6 :|\
+"C"|:\
+"Em"GF2 E3 | "D"F2G A3 | "Bm"B>AG AG>F | "Em"G3 z3  :|

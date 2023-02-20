@@ -1,0 +1,15 @@
+X: 31942
+T: TITUS HORNPIPE
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.194 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Fixed wrong lengths of the very last note.
+N: Added missing triplet notation in bar 12.
+M: C|
+L: 1/8
+K: A
+(ued) |\
+cBAc BAGB | Aceg aefd |[1 cBAc BAGB | Aceg a2 :|
+[2 dcBA GABc | BAGB A2 |: (uef) | =g3(a gf)ed | cdef =g2((3efg) | a3(b a=g)ef |
+=gedB Adef | =g3(a gf)ed | cdef =g2((3efg) | a3(b a=g)ef | =gedB "^D.C."A2 |]

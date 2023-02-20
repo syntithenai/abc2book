@@ -1,0 +1,26 @@
+X:1
+T: Captain Catton's Maggot
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:A
+I:speed 165
+%W: A1
+% voice 1 (1 lines, 38 notes)
+K:A
+M:6/8
+L:1/16
+E2 |A4 A2 A2 c2 e2 d6 c2 B4 A2 c2 e2 G2 B2 e2 A2 f2 e2 d2 c2 B2 |A4 A2 A2 c2 e2 d6 c2 B4 c2 ^d2 e2 B2 f2 ^d2 e6e4 E2 |
+%W: A2
+% voice 1 (1 lines, 37 notes)
+A4 A2 A2 c2 e2 d6 c2 B4 A2 c2 e2 G2 B2 e2 A2 f2 e2 d2 c2 B2 |A4 A2 A2 c2 e2 d6 c2 B4 c2 ^d2 e2 B2 f2 ^d2 e6e4 e2 |
+%W: B1
+% voice 1 (1 lines, 41 notes)
+e2 f2 g2 a2 e2 d2 c2 B2 A2 f6 F2 G2 A2 B2 c2 d2 e2 d2 c2 B2 c2 B2 |a2 e2 d2 c2 B2 A2 G2 F2 E2 d6 F2 G2 A2 B2 A2 G2 A6A4 e2 |
+%W: B2
+% voice 1 (1 lines, 40 notes)
+e2 f2 g2 a2 e2 d2 c2 B2 A2 f6 F2 G2 A2 B2 c2 d2 e2 d2 c2 B2 c2 B2 |a2 e2 d2 c2 B2 A2 G2 F2 E2 d6 F2 G2 A2 B2 A2 G2 A6A4 ||

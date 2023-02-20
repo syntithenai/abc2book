@@ -1,0 +1,159 @@
+
+X: 1
+T: Langdans N\"arpi\"ost\"a    [G]
+P: I A4 B4 C2 A4 B4 C4
+R: masurkka
+M: 3/4
+L: 1/8
+%%partsspace 10
+K: G
+"A"\
+|: "G"G>c B>A B>c | d>g bz b2 \
+| G>c B>A B>c | "D"d>f az a2 |
+| "D7"A>B c>d c>A | d>f a2- a>g \
+"I"\
+| f>e d>c B>A |1,3 "G"G>A B>c d2 :|2,4 "G"G2 g2 z2 :|
+"B"\
+|: "C"g>e c>e c>e | "G"e>d B>d B>d \
+| "D7" d>B c>A F>A |1,3 "G"G>A B>c d2 :|2,4 "G"G2 G2 z2 :|
+"C"\
+|: "G"b2 b>a g>e | d>e d>B d>b \
+| "D7"a2 c'>a f>a |1,3 "G"g2 b>g d>B :|2,4 "G"g2 g2 z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: H\"oyl\"akatrilli   [G]
+O: Finland
+R: march
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: Play twice
+M: 2/4
+L: 1/16
+K: G
+|:\
+"G"BAG2 FED2 | "Am"C4- C2B,C | "G"B,2D2 G2D2 | B2G2 B2G2 |\
+"Am"cBA2 GFE2 | "D7"D4- D2B,D | "C"CDE2 "D7"F2B2 | A2F2 "G"G4 :|
+|:\
+"G"G4 D4 | "Am"c2B2 "D7"A4 | "G"B4 G4 | GAGF E2D2 |\
+"D7"d8 | D4 E2F2 | "(G)"G4 B4 | "G"G8 :|
+|:\
+"G"DEDC B,2D2 | G2D2 B2G2 | "Am"c2B2 "D7"A2F2 | "G"GAGF "(D7)"E2D2 |\
+"G"DEDC B,2D2 | G2D2 B2G2 "I"| "Am"c2B2 "D7"ABAF | "G"G8 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0
+T: Humahus
+K:
+%
+%
+%X: 1
+P: Humahus    [C]
+O: trad. Karelia
+%R: polka
+S: http://rsc.anu.edu.au/~pdc/revontulet_dots/music/Humahus.html
+N: Harmony by John Chambers (2018)
+M: 4/4
+L: 1/8
+K: C
+|:\
+"C"[ec][ec]"F"[fc][af] "C"[g2e2]-"G"[gd][fd] |\
+"C"[ec][ec]"F"[fc][af] "C"[g2e2]-"G"[gd][fd] |\
+"C"[ec][ec]"F"[fc][g/e/][f/d/] "C"[ec][ec]"G"[f/d/][e/c/][dB] |\
+"C"[ec][ec]"F"[fd][g/e/][f/d/] "C"[ec][ec]"G"[f/d/][e/c/][dB] "I"|\
+"C"[e2c2G2]"F"[f2c2A2] "C"[e2c2G2]"G"[g2d2B2] :|
+%
+%
+%X: 2
+P: Humahus    [G]
+O: trad. Karelia
+%R: polka
+S: http://rsc.anu.edu.au/~pdc/revontulet_dots/music/Humahus.html
+M: 4/4
+L: 1/8
+K: G
+|: "G"BB"C"ce "G"d2-"D"dc | "G"BB"C"ce "G"d2-"D"dc |\
+"G"BB"C"cd/c/ "G"BB"D"c/B/A | "G"BB"C"cd/c/ "G"BB"D"c/B/A |\
+"G"[B2G2D2]"C"[c2G2E2] "G"[B2G2D2]"D"[d2A2F2] :|
+%
+%
+%X: 3
+P: Humahus    [D]
+O: trad. Karelia
+%R: polka
+S: http://rsc.anu.edu.au/~pdc/revontulet_dots/music/Humahus.html
+M: 4/4
+L: 1/8
+K: D
+|: "D"ff"G"gb "D"a2-"A"ag | "D"ff"G"gb "D"a2-"A"ag |\
+"D"ff"G"ga/g/ "D"ff"A"g/f/e | "D"ff"G"ga/g/ "D"ff"A"g/f/e |\
+"D"[f2d2A2]"G"[g2d2B2] "D"[f2d2A2]"A"[a2e2c2] :|
+%
+%
+%X: 4
+P: Humahus    [A]
+O: trad. Karelia
+%R: polka
+S: http://rsc.anu.edu.au/~pdc/revontulet_dots/music/Humahus.html
+M: 4/4
+L: 1/8
+K: A
+|: "A"cc"D"df "A"e2-"E"ed | "A"cc"D"df "A"e2-"E"ed |\
+"A"cc"D"de/d/ "A"cc"E"d/c/B | "A"cc"D"de/d/ "A"cc"E"d/c/B |\
+"A"[c2A2E2]"D"[d2A2F2] "A"[c2A2E2]"E"[e2B2G2] :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0
+T: Lantti
+O: trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+P: F2 Bb2 ... (4-6 times)
+K:
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Lantti   [F]
+M: 2/4
+L: 1/16
+K: F
+|: "F"A2AA A2B2 | c2c2 c3c | "C7"c2a2 g3c | "F"c2g2 f3B \
+|  "F"A2AA A2B2 | c2c2 c3c | "C7"c2a2 g3e | "F"f2f2 f4 :|
+|: "F"a4 f4 | c2c2 c4 | "F"a4 f4 | c2c2 c4 \
+| "Bb"b2b2 b4 | "F"a2a2 a4 | "C7"g2g2 gbge | "F"g2f2 f4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Lantti   [Bb]
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+|: "Bb"D2DD D2E2 | F2F2 F3F | "F7"F2d2 c3F | "Bb"F2c2 B3E \
+|  "Bb"D2DD D2E2 | F2F2 F3F | "F7"F2d2 c3A | "Bb"B2B2 B4 :|
+|: "Bb"d4 B4 | F2F2 F4 | "Bb"d4 B4 | F2F2 F4 \
+| "Eb"e2e2 e4 | "Bb"d2d2 d4 | "F7"c2c2 cecA | "Bb"c2B2 B4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Nuuskapolkka
+M: 2/4
+L: 1/8
+P: G2 D2 ...
+K: G
+P: G:
+"D7"D \
+|: "G"GG/A/ BB | "D7"AA/B/ cc | "G"BB "D7"AA |1 "G"GB D2 :|2 "G"GB G2 ||
+G/B/ \
+|| "G"dd BG | "C"e2 z2 | "D7"cc Ae | "G"d2 z2 \
+"I"\
+| dd BG | "C"ez "G"dz | "D7"cz Az | "G"G2z |]
+P: D:
+K: D
+"A7"A \
+|: "D"dd/e/ ff | "A7"ee/f/ gg | "D"ff "A7"ee |1 "D"df A2 :|2 "D"df "fine"d2 ||
+d/f/ \
+|| "D"aa fd | "G"b2 z2 | "A7"gg eb | "D"a2 z2 \
+| aa fd | "G"bz "D"az | "A7"gz ez | "D"d2z |]

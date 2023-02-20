@@ -1,0 +1,16 @@
+X: 349
+T: Papouri
+O: Armenia
+M: 2/4
+L: 1/8
+Q: 1/4=192
+K: Am
+%%MIDI program 71
+%%MIDI bassprog 1
+%%MIDI bassvol 70
+%%MIDI drum dz 38
+%%MIDI drumon
+%%MIDI gchord zf
+|:z2"d".d.c |.B2"a".c2|"d".d.e.d.c|TB4  |"a".c.d.c.B|A2B2|cdcB|TA4  :|
+  "a" e4  |"d" d4  |"a" e4 |"e"dc3|"d"Bcd2|Bcd2 |d2d2 |"a"A4|
+  "a" ede2|"d"dcd2 |"a"ede2|"e"Tc4|"d"Bcd2|Bcd2 |d2d2 |"a"A4|

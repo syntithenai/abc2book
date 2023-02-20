@@ -1,0 +1,15 @@
+X: 1556
+T: Chief O'Neill's Hornpipe   #2
+T: ro\.ga an taoisai\.g ui niall.
+R: Hornpipe
+%S: s:2 b:10(6+4)
+B: O'Neill's 1850 #1556
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play (A1A2)x2 (BA2)x2
+O: Cronin
+M: C|
+K: D
+"^A"|: (de) | fef(g af)ge | fde(d dc)AG | (FE)(FD) [1,3 FGA(B | c)Adc A2 :|[2,4 GBAG | F2D2 D2 :|
+"^B"[| (DE) | (FEF)(D FG)AB | cAd(B cA)GB | Add(e fd)ed | c(Adc) "^->B2"A2 |]
+% (de) | fef(g af)ge | fde(d dc)AG | (FE)(FD) GBAG | F2D2 D2 :|

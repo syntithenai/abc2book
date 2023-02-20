@@ -1,0 +1,19 @@
+X: 964
+T: the Lodge Road
+O: Ireland
+R: reel, long dance, set dance
+%S: s:5 b:20(4+4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #964
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0964/oneill-1001-0964-1.abc
+N: The B part's repeat has incorrect rhythm.
+M: 2/4
+L: 1/16
+K: D
+"^A"[|] A2 !segno!\
+| d2df edcB | A2A2A2F2 | DFAF DFAF | G2FG E2A2 |
+| d2df edcB | A2A2A2F2 | DFAF G2EF | D2D2D2 :|
+"^B"|: A2 \
+| defg agfe | defg a2af | g2eg f2df | edcB ABcA |
+| f2f2g2g2 | e2e2 f2(fe) | dfaf dfaf | g2fg e2 z2 |
+| f2f2g2g2 | e2e2 f2fe | dfaf bgec | d2de dcBA !segno! :|

@@ -1,0 +1,20 @@
+X: 3206
+T: DUNFERMLINE ABBEY
+Q: "Highland Schottische."
+R: Schottische.
+%R: shottish
+B: James Kerr "Merry Melodies" v.3 p.24 #206
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+[|\
+vG>vA (B<d) (e<g) (e<g) | d<B B>e d<B B>A |\
+G>A (B<d) (e<g) (e<g) | d<B G>B A2- AB |\
+G>A (B<d) (e<g) (e<g) | d<B B>e d<B B>d |\
+e>fg>a b>ag>e | d<B B>G A2- Ad |]
+[|\
+g>ab>a (g<e) (e<g) | d<B B>e d<B B<d |\
+g>a b>a (g<e) (e<g) | d<B B>G A2- Ad |\
+g>ab>a g<e (e<g) | d<B B>e d<B B>d |\
+e>fg>a b>ag>e | d<B A>B G2- Gz |]

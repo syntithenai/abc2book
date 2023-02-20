@@ -1,0 +1,29 @@
+X: 251
+T: ATHOLE HOUSE
+C: D. DOW
+R: Reel
+B: Glen Collection p.25 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: F
+%
+V: 1
+f |\
+cFAF cF d/c/B/A/ | cFAF E(G2f) | cFAF cAfc | d/c/B/A/ cC DF F :|
+c |\
+f2 a/g/f/e/ fcAc | Fc d/c/B/A/ BGGc | f2 a/g/f cfAc | dfeg c(f2c) |
+fcaf ecbg | afcf eggb | afcf dBGB | AFcC DF [FA,] |]
+%
+V: 2
+z |\
+F2[f2c2] A2[f2c2] | F2[f2c2] c2[g2e2] |\
+F2[f2c2] A2[a2f2] | [b2f2][a2f2] [b2f2][af] :|
+z |\
+F2[f2c2] A2[f2c2] | F2[a2f2c2] [g2e2c2][g2e2c2] |\
+F2[f2c2] A2[f2c2] | [f2B2][b2c2] [a2f2][a2f2] |
+f2[c'2a2] c2[g2e2] | f2[c'2a2] c2[g2e2] |\
+F2[a2f2] [b2f2][c'2c2] | f2[f2A2] [f2B2][fF] |]

@@ -1,0 +1,20 @@
+X: 1051
+T: a Mock Tune
+%T: Fie Nay Prithee John
+%R: round, march
+B: Henry Playford "Apollo's Banquet", London 1687 (5th Edition)
+F: https://archive.org/details/apollosbanquetco01rugg
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: Bar 11 is missing its last note; F2 added from several other available versions.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - -
+[|\
+d3f edA2 | B3d cAF2 |\
+G3B AFD2 | G2A2 D4 |]|\
+daad caac | BggB AffA |
+GeeG FddF | E2c2 d4 |[|\
+afdb geca | fdBg ecAf |\
+dBGe cAF2 | b2a>g f4 |]
+% - - - - - - - - - -

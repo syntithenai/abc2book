@@ -1,0 +1,74 @@
+
+X: 1
+T: R\`aggio di Sole
+C: music: Giorgio Volpi
+C: words: Luigi Pellegi
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+S: Helene Criscio, Tony Santorella "Italian Favorites for Accordion" 1997
+M: 4/4
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Formatted for the intro + 2 lines of verse + 4 lines of chorus:
+%
+%%indent 250
+"intro"|\
+"Dm"(3D2E2F2 "C7"(3G2F2E2 | "F"(3F2G2A2 "Gm"(3B2A2G2 |\
+"A7"(3[A2F2][G2E2][F2D2] (3[E2^C2][F2D2][G2E2] | [A6^C6] ||
+%
+"verse"[|\
+   A2 | "Dm"(3d2e2f2 (3e2d2c2 | "Gm"(3B2B2A2 e3d | "C7"c2c2 (3c2B2A2 | "F"(3^G2A2A2 A3A |
+w: Con au-reo co-lo-*re'~e ra-ro splen-dor, Il pri-mo rag-gio del so-le las-su' E
+%
+  "A"(3A2G2F2 (3E2F2G2 | "Dm"(3G2F2E2 F3F | "Gm"F>E E2- E/E/E/F/ G>E | "A"A8 |]
+w: re-gia bel-lez-za e vi-vo can-dor, U-gua-le al rag-gio do-ro che sei tu.
+%
+"chorus"|: "Dm"d6 c=B | A8- | A2AA A3G | "Gm"B8 | "C7"(3e2d2c2 B3B | B2 e6 | "F"(3d2c2B2 (3A2A2^G2 |
+w: Rag-gie di sol* che spun-tan-do me Mos-tra che la mat-ti-na pie-na di lu-ce se-
+%
+  A8 | "A7"A4 =B^cde | "Dm"f3e d4 | "Gm"zd (3ddd ^c3d | "A7"e8 || "Dm"d6 c=B | A8- | A2AA A3G |
+w: \-ra Oh, bel-la sei* tu a-mor, Sei rag-gio di lu-ce'e fior! so-gno d'a-mor* bel-lo co-me
+%
+  "Gm"B8 | "C7"(3e2d2c2 B3B | B2 e6 | "F"(3d2c2B2 (3A2A2^G2 | A8 | "A7"A4 =B^cde | "Dm"f3e d4 |
+w: te, Sem-pre vor-rei so-gna-re. Sen-za sve-gliar-mi mai piu, Sei so-gno di* geio-ven-tu,
+%
+  "C7"c4 defg | "Fm"_a3g f4 | "Bbm"f3f _e2_d2 | "Fm"c3_A c4 | "C7"(3c2c2c2 efg_a | "Fm"gf- f4 z2 |]
+w: mio so-gno d'a-*mor sei tu chiu-do gli-occhi miei oi-me', Vo-glio so-gna-re con* te._
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: R\`aggio di Sole
+C: music: Giorgio Volpi
+C: words: Luigi Pellegi
+M: 4/4
+L: 1/8
+K: Em
+y8 y8 y8 y8 y8 y8 \
+"intro"\
+|"Em"(3E2F2G2 "D7"(3A2G2F2 | "G"(3G2A2B2 "Am"(3c2B2A2 \
+| "B7"(3[B2G2][A2F2][G2E2] (3[F2^D2][G2E2][A2F2] | [B6^D6] B2 ||
+"verse"\
+|| "Em"(3e2f2g2 (3f2e2d2 | "Am"(3c2c2B2 f3e \
+| "D7"d2d2 (3d2c2B2 | "G"(3^A2B2B2 B3B \
+| "B"(3B2A2G2 (3F2G2A2 | "Em"(3A2G2F2 G3G |
+| "Am"G>F F2- F/F/F/G/ A>F | "B"B8 \
+"chorus"\
+|: "Em"e6 d^c | B8- \
+| B2BB B3A | "Am"c8 \
+| "D7"(3f2e2d2 c3c | c2 f6 |
+| "G"(3e2d2c2 (3B2B2^A2 | B8 \
+| "B7"B4 ^c^def | "Em"g3f e4 \
+|1 "Am"ze (3eee ^d3e | "B7"f8 :|
+|2 "D7"d4 efga | "Gm"_b3a g4 \
+| "Cbm"g3g =f2_e2 | "Gm"d3_B d4 \
+| "D7"(3d2d2d2 fga_b | "Gm"ag- g4 z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0
+%%wordsfont Helvetica 10
+W: Arrangement by John Chambers <jc@trillian.mit.edu>
+K: C

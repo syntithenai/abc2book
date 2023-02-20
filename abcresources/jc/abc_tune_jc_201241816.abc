@@ -1,0 +1,32 @@
+X: 472
+T: MISS DRUMMOND OF LOGIEALMOND
+C: Wm SHEPHERD
+R: Strathspey
+B: Glen Collection p.47 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Em
+%
+V: 1
+EF |\
+{F}G3E GFE^D E3B B3F | G3B d3B FAdB AFDF |\
+{F}G3E GFE^D E2B2 B2ef | {f}g3e fbB^d e2E2E2 :|
+B2 |\
+e3f {ef}g2fe TB2e^d e2B2 | e3f {a}g2.f.e dfba gfe^d |\
+e3f {a}g2.f.e B2e^d e2c2 | B2B,2 BAGF G2E2 E2B2 |
+e3f {ef}g2fe  B2e^d e2B2 | e3f {a}g2fe dfba gfe^d |\
+b3g a3f g3e B3G | ABcA Be^df e2E2E2 |]
+%
+V: 2
+z2 |\
+E4[c'4a4e4] [b4g4e4]e4 | g4[d'4b4] d4[a4f4] |\
+e4[c'4a4e4] [b4g4e4][b4g4e4] | e4B4 E4[b2g2e2] :|
+z2 |\
+e4[e'4b4] g4[e'4b4] | [b4g4e4][b4e4B4] [a4f4d4][a4A4] |\
+e4[e'4b4] e4E4 | B4^d4 e4[b4g4e4] |
+e4[e'4b4] g4[e'4b4] | [b4g4e4][b4B4] [a4f4d4][a4A4] |\
+[g4e4][c'4e4] [b4e4][b4g4e4] | c'4b4 e4[b2g2e2] |]

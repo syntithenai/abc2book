@@ -1,0 +1,27 @@
+X: 1
+T: Fickle Polly
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (61)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+The first A in the last bar has an extra stem; it's not clear what this may mean.
+M:  C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G4 D4 | GABG ABcA | B2d2 ^F2D2 | GABG ABcA | B4 d2cB | ABcA B2G2 :|
+|: B4 def2 | A4 B3A | GABG ^F2D2 | g^fgd edec | dcdB D2G2 | GAB2 A2G2 :|
+|: G2FE DCB,A, | G,4 GABG | ABcA ^F2D2 | G2FE DCB,A, | G,2f2 d2cB | [A2A]BcA B2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man sett to his own Wo. and then take Hands with
+%% the 2d Man and turn round into his own Place. the 1st and
+%% 2d We. do the like at the same time. then the 1st Cu. cross
+%% over into the 2d Cu. Place. then all four take Hands and lead
+%% up abreast. then the 1st Man cross over and go below the 2d
+%% Man while the 1st Wo. goes below the 2d Wo. and clap Hands.
+%% then all four Hands and go quite round. the other Cu. do the
+%% same .|
+%%endtext
+%%sep 1 8 500

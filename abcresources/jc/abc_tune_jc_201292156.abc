@@ -1,0 +1,64 @@
+
+X: 1
+T: Jamie Allen    [G]
+T: Jimmy Allen
+T: Reel of Tullochgoram
+O: c.1800
+R: reel
+S: page labelled "VII-10", "Northumbrian Pipers 8" and "Potomac Valley"
+Z: John Chambers <jc:trillian.mit.edu>
+N: Jamie Allen (1734-1810) was a Northumbrian small-pipes player.
+N: This tune is attributed to him, but the details aren't known.
+M: 2/4
+L: 1/8
+K: G
+G/A/ |\
+"G"BG GA | "Em"B2 GA/B/ | "Am"cA AB | "D7"c2 BA |\
+"G"Gg "C"ge | "G"d2 B>c | "D7"dd c/B/A | "G"G3 :|
+|: B/A/ |\
+"G"Gg g>f | "Em"ed cB | "Am"Aa a>g | "D7"fd ef |\
+"G"g>a "C"ge | "G"d2 B>c | "D7"dd c/B/A | "G"G3 :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Scotland the Brave   [G]
+R: march
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: "The Gesto Collection of Highland Music" (Keith Norman Macdonald) 1891-5?
+M: C|
+L: 1/4
+K: G
+"A"|:\
+"G"G2 G>A | BG Bd | g2 g>f | gd BG |\
+"C"c2 e>c | "G"B<d BG |1 "D7"A2 d>e | dc BA :|2 "D7"A2 G>A | "G"G2 d/e/f/g/ ||
+"B"[|\
+"D7"a2 a>b | af d2 | "G"g2 b>a | "C"ge "G"d2 |\
+"Em"g2 ag | "Bm"f2gf | "A7"eg fe | "D7"dc BA |]
+"A2"[|\
+"G"G2 G>A | BG Bd | g2 g>f | gd BG |\
+"C"c2 ec | "G"B<d BG | "D7"A2 G>A | "G"G2- Gz |]
+
+
+X: 1
+T: Scotland the Brave
+C: (unknown)
+%Date: 1911
+O: Scotland
+R: march
+B: Version from the Concord Slow Scottish Jam session binder 2.
+S: arr. B. McOwen, Sept 2001
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+[|\
+"A"A4 A3B | "A"c2A2 c2e2 | "A"a4 "D"a3g | "A"a2e2 "A7"c2A2 |\
+"D"d4 f3d | "A"c2e2 c2A2 |1 "Bm7"B4 e3e | "E7"e2d2 c2B2 :|2 "E7"B4 A3B | "A"A8 |]
+[|\
+"A"a4 "D"a3g | "A"a2e2 c2A2 | "A"a4 "D"a3g | "A"a2e2 "A7"c2A2 |\
+"D"d4 f3d | "A"c2e2 c2A2 | "Bm7"B4 e3e | "E7"e2d2 c2B2 |
+"A"A4 A3B | "A"c2A2 c2e2 | "A"a4 "D"a3g | "A"a2e2 "A7"c2A2 |\
+"D"d4 f3d | "A"c2e2 c2A2 | "E7"B4 A3B | "A"A8 |]

@@ -1,0 +1,23 @@
+X: 769
+T: Daniel O'Rourke   [G]
+T: the Merry Hunstman
+R: jig
+O: J.O'Neill
+B: O'Neill's 1850 "Music of Ireland" #769
+Z: Stephen Foy (shf@access.digex.net)
+N: The book's version in G/Amix uses 3rd position on fiddles.
+N: Playing a 4th or 5th lower would work better on many instruments.
+N: O'Neill also published it in his "1001" collection in F titled The Merry Hunstman.
+%abc 1.6
+M: 6/8
+L: 1/8
+K: G	% and/or Dmix
+b/a/ |\
+gdB BdB | gdB gba | gdB BdB | ecA A2f |\
+gdB BdB | gdB gab | afd ge^c | ded d2 :|
+|| z |:\
+d2b afd | afd fga | d2b afd | ecA cde | d2b afd | afd fga |\
+[1 bge afd | ecA cde :|[2 Bge cAc | ded d2 ||
+|: (B/c/) |\
+d2d' d'ag | fdd def | gag bge | cAA A2(B/c/) |\
+d2d' d'ag | fdd d2 d/c/ | Bge cAc | ded d2 :|

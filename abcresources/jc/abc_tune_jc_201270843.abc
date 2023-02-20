@@ -1,0 +1,22 @@
+X:1
+T:The Duke of Gordon's Birthday
+R:strathspey
+S:handwritten MS
+Z:2005 John Chambers <jc:trillian.mit.edu>
+%%staffsep 45
+M:C
+L:1/8
+K:G
+B \
+| "G"G<D G<B G>D G>B \
+| "G"d<B g>B "D7"~A2 A<B \
+| "G"G>A G<F "C"E>D G>E \
+|1 "G"D>B, A,<B, "D7"~A,2 A, \
+:|2 "D7"D>B, A,<B, "G"~G,2 G, :|
+f \
+|   "G"g>a g>e "D7"~d2 d>e \
+|   "G"g<b a>g  "C"~e2 e>f \
+|1 "Em"g>b e<g  "G"d>g B<G \
+|  "D7"A>G A<B  "G"~G2 G   \
+:|2"Em"g<b e>g  "G"d>e g<b \
+|  "D7"a>g a<b  "G"~g2 g  |]

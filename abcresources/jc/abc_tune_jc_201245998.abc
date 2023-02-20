@@ -1,0 +1,72 @@
+X: 1
+T: All Things Are Quite Silent
+T: My Bonny, Bonny Boy
+O: trad English
+N: For dance by Victor Skowronki (2005)
+N: Tunes collected by Ralph Vaughan Williams
+R: waltz
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+"A"[|] D2 |\
+"Dm"F2 E2 D2 | "G"d2 c2 d2 |  "Dm"A3 G AG | "(G)"F2 E2 D2 |\
+"Dm"F2 F2 F2 | "C"G2 F2 G2 | "F"A4 B2 | "A"A4 A2 |
+"C"c2 d2 c2 | "F"c2 A2 F2 | "G"d2 c2 d2 | "Dm"A2 G2 F2 |\
+"G"G2 d2 d2 | "Am"c2 D2 E2 | "F"F3 GAB | "A"A4 |] [K:=B]
+K: Ddor
+"B"[|] AG |\
+"Dm"F2 E2 D2 | "G"G2 A2 B2 | "G"G2 AG "C"E2 | "Dm"D4 DE |\
+F2 E2 D2 | "G"G2 AG B2 | "G"G2 A2 "Am"E2 | A4 Ac |
+"G"BA GA B2 | "Am"cB A2 A2 | "Dm"d2 c2 d2 | "A"A4 AG |\
+"Dm"F2 E2 D2 | "G"G2 A2 B2 | "G"G2 AG "C"E2 | "Dm"D4 |]
+%%center The A part is the song My Bonny, Bonny Boy; the B part is the song All Things Are Quite Silent.
+
+%%sep 1 1 500
+X: 2
+T: All Things Are Quite Silent  [Am]
+T: My Bonny, Bonny Boy
+O: trad English
+N: For dance by Victor Skowronki (2005)
+N: Tunes collected by Ralph Vaughan Williams
+R: waltz
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+"A"[|] A2 |\
+"Am"c2 B2 A2 | "D"a2 g2 a2 |  "Am"e3 d ed | "(D)"c2 B2 A2 |\
+"Am"c2 c2 c2 | "G"d2 c2 d2 | "C"e4 f2 | "E"e4 e2 |
+"G"g2 a2 g2 | "C"g2 e2 c2 | "D"a2 g2 a2 | "Am"e2 d2 c2 |\
+"D"d2 a2 a2 | "Em"g2 A2 B2 | "C"c3 def | "E"e4 |] [K:^f]
+K: Ador
+"B"[|] ed |\
+"Am"c2 B2 A2 | "D"d2 e2 f2 | "D"d2 ed "G"B2 | "Am"A4 AB |\
+c2 B2 A2 | "D"d2 ed f2 | "D"d2 e2 "Em"B2 | e4 eg |
+"D"fe de f2 | "Em"gf e2 e2 | "Am"a2 g2 a2 | "E"e4 ed |\
+"Am"c2 B2 A2 | "D"d2 e2 f2 | "D"d2 ed "G"B2 | "Am"A4 |]
+%%center The A part is the song My Bonny, Bonny Boy; the B part is the song All Things Are Quite Silent.
+
+%%sep 1 1 500
+X: 3
+T:
+K:
+%%begintext
+A:
+ 1-4: All circle left.
+ 5-8: First couple turns two hands.
+ 9-12: First lady leads down between second couple, Casts around second lady, and Crosses to
+partner's place. First man follows his partner and ends in her place.
+13-14: All left hand star halfway.
+15-16: All change places with neighbor by the left shoulder. Women Will be on outside, men on the inside.
+
+B:
+ 1-2: Women turn by the right halfway.
+ 3-4: All turn partner by the left halfway.
+ 5-6: Women tum by the right halfway.
+ 7-8: All turn Corner by the left halfway.
+ 9-12: A11 gypsy with partner by the right shoulder.
+13-14: Women change places by the left shoulder.
+15-16: First man, first woman, and second man lead to progressed place with a counterclockwise
+open Circle. The second Woman turns single.
+%%endtext

@@ -1,0 +1,24 @@
+X:2
+T:Ton simple fisel
+G:Kazimodal
+R:Da\~ns fisel
+C:Traditionnel, arrangement http://kazimodal.trad.org
+S:Tonioù Breizh-Izel 1124 (Treogan)
+Q:C3=156
+P:EF5
+M:12/8
+K:D
+P:E
+D \
+P:F
+%%MIDI gchord fzzczzfzcfzz
+%%MIDI gchord fzfczzfzzfzc
+%%MIDI chordprog 42
+%%MIDI chordvol 40
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+%%MIDI program 71
+|: "D"F2 G "F#m"A2 ({FG}F) "Bm"D2 ({EF}E) D2 C/2D/2 |\
+	"G"E2 F E2 D "A"E3 "D"F3 :|
+|: "D"F2 G "F#m"A2 ({FG}F) "Bm"D2 ({EF}E) "G"D2 C/2D/2 |1\
+	"Em"E2 F "A"G2 E "G"D3 "D"D3 :|2 "Em"E2 F "A"G2 E "G"D3 "D"D2 D ||

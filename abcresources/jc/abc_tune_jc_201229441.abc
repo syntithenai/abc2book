@@ -1,0 +1,24 @@
+X: 1233
+T: Andrew and his Cuttie Gun
+%R: air, march
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.23 #3 (and topo 2 staffs of p.24)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "Slow"
+K: Gm
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+d4 cBAG c2F2A2f2 | d4 cBAG cBAB G4 ::\
+A2F2f3g f2d2 f=edc | d2G2 gfga {b}a2gf Td4 |\
+c2F2 (f3g/a/) f2d2 {d}c2BA | TB3cA2f2 A2g2 G4 ::
+dedc {c}B2AG c2F2A2f2 | dedc {c}B2AG A2D2 G4 ::\
+A2F2c2C2 f=efg fedc | d2G2 gfga bagf Td4 |\
+c2F2 (f3g/a/) f2d2 {d}c2BA | TB3cA2f2 A2g2 G4 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+g4g4 f4f4 g4G4 d4g4 :: f4f4 f4f4 | g4g4 g4g4 | f4f4 f4f4 | g4d4 d4g4 ::
+g4g4 f4f4 | g4G4 d4g4 :: f4f4 f4f4 | g4g4 g4g4 | f4f4 f4f4 | g4d4 d4g4 :|

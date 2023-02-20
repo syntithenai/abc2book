@@ -1,0 +1,29 @@
+X: 62
+T: Holborn March
+T: Longways for as many as will.
+%R: march
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.32
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to fit the "Each Strain twice" instruction.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+c4 c4 | c6 Bc | d2c2 B2A2 | G6 C2 |\
+F2 A4 G2 | A2 c4 B2 | A4 G4 | F8 ::\
+g4 g4 | g6 fg | a2g2 f2e2 | d6 G2 |
+c2 e4 d2 | e2 g4 f2 | e4 d4 | c8 |\
+c4 c4 | c6 Bc | d2c2 B2A2 | G6 C2 |\
+F2 A4 G2 | A2 c4 b2 | a2gf g2e2 | f8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+%% The 1st Cu. set cast off and turn .| The 2d Cu.
+%% do the same .| the 1st and 2d Cu. Hands across
+%% half round the same back again .| Then the 1st
+%% Cu. cross over and Figure.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

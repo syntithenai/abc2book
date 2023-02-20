@@ -1,0 +1,45 @@
+X: 1
+T:Kennedy Street
+M:C|
+L:1/8
+Q:80
+C:D.H. MacEachern, Arr. S. MacAulay
+S:March 2/4
+K:HP
+|: a3/4f/4|
+{gef}e{g}A3/4d/4{gcd}c3/4B/4{g}A3/4c/4|
+{Gdc}d3/4e/4{g}f/4a3/4{ef}e3/4d/4{g}c/4{d}A3/4|  !
+{gef}e{g}A3/4d/4{gcd}c3/4B/4{g}A3/4{d}c/4|
+{g}B/4{d}G3/4{g}B3/4c/4{Gdc}d3/4e/4{g}f/4a3/4:|2 |
+{gef}e{g}A3/4d/4{gcd}c3/4B/4{g}A3/4c/4|  !
+{Gdc}d3/4e/4{g}f/4a3/4{ef}e3/4d/4{g}c/4{d}A3/4|
+{g}c3/4d/4{g}e/4a3/4c/4e3/4{g}G3/4{d}B/4|
+{g}A2{GAG}A:| |:  !
+{g}((3e/2f/2g/2)|
+{ag}a{ef}e3/4d/4{g}c/4e3/4{g}A3/4c/4|
+{Gdc}d3/4e/4{g}f/4a3/4{ef}e3/4d/4{g}c/4{d}A3/4|  !
+{gef}e{g}A3/4d/4{gcd}c3/4B/4{g}A3/4{d}c/4|
+{g}B/4{d}G3/4{g}B3/4c/4{Gdc}d3/4|1 e/4{g}f3/4g/4|2 {g}f/4a3/4|1 |
+{ag}a{ef}e3/4d/4{g}c/4e3/4{g}A3/4c/4|  !
+{Gdc}d3/4e/4{g}f/4a3/4{ef}e3/4d/4{g}c/4{d}A3/4|
+{g}c3/4d/4{g}e/4a3/4c/4e3/4{g}G3/4{d}B/4|
+{g}A2{GAG}A:| |:  !
+a3/4f/4|
+{gef}((3e3/4A/4{g}c/2B/2A/2){g}c/4e3/4{g}A3/4c/4|
+{Gdc}d3/4e/4{g}f/4a3/4{ef}e3/4d/4{g}c/4{d}A3/4|  !
+{gef}((3e3/4A/4{g}c/2B/2A/2){g}c/4e3/4{g}A3/4c/4|
+{g}B/4{d}G3/4{g}B3/4c/4{Gdc}d3/4e/4{g}f/4a3/4| |
+{gef}((3e3/4A/4{g}c/2B/2A/2){g}c/4e3/4{g}A3/4c/4|  !
+{Gdc}d3/4e/4{g}f/4a3/4{ef}e3/4d/4{g}c/4{d}A3/4|
+{g}c3/4d/4{g}e/4a3/4c/4e3/4{g}G3/4{d}B/4|
+{g}A2{GAG}A:| |:  !
+{g}f3/4g/4|
+((3a/2g/2f/2)((3g/2f/2e/2){g}((3f/2e/2d/2){gef}e3/4c/4|
+{Gdc}d3/4e/4{g}f/4a3/4{ef}e3/4d/4{g}c/4{d}A3/4|  !
+{gef}e{g}A3/4d/4{gcd}c3/4B/4{g}A3/4{d}c/4|
+{g}B/4{d}G3/4{g}B3/4c/4{Gdc}d3/4|1 e/4{g}f3/4g/4|2 {g}f/4a3/4|1 |
+((3a/2g/2f/2)((3g/2f/2e/2){g}((3f/2e/2d/2){gef}e3/4c/4|  !
+{Gdc}d3/4e/4{g}f/4a3/4{ef}e3/4d/4{g}c/4{d}A3/4|
+{g}c3/4d/4{g}e/4a3/4c/4e3/4{g}G3/4{d}B/4|
+{g}A2{GAG}A:|  !
+

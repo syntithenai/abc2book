@@ -1,0 +1,31 @@
+X: 1
+T: Chloe's Farewel
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (162)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/8
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+(dc)B (BA)G | (DC)D zzG | (AB)c (BA)G | d3 zzd |\
+(e/f/)gf (e/d/c)B | (FE)F zz(c//d//e/) | (dc)B (cF)A | B3- B2 :|
+|: B |\
+f2F (BA)G | (cB)A zzd | (ed)e (cB)c | A3 zzg |\
+(gf)g (ed)e | (c=B)c- c2(c//d//e/) | (dc)B (BA)G | G3 zz :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% First Wo. figure thro the 3d Cu. then outside the 2d Wo.
+%% to her Place the 2d Man go the whole figure thro the 3d
+%% Cu. at the same Time :| First Man and 2d Wo. do the same :|
+%% First Man take his Partner by both Hands and lead her on
+%% the out side below the 2d Man, set to the 3d Wo. then to
+%% the 3d Man and turn sides quite round .| First Wo. cast
+%% up and go to her Partner's Place he follows her at the
+%% same Time they go round each other proper and turn
+%% down the Middle.
+%%endtext
+%%sep 1 8 500

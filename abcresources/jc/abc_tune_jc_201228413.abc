@@ -1,0 +1,88 @@
+X: 11261
+T: WRECKER'S DAUGHTER QUICKSTEP
+C: By Conrad Fay
+%R: quickstep, march
+N: This is version 2, for ABC software that understands voice overlays and tremolo notation.
+N: No ABC software seems to handle the trailing grace notes in bars 3,7; rewritten as 32nd notes.
+N: Measure repeat symbols transcribed as duplicated measures.
+N: In bar 4, there's a dot after a missing d' note; fixed to agree with bar 3.
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.126-128
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Eb
+%%indent 70
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="Eb Bugle" sname="EbBgl" staves=4
+K: C
+|: \
+!ff!g/g/g/z/ g/g/g/z/ | g/g/g/z/ g/g/g/z/ | !p!z!/!E3 | z!/!E3 |\
+a/a/a/z/ a/a/a/z/ | a/a/a/z/ a/a/a/z/ | !p!.A.c (f3/2f//a//) |
+fedc |\
+!ff![b/B/][b/B/][b/B/]z/ [b/B/][b/B/][b/B/]z/ | [b/B/][b/B/][b/B/]z/ [b/B/][b/B/][b/B/]z/ |\
+GB/d/ "^>"g2 | GB/d/ "^>"g2 |\
+(cd).c.e | (dc).B.d | c/c/c/z/ c/c/c/z/ | c2 z2 :|
+zB, zB, | zB, zB, | zD zD | z !/!B,3 |\
+zB, zB, | zB, zB, | zD zD | B,z "^>"B,2 |
+.d!f!.d("^>"ed) | .B.B("^>"cB) | .A.A("^>"ed) | B>^F (G/A/B/c/) |\
+.d!f!.d("^>"ed) | .B.B("^>"cB) | .A.A("^>"ed) |  Gz "^>"g2 |
+z4 | z4 | z4 | z4 | z4 | z4 | !f!z^f/f/ ff | gz g2 |
+!f!E2 Gc | E2 Gc | F2 Ac | E2 Gc |\
+D2 FA | G2 ce | dG/G/ AB | c2 z2 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 name="Bb Bugle" sname="BbBgl"
+K: F
+|:\
+[a/A/][a/A/][a/A/]z/ [a/A/][a/A/][a/A/]z/ | [a/A/][a/A/][a/A/]z/ [a/A/][a/A/][a/A/]z/ | !p!z!/!C3 | z!/!C3 | \
+[b/B/][b/B/][b/B/]z/ [b/B/][b/B/][b/B/]z/ | [b/B/][b/B/][b/B/]z/ [b/B/][b/B/][b/B/]z/ | !p!z!/!d3 |
+!p!z!/!d3 | !ff!\
+[g/G/][g/G/][g/G/]z/ [g/G/][g/G/][g/G/]z/ | [g/G/][g/G/][g/G/]z/ [g/G/][g/G/][g/G/]z/ | Gz "_>"e2 | gz "_>"e2 |\
+(cB).A.c | BAGB | A/A/A/z/ A/A/A/z/ | A2 z2 :|
+!p!.e.e("^>"fe) | .c.c("^>"dc) | .B.B("^>"fe) | c>G (E/G/c/d/) |\
+.e.e("^>"fe) | .c.c("^>"dc) | .B.B("^>"fe) | cz "^>"e2 |\
+zE zE | zE zE | zG zG | z!/!E3 |\
+zE zE | zE zE | zG zG | Ez "^>"e2 |
+F2 z2 | F2 z2 | F2 z2 | F2 z2 |\
+F2 z2 | F2 z2 | Df/f/ ff | ez "_>"e2 |
+!f!F2 z2 | F2 z2 | F2 z2 | F2 z2 |\
+E2 FA | F2 z2 | BB/B/ BB | A2 z2 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 name="Trumpet Eb" sname="EbTpt"
+K: C
+|: !ff!\
+c/c/c/z/ c/c/c/z/ | c/c/c/z/ c/c/c/z/ | !p!EG (c3/2c//d//) | cBAG |!ff!\
+c/c/c/z/ c/c/c/z/ | c/c/c/z/ c/c/c/z/ | !p!z !/!C3 |
+z !/!C3 |!ff!\
+G/G/G/z/ G/G/G/z/ | G/G/G/z/ G/G/G/z/ | Gz "_>"G2 | Gz "_>"G2 |\
+Gz GG | Gz GG | G/G/G/z/ G/G/G/z/ | G2 z2 :|
+!p!.d.d("^>"ed) | .B.B("^>"cB) | .A.A("^>"ed) | B>^F (G/A/B/c/) |\
+.d.d("^>"ed) | .B.B("^>"cB) | .A.A("^>"ed) | Gz "^>"g2 |
+.B.B(cB"^>") | .G.G("_>"AG) | .^F.F("_>"cB) | G2 z/(^F/G/A/) |\
+.B.B("^>"cB) | .G.G("_>"AG) | .^F.F("_>"cB) | Gz "^>"d2 |
+E2 Gc | E2 Gc | F2 Ac | E2 Gc |\
+D2 FA | G2 ce | dd/d/ dd | Gz "^>"D2 |
+E2 Gc | E2 Gc | F2 Ac | E2 Gc |\
+D2 FA | G2 ce | dd/d/ dd | c2 z2 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 4 name="Trombone\nOphecleide" sname="Bass" clef=bass middle=d
+K: Eb
+|:\
+[e'/e/][e'/e/][e'/e/]z/ [e'/e/][e'/e/][e'/e/]z/ | [e'/e/][e'/e/][e'/e/]z/ [e'/e/][e'/e/][e'/e/]z/ |\
+z!/![f'3d'3] & e2z2 | z!/![f'3d'3] & e2z2 |
+[a/A/][a/A/][a/A/]z/ [a/A/][a/A/][a/A/]z/ | [a/A/][a/A/][a/A/]z/ [a/A/][a/A/][a/A/]z/ |\
+z!/!a3 & A2z2 |
+z!/!a3 & A2z2 |!ff!\
+[b/B/][b/B/][b/B/]z/ [b/B/][b/B/][b/B/]z/ | [b/B/][b/B/][b/B/]z/ [b/B/][b/B/][b/B/]z/ |\
+[d'B]z "^>"[b2B2] | [d'B]z "^>"[b2B2] |\
+[eE]z [gG][eE] | [bB]z [bd][bB] |\
+[e'/e/][e'/e/][e'/e/]z/ [e'/e/][e'/e/][e'/e/]z/ | [e'2e2] z2 :|
+!p!zb zb & Bz bz | zb zb & Bz bz | za za & Fz fz | z!/!b3 & B2z2 |\
+   zb zb & Bz bz | zb zb & Bz bz | za za & fz Fz | [bB]z "^>"[b2B2] |
+!f!zb zb & Bz bz | zb zb & Bz bz | za za & Fz fz | z!/!b3 & B2 z2 |\
+   zb zb & Bz bz | zb zb & Bz bz | za za & fz Fz | [bB]z "^>"[b2B2] |
+!p![b2e2] z2 | [b2e2] z2 | [c'2e2] z2 | [b2e2] z2 |\
+[b2b2] z2 | [b2e2] z2 | !f![=af][c'/f/][c'/f/] [c'f][c'f] | [bB]z "^>"[b2B2] |
+!f![b2E2] z2 | [b2E2] z2 | [c'2E2] z2 | [b2E2] z2 |\
+[b2B2] z2 | [b2E2] z2 | bb/b/ bb & B2 BB | [b2E2] z2 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

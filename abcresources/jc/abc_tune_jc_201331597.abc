@@ -1,0 +1,28 @@
+
+X: 1
+T: Rose is White and Rose is Red   [G]
+R: jig, march
+O: Playford 1651
+B: Playford, Dancing Master,1st Ed.,1651.
+B: FIFTY OLD ENGLISH FOLK DANCE AIRS", Edgar H. Hunt ed., Schott & Co. Ltd. pub., London 1939
+Z: 2004-2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gmix
+[| "G"B2B  B>AG | "Am"A2A "D7"c>BA | "G"B2B B>AG | B3 "D"d2(e/f/) ||
+|| "C"g>fe "G/b"d>cB | "Am"A2A "D7"e>dc | "G"B2B B>AG | B3 "D"d3 |]
+
+%%sep 1 1 500
+
+X: 2
+T: Rose is White and Rose is Red   [A]
+R: jig, march
+O: Playford 1651
+B: Playford, Dancing Master,1st Ed.,1651.
+B: FIFTY OLD ENGLISH FOLK DANCE AIRS", Edgar H. Hunt ed., Schott & Co. Ltd. pub., London 1939
+Z: 2004-2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Amix
+[| "A"c2c  c>BA | "Bm"B2B "E7"d>cB | "A"c2c c>BA | c3 "E"e2(f/g/) ||
+|| "D"a>gf "A/c#"e>dc | "Bm"B2B "E7"f>ed | "A"c2c c>BA | c3 "E"e3 |]

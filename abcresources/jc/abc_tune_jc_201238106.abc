@@ -1,0 +1,26 @@
+X: 3022
+T: Mrs Macdonall Grant's    Strathspey
+C: by Nath.Gow.
+%R: air, strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.2 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+Q: "Slowish & Distinctly"
+K: F
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 12-bar lines, for compactness and proofreading.
+V: 1 staves=2
+B |\
+(A/B/c) (.c.c) | B<d Td2 | (A/B/c) AF | E<GTG>B ||\
+A/B/c (.c.c) | (B/c/d/e/ f).d | cABG | {E}F2F :| f |\
+Tg2{fg} ae | fcf>a | ({a}Tgf/g/) af | egga ||
+Tg2{fg} ae | fc {g}fe/d/ | cABG | {E}F2 Ff ||\
+Tg2{fg} ae | fcfa | {a}Tg2{fg} af | eg Tgf/g/ ||\
+afdf | ecfd | {d}cB/A/ {c}BA/G/ | {E}F2 F |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | f2 F2 | b2 B2 | f2 f2 | c2 c'2 || f2 a2 | b2 B2 | c2 c2 | d2 d :| z |
+f2 f2 | f2 f2 | f2 f2 | c'2 c2 || f2 f2 | a2 b2 | c'2 c2 | f2 F2 || f2 f2 | f2 f2 |
+f2 a2 | c'2 c2 || f2 b2 | a2 b2 | c'2 c2 | f2 f |]

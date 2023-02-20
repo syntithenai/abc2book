@@ -1,0 +1,32 @@
+X:1
+T: The Troubled Suitor
+N:
+C:
+S: Play  5  times
+A:
+O:
+R:
+M:3/4
+K:Em
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 26 notes)
+K:Em
+M:3/4
+L:1/16
+B4 |G6 A2 B4 |e4 e4 d4 |B6 A2 G4 |d8 c2 B2 |g4 a2 f2 g2 e2 |^d4 B4 e4 |e6 f2 ^d4 |e8 B4 |
+%W: A2
+% voice 1 (1 lines, 25 notes)
+G6 A2 B4 |e4 e4 d4 |B6 A2 G4 |d8 c2 B2 |g4 a2 f2 g2 e2 |^d4 B4 e4 |e6 f2 ^d4 |e8 f4 |
+%W: B1
+% voice 1 (1 lines, 27 notes)
+g4 a3 g f3 e |b4 b4 f4 |g4 a3 g f3 e |f8 e4 |f4 e2 d2 ^c2 B2 |^A8 B4 |^c4 c6 B2 |B8 A4 |
+%W:
+% voice 1 (1 lines, 40 notes)
+G2 B2 e2 d2 c2 e2 |a2 f2 g2 e2 ^d2 f2 |B2 b2 a2 g2 a b c'2 |b8 b4 |a2 b a g2 a g f2 g e |^d4 e4 f2 g2 |g6 f2 e2 ^d2 |e8 f4 |
+%W: B2
+% voice 1 (1 lines, 27 notes)
+g4 a3 g f3 e |b4 b4 f4 |g4 a3 g f3 e |f8 e4 |f4 e2 d2 ^c2 B2 |^A8 B4 |^c4 c6 B2 |B8 A4 |
+%W:
+% voice 1 (1 lines, 39 notes)
+G2 B2 e2 d2 c2 e2 |a2 f2 g2 e2 ^d2 f2 |B2 b2 a2 g2 a b c'2 |b8 b4 |a2 b a g2 a g f2 g e |^d4 e4 f2 g2 |g6 f2 e2 ^d2 |e8 ||

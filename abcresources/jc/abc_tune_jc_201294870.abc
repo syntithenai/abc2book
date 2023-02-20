@@ -1,0 +1,39 @@
+X: 1
+T: Jularbo-Minnen fr\aan Vallset
+C: Ebbe Jularbo [1981]
+N: Till\"agnad Dragspelsfestivalen i Vallset, Norge den 8 augusti 1981
+S: printed MS of unknown origin
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+R: waltz
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+P: AABBACCA  Alla repriser spelas en oktav upp (8va).
+K:
+G (3EF^F "A"\
+| "C"G2 ed cB | dc Bc GE | "Dm"BA ^GA BA | D4 c2 \
+| "G7"BA ^GA FD | [B4G4F4D4] [A2F2D2B,2] | "C"AG ^FG EC | G3 G (3EF^F |
+| "C"G2 ed cB | dc Bc GE | "Dm"BA ^GA BA | D4 c2 \
+| "G7"BA ^GA FD | [A4F4B,4] [G2F2D2B,2] | "C"[c3G3E3] [cGE] [c2G2E2] \
+|1 "C"[c2G2E2] "fine"z :|2 "C"[c3G3E3] "->B"z :|3 "C"[cGE] "//"(C "->Trio"DE FG) |]
+"B"\
+|: c2 \
+| "F"[d4A4F4] [c2A2F2] | "F#dim"[B4^F4^D4] "Dm"[A2F2D2] \
+| "C/g"AG ^FG EC | "C/c"[B4G4E4C4] [A2G2E2C2] \
+| "G7"GF EF DB, \
+|"G7"[B4G4D4B,4] [A2F2D3B,2] | "C"AG ^FG EC | G,4 c2 |
+| "F"[d4A4F4] [c2A2F2] | "F#dim"[B4^F4^D4] "Dm"[A2F2D2] \
+| "C/g"AG ^FG EC | "C/c"[B4G4E4C4] [A2G2E2C2] \
+| "G7"GF EF DB, \
+|"G7"[A4F4D4B,4] [G2F2D3B,2] | "C"[c3G3E3] [cGE] [c2G2E2] |1 "C"[c4G4E4] :|2 [c2G2E2] "->A"z |]
+P: Trio
+K: F
+"C"\
+|: "F"[A3F3C3] [cAF] [c2-A2-F2-] | [cAF]A BA GF \
+| "Gm"[E3B,3G,3] [DB,G,] [D2-B,2-G,2-] | [DB,G,]G BA GF \
+| "C7"E2 [e3c3B3G3] [ecBG] | [e2c2B2G2] [d3B3G3E3] e \
+| "F"[dAF]c =Bc AF | C "//"(C DE FG) |
+| "F"[A3F3C3] [cAF] [c2-A2-F2-] | [cAF]A BA GF \
+| "Gm"[E3B,3G,3] [DB,G,] [D2-B,2-G,2-] | [DB,G,]G BA GF \
+| "C7"E2 [e3c3B3G3] [dBGE] | [d2B2G2E2] [c2B2G2E2] [E2C2B,2] \
+| "F"[F3C3A,3] [FCA,] [F2C2A,2] |1 [FCA,] "//"(C DE FG) :|2 "F"[F2C2A,2] "d.C."z |]

@@ -1,0 +1,21 @@
+X:97801
+T:Fife Ness
+P:The East Noock of Fife
+C:McGibbon c. 1800
+R:Reel (8x32)
+B:RSCDS D78-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:G
+V:1
+%%staves (1 2)
+[V:1] "D7"BA|"G"G4 G2Bc|dBGB dBGB|"Am"A4 A2gf|"D"edBd "C"e2[g2c2]|
+[V:1]        "G"G4 G2Bc|"Em"dBGB "Bm"d3B|"Am"A3B "B7"GABA|"Em"G2"Am"E2-"Em"E2||
+[V:1] "D7"dc|"G"B2G4 dc|"Em"B2G4 ed|"Am"c2A4 ed|"D7"c2A4 Bc|
+[V:1]        "G"dBGB gBGB|dBGB "Bm"d3B|"Am"ABcd "B7"BcAB|"Em"G2"Am"E2-"Em"E2|]
+%V:2
+%[V:2] [F2C2]|   B,4x4  |x8       |    x8     |   x8              |
+%[V:2]           x8     |    x4       F4 |    E4      E2F2|    E2    x4       ||
+%[V:2] [F2D2]|   D2D4 x2|    E2E4 G2|    E2E4 x2|    F2F4 x2|
+%[V:2]           D2x6     |x8          |    E4      ^D4  |    x6             |]

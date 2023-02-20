@@ -1,0 +1,28 @@
+X: 20101
+T: Three Sheep Skins
+%R: march, reel
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.10 #1
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+%%slurgraces 1
+%%graceslurs 1
+|: "_Brisk"\
+G3AB3c | {Bc}d4 (Tc3B) | c4 (TB3A) | d4 A4 ::\
+B2G2G2A2 | B2G2G2B2 | A2G2TF2E2 | {G}TF4 {E}D4 :|
+|:\
+GFGA BABc | d4 (c3B) | c2(Bc) (dBcA) | d4 A4 ::\
+(BGFG) g2G2 | B2G2 g2G2 | (DEFG) (AGFE) | TF4 {E}D4 :|
+|:\
+G2(BG) A2c2 | B2(dB) c2e2 | (dcBA) (GABc) | {Bc}d4 A4 ::\
+(BG)(.D.D) (cA)(.D.D) | (dB)(.D.D) (cA)(.D.D) | (edcB) (AGFE) | F4 {E}D4 :|
+|:\
+G2(3(gfg) B2(3(gfg) | c2(3(gfg) d2(3(gfg) | (edcB) (cBAG) | {Bc}d4 A4 ::\
+.B(GFG) A(cTBA) | .B(GFG) A(cTBA) | B(GFE) e(cTBA) | {G}F4 {E}D4 :|
+|:\
+GBAc B2g2 | d2(Ac) B2g2 | ecdB cABG | {Bc}d4 A4 ::\
+BGdG BGdG | BGdG BGgG | (DEFG) (AGFE) | F4 {E}D4 :|
+|:\
+(GB)(.B.B) (dB)(.B.B) | (dB)(dB) (dB)(dB) | (gd)(gd) (cB)(AG) | {Bc}d4 A4 ::\
+(BG)(.G.G) (BG)(.G.G) | (BG)(BG) (BG)(BG) | Dd^cB AGFE | F4 {E}D4 :|

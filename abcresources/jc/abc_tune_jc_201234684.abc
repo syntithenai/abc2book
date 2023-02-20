@@ -1,0 +1,22 @@
+X: 20702
+T: the COUNTRY CLUB
+Q: "Allegro"
+%R: march
+B: "Edinburgh Repository of Music" v.2 p.70 #2 - p.71 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4	% Actually 3/4, but that's totally wrong.
+L: 1/8
+K: D
+a/g/ |\
+.f.f.f.g | (fe)(ef) | .d.c.d.B | (ec)(BA) |\
+(fd)(cB) | e2c2 | d2z2 | z2z(a/g/) |\
+fffg | fe(ef) | dcdB | ecBA |
+(fd)(cB) | e2z2 | d2 "_Fine."z2 |]\
+z2zd/e/ |\
+f2gg | aaag | fffg | aa za |\
+f2a2 | a2^g2 | a2 z2a/b/ | "_sym:"c'aaa |
+b^ggg | a^gaf | b^gfe | "_song."c'a^gf |\
+b2^g2 | az aa | aaaa | aggg |\
+gfed | dcee | a2ff | e2f2 |\
+e2Hz2 "_D.C."|]

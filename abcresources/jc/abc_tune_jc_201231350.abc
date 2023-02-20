@@ -1,0 +1,23 @@
+X: 150
+T: Lord Alex.r Gordon's Reel
+T: Lord Alexander Gordon's Reel
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.58 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The first bar line is placed incorrectly; fixed to match similar measures later.
+N: Added '3' to a few unmarked triplets. Added missing beam to the 2nd count of bar 13.
+M: C|
+L: 1/8
+K: D
+|:\
+Dd-df/g/ adf2 | aa b/a/g/f/ ge-ef |\
+Dd-df/g/ adfa | (3(bc'd') (3(abg) fdd2 |\
+Dd-df/g/ adTf2 |
+aa b/a/g/f/ ge-ef |\
+Dd-df/g/ adfa | b/c'/d'/c'/ d'/b/a/g/ fdd2 :|\
+|:\
+FA-AB/c/ dAd2 | Be-ef gfed |
+(3(fga) (3(bc'd') b>agf | (3(efg) (3(abg) fdd2 |\
+FA AB/c/ dAd2 | Be-ef gfed |\
+(3(fga) (3(bc'd') (3(bag) (3(fed) | (3efg (3abg fdd2 |]

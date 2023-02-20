@@ -1,0 +1,23 @@
+X: 52
+T: MONEY MUSK
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.23
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+%N: The triplets in the 2nd strain are missing their '3's; fixed.
+%N: The unusual part of this setting is playing each strain first with dotted notes, then with triplets.
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+f |\
+e>Ac>A e>Ad>f | e>Ac>A B>cd>f |\
+e>Ac>A c>de>a | f>dB>e c<AA>f |
+(3ecA (3cBA (3ecA (3def | (3ecA (3cBA (3B=c^c (3def |\
+(3ecA (3cBA (3cde (3fga | (3fdc (3Bed (3cec A :|
+|: e |\
+a>ec>a A>ae>a | a>ec>a d>aB>g |\
+a>ec>a A>ae>a | f>dB>e c>AA>e |
+(3aed (3cea (3Aca (3cea | (3aed (3cea (3dfb (3Beg |\
+(3aed (3cea (3Aca (3cea | (3fdc (3Bed c<A A H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,35 @@
+X: 21012
+T: the OYSTER GIRL
+O: "Moderate."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.101 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for compact staff layout.
+V: 1 staves=3
+a |\
+(a>b)a f2d | e2c A2c | d2f (ag)f | (f3 e2)a |\
+(a>b)a f2d | d'2b g2b | (ba)f (ag)e | d3- d2 :|\
+f |\
+f2f f2f | f2b f2=f | e2e ef^g | a3- a2a |
+(a>b)a f2d | d'2b gab | (ba)f (ag)e | d3- d2a |\
+(a>b)a f2d | e2c A2c | (de)f (ag)f | (f3 e2)a |\
+(a>b)a f2d | d'2b g2b | a2f age | d3- d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voicew 2,e preserve the original staff layout.
+V: 2
+z |\
+(f>g)f d2d | c2A A2A | A2d (e2d) | (d3 c2)z | (f>g)f d2=c | B2d B2g | f2d e2c |
+d3- d2 :| e | d2d c2e | d2d d2z | c2c d2d | c3- c2z | (f>g)f d2d | b2g d2d | f2d e2c |
+d3- d2z | (f>g)f d2A | c2A A2A | (Ac)d (e2d) | (d3 c2)z | (f>g)f d2=c | B2d Bdg | f2d e2c | d3- d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3
+z |\
+d2d d2d | A2A A2G | F2A (c2d) | A3 A2z | D2D D2F | G2G G2G | A2A A2A |
+[d3D3-] [d2D2] :| c | B2B ^A2A | B2B B2z | =A2A B2B | A3- A2z | d2d d2d | G2G G2G | A2A A2A |
+d3- d2z | D2D D2F | A2A A2G | (FG)A (c2d) | A3- A2z | D2D D2F | G2G G2G | A2A A2A | [d3-D3] [d2D2] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

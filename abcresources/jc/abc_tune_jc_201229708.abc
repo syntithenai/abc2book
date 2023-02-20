@@ -1,0 +1,22 @@
+X: 1282
+T: Johnny McGill.   a Jig.
+%R: jig, air
+B: Niel Gow & Sons "Complete Repository" v.1 p.28 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: Trailing grace notes transcribed as 16th-notes, for software that doesn't understand trailing grace notes.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+f |\
+cAA ~A>GF | cAA A2f | cAA AGA | FDD D2f | cAA ~A>GF | cAA AGF | TG3 AGA | FDD D2 :|
+|: c |\
+Tf3 Tg2f/g/ | afd cAF | Tf3 Tg2f/g/ | afd ~d2f/g/ | afa geg | fde Hf2d | cAF TG2A | FDD D2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z |\
+f3 f3 | f3 f3 | f3 e3 | d3 d3 | f3 f3 | f3 f3 | e3 A3 | d3 d2 :||: z |
+f3 c3 | f3 f3 | f3 e3 | d3 B3 | A3 c3 | f3 Hf2b | a3 A3 | d3 d2 :|

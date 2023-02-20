@@ -1,0 +1,16 @@
+X: 904
+T: O'Connor's Favorite
+R: hornpipe
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #904
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0904/oneill-1001-0904-1.abc
+M: C|
+L: 1/8
+K: D
+"^A"[|]\
+  (3(ABc) | dAFA dfaf | gfef d2A2 | BdAd GdFd | FEED E2 |\
+| (3(ABc) | dAFA dfaf | gfef dcBA | BcdB AGFE | D2D2D2 :|
+"^B"\
+|: (FG) | AFdA fdAF | GABG E3f | gfed cdef | edcB A3 |\
+| A | (3(ded) Ad (3(fgf) df | (3(aba) fd A2f2 | gfed cABc | d2d2d2 :|

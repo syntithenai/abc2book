@@ -1,0 +1,17 @@
+X: 1500
+T: the Linen Cap   #1
+%T: an caipin anairt.
+R: reel
+%S: s:4 b:16(4+4+4+4)
+O: Cronin
+B: O'Neill's "Music of Ireland" 1850 #1500
+Z: John B. Walsh, walsh@math.ubc.ca 8/22/96
+M: C|
+L: 1/8
+K: A
+"^A"[|]\
+   g |  a2(ed) cdec | Bcde fBBg | a2(ed) cdec | dfed cAA ||
+|| g | a2(ed) cdec | Bcde fefg | agae faec | dfed cA A |]
+"^B"\
+[| B | cAEA cdec | Bcde fBBB | cAEA cdec | dfed cAA ||
+|| B | cAEA cdec | Bcde fefg | agae faec | dfed cA A |]

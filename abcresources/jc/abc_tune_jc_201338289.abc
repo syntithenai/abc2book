@@ -1,0 +1,12 @@
+X: 1
+T: The Sleeping Tune
+C: Gordon Duncan
+B: BSFC Session Tune Book 2016 p.75 #1
+R: reel
+M: 4/4
+L: 1/8
+K: Bm
+"^A"|: dc |\
+"Bm"B2 f4 fe | "Bm"e{f}g gf "Em"fecd | "A"e2 e4 ed | e2ed "F#m"efdc | "G"d2 d4 dc |
+"Em"d3 c decB | "A"c2 c4 cB |"F#m(A7)"c3 d ef "^B":: dc | "D"d2 a4 cd | acda "Em"cddB |
+"A"c2 a4 cB | c2cB "F#m"cd2c | "G"B2 a4 BA | "Em"B3A Bc d{c}B | "A"c3B cded | "A7(F#m)"e3 d ef :|

@@ -1,0 +1,18 @@
+X:758
+T:Two Left Feet
+C:Pat Skelton, 1992
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=110
+%%MIDI ratio 3 1
+K:D
+P:A
+"G"G/A/B AG | "D7"FD3 | "G"B=c/d/ "Em"eG | "D7"BA3 | "G"BG "A7"cB/c/ | "D"d2 D2 | "Em"EF/G/ "A7"E>D | "D"D4 |
+P:B
+|: "D"F/G/A dA | "D7"=cB- BA | "G"B4 | "E7"^G/A/B eB | "/"dc- cB | "A"A2 "A7"=G2 |\
+"D"F/E/D "A/C#"GE | "D/B"Ad- "D/A"d2 | "G"B/c/d- "A7"dc | "D"d4 :|
+P:C
+"D"dA "G"BA/G/ | "D"FD3 | "Em"e>d cB | "A7"AG FE | "D"D/E/F "Em"EG | "D/F#"F/G/A "G"GB | "D/A"Ad AF | "A7"E4 |
+P:D
+"D"FA "G"BA/G/ | "D"FD3 | "Em"e>d "E7/G#"cB | "A"A2- "A7"AG | "D"F/G/A "G"GB | "E7"^GB "A"A2 | "G"B/c/d "A7"E>D | "D"D4 |]

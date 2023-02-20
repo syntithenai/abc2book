@@ -1,0 +1,31 @@
+X: 63
+T: When Johnny Comes Marching Home
+C: Louis Lambert
+Q: "With Spirit.
+%R: air, jig, march
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: Bars 1 & 5 have an odd "grace note" that has a syllable in one verse; ABC can't represent it very well.
+M: 6/8
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - -
+"^Solo."G | D2 {G}G G2 A | B2 A B2 "^Chorus."G | F3- F2 D | F3- F3 ||
+w: 1.~When Johnny comes march-ing home a-gain, Hur-rah,* hur-rah!*
+w: 2.~The old church-bell will peal with joy,  Hur-rah,* hur-rah!*
+w: 3.~Get read-y for the Ju-bi-lee,            Hur-rah,* hur-rah!*
+%
+"^Solo."G | D2 {G}G G2 A | B2 A B2 "^Chorus."c | d3- d2 B | d3- d2 ||
+w: We'll give~him a heart-y wel-come then,  Hur-rah,* hur-rah!*
+w: To wel-come home our dar-ling boy,      Hur-rah,* hur-rah!*
+w: We'll give the he-ro three times three; Hur-rah,* hur-rah!*
+%
+"^Solo."B/c/ | d2 d dc B | c2 c c2 A | B2 B BA G | A2 A A ||
+w: the* men wil cheer,* the boys will shout, The la-dies, they* will all turn out
+w: The* vil-lage lads* and las-sies gay      With ro-ses they* will strew the way,
+w: The* lau-rel wreath* is read-y now        To place up-on* his loy-al brow,
+%
+|: "^Chorus."B c "^Repeat ad lib."| d3 c3 | B3 A3 | D G G G2 ^F | G3- G :|
+w: And we'll all feel gay, When John-ny comes march-ing home.*
+% - - - - - - - - - - - - - - -

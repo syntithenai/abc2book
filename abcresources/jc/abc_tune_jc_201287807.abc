@@ -1,0 +1,21 @@
+X:1 %Music
+T:Hornpipe D'Angleterre
+C:Composer: Morlaye
+N:Remarks: guitar book, 1550
+Q:1/4=200
+V:1
+%!STAVE 7 'guitar' :
+%!INSTR 'Piano' 0 0 :
+M:6/4 %Meter
+L:1/8 %
+K:C
+[g6_B6] d2 [f4A4] |[e6G6] d2 c4 |[a2f2c2] e2 f2 g2 a2 _b2 |[a4f4c4] _b2 a2 g2
+f2 |[g6_B6] d2 [f4A4] |[e6G6] d2 c4 |[a4f4c4] c'4 _b4 |[a4f4c4] _b2 a2 g2 f2
+|[g6_B6] d2 [f4A4] |[e6G6] d2 c4 |[a2f2c2] e2 f2 g2 f2 g2 |
+[f2c2] a2 _b2 a2 g2 f2 |[g6_B6] d2 [f4A4] |[e6G6] d2 c4 |f'2 e'2 d'2 e'2 f'2
+e'2 |f'4 _e'2 d'2 c'2 _b2 |[a4f4c4] _b2 a2 g2 f2 |[g6_B6] d2 [f4A4] |[e6G6] d2
+c4 |[a2f2c2] e2 f2 g2 f2 g2 |A2 a2 _b2 a2 g2 f2 |
+_B2 a2 b2 a2 g2 f2 |G2 f2 g2 f2 g2 e2 |[a2f2c2] e2 f2 g2 f2 g2 |A2 a2 _b2 a2
+g2 f2 |_B2 a2 b2 a2 g2 f2 |G2 f2 g2 f2 g2 e2 |[a2f2c2A2] e2 f2 g2 a2 _b2
+|[c'4c4] _b2 a2 g2 f2 |[g6_B6] d2 [f4A4] |[e6G6] d2 c4 |
+[a2f2c2] e2 f2 g2 a2 _b2 |[c'6e6c6G6] _b2 a2 g2 |[a12f12c12A12] |]

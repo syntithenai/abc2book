@@ -1,0 +1,62 @@
+
+X: 1
+T: Duncan Davidson
+R: strathspey
+B: Kerr's
+B: BSFC XXXI-14
+B: BSFC Session Tune Book 2016 p.45
+S: B.McO. 6/73,10/03
+M: C
+L: 1/8
+K: D
+"A1"[| F \
+| "D"D>F A>B A<F A<d | "D"D>F d>B "A7"A>F E>F \
+| "D"D>F A>B "Bm"A<F A>g | "Em"f>d "A7"e>f "D"d<d d ||
+"A2"[| F \
+| "D"D>F A>B A<F A<d | "D"D>F d>B "G"B/A/G/F/ "A7"E>F \
+| "D"D>F A>B "Bm"A<F A>g | "Em"f>d "A7"e>f "D"d<d d |]
+"B1"[| g \
+| "D7"f>e (3def "G"g>f e>d | "A7"c<A e<A f<A e>g \
+| "D7"f>e (3def "G"g>f e>d | "A7"c>d e>g "D"f<d d ||
+"B2"[| g  \
+| "D7"f>e (3def "G"g>f e>d | "A7"c<A e<A c>d e>g \
+| "D"f<d "A"g<e "Bm"a<f b>g | "Em"f>d "A7"e>f "D"d<d d :|
+
+
+X: 1
+T: Ciaran Tourish's Reel
+M:2/2
+L:1/8
+C:Jerry Holland & Dougie MacDonald
+S: BSFC Tune Book XXXI-14
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+R:Reel
+K:D
+fg |:\
+"D"a2fa "A7"g2e[gc] | "D"fd~d2 "D7"dAFA | "G"BG~G2 "A7"cAAg | "D"faaf "A7"g{f}ece |
+"D"a2fa "A7"g2e[gc] | "D"fd~d2 "D7"dAFA | "G"BG~G2 "A7"cAAe | "A7"fage "D"d2 :|
+|: [ec]d |\
+"A7"[ce]aaf gfed | "A7"caaf g2fg | "D"ad~d2 agfg | "D"abaf "Em7"gfed |
+"A7"caaf gfed | "A7"caaf g2fg | "D"abaf "Em7"gecd | "A7"eddc "D"d2 :|
+
+
+X: 1
+T: Gillis Favorite
+T: "Traditional Reel"
+C: trad
+R: reel
+B: BSFC Session Tune Book 2016 p.45
+S: Boston Harbor Fiddle School via Barbara McOwen
+S: Hanneke Cassel BH10
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+"A7"zfg |\
+"D"ab{b}af dfaf | "G"bg g/g/g {ga}g2ef |\
+"A7"gage cege | "D"ba a/a/a a2fg |
+"D"ab{b}af dfaf | "G"bg g/g/g {ga}g2"Em"ef |\
+"A7"gage cbag | "D"fd d/d/d d :|
+|: b "A7"ag |\
+"D"fd d/d/d "C"g=c c/c/c | "D"fd d/d/d d2"C"(=cB) |\
+"D"Ad d/d/d "C"=cdBc | "D"Ad d/d/d d :|

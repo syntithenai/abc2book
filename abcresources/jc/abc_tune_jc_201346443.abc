@@ -1,0 +1,27 @@
+X: 1
+T: a Trip to Georgia
+%R: waltz
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (92)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the dance instructions.
+M: 3/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+C |\
+EGG | GcB | AFF | F2c |\
+FcF | EcE | C_BA | G2c |\
+AFF | Acc | ECE/F/ | G2c |
+FdF | ECc | ECC | C2 |]\
+|: e |\
+dag | ecc | Fde | f2g |\
+cac | BGg | BGB | c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st and 2d Cu. foots it then clap hands foot it again
+%% clap as before the 1st Cu. cast off .| the 1st Cu. cast up
+%% again then cast down to the Bottom and turn .| then cast
+%% up at top and cast in the 2d Cu. place and turn :|
+%%endtext
+%%sep 1 8 500

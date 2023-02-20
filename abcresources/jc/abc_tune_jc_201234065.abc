@@ -1,0 +1,26 @@
+X: 20234
+T: le GOBELIN VALSE
+C: Copyright.--J. Warden.
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.23 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: It's not clear whether the Ds in bar 26 are natural or flat.
+M: 3/4
+L: 1/8
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+a2z2za/g/ | f2z2ze/g/ | f2Acf2 | efgec2 |\
+a2z2za/g/ | f2((3Acfa2) | b2z2z(b/a/) | gagfed |\
+caf2ca | ga(b4 | b2a2)g2- | gfegf2- |\
+f2e2d2 | c(de)(fg)(a2 | b2)z2e2 | f2z2 |]
+[K:Bb]\
+"^pia."e2 |\
+d2d2d2 | d2d2d2 | d4(cd) | B4(AB) |\
+c2c2c2 | {d}c2B2c2 | "^for."d2z2"^>"b2 | "^sf."B,2z2C2 |\
+"^pia."_D2D2D2 | D2D2D2 | D2F2A2 | c2f2a2 "^for."|\
+"_>"b4(gb) | "_>"a4fa | "_>"g4=eg | "_>"f2z2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,35 @@
+X: 10861
+T: COTILLION No. 9. tune 1
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.86 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+B>AB d>cB | {B}AGF B2F | BAG FED | CcB AGF |\
+AAA BG=E | FAc d2B | A2F ccc | AFF F2 H|]
+F |\
+F>GA BdB | {c}BAG F2F | F>GA BdB | {c}BAG F2F |\
+FdB {B}AGF | FdB {B}AGF | B2F Bcd | c2F cde |
+d2B f2f | d2B f2d | .c(cd) .c(cd) | .c(cd) c2F |\
+FdB {B}AGF | FdB {B}AGF | B2B {d}cBc | d2B {c}BAG |
+F2D EDC | B,DF BAG | F>Bd {d}c>Bc | d2B B2F |\
+FdB AGF | Bdf bag | f>ed (c<f)A | (cB)B "^D.C."B2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% 4 forward and back,
+%% 2 gentlemen cross over,
+%% turn each other's partners,
+%% chassa the ones you turn,
+%% alamand with the ones you chassa,
+%% forward 4,
+%% swing partners to place,
+%% next 2, &c.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

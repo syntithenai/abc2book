@@ -1,0 +1,22 @@
+X: 30392
+T: TRIUMPH WALTZ No. 2.
+C:
+%R: waltz
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.39 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Shortened the initial pickup notes to fix the rhythm and match the following meastures.
+M: 3/8
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G>G |\
+"^>"c4 G>c | e4 c>e | g2e2c2 | G4 G>d |\
+f2d2 G>e | g2e2 g>g | bagfed | c4 :|\
+|: G2 |\
+g6- | {a}g2^f2g2 | e2gggg | (g2f2).e2 |
+f6- | {g}f2e2f2 | d2ffff | f2e2d2 |\
+e4 g>a | (g2f2).e2 | a>g a>g a>g | a2g2f2 |\
+e4 d>e | g2f2d2 | c2c2c2 | c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

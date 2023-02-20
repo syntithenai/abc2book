@@ -1,0 +1,19 @@
+X: 2001
+T: an Entry.
+%R: march
+B: Henry Playford "Apollo's Banquet", London 1687 (5th Edition)
+F: https://archive.org/details/apollosbanquetco01rugg
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The last bar has 5 1/4 notes; not fixed.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - -
+[|\
+g3(f/e/) d3(c/B/) | A>BA>G G3g |\
+g>ea>g f3(g/f/) | e>dd>^c d3a |\
+a>fb>b b3(a/g/) | f>gf>e ^d3e |
+f>ef>g B2g>a | f>ee>^d e3d |\
+^c(B/A/) d>d d3c | B(A/B/) c>c c3d |\
+e>fg>B A>GF>B | c(B/A/) A3G G4 |]
+% - - - - - - - - - -

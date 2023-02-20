@@ -1,0 +1,21 @@
+X: 1
+T: Balmoral Castle
+C: J.S.Skinner
+%date: 1904
+B: BSFC IV-19
+Z: John Chambers <jc:trillian.mit.edu>
+R: march
+B: Caledonian Companion, p.124 (with 2 variations by Skinner).
+B: Harp and Claymore, p. 27 (with 2 variations by Skinner).
+M: 2/4
+L: 1/8
+K: A
+E |\
+"A"{G}A2 c>A | EA CE | "Bm"{C}D2 B>A | "E7"A/G/F/E/ FG |\
+"A"{G}A2 c>A | EA CA, | "D"D/E/F/D/ "E7"B,G | {G}A3 :|
+e |\
+"A"{g}a2 ef/g/ | ae cA | "Bm"{C}D2 B>A | "E7"A/G/F/E/ ef/g/ |\
+"A"{g}a2 ef/g/ | ae cA | "D"D/E/F/D/ "E7"B,G | {G}A3 |]
+e |\
+"A"{g}ag/f/ ef/g/ | ae cA | "Bm"{C}D2 B>A | "E7"A/G/F/E/ FG |\
+"A"{G}A2 c>A | EA CA, | "D"D/E/F/D/ "E7"B,G | {G}A3 |]

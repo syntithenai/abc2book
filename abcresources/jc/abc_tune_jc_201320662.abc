@@ -1,0 +1,100 @@
+% otce-nash.abc
+%
+% Typeset this file with the following command:
+% abcm2ps otce-nash.abc -O otce-nash.ps
+%
+% This edition is formally not complete, as it needs more
+% decorations currently not supported by abcm2ps.
+%
+%%topspace       1.5cm
+%%titlefont      Helvetica-Bold 18
+%%subtitlefont   Helvetica-Bold 14
+%%composerfont   Helvetica 12
+%%composerspace  0.7cm
+%%musicspace     1.5cm
+%
+X: 1
+T: Otce Nash
+T: (Pater Noster)
+C: Nikolaj Kedrov Sr.
+M: none
+Z: Edited by Guido Gonzato, 11 October 2000
+L: 1/4
+Q: "Adagio, " 1/4=40 % broken? in abcm2ps
+K: C
+%%staves [ 1 2 3 4 ]
+V: 1 clef=treble name="Soprano" sname="S"
+V: 2 clef=treble name="Alto"    sname="A"
+V: 3 clef=treble name="Tenor"   sname="T"
+V: 4 clef=bass   name="Bass"    sname="B"
+%
+V: 1
+E2 E E4 | E E E E E E E  E4    | F F F F G2 G G G2     |
+w: ot- ce nash, ie scio ie ti na nie be sah, da sfia ti za i mia tva io
+V: 2
+C2 C C4 | C C C C C C C C2 B,2 | B, B, B, B, D2 C C C2 |
+w: ot- ce nash, ie scio ie ti na nie be sah, * da sfia ti za i mia tva io
+V: 3
+G2 G G4 | G G G G G G G G4     | G G G G G2 G G G2     |
+w: ot- ce nash, ie scio ie ti na nie be sah, da sfia ti za i mia tva io
+V: 4
+c2 c c4 | c c c c c c c d4     | d d d d e2 e e e2     |
+w: ot- ce nash, ie scio ie ti na nie be sah, da sfia ti za i mia tva io
+%
+%
+V: 1
+G G G G G2 F F E HF4  | F F2 F2 F2 E G D2 D2   | D D D E F2 |
+w: da pri i tiet zarst svi- et va- io da bu- diet vo lia tva-ia ia ka na nie be si
+V: 2
+C C C C C2 C C C HC4  | C C2 C2 C2 C C B,2 B,2 | B B B C C2 |
+w: da pri i tiet zarst svi- et va- io da bu- diet vo lia tva-ia ia ka na nie be si
+V: 3
+G G c _B B2 A A G HA4 | A A2 A2 A2 G G G2 G2   | G G G G A2 |
+w: da pri i tiet zarst svi- et va- io da bu- diet vo lia tva-ia ia ka na nie be si
+V: 4
+e e e e f2 f f f Hf4  | f f2 e2 d2 e e g2 g2   | g g g e d2 |
+w: da pri i tiet zarst svi- et va- io da bu- diet vo lia tva-ia ia ka na nie be si
+%
+%
+V: 1
+E D2 C2 D2   | E2 E E E E F2 F F2 F F G2     | G G G G G2 F2 F2    |
+w: i na zsem li. Chliep nash na su shi dash nan nie i a sta vi nam dal- ghi na scia ia
+V: 2
+C B,2 C2 B,2 | C2 C C C C C2 B, B,2 B, B, D2 | C C C C C2 C2 C2    |
+w: i na zsem li. Chliep nash na su shi dash nan nie i a sta vi nam dal- ghi na scia is
+V: 3
+G G2 A2 G2   | G2 G G G G G2 G G2 G G G2     | G G c _B B2 A2 A2   |
+w: i na zsem li. Chliep nash na su shi dash nan nie i a sta vi nam dal- ghi na scia ia
+V: 4
+e g2 a2 g2   | c2 c c c c d2 d d2 d d e2     | e e e e f2 (f e) d2 |
+w: i na zsem li. Chliep nash na su shi dash nan nie i a sta vi nam dal ghi na scia- * ia
+%
+%
+V: 1
+F E G D2 D E F2   | F F F (E2 C) (D2 C2) D      | E E E |
+w: ka ie im ghi a sta vlia em dal ji da- am na - scim i nie ve
+V: 2
+C C C B,2 B, C C2 | C C C (C2 A,) (B,2 A,2) B,2 | C C C |
+w: ka je im ghi a sta vlia em dal ji da- am na - scim i nie ve
+V: 3
+G G G G2 G G A2   | A A A G3 (G E) G            | G G G |
+w: ka je im ghi a sta vlia em dal ji dam na- * scim i nie ve
+V: 4
+d e e g2 g e d2   |d d d e3 g2 g2               | c c c |
+w: ka je im ghi a sta vlia em dal ji dam na- scim i nie ve
+%
+%
+V: 1
+(E2 G2) c c B A G2 F2 E2   | D D G2 D G  | C D E4 E2 E4        |]
+w: di- * nas vo is ku sce ni e no iz ba vi nas at lu ka va ga.
+V: 2
+E4 E E E F (G C) (C B,) C  | C C C2 C C  | C C (C2 A,2) B,2 C4 |]
+w: di nas vo is ku sce- * ni- * e no iz ba vi nas at lu ka * va ga.
+V: 3
+c4 c c c c (c G) G2 G2     | A A G2 A G2 | A A (G2 E2) G2 G4   |]
+w: di nas vo is ku sce- * ni- e no iz ba vi nas at lu ka- * va ga.
+V: 4
+(c'2 b2) a a g f e2 d2 c2  | f f e2 f e2 | f f c4 g2 c4        |]
+w: di- * nas vo is ku sce ni e no iz ba vi nas at lu ka va ga.
+%
+% End of file otce-nash.abc

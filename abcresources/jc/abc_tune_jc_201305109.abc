@@ -1,0 +1,24 @@
+X:1
+T:MacGregor's Favourite
+M:6/8
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+|: e | \
+A2{GdGe}A{g}A3/2B/2{GdG}c | \
+{g}B3/2{d}c/2{e}A{gBG}B2{d}c | \
+{g}A2{GdGe}A{gAGAG}A2a |
+{fg}f2e{g}f3/2g/2aA2{GdGe}A{g}A3/2B/2{GdG}c | \
+{g}B3/2{d}c/2{e}A{gBG}B2{gf}g | \
+a2{GdG}a{fg}f3/2e/2c |
+{g}A2{GdGe}A{GAG}A2 :: \
+f | \
+{gef}e3/2c/2{G}ca3/2c/2{G}c | \
+{g}B3/2{d}c/2{e}A{gBG}B2f |
+{gef}e3/2c/2{G}ca3/2c/2{G}c | \
+{gfg}f2e{g}f3/2g/2a{gef}e3/2c/2{G}ca3/2c/2{G}c | \
+{g}B3/2{d}c/2{e}A{gBG}B2{gf}g |
+a2{GdG}a{fg}f3/2e/2c | \
+{g}A2{GdGe}A{GAG}A2 :|

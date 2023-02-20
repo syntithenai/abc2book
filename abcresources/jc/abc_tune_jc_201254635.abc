@@ -1,0 +1,21 @@
+X: 1
+T: The Bonnie Pit Lad
+R: jig
+M: 6/8
+L: 1/8
+N: Fixed several notes with obviously wrong lengths, in bars 7, 8 and 12.
+N: These all appear to be omitted flags and an extraneous beam.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Anonymous manuscript tune book (1800-1840) p.21
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: d
+A |\
+dfd cAc | dfd cAc | e3 c2A |\
+dfd cAc | def ged | d3 D2 ||
+A |\
+def g2e | f2d faf | e3 c2A |\
+def gfe | faf gec | d3 D2 ||
+A |\
+dcB AGF | GAB cAc | e3 c2A |\
+dcB AGF | GAB Adc | d3 D2 |]

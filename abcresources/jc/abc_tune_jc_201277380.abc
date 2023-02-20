@@ -1,0 +1,17 @@
+X: 767
+T: the Four-Hand Reel
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #767
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0767/oneill-1001-0767-1.abc
+M: C|
+L: 1/8
+K: G
+"^A"[|]\
+(3(DEF) !segno!\
+|| G2(BG) dGBG | FADA FADA | G2(BG) dGBd | egfa gedB \
+|| G2(BG) dGBG | FDAD BDAD | G2(BG) dGBd | egfa g2Hg2 |]
+"^B"
+[| gdBd edBd | gabg fdef | gdBd edBd | egfa g2g2 \
+|| gabg efge | dedc BGBd | efed edBd | egfa ged!segno!B |]

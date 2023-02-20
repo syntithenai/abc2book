@@ -1,0 +1,20 @@
+X: 20792
+T: the MADRIGAL
+Q: "Lively."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.79 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+c2c {d}cBA | G2G G2c |\
+A2d {c}BAB | c2c c2 :: c |\
+d2f e2c | {c}BAB c2c |\
+d2f e2c | {c}BAB c2e/c/ |\
+A2A cBA | G2G G2G |\
+c2c edc | g2g Hg2e/c/ |\
+A2d {c}BAB | c3 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

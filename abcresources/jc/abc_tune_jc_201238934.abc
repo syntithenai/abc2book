@@ -1,0 +1,20 @@
+X: 3162
+T: the Laird of Mackintoshs Strathspey
+%R: strathspey, air
+B: Niel Gow & Sons "Complete Repository" v.3 p.16 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+B/c/ |\
+~d2 B>g d<GB>G | F<DA>D FAA B/c/ | ~d2Bg dGBG | F<D A<c BGG B/c/ || ~d2B>g d>GB>G |
+F<DA>D FAA B/c/ | Td>cBg ec AG | FDFA BGG2 |[| d<g Tg>f e<aeg | f>def (g/f/g/a/) gb | d<g Tg>f e<a eg |
+fa df Tg2g g/f/ || g<bf<a e<g d>B | c<e B<d A>Bce | Td>cdg ec AG | FDFd G2G |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g2G2 B2G2 | d2d2 d2dz | g2G2 B2G2 | d2D2 G2Gz || g2G2 B2G2 |
+d2d2 d2dz | G2G2 c2^c2 | d2d2 G2G2 |]| G2B2 c2^c2 | d2d2 g2g2 | G2G2 c2c2 |
+d2d2 G2Gz || g2d2 e2B2 | c2G2 A2A2 | G2G2 c2c2 | d2D2 G2G |]

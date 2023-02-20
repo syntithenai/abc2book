@@ -1,0 +1,87 @@
+
+X: 2
+T: Folding Down the Sheets
+O:Trad Appalachian
+S:Rayna Gellert http://www.youtube.com/watch?v=TrweiTxfVgQ
+S:http://info.therealschoolofmusic.com/Default.aspx?app=LeadgenDownload&shortpath=docs%2ffolding+down+the+sheets-gellert.pdf
+R:reel
+Z:2011 John Chambers <jc:trillian.mit.edu>
+M:2/4
+L:1/16
+K:D
+eg | fedd edcA | [dA]-BA[FD] {E}F2A[AF] | GGBG AGFD | ^D-E2C =D2 :| z2 |
+|: [e3A3]g fedd | edef {f}a3f | edcB A2[eA]g | f{g}fec {c}d2-d2 :|
+%%text Also played as 32-bar reel, each part 4 times.
+
+%%sep 1 1 500
+
+X: 1
+T: Railroad Runs Thru Georgia
+M:C
+L:1/8
+R:Reel
+N:AEae tuning
+S:Tom Sauber
+N:From a transcription by John Lamancusa, by permission
+F:See http://www.mne.psu.edu/lamancusa/tunes.htm
+Z:AK/Fiddler's Companion
+K:A
+cB |\
+A2 c2e3A | c2(e4e)(e | f)afe d2f2 | e3f e2cB | A2c2e3e | c2(e4 e)(e |
+f)afe defg | abaf e2c2 | e3f e2 |: cB | A2 Ac BABA | c2(A2A2)EF | A2 AcBc B2 |
+A3B A2EF | A2 Ac BABA | c2e2c2e2 | efec B2c2 |1 A3B A2EF :|2 A3BA2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Red Steer
+S: John Dykes Red Steer.mp3 - Jeff Goehring
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+[|\
+e2a2 abaf | e2a2 a2cd | e2a2 abaf | e2c2 B2A2 |\
+A2a2 a2a2 | b2a2 a2f2 | e2a2 abaf | e2c2 B2A2 |]
+[|\
+c2c2 d2fd | ec2c B2B2 | ABcc defd | e2c2 B2A2 |\
+c2c2 d2fd | ec2c B2B2 | Ac2c defd | e2c2 B2Ac |]
+[|\
+e2c2 e2c2 | e2c2 B2Bc | e2c2 e2c2 | e2c2 B2Ac |\
+e2c2 d2f2 | ec2c B2cB | ABcd efec | e2c2 B2A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Road to Malvern
+C: Jim Childress
+N: as played by Light and Hitch
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+cd |\
+efed cBAc | BAcA EFEF | [AF]AAF E2AB | cBAc [B2E2]ee- | [ee]fed cBAc | BAcA EFEF |
+AFAF E2AB | cABc [AF]A :: AB | cBAA EFA2 | ^AB2=A [B2E2]AB | cBA2 [=f2c2][^f2d2] | [eB]c2f [e2c2]AB |
+cBAA EFA2 | ^AB2=A [B2E2]AB |1 cABc [AF]AAB :|2 cABc [AF]Acd | cABc A4- | A8 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Ways of the World  [D]
+O: Luther Strong, Kentucky
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+F: http://www.abbamoses.com/fiddledo/waysoftheworld.pdf
+M: C|
+L: 1/8
+K: D
+|: cB |\
+ABde f2f2 | edBd A2A2- | ABde f2a2 | e3f e2A2- |
+ABde f2f2 | edBd A2AB  | A2F2 EF2E | D6 :|
+|: AB |\
+A2FF A3B | A2 F4 AB | A2FF EF2E | D2A2- A3B |
+A2FF A3B | A2 F4 DE | EFED EF2E | D6 :|
+

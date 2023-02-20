@@ -1,0 +1,152 @@
+X: 1
+T:Lollipop Man, Ducklington
+M:4/4
+L:1/8
+A:Ducklington
+P:A(AB3)3A
+K:G
+P:A
+BA|G<BD2 D2 DE |G2G2 G4 |BA GA  B2 AG |B2E2 E2BA|
+G<BD2 D2 DE |G2G2 G3d|e>de>f g2 dc |B2G2 G2 ||
+P:B
+BA|d4    g>fe>g|B2d2 d4 |A>GA>B c>BA>G|B2E2 E2BA|
+G<BD2 D2 DE |G2G2 G3d|e>de>f g2 dc |B2G2 G2 ||
+
+X: 2
+T:Old Taylor, Ducklington 1
+M:4/4
+L:1/8
+A:Ducklington
+P:A(AB3C3)2(AB3D3)A
+K:G
+P:A
+|: d>dd>c Bcd2|B>cB>c ABG2|d>dd>c Bcde|dBcA G2G2:|
+P:B
+|  GABc   d2d2|efge   d2c2|e3d    c2e2| d4 d2|
+P:C
+gf|e2c2   cdef|d2B2   Bcde|c2A2   ABcA|B2G2 G2B2 |\
+   cBAG   FGAB|G4 G2:|
+P:D
+  g2f2   e4  |c4 c2d2|e2f2 d4  |B4 B2c2 | d2e2 c4  |
+  A4 A2B2|c2A2 B4  |G4 G2B2 |cBAG FGAB|G4 G4|]
+
+X: 3
+T:Old Taylor, Ducklington 2
+M:4/4
+L:1/8
+A:Ducklington
+P:A(AB3C3)2(AB3D3)A
+K:D
+P:A
+|: A2A>G  F>GA2| G2F>G  E>FD2 |A2A>G F2FB  |A>GF>E D4:|
+P:B
+D>EF>G A2A2|d>cd>B A2d2|B3A GFGA  | B4 A2|
+P:C
+d>c|B2G2   G>AB>G|A2F2   F>GA>F|G2E2  E>FG>E|F2D2 D2A>G|\
+F3D    E2C2  |D4 D2:|
+P:D
+d3c    B4    |G4     G3A   |B3G   A4    |F4   F3G  |\
+A3F    G4    |E4     E3F   |
+G3E   F4    |D4   D2A>G| F3D    E2C2  |D4     D4   |]
+
+X: 4
+T:Nutting Girl, Ducklington
+M:4/4
+L:1/8
+A:Ducklington
+P:A(AB)2CB
+K:G
+P:A
+D2|G2B2 B2d2|d2c2 cBcA|G2Bc  d2g2|d4   d2B2|
+cdec A2c2|BcdB G2AB|c<dcA G2F2|G6       ||
+P:B
+d2|g2g2 gefg|f2d2 d2d2|g2g2  gefg|g6   d2  |
+g2g2 gefg|f2d2 d2B2|A2B2  c2d2|e2fe dcBA|
+G2B2 B2d2|d2c2 cBcA|G2Bc  d2g2|d4   d2B2|
+cdec A2c2|BcdB G2AB|c<dcA G2F2|G6       ||
+P:C
+D4|G4   B4  |B4   d4  |d4   c4  |\
+M:3/4 L:1/8
+c4   cA  |
+M:4/4G2Bc d2g2|
+M:6/4
+L:1/8
+d4 d4 B4 |\
+M:4/4
+c2d2 e2c2| A4 c4|\
+B2c2 d2B2|
+M:3/4
+L:1/8
+G4 AB  |\
+M:4/4
+c<dcA G2F2|\
+G4 G2    ||
+
+X: 5
+T:Princess Royal, Ducklington
+M:4/4
+L:1/8
+A:Ducklington
+P:A(AB)2CB
+K:Gm
+P:A
+d>c|B2A>B G2d>c |B2A>B  G2c>d|  e2c2   c>de>c|d2B2 B2d2|
+c2B2  A2G2  |F>GF>E D2d2 |(3BcB AG A2F2  |G4   G4  ||
+P:B
+K:Dmd2c2  d2ee  |f2F2   F4   | f2e2    d2cB  |A2G2 G4  |
+F2G2  A4    |B2c2   d4   | c2A2    B4    |A2D2 G4  |
+F2E2  D2FG  |A2D2   D2AG |(3FGF ED E2C2  |D4   D4  ||
+P:C
+A3G|F4 EF3|D4 A3G |F4 EF3 |
+M:3/4 L:1/8
+D4 GA |
+M:4/4\
+=B2G2 G>AB>G|
+M:6/4
+L:1/8
+A2F2  F4 A4 |\
+M:4/4
+F4 E4 |D4 F2G2|A4 D4 |
+M:3/4
+L:1/8
+D4 AG|
+M:4/4
+(3FGF ED E2C2|D4 D4 ||
+
+X: 6
+T:Jockey to the Fair, Ducklington
+M:6/8
+L:1/8
+A:Brackley
+P:A(AB)2CB
+K:G
+P:A
+D|G2A B2c|d2g d2c|BdB GFG |AcB A2D|
+G2A B2c|d2g d2g|fed Ad^c|d3  d2 ||
+P:B
+d|g2g d2d|cBc B2d|g2g d2d |cBc Bcd|
+e2f gfe|d2c Bcd|edc B2A |GBG E2F|
+G2G GBd|e3  d2g|edc B2A |GBG E2F|\
+G2g BcA|G3  G2||
+P:C
+z|\
+M:1/2
+L:1/8
+D4|\
+M:2/2
+L:1/8
+G4  A4  |B4  c4  |d4  g4  |\
+M:5/8
+d4  c   |\
+M:6/8
+BdB GFG |AcB A3  |\
+M:1/2 L:1/8
+D4      |\
+M:2/2
+L:1/8
+G4  A4  | B4  c4  |
+d4  g4  |\
+M:5/8
+d4  g   |\
+M:6/8
+fed Ad^c|d3  d2 ||

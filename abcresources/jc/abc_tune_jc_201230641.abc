@@ -1,0 +1,19 @@
+X:1404
+T:The Crooket Horned Ewie
+P:The Crooket Horned Ewie
+C:Traditional (Gow 1799)
+R:Strathspey (8x32)
+B:RSCDS 14-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:A
+% %scl 0.85
+E|"A"E<A A>B "E7"E>A B>G|"A"E<A A>c "Bm"d>B "A"c>A|\
+  "D"d>c B>A "E7"G>A B>G|"A"E<A A>c "E7"B>G "A"A E|
+  "A"E<A A>B "E7"E>A B>G|"A"E<A A>c "Bm"d>B "A"c>A|\
+  "D"d>c B>A "E7"G>A B>G|"A"E<A A>c "E7"B>G "A"A||
+d|"A"c<e e>f d>e "Bm"d>B|"A"c<e e>f =g>e a2|\
+  "G"=g>a ge dB =G>B|"A"E>A A>c "E7"B>G "A"A d|
+  "A"c<e e>f d>e "Bm"d>B|"A"c<e e>f =g>e a2|\
+  "G"=g>a ge dB =G>B|"A"E>A A>c "E7"B>G "A"A|]

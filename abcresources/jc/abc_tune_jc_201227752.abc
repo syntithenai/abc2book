@@ -1,0 +1,32 @@
+X: 10962
+T: COTILLION No. 14. tune 2
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.96 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain has only 7 bars.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+F2A2F2A2 | cBAB G2EF | G2B2G2B2 | dc=Bc A2F2 |\
+gfef d2B2 | gfef c2A2 | fefd cBAG | F2A2F2 H|]
+EF |\
+G2GA G2G2 | c6 de | gfef dfaf | fedc c=BAB |\
+G2GA G2G2 | c6 de | fedc =BcdB | cdc_B ABA"^D.C."G |]
+A2 |\
+a4 gfed | ^cdef g2G2 | g4 fedc | =Bcde f2d2 |\
+c6 d=B | c2d=B c2dB | cdB_c ABG"^D.C."A |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 forward and back,
+%% back to back,
+%% balance,
+%% turn partners,
+%% grand chain,
+%% promenade 8,
+%% sides the same.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,24 @@
+X: 1312
+T: This is not my ain House Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.31 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat symbol; fixed to not repeat (giving 16 bars).
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+G |\
+TF<A D<a {g}f2e>d | (B/c/d) TA>F BE-E>G |\
+F<A D<a {g}f2e>d | (B/c/d) {B}TA>F AD-D :|\
+G |\
+(F/G/A) D>A (F/G/A) TB>A | (F/G/A) D>f eE-E>G |
+(F/G/A) D>A (F/G/A) TB>A | (B/c/d) (c/d/e) dD-D>G ||\
+(F/G/A) D>A (F/G/A) TB>A | (F/G/A) D>f eE-Eg |\
+a<fg<e f<de<c | d>BTA>F AD-D |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d2d2 d2d2 | g2f2 e2e2 | d2d2 d2d2 | g2a2 d2d :| z | d2d2 d2d2 | d2d2 
+e2e2 | d2d2 d2d2 | g2a2 d'2d2 || d2d2 d2d2 | d2d2 e2e2 | d2e2 f2g2 | a2A2 d2d |]

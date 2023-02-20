@@ -1,0 +1,16 @@
+X: 58
+T: the Parting Glass   #2
+R: air
+%S: s:3 b:16(4+4+4)
+B: O'Neill's 1850 #58
+Q: "Slow"
+O: F.O'Neill
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+M: C
+L: 1/8
+K: A
+"^A1"[|] (e>d) | c2(B>c) A2(AB) | (cd)(ec) d2(c>d) | e2a>f =gf(ed) | c2A2 G2 |]
+"^A2"[|  (e>d) | c2(B>c) A2(AB) | (cd)(ec) Hd2(c>d) | e2a>f (=gf)(ed) | c2A2 "^fine"A2 |]
+"^B" [|  (e>f) | (=gf)(ga) (gfed) | e2a2 a2(ba) | (=gfed) (cB)(de) | e2=G2 "->A2"G2 |]

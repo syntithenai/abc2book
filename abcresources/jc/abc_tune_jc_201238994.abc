@@ -1,0 +1,16 @@
+X: 31941
+T: VERMONT HORNPIPE
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.194 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Fixed wrong lengths of pickup notes to part 2.
+N: Added missing triplet notation in bar 12.
+M: C|
+L: 1/8
+K: D
+(uFE) | DFAF DFA,F | EGAG EGA,G | FAdF GBec | Adfd cAGE |
+DFAF DFA,F | EGAG EGA,G | FAdF GBec | d2d2 d2 :|
+|: (ucd) |\
+ecAc EAce | fdAd FAdf | g2(fg) efdf | ((3edc) ((3dcB) ABcd |
+ecAc EAce | fdAd | FAdf | gbag fedc | d2d2 d2 :|

@@ -1,0 +1,17 @@
+X: 20141
+T: WE'RE A' NODDIN
+Q: "Mod.o"
+%R: march, reel
+B: "Edinburgh Repository of Music" v.2 p.14 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+N: Changed length of each strain's last note to fix the rhythm.
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+(de) |\
+f4 (e2d2) | .e2.e2 (fe).d.e | f4 (e2d2) | (fe).d.c d2(de) |\
+f4 (e2d2) | .e2.e2 (fe).d.e | f4 e2d2 | (fe).d.c d2 |]
+(fg) |\
+.a2.a2 a2(d'b) | .a2.a2 a2(fg) | a2aa (ad').a.a | (ba).g.f e2(de) |\
+f4 e2d2 | .e2.e2 (fe).d.e | f4 e2d2 | (fe).d.c d2 |]

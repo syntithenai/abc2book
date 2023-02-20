@@ -1,0 +1,38 @@
+X:1
+T: Sadler's Wells
+N:20 February 2004
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:Am
+I:speed 170
+%W: A1
+% voice 1 (1 lines, 21 notes)
+K:Am
+M:6/8
+L:1/16
+A2 E2 c2 B2 E2 d2 c2 B2 A2 ^G4 E2 A2 E2 G2 C2 F2 E2 D2 E2 F2 E6 |
+%W:
+% voice 1 (1 lines, 21 notes)
+G2 E2 B2 B2 ^F2 G2 A2 ^F2 E2 ^D4 B,2 E2 c2 A2 B2 e2 E2 B,2 G2 ^D2 E6 |
+%W: A2
+% voice 1 (1 lines, 21 notes)
+A2 E2 c2 B2 E2 d2 c2 B2 A2 ^G4 E2 A2 E2 G2 C2 F2 E2 D2 E2 F2 E6 |
+%W:
+% voice 1 (1 lines, 21 notes)
+G2 E2 B2 B2 ^F2 G2 A2 ^F2 E2 ^D4 B,2 E2 c2 A2 B2 e2 E2 B,2 G2 ^D2 E6 |
+%W: B1
+% voice 1 (1 lines, 21 notes)
+E2 G2 E2 c2 G2 E2 A2 F2 E2 D4 E2 F2 D2 B,2 B2 d2 G2 F2 E2 F2 E6 |
+%W:
+% voice 1 (1 lines, 22 notes)
+A2 E2 c2 B2 E2 e2 d2 B2 ^G2 A2 B2 c2 E2 D2 C2 F2 E2 D2 E2 c2 ^G2 A6 |
+%W: B2
+% voice 1 (1 lines, 21 notes)
+E2 G2 E2 c2 G2 E2 A2 F2 E2 D4 E2 F2 D2 B,2 B2 d2 G2 F2 E2 F2 E6 |
+%W:
+% voice 1 (1 lines, 22 notes)
+A2 E2 c2 B2 E2 e2 d2 B2 ^G2 A2 B2 c2 E2 D2 C2 F2 E2 D2 E2 c2 ^G2 A6 ||

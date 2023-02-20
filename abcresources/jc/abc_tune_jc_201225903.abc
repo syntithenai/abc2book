@@ -1,0 +1,25 @@
+X: 10041
+T: JAN and BOB'S REEL
+C: Bob McQuillen 18 April 93
+B: Bob's Note Book 10 #41
+%R: reel
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The extra bar should probably played only at the end, instead of the preceding bar.
+N: You could also play it as the last bar in random repeats of the tune.
+M: C
+L: 1/8
+K: G
+GE \
+| DGBG FGAF | GBdg bgdg | edce dcBG | cBAG FAGE |
+| DGBG FGAF | GBdg bgeg | edce dcBd | ecAF G2 :|
+|: Bd \
+| gbag fdgf | eceg dBGB | cedc Bdge | dBGB AGEG |
+| D2DG ECEG | FGAc BGBd | cedc Bdge | dBAB G2 :| fgaf g2 |]
+%%begintext align
+%% It was good to see Bob
+%% Mills and Jan Drechsler here in Peterborough in February
+%% for the 1st Saturday dance. They live 'way down in
+%% New Jersey, and once they were kind enough to provide
+%% room and board to an aging itinerant piano player.
+%% Personally, I thought that was real nice of them!
+%%endtext

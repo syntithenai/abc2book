@@ -1,0 +1,42 @@
+X: 21491
+T: the HEN'S MARCH
+Q: "With spirit."
+%R: march, hornpipe, reel
+N: This is version 1, for ABC software that doesn't understand diminuendo/crescendo notation.
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.149 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+[|\
+d6 A2 d3ef3g | {fg}a4 g3f e4 f3g |\
+f6 e2 d3ef3^g | a4 ^g4 a4 z4 |\
+(a3g)(f3a) (g3f)(e3g) |
+f3ed3f A4 "_dim."B3c |\
+(d/e/f3) (e/f/g3) (f/g/a3) (g/a/b3) | f4 Te4 {de}d8 |] \
+A2z2 A2z2 A2z2 A2z2 | A2z2 A3f (e4 f2)z2 |
+d2z2 d2z2 d2z2 d2z2 | d2z2 (d3g) f4 g2z2 |\
+d2z2 d3d (g4 b2)z2 | d2z2 d3d (f4 a2)z2 |\
+d2z2 d3d (g4 b2)z2 |
+d2z2 d3d (f4 a2)z2 |\
+a3g f3a g3f e3g | f3e d3f A8 |\
+(d/e/f3) (e/f/g3) (f/g/a3) (g/a/b3) | f4 Te4 {de}d8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+[|\
+[F6A,6] G2 F3CD3E | F4 E2D2 A4 z4 |\
+[A6D6] ^A2 B3cd3e | [c4E4] [d4E4] [c3E2]BA3G |\
+F3^A B4 E3^G A4 |
+D3GF3D "^ dim."[E4C4] [G4A,4] |\
+[F4A,4] [G4A,4] [A4D4] [G4B,4] | A4 [G4A,4] [F8A,8] |] \
+A2z2 A3f (e4 f2)z2 | A2z2 A2z2 A2z2 A2z2 |
+d2z2 (d3g) (f4 g2)z2 | d2z2 d2z2 d2z2 d3d |\
+([g4d4] b2)z2 d2z2 d3d | (f4 a2)z2 d2z2 d3d |\
+(g4 b2)z2 d2z2 d3d |
+f4 a2z2 d2z2 d2z2 |\
+[F2A,2]^A2 B4 [E3A,3]^G A4 | D3GF3D [E4C4] "^>"[G4A,4] |\
+[F4A,4] [G4A,4] [A4D4] [G4B,4] | A4 [G4A,4] [F8A,8] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

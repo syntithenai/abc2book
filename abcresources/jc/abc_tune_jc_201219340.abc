@@ -1,0 +1,21 @@
+X: 22
+T: Hornpipe by Mr Festing
+%R: triple hornpipe
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.11 #22
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 3/2
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+|:\
+(df)(eg) f2 d4 AF | G2B2 (gf)(ed) (dc)(BA) |\
+(Bg)(ed) (ca)(fe) (df)(gf) | (ec)(dB) (AF)(GE) (FA)(Bc) |
+(df)(eg) f2 d4 AF | G2B2 (gf)(ed) (dc)(BA) |\
+(Bg)(ed) (ca)(fe) (db)(ag) | (fa)(fd) (Adce) d4 :|
+|:\
+(fa)(fd) {f}e2(dc) {e}d2(cB) | (ce)(cA) (dc)(BA) {A}^G2(FE) |\
+(Fd)(BA) (^GB)(ed) (ce)(ae) | (fd)(ec) (dB)(A^G) A2(Bc) |
+(df)(eg) f2 d4 AF | G2B2 (gf)(ed) (dc)(BA) |\
+(Bg)(ed) (ca)(fe) (db)(ag) | (fa)(fd) (Adce) d4 :|

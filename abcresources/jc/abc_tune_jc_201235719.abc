@@ -1,0 +1,20 @@
+X: 2132
+T: John Cheap the Chapman,   a Reel.
+C: by Nath. Gow
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.2 p.13 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+% - - - - - - - - - -
+V: 1 staves=2
+A !segno!|\
+G2(.d.G) BGBg | G2(.d.B) AFFA | G2(.d.G) TB>cdB | Afcf AFF :| A | Ggg>B TB>cdB | Ggg>B AFFA |
+Gg-g>d TBcdB | Acfc AFFA || Gg-g>d TB>cdB | Gg-g>B AFFA | Ggbg ^fdg=e | =fcdB AFcA !segno!|]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z !segno!|\
+g2g2 g2g2 | g2g2 f2f2 | g2g2 g2g2 | f2c2 [f2F2][fF] :| z | g2g2 g2g2 | g2g2 f2f2 |
+g2g2 g2g2 | f2c2 F2F2 || g2g2 g2g2 | g2g2 f2f2 | g2g2 a2b2 | c'2d'2 f2f2 !segno!|]

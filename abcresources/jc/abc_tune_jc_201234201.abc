@@ -1,0 +1,33 @@
+X: 20333
+T: PRINCE BLUCHER'S WALTZ
+C:
+%R: waltz
+B: Elias Howe "The Musician's Companion" 1843 p.33 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The e natural in bar 21 is a bit odd.
+M: 3/8
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2 |\
+(^cd)(ed)(cd) | B2(G2d2) | =c2(A2d2) | B2(G2d2) |\
+(^cd)(ed)(cd) | B2(G2d2) | =c2(A2d2) | G4 :|
+|:\
+(AB) |\
+c2({d}cB)(cd) | .c2.c2(Bc) |\
+d2({e}d>^c)(de) | .d2.d2.d2 |\
+(^cd)(ed)(cd) | B2(G2d2) | =c2(A2d2) | G4 :|
+|:\
+B>c |\
+d2(d>^c)(d>B) | (3(gdB) G2(B>d) | (3(cAF) D2^c>d | (3(dBG) D2B>c |\
+d2({e}d>^e)(d>B) | (3(gdB) (G2B>d) | (3(cAF) D2F3A | G4 :|
+|:\
+A>B |\
+(3(cAF) D2B>c | (3(dBG) D2d>d | (gf)(ed)(^ce) | d4 B>c |\
+d2d>cd>B | (3(gdB) G2(B>d) | (3(cAF) D2(F>A) | G4 :|
+d2 |\
+(^cd)(ed)(ce) | B2(G2d2) | =c2(A2d2) | B2(G2d2) |\
+(^cd)(ed)(ce) | B2(G2d2) | c2(A2g2) | g4 (3(def) |\
+g4(3(def) | g2g2g2 | g2g2g2 | Hg4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

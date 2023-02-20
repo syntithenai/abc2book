@@ -1,0 +1,18 @@
+X: 314
+T: Pjevaj mi Pjevaj
+T: Licko Kolo
+O: Croatia
+F: http://www.youtube.com/watch?v=Brbiz89tuII
+F: http://www.youtube.com/watch?v=-OsSXOKLEHA
+F: http://www.youtube.com/watch?v=U1ceZG8ludw
+F: http://www.youtube.com/watch?v=E7QhtE_Zd7U
+S: Deborah Jones VIFD Book 1
+M: 4/4
+L: 1/4
+Q: 1/4=120
+K: Edor
+%%MIDI program 70
+ F2 GF           | E2 D2        | [D2F2] [F2A2]|\
+ [FA][E2G2][DF]  |[D2F2][EG][DF]|
+ [A,2E2][A,2D2]  |[D2F2][F2A2]  |[FA][E2G2][DF]|\
+ [DF][DF][EG][DF]|[A4E4]        |

@@ -1,0 +1,111 @@
+
+X: 8
+T: Strawberrys and Cream    [Eb]
+O: 1779
+R: reel
+S: Image from Darlene Wigton
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Eb
+% - - - - - - - - - -
+% Voice 1 has each strain on a new staff:
+V: 1 brace=2
+|:\
+"Eb"[E2G,2] (G/E/D/E/) GEGE | "Bb7"[F2B,2] (A/F/=E/F/) AFAF |\
+"Eb"[E2G,2] (G/E/D/E/) GEGE | "Bb7"FAGF "Eb"E2 E2 :|
+|:\
+"Eb"e2Ge eGeG | "Bb7"f2df fdfd |\
+"Eb"e2Ge eGeG | "Eb"ge"F7"dc "Bb"B2B2 :|
+|:\
+"Eb"E2GE GBeg | "Bb7"F2AF Bdfa |\
+"Eb"bgfe "Bb"df"Eb/g"BG | "Ab"FA"Bb7"GF "Eb"E2E2 :| [b2E2G,2]
+% - - - - - - - - - -
+% Voice 2 preserves the original's staff layout:
+V: 2 clef=bass middle=d
+|:\
+e4 e2e2 | d4 d2G2 |\
+e4 e2e2 | f2b2 e4 :|\
+|: e2z2 e2E2 | B2z2
+b2B2 | e4 e2E2 | e2f2 B4 :|\
+|:\
+e4 e2E2 | B4 B2B,2 |\
+E2e2 b2g2 | a2b2 e4 :| [d'2D2]
+% - - - - - - - - - -
+%%begintext align
+%% Turn your Partner with the Right hand and cast off one Cu. .|
+%% turn your Partner with the Left hand the Gent.n cast off the Lady cast up :|
+%% set 3 and 3 top & bottom :|.
+%% set 3 and 3 sideways :|:
+%% the Gent.n strike the whole figure at bottom the
+%% Lady at the same time at top and foot to your partner .||.
+%%endtext
+
+%%sep 1 1 500
+
+X: 1
+T: Strawberrys and Cream    (F)
+S: Image from Darlene Wigton
+R: reel
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has each strain on a new staff:
+|:\
+"F"F2 (A/F/E/F/) AFAF | "C7"[G2C2] (B/G/^F/G/) BGBG |\
+"F"F2 (A/F/E/F/) AFAF | "C7"GBAG "F"F2 F2 :|
+|:\
+"F"f2Af fAfA | "C7"g2eg gege |\
+"F"f2Af fAfA | "F"af"G7"ed "C"c2c2 :|
+|:\
+"F"F2AF Acfa | "C7"G2BG cegb |\
+"F"c'agf "C7"eg"F/a"cA | "Bb"GB"C7"AG "F"F2F2 :| [c'2F2C2]
+% - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 1
+T: Strawberrys and Cream    (C)
+S: Image from Darlene Wigton
+R: reel
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has each strain on a new staff:
+|:\
+"C"C2 (E/C/B,/C/) ECEC | "G7"[D2G,2] (F/D/^C/D/) FDFD |\
+"C"C2 (E/C/B,/C/) ECEC | "G7"DFED "C"C2 C2 :|
+|:\
+"C"c2Ec cEcE | "G7"d2Bd dBdB |\
+"C"c2Ec cEcE | "C"ec"D7"BA "G"G2G2 :|
+|:\
+"C"C2EC EGce | "G7"D2FD GBdf |\
+"C"gedc "G7"Bd"C/e"GE | "F"DF"G7"ED "C"C2C2 :| [g2C2G,2]
+% - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 1
+T: Strawberrys and Cream    (D)
+S: Image from Darlene Wigton
+R: reel
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has each strain on a new staff:
+|:\
+"D"D2 (F/D/C/D/) FDFD | "A7"[E2A,2] (G/E/^D/E/) GEGE |\
+"D"D2 (F/D/C/D/) FDFD | "A7"EGFE "D"D2 D2 :|
+|:\
+"D"d2Fd dFdF | "A7"e2ce ecec |\
+"D"d2Fd dFdF | "D"fd"E7"cB "A"A2A2 :|
+|:\
+"D"D2FD FAdf | "A7"E2GE Aceg |\
+"D"afed "A"ce"D/f#"AF | "G"EG"A7"FE "D"D2D2 :| [a2D2A,2]
+% - - - - - - - - - - - - - - - - - - - -

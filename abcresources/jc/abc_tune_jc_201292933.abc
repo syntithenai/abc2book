@@ -1,0 +1,113 @@
+
+X: 1
+T: the Irish Washerwoman
+O: Petrie 1790
+B: Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+N: Similar tunes with many titles date back to the 17th C in the British Isles.
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+   d/c/ \
+| "G"BGG DGG | BGB dcB | "Am"cAA EAA | cAc "D7"edc \
+| "G"BGG DGG | BGB dcB | "Am"cBc "D7"Adc | "G"BGG G2 :|
+|: g/a/ \
+| "G"bgg dgg | bgb bag | "D7"aff dff | afa agf \
+| "C"egg "G"dgg | "C"cgg "G"B3 | "Am"cBc "D7"Adc | "G"BGG G2 :|
+
+%%sep 1 1 500
+
+X: 2
+T: Roaring Jelly #1
+T: Smash the Windows
+O: trad
+R: jig
+B: Kerr's Caledonian; Kennedy v.1, Cole
+N: In O'Neill's as a reel (#1382)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: See also Smash the Windows, which has a B1 and a B2 part.
+M: 6/8
+L: 1/8
+K: D
+   A \
+| "D"D>ED F2A | d2f "A"ecA | "G"G2B "D"F2A | "Em"E2F "A7"GFE \
+| "D"D>ED F2A | d2f "A"ecA | "G"Bgf "A7"edc | "D"d3- d2 :|
+|: f/g/ \
+| "D"a2f d2f | f2g agf | "A7"g2e c2e | e2f gfe \
+| "D"fed "A7"gfe | "D"agf "G"bag | "D"fed "A7"cde | "D"fdd d2 :|
+
+%%sep 1 1 500
+
+X: 3
+T: the Tenpenny Bit
+O: Trad, Ireland
+R: jig
+S: O'Neill's "1850" (Music of Ireland), 1903
+B: Harding’s "All Round Collection" 1905, under the title “Made in Ireland”
+N: Similar to The Three Little Drummers
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: ADor
+   e \
+| "Am"eAA eAA | "G"BAB GBd | "Am"eAA eAA | "G"def g[af]g \
+| "Am"eAA eAA | "G"BAB GBd | "G"edB g[dB]B | "G"BAG "Am"A2 :|
+|: B \
+| "Am"A2a aga | "G"bge dBG | "Am"A2a aga | "G"bge g2d \
+| "Am"e2a aga | "G"bge dBd | "G"edB g[dB]B | "G"BAG "Am"A2 :|
+%%text A major chords work just as well.
+
+%%sep 1 1 500
+
+X: 4
+T: Jefferson and Liberty  [Gm]
+%P: piffero primo a0055
+O: safd 025
+F: http://ancients.sudburymuster.org/mus/med/pdf/jeffblackwC1.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gm
+G/A/ |\
+"Gm"B2G G^FG | D2G GAB | "F"A2F FGA | cAF FGA |\
+"Gm"B2G G^FG | D2G G2d | "D7"dcB ABA | "Gm"D2G G2 :|
+|: B |\
+"Gm"G2A B2c | "Bb"d2e f3 | d2e f2d | "F"cAF F2D |\
+"Gm"G2A B2c | "Bb"def "Eb"g3 | "Bb"dcB "F"ABA | "Gm"D2G G2 :|
+
+%%sep 1 1 500
+
+X: 5
+T: Kesh Jig
+T: Kincora Jig
+O: Trad (Petrie 1850s)
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: George Petrie "Tear the Callies" 1850
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2G GAB | "D7"A2A ABd | "G"edd gdd | "D7"edB dBA \
+| "G"G2G GAB | "D7"A2A ABd | "G"edd gdB | "D7"AGF "G"G2 :|
+|: A \
+| "G"B2d dBd | "C"ege "G"dBG | "G"B2d dBG | "Am"ABA "D7"AGA \
+| "G"B2d dBd | "C"ege "G"dBd | "C"gfg "D7"aga | bgf "G"g2 :|
+
+%%sep 1 1 500
+
+X: 6
+T: Lanagan's Ball
+O: Ireland c.1860
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: EDor
+|: "Em"EFE G2A | B2A Bcd | "D"DED   F2G | AdB AFD \
+| "Em"EFE G2A | B2A Bcd | edB "Am"=cBA | "Em"BEE E3 :|
+B \
+|: "Em"e2f gfe | "D"fag fed | "Em"e2f gfe | "Bm"fBB B2d \
+| "Em"e2f gfe | "D"fag fed | "Em"edB "Am"=cBA | "Em"BEE E3 :|
+

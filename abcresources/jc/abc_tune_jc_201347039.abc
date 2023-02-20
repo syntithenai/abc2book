@@ -1,0 +1,75 @@
+
+X: 1
+T:Miss Drummond of Perth [1]
+M:C|
+L:1/8
+R:Strathspey
+B:Stewart-Robertson - The Athole Collection  (1884)
+Z:AK/Fiddler's Companion
+K:Aminor
+a|AAe>d ~B>d e2|d<gB<g d<gB<G|Aae>d ~B<d e>a|g>eg>B A2 A>a|
+Aae>d ~B>d e2|d<g B>g d<g B>G|Aae>d ~B>de>a|g>eg>B A2A||
+^g|a2 e>a c<a e>^f|~g2 d>g B>g d>g|a2 e>a c>ae>a|g>eg>B A2 A>^g|
+a2 e>a c>ae>^f|~g2 d>g B>gd>g|aae>a bbe>g|a>eg>B A/B/c/d/ e>a||
+
+X: 2
+T:Miss Sarah Drummond of Perth
+L:1/8
+M:C
+R:Strathspey
+B:Stewart-Robertson - The Athole Collection (1884)
+Z:AK/Fiddler's Companion
+K:E Minor
+B,|E3F E/E/E E>F|A>BA>F D>EF>D|B,<E E>D E>FG>e|d>BA>F B2E:|
+B|e3f e/e/e e>d|B<d A>F D>EF>D|e3f e/e/e e>d|B<d F>A B2 E>B|
+e3 f e/e/e e>d|B<d A>F D>EF>D|B,<E E>D E>FG>e|d<B A>F B2E||
+
+X: 3
+T:Honorable Miss Drummond of Perth's Strathspey, The [3]
+M:C
+L:1/8
+C:Captain Ross, Royal Artillery
+B:Gow - 2nd Collection of Niel Gow's Reels, pg. 6  (1788)
+Z:AK/Fiddler's Companion
+K:E Minor
+B,|"tr"E3F E/E/E EF|A>BAF DEFD|B,(E"tr"E>)D "tr"E>FGe|d<B "tr"A>F ({F/A/}B2)E:||
+B|e3~f e/e/e "tr"e>d|B<d "tr"A>F D>EFD|e3f e/e/e "tr"e>d|B<d "tr"F>A ({F/A/}B2)EB|
+e3f e/e/e "tr"e>d|B<d"tr"A>F D>EFD|B,(E"tr"E>)D "tr"E>FGe|d<BA>F ({F/A/}B2)E||
+
+X: 4
+T:Honorable Miss Drummond of Perth, The
+M:C
+L:1/8
+R:Strathspey
+B:Stewart-Robertson - The Athole Collection  (1884)
+Z:AK/Fiddler's Companion
+K:D
+F|D>AF>A D<d d>B|A<D F>D E<B, B,>E|D>AF>A D<g f>e|d>BA>F D/D/D D:|
+|:f|d/e/f/g/ a<d f<d a>d|A/B/c/d/ e>A c>Ae>A|1 d/e/f/g/ a>d f>da>d|
+A<g f>e f<dd:|2 d>fe>g f>d e<f|d>BA>F D/D/D D||
+
+X: 5
+T:Miss Drummond of Perth's Strathspey [1]
+R:strathspey
+M:C
+L:1/8
+B:Complete Tutor Violin  (c. 1815)
+Z:Dr. Evan Jones, 2005
+K:C
+U:T=!trill!
+%%graceslurs false
+a | A<Ae>d B<d e2 | d<gB<g  d<gBG | A<Ae>d B<de>(g | a)>eg>B {B}A2 A :|
+g | a<ae<a c<a e2 | g<gdg B<g Td2 | a<ae<a c<ae>g | a>eg>B {B} A2 Ag |
+a<ae<a c<ae>^f | g<gd<g B<gd<g | a<ae<a g<be<(g | a)>eg>B {B} A2 A |]
+
+X: 6
+T:Miss Sarah Drummond of Perth [1]
+M:C
+L:1/8
+R:Strathspey
+S:MacDonald - Second Collection of Strathspey Reels (1789)
+Z:AK/Fiddler's Companion
+K:A Minor
+a | A<A "tr"e>d B<d "tr"e2 | d<gB<g d<gB<G | A<A"tr'e<d B<de<(g | a>)eg>B A2A :|
+g | a<ae<a c<a e2 | g<gd<g Bg d2 | a<ae<a c<ae<g | a<eg<B {B}A2 Ag | a<ae<a c<a "tr"e2 |
+g<gd<g B<g d2 | a<ae<a g<be<g | a<eg<B {B}A2A ||

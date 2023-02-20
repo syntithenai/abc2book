@@ -1,0 +1,2260 @@
+
+X: 1
+T: After the Ball
+C: Words and music: Charles K Harris
+R: waltz
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Bb
+"^Intro"
+[| "Bb"d6 | f4 d2 | g6 | d6 | "F7"ed c=B cd | ef g2 [a2e2] | [b2d2] z2 z2 | z2 z2 z2 ||
+"^Verse"\
+[| "Bb"D6 | F4 D2 | G6 | D6 | F4 D2 | G4 D2 | "F7"A6- | A2 z2 z2 |
+| "F7"E6 | G4 E2 | A6 | E6 | A6 | d4 c2 | "Bb"D6- | D2 z2 z2 |
+| "Bb"D6 | F4 D2 | G6 | D6 | d6 | "D7"e4 d2 | "Gm"G6- | G2 z2 z2 |
+| "Eb"G6 | "D7"A4 B2 | "Bb"d6 | F6 | "C7"c6 | "F7"A4 F2 | "Bb"B6- | B2 z2 z2 |
+| "Gm"B6 | d4 B2 | "D7"A6 | ^F6 | "Eb"G6 | "F 7"A4 B2 | "Bb"F6- | F2 z2 z2 |
+| "Eb"G6 | "C7/E"A4 B2 | "Bb"F6 | B6 | "C7"G6 | A4 B2 | "F7"c6- | c2 z2 z2|
+| "Bb"D6 | F4 D2 | G6 | D6 | d6 | "D7"e4 d2 | "Gm"G6- | G2 z2 z2 |
+| "Eb"G4-G2 | "Edim"A4 B2 | "Bb"d6 | F6 | "C7"c6 | "F7"A4 F2 | "Bb"B6- | B2 z2 z2 |]
+"^Chorus"\
+[| "Bb"d2 f3 d | B4 G2 | B6 | F6 | d2 f3 d | B4 G2 | "F7"A6- | A2 z2 z2 |
+| "F7"e2 g3 e | d4 c2 | "Fdim7"=B6 | "F7"c6 | c3 d c2 | A4 F2 | "Bb"f6- | f2 z2 z2 |
+| "Bb"d2 f3 d | B4 G2 | B4 | F6 | "G7"G2 =B3 d | g4 f2 | "C7"=e6- | e2 z2 z2 |
+| "F7"f2 c2 c2 | c2 d2 e2 | "Bb"d6 | F6 | "C7"G6 | "F7"A4 F2 | "Bb"B6- | B2 z2 z2 |]
+
+%%newpage
+
+
+X: 0
+T: Anneli Waltz
+K: C
+
+
+X: 1
+P: Anneli Walzer
+O: Germany
+R: waltz
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: Bb
+   g | "Bb"f2B | d2g | "F7"f2c | e2f |     a2g |1 f2e | "Bb"dfb | "(F7)"f2 :|2 "F7"fga | "Bb"b3- | Hbz |
+|: b | "F7"a3  | ceg | "Bb"f3  | Bdg | "F7"f2e |1 d2c | "Bb"Bdg | f2 :|2 "F7"d2c | "Bb"B3- | Bz |
+K:Eb
+|: g | "Eb"e3  | B3  |     G3  | B2e |"Bb7"d2B |1 f2d | "Eb"e2f | g2 :|2"Bb7"g2f | "Eb"e3- | ez :|
+
+
+X: 2
+P: Anneli Walzer
+O: Germany
+R: waltz
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: C
+   a | "C"g2c | e2a | "G7"g2d | f2g |     b2a |1 g2f | "C"egc' | "(G7)"g2 :|2 "G7"gab | "C"c'3- | Hc'z |
+|: c' | "G7"b3  | dfa | "C"g3  | cea | "G7"g2f |1 e2d | "C"cea | g2 :|2 "G7"e2d | "C"c3- | cz |
+K:F
+|: a | "F"f3  | c3  |     A3  | c2f |"C7"e2c |1 g2e | "F"f2g | a2 :|2"C7"a2g | "F"f3- | fz :|
+
+
+X: 3
+P: Anneli Walzer
+O: Germany
+R: waltz
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+   b | "D"a2d | f2b | "A7"a2e | g2a |     c'2b |1 a2g | "D"fad' | "(A7)"a2 :|2 "A7"abc' | "D"d'3- | Hd'z |
+|: d' | "A7"c'3  | egb | "D"a3  | dfb | "A7"a2g |1 f2e | "D"dfb | a2 :|2 "A7"f2e | "D"d3- | dz |
+K:G
+|: b | "G"g3  | d3  |     B3  | d2g |"D7"f2d |1 a2f | "G"g2a | b2 :|2"D7"b2a | "G"g3- | gz :|
+
+%%newpage
+
+
+X: 0
+T: Anniversary Waltz
+K:
+
+
+X: 1
+P: Anniversary Waltz    [Gm]  (Chanesse Valts)
+O: Eastern European Jewish
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+L: 1/4
+M: 3/4
+R: Waltz
+K: Gm
+|:\
+"D7"D3- | D ^F G | A3- | A ^F D | "Gm"B3- | B A G | d3- | "G7"d3 |
+"Cm"e3- | e d c | "Gm"d3- | d c B | "D7"A3- | A B A | "Gm"G3- | G3 :|
+|:\
+{GABcdef}"Eb"[ge] [ge]>[ge] | [ge] [ge]>[ge] | "Bb"[ge] [fd]>[=e^c] | [f3d] |\
+"Cm"[ec] [ec]>[ec] | [ec] [ec]>[ec] | "Gm"[ec] [dB]>[^cA] | [d3B] |
+"D7"[cA] [cA]>[cA] | [cA] [cA]>[cA] | "Gm"[cA] [BG]>[A^F] | [G2D] [gB] |\
+"Cm"[ec] [cG] [AE] | "D7"[B2D] [A^F] | "Gm"[G3G]- | [G3G] :|
+
+
+X: 2
+P: Anniversary Waltz    [Dm]  (Chanesse Valts)
+O: Eastern European Jewish
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+L: 1/4
+M: 3/4
+R: Waltz
+K: Dm
+|: "A7"A,3- |A, ^C D | E3- | E ^C A, | "Dm"F3- | F E D | A3- | "D7"A3 |
+| "Gm"B3- | B A G | "Dm"A3- | A G F | "A7"E3- | E F E | "Dm"D3- | D3 :|
+|: {DEFGABc}"Bb"[dB] [dB]>[dB] | [dB] [dB]>[dB] | "F"[dB] [cA]>[=B^G] | [c3A] \
+| "Gm"[BG] [BG]>[BG] | [BG] [BG]>[BG] | "Dm"[BG] [AF]>[^GE] | [A3F] |
+| "A7"[GE] [GE]>[GE] | [GE] [GE]>[GE] | "Dm"[GE] [FD]>[E^C] | [D2A,] [dF] \
+| "Gm"[BG] [GD] [EB,] | "A7"[F2A,] [E^C] | "Dm"[D3D]- | [D3D] :|
+
+
+X: 3
+P: Anniversary Waltz    [Am]  (Chanesse Valts)
+O: Eastern European Jewish
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+L: 1/4
+M: 3/4
+R: Waltz
+K: C
+|: "E7"E3- |E ^G A | B3- | B ^G E | "Am"c3- | c B A | e3- | "A7"e3 |
+| "Dm"f3- | f e d | "Am"e3- | e d c | "E7"B3- | B c B | "Am"A3- | A3 :|
+|: {ABcdefg}"F"[af] [af]>[af] | [af] [af]>[af] | "C"[af] [ge]>[^f^d] | [g3e] \
+| "Dm"[fd] [fd]>[fd] | [fd] [fd]>[fd] | "Am"[fd] [ec]>[^dB] | [e3c] |
+| "E7"[dB] [dB]>[dB] | [dB] [dB]>[dB] | "Am"[dB] [cA]>[B^G] | [A2E] [ac] \
+| "Dm"[fd] [dA] [BF] | "E7"[c2E] [B^G] | "Am"[A3A]- | [A3A] :|
+
+%%sep 3 1 530
+%%sep 1 1 530
+%%sep 1 1 530
+
+
+X: 1
+T: Ashokan Farewell
+%date: 1982
+C: Jay Ungar, 1982.
+R: waltz
+N: (c) 1983 by Swinging Door Music-BMI
+N: Jay Ungar <fiddlerjay:aol.com>, <Ashokan.aol.com>
+N:
+N: "At the end of the third summer of Ashokan in '82, I was particularly feeling the
+N: post-camp syndrome of finding it hard to return to what we mistakenly call the
+N: 'real world.' I really missed the people and the joy of having music and dance
+N: so much a part of my daily life. Kind of like 'Brigadoon,' it's a world of its
+N: own, separate from the rest of life. And each summer when these things end, you
+N: don't really know if it'll happen again. So one morning I picked up my fiddle
+N: and started playing the saddest lament I could come up with - as a way of saying
+N: goodbye to that summer". Jay Ungar, RD 1 Box 489, West Hurley, NY 12491
+N:
+N: "Ashokan Farewell" is the 'goodbye' tune played at the end of each week of the
+N: music and dance camp run by Jay Ungar and Molly Mason, and holds emotional
+N: memories for many who have enjoyed the Ashokan experience. Fiddle Fever's
+N: arrangement of "Ashokan Farewell" was the cornerstone for the soundtrack of the
+N: celebrated PBS series, "The Civil War", (Electra/Nonesuch) which won a Grammy
+N: award and was nominated for an Emmy. It's also recorded on "Songs of the Civil
+N: War" (Sony/CBS); on "Waltz of the Wind"; and on "The Best of Fiddle Fever"
+N: (Flying Fish).
+N:
+N: From "The Waltz Book", Bill Matthiesen.
+N:
+Z: John Erdman <jperdman:agate.NET>
+M: 3/4
+L: 1/8
+B: The Waltz Book I
+K: D
+Ac |\
+"D"d3 cBA | "D7"F4 EF | "G"G3 FED | "Em"B,2 D3 B, | "D"A,2 D2 F2 | A2 d2 f2 | "G"f3 gf2 | "A7"e4 Ac |
+"D"d3 cBA | "D7"F4 EF | "G"G3 FED | "Em"B,2 D3 B, | "D"A,2 D2 F2 | A2 d2 f2 | "A7"A2 c2 e2 | "D"d4 |]
+FG |\
+"D"A3 FD2 | d4 A2 | "G"B3 cd2 | "D"A F3 E2 | "Bm"F3 ED2 | "G(Em)"B,4 G,2 | "A7"A,6 | A4 FE |
+"D"D2 F2 A2 | "C"=c6 | "G"B3 cd2 | "D"A2 F2 D2 | A,2 D2 F2 | A2 d2 F2 | "A7"E3 DC2 | "D"D4 |]
+
+%%newpage
+
+#abcjoin: UCT=1.
+#abcjoin: sep=2.
+
+
+X: 1
+T: Bj\orkedalsvalsen (D)
+O: H\orkelgaddan
+R: waltz
+M: 3/4
+L: 1/8
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+K: D
+A,2 \
+| "D"DC DE FG | A2 FA d2 | "G"B2 GB (3dcB | "D"A2 DF F2 \
+| F2 EF GE | FD CD EF | "A7"A,B, CD EC | "D"D4 z2 :|
+|: FG \
+| "D"A2 BA GF | A2 BA GF | "G"G2 B2 d2 | d3 dcB \
+| "D"A2 BA GF | "A7" F2 E2 E2 | EG FE DE | "D"F3 DFG |
+| "D"A2 BA GF | A2 BA GF | "G"G2 B2 d2 | d3 dcB \
+| "D"A2 BA GF | A2 BA GF | "A7"F2 ED CE | "D"D4 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+
+X: 2
+T: Bj\orkedalsvalsen (A)
+O: H\orkelgaddan
+R: waltz
+M: 3/4
+L: 1/8
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+K: A
+E2 \
+| "A"AG AB cd | e2 ce a2 | "D"f2 df (3agf | "A"e2 Ac c2 \
+| c2 Bc dB | cA GA Bc | "E7"EF GA BG | "A"A4 z2 :|
+|: cd \
+| "A"e2 fe dc | e2 fe dc | "D"d2 f2 a2 | a3 agf \
+| "A"e2 fe dc | "E7" c2 B2 B2 | Bd cB AB | "A"c3 Acd |
+| "A"e2 fe dc | e2 fe dc | "D"d2 f2 a2 | a3 agf \
+| "A"e2 fe dc | e2 fe dc | "E7"c2 BA GB | "A"A4 :|
+
+%%sep 3 1 530
+%%sep 1 1 530
+%%sep 1 1 530
+
+
+X: 0
+T: Centennial Waltz
+K: C
+
+% waltz/CentennialWaltz_Bb.abc
+
+
+X: 1
+P: Centennial Waltz (in Bb)
+O: as played by Rudie Meeks
+R: waltz
+M: 3/4
+L: 1/8
+K: Bb
+|: D>E \
+|  "Bb"F3 d ^c>d | B2 F2 D>F \
+| "Eb"E3 F (3EDC | "C7"G,3 A, B,>G, \
+| "F"A,3 ^G, A,>C | F3 F =E>F |
+|1 "C7"G2 "F7"F2 e2 | "Bb"d3 F \
+:|2 "C7"G2 "F7"F2 A2 | "Bb"B4 \
+|: "F7"d>e \
+| "Bb"f3 b a>b | d4 e>d |
+| "Eb"c<e- e2 c2 | "C7"G3 A B>G \
+| "F"A3 ^G A>c | f3 f =e>f \
+| "C7"g2 (3fga "F7"b2 | "Bb"d4 d>e |
+| "Bb"f2 b2 d2 | f4 e>d \
+| "Eb"c<e- e2 c2 | "C7"G4 A>G \
+| "F"F2 A2 c2 | "F7"f3 f =e>f \
+| "C7"g2 G2 "F7"A2 | "Bb"B4 :|
+
+% waltz/CentennialWaltz_C.abc
+
+
+X: 2
+P: Centennial Waltz (in C)
+O: as played by Rudie Meeks
+R: waltz
+M: 3/4
+L: 1/8
+K: C
+|: E>F \
+|  "C"G3 e ^d>e | c2 G2 E>G \
+| "F"F3 G (3FED | "D7"A,3 B, C>A, \
+| "G"B,3 ^A, B,>D | G3 G ^F>G |
+|1 "D7"A2 "G7"G2 f2 | "C"e3 G \
+:|2 "D7"A2 "G7"G2 B2 | "C"c4 \
+|: "G7"e>f \
+| "C"g3 c' b>c' | e4 f>e |
+| "F"d<f- f2 d2 | "D7"A3 B c>A \
+| "G"B3 ^A B>d | g3 g ^f>g \
+| "D7"a2 (3gab "G7"c'2 | "C"e4 e>f |
+| "C"g2 c'2 e2 | g4 f>e \
+| "F"d<f- f2 d2 | "D7"A4 B>A \
+| "G"G2 B2 d2 | "G7"g3 g ^f>g \
+| "D7"a2 A2 "G7"B2 | "C"c4 :|
+
+%%newpage
+
+
+X: 1
+T: Daj mi daj  [C]
+C: Dalmatia
+R: waltz
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: C
+[| "C"[C2E2] [DF] | [E3G3] | [C2E3] [DF] | [E2G2] [EG] | "F"[F2A2] [EG] | "Dm"[D2F2] [CE] | "G7"[B,3D3]- | [B,3D3] |
+w: 1.~Daj mi daj, daj mi daj, O li-pa Ma-ri-ja.
+w: 2.~Bjon-da si, bjon-da si, Ti li-pa Ma-ri-jo.
+y2 [B,2D2] [CE] | [D3F3] | [B,2D2] [CE] | [D2F2] [EG] | [G2B2] [FA] | [E2G2] [DF] | "C"[C3E2]- | [C3E2] ||
+w: Daj mi daj, daj mi daj, Da te-be lju-bim ja.
+w: Te-bi \'cu, te-bi \'cu, Da pi-vam pis-mi-cu.
+|: "F"[A3c3] | [F2A2] [Ac] | "G7"[G3B3]- | [G3B3] | "F"[FA] [FA]> [FA] | [Ac] [GB] [FA] | "C"[E2G2] [FA] | [E2G2] [FA] |
+w: Pri-di s~me-noj,_ Pri-di s~me-noj na mor-je ve-slaj, ve-
+y2 ([E3G3] | [E3G3]) | "G7"[G3B3] | [F2A2] [EG] | [D3F3]- | [D3F3] | [DG] [EG] [FA] | [E2G2] [DF] | "C"[C3E3]- | [C3E3] :|
+w: slaj,_ Pri-di s~me-noj_ kra-sna je no\'c o-va.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Daj mi daj  [D]
+C: Dalmatia
+R: waltz
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+[|\
+"D"[D2F2] [EG] | [F3A3] | [D2F2] [EG] | [F2A2] [FA] |\
+"G"[G2B2] [FA] | "Em"[E2G2] [DF] | "A7"[C3E3]- | [C3E3] |
+[C2E2] [DF] | [E3G3] | [C2E2] [DF] | [E2G2] [FA] |\
+[A2c] [GB] | [F2A2] [EG] | "D"[D3F3]- | [D3F3] ||
+|:\
+"G"[B3d] | [G2B2] [Bd] | "A7"[A3c]- | [A3c] |\
+"G"[GB] [GB]> [GB] | [Bd] [Ac] [GB] | "D"[F2A2] [GB] | [F2A2] [GB] |
+([F3A3] | [F3A3]) | "A7"[A3c] | [G2B2] [FA] |\
+[E3G3]- | [E3G3] | [EA] [FA] [GB] | [F2A2] [EG] |\
+"D"[D3F3]- | [D3F3] :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+%%newpage
+
+
+X: 0
+T: Waltz: De Colores
+K: C
+
+
+X: 1
+P: De Colores  [C]
+O: Mexico
+R: waltz
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+z2 \
+| "C"[G3-E3-] "G7"[G2E2][FD] | "C"[FD][E2C2] z[EC][FD] \
+|    [GE][GE]>[GE] [GE][FD][EC] | [GE][GE]>[GE] [GE][FD][EC] |"G7"[GE][F2-D2-] [F2D2]z |
+w: De* co-lo-res, de co-lo-res se vis-ten los cam-pos en la pri-ma-ve-ra*
+|"G7"[F3-D3-] [F2D2][EC] | [EC][D2B,2] z[FD][GE] \
+|    [AF][AF]>[AF] [AF][GE][FD] | [AF][AF]>[AF] [AF][GE][FD] | "C"[AF][G2-E2-] [G2E2]z |
+w: De* co-lo-res, de co-lo-res son los pa-ja-ri-tos que vie-nen de~a-fue-ra.*
+| "C"[G3-E3-] "G7"[G2E2][FD] | "C"[FD][E2C2] z[EC][FD] \
+|    [GE][GE][GE] [GE][FD][EC] | [GE][GE]>[GE] [GE][AF][_BG] | "F"[A3F3] z |
+w: De* co-lo-res, de co-lo-res es el ar-co i-ris que ve-mos lu-cir.
+|: [FD][GE] | "F"[AF][AF][AF] "G7"[AF][BG]>[AF] | "C"[AF][GE]>[GE] "Am"[GE][AF][GE] \
+|["1-N" "Dm"[GE][FD][GE] "G7"[AF][GE][FD] | "C"[E3C3] z :|
+w: Y por e-so los gran-des a-mo-res de mu-chos co-lo-res me gus-tan a m\'i.
+|["last" "Dm"[GE][FD][GE] "G7"[AF][GE][BFD] | "C"[c4E4C4] |]
+w:lo-res me gus-tan a m\'i.
+
+
+X: 2
+P: De Colores  [D]
+O: Mexico
+R: waltz
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+z2 \
+| "D"[A3-F3-] "A7"[A2F2][GE] | "D"[GE][F2D2] z[FD][GE] \
+|    [AF][AF]>[AF] [AF][GE][FD] | [AF][AF]>[AF] [AF][GE][FD] |"A7"[AF][G2-E2-] [G2E2]z |
+|"A7"[G3-E3-] [G2E2][FD] | [FD][E2C2] z[GE][AF] \
+|    [BG][BG]>[BG] [BG][AF][GE] | [BG][BG]>[BG] [BG][AF][GE] | "D"[BG][A2-F2-] [A2F2]z |
+| "D"[A3-F3-] "A7"[A2F2][GE] | "D"[GE][F2D2] z[FD][GE] \
+|    [AF][AF][AF] [AF][GE][FD] | [AF][AF]>[AF] [AF][BG][=cA] | "G"[B3G3] z |
+|: [GE][AF] | "G"[BG][BG][BG] "A7"[BG][cA]>[BG] | "D"[BG][AF]>[AF] "Bm"[AF][BG][AF] \
+|["1-N"  "Em"[AF][GE][AF] "A7"[BG][AF][GE] | "D"[F3D3] z :|
+|["last" "Em"[AF][GE][AF] "A7"[BG][AF][cGE] | "D"[d4F4D4] |]
+
+%%newpage
+
+
+X: 1
+T: the Duke of Kent's Waltz   (F)
+O: 1802
+R: waltz
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+|:"F"fe fg f2 | "C7"e2 cd ec | "F"f2 F2 F2 | F4 c2 \
+| "Bb"d2 d2 "(C)"e2 | "F"f2 c2 A2 | "Gm"B2 B2 A2 | "C7"A2 G4 :|
+| "C"C2 BA B2 | "F"Ac BA GF | "C"C2 BA B2 | "F"Ac BA GF \
+| "Bb"dc Bc de | "F"fe dc BA | "Gm"dc BA GF | "C7"EG FE DC |
+| "F"FE FG AB | "C"c=B cd ec | "Dm"f2 F2 F2 | F4 "I"[|]d2 \
+| "Bb"^c2 d2 d2 | "F"=B2 c2 c2 | "C7"B2 G2 E2 | "F"F6 |]
+
+%%sep 1 1 500
+
+
+X: 1
+T: the Duke of Kent's Waltz   [G]
+O: 1802
+R: waltz
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+|:"G"gf ga g2 | "D7"f2 de fd | "G"g2 G2 G2 | G4 d2 \
+| "C"e2 e2 "(D)"f2 | "G"g2 d2 B2 | "Am"c2 c2 B2 | "D7"B2 A4 :|
+| "D"D2 cB c2 | "G"Bd cB AG | "D"D2 cB c2 | "G"Bd cB AG \
+| "C"ed cd ef | "G"gf ed cB | "Am"ed cB AG | "D7"FA GF ED |
+| "G"GF GA Bc | "D"d^c de fd | "Em"g2 G2 G2 | G4 "I"[|]e2 \
+| "C"^d2 e2 e2 | "G"^c2 d2 d2 | "D7"c2 A2 F2 | "G"G6 |]
+
+%%sep 1 1 500
+
+
+X: 1
+T: the Duke of Kent's Waltz   (A)
+O: 1802
+R: waltz
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+|:"A"ag ab a2 | "E7"g2 ef ge | "A"a2 A2 A2 | A4 e2 \
+| "D"f2 f2 "(E)"g2 | "A"a2 e2 c2 | "Bm"d2 d2 c2 | "E7"c2 B4 :|
+| "E"E2 dc d2 | "A"ce dc BA | "E"E2 dc d2 | "A"ce dc BA \
+| "D"fe de fg | "A"ag fe dc | "Bm"fe dc BA | "E7"GB AG FE |
+| "A"AG AB cd | "E"e^d ef ge | "F#m"a2 A2 A2 | A4 "I"[|]f2 \
+| "D"^e2 f2 f2 | "A"^d2 e2 e2 | "E7"d2 B2 G2 | "A"A6 |]
+
+%%sep 1 1 500
+
+%%newpage
+
+
+X: 1
+T: Flatbush Waltz [Gm]
+C: Andy Statman
+D: Flatbush Waltz; Rounder 00116 (1980)
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 3/4
+R: Waltz
+S: Frets Magazine, Dec 1980
+K: Gm
+[| "Gm"d3 g dc | B2 G2 G2 | d3 g dB | "Cm"c3 e dc \
+| "Gm"GA Bc dB/d/ | "Cm"cG c2 c2 | "Gm"B3 c "Ab"_AB  | "Gm"G>G, B,D GB ||
+|| "Gm"[d3G] [gd] [dB][cA] | [B2G] [G2D] [G2D] | [d3B] [gd] [dB][BG] | "Cm"[c3G] f (3edc \
+| "Bb"Bc de fd | "Cm"cG c2 c2 | "Gm"B3 c "Ab(Fm)"_AB  | "Gm"G6 |]
+[| "Gm"[b4d] [ac][gB] | "D7"[ac]>D [d^F]A d^f | "Eb"[g2B] [f3A] [eG] | "Bb"[d6F] \
+| "Cm"[e2G] [d2F] [c2E] | "Gm"[d2F] [g2B] [a2c] | [b3d] [ac] [bd][c'e] | "D7"[a6c] ||
+|| "Gm"[b4d] [ac][gB] | "D7"[ac]D [d^F]A d^f | "Eb"[g2B] [f3A] [eG] | "Bb"[d6F] \
+| "Cm"[e2G] [d2F] [c2E] | "Gm"[d2F] [G2B,] [c2E] |  "Gm"[B3D] [cE] "Ab(Fm)"[_AC][BD]  | "Gm"[G6B,] |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 2
+T: Flatbush Waltz [Am]
+C: Andy Statman
+D: Flatbush Waltz; Rounder 00116 (1980)
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 3/4
+R: Waltz
+S: Frets Magazine, Dec 1980
+K: Am
+[| "Am"e3 a ed | c2 A2 A2 | e3 a ec | "Dm"d3 f ed \
+| "Am"AB cd ec/e/ | "Dm"dA d2 d2 | "Am"c3 d "Bb"_Bc  | "Am"A2 A, CE Ac ||
+|| "Am"[e3A] [ae] [ec][dB] | [c2A] [A2E] [A2E] | [e3c] [ae] [ec][cA] | "Dm"[d3A] g (3fed \
+| "Am"cd ef ge | "Dm"dA d2 d2 | "Am"c3 d "Bb"_Bc  | "Am"A6 ||
+|| "Am"[c'4e] [bd][ac] | "E7"[bd]E [e^G]B e^g | "F"[a2c] [g3B] [fA] | "C"[e6G] \
+| "Dm"[f2A] [e2G] [d2F] | "Am"[e2G] [a2c] [b2d] | [c'3e] [bd] [c'e][d'f] | "E7"[b6d] ||
+|| "Am"[c'4e] [bd][ac] | "E7"[bd]E [e^G]B e^g | "F"[a2c] [g3B] [fA] | "C"[e6G] \
+| "Dm"[f2A] [e2G] [d2F] | "Am"[e2G] [A2C] [d2F] |  "Am"[c3E] [dF] "Bb"[_BD][cE]  | "Am"[A6C] |]
+
+%%newpage
+
+
+X: 1
+T: Hebrides Waltzes
+O: Hebrides
+C: Trad.
+W: Transcription 1974 by Barbara McOwen
+Z: Transcription 1974 by Barbara McOwen
+Z: http://swissnet.ai.mit.edu/~jaffer/CFO.html
+%%MIDI channel 1
+%%MIDI program 1 21
+%%MIDI chordprog 21
+%%MIDI bassprog 21
+%%MIDI gchord f3zc3zc3z
+M: 3/4
+L: 1/4
+Q: 1/4=160
+K: E
+T: First Tune
+|:B |"E"BGB |"B"B2B |cBG |"G#m"B2B \
+|"A"cBc |"E"e2G |"F#m"[FF-][EF-][CF-] |"B"[FD][EE][FF]|
+"E"[GG-][FG-][EG-] |[EG-][DG][CF] |"A"[EE-][DE][CC] |"Am"[E2=C2][FC] \
+|"E"[GB,-][B,B][EG] |"B"[D2F2][EE] |"E"E3- |E2 :|
+T: Mingulay Boat Song
+K: A
+F |"A"[C3A3] |[C3A3] |[c2a2]e |[c3A3] \
+|[c3A3] |[c2e2][cA] |"D"[B2F2-][AF] |"D"[D3F3] \
+|"A"[A3c3] |"E"[E2B2-][BD] |"A"[C3A3] |[c2E2][DB] |
+[C3A3-] |"F#m"[F3A3] |"D"[BE-][AE-]"E"[BE] |"F#m"[C3c3] \
+|"A"[E3E3] |"E7"[E2E2][DF] |"A"[C3A3-] |"F#m"[F3A3] \
+|"E"[BE-][AE-][BE] |"A"[c3C3] |"E"[G3B3] |"A"[c2E2][BD] |
+[C3A3-] |"F#m"[F3A3] |"D"[BE-][AE-]"E"[BE] |"F#m"[c3F3] \
+|"A"[C3E3] |"E7"[E2D2-][FD] |"A"[C2A2][DF] |[E3C3] \
+|[c3C3] |[B2D2-]"E"[AD] |"A"[A3-C3-] |[A2C2]
+T: Third Tune
+K: D
+|:z |"D"[AA-][GA-][FA] |"G"[B2G2-][AG] |"A"A3- |"A7"[G3A3] \
+|"D"[F2A2][df] |"A"[f2a2][eg] |"D"[f3-d3-] |"Bm"[f3d3] |
+|"F#m"[f2c2-][ec] |"Bm"[d2B2][FF] |"A"[A3A3] |"Bm"[B3d3] \
+|"G"[e2B2-][fB] |"A"[G2e2][Fd] |"D"[d3-F3-] |[d2F2] :|
+T: Fourth Tune
+K: G
+|:[GG] |"G"[G2B2][cA] |[B3d3] |"D"[Ac][GB][DA] |"G"[G2B,2-][GB,] \
+|[G2B2][cA-] |[dA][eB][fc] |[g3B3-] |[d2B2][d=f] |
+|"C"[ec][g2e2] |"G"[d2B2][cA] |[B2G2-][GG] |"C"[c2E2][ce]\
+|"G"[B3d3] |"F"[=F2=F2][AA] |"G"[G3G3] |[G2G2] :|
+
+%%newpage
+
+
+X: 1
+T: Hine ma tov
+R: waltz
+O: Trad Jewish
+O: Psalm 133:1
+M: 3/4
+L: 1/4
+W: How good and pleasant it is for brothers to live together as one.
+K: Dm
+|: "Dm" D D D | D ^C D | "Gm"G3 | "Dm"F3 | "A7"E D E | F2 E | "Dm"D3 | D3 :|
+w: Hi-ne ma tov u-ma na-im she-vet 'a-chim gam ya-chad.
+|: "F"A3 | "Bb"d3 | "C7"c2 B | "F"A3 | "Gm"G F G |1 "C7(A7)"A2 G | "F(Dm)"F2 G | A3 :|2 "A7"A2 G | "Dm"F3 | D3 |]
+w: Hi-ne ma* tov she-vet 'a-chim gam ya-chad. -chim gam ya-chad.
+
+%%sep 3 1 500
+
+
+X: 2
+T: Hine ma tov
+R: waltz
+O: Trad Jewish
+O: Psalm 133:1
+M: 3/4
+L: 1/4
+W: How good and pleasant it is for brothers to live together as one.
+K: Em
+|: "Em" E E E | E ^D E | "Am"A3 | "Em"G3 | "B7"F E F | G2 F | "Em"E3 | E3 :|
+w: Hi-ne ma tov u-ma na-im she-vet 'a-chim gam ya-chad.
+|: "G"B3 | "C"e3 | "D7"d2 c | "G"B3 | "Am"A G A |1 "D7(B7)"B2 A | "G(Em)"G2 A | B3 :|2 "B7"B2 A | "Em"G3 | E3 |]
+w: Hi-ne ma* tov she-vet 'a-chim gam ya-chad. -chim gam ya-chad.
+
+%%sep 3 1 530
+%%sep 1 1 530
+%%sep 1 1 530
+
+
+X: 1
+T: Irish Lamentation
+T: King James' March to Limerick
+O: England c.1735
+C:
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Compare O'Neill's 275 ("The Forlorn Lover")
+N: Barnes (dates c.1735)
+M: 3/4
+L: 1/8
+K: G
+|: GA \
+| "G"B2 B2 Bc | "(Em)"B3 A G2 | "Am"{g}a2 A2 AB | "D"A4 GA \
+| "G"B2 cB AG | "C"E3 GFE | "D7"DE G2 {G}A2 | "G"G4 :|
+|: GA \
+| "G"B2 d2 d2 | de dB AB | "C"G2 g2 g2 | "D7"g3 fed \
+| "G"B2 d2 d2 | de dB AB | "C"G2 g2 g2 | "D7"g4 de |
+| "F"=f>e fg fg | "C"e>d eg eg | "G"d2 ed cB | "D7"A4 GA \
+| "G"B2 cB AG | "C"E3 GFE | "D7"DE G2 {G}A2 | "G"G4 :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: Irish Lamentation
+T: King James' March to Limerick
+O: England c.1735
+C:
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Compare O'Neill's 275 ("The Forlorn Lover")
+N: Barnes (dates c.1735)
+M: 3/4
+L: 1/8
+K: A
+|: AB \
+| "A"c2 c2 cd | "(F#m)"c3 B A2 | "Bm"{a}b2 B2 Bc | "E"B4 AB \
+| "A"c2 dc BA | "D"F3 AGF | "E7"EF A2 {A}B2 | "A"A4 :|
+|: AB \
+| "A"c2 e2 e2 | ef ec Bc | "D"A2 a2 a2 | "E7"a3 gfe \
+| "A"c2 e2 e2 | ef ec Bc | "D"A2 a2 a2 | "E7"a4 ef |
+| "G"=g>f ga ga | "D"f>e fa fa | "A"e2 fe dc | "E7"B4 AB \
+| "A"c2 dc BA | "D"F3 AGF | "E7"EF A2 {A}B2 | "A"A4 :|
+
+%%sep 1 1 500
+
+%%newpage
+
+
+X: 0
+T: Waltz: Le Ma'an Achai
+C: Shlomo Carlebach
+R: waltz
+K:
+
+
+X: 1
+P: LeMa'an Achai [Dm] (For the Sake of My Brothers and Friends)
+C: Shlomo Carlebach
+Z: John Chambers <jc:trillian.mit.edu>
+N: Berachot 64A
+R: waltz
+M: 3/4
+L: 1/4
+K: Dm
+|: A \
+| "Dm"A ^G A | f e d | "Gm"B3- | B2 B \
+| B A G | f e d | "Dm"A3- | A2 A |
+w: Le-ma-'an a-chai ve-re-ay* le-ma-'an a-chai ve-re-ay* a-
+| "Dm"(A ^G) A | (f e) d | "Gm"(c B) A | G3 \
+| "A7"A3 | (e2 f) | "Dm"d3- | dz :|
+w: dab-*ra na* a-dab-*ra na sha-lom* bach.
+|: (d/e/) \
+| "Dm"f2 f | (f e) d | f2 f | f e d \
+| "Gm"g2 g | (a2 g) | "Dm"f3- | f2 (d/e/) |
+w: le-*ma-'an beyt* ha-shem elo-kei-nu a-vak-sha tov_ lach* le-
+| "Dm"f2 f | (f e) d | f2 f | f e d \
+| "A7"e2 g | (f3/2 e/d/e/) | "Dm"d3- | dz :|
+w: ma-'an beyt* ha-shem elo-kei-nu a-vak-sha tov___ lach
+W: On behalf of my brothers and friends, let me say "Peace unto you".
+W: For the sake of the house of the Lord our God, I pray for your good.
+
+
+X: 2
+P: LeMa'an Achai [Em] (For the Sake of My Brothers and Friends)
+C: Shlomo Carlebach
+Z: John Chambers <jc:trillian.mit.edu>
+R: waltz
+M: 3/4
+L: 1/4
+K: Em
+|: B \
+| "Em"B ^A B | g f e | "Am"c3- | c2 c \
+| c B A | g f e | "Em"B3- | B2 B |
+| "Em"B ^A B | g f e | "Am"d c B | A3 \
+| "B7"B3 | f2 g | "Em"e3- | ez :|
+|: e/f/\
+| "Em"g2 g | g f e | g2 g | g f e \
+| "Am"a2 a | b2 a | "Em"g3- | g2 e/f/|
+| "Em"g2 g | g f e | g2 g | g f e \
+| "B7"f2 a | g2 {fef}f | "Em"e3- | ez :|
+
+%%newpage
+
+
+X: 1
+T: Lover's Waltz, The
+C: \2511992 Molly Mason & Jay Ungar
+R: waltz
+N:
+N:"Molly and I wrote this tune in 1985, when we were first together.  It was a
+N:spontaneous composition -- where I started playing melody and she played chords, and both
+N:the chords and melody evolved as we played it.  We'd played it at home together.  But it
+N:was too personal to play for other people -- I felt the same way about 'Ashokan Farewell'
+N:at first.  You know, you're not sure if people will like it.  Eventually, we played it
+N:at a late night waltz session at Ashokan.  It seemed like the right moment for the tune
+N:to emerge.  We originally wrote it in the key of G.  But the melody only uses three
+N:strings on the fiddle, and in G you never touch the E string.  Usually, if a tune only
+N:uses three strings, I go for the higher strings.  So that is why it's notated here in D.
+N:Sometimes we play it in both G and D, to get the full range.  The other thing I do, if
+N:I'm playing it in G, is play the B part an octave higher the second time through, to get
+N:a different sonority."  Jay Ungar and Molly Mason, RD 1 Box 489, West Hurley, NY 12491.
+B:"The Waltz Book", Bill Matthiesen.
+M: 3/4
+L: 1/8
+Z: ABC by Mary Lou Knack, modified by John Chambers
+K: D
+Adf\
+|| "D"a3 afd | "G"B3 AGF |  "D"A6-    |     A3 Adf \
+|     a3 afd | "G"B3 AGF | "Em"A6-    | "A7"A3 ABd |
+| "Em"e3 def | "G"ed3 BA |  "D"A6-    |     A3 ABd \
+| "G"e3 def  | "Em"ed3    BA | "A"a4-    ab  |    a4  dc |]
+| "D"d4  dc   | "Em"d4    dc | "D/F#"d3d dc  | "G"d2 g3f \
+| "D"d4  dc   | "Bm"d4    BA | "Em"B4- BA/B/ |"A7"A4 dc |
+| "G"B3 cd2   |  "A"c2 d2 e2 | "Bm"f3  gfe   |    d4 dc \
+| "G"B2 c2 d2 | "A7"e2 d3  c | "D (G)"d6-    | "D"d3 |]
+
+%%sep 3 1 530
+%%sep 1 1 530
+%%sep 1 1 530
+
+
+X: 1
+T: Waltz-mazurka [C/G]
+O: Poland
+P: I AB AC AD AE A ...
+M: 3/4
+L: 1/8
+K: C
+%%indent 500
+"^Intro"| [gB]z [g4B4] | [fA][ac] [g4B4] ||
+"A"\
+|: "C"c>d e2 e2 | e>f g2 g2 | "G7"c'z g3 f | "C"e2 d2 c2 \
+| "G7"B>c d2 d2 | d>e f2 f2 |1 "G7"az g3 B | f2 "C"e4 :|2 "G7"az g3 [bdB] | [d'2f2d2] "C"[c'4e4c4] |]
+K:G
+"B"\
+|: "G"z2 de d2- | d2 de d2 | "D7"e2 d3 c | "G"d3 c B2 \
+|  "G"z2 de d2- | d2 de d2 | "D7"c2 B2 c2 |1 "G"dg ed B2 :|2 "G"B4 z2 |]
+"C"\
+|: "G"d3 B d3 | "C"ce cB A2 | "D7"c3 A c2 | "G"Bd BA G2 \
+|  "G"d3 B d3 | "C"ce cB AG | "D7"FG AB cF | "G"G2 G2 z2 |]
+"D"\
+|: "G"D4 G2 | B6 | "D7"c2 B3 A | "G"B3 A G2 \
+| "D7"A6 | D6 | A2 G2 A2 |1 "G"B6 :|2 "G"G4 z2 |]
+"E"\
+|: "G"z2 DG Bd | "C"c6 | "D7"z2 DF Ac | "G"B6 \
+|  "G"z2 DG Bd | "C"c6 | "D7"d2 c2 A2 | "G"G2 G2 z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Waltz-mazurka [D/A]
+O: Poland
+P: I AB AC AD AE A ...
+M: 3/4
+L: 1/8
+K: D
+%%indent 500
+"^Intro"| [ac]z [a4c4] | [gB][bd] [a4c4] ||
+"A"\
+|: "D"d>e f2 f2 | f>g a2 a2 | "A7"d'z a3 g | "D"f2 e2 d2 \
+| "A7"c>d e2 e2 | e>f g2 g2 |1 "A7"bz a3 c | g2 "D"f4 :|2 "A7"bz a3 [c'ec] | [e'2g2e2] "D"[d'4f4d4] |]
+K:A
+"B"\
+|: "A"z2 ef e2- | e2 ef e2 | "E7"f2 e3 d | "A"e3 d c2 \
+|  "A"z2 ef e2- | e2 ef e2 | "E7"d2 c2 d2 |1 "A"ea fe c2 :|2 "A"c4 z2 |]
+"C"\
+|: "A"e3 c e3 | "D"df dc B2 | "E7"d3 B d2 | "A"ce cB A2 \
+|  "A"e3 c e3 | "D"df dc BA | "E7"GA Bc dG | "A"A2 A2 z2 |]
+"D"\
+|: "A"E4 A2 | c6 | "E7"d2 c3 B | "A"c3 B A2 \
+| "E7"B6 | E6 | B2 A2 B2 |1 "A"c6 :|2 "A"A4 z2 |]
+"E"\
+|: "A"z2 EA ce | "D"d6 | "E7"z2 EG Bd | "A"c6 \
+|  "A"z2 EA ce | "D"d6 | "E7"e2 d2 B2 | "A"A2 A2 z2 |]
+
+%%newpage
+
+
+X: 0
+T: Waltzes: Mets\"akukkia + Tamo Daleko
+K:
+
+
+X: 1
+P: Mets\"akukkia  [Gm]  (Woodland Flowers)
+O: Trad Finland
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Gm
+z4 \
+| "Gm"D2 G2 A2 | B2 A2 G2 | d6- | d6 \
+| D2 G2 A2 | B2 A2 G2 | "Cm"e6- | e6 \
+| c2 d2 e2 | e2 d2 c2 | "Gm"d6- | [d6B6] |
+| "D7"D2 ^F2 A2 | c2 B2 A2 | "Gm"G6- | G2 :: g3f \
+| "F7"f6- | f2 g3 e | "Bb"d6- | d2 e3 d \
+| "D7"c6- | c2 d3 c | "Gm"B6- | B2 d2 d2 |
+| "Gm"d6- | d2 c2 B2 | "D7"A6- | A2 B2 A2 \
+| D2 ^C2 D2 | B4 A2 | "Gm"G6- | G2 :: z2 ~g>^f \
+| "Gm"g z3 ~d>^c | d  z3 ~B>A | B z3  ~G>^F | G4 d2 |
+| "Cm"e4 d2 | c2 e2 g2 | "Gm"d6- | d6 \
+| "D7"D2 ^F3 G | A6 | "Gm"D2 G3 A | B6 \
+| "D7"D2 ^F3 A | B4 A2 | "Gm"G6- | G2 :|
+
+
+X: 2
+P: Tamo daleko
+%T:Тамо далеко
+O: Serbia %(Србија)
+R: waltz
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+N: There is a lot of variation in the lyrics.
+M: 3/4
+L: 1/4
+K: Gm
+|: "Gm"DGB | dcB | d3- | "D7"d3 | "Gm"DGB | dcB | "D7"A3- | A3 || "Cm"ccc | cBA |
+| "Cm"c3- | e3 | "Gm"ded | "D7"cBA | "Gm"G3- | G3 :: "Gm"G3  | D2G | "D7"(B2A) | "Gm"G2"F7"F | "Bb"d2d |
+| "F7"(cd)e | "Bb"d3- | "D7"d3 || "Gm"GAB | (dc)B | "Cm"(c2B) | "D7"A3 | "D7"ded | cBA | "Gm"G3- | G3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 3
+P: Mets\"akukkia  (Woodland Flowers)
+O: Trad Finland
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+z4 \
+| "Am"E2 A2 B2 | c2 B2 A2 | e6- | e6 \
+| E2 A2 B2 | c2 B2 A2 | "Dm"f6- | f6 \
+| d2 e2 f2 | f2 e2 d2 | "Am"e6- | [e6c6] |
+| "E7"E2 ^G2 B2 | d2 c2 B2 | "Am"A6- | A2 :: a3g \
+| "G7"g6- | g2 a3 f | "C"e6- | e2 f3 e \
+| "E7"d6- | d2 e3 d | "Am"c6- | c2 e2 e2 |
+| "Am"e6- | e2 d2 c2 | "E7"B6- | B2 c2 B2 \
+| E2 ^D2 E2 | c4 B2 | "Am"A6- | A2 :: z2 ~a>^g \
+| "Am"a z3 ~e>^d | e  z3 ~c>B | c z3  ~A>^G | A4 e2 |
+| "Dm"f4 e2 | d2 f2 a2 | "Am"e6- | e6 \
+| "E7"E2 ^G3 A | B6 | "Am"E2 A3 B | c6 \
+| "E7"E2 ^G3 B | c4 B2 | "Am"A6- | A2 :|
+
+
+X: 4
+P: Tamo daleko
+%T:Тамо далеко
+O: Serbia %(Србија)
+R: waltz
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+N: There is a lot of variation in the lyrics.
+M: 3/4
+L: 1/4
+K: Am
+|: "Am"EAc | edc | e3- | "E7"e3 | "Am"EAc | edc | "E7"B3- | B3 || "Dm"ddd | dcB |
+| "Dm"d3- | f3 | "Am"efe | "E7"dcB | "Am"A3- | A3 :: "Am"A3 | E2A | "E7"(c2B) | "Am"A2"G7"G | "C"e2e |
+| "G7"(de)f | "C"e3- | "E7"e3 || "Am"ABc | (ed)c | "Dm"(d2c) | "E7"B3 | "E7"efe | dcB | "Am"A3- | A3 :|
+
+%%newpage
+
+#abcjoin: UCT=1.
+#abcjoin: sep=2.
+
+
+X: 1
+T: Minnesota valsen   [G]
+R: Waltz
+O: Scand-American
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+D2 \
+|: "G"G2 BG Bd | G2 BG Bc | d2 ed cB | "D7"A6 | D2 FD FA | D2 FD FA | d2 dc BA | "G"G6 :|
+|| "G"G2 BG Bd | g6 | ag fg ag | "C"e6 | "D7"DF AF Ad | f3 gfe | d3 edc | "G"B3 cBA |
+| "G"G2 BG Bd | g6 | ag fg ag | "C"e6 | "D7"DF AF Ad | f3 gfe | "D7"de dc BA | "G"G6 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+
+X: 2
+T: Minnesota valsen   [A]
+R: Waltz
+O: Scand-American
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+E2 \
+|: "A"A2 cA ce | A2 cA cd | e2 fe dc | "E7"B6 | E2 GE GB | E2 GE GB | e2 ed cB | "A"A6 :|
+|| "A"A2 cA ce | a6 | ba ga ba | "D"f6 | "E7"EG BG Be | g3 agf | e3 fed | "A"c3 dcB |
+| "A"A2 cA ce | a6 | ba ga ba | "D"f6 | "E7"EG BG Be | g3 agf | "E7"ef ed cB | "A"A6 |]
+
+%%sep 3 1 530
+%%sep 1 1 530
+%%sep 1 1 530
+
+
+X: 1
+T: The Mist-Covered Mountain    [Am]
+R: waltz, Jig
+Z: John Chambers <jc:trillian.mit.edu>
+D: De Danaan ________
+M: 3/4
+L: 1/8
+K: ADor
+G \
+| "Am"E>AA ABd | e2A AGE | "G"G>AG GAB | dBA GED \
+| "Am"E>AA ABd | e2A "G"B^cd | "C"e>fg "G"dBG | "Em"BAG "Am"A3 :|
+a \
+| "Am"a>ge a2b | age edB | A>GE "G"G2A | BAB deg \
+| "Am"a>ge a2b | age edB | A>GE "G"G2A | BAG "Am"A2 |]
+a \
+| "Am"a>ge a2b | age edB | A>GE "G"G2A | BAB GED \
+| "Am"E>DE G2A | "G"BAG B^cd | "C"e>fg "G"dBG | "Em"BAG "Am"A3 |]
+%%text Played as both waltz and jig.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: The Mist-Covered Mountain    [Bm]
+R: waltz, Jig
+Z: John Chambers <jc:trillian.mit.edu>
+D: De Danaan ________
+M: 3/4
+L: 1/8
+K: BDor
+A \
+| "Bm"F>BB Bce | f2B BAF | "A"A>BA ABc | ecB AFE \
+| "Bm"F>BB Bce | f2B "A"c^de | "D"f>ga "A"ecA | "F#m"cBA "Bm"B3 :|
+b \
+| "Bm"b>af b2c' | baf fec | B>AF "A"A2B | cBc efa \
+| "Bm"b>af b2c' | baf fec | B>AF "A"A2B | cBA "Bm"B2 |]
+b \
+| "Bm"b>af b2c' | baf fec | B>AF "A"A2B | cBc AFE \
+| "Bm"F>EF A2B | "A"cBA c^de | "D"f>ga "A"ecA | "F#m"cBA "Bm"B3 |]
+%%text Played as both waltz and jig.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+%%newpage
+
+
+X: 0
+T: Waltz_ Monas Birthday
+K: C
+
+% waltz/FodelsedagsvalsTillMona_G.abc
+
+
+X: 1
+P: F\"odelsedagsvals till Mona (Birthday waltz for Mona)
+C: Benny Andersson & Bj\"orn Ulvaeus
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+|: z2 D2 \
+| "G"DC CB, B,2- | B,2 B,C CD \
+| DB, CD EF | "D7"FE ED D2 \
+| AG GF F2- | F3 GFE \
+| "C"E2 EF ED | "G"D6 ||
+|| "G"DC CB, B,2- | B,2 B,C CD \
+| DB, CD EF | "D7"FE ED D2 \
+| AG GF F2- | F3 GFE \
+| "Am"E6- | E6 |
+| "A7"AG GF FE | E3 FED \
+| "D7"D6- | D z2 GFE \
+|| "G"E2 DG FE | E2 DG FE \
+| ~E2 D4- | D2 [dB][dB] [dB][dB] \
+| [e2c2] [d3B3] [cA] | [c2A2] [B3G3] [AF] |
+| "D7"[G2E2] [F4-D4-] | [F2D2] [A2C2] [A2C2] \
+| "Am"[A2C2] [GC][AC] [G2C2] | [G2E2] [FD][GE] [F2D2] \
+| [F2D2] [EC][FD] [E2-C2-] | [E2C2] [G2C2] [G2C2] \
+| "D7"[G2C2] [FC][GC] [F2C2] | [F2D2] [EC][FD] [E2C2] |
+| "G"[E2C2] [DB,][EC] [D2-B,2-] | [DB,] z2 GFE \
+|| "G"E2 DG FE | E2 DG FE \
+| ~E2 D4- | D2 [dB][dB] [dB][dB] \
+| [e2c2] [d3B3] [cA] | [c2A2] [B3G3] [AF] |
+| "D7"[G2E2] [F4-D4-] | [F2D2] "I"[|][A2C2] [A2C2] \
+| "Am"[A2C2] [GC][AC] [G2C2] | [G2E2] [FD][GE] [F2D2] \
+| [F2D2] [EC][FD] [E2-C2-] | [E2C2] [c2E2] [c2E2] \
+| "D7"[c2E2] [BD][cE] [B2-D2-] | [B4D4] [A2C2] \
+| "G"[G6-B,6-] | [G2B,2] :|
+%P: F\"orspel & Coda
+%[A2C2] [A2C2] \
+%| "Am"[A2C2] [GC][AC] [G2-C2-] | [G2C2] [FC][GC] [F2-C2-] \
+%| [F2C2] [EC][FC] [E2-C2-] | [E2C2] [c2E2] [c2E2] \
+%| "D7"[c2E2] [BD][cE] [B2-D2-] | [B4D4] [A2C2] \
+%| "G"[G6-B,6-] | [G2B,2] ||
+
+% waltz/FodelsedagsvalsTillMona_A.abc
+
+
+X: 2
+P: F\"odelsedagsvals till Mona (Birthday waltz for Mona)
+C: Benny Andersson & Bj\"orn Ulvaeus
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+|: z2 E2 \
+| "A"ED DC C2- | C2 CD DE \
+| EC DE FG | "E7"GF FE E2 \
+| BA AG G2- | G3 AGF \
+| "D"F2 FG FE | "A"E6 ||
+|| "A"ED DC C2- | C2 CD DE \
+| EC DE FG | "E7"GF FE E2 \
+| BA AG G2- | G3 AGF \
+| "Bm"F6- | F6 |
+| "B7"BA AG GF | F3 GFE \
+| "E7"E6- | E z2 AGF \
+|| "A"F2 EA GF | F2 EA GF \
+| ~F2 E4- | E2 [ec][ec] [ec][ec] \
+| [f2d2] [e3c3] [dB] | [d2B2] [c3A3] [BG] |
+| "E7"[A2F2] [G4-E4-] | [G2E2] [B2D2] [B2D2] \
+| "Bm"[B2D2] [AD][BD] [A2D2] | [A2F2] [GE][AF] [G2E2] \
+| [G2E2] [FD][GE] [F2-D2-] | [F2D2] [A2D2] [A2D2] \
+| "E7"[A2D2] [GD][AD] [G2D2] | [G2E2] [FD][GE] [F2D2] |
+| "A"[F2D2] [EC][FD] [E2-C2-] | [EC] z2 AGF \
+|| "A"F2 EA GF | F2 EA GF \
+| ~F2 E4- | E2 [ec][ec] [ec][ec] \
+| [f2d2] [e3c3] [dB] | [d2B2] [c3A3] [BG] |
+| "E7"[A2F2] [G4-E4-] | [G2E2] "I"[|][B2D2] [B2D2] \
+| "Bm"[B2D2] [AD][BD] [A2D2] | [A2F2] [GE][AF] [G2E2] \
+| [G2E2] [FD][GE] [F2-D2-] | [F2D2] [d2F2] [d2F2] \
+| "E7"[d2F2] [cE][dF] [c2-E2-] | [c4E4] [B2D2] \
+| "A"[A6-C6-] | [A2C2] :|
+%P: F\"orspel & Coda
+%[B2D2] [B2D2] \
+%| "Bm"[B2D2] [AD][BD] [A2-D2-] | [A2D2] [GD][AD] [G2-D2-] \
+%| [G2D2] [FD][GD] [F2-D2-] | [F2D2] [d2F2] [d2F2] \
+%| "E7"[d2F2] [cE][dF] [c2-E2-] | [c4E4] [B2D2] \
+%| "A"[A6-C6-] | [A2C2] ||
+
+%%newpage
+
+
+X: 1
+T: My Cape Breton Home
+R: air, waltz
+C: Jerry Holland \2511988
+Z: ABC by Mary Lou Knack
+N:
+N:Originally written for Jerry's dad; a man who had a tender spot in his heart for an air played
+N:with expression.  It was Jerry's father who introduced Jerry to Cape Breton music.  The tune
+N:"My Cape Breton Home" was given its title to express the love they had for Cape Breton, its
+N:music, and its people.
+M: 3/4
+L: 1/8
+K: G
+g2 \
+| "G"g3g fg | "D"a2 f2 d2 | "C"c3c Bc | "G"d2 B2 G2 \
+|    g3g fg | "D"a2 f2 d2 | "Am7"c3c Bc | "D7"d3 f2 [gB] |
+y2\
+|  "G"[g3B3] g fg | "D"a2 f2 d2 | "C"c3c Bc | "G"d2 B2 G2 \
+|  "Am7"Ec3 cB | "D"A3G F2 | "G"G6 | G4 |]
+D2 \
+| "G"D3G B2 | "C"c3c Bc | "G"d3B G2 | "Am"A2 G2 "D7"E2 \
+| "G"D3G B2 | "C"c3c Bc | "G"dg3 gf | "D7"d2 c2 A2 |
+y\
+| "G"D3G B2 | "C"c3c Bc | "G"d3B G2 | "Am"A2 G2 "D7"E2 \
+| "G"Dg3 fg | "Am7"d2 c2 "D7"A2 | "G"G6 | G4 |]
+%%text Sometimes only the first part is repeated; sometimes both.
+
+%%sep 3 1 530
+%%sep 1 1 530
+%%sep 1 1 530
+
+
+X: 1
+T: Niel Gow's Lament for the Death of His Second Wife
+C: Niel Gow
+R: waltz, air
+%date: 1805
+Z: John Chambers <jc:trillian.mit.edu>
+N: By Niel Gow (1727-1807).  His second wife was Margaret Urquhart of Perth,  to
+N: whom  he  was  happily married for three decades.  A note in Gow's Collection
+N: reads "They lived together upwards of 30 years.  She died 2 years before him;
+N: she had no issue." [From the Fiddler's Companion]
+N: Similar to the Irish air Kitty Tyrrell (or Ketty Terrol).
+M: 6/8
+L: 1/8
+K: D
+|: D/B,/ \
+| "D"A,>B,D "Bm"D>ED | "Em"E>FA "G"{A}B2{c}d | "D"A>FD "Em"E>DE | "Bm"{DE}F>DB, "G"B,2 ||
+   D/B,/ \
+|  "D"A,>B,D "Bm"D>ED | "Em"EFA "G"{c}d2c/B/ | "D"A>FD "G"{=C}B,2A, | "G"B,<DD "D"D3 :|
+(3A/B/c/ \
+| "D"d>fd "A7"ecA | "G"B/A/B/c/d "D"B/A/G/F/E/D/ | "Em"E>DE "D"{DE}FED | "Bm"{DE}F>DB, "G"B,2 ||
+(3A/B/c/ \
+| "D"d>fd "A7"ecA | "G"B/A/B/c/d "D"B/A/G/F/E/D/ | "Em"E>DE "Bm"{DE}F>DB, | "D"A,<D"(G)"D "D"D2 |]
+(3A/B/c/ \
+| "D"d>fd "A7"ecA | "G"B/A/B/c/d "D"B/A/G/F/E/D/ | F/D/A/F/d/A/ "Bm"B/A/G/F/E/D/ | "Em"FEE "A7"E2 ||
+   D/B,/ \
+| "D"A,>B,D "Bm"D>ED | "Em"EFA "G"Hd2c/B/ | "D"A>FD "G"{=C}B,2A, | "G"B,<DD "D"D3 |]
+
+%%newpage
+
+#abcjoin: UCT=1.
+#abcjoin: sep=1.
+
+
+X: 1
+T: Nordsettervalsen   [Dm]
+O: Hans Brimi
+R: waltz
+D: Hans Brimis kvartett, "P\aa Ball i Lom"
+M: 3/4
+L: 1/8
+K: Ddor
+|: DF \
+| "Dm"A2 _BA GE | ~F2 EF D2 | "A7"A2 ^cd eg | "Dm"{e}f2 ef d2 \
+| fa g=b a2 | ag eg {e}f2 | "A7"~f2 ed ^ce | "Dm"d4 :|
+|: fa \
+| "A7"a2 g2  a2 | "Dm"f3 ede | "A7"f2 ed ^ce | "Dm"d^c de fg \
+| "A7"a2 g2  a2 | "Dm"f3 ede | "A7"f2 ed ^ce | "Dm"d4 :|
+|: fa \
+| "A7"a2 ge ge | "Dm"fd fd fd | "A7"d^c Ac ec | "Dm"d2 fd fa \
+| "A7"a2 ge ge | "Dm"fd fd fd | "A7"d^c Ac ec | "Dm"d4 :|
+
+%%sep 2 1 500
+
+
+X: 2
+T: Nordsettervalsen   [Em]
+O: Hans Brimi
+R: waltz
+D: Hans Brimis kvartett, "P\aa Ball i Lom"
+M: 3/4
+L: 1/8
+K: Edor
+|: EG \
+| "Em"B2 =cB AF | ~G2 FG E2 | "B7"B2 ^de fa | "Em"{f}g2 fg e2 \
+| gb a^c' b2 | ba fa {f}g2 | "B7"~g2 fe ^df | "Em"e4 :|
+|: gb \
+| "B7"b2 a2  b2 | "Em"g3 fef | "B7"g2 fe ^df | "Em"e^d ef ga \
+| "B7"b2 a2  b2 | "Em"g3 fef | "B7"g2 fe ^df | "Em"e4 :|
+|: gb \
+| "B7"b2 af af | "Em"ge ge ge | "B7"e^d Bd fd | "Em"e2 ge gb \
+| "B7"b2 af af | "Em"ge ge ge | "B7"e^d Bd fd | "Em"e4 :|
+
+%%sep 3 1 530
+%%sep 1 1 530
+%%sep 1 1 530
+
+
+X: 1
+T: O Maria, Mari   [Gm,G]
+C: Eduardo di Capua (1865-1917)
+O: Italy
+R: waltz
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gm
+"^Intro"[|]A/B/cd \
+| "Gm"Bd2 "D7"A/B/cd | "Gm"Bd2 "D7"^f/g/ab \
+| "Gm"gd2 "D7"A/B/cd | "Gm"G3 z3 |  z3 z3 ||
+"A"\
+|: "Gm"b3- "D7"ba/g/^f/a/ |  "Gm"g/^f/g2- "(G7)"g2z \
+|  "Cm"g3- gg/^f/g/e/ |  "Gm"d/^c/d2- d2z \
+|  "D7"c3- cc/=B/c/d/ |  "Gm"_B3 B2z |
+|  "Cm"A3- "D7"AA/^G/A/B/ |1 "Gm"G3 z3 :|2 [K:=B=e][K:G] "G"G3 \
+"B"\
+|: z[GB,][AC] \
+| "G"[G3-B,3-] "(D7)"[GB,][EC][FD] | "G"[B,3-D3-] [B,D][B,D][B,E] \
+| [EB,][EB,][FB,] [FB,][FB,][DB,] | "Am"[E3-C3-] [E3C3] |
+| "D7"[F3D3] [G2D2][AD] | (3[F/D][G/E][F/D] [E2-C2-] [EC][EC][EC] \
+| [FD][FD][FD] [FD][GE]>[AF] | "G"(3[E/C][F/D][E/C] [D2-B,2-] [DB,][GB,][AC] \
+| "G"[G3-B,3-] "(D7)"[GB,][EC][FD] | "G"[B,3-D3-] [B,D][GB,][AC] |
+| "E7"[BD][BD][^A^C] [BD][cE][d=F] | "Am"(3[B/D][c/E][B/D][A2-C2-] [AC][AC][BD] \
+| "C"[c3E3] "Cm"[A2_E2C2][BEC] | "G"[G3-B,3D3-] [GB,D][EC][FD] \
+| "D7"[D3-C3-] [DC][AFC][BFC] | "G"{BA}[G3B,3D3] :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: O Maria, Mari   (Am,A)
+C: Eduardo di Capua (1865-1917)
+O: Italy
+R: waltz
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+"^Intro"[|]B/c/de \
+| "Am"ce2 "E7"B/c/de | "Am"ce2 "E7"^g/a/bc' \
+| "Am"ae2 "E7"B/c/de | "Am"A3 z3 |  z3 ||
+"A"\
+|: z2e \
+| "Am"c'3- "E7"c'b/a/^g/b/ |  "Am"a/^g/a2- a2z \
+|  "Dm"a3- aa/^g/a/f/ |  "Am"e/^d/e2- e2z \
+|  "E7"d3- dd/=c/d/e/ |  "Am"=c3 c2z |
+|  "Dm"B3- "E7"BB/^A/B/c/ |1 "Am"A3 :|2 [K:A] "A"A3 \
+"B"\
+|: z[AC][BD] \
+| "A"[A3-C3-] [AC][FD][GE] | [C3-E3-] [CE][CE][CF] \
+| [FC][FC][GC] [GC][GC][EC] | "Bm"[F3-D3-] [F3D3] |
+| "E7"[G3E3] [A2E2][BE] | (3[G/E][A/F][G/E] [F2-D2-] [FD][FD][FD] \
+| [GE][GE][GE] [GE][AF]>[BG] | "A"(3[F/D][G/E][F/D] [E2-C2-] [EC][AC][BD] \
+| "A"[A3-C3-] [AC][FD][GE] | [C3-E3-] [CE][AC][BD] |
+| "F7"[cE][cE][=B^D] [cE][dF][e=G] | "Bm"(3[c/E][d/F][c/E][B2-D2-] [BD][BD][cE] \
+| "D"[d3F3] "Dm"[B2=F2D2][cFD] | "A"[A3-C3E3-] [ACE][FD][GE] \
+| "E7"[E3-D3-] [ED][BGD][cGD] | "A"[A3C3E3] :|
+
+%%newpage
+
+
+X: 0
+T: Oslo Waltz
+K:
+
+
+X: 1
+P: Svensk Annas Vals  (Svenskarnasvalsen)  (Nordfjordsvals)
+%: Fjordvalsen
+O: Trad Scandinavian
+N: Alfred Maurstad, a fiddler from Nordfjord, Norway, played this tune
+N: in the Norwegian film "Fant".
+R: waltz
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+"A"|: [F/D][G/E] \
+| "D"[AF] [fA]> e | "G"[dB] [cA] [BG] | "D"[AF] [FD] [GE] | [A2F] [F/D][G/E] \
+| "D"[AF] [fA]> e | [dB] [cA] [dA] | "E"[e^G]>fe/d/ | "A7"[c2=G] ||
+y2 [F/D][G/E] \
+| "D"[AF] [fA]> e | "G"[dB] [cA] [BG] | "D"[AF] [FD] [GE] | [A2F] [AF] \
+| "G"[BG] [gB] [fA] | "A7"[eG] [dF] [cE] | "D"[dF]> [eG][d/F][c/E] | [d2F] :|
+"B"|: [F/D][G/E] \
+| "D"[A2F] [fA] | [AF]> [FD][G/E][A/F] \
+| "G"[B2G] [gB] | "Em"[B2GE] [A/F][B/G] \
+| "A7"[cA] [EC]> [FD] | [GE]> [FD][G/E][A/F] \
+| [BG] [AF] [GE] | "D"[A2FD] ||
+y3/ [F/D][G/E] \
+| "D"[A2F] [fA] | [AF]> [FD][G/E][A/F] \
+| "G"[B2G] [gB] | "Em"[B2GE] [B/G][d/B] \
+| "A7"[cA]> [dB][c/A][B/G] | [AF] [fA] [eG] \
+| "D"[dF]> [eG][d/F][c/E] | [d2F] :|
+
+
+X: 2
+P: R\oragenvalsen
+C: Sven Nyhus
+R: waltz
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+zE2 \
+| "A"[c3E]([dF][c2E]) | "E7"[B3D][cE]-[d2F] \
+| "A"[c4E][B2D] | [A3C][BD][c2=GE] \
+| "D"[d3F][eG]-[f2A] | "E7"[e2G][B2G][d2F] \
+| "A"[c6E]- | [c3E][AC][BD][cE] |
+| "D"[d2F]z[FD][F2D] | [F2D][A2F][d2A] \
+| "A"[c3A]BAc | [e3c][ec][e2c] \
+| "Bm"[d2B]-[c2A][BG][cA] | "E7"[d2B]zE[FD]G \
+| "A"[A3C][AC][A2C] | [A3C] :|
+|: efg | "A"[a2e]z[ae][a2e] | "C#aug"[a2^e][a2c][g2B]  \
+| "D"[g4B][f2A] | "(Bm)"[f4A]B2 \
+| "E7"[g4B]B2 | [g4B][f2A] \
+| "A"[e3A]^def | "E7"[e4G][d2B] |
+| "A"[c3A]ABc | "Bm"[d4B][c2A] \
+| [B2F][F4D] | [B3F]ABd \
+| "A"[c3A]BAc | "E7"[B3E]E[FD]G \
+| "A"[A3C][AC][A2C] | [A3C] :|
+
+%%newpage
+
+
+X: 0
+T: Waltz: Ozhidanie
+K: C
+
+
+X: 1
+P: Ozhidanie  (Expectation Waltz)  (Arkadi's Vals)
+C: G.L.Kitler (ca.1900)
+O: Russia
+Z: John Chambers <jc:trillian.mit.edu>
+R: Waltz
+M: 3/4
+L: 1/4
+K: Dm
+|: z A, || "Dm"B,2 A, | D2 E | F3- | F D E | F D E | F D F | "A7"E3- | E z A, | B,2 A, | E2 F |
+| G3- | G E F | G E F | G A B | "Dm"A3- | A z A, | "Dm"B,2 A, | D2 E | F3- | F z D/E/ |
+| F z E/F/ | "C7"G z F/G/ | "F"A3- | A B A | "A7"G3- | G A G | "Dm"F3- | F G F | "A7"E2 B | A2 ^C | "Dm"D3- | HD :|
+|: A F || "Dm"A3- | A A F | A3- | A B G | "Gm"B3- | B B G | B3- | B E F | "A7"G3- | G F G |
+| "Dm"A3- | A G F | "A7"E> AB/A/ | ^C> AB/A/ | "Dm"D3- | D :| \
+|: d c || "C7"c3- | c B G |"F"A> A A | z _e d |
+|"D7"d3- | d c A | "Gm"B> B B | z G A "C7"B3- | B G d | "F"c3- | c A F | "C7"C> EG/B/ | d2 c | "F"F3- | "d.C."F :|
+
+
+X: 2
+P: Ozhidanie  (Expectation Waltz)
+C: G.L.Kitler (ca.1900)
+O: Russia
+Z: John Chambers <jc:trillian.mit.edu>
+R: Waltz
+M: 3/4
+L: 1/4
+K: Em
+|: z B, || "Em"C2 B, | E2 F | G3- | G E F | G E F | G E G | "B7"F3- | F z B, | C2 B, | F2 G |
+| A3- | A F G | A F G | A B c | "Em"B3- | B z B, | "Em"C2 B, | E2 F | G3- | G z E/F/ |
+| G z F/G/ | "D7"A z G/A/ | "G"B3- | B c B | "B7"A3- | A B A | "Em"G3- | G A G | "B7"F2 c | B2 ^D | "Em"E3- | HE :|
+|: B G || "Em"B3- | B B G | B3- | B c A | "Am"c3- | c c A | c3- | c F G | "B7"A3- | A G A |
+| "Em"B3- | B A G | "B7"F> Bc/B/ | ^D> Bc/B/ | "Em"E3- | E :| \
+|: e d || "D7"d3- | d c A |"G"B> B B | z =f e |
+|"E7"e3- | e d B | "Am"c> c c | z A B "D7"c3- | c A e | "G"d3- | d B G | "D7"D> FA/c/ | e2 d | "G"G3- | "d.C."G :|
+
+%%newpage
+
+
+X: 0
+T: Saint Barnard's Waltz 2
+K: C
+
+
+X: 1
+M:3/4
+L:1/4
+P: St. Barnard's Waltz
+%Q:100
+C:Ward & Swallow
+S:Tim Willets <tlw:redowa.co.uk> tradtunes 2004-1-23
+P: Play A-A-B-A
+K:C
+"A"\
+|:"C"e3 | c3 | Gz"Eaug"^G | "Am"AzG \
+| "C"e3 | "A/c#"g3 | "Dm"f3- | f2G |
+| f3 | d3 | "G7"B3 | "Dm"A3 \
+| "G7"GBd | "G7"g_gf | "C"e^de | "G7"dBG |
+| "C"e3 | c3 | Gz"Eaug"^G | "Am"AzG \
+| "C"E3 | G2^G | "F"A3- | A"I"[|]Bc |
+| "F"cBA | "D7"cBA | "C"Gce | "A7"ggf \
+| "D7"e3 | "G7"d3 | "C"cGA | "G7"Bcd :|
+"B"\
+[|"C"e2g | "G"d2g | "C"czC | Czz \
+| "C"G2A | "G"F2G | "C"E3 | GAB |
+| "F"c3 | cBA | "G7"G2F | "G"D3 \
+| G2F | D3 | "Am"A2"Edim"_A | "G7"GAB |
+| "C"e2g | "G"d2g | "C"czC | Czz \
+| "C"c3 | c2B | "F"A3 | A2B |
+| "F"cBA | "D7"cBA | "C"Gce | "A7"ggf \
+| "D7"e3 | "G7"d3 | "C"cGA | "G7"Bcd "d.C."[|]|]
+
+%%newpage
+
+
+X: 1
+T: Salo Enis Klezmer Waltz   [Dm]
+C: Salo Enis 1915-2013
+%date 1935
+R: waltz
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+A2 |:\
+"Dm"f3 e ed | "D7"d2 A2 c2 | "Gm"B6- | B4 G2 |\
+"C"e3 d d^c | "A7"^c3 B AG | "Dm"F2 G3 A | "A7"A4 A2 |
+"Dm"f3 e gf | "D7"e2 d2 A2 | "Gm"c4 B2 | B6 |\
+"A7"A3 B ^cd | e4 f2 | "Dm"d6- | [1 d4 A2 :|[2 d6 ||
+|:\
+"Dm"DE F2 A2 | d2 f3 d | "A7" d2 ^c4- | c4 A2 |\
+e2 ^c3 A | e2 ^c3 A | "Dm"G2 F4- | F6 |
+"Dm"D2 F2 A2 | d2 f2 e2 | "D7"d2 c3 B | "Gm"G6 |\
+"A7"A3 B ^cd | e2 f4 |[1 "Dm"d6- | d6 :|2 "Dm"d3 d AF | D4 |]
+
+%%sep 1 1 400
+
+
+X: 1
+T: Salo Enis Klezmer Waltz   [Am]
+C: Salo Enis 1915-2013
+%date 1935
+R: waltz
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+E2 |:\
+"Am"c3 B BA | "A7"A2 E2 G2 | "Dm"F6- | F4 D2 |\
+"G"B3 A A^G | "E7"^G3 F ED | "Am"C2 D3 E | "E7"E4 E2 |
+"Am"c3 B dc | "A7"B2 A2 E2 | "Dm"G4 F2 | F6 |\
+"E7"E3 F ^GA | B4 c2 | "Am"A6- | [1 A4 E2 :|[2 A6 ||
+|:\
+"Am"A,B, C2 E2 | A2 c3 A | "E7" A2 ^G4- | G4 E2 |\
+B2 ^G3 E | B2 ^G3 E | "Am"D2 C4- | C6 |
+"Am"A,2 C2 E2 | A2 c2 B2 | "A7"A2 G3 F | "Dm"D6 |\
+"E7"E3 F ^GA | B2 c4 |[1 "Am"A6- | A6 :|2 "Am"A3 A EC | A,4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Salo Enis Klezmer Waltz   [Em]
+C: Salo Enis 1915-2013
+%date 1935
+R: waltz
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Em
+B2 |:\
+"Em"g3 f fe | "E7"e2 B2 d2 | "Am"c6- | c4 A2 |\
+"D"f3 e e^d | "B7"^d3 c BA | "Em"G2 A3 B | "B7"B4 B2 |
+"Em"g3 f ag | "E7"f2 e2 B2 | "Am"d4 c2 | c6 |\
+"B7"B3 c ^de | f4 g2 | "Em"e6- | [1 e4 B2 :|[2 e6 ||
+|:\
+"Em"EF G2 B2 | e2 g3 e | "B7" e2 ^d4- | d4 B2 |\
+f2 ^d3 B | f2 ^d3 B | "Em"A2 G4- | G6 |
+"Em"E2 G2 B2 | e2 g2 f2 | "E7"e2 d3 c | "Am"A6 |\
+"B7"B3 c ^de | f2 g4 |[1 "Em"e6- | e6 :|2 "Em"e3 e BG | E4 |]
+
+%%sep 1 1 400
+
+
+X: 1
+T: Salo Enis Klezmer Waltz   [Bm]
+C: Salo Enis 1915-2013
+%date 1935
+R: waltz
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Bm
+F2 |:\
+"Bm"d3 c cB | "B7"B2 F2 A2 | "Em"G6- | G4 E2 |\
+"A"c3 B B^A | "F7"^A3 G FE | "Bm"D2 E3 F | "F7"F4 F2 |
+"Bm"d3 c ed | "B7"c2 B2 F2 | "Em"A4 G2 | G6 |\
+"F7"F3 G ^AB | c4 d2 | "Bm"B6- | [1 B4 F2 :|[2 B6 ||
+|:\
+"Bm"B,C D2 F2 | B2 d3 B | "F7" B2 ^A4- | A4 F2 |\
+c2 ^A3 F | c2 ^A3 F | "Bm"E2 D4- | D6 |
+"Bm"B,2 D2 F2 | B2 d2 c2 | "B7"B2 A3 G | "Em"E6 |\
+"F7"F3 G ^AB | c2 d4 |[1 "Bm"B6- | B6 :|2 "Bm"B3 B FD | B,4 |]
+
+%%newpage
+
+
+X: 1
+T: Santa Lucia   [C]
+O: Italy, trad Napoli
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+S: Helene Criscio, Tony Santorella "Italian Favorites for Accordion" 1997
+R: waltz
+L: 1/8
+M: 3/4
+K: C
+|: "C"G2 G3 c | "G7"cB B4 | "F"F2 F3 A | "C"AG G4 |
+w: Sul ma-re luc-ci-ca, l'a-stro d'ar- gen-*to,
+| "A7"E2 A2 G2 | "Dm"G_GF4 | "G7"F2 E2 D2 | "C"A2 G4 :|
+w: Pla-ci d~\`e l'on-*da, pro-spe-ro~\`e~il ven-to;
+|: "C"e2 d2 c2 | "Dm"BA d4 | "F"d2 c2 A2 | "C"^FG c4 |
+w: Ve-ni-te~al- l'a-gi-le bar-chet-ta mi-*a
+| "C"ec cG GE | "Dm"Fd d4 |1 "G7"d2 A3 B | "C"d2 c4 :|2 "G7"d2 e3 d | d2 "C"c4 :|
+w: San-*ta* Lu-* ci-*a, San-ta Lu- ci-a.  San-ta Lu- ci-a.
+"Coda"[|\
+"C"GA Bc de | "C"fe a3 g | "G7"cB e3 d | "C"c2 [c2E2] z2 |]
+%
+%:1. Sul mare luccica l'astro d'argento. Placida \`e l'onda, prospero \`e il vento. :|
+%:|: Venite all'agile barchetta mia,     Santa Lucia! Santa Lucia! :|
+%:
+W:2. Con questo zeffiro, cos\`i soave, Oh, com'\`e bello star sulla nave! :|
+W:|: Su passegieri, venite via!      Santa Lucia! Santa Lucia! :|
+%:
+W:3. In fra le tende, bandir la cena In una sera cos\`i serena, :|
+W:|: Chi non dimanda, chi non desia. Santa Lucia! Santa Lucia! :|
+%:
+W:4. Mare s\`i placida, vento s\`i caro, Scordar fa i triboli al marinaro, :|
+W:|: E va gridando con allegria,     Santa Lucia! Santa Lucia! :|
+%:
+W:5. O dolce Napoli, o suol beato,   Ove sorridere volle il creato, :|
+W:|: Tu sei l'impero dell'armonia,   Santa Lucia! Santa Lucia! :|
+%:
+W:6. Or che tardate? Bella \`e la sera. Spira un'auretta fresca e leggiera. :|
+W:|: Venite all'agile barchetta mia,  Santa Lucia! Santa Lucia! :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Santa Lucia   [G]
+O: Italy, trad Napoli
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+R: waltz
+L: 1/8
+M: 3/4
+K: G
+|: "G"d2 d3 g \
+| "D7"gf f4 \
+| "C"c2 c3 e \
+| "G"ed d4 \
+| "E7"B2 e2 d2 \
+| "Am"d_dc4 \
+| "D7"c2 B2 A2 \
+| "G"e2 d4 :|
+|: "G"b2 a2 g2 \
+| "Am"fe a4 \
+| "C"a2 g2 e2 \
+| "G"^cd g4 \
+| "G"bg gd dB \
+| "Am"ca a4 \
+|1 "D7"a2 e3 f \
+| "G"a2 g4 \
+:|2 "D7"a2 b3 a \
+| "G"a2 g4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Santa Lucia   [D]
+O: Italy, trad Napoli
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+R: waltz
+L: 1/8
+M: 3/4
+K: D
+|: "D"A2 A3 d \
+| "A7"dc c4 \
+| "G"G2 G3 B \
+| "D"BA A4 \
+| "B7"F2 B2 A2 \
+| "Em"A_AG4 \
+| "A7"G2 F2 E2 \
+| "D"B2 A4 :|
+|: "D"f2 e2 d2 \
+| "Em"cB e4 \
+| "G"e2 d2 B2 \
+| "D"^GA d4 \
+| "D"fd dA AF \
+| "Em"Ge e4 \
+|1 "A7"e2 B3 c \
+| "D"e2 d4 \
+:|2 "A7"e2 f3 e \
+| "D"e2 d4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Santa Lucia   [A]
+O: Italy, trad Napoli
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+R: waltz
+L: 1/8
+M: 3/4
+K: A
+[| "A"e2 e3 a | "E7"ag g4 | "D"d2 d3 f | "A"fe e4 \
+| "F#7"c2 f2 e2 | "Bm"e_ed4 | "E7"d2 c2 B2 | "A"f2 e4 |]
+|: "A"c'2 b2 a2 | "Bm"gf b4 | "D"b2 a2 f2 | "A"^de a4 \
+| "A"c'a ae ec | "Bm"db b4 |1 "E7"b2 f3 g | "A"b2 a4 :|2 "E7"b2 c'3 b | "A"b2 a4 :|
+
+%%newpage
+
+
+X: 0
+T: Waltz: Seamus O'Brien
+K:
+
+% waltz/SeamusOBrien_F.abc
+
+
+X: 1
+P: Seamus O'Brien  [F] (James O'Brien)
+B:The Grumbling Old Woman (Donna Hinds)
+N:From the playing of Eleanor Townsend
+Z:Nigel Gatherer
+M:3/4
+R:Waltz
+L:1/8
+K:F
+A>B \
+| "F"d2 c2 c>A | F4 E>F | "Bb"D2 F2 D2 | "F"C4 D>E \
+| "Dm"F2 E2 F2 | d2 c2 A2 | "G7"G3 D EF | "C7"G4 ||
+A>B \
+| "F"d2 c2 c>A | "F"F3 F E>F| "Bb"D2 F2 B2 | "G7/b"d4 f>d \
+| "F/c"c3 c A>F | "C7"G2 D2 E2 | "F"F4- F>G | F4 |]
+A>c \
+| "Bb"d3 c d>e | "Bb"f2 e2 d2 | "Am"e2 c3 A | "Am"c4 A>c \
+| "Bb"d3 c d>e | "G7/b"f2 e2 d2 | "C"e4 e2 | "C7"e4 ||
+f>e \
+| "Bb"d2  c2  c>A | "F"F3 F E>F | "Bb"D2 F2 B2 | "G/b"d3 f e>d \
+| "F"c3 c A>F | "C7"G2 D2 E2 | "F"F4- F>G | F4 |]
+
+% waltz/SeamusOBrien_G.abc
+
+
+X: 2
+P: Seamus O'Brien  [G] (James O'Brien)
+B:The Grumbling Old Woman (Donna Hinds)
+N:From the playing of Eleanor Townsend
+Z:Nigel Gatherer
+M:3/4
+R:Waltz
+L:1/8
+K:G
+B>c \
+| "G"e2 d2 d>B | G4 F>G | "C"E2 G2 E2 | "G"D4 E>F \
+| "Em"G2 F2 G2 | e2 d2 B2 | "A7"A3 E FG | "D7"A4 ||
+B>c \
+| "G"e2 d2 d>B | "G"G3 G F>G| "C"E2 G2 c2 | "A7/c#"e4 g>e \
+| "G/d"d3 d B>G | "D7"A2 E2 F2 | "G"G4- G>A | G4 |]
+B>d \
+| "C"e3 d e>f | "C"g2 f2 e2 | "Bm"f2 d3 B | "Bm"d4 B>d \
+| "C"e3 d e>f | "A7/c#"g2 f2 e2 | "D"f4 f2 | "D7"f4 ||
+g>f \
+| "C"e2  d2  d>B | "G"G3 G F>G | "C"E2 G2 c2 | "A/c#"e3 g f>e \
+| "G"d3 d B>G | "D7"A2 E2 F2 | "G"G4- G>A | G4 |]
+
+%%newpage
+
+#abcjoin: UCT=1.
+#abcjoin: sep=2.
+
+
+X: 1
+T: Setesvalsen    [G]
+T: Vals fran Setesdalen
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+N: This rather irregular tune (note the 14- and 23-bar phrases)
+N: is commonly played as a "last waltz" all over Scandinavia.
+O: Trad
+M: 3/4
+L: 1/8
+K: G
+|: D2 \
+|| "G"[B3D] [cE][BD][AC] \
+| [B3D] [cE][BD][AC] \
+| "D7"[B2D] [A2C] [F2C] \
+| "G"[G4B,] [D2B,] \
+| "G"[B3D] [cE][BD][AC] \
+| [B3D] [cE][BD][AC] \
+| [G2B,] [B2D] [d2G] |
+| "C"[g2e] [f2d] [e2c] \
+| [e2c] [d2B] [c2G] \
+| "D7"[d3F] [eG][dF][cE] \
+| "G"[B3D] [cE][BD][AC] \
+| [B3D] [cE][BD][AC] \
+| "D7"[B2D] [A2D] [F2C] \
+| "G"[G4B,] :|
+|: [B2D] || "C"[c2E] [cE][cE] [cE][cE] \
+| "D7"[c2E] [B2D] [A2C] \
+| "G"[B3D] [AC][GB,][BD] \
+| [d2G] [B2D] [G2B,] \
+| "Am"[A3C] [GB,][FA,][GB,] \
+| "D7"[A3C] [GB,][FA,][EB,] \
+| [D2A,] [B2D] [c2F] |
+| "G"[d4G] [e2G] \
+| "C"[c2E] [cE][cE] [cE][cE] \
+| "D7"[c2E] [B2D] [A2C] \
+| "G"[B3D] [AC][GB,][BD] \
+| [d2G] [B2D] [G2B,] \
+| "Am"[A3C] [GB,][FA,][GB,] \
+| "D7"[A3C] [GB,][FA,][EB,] \
+| [D2A,] [E2C] [F2C] |
+| "G"[G2B,] [B2D] [c2G] \
+| [d2B] [g2e] [f2d] \
+| "C"[e2c] [d2B] [c2G] \
+| "D7"[d3F] [eG][dF][cE] \
+| "G"[B3D] [cE][BD][AC] \
+| [B3D] [cE][BD][AC] \
+| "D7"[B2D] [A2D] [F2C] \
+| "G"[G4B,] :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+
+X: 2
+T: Setesvalsen    [A]
+T: Vals fran Setesdalen
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+N: This rather irregular tune (note the 14- and 23-bar phrases)
+N: is commonly played as a "last waltz" all over Scandinavia.
+O: Trad
+M: 3/4
+L: 1/8
+K: G
+|: E2 \
+|| "A"[c3E] [dF][cE][BD] \
+| [c3E] [dF][cE][BD] \
+| "E7"[c2E] [B2D] [G2D] \
+| "A"[A4C] [E2C] \
+| "A"[c3E] [dF][cE][BD] \
+| [c3E] [dF][cE][BD] \
+| [A2C] [c2E] [e2A] |
+| "D"[a2f] [g2e] [f2d] \
+| [f2d] [e2c] [d2A] \
+| "E7"[e3G] [fA][eG][dF] \
+| "A"[c3E] [dF][cE][BD] \
+| [c3E] [dF][cE][BD] \
+| "E7"[c2E] [B2E] [G2D] \
+| "A"[A4C] :|
+|: [c2E] || "D"[d2F] [dF][dF] [dF][dF] \
+| "E7"[d2F] [c2E] [B2D] \
+| "A"[c3E] [BD][AC][cE] \
+| [e2A] [c2E] [A2C] \
+| "Bm"[B3D] [AC][GB,][AC] \
+| "E7"[B3D] [AC][GB,][FC] \
+| [E2B,] [c2E] [d2G] |
+| "A"[e4A] [f2A] \
+| "D"[d2F] [dF][dF] [dF][dF] \
+| "E7"[d2F] [c2E] [B2D] \
+| "A"[c3E] [BD][AC][cE] \
+| [e2A] [c2E] [A2C] \
+| "Bm"[B3D] [AC][GB,][AC] \
+| "E7"[B3D] [AC][GB,][FC] \
+| [E2B,] [F2D] [G2D] |
+| "A"[A2C] [c2E] [d2A] \
+| [e2c] [a2f] [g2e] \
+| "D"[f2d] [e2c] [d2A] \
+| "E7"[e3G] [fA][eG][dF] \
+| "A"[c3E] [dF][cE][BD] \
+| [c3E] [dF][cE][BD] \
+| "E7"[c2E] [B2E] [G2D] \
+| "A"[A4C] :|
+
+%%sep 3 1 530
+%%sep 1 1 530
+%%sep 1 1 530
+
+
+X: 1
+T: Sommarvals
+C: Ale M\"oller
+R: waltz
+Z: John Chambers <jc:trillian.mit.edu>
+N: after a transcription by Karen Myers
+M: 3/4
+L: 1/4
+K: G
+dc |\
+"G"B>AG | "D7"A2F | "C"G3 | E>FE |\
+"G"DGA | "Am"c2B | "(D7)"B{cB}AG | "D7"Adc ||\
+"G"B>AG | "D7"A2F |
+| "Em"G3 | "C"E>FE |\
+"G"DEG | "D7"G>AF | "G"G3- | G :: FG |\
+"D7"A>BA | AFD | "(C)"c3 | "G"B>AG | "Am"EA/B/c |
+| "Bm"d>cB/A/ | "Em"GFG | "D7"ABA ||\
+"Em"G>AG | "Bm"F>GF | "C"E>FE | "G"DGA |\
+"G"B>AG | "D7"A{Bc}dF | "C"G3- | "G"G :|
+
+%%newpage
+
+
+X: 1
+T: \vSano Du\vso  [C]
+T: (Waltz)
+O: Srbija
+R: waltz
+M: 3/4
+L: 1/8
+Z: John Chambers <jc:trillian.mit.edu>
+N: This song is traditionally sung in both waltz and lesnoto rhythms.
+K: C
+|: "Fm"[c_A][cA] [c2A] [c2A] | "G"[BG][_AF] [GE][AF] ([BG][cA]) |  "Fm"[BG][_AF] [B2G] [A2F] | "C"[G2E] [G4E] :|
+w: 1.~\vSa-no du-\vso, \vSa-no mo-*ri,* ot-vo-ri mi vra-ta.
+w: 2.~Noc' li ho-di, div-no \vSa-*no,* ja si tu-ga vi-jem.
+w: 3.~Tvo-je li-ce be-lo, \vSa-*no,* sneg je za pla-ni-ne.
+[| "F"[=AF][AF] [A2F] [A2F] | [AF][GE] ([AF][BG]) [c2A] | "G7"[GE][AF] [G2E] [F2D] | "C"[E2C] [E4C] |]
+w:    Ot-vo-ri mi, \vSa-no, vra-*ta, da ti dam du-ka-ta.
+w:    U-ba-vi-nja tvo-ja, \vSa-*no, ne da mi da spi-jem.
+w:    Tvo-je c'e-lo gi-di, \vSa-*no, ka-ko me-se-c'i-ne.
+[| "C"[EC][FD] [G2E] [FD][EC] | "Dm"[DB,][D2B,] [A4F] | "G7"[GE][AF] [G2E] [F2D] | "C"[E2C] [E4C] |
+w:    Oj, le le le le le le le, iz-go-re za te-be,
+|  "C"[EC][FD] [G2E] ([FD][EC]) | "Dm"[D2B,] [A4F] | "G7"([GE][AF]) [G2E] [F2D] | "C"[E2C] [E4C] |]
+w:    Iz-go-re mi,* \vSa-no, sr-*ce za te-be.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: \vSano Du\vso  (D)
+T: (Waltz)
+O: Srbija
+R: waltz
+M: 3/4
+L: 1/8
+Z: John Chambers <jc:trillian.mit.edu>
+N: This song is traditionally sung in both waltz and lesnoto rhythms.
+K: D
+|: "Gm"[d_B][dB] [d2B] [d2B] | "A"[cA][_BG] [AF][BG] ([cA][dB]) |  "Gm"[cA][_BG] [c2A] [B2G] | "D"[A2F] [A4F] :|
+w: 1.~\vSa-no du-\vso, \vSa-no mo-*ri,* ot-vo-ri mi vra-ta.
+w: 2.~Noc' li ho-di, div-no \vSa-*no,* ja si tu-ga vi-jem.
+w: 3.~Tvo-je li-ce be-lo, \vSa-*no,* sneg je za pla-ni-ne.
+[| "G"[=BG][BG] [B2G] [B2G] | [BG][AF] ([BG][cA]) [d2B] | "A7"[AF][BG] [A2F] [G2E] | "D"[F2D] [F4D] |]
+w:    Ot-vo-ri mi, \vSa-no, vra-*ta, da ti dam du-ka-ta.
+w:    U-ba-vi-nja tvo-ja, \vSa-*no, ne da mi da spi-jem.
+w:    Tvo-je c'e-lo gi-di, \vSa-*no, ka-ko me-se-c'i-ne.
+[| "D"[FD][GE] [A2F] [GE][FD] | "Em"[EC][E2C] [B4G] | "A7"[AF][BG] [A2F] [G2E] | "D"[F2D] [F4D] |
+w:    Oj, le le le le le le le, iz-go-re za te-be,
+|  "D"[FD][GE] [A2F] ([GE][FD]) | "Em"[E2C] [B4G] | "A7"([AF][BG]) [A2F] [G2E] | "D"[F2D] [F4D] |]
+w:    Iz-go-re mi,* \vSa-no, sr-*ce za te-be.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+%%newpage
+
+
+X: 1
+T: The Star of the County Down   [Am]
+O: Trad
+R: waltz
+N: Also in 2/4 as a ballad.
+N: There is a County Down in both Ireland and Scotland, and both claim this tune.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+EG \
+|: "Am"A4 A2 | "F"A3 G A2 | "C"c4 c2 | "G"d4 cd | "Am"e3 d c2 |\
+[1 "Am"A3 G E2 | "Em"G6- | G2 c2 B2 :|\
+[2 "Dm"A4 A2 | "Am"A6- | A4 |]
+ce |\
+"C"g4 e2 | e3 d c2 | "G"d4 d2 | d4 cd |\
+"C"e3 d c2 | "Am"A3 G E2 | "Em"G6- | G2 c2 B2 ||
+"Am"A4 A2 | "F"A3 G A2 | "C"c4 c2 | "G"d4 cd |\
+"Am"e3 d c2 | "Dm"A4 A2 | "Am"A6- | A4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: The Star of the County Down   [Em]
+O: Trad
+R: waltz
+N: Also in 2/4 as a ballad.
+N: There is a County Down in both Ireland and Scotland, and both claim this tune.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Em
+B,D \
+|: "Em"E4 E2 | "C"E3 D E2 | "G"G4 G2 | "D"A4 GA | "Em"B3 A G2 |\
+[1 "Em"E3 D B,2 | "Bm"D6- | D2 G2 F2 :|\
+[2 "Am"E4 E2 | "Em"E6- | E4 |]
+GB |\
+"G"d4 B2 | B3 A G2 | "D"A4 A2 | A4 GA |\
+"G"B3 A G2 | "Em"E3 D B,2 | "Bm"D6- | D2 G2 F2 ||
+"Em"E4 E2 | "C"E3 D E2 | "G"G4 G2 | "D"A4 GA |\
+"Em"B3 A G2 | "Am"E4 E2 | "Em"E6- | E4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+%%newpage
+
+
+X: 0
+T: Waltz: Sz\la dzieweczka
+K: C
+
+
+X: 1
+P: Sz\la dzieweczka
+O: Poland
+R: waltz
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: C
+|: "C"G2 c | e2 d | "F"c2 B | c B A | "C"G2 G | E2 F | G3- | G3 | "G7"F2 F | D2 E | F3- | F3 |
+|1 "C"G2 G | E2 F | G3- | G3 :|2 "C"G2 G | e2 d | c3- | c3 [| "C"e e/d/c | e e/d/c | "A7"e f> e | "Dm"d3 |
+| "G7"d d/c/B | d d/c/B | d e> d | "C"c3 || "C" e e/d/c | e e/d/c | "A7"e f> e | "Dm"d2 e \
+| "Dm"f e d | "C"c B A | "G7"G A B | "C"c3 |]
+
+
+X: 2
+P: Sz\la dzieweczka (with harmony and "cuckoos")
+O: Poland
+R: waltz
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: C
+|: "C"[G2E] [cG] | [e2c] [dB] | "F"[c2A] [BG] | [cA] [BG] [AF] \
+| "C"[G2E] [GE] | [E2C] [FD] | [G2E] .[ge] | [e3c] | "G7"[F2D] [FD] | [D2B,] [EC] | [F2D] .[fd] | [d3B] |
+|1 "C"[G2E] [GE] | [E2C] [FD] | [G2E] .[ge] | [e3c] :|2 "C"[G2E] [GE] | [e2G] [dF] | [c3E]- | [c3E] \
+[| "C"[eG] [e/G][d/F][cE] | [eG] [e/G][d/F][cE] | "A7"[eG] [fA]> [eG] | "Dm"[d3F] |
+| "G7"[dF] [d/F][c/E][BD] | [dF] [d/F][c/E][BD] | [dF] [eG]> [dF] | "C"[c3E] \
+|| "C" [eG] [e/G][d/F][cE] | [eG] [e/G][d/F][cE] | "A7"[eG] [fA]> [eG] | "Dm"[d2F] [eG] \
+| "Dm"[fA] [eG] [dF] | "C"[cE] [BE] [AF] | "G7"[GG] [A_G] [BF] | "C"[c3E] |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 3
+P: Sz\la dzieweczka
+O: Poland
+R: Waltz
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+|: "D"A2 d | f2 e | "G"d2 c | d c B | "D"A2 A | F2 G | A3- | A3 | "A7"G2 G | E2 F | G3- | G3 |
+|1 "D"A2 A | F2 G | A3- | A3 :|2 "D"A2 A | f2 e | d3- | d3 [| "D"f f/e/d | f f/e/d | "B7"f g> f | "Em"e3 |
+| "A7"e e/d/c | e e/d/c | e f> e | "D"d3 || "D" f f/e/d | f f/e/d | "B7"f g> f | "Em"e2 f \
+| "Em"g f e | "D"d c B | "A7"A B c | "D"d3 |]
+
+
+X: 4
+P: Sz\la dzieweczka (with harmony and "cuckoos")
+O: Poland
+R: Waltz
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+|: "D"[A2F2] [dA] | [f2d2] [ec] | "G"[d2B2] [cA] | [dB] [cA] [BG] \
+| "D"[A2F2] [AF] | [F2D2] [GE] | [A2F2] .[af] | [f3d3] | "A7"[G2E2] [GE] | [E2C2] [FD] | [G2E2] .[ge] | [e3c3] |
+|1 "D"[A2F2] [AF] | [F2D2] [GE] | [A2F2] .[af] | [f3d3] :|2 "D"[A2F2] [AF] | [f2A] [eG] | [d3F3]- | [d3F3] \
+[| "D"[fA] [f/A/][e/G/][dF] | [fA] [f/A/][e/G/][dF] | "B7"[fA] [gB]> [fA] | "Em"[e3G3] |
+| "A7"[eG] [e/G/][d/F/][cE] | [eG] [e/G/][d/F/][cE] | [eG] [fA]> [eG] | "D"[d3F3] \
+|| "D" [fA] [f/A/][e/G/][dF] | [fA] [f/A/][e/G/][dF] | "B7"[fA] [gB]> [fA] | "Em"[e2G2] [fA] \
+| "Em"[gB] [fA] [eG] | "D"[dF] [cF] [BG] | "A7"[AA] [B_A] [cG] | "D"[d3F3] |]
+
+%%newpage
+
+
+X: 1
+T: Take Me Out to the Ball Game
+C: Albert von Tilzer
+R: waltz
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: F
+[| "F"Fzf | "(Dm)"dcA | "C7"c3 | G3 | "F"Fzf | "(Dm)"dcA | "C"c3- | c3 |
+| "D7"d^cd | ABc | "Gm"d2B | G3 | "G7"d2d | def | "C"ged | cAG |
+|  "F"Fzf | "(Dm)"dcA | "C7"c3 | G2A | "F"F2G | "F7"ABc | "Bb"d3- | dde |
+|  "Bb"fz2 | "G7/B"fz2 | "C"fed | "D7"c=Bc | "G(m)"d3 | "C7"e3 | "F"f3- | fz2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Take Me Out to the Ball Game
+C: Albert von Tilzer
+R: waltz
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: G
+[| "G"Gzg | "(Em)"edB | "D7"d3 | A3 | "G"Gzg | "(Em)"edB | "D"d3- | d3 |
+| "E7"e^de | Bcd | "Am"e2c | A3 | "A7"e2e | efg | "D"afe | dBA |
+|  "G"Gzg | "(Em)"edB | "D7"d3 | A2B | "G"G2A | "G7"Bcd | "C"e3- | eef |
+|  "C"gz2 | "A7/C#"gz2 | "D"gfe | "E7"d^cd | "A(m)"e3 | "D7"f3 | "G"g3- | gz2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+%%newpage
+
+
+X: 1
+T: Tosa valsen
+T: the Tosa Waltz
+O: trad Sweden, Finland
+Z: John Chambers <jc:trillian.mit.edu>
+S: handwritten MS
+B: The Waltz Book v.1 p.51 (has E chords in bars 4 and 12)
+D: Asa Jinder, "Asa Jinder" 1985 (Elin Music)
+D: "Soir et Matin", Kerry Elkin, 440 Snipatuit Rd, Rochester MA 02770
+M: 3/4
+L: 1/8
+K: Dm
+A,DE \
+| "Dm"F2 FG FE | D2 ^CD FA | d2 ^cd af | "A7"e3 fgf \
+| "Dm"d3 fed | "Am"c3 c=BA | "E7"=B2 E^G BG | "A7"A3 A,DE |
+| "Dm"F2 FG FE | D2 ^CD FA | d3 d^cd | "A7"e3 afe \
+| "Dm"d3 efd | "Gm"ed B2 G2 | "A7"A2{BA}^GA ^cA | "Dm"d3 :|
+K: D
+|: "A7"ABc \
+| "D"d2 AF Ad | "F#m"c2 AF Ac | "G"B2 cd cB | "D"A3 DEF \
+| "G"G2 AB AG | "D/F#"FE FG AB | "E(m)"Bc df ed | "A7"e3 Ade |
+| "D"f2 ag fe | d2 de dc | "G"B2 ce dB | "D/F#"A3 DEF \
+| "Em"G2 AB AG | "D"FA GF ED | "A7"DC CE DC | "D"D3 :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: the Tosa Waltz
+C: Michael Cassidy 1996
+N: This tune was composed in 1996 by Michael Cassidy, fiddle player with the group
+N: Craobh  Rua.   It was composed during a trip to America in 1996, for friends in
+N: Wauwatosa, Wisconsin.
+S: http://grainne.harp.net/BTSnotes.htm
+M: 3/4
+L: 1/8
+R: waltz
+K: G
+|: DGA |\
+"G"B3 d B2 | "D7"c3 A [c2D2] | "G"{A}B3 AGD | "C"EG2- G (3GFE |\
+"G"D3 E G2 | D3 E G2 | D2 G2 B2 | "D7"A3 DGA |
+"G"B3 d B2 | "D7"c3 A [c2D2] | "G"{A}B3 AGD | "C"EG2 G (3GFE |\
+"G"D3 E G2 | "D7"D2 B2 A2 | "C"G3 A GF | "G"G3 :|
+|: "D7"def |\
+"G"g2 d3 g | "C"e2 d3 c | "G"{A}B2- BA GD | "C"EG2- G (3GFE |\
+"G"D3 E GA | B2 c2 d2 | "C"e2 ef ga | "D7"f3 {e}d (3def |
+"G"g2 d3 g | "C"e2 d3 c | "G"{A}B2- BA GD | "C"EG2 G (3GFE |\
+"G"D3 E GA | B2 g2 B2 | "D7"A4 G>F | "G"G3 :|
+%%text http://www.youtube.com/watch?v=V8vcoAqqdng
+%%text http://www.youtube.com/watch?v=ZNbC3v6pK60
+%%text http://www.youtube.com/watch?v=ztvAiPUYZ9s
+
+%%sep 1 1 500
+
+%%newpage
+
+
+X: 1
+T: Tourner \`a trois   (Gm)
+C: Paul Machlis (1998)
+R: waltz
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: Peter Barnes "English Country Dance Tunes" V.2
+M: 3/4
+L: 1/8
+K: Gm
+||:"Gm"Bc d3 D | "Cm"EF G4 | "F"AB c3 C | "Bb"E2 D4 \
+|  "Gm"G,B, DG Bd | "Cm"cd e4 |1 "Am"de d3 D | "D7"de dc BA \
+                            :|2 "D7"d3 cBA | "Gm"G6 ||
+[| "F"AB c3 e | "Bb"e2 d4 | "Cm"c3 edc | "Gm"c2 B4 \
+|  "Ab"_AB cd eA | "Gm"GB d4 | "Am"de d3 D | "D7"de d4 ||
+|| "Gm"gd BG DB, | "Cm"EF G4 | "F"AB c3 C | "Bb"E2 D4 \
+|  "Ab"_AB cd eA | "Gm"GB d3 e | "D7"d3 cBA | "Gm"G6 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Tourner \`a trois   [Am]
+C: Paul Machlis (1998)
+R: waltz
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: Peter Barnes "English Country Dance Tunes" V.2
+M: 3/4
+L: 1/8
+K: Am
+||:"Am"cd e3 E | "Dm"FG A4 | "G"Bc d3 D | "C"F2 E4 \
+|  "Am"A,C EA ce | "Dm"de f4 |1 "Bm"ef e3 E | "E7"ef ed cB \
+                            :|2 "E7"e3 dcB | "Am"A6 ||
+[| "G"Bc d3 f | "C"f2 e4 | "Dm"d3 fed | "Am"d2 c4 \
+|  "Bb"_Bc de fB | "Am"Ac e4 | "Bm"ef e3 E | "E7"ef e4 ||
+|| "Am"ae cA EC | "Dm"FG A4 | "G"Bc d3 D | "C"F2 E4 \
+|  "Bb"_Bc de fB | "Am"Ac e3 f | "E7"e3 dcB | "Am"A6 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Tourner \`a trois  [Bm]
+C: Paul Machlis (1998)
+R: waltz
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+B: Peter Barnes "English Country Dance Tunes" V.2
+M: 3/4
+L: 1/8
+K: Bm
+||:"Bm"de f3 F | "Em"GA B4 | "A"cd e3 E | "D"G2 F4 \
+|  "Bm"B,D FB df | "Em"ef g4 |1 "C#m"fg f3 F | "F#7"fg fe dc \
+                            :|2 "F#7"f3 edc | "Bm"B6 ||
+[| "A"cd e3 g | "D"g2 f4 | "Em"e3 gfe | "Bm"e2 d4 \
+|  "C"=cd ef gc | "Bm"Bd f4 | "C#m"fg f3 F | "F#7"fg f4 ||
+|| "Bm"bf dB FD | "Em"GA B4 | "A"cd e3 E | "D"G2 F4 \
+|  "C"=cd ef gc | "Bm"Bd f3 g | "F#7"f3 edc | "Bm"B6 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+%%newpage
+
+
+X: 0
+T: Waltz: Ukranian
+K:
+
+
+X: 1
+P: Ukrainian waltz  [Am]
+O: from Susan Worland
+R: waltz
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+"A"\
+|: "Am"A4 E2 | c3 B A2 | e3 e e2 | Te2 dc BA \
+|  "E7"E2 ^G2 B2 | d2 c2 B2 | "Am"A^G AB cd | ea ed cB |
+|  "Am"A4 B2 | c3 B A2 | e3 e e2 | Te2 dc BA \
+|  "E7"B2 f2 e2 | d2 c2 B2 | "Am"A4 E2 | A6 :|
+"B"\
+|: "E7"E2 ^G2 B2 | E2 ^G2 B2 | "Am"A3 B cB | A2 B2 c2 \
+|  "E7"B3 c d2 | B2 c2 d2 | Tf2 e2 d2 | "Am"e6 |
+|  "Dm"d3 e fe | df e2 d2 | "Am"TcB cd ed | ce d2 c2 \
+|  "E7"B2 f2 e2 | d2 c2 B2 | "Am"A4 E2 | A6 :|
+"C"\
+|:  "C"G6 | {B}c2 d2 f2 | e3 d Tc2 | G6 \
+|  "G7"fe dc BA | G2 A2 G2 | G4 F2 | "C"E6 |
+|   "C"G6 | {B}c2 d2 f2 | e3 d Tc2 | G6 \
+|  "G7"fe dc BA | G2 A2 B2 | "C"c2 G2 E2 | C6 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 2
+P: Ukrainian waltz  [Bm]
+O: from Susan Worland
+R: waltz
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Bm
+"A"\
+|: "Bm"B4 F2 | d3 c B2 | f3 f f2 | Tf2 ed cB \
+|  "F#7"F2 ^A2 c2 | e2 d2 c2 | "Bm"B^A Bc de | fb fe dc |
+|  "Bm"B4 c2 | d3 c B2 | f3 f f2 | Tf2 ed cB \
+|  "F#7"c2 g2 f2 | e2 d2 c2 | "Bm"B4 F2 | B6 :|
+"B"\
+|: "F#7"F2 ^A2 c2 | F2 ^A2 c2 | "Bm"B3 c dc | B2 c2 d2 \
+|  "F#7"c3 d e2 | c2 d2 e2 | Tg2 f2 e2 | "Bm"f6 |
+|  "Em"e3 f gf | eg f2 e2 | "Bm"Tdc de fe | df e2 d2 \
+|  "F#7"c2 g2 f2 | e2 d2 c2 | "Bm"B4 F2 | B6 :|
+"C"\
+|:  "D"A6 | {c}d2 e2 g2 | f3 e Td2 | A6 \
+|  "A7"gf ed cB | A2 B2 A2 | A4 G2 | "D"F6 |
+|   "D"A6 | {c}d2 e2 g2 | f3 e Td2 | A6 \
+|  "A7"gf ed cB | A2 B2 c2 | "D"d2 A2 F2 | D6 :|
+
+%%newpage
+
+
+X: 1
+T: Vals efter Vilhelm Hedlund    [Dm]
+C: efter Edvard S\"oderlund
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+A,2 |: "Dm"A,2 D2 F2 | A4 d2 | (3ded ^c2 d2 | "A7"e4 A2 \
+| "Dm"(3fgf e2 d2 | "A7"^c4 A2 | "Gm"(3BcB A2 G2 | "A7"A4 A,2 |
+| "Dm"A,2 D2 F2 | A4 d2 | (3ded ^c2 d2 | "A7"e4 A2 \
+| "Dm"(3fgf e2 d2 | "A7"^c4 A2 | (3FGF E2 ^C2 | "Dm"D4 :|
+|| "(C7)"c2 |: "F"c2 aa a2 | c2 aa a2 | a2 b3 a | "C7"a4 g2 \
+| B2 gg g2 | B2 gg g2 | "A7"g2 a3 g | "Dm"g4 f2 |
+| "Dm"A2 ff f2 | A2 ff f2 | "Gm"f2 g3 f | e4 d2 \
+| "A7"^c3 dc=B | A2 ^c2 e2 | (3fgf e2 ^c2 | "Dm"d4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Vals efter Vilhelm Hedlund    [Em]
+C: efter Edvard S\"oderlund
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Em
+B,2 |: "Em"B,2 E2 G2 | B4 e2 | (3efe ^d2 e2 | "B7"f4 B2 \
+| "Em"(3gag f2 e2 | "B7"^d4 B2 | "Am"(3cdc B2 A2 | "B7"B4 B,2 |
+| "Em"B,2 E2 G2 | B4 e2 | (3efe ^d2 e2 | "B7"f4 B2 \
+| "Em"(3gag f2 e2 | "B7"^d4 B2 | (3GAG F2 ^D2 | "Em"E4 :|
+|| "(D7)"d2 |: "G"d2 bb b2 | d2 bb b2 | b2 c'3 b | "D7"b4 a2 \
+| c2 aa a2 | c2 aa a2 | "B7"a2 b3 a | "Em"a4 g2 |
+| "Em"B2 gg g2 | B2 gg g2 | "Am"g2 a3 g | f4 e2 \
+| "B7"^d3 ed=c | B2 ^d2 f2 | (3gag f2 ^d2 | "Em"e4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+%%newpage
+
+
+X: 0
+T: Wedding Waltzes
+K:
+
+
+X: 1
+P: Judy and Jim's Wedding
+C: \2511988 Larry Unger
+B: The Curvy Road to Corinth (1989)
+S: Roaring Jelly collection
+Z: transcribed by Mary Lou Knack 6-Jul-1999
+N: Written for Judy Erickson and Jim laleggio.
+M: 3/4
+K: D
+[|"D"D3E FG | "Em7"A2d3c | "F#m7"A2d2fd | "G"G4de \
+| "D"d3c BA | "Bm"B2A2D2 | "G"FG FE DE | "A7"D2C2A,2 |
+| "D"D3E FG | "Em7"A2d3c | "F#m7"A2d2fd | "G"G4de \
+| "D"f3e dc | "G"d2c2B2 | "A7"A2d3c | "D"d4de |]
+\
+[|"D"f3e df | "A7"e2d2c2 | "Bm"d3e dc | "G"c2B2FG \
+| "D"A2d3A | "Em7"G2d3G | "D"F2d2F2 | "A7"E4de |
+| "Bm"f3e df | "Em7"e2d2e2 | "F#m7"f2a2ef | "G"g2f2de \
+| "D"f3e dc | "G"d2c2B2 | "A7"A2d3c | "D"d6 |]
+
+
+X: 2
+P: Anniversary Waltz    [Gm]  (Chanesse Valts)
+O: Eastern European Jewish
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+L: 1/4
+M: 3/4
+R: Waltz
+K: Gm
+|:\
+"D7"D3- | D ^F G | A3- | A ^F D | "Gm"B3- | B A G | d3- | "G7"d3 |
+"Cm"e3- | e d c | "Gm"d3- | d c B | "D7"A3- | A B A | "Gm"G3- | G3 :|
+|:\
+{GABcdef}"Eb"[ge] [ge]>[ge] | [ge] [ge]>[ge] | "Bb"[ge] [fd]>[=e^c] | [f3d] |\
+"Cm"[ec] [ec]>[ec] | [ec] [ec]>[ec] | "Gm"[ec] [dB]>[^cA] | [d3B] |
+"D7"[cA] [cA]>[cA] | [cA] [cA]>[cA] | "Gm"[cA] [BG]>[A^F] | [G2D] [gB] |\
+"Cm"[ec] [cG] [AE] | "D7"[B2D] [A^F] | "Gm"[G3G]- | [G3G] :|
+
+
+X: 3
+P: Hannun ja Riitan h\"a\"avalssi  (Hannu and Riita's Wedding Waltz)
+R: waltz
+C: Konsta Jylh\"a
+B:
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: 3/4
+L: 1/4
+K: Am
+|: "Am"[ec]>fe | "E7"[eB]>fe | "Am"[eA]dc | "E7"[B2^G2]B/c/ \
+| "Dm"[dF]>cB | "Am"[cE]BA | "G7"[GD]AF | "C"[E3C3] |
+| "Am"[ec]>fe | "E7"[eB]>fe | "Am"[eA][af][ge] | "Dm"[f3d3] \
+| "Am"[ec]>d[cA] | "E7"[d^G]eB | "Am"A3- | "fine"A2 :|
+|: "Dm"d/e/f/e/d | "G7"g2f | "C"e2-e/c/ | "Am"c3 \
+| "E7"e/^g/b/g/e | dcd | "Am"e3- | e3 |
+| "Dm"def | fed | "Am"c>de | "Dm"AGF \
+| "Am"E2E | "E7"^F2^G |1 "Am"A3- | A3 :|2 "Am"A3- | A2"G7"G ||
+|: "C"Gz/E/G/c/ | e/g/gf/e/ | "Dm"d/a/ a/z/a | a>af/d/ \
+| "G7"B/g/ g/z/g | g>fd/B/ | "C"G/e/ e/z/e | e2E/F/ |
+| "C"Gz/E/G/c/ | e/g/gf/e/ | "Dm"d/a/ a/z/a | a>gf/e/ \
+| "G7"d/g/ g/z/g | BgB |1 "C"c3- | c2E/F/ :|2 "C"c3 | "E7"e3 |]
+

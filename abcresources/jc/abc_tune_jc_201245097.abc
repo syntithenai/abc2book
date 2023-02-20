@@ -1,0 +1,82 @@
+X: 1
+T: Adele Dear [Cm]
+O: Andy Statman Orch.
+R: waltz
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: Cm
+"A"|:\
+"Cm"g6 | c'4g2 | "(G7)"f2e2f2 | "Cm"g6 |\
+e'2d'2c'2 | "(Fm)"c'2b2a2 | "Cm"g6- | "C7"g.c.d.=e.f.g |
+|:\
+"Fm"a4f2 | "Cm"g4e2 | "G7"!f2e2f2 | "Cm"g6 |\
+"Fm"a4f2 | "Cm"g4e2 | "G7"f2e2d2 |[1 "C7".c.c.d.=e.f.g :|[2 "Cm"c4 z2 :|
+"B"|:\
+"Cm"c3Gce | "G7"d3=Bdf | "Cm"e2f2g2 | ~f2e3g |\
+b3=a (3(bag) | "D7"^f2g2=a2 | "G7"g6 | "Cm"c'6 |
+"Cm"c3Gce | "Bb"d3^cdf | "Eb"e3deg | "(Fm)"f2e4 |\
+"Cm"g3^f (3gfe | "(G7)"e3d (3edc | {=B}"Cm"c3c'ge | c4z2 :|
+
+%%sep 1 1 500
+X: 2
+T: Adele Dear [Dm]
+O: Andy Statman Orch.
+R: waltz
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: Dm
+"A"|:\
+"Dm"a6 | d'4a2 | "(A7)"g2f2g2 | "Dm"a6 |\
+f'2e'2d'2 | "(Gm)"d'2c'2b2 | "Dm"a6- | "D7"a.d.e.^f.g.a |
+|:\
+"Gm"b4g2 | "Dm"a4f2 | "A7"!g2f2g2 | "Dm"a6 |\
+"Gm"b4g2 | "Dm"a4f2 | "A7"g2f2e2 |[1 "D7".d.d.e.^f.g.a :|[2 "Dm"d4 z2 :|
+"B"|:\
+"Dm"d3Adf | "A7"e3^ceg | "Dm"f2g2a2 | ~g2f3a |\
+c'3=b (3(c'ba) | "E7"^g2a2=b2 | "A7"a6 | "Dm"d'6 |
+"Dm"d3Adf | "C"e3^deg | "F"f3efa | "(Gm)"g2f4 |\
+"Dm"a3^g (3agf | "(A7)"f3e (3fed | {^c}"Dm"d3d'af | d4z2 :|
+
+%%sep 1 1 500
+X: 3
+T: Adele Dear [Gm]
+O: Andy Statman Orch.
+R: waltz
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: Gm
+"A"|:\
+"Gm"d6 | g4d2 | "(D7)"c2B2c2 | "Gm"d6 |\
+b2a2g2 | "(Cm)"g2f2e2 | "Gm"d6- | "G7"d.G.A.=B.c.d |
+|:\
+"Cm"e4c2 | "Gm"d4B2 | "D7"!c2B2c2 | "Gm"d6 |\
+"Cm"e4c2 | "Gm"d4B2 | "D7"c2B2A2 |[1 "G7".G.G.A.=B.c.d :|[2 "Gm"G4 z2 :|
+"B"|:\
+"Gm"G3DGB | "D7"A3^FAc | "Gm"B2c2d2 | ~c2B3d |\
+f3=e (3(fed) | "A7"^c2d2=e2 | "D7"d6 | "Gm"g6 |
+"Gm"G3DGB | "F"A3^GAc | "Bb"B3ABd | "(Cm)"c2B4 |\
+"Gm"d3^c (3dcB | "(D7)"B3A (3BAG | {^F}"Gm"G3gdB | G4z2 :|
+
+%%sep 1 1 500
+X: 4
+T: Adele Dear [Am]
+O: Andy Statman Orch.
+R: waltz
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: Am
+"A"|:\
+"Am"e6 | a4e2 | "(E7)"d2c2d2 | "Am"e6 |\
+c'2b2a2 | "(Dm)"a2g2f2 | "Am"e6- | "A7"e.A.B.^c.d.e |
+|:\
+"Dm"f4d2 | "Am"e4c2 | "E7"!d2c2d2 | "Am"e6 |\
+"Dm"f4d2 | "Am"e4c2 | "E7"d2c2B2 |[1 "A7".A.A.B.^c.d.e :|[2 "Am"A4 z2 :|
+"B"|:\
+"Am"A3EAc | "E7"B3^GBd | "Am"c2d2e2 | ~d2c3e |\
+g3^f (3(gfe) | "B7"^d2e2^f2 | "E7"e6 | "Am"a6 |
+"Am"A3EAc | "G"B3^ABd | "C"c3Bce | "(Dm)"d2c4 |\
+"Am"e3^d (3edc | "(E7)"c3B (3cBA | {^G}"Am"A3aec | A4z2 :|

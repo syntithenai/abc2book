@@ -1,0 +1,18 @@
+X: 1361
+T: Andrew Carr.  a Jig.
+%R: slip-jig, air
+B: Niel Gow & Sons "Complete Repository" v.1 p.36 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: D
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+|: F2A- AFA AFD | G2B Bcd Tc2A | (F2A A)FA Bcd | A,2D DEF TE2D :| {c}d2A A>BA AGF | E2.e efg Tf2e |
+{c}d2A AFA Bcd | A,2D DEF TE2D | {c}d2A ABA AGF | E2e efg Tf2e | d>cB AFA Bcd | A,2D DEF TE2D |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+|: d3 d3 f3 | g3 g3 a3 | d3 d3 G3 | F3 A3 D3 :| d3 d3 d3 | A3 A3 A3 |
+   d3 d3 A3 | F3 A3 D3 | d3 d3 d3 | A3 e3 A3 |  d3 d3 G3 | F3 A3 D3 |]

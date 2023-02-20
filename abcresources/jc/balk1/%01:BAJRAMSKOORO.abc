@@ -1,0 +1,19 @@
+X:2501
+T: Bajramsko Oro
+O: Macedonia
+F: http://www.youtube.com/watch?v=rpk1iwSyixg
+M: 7/16
+L: 1/16
+K: Dm
+Q: 1/4=96
+%%MIDI program 27 Electric Guitar clean
+%%MIDI gchord G3H2I2
+%%MIDI chordprog 32 Acoustic Bass
+"Dm"Z|Z|\
+DAA DA AD|ABA GA F2|"Edim"EFG GG GG|G3 G2z2|\
+"Dm"DAA DA AD|ABA GA F2|"Edim"EFG GG GG|G3 G2z2|\
+"Dm"DAA DA AD|ABA GA F2|"Edim"EFG GG GG|G3 G2z2|\
+"Dm"CDE FF FF|"Edim"EEE ED DC|"Dm"CDD DD DD|D3 G4|\
+"Dm"CDE FF FF|"Edim"EEE ED DC|"Dm"DDD DD DD|D3 D2z2|
+"Dm"AcB A2 GA|AFA A2 F2|GAF F2 DE|CDD D2 z2|
+AcB A2 GA|AFA A2 F2|GAF F2 DE|CDD D2 z2|

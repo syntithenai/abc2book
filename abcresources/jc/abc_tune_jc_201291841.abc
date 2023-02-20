@@ -1,0 +1,16 @@
+X: 905
+T: Jackson's Fancy   #2
+R: jig
+%S: s:2 b:12(6+6)
+B: O'Neill's 1850 #905
+Z: Tom Keays (htkeays@mailbox.syr.edu)
+N: Compacted via repeats and multiple endings [JC]
+%abc 1.6
+M: 6/8
+R: jig
+L: 1/8
+K: D
+"^A"\
+|: DFA def | edc dAF | DFA [1,3 dAF | FEE EFE :|[1,2 deg | fdd d3 :|
+"^B"\
+|: fed (fa).f | (gb).g (fa).g | edc [1,3 (fa).f | (ge).e eag :|[2,4 Aag | fdd d3 :|

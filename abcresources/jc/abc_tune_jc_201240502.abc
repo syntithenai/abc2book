@@ -1,0 +1,872 @@
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%writehistory 0
+%%composerspace 0
+%%partsspace 0
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:1
+T:3LF Fun Stuff Book
+T:(Happy Playing)
+W:
+W:http://www.mindspring.com/~dmilewski/ecdp/
+%%center Version 2.0
+%%center October, 2001
+K:G
+M:4/4
+| DEFG | ABcd | efga | agfe | dcBA | GFED |]
+%
+%
+%
+%
+H:Version 1.9
+H:- Finished checking additional Playford Titles
+H:- Split the tunebook apart.
+%
+%
+%%newpage
+
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:2
+T:An Dro
+T:A Set of An Dro Tunes
+M:2/2
+L:1/4
+K:D
+P:- 1 -
+f d/e/ f > d | e d c2 | f d/e/ f > d | e d c2 :|
+|: B c/d/ c d/e/ | f f e/d/ c | B c/d/ c d/e/ | d c B2 :|
+%
+P:- 2 -
+e d/c/ B > A | B c d/c/ B | e d/c/ B > A | B c d2 :|
+|: B c/d/ c d/e/ | f f e/d/ c | B c/d/ c c/e/ | d c B2 :|
+%
+P:- 3 -
+K:A
+A/A/A/A/ A > B | B B c B | A/A/A/A/A > B | B B/G/ A2 :|
+|: c/c/c/B/ c2 | c/c/c/B/ c2 :: c e A c | B/A/G/A/ B/c/d/B/ | c e A A/c/ | B/A/G/B/ A2 :|
+%
+P:- 4 -
+K:D
+d/ | d d c > B | c d B > d | d d c > b | [1 c d b3/2 :| [2 c d B2 |
+|: B B d d | e d/e/ f > e | d c/d/ B > d | c A F2 | B B d d |
+e d/e/ f > e | d c/d/ B > d | [1 c A B2 :| [2 c A B3/2 ||
+%
+P:- 5 -
+K:A
+c/ | c B A > B | c d B > c | c B A> B | [1 c d B3/2 :| [2 c d B2 ||
+A c e > f | d e c > B | A c e > d | [1 B G A2 :| [2 B G A3/2 ||
+%
+P:- 6 -    An Dro P.2/2
+K:D
+f f/e/ d A | d e f/g/ a | f f/e/ d A | d e f2 :|
+|: f/e/f/g/ a > a | f d e2 | f/e/f/g/ a > a | f e d2 :|
+%
+P:- 7 -
+B f f f | e d c d/c/ | B f f f | e d c2 :|
+|: B/c/d/B/ c c/d/ | e f/e/ d c | B/c/d/B/ c e/d/ | c d B2 :|
+%
+P:- 8 -
+A/ | c e d > B | c B A > A | c e d > B | c B A3/2 :|
+|: e/ | e e e > f | e A d > d | e d c > B | c B A3/2 :|
+%
+P:- 9 -
+K:A
+A/B/c/d/ e > d | c A e > d | c/B/c/d/ e> d | c A e2 :|
+|: c c/d/ c > e | d/c/B/d/ c A | c c/e/ c > e | d/c/B/c/ A2 :|
+
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:3
+T:Baltimore
+W:24-bar duple-minor longways; moderate
+W:Dance: Moore/Ridgeley, 1790s; Tune: Carroll MS.
+M:6/8
+L:1/8
+K:Bm
+%P:
+%Q:270
+V:1
+%
+V:1
+"G" B2 A B2 A | "Em" G2 G GAB | "C" c2 B c2 B  | "D" A2 A A2 B | "Am" c2 d ecA | "C" B2 c "Em" dBG | "C" A2 B "D" cBA | "G" G2 G G3 ||
+|: "D" d2 d dBG | "Em" e2 e e3 | "Am" c2 c cBA | "D" d2 d d3 | "G" G2 D B2 G | "C" d2 B "D" g2 d | "C" edc "D" BAG | "D" A2 D D3 :|
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:4
+T:Bare Necessities
+M:3/4
+L:1/8
+K:C
+%
+|:A4 G2|FE D4|d4 c2|BA G4|A4 G2|FE D2 F2|ED C2 E2|D6:|
+f4 g2|agfe d2|efgfed|c3 B2 A|F4 g2|agfedc|B2 G2 B2|d4 cB|
+AGFGAB|c2 G2 F2|FEDEFG|A4 B^c|d4 a2|^fe d2 ^f2| e2 d2 B2|d6||
+
+
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:5
+T:The Bells of Newport
+T:The Belles of New-York
+H:32-bar triple or duple-minor longways; moderate.
+H:Dance: [New York] The Gentleman & Lady's Companion, 1798-9;
+H:Tune: [Newport] Murphey MS, 1790.
+M:2/2
+L:1/8
+%P:
+%Q:
+%
+K:D
+%
+|: "D" d2 fd dcBA | "G" G2 dB BAGF | "Em" G2 BG E2 ef | "A" gefd dcBA |
+   "D" d2 fd dcBA | "G" B2 dB BAGF | "Bm" G2 BG E2 g2 | "G"fd"A"ec "D" d4 :|
+"D" D2 FD FAFD | "G" G2 BG GBGE | "Bm" D2 F2 A2 g2 |  "A" fefd dcBA |
+"D" D2 FD FBFD | "G" G2 BG GBGE | "Bm" D2 F2 A2 g2 | "G"fd"A"ec "D" d4 :|
+
+
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:6
+T:The Bride's Favourite
+W:double jig, CTT side 1, track 2, tune 3, twice
+W:From: Music for the Sets - the blue book
+M:6/8
+L:1/8
+K:G
+%
+P:- A -
+"G" G3 BAB | "G" GBd gdB | "D7" AFD cBA | "G" GBd fdB |
+| "G" G3 BAB | "G" GBd gdB | "D7" AFD cBA | [1 "D7" AGF "G" G2 A :| [2 "D7" AGF "G" GBd |
+P:- B -
+|: "G" g2 a "D" f2 a | "G" fdB GBd | "Em" gfe "Bm" fed | "Em" Bee e2 f |
+"G" g3 "D" faf | "G" gdB "A7" GAB | "D7" AFD cBA | [1 "D7" AGF "G" GBd :| [2 "D7" AGF "G" G2 F |
+P:- C -
+|: "G" GBd "Em" g3 | "Am" edc "D7" BcA | "G" GBd "A7" g3 | "D7" f/g/af "C" g2 a |
+"G" bgb "B7" afa | "Em" geg "D" fdf | "A" ed^c "D" def | "G" gaf gdB :|
+
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:7
+T:Congress of Vienna
+P:FABCDEABCDE
+M:3/4
+L:1/4
+%P:
+%Q:
+K:G
+%
+%%MIDI gchord fcc
+%
+%
+%Pt. A.
+P:A
+K:C
+|: e | "Am" c A e | "Am" c A e | "G" d B G | "E" E2 ^F/^G/ | "Am" A ^G A | "G" B A B | "Am" c/d/ c/B/ c |
+"D" A3 | "D" ^f/e/ f/g/ a/f/ | "Am" e/d/ e/=f/ e | "G" d/c/ d/e/ f/d/ | "Am" c/B/ c/d/ c | "E7" B/A/ B/c/ d/B/ | "Am" A2 :|
+%
+%Pt. B
+P:B
+K:C
+|: G/A/ | "G" B ^c d | "Bm" ^f/e/ d/^c/ B | "D" a ^f d | "Bm" ^f/e/ d/^c/ B | "G" B ^c d |  "Bm" ^f/e/ d/^c/ B | "G" b/a/ g/a/ ^f/d/ | [1 "A" e2 :| [2 "A" e2 e ||
+%
+%Pt. C
+P:C
+K:C
+| "A" e > d ^c/B/ | "Am" A A A | "Am" c B "Em" E | "Am" B A A | "A" e > d ^c/B/ | "Am" A A A | "Am" c B "Em" E | "Am" A2 z |
+"A" e > d ^c/B/ | "Am" A A A |"Am"  c B "Em" E | "Am" (3B/c/B/ A A | "A" e > d ^c/B/ | "Am" B B B | "Am" c B "Em" E | "Am" A2 z | "A" z2 e ||
+%
+%Pt.D
+P:D
+K:D
+"A" e c c | "A" c e g | "D" g f d | "D" d f a | "A7" a > g e | "A7" c e g | "D" g f d | "A" e e z |
+"A" z2 e | "A" e c c | "A" c e g | "D" (3g/f/e/ f d | "D" d f a | "A7" a > g e | "A7" c e g | "D" (3g/f/e/ f d | "A" e e z | z3 ||
+%
+%Pt. E
+P:E
+K:C
+"A" e > d ^c/B/ | "Am" A A A | "Am" c B "Em" E | "Em" (3B/c/B/ "Am" A A | "A" e > d ^c/B/ | "Am" A A A | "Am" c B "Em" E | "Am" A2 z | z2 |]
+%
+%Intro
+P:F
+K:C
+z2 e | "Am" c A e | "G" B G e | "F" A F e | "E" E2 ||
+
+
+
+%%newpage
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.6
+%%maxshrink 1
+%
+%
+X:8
+T:Da Full Rigged Ship
+M:6/8
+L:1/8
+K:C
+%
+ue |: "Am" (e2 a) (aea) | "Am" (aea) (aba) | "Em" e2 ^f g2 g | "Em" (gag) "D" (^f2 d) | "Am" (e2 a) (aea) | "Am" (aea) (aba) | "Em" g2 e "G" e(dB) | "Am" A3 E3 :|
+|: "Am" (e^fe) "G" (edB) | "Am" (A2 B) "D7" c3 | "G" B2 G B2 G | "G" (Bcd) "Em" E3 | "Am" (e^fe) "G" (edB) | "Am" (A2 B) "D7" (c2 d) | "Am" (e^fe) "Em" (dBG) | [1 "Am" A3 A3 :| [2 "Am" A3 (A2 E) ||
+|: "C" (EGE) (EGE) | "C" (EGE) c3 | "C" (EGE) (E2 D) | "C" (E2 F) (GDC) | "C" (EGE) (EGE) | "C" (EGE) "F" (c2 d) | "Am" (e^fe) "G" (dBG) | [1 "Am" A3 (A2 G) :| [2 "Am" A3 A2 |]
+
+X:9
+T:Da New Rigged Ship
+M:4/4
+L:1/8
+K:G
+(ueg) | "Am" a2 (ab) ageg | "Am" a2 (ab) "D7" agef | "G" g2 "D" gg (fg)ag | "D" f2 d2 "Em" d2 (ef) |
+"Am" a2 (ab) ageg | "Am" a2 (ab) "D7" agef | "G" a2 aa "D" (fg)ag | "G" f2 d2 d2 (ed) |
+"A" ^cAcA "E7" B2 (ed) | "A" ^cAcA "E7" E2 (ed) | "A" ^cAcA "E7" B2 (ed) | "A" ^c2 A2 "E7" A2 (ed) |
+"A" ^cAcA "E7" B2 (ed) | "A" ^cAcA "E7" E2 (ed) | "A" ^cAcA "E7" B2 (ed) | "A" ^c2 A2 A2 (AB) |
+|: "C" =cde(c "G" Bc)d(B | "D" AB)A(F "Em" GF) (E2 | "C" cd)e(c "G" Bc)dB | [1 "Am" c2 A2 A2 (AB) :| [2 "Am" c2 A2 A2 |]
+
+
+
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:10
+T:The Devil Among the Tailors
+T:The Devil's Dream
+M:4/4
+Q:270
+L:1/8
+K:A
+%
+%
+P:- A -
+"A" (aga)e aga(e | ag)a(e fe)cA | "Bm" dfBf dfBf | "(E)" dfag fece |
+"A" (ag)ae (ag)a(e | ag)a(e fe)cA | "D" dfe(d "A"cB)AF |[1 "E" EFAB "A" A2 fg :| [2 "E" EFAB "A" A2 ed ||
+P:- B -
+"A" ceAe ceAe | ceag fedc | "Bm" dfBf dfBf | "(E)" dfag fedB |
+"A" ceAe ceAe | ceag fedc | "D" dfe(d "A" cB)AF | [1 "E" EFAB "A" A2 ed :| [2 "E" EFAB "A" A2 z2 |]
+
+
+
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:11
+T:Dibdin's Fancy
+H:Dance & Tune: Young's Vocal and Instrumental Music Miscellany, 1793.
+H:Charles Dibdin (1745-1814).
+M:2/4
+L:1/8
+P:AABBB
+K:Gm
+%
+%
+BFBF D2FF | GEEE edc2 | BFBF DFFF | GecA B2B,2 :|
+|: fdcB gabg | fdcB f2f2 | fdcB gabg | fdcB f2f2 :|
+
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:12
+T:Fisher's Hornpipe
+T:Lord Howe's Hornpipe
+M:C|
+L:1/8
+K:D
+%
+Ad | "D" dAFA "G" GBAG | "D" FAFA "G" GBAG | "D" FDFD "G" GEGE | "Bm" FDFD  "A" EGFE |
+"D" dAFA "G" GBAG | "D" FAFA "G" GBAG | "D" FAdf "A" gedc | "G" d2 "A" d2 "D" d2 ||
+cd | "A" ecAc efge | "D" fdAd fgaf | "A" ecAc "Em" efgf | "A" edcB A2 d2 |
+"G" BGDG BcdB | "D" AFDF ABcA | "G" BdcB "A" AGFE | "G" D2 "A" D2 "D" D2 |]
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:13
+T:Flowers of Edinburgh
+O:Scotland, Ireland
+M:C|
+K:G
+GE | "G" D2DE G2GA | "G" BGBd cBAG | "D" FGFE DEFG | "D" AFdF "C" E2 G/F/E |
+"G" D2DE G2GA | "G" BABd "C" efge | "G" dcBA "D" GFGA | "G" B2G2 G2:|
+|: df | "G" g2 gf gbag | "D" f2fe fagf | "C" edef gfed | "Em" B2e2 "C?" efge |
+"G" dBGB d2 dd | "C" edef g2fe | "G" dcBA "D" GFGA | "G" B2G2 G2:|
+
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:14
+T:La Gelosia
+W:Guglielme Ebreo, 1544. After Longwind & D'Aurillac
+M:C|
+L:1/4
+K:G
+%P:
+%Q:
+V:1
+%
+V:1
+B A B c | d2 d2 | =f e/f/ d c | B A/B/ G F | B A B c | d2 d2 | c B/c/ B A | G2 G2 ||
+|: g f e d | g f e d | g f e f | d2 d2 | B A B c | d2 d2 :| cBcA | G2 F2 |
+|: B A B c | d2 d2 | f2 f e | d2 d2 :: "3x" g2 f e | d2 d2 :: "3x" c B/c/ A G | B A/B/ A G | F2 F2 :|
+
+X:15
+T:Geloxia
+W:Domenico (1450). After D'Aurillac
+M:6/4
+L:1/4
+K:G
+G2 A B2 c | d3 d2 d/e/ | =f2 e/f/ d2 c/d/ | B2 A/B/ G2 A |
+B2 A B2 c | d3 d2 e/d/ | c2 B/c/ B2 A | G2 G G2 G |
+g f e d | g =f e d | g =f e f | d2 Hd2 |
+B > A B c | d2 d>c | B A/B/ A> A | G2 HG2 |
+B>A B c | d3/2 d/4e/4 =f > f | =f e/f/ d c | B2 d2 |]
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:16
+T:Gravel Walk
+M:C
+L:1/8
+K:A Dorian
+P:- A -
+A2eA BAeB|A2ed BAGB|A2eA Bdef|gedc BAGB:|
+P:- B -
+A2aA gAfA|A2ed BAGB|A2aA gAfA|efge dBGB|
+A2aA gAfA|A2ed BAGB|ABcd egfa|gedc BAGB|]
+P:- C -
+cAAG A3B|cAA2 dBGB|cAAG A3f|gfge dBGB:|
+P:- D -
+c2gc acgc|c2gc BAGB|c2gc acga|gedc BAGB|
+c2gc acgc|c2gc BAGB|ABcd egfa|gedc BAGB:|
+
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:17
+T:The Irish Washerwoman
+O:Ireland, Scotland, England
+M:6/8
+K:G
+d2c| "G" BGG DGG|BGB dcB|"Am"cAA FAA|cAc edc|
+"G"BGG DGG|BGB dcB|"D7"cBc Adc|"G"BGG G2 :|
+|:g| "G"gdg gdg|gdg bag|"Am"fdf fdf|fdf agf|
+"G"egg dgg|cgg Bgg|"D7"cBc Adc|"G"BGG G2:|
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:18
+T:John Ryan's Polka
+O:Ireland
+M:4/4
+K:D
+A|\
+d2d2 BcdB|A2F2 A2F2|d2d2 BcdB|A2F2 (3EFE D2|
+d2d2 BcdB|A2F2 A2de|f2d2 e2c2|d4 d3::
+e|\
+f2d2 d2ef|g2f2 e2d2|f2d2 A2d2|f2df (a2a)g|
+f2d2 d2ef|g2f2 e2de|f2d2 e2c2|d4 d3:|
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:19
+T:Kemp's Jig
+C:Playford, 1651
+M:6/8
+L:1/8
+K:DAeol
+d>ed d>ed | c>de e>dc | d>ef e2 d | c3 A3 :|
+F3 G3 | A6 | F3 G3 | A6 | F2 E F2 G | A2 A A>GF | E2 D E>FE | D3 D3 ||
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:20
+T:Miss Barrett's Waltz
+H:1799
+M:3/4
+L:1/4
+K:Gm
+%
+P:- A -
+F | "Bb" B/c/ d d | d/e/ f f | "Eb" e/f/ g e | "F" c2 F | "Bb" B A B | "F" c B c | "Bb" d f/"F"e/d/c/ | "Bb" B2 :|
+%
+P:- B -
+|: f | "F" f/e/ c c | c/A/ F F | "Bb" d/B/ F F | B/d/ f f | "F" f/e/ c c | c/A/ F F | "Bb" B/d/ "F" f f | "Bb" B2 :|
+%
+P:- C -
+|: f | "Bb" f =e f | d ^c d | B A B | "F" A/B/ c F | "Bb" B B B | f2 d/B/ | "Eb" c "F" c/B/c/d/ | "Bb" B2 :|
+%
+P:- C Alternative -
+|: d/c/ | "Bb" B d f | f/g/f/e/ d | "F" c B c | "Bb" d B F | B d f | f/g/f/e d | "F" c B c | "Bb" B2 :|
+
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:21
+T:Mrs. MacLeod's Reel
+C:Traditional
+M:4/4
+L:1/8
+K:A
+%
+cB | "A" A2 a2 "D" fefa | "A" c2 cB "E7" cdcB | "A" A2 a2 "D" fefa | "E" B2 BA BdcB |
+"A" A2 a2 "D" fefa | "A" c2 cB c2 ce | "D" fgfe f2 (3efg | "A" a2 ec "E" B2 :|
+|: cB | "A" A2 cB eccB | c2 cB "E7" cdcB | "A" A2 cA eccA | "E" B2 BA BdcB |
+"A" A2 cA eccB | "A" cdcB c2 e2 | "D" fgfe f2 (3efg | "A" a2 ec "E" B2 :|
+
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+X:22
+T:Morrisons Jig
+O:Ireland
+M:6/8
+K:EDor
+%
+|: E2E BAB | E2B AFD | EDE BAB | dcB AFD |
+E2E BAB | EBE AFD | G3 FGA |  dAG FED  :|
+|: B2e fee | aee fed | Bee fee |fag fed |
+Bee fee | aee fee | gfe d2A | BAG FED |
+Bee fee | aee fed | Bee fee | faf def |
+g2f g2e | def g2d | edc d2A | BAG FED :|
+
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:23
+T:Off to California
+M:4/4
+L:1/8
+K:G
+P:- A -
+(3(DEF) [| "G" GFGB "D" AGED | "G" GBdg "C" e2 e<-f | "G" gfgd "Em" edBG | "Am" ABAG "D" E2 D<-F |
+"G" GFGB "D" AGED | "G" GBdg "C" e2 e<-f | "G" gfgd "Em" edBG | [1 "G" AGEF "D" G2 (3(DEF) :| [2 "G" AGEF "D" G2 e<-f ||
+P:- B -
+|: "Em" gfeg "Bm" fedf | "C" edef "Em" edBf | "G" gfgd "Em" edBG | "Am" ABAG "D" E2 D<-F |
+"G" GFGB "D" AGED | "G" GBdg "C" e2 e<-f | "D" gfgd "Em" edBG | [1 "D" AGEF "G" G2 e<-f :| [2 "D" AGEF "G" G2 |]
+
+
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:24
+T:Paidin O'Raifearlaigh
+W:double jig, CTT, side 1, track 2, tune 2, twice
+W:From: Music for the Sets - the blue book
+M:6/8
+L:1/8
+K:D
+P:- A -
+"D" dff "A" cee | "G" def "A7" gfe | "D" dff "A" cee | "E9" dfe "A" dBA |
+"D" dff "A" cee | "G" def g3 | "D" afd "A7" gec | [1 "E9" dfe "A" dBA :| [2 "E9" dfe "A" dcB ||
+P:- B -
+|: "D" AGA "Bm" B2 f | "Em" gfe "Bm" edB | "D" A3 "Bm" BAB | "E9" dfe "A" dcB |
+ "D" AGA "G" BGB | "A7" efe efg | "D" f/g/af "G" gfe | [1 "E9" dfe "A" dcB :| [2 "E9" dfe "A" dBA ||
+P:- C -
+|: "D" fAA "A" eAA | "Bm" fef "A7" gfe | "D" fAA "A" eAA | "E9" dfe "A" dBA | "D" fAA "A" eAA | "Bm" f3 "G" g3 | "D" agd "A7" gec | "E9" dfe "A" dBA :|
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:25
+T:Rights of Man
+W:Note: Play as a hornpipe.
+M:4/4
+L:1/8
+K:E Aeolian
+%P:
+%Q:
+GA |: "Em" (3 (BcB) (3 (ABA) (3 (GAG) (3 (FGF) | EFGA B2 (ef) | gfed edcB |
+"Am" cBAG "B" F2 GA | "Em" (3 (BcB) (3 (ABA) (3 (GAG) (3 (FGF) | EFGA B2 (ef) |
+gfed Bg "B" (3 fgf | [1 "Em" e2 B2 E2 GA :| [2 "Em" e2 B2 E2 ga ||
+|: "Em" bgbg efga | bagf egfe | "D" d^cde gegf | afdf a2 (gf) |
+"Em" eBeg "D" fdfa | "Em" gfga bgef | gfed Bg "B" (3 fgf | [1 "Em" e2 B2 E2 ga :| [2 "Em" e2 B2 E2 |]
+
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:26
+T:Sailor's Hornpipe
+M:4/4
+L:1/8
+K:G
+gf |: "G" g2 G2 G2 d-c | Bdgf g2 f-g | "A" a2 a2 a2 a-g | "D" fgfe d2 e-f |
+"G" gfed "(E)" edcB | "C" cBAG "A" AGFE | "D (G)" DGFG "(D)" AcBA | [1 "G" B2 G2 G2 g-f :| [2 "G" B2 G2 G2 d-c ||
+|: "G" BdgB dgBd | "C" e=fed cdcB | "A" A^cac eace | "D" fgfe d2 e-f |
+"G" gfed "(E)"ed=cB | "C" cBAG "A" AGFE | "D (G)" DGFG "(D)" AcBA | [1 "G" B2 G2 G2 d-c :| [2 "G" B2 G2 G2 |]
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:27
+T:Sheebeg and Sheemore
+O:Ireland
+M:3/4
+C:Turlough O'Carolan
+K:D
+de|\
+f2fe d2|d2de d2|B4A2|F4 A2|\
+BABc d2|e4 de|f4 e2|d4 f2|\
+B4e2|A4d2|F4E2|D4f2|
+B4e2|A4dc|(d6|d4)::\
+de|\
+f3ed2|ed ega2|b4 a2|f4ed|
+e4a2|f4e2|d4B2|B4BA|\
+F4E2|D4f2|B4e2|A4a2|ba gf ed|e4 dc|(d6|d4):|
+
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:28
+T:Sleepy Maggie
+O:Scotland
+M:4/4
+K:Bm
+g |: f2Bb fBde|f2Ba eAce|f2Bb fBde|f^gaf eAce:|
+|: fBdB fBde|fBdB eAce|fBdB fBde|f^gaf eAce:|
+|: fBdB fBde|fBdB eAce|fBbB aB^gB|f^gaf eAce:|
+
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:29
+T:The Spaniard
+M:6/8
+L:1/8
+K:G
+%P:
+%Q:350
+V:1
+%
+V:1
+"G" G3 D3 | "Em" B3 G3 | "Am" BAB "C" c2 A | "Em" B3 G3 | "Bm" d3 c3 | "Am" B3 A3 | "C" G3 "D" A2 F | "G" G3-G3 :|
+|: "Em" b3 bag | "Am" a2 f "Em" g2 e | "G" d3 dcB | "D" c2 A "Em" B2 G | "Bm" b3 bag | "Am" a2 f "Em" g2 e | "G" d3 dcB | "D" c2 A "G" G3 :|
+
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.6
+%%maxshrink 1
+%
+X:30
+T:Star Of The County Down, The
+C:Traditional
+B:From The First Book of Irish Ballads, Daniel O'Keeffe
+O:Irish
+M:4/4
+L:1/8
+Q:1/4=160
+K:C
+Bd |:"Em"e2 e2 e2 de|"G"g2 g2 "D"a2 ga|"Em"b2 ag e2 dB|"D"d6 Bd|\
+"Em"e2 e2 e2 de|"G"g2 g2 "D"a2 ga|"Em"b2 ag "D"e2 d2|[1 "Em"e6 dd :| [2 "Em" e6 bb ||
+"G"d'2 b2 b2 ag|"D"a2 a2 "G"a2 ga|"Em"b2 ag e2 dB|"D"d6 Bd|\
+"Em"e2 e2 e2 de|"G"g2 g2 "D"a2 ga|"Em"b2 ag "D"e2 d2|"Em"e6||
+
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:31
+T:Stingo
+T:A Cup of Old Stingo
+T:The Oyle of Barley
+T:Cold and Raw
+C:Playford, 1651
+W:1690?
+M:6/8
+L:1/8
+K:Em
+%P:
+%Q:
+V:1
+V:2
+V:3 clef=bass
+%
+P:
+V:1
+|: "Em" E2 E B2 G | "D" A F2 D2 D | "Em" E2 E B2 G | "C" E3 G2 E |
+"Em" E2 E B2 G | "D" A2 F D2 D | "Em" E2 E B2 G | "C" E3 G2 G |
+"G" G2 G G2 F/G/ | "D" A2 A A2 A | "G" B2 B "Em" e2 d | "G" B3 "D" d2 G |
+"G" G2 G G>-FG | "D" A2 A A>-Bc | "G" B>-AG "D" A F2 | "Em" E3 B3 :|
+%
+P:Instrumental Variant
+V:1
+|: "Em" E2 E B2 A | "G" Bcd D2 D | "Em" E2 E B2 G | "C" E3 G3 | "Em" E2 E B2 A | "G" Bcd D2 D | "Em" E2 E B2 G | "C" E3 G3 :|
+|: "G" G2 G G2 F/G/ | "D" A2 A A2 A | "G" B2 B "Em" e2 d | "G" B3 "D" d3 | "G" G2 G G2 F/G/ | "D" A2 A A>Bc | "G" B>AG "Bm" FGD | "Em" E3 B3 :|
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:32
+T:The Teetotaller's Reel
+O:Ireland
+M:4/4
+K:G
+D2 | "G" G2 GF GABc | dBeB dBAG| "Em" BEED EFGA | "G" BGAF "D" GFED |
+"G" G2 GF GABc | dBeB dBAG | "Em" BEED EFGA | "G" BG"D"AF "G"G2 :|
+|: B2 | "Em" Beed e3f | geaf gfed | "D" Bdd^c d3e | fdaf gfed |
+"Em" Beed e3f | geaf gfed | BEED EFGA | "G" BG"D"AF "G" G2 :|
+
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:33
+T:Well Hall
+C:Playford, 1679
+M:3/2
+L:1/4
+K:Dm
+%P:
+%Q:
+P:A
+|: "F" A c d c f A | "C" G2 E2 "B" B2 | "F" A c d c f g | "Dm" a4 "C" g2 | "Dm" a g f c d f |  "Bb" d2 F2 "F" A2 | "Gm" G A B c A2 | "C" B3 c B2 :|
+|: "Bb" B F G F B | "Am" D3 B D2 | "Bm" E G A G A c | E3 c B2 | "F" A c d c f c | "Bb" d3 e/f/ g d | "C" e c A a f a | "F" f3 gf2 :|
+
+
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+X:34
+T:What Shall We Do With the Baby-O
+M:2/4
+L:1/8
+K:G
+%
+"G" DG G2 | "D" AA "G" B2 | dBBG | "D" AG "G" G2 | DGGG |
+"D" AA "G" B2 | ddd B | "D" AG "G" G2 ||
+"G" Bddd | "C" edgd | BddB | "D" AG "G" G2 |
+Bd dd | "C" ed "G" d2 | g> e dB | "D" AG "G" G2 |]
+
+

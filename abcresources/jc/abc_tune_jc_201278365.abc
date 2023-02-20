@@ -1,0 +1,23 @@
+X:1
+T: Fy, Nay, Prithee John
+N:
+C:tune is "Pell Mell"
+S:
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 210
+%W: A1
+% voice 1 (1 lines, 33 notes)
+K:Am
+M:4/4
+L:1/16
+E4 |A4 A4 c4 a4 |c8 A4 B2 c2 |d4 G4 g4 d4 |B8 G8 |A4 A4 c4 a4 |c6 B2 A4 B2 c2 |d2 c2 B2 A2 ^G4 B4 |A4 e8 e4 |
+%W: A2
+% voice 1 (1 lines, 33 notes)
+A4 A4 c4 a4 |c8 A4 B2 c2 |d4 G4 g4 d4 |B8 G8 |A4 A4 c4 a4 |c6 B2 A4 B2 c2 |d2 c2 B2 A2 ^G4 B4 |A4 e8 c2 d2 |
+%W: B
+% voice 1 (1 lines, 45 notes)
+e4 f2 g2 a2 g2 f2 e2 |c4 a4 A4 B2 c2 |d4 e2 f2 g2 f2 e2 d2 |B4 g4 G4 c2 d2 |e4 f2 g2 a2 g2 f2 e2 |f2 g2 a4 e4 d2 c2 |d2 c2 B2 A2 ^G4 B4 |A4 e8 ||

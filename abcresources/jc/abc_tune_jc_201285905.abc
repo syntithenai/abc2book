@@ -1,0 +1,25 @@
+X:325
+T:Here's to Hannah
+C:Colin Hume
+H:For Hannah Dixon
+L:1/8
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=120
+K:A
+P:A
+V:1
+%%MIDI program 41
+|: "A"A2 AB c^Bcd | efed cBAc | "E7"B2E2B2E2 | BcBA G2E2 |\
+"A"A2 AB c^Bcd | efed cBAc | "E7"B2E2e2 Bd | c2B2 "A"A2z2 :|
+V:2
+%%MIDI program 72
+|: A2 A4 B2 | c2 c4 d2 | e2 B2 e2 B2 | dedc BAGB |\
+A2 A4 B2 | c2 c4 d2 | e2 B2 G2 E2 | A2 E2 A,4 :|
+P:B
+V:1
+|: "D"fede fede | f2 a2-a2z2 | "A"edcd edcd | "A7"edcd e4 |\
+"D"fede fede | f2 a2-a2z2 | "A"edce "E7"dcBd | "A"c2 "E7"B2 "A"A4 :|
+V:2
+|: dcBc dcBc | d2 f6 | cBAB cBAB | c2A2B2c2 |\
+dcBc dcBc | d2 A2 d2 A2 | c4 B4 | A2E2 A,4 :|

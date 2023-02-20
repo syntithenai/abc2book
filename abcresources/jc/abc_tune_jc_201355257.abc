@@ -1,0 +1,49 @@
+X:1
+T:Zemer Atik
+O:Israel
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+Q:1/4=150
+M:4/4
+L:1/8
+K:C
+%%MIDI channel 1
+%%MIDI program 1 73
+%%MIDI chordprog 42
+%%MIDI bassprog 43
+%%MIDI drumon
+%%MIDI drum d2ddd2d2 66 54 54 66 54
+%%indent 400
+"A"(^cdef) (edc_B) | "A"A2 "E7"EE "A"A2z2 ||
+|: "A"^cd_Bc decd | e6z2 | "Gm"efga gfed | "A"e6z2 |
+w:Od na-shu-va el ni-gun a-tik, ve ha ze-mer yif ve  ye-'e-rav.
+ eaag gffe | "Dm"d2 e2 "A"^c4 | "Gm"^cd_Bc decB | "A"A6z2 |
+w:Od ga-vi-a me-shu-mar,~ na-shik, na-shik, A-li-zei ei-na-yim ve-lei-vav.
+"F"a4 a4 | "C"gagf g2"A7"e2 | "Dm"f6 ed |"A"e2 a2 e2 A2 |
+w:To-vu to-vu o-ha-lei-nu. Ki ma-chol hi-fi-tsi-a,
+"F"a4 a4 | "C"gagf g2 e2 | "Dm"defd "A"efe^c | "Dm"d6z2 :|
+w:To-vu to-vu o-ha-lei-nu. Od na-shu-va el ni-gun a-tik.
+%%MIDI program 1 21
+
+X:2
+T:Ma Yofus (How Beautiful)
+%O:Klezmer
+Q:1/4=150
+M:4/4
+L:1/8
+K:F
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI beat 120 110 95 2
+%%MIDI chordprog 42
+%%MIDI bassprog 43
+ "A"(AB^cd efed) |.^c2(cA) "Dm".d2.d2 |"Gm".e2.e2 (gfed) |"A".^c2(cA) "Dm".d4 |
+ "A"(AB^cd efed) |.^c2(cA) "Dm".d2.d2 |"Gdim".^c2.c2 (BA)(BG) |"A".A4 z4 |
+ "F".f2 .a4 .a2 |"C".g2.g2 .c4 |(cdef gabg) |"F".a4 "A"(agfe) |
+"Dm".d2 .f4 .f2 |"A".e2.e2 .A4 |(AB^cd efce) |"Dm".d8 ||
+W:
+W:
+W:Arrangement Copyright (C) 1999 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.

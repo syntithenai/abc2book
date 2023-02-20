@@ -1,0 +1,26 @@
+X:1
+T: Bonny Lad and Bonny Lass
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:A
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 31 notes)
+K:A
+M:4/4
+L:1/16
+d4 |c4 e8 c4 |d4 f8 d4 |c4 e8 d2 c2 |f4 B8 d4 |c4 e8 d2 c2 |d4 f8 e2 d2 |c2 d2 e4 B2 c2 d4 |c4 A8 d4 |
+%W: A2
+% voice 1 (1 lines, 30 notes)
+c4 e8 c4 |d4 f8 d4 |c4 e8 d2 c2 |f4 B8 d4 |c4 e8 d2 c2 |d4 f8 e2 d2 |c2 d2 e4 B2 c2 d4 |c4 A8 d4 |
+%W: B1
+% voice 1 (1 lines, 33 notes)
+c4 e8 f2 g2 |a2 g2 f2 e2 a8 |c4 e8 d2 c2 |f4 B8 d4 |c4 e8 f2 g2 |a2 g2 f2 e2 a8 |c2 d2 e4 B4 d4 |c4 A8 d4 |
+%W: B2
+% voice 1 (1 lines, 32 notes)
+c4 e8 f2 g2 |a2 g2 f2 e2 a8 |c4 e8 d2 c2 |f4 B8 d4 |c4 e8 f2 g2 |a2 g2 f2 e2 a8 |c2 d2 e4 B4 d4 |c4 A8 ||

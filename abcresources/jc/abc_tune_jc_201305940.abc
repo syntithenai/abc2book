@@ -1,0 +1,20 @@
+X: 1
+T: Maid of Islay    (G)
+R: Strathspey
+O: Gow 1806
+B: The Athole Collection
+B: Kerr's v.2 p.22 #197.
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+|:{d}\
+"G"G<G d>B d<e d>B | "G"G<G d>B "C"e>d "D7"B2 |\
+"G"G<G d>B d>e d<B | "C"e>f g>e "D7"d<B A2 :|\
+|:{d}\
+"C"g>a g<e "G"d>e d<B |
+"C"g>a "G"g<e "Em"d<[be] "G"B>d |\
+[1 "C"g>a g<e "G"d>e d<B | "C"e>f "G"g>e d<B "D7"A2 :|\
+[2 "G"g<b "Em"e>g "D7"d>e "G"g>a | "G"b/a/g/f/ "Em"g>e "D7"d<e "G"B2 |]

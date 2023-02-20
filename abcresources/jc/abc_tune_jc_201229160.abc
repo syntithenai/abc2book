@@ -1,0 +1,25 @@
+X: 1201
+T: Lady Cathrine Stewart's Strathspey
+%R: strathspey
+N: This is version 2, for ABC software that understands voice overlays.
+N: The rhythm of the overlays in bars 1-3 are a bit odd.
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.20 #1 (top 2 staves continued from p.19)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Em
+% - - - - - - - - - -
+V: 1 staves=2
+e |\
+x<B-B>x TB>AF<A & B<EE>A x4 | x<B-B>x D>E{DE}F<A & B<EE>F x4 |\
+x<B-B>x TB>AFA & B<EE>A x4 | B^c/d/ (B/A/).G/.F/ TE2E :| F |\
+Dd-Td>e (d/^c/)B/c/ d2 | FA-A>B {B}AG/F/ A2 |
+Be- ef/g/ {g}fe/d/ e2 | (B/A/B/).d/ (B/A/G/)F/ TE2E>F ||\
+Dd-Td>e (d/^c/)B/c/ d2 | FA-A>B {B}AG/F/ A2 |\
+Ee-e>f g<ef<d | B>d {B}AG/F/ E2E |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+e2e2 e2e2 | e2e2 d2d2 | e2e2 e2a2 | b2B2 e2e :| z | d2d2 d2d2 | d2d2 d2d2 |
+e2e2 e2e2 | b2B2 e2e2 || d2d2 d2d2 | d2d2 d2d2 | e2e2 e2a2 | b2B2 e2e |]

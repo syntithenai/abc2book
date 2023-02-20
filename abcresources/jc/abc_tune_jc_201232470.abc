@@ -1,0 +1,24 @@
+X: 171
+T: Mrs Sharpe of Hoddom's favorite
+C: Abraham Mackintosh
+R: jig
+M: 6/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Abraham Mackintosh "A Collection of Strathspeys, Reels, Jigs &c.", Newcastle, after 1797, p.17
+F: http://imslp.info/files/imglnks/usimg/a/a8/IMSLP80796-PMLP164326-Abraham_Mackintosh_coll.pdf
+K: A
+V: 1
+f |\
+~e2A ABA | ~=g2G GBd | ~e2A ABA | ecA efg |\
+agf gfe | fed edc | Bba gfg | aec A2 :|
+|: f/g/ |\
+aec Ace | =gdB GBd | ecA acA | ecA efg |\
+agf gfe | fed edc | Bba gfg | aec A2 :|
+V: 2 clef=bass middle=d
+z |\
+a3 A3 | B3 =G2B | A3 A3 | A3 a3 |\
+f3 e3 | d3 c3 | d3 e3 | a3 A2 :|
+|: z |\
+a3 A3 | B3 =G2B | A3 A3 | A3 a2b |\
+c'2d' b2c' | a2b g2a | d2^d e3 | a3 A2 :|

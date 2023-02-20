@@ -1,0 +1,20 @@
+X: 3361
+T: Dalry House.   a Strathspey.
+%R: strathspey, air
+B: Niel Gow & Sons "Complete Repository" v.3 p.36 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+[|\
+D>FA2 TF>GA2 | (B/c/d) A>F GETE>F | D>FA2 TF>AA2 | (B/c/d) Tc>B AFFd || D>FA2 TF>GA2 |
+(B/c/d) {B}A>F GETE>F | D>FA2 ~F>GA2 | (B/c/d) Tc>B AFFA |]| d<fe<c dBA2 | (B/c/d) TA>F GE E>c | d<fe<c dBA2 |
+(B/c/d) Tc>B AFF>A || (3dfd (3cec (3BdB (3AdA | (3GBG (3FdF GE TE>F | (D/E/F/G/) A2 TF>G A2 | (B/c/d) Tc>B AFFd |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+d2d2 d2f2 | g2f2 e2e2 | d2d2 d2f2 | g2a2 d2d2 || d2d2 d2f2 |
+g2f2 e2e2 | d2d2 d2f2 | g2a2 d2d2 |]| d2a2 g2f2 | g2f2 e2e2 | d2a2 g2f2 |
+g2a2 d2d2 || d2a2 g2f2 | e2d2 c2A2 | D2d2 d2f2 | g2a2 d2d2 |]

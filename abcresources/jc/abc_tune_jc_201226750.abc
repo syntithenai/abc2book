@@ -1,0 +1,34 @@
+X: 1042
+T: Gallaway Tom
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: 2nd part has initial repeat but no final repeat.
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+G |\
+cde ede | cAA A2G | cde cde | fdd d2G |\
+cde ede | cAA A2c | GAG AcA | cde d2 :|
+|: e |\
+gag ede | cAA A2a | gag ede | fed d2g |\
+agf edc | AAA A2c | GAG AcA | cde d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+e3 c3 | f3- f2z | e3 c3 | g3- g2f |\
+e3 c3 | f3 F3 | e3 f3 | e2c g2 :|
+|: z |\
+e3 c3 | f3 F3 | e3 d3 | g3- g2e |\
+f3 c2z | f3 F3 | e3 f3 | e2c g2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First Man turn his Partner round and foot it, clap hands twice and cast off in 2d Cu. Place .|
+then do the same and case off into 3d Cu. Place :|
+lead thro' the 3d Cu. and turn single, then lead thro' the 2d Cu. turn single and sett .|
+1st Cu. take hands and slip one step down and one back again then cast off and turn :|
+%%endtext

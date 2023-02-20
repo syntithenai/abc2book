@@ -1,0 +1,141 @@
+
+X: 1
+T: Big Scioty
+O: trad American
+R: reel
+N: Named after the Scioto River in Ohio. Also spelled Sciota, Sciote, Scioty.
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: Debby Knight, plus a couple of recordings
+M: C|
+L: 1/8
+K: G
+(3DEF \
+| "G"G2Bd BAGB | AB2B B2dc | BAGB "D7"AGEG | "G"AG2D G2DE |
+| "G"GFGA B2d2 | "C"e3f e2dc | "G"BAGB "D7"AGEG | "G"AG2A G2 :|
+|: (3def \
+| "G"g2ga bag2 | "Am"ea2b age2 | "(G)"gfgf edBA | "Em"Be2f e3 f |
+| "C"e2fg e2d2 | "Am"Be2f e3d | "D7"BAGB AGEG | "G"AG2A G2 :|
+
+%%sep 5 1 500
+
+X: 2
+T: Big Scioto
+R: reel
+N: Named after the Scioto River in Ohio. Also spelled Sciota, Sciote, Scioty.
+N: Compiled from numerous online versions, not the same as any of them.
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+   z2 \
+| "G"DEGA BAGB | A[D2B2]A [D2B2]Bd | "G"BAGE DEGA | A[D2B2]A [D2B2]GE |
+| "G"DEGA B2d2 | "Em"[de]e2e- e2eg | "D"edBG AGED | "G"E[G2B2]G [G2B2] :|
+|: ef \
+| "G"g2ga bag2 | "Am"g[A2a2][Aa-] agaa- | abag e2d2 | "Em"[de]e2e- e2ef |
+| g2fg edB2 | "C"B[c2e2][ce]- [c2e2]eg | edBG AGED | "G"E[G2B2]G [G2B2] :|
+
+%%sep 5 1 500
+
+X: 3
+T: Big Scioty
+R: reel
+N: Named after the Scioto River in Ohio. Also spelled Sciota, Sciote, Scioty.
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+F: http/www.ibiblio.org/fiddlers/BI_BILE.htm
+M: C|
+L: 1/8
+K: G
+   DE \
+| GABG AGED | EDEF G2 (3DEF | GABG AGED | EDEF G2G2 |
+| GFGA Bcd2 | e3f e2d2 | BAGB AGEG | EG2F G2 :|
+|: ze \
+| gfga gedg | egab a3e | gfga gedc | Bdef e3e |
+| efgf edBd | Be2f e2e2 | BAGB AGED | DG2F G2 :|
+
+%%sep 5 1 500
+
+X: 4
+T: Big Scioty
+R: reel
+N: Named after the Scioto River in Ohio. Also spelled Sciota, Sciote, Scioty.
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+F: http/www.glitchless.net/abc/contra.abc
+M: C|
+L: 1/8
+K: G
+(3DEF \
+| "G"G2Bd  BAGB | ABBB B2dc | BABd AGEG | ABBB B2D2 |
+| GFGA B2d2 | "C"e3g e2dc | "G"BAGG "D"AGEG | "G"ABBB B2 :|
+|: (3DEF \
+| "G"GABd [g2B2][g2B2] | "D"a3b a2ge | gfgf ddB2 | "C"e3g e2gf |
+| gfgf edB2 | e3g e2dc | "G"BABG "D"AGAG | "G"ABBB B2 :|
+
+%%sep 5 1 500
+
+X: 5
+T: Big Sciota
+O: trad American
+R: reel
+N: Named after the Scioto River in Ohio. Also spelled Sciota, Sciote, Scioty.
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: http://www.mandolinsessions.com/feb06/tune.html
+N: The article contains Wendy Anthony's simplified version plus variations.
+M: C|
+L: 1/8
+K: G
+D2 \
+| "G"G2 GB "D"A2 Ad |   "G"B2 G2- G2 D2 | "G"GF GB "D"A2 Ad | "G"B2 G2 G2 D2 |
+| "G"GF GA    B2 gf |   "C"e4     ef ge | "D"dB G2    AG Ad | "G"B2 G2 G2 :|
+|: Bd \
+| "G"g2 ga    b2 ag |   "D"g2 a2- a2 eg |    a2 ab    ag ed | "C(Em)"e4- e2 |
+|    gf ed    B2 Bd |"Em(C)"e2 ef e2 ge | "D"dB GB    AG Ad | "G"B2  G2  G2 :|
+
+%%sep 5 1 500
+
+X: 6
+T: Big Scioty
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+F: http://www.abbamoses.com/fiddledo/fiddlepage
+M: C|
+L: 1/8
+K: G
+(3DEF |\
+GFGA Bdd2 | [AD-][B2D2][AD-] [BD]ABd | BAGB AGED | [EG,-][G2G,2][EG,] [G2G,2]D2- |
+DB,DE GABd | J[e4e4] J[e3e3]A | BAB2 AGED | EG2A G2 :|
+|:  e2- |\
+edef gfed | egab a4 | efgf edBd | [e4e4] [e2e2]de- |
+efgf edBd | [e2e2][e2e2] [g3e3]A | BAGB AGED | EG2A G2 :|
+
+%%sep 5 1 500
+
+X: 7
+T: Big Scioty
+S:http/vclvm54.isis.unc.edu/mediawiki/index.php/Big_Scioty 2011-5-12
+M:4/4
+L:1/8
+K:G
+|: DE |\
+GABG AGED | EDEF G2 ((3D/E/F/ | G)ABG AGED | EDEF G2 {DEF}G2 |
+GFGA Bcd2 | e3f e2d2 | BAGB AGEG | EG2F G2 :|
+|: ze |\
+gfga gedg | egab a3e | gfga gedc | Bdef e3(e |
+e)fgf edBd | Be2f e2A2 | BAGB AGED | D{EF}G2F G2 :|
+
+%%sep 5 1 500
+
+X: 8
+T: Big Sciota (traditional)
+M:C|
+L:1/8
+K:G
+%
+DED |\
+"G"G2GA Bcd2 | B3A B3 B- | BAGB "D"AGED | "G"G3 G2 DED |\
+GFGA Bcd2 | "C"e3 e2-e2A | "G"BAGB "D"AGEG | "G"AG2 G2 ||
+DED |\
+"G"G2GA Bcd2 | B3A B3B- | BAGB "D"AGED | "G"GEDB, A,G,3 |\
+GFGA Bcd2 | "C"e3 e2- e2d | "G"BAGB "D"AGED | "G"G3 G2 |]
+|: ABd |\
+"G"g3a ba g2 | "A"e a2a2- a2e | aege fe d2 | "C"Be2 e3ef |\
+gefg fed2 | "Am"Be2 e2- e2A | "D"BAGB AGED | "G"G3 G2 :|

@@ -1,0 +1,19 @@
+X:654
+T:The Severn Bore
+C:Corelli, arr. Fried de Metz Herman
+L:1/8
+M:3/4
+%%MIDI program 42     Cello
+%%MIDI chordprog 56   Trumpet
+%%MIDI bassprog 58    Tuba
+%%MIDI gchord bbb
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=108
+K:Dm
+P:A
+|: DE | "Dm"FA FE D2 | "Gm"B4 "Dm"A2 | "Gm"G>A "Dm"F>G "C"E>F | "A7"E4 "Dm"D2 |\
+"Dm"A>B AG FD | "Gm"B2 "Dm"A2 "C"EF | "Gm"GA BA B/A/G/F/ | "A"E4 :|
+P:B
+|: FG | "D7"A>B A^F A2 | "Gm"G2 D2 D2 | "C7"G>A GE G2 | "F"F2 C2 C2 |\
+"C#"FG _AG F_E | "A"^C2 C2 "Dm"D2 | "Gm"D2 FE "A7"D^C | "Dm"D4 :|

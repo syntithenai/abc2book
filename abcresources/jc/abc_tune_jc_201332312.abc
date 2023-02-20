@@ -1,0 +1,105 @@
+
+X: 3
+T: Ruffs and Rhees   [C]
+O: 1779
+R: jig
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 staves=2	% Formatted for proofreading on my screen.
+|:\
+"C"c2g "(Am)"ece | "Dm"fdc "G7"B2G |\
+"C"c2g "(Am)"ece | "G7"BGB "C"c3 :|
+|:\
+"C"E2F "(G7)"GAB | "C"cGF E2C |\
+"C"E2F "(G7)"GAB | "C"cge "G7"d3 :|
+|:\
+"C"g2e "F"(f/g/a)f | "Dm"fdf "C"g2e |\
+"C(Am)"e2c "F(Dm)"(d/e/f)d | "G7"BGB "C"c3 :| [a2C2]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d	% Preserves the book's staff layout
+|:\
+c3 c3 | d3 g2f | e3 c3 | g2G c3 :||: c3 c3 | cgf e2c |
+c3 c3 | cec g3 :||: c3 f3 | d3 e3 | c2e f3 | g2G c3 :| [g2G2]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%   Change sides .|
+%% back again :|
+%% lead down two Cu. :|.
+%% up again and cast off :|.
+%% Le Pressett or the first and second Cu.
+%% move intirely round each other till they
+%% arrive at proper places .||.
+%%endtext
+
+%%sep 1 1 500
+
+X: 3
+T: Ruffs and Rhees   (G)
+O: 1779
+R: jig
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"G"G2d "(Em)"BGB | "Am"cAG "D7"F2D |\
+"G"G2d "(Em)"BGB | "D7"FDF "G"G3 :|
+|:\
+"G"B2c "(D7)"def | "G"gdc B2G |\
+"G"B2c "(D7)"def | "G"gdB "D7"A3 :|
+|:\
+"G"d2B "C"(c/d/e)c | "Am"cAc "G"d2B |\
+"G(Em)"B2G "C(Am)"(A/B/c)A | "D7"FDF "G"G3 :| [g2D2]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 3
+T: Ruffs and Rhees   (D)
+O: 1779
+R: jig
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"D"d2a "(Bm)"fdf | "Em"ged "A7"c2A |\
+"D"d2a "(Bm)"fdf | "A7"cAc "D"d3 :|
+|:\
+"D"F2G "(A7)"ABc | "D"dAG F2D |\
+"D"F2G "(A7)"ABc | "D"daf "A7"e3 :|
+|:\
+"D"a2f "G"(g/a/b)g | "Em"geg "D"a2f |\
+"D(Bm)"f2d "G(Em)"(e/f/g)e | "A7"cAc "D"d3 :| [b2D2]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 3
+T: Ruffs and Rhees   (A)
+O: 1779
+R: jig
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"A"A2e "(F#m)"cAc | "Bm"dBA "E7"G2E |\
+"A"A2e "(F#m)"cAc | "E7"GEG "A"A3 :|
+|:\
+"A"c2d "(E7)"efg | "A"aed c2A |\
+"A"c2d "(E7)"efg | "A"aec "E7"B3 :|
+|:\
+"A"e2c "D"(d/e/f)d | "Bm"dBd "A"e2c |\
+"A(F#m)"c2A "D(Bm)"(B/c/d)B | "E7"GEG "A"A3 :| [a2E2]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

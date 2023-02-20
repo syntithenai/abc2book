@@ -1,0 +1,70 @@
+%%text RJ Set 116 NEFFA 2013 Qu\'ebec set
+
+
+X: 1
+T: Reel du P\`ere Carignan
+M: C|
+L: 1/8
+R: reel
+K: D
+|:\
+"D"fafd "G"g3g | "D"fafd A2"D#dim"FA |\
+"Em7"dcBA GBBB | "A7"ABAG F2AA ||\
+"D"fafd "G"g3g | "D"fafd A2dd |
+"Em7"cdef "A7"gecA |1 dfec "D"d2 f2 :|[2 "A7"dfec "D"dAAG \
+|:\
+"D"ABAF DFAd | "G"BdBG ABcd |\
+"A7"efec Aceg |
+fafd A2AG ||\
+"D"ABAF DFAd | "G"BdBG ABcd |\
+"A7"efec Acef |1 gecA "D"dAAG :[2 gecA "D"d4 ||
+%%text Transition: Cut that last D short.
+
+
+X: 2
+T: Reel du lapin
+M: C|
+L: 1/8
+R: reel
+K: G
+z2 |:\
+"G"G2Bd gagf | "C"edcB "Am7"ABAF |\
+[1,3 "D"DEFG "Em7"ABAF | "Ddim/F"GFGB "D/F#"d2(3DEF :|\
+[2,4 "D"DEFG A2 "^pizz"e2 | "D"dcBA "G"G2  :|
+|: "D+"Bc |\
+"G"dBGA BGBc | dB"G#dim"GBx "Am7"A2 AB |\
+[1,3 "D"cAFA DFAB | cAFA "D7"d2 :|\
+[2,4 "D"cAFA D2 "^pizz"e2 | "D"dcBA "G"G2 :|
+% text 4/25/13
+
+
+X: 3
+T: Le vieux moulin
+M: C|
+L: 1/8
+R: reel
+K: D
+(3ABc |:\
+"D"d2fd adfd | "A"c2ec fcec |\
+"D"d2fd adfd | "Em7"efec "A"A2AB |\
+"D"AFDF Addd | "G"BGDG BdcB |
+"A"Acef (3gfe cA | "A7"dfec "D"d4 ::\
+"D"A,4-A,2 "D7"D2 | "G"B,4-B,2 D2 |\
+"A7"C3D E2C2 |[1,2 "D"D3E FE D2 :|[2,4 "D"D4- D2z2 :|
+
+
+X: 4
+T: Mademoiselle McCloud
+M: C|
+L: 1/8
+K: G
+|:\
+"G"G2Bd edBg- | gBBA BcBA | "G"G2Bd "G#dim"edBg- | "Am"gAAG "D/F#"AcBA |\
+"G"G2Bd edBg- | gBBA Bdef |
+"C"gage "A/C#"d2fa | "D"gedB "D/F#"A [1 cBA :|2 def |:\
+"G".g2.f2 "D/F#"edBg- | "Em"gBBA "D/F#"Bdef |
+"G"gage "Em"d2fa | "Am"gedB "D"Adef |\
+"G".g2.f2 "D/F#"edBg- | "Em"gBBA "D/F#"Bdef | "C"gage "A/C#"d2fa | "D"gedB "/F#"A \
+[1 def :|[2 cBA |]["fin" z"G"G2 |]
+% text 4/25/13
+

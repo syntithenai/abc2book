@@ -1,0 +1,609 @@
+X: 2001
+T: Captain McBride's Hornpipe
+P: Lady Eliza Lindsay
+C:Traditional?
+R:Reel (8x32)
+B:RSCDS 20-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:C
+(3G,A,B,|"C"C2C2 c3e|"G7"dcBA "C/E"G3F|"C"E2ec G2ge|"D"dcde "G"G2 (3G,A,B,|
+         "C"C2C2 c3e|"G7"dcBA "C/E"G3F|"C"EGEC "G7"DFDB,|"C"C2 "F"C2 "C"C2||
+dc|"G"BGBd g2 df|"C"eccB c2 c_B|"F"AFAc f2 Ac|"G"=BGG^F [G2B,2] G=F|
+   "C"EccE "Dm"FddF|"Em"GeeG "G7"f2 gf|"C"egec "G7"dfdB|\
+                                        "C"[c2G2E2] "F"[c2A2F2] "C"[c2G2E2]|]
+%%center Book20/2001-Captain_McBrides_Hornpipe-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2002
+T: Up in the Air
+P: Sir George Clark of Pennycuik
+C:Nathaniel Gow
+R:Strathspey (8x32)
+B:RSCDS 20-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:G
+g/a/|"G"b<g g2 d<B B2|"C"c<e c<e "D"A3 B/c/|\
+       "G"d<B B2 "Em"G<E E2|"Am"c>A "Em"B>G "D"G/F/E/D/ D g/a/|
+     "G"b<g g2 d<B B2|"C"c<e c<e "D"A3 B/c/|\
+       "G"d<B B2 "Em"e<E E>G|"D"G/F/E/D/ DE/F/ "G"G2 z||
+d/c/|"G"B<d d2 d<b b>a|"C"g>e e>d "D"d3 d/c/|\
+       "G"B<d d2 "Em"e>B "Am"[c2E2]|"D"[dF]>A "Em"[BE]>G "D"[G/D/]F/E/D/ DE/F/|
+     "G"G<B B2 "Bm"B<d d2|"G"[gG]>d "C"[eG]>d "G"[d4G4D4]|\
+       "G"[d'd]<b b<g "C"[gG]<e e<c|"G"B>G "D7"A>F "G"G2 z|]
+%%center Book20/2002-Up_in_the_Air-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2003
+T: Miss Bennet's Jig
+P: Miss Betty Hunter
+C:Charles Duff
+R:Jig (8x32)
+B:RSCDS 20-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Eb
+|:B|"Eb"e2B G>BG|E2E E2G|"Fm"A2G F2E|"Bb"EDC B,2 B|
+    "Eb"e2B G>BG|E2E E2B|"Fm"c2A "Bb7"F2D|"Eb"E2E E2:|
+|:B|"Eb"B2B B>c_d|"Ab"_dcc c3|"F7"c2c cde|"Bb"edd "Bb7"d2 B|
+    "Eb"e2B g2e|"Bb"bbg "Cm"e2c|"Fm"ccA "Bb7"F2D|"Eb"E2E E2:|
+%%center Book20/2003-Miss_Bennets_Jig-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2004
+T: Village Reel
+P: Our Auld Guidman is noo awa'
+C:Trad. (Koehler's Repository)
+R:Strathspey (8x32)
+B:RSCDS 20-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:Bb
+F|"Bb"[B2F2D2] B>c [dF]>c d>g|[fBF]>d c>B "Eb"G2-GB|\
+  "Bb"F>d B>g d>b "Eb"g>e|"Dm"f<d "F7"c>f "Bb"B2-BF|
+  "Bb"[B2F2D2] B>c [dF]>c d>g|[fBF]>d c>B "Eb"G2-GB|\
+  "Dm"(3FBF "Cm"E<B "Bb"D>B "Cm"C>g|"Bb/F"[fdBF]<d "F7"c>f "Bb"[B2-D2-][BD]||
+a|"Gm"(3[bB]ag "F"(3[aA]gf "Eb"[gG]>f "Bb"[dB]>g|[fBF]<d c>B "Eb"G2-GB|\
+  "Bb/D"[bB]>f "Eb"g>e "Bb"f>d "Eb"b>g|"Bb"[fBF]<d "F7"[cA]>f "Bb"B2-Ba|
+  "Gm"(3[bB]ag "F"(3[aA]gf "Eb"[gG]>f "Bb"[dB]>g|[fBF]<d c>B "Eb"G2-GB|\
+  "Dm"(3FBF "Cm"(3EBE "Bb"(3DBD "Eb"C>g|"Bb/F"[fBF]<d "F7"[cE]>f "Bb"[B2-D2-][BD]|]
+%%center Book20/2004-Village_Reel-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2005
+T: Miss Burns's Reel
+P: Miss Burns's Reel
+C:Traditional?
+R:Reel (8x32)
+B:RSCDS 20-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:D
+B|"D"A2FA dA FD|"A7"GEFD CEEB|"D"A2FA dA FA|"G"BG"A7"EA "D"FD DB|
+  "D"A2FA dA FD|"A7"GEFD CEEB|"D"A2FA dA FA|"G"BG"A7"EA "D"FD D||
+g|"D"fedf abaf|"A"ge"D"fd "Em"eBBg|"D"fedf abaf|f/g/a "A7"e/f/g "D"fddg|
+  "D"fedf abaf|"A"ge"D"fd "Em"eBBg|"D"fe"A/C#"ec "D"dA"Bm"BF|\
+                                              "Em"GB"A7"Eg "D"fdd|]
+%%center Book20/2005-Miss_Burnss_Reel-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2006
+T: Miss Devon's Reel
+P: Mrs Hood's Strathspey
+C:Abraham Mackintosh
+R:Strathspey (8x32)
+B:RSCDS 20-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:A
+%
+E|"A"[AEC]>B A>A "A7"[cE]<ee>c|"D"[dF]<ff>a "A"e<c"E"[BG]>c|\
+  "A"A>B A>B c<e "D"[fD]>a|"E"[gB]f/e/ "B7"B^d "E"eEE E|
+  "A"[AEC]>B A>A "A7"[cE]<ee>c|"D"[dF]<ff>a "A"e<c"E"[BG]>c|\
+  "A"A>B A>B c<e "D"[fD]>a|"E"[gB]f/e/ "B7"B^d "E"eEE||
+e|"A"[ec]>f "A7"[eA]>=g "D"[fA]>d "E"[BG]>d|"A"[eE]>c "F#m"[AF]>c "E"B>G E>d|\
+  "A"[ec]>f "A7"[eA]>=g "D"[fA]>d "E"[BG]>d|"E"[dF]>B [GE]>B "A"[A2C2] Ac|
+  "A"[ec]>f "A7"[eA]>=g "D"[fA]>d "E"[BG]>d|"A"[eE]>c "F#m"[AF]>c "E"B>G E>G|\
+  "D"F>A "A"E>A "Bm7"D>A "A"C>e|"Bm"f>d "E7"Bg "A"aA A|]
+%%center Book20/2006-Miss_Devons_Reel-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2007
+T: The Drummer
+P: The Drummer
+C:Traditional?
+R:Reel (8x48) ABABAB
+B:RSCDS 20-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:Gm
+B/A/|"Gm"GABG D/D/DDE|"Fm"F2FG ABcA|"Gm"GABG D/D/DDe|"D7"dcBA "Gm"G/G/G G B/A/|
+     "Gm"GABG D/D/DDE|"Fm"F2FG ABcA|"Gm"GABG D/D/DDe|"D7"dcBA "Gm"G/G/G G||
+F|"Bb"B/B/B Bd "F7"c/c/c ce|"Bb"B/B/B Bd "F7"cA FA|\
+  "Bb"B/B/B Bd "F7"c/c/c ce|"D7"dcBA "Gm"G/G/G GF|
+  "Bb"B/B/B Bd "F7"c/c/c ce|"Bb"B/B/B Bd "F7"cA FA|\
+  "Bb"B/B/B Bd "F7"c/c/c ce|"D7"dcBA "Gm"G/G/G G|]
+%%center Book20/2007-Drummer-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2008
+T: Miss Ogilvie's Fancy
+P: Miss Ogilvie's Fancy
+C:Traditional?
+R:Strathspey (8x32)
+B:RSCDS 20-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:Bb
+%
+"Bb"[BFD]>c[BF]b "Eb"[g/G/]f/e/d/ "Cm"[e/G/]d/c/B/|"F"A/B/c/B/ AF Fc c2|\
+"Bb"[BF]>cBb "Cm"[g/G/]f/e/d/ [e/G/]d/c/B/|"F"A/B/c/B/ AF "Eb"GB "Bb"[B2F2D2]|
+"Bb"[BFD]>c[BF]b "Eb"[g/G/]f/e/d/ "Cm"[e/G/]d/c/B/|"F"A/B/c/B/ AF Fc c2|\
+"Bb"[BF]>cBb "Cm"[g/G/]f/e/d/ [e/G/]d/c/B/|"F"A/B/c/B/ AF "Eb"GB "Bb"[B2F2D2]||
+"Bb"D>FBF "Cm"Ge"Bb"Fd|"Cm"E>F G/F/E/D/ "F"[CA,]c c2|\
+"Bb"D>FBF "Cm"Ge"Bb"Fd|"Cm"E>G "F"[F/B,/]E/D/C/ "Bb"B,B B2|
+"Bb"D>FBF "Cm"Ge"Bb"Fd|"Cm"Eg"Bb"Df "F"Cc c2|\
+"Bb"[BFD]>dfb "Cm"[g/G/]f/e/d/ [e/G/]d/c/B/|"F"A/B/c/B/ AF "Eb"GB "Bb"[B2D2]|]
+%%center Book20/2008-Miss_Ogilvies_Fancy-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2009
+T: Miss Jessie Dalrymple's Reel
+P: Miss Jessie Dalrymple's Reel
+C:Traditional?
+R:Reel (8x32)
+B:RSCDS 20-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:Bb
+F|"Bb"B2dB fBdB|"Cm"Gcec gcec|"F7"A/c/f a>f "Gm"bg"F"af|"C7"=c/d/e c>e "F"fF FF|
+"Bb"B2dB fBdB|"Cm"Gcec gcec|"F7"A/c/f a>f "Gm"bg"F"af|"C7"=c/d/e c>e "F"fF F||
+F|"Bb"D/E/F BF "Eb"GEEG|"Bb"FDDF "F7"ECCE|\
+                    "Bb"D/E/F BF "C7"GEce|"F"[d/F/]c/B FA "Bb"BB,B, E|
+  "Bb"D/E/F BF "Eb"GEEG|"Bb"FDDF "F7"ECCE|"Bb"DFBb "Cm"accg|"F7"fBAe "Bb"dBB|]
+%%center Book20/2009-Miss_Jessie_Dalrymples_Reel-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2010
+T: Quiet and Snug
+P: Alex. McGlashan's Farewell
+C:Alexander McGlashan
+R:Strathspey (8x32)
+B:RSCDS 20-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:G
+D|"G"[GD]>B "Bm"d>A "G"[d/D/]B/G D>G|"C"EG"G"Dd "Am"[c/E/]B/A "D"[c/F/]B/A|\
+  "G"[GD]>B "Bm"d>A "G"[d/D/]B/G D>G|"Am"EA"D"[FC]D "G"[G/B,/]G/G z D|
+  "G"[GD]>B "Bm"d>A "G"[d/D/]B/G D>G|"C"EG"G"Dd "Am"[c/E/]B/A "D"[c/F/]B/A|\
+  "G"[GD]>B "Bm"d>A "G"[d/D/]B/G D>G|"Am"EA"D"[FC]D "G"[G/B,/]G/G z||
+d|"G"d<B [gG]<f "C"[eG]dcB|"Am"Aa"A7"[Aa]g "D"[fA]>e[dA]>c|\
+  "G"[BG]dgd "C"[eG]g"G"[dG]g|"C"[cE]e"D7"[dD]c "G"[B/D/]A/G z d|
+  "G"d<B [gG]<f "C"[eG]dcB|"Am"Aa"A7"[Aa]g "D"[fA]>e[dA]>c|\
+  "G"[BG]dgd "C"[eG]g"G"[dG]g|"Am"[eG]a"D7"[fA]d "G"[g2G2] z|]
+%%center Book20/2010-Quiet_and_Snug-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2011
+T: The Express
+P: The Ferry
+C:Traditional (Kerr's Coll.)
+R:Jig (8x40) AABAB
+B:RSCDS 20-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:A
+ed|"A"cBc Ace|"D"f3 "E7"efg|"A"a2c "F#m"cBA|"Bm"cBB "E7"Bed|
+   "A"cBc Ace|"D"f3 "E7"efg|"D"a2c "E7"BAB|"A"A3 z :|
+ed|"A"cea aga|"D"fdf agf|"A"e2c "F#m"cBA|"D"cBB "E7"Bed|
+   "A"cBc Ace|"D"f3 "E7"efg|"A"a2c "E7"BAB|"A"A3- "D.C."A||
+%%center Book20/2011-Express-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2012
+T: The College Hornpipe
+P: Jolly Tars
+C:Traditional (Kerr's Coll.)
+R:Reel (8x32)
+B:RSCDS 20-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:F
+cB|"F"AFAc "Bb"dBdf|"C"eceg "Dm"f2 fe|"Bb"dfed "F"cAfe|"Bb"dcBA "C7"[G2E2] cB|
+   "F"AFAc "Bb"dBdf|"C"eceg "Dm"f2 fe|"Bb"db"G/B"ag "C7"fede|"F"f2"Bb"f2"F"f2||
+gf|"C"eceg "C7"b2 ag|"F"fcfa c'2 ba|"b"g^f"a"ga "G"bag=f|"C7"e2 c2 c2 cB|
+   "F"AFAc "Bb"dBdf|"C"eceg "Dm"f2 fe|"Bb"db"G/B"ag "C7"fede|"F"f2 [c2E2] F2|]
+%%center Book20/2012-College_Hornpipe-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20021
+T: Mrs Ramsay of Barnton
+R: strathspey
+B: RSCDS 20-2 II
+B: Athole Collection, 1884 p.258
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+%--------------------
+K: Em
+[| "Em"E3F G3A Be3 e4 | "Bm"d3B "A7"A3G "D"FD3 D3F \
+|  "Em"E3F G3A Be3 e3f | "Em"g3e "B7"B3^d "Em"eee2 e3f |
+|  "Em"g3e "B7"f3^d "Em"eB3 B3^c | "Bm"d3B "A7"A3G "D"FD3 D3F \
+|  "Em"EG3 "B7"F3A "Em"G3B e3g | "Bm"fd3 a3f "Em"ge3 e3f |]
+[| "Em"ge3 "B7"f3^d "Em"eB3 B3^c | "Bm"d3B "A7"A3G "D"FD3 D3f \
+|  "Em"g3e "B7"f3^d "Em"eB3 B3e | "Em"B3e "B7"^d3f "Em"e4- e3f |
+|  "Em"g3e B3g "B7"f^d3 "Em"e3^c | "Bm"d3B "A7"Ad3 "D"F3D "F#m"A3F \
+|  "Em"E3G "B7"F3A "Em"GB3 e3g | "Em"bB3 "B7"g3f "Em"e8 |]
+%%center Book20/20021-Mrs_Ramsay_of_Barnton-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20031
+T: Miss Betty Hunter
+O: Charles Duff
+B: RSCDS 20-3a
+M: 6/8
+L: 1/8
+%--------------------
+K: D
+A \
+| "D"d2A F>AF | D2D D2F | "Em"G2F E2D | "A7"DCB, A,2A \
+| "D"d2A F>AF | "Bm"D2D D2A | "Em"B2G "A7"E2C | "D"D2D D2 :|
+|: A \
+| "D"A2A A>B=c | "G"=cBB B3 | "E7"B2B Bcd | "A7"dcc c2A \
+| "D"d2A f2d | "F#m"aaf "Bm"d2A | "Em"BBG "A7"E2C | "D"D2D D2 :|
+%%center Book20/20031-Miss_Betty_Hunter-D-32-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20032
+T: Miss Betty Hunter
+O: Charles Duff
+B: RSCDS 20-3a
+M: 6/8
+L: 1/8
+%--------------------
+K: Eb
+B \
+| "Eb"e2B G>BG | E2E E2G | "Fm"A2G F2E | "Bb7"EDC B,2B \
+| "Eb"e2B G>BG | E2E E2B | "Fm"c2A "Bb7"F2D | "Eb"E2E E2 :|
+|: B \
+| "Eb"B2B B>c_d | "Ab"_dcc c3 | "F7"c2c cde | "Gm"edd "Bb7"d2B \
+| "Eb"e2B g2e | "Gm"bbg "Cm"e2B | "Fm"ccA "Bb7"F2D | "Eb"E2E E2 :|
+%%center Book20/20031-Miss_Betty_Hunter-Eb-32-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20033
+T: The Garden Wall
+O: Petrie
+B: RSCDS 20-3b
+M: 6/8
+L: 1/8
+K: G
+B/c/ \
+| "G"dBG GBd | gag gdB | dBG GBG | "D7"AFD D2B/c/ \
+| "G"dBG GBd | gag gdB | "Am"cBc "D7"Adc | "G"BGG G2 :|
+d \
+| "G"gfg dBG | "Em"gfg dBG | "Am"cac "G"BgB | "Am"aAA "D7"A2f \
+| "G"gfg dBG | "Em"gfg dBG | "D7"FGA Ddc | "G"BGG G2 ||
+f \
+| "G"gfg dBG | "Em"gfg dBG | "Am"cac "G"BgB | "Am"aAA "D7"A2c \
+| "G"BAG "D7"cBA | "G"dcB "C"edc | "G"Bcd "D7"DEF | "G"G3- G2 |]
+%%center Book20/20032-Garden_Wall-D-32-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20041
+T: Oor Auld Guidman Is Noo Awa'
+B: K\"ohler's Repository
+B: RSCDS 20-4
+R: strathspey
+M: 4/4
+L: 1/8
+%--------------------
+K: Bb
+F || "Bb"B2 B>c d>cd>g | f>d c>B "Eb"G2- GB \
+   | "Bb"F>d B>g d>b "Eb"g>e | "Bb"f<d "F7"c>f "Bb"B2- BF |
+   | "Bb"B2 B>c d>cd>g | f>d c>B "Eb"G2- GB \
+   | "Bb"(3FBF "Cm"E>B "Bb"D>B "Cm"C>g | "Bb"f<d "F7"c>f "Bb"B2- B ||
+a || "Bb"(3bag "F7"agf "Eb"g>f "Bb"d>g | f<d c>B "Eb"G3 a \
+   | "Bb"b>f "Eb"g>e "Bb"f>d "Eb"b>g | "Bb"f<d "F7"c>f "Bb"B2- Ba |
+   | "Bb"(3bag "F7"agf "Eb"g>f "Bb"d>g | f<d c>B "Eb"G2- GB \
+   | "Bb"(3FBF "Cm"EBE "Bb"DBD "Cm"C>g | "Bb"f<d "F7"c>f "Bb"B2- B ||
+%%center Book20/20041-Oor_Auld_Guidman_Is_Noo_Awa-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20042
+T: Oor Auld Guidman Is Noo Awa'
+B: K\"ohler's Repository
+B: RSCDS 20-4
+R: strathspey
+M: 4/4
+L: 1/8
+%--------------------
+K: G
+D | "G"G2  G>A B>A    B>e |     d>B A>G "C"E2- EG \
+  | "G"D>B G>d B>g "C"e>c | "D7"d<B A>d "G"G2- G ||
+D | "G"G2  G>A B>A    B>e |     d>B A>G "C"E2- EG \
+  | "G"(3DGD "C"C>G "G"B,>G "Am"A,>e | "D7"d<B A>d "G"G2- G |]
+f | "G"g>e "D7"f>d "C"e>d "G"B>e |    d<B     A>G "C"E3  f  \
+  | "G"g>d  "C"e>c "G"d>B "C"g>e | "G"d<B "D7"A>d "G"G2- G ||
+f | "G"(3gfe "D7"(3fed "C"(3edc  "G"B>e  |     d<B A>G "C"E2- EG \
+  | "G"(3DGD  "C"(3CGC "G"B,GB, "Am"A,>e | "D7"d<B A>d "G"G2- G |]
+%%center Book20/20041-Oor_Auld_Guidman_Is_Noo_Awa-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20081
+T: Miss Ogilvie's Fancy
+C: Robert Mackintosh (?)
+R: strathspey
+B: RSCDS 20-8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: Bb
+|: F \
+| "Bb"B>c Bb "Eb"g/f/e/d/ "Bb"e/d/c/B/ | "F"A/B/c/B/ AF Fc c2 \
+| "Bb"B>c Bb "Eb"g/f/e/d/ "Bb"e/d/c/B/ | "F"A/B/c/B/ AF "Eb"GB "Bb"B :|
+|| F \
+| "Bb"D>F BF "Eb"Ge "Bb"Fd | "Eb"E>F G/F/E/D/ "F7"Cc c2 \
+| "Bb"D>F BF "Eb"Ge "Bb"Fd | "Eb"E>G "F7"F/E/D/C/ | "Bb"B,B B2 ||
+|| "Bb"D>F BF "Eb"Ge "Bb"Fd | "Eb"Eg "Bb"Df "F7"Cc c2 \
+| "Bb"B>d fb | "Eb"g/f/e/d "Bb"e/d/c/B/ | "F"A/B/c/B/ AF "Eb"GB "Bb"B |]
+%%center Book20/20081-Miss_Ogilvies_Fancy-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20082
+T: The Garden Wall
+O: Petrie
+B: RSCDS 20-3b
+M: 6/8
+L: 1/8
+K: G
+B/c/ \
+| "G"dBG GBd | gag gdB | dBG GBG | "D7"AFD D2B/c/ \
+| "G"dBG GBd | gag gdB | "Am"cBc "D7"Adc | "G"BGG G2 :|
+d \
+| "G"gfg dBG | "Em"gfg dBG | "Am"cac "G"BgB | "Am"aAA "D7"A2f \
+| "G"gfg dBG | "Em"gfg dBG | "D7"FGA Ddc | "G"BGG G2 ||
+f \
+| "G"gfg dBG | "Em"gfg dBG | "Am"cac "G"BgB | "Am"aAA "D7"A2c \
+| "G"BAG "D7"cBA | "G"dcB "C"edc | "G"Bcd "D7"DEF | "G"G3- G2 |]
+%%center Book20/GardenWall_G.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20083
+T: Miss Betty Hunter
+O: Charles Duff
+B: RSCDS 20-3a
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"d2A F>AF | D2D D2F | "Em"G2F E2D | "A7"DCB, A,2A \
+| "D"d2A F>AF | "Bm"D2D D2A | "Em"B2G "A7"E2C | "D"D2D D2 :|
+|: A \
+| "D"A2A A>B=c | "G"=cBB B3 | "E7"B2B Bcd | "A7"dcc c2A \
+| "D"d2A f2d | "F#m"aaf "Bm"d2A | "Em"BBG "A7"E2C | "D"D2D D2 :|
+%%center Book20/MissBettyHunter_D.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20084
+T: Miss Betty Hunter
+O: Charles Duff
+B: RSCDS 20-3a
+M: 6/8
+L: 1/8
+K: Eb
+B \
+| "Eb"e2B G>BG | E2E E2G | "Fm"A2G F2E | "Bb7"EDC B,2B \
+| "Eb"e2B G>BG | E2E E2B | "Fm"c2A "Bb7"F2D | "Eb"E2E E2 :|
+|: B \
+| "Eb"B2B B>c_d | "Ab"_dcc c3 | "F7"c2c cde | "Gm"edd "Bb7"d2B \
+| "Eb"e2B g2e | "Gm"bbg "Cm"e2B | "Fm"ccA "Bb7"F2D | "Eb"E2E E2 :|
+%%center Book20/MissBettyHunter_Eb.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20085
+T: Mr Charles Graham
+C: J.Bowie
+R: strathspey
+B: RSCDS 20-__
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+cB \
+| "A"AE3 "E7"E3D "A"CE3 A,3c | "B(m)"BF3  B3A "E7"GB3  B3c \
+| "A"AE3     E3A "D"FA3 D3f  | "E7"  e2c2 Bcde "A"c2A2 A2 :|
+fg \
+| "A"a2e2 e2dc ABcd e2c2 | "D"df3   "A"ce3 "Bm"f2B2 "E7"B2fg \
+| "A"a2e2 e2dc ABcd e2c2 | "D"f2d2 "E7"B2cd "A"c2A2 A2 ||
+fg \
+| "A"a2e2 e2dc ABcd e2c2 | "D"df3   "A"ce3 "Bm"f2B2 "E7"B2cB \
+| "A"AE3  cA3  e2c2 a2e2 | "D"f2d2 "E7"Bcde "A"c2A2 A2 |]
+%%center Book20/MrCharlesGraham_A-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20086
+T: Mr Charles Graham
+C: J.Bowie
+R: strathspey
+B: RSCDS 20-__
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+cB \
+| "A"AE3 "E7"E3D "A"CE3 A,3c | "B(m)"BF3  B3A "E7"GB3  B3c \
+| "A"AE3     E3A "D"FA3 D3f  | "E7"  e2c2 Bcde "A"c2A2 A2 :|
+fg \
+| "A"a2e2 e2dc ABcd e2c2 | "D"df3   "A"ce3 "Bm"f2B2 "E7"B2fg \
+| "A"a2e2 e2dc ABcd e2c2 | "D"f2d2 "E7"B2cd "A"c2A2 A2 ||
+fg \
+| "A"a2e2 e2dc ABcd e2c2 | "D"df3   "A"ce3 "Bm"f2B2 "E7"B2cB \
+| "A"AE3  cA3  e2c2 a2e2 | "D"f2d2 "E7"Bcde "A"c2A2 A2 |]
+%%center Book20/MrCharlesGraham_A_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20087
+T: Mrs Ramsay of Barnton
+R: strathspey
+B: RSCDS 20-2 II
+B: Athole Collection, 1884 p.258
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Em
+[| "Em"E3F G3A Be3 e4 | "Bm"d3B "A7"A3G "D"FD3 D3F \
+|  "Em"E3F G3A Be3 e3f | "Em"g3e "B7"B3^d "Em"eee2 e3f |
+|  "Em"g3e "B7"f3^d "Em"eB3 B3^c | "Bm"d3B "A7"A3G "D"FD3 D3F \
+|  "Em"EG3 "B7"F3A "Em"G3B e3g | "Bm"fd3 a3f "Em"ge3 e3f |]
+[| "Em"ge3 "B7"f3^d "Em"eB3 B3^c | "Bm"d3B "A7"A3G "D"FD3 D3f \
+|  "Em"g3e "B7"f3^d "Em"eB3 B3e | "Em"B3e "B7"^d3f "Em"e4- e3f |
+|  "Em"g3e B3g "B7"f^d3 "Em"e3^c | "Bm"d3B "A7"Ad3 "D"F3D "F#m"A3F \
+|  "Em"E3G "B7"F3A "Em"GB3 e3g | "Em"bB3 "B7"g3f "Em"e8 |]
+%%center Book20/MrsRamsayOfBarnton_Em-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20088
+T: Mrs Ramsay of Barnton
+R: strathspey
+B: RSCDS 20-2 II
+B: Athole Collection, 1884 p.258
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Em
+[| "Em"E3F G3A Be3 e4 | "Bm"d3B "A7"A3G "D"FD3 D3F \
+|  "Em"E3F G3A Be3 e3f | "Em"g3e "B7"B3^d "Em"eee2 e3f |
+|  "Em"g3e "B7"f3^d "Em"eB3 B3^c | "Bm"d3B "A7"A3G "D"FD3 D3F \
+|  "Em"EG3 "B7"F3A "Em"G3B e3g | "Bm"fd3 a3f "Em"ge3 e3f |]
+[| "Em"ge3 "B7"f3^d "Em"eB3 B3^c | "Bm"d3B "A7"A3G "D"FD3 D3f \
+|  "Em"g3e "B7"f3^d "Em"eB3 B3e | "Em"B3e "B7"^d3f "Em"e4- e3f |
+|  "Em"g3e B3g "B7"f^d3 "Em"e3^c | "Bm"d3B "A7"Ad3 "D"F3D "F#m"A3F \
+|  "Em"E3G "B7"F3A "Em"GB3 e3g | "Em"bB3 "B7"g3f "Em"e8 |]
+%%center Book20/MrsRamsayOfBarnton_Em_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20089
+T: Miss Ogilvie's Fancy
+C: Robert Mackintosh (?)
+R: strathspey
+B: RSCDS 20-8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+|: F \
+| "Bb"B>c Bb "Eb"g/f/e/d/ "Bb"e/d/c/B/ | "F"A/B/c/B/ AF Fc c2 \
+| "Bb"B>c Bb "Eb"g/f/e/d/ "Bb"e/d/c/B/ | "F"A/B/c/B/ AF "Eb"GB "Bb"B :|
+|| F \
+| "Bb"D>F BF "Eb"Ge "Bb"Fd | "Eb"E>F G/F/E/D/ "F7"Cc c2 \
+| "Bb"D>F BF "Eb"Ge "Bb"Fd | "Eb"E>G "F7"F/E/D/C/ | "Bb"B,B B2 ||
+|| "Bb"D>F BF "Eb"Ge "Bb"Fd | "Eb"Eg "Bb"Df "F7"Cc c2 \
+| "Bb"B>d fb | "Eb"g/f/e/d "Bb"e/d/c/B/ | "F"A/B/c/B/ AF "Eb"GB "Bb"B |]
+%%center Book20/OgilviesFancy-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20090
+T: Miss Ogilvie's Fancy
+C: Robert Mackintosh (?)
+R: strathspey
+B: RSCDS 20-8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+|: F \
+| "Bb"B>c Bb "Eb"g/f/e/d/ "Bb"e/d/c/B/ | "F"A/B/c/B/ AF Fc c2 \
+| "Bb"B>c Bb "Eb"g/f/e/d/ "Bb"e/d/c/B/ | "F"A/B/c/B/ AF "Eb"GB "Bb"B :|
+|| F \
+| "Bb"D>F BF "Eb"Ge "Bb"Fd | "Eb"E>F G/F/E/D/ "F7"Cc c2 \
+| "Bb"D>F BF "Eb"Ge "Bb"Fd | "Eb"E>G "F7"F/E/D/C/ | "Bb"B,B B2 ||
+|| "Bb"D>F BF "Eb"Ge "Bb"Fd | "Eb"Eg "Bb"Df "F7"Cc c2 \
+| "Bb"B>d fb | "Eb"g/f/e/d "Bb"e/d/c/B/ | "F"A/B/c/B/ AF "Eb"GB "Bb"B |]
+%%center Book20/OgilviesFancy_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20091
+T: Oor Auld Guidman Is Noo Awa'
+B: K\"ohler's Repository
+B: RSCDS 20-4
+R: strathspey
+M: 4/4
+L: 1/8
+K: Bb
+F | "Bb"B2 B>c d>cd>g | f>d c>B "Eb"G2- GB \
+  | "Bb"F>d B>g d>b "Eb"g>e | "Bb"f<d "F7"c>f "Bb"B2- BF |
+  | "Bb"B2 B>c d>cd>g | f>d c>B "Eb"G2- GB \
+  | "Bb"(3FBF "Cm"E>B "Bb"D>B "Cm"C>g | "Bb"f<d "F7"c>f "Bb"B2- B ||
+a | "Bb"(3bag "F7"agf "Eb"g>f "Bb"d>g | f<d c>B "Eb"G3 a \
+  | "Bb"b>f "Eb"g>e "Bb"f>d "Eb"b>g | "Bb"f<d "F7"c>f "Bb"B2- Ba |
+  | "Bb"(3bag "F7"agf "Eb"g>f "Bb"d>g | f<d c>B "Eb"G2- GB \
+  | "Bb"(3FBF "Cm"EBE "Bb"DBD "Cm"C>g | "Bb"f<d "F7"c>f "Bb"B2- B |]
+%%center Book20/OorAuldGuidmanIsNooAwa_Bb.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20092
+T: Oor Auld Guidman Is Noo Awa'
+B: K\"ohler's Repository
+B: RSCDS 20-4
+R: strathspey
+M: 4/4
+L: 1/8
+K: G
+D | "G"G2  G>A B>A    B>e |     d>B A>G "C"E2- EG \
+  | "G"D>B G>d B>g "C"e>c | "D7"d<B A>d "G"G2- G ||
+D | "G"G2  G>A B>A    B>e |     d>B A>G "C"E2- EG \
+  | "G"(3DGD "C"C>G "G"B,>G "Am"A,>e | "D7"d<B A>d "G"G2- G |]
+f | "G"g>e "D7"f>d "C"e>d "G"B>e |    d<B     A>G "C"E3  f  \
+  | "G"g>d  "C"e>c "G"d>B "C"g>e | "G"d<B "D7"A>d "G"G2- G ||
+f | "G"(3gfe "D7"(3fed "C"(3edc  "G"B>e  |     d<B A>G "C"E2- EG \
+  | "G"(3DGD  "C"(3CGC "G"B,GB, "Am"A,>e | "D7"d<B A>d "G"G2- G |]
+%%center Book20/OorAuldGuidmanIsNooAwa_G.abc

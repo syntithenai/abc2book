@@ -1,0 +1,14 @@
+X: 895
+T: Tim the Turncoat
+R: hornpipe
+%S: s:2 b:12(6+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #895
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0895/oneill-1001-0895-1.abc
+M: C|
+L: 1/8
+K: G
+"^A"[|] B>d \
+|: (3gfg b>g e2d>c | B>cd>B G2G2 |[1,3 DGBG DGBG | dcBc A2d2 :|[2,4 FGAB cBce | dcAF G2 :|
+"^B"\
+|: Bc | dcde dBGB | c2Bc AFD2 | G2Bc [1,3 defg | agfe dc :|[2,4 dgfg | ecAF G2 :|

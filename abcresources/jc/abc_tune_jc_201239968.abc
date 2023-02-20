@@ -1,0 +1,15 @@
+X: 353	% 100
+T: Dude Cowboy
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.35 #3
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+V: 1 name="100"
+[|"^Quadrille"\
+Bdd>e | BGG>A | Bdd>e | B3(G/A/) |\
+Bdd>e | BGG>A | BGAF | GDEG ||
+|:\
+[B4G4] | A [G2B,2] A | {^AB}d2 {^AB}d2 | A [G2B,2] A |\
+{^AB}d2 {^AB}d2 | G2 A2 |1 [G4-B,4-] | [GB,]DEG :|2 [G4-B,4-] | [G2B,2] z2 |]

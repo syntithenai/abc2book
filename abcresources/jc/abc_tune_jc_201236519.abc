@@ -1,0 +1,29 @@
+X: 222
+T: MISS GORDON OF LESMORE
+C: DANIEL McLAREN
+R: Strathspey
+B: Glen Collection p.22 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: F
+%
+V: 1
+C2 |\
+F3G A2B2 c3A F2A2 | GABc dcBA G3F D2E2 | F3G A2B2 c2A2 f2c2 | d2Bd cf{d}cB A2F2F2 :|
+c2 |\
+f3c a2f2 b3g a3f | (ec)(bg) a2f2 g3f d3e | f3g a2f2 (cA)(af) c2A2 | d2f2 c3B A2F2 F2c2 |
+(f2c2) A2F2 (d2B2) G2E2 | (FAcf) (afcA) B2G2 G2A2 | F2A,2 B,2C2 [D2B,2]E2 F2d2 | c2f2 ({A}G2{F}E2) F4 F2 |]
+%
+V: 2
+z2 |\
+[f4F4] [a4f4c4] [a4f4c4] [a4f4c4] | [B4B,4] [b4g4d4] [c4C4] [b4g4c4] |\
+[f4F4] [a4f4c4] [a4f4c4] [a4f4c4] | [B4B,4] [c4C4]   [f4F4] [a2f2c2] :|
+z2 |\
+[f4F4]  [f'4c'4a4] [e'4c'4g4] [f'4c'4a4] | [g'4e'4c'4] [f'4c'4a4] [c4C4]   [b4g4c4] |\
+[f4F4]  [a4f4c4]   [a4f4c4]   [a4f4c4]   | [f4F4]      [a4f4c4]   [a4f4c4] [a4f4c4] |
+[f4F4]  [a4f4c4]   [c4C4]     [b4g4c4]   | [f4F4]      [a4f4c4]   [c4C4]   [e4c4]   |\
+[F4F,4] [f4c4]     [B4B,4]    [b4f4d4]   | [c4C4]      [b4e4c4]   [a4f4]   [f2F2]   |]

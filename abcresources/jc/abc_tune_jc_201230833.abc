@@ -1,0 +1,28 @@
+X: 14201
+T: Old Collin's Complaint
+%R: waltz, minuet
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.4 p.20
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: This is version 2, for ABC software that understands trailing grace notes and parens around grace note + one note.
+M: 3/4
+L: 1/16
+K: Gm
+"_Slow"D4 |\
+(G4 ^F4) G4 | (B4 A4) G4 | ({G}A8) D4 | B6 c2 d4 |\
+{d}c4 B4 (TA4{GA}) | G8 :: (B2c2) |\
+d4 G4 d4 | e6 d2 (cde2) | d8 (c2B2) | {B}A6 G2 (A2B2) |
+c6 (ed) (cAB2) | {B}A8 D4 | (G4  ^F4) G4 | (B4 A4) G4 |\
+({G}A8) D4 | B6 c2 d4 | {d}c4 B4 (TA3G/A/) | G8 :: D4 |\
+G4 (BAG2) d3A | (BAG2) g3f/e/ e(G^FG) |
+({G}A8) D4 | b6 a2 g4 | (fgbg) (fdcB) (cBcd) | G8 :: B3c |\
+d4 (BAG2) (dBcd) | e3d (3(b2a2g2) (3(f2g2e2) | {e}d8 (edc/B/A/B/) | ({B}A6) G2 (3(B2A2B2) |
+c6 (ed) (cBAB) | ({B}A8) D4 | (G2^F2) (A2G2) (B2A2) | (c2B2) (edcB) (AG^FG) |\
+({G}A8) d4 | b4 (BABc) (dcdf) | g3a (bgfd) (cBcd) | G8 :|
+|: D4 |\
+(G^FGB) (GFGd) (GFGg) | e4 (d2G2)(^F2G2) | ({G}A8) D4 | (BdcB) (cBcd) g4 |\
+(fedc) B4 (Aed^F) | {F}G8 :: (BABc) |
+d4 G4 d4 | e3d (cBAg) (fedc) |\
+d6 gf (edcB) | {B}A3G .A(ABc) .B(Bcd) | c3e (dgfe) (dc)(3(BAB) | {B}A8 d3e |
+G4 ^FDEF GABc | d4 (cBA)G ({ga}b2ag) | a8 d4 | b6 c'2 d'4 |\
+(c'4 b4) a4 | g6 a2 b4 | B6 c2 (d2e2) | {d}c4 B4 (TA3G/A/) | G8 :|

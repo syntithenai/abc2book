@@ -1,0 +1,15 @@
+X: 1756
+T: Jim Boulton's Fancy   #1
+R: hornpipe, reel
+%S: s:2 b:16(8+8)
+B: O'Neill's 1850 #1756
+O: J. O'Neill
+Z: Bob Safranek, rjs@gsp.org
+N: Compacted by using labels and play order [JC]
+P: Play ABAB CBCB
+M: 2/4
+L: 1/16
+K: A
+"^A"[|] E2  | ABcA  BcdB  | cdec A2(Bc) | defe dcBA | GABG EF |]
+"^B"[|  GE  | ABcA  BcdB  | cdec  defg  | agae fdBG | A2A2 A2 |]
+"^C"[| (cd) | ecec a2(cd) | ecec A2(Bc) | defe dcBA | GABG EF |]

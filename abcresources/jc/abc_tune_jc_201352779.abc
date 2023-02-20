@@ -1,0 +1,631 @@
+% if none of this makes sense, go to http://www.cranfordpub.com/tunes/abcs
+
+
+%%  01/01/05 - http://www.cranfordpub.com
+
+% Tunes from William Marshall (1748-1833)
+% This file contains 37 tunes selected from William Marshall's 1822 Collection
+% More from his 1845 collection next month
+%% In all, Marshall composed about 257 tunes.
+
+% NOTE -  metronome settings are arbitrary and may be adjusted using the Q field
+
+%% A newly edited book of Marshall's music is currently being contemplated.
+%% If interest contact Cranford Publications.
+
+%% During Marshall's lifetime many of his tunes entered the traditional repertoire
+%% Often the titles and settings were altered by other publishers.
+%% Marshall himself further confused the issue in his 1822 Collection
+%% by changing his own titles to many previously published tunes (1781 Collection etc.)
+%% Regardless of titles, this second collection,
+%% "Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c" laid his claim to 175 tunes.
+%% Although some later compilations did credit Marshall for his tunes
+%%%%%%%% eg. The Skye Collection, Murdoch Henderson, Hunter, etc.
+%% Regretfully many influential late 19th century books did not give composer credits.
+%%%%%%%% (examples include - Kerrs, Athole and Ryan's Mammoth Collections)
+%% this file focuses on Marshall's tunes previously published without composer credit
+
+% NOTE - 12/19/04
+% Although an abc program installed in your computer has more functionality,
+% a browser can now convert a properly formatted abc tune to on-screen music.
+% Like the 'Hotmail concept', this enables translation of abc tunes from anyone's computer.
+% Just 'copy' an individual tune from the text file below
+% Then paste contents of your clipboard into on-line form. Submit and presto!!
+% for instructions go to http://www.cranfordpub.com
+% look for the link <Convert ABCs>
+
+%% tunes below sorted alphabetically by key
+%% abc settings do not include Marshall bowings, grace notes or embellishments
+
+X:1
+T:Fiddich-Side Lasses, The
+T:Mrs. Christie
+C:William Marshall
+R:strathspey
+S:1822 Collection p15
+N:aka - Mrs. Christie's Rant , credited to Marshall in McGlashan, 1786
+B:Athole, Kerrs, Gow
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:288
+M:C
+K:Amix
+c/d/|e<A e>c eA Ac/d/|e<A e>c dG Gc/d/|eAec eAec|Bgdg BGG:|
+B|Aa g/a/b a>ce>c|Aa g/a/b g>ddB|Aa g/a/b a>fge|f>de=c dGGB|
+Aa g/a/b a>ce>c|Aa g/a/b g>ddB|Aa g/a/b a>fge|f>de=c dGG|]
+
+X:2
+T:Miss Forsyth's Reel - Huntly
+T:Miss Forsyth Huntly
+R:reel
+C:William Marshall
+S:1822 Collection p43
+B:Athole
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C|
+L:1/8
+Q:333
+K:Ador
+E<AA>B c2ce|GABc dBGB|E<AA>B c2 ce|E<EE>^G A2A2:|
+cdef gage|GABc dBGB|cdef gage|d<Bg>B A2 AB|
+cdef gage|GABc dBGB|cedB cABG|E<EE>^G A2A2|]
+
+X:3
+T:Marquis of Bowmont's Reel, The
+C:William Marshall
+R:strathspey or reel
+S:1822 Collection p1
+B:Ryan's Mammoth
+N:Setting is ambiguous. Not referenced as a strathspey, though notated with common time and strathspey-like motifs. For reel setting, see Ryan's Mammoth.
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:244
+M:C
+K:Bb
+B|FBEB DBFB|Dd e/d/c/B/ cCCB|DBFB EBDB|Fd d/c/B/A/ BB,B,:|
+||B|fB e/d/c/B/ fBdB|cF B/A/G/F/ cFAF|fB e/d/c/B/ fBdB|FdAc B(B,B,)B|
+fB e/d/c/B/ fBdB|cF B/A/G/F/ cFAF|fBgB aBbB|dB d/c/B/A/ BB,B,|]
+
+X:4
+T:Kinrara Strathspey
+C:William Marshall
+R:strathspey
+S:1822 Collection p2
+B:Athole Collection
+D:Joe MacLean 78
+N:In Gow's 4th as "The Countess of Dalkeith"
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C
+L:1/8
+Q:244
+K:Bb
+F|B>cBd FB G/F/E/D/|B<FB>d c<CCA|B>cBd FB G/F/E/D/|E<g f>e dBB:|
+||f|df e/d/c/B/ bBeg|fg e/d/c/B/ d<c cd/e/|fBdB gBeg|
+F>B cB/c/ dBBd|fg/a/ bB gBfB|e>cdB Accd|B<FG<B F<B G/F/E/D/|E<g f>e d<B B|]
+
+X:5
+T:Balvenie Castle
+T:aka The Doctor
+R:strathspey
+C:William Marshall (1781,1822)
+S:1822 Collection p10
+H:original title, Gollochy's Farewell, Marshall 1781. Renamed "The Doctor" in Gow's 3rd (later in The Athole).
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:244
+M:C
+K:Bb
+B>GF>E D>CB,>d|e<c f>d c/c/c c2|c/B/_A/G/ A/G/F/E/ D>CB,>d|e<cf>d B/B/B B2:|
+||B>fd>f B>fd>f|e>gd>f c/c/c c2|B>fd>f B>fd>f|e<gf>d B/B/B B2|
+B>fd>f B>fd>f|e>gd>f c/c/c cg/a/|bgaf gefd|e<gf>d B/B/B B2|]
+
+X:6
+T:Lady Jane Taylor - of Rothimay
+R:march
+C:William Marshall
+S:1822 Collection p46
+B:Athole, Kerr
+D:Theresa Morrison
+N:Although Marshalll called this Lady Jane Taylor's Strathspey it can be interpretd more as a march or country dance
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C
+L:1/8
+Q:196
+K:C
+G/F/|E>Gc>G EGcG|EG cB/c/ dD DG/F/|E>Gc>E FAdf|f/e/d/c/ G/c/B/d/ c<CC:|
+|:e/f/|g>c e/f/g/e/ a/g/f/e/ de/f/|g>c a/g/f/e/ f<d de/f/|c>d c/d/e/f/ g/f/e/d/ cG|c>A G/A/F/G/ E<C Ce/f/|
+g>c e/f/g/e/ a/g/f/e/ de/f/|g>c a/g/f/e/ f<d de/f/|g/f/e/g/ f/e/d/f/ e/d/c/e/ d/c/B/d/|c/B/c/A/ G/A/F/G/ E<CC|]
+
+X:7
+T:Mrs. Colonel Forbes
+R:reel
+C:William Marshall
+S:1822 Collection p45
+B:Athole
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C
+L:1/8
+Q:266
+K:C
+e|c2 G>E D>dd>B|c<GA>G c2 c>e|c>G A/G/F/E/ D>dd>e|C<CE>G c2 c:|
+||e|c>ge>g a/g/f/e/ de|c<ge>g c<ge<g|f<ae<g d>cd<e|G<cc>d e2 de|
+c>ge>g a/g/f/e/ de|c<ge<g c<af<a|g<c'e<g d>cd<e|G<cc>d e2 d|]
+
+X:8
+T:Glentromie - a strathspey
+R:strathspey
+C:William Marshall
+S:1822 Collection p45
+N:Related to Nathaniel Gow's tune, Lady Caroline Montague
+B:Athole,Kerr
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C
+L:1/8
+Q:244
+K:C
+e/f/|g<ce>d c2 ce/f/|gcac Bd de/f/|g<ce>d c2 c/B/A/G/|A/B/c/A/ B/c/d/B/ Gc c:|
+||G/F/|EcGc EcGc|e>d c/d/e/c/ d<D DG/F/|EcGc Egec|AfdB ec cG/F/|
+EcGc EcGc|e>d c/d/e/c/ dD DG/F/|EGcE FAdf|e/f/g/a/ g/f/e/d/ ec c|]
+
+X:9
+T:Miss Young's Strathspey - Banff
+T:Miss Sally Eglinson (1781)
+R:strathspey
+C:William Marshall
+S:1822 Collection p47
+B:Athole
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C
+L:1/8
+Q:244
+K:C
+E/F/|G>EG<c G>EG<c|e>dc<e d/d/d dE/F/|G>EG<c G>EG<c|F>AG<E C/C/C C:|
+||e/f/|g>ag<e g>ag<e|c>eg<e d/d/d de/f/|g>ag<e g>ag<e|f<dg>e c/c/c cf/g/|
+aFFa gEEg|F<aE<g D/D/D D>E|C>DE>F G>AB<c|G<EF>D C/C/C C|]
+
+X:10
+T:Miss Wilhelmina McDowal's Reel - of Arndilly
+T:Miss W. MacDowal of Arndilly
+R:reel
+C:William Marshall
+S:1822 Collection p44
+B:Athole
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C|
+L:1/8
+Q:333
+K:C
+e/f/|gcac gcac|g<ce<c d2 de/f/|gcac gcec|BGAB c2 c:|
+||G|c2 GE CGEc|GcEc d2 de|c2 GE cagf|e<cdB c2 cG|
+c2 GE cGEc|GcEc d2 de|cedf egfa|e<cdB c2 c|]
+
+X:11
+T:House of New, The
+R:strathspey
+C:William Marshall
+S:1822 Collection p47
+B:Athole
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C
+L:1/8
+Q:266
+K:C
+E/D/|C<c c2 E<c c2|G<c c2 Bddf|e<c c2 B/c/d/B/ cG|AF E/F/G/F/ ECC:|
+||e/f/|gcac gc e2|gcac Bd de/f/|gcac gcc'c|f/e/d/c/ B/c/d/B/ c<C Ce/f/|
+gcac gc e2|gcac Bddf|e/f/g/a/ g2 f/e/d/c/ f2|c/B/A/G/ A/B/c/G/ ECC|]
+
+X:12
+T:House of Achluncart, The
+R:reel
+C:William Marshall
+S:1822 Collection p46
+B:Athole,Kerrs
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C|
+L:1/8
+Q:333
+K:C
+B|c2 c2 ecge|c2 c2 dBGB|c2 c2 ecgc|Bddc BGG:|
+||B|c2 Gc EcGc|EcGc dDDB|c2 Gc EcGc|fedc BGGB|
+c2 Gc EcGc|EcGc dDDf|afge fedc|Bcde dBG|]
+
+X:13
+T:Miss Taylor's Reel - Keith
+R:reel
+C:William Marshall
+S:1822 Collection p48
+B:Athole
+M:C|
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:333
+K:C
+cBcd cdef|gfed cBAG|cEGc EcGc|dDdc cBAG|
+cBcd cdef|gfed cBAG|cEGc EcGc|dDdB c2 c2||
+||CEGc ecGE|FAde fdBG|cege agfe|fAdc cBAG|
+EFGc ecGE|FAde fdBG|geag fedc|BGdB c2 c2|]
+
+X:14
+T:Miss MacDowal Grant's Strathspey - of Arndilly
+R:strathspey
+C:William Marshall
+S:1822 Collection p27
+B:Athole
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:288
+M:C
+K:CAeo
+g|G<Gc>d e2 e>g|f<bd<f B>cd<B|G<Gc>d e2 e>g|f>b g/f/e/d/ c2c:|
+||g/a/|bcgc bcga|bgfb dBfd|b<cg<c b<cg>a|b>gfd c2 cg/a/|
+b<cgc b<cg>a|b>gf<b dBfd|G<Gc>d e2 eg|f>b g/f/e/d/ c2 c|]
+
+X:15
+T:Miss Abercromby's Reel - of Birkenbog
+R:reel
+C:William Marshall
+S:1781 Collection p5
+B:Athole
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:333
+M:C|
+K:CAeo
+EDCD EFGE|FBEB DB,FD|EDCD EFGc|B<GF>D C/C/C C2:|
+|edcd efge|dcBc defd|edcd efge|d>cBd c/c/c c2|
+edcd efge|dcBc defd|gefd ecdB|G<BF>D C/C/C C2|]
+
+X:16
+T:Mrs. McPherson's Reel - Gibston
+R:reel
+C:William Marshall
+S:1822 Collection p28
+B:Athole
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:333
+M:C|
+K:CAeo
+G|cded c2 Gc|BdGB FBDB,|cded c2 eg|dBfd c/c/c cG|
+cded c2 Gc|BdGB FBDB,|gfed edcB|GBFD C/C/C C||
+||G|cdeg cgeg|Bcde fbdB|cdef gcec|dBfd c/c/c cG|
+cdeg cgeg|Bcde fbdB|gfed edcB|GBFD C/C/C C|]
+
+X:17
+T:Knockando House
+R:strathspey
+C:William Marshall
+S:1822 Collection p34
+B:Athole, McGlashan 1786
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C
+L:1/8
+Q:244
+K:D
+F|D/D/D D>B A>FA<B|D/D/D D>B A>FE<F|D/D/D D>B A>Bd>e| f>de<f F<dE:|
+|:B|A>Fd>F A>Fd>F|A/F/F d>F B/A/G/F/ E>F|A>Fd>F A>Bd>e|f>de<f F<dE:|
+
+X:18
+T:Mrs. Stewart's Strathspey - of Inverugie
+R:strathspey
+C:William Marshall
+S:1822 Collection p35
+B:Athole
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C
+L:1/8
+Q:244
+K:D
+D<DF>D d/c/B/A/ F2|BEEF G>AB<d|D<DF>A d/c/B/A/ FD|Adce dDdf:|
+||d>AF>A d/c/B/A/ d2|e<E E>F G>ABc|d>AF>A d/e/f/g/ ag|fdAG FDFA|
+d>AF>A d/c/B/A/ d2|e>EE>F G>AB>c|dfec dBAF|GBAc dDdf|]
+
+X:19
+T:Drumin's Strathspey
+T:Strathdown
+R:strathspey
+C:William Marshall
+S:1822 Collection p36
+N:Called Strathdown in Marshall's 1781 Collection
+B:Athole, Kerrs
+D:Theresa Morrison
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C
+L:1/8
+Q:244
+K:D
+F|D/E/F/G/ AF D/D/D B2|A<dA>F GEEF|D/E/F/G/ AF D/D/D B2|A<dA>G FDD:|
+||g|f>ed>e d/d/d f2|d>ef>d eEEg|f>ed<e d/d/d f2|B<dA>G FDDg|
+f>ed<e d/d/d f2|d<ef>d eEEg|fbef decd|B<dA>G FDD|]
+
+X:20
+T:Buck of the Cabrach, The
+T:Road to Berwick, The
+R:reel
+C:William Marshall
+S:1822 Collection p36
+N:Called "The Road to Berwick" in Marshall's 1781 Collection
+B:Athole
+D:Theresa Morrison
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C|
+L:1/8
+Q:333
+K:D
+A|F<DAF BGAF|DAdf e2 EA|F<DAF BGAF|Adce d2D:|
+||g|f/g/a fd bgaf|f/g/a fd b2eg|f/g/a fd bgag|fdec d2 Dg|
+f/g/a fd bgaf|f/g/a fd b2eg|fdge afbg|fdec d2 D|]
+
+X:21
+T:Forest of Ga-ick, The
+R:strathspey
+C:William Marshall
+S:1822 Collection p52
+B:Athole
+D:Bill Lamey, Mike MacDougall
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C
+L:1/8
+Q:266
+K:Ddor
+E|D<dd>^c d2 d>e|c>de<d c<CC>E|D<dd>^c d2 d>e|c<Ac>E D2 D>E|
+D<dd>^c d2 d>e|c>de>f g>ec>e|f>ag>e f>de>c|d<Ac>E D2 D||
+||e|f<dd>e c>de<a|f<dd>e f<df<a|f<dd>e c>de<g|a<fg>e d2 d>e|
+f<dd>e c>de<a|f<dd>e f<de>=B|c>dc>G E>CE>G|A<FG>E D2D|]
+
+X:22
+T:Croughly - a strathspey
+R:strathspey
+C:William Marshall
+S:1822 Collection p54
+B;Athole
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C
+L:1/8
+Q:266
+K:DAeo
+c|A<dd>e f2 df|e>dc<g a/g/f/e/ c>e|A<dd>e f2 df|e>c a/g/f/e/ d2 d:|
+||E|F>GA>B c<FA<F|E>FG>c G/F/E/D/ C>E|F>GAB cFAg|f>d f/e/d/^c/ d2 DE|
+F>GA>B c<FA<F|E>FG>c G/F/E/D/ CE|F<AG<B A<fe<g|f>d f/e/d/^c/ d2d|]
+
+X:23
+T:Mr. John Angus' Reel - of Calcutta
+T:Johnston's Reel - a strathspey
+R:strathspey
+C:William Marshall
+S:1822 Collection p37
+B:Athole (as "John Angus")
+N:dotted rhythm comes from Marshall, 1781
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:244
+M:C
+K:E
+E>BG>B E>Be>g|b<gf>e f>cc>e|E>BG>B E>Be>g|b>gf>g e/e/e e2:|
+||e/f/g/a/ b>e g>eb>e|d<Bf>B a>Bf>B|e/f/g/a/ b>e g>eb>e|c>ag>f e/e/e e2|
+e/f/g/a/ b>e g>eb>e|d<Bf>B a>Bf>B|e>gf>a g>ba>g|f>ef>g e/e/e e2|]
+
+X:24
+T:Dandaleith - a strathspey
+T:Mrs. Gordon of Bellie's Reel (1781)
+R:strathspey (6 turns)
+C:William Marshall
+S:1822 Collection p56
+B:Athole - Mrs. Gordon of Belsies
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C
+L:1/8
+Q:266
+K:F
+c|A<dd>c A<FF>A|c>dc<A G2 Gc|A<dd>c A<FF>e|f>ga<c A2 A:|
+|:G|F<ff>g f/g/a a>g|f<dc>A G2 G>A|F<ff>g f/g/a a>g|f<cd>f A2 A:|
+||d|c<AA>d c<AA>d|c<AA>F G2 Gd|c<AA>d c<AA>a|fcdf A2 A>d|
+c<AA>d c<AA>d|c<AA>F G2 G>A|F>GA<d c<AA>a|fcdf A2 A||
+||g|f>ga<g f<dd<f|c<AA>F G2 GA|f>ga<g f<dd<f|c<Af>g a2 ag|
+f>ga<g f<dd<f|c<AA>F G2 GA|F>GA<d c<AA<a|fcdf A2 A||
+|:G|F>GA<f c<AA<f|c<AA>F G2 G>A|F>GA<f c<AA<a|f>cd<f A2 A:|
+||f/g/|a>fg>e f>cd<f|c<AA>F G2 Gf/g/|a>fg>e f>cd<f|c<Af>g a2 af/g/|
+a>fg>e f>cd<f|c<AA>F G2 GA|F>GA<d c<AA>a|f>cd<f A2 A|]
+
+X:25
+T:House of Cluny, The
+R:strathspey
+C:William Marshall
+S:1822 Collection p57
+B:Athole
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C
+L:1/8
+Q:266
+K:F
+C|F<FA>F A<c F2|E>GG<c G<cE>C|F<FA>F A>cf>c|d/c/B/A/ Gc/B/ A<FF:|
+||c|f/e/d/c/ fcdc f2|f>cd<c f<age|f/e/d/c/ f>c d<Bd<B|c>BAG F2 Fc|
+f/e/d/c/ fcdc f2|f>cd<c f<age|f/g/a/g/ fc dfBd|c>A c/B/A/G/ F2 F|]
+
+X:26
+T:Miss Katharine Stewart Forbes' Strathspey- of Achmedden
+T:Miss Katherine Stewart Forbes
+R:strathspey
+C:William Marshall
+S:1822 Collection p57
+B:Athole (Miss Katherine Stewart Forbes)
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C
+L:1/8
+Q:266
+K:F
+a|F<FF>A G>AB>d|F<FF>A c/d/e f>c|dfAf G>AB<d|c>f e/f/g/e/ f2 f:|
+||a|c<fA<f Ggga|c<fA<f c<fA<f|B<gA<f G>ABd|c>f e/f/g/e/ f2 fa|
+c<fA<f Ggga|c<fA<f c<fA<f|B>dcA GABd|c>f e/f/g/e/ f2 f|]
+
+X:27
+T:Miss Isabella McPherson Grant's Strathspey -of Ballindalloch
+R:strathspey
+C:William Marshall
+S:1822 Collection p51
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C
+L:1/8
+Q:222
+K:F
+a|c<cc>B A>c f2|d<dd>c d>fg>a|f>FA>F A<c f2|d>g f/e/d/c/ f2 f:|
+||g|a>f a/g/f/e/ fc f2|b>g b/a/g/f/ e/f/g/a/ gf/g/|a>f a/g/f/e/ f>cd<f|c>f e/f/g/e/ f2 fg|
+a>f a/g/f/e/ fc f2|b>a b/a/g/f/ e/f/g/a/ gf/g/|b/a/g/f/ g>e f>cd<f|c>f e/f/g/e/ f2 f|]
+
+X:28
+T:Leith Hall - a strathspey
+R:strathspey
+C:William Marshall
+S:1822 Collection p55
+B:Athole
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C
+L:1/8
+Q:244
+K:F
+CF FF/G/ AFAc|CF FG/A/ B/A/G/F/ D2|CF FF/G/ A>FA>c|d<fc<f A>G F2:|
+||d>fc>f A>fc>f|d>fc>f d<f g2|d>fc>f A>fc>f|d<fc>A B/A/G/F/ D2|
+d>fc>f A>fc>f|d>fc>f dfga|b>ga>f g>ef>c|d<fc>A B/A/G/F/ D2|]
+
+X:29
+T:Miss Jane Grant's Reel - Lynmore
+R:reel
+C:William Marshall
+S:1822 Collection p57
+B:Athole
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C|
+L:1/8
+Q:333
+K:F
+C|F2 FB A/B/c AF|F2 AF BGGA|F2 FB A/B/c AF|BGEG AFFC|
+F2 FB A/B/c AF|F2 FA BGGA|F2 FA cAcA|BGEG AFF||
+||f|afaf bgbg|afaf ec c2|afaf bgbg|afcb af f2|
+afaf bgbg|afaf ecec|dBdB cAcA|BGEc AF F2|]
+
+X:30
+T:Mill of Laggan, The
+R:reel
+C:William Marshall
+S:1822 Collection p52
+B:Athole
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C|
+L:1/8
+Q:333
+K:F
+A|FAcf f2 ef|gaba gGGA|FAcf f2 ef|afge fFF:|
+||B|A/B/c cA B/c/d dB|d/e/f fd eccb|afge f2 dB|A/B/c GB AFFB|
+A/B/c cA B/c/d dB|d/e/f fd eccb|afca gece|fdcB AFF|]
+
+X:31
+T:Miss McInnes' Reel - Dandaleith
+T:Miss MacInnes
+R:reel
+C:William Marshall
+S:1822 Collection p55
+B:Athole
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C|
+L:1/8
+Q:333
+K:F
+d|cF F/F/F dcBA|GABc dGBd|cF F/F/F dcBA|cfeg fFB:|
+||d|cfAf cfaf|egba gGBd|cfAf Bfcf|dfeg fFBd|
+cfAf cfaf|egba gGBd|bgaf agfe|gfed cFB|]
+
+X:32
+T:Lady Madalina Gordon's Reel
+R:reel
+C:William Marshall
+S:1822 Collection p54
+B:Athole
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C|
+L:1/8
+Q:333
+K:F
+CFAF CGBG|CFAF E/F/G EC|CFAF CGBG|cABG F/F/F F2:|
+||f/g/a fc dBcA|BGAF E/F/G EC|FcAc FdBd|cfeg f/f/f fg|
+afge fcdB|cABG E/F/G EC|CFAF CGBG|cABG F/F/F F2|]
+
+X:33
+T:Grant Lodge
+R:strathspey
+C:William Marshall
+S:1822 Collection p40 (dotted rhythms Kerrs)
+B:Athole,Kerrs
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C
+L:1/8
+Q:266
+K:G
+g|G>DG<B A>GA<B|G<GG>B d2 d>g|G>DG<B A>GA<B|e<ee>d e2 e:|
+||f|g>ab<g d>ed<B|g>ab<g e2 e>f|g>ab<g d>ed<B|A<AB>d e2 e>f|
+g>ab<g d>ed<B|g>ab<g e2 ef|g<bfa e>fg<e| d<BB>G A2 A|]
+
+X:34
+T:Mrs. Rose's Reel - Banff
+R:reel
+C:William Marshall
+S:1822 Collection p39
+L:1/8
+B:Athole (as Mrs. Rose)
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+Q:333
+M:C|
+K:G
+G2 GB dBgB|dBgB A/A/A AB|G2 GB dgba|g<fg>B G/G/G G2:|
+||g2 gb afge|d<Bg>B A/A/A A2|g2 gb afge|d<Bg>B G/G/G G2|
+g2 gb afge|d<Bg<B A/A/A A2|gbab gaeg|d<Bg>B G/G/G G2|]
+
+X:35
+T:Major L. Stewart's Reel - of the Island of Java
+R:reel
+C:William Marshall
+S:1822 Collection p41
+B:Kerrs
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C|
+L:1/8
+Q:333
+K:G
+G2 g2 a/g/f g2|dgBg dgBg|G2 g2 a/g/f g2|1faAB cBcA:|2f/g/a AB cdef||
+||gbeg dg B2|gbeg fgaf|gbeg dg B2|ABcd edef|
+gbeg dg B2|gbeg fgaf|gbfa egdg|caBg ABcA|]
+
+X:36
+T:Collar Green
+R:reel
+C:William Marshall
+S:1822 Collection p42
+B:Athole
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C|
+L:1/8
+Q:333
+K:G
+c|:BG B/c/d B2 GB|=FcAc =fcfa|gd g/a/b g2 dc|Bdef gdgb:|
+||B/c/d Gd BdGd|A=FAc =fcfa|B/c/d Gd BdGd|Bdef gdgb|
+B/c/d Gd BdGd|A=FAc =fcfa|b/a/g a/g/f g2 dc|Bdef gdgb|]
+
+X:37
+T:Strathbogie Toast, The
+T:Bobers of Brechin, The
+T:Mr. George Gordon's
+C:William Marshall
+R:reel
+S:1822 Collection p.11
+B:Athole, (Lowes and Surrene as The Bobers of Brechin)
+H:Mr. George Gordon's by Marshall (1786, McGlashan), The Bobers of Brechin by Marshall (Lowes 5th circa 1745). Miss grant's Reel (John Gow Collection)
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C|
+L:1/8
+Q:333
+K:Gdor
+dg (a/g/^f) g2 d=f|cdfg dfcf|dg (a/g/^f) g2 dg|f<dcA G2 GA|
+dg (a/g/^f) g2 d=f|cdfg dfcf|dfga bag=f|d<fcA G2G||
+||g|BGdG BGde|fdcf AFcA|BGdG BGdg|f<dcA G2 Gg|
+BGdG BGde|fdcf AFcA|GABc defg|f<dcA G2 G2|]
+
+% if none of this makes sense, go to http://www.cranfordpub.com/tunes/abcs

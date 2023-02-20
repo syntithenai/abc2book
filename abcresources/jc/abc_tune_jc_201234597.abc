@@ -1,0 +1,37 @@
+X: 20631
+T: SUGAR IN THE GOURD
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.63 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Fixed rhythm problem in 2nd strain by changing final 1/4-notes to 18-notes.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+(Ac) |\
+(dc).c.c c2Ac | (dc).c.c c2ag | (gf)(fe) (ed)(dc) | (cB).B.B B2(GB) |\
+(cB).B.B B2(GB) | (cB).B.B B2(gf) | (fe)(ed) (dc)(cB) | .B.A.A.A A2 :|
+|: cA |\
+BcdB GABG | ABcA FAcA | BcdB GABG | ABcA E2C2 |\
+(FE)(GF) (AG)(BA) | (cB)(dc) e2df | cdBG AcBG | (GF).F.F F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+(BA).A.A A2FA | (BA).A.A A2fe | eddc (cB)(BA) | (AG).G.G G2(EG) |\
+AG.G.G G2(EG) | (AG).G.G G2(ed) | (dc)(cB) (BA)(AG) | GFFF F2 :|
+|: z2 |\
+GABG EFGE | FGAF DFAF | GABG EFGE | FGAF G2E2 |\
+(AG)(BA) (EE)(GF) | AGBA c2Bd | ABGE FAGE | BAAA .A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+f2f2 f2f2 | f2f2 f2f2 | f2f2 f2f2 | c2c2 c2c2 |
+c2c2 c2c2 | c2c2 c2c2 | c2c2 c2c2 | f2f2 f2 :|
+|: z2 |\
+c2c2 c2c2 | f2f2 f2f2 | B2B2 c2c2 | f2f2 B2G2 |\
+c2c2 f2f2 | f2f2 b2bb | B2B2 c2c2 | f2f2 f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %sep 1 1 300

@@ -1,0 +1,211 @@
+X:1701
+T:A Trip to Aberdeen
+P:The Braes of Elchies
+C:Charles Grant
+R:Jig (8x32)
+B:RSCDS 17-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:C
+A|"C"G>EG c3|"G"e2d "Am"c2A|"C"G>EG "G7"f3|"C"ege "G"d2 A|\
+  "C"G>EG c3|"G"e2d "Am"c2B|
+                            "F"AFA "C"GcE|"G7"D3 C2:|\
+e/f/|"C"g>eg gec|"Dm"a>fa afd|"C"g>eg gec|"D"e>ce "G"dBG|
+     "C"g>eg gec|"Dm"a>fa afd|"C"g>eg "G"dBG|"C"c3 c2 e/f/|\
+     "C"g>eg gec|"Dm"a>fa afd|
+                              "C"g>eg gec|"D"e>ce "G"dBG|\
+     "D"A>FA A>FA|"Em"G>EG "C"G>EG|"F"AFA "C"GcE|"G"D3 "C"C2|]
+
+X:1702
+T:Keppoch's Rant
+P:Glen Grant
+C:Charles Grant
+R:Strathspey (8x32)
+B:RSCDS 17-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:A
+%%scale 0.84
+E/D/|"A"C>E A>E "D"F>E "A"C>E|C>E A>c "D"d/c/B/A/ F>A|\
+     "A"C>E A>E "D"F>E "A"C>E|"Bm"[FD]>D "E7"[BD]>G "A"[A2C2][AC] E/D/|
+     "A"C>E A>E "D"F>E "A"C>E|C>E A>c "D"d/c/B/A/ F>A|\
+     "A"C>E A>E "D"F>E "A"C>E|"Bm"[FD]>D "E7"[BD]>G "A"[A2C2][AC]||
+c/d/|"A"e>A c>e "D"d/c/B/A/ F>f|"A"e>A c>e "D"f/e/f/g/ "D7"a>f|\
+     "A"e>A c>e "F#m"A<c "D"F>A|"E"G<B E>G "A"A2 A>f|
+     "A"e>A c>e "D"d/c/B/A/ F>f|"A"e>A c>e "D"f/e/f/g/ "D7"a>f|\
+     "A"e>a e/d/c/B/ "D"A>c F>A|"E"G<B E>G "A"A2 A|]
+
+X:1703
+T:Captain MacBean's Reel
+P:Captain MacBean's Reel
+C:Traditional?
+R:Reel (8x32)
+B:RSCDS 17-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/2
+L:1/8
+K:Gm
+d|"Gm"Bc/d/Gd BGdB|"F"AB/c/Fc AFcA|"Gm"Bc/d/Gd BGdB|"D7"A/B/cD^F "Gm"G2 Gd|
+  "Gm"Bc/d/Gd BGdB|"F"AB/c/Fc AFcA|"Gm"Bc/d/Gd BGdB|"D7"A/B/cD^F "Gm"G2 G||
+A|"Bb"B3f dBfd|"F"cdcB ABcA|"Gm"Ggga bag^f|"D7"g/a/ba^f "Gm"g2 ga|
+  "Bb"b2fd Bdfd|"F"cdcB ABcA|"G"Gg"D7"^fa "Gm"gd"Cm"ce|"Gm"dB"D7"cA "Gm"G2 G|]
+
+X:1704
+T:The Countess of Crawford's Reel
+P:Lady Elizabeth Lindsay
+C:Traditional (Surenne)
+R:Strathspey (8x40) AABAB
+B:RSCDS 17-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:Bb
+%%scale 0.83
+|:g|"Bb"f>B d>c "Eb"B<G G>B|"Bb"F>B D>B F>B D>g|\
+  "Bb"f>B d>c "Eb"B<G G>B|"Bb"F>B D>d "Fm"c3 g|
+  "Bb"f>B d>c "Eb"B<G G>B|"Bb"F>B D>B F<B D>g|\
+  "Bb"f>B d>c "Eb"B<G G>B|1 "Bb"F>B f>d "F"c3:|2 "Bb"F>B "F"f>d "Bb"B3||
+g|"Bb"f<d d>e f>d "Gm"d>g|"Bb"f>d d>e f<g "Bb"d<b|\
+  "Bb"f>d d>e f>g "Gm"d<b|f<d "C7"d>B "F"c3 g|
+  "Bb"f<d d>e f>d "Gm"d>g|"Bb"f>d d>e f<g "Bb"d<b|\
+  "Eb"(3gbg "Gm"(3fgf "Dm"(3dfd "Cm"(3cdc|(3GBG "Bb"F>D "F"C3|]
+
+X:1705
+T:The Gentle Shepherd
+P:The Gentle Shepherd
+C:Joshua Campbell
+R:Jig (8x32) Slow 6/8 time
+B:RSCDS 17-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+B/c/|"G"dBG Bge|dBG Bge|dBG dBG|"D"AAA A B/c/|
+     "G"dBG Bge|dBG Bge|dBG "D"cAF|"G"GGG G2||
+B,/C/|"G"DB,D "C"ECE|"D"FDA "G"B2G|"D"DB,D "C"ECE|"D"FDd "G"B2G|
+     "G"DB,D "C"ECE|"D"FDA "G"B2G|dBd "Am"ece|"D"fdb "G"g2|]
+
+X:1706
+T:Miss Heyden
+P:The Auld Toon o' Ayr
+C:Traditional (Atholl Coll.)
+R:Strathspey (8x40) ABABB
+B:RSCDS 17-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:D
+F|"D"D>D "F#m"F>A "Bm"d3c|"G"B/A/B/c/ d>B "D"A<F F>d|\
+  "D"D>D "F#m"F>A "Bm"d3f|"Em"e/f/g gf/e/ "Bm"d<BB>d|
+  "D"D>D "F#m"F>A "Bm"d3c|"G"B/A/B/c/ d>B "D"A<F F>A|\
+  "G"B/A/B/c/ d>B "D"A<F F>A|A<F "E7"F>D "A"[E3C3]||
+F|"D"D>d F>d A<F F>A|"G"B/A/B/c/ d>B "D"A>F F>A|\
+  "D"D>d F>d A<F F>A|d>B A>F "A7"E3 F|
+  "D"D>d F>d A<F F>A|"G"B>A "Em"B>c "Bm"d3 f|\
+  "Em"e/f/g gf/e/ "Bm"d<B B>d|"D"A<F F>D "A7"E3|]
+
+X:1707
+T:Lucy Campbell
+P:Hon. Mrs Campbell (of Lochnell)
+C:R. Mackintosh
+R:Reel (8x32)
+B:RSCDS 17-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/2
+L:1/8
+K:C
+G|"C"c2Gc ECGE|c2ec dDDB|"F"c2AF "C"EGCE|"G7"FDG,G "C"ECCG|
+  "C"c2Gc ECGE|c2ec dDDB|"F"c2AF "C"GcEc|"G7"defd "C"ecc||
+G|"C"ECEG "F"AFAC|"Am"ECFE "G"DG,G,F|"C"ECEG "F"AFAc|"G"BdGf "C"eccG|
+  "C"ECEG "F"AFAC|"Am"ECFE "G"DG,G,F|"C"EG"Dm"FA "Em"GB"F"Ac|"G"Bagf "C"ecc|]
+
+X:1708
+T:Bonnie Kate of Aberdeen
+P:Cropie's Strathspey
+C:Peter Milne
+R:Strathspey (8x40) AABAB
+B:RSCDS 17-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:G
+|:G|"G"D>G G>E "D"F>G A>F|"G"G>B d>B "C"e3 f|\
+    "G"g>b "C"e>g "G/B"d>g "Em"B<G|"A"E<A A>G "D"G>F E>D|
+    "G"D>G G>E "D"F>G A>F|"G"G>B d>B "C"e3 f|\
+    "G"g>b "C"e>g "G/B"d>g "Em"B<G|"A"E>A "D"G/F/E/D/ "G"G2 G:|
+d|"Em"e>f g<e "Am"a>g e>f|"Em"e/f/g "A7"f>e "D"d3 B|\
+  "Am"c>d e<c "Em"B>c d<B|"Am"E>A A>G "D"G>F E>D|
+  "G"D<G G>E "D"F>G A>F|"G"G>B d>B "C"e3 f|\
+  "G"g>b "C"e>g "G/B"d<g "Em"B<G|"A"E>A "D"G/F/E/D/ "G"G2 "D.C."G|]
+
+X:1709
+T:Bob Sanders
+P:Mrs Stewart's Fancy
+C:Abraham Mackintosh
+R:Jig (8x40) ABABB
+B:RSCDS 17-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:A
+f|"A"e2c ca=g|"Bm"fdB B2f|"A"ecA Ace|"Bm"f3 f2g|
+  "A/C#"agf edc|"D"fdB B2 f/g/|"A/E"aec "E7"dcB|"A"A3 A2||
+E|"F#m"A2A AcB|"Bm"AFF F2E|"A/C#"AcB Ace|"D"f3 f2g|
+  "A"agf edc|"Bm"fdB B2 f/g/|"A"aec "E7"dBg|"A"A3 A2|]
+
+X:1710
+T:The Perthshire Highlanders
+P:The Perthshire Highlanders
+C:Traditional?
+R:Strathspey (8x32)
+B:RSCDS 17-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:D
+%%scale 0.82
+D|"D"A>B A>F D>F A>d|"Bm"D/E/F/G/ A>F "Em"B>E G>B|\
+  "D"A>B A<F "G"B>d "A7"c>e|"D"f>d "A7"e/f/g/e/ "D"f<d d>B|
+  "D"A>B A>F "Bm"D/E/F/G/ A/B/c/d/|"D"D>F A>F "G"B/A/G/F/ "A"E>B|\
+  "D"A>B A>F "G"G>B "D"A<d|"G"B>d "A7"c<e "D"f<d d||
+f|"D"a>f d>f "G"d/e/f/g/ "D"a>f|"A7"g>e "D"f<d "Em"e>d B>g|\
+  "D"a>f d>f "G"d>e "D"f<d|"Em"B>d "A7"c>e "D"d<D D>f|
+  "D"a>f d>f "G"d>e f<d|"Em"B>d "D"A<F "G"B>E G<B|\
+  "D"F>D F<A "G"B>G B<d|"A7"d/c/B/A/ B/d/c/e/ "D"f<d d|]
+
+X:1711
+T:Twenty First of September
+P:The Cross of Inverness
+C:Capt. S. Fraser of Knockie
+R:Reel (8x40) ABABB
+B:RSCDS 17-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/2
+L:1/8
+K:G
+E|"G"DB,B,D "C"ECCB|"Am"cBAG "D"FDDE|"G"DB,B,D "C"ECCG|"D7"FDAF "G"G2 GE|
+  "G"DB,B,D "C"ECCB|"Am"cBAG "D"FEDC|"G"B,DGD "Am"CEAE|"D"FDAF "G"G2 G||
+d|"G"g2 g2 "C"ecce|"A7"^cgca "D"fdd=c|"G"BgBg "C"ecc^g|"A7"a^ga^c "D"d2 d=c|
+  "G"B/c/dgd "C"ecce|"A7"c/d/eae "D"fdd g/a/|\
+                                   "G"bdBg "C"ecAc|"D7"B/c/d DF "G"G2 G|]
+
+X:1712
+T:Donald Bane
+P:Donald Bane
+C:Traditional?
+R:Strathspey (8x32)
+B:RSCDS 17-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:A
+a|"A"e/e/e e>d c>d e>c|A>e c<a "D"f2 "E7"e>a|\
+  "A"e/e/e e>d "F#m"c>d e>c|"Bm"B/B/B c>e "D"f2 "E7"e a|
+  "A"e/e/e e>d c>d e>c|A>e c<a "D"f2 "E7"e>a|\
+  "A"e/e/e e>d "F#m"c>d e>c|"Bm"B/B/B c>e "D"f2 "E7"e||
+g|"A"a>g a>f e>c A>g|"A"a>e "F#m"f>a "D"f2 "E7"ef/g/|\
+  "A"a>g a>f a>f e<c|"Bm"B/B/B c>e "D"f2 "E7"ef/g/|
+  "A"a>g a>f e>c A>g|"A"a>g "F#m"a>f "D"f>e "E7"f>g|\
+  "A"a>g a>f a>f e<c|"Bm"B/B/B c>e "D"f2 "E7"e|]

@@ -1,0 +1,15 @@
+X: 910
+T: Joy Be With You   #2
+R: jig
+%S: s:2 b:12(4+4+4)
+B: O'Neill's 1850 #910
+O: J.O'Neill
+Z: Tom Keays (htkeays@mailbox.syr.edu)
+N: Compacted via repeats of the 4-bar A part [JC]
+%abc 1.6
+M: 6/8
+L: 1/8
+K: Bm	% ending on D
+"^A"|::: f2B ABd | f2B ABd | f2a e2f | dBA ABd :::|
+"^B"|: faa eaa | fdB ABd | faa eff | dBA ABd ||
+    |  faa eaa | faa eaa | fga bge | fdB ABd :|

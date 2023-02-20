@@ -1,0 +1,25 @@
+X: 10271
+T: the FIERY CROSS
+O: Gaelic air.
+Q: "Moderate with expression."
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.27 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Eb
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B |\
+!p!G2G G>^FG | Gcc c2d | "^cres."{d}e2e ({d}e>de) | dff f2b !f!|\
+{e}g2g gfe | {d}f2f fed | "^dim."c2d (c/d/ec) | BGG G2 :|
+G/F/ !f!|\
+EGE DFD | Ccc c2d | !p!ege dbB | dff f2b |\
+!f!{e}g2g gfe | {d}f2f fed | "^dim."c2d (c/d/e)c | BGG HG2 
+G/F/ !f!|\
+EGE DFD | Ccc c2d !p!|ege dbB | dff f2 E/F/ !ff!|\
+GeG FdF | EcE Dga | {a}"^dim."gfe dec | BGG G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

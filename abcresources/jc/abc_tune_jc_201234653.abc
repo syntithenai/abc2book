@@ -1,0 +1,25 @@
+X: 20683
+T: SUTTON QUICKSTEP
+C:
+%R: quickstep, polka, reel
+B: Elias Howe "The Musician's Companion" 1843 p.68 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The rhythms aren't quite right at the strains' boundaries; not fixed.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(3(def) |\
+g2gg g2g2 | g2d2 b4 | a2^g2 a2f2 | gfga bagf |\
+e2ee e2e2 | e2B2 b2a2 | gbag fagf | e4 z2 :|
+|:\
+d>^cd>e f>ga>f | g>fg>a b>fg>e | d>^cd>e f>ga>f | g>fg>a b>fg>e |
+d>gB2 c>eg>e | d>gB2 c>eg>e | d>ef>g a>bc'>a | g4 g2z2 :|
+|:\
+dddd d2g2 | e2g2 d2g2 | c2g2 B2g2 | ABcd B2G2 |\
+dddd d2g2 | e2a2 f2d2 | ^c2e2 dcBc | d6 z2 :|
+|:\
+ffff f2g2 | a2d2 b2d2 | eeee a3g | f>ge>f d>e^c>d |\
+dddd d2g2 | e2g2 d2g2 | e2a2 gfef | g6 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

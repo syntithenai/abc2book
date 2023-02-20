@@ -1,0 +1,13 @@
+X: 0893
+T: LONDON MARCH
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.89 #3
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: Corrected odd, inconsistent beaming in bars 3, 7.
+M: 4/4
+L: 1/8
+K: D
+|:\
+F2 F>F F2 E2 | D>F A>d B2 A2 | B>dA>d G>dF>d | E>DE>F E2 E>E |\
+F2 F>F F2 E2 | D>F A>d B2 A2 | B>dA>d G>cd>g | f2 e2 d4 H:|
+A>GF>G A>AG>F | E>FG>E F2 E2 | D>DD>E F>FF>G | A>AG>F F2 E2 |\
+A>GF>G A>AG>F | E>FG>E F2 E2 | D>DD>E F>FF>G | A>AG>F "^DA CAPO"F2 E2 |]

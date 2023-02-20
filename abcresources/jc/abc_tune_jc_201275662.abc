@@ -1,0 +1,17 @@
+X:2
+T:Fiddling Around
+% Nottingham Music Database
+S:via PR
+M:4/4
+L:1/8
+%Q:1/2=100
+Z:updated ABC coding Chris Partington 2011
+K:C
+g2 |\
+"A"agea geag | eage age2 | "D"dcAd cAdc | AdcA dcA2 |
+"G"GFDG FDGF | "G"DGFD GFDB, | "C"CB,CD EGAB | cBcd cAG2 |
+"A"agea geag | eage age2 | "D"dcAd cAdc | AdcA dcA^A |
+"G"BB[gB]B B[aB]BB | [bB]BB[aB] BB[gB]B | "C"[c4E4] cBcd | [c4E4]-[c4E4] |
+|:\
+"A"^ccac cgcc | ^f^cc=f ccec | "Dm"ddfd dfdd | "D"cc^fc c^fcc |
+"G"BBgB BaBB | bBBa BBgB |1 "C"ccgc cacc | _bcca ccgc :|2 "C"c4 cBcd | c4- c4 |]

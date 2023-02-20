@@ -1,0 +1,27 @@
+X: 21053
+T: MANILLA SETT (tune 6)
+C:
+%R: march, polka
+B: Elias Howe "The Musician's Companion" 1843 p.105 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="6"
+F2 |\
+F2Bc B2F2 | F2Bc B2F2 | F2B2F2d2 | d2g2 f4 |\
+e2g^f [g4e4] | d2f=e f4 | c2ed e4 | d2B2B2 H|]
+f2 |\
+"^.."b2"^.."a2"^.."g2"^.."f2 | "^.."b2"^.."a2"^.."g2"^.."f2 |\
+"^.."b2"^.."a2"^.."g2"^.."f2 | e2c2c2e2 |\
+"^.."a2"^.."g2"^.."f2"^.."e2 | "^.."a2"^.."g2"^.."f2"^.."e2 |\
+"^.."a2"^.."g2"^.."f2"^.."e2 | [f2d2][d2B2]"^D.C."[d2B2] |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All balance to the right,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

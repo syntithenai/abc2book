@@ -1,0 +1,63 @@
+X: 23
+T: le Passe-tems
+%R: march, reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #23
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+[gB][gB] {f}fe/d/ | ef [g2B2] | ag/a/ bg | ea {g}fe/d/ |\
+[gB][gB] {g}fe/d/ | ef [g2B2] | ag/a/ bg | f/g/a/f/ [g2B2] :|
+|:\
+dd {e}dc/B/ | cc {d}cB/A/ | BAGA | B/c/d/B/ AD |\
+dd {e}dc/B/ | cc {d}cB/A/ | Gd {d}cB/A/ | GD G2 :|
+K: Gm
+[|"Mineur"\
+dd(de) | cc(cd) | BB BA/B/ | cBAD |\
+dd(de) | cc(cd) | BA/B/ ce | d/c/B/A/ G2 |]
+[|\
+B2df | c/B/A/B/ c2 | BfBf | FFF2 |\
+B2df | c/B/A/B/ c2 | Aed^F | G2 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+g2dB | cAG2 | fdge | ^cAd2 | G2dB |
+cAG2 | fd gb | d'd g2 :||: b2g2 | a2d2 | gdBd |
+g2d2 | b2g2 | a2d2 | eBcd | g2G2 :|
+K: Gm
+[|"Mineur"\
+G2gc | f2fB | e2e2 | c2d2 | G2gc |
+f2fB | e2c2 | d2G2 |] [| BdBd | AFAF |
+dBdB | AfF2 | dfBd | AFAF | cAdD | G2g2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Le Passe-tems.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Ladies Chass\'e and change
+%% places with the Ladies on their Right, then
+%% half La Chaine to their own places - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part for the Gentlemen - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   Each Couple Chass\'e one quarter of the
+%% Round to the Right and Rigaudon, then one
+%% other quarter of the Round and Rigaudon - 1/1
+%%endtext
+%%begintext align
+%%   Each Couple go one Quarter of the Course
+%% to the Left in form of Allemande, then one
+%% other Quarter of the Course to their own places 1/2
+%%endtext
+%%sep 1 1 400

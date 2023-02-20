@@ -1,0 +1,108 @@
+
+X: 1
+T: Possum Up a Gum Stump [1]
+L:1/8
+M:2/4
+Z:Transcribed by Andrew Kuntz
+F:http://www.ibiblio.org/fiddlers/PORT_POY.htm
+K:A
+(E |\
+E/)F/A/B/ c/d/c/B/ | A/B/c/e/ fe |\
+f/e/f/g/ a/g/a/f/ | e/c/A/c/ B/A/F/D/ |
+E/F/A/B/ c/d/c/B/ | A/B/c/e/ fe |\
+f/e/f/g/ a/g/a/f/ | e/d/c/B/ A :|
+|: c/c/ |\
+c/ec/ ee/d/ | c/B/A/c/ B/A/F/E/ |\
+c/ee/ fe | c/B/A/c/ BB/B/ |
+c/ec/ ee/d/ | c/B/A/c/ B/A/F/E/ |\
+F/E/F/G/ A/G/A/F/ | E/D/C/B,/ A, :|
+
+%%sep 2 1 500
+
+X: 2
+T: Possum Up a Gum Stump [1]
+L:1/8
+M:2/4
+Z:Transcribed by Andrew Kuntz
+F:http://www.ibiblio.org/fiddlers/PORT_POY.htm
+K:D
+(A, |\
+A,/)B,/D/E/ F/G/F/E/ | D/E/F/A/ BA |\
+B/A/B/c/ d/c/d/B/ | A/F/D/F/ E/D/B,/G,/ |
+A,/B,/D/E/ F/G/F/E/ | D/E/F/A/ BA |\
+B/A/B/c/ d/c/d/B/ | A/G/F/E/ D :|
+|: f/f/ |\
+f/af/ aa/g/ | f/e/d/f/ e/d/B/A/ |\
+f/aa/ ba | f/e/d/f/ ee/e/ |
+f/af/ aa/g/ | f/e/d/f/ e/d/B/A/ |\
+B/A/B/c/ d/c/d/B/ | A/G/F/E/ D :|
+
+%%sep 2 1 500
+
+X: 3
+T: Possum Up a Gum Stump [2]
+L:1/8
+M:2/4
+S:Howdy Forrester, transcribed by John Hartford
+F:http://www.ibiblio.org/fiddlers/PORT_POY.htm
+K:C
+|: \
+e2g2 | g/e/a/g/ e/g/g |\
+e2 gg/a/ | g/e/d/c/ A/c/c |
+e2g2 | g/e/a/g/ eg/g/ |\
+c'b ag | e/g/a/g/ e/d/c :|
+|: \
+E/(c/c) c>d | c/A/G/c/ A/B/c |\
+G,/C/E/G/ A/B/c/d/ | c/A/G/E/ D/A,/C |
+G,/C/E/G/ A/B/c/d/ | c/A/G/c/ A/c/c |\
+e2 e>d | c/A/G/E/ D/C/C :|
+
+%%sep 2 1 500
+
+X: 4
+T: Possum up a Gum Stump [3]
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+FE \
+| "D"D2DE FEDF | "G"GFGA BcdB | "D"A2AB AGFD | "A"E3F E2FE |
+| "D"D2DE FEDF | "G"GFGA BcdB | "A7"ABcd egfe | "D"d2dc d2 :|
+|: (3ABc \
+| "D"d2fd edf2 | "G"d2gd fdg2 | "D"d2fd edf2 | "A7"c4 A3c |
+| "D"d2A2 F2D2 | "G"GFGA BcdB | "A7"ABcd egfe | "D"d2dc d2 :|
+
+%%sep 2 1 500
+
+X: 5
+T: Possum up a Gum Stump [3]
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+B,A, \
+| "G"G,2G,A, B,A,G,B, | "C"CB,CD EFGE |  "G"D2DE DCB,G, | "D"A,3B, A,2B,A, |
+| "G"G,2G,A, B,A,G,B, | "C"CB,CD EFGE | "D7"DEFG AcBA   | "G"G2GF  G2 :|
+|: (3DEF \
+| "G"G2BG AGB2   | "C"G2cG  BGc2 |  "G"G2BG AGB2 | "D7"F4 [dD]3F |
+| "G"G2D2 B,2G,2 | "C"CB,CD EFGE | "D7"DEFG AcBA |  "G"G2GF G2 :|
+
+%%sep 2 1 500
+
+X: 6
+T: Possum Up a Gum Stump [4]
+T: Old Aunt Kate
+M:2/4
+L:1/8
+R:Breakdown
+S:Christeson – Old Time Fiddler’s Repertory, vol. 1, No. 93  (1973)
+Z:AK/Fiddler’s Companion
+F:http://www.ibiblio.org/fiddlers/OI_OLDGREY.htm
+K:D
+D/F/ \
+|: AF ED | A/d/f/d/ e/d/B/d/ | AF EE/F/ | G/B/A/G/ F/D/D/F/ |
+|  AF ED | A/d/f/d/ e/d/B/d/ | AF EE/F/ | G/B/A/G/ [F/A/][D/A/][DA]:|
+|: A/B/d/e/ ff/d/ | e/d/e/f/ gg | A/B/d/e/ fd | e/f/e/d/ cA/B/c/ |
+|  d/c/d/e/ ff    | e/d/e/f/ gf/g/ | a/b/a/f/ g/f/e/c/ | d/B/A/F/ D :|

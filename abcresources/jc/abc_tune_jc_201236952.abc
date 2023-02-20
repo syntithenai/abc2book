@@ -1,0 +1,26 @@
+X: 2382
+T: the Banks of Allan. a Jig.
+%R: jig
+B: Niel Gow & Sons "Complete Repository" v.2 p.38 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - -
+% Voice 1 formatted for regularity.
+V: 1 staves=2
+A |\
+(FGF) FED | (F.A.A) A2d | B(.d.d) A(.d.d) | Bdd Add |\
+(FG)F- FED | (FA)A- A2d | BdB {B}AGF | GEE E2 :|
+|: g |\
+fgf {g}fed | faa a2g | fgf {g}fed | fbb bag |\
+f>ga efg | def- fed | BdB {B}AGF | (GE).E E2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z |\
+d3 d3 | d3 d3 | [g3d3] [f3d3] | [g3d3] [f3d3] |\
+d3 d3 | d3 f3 | g3 f3 | e3 e2 :|
+| z |\
+d'3 d'3 | d'3 d'3 | d'3 f3 | g3 g3 |\
+d'3 c'3 | b3  f3  | g3  f3 | e3 e2 :|

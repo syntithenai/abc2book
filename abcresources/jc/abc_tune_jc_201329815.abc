@@ -1,0 +1,26 @@
+X:1
+T: Remembering Mary Kay
+N:
+C:
+S:Tune is "Waltz for Mary Kay" by Liz Donaldson
+A:
+O:
+R:
+M:3/4
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 26 notes)
+K:G
+M:3/4
+L:1/16
+e4 |d6 B2 A2 G2 |E4 G6 E2 |D2 E2 G4 B4 |A8 e4 |d6 B2 A2 G2 |E4 G6 E2 |D4 G4 E4 |G8 e4 |
+%W: A2
+% voice 1 (1 lines, 25 notes)
+d6 B2 A2 G2 |E4 G6 E2 |D2 E2 G4 B4 |A8 e4 |d6 B2 A2 G2 |E4 G6 E2 |D4 G4 E4 |G8 d4 |
+%W: B
+% voice 1 (1 lines, 29 notes)
+e6 d2 e2 f2 |e2 d2 B6 d2 |c2 B2 A4 c4 |B8 d4 |e6 d2 e2 f2 |g4 e6 f2 |g2 f2 e2 g2 f2 e2 |d8 d4 |
+%W:
+% voice 1 (1 lines, 28 notes)
+e6 d2 e2 f2 |e2 d2 B6 d2 |c2 B2 A2 G2 F2 E2 |D4 d4 e4 |d6 B2 A2 G2 |E4 G6 E2 |D4 G4 E4 |G8 ||

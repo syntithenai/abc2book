@@ -1,0 +1,31 @@
+X: 21021
+T: BOSTON SETT (tune 1)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.102 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="1"
+d/e/ |\
+fBB BAB | gBB BAB | cAF FGA | Bdf gab |\
+fBB BAB | gBB BAB | cAF FGA | (c3 B2) H|]
+f/e/ |\
+de=e f_ec | B3 FBd | c2d efg | f2e d2B |\
+fff =e2c | bbb agf | =edc BAG | FAB cd"^D.C."e |]
+d |\
+d2g ag^f | gdB G2c | f2a gf=e | fcA Fcd |\
+ecA FGE | DFF Bdf | Egg Faa | b3 "^D.C."b2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First four right and left,
+%% balance four,
+%% Ladies chain,
+%% promenade four,
+%% sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

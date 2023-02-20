@@ -1,0 +1,39 @@
+
+X: 1
+T: Lexy McAskill
+C: Dr.John McAskill
+R: reel
+Z: John Chambers <jc:trillian.mit.edu> (from Barbara McOwen)
+B: Martin "Ceol na Fidhle", v.1, p.44, 1991
+N: This tune may be harmonized in Am or Em.
+N: Written (most likely) and named for the composer's mother, Alexandra (Lexy) MacKillop of Rhuvanish, Berneray, 1905-1978.
+M: C|
+L: 1/8
+K: Ador
+"A"[|]a | "Am"e2e2 deed |     e2dB "G"GBBd | "Am"e2e2 deed |  "G"egfd "Am"e2e :|
+"B"|: f | "Am"g2f2 e2dB | "D7"AAdB "G"GBBe | "Am"g2f2 e2dB | "Em"egfd "Am"e2e :|
+"C"|: g | "Am"e2e2 e2dB |     AAAB "G"GABd | "Am"e2e2 e2dB |  "G"egfd "Am"e2e :|
+"D"|: g | "Am"aeea e2dB | "D7"AAdB "G"GBBe | "Am"aeea e2dB | "Em"egfd "Am"e2e :|
+
+%%sep 1 1 500
+
+X: 1
+T: Lexy McAskill
+M: 4/4
+L: 1/8
+C: Dr. John McAskill
+R: Reel
+N: This tune may be harmonized in Am or Em.
+K: Em
+"A"[|]a |\
+"Em"e2 e2 de ed | "Em"e2 dB "G"GB Bd |\
+"Em"e2 e2 de ed | "Em" eg "D"fd "Em"e2-e :|
+"B"|: f |\
+"Em"g2 f2 e2 dB | "D7"A2 dB "G"GB Be |\
+"Em"g2 f2 e2 dB | "Em" eg "D"fd "Em"e2-e :|
+"C"|: a |\
+"Em"e2 e2 e2 dB | "D7"AA AB "G"GA Bd |\
+"Em"e2 e2 e2 ed | "Em" eg "D"fd "Em"e2-e :|
+"D"|: g |\
+"Am"ae ea "Em"e2 dB | "D"A2 dB "Em"GB Be |\
+"Am"ae ea "Em"e2 dB | "Em" eg "D"fd "Em"e2-e :|

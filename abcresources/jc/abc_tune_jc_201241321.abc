@@ -1,0 +1,30 @@
+X: 4318
+T: Jack Meggot
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%
+V: 1
+D/E/ |\
+F2G AFD | F2G AFD | F2G ABc | dfd ecA |\
+F2G AFD | F2G ABc | def gef | edc d2 :|
+|: A/B/ |\
+c2d ecA | g2e f2d | cde dcB | ABG AFD |\
+F2G AFD | c2d ecA | gbg afd | gec d2 :|
+%
+V: 2 clef=bass middle=d
+z |\
+d3 D3 | d3 D3  | d3  f3  | a3  A3 |\
+d3 D3 | d3 fge | f2d c2d | a2A d2 :|
+|: z |\
+A3 a3 | c'ba d'ad | A3 B3 | c2A d3 |\
+d3 D3 | a3   A3   | g3 d3 | a2A d2 :|
+%%begintext align
+The 1st Man Heys on the Women's side,
+his Partner Heys on the Men's side at the same time .|
+The 1st Cu. Hey on their own sides :|
+The to 1st Cu. foot, and hands across half round .|
+The two 1st Cu. foot, and Right and Left.
+%%endtext

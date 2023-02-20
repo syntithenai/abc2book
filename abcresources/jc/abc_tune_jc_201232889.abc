@@ -1,0 +1,604 @@
+X: 0
+T: 24 Country Dances for the Year 1805
+%C: Mr. Gray
+B: Mr. Gray "24 Country Dances for the Year 1748"
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-4
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+K:
+%%center --- Twenty Four ---
+%%center Country Dances for the Year 1805
+%%center Composed by Mr Gray
+%%center --- adapted for the ---
+%%center Violin, German Flute, Oboe, &c. with Figures
+%%center London, Published at Thompson's Music Warehouse No. 73, St Pauls Church Yard
+%%center = = = = = = = = = = = = = = = = = = = = = = = = =
+
+%%newpage
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1
+T: The Marlbro' Landlords
+%C: Mr. Gray
+%R: jig
+B: Mr. Gray "24 Country Dances for the Year 1805" p.1 #1
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|:\
+(gfg) (dcB) | (ecA) A3 | (gfg) (dcB) | (AFD) D3 |\
+(gfg) (dcB) | (gfg) (edc) | Bcd DEF | G3 G3 :|
+|:\
+AFD A2c | Bdc BAG | AFD ABc | BGB d3 |\
+ece gec | dBd gdB | Aed cBA | G3 G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Turn your Partner & cast off, half right &
+%% left, down the mid: up again, & pousette.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2
+T: Young Brush the Painter.
+%C: Mr. Gray
+%R: reel
+B: Mr. Gray "24 Country Dances for the Year 1805" p.1 #2
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|:\
+BcdB edcB | cBAG (FD).D2 |\
+BcdB cedc | BAGF G2G2 :|
+|:\
+AFDc BdBG | AFDc (Bc).d2 |\
+ecge dBGB | cAGF G2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Twice down the mid: up again, hands 4
+%% round at bottom right & left at top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3
+T: The Mariners Compass is Grog.
+%C: Mr. Gray
+%R: jig
+B: Mr. Gray "24 Country Dances for the Year 1805" p.2 #1
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Add dot to last note in each strain to fix the rhythm.
+M: 6/8
+L: 1/8
+K: F
+|:\
+fcB AGF | ddd (d2e) | fcB AGF | GEC C2e |\
+fcB AGF | Gce gec | Afe dc=B | c3 c3 :|
+|:\
+cAF Acf | dAB (B2c) | d=BG Bdf | ecc cde |\
+fga cef | Bcd GcB | AGF CDE | F3 F3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Twice down the mid: up again, hands 4
+%% round at bottom right & left at top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 4
+T: Yorkshire Concert.
+%C: Mr. Gray
+%R: reel
+B: Mr. Gray "24 Country Dances for the Year 1805" p.2 #2
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The dance is identical to #3, The Mariners Compass is Grog.
+M: 2/4
+L: 1/16
+K: F
+|:\
+A3c (BG).G2 | AcFA (GE).C2 |\
+A3c (BF)(GB) | (Ac)(EG) F2F2 :|
+|:\
+G3B (BA).A2 | AcFA (GE).C |\
+G3B AcfA | .B(GFE) F2F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Twice down the mid: up again, hands 4
+%% round at bottom right & left at top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 5
+T: Enchanged Island
+%C: Mr. Gray
+%R: jig
+B: Mr. Gray "24 Country Dances for the Year 1805" p.3 #1
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|:\
+dfa afd | fdB (B2d) | AFA A2(d/e/) | (fe).e e2(f/e/) |\
+dfa afd | fdB (B2d) | ded dag | fdd d3 :|
+|:\
+a>ba af^d | eEE E2(e/f/) | g>ag gec | dDD D2A |\
+Bcd efg | cde fga | gbe fad | edc d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead twice down the mid: up again,
+%% Allemande, foot it & swing Corners.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 6
+T: Old Sheepface
+%C: Mr. Gray
+%R: reel
+B: Mr. Gray "24 Country Dances for the Year 1805" p.3 #2
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The "Do" in the dance directions has to 'o' elevated, with a dot underneath, so it's an abbreviation for something.
+M: C
+L: 1/8
+K: A
+|:\
+.e(cBA) F/F/F F2 | .d(BAG) A/A/A A2 |\
+(ecA).a .g(bge) | faf^d e2E2 :|
+|:\
+ecde dBcd | cecA GBGE |\
+FDBA GBed | cBAG A/A/A A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & half right & left, D.o back again, down the
+%% mid: up again, right & left at top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 7
+T: Cousin John's Waltz
+%C: Mr. Gray
+%R: waltz
+B: Mr. Gray "24 Country Dances for the Year 1805" p.4 #1
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/8
+K: Bb
+|:\
+B2(d/B/) | f2(d/B/) | f2(e/c/) | dBB |\
+b2g/=e/ | cba | gf=e | f3 :|
+|:\
+fdg | ecf | dB/c/d/B/ | cAF |\
+fdg | eca | bBB | B3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Turn 3 with the 1st Lady, D.o Gent:, down
+%% the mid: up aain, & Allemande.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 8
+T: The Spanish Armada
+%C: Mr. Gray
+%R: reel
+B: Mr. Gray "24 Country Dances for the Year 1805" p.4 #2
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Eb
+|:\
+EGBG F/F/F F2 | GBEG (FD)B,2 |\
+EGBG Eedc | BAGF (GE)E2 :|
+|:\
+F3B (GE)E2 | (eBAG) (FD)B,2 |\
+F3B GBeG | AFED E2E2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & half right & left, D.o back again, down
+%% the mid: up again, right & left at top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 9
+T: The Thornton Waltz
+%C: Mr. Gray
+%R: waltz
+B: Mr. Gray "24 Country Dances for the Year 1805" p.5 #1
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/8
+K: C
+|:\
+cGG | ecc | fdd | d>ed/c/ |\
+Bdg | g>ag/f/ | ecc | c3 :|
+|:\
+ge/f/g/e/ | aaa | fd/e/f/d/ | ggg |\
+ec/d/e/c/ | ffe | ddd | d3 |
+cGG | ecc | geg | a3 |\
+c'cc | d>ef/d/ | BG/A/B/G/ | c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st & 2d Cu: hands across, back again,
+%% lead down the mid: up again, Allemande
+%% right & left.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 10
+T: Tom Tug the Waterman
+%C: Mr. Gray
+%R: reel
+B: Mr. Gray "24 Country Dances for the Year 1805" p.5 #2
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+|:\
+(cBc).G (AGA).E | FDGF (EC)C2 |\
+ceac BdgB | Aag^f g2G2 :|
+|:\
+geca fdBg | c'gec BdBG |\
+AcAF Gceg | fdcB c2c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & half right & left, D.o back again,
+%% down the mid: up again, right & left at top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 11
+T: Jumping Ireland
+%C: Mr. Gray
+%R: slip-jig
+B: Mr. Gray "24 Country Dances for the Year 1805" p.6 #1
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: C
+|:\
+gec ({d}cBc) dBG | cAF {G}FEF GEC |\
+gec gfd gec | Aag ^fdf g3 :|
+|:\
+geg geg afa | fdf fdf gec |\
+ABc def gec | Afe dcB c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Whole Figure with the top Cu:, down
+%% the mid: up again, & Allemande.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 12
+T: Haul away
+%C: Mr. Gray
+%R: reel, hornpipe
+B: Mr. Gray "24 Country Dances for the Year 1805" p.6 #2
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: F
+|:\
+A>B c2 | A>B c2 | B>AG>F E>G C2 |\
+A>B c2 | A>B c2 | BGFE | F2 fz :|
+|:\
+f>ef>e | f>ga>f | g>ec>a | b>ge>c |\
+f>ef>e | f>ga>f | g>ge>c | f2 fz :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & half right & left, the same back into
+%% your places, lead down & up again, hands
+%% 6 round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 13
+T: The Haunted Castle
+%C: Mr. Gray
+%R: reel
+B: Mr. Gray "24 Country Dances for the Year 1805" p.7 #1
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+(BA) |\
+G2(ed) c2(gf) | edcB AcAF | BFdB fdbg | agf=e f4 :|
+|: f2 |\
+fdc=B cBcd | ecBA B(ABc) | (dB)(ec) (fd)(ge) | edcB AFGA |
+BFDF BGEd | ecdB BAGF | GBeg fabd | ecBA B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast of 2 Cu: up again, lead down the mid:
+%% up again, set & turn corners lead outsides
+%% with your Partner.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 14
+T: They wou'd if they Dare
+%C: Mr. Gray
+%R: reel, march
+B: Mr. Gray "24 Country Dances for the Year 1805" p.4 #2
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|:\
+G4 B2d2 | g4 d2B2 | c2A2B2G2 | {B}AGAB A2D2 |\
+G4 B2d2 | g4 d2B2 | c2A2G2F2 | G4 G4 :|
+|:\
+c2A2G2F2 | {A}GFGA G2AB | c2A2B2G2 | AGFE D2z2 |\
+c2A2G2F2 | {A}GFGA G2AB | c2A2B2G2 | d^cde dB=cA :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Right & left back again, down the mid:
+%% up again & Allemande.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 15
+T: Madam Fig's Waltz
+%C: Mr. Gray
+%R: waltz
+B: Mr. Gray "24 Country Dances for the Year 1805" p.3 #1
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The last word of the dance description is nearly illegible.
+N: The second strain has 9 bars.
+M: 3/8
+L: 1/8
+K: A
+(e/d/) |\
+ccc | c2 (d/c/) | BBB | B2 (e/d/) |\
+cca | dd (B/A/) | GE/F/G/F/ | A4 :|
+|: (c/d/) |\
+eef | dde | cc (d/c/) | BB (c/A/) |\
+BGE | FFF | Ddc | BAG | A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st & 2d C: hands across back again,
+%% down the mid: up again, Allemande right
+%% & [left?].
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 16
+T: Snuff & Twopenny
+%C: Mr. Gray
+%R: reel
+B: Mr. Gray "24 Country Dances for the Year 1805" p.8 #2
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|:\
+dfaf dgbg | dfaf ecBA |\
+dfaf dgbg | fedc d2d2 :|
+|:\
+ecAg fgaf | ecAg (fg).a2 |\
+afdA Bbag | faAc d2d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & hands across the same back again,
+%% down the mid: up again, right & left.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 17
+T: Young Roscius
+%C: Mr. Gray
+%R: slip-jig
+B: Mr. Gray "24 Country Dances for the Year 1805" p.9 #1
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has final repeat but no initial repeat (plus the :S: "segno" symbol); not fixed.
+M: 9/8
+L: 1/8
+K: D
+|: ":S:"\
+d3 AFA AFA | BGB efd cBA |\
+{e}dcd AFA AFA | Bgf edc d2 :|
+[|\
+a3 fdf fdf | b3 geg geg |\
+a3 fdf fdf | Bcd egf ed"_D.C."c "^:S:"y:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Whole Figure with the top Cu:, down
+%% the mid: up again, & Allemande.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 18
+T: The Glass Slipper
+%C: Mr. Gray
+%R: reel
+B: Mr. Gray "24 Country Dances for the Year 1805" p.9 #2
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+|:\
+defd (cA)A2 | dBAG (FD)D2 |\
+defd ceac | cBA^G A2A2 :|
+|:\
+A3g (fd)d2 | Aceg f>ga2 |\
+bgfe fadf | egec d2d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set & half right & left, D.o back again,
+%% down the mid: up again, right & left at top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 19
+T: Outside of the Castle.
+%C: Mr. Gray
+%R: slip-jig
+B: Mr. Gray "24 Country Dances for the Year 1805" p.10 #1
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+|:\
+g2d Bdc BAG | g2e efg afd |\
+g2d Bdc BAG | AcB AGF | G3 :|
+|:\
+A3 ABc dBG | E2e efg afd |\
+g2d Bdc BAG | Aed cBA G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hey contrary sides Hey your own sides
+%% lead down the mid: up again, hands 6 round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20
+T: Sly Cupid.
+%C: Mr. Gray
+%R: reel
+B: Mr. Gray "24 Country Dances for the Year 1805" p.10 #2
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+|:\
+g>c ({d}cB/c/) A3 c | AcGc d/d/d d2 |\
+g>c ({d}cB/c/) AcGf |eage c/c/c c2 :|
+|:\
+gcec fdec | gcec d/d/d d2 |\
+gede cAGe | eage c/c/c c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast of 2d Cu: up again, lead down the mid:
+%% up again turn courners & lead outsides.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 21
+T: Peter Pull Haul.
+%C: Mr. Gray
+%R: slip-jig
+B: Mr. Gray "24 Country Dances for the Year 1805" p.11 #1
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: A
+|:\
+A3 cBA ecA | b2B BcA GFE |\
+A3 cBA ecA | Fdc BAG A3 :|
+|:\
+c2e aed cBA | d2f bge efg |\
+({b}aga) ({b}aga) ecA | Fdc BAG | A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hey contrary sides, Hey your own sides,
+%% down the mid: up again, hands 6 round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22
+T: Lousia of Lombardy
+%C: Mr. Gray
+%R: reel
+B: Mr. Gray "24 Country Dances for the Year 1805" p.11 #2
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+|:\
+(aga)e (dc)(BA) | (FB)(BA) (BG)B2 |\
+agae ^dfba | gb^df e2e2 :|
+|:\
+fdbd ecac | dcBA GBed |\
+cefg aecA | BdBG A2A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast of 2d Cu: up again, down the mid:
+%% up again, turn corners & lead outsides.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 23
+T: Hampton Waltz.
+%C: Mr. Gray
+%R: waltz
+B: Mr. Gray "24 Country Dances for the Year 1805" p.12 #1
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/8
+K: C
+|:\
+GEG | cGe | dGG | G3 |\
+fda | gec | fe^f | g3 :|
+|:\
+geg | fdf | ege | dBG |\
+AAA | f2 (d/c/) | BGB | c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st & 2d Cu: hands across back again, lead
+%% down the mid: up again, Allemande right
+%% & left.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 24
+T: He knows better.
+%C: Mr. Gray
+%R: reel
+B: Mr. Gray "24 Country Dances for the Year 1805" p.12 #2
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+|:\
+A3c AcFc | dcBA G2G2 |\
+A3c (fe)(dc) | =BGAB c2c2 :|
+|:\
+cafc BgeB | AfcA (GE)C2 |\
+FGAB cdef | BGFE F2F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Twice down the mid: up again, hands 4
+%% round at bottom right & left at top.
+%%endtext

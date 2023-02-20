@@ -1,0 +1,62 @@
+X:1
+% Keys:
+% Original:					C
+% Count Basie, George Coleman, Brad Meldau:	C
+% Artie Shaw:					F
+% Art Pepper, Jim Hall, Paul Desmond:		Bb
+% Kenny Drew:					Eb
+% Stan Getz/Oscar Peterson:			Ab
+%
+% song specific formatting:
+%%staffsep        2.5cm
+%%gchordfont      Times-Italic-Bold 16.0
+%
+T:Bewitched
+M:4/4
+L:1/4
+C:Rodgers & Hart
+Q:1/4=70
+%%staves (chords melody)
+K:C
+%%text (ballad)
+%%vskip 20
+P:A
+V:chords
+x || "Cmaj7"x2 "C#dim7""(Am7)"x2 | "Dm7"x2 "F#m7b5""(Dbmaj7""D#dim7""(G7)"x"B7b5"" "" "" "x |\
+"Cmaj7"" ""C/E"x2 "E/C)"" ""E7"x2 |  "F#dim7""Fmaj7"x2 "G7sus""F#dim7"x"Fdim7"" "x |
+"C/E""C/G"x2 "Ebdim7""F#dim7"x2 | "Dm7""G7"x2 "G7"""x"A7""A7"x | "Dm7"x2 x2 |  "G7"x2 x2 ||
+V:melody
+G || E/B/c2E | F/B/c2F | G/B/c ^G/B/c | A/B/c2B |
+w:I'm wild a-gain, be-guiled a-gain, a sim-per-ing, whim-per-ing child a-gain, be-
+cz B/A/G/^F/ | GD2E | F4- | F2z2 ||
+w:witched, both-ered and be-wil-dered am I.*
+P:A
+V:chords
+"Cmaj7"x2 "C#dim7""(Am7)"x2 | "Dm7"x2 "F#m7b5""(Dbmaj7""D#dim7""(G7)"x"B7b5"" "" "" "x |\
+"Cmaj7"" ""C/E"x2 "E/C)"" ""E7"x2 |  "F#dim7""Fmaj7"x2 "G7sus""F#dim7"x"Fdim7"" "x |
+"C/E""C/G"x2 "Ebdim7""F#dim7"x2 | "Dm7""G7"x2 "G7" "C7"x"C7" ""x | "Fmaj7"x2 x2 |  "Em7b5"x2 "A7"x2 ||
+V:melody
+E/B/c2E | F/B/c2F | G/B/c ^G/B/c | A/B/c2B |
+w:Could-n't sleep, and would-n't sleep, when love came and told me I should-n't sleep, be-
+cz B/A/G/^F/ | GD2E | A4- | A3z ||
+w:witched, both-ered and be-wil-dered am I.*
+P:B
+V:chords
+"Dm7"x2 x2 | x2 "( E7 )"x2 | "Am7"x2 x2 |  x2 " (A7 )"x2 |
+"Dm7"x2 "C/E"" "x"Ebdim7"" "x | "Dm7""G7"x2 "G7""-/F"x "Fm6"x |\
+"Em7"x2 "Ebdim7"x2 | "Dm7"x2 "G7"x2 ||
+V:melody
+B/A/F2B/A/ | FF3 | B/A/E2B/A/ | E4 |
+w:Lost my heart, but what of it? He is cold, I a-gree,
+c/B/G2c/B/ | GG- G/A/B/c/ | d2 c2 | F3G ||
+w:he can laugh, but I love it,* al-though the laugh's on me. I'll
+P:A
+V:chords
+"Cmaj7"x2 "C#dim7""(Am7)"x2 | "Dm7"x2 "F#m7b5""(Dbmaj7""D#dim7""(G7)"x"B7b5"" "" "" "x |\
+"Cmaj7"" ""C/E"x2 "E/C)"" ""E7"x2 |  "F#dim7""Fmaj7"x2 "G7sus""F#dim7"x"Fdim7"" "x |
+"C/E""C/G"x2 "Ebdim7""F#dim7"x2 | "Dm7""G7"x2 "G7"""xx | "C6"x2 x2 |  "T.A."x2 x2 |]
+V:melody
+E/B/c2E | F/B/c2F | G/B/c ^G/B/c | A/B/c2B |
+w:sing to him, each spring to him, and long for the day when I'll cling to him, be-
+cz B/A/G/^F/ | Gd2G | c4 | z4 |]
+w:witched, both-ered and be-wil-dered am I.

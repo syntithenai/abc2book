@@ -1,0 +1,32 @@
+%%sep 2 1 500
+%%sep 1 2 500
+%%begintext align
+%% This Dutch round is great fun, whether the singers can pronounce the words
+%% correctly or not. The phonetic pronunciation, with translation is given below.
+%%endtext
+X: 1192
+T: de Bezem
+P: (Round)
+%R: song, round
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Eb
+%%continueall 0
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    E | E3 E2E | E3 E2"^2"E | GGG G2G | GGG G2
+w: 1.~De be-zem, de be-zem, Wat doe je er mee,  Wat doe je er mee?
+w: 2.~D\ua bay-s\uum, d\ua bay-s\uum, Wat doo y\ua air may, Wat doo y\ua air may?
+w: 3.~The broom,* the broom,* What do you with it, What do you with it?
+"^3"G | BBB B2B | BBB B2"^4"B | e3 e2e | e3 e2 |]
+w: Wij ve-gen er mee, Wij ve-gen er mee, De floer aan, de floer aan.
+w: Way fay-gan air may, Way fay-gan air may, Da fluur on, da fluur on.
+w: We sweep* with it, We sweep* with it, The floor up, the floor up.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% %begintext
+% % 1. Dutch words
+% % 2. Pronunciation
+% % 3. Translation
+% %endtext

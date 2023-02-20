@@ -1,0 +1,33 @@
+X: 341
+T: Coldstream
+T: 2d Regt of Guards March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.34 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Adjusted length of rest in bar 17 to make the triplet work correctly.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has more compact staff layout.
+V: 1
+z z/(3(A//B//c//) |\
+d3z/b/ a>gf>e | d2A2 z2d>A | B2g2 z2g>B | A2f2 z2d>f |\
+e>dc>B A>Ge>G | TG2{FG}F2 z2d>f | (Te3d/e/) f>ed>c |
+Tc2B2 z2B>d | c2e>c B2d>B | c2e>c B2d>B | c>Bc>d {c2}TB4 |\
+A2A>A A>AA>A | A6 :: zA//B//c//d// |
+e2c>d e>Aa>e | Tf2{ef}e2 z2e>f | g>gf>e f>fe>d |\
+a2e>c A2 z(3(A/B/c/) | d3b a>gf>e | d2A2 z2d>A |
+B>Gd>B g>fe>d | c>de2 z2g>e | f2a>f e2g>e |\
+f2a>f e2g>e | f>ef>g f2Te2 | d2d>d d>dd>d | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 has staff layout matching the book's.
+V: 2
+z2 |\
+f2 d4 c2 | d4 A2F2 | D2BA d3G |
+d>AA2 c2d2 | e4 d2A2- | A3A F2d2 | a2c2 d2A2- | TA2^G2 E2^G2 |
+A2cA ^GEBG | A2cA ^GEBG | A2AB T^G4 | A2c>c c>cc>c | c6 :: z2 |
+A2e2 c2A2 | Td2c2 z2c>d | e2c2 d2B2 | c2A2 z2A2 |
+Ad d4 c2 | d4 z2F2 | G6 B2 | A2c2 e2c2 | d2d2 c2c2 |
+d2d2 c2c2 | d2d>e d2Tc2 | d2F>F F>FF>F | F6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

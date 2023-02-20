@@ -1,0 +1,19 @@
+X: 1
+T: Down Home Waltz
+C: Buck White (attr.)
+%D:1960s
+S: Nigel Gatherer on FB 2021-7-16
+D: David Grisman [DG] and friends' CD "Mandolin Extravaganza"
+R: waltz
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+P: Play A1A2 BA2 or A1A2 BA2 BA2
+M: 3/4
+L: 1/8
+K: G
+de>f "^A"|\
+"G"g2 f2 e2 | d2 c2 B2 | "Am"A3 B c>d | "C"e6 |\
+[1 "D"f3g ef | "D7"d3 e c>d | "G"B6- | "D"B3 :|\
+[2 "D"fg ef de | "D7"cd Bc AB |
+"G"G6- | G3 |] FG>^G "^B"|\
+"Am"A3 B c>e | "D"d4 c2 | "Bm"B3 d f>a | "Em"g4 f2 |\
+"Am"e3 f g>b | "A"a4 e2 | "C"g6 | "D"f6 "^->A2"y|]

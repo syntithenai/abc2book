@@ -1,0 +1,40 @@
+X:516
+T:The Music Will Tell You
+%%MIDI gchord GIgIHI
+%%MIDI beat 100 95 80
+C:Colin Hume, 2006 / 2010
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+M:3/2
+L:1/8
+Q:1/2=75
+%%MIDI chordname dim 0 3 6 9
+K:D
+%%center Switch smoothly from one tune to the other and back again at the caller's request.
+P:A
+|: "D"F2EF "/"A2d2 "Bm"FED2 | "G"B,2A,B, "/"D2F2 "A"E4 |\
+"D"F2EF "A/C#"A2c2 "Bm"d2c2 | "G"B2AB "D/F#"A2 D2 "Em"G4 |
+"A7"F2GA "F#7/A#"F2E2 "Bm"E2D2 | "G"B2cd "G/F#"B2A2 "Em"A2G2 |\
+"A"c2de "F#7/A#"d2c2 "Bm"c2B2 |1 "Em"A2 G2 "/"B,2D2 "A"E4 :|2 "Em"A2G2 "/"B,2D2 "D"D4 |]
+P:B
+|: "A"c2AB "/"c2A2 "C#m/G#"e2c2 | "G"B3A "/"B2c2 "D"d4 |\
+"A"e2c2 "/"B2A2 "D"F2A2 | "A/E"ABc2 "E7"B3A "A"A4 |
+"D"d2cd "G"B2A2 "/"G4 | "E7/G#"e2de "A"c2B2 "/"A4 |\
+"D"f2ed "/"c2d2 "G"g2f2 | "A7"e4- "/"e2d2 "D"d4 :|
+%%text When switching tunes, gradually speed up, and replace the last bar by the following:
+"A7"ec "/"AG "/"EC |
+Q:3/8=108
+K:Dm
+M:6/8
+P:A
+|: "Dm"DEG BAG | "/"A2F EFD | "/"B2F EFD |\
+"/"A2F EFD | "C"EDE GEC | "/"+>+G2 "/"+>+E2 "/"+>+C2 |
+| "Dm"DEG BAG | "/"AGA d2e | "Bb"fed def |\
+"F"cBA AGF | "C"EDE GEC | "Dm"E2D-D3 :|
+P:B
+|: "Bb"dcd fed | "C"d2 c-c2B | "F"AGA cAG |\
+"Dm"FGA D2E | "Bb"FEF "C"GFG | "F"AFG ABc |
+| "Dm"d2d- dcd | "Bb"f2f- fef | "C"g2g- gfg |\
+"Dm"agf edc | "Bb"dcB AGF | "C"EFE "Dm"D3 :|
+K:D
+%%text When switching tunes, gradually slow down, and replace the last bar by the following:
+| "A7"E2 D2 E2 |

@@ -1,0 +1,25 @@
+X: 10151
+T: EARL OF MOIRA'S WELCOME TO SCOTLAND.     a Strathspey.
+N: The title doesn't contain an apostrophe, but the index entry does.
+Q: "Slowish"
+R: strathspey
+B: "Edinburgh Repository of Music" v.1 p.15
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The right edge of the page is faint; the last note in every 4th bar is a guess based on beam angle, etc.
+M: C
+L: 1/16
+K: G
+D2 !segno!|\
+GG3 GG3 B2d2d4 | c3A B3G A3GF2D2 |\
+GG3GG3 B2d2d4 | e2g2 fgaf gaba gb3 |\
+gg3 b2g2 a3gf3d | ee3 g3e d3c B2G2 |
+gg3 b2g2 a3gf2d2 | e3g fgaf g4 g2ab |\
+c'3ab3g a3ge2g2 | (ed).c.B g3B (cBAG) A2B2 |\
+GG3GG3 c2e2e4 | d3g fgaf gaba gb3 |
+B3Gd3G (edcB) d2g2 | B3Gd3G A3Bc3e |\
+B3Gd3G (edcB) d2g2 | e3g .f.g.a.f .g.a.b.a gb3 |\
+!p!gb3gb3 f2a2d4 | e3fg3e d3cB3G |
+(3(g2a2b2) (3(g2a2b2) (3(f2g2a2) d4 | e3g fgaf g4 g2ab |\
+.e2.c'2.d2.b2 .c2.a2.B2.g2 | Bcdc B2G2 A3G F2D2 |\
+(3G2A2B2 (3A2B2c2 (3B2c2d2 (3c2d2e2 | d3g (ba).g.f (ag).f.e (dc).B.A !segno!|]

@@ -1,0 +1,52 @@
+
+X: 1
+T: Gruezi wohl, Frau Stirnima!
+O: Switzerland
+R: polka, shottish
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|4
+L: 1/8
+P: AABBACCA
+K: F
+"A"\
+|: c'c' | "F"c'3a f2c2 | ~d3c c2~c2 | Acfc Acfc \
+| "C7"Bcec B2c'c' | c'3b g2c2 | "C7"~d3c c2~c2 |
+|1,3 Bcec Bcec | "F"Acfc A2 :|2,4 "C7"~c2=Bc dcde | "F"f2f2 "fine"f2 :|[K:C=B]\
+"B"\
+|: z2 [K:C] | "C"~g2 eg dgcg | "G7"Bgdg bgfg |
+| ~g2 fg egdg | "C"cgeg c'geg | "C"~g2 eg dgcg | "G7"Bgfg bgfg \
+| ~g2 fa ~g2fd | "C"c2e2 c2 :|
+P: Repeat A
+K:Bb
+"C"\
+|: z2 | "Bb"~f2 df bdfb | ~f2 df bdfb | ~f2 df bdfb | "F7"~f2ef c'efa | "F7"~f2ef c'efa |
+| ~f2ef c'efa | ~f2ef c'efa | "Bb"~f2 df bdfb || "Bb"~f2 df bdfb | ~f2 df bdfb |
+| ~f2 df bdef | "Eb"~a2g2 g2z2 | "Eb" ~g2eg c'egc' | "Bb"~f2 df bdfb \
+| "F7"~f2ec' ~f2ec | "Bb"B2d2 B2 :|
+
+%%sep 1 1 500
+
+X: 2
+T: Gruezi wohl, Frau Stirnima!
+O: Switzerland
+R: polka, shottish
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|4
+L: 1/8
+P: AABBACCA
+K: G
+"A"\
+|: d'd' | "G"d'3b g2d2 | ~e3d d2~d2 | Bdgd Bdgd \
+| "D7"cdfd c2d'd' | d'3c' a2d2 | "D7"~e3d d2~d2 |
+|1,3 cdfd cdfd | "G"Bdgd B2 :|2,4 "D7"~d2^cd edef | "G"g2g2 "fine"g2 :|[K:D]\
+"B"\
+|: z2 | "D"~a2 fa eada | "A7"caea c'aga |
+| ~a2 ga faea | "D"dafa d'afa | "D"~a2 fa eada | "A7"caga c'aga \
+| ~a2 gb ~a2ge | "D"d2f2 d2 :|
+P: Repeat A
+K:C
+"C"\
+|: z2 | "C"~g2 eg c'egc' | ~g2 eg c'egc' | ~g2 eg c'egc' | "G7"~g2fg d'fgb | "G7"~g2fg d'fgb |
+| ~g2fg d'fgb | ~g2fg d'fgb | "C"~g2 eg c'egc' || "C"~g2 eg c'egc' | ~g2 eg c'egc' |
+| ~g2 eg c'efg | "F"~b2a2 a2z2 | "F" ~a2fa d'fad' | "C"~g2 eg c'egc' \
+| "G7"~g2fd' ~g2fd | "C"c2e2 c2 :|

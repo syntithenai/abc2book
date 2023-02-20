@@ -1,0 +1,29 @@
+X: 4321
+T: RED OR WHITE LIQUOR. (Faust.)
+%R: reel
+B: James Kerr "Merry Melodies" v.4 p.34 #321
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: There's a final repeat symbol, but no begin-repeat anywhere; not fixed.
+M: 2/4
+L: 1/16
+K: F
+c2=Bd |\
+cAFz d2^ce | d2z2 DEFG |\
+AB c4 BA | G2z2 c2=Bd |\
+cAFz d2^ce | d2z2 DEFG |\
+A=Bc2- cdBc | A2z2 |]\
+ABGA |\
+F2c2c2 (BA) | B2"^>"d4 GB |
+A2 c4 FA | G2z2 (GA)=Bc |\
+d2F2 FEFG | E2 c4 c2 |\
+A=Bcd e2d2 | c4 ABGA |\
+F2 c4 BA | B2 d4 GB |\
+A2 c4 ^FA | G2z2 GABc |\
+_dddz GABc |
+_dd =d4 fd |\
+cAFA c2e2 | [f6A6] z2 H|]\
+[K:Bb] [|\
+c2cd B4 | c2cd B4 |\
+e2ee dcBd |  cBGB AGAB |\
+c2cd B4 | c2cd B4 |\
+e2ed cBcd | (c4 B2)"_D.C."z2 :|

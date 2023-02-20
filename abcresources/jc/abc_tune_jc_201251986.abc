@@ -1,0 +1,22 @@
+X:10
+T:Bessarabian Hora
+Z:Jack Campin, http://www.campin.me.uk
+F:http://www.campin.me.uk/Music/EdinburghKlezmer.abc
+M:3/4
+L:1/8
+Q:3/4=55
+K:GMin
+ G,3 B,  DG  |B,3  D   GB |    D3   G Bd|       d/^c/  B3 AG|
+^c2 d2 (3f=ed|d^c B2 (3BAG|({c}d2) z2 D2|   ({c}d2)   z2  D2|
+ G,3 B,  DG  |B,3  D   GB |    D3   G Bd|       d/^c/  B3 AG|
+^c2 d2 (3f=ed|d^c B2 (3BAG|    G3   B dB|"^Fine"G6         :|
+%
+|:c2 c3 c|c4  {Ac}BA |B2 B3  B|B4       {GB}AG |
+  A2 A3 A|d2 zD  =E^F|G3  A Bc|d/c/B B/A/G  G2 |
+  c2 c3 c|c4  {Ac}BA |B2 B3  B|B4       {GB}AG |
+  A2 A3 A|d2 zD  =E^F|G3  B dB|G4           z2:|
+%
+|:G3B    BA|A3 c      cB |B3 d   dc |c3 e ed |
+  d4 {cd}cB|B3 A/c/ (3BAG|G3 e   d^c|d4   D2 |
+  G3B    BA|A3 c      cB |B3 d   dc |c3 e ed |
+  d4 {cd}cB|B3 A/c/ (3BAG|G3 A (3BdB|G4   z2:|

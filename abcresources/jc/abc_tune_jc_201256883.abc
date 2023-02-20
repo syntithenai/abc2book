@@ -1,0 +1,29 @@
+X: 1
+T: Brisk and Airy
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (190)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g |\
+e>fg cde | B3 GcB |\
+c>de def | e3- e2 :|\
+|: f/g/ |\
+a>ga def | g3 c3 |\
+f>ge d(f/e/d/c/) | B3 G2c |\
+f>ge d>cB | c3- c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1st Cu. cast off and clap Hands then they being in
+%% the 2d Cu. Place the 2d Cu. cast off and do the same :|
+%% Then they draw the 1st Cu. into the 2d and the 2d into
+%% the 1st Cu. Places then right and left then the 1st Cu.
+%% cast off and turn it out :|
+%%endtext
+%%sep 1 8 500

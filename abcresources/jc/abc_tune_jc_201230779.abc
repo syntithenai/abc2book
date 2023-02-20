@@ -1,0 +1,36 @@
+X: 14121
+T: If ever I marry, I'll marry a Wright
+T: If ever I merry, I'll merry a Wright
+N: The index has "merry" while the tune page has "marry".
+%R: air, waltz, minuet
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.4 p.12
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Amix
+|: "_Slow"\
+c2 A2 A2 | e2 A2 A2 | c2 (AB)(cd) | e4 (dc) |\
+d2 B2 B2 | f2 B2 B2 | d2 (Bc)(de) | f4 (f/^g/a) |\
+{f}e2 (dc)(BA) | a2 (AB)(cd) | e2 dc a2 | {f}Te3 d c2 |
+(d2 c2) d2 | (e2 f2) =g2 | (f^g) a2 c2 | TB4 A2 ::\
+(c2 B2) A2 | (a^g)(ab) a2 | A2 a2 f2 | Te3 d c2 |\
+B3 c B2 | (=g2 f2) e2 | f2 (Bc)(de) | Tf4 e2 |
+(A2 c2) d2 | (e2 f2) ^g2 | a2 f2 d2 | {f}e2 (dc)(BA) |\
+d2 (ce)(df) | (e=g)(fa)(^gb) | a2 e2 c2 | TB4 A2 ::\
+(cA) e3 d | (cf) {f}e3 d | (cA)(ed)(af) | {f}Te3 d c2 |
+(B>c) d2 c2 | (B>c) d2 c2 | B2 a2 ^g2 | Tf4 e2 |\
+(cA) e3 d | (cf) {f}e3 d | c2 (Ac)(ea) | (fe)(dc)(BA) |\
+(d2 c2) e2 | (f2 e2) f2 | (af)(af) (ec) | TB4 A2 :|
+|:\
+c2 (3(Ace) (3(agf) | e2 (3(Ace) (3(agf) | (3(ecA) (3(cea) (3(f^ga) | {f}e3 d c2 |\
+(3(bBc) (3(dcB) f2 | (3(bBc) (3(dcB) f2 | b2 a2 =g2 | Tf4 e2 |
+(3(AcB) (3(Ace) (3(a^ga) | (3(fdB) (3(ecA) (3(a^ga) | f2 (3(ef^g) (3(agf) | (e2 d2) c2 |\
+d4 e2 | (f2 e2 f2) | a2 e2 c2 | TB4 A2 :|
+%
+[M:6/8] |:\
+"_Brisk" cAA eAA | cAA Te2c | dBB fBB | dBB Tf2e |\
+cAA eAA | cAA Te2c | d2e fef | aec TB2A :|
+|:\
+cAA (f/^g/a)f | cAA Te2c | dBB (f/=g/a/g/f/e/) | fBB Tf2e |\
+cAA a^ga | fcA Te2c | d2f efa | fec TB2A :|

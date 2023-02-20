@@ -1,0 +1,30 @@
+X: 16
+T: Jannie's Babie
+%R: march, reel
+B: Name "Kauntze's Collection of the most favorite Dances, Reels, Waltzes, &c."
+F: http://imslp.org/wiki/Kauntze%27s_Collection_of_Dances,_Reels,_Waltzes_etc._%28Various%29
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: This tune is quite marked up (edited) by someone who obviously didn't like this version.
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+f |\
+(a>b).a.g fd-df | gBed cBAf |\
+a>bag fdad | B/B/B cA d2z :|
+|: a |\
+fdge fdfa | B/B/B ed cAAa |\
+fdge fdfa | B/B/B cA d3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2f2 a2d2 | e2b2 c2A2 |
+d2f2 a2f2 | g2a2 d2z :||: z | d2e2 d2f2 |
+g2e2 a2A2 | d2e2 d2f2 | g2aA d3 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu: up again, Lead down the middle, up again, Allmand, swing Corners
+%% and foot it outsides with your Partner.
+%%endtext

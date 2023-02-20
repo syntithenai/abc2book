@@ -1,0 +1,19 @@
+X:235
+T:The Fair Maid of the Inn
+C:Thompson 1777
+N:Used in the Apted fook for the dance "The Pleasures of the Town".
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=128
+M:4/4
+L:1/4
+%%MIDI ratio 3 1
+%%MIDI gchord f2z2cz3
+K:Bb
+P:A
+"Bb"B>d f>d | "/"B2 B2 | "Cm"c>d B>c | "F"A2 F2 |\
+"Eb"G>B "F"A>c | "Gm"B>d "F/Ab"c>e | "Bb"d>f "Cm"e>d | "F"d2 c2 |
+"Bb"B>d f>d | "/"B2 B2 | "Cm"c>d B>c | "F"A2 G>F |\
+"Eb"G>B "F"A>c | "Bb"B>d d>c | "Bb/F"d2 "F7"c2 | "Bb"B4 ||
+P:B
+|: "Bb"D>E F>B | "Eb"G2 G2 | "F"F>G A>B | "F7"c2 c2 |\
+"Bb"B>c d>e | "Bb"f>b "Eb"a>g | "F7"f>e d>c | "Bb"B4 :|

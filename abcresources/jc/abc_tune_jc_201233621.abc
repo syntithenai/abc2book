@@ -1,0 +1,26 @@
+X: 20032
+T: the GRAY COCK.--O SAW YE MY FATHER.
+O: Scottish air.
+Q: "Slow."
+%R: air, reel, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.3 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Both strains have 7 bars.
+M: 2/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+F>GA>B | c2c>c | d2g>f | (fe)(dc) |\
+{c}f2e>f | edcB | c3 :|\
+B |\
+AGAf | A2G>F | G>FG>A | B2c>d |\
+(dc)(BA) | (cB)(AG) | F3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Burns' song beginning
+%% "Where are the joys I have met in the morning,"
+%% is sung to the above air.
+%%endtext
+%%sep 1 1 300

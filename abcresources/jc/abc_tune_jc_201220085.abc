@@ -1,0 +1,25 @@
+X: 0312
+T: WALTZ  For two Clarinets
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.31 #2
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd phrase is missing its initial repeat symbol; fixed.
+M: 3/4
+L: 1/8
+K: F
+% -------------------------
+V: 1
+(ba) |\
+.g(ce)(ba).g | .f(Ac)(ag).f | .e(Gc)(gf).e | .f(Ac)(aba) |\
+.g(ce)(ba).g | .f(Ac)(ag).f | .e(Gc)(gf).e | f2 z2 :|
+|: (ef) |\
+(^f2g)(cgb) | (b2a)(cfa) | (a2g)(ceg) | (fc)(ac)(c'c) |\
+(^f2g)(cgb) | (b2a)(cfa) | (a2g)(ceg) | f2 z2 H:|
+% -------------------------
+V: 2
+gf |\
+.e2z(dc).B | A2z(cB).A | G2z(BA).G | A2z(fgf) |\
+ e2z(dc).B | A2z(cB).A | G2z(BA).G | A2 z2 :|
+ |: (cd) |\
+(^d2e)(ceg) | (g2f)(cAc) | (c2B)(cGB) | (Ac)(fc)(ac) |\
+(^d2e)(ceg) | (g2f)(cAc) | (c2B)(cGB) | A2 z2 H:|

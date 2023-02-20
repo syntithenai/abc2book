@@ -1,0 +1,27 @@
+X: 052
+T: Filton's Gavot
+%R: gavotte
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: John Treat - "Gamut for the Fifes", 1779, p.4 #2
+F: https://archive.org/details/GamutFortheFifes
+N: The rthyms between the strains don't match; not fixed.
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+"Primo:"c |\
+B2A2 | GcB2 | AGFG | A/G/F/E/ Dc |\
+B2A2 | GcB2 | AGFG | A2- A :|
+|:\
+d2c2 | Bge2 | dG cB/A/ | Bge2 |\
+dG cB/A/ | BG Dc | B2A2 | G2- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+"Secondo"G |\
+G2d2 | dGG2 | FGcB | A/B/A/G/ FG |\
+G2d2 | dGG2 | FDDG | F2-F :|
+|:\
+G2F2 | GBc2 | GG FE/D/ | GBc2 |\
+GG FE/D/ | GB de | d2c2 | B2-B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,21 @@
+X: 05084
+T: a TIME TO DANCE
+C: Bob McQuillen 27 Jan 81
+B: Bob's Note Book 5 #84
+%R: waltz
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+DF \
+| A2 AB AG | G2 F2 fe | d2 de dc | c2 Bd cB | A2 A2 ce | B2 A2 BA | d2 d3 e | f4 DF |
+| A2 AB AG | G2 F2 fe | d2 de dc | c2 B2 Bc | d2 de dc | B2 A2 FD | G2 F2 E2 | D4 |]
+[| FG \
+| A2 FA de | f2 d2 FG | A2 FA dc | B2 A2 cd | e2 ef gf | f2 e2 de | f2 d2 B2 | A4 FG |
+| A2 FA dc | B2 A2 FG | A2 FA dc | c2 B2 ef | g2 Bc de | f2 A2 df | e2 d2 c2 | d4 |]
+%%begintext align
+%% Have you
+%% read Dick Nevell's book, "A
+%% Time to Dance"? It's so very
+%% interesting - required reading, you know!
+%%endtext

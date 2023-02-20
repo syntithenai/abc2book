@@ -1,0 +1,22 @@
+X: 13
+T: Keeths Reel
+%R: jig
+B: "Twenty Four Favourite Dances for the Year 1779", Thomas Straight, ed. p.7 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1779
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Dropped flat on each strain's last note, to fix the rhythm.
+M: 6/8
+L: 1/8
+K: Gmix
+c |\
+B2G GBG | GBG GBG | B2G GBG | d3 ABc |\
+B2G GBG | GBG GBG | A2c fcA | c3 c2 :|
+|: B |\
+B2d gdB | def gdB | B2d gdB | d3 ABc |\
+B2d gdB | def gdB | A2c fcA | c3 c2 :|
+%%begintext align
+%% Cast off one Cu: and Cross over the next Cast
+%% up one Cu: and Cross up to the top Lead Down
+%% two Cu: up again And cast off Right and left
+%% at top
+%%endtext

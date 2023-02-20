@@ -1,0 +1,17 @@
+X:43
+T:Earl of Mansefield
+R:Reel
+M:2/4
+%%printtempo 0
+Q:90
+K:D
+(uf>e)|\
+"D"d3e d2A2|d>ef>g a2(g>f)|"A7"e3f e2A2|"A"c>de>f g2(f>e)|
+"D"d3e d2A2|d>ef>g a2(g>f)|"A7"g2e2 c2A2|"D"{/c}d4 {/c}d2:|
+|:(ua>g)|\
+"D"f3g f2A2|"D"d>ef>g a2(g>f)|"A7"e3f e2A2|"A"c2(e>f) g2(f>e)|
+"D"f3g f2A2|d>ef>g a2 (g>f)|"A7"g2e2 c2A2|"D"{/c}d4 {/c}d2:|
+|:(ua>g)|\
+"D"f2d2 d2(a>g)|f2d2 d2(e>f)|"A7"g2A2 c2e2|
+[1"A"c2A2 A2(a>g)|"D"f2d2 d2(a>g)|f2d2 d2(e>g)|"A7"a2A2 c2e2|"D"{/c}d4 {/c}d2:|
+[2"A"c2A2 A2(uBc)|"D"d3e d2A2|d>ef>g a2(g>f)|"A7"g2e2 c2A2|"D"{/c}d4 {/c}d2|]

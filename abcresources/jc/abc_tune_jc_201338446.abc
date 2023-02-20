@@ -1,0 +1,25 @@
+X: 1
+T: Slip it in easy
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #9 (5)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+cde f2f | fgf e2d | cAA A2G | cAA A2G |\
+cde f2f | fgf e2d | cAF F2G | AF F3 :|
+|:\
+FGA cAc | ded cAF | FAA A2G | FAA A2G |\
+FGA cAc | ded cfc | AFF F2F | AFF F3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice
+%%begintext align
+%% The 1st Cu. go Forward and back again, then go thro' the 2d cu. and cast up into your own Places and cast down again .|
+%% the 1st Cu. lead down and up again, then leading thro' the 2d Cu. cast down and up again :|
+%% then 1st and 2d Men double figure on the We. side, the 1st Man casting down into the 2d Mans Place .|
+%% then the two We. do the same on the Mens side, then the 1st Wo. [casting] down :|
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,15 @@
+X: 748
+T: Clarkson's Reel
+R: reel
+%S: s:3 b:14(6+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #748
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0748/oneill-1001-0748-1.abc
+%m: Tn = (3n/o/n/
+M: C|
+L: 1/8
+K: D
+"^A"[|] A,2 !segno!\
+|:     D2DG (FE)DF | (AB)AF Acdc |[1 (TBA)Bc dBAF | (EG)FD (TED)B,E :|[2 (Bd)ce (dB)AF | EGFE HD2 |]
+"^B"[|    (eg) | fddf afdf | edcd efge | fddf afdf | edef d2 |]
+"^C"[| (3(ABc) | defg afdf | edcd efge | (3(fga) (ec) dBAF | G2(FD) EDB,!segno!E |]

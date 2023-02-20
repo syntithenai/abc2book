@@ -1,0 +1,13 @@
+X: 1
+T: Atsuko's Waltz
+C: Bill Clement 1987
+R: waltz
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+S: image from Atsuko Clement
+M: 6/8
+L: 1/8
+K: Hp
+|: A | {gcd}c2e {gcd}c2{e}A | {gcd}c3- c2A | {gcd}c2e {gcd}c2{e}A | {g3Bd}B3- B2{G}A |
+y4   | {gcd}c2e {A}e2f | {g}e2{A}e {gcd}c2{e}A | {g}B2{G}B {gcd}c2{e}B | {G}A3- A2 :|
+|: A | {g}f2a {fg}f2c | {gef}e3- e2A | {g}f2a {fg}f2c | {gBd}B3- B2{G}A |
+y4   | {g}f2a {fg}f2c | {gef}e2{A}e {g}f2A | {gcd}c2e {gcd}c2{g}B | {G}A3- A2 :|

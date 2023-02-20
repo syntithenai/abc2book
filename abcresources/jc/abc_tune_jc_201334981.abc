@@ -1,0 +1,17 @@
+X: 1
+T: Scottisch C\'esar   [Am]
+%T: Onvolledige versie ["Incomplete version"]
+C: David Pasquet
+R: shottish
+S: NEFFA 2019 French Jam handout p.6 #1
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: 1/4=100
+K: Am
+"^A"|:::\
+"Am7"A3c BAe2 | dcde c3c | "D/A"Bcdc B3B |\
+[1,3 cded c2Bc :| [2 ABcB A2G2 :|[4 ABcB A4 ||
+"^B"|:::\
+"Dm"d3e f2d2 | "C"d2cd edc2 | "G"Bcdc B3B |\
+[1,3 "Am"cded c2Bc :|[2 "Am"ABcB A2G2 :|[4 "Am"ABcB A4 |]

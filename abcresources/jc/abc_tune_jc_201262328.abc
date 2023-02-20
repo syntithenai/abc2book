@@ -1,0 +1,52 @@
+
+X: 1
+T: \vCifte \vCifte [Bb]
+O: Macedonian/Turkish
+R: ^vciftetelli
+N: Eb alto sax; original in Bb
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: printed MS of unknown origin
+M: 9/8
+L: 1/8
+K: Bb
+%%indent 300
+"^Intro"| F2 BB F2 BBB | F2 BB F2 BBB ||
+"C"|: B2 f2 B2 f3  | g2 _a2 g2 f3 | g2 _a2 b2 agf | f2- fe d^c d2B :|
+"D"|: fe ed d2 edc | B2 z2 kg2 kg2f | fe ed d2 edc |1 B2 z2 b/a/^g/a/ b2f :|2 B2 z2 B/A/^G/A/ B2z |]
+"E"|: dc/d/ cB Bc def | dc/d/ cB B2 fed | dc/d/ cB Bc def | dc/d/ cB BF BB2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: \vCifte \vCifte [C]
+O: Macedonian/Turkish
+R: ^vciftetelli
+N: Eb alto sax; original in Bb
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: printed MS of unknown origin
+M: 9/8
+L: 1/8
+K: C
+%%indent 300
+"^Intro"| G2 cc G2 ccc | G2 cc G2 ccc ||
+"D"|: c2 g2 c2 g3  | a2 _b2 a2 g3 | a2 _b2 c'2 bag | g2- gf e^d e2c :|
+"E"|: gf fe e2 fed | c2 z2 ka2 ka2g | gf fe e2 fed |1 c2 z2 c'/b/^a/b/ c'2g :|2 c2 z2 c/B/^A/B/ c2z |]
+"F"|: ed/e/ dc cd efg | ed/e/ dc c2 gfe | ed/e/ dc cd efg | ed/e/ dc cG cc2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: \vCifte \vCifte [G]
+O: Macedonian/Turkish
+R: ^vciftetelli
+N: Eb alto sax; original in Bb
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: printed MS of unknown origin
+M: 9/8
+L: 1/8
+K: G
+%%indent 300
+"^Intro"| D2 GG D2 GGG | D2 GG D2 GGG ||
+"A"|: G2 d2 G2 d3  | e2 =f2 e2 d3 | e2 =f2 g2 fed | d2- dc B^A B2G :|
+"B"|: dc cB B2 cBA | G2 z2 ke2 ke2d | dc cB B2 cBA |1 G2 z2 g/f/^e/f/ g2d :|2 G2 z2 G/F/^E/F/ G2z |]
+"C"|: BA/B/ AG GA Bcd | BA/B/ AG G2 dcB | BA/B/ AG GA Bcd | BA/B/ AG GD GG2 :|

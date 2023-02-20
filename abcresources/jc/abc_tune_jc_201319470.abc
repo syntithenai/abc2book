@@ -1,0 +1,32 @@
+X:1
+T: Old Friends
+N:3/2
+C:"Jane in the Lane" by Jonathan Jensen
+S:
+A:
+O:
+R:
+M:3/2
+K:C
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 37 notes)
+K:C
+M:3/2
+L:1/16
+c4 |g8 |e4 d2 |c2 B4 |c4 d8 |G4 G2 |A2 B4 |G4 c4 |B4 A4 |G4 A4 |F4 d4 |c4 B4 |A4 B4 |G4 e4 |c2 d2 e4 |g4 g4 |^f4 g12 |c2 d2 e4 |c4
+%W: A2
+% voice 1 (1 lines, 36 notes)
+g8 |e4 d2 |c2 B4 |c4 d8 |G4 G2 |A2 B4 |G4 c4 |B4 A4 |G4 A4 |F4 d4 |c4 B4 |A4 B4 |G4 e4 |c2 d2 e4 |g4 g4 |^f4 g12 |c2 d2 e4 |c4
+%W: B1
+% voice 1 (1 lines, 25 notes)
+a4 |f4 d4 |g4 e4 |c4 f4 |d4 B4 |e4 c4 |A4 d4 |B4 G4 |c4 B2 |A2 G2 ^F2 |G12 |c2 d2 e4 |c4
+%W:
+% voice 1 (1 lines, 24 notes)
+g8 |e4 f2 |g2 a4 |f4 d12 |B2 c2 d4 |B4 G4 |c4 A4 |f4 e2 |d2 c2 B2 |c12 |e2 f2 g4 |e4
+%W: B2
+% voice 1 (1 lines, 25 notes)
+a4 |f4 d4 |g4 e4 |c4 f4 |d4 B4 |e4 c4 |A4 d4 |B4 G4 |c4 B2 |A2 G2 ^F2 |G12 |c2 d2 e4 |c4
+%W:
+% voice 1 (1 lines, 21 notes)
+g8 |e4 f2 |g2 a4 |f4 d12 |B2 c2 d4 |B4 G4 |c4 A4 |f4 e2 |d2 c2 B2 |c12|c8 |||

@@ -1,0 +1,46 @@
+X: 10101
+T: HANDEL'S CLARIONET
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.10 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Initial rest added to fix the rhythms of repeats.
+N: The full-bar beam in bar 9 of the bass is probably a typo, but it doesn't cause any problems.
+M: C
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+z2 |\
+a4 fgab e4 d2A2 | d2 d>f e2 e>g f2f2f2 ga |\
+b2b2b2ag a2a2a2gf | g2g2g2fe f2f2f2e2 |\
+defg a2gf .b2z2 .g2z2 | .a2z2 .A2z2 d6 :| 
+|: a2 |\
+f2A2d2f2 edef e2a2 | f2A2d2f2 e6 a2 |\
+a16- | a14 b2 |\
+b2a2a2g2  g2f2f2g2 | a2g2g2f2 f2e2 e4 |\
+defg a2f2 .b2z2 .g2z2 | .a2z2 .A2z2 d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+f4 dfgg c4 d2A2 | F2FF A2AA d2d2d2 ef |\
+g2g2g2ff f2f2f2ed | e2e2e2dc d2d2d2c2 |\
+dcde e2ed .g2z2 .e2z2 | .f2z2 .A2z2 f6 :|
+|: a2 |\
+a16- | a12 g4 |\
+f2A2d2f2 edef e2a2 | f2A2d2f2 e6 f2 |\
+g2f2f2e2 e2d2d2e2 | f2e2e2d2 d2c2 c4 |\
+dcde f2d2 .g2z2 .e2z2 | .f2z2 .F2z2 F6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+d4z4 d4z4 | d2d2 A2A2 d2d2 d4 |\
+g2G2g2G2 d'2d2d'2d2 | a2A2a2A2 d2f2a2g2 |\
+f2e2 d2ef .g2z2 .e2z2 | .a2z2 .A2z2 d6 :|
+|: A2 |\
+a2A2a2A2 a2A2a2A2 | a2A2a2A2 a4 A4 |\
+a2A2a2A2a2A2a2A2 | a2A2a2A2 a6 d2 |\
+g2d2f2g2 a2a2 a4 | a4 d4 a2A2 A4 |\
+f2e2d2f2 .g2z2 .e2z2 | .a2z2 .A2z2 d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

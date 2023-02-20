@@ -1,0 +1,27 @@
+X: 10202
+T: CHARMANTE GABRIELLE
+O: Old French air.
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.20 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The phrase lengths are 6, 6, 5, 5 bars.
+M: 3/4
+L: 1/8
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+F2F2B2 | (A2G2)F2 |\
+B2B2d2 | f4d2 |\
+(B>cd2)d2 | B6 |\
+F2F2B2 | (A2G2)F2 |\
+B2B2d2 | f4d2 |\
+({c}B>cd2){d}c2 | B6 |
+B2c2d2 | (B2A2)G2 |\
+c2A2B2 | c2e4 |\
+{d}c6 | B2c2d2 |\
+(B2A2)G2 | (c2A2)B2 |\
+c2{d}c4 | B6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

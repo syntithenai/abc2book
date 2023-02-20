@@ -1,0 +1,18 @@
+X: 619
+T: the Plow Boy
+T: an toirea\.m
+R: air, reel
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #619
+O: J.O'Neill
+Z: "dcde" should probably be "d^cde" in part I, measures 3, 7
+Z: John Walsh (walsh@math.ubc.ca)
+Q: "Moderate."
+M: C
+L: 1/8
+%Q: 55
+K: G
+  (G>F) | DG{A}GF G2FG | ABAG F2 ((3ABc) | dcde fdcA | GBAG F2 ||
+|   GF  | DG{A}GF G2FG | ABAG F2 ((3ABc) | dcde fdcA | GBAF G2 |]
+|| (Bc) | dedB c2Bc | dgfa g2Bc | defd cAGF | DF{G}FE F2 ||
+|   GF  | D2GF GABG | A2FE FGAc | ((3def) eg fdcA | GBAF G2 |]

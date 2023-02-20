@@ -1,0 +1,23 @@
+X: 21631
+T: COOLUN
+O: Irish air.
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.163 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Added missing dot to the B in bar 7.
+M: 3/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A3 (B/c/) |\
+d4 d4 (e3c) | d4 A4 (D2FA) |\
+(d3c) (d3e/f/) ({f}e3d) | (d4 {ed}c4) (d3c) |\
+{c}B4 (B3c/d/) (3(d2c2B2) | {B}A4 (F2A2) (d2A2) |\
+({c}B3A/G/) (F3D) TE4 | D8 |]
+A3G |\
+({G}F3E) (D3E) (F3G) | ({B}A3^G) (A3B) (c3A) |\
+(d3c) (d3e/f/) ({f}e3d) | (d4 {ed}c4) d3c |\
+{c}B4 (B3c/d/) ({e}d3c/B/) | A4 (F2A2) (d2A2) |\
+({c}B2A/G/) (F3D) TE4 | D8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

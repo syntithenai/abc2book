@@ -1,0 +1,47 @@
+X: 1
+T: Suomenmaa SATB
+M: 2+4/4
+K: C
+% dim/cres..endo symbols:
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+V:1 name="S" clef=treble   middle=B
+V:2 name="A" clef=treble   middle=B
+V:3 name="T" clef=bass     middle=d
+V:4 name="B" clef=bass     middle=d
+%%score (1 2) (3 4)
+%
+[V:1] [| "^mf"E4 | F2D2 E3F | (G2A>)F G2 zc |
+w: Maa kun-nas-ten ja laak-*so-jen, mi
+[V:2] [| E4 | F2D2 E3F | (G2A>)F G2 zc |
+[V:3] [| e4 | f2d2 e3f | (g2a)>f g2 zc' |
+[V:4] [| "_mf"e4 | f2d2 e3f | (g2a)>f g2 zc' |
+%
+[V:1] B2 G2 | G2F2 G3z | z2 "^p"B2 | e2 e4 | dc |
+w: on tuo kau-noi-nen? Tuo hoh-tees ke-s\"a-
+[V:2] B2 G2 | G2F2 G3z | z2 B2 | A2 A4 AG |
+[V:3] b2 g2 | g2f2 g3z | z2 g2 | f2 f4 fe |
+[V:4] b2 g2 | g2f2 g3z | z2 "_p"ed | c2(c2 =B2)ce |
+%
+[V:1] e3d d2B2 | f2 pf4 Ped |
+w: p\"ai-vi-en, two lois-tees poh-jan
+[V:2] ABc c B2B2 | c2(c2 =B2) cc
+[V:3] fga2 f2fg | a2 a4 aa |
+[V:4] cBA2 B2de | f2(f2 e2)fa |
+%
+[V:1] ec f2 | "^mf"g4 | g2f2 | f2e2 | pe2d2 ezP zf |
+w: tu-li-en, t\"a\"a tal-ven su-ven i-ha-ha mi
+[V:2] ec d2 | e4 d2d2 | c2c2 | =B2B2 Bz zc |
+[V:3] c'c' c'2 | b4 | a4 | _g4 | f4- fz zf |
+w:    ~ ~  ~     ~    i-ha-na ~ ~
+[V:4] c'ba2 | e4 | B4 | A4 =G4- Gz zA |
+
+%
+[V:1]
+w:
+[V:2]
+[V:3]
+[V:4]
+

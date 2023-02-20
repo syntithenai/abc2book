@@ -1,0 +1,33 @@
+X: 521
+T: Woodland Flowers
+C: Trad. arr. Bert Murray
+R: shottish
+B: Bert Murray's "Bon Accord Collection" 1999 p.52
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Bert labelled the parts with numbers rather than the usual letters.
+N: I changed the final part from "1" to "1'" to avoid confusion.
+P: Play 11 22 11 3 1'
+M: C
+L: 1/8
+K: G
+"1"[|]\
+((3uB,C^C) |\
+D>BA>G D>BA>G | (3E^DE A>c e4 | d>_dc>E B>AE>F | (3GBA (3GFE D2 ((3B,C^C) |
+D>BA>G D>BA>G | (3E^DE A>c e4 | d>_dc>E B>AE>F | G2G2 G2 :|[K:D]
+"2"\
+|: A2 |\
+(3fed A2 (3fed A2 | (3gfe B2 (3gfe B2 | c>A^G>A B2c2 | (3dfe (3dcB A2A2 |
+(3fed A2 (3fed A2 | (3gfe B2 (3gfe B2 |\
+"(Repeat part 1 before playing part 3)"\
+c>A^G>A B2c2 | d2d2 d2 :|
+"3"[|]\
+A2 |\
+F4 (G>F)G>^G | A2A2 d3c | B>^AB>c d2B2 | A6 ((3ABA) |
+G2e2 e3G | F2d2 d3c | B>^AB>c d>cd>f | e2A2 ^G2=G2 |
+F4 (G>F)G>^G | A2d2 d3c | B>^AB>c d2e2 | f6 (e>f) |
+g2B2 B2 ((3gag) | f2A2 A3d | B>^AB>d c>=c^c>e | d2d2 d2 ||[K:G]
+"1'"[|]\
+((3uB,C^C) |\
+D>BA>G D>BA>G | (3E^DE A>c e4 | d>_dc>E B>AE>F | (3GBA (3GFE D2 ((3B,C^C) |
+D>BA>G D>BA>G | (3E^DE A>c e4 | d>^cd>e f>de>f | g2g2 g2 |]

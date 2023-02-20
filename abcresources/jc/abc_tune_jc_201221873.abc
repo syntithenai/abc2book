@@ -1,0 +1,38 @@
+X: 0521
+T: the Fairy Dance
+%R: reel
+M: 2/4
+L: 1/8
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1808, No. 5 p.2
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances5
+K: D
+%%sysstaffsep 35
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+|:\
+f2fd | f2fd | f2fd | ceA2 |\
+f2fd | (gf)ed | cABc | d2d2 :|\
+a2af | b2ba | g2ge | a2ag |
+f2fd | B2ge | cABc | d2d2 |\
+a2af | b2ba | g2g2 | a2ag |\
+f2fd | B2ge | cABc | d2d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+[f2d2]a2 | [f2d2]a2 | [f2d2]a2 | [e2A2]a2 |\
+[f2d2]a2 | e2g2 | a2A2 | d2D2 :|\
+"_dim. . ."(f'2e'2 | ^d'2b2) | "_dim. . ."(e'2=d'2 |
+c'2a2) | (d'2b2 | g2e2) | a2A2 | d2D2 |\
+dafa | "^fz"^db"_dim ..."fb | ebgb | "^fz"ca"_dim ..."ea | dafa |
+ge'be' | ag'e'g' | [f'2d'2][f'2d'2] |]
+%ge'be' |[K:clef=treble] A,GEG | [F2D2][F2D2] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands 3 on the Gentlemans side,
+%% the same on the Ladys side,
+%% down the middle
+%% up again and All'mand.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

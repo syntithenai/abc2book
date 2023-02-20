@@ -1,0 +1,56 @@
+X: 0
+T: The Garry Strathspey
+T: 4x32S4
+O: James Cosh
+N: Dedicated to Garry Blair, son of band leader Jimmy Blair
+%P: AA-BB-A-CC-A
+B: Mozart Allan Leaflet
+K:
+
+X: 1
+P: The Jigtime Polka (schottische)
+C:George Keenan & Jimmy Blair
+M:C
+L:1/8
+S:C. Duncan
+N:4 x 32 bar strathspey
+Z:Tim Barker, '97
+Z:transcribed for Burns Dinner Jan 98
+%%staffsep 48
+%P: AA-BB-A-CC-A
+K:G
+"A"\
+|: (3Bc^c \
+| "G"d>B d>e d>B d>e | "G"d>e f>g b2 a>g \
+| "G"d2 e>f a2 g>e | "D7"g2 f2 f2 (3A^AB |
+| "Am"c>A c>d c>A c>d | "D7"c>d e>f a2 g>e \
+| "D7"g2 f>d f2 e>c | "Gdim"[e2^A2]"G"[d2B2]"G"[d2B2](3Bc^c |]
+[| "G"d>B d>e d>B d>e | "G"d>e f>g b2 a>g \
+| "G"d2 e>f "G7"a2 g>b | "C"a2e2 e2 z2 |
+| "Am"c'2 c'>b a>e ^de | "G"b2 b>a g>d ^c>d \
+| "D7"f2 A>B c>d e>f | "G"g2b2 "fine"g2 :|[K:D]
+%%sep 5 5 100
+K:D
+"B"\
+|: z2 \
+| "D"a2 f>d A>d f>a | "Em"(3gag e2 (3GAG E2 \
+| "A7"g2 e>c A>c e>g | "D"(3aba f2 (3ABA F2 |
+| "D"a2 f>d A>d f>a | "Em"(3gag e2 (3GAG E2 \
+| "E7"e2 ^gf e>d c>B | "A7"A2 e>f =g>e f>g |]
+[| "D"a2 f>d A>d f>a | "Em"(3gag e2 (3GAG E2 \
+| "A7"g2 e>c A>c e>g | "D"(3aba f2 (3ABA F2 |
+| "D"a2 f>d A>d f>a | "Em"(3gag e>f g>e f>g \
+| "A7"a2 b>a g>A c>e | "D"d6 "->A":|
+%%sep 5 5 100
+K:C
+"C"\
+|: (3^cd^d \
+| "C"e4-e>G c>e | "C"a2-g z "A7"f2-e z \
+| "D7"e>d ^c>d e>d c>d | "D7"A4-A>d c>A |
+| "G7"B>c ^c>d b2 a2 | "C"c>d ^d>e a2 g2 \
+| "D7"d>e ^f>g a>f e>d | "G7"g2 b>a g>=f d>^d |]
+[| "C"e4-e>G c>e | "C"a2-g z "A7"f2-e z \
+| "D7"e>d ^c>d e>d c>d | "D7"A4-A>d c>A |
+| "G"B>c ^c>d b2 a2 | "C"c>d ^d>e a2 g2 \
+| "G7"B>c d>e f>g a>b | "C"c'2c'2 c'2 "d.C."[|]:|
+

@@ -1,0 +1,19 @@
+X: 20411
+T: LIVERPOOL HORNPIPE
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" 1843 p.41 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added initial rest to 2nd strain to fix the rhythm.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+FDFA dfaf | gefd dcBA | GBGB FAFA | EFGA GFED |\
+FDFA dfaf | gefd dcBA | afdf gecA | d2d2d2 :|
+|: z2 |\
+dfdf cece | BdBd BAGF | GBGB FAFA | EFGA GFED |\
+FDFA dfaf | gefd dcBA | afdf gecA | d2d2d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

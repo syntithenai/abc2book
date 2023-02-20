@@ -1,0 +1,15 @@
+X: 234
+T: Saturday Night   #2
+R: jig
+%S: s:2 b:16(8+8)
+B: O'Neill's 1850 #234
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+Q: "With spirit"
+N: Compacted by using labels and play order [JC]
+P: Play AB CB
+M: 6/8
+L: 1/8
+K: G
+"^A"[|] G/B/ | de=f edB | AGG G2B | def gag | =fdB c2 |]
+"^B"[| B/c/ | def gag | =fdB c2B/c/ | de=f edB | AGG G2 H|]
+"^C"[| B | BGB gag | =fdB c2B/c/ | de=f edB | BAG "^->B"A2 |]

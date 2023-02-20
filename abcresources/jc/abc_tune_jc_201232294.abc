@@ -1,0 +1,30 @@
+X: 16
+T: the Bubble
+%R: hornpipe, reel
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.8 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+N: The right edge is fuzzy; repeats added to match the "Each strain repeated" instruction.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+f>FA>c f>FA>c | f>ag>f e>fg^f |\
+g>GB>d g>GB>d | g>ba>g a>gf2 :|
+|:\
+a>ga>f g>fg>e | f>ag>f e>dc>B |\
+d>ef>d | c>ef>c | B>dc>B A>GF2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Each strain repeated)
+%%begintext align
+%% Swing with right hands round 2 Cu: |: cross over one
+%% Cu: half figure round the top Cu: & turn |: .
+%%endtext
+%%text DOUBLE FIGURE (Tune play'd twice thro' with repeats)
+%%begintext align
+%% 1st Gent: turns the 3d Lady 1st Lady turns the 3d Gent: |:
+%% chace round one Cu: & back again |: set & change places
+%% with the 2d Cu: & whole figure contrary corners |: .
+%%endtext

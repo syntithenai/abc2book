@@ -1,0 +1,17 @@
+X: 1
+T: the Blue Crab Hornpipe
+C: Dave Wiesler 2006
+R: hornpipe
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+FE \
+| "G"DGBG DGBG | DGBG "C"c3B | "Am"A2cB "A7"ABAG \
+| "D"F2D2 "D7"D3E | "G"DGBG DGBG | DGBG "C"c2Bc |
+| "G"dgfe "D7"dcBA  | "G"G2B2 G2 |: FE | "D"D2F/E/D AD F/E/D \
+| AGAB c3B | "Am"A2 c/B/A eA c/B/A | edef g3f |
+| "C"egge "G/B"dgg2 | "Am"cece "G"BddB | "C"c2ed "Am"cBAG \
+|1 "D"F2D2 D2 :|2 "D"F2D2 gfga || "G"b3a gagf |
+| "C"e2c2 c4 | "Am"c'3a "A7"eaag | "D"f2d2 d3d \
+| "C"efge "G/B"dgg2 | "Am"caca "G"Bgg2 | "Am"ABcd "D7"edef | "G"g2G2 G2 |]

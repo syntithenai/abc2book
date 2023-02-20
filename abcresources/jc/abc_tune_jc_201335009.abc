@@ -1,0 +1,80 @@
+%%composerspace 30pt
+X: 1
+T: Waltzes
+T: 
+P: Ye Banks and Braes
+C: Robert Burns song
+C: Kevin Briggs/ Nottingham Music Database
+M: 3/4
+R: waltz
+L: 1/4
+K:G
+D | "G"G2G | "D7/e"A3/G/A | "G/f+"BdB | "D7/e"A3/G/A | "G"B3/A/G | "C"GED | "Am"DEG | "D7"A2D |
+ "G"G2G | "D7/e"A3/G/A | "G/f+"BdB |"D7/e"A3/G/A | "G"B3/A/G | "C"GED | "D7"DEG | "G"G2B ||
+ "G"d2"C"e |"G"dBG | "G"d2"C"e | "G"dBG | "G"dBG | "G"dBG | "Am"ed/c/B |"D7"A2D |
+ "G"G2G | "D7/e"A3/G/A | "G/f+"BdB | "D7/e"A3/G/A | "G"B3/A/G |"C"GED | "D7"DEG | "G"G2 ||
+
+X: 1
+P: Skye Boat Song
+M: 3/4
+L: 1/4
+K: G
+|: "G(D7)"D>ED | "G"G3 | "Am"A>BA | "D7"d3 \
+| "G"B>AB |\
+[1 "C"E2E | "G"D3- | "D7"D3 :|\
+[2 "C"E2"D7"F | "G"G3- | "fine"G3 ||
+|: "Em"B>GB | B3 | "Am"A>EA | A3 \
+|  "Em"G>EG | G>AG | "C"E3- | "da Capo"E3 :|
+
+X: 1
+P: Morag's Waltz
+C: by Tom Anderson
+C: as played by Buddy MacMaster "Glencoe Hall"
+C: arr. Terry Traub 8-17-07
+R: Waltz
+M: 3/4
+K: D
+L: 1/4
+|: A/G/|"D"F2 D|"Em"G2 E|"A"A B c|"D"d2 F|"G"G2 B|"D"A2 F|"G"A G F|"A"E2 A/G/|
+"D"F2 D|"Em"G2 E|"A"A B c|"Bm"d2 F|"G"G B e|"A"A c e|"D"d3-|[1 d2 :| [2 d c d ||
+"A"e2 c|A2 a/g/|"D"f2 e|d2 f|"G"g2 B|"E"e2 d|"A"c e c|"A7"A2 A/G/|
+"D"F A d|f d A|"G"G B e|"A"c2 A|"G"B<G e/d/|"A"c<A f/e/|"D"d3-| [1 d c d :| [2 d3 |]
+
+X: 1
+P: My Home
+O: Trad Scotland
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+R: waltz
+K: Amaj
+ed \
+| "A"c3 B c2 | A2 c2 e2 | "D"a3 g f2 | "E7"e4 d2 | "A"c3 B c2 | "F#m"A3  B c2 | "Bm"d3 c d2 | "E7"B4 ed |
+| "A"c3 B c2 | A2 c2 e2 | "D"a3 g f2 | "E7"e4 d2 | "A"c A3 c2 |   "G"B =G3 B2 |  "A"A3 B A2 |     A4   |]
+e2 \
+| "A"A3 B c2 | c3 B c2 |    e3 d c2 |"(F#m)"c4 e2 | "Bm"d3 c d2 | "E7"B3  c d2 | "A"e3 c A2 | A4 e2 |
+| "D"f3 d f2 | a3 g f2 | "A"e3 d c2 |    "D"a4 d2 |  "A"c A3 c2 |  "G"B =G3 B2 | "A"A3 B A2 | A4   |]
+
+X: 1
+P: Westering Home
+C: Scotland
+C: as sung by Bill McCue with Jimmy Shand and White Heather Club (Youtube)
+M: 3/4
+L: 1/4
+K: G
+FE|"G"D>D D|"G"DB,D|"Em"G G "D"A|"G"B3|"C"c>B A|"G"B>A G|"Am"E E>D|"D"D3|
+"G"D>D D|"G"DB,D|"Em"G G "D"A|"G"B3|"G"d>B G|"D"B B A |"G"G3|"G"G3||
+"G"d B G|"Em"G>A B|"Am"A>BA|"D"D3|"G"DEF|"Em"GA>B|"Am"c >Bc|"D"A3|
+"G"d>B G|"Em"G>A B|"Am"A>BA|"D"D2 c|"G"BAG|"D"B2 A|"C"G3|"G"G3 |]
+
+X: 1
+P: Caol Muile (Gaelic waltz)
+C: as played by Robbie Robertson, Youtube
+C: arr. T. Traub 12-10-2011
+R: Waltz
+M: 3/4
+K: D
+L: 1/4
+|: A/A/|"D"A F A/-A/|"D"A2 A/A/|"G"B A F|"D"A2 A|"G"B A B|"Bm"d2 F/F/|"Em"E3-|"A"E2 D/E/|
+"Bm"F F F|"Bm"F2 E|"G"D D B,|"G"D2 D/E/|"D"F A F|"A"E2 F/E/|"D"D3-|"D"D2 :|
+

@@ -1,0 +1,33 @@
+X: 1
+T: Stures 80-\aars l\aat
+C: av. Hasse Gille
+R: g\aangl\aat, march
+S: Fiddle Hell Online 2022-4-2 handout for Swedish Jam led by Bronwyn Bird and Justin Nawn
+M: 2/4
+L: 1/16
+P: 3 Nyckelharpor
+N: Compacted from the original, which had the repeats written out.
+K: C
+% %continueall
+% = = = = = = = = = =
+V: 1 staves=3
+(G/F/E/D/ |\
+C2)C2 CDEF | G2c2 e3c | d2(dB) (GB)d2 | dcge c2y :::||: (c/d/e |\
+f2)f2 (fg)ab | c'2b2 {c'b}a4 |
+g2g2 ( ga)gf | Te6 c2 | (dc)de f2fe |\
+(de)dc (B3A) | G2(Bd) (dG)(Bd) | (dc)ge c2 :|
+% = = = = = = = = = =
+V: 2 clef=treble
+C/D/E/F/ |\
+G2G2 GFED | C2C2 C3C | B,2DG B,2DG | GFED C2y :::||: C/D/E |\
+F2F2 FGAB | c2B2 {cB}A4 | e2e2 efed | Tc6 c2 | BABc d2dc |
+BcBA G3F | "^1)"D2DB, G,B,DF | GFED C2 :|
+% = = = = = = = = = =
+V: 3 clef=treble
+z2 |\
+C,2[cE][cE] z2[cE]z | C,2[cE][cE] z2[cE]z | G,2[BD][BD] z2[BD]z | [BD][cE][c2E2] [c2E2]y :::||: z2 |\
+A,2[A2F2] A,3[AF] | C2[A2F2] C3[AF] | [E2G,2][EG,][EG,] [E2G,2][D2B,2] | [E6C6] [C2E,] | G,DBD G,DdD |
+G,DBD G,DdD | [B2D2][BD][BD] [B2D2][B2D2] | [BD][cE][c2E2] [c2E2] :|
+% = = = = = = = = = =
+P: 1) last 2 bars hand-edited, originally:
+y16 | D2D2 D2DE |1 DCC2 C2C/D/E :| y16 y16 y16 y16 y16

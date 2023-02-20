@@ -1,0 +1,29 @@
+X:0903
+T:The Duchess of Atholl's Slipper
+P:The Duchess of Atholl's Slipper
+C:Niel Gow, 1788
+R:Strathspey (8x32)
+B:RSCDS 9-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+V:1
+K:G
+%%staves (1 2)
+V:1
+G|"G"D>G B>G d>B G>B|D>G B>G "Am"E<A "D"A>B|\
+  "G"D>G B>G d>B B<g|"D7"{e}d>c B>A "G"G<G G G|
+  "G"D>G B>G d>B G>B|D>G B>G "Am"E<A "D"A>B|\
+  "G"D>G B>G d>B B<g|"D7"{e}d>c B>A "G"G<G G||
+x|x8|x8|x8|x8|x8|x8|x8|x7||
+%
+[V:1] g|"G"d<g g2 d>g b>g|"Am"a>g "A"b>g "D7"e<a a2|\
+[V:1]   "G"d<g g2 d>g b>g|"Am"a>g "D7"b>g "G"d<g g2|
+%
+[V:1]  "G"d>g g2 d>g b>g|"Am"a>g "A"b>g "D7"e<a a2|\
+[V:1]   "G"g<b "C"e<g "G/B"d<g B<g|"D7"d>c B>A "G"G<G G|]
+%V:2
+%[V:2] x|x8               |x8                       |\
+%[V:2]      B4     B4     |    e2      d2     B4    |
+%[V:2]  x8               |x8                       |\
+%[V:2]      B2     c2       G2  G2 |    x7              |]

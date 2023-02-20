@@ -1,0 +1,43 @@
+
+X: 1
+T: Livet i Finnskogarna
+T: Life in the Finnish Woods
+C: Karl Jularbo (1893-1966)
+B: published in "Jularbos B\"asta" (1938) in Sweden
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Original tune for the US song "Mockingbird Hill"
+R: waltz
+M: 3/4
+L: 1/8
+K: D
+"^A"|: GFE \
+| "D"D3FAd | f3dAF | "G"G3Bdg | "Em"b6 | "A7"a3gec | A3ceg | "D"f3dAF | D3GFE |
+| "D"D3FAd | f3dAF | "G"G3Bdg | "Em"b6 | "A7"a3gec | A3gec | "D"d3 d d2 | "fine"d3 :|
+"^B"|: FAd \
+| "D"f3ff2 | "D7"g2f2e2 | "G"d4B2 | "D"A4a2 | "A7"a3gec | A3ceg | "D"f3dAF | D3FAd |
+| "D"f3ff2 | "D7"g2f2e2 | "G"d4B2 | "D"A4a2 | "A7"a3gec | A3gec | "D"d3 d d2 | d3 :| [K:G]
+"^C"|: "D7"d^c=c \
+| "G"B3BB2 | B2A2G2 | "D7"F4d2 | c6 | d3dd2 | c2B2A2 | "G"g2f2e2 | "D7"[dd]edcBA |
+| "G"B3BB2 | B2A2G2 | "D7"F4d2 | c6 | d3dd2 | c2B2A2 | "G"G3GG2 | G3 :|
+
+
+X: 1
+T: Livet i Finnskogarna
+T: Life in the Finnish Woods
+C: Karl Jularbo (1893-1966)
+B: published in "Jularbos B\"asta" (1938) in Sweden
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Original tune for the US song "Mockingbird Hill"
+R: waltz
+M: 3/4
+L: 1/8
+K: G
+"^A"|: B,DB, \
+| "G"G,3B,DG | B3GDB, | "C"C3EGc | "Am"e6 | "D7"d3cAF | D3FAc | "G"B3GDB, | G,3B,DB, |
+| "G"G,3B,DG | B3GDB, | "C"C3EGc | "Am"e6 | "D7"d3cAF | D3cAF | G2{AG}FG BA | "G fine"G3 :|
+"^B"|: B,DG \
+| "G"B3BB2 | "G7"c2B2A2 | "C"G4E2 | "G"D4d2 | "D7"d3cAF | D3FAc | "G"B3GDB, | G,3B,DG |
+| "G"B3BB2 | "G7"c2B2A2 | "C"G4E2 | "G"D4d2 | "D7"d3cAF | D3cAF | G2{AG}FG BA | "G"G3 :| [K:C]
+"^C"|: "G7"G^F=F \
+| "C"E3EE2 | E2D2C2 | "G7"B,4G2 | F6 | G3GG2 | F2E2D2 | "C"c2B2A2 | "G7"[GG]AGFED |
+| "C"E3EE2 | E2D2C2 | "G7"B,4G2 | F6 | G3GG2 | F2E2D2 | "C"C3CC2 | C3 :|

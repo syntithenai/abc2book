@@ -1,0 +1,21 @@
+X:1
+T:Star Spangled Banner
+C:Francis Scott Key
+M:3/4
+Q:1/4=100
+L:1/4
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+(A/>F/|D) F A|d2 f/>e/|d F ^G| A2 A/>A/|f>e d|c2 B/c/|d d A|F D:|
+f/>f/|f g a|a2 g/f/|e f g|g2 g|f>e d|c>B c|d F ^G|A2
+A/A/|d d d/c/|B B B|e (g/f/) (e/d/)|Hd Hc A/>A/|d>e f/>g/|Ha2 d/>e/|f>g e|d2|]
+%%titleleft
+P:2nd Fife
+(A/>F/|D) F A|d2 A/G/|F F E|E2 A/>A/|A>A A|A2 G/G/|F d A|F D|
+ A/>F/|D  F E|F2 A/G/|F F E|E2 A/>A/|A>A A|A2 G/G/|F d A|F D|
+ d/>d/|d e f|f2 e/d/|c d e|e2 e|d>c d|A>A A|A F E|E2
+A/A/|F F A|G G A|G B B|HA2 A/>A/|A>c d/>e/|Hf2 A/>^G/|A>A =G|F2|]

@@ -1,0 +1,28 @@
+X: 20921
+T: Lude's Supper
+%R: air,waltz; shottish,strathspey
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.92 #1 (and 1 staff on p.93)
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Rest added to 1st strain to fix the rhythms.
+M: 3/4
+L: 1/8
+K: G
+|:"_Slow"\
+B3ABA | G2E4 | E3DED | B,2A,4 |\
+{B2}A4G2 | E3GA2 | TB3AG2 | B2A2(G<E) |\
+G4(A<G) | A6 | B3A BG | B2d4 |
+A4A2 | (B2d2)e2 | {B2}A4G2 | G4g2 |\
+e4d2 | B2d2e2 | (g2e2)d2 | g2e4 |\
+{e2}d4B2 | {B}A3GAB | d3e dB | d2g4 |
+e3f ed | e2g4 | d3edB | {B2}A4G2 |\
+G4G2 | TA3Bd2 | (B2A2)G2 | E4(DB,) |\
+D4(ED) | E6 | G3ABA | B2d4 |
+A4d2 | B3AG2 | E4B2 | A3Bd2 |\
+G3AGF | G3AB2 | E2G2D2 | E3DB,2 |\
+(D2E2)G2 | (E2D2)B2 | B,6 | A,4 z2 :|
+M: C
+|:"_Moderately Quick"\
+B>dB>A (G2E2) | E>GE>D B,2A,2 | A>BA>G E>GA>E | G>EG>A TB2A2 | G>EG2 A>GA2 | B>dB>A G>AB>G |
+A>GA>B d>eg>B | A>BA>G G2g2 | e>ge>d B>de>B | d>Bd>e g2e2 | d>ed>B A>GA>B | d>Bd>e d2g2 |
+e>de>f e2g2 | d>ed>B A2G2 | G2G2 A>Bd>A | B>AB>G TE2D2 | D>B,D2 E>DE2 | G2G2 A>Bd>B |
+A2d2 B>GB>G | E2B2 A>Bd>A | G>FG>A G>AB>A | E>DE>G E>DE>B, | D>EG>A B>ba>g | TB4 A4 :|

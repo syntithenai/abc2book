@@ -1,0 +1,23 @@
+X: 20192
+T: PARTANT POUR LA SYRIE
+%R: march
+B: "Edinburgh Repository of Music" v.2 p.19 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Flag added to the c in bar 18 to fix the rhythm.
+M: C
+L: 1/8
+K: D
+%%slurgraces
+%%graceslurs
+A2 |\
+A3A B2c2 | d2{edc}d>e c2zc |\
+d3A F2A2 | E4 z2A2 |\
+^G3G A2B2 | c3B A2A2 |\
+B2F2 ^G2 A>B | A4 z2A2 |\
+=G2A2 F2A2 | E3F E2A2 |
+G2A2 F2A2 | E4 z2(AG) |\
+F3G (AB)(cd) | e3c A2zA |\
+d3c A2d>e | d4 z2(AG) |\
+F3G (AB)(cd) | e3c A2zA |\
+d3B A>G F>E | D6 |]

@@ -1,0 +1,24 @@
+X: 1
+%T: 月亮代表我的心
+T: Y\`ueliang d\`aibi\vao w\vode x\=in
+T: The Moon Mirrors My Heart
+%T: The Moon Represents My Heart
+%C: Words: S\=un Y\'i 1973 % (孙仪)
+C: Music: Tang Ni 1973 % (汤尼)
+F: http://hunanmifen.blogspot.com/2006/08/piano-music-sheet-moon-represent-my.html
+M: 4/4
+L: 1/8
+K: A
+%%staffsep 40
+E2 \
+| "A"A3 c e3 A | "C#m"G3 c e3 e | "D"f3 g a2 f2 | "A"e4 "E7"z2 cB \
+| "A"A3 A A2 cB | "D"A3 A A2 Bc | "B7" B3 A F2 c2 | "E7"B6 ||
+E2 \
+| "A"A3 c e3 A | "C#m"G3 c e3 e | "D"f3 g a3 f | "A"e4 "E7"z2 cB \
+| "F#m"A3 A A2 cB | "D"A3 A A2 Bc | "B(m)" B3 F "E7"G2 AB | "A"A4 z2 |]
+(ce) \
+| "A"c3 B "(F#m)"A2 e2 | "C#m"G6 FG | "D"F3 G "E7"F2 E2 | "A"c4 "E7"z2 e2 \
+| "A"c3 B "F#m"A2 e2 | "C#m"G6 FG | "B7"A3 F A2 Bc | "E7"B4 z2 ||
+E2 \
+| "A"A3 c e3 A | "C#m"G3 c e3 e | "D"f3 g a3 f | "A"e6 "E7"cB \
+| "F#m"A3 A A2 cB | "D"A3 A A2 Bc | "B(m)" B3 F "E7"G2 AB | "A"A4 z2 |]

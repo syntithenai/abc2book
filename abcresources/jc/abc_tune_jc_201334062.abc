@@ -1,0 +1,12 @@
+X: 1
+T: Sarajevko Kolo    [A]
+O: Bosnia
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+P: slow:
+"A"|: "A"c2e2 e^de2 | "E7"Bcd2 dcBA |1 Bcd2 "B7"cBcA | "E"B4 "E7"e4 :|2 "D"{de}f2e2 "B7"dcBA | "E"B8 |]
+P: faster:
+"B"|: "E"e2"B"f2 "E"g4 | "E"ga"B"fg "E"e4 | "Em"b2^ab "F#7"a=gfe |1 "B"f8 :|2 "B"f4 "E"g4 |]
+"C"|: "D"a3b a=gfe | fd"A"e2 dcBA |1 "E"Bcd2 "A"cBcA | "E"B4 "G"b4 :|2 "E"Bcd2 "B7"cBcA | "E"B2B2 B2Hz2 |]

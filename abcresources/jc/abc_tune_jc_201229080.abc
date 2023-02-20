@@ -1,0 +1,76 @@
+X: 11
+T: Aimons toujours
+%R: march, reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #11
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+Bc |\
+{B}A3B | G2AG | FGcB | A2Bc |\
+{B}A3B | G2AG | FG B/A/G/F/ | G2 :|\
+|: Bc |\
+d2ed | {d}c3B | AGFG | {G}A2Bc |
+d2ed | {d}c3B | AGcB | A2Bc |\
+{B}A3B | G2AG | FGcB | A2Bc |\
+{B}A3B | G2AG | FG B/A/G/F/ | G2 :| [K:Gm]
+|: "Mineur"Bc |\
+d2ec | d2cB | AG^FG | AD Bc |\
+d2ec | dgdc | {c}BA/G/ B/A/G/^F/ | G2 :|\
+|: df |\
+{f}e2ce | {e}d2fB | ABed | {d}c2f_A |
+Ge =Af | Bbce | dgfA | B2=Bd |\
+ceAc | BdGB | AcAG | {G}^F2Bc |\
+d2ec | dgdc | {c}BA/G/ B/A/G/^F/ | G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+gc |\
+dd'dg | e2c2 | dBAG | d2gc | dd'dg | e2c2 | dgdD |
+G2 :||: ga | bgc'b | afdg | cBAG | d2ga | bgc'b | afdg | cBAG |
+d2gc | dd'dg | e2c2 | dBAG | d2gc | dd'dg | e2c2 | dgdD | G2 :| [K:Gm]
+|: "Mineur" g2 |\
+g2g2 | gbag | c'bag | dcBA | G2g2 | G2Bc | d2D2 |
+G2 :||: =bg | c'2af | b2d2 | cBAB | f2d2 | e2f2 | g2a2 | befF |
+Bdgf | ecfe | dBed | cAce | dcBA | G2g2 | G2Bc | d2D2 | G2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Aimons toujours
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first and second Ladies Chass\'e Cross and
+%% Rigaudon, then Chass\'e back to their places, while
+%% the third and fourth Ladies do the same, each
+%% Gentleman taking his Partner by the Left
+%% hand goes Round with her in Form of the
+%% Allemande - - - - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   Balanc\'e and Rigaudon, then Allemande with
+%% the Ladies on the Left - - 1/1
+%%endtext
+%%begintext align
+%%   Balanc\'e and Rigaudon, then Allemande with
+%% your Partner - - - 1/1
+%%endtext
+%%begintext align
+%%   The first and third Couple meet in the
+%% middle, all Balanc\'e and Rigaudon in two Lines,
+%% the first and third Couple Moulinet to the Right,
+%% while the second and fourth Couple Allemande
+%% to the Right and Left - - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%%sep 1 1 400

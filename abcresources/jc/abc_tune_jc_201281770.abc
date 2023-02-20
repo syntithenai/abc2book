@@ -1,0 +1,20 @@
+X: 873
+T: the Golden Vale
+R: hornpipe
+%S: s:2 b:16(8+8)
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #873
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0873/oneill-1001-0873-1.abc
+%m: ~n2 = o/4n/m/4n
+M: C|
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+(3(ABc) \
+| (3ddd d>A B>G ~G2 | F>GA>c B>G~G2 | {a}g2 g>f e>dc>d | (3(efe) (3(dcB) A>B({d}cA) ||
+| (3ddd d>A B>G ~G2 | F>GA>c B>GG2 | A>fe>f g>ec>d | e>d({e}dc) d2 :|
+"^B"\
+|: (fg) | a>fd>f g>fe>d | (3(efe) d>B A>GF>G | A>fe>f g>fe>d | (3(Bcd) e>f e2 ||
+|   f>g | a>fd>f g>fe>d | (3efe d>B A>GF>G | A>fe>f g>ec>d | e>d({e}dc) d2 :|

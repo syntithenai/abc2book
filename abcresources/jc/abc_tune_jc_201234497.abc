@@ -1,0 +1,24 @@
+X: 20553
+T: HER ABSENCE WILL NOT ALTER ME.
+Q: "Slow and expressive."
+%R: air, march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.55 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(GA) |\
+B2(AG) g3e | (dB)(AG) E2(DE) |\
+(GA)(Bc) (deg)G | E2(G>A) G2(GA) |\
+B2(AG) g3e | (dB)(AG) E2(DE) |\
+(GA)(Bc) (d3/e//f// g)G | E2G>{B}A G2 |]
+(gf) |\
+e3d (ef)(ga) | (b>ag)e d3d |\
+(g>ab)a (b>ag)e | g2(d>e) d2(ga) |\
+(bag)e g3e | (d<B)(A>G) E2(DE) |\
+(GA)(Bc) (d3/e//f//) gG | E2G>{B}A G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

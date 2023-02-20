@@ -1,0 +1,29 @@
+X: 1
+T: Count Tallard
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.82
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the "Each strain twice" instructions.
+M: 6/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+GEG GEG | c3 B2A | GEF D2C | D3- D2EF |\
+GEG GEG | c3 d3 | e/f/ge dBG c3- c2 :|
+|: g |\
+geg gee | g3 g>fe | d>ed dBG | d3 dcB |\
+ABc GFE | FGA D2B | cEF D2C | C3- C2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain is to be play'd twice over.
+%%begintext align
+%% The 1. man cast off behind the 2. man into the 2. wo. place, the 2. wo. casting up the same time on
+%% the out-side of the 1. wo. into the 1. man's place; the 1. wo. cast round her own partner into the 2.
+%% man's place, and the 2. man cast up round his own partner into the 1. wo. place .| Then the 1. cu.
+%% half Figure, and the 2. cu. half Figure :| Then hands half round, and right and left half round; then
+%% lead through the 3. cu. and cast up and lead through the 2. cu. and cast off.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

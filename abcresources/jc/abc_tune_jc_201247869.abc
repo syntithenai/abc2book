@@ -1,0 +1,22 @@
+X: 1
+T: Arthur Gillies
+C: PM Iain M. Morrison
+R: hornpipe
+S: BSFC workshop with Alasdair White 2022-5-16
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+%%continueall
+"^A"[|] a2 |\
+fABd edde | f2af edde | fA A/A/A edde | faaf e2a2 ||\
+fABd edde | f2af edde | B2dA BAAB | effe [1 d2 :|[2 d4 ||
+"^B"|:\
+f2af e2fA | B2dA BAAB | dABd edde | fAaf e4 ||\
+f2af e2fA | B2dA BAAB | d2ed BAAB | effe d4 :|
+"^C"|:\
+B4 BddA | B2dA BAAB | ddde f2de | f2af e4 ||\
+B4 BddA | B2dA BAAB | d2ed BAAB | effe [1 d4 :|[2 d3f ||
+"^D"|:\
+a/a/a af eddf | fABd BAAf | a/a/a af edde | fAaf e3f ||\
+a/a/a af eddf | aABd BAAB | d2ed BAAB | effe d4 :|

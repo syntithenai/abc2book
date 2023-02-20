@@ -1,0 +1,10 @@
+X:1
+T:TEST: Voice defined in header
+%%staffwidth 200
+V:1 nm="S"
+V:2 nm="A"
+K:C
+V:1
+[| EFGA Bcde | edcB AGFE |]
+V:2
+[| CDEF GABc | cBAG FEDC |]

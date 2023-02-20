@@ -1,0 +1,59 @@
+%%text RJ Set 073 Reels
+
+
+X: 1
+T: Jimmy in the Swamp
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: G
+|:\
+"G"DEGA BAGA | Bded efg2 |\
+DEGA BAGA | "C"B2AG "D"EFGE |\
+"G"DEGA BAGA | Bded efga | "Em"b2ag "C"efge |
+[1 "D"dBAF "G"G3E :|[2 "D"dBAF "G"GABd |:\
+"Em"e3d B2Bd | efed B2gf | e2E2- [1,3 EFGA |\
+"Bm"B2AF "Em"GFE2 :|[2,4 "C"EFGA | "D"BGAF "G"G4 :|
+
+
+X: 2
+T: Kansas City
+I: RJ R-152 A reel
+R: reel
+Z: transcribed to ABC by Debby Knight
+M: C|
+L: 1/8
+K: A
+% begintext ragged
+%  The first time, play quarter notes instead of the pairs of eighth notes in the first measure. Make them loud.
+% endtext
+cB |\
+"A"A-AcB A-AcB | Aceg aega | "E7"bgeg fecd | ecef ecBc |\
+"A"A2cB A2cB |
+Aceg aega | "E7"bgeg fecd | "A"ecB2 A2 :: cd |\
+"A"e3e e3=g | fecd ecBA |
+"G"B3c B2=g2- | =gfeg fecA |\
+"A"e3f e2e=g | fecd ecBA | "E7"Bege fefg | "A"ga2g a2 :|
+% text 06/16/07
+
+
+X: 3
+T: Old Bell Cow
+N: RJ R-153
+R: reel
+Z: transcribed to ABC by Debby Knight
+M: C|
+L: 1/8
+K: Amix
+"A"A=cAG EGED | CA,2CA,3A, |\
+A,B,CE A2AG | "D"FD2F D3A- ||\
+"A"A=cAG EGED | CA,2C A,2CB, |
+A,B,CE AEAG | [1 "D"FD2E D3A-:|[2 "D"FD2E D4 ::\
+"A"e3f e2ed | cdef e2A2 | "G"d2d2 BAGB |
+dBd=c BG3 ||\
+"A"e3f e2ed | cdef efef | "G"gfgf efed | "A"cABc A4 :|\
+ E4 ^C4 | A,4 |]
+%[" Occasionally replace the first two measures with:"\
+%.A4.E4 | .^C4.A,4 |
+% text 05/22/10
+

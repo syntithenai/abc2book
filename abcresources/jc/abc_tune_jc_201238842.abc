@@ -1,0 +1,17 @@
+X: 3141
+T: Mrs CHRISTIE
+Q: "Strathspey."
+R: Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.3 p.17 #141
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed.
+M: C
+L: 1/16
+K: Am
+(ucd) |\
+eA3 e3c eA3 A2(cd) | eA3 e3c dG3 G2(cd) |\
+eA3 e3c eA3 e3c | Bg3 dg3 BG3 G2 :|
+|: B2 |\
+(Aa3) (gab2) ac3 e3c | (Aa3) (gab2) gd3 d3B |\
+(Aa3) (gab2) a^f3 g3e | f3de3c dG3 G2 |]

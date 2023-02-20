@@ -1,0 +1,36 @@
+X: 10
+T: the Siege of Acre
+%R: march, reel
+B: Thompson "A Favourite Collection of Country Dances 1800", p.10
+F: https://deriv.nls.uk/dcn23/1205/2168/120521683.23.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed to match the D.C. and the dance.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for a US-letter/A4 page size.
+V: 1
+F2 |\
+A2F2 B2G2 | c2A2F2f2 | d2B2G2c2 | A3G F2FG |\
+A2F2 B2G2 | c2A2 F2f2 | d2B2 G2B2 | F6 H:|
+FG |\
+A2c2 G2B2 | A2F2G2E2 | F2A2E2G2 | F2D2E2C2 |\
+D2F2E2G2 | F2A2G2B2 | A2c2=B2d2 | Tc6 "_D.C."|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=D
+z2 |\
+FcAc EcGc | FcAc FcAc | DBFB EcGc | FcAc FcAc |\
+FcAc EcGc | FcAc FcAc | B,FDF CGEG |
+F6 H:| z2 |\
+FcAc EcGc | FcAc GcBc | FcAc EcGc | DGFG CGEG |\
+B,FDF CGEG | CAFA DBGB | FcAc Gd=Bd | c6 "^D.C."|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Turn your Partner with the right hand and left .|
+%% lead down the middle up again .|.
+%% cast off .|.
+%% hands 6 round :|:
+%%endtext
+%%sep 2 2 400

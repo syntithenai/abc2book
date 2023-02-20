@@ -1,0 +1,28 @@
+X: 3063
+T: Sleepy Bodie
+%R: jig
+N: This is version 1, for ABC software that doesn't understand voice overlays
+B: Niel Gow & Sons "Complete Repository" v.3 p.6 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: The first line has a |: (start-repeat) at the end of the first staff.
+N: This confuses some current software, so I put in at the start of the 2nd staff.
+M: 6/8
+L: 1/8
+Q: "Slow"
+K: F
+% - - - - - - - - - -
+V: 1 staves=2
+~F |\
+A(c2 Af).d | {d}cBA G>AB | A>Bc (Af)d | c3 F2~F |\
+A>Bc (Af)d | {d}c>BA TG>AB | A>Bc (Af)d | Tc3 F2 |]
+|: (d/e/) |\
+f>ed {d}cBA | (Bc)A G2(d/e/) | f>ed cAc | Tf3 {ef}[c2A2](d/e/) |\
+Tf>ed cBA | (BcA) H[G2E2C2]B | A>Bc (Af).d | c3 [F2C2A,2] :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+[c'3f3] fd'b | agf bag | f3 (fd)B | ceb [a2f2]z |\
+f>ga fd'b | agf efg | f3 (fd)B | c(CE) F2 |]
+|: z |\
+[d'f3]c'b [af3]gf | def c2z | [d'f3]c'b a3 | fac' f'2b/c'/ |\
+[d'f3]c'b [af3]gf | e2f Hc2e | f3 (fd)B | c(CE) F2 :|

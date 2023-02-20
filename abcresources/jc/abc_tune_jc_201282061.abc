@@ -1,0 +1,840 @@
+
+X: 1
+T: Alex's Haircut
+C: Gordon Duncan
+R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: Page from Concord Slow Scottish Session collection
+N: "Presented by Calum Pasqua, Boston Harbor Scottish Fiddle School, August 2012"
+N: Pickups and endings tweaked to fix the rhythms.
+M: 6/8
+L: 1/8
+K: D
+f |\
+"D"Add "A"dce | "D"dff "A"egg |\
+"D"faa "A7"g2e | "D"fed "A"ecA |\
+"G"GBB BdB | "D"Add "A"dce |
+[1 "D"dff faa | "A7"gfg e2 :|\
+[2 "D"dff "A7"age | edc "D"d2 \
+|: B |\
+"A"AcA dAe | "D"AdA eAf |
+"A7"AgA fAe | "D"AdA "A"edc |\
+"A"AcA dAe | "D"AdA eAf |\
+"A7"Agg "D"Aff | "A7"edc "D"d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Andy Renwick's Ferret
+L:1/8
+C:Gordon Duncan
+H:Gordon Duncan is a highland piper from Pitlochry, Scotland
+R:reel
+M:C|
+K:Ador
+|:\
+cA~A2 ABcd | eaag agef | gd~d2 egde | degd egdB |
+cA~A2 ABcd | eaag agef | gd~d2 efgd |1 edgB A2AB :|2 edgB A2Bd ||
+eaag ageg | a2ag agef | gd~d2 egde | degd egdg |
+eaag ageg | a2ag agef | gd~d2 efgd | edgB A2Bd |
+eaag ageg | a2ag agef | gd~d2 egde | degd egdB |
+cA~A2 ABcd | eaag agef | gd~d2 efgd | edgB A2AB ||
+|:\
+cA~A2 ~A2cA | ~A2cA agef | gd~d2 ^cdcd | ~d2^cd cddB |
+cA~A2 ~A2cA | ~A2cA agef | gd~d2 efgd |1 edgB A2AB :|2 edgB A2Bd ||
+eaag ageg | ageg ~a3f | gd~d2 eggd | ^cdgd eggd |
+eaag ageg | ageg ~a3f | gd~d2 efgd | edgB A2Bd |
+eaag ageg | ageg ~a3f | gd~d2 eggd | ^cdgd eggd |
+cA~A2 ~A2cA | ~A2cA agef | gd~d2 efgd | edgB A2AB ||
+
+%%sep 1 1 500
+
+X: 1
+T: Andy Renwick's Favourite Ferret  "(c) Gordon Duncan Book 1"
+M:C |\
+L:1/8
+Q:80
+C:Gordon Duncan
+S:Hornpipe
+K:HP
+|: B |\
+{g}"flatc"c/2A/2{gAGAG}A{g}A/2B/2{g}"flatc"c/2d/2 |\
+{g}e/2a/2{g}a/2g/2a/2g/2{a}e/2f/2 |\
+{a}g/2d/2{gdedc}d{g}e/2g/2{a}d/2g/2 |\
+{a}c/2d/2g/2d/2{g}e/2g/2{a}d/2B/2 |\
+{g}"flatc"c/2A/2{gAGAG}A{g}A/2B/2{g}"flatc"c/2d/2 |\
+{g}e/2a/2{g}a/2g/2a/2g/2{a}e/2f/2 |\
+{a}g/2d/2{gdedc}d{g}e/2f/2{a}g/2e/2 |\
+{gde}d/2B/2{a}g/2B/2{gAGAG}A :|\
+|: d |\
+{g}e/2a/2{g}a/2g/2a/2g/2{a}e/2g/2 |\
+aga/2g/2{a}e/2f/2 |\
+{a}g/2d/2{gdedc}d{g}e/2g/2{a}d/2g/2 |\
+{a}c/2d/2g/2d/2 |\
+[1 {g}e/2g/2{a}d/2g/2 |\
+[2 {g}e/2g/2{a}d/2B/2 |\
+[1 {a}e/2a/2{g}a/2g/2a/2g/2{a}e/2g/2 |\
+aga/2g/2{a}e/2f/2 |\
+{a}g/2d/2{gdedc}d{g}e/2f/2{a}g/2e/2 |\
+{gde}d/2B/2{a}g/2B/2{gAGAG}A :|\
+|: B |\
+{g}"flatc"c/2A/2{gAGAG}A{gAGAG}A{g}"flatc"c/2A/2 |\
+{gAGAG}A{g}"flatc"c/2A/2a/2g/2{a}e/2f/2 |\
+{a}g/2d/2{gdedc}d{g}c/2d/2{g}c/2d/2 |\
+{gdedc}d{g}c/2d/2{g}c/2d/2{g}d/2B/2 |\
+{g}"flatc"c/2A/2{gAGAG}A{gAGAG}A{g}"flatc"c/2A/2 |\
+{gAGAG}A{g}"flatc"c/2A/2a/2g/2{a}e/2f/2 |\
+{a}g/2d/2{gdedc}d{g}e/2f/2{a}g/2e/2 |\
+{gde}d/2B/2{a}g/2B/2{gAGAG}A :|\
+|: d |\
+{g}e/2a/2{g}a/2g/2a/2g/2{a}e/2g/2 |\
+aga/2g/2{a}e/2f/2 |\
+{a}g/2d/2{gdedc}d{g}c/2d/2{g}c/2d/2 |\
+{gdedc}d{g}c/2d/2 |\
+[1 {g}c/2d/2{g}d/2g/2 |\
+[2 {g}c/2d/2{g}d/2B/2 |\
+[1 {a}e/2a/2{g}a/2g/2a/2g/2{a}e/2g/2 |\
+aga/2g/2{a}e/2f/2 |\
+{a}g/2d/2{gdedc}d{g}e/2f/2{a}g/2e/2 |\
+{gde}d/2B/2{a}g/2B/2{gAGAG}A :|\
+[2 {g}"flatc"c/2A/2{gAGAG}A{g}A/2B/2{g}"flatc"c/2d/2 |\
+{g}e/2a/2{g}a/2g/2a/2g/2{a}e/2f/2 |\
+{a}g/2d/2{gdedc}d{g}e/2f/2{a}g/2e/2 |\
+{gde}d/2B/2{a}g/2B/2{gAGAG}A |]
+
+%%sep 1 1 500
+
+X: 1
+T: Andy Renwick's Favourite Ferret  "(c) Gordon Duncan Book 1"
+M:C|
+L:1/8
+Q:80
+C:Gordon Duncan
+S:Hornpipe
+K:HP
+|: B |\
+{g}"flatc"c/2A/2{gAGAG}A{g}A/2B/2{g}"flatc"c/2d/2 |\
+{g}e/2a/2{g}a/2g/2a/2g/2{a}e/2f/2 |\
+{a}g/2d/2{gdedc}d{g}e/2g/2{a}d/2g/2 |\
+{a}c/2d/2g/2d/2{g}e/2g/2{a}d/2B/2 |\
+{g}"flatc"c/2A/2{gAGAG}A{g}A/2B/2{g}"flatc"c/2d/2 |\
+{g}e/2a/2{g}a/2g/2a/2g/2{a}e/2f/2 |\
+{a}g/2d/2{gdedc}d{g}e/2f/2{a}g/2e/2 |\
+{gde}d/2B/2{a}g/2B/2{gAGAG}A :|\
+|: d |\
+{g}e/2a/2{g}a/2g/2a/2g/2{a}e/2g/2 |\
+aga/2g/2{a}e/2f/2 |\
+{a}g/2d/2{gdedc}d{g}e/2g/2{a}d/2g/2 |\
+{a}c/2d/2g/2d/2 |\
+[1 {g}e/2g/2{a}d/2g/2 |\
+[2 {g}e/2g/2{a}d/2B/2 |\
+[1 {a}e/2a/2{g}a/2g/2a/2g/2{a}e/2g/2 |\
+aga/2g/2{a}e/2f/2 |\
+{a}g/2d/2{gdedc}d{g}e/2f/2{a}g/2e/2 |\
+{gde}d/2B/2{a}g/2B/2{gAGAG}A :|\
+|: B |\
+{g}"flatc"c/2A/2{gAGAG}A{gAGAG}A{g}"flatc"c/2A/2 |\
+{gAGAG}A{g}"flatc"c/2A/2a/2g/2{a}e/2f/2 |\
+{a}g/2d/2{gdedc}d{g}c/2d/2{g}c/2d/2 |\
+{gdedc}d{g}c/2d/2{g}c/2d/2{g}d/2B/2 |\
+{g}"flatc"c/2A/2{gAGAG}A{gAGAG}A{g}"flatc"c/2A/2 |\
+{gAGAG}A{g}"flatc"c/2A/2a/2g/2{a}e/2f/2 |\
+{a}g/2d/2{gdedc}d{g}e/2f/2{a}g/2e/2 |\
+{gde}d/2B/2{a}g/2B/2{gAGAG}A :|\
+|: d |\
+{g}e/2a/2{g}a/2g/2a/2g/2{a}e/2g/2 |\
+aga/2g/2{a}e/2f/2 |\
+{a}g/2d/2{gdedc}d{g}c/2d/2{g}c/2d/2 |\
+{gdedc}d{g}c/2d/2 |\
+[1 {g}c/2d/2{g}d/2g/2 |\
+[2 {g}c/2d/2{g}d/2B/2 |\
+[1 {a}e/2a/2{g}a/2g/2a/2g/2{a}e/2g/2 |\
+aga/2g/2{a}e/2f/2 |\
+{a}g/2d/2{gdedc}d{g}e/2f/2{a}g/2e/2 |\
+{gde}d/2B/2{a}g/2B/2{gAGAG}A :|\
+[2 {g}"flatc"c/2A/2{gAGAG}A{g}A/2B/2{g}"flatc"c/2d/2 |\
+{g}e/2a/2{g}a/2g/2a/2g/2{a}e/2f/2 |\
+{a}g/2d/2{gdedc}d{g}e/2f/2{a}g/2e/2 |\
+{gde}d/2B/2{a}g/2B/2{gAGAG}A |]
+
+%%sep 1 1 500
+
+X: 45
+T: Andy Renwick's Ferret
+M:C|
+L:1/8
+C:Gordon Duncan
+R:reel
+D:Battlefield Band: Celtic Hotel Nomos: I Won't Be Afraid Any More Craobh
+D:Rua: The More That's Said the Less the Better
+H:Gordon Duncan is a highland piper from Scotland
+K:Ador
+"Am"cA A/A/A ABcd | eaag agef |\
+"G"gd d/d/d egde | degd egdB |
+"Am"cA A/A/A ABcd | eaag agef |\
+"G"gd d/d/d"Em" efge |[1 "G"dBgB "Am"A2AB :|[2 "G"dBgB "Am"A2Bd ||
+"Am"eaag ageg | a2ag agef |\
+"G"gd d/d/d egde | degd egdg |
+"Am"eaag ageg | a2ag agef |\
+"G"gd d/d/d "Em"efge | "G"dBgB "Am"A2Bd |
+"Am"eaag ageg | a2ag agef |\
+"G"gd d/d/d egde | degd egdB |
+"Am"cA A/A/A ABcd | eaag agef |\
+"G"gd d/d/d "Em"efge | "G"dBgB "Am"A2AB |
+|: "Am"cA A/A/A A2cA | A/A/AcA agef |\
+"G"gd d/d/d ^cdcd | d/d/d^cd cddB |
+"Am"cA A/A/A A2cA | A/A/A cA agef |\
+"G"gd d/d/d "Em"efge |[1 "G"dBgB "Am"A2AB :|[2 "G"dBgB"Am" A2Bd ||
+"Am"eaag ageg | ageg a/a/a af |\
+"G"gd d/d/d eggd | ^cdgd eggd |
+"Am"eaag ageg | ageg a/a/a af |\
+"G"gd d/d/d "Em"efge | "G"dBgB "Am"A2Bd |
+"Am"eaag ageg | ageg a/a/a af |\
+"G"gd d/d/d eggd | ^cdgd eggd |
+"Am"cA A/A/A A2cA | A/A/A cA agef |\
+"G"gd d/d/d "Em"efge | "G"dBgB "Am"A2AB ||
+
+%%sep 1 1 500
+
+X: 1
+T: Andy Renwick's Ferret
+C:Gordon Duncan
+R:reel
+H:Gordon Duncan is a highland piper from Pitlochry, Scotland
+D:Nomos: I Won't Be Afraid Any More
+D:Battlefield Band: Celtic Hotel
+D:Craobh Rua: The More That's Said the Less the Better
+Z:id:hn-reel-545
+S:Dominique Renaudin <domren:free.fr> scots_music 2005-6-27
+M:C|
+K:Ador
+|:\
+cA~A2 ABcd | eaag agef | gd~d2 egde | degd egdB |
+cA~A2 ABcd | eaag agef | gd~d2 efgd |1 edgB A2AB :|2 edgB A2Bd |]
+eaag ageg | a2ag agef | gd~d2 egde | degd egdg |
+eaag ageg | a2ag agef | gd~d2 efgd | edgB A2Bd ||
+eaag ageg | a2ag agef | gd~d2 egde | degd egdB |
+cA~A2 ABcd | eaag agef | gd~d2 efgd | edgB A2AB |]
+|:\
+cA~A2 ~A2cA | ~A2cA agef | gd~d2 ^cdcd | ~d2^cd cddB |
+cA~A2 ~A2cA | ~A2cA agef | gd~d2 efgd |1 edgB A2AB :|2 edgB A2Bd |]
+eaag ageg | ageg ~a3f | gd~d2 eggd | ^cdgd eggd |
+eaag ageg | ageg ~a3f | gd~d2 efgd | edgB A2Bd ||
+eaag ageg | ageg ~a3f | gd~d2 eggd | ^cdgd eggd |
+cA~A2 ~A2cA | ~A2cA agef | gd~d2 efgd | edgB A2AB |]
+
+%%sep 1 1 500
+
+X: 1
+T: Andy Renwick's Ferret
+M:C|
+L:1/8
+C:Gordon Duncan
+R:reel
+D:Battlefield Band: Celtic Hotel Nomos: I Won't Be Afraid Any More Craobh
+D:Rua: The More That's Said the Less the Better
+H:Gordon Duncan is a highland piper from Scotland
+Z:ABC by Henrik Norbeck
+K:Ador
+cA~A2 ABcd | eaag agef | gd~d2 egde | degd egdB |
+cA~A2 ABcd | eaag agef | gd~d2 efgd |1 edgB A2AB :|2 edgB A2Bd ||
+|:\
+eaag ageg | a2ag agef | gd~d2 egde | degd egdg |
+eaag ageg | a2ag agef | gd~d2 efgd | edgB A2Bd |
+eaag ageg | a2ag agef | gd~d2 egde | degd egdB |
+cA~A2 ABcd | eaag agef | gd~d2 efgd | edgB A2AB ||
+|:\
+cA~A2 ~A2cA | ~A2cA agef | gd~d2 ^cdcd | ~d2^cd cddB |
+cA~A2 ~A2cA | ~A2cA agef | gd~d2 efgd |1 edgB A2AB :|2 edgB A2Bd ||
+|:\
+eaag ag g | ageg ~a3f | gd~d2 eggd | ^cdgd eggd |
+eaag ageg | ageg ~a3f | gd~d2 efgd | edgB A2Bd |
+eaag ageg | ageg ~a3f | gd~d2 eggd | ^cdgd eggd |
+cA~A2 ~A2cA | ~A2cA agef | gd~d2 efgd | edgB A2AB ||
+
+%%sep 1 1 500
+
+X: 1
+T: Andy Renwick's Ferret
+M:C|
+L:1/8
+C:Gordon Duncan
+R:reel
+D:Battlefield Band: Celtic Hotel Nomos: I Won't Be Afraid Any More Craobh
+D:Rua: The More That's Said the Less the Better
+H:Gordon Duncan is a highland piper from Scotland
+K:Ador
+cA~A2 ABcd|eaag agef|gd~d2 egde|degd egdB|
+cA~A2 ABcd|eaag agef|gd~d2 efgd|1 edgB A2AB:|2 edgB A2Bd||
+eaag ageg|a2ag agef|gd~d2 egde|degd egdg|
+eaag ageg|a2ag agef|gd~d2 efgd|edgB A2Bd|
+eaag ageg|a2ag agef|gd~d2 egde|degd egdB|
+cA~A2 ABcd|eaag agef|gd~d2 efgd|edgB A2AB||
+|:cA~A2 ~A2cA|~A2cA agef|gd~d2 ^cdcd|~d2^cd cddB|
+cA~A2 ~A2cA|~A2cA agef|gd~d2 efgd|1 edgB A2AB:|2 edgB A2Bd||
+eaag ageg|ageg ~a3f|gd~d2 eggd|^cdgd eggd|
+eaag ageg|ageg ~a3f|gd~d2 efgd|edgB A2Bd|
+eaag ageg|ageg ~a3f|gd~d2 eggd|^cdgd eggd|
+cA~A2 ~A2cA|~A2cA agef|gd~d2 efgd|edgB A2AB||
+
+%%sep 1 1 500
+
+X: 1
+T: Andy Renwick's Ferret
+M:C|
+L:1/8
+C:Gordon Duncan
+R:reel
+D:Battlefield Band: Celtic Hotel Nomos: I Won't Be Afraid Any More Craobh
+D:Rua: The More That's Said the Less the Better
+H:Gordon Duncan is a highland piper from Scotland
+Z:Henrik Norbeck
+K:Ador
+cA~A2 ABcd|eaag agef|gd~d2 egde|degd egdB|
+cA~A2 ABcd|eaag agef|gd~d2 efgd|1 edgB A2AB:|2 edgB A2Bd||
+eaag ageg|a2ag agef|gd~d2 egde|degd egdg|
+eaag ageg|a2ag agef|gd~d2 efgd|edgB A2Bd|
+eaag ageg|a2ag agef|gd~d2 egde|degd egdB|
+cA~A2 ABcd|eaag agef|gd~d2 efgd|edgB A2AB|
+|:cA~A2 ~A2cA|~A2cA agef|gd~d2 ^cdcd|~d2^cd cddB|
+cA~A2 ~A2cA|~A2cA agef|gd~d2 efgd|1 edgB A2AB:|2 edgB A2Bd||
+eaag ageg|ageg ~a3f|gd~d2 eggd|^cdgd eggd|
+eaag ageg|ageg ~a3f|gd~d2 efgd|edgB A2Bd|
+eaag ageg|ageg ~a3f|gd~d2 eggd|^cdgd eggd|
+cA~A2 ~A2cA|~A2cA agef|gd~d2 efgd|edgB A2AB||
+
+%%sep 1 1 500
+
+X: 1
+T: Andy Renwick's Ferret
+C:Gordon Duncan
+R:reel
+H:Gordon Duncan is a highland piper from Scotland
+D:Nomos: I Won't Be Afraid Any More
+D:Battlefield Band: Celtic Hotel
+D:Craobh Rua: The More That's Said the Less the Better
+Z:id:hn-reel-545
+M:C|
+K:Ador
+cA~A2 ABcd|eaag agef|gd~d2 egde|degd egdB|
+cA~A2 ABcd|eaag agef|gd~d2 efgd|1 edgB A2AB:|2 edgB A2Bd||
+eaag ageg|a2ag agef|gd~d2 egde|degd egdg|
+eaag ageg|a2ag agef|gd~d2 efgd|edgB A2Bd|
+eaag ageg|a2ag agef|gd~d2 egde|degd egdB|
+cA~A2 ABcd|eaag agef|gd~d2 efgd|edgB A2AB||
+|:cA~A2 ~A2cA|~A2cA agef|gd~d2 ^cdcd|~d2^cd cddB|
+cA~A2 ~A2cA|~A2cA agef|gd~d2 efgd|1 edgB A2AB:|2 edgB A2Bd||
+eaag ageg|ageg ~a3f|gd~d2 eggd|^cdgd eggd|
+eaag ageg|ageg ~a3f|gd~d2 efgd|edgB A2Bd|
+eaag ageg|ageg ~a3f|gd~d2 eggd|^cdgd eggd|
+cA~A2 ~A2cA|~A2cA agef|gd~d2 efgd|edgB A2AB||
+
+%%sep 1 1 500
+
+X: 1
+T: Break Yer Bass Drone
+R:Reel
+S:Scots-L, Ted Hastings, 9/97
+C:Gordon Duncan
+D:Gordon Duncan, "Just for Seamus", Duncan Chisholm, "Redpoint"
+M:4/4
+L:1/8
+K:A
+uA-B|c3 e fcec|B2 A-B cefe|a3 e faec|Acec cBAB|
+c3 e fcec|B2 A-B cefe|a3 e faec|BcdB A2:||
+uc-d|eaaa ceee|A2 B-A ceec|d2 d-c B2 B-c|dcde fedB|
+ceBe A2 B-A|ceee aecA|dcde faec|dBGB A2:||
+
+%%sep 1 1 500
+
+X: 1
+T: Break Yer Bass Drone
+R:Reel
+C:Gordon Duncan
+L:1/8
+K:A
+uA-B|c3 e fcec|B2 A-B cefe|a3 e faec|Acec cBAB|!
+c3 e fcec|B2 A-B cefe|a3 e faec|BcdB A2:||!
+uc-d|eaaa ceee|A2 B-A ceec|d2 d-c B2 B-c|dcde fedB|!
+ceBe A2 B-A|ceee aecA|dcde faec|dBGB A2:||!
+
+%%sep 1 1 500
+
+X: 1
+T: the Famous Baravan
+C: Gordon Duncan
+R: jig
+Z: 2013 John Chambers
+S: from Lance Ramshaw's Slow Session, 2013-8-31
+N: "The Famous Baravan ... refers to a camper van ("caravan") where many drinks were consumed."
+M: 6/8
+L: 1/8
+K: D
+c |:\
+"D"d2c dAB | "D7"d2c def | "G"g2f gef | "Em"g2f gef | "A7"aaa aed |
+"A7"c2e ecA |1 "A7"A2c ecA | "D"dcd "A7"eAB :|2 "A7"Ace edc | "D"d3 "D7"def ||
+|:\
+"G"g2f gdB | "G"GBd gag | "D"eff fed | "D"dcd fed | "A7"eee age |
+"A7"age age |1 "A7"aaa aed | "A7"cAd AeA :|2 "A7"aaa edc | "D"d3 d3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Famous Baravan
+C: Gordon Duncan
+R: jig
+Z: 2013 John Chambers
+S: from Lance Ramshaw's Slow Session, 2013-8-31
+N: "The Famous Baravan ... refers to a camper van ("caravan") where many drinks were consumed."
+M: 6/8
+L: 1/8
+K: D
+c |:\
+"D"d2c dAB | "D7"d2c def | "G"g2f gef | "Em"g2f gef | "A7"aaa aed |
+"A7"c2e ecA |1 "A7"A2c ecA | "D"dcd "A7"eAB :|2 "A7"Ace edc | "D"d3 "D7"def ||
+|:\
+"G"g2f gdB | "G"GBd gag | "D"eff fed | "D"dcd fed | "A7"eee age |
+"A7"age age |1 "A7"aaa aed | "A7"cAd AeA :|2 "A7"aaa edc | "D"d3 d3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the High Drive
+C: Gordon Duncan
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: printed MS from Debby Knight
+M: C|
+L: 1/8
+K: D
+|: "D"d3e fedA | "G"~B2gB BAGB | "D"GA~A2 fedf |\
+[1,3 "A7"eAce afge :|2 "A7"edc{d}e "D"d4 :|4 "A7"edc{d}e "D"defg ||
+|: "D"a3"(#)"g ad~d2 | "G"AB~B2 gBdB |\
+"D"GA~A2 fedf | "A7"eAce afge |\
+[1 "D"a3"(#)"g ad~d2 | "G"AB~B2 gBdB |
+"D"GA~A2 fedf | "A7"edc{d}e "D"defg :|\
+[2 "D"d3e fedA | "G"~B2gB BAGB |\
+"D"GA~A2 fedf | "A7"edc{d}e "D"d4y2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the High Drive
+C: Gordon Duncan
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: printed MS from Debby Knight
+M: C|
+L: 1/8
+K: D
+|: "D"d3e fedA | "G"~B2gB BAGB | "D"GA~A2 fedf |1,3 "A7"eAce afge :|2 "A7"edc{d}e "D"d4 :|4 "A7"edc{d}e "D"defg ||
+|: "D"a3"(#)"g ad~d2 | "G"AB~B2 gBdB | "D"GA~A2 fedf | "A7"eAce afge |
+|1 "D"a3"(#)"g ad~d2 | "G"AB~B2 gBdB | "D"GA~A2 fedf | "A7"edc{d}e "D"defg :|
+|2 "D"d3e fedA | "G"~B2gB BAGB | "D"GA~A2 fedf | "A7"edc{d}e "D"d4y2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the High Drive (4 parts)
+C: Gordon Duncan
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: Page from Concord Slow Scottish Session collection
+N: Parts C,D from Duncan book and Beaton "Tap Sessions"
+M: C|
+L: 1/8
+K: D
+"A"[|] Ac |\
+|: "D"d3e fedA | "G"~B2gB BAGB | "D"GA~A2 fedf |"A7"eAce [1,3 afge :|[2,4 "D"d2 :|
+"B"|: efg \
+|   "D"a3"(#)"g ad~d2 | "G"AB~B2 gBdB | "D"GA~A2 fedf | "A7"eAce afge |
+|[1 "D"a3"(#)"g ad~d2 | "G"AB~B2 gBdB | "D"GA~A2 fedf | "A7"edc{d}e "D"d :|
+|[2 "D"d3e fedA | "G"~B2gB BAGB | "D"GA~A2 fedf | "A7"edc{d}e "D"d2y2 |]
+%%sep 1 1 400
+%%sep 1 9 400
+"C"|: fe |:\
+"D"dAeA fA~A2 | "G"gBBA Bgag | "D"fA~A2 afdf |1,3 "A7"eA~A2 afge :|2,4 "A7"edce "D"d2 :|
+"D"|: efg | "D"adda ~d2ad | "G"gddg ~d2gd | "D"fddf  ~d2fd | "A7"edde "(D)"d
+   [1 ded | "D"adda ~d2ad | "G"gddg ~d2gd | "D"fA~A2 afdf | "A7"edce "D"d :|
+   [2 efg | "D"adda ~d2ad | "G"gBdg  BdGB | "D"GA~A2 fede | "A7"edce "D"d2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the High Drive
+C: Gordon Duncan
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: printed MS from Debby Knight
+M: C|
+L: 1/8
+K: D
+|: "D"d3e fedA | "G"~B2gB BAGB | "D"GA~A2 fedf |1,3 "A7"eAce afge :|2 "A7"edc{d}e "D"d4 :|4 "A7"edc{d}e "D"defg ||
+|: "D"a3"(#)"g ad~d2 | "G"AB~B2 gBdB | "D"GA~A2 fedf | "A7"eAce afge |
+|1 "D"a3"(#)"g ad~d2 | "G"AB~B2 gBdB | "D"GA~A2 fedf | "A7"edc{d}e "D"defg :|
+|2 "D"d3e fedA | "G"~B2gB BAGB | "D"GA~A2 fedf | "A7"edc{d}e "D"d4y2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: the High Drive (4 parts)
+C: Gordon Duncan
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: Page from Concord Slow Scottish Session collection
+N: Parts C,D from Duncan book and Beaton "Tap Sessions"
+M: C|
+L: 1/8
+K: D
+"A"[|] Ac |\
+|: "D"d3e fedA | "G"~B2gB BAGB | "D"GA~A2 fedf |"A7"eAce [1,3 afge :|[2,4 "D"d2 :|
+"B"|: efg \
+|   "D"a3"(#)"g ad~d2 | "G"AB~B2 gBdB | "D"GA~A2 fedf | "A7"eAce afge |
+|[1 "D"a3"(#)"g ad~d2 | "G"AB~B2 gBdB | "D"GA~A2 fedf | "A7"edc{d}e "D"d :|
+|[2 "D"d3e fedA | "G"~B2gB BAGB | "D"GA~A2 fedf | "A7"edc{d}e "D"d2y2 |]
+%%sep 1 1 400
+%%sep 1 9 400
+"C"|: fe |:\
+"D"dAeA fA~A2 | "G"gBBA Bgag | "D"fA~A2 afdf |1,3 "A7"eA~A2 afge :|2,4 "A7"edce "D"d2 :|
+"D"|: efg | "D"adda ~d2ad | "G"gddg ~d2gd | "D"fddf  ~d2fd | "A7"edde "(D)"d
+   [1 ded | "D"adda ~d2ad | "G"gddg ~d2gd | "D"fA~A2 afdf | "A7"edce "D"d :|
+   [2 efg | "D"adda ~d2ad | "G"gBdg  BdGB | "D"GA~A2 fede | "A7"edce "D"d2 |]
+
+%%sep 1 1 500
+
+X: 3
+T: The High Drive
+C: Gordon Duncan
+N: 3 Scots reels/3 reels écossais
+S: Dominique Renaudin <domren:free.fr> IrishTradAccord 2004-3-1
+K: D
+|: d3e fedA | (3BBB gB BAGB | GA(3AAA fedf | eA(3AAA afge |
+   d3e fedA | (3BBB gB BAGB | GA(3AAA fedf | edce d4 :|
+|: a3g ad(3ddd | AB(3BBB gBdB | GA(3A(3A(3A fedf | eA(3AAA efge |
+   a3g ad(3ddd | AB(3BBB gBdB | GA(3AAA fedf | edce d4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: the Pitlochry High School Centenary
+C: Gordon Duncan
+R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: printed page in the Concord Slow Scottish Session collection binder 2
+B: "Gordon Duncan't Tunes", 2007
+M: 6/8
+L: 1/8
+K: D
+|:\
+d2e fed | gBB BAB | d2e fed | gBB cde |\
+d2e fed | gBB BAB | AcA dAe | Aee edc :|
+|:\
+d2a agf | g2g gfe | d2a agf | ecA Ace |\
+d2a agf | ggg g<gf | eee efd | ecA Ace :|
+|:\
+dAe AfA | gAf AeA | dAe AfA | gBB cde |\
+dAe AfA | gAf AeA | eaa eee | gaa age :|
+|:[M:9/8]\
+Ada aAd ggg |[M:6/8] Adf fAd | eee cde |\
+Ada aAd | ggg g<gf | eee efd | ecA Ace :|
+
+%%sep 1 1 500
+
+X: 281
+T: Pressed for Time
+M:C|
+L:1/8
+C:Gordon Duncan
+R:reel
+D:Flook: Rubai
+Z:Devin McCabe
+K:AMix
+GAgG AfGA | eGAe GAeA |\
+G~A3 d2cA | G~A3 d2cA |\
+GAgG AfGA | eGAe GAeA |
+c~A3 dAc~A- | A2eA ez3 :|\
+|:\
+GAdA cAGA- | A2dA c~A3 |\
+cd d/2d/2d ed d/2d/2d | effe az2f |
+e~A3 BAe~A- | A2ez d2cA |\
+G~A3 dAc~A- |1 A2eA ez3 :|2 A2e2 zG B/2c/2d |]|\
+~g3f geef | ~g3a geeg |
+e~f2g fedB | dBde ~f2dB |\
+e~A3 GAeA- | A2ez d2cA |\
+G~A3 dAc~A- | A2e2 z G B/2c/2d |]
+[|\
+~g3f geef | ~g3a geeg |\
+e~f2g fedB | dBde ~f2dB |\
+e~A3 GAeA- | A2ez d2cA |
+G~A3 dAc~A- | A2e2 z G B/2c/2d |]|\
+~g3f geef | ~g3a geeg |\
+e~f2g fedB | dBde ~f2dB |
+eaae a2ea | aea2 efgf |\
+eAae a2zf | gfdA B/2c/2d eA |]|\
+~g3f geef | ~g3a geeg |
+e~f2g fedB | dBde ~f2dB |\
+e~A3 GAeA- | A2ez d2cA |\
+G~A3 dAc~A- | A2eA ez3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Ramnee Ceilidh   [D]
+C: Gordon Duncan
+R: reel
+S: https://thesession.org/tunes/2639 2015-12-23
+M: 4/4
+L: 1/8
+K: Dmaj
+d |\
+dBBd A2BA | feef e2de | faaf e2fe | d2de dBA2 |
+dBBd A2BA | feef e2de | faaf eafe | dBAB d3 :|
+|: e |\
+f2fA Bde2- | edBd edBd | effA Bde2- | edfe d3e |
+f2fA Bde2- | edBd edBd | faaf eafe | dBAB d3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: the Ramnee Ceilidh   [G]
+C: Gordon Duncan
+M: 4/4
+L: 1/8
+R: reel
+K: Gmaj
+|:\
+GEEG D2GA | BGcB ABGA | B2dB A2BA | G3A GEED |
+GEEG D2GA | BGcB ABGA | B2dB A2BA |1 GEDE G3A :|2 GEDE GDEG ||
+|:\
+B3D EGA2 | -ADEG AGEG | B3D EGA2 | -ABcB AGEG |
+B3D EGA2 | -ADEG AGEG | B2dB A2BA |1 GEDE GDEG :|2 GEDE G3A |]
+
+%%sep 1 1 500
+
+X: 1
+T: The Sleeping Tune
+R: reel
+C: Gordon Duncan
+M: 4/4
+L: 1/8
+K: Bmin
+"Bm"B,2 F2 F2 FE | (3EFG GF FECD | "A"E4 E4- | E2 ED EFDC |
+"G"D4 D4- | D2 DC DECB, | "F#m"C4- CB,CD | "A"E4- EFDC |
+"Bm"B,2 F2 F2 FE | (3EFG GF FECD | "A"E3 D E4- | E2 ED EFDC |
+"G"D3 C D4- | D2 DC DECB, | "F#m"C4- CB,CD | "A"E4- EFFE |
+"D"D2 A2- A2 CD | ACDA CDDB, | "A"C2 A4CB, | C2 CB, CDDC |
+"G"B,2 A4 B,A, | B,2 B,A, B,CDB, | "F#m"C3 B, C3- C/D/- | "A"DEED EFFE |
+"D"D2 A2- A2 CD | ACDA CDDB, | "A"C2 A4 CB, | C2 CB, CDDC |
+"G"B,2 F4 B,A, | B,2 B,A, B,CDB, | "F#m"C3 B, C3 D | "A"E4 EFDC ||
+
+%%sep 1 1 500
+
+X: 1
+T: The Sleeping Tune  v.1
+C: Gordon Duncan
+S: http://thesession.org/tunes/7425
+S: http://www.newrosspipeband.com/pdf%20tunes/Sleeping%20Tune%20(The).pdf
+R: reel
+M: 4/4
+L: 1/8
+K: Bm
+[|\
+B2 f2- f2 fe | fg gf fe dc | e4 e4- | e2 ed ef dc |\
+d4 d4- | d2 dc de dB | c4- cB cd | e4- ef dc |]
+[|\
+B2 f2- f2 fe | fg gf fe dc | e3 d e4- | e4 ef dc |\
+d2 dc d4- | d2 dc de dB | c4- cB cd | e2- ef fe dc |]
+[|\
+d2 a2- a2 cd | ac da cd dB | c2 a2- a2 cB | c2 cB ce dc |\
+B2 a2- a2 BA | B2 BA Bc dB | c3 B c4- | cd de fe dc |]
+[|\
+d2 a2- a2 cd | ac da cd dB | c2 a2- a2 cB | c2 cB ce dc |\
+B2 a2- a2 BA | B4 Bc dB | c4- cd de | e4 ef dc |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Sleeping Tune  v.2
+C: Gordon Duncan
+R: strathspey
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: printed page of unknown origin in Concord Slow Scottish Session collection
+M: C
+L: 1/8
+K: Bm
+[|\
+B2 f4 fe/f/ | g2gf fecd | e2 e4 ed | e2-ed efdc |\
+d2 d4 dc | d2-dc decB | c2 c4 cB | c3d efdc ||
+B2 f4 fe/f/ | g2gf fecd | e2 e4 ed | e2-ed efdc |\
+d2 d4 dc | d2-dc decB | c2 c4 cB | c3B effe ||
+[|\
+d2 a4 cd | acda cddB | c2 a4 cB | c2-cB cddc |\
+d2 a4 BA | B2-BA BcdB | c3B cded | e4- effe ||
+d2 a4 cd | acda cddB | c2 a4 cB | c2-cB cddc |\
+d2 a4 BA | B2-BA BcdB | c3B cded | e4- e2dc |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Soup Dragon
+C: Gordon Duncan
+R: jig
+N: taught by Ronan Martin, BHSFC Aug 2014
+Z: 2014 John Chambers <jc:trillian.mit.edu> from Terry Traub's copy
+F: https://www.youtube.com/watch?v=Mb21k-Vuv6Q
+M: 6/8
+L: 1/8
+K: Bm
+|: e |\
+"Bm"f>BB BAB | (ef)f fed | "A"e>ee e2d | (ef)f ede |\
+"Bm"f>BB BAB | "D"(ef)f fed | "A"e>ee "(F#m)"f2e | dBA "Bm"B2 :|
+e |\
+"D"(fa)a afd | (ef)f fed | "A"e>ee e2d | (ef)f ede |\
+"D"(fa)a afd | (ef)f fed | "A"e>ee "(F#m)"f2e | dBA "Bm"B2 |]
+e |\
+"D"(fa)a afd | (ef)f fed | "A"e>ee e2d | (ef)f ede |\
+"Bm"f>BB BAB | "D"(ef)f fed | "A"e>ee "(F#m)"f2e | dBA "Bm"B2 |]
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 1
+T: the Soup Dragon
+C: Gordon Duncan 2007
+R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: Page from Concord Slow Scottish Session collection, labelled "Dunkeld Bridge Fiddle Week, September 2012".
+M: 6/8
+L: 1/8
+K: Bm
+|:\
+fBB ({d}BAB) | eff ({a}fed) | eee ({f}e2d) | eff (ede) |\
+fBB (BAB) | eff (fed) | eee (f2e) | dBA B3 :|
+faa afe | eff fed | eee (e2d) | eff ede |\
+faa afe | eff fed | eee (f2e) | dBA B3 |]
+faa afe | eff fed | eee (e2d) | eff ede |\
+fBB (BAB) | eff (fed) | eee (f2e) | dBA B3 :|
+
+%%sep 1 1 500
+
+X: 1
+P: The Soup Dragon
+C: Gordon Duncan
+C: as taught by Ronan Martin, BHSFC Aug 2014
+M: 6/8
+L: 1/8
+R: Jig
+K: Bm
+|:e|"Bm"fBB BAB |"Bm"eff fed|"A"eee e2 d|"A"eff ede|"Bm"fBB BAB|"D"eff fed|"A"eee "F#m"f2 e|"Bm"dBA B2 :|
+e|"D"faa afd|"D"eff fed|"A"eee e2 d|"A"eff ede|"D"faa afd |"D"eff fed|"A"eee "F#m"f2 e|"Bm"dBA B2 e||
+"D"faa afd|"D"eff fed|"A"eee e2 d|"A"eff "F#7"ede|"Bm"fBB BAB|"D"eff fed|"A"eee "F#m"f2 e|"Bm"dBA B2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Soup Dragon
+C: Gordon Duncan 2007
+R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: Page from Concord Slow Scottish Session collection, labelled "Dunkeld Bridge Fiddle Week, September 2012".
+M: 6/8
+L: 1/8
+K: Bm
+|:\
+fBB ({d}BAB) | eff ({a}fed) | eee ({f}e2d) | eff (ede) |\
+fBB (BAB) | eff (fed) | eee (f2e) | dBA B3 :|
+faa afe | eff fed | eee (e2d) | eff ede |\
+faa afe | eff fed | eee (f2e) | dBA B3 ||
+faa afe | eff fed | eee (e2d) | eff ede |\
+fBB (BAB) | eff (fed) | eee (f2e) | dBA B3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: the Soup Dragon
+C: Gordon Duncan
+R: jig
+N: taught by Ronan Martin, BHSFC Aug 2014
+Z: 2014 John Chambers <jc:trillian.mit.edu> from Terry Traub's copy
+F: https://www.youtube.com/watch?v=Mb21k-Vuv6Q
+M: 6/8
+L: 1/8
+K: Bm
+|: e |\
+"Bm"f>BB BAB | (ef)f fed | "A"e>ee e2d | (ef)f ede |\
+"Bm"f>BB BAB | "D"(ef)f fed | "A"e>ee "(F#m)"f2e | dBA "Bm"B2 :|
+e |\
+"D"(fa)a afd | (ef)f fed | "A"e>ee e2d | (ef)f ede |\
+"D"(fa)a afd | (ef)f fed | "A"e>ee "(F#m)"f2e | dBA "Bm"B2 |]
+e |\
+"D"(fa)a afd | (ef)f fed | "A"e>ee e2d | (ef)f ede |\
+"Bm"f>BB BAB | "D"(ef)f fed | "A"e>ee "(F#m)"f2e | dBA "Bm"B2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Soup Dragon
+C: Gordon Duncan 2007
+R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: Page from Concord Slow Scottish Session collection, labelled "Dunkeld Bridge Fiddle Week, September 2012".
+M: 6/8
+L: 1/8
+K: Bm
+|:\
+fBB ({d}BAB) | eff ({a}fed) | eee ({f}e2d) | eff (ede) |\
+fBB (BAB) | eff (fed) | eee (f2e) | dBA B3 :|
+faa afe | eff fed | eee (e2d) | eff ede |\
+faa afe | eff fed | eee (f2e) | dBA B3 |]
+faa afe | eff fed | eee (e2d) | eff ede |\
+fBB (BAB) | eff (fed) | eee (f2e) | dBA B3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Tom McKerron
+T: McLaine of Lochbuie
+T: The High Drive
+C:Charlie McKerron/Anon/Gordon Duncan
+N:3 Scots reels/3 reels écossais
+S:Dominique Renaudin <domren:free.fr> IrishTradAccord 2004-3-1
+%Q:1/4=220
+R:reel
+P: AAABBBCCC
+M:4/4
+L:1/8
+K:A
+P: A
+ga |\
+ec (3ccc BcAF | EC (3CCC B,CA,B, |\
+C2 EC FCEC | DF AF EGBG |\
+ec (3ccc BcAF |
+EC (3CCC B,CA,B, |\
+C2 EC DFAF | EGBG A2 :: eg |\
+g a2 a feec | A2 A2 FEEe |
+ae (3eee feec | Bcec B2 ce |\
+g a2 a feec | A2 A2 FE E2 |\
+C2 EC DFAF | EGBG A2 :| AB ||
+P: B
+K:D
+|:\
+e2 de AAAB | g2 fg BGBd |\
+e2 de edea |1 gedB BAAA :|2 gedB A3 e ::\
+a2 ag aeef | gage fdcd |
+eaag aeea | gedB BAAA |\
+a2 ag aeef | gage fdcd |\
+g2 ag geea | gedB A4 |:
+P: C
+d3 e fedA | (3BBB gB BAGB |\
+GA (3AAA fedf | eA (3AAA afge |\
+d3 e fedA |
+(3BBB gB BAGB |\
+GA (3AAA fedf | edce d4 ::\
+a3 g ad (3ddd | AB (3BBB gBdB |
+GA (3AAA fedf | eA (3AAA efge |\
+a3 g ad (3ddd | AB (3BBB gBdB |\
+GA (3AAA fedf | edce d4 :|

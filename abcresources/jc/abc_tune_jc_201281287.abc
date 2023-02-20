@@ -1,0 +1,32 @@
+X: 1
+T: Glentrool
+C: Hugh Foss
+N: 2x3-bar phrases!
+M: 6/8
+L: 1/8
+K: D
+"A7"A3 \
+| "D"FGA A2d \
+| FGA A2f \
+| "A7"e3 "D"d2A \
+| "D"FGA A2A \
+| "Bm"d2d A2F \
+| "Em"G3 E2F \
+|| "Em"G2G E2E \
+| G2G EFG |
+| "A7"B3 A2G \
+| "D"FGA A2d \
+| FGA "A7"F2E \
+| "D"D3 F3 \
+|[| "D"AGF A2F \
+| A2F A2B \
+| "F#m"c3 A2B \
+| cBA c2A |
+| "F#m"c2A c2d \
+| "E7"e3 c2d \
+|| "A"edc "A7"e2c \
+| "D"def "E7"e2c \
+| "A"e3 c2c \
+| "D"dcB AGF \
+| "G"EFG "A7"F2E \
+| "D"D3 |]

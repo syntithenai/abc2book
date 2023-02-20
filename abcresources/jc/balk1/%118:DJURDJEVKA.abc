@@ -1,0 +1,25 @@
+X: 118
+T: Djurdjevka
+O: Serbia
+W: from Debra Jones' VIFD I (Serbian Medley)
+F: http://www.youtube.com/watch?v=9u9sJZQE1_g
+M: 3/4
+L: 1/8
+K: F#dor
+Q: 1/4=144
+%%MIDI program 21 accordian
+%%MIDI chordprog 21 accordian
+%%MIDI bassprog 21 accordian
+  "E" [EG]2 [GB]4    |[EG]2 "B7" [FA]4              |[1 [FA][EG] F3-E& x2 D4|\
+  [EG]2 [EG]2 z2     :|[2 "F#7"[FA][EG] F3E & x2 C4 |
+  "B" [DF]2 [DF]2 z2 | "B7" AG F3E & D2 D4          |\
+  FE F3G & B,2 D4    |AG F3E &D2 D4                 |
+  "E" [EG]2 [EG]2 z2 | AG "B7" F3E &E2 D4           |\
+  FE F3G & B,2 D4    |"F#7" AG F3E &E2 C4           |"B" [DF]2 [DF]2 z2     |
+K: Edor
+|:"A" [Ac]2 [ce]4    |[Ac]2 "E7"[Bd]4               |[1 [Bd][Ac] B3A & x2 G4|\
+  "A" [Ac]2 [Ac]2 z2 :| [2 "B7" [Bd][Ac] B3A & x2 F4|
+  "E"[GB]2 [GB]2 z2  |: "E7" dc B3A& E2-E4-         |\
+  BA B3c & E2-E4     |[1 dc B3A &G2-G4              |
+  "A"[Ac]2 [Ac]2 z2  :|[2 dc B3A & ^D2-D4           |\
+  "E"[EG]2 [EG]2 z2  |

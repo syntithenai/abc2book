@@ -1,0 +1,26 @@
+X:1
+T: The Hen Run
+N:
+C:Ludwig van Beethoven
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 220
+%W: A1
+% voice 1 (1 lines, 34 notes)
+K:G
+M:4/4
+L:1/16
+G2 F2 |G4 A4 B4 c4 |d4 g8 d2 ^c2 |d4 c4 B4 A4 |G4 D8 G2 F2 |G4 A4 B4 c4 |d4 e4 f4 g4 |f4 a4 e4 a4 |d8 z4 G2 F2 |
+%W: A2
+% voice 1 (1 lines, 32 notes)
+G4 A4 B4 c4 |d4 g8 d2 ^c2 |d4 c4 B4 A4 |G4 D8 G2 F2 |G4 A4 B4 c4 |d4 e4 f4 g4 |f4 a4 e4 a4 |d8 z4 c2 B2 |
+%W: B1
+% voice 1 (1 lines, 46 notes)
+c4 A4 F4 A2 ^G2 |A4 F4 D4 c2 B2 |c4 A4 F4 A2 ^G2 |A4 F4 D4 e2 ^d2 |e2 ^d2 e2 d2 e2 d2 e2 d2 |e2 ^d2 f2 e2 =d2 c2 B2 A2 |d4 B2 G2 c4 A2 F2 |G8 z4 c2 B2 |
+%W: B2
+% voice 1 (1 lines, 44 notes)
+c4 A4 F4 A2 ^G2 |A4 F4 D4 c2 B2 |c4 A4 F4 A2 ^G2 |A4 F4 D4 e2 ^d2 |e2 ^d2 e2 d2 e2 d2 e2 d2 |e2 ^d2 f2 e2 =d2 c2 B2 A2 |d4 B2 G2 c4 A2 F2 |G8 z4 ||

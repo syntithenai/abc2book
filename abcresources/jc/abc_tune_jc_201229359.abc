@@ -1,0 +1,23 @@
+X: 1222
+T: Brose and Butter
+%R: slip-jig
+B: Niel Gow & Sons "Complete Repository" v.1 p.22 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Am
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+|:\
+Tc>de AcA Tc2A | c>de AcA dBG | Tc>de AcA ABc | TB2G Gge dBG :| cde ege ege | cde ege dBG |
+cde ege e^fg | T^f2d dge dBG || cde ege ege | cde ege dBG | cde ege e^fg | T^f2d dge dBG |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+|:\
+a3 a3 a3 | a3 a3 g3 | a3 a3 ^f3 | g3 g3 g3 :|\
+[c'3c3] [c'3c3] [c'3c3] | [c'3c3] [c'3c3] [g3G3] |
+[c'3c3] [c'3c3] [c'3c3] | [d'3d3] [d'3d3] [g3G3] ||\
+[c'3c3] [c'3c3] [c'3c3] | [c'3c3] [c'3c3] [g3G3] |\
+[c'3c3] [c'3c3] [^c'3^c3] | [d'3d3] [d'3d3] [g3G3] |]

@@ -1,0 +1,22 @@
+X: 1
+T: Casse-reel From Lotbiniere
+C: traditional (from Aim\'e Gagnon)
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+P: fiddle tunes AEAE
+Q: 1/2=116
+K: A
+"^A"|:\
+(v[eA]agf ec)(ec) | ([eA]f)(ga gf.[e2A2]) |\
+(v[eA]agf ed)(cA | c2)([BE]c B2)[B2E2] |
+(v[eA]agf ec)(ec) | ([eA]f)(ga gf.[e2A2]) |\
+([eA]agf ed)(cA |1 uc2)([BE]c A2) u.[A2E2] :|\
+[2 [M:3/2] uc2([BE]c A2).[A2E2] [E3A,3] (u[AE] ||
+"^B"|: [M:C|]\
+u[c2E2])([AE][cE] [BE][AE])([GA,][AE] | [BE][AE])([cE]A [B2E2])(u[B2E2] |\
+[c2E2])([AE][cE] [BE][AE])([GA,][AE] | [BE]A)([cE][BE] [A2E2])(u[A2E2] |
+[c2E2])([AE][cE] [BE][AE])([GA,][AE] | [BE][AE])([cE]A [B2E2])(u[B2E2] |\
+[c2E2])([AE][cE] [BE][AE])(u[GA,][AE] |1 [BE][AE])([cE]B [A3E3])([AE] :|\
+[2 [BE][AE])(v[cE][BE] [A2E2]) u[EA,] |]

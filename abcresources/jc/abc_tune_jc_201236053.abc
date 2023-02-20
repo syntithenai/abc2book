@@ -1,0 +1,28 @@
+X: 21592
+T: the Vocal Shell
+Q: "Slow"
+%R: reel
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.159 #2
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+N: Bar 26: (fg) changed to (f/g/) to match the other similar bars and fix the rhythm.
+M: C
+L: 1/8
+K: G
+G2 |\
+TB2d2 (ge)(dc) | (dB) (AG) TF2 (ED) |\
+G2 (G/A/)B (BA)(AG) | (A/B/)c cB (B2 A)A |\
+c2 (ge) (d^c)(BA) |\
+(df)(eg) (g2f)g | (a<f) Te>d B2^c2 |
+(d3e) d2 :: d2 |\
+{fg}a3g Tf2(ed) | g2(dc) B2(cd) |\
+e2d2 E2(FG) | (AB)(cA) (G2F)A |\
+(cB)(AG) c3d | (ec)ge (e2d)c |
+TB2(AG) E2F2 | (G3A) G2 :: G2 |\
+(Bd)(de) g2(ec) | dbag Tf2(ed) |\
+e2(e/f/)g G3A | (Bg)(dB) (B2A)A |
+.Bg(ed) .^ca(fe) | .d(bgf) .e(^c'ag) |\
+(fd')(^c'b) (ag)(fe) | d3e d2 :: (de) |\
+(f/g/)a .a.a afTed | (e/f/)g .g.g Tg3d |
+e2 (3(dBG) E2(FG) | (Ae)(cA) (G2F)A |\
+(3cdc (3BAG (3ced (3cBA | (3Bdg (3gfe (e2d)c' |\
+(b<d')(g<b) e2Tf2 | (g3a) g2 :|

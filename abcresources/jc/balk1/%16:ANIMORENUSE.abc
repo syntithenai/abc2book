@@ -1,0 +1,15 @@
+X: 16
+T:Ani More Nuse
+O:Albania
+F: http://www.youtube.com/watch?v=zfscfo9mDj0
+M:4/4
+L:1/8
+K:Fdor
+Q:1/4=160
+%%MIDI program 110 Fiddle
+%%MIDI drum ddddd2d2 43 36 43 36 50 41 70 60 70 60 90 90
+%%MIDI drumon
+|:FG AB A2 G2|FG AB A2 G2|FG AB cA BG|AF GE F4::
+%%MIDI drumoff
+  F2 F2 F2 c2|c2 B2 B2 c2|B2 A2 G2 E2|F4 F4::
+  B2 A2 B2 A2|G4    F4   |G2 F2 G2 E2|F4 F4:|

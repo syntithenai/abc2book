@@ -1,0 +1,25 @@
+X: 1
+T: Save the Hornpipe
+C: Mike Mahar
+R: hornpipe
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|:\
+"G"D2 GA B2 AB | "C"cB AG E2 E2 |\
+[1,3 "D7"A2 AB c2 Bc | "G"ed ^ce d2 (3dBG :|\
+[2,4 "D7"D2 FA c2 BA | "G"G2 B2 G4 :|
+|:\
+"C"c2 cd ed c2 | "G"BA Bc BA G2 |\
+[1,3 "C"c2 cd e2 g2 | "D7"fe fg fe d2 :|\
+[2,4 "D7"D2 FA c2 BA | "G"G2 B2 G4 :|
+% %begintext align
+% % A lot of hornpipes are sped up and played as reels. My friend Sandy
+% % thinks that they should be played as hornpipes if they are hornpipes.
+% % On a lark, she founded the National Save the Hornpipe Society. She made
+% % buttons for us all to wear. This tune is named after the society.
+% % Hornpipes often have the word hornpipe as part of their title. So, properly,
+% % this tune should be called Save the Hornpipe Hornpipe but that seems a bit
+% % redundant. So it's just Save the Hornpipe.
+% %endtext

@@ -1,0 +1,23 @@
+%%scale 1.2
+%%barsperstaff 4
+X:1
+T:Happy Birthday
+T:Good Morning To You ((c)1893, (c)1896)
+C:Good Morning To You - Public Domain
+M:3/4
+L:1/4
+N:The 1935 and 1963 copyrights for Happy Birthday are
+N:probably illegal.
+%%staves{RH1 RH2}
+K:D
+V:RH1 clef=treble
+|"^Key of D"A/2A/2|"D"B A d|"A"c2 A/2A/2|B A e|"D"d2 A/2A/2
+w:Hap-py Birth-day to you. Hap-py Birth-day to you. Hap-py
+w:Good_ Morn-ing to you. Good_ Morn-ing to you. Good_
+|a f d|"G"c B2-|B2 g/2g/2|"D"f d "A"e|"D"d2|
+w:Birth-day to (person name)._ Hap-py Birth-day to you.
+w:Morn-ing Dear Child-ren._ Good_ Morn-ing to you.
+V:RH2 clef=treble
+K:G
+|"^Key of G"D/2D/2|"G"E D G|"D"F2 D/2D/2|E D A|"G"G2 D/2D/2
+|d B G|"C"F E2-|E2 c/2c/2|"G"B G "D"A|"G"G2|

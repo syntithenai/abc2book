@@ -1,0 +1,26 @@
+X:1
+T: Rostillion
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 36 notes)
+K:D
+M:4/4
+L:1/16
+d2 c2 |d4 D4 F4 A4 |B8 A8 |B2 c2 d4 c2 d2 e4 |c6 B2 A4 d2 c2 |d4 D4 F4 A4 |B8 A8 |B2 c2 d2 B2 c2 d2 e2 c2 |d12 d2 c2 |
+%W: A2
+% voice 1 (1 lines, 34 notes)
+d4 D4 F4 A4 |B8 A8 |B2 c2 d4 c2 d2 e4 |c6 B2 A4 d2 c2 |d4 D4 F4 A4 |B8 A8 |B2 c2 d2 B2 c2 d2 e2 c2 |d12 d2 e2 |
+%W: B1
+% voice 1 (1 lines, 37 notes)
+f4 d4 e4 f4 |g8 f8 |g2 f2 e2 d2 c2 d2 c2 d2 |e2 d2 c2 B2 A2 c2 d2 e2 |f4 d4 e4 f4 |g8 f8 |e2 d2 c2 B2 A4 c4 |d12 d2 e2 |
+%W: B2
+% voice 1 (1 lines, 35 notes)
+f4 d4 e4 f4 |g8 f8 |g2 f2 e2 d2 c2 d2 c2 d2 |e2 d2 c2 B2 A2 c2 d2 e2 |f4 d4 e4 f4 |g8 f8 |e2 d2 c2 B2 A4 c4 |d12 ||

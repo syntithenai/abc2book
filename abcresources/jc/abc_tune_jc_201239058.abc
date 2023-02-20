@@ -1,0 +1,22 @@
+X: 32012
+T: A FRENCH VALSE
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.201 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Halved note lengths in bars 20, 28.
+M: 3/8
+L: 1/16
+K: D
+ua2 |\
+ba^ga=ge | d2(Ad)fd | e2(Ae)ge | (gf)efd2 |\
+ba^ga=ge | d2(Ad)fd | (eg)bgec | d4 :|
+|: uA2 |\
+(Ac)ecg3 | (Ad)fda2 | (Ac)ecg2 | (Ad)fda2 |\
+ba^ga=ge | d2(Ad)fd | (eg)bgec | d4 :|
+|: uA2 |\
+d2(fd)fd | f2(af)af | e2 ((3bag (3fge) | dfad'af |\
+d2(fd)fd | f2(af)af | e2 ((3bag (3fge) | d4 :|
+|: uf2 |\
+g2 ((3e'd'c' (3bag) | f2 ((3d'c'b (3agf) | e2 ((3bag (3fge) | dfad'af |\
+g2 ((3e'd'c' (3bag) | f2 ((3d'c'b (3agf) | e2 ((3bag (3fge) | d4 :|

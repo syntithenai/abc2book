@@ -1,0 +1,33 @@
+X: 156
+T: the Merry Bacchanal
+T: Longways &c.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.78
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+N: Transcribed one "chang" as "change".
+M: 6/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+c>de dcB | c3 G3 | ABc GFE | D3- D2B |\
+c>BA dcB | A3 D2D | E>^FG DG^F | G3- G2 :|
+|: B |\
+c>BA d>ef | ^G3 E2E | FED EA^G | A3- A2c |\
+B>AG cde | d>cd G2f | edc Adc | B3- B2f |\
+edc GcB | c3- c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st 4 Cu. dance to each other, then single
+%% and change places .| then dance as before, turn
+%% single and change places :| the 1st Cu. go
+%% inside and outside below the 4th Cu. and turn
+%% single .| take all hands, turn half round and
+%% back again .| the 1st Cu. lead up to the top
+%% and turn single and half figure.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

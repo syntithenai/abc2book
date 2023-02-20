@@ -1,0 +1,28 @@
+X: 20841
+T: Waltz
+C: Strauss.
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.84 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+E2G2c2 | f2z2e2 | f2z2e2 | (e4d2) |\
+F2B2d2 | g2z2f2 | g2z2f2 | (f4e2) |\
+c2e2g2 | b2z2a2 | b2z2a2 | (a4g2) |\
+G2c2a2 | (g4f2) | G2B2g2 | (f4e2) |\
+E2G2c2 | fGf2e2 |
+fGf2e2 | eFe2d2 |\
+F2B2d2 | gBg2f2 | gBg2f2 | fGf2e2 |\
+c2e2g2 | bcb2a2 | bcb2a2 | aca2g2 |\
+A2^c2a2 | (g4f2) | G2B2g2 | (f4e2) |:\
+e3d^cd | {e}d^cd[=c'=c][bB][aA] | a3g^fg | g4e2 |
+e3d^cd | b3afd | d3cBc | a3gec |\
+e3d^cd | {e}d^cd[=c'=c][bB][aA] | a3g^fg | g4e2 |\
+ed^cdf[=c'=c] | bagfed | c2ecGE | C2z2ee :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

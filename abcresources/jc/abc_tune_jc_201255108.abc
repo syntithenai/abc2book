@@ -1,0 +1,80 @@
+
+X: 1
+T: Border Reel    [A]
+P: Longways for as many as will
+O: 1731
+%R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.43
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: "Each Strain twice." Repeats corrected to match this instruction.
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+cAA eAA | cAA e2c | dBB fBB | dBB f2e |\
+cAA eAA | cAA e2c | d2e fga | edc TB2A :|
+|:\
+cAA f/g/a/g/f/e/ | cAA e2c | d2B f/g/a/g/f/e/ | dBB f2e |\
+cAA f/g/a/g/f/e/ | cAA e2c | d2e fga | edc B2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+"A"a3 A3 | a3 a3 | "Bm"b3 B3 | b3 "(E7)"B2g |\
+"A"a3 A3 | a3 A3 | "D"f2e d2c | "A"cBA "E7"e2A :|
+|:\
+"A"a3 "(D)"A3 | "A"a3 A3 | "Bm"b3 "(F#m)"B3 | "Bm"b3 "(E7)"b2g |\
+"A"a3 "(D)"A3 | "A"a3 A3 | "D"f2e d2c | "A"cBA "E7"e2A :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The two 1st Men whole figure round their Partners,
+%% then the 1st Man lead his Partner thro' the 2d Cu.
+%% the two 1st We. figure round the Men and the Wo lead her Partner thro :|
+%% the 1st Man sett to the 2d Wo and turn single.
+%% the 1st Wo. sett to the 2d Man, and 1st Cu. cast off.
+%% the 1st Man takes his Partner by both hands and draws her quite round the 3d Cu. and round the 2d Cu. :|
+%%endtext
+
+%%sep 1 1 500
+
+X: 1
+T: Border Reel    [G]
+P: Longways for as many as will
+O: 1731
+%R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.43
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: "Each Strain twice." Repeats corrected to match this instruction.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+"G"BGG dGG | BGG d2B |\
+[1,3 "Am"cAA eAA | cAA "(D7)"e2d :|\
+[2,4 "C"c2d efg | "G"dcB "D7"TA2G :|
+|:\
+"G"BGG "(C)"e/f/g/f/e/d/ | "G"BGG d2B |\
+[1,3 "Am"c2A "(Em)"e/f/g/f/e/d/ | "Am"cAA "(D7)"e2d :|\
+[2,4 "C"c2d efg | "G"dcB "D7"A2G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% V: 2 clef=bass middle=d
+% |:\
+% g3 G3 | g3 g3 | a3 A3 | a3 A2f |\
+% g3 G3 | g3 G3 | e2d c2B | BAG d2G :|
+% |:\
+% g3 G3 | g3 G3 | a3 A3 | a3 a2f |\
+% g3 G3 | g3 G3 | e2d c2B | BAG d2G :|
+% % - - - - - - - - Dance description - - - - - - - -
+% %%begintext align
+% %% The two 1st Men whole figure round their Partners,
+% %% then the 1st Man lead his Partner thro' the 2d Cu.
+% %% the two 1st We. figure round the Men and the Wo lead her Partner thro :|
+% %% the 1st Man sett to the 2d Wo and turn single.
+% %% the 1st Wo. sett to the 2d Man, and 1st Cu. cast off.
+% %% the 1st Man takes his Partner by both hands and draws her quite round the 3d Cu. and round the 2d Cu. :|
+% %%endtext

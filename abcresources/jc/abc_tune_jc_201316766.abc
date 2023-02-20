@@ -1,0 +1,14 @@
+X: 248
+T: the New Langolee   #2
+R: jig
+%S: s:3 b:16(4+4+4)
+B: O'Neill's 1850 #248
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Compacted via repeat plus ignoring slurs and other "expression" notation   [JC]
+N: Things like slurs and identical tied notes are from the lyrics, and are dropped.
+Q: "With expression"
+M: 6/8
+L: 1/8
+K: G
+"^A"|: D | D>EF GAB | c>ed cBA | BGE DEG | B>cA G2 :| "^B"[|] c | BGB dBd | e>dc dBG |
+| G>Bd efg | G>AG GE || D | cec BdB | A>GA BGE | GFE D<dc | B>cA G2 |]

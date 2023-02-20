@@ -1,0 +1,20 @@
+X: 21123
+T: the LADIES OF CARRICK
+O: Irish air.
+Q: "Jig time."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.112 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B !segno!|:\
+ADD AGF | ADD Bcd | ADD AGF | BEE Bcd |\
+ADD AGF | ADD A2F | GAB AGF | BEE E2 |]
+c |\
+def gea | fdd d2A | def gea | fdB (B2c) |\
+def gea | fdf gfe | fda gfe |\
+[1 fdB Bcd !segno!:|[1 fdd "^Fin."d2 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,33 @@
+X: 1
+T: Blowzabella
+%R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 3: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.26
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The rhythms of repeats aren't all correct; fixed by adding initial rests and adjusting lengths of final notes.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 reformatted for compactness and easy proofreading.
+V: 1
+z |\
+d2c B>AG | c2A B2G | d2c B>AG | A2D G2 :: z | g2d BGB | cAc B>AG | g2d BGB | ADF G2 :: G/A/ | BAB cBc | d3- d2c |
+B>cB A>BA | G3- G2 :: z | g2G g2G | A>BA B2G | g2G g2G | A>BA G2 :: G/A/ | BAB cBc | d3- d2c | B>cB A>BA | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+g3 G3 | g3 G3 | g3 G3 | d3 G2 :: z | g3 G3 | g3 G3 |
+g3 G3 | d3 G2 :: z | g3 G3 | g3 G3 | g3 d3 | G3- G2 :: z | g3 G3 | d3 G3 |
+g3 G3 | d3 G2 :: z | g3 G3 | g3 G3 | g3 d3 | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text Blowzabella a Scotch Country dance.
+%%begintext align
+%% The 1st Cu. foots it and cast off .| first foots it again and cast off below
+%% the 3d Cu. :| first Cu. leads up to the top . and cast off .| First Cu.
+%% leads thro the 3d Cu. :| first Cu. turns hands .| first Cu. turns back
+%% again :| the 1st Cu. foots it .| and then clap hands :| the 1st man double
+%% figures thro. the 3d Cu. 1st Wo. at the same time double figuers
+%% thro the 2d Cu.
+%%endtext

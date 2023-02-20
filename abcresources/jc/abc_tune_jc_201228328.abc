@@ -1,0 +1,26 @@
+X: 111
+T: Miss Stuart of Allbank's Strathspey
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.11#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Fixed cross-beat beams in bars 10, 14.
+N: The low Eb notes aren't playable on fiddle; perhaps G was meant?
+Q: "Slow"
+R: strathspey
+M: C
+L: 1/8
+K: Eb
+V: 1
+E<B,~GB {B}AG~FE | E<B,GB (A/c/B/A/)~G2 |\
+~c(d/e/) ~B(d/e/) f/d/B/A/ A/G/c/B/ | B>ecA (G/F/)(A/G/) B/A/G/F/ |
+E<B,~GB {B}AG~FE | E<B,GB (A/c/B/A/)~G2 |\
+~c(d/e/) ~B(d/e/) (f/d/).B/.A/ (A/G/).c/.B/ | B>ecA G/B/A/D/ E2 ||
+!f![EE,]>e g>e (e/d/).c/.B/ (B/c/)(d/e/) | B>e A/G/c/B/ ~(B/G/A/c/) B2 |\
+B/e/d/e/ f/d/e/G/ A/c/f/a/ g/b/B/G/ | A>c !p!Be G/B/A/D/ E2 |
+!f![EE,]>e g>e (e/d/c/B/) (B/c/d/e/) | B>e (A/G/)c/B/ ~(B/G/A/c/) B2 |\
+(B/e/d/e/) f/d/e/G/ A/c/f/a/ g/b/B/G/ | A>c B>e G/B/A/D/ E2 |]
+V: 2 clef=bass middle=d
+e2e2 (b2=bc') | g2ed (cd)e2 | a2g2 d2e2 | g2a2 b2B2 |
+e2e2 (b2=bc') | g2ed (cd)e2 | a2g2 d2e2 | g2a2 bBe2 ||
+e2e2 f2g2 | zg/a/ ba/g/ (_d'c') (d/f/b/a/) | g2ag fde2 | (c/d/f) (g/b/g/e/) bBe2 |
+e2e2 f2g2 | zg/a/ ba/g/ (_d'c') (d/f/b/a/) | g2ag fde2 | (c/e/a) (g/b/g/e/) bBe2 |]

@@ -1,0 +1,26 @@
+X:1
+T: Filigree
+N:
+C:Gregory Brown
+S:Tune is : Lady Marian
+A:
+O:
+R:
+M:4/4
+K:C
+I:speed 200
+%W: A
+% voice 1 (1 lines, 24 notes)
+K:C
+M:4/4
+L:1/16
+e4 c2 e2 d4 g4 |c4 A2 c2 B4 e4 |A4 B2 c2 G4 c4 |A4 B2 c2 d2 G2 A B c d |
+%W:
+% voice 1 (1 lines, 21 notes)
+e4 c2 e2 d4 g4 |a4 c2 a2 g4 f2 e2 |f4 g2 f2 e4 c4 |G2 c2 c2 B2 c8 |
+%W:
+% voice 1 (1 lines, 22 notes)
+c'4 a2 c'2 b4 g4 |a4 c2 a2 g8 |c'4 a2 c'2 b2 a2 g4 |a4 c2 B c d6 c d |
+%W:
+% voice 1 (1 lines, 18 notes)
+e4 c2 e2 g8 |a4 b2 a2 g8 |f4 g2 f2 e4 c'4 |G2 c2 c2 B2 c8 ||

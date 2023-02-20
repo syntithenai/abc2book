@@ -1,0 +1,21 @@
+X: 4
+T: Just the Thing
+%R: jig
+B: "Twenty Four Country Dances for the Year 1782", Thomas Skillern, ed. p.2 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1782#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+d |\
+B2G G2A | B2G G2G | A2B c2B | A2G F2D |\
+G2G GAB | d2d d>ef | g2d e>dc | B2G G2 :|
+|: A |\
+B2G G2A | B2G G2A | A2B c2B | A2G F2D |\
+G2G GAB | d2d d>ef | g2d e>dc | B2G G2 :|
+%%begintext align
+%%   Turn your Partner half round with the
+%% Right hand Turn her back with the left hand
+%% .| Le promenade 3 Cu.s quite round .|. lead down
+%% the middle up again & cast off :|. right & left at top.
+%%endtext

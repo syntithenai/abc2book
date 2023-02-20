@@ -1,0 +1,26 @@
+X: 20022
+T: DOWN THE BURN DAVIE
+O: Scottish air.--First set.
+Q: "Slow."
+%R: air, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.2 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(F/G/A) |\
+{G}F3E (DE)(FG) | A2(G>F) F2(AB) |\
+c2F2 (dcB)A | (A2G2) z2AG |\
+{G}F3E (D>EF)G | A2(GF) f3c |\
+d3A (c>dc)B | {B}A6 :|
+|: c2 |\
+d2{de}f2 c3d | A2{AB}c2 (BAG)F |\
+(BAB)c (d>ef)A | (A2G2) z2(AG) |\
+F3E (D>EF)G | A2(GF) f3c |\
+d3A (c>dc)B |1 {B}A6 :|2 {A}G2 F4) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

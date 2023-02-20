@@ -1,0 +1,26 @@
+X:1
+T: January Girl
+N:
+C:Brian Jenkins
+S:
+A:
+O:
+R:
+M:4/4
+K:C
+I:speed 200
+%W:
+% voice 1 (1 lines, 29 notes)
+K:C
+M:4/4
+L:1/16
+E6 F2 ^F4 G4 |e6 e2 d4 c4 |d6 d2 c4 A4 |D16 |D6 D2 E4 F4 |d6 d2 c4 B4 |A4 G4 A4 G4 |E4 G4 ^F4 =F4 |
+%W:
+% voice 1 (1 lines, 34 notes)
+E6 F2 ^F4 G4 |e6 e2 d4 c4 |d6 d2 c4 A4 |D4 A4 B4 A4 |G4 e4 c3 A G3 ^F |=F2 d4 F2 e4 d4 |c16|c4 c3 d e3 d c4 |
+%W:
+% voice 1 (1 lines, 39 notes)
+A4A3 A c3 d f4 |a4 c3 d e3 d c4 |G6 G2 A3 c d4 |e4 e4 f4 e4 |d4 e3 dd3 c A4 |d3 c A3 dd3 A e4 |d16|d4 G4 ^F4 =F4 |
+%W:                                                                                                                         Finale
+% voice 1 (1 lines, 34 notes)
+E6 F2 ^F4 G4 |e6 e2 d4 c4 |d4 c4 A4 F4 |D4 A4 B4 A4 |G4 e4 e3 d c3 A |e3 d c3 ee3 B d4 |c16 |G8 F8 ||c16|c16 ||

@@ -1,0 +1,11 @@
+X: 1
+T: Hollow Poplar
+M: C|
+F: http://www.thursdaycontra.com/~spuds/tunes/reels/HollowPoplar.abc
+K: G
+Bc \
+| "G"d4d2 Bc | d2B2 AGAB | "C"c4 c2 AB | c2B2 AGEG \
+| "G"DEGA Bdef | g2f2 edBA | G2 BG "D7"AG F2 | "G"G6 :|
+|: Bc \
+| "G"d4g4 | g2f2e2d2 | "D"fa-a2 a2 fg | a2f2 edef \
+| "G"gfef gfef | "C"g2 f2 edBA | "G"G2 BG "D7"AG F2 | "G" G6 :|

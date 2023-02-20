@@ -1,0 +1,25 @@
+X: 05024
+T: FAREWELL TO THE CRATE
+C: Bob McQuillen 25 Nov.80
+B: Bob's Note Book 5 #24
+%R: reel, shottish, hornpipe
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: There's an end-repeat :| symbol at the end, but no others, probably a typo.
+N: The last note was a low B quarter-note; changed to another half-note.
+M: C
+L: 1/8
+K: D	% and Bm
+AA \
+| d2D2 D2FE | DEFG A2FA | BABd A2F2 | E2 D4 AA || d2D2 D2FE | DEFG A2de | fedc B2ed | c2A2 Bcde |
+| fedc B2ed | c2A2 A2de | fedf a2g2 | f2 e4 AA || defg afed | c2B2 B3g | fagf e3d | d6 :|
+K: Bm
+[| DE \
+| FDB,2 B,2DE | FDCD B,2DE |F2ED E2FE | D2 B,4 DE || FDB,2 B,CDE | F2BA BcBA | F2EF A2FE | F2 B4 Bc |
+| d2Bd cBAG | F2B2 B2Bc | d2ed cBAG | F2 A4 FA || B2A2 FEDE | F2B2 BcBA | F2DF E2FE | D2B,4 |]
+%%begintext align
+%% With love to Lindberg's Crate and all that therein was.
+%%endtext
+%%begintext align
+%% (You might want to try this one
+%% as a Schottische or Hornpipe.)
+%%endtext

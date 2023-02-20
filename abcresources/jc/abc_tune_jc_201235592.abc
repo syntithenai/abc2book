@@ -1,0 +1,36 @@
+X: 21241
+T: the MATCH BOY
+P: Arranged as a solo or duet.
+%R: hornpipe, shottish, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.124 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: This tune has 21 bars.
+M: C	% Actually, no time signature is given.
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 arranged for compact, small-scale format.
+V: 1 staves=2
+(d>e) |\
+f2 (f>g) a2 (a>b) | (ae) (ef) g3 b |\
+(a>b) (ag) (fe) (df) | (ed)(ef) {f}e2 (d>e) |\
+f2 f>g a2 a>b | (ae) (ef) g3 b |\
+a2 a>g {g}f2 a>d |
+e2 e>f d3 A |\
+a2 aa f2 dd | gg g2 e3 e |\
+(fd)(ec) (dB)(cf) | e2 ee HA3 A |\
+d2dd d2dd | (ed) (cB) A3 A |
+f2 ff f2 ef | (gf)(ed) (dc)(BA) |\
+(de)(fg) a<d' zg | (fage) d2 (f>g) |\
+(a<d') (f>g) (a<Hd') zc' | (ba)(gf) (e<Ha) d>e |\
+f>g e2 d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout.
+V: 2
+z2 |\
+A2 d>c d2 c2 | c2 c^d e3 g | f2 e2 (dc)(dA) | (BA)(cd) {d}c2 z2 | A2 d>c d2 d2 |
+c2 (c^d) e3 g | f2 e2 d2 A2 | B2 c2 d2 z2 | F2 FF D2 FF | EE E2 A3 e | (dB)(c^A) (B^G)(Ad) |
+cA ^GG A2 z2 | z2 FG A2 AB | cBA^G A3 z | (Ad) (Ad) (Ad) (cd) | (ed)(cB) A2 z2 | (dc)(dc)
+d2 ze | (dfec) d2 z2 | f2 z2 f2 za | (gf)(ed) e<a A>B | d>e c2 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

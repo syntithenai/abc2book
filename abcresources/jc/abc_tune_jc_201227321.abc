@@ -1,0 +1,19 @@
+X: 10721
+T: Andante
+C: Bossi
+Q: "Andante"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.72
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: 2nd part has initial repeat but no final repeat; added final repeat symbol.
+M: 2/4
+L: 1/16
+K: C
+G>G |\
+G2 e4 d>c | B2 f4 e>d | e{f/}e/d/ ef gedc | cBAG G2G>G |\
+G2 e4 d>c | B2 f4 e>d | egfd c2B2 | (d4 c2) :|
+|: g>g |\
+g2e>e g2c'2 | b2g2 z2g>g | g2e>e g2c'2 | b2g2 z2G>G |\
+G2 g4 e>c | A2 a4 f>d | c2c2 {e/}dcde | c2c2c2 :|
+%
+%%center -

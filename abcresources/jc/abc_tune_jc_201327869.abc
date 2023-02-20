@@ -1,0 +1,47 @@
+%%center The Races
+
+
+X: 1
+T: The Races v.1
+P: piffero primo a0648
+O: Ferrante bk 2
+%R: polka, march, reel
+F: http://ancients.sudburymuster.org/mus/sng/pdf/racesC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+(3ABc |\
+dcde d2f2 | dcde d2f2 | e2e2 e2e2 | a6 f2 |\
+dcde d2f2 | dcde d2f2 | e2ed cABc | d6 :|
+|: cd |\
+e2e2 e2fg | a2a2 f2d2 | e2e2 e2fg | agfe d2A2 |\
+dcde d2f2 | dcde d2f2 | e2ed cABc | d6 :|
+|: (3ABc |\
+d2A2 A2G2 | G2F2 dcde | f2d2 d2B2 | B2A2 A2f2 |\
+g2g2 e2g2 | f2f2 d2f2 | e2ed cABc | d6 :|
+
+
+X: 2
+T: The Races v.2
+P: piffero primo a0645
+O: Cushing
+%R: polka, march, reel
+F: http://ancients.sudburymuster.org/mus/sng/pdf/racesC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+E2 |\
+FEFG F2A2 | FEFG F2d2 | cAcA cAcA | F6 E2 |\
+FEFG F2A2 | FEFG F2A2 | G2GF E2A2 | F6 :|
+|: AB |\
+cAcA cAde | f2f2 d2d2 | cAcA cAde | fedc d2A2 |\
+FEFG F2A2 | FEFG F2A2 | G2GF E2A2 | F6 :|
+|: (3FED |\
+F4   F2E2 | E2D2 DEFG | A4   A2G2 | G2F2 F2A2 |\
+B2B2 G2B2 | A2A2 F2A2 | G2F2 E2DC | D6 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

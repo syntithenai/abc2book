@@ -1,0 +1,31 @@
+X: 1
+T: Barcelona
+%R: slip-jig, triple hornpipe
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (171)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Added missing dot to the last note.
+N: The 2nd 3 in bar 7 isn't marked; it's probably e natural.
+M: 9/8
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+G2g f2e (d/e/f)d | c2d edc dcB |\
+A2B cBA BAG | D2G (^F/G/A)^F G2A |\
+B2B BAG d2A | B2B BAG d2A |\
+d2=e fed (^c/d/e)^c | d2D ^F2A d3 |]
+[|\
+d2f fgf fga | b2f fgf fdB |\
+A2e edc cd=e | f2c cdc cBA |\
+B2B B_AG Gc=B | c2d edc dG=B |\
+c2d cBA BGe | dg^f g3- g3 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1st Man go Back to Back with the 2d Wo and the 1st Wo. go Back
+%% to Back with the 2d Man then the 1st Cu. cross over below the 2d
+%% Cu. and then Back to Back with your own Partners then cast up
+%% and cross over into the 2d Cu. Places then clap Hands and turn
+%% your own Partners.
+%%endtext
+%%sep 1 8 500

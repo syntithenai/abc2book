@@ -1,0 +1,29 @@
+X: 331
+T: HONble MISS JESSIE A RUTHVEN
+C: A. LEBURN
+R: Strathspey
+B: Glen Collection p.33 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Cm
+%
+V: 1
+E/D/ |\
+CccG E>F {E}GF/E/ | B,BBF (D/E/F/E/) {F}DC/B,/ | CccG E>FGg | {f}ed/c/ {e}dc/=B/ cCC :|
+c |\
+Gcec gcec | FBdB fBdB | Gcec gceg | g/f/e/d/ =B/c/d/f/ eccA |
+(Gce).c gcec | (FBd).B fBdB | c>ed>f e>gf>a | g/f/e/d/ =B/c/d/f/ ecc |]
+%
+V: 2
+z |\
+c2[g2e2] c2[g2e2] | d2[b2f2] B2[f2d2] |\
+c2[g2e2] c2e2 | g2G2 c2[gec] :|
+z |\
+c2[c'2g2] [c'2e2][c'2g2] | B2[b2f2] [d'2f2][b2f2] |\
+c2[c'2g2] [c'2e2][c'2g2] | [e'2g2][=b2g2] [c'2g2][c'2a2] |
+c2[c'2g2] [c'2e2][c'2g2] | B2[b2f2] [d'2f2][b2f2] |\
+g2f2 e2=B2 | c2G2 c2[gec] |]

@@ -1,0 +1,41 @@
+%%center The Wicklow March
+
+
+X: 1
+T: The Wicklow March v.1
+P: piffero primo a0900
+O: traditional
+%R: jig, march
+F: http://ancients.sudburymuster.org/mus/sng/pdf/wicklowmarchC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+D |\
+FGA AB=c | BGB AFA | BGE EGE | AFD DFD ||\
+FGA AB=c | BGB AFA | Bcd ecA | d3  d2  :|
+|: g |\
+fdf fdf  | ece ece | fdf fdf | geg geg ||\
+fdf fdf  | ecA AcA | Bcd ecA | d3  d2  :|
+
+
+X: 2
+T: The Wicklow March v.2
+P: piffero secondo a0903
+O: Dan Moylan
+%R: jig, march
+F: http://ancients.sudburymuster.org/mus/sng/pdf/wicklowmarchC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A |\
+AGF FGG | GEE D3 | DEE GAB | DDE F3 |\
+AGF FGG | GEE D3 | DEE GAB | A3  A2 :|
+|: e |\
+dAd dAA | GEc c3 | dAd dAA | GEc c3 ||\
+dAd dAA | GED D3 | DEF GGF | F3  F2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

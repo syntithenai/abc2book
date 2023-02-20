@@ -1,0 +1,26 @@
+X: 10032
+T: LOVELY BELL
+C: J. Davy
+Q: "Not too fast."
+%R: march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.3 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: In bar 30 there's a fermata on a grace note, which no ABC tools I have understand.
+M: 2/4
+L: 1/8
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+f2ec | fc zd | cAFA | {A}G2 zc |\
+c>ce>e | f2 zd | cABG | {A}GF zc |\
+(ca2) g | f3 d | c2A2 | G2 zc |
+c2e2 | f3 d | (cA)(BA) | {A}GF zG |\
+cGGc | {cd}e>dcc | fdec | eddz |\
+cc/c/ eg | afHfz | eg/e/ d{a}g | {f}e{d}cHcc |
+fcAd | cAFF | BGAF | AGGz |\
+AB/c/ dc | db H{a}Hg2 | fe/f/ g(f/g/) | affB |\
+AcGc | f3 d | c>A{c}B>G | F2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

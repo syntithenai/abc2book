@@ -1,0 +1,21 @@
+X: 1
+T: Tunturisatu valssi
+T: Mountain Fairy Tale waltz
+C: trad.
+O: Finnish
+R: waltz
+S: The Waltz Book II p.61
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+%%continueall
+"^Instr."[|] def ||\
+"Gm"g2 z2 [b2g2] | [d'2b2] z[c'a] [b2g2] | "Dm"[a2f2] z2 [f2d2] | [a2f2] z[ge] [f2d2] |\
+"A7"[a4^c4] "Dm"[e2d2] | "A7"[a2^c2] [f2=B2] [e2c2] | "Dm"d6- d2 "^fine"z4 ||
+"^Vocal"[|\
+"Dm"A4 BA | F4 D2 | "A7"E6 | A,6 | E4 ^DE | F4 A,2 | "Dm"D6 | F6 ||\
+A4 BA | F4 D2 | "A7"E6 | A,6 | "E7"E4 ^DE | "A7"F4 E2 | "Dm"D6- | D2 z4 ||
+"D7"d4 cA | ^F4 D2 | "Gm"A6 | G6 | "C7"c4 BG | E4 FG | "F"A6- | "A7"A6 ||\
+"Dm"A4 BA | F4 D2 | "A7"E6 | A,6 | "E7"E2 ^DE | "A7"F4 E2 | "Dm"D6- | D3 |]
+

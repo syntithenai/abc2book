@@ -1,0 +1,19 @@
+X: 1052
+T: Mrs Murray of Abercarney's Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.5 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Dmix
+% = = = = = = = = = =
+V: 1 staves=2
+|:\
+D/D/D TF2 A<DF<D | E<cG<c E<CTE2 | D/D/D TF2 A<DF<D | D<dF<d F<DF2 :| d/d/d d>f a>df>d | c/c/c e>c g<c e2 |
+f/f/f f>d a<df<d | A<dF<d F<DTF2 || d/d/d f>d a>df>d | c/c/c e<c g<ce2 | d>fe>g f>ae<g | f>de>c d<AF2 |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+d2d2 d2d2 | c2c2 c2c2 | d2d2 d2d2 | A2A2 d2d2 :| d2d2 d2d2 | c2c2 c2c2 |
+d2d2 d2d2 | A2A2 d2d2 || d2d2 d2d2 | c2c2 c2c2 | d2e2 f2g2 | a2A2 d2d2 |]

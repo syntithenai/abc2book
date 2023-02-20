@@ -1,0 +1,44 @@
+X: 01
+T: HEIDEWITZKA, HERR KAPIT\"AN!
+T: K\"olnisches Marschlied
+C: Text & Musik: K. Berbuer
+C: Arr: Georg Bauer
+%R: march
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+B: Fl\"ugelhorn Duets
+U: K=!accent!
+M: 2/4
+L: 1/8
+K: C
+%%continueall 1	% Useful when printing at different scales
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+!f!"C"GE/G/ c2 | cG/c/ e2 | "G7"(3dde (3ffe | dz "_fz"g"^Verse"z [|\
+!mf!"C"G2 G>G | GEGc | e2 c>A | G4 |\
+"G7"G2G>G | d4 | "C"e2 "F"c>A | "C"G4 |
+"C"G2 G>G | GEGc | "C"e2 c>A | G4 |\
+"G"B2 B>B | "B7"B2 B2 | "Em"e4- | ee/e/ ee |\
+"F"f2 e>d | A4 | "C"e2 d>c | G4 |
+"C"c2 c>c | e2 c2 | "D7"A2 B>c | "G7"d4 |\
+"C"G2 G>G | G"cresc."EGc | e2 c>A | G4 |\
+!f!"D7"d2 d>d | ed cA | "G7"G4- | Gz 
+!mf!"^Kehrreim:"|: "C"e>d | "^mf -- f"d2 c2- | cG A>G | "G7"B4- | BB (3Bc^c | d2 A2 | c>c BA | "C"G4- |
+w: Hei-de-witz-ka,_ Herr Ka-pi-t\"an! - Me'm M\"ul-le-mer B\"o\"ot-che fah-re mer so g\"ahn,
+G"n.c."E F^F | "C"G2 c2 | d2 "D7"c2 | "G7"c>B B2- | BBc^c | d2 A2 | c2B2 |
+w: - m'r kann su sch\"on em Dunk-te schun-ke-le_ wenn \"uv-ver uns de St\"a\"a-ne
+"C"A>G G2- | G2 G>G | "C"c2 c2- | ce dc | "F"A4- | A d "n.c."(3def | "C"e2 c2 |
+w: fun-ke-te._ Hei-de-witz-ka, ~ Herr Ka-pi-t\"an!_ Me'm M\"ul-le-mer B\"o\"ot-che 
+"G7"d>c Bd |1 "C"c> E (3EF^F | "G7"G!f!z :|2 "C"cz K"G7"Gz | K"C"cz z2 |]
+w: fah-re mer so g\"ahn.**** | | | |
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+!f!GE/G/ c2 | cG/c/ e2 | (3dde (3ffe | Fz "_fz"B"^Verse"z [| !mf!E2 E>E | EC EE |
+G2 E>F | E4 | F2 F>F | F4 | G2 A>F | E4 | E2 E>E EC EE |
+G2 E>F | E4 | G2 G>G | ^D2 D2 | E4- | EG/G/ GG | A2 A>A |
+F4 | G2 E>E | E4 | E2 E>E | c2 E2 | ^F2 F>F | =F4 |
+E2 E>E | EC EE | G2 E>F | E4 | !f!^F2 F>F | ^FF FF |
+G4- | Gz !mf!|: "^Kehrreim:"E2 | "_mf - f"E2 E2- | EE E>E | F4- | FF F2 | F2 F2 |
+A>A GF | E4- | EE F^F | E2 E2 | G2 ^F2 | =F>F F2- | FGA^A |
+B2 F2 | A2 G2 | E>E E2- | E2 G>G | E2 E2- | EE EE | F4- |
+FA (3A^cd | G2 G2 | F>F FF |1 E>E (3EF^F | G!f!z :|2 Ez KFz | KEz z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

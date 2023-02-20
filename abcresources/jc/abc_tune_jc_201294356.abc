@@ -1,0 +1,26 @@
+X: 1
+T: Johnson's Jigg
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p._
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f |\
+d>cd e2f | (fg)G c2B | A3 f3 |\
+b>ag a2g | d=ef f>g=e | f3- f2 |]
+[| f |\
+c>fe d2c | (Bc)d (bg)b | a3 g3 |\
+f>ed ecf | d>cB cAd | c3 B3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The two men lead to the wall, the two we do the like at the same time, then back to back with their
+%% Partners .| The 1. cu. lead up, and the 2. cu. lead down, the two men back to back, sides, the other
+%% doing the like :| The 1. man turn the 2. with his right-hand, and turn his own Partner with his left, the 1.
+%% wo. turn the 2. man with her right-hand, and turn her own partner with her left, and cast off :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

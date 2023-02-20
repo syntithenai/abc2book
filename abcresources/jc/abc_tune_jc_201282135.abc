@@ -1,0 +1,41 @@
+X: 1
+T: the Gossips Frolick
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.71
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The ":S:" notation is an early form of a "segno" symbol; it means to repeat from that measure.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+def efd | c2A d2F | GAB ABG | F3 E2e |\
+efg gfe | f3 e2B | efg gfe | f3 e2e |\
+"^:S:"fga A2A | Bcd F2F | GAB A2f | e3 d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up all and fall back :| Turn round S back again, set to your own and fall back, arms with your own.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. cu. cast off into the 2. cu. place, and the 2. cu. slip up and change places with his own, the 1. man and second
+%% wo. and the first wo. and the second man meet, set, then set to your own, the first cu. lead up betwixt the second cu. and
+%% change places with his own; the first and second men, and the first and second we. change places, then change with
+%% your own. Do this to all, the rest following.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The first and second cu. meet and fall back, turn round S. turn back again, walk round all four till the first man comes
+%% into the second man's place, then take the second wo. by both hands, and turn her quite round, while the first wo. goes
+%% into the second wo. place, and the first man into the second man's place. Do this to all the rest following.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The first co. man change places with his wo. the first man go on the out-side of the 2. wo. and stand before her, and the
+%% 1. wo. go on the out-side of the 2. man and stand before him, the 1. man set to his wo. whilst the 2. man and 2. wo. walk
+%% to the wall; then meet the co. the 1. man lead up his wo. and change places, and cast off into the 2. cu. place, whilst the
+%% 2. cu. lead up. Do this to all the rest following.
+%%endtext
+%%sep 1 8 500

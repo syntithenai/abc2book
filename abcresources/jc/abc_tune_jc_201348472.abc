@@ -1,0 +1,11 @@
+%%staffwidth 300
+X:1
+T: TEST: Treble, bass voices
+K: C
+V:1 name="soprano" middle=B
+V:2 name="bass" clef=bass
+%
+[V:1] | CDEF GABc | cdef gabc' |
+w:  C D E F  G A B c |  c d e f  g a b c' |
+[V:2] | CDEF GABc | cdef gabc' |
+w:  C D E F  G A B c |  c d e f  g a b c' |

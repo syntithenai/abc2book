@@ -1,0 +1,35 @@
+X: 1
+T: Smith's Rant
+P: Longways for as many as will
+%R: hornpipe, rant
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.40 #73
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+F2 A>B c2 A2 | B>c A>B G2 F2 | f2 e>f g2 e2 | f>g e>f d2 c2 |][|\
+g2 a>b a3 (g/f/) | e>f d>e ^c2 de | f2 d>f g2 e>g | a>f b>a g2 f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the Presence, then to your We. lead up forward and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First Sides with your own Wo. then on the other Side, then both clap
+%% Hands and make a Pass at each other and turn single, then turn your
+%% own Wo. once and a Half, and so on to the next, 'till you come to
+%% your own Places.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then the 1st Man take his own Wo. by the right Hand, holding it up
+%% 'till the 2d Wo. passes under, then face about while the 2d Wo. goes
+%% back again, then they three clap Hands and make a Pass altogether,
+%% and all three turn single, then take Hands and do the same to the
+%% 2d Man, and so to the end.
+%% [CCDM1]
+%%endtext
+%%sep 1 8 500

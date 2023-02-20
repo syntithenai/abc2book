@@ -1,0 +1,20 @@
+X:204
+T: Hatishma Koli
+O: Israel
+C: Yosef Mustaki and Shmulik Kraus 1977
+M: 2/4
+L: 1/8
+K: Dm
+Q: 1/4=120
+%%MIDI program 74 Recorder
+P:A
+FG|AFAF|GEC2|z2DE|\
+FDFD|E^CA,2|z2A,2|DEFG|\
+A4|z2GF|E4|^C2D2-|D2z4|
+P:B
+M: 3/4
+L: 1/8
+|:"Dm"A,2|D4EF|"Am"E4DC|"Dm"D4A,2|"C"C4A,2|\
+"Dm"D4EF|"C"E4DC|"Dm"F4A2|"Gm"G4FG|
+"Dm"A4GF|"Gm"G4FE|"Dm"F4GA|"C"E4DC|\
+"Dm"D4ED|"Gm"B,4B,z|"Am"A,4^C2|"Dm"D6:|

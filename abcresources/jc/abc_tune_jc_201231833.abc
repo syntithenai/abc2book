@@ -1,0 +1,92 @@
+X: 1601
+T: CONVERSATION WALTZ
+O: Arranged by Adam Kurek
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.160-162
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: In bar 28, the thick-bar phrase boundary for flute is positioned earlier than the other three voices.
+N: Phrase boundary in bar 28 changed to match bar 36, which seems correct.
+N: There's a repeat at bar 42 that makes no sense; dropped so that bar 36 repeat matches repeat at fine.
+M: 3/4
+L: 1/8
+V: 1 brace=4 staves=0
+V: 2
+V: 3
+V: 4 clef=bass middle=d
+%%staves [1 2 3 4]
+%%continueall 0
+K: C
+% -------------------------
+V: 1
+"1st VIOLIN"!ff!(^d/e/)(d/e/) |\
+[c4E4] (^d/e/)(d/e/) | [e4c4] (^d/e/d/e/) | [c2E2][c2E2][c2E2] | e2c2z2 |\
+z2z2g>g | e2c2[c'2e2] | [b2d2][g2B2D2][g2B2D2] | [g4B4D4] :|
+z2 |\
+z2[B2^G2][B2G2] | z2[c2A2][c2A2] | z2[B2^G2][B2G2] | z2[c2A2][c2A2] |\
+z2[A2^F2][A2F2] | z2[B2G2][B2G2] |
+z2[A2^F2][A2F2] | [B4G4]z2 |\
+z2z2!ff!e'2 | d'4z2 | z2z2[c'2e2] | [b2d2][b2d2](^d/e/d/e/) |\
+[e4c4] (^d/e/d/e/) |
+[e4c4] (^d/e/d/e/) | [c2E2][c2E2][c2E2] | e2c2z2 |\
+z2z2g>g | e2c2[c'2e2] | [b2d2][b2d2][b2d2] | [c'2e2]z> ]
+[K:F] zz2 |\
+!p!A3!trem1!c3 | A>cf>d'c'>=b | c'>_bg>dc>=B | c>A F2!trem1!A2 | A3!trem1!c3 | A>c c>dc>=B |
+G>B c>c'b>e | f2z> |: zz2 | !p![B2G2][B2G2]z2 | [A2F2][A2F2]z2 | [B2G2][B2G2]z2 | z6 |
+z6 | z2z>dc>=B | !ff!c>fa>c'b>g | f>a c>d'c'=b | c'>_b g>dc>=B |
+c>A F>d'c'>=b | c'>a f>c'b>g | f>a c>dc>=B | c>_B G>c'b>g | [f2A2]z2 H:|
+% -------------------------
+V: 2
+"2d VIOLIN"z2 !ff!|\
+[G4G,4]z2 | [G4G,4]z2 | [G2G,2][G2G,2][G2G,2] | E2C2G>G |\
+E2C2z2 | [c2E2G,2][E2G,2][E2G,2] | [D2B,2][G2B,2][G2B,2] | [G4B,4] :|
+z2 |\
+z2E2E2 | z2E2E2 | z2E2E2 | z2E2E2 |\
+z2D2D2 | z2D2D2 | z2D2D2 |
+[D4B,4] [GG,]>[GG,] | [G2G,2][G2G,2]!ff![c2E2G,2] | [B4G4][GG,]>[GG,] | [G2G,2][G2G,2][c2E2G,2] |\
+[B2D2][B2D2]z2 | [G4G,4]z2 | [G4G,4]z2 | [G2G,2][G2G,2][G2G,2] |\
+[E2G,2]C2[GG,]>[GG,] | [E2G,2]C2[ec]>[ec] |
+[c2E2][E2G,2][c2E2] | [B2D2][B2D2][B2D2] | [c2E2]z> ]\
+[K:F] zz2 |\
+!p!F3!trem1!A3 | F3!trem1!A3 | G3!trem1!B3 | FA A,2!trem1!C2 |\
+F3!trem1!A3 | F3!trem1!A3 |
+G3!trem1!B3 | [A2F2]z> |: zz2 | !p![E2C2][E2C2]z2 | C2C2z2 |\
+[E2C2][E2C2]z2 | z6 | z6 | z6 |
+!ff![A2F2][A2F2][A2F2] | [A2F2][A2F2][A2F2] | [B2G2][E2G,2][E2G,2] | [F2A,2][A2F2][A2F2] |
+[A2F2][A2F2][A2F2] | [A2F2][A2F2][A2F2] | [B2G2][B2G2][B2G2] | [A2F2]z2 H:|
+% -------------------------
+V: 3
+"FLUTE"!ff!(^f/g/f/g/) |\
+c'4 (^f/g/)(f/g/) | c'4 (^f/g/)(f/g/) | e2z2z2 | z6 |\
+z2z2g'>g' | e'2c'2c'2 | d'2g'2g'2 | g'4 :|
+e'>^d' |\
+e'>f'e'>d'c'>b | a>^ga>bc'>a | b>a^g>^fe>g | a>^ga>bc'>a |\
+d'>^c'd'>e'd'>=c' | b>ag>ab>g | d'>^c' =c'>bc'>a |
+g4z2 | z2z2!ff!c'2 | b4z2 | z2z2e'2 |\
+d'2g'2(^f/g/f/g/) | c'4(^f/g/)(f/g/) | c'4(^f/g/f/g/) | e2z2z2 |
+z6 | z2z2g>g |
+e2c2c'2 | b2g2g2 | c'2z> ][K:F]\
+!p!d'c'>=b |\
+c'>f'a>c'b>g | f>a czz2 | E3!trem1!G3 | A>c c>d'c'>=b |\
+c'>f'a>c'b>g | f>a czz2 |
+c>B G>bg>e | f2z> |: !pp!d'c'>=b | c'c cd'c'>=b | c'c cd'c'=b |\
+d'>c c'>c' c'>c' | c'c'c'c'c'c' | c'c'c'c'c'c' | c'>c'c'>d'c'=b |
+!ff!c'>f'a>c'b>g | f>a c>d'c'>=b | c'>_b g>dc>=B | c>a f>d'c'>=b |\
+c'>f'a>c'b>g | f>a c>dc>=B | c>_B G>c'b>g | f2z2 H:|
+% -------------------------
+V: 4 clef=bass middle=d
+"BASE"z2 !ff!|\
+c4z2 | c4z2 | c2c2c2 | e2c2g>g |\
+e2c2z2 | c2c2c2 | g2g2g2 | g4 :|
+!p!z2 |\
+^g4z2 | a6 | e4z2 | a6 |\
+^f4z2 | g6 | d2d2d2 | g2G2g>g |\
+g2G2!ff!c2 | g2G2g>g | g2G2c2 | g2g2z2 |
+c4z2 | c4z2 | c2c2c2 | e2c2g>g |\
+e2c2c>c | c2c2c2 | g2G2G2 | c2z> ]
+[K:F] zz2 |!p!\
+f2f2f2 | f2f2f2 | c2c2c2 | f2a2c2 |\
+f2f2f2 | f2f2f2 |
+c2e2c2 | fFz> |: zz2 !pp!| d2c2z2 | c2c2z2 |\
+c2c2z2 | z6 | z6 | z6 |
+!ff!f2a2c'2 | f2a2c'2 | c2c2c2 | f2a2c2 |\
+f2f2f2 | f2a2c2 | c2e2c2 | fFz2 H:|

@@ -1,0 +1,35 @@
+X: 228
+T: the Love that has undone me.
+T: S'ole a chuir a mhireadh rium.
+R: air, strathspey
+N: This is version 2, for ABC software that understands crescendo/diminuendo symbols.
+% dim/cres..endo symbols:
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.108 #228
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Eb
+% = = = = = = = = = =
+V: 1 staves=2
+E2 |!p!\
+G4 e3c (B2c2) {A2}G2zE |"cres" GB3 {G2}e3c B3G [F2D2]zE |!p!\
+G4 e3c (B2c2) {A2}HG2zc | B3DpE3PG Q(TF3E) q[E2G,2] :| B2 |!pp!\
+Ge2z (eg2)z (B2c2) {A}G2zB | "_cres"G2e2 e3(f/g/) f2G2 {G}[F4D4] |"_dim"
+Ge3{d}e3c B3A {A}G2zc | BD3pE3PG QTF3E q[E4G,4] || !f! \
+{B}"_dim"g3f {d}e3d Tc3B G4 |!p! g3f {d}e3c B3G [F4D4] |!pp!\
+G3B {G}F3E FpG3 {G}PHe2"_Exp."zd | QTc3B(G2qB2) QTF3E q[E2G,2] |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+% = = = = = = = = = =
+z2 |\
+e6a2 g4e2z2 | e6a2 g4b2z2 |\
+!p!e6a2 g4He2z2 | z2a2g2e2 B4 E2 :| z2 |!pp!\
+E4e4 d4e4 | "_cres"E4e4 a2=a2 b4 |
+"_dim"e4c'2a2 g4e2z2 | z2a2g2e2 B4[e4E4] ||!f!\
+"_dim"e2f2g4 a4e4 | !p!e2f2g2a2 g2=a2b4 |!pp!\
+e4a2g2 a4He2"^Exp"z2 | a4b4 B4e2 |]

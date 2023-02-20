@@ -1,0 +1,28 @@
+X: 1
+T: Love in a Mask
+%R: minuet
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (166)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat added to match the dance directions
+M: 3/4
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+f2edcB | A2B2c2 | F4E2 |\
+DEF2B2 | e2d4 | c6 :|\
+|:\
+c2dcBA | G2g2f2 | e4d2 |
+cdedcB | A2B2c2 | F6 |\
+f2edcB | A2B2c2 | F4E2 |\
+DEF2B2 | e2c4 | B6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Note The 1st strain is to be play'd twice and the last but once
+%%begintext align
+%% The 1st Man and 2d Wo. do the Minuet Step and turn
+%% each other proper .| The 2d Man and 1st Wo do the
+%% same :| The 1st Cu. go the Figure thro the 3d Cu.
+%% and turn each other in the 2d Cu. Place :|
+%%endtext
+%%sep 1 8 500

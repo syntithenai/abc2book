@@ -1,0 +1,27 @@
+X: 1
+T: Nine Pound Hammer
+T: with Moving Double Stops
+C: trad.
+%D:
+R: reel
+S: Fiddle Hell Online 2022-4-7 handout for Matt Flinner mandolin workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The handout also has mandolin tab; not transcribed here.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - -
+% Original layout in the handout:
+"^1"[|] [GD][GD] [G2D2]E2 [|\
+"G"[BG][BG][BG][BG] [BG][BG][BG][BG] | [dB][dB][dB][dB] [dB][dB][dB][dB] |\
+"C"[ec][ec][ec][ec] [ec][ec][ec][ec] | [ge][ge][ge][ge] [ge][ge][ge][ge] |
+"G"[gd][gd][gd][gd] [gd][gd][gd][gd] | "D"[fd][fd][fd][fd] [fd][fd][fd][fd] |\
+"G"[g2d2]g2 gdcB | G8 "^2"|]| "G"[gd][gd][gd][gd] [gd][gd][gd][gd] |
+[dB][dB][dB][dB] [dB][dB][dB][dB] | "C"[ec][ec][ec][ec] [ec][ec][ec][ec] |\
+[cG][cG][cG][cG] [cG][cG][cG][cG] | "G"[dB][dB][dB][dB] [BG][BG][BG][BG] |\
+"D"[AF][AF][AF][AF] [AF][AF][AF][AF] |
+"G"[B4G4] GBcd | g8 "^3"|[|\
+"G"[BG][BG][BG][BG] [dB][dB][dB][dB] | [gd][gd][gd][gd] [bg][bg][bg][bg] |\
+"C"[c'g][c'g][c'g][c'g] [ge][ge][ge][ge] |
+[ec][ec][ec][ec] [cG][cG][cG][cG] | "G"[dB][dB][dB][dB] [dB][dB][dB][dB] |\
+"D"[d2A2]ed _BAGA | "G"G4 GBcd | g8 |]

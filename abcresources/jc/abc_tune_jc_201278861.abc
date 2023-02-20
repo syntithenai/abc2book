@@ -1,0 +1,39 @@
+
+X: 1
+T: the Galloping Nag
+P: Longways for six
+%R: jig
+B: "The Dancing-Master" printed by John Walsh, London
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.14 #30
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.12
+Z: 2012-2013 John Chambers <jc:trillian.mit.edu>
+N: This tune is the familiar Black Nag, in major.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+d>ed e>de | f>ef efg | a>gf e>dc | d3- d2 |] d |\
+ecA ecA | ecA ecA |
+afd afd | afd afd |\
+ecA ecA | ecA e2f/g/ | a>gf e>dc | d3- d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up a D. forward and back .:| That again :|
+%% First Cu. take both Hands, and the 4th slip up and stand, the 2d
+%% Cu. as much, the 3d Cu. slip, turn all S :|  Last Cu. slip down, the
+%% wd as much, the 1st as much, turn all S .:|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Sides all :|  That again :|
+%% First Man and last Wo. change Places, first Wo. and last Man
+%% change, the 2d Man change with his own .|  All this back again :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Arms all .:|  That again :|  Men the S. Hey .:| We. as much .:|
+%% [CCDM1] [DMDfD]
+%%endtext
+%%sep 1 8 500

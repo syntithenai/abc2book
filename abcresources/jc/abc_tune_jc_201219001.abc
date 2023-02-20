@@ -1,0 +1,27 @@
+X: 01
+T: the Naval Pillar
+%R: reel
+B: Thompson "A Favourite Collection of Country Dances 1800", p.1
+F: https://deriv.nls.uk/dcn23/1205/2168/120521683.23.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for a US-letter/A4 page size.
+V: 1
+c2c2 | BABc d2e2 | c2A2c2c2 | BABc d2^d2 | e4 :|
+|: agfe | e2^d2 bge=d | d2c2 agag  | aecA cBAG | A4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+aeae | gege gege | aeae aeae | gege geaf | ed'c'b :|
+|: c'2c'2 | fafa gbgb | a2A2 c2e2 | a2c2 d2e2 | A4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off one Cu: and swing your Partner round with the right hand _
+%% cast up & do the same wth the left _
+%% lead down the middle & up again _
+%% Allemand with the right hand & left
+%%endtext
+%%sep 2 2 400

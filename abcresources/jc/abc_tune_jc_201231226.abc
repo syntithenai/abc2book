@@ -1,0 +1,25 @@
+X: 14
+T: Mrs Ridley Colborne's Waltz
+%R: waltz
+B: "Twenty Four Country Dances with Figures for the Year 1810", Button & Whitaker, p.7 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1810
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Added triplet "3" symbols in bars 17, 18.
+M: 3/8
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+dB |\
+g2g2 dB | G2G2 BG | {B}A^GABcA | BcdedB |\
+g2g2 dB | G2G2 BG | A^GABcA | G4 :|
+|: BG |\
+A2A2 FD | d2d2 cB | ABcABG | GFEDEF |\
+GBe2d2 | ^cAa2g2 | fafde^c | d4 :|
+|: ef |\
+(3gag dBcd | (3efe cABc | dBcABG | GFEDEF |\
+GABcdB | cdefge | dedcBA | G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   1st Lady 2d Gent: change places, 1st Gent: & 2nd
+%% Lady do the same, Poussette & right & left.
+%%endtext

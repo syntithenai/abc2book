@@ -1,0 +1,28 @@
+%%scale 1.31
+%%barsperstaff 4
+X: 1
+T:Old Gospel Ship (The)
+C:Arr: Alphus Lefevre
+M:2/4
+L:1/8
+K:D
+%%staves{RH1 RH2}
+V:RH1 clef=treble
+|"^VERSES"F|"D"A A A3/2 F/2|A3 A|"G"B B "A"A F|"D"D2 A, A,|D3 F|("G"B "D"A2)
+w:1.~I have good news to bring and that is why I sing, All my joys with you_
+w:2.~Oh, I can scarce-ly wait I know I'll not be late, For I'll spend my time_
+w:3.~If you're a-shamed of me you have no cause to be, For with Christ I am_
+|F|"A"E2-"E7"E2-|"A"E3 F|"D"A A A3/2 F|A3 A/2 A/2|"G"B-B "A"A F|"D"D2
+w:I'll share;__ I'm going to take a trip in the Old_ Gos-pel ship
+w:in pray'r;__ And when my ship comes in I will leave this world of sin
+w:an heir;__ If too much fault you find you will sure be left be-hind.
+|F/2-F/2 "Em"G|"D"A3 "Em"G|"D"F3 "A7"E|"D"D2-"G"D2-|"D"D3
+w:And_ go sail-ing thru the air,__
+w:And_ go sail-ing thru the air,__
+w:While I go sail-ing thru the air,__
+|"^CHORUS"F|"D"A A/2 A/2 A3/2 F/2|A3 A/2 A/2
+w:Oh, I'm "gon-na" take a trip, in the
+|"G"B/2 B3 "A"A F|"D"D3 A,|D/2 D/2 D/2 F/2|("G"B"D"A2) F|"A"A2-"E7"A2-|"A"A3 F|"D"A A/2 A/2
+w:good Old Gos-pel Ship, I'm go-ing far be-yond_ the sky;__ Oh, I'm "gon-na"
+|A F|A3 A|"G"B3 B/2 "A"A F|"D"D2 F "Em"G|"D"A "Em"A2 G|"D"F3 "A7"E|"D"D2-"G"D2-|"D"D3||
+w:shout and sing un-til the hea-vens ring, When I'm bid-ding this world good-bye.__

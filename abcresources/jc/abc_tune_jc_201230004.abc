@@ -1,0 +1,26 @@
+X: 1313
+T: Athole House.   a Reel.
+C: D.D.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.1 p.31 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+f |\
+A<FA>F cF (d/c/B/)A/ | cFAF EG-Gf |\
+.c.F.A.F .c.A.f.c | (d/c/.B/.A/) (.c.C) DFF :|\
+c |\
+Tf2 (a/g/f/e/) f>cAc | Fc (d/c/B/)A/ BGG>A |
+Tf2 (a/g/f) .c.fAc | (d/e/f) (e/f/g) cf-f>c ||\
+fcaf ecbg | af cf eg-g>b |\
+a>fcf dBGB | A<F (.c.C) DF-F |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z |\
+f2f2 f2f2 | f2f2 c'2c2 | f2f2 f2A2 | B2c2 F2F :: z | f2f2 f2f2 | a2f2 c'2c2 |
+f2f2 f2f2 | b2c'2 f2f2 || f2f2 c2c2 | f2a2 c'2c2 | f2f2 B2B2 | c2C2 F2F |]

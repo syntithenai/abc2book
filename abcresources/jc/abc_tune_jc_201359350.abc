@@ -1,0 +1,122 @@
+Z:2006 Brian Wilson <Brian.Wilson@alumni.brown.edu>
+X:1
+T:Skott-sara leken (pols)
+R:rorospols
+Z:from workshop with Annar Gjelten
+Z:also 97. Kaeggleken in Pols i Rorostraktom
+Z:Smaviltlaget, Lader Om, Track 17
+M:3/4
+L:1/8
+K:D
+|:  "D"d>c A3 A | "A"d>c e3 A | "D"d>e fd g>f |  "A"e>d cB B>A
+|   "D"A>G FE F>D | "G"G<B "A"A4 | "D"d>e f/d/f "A"e>c | "D"d2 d4 :|
+|:  "D"(fe/f/) d2 f>a | "A"ag e4 | "D"(fe/f/) d2 e>f | "A"dc A4
+|   "D"(fe/f/) d2 f>a | "A"ag e2 g>b | "D"ac d2 e>f | "A"dc "D"d4 :|
+
+X:2
+T:Mo Anders (pols)
+R:rorospols
+Z:from workshop with Annar Gjelten
+Z:also 97. Kaeggleken in Pols i Rorostraktom
+M:3/4
+L:1/8
+K:G
+|: "G"gd g2 g>b | "G"b<d g2 g>b | "D"ba a^g a>=g | "A"fe "D"d3 d
+|  "G"gd g2 g>b | "C"AB c2 B>G | "D"A>d B/G/B A>F |[1 "G"G2 G4 :|[2 "G"G2 G3 B
+|: "G"d2 dB "C"c>e | "G"d/B/d "D"c/A/c "G"B>G
+| "D"A>B cB c>e |  "G"d/B/d "D"c/A/c "G"B>c
+|  "G"d2 dB "C"c>e | "G"d/B/d "D"c/A/c "G"B>G
+| "D"A>d B/G/B A>F | "G"G2 G3 B :|
+
+X:3
+T:Dimmisjonpols (pols)
+R:rorospols
+Z:Track 3. Smaviltlaget Lader Om
+M:3/4
+L:1/8
+K:G
+|: "G"g2 gf d>f | "A"e/^c/e e/a/f "D"d>B
+|  "C"c2 cB "G"G>B | "D"A/F/A A/d/B G>d
+|  "G"g2 gf d>f | "A"e/^c/e e/a/f "D"d>B
+|  "C"c2 cB "G"G>B |[1 "D"F<A "G"G3 d :|[2 "D"F<A "G"G3 D |
+|: "G"G2 BG B>B | "C"c2 cB "G"G>B | "C"c2 cB "G"G>B | "A"A>G FE "D"D2
+| "G"G2 BG B>B | "C"c2 cB "G"G>B | "C"c2 cB "G"G>B | "D"F<A "G"G3 D :|
+
+X:4
+T:Pols etter Strickert-Iver (pols)
+Z:Track 6, Smaviltlaget, Lader Om; 2008 Brian Wilson <Brian.Wilson@alumni.brown.edu>
+M:3/4
+L:1/8
+K:D
+K: Dm
+|: zA f2 u(f>e) | v(d/e/f/g/) ua2 a>g | (g<e) f2 f>e | (d/e/f/g/) ua4-
+| a3/2(e/ f2) (f>e) | (d/e/f/g/) a2 a>g | (g<e) f2 f>e | (d^c) ud4 :|
+K: D
+| d(A df) a>a | (ad') (d'e) e>f | g3/2(b/ af) d>f | e3/2(g/ f/)d/f e/(c/e)
+| d2 (df) a>a | (ad') (d'e) e>f | g3/2(b/ af) d>f | e/c/e (d4 :|
+
+X:5
+T:Styggvukkuleken (pols)
+Z:Track 13, Smaviltlaget, Lader Om; 2008 Brian Wilson <Brian.Wilson@alumni.brown.edu>
+M:3/4
+L:1/8
+K:A
+|: "A"c2 (d[df]) c>e | "A/C#"g3/2(e/ fd) c>A | "E"(B>c) v(d/B/d) (c/A/c) | "E"(B/G/B) "A/F#"A2 "A/G#"E2
+|  "A"c2 (d[df]) c>e | "A/C#"g3/2(e/ fd) c>A | "E"(B/G/B) "A"A3 E :|
+|: "A"(c>d) e2 c>A | "A/C#"(c>d) ue4- | "G/E"euf =g2 (g>b) | "G"(a>f) (=g<a) b>g
+|  "A"(c>d) e2 c>A | "A/C#"(c>d) ue4- | "G/E"euf =g2 e2 | "E"(B/G/B) "A"A3 E :|
+
+X:6
+T:Enges-Maren (vals)
+Z:2008 Brian Wilson <Brian.Wilson@alumni.brown.edu>
+Z:Track 5 Smaviltlaget, Lader Om
+M:3/4
+L:1/8
+K:A
+EA
+||: "A"c3B c2 | "A/E"A3 ABc | "D"d3 ddd | "A"c2 e2 a2
+|  "A/E"e2 c2 A2 | "E/B"B3 f ff | "E"d2 B2 G2
+|[1 "A"A4 EA :|[2 "A"A3 c (3efg
+|| "A"a3 a aa | "E"g2 f2 e2 | "E/B"e2 ge gb | "A"a3 a aa
+|  "A/E"e2 c2 A2 | "D"B3 f ff | "E"d2 B2 G2 | "A"A3 c (3efg
+|  "A"a3 a aa | "E"g2 f2 e2 | "D"e2 ge gb | "A/C#"a3 a aa
+|  "A"e2 c2 A2 | "D"B3 f ff | "E"d2 B2 G2 | "A"A3 A EA |
+
+X:7
+T:Hoppvals
+Z:Track 8, Smaviltlaget, Lader Om; 2008 Brian Wilson <Brian.Wilson@alumni.brown.edu>
+M:2/2
+L:1/8
+K:D
+A
+|: "D"F3A "D/A"A2F2 | "G"G3B "G/D"B2 G2 | "D"F3A "D/A"AF A2 | "D"d4- "D/F#"d2 "D/G"d2
+|  "A"c3d "A/E"e2f2 | "A"g3 f "A/E"e2d2 | "A"c3B "A/E"A2 G2 | "D"F4- "D/A"F2 A2
+|  "D"F3A "D/A"A2F2 | "G"G3B "G/D"B2 G2 | "D"F3A "D/A"AF A2 | "D"d4- "D/F#"d2 "D/G"d2
+|  "A"c3d "A/E"e2f2 | "A"g3 f "A/E"e2c2 |  "D"d3 f "A"e2 c2 | "D"d4- "D/A"d2 A2 :|
+|: "D"f3f "D/A"f2d2 | "G"g3g "G/D"g2 e2 | "D"a3a "D/A"af a2 | "G"b4- "G/D"b2 g2
+|  "A"e3e "A/E"ece2 | "A"a4- "A/E"a2 g2 | "D"g3g "D/A"f2 e2 | "D"f4- "D/A"f2 A2
+|  "D"f3f "D/A"f2d2 | "G"g3g "G/D"g2 e2 | "D"a3a "D/A"af a2 | "G"b4- "G/D"b2 g2
+|  "A"e3e "A/C#"e2c2 | "D"d4- "D/F#"d2 f2 | "A/E"g3g "A"e2 c2 |  "D"d4- "D/A"d2 A2 :|
+
+
+X:8
+T:Ringlender e. Marta-Svend
+Z:Track 4, Smaviltlaget, Lader Om,
+Z:2008 Brian Wilson <Brian.Wilson@alumni.brown.edu>
+M:4/4
+L:1/8
+K:G
+|: "G"GA Bc "G/D"d2 ef | "G"g2 Bc "G/D"d^c d2
+|  "C"ec AB "D"c2 BA | "G"dB GA "G/D"B3 D
+|  "G"GA Bc "G/D"d2 ef | "G"g2 Bc "G/D"d^c d2
+|  "C"e2 c2 "D"f3 d |[1 "G"g2 "G/D"gf "G"g3 D :|[2 "G"g2 "G/D"gf "G"g3 c
+|: "G"B2 G2 "C"c3 c| "Am"B2 A2 "D"A3 G
+|  "D/A"FG AB "D"cB cd | "G"e2 d^c "G/D"d3 =c
+|  "G"B2 G2 "C"c3 c| "Am"B2 A2 "D"A3 G
+|  "D/A"FG AB "D"cd ef |[1 "G"g2 "G/D"gf "G"g3 c :|[2 "G"g2 "G/D"gf "G"g3 =f
+K:C
+|: "C"e2 c2 "C/G"e2 c2 | "C"cB ce "C/E"g2 "C/F"g2
+| "G"G^F GA "G/D"B2 B2 | "G"AG EG "C"c3 d
+| "C"e2 c2 "C/G"e2 c2 | "C"cB ce "C/E"g2-"C/F"g2
+| "G"G^F GA "G/D"BG ed |[1 "C"c2 "C/G"cB "C"c3 d :|[2 "C"c2 "C/G"cB "C"c3 D |
+

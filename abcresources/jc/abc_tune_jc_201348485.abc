@@ -1,0 +1,53 @@
+X: 1
+T: TEST: Helle Wasser   % --- we squeeze this onto one page
+%%continuous 1
+%%musicspace 0cm
+%%topmargin  0.5cm
+%%sysstaffsep    35.0pt
+%%systemsep      55.0pt
+%%titlefont    Helvetica 16
+%%subtitlefont Helvetica 12
+%%composerfont Helvetica 10
+%%scale 0.65
+O: Finnland
+M: 6/8
+L: 1/8
+K: Am
+%V:sop name="Sopran" sname="S." bracket=3
+V:sop nm="Sopran" snm="S." brk=3
+"Am"e3-e2 f|e2 c B2 c |"Dm"d3 d3- |d3z3|
+w: Hel - le Was-ser dun-kle W\"al-der
+"G7"d e2-e3|d-BG A2 B| \\ "Am"A6- |A3z3|
+w: und die* Sehn - sucht sind mein Haus _
+"F"g a2-a3|"C"g2 e d2 e|"Dm"f3 f3-|f3z3|
+w: Komm zu* mir und tei-le mit mir_
+"G7"f g2-g3|f2 d c2 d|  "C"e6|"E7"-e3 z2z|
+w: Tag und* W\"ar-me, K\"al-te auch._
+"Am"a3-a2 g|g g2 e2 d|  "Dm"f6| \\ z3 a3|
+w: Wo* wir ge-hen bl\"uht das Laub, sind |
+"G7"g3-g2 g|e2 d c2 d|"C" e6|"C7"-e3 z2 e|
+w: We - ge k\"ur-zer Win-ter gr\"un._ In
+"F"f3-f2 g| \\  "Fm"f2 f c2 d|"C"e3-d3|"A7"^c3 z2z|
+w: dei - nen Au-gen w\"achst mein Le - ben,
+"Dm"d3-d2 e|"G7"e f2 e2 d|"C"c6-|"E7"B3z3 :|
+w: Dein* Ge\- sicht darf nie ver\- gehn.
+%
+V:alto  staves=1 name="Alto" sname="A."
+z6 | z6|f3-f2 f|f2 g f2 d|
+B3 B3|z dd cdd|ccc-c3-|c3z3|
+e f2-f3|e2 c B2 c|d3 d3-|d3z3|
+d e2-e3|d2 B A2 B|c6|B6|
+z6|z3 A2 A|d d2 d2 d|d3 f3|
+f3-f2 d| c2 B A2 B|c3-c2 c|B3 _B3|
+A c2-c3|c6|c2 B _B3|A3 z2z|
+z3 c2 c|B B2 G2 G|G6-|^G3z3 :|
+%
+V:tenor name="Tenor" sname="T."
+z6 | z6 |z3 A3|-A3-A2 G|
+G3 G3|-G3 F2 E|E3 E3|z AA A2 B|
+ccc-c3|-c3 z cc|c3 z cc|c3 c3|
+B3 z2z|z GG G2 G|A2 G G3|^G6|
+z6|z6|z3 A2 A|A A2 c2 c|
+B3-B2 G|G2 G G2 G|A2 G G3|-G3 G3|
+A3-A2 A|_A2 A A2 A|G6|G6|
+F3-F2 G|G A2 G2 F|E6-|E3z3 :|

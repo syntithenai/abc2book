@@ -1,0 +1,27 @@
+X: 1
+T:St. Barnard's Waltz
+M:3/4
+L:1/4
+%Q:100
+C:Ward & Swallow
+S:Tim Willets <tlw:redowa.co.uk> tradtunes 2004-1-23
+P:Play A-A-B-A
+K:C
+"A"\
+|:"C"e3 | c3 | Gz"Eaug"^G | "Am"AzG \
+| "C"e3 | "A/c#"g3 | "Dm"f3- | f2G |
+| f3 | d3 | "G7"B3 | "Dm"A3 \
+| "G7"GBd | "G7"g_gf | "C"e^de | "G7"dBG |
+| "C"e3 | c3 | Gz"Eaug"^G | "Am"AzG \
+| "C"E3 | G2^G | "F"A3- | A"I"[|]Bc |
+| "F"cBA | "D7"cBA | "C"Gce | "A7"ggf \
+| "D7"e3 | "G7"d3 | "C"cGA | "G7"Bcd :|
+"B"\
+[|"C"e2g | "G"d2g | "C"czC | Czz \
+| "C"G2A | "G"F2G | "C"E3 | GAB |
+| "F"c3 | cBA | "G7"G2F | "G"D3 \
+| G2F | D3 | "Am"A2"Edim"_A | "G7"GAB |
+| "C"e2g | "G"d2g | "C"czC | Czz \
+| "C"c3 | c2B | "F"A3 | A2B |
+| "F"cBA | "D7"cBA | "C"Gce | "A7"ggf \
+| "D7"e3 | "G7"d3 | "C"cGA | "G7"Bcd "d.C."[|]|]

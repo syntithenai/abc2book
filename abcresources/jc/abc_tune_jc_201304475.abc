@@ -1,0 +1,35 @@
+X:434
+T:Lucy
+C:Colin Hume, 2006
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%MIDI beat 100 95 80
+Q:1/4=112
+%%MIDI chordname dim 0 3 6 9
+M:3/4
+L:1/4
+H:For Lucy Ward on her marriage to Alex Dickson, 4th August 2007
+K:Am
+V:1 treble
+K:Am
+[| [ca] e2 | [_Bg] d2 | [_Af][c_e][_Bd] | [Ac][_Bd]3/[c_e]/ |\
+[^F=Bd][=B,G]2 | [_B_d][_B,G]2 | [EGc][CE][EG] | [C^F_B]2[CFA] |
+[B,EG][Bg][A^f] | [G^f]e[Gd] | [EGd]cB | [B,EA]2[GB]/[^FA]/ |\
+[EG][Bg][A^f] | [G^f]e[Gd] | [E^Fd]^c3/B/ | [^F=c]B3/[^DA]/ |
+[B,^G][DB]2 | [CA][Ec]2 | [FB][Bd][Af] | [^Ge]2d |\
+[Ec][=Ge]2 | [Fd][Af]2 | [^F^d][A^f][ca] | [Bd^g]3 |
+[ca] e3/e/ | e d2 | [ca] [Ac]3/[Ac]/ | c B2 |\
+[^FA][^DF][FA] | [Ac][ce]E | [D^Gc]2B | [CA]3 |
+DEF | [CE][A,C][^F,A,] | ^G,2 A, | A,3 |]
+V:2 bass octave=-2
+%%MIDI gchord c
+%%MIDI chordprog 48
+%%MIDI chordvol 54
+[| "Am7"[ag']2 c' | "Gm7"[gf']2 _b | "Fm7"[f_e']3 | "D7"[^fd']2 d |\
+"Gmaj7"g2 d | "Gdim"e2 G | "Am7"A2 e | "D7"d^cd |
+"Em"e2 d' | "C"c'2 b | "Am"a2 g | "Bsus"^fe "B7"[^da] |\
+"Em"[eb]2 [db] | "C"[cc']2[Bb] | "F#7"[^A^a]2^f | "B7"[^da]2B |
+"E7"e2 ^G | "Am"A2 c | "Dm"[da]2 [B] | "E"[ed']^gb |\
+"Am"a2 c | "Dm"[db]2 A | "B7"B2 ^d | "E"e^gb |
+"Am7"[ag']2 c' | "Dm"[bf'a']2 f | "Am/F#"[^fe']2 a | "E7"[^gd'e']2 e |\
+"Cdim"[^dc']3 | "Am"[ec']3 | "E7"[Ee]3 | "F"[Ff]2 e |
+"Dm"[da]3 | "Am"[Ee]3 | "E7"[EBd]3 | "Am"[Ace]3 |]

@@ -1,0 +1,20 @@
+X: 997
+T: Shuffle and Cut
+R: slip-jig
+%S: s:2 b:12(6+6)
+%S: s:3 b:12(4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #997
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0997/oneill-1001-0997-1.abc
+M: 9/8
+L: 1/8
+K: D
+"^A"|:\
+dBG FAF (E/F/G)E | =cEE E2B AFD |\
+dBG FAF EGE | AFD D2B AFD :|
+"^B"|:\
+(f/g/a)f (e/f/g)e (B/c/d)B | =cEE E2B AFD |\
+(f/g/a)f (e/f/g)e (B/c/d)B | AFD D2B AFD :|
+"^C"|:\
+G2e F2d E2D | =cEE E2B AFD |\
+G2e F2d E2B | AFD D2B AFD :|

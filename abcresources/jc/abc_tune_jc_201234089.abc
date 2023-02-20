@@ -1,0 +1,22 @@
+X: 20253
+T: CLYDE-SIDE LASSES.
+R: Reel.
+%R: reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.25 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain has odd repeat notation, with the repeat sign on the 2nd ending rather than the 1st; fixed.
+M: C
+L: 1/8
+K: F
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+AFcF dFcF | AFcF ABcB |\
+AFcF dFcF |1 BAGA BcdB :|2 BAGA Bcde H|]\
+fgag f2cf | gfga
+baga |\
+fgag f2Ac | BAGA Bcde |\
+fgag f2cf | gfga bagb |\
+afge fdec | dBcA BAG"^D.C."B |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

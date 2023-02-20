@@ -1,0 +1,19 @@
+X: 11843
+T: LADY COVENTRY'S MINUET
+%R: minuet, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.184 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2 G2 (3(GAB) | {B2}A4 {GA}G2 | B2 B2 (3(Bcd) | {d2}c4 {Bc}B2 |\
+d4 g>e | {e2}d4 g>e | {f}ed {e}dc {d}cB | B2 {AB}A4 :|
+|:\
+ddddcc | {c}B3 c d2 | ddddcc | B3 c d2 |\
+g2 f2 e2 | d2 f2 g2 | {f}ed/c/ B2 A2 | {A2}G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

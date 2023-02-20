@@ -1,0 +1,47 @@
+X: 1
+T: les Fleurs Du Printems
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #1
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+A |\
+e2e efd | c2c cdB | A2A ABG | A>EC A,2A |\
+e2e efd | c2c cdB | A2A ABG | A2A A2 :|
+|: E |\
+FAd FAd | GBe GBe | ded cdc | B2E E2E |\
+FAd FAd | GBe GBe | cdc BAB | A2A A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z |\
+A2a g2e | A2a e2E | f2c d2e |
+a2e A3 | A2a g2e | A2a e2E | f2c d2e |
+a>ec A2 :||: z | d6 | e6 | f2g
+a3 | e>BG E2z | d6 | e6 |
+a2A e2E | A2a A2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Les Fleurs Du Printems.
+%%text Le Grand Rond, - - - - 2/1
+%%begintext align
+%%   The first and third Gentlemen turn the
+%% opposite Ladies and change places, then the
+%% Second and Fourth Gentlemen do the same - 1/2
+%%endtext
+%%begintext align
+%%   All Eight hands cross half Round and turn
+%% Partners in their own Places. - - 1/2
+%%endtext
+%%begintext align
+%%   * The Figures explain how much Music
+%% belongs to each part of the Cotillon. The
+%% under Figure Denotes the Strain, and the upper
+%% Figure tells how often it is to be played.
+%%endtext
+%%sep 1 1 400

@@ -1,0 +1,19 @@
+X: 071
+T: Minuet 6
+C: Ignatius Sancho 1775
+%R: minuet
+B: "Minuets Cotillons & Country Dances", 1775 p.7 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: fc Tc2 ac | dfeg f2 | g2 bagf |{a}g2 fedc | gc Tc2 gc | ac Tc2 ac | ga b2 Ta2 | {a2}g6 :|
+[V:2] |: f2 a2 f2 | b4 a2 | b2 b2 b2 | c'2 c2 z2 | e2 e2 e2 | f2 f2 f2 | e4 f2 | c2 c'bag :|
+[V:1] |: fc Tc2 d_e | df B4 | gd Td2 ef | eg c4 | B2 eBgB | Acdefc | (d3/c//B//) A2 TG2 | f6 :|
+[V:2] |: a2 a2 a2 | b2 B2 b2 |=b2 b2 b2 | c'2 e2 e2 | c2 c2 e2 | f2 f2 f2 | b2 c'2 c2 | f2 c2 F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

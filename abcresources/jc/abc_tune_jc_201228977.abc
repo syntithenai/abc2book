@@ -1,0 +1,29 @@
+X: 11832
+T: WATER PARTED FROM THE SEA
+C: Dr. Arne.
+Q: "Moderate."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.183 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+G4A2 | (B2c2)B2 | ({B}A2G2)F2 | (G/F/G/A/G2)z2 |\
+B4c2 | (d2e2)d2 | (d>e)c2B2 | ({c}B2A2)z2 |\
+G4A2 | (B2c2)B2 | (e2d2){ef}g2 | g2(fedc) |
+(B>A)c>B (e>d) | (f>g)(c2B2) | {B}A2G2F>G | G4z2 |\
+d4(e>^c) | d4(e>^c) | (d2A2)B2 | (A2G2)F2 |\
+A4A2 | A4A2 | (B2e2)d2 | (d2^c2)z2 |
+d4e2 | (f2g2)f2 | ({f}e2d2)^c2 | (d2g2)f2 |\
+B2e3(f/g/) | A2d3(e/f/) | (f>e)(e>d)(d>^c) | {^c}Hd4z2 |\
+G4A2 | (B2c2)B2 | ({B}A2G2)F2 | (G/F/G/A/)G2z2 |
+B4c2 | (d2e2)d2 | (d>e)c2B2 | ({c}B2A2)z2 |\
+d3g (fe) | e2(dc)(BA) | G2(A>B) (BA/B/) | c4z2 |\
+(B>A)(c>B)(e>d) | f4g2 | ({f}e{d}c)B2A2 | G6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

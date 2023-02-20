@@ -75,7 +75,7 @@ export default function IndexSearchForm(props) {
                />
               </span>
            
-         <>{(props.tunes && props.filtered.length < 1500) && <GroupBySelectorModal onChange={function(val) {console.log(val); props.setGroupBy(val)}}  value={props.groupBy} tunebook={props.tunebook}  showPreviewInList={props.showPreviewInList} setShowPreviewInList={props.setShowPreviewInList} />}</>
+         <>{(props.tunes && props.filtered.length < 1500) && <GroupBySelectorModal onChange={function(val) { props.setGroupBy(val)}}  value={props.groupBy} tunebook={props.tunebook}  showPreviewInList={props.showPreviewInList} setShowPreviewInList={props.setShowPreviewInList} />}</>
         
          
     </div>

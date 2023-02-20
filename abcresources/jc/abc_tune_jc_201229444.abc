@@ -1,0 +1,25 @@
+X: 12341
+T: Jamy come try me By Mr Oswald
+C: James Oswald
+%R: air, waltz, jig
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.34 #1
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The "Brisk" part has M:6/8, but it's actually 9/8.
+M: 3/4
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+|: "_Slow"\
+G3 ABd | {d2}e4 {de}g2 | E2 G2 (cB) | {B2}TA4 G2 |\
+g3 GAB | e2 d2 e2 | g2 d2 (bc') | Ta4 g2 :|
+|:\
+g3 a (b/a/)g | Tf2 (ef) d2 | (gf)(ga)(bc') | {b2}a4 (gf) |\
+g3 fTe>d | B2 e2 d2 | (b<a) (g<e) (d<B) | {B2}TA4 G2 :|
+M: 9/8
+|: "_Brisk"\
+G2d (dB)d e2g | G2d (dc)B A2G |\
+G2d (dB)e e2f | (gf)e (dc)B TA2G :|
+|:\
+g2g (g/a/b)g (f/g/a)f | g2g (g/a/b)g Ta2(g/f/) |\
+(gd)g (g/a/b)g (f/g/a)f | (e/f/g)e (dc)B A2G :|

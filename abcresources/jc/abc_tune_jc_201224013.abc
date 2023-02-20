@@ -1,0 +1,35 @@
+X: 7
+T: Cotillon VII.     le Cocu.
+%R: march, reel
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #7
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+d2f2 Tf4 | (dc)(ec) d2B2 | d2f2 g2f2 | (ef)(ed) c2F2 |\
+d2f2 Tf4 | (ed)(ec) d2B2 | c2f2 d2b2 | (ag)(f=e) f4 :|\
+|:\
+f2_a2 d2f2 | edc=B c2C2 |
+e2g2 c2e2 | dcBA B4 |\
+d2f2 g2f2 | c2e2 f2e2 | B2d2 e2d2 | cBAG F4 |\
+d2f2 Tf4 | edec d2B2 | G2g2 E2e2 | dcBA B4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+B2b2 d'2b2 | c'2a2 b2B2 | b2d'2 e'2d'2 | c'2b2 a2f2 | B2b2 d'2b2 | c'2a2 b2B2 | a2f2 b2g2 |
+c'2c2 f4 :||: z4 f2d2 | g2G2 c4 | z4 e2c2 | f2F2 B4 | b2d'2 e'2d'2 | a2c'2 d'2c'2 |
+g2b2 c'2b2 | d2e2 f4 | B2b2 d'2b2 | c'2a2 b2B2 | e4 c4 | f2F2 B4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round: Chasse\`e a quatre, threaten with the right Hand and beat with the
+%% Foot at the same time, the same with the Left Hand, and beat again with the foot
+%% four hands across: the other four do the same: Every Gentleman turn his Partner
+%% into her Place.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.

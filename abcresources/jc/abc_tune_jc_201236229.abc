@@ -1,0 +1,25 @@
+X: 21804
+T: DROPS OF BRANDY
+O: Irish.
+Q: "Jig."
+%R: slip-jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.180 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+c2B AFA AFA | c2B AFA B2G |\
+c2B AFA AFA | BAB [G2C2]A B2G :| \
+|:\
+FAc fcA fcA |
+FAc fcA {c}B2G |\
+[1 FAc fcA fcA | BAB G2A B2G :|\
+[2 FAc fag fcA | {c}BAB G2A B2G |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The comic song, "Madame Fig's Gala," is sung to the above air.
+%%endtext
+%%sep 1 1 300

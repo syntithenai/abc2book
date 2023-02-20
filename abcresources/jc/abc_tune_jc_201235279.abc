@@ -1,0 +1,17 @@
+X: 21063
+T: PAIN'S FIRST SET OF QUADRILLES #3
+B: K\"ohler's Violin Repository, v.2, 1885 p.106 #3
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+uA |\
+def fga | (a2g) (.e2.e) | afd afd | (e/f/e/d/c/B/) A2A |\
+def fga | a3 z(uge) | {g}f2(d e)dc | (.d2.f) d2 ||
+uf |\
+efe (e2a) | ^g2(b a)ga | (b2^g) efd | c2(d e)cd |\
+(e2a) (^g2b) | ac'b a^gf | {g}fec edB | A3 "^D.C."z2 ||
+uF |\
+BBd (.f2.b) | d'3 z2(c'/b/) | agf edc | (f2d) Bfd |\
+BBd (.f2.b) | d'3 d'c'b | agf edc | [B3F3] "_D.C."z2 |]

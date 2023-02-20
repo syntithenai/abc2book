@@ -1,0 +1,23 @@
+X: 8
+T: the Parachute
+R: waltz
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.4 #8
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: 3/8
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Third part has initial repeat but no final repeat. Added final repeat to match the dance.
+N: But AABA may have been what was intended.
+K: A
+|:\
+a4e2 | c2ecA2 | B2BdcB | A2E2E2 |\
+a4e2 | c2ecA2 | B2(Bd)(cB) | A4z2 :|
+|:\
+.d2(Bd)(Bd) | .c2(Ac)(Ac) | B2g2g2 | a4ec |\
+.d2(Bd)(Bd) | .c2(Ac)(Ac) | B2g2g2 | a4z2 :|
+%%begintext align
+%% Set & half right & left .|
+%% back again :|
+%% down the middle up again :|.
+%% Allemand :|:
+%%endtext

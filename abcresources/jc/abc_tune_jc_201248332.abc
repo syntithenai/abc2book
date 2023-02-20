@@ -1,0 +1,26 @@
+X: 1
+T: Atholl Highlanders
+C: trad. Scottish jig-time march
+O: arr. by Tom Morley
+R: jig, march
+S: Fiddle Hell Online 2021-11-3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Amix	% The handout has A major, but there are no G sharps.
+"^A"|:\
+"A"ve2e e(cA) | ecA Bcd |\
+[1,3 "A"e2e e2e e(cA) | "E"Bcd cBA :|\
+[2,4 "A"eae "D"(fed) | "E"cdB A3 :|
+"^B"|:\
+"A"vAce Ace | "D"Adf Adf |\
+[1,3 "A"Ace Ace | "E"Bcd (c2B) :|\
+[2,4 "A"eae "D"(fed) | "E"cdB A3 :|
+"^C"|:\
+"A"va2a aec | ua2a aec |\
+[1,3 va2a a(ec) Bcd (cBA) :|\
+[2,4 "A"eae "D"(fed) | "E"cdB A3 :|
+"^D"|:\
+"A"vc2c c(BA) | "D"d2(ud f)veud |\
+[1,3 "A"c2c c(BA) | "G"=G2(uG B)AG :|\
+[2,4 "A"eae "D"(fed) | "E"cdB A3 :|

@@ -1,0 +1,17 @@
+X: 109201
+T: LADY BAIRD
+Q:"Strathspey."
+R: Strathspey.
+%R:strathspey
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: James Kerr "Merry Melodies" v.1 p.9 s.2 #1
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+|: u |\
+ve<uc vc>uB vA>vB uA>uE | F>AE>A F>AE>a |\
+e<c c>B A>BA>B | c<e ve>u^d e2-e :|
+|: u=g |\
+f<d vd>uB vc>vdue>uc | d<B B>G A>Bc>A |\
+F>AE>A F>AE>d | d/c/B/A/ c/B/A/G/ [1 A>ce :|[2 A2A |]

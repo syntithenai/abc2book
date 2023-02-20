@@ -1,0 +1,86 @@
+X: 1681
+T: UMINSKI GALOPADE
+C: Adam Kurek
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.168-169
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd phrase has an initial repeat but no final repeat.  Not fixed.
+N: The 3rd phrase (in Ab) has 21 bars; the 4th phrase has 13 bars, each started by a thick bar line.
+U: P=!crescendo(!
+U: p=!crescendo)!
+M: 2/4
+L: 1/16
+K: Eb
+% -------------------------
+V: 1
+K: F
+|:"Bb BUGLE"!p!\
+!//!c4 c2f2 | c2(AB) c2A2 | B2(GA) B2G2 | A2a2 ag(3fed |\
+!//!c4 c2f2 | c2(AB) c2A2 | B2(GA) B2e2 | f2a2f2z2 :|\
+|:!p!\
+z2A2 z2A2 |
+z2A2 z2A2 | z2A2 z2A2 | z2G2 z2G2 |\
+z2A2 z2A2 | z2^c2 z2c2 | z2A2 z2A2 | F2 (c2=B2_B2) |\
+!//!c4 !ff!c2f2 |
+c2AB c2A2 | B2GA B2G2 | A2 a2- ag(3gfe |\
+!//!c4 c2f2 | c2AB c2A2 | B2GA B2e2 | f2a2f2z2 ]\
+[K:Bb]\
+!ff!bbbz fffz | dddz BBBz |
+f2(gf) (=fgab) | b2z2 z4 |\
+!p!!/!.F8 | f8- | f2gf e3d | c2z2 z4 |\
+z2!p!!/!c6 | g8- | g2(ag) f3e | d2z2 z4 |\
+z2 !/!d6 | f8- |
+f2gf e2d2 | e2g2 b4- | b2.b2.a2.g2 | ffff f2d2 | eeee e2c2 | dfb2 cfa2 | b2bb b2z2 ]\
+bbbz fffz | dddz BBBz |
+f2(gf) (=efga) | b2 !p!!/!d6 |\
+!/!d8 | !pp!(f4 d)c.d.e |\
+f2f2 g3f | e2d2e2c2 | (d2e2=e2f2) |\
+(f4 d)(cde) | f2f2 g3f | e2d2e2c2 | d2b2b2z2 H|]
+% -------------------------
+V: 2
+K: F
+|:"Bb POST HORN"!p!\
+!//!A4 A2A2 | A2F2 A2F2 | G2E2 G2E2 | F2 "^>"f2 fe(3dcB |\
+!//!A4 A2A2 | A4!trem1!F4 | G2EF G2B2 | A2c2A2z2 :|\
+|:!p!\
+{e}d>^cd>e {g}f>ef>d |
+^c>da3 gfe | {e}d>^cd>e {g}f>ef>d | ^cPd^dpe AA=B^c |\
+{e}d^cde {g}fefd | ^ce"^>"a3 gfe | d>fe>d ^c>ed>c | d2 (A2^G2=G2) |\
+!//!A4 !ff!A2A2 |
+A2FG A2F2 | G2EF G2E2 | F2 f2- fe(3dcB |\
+!//!A4 A2A2 | A2FG A2F2 | G2EF G2B2 | A2c2A2z2 ]\
+[K:Bb]\
+!ff!dddz dddz | FFFz FFFz |
+.A4!trem1!.c4 | d2!/!d6 |\
+!p!!/!d8 | d8- | d2ed c3B | A2z2 z4 |\
+z2!p! !/!A6 | e8- | e2fe d2c2 | B2z2 z4 |\
+z2 !/!F6 | d8- |
+d2ed c2B2 | G2e2 g4- |\
+g2.g2.f2.e2 | dddd d2B2 | cccc c2A2 | F4 A2c2 | d2dd d2z2 ]\
+!f!dddz dddz | FFFz FFFz |
+A4!trem1!c4 | d2 !p!!/!F6 | !/!F8 |\
+!pp!d4 (BA.B).c | d2d2 e3d | c2=B2c2A2 | (B2c2^c2d2) |\
+(d4 B)(ABc) | d2d2 e3d | c2=B2c2A2 | B2d2d2z2 H|]
+% -------------------------
+V: 3 clef=bass middle=d
+|:"OPHICLEIDE"!p!\
+e4!trem1!B4 | e4!trem1!B4 | d4!trem1!B4 | e4!trem1!B4 |\
+e4!trem1!B4 | e4!trem1!B4 | d4!trem1!B4 | e2E2E2z2 :|\
+|:!p!\
+c4!trem1!e4 |
+G2=B2 d2g2 | c2e2 c2e2 | G4!trem1!g4 |\
+c2e2 c2e2 | G2=B2 d2g2 | e2c2 g2G2 | c2z2 z4 |\
+!ff!e4!trem1!B4 |
+e4!trem1!B4 | d4!trem1!B4 | e4!trem1!B4 | e4!trem1!B4 |\
+e4!trem1!B4 | d4!trem1!B4 | e2 E2E2z2 ]\
+[K:Ab]\
+!ff!aaaz aaaz | AAAz AAAz |
+(d8 | a2) !p!!/!a6 |\
+!/!a8 | A2 !/!a6 | A2 !/!a6 | "^SOLO"E2 e2g2b2 |\
+e2 !p!!/!e6 | E2 !/!e6 | E2 !/!e6 | A2 a2e2c2 |\
+A2 !/!a6 | A2 !/!a6 |
+A2 a2a2a2 | d4!trem1!d'4 | d4!trem1!d'4 | a4!trem1!e4 | g4!trem1!e4 | a4 e4 | a2 A2A2z2 ]\
+!ff!aaaz aaaz | aaaz aaaz |
+(e8 | a2) !p!!/!a6 | !/!a8 |\
+!pp!A4!trem1!a4 | A4!trem1!a4 | E4!trem1!e4 | A4!trem1!a4 |\
+A4!trem1!a4 | A4!trem1!a4 | E4!trem1!e4 | a2e2A2z2 H|]

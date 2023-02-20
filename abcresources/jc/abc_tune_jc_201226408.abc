@@ -1,0 +1,24 @@
+X: 10253
+T: DULCE DOMUM
+Q: "Allegro moderato."
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.25 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+B3c d2{c}B2 | e2(AB/c/) {c}B2{A}G2 |\
+B3^c d2(ed) | (d2^c2) d4 |\
+d2AB c>d{c}B2 | AD AG {G}F2{E}D2 |\
+d3B e2(AB/c/) | (B2A)>G G2-HG2 |]
+[|"^Chorus."\
+B3c d2G2 | c3B A2A2 |\
+e3d ^c2d2 | d2^c2 d2-d2 |\
+d3B e3d | (cBA)G {G}F2{E}D2 |\
+d3B e2(AB/c/) | (B2A)>G G2-G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

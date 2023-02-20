@@ -1,0 +1,32 @@
+X:37
+T:Masurkka Medley from Saarijarvi
+M:3/4
+L:1/8
+Q:1/4=150
+S:Aarne Tarvaiasen Masurkka, Lipan Matin Nahkahousut
+R:masurkka
+P:AT,LMN
+K:Dm
+P:AT
+|: "Dm" A>B AG FE | D2 .d2 .d2 | "A7" A2 .^c2 .c2 |
+"Dm" A2 .d2 .d2 | "F" A>B AG FE | "Bb" D2 .d2 .d2 | !
+"A7" A2 .^c2 cA | [1 "Dm" .d2 .d2 z2 :|[2 "Dm" .d2 .d2 z e ||
+|: "Dm" fe d2 d^c | "A7" .e2 A4 | a2 g2 ge | !
+"Dm" af d2 de | fe d2 dc | "Gm" BA G2 F2 |
+"A7" E2 A2 A^c |[1 "Dm" .d2 .d3 e :|[2 "Dm" .d2 .d2 z2 || !
+P:LMN
+K:D
+|: "D" A>d .f2 e2 | "G" d>c .B2 B2 | "A7" A>c .c2 c2 |
+"D" A>d .d2 d2 | A>d .f2 e2 | "G" d>c .B2 B2 | !
+"A7" A>c cA Bc | "D" .d2 d4 :|: "A7" g>f .e2 g2 |
+"D" f>e .d2 f2 | "A7" e>d .c2 e2 | !
+"D" d>f .a2 a2 | "A7" g>f .e2 g2 | "D" f>e .d2 f2 |
+"A7" e>d .c2 e2 | "D" d2 d4 :| !
+K:Dm
+P:AT
+|: "Dm" A>B AG FE | D2 .d2 .d2 | "A7" A2 .^c2 .c2 |
+"Dm" A2 .d2 .d2 | "F" A>B AG FE | "Bb" D2 .d2 .d2 | !
+"A7" A2 .^c2 cA | [1 "Dm" .d2 .d2 z2 :|[2 "Dm" .d2 .d2 z e ||
+|: "Dm" fe d2 d^c | "A7" .e2 A4 | a2 g2 ge | !
+"Dm" af d2 de | fe d2 dc | "Gm" BA G2 F2 |
+"A7" E2 A2 A^c |[1 "Dm" .d2 .d3 e :|[2 "Dm" .d2 .d2 z2 || !

@@ -1,0 +1,25 @@
+X:381
+T:Kennet Jig
+C:Pauline Wilson
+Q:3/8=120
+M:6/8
+K:G
+P:A
+|: "G"DGB "Bm"d2B | "Em"e2B "Bm"d2B | "G"DGB "E/G#"dcB | "A7"A3 -"D7"A3 |\
+"G"DGB "Bm"d2B | "Em"e2B "Bm"d2B | "C"cBc "D7"dBA | "G"G3 -G3 :|
+P:B
+|: "G"B2G DAB | "Am"cBc "D7"A3 | "G"G2B "Em"d2g | "A7"d3 -"D7"d3 |\
+"G"B2G "G7"DAB | "C"cBc "Am"A3 | "D7"d^cd e=cA | "G"G3 -G3 :|
+N:Replace by blank line and X field
+T:Avon Jig
+C:Pauline Wilson
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=120
+M:6/8
+K:Em
+P:A
+B | "Em"e2e B2B | "/"GAB E3 | "D7"FED AGF | "/"FED AGF |\
+"Em"e2e B2B | "/"GAB E3 | "D7"FED A2A | "Em"GEE E2 :|
+P:B
+|: D | "G"G2G B2B | "D7"ABA D3 | "G"G2G B2B | "Am"d2d "D7"cBA |\
+"G"G2G B2B | "D7"ABA D3 | "Em"EFG "A7"FED | "Em"E3 -E2 :|

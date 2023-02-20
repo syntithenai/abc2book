@@ -1,0 +1,11 @@
+X:372
+T:Jug of Punch
+C:Traditional
+M:3/4
+L:1/8
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%MIDI beat 100 95 80
+Q:1/4=100
+K:G
+[| "D7"d3/c/ | "G"BBB2B3/A/ | "G"GGG2FG | "D7"AAA2GA | "G"BBB3d |\
+"G"dd "G7"d2cB | "C"ec "Am"A2Bc | "G"dd "C"e2d3/c/ | "D7"BA "G"G2 |]

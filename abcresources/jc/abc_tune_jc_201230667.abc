@@ -1,0 +1,35 @@
+X: 14061
+T: the Plowman
+T: the Plow Man
+%R: march, reel
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.4 p.6
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The 2nd double-bar line has no repeat dots, though all the others do; converted to yet another double-repeat symbol.
+N: Some strains have pickup notes; others don't. This give incorrect rhythms at those boundaries.  Not fixed.
+M: 2/4
+L: 1/8
+K: G
+"_Brisk"G |\
+Bd2e | dBTAG | Bd2e | d2G ::\
+(e/f/) | (g/f/e/d/) (e/d/c/B/) | (cB) A(e/f/) | g/f/e/d/ B/c/d/B/ |\
+g2 d(e/f/) | (g/f/e/d/) (e/d/c/B/) | gB Ac |
+(B/c/d) (e/f/g) | {e}Td2G ::\
+(B/c/)d Gd | gBAa | g/(a/b) dB | d2 G2 ::\
+g/(f/e/d/) gB | gBAf | (g/f/e/d/) gB | (g/f/e/d/) gG |
+(c/d/e/c/) dB | gBAc | (B/c/d) (e/f/)g | {e}Td2 G2 ::\
+BGTe2 | dBTc2 | BG (e/f/g/e/) | Td2G2 ::\
+e/(f/g/e/) dB | gBA2 |
+e/(f/g/e/) dg | B/(c/d/B/) Gg |\
+(c>A)(B>G) | A>B (c/d/e/f/) | g/(a/b) e/(f/g) | {e}Td2 G2 ::\
+(B/d/)g (B/d/g) | d/(B/A/G/) TAG | (b/a/g) (d/B/g/e/) |
+{e}Td2 G2 ::\
+(g/d/)B (g/d/)B | g/(d/B/G/) TAG | g/d/B/G/ B/d/b/a/ | g2 d(g/a/) |\
+(b/g/e) g/d/B/g/ | G/B/g/B/ Ac | (B/c/d) (e/f/g) | {e}Td2 G2 :|
+[M:6/8]"^Gig"G |\
+B2d (e/f/g)e | dBG TA2G | ABd (e<ge) | d3 G2 :: (e/f/) |\
+gdB GAB | gdB A2(e/f/) | gdB GAB | g3 d2(e/f/) |
+(ge)c (dB)g | GgB A2c | TB2g ece | Td3 G2 :: A |\
+B2G ABg | dBG Adc | TB2g ece | d3 G2 :|
+|: (e/f/) | g2d gdB | gdB TA2G | gdB dba |\
+g3 d2b | age gdB | edB AGA | TB2d (e/f/g)e | Td3 G2 :|

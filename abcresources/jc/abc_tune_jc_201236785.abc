@@ -1,0 +1,40 @@
+X: 230
+T: the Editors thanks to Mr Nathaniel Gow.*
+T: Mile taing' an udair.*
+R: air, jig
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.103 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain has odd notation for "endings" that I think I've figured out.
+M: C
+L: 1/8
+Q: "Strathspey Style."
+K: Eb
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+A, |:\
+(G,/A,/B, B,)<G E>C TB,2 | (G,/A,/B,) B,<B {A}GF/E/ G<B |\
+(G,/A,/B,) B,<G E>C B,2 | G<E {FG}A>G F>B,D [1 F :|2 a [|\
+Tg>eg<b e<eTg2 | e>gB<b g>eg<b |
+Tg>eg<b e<eTg>f | g<e {fg}a>g f>Bd<f ||\
+Tg>eg<b e<e Tg2 | {d}e>gB<b g>eg<b |\
+g/a/b {g}a<f g>e f<d | e/d/c/B/ A/G/F/E/ F>B,D |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |:\
+[E2e2][E2e2] [E2e2][E2e2] | [E2e2][E2e2] [E2e2][E2e2] |\
+[E2e2][E2e2] [E2e2][E2e2] | [E2e2]c2 [B,2B2][B,B] [1 x :|2 z [|\
+[e2b2][e2b2] [e2b2][e2b2] | [e2b2][e2b2] [e2b2][e2b2] |
+[e2b2][e2b2] [e2b2][e2b2] | [e2b2][d2b2] [B2b2][B2b2] ||\
+[e2b2][e2b2] [e2b2][e2b2] | [e2b2][e2b2] [e2b2][e2b2] |\
+[e2b2][d2b2] [e2b2][f2b2] | [G2g2][A2a2] [B,2B2][B,B] |]
+% = = = = = = = = = =
+%%begintext align
+%% * THE Editor cannot conclude this tedious work, without expressing his thanks in the most public
+%% manner, for the aid afforded him by Mr GOW, throughout this undertaking, and to the other
+%% eminent PROFESSIONAL MEN, who assisted in revisal of a work, which might often require a
+%% Sacrifice of their Skill, in blending the Science of Music, with the wild and simple Effusions
+%% of Nature.
+%%endtext

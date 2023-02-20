@@ -1,0 +1,25 @@
+
+X: 1
+T: Ducks on the Pond
+M: C|
+L: 1/8
+K: Ador
+|: "Am"[A4E4] [e4A4] | edef g4 | "G"B2Bc BAGA | BABc BAG2 |
+|  "Am"[A4E4] [e4A4] | edef gaba | "G"g2e2 d2B2 | "Am"A3B A4 :|
+|: "Am"{e}aebe a2g2 | edef g2g2- | "G"gfga bagf | edeg age2 |
+|  "Am"aebe a2g2 | edef g2ba |"G"g2e2 d2B2 | "Am"A3B A4 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2
+T: Ducks On The Pond
+M:4/4
+L:1/8
+K:Amix=g
+(3ef^g \
+| "A"a2 b2 a2 g2 | edef "G"g3d | gaba g2 d2 | "Em"edeg "A"a2 eg |
+| a2 b2 a2 (3gag | "Em"edef "G"gaba | gfeB "Bm"d2B2 | "A"A3B A2 :|
+|: e2 \
+| "Am"E3d e2d2 | edef "G"g4 | B3d BAGA | B3d BAGD |
+| "Am"E3d e2d2 | edef "G"gaba | "Em"gfec "D"d2B2 | "Am"A3B A2 :|

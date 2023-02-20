@@ -1,0 +1,23 @@
+X: 1
+T: Bour\'ee de Sainte Gemmes
+O: trad. France (Berry)
+R: bour\'ee 3T
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+S: NEFFA 2019 French Jam handout p.2 #1
+M: 3/8
+L: 1/16
+K: C
+V: 1 staves=2
+c2 |\
+"G"g4^f2 | g4de | "F/Dm"f2e2d2| "C"e2c2c2 |\
+"G"g4^f2 | g4de | "F/Dm"f2e2d2 | "C"c4 :| 
+|: G2 |\
+"C"c4B2 | c2B2c2 | "G"d4e2 | "Dm"d4de | "G7"f2e2d2 |\
+"C"e2d2c2 |1 "(G)"Bcd2c2 | "G7"B2G2 :|2 "G7"Bcd2B2 | "C"c4 |]
+V: 2
+c2 |\
+B4 d2 | B4 z2 | A2c2B2 | c2G4 |\
+B4d2 | B4z2 | A2c2B2 | c4 :|
+|: z2 |\
+e4g2 | e2d2e2 | B4c2 | A4z2 | A4B2 |\
+c2G4 |1 G4Bd | G4 :|2 G4Bd | c4 |]

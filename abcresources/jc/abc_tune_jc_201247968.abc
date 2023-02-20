@@ -1,0 +1,50 @@
+%% The Ash Grove, a traditional waltz
+
+
+X: 0
+T: Ash Grove  v.1
+P: piffero primo b0054
+O: safd
+%R: waltz
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/ashgroveF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+D2 |\
+G2B2d2 | B2G2G2 | A2cBAG | F2D2D2 | G2BAGF | E2C2E2 | D2G2F2 | G4 :: Bc | d2Bcde | d2c2B2 | c2ABcd |
+c2B2A2 | B2GABc | B2A2G2 | A2d2^c2 | d4 D2 | G2B2d2 | B2G2G2 | A2cBAG | F2D2D2 | G2BAGF | E2C2E2 | D2G2F2 | G4 :|
+
+
+X: 1
+T: Ash Grove  v.2
+P: piffero secondo a0210
+O: Greg Bacon
+%R: waltz
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/ashgroveF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+z2 | "_8vo..."\
+B4B2 | d4d2 | cde2fe | d2A2c2 | B2d2B2 | c4B2 | A2B2dc | B4 :: z2 | "_8vo..."f2gabc' | b2a2g2 | g2f2e2 |
+d4e2 | d4d2 | g2f2e2 | d2f2ag | fed2c2 | B4B2 | d4d2 | cde2fe | d2A2c2 | B2d2B2 | c4B2 | A2B2dc | B4 :|
+
+
+X: 2
+T: Ash Grove  v.3
+P: piffero terzo a0211
+O: Greg Bacon
+%R: waltz
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/ashgroveF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+z2 | "_8vo..."\
+G4D2 | G2B2AG | F2G2A2 | DEFGA2 | G3FE2 | G4E2 | F4A2 | G4 :: z2 | "_8vo..."dcBAG2 | GABcd2 | c3BA2 |
+A3Bc2 | BAG2F2 | G2A2B2 | F2D2E2 | F3GA2 | G4D2 | G2B2AG | F2G2A2 | DEFGA2 | G3FE2 | G4E2 | F4A2 | G4 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

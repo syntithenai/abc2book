@@ -1,0 +1,27 @@
+X: 21433
+T: CUCKOO SETT (tune 6)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.143 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="6"
+A/G/ |\
+FAd fed | g2f b2a | agf fed | dcB BAG |\
+FAd fed | g2f b2a | agf fed | dec d2 H|]
+c/d/ |\
+e2e ecA | ^G2A B2c | d2d dB^G | AcA E2c/d/ |\
+e2e ecA | a2a afd | .c.e.c dB^G | ABA GA"^D.C."G |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Grand right and left,
+%% all balance and turn partners,
+%% grand chain,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

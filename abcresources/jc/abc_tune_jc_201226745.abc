@@ -1,0 +1,23 @@
+X: 10423
+T: MARCH FROM "PIETRO L'EREMITA."
+C: Rossini.
+R: March.
+%R: march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.42 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+d4 d3d | d4 (edcd) | f2e2 c4 | f2e2 c4 |\
+d4 d3d | d4 (edcB) | A2B2 c4 | A2B2 c4 |\
+d4 d3d | d4 (edcd) | f2e2 c4 | f2e2 c4 |\
+(dcde) (fgab) | (agfe) (dcBA) | B2b2f2d2 | B4 z4 |]
+[|\
+c4 c3c | c4 (dcBc) | d2e2 f4 | d2e2 f4 |\
+c4 c3c | c4 (dcBc) | d2e2 f4 | d2e2 f4 |\
+d4 d3d | d4 (edcd) | e2f2 g4 | e2f2 g4 |\
+f3f f3d | e3e e3c | B4 d4 | B4 z4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

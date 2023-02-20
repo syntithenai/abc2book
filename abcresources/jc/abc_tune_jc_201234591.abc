@@ -1,0 +1,24 @@
+X: 2062
+T: Auld wife ayont the Fire.   a Strathspey.
+%R: air, strathspey
+B: Niel Gow & Sons "Complete Repository" v.2 p.6 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "VERY SLOW"
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+d |\
+{c}B2~A>G T.FGA{B}c | {c}B2~A>G Gg g>d |\
+(cB) ~AB TF>GAc | (B<d) A>B {F}[G2D2B,2][GDB,] :| c |\
+TB>cde ~c>dcA | (Bcd)e de/f/ gd |
+TB>cde c>dcA | (B<d) TA>B {F}[G2D2B,2][GDB,]>c ||\
+TB>cde ~c>dcA | TB>c de/f/ (g/f/).g/.a/ g>d |\
+TB>cde ~c>d cA | (B<d) TA>B [G2D2B,2][GDB,] |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+g2fg d2f2 | g2d2 G4 | G2e^c d2f2 | g2d2 G2G :| z | gab2 a2f2 | gabc' b2g2 |
+gab^g a2f2 | g2d2 G2Gz || gab^g a2f2 | gabc' b2g2 | gab^g a2f2 | g2d2 G2G |]

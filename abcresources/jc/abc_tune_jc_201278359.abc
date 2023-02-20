@@ -1,0 +1,16 @@
+X: 1
+T: Furuboms Polska (polska e. Lisa Furubom)
+R: hambo, polska
+%S: s:2 b:16(8+8)
+%S: s:4 b:16(4+4+4+4)
+S: http://www.nyckelharpa.org/archive/written-music/american-allspel-list/ 2022/9/24
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am	% and C
+"^A"\
+|: A2 (A>B) c>d | e2 e4 | B2 (B>d) c>B | (B>A) (A<G) E>E ||
+|| A2 (A>B) c>d | e2 e4 | B2 (B>d) c>B | (B<A) A4 :|
+"^B"\
+|: g2 (g>a) g>f | (f<e) e4 | G2 (G>B) d>B | (c>B) (c>d) e>f ||
+|| g2 (g>a) g>f | (f<e) e4 | (G>F) (G>B) d>B | c2 c4 :|

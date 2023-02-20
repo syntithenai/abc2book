@@ -1,0 +1,33 @@
+#/home/jc/sh/abcjoin: sep=0.
+
+X: 0
+T: Revontulet 5
+K: C
+
+
+X: 1
+T: Viitatoista
+T: Viistoista
+M: 2/4
+L: 1/8
+P: 8x (D2G2D2G2)
+K: D
+P: D:
+|: "D"f2 "G"d>B | "D"AA/A/ AF | "A7"AG FG/G/ | "D"AA A2 :: "G"BB BB | "D"BA AA "I"| "A7"cc Bc | "D"dd d2 :|
+P: G:
+K: G
+|: "G"b2 "C"g>e | "G"dd/d/ dB | "D7"dc Bc/c/ | "G"dd d2 :: "C"ee ee | "G"ed dd | "D7"ff ef | "G"gg g2 :|
+
+
+X: 2
+T: Vironpolkka
+T: Nauhapolkka
+P: 10x (G2D2G2D2G2)
+M: 2/4
+L: 1/8
+K: G
+P: G:
+c/c/ |: "G"BB Bc/B/ | "D7"AA AB/c/ | dd d/c/B/A/ | "G"GG G2 :: "C"ce ce | "G"Bd Bd | "D7"cD DF | "G"AG G2 :|
+P: D:
+K: D
+a/g/ |: "D"ff fg/f/ | "A7"ee ef/g/ | aa a/g/f/e/ | "D"dd d2 :: "G"gb gb | "D"fa fa | "A7"gA Ac | "D"ed d2 :|

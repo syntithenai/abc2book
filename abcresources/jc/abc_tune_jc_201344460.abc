@@ -1,0 +1,20 @@
+X: 961
+T: the Three Captains   #2
+%S: s:3 b:15(5+5+5)
+O: Ireland
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #961
+R: hornpipe, long dance, set dance
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0961/oneill-1001-0961-1.abc
+M: C
+L: 1/8
+K: G
+"^A"[|] D \
+|: G>G (3BGB c>A F>A | G>G (3BGB d>B G>G | (3cec A>A (3BdB G>G \
+|[1,3 A>B c>B (3ABG (3FED :|[2,4 (3EcB (3AGF G2G \
+"^B":: d \
+| g>g (3dcB (3ABc (3def | g>g (3dBd (3ecA A>A \
+| g>g (3bge f>g (3afd | (e/f/g)e (3edc d>d (3dcB \
+| c>d (3ecA B>c (3dBG | A>B c>B (3ABG "^->A2,4"(3FED :|
+%| G>G (3BGB c>A F>A | G>G (3BGB d>B G>G \
+%| (3cec A>A (3BdB G>G | (3EcB (3AGF G2G :|

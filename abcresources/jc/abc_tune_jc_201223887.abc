@@ -1,0 +1,12 @@
+X:78
+T:Green Cockade
+M:6/8
+Q:1/8=300
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A|D2F A2d|f2d A2F|GFG e2d|cBA GFE|D2F A2d|f2d A2F|GFG e2d|cBc d2::
+c/d/|e2c A2d|f2d A2f|g2f e2d|cBA GFE|D2F A2d|f2d A2F|GFG e2d|cBc d2:|

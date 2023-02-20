@@ -1,0 +1,40 @@
+X: 203
+T: Flaskadriga
+R: khodisl
+D: Kandel's Orchestra, May 1921
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: BPhr^d
+|: "B"BBBB Bdc2 \
+| cdB2 BcA2 \
+| BBBB Bedc \
+| Bcd2 zBcA \
+|| "B"BBBB Bdc2 \
+| cdB2 BcA2 |
+| "Am"^GABc dedc \
+| "B"dcB2- B4 \
+:: "B"dddd dfe2 \
+| efd2 dec2 \
+| dddd dgfe \
+| def2- f4 |
+|| "B"dddd dfe2 \
+| efd2 dec2 \
+| "Am"^GABc dedc \
+| "B"dcB2- B4 \
+:: "Em"e6 fg \
+| e6 fg \
+| e2fg e2fg |
+| e4 zA^GA \
+|| "D"=d6 ef \
+| =d6 ef \
+| =d2ef d2ef \
+| =d2z2 "B"^d4- \
+|| dfe2 efd2 \
+| dec2 cdB2 |
+| B3c dedc \
+| Bed2- d4 \
+|| "B"dfe2 efd2 \
+| dec2 cdBA \
+| "Am"^GABc dedc \
+| "B"dcB2- B4 :|

@@ -1,0 +1,6 @@
+X: 1
+T: TEST: Two endings with quoted labels
+%%staffwidth 250
+%%scale 0.80
+K: C
+|: CD |["1-N" EF :|["Last time" Bc |]

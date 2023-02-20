@@ -1,0 +1,45 @@
+
+X: 1
+T: Karago\'una
+O: Thessaly
+M: C|
+L: 1/8
+Q: 1/2=60
+% %vocalfont Helvetica-Narrow-Bold 15
+K: Gdor
+z2 "vocal"\
+| "Gm"G2G2 (AB)^c2 | d6 ^c2 | d2d2 ^c2d2 | ^c4 (BA)G2 |
+w: 1.~Ay-de pe-*ra-se,* e-na ka-lo-ke-ri
+w: 2.~E-se-na,* sou pre-pou, me-ta-ksa-ta si-gou-*nia
+w: 3.~Ay-de da* pou-li, pou-li-so ki ti sta-ni,
+| "Gm"G2G2 "(G7)"(AB)=B2 | "Cm"c6 B2 | "D"d2d2 ^c2([dB]A) | "Gm"G4 G2 :|
+w: 1.~ay-de ke* de mou, de mou-sti-les ham-*be-ri.
+w: 2.~ay-de ti* ham-be, ham-be-ri na sou* sti-lo,
+w: 3.~ay-de na* sou-pa, sou-pa-ro 'na fou-*sta-ni.
+|: B2 | (BA)G2 z2B2 | (BA)G2 z2B2 | "D"d2d2 ^c2d2 | "Gm"(BA)G2 z2 :|
+w: 1.~Ay Gou-*nam, ay Gou-*nam, ay Gou-nam Ka-ra-gou-*nam.
+w: 2.~Am-pos-*da, am-ti-*da, tin pro-ko-pis tin i-*da.
+w:    Am-pos-*da, am-ti-*da, sto pa-ra-thi-ri s'i-*da.
+w: 3.~Ay Gou-*nam, ay Gou-*nam, ay Gou-nam Ka-ra-gou-*nam.
+Q:1/2=88
+z2"instr"\
+|: "Gm"gfed ^cdef | gfed ^cBAG | gfed ^cdef | g2gd g4 ||
+| "Gm"gfed ^cdef | gfed ^cBAG | "(D7)"^FGAB ^cdBA | "Gm"GD"D7"E^F"Gm"G2 :|
+
+
+%%sep 3 1 500
+
+X: 2
+T: Karago\'una
+O: Thessaly
+M: C|
+L: 1/8
+Q: 1/2=60
+K: Ador
+z2 "vocal"\
+| "Am"A2A2 (Bc)^d2 | e6 ^d2 | e2e2 ^d2e2 | ^d4 (cB)A2 | "Am"A2A2 "(A7)"(Bc)^c2 | "Dm"d6 c2 |
+| "E"e2e2 ^d2([ec]B) | "Am"A4 A2 :: c2 | (cB)A2 z2c2 | (cB)A2 z2c2 | "E"e2e2 ^d2e2 | "Am"(cB)A2 z2 :|
+Q:1/2=88
+z2"instr"\
+|: "Am"agfe ^defg | agfe ^dcBA | agfe ^defg | a2ae a4 ||
+| "Am"agfe ^defg | agfe ^dcBA | "(E7)"^GABc ^decB | "Am"AE"E7"F^G"Am"A2 :|

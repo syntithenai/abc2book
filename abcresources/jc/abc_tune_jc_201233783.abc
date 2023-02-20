@@ -1,0 +1,23 @@
+X: 20111
+T: Murland Willie
+%R: jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.11 #1
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gm
+%%slurgraces 1
+%%graceslurs 1
+"_Brisk"D |\
+G2A {A}B2c | d>ed {d}f2d | cAc {c}f2d | cAG ^F2D |\
+G2A {A}B2c | ded {d}b2a | g^fg dg^f | g3- g2 :|
+|: d |\
+g2a {a}b2g | {g}f2d {d}f2f | BcB {B}f2d | cAG T^F2D |\
+G2A {A}B2c | ded {d}b2a | g^fe dg^f | g3- g2 :|
+|: D |\
+G2B (A/B/c)A | B>cd g2f | d>cB (d/e/f)d | cAd T^F2D |\
+G2B (A/B/c)A | B2d (c/d/e)c | dba bg^f | g3 G2 :|
+|: d |\
+g2a bag | fdb fdB | edc fed | g2G ^F=ED |\
+GAB cBc | dba g2f | edc dg^f | g3 G2 :|
+

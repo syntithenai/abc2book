@@ -1,0 +1,36 @@
+X: 10643
+T: the BERLIN WALTZ
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.64 #3 (and p.65 #1)
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+({A}G2F2)G2 | (B2d2)G2 |\
+(c2e2)G2 | (d4B2) |\
+(g4e2) | (d2B2)G2 |\
+{A}GFGABG | .A2.F2.D2 |\
+{A}G2F2G2 | (B2d2)G2 |
+{d}cBcdec | (d4B2) |\
+(g4e2) | d2B2G2 |\
+{A}GFGBAF | G4 |:\
+D2 |\
+{B}A^GABAB | (c4A2) |\
+B2 (bg) (gd) | (d4B2) |
+{B}A^GABAB | (c4A2) |\
+B2 (dB) (cA) | G4 :|\
+|: (GA) |\
+.B2.B2.B2 | e4g2 |\
+{g}f2e2^d2 | e2g2B2 |\
+.A2.A2.A2 | (d4f2) |
+({g}e2d2)^c2 | d4(ef) |\
+(g4e2) | d4B2 |\
+{A}GFGABG | A2F2D2 |\
+(g4e2) | (d4B2) |\
+{A}GFGBAF | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,18 @@
+X: 106
+T: Lord Doneraile
+R: jig
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #106
+O: J.O'Neill
+Z: 1997 henrik.norbeck@mailbox.swipnet.se
+N: Compacted by using labels and play order [JC]
+N: The B parts differ trivially in rhythm and ornamentation, which have been combined.
+P: Play AB CB DB
+Q: "With spirit"
+M: 6/8
+L: 1/8
+K: Gm
+"^A"[|] D | G>AG (Gc>)c | (A<F)F F2A | G>AG (Gg>)g | (fd>)d d2 |]
+"^B"[| {d}=e | f>gf {g}Tfed | c>dB ABc | d>ed {e}dzc | (B<G)G "^fine"G2 |]
+"^C"[| d | g>dg gab | (a<f).f f2a | g>ag gfe | (f<d).d "^->B"d2 |]
+"^D"[| D | G3 c3 | (A<F)F F2A | G3 g2e | (f<d)d "^->B"d2 |]

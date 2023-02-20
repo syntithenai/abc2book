@@ -1,0 +1,24 @@
+X: 1102
+T: the Drunken Wives of Fochabers A Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.10 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Dm	% and F, ending on Gm
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 6-bar lines, for compactness and proofreading.
+V: 1 staves=2
+A |\
+D/D/D D2 TF>GA>F | G/G/G G>A TB>GA<d |\
+D/D/D D>E TF>GA<c | d<fc<f TA>GG :| e |\
+f>dc>A (Tf>ga)>f | g/g/g g>a b>ga>g |
+Tf>dc>A  f>g{fg}a>g | f>dc>A TB>GG>(e ||\
+f)>dc>A ({e}f>ga)>f | g/g/g g>a {ga}b>ga(g |\
+f)>dc>A f>g{fg}a>g | f<dc<f TA>GG |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d2d2 f2f2 | g2G2 G2G2 | d2d2 f2f2 | d2d2 G2G :|
+z | f2f2 f2f2 | g2g2 g2g2 | f2f2 f2f2 | d2d2 G2g2 || f2f2 f2f2 |
+g2g2 g2g2 | f2f2 f2f2 | d2d2 G2G |]

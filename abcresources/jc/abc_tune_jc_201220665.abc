@@ -1,0 +1,34 @@
+X: 3
+T: Lady Davidson of Cantray
+C: John Lowe - Kerr's Collection
+B: Roy Goldring "14 Social Dances"
+P: Tune for "The Cramond Wedding"
+R: strathspey
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F2 |\
+"D"D3F Ad3 "D/F#"A3F DF3 | "Em"Ee3 e3f "A7"gfed ce3 |\
+"D/F#"d3B AF3 "G"GABc d3B | "D"A3F "Em"GFED "A7"CE3 E3F |
+"D"D3F Ad3 "D/F#"A3F DF3 | "Em"Ee3 e3f "A7"gfed ce3 |\
+"D/F#"dcde fefg "D"a3f dA3 | "G"BcdB "A"AF3 "D"Ad3 d2 ||
+f2 |\
+"D"a3f dA3 "G"Bb3 "D/F#"a3f | "Em"g3e gfed "A7"ce3 e2fg |\
+"D"a3f dA3 "G"b3a "D/F#"fd3 | "Em"g3e "A7"abag "D"fd3 d3f |
+"D"a3f dA3 "G"Bb3 "D/F#"a3f | "Em"g3e gfed "A7"ce3 e3f |\
+"D"(3d2c2d2 "G"(3B2c2d2 "Em"(3e2f2d2 "A"(3c2B2A2 | "G"BcdB "A"AF3 "D"Ad3 d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+D4 [d'4a4f4] F4[a4f4] | "Em"E4[e'4b4g4] A,4[c'4a4g4] |\
+F4 [d'4a4f4] G4 [d'4b4g4] | [d4D4][e4E4] A,4[c'4a4g4] |
+D4 [d'4a4f4] F4[a4f4] | "Em"E4[e'4b4g4] A,4[c'4a4g4] |\
+[f4F4][e4E4] [d4D4][d'4=c'4f4] | [g4G4][a4A4] D4[d'2a2f2] ||
+z2 |\
+D4[d'4a4f4] [g4G4][f4F4] | [e4E4][e'4b4g4] [A4A,4][c'4a4g4] |\
+D4[d'4a4f4] [g4G4][f4F4] | [e4E4][a4A4] D4[d'4a4f4] |\
+D4[d'4a4f4] [g4G4][f4F4] | [e4E4][e'4b4g4] [A4A,4][c'4a4g4] |\
+[d4D4][g4G4] [e4E4][a4A4] | [g4G4][a4A4] D4[d'2a2f2] |]

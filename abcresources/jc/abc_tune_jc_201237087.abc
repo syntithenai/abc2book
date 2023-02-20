@@ -1,0 +1,28 @@
+X: 2415
+T: the MOUNTAIN SPRITE
+R: Sand Jig.
+%R: _
+B: James Kerr "Merry Melodies" v.2 p.47 #415
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The repeat notation is strange; transcribed as normal repeats that ABC player software understands.
+M: C
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: C
+|:\
+vG,C2E G4 | {d}c>Bc>a g>ed>c |\
+G,>B,2D G4 | {c}B>AB>e d>BA>G |\
+G,C2E G4 | A,D2F A4 |\
+{c}B>AB>a (3gag (3fed |
+[1 c2{^f}g2 {f}g2{f}g2 :|\
+[2 c2e2 c2z2 |:\
+(vc'4 b2)z2 | (vF4 E2)z2 |\
+(vde/f/) e>d (cd/e/) d>c |\
+(Bc/d/) c>B [1 c>B A2 :|[2 A2 |:\
+G>F |\
+E>Gc>e g3 E |
+F>Ac>f a3 A |\
+B>db>a g>fA>B | d>ce>c G>AG>F |\
+E>Gc>e g3 E | F>Ac>f a3 A |\
+B>db>a g>fA>B | (3cge (3cGE C2 :| z2 |]

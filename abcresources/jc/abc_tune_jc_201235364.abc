@@ -1,0 +1,22 @@
+X: 21101
+T: SHE ROSE AND LET ME IN
+Q: "Sow, and Solemn."
+%R: _
+B: "Edinburgh Repository of Music" v.2 p.110 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+%%slurgraces 0
+%%graceslurs 0
+B>A |\
+{A}G2d>e (d2g2) | {g}^f3=e  d2_e2 |\
+(ed)cB AB{d}cB | B2{cB}A2 z2B>A |\
+(G2d)>e d2(g2 | {g}^f3)g a2d>e |\
+d2a2 (ba).g.^f | g6 |]
+g>{ag^fg}a |\
+{ga}b2ag g^fed | g>^fg>a b2zd |\
+(ce).d.c (Bd)cB | {c}B2A2 z2ga |\
+{c'}b>abg ^f=efd | g>^fga Hb2d2 |\
+c>Bc2 d2T^f2 | g6 |]

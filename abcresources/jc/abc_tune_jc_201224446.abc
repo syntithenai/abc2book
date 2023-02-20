@@ -1,0 +1,36 @@
+X: 0831
+T: the Exile
+%R: march
+N: This is version 2, for ABC software that understands voice overlays.
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1809, No. 8 p.3 #1
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances8
+M: 2/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+|: F2AF | c2AF | (dc).A.F | (EGcE) | F2AF | c2AF | (cB).G.E | F2F2 :|
+|: G=Bcd | edc=B | A^cde fedc | (=Bdag | fedc) | Ac=Bd | c2c2 :|
+|: "Harp Solo 8ve higher  _  _  _"\
+   !p!c3f | (efgf | edcB) ABc2 | c2fe | d2gf | ecde | f2f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=D
+|:\
+A2c2 & F4 | A2c2 & F4 | A2c2 & F4 | [B2G2]c2 & F4 |\
+A2c2 & F4 | A2c2 & F4 | G2B2&C4 | A2c2 & F4 :|
+|:\
+"^fz"E4 | C2E2 | "^fz"F4 | D2F2 |\
+G2=B2 | c2e2 | f2g2 | [e2c2][e2c2] :|
+|:!p!\
+FcAc | GcBc | CcEc | FcAc |\
+FcAc | (B2[=B2G2]) | c2[_B2G2C2] | [A2F2][A2F2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands four round, back again,
+%% down the middle up again
+%% and Allemand.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

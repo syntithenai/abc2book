@@ -1,0 +1,38 @@
+X: 08
+T: Straglass House -- Strathspey
+%R: strathspey
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.100 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+D/D/D D>E F>AAB | A<Fd>F [E3A,3]F |\
+D/D/D D>E TF>AAB | A<Fd>F A3 :: B |\
+A/A/A d>A TB>Ad>F | E/E/E F>D [E3A,3]F |
+A/A/A d>A TB>Ad>F | A/A/A d>F A3B |\
+A<Fd>A TB>Ad>F | E/E/E F>D [E3A,3] F/G/ |\
+A>FG>E F>AA>B | A<F d<F A3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2d2 d2d2 | d2d2 A2A2 |\
+d2d2 d2d2 | A2A2 D2D :: z |\
+d2d2 d2d2 | a2a2 A2A2 |\
+d2d2 d2d2 | A2A2 D2D2 |\
+d2d2 d2d2 | a2a2 A2A2 |\
+d2d2 d2d2 | a2A2 d2d |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st 2d and 3d Cu: foot it and hands round Six .|
+%% the same back again :|
+%% cross over two Cu: lead up to the Top and cast off :|:
+%% Turn corners with your right hands & your Partner with your Left .||
+%% the other corners the same :||
+%% lead outsides and turn :||:
+%%endtext
+%%sep 2 2 400

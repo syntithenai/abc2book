@@ -1,0 +1,13 @@
+X:615
+T:Mississippi
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 61
+M:6/8
+L:1/8
+Q:1/8=270
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+Bc|.d(GB) .d(gf)|.e(Gc) .e(fg)|.d(GB) dcB|A3 {ABcd}ed^c|.d(GB) .d(gf)|
+.e(Gc) .e(fg)|(dg).B (dc).A|GBd g:|(fg)|:(ad).f aba|gdB GBd|(ad).f aba|
+g3 {fag}f>(fg)|(ad.f) aba|gdB GBd|c>BA e>d^c|[1 de^c d(fg):|[2 ded =c!D.C.!BA||

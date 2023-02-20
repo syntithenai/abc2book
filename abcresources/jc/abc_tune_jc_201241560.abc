@@ -1,0 +1,29 @@
+X: 441
+T: LADY ERSKINE
+C: J. WALKER
+R: Reel
+B: Glen Collection p.44 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Am
+%
+V: 1
+E |\
+A2AB c2BA | Bdgd BGGB | A2AB (cd)ea | gegB A2-A :|
+g |\
+abag ega2 | gage deg2 | abag e^fge | dBgB A2Ag |
+abag ega2 | gage deg2 | aabg a^fge | dBgB A2-A |]
+%
+V: 2
+z |\
+[a2e2A2][a2e2A2] [a2e2A2][a2e2A2] | [g2d2G2][g2d2G2] [g2d2G2][g2d2G2] |\
+A2[a2e2] A2[a2e2] | e2e2 A2[aA] :|
+z |\
+a2[e'2c'2] e2[e'2c'2] | g2[d'2b2] d2[d'2b2] |\
+a2[e'2c'2] e2[e'2b2] | g2[b2g2] [c'2a2][a2A2] |
+a2[e'2c'2] e2[e'2c'2] | g2[d'2b2] d2[d'2b2] |\
+c'2b2 B2e2 | g2[b2g2] [c'2a2][aeA] |]

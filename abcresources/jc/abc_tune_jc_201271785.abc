@@ -1,0 +1,41 @@
+X: 1
+T:LA, B, & C, Doubling & Half Doubling Exercise  "CYMRU"
+M:C|
+L:1/8
+Q:80
+C:
+S:
+K:HP
+| {gcd}c{e}A{gcd}ce|
+{gcd}c{e}A{gBd}B{e}G|
+{gcd}c{e}A{gcd}ce|  !
+{gBd}B{e}G{gBd}B2| |
+{gcd}c{e}A{gcd}ce|
+{gcd}c{e}A{gBd}B{e}G|  !
+{gcd}c{e}A{gcd}ce|
+{gBd}B{e}G{gBd}B2|] |
+{gAd}Aa{cd}c{e}A|  !
+{gBd}B{e}G{gBd}B{e}G|
+{gAd}Aa{cd}c{e}A|
+{gBd}B{e}G{gBd}B2| |  !
+{gAd}Aa{cd}c{e}A|
+{gBd}Bg{aBd}B{e}G|
+{gcd}c{e}A{gcd}ca|  !
+{Bd}B{d}G{gAd}A2|] |
+{gcd}c{e}A{gcd}c{e}A|
+{gBd}Bd{gBd}Bd|  !
+{gcd}c{e}A{gcd}c{e}A|
+{gBd}B{e}G{gBd}B2| |
+{gcd}c{e}A{gcd}ce|  !
+{gBd}B{e}G{gBd}Bd|
+{gAd}A{d}c{gAd}A{d}B|
+{gAd}A{d}c{gAd}A2|] |  !
+{gcd}ca{cd}c{e}A|
+{gBd}Bg{Bd}B{e}G|
+{gcd}ce{gcd}c{e}A|  !
+{gBd}Bd{gBd}B{e}G| |
+{gcd}ce{gcd}c{e}A|
+{gBd}Bd{gAd}A{e}G|  !
+{gcd}ce{gBd}Be|
+{gBd}B{d}G{gAd}A2|]
+

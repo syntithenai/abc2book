@@ -1,0 +1,31 @@
+X: 31092
+T: COTILLION No. 16. EMMA QUADRILLE tune 5
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.109 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain has only 3 bars.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+b3 c'ef | g3 d3 |\
+b3 c'ef | g3 {a}gfg |\
+e3 gfe | d3 d'c'a |\
+g3 aef | g3- g2 H|] a |\
+a2a b2a | a2f f2a |
+a2a b2a | a3 f2a |\
+d'3 d'^c'd' | b3 b^c'd' |\
+a3 bge | d3- d2 |] a |\
+d'3 d'^c'd' | b3 b^c'd' |\
+a3 ab^c' | d'3 d'^c'"^D.C."=c' |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 chassa across partners and back,
+%% forward and back 4,
+%% balance and turn partners.
+%% Sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

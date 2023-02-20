@@ -1,0 +1,16 @@
+X: 47
+T: Chof Shaket
+C: Amitai Ne'eman 1979
+F: http://www.youtube.com/watch?v=hh_7ifSDUuU
+M: 3/4
+L: 1/8
+K: Dm
+Q:1/4=120
+%%MIDI gchord cz
+"Dm"A3AGA|F3FEF|D3DCD|"Bb"B,4zA,|\
+"Dm"B,CD3C|"Dm"DEF3F|"Edim"EDE4|"Dm"DCD4|z6|
+%%MIDI gchord hgihgi
+"Dm"D4C2|D4E2|F4ED|"Edim"E6|\
+"Dm"F4EF|D4F2|"Am"A6|z6|
+"Gm"G4E2|"Dm"F4ED|F4D2|"C"EFEDC2|\
+"Bb"B,6-|B,4C2|"Dm"D6|z6|

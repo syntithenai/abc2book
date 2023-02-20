@@ -1,0 +1,28 @@
+X: 11562
+T: the SCOTS JENNY
+C: James Oswald
+Q: "Slow."
+%R: air, minuet
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.156 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(F3G) |\
+{G}A4 c4 (c2de) | f6 d2 (c/d/f3) | (d2c2)(B2A2)(G2F2) | F8 (f3g) |\
+{f}e6 d2 c4 | {c}d4 f4 C4 | {C}D4 F4 (F3G) | F8 :| A2B2 |\
+c4 (d3e) (f3e/d/) | {d}c6 A2 (G3A) | F4 (F4 GFGA) | {A}c8 (c2de) |
+f4 (a2g2)(f2e2) | (d3e) f4 (F2G2) | A4 (f2e2)(d2^c2) | d8 (c3d/e/) |\
+f6 g2 (f2ga) | F6 G2 (A2Bc) | C4 C4 (C2D_E) | {E}D8 (F3G) |\
+A4 (f2d2)(c2A2) | {G}A4 c4 C4 | {C}D4 F4 (F3G) | F8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The song, "Jenny was fair and unkind,"
+%% beginning "When west winds did blow,"
+%% is set to the above air.
+%%endtext
+%%sep 1 1 300

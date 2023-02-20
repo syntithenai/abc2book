@@ -1,0 +1,79 @@
+
+X: 1
+T: Tayere Odessa Hora    [Dm]
+O: Brave Old World
+D: Brave Old World: Klezmer Music
+S: Transcription by Steve Rauch
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+"A"|:\
+"Dm"d2 z2 A2 | "Gm"B2 z2 G2 | "Dm"A2 z2 F2 | "Gm"G2 z2 E2 |\
+"Dm"F2 z2 D2 | "A7" E2 z2 A,2 | "Dm"D3 E FG | "(A7)"A4 z2 |
+"Dm"(3^czd z2 A2 | "Gm"(3AzB z2 G2 | "Dm"(3^GzA z2 F2 | "Gm"G2 zA, DE |\
+"Dm"F4 FE | "A7"F G2 _E3 | "Dm"D6- | D6 :|
+"B"|:\
+"F"C4 FG | A4 GF | A4 GF | F6 |\
+"F"c3 d (3_edc | "(C7)"B3 A GF | "F"(3:2:2=Bc2- c4- | c6 |
+"F"C4 FG | A4 GF | "(Dm)"A4 GF | F3A, DE |\
+"Dm"F4 FE | "A7"F G2 _E3 | "Dm"D6- | D6 :|
+"C"|:\
+"Gm"AB z2 B2 | B4 AG | "Dm"GA z2 A2 | A4 GF |\
+"Gm" ^FG z2 G2 | "C"c3 B AG | "F"A2 z2 d2 | "Dm"D6 |
+"Gm"AB z2 B2 | B4 AG | "Dm"GA z2 A2 | A3 A, DE |\
+F4 FE | "A7"F G2 _E3 | "Dm"D6- | D6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Tayere Odessa Hora    [Em]
+O: Brave Old World
+D: Brave Old World: Klezmer Music
+S: Transcription by Steve Rauch
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Em
+"A"|:\
+"Em"e2 z2 B2 | "Am"c2 z2 A2 | "Em"B2 z2 G2 | "Am"A2 z2 F2 |\
+"Em"G2 z2 E2 | "B7" F2 z2 B,2 | "Em"E3 F GA | "(B7)"B4 z2 |
+"Em"(3^dze z2 B2 | "Am"(3Bzc z2 A2 | "Em"(3^AzB z2 G2 | "Am"A2 zB, EF |\
+"Em"G4 GF | "B7"G A2 =F3 | "Em"E6- | E6 :|
+"B"|:\
+"G"D4 GA | B4 AG | B4 AG | G6 |\
+"G"d3 e (3=fed | "(D7)"c3 B AG | "G"(3:2:2^cd2- d4- | d6 |
+"G"D4 GA | B4 AG | "(Em)"B4 AG | G3B, EF |\
+"Em"G4 GF | "B7"G A2 =F3 | "Em"E6- | E6 :|
+"C"|:\
+"Am"Bc z2 c2 | c4 BA | "Em"AB z2 B2 | B4 AG |\
+"Am" ^GA z2 A2 | "D"d3 c BA | "G"B2 z2 e2 | "Em"E6 |
+"Am"Bc z2 c2 | c4 BA | "Em"AB z2 B2 | B3 B, EF |\
+G4 GF | "B7"G A2 =F3 | "Em"E6- | E6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Tayere Odessa Hora    [Bm]
+O: Brave Old World
+D: Brave Old World: Klezmer Music
+S: Transcription by Steve Rauch
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Bm
+"A"|:\
+"Bm"b2 z2 f2 | "Em"g2 z2 e2 | "Bm"f2 z2 d2 | "Em"e2 z2 c2 |\
+"Bm"d2 z2 B2 | "F#7" c2 z2 F2 | "Bm"B3 c de | "(F#7)"f4 z2 |
+"Bm"(3^azb z2 f2 | "Em"(3fzg z2 e2 | "Bm"(3^ezf z2 d2 | "Em"e2 zF Bc |\
+"Bm"d4 dc | "F#7"d e2 =c3 | "Bm"B6- | B6 :|
+"B"|:\
+"D"A4 de | f4 ed | f4 ed | d6 |\
+"D"a3 b (3=c'ba | "(A7)"g3 f ed | "D"(3:2:2^ga2- a4- | a6 |
+"D"A4 de | f4 ed | "(Bm)"f4 ed | d3F Bc |\
+"Bm"d4 dc | "F#7"d e2 =c3 | "Bm"B6- | B6 :|
+"C"|:\
+"Em"fg z2 g2 | g4 fe | "Bm"ef z2 f2 | f4 ed |\
+"Em" ^de z2 e2 | "A"a3 g fe | "D"f2 z2 b2 | "Bm"B6 |
+"Em"fg z2 g2 | g4 fe | "Bm"ef z2 f2 | f3 F Bc |\
+d4 dc | "F#7"d e2 =c3 | "Bm"B6- | B6 :|

@@ -1,0 +1,16 @@
+X: 1001
+T: Garryowen (with variations)
+R: jig, march
+%S: s:4 b:48(8+8+8+8+8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #1001
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/1001/oneill-1001-1001-1.abc
+M: 6/8
+L: 1/8
+K: Ador
+"^A1"[|](g/f/) | edc BAG | B>cB Bgf | edc BAG | ABA Agf || edc BAG | B>cB B2 (B/c/) | def gdB | A>BA A2 :|
+"^B1"|: (B/c/) | d2B d2B | dec dgf | e2c e2c | efd e2f || g2a b2a | gfe edB | def gdB | A>BA A2 :|
+"^A2"|: g | (e/f/g)(e d)BG | BGB Bgf | (e/f/g)(e d)BG | AFA Agf || (e/f/g)(e d)BG | BGB BAB | def gd(B | A)BA A2 :|
+"^B2"|: (B/c/) | dBg dBg | dBg (d2g) | ecg ecg | ecg (e2f) || g2a b2a | gfe dcB | def gd(B | A)BA A2 :|
+"^A3"|: (B/c/) | d2B g2B | b3 bag | f2g a2b | c'ba gfe || d2B g2B | b3 bag | def gd(B | A)BA A2 :|
+"^B3"|: (c/B/) | A2B c2c | B2c d2d | (e/f/g)d gbd | (e/f/g)d e2f || g2d b2d | gfe dcB | def gd(B | A)BA A2 :|

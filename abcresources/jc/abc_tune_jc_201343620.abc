@@ -1,0 +1,17 @@
+X: 795
+T: the Teetotaler's Fancy
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #795
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0795/oneill-1001-0795-1.abc
+%m: Tn3 = n(3n/o/n/ m/n/
+M: C|
+L: 1/8
+K: G
+"^A"\
+[| G2(GF) GAB(c | d2)g(e dBA)c | BEE(D EFG)A  | BGA(F GF)ED \
+|| G2(GF) GAB(c | dB)g(e dBA)c | BEE(D EF)G(A | Bc)AF G2(GA) |]
+"^B"\
+[| (Beed) e3(f | gf)a(f gf)ed | B(ddc)   Td3e | fga(f gf)ed \
+|| B(eed) e3(f | gf)a(f gf)ed | efed BA (3Bcd | ega(f ged)B |]

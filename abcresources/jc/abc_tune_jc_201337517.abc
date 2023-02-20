@@ -1,0 +1,65 @@
+
+X: 1
+T: Sing We Now of Christmas    [Em]
+C:
+O:
+S: https://hymnary.org/text/sing_we_now_of_christmas
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Edor
+% - - - - - - - - - -
+E [| "Em"EB "A"cA | "Em"B2G2 | "A"A(A/B/) "B7"GF | "Em"E4 |
+w: 1.~ Sing we now of Christ-mas, No-el,* sing we here!
+w: 2.~ An-gels called to shep-herds, "Leave your* flocks at rest,
+w: 3.~in Beth-le-hem they found him; Jo-seph and Ma-ry mild,
+w: 4.~ From the east-ern coun-try came the* kings a-far,
+w: 5.~ Gold and myrrh they took there, gifts of* great-est price;
+y3 "Em"EB "A"cA | "Em"B-B G2 | "A"A(A/B/) | "B7"GF | "Em"E4 |]
+w: Hear our grate-ful prais-*es to the* Babe so dear.
+w: jour-ney forth to Beth-le-hem, find the* lamb-kin blest."
+w: seat-ed by the man-*ger, watch-ing the ho-ly child.
+w: bear-ing gifts to Beth-le-hem guid-ed* by a star.
+w: there was ne'er a place on earth so like* pa-ra-dise.
+|: "Em"G2 FE | "B7"F3 B, | "Em"GG FE | "B7"F4 :|
+w: Sing we No-el, the King is born, No-el!
+   "Em"EB "A"cA | "Em"B2 G2 | "A"A(A/B/) | "B7"GF | "Em"E4 |]
+w: Sing we now of Christ-mas, sing we* now No-el!
+
+%%sep 1 1 500
+
+X: 1
+T: Sing We Now of Christmas   [Dm]
+C:
+O:
+S: https://hymnary.org/text/sing_we_now_of_christmas
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Ddor
+% - - - - - - - - - -
+D [|\
+"Dm"DA "G"BG | "Dm"A2 F2 | "G"G(G/A/) "A7"FE | "Dm"D4 |\
+"Dm"DA "G"BG | "Dm"A2 F2 | "G"G(G/A/) "A7"FE | "Dm"D4 |]
+|:\
+"Dm"F2    ED | "A7"E3 A, | "Dm"FF         ED | "A7"E4 :|\
+"Dm"DA "G"BG | "Dm"A2 F2 | "G"G(G/A/) "A7"FE | "Dm"D4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Sing We Now of Christmas   [Am]
+C:
+O:
+S: https://hymnary.org/text/sing_we_now_of_christmas
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Ador
+% - - - - - - - - - -
+A [|\
+"Am"Ae "D"fd | "Am"e2 c2 | "D"d(d/e/) "E7"cB | "Am"A4 |\
+"Am"Ae "D"fd | "Am"e2 c2 | "D"d(d/e/) "E7"cB | "Am"A4 |]
+|:\
+"Am"c2    BA | "E7"B3  E | "Am"cc         BA | "E7"B4 :|\
+"Am"Ae "D"fd | "Am"e2 c2 | "D"d(d/e/) "E7"cB | "Am"A4 |]

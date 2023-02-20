@@ -1,0 +1,36 @@
+% I Believe in Father Christmas
+
+
+X: 1
+T: I Believe in Father Christmas
+T: Troika interlude
+C: Greg Lake & Peter Sinfield
+Z: DW
+M: 4/4
+L: 1/4
+K: D
+| zB/A/ -A/FD/ | ED/E/ -E<F | zB/A/   -A/FD/ | EDD2 \
+| zB/B/  AF/D/ | ED  E/F/-F | z/B/B/B/ AF/D/ | EDD2 ||
+  z=c/c/    B/A/G | AA/G/- G/A/-A>D | =c/cB/-B/GG/ | A/AA/-A/D/4D/4 \
+| d/d/-d/d/ cA/A/ | B/A/-A/A /A>D | FF/F/E/D/-D/E/ | D3 ||
+"^Troika"A \
+| d/c/B/c/dB | ABFA | B/A/Gdc/d/ | A3G/F/ | EBA/G/F/G/ | A/G/F/G/Ad/B/ | GF/G/AA | d4 |]
+
+
+%%text (with chords: Chords NOT completed - check with PDF file to complete 10-6-2021)
+X: 1
+T: I Believe in Father Christmas
+T: Troika interlude
+C: Greg Lake & Peter Sinfield
+Z: DW
+M: 4/4
+L: 1/4
+K: D
+| "G"zB/"D"A/-A/FD/ | "Em7"ED/E/- "D"E<F | "G"zB"D"A/-A/FD/ | "A"ED"D"D2 \
+| "G"zB/B/"D"AF/D/ | "Em7"ED "D"E/F/-F | "G"z/B/B/B/"D"AF/D/ | "A"ED"D"D2 ||
+"C"z=c/c/"G"B/A/G | "D"AA/G/ -G/A/-A>D | "C"=c/c"G"B/-B/GG/ | "D"A/AA/-A/D/4D/4 \
+| "Bm"d/d/-d/d/"F#m"cA/A/ | B/A/-A/A/ A>D | FF/F/E/D/-D/E/ | D3 ||
+"^Troika"A \
+| d/c/B/c/dB | ABFA | B/A/Gdc/d/ | A3G/F/ \
+| EBA/G/F/G/ | A/G/F/G/Ad/B/ | GF/G/AA | d4 |]
+

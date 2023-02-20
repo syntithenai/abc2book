@@ -1,0 +1,32 @@
+X:1
+T: A Retiring Fellow
+N:
+C:Tune is "Mundesse" by Susato
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 34 notes)
+K:G
+M:4/4
+L:1/16
+D4 |G4 G2 G2 G4 A4 |B6 A2 G4 d4 |c6 B2 A2 B2 c2 d2 |B6 A2 G4 G4 |A6 G2 A4 B4 |c6 d2 c4 B4 |A4 G4 G4 F4 |G12 D4 |
+%W: A2
+% voice 1 (1 lines, 33 notes)
+G4 G2 G2 G4 A4 |B6 A2 G4 d4 |c6 B2 A2 B2 c2 d2 |B6 A2 G4 G4 |A6 G2 A4 B4 |c6 d2 c4 B4 |A4 G4 G4 F4 |G12 D4 |
+%W: B1                                                                      B2
+% voice 1 (1 lines, 38 notes)
+G6 A2 G2 A2 B2 c2 |d6 e2 d4 e2 f2 |g4 f4 e2 d2 e2 f2 |d12 D4 |G6 A2 G2 A2 B2 c2 |d6 e2 d4 e2 f2 |g4 f4 e2 d2 e2 f2 |d12 f4 |
+%W: C1
+% voice 1 (1 lines, 28 notes)
+g4 f4 g4 e4 |d12 e2 f2 |g4 f4 g4 e4 |d12 e4 |f4 g4 f4 g4 |d12 c4 |B4 A2 A2 G2 F2 G2 A2 |G12 f4 |
+%W: C2
+% voice 1 (1 lines, 28 notes)
+g4 f4 g4 e4 |d12 e2 f2 |g4 f4 g4 e4 |d12 e4 |f4 g4 f4 g4 |d12 c4 |B4 A2 A2 G2 F2 G2 A2 |G12 d4 |
+%W: D1                                                                      D2
+% voice 1 (1 lines, 27 notes)
+B6 c2 d4 B4 |e6 d2 c4 B4 |A4 G4 G4 F4 |G12 d4 |B6 c2 d4 B4 |e6 d2 c4 B4 |A4 G4 G4 F4 |G12 ||

@@ -1,0 +1,37 @@
+X: 2070
+T: the Brauls
+%R: branle; gavotte
+B: Henry Playford "Apollo's Banquet", London 1687 (5th Edition)
+F: https://archive.org/details/apollosbanquetco01rugg
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The bar lines are a bit odd at the start of the 3rd strain (bar 23,24).
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - -
+zB |\
+B2f2 d3c | B6 zb | a2b2 ^f3(=e/^f/) | g6 _a>d |\
+=e2f2 f3=e | f6 zf | b2f2 f3e | d4 g3c |\
+d2e2 c3B | A2B2 GBcd |
+e2(dc) c3B | B6 :: zf |\
+d2b2 a3f | ^f6 (gf/g/) | a2d2 =e3f | =e2(dc) g2(gf/g/) |\
+a2b2 g3f | f4 zgfe | d3d e3f | g4 zf |
+e2d2 c3f | d2g2 a3(g/a/) | b2(fg) c3B | B4 :: B3f |\
+f2g2 f3e | d3ba2 b2g3f | f3gf2 e2d3c |
+=B3cd2 e2d3c | c3ff2 g2f3e | d3ba2 b2g3f |\
+f3gf2 e2d3c | c3de2 f2c3B | B6 |]\
+"_Leading Braul."\
+f2b2f2 g2d2e2 | f2c3B A2(BA/B/)c2 |
+d2d3c c6 | f2b2f2 g2d2e2 |\
+f2c3d e2(dc)_a2 | (gf)f3=e f6 !segno!|\
+f2A3B c3dB2 | G2e3d c2g2_a2 |\
+(gf)f3e e6 |
+(d=e/f/) =e3e f3gaa |\
+b2a3f g2c2f2 | (Bc)c3B B6 ::\
+[M:C|] "_Gavot."\
+B2f2 d2g2 | f3b a2b2 |\
+d3e f2g2 | c3B B4 :|
+|:\
+b3d =e2f2 | ^f3g a2b2 | c'3=e ^f2ga | a3g g4 |\
+=e3e f2ed | e3d c2d2 | G3c A2(Bc) | c3B B4 |]
+% - - - - - - - - - -

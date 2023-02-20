@@ -1,0 +1,18 @@
+X: 85
+T: Sly Patrick   #2
+R: air
+%S: s:2 b:12(6+6)
+B: O'Neill's 1850 #85
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A2A2 BA3
+Q: "Tenderly"
+M: 6/8
+L: 1/8
+K:G
+"^A"|: (G/A/) | (B>AG) (AGE) | D3 (E2G) |\
+[1 (GAB) c2B | A3- A2 :|\
+[2 (G>AB) (BA>G) | G3- "^->B"G2 |]
+[3 (G>AB) ({B}AG)G | G3- "^fine"G2 |]\
+"^B"[| G | (B.cd) (def) | g3 (f2e) | (edB) ({Bc}BAG) | A3- "^->A3"A2 ||

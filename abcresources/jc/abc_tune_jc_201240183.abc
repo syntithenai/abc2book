@@ -1,0 +1,27 @@
+X: 373
+T: 6.e La Bien tot faite
+%R:
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.37 #3
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: There are segno symbols initially and at the ends of the 2nd and 3rd strains. What does this mean?
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!D2G2 |\
+G2F2 F2A2 | A2G2 A2c2 |\
+B2d2 cBAG | !+!F2D2 D2G2 |\
+G2F2 F2A2 | A2G2 A2c2 |\
+B2AG A2GF | HG4 |]| "1 F"B2G2 |\
+G2B2 B2A2 | !+!G2F2 A2F2 |
+FGA2 G2F2 | !+!E4 A,2A,2 |\
+A,4 GFGA | FDEF GAB^c |\
+dBAG F2!+!E2 | D4 !segno!y|]| "1 F"BAGF |\
+E2B2 G2B2 | B2A2 AGFE |
+^D2F2 F2A2 | A2G2 A2c2 |\
+B2e2 ^d2f2 | A2c2 B2A2 |\
+G2FE F2E^D | E4 G4 |\
+G2F2 ABc2 | B2AG ABc2 |\
+Bcd2 c2B2 | !+!A4 !segno!y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

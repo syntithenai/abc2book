@@ -1,0 +1,579 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 6
+B: RSCDS Book 6
+K:
+%%center Book06/0600-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0601
+T: Roxburgh Castle - 8x32R
+C: Collected in Roxburghshire
+R: Reel (8x32)
+B: RSCDS 6-1
+Z: Anselm Lingnau <anselm@strathspey.org>
+M: C|
+L: 1/8
+P: Roxburgh Castle   [A]
+K: A
+E |\
+"A"A2Ac ecAc | "D"d2df "A"ecAc | "D"d2fd "A"c2ec | "Bm"B2B2 "E"BdcB |\
+"A"A2Ac ecAc | "D"d2df "A"edcd | "A"eagf "E7"edcB | "A"A2"D"A2 "A"A3 :|
+|: e |\
+"A"aece fece | aece fece | "D"d2fd "A"c2ec | "B"B2B2 "E7"BdcB |\
+"A"A2Ac ecAc | "D"d2df "A"edcd | "A"eagf "E7"edcB | "A"A2"D"A2 "A"A3 :|
+P: Roxburgh Castle   [G]
+K: G
+D |\
+"G"G2GB dBGB | "C"c2ce "G"dBGB | "C"c2ec "G"B2dB | "Am"A2A2 "D"AcBA |\
+"G"G2GB dBGB | "C"c2ce "G"dcBc | "G"dgfe "D7"dcBA | "G"G2"C"G2 "G"G3 :|
+|: d |\
+"G"gdBd edBd | gdBd edBd | "C"c2ec "G"B2dB | "A"A2A2 "D7"AcBA |\
+"G"G2GB dBGB | "C"c2ce "G"dcBc | "G"dgfe "D7"dcBA | "G"G2"C"G2 "G"G3 :|
+%%center Book06/0601-Roxburgh_Castle-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0602
+T: The Edinburgh Volunteers - 8x24S
+P: The Edinburgh Volunteers
+C:Cooke's Selection of the Present Favourite Country Dances 1796
+R:Strathspey (8x24)
+B:RSCDS 6-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:Gm
+F|"Bb"B/c/d c>B B>A G>F|"F"C>F A>c f>c B>A|\
+  "Gm"G>A B>c "Cm"e>d c>B|"Dm"A>f d/c/B/A/ "Gm"B<G G>^f|
+  "Gm"g>d b>g "F"f>g f>e|"Bb"d>b d>B "F"c>a c>A|\
+  "Gm"G>A B>d g>a b>g|"Dm"f>d d/c/B/A/ "Gm"B<G G>A|
+  "Gm"B2 G>B D>G B,>G|"F"A2 F>A C>F A,>F|\
+  "Gm"B2 G>B D>G B,>G|"D"D>^F A>c "Gm"B<G G>A|
+  "Gm"B/A/B D>G B,>G D>G|"F"A/G/A C>F A,>F C>A|\
+  "Gm"B/A/B D>G B,>D G>B|"D"D>^F A>c "Gm"B<G G>^f|
+  "Gm"g2 d>g B>g d>=e|"F"f2 c>f A>f c>^f|\
+  "Gm"g2 d>g B>g d>g|"Dm"f>d d/c/B/A/ "Gm"B<G G>^f|
+  "Gm"g/f/g d>g B>g d>=e|"F"f/=e/f c>f A>f c>^f|\
+  "Gm"B>d g>b "F"A>c f>a|"Dm"D>d d/c/B/A/ "Gm"B<G G|]
+%%center Book06/0602-Edinburgh_Volunteers-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0603
+T: Rothesay Country Dance - 8x48J
+P: Dumfries House
+C:J. Riddell 1766
+R:Jig (8x48) ABB
+B:RSCDS 6-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+G|"G"G3 G2g|dBG GAB|"C"cGE EFG|"D"AFD DFE|\
+  "G"G3 G2g|dBG GAB|"Am/C"cEA "D"{G}FEF|"G"G3-G2 d|
+  "G"G3 G2g|dBG GAB|"Am"cde "G/B"dcB|"D7"AFD DEF|\
+  "G"G3 G2g|"G/B"dBG GAB|"Am"cEA "D7"FEF|"G"G3-G2\
+|:B/c/|
+  "G"dBd dBd|"C"gag gfe|"G"dBd dcB|"D"AFD D2 B/c/|\
+  "G"dBd dBd|"C"gag gfe|dcB "D"AGF|"G"G3 G2 B/c/|
+  "G"dBd dBd|"C"gag gfe|"G"dBd dcB|"D"AFD D2 B/c/|\
+  "G"dBd "C"ece|"D7"fdf "G"gfe|dcB "D7"Agf|"G"gdB G2:|
+%%center Book06/0603-Rothesay_Country_Dance-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0604
+T: Lennox Love to Blantyre - 8x32S
+P: Lennox Love to Blantyre
+C:Nathaniel Gow's Repository (also Bremner 1757 and older)
+R:Strathspey (8x32)
+B:RSCDS 6-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:F
+C|"F"F2 F>G A>G F>A|"Gm"G<G "Am"A>c "Gm"d>c d>e|\
+  "Dm"f>g f>d "F"c>A F>A|"Gm"B>G "F"A>F "Dm"D/D/D D:|
+% "F"F2 F>G A>G F>A|"Gm"G<G "Am"A>c "Gm"d>c d>e|\
+% "Dm"f>g f>d "F"c>A F>A|"Gm"B>G "F"A>F "Dm"D/D/D D||
+f|"F"c>d f>g a>g f>a|"Gm"g>f g>a g>f d>f|\
+  "F"c>d f>g a>g f>a|"Gm"g>f b>a "C"g2 "F"f>d|
+  "F"c>d f>g a>g f>a|"Gm"g>f g>a g>f d>f|\
+  "F"c>d f>g f>g a>f|"Gm"g>f b>a "C7"g2 "F"f2|]
+%%center Book06/0604-Lennox_Love_to_Blantyre-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0605
+T: Oxton Reel - 8x24S - 6 Couple set - 12 bar phrase
+P: Cameron's got his wife again
+C: Bremner's Coll. 1757
+R: Strathspey (6x24)
+B: RSCDS 6-5
+Z: Anselm Lingnau <anselm@strathspey.org> (with chords from Originally Ours)
+M: C
+L: 1/8
+K: D
+f/ |\
+"D"d>B A>F A/A/A A>B | d>B A>F "Em"E/E/E "A7"E>c |\
+"D"d>B A>F "/F#"A>g f>e | "Bm"d>B "A7"A>F "D"D/D/D D> ||
+g |\
+"D"f>d f>a "A7"e>g f>e | "D"f>d f>a "G"B/B/B B>g |\
+"D"f>d f>a "Em"e>g f>e | "Bm"d>B "A7"A>F "D"D/D/D D> ||
+g |\
+"D"f>d f>a "Em"e>g "F#7"f>e | "Bm"f>d "F#m"f>a "G"B/B/B B>c |\
+"D"d/e/f/g/ a>f "Em"e>g f>e | "Bm"d>B "A7"A>F "D"D/D/D D3/ :|
+%%center Book06/0605-Oxton_Reel-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0606
+T: The Threesome Reel {48S+48R} Medley - 1m+2w
+T: (48S+48R)
+O: RSCDS 6-6
+B: RSCDS 6-6
+P: Play 111-222
+K:
+%
+P: Mrs Stewart Nicholson's Strathspey
+C: Nathaniel Gow
+R: strathspey
+B: RSCDS 6-6 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+A2 |\
+"D"F3E D2F2 "Em"B,B,3 E4 | "A7"DCB,A, A,2B,C "D"D2F2A2d2 |\
+"D"F3E D2F2 "Em"B,B,3 E4 | "A7"DCB,A, A,2B,C "D"D4 D2 :|
+B2 |\
+"D"A2d2 "Bm"d2ef "Em"eB3 B3e | "A7"c3B A2Bc "D"defg a3d |\
+"D"A2d2 d2ef "G"g2B2 "Em"B3e | "A7"c3B ABcA "D"d4 D2 ||
+B2 |\
+"D"A2d2 "Bm"d2ef "Em"e2B2 B3e | "A7"c3B A2Bc "D"defg a3d |\
+"D"A2d2 "G"B2d2 "F#m"AB3 "Bm"F3D | "Em"DCB,A, "A7"B,2C2 "D"D4 D2 |]
+%
+P: Sleepy Maggie
+O: Trad
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+N: Neil Gow Collection
+N: Skye p.62
+N: O'Neill's p.135
+N: Williamson p.62
+N: Hunter 220
+N: Kerr's 3rd p.6
+N: Winston Scotty Fitzgerald on Celtic 17,
+N: second Kennedy tune-book p.20
+M: C|
+L: 1/8
+K: BDorian
+|: "Bm"f2Bb fBde | f2Ba "A"eAce | "Bm"f2Bb fBde | "(D)"fgaf "A"eAce :|
+[| "Bm"fBdB fBde | fBdB "A"eAce | "Bm"fBdB fBde | "(D)"fgaf "A"eAce ||
+|| "Bm"fBdB fBde | fBdB "A"eAce | "Bm"fBbB aBgB | "(D)"fgaf "A"HeAce |]
+
+%%center Book06/0606-ThreesomeReel-JC.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0607
+T: Bob of Fettercairn - 8x24R
+P: The Bob of Fettercairn
+O: Campbell's CD 1796
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+B/c/ |\
+"G"dBGB dBGB | "G"dBde "Bm"f2df | "A"e^cAc ecAc | "A"edef "Em"g2fe | "G"dBGB dBGB |
+"Bm"dBde f2ed | "Am"ae"D"fd "Em"edBg | "Am"AA"Bm"Bd "Em"e2ge |: "G"dgBg dgBg | "G"dgBg "Bm"f2df |
+"A"ea^ca eaca | "A"edef "Em"g2fe | "G"dgBg dgBg | "G"dgBg "D"f2df | "C"ae"D"fd "Em"edBg | "Am"AA"Bm"Bd "Em"e2g2 :|
+%%center Book06/0607-Bob_of_Fettercairn-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0608
+T: Prince of Orange - Nx16J - Round the room
+T: (Nx16J) Round the room
+P: Johnny McGill
+C:John MacGill
+B:RSCDS 11-3
+Z:2011 John Chambers <jc:trillian.mit.edu>
+M:6/8
+L:1/8
+K:Dm
+f |\
+"F"cAA AGF | cAA A2f | cAA AGA | "Dm"FDD D2 f |\
+"F"cAA AGF | cAA AGF | "Gm"GAB "A7"AGA | "Dm"FDD D2 ||
+c |\
+"F"f3 "C"g3 | "F"afd cAF | "Dm"f3 "Gm"g3 | "Dm"afd d2 f/g/ |\
+"F"afa "A7"geg | "Dm"fde "Bb"f2d | "F"cAF "Gm"G2"A7"A | "Dm"FDD D2 |]
+%%center Book06/0608-Prince_of_Orange-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0609
+T: Lord MacDonald's Reel - 8x32R
+O: Trad
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+B: RSCDS 6-9
+M: C|
+L: 1/8
+K: G
+B "A"|:\
+"G"~d3e dBgB | dBgB "D7"aAAB |\
+"G"d^cde dBgB | "D7"A{B}c BA "G"BGG2 :|
+"B1"[|\
+"G"DGBG AGBG | DGBG "C"AGEG |\
+"G"DGBG "(C)"AGBG | "D7"DEDC "G"B,G,G,2 |]
+"B2"[|\
+"G"DGBG AGBG | DGBG "C"AGEc |\
+"G"BAGF "C"GFED | "D7"EFGA "G"BGG2 |]
+%%center Book06/0609-LordMacDonaldsR_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0610
+T: I'll Mak' Ye Fain to Follow Me - 8x32J
+C: Oswald 1756
+B: RSCDS 6-10
+R: jig
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+C |\
+"C"E{F}GG c2e | "Dm"dDD "G7"D2C | "C"E{F}GG "Am"cdc | "G7"BAB "C"cGE |\
+"Dm"FdF "C"EcE | "Dm"dDD "G7"D2C | "C"E{F}GG "G7"c2G | "C"ECC C2 :|
+f |\
+"C"ega gec | "Dm"f2e "G7"d2c | "C"ega gec | "C"gea gec |\
+"F"fga "E/C"gec | "Dm"f2e "G7"d2c | "C"E{F}GG "G7"c2G | "C"ECC C2 |]
+f |\
+"C"ega gec | "Dm"f2e "G7"d2c | "C"ega gec | "C"gea gec |\
+"F"fga "E/C"gec | "Dm"fef "G7"dgf | "C"ece "G7"fdf | "C"ecc c2 |]
+%%center Book06/0610-Ill_Mak_Ye_Fain_to_Follow_Me-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0611
+T: Mrs McLeod - 8x32R
+P: Mrs McLeod of Raasay
+C: Neil Gow
+B: RSCDS 6-11
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+c/B/ |\
+"A"A2a2 f>e fa | "A"ec c>A "C#7"c2 cB | "F#m"A2a2 "D"f>e fa | "C#/A"ecBA "E7"B2Bc |
+"A"A2a2 f>e fa | "A"ec c>A "C#/A"c2ce | "D"fgfe f2 (3efg | "A"a2ec "E7"B2 B>c ||
+"A"A2cA "E7"eccf | "A"ec c>B "E7"c2ca | "A"A2cA ec"FEm"cf | "Bm"cB B>A "E7"B2Bc |
+"A"A2cA "E7"eccf | "A"ec c>B "C#m"c2ce | "D"fgfe f2 "C#m"(3efg \
+|1 "F#m"a2ec "E7"B2 B :|2 "F#m"a2ec "E7"B2 "A"A2 |]
+%%center Book06/0611-Mrs_MacLeod-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0612
+T: Sixteensome Reel - {40+{8x48}+40}R - in a square set
+P: The Deil Amang the Tailors
+N: {40+{8x48}+40}R - in a square set
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+(3e/f/g/ |\
+"A"a2eg "E7"a2eg | "A"a2ea "F#7"fedc | "Bm"dfBf dfBf | "Bm"dfBa "E7"gabg |
+"A"a2eg a2eg | "A"a2ea "C#/A"fedc | "D"defd "C#/A"ecBA \
+|1 "E7"E2[G2D2] "A"[A3C3] :|2 "E7"E2[G2D2] "A"[A2C2]e2 ||
+|:\
+"A"ceAe ceAe | "A"ceag "F#7"fedc | "Bm"dfBf dfBf | "Bm"dfba "E7"gfed |
+"A"ceAe ceAe | "A"ceag "F#m"fedc | "D"defd "C#/A"ecBA \
+|1 "E7"E2[G2D2] "A"[A3C3]e2 :|2 "E7"E2[G2D2] "A"[A4C4] |]
+%%center Book06/0612-Sixteensome_Reel-JC.abc
+
+%%sep 3 1 500
+%%sep 1 1 500
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0600
+T: Scottish Country Dances
+T: RSCDS Book 6
+B: RSCDS Book 6
+K:
+%%center Book06/other/0600-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0604
+T: Lennox Love to Blantyre
+R: strathspey
+B: RSCDS __-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Here from Nathaniel Gow's Repository.
+N: Published in Bremner's Collection 1757 - and older.
+M: C
+L: 1/8
+%--------------------
+K: F
+|: "C7"C \
+| "F"F2 F>G A>G F>A | "Gm"G<G "(F)"A>c "C7"d>c d>e \
+| "Dm"f>g f>d "(F)"c>A F>A | "Gm"B>G "(A)"A>F "Dm"D/D/D D :|
+f \
+| "F"c>d f>g "Dm"a>g f>a | "Gm"g>f g>a "(C)"g>f d>f \
+| "F"c>d f>g "Dm"a>g f>a | "Gm"g>f b>a "C"g2 "F"f>d |
+| "F"c>d f>g "Dm"a>g f>a | "Gm"g>f g>a "(C)"g>f d>f \
+| "F"c>d f>g "Dm"f>g a>f | "Gm"g>f b>a "C7"g2"F"f |]
+%%center Book06/other/06041-Lennox_Love_to_Blantyre.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0607
+T: The Bob of Fettercairn
+O: Campbell's CD 1796
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+B/c/ |\
+"G"dBGB dBGB | "G"dBde "Bm"f2df | "A"e^cAc ecAc | "A"edef "Em"g2fe |
+"G"dBGB dBGB | "Bm"dBde f2ed | "Am"ae"D"fd "Em"edBg | "Am"AA"Bm"Bd "Em"e2ge ||
+|:\
+"G"dgBg dgBg | "G"dgBg "Bm"f2df | "A"ea^ca eaca | "A"edef "Em"g2fe |
+"G"dgBg dgBg | "G"dgBg "D"f2df | "C"ac"D"fd "Em"edBg | "Am"AA"Bm"Bd "Em"e2g2 :|
+%%center Book06/other/0607-Bob_of_Fettercairn-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0610
+T: I'll Mak' Ye Fain to Follow Me
+C: Oswald 1756
+B: RSCDS 6-10
+R: jig
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: C
+C |\
+"C"E{F}GG c2e | "Dm"dDD "G7"D2C | "C"E{F}GG "Am"cdc | "G7"BAB "C"cGE |\
+"Dm"FdF "C"EcE | "Dm"dDD "G7"D2C | "C"E{F}GG "G7"c2G | "C"ECC C2 :|
+f |\
+"C"ega gec | "Dm"f2e "G7"d2c | "C"ega gec | "C"gea gec |\
+"F"fga "E/C"gec | "Dm"f2e "G7"d2c | "C"E{F}GG "G7"c2G | "C"ECC C2 |]
+f |\
+"C"ega gec | "Dm"f2e "G7"d2c | "C"ega gec | "C"gea gec |\
+"F"fga "E/C"gec | "Dm"fef "G7"dgf | "C"ece "G7"fdf | "C"ecc c2 |]
+%%center Book06/other/06101-Ill_Mak_Ye_Fain_to_Follow_Me-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0608
+T: Colonel Joshua Chamberlain
+T: 8 x 32J 3C (Peter Price/Nutmeg Collection)
+P: Johnny McGill
+C: attrib. to John MacGill, from RSCDS Book 6
+C: a.k.a. "Come Under My Plaidie" and "Contentment is Wealth"
+C: arr. T. Traub 7-23-03
+R: Jig
+M: 6/8
+%
+K: F
+L: 1/8
+|: f|"F"cAA AGF|"F"cAA A2 f|"F"cAA AGA|"Dm"FDD D2 f|"F"cAA AGF|"F"cAA AGF|"C"GAB "A"AGA|"Dm"FDD D2 :|
+|: c|"F"f3 "C"g3|"F"afd cAF|"F"f3 "C"g3|"Dm"afd d2 f/g/|"F"afa "A"geg|"Dm"fde "Bb"f2 d|"F"cAF "A7"G2 A|"Dm"FDD D2 :|
+%%center Book06/other/06__1-Colonel_Joshua_Chamberlain.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0608
+N: Colonel Joshua Chamberlain
+N: 8 x 32J 3C (Peter Price/Nutmeg Collection)
+T: Johnny McGill
+C: attrib. to John MacGill, from RSCDS Book 6
+C: a.k.a. "Come Under My Plaidie" and "Contentment is Wealth"
+C: arr. T. Traub 7-23-03
+R: Jig
+M: 6/8
+%
+K: F
+L: 1/8
+|: f|"F"cAA AGF|"F"cAA A2 f|"F"cAA AGA|"Dm"FDD D2 f|"F"cAA AGF|"F"cAA AGF|"C"GAB "A"AGA|"Dm"FDD D2 :|
+|: c|"F"f3 "C"g3|"F"afd cAF|"F"f3 "C"g3|"Dm"afd d2 f/g/|"F"afa "A"geg|"Dm"fde "Bb"f2 d|"F"cAF "A7"G2 A|"Dm"FDD D2 :|
+%%center Book06/other/06__1-Johnny_McGill.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0609
+T: Lord MacDonald's Reel
+O: Trad
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+B: RSCDS 6-__
+M: C|
+L: 1/8
+%
+K: G
+B \
+|: "G"d3e dBgB | dBgB "D7"aAAB | "G"d^cde dBgB | "D7"A{B}c BA "G"BGG2 :|
+[| "G"DGBG AGBG | DGBG "C"AGEG | "G"DGBG "(C)"AGBG | "D7"DEDC "G"B,G,G,2 |]
+[| "G"DGBG AGBG | DGBG "C"AGEc | "G"BAGF "C"GFED | "D7"EFGA "G"BGG2 |]
+%%center Book06/other/06__1-Lord_MacDonalds_Reel-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0611
+T: Mrs. MacLeod of Raasay
+T: 8 x 32R 3C
+T: RSCDS Book 6
+P: Mrs. MacLeod of Rasay's Reel
+C: SRSNH 7.13 (arr. B. McOwen)
+C: Arr. T. Traub 11-24-2002
+R: Reel
+%
+K: A
+M: 4/4
+L: 1/8
+c |\
+"A"A2 a2 "D"fefa | "A"cccB c2 cB | "A"A2 a2 "F#m"fefa | "Bm"BBBA "E7"B Bc | "A"A2 a2 "D"fefa |
+"A"cccB "A7"c2 ce | "D"fgfe f2 ef/g/ | "Bm"a2 ec"E7"B2 B || c | "A"AAcA eccf | "A"eccB c2 ca |
+"A"AAcA "F#m"eccf | "Bm"ecBA "E7"B2 Bc | "A"AAcA eccf | "A"eccB "A7"c2 ce | "D"fgfe f2 ef/g/ | "A"a2 ec "E7"B2 B |]
+%%center Book06/other/06__1-Mrs_MacLeod_of_Raasay.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0611
+N: Mrs. MacLeod of Raasay
+N: 8 x 32R 3C
+N: RSCDS Book 6
+T: Mrs. MacLeod of Rasay's Reel
+C: SRSNH 7.13 (arr. B. McOwen)
+C: Arr. T. Traub 11-24-2002
+R: Reel
+%
+K: A
+M: 4/4
+L: 1/8
+c |\
+"A"A2 a2 "D"fefa | "A"cccB c2 cB | "A"A2 a2 "F#m"fefa | "Bm"BBBA "E7"B Bc | "A"A2 a2 "D"fefa |
+"A"cccB "A7"c2 ce | "D"fgfe f2 ef/g/ | "Bm"a2 ec"E7"B2 B || c | "A"AAcA eccf | "A"eccB c2 ca |
+"A"AAcA "F#m"eccf | "Bm"ecBA "E7"B2 Bc | "A"AAcA eccf | "A"eccB "A7"c2 ce | "D"fgfe f2 ef/g/ | "A"a2 ec "E7"B2 B |]
+%%center Book06/other/06__1-Mrs_MacLeod_of_Rasays_Reel.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0608
+T: Johnny McGill
+T: Come Under My Plaidie
+C: John MacGill
+B: RSCDS 6-8 (Prince of Orange)
+B: RSCDS 11-3 (Johnny McGill)
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS
+M: 6/8
+L: 1/8
+K: G
+{f}g \
+| "G"d>BB BAB | d>BB B2{f}g | d>BB BAB | "Em"GEE E2{f}g \
+| "G"d>BB BAB | d>BB BAG | "Am"A>Bc "B7"BcA | "Em"G>EE E2 :|
+|: f \
+| "G"g>fg "D7"a>ga | "G"b>ge dBG | "G"g>fg "D7"a>ga | "Em"b>ge e2g/a/ \
+| "G"bgb "D"afa | "Em"gef "C"gfe | "Bm"d>BB "B7"BAB | "Em"G>EE E2 :|
+%%center Book06/other/JohnnyMcGill_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0604
+T: Lennox Love to Blantyre
+C: Nathaniel Gow
+R: strathspey
+B: RSCDS 6-4
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Here from Nathaniel Gow's Repository.
+N: Published in Bremner's Collection 1757 - and older.
+M: C
+L: 1/8
+K: F
+"C7"C \
+| "F"F2 F>G A>G F>A | "Gm"G<G "(F)"A>c "C7"d>c d>e \
+| "Dm"f>g f>d "(F)"c>A F>A | "Gm"B>G "(A)"A>F "Dm"D/D/D D :|
+f \
+| "F"c>d f>g "Dm"a>g f>a | "Gm"g>f g>a "(C)"g>f d>f \
+| "F"c>d f>g "Dm"a>g f>a | "Gm"g>f b>a "C"g2 "F"f |]
+d \
+| "F"c>d f>g "Dm"a>g f>a | "Gm"g>f g>a "(C)"g>f d>f \
+| "F"c>d f>g "Dm"f>g a>f | "Gm"g>f b>a "C7"g2"F"f |]
+
+%%center Book06/other/LennoxLoveToBlantyreS.abc
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0609
+T: Lord MacDonald's Reel
+O: Trad
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+B: RSCDS 6-__
+M: C|
+L: 1/8
+K: G
+B \
+|: "G"d3e dBgB | dBgB "D7"aAAB | "G"d^cde dBgB | "D7"A{B}c BA "G"BGG2 :|
+[| "G"DGBG AGBG | DGBG "C"AGEG | "G"DGBG "(C)"AGBG | "D7"DEDC "G"B,G,G,2 |]
+[| "G"DGBG AGBG | DGBG "C"AGEc | "G"BAGF "C"GFED | "D7"EFGA "G"BGG2 |]
+%%center Book06/other/LordMacDonaldsR_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0601
+T: Roxburgh Castle
+R: reel
+O: John Fife MS 1780
+N: Also in A.  This is a common Morris-dance tune, in hornpipe rhythm.
+N: Kennedy 1-11
+N: Raven p.188 (identical to the Kennedy version)
+N: Brody p.237
+N: Karpeles and Schofreld, p.7 (in A), p.42 (in G)
+K: G
+(3DEF \
+| "G"G2GB dBGB | "C"c2ce "G"dBGB | "C"c2ec  "G"B2dB | "Am"AGAB "D7"AcBA | "G"~G2GB dBGB |
+| "C"~c2ce "G"dBG2 | "C"gfge "D7"dcBA | "G"B2G2 G2 :: (3def | "G"gdBd edBd | gdBd edcB |
+| "C"c2ac "G"B2gB | "Am"AGAB "D7"AcBA | "G"~G2GB dBGB | "C"~c2ce "G"dBG2 | "C"gfge "D7"dcBA | "G"B2G2 G2 :|
+%%center Book06/other/RoxburgCastle_G.abc

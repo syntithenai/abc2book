@@ -1,0 +1,29 @@
+X: 042
+T: the Last time I came o'er the moor
+%R: air
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.4 #2
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Q: "slow"
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1
+A>G |\
+{G}F2(TE>D) d3e | {de}f2Ted {d}c2(BA) | TB3A (TFEF)A | B3c {Bc}d2TA>G |
+{G}F2(TE>D) e3e | {de}f2(Te>d) {d}c2(TBA) | Bcde (fe)(Td>c) | (TB4 {AB}d2) :|
+|: (~c>d) |\
+Je2(A>B) TA3f | e>dTc>B A3A | (dc)(TBA) (BA)(TGF) | A4 d3A |
+B>ABd TB2(AG) | AFAB d3e | (fe)TdB A(B/c/) dG | (F2TE2) {DE}D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+z2 |\
+d'2"6"c'2 "7"ab"6"b"6"c' | d'2"6"g2 a2z"6"f | ga"6"b"6"c' d'2z"6"f | g4 d2z2 | d2c2 "7"BA"6"B"6"c |
+d2"6"g2 a2z"6"f | g3"6"c d2"6"F2 | G4 D2 :|\
+|: z2 |
+a3"6"^g "7"fe"6"f"6"d | "6;4"e2"5;#"E2 A2a>g | "6"f2zd g"6"f"6"ed |
+"6;4"A2"5;3"a>g "6"fefd | g3"6"f g2z2 | "6"f3g "6"fef"6"c | d3g ag"6"fg | "6;4"a2"5;3"A2 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,29 @@
+X: 383
+T: Mrs DAVID PATRICK'S FAVOURITE
+C: J. CLARK
+R: Reel
+B: Glen Collection p.38 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Gm
+%
+V: 1
+D |\
+GABc (B/c/d) (cB) | AcFc dfAF | GABc dgbg | afdf g/g/g g :|
+(g/a/) |\
+bafd fdcB | Acfd cA F(g/a/) | bgfd fdcA | afdf g/g/g gg/a/ |
+bgfd fdcB | Acfd cAFA | GBAc Bdfd | cAFA G/G/G G |]
+%
+V: 2
+z |\
+G2[g2d2] [b2d2][a2f2] | F2[a2f2] [b2f2][a2f2] |\
+d2[b2g2] G2[b2g2] | d2d'2 [b2g2][bg] :|
+z |\
+B2[b2f2] d2[b2f2] | f2[a2f2] [a2f2][a2f2] |\
+B2[b2f2] d2[a2f2] | d2d'2 [b2g2][b2g2] |
+B2[b2f2] d2[b2f2] | f2[a2f2] [a2f2][a2f2] |\
+g2^f2 g2B2 | c2d2 [b2g2][gdG] |]

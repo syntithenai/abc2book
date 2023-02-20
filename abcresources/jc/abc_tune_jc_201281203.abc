@@ -1,0 +1,18 @@
+X: 1611
+T: Glengariff Bay
+R: hornpipe, reel
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #1611
+O: F.O'Neill
+Z: Michael D. Long, 10/06/98
+Z: Michael Hogan
+M: 2/4
+L: 1/16
+K: G
+"^A"\
+  (3(DEF) \
+| G2D2 G2D2 | GABG AGFD | BGBd cBAG | E2A2 AcBA ||
+| G2D2 G2D2 | GABG AFDc | BABc dBAB | G2GG G2 :|
+"^B"|: (dc) \
+| BGBd gfga | bagf gfed | efgf edcB | cBAG FAdF ||
+| G2D2 G2D2 | GABG AFDc | BABc dBAB | G2GG G2 :|

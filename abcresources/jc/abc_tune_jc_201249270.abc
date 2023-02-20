@@ -1,0 +1,26 @@
+X:1
+T: A B in the Bonnet
+N:
+C:Tune is "Hubbub" by Bryon Bonnett
+S:aka  "Bryon's Boutade"
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 200
+%W: A
+% voice 1 (1 lines, 28 notes)
+K:D
+M:4/4
+L:1/16
+F4 A8 B4 |F4 A8 B4 |F6 A2 F4 E4 |D8 D4 E4 |F4 A8 B4 |F4 A4 B4 A4 |c6 e2 c4 B4 |A4 A4 B4 c4 |
+%W:
+% voice 1 (1 lines, 23 notes)
+d12 d4 |=c12 c4 |B12 B4 |_B16 |A4 F4 A4 F4 |A4 F4 D4 E4 |F6 G2 F4 E4 |D4 D4 E4 F4 |
+%W: B
+% voice 1 (1 lines, 23 notes)
+G12 B4 |d4 d4 c4 B4 |A4 A4 ^G4 =G4 |F12 A4 |A4 E8 A4 |^G4 A4 B4 A4 |F8 d8 |c8 =c8 |
+%W:
+% voice 1 (1 lines, 21 notes)
+B8 d8|d4 d4 c4 B4 |A4 F8 E4 |D12 E4 |F4 A4 F4 A4 |f8 f8 |c8 A8 |d8 d8 ||

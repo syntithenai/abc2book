@@ -1,0 +1,16 @@
+X: 848
+T: the Echo
+R: hornpipe
+%S: s:3 b:16(6+5+5)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #848
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0848/oneill-1001-0848-1.abc
+M: C|
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+"^A"[|] (Tfe) | d>AF>A D2 F>A | d>fe>c d>cB>c | A2 c>e A2 c>e | (3fga e>f d>cB>A || d>AF>A D2 F>A | d>fe>c d>cB>A |
+| (Tg>f)g>b a>fd>f | e>AB>c d2 "^B":: z2 | d>(g (3{a}gfg) b>(g (3{a}gfg) | d>gb>g a>gf>g | A2 c>e A2 c>e |
+| (3(fga) e>f d>cB>A || d>(g (3{a}gfg) b>(g (3{a}gfg) | d>gb>g a>gf>a | g>fg>b a>fd>f | e>AB>c d2 :|

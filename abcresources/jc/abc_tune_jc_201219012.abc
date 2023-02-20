@@ -1,0 +1,23 @@
+X: 0201
+T: the Blithest Lass That Ever Was Seen - 8x32S
+P: Miss Susan Inglis
+C: Nan Main
+B: Miss Milligan's Miscellany v.2 #0201
+B: Originally Ours v.1 p.179 #MMM-0201
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Repeat symbols moved to make alternate endings unnecessary, and to fix the rhythms of repeats.
+M: 4/4
+L: 1/8
+R: strathspey
+K: D
+%
+|: A |\
+"D"F>E D>E "Bm"F<B "G"B2 | "A7"AB/c/ "G"d>B "D"A<F F2 |\
+"A"G>F E>F "E7"G<e e>d | "A"(3cde "G/A7"(3ABc "D"defg |
+"D"afAa "E/A7"geAg | "D"f>d "C#/A"e>c "G"(3dcB "D"A>F |\
+"Em"G>B "A7"(3EFG "D"F>A (3DEF | "G"G>b "A7"(3age | "D"d2 z ||
+A |\
+"Em"a>=f d>A "Gm"(3_Bcd "Dm"A2 | "Gm"_B<e e>d "A7"c>d e2 |\
+"Dm"a>=f d>A "Gm"(3_Bcd A>G | "Dm"=F>D "A7"E<C "Dm"D3 E |
+"Dm"=F>G A<d "E/A7"c>d e>c | "F/Bb"d>_B "F"A<=F "E/A7"A3 G |\
+"D"^F>G A<d "E/A7"c>d e>c | "G"d>B "A7"A<F "D"D2 z :|

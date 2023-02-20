@@ -1,0 +1,32 @@
+X: 442
+T: Zemplin
+O: Slovakia
+M: 2/4
+L: 1/8
+Q: 1/4=172
+K: Bm
+%%MIDI program 42
+%%MIDI chordprog 24
+%%MIDI chordvol 60
+%%MIDI gchord czcz
+  "Bm" z4     |z4\
+|:B,2C2       |D2 B,2  |F2 A2   |G4       |\
+  "A"F2 E2    |[1D2 C2 |"Bm"B,4 |B,4      :|\
+  [2"Bm" D2 E2|"F#m" F4|F4      |
+|:"Bm"F2 F2   |B2 F2   |A4      |G4       |\
+  B2 B2       |"A"c2 B2|"Bm"F4  |F4       |
+  B,2C2       |D2 B,2  |"A"F2 A2|G4       |\
+  "Bm"F2 E2   |D2 C2   |B,4     |B,4      :|
+  "C#m"z4     |z4      |\
+%%MIDI gchordoff
+|:G2 F2       |E2 ^D2  |E2 E2   |F4       |\
+%%MIDI gchordon
+  "Bm" B2 B2  |^A2 B2  |F4      |F4       :|
+|:"Bm"G2 A2   |B4      |B2 A2   |B4       |\
+  B2 A2       |G2 F2   |E2 F2   |G4       |\
+  B2 A2       |G2 F2   |E4      |E4       :|
+  D4          |D4      |\
+  "G"B4       |"C#m"A4 |"A"d2 c2|"Bm"B2 F2|\
+  "G"B4       |"C#m"A4 |"A"d2 c2|"Bm"B4   |
+|:"Bm"A2 G2   |F2 E2   |B4      |"F#m"A4  |\
+  "Bm"A2 G2   |F2 E2   |B,4     |B,4      :|

@@ -1,0 +1,46 @@
+##center Paddy on the Handcar + Pigtown Fling
+%D: 090421
+%S: paddypig.mix
+
+
+X: 0
+T: Paddy on the Handcar
+P: piffero primo b0051
+O: safd 055
+%R: reel
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/billybudF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|:\
+EAAA A2AB | cBAB cBAG | EGGG G2G2 | DGGG G2G2 |\
+EAAA A2AB |
+cBAB c2Bc | edef gfed | e2A2 A2z2 ::\
+e2a2 e2a2 | edef gfed |
+G2g2 G2g2 | BABc d4 |\
+e2a2 e2a2 | edef g2d2 | edef gfed | e2A2 A2z2 :|
+
+
+X: 1
+T: Pigtown Fling
+P: piffero primo a0546
+O: safd 044
+%R: reel
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/paddypigC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G	% and Em
+z2 |\
+G2ge d2ed | B2ge dBAB | G2ge d2ed | BcBA GFED |\
+G2ge d2ed |
+B2ge dBAB | G2ge d2ed | BGAF G2 :|\
+|: z2 |\
+B2e2 e3g | fgaf gfed |
+B2e2 e3g | fgaf g3B |\
+B2e2 e3g | fgaf gfed | efga bagf | gefd e2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

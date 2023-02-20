@@ -1,0 +1,32 @@
+%Scale the output
+%%scale 1.15
+%%stretchlast 1
+%%barsperstaff 0
+%%barnumbers -1
+%%gchordbox no
+%%splittune no
+X:1
+T:Somewhere Between Your Heart and Mine
+C:Merle Haggard / Bonnie Owens
+M:3/4
+L:1/4
+%V:1 treble clef
+K:D
+|"D"F F-F/2G/2|F2 E|"G"D2 E/2E/2|"D"D2 D/2D/2
+w:C~Some-where_ be-tween your heart and_ mine, There's a
+w:1~I love you so much, I can't let you go, And some-
+w:2~Some-where_ be-tween your heart and_ mine, There's a
+|D D D|D (E F)|"A"E3-|E2 (D/2 E/2)
+w:win-dow that I can't see through._ There's a
+w:times I be-lieve you love me._ And some-
+w:love_ I can't un-der-stand,_ It's_
+|"D"F2 G/2-G/2|F2 (E/2F/2)|"G"(E D) E|"D"D3
+w:wall so_ high that it reach-es the sky.
+w:where be-_tween your_ heart_ and mine,
+w:there for a while, but it fades with your smile.
+|"^TAG"D/2-D/2 D3/2 D/2|"A"C/2-C/2 (D E)|"D"D3-D2||
+w:Some-_where be-tween_ me and you._
+w:There's a door with-out_ an-y key._
+w:Am I ask-ing too_ much of you?_
+
+

@@ -1,0 +1,16 @@
+X: 1838
+T: the Munster Lass
+R: jig,
+%S: s:4 b:16(4+4+4+4)
+M: 6/8
+L: 1/8
+B: O'Neill's 1850 #1838
+Z: Bob Safranek, rjs@gsp.org
+Z: Added a repeat at start of B part [JC]
+K: F
+C \
+| FAc {g}fef | g>fe f2f | FAc  fed | c>BA G2A |
+| FAc {g}fef | gfe  fga | g>fe fed | cBA  G2 :|
+|: b \
+| agf gfe | fcA F2b | agf gcA | {c}B>AB G2b |
+| agf gfe | fed cBA | Bdg Acf | {f}ede  f2 :|

@@ -1,0 +1,22 @@
+X:1
+T:Test: SATB + Piano score
+C:Evan Stephens
+S:banaticus@gmail.com [abcusers] 2017-8-7
+M:4/4
+Q:1/4=60
+K:Eb
+V:sop clef=treble name="Soprano" snm="S"
+V:alt clef=treble name="Alto" snm="A"
+V:ten middle=d clef=treble-8 name="Tenor" snm="T" % octave=-2
+V:bas middle=d clef=bass name="Bass" snm="B" % octave=-2
+V:p1 clef=treble name="Piano" snm=""
+V:p2 clef=bass middle=d name="" snm="" % octave=-2
+%%staves  {p1 p2}
+%%score {sop alt ten bas} {p1 p2}
+% 1:1
+[V:sop][L:1/4]  e3 z ||
+[V:alt][L:1/4]  B3 z ||
+[V:ten][L:1/4]  G3 z ||
+[V:bas][L:1/4]  E3 z ||
+[V:p1][L:1/4] .[G,B,E].B,/>E/ [F,2A,2D2] ||
+[V:p2][L:1/4] .E z3 ||

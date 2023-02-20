@@ -1,0 +1,19 @@
+X: 1
+T: the Battle of Aughrim
+C: trad
+O: Ireland
+N: arr. by Tom Morley
+%S: %S: s:2 b:16(8+8)
+%D:
+R: march
+S: Fiddle Hell Online 2022-4-5 handout for Tom Morley workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Ador
+"^A"\
+|:"Am"vE2A2 ABcd | e2d2 c2A2 | "G"B2G2 GFG(uA | "Em"BG)AG E2E2 |\
+| "Am" E2A2 ABcd | e3d e2(ag) | "Em"e2d2 BecB | "Am"A4 A4 :|
+"^B"\
+|:"Am"va2e2 e2(fg) | a2e2 e2(fg) | a3(g- ga)ge | "G"dedB G4 ||\
+| "Am"ua2e2 (ef)ge | va2e2 efed | "Em"B2e2 "G"d2B2 | "Am"A4 A4 :|

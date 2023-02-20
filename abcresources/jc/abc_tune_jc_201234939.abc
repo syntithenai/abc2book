@@ -1,0 +1,31 @@
+X: 20901
+T: QUADRILLE RONDO
+C: Henri Herz.
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.90 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The "D.C. al Fin." is oddly positioned; it should probably be on the final A of the previous strain.
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+ef |\
+gag dfe | c3 Gce | d{e}d^c d{e}dc | dag fd^d |\
+eag dfe | c3 Gce | dag {fg}fde | c3 Hz2 "^Fin."|]
+Bc |\
+d^fg efg | dba {a}g^fg | ade ded | d^fg dBc |\
+d^fg efg | dba {a}g^fg | ade ded | gdb g |]
+ef |\
+gag dfe | c3 Gce | d{e}d^c d{e}dc | dag fd^d |\
+eag dfe | c3 Gce | dag {fg}fde | c3 z |]
+cd |\
+e2e a>gf | e3 edc | B2c d>cB | cdB Acd |\
+e2e a>gf | e3 edc | B2c d>Bc | A3- A !segno!|]
+"D.C. al Fin."Bc |\
+{de}dBg {e=f}ecg | {de}dBb {de}dBg | {de}dca {de}dc^f | {de}dBg dBc |\
+{de}dBg {e=f}ecg | {de}dBb {de}dBg | {de}dca {de}dc^f | gdb g |]
+ef |\
+gag dfe | c3 Gce | d{e}d^c d{e}dc | dag fd^d |\
+eag dfe | c3 Gce | dag {fg}fde | c3 z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

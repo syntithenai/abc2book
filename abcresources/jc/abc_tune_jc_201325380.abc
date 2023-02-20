@@ -1,0 +1,31 @@
+X:77
+T:Polska efter Pelle Fors
+R:sl-polska
+S:Variant 1: Anselm & Allan Hellstr\"om, Vikbolandet
+A:\"Osterg\"otland
+B:Variant 2: SvL \"Ogl 365, efter Nils Olsson, Sj\"ogestad, V{\aa}nga
+B:Variant 3: SvL Sml 9, efter Anders Fredrik Andersson, Tryserum
+B:Variant 4: Bagge 3
+Z:id:hn-sp-77
+M:3/4
+L:1/16
+K:G
+d4 c4 (B/c/B/A/B2) | G2AB (cd)ef g4 | d4 c4 (B/c/B/A/B2) |
+G2AB (cB)AF G2D2 | d4 c4 (B/c/B/A/B2) | G2AB (cd)ef g2(g2 |
+d2)(d2 c2)(c2 B2)(B2 | G2)AB (cB)AF F2G2 :||: D2f2 d2f2 (fg)af |
+d2g2 D2g2 (ga)bg | d2f2 D2f2 (fg)af | d2g2 D2g2 (ga)bg |
+d2ef (ga)ge (ed)dB | (dc)AF A2G2 G4 :|
+"variant 2"
+|:Ld4 Lc4 LB4 | G2Bc d2ef gfge | d2B2 c2A2 B2G2 | G2{AG}FG AGFE DCB,A, |
+G,2d2 d2Ac BcBA | G2Bc d2ef gfge | d2Bd c2Ac B2GB | BdcA A2G2 G4 :|
+|: D2f2 fafd fafd | G2g2 gbgd gbgd | D2f2 fafd fafd | G2g2 gbgd gbgd |
+d2ef gage dedc | BcBA A2G2 G4 :|
+"variant 3"
+|: d2d2 c2c2 B2B2 | GABc d2ef g2g2 | d2dB c2cA B2d2 | dcAF A2G2 G4 :|
+|: d3f f2d2 f2af | d3g g2d2 g2bg | d3f f2d2 f2af | d3g g2d2 g2bg |
+d2ef gagf g2fe | d2B2 G2Bd g2g2 | d2dB c2cA B2d2 | dcAF A2G2 G4 :|
+"variant 4"
+|: d2(dB) c2cA B2(BA) | G2(AB) cdef gfge | d2(dB) c2(cA) B2(BA) |
+G2(AB) cBcA A2G2 :||: D2fA fAfA (fa)fd | G,2gB gBgB (gb)gd |
+D2fA fAfA (fa)fd | G,2gB gBgB (gb)gd | d2ef (gf)ge d2(dB) |
+(cB)cA A2G2 G2 z2:|

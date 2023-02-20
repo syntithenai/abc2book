@@ -1,0 +1,34 @@
+X: 1
+T: Escort of the Color March
+M: C|
+L: 1/4
+P: C Piccolo/Flute
+%Q: 1/2=100
+% dim/cres..endo symbols:
+U: r=!crescendo(!
+U: R=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+C: T.H. Rollinson
+%%staffwidth 8in
+%%borderwidth 0.5in
+%%leftmargin 0.5in
+%%rightmargin 0.5in
+% %topmargin 0.5in
+%%composerspace 2
+%%partsspace 0
+%%musicspace 0
+%%sysstaffsep 0
+%%textfont helvetica 12
+%%scale .75|
+K: Bb
+!>!!gg!b2!>!c'2|d'>a (!>!c'/b/a/g/)|f!>!e'!>!d'!>!c'|bzz2|z4|:!mg!d'2d'2|d'(a/c'/b)d|(Pfb)bb|a4|e'2e'2|
+e'(=b/d'/c')a|(Pgf)c'>f|d'4|d'2d'2|d'(a/c'/b)d|(Pfb)bb|a3z|!trill!c'4-|!trill!c'4-|c'ba>g|fzz2:|
+||:(!p!!>!f3r=e/f/)|(!>!g3^f/g/)|(!>!a3^^g/a/)|!gg!!>!Rb2-b/a/b/c'/|(d'c')(d'c')|e3d'|(Pc'b)(!>!a>g)|fzz2|
+(!p!!>!f3r=e/f/)|(vg3^f/g/)|(a3^^g/a/)|!g!b2-b/a/b/c'/|!gg!R=d'2-=d'/b/c'/d'/|^d'zz2|z(=e/f/)!>!g!>!a||1 !>!bzz2:|2!>!bz!>!bz||
+%%text TRIO 
+K:Eb
+(!gg!!>!c'>ba2)|(!>!a>gf2)-|fz!trill!b2|-bzz2|:z(!p!"Solo"g/^f/g)(g/^f/|g)(be'2)|z(e/d/e)(e/d/|e)(gbe')|Z2|
+z(d/e/ =e/f/^f/g/|a4)|z(a/g/a)(a/g/|a)(df2)|z(f/e/f)(f/e/|f)(bd'2)|Z2|1z(^a/b/ c'/d'/e'/f'/|g'4):|2z(g/a/ ^a/b/c'/d'/|e')zz2||
+|:!gg!!>!b2!>!a2|(ad')d'c'|!>!c'2!>!b2|(bf')f'e'|e'>d'd'd'|zz2|c'>bbb|zz2|!>!b2!>!a2|
+(ad')d'c'|c'2b2|(bf')f'e'|d'2-d'/f/a/d'/|c'b(e/d/e/f/)|g(c'/b/ ^a/b/c'/d'/|1e')zz2:|2e')e'/e'/e'z||

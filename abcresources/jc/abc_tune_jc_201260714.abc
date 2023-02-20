@@ -1,0 +1,35 @@
+X:109
+T:Catdancer
+C:Colin Hume, 1998
+L:1/4
+M:3/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%MIDI gchord zczczc
+%%MIDI beat 100 95 80
+Q:1/2=96
+H:For Helen Tuzio
+K:D
+P:A
+V:1
+%%MIDI program 71     Clarinet
+|: AF/G/ Ad [Bg][Af] |[Ge]2 B2 B/c/d | c2 A2 E/F/G | FD B,G, A,2 |\
+AF/G/ Ad B2 | BG/A/Be c2 | de/f/ gf ed | e3d d2 [K:F] :|
+V:2 bass octave=-2
+%%MIDI program 70     Bassoon
+%%MIDI chordprog 46   Orchestral Harp
+|: "D"d2 "/"F2 "G"B2 | "Em"e4 "G"G2 | "A"A4 "/"c2 | "D"d2 "G"G2 "A"A2 |\
+"D"d2 "/"f2 "G"gf | "Em"e2 "/"d2 "A7"c2 | "Bm"BA "G"G2 "Em"E2 | "A7"A2 "/"c2 "D"d2 [K:F] :|
+P:B
+V:1
+|: dB/c/ dB cF | BG/A/ BG AD | FE/D/ CA Bd | cG G/A/B A2 |
+AF/G/ AF B2 | BG/A/ BG c2 | dd/e/ fe dc | =B3A A2 :|
+V:2
+|: "Bb"B4 "F"A2 | "Gm"G4 "Dm"d2 | "Bb"B2 "F"A2 "Gm"GF | "C7"E2 "/"C2 "F"fe |
+"Dm"d2 "/"f2 "Gm"gf | "C7"e2 "/"c2 "F"fe | "Dm"d2 "/"F2 "/"D2 | "E7"E2 "/"^G2 "Am"A2 :|
+P:C
+V:1
+BF B/c/d cB | c2 F2 A/B/c | BA G3F/G/[K:D] | A6 |\
+AF/G/ Ad [Bg][Af] |[Ge]2 B2 B/c/d | c2 AA/B/ cA | d6 |]
+V:2
+"Bb"B6 | "F"A6 | "Gm"G2 A2 B2 [K:D] | "A7"A2 B2 c2 |\
+"D"d2 "/"F2 "G"B2 | "Em"e2 "/"G2 "E7"^G2 | "A"A2 "/"c2 "A7"A2 | "D"D6 |]

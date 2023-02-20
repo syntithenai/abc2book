@@ -1,0 +1,30 @@
+X: 150101
+T: BRIGHT VISIONS WALTZ
+C: by G. A. de Maur
+R: Waltz.
+%R: waltz
+B: James Kerr "Merry Melodies" v.1 p.50 s.1 #1
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: G
+[|\
+(D2E) | (G2A) | BdB | (AG)z |\
+(c2e) | (d2B) | AGB | A3 |\
+(B2c) | (d2B) | (A2G) | (EG2) |\
+(D2E) | (G2B) | AGA | G3 ||\
+(E2G) | (c2e) | (d2B) | (dB)z |\
+(A2G) | (E2B) | (A2G) | E3 |
+(G2A) | (B2e) | (d2B) | (dB)z |\
+(G2E) | (D2B) | (A2G) | G3 ||\
+(D2E) | (G2A) | BdB | (AG)z |\
+(c2e) | (d2B) | AGB | A3 |\
+(B2c) | (d2B) | (A2G) | (EG)z |\
+(D2E) | (G2B) | AGA | G3 ||
+L: 1/8
+K: D
+|:\
+vA2(^GA)ce | vg2zvgug2 | f2zff2 | b4a2 |\
+a2(ge)cB | A2z2A2 | A2zAA2 | B4A2 |\
+A2(^GA)ce | g2zgg2 | f2zff2 | b4a2 |\
+a2(ge)cB | A2z2c2 | d2zdd2 | "^D.C."d6 :|

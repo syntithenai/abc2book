@@ -1,0 +1,17 @@
+X: 10862
+T: CLOG Hornpipe
+R: hornpipe
+B: K\"ohler's Violin Repository, v.1, 1885 p.86 #2
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Bar 13 has a B sharp! Rewritten as B natural.
+M: C|
+L: 1/8
+K: Bb
+|:\
+u((3FGA) |\
+B>fd>B A>ec>A | B>cd>B F2((3cBA) | (G>=B)c>d (e>d)c>_B | (A>c)f>=e (g>f)_e>c |
+B>fd>B A>ec>A | B>cd>B F2((3cBA) | G>(gf)>(e d)>(cB)>A | c2[B2D2][B2D2] :|
+|: u(c>B) |\
+A>cf>=e f2(c>B) | A>cf>=e f>ag>f | (=e>f)g>a (b>g)e>g | (f>=e)f>g (f>_e)d>c |
+d>ed>c  =B>dg2  | (c>d)c>B A>cf2 | ((3gab) a>g f>ed>c | B2b2B2 :|

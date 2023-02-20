@@ -1,0 +1,30 @@
+X: 1
+T: Hill's Maggot
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.296
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.  The tune and dance have 3-bar phrases.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+GF |\
+EFGA G2E2 | F2D2 E2(DC) | B,2 D4 GF |\
+EFGA G2F2 | c2E2 F2(ED) | E2 C4 :: gf |\
+efga g2e2 | f2d2 e2(dc) | B3c d2(ef) |
+gagf e2(fg) | agfe d2ef | e2 c4 :: _B2 |\
+A3G/F/ G3A/B/ | cBc2 D2Bc | d2 D4 _B2 |\
+A3G/F/ G3A/B/ | cBc2 D2B2 | c2 C4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First cu. hands a whole round and cast off into the 2. cu. places, then right and left a whole round
+%% with the 3d. cu. and come into the 2. cu. places; the 1. man go round the 3d. wo. and 1. wo. goes
+%% round the 2. man at the same time; then 1. man goes round 2. wo. and the 1. wo. goes round the
+%% 3d. man at the same time, and cross over into the 3d. cu. places; the 1. cu. leads up through the 3d.
+%% cu. and do the whole Figure with the 2. cu. and lead through the 2. cu. and cast off in their places.
+%% Each Strain twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

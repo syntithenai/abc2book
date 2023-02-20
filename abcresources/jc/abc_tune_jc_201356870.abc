@@ -1,0 +1,28 @@
+X:3119
+T:Branle
+T:de madrigale
+C:Tielman Susato
+O:Flandres
+R:Branle
+Z:Transcribed by Eric Forgeot - http://anamnese.online.fr/abc/abcf.html
+F:http://abc.musicaviva.com/tunes/susato-tielman/de-madrigale-a1gtr.abc
+%Posted at abcusers July 5th 2001 by Eric Forgeot.
+M:6/8
+L:1/8
+Q:1/4=110
+K:C
+%%staves 1 (2 3)
+V:1
+c>de d>ef | c>de d3 :: e>de c>de | f2 e d3 :|]
+V:2
+%%MIDI transpose -12
+ [G2e2] [ce] [B2g2] [Af] | [A2e2][ce] [G3d3] ::
+ [C2c2] [Cc] [F2a2] [Eg] | [D2f2] [Cg] [B,3g3] :|]
+V:3
+%%MIDI transpose -12
+C>B,C G,2 D | A,>B,C G,3 :: g>fg cAB | dAc B3 :|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

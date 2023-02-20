@@ -1,0 +1,76 @@
+
+X: 1
+T: The Dress'd Ship   [A]
+O: Thompson 1774
+R: reel, polka
+M: C
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.18 #2
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+e |\
+"A"cAEc "D"d2(d/e/f) | "A"ecac "Bm"dB-"E7"Be "I"|\
+"A"cAEc "D"df"A"ea | "Bm"fd"E7"Be "A"cA-A :|
+|: f/g/ |\
+"A"aecA "D"f/g/a/f/ "A"ec | "D"df"A"ec "Bm"dB- "E7"Bf/g/ |\
+"A"aecA "D"f/g/a/f/ "A"ec | "Bm"fd"E7"Be "A"cA-A :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% 1st Man set to the 2d Wo. & turn .|. 1st
+%% Wo. do the same :|. cast off 1 Cu. &
+%% Allemand .|: cast up & Allemand & lead
+%% down in the 2d Cu.s place :|:
+%%endtext
+
+%%sep 1 1 500
+
+X: 2
+T: The Dress'd Ship   [G]
+O: Thompson 1774
+R: reel, polka
+M: C
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.18 #2
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d/c/ |\
+"G"BG DB "C"c2 (c/d/e) | "G"dB gB "Am"cA- "D7"Ad/c/ "I"|\
+"G"BG DB "C"c{d}e "G"dg | "Am"ec "D7"Ad "G"BG- G :|
+|: e/f/ |\
+"G"gd BG "C"e/f/g/e/ "G"dB | "C"c{d}e "G"dB "Am"cA- "D7"Ae/f/ |\
+"G"gd BG "C"e/f/g/e/ "G"dB | "Am"ec "D7"Ad "G"BG- G :|
+% - - - - - - - - Dance description - - - - - - - -
+% %begintext align
+% % 1st Man set to the 2d Wo. & turn .|. 1st
+% % Wo. do the same :|. cast off 1 Cu. &
+% % Allemand .|: cast up & Allemand & lead
+% % down in the 2d Cu.s place :|:
+% %endtext
+
+%%sep 1 1 500
+
+X: 3
+T: The Dress'd Ship   (D)
+O: Thompson 1774
+R: reel, polka
+M: C
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.18 #2
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+"D"FDA,F "G"G2(G/A/B) | "D"AFdF "Em"GE-"A7"EA "I"|\
+"D"FDA,F "G"GB"D"Ad | "Em"BG"A7"EA "D"FD-D :|
+|: B/c/ |\
+"D"dAFD "G"B/c/d/B/ "D"AF | "G"GB"D"AF "Em"GE- "A7"EB/c/ |\
+"D"dAFD "G"B/c/d/B/ "D"AF | "Em"BG"A7"EA "D"FD-D :|
+% - - - - - - - - Dance description - - - - - - - -
+% %begintext align
+% % 1st Man set to the 2d Wo. & turn .|. 1st
+% % Wo. do the same :|. cast off 1 Cu. &
+% % Allemand .|: cast up & Allemand & lead
+% % down in the 2d Cu.s place :|:
+% %endtext

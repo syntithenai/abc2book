@@ -1,0 +1,19 @@
+X: 27
+T:Baraka
+O:Israel
+C:Gili Liber 2000
+F: http://www.youtube.com/watch?v=uBApR1RglgI
+M: 2/4
+L: 1/8
+K:Cm
+Q:1/4=120
+%%MIDI drum d2ddd2dd 41 51 54 41 53 54
+%%MIDI drumon
+|z2 C/D/    |:E2D2   |CE/D/CC/D/|EED E/D/|\
+ [1C3 C/D/  :|[2 C3 z|
+ EF2F       |EGFz    |FFFF      |EDC2    |\
+ EF2F       |EGFz    |\
+ F2FC       |F2FC    |: C/D/    |E2D2    |\
+ CE/D/CC/D/ |EED E/D/|C3 ::
+ B,CCC      |B,CCC   |B,C/D/ ED |C4      |\
+ B,CCC      |B,CCC   |B,C/D/ ED |C4      :|

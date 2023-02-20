@@ -1,0 +1,29 @@
+X: 05043
+T: JOHN NEWTON'S JIG
+C: Bob McQuillen 5 Mar 81
+B: Bob's Note Book 5 #43
+%R: jig
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D	% and G
+F \
+| AFA dBA | dfd B2A | AFA ded | c2d e2B || ABA cBA | gec B2A | cde gfe | f2d AFE |
+| DFA ABA | dfd B2A | dfa agf | g2f e2f || gag gfe | fef d2B | Agf ede | fdd d2 |]
+M: 6/8	% Why are these things repeated?
+K: G
+f \
+| gfg edc | BGG G2A | Bcd e2B | d3 B2d || cAA ABd | cAA Ade | fga aba | g2e dBc |
+| dBd edc | BGG GBd | gfg a2g | f3 e2f || gee ega | g2d dBd | efg a2b | g3- g2 |]
+%%begintext align
+%% John's running a saw
+%% mill over West Townsend VT. way - He's married
+%% to Jill Newton, one of Applejack's fiddlers, and he's
+%% got a band of his own called the "Turkey Mountain
+%% Window Smashers" that he calls dances with and
+%% anyway, Best always to you, John!
+%%endtext
+%%begintext align
+%% (P.S. I can't help thinking that a name like "Windy Mountain
+%% Turkey Smashers" would have had a greater impact!)
+%%endtext

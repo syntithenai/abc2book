@@ -1,0 +1,45 @@
+X: 1
+T: Green Stockings
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.73 #100
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.17 "C 3" 
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: 2nd part has initial repeat but no final repeat.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+   A | def e2d | c2B cAF | GAB AFG | E3 D2 :|\
+|: D | FAF AFD | GBG AFD | GAB dAF | E3 D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up forward and back .| That again :|
+%%endtext
+%%begintext align
+%% The first Couple go Back to Back, then right hands
+%% round one Turn and a Half, then clap Hands, first
+%% your own, then one of each others, walk out to the
+%% Wall, then back again, and Back to Back as before.
+%% The Man on the Woman's Side, and the Woman on
+%% ??? ?? ?? ??? in the last Part, after clapping
+%% ??? ??? to the Wall and back again.
+%% [CCDM1]
+%%endtext
+%%sep 1 8 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up forward and back .| That again :|
+%%endtext
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The first cu. go back to back, then right hands round one turn and a half, then clap hands, first
+%% your own, then one of each others, walk out to the wall, then back again, and back to back as 
+%% before, the man on the wo. side, and the wo. on the man's; and in the last part, after clapping hands,
+%% lead to the wall and back again.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

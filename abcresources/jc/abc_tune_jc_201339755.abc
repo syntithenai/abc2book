@@ -1,0 +1,25 @@
+X: 1
+T: Spelmansgl\"adje
+C: Eric Sahlstr\"om 1940
+R: waltz, polska
+S: Fiddle Hell Online 2022-4-2 handout for Swedish Jam led by Bronwyn Bird and Justin Nawn
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+P: AABBCC AABBCC AA
+K: Bb
+%%continueall
+"^A"|:\
+"Bb"B,2 D2 E2 | (3FGF (DB,) (DF) | B2 (~BA) Bc | [d4D4] B2 || "Eb"(EG) (BG) (eG) |
+"Bb"(DF) (BF) (dF) | "F"(CF) (AF) (cA) | "Bb"(BA/B/) (dB) (FD) || B,2 D2 E2 | "Bb"(3FGF (DB,) (DF) |
+(Bc) (BA) Bc | [d4D4] B2 || "Eb"(EG) (BG) (eG) | "Bb"(DF) (BF) (dF) | "F"(CF) (AF) (cA) |
+[1 "Bb"B3 z FD :|[2 B3 F (3Acf :|[3 [F2A,2] .c2 .f2 | "Bb"[B6D6B,6]!fine!y |]\
+[K:=e][K:F]\
+"^B"|: "F"a2 (fc) (AF) |
+(A,C) (FA) (cf) | "Bb" ~d2 (BG) (DB,) | "(Gm)"(G,B,) (DG) || "C"C2 (EF) (GB) | (dc) (=Bc) (EG) |
+"F"(FG) (AB) (cd) | "F"(~cA) (FA) (cf) || "F"a2 (fc) (AF) | (A,C) (FA) (cf) | "Bb"~d2 (BG) (DB,) |
+"(Gm)"(G,B,) (DG) (Bd) | "C"C2 (EF) (GB) | (d~c) (=Bc) (EG) | "F"F2 (EF) Ac |[1 f3 A c>f :|2 f4 c'2 |]
+"^C"|:\
+"F"(3ac'a (fa) (3geg | (~fc) (Ac) (BG) | (A,C) (FA) cf | "Bb"(B,D) (FB) df || "C"(CE) (Gc) eg |
+"F"[f2F2] (Ac) BG | (A,C) (FA) cf |"Bb"(B,D) (FB) df | "C"(CE) (Gc) eg |\
+[1 "F"[f3F3] z c'2 :|[2 "F"[f3F3] z "_D.C. al Fine"D2 |] y

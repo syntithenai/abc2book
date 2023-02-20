@@ -1,0 +1,20 @@
+X: 1056
+T: a Scotch Tune.
+%R: march, reel
+B: Henry Playford "Apollo's Banquet", London 1687 (5th Edition)
+F: https://archive.org/details/apollosbanquetco01rugg
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+T: The key signature is unusual, and almost certainly means the high g is natural.
+M: C|
+L: 1/8
+K: ^F^G^c^f	% =g implied
+% - - - - - - - - - -
+A2 |\
+(cd)e2 e2(fg) | e2(dc) B2A2 | (cd)e2 (ef)g2 | f4 g2(ed) |\
+(cd)e2 (fg)(af) | (ef)(ec) B2A2 | d2F2 (dA)(BG) | A6 :|
+|: B2 |\
+(GA)B2 B2(cd) | B2(AG) F2E2 | (GA)B2 (cB)(cd) | B2F2 B3c |\
+d2A2 (de)(fe) | d2A2 d2(f/g/a) | f2(ed) e2c2 | d3c (de)(fg) |
+e2e2 e2(dc) | d2d2 d2(cB) | c2A2 F2B2 | G4 E2a2 |\
+f2(ef) (gf)(ec) | (de)f2 e2(dc) | (Bc)(BA) B2G2 | HA6 |]
+% - - - - - - - - - -

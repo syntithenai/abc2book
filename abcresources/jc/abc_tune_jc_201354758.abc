@@ -1,0 +1,44 @@
+
+X: 1
+T: Yoshke (Ma Yofus; Tanz, Tanz, Yideleh)
+C: arr. Naftule Brandwein 1917
+Z: John Chambers <jc:trillian.mit.edu>
+O: Trad
+M: C|
+L: 1/8
+K: Dphr
+z2 \
+|  "D"DE^FG ABAG | ^F2FD "Gm"G4 | "D"A2A2 cBAG | ^F2FD "Gm"G4 \
+|  "D"DE^FG ABAG | ^F2FD "Gm"G4 | "D"^F2F2 "Cm"EDEC | "D"D6 :|
+|: "F"[F2A] \
+|  "Bb"Bcd4 d2 | "F"cdcA F4 | "F7"FGAB cdec | "Bb"d2de "D"dcBA \
+|  "Gm"GAB4 B2 | "D"ABA^F D4 | DE^FG ABAF | "Gm"G6 :|
+|: ^FE \
+|  "D"D2^F2 D2F2 | "Gm"G2G2 cBAG | "D"^F2F2 "Gm"GFGB | "D"A2A2 ~d4 \
+|  "D"D2^F2 D2F2 | "Gm"G2G2 cBAG | "D"^F2F2 "Cm"EDEC | "D"D6 :|
+|: "F"[F2A] \
+|  "Bb"Bcd4 d2 | "F"cdcA F4 | "F7"FGAB cdec | "Bb"d2de "D"dcBA \
+|  "Gm"GAB4 B2 | "D"ABA^F D4 | DE^FG ABAF | "Gm"G6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Yoshke (Ma Yofus; Tanz, Tanz, Yideleh)
+C: arr. Naftule Brandwein 1917
+Z: John Chambers <jc:trillian.mit.edu>
+O: Trad
+M: C|
+L: 1/8
+K: Am
+z2 \
+|  "E"EF^GA BcBA | ^G2GE "Am"A4 | "E"B2B2 dcBA | ^G2GE "Am"A4 \
+|  "E"EF^GA BcBA | ^G2GE "Am"A4 | "E"^G2G2 "Dm"FEFD | "E"E6 :|
+|: "G"[G2B] \
+|  "C"cde4 e2 | "G"dedB G4 | "G7"GABc defd | "C"e2ef "E"edcB \
+|  "Am"ABc4 c2 | "E"BcB^G E4 | EF^GA BcBG | "Am"A6 :|
+|: ^GF \
+|  "E"E2^G2 E2G2 | "Am"A2A2 dcBA | "E"^G2G2 "Am"AGAc | "E"B2B2 ~e4 \
+|  "E"E2^G2 E2G2 | "Am"A2A2 dcBA | "E"^G2G2 "Dm"FEFD | "E"E6 :|
+|: "G"[G2B] \
+|  "C"cde4 e2 | "G"dedB G4 | "G7"GABc defd | "C"e2ef "E"edcB \
+|  "Am"ABc4 c2 | "E"BcB^G E4 | EF^GA BcBG | "Am"A6 :|

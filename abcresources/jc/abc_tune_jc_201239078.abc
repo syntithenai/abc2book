@@ -1,0 +1,21 @@
+X: 3203
+T: Sir John Scott's Favourite.    Irish
+T: Sir John Scott's Favorite
+N: The title has an obvious typo: "Favourte"; fixed.
+%R: slip-jig, triple hornpipe, air
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.20 #3 (and top 2 staffs of p.21)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+Q: "Slowish"
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+B |\
+(A/B/c).A TB>AF FEF | (A/B/c).A BAF Td2f | ecA BAF {G}FEF | (A/B/c).A TB>AF A2 :| f | ecA A>BA (f/g/a).f | ecA AcA TB2f |
+ecA A>BA (f/g/a).f | ecA TB>AF A2f || ecA AcA Tf>ga | ecA AcA TB2f | ecA ecA (f/g/a).f | ecA TB>AF A2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | A3 e3 d3 | c3 A2d B2g | a3 e3 d3 | c2A e2d [A2c2] :| z | A3 a3 d3 | A3 a3 ebd' |
+c'3 a3 d'3 | c'3 e'2d' c'2d || c3 A3 d3 | c3 A3 e3 | A2a A2a d3 | c2A e2d [A2c2] |]

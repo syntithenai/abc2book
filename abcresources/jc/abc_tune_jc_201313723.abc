@@ -1,0 +1,25 @@
+X: 1
+T: Mr. Eaglefield's New Hornpipe
+P: Longways for as many as will
+%R: triple hornpipe, minuet
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.209 "T 3"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat added to satisfy the "first Strain played twice" instruction.
+M: 3/2
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+a4 e2(dc) f4 | (cd)e2 (Bc)d2 c2A2 | a2(ag) f2(ed) (cd)e2 | (fg)a2 (FG)A2 G2E2 :|
+(GA)B2 e2B2 c4 | (cd)e2 =g2B2 G2B2 | (cd)e2 (fg) (^g^f/^g/) a4 | e2dc (Bc)d2 c2A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%    The 1. man turn his partner half round and foot it, then hold both hands and pull her round the 2. wo.
+%% into the 2. cu. place; the 2. cu. do the same.  This to the first Strain played twice.
+%%    The 1. and 2. cu. take their Partners by both hands, then one slip up and the other slip down, and back
+%% again, then fall back and turn S. The 2. cu. slip up the middle, and the 1. cu. down; the 1. cu. slip up
+%% the middle, and the 2. cu. down; then the 1. cu. cast off into the 2. cu. place, and the 2. cu. lead up.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

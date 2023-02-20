@@ -1,0 +1,21 @@
+X: 1871
+T: Sonata
+T: Tango to Evora
+C: Loreena McKennitt 1991
+F: https://www.youtube.com/watch?v=kH2hNlm1Shs
+F: https://www.youtube.com/watch?v=RQ7SMGOwWvY
+F: https://www.youtube.com/watch?v=U8Mv8dG8T_A
+M: 4/4
+L: 1/8
+K: Bm
+Q: 1/4 = 120
+%%MIDI gchord ghihghih
+%%MIDI program 24 Acoustic Guitar
+%%MIDI chordprog 24 Acoustic Guitar
+"Bm"FFFF G2 F2|FFFF B2 z2  |"Em"EEEE F2E2|EEEE F2 z2|
+"Bm"DDDD E2 D2|DDDD E2 z2  |"A"CCCC D2C2 |B,4 z2::
+%%MIDI gchordon
+"Em"EEEE B2 E2|EEEE B4     |"Bm"FFFF G2F2|DDDD E2D2 |
+%%MIDI gchordoff
+"Bm"CCCC F4   |[1E2D2 C2D2-| D4-D4-      |D4 z4     :|[2\
+"A"E2D2 C2B,2-|B,4-B,4-    |B,4 z4       |

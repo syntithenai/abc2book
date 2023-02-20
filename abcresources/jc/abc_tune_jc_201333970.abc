@@ -1,0 +1,59 @@
+
+X: 1
+T: Santa Lucia [F]
+O: Italy
+Z: John Chambers <jc:trillian.mit.edu>
+R: waltz
+L: 1/8
+M: 3/4
+K: F
+[| "F"C2 C3 F | "C7"FE E4 | "Bb"B,2 B,3 D | "F"D2 {C}C4 \
+| "D7"A,2 D2 C2 | "Gm"C=B,_B,4 | "C7"B,2 A,2 G,2 | "F"D2 C4 |]
+|: "F"A2 G2 F2 | "Gm"ED G4 | "Bb"G2 F2 D2 | "F"=B,C F4 \
+| "F"(AF) (FC) (CA,) | "Gm"(B,G) G4 |1 "C7"G2 D3 E | G2 "F"F4 :|2 "C7"G2 A3 G | G2 "F"F4 :|
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: Santa Lucia
+O: Italy (Norwegian lyrics)
+Z: John Chambers <jc:trillian.mit.edu>
+R: waltz
+L: 1/8
+M: 3/4
+K: G
+[| "G"D2 D3 G | "D7"GF F4 | "C"C2 C3 E | "G"E2 {D}D4 |
+w: 1.~Svart sen-ker nat-ten seg i stall og stu-er.
+w: 2.~Nat-ten er m\ork og stum, med ett det su-ser,
+w: 3.~"M\or-ket skal flyk-te snart fra Jor-dens da-ler."
+| "E7"B,2 E2 D2 | "Am"D_DC4 | "D7"C2 B,2 A,2 | "G"E2 D4 |]
+w: So-len har g\aatt sin vei, sky-ge-ne tru-er.
+w: i al-le tys-te rum som ving-ger bru-ser.
+w: Slik hun et un-der-fullt ord til oss ta-ler.
+|: "G"B2 A2 G2 | "Am"FE A4 | "C"A2 G2 E2 | "G"^CD G4 |
+w: Inn i v\aart m\or-ke hus sti-ger med ten-te lys,
+w: Se, p\aa v\aar ter-skel st\aar, hvit-kledd med lys i h\aar,
+w: Da-gen skal at-ter ny sti-ge av r\o-de sky,
+| "G"(BG) (GD) (DB,) | "Am"(CA) A4 |1 "D7"A2 E3 F | A2 "G"G4 :|2 "D7"A2 B3 A | A2 "G"G4 :|
+w: San-*ta* Lu-*ci-*a, San-ta Lu-ci-a. San-ta Lu-ci-a.
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 3
+T: Santa Lucia [A]
+O: Italy
+Z: John Chambers <jc:trillian.mit.edu>
+R: waltz
+L: 1/8
+M: 3/4
+K: A
+[| "A"E2 E3 A | "E7"AG G4 | "D"D2 D3 F | "A"F2 {E}E4 \
+| "F#7"C2 F2 E2 | "Bm"E_ED4 | "E7"D2 C2 B,2 | "A"F2 E4 |]
+|: "A"c2 B2 A2 | "Bm"GF B4 | "D"B2 A2 F2 | "A"^DE A4 \
+| "A"(cA) (AE) (EC) | "Bm"(DB) B4 |1 "E7"B2 F3 G | B2 "A"A4 :|2 "E7"B2 c3 B | B2 "A"A4 :|

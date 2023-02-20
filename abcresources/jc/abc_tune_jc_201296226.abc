@@ -1,0 +1,26 @@
+X: 1
+T: Kensington Court
+P: Longways for as many as will
+%R: march, reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.161 "P 3"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat added to satisfy "first Strain twice" instruction.
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2a2 a2g2 | f3e d2e2 | f2A2 A2^c2 | d4 d2e2 |\
+f3g (e3d/e/) | f2c2 c2d2 | B3A G3F | F4 F4 :|
+d2a2 a2g2 | f4 f4 | f2b2 b2(ag) | a4 a4 |\
+A2d2- d2dc | =B2g2- g2ag | f3e e3d | d4 d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. go the Figure through the 2. cu. and all four take hands and go half round, then the 2. cu. go
+%% the Figure through the 1. cu. and all four take hands and go half round as before, the two men being
+%% improper. This to the first strain twice. Then right and left with your partners quite round till you come
+%% into your own places again, then 1. cu. lead through the 2. cu. and back again, so cast off.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

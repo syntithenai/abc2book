@@ -1,0 +1,20 @@
+X: 26
+T: Glencoe Marathon
+C: J.H.
+N: Who is "J.H."?
+R: reel
+S: printed copy of unknown origin
+S: Page from Boston Slow Scottish Session collection
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: No begin-repeat symbols were used; I added them at the likely places, but could be wrong.
+M: C|
+L: 1/8
+K: A
+F "A"|\
+"A"EFAB {B}[c2E2]BA | "D"{c}[d2F2]cd "A"feea | "A"EFAB {B}c2cf | "E7"ecBd "A"cAA :|
+|: a "B"|\
+Tfeef edcA | eccB c2ca | Tfeef eccA | edcA B2Bb | Tfeef edcA |
+affe {e}f2fe | fbfe f2b2 | ecBd cAA :: F "C"| EFAB c2BA | dF F/F/F GEEB | ABcd efec |
+Bded cAA :: g "D"| aeed TcAAc | dFFA GEE[1g | aeed cAAc | FAGB TcAA :|
+[2 B | AcBd cedf | ecdB TcAA  :: F "E"| EFAB c2BA | dB B/B/B {c}d2cB | EFAB c2cf | ecBd cAA :|
+|: g "F"| af f/f/f {g}a2cA | Bcac B/B/B Bg |[1 af f/f/f {g}a2cA | Bcac A/A/A A :|[2 afge f2cA | BABc fefa |]

@@ -1,0 +1,21 @@
+X: 432
+T: The Tartan Sash
+C: Bert Murray
+R: jig
+B: Bert Murray's "Bon Accord Collection" 1999 p.43
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Fixed missing dot after last note.
+M: 6/8
+L: 1/8
+K: D
+[|\
+vFAF EFE | D2D DFA | d2d (A2F) | G3 G3 |\
+EGE CEC | A,2A, A,CE | c2c BAG | F3 F3 |
+FAF EFE | D2D DFA | d2d (A2^A) | B3 B3 |\
+B^AB edB | A^GA dcB | cBA GFE | D3- D3 ||
+A, |\
+FFF (F2A,) | FFF (F2A,) | FDF AGF | G3- G3E |\
+GAG EGE | CEC (A,2E) | A,CE A^G=G | F3- F2A, |
+FFF (F2A,) | FFF (F2A,) | DFA dc=c | B3- B2B |\
+B^AB edB | A^GA dcB | cBA GFE | D3- D3 |]

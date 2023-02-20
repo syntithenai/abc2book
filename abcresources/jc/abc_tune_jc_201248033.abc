@@ -1,0 +1,15 @@
+X:26
+T:The Ashford Assembly
+C:Colin Hume, 1980
+L:1/8
+M:6/8
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=105
+%%MIDI chordname dim 0 3 6 9
+K:G
+P:A
+|: "B7"B | "Em"e2B "/"G2B | "B7"AGF "Em"E2F | "G"G2G "Gdim"GFG | "D7"A3- "B7"A2B |
+"Em"e2B "/"g2B | "Am"c2B "/"A2B | "D"c2c "D7"cBc | "Bm"d2B "A"A2G | "D"F2F "D7"FEF | "G"G3 z2 :|
+P:B
+|: "G"G | "D7"F2F "/"FGA | "G"G2D "/"G2B | "D7"A2A "/"ABc | "G"B2G "/"B2d | "Am"c2c "/"cde | "D"d3- "D7"d2d |
+"G"g2d "/"B2d | "D7"cBA "Gdim"G2E | "D"F2F "D7"FEF | "G"G3 z2 :|

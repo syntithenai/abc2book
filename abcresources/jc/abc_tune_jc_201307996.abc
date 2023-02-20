@@ -1,0 +1,17 @@
+X: 1
+T: the Matt/Kat Waltz
+C: Sylvia Miskoe
+N: In honor of their wedding, July 29, 1995
+R: waltz
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+[| "Dm"D3 E F2 | "A7"E2 F2 G2 | "Dm"F2 G2 A2 | "Gm"B4 B2 \
+| "Dm"A3 d A2 | "Gm"B2 G2 F2 | "A7"E3 F GF | "A7"E4 A,2 |
+| "Dm"D3 E F2 | "A7"E2 F2 G2 | "Dm"F2 G2 A2 | "Gm"B4 B2 \
+| "Dm"A2 d2 A | "Gm"B2 G2 E2 | "A7"^C3 A, =B,C | "Dm"D4 "A7"A2 |] [K:D]
+[|"D"d3 A F2 | "D"D2 F2 d2 | "G"c3 B ^Ac | "G"B4  B2 \
+| "E"e3 B ^G2 | "E7"E2 ^G2 e2 | "A"c3 B cd | "A"e4 "A7"e2 |
+| "D"d'3a f2 | "D"d2 f2 d'2 | "G"b3 a gf | "A7"e4 d2 \
+| "A7"c3 dec | "A7"A2 B2 c2 | "D"d2 A2 fe | "D"d6 |]

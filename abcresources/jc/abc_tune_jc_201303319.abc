@@ -1,0 +1,26 @@
+X:1
+T: London is a Fine Town
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 210
+%W: A2
+% voice 1 (1 lines, 16 notes)
+K:G
+M:4/4
+L:1/16
+d2 c2 |B4 G4 G4 G4 |B4 d8 c2 B2 |A4 B4 c6 d2 |e12 f4 |
+%W:
+% voice 1 (1 lines, 17 notes)
+g4 a2 g2 f4 e2 f2 |g4 G4 G4 G4 |G4 A4 B6 c2 |A12 d2 c2 |
+%W: A2
+% voice 1 (1 lines, 14 notes)
+B4 G4 G4 G4 |B4 d8 c2 B2 |A4 B4 c6 d2 |e12 f4 |
+%W:                                                                     Finale
+% voice 1 (1 lines, 17 notes)
+g4 a2 g2 f4 e2 f2 |g4 G4 G4 G4 |G4 A4 B6 c2 |A12 ||d8 |g12 ||

@@ -1,0 +1,20 @@
+X: 173
+T: Kasapsko
+O: Macedonia
+M: 2/4
+L: 1/8
+Q: 1/4=180
+K: Ador
+%%MIDI gchord fz
+%%MIDI program 71
+%%MIDI bassprog 45
+|:"A"A4    |E4     |EDCB,  |A,4  |\
+  "G"G,2B,2|B,A,B,C|D4     |"A"E4|\
+  A4       |E4     |EDCB,  |A,4  |\
+  "G"G,2B,2|B,A,B,D|"A"A,4-|A,4  :|
+|:EDED     |EDED   |EDCB,  |A,4  |\
+  "G"G,2B,2|B,A,B,C|D4     |"A"E4|\
+  EDED     |EDED   |EDCB,  |A,4  |\
+  "A"G,2B,2|B,A,B,D|"A"A,4 |A,4  :|
+|:"G"B,CDz |DzGz   |DCB,C  |D2z2 :|\
+|:"A"DCB,A,|A,2E2  |DCB,A, |A,4  :|

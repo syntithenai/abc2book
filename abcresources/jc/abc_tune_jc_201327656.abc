@@ -1,0 +1,45 @@
+
+X: 1
+T: la F\'ee des Dents
+T: the Tooth Fairy
+C: Andr\'e Brunet
+R: jig
+Z: 2008,2016 John Chambers <jc:trillian.mit.edu>
+F: http://www.youtube.com/watch?v=Rm_FyS7ceSc
+M: 6/8
+L: 1/8
+%%slurgraces 1
+K: G
+|:"G"B2D- DGA | Bdc BAG | "C"{B}c2E- EFG | "D7"FAG FED |\
+| "G"~B3  DGA | Bdc Bgf | "C"egd- dcB | "D7"AGF "G"G3 :|
+|:"C"~e3  edB | ced cBc | "G/B"d2B- BAG | Bdc BAG |\
+| "C"e2c  efg | "D7"afd- dcB | "C"ced cBA | "D7"AGF "G"G3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: the Field in the Forest
+C: Adam Broome
+R: jig
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+|: "F"FAc f2g | aba gfd | cAG FGA |1,3 "Bb"D2B- BAG |2,4 G2F- F3 :|
+|: "F"FAc "C7"G3 | "F"FAc "C7"G3 | "F"FGA "C7"BAG |1,3 "F"A2c- c3 :|2 "F"AF- F3 :|4 "F"F6 |]
+
+%%sep 1 1 500
+
+X: 10
+T: Max Hobart's Jig   [Dm]
+C: Len Bittenson 2017
+S: handout at Roaring Jelly practice 2018-11-13
+M: 6/8
+L: 1/8
+K: Dm
+|:\
+"Dm"DA,D DA,D | DA,F "A"E2E | "Dm"DA,D DFG | "(A7)"AGF "A7"E2^C |\
+"Dm"DA,D DA,D | DA,F "A7"E2E | "Dm"DA,D DFG | "A7"AE^C [1 "Dm"D3 :|[2 "Dm"DFA |]
+|:\
+"Gm"BGB BGB | "F"AFA AFA | "C"GEG GEG | "Dm"FA,D FGA |\
+"Bb"BGB BGB | "F"AFA AFA | "A7"GE^C A,EG | FE^C [1 "Dm"DFA :|[2 "Dm"D3 |]

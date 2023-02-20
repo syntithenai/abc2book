@@ -1,0 +1,30 @@
+X: 8
+T: Minuet
+C: Michael Dabney
+R: minuet
+B: Michael Dabney "Twelve Minuets and Twelve Dances" p.4 #2
+S: http://imslp.org/wiki/12_Minuets_and_12_Dances_(Dabney,_Michael)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Bar 8 has a fermata only in the bass line.
+M: 3/4
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces mostly 4- or 8-bar staffs.
+V: 1
+|:\
+e2 gegb | {g2}Tf2 edcB | c>Bcede | {c}TB2 AGFE |\
+A2 cAce | TG2 BGBe | cBAGFE | TB2 B,4 :|
+|:\
+f2 dfBf | geBG E2 | a2 g2 (3(fga) | (3gfe (3def e2 |\
+Tc2 Acec | TB2 GBeB | (3{d}cBA G2 TF2 | {F2}E6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+|:\
+"Eb"e6 | "Bb"b4 "Gm"g2 | "F7"a2 f2 "Bb"b2 | "Eb"e2 "Bb7"B2 "Eb"E2 |\
+z2 "Ab"A2 A2 | z2 "Eb"G2 G2 | "Fm"A4 "F"=A2 | "Bb"HB2 BcdB :|
+|:\
+z2 "Bb"b2 B2 | "Eb"e6 | z2 z2 "Bb7"B2 | "Eb"e2 "Bb"B2 "Eb"E2 |\
+z2 "Ab"a2 a2 | "Eb"g2 e2 g2 | "Ab"a2 "Bb"b2 B2 | "Eb"E6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

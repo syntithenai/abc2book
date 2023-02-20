@@ -1,0 +1,36 @@
+X:  42
+T: Stoolies' Jig
+C: by Nick Hawes
+C: (harmony by CKaynor)
+M: 6/8
+L: 1/8
+Q: 3/8=120
+K: Dm
+% - - - - - - - - - -
+V: 1 name="Violin1" clef=treble staves=2
+A, | "Dm"DFE FA^G | "Dm"Ad^c d=cB | "Dm"ADE {G}FED | "A7"A3 A,3 | "Dm"DFE FA^G |
+	"Dm"Ad^c d2 f | "E7"edc =BA^G | "A7"A3 "C7" B3 |] "F"c2 f {g}f2 a | "C" gfd c2 B |
+"F" Acf {g}fef | "C" g3 "C#d7" ^g3 | "Dm" agf d2 A | "Gm" BAG F2 G | "Dm" AGF "A7"ED^C |
+"Dm" D3 "C7"=C3 |: "F"F2 A ABA | "F" F2 A AcA | "F" F2 A "Dm"ded | "C7"BcB GEC |
+"F"F2 A ABA | "F" F2 A c2 ^c | "Gm" dcB "A7"AGF |1 "Dm" A3 "C7"G3 :|2 "Dm"A3 "A7"A,3 |]
+% - - - - - - - - - -
+V: 2 name="Violin 2" clef=treble
+^c | dAF AFA | FAF DFD | A,3 D2 A, | ^C3 E3 | A,D^C DFE |
+FAG A3 | GAG =B2 B | A3 G3 |] F2 A A3 | c3 BcB |
+A2 A c2 A | c3 ^c3 | dAF A3 | GAG B3 | FGF EFE |
+D3 =C3 |: C2 F FEF | C2 F FEF | C2 F FEF | GFG EDE |
+C2 F FEF | C2 F A3 | BAB GAG |1 c3 C3 :|2 c3 ^c3 |]
+% - - - - - - - - - -
+%%begintext align
+%% Cammie Kaynor explained in a 2021-7-9 facebook post:
+%% One thing about Fourgone Conclusions is that we sacrificed polish
+%% for spontaneity and experimentation in reel time (pun intended)
+%% so there were many things we tried that didn’t work and we could
+%% count on David commenting, "gosh, that sounded like STOOL!" It
+%% became an expression we often used so Nick Hawes memorialized
+%% it with an original composition that he named "Stoolies Jig"
+%% (to which I wrote a dance of the same name so we played it
+%% pretty often). Here is a rough rendition that I will replace
+%% with a better one when I get a chance. 
+%% (ABC below and dots included as a photo).
+%%endtext

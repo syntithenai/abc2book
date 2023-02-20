@@ -1,0 +1,43 @@
+X: 1
+T: Hay to the Camp
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.111 #165 (221)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.67 "G 4"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: DMDfD has passing notes that are lacking in CCDM1; handled by abc overlays.
+M: 6/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+cde2c2 d2B2G2 | ABc2E2 D4C2 |\
+EFG2E2 G4G2 | cde2c2 d4d2 |\
+cde2c2 d2B2G2 | ABc2E2 D4C2 |\
+EFG2E2 G4G2 | efg2e2 c6 & efgfed x6 |]
+[|\
+efg2e2 g2e2c2 & efgfef x6 | fga2f2 a4a2 |\
+efg2e2 g2e2c2 &efgfef x6 | d2G2d2 d4d2 |\
+efg2e2 g2e2c2 &efgfef x6 | fga2f2 a4a2 |\
+efg2e2 d2B2G2 | ABc2E2 C6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. cast off and lean thro' the 3d Cu. and cast up into the 2d Cu.
+%% Place, and lean thro' the 2d Cu. and cast off into the 2d Cu. Place .| The
+%% 2d Cu. being in the 1st Cu. Place, do the same as before :| All four take
+%% Hands and go quite round, the 1st Man cross over with the 2d Wo. the
+%% other two do the same, then right and left quite round. :| till the 1st
+%% Cu. comes into the 2d Cu. Place :|
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% The 1. cu. cast off and lead through the 3. cu. and cast up into the 2. cu. place, and lead through
+%% the 2. cu. and cast off into the 2. cu. place .| The 2. cu. being in the 1. cu. place do the same as
+%% before :| All four take hands and go quite round, the 1. man cross over with the 2. wo. the other two
+%% do the same, then right and left quite round .| Till the 1. comes into the 2. cu. place :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,26 @@
+X: 20841
+T: FIN CH' HAN DAL VINO
+C: Mozart
+O: Don Giovanni
+Q: "Presto"
+%R: _
+B: "Edinburgh Repository of Music" v.2 p.84
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The c in bar 46 should probably be sharp, but isn't marked.
+M: 2/4
+L: 1/8
+K: C
+|:\
+c'2c'c' | (e'c')c'2 | g2gg | (c'g)g2 |\
+(e{f}e/d/) ef | (ag)gg | g2{ag^fg}a>b | c'2"_Fine."z2 :|\
+c'2d'e' | (d'2b2) | (a2bc') | b2g2 |
+d'2d'd' | ^c'2=c'2 | b2_b2 | a4 |\
+"_P."a2aa | a2a2 | a2{ba^ga}b^c' | d'2a2 |\
+~a2b^c' | d'2a2 | a2b^c' | d'4 |
+"_FP"d'2d'd' | (b>a)g2 | "_FP"d'2d'd' | (b>a)g2 |\
+"_FP"d'2(b>e') | (d'b)z2 | "_FP"d'2(be') | (d'b)z2 |\
+"_FP"d'2be' | d'zd'2- | d'2 (^c'2 | =c'2b2) |
+(abc'd') | bgd'2- | d'2("#"c'2 | =c'2b2) |\
+a(bc'd') | bgd'2- | d'2(^c'2 | =c'2b2) |\
+(abc'd') | g4 | g^gab |]"<D.C."y

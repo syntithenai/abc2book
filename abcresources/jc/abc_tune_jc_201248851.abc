@@ -1,0 +1,213 @@
+X:0801
+T:Tulloch gorm
+P:Tulloch gorm
+C:From Wm. Campbell's Eleventh Book, 1796
+R:Strathspey (8x32)
+B:RSCDS 8-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:GMix
+A|"G"B>G d>G "F"c>F A2|"G"B>G d>G B>c d>g|\
+  "G"B>G d>G "F"c>F A>c|"G"B>G d>G "F"F2 A A|
+  "G"B>G d>G "F"c>F A2|"G"B>G d>G B>c d>g|\
+  "G"B>G d>G "F"c>F A>c|"G"BG dG "Dm"A/B/c "G"B||
+A|"G"G>g d>g "F"f>F A2|"G"G>g d>g B>g d>g|\
+  "G"G>g d>g "F"f>F A2|"G"G>g d>g "D"A/B/c B>A|
+  "G"G>g d>g "F"f>F A2|"C"G>g "G"d>e "F"f>c f>g|\
+  "F"a/g/f/e/ f>d c>F A>a|"G"g>d g>b "C"e>g "G"d|]
+
+X:0802
+T:Peggy's Love
+P:Little Peggy's Love
+C:Wm. Marshall
+R:Strathspey (8x32)
+B:RSCDS 8-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:A
+A|"A"E<A A>B "F#m"c>B c<A|"Bm"F<B B>c "E7"d2 de|\
+  "D"f<a "A"e>c "Bm"B>A "E7"B<c|"A"E>A "E7"G>B "A"A3 A|
+  "A"E<A A>B "F#m"c>B c<A|"Bm"F<B B>c "E7"d2 de|\
+  "D"f<a "A"e>c "Bm"B>A "E7"B<c|"A"E>A "E7"G>B "A"A3||
+e|"A"a>g a<c' "E7"a>g a<c'|"B7"a>b a>c' "E"b3 c'|\
+  "A"a>e e>c "D"f>d' c'>b|"A"a>f e>c "E7"B3 A|
+  "A"E<A A>B "F#m"c>B c<A|"Bm"F<B B>c "E7"d2 de|\
+  "D"f<a "A"e>c "Bm"B>A "E7"B<c|"A"E>A "E7"G>B "A"A3|]
+
+X:0803
+T:Calver Lodge
+P:Country Dance
+C:Nath. Gow's Dances for 1812
+R:Reel (8x24)
+B:RSCDS 8-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:D
+|:A2|"D"d3c edcB|A^GAB ABAF|"D"DBAF DBAF|"A"G2E2E2 A2|
+     "D"d3c edcB|A^GAB ABAF|"G"DBAF "A7"AGEF|"D"D2d2d2:|
+  f2|"A"efgf edce|"D"defg a2 fa|"A"ageg "D"gfdf|"A"edef e3 f|
+     "A"efgf edce|"D"defg a2 fa|"A"ageg "D"gfdf|"A7"edcB A2|]
+
+X:0804
+T:The Lovers' Knot
+P:Link him Dodie
+C:From Gow's First Coll., 1784
+R:Strathspey (8x40) ABABB
+B:RSCDS 8-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:A
+A|"A"Ae e>d c<A c2|"G"B=g g>d B<=G B<d|\
+  "A"A/B/c/d/ e>A c<A c2|"Fm"A<a "E7"g<b "A"a<A c<e|
+  "A"Ae e>d c<A c2|"G"B=g g>d B<=G B<d|\
+  "A"A/B/c/d/ e>A c<A c2|"Fm"A<a "E7"g<b "A"a<A c<e||
+  "A"a/g/f/e/ ca ea c2|"G"B=g g>d B=G B<g|\
+  "A"a/g/f/e/ c<a e<a c<a|"Fm"A<a c<a "A"ec c<e|
+  "A"a/g/f/e/ "D"f>d "A"e>d c2|"G"B=g g>d B<=G B<d|\
+  "A"A/B/c/d/ e>A cA c2|"Fm"A<a "E7"g<b "A"a<A c<e|]
+
+X:0805
+T:The River Cree
+P:Jackson's Bottle of Claret
+C:From Cooke's Selection of Country Dances, 1796
+R:Jig (8x32)
+B:RSCDS 8-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+V:1
+V:2
+K:G
+%%staves (1 2)
+[V:1] |:G|"G"G2G "D"A>GA|"G"B2g gdB|"D"c2A "Em"BGE|"G"G>AG GED|
+[V:2] |:x|x6            |x6        |x6            |x6         |
+%
+[V:1]     "G"G2G "D7"A>GA|B2g gdB|"A"c2A "Em"BGE|"C"G>AG "G"G2:|
+[V:2]        x3      F3  |G2z z2z|   E6         |   E3      D2:|
+%
+[V:1] |:d|"Em"gfg efg|"Bm"fdB B3|"Em"gfg "A"efg|"D"afd d2f|
+[V:2] |:x|    B6     |    B3  B3|    B3     A3 |   x6     |
+%
+[V:1]     "Em"gfe "A"agf|"Em"gf"D/F#"e "G"edB|"Am"cBA "Em"BGE|"C"G>AG "G"G2:|
+[V:2]         d3     c3 |    B2      c    B3 |    E6         |   E3      D2:|
+
+X:0806
+T:The Lass o' Livingston
+P:The Lass o' Livingston
+C:Allan Ramsay's Music to Tea-Table Miscellany, 1726, and earlier
+R:Reel (8x32)
+B:RSCDS 8-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:F
+|:C2|"F"F3G A3f|cAcd cAGF|"C7"A2G2 G2FG|A2G2 G2FD|
+     "F"CDFG A2fd|cAGF GABc|"Bb"d2D2 D2(3CDE|"Dm"F2D2 D2:|
+|:(3cde|"F"f3g fgag|fcdf cAGF|"C7"A2G2 G2FG|A2G2 G2 fg|
+     "F"afga fcdf|cAGF GABc|"Bb"d2D2 D2(3CDE|"Dm"F2D2 D2:|
+
+X:0807
+T:Braes of Atholl
+P:Braes of Atholl
+C:From Walsh's Country Dances, 1731
+R:Strathspey (8x40) ABBCD
+B:RSCDS 8-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:G
+|:d|"G"B2 AG B/c/d e/f/g|"G"B>A GB "D"A/A/A Ad|\
+    "G"B2 A>G B/c/d "Em"eB|"D"AF"D7"DB "G"G/G/G G:|
+|:e/f/|"G"gdBg "G7"dgdB|"C"g/f/e/d/ Bg "D"f2 Ae/f/|\
+    "G"g/f/e/d/ Bg "G7"dgdB|"Am"c/B/A/G/ "D7"FA "G"G/G/G G:|
+|:c|"G"BGBG BG B/c/d|BG B/c/d g2 A2|BGBG BG B/c/d|D2 DB G/G/G G:|
+|:B|"G"Gg g/f/e/d/ "Bm"Bg g/f/e/d/|"Em"Bg zg "D"f2 Ae/f/|\
+    "G"g/f/e/d/ Bg dgdB|"D"c/B/A/G/ "D7"FA "G"G/G/G G:|
+
+X:0808
+T:The Bleu Ribbon
+P:The Bleu Ribbon
+C:From Gow's Repository, Part II, ca. 1800
+R:Reel (8x40) AABBA
+B:RSCDS 8-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:F
+|:cB|"F"A2F2F2 GA|"C"c2G2G2 cB|"F"A2 G>F "Dm"F2 ag|"F"f4 c2 fg|
+     "F"agfd fdcA|"Gm"d2G2 "C7"G2 cB|"F"BAGF "C7"a2ga|"F"f4 f2!fine!:|
+|:c/d/e|"F"fedc "Bb"defg|"F"a2 "C7"g2g2 c/d/e|\
+    |"F"fedc "Bb"de"F"fc|"C7"B2 "Dm"A2 f3 g|
+     "F"agfd fdcA|"Gm"d2G2 "C7"G2 cB|"F"BAGF "C7"a2ga|"F"f4 f2!D.C.!:|
+
+X:0809
+T:Jessie's Hornpipe
+P:The Ton
+C:From Aird's Coll. (IV), 1794
+R:Reel (8x32)
+B:RSCDS 8-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/8
+K:G
+|:B/c/|"G"dg gB/c/|Bd dB/A/|GG "D7"AA|"G"B/A/B/c/ BB/c/|
+       "G"dg gB/c/|Bd dc/B/|GG "D7"AA|"G"G3:|
+|:B/c/|"G"dg "C"ec|"G"dg "C"ec|"G"d>B "A7"AB|"D"A/G/A/B/ "D7"AB/c/|
+       "G"dg "C"ec|"G"dg "C"ec|"G"B/d/B/G/ "D7"A/c/A/F/|"G"G3:|
+
+X:0810
+T:Lassie wi' the Yellow Coatie
+P:Lassie wi' the Yellow Coatie
+C:Rutherford 1756/Bremner 1759
+R:Reel (8x32)
+B:RSCDS 8-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:G
+A|"G"G2 GB d>e gd|"C"e/e/e "G"gd "C"edeg|\
+  "G"g>G GB d>e gd|"C"e/f/g "G"dB "Em"AG EA|
+  "G"G2 GB d>e gd|"C"e/e/e "G"gd "C"edeg|\
+  "G"g>G GB d>e gd|"C"e/f/g "G"dB "Em"AG E||
+a|"Em"g>a bg "Am"ae "G"gd|"G7"Bdde =fged|\
+  "Em"g>a bg "C"ae "G"gd|"C"e/f/g "G"dB "Em"AG E a|
+  "Em"g>a bg "Am"ae "G"gd|"G7"Bdde =fged|\
+  "Em"g>a bg "C"ae "G"gd|"C"e/f/g "G"dB "Em"AG E|]
+
+X:0811
+T:Tibby Fowler o' the Glen
+P:Tibby Fowler o' the Glen
+C:Allan Ramsay's Music to Tea-Table Miscellany, 1726, and earlier
+R:Strathspey (8x32)
+B:RSCDS 8-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:Am
+B|"Am"A/A/A A>B "G"G>A Bd|"Am"eA A>B "G"d/c/B/A/ G>B|\
+  "Am"A/A/A A>B "G"G>A Bd|"Am"eA A>B "Em"GE EB|
+  "Am"A/A/A A>B "G"G>A Bd|"Am"eA A>B "G"d/c/B/A/ G>B|\
+  "Am"A/A/A A>B "G"G>A Bd|"Am"eA A>B "Em"GE E||
+a|"C"ge e>g "G"d>e dB|"C"ge e>g "Am"a>b "Em"g>e|\
+  "G"d>e "(Em)"g>b "C"e>g "E7"e/d/c/B/|"Am"eA A>B "Em"GE E> a|
+  "C"ge e>g "G"d>e dB|"C"ge "Am"e>a "Em"g>b "Am"ae|\
+  "Em"g>b e>g "G"d>g B>d|"Am"eA A>B "Em"GE E|]
+
+X:0812
+T:Off She Goes/Follow Her over the Border
+P:Off She Goes
+C:Dale's Coll. ca. 1800
+R:Jig (8x16)
+B:RSCDS 8-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:D
+A|"D"F2A "G"G2B|"A7"ABc "D"d2z|"D"F2A "G"G2B|"D"AFD "A7"E2z|
+  "D"F2A "G"G2B|"A7"ABc "D"d2e|f2d "G"g2f|"A7"edc "D"d2||
+g|"D"faf d2f|"Em"gbg "A7"c2g|"D"faf d2f|"A7"edc d2g|
+  "D"faf d2f|"A"gbg "A7"c2e|"Bm"d2f "D"a2f|"A7"gec "D"[d2F2]|]

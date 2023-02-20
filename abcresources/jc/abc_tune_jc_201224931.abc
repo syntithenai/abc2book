@@ -1,0 +1,39 @@
+X: 8
+T: the Old Guinea
+%R: waltz
+B: "Le Sylphe, Twenty Four Country Dances with Figures for the Year 1818", Button & Whitaker, p.4 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1818
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 3/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+cd |\
+e2cGce | f2dGBc | d2BGBd | g2eGcd |\
+e2cGce | f2dGBc | d2BGBd | c4 :|
+|: e2 |\
+E2E2^F^G | A2A2(Bc) | B2Bfed | d2c2ag |\
+^f2f2f2 | g2agfe | (dcBcdB) | c4 :|
+|: (de) |\
+.f.e.d.cB2 | (B2c4) | (^cd)d4 | (^d2e4) |\
+.f.e.d.cB2 | B2c4 | (^cd)f2B2 | c4 :|
+dd |\
+d2d2d2 | d2e2^f2 | g2a2b2 | c'4b2 |\
+e'4d'2 | ^c'2=c'2b2 | (ba)(ag)(g^f) | "_D.C."g4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center WALTZ FIGURE    (1st 2d & 3d strains repeated 4th play'd straight thro' & D.C.)
+%%begintext align
+%% The 1st Lady turns 2d Gent a la waltz 1st Gent:
+%% turns 2d Lady a la waltz |: promenade 3 Cu: |:
+%% whole poussette |: swing cor.s a la waltz |.
+%% lead thro' bottom & chain figure 4 round with top Cu: |.
+%%endtext
+%%center COUNTRY DANCE FIGURE        (Tune play'd as mark'd)
+%%begintext align
+%% Set & change sides with 2d Cu: set & back again |:
+%% swing with right hands round 2d Cu: then
+%% with left |: 2d Cu: do same |: down the mid: up again |.
+%% & half poussette with top Cu: |. .
+%%endtext
+%%sep 1 1 450

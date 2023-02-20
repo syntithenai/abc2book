@@ -1,0 +1,34 @@
+X: 1
+T: White-Hall
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.86
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The dance is essentially identical to CCDM1's "Whitehall", but the tunes have some small differences.
+M: 6/4
+L: 1/4
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+C |\
+F>GA B>cd | e>fg a>ba | g3 c3 |\
+B>AG A>GF | D>EF E>DC | F3 A2 |]
+A |\
+B>cd G>gf | e>dc g>ag | e3 d3 |\
+B>AB A>BA | G>AF E>DC | F3 A3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the presence, Lead up forward and back .| That again :| Cast off, 1. man and wo. lead up, 2. cu. in their places,
+%% then cast off 2. cu. into your places, then men take hands and likewise we. and fall back, then the 1. cu. cast off, and 2. cu.
+%% lead up as before, then cross over men and we. into each other's places, then men and likewise we. go back to back, then men
+%% and also we. go right hands a whole turn, and left-hands a turn with your own.  Which is the first part.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. cu. lead down and walk round the 2. cu. into their own places, then cross right over and stand in the 2. cu. places,
+%% the 2. cu. moving up a little, then the 2. cu. go the figure of 8, then both men take their own we. by both hands, the 1.
+%% man put his wo. back, and the 2. man pull his wo. to him, till both men and we. fall into their own places, then men and we.
+%% fall back, then the 1. wo. cross over to the 2. man, then presently the 1. man go behind the 1. wo. and turn the 2. wo.
+%% turning both together, set to your own, then right-hands round, and so to the rest.
+%%endtext
+%%sep 1 8 500

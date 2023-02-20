@@ -1,0 +1,130 @@
+X:1
+T:Peace O'er the World
+T:Castleton
+B:Ian Russell,A Festival of Carols - A first Collection of Derbyshire Carols, Sheffield, 2000
+C: Arr. Ian Russell, http://www.sgpublishing.co.uk/gm/vc/vcabout.html
+Z:Ian Russell
+Q:1/4=120     %Tempo
+V: 1 clef=treble name=Soprano
+%!STAVE 0 'Soprano' @
+%!INSTR '...' 0 0 @
+M:4/4     %Meter
+L:1/8     %
+K:G
+G2 |B4 A4 |G6 D2 |E2 E2 F2 F2 |
+w:Peace o'er the world her o-live branch ex-
+G4 z4 |A4 F2 G2 |
+w:tends, And white-robed
+A2 d2 B2 G2 |F4 E4 |
+w:In-no-cence from heaven de-
+D8 |D4 E2 F2 |G6 F2 |
+w:sends. Swift fly the years and
+E2 E2 F2 G2 |
+w:rise th'ex-pec-ted
+A6 G2 |F2 F2 G2 A2 |B2 d2 G2 F2 |
+w:morn; O, spring to light! O, spring to light! Th'au-
+E2 G2 c2 B2 |
+w:spi-cious Babe, be
+A6 A2 |B2 d2 d4 |z6 c2 |B2 A2 B2 c2 |
+w:born! Swift fly the years and rise th'ex-pec-ted
+(d3 e d2) B2 |c6 B2 |B2 d2 (BA) G2 |A4 F4 |
+w:morn__ O, spring to light! Th'au-spi--cious Babe be
+G6 z2 |]
+w:born!
+V:2 clef=treble name=Alto
+%!STAVE 0 'Alto' @
+%!INSTR '...' 0 0 @
+M:4/4     %Meter
+L:1/8     %
+K:G
+B,2 |D4 C4 |D6 B,2 |C2 C2 C2 C2 |
+w:Peace o'er the world her o-live branch ex-
+B,4 z4 |D4 D2 ^C2 |
+w:tends, And white-robed
+D2 F2 D2 E2 |D4 ^C4 |
+w:In-no-cence from heaven de-
+D8 |A,4 C2 A,2 |B,6 A,2 |
+w:cends. Swift fly the years and
+G,2 G,2 A,2 B,2 |
+w:rise th'ex-pec-ted
+C6 B,2 |A,2 A,2 B,2 D2 |D2 D2 E2 D2 |
+w:morn; O, spring to light! O, spring to light! Th'au-
+E2 D2 D2 D2 |
+w:sp-cious Babe. be
+D6 z2 |z2 D2 D4- |D2 D2 D2 D2 |D2 D2 D2 E2 |
+w:born! Swift fly the years and rise th'ex-pec-ted
+F6 D2 |E6 D2 |D2 D2 B,2 D2 |E4 D4 |
+w:morn O, spring to light! Th'au-spi-cious Babe be
+D6 z2 |]
+w:born!
+V:3 clef=bass name=Tenor
+%!STAVE 0 'Tenor' @
+%!INSTR '...' 0 0 @
+M:4/4     %Meter
+L:1/8     %
+K:G
+G,2 |G,4 F,4 |G,6 G,2 |G,2 G,2 A,2 A,2 |
+w:Peace o'er the world her o-live branch ex-
+G,4 z4 |F,4 A,2 G,2 |
+w:tends, And white-robed
+F,2 A,2 G,2 B,2 |A,4 G,4 |
+w:In-no-cence from heaven de-
+z8 |z8 |z8 |
+z8 |
+z8 |z6 F,2 |G,2 A,2 B,2 A,2 |
+w:O, spring to light! Th'au-
+G,2 G,2 F,2 G,2 |
+w:spi-cous Babe be
+F,6 D,2 |G,8 |G,2 G,2 G,2 F,2 |G,2 A,2 G,2 G,2 |
+w:born! Swifft fly_ the years and rise th'ex-pec-ted
+A,6 A,2 |G,6 A,2 |B,2 A,2 G,2 B,2 |C4 A,4 |
+w:morn, O, spring to light! Th'au-spi-cious Babe be
+B,6 z2 |]
+w:born!
+V:4 clef=bass name=Bass
+%!STAVE 0 'Bass' @
+%!INSTR '...' 0 0 @
+M:4/4     %Meter
+L:1/8     %
+K:G
+G,2 |G,4 D,4 |(G,,2 A,,2 B,,2) G,,2 |C,2 C,2 D,2 D,2 |
+w:Peace o'er the world__ her o-live branch ex-
+G,,4 z4 |D,4 D,2 E,2 |
+w:tends, And white-robed
+F,2 D,2 G,2 E,2 |A,4 G,4 |
+w:In-no-cence from eavn de-
+[D,8F,8] |z8 |G,,4 A,,2 B,,2 |
+w:cends. Swift fly the
+C,6 B,,2 |
+w:years and
+A,,2 A,,2 B,,2 C,2 |D,6 D,2 |G,2 F,2 E,2 D,2 |
+w:rise th'ex-pec-ted-morn; O, spring to light! Th'au-
+C,2 B,,2 A,,2 G,,2 |
+w:spic-ious Babe be
+D,6 z2 |z6 D,2 |G,2 D,2 B,,2 D,2 |G,2 F,2 G,2 E,2 |
+w:born! Swift fly the years and rise th'ex-pec-ted
+(D,2 E,2 F,2 G,2) |(C,2 D,2 E,2) F,2 |G,2 F,2 E,2 B,,2 |C,4 D,4 |
+w:morn;__ O, spring__ to light! Th'au-spi-cious Babe be
+G,,6 z2 |]
+w:born!
+%End of file
+W:Peace o'er the world, her olive branch extends,
+W:And white-robed innocence from heaven decends,
+W:Swift fly the years and rise th' expected morn;
+W:O, spring to light! O spring to light! Th' auspicious Babe be born!
+W:Swift fly the years, and rise the expected morn;
+W:O, spring to light! Th' auspicious Babe be born!
+W:
+W:Hark! a glad voice, the lonely desert cheers,
+W:Prepare the way, a God, a God appears;
+W:A God, a God, the vocal hills reply;
+W:The rocks proclaim, the rocks proclaim th' approaching Deity.
+W:A God, a God, the vocal hills reply;
+W:The rocks proclaim th' approaching Deity.
+W:
+W:The Saviour comes, by ancient seers foretold;
+W:Hear Him, ye deaf, and all ye blind behold!
+W:He, from thick films, shall purge the visual ray
+W:And on the sightless eyeball pour the day.
+W:He, from thick films, shall purge the visual ray
+W:And on the sightless eyeball pour the day.

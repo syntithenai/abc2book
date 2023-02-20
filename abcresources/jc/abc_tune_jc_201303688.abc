@@ -1,0 +1,38 @@
+X: 1
+T: Lord Byron's Maggot
+T: My Lord Byron's Maggot
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.78 #117 (155)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.245 "Y 3"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+AFA AFA | AFA A2d | dAd dAd | dAd d2d |\
+fga efg | fga efg | fga a2^g | a3- a3 |]\
+a |\
+fdd gee | fdd gee |
+fdd g>a (g/f/) | e3- e2f/g/ |\
+a2z g2z | f2z e2z | f2z g2z | f2z e2a |\
+f/g/ad eAa | f/g/ad eAa | f>ed ee2 | d3- d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man beckons the 2d Wo. to him, and she beckons
+%% him back again and turn .| The other do the same :| The
+%% two Men lead thro' the We. and clap Hands all four and
+%% cast off.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man beckons the 2. wo. to him, and she beckons him back again and turn .| The other do the
+%% same :| The two men lead through the women, and clap hands all four and cast off.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

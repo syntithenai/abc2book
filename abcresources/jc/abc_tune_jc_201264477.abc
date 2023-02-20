@@ -1,0 +1,26 @@
+X:1
+T: Corelli's Maggot
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 216
+%W:
+% voice 1 (1 lines, 34 notes)
+K:D
+M:4/4
+L:1/16
+A4 |d4 A4 d4 A4 |e12 A4 |f4 d2 e2 f4 e2 d2 |e12 e4 |f4 d2 e2 f4 e2 d2 |e4 f2 e2 f2 e2 d2 c2 |d4 a4 B4 ^g4 |a12 A4 |
+%W:
+% voice 1 (1 lines, 33 notes)
+d4 A4 d4 A4 |e12 A4 |f4 d2 e2 f4 e2 d2 |e12 e4 |f4 d2 e2 f4 e2 d2 |e4 f2 e2 f2 e2 d2 c2 |d4 a4 B4 ^g4 |a12 A4 |
+%W:
+% voice 1 (1 lines, 39 notes)
+d4 d2 e2 f2 e2 d2 c2 |B4 G4 G4 B4 |e4 e2 f2 g2 f2 e2 d2 |c4 A4 A4 e4 |a4 d4 g4 f2 e2 |f4 A4 d4 F4 |G2 f2 e2 d2 c6 d2 |d12 A4 |
+%W:
+% voice 1 (1 lines, 38 notes)
+d4 d2 e2 f2 e2 d2 c2 |B4 G4 G4 B4 |e4 e2 f2 g2 f2 e2 d2 |c4 A4 A4 e4 |a4 d4 g4 f2 e2 |f4 A4 d4 F4 |G2 f2 e2 d2 c6 d2 |d12 ||

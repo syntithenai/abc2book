@@ -1,0 +1,18 @@
+%%staffwidth 300
+%%topmargin 0
+%%topspace 0.5cm
+%%composerspace 0
+%%musicspace 0
+%%staffsep 0
+%%indent 40
+X: 1
+T: TEST: Voices in two keys
+K: C
+V:1 name="Bb clarinet"
+K: G
+| GABc defg |
+w: G A B c d e f g
+V:2 name="Violin"
+K: F
+| FGAB cdef|
+w: F G A B c d e f

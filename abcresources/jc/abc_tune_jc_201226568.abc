@@ -1,0 +1,34 @@
+X: 10331
+T: the LADY OF THE DESART
+O: Irish air.
+Q: "Slow."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.33 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 3rd and 4th strains have final repeat but no initial repeat; fixed.
+M: 3/4
+L: 1/16
+K:  G
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+def2 |\
+g4 d4 g3a | {g}f4 e2d2e2f2 | g4 g2b2a2g2 | {g}f8 (e2d2) |\
+e4 e2g2f2e2 | d8 e/f/g3 | {g}f2e2d2c2B2A2 | G8 :|\
+|: GAB2 |\
+d4 d4 edBd | {d}e4 dBG2 G4 |
+g4 g4 bag2 | {g}f8 e2d2 |\
+{d}e4 e4 edB2 | {B}d8 B3d | {d}e4 d2B2 A3G | G8 :|\
+|: GAB2 |\
+d4 d4 edBc | Bde2 edBG G4 | g4 g4 bag2 | f4 f4 e2d2 |
+e4 e4 edB2 | d4 d4 B2d2 | B/d/e3 {e}d2B2 A3G | G12 :|\
+"^Quick."|:\
+Tg3dg2b2a3g | {g}Tf2e2d2e2f2d2 | Tg2d2g2b2a2g2 | Tf2e2f2g2f2g2 |\
+Te2d2e2f2g2e2 | Td2B2A2B2d2e2 |
+Tg2e2d2B2A3G | G12 :|\
+|:\
+{e}d2c2B2c2d2e2 | Td2c2B2c2d2G2 | Tg2d2g2b2a2g2 | Tf2e2f2g2f2g2 |\
+Te2d2e2f2g2f2 | Td2B2A2B2d2e2 | Tg2e2d2B2A3G | G12 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

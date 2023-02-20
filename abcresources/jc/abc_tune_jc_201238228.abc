@@ -1,0 +1,20 @@
+X: 30411
+T: MONTEZUMA HORNPIPE
+C:
+%R: hornpipe, polka, reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.41 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Initial rest added to fix the rhythm.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+z2 |\
+D3F ABAF | A2d2 d3A | Bcde f2ed | e2E2 EGFE |\
+D3F ABAF | A3d d3A | Bcde f2ed | d4 d2 :|
+|: e2 |\
+fedc BcdB | A2d2 d3F | GFGA BAGF | E2e2 e3f |\
+gfed dcBA | BcdB BAGF | G2B2 AGFE | D2d2d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

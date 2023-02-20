@@ -1,0 +1,16 @@
+X: 51
+T: 51. QUADRILLE
+B: Sam Bayard, "Hill Country Tunes" 1944 #51
+S: Played by Robert Crow, Claysville, PA, Spe 13, 1943.  Learned in that region.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: G
+((3DEF) |\
+G2G2 BcdA | [c2E2]cc egfe | G2G2 BdcB | AGFE DFA2 |
+GFGA BcdA | c2"a."cc egfe | defg agfa | g2 ((3agf) g2 || fg |
+afdf afdf | "b."bfdf bfdf | afdf afdf | agfe d2"c."d2 |
+ed^cd egfe | dcBc d2ef | gafe "d."dcBA | "e."G2G2 G2 |]
+P: Var:
+"a."cd || "b."bfff bfff || "c."dd || "d."dBBA || "e."G2GG G2 |] y8 y8 y8 y8

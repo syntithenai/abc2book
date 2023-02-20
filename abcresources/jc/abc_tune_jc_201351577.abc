@@ -1,0 +1,25 @@
+X:1
+T:Wha Saw the 42nd
+M:C
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+{g}e2[ | \
+{g}A2{GdGe}A3/2B/2{gcd}cB{gcd}ce | \
+{g}A2{GdGe}A3/2B/2{gcd}ce{g}B2 |
+{g}A2{GdGe}AB/2{gcd}cB{gcd}ce | \
+{g}fa{ef}ea{cd}ca{Bd}B2 | \
+{g}A2{GdGe}A3/2B/2{gcd}cB{gcd}ce |
+{g}A2{GdGe}A3/2B/2{gcd}ce{g}B2 | \
+{g}A2{GdGe}AB/2{gcd}cB{gcd}ce | \
+{g}fa{ef}e3/2d/2{gcd}cA{GAG}A2|]
+{gcd}ce{A}ef3/4g/4{ag}ae{gfg}fe | \
+{gcd}ce{A}ef3/4g/4{ag}ac{gBd}B2 | \
+{gcd}ce{A}ef3/4g/4{ag}ae{gfg}fe |
+{g}fa{ef}ea{cd}ca{Bd}B2 | \
+{gcd}ce{A}ef3/4g/4{ag}ae{gfg}fe | \
+{gcd}ce{A}ef3/4g/4{ag}ac{gBd}B2 |
+{gcd}ce{A}ef3/4g/4{ag}ae{gfg}fe | \
+{g}fa{ef}e3/2d/2{gcd}cA{GAG}A2|]

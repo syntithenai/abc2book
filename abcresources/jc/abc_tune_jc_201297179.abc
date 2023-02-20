@@ -1,0 +1,16 @@
+X: 1432
+T: Kiss Me Kate   #2
+R: reel
+%S: s:2 b:16(8+8)
+B: O'Neill's 1850 #1432
+O: F.O'Neill
+Z: Bob Safranek, rjs@gsp.org
+Z: Compacted via repeats and multiple endings [JC]
+M: C|
+L: 1/8
+K: G
+"^A"[|] D !segno!|\ 
+   G2(Bd) gdBG | D2(GB) AEEF | G2(Bd) gdBd | ecBc ADEF \
+|| G2(Bd) gdBG | D2(GB) AEEF | G2(Bd) gdBd | ecAc (BG) HG |]
+"^B"[| g | fgag fddg | fgag bgeg | fgag fddg | fdef g2 \
+"^C"|| (dg) | ((3gab) af g2bg | fgag fddg | fded fded | fdef ged!segno!B |]

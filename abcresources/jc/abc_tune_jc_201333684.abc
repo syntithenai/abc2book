@@ -1,0 +1,11 @@
+X:237
+T:Sally's Jig
+R:Jig
+M:6/8
+%%printtempo 0
+Q:180
+K:Gm
+g|\
+"Gm"{/e}d2G ((4GABc)| "Gm"dcd g3|"F" {e}fef ((4cdef)| "Dm" afd "F" cAF| "Gm"{e}d2G ((4GABc)| "G"dcd g3|
+"F"fef cfa |g3 g2::f|"Gm"dBG GBd| "Gm"gfe d2e| "F"{e}fef cef| "Dm"afd "F"cAF|
+[1 "Gm"dBG GBd| gfe d2e| "F"fef cfa| "Gm"g3 g2 :|2 "Gm"d2G ((4GABc)| dcd g3| "F"fef cfa| "Gm" g3g2|]

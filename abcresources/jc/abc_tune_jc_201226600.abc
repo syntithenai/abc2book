@@ -1,0 +1,25 @@
+X: 10354
+T: the MARCHIONESS OF DOUGLAS'S FAVOURITE
+C: Nath. Gow.
+%R: jig
+N: This is version 1, for ABC software that doesn't understand trailing grace notes.
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.35 #4
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Added end-repeat symbol to end of 1st strain. The book has only the one begin-repeat at the initial segno.
+M: 6/8
+L: 1/8
+K: C
+% %slurgraces yes
+% %graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c/d/ !segno!|:\
+ecA G2G | (G3 E2)c | GEc GEc | ({cd}e3 d2)f |\
+ecA G2G | (G3 E2)a | gec BAB | c3- "^Fin."c2 H:|\
+f |\
+e2g gag | gag g2f | e2f gaf | (e3 d2)f |
+e2g gag | c'2g g2f | edc B2A/B/ | c3- c2 |] [K:Cm]\ 
+"Minore"c/d/ |\
+edc G2G | B2B d<fz | edc G2G | c2c e<gz |\
+e>fg g<bz | d>ef f<az | gec G2G | c2c cgf !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

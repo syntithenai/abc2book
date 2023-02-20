@@ -1,0 +1,20 @@
+X: 3252
+T: the Bride is a Bonny thing.   a Jig.
+%R: jig
+B: Niel Gow & Sons "Complete Repository" v.3 p.25 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+.e.A.A ecc | fBB Baf | eAA ecc | eAA ecc | fdd ecc fBB Baf | eAA ecc | eAA Aaf :|
+.e2.e (f/g/a).f | =g2B Bcd | .e2.e (f/g/a).f | ece ae=g | fdf ece | f2(B Bc)d | e2e (f/g/a).f | e2A A2c/d/ ||
+.e2.e (f/g/a).f | =g2B Bcd | .e2.e (f/g/a).f | ece ae=g | fdf ece | f2B Bcd | e2e (f/g/a).f | e2A Aaf |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+[a3A3] [a3A3] | b3 b3 | a3 a3 | a3 a3 | d'3 c'3 | b3 b3 | a3 a3 | a3 a3 :|
+a3 a3 | b3 b3 | a3 a3 | a3 c'3 | d'3 c'3 | b3 b3 | a3 a3 | a3 a2z ||
+a3 a3 | b3 b3 | a3 a3 | a3 c'3 | d'3 c'3 | b3 b3 | a3 a3 | a3 a3 |]

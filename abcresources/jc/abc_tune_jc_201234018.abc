@@ -1,0 +1,25 @@
+X: 2021
+T: Johnny in the Nether Mains
+%R: march, reel
+N: This is version 1, for ABC software that doesn't implement crescendo symbols.
+B: Niel Gow & Sons "Complete Repository" v.2 p.1 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "SLOW"
+K: F
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+C2 |\
+F4 ~F2A>c | (dc)(Ac) d2f2 | c2A2 {B}A2GF | (A2G2) F2D2 |\
+F4 ~F2Ac  | (dc)(Ac) d2e2 | Tf3g (fg)(ab) | a2Tg2 f3 :: c |
+Tf3g fedc | d2c2 {B}A4 | Tf3g (af)(ga) | ~d4 c2de |\
+(fd)(gf) (ec)(fe) | (dc)(Ac) (de)(fg) | Ha3A (BA).G.F | A2TG2 [F3C3A,3] :|
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z2 |\
+F2f2 F2f2 | F2f2 B2d2 | A2F2 B2=B2 | c2^c2 d2_B2 |\
+A2F2 f2F2 | B2f2 b2g2 | a2g2 f2b2 | c'2C2 f3 :: z |
+F2f2 F4 | (Bc)(de) f2F2 | a2f'2 a2f'2 | b2f'2 a2bc' | d'2=b2 c'2a2 | _b2f2 bc'd'e' | f'3^f gab=b | c'2c2 f3 |]

@@ -1,0 +1,22 @@
+X: 10412
+T: MARCH FROM "GUILLAUME TELL"
+C: Rossini.
+Q: "Lively."
+%R: march
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.41 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The fermata is over an odd repeat symbol, with 2 dots before the bars, 4 dots after, and no repeat symbol at the end.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+AA |\
+!p!A2AA A2AA | .d2.e2.f2 AA | A2AA d2f2 | e2c2A2 AA |\
+A2AA A2AA | d2e2f2 d>f | !f!a3a agfe | d2f2d2 H:: ff |\
+f2ff f2ff | f2b2f2b2 | f2b2f2e2 | decd B2ff |
+f2ff f2ff | f2b2f2b2 | f2b2a2^g2 | [a2a4]^g2a2z2 |\
+"^cres."e2"^>"e4f2 | g2"^>"e4g2 | f2"^>"d4f2 | e4z2f2 |\
+e2"^>"e4f2 | g2"^>"e4g2 | f2"^>"d4f2 | He4"^D.C."z4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

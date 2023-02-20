@@ -1,0 +1,23 @@
+X: 10764
+T: the NATIONAL, or RUSSIAN WALTZ
+Q: "Moderato."
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.76 #4 (and p.77 #1)
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(3(aba) g2e2 | f4 d2 | ef g2b2 | a4 f2 |\
+(3(aba) g2e2 | f4 d2 | (3(cec) A2c2 | d4 d2 ::\
+(3(cec) A2c2 | d4 f2 | ef g2b2 | a4 d2 |
+(3(cec) A2c2 | d4 d2 | (3(cec) A2c2 | d4 "^Fin."d2 H::\
+[K:=f=c][K:Dm] "^minore."\
+(3(aba) gfed | (3(^ced) cA=Bc | d^cdef^g | a4 b2 |\
+(3(aba) gfed | (3(^ced) cbag |
+fgaA=B^c | d4 d2 ::\
+(3(^cec) A2g2 | f2d2 (3(fed) | (3(^cec) Agec | d^cdefd |\
+(3(^cec) A2g2 | (3(fgf) d2d2 | (3(^cec) AA=B^c | "^D.C."d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

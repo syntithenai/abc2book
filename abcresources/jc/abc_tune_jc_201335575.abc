@@ -1,0 +1,25 @@
+X:1
+T: September 1st
+C: J-33
+C: Aram Hollman  1984
+M: 6/8
+Z:
+R: jig
+% %staffwidth 12.5cm
+K: D
+"D"D2D FED| A2D FED| "G"dcB "D"ABG| "D*"FGA "A"ED[CE]|
+"D"D2D FED| A2D FED| "G"dcB "D"ABG|1 "A"FGE "D"D2A,:|2 "A"FGE "D"DFG|] \K: A\
+|:\
+ "A"A2A ecA| ecA gfe| "G"dBA GAB| dBA GFG|
+ "A"A2A ecA| ecA gfe| "G"dBA "D"GFD|1 "Em"EFG "A"A2A :|2"Em"EFG "A"AFE|]
+%
+%%begintext ragged
+%% Written on September 1st, 1984, a beautiful sunny day.  Could have called it
+%% "Farewell to Brookline", since I was moving out then.  Wanted to write an Irish
+%% tune which switched keys between the first and second parts.  I got the key
+%% change (1st part in D, 2nd part in A), but the tune turned out as a New England
+%% contra!  Plays well on a mandolin, excellent whistle tune, works on backup guitar
+%% or flatpicking melody with bass string dropped to D. Harmony second part.
+%%
+%% 9/1/98
+%%endtext

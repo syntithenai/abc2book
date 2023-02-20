@@ -1,0 +1,33 @@
+X: 21191
+T: Cotillion (From the Opera of La Somnambula) (tune 4)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.119 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Version 1 for ABC software that doesn't understand the !^dim...! annotations.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+dc |\
+B2c2 d4 | d2b2 a2g2 | g2f2 a2g2 | g2f2 e2d2 |\
+g2 B4 d2 | A2 c4 e2 | e2 "^>"d4 F2 | G4 z2 H|]
+|: d2 |\
+b4 agfe | d4 cBAG | F2A2 d2c2 | B2cd (efga) |\
+b4 agfe | d4 cBAG | F2A2 c2e2 | dcBA "^D.C."G2 :|
+e2 |\
+eeee e2g2 | e2G2 c2G2 | eeee e2g2 | f2G2 e2G2 |\
+eeee e2g2 | e2G2 c2G2 | dddd d2g2 | c4 "^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across and back,
+%% all balance to partners,
+%% alamand corners,
+%% alamand partners,
+%% balance to corners,
+%% turn partners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

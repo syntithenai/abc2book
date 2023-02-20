@@ -1,0 +1,63 @@
+X: 1
+T:Inverness Gathering
+M:C|
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+|: {g}e3/4d/4|
+{gcd}c{e}B3/4{d}c/4{g}A3/4B/4{g}c/4{d}A3/4|
+{ag}ae{gef}e{gf}g|  !
+{Bd}B{g}A3/4{d}B/4{g}G3/4A/4{g}B/4{d}G3/4|
+{gf}gd{gdc}d{g}e3/4d/4|
+{gcd}c{e}B3/4{d}c/4{g}A3/4B/4{g}c/4{d}A3/4|  !
+{ag}ae{gef}e{gf}g|
+{Bd}B{g}A/4{d}G3/4{gde}d3/4B/4{gef}e3/4d/4|
+{gcd}c{e}A{GAG}A:| |:  !
+{gf}g|
+a3/4e/4{g}c/4e3/4a3/4e/4{g}c/4e3/4|
+{ag}ae{gef}ef|  !
+{gf}g3/4d/4{g}B/4d3/4{gf}g3/4d/4{g}B/4d3/4|
+{gf}gd{gdc}d{g}f/4g3/4|
+a3/4e/4{g}c/4e3/4a3/4e/4{g}c/4e3/4|  !
+{ag}ae{gef}e{gf}g|
+{Bd}B{g}A/4{d}G3/4{gde}d3/4B/4{gef}e3/4d/4|
+{gcd}c{e}A{GAG}A:| |:  !
+{gef}e|
+{g}A{GdGe}A{gcd}c{g}B/4{d}A3/4|
+{ag}ae{gef}e{gf}g|  !
+G{d}G/4{e}G3/4{gBd}B{g}A/4{d}G3/4|
+{gf}gd{gdc}d3/2{gef}e/2|
+{g}A{GdGe}A{gcd}c{g}B/4{d}A3/4|  !
+{ag}ae{gef}e{gf}g|
+{Bd}B{g}A/4{d}G3/4{gde}d3/4B/4{gef}e3/4d/4|
+{gcd}c{e}A{GAG}A:| |:  !
+e|
+{AGAG}A{ag}a{AGAG}A{ag}a|
+{g}ae{gef}e3/2f/2|
+{gf}g3/4a/4g/4e3/4{gf}g3/4a/4g/4e3/4|  !
+{gdc}d3/4c/4{g}B3/4A/4{g}G3/4A/4{g}B/4{d}G3/4|
+{AGAG}A{ag}a{AGAG}A{ag}a|
+{ag}ae{gef}e{gf}g|  !
+{Bd}B{g}A/4{d}G3/4{gde}d3/4B/4{gef}e3/4d/4|
+{gcd}c{e}A{GAG}A:| |:
+{g}e/2d/2|  !
+{g}c/4{d}A3/4{gcd}c3/4B/4{g}A3/4B/4{g}c/4{d}A3/4|
+{ag}ae{gef}e{gf}g|
+B/4{d}G3/4{g}B3/4A/4{g}G3/4A/4{g}B/4{d}G3/4|  !
+{gf}gd{gdc}d{g}e3/4d/4|
+{g}c/4{d}A3/4{gcd}c3/4B/4{g}A3/4B/4{g}c/4{d}A3/4|
+{ag}ae{gef}e{gf}g|  !
+{Bd}B{g}A/4{d}G3/4{gde}d3/4B/4{gef}e3/4d/4|
+{gcd}c{e}A{GAG}A:| |:
+{gef}e|  !
+{AGAG}A{ag}a((3g/2f/2e/2){ag}a|
+{AGAG}A{ag}a{ef}e{g}d3/4c/4|
+{g}G/4{d}G3/4{gf}g((3f/2e/2d/2){gf}g|  !
+G/4{d}G3/4g3/4e/4{Gdc}d{g}B/4{d}G3/4|
+{AGAG}A{ag}a((3g/2f/2e/2){ag}a|
+{AGAG}Aa3/4e/4{gf}ge/4a3/4|  !
+{Bd}B{g}A/4{d}G3/4{gde}d3/4B/4{gef}e3/4d/4|
+{gcd}c{e}A{GAG}A:|
+

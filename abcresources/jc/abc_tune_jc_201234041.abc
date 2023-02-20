@@ -1,0 +1,74 @@
+X: 20221
+T: HUNTSMAN'S CHORUS
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" 1843 p.22 #1 (and p.23 #1)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Initial rests added to strains 2 & 3 to fix the rhythms of repeats.
+N: The internal repeat of bar 44 was missing from the bass voice; fixed.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+A2 |\
+d4 defg | a4 .f2.f2 | .e2.a2.e2.a2 | fgfe d2A2 |\
+d4 defg | a4 .f2.f2 | e2de f2e2 | d6 :|
+|: z2 |\
+f4 f2f2 | d4 d2d2 | g4 g2g2 | e4 e2e2 |\
+f4 f2f2 | d4 d2d2 | g4 g2f2 | He4 z4 |\
+f4 f2f2 | g4 f2f2 | e4 e2de | f3ed2e2 |\
+f4 f2f2 | g4 f2f2 | e2de f2e2 | d4 z2 :|
+%p.23 #1
+|: z2 |\
+A2AA A2AA | A2AA A2AA | d4 A2f2 | d4 A2f2 |\
+age2 age2 | age2 age2 | d4 A2f2 | d4 A2f2 |
+age2 age2 | age2 age2 | f2df a4 | f2df Ha4 |\
+f2dd d2dd | d2f2d2 :|\
+|: AA |\
+A2FF F2dd | d2AA A2d2 | d2AA edcB | A4 z2AA |
+A2FF F2dd |:d2AA A2Bc:| dcdf ecAc | dcdf ecAc |\
+d2dd d2dd | d2f2d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+F4 FGde | f4 d2d2 | c2e2c2e2 | dedc A2F2 |\
+F4 FGde | f4 d2d2 | A2FG A2A2 | F6 :|
+|: z2 |\
+d4 d2d2 | B4 B2B2 | e4 e2e2 | c4 c2c2 |\
+d4 d2d2 | B4 B2B2 | e4 e2d2 | Hc4 z4 |\
+d4 d2d2 | e4 d2d2 | c4 c2Bc | d3cB2c2 |\
+d4 d2d2 | e4 d2d2 | c2Bc d2G2 | F4 z2 :|
+%p.23 #1
+|: z2 |\
+z8 | z8 | A4 F2A2 | F4 A2d2 |\
+fec2 fec2 | fec2 fec2 | A4 F2d2 | A4 F2d2 |\
+fec2 fec2 | fec2 fec2 | d2Ad f4 | d2Ad Hf4 |\
+d2[AF]F F2FF | F2A2F2 :|
+|: z2 |\
+F2DD D2AA | A2FF F2A2 | A2FF cBAG | F4 z2FF |\
+F2DD D2AA |:A2FF F2GA:| FEFA GEFA | FEFA GAFA |\
+F2FF F2FF F2A2F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+d4 d4 | d4 d4 | A4 A4 | d4 d4 |\
+d4 d4 | d4 d4 | A4 A4 | d6 :|
+|: z2 |\
+B4 B4 | G4 G4 | e4 e4 | A4 A4 |\
+d4 d4 | B4 B4 | e4 e4 | HA4 z4 |\
+d4 d4 | e4 e4 | A4 A4 | d4 d4 |\
+d4 d4 | e4 d4 | A4 A4 | d4 z2 :|
+%p.23 #1
+|: z2 |\
+z8 | z8 | d4 z4 | d4 z4 |\
+A4 A4 | A4 A4 | d4 z4 | d4 z4 |\
+A4 A4 | A4 A4 | d4 d4 | d4 Hd4 |\
+d2dd d2dd | d2a2d2 :|
+|: z2 |\
+d4 d4 | d4 d4 | d4 A4 | d4 z4 |\
+d4 d4 |:d4 d4:| d4 A4 | d4 A4 |\
+d2dd d2dd | d2a2d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %sep 1 1 300

@@ -1,0 +1,34 @@
+X: 157
+T: Raising the dead
+T: Longways for &d.
+%R: slip-jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.79
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Guessing that "the Bass play'd twice" means to repeat the unusual first strain, which fits the dance.
+N: The rhythms don't quite match between the strains; not fixed.
+M: 9/4
+L: 1/4
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+F3 F3 C3 | F3 F3 G3 |\
+F3 F3 B,3 | C3 C3 F2 :|\
+c |\
+A>Bc (d<c)f e2c | A>Bc (d<c)f g2c |
+A>Bc (d<c)f d2g | bag g2f f2 |]\
+e |\
+dcB AGF GAB | AGF DEF G2B |\
+ABc cd_e def | edc fge f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First all four hands half round and turn single,
+%% then quite round and turn single, to the
+%% Bass play'd twice. the 1st Cu. lead between
+%% the 3d Cu. and up again, and cast of, then sett
+%% and cast up, and cross over below the 3d Cu.
+%% and lead up the Middle, then cast off and
+%% turn your partner.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

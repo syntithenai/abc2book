@@ -1,0 +1,23 @@
+X: 1
+T: la valse des Chevaux de Bois   [Am]
+C: Daniel Denecheau
+%date \251 2005-11
+R: waltz
+S: handout at NEFFA 2019 p.9 #1
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+"^A"|:\
+"Am"e4 c2 | A6 | "Dm"a4 f2 | d4 d2 |\
+"E"e2 f2 e2 | d2 c2 B2 | d6 | "Am"c6 |
+"Am"e4 c2 | A6 | "Dm"a4 f2 | d4 d2 |\
+"E"e2 f2 e2 | d2 B2 c2 |1 "Am"A6- | A6 :|2 "Am"A6- | A4 Ac |
+"^B"|:\
+"Am"e2 ef ec | Ae cA ce | "Dm"f2 fa df | B6 |\
+"E"e2 f2 e2 |1 d2 c2 B2 | "E7"d6 | "Am"c6 :|2 d2 B2 c2 | "Am"A6- | A6 |
+"^C"|:\
+"Dm"D2 F2 A2 | B2 A2 F2 | "Am"C2 E3 A | B2 A2 F2 |\
+"E"E6- | E6 | "Am"F2 E3 D | FE DF ED |
+"Dm"D2 FD AD | B2 A2 F2 | "Am"C2 EC AC | B2 A2 F2 |\
+"E"E6- | E2 e2 d2 | B6 | "Am"A6 :|

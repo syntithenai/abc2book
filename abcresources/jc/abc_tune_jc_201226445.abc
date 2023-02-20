@@ -1,0 +1,28 @@
+X: 10281
+T: QUICK STEP IN TEKELI
+C: James Hook (c.1800)
+%R: quickstep, march
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.28,29 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: On repeats, the initial pickup is often played fast, as an ornament.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+cde |\
+f2f fef | d2f c2c | cde fga | b2g e2c |\
+f2f fef | d2f c2c | cde fga bge f3 :|
+|:\
+f2g a3 | aba agf | agf agf | g2f g2a |\
+f2g a3 | aba g2f | g2f g2a | f3 f3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+F2G |\
+A2A AGA | B2B A3 | c2c c2A | G2A BAG |\
+A2A AGA | B2B A3 | ABc d2B | ABG A3 :|
+|:\
+A2B c3 | cdc B2A | B2A B2A | G2A B2G |\
+A2B c3 | cdc B2A | B2A B2c | A3 A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

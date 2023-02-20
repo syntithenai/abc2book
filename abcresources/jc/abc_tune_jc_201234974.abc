@@ -1,0 +1,22 @@
+X: 2092
+T: Mrs BAIRD OF NEWBYTH
+C:
+Q: "Strathspey."
+R: Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.2 p.12 #0092
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Changed length of final C in 2nd strain's 1st ending to 2.
+M: C
+L: 1/16
+%%slurgraces yes
+%%graceslurs yes
+K: C
+uF2 |\
+(EFG2) (G3A) vc3vdue3ud | vc3vAuG3uE vAD3D3uF |\
+(EFG2) (G3A) vc3vdue3ud | vc3vAuG3uE GC3 C2 ::\
+uf2 |\
+(efg2) uc3ug ec3 g3ue |
+vf3vg (ag)fe fd3d3ug |\
+[1 (efg2) uc3ug ec3 g3ue | vc3vAuG3uE GC3 C2 :|\
+[2 e3g e3gd3e c3de3d | c3AG3E GC3 C2 |]

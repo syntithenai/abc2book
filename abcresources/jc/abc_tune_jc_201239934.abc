@@ -1,0 +1,19 @@
+X:1
+T: the Summer Assembly (1st tune)
+T: the Oddfellows
+C: J.Scott Skinner
+N: Skinner published this with a "Trio" section that's transcribed as a second tune.
+R: reel
+B: RSCDS __-8(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+%--------------------
+K: A
+"E7"\
+ED | "A"CEA2    A2cA | "D"B2A2 "A"A2ED | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 ED |
+y4 | "A"CEA2    A2cA | "D"BAAF "A"E2A2 | "D"F2EC   "A"EFAE | "D"[F2D2][A2D2] "A"[A2C2] :|
+cd | "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 cd |
+y4 | "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "E7"B2A2 "A"A2 cd |
+y4 | "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2 ED |
+y4 | "A"CEA2    A2cA | "D"BAAF "A"E2A2 | "D"F2EC   "A"EFAE | "D"[F2D2][A2D2] "A"[A2C2] |]

@@ -1,0 +1,27 @@
+X: 1
+T: America the Beautiful
+C: melody: Samual A. Ward 1882
+C: words: Katharine Lee Bates 1995
+%R: song, march
+F: http://ancients.sudburymuster.org/mus/col/pdf/pathymnsF.pdf
+S: SAFD collection 2020
+S: Chords: https://tabs.ultimate-guitar.com/tab/misc-traditional/america-the-beautiful-chords-1042677
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+A |\
+A>F FA | A>E EF |  GA Bc | A3 A |\
+A>F FA | A>E Ee | ^de fB | e3 A |
+f>f ed | d>c cd |  ec BA | d3 d |\
+d>B Bd | d>A AA |  Bd Ae | d3  :|
+% - - - - - - - - - -
+V: 2
+F |\
+"D"F>D DF | "A"E>C CC | "A7"EE GG | "D"F2 "A7"GE |\
+"D"F>D DF | "A"E>E EA | "B7"B2 A2 | "E7"^G2 "A7"A=G |
+"D"A>A AF | "A"G>A AA | "A7"AA GG | "D"F2 GA |\
+"G"G>G GG | "D"F>F FA | "G"Bd "A7"AG | "D"F3 :|
+% - - - - - - - - - -

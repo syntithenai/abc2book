@@ -1,0 +1,26 @@
+X: 20224
+T: le PRINTEMPS
+R: Waltz.
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.22 #4 (and p.23 #1)
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(Gc) |\
+(e/g)z/ (c/e)z/ (d/f)z/ | (e/g)z/ (c/e)z/ (e/g)z/ |\
+(d/f)z/ (B/d)z/ (G/B)z/ | cGABcd |\
+(e/g)z/ (c/e)z/ (d/f)z/ |\
+(e/g)z/ (c/e)z/ (e/g)z/ | (d/f)z/ (B/d)z/ (G/B)z/ | c2z2 :|
+|: "^8va"G^F |\
+"^_"GABc"^_"dB | c"^_"dec"^_"G2 |\
+GA"^_"BcdB | (3("^_"ced) (3("^_"cBA) "^_"G2 |\
+(e/g)z/ (c/e)z/ (d/f)z/ | (e/g)z/ (c/e)z/ (e/g)z/ |\
+(d/f)z/ (B/d)z/ (G/B)z/ | c2z2 :|
+|: (GB) |\
+(ce)G2(Gc) | (eg)c2(eg) |\
+[c'c][bB][aA][gG][fF][eE] | (gf)d2(dc) |\
+(Bd)G2(GB) | (dg)B2(dg) | bagfed | c2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

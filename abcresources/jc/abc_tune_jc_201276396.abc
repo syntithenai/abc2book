@@ -1,0 +1,39 @@
+
+X: 1
+T: Fj\"alln\"as Hambo    [C]
+R: hambo
+O: arr. Carl J.Johnson
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+S: printed copy from Marilyn Butler
+M: 3/4
+L: 1/8
+K: C
+"^A" |:\
+"C"C2 C>E D>E | C2 E>G c2 | "G"d2 d>c (3BAB | "C"c2 e>c G>E |\
+"C"C2 C>E D>E | C2 E>G c2 | "G"d2 d>G A>B | "C"cz c2 z2 :|
+"^B"|:\
+"C"G2 E>G c>B | "F"A2 A>G F2 | "G"d2 d>c (3BAB | "C"c2 e>c G>E "^I"|\
+"C"G2 E>G c>B | "F"A2 A>G F2 | "G"d2 d>G A>B | "C"cz c2 z2 :|
+"^C"|:\
+"C"e2 e>d c>B | "F"A2 f>d A2 | "G"BB/c/ dG AB | "C"c>G c>e g2 |\
+"C"e2 e>d c>B | "F"A2 f>d A2 | "G"BB/c/ d>G G/^G/A/B/ | "C"cz c2 z2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Fj\"alln\"as Hambo    [D]
+R: hambo
+Z: 1999 Brian Wilson <baab@ma.ultranet.com> http://ma.ultranet.com/~baab
+Z: from Peter Barnes "A little Couple-Dancemusik", p. 185
+M: 3/4
+L: 1/8
+K: D
+"^A" |:\
+"D"D2 D>F E<C | D2 F>A d2 | "A"e2 e>d (3cBc | "D"d2 f>d A<F |\
+"D"D2 D>F E<C | D2 F>A d2 | "A"e2 e>d (3cBc | "D"d2 d4 :|
+"^B"|:\
+"D"A2 F>A d>c | "G"B2 B>A G2 | "A"e2 e>d (3cBc | "D"d2 f>d A<F |\
+"D"A2 F>A d>c | "G"B2 B>A G2 | "A"e2 e>d (3cBc | "D"d2 d4 :|
+"^C"|:\
+"D"f2 f>e d>c | "G"B2 B>A G2 | "A"e2 e>d c>B | "D"A2 A>G "A"F>{D}E |\
+"D"D2 D>F E<C | D2 F>A d2 | "A"e2 e>d (3cBc | "D"d2 d4 :|

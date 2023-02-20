@@ -1,0 +1,27 @@
+X: 11
+T: Drops of Brandy
+%R: slip-jig
+B: Kitty Bridges "Collection of Country Dances 1745" p.11
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-bridges1745
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: This tune didn't have dots after any notes, even when the next note was a 16th note; dots added.
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G>AB B>AB B>AB | G>AB B>GB d2g |\
+G>AB B>AB B>AG | F>GA dAF A2B :|
+|:\
+G>AB gdB gdB | G>AB gdB d2e |\
+G>AB gdB gdB | fga A2B cBA |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center Drops of Brandy
+%%begintext align
+%%   Set to your Part.r and turn, then set
+%% to the second Wom.n your Part.r to the 2d
+%% Man and turn, cross over two Coup.l lead
+%% up to the top and cast off. Set at Corners
+%% and turn, and lead out at Sides.
+%%endtext

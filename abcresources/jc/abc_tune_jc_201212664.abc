@@ -1,0 +1,18 @@
+X: 1091
+T: Ducks Die at Christmas (A44)
+T: B\'asaitear na Lachain L\'a Nollag
+N: page A44
+N: heptatonic
+S: B.Breathnach:"Ceol Rince na hEireann" IV/68
+Z: B.Black [http://www.capeirish.com/webabc]
+L: 1/8
+M: 12/8
+%Q: 360
+R: jig
+F:http://jc.tzo.net/~jc/music/abc/mirror/redhawk.org/zouki/CRE4.abc
+K: D
+%%MIDI gchord cz2cz2cz2cz2
+"A"A2B "D"d2e f2f "D"fed|"A"a2a agf "Em"ede "D"fed|
+"A"ABc "D"def "G"g2g gab|"D"afd "A"e2d "G"B3 d3 ::
+"D"fga agf "G"gab bag|"D"fga agf "A"gee ede|
+"D" fga agf "G"gab bag|"D"afd e2d "G"B3 "D"d3 :|

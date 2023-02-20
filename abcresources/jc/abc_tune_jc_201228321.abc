@@ -1,0 +1,25 @@
+X: 111
+T: the Honey Moon
+%R: march, reel
+M: 2/4
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.11 #1
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+N: The 3rd strain has initial repeat but no final repeat; not fixed.
+N: There are two "D.C." notations.  Does this mean an ABACA repeat pattern?
+K: C
+cc |\
+g2 c'c | {c}BA/G/ eg | fc B/A/B/G/ | c2 H:|\
+|: de |\
+de f/e/f/d/ | ec de | fef^f | g2 "_D.C.":|
+[K:Cm]\
+|: ce |\
+dc =Bc | G2 ag | fedc | =B2 ce |\
+dG df | ec c'^f | g2 c'^f | g2 "_D.C."y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Half right & left & back again lead down the
+%% Middle up again Allemande & Swing corners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

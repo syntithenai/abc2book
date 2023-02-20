@@ -1,0 +1,41 @@
+X: 1
+T: America.
+T: (My Country, Tis of Thee.)
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+C: Music: Atttibuted to Henry Carey.
+C: Words: Samuel Francis Smith.
+N: The attribution of the tune to Henry Carey is probably wrong, but the composer isn't known.
+%R: _
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+N: The soprano+also staff is formatted for 3 staves; the book has only two with lttle space between words.
+V: 1
+[|\
+[GD] [GD] [AE] | [FD]> [GE] [AF] | [BG] [BG] [cA] | [BG]> [AF] [GE] |
+w:1.~My coun-try, 'tis of thee, Sweet land of lib-er-ty, 
+w:2.~My na-tive coun-try, thee, Land of the no-ble free,
+w:3.~Let mu-sic swell the breeze, And ring thro' all the trees
+w:4.~Our fa-thers' God, to Thee, Au-thor of lib-er-ty,
+[AE] [GD] [FD] | [G3D3] | [dB] [dB] [dB] | [dB]> [cA] [BG] | [cA] [cA] [cA] |
+w: Of thee I sing; Land where my fa-thers died, Land of the
+w: Thy name I love: I love thy rocks and rills, Thy woods and
+w: Sweet free-dom's song; Let mor-tal tongues a-wake; Let all that
+w: To Thee we sing; Long may our land be bright With free-dom's
+[cA]> [BG] [AF] | [BG] [c/G]B/ [A/D]G/ | [BG]> [cG] [dG] | [e/G]c/ [BG] [AF] | [G3D3] |]
+w: Pil-grims' pride, From ev-*'ry* moun-tain-side Let* free-dom ring.
+w: tem-pled hills; My heart* with* rap-ture thrills Like* that a-bove.
+w: breathe par-take; Let rocks* their* si-lence break, The* sound pro-long.
+w: ho-ly light; Pro-tect* us* by Thy might, Great* God, our King.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% The tenor+bass staff preserves the original staff breaks in the book.
+V: 2 clef=bass middle=D
+[|\
+[BG] [BG][cC] | [AD]>[AD][dD] | [dG] [eE][eC] | [dD]>[c^D] [BE] | [cC] [BD] [AD] | [B3G3] | [dG] [dB] [dd] |
+[dG]>[dG][dG] | [dD] [dF][dA] | [dD]>[dD][dD] | [dG] [e/G]d/ [c/G]B/ | [dG]>[dA] [dB] | [c/c]e/ [dd] [cD] | [B3G3G,3] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text First sung in Park Street Church, Boston, July 4, 1832

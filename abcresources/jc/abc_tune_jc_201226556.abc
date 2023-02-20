@@ -1,0 +1,23 @@
+X: 10324
+T: the BROWN JUG
+Q: "With spirit."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.32 #4
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+d3cB2 | A2G2F2 | G3A (3(Bcd) | D4(GF) |\
+E3GF2 | G3Bd2 | {e}d3 c B2 | {B}A4 (dc) |\
+B3AG2 | d2D2(AG) | F3ED2 | A4A2 |\
+B4(e^c) | dd3(FG) |
+A3BA2 | D4(AF) |\
+D2D2(D/F/A/c/) | c2B2(3(GBd) | (ed)(cB)(AG) | d4dd |\
+g2f2e2 | {e}d2(cB)(AG) | D4(AF) | (GF)(GB)(AG) |\
+(AG)(Ac)(BA) | (B/G/A/B/c/d/e/f/) Hg>c | (Be) (dc) (BA) | G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

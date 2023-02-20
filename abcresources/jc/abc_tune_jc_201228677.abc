@@ -1,0 +1,22 @@
+X: 114
+T: March
+%R: march, shottish
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.55 #114
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+%%slurgraces 1
+%%graceslurs 1
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - -
+A2 |\
+d2d>d d2e2 | (f>e)(f>g) f2a2 |\
+{ga}b2a2 Tg2f2 | (e>d)(e>f) e2A2 |\
+d2d>d d2e2 |
+(f>e)(f>g) f2a>b |\
+{b}a2(g>f) {f}Te3d | d6 :: (f>g) |\
+a2a>g (a>g)(f>e) | (d>c)(d>e) d2(g>a) |
+b2b>b (b>a)(g>f) | e2e>e e2A2 |\
+d2d>d d2e2 | (f>e)(f>g) f2(a>b) |\
+{b}a2(g>f) {d}Te3d | d6 :|

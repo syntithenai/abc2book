@@ -1,0 +1,244 @@
+X:0901
+T:Miss Clemy Stewart's Reel
+P:Miss Clementina Stewart's Reel
+C:Malcolm Macdonald's 2nd Coll., 1790-1794
+R:Reel (8x32)
+B:RSCDS 9-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:A
+E|"A"A2ce aecA|cecA "E7"GBGE|"A"A2ce aecA|"E7"ceBG "A"A2 AE|
+  "A"A2ce aecA|cecA "E7"GBGE|"A"A2ce aecA|"E7"ceBG "A"A2 A||
+e|"A"aecA ceag|ac'"B"fa "E7"bage|"A"aece aee'd'|"E7"c'bag "A"a2 ag|
+  "A"aece "D"dafd|"A"cecA "E7"GBGE|"A"aece "D"dafd|"E7"ceBG A2 A|]
+
+X:0902
+T:The Jimp Waist
+P:Miss Hope's Strathspey
+C:John Pringle, 1800. From Gow's 4th Repository
+R:Strathspey (nx32)
+B:RSCDS 9-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+V:1
+V:2
+K:D
+%%staves (1 2)
+[V:1] A,|"D"D>D F>D "G"E>D "D"B,>F|"Em"G<G G>A "A"B>A "D"F>d|\
+[V:2] x |   x2  C2     B,2    A,2 |    B,4        E2     D2 |\
+[V:1]    "F#m"A<F "Bm"F>D "Em"G>B "F"A>F|"Em/G"E<B, "A7"B,>C "D"D2 DA,|
+[V:2]         C2      D2      B,2    D2 |      x8                     |
+%
+[V:1] A,|"D"D>D F>D "G"E>D "D"B,>F|"Em"G<G G>A "A"B>A "D"F>d|\
+[V:2] x |   x2  C2     B,2    A,2 |    B,4        E2     D2 |\
+[V:1]    "F#m"A<F "Bm"F>D "Em"G>B "F"A>F|"Em/G"E<B, "A7"B,>C "D"D2 D ||
+[V:2]         C2      D2      B,2    D2 |      x7                    ||
+%
+V:1
+A|"D"d>d A>d F>d D>d|"G"d>d "D7"f>d "G"B2 Bc|\
+  "D"d>f "A"c>A "G"B>d "F"A>F|"Em"G>B "A7"A>c "D"(3dAG (3FED|
+  "D"d>d A>d F>d D>d|"G"d>d "D7"f>d "G"B2 B>c|\
+  "D"d>f "A"c>A "G"B>d "D"A>F|"Em"E<B, B,>C "D"D2 D|]
+
+X:0903
+T:The Duchess of Atholl's Slipper
+P:The Duchess of Atholl's Slipper
+C:Niel Gow, 1788
+R:Strathspey (8x32)
+B:RSCDS 9-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+V:1
+V:2
+K:G
+%%staves (1 2)
+V:1
+G|"G"D>G B>G d>B G>B|D>G B>G "Am"E<A "D"A>B|\
+  "G"D>G B>G d>B B<g|"D7"{e}d>c B>A "G"G<G G G|
+  "G"D>G B>G d>B G>B|D>G B>G "Am"E<A "D"A>B|\
+  "G"D>G B>G d>B B<g|"D7"{e}d>c B>A "G"G<G G||
+V:2
+x|x8|x8|x8|x8|x8|x8|x8|x7||
+%
+[V:1] g|"G"d<g g2 d>g b>g|"Am"a>g "A"b>g "D7"e<a a2|\
+[V:2] x|x8               |x8                       |\
+[V:1]   "G"d<g g2 d>g b>g|"Am"a>g "D7"b>g "G"d<g g2|
+[V:2]      B4     B4     |    e2      d2     B4    |
+%
+[V:1]  "G"d>g g2 d>g b>g|"Am"a>g "A"b>g "D7"e<a a2|\
+[V:2]  x8               |x8                       |\
+[V:1]   "G"g<b "C"e<g "G/B"d<g B<g|"D7"d>c B>A "G"G<G G|]
+[V:2]      B2     c2       G2  G2 |    x7              |]
+
+X:0904
+T:My Love She's But a Lassie Yet
+P:My Love She's But a Lassie Yet
+C:Bremner's Reels, 1757 (as »Miss Farquharson's Reel«)
+R:Reel (8x32)
+B:RSCDS 9-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/4
+K:D
+|:A/B/4c/4|"D"dDFA|.d.D.D B/c/|dDFA|"A7".e.E.E A|
+           "D"dDFA|"Em"Bgfe|"A7"d/c/B/A/ Bc|"D".d.D.D:|
+|:f/g/|"D"af"A7"ge|"D".f.d.d f/g/|"D"af"Em"g"E"f|"A"eEE g|
+       "D".a.f.ge|"Bm"fd"A"ec|"G"d/c/B/A/ "A7"Bc|"D".d.D.D:|
+
+X:0905
+T:Mrs Grant's Fancy
+P:Miss Grant of Grant
+C:Robert Mackintosh
+R:Strathspey (8x32)
+B:RSCDS 9-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:G
+D|"G"G/A/B/c/ dB "D"c>A FD|"G"G>B d>B g>f gd|\
+  "Am"A>e "G"d<G "D"F<A Ac|"G"B/c/d "D7"A>c "G"B<G G D|
+  "G"G/A/B/c/ dB "D"c>A FD|"G"G>B d>B g>f gd|\
+  "Am"A<e "G"d<G "D"F<A Ac|"G"B/c/d "D7"A>c "G"B<G G||
+d|"G"g f/g/ b>g "D"a>f da|"Em"g2 a/g/f/e/ "B"f>^d Bg|\
+  "Am"e<a c<e "G"d<g B<d|"Am"A>e "D"d>c "G"B<G Gd|
+  "G"g f/g/ db "D"a<f da|"Em"g>f e>g "B"f>^d Bg|\
+  "C"e>c B>A "G"d>B A>G|"D"F>d A>c "G"B<G G|]
+
+X:0906
+T:Dalkeith's Strathspey
+P:Dalkeith's Strathspey
+C:Niel Gow's 3rd collection (as a reel)
+R:Strathspey (8x32)
+B:RSCDS 9-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:F
+A|"F"F>C A,>C F/F/F A>F|"Gm7"F/F/F B>A G<D D>E|\
+  "F"F>C A,>C F/F/F A>c|"Bb"d>f "F"c>f A<F F A|
+  "F"F>C A,>C F/F/F A>F|"Gm7"F/F/F B>A G<D D>E|\
+  "F"F>C A,>C F/F/F A>c|"Bb"d>f "F"c>f A<F F||
+c|"Dm"f>g a>g "F"f>e f>c|"Gm"d/d/d b>a g<d "C7"d>e|\
+  "F"f>g a>g f>c "Bb"d>B|"F/C"A>c "C7"G>B "F"A<F F>c|
+  "Dm"f>g a>g "F"f>e f>c|"Gm"d/d/d b>a g<d "C7"d>e|\
+  "F"f>c a>e f>c "Bb"d>B|"F"A>c "C7"G>B "F"A<F F|]
+
+X:0907
+T:The New Rigged Ship/Miss Finlay's Delight
+P:The New Rigged Ship/Miss Finlay's Delight
+C:Niel Gow, 1788, and older
+R:Jig (8x48) AABB
+B:RSCDS 9-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:C
+|:G|"C"c2c c2e|c2c c2e|"G"dBG G2B|dBG GAB|\
+    "C"c2c c2e|c2c "G"dBG|
+                          "F"A>Bc "G7"dBG|"C"c3 c2:|\
+|:e/f/|"C"g2e g2e|"Am"c2c ceg|"F"a2f a2f|"G"d2d "G7"def|
+    "C"g2e g2e|"Am"c2c "G"dBG|"F"A>Bc "G7"dBG|"C"c3 c2 e/f/|\
+    "C"gfe "C/B"gfe|"Am"c>dc "C/G"ceg|
+                                      "F"agf "Am"agf|"G7"d>ed "F"def|\
+    "G"gfe "G/A"gfe|"Am"cec "G"dBG|"F"ABc "G7"dBG|"C"cGE C2:|
+
+X:0908
+T:The Braes of Busby
+P:The Braes of Busby
+C:Joseph MacFadyen's Coll. 1795
+R:Strathspey (8x32)
+B:RSCDS 9-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:Gm
+|:F|"Gm"D<G G>A B>A G>F|"F"C<F F>G Ac B/A/G/F/|\
+    "Gm"G>A B>c d>c B>d|"F"c/B/A/G/ F>A "Gm"B<G G:|
+|:A|"Bb"B>c d>B f>B d>B|"F"A>c f>d c>A F>A|\
+    "Bb"B>c d>B f>B d>B|"F"c<A F>A "Gm"B<G G:|
+|:f|"Gm"g2 B>g dg/a/ b>g|"F"f2 c>f cf/g/ a>f|\
+    "Gm"g2 d>g d>c B>d|"F"c/B/A/G/ F>A "Gm"B<G G:|
+  A|"Gm"B<d G>B GB/c/ d>B|"F"A<c F>A FA/B/ c>A|\
+    "Gm"B<d G>B GB/c/ d>B|"F"c<A F>A B<G GA|
+    "Gm"B<d G>B GB/c/ d>B|"F"A<c F>A FA/B/ c>A|\
+    "Bb"B>d f<b f<d B>d|"F"c/B/A/G/ F>A "Gm"B<G G|]
+
+X:0909
+T:Madge Wildfire's Strathspey
+P:Madge Wildfire's Strathspey
+C:Nathaniel Gow
+R:Strathspey (8x32)
+B:RSCDS 9-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:Bb
+E|"Bb"D>B F>B "Eb"G>B F>B|"Eb"c>B "Bb"{Bc}d>c "Eb"B<G G>B|\
+  "Bb"D>B F>B "Eb"G>B "Bb"F>b|"Dm"f>d "F7"e>c "Bb"d<B B E|
+  "Bb"D>B F>B "Eb"G>B F>B|"Eb"c>B "Bb"{Bc}d>c "Eb"B<G G>B|\
+  "Bb"B>f d>f "Eb"g>f b>g|"Dm"f>d "F7"e>c "Bb"d<B B||
+d|"Bb"B<b f>g "Dm"d<f "Bb"B>d|"F7"c>B "D"{Bc}d>c "Gm"B<G "Eb"G>B|\
+  "Bb"D>B F>B "Eb"G>B "Gm"F>g|"Dm"f<d "F7"e>c "Bb"d>B B d|
+  "Bb"B<b f>g "Dm"d<f "Bb"B>d|"F7"c>B "D"{Bc}d>c "Gm"B<G "Eb"G>B|\
+  "Bb"B>f d>f "Eb"g>f b>g|"Dm"f<d "F7"e>c "Bb"d<B B|]
+
+X:0910
+T:Cadgers in the Canongate
+P:John McNeil's Reel
+C:Peter Milne
+R:Reel (8x48) ABABAB
+B:RSCDS 9-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:A
+C||!segno!"A"A,2 CE FECE|AECE FECE|A,2 CE FECE|"D"FAGF "E7"EDCB,|
+  "A"A,2 CE FECE|AECE FEDC|\
+                 "E/G#"B,D"A"CE "Bm"DF"A7/C#"E=G|"D"FA"E7"GB "A"cA A||
+f|"A"eA"D"fA "A"eAca|"A"eA"D"fA "A"e2 f/g/a|\
+      "A"eA"D"fA "A"eAce|"D"df"A/D#"ca "E"B2 d/e/f|
+  "A"eA"D"fA "A"eAca|"A"eA"D"fA "A"e2 e/f/g|\
+      agag fedc|"E7"BAGF EDC!D.S.!B,|]
+
+X:0911
+T:Cauld Kail
+P:Cauld Kail in Aberdeen
+C:Johnson's Musical Museum, 1788
+R:Medley (8x32)
+B:RSCDS 9-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:Eb
+|:E|"Eb"G>B "F7"e>c "Eb/G"B>G "F/A"F>E|"Eb"G>B "Cm"c/>d/e/c/ "Gm"B2 "Cm"E z/E/|\
+    "Eb"G>B "Cm"e>c "Gm"B>G "Fm/A"F>E|"Eb"G>B "Ab"c/>d/e/c/ "Bb"B2 "Eb"E:|
+|:c|"Eb"B<e g>e "Bb"f>d c>B|"Eb"e>f "F7"g>e "Bb"f>d B>B|\
+    "Cm"e>f g>e "F"a>f "Bb"df//e//d//c//|"Eb"B>G "Ab"e>c "Bb7"B2 "Eb"E:|
+P:Lady Charlotte Campbell's Medley
+C:Robert Mackintosh - Gow's Repository
+M:C|
+L:1/8
+K:Bb
+|:F|"Bb"B3f dBfd|"F7"edcB AFcA|"Bb"B2 bf dBfB|"F7"AFec "Bb"dBB:|
+d|"Bb"f2 d>b "Eb"g2 E>e|"F"c2 A>a "Bb/D"f2 D>d|\
+  "Gm"B2 Bg "Cm"edcB|"F"AcFe "Bb"dBBf|
+  "Bb"fBag "Eb"gfed|"F"cAag "Bb"fedc|"Gm"BGgf "Cm"edcB|"F7"cAec "Bb"dBB|]
+
+X:0912
+T:The Birks of Abergeldie
+P:The Wind that shakes the Barley
+C:Trad.
+R:Reel (8x48) ABABAB
+B:RSCDS 9-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:D
+B|:"D"A2AB AFED|"G"B2BA BcdB|"D"A2AB AFED|"G"gfed "A7"B2dB|
+   "D"A2AB AFED|"G"B2BA BcdB|"D"A2AB AFED|"G"gfed "A7"B2||
+de|"D"f2fd "A7"g2ge|"D"f2fd "A7"Bcde|"D"f2fd "G"g2ge|"D"afed "A7"B2 de|
+   "D"f2fd "A7"g2ge|"D"f2fd "Em"Bcde|"D"fafd "Em"gbge\
+      |1,2 "D"afed "G"BcdB:|3 "D"afed "G"Bcd|]

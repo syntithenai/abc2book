@@ -1,0 +1,45 @@
+X: 1
+A:Thomas Tallis
+T:Thomas Tallis' Second Psalm Tune
+M:none
+L:1/4
+Q:1/4=120
+K:D minor
+%
+V:1 clef=treble
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+V:4 clef=bass+16 middle=D,%+
+%
+%%MIDI program 1	79 ocarina
+%%MIDI program 2	74 recorder
+%%MIDI program 3	71 clarinet
+%%MIDI program 4	60 frenchrn
+%
+% Squeeze things together a bit, to get the whole tune to fit on one page.
+%%sysstaffsep    22.0pt
+%%systemsep      50.0pt
+%
+[V:1] D2  | F  E  D   D  | D ^C    D  F  | E   D       D  ^C  | D2  z
+[V:2] A,2 | A, A, A,  G, | A,> A,  A, A, | A, (F,/G,/) A,  A, | A,2 z
+w:    Let  God a-rise in   ma- jes-ty and scat-ter'd*  be  his foes.
+[V:3] D,2 | D, E, F,  D, | E,> E,  D, D, | C,  D,      E,  E, | D,2 z
+[V:4] D,2 | D, C, D,  B,,| A,,>A,, D, D, | A,, B,,     A,, A,,| D,2 z
+%
+[V:1] F  | B    A   G   G  |  G   F   G    B  | A   G       G  ^F | G2   z
+[V:2] D  | D    D   D   D  |  D   D   D    D  | D  (B,/C/)  D   D | D2   z
+w:   Yea, flee they all his sight in face, to  him  which* hate-ful goes.
+[V:3] D, | G,   A,  B,  G, |  A,  A,  G,   G, | F,  G,      A,  A,| G,2  z
+[V:4] D, | G,, ^F,, G,, G,,|  D,  D,  G,,  G,,| D, _E,      D,  D,| G,,2 z
+%
+[V:1] E | A   G    C     G  | F    E   F      A  | G   F       F  E | F2    z
+[V:2] C | C   C    C     B, | C    C   C      C  | C  (A,/B,/) C  C | C2    z
+w:   As smoke is driv'n and com'th to naught, re-pulse their*  ty-ran-ny.
+[V:3] C | F,  G,   A,    F, | G,   G,  F,     F, | E,  F,      G,  G,| F,2  z
+[V:4] C,| F,, C,   F,    D, | C,   C,  F,,    F,,| C,  D,      C,  C,| F,,2 z
+%
+[V:1] F  | C   D   E    G  | F (E/D/) C     D  |  F  (E> D)  D2  ^C  | D4  ||
+[V:2] A, | A,  A,  C    C  | A, A,    A,    A, |  F,  C   A,3     A, | A,4 ||
+w:    At  face of fire, as  wax doth melt, God's face the bad    must fly.
+[V:3] F, | E,  F,  G,   E, | F, F,    E,    D, |  D,  C,  D,2   E,2  | D,4 ||
+[V:4] D, | A,, D,  C,   C, | D, D,    A,,   D, |  A,> G, (F,D,) A,,2 | D,4 ||

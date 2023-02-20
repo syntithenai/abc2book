@@ -1,0 +1,26 @@
+X:1
+T: Mr. Handel's Rigaudon
+N:
+C:G.F. Handel
+S:Adapted from Rigaudon
+A:
+O:
+R:
+M:3/2
+K:Am
+I:speed 212
+%W: A1
+% voice 1 (1 lines, 29 notes)
+K:Am
+M:3/2
+L:1/16
+a8 |A4 A2 |B2 c2 d2 |e2 f2 e8 |d2 c2 B2 |A2 ^G4 |E4 a8 |A4 A2 |B2 c2 d2 |e2 f2 e8 |d2 c2 B2 |c2 A8 |
+%W: A2
+% voice 1 (1 lines, 29 notes)
+a8 |A4 A2 |B2 c2 d2 |e2 f2 e8 |d2 c2 B2 |A2 ^G4 |E4 a8 |A4 A2 |B2 c2 d2 |e2 f2 e8 |d2 c2 B2 |c2 A8 |
+%W: B1
+% voice 1 (1 lines, 31 notes)
+c'8 |c4 c2 |d2 e2 f2 |g2 a2 g8 |f2 e2 d2 |c2 B4 |G4 d2 |e2 f2 g2 |a2 g2 a2 |b2 c'4 |e4 f4 |f2 g2 e6 |d2 c8 |
+%W: B2
+% voice 1 (1 lines, 31 notes)
+c'8 |c4 c2 |d2 e2 f2 |g2 a2 g8 |f2 e2 d2 |c2 B4 |G4 d2 |e2 f2 g2 |a2 g2 a2 |b2 c'4 |e4 f4 |f2 g2 e6 |d2 c8 ||

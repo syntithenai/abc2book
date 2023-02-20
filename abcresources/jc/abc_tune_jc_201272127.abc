@@ -1,0 +1,26 @@
+X:1
+T: Easter Morn
+N:
+C:
+S:Tune is "Miss Gordon of Gight"
+A:
+O:
+R:
+M:4/4
+K:Em
+I:speed 180
+%W:         A
+% voice 1 (1 lines, 30 notes)
+K:Em
+M:4/4
+L:1/16
+B,2 E2 G2 B2 e2 b2 g2 e2 |d2 f2 d2 B2 A2 F2 D2 F2 |E2 G2 B2 G2 F2 A2 d2 B2 |A2 F2 D2 F2 E4 E4 |
+%W:
+% voice 1 (1 lines, 30 notes)
+B,2 E2 G2 B2 e2 b2 g2 e2 |d2 f2 d2 B2 A2 F2 D2 F2 |E2 G2 B2 G2 F2 A2 d2 B2 |A2 F2 D2 F2 E4 E4 |
+%W:         B
+% voice 1 (1 lines, 30 notes)
+g2 b2 d'2 b2 c'2 b2 a2 g2 |f2 g2 a2 b2 a2 f2 d2 a2 |g2 b2 d'2 b2 c'2 b2 a2 g2 |f2 d2 a2 f2 e4 e4 |
+%W:
+% voice 1 (1 lines, 30 notes)
+g2 b2 d'2 b2 c'2 b2 a2 g2 |f2 g2 a2 b2 a2 f2 d2 a2 |b2 a2 g2 f2 e2 f2 g2 e2 |d2 B2 A2 F2 E4 E4 |

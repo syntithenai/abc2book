@@ -1,0 +1,26 @@
+X:1
+T: Jenny, Come Tie My Cravat
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:C
+I:speed 200
+%W:
+% voice 1 (1 lines, 22 notes)
+K:C
+M:4/4
+L:1/16
+e6 d2 e2 f2 g4 |c4 G4 c4 c2 d2 |e4 e2 f2 g4 f2 e2 |d2 c2 d2 e2 d4 g4 |
+%W:
+% voice 1 (1 lines, 17 notes)
+e6 d2 e2 f2 g4 |c4 G4 c4 c2 d2 |e4 e2 f2 f6 e f |g16 |
+%W:
+% voice 1 (1 lines, 21 notes)
+g6 f e d4 g4 |e6 d2 c4 e4 |d4 c2 B2 A4 d4 |B6 A2 G4 z d e f |
+%W:
+% voice 1 (1 lines, 15 notes)
+g6 f e d4 g4 |e6 f2 g4 c4 |d4 e2 f2 d6 c2 |c16 ||

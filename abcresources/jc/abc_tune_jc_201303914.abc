@@ -1,0 +1,27 @@
+X: 1
+T: Lord Phopington
+T: the New Lord Phopington
+N: See "The Pilgrim" for the first Lord Phopington (or Fopington) dance and tune.
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.273
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+E3D C2G2 | c6 d2 | e2(de) (fe) (dc) | d2 D4 G2 |\
+E3D C2G2 | c6 d2 | e2(de) (fe) (dc) | e2 g4 |]
+d2 |\
+B3A G2g2 | e6 dc | B3A G2G2 | f2 d4 G2 |\
+(EF)G2 A2c2 | (Bc)d2 G2f2 | (ef)g2 d2f2 | e2 c4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. lead down through the 2. cu. and cast up, then go the half Figure .| The 2. cu. do the
+%% same :| The 1. man changes places with the 2. wo. and the 1. wo. with the 2. man, then all four
+%% hands quite round, which makes the 1. cu. in the 2. cu. place.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

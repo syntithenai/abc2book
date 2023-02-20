@@ -1,0 +1,28 @@
+X: 20381
+T: Green Sleevs
+T: Green Sleeves (and Yellow Lace)
+%R: jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.38 #1
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The rhythms of repeats aren't quite correct; not fixed.
+M: 6/8
+L: 1/8
+K: Gm
+"Brisk"(G/A/) |\
+B2B Bcd | cAF F2A | BAG GAB | A^FD D2A |\
+B2B Bcd | cA=F ABc | BAG A^FD | G3 G2 :|
+|: d/_e/ |\
+fgf f_ed | cAF F2^f | gdg gab | ag=f d2e |\
+fgf f_ed | cAF ABc | dBG A^FD | G3 G2 :|
+|: (B/c/) |\
+dBG dBG | cAF cAF | dBG dBG | A^FD AFD |\
+fdB fdB | cAF Adc | BAG A^FD | G3 G2 :|
+|: (d/c/) |\
+Bdf Bdf | Acf Acf | GBd GBd | D^FA D^FA |\
+dfb dcB | cfa cBA | dBG A^FD | G3 G2 :|
+|: (G/A/) |\
+B2G (bg)d | B2G Bdg | A2F afc | A2F Acf |\
+B2G gba | gfe dcB | ABc dD^F | G3 G2 :|
+|: d/_e/ |\
+fgf fdB | (A/B/c)A F2g | dga bag | (^f/g/a)f d2b |\
+adg fB_e | dBG (^F/G/A)D | GBd D^FA | G3 G2 :|

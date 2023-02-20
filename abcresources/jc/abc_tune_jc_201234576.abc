@@ -1,0 +1,24 @@
+X: 20613
+T: PADDY FORSHANE'S FRICASSEE
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.61 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+GBd d2d | dcB A2c | Bcd cde | G3 F2D  |\
+GBd ded | dcB ABc | BdG cAF | A3 G2 |] d |\
+def gag | gfe d^cd | e=cA cde | G3 F2d |
+def g2g | gfe d2g | gfd fe^c | e3 d2 |] f |\
+gfe d^cd | ed=c BAB | GBd cde | G3 F2D |\
+GBd ded | dcB ABc | BdG cAF | A3 G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The popular comic song of "Paddy Forshane's Fricassee," 
+%% is sung to the above tune, which was at one time
+%% a fashionable country dance.
+%%endtext
+%%sep 1 1 300

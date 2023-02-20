@@ -1,0 +1,41 @@
+X: 31421
+T: COTILLION No. 30. TOM MOORE'S SETT tune 1
+C:
+%R: reel, march, jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.142 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Bc |\
+B4 cBAG | GFAF GFED | GABc d2g2 | gfaf d4 |\
+d4 cBAG | GFAF GFED | GABc dBec | BAGF G2 H|]
+A2 |\
+d2d2 ed^cd | e2e2 fede | f2f2 gfef | gaba ged^c |\
+d2d2 ed^cd | e2e2 fede | f2f2 gfed | a4 "^D.C."a2 H|]
+%%center A MARCH
+M: C|
+L: 1/8
+B>c |\
+d3c B2c2 | defg A3B | c2c2 Bc d/c/B/A/ | G2 (3(GAB) cBAG |\
+d3c B2c2 | defg A3B | c2c2 B/g/f/g/ f/e/d/c/ | B2A2 "^D.C."G2 |]
+M: 6/8
+L: 1/8
+c |\
+B2G GFG | AFD D2B | cde dcB | d2c A2c |\
+B2G GFG | AFD D2B | cde dcB | cAF "^D.C."G2 |]
+d |\
+d^cd A2d | d^cd g2a | bag fed | d2c A2d |\
+d^cd A2d | d^cd g2a | bag fed | A2^c "^D.C."d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 right and left,
+%% balance and turn partners,
+%% ladies chain,
+%% promenade 4.
+%% Sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

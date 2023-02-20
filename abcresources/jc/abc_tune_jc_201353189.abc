@@ -1,0 +1,20 @@
+X:1
+T: Winifred's Knot
+N:
+C:
+S:aka "Open the Door to Three"
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 150
+%W:
+% voice 1 (1 lines, 15 notes)
+K:G
+M:6/8
+L:1/16
+D2 |G4 G2 B3 c B2 A4 D2 G4 G2 B3 c B2 c4 c2
+%W:
+% voice 1 (1 lines, 13 notes)
+d4 d2 d3 c B2 |A4 D2 G3 A G2 B2 A4 G4 ||

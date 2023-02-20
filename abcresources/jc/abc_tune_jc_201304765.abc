@@ -1,0 +1,293 @@
+
+X: 0
+T: Albinia   (G)
+O: 1772
+B: Robert Hinde "Second Collection of Quick Marches with Basses" London 1772
+B: Straight & Skillern "204 Favourite Country Dances" London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.13 #26
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%
+|: "G"G2A BcB | "D7"AGF "G"G2D | "G"G2A BcB | "D7"{B}AGF "G"G3 :|\
+|: "Em"{A}G>FG E3 | "Am"A2G "D7"FED | "Em"{A}G>FG E3 | "D7"{B}AGF "G"G3 :|
+|: "G"d2B d2B | "D7"ABc "G"B2G | "G"d2B d2B | "D7"cAF "G"G3 :|\
+|: "C"E2G "G"D2G | "D7"ABc "G"BAG | "C"E2G "G"D2G | "D7"{B}AGF "G"G3 :| [dD]
+
+%%sep 2 1 500
+
+X: 1
+T: the Female Saylor   [Gm]
+T: Masters In This Hall
+T: Marche pour les Matelots
+C: Marin Marais 1706
+N: Composed for the opera Alcyone of 1706.
+N: Feuillet/Playford 1706
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Playford Ball
+B: Recu\"eil de Contredances (Feuillet)
+B: Barnes
+M: 6/8
+L: 1/8
+K: Gm
+|: "Gm"G2d "D7"d2c  | "Gm"B3 "Cm"c3 | "D7"d2c     B2A  | "Gm"B2A "D7"G2^F \
+|  "Gm"G2d "D7"d2c  | "Gm"B3 "Cm"c3 | "D7"d2c     B2A  | "Gm"G6 :|
+|: "Gm"b2a "D7"g2^f | "Gm"g3     d3 | "Gm"b2a "D7"g2^f | "Gm"g3 "(G7)"d2=f "I"\
+|  "Cm"e2c "D7"d2A  | "Gm"B2G   B2c |1"D7"d2d    ^f2f  | "Gm"g3 "D7"a3 :|2 "D7"d2d B2A | "Gm"G6 |]
+
+%%sep 2 1 500
+
+X: 2
+T: the Frisky   [A]
+O: 1774
+R: jig
+M: 6/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.18 #1
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: "A"c>de e>dc | "E7"Bcd "A"c2A "I"| "A"c>de e>dc | "E7"B>AG "A"A3 :|\
+|: "A"cBc cBc | "D"ded "A"c2A | "A"cBc cBc | "E7"B>AG "A"A3 :|
+|: "A"a>ba "E"g>ag | "D"f>gf f>ed | "A"c>de "D"f>ed | "E7"c>dB "A"A3 :|\
+|: "A"E[AC]E "D"F[AD]F | "E7"Bcd "A"cBA | "A"E[AC]E "D"F[AD]F | "E7"dcB "A"A3 :|
+% - - - - - - - - Dance description - - - - - - - -
+% %begintext align
+% % Turn Right hands & cast off 1 Cu. .|. .|. turn Left & cast
+% % off below the 3c Cu. :|. :|: hands round 6 .|:. :|:. lead up to
+% % the top foot it & cast off .|:: :|::
+% %endtext
+
+%%sep 2 1 500
+
+X: 3
+T: the Frisky   (G)
+O: 1774
+R: jig
+M: 6/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Charles & Samuel Thompson eds "Twenty Four Country Dances", London 1774, p.18 #1
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: "G"B>cd d>cB | "D7"ABc "G"B2G "I"| "G"B>cd d>cB | "D7"A>GF "G"G3 :|\
+|: "G"BAB BAB | "C"cdc "G"B2G | "G"BAB BAB | "D7"A>GF "G"G3 :|
+|: "G"g>ag "D"f>gf | "C"e>fe e>dc | "G"B>cd "C"e>dc | "D7"B>cA "G"G3 :|\
+|: "G"D[GB,]D "C"E[GC]E | "D7"ABc "G"BAG | "G"D[GB,]D "C"E[GC]E | "D7"cBA "G"G3 :|
+% - - - - - - - - Dance description - - - - - - - -
+% %begintext align
+% % Turn Right hands & cast off 1 Cu. .|. .|. turn Left & cast
+% % off below the 3c Cu. :|. :|: hands round 6 .|:. :|:. lead up to
+% % the top foot it & cast off .|:: :|::
+% %endtext
+
+%%sep 2 1 500
+
+X: 4
+T: Garryowen
+O: Aird 1787
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: "Rinnci na h-\'Eireann" Elizabeth Burchenal, ed. G.Schirmer (1925) p.100
+M: 6/8
+L: 1/8
+%Q: 3/8=126
+%%slurgraces 1
+K: G
+   gf | "G"edc BAG |   B>cB    Bgf |    edc BAG | "D7"ABA Agf \
+      | "G"edc BAG |   B>cB    B2d |    def gdB | "D"A>BA A  :|
+|: Bc | "G"d2B d2B |    d2B    d2g | "C"e2c e2f |     e2c e2f \
+      | "G"g2a b2a | "C"gfe "G"d2B |    def gdB | "D"A>BA A  :|
+
+%%sep 2 1 500
+
+X: 5
+T: Green Sleeves (and Yellow Lace)   [Am]
+O: 1580
+S: Gillespie Manuscript, 1768, pg. 96
+N: Registered 1580 at the Stationer's Company (London) as "A new Northern Dittye of the Lady Greene Sleeves"
+B: Playford, 1686 as "Green Sleeves and Pudding Pies"
+B: Johnson "Scots Musical Museum", 1792, #388
+B: Gow - 4th Repository  (1817)
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: ADor
+  AB \
+| "Am"c2c c>de | "G"dBG G>AB | "Am(F)"c2A A>Bc | "E7"B2^G E2B \
+| "Am"c2c c>de | "G"dBG G>AB | "Am(F)"c>BA "E7"B^G2 | "Am"A3 z :|
+|: ef \
+| "C"g2g g>fe | "G"d>BG G2g | "Am"a2b c'ba | "Em"g>ee e2f \
+| "C"g2g g>fe | "G"d>BG GAB | "Am(F)"c>BA "E7"B^G2 | "Am"A3 z :|
+
+%%sep 2 1 500
+
+X: 6
+T: Haste to the Wedding
+O: 1760
+M: 6/8
+L: 1/8
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: Cole p.53
+B: Called "The Small Pin Cushion" in J. Oswald's "Caledonian Pocket Companion" (bk. 10, c 1760)
+B: Called "Carrick Fergus" in J. Brysson's "A Curious Collection of Favourite Tunes" (Edinburgh 1791)
+N: "The tune 'Come, Haste to the Wedding,' of Gaelic origin, was introduced in the pantomime, The Elopement, staged in London in 1767." (Linscott, 1939)
+K: D
+F/G/ \
+| "D"A>BA Agf | "G"ede "A7"fdB | "D"A>BA "Bm"AdF | "Em"GFG "A7"EFG | "D"A>BA Aaf |
+| "G"ede "A7"fdB | "D"A>BA "A7"faf | "D"d>ed d2 :: f/g/ | "D"a>fa afa | "G"b>gb "(A7)"bag |
+| "D"fga "Bm"agf | "Em"g>fg "A7"efg | "D"a2z "Bm"f2z | "Em"ede "A7"fdB | "D"A>BA "A7"faf | "D"d>ed d2 :|
+
+%%sep 2 1 500
+
+X: 7
+T: the Irish Washerwoman
+O: Petrie 1790
+B: Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+N: Similar tunes with many titles date back to the 17th C in the British Isles.
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+   d/c/ \
+| "G"BGG DGG | BGB dcB | "Am"cAA EAA | cAc "D7"edc \
+| "G"BGG DGG | BGB dcB | "Am"cBc "D7"Adc | "G"BGG G2 :|
+|: g/a/ \
+| "G"bgg dgg | bgb bag | "D7"aff dff | afa agf \
+| "C"egg "G"dgg | "C"cgg "G"B3 | "Am"cBc "D7"Adc | "G"BGG G2 :|
+
+%%sep 2 1 500
+
+X: 8
+T: Jefferson and Liberty
+T: the Gobby O
+O: 1843
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: NEFR #12 (in Am rather than Ador, which is slightly more common)
+B: Howe's Musician's Companion, Part 2 (1843)
+N: Based on an English song, "The Gobby O"
+N: Some versions have the pickup notes; others don't. NEFR has only the pickup on the B part.
+M: 6/8
+L: 1/8
+K: Ador
+"A"|:\
+"Am"{AB}c2A A^GA | E2A ABc | "G"B2G GBc | dBG GAB |\
+"Am"c2A A^GA | E2A A2e "I"| edc "E7"BAB | "Am"E2A A3 :|
+"B"|:\
+"Am"{B}A2B c2d | "C"e2f g3 | e2f g2e | "G"dBG G2E |\
+"Am"A2B c2d | "C"efg "F"a3 | "C"edc "E7"BAB | "Am"c2A A3 :|
+
+%%sep 2 1 500
+
+X: 9
+T: Lanagan's Ball
+O: Ireland c.1860
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: EDor
+|: "Em"EFE G2A | B2A Bcd | "D"DED   F2G | AdB AFD \
+| "Em"EFE G2A | B2A Bcd | edB "Am"=cBA | "Em"BEE E3 :|
+B \
+|: "Em"e2f gfe | "D"fag fed | "Em"e2f gfe | "Bm"fBB B2d \
+| "Em"e2f gfe | "D"fag fed | "Em"edB "Am"=cBA | "Em"BEE E3 :|
+
+%%sep 2 1 500
+
+X: 10
+T: Money in Both Pockets
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: D
+A \
+| "D"d2F "A"FEF | "D"DFA AFD | d2F "A"FEF | "D"D2f fef \
+| "D"d2F "A"FEF | "D"DFA AFD | "Em"EFE EFA | "A"BBB B2 :|
+|: A \
+| "D"dfa afd | "A"cea ecA | "D"dfa afd | "G"g3 "(D)"fga \
+| "G"bag "D"agf | "Em"ede "Bm"fdB | "F#m"ABA AFA | "G"BBB "A7"B2 :|
+
+%%sep 2 1 500
+
+X: 11
+T: Moon and Seven Stars, The
+O: 1750
+Z: Transcribed to abc by Mary Lou Knack
+S: Roaring Jelly Collection
+B: Aird "Selection of Scotch, English, Irish and Foreign Airs" vol. 1, 1782
+B: MS tunebook ca. 1795-1815 of Luther Kingsley of Mansfield, Connecticut.
+R: jig
+M: 6/8
+K: D
+A \
+| "D"d2A AGF | "G"GAB "D"A2A \
+| "G"Bcd efg | "A"fed cBA \
+| "D"d2A AGF | "G"GAB "D"A2A \
+| "G"Bcd efg | "A"Adc "D"d2 :|
+|: c/d/ \
+| "A"e2A ABA | efg "D"f3 \
+| "A"efg "D"fed | "E"cdB "A"A2A \
+| "G"BGB "D"A2A | "G"BGB "D"A2A \
+| "G"Bcd efg | "A"Adc "D"d2 :|
+
+%%sep 2 1 500
+
+X: 12
+T: Swallowtail Jig    [Em]
+O: Ryan 1883
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+R: jig
+B: Ryan’s Mammoth Collection, 1883; pg. 100
+B: Kerr (Merry Melodies), vol. 2; No. 271, pg. 29
+B: White's Unique Collection, 1896; No. 42
+M: 6/8
+L: 1/8
+K: Edor
+   E/F/ \
+| "Em"GEE BEE | GEG BAG | "D"FDD ADD | dcd AGF \
+| "Em"GEE BEE | GEG B2c | "D"dcd AGF | "Em"GEE E2 :|
+|: B \
+| "Em"Bcd e2f | e2f edB | Bcd e2f | edB "D"d2B \
+| "Em"Bcd e2f | e2f edB | "D"dcd AGF | "Em"GEE E2 :|
+
+%%sep 2 1 500
+
+X: 13
+T: The Young Widow  [G]
+O: 1788
+B: John Griffith "A Collection of the Newest and Most Fashionable Country Dances and Cotillions", 1788
+B: Hendrickson's "John Griffiths Dancing Master."
+%D:1788
+R: jig
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%Q: 3/8=108
+K: G
+|: "G"B2B BAB | "C(D7)"cdc "G"BAG |1,3 BAG BAG | BAG "D7"d3 :|2,4 "G"Bcd "C"efg | "D7"BcA "G"G3 :|
+|: "D"AFD AFD | "(G)"dcB "D"AFD | AFD AFD | "(G)"dcB "(A7)"A3 :|[K:D]
+K: D
+|: "D"f2f fef | "G(A7)"gag "D"fed |1 fed fed | fed "A7"a3 :|2 "D"def "A7"efg | "A7"a2A "D"d3 |]
+
+%%sep 2 1 500
+
+X: 14
+T: World Turned Upside Down  [2]
+S:fifer Hiram Horner (1944, southwestern Pa.)
+M:6/8
+L:1/8
+R:jig, march
+N:Bayard called it a "half-air"
+B:Bayard - Dance to the Fiddle, March to the Fife (1981, No. 538)
+K: D
+(3A/B/c/ |\
+dcd A2G | FAF D3 | DFA dcd | e>de e2 (3A/B/c/ |\
+dcd A2G | FAF D2g | fed cde | fdd d2 :|
+

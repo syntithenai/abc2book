@@ -1,0 +1,26 @@
+X: 1
+T: the Moray Firth Hornpipe
+C: Muriel Johnstone
+R: hornpipe
+B: Aye Afloat - Portknockie Collection #7
+N: Tune for Scottish Country Dance of the same name
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%P: Play ABCA
+K: C
+"^A"[|\
+"C"G2cG "F"A2cA | "C/E"G2g2 "C"gecG |\
+"F"A2a^g "G7"afdB | "C"cc'ge "G7"dBGF |\
+"C"E2cE "Dm"F2dF | "C/E"G2g^f "C7"gecG |
+"F"(3Acf a^g "G7"afdB | "C"BcGE !fine!C2z2 \
+"^B"|]|\
+"A"A,3A, "A7"A,^CEG | "Dm"FED2 fed2 |\
+"G"G,3G, "G7"G,B,DF | "C"EDC2 edc2 |
+"Am"e2ce "Dm"fedc | "G"BGBd "C"gecG |\
+"F"(3Acf a^g "G7"afdB | "C"BcGE C2z2\
+"^C"|[|\
+"B"B,3B, "B7"B,^D^FA | "Em"G2(3EGB e2z2 |
+"D"D3D "D7"D^FAc | "G"B2(3GBd g2(3ag^f |\
+"C"g2ec "F"f2cA | "C/E"Gce g^f "C7"gecG |\
+"F"(3Acf a^g "G7"afdB | "C"BcGE "^d.C. al fine"C2z2 |]

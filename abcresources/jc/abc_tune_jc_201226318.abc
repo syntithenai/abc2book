@@ -1,0 +1,37 @@
+X: 7
+T: the Lottery
+C: Michael Dabney
+%R: reel
+B: Michael Dabney "Twelve Minuets and Twelve Dances" p.10 #1
+S: http://imslp.org/wiki/12_Minuets_and_12_Dances_(Dabney,_Michael)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces mostly 4- or 8-bar staffs.
+V: 1
+|:\
+cBcd edcB | cGFE D/D/DD2 |\
+cBcd ec GE | FDGE C/C/CC2 :|
+|:\
+EGTG2 DGTG2 | EGcE D/D/DD2 |\
+g>ea>f g>ec>e | dcde c/c/cc2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+|:\
+c4 c4 | e2c2 g2G2 |\
+z2g2 c'2c2 | d2g2 e2c2 :|\
+|:\
+c4 B4 |
+c4 G4 | c2d2 e2c2 | g2G2 c4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right hands across quite
+%% round _ the same back
+%% again _ cast off 2 Cu: the
+%% 2d Cu: follow lead up to
+%% the top cast off
+%%endtext

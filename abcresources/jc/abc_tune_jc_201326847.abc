@@ -1,0 +1,26 @@
+X:1
+T: Put In All
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:Em
+I:speed 210
+%W: A1
+% voice 1 (1 lines, 23 notes)
+K:Em
+M:4/4
+L:1/16
+B4 |B4 e4 e4 f4 |g8 a4 g4 |f4 d4 f4 a4 |g12 f4 |g4 ^d4 e4 f4 |g8 f4 e4 |B12 B4 |
+%W: A2
+% voice 1 (1 lines, 22 notes)
+B4 e4 e4 f4 |g8 a4 g4 |f4 d4 f4 a4 |g12 f4 |g4 ^d4 e4 f4 |g8 f4 e4 |B12 f4 |
+%W: B1
+% voice 1 (1 lines, 25 notes)
+g4 a4 b4 c'4 |d'8 c'4 b4 |a4 g4 f4 e4 |^d12 B4 |B4 e4 e4 f4 |g8 b4 ^d4 |e8 e4 ^d4 |e12 f4 |
+%W: B2
+% voice 1 (1 lines, 24 notes)
+g4 a4 b4 c'4 |d'8 c'4 b4 |a4 g4 f4 e4 |^d12 B4 |B4 e4 e4 f4 |g8 b4 ^d4 |e8 e4 ^d4 |e12 ||

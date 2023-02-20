@@ -1,0 +1,24 @@
+X: 081
+T: le Jour de May          F
+C: Ignatius Sancho 1775
+%R: march, reel
+B: "Minuets Cotillons & Country Dances", 1775 p.8 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: a2e2c2A2 | (B2cd) c2A2 | d2fz c2ez | (B2cd) c2A2 | a2e2c2A2 | (B2cd) c2A2 | d2fz c2ez | BdcB A4 :|
+[V:2] |: a4 A4 | e4 a4 | d4 A4 | e4 A4 | a4 A4 | e4 a4 | d4 A4 | e4 A4 :|
+[V:1] A2E2 (c2BA) | (e2dc) a4 | ffdd eecc | BBdd c2A2 | (c2A2)(e2c2) | (a2e2) c'4 | ggaa bbee | B2^d2 "^da Capo"e4 |]
+[V:2] A4 A4 | A4 c2BA | d4 c4 | d2e2 a4 | A4 A4 | A4 a2A2 | e4 g2a2 | b2B2 e4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% All Round, Back again, Four Lead up, fall back, Ballance four Round,
+%% Every Gentleman turn his Partner, the other four do the same, Every
+%% Gentleman turn his Partner into her Place.
+%%endtext

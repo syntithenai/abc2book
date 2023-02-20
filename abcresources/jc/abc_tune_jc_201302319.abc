@@ -1,0 +1,16 @@
+X: 820
+T: Limerick Junction
+R: hornpipe
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #820
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0820/oneill-1001-0820-1.abc
+M: C|
+L: 1/8
+K: D
+(AG) "^A"|\
+F2(FE) FAGF | E(FED) CDEG | FAd2 cde2 | (3(efd) (3(cdB) A(GFE) ||
+F(GFE) FAGF | E(FED) CDEG | FAd(A BG)FE | D2(DE) D2 :|
+"^B"|:\
+(fg) | afd(f g)ece | fdc(d B)AFA | BGFG E2(gf) | (3(efd) (3(cdB) A2 ||
+(fg) | afd(f g)ece | fdc(d B)AGE | FAd(f g)ec(e | d2)dc d2 :|

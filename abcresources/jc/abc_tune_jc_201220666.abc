@@ -1,0 +1,28 @@
+X: 03
+T: Lady Frances Pratt's Fancy
+%R: jig
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.2 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+ABA c3 | FGF A3 | DED G2A | BDG EDC |
+ABA c3 | =BcB f3 | edc =Bcd |1cdc _BAG :|2 cd=B cde ||
+|:\
+fgf e2A | ded c2F | f2a gec | f2a gec |
+fgf efe | ded c3 | def efg | f3 F3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text DOUBLE FIGURE (Each strain repeated)
+%%begintext align
+%% Swing with right hands round the 2d Cu: .| the 2d Cu: do the same |:
+%% lead down the middle up again allemande .| and turn corners |: .
+%%endtext
+%%center OR THUS
+%%begintext align
+%% Chain figure 6 round .| lead down the mid: up again lead thro' the top Cu:
+%% & turn |: set & half right & left with the bottom Cu: .| & lead outsides |: .
+%%endtext

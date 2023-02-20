@@ -1,0 +1,16 @@
+X: 1469
+T: the Skibbereen Lasses
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #1469
+O: Beamish
+Z: Bob Safranek, rjs@gsp.org
+M: C|
+L: 1/8
+K: A	% in DMoI, the g notes all have natural signs (i.e., it's Amix)
+"^A"\
+[| e2(cA) cdef | gedc BcdB | e2(cA) cdef | gedB TcAA2 ||
+|| e2(cA) cdef | gedc BcdB | cAcd  e^def | gedB TcAA2 |]
+"^B"\
+[| cAce a2(ef) | gedc BcdB | eA (3.A.A.A a2(ef) | gedB T(cA)A2 ||
+|| cAce a2(ef) | gedc BcdB | A2 (3(Bcd) eaaf | gedB TcAA2 |]

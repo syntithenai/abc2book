@@ -1,0 +1,12 @@
+X: 1
+T: Intro, Sailor's Hornpipe, 4 bars
+P: piffero primo b0040
+O: safd 083
+%R: hornpipe, reel
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/seamedF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+%%staffwidth 300
+(dc | d2)D2 D2AG | FAd2 d2(ed | e2)E2 E2ed | c2A2 A2 |]

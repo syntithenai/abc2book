@@ -1,0 +1,63 @@
+
+X: 0
+T: The Sea Wife + Walker Street
+C: arr: Rice 2012
+%D: 2012
+F: http://ancients.sudburymuster.org/mus/med/pdf/seawifewalkerC0.pdf
+K:
+
+
+X: 1
+T: The Sea Wife (voice 1)  v.1
+C: music: Gordon Bok 1987
+C: poem: Rudyard Kipling
+%D: 1987
+F: http://ancients.sudburymuster.org/mus/med/pdf/seawifewalkerC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Am
+A2 |\
+A2e2 e2de | c2B2 A2BA | G2d2 d2e2 | d6 e2 |\
+e2a2 a2ga | bag2 e2ed | c2A2 G2B2 | A4 z2BA |
+G2d2 d2cB | c2B2 A2ce | e2e2 e2c2 | B6 cB |\
+A2G2 E2DE | G2A2 G2cB | AG3  E2D2 | E6 :|
+
+
+X: 2
+T: The Sea Wife  v.2
+C: music: Gordon Bok 1987
+C: poem: Rudyard Kipling
+%D: 1987
+F: http://ancients.sudburymuster.org/mus/med/pdf/seawifewalkerC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Am
+E2 |\
+E2G2 A2GA | GED2 D2DE | D2D2 G2E2 | A6 c2 |\
+A2c2 A2d2 | BcdB A2E2 | E2C2 EDEG | E4 z2DE |
+E2G2 GAGD | E2D2 E2G2 | A2B2 A2E2 | D6 cB |\
+A2G2 E2DE | G2A2 G2AG | EE3 C2A,2 | B,6 :|
+
+
+X: 3
+T: Walker Street
+C: trad.
+S: Fifer's Delight
+F: http://ancients.sudburymuster.org/mus/med/pdf/seawifewalkerC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+D2 |\
+G2BG dGBG | ABcd cBAG | Bdgd egdB | cBAG FADF |\
+G2BG dGBG |
+ABcd cBAG | Bdgd egdc | BGAF G2 :: ef |\
+g2dg Bgdg | gabg agef |
+g2dg Bgdg | cBAG FADF |\
+g2dg Bgdg | gabg agef | gfga gfed | egfa g2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

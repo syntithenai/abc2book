@@ -1,0 +1,23 @@
+X: 0
+T: Skagits in Stockbridge
+R: 4x32S4
+C: Ian Brockbank
+S: strathspey list 2003-3-20
+K:
+%
+P: Milladen
+C: J.S.Skinner
+R: strathspey
+B: H&C p.76
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bm
+F \
+| "Bm"B2 d>B f>B [db]>B | "A"A->c e->^g {g}a2 e>c \
+| "Bm"B2 d->B "Em"c->^A B>G | "F#7"F>E D>C "Bm"B,2-[B,B] :|
+c \
+| "D"(d2 f)>e .d.f .a.d' | "A"(A2 c)>B .A.c .e.a \
+| "Bm"(B2 d)>c .B.d .f.b | "F#7"f->e d->c "Bm"{c}B2 Bc |
+| "D"d2 f->d (3afd' (3afd | "A"A2 c->A (3eca (3ecA \
+| "Bm"B2 (d>>B) "Em"(c>>^A) (B>>G) | "F#7"(F>E) (D>C) "Bm"B,2- B, |]

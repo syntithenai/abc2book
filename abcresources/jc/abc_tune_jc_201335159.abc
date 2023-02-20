@@ -1,0 +1,16 @@
+X: 882
+T: the Sea Captain
+R: hornpipe
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #882
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0882/oneill-1001-0882-1.abc
+M: C|
+L: 1/8
+K: D
+"^A"
+|:(3(ABc) | d2(ec) ABce | dcAF DEFG | ABGA FGAB | c2AA A2 ||
+| (3(ABc) | d2(ec) ABce | dcAF DEFG | ABGA FDEC | D2DD D2 :|
+"^B"
+|: A2 | (3(ABc) de fefg | fdec dcAG | A2(AG) FGAB | c2AA A3 ||
+|  g  | fdec d2(cA) | BGAF DEFG | ABGA FDEC | D2DDD2 :|

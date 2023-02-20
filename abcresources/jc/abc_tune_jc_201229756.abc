@@ -1,0 +1,36 @@
+X: 1291
+T: CANARY BIRD WALTZ
+C: J. Parry
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.129 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a final repeat but no initial repeat.  Initial repeat added.
+M: 3/8
+L: 1/16
+K: C
+V: 1
+%
+|:\
+!p!(e<c)(e<c)(g<e) | .c2.c2.c2 | (d<B)(d<B)(f<d) | .B2.B2.B2 |\
+(d<c)(e<c)(g<e) | (e<g)(e<g)(a>f) | (e<c)(g<c)(f<d) | c6 :|
+|:\
+(Bd)(Bd)(Bd) | (ce)(ce)(df) | (eg)(eg)(ce) | d4e2 |\
+(Bd)(Bd)(Bd) | (ce)(df)(eg) | (fa)(df)(Bd) |[1 c6 :|[2 c4g2 |]
+|:\
+Tg6- | g4.c'2 | Tc'6- | c'4g2 |\
+Tg6- | g4c'2 | Tc'6- | c'4g2 |
+g4g2 | g4g2 | g4g2 | g4f2 |\
+ececfd | gegeaf | ecgefd | c6 H:|
+%
+V: 2
+|:\
+z6 | E2G2c2 | z6 | D2G2B2 |\
+.c2.c2.c2 | .e2.e2.f2 | g2G2B2 | c6 :|
+|:\
+G2G2F2 | E2E2G2 | c2G2E2 | G4z2 |\
+G2E2F2 | E2G2c2 | F2G2G2 |[1 E6 :|[2 E4z2 |]
+|:\
+z2z2.e2 | .d2.B2z2 | z2z2a2 | .g2.e2z2 |\
+z2z2e2 | .d2.B2z2 | z2z2a2 | g2.e2z2 |
+z2cez2 | z2dfz2 | z2cez2 | z2Bdz2 |\
+c2c2d2 | e2e2f2 | g2G2B2 | c6 H:|

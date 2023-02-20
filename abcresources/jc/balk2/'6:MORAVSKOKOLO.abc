@@ -1,0 +1,18 @@
+X: 276
+T: Moravsko Kolo
+O: Serbia
+F: http://www.youtube.com/watch?v=IXTsUEduLdo
+M: 2/4
+L: 1/8
+Q:1/4=132
+K: Emix
+%%MIDI gchord if
+%%MIDI program 28
+%%MIDI bassprog 45
+%%MIDI chordprog 45
+|:"A"agfe|fedc |c2e2   |E4   |\
+  "E"GABc|dcBA |c2e2   |E4   :|
+|:"E"GABc|dcBA |c2e2   |E4   :|\
+|:"B"dddd|dcB2 |"A"cccc|cBA2 :|
+| "B"dddd|dcB2 |"A"cccc|cBA2 |\
+  B2dc   |dB=cA|"E"B2B2|E4   |

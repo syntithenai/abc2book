@@ -1,0 +1,9 @@
+X: 1
+T: TEST: Notes in header and music
+N: Line 1 of note in header.
+N: Line 2 of note in header.
+K: C
+[|CDEF GABc|]
+N: Line 1 of note in music.
+N: Line 2 of note in music.
+[|cBAG FEDC|]

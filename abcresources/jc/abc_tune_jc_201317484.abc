@@ -1,0 +1,43 @@
+X: 1
+T: Non Dimenticar
+T: T'ho voluto bene
+T: Don't Forget
+C: music: P. Gino Redi (aka Luigi Pulci)
+C: words: Michele Galdieri
+O: Italy
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+[|\
+"C"cdec d3B | "C6"ABcA "A7"B2G2 | "Em"A>A- AA "G7"G4- | "A7/c#"G3_G "Dm"FAce |
+"G7"d4- "Dm7"d4- | "G7"dG2_G "G7"F=GAB | "C6"A4- "A7/c#"A4-  | "Dm"A4- "G7"AGAG |
+"C"cdec d3B | "C6"ABcA "A7"B2G2 | "Em"A>A- AA "G7"G4- | "A7/c#"G3_G "Dm"FAce |
+"G7"d3e- "Dm"edcA | "G7"d3 e- edcd | "C"c4- "Fm"c4- | "C"c3c- cBc^c |
+"Gm"d3G- "C7"G^FGA | "Gm"_B3c- "C7"cd"C+"ec | "F"d4 A4- | "F6"A3d- d^cd^d |
+"Am"e3A- "D7"A^GAB | "Am"c3c- "D7"cdec | "Dm7"e4- ee2_e | "Fm6"d4- "G7"d3c |
+"C"cdec d3B | "C6"ABcA "A7"B2G2 | "Em"A>A- AA "G7"G4- | "A7/c#"G3_G "Dm"FAce |
+"G7"d3e- "Dm"edcA | "G7"d3 e- edcd | "C"c4- "Fm"c4- | "C"c8 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2
+T: Non Dimenticar  2
+T: T'ho voluto bene
+T: Don't Forget
+C: music: P. Gino Redi (aka Luigi Pulci)
+C: words: Michele Galdieri
+O: Italy
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+F: http://www.wikifonia.org/node/6262
+M: C
+L: 1/8
+K: C
+[|\
+"C"cdec d3B | ABcA "(A7)"B2G2 | "Dm"A4 "G7"G4- | "Dm"G4 FAce |
+"G7"d4- d4- | d4 [1 "G7"FGAB | "C"A4- "A7"A4-  | "Dm"A4 "G7"z4 :|
+[2 "G7"d4  FGBd | "C"c8- | "C7"c4 cBc^c | "Gm7"d4 G^FGA |
+"C7"_B4 cdec | "F"d4 A4- | A4 d^cd^d | "Am7"e4 A^GAB |
+"D7"c3B cdec | "Dm7"e4 d4- | "G7"d4 z4 [| "C"cdec d3c |
+ABcA B3G | "Dm7"A4 "G7"G4- | "Dm"G4 FAce | "G7"d4 "Dm7"edcA |
+"G7"d4 | edcd | "C"c8- | c4 z4 |]

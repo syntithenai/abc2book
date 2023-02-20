@@ -1,0 +1,31 @@
+X: 21041
+T: MANILLA SETT (tune 1)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.104 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain has only 7 bars.  Perhaps its bar 5 should be played after the 1st bar.
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="1"
+F2 |\
+d4 c2B2 | G4 B2G2 | F2d2 c2B2 | G2c=B cf=e_e |\
+d4 c2B2 | G4 B2G2 | F2d2 cBcd | B2d2B2 H|]
+c2c2 f4 | d2d2 f4 | e2fe d2ed | cBAG F4 |\
+c2c2 f4 | d2d2 f4 | f=edc =Bcde | f=efg f_ed"^D.C."c |]
+F2 |\
+f2z2 =e2z2 | c2B2 A2B2 | c2ff f2f2 | f2z2 =e2z2 |\
+e2z2 d2z2 | c2B2 A2c2 | BFGA Bcd"^D.C."e |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right and left four,
+%% balance four,
+%% chain,
+%% promenade four,
+%% sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

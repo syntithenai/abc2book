@@ -1,0 +1,87 @@
+%% text RJ Set 120
+
+
+X: 1
+T: Skirmish
+C: Nick Barber
+M: C|
+L: 1/8
+V: 1
+K: D
+V: 2
+% text Don't play pickups at start of set.
+% staves (1 2)
+V: 1 staves=2
+de |\
+"D"f4 edce | d4 ABAG |\
+[1,3 F2A2D2A2 | "G"BAGF "A"E2 de :|\
+[2,4 F2A2 "A"EFGE | F2E2"D"D2 :|
+|: AG |\
+"D"F2A2"A"E2A2 | "D"F2A2"A"E2A2 |\
+[1,3 "D"F2A2 "A"E2A2 | "G"BAGF "A"E2 DE :|\
+[2,4 "D"F2A2 "A"EFGE | "A"F2E2"D"D2 :|
+V: 2
+M: C|
+L: 1/8
+K: D
+fg |\
+a4 gfeg | f4 d3B |\
+[1,3 A2d2A2f2 | gfed A2 fg :|\
+[2,4 A2d2 cdec | d2c2d2 :|
+|: FE |\
+D2F2A,2E2 | D2F2A,2E2 |\
+[1,3 D2F2A,2E2 | GFED A,2A,2 :|\
+[2,4 D2F2 BAGF | A2G2F2 :|
+
+
+X: 2
+T: Burning Down the Piper's Hut
+M: C|
+L: 1/8
+K: Edor
+|:\
+"Em"EFGA B3-B | BAB=c B2 AG |\
+[1,3 "D"F2D2A2D2 | FGAB A2 GF :|\
+[2,4 "D"F2D2B2 cd | F2E2"Em" E4 :|
+|:\
+"Em"EFGA B2E2 | d2E2 B2AG |\
+[1,3 "D"F2D2 A2D2 | FGAB A2 GF :|\
+[2,4 "D"F2D2 B2 cd | F2E2"Em" E4 :| y|\
+["Trans" "D"F2D2 B2F2 | "E7"E2z2"No chord"A3B |
+
+
+X: 3
+T: The Mortgage Burn
+C: Gordon MacLean
+O: Cape Breton
+B: The Lighthouse Collection, Cranford, Cape Breton
+B: BSFC Tune Book XXVIII-19
+B: BFSC Session Tune Book 2016 p.27
+S: http://thesession.org/tunes/2047, the RJ collection, and a few other online transcriptions.
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: 4/4
+L: 1/8
+K: A
+|: AB | "A"cEBE AEF[AE] | "A"cEBE AEFA | "Bm"BFBc BFBc | "E7"dBcA BA
+y2 FA | "A"cEBE AEF[AE] | "A"cEBE AEFA | "Bm"dBcA BAFE | "E7"FAAB "A"A2 :|
+|: AB | "A"c2Bc e2ce | "D"fafe "A/c#"c2BA | "Bm"B2AB "A"c2Bc | "E"ecBA "(D)"F2
+[1 AB | "A"c2Bc e2ce | "D"fafe "A/c#"c2BA | "Bm"B2AB "E7"cBAF | E[AF]AB "A"A2 :|
+[2 cB | "A"AFEF A2AB | "A"cBce "D"f2af | "A/c#"e2cA "Bm"BcAF | "E7"E[AF]AB "A"A2 |]
+
+
+X: 4
+T: The Phoenix
+C:Dave Hennessy
+R:Reel
+M:C|
+L:1/8
+K:D
+% text $1 Don't play pickups on transition.
+de |\
+"D"f2df "A"edcA | "G"BAGB "D"AGFd | fddf "A"edcA | "G"BAGB "A7"A2 ag |
+"D"f2df "A"edcA | "G"BAGB "A"AGFE | "D"DEFG ABdf | "A7"edce "D"d2 :|
+|: cd |\
+"Bm"B3B  Bcde | f2ef "A"edcd | "Bm"B3B Bcde | f2df "A"edcd |
+"Bm"B2Fd B2Fd | BFBd "A"cBAc | "G"B3B Bcde |1 "A"fedc "Bm"B2 :|2 "A7"fedc "D"d2 |]
+

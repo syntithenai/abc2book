@@ -1,0 +1,64 @@
+X: 4571
+T: Nigun Sameach -- with drums
+R: bulgar, freylach
+O: Kammen 9#12
+B: Kammen 9#12
+M: 2/4
+L: 1/8
+K: Dm
+V:1
+%%MIDI program 66
+%%MIDI bassprog 32
+%%MIDI chordprog 24
+|: "Dm"Dz Fz | Az dz | f4- | f4|
+gf ef | ed ^cd | "A7"e4- | eA BA|
+"A7"A3 ^c| e3 d | (3^cde (3dcB | A4 | ed ^cB|
+AG FE |1 "Dm"D4 | (3A^GF (3FED :|2 "Dm"D4- | D4|:
+"Dm"Ad "(A7)"fe | "Dm"dc "D7"BA | "Gm"AB BB | B4|
+GB ed | "(A7)"^cB AG | "Dm"^GA AA | A4|
+"A7"AB ^cd | ef (3fed | ^c4- | c4|
+ed ^cB | AG FE | "Dm"D4- | D2 z2 ::
+"Dm"z2 a^g | a2 "Gm"b2 | "Dm"a3 f | d4|
+"Gm"b3 a | "C7"ga b[c'g] | "F"a4- | a4|
+"Gm"ba g2  | gf e2 | "A7"gf e2 |  ed ^c2|
+AB ^cd | ef  ^ce |1 "Dm"d4 | (3a^gf (3fed :|2 "Dm"d4 | fd "^da Capo"AF |]
+V:2 clef=bass
+%%MIDI program 15
+L:1/16
+|:D,,z [D,F,A,] zD,,z [D,F,A,] z |D,,z [D,F,A,] zD,,z [D,F,A,] z |D,,z [D,F,A,] zD,,z [D,F,A,] z |D,,z [D,F,A,] zD,,z [D,F,A,] z|
+D,,z [D,F,A,] zD,,z [D,F,A,] z |D,,z [D,F,A,] zD,,z [D,F,A,] z |A,,z [A,_DEG] zA,,z [A,_DEG] z |A,,z [A,_DEG] zA,,z [A,_DEG] z|
+A,,z [A,_DEG] zA,,z [A,_DEG] z |A,,z [A,_DEG] zA,,z [A,_DEG] z |A,,z [A,_DEG] zA,,z [A,_DEG] z |A,,z [A,_DEG] zA,,z [A,_DEG] z |A,,z [A,_DEG] zA,,z [A,_DEG] z|
+A,,z [A,_DEG] zA,,z [A,_DEG] z |1D,,z [D,F,A,] zD,,z [D,F,A,] z |D,,z [D,F,A,] zD,,z [D,F,A,] z :|2D,,z [D,F,A,] zD,,z [D,F,A,] z |D,,z [D,F,A,] zD,,z [D,F,A,] z|:
+D,,z [D,F,A,] zD,,z [D,F,A,] z |D,,z [D,F,A,] zD,,z [D,_G,A,C] z |G,,z [G,B,D] zG,,z [G,B,D] z |G,,z [G,B,D] zG,,z [G,B,D] z|
+G,,z [G,B,D] zG,,z [G,B,D] z |G,,z [G,B,D] zG,,z [G,B,D] z |D,,z [D,F,A,] zD,,z [D,F,A,] z |D,,z [D,F,A,] zD,,z [D,F,A,] z|
+A,,z [A,_DEG] zA,,z [A,_DEG] z |A,,z [A,_DEG] zA,,z [A,_DEG] z |A,,z [A,_DEG] zA,,z [A,_DEG] z |A,,z [A,_DEG] zA,,z [A,_DEG] z|
+A,,z [A,_DEG] zA,,z [A,_DEG] z |A,,z [A,_DEG] zA,,z [A,_DEG] z |D,,z [D,F,A,] zD,,z [D,F,A,] z |D,,z [D,F,A,] zD,,z [D,F,A,] z ::
+D,,z [D,F,A,] zD,,z [D,F,A,] z |D,,z [D,F,A,] zG,,z [G,B,D] z |D,,z [D,F,A,] zD,,z [D,F,A,] z |D,,z [D,F,A,] zD,,z [D,F,A,] z|
+G,,z [G,B,D] zG,,z [G,B,D] z |C,,z [C,E,G,B,] zC,,z [C,E,G,B,] z |F,,z [F,A,C] zF,,z [F,A,C] z |F,,z [F,A,C] zF,,z [F,A,C] z|
+G,,z [G,B,D] zG,,z [G,B,D] z |G,,z [G,B,D] zG,,z [G,B,D] z |A,,z [A,_DEG] zA,,z [A,_DEG] z |A,,z [A,_DEG] zA,,z [A,_DEG] z|
+A,,z [A,_DEG] zA,,z [A,_DEG] z |A,,z [A,_DEG] zA,,z [A,_DEG] z |1D,,z [D,F,A,] zD,,z [D,F,A,] z |D,,z [D,F,A,] zD,,z [D,F,A,] z :|2D,,z [D,F,A,] zD,,z [D,F,A,] z |D,,z [D,F,A,] zD,,z [D,F,A,] z |
+V:3 name=drum clef=perc stafflines=4
+L:1/16
+%%MIDI channel 10
+%%MIDI drummap e 53 % Ride Bell
+%%MIDI drummap F 54 % Tambourine
+%%MIDI drummap A 41 % Low Floor Tom
+|:A2cFA2eF |A2cFA2eF |AAAzA4 |A4A4|
+A2cFA2eF |A2cFA2eF |A4A4|A2cFA2eF|
+A2cFA2eF |A2cFA2eF |A2cFA2eF |A2cFA2eF |A2cFA2eF|
+A2cFA2eF |1A2cFA2eF |A2cFA2eF :|2A2cFA2eF |
+A2cFA2eF|:
+%%MIDI drummap A 75 % Claves
+%%MIDI drummap c 76 % Hi Wood Block
+L:1/8
+Azcz |Azcz |AzAz |AzAz |
+Azcz |Azcz |Azcz |Azcz|
+Azcz |Azcz |Azcz |Azcz|
+Azcz |Azcz |Azcz |Azcz ::
+L:1/16
+%%MIDI drummap A 41 % Low Floor Tom
+%%MIDI drummap c 51 % Ride Cymbal 1
+A2cFA2eF |A2cFA2eF |A2cFA2eF |A2cFA2eF|
+A2cFA2eF |A2cFA2eF |A2cFA2eF |A2cFA2eF|
+A2cFA2eF |A2cFA2eF |A2cFA2eF |A2cFA2eF|
+A2cFA2eF |A2cFA2eF |1A2cFA2eF |A2cFA2eF :|2A2cFA2eF |A2cFA2eF |

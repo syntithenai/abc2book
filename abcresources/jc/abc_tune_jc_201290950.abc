@@ -1,0 +1,22 @@
+X: 1
+T: the Iron Man (W. M. F. McHardy, Forgue)
+C: J.S.Skinner
+%D:
+R: strathspey
+S: Fiddle Hell Online 2022-4-8 handout for Alasdair Fraser workshp
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+%%slurgraces 1
+%%graceslurs 1
+E |\
+(v{G}A2c>A) uB>vGuA>uB | vc2 (ue>.c) vd>uBvc<ue |\
+vf2(ud>.f) [e2e2] (uc>.e) | (3dcB ((3cBA) vG<(uBMB>.c) |
+(v{G}[A2A2]c>A) uB>vGu(A>.B) | vc2 (ue>.c) vd>uBvc<ue |\
+vf2 (ud>.f)ve<ua ~c>A | (3Bcd (3dcB vc<(uA [AA2]) ||
+ug |\
+(va>.A) (ug>.A) (vf>.A) (ue>.A) | (vc/B/A) (u[ee]>.g) v{g}a>uevc<uA |\
+(vd>.E) (uc<E) vB<uE vc<uE | d/c/B c/B/A (3Bcd (3efg |
+(va>A) (ug<A) (vf<A) ue>uA | (vc/B/A) u[ee]>u.g {g}va>uevc<uA |\
+vd2 (uf>u.d) e/a/g f/e/d | c/B/A G/A/B vc<(uA [AA]) |]

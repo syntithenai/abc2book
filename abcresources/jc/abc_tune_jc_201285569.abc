@@ -1,0 +1,26 @@
+X: 1
+T: the Heights Of Cassino   [D]
+C: by D. Macrae
+R: jig
+N: printed page from the Boston Slow Scottish Jam collection
+N: Presented by Anna-Wendy Stevenson, Boston Harbor Scottish Fiddle School, August 2009
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dmix
+% %staffsep 38
+"^A"[|]e |\
+"D"A>AA "G"(B<d)e | "D"f2a f>ed | "A"e>Ae e2d | "A"(e<f)e "G"d>BG |\
+"D"A>AA "G"(B<d)e | "D"f2a f>ed | "D"f>AA "A7"(e<f)e | "D"d3 d2 :|
+"^B"|: (f/g/) |\
+"D"a>fd f3 | "D"f2a f>ed | "A"e>Ae e2 d | "A"(e<f)e "G"d>BG |\
+"D"a>fd f3 | "D"f2a f>ed | "D"f>AA "A7"(e<f)e | "D"d3 d2 :|
+"^C"|: f |\
+"D"A2A "G"B>AG | "D"A>AA f3 | "D"(f2a) f>ed | "A7"(e<f)e "G"d>BG |\
+"D"A2A "G"B>AG | "D"A>AA f3 | "D"f>AA "A7"(e<f)e | "D"d3 d2 :|
+"^D"[|](f/g/) |\
+"D"a>fe d>ef | "D"A>AA f3 | "D"f2a f>ed | "A7"(e<f)e "G"d>BG |\
+"D"a>fe d>ef | "D"A>AA f3 | "D"f>AA "A7"(e<f)e | d3 d2 ||
+(f/g/) |\
+"D"a>fe d>ef | "D"A>AA f3 | "D"f2a f>ed | "A7"(e<f)e "G"d>BG |\
+"D"A2A "G"B>AG | "D"A>AA f3 | "D"f>AA "A7"(e<f)e | "D"d3 d2 |]

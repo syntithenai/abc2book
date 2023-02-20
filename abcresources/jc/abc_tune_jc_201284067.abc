@@ -1,0 +1,36 @@
+
+X: 1
+T: Halloween
+C: Ed Pearlman, 1982
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: C|
+L: 1/8
+K: Dm
+|: A,2 \
+| "Dm"D2DE FEDC | "Gm"B,4 G,2B,2 | "Dm"A,2DF AGFD | "C"EFGE CDEC \
+| "Dm"D2DE FEDC | "Gm"B,4 G,2B,2 | "Dm"A,2DF "A7"AGFE | "Dm"F2D2 D2 :|
+|: E2 \
+| "Dm"F2EF "A7"G2FE | "Dm"F2ED "C"E2FE | "Bb"D2FA "F"C2FA | "Gm"B,2DF "A7"A,2=B,^C \
+| "Dm"D^CDE FED=C | "Gm"B,4 G,2B,2 | "Dm"A,2A2 "A7"AGFE | "Dm"F2D2 D2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Tam Lin   [Dm]
+T: the Howling Wind
+T: the Glasgow Reel
+C: Davey Arthur?
+R: reel
+S: Elke Baker's version
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+(G, \
+| "Dm"~A,2)DA, FA,DA, | "Bb"~B,2DB, FB,DB, | "C"~C2EC GCEG |1 "Dm"FEDC "C"CA, :|2 "C" FEDC "Dm"D3 |]
+(^c \
+| "Dm"d)cAG F2D(^c | "Dm"d)cAG F2D(=B | "C"~c2)Gc EcG=B | ~c2Gc EcG |]
+(^c \
+| "Dm"d)cAG F2D(^c | d)cAG F2DC | "Bb"B,A,B,C DCDE | "C"FEDC "Dm"D3 |]

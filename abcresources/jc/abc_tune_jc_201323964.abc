@@ -1,0 +1,52 @@
+X:1
+T:Pipe Major Sam Scott  "1998.3"
+M:6/8
+L:1/8
+Q:80
+C:P/M Peter R. MacLeod
+S:March
+K:HP
+|: f | \
+{g}A2{GdGe}A{Gdc}d3/2e/2g | \
+{fg}f3{Gdc}d2{gf}g | \
+{a}f3/2e/2d{g}B3/2c/2d |
+{g}e3/2f/2{g}e{gcd}c3/2B/2{G}A | \
+{g}A2{GdGe}A{Gdc}d3/2e/2g | \
+{fg}f3{Gdc}d2{gf}g |
+{a}f3/2g/2{a}e{g}A3/2{d}c/2e | \
+{Gdc}d3{gdG}d2 :: \
+{g}A |
+{Gdc}d3/2e/2{g}fa2{GdG}a | \
+{fg}f3{ag}a2g | \
+{a}f3/2e/2d{g}B3/2c/2d |
+{g}e3/2f/2{g}e{gcd}c3/2B/2{G}A|1
+{Gdc}d3/2e/2{g}fa2{GdG}a | \
+{fg}f3{ag}a2g |
+{a}f3/2g/2{a}e{g}A3/2{d}c/2e | \
+{Gdc}d3{gdG}d2:|2
+{g}A2{GdGe}A{Gdc}d3/2e/2g |
+{fg}f3{Gdc}d2{gf}g | \
+{a}f3/2g/2{a}e{g}A3/2{d}c/2e | \
+{Gdc}d3{gdG}d2|]
+f | \
+{g}A3/2B/2d{g}B3/2c/2d | \
+{g}A3/2d/2f{g}e3/2f/2g | \
+{a}f3/2e/2d{g}B3/2c/2d |
+{g}e3/2f/2{g}e{gcd}c3/2B/2{G}A | \
+{g}A3/2B/2d{g}B3/2c/2d | \
+{g}A3/2d/2f{g}e3/2f/2g |
+{a}f3/2g/2{a}e{g}A3/2{d}c/2e | \
+{Gdc}d3{gdG}d2 :| \
+{gf}g |
+a2{GdG}af2{GdG}f | \
+{a}g2{GdG}g{a}e2{GdG}e | \
+{g}f3/2e/2{g}f{g}B3/2c/2d |
+{g}e3/2f/2{g}e{gcd}c3/2B/2{G}A|1
+a2{GdG}af2{GdG}f | \
+{a}g2{GdG}g{a}e2{GdG}e |
+{g}f3/2g/2{a}e{g}A3/2{d}c/2e | \
+{Gdc}d3{gdG}d2:|2
+{g}A3/2B/2d{g}B3/2c/2d |
+{g}A3/2d/2f{g}e3/2f/2g | \
+{a}f3/2g/2{a}e{g}A3/2{d}c/2e | \
+{Gdc}d3{gdG}d2|]

@@ -1,0 +1,29 @@
+X: 121
+T: MISS KINLOCH OF GILMERTON
+C: Wm SHEPHERD
+R: Reel
+B: Glen Collection p.12 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: D
+%
+V: 1
+G |\
+(FE/D/) AF BGAG | FDAF GEEG | FE/D/ AF BGAF |1Aceg fdd :|2 Egec dDD ||
+g |\
+fdad bdad | fd (b/a/g/)f/ geeg | fdad bdad | ~ceag fdda |
+fdad bdad | fd (b/a/g/)f/ geeg | fdcd Bc/d/ AF | Gbag fdd |]
+%
+V: 2
+z |\
+d2[d'2a2] [c'2a2][c'2a2] | d2[d'2a2] [c'2a2][c'2a2] |\
+d2[d'2a2] [c'2a2][d'2a2] |1 A2[c'2a2] d2[d'afd] :|2 A2[g2e2] [f2d2][fd] ||
+z |\
+d2[d'2a2f2] [d'2a2f2][d'2a2f2] | d2[d'2a2] A2[c'2a2] |\
+d2[d'2a2f2] [d'2a2f2][d'2a2f2] | A2[c'2a2] d2[d'2a2f2] |
+d2[d'2a2f2] [d'2a2f2][d'2a2f2] | d2[d'2a2] A2[c'2a2] |\
+d2[d'2a2] [d'2g2][d'2f2] | [c'2a2e2][c'2a2e2] [d'2a2d2][d'afd] |]

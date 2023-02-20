@@ -1,0 +1,20 @@
+X: 1
+T: Admiralty all aliye
+%R: jig
+B: "Twenty Four Favourite Dances for the Year 1779", Thomas Straight, ed. p.1 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1779
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|:\
+D2d cfa | fed ecA | D2d cea | fad ceA |\
+BGF Eec | ceg gfe | fad Adc | d3 d3 :|
+|:\
+ceg bge | afd cBA | Bdg Adf | ged cBA |\
+BGF Eed | ceg gfe | faf ece | d3 D3 :|
+%%begintext align
+%% The first Cu: cast off and hands all 4
+%% round :|. Gallop down and up again and
+%% cast off .|: Right and left :|:
+%%endtext

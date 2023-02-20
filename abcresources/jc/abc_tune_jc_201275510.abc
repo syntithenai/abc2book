@@ -1,0 +1,20 @@
+X:252
+T:Ffarwel i'r Marian
+C:Traditional Welsh
+%%subtitlefont Times-Roman 20
+%%MIDI beat 100 95 80
+%%MIDI program 73
+%%MIDI chordprog 46
+%%MIDI gchord fIghih
+%%MIDI bassprog 46
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=112
+M:3/4
+L:1/8
+K:Dm
+%%textfont Times-Roman-Bold 20
+%%center Play AABA
+P:A
+|: "Dm"Ad A=B ^cd | "A"e2 A4 | "Gm"fg fe de | "A7"^c2 A4 | "Dm"Ad AG AF | "Gm"Bd BA BG | "Dm"FA F2 "A7"E2 | "Dm"D6 :|
+P:B
+"F"A2 c3 A | "C/E"G2 A4 | "Dm"A2 c3 d | "A7/C#"e2 A4 | "Dm"f2 g3 g | "E7"f2 e2 d2 | "Am"ce c2 "E7"=B2 | "A7"A6 ||

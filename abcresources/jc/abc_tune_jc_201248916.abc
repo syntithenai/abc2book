@@ -1,0 +1,152 @@
+X:3501
+T:Mrs Stewart's Jig
+P:Captain Charles Stewart's Jigg
+C:Malcolm MacDonald
+B:RSCDS 35-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Jig (8x32)
+M:6/8
+L:1/8
+K:G
+|:D|"G"G3 G2 c|B/c/de "C"g2 e|"G"dBG "Am"ABA|GEE "C"E2 "D7"D/E/|\
+  "G"G3 G2 c|B/c/de "C"g2 e|
+                            "G"dBG "D7"ABc|"G"BG"C"G "G"G2:|\
+d|"G"d^cd "C"e=ce|"Am"efg "C"g2 e|"G"dBG "D7"ABc|"G"BAG "C"EDE|
+  "G"d^cd "C"e=ce|"C"efg "A7"g2 e|"G"dBG "D7"ABc|"G"BGG G2 d|\
+  "G"d^cd "C"e=ce|"Am"efg "C"g2 e|
+                                  "G"dBG "D7"ABc|"G"BAG "C"EDE|\
+  "G"G3 G2 c|B/c/de "C"g2 e|"G"dBG "D7"ABc|"G"BG"C"G "G"G2|]
+
+X:3502
+T:Inverneill House
+P:MacLeod and MacKay
+C:J. Scott Skinner
+R:Reel (8x32)
+B:RSCDS 35-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:G
+|:dc|"G"BGFG DGFG|"Am"E^GAB c2ed|cA^GA "A7"EAGA|"D"FAd^c "D7"d=cBA|
+     "G"BGFG DGFG|"Am"E^GAB c2ed|"D7"cBAG FDEF|"G"AGDB, G,2:|
+|:dc|"G"Bgfg dBGB|"Am"ca^ga ec"D7"Ac|"G"Bgfg dBGB|"D"Fd^cd "D7"AFD=c|
+    |"G"Bgfg dBGB|"Am"ca^ga ec"D7"Ac|"G"BgdB "Am"AecA|"D7"FDEF "G"G2:|
+
+X:3503
+T:Argyll Strathspey
+P:Mrs. Stewart's Strathspey
+C:Wm. Marshall
+R:Strathspey (8x32)
+B:RSCDS 35-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+|:"D"D<D F>D "Bm"d/c/B/A/ F2|"Em"BE EF "G"G>A B<d|\
+  "D"D<D F>A "Bm"d/c/B/A/ FD|"A7"Adce "D"dD df|
+  "D"D<D F>D "Bm"d/c/B/A/ F2|"Em"BE EF "G"G>A B<d|\
+  "D"D<D F>A "Bm"d/c/B/A/ FD|"A7"Adce "D"dD df||
+  "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2|"Em"e<E E>F G>A "(A)"Bc|\
+  "D"{c}d>A F>A d/e/f/g/ "A7"ag|"Bm"fd"A7"AG "D"FD"A7"FA|
+  "D"{c}d>A F>A "Bm"d/c/B/A/ {c}d2|"Em"e<E E>F G>A "A"Bc|\
+  "Bm"df"A"ec "G"dB"D"AF|"Em"GB"A7"Ac "D"dD D2|]
+
+X:3504
+T:Major Ian Stewart
+P:The Scottish Horse
+C:The Marchioness of Tullibardine
+B:RSCDS 35-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Jig (8x32)
+M:6/8
+L:1/8
+K:A
+A/B/|"A"c3 e>cA|"D"d>ef a2 f|"A"e>dc cAe|"E"B3 B2 A/B/|\
+     "A"c3 e>cA|"D"d>ef afd|
+                         "A"e>cA "E7"B2 e|"A"A3 A2:|\
+e|"A"a2 e A2 e|"D"d2 f a2 f|"A"e>dc cAe|"E"B3 B2 A/B/|
+     "A"c3 e>cA|"D"d>ef a2 f|"A"e>cA "E7"B2 e|"A"A3 A2 e|\
+  "A"a2 e A2 e|"D"d2 f a2 f|
+                      "A"e>dc "F#m"cAe|"Bm"[B3F3D3] "E"[B2G2E2] e/d/|\
+  "A"caA eaA|"D"faA dfA|"A"ceA "E7"B2 e|"A"A3 A2|]
+
+X:3505
+T:The Gentleman
+P:The Ceilidh Umbrella
+C:Muriel A. Johnstone
+B:RSCDS 35-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Strathspey (8x32)
+M:C
+L:1/8
+K:Bb clef=treble
+%%scale 0.855
+F|"Bb"D<F B>d "Cm"c>B "F7"c<d|"Bb"B>F DF B,D F,B,|\
+      "Eb"G,>B, E<G "Bb"F<D F>B|"D7"A<D d>c "Gm7"B2 (3Bcd|
+  "Cm"(3edc "Bb"d>B "Eb"c>B G<B|"Bb"F<D B<D "F"C>B, "D7"C<D|\
+      "Gm"B,2 B>A "Eb"G2 (3gfe|"F7"d<b d>c "Bb"B2||
+"Bb7"(3Bcd|"Cm"e2 c>e "F7"A<F f>e|"Bb"d>c (3Bcd "Eb"G<E e>d|\
+      "Ao"c>B (3ABc "D7"^F<D d>c|"Gm"(3BAG "Eb"(3gfe "F7"d>c A<F|
+  "Bb"D<F B>d "Cm"c>B "F7"c<d|"Bb"B>F DF "Bb7"B,D F,_A,|\
+      "Eb"G,>B, E<G "Bb"F<D "Eb"(3gfe|"F7"d<b d>c "Bb"B2|]
+
+X:6
+T:The Trysting Place
+P:The Duchess of Gordon's New Strathspey
+C:Robert Mackintosh
+R:Strathspey (8x32)
+B:RSCDS 35-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:F
+%%scale 0.82
+|:C|"F"F>G F<C A,<C C>F|"Gm"D<G "G7"G>F "C"E<G "C7"Gc/B/|\
+    "F"A<F "F7"F>C "Bb"D>F B>d |"C7"{d}cB/A/ {c}BA/G/ "F"AFFc|
+    "F"F>G F<C A,<C C>F|"Gm"D<G "G7"G>F "C"E<G "C7"Gc/B/|\
+    "F"A<F "F7"F>C "Bb"D>F B>d |"C7"{d}cB/A/ {c}BA/G/ "F"AFF||
+c|"F"f>a "C"g>a "Dm"f>g "C"e<c|"Gm"d<g g>f "C7"e<g g>b|\
+  "F"a<f e<f "Bb"d<f "F"c<A|"Gm"B<d "C7"c>B "F"AFFc|
+  "F"f<a "C"g<a "Dm"(3fgf "Am"edc|"Gm"d<g "G7"g>f "C7"e<g g>b|\
+  "F"a/g/f "C"g/f/e "Dm"f/e/d "C"e/d/c|"Gm"d<g "C7"c<e "F"f<FF|]
+
+X:3507
+T:St. Andrews Gardens
+P:Miss Reay of Killingworth's Favourite Jig
+C:Abr. Mackintosh
+R:Jig (8x32)
+B:RSCDS 35-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+"G"g3 "D"f3|"G"g2b "D7"def|"Em"gfe "G"dcB|"Am"AB"A7"G "D"FED|\
+"G"g2g "D"f2f|"G"g2b "D7"def|
+                            "Em"gfe "D"agf|"Em"ed"A7"^c "D"d3||\
+|:"G"d3 "E7"b2d|"Am"{d}cBc "D7"a2c|"G"Bdg dcB|"Am"AB"A7"G "D7"FED|
+  "G"d2b "E7"dcB|"Am"c2a "D7"cBA|"G"Bdg "D7"agf|"G"g3 G3:|\
+  "G"gfg "Em"efg|"A7"abg "D"fed|
+                                "C"efg "G"dcB|"Am"AB"A7"G "D7"FED|\
+  "C"EFG "D7"FGA |"Em"GAB "D7"ABc|"G"d2b "D7"agf|"G"g3 G3|]
+
+X:3508
+T:The Summer Assembly
+P:The Oddfellows
+C:J. Scott Skinner
+R:Reel (1x88)
+B:RSCDS 35-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:A
+|:ED|"A"CEA2 A2cA|"D"B2A2 "A"A2ED|CEAc "F#m"fecA|"Bm"c2B2 "E7"B2ED|
+     "A"CEA2 A2cA|"D"BAAF "A"E2A2|"D"F2EC "A"EFAE|"D"[F2D2][A2D2]"A"[A2C2]:|
+cd|"A"ecA2 "D"fdA2|"A"ecA2 a2cA|CEAc "F#m"fecA|"Bm"c2B2 "E7"B2 cd|
+   "A"ecA2 "D"fdA2|"A"ecA2 a2cA|CEAc "F#m"fecA|"E7"B2A2 "A"A2 cd|
+   "A"ecA2 "D"fdA2|"A"ecA2 a2cA|CEAc "F#m"fecA|"Bm"c2B2 "E7"B2 ED|
+   "A"CEA2 A2cA|"D"BAAF "A"E2A2|"D"F2EC "A"EFAE|"D"[F2D2][A2D2]"A"[A2C2]|]
+K:D
+|:B|"D"A2F2 {f}d3A|"G"B2d2 "D"A3F|"F#m"A2Bc "Bm"d2A2|"Em"B2"E7"e2 "A7"e3f|
+  "D"A2F2 {f}d3A|"G"B2d2 "D"A2d2|"Em"edcB "D"A2FA|"G"[B2G2][d2B2G2]"D"[d2A2F2]:|
+|:f2|"D"edcB A2FA|"G"B2d2 "D"A2f2|"Em"edcB "D"A2FA|"Em"B2"E7"e2 "A7"e2f2|
+     "D"edcB A2FA|"G"B2d2 "D"A2d2|"Em"edcB "D"A2FA|"G"[B2G2][d2B2G2]"D"[d2A2F2]:|

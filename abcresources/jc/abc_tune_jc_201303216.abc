@@ -1,0 +1,18 @@
+X: 1790
+T: the Lodge Road
+T: bo\'tar na cong\'bail
+R: reel, "long dance"
+%S: s:3 b:20(6+7+7)
+S: 1790 O'Neill's Music of Ireland
+B: O'Neill's 1850 #1790
+O: J.O'Neill
+Z: Robert Thorpe (thorpe@skep.com)
+Z: ABCMUS 1.0
+M: 2/4
+L: 1/8
+K: D
+%%indent 100
+A !segno!\
+| dd/f/ e/d/c/B/ | AA AF | D/F/A/F/ D/F/A/F/ | GF/G/ EA || dd/f/ e/d/c/B/ | AA AF |
+| D/F/A/F/ GE/F/ | DD D :| A |: d/e/f/g/ a/g/f/e/ | d/e/f/g/ aa/f/ | ge/g/ fd/f/ | e/d/c/B/ A/B/c/A/ || ff gg |
+| ee ff/-e/ | d/f/a/f/ d/f/a/f/ | gf/g/ e z || ff gg | ee ff/e/ | d/f/a/f/ b/g/e/c/ | dd/e/ d/c/B/!segno!A/ :|

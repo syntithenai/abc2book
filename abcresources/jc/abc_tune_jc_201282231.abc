@@ -1,0 +1,6 @@
+X:1
+T:TEST: Grane note after note (y)
+M:none
+%%staffwidth 300
+K:C
+| CDE F3{ED}y |

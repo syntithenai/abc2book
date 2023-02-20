@@ -1,0 +1,72 @@
+X:220
+T:Eightsome Reel
+T:The De'il Amang the Tailors
+%%subtitlefont Times-Roman 28
+%%textfont Times-Roman-Bold 20
+Q:1/2=120
+M:2/2
+L:1/8
+%%center Play Tune 1 AABBB, Tunes 2, 3, 4, 5 twice each AABBAB, Tune 1 AABBB.
+K:A
+%%center Play AABBB
+eg | "A"a2eg a2eg | "/"a2ea fedc | "Bm"dfBf dfBf | "E7"dfba gefg |\
+"A"a2eg a2eg | a2ea fedc | "D"defd "A"ecBA | "E7"E2G2 "A"A2 :|
+|: ed | "A"ceAe ceAe | "/"ceag fedc | "Bm"dfBf dfBf | "E7"dfba gfed |\
+"A"ceAe ceAe | "/"ceag fedc | "D"defd "A"ecBA | "E7"E2G2 "A"A2 :|
+N:Replace by blank line and X field
+T:Petronella
+%%textfont Times-Roman-Bold 20
+M:2/2
+L:1/8
+Q:1/2=120
+K:D
+%%center Play AABBAB
+P:A
+|: dA | "D"F2 AF "A7"E2 AF | "D"D2D2 D2 FA | "Bm"d2 cd "E7"e2d2 | "A"cdBc "A7"A2 dA |\
+"D"F2 AF "A7"E2 AF | "D"D2D2 D2 FA | "G"d2 cd "A7"e2c2 | "D"d4 d2 :|
+P:B
+|: dA | "D"F2 fd A2 af | "Em"g2 gf edcB | "A7"A2 ec A2 ge | "D"f2 fg "A7"fdAF |\
+"D"D2 fd A2 af | "Em"g2 gf edcB | "A7"A2 ec A2ge | "D"d4 d2 :|
+N:Replace by blank line and X field
+T:Davy Davy Knick Knack
+C:English Traditional
+%%textfont Times-Roman-Bold 20
+M:2/2
+L:1/8
+Q:1/2=120
+K:G
+%%center Play AABBAB
+P:A
+D2 | "G"GFGA B2B2 | "/"GFGA B2B2 | "Am"dcBc "D7"A2A2 | "Am"dcBc "D7"A2A2 |\
+"G"GFGA B2B2 | "/"GFGA B2B2 | "Am"dcBc "D7"AcBA | "G"G2B2 G2 :|
+P:B
+|: Bc | "G"d3c B2d2 | "/"g2 g2 d4 | "Am"dcBc "D7"A2A2 | "Am"dcBc "D7"A2A2 |\
+"G"d3c B2d2 | "/"g2 g2 d4 | "Am"dcBc "D7"AcBA | "G"G2 B2 G2 :|
+N:Replace by blank line and X field
+T:Staten Island
+%%textfont Times-Roman-Bold 20
+Q:1/2=120
+M:2/2
+L:1/4
+K:D
+%%center Play AABBAB
+P:A
+|: A/G/ | "D"F/D/F/G/ AA | "D"d/f/e/d/ d/c/B/A/ | "G"BG/B/ "D"AF/A/ | "Em"GE "A7"EA/G/ |\
+"D"F/D/F/G/ AA | "D"d/f/e/d/ d/c/B/A/ | "G"dd "A7"e/f/g/e/ | "D"fd d :|
+P:B
+|: f/g/ | "D"af/a/ "A"ge/g/ | "D"fd/f/ "A"e/c/A | "C"=cc e/f/g/e/ | "C"=cc e/f/g/e/ |\
+"D"af/a/ "A"ge/g/ | "Bm"fd/f/ "A"e/c/A | "G"dd "A7"e/f/g/e/ | "D"fd d :|
+N:Replace by blank line and X field
+T:Soldiers' Joy
+%%textfont Times-Roman-Bold 20
+Q:1/2=120
+M:4/4
+L:1/8
+K:D
+%%center Play AABBAB
+P:A
+|: FG | "D"AFDF AFDF | "D"A2d2 "G"d2cB | "D"AFDF "Bm"AFDF | "Em"G2E2 "A7"E2FG |\
+"D"AFDF AFDF | "D"A2d2 "G"d2g2 | "D/A"fafd "A7"egec | "D"d2d2 d2 :|
+P:B
+|: de | "D"f2f2 fagf | "A7"e2e2 egfe | "D"f2f2 "Bm"fagf | "Em"edcB "A7"A2de |\
+"D"f2f2 fagf | "A7"e2e2 egfe | "D"fafd "A7"egec | "D"d2d2 d2 :|

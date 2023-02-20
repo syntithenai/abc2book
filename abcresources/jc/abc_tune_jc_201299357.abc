@@ -1,0 +1,58 @@
+X: 1
+T: Lady Cullen
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.74
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The dance is in 4 sections, with two columns; ## used to mark the 2nd column.
+N: A B-sharp in the last bar supports the idea that this was in D minor, with one flat, though the key signature is empty.
+N: Should the last c have a sharp?  And both parts should obviously be repeated (each strain twice for its column).
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+A2 A2 f3 f | gf ed ^c3 c | d2 d2 A2 f2 | e4 d4 ][ \
+A2 A2 c3 c | F3 G A3 c | B2 G2 G2 G2 | A2 =Bc d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up all a D. and back .| That again :|
+%% ##
+%%	Set and turn S. .| That again :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First cu. cross over, and fall on the out-side into the
+%% 2. place, and change places .| The first four hands all
+%% a-breast, and lead up to the presence, and fall back .:|
+%% ##
+%%	Right-hands a-cross and go round all four .|
+%%	left-hands a-cross and go round, back again :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First Cu. cast off, and fall into the 2. place, slip between
+%% the 2. cu. the 1. man standing before the 2. man, and
+%% the 1. wo. before the 2. wo. .| The 2. cu. cast off, and
+%% fall between, the 1. stand as before :|
+%% ##
+%%	The 2. cu. take both hands and slip up,
+%%	whilst the 1. cu. take both hands and slip
+%%	down, holding hands still, both cu. slip 
+%%	together .| Set and turn S :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First cu. cross over and fall on the out-side in the second
+%% place .| The first four hands a-breast and lead up to the
+%% presence, and back again :|
+%% ##
+%%	Each face to his own and clap your hands,
+%%	we. arms whilst the men arms .| Arms each
+%%	other with his own, the 1. cu. in the 2.
+%%	place, and the 2. cu. in the 1. place :|
+%% [DMDfD]
+%%endtext
+%%sep 1 1 300
+%%sep 1 8 500

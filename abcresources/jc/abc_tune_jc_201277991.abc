@@ -1,0 +1,36 @@
+X: 1
+T: Friday Night
+P: Longways for as many as will
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.145 #194 (290)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.283 "B b 4"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+D2 F2 A2 d2 | A4 F4 | G3 A (BA) (GF) | E8 |\
+D2 F2 A2 d2 | A4 f4 | (ef) (ec) (Bc) (BA) | A8 |]
+[|\
+A2 c2 e2 a2 | e4 c4 | d3 e (fe) (dc) | B6 A2 |\
+A2 d2 A2 F2 | A4 d4 | (AB) (AF) (EF) (ED) | D8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man crosses Hands with his Woman and turns himself
+%% in her Place and cast off, the 2d Cu. do the same; the 1st Cu.
+%% cross over below the 2d Cu. and cross over above again; then
+%% take your Partner by the Hand and lead through the 3d Cu.
+%% and figure a-top.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% The 1. man crosses hand with his woman and turns himself in her place and cast off, the 2d. couple
+%% do the same, the 1st couple cross over below the 2d. couple, and cross over above again, then take your
+%% Partner by the hand and lead through the 3d couple and Figure a-top.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

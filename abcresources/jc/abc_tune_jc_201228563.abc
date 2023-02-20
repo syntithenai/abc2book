@@ -1,0 +1,25 @@
+X: 11382
+T: WIDOW ARE YE WAKING.
+Q: "Slow."
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.138 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Final two endings interchanged, to fix the rhythm.
+M: C
+L: 1/8
+K: Eb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B, |\
+E3F G>FGB | c2F>G GFEC |\
+E3F GBF>G | E4 B,4 |\
+A3B G>FGB | c2F>G GFEC |\
+E2e>c B<GF>G |1 E4 B,2 :|2 E4 B,4 ||
+|:\
+e3f efge | fefg {g}f2ec |\
+B>ce>f efgf | {d2}e4 B2ef |\
+gfec ecBA | AGFE {G}F2EC |\
+e>fec B<GF>G |1 E4 B,4 :|2 E4 B,2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

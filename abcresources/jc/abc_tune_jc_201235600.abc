@@ -1,0 +1,30 @@
+X: 21251
+T: BALINAMONA ORA
+O: Irish air.
+Q: "Jocosely."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.125 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+G>AG g>fg | a>gf g2b |\
+a>gf e>fg | d>ec B2G |\
+G>AG g>fg | a>gf g2b |\
+a>gf e>fg | dec B2 |]
+d |\
+ecA Ace | "^^"e3 "^^"c3 |\
+dBG GBd | "^^"d3 "^^"B3 |\
+ecA Ac.e | a3 H"^^"f2(~f |\
+g)dB cAF | G3 G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The comic songs of "The Beautiful Boy,"
+%% "The Wedding of Ballyporeen,"
+%% and Burns' song, "Hey for a lass wi' a tocher,"
+%% are sung to the above air.
+%%endtext
+%%sep 1 1 300

@@ -1,0 +1,38 @@
+X: 0932
+T: the Russian Dance
+%R: reel
+N: This is version 1, for ABC software that doesn't understand voice overlays
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1809, No. 9 p.3 #2
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances9
+N: Bars 5-7 have a half note as the first note, beamed with the othersr.
+N: This is not quite representable in ABC as far as I can tell.
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+"^8va  _  _  _"FB |\
+d2FB d2FB | efde c2FA |\
+c2FA c2FA | dece B2 :|
+|: (fe) |\
+d2(dc) B2(ba) | (g^fgf g=fed) |\
+(cdBc) (AcfA) | ({c}BABc) B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=D
+z2 |\
+Bfdf Bfdf | AfBf FcAc |\
+FcAc FcAc | B2A2B2 :|
+|: z2 |\
+B,2 [F2D2][F2D2][F2D2] | E2 [c2G2][c2G2][c2G2] |\
+F2 [e2c2][e2c2][e2c2] | [d2B2][d2B2][d2B2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Lady turns the 2d Gent:
+%% the 1st Gent: turns the 2d Lady,
+%% down the middle up again
+%% and All'mand.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

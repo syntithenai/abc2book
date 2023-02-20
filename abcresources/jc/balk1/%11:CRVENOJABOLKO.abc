@@ -1,0 +1,20 @@
+X: 2511
+T: Crveno Jabolko
+O: Macedonia
+W: from Martin Junghans/Jutta Weber-Karn transcription
+W: http://www.folkloretanznoten.de/
+M: 17/8
+L: 1/8
+Q: 1/4=180
+K: Gm
+%%MIDI gchord f2f2f3f3f2f2f3
+%%MIDI beatstring fpmpmppfppfpmpmpp
+"C"B,2 A,B, C3 DE2 F2 ED C3 |"Bb"D2 DD D3 D2B, "Eb"G4 G2F|
+"F"F2 ED C3 DE2 "C"F2 ED C3|"Bb"FB,DF ED2 (4EDB,D "C"C4-C3|
+A,B,A,B, C3 DE2 F2 ED C3|"Bb"D2 DD D3 D2B, "Eb"G4 G2F|
+"C"F2 ED C3 DE2 F2 ED C3|"Bb"FB,DF ED2 (4EDB,D "C"C4-C3|:
+"C"DEDC DE2 FG2 "Bb"F2 ED "C"C3|DEDC DE2 FG2 "Eb"G4-G3|
+"F"DEDC DE2 FG2 "C"F2 ED C3|"B"DB,DF ED2 (4EDB,D "C"C4-C3:|
+O"C"g^fe z g2z g2z gfef g3|g^fez g3z3 g_a=bc' g3|g^fez g2zg2z gfef g2z|
+"Bb"c'=b_ag fed efg "C"c4z3|g^fez g2zg2z gfef g2z|z2ba g^fe dc z g_a=bc' g3|
+g^fe z g2z g2z gfef g2z|ba g^f edcz2 g_bgf g4|

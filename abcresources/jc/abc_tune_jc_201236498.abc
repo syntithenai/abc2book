@@ -1,0 +1,24 @@
+X: 2222
+T: O as I was kiss'd yestreen.   a Jig.
+%R: jig, air
+B: Niel Gow & Sons "Complete Repository" v.2 p.22 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+% - - - - - - - - - -
+V: 1 staves=2
+E |\
+A>BA ABd | (e/^f/g).B A2c | (TBAB) GAG | (BAB) GAB ||\
+~cBc dcd | ede a2g | edB ABd | e2A A2 ::
+^g |\
+a2A ABA | a2A A2^f | g2G GAG | TBAB GAB ||\
+~cBc dcd | ede a2g | edB ABd | e2A A2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+a3 a3 | a3 a3 | g3 g3 | g3 g3 ||\
+a3 b3 | c'3 d'3 | e'3 e3 | a3 a2 :: z |
+a3 a3 | a3 a3 | g3 g3 | g3 g3 ||\
+a3 b3 | c'3 d'3 | e'3 e3 | a3 a2 :|

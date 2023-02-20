@@ -1,0 +1,29 @@
+X: 3133
+T: Jockey was the Blythest Lad in a' our Town
+%R: air, march, strathspey
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.3 p.3 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: "Slow"
+K: Am
+% - - - - - - - - - -
+V: 1 staves=2
+A3B |\
+(cA3) (c2e2) | (dB3) A2^G2 | ~A6 (Bc) | E6 A2 |\
+(GE3) D2C2 | [D4B,4] E2F2 | (E2A2) A2^G2 | A4 ::\
+Tc3d |\
+(e2c2) c3e | g6 e2 | Td3ed2B2 | G6 g2 |
+a2bc' (ag)(fe) | ~f6 ga | (ge3) Td3c | c4 A3B ||\
+(cA3) (c2e2) | (dB3) A2^G2 | A4- ~A2Bc | E6 A2 |\
+(GE3) D2C2 | [D4B,4] E2F2 | (E2A2) A2^G2 | A4 :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z4 |\
+[a4e'4] [c'4e'4] | b2d'2 e'4 | [c'4e'4-] [a4e'4] | [e4^g4b4] "_sf"c4 |\
+B2c2 d2e2 | "^sf"f4 e2d2 | c4 e2E2 A4 :: "^f"z4 |\
+c4 c'4 | "^sf"e4 c4 | G4 g4 | G4 "^p"[e4c'4] |
+[f4c'4] [e4c'4] | [a2c'2-][g2c'2] f4 | "^cres"g4 G4 | [c4C4] "^p"z4 ||\
+[a4e'4] [c'4e'4] | b2d'2 e'4 | [c'4e'4-] [a4e'4] | [e4^g4b4] "_sf"c4 |\
+(B2c2) (d2e2) | "_sf"f4 e2d2 | c4 e2E2 | A4 :|

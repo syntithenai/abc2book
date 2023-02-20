@@ -1,0 +1,17 @@
+X:329
+T:Hole in the Wall
+%%MIDI beat 100 95 80
+%%MIDI gchord fcHcfc
+C:Henry Purcell, from "Abdelazer", 1695.
+N:Originally in B flat.
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=84
+M:3/2
+L:1/4
+%%MIDI ratio 3 1
+K:G
+P:A
+|: "G"B>c (B/c/)d "D"Ad | "Em"G>A (G/A/)B "Bm"FB | "C"E>F (E/F/)G "G"DB | "Am"G2- "D"GF "G"G2 :|
+P:B
+"Em"g>f (e/f/)g "Am"fe | "B7"^d>e (d/e/)f Bf | "Em"g>f (e/f/)g "Am"fe | "B7"e2- e^d "Em"e2 |
+"C"E>F (E/F/)G "D"(F/G/)A | "Em"G>A (G/A/)B "D"(A/B/)c | "G"B>c (B/c/)d "Bm"Dd | "Em"B2- "D7"B(A/B/) "G"G2 |]

@@ -1,0 +1,79 @@
+X: 1
+T: Hemp dresser
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.110 #161 (219)
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.60
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Dance description is in a 4-section, 2-column layout, indicated here with ## and a tab for indentation.
+M: 6/4
+L: 1/4
+K: none
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+B>cd d2c  | B>cd D>E^F | G2G G2A | B3 c3 |][|\
+B>AB G>AB | A>GA D>E^F | G2G G2A | B3 c3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up all a D. forward and back .| That again :|
+%% ##
+%%		First Man change Places with the 2d Wo. .| Then with the 3d
+%%		Man :| Then with the 4t Wo. :| Then with the 5th Man :|:|
+%%		Then with the 6th and so to the last .
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Sides all :| Lead up as before.
+%% ##
+%%		As before, the We. doing it :| :| All do this, changing as before :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Sides all .| That again :|
+%% ##
+%%		First Cu. cross over fall into the 2d Place .:| Cross again, fall
+%%		into the 3d Place :| Cross again, fall into the 4th Place :|
+%%		And so to the End, every Cu. doing the like.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Arms all .| That again :|
+%% ##
+%%		Turn your own Wo. changing Places :| Turn each the 2d
+%%		:| Turn each the 3d :| Turn each the 4th and so to the
+%%		last, the rest following.
+%% [CCDM1]
+%%endtext
+%%sep 1 8 500
+%%begintext align
+%% Lead up all a D. forward and back .| That again :|
+%% ##
+%%		First man change places with the 2. wo .| Then with the 3. man :|
+%%		Then with the 4. wo .:| then with the 5. man :|:| Then with the
+%%		6. And so to the last.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Sides all .| Lead up as before.
+%% ##
+%%		As before, the we doing it :|:| All do this changing as before :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Sides all .| That again :|
+%% ##
+%%		First cu. cross over, fall into the 2. place .:| Cross again, fall into
+%%		the 3. place :| Cross again, fall into the 4. place .:| And so to the
+%%		end, every cu. doing the like.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Arms all .| That again :|
+%% ##
+%%		Turn your own wo. changing places .| Turn each the second :|
+%%		Turn each the third .:| Turn each the fourth, and so to the last;
+%%		the rest following.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

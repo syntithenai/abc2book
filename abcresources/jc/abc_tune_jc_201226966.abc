@@ -1,0 +1,28 @@
+X: 10541
+T: CRO NAN GOBHAR.--"THE GOAT PENN."
+O: Gaelic air.
+P: Usually played as a dance.
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.54 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: 2nd ending of 2nd strain has initial repeat symbol; ignored.
+M: 6/8
+L: 1/8
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c !segno! |\
+A>cd cAF | A/B/cA c<Gc |\
+A>cd cAF | {A}f2e Td2c |\
+A>cd cAF | (A/B/)cA cGc |\
+A>GF AfHa | gfe {e}"^Fin."d2 H:|\
+|: f |\
+cAA fAA | aAA cGG |
+cAA fAA | ae^c d2f |\
+[1 cAA fAA | aAA cGc |\
+A>GF AfHa | gfe d2 :|\
+[2 c>de fga | gfe fed |\
+{d}c>AF AfHa | gfe d2f !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

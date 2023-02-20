@@ -1,0 +1,22 @@
+X:1
+%
+T:Nun bin ich einmal frey
+C:J. Regnart
+L:1/4
+M:C|
+K:GDorian
+%%indent 1.5cm
+V:S clef=treble name=Sopran bracket=3
+V:A clef=treble name=Alt
+V:T clef=treble8 name=Tenor
+V:L clef=frenchtab name=Laute
+%
+[V:S] B2  A   d | c   B   A2 | z B   A   d | c   B   A2 |  
+w:   Nun bin ich ein-mal frey,  nun bin ich ein-mal frey   
+[V:A] G2  F   B | A   G  ^F2 | z G   F   B | A   G  ^F2 |  
+w:   Nun bin ich ein-mal frey,  nun bin ich ein-mal frey 
+[V:T] G2  d > e | f   g   d2 | z G   d > e | f   g   d2 | 
+w:   Nun bin ich ein-mal frey,  nun bin ich ein-mal frey  
+[V:L] [aabc2] [,da,c1] [,d/] [,,,,e] | [,d,a1] [,abc] [,aa,c2] | z1 [,abc] [,aa,c] [,d/] [,,,,e] | [,d,a1] [,abc] [,aa,c2] |
+% bar 5
+

@@ -1,0 +1,68 @@
+X: 1
+A:Adam de la Halle
+T:J'os bien mamie/Je n'os a ma mie/Seculum
+M:3/4
+L:1/4
+Q:1/4=120
+K:C Lydian
+%
+V:1 clef=treble
+V:2 clef=treble
+V:3 clef=treble-8 middle=B,
+%%MIDI program 1       72 piccolo
+%%MIDI program 2       74 recorder
+%%MIDI program 3       70 bassoon
+%%sysstaffsep    28.0pt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% triplum %%%%%%%%%%%%%%%%%%%%%%%%%%%
+[V:1]
+    c2 B/4A/4G/ | F2 (E/F/)| G2 (A/B/)|
+w: J'os  bien**   à         m'a-* mie       par-*
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   d2 c/4B/4A/|B2 (A/B/)|c2 z | (BA) A/4G/4F/|
+w: ler  lès** son        ma-* ri,     Et*   bai-**
+    G2 (A/B/)|c2 B/4A/4G/|F2    G|(A/G/A)
+w: sier       et*  a-   co-**  ler d'en-      cos-**
+    B|c2 z | d2 c/4B/4A/|G2 A/4B/4c/ |
+w: té li;    Et   lui**  ort  ja-**
+   (BA)    G|(AG)  F|(GA) (c/4B/4c/)|A2 z |
+w: lous* cla-mer* Wi-hot*    aus-**  si,
+   c2 B/4A/4G/|(AG) F/4E/4D/|D2 (F/G/)|
+w: Et   hors**  de*   sa**   mai-      son*
+  (AG)  F| G2 z | G2 G/4F/4E/|D2 (E/F/) |
+w: en-*frem-er,    Et   tous** mes      bons*
+   G2 (A/B/)|c2 B/4A/4G/|(AB) (A/G/)|A2
+w: de        ma-*miet- te**    a-*       che-* ver,
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   G|(GF)  E|(F/E/D) (G/A/)|G/4F/4E/  D  E|=F2 z ||
+w: et le* vi-       lai-**       ne*    fai-** re mu-ser
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% duplum %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[V:2]
+   G2   A |B2 (A/B/)|c2  B|(c/B/A)
+w: Je n'os à         ma*  mie a-       ler**
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ (G/A/)|(G/^F/E)   F|G2 z |(EF)
+w:      Pour*         son** ma-ri    Que*
+ (E/D/)|C2  E |G2    A|B2  G|
+w:      il*  ne se peust de mi Gar-
+  (AG)  F |G2 z | A2   B|c2
+w: de* do- ner.   Car je ne
+ B/4A/4G/| F2 (G/A/) | G F/4E/4D/ (E/F/)|
+w: puis** gar-**           der  D'en-**       cos-*
+(E/D/C) D|E2 z | G2  F|(E/D/E)  F|
+w:     té**  li*      De son       bel** vi-
+   G2 (F/G/)|A2  B | c2 z | c2 (B/c/)|(B/A/G)
+w: ai-       re*  re-gar-der,    Car       en-*        tre**
+(G/F/)|(E/D/C) (D/E/)|(G/A/GF)|(E/F/E) D | E2
+w:     a-*         mie**        et*         a-***         mi**  An jeux
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    D |(CB,) C |D2  E|(DC) (C/B,/)|C2 z ||
+w: sont a*  che-ler Li mal*       d'a-* mer.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% tenor %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[V:3]
+C3 | B,3 | C3 | D3 | E3 | C3 |
+w:Seculum
+                               B,3 | C3 | C3 | B,3 | D3 | C3 |
+D3 | C3 | B,3 | A,3 | A,3 | A,3 |
+                                 C3 | A,3 | G,3 | A,3 | C3 |
+C3 | A,3 | C3 | C3 | B,3 |
+                          A,3 | C3 | G,3 | G,3 | =F,3 ||

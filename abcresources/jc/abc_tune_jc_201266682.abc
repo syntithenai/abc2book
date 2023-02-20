@@ -1,0 +1,28 @@
+X: 1
+T: Danced with me the Beautiful Maiden
+T: 'Miss Lyall'
+C: trad.
+R: march
+N: Simplified highland-pipes version, without ornaments.
+N: The book has A major, but it's rally A mixolydian.
+S: Fiddle Hell Online 2021-11
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Amix
+"^A"[| d/ \
+|  B>A (3AAA (3BAA B>A | (3GGG B>A A>G G>d |\
+[1 B>A (3AAA (3BAA B>A | Be (3edB BA A3/ :|\
+[2 ee d>B c>A B>G | Be (3edB BA A> |]
+"^B"|: B/ |\
+|  A<a a>e g>a (3gfe | A<a a>e g2 \
+[1 f>e | A<a a>e (3fga (3efg | (3edc (3dcB BA A3/ :|\
+[2 (3efg | (3agf (3gfe (3fed (3cde | (3fed (3dcB BA A3/ |]
+"^C"|: B/ \
+|  A2 A>B A2 BA | (3GGG G>B d>e dB |\
+[1 A2 A>B A2 BA | Be (3edB BA A3/ :|\
+[2 e>G d>G (3Bcd (3GGG | Be (3edB BA Ae/ |]
+"^D":| B/ |\
+|  (3GGG g>G d>G e>d | (3BBB d>B (3ege (3dBB |\
+[1 (3GGG g>G d>G (3Bcd | Be (3edB BA A3/ :|\
+[2 g>a (3fed (3efg (3Bcd | Be (3edB BA A2 |]

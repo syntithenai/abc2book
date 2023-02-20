@@ -1,0 +1,38 @@
+X: 4071
+T: Green Sleeves
+%R: air, jig
+B: Niel Gow & Sons "Complete Repository" v.4 p.7 #1 (top 4 staves continued from p.6)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "SLOWLY"
+K: Gm
+% - - - - - - - - - -
+% Voice 1 reformatted for 4 i-bar lines, for compactness and proofreading.
+V: 1 staves=2
+F \
+[B2D2][BD] TB>cd | c<AF F2G/A/ | TB>AG GAB | A^FD D2A ||\
+B2B TB>cd | cAF F2d/c/ | [B3G3D3] [A3^F3D3] | [G3-D3B,3] [G2D2B,2] :|
+|: =e |\
+Tf>gf f=ed  | cAF A2^f | gdg gab | a^fd d2=e ||\
+~f>gf f=ed | cAF F2d/c/ | [B3G3D3] [A3^F3D3] | [G3-D3B,3] [G2D2B,2] :|
+|: B/c/ |\
+!f!dBG dBG | cAF cAF | dBG dBG | A^FD A^FD ||\
+fdB fdB | cAF Adc | TB>AG A^FD | {F}[G3-D3B,3] [G2D2B,2] :|
+|: d/c/ |\
+!p!(Bd).f (Bd).f | (Ac).f (Ac).f | (GB).d (GB).d | .^F.A.d D2(b ||\
+a)d(g f)B(e | d)BG (^F/G/HA)D | (GB)d (D^F)A | [G3-D3B,3] [G2D2B,2] :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+Bdf b3 | FAc f2z | G2g e3 | dA^F D2e || dBf b3 | FAc f2^F | 
+Gdg DAd | GBd g2 :| |: z | [a3c'3] [b3c'3] | [a3c'3] [f2a2c'2]d | Gdg e3 | dA^F D2[bc'] || [a3c'3] [b3c'3] |
+[a3c'3] [f2c'2]^F | Gdg DAd | GBd g2 :| |: z | !f!GBd g3 | FAc f3 | GBd g3 | D^FA d3 || Bdf b3 |
+FAc f2^f | [G3g3] [D3d3] | GBd g2 :| |: z | !p!Bdf b3 | FAc f3 | GBd g3 |
+D^FA d2(g' || f'2)(e' d'2)(c' | b2)g d'2z | [G3g3] [D3d3] | GBd g2 :|
+% - - - - - - - - - -
+%%begintext align
+%% * The two first Strains of the Old Tune were chosen by the Author of the Beggar's Opera for one of Captain Macheath's
+%% songs, beginning "Since Laws were made for every Degree" &c.
+%%endtext

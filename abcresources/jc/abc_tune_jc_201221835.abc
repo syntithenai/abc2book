@@ -1,0 +1,31 @@
+X: 051
+T: Corn riggs are bonny
+%R: air, strathspey
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.5 #1
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Q: "slow"
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1
+D2 |\
+~G2G>A B2(TA>G) | TF>EF>G JA2D2 | ~G2G>A B>cTBA | G2(d>e) d2D2 |
+(TGF)GA B2TA>G | TF>EFG JA2(TGF) | EFGE AGTF>E | D2(G>A) G2 :|
+|: D2 |\
+G2d>c (Bcd)G | TF>E(FG) JA2D2 | G2d>c BcTB>A | G2 d4 D2 |
+G2d2 (ed)(TcB) | (cB)(TAG)  FG A(G/F/) | E>FG>E AGTF>E | D2(G>A) G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+z2 |\
+z2d2 g2"6"c'2 | d'2zg d2d'>c' | ("6"b>a"6"b)"6"c' "6;4"d'2"5;3"d2 | g2G2 g2d'>c' |\
+"6"b"6"a"6"b"6"f g2"6"c'2 |
+d'3g d2"6"B2 | c2 "5 6"c'4 "6;5"c2 | "4"d2"3"D2 G2 :|\
+|: z2 |\
+z2d2 g"6"a"6"bc' | d'3g d>edc | "6"B2"6"F2
+G2"6;4"d>"4;2"c | "6"BcBA GFGA |\
+"6"BABG c3"6"d | "6"e"6"d"6"c"6"B "6"A3"6"B | c2 "5 6"c'4 "6;5"c2 | "4"d2"3"D2 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,27 @@
+X: 1
+T: the New Coblers Jigg
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (69)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The note lengths at the end of the strains don't add up correctly.
+N: What lyrics should the dancers sing for this dance?
+M: C
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+d4 d3e | ^c3=B Acde | f4 f3g | e3d c2f2 | efef gfge | f4- f4 |]
+fg |\
+a2aa aaaa | abag f2ef | g2g2 g2g2 | gagf e4 |\
+f3e dfed | ^c3B A2fg | a3e e3d | d4 d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First and 2d Cu. sides and at the same time together and
+%% turn .| Then both Cu. take Hands Jigg it and turn :| Then
+%% the 1st and 2d Cu. fall on their Knees with Faces outwards
+%% working like Coblers and sing, then up and fall on your
+%% Knees as before, Faces inwards, sing with the Musick to the
+%% end of the Tune, 1st Cu. cast off.
+%%endtext
+%%sep 1 8 500

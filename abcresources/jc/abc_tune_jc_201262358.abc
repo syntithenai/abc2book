@@ -1,0 +1,25 @@
+X: 1
+T: Cindy and Carol
+C: Rebecca Rose Weiss (June 2021)
+%D:2021-6
+R: march
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: G
+% = = = = = = = = = =
+V: 1 staves=2
+|:\
+"G"G2 G>A | B G2 F | "C"E2 E>F | G E2 "Am"E | "G"D>E DC |\
+"Em"B,D GB |1 "C"AG FG | "D"AD EF :|2 "C"AG "D"FA | "G"GABc ||
+|:\
+"G"d2 d>e | dc BA | "C"G>F GA | GF "Am"E2 | "G"D>E DC |\
+"Em"B,DGB |1 "C"AG FG | "D"Ad Bc :|2 "C"AG "D"FA | "G"G4 |]
+% = = = = = = = = = =
+V: 2
+|:\
+B2 B>c | d B2 A | G2 G>A | B G2 G | G>G GE |\
+DG Bd |1 cB AB | cF GA :|2 cB Ac | Bc df ||
+|:\
+g2 g>g | ge dc | B>A Bc | GA G2 | G>G GE |
+DG Bd |1 cB AB | cg df :|2 cB Ac | B4 |]

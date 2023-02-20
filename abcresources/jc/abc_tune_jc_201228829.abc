@@ -1,0 +1,22 @@
+X: 11683
+T: MRS. PARKER'S STRATHSPEY
+%R: strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.168 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+e2 |\
+d3c {c}B3A ce3 c4 | d3c{c}B3A GB3 E4 |\
+d3c{c}B3A ce3a3g | {g}f3ef3g a4 A2 :|\
+e2 |\
+a3e agfe a3ec3A | | G3BE3B G3BE3e |
+a3e agfe a3ec3A | G3BE3(G A4 A3)e |\
+a3e agfe a3ec3A | G3BE3B G3BE3B |\
+A3cB3d c3ed3f | agfe f3g a4 A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

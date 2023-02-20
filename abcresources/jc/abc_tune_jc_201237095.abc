@@ -1,0 +1,24 @@
+X: 241
+T: 1er Les Cerceaux
+%R:
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.24 #1
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain's repeat symbols conflict with the "1.F." ("un Fois" = "one Time").
+M: 2/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G,A,B,C |\
+D2D2 D2D2 | D2G2 A2B2 | c2A2 BABc | B2B2 G,A,B,C |\
+D2D2 D2D2 | D2E2 F2G2 | B,4 A,4 | G,4 :|
+|: "2.F."DEFG |\
+A2A2 A2A2 | A2G2 A2d2 | c4 !+!B4 | A4 G,A,B,C |\
+D2D2 D2D2 | D2E2 F2G2 | B,4 !+!A,4 | G,4 :|
+|: "1.F."cBA^G |\
+A4 cBA^G | A2D2 E2F2 | G2C2 B,2A,2 | B,2G,2 cBA^G |\
+A4 cBA^G | A2D2 E2F2 | G2C2 B,2A,2 | G,4 :|
+|: B,2C2 |\
+"2.F."D4 E2D2 | C2B,2 A,2B,2 | C4 D2C2 | B,2A,2 G,2A,2 |\
+B,4 CB,A,G, | A,4 CB,A,G, | A,2C2 B,2A,2 | G,4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

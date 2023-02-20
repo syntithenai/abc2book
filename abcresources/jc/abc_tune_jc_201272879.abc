@@ -1,0 +1,19 @@
+X:222
+T:Elverton Grove
+C:Handel, published by Walsh, 1712
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+N:Also for the dance "A Trip to the Camp" which requires two B's
+N:Hear Handel's original at 10:17 in https://www.youtube.com/watch?v=VPVwhTnqPt4
+%%stretchstaff 0
+Q:1/2=120
+M:2/2
+L:1/4
+K:A
+|: E | "A"Af "D"ed | "A"c2 "E"B3/A/4B/4 | "A"cE "E"BE | "A"cE "E"BE |\
+"F#m"Af "D"ed | "A"c2 "E"B3/c/ | "Bm"dc/B/ "E"cB/A/ | "A"A3 :|
+d | "C#7"cB AG | "D"F2 f2 | "F#m"cB "C#7"AG | "F#m"F/^E/F/G/ Fd |\
+"F#m"cB "C#7"AG | "F#m"F2 f2 | "F#m"cB "C#7"AG | "F#m"F3f/g/ |
+"F#m"ag/f/ "E"gf/e/ | "D"fe/d/ "A"ed/c/ | "Bm"dc/B/ "A"cB/A/ | "E"B/A/G/F/ Ee |\
+"A"e2- "E/G#"ee | "F#m"e2- "E"ef/g/ |
+"F#m"ag/f/ "E"gf/e/ | "D"fe/d/ "A"ed/c/ | "Bm"dc/B/ "A"cB/A/ | "E"B/A/G/F/ Ee |\
+"D"fA "A"eA | "E7"d2 "A"c2 | "D"F/G/A "E"EG | "A"A3 |]

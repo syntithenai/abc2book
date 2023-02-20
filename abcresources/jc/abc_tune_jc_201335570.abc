@@ -1,0 +1,26 @@
+X: 1
+T: Seperatorl\aatten
+C: Johanned Ormbergt\ol
+D: "Josted\ol'n" Heilo 7012
+R: shottish
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 2/4
+L: 1/8
+K: D
+"A7"A,C "A"\
+| "D"{C}D2 DC | {C}D2 DC | {C}D2  DC  |  {C}D2 D2 \
+|     D>E F<G | "A"A2 AF | "D"D>E F<G | "A7"AA, B,C |
+| "D"{C}D2 DC | {C}D2 DC | {C}D2  DC  |  {C}D2 D2 \
+|     D>E F<G | "A"A2 AC | "D"D2  D2  | "fine"D2 y :|
+K: A
+|: "E7"E^G "B"\
+| "A"{G}A2 AG | {G}A2 AG | {G}A2  AG  |  {G}A2 A2 \
+|     A>B c<d | "E"e2 ec | "A"A>B c<d | "E7"eE FG |
+| "A"{G}A2 AG | {G}A2 AG | {G}A2  AG  |  {G}A2 A2 \
+|     A>B c<d | "E"e2 eG | "A"A2  A2  | A2 y :|
+|: "A7"ef "C"\
+|: "D"{f}=g2 fe | {e}f2 fd | "A"e>f   ec |     A2 cA \
+|    "E"E>F G<A | {A}B2 BG | "A"A>B  c<d | "A7"e2 ef |
+|  "D"{f}=g2 fe | {e}f2 fd | "A"e>f   ec |     A2 cA \
+|    "E"E>F G<A | {A}B2 BG | "A"{G}A2 A2 |     A2 y :|

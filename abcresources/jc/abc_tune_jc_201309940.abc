@@ -1,0 +1,21 @@
+X: 1
+T: the Milton Strathspey
+C: James Stevenson (1996)
+R: strathspey
+B: The Tin Woodsman
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+e2 \
+| "A"c<e e>a "Bm"f<d B>d | "C#m"c<G G>E "D"F2 "E7"e>d \
+| "A"c<e e>a "D"f<d b>a | "E7"g>e d<e "A"c2 e2 |
+y3 \
+| "A"c<e e>a "Bm"f<d B>d | "C#m"c<G G>E "D"F2 "E7"E>D \
+| "A"C>E A<c "Bm"d>B F>A | "E7"(3GEe (3dcB "A"A2 |]
+A>G \
+| "D"F<A A>F "A"E2 C2 | "Bm"D>C "E7"D>E "A"C2 A>G \
+| "D"F<A A>F "A"E2 A2 | "B7"B>A B<c "E"e2 a>g |
+y3 \
+| "Fm"f<a a>f "C#m"e2 c2 | "Bm"B>c B>A "D"F2 "E7"E>D \
+| "A"C>E A<c "Bm"d>B F>A | "E7"(3GEe (3dcB "A"A2 |]

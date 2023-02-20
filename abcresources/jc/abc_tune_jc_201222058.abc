@@ -1,0 +1,35 @@
+X: 54
+T: Buncus
+%R: reel
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.27
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats adjusted to match the Note.
+M: 2/4	% The book has just "2".
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A4 c3d | e3fe2a2 | g2f2e2d2 | cdcB A2E2 |\
+A4 c3d | e3f e2a2 | g2(fe) f2^d2 | e8 :|
+[|\
+e4 f3g | a6 e2 | f2e2d2c2 | (BAB)c B2e2 |\
+(BAB)c B2f2 | (BAB)c B2g2 | a2gf Tf3^e | f4 z2(fg) |
+a2g2f2e2 | (^ded)c B2f2 | (ded)c (BcB)A | G3F E2fg |\
+a2g2f2e2 | dedc B3a | g2(fe) f2^d2 | e8 |]
+[|\
+A4 c3d | e3fe2a2 | g2f2e2d2 | c3BA2f2 |\
+f2(dc) e2(dc) | d2cB c2a2 | b2(ag) a2(gf) | g2(fe) (f2ed) |\
+c2a2B2g2 | a8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Note: The first Strain is to be play'd twice, the two last but once.
+%%begintext align
+%% The 1st Cu. cast off and figure thro' the 3d Cu. then thro' the 2d and
+%% stand in the 2d Cu. Place .| 1st Man hey on the Wo. side, and the 1st
+%% Wo. on the Mens side :| the 1st Cu. being in the 2d Cu. Place, the 1st
+%% Man leads to the 3d Wo the 1st Wo. the 3d Man Back again clap all 4
+%% contrary Partners and turn .| Cross Corners, 1st Man lead out the 2d Wo.
+%% to the Wall, right hand and round all 6, 1st Cu. comes in 2d Cu. Place.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

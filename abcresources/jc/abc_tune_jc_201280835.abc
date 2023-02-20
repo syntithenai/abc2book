@@ -1,0 +1,70 @@
+
+X: 1
+T: Glade Jul
+T: Silent Night [C]
+C: Melody: Franz Gruber
+C: Words: Bernhardt S. Ingemann
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+[|"C"[GE]>[AF][GE] [E3C3] | "C"[GE]>[AF][GE] [E3C3] \
+| "G7"[d2G2][dG] [B2F2][BF] | "C"[c2E2][cE] [G3E3] ||
+w: 1.~Gla-*de jul, hel-li-ge jul! Eng-ler da-ler ned i skjul.
+w: 2.~Ju-*le fryd, e-vi-ge fryd! Hel-lig sang med him-melsk lyd.
+w: 3.~Fred* p\aa jord, fryd* p\aa jord, Je-sus bar-net~i blant oss bor.
+w: 4.~Sa-*lig fred, him-*melsk fred to-ner ju-le natt her ned.
+   "F"[A2F2][AF] [cA]>[BG][AF] | "C"[GE]>[AF][GE] [E3C3] \
+| "F"[A2F2][AF] [cA]>[BG][AF] | "C"[GE]>[AF][GE] [E3C3] ||
+w: Hit de fly-ver med pa-ra-dis-gr\ont, hvor de ser hva for Gud_ er skj\ont,
+w: Det er eng-ler som hyr-de-ne s\aa den gan Her-ren i kryb-*ben l\aa.
+w: Eng-ler syng-er om barn-et s\aa smukt, han har him-mer-iks d\or* opp-slukt.
+w: Eng-ler bring-er til sto-re og sm\aa bud om ham som i kryb-*ben l\aa.
+   "G7"[dG]>[dG][dG] [fB]>[dG][BF] | "C"[c3E3] [e2G2]z \
+| [cE2][GE][EC] "G7"[GB,]>[FD][DB,] | "C"[C3C3] z3 |]
+w: L\onn-lig i-blant oss de g\aar,_ l\onn-lig i-blant oss de g\aar.
+w: E-vig er eng-le-nes sang,_ e-vig er eng-le-nes sang.
+w: Sa-lig er eng-le-nes sang,_ sa-lig er eng-le-nes sang.
+w: Fryd deg hver sjel han har frelst,_ fryd deg hver sjel han har frelst.
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: Silent Night [D]
+T: Stille Nacht
+T: Glade Jul
+C: Franz Gruber
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+[| "D"[AF]>[BG][AF] [F3D3] | "D"[AF]>[BG][AF] [F3D3] \
+| "A7"[e2A2][eA] [c2-G2-][cG] | "D"[d2F2][dF] [A3F3] \
+|| "G"[B2G2][BG] [dB]>[cA][BG] | "D"[AF]>[BG][AF] [F3D3] |
+|  "G"[B2G2][BG] [dB]>[cA][BG] | "D"[AF]>[BG][AF] [F3D3] \
+|| "A7"[e2A2][eA] [gc]>[eA][cG] | "D"[d3F3] [f2A2]z \
+| [dF2][AF][FD] "A7"[AC]>[GE][EC] | "D"[D3D3] z3 |]
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 3
+T: Silent Night [Bb]
+T: Stille Nacht
+T: Glade Jul
+C: Franz Gruber
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+[|"Bb"[FD]>[GE][FD] [D3B,3] | "Bb"[FD]>[GE][FD] [D3B,3] \
+| "F7"[c2F2][cF] [A2-E2-][AE] | "Bb"[B2D2][BD] [F3D3] \
+||"Eb"[G2E2][GE] [BG]>[AF][GE] | "Bb"[FD]>[GE][FD] [D3B,3] |
+| "Eb"[G2E2][GE] [BG]>[AF][GE] | "Bb"[FD]>[GE][FD] [D3B,3] \
+||"F7"[c2F2][cF] [eA]>[cF][AE] | "Bb"[B3D3] [d2F2]z \
+| [BD2][FD][DB,] "F7"[FA,]>[EC][CA,] | "Bb"[B,3B,3] z3 |]

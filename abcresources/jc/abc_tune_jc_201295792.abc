@@ -1,0 +1,37 @@
+%%pageheight   35cm
+%%pagewidth    22cm
+%%staffwidth   12cm
+
+X: 1
+T: Katarina
+C: harm. Hans-Ers 2020
+C: efter "Rimsen" Erik Rimsrom
+R: polska
+S: Fiddle Hell Online 2021-11-4 Lena Jonsson workshop
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: G
+% = = = = = = = = = =
+% Voice 1 has staff layout for a wide "landscape" screen/window:
+V: 1 staves=2
+|:\
+"G"(ga)gf (ga)gf (ga)gf | (g2b2) "D"(ba)fa "G"g4 |\
+(Bc)BA (Bc)BA (Bc)BA | (B2d2) "D"(AB)cA "G"B4 |\
+"G"G2Bc d2AB "D"c2B2 | "G"(GA)Bc (dc)AB "D"c2B2 |
+(GA)Bc "Em"(de)fg "C"a2c2 | "D"(Bc)AF "G"[G8G,8] ::\
+"D"D2d2 d2^cd "A"e2dc | "D"d2a^g "A"a2ef "Em"=g2f2 |\
+g2ab "D"f2ga "A"e2fg | "A/c#"(fe)d^c  "D"(dA)FA D4 |
+"G"D2d2 (d=c)Bc (d2b2) | (b2d2) d2cB "Am"c4 |\
+(cB)AB (cB)AB "D"(c2a2) | "D"(a2c2) c2BA "G"B4 |\
+(GA)Bc "Em"(de)fg "C"a2c2 | "D"(Bc)AF "G"[G8G,8] :|
+% = = = = = = = = = =
+% Voice 2 preserves the source's staff layout:
+V: 2
+|:\
+(Bc)BA (Bc)BA (Bc)BA | (B2d2) "D"(dc)Ac "G"B4 | (GA)GF (GA)GF (GA)GF | (G2B2) "D"(FG)AF "G"G4 |\
+"G"D2GG B2FG "D"A2G2 | "G"(B,D)GA (BA)FG "D"A2G2 | "G"(B,D)GA "Em"(Bc)de "C"c2E2 | "D"(FE)DC "G"[D8B,8] :|\
+|:\
+"D"A,2F2 F2EF "A"G2FE | "D"F2fd "A"^c2cd "Em"e2d2 | B2=cd "D"A2BF "A"G2AB | "A/c#"(AG)FE "D"F2DF A,4 |\
+"G"B,2B2 (BA)GA B2g2 | g2B2 B2AG "Am"A4 | (AG)FG (AG)FG "D"(A2f2) |
+"D"(f2A2) A2GF "G"G4 | (B,D)GA "Em"(Bc)de "C"c2E2 | "D"(FE)DC "G"[D8B,8] :|

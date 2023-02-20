@@ -1,0 +1,21 @@
+X: 5
+T: Willy Wimble's Favorite
+%R: jig
+B: "Twenty Four Country Dances with Figures for the Year 1810", Button & Whitaker, p.3 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1810
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+ege c3  | BdB G2^G | Aag fed | cBc d3 |\
+ege c3  | BdB G2^G | Aag fed | cBd c3 :|
+|:\
+dBG f3  | ecG g2e  | agf edc | BdB G2^G |\
+AFA c2A | BGB g2f  | eag fed | cBd c3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%     Set & hands across back again lead down the
+%% middle up again right & left at top.
+%%endtext

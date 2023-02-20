@@ -1,0 +1,89 @@
+
+X: 1
+T: Shalom Aleichem #1   [Dm]
+D: Andy Statman & David Grisman "Songs of our Fathers"
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: a/8
+K: Dm
+[|"Dm"A2 fe d2 dd | "A7"^cd ed cB A2 | ^cc c2 "Dm"dc df | "A7"e4 z4 |
+w: Sha-lom a-lei-chem mal'a- che* ha-sha-ret__ ma-l'a-che el-***yon.
+  "Dm"A2 fe d2 dd | "A7"^cd ed cB A2 | "Gm"GG d2 ^c2 B{A}G | "A7"A4 z4 |
+w: Mi-**me-lech mal-che*ha-m'la-chim__ ha-ka-dosh ba-ruch_ hu.
+  "F"fg a2 a2 a2 | "C7"gf ef "A7"ga g2 | "Dm"fe de fa gf | "A7"e4 z4 |
+w: Bo-'a-chem~l'-sha-lom ma-l'a-che ha-sha-*lom: ma-l'a-che_ el-___yon
+  "Gm"e2 g2 g2 gg | "A7"gb ag "Dm"fe d2 | f2 ed "A7"e2 d^c | "Dm"d4 z4 |]
+w: Mi-*me-lech mal-'che* ha-m'la-chim__ ha-ka-dosh ba-ruch_ hu.
+
+%%sep 1 1 500
+
+X: 1
+T: Shalom Aleichem #1   [Dm]
+D: Andy Statman & David Grisman "Songs of our Fathers"
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: a/8
+K: Dm
+[|"Dm"A2 fe d2 d2 \
+| "A7"^cd ed cB A2 \
+|1 ^cc c2 "Dm"dc df \
+| "A7"e4 a4 \
+:|2 "Gm"G2 d2 ^c2 B{AB}G \
+| "A7"A4 z4 \
+[|"F"fg a2 a2 a2 |
+| "C7"gf ef "A7"ga g2 \
+| "Dm"fe de fa gf \
+| "A7"e4 z4 \
+||"Gm"e2 g2 g2 g2 \
+| "A7"gb ag "Dm"fe dA \
+| f2 ed "A7"e2 d^c \
+| "Dm"d4 z4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Shalom Aleichem #1   [Em]
+D: Andy Statman & David Grisman "Songs of our Fathers"
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: a/8
+K: Em
+[|"Em"B2 gf e2 e2 \
+| "B7"^de fe dc B2 \
+|1 ^dd d2 "Em"ed eg \
+| "B7"f4 b4 \
+:|2 "Am"A2 e2 ^d2 c{Bc}A \
+| "B7"B4 z4 \
+[|"G"ga b2 b2 b2 |
+| "D7"ag fg "B7"ab a2 \
+| "Em"gf ef gb ag \
+| "B7"f4 z4 \
+||"Am"f2 a2 a2 a2 \
+| "B7"ac' ba "Em"gf eB \
+| g2 fe "B7"f2 e^d \
+| "Em"e4 z4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Shalom Aleichem #1   [Bm]
+D: Andy Statman & David Grisman "Songs of our Fathers"
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: a/8
+K: Bm
+[|"Bm"F2 dc B2 B2 \
+| "F7"^AB cB AG F2 \
+|1 ^AA A2 "Bm"BA Bd \
+| "F7"c4 f4 \
+:|2 "Em"E2 B2 ^A2 G{FG}E \
+| "F7"F4 z4 \
+[|"D"de f2 f2 f2 |
+| "A7"ed cd "F7"ef e2 \
+| "Bm"dc Bc df ed \
+| "F7"c4 z4 \
+||"Em"c2 e2 e2 e2 \
+| "F7"eg fe "Bm"dc BF \
+| d2 cB "F7"c2 B^A \
+| "Bm"B4 z4 |]
+

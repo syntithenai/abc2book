@@ -1,0 +1,18 @@
+X: 183
+T:Jeni Jol
+O:Macedonia
+F: http://www.youtube.com/watch?v=HuILk_WlemE
+F: http://www.youtube.com/watch?v=pP_5jZZZ-bo
+M:2/4
+L:1/8
+K: Dm
+Q:1/4=96
+%%MIDI program 69
+%%MIDI drum dzdz 41 35
+%%MIDI drumon
+|:A A/G/ Ad   |cBAG       |G G/F/ GB    |AGFE      |F F/E/ FG|
+  [1ABGB      |A3d        |^ced2        :|[2AGFE   |DFAF     |D4|
+|:D/E/D/^C/ DE|F/G/F/E/ FG|[1A/B/A/G/ AB|AGFE      :|
+  [2ABGB      |A2         |FGGG         |G/A/G/F/Gz|
+  G/A/G/F/ GB |AGFE       |F/G/F/E/ FG  | ABGB     |
+  A3d         |^ced2      |EFEF         |AGFE      |D4       |

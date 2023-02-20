@@ -1,0 +1,41 @@
+X:1
+T:Mrs. Flora Duncan  "CYMRU"
+M:C
+L:1/8
+Q:80
+C:
+S:4/4 March
+K:HP
+A[ | \
+{g}f2{gfg}fa{Gdc}d2{e}Ad | \
+{g}d/2{e}A3/2{g}c3/2d/2{gef}e3A | \
+{g}e2{A}e3/2f/2{gf}g3/2e/2{gcd}c{e}A |
+{g}A/2d3/2{gdG}d3/2e/2{gfg}f3{g}A | | \
+{g}f2{gfg}fa{Gdc}d2{e}Ad | \
+{g}d/2{e}A3/2{g}c3/2d/2{gef}e3{GAG}A |
+{ag}a3/2g/2fa{f}g3/2e/2{gcd}cA | \
+{GAG}A/2g3/2{a}f3/2e{Gdc}d3A|] [ | \
+{GAG}A2{gBd}B{e}A{Gdc}d2{e}Ad |
+{g}d/2{e}A3/2{g}c3/2d/2{gef}e3A | \
+{GAG}A2{gBd}B{e}A{gef}e2{AGAG}Ae | \
+{g}e/2d3/2{gdG}d3/2e/2{gef}f3A| |
+{GAG}A2{gBd}B{e}A{gfg}f2{Gdc}d3/2e | \
+{g}fd{g}f/2a3/2{f}g3{a}f3/4g/4 | \
+{ag}a3/2g/2fa{f}g3/2e/2{gcd}c{e}A |
+{GAG}A/2g3/2{a}f3/2e{Gdc}d3A|] [ | \
+{GdG}f2{g}fe{g}e2{Gdc}d3/2e/2 | \
+{gde}dc{GdG}c3/2d/2{gef}e3A |
+{gf}g2{f}g3/2f/2{g}fe{A}e3/2d/2 | \
+{gcd}c{e}A{Gdc}d3/2e/2{gef}f3A | | \
+{GdG}f2{g}fe{g}e2{Gdc}d3/2e/2 |
+{gde}dc{GdG}c3/2d/2{gef}e3{AGAG}A | \
+{ag}a3/2g/2fa{f}g3/2e/2{gcd}c{e}A | \
+{GAG}A/2g3/2{a}f3/2e{Gdc}d3A|] [ |
+{GAG}A2{Gdc}d3/2e/2{Gdc}d2{g}Ad | \
+{gde}d/2c3/2{GdG}c3/2d/2{gef}e3A | \
+{GAG}A2{g}e3/2f/2{gef}e2{AGAG}Ae |
+{g}e/2d3/2{gdG}d3/2e/2{gef}f3A | | \
+{GAG}A/2f3/2{g}fe{g}e2{Gdc}d3/2e | \
+{g}fd{g}f/2a3/2{f}g3{a}f3/4g/4 |
+{ag}a3/2g/2fa{f}g3/2e/2{gcd}c{e}A | \
+{GAG}A/2g3/2{a}f3/2e{Gdc}d3|]

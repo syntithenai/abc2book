@@ -1,0 +1,18 @@
+X: 182
+T: Sit Under My Protection
+R: air
+%S: s:4 b:18(4+6+4+4)
+B: O'Neill's 1850 #182
+Z: 1997 henrik.norbeck@mailbox.swipnet.se
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+N: This version is most useful if you want to understand the tune's complex structure (or have very little screen space).
+P: Play |: A B1B2 :|: CDA B1B2 :|
+Q: "Slow"
+M: 3/4
+L: 1/8
+K: G
+"^A"[|] (BA) | G2 A2 B2 | g2 a2 b2 | "_>"a2 (gf)(ed) | g4 (g>f) |]
+"^B"|: e2 (ge) (dB) | (d>e) (dc) (BA) |1 B6 | {GBd}g4 g2 :|2 G6 | "^fine"g4 |]
+"^C"[| (g>a) | b2 (bg) (fg) | a2 (gf) (ed) | (defg) a2 | b2 g3 ||
+"^D"|| f | ef g3 f | ({f}ed) ({d}cB) ({B}AG) | A6 | A3 (d/c/) (B"^->A"A) |]

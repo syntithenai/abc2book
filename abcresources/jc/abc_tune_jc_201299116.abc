@@ -1,0 +1,109 @@
+
+X: 1
+T: Lady Mary Montagus Reel   [Bb]
+O: 1779
+R: reel
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 staves=2
+|:\
+"Bb"Bdfd "Eb"ge"Bb"fd | "Bb"Bdfd "F7"cAcA |\
+"Bb"Bdfd "Eb"ge"Bb"fd | "Cm"ce"F7"cA "Bb"B2B2 :|
+|:\
+"Bb"F2DF FDFD | "Bb"F2DF B2d2 |\
+"Bb"F2DF FDFD | "Cm"ce"F7"cA "Bb"B2B2 :| [g2D2]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: b2B2 e2B2 | b2B2 f2F2 | B2b2 e2B2 | e2f2 B2b2 :|
+|: B2B2 B2B2 | Bdfb d2B2 | B2B2 B2B2 | e2f2 B2b2 :| [b2F2]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%   Right hands across .|
+%% Left hands back again :|
+%% cross over one Cu. and turn half round :|.
+%% Right and Left at top :|:
+%%endtext
+
+%%sep 1 1 500
+
+X: 1
+T: Lady Mary Montagus Reel   (F)
+O: 1779
+R: reel
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"F"FAcA "Bb"dB"F"cA | "F"FAcA "C7"GEGE |\
+"F"FAcA "Bb"dB"F"cA | "Gm"GB"C7"GE "F"F2F2 :|
+|:\
+"F"c2Ac cAcA | "F"c2Ac f2a2 |\
+"F"c2Ac cAcA | "Gm"gb"C7"ge "F"f2f2 :| [b2E2]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 1
+T: Lady Mary Montagus Reel   (C)
+O: 1779
+R: reel
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"C"cege "F"af"C"ge | "C"cege "G7"dBdB |\
+"C"cege "F"af"C"ge | "Dm"df"G7"dB "C"c2c2 :|
+|:\
+"C"G2EG GEGE | "C"G2EG c2e2 |\
+"C"G2EG GEGE | "Dm"df"G7"dB "C"c2c2 :| [a2E2]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 1
+T: Lady Mary Montagus Reel   (G)
+O: 1779
+R: reel
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"G"GBdB "C"ec"G"dB | "G"GBdB "D7"AFAF |\
+"G"GBdB "C"ec"G"dB | "Am"Ac"D7"AF "G"G2G2 :|
+|:\
+"G"D2B,D DB,DB, | "G"D2B,D G2B2 |\
+"G"D2B,D DB,DB, | "Am"Ac"D7"AF "G"G2G2 :| [e2B,2]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 1
+T: Lady Mary Montagus Reel   (D)
+O: 1779
+R: reel
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+"D"dfaf "G"bg"D"af | "D"dfaf "A7"ecec |\
+"D"dfaf "G"bg"D"af | "Em"eg"A7"ec "D"d2d2 :|
+|:\
+"D"A2FA AFAF | "D"A2FA d2f2 |\
+"D"A2FA AFAF | "Em"eg"A7"ec "D"d2d2 :| [b2F2]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

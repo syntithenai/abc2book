@@ -1,0 +1,18 @@
+X: 1
+T: Dzisiaj w Betlejem
+C: words: Jan Siedlecki
+O: Trad. Polish)
+M: 3/4
+L: 1/8
+K: F
+%%continueall no
+V:1 clef=treble staves=2
+[V:1][| "F"[F2F2] [FF][CC] [FF][GG] | "Dm"[A2F2] [AF][GC] [AF][BG] |\
+     "Am"[cF][dF] [c2F2] "Bb"[B2F2] | "F"[A2F2] "C"[G2E2] z2 |\
+[V:1] | "F"[F2F2] [FF][CC] [FF][GG] | "Dm"[A2F2] [AF][GC] [AF][BG] |\
+     "Am"[cF][dF] [c2F2] "Bb"[B2F2] | "F"[A2F2] "C"[G2E2] z2 |]
+P: Chorus:
+[V:1][| "C"[c2E2] [cG][BG] [AF][GE] | "F"[F2C2] [FC][CC] [FC][AC] |\
+        "C"[c2E2] [cG][BG] [AF][GE] | "F"[F2C2] [FC][CC] [FC][AC] |\
+[V:1] | "F"[cF][dF] [cF][BF] [AF][BF] | "C"[cF][dF] [cF][BF] [AF][BF] |\
+     "F"[cF][cG]"D7"[d2^F2][c2A2] | "Gm"[B2G2]"F"[A2F2]"C7"[G2E2] | "F"[F6C6] |]

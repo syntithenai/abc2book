@@ -1,0 +1,30 @@
+X: 321
+T: MISS H. HUNTER OF BLACKNESS
+C: NATH. GOW
+R: Reel
+B: Glen Collection p.32 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Eb
+%
+V: 1
+a |\
+gafg e/e/e e2 | cf-fe dBBa | gafg e/e/e ge | cffd {d}e2e :|
+B |\
+(G/F/E) BG AFcA | (G/F/E) BG FCCA | (G/F/E) BG AFcA | GEFD TE2EB |
+(G/F/E) BG AFcA | (G/F/E) BG FCCA | GEBG ABcd | ecBG E2E |]
+%
+V: 2
+z |\
+[e'2e2][d'2b2] [e'2b2][e'2b2] | a2[f'2c'2] b2[f'2d'2] |\
+[e'2e2][d'2b2] [e'2b2][e'2b2] | a2b2 e2[bge] :|
+z |\
+[b2e2][b2e2] [b2d2][b2d2] | [b2e2][g2e2] [a2B2][f2B2] |\
+e2[b2e2] [b2d2][b2d2] | [b2e2][a2B2] [g2e2][g2e2] |
+[b2e2][b2e2] [b2d2][b2d2] | [b2e2][g2e2] [a2B2][f2B2] |\
+e2[e'2b2] [e'2c'2][e'2a2] | [e'2a2][d'2b2] [e'2b2g2e2][bge] |]
+

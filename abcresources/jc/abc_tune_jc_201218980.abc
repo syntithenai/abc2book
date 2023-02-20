@@ -1,0 +1,58 @@
+X: 1
+T: Teazing made Easy
+%R: hornpipe
+B: "Le Sylphe, Twenty Four Country Dances with Figures for the Year 1818", Button & Whitaker, p.1 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1818
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Fixed rhythm between repeats by shortening the first (pickup) note.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+c2 |\
+g>ag>f e2e2 | f>ca>c f>ca>c |\
+g>ag>f e2e2 | f>ca>c c'4 |\
+g>ag>f e2e2 |
+f>ca>c f>ca>c |\
+g>ag>f e2e2 | f2a2f2 :|\
+|: c2 |\
+c>de>f g>ab>g | a2a2 a2gf |
+{f}e2e2 e>cd>e | f>ga>f c3c |\
+c>de>f g>ab>g | a2a2 a2(gf) |\
+{f}e2e2 e>cd>e | f2a2f2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center DOUBLE FIGURE               (Each strain repeated)
+%%begintext align
+%% Hey contrary sides |.
+%% hey on your own sides |:
+%% promenade 3 Cu: |.
+%% & whole poussette |: .
+%%endtext
+%%center OR THUS
+%%begintext align
+%% Set & half right & left with 2d Cu: set & back again |.
+%% chain figure 6 round |:
+%% down the mid: up again* lead thro' top Cu: |.
+%% & set contrary corners |: .
+%%endtext
+%%sep 1 1 450
+%%sep 1 1 450
+%%begintext align
+%%*In the performance of this figure it has long been a practice
+%% with persons unacquainted with the true system of Country
+%% Dancing to make it a long instead of (what it really
+%% is) a short figure, and by galloping down a dozen couple
+%% instead of two (the proper extent of this figure) take up
+%% in its performance a whole strain of Music in long
+%% measure instead of half a strain, if this system is practised
+%% the Dancer will have to every tune where this figure occurs
+%% a figure too much for the Music as may be seen in this
+%% figure, the first 4 bars of the Music is sufficient for
+%% Lead down the middle & up again & the remaining 4 bars
+%% of the strain are employed for the performance of Allemande.
+%%   For a further Elucidation of this subject with an
+%% explanation of the different Measures and Times of the
+%% Music, see WILSON'S Companion to the Ball room.
+%% [Further text clipped in image.]
+%%endtext
+%%sep 1 1 450

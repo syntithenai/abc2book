@@ -1,0 +1,18 @@
+X: 052	% 9
+T: Soldiers Joy No 2
+T: Best for Quadrille
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.5 #2
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has a final repeat but no initial repeat; fixed.
+N: The endings can be simplified by putting the pickup notes inside the initial repeats.
+M: 6/8
+L: 1/8
+K: D
+V: 1 name=9
+(A/B/) |:\
+"^^"[AD][AD][AF] "^^"[AD][AD][AF] | [A2F2]M[d-F] M[d2F2] (A/B/) | [AD][AD][AF] [AD][AD][AF] | [A2E2]M[AE-] M[A2E2] (A/B/) |\
+[AD][AD][AF] [AD][AD][AF] | [A2F2]M[d-F] M[d2F2]e | [fA][gA][aA] [eA][gA][eA] |1 [f2A2][dF] [d2F2] (A/B/) :|
+[2 [f2A2][dF] [d2F2]z |:\
+[fA][eA][fA] M[aA][gA][fA] | [ec][ec][ec] [g2B2][fd] | [fA][eA][fA] [aA][gA][eA] | dcB [A2F2][fA] |\
+[fA][eA][fA] [aA][gA][fA] | [ec][ec][ec] [g2B2][gB] | [fA][gA][aA] [eA][gA][eA] | [d3F3] [d2F2]z :|

@@ -1,0 +1,26 @@
+X:1
+T: A Health to All Honest Men
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:Am
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 42 notes)
+K:Am
+M:6/8
+L:1/16
+A B |c2 B2 A2 A2 a2 ^g2 a6a2 g2 f2 e2 d2 c2 B2 c2 A2 e6e2 A2 B2 |c2 B2 A2 A2 a2 ^g2 a6a2 g2 f2 e2 d2 c2 B2 c2 A2 e6e4 A B |
+%W: A2
+% voice 1 (1 lines, 39 notes)
+c2 B2 A2 A2 a2 ^g2 a6a2 g2 f2 e2 d2 c2 B2 c2 A2 e6e2 A2 B2 |c2 B2 A2 A2 a2 ^g2 a6a2 g2 f2 e2 d2 c2 B2 c2 A2 e6e4 e2 |
+%W: B1
+% voice 1 (1 lines, 42 notes)
+e2 c2 c2 c4 e2 g2 G2 G2 G4 B2 c2 B2 A2 A2 B2 c2 e4 E2 E4 c B |A2 B2 c2 ^F2 d2 c2 B2 c2 d2 ^G2 a2 ^g2 a2 e2 d2 c4 B A A6A4 e2 |
+%W: B2
+% voice 1 (1 lines, 41 notes)
+e2 c2 c2 c4 e2 g2 G2 G2 G4 B2 c2 B2 A2 A2 B2 c2 e4 E2 E4 c B |A2 B2 c2 ^F2 d2 c2 B2 c2 d2 ^G2 a2 ^g2 a2 e2 d2 c4 B A A6A4 ||

@@ -1,0 +1,35 @@
+X: 1
+T: Mo Mhathair
+T: My Mother
+C: Neil MacLean
+S: SRSNH 4.2
+R: air
+S: handwritten MS by Barbara McOwen in the Concord Slow Scottish Session collection
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - -
+V: 1 staves=2
+A2G "A"|\
+"D"FD2 F2A | "D7"f2d e2f | "G"d2e d2B | "D"BA2 B2c |\
+"D"dD2 D2D | "Bm"B2B A2F | "E7"E6- | "A7"E3 A2G |
+"D"FD2 F2A | "D7"f2d e2f | "G"d2e d2B | "D"BA2 B2c |\
+"G"dD2 B2d | "A7"AF2 E2F | "D"D3- "G"D3- | "D"D3 |]
+d2e "B"|\
+"D"fA2 f2e | "D7"dD2 F2A | "G"Bd2 d2B | "D"BA2 d2e |\
+"D"f2e d2B | "Bm"AF2 E2D | "E7"E6- | "A7"E3 A2G |
+"D"FD2 F2A | "D7"f2d e2f | "G"d2e d2B | "D"BA2 B2c |\
+"G"dD2 B2d | "A7"AF2 E2F | "D"D3- "G"D3- | "D"D3 |]
+% - - - - - - - - - - - - - - -
+V: 2
+F2E "A"|\
+"D"DA,2 D2F | "D7"A2B =c2A | "G"B2=c B2G | "D"GF2 F2E |\
+"D"FA,2 A,2A, | "Bm"D2D F2D | "E7"B,6 | "A7"C3 F2E |
+"D"DA,2 D2F | "D7"A2B =c2d | "G"B2=c BG2 | "D"GF2 F2E |\
+"G"[D3G,3] G3 | "A7"FD2 A,3 | "D"A,3- "G"B,3- | "D"A,3 |]
+F2G "B"|\
+"D"AF2 d2A | "D7"FA,2 A,2=C | "G"[D3G,3] G3 | "D"GF2 A2^c |\
+"D"d2c B2D | "Bm"F2D C2B, | "E7"^G,6 | "A7"A,3 F2E |
+"D"DA,2 D2F | "D7"A2B =c2d | "G"B2=c B2G | "D"GF2 F2E |\
+"G"[D3G,3] G3 | "A7"FD2 A,3 | "D"A,3- "G"B,3- | "D"A,3 |]

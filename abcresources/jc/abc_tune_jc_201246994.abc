@@ -1,0 +1,18 @@
+X: 2
+T: Aneinu 2  [C]
+M: 4/4
+L: 1/8
+K: C
+"A"|: "C"CC CD | "C"ED C2 | "C"G2 FE | "G7"D4 \
+"B":: "F"FF F2 | "C"EE E2 | "G7"DC DE |1 "C"CG FE :|2 "C"C2 z2 |]
+w: Slow*** | | | | Fast
+% %center Repeat the B part as many times as needed.
+%X: 2
+P: Aneinu 2  [D]
+M: 4/4
+L: 1/8
+K: D
+"A"|: "D"DD DE | "D"FE D2 | "D"A2 GF | "A7"E4 \
+"B":: "G"GG G2 | "D"FF F2 | "A7"ED EF |1 "D"DA GF :|2 "D"D2 z2 |]
+%w: Slow*** | | | | Fast
+% %center Repeat the B part as many times as needed.

@@ -1,0 +1,33 @@
+X: 143
+T: Sir JAs G. BAIRD Bart.
+C: R. MACKINTOSH
+N: What does the title mean?
+R: Strathspey
+B: Glen Collection p.14 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: G
+%
+V: 1
+B |\
+(G>F G)<D (G>F G)<D | E<C A>G F<(A A>B) | (G>F G)<D E<D E<e | d>c B>A B<G G>B |
+(G>F G)<D (G>F G)<D | E<C A>G F<A A>B | (G>F G)<D (E>D E)<B, | C<A, D>C B,G,G, ||
+d |\
+g<d g<B g<d g<B | c<A d>B F(A AB/c/) | d<B g<d e<c d<D | E<(c B>A) B<G G>d |
+g<d g<B g<d g<B | c<A d>G F<(A A>B) | G>B d<D EG c>e | d>c B>A BGG |]
+%
+V: 2
+z ||
+G2[b2g2d2] [b2g2d2][b2g2d2] | c2[a2e2] d2[c'2f2] |\
+G2[b2g2] c2[c'2g2] | d2[a2f2] G2[b2g2d2] |
+G2[b2g2d2] [b2g2d2][b2g2d2] | c2[a2e2] d2[c'2f2] |\
+[b2g2][b2g2] [c'2g2][g2e2] | d2[a2f2] g2G ||
+z |\
+[b2g2][d'2g2] [b2g2][d'2g2] | [d'2f2][d'2g2] d2[c'2a2] |\
+[b2g2][b2g2] [c'2g2][b2g2] | [g2c2][f2d2] [g2d2][b2g2d2] |\
+[b2g2][d'2g2] [b2g2][b2g2] | [a2f2d2][b2g2d2] [c'2a2d2][a2f2d2] |\
+G2[b2g2] c2[g2e2] | d2D2 G2[gdG] |]

@@ -1,0 +1,40 @@
+X: 11029
+T: EILEEN'S WALTZ
+C: Bob McQuillen 18 Aug 2000
+B: Bob's Note Book 11 #19
+R: waltz
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: This was rather difficult to read.  I transcribed a || after every 8th bar,
+N: and thick bar lines to mark the two strains' boundaries. Also, the original
+%% 6-staff layout was slightly adjusted to have 12 bars per staff. I also took
+%% away most of the duplicate chord symbols. You can reformat the tune however
+%% fits your needs, of course.
+M: 3/4
+L: 1/8
+K: G	% and D
+G2 E2 \
+| "G"D2 G2 B2 | e4 B2 | d3 B GA | B4 GE \
+| "G"D2 G2 B2 | e2 d3 B | "D7"c3 B AG | F3 G AG ||\
+   F2 =F2 ^F2 | "B7"B4 BA | "Em"G2 GA GF | E2 G2 B2 |
+| "D"A2 d2 d2 | "A7"e2 f3 e | "D7"e2 d^c de | e2 e2 dB GE ||\
+  "G"D2 G2 B2 | e4 B2 | d3 B GA | B4 Bc \
+| "G7"d2 B2 BA | G2 g3 f | "C"f2 ed ef | e4 cd ||
+|| "C"e2 c2 e2 | "C7"g4 Bc | "G"d2 B2 G2 | "C"c4 de \
+| "D7"f3 e dc | B4 A2 | "G"G2 BG Bd | "G"g2 |][K:D]\
+[| f2 g2 | "D"af df dB | A2 F2 A2 | "G7"B6 | "D"A6 |
+| "D"FA df dA | FA d2 f2 | "A7"g2 ga gf | "A7"e4 fg ||\
+"F#7"f2 e2 d2 | c4 fg | "Bm"f2 d2 c2 | B3 d ed \
+| "A"c2 e2 a2 | "E7"^g2 f3 g | "A7"a6- | a2 f2 g2 ||
+||"D"af df dB | "D"A2 F2 A2 | "G"B6 | "D"A4 de \
+| fd Ad fa | f2 d2 A2 | "G"B6- | B2 B2 c2 ||\
+d2 B3 c | "G7"d4 cB | "D"c2 A3 B | "B7"c3 B A2 |
+| "G"G2 A2 B2 | c2 d2 e2 | "F#"f6- | f2 g3 f ||\
+ "G6"e2 d3 B | "G7"e3 f g2 | "D"a2 f2 d2 | "G"g4 ag \
+| "D"f2 A2 f2 | "A7"e4 d2 | "D"d6- | d2 |]
+%%begintext align
+%% Eileen Carson is one of my most favorite
+%% people in all the world. She's the choreographic director (AKA "Boss"!)
+%% of the marelous clogging group, "Footworks". I love her, and I
+%% love them, and I can't wait to see you all at August next
+%% summer, Eileen! YEEEEEEE-WH00000-0000!!!!!!!
+%%endtext

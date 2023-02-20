@@ -1,0 +1,15 @@
+X: 1811
+T: the Fearless Boys   #2
+R: march
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #1811
+O: J.O'Neill
+Z: Transcribed by Bob Safranek, rjs@gsp.org
+N: Compacted by using labels and play order [JC]
+P: Play ABAB CBCB
+M: C|
+L: 1/8
+K: G
+"^A"[| (BA) | (G>B)D2 D2EF | GFGA G2B2 | A^GAB cBA=G | B2E2 E2 |]
+"^B"[| (BA) | (G>B)D2 D2EF | GFGA G2d2 | e^def ge=dc | B2G2 "^fine"G2 |]
+"^C"[| (AB) | cBcd e2dc | B^ABc d2cB | A^GAB cBA=G | B2E2 "^->B"E2 |]

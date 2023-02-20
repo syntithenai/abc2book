@@ -1,0 +1,6 @@
+%%staffwidth 250
+%%scale 0.90
+X:1
+T:TEST: K:C clef=bass middle=D,
+K:C clef=bass middle=D,
+| C,,D,,E,,F,, G,,A,,B,,C, | C,D,E,F, G,A,B,C |

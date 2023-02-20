@@ -1,0 +1,42 @@
+X: 21311
+T: ITALIAN SETT (tune 4)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.131 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has 17 bars.
+N: This tune has lines of dance firgures below the 1st and 3rd staffs, as indicated.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+fg |\
+a2a2 a2f2 | d2d2 d2fd | A2A2 A2Bc | dcde fefg |\
+a2a2 a2f2 | d2d2 d2fd | A2A2 A2Bc | d2f2d2 H|]
+AB |\
+c6 Bc | d6 ef | g2e2 c2a2 | g6 fa |\
+c'2c'2 d'c'bc' | d'2d'2 d'2a2 | g2ga f2fg | e6 Ac |
+e2e2 e2c2 | A2A2 A2cA | E2E2 E2FG | A^GAB cBcd |\
+e2e2 e2c2 | A2A2 A2cA | E2E2 E2cA | E2E2 E2FG | A2c2"^D.C."A2 |]
+DF |\
+A4 F2D2 | A,4 D2F2 | A2G2 E2C2 | A,4 A,CEG |\
+F2DG G2EA | F2DA G2EA | d2cB BAA^G | A2Bc defg |
+a4 f2d2 | A4 d2f2 | a2g2 e2c2 | A4 Aceg |\
+f2da g2ea | f2da g2ea | gffe eddc |[d2F2][f2A2]"^D.C."d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Grand right and left,
+%% allamand corners,
+%% partners the same,
+%% all balance to partners and turn. [Below 1st staff]
+%%endtext
+%%begintext align
+%% Ladies all forward and back,
+%% gentlemen the same,
+%% grand chain,
+%% all promenade. [Below 3rd staff]
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

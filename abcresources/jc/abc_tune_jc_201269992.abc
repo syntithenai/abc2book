@@ -1,0 +1,14 @@
+X: 912
+T: a Draught of Ale   #2
+R: jig
+%S: s:2 b:11(6+5)
+B: O'Neill's 1850 #912
+O: J.O'Neill
+Z: Tom Keays (htkeays@mailbox.syr.edu)
+N: Compacted via repeats and multiple endings [JC]
+%abc 1.6
+M: 6/8
+L: 1/8
+K: G
+"^A"|: D | GBA G2A | Bdg Bdg |[1,3 GBA G2B | AFD AF :|[2,4 ecA dBG | cAF G2 :|
+"^B"|: d | egf g2f | ege dBG | GFG dBG |[1,3 BAA A2 :|[2,4 cAF G2 :|

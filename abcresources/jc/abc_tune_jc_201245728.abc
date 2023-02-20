@@ -1,0 +1,28 @@
+X: 1
+T: Alchurch
+P: Longways for as many as will
+%R:
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.152
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The time signature is 3/4, but it's obviously wrong, as all measures contain 6 quarter notes.  The correct way to group notes isn't obvious.
+N: There's a quarter note missing between at the end; perhaps an initial pickup note is called for ...
+M: 6/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+G4d2 d3ed2 | c4B2 c6 | B2c2d2 e2f2g2 | a2g2a2 f3ef2 |\
+g2f2e2 d2c2B2 | c4d2 e4a2 | (f3e/f/)g2 A4 B2 | A6 G4 |]
+FG |\
+A3BA2 F4G2 | A4B2 c6 | d2c2B2 g2f2e2 | ^d6 f6 |\
+g3ag2 f3ed2 | A4B2 c4a2 | (f3e/f/)g2 A4B2 | A6 G4 |]
+% - - - - - - - - - - Dance description: - - - - - - - - - -
+%%begintext align
+%% First cu. meet and set, and turn S. then the 1. wo. cast off into the second improper, (her Partner at the
+%% same time follows her and casts off to the second improper,) the 2. cu. doing the same, then the two men
+%% hands and lead through the we. to the same, then all clap, and all hands quite round, and then the two
+%% we. do the same, then clap, and all hands half round and turn S.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

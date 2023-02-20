@@ -1,0 +1,32 @@
+X:1
+T:Tachum Exercise  "CYMRU"
+M:6/8
+L:1/8
+Q:80
+C:
+S:
+K:HP
+| {g}c{d}A{e}A{g}c{d}A{e}A | \
+{g}c{d}A{e}A{g}c{d}A{e}A | \
+{g}B{d}G{e}G{g}B{d}G{e}G |
+{g}B{d}G{e}G{g}B{d}G{e}G | | \
+{g}c{d}A{e}A{g}c{d}A{e}A | \
+{g}B{d}G{e}G{g}B{d}G{e}G |
+{g}c{d}A{e}A{g}B{d}G{e}G | \
+{g}A{d}A{e}A{g}A{d}A{e}A|]  | \
+{g}c3/2{d}A/2{e}A{g}c3/2{d}A/2{e}A |
+{g}c3/2{d}A/2{e}A{g}c3/2{d}A/2{e}A | \
+{g}B3/2{d}G/2{e}G{g}B3/2{d}G/2{e}G | \
+{g}B3/2{d}G/2{e}G{g}B3/2{d}G/2{e}G| |
+{g}c3/2{d}A/2{e}A{g}c3/2{d}A/2{e}A | \
+{g}B3/2{d}G/2{e}G{g}B3/2{d}G/2{e}G | \
+{g}c3/2{d}A/2{e}A{g}B3/2{d}G/2{e}G |
+{g}A3/2{d}A/2{e}A{g}A3/2{d}A/2{e}A|]  | \
+{g}c/2{d}A3/2{e}A{g}c/2{d}A3/2{e}A | \
+{g}c/2{d}A3/2{e}A{g}c/2{d}A3/2{e}A |
+{g}B/2{d}G3/2{e}G{g}B/2{d}G3/2{e}G | \
+{g}B/2{d}G3/2{e}G{g}B/2{d}G3/2{e}G | | \
+{g}c/2{d}A3/2{e}A{g}c/2{d}A3/2{e}A |
+{g}B/2{d}G3/2{e}G{g}B/2{d}G3/2{e}G | \
+{g}c/2{d}A3/2{e}A{g}B/2{d}G3/2{e}G | \
+{g}A/2{d}A3/2{e}A{g}A/2{d}A{e}A|]

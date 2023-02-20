@@ -1,0 +1,21 @@
+X: 10593
+T: HODDAM CASTLE
+Q: "Jig."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.59 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+d2d d>ef | {e}g2e/d/ cBA | d>ed dfa | a>ba {a}gfe |\
+(fd).d (dB).B | (ge).e (ec).c | def {f}edc | ddd d2 :|
+|: f/g/ |\
+(af).f (fd).d | (ge).e (ec).c | d>ef e(e/f/e/d/) | cAA ABc |\
+ddd (Bd).d | (ce).e (df).f | eag {g}fed | eAc d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

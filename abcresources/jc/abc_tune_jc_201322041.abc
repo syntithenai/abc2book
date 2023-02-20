@@ -1,0 +1,16 @@
+X: 735
+T: Paddy's Surprise
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #735
+Z: Frank Nordberg e http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0735/oneill-1001-0735-1.abc
+M: C|
+L: 1/8
+K: G
+"^A"[|] (3(DEF) |\
+G2(BA) GABc | dBec dBAB | G2(BA) GABc | dBAB GFED ||\
+G2(BA) GABc | dBec d2(3(def) | gfge dBge | dBAB G2 |]
+"^B"[| (3(def) |\
+gfgd edBd | gabg agef | gfgd edBd | cABG AGEG ||\
+gfgd edBd | gabg agef | gfge dBge | dBAB G2 |] 

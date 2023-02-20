@@ -1,0 +1,21 @@
+X: 12111
+T: Bonny Jane
+%R: air, strathspey
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.11 #1
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Some of the grace notes have slurs, others don't, in no discernable pattern.
+M: C
+L: 1/8
+K: G
+"_Slow"TB>A |\
+G2(G/A/B) D3E | G3A TB2(TA>G) | c3e {e}dB{B}AG | ABAG E2TB>A |\
+G2(B/c/d) D3E | G2ef {ef}Tg2(f>e) | d(g/f/) (e/d/c/B/) ABcd |
+TB2(A>G) G2 :: ba |\
+g2(g/a/)b d3e | (gfg)a {ga}b2ga | (b/a/)g (a/g/)e (ged)B | ({AB}cB)(AG) E2(TB>A) |\
+G2(B/c/d) D3E |
+G2(e>f) {ef}g2(f>e) | d>edB (ABcd) | B2TA>G G2 :: TB>A |\
+G2(B>c) {Bc}d2(D>E) | G2dc B2(TA>G) | cg2c Bg2B | cBAG E2(TB>A) |
+G2(B>c) {Bc}d2D>E | G2Bd {ef}g2(Tf>e) | dg2B (AB)(cd) | B2TA>G G2 :: ba |\
+g2bg d2gB | G2(g>a) {ga}b2(g>a) |
+bg2 e2 d2B | A2BG E2TB>A |\
+GABc dDEF | G2Bd {ef}g2(Tf>e) | d(g/f/) (e/d/c/B/) ABcd | TB2TA>G G2 :|

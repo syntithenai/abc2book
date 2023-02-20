@@ -1,0 +1,24 @@
+X: 10342
+T: MISS ANN DOUGLAS OF BRIGTON'S JIG
+R: Jig.
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.34 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has an initial repeat but no final repeat, and is a written-out repeat; not fixed.
+M: 6/8
+L: 1/8
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f |\
+{f}e2c dcB | {B}c2A GFE | FGA cGE | dDD D2f |\
+{f}e2c dcB | {B}c2A GFE | FGA cGF | ECC C2 :|
+|: e/f/ |\
+gec cdc | fef {ef}g2e | f2g age | fdd d2e/f/ |\
+gec cdc | fef {ef}g2f | {f}e2d egf | ecc c2y
+e/f/ |\
+gec cec | fef gfe | f2g age | fdd d2f |\
+e2c dcB | c2A GFE | FGA cGF | ECC C2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

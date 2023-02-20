@@ -1,0 +1,20 @@
+X: 3196
+T: BONNIE WEE THING
+Q: "Highland Schottische."
+R: Schottische.
+%R: shottish
+B: James Kerr "Merry Melodies" v.3 p.23 #196
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+[|\
+ve<c B>A F>G A2 | e<c B>A (3(def) e2 |\
+d<c B>A F>GA>F | E<E F>G A2-Az |\
+ve<c B>A F>G A2 | e<c B<A (3(def) e2 |\
+d<c B<A F>GA>F | E<E F>G A2-Az |]
+[|\
+A2-A>c e<c B>A | e>cB>A (3(def) e2 |\
+A2 A>G A>Bc>d | (3eag (3fed c2 B2 |\
+A2-A>c e<c B>A | e>cB>A (3(def) e2 |\
+d>cB>A F>GA>F | E<E F>G A2-Az |]

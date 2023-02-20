@@ -1,0 +1,79 @@
+X: 1
+T: Banshee, The
+T: McMahon's
+R: Reel
+D: Dusty Banjos: Live at The Crane
+M: C|
+K: G
+"G"~G3D EDB,D|"Am"GFGB "D7"d2Bd|"G"eged "Em"BAGA|"C"BAGE "D7"EDDE|
+"G"~G3D EDB,D|"Am"GFGB "D7"d2Bd|"G"eged "Em"BAGA|"C"BAGE "D7"EDD2:|
+|:"Am"eaag efge|"G"dBBA "(Bm)"B3d|"Em"eB~B2 gBfB|eBBA B3z|
+  "Am"eaag efge|"G"dBBA B3d|"C"eged "G"BAGA|"Am"BAGE "D7"EDD2:|
+
+X: 2
+T: Blackhaired Lass, The
+T: Dark Haired Lass, The
+R: Reel
+D: Arcady: Many Happy Returns
+M: C
+K: Amix
+cA A2 cdec|d2gd BG G2|cA A2 cdec|dfec A3B:|
+cdef g2eg|f2df gfed|(3Bcd ef geag|fdec A3B|
+cdef g2eg|fddc defg|afge fdec|dfec A3B||
+%% Arcady: Many Happy Returns (122 bpm)
+
+X: 3
+T: Brenda Stubbert
+R: Reel
+C: Jerry Holland
+O: Cape Breton
+D: Altan: The Red Crow
+M: C|
+L: 1/8
+K: Am
+|:B \
+|"Am"A2BA GAAB  | A2B[dA] edd[eB] | "G"G2BA BGGB | c2BA BGGB |
+|"Am"A2BA GAAB  | A2B[dA] edda    | "G"gedB GABd  | "(Em)"e2dB "Am"eAA :|
+[| B \
+|"Am"(3AAAa2 (3AAAg2 | Aage age[gd]  | "G"G2BA BGGB | c2BA BGGB |
+|"Am"(3AAAa2 (3AAAg2 | Aage agea     | "G"gedB GABd  | "(Em)"e2dB "Am"eAA ||
+|| B \
+|"Am"(3AAAa2 (3AAAg2 | Aage age[gd]  | "G"G2BA BGGB | c2BA BGGB |
+|"Am"A2BA GAAB  | A2Bd edda    | "G"gedB GABd  | "(Em)"e2dB "Am"eAA |]
+%% More Maids: Live (50 bpm)
+%% Altan: The Red Crow (82 bpm)
+
+X: 4
+T: Brendan McMahon's
+R: Reel
+D: Lunasa: Kinnitty Session
+Z: kk
+M: C|
+K: Edor
+B2~B2 BAFB|A2FA DAFA|B2~B2 BAFB|ABde fded|
+B2~B2 BAFB|A2FA DF~F2|~G3E F2dB|AFDE FE~E2:|
+|:~G3F GBdB|A2FA DAFA|~G3F GBdB|AFDE FEEF|
+~G3F GBdB|AF~F2 DF~F2|~G3E F2dB|AFDE FE~E2:|
+%% Lunasa: Kinnitty Session (116 bpm, Bdor)
+
+X: 5
+T: Cameronian Reel
+R: Reel
+D: De Danann, Cherish The Ladies
+M: C|
+K: D
+"D"A2 FA DAFA|"G"GFEF "A"GBdB|"D"A2 FA DAFA|"A"GBAG "D"FDDB |
+"D"A2 FA DAFA|"G"G~E3 "A"GBdB|"D"A2 FA DAFA|"A"GBAG "D"FDDB:|
+|:"D"Addc d2dA|"A"(3Bcd ef gfed|"A"(3cBA eA fAeA|"A"cdef gfeg|
+  "D"faeg faeg|"D"fddc defg|"D"afge fdec|"A"dBAG "D"FDD2:|
+
+X: 6
+T: Cape Breton Fiddler's Welcome to Shetland, The
+R: Reel
+M: C|
+D: Winnie Kilduff
+K: A
+AE~E2 dcBc|~A3e fece|fBBA ~B3A|B2fe fBge|
+acef eA~A2|cBAF eAce|~f3d eaaf|1 ecdB ~A3B:|2 ecdB ~A3e||
+|:aee^d efe=d|ce~e2 fece|bffe f2ef|defd Befe|aee^d efe=d|
+ce~e2 fece|1 ~f3e afed|cABc ~A3e:|2 ~f3e afec|Bagf edcB||

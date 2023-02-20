@@ -1,0 +1,18 @@
+X: 10471
+T: the JOLLY YOUNG PEDLAR
+O: Irish
+Q: "Brisk"
+%R: slip-jig
+B: "Edinburgh Repository of Music" v.1 p.47 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added flag to last note (g) of bar 2 to fix the rhythm.
+M: 9/8
+L: 1/8
+K: G
+D |\
+G>AG Gge dBG | A>BA ABd e2g |\
+G>AG gfe dBG | ABc BAG E2 :|
+|: d |\
+gdg g>ag fed | e>dB g>ab a2b |\
+gab abg fed | efg dcB A2 !segno!:|

@@ -1,0 +1,26 @@
+X: 473
+T: the President's March
+C: Composer unknown (ca.1780-90)
+%R: march
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+B: John Treat - "Gamut for the Fifes", 1779, p.47 #3
+F: https://archive.org/details/GamutFortheFifes
+N: Bars 5,6 are reduced to one bar of 8 16-notes, giving an 11-bar phrase; fixed.
+N: Bars 9, 23 are missing a few notes at the end; filled in with the help of a few other versions.
+N: Bar 14 is 3 quarter-notes; fixed to match the rhythms of several other online versions.
+N: The first triplet in bar 27 has only one beam; 2nd beam added to fix the rhythm.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d4 (f3e) | d2A2d2z2 | f4 (a3g) | f2d2f2z2 |\
+d2d>d d2f2 | (ed)(ef) d2A2 | f2f>f f2a2 | (gf)(ga) f2d2 |\
+g2g2f2f2 | e2e2d2d2 |
+(3(cde) (3(fed) c2B2 | A2A>A A4 ::\
+a2b>a g2f2 | g2b2 g4 | e2e>e f2f>f | e2e>e e4 |\
+g2a>g f2e2 | (fg)(af) d4 | d2d>d e2e>e |
+d2d>d dcAc |\
+d2d>d d2f2 | (ed)(ef) d2A2 | f2f>f f3g | (gf)(ga) f2A2 |\
+B2B>B e3c | ddff a3g | (3(fef) (3(gfe) d2e2 | d2d>d d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

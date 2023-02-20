@@ -1,0 +1,17 @@
+X: 1525
+T: Karis Pers Polska
+O: efter Leif Alpsj\"o
+S: Bruce Sagan's "scanfolk" session archive 2021-7-12
+F: https://nordicfiddlesandfeet.org/Allspel/Karis.pdf
+R: hambo, polska
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+"^A"|:\
+A2 (A>B) A>G | (G>F) (F>D) F>A | d2 (d>e) d>c | (c>B) (B<G) (E2 | e2) (eLf) e>d |
+(d>c) (c>A) c>e |1 "^Var.1"a2 (a>b) a>g | f2 (f<d) A2 :|2 a2 (a>f) g>e | d2 "^*"d4 |]
+"^B"|:\
+[g2B2G2G,2] (e>g) e>g | (f>e) (d<c) d>f | (e>d) (c>A) B>c | (d>e) (f<g) (a2 | g2) (e>g) e>g |
+(f>e) (d<c) d>f | (e>d) (c>A) B>c | d2 d4 :| y6 y6 "^Var.1"| a2 (a>g) f>e | (d>e) f<g a2 |]
+%%text * The A phrase may be played 2 or 4 times.

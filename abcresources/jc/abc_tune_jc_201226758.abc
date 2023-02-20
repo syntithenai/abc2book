@@ -1,0 +1,19 @@
+X: 10431
+T: LIFE LET US CHERISH
+C: Mozart
+Q: "Andante"
+%R: jig
+B: "Edinburgh Repository of Music" v.1 p.43 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: The rhythm isn't quite right between the strains; not fixed.
+M: 6/8
+L: 1/8
+K: F
+|:\
+A3 BAB | c2f f2z | F3 GFG | A>BA G2z |\
+A3 {c}BAB | c2f f2z | A3 GFG | F2A F3 "_Fine."y:|
+|: c |\
+c2B GAB | c2A F2c | c2B GAB | c2A F2c |\
+d2B f2f | c2A Hf2f | c>dc cBA | A3 {BA}G2 "_D.C."y|]

@@ -1,0 +1,30 @@
+
+X: 1
+T: da Auld Stoer's Back Again
+C: trad Shetland
+R: reel
+B: Tom Anderson "Ringing Strings" 1983
+N: Tom Anderson's notes:
+N: A 'stoer' was a copper coin.
+Z: 2000 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D | "G"G2dG BdcA | "F"=F2cF AFFd | "G"G2dG Bcde | "D7"cBcA G3 :|
+d | "G"gfga gdde | "F"=fefg fccd | "G"gfga gdde | "D7"cBcA G3 |
+d | "G"gfga gdde | "F"=fefg fcfg | "D"af"G"ge "D"fd"C"ec | "D7"cBcA G3 |]
+
+
+%%sep 3 1 500
+
+X: 2
+T: Aald St\"or Back Again
+O: Shetland
+M: C|
+L: 1/8
+N: A st\"or is an old coin
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+K: Em
+(D | "Em"E2)EF  GAB2   | "D"(AB)AF ABA(F | "Em"ED)EF GAB(e | "D"dB)AF "Em"E3 :|
+(B | "Em"e2)e(B e2)e(B | "D"d2)dB  ded(B | "Em"e2)eB efe(B | "D"dB)AF "Em"E3 ||
+(B | "Em"e2)e(B e2)e(B | "D"d2)dB  ded(B | "Em"e2)eB egf(e | "D"dB)AF "Em"E3 |]

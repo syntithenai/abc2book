@@ -1,0 +1,33 @@
+X: 163
+T: Gang to the Kirk
+T: Longways for &c.
+%R: slip-jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.82
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+%%center Each part twice.
+N: Repeats modified to match the "Each part twice" instruction.
+M: 9/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A3 A2G FED | ABA c2d e3 |\
+A3 A2G FED | fed Adc d3 :|
+|:\
+ABA f2d ecA | ABA fgf e3 |\
+ABA f2d ecA | dAG F2A d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each part twice.
+%%begintext align
+%% The 1st Cu. foot it upwards and the 2d. Cu.
+%% foot it downward at the same time .| then the
+%% two Men. foot it to the wall, and the two We.
+%% foot it to the wall at the same time :| then the
+%% 1st and 2d Cu. hands all four quite round,
+%% and the two Men fall back to the wall and the
+%% two We Fall back at the same time .| then cross
+%% over and half figure into the 2d. Cu. place :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

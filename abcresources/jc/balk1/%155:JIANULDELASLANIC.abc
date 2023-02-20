@@ -1,0 +1,28 @@
+X: 155
+T:Jianul de la Slanic
+M:5/4
+L:1/4
+Q:1/4=242
+% Last note suggests Dorian mode tune
+K:D
+% 2 sharps
+%%MIDI gchord fzzzz
+P:A
+"e"e2z ez       |"d"e2z ez      |"e"ez2 ez                 |"d"ez2 d/2B/2z  |\
+"e"ez2 ez       |"d"{f}ez2 {f}ez|"c#"ez2 ez                |"b"e2z dB       |
+"f#"c2z dz      |"e"e3 (3dcd    |"d"{d}c3 BB              |"c#"cz^D Ez     |\
+"d"Bz2 ^d/2e/2z|"e"e3 (3=ded   |"c#"c2B c/2B/2z           |"d"B2z ^D2     |
+"e"E2z E2       |E2z cd         |"d"c/2d/2c/2d/2 zAB      |"e"^A2 z2 E/2z/2|\
+"e"Ez2 EE       |Ezc dz         |"d"c/2d/4c/4d/4c/4z/2B zB|"e"z3 E2        |
+"f#"F3 G2       |"a"=A4 A       |zA4-                      |A3 z2           |\
+z3 A/2F/2 z     |"f#"F3 FE      |"b"Bz2 Bz                 |"e"E4z          |E2 E2z|
+P:B
+K:D octave=1
+"e"e2z ez       |"d"e2z ez      |"e"ez2 ez                 |"d"ez2 d/2B/2z  |\
+"e"ez2 ez       |"d"{f}ez2 {f}ez|"c#"ez2 ez                |"b"e2z dB       |
+"f#"c2z dz      |"e"e3 (3dcd    |"d"{d}c3 BB              |"c#"cz^D Ez     |\
+"d"Bz2 ^d/2e/2z|"e"e3 (3=ded   |"c#"c2B c/2B/2z           |"d"B2z ^D2     |
+"e"E2z E2       |E2z cd         |"d"c/2d/2c/2d/2 zAB      |"e"^A2 z2 E/2z/2|\
+"e"Ez2 EE       |Ezc dz         |"d"c/2d/4c/4d/4c/4z/2B zB|"e"z3 E2        |
+"f#"F3 G2       |"a"=A4 A       |zA4-                      |A3 z2           |\
+z3 A/2F/2 z     |"f#"F3 FE      |"b"Bz2 Bz                 |"e"E4z          |E2 E2z|

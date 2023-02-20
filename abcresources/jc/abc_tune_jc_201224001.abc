@@ -1,0 +1,33 @@
+X: 07
+T: The Walton
+C: (Capt. W.)
+R: march, reel
+M: 2/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+N: The 3rd part has a repeat sign at the beginning but not at the end.
+N: Since all the repeats in this collection are written :||:, I'm guessing that
+N: this is just poor notation, and the 3rd part was not meant to be repeated.
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: g4gfga | g2d2B2G2 | A3Bc2A2 | (ABcA)G4 | g4Tg2fg | b3gb3g | f2d2 A2B^c | d4 D4 :|
+|: dddd dddd | ^cccc cccc | =cccc cccc | BBBB BBBB | G2B2 d2g2 | b2g2d2B2 | G3B D2EF | G4G,4 :|
+[| [d6D8]B2 | [d3D8]Bd3B | d4d2c2 | (c4B4) | [g4B4D4G,4]d3e | d4B3d | d3cB2A2 | (A4B4 |
+   [d6D8]B2 | [d3D8]Bd3B | d4d2c2 | (c4B4) | [g4B4D4G,4]d3e | d4B3c | .d2.c2.B2.A2 | G4G,4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: g2G2B2d2 | g4z2B2 | c4d4 | g2d2G4 | g2G2B2d2 | g4^c4 | d4A4 | D2d2D4 :|
+|: d2d2 d2d2 | e2e2e2e2 | f2f2f2f2 | g2g2g2g2 | g4G4 | g4z4 | G4d4 | G2g2G4 :|
+[| g2G2B2d2 | g4g4 | g2G2B2d2 | g2d2G4 | g4G4 | g4G4 | d4D4 | G2g2G4 |
+   g2G2B2d2 | g4g4 | g2G2B2d2 | g2d2G4 | g4G4 | g4G4 | d4D4 | G4G4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% 1st and 2d couple lead round each : lead down the middle, up again,
+%% and cast off, right and left with the top couple: Allemande right
+%% and left hand.
+%%endtext

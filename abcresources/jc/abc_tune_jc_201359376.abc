@@ -1,0 +1,21 @@
+     %!HARMONY ABC @
+     %Harmony/Melody File to ABC Vers 2.9.9 April 1998-March 2004
+     %Written by Guillion Bros. on a Chris Walshaw format
+     %Please e-mail us your comments and bugs reports : didier@myriad-online.com
+     %Tuesday, December 26, 2006 22:06:02
+
+
+X:1     %Music
+T:Princess Royal     %Tune name
+C:     %Tune composer
+N:Filkins Tradition     %Tune infos
+Q:1/4=120     %Tempo
+V:1     %
+     %!STAVE 0 'Piano 1' @
+     %!INSTR 'Piano 1 [Ch1]' 0 0 @
+M:4/4     %Meter
+L:1/8     %
+K:Bb
+z6 dc |B2 AB G2 dc |B2 AB G4 |g2 f=e d2 B2 |cd cA B4 |c2 cB A2 G2 |FG F=E D2 GA |B2 G2 F2 A2 |G4 G4 |f2 d=e f2 d2 |f=e fd c4 |f2 =ee d2 c2 |BA BG F4 |G2 GG GA Bc |d2 d2 g4 |f2 d2 c4 |cd cA B4 |c2 cB A2 G2 |
+FG FE D2 GA |B2 G2 F2 A2 |G4 G4 |]
+     %End of file

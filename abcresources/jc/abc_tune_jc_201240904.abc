@@ -1,0 +1,25 @@
+X: 4162
+T: Miss McLeod's Favorite
+C: by Mr Marshall
+%R: air, strathspey
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.4 p.16 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+Q: "SLOW"
+K: D
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+B,2 |\
+(A,D3) D3E {DE}F3EF2D2 | (B,E3) TE3F {F}~G6A2 | (B3c/d/) (BA)(GF) TE3D E2F2 | A,3DC2E2 {E}D4 D2 :| (A/B/c) |
+{c}Td3Ad2f2 {c}Td3Ad2f2 | {c}d3A (defg) f2e2 e2"_sf"fe | {c}d3B (BA)GF A3d {d}f3e | {e}d3B {B}A3F [F2D2][E2C2][E2C2]B2 |
+Ad3d3e {de}f3ef2d2 | Be3Te3f {f}~g6 a2 | Tb2c'd' {b}a2gf Te3de2f2 | A3d c3e [d6A6F6] :|
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+g2 |\
+f6[a2c2] [a3d8]ga2f2 | [g6e6][f2^d2] [g4e4][a4f4] | [b4g4]f2d2 a4g4 | f2d2 e2A2 [d4f4a4] [D2f2a4] :| [a2e'2g'2] |
+[a8d'8f'8] [a8d'8f'8] | [a4d'4f'4] f'2d'2 a2a'2a2 "^sf"^a2 | b2g2 f2d2 "^Exp.n"f3a d'3c' | b2g2 f2d2 A2a2A2 [K:D clef=treble] g2 |
+F6 [A2C2] [A3D8]GA2F2 | [G6E6][F2^D2] [G4E4][A4F4] | [B4G4]F2D2 A4G4 |[K:D clef=bass middle=d] f'3d' e'2a2 dfad' d2 :|

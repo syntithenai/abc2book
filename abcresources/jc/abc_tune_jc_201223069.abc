@@ -1,0 +1,53 @@
+%%text RJ Set 069
+
+
+X: 1
+T: Scotty O'Neil
+I: RJ R-32 D reel
+C: Bob McQuillen 1973
+M: C|
+R: reel
+K: D
+AG | "D"F2D2 A2F2 | "G"dedc BABc |\
+[1,3 "D"d2A2 G2F2 | "A"F2E2- E2 :|\
+[2,4 "D"d2A2 "A"ABAG | "D"F2D2- D2 :|
+|: AG |\
+"D"F2A2 f2e2 | "G"d2c2 B3c |\
+"D"d2A2 G2F2 | "A"F2E2- E2AG ||\
+"D"F2D2 f3e | "G"dedc BABc |\
+"D"d2A2 "A"ABAG | "D"F2D2- D2 :|
+
+
+X: 2
+T: Farewell to Whiskey
+I: RJ R-14 2008 G reel
+C: Niel Gow, First Collection, 2nd edition (1801)
+I: Ladies' Triumph	R-14	G	reel
+M: C|
+R: reel
+K: G
+GE |\
+"G"D2G2 B2AG | "Am"A2E2 E3G | "G"D2G2 B2AG | "Bm"d2B2 B3d |\
+"C"e2g2 "G"d2B2 |
+"Am"cBAG "D"A2B2 | "G"D2G2 "D"BAGA | "G"B2G2G2 :: Bc |\
+"G"d2B2 g2B2 | "Am"cBAG "D"A2Bc |
+"G"d2B2 g2d2 | "C"e2g2 g3d |\
+"C"e2g2 "G"d2B2 | "Am"cBAG "D"A2B2 | "G"D2G2 "D"BAGA | "G"B2G2G2 :|
+% text Roaring Jelly  R-14
+
+
+X: 3
+T: Road to Boston
+S: RJ Set 69 R-9
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+e2 |\
+"D"f4- f2ef | g2f2 e2d2 | "A"c2d2 e2f2 | "D"d2A2 F2A2 |\
+"D"f4- f2ef | g2f2 e2d2 | "A"c2d2 e2c2 | "D"d4- d2 :|
+|: fg |\
+"D"a4- a2^ga | "B"b2a2 =g2f2 | "Em"g4- g2fg | "A"a2g2 f2e2 |\
+"D"f4- f2ef | "G"g2f2 e2d2 | "A"c2d2 e2c2 | "D"d2A2 d2 :|
+% text 03/26/02
+

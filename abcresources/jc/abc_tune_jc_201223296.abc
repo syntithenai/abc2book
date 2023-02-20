@@ -1,0 +1,23 @@
+X: 07096
+T: PHILLY POLKA
+C: Bob McQuillen 14 Aug 88
+B: Bob's Note Book 7 #96
+%R: polka, march
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/4
+K: G
+DEF \
+| G2 G>E | DE DG | B2 B<A | GD GB | d2 d>d | ed cB | A>G AB | A2 FG |
+| A2 A>G | FD AB | c>B cd | cA de | f2 f>g | fe dc | Bc de | dc BA |
+| G2 G>E | DE DG | B2 B<A | GD GB | d2 d>c | BG Bd | e2 d2 | c4 |
+| e2 c>B | AB ce | d2 d>c | Bc dg | ag fe | de fa | g2 g>g | g ||
+|: dga \
+| b2 g>e | de dg | b>a ge | de dg | a>b ag | fd cd | ed d>e | d2 ga |
+| b2 g>e | de dg | b>a ge | de dg | a>b ag | fd ef | g2 g>g | g :|
+%%begintext align
+%% The Phladelphis Folk
+%% Festival is held every year at the end of August. "A
+%% good time was had by all." You get to meet some real
+%% nice people there; I did!
+%%endtext

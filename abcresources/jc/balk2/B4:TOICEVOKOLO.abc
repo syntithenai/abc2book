@@ -1,0 +1,27 @@
+X: 424
+T:Toicevo Kolo
+O:Serbia
+S:from record: Sixteen Yugoslaian Dances created Ciga/Ivon Despotovic
+L:1/8
+M:2/4
+K:F#m
+Q:1/4=96
+|:"A"[E,/C/][F,/D/][G,/E/][A,/F/] "F#m"[A,F][G,E]|\
+  "A"[E,/C/][F,/D/][G,/E/][A,/F/] "F#m"[A,F][G,E]|\
+  "A"[G,/E/][E,/C/][F,/D/][G,/E/] [G,E][CA]      |"E"^G/F/E/D/ "A"CB,      :|
+|:"A"[E,/C/][F,/D/][G,/E/][A,/F/] "F#m"[A,F][G,E]|\
+  "A"[E,/C/][F,/D/][G,/E/][A,/F/] "F#m"[A,F][G,E]|\
+  "A"[G,/E/][E,/C/][F,/D/][G,/E/] [G,E][CA]      |"E"^G/F/E/D/ "A"CB,      :|
+|:"A"e/c/d/e/ea                                  |"E"^g/f/e/d/ "A"cB       |\
+  "E"[Ge][Ge] "Bm"[Fd][Fd]                       | "A"[Ec][Ec] "E"[DB][DB] :|
+|:"A"[Ec][CA] [Ec][Ge]                           |"Bm"[Fd][Ge] "F#m"[A2f2] |\
+  "E"[Ce][Ce] "Bm"[Fd][Fd]                       |[1 "E"[D4B4]             :|[2 "E"[D3B3] E|
+|:"E"GAGB                                        |"A"ABc2                  |\
+  "E"BB"A"AA                                     |"E"G/F/G"F#m"F2          :|
+|:"E"GAGB                                        |"A"ABc2                  |\
+  "E"BB"A"AA                                     |"E"G/F/G"F#m"F2          :|
+%%MIDI drum dddd 35 35 35 35
+%%MIDI drumon
+f2f2| cccc| f2f2| cccc| f2f2| cccc| f2f2| cccc|
+ccdc| BBcB|AABA| G2G2 | ccdc| BBcB|AABA| G2G2 |
+f2f2| cccc| f2f2| cccc| f2f2| cccc| f2f2| cccc|

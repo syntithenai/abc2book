@@ -1,0 +1,33 @@
+X: 11052
+T: COTILLION No. 18. Basket Sett tune 4
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.1105 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!p!A |\
+(.A2.d) (f2e) | (.d2.f) (b2a) | (a2g) .f.e.d | c2e {^g}a2A |\
+(A2d) (f2e) | (.d2.f) (b2a) | (a2g) .f.e.d | ca.c d2 H|]
+!p!e |\
+.e2.c a2a | .a2.e .c.e.a | (^ab).^g (e2d) | .c.d.^d e2e |\
+(fe).c A2a | .^g(ba) (ec).A | ^GEe .d.B.g | a2a "^D.C."a2 :|
+z!ff!|\
+[g2B2D2]z bgd | B2z [g2B2D2] | [f2A2D2]z .c'.a.f | d2z .D.F.A |\
+d2z [f2A2D2]z | [a2A2D2]z .C.B,.A, | G,2z .c.B.A | G,2z "^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 lead to right,
+%% chassa out,
+%% form lines across the hall,
+%% all right and left,
+%% all chain across the hall,
+%% all forward and back,
+%% turn partners to place,
+%% sides the same.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

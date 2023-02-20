@@ -1,0 +1,26 @@
+X: 4173
+T: Fingalls Lamentations        a very Old Galic Air
+%R: air
+N: This is version 2, for ABC software that understands voice overlays.
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.17 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: "Very Slow"
+K: Fm
+% - - - - - - - - - -
+V: 1 staves=2
+G |\
+(A<F) c2 (.F.F) | A~A cBAG & x2 (AG) (F=E) | (A<F) c2 (.F.F) | (=EG) ~F3 G |\
+(A<F) c2 (.F~.F) | (AB) c2 c=e | f>_e {d}c2 BA | TG>F [F3C2A,2] ::
+c |\
+Tf>g (f>_e) (cB) | TB>c e2 (cB) | c=e Tf3 g | {fg}a>g {g}f3 c |"^cres."\
+{c}a>g {g}f2 (e>d) | (d/c/)(B/A/) TA2 !p!c=e | (f>_e) c2 (.F.F) | (T=EG) [F3C2A,2] :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+F2 f2 z2 | fa c'2 c2 | f2 f2 _d'2 | c'c f2 z2 |\
+F2 x4 & x2 f2 z[_d'b] | [c'a][bg] [a3f3]g | fg a2 b2 | c'c f3 :: z |
+c'_d' c'2 x2 & a2 a2 z2 | ga e2 g2 | ag f3 _d' | c'c f2 F2 |"^cres."\
+fg a2 g2 | a2 A2 !p!ag | fg a2 _d'2 | c'c f3 |]

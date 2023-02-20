@@ -1,0 +1,28 @@
+X: 100
+T: BUY A BROOM
+%R: waltz
+N: aka "Ach du lieber Augustine", "Did You Ever See a Lassie", etc.
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.40
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: "Tempo di Valse."
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+a2abag | f2d2d2 | e2A2A2 | f2d2d2 |\
+a2abag | f2d2d2 | e2A2A2 | d6 :|
+|:\
+e2A2A2 | f2d2d2 | e2A2A2 | f2d2d2 |\
+a2abag | f2d2d2 | e2A2A2 | d6 :|
+Q: "Presto."
+M: 2/4
+L: 1/16
+|:\
+abag fdef | gfed cAfg |\
+abag fddc | B2c2 d4 :|
+|:\
+fdge fdef | gfed cAAg |\
+fdge fddc | B2c2 d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

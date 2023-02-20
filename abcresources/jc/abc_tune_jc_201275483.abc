@@ -1,0 +1,32 @@
+X: 1
+T: Festival Waltz
+C: Kenny Baker
+%D: 1972
+R: waltz
+S: The Waltz Book II p. 18-19; several youtube recordings.
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+"^A"[|] (3ECB, |\
+"A"A,2 C2 E2 | "/G#"G2 F2 E2 | "/F#"F2 G2 A2 | "/E"C3 ECB, |\
+"A"A,2 C2 E2 | "Adim"G2 F2 E2 | "Bm7"F2 E2 C2 | "E7"C2{DC} B,4 |
+"Bm7"B, C3 D2 | "E7"E2 F2 G2 | "Bm7"A2 G2 F2 | "E7"G4 F2 |\
+"E"E B,3 F2 | "Aug7"E=C3 F2 | "A"E C3 D2 | C4 (3 C=CB, ||
+"A"A,2 C2 E2 | "/G#"G2 F2 E2 | "/F#"F2 G2 A2 | "/E"C3 ECB, |\
+"A"A,C EF =Gc | "A7"B4 A2 | "D"a f3 fa | f4 (3f=g^g |
+"D"a2 f2 A2 | "Dm7"a2=f2 A2 | "A"a2 e2 c=cB | "F#m7"AE3 (3F=G^G |\
+"Bm7"[e6G6] | "E7"[c4E4] (3BcB | "A"A4 AB | A4 :|
+"^B"|: (3Bce |\
+"A"a3 gab | "/G#"g3 fga | "/F#"f3 afe | "/E"c6 |\
+"A"f2 e2 A2 | "F#m7"E2 A2 cd | "Bm7"e d3 BG | "E7"E6 |
+"Bm7"b2 g3 a | "E7"g3 efg | "Bm7"b2 g3 a | "E7"g4 fa |\
+"E7"e B3 f2 | "Eaug7"e =c3 f2 | "A"e c4 d | c3 Ace ||
+"A"a3 gab | "/G#"g3 fga | "/F#"f3 afe | "/E"c3 ABA |\
+"A7"[A=G] [B3G3] [_B2G2] | [A2G2] B2 A2 | "D"[AF] [d4F4] e | [d6F6] | a2 f2 A2 |
+"Dm7"a2 =f2 A2 |A|a2 e2 (3c=cB | "F#m7"A E2 EF=G | "Bm7"[e6G6] |\
+"E7"[c4E4] (3BcB |1 "A"A4 AB | A4 :|2 "A"A2 c2 e2 | Ha4 |]
+%%begintext align
+%% All 4 possible repeat patterns have been recorded. Most common is no
+%% repeats of the parts, with the first ending every time but the last.
+%%endtext

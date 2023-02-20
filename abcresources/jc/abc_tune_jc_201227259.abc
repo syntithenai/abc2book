@@ -1,0 +1,27 @@
+X: 106
+T: Westons Maggot
+T: Longways for as many as will.
+%R: march
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.53
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The repeat in the Note is presumably the last 6 bars, starting at the :S: symbol.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+d2F2 A2D2 | A6 e2 | fga2 e2g2 | f6 a2 |\
+(a2g2) (g2f2) | (f2e2) e2A2 | decd e4 | d6 ":S:"e2 |\
+f2c2 d2B2 | edcB ^A2F2 | B4 c4 | defd g2f2 | e2d2 e2c2 | d6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Note. The Tune is to be play'd quite through, & repeat.
+%%begintext align
+%% The 1st Cu. lead up, and the 2d C7u. lead down at the
+%% same Time .| Then the Men lead out and in,
+%% The We. do the same at the same Time, and turn
+%% all four single :| Then Hands all four quite round
+%% and cast off, then right and left quite round.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

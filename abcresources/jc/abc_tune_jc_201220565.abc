@@ -1,0 +1,55 @@
+%%text RJ Set 038 Reels
+
+
+X: 1
+T: The Butcher's Row
+I: RJ R-113 G reel
+M: C|
+R: reel
+K: G
+d |:\
+"G"BcdB G2gf | "C"edef gedc | "G"BcdB G2Bd | "D"cBAG F2D2 ||\
+"G"BcdB G2gf |
+"C"edef "G"gdef | "C"gfge "G"dedc | "D"BGAF "G"G2d2 ::\
+"G"gfga b2b2 | "D"abag f2d2 |
+"C"edef "G"gdBd | "D"cBAG F2D2 ||\
+"G"GFGB "D"AGAc | "G"BGBd "C"edef | gfge "G"dedc | "D"BGAF "G"G2z2 :|
+
+
+X: 2
+T: The Lake Bay Reel
+C: Frank Ferrel
+I: RJ R-113 D reel
+M: C|
+R: reel
+K: D
+(3ABc |\
+"D"d2dc dAFA | dcde fdAd | "A7"gfed cdef | gfed cABc ||\
+"D"d2dc dAFA |
+dcde fdef | "A7"gfed cdec | Acec "D"d2 :: fg |\
+"D"a2ab afdf | abaf d2ef |
+"A7"g2ga gecd | efec ABcA ||\
+"D"dcde fdef | "G"gfga bagf | "A7"efec Acec | Acec "D"d2 :|
+
+
+X: 3
+T: Jelly Side Up
+I: Jelly Side Up	R-111	G	reel
+C: Paul Milde 1998
+M: C|
+R: reel
+K: G
+D2 |\
+"G"GFGA B2AG | d2Bc dcBd | g2fg "C"agef | agfe "G"d3B |\
+"Am"cBcd "D"ecA2 | "G"B2GA B2G2 |
+"D"A2Ac "G"B2AG | "D"FGAF "G"G3D |]\
+"G"GFGA B2AG | d2Bc d2f2 | g2fg "C"agfe | "G"d2Bc d3B |
+"Am"cBcd "D"e2c2 | "G"B2GA B2G2 | "D"A2Ac "G"B2AG | "D"FGAF "G"G2 |]\
+Bc |\
+"G"d2d2 g3d | "C"e2ge "G"d3B |
+"D7"cBce "G"d2cB | "Em"GABG "D"A2Bc |\
+"G"d2B2 g2d2 | "C"egfe "G"d3B | "C"cedc "G"B2GB | "C"AG"D"FA "G"G2Bc |]\
+"G"d4 g3d |
+"C"ecge "G"d3B | "D7"cBce "G"dcBA | "Em"GABG "D"A2d2 |\
+"G"g3a "Em"gfed | "D"gfed "C"fedc | "G"B2GB "D"AGFA | "G"G6 |]
+

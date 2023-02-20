@@ -1,0 +1,11 @@
+X: 63
+T: Bugeacul
+O: Romania
+M: 6/8
+L: 1/8
+K: F
+Q: 1/4=180
+%%MIDI gchord fg
+|:"F"AcB B2A    |AcB B2A  |AcB B2A|AA2 GF2 :|
+%%MIDI gchord fz
+|:"A"A2G "Bb"F2E|"D"D3 c2B|A2G F2E|FGE D3  :|

@@ -1,0 +1,50 @@
+X:1
+T: The Oswestry Wake
+N:
+C:4 times
+S:
+A:
+O:
+R:
+M:6/8
+K:A
+I:speed 165
+%W: A1
+% voice 1 (1 lines, 19 notes)
+K:A
+M:6/8
+L:1/16
+e2 |f2 g2 a2 g4 f2 e2 d2 c2 B4 A2 a2 g2 f2 g4 a2 b6b4 e2 |
+%W:
+% voice 1 (1 lines, 20 notes)
+f2 g2 a2 g4 f2 e2 d2 c2 B2 c2 d2 c2 A2 A2 B2 G2 G2 A6A4 e2 |
+%W: A2
+% voice 1 (1 lines, 18 notes)
+f2 g2 a2 g4 f2 e2 d2 c2 B4 A2 a2 g2 f2 g4 a2 b6b4 e2 |
+%W:
+% voice 1 (1 lines, 20 notes)
+f2 g2 a2 g4 f2 e2 d2 c2 B2 c2 d2 c2 A2 A2 B2 G2 G2 A6A4 B2 |
+%W: B1
+% voice 1 (1 lines, 21 notes)
+c2 d2 e2 e2 f2 e2 e2 c2 A2 e2 c2 A2 B2 c2 B2 d4 e2 f6 f2 e2 d2 |
+%W:
+% voice 1 (1 lines, 18 notes)
+c2 d2 e2 e2 f2 g2 a6 e4 d2 c2 A2 c2 B2 G2 B2 A6A4 B2 |
+%W: B2
+% voice 1 (1 lines, 21 notes)
+c2 d2 e2 e2 f2 e2 e2 c2 A2 e2 c2 A2 B2 c2 B2 d4 e2 f6 f2 e2 d2 |
+%W:
+% voice 1 (1 lines, 18 notes)
+c2 d2 e2 e2 f2 g2 a6 e4 d2 c2 A2 c2 B2 G2 B2 A6A4 e2 |
+%W: C1
+% voice 1 (1 lines, 19 notes)
+a2 e2 c2 a2 e2 c2 a2 e2 c2 B4 A2 a2 g2 f2 g4 a2 b6b4 g2 |
+%W:
+% voice 1 (1 lines, 20 notes)
+a2 c'2 b2 a2 g2 f2 g2 b2 a2 g2 f2 e2 f2 a2 c2 B4 A2 A6A4 e2 |
+%W: C2
+% voice 1 (1 lines, 19 notes)
+a2 e2 c2 a2 e2 c2 a2 e2 c2 B4 A2 a2 g2 f2 g4 a2 b6b4 g2 |
+%W:
+% voice 1 (1 lines, 19 notes)
+a2 c'2 b2 a2 g2 f2 g2 b2 a2 g2 f2 e2 f2 a2 c2 B4 A2 A6A4 ||

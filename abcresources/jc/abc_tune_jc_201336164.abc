@@ -1,0 +1,28 @@
+X: 1
+T: Shawbury Park
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (146)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B3A GABG | A2D2 D2G2 | ^F2G2 D2B2 | AGAB ABcA |\
+B3A GABG | A2D2 D2G2 | ^F2G2 GBAG | G8 :|
+|:\
+F3F F=EFG | F2D2 D2D2 | G3G AGAF | B6 cd |\
+edcB A2d2 | cBAG ^F2d2 | edcB cBAG | G8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. go with inside of the 2d Cu. then on the
+%% outside of the 3d Cu. and lead up to the Top and cast
+%% off then the 2d Cu. do the same :| Then the 1st and
+%% 2d Men sett to their Partners and take Hands and
+%% quite round then lead between the 2d Cu. and cast
+%% up then right and left Hands half round :|
+%%endtext
+%%sep 1 8 500

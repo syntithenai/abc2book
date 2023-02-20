@@ -1,0 +1,32 @@
+X: 4425
+T: "the SILVER LAKE" VARSOVIANA
+R: Varsoviana
+%R: varsoviana, waltz
+B: James Kerr "Merry Melodies" v.4 p.47 #425
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: There are "1st time", "2nd time", "3rd time" bracketed notations above the 2nd, 3rd, 4th strains.
+N: These have been omitted, since they're just a redundant way of of indicating a rondo, which the "D.C." markings also do.
+M: 3/4
+L: 1/8
+K: G
+B>c |\
+d2 g2 f2 | c4 A>B |\
+c2 e2 d2 | B4 B>B |\
+B2 A2 B2 | c4 c>d |\
+e2 F2 F2 | G4 ::\
+G2 |\
+e>^d e2 G2 | d>^c d2 G2 |\
+c>B c2 d2 |
+d4 G2 |\
+e>^d e2 G2 | d>^c d2 G2 |\
+c>B c2 F2 | "_D.C."G4 ::\
+d2 |\
+b>^a b2 d2 | b>^a b2 d2 |\
+b>^a b2 c'2 | a4 d2 |\
+a>^g a2 d2 | a>^g a2 d2 |
+a>^g a2 b2 | "_D.C."G4 ::\
+[K:=f] E>F |\
+G>^F G2 G2 | A>^G A2 A2 |\
+B>A B2 G2 | c4 G2 |\
+e>^d e2 G2 | d>^c d2 A2 |\
+B>A B2 g2 | "_D.C."c4 :|

@@ -1,0 +1,33 @@
+X: 112
+T: Drummore's Rant
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.11 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+(d |\
+B)GdB ecd(c | B)GdB (FA/B/ c)A |\
+BGdB ecdB | (A/B/c) FA fcc :|
+|: f |\
+(e/f/g) dg BGdB | (e/f/g) df AFcA |\
+(e/f/g) dg BGdB | (A/B/c) FA fcc :|
+|: d |\
+BG G/G/G G/G/G ed | BG G/G/G F(A/B/ c)A |\
+BG G/G/G G/G/G ed | (A/B/c) FA fcc :|
+|: f |\
+(e/f/g) (e/f/g) BGBG | (e/f/g) (e/f/g) AFAF |\
+(e/f/g) (e/f/g) BGBG | (A/B/c) FA fcc :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g2g2 g2g2 | g2g2 f2f2 | g2g2 g2g2 | f2f2 f2f :|\
+|: z | g2g2 g2g2 | g2g2
+f2f2 | g2g2 g2g2 | f2f2 f2f :|\
+|: z | g2 g2 g2g2 | g2g2 f2f2 | g2g2 g2g2 |
+f2f2 f2f :|\
+|: z | g2g2 g2g2 | g2g2 f2f2 | g2g2 g2g2 | f2f2 f2f :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

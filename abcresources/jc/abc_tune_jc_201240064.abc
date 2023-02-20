@@ -1,0 +1,24 @@
+X: 361
+T: Betsy Howison's Favorite
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.36#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: jig
+M: 6/8
+L: 1/8
+K: G
+V: 1
+D |:\
+G2D DEF | G2D DEF | G2g (gf).e | d<gB {B}A2G |\
+G2D DEF | G2D DB,D | G>AB AGF | EAG ~F2D :|
+|:\
+G2G GAB | {d}cBA BGE | G2G efg | {f}edB def |\
+gdB ecA | dBG AFD | G>AB c>de | d<gB {B}A2G :|
+V: 2 clef=bass middle=d
+z |\
+g2f {f}e2d | g2f {f}e2d | GBd g2f | g2G d2z |\
+g2f {f}e2d | g2f g2G | g3 d3 | c2^c d3 :|
+|:\
+g3 g3 | d2^d e2E | g2G c2g | e3 B3 |\
+g3 c'3 | g3 d3 | g2G c2^c | d2D G2G :|

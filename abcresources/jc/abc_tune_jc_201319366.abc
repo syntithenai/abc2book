@@ -1,0 +1,32 @@
+X:1
+T: The Old Boot
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:Am
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 26 notes)
+K:Am
+M:6/8
+L:1/16
+E2 |A6 B6 c6c2 B2 A2 B4 B2 B2 c2 d2 c4 c2 c2 d2 e2 |d4 d2 d2 e2 f2 e4 d2 c4 B2
+%W:
+% voice 1 (1 lines, 23 notes)
+c6 d6 e6e2 d2 c2 |d4 d2 d2 e2 f2 e4 a2 A4 B2 c4 e2 E2 ^F2 ^G2 A6A4 E2 |
+%W: A2
+% voice 1 (1 lines, 25 notes)
+A6 B6 c6c2 B2 A2 B4 B2 B2 c2 d2 c4 c2 c2 d2 e2 |d4 d2 d2 e2 f2 e4 d2 c4 B2
+%W:
+% voice 1 (1 lines, 24 notes)
+c6 d6 e6e2 d2 c2 |d4 d2 d2 e2 f2 e4 a2 A4 B2 c4 e2 E2 ^F2 ^G2 A6A4 c d |
+%W: B1
+% voice 1 (1 lines, 36 notes)
+e4 c2 c2 d2 e2 d4 g2 G4 d e f4 d2 d2 e2 f2 e4 a2 A4 f g |a4 d2 d2 e2 f2 g6 c'6 b4 a2 ^g2 ^f2 g2 a6a4 c d |
+%W: B2
+% voice 1 (1 lines, 34 notes)
+e4 c2 c2 d2 e2 d4 g2 G4 d e f4 d2 d2 e2 f2 e4 a2 A4 f g |a4 d2 d2 e2 f2 g6 c'6 b4 a2 ^g2 ^f2 g2 a6a4 ||

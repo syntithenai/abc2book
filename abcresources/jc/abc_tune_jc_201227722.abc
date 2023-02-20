@@ -1,0 +1,23 @@
+X: 10942
+T: les CHARMANTS ANGLOIS
+Q: "Quadrille."
+%R: reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.94 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c2 |\
+f2g2a2b2 | {ga}g2^f2{ga}g2f2 | {ga}g2^f2g2a2 | {g}fefg f2c2 |\
+f2g2a2b2 | {ga}g2^f2{ga}g2f2 | {ga}g2^f2g2a2 | f2f2f2 |]
+AB |\
+cfef gfaf | ed^cd cdfd | c2b2a2g2 | {g}fefg f2AB |\
+cfef gfaf | ed^cd cdfd | c2b2a2g2 | f2f2"^Fin."f2 H|]
+[K:Fm] "Minore."c2 |\
+FfGg AaGg | Ff=Ee FfCc | FfGg AaGg | Ff=Ee FfCc |\
+FfGg AaGg | Ff=Ee Ff=Ee | FfDd Cc=B,B | "^D.C."c6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

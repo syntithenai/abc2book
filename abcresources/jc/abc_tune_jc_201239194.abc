@@ -1,0 +1,48 @@
+X: 32281
+T: RONDO
+C: By J. Pleyel
+R: march, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.228
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+V: 1
+vf2f2 |\
+{f}(edef) g2g2 | {g}(fefg) a2a2 | (a2ba) g2f2 | e4 f2f2 |\
+{f}(edef) g2g2 | {g}(fefg) a2a2 | (a2bg) f2e2 | d4 |]
+ve2e2 |\
+(edce) e2f2 | g4 f2f2 | (fede) f2g2 |Ha4 f2f2 |\
+{f}(edef) g2g2 | {g}(fefg) a2a2 | (a2bg) f2Te2 | d4 |]
+vdz uez |\
+vfz udz vgz uez | f4 (.dz .e)z | (f3g/f/) e2d2 | (d2c)z vdz uez |\
+vfz udz vgz uez | f4 (.b3.a) | (agfe) d2Tc2 | B4 d2d2 |
+{d}(cBcd) e2e2 | {e}(dcde) (f2d'2) | c'2b2 a2^g2 | H[g4A4] vf2f2 |\
+%
+{f}(edef)g2g2 | {g}(fefg) a2a2 | (a2ba) g2f2 | e4 f2f2 |
+{f}(edef) g2g2 | {g}(fefg) a2a2 | (a2bg) f2Te2 | d4 d'2d'2 |\
+(d'c'ba) b2c'2 | (d'2a)z vd'2d'2 | (d'c'ba) b2c'2 | d'2z2 (d'c'ba) |
+^g2g2 (aba=g) | f2f2 (ebge) | d2d2 {f}(edef) | (dAFA) (FAFA) |\
+(GAGA) (GAGA) | (FAFA) (FAFA) | (GAGA) (GAGA) | (FAFA) F2z2 |
+(vE=FED) C2C2 | D2(F2 G2)E2 | [F2A,2][F2A,2] [G2A,2][G2A,2] | [FA,] A,B,C DEFG |\
+A2FD A2(A,2 | D)ABc defg | a2fd a2[c'2A2] | [d'2f2D2]z2 z4 |]
+%
+V:2
+vd2d2 |\
+{d}cBcd e2e2 | {e}(dcde) f2f2 | (f2gf) e2d2 | c4 D2D2 |\
+{D}(CB,CD) E2E2 | {E}(DCDE) F2F2 | F2(G2 A2)A,2 | D4 |]
+vc2c2 |\
+(cBAB) c2d2 | e4 d2d2 | (dAFA) d2e2 | Hf4 D2D2 |\
+{D}(CB,CD) E2E2 | {E}(DCDE) F2F2 | F2(G2 A2)A,2 | D4 |]
+(vBFcF) |\
+(dFBF) (ecec) | (dBdB) (BFcF) | (dFdF) (cFBF) | (BF^AF) (BFcF) |\
+(dFBF) (cece) | (BdBd) (B^dfd) | e2(dc) B2F2 | B,2B2 [F2B,2][F2B,2] |
+[G4A,4] [G2A,2][G2A,2] | [F4A,4] z2(uFA | EGDF CEB,E) | H[E4C4] vD2d2 |
+%
+{d}(cBcd) e2e2 | {d}(dcde) f2f2 | (f2gf) e2d2 | c4 D2D2 | {D}(CB,CD) E2E2 |
+{E}(DCDE) F2F2 | F2G2 A2A,2 | (DAFA) (FAFA) | (GAGA) (GAEA) | (FAFA) (FAFA) |
+(EAEA) (GAGA) | (FAFA) vF2z2 | (vE=FED) C2C2 | (DCB,A,) G,2G2 |
+[F2A,2][F2A,2] [G2A,2][G2A,2] | [F2A,2]z2 vd'2d'2 | (d'c'ba) b2c'2 | (d'2a2) d'2d'2 | (d'c'ba)
+b2c'2 | d'4 (d'c'ba) | ^g2g2 (abag) | f2f2 (ebge) | d2d2 {f}(edef) |
+dABc defg | a2fd a2(A2 | d)A,B,C DEFG | A2FD A2vA,2 | vD2z2 z4 |]

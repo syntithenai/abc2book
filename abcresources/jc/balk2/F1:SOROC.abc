@@ -1,0 +1,27 @@
+X: 461
+T: Soroc
+O: Romania
+S: Alexandru, Mihai David : Gypsy Camp vol. 1
+F: http://www.youtube.com/watch?v=3Gx2sD9ICbg
+M: 2/4
+L: 1/8
+Q: 1/4=180
+K: G
+P:A
+%%MIDI program 19
+  AG.A2 |AG.A2|AG.A2 |AG.A2 |\
+%%MIDI program 75
+|:cBA2  |A2 A2|AGAB  |.A2.A2|
+  .G2.A2|.B2BG|.B2BG |.B2Bd |\
+  cBA2  |A2 A2|AGAB  |.A2.A2|
+  GFE2  |EDEF |D2z2  |z4    :|
+P:B
+|:A2GF  |EFGz |GFGA  |F2F2  |\
+  EFGz  |GF^EF|ABA2  |A^GAz |
+  A2GF  |EFG2 |GFGA  |BAGF  |\
+  F2GF  |EFD2 |[1DEFG|ABA2  :|[2 z4| z4|
+P:C
+|:A^GAB |cAcz |BGAF  |GzGA  |\
+  cAc2  |BGAF |Gz3   |d2z2  |
+  A^GAB |cAB2 |BGAF  |G2FG  |\
+  AFGE  |FDE^C|D2z2  |D2z2  :|

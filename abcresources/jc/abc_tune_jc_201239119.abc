@@ -1,0 +1,16 @@
+X: 32122
+T: BLUE BONNETS HORNPIPE
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.212 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The first A in bar 8 should probably be a G, as in bar 16.
+M: C|
+L: 1/8
+K: C
+(ugf) |\
+e>c ((3cBc) G>c ((3cBc) | e>c (3ege c2 d>e | f>d ((3d^cd) B>d ((3dcd) | B>A (3BdB G2 g>f |
+e>c ((3cBc) G>c ((3cBc) | e>c (3 ege c2 fg | a>(fg)>(e f)>(de)>(c | B)>(AA)>B c2 :|
+|: (ug>f) |\
+e>g ((3g^fg) e>g ((3gfg) | e>c (3ege c2 d>e | f>a ((3a^ga) f>a ((3aga) | f>d (3faf d2 g>f |
+e>g ((3g^fg) e>g ((3gfg) | e>c (3ege c2 fg | a>(fg)>(e f)>(de)>(c | B)>(GA)>B c2 :|

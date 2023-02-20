@@ -1,0 +1,26 @@
+X: 1
+T: L\"ordags valsen
+T: Saturday waltz
+C: Anselm Johansson
+R: waltz
+O:
+B:
+D:
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 3/4
+L: 1/8
+K: G
+"^A"|: D2 \
+| "G"G3 DB,D | G2 A2 B2 | "Am"A3 EAB | c3 BAG |\
+[1,3 "D7"F3 DFA | c2 B2 A2 | "G"B3 AGE | "(D7)"D4 :|\
+[2,4 "D7"F2 D2 F2 | A2 B2 A2 | "G"G3 G G2 | HG4 :|
+"^B"|: "G7"G2 \
+| "C"E3 CEG | A2 G2 E2 | "G"D3 B,DG | B3 BAG |\
+[1,3 "D7"F2 D3F | A2 d2 c2 | "G"B3 AGE | D4 :|\
+[2,4 "D7"F3 DFA | c2 B2 A2 | "G"G3G G2 | G4 :|
+"^C"|: D2 \
+|  "G"DG BD GB | DG BD GB |     DG c2 B2 | "D7"A3 A A2 \
+|     DF AD FA | DF AD FA |     DF B2 A2 | "G"G3 G G2 ||
+|| "G"DG BD GB | DG BD GB | "Am"EA cE Ac | EA cE Ac \
+| "D7"d2 e3  d | c2 E2 F2 |  "G"G3  G G2 | G4 :|

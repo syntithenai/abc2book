@@ -1,0 +1,32 @@
+X: 282
+T: Scots Bonnet
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.28 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+GABc dedB | ABcd e/e/e e2 |\
+GABc (de/f/ g)e | dBcA G/G/G G2 :|
+|:\
+BGAB A(FTED) | BGAB E/E/E E2 |\
+BGAB A(FTED) | dBcA G/G/G G2 :|
+|:\
+gdBG gdBG | (TA>GA)B E/E/E E2 |\
+gdBG gdBG | cAdB G/G/G G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g2g2 g2g2 | a2a2 a2a2 |\
+g2g2 g2g2 | d2d2 G2G2 :|\
+|:\
+g2g2 d2d2 | g2g2 e2e2 |
+g2g2 d2d2 | d2d2 G2G2 :|\
+|:\
+g2g2 g2g2 | d2d2 e2e2 |\
+g2g2 g2g2 | c2d2 G2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

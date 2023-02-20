@@ -1,0 +1,93 @@
+
+X: 4
+T: Bushy Park    [F]
+O: 1779
+R: jig
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 6/8
+K: F
+% - - - - - - - - - -
+V: 1 brace=2 staves=2
+c/B/ |\
+"F"AFF cAA | "Bb"BdB "Gm"G2B | "F"Acf "Gm"Bdg | "C7"ecc c2 c/B/ |\
+"F"AFF cAA | "Bb"BdB "Gm"G2B | "F"Acf "C7"cbg | "F"aff f2 :|
+|: f/g/ |\
+"F"aff "C"gee | "G7"fdd "C7"ecc | "F"cAF Acf | "C7"BGG G2 c/B/ |\
+"F"AFf "Gm"dBg | "C"eca "/d"b2"/e"g | "F"afa "C7"gee | "F"fFF F2 :| [b2F2]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+f3 f3 | b3 b2g | a2f b2g | c'cc c2z |\
+f3 f3 | b3 b2g | c'3 c3 | fFF F2 :|
+|: z |\
+f3 c3 | G3 c3 | f3 f2F | cCC C2z |\
+f3 b2g | c'2c d2e | f2F c2C | FFF F2 :| [c'2C2]
+% - - - - - - - - - -
+%%begintext align
+%% Cast off one Cu foot it and hands four at bottom .|
+%% Cast up foot it & hands four at top :|
+%% lead down two Cu. up again and cast off :|.
+%% hands six quite round :|:
+%%endtext
+
+%%sep 1 1 500
+
+X: 4
+T: Bushy Park    (G)
+O: 1779
+R: jig
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 6/8
+K: G
+% - - - - - - - - - -
+d/c/ |\
+"G"BGG dBB | "C"cec "Am"A2c | "G"Bdg "Am"cea | "D7"fdd d2 d/c/ |\
+"G"BGG dBB | "C"cec "Am"A2c | "G"Bdg "D7"dc'a | "G"bgg g2 :|
+|: g/a/ |\
+"G"bgg "D"aff | "A7"gee "D7"fdd | "G"dBG Bdg | "D7"cAA A2 d/c/ |\
+"G"BGg "Am"eca | "D"fdb "/e"c'2"/f#"a | "G"bgb "D7"aff | "G"gGG G2 :| [c'2G2]
+% - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 4
+T: Bushy Park    (C)
+O: 1779
+R: jig
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 6/8
+K: C
+% - - - - - - - - - -
+G/F/ |\
+"C"ECC GEE | "F"FAF "Dm"D2F | "C"EGc "Dm"FAd | "G7"BGG G2 G/F/ |\
+"C"ECC GEE | "F"FAF "Dm"D2F | "C"EGc "G7"Gfd | "C"ecc c2 :|
+|: c/d/ |\
+"C"ecc "G"dBB | "D7"cAA "G7"BGG | "C"GEC EGc | "G7"FDD D2 G/F/ |\
+"C"ECc "Dm"AFd | "G"BGe "/a"f2"/b"d | "C"ece "G7"dBB | "C"cCC C2 :| [f2C2]
+% - - - - - - - - - -
+
+%%sep 1 1 500
+
+X: 4
+T: Bushy Park    (D)
+O: 1779
+R: jig
+S: Image from Darlene Wigton, June 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 6/8
+K: D
+% - - - - - - - - - -
+A/G/ |\
+"D"FDD AFF | "G"GBG "Em"E2G | "D"FAd "Em"GBe | "A7"cAA A2 A/G/ |\
+"D"FDD AFF | "G"GBG "Em"E2G | "D"FAd "A7"Age | "D"fdd d2 :|
+|: d/e/ |\
+"D"fdd "A"ecc | "E7"dBB "A7"cAA | "D"AFD FAd | "A7"GEE E2 A/G/ |\
+"D"FDd "Em"BGe | "A"cAf "/b"g2"/c#"e | "D"fdf "A7"ecc | "D"dDD D2 :| [g2D2]
+% - - - - - - - - - -

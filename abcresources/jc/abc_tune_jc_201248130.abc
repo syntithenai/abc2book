@@ -1,0 +1,25 @@
+X: 1
+T: the Assembly Waltz  (D)
+C: Johann Nepomuk Hummel (1778-1837)
+R: waltz
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+F: http://imslp.info/files/imglnks/usimg/b/b5/IMSLP48900-PMLP103227-Hummel__Johann_Nepumuk__Assembly_Waltz.pdf
+M: 3/4
+L: 1/8
+P: AABBCCAB
+K: D
+%%staffsep 35
+"A"[|] DE |\
+"D"(F^E F2) (GF | "A7"E^D E2) (^GA) | "A7"(BA) (AG) (GE) | "D"(BA) (AF) (FD)
+y6 \
+"D"(F^E F2) (GF | "A7"E^D E2) (^GA) | "A7"(BA) (AG) (GE) | "D"D4 :|
+"B"|: =CC |\
+"Am"=C2 .[A2e2a2] .[^A2e2^a2] | "B"[B4^d4b4] _B,B, | "Gm"_B,2 .[G2d2g2] .[^G2d2^g2] | "A"[A4c4a4] (^ga) |
+y6 \
+"A7"b2 (ac ac) | "D"g2 (fA fA) | "A7"f2 (eG eG) | "D"e2 (dF dF) |
+y6 \
+"A7"b2 (ac ac) | "D"g2 (fA fA) | "A7"f2 (eG eG) | "D"d4 "fine"y:|
+"C"|: d2 |\
+"G"d2 (B=c de) | "G"d2 (Bg db) | "D7"b2 (a=c ac) | "G"a2 (gB gB) |
+y6 \
+"G"d2 (B=c de) | "G"d2 (Bg db) | "D7"b2 (a=c ac) | "G"[g2B2] "d.C."z2 :|

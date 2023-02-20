@@ -1,0 +1,24 @@
+X: 10583
+T: AIR
+C: Mozart
+Q: "Allegretto."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.58 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: D
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2B2c2 |\
+d4 d4 z2(ba gfed) | (c2B2) B4 z2(gf edcB) |\
+(B2A2) A4 z2A2B2c2 | e4 d4 z2 :|\
+A2d2f2 |\
+(a2g2) e4 z2A2e2g2 | (g2f2) d4 z2A2d2f2 |
+(a2g2) e4 (g2f2) d4 | Ha8 z2A2B2c2 |\
+d4 d4 z2(ba gfed) | (c2B2) B4 z2(gf edcB) |\
+(B2A2) A4 z2A2B2c2 | {e}d8 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - 

@@ -1,0 +1,26 @@
+X:1
+T: The Kentish Cricketers
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 34 notes)
+K:D
+M:4/4
+L:1/16
+B4 |A4 F4 d4 F4 |A4 F4 D4 B4 |A4 F4 d4 e4 |c8 E4 F2 G2 |A4 F4 d4 F4 |A4 F4 D4 f4 |e6 d2 e4 f4 |d2 d2 d4 d4 B4 |
+%W: A2
+% voice 1 (1 lines, 32 notes)
+A4 F4 d4 F4 |A4 F4 D4 B4 |A4 F4 d4 e4 |c8 E4 F2 G2 |A4 F4 d4 F4 |A4 F4 D4 f4 |e6 d2 e4 f4 |d2 d2 d4 d8 |
+%W: B1
+% voice 1 (1 lines, 36 notes)
+d4 f2 g2 a4 f4 |b4 g4 a4 f4 |f6 e2 d4 f4 |e2 e2 e4 e4 f4 |d4 f2 g2 a4 f4 |b4 g4 a4 f4 |e6 d2 e4 f4 |d2 d2 d4 d4 z4 |
+%W: B2
+% voice 1 (1 lines, 34 notes)
+d4 f2 g2 a4 f4 |b4 g4 a4 f4 |f6 e2 d4 f4 |e4 e4 e4 e4 |f4 d4 f2 g2 a4 |f4 b4 g4 a4 |f4 e6 d2 e4 |f4 d2 d2 d4 ||

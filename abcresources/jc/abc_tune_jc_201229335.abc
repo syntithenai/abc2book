@@ -1,0 +1,21 @@
+X: 122001
+T: PATRONELLA
+P: Country Dance.
+%R: reel
+B: James Kerr "Merry Melodies" v.1 p.22 s.0 #1
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The (.*.*) notation is used for the straight-line slurs in this tune.
+M: 2/4
+L: 1/16
+K: A
+|:\
+vduA |\
+F2AF E2AF | D2D2D2 (FA) |\
+d2cd (.e2.d2) | (cd)Bc A2dA |\
+F2AF E2AF | D2D2D2 (FA) |\
+d2cd (.e2.c2) | d4-d2 :|
+|: (dA) |\
+F2fd A2af | g2(gf) edcB |\
+A2ec A2ge | f2(fd) AdAF |\
+D2fd A2af | g2(gf) edcB |\
+A2ec (Ag)ec | d4- d2 :|

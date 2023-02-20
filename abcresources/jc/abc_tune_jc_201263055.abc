@@ -1,0 +1,28 @@
+X: 1
+T: Cock and Bull
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (38)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B2 |\
+A2G2 FGAE | F2 D4 B2 | A2G2 gfgB | c2 e4 dc |\
+d2a2 c2g2 | B2g2 A2f2 | gfed cdec d2 D4 |]
+B2 |\
+A3G F2d2 | E2c2 D2B2 | A3G F2a2 | Bcde c3B |\
+A2G2 FGAF | BcdB cdec | fgaf befc | d3 D4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. foots it and turns .| 1st Cu. cross over and
+%% half figure at Top :| The 1st Man goes round the 3d Man
+%% on the Right hand side 1st Wo. does the same at the same
+%% time round the 2d Wo. 1st Cu. turns in the 2d Cu. Place
+%% .| The 1st Man figures round the 3d Wo. 1st Wo. at the
+%% same time figures round the 2d Man and turn again in
+%% the 2d Cu. Place.
+%% [CCDM2]
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,47 @@
+X: 160
+T: Down On the Shore
+N: Copyright, 1912, by the Cable Co.
+C: Mary Sanford Morrison
+C: words: M. S. M.
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+Q: "Lightly, with gay swinging rhythm."
+%R: air, jig
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+V: 2           brace=2
+V: 3 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] [| B c G B c G | B c G B3 | G F E G F E | G3 z2z |
+w: 1.~Give us the stones on the shin-ing white sands, Down by the side of the lake;
+w: 2.~Or, if we tire of the car-pen-ter's trade,      Come, let's be cooks for an hour!
+w: 3.~Some-times we're min-ers who dig for fine gold, Some-times we're pir-ates in caves;
+[V:2] [| [BE6]cG BcG | [BE6]cG B3 | [GC3]FE [G=B,3]FE | [G3_B,3] z2z |
+[V:3] [| Ez (B [ge]) z(B | E)z (B[ge]) z(B | E)z (c[ge]) z=B | (E_Bc deg) |
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] B c G B c G | B c G B3 | B =A G A D A | (G3 B3) |
+w: Shov-el and pail and a pair of brown hands,      Then see the things we can make!*
+w: Here is an ov-en of stones we have made,         Here is white sand for our flour.*
+w: Some-times we're sail-ors, so dash-ing and bold, Guid-ing our boats thro' the waves.*
+[V:2] [BE6]cG BcG | [BE3]cG [B3E3] | [BD3]=AG [AC3]DA | ([G3B,3] [B3D3]) |
+[V:3] Ez (B[ge]) z(B | E)z (B[ge]) z(B | D)z (d^f) z(B | E) zd a2B |
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] e d c d c B | c B G B3 | c B G E F E | c3 z2z |
+w: Church-es with steep-les and cas-tles with tow'rs, Forts where the can-nons may roar;
+w: Mix it with wa-ter and stir up a dough,            Set it to rise in the sun;
+w: Then where the shad-ows live long on the sand,     Tired, hap-py chil-dren once more,
+[V:2] "^>"[eG3E3]dc "^>"[dA3D3]cB | [cG3E3]BG [B2D2]z | [cG_D6]B(G E)FE | [c3E3C3] z2z |
+[V:3] Ez (Ba) z(B | E)z (Ba) z(B | E)z (B[ge]) zB | "^rit."(Aef gac') |
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] e d c c =B c | e c B HG2z | G E G B G F | E6 |]
+w: Hous-es and gar-dens with beds of sweet flow'rs, Grow on the sand by the shore!
+w: Cook in the ov-en a half hour or so,             That's how our bak-ing is done!
+w: Home-ward we go to the Rock-a-by Sand,           Say-ing "Good-night" to the shore.
+[V:2] [e=A3E3]dc [c_A3E3]=Bc | [eG3E3]cB H[G2E2]z | [G=A,3]EG [BD3]GF | [E6G,6] |]
+[V:3] Fz (fb) z(f | B)z g Hb2z | Fz (fB) za | E2B [g2e2]z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

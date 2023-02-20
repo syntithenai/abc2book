@@ -1,0 +1,33 @@
+X:82
+T:Irja (tango)
+M:4/4
+L:1/8
+Q:1/4=120
+S:Arvo Koskimaa, Sov. Jaakko Salo
+R:tango
+K:Em
+"Intro" GFE | "Am" [d2B2] [c3A3] AGF | "Em" [c2A2] [B3G3] B,EG |
+"Am6" [B2E2C2] A^G "B7" [A2^D2B,2] =GF | "Em" [E2G,2] "Laulu" B,D C2 B,2 | !
+%
+"Em" B4 (G4 | G)BcB AGFE | "Am" G4 (F4 | "B7" F2) B,D C2 B,2 |
+"Am" A4 (F4 | "B7" F)B,^DF BAGF | !
+"Em" GB,^C^D EDEF | G2 B,D C2 B,2 | "Em" B4 (G4 | G)BcB AGFE |
+"Am" G4 (F4 | "B7" F2) B,^C ^D2 F2 | !
+"Am" A4 (F4 | "B7" F)B,^DF BAGF |
+"Em" (E4 "Am6" E4 | "Em" E2) EF "E7" ^G2 AB |
+"Am" c4 (A4 | "D7" A)A^GA ([d2F2D2] [c2F2D2]) | !
+"G" [B4G4D4] "B7" [^D4A4] | "Em" [B2G2E2] EF G2 AB |
+"Am" A4 (F4 | "B7" F)F^EF ([^D2B2] [^D2A2]) |
+"Em" [G4E4] E^D=D>C | [G2B,2] B,D C2 B,2 | !
+B4 (G4 | G)BcB AGFE | "Am" G4 (F4 | "B7" F2) B,D C2 B,2 |
+"Am" A4 F4 | "B7" B3 A G2 F2 | "Em" (E8 | "Fine" E) z "Instr" .B2 .e B,EG | !
+%s
+"Em" B G2 E "Am" A2 GF | "Em" G2 (E2 E)EGB | ee/2e/2ee "Am" fedc |
+"Em" ([B4G4] [BG])BcB | "Am6" [AEC] F2 G "B7" [^D2B,2A2] BA |
+"Em" G E2 F "Em7" G2 FG | !
+"F#7" [F2^A2] (F2 F)^C^DE | "B7" [B,2^D2F2] (B2 B)B,EB |
+"Em" B G2 E "Am" A2 GF | "Em" G2 (E2 E)EFG |
+"Am" A B2 c "D7" D2 E2 | "G" [B2G2D2] "B7" [^D2A2] "Em" [BGE]GFE | !
+"Am" [d2B2] ([c2A2] [cA])AGF | "Em" [c2A2] ([B2G2] [BG])B,EG |
+"Am6" [B2E2C2] A^G "B7" [B,2^D2A2] =GF |
+"Em_Da Laulu al Fine" [E2G,2] | !

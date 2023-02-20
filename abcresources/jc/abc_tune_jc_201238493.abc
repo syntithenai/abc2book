@@ -1,0 +1,29 @@
+X: 30893
+T: COTILLION No. 6. BLACK HAWK SETT tune 6
+%R: march, reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.89 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Bar 7 is only half length; not fixed.
+N: The 2nd strain has final repeat but no itial repeat; not fixed.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+FG |\
+A2A2A2A2 | ABAG F2A2 | BGBd cABc | d2d2 defd |\
+A2A2A2A2 | ABAG F2A2 | BGBc  | d4 z2 H|]
+fg |\
+a4 a2b2 | b2a2f2a2 | b2a2f2d2 | edef efge |\
+a4 a2b2 | b2a2 f4 | a2f2 edef | d4 "^D.C."z2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance and turn.
+%% Next 2 forward, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

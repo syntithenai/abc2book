@@ -1,0 +1,19 @@
+X: 30112
+T: TORPEDO WALTZ
+C: E. L. White
+%R: waltz
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.11 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/8	% The book has M:3/4, but this doesn't agree with the music.
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c2 |\
+c2f2A2 | A2c2f2 | a>gf>ed>c | B2G2 g2 |\
+g2b2e2 | e2g2e2 | (=Bc_d=d_e=e) | f4 :|
+|: G>A |\
+B>AB>cd>e | f2a2f2 | g>fe>dc>B | A>GF2 G>A |\
+B>AB>cd>e | f>ga>bc'2 | c>bg>ec>e | f4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

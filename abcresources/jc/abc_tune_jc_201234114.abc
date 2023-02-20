@@ -1,0 +1,28 @@
+X: 2027
+T: Cameronian Rant
+R: reel
+B: John Walsh "Caledonian Country Dances"
+S: http://petrucci.mus.auth.gr/imglnks/usimg/5/50/IMSLP98359-PMLP202128-walsh_caledonian_country_dance_vol2.1.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has an initial repeat, but no final repeat.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+f |\
+cF F/F/F cFBd | cF F/F/F c2Ad | BG G/G/G BGdG | BG G/G/G c2A :|
+|: G |\
+Fffg fdcA | Fffg fdcA | Ggga gfed | Ggga gfed |
+Fffg fdcA | Fffg {f}e>dcf | (e/f/g) dg (e/f/g) dg | e/f/g dg {f}e3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+f2f2 f2f2 | f2f2 f2f2 | g2g2 g2g2 | g2g2 f2f :||: z | f2f2 f2f2 |
+f2f2 f2f2 | g2g2 g2g2 | g2g2 g2g2 | f2f2 f2f2 | f2f2 c'3=b | c'2=b2 c'2=b2 | c'2=b2 c'3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+Fall back two Cu. lead your Partner to the top and foot it, fall back to
+the 2d Cu. and lead thro' the 3d, cast up the 3d Cu. and lead thro' the 2d,
+foot it corners and turn, lead out of the sides.
+%%endtext

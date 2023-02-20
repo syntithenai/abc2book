@@ -1,0 +1,27 @@
+X: 3121
+T: HIGHLAND DRESS AND ARMOUR
+Q:"Strathspey."
+R: Strathspey.
+%R:strathspey
+B: James Kerr "Merry Melodies" v.3 p.15 #121
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+%%slurgraces yes
+%%graceslurs yes
+M: C
+L: 1/16
+K: C
+uc2 |\
+vGC3G3uE vG3uCEc3 | GC3G3D E4(Ec3) |\
+GC3G3E G3CEc3 | Gc3Ec3 {E}D4D2 ::\
+uf2 |\
+(3e2f2g2 (3f2g2a2 ec3c3e | dB3c3G E6 |\
+[1 f2 | (3e2f2g2 (3f2g2a2 ec3c3e |
+Gc3Ec3 {E}D6 :|\
+[2 e2 | c3ed3e ce3Ac3 | Gc3Ec3 {E}D6 ||\
+|: (ef) |\
+gc3a3c g3cea3 | gc3g3d e4(e3f) |\
+gc3a3c g3cea3 | gc3g3e d6 :|
+|: e2 |\
+{B}c3e dcBA GE3 Ec3 | GE3c3G E6 e2 |\
+[1 {B}c3e dcBA G3E Ec3 | Gc3Ec3 {E}D6 :|\
+c3ede3 ce3Ac3 | Gc3Ec3 {E}D6 |]

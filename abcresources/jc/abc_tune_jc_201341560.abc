@@ -1,0 +1,9 @@
+X:1
+T: Studio
+T: Op. 10 - N. 3
+C: F. Chopin
+M: C %%staves {RH1 (LH1 LH2)}
+V: RH1 clef=treble name="Piano"
+V: LH1 clef=bass
+V: LH2 clef=bass
+K: F % [V: RH1] (agfd edcG |A)(dcA BFG) (C |F2 EF [E4G4]- | [V: LH1] A,CA,C B,CB,C-|Cz ([^D,2^F,2][E,G,][D,A,][E,2B,2]|[F,A,]CA,C C,CB,C| [V: LH2] F,4 [F,4G,4] |[F,A,] x x2 C,4 |x4 x4 |

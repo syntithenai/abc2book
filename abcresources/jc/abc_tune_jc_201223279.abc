@@ -1,0 +1,24 @@
+X: 07084
+T: the NEW MELODY QUADRILLE (MARCH)
+C: Bob McQuillen 21 M14 89
+B: Bob's Note Book 7 #84
+%R: march
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/4
+K: G
+DGA \
+| BB2A | G2D2 | EG2E | DDGA | BB2A | G2B2 | A4- | AFGA |
+| BB2A | G2D2 | E>GFE | EDGA | BB2c | B2A2 | G4- | G :|
+|: ABc \
+| dd2c | B2d2 | ec2e | dcBc | dd2d | e>dcB | A4- | A2Bc |
+| dd2c | B2d2 | ec2e | dBGA | Bd2c | B2A2 | G4- | G :|
+%%begintext align
+%% Every Monday night
+%% there is a dance at the NewMelody Tavern in
+%% Seattle, WA. Anyone can play, anyone can
+%% dance; nobody pays andnobody gets paid. It's
+%% a wonderful time for everyone, and a great
+%% way to learn the music if you're new to the
+%% scene. Be there or be [square]!!
+%%endtext

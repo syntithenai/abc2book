@@ -1,0 +1,16 @@
+X: 758
+T: the Jug of Punch
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #758
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0758/oneill-1001-0758-1.abc
+M: C|
+L: 1/8
+K: D
+"^A"\
+[| A,DDC DEFG | ABGB ABGA | EA,A,B, CDEF | G2(AG) FDEC ||
+|| A,DDE (FD)(DE) | F2(ED) CDE2 | d2(ed) cAGE | FDEC D2D2 |]
+"^B"\
+[| Adde f2(fd) | e2(ed) cAAB | AGAB cBcd | eaag (ed)d2 ||
+|| Adde f2(fd) | e2(ed) cAAB | =c2(BA) GEAG | FDEC D2D2 |]

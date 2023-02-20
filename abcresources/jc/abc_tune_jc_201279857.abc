@@ -1,0 +1,18 @@
+X:269
+T:A Gavot
+C:Ashover Book, c. 1764
+M:2/2
+L:1/8
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=80
+%%MIDI program 74
+%%MIDI chordprog 54
+%%MIDI bassprog 54
+%%MIDI bassvol 30
+%%MIDI gchord bcbc
+K:D
+[| "D"d2"A"c2"D"d2A2 | "G"B2"A"c2"D"d4 | "G"g2"D"f2"G"b2"D"a2 | "Em"gfed "A"c4 |
+"D"(df) "Em"(eg) "D"(fd) "G"(ge) | "D"f2"A"g2"D"a4 | "D"fd "A"ec "Bm"dB "A"ac | "Bm"dB"E7"A^G "A"A4 |]
+[| "D"d2"B7"^d2"A"ecBA | "A7"ceag "D"f2-"D7"f2 | "B7"babf "Em"gefg | "F#7"fedc "Bm"B4 |\
+"D"d2"A"c2"D"d2A2 | "G"Bagf "F#7"f4 | "Bm"b2B2"G"c2d2 | "Em"egfe "A"Tc4 |
+"D"FAdf "Em"GBeg | "F#m"Acfa "G"Bdgb | "Em"gfga bceg | "A7"fedc "D"d4 |]

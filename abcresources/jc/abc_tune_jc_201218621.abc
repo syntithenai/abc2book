@@ -1,0 +1,19 @@
+X: 12
+T: Jefferson and Liberty
+T: the Gobby O
+O: 1843
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: NEFR #12 (in Am rather than Ador, which is slightly more common)
+B: Howe's Musician's Companion, Part 2 (1843)
+N: Based on an English song, "The Gobby O"
+N: Some versions have the pickup notes; others don't. NEFR has only the pickup on the B part.
+M: 6/8
+L: 1/8
+K: Ador
+"A"|:\
+"Am"{AB}c2A A^GA | E2A ABc | "G"B2G GBc | dBG GAB ||\
+"Am"c2A A^GA | E2A A2e "I"| edc "E7"BAB | "Am"E2A A3 :|
+"B"|:\
+"Am"{B}A2B c2d | "C"e2f g3 | e2f g2e | "G"dBG G2E ||\
+"Am"A2B c2d | "C"efg "F"a3 | "C"edc "E7"BAB | "Am"c2A A3 :|

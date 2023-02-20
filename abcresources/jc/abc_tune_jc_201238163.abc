@@ -1,0 +1,24 @@
+X: 3031
+T: Oer the Muir to Ketty.   A Scotch Measure.
+%:: air, march, Scotch measure
+N: This is version 2, for ABC software that understands voice overlaye and diminuendo symbols.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: Niel Gow & Sons "Complete Repository" v.3 p.3 #2 (after top 2 staffs continued from p.2)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+Q: "Slowish"
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+TF>E |\
+D3F (AB)(AF) | A2d2 ~d3B | (AB)(de) {g}f2ed | x2E2 E2TF>E & e2C2 C2x2 |\
+D3F (AB)AF | A2d2 ~d3B | (AB).d.e (fg)(ef) | d2D2 D2 :|
+|: de |\
+(fe).d.B (AB).d.F | A2d2 ~d3F | G3A (BA)(GF) | [E2C2]e2 e2(ag) |\
+"_sf"(fe)(df) "_sf"(ed()ce) | (dc)(BA) (BA)(GF) | Q(EF)(GE) (AG)(FE) | qD2d2 d2 :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 | D2d2 D4 | D2d2 D2g2 | f2e2 d2d'2 | a2A2 a2z2 | D2d2 D4 | D2d2 D2g2 | f2g2 a2A2 | D2d2 D2 :|
+|: z2 | d2d'2 d2d'2 | f2d2 d'2=c'2 | b2a2 g2b2 | a2A2 A2c'2 | "_sf"d'2b2 "_sf"c'2^a2 | b2c'2 d'2d2 | Qg4 a2A2 | qd2A2 D2 :|

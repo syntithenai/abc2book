@@ -1,0 +1,26 @@
+X: 4
+T: Powell's Fancy
+%R: slip-jig
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1765", London 1765, p.2 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1765#
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+N: The 2nd strain has final repeat but no initial repeat; fixed with initial repeats on both strains.
+M: 9/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+f2d cAF cAF | f2d cAF B2G |\
+f2d cAF cAF | GAB AGF EDC :|
+|:\
+f2a afa afa | f2a afa gec |\
+f2a afa afa | gab agf edc :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Turn right hands and cast off one Cu: .|. turn
+%% with your left hands the Man casts off and
+%% the Wo: cast up :|. foot it three at top and
+%% bottom .|: foot it three Contrary Sides :|:
+%% foot it corners and turn .||. :||. lead out sides
+%% and turn .||: :||:
+%%endtext

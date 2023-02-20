@@ -1,0 +1,18 @@
+X: 3242
+T: Largo Law.   a Strathspey.
+%R: strathspey
+B: Niel Gow & Sons "Complete Repository" v.3 p.24 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+c | A<c TE>F A>B ce | f<a Te>c B/B/B TB>c | A<c TE>F A>B ce | (f/e/f/g/) a>c A/A/A A :|
+e | a>ef>c e/e/e a>e | f<a {f}e>c B/B/B TB>g | a>ef>c e/e/e a>e | f<a {f}e>c A/A/A A>e ||
+a>ef>c e/e/e a>c | f<a {f}e>c B/B/B TB>c | A<c TE>F ABce | (f/e/f/g/) a>c A/A/A A |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+A2A2 A2A2 | d2c2 B2B2 | A2A2 A2A2 | d2e2 A2A :| z | a2a2 a2c'2 | d'2c'2 b2b2 |
+a2a2 a2c'2 | d'2e'2 a2a2 || a2a2 a2c'2 | d'2c'2 b2b2 | a2a2 c2c2 | d2e2 A2A |]

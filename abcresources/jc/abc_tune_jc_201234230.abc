@@ -1,0 +1,35 @@
+X: 20361
+T: VOLUNTEER GUARDS QUICKSTEP
+C:
+%R: quickstep, march, jig
+B: Elias Howe "The Musician's Companion" 1843 p.36 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd voice has a bass clef and D key signature, but the notes are clearly for a treble voice.
+N: Bar 29 (3rd strain, bar 3) has an unusual B+A clash.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+|:\
+DFA DFA | f2e d2B | g2A f2G | e2d cBA |\
+DFA DFA | f2e d2B | g2f edc | ddd d3 :|
+|:\
+Adf Adf | a2g f2e | Adf Adf | g2f e2A |\
+Adf Adf | a2g f2e | dgf edc | ddd d3 :|
+|:\
+dAF DFA | dfe def | gdB GBd | gba gfe |\
+dAF DFA | dfe def | gba gfe | ddd d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+|:\
+A,DF A,DF | A2G F2G | A2F d2G | [c2A2][BG] [AF][GE][FD] |\
+A,DF A,DF | A2G F2G | B2A GFE | FFF F3 :|
+|:\
+DFA DFA | f2e d2c | DFA DFA | e2d c2F |\
+DFA DFA | f2e d2A | FBA GFE | FFF F3 :|
+|:\
+DFA DFA | DFA DFA | DGA DGA | DGB DGB |\
+DFA DFA | DFA DFA | DGB DFA | [AF][AF][AF] [A3F3] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

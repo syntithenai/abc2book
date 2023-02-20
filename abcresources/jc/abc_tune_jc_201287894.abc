@@ -1,0 +1,54 @@
+X: 1
+T: Das Horst Wessel Lied
+T: Die Fahne hoch
+T: The Horst Wessel Song
+C: Tune: Old soldier's song
+C: Words by Horst Wessel, 1927
+Z: John Chambers <jc:trillian.mi.edu> 2009-11-03
+N: The gaps before the 2nd half are often shortened.
+N: A variant of an 18th-century ballad.
+N: The Spanish song "Mi camisa azul" uses this melody.
+N: The tune is distantly related to the hymn How Great Thou Art.
+N: This is the version sung by Hitler's troops.
+N: Many parodies of this song apeared in the 1920's and 30's.
+M: 4/4
+L: 1/4
+K: C
+%
+[| "G7"zGGF |  "C"E3G | "Am"c>BAE | "Dm"G2F2 |
+w: 1.~Die Fah-ne hoch die Reih-en fest ge-schlo-ssen
+w: 2.~Die stra-\sse frei den braun-en Ba-ta-llion-en
+w: 3.~Zum letz-ten Mal wird nun Ap-pell ge-blas-en
+w: 4.~=~1.
+%
+   "Dm"zFFE | "G7"D3G | "G7"G>GAG | "C"E3z |]
+w: S. A. mar-schiert mit ruh-ig fest-em Schritt
+w: Die Stra-\sse frei dem Sturm-ab-teil-ungs-mann
+w: Zum Kam-pfe steh'n wir a-lle schon be-reit
+%
+|:"C"z[GE][EC][GE] | "C"[cE]>[eG][eG][eG] | "C7"[dF][cE][BD][cE] | "F"[f2A2][f2A2] |
+w: Kam-'rad-en die Rot-front und Re-ak-tion er-schoss-en
+w: Es schau'n auf's Ha-ken-kreuz voll Hoff-nung schon Mill-ion-en
+w: Bald flatt-ern Hit-ler-fahn-en \"ub-er all-en Stra\ss-en
+%
+  "(Dm)"z[dF][dF][cE] | "C"[e3G3][cE] | "G7"[BG]>[BG][AF][BF] | "C"[c3E3]z :|
+w: Mar-schier'n  im Geist in uns-ern Reih-en mit
+w: Der Tag f\"ur Frei-heit und f\"ur Brot bricht an
+w: Die Knecht-schaft dau-ert nur mehr kur-ze Zeit
+%
+W: Literal English translation:
+W:
+W: The banner high, ranks closed,
+W: The S.A. marches with silent solid steps.
+W: Comrades shot by the red front and reaction
+W: march in spirit with us in our ranks.
+W:
+W: The street free for the brown battalions,
+W: The street free for the Storm Troopers.
+W: Millions, full of hope, look up at the swastika;
+W: The day breaks for freedom and for bread.
+W:
+W: For the last time the call will now be blown;
+W: For the struggle now we all stand ready.
+W: Soon will fly Hitler-banners over every street;
+W: Slavery will last only a short time longer.

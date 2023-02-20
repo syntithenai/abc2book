@@ -1,0 +1,40 @@
+X: 1
+T: Pall mall
+T: Pell-mell
+P: Longways for as many as will
+%R: march, reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.89 #127 (177)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.125 "M 3"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gdor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F2 |\
+G2G2 B2g2 | B4 G2AB | c2F2 f2c2 | A4 F4 |\
+G2G2 B2g2 | B3A G2(AB) | cB AG F2A2 | G2 d4 |]
+Bc |\
+d2 (ef) (gf) (ed) | B2g2 G2(AB) | c2 de (fe) (dc) | A2f2 F2(Bc) |\
+d2(ef) (gf) (ed) | (ef)g2 d2(cB) | (cB) (AG) ^F2A2 | G2 d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% [The CCDM1 dance description is mostly illegible; what little can be read seems the same as in DMDfD.]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First man cast off and come below the 2. man, while the 1. wo. slips down below the 2. man and come
+%% round into the middle, then all four turn S. and the 2. man and 2. wo. go back to back, then 1. man
+%% take the 1. wo. by the right-hand and turn once round, while the 1. wo. takes the 2. man by the
+%% right-hand and turns once round; then the other cu. do the same.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. man take the 1. wo. by the right hand and turn once round into the 2. cu. place, then lead up
+%% between the 2. man and 2. wo. and go the half Figure into their own places again, the other cu. doing
+%% the same again.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

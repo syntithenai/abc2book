@@ -1,0 +1,33 @@
+X: 221
+T: the Ancient sports of the glen.
+T: Sealg is sugradh nan gleann.
+C: 
+N: This is version 1, for ABC software that doesn't understand cres/diminuendo symbols.
+R: air, waltz
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.100 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+Q: "Sow & Expressive."
+K: Bdor
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+(c>B) |\
+AF3A2 |!p! Tf2(ed)(cB) | AF3^A2 | [B3D3](cdB) |\
+"_cres"AF3A2 | f2(ed)(cB) | F2d2Tc2 | {c}B4 |]\
+(de) |\
+!p!f2(ed)(cB) | e2(dcd)e | f2(ed)(cB) | Hc4 (ga) |
+!f!f3"_dim"B (c>B) | A2B2 (c>B) | AF3^A2 | H[B4D4] |]\
+(de) |\
+!p!f2(ed)(cB) | e2(Tdc)(de) | Tf2(ed)(cB) | Hc4 (ga) |\
+!f!f3B (cB) | A3G(TF^E) | F2d2Tc2 | [B4D4] |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | [d6f6] |!p! f2g2g2 | f4e2 | d4e2 |"_cres"[c6f6a6] | f2g2g2 | def2F2 | B4 |]
+z2 | !p!d4e2 | g4z2 | d4e2 | Hd4 z2 | !f!d4 z2 | f2d2e2 | f4F2 | HB4 |]
+z2 | !p!d4e2 | g4z2 | d4g2 | Ha4 z2 |!f! d4 z2 | d4c2 | def2F2 | B4 |]
+% = = = = = = = = = =

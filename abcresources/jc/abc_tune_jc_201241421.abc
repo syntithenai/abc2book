@@ -1,0 +1,32 @@
+X: 4346
+T: O NEVER MORE. (Norma.)
+%R: air, march
+N: This is version 2, for ABC software that understands tremolo notation.
+B: James Kerr "Merry Melodies" v.4 p.36 #346
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: F
+[|\
+c2Af | f2ed |\
+cd2c | (c2A)z |\
+a2gf | fe2d |\
+cB2G | B2Az |\
+c2Af | f2ed |\
+ccdc | (c2A)z |\
+a2gf | eg2f |
+edc=B | (=B2A)z |:\
+cd/c/ cd/c/ | cf2a |\
+b/a/g/f/ e/d/c/B/ |\
+[1 A/B/c z2 :|\
+[2 A_e2d/c/ | Bd2c/B/ |\
+A_e2d/c/ | Bd2 c/B/ \
+|:\
+ABcd | efga |
+bb2a | gfed |\
+[1 dc2A | cB2G :|\
+[2 cc/c/ cf/f/ | fa/a/ aa |\
+!//![a4c4] | !//![a4c4] |\
+!//![g4B4] | !//![g4B4] |\
+[fA]z z>[ac] | [ac]z z>[fA] |\
+H[f4A4] |]

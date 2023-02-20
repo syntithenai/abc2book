@@ -1,0 +1,43 @@
+X: 18533
+T: HAVERSTOCK HILL
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.18 p.53 #3
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: This 3-voice version gives the lower treble notes and upper bass notes to the alto voice.
+N: This version is playable by three melody instruments, if you ignore the remaining double stops.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+(G/A/) |\
+BcA GDD | BcA GDD | GDD ADD | cdB A2(G/A/) |\
+BcA GDD | BcA GDD | GFG EAc | BcA G2 :|
+|: (B/c/) |\
+dgf {f}e^de | Adc {c}B^AB | EF^G ABc | ABG FED |\
+{A}GFG {B}AGA | {c}[BG]AB [cG]de | edc BcA | GAF G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=alto middle=c
+z |\
+d2c B2z | d2c B2z | Bz2 fz2 | a2g f2z |\
+d2c B2z | d2c B2z | d2d c2e | d2c B2 :|
+|: z |\
+G3- G2z | d3- d2z | c2d c2z | A3- A2z |\
+G3 F3 | =F3 E2z | g2f g2e | BcA B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 3 clef=bass middle=d
+z |\
+[g2G2]d [g2G2]z | [g2G2]d [g2G2]z | [g2G2]z [a2d2]z | f2g d2z |\
+[g2G2]d [g2G2]z | [g2G2]d [g2G2]z | B2B c2A | d2D G2 :|
+|: z |\
+B3- c2z | (f3 g2)z | c'2b a2z | c2^c d2z |\
+G3- G3 | G3- G2.c | B2A G2c | d2D G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Whole figure at top .| down the mid: up again allemande |: Swing Corners |. & hands 6 round |:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

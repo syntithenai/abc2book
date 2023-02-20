@@ -1,0 +1,23 @@
+X: 20591
+T: the FAVORITE POLLACCA.     in Tancredi.
+%R: minuet, polonaise
+B: "Edinburgh Repository of Music" v.2 p.59
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Arranged for ABC software that can handle small-note passages (and crescendos).
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: 3/4
+L: 1/16
+K: D
+"_P."A2 |\
+A6 (Bc) d2d2 | (edcd) A4 z2A2 | A6 (Bc) d2d2 | (^defe) A4 z2A2 |\
+A6 (Bc) d2d2 | (f3d) B4 z2(F2 | d6) (ed) c2f2 | B4- Bcdc edcB |
+A6 (Bc) d2^d2 | (e2B2) .g2(gf) e=dcB | A2 A4 (AB) A2A2 | .a2(fg) .f2a2g2f2 |\
+.a2(fg) f2a2g2f2 |"_cres"pagfe dcBA GFEDP | A4 z2(AB) A2A2 | "_P.".a2(fg) f2a2g2e2 |
+.a2(fg) f2a2g2e2 | "_cres"pagfe dcBA GFEDP | A4 z2"_rF"A2B2c2 | d4 f4 a4 |\
+d'4 "_Fine."z2 |] fe e2e2 | (e2^G2) z2(fe) e2e2 | (e2A2) z2(e2a2c'2) | .b2(ba) .^g2(gf) .e2(ed) |
+{d}c4 z2(fe) e2e2 | e2^G2 z2(fe) e2e2 | e2A2 z2(e2a2c'2) | .c'2(ba) .^g2(gf) .e2(ed) |\
+c4 "_cadenza"z2 {A B/A/^G/A/ c3A B/A/G/A/ e3c d/c/^B/c/ g2g2g2} "_D.C."Hg4 |]

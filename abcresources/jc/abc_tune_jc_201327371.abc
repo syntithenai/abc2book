@@ -1,0 +1,25 @@
+X:1
+T: A Quick Romp in the Hey
+N:
+C:Jonathan Jensen
+S:Tune is  An Urgent Tune
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 208
+%W: A1
+% voice 1 (1 lines, 43 notes)
+M:4/4
+L:1/16
+E4 |A2 B2 c8 A4 |^G2 A2 B8 E4 |A4 B2 c2 d2 c2 B2 A2 |^g2 a2 b8 e4 |a2 g2 f2 e2 f2 e2 d2 c2 |B2 c2 d4 g4 B4 |A4 B2 c2 d2 c2 B2 A2 |^G4 E8 E4 |
+%W: A2
+% voice 1 (1 lines, 42 notes)
+A2 B2 c8 A4 |^G2 A2 B8 E4 |A4 B2 c2 d2 c2 B2 A2 |^g2 a2 b8 e4 |a2 g2 f2 e2 f2 e2 d2 c2 |B2 c2 d4 g4 B4 |A4 B2 c2 d2 c2 B2 A2 |^G4 E8 B4 |
+%W: B1
+% voice 1 (1 lines, 36 notes)
+^G2 A2 B4 E2 ^F2 G4 |A4 c8 c4 |B2 c2 d4 G2 A2 B4 |c4 e8 e4 |a4 f4f4 d4 |g4 e4e4 c4 |A4 B2 c2 d2 c2 B2 A2 |^G4 E8 B4 |
+%W: B2
+% voice 1 (1 lines, 35 notes)
+^G2 A2 B4 E2 ^F2 G4 |A4 c8 c4 |B2 c2 d4 G2 A2 B4 |c4 e8 e4 |a4 f4f4 d4 |g4 e4e4 c4 |A4 B2 c2 d2 c2 B2 A2 |^G4 E8 ||

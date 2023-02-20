@@ -1,0 +1,23 @@
+X: 10521
+T: the GLASGOW QUADRILLES No.1.--la Pantalon.
+C: Thos. Henderson.
+P: Copyright.
+%R: jig
+N: This is version 1, for ABC software that doesn't understand diminuendo symbols.
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.52 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+(de)f (ed)c | d2B A2F | dcd fed | ("_>"^d3 e2)A |\
+(de)f (ed)c | d2B A2F | (GA)B (Ad)c | (e3 d2) H|]\
+[K:G] =c |\
+(Bd)g (gf)e | (e2d) (B2d) | (e2d) (gab) | ("_>"b3 a2) (d/c/) |
+(Bd)g (gf)e | (e2d) ("_>"B2d) | (efg) (fga) | ("_>"a3 "^D.C."g2) |]\
+[K:Edor] !ff!F |\
+"_>"B2z "_>"^d2z | "_>"f2z "_>"b2z | (ba)g (gf)e | ^d2f B2B |\
+"_>"B2z "_>"^d2z | "_>"f2z "_>"b2z | (ag)f (gf)e | B3- "^D.C"B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

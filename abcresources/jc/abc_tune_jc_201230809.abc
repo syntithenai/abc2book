@@ -1,0 +1,32 @@
+X: 141
+T: MISS ELIZA FORSYTH
+C: JOHN MORISON
+R: Strathspey
+B: Glen Collection p.14 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: G
+%
+V: 1
+g |\
+dB GA/B/ AFAB | cedB GABg | dB GA/B/ AFAB | cedB G2Gg |
+dB GA/B/ AFAB | cedB GABg | dBGD EFGA | {c}BA/G/ {B}AG/F/ | G2G ||
+d |\
+gage dBGg | edeg abaf | gage dBGB |ce d/c/B/A/ G2Gd |
+gage dBGg | edeg abag | ba/g/ ag/f/ gf/e/ dB | cedB G2[GB,] |]
+%
+V: 2
+z |\
+G2[b2g2d2] d2[c'2a2f2] | [a2f2][b2g2] [b2g2d2][b2g2d2] |\
+G2[b2g2d2] d2[c'2a2f2] | [a2f2][b2g2] [b2g2][b2g2] |
+G2[b2g2d2] d2[c'2a2f2] | [a2f2][b2g2] [b2g2d2][b2g2d2] |\
+B2[b2g2] c2[g2e2] | [b2g2d2][c'2a2d2] [b2g2][bg] ||
+z |\
+G2[b2g2d2] [b2g2d2][b2g2d2] | c2[c'2g2] d2[c'2a2] |\
+B2[b2g2d2] [b2g2d2][b2g2d2] | d2[a2f2] [b2g2][b2g2] |
+G2[b2g2d2] [b2g2d2][b2g2d2] | c2[c'2g2] d2[c'2a2] |\
+[b2g2d2][c'2a2d2] [b2g2d2][b2g2d2] | [a2f2d2][a2f2d2] [b2g2][gdG] |]

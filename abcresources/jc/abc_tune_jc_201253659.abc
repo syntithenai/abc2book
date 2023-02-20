@@ -1,0 +1,69 @@
+
+X: 1
+T: Bloomsbury Market
+O: Playford 1703
+M: 4/4
+L: 1/8
+%Q: 1/2=80
+S: Playford, Dancing Master,12th Ed.,1703.
+%O: England;London 1703
+Z: Chris Partington.
+K: G
+"A"[|] d2 |\
+dBAG G2D2 | DEDB,D3D | DGGA B2Bc | d2cB A3B |
+cdef efgB | BcdB AFD2 | e3d efgB |1 cBAG G2 :|2 cBAGG4 |
+"B"|:\
+g2(g/a/b) g3d | efgB A3G | DGGA B2AG | DGGA B2AG |
+d3e dedB | ABcd e3d "I"| e3d efgB | cBAG G4 :|
+
+%%sep 1 1 500
+
+X: 2
+T: Bloomsbury Market
+O: John Walsh, 1740
+S: Colin Hume's website, www.colinhume.com
+%Q: 1/4=96
+M: 4/4
+L: 1/8
+K: G
+"A"[|] G |\
+"G"dBAG G2D2 | "/"DEDB, D3D | "G"DGGF "C"E2G2 | "Am"c>dcB "D"A3B |
+"C"cege "G"dBd2 | "G"GBdB "Am"AGE2 | "C"e3d "Em"e{f}gGB | "Am"cB"D"AG "G"G3 :|
+"B"|: d |\
+"Em"g2g{a}b g3e | "G"gedB "D"A3G | "Em"EGGA "G"B2AG | "C"EGGA "Em"B2AG |
+"G"d3e dedB | "Am"ABcd "C(Em)"e3d "I"| "Am"e3d "Em"efgB | "Am"cB"D"AG "G"G3 :|
+%%begintext align
+%% The first man turns the second woman with the right-hand,
+%% the second with his left-hand,
+%% then the third with the right-hand,
+%% then cast up to his own place .|
+%% Then his Partner does the same :|
+%% Then the first man and woman Hey with the second man,
+%% lead down the middle and cast up and turn,
+%% then the first couple Hey with the second woman and cast off :|
+%% [DMDfD]
+%%endtext
+
+%%sep 1 1 500
+
+X: 3
+T: Bloomsbury Market
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London 1740
+O: John Walsh, 1740
+M: C|
+L: 1/8
+F: http://www.cpartington.plus.com/Links/Playford/Playford2%252816-7-15%2529.abc	 2018-04-03 222604 UT
+K: G
+"A"[|] G |\
+"G"dBAG G2D2 | DEDB, D3D | DGGF "C(Em)"E2G2 | "Am"c>dcB "D"A3B |
+"C"cege "G"dBd2 | GBdB "Am"AGE2 | "C"e3d "Em"e/f/gGB | "Am"cB"D"AG "G"G3 :|
+"B"|: d |\
+"Em"g2ga/b/ g3e | "C"ge"G"dB "D"A3G | "Em"EGGA "G"B2AG | "C"EGGA "Em"B2AG |
+"G"d3e dedB | "Am"ABcd "Em"e3d "I"| "C"e3d "Em"efgB | "Am"cB"D"AG "G"G3 :|
+%%begintext align
+%% First Man turn the 2d Wo. with his right Hand, and the 2d Man with his
+%% Left, then the 3d with his right Hand, and cast up to his own Place .|
+%% His Partner do the same :| First Cu. hey with the 2d Man, then lead down
+%% the Middle and cast up and turn, then 1st Cu. hey with the 2d Wo. and
+%% cast off :|  [CCDM]
+%%endtext

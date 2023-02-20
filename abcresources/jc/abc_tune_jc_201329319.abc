@@ -1,0 +1,17 @@
+X:1
+T:Reel Saint-Jean (trad.)
+M: C|
+L: 1/8
+R: reel
+K:Bmin
+fe|:"Bm"dB +uppermordent+B2 FBdB|"Bm7"fBdf "E7"B2ed|"A"cAAA EAcA|eAce "F#7"A2 fe|
+"Bm"dB +uppermordent+B2 FBdB|fBdf "G7"B2cB|"C#7"AB (3cBA "F#7" e2 fe|1"Bm"df"A"dc "Bm"B2 fe:|\
+[2 "Bm"dfdc "A7/C#"B2 zA||
+K:Dmaj
+|:"D"DCDE DEFG|"D/F#"A2AB AFED|"G"d2 Bd "D/F#"AFDE|"E7"FDEF "A"ECB,A,|
+"D"DCDE DEFG|"D/F#"A2AB AFED|"G"d2 Bd "D/F#"AFDE|1"A"FDEC "D"D2zA,:|[2 "A"FDEC "D"Df2e|]
+%%begintext ragged
+Transition: Skip the pickups
+%%endtext ragged
+%%textfont Times-Roman 6.0
+%%text 4/18/11 For use only by Roaring Jelly members

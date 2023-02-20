@@ -1,0 +1,28 @@
+X:1
+T:Carolan's Draught (Harmonized)
+M:C
+L:1/8
+R:Air
+K:G
+%%printtempo 0
+Q:90
+V:1
+|:uD2|\
+"G"(vGA)Bc "D"(de)fd|"C"g2 (fe) "G"d2d2|"C"e2E2 "G"d2D2|"Am"c2(Bc) "D"ABcA|
+"G"(vGA)Bc "D"(de)fd|"G"(gf)ed "A7"^c(ba)g|"D"(gf)(ed) "A7"A2^c2|"D"d6:|
+V:2
+|:uF2|\
+(vGF)GE (FE)DF|(EG)Ac (BA)BG|cGcG BGBG|AEGE FDEF|
+(vGF)GE (FG)Ac|(BA)GB A(GF)E|D2 (EF) AFEG|FGAF D2:|
+V:1
+|:(ufg)|\
+"D7"afga "G"(ba)gf|"C"(eg)fe "G"(edcB)|"C"(ed)ef (gf)ga|"G"(ba)gf "C"(ef)ga|
+"G"bBbB "B7"aBaB|"Em"gBgB "B7"fBfB|"Em"(ed)ef (gf)ed|"Am" e6f2|
+"G"(gf)ed (cB)AG|"C"e2d2"G"d2D2|"Am"c2B2A2"A7"G2|"D"(FG)AF uD2 z2|
+"C"(EF)GE "D"(FG)AF|"Em"(GA)BG "D7"(AB)cA| "G"d2 g2 "D"bagf|"G"vg6:|
+V:2
+|:(uAB)|\
+(cd)ef (gf)ed|(cB)AG g4|(gf)ed (cd)ef|gfed c2 E2|
+D4^D4|E4 (^DE)FA|(GF)ED (EF)GB|(cB)A^G A4|
+(BA)GF (ED)CB,|C2 (B,_B,)=B,2 ^A,2|A,EB,E CE^CE|D4uD2z2|
+(CD)EC D4|(EF)GE (F3A)|(GA)Bc d2 vd2|(Bc)dBvG2:|

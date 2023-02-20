@@ -1,0 +1,5 @@
+X: 1
+T: TEST: Annotation above 3 notes
+%%staffwidth 200
+K: C
+[| !^fermata!g4 !^fermata!a4 !^fermata!b4 |]

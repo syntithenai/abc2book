@@ -1,0 +1,30 @@
+X: 1
+T: Ersko Kolo  [D]
+O: Croatia
+Z: 1999 John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/Intl/
+M: 2/4
+L: 1/8
+K: D
+P: Slow
+|: "D"[d2A] {e}[fd][dA] | {e}[fd][dA] {e}[fd][dA] | "A7"[e/c][f/d][ge] [ge][ge] | [ge][ge] [g/e][f/d][ec] |
+|  "D"[d2A] {e}[fd][dA] | {e}[fd][dA] {e}[fd][dA] | "E7"[c/A][d/A][ec] [eB][eB] | "A"[eA]z [aA]z :|
+P: Fast
+|: "D"[d/A][e/c][fd] [fd][fd] | [f2d] [ec][dA] | "A7"[e/c][f/d][ge] [ge][ge] | [ge][ge] [g/e][f/d][ec] |
+|  "D"[d/A][e/c][fd] [fd][fd] | [f2d] [ec][dA] | "E7"[c/A][d/B][ec] [eB][eB] | "A"[eA]z [aA]z :|
+
+%%sep 5 1 500
+%%sep 1 5 500
+
+X: 1
+T: Ersko Kolo  [G]
+O: Croatia
+Z: 1999 John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/Intl/
+M: 2/4
+L: 1/8
+K: G
+P: Slow
+|: "G"[G2D] {A}[BG][GD] | {A}[BG][GD] {A}[BG][GD] | "D7"[A/F][B/G][cA] [cA][cA] | [cA][cA] [c/A][B/G][AF] |
+|  "G"[G2D] {A}[BG][GD] | {A}[BG][GD] {A}[BG][GD] | "A7"[F/D][G/D][AF] [AE][AE] | "D"[AD]z [dD]z :|
+P: Fast
+|: "G"[G/D][A/F][BG] [BG][BG] | [B2G] [AF][GD] | "D7"[A/F][B/G][cA] [cA][cA] | [cA][cA] [c/A][B/G][AF] |
+|  "G"[G/D][A/F][BG] [BG][BG] | [B2G] [AF][GD] | "A7"[F/D][G/E][AF] [AE][AE] | "D"[AD]z [dD]z :|

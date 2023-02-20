@@ -1,0 +1,1177 @@
+X: 2201
+T: The Reel of Mey
+P: The Reel of Mey
+C:James Aitken
+R:Jig (8x48)
+B:RSCDS 22-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Em
+B,|:"Em"E2 F G2 A|B2 c B3|"D"AFD D2 F|"A"G2 E "B7"F2 B,|\
+    "Em"E2 F G2 A|B2 c B3|
+                          "B"AGF "B7"G2 F|"Em"E3 E2 D::\
+"G"G2 B dBG|"D7"F2 A c2 F|"G"G2 B dBG|"A"A3 "Bm"A2 D|
+"E"E2 G BGE|"B"^D2 F A2 D|"Em"EGA B2 c|"B"B3 B2 B,|\
+"Em"E2 F G2 A|B2 c B3|
+                      "D"AFD D2 F|"A"G2 E "B7"F2 B,|\
+"Em"E2 F G2 A|B2 c B3|"B"AGF E2 ^D|"Em"E3 E2:|
+%%center Book22/2201-Reel_of_Mey-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2202
+T: The Hamilton Rant
+P: Dr. Bob Smith
+C:J. Stanley Hamilton
+R:Reel (8x48)
+B:RSCDS 22-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+"D"DFAd BdAF|DFAd B2 Ad|"A"cdef gfed|"E7"edcB "A7"AGFE|
+"D"DFAd BdAF|DFAd B2 Ad|"A7"cAce gece|"D"d2 f2 d2||
+fg|"D"a2 ab afdf|abaf dfed|"A"cAce "E7"afed|"A"c2 A2 "A7"A2 fg|
+   "D"a2 ab afdf|abaf dfed|"A"cAce aece|"D"d2 f2 d2 z2|]
+%%center Book22/2202-Hamilton_Rant-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2203
+T: Balmoral Strathspey
+P: Balmoral
+C:Robert R. Gourlay
+R:Strathspey (4x32)
+B:RSCDS 22-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:A
+%
+c|"A"C>A E>A "D"F<A "A"E>c|"Bm"d>B c>A "E7"G<B B>c|\
+    "A"C>A E>A "D"F<A "Bm"d>f|"A"(3ecA "E7"(3EdB "A"c<A A>c|
+    "A"C>A E>A "D"F<A "A"E>c|"Bm"d>B c>A "E7"G<B B>c|\
+    "A"C>A E>A "D"F<A "Bm"d>f|"A"(3ecA "E7"(3EdB "A"c<A A||
+d|"A"c>A a>e "D"f<a "E7"e>g|"A"a>e c>A "E7"G<B B>d|\
+  "A"c>A "(F#m)"a>e "D"f<a "E7"e>f|"A"(3ecA "E7"(3EdB "A"c<A A>d|
+  "A"c>A a>e "D"f<a "E7"e>g|"A"a>e c>A "E7"G<B B>c|\
+  "A"(3AEA (3cAc "F#m"(3ece "D"(3agf|"A"(3ecA "E7"(3EdB "A"c<A A:|
+%%center Book22/2203-Balmoral_Strathspey-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2204
+T: Holyrood House
+P: Holyrood
+C:Robert R. Gourlay
+R:Reel (4x48)
+B:RSCDS 22-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+B|"G"ded dBG|"D7"c2d "G"BAG|"G/B"DGG "A7"GFG|"D"ABA "D7"FED|
+  "G"ded dBG|"D7"c2d "G"BAG|"G/B"DGG "A7"GFG|"G"BGG G2||
+B|"G"dBG G2g|"C"ecc c2d|"A7"e^cA Aag|"D"fdd "D7"def|
+  "G/B"gfe dcB|"C"edc "Am"BAG|"G"DGG "D7"AGA|"G"BGG G2|]
+%%center Book22/2204-Holyrood_House-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2205
+T: The Last of the Lairds
+P: The Stool of Repentance
+C:Traditional
+R:Jig (8x32)
+B:RSCDS 22-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:A
+e/f//g//|"A"a2e c2e|agf edc|"D"a>ff f2e|"Bm"fag "E7"f2e|
+         "A"a2e c2e|agf edc|"D"d2e "E7"f2e|"A"f<ac "E7"B2"A"A||
+         "A"cAA eAA|cAA edc|"Bm"dBB fBB| dBB "E7"fed|
+         "A"cAA eAA|cAA edc|"D"d2e "E7"f2e|"A"f<ac "E7"B2"A"A|]
+%%center Book22/2205-Last_of_the_Lairds-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2206
+T: The Middleton Medley
+P: Tarholm Brig
+C:James McCroskie
+R:Medley (8x32)
+B:RSCDS 22-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+|:A|"D"d>c "G"d>B "D"A<FA>B|"Bm"D<D"D7"F>E "G"D<BB>D|\
+    "D"A,>B, B>E "Bm"F>E F<A|"G"B<d"D"A>F "A7"E2 E>A|
+    "D"d>c "G"d>B "D"A<FA>B|"Bm"D<D"D7"F>E "G"D<BB>D|\
+    "D"A,>F"G"D>B, "D"A,>B, "Em7"D>B|"D"A<F"A7"d>F [E2C2A,2] "D"[D2A,2]||
+    "D"f2 e>f "G"d<BB>A|"D"d<ba>d "A7"c<AA>d|\
+    "D"f2 f>e "G"d<BB>A|"D"d/f/b a>f "A"e2 e>d|
+    "D"f2 e>f "G"d<BB>A|"D"d<ba>d "A7"c<AA>F|\
+    "D"(3DFA "D7"(3AFA "G"BAB "D"d>A|"Bm7"dfb "Em7"a>f "D"d2 d|]
+P: Craighall
+C:J. Stanley Hamilton
+M:6/8
+L:1/8
+K:A
+e|"A"fec A2A|"D"BAF D2F|"A"E2e "B7"cBA|"E"GBB "E7"B2e|
+  "A"fec A2A|"Bm"BAF d2F|"A"EFA "E7"BcB|"A"A3 A2||
+e|"A"aga Ace|"D"f2e fga|"A"e2A "B7"cBA|"E"GBB B2e|
+  "A"aga "A7"ecA|"Bm"BAF d2F|"A"EFA "E7"BcB|"A"A2A A2|]
+%%center Book22/2206-Middleton_Medley-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2207
+T: Peggy's Wedding
+P: Willie's Ga'en A-coortin'
+C:George Drysdale
+R:Jig (4x64)
+B:RSCDS 22-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:F
+c|"F"AGF FAc|"Bb"f2g "C"a2g|"Bb"fed "C"c<fA|G3 c2B|\
+  "F"AGF FAc|"Dm"f2g a2b|
+                         "F"c'af "C7"cde|"F"f3 fed|\
+  "F"cAF FAc|"Bb"f2g "C"a2g|"Bb"fed "C"c<fA|G3 c2B|
+  "F"AGF FAc|"Dm"f2g a2b|"F"c'ba "C7"gfe|"F"f3 f2||\
+g|"F"a2a ac'a|"C"g2g gc'g|
+                          "G7"f2f fgf|"C"e2d ceg|\
+  "F"a2a ac'a|"C"g2g gc'g|"G7"f2f fgf|"C"e2d c2B|
+  "F"cAF FAc|"Bb"f2g "C"a2g|"Bb"fed "C"c<fA|G3 G2 c/B/|
+  "F"AGF FAc|"Dm"f2g a2b|"F"c'af "C7"cde|"F"f3-f2|]
+%%center Book22/2207-Peggys_Wedding-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2208
+T: Minard Castle
+P: The Grinder's Hornpipe
+C:J. Connachan
+R:Reel (8x40)
+B:RSCDS 22-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:C
+|:(3GAB|"C"c2GF ECEG|"F"AFAc "G"BGBd|"C"cGce fedc|"D"Bdba "G"gfed|
+        "C"c2GF ECEG|"F"AFAc "G"BGBd|"C"cagf "G"edcB|"C"c2e2c2:|
+|:(3GAB|"C"c2Gc edcB|"F"AFAc "Dm"fedc|"G"BGBd "G7"gfed|"C"cdcA "G"G2AB|
+        "C"c2Gc edcB|"F"AFAc "Dm"fedc|"G"BGBd "G7"gfed|"C"c2e2c2:|
+GF|"C"E2EG "Dm"F2FA|"C"G2e2c3G|"Dm"F2d2 "G"B3F|"C"Eedc "G7"BAGF|
+   "C"E2EG "Dm"F2FA|"C"G2e2c2BA|"C"Gedc "G7"BGAB|"C"c2e2c2|]
+%%center Book22/2208-Minard_Castle-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2209
+T: Neidpath Castle
+P: Dr. and Mrs. Green
+C:K. Macaulay-Jones
+R:Strathspey (3x32)
+B:RSCDS 22-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:C
+G|"C"[c2G2E2] e>c GEc>G|"Dm"A>GFE "G"DCB,G,|\
+           "C"[c2G2E2] e>c GEc>G|"F"((3AGF) ((3fed) "G"((3Bcd) GA/B/|
+  "C"[c2G2E2] e>c GEcG|"Dm"F>EDC "G"B,A G<F|\
+           "C"E>GcB "Dm"A<Ff>d|"G"((3Bcd) G>f "C"e<c c||
+e|"Am"[a2e2c2] "E7"e>c fdB^G|"Am"e2 cA "E7"d/c/B/A/ [B3/2^G3/2E3/2]e/|\
+           "Am"[a3/2e3/2c3/2]b/ ae "Dm"fd A<f|\
+           "Am"e/d/c [cA][BG] "Dm"[A2F2] "G7"[G2F2B,2]|
+"C"[c2G2E2] e>c GE c<G|"Dm"A>Bcd "G"((3Bcd) ((3def)|\
+           "C"e>e g>e "Dm"a<fdc|"G"((3Bcd) G>B "C"c<C C|]
+%%center Book22/2209-Neidpath_Castle-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2210
+T: The Laird of Milton's Daughter
+P: The Laird of Milton's Daughter
+C:W. G. M. Christian
+R:Jig (8x32)
+B:RSCDS 22-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:A
+e/c/|"A"AAA ABc|efe cBA|"E"BAB "A"cBA|"Bm"FBA "E"GFE|
+     "A"AAA ABc|efe cBA|"D"faf "A"ecA|"E7"BAA "A"A2||
+e|"A"aaa c'ba|"E"gfg "A"aec|"D"faf "A"edc|"Bm"BcA "E7"GFE|
+  "A"aaa c'ba|"E"gfg "A"aec|"Bm"f>ed "A"eac|"E7"BAA "A"A2|]
+%%center Book22/2210-Laird_of_Miltons_Daughter-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2211
+T: Miss Janet Laing's Strathspey
+P: Miss Janet Laing's Strathspey
+C:Nan Main
+R:Strathspey (4x32)
+B:RSCDS 22-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:D
+A2|"D"F2 F/E/D A3d|"G"B>A Bd "A7"e3f|gb eg "D"fa d>f|"E7"g>f ed "A"e2A2|
+   "D"F2 F/E/D A3d|"G"B>c de "F#"f3e|\
+        "G"dB dc/B/ "D"A<d "Bm"Fd|"Em"B<e "A7"cA "D"d2||
+c2|"Bm"B2Bd "Fm#7"_Bc Fc|"Bm"B>c de "F#m7"f3 e|\
+   "Bm"d/e/f Bd "F#m7"c/d/e Fe|"Bm"dB "F#m7"cA "Bm"B3 c|
+   "D"d2ad "A7"c2ac|"G"Bg dB "F#"f3e|"G"dB dc/B/ "D"Ad F>d|"A7"Be c>A "D"d2|]
+%%center Book22/2211-Miss_Janet_Laings_Strathspey-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2212
+T: Alyth Burn
+P: Alyth Burn
+C:Jimmy Shand
+R:Jig (8x48)
+B:RSCDS 22-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+D|"G"D>EF G>AB|"A"c>BA "D7"d2c|"G"B>AG A>Bc|"D7"d>ef "G"g2f|\
+    "C"e>c'e "G/B"d>bd|"D/A"c>ac "G"B>gB|
+                                         "D7"A>Bc d>ef|"G"g3 [G2B,2]:|\
+|:c'|"G"b>ag "D7"a2f|"C"g>fe "G"d2B|"Am"c>ac "G"B>gB|"D7"c>AA A2 c'|
+     "G"b>ag "D7"a2f|"C"g>fe "G"d>cB|"A"A>Bc "D7"d>ef|"G"g3 G2 c'|\
+     "G"b>ag "D7"a2f|"C"g>fe "G"d2B|
+                                    "Am"c>ac "G"B>gB|"D7"c>AA A>dc|\
+     "G"B>cd d>gf|"C"e>ce "A7/C#"a2g|"D7"f>ed c'>ba|"G"g3 [G2B,2]:|
+%%center Book22/2212-Alyth_Burn-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22012
+T: Lango Lee
+B:RSCDS 22-1
+R:Jig
+Z:Bruce Shawyer
+K:G
+M:6/8
+L:1/16
+|: D2 | D3EF2 G3AB2 | c3ed2 c2B2A2 | B2G2E2 D2G2A2 | B3cA2 G4D2 |
+D3EF2 G3AB2 | c3ed2 c2B2A2 | B2G2E2 D2G2A2 | B3cA2 G4c2 |
+B4c2d4d2 | e3dc2 d2B2G2 | B2c2d2 e2f2g2 | G3AG2 F2E2D2 |
+c2e2c2 B2d2B2 | A3GA2 B2G2E2 | G2F2E2 D2d2c2 | B3cA2 G4 :|
+%%center Book22/22011-Lango_Lee-BS.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22013
+T: Lango Lee
+C: (Old Irish Melody)
+R: jig
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 22-1(II)
+N: Arr. Margaret Rae
+M: 6/8
+L: 1/8
+K: G
+D |: "D"D>EF "Em"G>AB | "C"c>ed "D7"cBA | "C/G"BGE  "G"DGA | "D7"B>cA "G"G2 :|
+c | "G"B2c "Em"d2d  | "C"e>dc "G"dBG | "G"Bcd "Em"efg | "A7"G>AG "D"FED |
+    "C"cec "G"BdB | "Am"A>GA "Em"BGE | "C"GFE "G"Dd"C"c | "D7"B>eA "G"G2 |]
+%%center Book22/22012-LangoLee-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22041
+T: Holyrood House
+R: jig
+B: RSCDS 22-4(I)
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+B \
+| "G"ded dBG | "D7"c2d "G"BAG | DGG "A7"GFG | "D7"ABA FED \
+| "G"ded dBG | "D7"c2d "G"BAG | "G"DGG "D7"AGA | "G"BGG G2 :|
+|: B \
+| "G"dBG G2g | "C"ecc c2d | "A7"e^cA Aag | "D"fdd "D7"def \
+| "G"gfe dcB | "C"edc "Am"BAG | "G"DGG "D7"AGA | "G"BGG G2 :|
+%%center Book22/22041-Holyrood_House-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22042
+T: Holyrood House
+R: jig
+B: RSCDS 22-4(I)
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+B \
+| "G"ded dBG | "D7"c2d "G"BAG |1 DGG "A7"GFG | "D7"ABA FED :|2 "G"DGG "D7"AGA | "G"BGG G2 :|
+|: B \
+| "G"dBG G2g | "C"ecc c2d | "A7"e^cA Aag | "D"fdd "D7"def \
+| "G"gfe dcB | "C"edc "Am"BAG | "G"DGG "D7"AGA | "G"BGG G2 :|
+%%center Book22/22041-Holyrood_House-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22043
+T: Forres Country Dance
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+B: RSCDS 22-4(II)
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+B \
+| "G"GDG BGB | dBd gdB | "C"cac "G"BgB | "Am"aAA "D7"A2B \
+| "G"GDG BGB | dBd gdB | "Am"c2A "D7"F2d | "G"BGG G2 :|
+|: d \
+| "G"gbg "D7"faf | "Em"ege "Bm"d2B | "C"cac "G"BgB | "Am"cAA "D7"A2B \
+| "G"GDG BGB | dge d2B | "Am"c2A "D7"F2d | "G"BGG G2 :|
+%%center Book22/22042-Forres_Country_Dance-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22091
+T: Dr. and Mrs. Green
+C: K.Macauley-Jones
+R: strathspey
+B: RSCDS 22-9
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: C
+"G7"G \
+| "C"c2  e>c "Am"G<E c2  | "F"A>G F>E "G7"D>C B,<G, \
+| "C"c2  e>c "Am"G<E c2  | "Dm"(3AGF (3fed "G7"(3Bcd (3GAB |
+y2 \
+| "C"c2  e>c "Am"G<E c2  | "Dm"F>E D>C "G7"B,>A G>F \
+| "C"E>G c>B "Dm"A<F f>d | "G7"(3Bcd G>f "C"e<c c ||
+e \
+|| "Am"a2e>c "Dm"f>d "E7"B<^G | "Am"e2 c>A "E"d/c/B/A/ B>e \
+| "Am"a>b a>e "Dm"f>d A<f | "E7"e>d c<B "Am"A2 "G7"B2 |
+y2 \
+| "C"c2 e>c "Am"G<E c2 | "F"A>B "(D7)"c>d "G7"(3Bcd (3def \
+| "C"e2 g>e "Dm"a>f d<c | "G7"(3Bcd G>B "C"c2- c |]
+%%center Book22/22091-Dr_and_Mrs_Green-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22092
+T: Dr. and Mrs. Green
+C: K.Macauley-Jones
+R: strathspey
+B: RSCDS 22-9
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: D
+A \
+| "D"d2 f>d "Bm"A<F d2 | "Em"B>A G>F "A7"E>D C<A, \
+| "D"d2 f>d "Bm"A<F d2 | "Em"B>G g>e "A7"(3cde (3ABc |
+| "D"d2 f>d "Bm"A<F d2 | "Em"G>F E>D "A7"C>B A>G \
+| "D"F>A d>c "Em"B<G g>e | "A7"(3cde A<g "D"f<d d ||
+f \
+|| "Bm"b2f>d "Em"g>e c2 | "Bm"f2 d>B "F#"e/d/c/B/ c2 \
+| "Bm"b>c' b>f "Em"g>e B<g | "F#7"f>e d<c "Bm"B2 "A7"c2 |
+| "D"d2 f>d "Bm"A<F d2 | "Em"B>c d>e "A7"(3cde (3efg \
+| "D"f2 a>f "Em"b>g e>d | "A7"(3cde A>c "D"d2- d |]
+%%center Book22/22091-Dr_and_Mrs_Green-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22093
+T: Dr. and Mrs. Green
+C: K.Macauley-Jones
+R: strathspey
+B: RSCDS 22-9
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: D
+A \
+| "D"d2 f>d "Bm"A<F d2 | "Em"B>A G>F "A7"E>D C<A, \
+| "D"d2 f>d "Bm"A<F d2 | "Em"B>G g>e "A7"(3cde (3ABc |
+| "D"d2 f>d "Bm"A<F d2 | "Em"G>F E>D "A7"C>B A>G \
+| "D"F>A d>c "Em"B<^G g>e | "A7"(3cde A<g "D"f<d d ||
+f \
+|| "Bm"b2f>d "Em"g>e c2 | "Bm"f2 d>B "F#"e/d/c/B/ c2 \
+| "Bm"b>c' b>f "Em"g>e B<g | "F#7"f>e d<c "Bm"B2 "A7"c2 |
+| "D"d2 f>d "Bm"A<F d2 | "Em"B>c d>e "A7"(3cde (3efg \
+| "D"f2 a>f "Em"b>g e>d | "A7"(3cde A>c "D"d2- d |]
+%%center Book22/22091-Dr_and_Mrs_Green-7.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22101
+T: The Laird of Milton's Daughter
+C: W.G.M.Christian (1951)
+R: jig
+B: RSCDS 22-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+%--------------------
+K: F
+C \
+| "F"F2F FGA |       cdc     AGF | "C"GFG "F"AGF | "Gm"DGF "C"EDC \
+| "F"F2F FGA | "(Am)"cdc "Dm"AGF | "Bb"dfd "F"cAF |  "C"GFF "F"F2 :|
+c \
+| "F"f2f agf | "C"ede "F"fcA | "Bb"dfd "F"cBA | "G(m)"GAF "C"EDC \
+| "F"f2f agf | "C"ede "F"fcA | "Bb"dcB "F"cfA |  "C"GFF "F"F2 ||
+c \
+| "F"f2f agf |    "C"ede  "F"fcA | "Bb"dfd "F"cAF | "G7"GAF "C"EDC \
+| "F"F2F FGA | "(Am)"cdc "Dm"AGF | "Bb"dfd "F"cAF | "C7"GFF "F"F2 |]
+%%center Book22/22101-Laird_of_Miltons_Daughter-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22102
+T: The Laird of Milton's Daughter
+C: W.G.M.Christian
+R: jig
+B: RSCDS 22-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+|: D \
+| "G"G2G GAB | ded BAG | "D"AGA "G"BAG | "Am"EAG "D"FED \
+| "G"G2G GAB | "Em"ded BAG | "C"ege "G"dBG | "D"AGG "G"G2 :|
+|| d \
+| "G"g2g bag | "D"fef "G"gdB | "C"ege "G"dcB | "A7"ABG "D"FED \
+| "G"g2g bag | "D"fef "G"gdB | "C"edc "G"dgB | "D"AGG "G"G2 ||
+|| d \
+| "G"g2g bag | "D"fef "G"gdB | "C"ege "G"dBG | "A7"ABG "D"FED \
+| "G"G2G GAB | "Em"ded BAG | "C"ege "G"dBG | "D"AGG "G"G2 |]
+%%center Book22/22101-Laird_of_Miltons_Daughter-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22103
+T: The Laird of Milton's Daughter
+C: W.G.M.Christian (1951)
+R: jig
+B: RSCDS 22-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+%--------------------
+K: F
+C \
+| "F"F2F FGA |       cdc     AGF | "C"GFG "F"AGF | "Gm"DGF "C"EDC \
+| "F"F2F FGA | "(Am)"cdc "Dm"AGF | "Bb"dfd "F"cAF |  "C"GFF "F"F2 :|
+c \
+| "F"f2f agf | "C"ede "F"fcA | "Bb"dfd "F"cBA | "G(m)"GAF "C"EDC \
+| "F"f2f agf | "C"ede "F"fcA | "Bb"dcB "F"cfA |  "C"GFF "F"F2 ||
+c \
+| "F"f2f agf |    "C"ede  "F"fcA | "Bb"dfd "F"cAF | "G7"GAF "C"EDC \
+| "F"F2F FGA | "(Am)"cdc "Dm"AGF | "Bb"dfd "F"cAF |  "C"GFF "F"F2 |]
+%%center Book22/22101-Laird_of_Miltons_Daughter-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22104
+T: The Laird of Milton's Daughter
+C: W.G.M.Christian (1951)
+R: jig
+B: RSCDS 22-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+D \
+| "G"G2G GAB |       ded     BAG | "D"AGA "G"BAG | "Am"EAG "D"FED \
+| "G"G2G GAB | "(Bm)"ded "Em"BAG | "C"ege "G"dBG |  "D"AGG "G"G2 :|
+d \
+| "G"g2g bag | "D"fef "G"gdB | "C"ege "G"dcB | "A(m)"ABG "D"FED \
+| "G"g2g bag | "D"fef "G"gdB | "C"edc "G"dgB |  "D"AGG "G"G2 ||
+d \
+| "G"g2g bag |    "D"fef  "G"gdB | "C"ege "G"dBG | "A7"ABG "D"FED \
+| "G"G2G GAB | "(Bm)"ded "Em"BAG | "C"ege "G"dBG | "D7"AGG "G"G2 |]
+%%center Book22/22101-Laird_of_Miltons_Daughter-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22105
+T: The Laird of Milton's Daughter
+C: W.G.M.Christian (1951)
+R: jig
+B: RSCDS 22-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+E \
+| "A"A2A ABc | efe cBA | "E"BAB "A"cBA | "Bm"FBA "E"GFE \
+| "A"A2A ABc | efe "(F#m)"cBA | "D"faf "A"ecA | "E"BAA "A"A2 :|
+e \
+| "A"a2a c'ba | "E"gfg "A"aec | "D"faf "A"edc | "B7"BcA "E"GFE \
+| "A"a2a c'ba | "E"gfg "A"aec | "D"fed "A"eac | "E"BAA "A"A2 ||
+e \
+| "A"a2a c'ba | "E"gfg "A"aec | "D"faf "A"ecA | "B7"BcA "E"GFE \
+| "A"A2A ABc | efe "(F#m)"cBA | "D"faf "A"ecA | "E"BAA "A"A2 |]
+%%center Book22/22101-Laird_of_Miltons_Daughter-6.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22106
+T: The Laird of Milton's Daughter
+C: W.G.M.Christian (1951)
+R: jig
+B: RSCDS 22-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+D \
+| "G"G2G GAB |       ded     BAG | "D"AGA "G"BAG | "Am"EAG "D"FED \
+| "G"G2G GAB | "(Bm)"ded "Em"BAG | "C"ege "G"dBG |  "D"AGG "G"G2 :|
+d \
+| "G"g2g bag | "D"fef "G"gdB | "C"ege "G"dcB | "A(m)"ABG "D"FED \
+| "G"g2g bag | "D"fef "G"gdB | "C"edc "G"dgB |  "D"AGG "G"G2 ||
+d \
+| "G"g2g bag |    "D"fef  "G"gdB | "C"ege "G"dBG | "A7"ABG "D"FED \
+| "G"G2G GAB | "(Bm)"ded "Em"BAG | "C"ege "G"dBG |  "D"AGG "G"G2 |]
+%%center Book22/22101-Laird_of_Miltons_Daughter-8.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22107
+T: The Laird of Milton's Daughter
+C: W.G.M.Christian (1951)
+R: jig
+B: RSCDS 22-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+E \
+| "A"A2A ABc | efe cBA | "E"BAB "A"cBA | "Bm"FBA "E"GFE \
+| "A"A2A ABc | efe "(F#m)"cBA | "D"faf "A"ecA | "E"BAA "A"A2 :|
+e \
+| "A"a2a c'ba | "E"gfg "A"aec | "D"faf "A"edc | "B7"BcA "E"GFE \
+| "A"a2a c'ba | "E"gfg "A"aec | "D"fed "A"eac | "E"BAA "A"A2 ||
+e \
+| "A"a2a c'ba | "E"gfg "A"aec | "D"faf "A"ecA | "B7"BcA "E"GFE \
+| "A"A2A ABc | efe "(F#m)"cBA | "D"faf "A"ecA | "E7"BAA "A"A2 |]
+%%center Book22/22101-Laird_of_Miltons_Daughter.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22108
+T: Laird of Milton's Daughter, The
+C: W.G.M.Christian (1951)
+R: jig
+B: RSCDS 22-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+%--------------------
+K: F
+C \
+| "F"F2F FGA |       cdc     AGF | "C"GFG "F"AGF | "Gm"DGF "C"EDC \
+| "F"F2F FGA | "(Am)"cdc "Dm"AGF | "Bb"dfd "F"cAF |  "C"GFF "F"F2 :|
+c \
+| "F"f2f agf | "C"ede "F"fcA | "Bb"dfd "F"cBA | "G(m)"GAF "C"EDC \
+| "F"f2f agf | "C"ede "F"fcA | "Bb"dcB "F"cfA |  "C"GFF "F"F2 ||
+c \
+| "F"f2f agf |    "C"ede  "F"fcA | "Bb"dfd "F"cAF | "G7"GAF "C"EDC \
+| "F"F2F FGA | "(Am)"cdc "Dm"AGF | "Bb"dfd "F"cAF |  "C"GFF "F"F2 |]
+%%center Book22/22101-Laird_of_Miltons_Daughter_The.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22109
+T: Balcomie House
+R: jig
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 14-5
+B: Whitelaw Collection
+N: Alternative tune for Miss Nancy Frowns
+N: Without repeats in the booklet, but fits better if played AABB.
+M: 6/8
+L: 1/8
+K: A
+c/d/ \
+| "A"e2e cea | e2f ecA | "E7"B2B B>AB | "A"cdc "E7"Bcd \
+| "A"e2e cea | e2f ecA | "E7"EGB dBG | "A"A2c A2 :|
+|: C/D/ \
+| "A"E2E CEA | "D"F2F "Bm"DFA | "E7"G2G EGB | "A"A2A EAc \
+| "A"E2E CEA | "D"F2F "Bm"DFA | "E7"EGB {c}dBG | "A"A2c A2 :|
+%%center Book22/Balcomie_House_A-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22110
+T: Balcomie House
+R: jig
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 14-5
+B: Whitelaw Collection
+N: Alternative tune for Miss Nancy Frowns
+N: Without repeats in the booklet, but fits better if played AABB.
+M: 6/8
+L: 1/8
+K: A
+c/d/ \
+| "A"e2e cea | e2f ecA | "E7"B2B B>AB | "A"cdc "E7"Bcd \
+| "A"e2e cea | e2f ecA | "E7"EGB dBG | "A"A2c A2 :|
+|: C/D/ \
+| "A"E2E CEA | "D"F2F "Bm"DFA | "E7"G2G EGB | "A"A2A EAc \
+| "A"E2E CEA | "D"F2F "Bm"DFA | "E7"EGB {c}dBG | "A"A2c A2 :|
+%%center Book22/Balcomie_House_A_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22111
+T: Balcomie House
+R: jig
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 14-5
+B: Whitelaw Collection
+N: Alternative tune for Miss Nancy Frowns
+N: Without repeats in the booklet, but fits better if played AABB.
+M: 6/8
+L: 1/8
+K: F
+A/B/ \
+| "F"c2c Acf | c2d cAF | "C7"G2G G>FG | "F"ABA "C7"GAB \
+| "F"c2c Acf | c2d cAF | "C7"CEG BGE | "F"F2A F2 :|
+|: A,/B,/ \
+| "F"C2C A,CF | "Bb"D2D "Gm"B,DF | "C7"E2E CEG | "F"F2F CFA \
+| "F"C2C A,CF | "Bb"D2D "Gm"B,DF | "C7"CEG {A}BGE | "F"F2A F2 :|
+%%center Book22/Balcomie_House_F-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22112
+T: Balcomie House
+R: jig
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 14-5
+B: Whitelaw Collection
+N: Alternative tune for Miss Nancy Frowns
+N: Without repeats in the booklet, but fits better if played AABB.
+M: 6/8
+L: 1/8
+K: F
+A/B/ \
+| "F"c2c Acf | c2d cAF | "C7"G2G G>FG | "F"ABA "C7"GAB \
+| "F"c2c Acf | c2d cAF | "C7"CEG BGE | "F"F2A F2 :|
+|: A,/B,/ \
+| "F"C2C A,CF | "Bb"D2D "Gm"B,DF | "C7"E2E CEG | "F"F2F CFA \
+| "F"C2C A,CF | "Bb"D2D "Gm"B,DF | "C7"CEG {A}BGE | "F"F2A F2 :|
+%%center Book22/Balcomie_House_F_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22113
+T: Balcomie House
+R: jig
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 14-5
+B: Whitelaw Collection
+N: Alternative tune for Miss Nancy Frowns
+N: Without repeats in the booklet, but fits better if played AABB.
+M: 6/8
+L: 1/8
+K: G
+B/c/ \
+| "G"d2d Bdg | d2e dBG | "D7"A2A A>GA | "G"BcB "D7"ABc \
+| "G"d2d Bdg | d2e dBG | "D7"DFA cAF | "G"G2B G2 :|
+|: B,/C/ \
+| "G"D2D B,DG | "C"E2E "Am"CEG | "D7"F2F DFA | "G"G2G DGB \
+| "G"D2D B,DG | "C"E2E "Am"CEG | "D7"DFA {B}cAF | "G"G2B G2 :|
+%%center Book22/Balcomie_House_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22114
+T: Balcomie House
+R: jig
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 14-5
+B: Whitelaw Collection
+N: Alternative tune for Miss Nancy Frowns
+N: Without repeats in the booklet, but fits better if played AABB.
+M: 6/8
+L: 1/8
+K: G
+B/c/ \
+| "G"d2d Bdg | d2e dBG | "D7"A2A A>GA | "G"BcB "D7"ABc \
+| "G"d2d Bdg | d2e dBG | "D7"DFA cAF | "G"G2B G2 :|
+|: B,/C/ \
+| "G"D2D B,DG | "C"E2E "Am"CEG | "D7"F2F DFA | "G"G2G DGB \
+| "G"D2D B,DG | "C"E2E "Am"CEG | "D7"DFA {B}cAF | "G"G2B G2 :|
+%%center Book22/Balcomie_House_G_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22115
+T: Dr. and Mrs. Green
+C: K.Macauley-Jones
+R: strathspey
+B: RSCDS 22-9
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A \
+| "D"d2 f>d "Bm"A<F d2 | "Em"B>A G>F "A7"E>D C<A, \
+| "D"d2 f>d "Bm"A<F d2 | "Em"B>G g>e "A7"(3cde (3ABc |
+| "D"d2 f>d "Bm"A<F d2 | "Em"G>F E>D "A7"C>B A>G \
+| "D"F>A d>c "Em"B<G g>e | "A7"(3cde A<g "D"f<d d |]
+f \
+|| "Bm"b2f>d "Em"g>e "F#7"c2 | "Bm"f2 d>B "F#7"e/d/c/B/ c2 \
+| "Bm"b>c' b>f "Em"g>e B<g | "F#7"f>e d<c "Bm"B2 "A7"c2 |
+| "D"d2 f>d "Bm"A<F d2 | "G"B>c "E/g#"d>e "A7"(3cde (3efg \
+| "D"f2 a>f "Em"b>g e>d | "A7"(3cde A>c "D"d2- d |]
+%%center Book22/DrAndMrsGreen-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22116
+T: Dr. and Mrs. Green
+C: K.Macauley-Jones
+R: strathspey
+B: RSCDS 22-9
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+"G7"G \
+| "C"c2  e>c "Am"G<E c2  | "F"A>G F>E "G7"D>C B,<G, \
+| "C"c2  e>c "Am"G<E c2  | "Dm"(3AGF (3fed "G7"(3Bcd (3GAB |
+y2 \
+| "C"c2  e>c "Am"G<E c2  | "Dm"F>E D>C "G7"B,>A G>F \
+| "C"E>G c>B "Dm"A<F f>d | "G7"(3Bcd G>f "C"e<c c ||
+e \
+|| "Am"a2e>c "Dm"f>d "E7"B<^G | "Am"e2 c>A "E"d/c/B/A/ B>e \
+| "Am"a>b a>e "Dm"f>d A<f | "E7"e>d c<B "Am"A2 "G7"B2 |
+y2 \
+| "C"c2 e>c "Am"G<E c2 | "F"A>B "(D7)"c>d "G7"(3Bcd (3def \
+| "C"e2 g>e "Dm"a>f d<c | "G7"(3Bcd G>B "C"c2- c |]
+%%center Book22/DrAndMrsGreen_C-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22117
+T: Dr. and Mrs. Green
+C: K.Macauley-Jones
+R: strathspey
+B: RSCDS 22-9
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+"G7"G \
+| "C"c2  e>c "Am"G<E c2  | "F"A>G F>E "G7"D>C B,<G, \
+| "C"c2  e>c "Am"G<E c2  | "Dm"(3AGF (3fed "G7"(3Bcd (3GAB |
+y2 \
+| "C"c2  e>c "Am"G<E c2  | "Dm"F>E D>C "G7"B,>A G>F \
+| "C"E>G c>B "Dm"A<F f>d | "G7"(3Bcd G>f "C"e<c c ||
+e \
+|| "Am"a2e>c "Dm"f>d "E7"B<^G | "Am"e2 c>A "E"d/c/B/A/ B>e \
+| "Am"a>b a>e "Dm"f>d A<f | "E7"e>d c<B "Am"A2 "G7"B2 |
+y2 \
+| "C"c2 e>c "Am"G<E c2 | "F"A>B "(D7)"c>d "G7"(3Bcd (3def \
+| "C"e2 g>e "Dm"a>f d<c | "G7"(3Bcd G>B "C"c2- c |]
+%%center Book22/DrAndMrsGreen_C_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22118
+T: Dr. and Mrs. Green
+C: K.Macauley-Jones
+R: strathspey
+B: RSCDS 22-9
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A \
+| "D"d2 f>d "Bm"A<F d2 | "Em"B>A G>F "A7"E>D C<A, \
+| "D"d2 f>d "Bm"A<F d2 | "Em"B>G g>e "A7"(3cde (3ABc |
+| "D"d2 f>d "Bm"A<F d2 | "Em"G>F E>D "A7"C>B A>G \
+| "D"F>A d>c "Em"B<G g>e | "A7"(3cde A<g "D"f<d d |]
+f \
+|| "Bm"b2f>d "Em"g>e "F#7"c2 | "Bm"f2 d>B "F#7"e/d/c/B/ c2 \
+| "Bm"b>c' b>f "Em"g>e B<g | "F#7"f>e d<c "Bm"B2 "A7"c2 |
+| "D"d2 f>d "Bm"A<F d2 | "G"B>c "E/g#"d>e "A7"(3cde (3efg \
+| "D"f2 a>f "Em"b>g e>d | "A7"(3cde A>c "D"d2- d |]
+%%center Book22/DrAndMrsGreen_D-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22119
+T: Dr. and Mrs. Green
+C: K.Macauley-Jones
+R: strathspey
+B: RSCDS 22-9
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A \
+| "D"d2 f>d "Bm"A<F d2 | "Em"B>A G>F "A7"E>D C<A, \
+| "D"d2 f>d "Bm"A<F d2 | "Em"B>G g>e "A7"(3cde (3ABc |
+| "D"d2 f>d "Bm"A<F d2 | "Em"G>F E>D "A7"C>B A>G \
+| "D"F>A d>c "Em"B<G g>e | "A7"(3cde A<g "D"f<d d |]
+f \
+|| "Bm"b2f>d "Em"g>e "F#7"c2 | "Bm"f2 d>B "F#7"e/d/c/B/ c2 \
+| "Bm"b>c' b>f "Em"g>e B<g | "F#7"f>e d<c "Bm"B2 "A7"c2 |
+| "D"d2 f>d "Bm"A<F d2 | "G"B>c "E/g#"d>e "A7"(3cde (3efg \
+| "D"f2 a>f "Em"b>g e>d | "A7"(3cde A>c "D"d2- d |]
+%%center Book22/DrAndMrsGreen_D_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22120
+T: Dr. and Mrs. Green
+C: K.Macauley-Jones
+R: strathspey
+B: RSCDS 22-9
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A \
+| "D"d2 f>d "Bm"A<F d2 | "Em"B>A G>F "A7"E>D C<A, \
+| "D"d2 f>d "Bm"A<F d2 | "Em"B>G g>e "A7"(3cde (3ABc |
+| "D"d2 f>d "Bm"A<F d2 | "Em"G>F E>D "A7"C>B A>G \
+| "D"F>A d>c "Em"B<G g>e | "A7"(3cde A<g "D"f<d d |]
+f \
+|| "Bm"b2f>d "Em"g>e "F#7"c2 | "Bm"f2 d>B "F#7"e/d/c/B/ c2 \
+| "Bm"b>c' b>f "Em"g>e B<g | "F#7"f>e d<c "Bm"B2 "A7"c2 |
+| "D"d2 f>d "Bm"A<F d2 | "G"B>c "E/g#"d>e "A7"(3cde (3efg \
+| "D"f2 a>f "Em"b>g e>d | "A7"(3cde A>c "D"d2- d |]
+%%center Book22/DrAndMrsGreen_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22121
+T: Forres Country Dance
+C: Robert R Gourlay
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+B: RSCDS 22-4(II)
+M: 6/8
+L: 1/8
+K: G
+B \
+| "G"GDG BGB | dBd gdB | "C"cac "G"BgB | "Am"aAA "D7"A2B \
+| "G"GDG BGB | dBd gdB | "Am"c2A "D7"F2d | "G"BGG G2 :|
+|: d \
+| "G"gbg "D7"faf | "Em"ege "Bm"d2B | "C"cac "G"BgB | "Am"cAA "D7"A2B \
+| "G"GDG BGB | dge d2B | "Am"c2A "D7"F2d | "G"BGG G2 :|
+%%center Book22/ForresCountryDanceJ-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22122
+T: Forres Country Dance
+C: Robert R Gourlay
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+B: RSCDS 22-4(II)
+M: 6/8
+L: 1/8
+K: G
+B \
+| "G"GDG BGB | dBd gdB | "C"cac "G"BgB | "Am"aAA "D7"A2B \
+| "G"GDG BGB | dBd gdB | "Am"c2A "D7"F2d | "G"BGG G2 :|
+|: d \
+| "G"gbg "D7"faf | "Em"ege "Bm"d2B | "C"cac "G"BgB | "Am"cAA "D7"A2B \
+| "G"GDG BGB | dge d2B | "Am"c2A "D7"F2d | "G"BGG G2 :|
+%%center Book22/ForresCountryDanceJ_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22123
+T: Holyrood House
+R: jig
+B: RSCDS 22-4(I)
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+B \
+| "G"ded dBG | "D7"c2d "G"BAG |1 DGG "A7"GFG | "D7"ABA FED :|2 "G"DGG "D7"AGA | "G"BGG G2 :|
+|: B \
+| "G"dBG G2g | "C"ecc c2d | "A7"e^cA Aag | "D"fdd "D7"def \
+| "G"gfe dcB | "C"edc "Am"BAG | "G"DGG "D7"AGA | "G"BGG G2 :|
+%%center Book22/HolyroodJ-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22124
+T: Holyrood House
+R: jig
+B: RSCDS 22-4(I)
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+B \
+| "G"ded dBG | "D7"c2d "G"BAG |1 DGG "A7"GFG | "D7"ABA FED :|2 "G"DGG "D7"AGA | "G"BGG G2 :|
+|: B \
+| "G"dBG G2g | "C"ecc c2d | "A7"e^cA Aag | "D"fdd "D7"def \
+| "G"gfe dcB | "C"edc "Am"BAG | "G"DGG "D7"AGA | "G"BGG G2 :|
+%%center Book22/HolyroodJ_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22125
+T: The Laird of Milton's Daughter   (A)
+C: W.G.M.Christian (1951)
+R: jig
+B: RSCDS 22-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"A2A ABc | efe cBA | "E"BAB "A"cBA | "Bm"FBA "E"GFE \
+| "A"A2A ABc | efe "(F#m)"cBA | "D"faf "A"ecA | "E"BAA "A"A2 :|
+e \
+| "A"a2a c'ba | "E"gfg "A"aec | "D"faf "A"edc | "B7"BcA "E"GFE \
+| "A"a2a c'ba | "E"gfg "A"aec | "D"fed "A"eac | "E"BAA "A"A2 ||
+e \
+| "A"a2a c'ba | "E"gfg "A"aec | "D"faf "A"ecA | "B7"BcA "E"GFE \
+| "A"A2A ABc | efe "(F#m)"cBA | "D"faf "A"ecA | "E7"BAA "A"A2 |]
+%%center Book22/LairdOfMiltonsDaughterJ-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22126
+T: The Laird of Milton's Daughter   (A)
+C: W.G.M.Christian (1951)
+R: jig
+B: RSCDS 22-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"A2A ABc | efe cBA | "E"BAB "A"cBA | "Bm"FBA "E"GFE \
+| "A"A2A ABc | efe "(F#m)"cBA | "D"faf "A"ecA | "E"BAA "A"A2 :|
+e \
+| "A"a2a c'ba | "E"gfg "A"aec | "D"faf "A"edc | "B7"BcA "E"GFE \
+| "A"a2a c'ba | "E"gfg "A"aec | "D"fed "A"eac | "E"BAA "A"A2 ||
+e \
+| "A"a2a c'ba | "E"gfg "A"aec | "D"faf "A"ecA | "B7"BcA "E"GFE \
+| "A"A2A ABc | efe "(F#m)"cBA | "D"faf "A"ecA | "E7"BAA "A"A2 |]
+%%center Book22/LairdOfMiltonsDaughterJ_A-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22127
+T: The Laird of Milton's Daughter   (A)
+C: W.G.M.Christian (1951)
+R: jig
+B: RSCDS 22-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"A2A ABc | efe cBA | "E"BAB "A"cBA | "Bm"FBA "E"GFE \
+| "A"A2A ABc | efe "(F#m)"cBA | "D"faf "A"ecA | "E"BAA "A"A2 :|
+e \
+| "A"a2a c'ba | "E"gfg "A"aec | "D"faf "A"edc | "B7"BcA "E"GFE \
+| "A"a2a c'ba | "E"gfg "A"aec | "D"fed "A"eac | "E"BAA "A"A2 ||
+e \
+| "A"a2a c'ba | "E"gfg "A"aec | "D"faf "A"ecA | "B7"BcA "E"GFE \
+| "A"A2A ABc | efe "(F#m)"cBA | "D"faf "A"ecA | "E7"BAA "A"A2 |]
+%%center Book22/LairdOfMiltonsDaughterJ_A_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22128
+T: The Laird of Milton's Daughter   (F)
+C: W.G.M.Christian (1951)
+R: jig
+B: RSCDS 22-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+K: F
+C \
+| "F"F2F FGA |       cdc     AGF | "C"GFG "F"AGF | "Gm"DGF "C"EDC \
+| "F"F2F FGA | "(Am)"cdc "Dm"AGF | "Bb"dfd "F"cAF |  "C"GFF "F"F2 :|
+c \
+| "F"f2f agf | "C"ede "F"fcA | "Bb"dfd "F"cBA | "G(m)"GAF "C"EDC \
+| "F"f2f agf | "C"ede "F"fcA | "Bb"dcB "F"cfA |  "C"GFF "F"F2 ||
+c \
+| "F"f2f agf |    "C"ede  "F"fcA | "Bb"dfd "F"cAF | "G7"GAF "C"EDC \
+| "F"F2F FGA | "(Am)"cdc "Dm"AGF | "Bb"dfd "F"cAF | "C7"GFF "F"F2 |]
+%%center Book22/LairdOfMiltonsDaughterJ_F-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22129
+T: The Laird of Milton's Daughter   (F)
+C: W.G.M.Christian (1951)
+R: jig
+B: RSCDS 22-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+K: F
+C \
+| "F"F2F FGA |       cdc     AGF | "C"GFG "F"AGF | "Gm"DGF "C"EDC \
+| "F"F2F FGA | "(Am)"cdc "Dm"AGF | "Bb"dfd "F"cAF |  "C"GFF "F"F2 :|
+c \
+| "F"f2f agf | "C"ede "F"fcA | "Bb"dfd "F"cBA | "G(m)"GAF "C"EDC \
+| "F"f2f agf | "C"ede "F"fcA | "Bb"dcB "F"cfA |  "C"GFF "F"F2 ||
+c \
+| "F"f2f agf |    "C"ede  "F"fcA | "Bb"dfd "F"cAF | "G7"GAF "C"EDC \
+| "F"F2F FGA | "(Am)"cdc "Dm"AGF | "Bb"dfd "F"cAF | "C7"GFF "F"F2 |]
+%%center Book22/LairdOfMiltonsDaughterJ_F_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22130
+T: The Laird of Milton's Daughter   [G]
+C: W.G.M.Christian (1951)
+R: jig
+B: RSCDS 22-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2G GAB |       ded     BAG | "D"AGA "G"BAG | "Am"EAG "D"FED \
+| "G"G2G GAB | "(Bm)"ded "Em"BAG | "C"ege "G"dBG |  "D"AGG "G"G2 :|
+d \
+| "G"g2g bag | "D"fef "G"gdB | "C"ege "G"dcB | "A(m)"ABG "D"FED \
+| "G"g2g bag | "D"fef "G"gdB | "C"edc "G"dgB |  "D"AGG "G"G2 ||
+d \
+| "G"g2g bag |    "D"fef  "G"gdB | "C"ege "G"dBG | "A7"ABG "D"FED \
+| "G"G2G GAB | "(Bm)"ded "Em"BAG | "C"ege "G"dBG | "D7"AGG "G"G2 |]
+%%center Book22/LairdOfMiltonsDaughterJ_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22131
+T: The Laird of Milton's Daughter   [G]
+C: W.G.M.Christian (1951)
+R: jig
+B: RSCDS 22-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2G GAB |       ded     BAG | "D"AGA "G"BAG | "Am"EAG "D"FED \
+| "G"G2G GAB | "(Bm)"ded "Em"BAG | "C"ege "G"dBG |  "D"AGG "G"G2 :|
+d \
+| "G"g2g bag | "D"fef "G"gdB | "C"ege "G"dcB | "A(m)"ABG "D"FED \
+| "G"g2g bag | "D"fef "G"gdB | "C"edc "G"dgB |  "D"AGG "G"G2 ||
+d \
+| "G"g2g bag |    "D"fef  "G"gdB | "C"ege "G"dBG | "A7"ABG "D"FED \
+| "G"G2G GAB | "(Bm)"ded "Em"BAG | "C"ege "G"dBG | "D7"AGG "G"G2 |]
+%%center Book22/LairdOfMiltonsDaughterJ_G_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22132
+T: The Laird of Milton's Daughter   (A)
+C: W.G.M.Christian (1951)
+R: jig
+B: RSCDS 22-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"A2A ABc | efe cBA | "E"BAB "A"cBA | "Bm"FBA "E"GFE \
+| "A"A2A ABc | efe "(F#m)"cBA | "D"faf "A"ecA | "E"BAA "A"A2 :|
+e \
+| "A"a2a c'ba | "E"gfg "A"aec | "D"faf "A"edc | "B7"BcA "E"GFE \
+| "A"a2a c'ba | "E"gfg "A"aec | "D"fed "A"eac | "E"BAA "A"A2 ||
+e \
+| "A"a2a c'ba | "E"gfg "A"aec | "D"faf "A"ecA | "B7"BcA "E"GFE \
+| "A"A2A ABc | efe "(F#m)"cBA | "D"faf "A"ecA | "E7"BAA "A"A2 |]
+%%center Book22/LairdOfMiltonsDaughterJ_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22133
+T: The Reel of Mey
+C: James Aitken
+B: RSCDS 22-1
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+P: AABABA
+K: Em
+B, \
+| "Em"E2F G2A | B2c B3 | "D"AFD D2F | "Em"G2E "B7"F2B, \
+| "Em"E2F G2A | B2c B3 | "D"AGF "B7"G2F | "Em"E3-"fine"E2 :|
+D \
+| "G"G2B dBG | "D7"F2A c2F | "G"G2B dBG | "Am"A3-"D7"A2D \
+| "Em"E2G BGE | "B7"^D2F A2D | "Em"EGA "Am"B2c | "B7"B3-"d.C."B2 |]
+%%center Book22/ReelOfMey_Em-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22134
+T: The Reel of Mey
+C: James Aitken
+B: RSCDS 22-__
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+P: AABABA
+K: Em
+B, \
+| "Em"E2F G2A | B2c B3 | "D"AFD D2F | "Em"G2E "B7"F2B, \
+| "Em"E2F G2A | B2c B3 | "D"AGF "B7"G2F | "Em"E3-"fine"E2 :|
+D \
+| "G"G2B dBG | "D7"F2A c2F | "G"G2B dBG | "Am"A3-"D7"A2D \
+| "Em"E2G BGE | "B7"^D2F A2D | "Em"EGA "Am"B2c | "B7"B3-"d.C."B2 |]
+%%center Book22/ReelOfMey_Em_JC.abc

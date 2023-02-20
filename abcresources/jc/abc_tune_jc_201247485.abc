@@ -1,0 +1,44 @@
+X: 194
+T: Apples in Winter
+T: Kennedy's Jig 
+S: Wm. F. Hanafin, Boston
+%S: s:5x2 b:20(4+4+4+4+4)x2
+B: Francis O'Neill: "Waifs and Strays" ed.2 p.106#194
+S: hathitrust.org 
+F: https://babel.hathitrust.org/cgi/pt?id=hvd.32044040672529&view=1up&seq=150&skin=2021 (ed.2 1922) [2022-12-31]
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has no initial repeat, but an end-repeat symbol bewteen the 2 endings. Fixed.
+M: 6/8
+L: 1/8
+K: G
+% = = = = = = = = = =
+% Voice 1 rearranged to make 2 10-bar staff systems, for compactness and proofreading.
+V: 1 staves=2
+"^A"[|] d/c/ |\
+BEE dEE | BAG FEF | DED FDF | ABc ded ||
+BEE BAB | def gfe | fdB AdF | FEE E2 :|
+"^B"|: B | efe edB | e/f/ge fdB | ded dAF | DFA def |
+|[1 efe edB | ede g2a | bag fga | bge e2 :|
+|[2 edB def | gba gfe | fdB AdF | FEE E2 |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+"^A"[|] z |\
+[E3e3] [e3g3b3] | [G3g3] [d3f3a3] | [D3d3] [d3f3a3] | [D3d3] [d3f3a3] ||\
+[E3e3] [e3g3b3] | [G3g3] [e3c'3] |
+B3 [f3b3d'3] | [E3e3] [e2g2b2] :|"^B"|: z |\
+[E3e3] [e3g3b3] | B3 [d3b3] | [B3d3] [d3f3a3] | [D3d3] [d3f3a3] |[1 [E3e3] [e3g3b3] |
+B3 [g2b2d'2]z | [D3d3] [d3f3c'3] | [E3e3] [e2g2b2] :|\
+[2 [G3g3] [g3b3d'3] | [E3e3] [e3g3b3] | [B3] [f3b3d'3] |  [E3e3] [e2g2b2] |]
+% = = = = = = = = = =
+% A setting of this tune named "Kennedy's Jig" appears in Joyce's
+% "Ancient Irish Music", Dublin 1890. Known to the fiddlers and
+% pipers on this side of the Atlantic in later years as "Apples in
+% Winter", it was printed under that name in the O'Neill collections,
+% but no variant of the popular jig so far in circulation, displays the
+% skill of that played by the versatile Billy Hanafin, proficient on
+% both instruments.
+% It may be pertinent to add that the Jig named "Apples in Winter"
+% in O'Farrell's Collection of National Irish Music for the Union Pipes,
+% London, 1797, is identical with "Gillan's Apples" in former O'Neill
+% collections.

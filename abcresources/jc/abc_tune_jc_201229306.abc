@@ -1,0 +1,22 @@
+X: 121
+T: FRANK Oatlands WALTZ
+%R: waltz
+B: J.Gray's Twenty four Country Dances (for the Year 1812) p.12 #1
+S: http://www.eatmt.org.uk/gray_1812.htm 2014-8-7
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: What does "sema" mean in the dance description?
+M: 3/4
+L: 1/8
+K: F
+AB |\
+{d}c=Bcdc2 | ~f2a2c2 | {d}c=Bcdc2 | ~g2b2c2 |\
+{d}c=Bcdc2 | f2a2c'2 | afefga | f2z2 |]
+dc |\
+BAGFED | CDEFGA | {G}(FE)FGAB | (cd)efcA |\
+(BA)GFED | (CD)EFGA | {G}FEFAGE | F2z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Set, & half right & left, sema back again down mid:
+%% & allemande.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

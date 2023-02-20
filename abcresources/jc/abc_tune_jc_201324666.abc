@@ -1,0 +1,19 @@
+X: 864
+T: the Pleasures of Hope
+R: hornpipe
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #864
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0864/oneill-1001-0864-1.abc
+M: C|
+L: 1/8
+K: D
+"^A"[|]\
+(3(ABc) \
+| d>AF>A B>GE>G | (3(FED) F>A d>cB>A | E>ee>f (3(gfe) f>d | e>cA>B A>GF>E ||
+"^B"\
+|| F>Ad>d d>AF>D | E>ee>f (3(gfe) c>A | d>fa>f b>ge>c | d2 {e}d>c d2 :|
+"^C"\
+|: (3(ABc) \
+| d>fa>f b>ge>c | d>fa>f g>ec>A | d>fa>f (3(gfe) f>d | (3(BBB) B>A B>dA>G "^B"||
+|| F>Ad>d d>AF>D | E>ee>f (3(gfe) c>A | d>fa>f b>ge>c | d2{e}d>c d2 :|

@@ -1,0 +1,25 @@
+X: 3301
+T: the Duchess of Manchester's Strathspey.
+C: by Mr Marshall.
+%R: strathspey, air
+B: Niel Gow & Sons "Complete Repository" v.3 p.30 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - -
+% Voice 1: Staffs reformatted to give 4 5-bar lines.
+V: 1 staves=2
+C |\
+F<F F>F A>FAc | d<f Tc>A {A}G2 G>A | F<F F>F A>FAc | d<f Tc>A F2 F :: c | Tf>g ag a/g/f/d/ cf |
+d<f Tc>A {A}G2 G>c | Tf>g ag a/g/f/d/ cf | d>f Tc>A {A}F2 F :: !f!A | .C.F .A,.F C>F Bd | c<A F>A {A}G2 G>A |
+CF A,F C>F Bd | c<A f>c F2F :| c | Tf>g {fg}a>g a/g/f/d/ cf | ~c>d ~f>a g2 Tg>a | Tf>g {fg}a>g a/g/f/d/ c>f |
+d<f Tc>A {A}F2 F>c | Tf>g {fg}a>g a/g/f/d/ c>f | c>d fa g2 Tg f/g/ | a>f (a/g/).f/.e/ Tf>c d<f | ~c>B A>G F2 F |]
+% - - - - - - - - - -
+% Voice 2: Preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z |\
+f2F2 f2a2 | b2f2 c'2c2 | f2F2 f2a2 | b2c'2 f2f :: z | f2f2 f2a2 |
+b2f2 c'2c2 | f2f2 f2a2 | b2c'2 f2f :: !f!z | F2F2 A2B2 | F2D2 C2c2 | F2F2 A2B2 |
+c2c2 F2F :| z | f2c2 f2f2 | F2f2 c2c2 | f2c2 f2A2 | B2c2 F2F2 |
+f2c2 f2f2 | F2f2 c2cz | f2c2 d2B2 | c2C2 F2F |]

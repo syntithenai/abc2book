@@ -1,0 +1,15 @@
+X: 374
+T: Nancy's Branching Tresses
+R: song, air
+%S: s:4 b:8(4+4)
+B: O'Neill's 1850 #374
+O: J.O'Neill
+N: H is a fermata (first is over first repeat sign)
+N: Dal Segno above first and last bar-lines.
+Z: Chris Falt, cfalt@trytel.com
+Q: "Moderate."
+M: C
+L: 1/8
+K: F
+   c2 !segno!| f>g(af) d>e(fd) | (c>A)(G>A) F2AB | (cd)e>f dABA | F4 z2 H:|
+|: c2 | cdef g3f | e2d>c c2zc | cdef a3(g/f/) | (e>g f/e/d/e/) Hc3 (d/e/) !segno!:|

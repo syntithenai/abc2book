@@ -1,0 +1,27 @@
+X: 10621
+T: Rondo Andantino
+C: Gaetano Brandi
+Q: "Andantino"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.62-63
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Due to irregular phrasing; the line breaks match the MS's staff breaks.
+M: 6/8
+L: 1/8
+K: G
+%%continueall
+!segno![|\
+d3- (dB)g | d3- (dB)g | fff "_cres"(fga) | (a3 g2)z | "_rt"e3- !p!e(ge) |
+(dB!f!G) TG3{FG} | e3- e(ge) | (dBG) TG3{FG} | {a/}(gfe) {e/}(dcB) | (B3 A2)z |
+!f!(afd) !p!{d/}cBc | !f!B{f/}ed "_rf"d{f/}ed | !f!(afd) !p!{d/}cBc | !f!B{f/}ed d{f/}ed | (gba) (gfe) |
+!p!(d2!f!^d) (e!p!cA) | G3 {B/}!f!(AGA) | (A3 B2)z | !f!(gba) (gfe) | (d2!f!^d) !p!(ecA) |
+G3 {B/}!f!(AGA) | (A3 G2)z "^Fine"][ !f!G3- GDB | (B^GA) A2z | !f!A3- ADc |
+(c^AB) B2z | {a/}!f!(gfg) (efg) | a3- !p!afd | (Bgf) (ed^c) | d3 {g/}!f!ede |
+f3 {a/}gfg | (afd) (ge^c) | dfa (d'^c'b) | (agf) (ed=c) | (B^de) (efg) |
+(gab) (b^c'd') | T^c'6{ab} | (d'af) (bge) | d3 e3 {de} | Hd6 !segno!][[K:Gm] !f!b3- !p!bag |
+{a/}!f!(g^ff) "_cres"(fga) | !f!b3- !p!(bag) | {a/}(g3 ^f2)z | !f!(ecA) !p!(Ace) | !f!(dBG) !p!(GBd) |
+{f/}(edc) (BAG) | (^FD)D D2z | !f!c'3- c'(a^f) | {a/}(g^fg) {a/}(g^fg) |
+!f!c'3- (c'a^f) | {a/}(^gfg) {a/}(gfg) | !f!e3 !mf!{a/}(g^fg) | !f!d3 !mf!{a/}(g^fg) | !f!{=f/}(edc) (BcA) |
+G3 !f!(bag) | (^fdd) (bag) | Hd6 !segno!|]
+%
+%%center -

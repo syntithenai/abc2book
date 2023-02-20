@@ -1,0 +1,39 @@
+X: 1
+T: the Blazing Star
+P: Longways for as many as will
+%R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.80
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat, and 12 bars.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+c2 f4 a2 | g2f2 e4 | f2ed c2d2- | d2dB A2F2 |\
+c2 f4 a2 | g2f2 e2g2- | g2fe d2c2 | G2=B2 c4 :|\
+|:\
+G2 B4 d2- | d2cB A2f2- |
+f2ed ^c2d2 | A2^c2 d4 |\
+g4 g2fe | defg e2c2 | f6 _ed | cd_ec d2B2 |\
+b2 a4 g2- | g2 f4 e2 | efg2 c2f2 | f3e f4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+z2f2 a2f2 | c'2f2 c2a2 | d'2c'b a2b2 | e4 f4 |\
+z2f2 a2f2 | c'2f2 c2e2 | f2d2 g2a2 | g4 c4 :|
+|:\
+c4 d2e2 | b2ag f2d2 |
+g4 a2b2 | a4 d2f2 |\
+e2d2 e2c2 | =B4 c2c'2 | a2fg a2b2 | a4 b4 |\
+g2a2 b4 | =b4 c'2c2 | g2b2 a2f2 | c'2c2 f4 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% First Man cast off into the 2d Wo. Pace, she crossing over at the same
+%% Time into his Place, the 1st Cu. run the Figure thro' the 2d Hands all four
+%% a quarter round.  2d Cu. cast off and lead up the Middle 1st Cu. casting
+%% down and run the Figure between the 2d the 1st Cu. being in 2d Place,
+%% Hands Right & Left, till they come in their own Places, sett & cast off.
+%%endtext

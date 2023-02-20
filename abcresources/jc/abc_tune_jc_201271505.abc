@@ -1,0 +1,62 @@
+
+X: 1
+T: Dva\vsti, tri\vsti    [D]
+O: Bulgaria
+S: Presented by Yves Moreau, Pinewoods 2003
+%level: 1
+M: none
+L: 1/16
+%%slurgraces 1
+%%vocalfont Helvetica-Narrow-bold 20
+%%wordsfont Times-Roman 12
+K: D
+Q: "2.3.2.3, 2.2.2.3"
+|: "A"A2 ~B2A "D"dc ~B2A | "A"AB AG FG "D"~A2D |\
+"Bm"FG ~A2B "Gm"G2 ~F2E |1 "A"EF ED "D"D2 FGA :|2 "A"EF ED "D"D2 D3  ||
+|: "G"FG GF "D"FG A3 | "A"AG GF GF E2{FE}D |
+w: 1.~Dva-*\vsti* tri-*\vsti, prez* go-ra mi-*nah
+w:    Da* li* be-*\vse son* za-*spa-*la
+w: 2.~ni-*to* si* beh son* za-*spa-*la
+w:    Na* re-*ka* beh pra-*ne* pra-*la
+w: 3.~Vor-*ba-*na* sa svi-*va,* svi-*va
+w:    ga* sa* v\^ar-*ne ot* go-*ro-*no
+w: 4.~Ga* sa* v\^ar-*ne ot* go-*ro-*no
+w:    ta* za-*sta-*lja giz-*di-*lo-*no
+| "Bm"D2 E2{FE}D "G"G2 F2{GF}E | "A"EF ED "D"D2 D3 :|
+w: 1.~te-be* ni-ka-*kva* ne* vid-jah
+w:    i-li* be-\vse* vi-*no* pi-la.
+w: 2.~Ni-to* si beh* vi-*no* pi-la
+w:    na vor-*ba go* beh* pro-*stre-la.
+w: 3.~kaj-no* m\^a-\vzka* de-*voj-*\vci-ca.
+w:    ta za-*sta-lja* giz-*di-*lo-no.
+w: 4.~ta za-*sta-lja* giz-*di-*lo-no.
+w:    giz-di-*lo-no,* ki-*\vci-*lo-no.
+%
+W: 1. Two, three times I passed through the forest. I didn't see you at all.
+W:     Maybe you were already asleep, or you were drinking wine.
+W: 2. I was neither sleeping nor drinking wine.
+W:     I went to the river to do laundry, on the weeping willow I hung it to dry.
+W: 3. The weeping willow is shrinking, to hide a brave woman
+W:     Who will come out of the forest and dress herself again as a woman.
+W: 4. She will come out of the forest and dress herself again as a woman,
+W:     dress herself in women's garments and adornments.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Dva\vsti, tri\vsti    [C]
+O: Bulgaria
+S: Presented by Yves Moreau, Pinewoods 2003
+%level: 1
+M: none
+L: 1/16
+%%slurgraces 1
+K: C
+Q: "2.3.2.3, 2.2.2.3"
+|:\
+"G"G2 ~A2G "C"cB ~A2G | "G"GA GF EF "C"~G2C |\
+"Am"EF ~G2A "Fm"F2 ~E2D |1 "G"DE DC "C"C2 EFG :|2 "G"DE DC "C"C2 C3  ||
+|:\
+"F"EF FE "C"EF G3 | "G"GF FE FE D2{ED}C |\
+"Am"C2 D2{ED}C "F"F2 E2{FE}D | "G"DE DC "C"C2 C3 :|

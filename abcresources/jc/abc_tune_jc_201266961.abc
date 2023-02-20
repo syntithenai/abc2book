@@ -1,0 +1,33 @@
+X:2
+T:Da\~ns leon
+G:Kazimodal
+R:Da\~ns leon
+C:Traditionnel, arrangement http://kazimodal.trad.org
+S:Tonio\`u Breizh-Izel 1383 (Lanouarne)
+M:4/4
+L:1/8
+Q:C2/1=112
+P:B4
+K:D
+P:B
+M:4/4
+%%MIDI chordprog 41
+%%MIDI bassprog 43
+%%MIDI program 71
+%%MIDI bassvol 127
+%%MIDI gchord fcf2fzc2
+"F#m"Ac/2B/2 AF "Em"GE "F#m"AG/2A/2 |\
+M:5/4
+	"G"BB "A"A2 "Em"G2 "F#m"F4 |\
+M:4/4
+	({AG}A)B A>F "Em"GE "F#m"(FG/2)A/2 |\
+M:5/4
+	"G"BA "A"G2 E2 "D"D4 ||
+M:4/4
+|: "D"({FG}F)E/2F/2 "Bm"DA GF "Em"({EF}E)>D |1\
+M:5/4
+	({EF}E)F "G"G2 "A"E2 "D"F4 :|2\
+M:5/4
+	(EG) "A"F2 "G"E2 "D"D4 ||
+%%text 1: F#m continu ouvert guitare + fl\^ute
+%%text 2: guitare accords ouverts

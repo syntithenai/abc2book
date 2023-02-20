@@ -1,0 +1,32 @@
+X: 10882
+T: COME SING ROUND MY FAVOURITE TREE.
+Q: "Not too fast."
+%R: air, waltz, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.88 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B2d !segno!|:\
+(c>d)B c>ed | e2z z2g |\
+f>ed gec | (B2A) z2B/d/ |\
+c>dB ccd | e2z (ce)g |\
+f>bf (f/e/)(d/c/)(B/A/) | B2z z2 H|]\
+c |\
+d>ec d>ec | f2z f2g |
+eed eed | (d2c) zFF |\
+B>cB BBc | d2z zcc |\
+d>ed ccd | e3 (ce)g |\
+f>bf (f/e/)(d/c/)(B/A/) | B2z z2 |]\
+F |\
+F>GF B>cd | (d3 c2)f |
+{f}=e>fd ccB | (B2A) c3 |\
+dBf {f}=e>dc | (c2d) d3 |\
+=edg {g}f>ef | (f2=e) zcc |\
+f>gf AAB | c2z z2c |\
+d>=ef f(a/f/)(g/=e/) | Hf2z f2"^D.C."d |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

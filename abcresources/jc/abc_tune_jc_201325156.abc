@@ -1,0 +1,48 @@
+X:1
+T:PolonÃ¤s nr 8 ur Andreas Dahlgrens Notbok
+Z: Contributed 2016-11-09 07:00:35 by Bosse Dannert bdannert@gmail.com
+K:
+%%scale 0.83
+%%pagewidth 21.00cm
+%%leftmargin 1.00cm
+%%rightmargin 1.00cm
+%%score [ 1 2 3 4 ]
+L:1/4
+Q:1/4=85.00
+M:3/4
+I:linebreak $
+K:F
+V:1 treble nm="Violin I"
+L:1/16
+V:2 treble nm="Violin II"
+L:1/16
+V:3 alto nm="Viola"
+V:4 bass nm="Violoncello"
+V:1
+ d^cde d2A2 d2f2 | edef e2A2 e2g2 | f2ef g2f2 e2d2 | ^cded cdc=B A4 |$ ABA_A =A2a2 a2g2 | %5
+ ABA_A =A2g2 g2f2 | egba gfed cBAG | FED^C D8 |$ d^cde d2A2 d2f2 | edef e2A2 e2g2 | %10
+ f2ef g2f2 e2d2 | ^cded cdc=B A4 |$ ABA_A =A2a2 a2g2 | ABA_A =A2g2 g2f2 | egba gfed cBAG | %15
+ FED^C D8 |$ fefg f2c2 f2a2 | gagf efed c4 | cdef gabg abc'a | cBAG F8 |$ agab c'2a2 F2a2 | %21
+ g2ga g2ga g4 | fgfe defg a2f2 | e2ef e2ef e4 |$ defd bagf e2d2 | ^cded cdcB AGFE | %26
+ fefg f2c2 f2a2 | gagf efed c4 |$ cdef gabg abc'a | cBAG F8 | agab c'2a2 F2a2 | g2ga g2ga g4 |$ %32
+ fgfe defg a2f2 | e2ef e2ef e4 | defd bagf e2d2 | ^cded cdcB AGFE |$ D12 | z12 | z12 | z12 | z12 | %41
+ z12 | z12 |] %43
+V:2
+ z12 | z12 | z12 | z12 |$ z12 | z12 | z12 | z12 |$ DAFc A2F2 F2d2 | cAcd ^c2A2 c2e2 | %10
+ d2cd B2d2 ^c2A2 | AA^cA AAAG A4 |$ FGFE ^C2e2 f2d2 | AGFE F2d2 B2d2 | cege ddBA FGFD | %15
+ ^C2A,2 A,8 |$ dcde d2A2 d2f2 | d4- d2 e6 | c=Bcd efge fgaf | AGFE D8 |$ fefg a2f2 d2f2 | %21
+ e2e^c e2ec e4 | dddc =Bcde f2d2 | ^c2ed c2ed c4 |$ dcdB gfed ^c2=B2 | A4- A4 FED^C | %26
+ dcde d2A2 d2f2 | d4- d2 e6 |$ c=Bcd efge fgaf | AGFE D8 | fefg a2f2 d2f2 | e2e^c e2ec e4 |$ %32
+ dddc =Bcde f2d2 | ^c2ed c2ed c4 | dcdB gfed ^c2=B2 | A4- A4 FED^C |$ z12 | z12 | z12 | z12 | z12 | %41
+ z12 | z12 |] %43
+V:3
+ A,3 | C- C2 | A,2 =B, | E3 |$ C2 E | F- F D | D2- D | A,3 |$ z3 | z3 | z3 | z3 |$ f e d | ^c f2 | %14
+ G D F | A F2 |$ A3 | D- D E | G2 c | F3 |$ F2 D | ^C- C A | A2 F | G2 ^C |$ ^A,2 G | E- E2 | %26
+ A2- A | D2 E |$ G2 c | F- F2 | F2 D | ^C2 A |$ A2 F | G- G ^C | ^A,2 G | E3 |$ A,3 | z3 | z3 | %39
+ z3 | z3 | z3 | z3 |] %43
+V:4
+ D,,2 F,, | A,,- A,, G,, | D,,2 G,, | A,,3 |$ A,,2 C, | D,- D, A,, | B,,2 G,, | D,,3 |$ D,,2 F,, | %9
+ A,,- A,, G,, | D,,2 G,, | A,,3 |$ D, ^C, F, | A, D, B,, | C, D, B,, | A,, D,2 |$ F,2 D, | %17
+ B,,- B,, G,, | E,,2 F,, | D,,3 |$ D,,2 A,, | A,,- A,, ^C, | D,2- D, | =B,, ^C, A,, |$ G,,2 B,, | %25
+ A,,- A,, ^C, | F,2 D, | B,,2 G,, |$ E,,2 F,, | D,,- D,,2 | D,,2 A,, | A,,2 ^C, |$ D,3 | %33
+ =B,,- B,, A,, | G,,2 B,, | A,,2 ^C, |$ D,,2 F,, | D,,- D,,2 | z3 | z3 | z3 | z3 | z3 |] %43

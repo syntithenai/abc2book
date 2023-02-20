@@ -1,0 +1,20 @@
+X:784
+T:Wa is me
+C:Henry Purcell / John Playford 1696
+%%MIDI beat 100 95 80
+%%MIDI gchord fcHcfc
+%%MIDI ratio 3 1
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=92
+M:3/4
+L:1/8
+K:F
+P:A
+|: "F"c3f cA | "Am"c2 A2 "Dm"F2 | "Bb"d3f dB | "Gm"d2 B2 "C"G2 |\
+"F"cf2a gf | "C"g2 c2 "Dm"A2 | "Gm"B>c dc BA | "C7"GF fe "F"f2 :|
+P:B
+"F"af ca gf | "C"g2 c2 "A/C#"A2 | "Dm"fd Af dA | "G"=B2 "D7"B/c/d "G"G2 |\
+"C"ge cg ec | "G"d=B dB Gg | "G"dg "C"eg "G"dg | "C"ed/e/ "G7"f/e/d/c/ "C"c2 |
+P:C
+"F"f>e fg "C"fe | "Dm"f3 g f2 | "Gm"g>f ga gf | "C7"g3 a g2 |\
+"F"a>g ab "C"ag | "F"a>b "C/E"ag "Dm"fe | "Bb"f>g "F/A"f/g/a "Gm"gf | "C7"fg fc "F"f2 |]

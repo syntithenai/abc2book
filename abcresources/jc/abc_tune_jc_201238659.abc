@@ -1,0 +1,32 @@
+X: 31102
+T: COTILLION No. 17. ROCHESTER SETT tune 2
+N: The tune is labelled "3", but this is a typo; it's the 2nd tune in the set.
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.110 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain is missing half a measure; it has 7.5 bars.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+dAd |\
+f2f efe | d3- dAd | f2f efe | d3 B2c |\
+A2d B2d | ABc def | e2d {d}cBc | d3 H|]
+aaa |\
+fff ggg | e3 e2e | fef gag | e2e eee |\
+fef gag | ede fgf | ede fgf | "^D.C."e3 |]
+AAA |\
+BAG dcB | AGF AAB | BAG dcB | AGF f2f |\
+f3 c3 | d3 f2f | f3 "^D.C."c3 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% cross back,
+%% balance and swing round.
+%% Sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

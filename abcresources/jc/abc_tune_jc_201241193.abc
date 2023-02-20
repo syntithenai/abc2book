@@ -1,0 +1,19 @@
+X: 4288
+T: LIME STREET
+%R: hornpipe, reel
+B: James Kerr "Merry Melodies" v.4 p.31 #288
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The "D.C." should perhaps be at the end of the 2nd strain, not the 1st.
+M: C|
+L: 1/8
+K: G
+(3(DEF) |\
+G2G2 GBdB | A2A2 Acec |\
+[1,3 Bdgf edcB | AGFE DcBA :|\
+[2,4 BdBG AcAF | G2B2"_D.C."G2 |:\
+d2 |\
+g2(gf) gbag |
+f2d2 d2(de) |\
+=fefg fagf | e2c2 c2(dc) |\
+BGBd g2(fg) | afdB c2(dc) |\
+BdBG AcAF | G2B2G2 :|

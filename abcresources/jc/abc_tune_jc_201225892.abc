@@ -1,0 +1,20 @@
+X: 1003
+T: Jigg divided 12 ways.
+%R: jig
+B: Henry Playford "Apollo's Banquet", London 1687 (5th Edition)
+F: https://archive.org/details/apollosbanquetco01rugg
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: Bar 17 is missing a 1/4 note; fixed to match bar 15.
+M: 6/4
+L: 1/8
+K: D
+% - - - - - - - - - -
+B2A2G2 |\
+F3ED2 f2e2d2 | e2E4 B2A2G2 | F3ED2 f2e2^c2 | d6 "^2.":: B2A2G2 | F3ED2 f2e2(dc) | e2E4 B2A2G2 |
+F3GA2 f2e2(dc) | d2D4 "^3.":: B2A2G2 | (FG)A2(GA) B2(Bc)d2 | e2E4 B2A2G2 | (FG)A2(fg) a2(cd)e2 | d2D4 "^4.":: B2A2G2 | F2A2G2 B2E2d2 |
+e2E4 B2A2G2 | F2A2G2 B2E2c2 | d2D4 "^5.":: B2A2G2 | (FG)A2(Bc) d2(cd)e2 | e2E4 B2A2G2 | (FG)A2(Bc) d2(cd)e2 | d2D4 "^6.":: B2A2G2 |
+F3ED2 f2e2d2 | c2e4 f2g2B2 | A3GF2 a2f2d2 | g2b4 "^7":: f2e2d2 | c2a4 e2f2d2 | c2e4 B2A2F2 | G3Bc2 d2e2c2 |
+d2 D4 "^8":: F2G2(AG) | F3ED2 (ef)(gf)(ed) | c2e4 f2g2B2 | A3GF2  (ag)(fe)d2 | g2b4 "^9.":: f2(gf)(ed) | c2a4 e2f2d2 | c2e4 B2(AB)(AF) |
+G3B(cB) (cd)e2c2 | d2D4 "^10.":: B2A2G2 | F3GA2 F2E2D2 | BcE4 B2A2G2 | F3GA2 F2E2D2 | (cd)D4 "^11.":: B2A2G2 | F4 G4 A4 |
+E6 B2A2G2 | F4 d4 e4 | d6 "^12.":: f2g2a2 | (ba)(ba)(gf) (gf)(gf)(ed) | e2E4 B2A2G2 | F3ED2 f2(fg()ef) | d2D4 |]
+% - - - - - - - - - -

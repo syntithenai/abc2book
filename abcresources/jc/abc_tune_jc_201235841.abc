@@ -1,0 +1,34 @@
+X: 21411
+T: MILFORD SETT (tune 4)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.141 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain has only a c-natural as a key signature, but the key of G makes sense.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+A |\
+faf dfd | ecA A2A | f>ga a>gf | e2c A2a/g/ |\
+faf dfd | cde A2c | d>cd f2e | d3- d2 H|]
+e |\
+ecB A>GE | D2f fga | d2f fga | efe d2e |\
+ecB A>GE | D2f fga | b3 cfe | d3- "^D.C."d2 |][K:=c]
+K:G
+D |\
+BAG Bcd | ed^c d2g | fga def | gfe d>cB/A/ |\
+BAG Bcd | ed^c d2g | a2g fef | g2b "^D.C."g2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Two ladies forward and back,
+%% two gentlemen the same,
+%% balance four,
+%% ladies chain,
+%% promenade four,
+%% sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

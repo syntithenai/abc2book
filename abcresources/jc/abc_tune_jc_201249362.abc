@@ -1,0 +1,30 @@
+X: 1
+T: BACCA PIPES
+S: MDT
+O: Headington
+P: [A.(AB)4.A]3.A.(AB2)4.A
+Q: "Figs 1-3" 3/2=84 "Fig 4" 3/2=76
+B: Morris Ring
+B: Karpeles & Schofield "A Selection of 100 English Folk Dance Airs" 1951 p.36
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Ador
+P: A 1st Fig
+      c3  c2e | d2c B3  | c2B A3     | B2A  G3  | c3  c2e | d2c B3  | c2A B2G  | A3 A3  ||
+P: B
+      g2f g2e | d2B G3  | g2f g2e    | a2f  d3  | g2f g2e | d2c B3  | c2d e2d  | A3 A3  ||
+P: A 2nd Fig
+g2B | c2e c2e | d2B G2B | c2A A2A    | B2G  E3  | c2e c2e | d2B G2B | c2A B2G  | A3 g2B ||
+P: B
+      g3  gfe | d2B G3  | g3  gfe    | a2g  e3  | g3  gfe | d2B G3  | c2A B2G  | A3 g2B ||
+P: A 3rd Fig
+K: A
+  B | c2B c2e | d2c B2B | c2c A2A    | =G2F E2B | c2B c2e | d2c B2B | c2A B2=G | A3 A2B ||
+P: B
+     =g2f g2e | d2c B3  |=g2f g2f/g/ | a2=g e2f |=g2f g2e | d2c B2B | c2A B2=G | A3 A2B ||
+P: A 4th Fig
+K: Ador
+  B | c2B c2e | d2c Bcd | c2B A2c    | B2G  A2B | c2B c2e | d2c Bcd | c2A B2G  | A3 A2B ||
+P: B
+      g2f g2e | d2B G3  | g2f g2e    | f3   e2f | g2a g2e | d2c Bcd | c2A B2G  | A3 A3  ||

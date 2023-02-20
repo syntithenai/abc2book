@@ -1,0 +1,22 @@
+X: 112
+T: Tapsalteerie
+C: Bert Murray
+R: reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.11
+%
+N: "Tapsalteerie" is N-E Scots for "upside down".
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Changed last F to F6, to get correct bar length.
+M: 2/4
+L: 1/16
+K: F
+vAB |\
+c>A AA/A/ (AB)AG | F2C2 C2(A,B,) | CB,A,B, CA,CF | F2E2 E2(GA) |
+B>G GG/G/ (GA)GF | EFED C2(ED) | CDEF GABc | d2c2 A2(AB) |
+c>A AA/A/ (AB)AG | F2C2 C2(A,B,) | CB,A,B, CA,CF | E2D2 D2(GA) |
+BcBA GAGF | EFED C2(ED) | CC=B,C D2E2 | F6 ||
+(AB) |\
+c2cA F2Ac | cdcA F2(AB) | cAFA cAcf | e2d2 d2(GA) |
+B2BG E2GA | BcBG E2(GF) | EFGA Bcdc | B2A2 A2(AB) |
+c2BA F2AB | cdcA F2(AB) | cAFA cfgf | e2d2 d2(GA) |
+BcBA GAGF | EFED C2(ED) | CC=B,C D2E2 | F6 |]

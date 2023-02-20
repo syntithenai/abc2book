@@ -1,0 +1,25 @@
+X: 11
+T: Ginleing Georde
+%R: _
+N: Handwritten "Atkinson Ms. 1604."
+B: "A Collection of Original Scotch-Tunes", Henry Playford, 1700, ed. p.5 #11
+F: http://imslp.org/wiki/A_Collection_of_Original_Scotch_Tunes_(Various)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: There's an extra quarter note between the 3rd and 4th strains. (Drop strain 3's last e note.)
+M: 6/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ef |\
+g3dB2 g3dB2 | g3dB2 A4ef |\
+g3dB2 g3dB2 | g3dB2 G4 |]
+e2 |\
+d2BcdB d2BcdB | d2BcdB A4e2 |\
+d2BcdB d2BcdB | d2BcdB G4 |]
+ef |\
+g2B2g2 B2g2B2 | g2B2g2 A4e2 |\
+g2B2g2 B2g2B2 | g2B2g2 G4e2 |]
+ed |\
+B3AG2 G2A2B2 | e3dB2 A4ed |\
+B3AG2 G2A2B2 | e3dB2 G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

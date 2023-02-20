@@ -1,0 +1,16 @@
+X: 1
+T: Pine Stump Junction
+C: Mike Mahar
+R: reel
+S: Milford Contra Dance collection
+S: Rakes Playlist - Wilton Folk Cafe - 2022-6-3
+Z: 2022 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+"^A"[|]\
+A,B, | "D"D2D2 FEDB, | A,2A,B, D2A,B, | D2D2 FED2 | "A"E6 ||
+A,B, | "D"D2D2 FEDB, | A,2A,B, D2A,B, | D2D2 "A"FE"G"DE | "D"D6 :|
+"^B"|:\
+FG | "D"A2A2 BAFE | D2DE F2FG | A2A2 dBA2 | "A"E6 ||
+FG | "D"A2A2 BAFE | "G"D2DB, "D"A,2A,B, | D2D2 "A"FE"G"DE | "D"D6 :|

@@ -1,0 +1,18 @@
+X: 1343
+T: Strathglass House.   a Strathspey.
+%R: air, strathspey
+B: Niel Gow & Sons "Complete Repository" v.1 p.34 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "SLOW"
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+B2 | DDD2 D3E F2A2A2.B2 | AF3d3F [E6A,6] F2 | DDD2 D3E (F2A2).A2.B2 | AF3d3F A6 :| B2 | AAA2 d3A TB3AdF3 | EEE2 F3D ~[E6A,6] F2 |
+AAA2 d3A TB3Ad2F2 | AAA2 d2F2 A6 B2 || AAA2 d3A B3AdF3 | EEE2 F3D TE3FG2B2 | A3FG2E2 F3DDB3 | AF3 d3F A6 |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z2 | d4d4 d4d4 | d4d4 A4A4 |  d4d4 d4d4 | d4d4 [f6d6] :| z2 | d4[f4d4] [g4d4]d4 | c4d4 A4A4 |
+d4[f4d4] [g4d4][f4f4] | d4d4 [f4d4][g4d4] || d4[f4d4] [g4d4]d4 | c4d4 A4c4 | d4A4 d4d4 | d4d4 d6 |]

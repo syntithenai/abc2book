@@ -1,0 +1,16 @@
+X: 10201
+T: the BUSH ABOON TRAQUAIR
+Q: "Slow"
+%R: air, strathspey
+B: "Edinburgh Repository of Music" v.1 p.20 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+D>E |\
+F2A2 d3f | e>d e/f/g/f/ {f}e3E | F2A2 f>edB | A4 D2D>E |
+F2A2 d3f | e>d e/f/g/f/ {f}e3E | F2A2 f>ed>B | A4{Bcd} D2 |]
+d2 |\
+c>BAB cdef | g>a f>g {f}e3A | d>efg a>bag | f>g a/g/f/e/ d3e/d/ |
+c>BAB cdef | g/b/a/g/ f/a/g/f/ {f}e3E | F2A2 f>edB | A4{Bcd} D2 |]

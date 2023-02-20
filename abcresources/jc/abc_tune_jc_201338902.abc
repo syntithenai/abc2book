@@ -1,0 +1,93 @@
+X:679
+T:Sociable Set
+T:Fitz James
+%%titlefont Times-Roman 28
+%%subtitlefont Times-Roman 20
+L:1/8
+M:6/8
+Q:3/8=110
+K:G
+P:Intro
+|: d2c | "G"BAG "D"ABc | "G"BAG "D"d2c | "G"BAG "D"AGF | "G"G3 :|
+P:A
+|: g2d | "G"BAG "D"ABc | "G"BAG g2d | "G"BAG "D"AGF | "G"G3 :|
+P:B
+|: G2A | "G"BAB "Am"cBc | "G/B"d3 "Am"cec | "G"BdB "D"AGA | "G"B2G G2A |\
+"G"BAB "Am"cBc | "G/B"def "C"gfe | "G/D"dcB "D"AGF | "G"G2z g2G |
+"G"g2G "Bm"ABc | "G"BAG g2G | "G"g2G "D"AGF | "G"G2z g2G |\
+"G"g2G "Bm"ABc | "G"BAG g2G | "G"g2G "D"AGF | "G"G3 :|
+N:Replace by blank line and X field
+T:Columbus
+L:1/4
+M:2/2
+Q:1/2=110
+N:Changed from 2/4 to 2/2 time signature.
+K:G
+P:A
+D | "G"G G/G/ GG | "G"Bd BG | "D"A A/A/ AA | "D"A/B/A/G/ FD |\
+"G"G G/G/ GG | "G"Bd BG | "C"eg "D"f/g/a/f/ | "G"gb g ||
+P:B
+d | "G"g g/a/ bg | "D"fa fd | "C"e/d/e/f/ g f/e/ | "G"dg dB |\
+"D"cc/d/ ed/c/ | "G"Bd dg | "G"dB "D"d/c/B/A/ | "G"GB G |]
+N:Replace by blank line and X field
+T:The Cauliflower
+L:1/4
+M:2/2
+Q:1/2=110
+N:Changed from 2/4 to 2/2 time signature.
+K:G
+P:A
+[| D/4E/4F/4G/4 | "G"GG GB | "D"AA Ac | "G"BG GB | "D"A/G/F/E/ DE/F/ |\
+"G"GG GB | "D"AA Ac | "G"B/d/B/G/ "D"A/c/A/F/ | "G"G2 G ||
+P:B
+|| B/c/ | "G"dg bd | "G"d/c/B/c/ "D"A A/B/ | "D"cf ac | "G"d/c/B/c/ BB/c/ |\
+"G"dg bd | "D"cf ac | "G"Bd "C"e/d/c/B/ | "G/D"B2 "D"A/D/E/F/ ||
+P:C
+K:Gm
+"Gm"BG Bd | "Gm"[Bd][Ac]/[GB]/ "D"[GB][^FA] | "D"A^F Ac | "D"d/c/B/A/ "Gm"BA |\
+"Gm"BG Bd | "Cm"dc/B/ AG | "D"[A,^F]2 "Gm"[B,G]2 | "D"[^FA]3 ||
+N:Replace by blank line and X field
+T:The Circassian
+L:1/8
+M:2/2
+Q:1/2=110
+N:Changed from 2/4 to 2/2 time signature.
+K:D
+P:A
+[| df | "D"a2af a2af | ad'af d2df | "A"e2ea c2ce | "D"dABc defg |\
+"D"a2af a2af | ad'af d2df | "A"e2ea c2ce | "D"d4 z2 ||
+P:B
+|| df | "D"[fa]2[fa]b [fa]2[df]2 | "D"[fa]2[fa]b [fa]2[df]2 | "A"[eg]2[eg]2 [Ae]2[Ae]2 | "D"fedc defg |\
+"D"[fa]2[fa]b [fa]2[df]2 | "D"[fa]2[fa]b [fa]2[df]2 | "A"[eg]2[eg]2 [Ae]2[Ae]2 | "D"[Fd]4 z2 ||
+P:C
+|| "A"z2[ce][df] [eg]2[ce]2 | "D"z2[df][eg] [fa]2[df]2 | "A"[eg]2[Ae]2 [eg]2[Ae]2 | "D"fedc defd |\
+"A"z2[ce][df] [eg]2[ce]2 | "D"z2[df][eg] [fa]2[df]2 | "A"[ce]2 "D"[df]a "A"[eg]2 "D"[df]2 | "A"[eg]4z2 |]
+N:Replace by blank line and X field
+T:The Sociable
+L:1/8
+M:6/8
+Q:3/8=110
+K:D
+P:A
+[| D2D | "D"D2D DED | "D"D3 d2d | "A"e2f gfe | "D"a2f D2D |\
+"D"D2D DED | "D"D3 "Bm"d2d | "G"e2f "A"gfe | "D"d3 ||
+P:B
+a2a | "D"fga fga | "G"b3 g2g | "A"efg efg | "D"a3 f2f |\
+"Bm"def def | "Em"g3 "A"a2a | "D"agf "E"efd | "A"cBA a2a |
+"D"fga fga | "G"b3 g2g | "A"efg efg | "D"a3 f2f |\
+"Bm"def def | "Em"g3 b2b | "D"agf "A"edc | "D"d3 |]
+N:Replace by blank line and X field
+T:The Campbells are Comin'
+L:1/8
+M:6/8
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+N:From http://levysheetmusic.mse.jhu.edu/levy-cgi/datastream.cgi?id=184.080;type=pdf
+N:I'm not guaranteeing that this is the right music!
+Q:3/8=110
+K:G
+P:A
+[| A | "G"Bde dBG | "G"[GB]2[GB] [GB]2A | "G"GBe dBG | "D"[FA]2[FA] [FA]2B |\
+"G"GBe dBG | "G"d^cd gab | "C"geg "G"dBG | "G"[GB]2[GB] [GB]2 ||
+P:B
+|| d | "G"g2g gab | "G"d2d dBG | "G"g2g gab | "C"e2e g2e |\
+"G"def gfe | "G"def gab | "C"geg "G"dBG | "G"[GB]2[GB] [GB]2 |]

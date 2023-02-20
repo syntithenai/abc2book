@@ -1,0 +1,21 @@
+X:0302
+T:The Dashing White Sergeant
+P:The Dashing White Sergeant
+C:Traditional
+R:Reel (nx32)
+B:RSCDS 3-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:F
+C2|:"F"F2F2 FGAB|C=BCD C2 ag|\
+	    "Bb"f2[d2F2] "F"c2[A2F2]|"Bb"[d2F2]"G7"[G2F2] "C7"[GE]BAG|\
+    "F"F2FE FGAB|C=BCD C2 [a2A2]|
+	    "Gm"[g2A2]"F"[f2A2] "G7"[e2G2][d2F2]|1 "C"[c2E2]cd cBAG:|\
+						[2 "C"[c6E6] [c2E2]||\
+G2|"C"c2c=B cdef|g2ge c2e^c|"Dm"d2d^c defg|a2af d2dd|
+   "C7"[e2G2]cc "F"[f2F2]cc|"C"[g2G2]cc "F"[a2A2]ga|\
+   "Gm"[b2B2]"F"[a2A2] "C"[g2G2]"Dm"[f2F2]|"C"ef"C7"de "F"cd"C7"Bc|\
+   "F"A2f2 {g}fefg|f2c2 c4|
+			   "Bb"d2g2 {a}g^fga|g2d2 d4|\
+   "F"c2f2 {g}fefg|a2f2 {g}fefg|a2z2 "C7"[c'2g2e'2]z2|"F"[f6c6A6]|]

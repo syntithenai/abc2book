@@ -1,0 +1,49 @@
+X: 21701
+T: MARCH FROM BELLINI'S OPERA "NORMA."
+R: march
+N: No. 2324 Music Bouquet, Piano l'art 3d.
+B: K\"ohler's Violin Repository, v.2, 1885 p.170-171
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The lengths of the rests in the last 3 bars are probably not correct.
+M: C|
+L: 1/8
+K: G
+u(.G>.B) |\
+d2(.B>.d) g2(.d>.g) | b6 (a>b) | (.c'>.b)(.a>.g) (.a>.g)(.f>.e) | (d4 B2)(e>d) |\
+(d2>>c2) Az u(e>d) | (d2>>B2) Gz u(g>f) | e2(.e>.f) (.g>.f)(.g>.a) | d4 z2u(.G>.B) |
+d2(.B>.d) g2(.d>.g) | b6 (a>b) | (.c'>.b)(.a>.g) (.a>.g)(.f>.e) | (d4 B2)(e>d) |\
+(d2>>c2) Az u(e>d) | (d2>>B2) Gz u(g>f) | e2(.e>.f) (.g>.f)(.g>.a) | d4 z2u(.d>.d) |
+e2(.e>.e) (.e>.^d)(.e>.f) | (g4 d)z u(e>d) | (.c>.B)(.c>.d) (.e>.f)(.g>.a) | (b4 g)z u(.d>.d) |\
+e2(.e>.e) (.e>.^d)(.e>.f) | (g4 d)z (g>f) | (.e>.^d)(.e>.f) (g>f)(b>a) | d3f ed^cB |
+a^gab ae=gf | dagf ed^cB | (Af)e2 (Af)e2 | d2zuf ed^cB | a^gab ae=gf | dagf ed^cB |
+(Af)e2 (Af)e2 | db"_>"a2- aegf | db"_>"a2 aegf | (d>^cd>e) d4 |\
+(d>^cd>e) d4- | (d>^cd>e) (d>cd>e) | (d>^cd>e) (d>cd>e) |
+d2(.B>.d) g2(.d>.g) | b6 (a>b) | (.c'>.b)(.a>.g) (.a>.g)(.f>.e) |\
+(d4 B2)(e>d) | (d2>>c2) Az u(e>d) | (d2>>B2) Gz u(g>f) | feAB dcEF | G6 |]
+|:[K:C] uG2 |\
+G2(.c>.d) e2g2 | (g2f)>ve d2z2 | vd2(.^c>.d) e2f2 | (f2e)>vd c2z2 |\
+vG2(.c>.d) e2g2 | g2(f>e) d2a2- | a2(d>e) (g>fd>e) | (c3e/d/) c2 :|
+|: uG2 |\
+G2(.B>.d) (g2>>a2) | (g2>>=f2) f2z2 | ve2(^de) (g3^f) | e2ag =fdBA |\
+G2(.c>.d) e2g2 | g2(f>e) d2a2- | a2(d>e) (g>fd>e) | c4 z2 |]
+[K:G] (.G>.B) |\
+d2(.B>.d) g2(.d>.g) | b6 (a>b) | (.c'>.b)(.a>.g) (.a>.g)(.f>.e) | (d4 B2)(e>d) |\
+(d2>>c2) Az u(e>d) | (d2>>B2) Gz u(g>f) | e2(.e>.f) (.g>.f)(.g>.a) | d4 z2u(.d>.d) |
+e2(.e>.e) (.e>.^d)(.e>.f) | (g4 d)z u(e>d) | (.c>.B)(.c>.d) (.e>.f)(.g>.a) | (b4 g)z u(.d>.d) |\
+e2(.e>.e) (e>.^d)(.e>.f) | g^fag fedc | Bded dcAB | G2(3DDD D2 (.G>.A) |
+B2(.G>.A) B2(.c>.B) | [A2D2](3DDD D2(.A>.B) | c2(.A>.B) c2(.e>.d) | B2(3ddd d2(.g>.a) |\
+b2(.g>.a) b2(.c'>.b) | a2(3ddd d2(.a>.b) | c'2(.a>.b) c'2(.e'>.d') | b2(3udef (3gfe (3def |
+(3gfe (3def (3gfe (3def | gz (3uBcd e2z (3uABc | dz (3uGAB cz (3uDEF | G2(3DDD D2(.G>.A) |\
+B2(.G>.A) B2(.c>.B) | [A2D2](3DDD D2(.A>.B) |
+c2(.A>.B) c2(.e>.d) | B2(3ddd d2 (.g>.a) |\
+b2(.g>.a) b2(.c'>.b) | a2(3ddd d2(.a>.b) |\
+c'2(.a>.b) c'2(.e'>.d') | b2(3udef (3gfe (3def |\
+(3gfe (3def (3gfe (3def | gz (3uBcd ez (3uABc |
+gz (3uGAB cz (3udef | g2 (3def (3gfe (3def |\
+(3gfe (3def (3gfe (3def | gz (3uBcd ez (3uABc |\
+dz (3uGAB cz (3uDEF | G2(3uDDD D2((3dcA) |
+G2(3ddd d2((3d'c'b) | gz (3udef gz ((3udBA) |\
+Gz (3uDEF Gz ((3uDCA,) | G,2z2 z4 |\
+{vDEF}[G4B,4] [G4B,4] | [G6B,6] z7u[bd]/4 |\
+[b6d6] z7uG,/4 | "^Fine."HG,6 |]

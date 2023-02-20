@@ -1,0 +1,19 @@
+X: 32192
+T: "BALMORAL" STRATHSPEY
+C: Composed by W.B. Laybourn, 1884
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.219 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Added flag to c note in bar 4, to correct the rhythm.
+N: The beaming in bar 5 is wrong; it should be like bar 9.
+M: C|
+L: 1/16
+K: A
+|:\
+vec3 [c3A3]B AuF3 u[F4D4] | dB3 [B3G3]A GuE3 u[E4C4] |\
+ec3 [c3A3]A FB3 [B4F4] | (Dd3) (Ee3) (cuA3) u[A4E4] :|
+(vagfg) (a3A)(g3A) (f3A) | (dcBc) (d3E) (c3E)(B3E) |\
+(AGFG) (A3F) (G3E)(F3D) | (E3C) (D3B,) (CuA,3) uA,4 |
+(agfg) (a3A) (g3A)(f3A) | (dcBc) (d3E) (c3E)(B3E) |\
+(F3A)(G3B) (A3c)(B3d) | (c3e)(B3g) auA3 u[A4E4] "^D.C."|]

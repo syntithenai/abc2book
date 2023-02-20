@@ -1,0 +1,102 @@
+%%abc 2.2
+
+
+X: 734
+T: Blessed be that Maid Marie   [Am]
+C: Trad. English
+O: from Ballet's Lute Book (c.1600)
+R:
+%S: s:4 b:16(4+4+4+4)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+% %score {(1 | 2) (3 |ong/Blessed_be_that_Maid_Marie-Em-12-4.abc:w song/Blessed_be_that_Maid_Marie-Em-12-4.abc4)}
+K: Am
+% - - - - - - - - - -
+% V: 1 staves=2
+[|\
+"Am"E2 A2 A2 "Em"G2 | "Am"A2 GF (E3 F) | "C"GA "Em"GF "Am"E2 DC | "G"B,A, B,C "Am"A,4 |
+"C"CD EF "Am"E2 DC | "G"B,A, B,C "Am"A,4 | "C"CD EF "Am"E2 DC | "Dm"B,A, B,C "F"A,4 |
+"C"C2 C2 "G"G,2 G,2 | "F"A,B, CD "C"(E3 F) | "C"GA "Em"GF "Am"E2 DC | "G"B,A, B,C "Am"HA,4 |]
+% - - - - - - - - - -
+
+%%abc 1.7
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+
+X: 734
+T: Blessed be that Maid Marie   [Em]
+C: Trad. English
+O: from Ballet's Lute Book (c.1600)
+R:
+%S: s:4 b:16(4+4+4+4)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+% %score {(1 | 2) (3 |ong/Blessed_be_that_Maid_Marie-Em-12-4.abc:w song/Blessed_be_that_Maid_Marie-Em-12-4.abc4)}
+K: Em
+% - - - - - - - - - -
+% V: 1 staves=2
+[|\
+"Em"B2 e2 e2 "Bm"d2 | "Em"e2 dc (B3 c) | "G"de "Bm"dc "Em"B2 AG | "D"FE FG "Em"E4 |
+"G"GA Bc "Em"B2 AG | "D"FE FG "Em"E4 | "G"GA Bc "Em"B2 AG | "Am"FE FG "C"E4 |
+"G"G2 G2 "D"D2 D2 | "C"EF GA "G"(B3 c) | "G"de "Bm"dc "Em"B2 AG | "D"FE FG "Em"HE4 |]
+% - - - - - - - - - -
+
+%%abc 2.2
+
+
+X: 734
+T: Blessed be that Maid Marie
+C: Trad. English
+O: from Ballet's Lute Book c.1600
+R:
+%S: s:4 b:16(4+4+4+4)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+%%score {(1 | 2) (3 | 4)}
+Q: "Christmas carol"
+M: C
+L: 1/8
+K: Em
+%%continueall
+% - - - - - - - - - -
+V: 1 staves=2
+[|\
+B2 e2 e2 d2 | e2 dc (B3 c) | de dc B2 AG | FE FG E4 |
+w: 1.~Bles-sed be that Maid Ma-*rie;* Born* He* was of* her* bo-*dy
+w: 2.~In a man-ger of an* ass* Je-*su* lay and* lul-*led* was;
+w: 3.~Sweet and bliss-ful was the* song* Chant-*ed* of the* An-*gel* throng,
+w: 4.~Fare three Kings from far-off* land,* In-*cense,* gold and* myrrh* in* hand;
+w: 5.~Make we mer-ry on this* fest,* In* quo* Chris-tus* na-*tus* est;
+%
+GA Bc B2 AG | FE FG E4 | GA Bc B2 AG | FE FG E4 |
+w: Ve-*ry* God ere* time* be-*gan, Born* in* time the* Son* of* Man.
+w: Born* to* die up-*on* the* Tree Pro* pec-*can-te* ho-*mi-*ne.
+w: "Peace* on* earth," Al-*le-*lu-*ya. In* ex-*cel-sis* glo-*ri-*a.
+w: In* Beth-*lem the* Babe* the* see, Stel-*le* duc-ti* lu-*mi-*ne.
+w: On* this* Child I* pray* you* call, To* as-*soil and* save* us* all.
+%
+G2 G2 D2 D2 | EF GA (B3 c) | de dc B2 AG | FE FG HE4 |]
+w: E-ya! Ihe-sus ho-*di-*e* Na-*tus* est de* Vir-*gi-*ne.
+% - - - - - - - - - -
+V: 2 clef=treble
+[|\
+E2 E2 EF GA | B2 A2 G4 | G2 A2 G2 E2 | C2 C2 (B,2 C2) |
+B,2 E2 D2 E2 | D2 D2 (D2 C2) | D2 DE D2 E2 | D2 D2 E4 |
+D2 C2 A,2 D2 | D2 CE D4 | G2 A2 G2 E2 | D2 D2 (DC B,2) |]
+% - - - - - - - - - -
+V: 3 clef=bass middle=d
+[|\
+g2 ga bc' d'2 | g2 a2 (d'3 c') | b2 a2 d'2 b2 | a2 a2 e4 |
+ef ga b2 b2 | b2 b2 g4 | g2 fg ga b2 | a2 d2 g4 |
+g2 e2 f2 g2 | g2 c'2 (b3 a) | b2 a2 d'2 b2 | a2 d2 (ef ^g2) |]
+% - - - - - - - - - -
+V: 4 clef=bass middle=d
+[|\
+e2 ef ga b2 | e2 f2 g4 | g2 f2 g2 g2 | a2 A2 (G2 A2) |
+e2 ec g2 g2 | b2 B2 c4 | B2 dc g2 g2 | d2 B2 (cd e2) |
+B2 c2 d2 B2 | cd ec g4 | g2 f2 g2 G2 | d2 B2 (A2 He2) |]
+% - - - - - - - - - -
+

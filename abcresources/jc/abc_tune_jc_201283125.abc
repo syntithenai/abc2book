@@ -1,0 +1,44 @@
+
+X: 1
+T: Greig's Pipes
+L:1/8
+M:C|
+S:Reel
+B:The Athole Collection
+K:A
+f|eAcA eAAf|eAcA BFFf|eAcA eAcA|B/B/B (cA BFF:|
+|:B|cAcA cAAB|cAcA BFFB|cAcA EacA|B/B/B (cA BFF:|
+|:A|EA,CA, EA,A,F|EA,CA, FB,B,F|EA,CA, EA,CA,|B,/B,/B, (CE FB,B,:|
+|:G|A2 A>E CA,A,E|A2 (AE FB,B,G|A2 A>E CA,EC|B,/B,/B, (CE FB,B,:|
+
+
+%%sep 3 1 500
+
+X: 2
+T: Greig's Pipes
+L:1/8
+M:C|
+K:G
+B3 B BAGA|B2 GB AGEG|B3 B BAGB|A2BG AGEG|B3B BAGA|
+B2 dB AGEG|B~d3 eBdB|AcBG AGEG||DG G2 DGBG|DGBG AGEG|
+DG G2 DGBG|dBAc BGGE|DG G2 DGBG|DGBG AGEG|DG G2 DGBG|
+DBAc BGGB||d2 Bd egge|d2 BG AGEG|d2 Bd eg g2|agbg ageg|
+D2 Bd egge|d2 BG AGEG|d2 Bd eg g2|a2 bg aged||
+
+
+%%sep 3 1 500
+
+X: 3
+T: Greig's Pipes
+C: Neil Stewart (1761)
+R: strathspey
+N: Also played as a reel
+M: 4/4
+L: 1/8
+S: O'Farrell's Pocket Companion 1804-10
+R: Reel
+K: D
+f/g/ | "D"a>d f>d a>d f>b | a>d f>d "Em"e<B "A7"Bf/g/ | "D"a>d f>d a<d f>d | "Em"e/e/e f>d "A7"e<B B2 :|
+|: e | "D"f>d f>d f<d d>e | f>d f>d "Em"e<B "A7"B>e   | "D"f>d f>d A<d f>d | "Em"e/e/e f>d "A7"e<B B2 :|
+|: d | "D"A>D F>D A<D D>d | A>D F>D "Em"B<E "A7"E>d      | "D"A>D F>D A<D   F>D | "G"G>B "D"F>A "Em"G<E "A7"E :|
+|: c | "D"d>e d>A F<D D>c | d/c/B/A/ d>A "Em"B<E "A7"E>c | "D"d>e d>A F/G/A F>D | "G"G>B "D"F>A "Em"B<E "A7"E :|

@@ -1,0 +1,13 @@
+X:1000
+T:Ya da Kalinushku Lomala
+O:Russia
+M:2/4
+L:1/8
+K:Dm
+Q:1/4=96
+%%MIDI program 69 English Horn
+%%MIDI bassprog 45 Pizzicato Strings octave=2
+%%MIDI gchord fzfzfzfz
+%%MIDI bassvol 30
+"Dm"AB A2     |GG D2|AB A2    |GG D2   |\
+"Gm"GG/2A/2 GF|EE DC|"Dm"DD EC|[1D2 D2 :| [2D4|

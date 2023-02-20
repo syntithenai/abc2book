@@ -1,0 +1,34 @@
+X: 1
+T: Finlandia
+T: Song of Peace
+C: music: Jean Sibelius
+C: words: Lloyd Stone
+S: printed copy of unknown origin
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: F
+V: 1 clef=treble middle=B
+[AF] [GE] [AF] |\
+[B3E3] [AF] | [GE] [AF] [FD]> [GE] | [GE] [A3-F3-] | [AF] [AF] [GE] [AF] |
+w: This is my song, O God of all the na-tions,* A song of
+w: My count-try's skies are blu-er than the o-cean,* And sun-light
+[B3E3] [AF] | [GE] [AF] [FD]>[GE] | [A4-F4-] | [AF] [cF] [cF] [cF] | [d3F3] [AF] |
+w: peace for lands a-far and mine;* This is my home, the
+w: beams on clo-ver-leaf and pine.* But oth-er lands have
+[AF] [cF] [cF]> [GE] | [GE] [B3-G3-] | [BG] [BG] [A^F] [GG] | [A3=F3] [FF] |
+w: coun-try where my heart is,* Here are my hopes, my
+w: sun-light, too, and clo-ver,* And skies are ev-'ry-
+[FF] [GF] [GE]> [AE] | [A4-E4-] | [AE] [cA] [cF] [cF] | [d3F3] [AF] | [AF] [cF] [cF]> [GE] |
+w: dreams, my ho-ly shrine;* But oth-er hearts in oth-er lands are
+w: where as blue as mine,* Oh, hear my song, thou God of all the
+[GE] [B3-G3-] | [BG] [BG] [A^F] [GG] | [A3=F3] [FC] | [FF] [GF] [GE]> [FF] | [F4-F4-] | [FF] |]
+w: beat-ing* With hopes and dreams as true and high as mine.*
+w: na-tions,* A song of peace for their land and for mine.*
+V: 2 clef=bass   middle=D
+[cF] [cB] [cA] |\
+[c3G3] [cF] | [cB] [cA] [BB]> [BG] | [cG] [c3-F3-] | [cF] [cF] [cB] [cA] |
+[c3G3] [cF] | [cB] [cA] [BB]> [BG] | [c4-F4-] | [cF] [AF] [AF] [AE] | [A3D3] [dD] |
+[dD] [cA,] [cA,]> [cC] | [cC] [d3-G,3-] | [dG,] [dG,] [cA,] [dB,] | [c3C3] [cA] |
+[dB] [dB] [dB]> [^cA] | [^c4-A4-] | [cA] [=cF] [AF] [AE] | [A3D3] [dD] | [dD] [cA] [cA]> [cc] |
+[cc] [d3-G3-] | [dG] [dG,] [cA,] [dB,] | [c3C3] [AC] | [AC] [BC] [BC]> [AF] | [A4-F4-] | [AF] |]

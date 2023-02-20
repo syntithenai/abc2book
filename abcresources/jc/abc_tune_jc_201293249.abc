@@ -1,0 +1,46 @@
+
+X: 1
+T: Reel Saint-Joseph
+O: Qu\'ebec
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Portland Collection
+M: C|
+L: 1/8
+K: D
+A2 |\
+"D"defd "A7"cdec | "D"defd A2dc | "G"B2gf edcB | "A"Aaab agfe |
+"D"defd "A7"cdec | "D"defd A2dc | "G"B2gf edcB | "A7"Agec "D"d2 :|
+|: de |\
+"D"f2fg fedc | "G"BAG2 "Em"g3f | "A7"e2ef edcB | Aaab agfe |
+"Bm"f2fg fedc | "G"BAG2 "Em"g3f | "A7"e2ef edcB | "A7"Agec "D"d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Reel Eug\`ene
+R:reel
+Z:
+M:C|
+K:Bm
+|:\
+"Bm"B2Bc dcB2 | "Em"e2ef gece | "F#7"f2fg fece | "Bm"fbbf bfdc |
+"Bm"B2Bc dcB2 | "Em"e2ef gece | "F#7"f2fg fedc |1 "Bm"B4 "F#7"F4 :|2 "Bm"B4 "A7"A4 |]
+|:\
+"D"f2fe d2dB | AAdf "Ddim"b2f2 | "Em"a2ag e2 (3cec | "A7"Aceg (3faf e2 |
+"D"f2fe d2dB | AAdf "Ddim"b2f2 | "Em"a2ag egec |1 "A7"dfec "D"d3e :|2 "A7"dfec "D"d4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: L\'evis Beaulieu
+R:reel
+Z:
+M:C|
+K:A
+ed |\
+"A"c2AA AcBA | "D"FBAF "A"E3A | "Bm"BABc d2B2 | "E"AAAc efed |
+"A"c2AA AcBA | "D"FBAF "A"E3A | "Bm"BABc "E"dBed |1 "A"c2A2 A2 :|2 "A"c2A2 A2 |]
+|: ce |\
+"A"a2ab afed | cAce a2ef | "G"=g2ga ged=c | B=GBd =g2e^g |
+"A"a2ab afed | cAce a2ee | "Bm"efec "E"dBed |1 "A"c2A2 A2 :|2 "A"c2A2 A2 |]

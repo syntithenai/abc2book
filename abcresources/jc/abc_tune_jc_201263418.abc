@@ -1,0 +1,17 @@
+X: 1404
+T: the Collier's Reel
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #1404
+O: J.O'Neill
+Z: Bob Safranek, rjs@gsp.org
+N: Changed 1/8 note "c" in bar 6 to quater note to make timing come out
+M: C|
+L: 1/8
+K: D
+"^A"[|] G \
+|  F>(D (3EFG) A2(AB) | c2(cd) cAGB | Addc d2(eg) | fded cAGE ||
+|| F>(D (3EFG) A2(AB) | c2(cd) cAGB | Ad{e}dB {d}cAGE | F>(A (3GFE) D2z |]
+"^B"\
+[| g | fdeg fdec | Addc Addg | fdeg fdec | ABcd c2 ||
+|| (fg) | a2(Taf) g2(Tge) | fgfe d2T(dc) | AddB {d}cBAG | F>(A (3GFE) D3 |]

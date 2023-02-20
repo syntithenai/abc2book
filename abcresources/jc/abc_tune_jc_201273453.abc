@@ -1,0 +1,59 @@
+
+X: 1
+T: Etz chayim hi'
+T: It is a Tree of Life  [Dm]
+M: C
+L: 1/8
+K: Dm
+A, | "Dm"(DE) (FG) A3 A | "Gm"B>B dB "Dm"A3 F | (A2 G)F "A7"A2 E2 | "Dm"F2 (GF) "A7"E3 A, |
+w: Etz cha-*yim* hi', la-ma-cha zi-kim bo', ve so_ m'-che-ho, me-u-*shor. De-
+   "Dm"(DE) (FG) A3 A | "Gm"B>B (dB) "Dm"A3 F | "Dm"A2 {A}GF "A7"A2 E2 | "A7"(GA/G/ FE) "Dm"D3 |]
+w: ro-*che-*cho, dar-chey-*no-*am, ve-chol n'si-vo se-ho sho-____lom.
+A, | "Dm"(D3 E) (FE) (FD) | "Dm"A2 A2 "(A7)"A4 | "Dm"(D3 E) (FE) FD | "Dm"A2 A2 "A7"A4 |
+w: Ha-shi-_ve-*nu* A-do-nay e_ le-*cho ve-no-shu-vo.
+"Dm"(A3 d) Hd4 | "Dm"(df) ed "A7"d2 H^c2 | "Dm"d2 AA "Gm"(cB) AG | "Dm"(F2 "A7"E>D) "Dm"D3 |]
+w: Cha-*desh, cha-*desh yo-me-nu, cha-desh yo-me-*nu, ke-ke-__dem.
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+
+X: 1
+T: Etz chayim hi'  [Em]
+T: It is a Tree of Life
+M: C
+L: 1/8
+K: Em
+B, |\
+"Em"EF GA B3 B | "Am"c>c ec "Em"B3 G | "Em"B2 AG "B7"B2 F2 | "Em"G2 AG "B7"F3 B, | "Em"EF GA B3 B |
+"Am"c>c ec "Em"B3 G | "Em"B2 {B}AG "B7"B2 F2 | "B7"AB/A/ GF "Em"E3 |[| B, | "Em"E3 F GF GE |
+B2 B2 B4 | "Em"E3 F GF GE | "Em"B2 B2 "B7"B4 | "Em"B3 e He4 | "Em"eg fe "B7"e2 H^d2 | "Em"e2 BB "Am"dc BA | "Em"G2 "B7"F>E "Em"E3 |]
+
+%%sep 1 1 500
+
+
+X: 1
+T: Etz chayim hi'  [Gm]
+T: It is a Tree of Life
+M: C
+L: 1/8
+K: Gm
+D |\
+"Gm"GA Bc d3 d | "Cm"e>e ge "Gm"d3 B | "Gm"d2 cB "D7"d2 A2 | "Gm"B2 cB "D7"A3 D | "Gm"GA Bc d3 d |
+"Cm"e>e ge "Gm"d3 B | "Gm"d2 {d}cB "D7"d2 A2 | "D7"cd/c/ BA "Gm"G3 |[| D | "Gm"G3 A BA BG |
+d2 d2 d4 | "Gm"G3 A BA BG | "Gm"d2 d2 "D7"d4 | "Gm"d3 g Hg4 | "Gm"gb ag "D7"g2 H^f2 | "Gm"g2 dd "Cm"fe dc | "Gm"B2 "D7"A>G "Gm"G3 |]
+
+%%sep 1 1 500
+
+
+X: 1
+T: Etz chayim hi'  [Am]
+T: It is a Tree of Life
+M: C
+L: 1/8
+K: Am
+E |\
+"Am"AB cd e3 e | "Dm"f>f af "Am"e3 c | "Am"e2 dc "E7"e2 B2 | "Am"c2 dc "E7"B3 E | "Am"AB cd e3 e |
+"Dm"f>f af "Am"e3 c | "Am"e2 {e}dc "E7"e2 B2 | "E7"de/d/ cB "Am"A3 |[| E | "Am"A3 B cB cA | "Am"e2 e2 e4 |
+"Am"A3 B cB cA | "Am"e2 e2 "E7"e4 | "Am"e3 a Ha4 | "Am"ac' ba "E7"a2 H^g2 | "Am"a2 ee "Dm"gf ed | "Am"c2 "E7"B>A "Am"A3 |]

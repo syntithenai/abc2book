@@ -1,0 +1,25 @@
+X: 2165
+T: LORD JOHN CAMPBELL
+Q: "Strathspey."
+R: Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.2 p.19 #165
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Added 2nd beam to last 2 notes in bar 9, to fix the rhythm.
+N: The 4th strain has initial repeat but no final repeat; fixed.
+M: C
+L: 1/16
+K: D
+uA,2 |\
+vDDD2 uF3uD vCE3E3uF | DDD2 uF3uD vA3vDuF3uD |\
+G2BG F2AF GFED C3uE | DDD2 (f3e) dD3D2 ::\
+(ufg) |\
+agfe d3uf gb3e2(fg) | a3fg3e f3de3c |
+dcBA vd3uD vCE3E3uF | DDD2 (f3e) dD3D2 ::\
+(uBc) |\
+dcBA vd3uD CE3E2 (Bc) | dcBA BAGF GABc dAFA |\
+efge fgaf veE3E3uF |
+DDD2 (f3e) dD3D2 ::\
+(fg) |\
+agfe defd gabg efge | afge fdec dBcA BGAG |\
+FDAF dAFD CE3E3F | DDD2 (fe3) dD3D2 :|

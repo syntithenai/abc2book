@@ -1,0 +1,16 @@
+X: 251
+T: Lorke Lorke
+O: Armenia
+S: Tom Bozigian
+M: 2/4
+L: 1/8
+Q: 1/4=210
+K: F
+%%MIDI drum dz 54
+%%MIDI drumon
+|:c2d2|c2d2|c2d2|c2d2|B2Bc|d2d2|[1 c3B|ABc2   :|[2 c4   |c4|:
+  c2d2|c2d2|c2d2|c2d2|B2Bc|d2d2|[1 c3B|ABc2   :|[2 c4   |c4|:
+  F2GA|B2B2|A2B2|A2G2|F2GA|B2A2|G4    |[1 G4  :|[2 GA B2|:
+  c3c |c2c2|BcBA|G4  |F2FG|B2A2|G4    |[1GAB2 :|[2G4    |:
+  F2GA|B2B2|A2B2|A2G2|F2GA|B2A2|G4    |[1 G4  :|[2 GA B2|:
+  c3c |c2c2|BcBA|G4  |F2FG|B2A2|G4    |[1GAB2 :|[2G4    |

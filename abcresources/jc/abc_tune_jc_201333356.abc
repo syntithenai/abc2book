@@ -1,0 +1,18 @@
+X:639
+T:Saint Catherine
+T:Saint Katherine's
+C:Henry Playford, 1701
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%subtitlefont Times-Roman 28
+Q:1/2=112
+M:2/2
+L:1/8
+K:G
+P:A
+|: de | "G"d2G2 "C"G2A2 | "G"B4- B2AB | "C"cdcB "Am"ABAG | "D"FGA2 "D7"A2 de |\
+"G"d2G2 "C"G2A2 | "G"B4- B2 AB | "Am"cBAG "D7"FGAF | "G"G4-G2 :|
+P:B
+AB | "D"A2D2 "D/C#"D2 E2 | "Bm"F4-"D/A"F2 AB | "D7"A2D2 G2A2 | "G"B4-"G/F="B2 Bc |\
+"E7"B2B2 e2B2 | "Am"c4-"Am/G"c2 cB | "D/F#"ABAG "B7"FGAF | "Em"G2 E4 Bc |
+"E7"B2 B2 e2 B2 | "Am"c4-"Am/G"c2cB | "D/F#"A2A2 "D"d2 A2 | "G"B4-B2 de |\
+"G"d2d2 "G7"g2 d2 | "C"edcB "D"A2d2 | "C"edcB "D7"cBAG | "G"G4-G2 |]

@@ -1,0 +1,32 @@
+X: 18522
+T: the TANK
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.18 p.52 #2
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+|:\
+B2 b2 | G2 g2 | [c2A2] f>e | d>c B2 |\
+[dB]>[ec] [f2d2] | [ec]>[fd] [g2e2] | f2 [a2e2] | [b4d4] :|
+|:\
+[d2B2] [d2B2] | [f3d3] [dB] | (ge)(ec) | (cA)(AF) |\
+[d2B2] [d2B2] | [f3d3] [dB] | (ge)(cA) | B4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+|:\
+b2 B2 | e2 E2 | f2 F2 | B2 b2 |\
+[b4B4] | [e4E4] | f2F2 | B2 b2 :|
+|:\
+[d'4b4f4] | [d'4b4f4] | [e'4c'4f4] | [e'4c'4f4] |\
+[d'4b4f4] | [d'4b4f4] | [e'4c'4f4] | [d'4b4] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change sides back again, down the middle up again, & turn your partner.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

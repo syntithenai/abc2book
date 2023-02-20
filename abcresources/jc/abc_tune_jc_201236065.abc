@@ -1,0 +1,28 @@
+X: 21601
+T: the Lassie lost her silken Snood
+Q: "Slow"
+%R: mixed: waltz, jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.160 #1
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+N: In 5th strain, bar 1, the 2nd note may be A or G.
+M: 3/4
+L: 1/8
+K: G
+.d.B.A |\
+G3 G AB | d3 d BA | A3 A Bd | {d}e3 d de |\
+(g2 a)bag | e3 g BA | A3 A Bd | e3 :|
+|: .g.d.B |\
+G3 .g.d.B | G3 gdB | (AB)(c'b)(ag) | e3 g de |\
+gbac'bd' | e3 g e/d/B | (A2 B)GAB | {d}e3 :|
+|: GAB |\
+g3 G AB | g3 G AB | b3 a (b/a/)g | e3 d ba |\
+g3 d ba | g3 e (d/B/)G | (A2 B)ABd | {d}e3 :|
+|: dBA |\
+G2edTBA | G2 ba (g/e/)d | e3d {d}eg | a4 (ba) |\
+(ge) e2 (a/g/)e | (dB) B2 (d/B/)G | A3 A Bd |{d}e3 :|[M:6/8]
+|: "_Lively"d |\
+TB2G GBG | TB2g dBG | A2a aga | bag e2g |\
+d2e g2a | b2g aga | b2G dBG | ABc e2 :|
+|: g |\
+GAB gdB | GAB g2a | b2a ged | e2g a2(b/a/) |\
+gee ege | dBB B2(b/a/) | g2G dBG | ABd e2 :| 

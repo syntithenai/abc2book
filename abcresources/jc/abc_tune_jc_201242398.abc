@@ -1,0 +1,24 @@
+X: 582
+T: Oyster River
+%R: reel
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+B: John Treat - "Gamut for the Fifes", 1779, p.58 #2
+F: https://archive.org/details/GamutFortheFifes
+N: Bar 5 is missing a quarter note; there's an initial stem that most likely matches a G2 note.
+N: Bar 13 is very fuzzy, but the note heads can be made out with magnification.
+N: The notes in bar 21 are very blurred, but the 4 note heads and the top of the clef seem visible.
+N: Rest added to 3rd strain's pickup notes, to fix the rhythm. (But it could be an unlabelled triplet.)
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+G2B2 cBAG | A2B2 e4 | d2B2 A2GA | B2G2 GFED |\
+G2 BcBA G2 | A2B2 e4 | d2B2 A2GA | B2G2 G2 :|
+|: z/(B/c/d/) |\
+efgf edcB | e2eg f4 | g2e2 f2ef | g3e edcB |\
+efgf edcB | e2eg f4 | g2e2 f2ef | g2e2 e2 :|
+|: z2 |\
+B2BA BcdB | G2E2 E4 | A2AG ABcA | F2D2 D4 |\
+d2c2 d2A2 | BABc d2A2 | F2D2 E2DE | F2D2 D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

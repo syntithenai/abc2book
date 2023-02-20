@@ -1,0 +1,32 @@
+X:1
+T: Jockey's Jig
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 38 notes)
+K:G
+M:6/8
+L:1/16
+d2 |g4 b2 g2 d2 B2 A6 E4 G2 c4 B2 A2 B A G2 F6 D4 G2 |D2 B,2 B2 G2 E2 c2 A2 F2 d2 B2 G2 g2 f2 d2 g2 g4 f2 g6g4 d2 |
+%W: A2
+% voice 1 (1 lines, 38 notes)
+g4 b2 g2 d2 B2 A6 E4 G2 c4 B2 A2 B A G2 F6 D4 G2 |D2 B,2 B2 G2 E2 c2 A2 F2 d2 B2 G2 g2 f2 d2 g2 g4 f2 g6g4 B c |
+%W: B1
+% voice 1 (1 lines, 31 notes)
+d2 c2 B2 e4 f2 g4 z2 f4 z2 e2 a2 g2 f2 e2 d2 d6d4 e f |g2 d2 B2 c2 e2 d2 B2 d2 c2 A2 c2 B2
+%W:
+% voice 1 (1 lines, 32 notes)
+E2 F2 G2 A3 B A G F6 D4 G2 |D2 B,2 B2 G2 E2 c2 A2 F2 d2 B2 G2 g2 e f g2 B2 A4 G2 G6G4 B c |
+%W: B2
+% voice 1 (1 lines, 31 notes)
+d2 c2 B2 e4 f2 g4 z2 f4 z2 e2 a2 g2 f2 e2 d2 d6d4 e f |g2 d2 B2 c2 e2 d2 B2 d2 c2 A2 c2 B2
+%W:
+% voice 1 (1 lines, 30 notes)
+E2 F2 G2 A3 B A G F6 D4 G2 |D2 B,2 B2 G2 E2 c2 A2 F2 d2 B2 G2 g2 e f g2 B2 A4 G2 G6G4 ||

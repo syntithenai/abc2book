@@ -1,0 +1,54 @@
+
+X: 1
+T: Reel Saint-Ignace
+M: C|
+L: 1/8
+R: Reel
+S: Joseph Allard
+D: Tidal Wave - Marche de St-Laurent
+Z: AK/Fiddler's Companion
+F: http://tunearch.org/wiki/Reel_St-Ignace 2015-7-18
+N: Play with swing--between a hornpipe and reel
+K: G
+|:\
+g2dB GBed | cBAG FADF | GFGB edcB | Ad^ce dfaf |
+g2dB GBed | cBAG FADF | GBdg ecAF |1 G2B2G2 (3def :|2 G2B2G4 |]
+K:D
+|:\
+A{c}BAG FAdf | edcd efg2 | fedf edce | dfed cB A2 |
+A{c}BAG FAdf | edcd efg2 | fedf edce |1 d2f2d2 FG :|2 d2f2d2 (3def |]
+
+%%sep 1 1 500
+
+X: 2
+T: Reel Jean Luc Paradis
+C: Rjean Lizotte
+M: 2/4
+L: 1/16
+R: reel
+Z: <http://tunes.nhcountrydance.com>.
+S: web.me.com/peterynh/music/fiddle-tunes_abc_reels.abc 2011-8-17
+K: D
+|:A,D |\
+FGFE DA,DF | ABAG FDFA | cdcB ABAG | FDEF E2A,D |
+FGFE DA,DF | ABAG FDFA | cdcB ABAG | FDEF D2 :|
+|:FA |\
+dedc B2GB | dedc B2cd | efed ceAc | efed c2(3ABc |
+d2>c2 B2GB | dedc B2cd | efed cABc | dBAF D2 :|
+
+%%sep 1 1 500
+
+X: 3
+T: Reel \`a Gilbert
+C: R\'ejean Lizotte
+R: Reel
+S: Paul Lizotte 2015-7-20 [modified slightly during RJ practices in 2016]
+M: C|
+L: 1/8
+K: A
+AF |\
+"A"EAcA "(D)"BAFA | "A"EAcA "(D)"BAFA | "A"e2-ef "F#m"ecBA | "Bm"BAcA "E7"{c}BAFA |
+"A"EAcA "(D)"BAFA | "A"EAcA "(D)"BAFA | "A"e2-ef "F#m"ecBA |1 "E7"{c}BABc "Q"A2 :|2 "Bm"{c}BABc "E7"B2 :|
+|: cd |\
+"A"e2-ef eca2 | "D"f2-fa f2"(E7)"{af}ed | "A"cdef "F#m"ecAc | "Bm"BAcA "E7"{c}BAFA |
+"A"e2-ef eca2 | "D"f2-fa f2"(E7)"{gf}ed | "A"cdef "F#m"ecAB |1 "Bm"{c}BABc "E7"B2 :|2 "E7"{c}BABc "A"A2 :|

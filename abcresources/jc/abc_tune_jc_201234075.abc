@@ -1,0 +1,19 @@
+X: 20242
+T: LOUISVILLE MARCH
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" 1843 p.24 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Lengthened last note in 1st strain to fix the rhythm.
+N: The 2nd strain has 7 bars
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+g2g>g g2 a/g/f/e/ | d2B>B B2d>B | c>ce>c B>Bd>B | A2d>d ddef |\
+g2g>g g2 a/g/f/e/ | d2B>B B2d>B | (3(ced) (3(cBA) G2F2 | G2G>G "^Fine"G4 :|
+B2B>B B2A2 | G2G>G G2A2 | B>Bd>d c>cB>B | A2A>A A2[d2D2] |\
+[g2G2][gG]>[gG] [g2G2][a2A2] | [bB]>[bB][d'd]>[d'd] [bB]>[bB] [gG]>[gG] | d2d>d dde"^D.C>"f |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

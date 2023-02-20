@@ -1,0 +1,26 @@
+X: 4242
+T: Teviot Bridge.   a Jig.
+C: by A.Givan of Kelso
+%R: jig
+N: This is version 2, for ABC software that understands voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.2 p.24 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+f |\
+ecA E2A | F2A E2A | EFE E2c | d2c TB2A | ecA E2A | F2A E2A | ~d2f ecA | TB3 A2 :|
+f |\
+ecA Ace | ~f>gf fga | ecA AcA | BGE E2f | ecA Ace | agf edc | ~d2f ecA | TB3 A2 ||
+f |\
+ecA Ace | Tf>gf fga | ecA AcA | BGE E2f | ece fdf | agf edc | dfa ecA | TB3 A2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z |\
+[A3A,3] c'3 & x3 a3 | d'3 c'3 & a3 a3 | c'3 c'3 & a3 a3 | e'4 x2 & g2a b2c' |\
+[A3A,3] c'3 & x3 a3 | d'3 c'3 & a3 a3 | b3 x3 & g3 a3 | e3 A2 :| z |
+A3 a3 | d3 d'3 | A3 a3 | E3 e3 | A3 a3 | A3 a3 | g3 a3 | e3 A3 || A3 A3 |
+d3 d'3 | A3 a3 | E3 e3 | c3 d3 | c3 A3 | d3 c3 | e3 A2 |]

@@ -1,0 +1,29 @@
+X: 58
+T: Bath Medley
+T: Longways for as many as will.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.29
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed to match the dance's phrasing.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2g Tf>ed | efg dcB | ecA dBG | F2G AFD |\
+G2g Tf>ed | efg dcB | ecA dBG | ADF G3 :|
+|:\
+f2g afd | e2g/f/ g3 | B2c dBG | F2G AFD |\
+G2g Tf>ed | efg dcB | ecA dBG | ADF G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man cast down, the 2d Wo. cast up at the same time,
+%% then cast back again into your own Places .| 1st Wo. &
+%% 2d Man does the same :| 1st Man change Places with the
+%% 2d Wo. 1st Wo. does the same with the 2d Man, all four go
+%% round to your own Places .| 1st & 2d Man sets to
+%% their Partners Right and Left half round.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

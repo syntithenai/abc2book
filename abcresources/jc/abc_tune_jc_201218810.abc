@@ -1,0 +1,26 @@
+X: 16
+T: Good Morning and Birthday Song.
+C: (attr.) Patty and Mildred Hill 1893
+B: "The Everyday Song Book" 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+M: 3/4
+L: 1/8
+P: Special permission through courtesy of The Clayton F Summy Co.
+N: The ABC "rules" for w: lines don't seem to allow for a '*' in the text,
+N: The "[Child's Name]" portion was actually "*.........." in the book.
+K: Ab
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+E- E | F2 E2 A2 | G4    E- E | F2 E2 B2 | A4 |
+w: Children:~Good* morn-ing to you, Good* morn-ing to you,
+w:  Teacher:~Good* morn-ing to you, Good* morn-ing to you,
+w: Optional:~Hap-py birth-day to you, Hap-py birth-day to you,
+%
+E- E | e2 c2 A2 | "^*"G2 F2 d- d | c2 A2 B2 | A4 |]
+w: Good_ morn-ing dear teach-er,  Good* morn-ing to you.
+w: Good_ morn-ing dear child-ren, Good* morn-ing to you.
+w: Hap-py birth-day dear [Child's Name], Hap-py birth-day to you.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% * When the song is sung as a birthday greeting for some
+%% child in the room, the name of the child is inserted here.
+%%endtext

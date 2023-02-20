@@ -1,0 +1,28 @@
+X: 446
+T:Trgnala Rumjana
+O:Bulgaria
+F: http://www.youtube.com/watch?v=upb1pYgCVm4
+F: http://www.youtube.com/watch?v=oaVuDT0evEc
+M:7/8
+L:1/8
+Q:1/4=132
+K:GPhr
+%%MIDI beat 68 58 48
+%%MIDI beatstring fppmpmp
+%%MIDI program 24
+|G2F GAGF               |F2E F2G2                   |\
+  G2F GAGF               |E2F G2A2                   |\
+  BBBB EFG               |cccc BA2                   |\
+  G2G FGFE               |F7                         |
+%%MIDI program 41
+|G2F GAGF               |F2E F2G2                   |\
+  G2F GAGF               |E2F G2A2                   |\
+  BBBB EFG               |cccc BA2                   |\
+  G2G FGFE               |F7                         |
+%%MIDI program 52
+%%MIDI beat 97 87 77
+Q:1/4=128
+|:[G2B2][GB] [A2c2][G2B2]|[E2G2][FA] [G4B4]          |\
+  [G2B2][FA] [G2B2][F2A2]|[1 [E2G2][DF] [E2G2][F2A2] :|[2 [E7G7] |
+|:[E2G2][DF] [E2G2][D2F2]|[C2E2][DF] [E2G2][F2A2]    |\
+  [E2G2][DF] [E2G2][D2F2]|[1 [C2E2][DF] [E4G4]       :|[2 [B,7E7]|

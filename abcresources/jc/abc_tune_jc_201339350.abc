@@ -1,0 +1,58 @@
+X: 1
+T: Sorele's Bat Mitsve   [Cm]
+T: Binyomele's Bat Mitsve
+C: music: Bayle Gottesmann & Alicia Svigals
+%C: Words: Beyle Gottesmann
+S: Printed MS of unknown origin with handwritten notes
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Cdor
+"Vocal"\
+[| "Cm"c2c2 c2c2 | c2c2 c4 | "Eb"B2A2 B2c2 |  "G"G4 G4 \
+|  "Cm"c2c2 c2c2 | c2c2 c4 | "Bb"B2A2 B2c2 | "Eb"G4 G4 |
+| "Fm"F2F2 F2F2 | "Eb"G2ED "Ab"C4 | "Eb"B,2B,2 E2C2 | "Bb"B,4 B,4 \
+| "Ab"E2DE "Bb"F2EF | "Eb"G2ED "Fm"C4 | "G"G2F2 E2D2 | "Cm"C2C2 E2G2 |]
+"Instr."\
+|: "G"G2=B2 "Cm"c4 | "Bb"_BcdB "Eb"e2ef | "Eb"geBg "Bb"fedf | "Cm"edce "G"dc=B_A \
+|1,3 "G"GA=BG "Cm"cedc :|2,4 "G"GA=B2 "Cm"c4 :|
+
+%%sep 1 1 500
+X: 2
+T: Sorele's Bat Mitsve   [Dm]
+T: Binyomele's Bat Mitsve
+C: music: Bayle Gottesmann & Alicia Svigals
+%C: Words: Beyle Gottesmann
+S: Printed MS of unknown origin with handwritten notes
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Ddor
+"Vocal"\
+[| "Dm"d2d2 d2d2 | d2d2 d4 | "F"c2B2 c2d2 |  "A"A4 A4 \
+|  "Dm"d2d2 d2d2 | d2d2 d4 | "C"c2B2 c2d2 | "F"A4 A4 |
+| "Gm"G2G2 G2G2 | "F"A2FE "Bb"D4 | "F"C2C2 F2D2 | "C"C4 C4 \
+| "Bb"F2EF "C"G2FG | "F"A2FE "Gm"D4 | "A"A2G2 F2E2 | "Dm"D2D2 F2A2 |]
+"Instr."\
+|: "A"A2^c2 "Dm"d4 | "C"=cdec "F"f2fg | "F"afca "C"gfeg | "Dm"fedf "A"ed^c_B \
+|1,3 "A"AB^cA "Dm"dfed :|2,4 "A"AB^c2 "Dm"d4 :|
+
+%%sep 1 1 500
+X: 3
+T: Sorele's Bat Mitsve   [Em]
+T: Binyomele's Bat Mitsve
+C: music: Bayle Gottesmann & Alicia Svigals
+%C: Words: Beyle Gottesmann
+S: Printed MS of unknown origin with handwritten notes
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Edor
+"Vocal"\
+[| "Em"e2e2 e2e2 | e2e2 e4 | "G"d2c2 d2e2 |  "B"B4 B4 \
+|  "Em"e2e2 e2e2 | e2e2 e4 | "D"d2c2 d2e2 | "G"B4 B4 |
+| "Am"A2A2 A2A2 | "G"B2GF "C"E4 | "G"D2D2 G2E2 | "D"D4 D4 \
+| "C"G2FG "D"A2GA | "G"B2GF "Am"E4 | "B"B2A2 G2F2 | "Em"E2E2 G2B2 |]
+"Instr."\
+|: "B"B2^d2 "Em"e4 | "D"=defd "G"g2ga | "G"bgdb "D"agfa | "Em"gfeg "B"fe^d=c \
+|1,3 "B"Bc^dB "Em"egfe :|2,4 "B"Bc^d2 "Em"e4 :|

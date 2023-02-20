@@ -1,0 +1,54 @@
+X:599
+T:The Queen of Sheba
+M:6/8
+K:F
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=120
+M:6/8
+L:1/8
+N:Some bands play the original tune for the first run of the dance, and Handel's tune for the encore.
+K:Bb
+V:1
+P:A
+|:F | "F7"F2c c2A | "Bb"Bcd "Eb"e2d | "Cm"c2B "F7"A3/G/A | "Bb"B3- B2 F |\
+"F7"F2c c2A | "Bb"Bcd "Eb"e2d | "Cm"c2B "F7"A3/G/A | "Bb"B3- B2 :|
+P:B
+|: d/e/ | "Bb"f3/g/f fdB | "F"c2A F2d/e/ | "Bb"f3/g/f fdB | "F"c3- c2d |\
+"Eb"e3/f/e "F7"d2c | "Bb"d2B "Eb"G3/A/B | "F"c3/d/c "Gm"B2A | "C7"G3 "F"F2 :|
+V:2
+X32 |
+N:Replace by blank line and X field
+T:Arrival of the Queen of Sheba
+C:G.F.Handel (1685-1759)
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%printtempo 0
+%%splittune 1
+M:2/2
+L:1/8
+V:1
+%%MIDI gchordoff
+Q:1/2=120
+K:Bb
+bfdf bfdf | bfdf bfdf | cbag fedc | dBcd efga |
+bfdf bfdf | b=ece bgcg | agfg c2=e2 | f2cd cdcd |
+cAFA cAFA | fdBd fdBd | ecAc ecAc | dFGA Bcde |
+V:2 bass octave=-2
+M:2/2
+%%MIDI gchord cccc
+"Bb"b2b2a2a2 | "Bb"g2g2f2f2 | "Eb"e2e2 "F"f2f2 | "Bb"b4 B4 |
+"Bb"d2d2 "Gm"g2g2 | "C7"c2c2 =e2e2 | "F"f2 "Bb"b2 "C"c'2c2 | "F"f4 A2c2 |
+"F"f2f2 "F7"e2e2 | "Bb"d2d2 "Gm"g2g2 | "Cm"c2c2 "F7"f2f2 | "Bb"b4 B4 |
+V:1
+fdBd fdBd | fcAc fcAc | dBGB dBGB | dAFA dAFA |
+bgeg bgeg | bfdf bfdf | efgf edcB | ABcB AGFE |
+DFEG FAGB | AcBd cedf | efef gfed | cdcd efef |
+V:2
+"Bb"b2b2 b2b2 | "F"a2a2a2a2 | "Gm"g2g2g2g2 | "Dm"f2f2f2f2 |
+"Eb"e2e2 e2e2 | "Bb"d2d2d2d2 | "Cm"c2c2c2e2 | "F"f2f2f2A2 |
+"Bb"B2 "Cm"c2 "Dm"d2"Eb"e2 | "F"f2 "Gm"g2 "F"a2"Bb"b2 | "Eb"e2e2 e2e2 | "F"f2f2 f2f2 |
+V:1
+gfgf eded | cdcd efef | gfgf eded | cdcd edec |
+dfeg fagb | a2gf b2e2 | d2cB F2A2 | B2F2 B,4 |
+V:2
+"F"f2f2 f2f2 | "F"f2f2 f2f2 | "F"f2f2 f2f2 | "F"f2f2 f2f2 |
+"Bb"B2 "Cm"c2 "Dm"d2"Eb"e2 | "F"f2e2 "Bb"d2"Eb"e2 | "Bb"f2 "Eb"e2 "F"f2F2 | "Bb"B4z4 |

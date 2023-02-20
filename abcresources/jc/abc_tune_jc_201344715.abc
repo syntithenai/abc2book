@@ -1,0 +1,14 @@
+X: 606
+T: Tie the Bonnet   #2
+R: reel
+%S: s:2 b:10(5+5)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #606
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0606/oneill-1001-0606-1.abc
+N: Compacted via repeats and multiple endings [JC]
+M: C
+L: 1/8
+K: G
+"^A"\
+|: A2(Ag) fdec | A2(Ac) BGGB | A2(Ag) fdef | gfge dBGB  "^B":: a2(af) gfed |
+| cAeA cAce |[1 a2(af) gfef | gfge dBGB :|[2 afge fdef | gfge dBGB |]

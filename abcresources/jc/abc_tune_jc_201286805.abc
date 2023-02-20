@@ -1,0 +1,61 @@
+
+X: 1
+T: Hineh Ma Tov
+O: Israel
+S: Terry Traub 2019-6-18
+L: 1/4
+M: 4/4
+K: Dm
+|: "Dm"A D D D | "Bb"F F/G/-"C"G A | "Dm"A D D D | "Am"C C/D/-"Dm"D2 :|
+|: "Dm"A/A/-A3- | A2 A/G/F/G/- | "C"G4- | G4 :|
+"Gm"B2 A2 | "C"G2 F G | "Dm"A D D E/F/- | "Bb"F4- | F4 |
+F/F/-F2 F | "C"F G C E | "Dm"D4- | D4 |]
+
+% Requires ABC 2.1 or later
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Hineh Ma Tov
+C: Moshe Jacobson (arr. Yerachmiel Begun)
+%Q:
+%R:
+S: https://www.youtube.com/watch?v=rvKcSKITkPA
+S: https://www.youtube.com/watch?v=Yu8QBGgfquM
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/16
+K: Dm
+% - - - - - - - - - - - - - - -
+"^intro"[|\
+"Dm"a4 a2a2 "Bb"b3f- f2d2 | "C"c4 z2g2 "Bb"b4 c'2b2 |\
+"Dm"a6 a2 "Bb"b3f- f2d2 | "C"c6 g2 "Bb"b2b2a2g2 |\
+"Dm"[fF][dD]z[fF] [dD]z[fF][eE] "C"z2[g2G2]- "(perc)..."[g4G4] | [aA][gG]z[fF] [fF]z[gG][aA]- [a4A4] ||
+!segno!\
+[P:A:]|:\
+"Dm"F2D2 D2D2 F2(FG) "/c"F2E2 | "Bb"F2D2 D2D2 "C"CCC2 "(Dm)"D2z2 |\
+"Dm"F2D2 D2D2 F2F2 "/c"G2A2 | "Bb"A2D2 D2D2 "C"z2C2 "(Dm)"D2z2 :|
+[P:B:][|\
+"Dm"AA2z z4 AA2A (AG)FG- | "C"G12 z4 & z2C2 D2E2- E2C2 c4 |\
+"Dm"AA3 zz3 AAzA (AG)FG- | "C"G8 z2C2G2A2 & z2C2 D2E2- E2x6 |
+"Gm"B4 A4 "Dm"G2F2 F2G2 | A2D2 D3E "Bb"F4 z4 |\
+"Gm"FD2F D2GE- "Am"E(FG2) C2C2 | "Dm"D4 z4 "A"A4 A4 |
+"Dm"AA2z z4 [AF][A2F2][AF] ([AF][GE])[FD][G-E-] & z4 FF2z x8 | "C"[G12E12] z4 & z2C2D2E2- E2C2 c4 |\
+"Dm"AA2z z4 [AF][A2F2][AF] ([AF][GE])[FD][G-E-] & z4 FF2z x8 | "C"[G8E8] z2C2[G2E2][A2F2] & z2C2D2E2- E2x6 |
+"Gm"[B4G4] [A4F4] "Dm"[G2E2][F2D2] [F2D2][G2E2] | [A2F2]D2 D3[EC] "Bb"[F4D4] z4 |\
+"Gm"[FD][D2B,2][FD] [D2B,2][FD][E-C-] "Am"[EC]([FD][G2E2]) C2C2 | "Dm"D6- D2 "_d.S. ad lib."z2 |]
+[P:C:]|:\
+"Dm"F2D2 D2D2 F2(FG) "/c"F2E2 | "Bb"F2D2 D2D2 "C"CCC2 "(Dm)"D2z2 |\
+"Dm"F2D2 D2D2 F2F2 "/c"G2A2 | "Bb"A2D2 D2D2 "C"z2C2 D2z2 :|
+[P:D:][|\
+"Dm"AA2z z4 AA2c (AG)FG- & z4 [AF][A2F2]z x8 | "C"G8- G2x6 & z4 C2D2 E2c2- c4 |\
+"Dm"AA2z z4 AA2c (AG)FG- & z4 [AF][A2F2]z x8 | "C"G8 z2C2G2A2 & z4 C2D2 E2cB c4 |]
+"Gm"B4 A4 "Dm"G2F2 F2G2 | A2D2 D3E "Bb"F4- F2z2 | "Gm"FD2F D2FE- "Am"EG3 C2C2 | "Dm"D8 "A"[A4^C4] [A4C4] |
+"Dm"AA2z z4 [AF][A2F2][AF] ([AF][GE])[FD][G-E-] & z4 FF2z x8 | "C"[G12E12] z4 & z2C2D2E2- E2C2 c4 |\
+"Dm"AA2z z4 [AF][A2F2][AF] ([AF][GE])[FD][G-E-] & z4 FF2z x8 | "C"[G8E8] z2C2[G2E2][A2F2] & z2C2D2E2- E2x6 |
+"Gm"[B4G4] [A4F4] "Dm"[G2E2][F2D2] [F2D2][G2E2] |\
+[A2F2]D2 D3[EC] "Bb"[F4D4] z4 | "Gm"[FD][D2B,2][FD] [D2B,2][FD][E-C-] "Am"[EC]([FD][G2E2]) C2C2 ||\
+["Coda"\
+"Dm"F2D2 D2D2 F2F2 G2A2 | "Bb"A2D2 D2D2 "C"z2C2 "Dm"D2z2 |]
+% - - - - - - - - - - - - - - -

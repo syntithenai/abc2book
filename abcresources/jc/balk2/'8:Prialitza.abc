@@ -1,0 +1,39 @@
+X: 278
+T: Prialitza
+O: Ukraine
+S: Barinya Russian Folk Dances
+M: 2/4
+L: 1/16
+P:AABC
+Q: 1/4=96
+K: D
+%%MIDI program 24
+%%MIDI bassprog 36
+%%MIDI gchord fzfz
+P:A
+  FFF2"g"GGG2                   |F2G2 "a"FFF2                    |\
+  EEE2"d"FFF2                   | FFF2"g"GGG2                    |
+  F2G2 "a"FFF2                  |EEE2"d"DDD2                     |\
+  D2D2DDD2                      |D2E2DDD2                        |
+  "a"CCC2"d"DDD2                | D2D2DDD2                       |\
+  D2E2DDD2                      |"a"CCC2"d"DDD2                  |
+P:B
+L:1/16
+Q: 1/4=108
+  "g"zdef gagf                  | efed cdcB                      |\
+  "d"ABAG FGFE                  | DEFD ABcA                      |
+  "g" AdcB AdcB                 |ABcd efge                       |\
+  "f#"fedc Bcdf                 |e3d c2B2                        |
+  "g"A2g2 f2e2                  | "d"d3c Bcdf                    |\
+  e3d c2B2                      |"a"A2g2 f2e2                    |\
+  "d"d2z2z4                     |
+P:C
+M:6/8
+L:1/8
+K:A
+Q:1/4=120
+%%MIDI gchord fzfzfz
+|:"a"[F2f2] "d"[F2f2] "a"[E2e2] |"d" [G2g2]"g#" [G2g2] "a"[A2a2] |\
+  "a"[F2f2] "d"[F2f2] "a"[E2e2] |"d" [G2g2]"g#" [G2g2] "a"[A2a2] :|
+|:"a"A,2D2 CA,                  |B,2 B,2 A,2                     |\
+  A,2D2 CA,                     |B,2 B,2 A,2                     :|

@@ -1,0 +1,66 @@
+
+X: 0
+T: The Tom Anderson Collection
+C: VOLUME TWO
+N: The Shetland Music Heritage Trust
+B: The Tom Anderson Collection v.2 2004
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+K:
+
+# There's no tune on page 1.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 021
+T: Calder's Geo
+C: Tom Anderson (1982)
+R: slow air
+B: The Tom Anderson Collection 2004 p.2 #1
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+uE2 |\
+("A"A3 E) ("C#/A7"C2 A,2) | "D"(D2 F2) "C#/A"E4 |\
+("A"A3 MA) ("F#m"c2 A2) | "Bm7"(c2 B2) ("E7"B3 E) |\
+("A"A3 E) ("C#/A7"C2 A,2) | "D"(D2 F2) "C#/A"E4 |
+("Bm"D3 B,) ("E7"E3 D) | "A"C2 "D"A,2 "A"A,2 :|\
+uE2 |\
+("A"A3 c) ("C#/A7"e2 =G2) | ("D"F2 d2) (f3 Mf) |\
+("E/A"e2 c2) ("F#m"a2 g2) | ("B7"f2 B2) ("Bm7 E7"e3 Me) |
+("A"a3 c) ("D"d2 f2) | ("E7"e2 "C#7"G2) ("F#m C#dim"A3 C) |\
+("Bm"D3 F) ("E7"E2 D2) | "A"C2 "D"A2 "A"A2 e2 |\
+("A"a3 c) ("D"d2 f2) | ("E7"e2 "C#7"G2) ("F#m A7"A3 C) |
+("Bm7"D2 F2) ("A"E2 e2) | ("Bm"dc) "B7"BA ("Bm"B2 "E7"E2) |\
+("A"A3 E) ("C#/A7"C2 A,2) | ("D"D2 F2) ("C#/A7"E3 C) |\
+("Bm"D2 F2) ("E7"E3 D) | "A"C2 [A2E2] [A2E2] |]
+%%begintext align
+%% An impressively deep geo by the roadside near Eshaness lighthouse.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 022
+T: da Auld Planti Crub
+C: Tom Anderson
+R: Slow Air
+B: The Tom Anderson Collection 2004 p.2 #2
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Eb
+uB,2 |\
+("Eb"E3 D) ("Ab"C2 B,2) | "G/Eb"E2 B2 "Eb7"G2 E2 | ("Ab"C2 A2) ("G/Eb"B,2 "Eb"G2) | ("F7"F=A) Bc ("Bb7"B2 B,2) |
+("Eb"vE3 D) ("Ab"C2 B,2) | "Cm"E2 B2 "Bb/Eb"G2 E2 | ("F/Ab"C3 A,) ("Bb7"DB,) GF | "Eb"E4- E2 :|
+|: uB2 |\
+("Eb"ef) gf ("Eb"e2 "G/Eb"B2) | ("Ab"cA) "Bb"FB ("Eb"G2 E2) | "Ab"cc (df) ("G/Eb"Be) (fe) | ("F7"ufd) (ec) "Bb7"B4 |
+"Fm"BB (AG) ("Bb7"F2 B,2) | ("Eb"GB) "Ab"ce H"Eb - Eb7"g4 | ("Ab"ce) "Bb/Eb"BG ("Fm"FB,) "Bb7"DF | "Eb"E4- E2 :|
+%%begintext align
+%% A planti crub was a little sheep-proof enclosure -- usually out on
+%% the hill -- where cabbage seed was sown to produce young plants.
+%% These were then transplanted into kailyards nearer the croft-house
+%% in the following spring to grow to maturity.
+%% (1984)
+%%endtext

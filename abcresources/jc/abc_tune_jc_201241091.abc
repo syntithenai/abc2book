@@ -1,0 +1,25 @@
+X: 4231
+T: Captain O'Kain
+O: Irish
+%R: air, jig
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.23 #1 (top 2 staves continued from p.22)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slow"
+K: Gm
+% - - - - - - - - - -
+V: 1 staves=2
+G/F/ |\
+(DG)A TB2A/G/ | (A/B/)(c/B/)(A/G/) (FG).A |\
+(Bd).B (d/c/)(B/A/)(G/^F/) | D[GDB,][GDB,] [G2D2B,2] :|\
+|: G/A/ |\
+B/c/dd Td2c/B/ | A/B/cc Tc2(f/_e/) |
+(dg).^f Tg>ab | !f!dg^f ~g2g/a/ ||\
+{ga}.b.a.g {g}fed | (d/c/)(B/A/)Hf !p!g/Ha/ (FG).A |\
+(Bd).B (d/c/)(B/A/)(G/^F/) |  D[GDB,][GDB,] [G2D2B,2] :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | Ggd gGz | fFf e2c | d2B cdD | GBd g2 :||: z | Bdf bBz | FAc fga |
+b2a g^fg | !f!B/c/dD Gg f/e/ || .d.f.e dcB | A2Hf !p!x e2c | d2B cdD | GBd g2 :|

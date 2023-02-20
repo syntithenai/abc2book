@@ -1,0 +1,15 @@
+X: 365
+T: Merry Mary   #2
+R: double jig
+%S: s:2 b:12(6+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #365
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0365/oneill-1001-0365-1.abc
+M: 6/8
+L: 1/8
+K: D
+% = = = = = = = = = =
+"^A"|: DFA ABc | dcB A2A |[1,3 B2E EFG | FEF D3 :|[2,4 Bcd edc | d3 d3 :|
+"^B"|: fdf ece | dcB A2A |[1,3 B2E EFG | FEF D3 :|[2,4 Bcd edc | d3 d3 :|
+% = = = = = = = = = =
+% The last note in each strain was missing its dot; fixed.

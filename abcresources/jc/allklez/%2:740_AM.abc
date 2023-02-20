@@ -1,0 +1,35 @@
+X: 2
+T: 7:40 A.M.
+O: German Goldenshteyn
+%%musicspace 8
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Em
+|:"Em"E2B,E B,EB,E | "G"G2DG DGDG \
+|  "G"B2GB "D"A2FA |1 "Em"G2EG "B7"F2B2 :|2 "Em"G2y/"B7"F2y/ "Em"E2y/"D7"D2 \
+|: "G"zBcd cBAG |
+|  "G"zBcd cBAG \
+|  "Em"zBcd "E7"edcB | "Am"A2cB A4 \
+|  "D7"zABc dcBA | "G"G2BA G4 \
+|  "G"GDDG "F"G=FFE | "Em"E8 :|
+|: "Am"EFG^G A=GFE | "Am"AGFE "Em"FGz2 \
+|  "Am"zEFG AGFE | "Am"AGFE "Em"FGz2 \
+|  "Am"zEFG AGFE | "Am"AGFE A4 |
+|1 "Am"c2e2 "B7"BAAG | "B7"GFFE "Em"E4 \
+:|2 "Am"c2e2 "Em"B^A (3BAG | "B7"(3FG=A (3GFE (3^DFE- "Em"E2  \
+|: "Em"^dede B4 | ^dede B4 |
+|  "B"z^d2e f2e2 | ^d2c2 B2A2 \
+|  "Am"BcBc A4 | zB2c A4 \
+|  "B"z^d2e f2e2 |1 "B"^d2c2 B4 :|2 "B"^d2c2 B2A2 \
+|: "G"B4 ^ABAB |
+|  "G"GDz2 z4 \
+|  B4 ^ABAB | "Am"cAz2 z4 \
+|  A4 ^GAGA | "D7"AFz2 z4 \
+| "B7"B2A2 G2A2 | B2A2 G2F2 ::
+  "Em"E4- E^DEF
+|  "Em"G4- GFGA \
+|  B4 ^A2G2 | B4- BGB_B \
+|  "B7"A4- AFA_A | "Em"G4- GEFG \
+|1 "B"F4 ^d2c2 | "B7"B2A2 G2F2 \
+:|2 "B7"F4- F^DEF | "Em"E8 |]

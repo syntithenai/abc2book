@@ -1,0 +1,32 @@
+X: 16
+T: Kitty's Frolick
+%R: jig
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed with final repeat sign.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+d |\
+g2g gba | g3 (Tf2e) | dcB ABc | {c}(B>A)B G3 |\
+GBd AFD | GBd AFD | Bdg {f}e>d^c | d3 D2 :: B/c/ |
+d2d deB | c3 A,2A/B/ | c2c cdA | B3 G,2c |\
+Bdg edc | Bdg edc | Bdg Agf | g3 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z |\
+g3 "6;4 3"d3 | G3 "6;4"A3 | "6"B3 "6;4"c3 | "6;4"d3 GBd |\
+g3 "6"f3 | g3 "6"f3 | "6;5"g3 "4 #"a3 | d3- d2 :: z |
+"5"^g3 "7;5;#"e3 | "5;3"aec A3 | "5"f3 "7"d3 | "5;3"gdB G3 |\
+"5;3"g3 "5;3"c3 | "5;3"g3 "5;3"c3 | "6;4"d3 "5;3"d3 | G3- G2 :|
+%%begintext align
+%% First & 2d Cu. Hands across half Round & Back to Back with their Partners; then half Round again (which
+%% brings the 1st Cu. to the Top) Back to Back again with their Partners || The 1st Man hay of the Women's Side
+%% and the 1st Wo. hay of the Men's Side at the same Time & meet at the Top, contrary Side then 1st & 2d Cu.
+%% foot it & Hands across half Round which brings the first Couple into the 2d Couple's Place.
+%%endtext

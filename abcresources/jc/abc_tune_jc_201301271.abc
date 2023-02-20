@@ -1,0 +1,32 @@
+X:1
+T: Leaps and Bounds
+N:
+C:David Schonfeld
+S:
+A:
+O:
+R:
+M:3/2
+K:C
+I:speed 210
+%W: A
+% voice 1 (1 lines, 22 notes)
+K:C
+M:3/2
+L:1/16
+g8 |e8 |c8 |a2 b2 c'4 |g4 f4 |e8 |f2 g2 a4 |d4 c4 |B8 |c2 d2 e4 |A4 d4 |B4 G4 |
+%W:
+% voice 1 (1 lines, 23 notes)
+g8 |e8 |c8 |a2 b2 c'4 |g4 f4 |e8 |f2 g2 a4 |d4 c4 |B4 g2 |f2 e4 |c8 |B4 c4 |B2 c2
+%W: B1
+% voice 1 (1 lines, 18 notes)
+d8 |B8 |G8 |e4 c8 |d4 e4 |d2 e2 f8 |d8 |B8 |g4 e8 |c4 e4 |f2 g2
+%W:
+% voice 1 (1 lines, 25 notes)
+a2 |b2 c'4 |b4 a4 |g8 |f2 g2 a4 |g4 f4 |e8 |d2 e2 f4 |g4 c4 |A4 d4 |B4 G8 |B4 c4 |B2 c2
+%W: B2
+% voice 1 (1 lines, 18 notes)
+d8 |B8 |G8 |e4 c8 |d4 e4 |d2 e2 f8 |d8 |B8 |g4 e8 |c4 e4 |f2 g2
+%W:
+% voice 1 (1 lines, 23 notes)
+a2 |b2 c'4 |b4 a4 |g8 |f2 g2 a4 |g4 f4 |e8 |d2 e2 f4 |g4 c4 |A4 d4 |B4 G8 |B4 c8 ||

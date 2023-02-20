@@ -1,0 +1,18 @@
+X: 187
+T: Tasino
+O: Bulgaria
+S: Atanas Kolarovski - music AK-003
+M: 6/8
+L: 1/8
+Q: 1/4=180
+K: F
+%%MIDI program 57
+%%MIDI bassprog 24
+%%MIDI chordprog 24
+%%MIDI bassvol 50
+%%MIDI chordvol 50
+|: "F"F3 EFG  | F3 EFG     | F3 EFG     |F3 B3     |
+   "Bb"D3 CD_E| D3 CD_E    |"F" D3 B,CD |C3 F3     :|
+|: "Gm"C3 FGB |"Am" A3 AGF |"Gm" C3 FGB |"Am"A3 c3 |
+   "Gm"C3 FGB |"Am" A3 AGF |"Gm" C3 FGA |"Gm"G3 G3 :|
+

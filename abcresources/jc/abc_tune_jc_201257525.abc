@@ -1,0 +1,27 @@
+X: 1
+T: Bugle Call Two-Step
+C: Felix Burns
+N: for Kamo Karousel (4x64 jig)
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%P: Play A2 B2 C2 A2
+K: G
+"A"\
+|:\
+"G"BdB G2G | GBG D3 | BdB G2B | "C"E3 ^D3 | "D"D2E F2G | "D7"A2^G A2B |\
+[1 "G"GFG B2c | "G"d3- "D7"d3 :|[2 "G"GFG "D7"B2A | "G"G3- "fine"G3 |]
+"B"\
+|:\
+"G"ddd ^c2d | e2d ^c2d | e2d G2A | B3- B3 | "D"d2c ^G2B |\
+[1 A3 z3 | "D7"d2c ^G2B | A3 z3 :|\
+[2 "D"A2D DEF | "G"G2D "D7"B2A | "G"G3- G3 |]
+K: C
+"C"\
+|: "C"G3- G2^G | "F"A3- A2_A | "C"G2^F G2c | e3- e3 |\
+[1 "G"F2G e2d | "G7"F3- F3 | "C"E2G d2c | E3- E3 :|\
+[2 "G"g2f ^c2e | "G7"d2G GAB | "C"c2G "G7"e2d | "D"c3- "d.C."c3 |]
+|:\
+"G"BdB G2G | GBG D3 | BdB G2B | "C"E3 ^D3 | "D"D2E F2G | "D7"A2^G A2B |\
+[1 "G"GFG B2c | "G"d3- "D7"d3 :|[2 "G"GFG "D7"B2A | "G"G3- "fine"G3 |]

@@ -1,0 +1,19 @@
+X: 1
+T:Vandals of Hammerwich
+M:4/4
+C:
+S:West Coast Teams
+N:
+A:Lichfield
+O:English
+R:Reel
+%P:(AB)$^4$A$^2$B
+P:(AB)4A2B
+K:G
+I:speed 450
+P:A
+   G2 z2 | D2 G2 B2 G2 | D2 G2 B2 G2 | d4    d3 e  | d2 c2    \
+   B2 A2 | D2 G2 B2 G2 | D2 G2 B2 G2 | d2 c2 A2 F2 | G4       ||\
+P:B
+|: B2 c2 | d4    d3 d  | d6       d2 | e2 g2 f2 e2 | e2 d2 d2 \
+      de | d2 c2 c2 cd | c2 B2 B2 Bc | d2 c2 A2 F2 | G4       :|

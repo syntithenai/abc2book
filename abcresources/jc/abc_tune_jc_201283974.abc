@@ -1,0 +1,30 @@
+X: 1
+T: Hailston Jigg
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (196)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/4
+L: 1/4
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+c>BA GAB | F>ED ^C>=B,A, |\
+D>EF G>AB | A>GF/E/ D2 :|\
+|: f |\
+e>dc ABc | c>BA GAB |
+A>GF ECF | F2E F2a |\
+agf efg | def c>BA |\
+GFE F>GA | Ad^c d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man setts to the 2d Wo. and casts off the 1st
+%% Wo. setts to her Partner who is in the 2d Mans Place
+%% and cast off :| Then go the Figure in the 3d Cu. then
+%% figure at the Top then the 1st Man change Places with
+%% the 2d Wo. and the 1st Wo. with the 2d Man then right
+%% and left quite round :|
+%%endtext
+%%sep 1 8 500

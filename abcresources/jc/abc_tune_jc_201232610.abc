@@ -1,0 +1,33 @@
+X: 175
+T: Festing's Minuet
+T: Longways for as &c.
+%R: minuet
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.88
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed to match the dance.
+M: 3/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+FAd2A2 | B2A2z2 | FAd2G2 | E2D2z2 |\
+(fef)dcB | (ede)cBA | (Bcd2)B2 | (^GAB2)^G2 |\
+E2d4 | (cde2)A2 | BdcBA^G | A6 :|
+|:\
+Aea2g2 | f2e2z2 | d2c2B2 | (^A^G)F2B2 |\
+(cd)e2(dc) | (de)f2(ed) | B2dcB^A | B6 |\
+A2d2A2 | B2A4 |
+(FBA2)F2 | F2E4 |\
+A2fedc | B2gfed | c2agfe | (dc)d2z2 |\
+(GF)G2e2 | (FA)d2z2 | F2(AGFE) | D6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The two 1st Cu. hands all four quite round .| then back
+%% again into their own places :| then the 1st Cu. cross
+%% over the 2d Cu. and over the 3d Cu. and turn behind
+%% the 3d Cu. .| then lead up thro' the 3d Cu. and so thro'
+%% the 2d Cu. and cast off into the 2d Cu. place and turn :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

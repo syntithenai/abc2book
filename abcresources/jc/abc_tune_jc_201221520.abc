@@ -1,0 +1,30 @@
+X: 4
+T: FITZ UGLY
+B: Button & Whitaker "Twelve Elegant New Dances for the year 1810" #4
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Elegant_New_Dances_for_1810_%28Various%29
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout not changed to fit our page size:
+V: 1 clef=treble middle=B
+[|\
+G>AB>c d>Bg2 | e>cg2 d>Bg2 | d>cA>c B>dG>B | {B}A>GA>B A3D | G>AB>c d>Bg2 |
+e>cg2 d>Bg2 | d>cA>c B>dG>B | {B}A>GA>B G2z2 |][| F>Ad2 G>Bd2 | c>Bc>A B>dB>G | F>Ad>A G>Be>d |
+^c>AB>c d>=cB>A | G>AB>c d>Bg2 | e>cg2 d>Bg2 | (3(fag) (3(fed) g>de>c | B>dF>A G2z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+[|\
+g2g2 g2g2 | c2c2 G2G2 | d2f2 g2B2 | d2D2 d2z2 | g2g2 g2g2 |
+c2c2 G2G2 | d2f2 g2B2 | c2d2 G2z2 |][| d'2c'2 b2g2 | a2f2 g2G2 | d2f2 g2e2 |
+a2A2 d2z2 | g2g2 g2g2 | c2c2 G2G2 | d2c2 B2c2 | d2D2 G2z2 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Foot it & turn your Partner,
+%% lead down the middle up again,
+%% Pousette with 2d Cu:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

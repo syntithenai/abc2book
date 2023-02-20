@@ -1,0 +1,34 @@
+X: 16021
+T: John Come Kiss me Now
+%R: air, reel
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.6 p.2 and p.3
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"D4 |\
+G6A2 TB4 (A2G2) | (c3B)(c3d) c4 (B2A2) | G6A2 (B2A2)(B2^c2) | d4 (d2e2) d4 D4 |\
+G6A2 TB4 (A2B2) | (c2B2)(c2d2) e4 (d2c2) |
+B4 (A2G2) F2d2A2c2 | B4 TA2G2 G4 :: (e2f2) |\
+g6a2 (g2=f2)(e2d2) | (c3B)(c3d) (c2d2)(e2f2) | (g2f2)(g2a2) {ga}b4 (a2g2) | Tf3ed2e2 f2d2e2f2 |
+g4 g2a2 (g2=f2)(e2d2) | (c2B2)(c2d2) {ef}g4 (f2e2) | d4 (Tc3B) A2g2f2a2 | g4 TG3A G6 :: D2 |\
+(G2A2)(B2c2) (dB3) (TA3G) | (c2B2)(c2d2) e2(cd) (egfa) |
+g2G2G2A2 B3g (fgef) | d2D2D2E2 (F2E2F2D2) | (G2F2G2A2) (B2A2B2G2) | (cBcd) (egfa) g4 (Tf2e2) |\
+d2(gf edcB) A2a2d2f2 | g4 TG3A G6 :|
+|: (ga) |\
+b2(ga) b2g2 (bg)(bg) b2g2 | e2(cd) e2c2 (e=fg)f e2c2 | d2(Bc) d2B2 (dgfg) d2B2 | (AGFG) (AGFG) (ABcB) A2F2 |
+d2(Bc) d2B2 (dB)(dB) d2B2 | e2(cd) e2c2 (e=fgf) e2c2 | (dcBA) G2B2 (AGFE) D2c2 | {c}B4 TA3G G6 :: G2 | (DG)B2 .B2.B2 (DG)B2 (dB)(dB) |
+(EG)c2 .c2.c2 (EG)c2 (ec)(ec) | (DGB2) .B2.B2 (DG)B2 B2(AG) | (FA)d2 d2e2 (d2c2)(B2A2) | (DGB2) .B2.B2 (DGB2) (DGB2) |\
+"_P.3"\
+(EG)c2 (c2d2) {cd}e4 (d2c2) |
+(dcBA) G2B2 (AGFE) D2d2 | {c}B4 TA3G G6 :: B2 | (GB)g2 g2a2 g2=f2e2d2 | (EG)c2 c2d2 (c2d2)(e2f2) |\
+(GB)g2 g2a2 (gab2) a2g2 | (FA)d2 d2e2 (d2c2)(B2A2) |
+(GB)g2 g2a2 (g2=f2)(e2d2) | (EG)c2 (ce)g2 g4 Tf2e2 | d4 (TB3A/B/) A4 (Tf3e/f/) | g4 G3A G6 :: D2 |\
+B3c (dcBA) G2d2B2G2 | e3=f (gfed) c2g2e2c2 |
+B3c (dcBA) G2d2B2G2 | Tf3g (agfe) d2a2f2d2 | B3c (dcBA) G2d2B2G2 | e3=f (gfed) c2ag (^fedc) |
+(Bdgf) (edcB) A2a2 d2f2 | g4 G3A G6 :: (Bc) | (dB)G2 (dBGB) (dGBd) gdBG | gec2 gece cege gedc |
+BdG2 GABc dBGd BdGg | fad2 defg afbg afdc | BdGd BdGd BdGd BdGg |
+egcg egcg egcg egce | dBGB cAFA D2e2d2c2 | B4 TA3G G6 :: d2 | g4 b2a2 (g2=f2)(e2d2) | c4 (c2d2) (c2d2)(e2^f2) |
+g6a2 g4 (Tf3e) | d4 (d2e2) f2d2e2f2 | g4 (g2a2) (g2=f2)(e2d2) | (c2B2)(c2d2) (efg2) Tf3e | d4 c2B2 A2g2f2a2 | g2(fe dcBA) G6 :|

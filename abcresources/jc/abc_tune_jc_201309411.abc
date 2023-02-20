@@ -1,0 +1,47 @@
+X: 1
+T: Mi Go Zatvorile (Lesnoto)
+O: Macedonia
+Z: http://swissnet.ai.mit.edu/~jaffer/CFO.html
+S: Aubrey Jaffer 2002-3-15
+P: IV2IV2IV2
+%%MIDI channel 1
+%%MIDI program 1 71
+%%MIDI gchord f3c2c2
+%%MIDI chordprog 42
+%%MIDI chordvol 55
+%%MIDI bassprog 43
+%%MIDI bassvol 55
+Q: 3/8=90
+M: 7/8
+L: 1/8
+K: D
+P: I
+|: "D"[FD][GE][AF] [FD][GE] [AF][BG] | "G"[dB][cA][BG] "D"[AF][GE] [FD]z\
+ | "D"[FD][GE][AF] [FD][GE] [AF][BG] | "G"[dB][cA][BG] "A"[c2A2] z2 |
+   "A"[cA][dB][ec] [dB][cA][BG][dB] | [c2A2][BG] "D"[AF][GE] [F2D2]\
+ | "G"[dB][cA][BG] "A"[AF][BG][AF][GC] | "D"[F3D3] z2 z2 :|
+P: V
+   "D"[FD][F2D2] [A2F2] [A2F2] | "G"([G2E2][FD]) "D"[F2D2] z2\
+w: Vo zan-dan-i im-*a
+w: Vre-me de ke doj-*de
+ | "D"[FD][F2D2] "G"[B2G2] [B2G2] | ([B2G2][AF]) "D"[A2F2] z2 |
+w: vo-da do ko-le-*na,
+w: Jor-dan da se pu-*sta,
+|: "A"[AF][B2G2] [c2A2] ([BG][AF]) | "G"[B3G3] "D"([AF][GE] [F2D2])\
+w: vo-da do ko-|le-na,
+w: pra-vo on si| tr-ga*
+ | "A"[AF][A2F2] [G2E2] ([GE][AF]) | "D"([G2E2][FD]) [F2D2] z2 :|
+w: ko-sa do ra-|me-*na.|
+w: vo ne-go-vo |se-*lo.|
+W:
+W: Koga dojde Jordan do doma·sni porti,
+W: dva pati mi ·cukna, tri pati mi vikna.
+W:
+W: Koga go do·cula negovata majka,
+W: porti otvorila, sina pregrnila.
+W:
+W: "Kade mi je, majko, mojto verno libe,
+W: porti da otvori, mene da pregrne?"
+W:
+W: "Tvojto verno libe sno·sti se oma·zi,
+W: za tvojot kom·sija, za tvojot pobratim."

@@ -1,0 +1,76 @@
+X: 1
+T: the Coalminer's Reel
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: Amalgam of various online versions.
+M: C|
+L: 1/8
+K: D
+DB, |\
+"D"A,DFD "A7"E2EF | "D"ABAF "A7"EDB,D |\
+"D"A,DFD "A7"EDFA | "D"dBAF "A7"EDB,D |
+"D"A,DFD "A7"EDEF | "D"ABAF "A7"EDB,D |\
+"D"A,DFD "A7"EDFA | "A7"dBAF "D"D2 :|
+|: (3ABc |\
+"D"~d3B "A7"A2dB | "D"A2FD "A7"EDB,D |\
+"D"~d3B "A7"ABde | "D"fedf "A7"e2de |
+"D"fd~d2 "G"edBd | "D"ABAF "G"EDB,D |\
+"D"A,DFD "A7"EDFA | "A7"dBAF "D"D2 :|
+
+%%sep 1 1 500
+X: 2
+T: Coalminer's Reel, The
+R:reel
+H:Also in G, #745. Different version, see #747.
+Z:id:hn-reel-509
+M:C|
+K:D
+A,DFD EDB,D|ADFD EDB,D|A,DFD EDB,D|dBAF E2DB,|
+A,DFD EDB,D|ADFD EDB,D|A,DFD EDB,D|1 dBAF D2DB,:|2 dBAF D2 (3ABc||
+|:~d3B A2dB|A2FD EDB,D|~d3B ABde|fedf e2de|
+fd~d2 efdB|A2FD EDB,D|A,DFD EDB,D|1 dBAF D2 (3ABc:|2 dBAF D2DB,||
+
+%%sep 1 1 500
+X: 3
+T: Coalminer's Reel, The
+R:reel
+H:Also in D, #509. Different version, see #746.
+Z:id:hn-reel-745
+M:C|
+K:G
+DGBG AGEG|dGBG AGEG|DGBG AGEG|gedB A2GE|
+DGBG AGEG|dGBG AGEG|DGBG AGEG|1 gedB G2GE:|2 gedB G2 (3def||
+|:~g3e d2ge|d2BG AGEG|~g3e dega|bagb a2ga|
+bg~g2 abge|d2BG AGEG|DGBG AGEG|1 gedB G2 (3def:|2 gedB G2GE||
+
+%%sep 1 1 500
+X: 4
+T: Coalminer's Reel, The
+R:reel
+H:Also in D, #747. Different version, see #745.
+Z:id:hn-reel-746
+M:C|
+K:G
+DG~G2 GABc|d2BG AGEG|DG~G2 GABd|gedB A2GE|
+DG~G2 GABc|d2BG AGEG|DG~G2 GABd|1 gedB G2GE:|2 gedB G2 (3def||
+|:~g3e d2ge|d2BG AGEG|~g3e dega|bagb a2ga|
+bg~g2 ageg|d2BG AGEG|DG~G2 GABd|1 gedB G2 (3def:|2 gedB G2GE||
+
+%%sep 1 1 500
+X: 5
+T: Coalminer's Reel, The
+R:reel
+H:Also in G, #746. Different version, see #509.
+D:Marcas \'O Murch\'u: \'O Bh\'eal go B\'eal
+Z:id:hn-reel-747
+M:C|
+K:D
+A,D~D2 DEFG|A2FD EDB,D|A,D~D2 D2FA|dBAF E2DB,|
+A,D~D2 DEFG|A2FD EDB,D|A,D~D2 DEFA|1 dBAF D2DB,:|2 dBAF D2 (3ABc||
+|:~d3B A2dB|A2FD EDEF|~d3B ABde|fedf e2de|
+fd~d2 edBd|A2FD EDB,D|A,D~D2 DEFA|1 dBAF D2 (3ABc:|2 dBAF D2DB,||
+"variations"
+|:D3E DEFG|A2FD EDEF|D3E D2FA|dBAF E2FE|
+D3E DEFG|A2FD EDEF|D3E DEFA|1 dBAF D4:|2 dBAF D2 (3ABc||
+|:~d3B A2BA|F2FD EDEF|~d3B ABde|~f3d e2de|
+f2fd edef|A2FD EDEF|D3E DEFA|1 dBAF D2 (3ABc:|2 dBAF D2DB,||

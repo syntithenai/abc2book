@@ -1,0 +1,14 @@
+X: 955
+T: I Do Not Incline   #2
+R: jig
+%S: s:2 b:9(5+4)
+B: O'Neill's 1850 #955
+Z: Dan G. Petersen, dangp@post6.tele.dk
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play (A1A2)x2 + (BA2)x2
+M: 6/8
+L: 1/8
+K: G
+"^A"|: (G/E/) | DB,D G2A | B>cB A>GA | BGE [1 EGA | BGE E2 :|[2 DEF | GAG G2 :|
+"^B"|: (G/A/) | BGG  AFF | GEE  FDD  | E>FE E2(G/A/) | BGE "^->A2"E2 |]

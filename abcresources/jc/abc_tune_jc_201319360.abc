@@ -1,0 +1,17 @@
+X: 266
+T: the Old Blind Bard   #2
+R: air, reel
+%S: s:2 b:10(6+4)
+B: O'Neill's 1850 #266
+O: J.O'Neill
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Typo: The note values are obviously wrong in bar 6; (b2a2) should be (ba).  [Fixed.]
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+Q: "Brilliant"
+M: 2/4
+L: 1/16
+K: Em
+"^A"[|] (BA) | (GABc) d2(cd) | (edcd) B2(ba) |1 {a}g2(fe) B2^d2 | e6 :|2 (gfed) B2^d2 | "^fine"e6 |]
+"^B"[| b2 | b3a g2(fg) | (agfe) d2(ef) | g2(fg) (ef)(ga) | b2B2 "^->A2"B2 |]

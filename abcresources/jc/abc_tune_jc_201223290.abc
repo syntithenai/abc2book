@@ -1,0 +1,22 @@
+X: 07090
+T: PAT'S JIG
+C: Bob McQuillen 21 Feb 89
+B: Bob's Note Book 7 #90
+%R: jig
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+F2G \
+| AFD FAd | B3 AFG | AFD FAd | AFD EFG |\
+| AFD FAd | Bcd A2G | FAF EDC | D3 :|
+|: F2G \
+| AFA dfd | BdB AFG | AFA dAG | F3 EFG |\
+| AFA dfd | Bdf edB | AdF EDE | D3 :|
+%%begintext align
+%% Pat Wexelblat hails from
+%% Yorktown, N.Y., and comes to NEFFA every year with
+%% her red button accordion and a brand new tune she
+%% has written that will blow your sox off! It's always
+%% fun to year her play - Keep 'em coming, Pat!
+%%endtext

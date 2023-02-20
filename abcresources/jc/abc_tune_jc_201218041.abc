@@ -1,0 +1,20 @@
+X: 0033
+T: Evetsbergs Gamla Brudmarsch.   efter P\aal Karl Persson.
+C: C.G.
+P: K.E.F. 14.
+%R: march, g\aangl\aat
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: This tune had the triplet notes half-length; fixed 
+M: 2/4
+L: 1/16
+K: Am
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+(A,2 | A2)(gb) {ab}a2(3(gag) | {g}e2ge (3(fgf).e.d | (3(fgf).e.^c A2(gb) | {ab}a2(3(gag) {g}e2ge |
+(3({g}fgf).e.d (3(fgf).e.^c | A4 (3(=cdc).B.A | (BA) (A/B/c/d/) e4 | (3({g}fgf).e.d (fe)(ec) |
+A4 ((3cdc).B.A | BA (A/B/c/d/) e4 | E6 E2 |: A4 ((3{c}BcB).A.G | (BA)(cd) e4 |
+{gfg}f2ed (fe)(ec) | A4 ((3{c}BcB)AG | (BA)(cd) e4 | d8 :|
+% - - - - - - - - - -
+%%text Jmf. S.L. nr 659,663?

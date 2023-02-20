@@ -1,0 +1,56 @@
+%%text RJ Set 130
+
+
+X: 1
+T: Union Street Session
+C: Paul S. Cranford
+R: reel
+M: 4/4
+L: 1/8
+K: D
+|: c |\
+"D"{c}d2 AG !trill!F2DF | "A7"EA,A,2 GFED | "D"{DE}F2 AF "G"GABd | "A"AEE2 cdec |
+"D"{c}d2 AG !trill!F2 DF | "A7"EA,A,2 GFED | "D"{DE}F2 AF "G"GABd | "A"AEEG "D"FD D :|
+|: c |\
+"D"{c}d2 fd "G"gd"D"fa | "A"eA A/A/A cdec | "D"{c}d2 fd "Em"!trill!g2 fg | "A"aeeg !trill!f2 ec |
+"D"{c}d2 fd "G"gd"D"fa | "A"eA A/A/A cdeg | "D"!trill!f2 ed "Em"{d}e2 cd | "A7"{d}e2 dc "D"{c}d2 A :|
+
+
+X: 2
+T: Kate and Rose's
+M: C|
+L: 1/8
+K: Dm
+%%text Skip the pickup on transition.
+E | \
+"Dm"FD (3.D.D.D AD (3.D.D.D |dDDd dcAG | FD (3.D.D.D AGFD |"C"EDCD "A"EFGE |
+"Dm"FD (3.D.D.D AD (3.D.D.D |dDDd dcAG |"F"F2 cF dFcF |"C"E3 E EDC :|
+K: G
+|:e | \
+"D"fd (3.d.d.d fdad |f3 f fede |"D"fd (3.d.d.d fdad |"C"cBAB "Am"cBAe |
+"D"fd (3.d.d.d fdad |f3 f fedB |"C"c2 gc acgc |["normal""G"B3 B BAG :|["transition""G"B3z"E7"z4|]
+% %text 05/22/10
+%
+P: Kate and Rose's Low Octave B part:
+K: G
+E | \
+"D"FD (3.D.D.D FDAD |F3 F FEDE  |"D"FD (3.D.D.D FDAD |"C"CB,A,B, "Am"CB,A,E  |
+"D"FD (3.D.D.D FDAD |F3 F FEDB, |"C"C2    GC    ACGC |"G"B,3  B,     B,A,G, :|
+% %text 05/22/10
+
+
+X: 3
+T: Wing Commander Donald Mackenzie's
+C: Phil Cunningham
+M: C|
+L: 1/8
+R: reel
+K: F#min
+|:\
+"A"cE E/2E/2E cEBE | "F#m"AFFE FAEA | "D"F2FE FGAB | "E7"cBAB cffe |
+"A"cE E/2E/2E cEBE | "F#m"AFFE FAEA | "D"F2FE FGAB |1 "E7"~c2BG "A"A3B :|2 "E7"~c2Bc "A"Aa a/2a/2a ||
+|:\
+"A"aefe c2Bc | "F#m"AFEF ABce | "D"faba fbaf | "E7"ecAB BAce |
+"A"aefe c2Bc | "F#m"AFEF ABce | "D"faba fbaf |1 "E7"ecBc "A"Aa a/2a/2a :|2 "E7"ecBc "A"A3B |]
+%%text Choke the ending!
+

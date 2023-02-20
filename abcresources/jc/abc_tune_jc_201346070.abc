@@ -1,0 +1,26 @@
+X:1
+T: Transported
+N:
+C:Tune is "Hornpipe" by Purcell
+S:
+A:
+O:
+R:
+M:3/4
+K:Am
+I:speed 120
+%W: A1
+% voice 1 (1 lines, 41 notes)
+K:Am
+M:3/4
+L:1/16
+A4 E2 B2 c B A2 |^G A B2 E2 c2 d c B2 |c d e2 A2 e2 d2 c2 |B c d2 G2 B2 c2 B2 |A B c2 F G A2 B c B A |^G6 ^F2 E4 |
+%W: A2
+% voice 1 (1 lines, 41 notes)
+A4 E2 B2 c B A2 |^G A B2 E2 c2 d c B2 |c d e2 A2 e2 d2 c2 |B c d2 G2 B2 c2 B2 |A B c2 F G A2 B c B A |^G6 ^F2 E4 |
+%W: B1
+% voice 1 (1 lines, 40 notes)
+c4 G2 c2 f e d2 |e f g2 e2 g2 f2 e2 |f e f2 d2 f2 e2 d2 |^c d e2 A2 c2 d e f2 |B c d2 ^c d e2 d e f2 |e6 ^c2 d4 |
+%W: B2
+% voice 1 (1 lines, 40 notes)
+f2 d2 d2 B2 c d e2 |e2 c2 c2 A2 B c d2 |d2 B2 B2 ^G2 A B c2 |B2 F2 F G A2 ^G2 E2 |A B c2 B c d2 c d e2 |A6 ^G2 A4 ||

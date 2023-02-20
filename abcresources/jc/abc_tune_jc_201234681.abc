@@ -1,0 +1,37 @@
+X: 20701
+T: THUNDER HORNPIPE
+C:
+N: Variant of the Trumpet Hornpipe
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" 1843 p.70 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+|:\
+EEE2 EEE2 | GEGB eBGE | B,B,B,2 B,B,B,2 | DB,DF BAGF |\
+EEE2 EEE2 | GEGB eBGF | Egfe dcB=A | B2B2 B4 :|
+|:\
+BBB2 BBB2 | Bced cBAG | ABcB AGFE | DEGF EDCB, |\
+B,EB,E A,CA,C | DEDE CEB,E | EcBA GFED | E2E2 E4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+|:\
+G,G,G,2 G,G,G,2 | EB,EG BGEE | DDD2 DDD2 | DB,B,D GFED |\
+G,G,G,2 G,G,G,2 | EB,EG BGED | Eedc BAGE | D2D2 D4 :|
+|:\
+GGG2 GGG2 | GAcB AGFE | FGAG FEDE | B,CED GFED |\
+G,B,G,B, A,CA,C | B,CB,C G,CG,C | EAGF BAGF | E2E2 E4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+|:\
+eee2 eee2 | z8 | BBB2 BBB2 | z8 |\
+eee2 eee2 | z8 | e4 e2f2 | B2B2 B4 :|
+|:\
+eee2 eee2 | G4 A4 | f4 a4 | e4 e4 |\
+e4 e4 | d2d2 c2c2 | e2g2 a2b2 | e2e2 e4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %sep 1 1 300

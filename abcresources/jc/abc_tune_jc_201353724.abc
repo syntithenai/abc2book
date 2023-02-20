@@ -1,0 +1,22 @@
+X: 1
+T: Worse for Better.  A Dance.
+R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: The Gentleman's Magazine v.20, August 1750, p.371
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+FGA ABc | f3 c2B | AGF GAG | G3 C2F |\
+fgf cdc | agf g2f | edc dcB | c3 c3 :|
+|:\
+FGA GEC | ABc f2g | GBd gdB | c3 c2d |\
+ecA dBG | cAF G2A | Bcd cde | f3 F3 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   1st Couple set and turn .|, 2d couple do the same, :| cross over and half
+%% figure .|| hands round with the 3d couple :|| set corners and turn :| hands round
+%% all six .|| right and left at top :||: .
+%%endtext

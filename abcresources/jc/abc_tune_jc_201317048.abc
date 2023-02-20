@@ -1,0 +1,29 @@
+X: 1
+T: Next Oars
+%: the Sheep Shearers
+%R: slip-jig, triple hornpipe
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (134)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 9/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: dA=c BGB AFA | =c3 d>ed B2A |\
+   dA=c BGB AFA | d3 d>ed c2A :|\
+|: dAG  F2G A3  | =c3 c>dc B2A |
+   dAG  F2G A3  | d3 d>ed c2A :|\
+|: F2A  E2A D2A | =c3 c>dc B2A |\
+   F2A  E2A D2A | d3 d>ed c2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. cast off and cast up .| Then Hands across
+%% with the 2d Cu. quite round :| Then lead thro and back
+%% to back with your Partner .| Then cross over the 2d
+%% Cu. and cross over the 3d Cu. to the Bottom, the 1st
+%% Man hey on the Men's side, and the Wo. on her own
+%% Side, then the 1st Cu. lead thro the Top and turn :|
+%%endtext
+%%sep 1 8 500

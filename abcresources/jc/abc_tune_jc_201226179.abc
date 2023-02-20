@@ -1,0 +1,40 @@
+X: 10121
+T: The Blue Bell of Scotland
+O: Sung by Mrs Jordan
+C:
+Q: "Andante"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.12-13
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%graceslurs 0
+%%continueall
+!segno!: d | d2 c B A2 ((3Bc d) | F> F G E D3 d |
+w: Oh! where and oh where is* your High-land Lad-die gone, Oh!
+{e}d2 c B A2 ((3Bc d) | F F G E D3 ||
+w: where and oh where is* your High-land Lad-die gone,
+A | F> D F A d2 ((3Bc d) | c> A B ^G A2 ((3AB) c |
+w: He's gone to fight the French for* King GEORGE up-on the Throne, and* it's
+{e/}d2 c B A2 (GB/G/) | F F G E D3 A |
+w: O in my heart I** wish him safe at home, He's
+F> D F A d2 ((3Bc d) | c> A B ^G A2 ((3AB) c |
+w: gone to fight the French for* King GEORGE up-on the Throne, and* it's
+{e/}d2 c ~B A2 (GB/G/) | F F G E D3 "_Sym:"A |
+w: O in my heart I** wish him safe at home,
+d2 c~B {B}A2 {A/}GB/G/ | FFGE D3 |]
+%
+W: 2. Oh where and oh where did your Highland Laddie dwell,
+W: He dwelt in merry Scotland at the Sign of the Blue Bell,
+W: \t And 'tis oh in my Heart I love my Laddie well.
+W:
+W: 3. In what cloaths in what cloaths is your Highland Laddie clad,
+W: His Bonnet's of the Saxon Green and his waistcoat of the Plaid,
+W: \t And 'tis oh in my Heart I love my Highland Lad.
+W:
+W: 4. Suppose and suppose that your Highland Lad shoud die,
+W: The bagpipe shou'd play over him and I'd sit me down and cry,
+W: \t And tis oh in my Heart I wish he may not die.
+%
+%%center -

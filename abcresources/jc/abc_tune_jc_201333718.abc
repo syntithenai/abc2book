@@ -1,0 +1,34 @@
+
+X: 1
+T: Sal's Got Mud Between Her Toes
+R: reel
+M: 4/4
+L: 1/8
+Z: Contributed 2017-11-26 01:20:55 by Terry Terry_cowan@hotmail.com
+K: Dmaj
+   DF |\
+A2A2 FEDE | FAAB A2DF | F2A2 BAFD | FED2 E3E |\
+F2A2 BAFD | F2AB A3A  | BABA FEDF | E2D2 D2 :|
+|: AB |\
+d2 d2 (3BdB AB | d2 d2 f4 | f3 a fede | f2 f2 e3 e |\
+f2 a2 fedA | B2 d2 B4 | d2 B2 FE DF | E2 D2 D2 :|
+|: A,B, |\
+D2 D2 (3B,DB, A,B, | D2 D2 F3F | FEDF EDB,A, |1,3 DEDB, A,2 A,B, :|2,4 B,D D2 D2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Sal's Got Mud Between Her Toes
+S: arr. Wendy ANthony (in TEFview samples)
+R: reel
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: FF |:\
+"D"A2A2 FEDE | F2A2 A2zA | B2A2 FEDE |1,3 "A7"F2E2 E2zF :|2,4 "A7"E2D2 "D"D2 :|
+|: AB |\
+"D"d2d2 BAFA | d2d2 f4 | f3a fede | "A7"f2e2 e2de |\
+"D"f2a2 fed2 | "G"B2d2 B2zB | "D"d2B2 AFEF | "A7"E2D2 "D"D2 :|
+|: A,B, |:\
+"D"D2D2 DB,A,B, | D2D2 F4 | FED2 B,2A,2 |1,3 B,A,B,C D4 :|2,4 "A7"B,A,B,C "D"D2 :|

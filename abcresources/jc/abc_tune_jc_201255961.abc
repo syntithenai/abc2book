@@ -1,0 +1,35 @@
+X: 1
+T: the Bracelet
+%R: slip-jig, triple hornpipe
+B: John Walsh "Caledonian Country Dances" 1748
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/5/50/IMSLP98359-PMLP202128-walsh_caledonian_country_dance_vol2.1.pdf p.38-39 #298
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:38-39 #298
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+N: 2nd part has initial repeat but no final repeat.
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 4-bar staffs:
+V: 1
+|:\
+G3 GBG BdB | G3  GBG afa | ece dBd cAc | BGB ADG  FED |
+G3 GBG BdB | G3  GBG afa | gdg ece dBc | BGB ADF  G3 :|
+|:\
+b3 G2b aga | gfg efg fed | bgb afa geg | fdf e^ce d3  |
+G3 GBG BdB | G3  GBG afa | ece dBd cAc | BGB ADG  FED |
+G3 GBG BdB | G3  GBG afa | gdg ece dBc | BGB ADF  G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks:
+V: 2 clef=bass middle=d
+|:\
+g3 G3 z2z | g3 e3 d3 | c2a B2g A2f | g3 f2e d3 | B3 G3 z2z |
+g3 e3 d3 | B2b c'3 b2a | g2c d2D G3 :||: g3 b2g f2d | e3 ^c'3 d'3 | g3 f3 e3 |
+d3 A3 D3 | z2z g3 f3- | f3 e3 d3 | c2a B2g A2f | G3 c3 d3 |
+B3 g3 f3 | e3 e3 d3 | B2b c'3 b2a | g3 d3 G3 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% First Man cast down, the 2d Wo. at the same time cast up, and double figure round their own Partners .|
+%% their Partners does the same :|
+%% First Cu. gallops down, gallop up again, and cast off Right and Left quite round at Top, and foot it.
+%%endtext

@@ -1,0 +1,15 @@
+X: 379
+T: Bright Love of My Heart   #2
+R: air, march
+%S: s:3 b:13(5+4+4)
+B: O'Neill's 1850 #379
+O: J.O'Neill
+Z: Chris Falt, cfalt@trytel.com
+N: Compacted via repeats and multiple endings [JC]
+Q: "Moderate."
+M: C
+L: 1/8
+K: D
+"^A"[|] (F>G) | A>B (A/G/F/D/) Adcd | FGAB =c2(d/^c/B/c/) | A>BAG FDGF |1 D2G2 G2 :|2 D2D2 D2 |]
+"^B"[| ((3ABc) | d2d>e f2ed | e2(d/c/A/G/) A2((3ABc) | d2dd e2(d/c/A/B/) | =c2d>d d3 |]
+"^C"[| A | d2d2 de=cA | AGFD cdcA | A>BAG FDGF | D2D2 D2 |]

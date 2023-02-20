@@ -1,0 +1,23 @@
+X:1
+T: Maiden Lane
+N:
+C:
+S:Play  9  times
+A:
+O:
+R:
+M:4/4
+K:A
+I:speed 200
+%W: A
+% voice 1 (1 lines, 34 notes)
+K:A
+M:4/4
+L:1/16
+e6 d2 c2 B2 A4 |a4 g4 a4 e4 |a4 g4 a4 e2 d2 |c4 B4 A8 |e6 d2 c2 B2 A4 |a4 g4 a4 e4 |a4 g4 a4 e2 d2 |c4 B4 A8 |
+%W: B
+% voice 1 (1 lines, 40 notes)
+B2 c2 d2 e2 f4 B4 |d4 c4 B4 f4 |f4 f4 f4 e2 d2 |c2 B2 c2 d2 B8 |B2 c2 d2 e2 f4 B4 |d4 c4 B4 f4 |f4 f4 f4 e2 d2 |c2 B2 c2 d2 B8 |
+%W: C
+% voice 1 (1 lines, 44 notes)
+e4 c2 d2 e4 c2 d2 |e2 d2 c2 B2 c4 A4 |e4 c2 d2 e2 f2 e2 d2 |c4 B4 A8 |e4 c2 d2 e4 c2 d2 |e2 d2 c2 B2 c4 A4 |e4 c2 d2 e2 f2 e2 d2 |c4 B4 A8 ||

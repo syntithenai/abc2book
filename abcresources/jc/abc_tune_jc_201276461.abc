@@ -1,0 +1,23 @@
+X: 1
+T: Flashbacks
+C: Janet Muse 2010
+R: waltz
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+N: Suggested tune for Jenna Simpson's dance "Tidewater".
+M: 3/4
+L: 1/8
+K: Em
+%%indent 300
+"^Intro"[| "Em"E e2 B d2 | "D"E e2 B d2 | "C"E e2 B d2 | "Bm"E e2 B d2 |]
+"A1"[|\
+"Em"EF GB AG | "Bm"F2 D2 B,2 | "Am"CB,A,C EG | "D"F3 D FA |\
+"Em"B e2 d BA | "Cmaj7"B e2 d BA | "Bm"GF D2 B,2 | "C"E4 "D"DF ||
+"A2"||\
+"Em"EF GB AG | "Bm"F2 D2 B,2 | "Am"CA, CE GB | "D"AG F2 GA |\
+"Em"B e2 d BA | "Cmaj7"B e2 g2 e | "Bm"ag fd Bd | "Em"e6 |]
+"B1"[|\
+"C"c3 G EG | "Em"B4 B2 | "D"AG FE DC | "Em"B,4 A,B, |\
+"Am7"C3 E G2 | "Cmaj7"B4 B2 | "Bm7"A4- AG | "D"FE D2 B,D ||
+"B2"||\
+"C"E3 G Bd | "D"e4 e2 | "Em"g4 fe | "Bm"dc BA GF |\
+"C"E e2 B d2 | "D"E e2 B d2 | "Em"E e2 B "Bm"d2 | "Em"e6 |]

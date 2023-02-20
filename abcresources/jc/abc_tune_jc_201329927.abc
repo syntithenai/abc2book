@@ -1,0 +1,29 @@
+X: 1
+T: Resolution
+%: Quakers Grace
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.344
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the dance instructions.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+dc |\
+d2A2 B2dc | d2D2 E2dc | d2A2 (Bc) (dE) | (GF)(ED) D2 :| FG |\
+A2A2 A2Bc | d2d2 d2cd | B2B2 B2ce | efed c2de |\
+d2A2 B2dc | d2D2 E2dc |
+d2A2 (Bc) (dE) | (GF)(ED) D2de |\
+f2dc B2cd | e2cB ^A2fe | d2ef (gf)(ed) | c4 B2cd |\
+d2A2 B2dc | d2D2 E2dc | d2A2 (Bc) (dE) | (GF)(ED) D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text Note: The first Strain twice, and the last but once.
+%%begintext align
+%% The 1. cu. cast off and half Figure with the 2. cu. then the man being in the wo. place, and the wo.
+%% in the mans; then they take hands, three on the one side, and three on the other, and lead back and turn
+%% single, then first Hey on the mens side, and then on the wo. side.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

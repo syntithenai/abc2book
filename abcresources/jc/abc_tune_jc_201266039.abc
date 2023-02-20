@@ -1,0 +1,21 @@
+X:440
+T: Passu Turrau
+O: Italy
+M: 6/4
+L: 1/8
+K: Ab
+Q:1/4=120
+%%MIDI program 40 violin
+%%MIDI chordprog 0 Acoustic Grand
+%%MIDI bassprog 45 Pizzicato Strings
+%%MIDI gchord cz
+|:"Ab"E/E/-E3 E/D/C/D/ E6|"Db"D/D/-D3 D/C/B,/C/ D6|"Ab"C/C/-C3 D/C/B,/A,/ B,6|\
+"Db"D/D/-D3 D/E/-ED6|"Ab"C12 ::
+%%MIDI program 26 Electric Guitar (jazz)
+%%MIDI gchord ff
+  "Ab"E2 DD C2 DD DC z2| E2 DD C2 DD DC z2|E2 DD C2 DD C2 z2:|
+%%MIDI program 40 violin
+%%MIDI gchordoff
+%%MIDI drum dz5 35 90
+%%MIDI drumon
+EE2E EEEE ECz2|DD2D DDDD DB,z2|CC2C CCB,B, DDz2|DD2D DDCC B,B,A,2|

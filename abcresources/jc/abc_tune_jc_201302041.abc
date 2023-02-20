@@ -1,0 +1,29 @@
+
+X: 1
+T: Pjevaj mi Pjevaj
+T: Li\vcko Kolo
+O: Croatia
+S: Deborah Jones VIFD Book 1
+Z: Ron Fox abcusers 2008-9-27
+M: 4/4
+L: 1/4
+%Q: 1/4=120
+K: Edor
+%%MIDI program 70
+[| "Leader sings"F2 GF | E2 D2 \
+| "All sing"[D2F2][F2A2] | ([FA][E3G3]) | [D2F2][EG][DF] |
+w: 1.~~Pje-vaj mi, pje-vaj, so-ko-le,_ pje-vaj mi,
+w: 2.~~K'o \vsto si si-no\'c pje-va-o,_ k'o \vsto si
+w: 3.~~Pod mo-je dra-ge pen-d\vze-rom,_ pod mo-je
+w: 4.~~Moj-ja je dra-ga za-spa-la,_ mo-ja je
+w: 5.~~Stu-den joj ka-men pod gla-vom,_ stu-den joj
+w: 6.~~Ja sam joj ka-men iz-ma-k'o,_ ja sam joj
+w: 7.~~A svo-ju ru-ku pod-ma-k'o,_ a svo-ju
+[A,2E2][A,2D2] | [D2F2][F2A2] | ([FA][E3G3]) | [DF][DF][EG][DF] | [A,4-E4-] |  [A,4E4] |]
+w: pje-vaj, so-ko-le,_ \vsa-laj so-ko-le,
+w: si-no\'c pje-va-o,_ \vsa-laj pje-va-o,
+w: dra-ge pen-d\vze-rom,_ \vsa-laj pen-d\vze-rom.
+w: dra-ga za-spa-la,_ \vsa-laj za-spa-la,
+w: ka-men pod gla-vom,_ \vsa-laj pod gla-vom.
+w: ka-men iz-ma-k'o,_ \vsa-laj iz-ma-k'o,
+w: ru-ku pod-ma-k'o,_ \vsa-laj pod-ma-k'o.

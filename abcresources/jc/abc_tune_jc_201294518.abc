@@ -1,0 +1,23 @@
+X: 1
+T: Jonah's First Change
+C: trad.
+O: arr. Calvin Vollrath
+R: jig
+S: Fiddle Hell Online 2022-4-11 handout for Calvin Vollrath workshop
+N: Johah's First Change was learned from Gilbert Anderson.
+N: Notation by Trent Bruner
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%%continueall
+%%slurgraces 1
+%%graceslurs 1
+"^A"|: g |\
+"D"{fg}f2e dcB | A2F D2E | FGF FED |
+"A7"A3 A2g | "D"{fg}f2e dcB | A2F D2E |
+FGF "A7"A,CE | D3 [1 "D"D2 :|[2 D
+"^B"|: fg |\
+"D"a2f {f}a2f | d3 d2b | agf {g}fed |
+"A7"cde efg | "D"{fg}f2e dcB | "G"A2F D2E |
+"D"FGF "A7"A,C!coda!E |[1 "D"D3 D :|[2 "D"D3 "->A"D2 |]!coda!"D"D3 dzz |]

@@ -1,0 +1,22 @@
+X:738
+T:A Trip to Castle Howard
+C:Thompson, 1775
+M:2/2
+L:1/4
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=92
+%%MIDI program 56     Trumpet
+%%MIDI chordprog 57   Trombone
+%%MIDI bassprog 58    Tuba
+%%MIDI gchord b2bb
+%%MIDI ratio 3 1
+K:F
+P:A
+|: "F"F2 F>F | "/"F2 d/c/B/A/ | "Gm"G2 G>G | "/"G2 e/d/c/B/ | "Am"c2 c>c | "/"c3g | "C7"ga bg | "F"a2 f2 :|
+P:B
+|: "F"f3A | "Gm"AG G2 | "C7"g3B | "F"BA A2 | "Am"c2 c>c | "/"c3 B | "C7"GA BG | "F"A2 F2 :|
+P:C
+|: "Dm"DF Ad | "A"d2 ^c2 | "A7"A^c eg | "Dm"g2 f2 | "Dm"af ed | "Gm"bg fe | "Dm/A"d2 "A7"^c2 | "Dm"d3z :|
+P:D
+|: "F"f3c | "Am"c2 BA | "C7"GA Bc | "F"B2 A2 | "Am"c2 c2 | "Dm"c2 dc | "Gm"cB AG | "C7"A2 G2 |
+"F"c2 c2 | "C/E"c2 de | "Dm"f2 f2 | "F/C"f4 | "Bb"fe dc | "Gm"BA GF | "F/C"A2 "C7"G2 | "F"F4 :|

@@ -1,0 +1,14 @@
+X: 1
+T: Makedonske Devoj\vce (Dm)
+C: Jon\vce Hristovski 1964
+R: lesnoto
+M: 7/8
+L: 1/8
+K: Dm
+[| "Dm"D2d c2 d2 | cd2 A4 | "Gm"B2A G2 B2 | "A7"A7 \
+|  "Dm"D2d c2 d2 | cd2 A4 | "A7"A2G F2 E2 | "Dm"D7 |]
+|: "Dm"[F3d] "D7"[^F3A][Ac] | "Gm"[GB][F2A2] [D4G4] | "C7"[G2B][FA] [E2G][G2B] | "F"[F7A] \
+|  "Eb"[G2B][FA] [E2G][G2B] | "Dm"[FA][E2G2] [F2D][FD][EG] | "A7"[F2A][EG] [D2F][A,2E] | "Dm"[D7D] :|
+P: Instr:
+[| "Dm"{E}F2E DEFG | "Gm"A2G G4 | "C7"C2D EFG2 | GFE "F"F2FE \
+|  "Dm"{E}F2E DEFG | "Gm"A2G G2FG | "A7"A2G F2E2 | "Dm"D7- | "Dm"D7 |]

@@ -1,0 +1,22 @@
+X: 1
+T: Irish Lullaby
+C: J.R. Shannon
+M: 6/8
+L: 1/8
+V: 1 clef=treble
+K: D%(D, C)
+%| "^Intro"B2c d2c | B2A F2A | B2d de2 | d2 |
+P: Verse:
+[|\
+"D"F2E D2E | FA2- A3 | "Bm"B2c B2F | "D"A3- "A7"A2 A |\
+"D"F2E D2E | F2A A2^A | "E7"B2E E2F | "A7"E3 zDE |
+"D"F2E D2E | FA2 zFA | "Bm"B2c B2F | "D"A3 zFA |\
+"G"B2c d2c | B2A "D"F2D | "E7"F2E E2F | "A7"E3- "A7+5"^E3 |]
+P: Chorus:
+[|\
+"D"F2E D2E | FA2- A3 | "C"B2^A B2c | "Ddim"d3 z3 |\
+"D"d2c "G"d2B | "D"AF2- F3 | "E7"B2E E2F | "A7"E3 "A7+5"^E3 |\
+"D"F2E D2E | FA3 z3 |
+"G"B2^A B2c | "Ddim"d3 z3 |\
+"D"d2[ec] "G"d2B |1 "D"AF2 "A7"zED | "E7"F2E "G"D2E |\
+D3 z3 :|2 "D"AF2 F2A | "E7"B2d "A7"dH[e2c2] | "D"d6 |] |

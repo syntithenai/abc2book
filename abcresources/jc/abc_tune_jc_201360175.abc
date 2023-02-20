@@ -1,0 +1,121 @@
+X: 1
+A:Adam de la Halle
+T:A Dieu comant/Adan se sont/Super te
+N: (with semi-breves)
+M:3/4
+L:1/4
+Q:1/4=90
+K:F Lydian
+%
+V:1 clef=treble-8 middle=B,
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+%%MIDI program 1       74 recorder
+%%MIDI program 2       72 piccolo
+%%MIDI program 3       70 bassoon
+%%sysstaffsep    28.0pt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% triplum %%%%%%%%%%%%%%%%%%%%%%%%%%%
+[V:1][K:C]
+   C2  D  | E2 (E/4D/4C/)| F2  E |
+w: A  Dieu  com-***       mant a-
+    D   E  F |(E/D/E) (E/4D/4C/) | B,2 D |
+w: mou-re-tes, Car**   je**        m'en*
+    E2   C | C2 (C/4B,/4A,/)| B,2  D | E2 (D/E/) |
+w: vois Do- lans  por**       les dou- che-tes*
+    F2 (E/4D/4C/)|(D/E/D/C/)  B, | C2 z |
+w: Fors dou**      pays***   d'Ar- tois
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  (E/F/) (E/D/) C |  D  D   E|  F2 z |
+w: Chi*   est*  si  mus et des-trois;
+   E2   F | G   G  F |  E2 z |
+w:Pour che que li bour-geois
+  (E/4D/4C/) B, C|  D  E   F |(E/4D/4C/)
+w: Ont**    es-té  si four-me- nés**
+  (B,/C/) (D/4C/4B,/)| A,    B,2| C2 z |
+w: Qu'il*  ne**      quiert drois ne~lois.
+  (D/C/D)   E | F2 z | F2 F |(E/D/C)
+w: Gros** tour- nois  Ont a-  nu-**
+    B,| C   B, C | D    E   F| E
+w: lé, con-tes et rois Jus-ti-ches
+   D   C | B,   C    D| E2 z |
+w: et pré-las, tant de fois
+    C   _B, A,| G, A, G,|
+w: Que main-te be-le com-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    F,2 G, |   _B,2  C |(D/C/D)
+w: pain-gne    Dont Ar-  ras**
+   E | F2 (F/4E/4D/)|(E/F/) (F/D/) C| D
+w: me-hain-gne**      Lais-* sant* a-mis
+   D   E | F    F  D | E2 z |
+w: et mai- sons et har-nois,
+   G2  F |(E/D/C)   D |(E/D/E)
+w: Et fui- ent,** chà  deus,**
+   (E/4D/4C/)| B,2 z |(C/B,/C)  D |
+w:  chà**     trois,   Sous-** pi-
+    E2 (E/4D/4C/)| F2   E |(D/C/B,2)| C3 ||
+w: rant en**     terre es-  tran-**   ge
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% duplum %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[V:2][K:C]
+   F/ F/ (E/4D/4C/) B,|(B,/4A,/4G,/) (A,/B,/) C/
+w: A-dan  se**     sont lo-**          é*    d'a-
+    C/  |  C/  C/   B,  C |  D/   D/
+w: mours; Mais je m'en dois plus qui
+  (E/4D/4C/) D| E2 z |D/  D/  E  F | E2
+w: nus**    bla-mer  Con-ques à nul jour
+  (E/F/)| G   E/ C/  E | F  G2 |  G/ G/
+w: ne*   poi loy-au-té trou-ver. Je cui-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   G/  G/   G | F  (F/4E/4D/) E/  E/| G G
+w: dai au pre-miers A-**     voir a- mi-e
+    E | F/ F/  F  (F/4E/4D/)| E2 z | F/  G/
+w: par loi-au-ment ouv-**    rer.   Mais gi
+    G/  G/  E |C/ C/ C  (D/4C/4B,/)| A,2 z|D/4
+w: peus-se lon-gu-e-ment ba-**       er;   Car
+     D/4  D/  C   D |E/   E/ (E/4D/4C/) D |
+w: quant je miex ai-     mai, Plus  me**   con-
+     E/   E/   E (F/E/)| D2 z |A,/ B,/  C  D|
+w: vient maux en- du-*  rer.  Non-ques ce-le
+    C/  D/  E  D | F/ F/  E    F | G2 z |
+w: que j'a-moi-e,  Ne me vaut mon-strer
+    C   B,  A,|C/ C/  C  C/  B,/| A,  E
+w: San-lant où je me dus-se con- for-ter
+   D/  D/ |F/ F/ F  E | D2 z | A,  B, C |
+w: Ne mer-chi es-pé-*   rer.  Tout a-des
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     D  E    F  | E/ D/ E (E/4D/4C/)| F2 z |
+w: m'é-toit paine a moi es-kié-**     ver.
+    G/  G/ (F/4E/4D/) E |F/ F/  F    G |
+w: Trop mi  don-**    na à pen-ser  Ains
+  (D/C/) B, (C/D/)|G/  G/  F (F/4E/4D/)| C2 z |
+w: que* je   le*  peus-se ouv-li-**     er,
+  (E/D/) E/ F/  G |  G/   A/ G/  G/
+w: Or*  voi je bien sans dou-ter que
+    E/  E/|  C   F (G/F/)| E/  D/ (E/F/)
+w: loi-aus  hom est per-* dus qui  veut*
+  (E/4D/4C/)| D2 z |E/  E/  E (F/   G/)|(A/F/)
+w: a-**      mer.   Ne nus che m'es a-   vis*
+    E (F/E/)| D2 (E/D/)| C2 z |E/    C/   E
+w: ne  s'en* doit mer-* ler;  Fors chil qui
+    G | F (E/4D/4C/) E |(G/A/) (G/4F/4E/) D  | F3 ||
+w: bé-  e  A**      ser- ver*   de**     quil- ler.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% tenor %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[V:3][K:F]
+ F,2 F, | A,2 z | F,2 A,| G,2 F,|
+w:Super~te
+				 A,2 F, | G,2 z | A,2 C | C2 z |
+%%%%
+ D2  C | C2 G, | B,2 A, | G,2 z | F,2 G,|
+					 A,3 | G,2 A,| F,2 G, | A,2 B, | G,2 z |
+%%%%
+ A,2 B, | A,2 z | G,2  F, | F,2 G, |
+				    A,2 G, | F,2 z | G,2 G, | F,3 ||
+%%%%%%% repeat
+ F,2 F, | A,2 z | F,2 A,| G,2 F,|
+w:Super~te
+				 A,2 F, | G,2 z | A,2 C | C2 z |
+%%%%
+ D2  C | C2 G, | B,2 A, | G,2 z | F,2 G,|
+					 A,3 | G,2 A,| F,2 G, | A,2 B, | G,2 z |
+%%%%
+ A,2 B, | A,2 z | G,2  F, | F,2 G, |
+				    A,2 G, | F,2 z | G,2 G, | F,3 ||

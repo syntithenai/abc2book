@@ -1,0 +1,25 @@
+X: 4222
+T: the New Opera Dance    or Mrs Loch's Favorite
+%R: jig, waltz, air
+N: This is version 1, for ABC software that doesn't understand voice overlays or diminuendo symbols.
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.22 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slowish"
+K: Eb
+% - - - - - - - - - -
+V: 1 staves=2
+!p!B !segno!|\
+(Be).B (ce).c | B<GE TE2G | F2G (EB,).E | TF2G F2B ||\
+(Be).B (ce).c | (BG).E TE2G | TF2G (EB,).E | TF2G "_Fine"HE2 :|
+| g2e (BG).B | (~c2.e) G3 | ~A>Bc E2E | ~F2G B,3 ||\
+g2e (BG).B | (c2.e) G2B | ~A>Bc f2g | "_dim. . ."([af][ge][fd] [ec][dB]!segno![cA]) |] y12
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+!p!z !segno! |\
+[e3g3] [e3a3] | [e3g3] e3 | [B3a3] [B3g3] | [d2a2][eg] B2z ||\
+[G3g3] [A3a3] | [G3g3] [E3e3] | [B3a3] [B3g3] | A2B "_Fine"HE2 :|
+| e3 [e3g3] | a3 e3 | d3 e3 | B3 B3 ||\
+e3 g3 | a3 e3 | f>ga- a2g | "_dim. . ."fga b2!segno!z |] "^Da Capo"y12

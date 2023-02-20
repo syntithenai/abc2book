@@ -1,0 +1,20 @@
+X: 1
+T: Walker Street (Carpenter's Reel)
+O: Ryan 1883
+B: Ryan’s "Mammoth Collection", 1883; p.72
+B: Kohler’s "Violin Repository", 1881-5
+B: White’s Unique Collection, 1896; No. 41, p.8
+B: Cole p.45
+Z: John Chambers <jc:trillian.mit.edu>
+N: Usually played as 32 bars.
+M: C|
+L: 1/8
+K: G
+   (3DEF \
+| "G"~G2 BG [dD]GBG | "D7"ABcd cBAG |\
+[1 "G"BdgB dgBd | "C"cBAG "D7"F2 :|\
+[2 "G"BdgB dgBd | "D7"cAFD "G"G2 |]
+|: (3def \
+| "G"g2dg Bgdg | gabg "D7"agef |\
+[1 "G"g2dg Bgdg | "C"cBAG "D7"Fdef :|\
+[2 "C"gfga "(G)"gfed | "C"eg"D7"fa "G"g4 |]

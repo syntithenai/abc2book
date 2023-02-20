@@ -1,0 +1,24 @@
+X: 5
+T: Shaccabac's Fancy
+%R: march, reel
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.3 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+|:\
+G2d>B | G2d>B | c>dcB | AGF2 |\
+G2d>B | G2d>B | cA GF | G2z2 :|
+|:\
+dgfg | edcB | ABcd | B2G2 |\
+dgfg | edcB | AcAF | G2z2 :|
+|:\
+GBdB | Gcec | GBdB | cAGF |\
+GBdB | Gcec | BAGF | G2z2 :|
+%%begintext align
+%% Hands X back again, Down middle up again,
+%% Allemande, 1st Lady Hey with the 2d and 3rd
+%% Gent., 1st Gent. (at same time) Hey with the 2 and
+%% 3rd Lady.
+%%endtext

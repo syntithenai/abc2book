@@ -1,0 +1,34 @@
+X: 341
+T: Lament for the Death of Hugh Allan
+C: by Wm Christie
+R: lament, air
+N: This is version 2, for ABC software that understands trailing grace notes, cresc/diminuendo symbols and voice overlays.
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c." p.34 #1
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: C
+L: 1/8
+Q: "Lento Pathetic"
+K: Am
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+~A>B |\
+(c>A) (TB3/A//B//) {B}A2 (E>D) | pC2 (DG/F/) E2 (A>PB) & x2B,2 C2x2 |\
+p[c2A2] (T[d2B2]{cd}) [e3c3]P[dB] | [c2A2] T([B2^G2]{AB}) [A2E2C2] :|\
+(~c>d) |\
+"_cres."[e2c2] [fd][dB] [e3c3]d | !p!(dc)(BA) {A}^G2 (~A>B) |
+(~c>d) (e/g/f/e/) {e}H[d2B2] {cd}[ec]>[dB] | [c2A2]{A}T[B2^G2] {AB}[A2E2C2] ~c>d ||\
+"_cres."[e2c2] [fd][dB] [e3c3] d | Q({e}dqc) Q({c}BqA)Q(TA2{GA}qG) A/>B/ |\
+"_Exp.o"c>AB>^G A[FD]H[EC] z/D/ | (C<[cA]) T([B2^G2]{AB}) [A2E2C2] |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | A2eE A3B | ce/d/ gG [c3C3]B | Aa gG c>Bcd | e2E2 A2 :| z2 | c'c gG ce/g/ c'z | (ba^ga) e2c'>b |
+abc'f H[g2G2]c>d | edeE A2e>d || cc' Gg ce/g/ c'z | (Bcd^d) e2Ez | a2e2 ABHc z/d/ | e2E2 A2 :|
+% = = = = = = = = = =

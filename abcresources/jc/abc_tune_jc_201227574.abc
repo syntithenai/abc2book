@@ -1,0 +1,38 @@
+X: 10871
+T: COTILLION No. 9. tune 3
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.87 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: There are diminuendos between the 1st and 2nd staves, but it's not clear which they refer to.
+N: Transcribed as diminuendos above the 2nd staff, since most diminuendos are above the staff in this book.
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B |\
+B2F F2D | D2B, B,2F | GAB e2d | c2c (c<f)B |\
+(B<d)F F<BD | (D<F)B, B,DF | GAB {d}c>BA | B2B B2 H|]
+d |\
+Tc2F FBd | Tc2F FBd | Tc2"dim  .  .  ."d Tc2d | ccc c2F |\
+B2B A2A | G>AB c2B | A2A {A}G>FG | F2F  F>GA |\
+B2B, B,DF | "dim  .  .  ."_A2A G2G |
+c2C C=EG | B2B A>FG/A/ |\
+BFG FDB, | FFF F2 (3(B/c/d/) | c2 (3(B/c/d/) c2 (3(B/c/d/) | ccc c2F |\
+G>AB c>de | A>GF B2c |  d>ed {d}c>Bc | BBB "^D.C."B2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple chassa to the centre,
+%% and balata,
+%% chassa back and balata,
+%% swing 3 on each side,
+%% the lade with the couple on her right,
+%% the gentleman with the couple on his left,
+%% swing your partner to the centre,
+%% chassa de chassa with your partner,
+%% swing to place,
+%% next coupl3 perform the same, &c.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

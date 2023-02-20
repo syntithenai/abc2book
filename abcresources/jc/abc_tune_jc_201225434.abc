@@ -1,0 +1,25 @@
+X:950
+T:Ther's three good fellows ayont yon glen
+R:Slip Jig
+O:Scotland
+S:Gibbon's Collection of Scots tunes
+B:Gibbon's Collection of Scots tunes
+Z:Transcription, chords:Mike Long
+M:9/8
+L:1/8
+K:F
+V:1 stv=2
+V:1 clef=treble
+V:2 clef=bass
+[V:1]B|\
+[V:2]z|\
+[V:1]"Gm"G3 DGA B2c|"F"F3 CFA "C"c2 d|\
+[V:2]G,3 G,,3 z3      |F,3 F,,3 z3         |\
+[V:1]"Gm"BAG DGA BdB|"F"cBA Ad^F "Gm"G2:|
+[V:2]G,3 G,,3 G,3       |C,3 D,3           G,,2:|
+[V:1]|:d|\
+[V:2]|:z|\
+[V:1]"Gm"g2 G B2 d bag|"F"a2 c A2 c faf|\
+[V:2]G,3 G,,3          G,3|F,3 F,,3         F,3|\
+[V:1]"Gm"bag f_ed cBA|"F"BAG ^FdD "Gm"G2:|
+[V:2]G,3 G,,3         G,3|C,3 D,3           G,,2:|

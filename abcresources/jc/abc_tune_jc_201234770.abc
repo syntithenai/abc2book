@@ -1,0 +1,26 @@
+X: 20771
+T: la SUISSESSE AU BORD DU LAC
+O: French air.
+Q: "Moderate."
+%R: air, waltz, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.77 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+B3 A2B | G3 GDG | B3 BAB | d2c A2z |\
+A3 cBA | E3 E2F | G2G GAB | (A3 {cB}A2)z |\
+d3 DEF | G3- G2D | BAG BAG | d3 A2z |
+B2A c2B | A3- A2G | F2G E2F | D3- D2z |:\
+d3 B2G | (A3 {cB}A2)z | d3 B2G | {B}A3- A2z |\
+B3 Bcd | E^GA cBA | G3 B2A | G3 G2z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The song beginning "Far o'er the lake," &c. is sung to the above air.
+%%endtext
+%%sep 1 1 300

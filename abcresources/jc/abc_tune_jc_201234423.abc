@@ -1,0 +1,37 @@
+X: 20501
+T: BRICKLAYER'S HORNPIPE
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" 1843 p.50 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+c2 |\
+cBcA FAcf | fege cdcB | cBdB BAcA | AGBG FEDC |\
+cBcA FAcf | fege cegb | baag gfeg | f2a2f2 :|
+|:\
+G2 |\
+G^FGE CEGB | BAcA FAcf | dfcf dfcf | dgba gfed |\
+cBdB FAcf | fege cegb | baag gfeg | f2a2f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+AGAF CFAc | AGBG ABAG | AGBG GFAF | FEGE DCB,A, |\
+AGAF CFAc | AGBG FBeg | gffe edce | A2c2A2 :|
+|: z2 |\
+EDEC G,CEG | GFAF CFAc | BdAc BdAc | Begf edcB |\
+AGBG CFAc | AGBG Aceg | gffe edce | A2c2A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+f4 f4 | f4 f4 | b4 a4 | B4 c4 |\
+f4 f4 | f4 c4 | f4 c4 | f2c2f2 :|
+|: z2 |\
+c4 c4 | B4 f4 | b4 b4 | B4 B4 |\
+f4 f4 | c4 c4 | b4 b4 | f2c2f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %sep 1 1 300

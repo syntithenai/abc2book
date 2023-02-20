@@ -1,0 +1,23 @@
+X: 1362
+T: Gigg
+%R: jig
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.36 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+B |:\
+(A/B/c).E EFE | Edc BAB | (A/B/c)E EFE | AcB AFB |\
+(A/B/c).E EFE | Edc def | ecA Bcd | cdB AFB ::
+Ace Ace | Ace fdB | Ace fga | AcB AFB |\
+Ace Ace | Ace efg | Taga ecB | AcB AFB :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |:\
+a3 a3 | a3 e3 | a3 A3 | A3 d3 |\
+a3 A3 | a3 d3 | A3 e3 | a3 a3 ::
+a3 a3 | a3 d3 | a3 d3 | A3 d3 |\
+a3 a3 | a3 a3 | a3 e3 | a3 a3 :|

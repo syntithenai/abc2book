@@ -1,0 +1,81 @@
+
+X: 1
+T: Moldavian Zhok #1   [Dm]
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: printed copy of unknown origin
+Q: "Zhok"
+M: 3/8
+L: 1/16
+Q: 3/8=120
+K: Dm
+|:\
+"Dm"A,3DEF | E3D (3AFD | "Dm"A,3DEF | E3D (3AFD | A,3DEF | "Gm"G3FED |\
+[1,3 "E7"^G3FED | "A"A3A,{C}B,A, :|2,4 "E7"^G3F"A7"EF | "Dm"D6 :|
+|:\
+"Dm"d4"D7"c2 | "Gm"B3A"C7"B=B | "F"c2A4- | A6 |\
+"Gm"B4A2 | G3^FG^G | "A7"A6- | A6 |
+"Gm"G4F2 | "A7"E4G2 | "Dm"F4E2 | D4F2 |\
+"A7"E3A,^CE |\
+[1 A3GFG | "Dm"A6- | "(A7)"A6 :|\
+[2 "A7"A3GFE | "Dm"D3AFA | D3C"C7"DC |]
+|:\
+"F"A6- | A3C"(C7)"DC | "F"A6- | A3A"(C7)"B=B |\
+"F"c3_cBA | "C7"G3ABd | "F"c2A4- | A3C"(C7)"DC |
+"F"A6- | A3C"(C7)"DC | "F"A6- | A3AGF |\
+"A7"E3D^CB, | ^C3GFE | "Dm"D3A,FA, | D6 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Moldavian Zhok #1   [Em]
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: printed copy of unknown origin
+Q: "Zhok"
+M: 3/8
+L: 1/16
+Q: 3/8=120
+K: Em
+|:\
+"Em"B,3EFG | F3E (3BGE | "Em"B,3EFG | F3E (3BGE | B,3EFG | "Am"A3GFE |\
+[1,3 "F#7"^A3GFE | "B"B3B,{D}CB, :|2,4 "F#7"^A3G"B7"FG | "Em"E6 :|
+|:\
+"Em"e4"E7"d2 | "Am"c3B"D7"c^c | "G"d2B4- | B6 |\
+"Am"c4B2 | A3^GA^A | "B7"B6- | B6 |
+"Am"A4G2 | "B7"F4A2 | "Em"G4F2 | E4G2 |\
+"B7"F3B,^DF |\
+[1 B3AGA | "Em"B6- | "(B7)"B6 :|\
+[2 "B7"B3AGF | "Em"E3BGB | E3D"D7"ED |]
+|:\
+"G"B6- | B3D"(D7)"ED | "G"B6- | B3B"(D7)"c^c |\
+"G"d3_dcB | "D7"A3Bce | "G"d2B4- | B3D"(D7)"ED |
+"G"B6- | B3D"(D7)"ED | "G"B6- | B3BAG |\
+"B7"F3E^DC | ^D3AGF | "Em"E3B,GB, | E6 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Moldavian Zhok #1   [Bm]
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: printed copy of unknown origin
+Q: "Zhok"
+M: 3/8
+L: 1/16
+Q: 3/8=120
+K: Bm
+|:\
+"Bm"F3Bcd | c3B (3fdB | "Bm"F3Bcd | c3B (3fdB | F3Bcd | "Em"e3dcB |\
+[1,3 "C#7"^e3dcB | "F#"f3F{A}GF :|2,4 "C#7"^e3d"F#7"cd | "Bm"B6 :|
+|:\
+"Bm"b4"B7"a2 | "Em"g3f"A7"g^g | "D"a2f4- | f6 |\
+"Em"g4f2 | e3^de^e | "F#7"f6- | f6 |
+"Em"e4d2 | "F#7"c4e2 | "Bm"d4c2 | B4d2 |\
+"F#7"c3F^Ac |\
+[1 f3ede | "Bm"f6- | "(F#7)"f6 :|\
+[2 "F#7"f3edc | "Bm"B3fdf | B3A"A7"BA |]
+|:\
+"D"f6- | f3A"(A7)"BA | "D"f6- | f3f"(A7)"g^g |\
+"D"a3_agf | "A7"e3fgb | "D"a2f4- | f3A"(A7)"BA |
+"D"f6- | f3A"(A7)"BA | "D"f6- | f3fed |\
+"F#7"c3B^AG | ^A3edc | "Bm"B3FdF | B6 :|

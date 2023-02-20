@@ -1,0 +1,16 @@
+X: 1
+T: Finlandia
+P: piffero primo a0867
+C: Jan Sibelius
+%R: air, march
+F: http://ancients.sudburymuster.org/mus/sng/pdf/finlandiaC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: G
+[| zBAB | c3B | ABG>A | AB3 |\
+zBAB | c3B | ABG>A | B4 |\
+zddd | e3B | Bdd>A | Ac3 |
+zcBA | B3G | GA A>B | B4 |\
+zddd | e3B | Bdd>A | Ac3- |\
+ccBA | B3G | GAA>G | G4 |]

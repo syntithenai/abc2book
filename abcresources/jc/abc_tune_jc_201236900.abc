@@ -1,0 +1,19 @@
+X: 2352
+T: Madam Cassey
+%R: jig
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.35 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em	% and G
+% - - - - - - - - - -
+V: 1 staves=2
+A |\
+G2E-TE>FE | D2D- D>ED | G2E- TE>FE | G3 B2A | G2E- TE>FE | D2D- D>ED | G2E- TE>FE | G3 B2 |: A | TG2A TB2c |
+d2e Td2B | TG2A TB2c | d3 Tc2d |[1 e2c d2B | c2A B2A | G2E TE>FE | c3 B2 :|[2 edc dcB | cBA TBAB | G2E EFE | c3 TB2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+e3 e3 | d3 d3 | e3 B3 | e3 e3 | e3 e3 | d3 d3 | e3 B3 | e3 E2 |: z | g3 g3 | 
+g3 g3 | g3 g3 | g3 g3 |[1 f3 g3 | a3 b3 | e3 B3 | e3 e2 :|[2 f3 g3 | a3 b3 | e3 B3 | e3 E2 |]

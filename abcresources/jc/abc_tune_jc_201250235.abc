@@ -1,0 +1,16 @@
+X: 1
+T: Bannielou Lambaol (A)
+O: Brittany
+%level: 1
+Z: 1997 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/8
+K: A
+[| "E7"EE FG | "A"A2 A2 \
+| "E7"EE FG | "A"A4 \
+| "F#m"cB cB | "D"AF F2 \
+| "E7"EB BG | "A"A2 A2 ||
+|| "A"EA AA | "E7"BA/G/ "A"AA \
+| EA AA | "E7"BA/G/ "A"A2 \
+| c2ce | "D"ed cB \
+| "E7"Bd cB | "A"A2 A2 | z2 |]

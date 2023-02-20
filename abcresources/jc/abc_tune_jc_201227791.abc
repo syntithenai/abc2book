@@ -1,0 +1,20 @@
+X: 10992
+T: WALTZ
+C: Henry Herz
+Q: "Sempre staccato."
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.99 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Both strains have final repeats, but no initial repeat; fixed.
+M: 3/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!p!.G2 |\
+.G.G.A2.B2 | .c.c.d2.e2 | .e.e.d2.a2 | .a.a.g2.e2 |\
+.G.G.A2.B2 | .c.c.d2.e2 | .e.e.d2.g2 | c4 :|\
+|: !p!.e2 |\
+.e.e.e2.a2 | .^g.g.g2.d2 | "^cres.".d.d.d2.g2 | .^f.f.f2.c2 |\
+!f!.c.c.c2.a2 | .g2.f2.e2 | (ed).f2.B2 | c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

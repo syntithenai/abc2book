@@ -1,0 +1,21 @@
+X:1
+T: Sweet Baby James Waltz
+I:
+C: W-21
+C: Aram Hollman
+M: 3/4
+Z:
+R: waltz
+% %staffwidth 12.5cm
+K: A
+(3::2e2d| "F#m"c2 (F2 (3::2F2)F| F4 (3::2F2E| "D"D2 (A2 (3::2A2)B| A4 f2|
+          "A"e4 c2| (c2 (3::2c2)B A2| "Bm"B6-| "E"B4 (3::2e2d|
+          "F#m"c2 (F2 (3::2F2)F| F4 (3::2F2E| "D"D2 (A2 (3::2A2)B| A4 f2|
+          "A"e4 c2| "E"(B2(3::2B2)A B2| "D"A6-| "A"A2 c2 e2|]
+\
+       "F#m"f4 (3::2f2e| "D"(f2 (3::2f2)e f2| "A"(3::2ec2- c2B2| A2 c2 e2|
+       "D"f4 f2| "A"(3::2ec2- c2 e2| "F#m"f6-| f2c2e2|
+       "F#m"f4 (3::2f2e| "D"(f2 (3::2f2)e f2| "A"(3::2ec2- c2B2| (A2 (3::2A2)B c2|
+       "Bm"B4 (3::2B2 c| "C#m"B2 A2 E2| "D"F2 (A2 (3::2A2)A| "E"B4 (3::2e2 d|
+       "F#m"c2 (F2 (3::2F2)E| "D"F2 (A2 (3::2A2)B| "A"A6-| A4|]
+%

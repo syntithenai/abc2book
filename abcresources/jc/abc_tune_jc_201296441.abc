@@ -1,0 +1,10 @@
+X:4
+T:Key signature, Accidentals and Decorations
+M:C
+L:1/4
+K:A
+| ^C=C_C ^G=G_G | .F/.G/.A/ Ma/Mg/Mf/ Jc J^c  J[c^f] J[c^g]  \
+| {f}e {C}D {cd}c {dedc}d | {E^c}a2 | uc vc'-c'/Mb/Mc'/Ma/ || [K:Bb]
+(b4 \
+| b/).a/.b/.c'/ (b/f/d/B/) | ~A ~g RA Rg | MA Mg kA kg \
+| KA Kg vf/-g/ (u.a/.b/)  | uR~M.c2  Hg4 |]

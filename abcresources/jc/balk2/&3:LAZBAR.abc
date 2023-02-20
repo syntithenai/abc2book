@@ -1,0 +1,24 @@
+X: 263
+T:Laz Bar
+O:Armenian
+F: http://www.youtube.com/watch?v=_-Go-zRQm10
+F: http://www.youtube.com/watch?v=rGwReGbHkBI
+S:from record Folkdance Underground F.U.1
+L:1/8
+M:7/8
+Q:1/4=210
+K:Dm
+%%MIDI program 0 Acoustic Piano
+%%MIDI beatstring fpppmpp
+    A=Bc      |:  d2 d2 dc=B   |c2 c2 cBA   | B2 B2 BAG   | A2 A2 A3  :|
+|:  G2 c2 c2 G| c2 c2 c2 G     | c2 c2 c3   | d e2 e2 d2  :|
+|:  c2 d2 BAG | A2 A2 B3       |c2 d2 BAG   | A2 A2 A3    :|
+|:  G2 c2 c2 G| c2 c2 c2 G     | c2 c2 c3   | d e2 e2 d2  :|
+|:  c2 d2 e3  | e2 e2 edc      | d2 d2 dc=B | c2 c2 c3    :|
+|:  d2 d2 dc=B| c2 c2 cBA      | B2 B2 BAG  | A2 A2 A3    :|
+|:  c2 d2 e3  | e2 e2 edc      | d2 d2 dc=B | c2 c2 c3    :|
+|:  d2 d2 dc=B| c2 c2 cBA      | B2 B2 BAG  | A2 A2 A3    :|
+|:  d2 d2 c=BA| A=Bcd BG2      | A2 A2 d3   |d2 d2 c=BA   | A=Bcd BG2 | A2 A2 A3 :|
+|:  c2 d2 =B2G| A2 A2 d3       | c2 d2 =B2 G| A2 A2 A3    :|
+|:  c2 d2 e3  | e2 e2 edc      | d2 d2 dc=B | c2 c2 c3    :|
+|:  d2 d2 dc=B| c2 c2 cBA      | B2 B2 BAG  | A2 A2 A3    :|

@@ -1,0 +1,36 @@
+X:78
+T:The Wild Rose of the Mountain #1
+M:3/4
+L:1/8
+K:G major
+%
+V:1 clef=treble
+%
+uD2 |: "G"(vG4 D2) | "D"(!4!A4 D2) | "G"B3 c d2 | "C"e3 f g2 | \
+"G/B"(d3 e d2) | "G"(B4 G2) |"A"!4!A6- |
+%
+ "D"A4 uD2 | "G"(G4 D2) | "D"(!4!A4 D2) | "G"B3 c d2 | \
+"C"e3 "D"f g2 |"G"d3 B G2 | "D"(!0!A4 B2) | "G"vG6 |
+%
+[1 G4 D2 :| [2 G4 ud2 | "G"(vd B3) ud2 |"D"(vd c3) d2 | "D"(vf4 {gf}ef) |\
+"G"(ug4 d2) | "C"ve3 f g2 | "G"(d4 B2) |
+%
+"A"A6- | "D"A4 ud2 | "G"(vd B3) d2 |"D"(d c3) d2 | "D"(vf4 {gf}ef) |\
+"Em"g4 fe| "G"d3 B G2 |"D"(A4 B2) |
+%
+"G"G6- | G4 ud2 | "G"(d B3) d2 | "D"(d c3) d2 | "D"(vf4 {gf}ef) |\
+"Em"g4 fe | "G"(d4 e2) | "Em"(d4 B2) | "A"vA6- |
+%
+"D"A4 (GF) | "C"vE3 F G2 |"D"F3 G A2 | "G"B3 c d2 | "C"(ue3 f) Hg2 |\
+ "G"ud3 B G2 | "D"(uA4 B2) | "G""_rit."vG6- | uG4 |]
+%
+V:2 clef=treble
+%
+D2 |: vB,4 uD2 | C4 uD2 | G,3 A, B,2 | C3 D E2 | B,3 C B,2 | (G,4 B,2) |
+(A,2 ^C2 E2) | .D4-.D2 | B,4 z2 | C4 z2 | G,3 A, B,2 | C3 D E2 |
+B,6 | (C4 D2) | C6 | B,4 D2 :| B,4 B2 | (B, G,3) B,2 |
+(B, A,3) B,2 | (vD4 {ED}C2) | B,6 | C3 D E2 | (B,4 G,2) | (vA,2 ^C2 E2) |
+(D4 B,2) | (B, G,3) B,2 | (B, A,3) B,2 | (vD4 {ED}CD) | (B,4 A,2) | B,6 |
+(C4 D2) | C6 | (B,4 B2) | (B G3) B2 | (B A3) B2 | (d4 {ed}cd) |
+(B4 A2) | (B4 c2) | (B4 G2) | (A,2 ^C2 E2) | D4 ED | C3 D E2 |
+D3 E F2 | G3 A B2 | (uc3 d) vHe2 | vB3 uG vD2 | uC4 D2 | vC6 | uB,4 |]

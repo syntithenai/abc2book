@@ -1,0 +1,55 @@
+%
+%%tabaddflags    1
+%%tabrhstyle     grid
+%%taballflags    yes
+%%tabbrummer     123
+%%tabfontgerman  deFraktur
+%%titleleft      yes
+%%staffsep       30.0pt
+%%musicspace     0.50cm
+%
+X:1
+T:Le content est riche (Sermisy)
+C:Matthäus Waissel
+C:Tabulatura (1573) nr. 9
+B:Facsimile available from Cornetto
+M:none
+L:1/2
+K:germantab
+%
+,d//abd [fd]d f///dfg |\
+	f//,,d[da]b [ab//] ,,d///,a ,b,dab |\
+	[da//]abd [b,da]a b///a,d,b |\
+	[,d,a//],,,c[,ddd],,b [a,d,a///],,b,,d,a ,b//[,d,,c] |
+%
+[a,,cd//]b[d,,c],,,a [,,bc]b [a,b,d/] |\
+	[,d,df//],f[,,g,f],d [a,,ca/] ,,d///,a,b,,d |\
+	[,a,c///],b,d,a [ab//] ,d///a ba,d,b [da//],,,c |\
+	[,,dd//]f[dd,f],g [abd//] ,d///a [b,,,a//]a |
+%
+[,d,db//]b [a,,,d/] [,d,df] [a,b,,d] |\
+	[ad,,b//],,,d[,d,cb],,,a [,d,ca] ,c///,a,d,c ,d////,c,a,c ::\
+	[,dda/] ,,d3/8 ,,b////,,d [,db3/8] ,,,d////,,b [,,dd3/8] ,,b////,,d |\
+	[,,bc/] [,,dd//] ,a///,b [,d,c],b,a,,d [,acc//] ,,d////,,c,,a,,c |
+%
+[,,dd///],,b,,d,a [fb],dab [da,c/] [b,da//] d////ba,d |\
+	[abd//] ,d////abd f///,b,a,,d [aa,c],eac ea c////ace |\
+	[f,d,a/] [b,da//]d [b,da///]a,d,b [,dda]ab,d |
+%
+[a,d,a/] [a,d] [a,b,d//],,d,,b,,,,c |\
+	[fb,,a//],,,,,d[,,d,,b][d,e] [f,dd/] [d,e,b] |\
+	[,,da//]b[b,b],,,d [ab,,d///],a,b,d a,b,da |\
+	[b,d,,b/] ,,,d ,d///,b,da ,dabd |\
+	[fd,a/] [,d,a] [f,dd] [f,d//],,,f |
+%
+[abd//] a///,d ,b,dab [da,c//] a///b dabd |\
+	[b,da///]abd ba,d,b [,dda//] ,b///,a ,,d////,,b,,a,,b ,,d,a,b,d |\
+	[a,d,a//],a,b[,d,,c] [a,,cd]b[d,,c],,,a |
+%
+[,,bc//]b [a,,cd/] [,d,a///],b,da b////a,d,b a///,d |\
+	[a,,ca//] b///a ,d,b,a,,d [,a,c],b,d,a ,b//a |\
+	b///,dab [da,c/] [f,dd///]dgf [dd,f///],g,f,d |
+%
+[abd///]bda [b,,,a]a,d,b [,d,db]ab,d [a,,,d],d,b,a |\
+	[,d,df//] ,f///,g [a,b,,d/] [ad,,b//],,,d[,d,c],,,a |\
+	[,d,ca//] ,c///,a,d,c ,d////,c,a,c H[,dda1] |]

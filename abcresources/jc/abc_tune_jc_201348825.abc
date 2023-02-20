@@ -1,0 +1,17 @@
+X: 1
+T: Valse Beaulieu
+C: trad.
+O: Qu\'ebec
+S: http://pascalgemme.com/tradquebec/valse-des-poeles-valse-beaulieu/ via ECD list 2018-4-13
+N: Pascal jumps back to the 1st part's ending for the last 4 bars of the 2nd part.
+R: waltz
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+z Bd |\
+"G"G3 A Bd | "Em"G3 B "/D"AF | "C"E2 ED EF | "D7"ED D2 BA |\
+"G"G3 A "/F#"Bd | "Em"G3 B "/D"AF | "C"E2 ED "D7"GF | "G"G3 :|
+|: A Bd |\
+"G"g3 f ed | "Em"B2 BA "/D"Bd | "C"E2 ED EF | "D7"ED D2 Bd |\
+"G"g3 f "/F#"ed | "Em"B2 BA "/D"BA | "C"E2 ED "D7"GF | "G"G3 :|

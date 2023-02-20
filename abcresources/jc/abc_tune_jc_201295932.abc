@@ -1,0 +1,20 @@
+X:377
+T:Katie the Nuisance
+T:Trijntje Lollepot
+C:Playford 1695, arr. Pat Shaw
+%%subtitlefont Times-Roman 20
+N:The tune is a slight variant of "Red House".
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=120
+M:2/2
+L:1/8
+K:Gm
+P:A
+|: BA | "Gm"G2g2 g2fe | "Gm"d4 B4 | "F"F2f2 f2ed | "F"c4 "D"A4 |\
+"Gm"G2g2 g2fe | "Gm"d4 B4 | "F"cBAG "D"^F2GA | "Gm"B2G2 G2 :|
+P:B
+|: "D"Bc | "Gm"dcBA GABc | "Gm"d4 B4 | "F"cBAG FGAB | "F"c4 "D7"A4 |\
+"Gm"dcBA GABc | "Bb"d4 B4 | "Cm"cBAG "D"^F2GA | "Gm"B2G2 G2 :|
+P:C
+|: "F"Bc | "Bb"d2d2 d2Bc | "Bb"dcde d2AB | "F"c2c2 c2AB | "F"cBcd "D7"c2Bc |\
+"Gm"d2d2 d2Bc | "Gm"dcde d2cB | "D"AG^FG ABcA | "Gm"B2G2 G2 :|

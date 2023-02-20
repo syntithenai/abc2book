@@ -9,13 +9,16 @@ export default function useTextSearchIndex() {
   var abcTools = useAbcTools()
   
   function loadTextSearchIndex(index, callback) {
+      //console.log('load index')
     return new Promise(function(resolve,reject) {
       if (index.tokens && Object.keys(index.tokens).length > 0) {
+          //console.log('load index already loaded')
         setTextSearchIndex(index)
         resolve(index)
       } else {
         // load the index from online
           var a=process.env.NODE_ENV === "development" ? 'http://localhost:4000/textsearch_index.json' : '/textsearch_index.json'
+          //console.log('load index get')
           axios.get(a).then(function(index) {
             //console.log('got index',index)
             setTextSearchIndex(index.data)

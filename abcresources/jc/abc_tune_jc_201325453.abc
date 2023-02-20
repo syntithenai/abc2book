@@ -1,0 +1,20 @@
+%%text Simplified version: "Just the notes", no slurs or bowings, E-dorian key signature.
+X: 1
+T: Polska efter Snickar-Erik   [Dm]
+C:
+R: polska
+S: Fiddle Hell Online 2021-5-25 Natalie Haas Swedish polska workshop
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Ddor
+% - - - - - - - - - -
+V: 1 staves=2
+"^A"|:   "A"z2g fzd ez^c | dze egf efg | azf de2 ^c2d |1,3 efe d^c2 A3 :|2,4 "Dm"d3 d6 :|
+"^B"|:{G}"Dm"FzG EzF DzF | "G"Azc dcB AzG | "Dm"FzG EzF DzF |1,3 "G"GzB "A"AF2 "Dm"DzG :|2,4 "G"GB2 "A"A6 :|
+% - - - - - - - - - -
+% - - - - - - - - - -
+%P: Second voice - se same slrs!
+V: 2
+"^A"|: z2e dzB ^czA | Bz^c ded cde | fzd B^c2 A2B |1,3 ^cdc BA2 E3 :|2,4 F3 F6 :|
+"^B"|:{E} DzE ^CzA, DzE | FzA BAG FzE | DzE ^CzA, DzD |1,3 EzG FD2 A,zE :|2,4 ED2 ^C6 :|

@@ -1,0 +1,19 @@
+X: 3043
+T: CUT AND DRY
+Q:"Strathspey."
+R: Strathspey.
+%R:strathspey
+B: James Kerr "Merry Melodies" v.3 p.7 #43
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Added flag in last bar, to fix the rhythm (to be like bar 4).
+M: C
+L: 1/8
+K: G
+uc |\
+B>G (B/c/d/c/) (B<G) B2 | g>GB>A G<dd>c |\
+B>G (B/c/d/c/) (B<G) B2 | (3cdc (3BcB (A<d) d ::\
+f |\
+g<b e>g d>gB>g |
+d>GB>A G<d d>f |\
+[1 g>be>g d>gB>g | a<A c>B Aee :|\
+[2 (3gbg (3faf (3ege (3dgd | (3cac (3BgB A<e e |]

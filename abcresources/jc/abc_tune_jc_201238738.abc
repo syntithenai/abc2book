@@ -1,0 +1,27 @@
+X: 3123
+T: Dancing Sett.    or Wishaw's Delight.
+%T: Over the Water to Charlie
+%R: jig
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.12 #3 (and top 2 staffs of p.13)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has an initial repeat but no final repeat; not fixed.
+N: It depends on whether your dancers need 32 or 48 bars.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+D2A- AFA | (B/c/d).F TE2D | (DF)A (AF).A | TB>AB def ||\
+DFA AFA | B>cd AFD | dfd ecA | TB3 {AB}d3 ::
+dfd ecA | {Bc}d2F TE2D | dfd ecA | TB3 ({AB}.d2.A) ||\
+dfd ecA | {Bc}d2F TE2D | D2A- AFA | TB3{AB} d2A ||
+dfd ecA | B>cd AFD | dfd ecA | TB3 {AB}d2f/g/ ||\
+agf edc | Td>cB AFA | DFA AFA | TBAB H[dd3]ef  |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+d3 d3 | d3 d3 | d3 d3 | g3 f3 || d3 d3 | g3 f3 | d3 a3 | g3 [d3f3] ::
+d'3 a3 | b3 g2f | d3 a3 | g3 f3 || d3 a3 | g3 a3 | f3 d3 | g3 [d3f3] ||
+d'3 c'3 | b3 f3 | d3 f3 | g3 f3 || d3 a3 | b2g f3 | d3 f3 | g3 [d3f3] |]

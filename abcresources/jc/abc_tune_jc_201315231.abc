@@ -1,0 +1,24 @@
+X:516
+T:My Love is like a Red, Red Rose
+C:Traditional Scottish
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%MIDI gchord bb
+%%MIDI program 74
+%%MIDI chordprog 50
+%%MIDI bassprog 54
+Q:1/2=104
+K:G
+P:A
+DB, | "G"G,3G, | A,2 B,2 | "Em"G3F | "Em"E2 "G/B"D2 | "C"E3D | "C"E2 G2 | "D"A4- | "D7"A3 (3G/A/B/ |
+P:B
+"G"G,3G, | A,2 B,2 | "Em"G3F | "Em"E2 "G/B"D2 | "C"E3D | "Am"E2 "D"F2 | "G"G2- "C"G2- | "G"G2 "D7"D2 |
+P:C
+"G"G2 B2 | "G7"A2 G2 | "C"EG3 | "G/D"D2 B,2 | "D"D3D | "C"c2 "G"B2 | "D"A4 | "D7"d3c |
+P:D
+"G"B2 d2 | "G7/A"B2 "G7/B"G2 | "C"EG3 | "G/D"D2 B,2 | "D"D3D | "C"E2 "D"F2 | "G"G2- "C"G2- | "G"G2 "D7"dB |
+P:E
+"G"G3G | A2 B2 | "Em"g3f | "Em"e2 "G/B"d2 | "C"e2-"C/B"ed | "Am"e2 "Am/G"g2 | "D/F#"a2-"D/E"a2- | "D7"a3 (3g/a/b/ |
+P:F
+"G"G3G | A2 B2 | "Em"g3f | "Em"e2 "G/B"d2 | "C"e2-"C/B"ed | "Am"e2 "D"f2 | "G"g4- | "G"g2 |]

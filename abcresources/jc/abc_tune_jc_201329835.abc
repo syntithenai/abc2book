@@ -1,0 +1,43 @@
+X:621
+T:Remmerts of Herford
+%%scale 0.69
+%N:For the dance "Trip to Bavaria"
+M:2/2
+L:1/4
+Q:1/2=116
+K:A
+[| E | "A"EAAc | "A"cee2 | "A"e2 "F#7/A#"f3/e/ | "Bm"eddE |\
+"E"EGGB | "E"Bee2 | "E"g3/f/ "Eaug"g3/f/ | "A"fe "E7"fe |
+"A"EAAc | "A"cee2 | "A"e2 a3/g/ | "D"gff2 |\
+"E7"gfgf | "A"fefe | "E7"e3/d/ cB | "A"A3 E |
+"A"EAcA | "A"EAcA | "A"c2 "F#/A#"d3/c/ | "Bm"cBBE |\
+"E"EGBG | "E"EGBG | "E"g3/f/ "Eaug"g3/f/ | "A"fe "E7"fe |
+"A"EAcA | "A"EAcA | "A"e2 a3/g/ | "D"gff2 |\
+"E7"gfgf | "A"fefe | "E7"e3/d/ cB | "A"A3 |]
+N:Replace by blank line and X field
+T:The Liberton Pipe Band
+L:1/8
+Q:1/4=116
+%%MIDI chordname dim 0 3 6 9
+M:2/4
+K:D
+"D"AB/A/ FA | "/"dA f2 | "A7"fe/f/ gc | "D"d/c/d/e/ fa |\
+"D"AB/A/ FA | "/"dA f2 | "A7"fe/f/ gc | "D"ed dc/d/ ||
+"A"ef/e/ ce | "/"ac e2 | "E7"ef/e/ dB | "A"fe "E7"c2 |\
+"A"ef/e/ ce | "/"ac e2 | "E7"ef/e/ dB | "A"BA A2 ||
+"A"Ac ce | "/"ef/e/ c2 | "E7"ef/e/ dB | "A"fe c2 |\
+"A"Ac ce | "/"ef/e/ c2 | "E7"ef/e/ dB | "A"BA "A7"A2 ||
+"D"af "Adim"fa | "A"ef/e/ c2 | "E7"ef/e/ dB | "A"Ac "A7"ce |\
+"D"af "Adim"fa | "A"ef/e/ c2 | "E7"ef/e/ dB | "A"BA A2 |]
+N:Replace by blank line and X field
+T:Swiss Polka
+B:James Kerr "Merry Melodies" v.4 p.43 #396
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=116
+M:2/4
+L:1/8
+K:D
+|: "D"AA/B/ AA/B/ | "/"Af d2 | "A7"Ag e2 | "D"Af d2 |\
+"D"AA/B/ AA/B/ | "/"Af d2 | "A7"Agec | "D"d3 z :|
+|| "E7"e(3d/e/d/ B^g | "A"ac e2 | "E7"dB e2 | "A"cA e2 |\
+"E7"e(3d/e/d/ B^g | "A"aA cf | "E7"eE ^GB | "A"Aa "A7"a "_D.C."z |]

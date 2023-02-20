@@ -1,0 +1,26 @@
+X:1
+T: Mr. Epstein's Esplanade
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:Am
+I:speed 165
+%W:         A1
+% voice 1 (1 lines, 42 notes)
+K:Am
+M:6/8
+L:1/16
+E2 |A2 B2 c2 B2 A2 ^G2 A2 E2 E2 E4 F2 G2 F2 E2 F2 E2 D2 E6E4 E2 |A2 B2 c2 B2 A2 ^G2 A2 e2 d2 c2 B2 A2 c2 B2 A2 B2 A2 ^G2 A6A4 E2 |
+%W:         A2
+% voice 1 (1 lines, 42 notes)
+A2 B2 c2 B2 A2 ^G2 A2 E2 E2 E4 F2 G2 F2 E2 F2 E2 D2 E6E4 E2 |A2 B2 c2 B2 A2 ^G2 A2 e2 d2 c2 B2 A2 c2 B2 A2 B2 A2 ^G2 A6A4 c d |
+%W:         B1
+% voice 1 (1 lines, 40 notes)
+e4 e2 e2 f2 e2 d2 B2 G2 G4 B2 c2 A2 A2 A2 B2 c2 B6 e4 B2 |c2 B2 c2 d2 c2 d2 e2 f2 e2 d2 c2 B2 c2 d2 c2 B4 ^G2 A6A4 c d |
+%W:         B2
+% voice 1 (1 lines, 38 notes)
+e4 e2 e2 f2 e2 d2 B2 G2 G4 B2 c2 A2 A2 A2 B2 c2 B6 e4 B2 |c2 B2 c2 d2 c2 d2 e2 f2 e2 d2 c2 B2 c2 d2 c2 B4 ^G2 A6A4 ||

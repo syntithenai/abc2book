@@ -1,0 +1,26 @@
+X: 1
+T: Fair Phillis
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (138)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/4
+L: 1/4
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+g>ab a>bg | a3 d3 | c>BA A2G | d3- d2 :|\
+|: d |\
+d>ed d2f | f>gf b2B | B>cB B2d | d>ed g>GA |
+B2G- G>GA | B2G- G>ga | b2g- g>ag | ^f2 d- d2>ed |\
+c>fe d>gf | =e>ag ^f>ga | d>cB A2G | G3 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. cross over .| And back to back :| Change
+%% Place with your Partner, then with the 2d Cu. all four
+%% set in the Middle, then set back again and cast off .|
+%% Cross over, figure thro the 3d Cu. and Cast up :|
+%%endtext
+%%sep 1 8 500

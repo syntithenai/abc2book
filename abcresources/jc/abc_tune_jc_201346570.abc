@@ -1,0 +1,26 @@
+X:1
+T: Trip to Virginia
+N:
+C:Johnson 1750
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 35 notes)
+K:G
+M:4/4
+L:1/16
+g2 f2 g2 a2 g4 d4 |B8 A4 G4 |c2 d2 e4 c4 A4 |B2 c2 d4 B4 G4 |g2 f2 g2 a2 g4 d4 |B8 A4 G4 |e2 f2 g4 c4 B4 |A8 D8 |
+%W: A2
+% voice 1 (1 lines, 35 notes)
+g2 f2 g2 a2 g4 d4 |B8 A4 G4 |c2 d2 e4 c4 A4 |B2 c2 d4 B4 G4 |g2 f2 g2 a2 g4 d4 |B8 A4 G4 |e2 f2 g4 c4 B4 |A8 D8 |
+%W: B1
+% voice 1 (1 lines, 34 notes)
+A2 G2 A2 B2 A4 B4 |c8 d4 e4 |d4 c4 B4 A4 |B4 G4 G4 f4 |g2 f2 g2 a2 g4 d4 |e4 c'4 b4 a4 |b4 a2 g2 d4 f4 |g8 G8 |
+%W: B2
+% voice 1 (1 lines, 34 notes)
+A2 G2 A2 B2 A4 B4 |c8 d4 e4 |d4 c4 B4 A4 |B4 G4 G4 f4 |g2 f2 g2 a2 g4 d4 |e4 c'4 b4 a4 |b4 a2 g2 d4 f4 |g8 G8 |

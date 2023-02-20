@@ -1,0 +1,24 @@
+X: 1022
+T: Lewis Gordon.
+C: C
+%R: strathspey, air
+B: Niel Gow & Sons "Complete Repository" v.1 p.2 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: 10 bars.
+M: C
+L: 1/8
+Q: "VERY SLOW\nWITH~EXPRESSION."
+K: G
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+[|\
+TG>AB>A GE[A2F2D2] | TG>ABd ed{f}g2 | Tedg>B (c/B/)(A/G/) (B[AFD]) | G>A{A}B>A GEG2 |!f! G2{G}B>A GE[A2F2D2] |
+TG>ABc de/f/ {a}g>f |!p! {f}edg>B (c/B/)(A/G/) ([BG][AF]) |!f! ~G>A~B>c dD[G2D2B,2] |!p!\
+ed{f}g>B (c/B/)(A/G/) ([BG][AF]) |!f! TG>ATB>c .d.D [G2D2B,2] |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+[|\
+g2gf ec d2 | ba gf e2 B2 | [c2C2] BG ce dD | Bd gd [eG][cG] [B2G2] |!f!G2[gG][fF] [eE][cC] [d2D2] |
+G2g>a bc' bz |!p!c'2bg c'2 d'd |!f! gd Gc dD G2 |!p! c'bg=f' e'c' d'd |!f! g>d G>c dD [g2G2] |]

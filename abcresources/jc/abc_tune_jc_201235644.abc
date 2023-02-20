@@ -1,0 +1,31 @@
+X: 21281
+T: WESTMINSTER SETT (tune 1)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.128 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The low F in bar 16 should probably be a G.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="1"
+f>e |\
+d2A2 F2A2 | dfce d2cd | e2ee e2e2 | e6 de |\
+f2ff f2f2 | f2gf e2fe | d2d2 cdec | d4 z2 H|]
+d>c |\
+B2B2 c2d2 | e2f2 e2de | B2B2 c2d2 | e2fe d>c |\
+B2B2 c2d2 | e2fe | d2ed | c2dc B2cB | B[cA][dG] [eF][fA][gB]"^D.C."[ec] |]
+d2dd d2d2 | dDEF GABc | d2A2 F2D2 | Aafd Agec |\
+d2dd d2d2 | d2dd defg | fedc edcB | ABcd efg"^D.C."e |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First four chassa across and back,
+%% balance four,
+%% and turn partners,
+%% ladies chain,
+%% promenade four.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

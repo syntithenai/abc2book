@@ -1,0 +1,54 @@
+X: 1
+T: Battle of the Braes   #2   [A]
+R: march
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: fiddle w/ Ed Pearlman
+S: Boston Slow Scottish Jam 2015-5-16
+M: C|
+L: 1/8
+K: A
+(AF) |\
+EFAB c2(BA) | BcBA F2(AF) | EFAB  vcue2uA | vc2B2 B2(AF) |
+EFAB c2(BA) | BcBA FGAF   | EFAB  vcue2uc | vB2A2 A2 :|
+|: (eg) |\
+a2(fe) c2(BA) | BcBA F4   | ua2vfue vceAB | c2B2 B2(eg) |
+a2(fe) c2(BA) | BcBA FGAF | EFAB  vcue2uc | vB2A2 A2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Battle of the Braes   #2  [D]
+R: barndance
+F: https://thesession.org/tunes/5497 2015-5-23
+M: 4/4
+L: 1/8
+K: D
+dB |\
+ABde f2ed | efed B2dB | ABde fdaf | e4 e2fg |
+a2~a2 f2ed | BcdB A2de | f2af edef | d4 d2 :|
+fg |\
+a2~a2 fade | fe~e2 f2df | a2~a2 fdaf | e4 e2fg |
+a2~a2 f2ed | BcdB A2de | f2af edef | d4 d2 ||
+fg |\
+a2~a2 fade | fe~e2 f2df | a2~a2 fdaf | e4 egfe |
+defe d3A | BABd A2de | f2af edef | d4 d2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Battle of the Braes   #1
+R: march
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: fiddle w/ Ed Pearlman
+S: Boston Slow Scottish Jam 2015-5-16
+M: 3/4
+L: 1/16
+K: A
+|:\
+"A"A3B c4 c2e2 | "A"a3g "D"f4 "E"e4 | "A"e3c A4 A2c2 | "A"e3f c4 "E"B4 |
+"A"e3c A4 B2c2 | "A"e2c2 "D"a3g f4 | "E"g2a2 "A"e3d c2A2 | "E"B3c "A"A4 A4 :|
+|:\
+"A"c3d e4 e2a2 | "D"f2a2 "A"e4 cA3 | "A"c3d e4 e2a2 | "D"fgaf "A"e4 e2c2 |
+"#"dcBc "A"A4 B2c2 | "A"e2c2 "D"a3g f4 | "E"g2a2 "A"e3d c2A2 | "E"B3c "A"A4 A4 :|
+
+%%sep 1 1 500

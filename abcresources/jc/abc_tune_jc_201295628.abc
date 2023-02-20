@@ -1,0 +1,53 @@
+
+X: 1
+T: Karamfilo  [F]
+O: Makedonija
+R: lesnoto
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: F
+"I"
+|: "F"[fA][cF][fA] "(C7)"[c'e][ac] [bd][gB] | "F"[a2c2][gB] [f2A2] [gB][ac] \
+|1 "Bb"[b2d2][bd] [bd][ac] [gB][bd] | "F"[a3-c3-] [a4c4] \
+:|2 "Gm"[g3B3] "C7"[gB][fA] [eG][gB] | "F"[f3-A3-] [f4A4] :|
+"A"\
+[|"F"[F2C2][AF] [A2F2] [A2F2]  \
+| "C"[c3A3] [BG][cA] [BG][AF] \
+|1 "F"[A3F3] [AF][BG] [c2A2] \
+:|2 "F"[A3F3] "F7"[B2G2] [c2A2] ||
+"B"\
+|:"Bb"[d2B2][dB] [d2B2] [d2B2] \
+| "(C7)"[e3c3] [dB][ec] [dB][cA] | "F"[c3A3] [AF][BG] [c2A2] \
+| "Gm"[c2A2][BG] [B2G2] [B2G2] \
+| "C"[c3A3] [BG][cA] [BG][AF] \
+|1 "F"[A3F3] "F7"[B2G2] [c2A2] \
+:|2 "F"[A3-F3-] [A4-F4-] | "F"[A3-F3-] [A4-F4-] ||
+
+
+%%sep 1 1 500
+
+X: 2
+T: Karamfilo  [G]
+O: Makedonija
+R: lesnoto
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: G
+"I"
+|: "G"[gB][dG][gB] "(D7)"[d'f][bd] [c'e][ac] | "G"[b2d2][ac] [g2B2] [ac][bd] \
+|1 "C"[c'2e2][c'e] [c'e][bd] [ac][c'e] | "G"[b3-d3-] [b4d4] \
+:|2 "Am"[a3c3] "D7"[ac][gB] [fA][ac] | "G"[g3-B3-] [g4B4] :|
+"A"\
+[|"G"[G2D2][BG] [B2G2] [B2G2]  \
+| "D"[d3B3] [cA][dB] [cA][BG] \
+|1 "G"[B3G3] [BG][cA] [d2B2] \
+:|2 "G"[B3G3] "G7"[c2A2] [d2B2] ||
+"B"\
+|:"C"[e2c2][ec] [e2c2] [e2c2] \
+| "(D7)"[f3d3] [ec][fd] [ec][dB] | "G"[d3B3] [BG][cA] [d2B2] \
+| "Am"[d2B2][cA] [c2A2] [c2A2] \
+| "D"[d3B3] [cA][dB] [cA][BG] \
+|1 "G"[B3G3] "G7"[c2A2] [d2B2] \
+:|2 "G"[B3-G3-] [B4-G4-] | "G"[B3-G3-] [B4-G4-] ||

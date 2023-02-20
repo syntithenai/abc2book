@@ -1,0 +1,27 @@
+X: 06060
+T: MISS MURRAY'S JIG
+C: Bob McQuillen 10 Aug 82
+B: Bob's Note Book 6 #60
+%R: jig
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D	% and Bm
+F2G \
+| AFA dcB | A2f dBA | Bcd cde | d2B AFG |\
+| AFA dBd | Afe d2A | Bcd efd | c2B Ade |
+| faf dcd | B2A Gef | gbg efd | c2B A2G |\
+| FAd dBA | GBd dBd | Acd efe | d3 |]
+K: Bm
+[| d2e \
+| fgf ede | f2d Bcd | cde def | efg f2a |\
+| fgf ede | fab afe | def edB | AdB AFA |
+| BAB dBd | A2F E2D/E/ | FEF AFE | D2B, A,2A, |\
+| B,A,B, D2F | EFA B2d/e/ | fed B2A | B3 |]
+%%begintext align
+%% Laura Murray is a
+%% Bright Star in my life - One of my school girls, she
+%% brings me joy with a bubbling-over personality
+%% and her rich command of English - Love
+%% always to you, Laura from MAC [squiggle below]
+%%endtext

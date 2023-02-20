@@ -1,0 +1,26 @@
+X: 21415
+T: L\"UTZOW'S WILD CHASE
+C: Weber.
+Q: "With fire and animation."
+%R: jig
+N: This is version 1, for ABC software that doesn't understand diminuendo/crescendo notation.
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.141 #5
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"^p"B |\
+BBB BGB | (Be)B "^cres."B2e |\
+eee (eB)e | "_dim."g3- g3 |\
+e3 zz"^pp"A | A>AA AAc |\
+_d2d c2"^f"e | eee ece |\
+e>ae e2e | "cres."eee eee |
+"dim."Hd3 Hf2z | z2z z2B |\
+"^p"B3 B2B | (_cB)=A B2d |\
+f3- f3 | z6 "^ff"|\
+e3- e3 | [e3-E3-] [e3E3] |\
+"_>"g3 "_>"g3 | "_>"b3 "_>"g3 |\
+fff f>ef | g3- Hg2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

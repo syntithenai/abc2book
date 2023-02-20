@@ -1,0 +1,25 @@
+X: 2241
+T: Hermitage Bridge
+%R: air, jig
+B: Niel Gow & Sons "A Sec ond Collection of Strathspey Reels, etc." v.2 p.24 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slow"
+K: Bm
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 9+11-bar lines, for compactness and proofreading.
+V: 1 staves=2
+B, |\
+TB.d/.c/.B/.A/ B.c/.B/.A/.F/ | EFA TB2d | (AB).d {de}f2D | ~FAA A2d/c/ ||\
+TBd/c/B/A/ TBc/B/A/G/ | EFA ~B2d | ABd {de}f2F | FBB B2 :: d/e/ |\
+Tfa/f/e/d/ ef/e/d/B/ |
+(AB).d ~e2f | d2A TBdD | TFAA A2d/e/ ||\
+[1 Tfa/f/e/d/ ef/e/d/B/ | ABd e2f | {c}d2A (Be)E | FBB B2 :|\
+[2 Tf>ed {f}e>dB | ABd e2f | {c}d2A (Be)E | FBB B2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | b3 b3 | zd'c' b3 | d2f a2f | a3 A2z || b3 B3 |
+cdc B3 | d3 f2c' | d'2c' b2 ::  z | d'2d a2g | f2d a2A | f3 e2a | d'2a A2z ||
+[1 d'2d a2g | f2d A3 | B3 g2c | d2c B2 :|[2 d3 a2g | f2d c2z | B3 g2c | d2c B2 |]

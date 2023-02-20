@@ -1,0 +1,22 @@
+X: 1
+T: Silverton Polka
+R: polka
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Barry Callaghan "Hardcore English" 2007 p.93
+D: Peter Wyper (1915)
+D: Jimmy Shand (1950s)
+M: 4/4
+L: 1/8
+K: G
+Bc \
+| "G"d2G2 G2fe | "D7"dedc "G"B2AB | "C"c2E2 E2AG | "D7"FGFE D2Bc \
+| "G"d2G2 G2fe | "D7"dedc "G"B2AB | "C"c2E2 AGFE | "D7"D2G2 "G"G2 :|
+|: GE \
+| "G"D2B2 BAGF | "C"E2c2 c4 | "D7"D2c2 cBAG | "G"e2d2 B4 \
+| "G"D2B2 BAGF | "C"E2c2 c4 | "D7"d2fe dcBA | A4 "G"G2 :|
+|: GE \
+| "G"D2D2 DGFG | "C"E2E2 E2cA | "D7"F2F2 (3FED EF | "G"GFGA BGDB, \
+| "G"D2D2 DGFG | "C"E2E2 E2cA | "D7"F2F2 (3FED EF | "G"G2G2 G2 :|
+|: z2 \
+| "G"B2-B2- BDGA |    B2-B2- BDGA | B2fe dcBc | "D7"AGAB ADGA \
+| "G"B2-B2- BGAB | "C"c2-c2- cBAG | "D7"F2fe dcBA | "G"G2B2 G2 :|

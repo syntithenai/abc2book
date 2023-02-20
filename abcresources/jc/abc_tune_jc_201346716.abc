@@ -1,0 +1,19 @@
+X: 1
+T: the Triumph
+R: reel
+B: RSCDS 1-2
+B: Nearly identical to version in the Concord Slow Scottish Jam session binder 2.
+N: Slightly simplified from both versions, by omitting drone notes and chords with alternate bass notes.
+Z: 1997, 2015 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+af "A"|\
+"A"eccA "E7"dBBG | "A"A2a2 "D"f2a2 | "A"eccA "E7"dBBG | "A"A2c2 A2af ||\
+"A"eccA "E7"dBBG | "A"A2a2 "D"f2a2 | "A"eccA "E7"dBBG | "A"A2c2 A2 |]
+z2 "B"|\
+"E"B2e2 "A"c2e2 | "E"B2e2 "A"c2e2 | "E7"B2Bd "A"c2ce | "E7"c2B2 "A"A2z2 ||\
+"E"Be^de "A"cede | "E"Be^de "A"cede | "E"B2Bd "A"c2ce | "E"c2B2 "A"A2 |]
+z2 "C"|\
+"A"c2cd e2c2 | "Bm"B2Bc "E7"d2B2 | "A"c2cd eagf | "E7"edcB "A"A2AB ||\
+"A"c2cd fedc | "Bm"B2Bc "E7"edcB | "A"c2cd eagf | "E7"edcB "A"A2 |]

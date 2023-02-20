@@ -1,0 +1,31 @@
+X: 1
+T: Riseing Sun
+P: Longways for as many as will
+%R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.91
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: 2nd part has initial repeat but no final repeat.
+N: 3/6-bar phrases.
+M: 6/4
+L: 1/4
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+   f/g/ | a>gf   gec | f>ed cAF   | E2G G2A | B>cd/e/ fdB | cAF     GEC  | CFF F2 :|
+|: G/F/ | E/F/GE cGB | AFf e/f/gG | EGG G2A | (Bd)B (dB)d | g>ag/f/ e>fg | a2f f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z | f3 c3 | d3 A2B | c3 c2f | d2c B3 | A2B c3  | f3  F2 :|
+|: z | c3 e3 | f3 c'3 | c3 ecf | d3  B3 | B2G c2C | F2F F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first Man setts to the 2d Wo. and turns her .|
+%% 1st Wo. & 2d Man do the same :|
+%% cross over & half figure .|
+%% then Right & Left quite round :#:
+%% 1st Man turns 3d Wo. & 1st Wo. 2d Man at the same time & turn Partners .|
+%% first Man turns the 2d Wo. & 1st Wo 3d Man at the same time, then Partners :|
+%% cross Corners .|
+%% Right & Left with the 2d Cu. quite round.
+%%endtext

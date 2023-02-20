@@ -1,0 +1,2220 @@
+%%sep 3 1 530
+%%sep 1 1 530
+
+
+X: 0
+T: Anderson's Budget of Strathspeys, Reels & Country Dances
+%N: Publisher: Saml. Ann & Peter Thompson, London, 1791
+%Z: John Chambers <jc:trillian.mit.edu> July 2012
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K:
+%%center Budget of
+%%center Strathspeys, Reels & Country Dances
+%%center for the
+%%center GERMAN-FLUTE or VIOLIN
+%%center Vol. I     Edinburgh     3.
+%%center -
+%%center Printed For & Sold by J.Anderson., Messrs J.Brysson. Bank Street.
+%%center J.Burnet. St Bernard Street Leith. T.Walter, Leith. Walk T.Hill Perth.
+%%center Joseph Taylor No 18 Hutchison Street Glasgow.
+
+% This is an attempt at a transcription of the table of contents:
+
+A Favourite dance from Mother Goose  ----- 15
+A favourite Hornpipe  ----- 17
+Adieu to Fort George  ----- 10
+Aldridge Hornpipe  ----- 30
+Ayrshire Lasses Strathspey  ----- 2
+Back of the Change House  ----- 39
+Berne's Hornpipe  ----- 20
+Bonny Mary  ----- 21
+Bread and Cheese to Rory  ----- 39
+Caller Herring  ----- 12
+Captain Fleming  ----- 11
+Captain's Lady  ----- 35
+Carleton House  ----- 38
+Cary Owen  ----- 22
+Colonel Macbain  ----- 30
+Delven House  ----- 31
+Dicky Gossip  ----- 4
+Double Kisses  ----- 34
+Drummond Castle  ----- 17
+Drunken Wives of Fochabers  ----- 40
+Dumfries House  ----- 26
+Duncan Davidson  ----- 35
+Earl Moira's Strathspey  ----- 16
+Fife Hunt  ----- 24
+Fisher's Hornpipe S6
+Frank Walker's Strathspey  ----- 25
+Give me a Donald  ----- 21
+Grey Day Light  ----- 36
+Guthrie Castle  ----- 7
+Haddington Assembly  ----- 33
+Highland Laddie  ----- 26
+I wish you wpu'd marry me now  ----- 40
+I'll Gang nae mair to yon town  ----- 22
+I'll Kiss the Wife she bad me  ----- 23
+Irish Girl  ----- 9
+Isle of Sky  ----- 26
+Jacky Tar  ----- 13
+Jenny Cameron  ----- 6
+Jenny Dang the Weaver  ----- 33
+Jenny's Bawbee  ----- 37
+Jocky Laiten  ----- 37
+Kiss me Fast  ----- 27
+L. Dalrymple's strathspey  ----- 32
+Lady Ann Stewart's Ditto  ----- 17
+Lady Burnside's Strathspey  ----- 38
+Lady Char. Campbell's Reel  ----- 8
+Lady Charlotte Campbell's Strathspey  ----- 8
+Lady Charlotte Durham  ----- 1
+Lady Herreot Hope's Reel  ----- 9
+Lady Lucy Ramsay's Strathspey  ----- 29
+Lady M. Palmer's Birth-day  ----- 5
+Lady Madelina Palmer's Strathspey  ----- 15
+Lady Montgomerie's Reel  ----- 14
+Lady Wallace's Reel  ----- 25
+Loch Earn  ----- 9
+Lord Banff's Strathspey  ----- 19
+Lord Kelly's  ----- 37
+Madame Cassy  ----- 31
+Maggy Shanks  ----- 39
+Mair the Morn  ----- 6
+Major Logan's Favourite  ----- 24
+Mar. of Huntly's Snuffmill  ----- 22
+Master Erskine's Hornpipe  ----- 28
+Master F. Sitwell's Reel  ----- 11
+Miss Betsy Robertson's Reel  ----- 18
+Miss Colston's Strathspey  ----- 7
+Miss Elder's Reel  ----- 28
+Miss Garden of Troup's Strathspey  ----- 27
+Miss Herron's Reel  ----- 19
+Miss Jess Stewart's Reel  ----- 7
+Miss Lindsay's Reel  ----- 8
+Miss Manages Hornpipe  ----- 29
+Miss Maria Dundas's Reel  ----- 19
+Miss Murray's Strathspey  ----- 18
+Miss Parker's Reel  ----- 23
+Money in both Pockets w0
+Mr. Morthland's Reel  ----- 14
+Mrs Parker's Reel  ----- 2
+Mrs. Clark's Strathspey  ----- 5
+Mrs. Duncan's Reel  ----- 6
+Mrs. McDonalds's Favourite  ----- 24
+Mrs. Rose Faushsides ditto  ----- 45
+New Christmas  ----- 34
+O. P. Hat  ----- 31
+Open the Door to Three  ----- 35
+Ossian's Hall  ----- 3
+Perth Hunt  ----- 27
+Rothiemurchus Rant  ----- 32
+Sae weel as I was Kist Yestreen  ----- 10
+Shambo Breeches  ----- 13
+Sir George McKenzie's Reel  ----- 2
+Speed the Plough  ----- 23
+Tail Toddle  ----- 3
+Tekeli  ----- 16
+The Birks of Abergeldie  ----- 13
+The Braes of Mar Old Set  ----- 11
+The Butlers Reel  ----- 12
+The Carle he came o'er the Craft  ----- 20
+The Diamond Reel  ----- 15
+The Drummer  ----- 21
+The Goose  ----- 4
+The Honey Moon  ----- 5
+The Jorum  ----- 36
+The Lads of Ayr  ----- 28
+The Maid of Isla  ----- 18
+The Marquis of Huntly's ditto  ----- 38
+The Marquis of Huntly's farewell  ----- 11
+The Miller of Drone  ----- 10
+The Road to Drocherday  ----- 29
+Three Halfpence  ----- 30
+Thro' the Wood of Favie  ----- 33
+Tibby Fowler O' the Glen  ----- 34
+Tlie Hon. Mrs. Maul's Reel  ----- 3
+Up, and war them a' Willie  ----- 14
+Weel may the Keel row  ----- 4
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 011
+T: The Marquis of Huntly's Farewell
+R: strathspey
+M: C|
+L: 1/16
+Q: "Slow"
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.1 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: The 8va notation for bars 9 & 10 is a bit odd.
+K: D
+[|\
+D6 F2 AAA2 (A2B) | d3ef3e d4(d3f) | D6 F2 AAA2 A3B | e3f (gf)(ed) (e2B2)B3d |
+D3 F2 AAA2 TA4 | d3e defe d4 (d3f) | g6 b2 fff2 (f3a) | (eg)(fa) (gf)(ed) e2B2B2 |]
+"^8va"d2 |\
+(BA)(GF) (d2F2) (e2F2) d4 | (BA)(GF) Dd(cd) B3AG3F | E3ee3B (ed)(cd) e4 | E3ee3d (d2c2B2d2) |
+(BA)(GF) (d2F2) (e2F2) d4 | (BA)(GF) d3c B3AG3F | (GA)(Bc) d3c B3AG3F | E3F (GF)(ED) E2B2B2d2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 012
+T: Lady Charlotte Durham
+R: strathspey
+M: C
+L: 1/16
+Q: "Slow"
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.1 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+D2 |\
+GG3 gg3 g3dB3d | G3G (G2AB) E6 (FG) | D3D D3E F3GA3B | c3AB3G A3GE3F |
+GG3 gg3 (gb)(ab) (gd)(Bd) | G2G2 G2(AB) (E6F)G | D3D D3E F3GA3B | c3ed3F {F}G4G2 |]
+(Bc) |\
+.d2.d2.d2g2 .d2.d2.d2(Bc) | .d2.d2.d2.g2 d6 (Bc) | dd3 b3a g3fe3d | (c3B)(A3G) (F2E2)(F2D2) |
+GG3 gg3 | (gb)(ab) gdBd | G2G2(G2AB) (E6 F)G | D3DD3E F3GA3B | c3e d2F2 (F4G2) |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 021
+T: Mrs Parker's Dance
+R: march
+M: 2/4
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.2 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: Corrected rhythm of 2nd part by deleting the dot on the last note.
+K: D
+f2 |\
+d4 (A3f) | d4 (A3f) | d4 (A3d) | ce3e3f | d4 (A3f) | d4 (A3d) | ce3e3g | (fd3) d2 :||: f2 |
+af3 f3d | (gb3) b4 | a3f (gf).e.d | c2e2e2f2 | af3 f3d | (gb3) b4 | ce3 e3g | (fd3) d2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 022
+T: Sir George McKenzies Reel
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.2 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: A
+f |\
+(fe)(cA) d2(fd) | e2(cA) dBBa | (fe)cA d3=g | fded cAA :|
+g |\
+(f/g/a) (ec) e2(eg) | (f/g/a) (ec) fBBg | a2(ec) e2(e=g) | fded cAAg |
+(f/g/a) (ec) e2(eg) | fdec fBBg | aefc e3=g | fded cAA |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 033
+T: Ayrshire Lasses Strathspey
+R: strathspey
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.2 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: Gmix
+g |\
+d>gB>g a>g a>b | g/g/g (ba) geeg | d>gB>g a>gab | g>ed>c BGG :||: (b/c'/)  |
+d'>bg>d' | b>d'g(b/c'/) | d'>bg>b aA A(b/c'/) | d'>bg>b a>ga>b | g>ed>c BGG :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 34
+T: Ossians Hall
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.3 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: A
+e |\
+cAec fde=c | B=GBd g2(Bd) | cAeg fded | cAce a2e :|
+(f/g/) |\
+aecA cA=gd | B=GBd g2(B^g) | aecA ceae | cAce a2(ed) |
+ceae fdec | dB=GB dgBd | cedf ecdB | cA (cd/e/) a2ed |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 35
+T: The Honble Mrs Maul's Reel
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.3 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: A
+e |\
+a2(ed) cAec | Bcde fBbg | (f/g/a) (ed) cAec | dfed (cA) A :|
+e |\
+(c/B/A) (EA) cAec | Bcde fBed | cA EA cAec | dBed cAAe |
+(c/B/A) (EA) cAec | Bcde fded | cefd eabg | afed cAA |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 36
+T: Tell Toddle
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.3 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+|:\
+d/d/d (fd) g2(fe) | ddfd eacA | Ddfd gefd | egfa e2(cA) :|
+(e/f/g) (dB) dgdB | (gf)gB (Ae)cA | g2(dB) gefd | egfa e2(cA) |
+(e/f/g) (dB) BgdB | g2(dB) AacA | g2(dB) gefd | egfa eacA |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 041
+T: Weel may the keel row
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.4 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: A
+e |\
+cAAc d2(Be) | c2(Ac) B2(GB) | cA A/A/A d2(Bd) | cABG A2A :|
+d |\
+ceea f2(df) | (ec)(Ac) B2(GB) | ceea f2(de) | cA BG A2(Ad) |
+ceea f2(de) | c2(Ac) B2(GB) | (ce).e.a (fa).e.f | cABG A2A |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 042
+T: Dicky Gossip
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.4 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+A |\
+(df).d.f (ec).A.c | dBGB AFDF | GBA=c Bged | dcBA A2(dc) |
+(dA).A.A (eA).A.A | (fd).g.e (aA).A.A | BdcB AGFE | D2D2 D3 |]
+A |\
+dAdA FAFD | BGEG BGdB | gefd ecdB | (ce)(ed) (cB)(AG) |
+(Fd).d.d (Ge)ee | (Af)ff (Bg).g.g | afdf Bgec | d2d2 d3 ||]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 043
+T: The Goose
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.4 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: There's a note missing at the end of the 2nd part.  (The obvious G added by jc.)
+K: C
+   (ef) | gggg g^gaf | dddd d2(gf) | ecec A2(fd) | BGAB c2 :|
+|: (Bc) | dgdB c2(Ac) | B2GG GABc | dgdB (dc)(Ac) | BGGG G2 :|
+|: (GA) | (Bc).d.e (fd).g.f | eccc c2(ec) | A2(fd) Bagf | eccc c2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 051
+T: Mrs Clarks Strathspey
+R: strathspey
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.5 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: C
+e | c/c/c (cG) EGGE | GcEc Ddde | fdec (c/B/)(A/G/) cG | A/A/A (cd) ecc :|
+e | c/c/c (gc) acgc | fdec Bdde | fdec (c/B/A/).G/ cG | A/A/A (cd) ecce |
+    c/c/c (gc) acgc | fdec Bdde | fdBd cGEG | AFDf ecc |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 052
+T: Lady Madelina Palmers Birth Day
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.5 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+f | d2(Ad) FdAd | d2 (g/f/e/d/) ceef | d2Ad FdAd | (c/d/e) (eg) fdd :|
+f | d<dfd adfd | d<dfd ceef | d<dfd adfd | (c/d/e) (eg) fddf |
+    d<dfd adfd | d<dfd ceef | .d.d.e.e .f.f.g.g | .a.a d'.a fdd |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 053
+T: The Honey Moon
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.5 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+A |\
+(Ad).d.d (df).f.a | gfed (ce)A2 | (Ad).d.d (df).f.a | gfge d2d :||: f |
+(dA)A2 (Bc)d2 | AFED (DE)E2 | (DA).A.A (.Bc).d.e | fgef d2d :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 061
+T: Mrs Duncan's Reel
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.6 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+a |\
+ddad fdad | fdad e=cce | ddad fdad | e=cga fdd :|
+A |\
+(def).d AdFd | EcGc EccA | (def).d AdFd | EFGE FDDA |
+(def).d AdFd | E=cGc EccE | Ddfd cegb | agfe fdd |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 062
+T: Mair the Morn
+R: slip-jig
+M: 9/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.6 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+|:\
+fgf fed ecA | fgf fed e2a | fgf fed ecA | ABA ABc d2d :|
+afd afd efg | afd fed ecA | afd afd efg | dfa ABc d2d |
+afd afd efg | afd fed ecA | dfd ede fdB | ABA ABc d2d |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 063
+T: Jenny Cameron
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.6 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+g |\
+f2(df) ecAc | acAc e2(eg) | f2(df) ecAc | dBGB d2d :|
+g |\
+(fa).e.c (ec).A.c | ecAc e2(eg) | faec efge | dBGB d2(dg) |
+(fa).e.c (ec).A.c | ecAc e2(eg) | (af).g.e (fd).e.c | dBGB d2d |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 071
+T: Miss Colston's Strathspey
+R: strathspey
+M: C|
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.7 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: Am
+d2 | (cde2) (A2e2) c2e2a2e2 | g3de3c (Bcd2) (G3d) | c3eA3e c3ea3e | g3d (ed)(cB) c2A2A2 :|
+a2 | e3ac'3a (e2a2)(c'2a2) | g3bd3g B2G2 BcdB | e3ac'2a2 e3ac'2a2 | e3a ^gabg (a2A2)(A2a2) |
+     e3ac'2a2 e3ac'2a2 | g3be3g B3G d3B | (cde2) (A2e2) c3ea3e | g3d edcB c2A2A2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 072
+T: Miss Jess Stewarts Reel
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.7 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: Am
+G |\
+EAAB (c/d/e) (dc) | BGdG eGdG | cBAB cdea | gedB A/A/A A :|
+e |\
+aeab abc'a | (ge).d.c (Bd).G.d | aeab ac'ba | gedB A/A/A (Ae) |
+(ae).a.b (ab).c'.a | gedc Bd Gd | ceAB cdea | gedB A/A/A A |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 073
+T: Guthrie Castle
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.7 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+|:\
+D3d dAFA | GE E(c/d/) efge | dAFA defd | fbag (fd)d2 :|
+fdad bdad | gebe c'ebe | fdad bdaf | gbag fdda |
+fdad bdad | gfef gabg | Bdce dfeg | fbag (fd)d2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 081
+T: Lady Charlotte Campbells Strathspey
+R: strathspey
+M: C|
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.8 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+(AG) |\
+(F3A) (A3d) G2B2 B2(ed) | (ce3)(a3g) (f2d'2)(d2a2) |\
+F3A A3d G2B2B2(ed) | ce3A3g f2d2d2 :|
+c'2 |\
+(d'2d2)c2c'2 (b2B2)(A2a2) | g3e (gf)(ed) ce3e3c' |\
+d'3dc'3d b3da3d | (cde2) (Ag3) f3dd3b |
+(d'2d2)(c2c'2) (b2B2)(A2a2) | g3e (gf)(ed) ce3 (e2dc) |\
+B3dA3d G3d F3A | (G2AB) (A2G2) F2D2D2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 082
+T: Lady Charlotte Campbells Reel
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.8 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+A |\
+d3a fdaf | gfed cAec | d2ba fdaf | cAge fdd :|
+f |\
+(a2fd') b2(Bg) | (e2cc') a2(Ff) | (d2Bb) gfed | cAge fdda |
+(fd)d'c' (ba).g.f | (ec).c'.b (ag).f.e | (fd).b.a (gf).e.d | cAge fdd |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 083
+T: Miss Lindsay's Reel
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.8 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: C
+a |\
+gc (c/d/e/).d/ cAAc | Gc Ec GEEa | gc (c/d/e/)d/ cAAc | Gc Ee edc :|
+a |\
+(ge)(ea) (ge)(ea) | (ge)(eg) gaec' | (ge).e.f (ge).e.g | c'age d2(de) |
+geef geec' | (ge).e.f gaec' | ac'ga egde | Ac (A/G/)(F/E/) EDD |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 091
+T: Lady Herriot Hopes Reel
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.9 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+|:\
+GB dg edcB | Ggbg aAAB | GBdg edcB | cAdB G/G/GG2 :|
+(gd).g.a (gb).a.g | fdad bdad | gdga gbag | dgfa g/g/gg2 |
+gdga gbag | agab c'bab | gedc Bdge | dBcA G/G/GG2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 092
+T: Loch Earn
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.9 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: Missing 1/8 count in 1st part fixed by lengthening last note.
+K: G
+|:\
+g2(dB) G2(BG) | E2(AG) FDDd | g2(dB) G2(BG) | EAFD G2G2 :|
+(ef).g.e (fg).a.b | (gf)(ge) (fd).d.f | efge fgab | gfed g2(Bd) |
+(ef).g.e (dB).g.B | caBg ADFD | (GA).B.G (EG).c.e | dcBA G2G2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 093
+T: Irish Girl
+R: jig
+M: 6/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.9 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+E |\
+D2E G2A | B2B BAG | B2B BAG | AGA BGE |\
+DEG GAB | c2c cde | dBG A2G | E3 G2 :|
+|: c |\
+(Bc/d/).d dBG | (cd/e/).e efg | (Bc/d/).d dBG | AFD D2c |\
+(Bc/d/).d dBG | cde efg | dBG A2G | E3 G2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 101
+T: The Miller of Drone
+R: strathspey
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.10 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+(f/e/) |\
+d>BB>d ABAF | DD D>f e2e(f/e/) | d>BB>d A>B AF | A>BA>c d2d(f/e/) |
+d>BB>d A>BA>F | DD g>f e2(e/f/g) | a>ef>c d>AB>F | A>AB>c d2d |]
+(f/g/) |\
+a>ff>d' .a.a (b/a/)(g/f/) | a>ff>d' b2 (b/c'/)(d'/b/) | affd' aa (b/a/)(g/f/) | g>ef>d B2B(f/e/) |
+affd' aa (b/a/)(g/f/) | affd' b2(b>c') | (3d'c'b (3abc' (3d'ag (3fed | g>ef>d B2B |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 102
+T: Adieu to Fortgeorge
+R: reel
+M: C|
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.10 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: Some slurs are very ambiguous and may be wrong.
+N: The 3rd part has a final repeat but no begin repeat.  Not fixed.
+N: The 4th part has some obviously wrong note lengths.
+K: D
+d3e |\
+(gf).e.d (fe).d.c (ed).c.B A3G | (GF)ED g3f Tf4 e2(de) |\
+(gf).e.d (fe).d.c (ed).c.B .A2.G2 | Fbag fedc d2dd d2 :|
+|: z2 |\
+(ag)(fg) .a2.a2 (a2d'2)(d'2c'2) | (c'2b2)(b2a2) a3f d4 |\
+(ag)(fg) .a2.a2 .a2d'2 defg | f4 Te4 d8 :|
+[|\
+D3E F2F2 F3G.A2.A2 | d4 (df)(ed) (c2BA) A4 |\
+D3E.F2.G2 F3A (cB)(AG) | F4 TE4 D8 :|
+[| (a3g)(f3g) .a2d'2a2d'2 | (c'b)(ag) f2g2 afaf Td4 |\
+(a3g)f3g .a2.a2 (abc')d' d'(afd) | f4 Te4 d4 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 111
+T: Master F. Sitwell's Reel
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.11 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: C
+(E/F/) | GcEc A2(FA) | Gg f/e/d/c/ Bdd(e/f/) | ecGE A2(FA) | Gc Bd ecc :|
+(e/f/) | geaf g2(ea) | geaf cddf | (ge).a.f (ge).c'.e | (f/e/).d/.c/ (Bg) ecc ||
+(e/f/) | geaf g2(ea) | gcac Bdd(e/f/) | gecG (A/B/c) (FA) | GcBd (ec)c |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 112
+T: Capt Fleeming's Reel
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.11 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: C
+   G | .c.c.c.e .c.c.c.e | df.B.d cB.A.G | .c.c.c.e .c.c.c.e | dfBd c2c :|
+|: g | (g^f)(gf) .g.e.e.g | .=f.d.d.f .e.c.c.e | (g^f)(gf) .g.e.e.g | =fdBd c2C :|
+|: e | dddg (ec)c2 | (ag).a.b (c'a).g.e | dddg (ec)(ce) | fdcB c2c :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 113
+T: The Braes of Marr Old Set
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.11 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+(A/G/) |\
+FA A(fg) afed | gfed BdBA | FAAf afed | egfa e2d :|
+A |\
+(FA).A.B (AB).A.F | G/G/GG2 GABG | (FA)(AB) (AB)(AF) | GAFd E2(D ||
+a) |\
+(fa).a.b (ab).a.f | g/g/gg2 gabg | (fa).a.b (ab).a.f | gafg e2d |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 121
+T: The Butlers Reel
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.12 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+|:\
+G2(BG) BddB | c2(ec) eggB | G2(BG) Bcdg | edcB A2G2 :|
+g2(bg) agfd | (ed).e.f (gd).B.G | g2(bg) agfd | (ed).e.f g2(ga) |
+(ba).g.f (gf).e.d | edef gd BG  | (cB).c.d (ef).g.e | dgBg AGFA |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 122
+T: Callar Herring
+R: hornpipe, reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.12 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: The 3rd part has initial repeat sign, but no final repeat.
+K: D
+A |\
+d2d>d c2(d>e) | f>Be>d (cA)(Bc) | d2d>d c2(d>e) | (fd).e.c d2z :|
+|: d' |\
+.c'.b.a.g f.e.d.d' | .c'.b.a.g .f.e.d.d' | .c'.b.a.g .f(fga) | bBe>d cABc |
+d2dd c2(d>e) | fBe>d cABc | d2d>d c2(d>e) | f>ge>f d2z :|
+|: a |\
+d'2d'>d' c'2(d'>c') | bagf efg^g | a2a>a ^g2(a>b) | c'd'b>a a3f  |
+g2g>g f2(g>a) | bBe>d cABc | d2d>d c2d(b/g/) | (f>g) (e>c) d3 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 131
+T: The Birks of Abergeldie
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.13 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+|:\
+GABd g2(gd) | g2(gd) agab | GABd gaba | gedB A2e2 :|
+GABg dgBg | dgBd (e/d/c/B/) (AB) | GABd gaba | gedB A2e2 |
+GABg dgBg | dgBd (e/d/c/B/) (AB) | GABd gaba | gedB A2e2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 132
+T: Jacky Tarr
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.13 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: Em
+B |\
+e2(ef) g2(fe) | d2B2 B2(AB) | d^cde faef | d2A2 A2(Bd) |
+eBef   g2(fe) | dBGB d2(cB) | (AG).F.E (DE).F.A | G2E2 E2 :|
+(GA) |\
+BGEG   BGEG   | BAGF E2(FG) | AFDF dFDF | AGFE D2(Bd) |
+e2(ef) g2(fe) | dBGA BdcB   | AGFE DEFA | G2E2 E2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 133
+T: Shambo Breeches
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.13 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+c | (Bd).d.g (ec).c.d | (BG)(Gc) AFFA | Bddg eccd | BGAF G2G :|
+c | (BG).d.G (BG).d.B | (AF).c.F (AF).c.A | (BG)(dG) Bcdg | BGAF G2(G ||
+c)| BGdG BGdf | AFcF AFcA | BGdG Bcdg | BGAF G2G |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 141
+T: Up and Ware them a' Willie
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.14 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+B | G/G/G (BG) c2(ce) | G/G/G (BG) A2(AB) | GABG cd.e.g | dcBA G2G :|
+d | gedB c2(ce) | gedB A2(Ae) | gedB cdeg | dcBA G2(G ||
+d)| (ge).d.B (cd).e.f | gddB A2(Ae) | (gd).e.B (cd).e.g | dcBA G2G |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 142
+T: Mr Morthland's Reel
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.14 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: Am
+|:\
+A3B (cd)e.c | B2(Bg) BGdB | A3B cdea | gedB A/A/AA2 :|
+aeab ac'ba | (gd).g.a (gb).a.g | aeab ac'ba | gedB A/A/AA2 |
+(ae).a.b (ac').b.a | gaba gedg | eg.a.b ag.e.b | gedB A/A/AA2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 143
+T: Lady Montgomeries Reel
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.14 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: C
+|:\
+c2(cG) EFGE |c2(cA) Bcde | c2(cG) EFGE | Dddc Bcde :|
+c<cgc (ec)g2 | c<c gc efga | c<cgc ecgc | (fe).d.c (Bc).d.e |
+c<cgc (ec)g2 | c<c gf efga | (ge).f.d (ec).d.B | cAGE Dddd |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 151
+T: Lady Madelina Palmer's Strathspey
+R: strathspey
+M: C|
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.15 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: Fixed length of last note in first part to match pickup note.
+N: Omitted some spurious triplets from bar 7.
+K: D
+b2 |\
+a3df3d (fga2) b4 | a2d2 (ba)(gf) e4 (e2b2) |\
+a3df3d (fga2) b4 | a3df3e (e2d2) d2 :|
+(bc') |\
+d'3ab3a (bc'd'2) e'4 |  d'c'ba b2f2 e4 (e2c'2) |\
+d'3ab3a bc'd'2 c'd'e'2 | d'c'ba bc'd'a d'4 (abc'2) |
+d'2b2c'2a2 b2g2a2f2 | g2e'2f2d'2 e4(e2g2) |\
+(fga2) b4 (fga2) d'4 | d2d2f3e e2d2 d2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 152
+T: Diamond Reel
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.15 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: Am
+e |\
+cAce fdgf | ede^f gdBG | AcBE FAGc | dfE^G AAA :|
+a |\
+c'ab^g a2(e^f) | gedc BdgB | cege dfaf | ea^gb a/a/a (ag) |
+ac'be fagc | dfeA ^GABE | AcBd cedf | .e(dcB) cAA |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 153
+T: A Favorite Dance from Mother Goose
+R: slip-jig
+M: 9/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.15 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+|: ABA AFG AdB | ABA AGF BGE | ABA AFG AdA | Bed cde fdd :|
+|: fgf fed ecA | fgf fed gee | fed edc dcB | ABA AFG Add :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 161
+T: Tekeli
+R: jig
+M: 6/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.16 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+d |\
+g2g gfg | e2g d3 | def gab | c'ag fed |\
+g2g gfg | e2g d3 | def gab | c'af g2 :|
+|: z |\
+g2a b2b | bc'b a2g | bag bag | a2g a2b |\
+g2a b3  | bc'b bag | a2g a2b | g3  g2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 162
+T: Earl Moiras Strathspey
+R: strathspey
+M: C
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.16 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: The 1st part may have a final repeat symbol that overlaps the last note's stem.
+N: The 3rd part has a final repeat but no initial repeat.  Added initial repeat.
+N: The last beat of the last bar has inconsistent ties and dots; fixed to be like the previous two beats.
+N: 4th part's 3rd bar has invalid note lengths; beamed the "triplets" like the first beat to fix it.
+K: G
+|: G3GGG3 (Bd3)d4 | c3AB3G A3GF3D |\
+   G3GGG3 (Bd3)d4 | e3gf3a (ga).ba gb3 :|
+[| gg3b3g a3gf3d | ee3g3e d3c B2G2 |\
+   gg3b3g a3gf2d2 | e3g (fg).a.f g4 (g2ab) |
+   c'3ab3g a3ge2g2 | (edc).B g3B (cBA).G A3B |\
+   GG3GG3 (c3e) e4 | d3gf3a gaba gb3 |]
+|: B3Gd3G (edc).B (d2g2) | B3Gd3G A2B2c2e2 |\
+   B3Gd3G edc.B (d2g2) | e3gf3a gaba g4 :|
+[| gb3gb3 (fa3) d4 | e3fg3e d3c B3G |\
+   (g2ab) (g2ab) (f2ga) d4 | e3g f3a g4 (g2ab) |
+   .e3.c'.d3.b .c3.a.B3.g | Bcdc B3G A3GF2D2 |\
+   (3G2A2B2 (3A2B2c2 (3B2c2d2 (3c2d2e2 | d3g (ba).g.f (ag).f.e (dc).B.A |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 171
+T: Drummond Castle
+R: jig
+M: 6/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.17 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: The 2nd part had a final repeat but no initial repeat.
+K: Am
+E |\
+ABA a3 | age g3 | cdc edc | dBg dBG |\
+ABA a3 | age g3 | ege deg | edB A2 :|
+|: B |\
+c2c cec | d2d ded | c2c edc | dBg dBG |\
+c2c cec | deg a2g | ege deg | edB A2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 172
+T: Lady Ann Stewarts Strathspey
+R: strathspey
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.17 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: C
+(g/a//b//) |\
+c'>gg>a g2(eg) | a.cg.c Bddb | c'>gg>a g2(ec) | (B/c/d) (BA) Gcc :|
+e |\
+c>eA>c (Gc)(Ed) | (ce)(dc) (Bd)(de) | c>eA>c (Gc)(Ec) | (B/c/d) (BA) (Gc)(c ||
+e) |\
+c>eA>e GcEd | (c/d/).e/.f/ (gc) Bdde | cEFG ABca | gcBA Gcc |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 173
+T: A Favorite Hornpipe
+R: hornpipe, reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.17 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+A2 |\
+dd'c'b bagf | (ge).c.e (dc).B.A | (BGF)G E2(ef) | gece .d.c.B.A |
+(dd').c'.b (ba).g.f | (ge)(ce) (dc).B.A | BGFG Ebag | fedc d2 |]
+(g//a//b/) |\
+(d'a).f.a (bc').e.g | (fa).d.a (ea).c.a | (fa).^g.a (da).e.a | d'b^gb abc'a |
+d'afa gafg | fada ecBG | FdGd AdBd | gecA d2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 181
+T: The Maid of Isla
+R: strathspey, hornpipe
+Q: "Slow"
+M: C
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.18 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+B2 |\
+.G2.G2 d3B e3ed2B2 | .G2.G2 d3B (e3c) B4 |\
+.G2.G2 d3B d3ed2B2 | e3f (ag)(fe) d2B2A2 :|
+d2 |\
+(g3a)(g2e2) (d3e)(d2B2) | (g3a)(g2e2) (d2e2)(B2d2) |\
+g3ag2e2 d3e (ed)(cB) | e3fg3e .d2.B2A4 |
+g3a (ag).f.e d3e (ed).c.B | g3a (ag).f.e .d2.b2.B2.d2 |\
+g3be3g d3eg3a | (ba).g.f (ag).f.e (ed).c.B A2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 182
+T: Miss Murray Strathspey
+R: strathspey
+M: C|
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.18 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+c2 | (Bcd2) (g3d) e3dg3d | (Bcd2) (g3d) e3de3g | (Bcd2) (g2d2) efga b3a | g3ed3B (B2G2)G2 :|
+(Bc) | d3Ge3G d3Gg3e | d2G2 edcB A4 (A2Bc) | d3Gd3B (g3b)(a3b) | g3ed3B G4 G2 ||
+(Bc) | d3G e3G (d2G2)(g2e2) | d3G edcB B2A2 (ABc2) | d3Ge3G (g2b2)(a2b2) | g3ed3B G4G2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 183
+T: Miss Bettsey Roberson's Reel
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.18 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+B | d3g  BGdB | Aaag fdef | (gf).g.d (Bc).d.B | cAdc BGG :|
+c | BGDG EGDG | ABcB cedc | (BG).D.G (EG).c.e | dBcA BGG ||
+c | BGDG EGDG | ABcB cedc | (Bd).g.B (ce).a.g | fdef gGG |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 191
+T: Lord Banff's Strathspey
+R: strathspey
+Q: "Slow"
+M: C
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.19 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+(BA) |\
+GD3D3E G3AB3e | d3B (cB)(AG) A3GE3A |\
+GD3D3E G3AB2b2 | a3g b3a a4 g2 :|
+d2 |\
+g3bd'3b (c'3b)(a3g) | (a2c')a g2(d'b) a3g e3a |\
+g3bd'3b (c'2b2)(a2g2) | (ac')(bc') (d'c').b.a g4 (g2d2) |
+g3bd'3b (c'2b2)(a2g2) | (ac').b.a (bd').c'.b .a3g e3g |\
+d3g (ed)(cB) c3de3c | B3g d2(cB) A4 G2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 192
+T: Miss Herron's Reel
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.19 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+g | dGBG FAAc | (B/c/d) (gd) e3g | dgdB cAFd | BGFD G3 :|
+g | (b/a/)(g/f/) (gd) egac' | bgdB e3g | dBgG FAAd | BGFD G3 ||
+g | (b/a/g/f/) (ge) f/g/a/c'/ |(b/a/g/f/) (gd) e3g | dbdB cAFd | BGFD G3 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 193
+T: Miss Maria Duncas Reel
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.19 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+g |\
+dG G/G/G (d2Bd) | (eg).f.g (dB).B.g | dG G/G/G (d2Bd) | egdB A2A :| a |
+(g/a/b) (ab) geeg | (dg).B.g (dB).B.d | (g/a/b) (ab) geeg | dgdB A/A/A a2 |
+(g/a/b) (ab) geeg | dgBg GABd | (gb).a.b (ga).e.g | dBgB A2A |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 201
+T: Money in Both Pockets
+R: jig
+M: 6/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.20 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+A |\
+d2F FGF | ABA AFA | d2F FGF | ABA f2e |\
+d2F FGF | ABA AGF | EFE EFA | B3 A2 :|
+|: B |\
+dfa afd | cea ecA | dfa afd | (g3 f2)g |\
+agf bag | agf ede | fdB AFA | B3 A2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 202
+T: Birnes Hornpipe
+R: hornpipe, reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.20 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: The first pickup notes should be a triplet.
+K: D
+(A/B/c) |\
+(dA).F.A (BG).E.G | (FA) d4 c2 | B2(gf) (fe)(ed) | c2A2 A3G |
+(FA).B.c (dA).G.F | Edcd ecAg | fgaf bgec | d2d2d2 |]
+(fe) |\
+(df).b.a (gf).e.d | (ce).a.g (fe).d.c | Bdgf edcd | B2B2 B3c |
+d2(de) dAGF | Edcd ecAg | fgaf bgec | d2d2d2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 203
+T: The Carle he came o'er the craft
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.20 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: Bar 3 had a dot (or speck) after the first A; removed.
+N: The 2nd part has a final repeat, but no initial repeat.
+K: A
+|:\
+AGAB =cdef | =g2(d=c) BdB=G | A2(Ae) cAce | a2(ed) cecA :|
+aAAB  cdef | =g2(dc)  BdB=G | Aagb a2(eg) |a2(ed) cecA |
+aAAB =cdef |  gde=c B(c/d/) (BG) | A/A/A (ag) a2(eg) | (ae).f.d (dB).A.G :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 211
+T: Give me a Donald
+R: jig
+M: 6/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.21 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+d' |\
+a2f fef | a2f f2d' | a2f fef | d2B B2d' |\
+a2f fef | dfa d'c'd' | bag fge | d2B B2 :|
+|: c |\
+dcd fef | d2B B2d | cde efd | c2A A2c |\
+dcd fef | dfa d'c'd' | bag fge | d2B B2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 212
+T: Bonny Mary
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.21 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: The rhythm isn't quite right at the junction of the two parts.
+K: Am
+|: A/A/A (AG) EGGc | A/A/A (AB) cded | (cB).c.G (EG).G.c | A/A/A (eg) (aA)A2 :|
+g | (eg).c.g (ec).g.c | BdGd BGdB | (ec).g.c (eg).c.a | gede cAA ||
+g | agea gced | cAGc EcGc | AcGA cdea | gede (cA)A2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 213
+T: The Drummer
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.21 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: Am
+|:\
+ABcG E2(EF) | G2(GB) dBGB | ABcG E2(Eg) | edcB A2(AB) :|
+c2(ce) d2(de) | c2(ce) dBGB | c2(ce) d2(df) | edcB A2(AB) ||
+(cB).c.e (dc).d.e | (ce)(ge) (dB)(GB) | (cB).c.e (de).f.a | edcB A2A2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 221
+T: I'll Gang nae mair to yon town
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.22 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+(B/A/) | Gggd B2(Gc) | (Bd).G.d (BA).A.B | Gdgd B2(Gd) | BdAc BGG :|
+d | (BG).d.G (eG).d.G | BGdG BAAd | (BG).d.G (eG).d.G | (Bd)(Ac) BGG ||
+d | .B.G.d.G .e.G.d.G | BGdG BAAd | (gf)(gd) B2(Bc) | BdAc BGG |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 222
+T: Cary Owen
+R: jig
+M: 6/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.22 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+g |\
+edc BAG | BcB B2g | edc BAG | ABA A2g |\
+edc BAG | BcB B2e | def gdB | ABA A2 :||: (B/c/) |
+(B/c/d) B d2B | d2B d2g | (c/d/e) c e2c | e2d e2f |\
+g2a b2a | g2e d2B | def gdB | ABA A2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 223
+T: Marquis of Huntly's Snuff Mill
+R: strathspey
+M: C
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.22 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+|:\
+(DG3) (G3B) (A3G) E4 | (DG3)(G3B) (d2ef) g4 | e3d g3B (cB)(AG) E4 | D3GB3G A4 G4 :|
+(d3g)(g3b) (a2g2)e4 | (d3g)(g3b) a3bg3d | e3g (ed)(cB) (cB)(AG) E4 | D3GB3G A4 G4 ||
+(d2g2)(g2b2) (a2g2)e4 | (e3g)g3b a3bg3d | .e2.g2.B2.d2 (cB)(AG) E2(ga) | b3Gd3B A4 G4 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 231
+T: Miss Parker's Reel
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.23 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+d | BGGA GBAG | AGAB dcAc | BGGA GBAG | AEEF G2G :|
+d | BGdB gded | cBAB cedc | BGdB gfed | edef d2d ||
+(e/f/) | (gf).e.d (cB).A.G | AGAB cAdc | BGce dBge | dcBA G2G |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 232
+T: I'll kiss the Wife she bade me
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.23 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: There's a 4-dot open repeat at the first bar, but no other repeat symbol anywhere.
+K: G
+g |\
+dBGB dBGB | dBdg f2(df) | ecAc ecAc | edef gaeg |
+dBGB dBGB | dBdg f2(df) | aefd edBa | A/A/A (Bd) e2g2 |]
+dgBg dgBg | dgBg f2(df) | eaca eaca | edef gaeg |
+dgBg dgBg | dgBg f2(df) | aefd edBa | A/A/A (Bd) e2g2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 233
+T: Speed the Plough
+R: reel
+M: C|
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.23 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+D |\
+GGGB (de).d.B | (dg).d.B de.d.B | (ce).c.A (Bd).B.G | (AE)(AG) FAAB |
+(GA).G.B (de).d.B | (dg).d.B dedB | (cd).B.c (AB).G.A | EGFA G2G |]
+d |\
+.g.g.g.G .g.G.d.G | (gG).f.G (eG).d.G | .c.c.c.A .B.B.B.G | (AE).A.G (FA).A.d |
+(B/A/G) (dG) gGdG | (ec).A.e (dB).G.d | (cd).B.c (AB).G.A | EGFA G2G |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 241
+T: Major Logans Favorite
+R: jig
+M: 6/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.24 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+A |\
+d>ed f>ef | dBB B2d | AFd B/A/G/F/E/D/ | Eee e2f |\
+DFA d2A | d/c/d/e/f/g/ afd | Bcd AFA | Bdd d2 :|
+|: (F/G/) |\
+AFA def | AFG A2d | BGE ef(g/f/) | e/f/e/d/c/B/ A/B/A/G/F/E/ |\
+DFA d2A | d/c/d/e/f/g/ afd | Bcd AFA | Bdd d2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 242
+T: Mrs McDonald's Favorite
+R: march, reel
+M: 2/4
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.24 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: Amix
+|:\
+A3Bc2c2 | A3B c4 | edcd B2B2 | edcd B4 |\
+A3Bc2c2 | A3B c4 | Bfed cBA^G | A2A2 A4 :|
+|:\
+e3dc2c2 | a2a2 e4 | edcd B2B2 | edcd B4 |\
+e3dc2c2 | a2a2 e4 | Bfed cBA^G | A2A2 A4 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 243
+T: Fife Hunt
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.24 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: The 2nd part has initial repeat but no final repeat.  Deleted the repeat symbol.
+K: C
+f | (ec)c2 (GE)E2 | Dddc d2(df) | eccA GFED | cccB c2c :|
+f | ecgc acgc | Addc d2(df) | ecgc acgc | GcBd c2(c ||
+f)| ecgc acgc | Addc d2(df) | egag fedc | GcBd cag |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 244
+T: Mrs Rose Faughsides
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.25 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+g | d2(Ad) FD A=c | BGAF Eeeg | fdce dAFD | GBAF Add :|
+g | fdad bgaf | e=cgc egcg | fdad bgaf | (c/d/e) (Ag) fdd ||
+g | fdad bgaf | e=cgc egcg | fdce dAFA | BGEg fdd |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 252
+T: Lady Wallace's Reel
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.25 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: The first part should probably be repeated.
+K: Am
+e |\
+(c/B/A) (EA) FAEe | dgdc BGBd | (c/B/A) EA FAEe | eE (e/d/)(c/B/) cAA |]
+a |\
+(c'/b/a) (Ae) aec'a | bgdc BG bg | a^gae ceac' | bge^g a/a/a (ac') |
+(c'a).e.c' (bg).d.b | gcac BG gd | (ec).B.A (fd).c.B | eE (e/d/c/B/) cAA |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 253
+T: Frank Walker's Strathspey
+R: strathspey
+M: C
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.25 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+|:\
+D3ED2d2 A2D2 (BA)(GF) | E3ee3d B3de2f2 |\
+D3ED2d2 (A2D2)(A2F2) | (GAB2) (A2F2) (A2d2)(d2f2) :|
+d3ed3d' a3f (gf).e.d | cdec d2A2 B3ee3f |\
+d3ed3d' a2f2 gfed | (cd).e.c d2A2 B2d2d2A2 |
+d2e2d2d'2 a2f2 gfed | cdec d2A2 (B2e2)(e2f2) |\
+.d2.d'2.c'2.b2 .a2.^g2.=g2.f2 | .e2.d2.c2.B2 .A2.G2.F2.E2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 261
+T: Isle of Skye
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.26 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: The beats don't work right at the part boundaries.
+K: A
+A |\
+dAFA dAFA | GEEd eBBe | dAFA dAFA | GFEA FDD :|
+afdd' afdf | edef edBb | afad' afdf | edef d/d/d (df) |
+afdd' afdf | edef edBe | defg abc'd' | edef d/d/dd2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 262
+T: Highland Laddie
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.26 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+D |\
+G2(GB) A2(AB) | GABc A2(AB) | G2(gf) edcB | ABcA B2G :|
+d |\
+d2d2 (dc).B.c | (de)(fg) (ed)Bc | d2d2 (dc)(Bc) | .d.e.f.g (ed)(cB) |
+(ce).a.c (Bd).g.B | (Ac).B.c (dc).B.A | g2(fe) edcB | ABcA B2G |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 263
+T: Dumfries House
+R: jig
+M: 6/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.26 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: There's a 4-dot repeat symbol at the start of part 1, whose rhythm doesn't agree with bar 8. ???
+K: G
+D |\
+G2G G2g | dBG GAB | cde dcB | AFD DEF |\
+G2G G2g | dBG GAB | cBc DEF | G2G G2 :|
+B |\
+dBd dBd | gag gfe | dBd dcB | AFD D2(B/c/) |\
+dBd dBd | gag gfe | dcB AGF | GAG G2 ||
+(B/c/) |\
+dBd dBd | gag gfe | dgd BdB | AFD D2 (B/c/) |\
+dBd ece fdf gfe | dcB Agf | g2g gab |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 271
+T: Mrs Garden of Troups Strathspey
+R: strathspey
+M: C
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.27 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+B2 |\
+G3AG2e2 d2G2d2G2 | F2D2D2G2 FGAF D2F2 |\
+G2A2G2e2 d2G2B2g2 | d2g2 bagf g4 g2 :|
+d2 |\
+g2d2b2d2 c'2d2b2d2 | d2g2 c'bag f2a2a2b2 |\
+g2d2b2d2 c'2d2b2d2 | d2g2 c'bag g4 g2ba |
+g2d2b2d2 c'2d2b2d2 | d2g2 c'bag f2a2a2b2 |\
+(e2c2).e2.g2 (d2B2).d2.g2 | d2g2 bagf agfe dcBA |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 272
+T: Kiss me fast
+R: jig
+M: 6/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.27 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: The first part is repeated; the 2nd part isn't.  But that's really up to you to decide.
+K: D
+|:\
+D2A F2A | E2c GEc | D2A F2A | D2A F2A |\
+G2B AGF | E2F GFE | dcB AFA | D2AF2A :|
+d2g faf | e2f gec | d2g faf | d2g faf |\
+gag faf | e2f gec | dcB AFA | D2A F2A |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 273
+T: Perth Hunt
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.27 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+B | A2(FA) DAFA | DAFA BEEd | A2(FA) DAFd | faeg fdd :|
+g | (f/e/d) (ad) bdad | (f/e/d) (af) geeg | (f/e/d) (ad) bdad | ABde fdd ||
+g | (f/e/d) (ad) bdad | fdad geeg | (fa).d.f (gb)ed | aBde fdd |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 281
+T: Master Erskine's Hornpipe
+R: hornpipe, reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.28 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+d |\
+.A(dcd) .A(dcd) | (fd)ad bdad | .A(dcd) .A(dcd) | f2e2 e4 |
+.A(dcd) .A(dcd) | (fd)ad bdad | (Ad).c.e (db).a.g | f2d2d2 :|
+|: f |\
+(ab)ag (fg).f.e | (de).d.c (BA).G.F | FAdA FGAF | G2E2 E3g |
+(ab)ag (fg)fe | (de).d.c (BA).G.F | FAdA Gbag | f2d2d2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 282
+T: Miss Elders Reel
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.28 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+A |\
+D/D/D (AD) FDAF | FDAF EccE | D/D/D (AD) FDdA | BGAE FDD :|
+A |\
+(de).f.g (af).e.d | cdef gece | (de).f.g (af).e.d | Aaeg fdde |
+(de).f.g (af).e.d | cdef gece | afge fdec | dBAG FDD |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 283
+T: The Lads of Ayr
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.28 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: There's a 4-dot begin-repeat at the first bar line that seems to conflict with the pickup notes.
+K: C
+f | edcA cGGf | ecce f2(fg) | edcA cGGc | AGce d2c :|
+e | cega gede | c/c/c (ga) g2(ed) | cega gece | fage d2(d ||
+e)| gcga gede | c/c/c (ga) g2(ed) | cega gece | faeg defa |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 291
+T: Miss Managies Hornpipe
+R: hornpipe, reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.29 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+(dc) |\
+(Bc)(AB) GGAB | (cd)(Bc) AABc | (Bd).e.d (Bd).e.d | BdcB A2(dc) |
+(Bc)(AB) GGAB | (cd)(Bc) AABc | (Bd).c.B (Ac).B.A | G2G2 G2 |]
+(DE) |\
+FGAB c2(Ac) | (BG).B.d g2(gf) | (fe)(ed) (dc)(cB) | (AG) (FG) A2 (dc) |
+(Bc).A.B (AG).A.B | cdBc AABc | BdcB AcBA | G2G2 G2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 292
+T: Lady Lucy Ramsay's Strathspey
+R: strathspey
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.29 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+g | faa>b a>fd<a | f<dbd (fe)(eg) | f>aa>b abaf | g>ec>g fdd :|
+f | (Ad)(Fd) e>de>f | d<d f>d (dB)(Bd) | A>dF>d (ed)(ef) d>A (B/c/d/A/) FDD ||
+d | A>d F>d e>de>f | d/d/d (fe) dBBd | .A.d.F.d .G.e.F.d | E>gf>e fdd |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 293
+T: The Road to Drocherday
+R: jig
+M: 6/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.29 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: This is a close relative of "The Gobby-O" and "Jefferson and Liberty"
+N: The 2nd part has no repeat signs, but could be repeated.
+K: Am
+B |\
+c2A AGA | E2A ABc | B2G GAG | dBG GAB |\
+cdc BcB | ABA g3  | edc BAG | EAA A2 :|
+E |\
+A2B c2d | ede g3  | faf g2e | dBG GAB |\
+cdc BcB | ABA g2g | edc BAG | EAA A2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 301
+T: Aldrige Hornpipe
+R: hornpipe, reel
+M: 2/4
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.30 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: C
+[|\
+(cB).c.G | (EG).c.e | (dc).B.A | (GB).d.e | (fe).d.c | (BA)(fe) | (dc)(BA) Gfed |
+(cB).c.G | (EG).c.e | dcBA GBdf | egec | dfdB | c2c2 | c4 |]
+(ge).e.c | (ce).e.g | (af).f.d | (df).f.a | (ge).e.c | (af).d.c | .B.c.A.B |.G.f.e.d |
+(cB).c.G | (EG).c.e | (dc).B.A | G2f2 | (eg).e.c | (df).d.B | c2c2 | c4 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 302
+T: Three Halfpence
+R: slip-ig
+M: 9/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.30 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+d | AFD AFD A2d | AFD DEF G2B | AFD AFD d2f | efe E2F G2 :|
+g | fef d2d d2g | fef def g2a | fef d2d d2f | efe E2F G2 ||
+g | fef d2d d2g | fef def gag | fef agf def | efe E2F GA |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 303
+T: Colonel McBain
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.30 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: Am
+d |\
+(c/d/e) (Ae) cAec | BdGd BGdB | (c/d/e) (Ae) cAec | BGEG A3 :|
+B |\
+(ce).g.e (ce).g.e | dedc cBAG | Aaab c'bag | ac'ag a2a2 |
+gc'ge cege | dedc BcdB | ceag aedf | ecdB A2A |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 311
+T: Delven House
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.31 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+f |\
+d2(Af) d2(AF) | Eeed cABc | (df).e.f (df).B.d | ABAF (Ad)d :|
+(f/g/) |\
+(af).d.f (df).a.f | (bge)g (egb).g | afdf dfaf | Bgfe fdd ||
+(f/g/) |\
+afdf (d/e/f/g/) (af) | bgeg (eg/a/b).g | faef deBd | ABAF (Ad)d |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 312
+T: O.P. Hat
+R: reel
+M: 2/4
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.31 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: Added triplet notation in next-to-last bar.
+K: C
+Gc |\
+e2Gc | e2Gc | fgef | d2(GB) | d2(GB) | d2(GB) | efde c2 :||: (g>f) |
+(fe)(ed) | c2(c'b) | ba^ga | a2(fe) | (ed)(dc) | BdgB | ((3dcB) ((3dcB) | c2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 313
+T: Madam Cassy
+R: jig
+M: 6/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.31 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: Ephr
+B |\
+G2E EFE | D2D DED | G2E EFE | (G3 B2)A |\
+G2E EFE | D2D DED | G2E EFE | G3 B2 :|
+A |\
+G2A B2c | d2e d2B | G2A B2c | (d3 c2)d |\
+e2c d2B | c2A B2A | G2E EFE | (c3 B2)A |
+G2A B2c | d2e d2B | G2A B2c | (d3 c2)d |\
+edc dcB | cBA BAB | G2E EFE | (c3 B2)A |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 321
+T: Rothemurches Rant
+R: strathspey
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.32 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: The 4th part has a final repeat, but no initial repeat.  Initial repeat added.
+K: D
+   A | F>EF<D (FA)A2 | (dA)(BA) (dA)(Bd) | F>EF<D (FA)(Ad) | B>dA>d FEE :|
+|: a | f2(e>f) e>fe>B | d>e(fd) e/d/c/B/ dA | BBb>a f2(ed) | BdAd FEE :|
+|: a | f<aa>b a>baf | f<bb>c' b>c'ba | (fa)(ef) .defd | (dba)f (fe)e :|
+|: a | f2(ed) (ef)b2 | a>ff>e (dB)(Bd) | .A.B.d.e (gf)(ed) | B>dA>d | FEE :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 322
+T: Lady Hamilton Dalyrumple's Strathspey
+R: strathspey
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.32 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: Am
+g |\
+c<AA>G (EA)(A>c) | BGdG eGBd | c<AA>G EAA>B | Tc>Bcd e>aa>b |
+c'>a b>^g a>e =g>d | (f/e/).d/.c/ gc B>GB>d | c>AA>G E>AA>B | (c/B/).c/.d/ (e/d/).c/.B/ (cAA) |]
+c |\
+(Aa)Ta2 eaca | G<ge>g d<gBG | A>aag e^gac' | ((3bc'b) ((3ab^g) a>ga>b |
+c'>ab>e (ag/)f/ gc | fdeA ^G>eE>d | c<AA>G (E>A)(A>B) | (c/B/).c/.d/ (e/d/).c/.B/ cAA |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 331
+T: Jenny Dang the Weaver
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.33 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: There's a 4-dot "repeat" sign before the first bar; ignored.
+K: D
+e |\
+aAAB (AF)A2 | ABde faef | dBBd (BA)B2 | (AB).d.e (gf)(ef) :|
+defd efge | defd e2(dB) | (de).f.d (ef).g.e | aA A/A/A gfef |
+(de).f.d (ef).g.e | (de).f.a (ea).c.A | defd efge | (ab).a.g (fg).e.f |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 332
+T: Haddington Assembly
+R: jig
+M: 6/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.33 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+B/c/ |\
+dBG G2B | dB G2d | ecA ABA | fef g3 |\
+dBG G2B | AFD D2c | BdB cAF | G3 G2 :|
+g |\
+g2a bge | f2g afd | ege dBG | F2G AFD |\
+g2a bge | f2g afd | ege faf | g3- g2 ||
+.G |\
+g2a bge | f2g afd | ege dBG | ABG FED |\
+GBG AcA | BdB c2e | dcB AGF | G3  G2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 333
+T: Through the Wood of Favie
+N: The table of contents has "Thro'" for the first word of the title; the tune has "Trough".
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.33 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+e | dGBG ABce | dGBG dGBG | dGBG ABce | dBgB d2e :|
+e | dBgB ABce | dBgB dBgB | dgBg ABce | dBgB d2(d ||
+e)| dBgB ABce | dege fdec | dBgB ABce | dBgB d2e |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 341
+T: Double Kisses
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.34 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: C
+|:\
+c2(GE) c2(ce) | c2(GE) dDDe | c2(GE) cdec | fagf ecc :| e |
+(gc).g.e (gc).c.e | gcge adde | (gc).g.e (gc).e.c | Aagf ecce |
+gcge gcce | gcge add(f/g/) | afge fdec | Aagf ecce |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 342
+T: Tibby Fowler o' the Glen
+R: strathspey
+Q: "Slow"
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.34 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: Am
+E | A/A/A .A.A (AG).G.B | (BA).A.B (GE).E.G | A/A/A (A>B) GABd | eA.A.B GEE :|
+a | (ge)e>g d>edB | (ge)e>g a>geB | d>egb e>dBG | (BA)A>B GEE> ||
+a | geeg d>e (e/d/)(c/B/) | (ge)e>g abeB | d>eg>d e>dB>G | A/A/A A/A/A GEE |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 343
+T: New Christmas
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.34 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: The 2nd part lacks its initial repeat; added.
+K: G
+d | B2(GB) dgdB | gg a/g/f/e/ aAAd | B2(GB) dgdB | cA (d/c/B/A/) BGG :|
+|: d | (B/A/G) dG eGdG | (B/A/G) dG eAAe | (B/A/G) dG eGdG | egfa gGG :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 351
+T: Open the Door to three
+R: slip-jig
+M: 9/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.35 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: The 2nd part has an open repeat but no final repeat symbol.  Fixed.
+K: G
+   D | G2B BGB AFD | G2B BGB c2d | efg dcB AFD | G2c BAB G2 :|
+|: d | gdB gdB AFD | gfg def gdB | cac BgB AFD | G2c BAB G2 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 352
+T: Duncan Davidson
+R: strathspey
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.35 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+F |\
+D>EDd A>FAB | D>E D(d/c/) B/A/G/F/ E2 | D>EDd A>FAg | fdef ddd :|
+g |\
+Tf>edf Tg>fea | cAeA cd.e.g | fe.d.f gf.e.a | cdef dd (de/g/) |
+fed(e/f/) gfe(f/a/) | .c.A.e.A .f.A.e.g | f>dg>e a>fb>g | f>de>f ddd :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 353
+T: Captains Lady
+R: jig
+M: 6/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.35 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: Am
+(AB) |\
+c2A BGE | c2A BGE | D2G GAG | D2G GAB |\
+c2A BGE | c2A BGE | EAA A2e | EAA A2 |] B |
+cde dcB | cBA BGE | gag gdB | gag gdB |\
+cde dcB | cBA BGE | aba aec | aba aec |
+cde dcB | cBA BGE | gag gdB | gag gdB |\
+cde dcB | cBA GEG | ABA A2e | A2A A  |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 361
+T: Grey Day Light
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.36 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+[|\
+D2(FD) ADFD | EFED =c2(ce) | D2(FD) ADFD | EEdc d2(df) |
+D2(FD) ADFD | E2(EG) =c2(ce) | dcBd AGFA | EEdc d2(df) |]
+Adfd gefd | efed c3e | Adfd gefd | geaf d2(df) |
+Adfd gefd | efed =c3e | dcBd AGFA | Edce d2d2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 362
+T: Fishers Hornpipe
+R: hornpipe, reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.36 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: 2nd part has initial repeat but no final repeat; fixed.
+K: G
+|:\
+(gd).B.d (ce).d.c | (Bd).B.d ce.d.c | .B.G.B.G .c.A.c.A | .B.G.B.G (AF)ED |
+(gd).B.d (ce).d.c | (Bd).B.d (ce).d.c | (dg).e.c' (ba).g.f | .g2.g2 g4 :|
+|:\
+afdf afc'a | bgdg bgd'b | afdf afc'a | bgfe d2((3Bcd) |
+(ec).G.c (ec).g.e | (dB).G.B (dB).g.e | (dB).g.e | (dB).c.A | .G2.G2 G4 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 363
+T: The Joram
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.36 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+g | dBAG FAAc | BGBd g2(fe) | dBAG FAAB | EGFA G2G :|
+d | ggfg afed | ggfg a2d2 | g2(fg) afed | egfa g2(g ||
+G)| g2(fg) afed | ggfg a2d2 | (gf)(gb) agfd | egfa gfe |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 371
+T: Jenny's Bawbee
+R: reel
+N: Also commonly played as a strathspey or shottish.
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.37 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: D
+f | abag fddf | B/B/B (ed) cAAf | abag fddf | B/B/B (cA) d2d :|
+e | fdge fddf | B/B/B (ed) cAAe | fdge fddf | B/B/B (cA) d2(d ||
+e)| fdge fdd(e/f/) | gBed cAAe | fdge afbg | fedc defg |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 372
+T: Jacky Lattin
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.37 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+|: (G/A/B/c/) (dg) dBBg | dBBg d2B2 | (G/A/B/c/) (dg) dBBg | aAAB c2(BA) :|
+|: (G/A/B/c/) dB ecdB | (B/A/B/c/) (dB) d2B2 | (G/A/B/c/) (dB) ecdB | aAAB c2(BA) :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 373
+T: Lord Kelly's Reel
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.37 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: Am
+c | EAcA eAcA | DGBg G>A c/B/A/^G/ | EAAc Bdce  | d>g (e/d/c/B/) cAA :|
+(a/b/) | c'aea Aeac' | bgdg Gdgb | c'aea  gedc  | B>g  e/d/c/B/  cAA ||
+(a/b/) | c'aea Aeac' | bgdg Gdgb | c'ab^g ae=gd | Bg  (e/d/c/B/) cAA |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 381
+T: Marquis Huntly's Strathspey
+R: strathspey
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.38 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: Am
+G |\
+E<AA>G E<AA>B | G<AB>c d/c/B/A/ GB | E<AA>G EAAa | g>d e/d/c/B/ {B}A2A :|
+e |\
+a>bc'a eac'a | (b/a/).g.e d>e gdbg | a>bc'b eac'a | c'/b/a/g/ e^g a/a/aa2 |
+a>bc'a b>^gae | =g>deg B>GdB | E<AA>G EAAa | g>d e/d/c/B/ {B}A2A |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 382
+T: Lady Burnside's Strathspey
+R: strathspey
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.38 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: Ddor
+A | d<dd>A F3A | c<cc>G E>GG>A | d<dd<A (FA)(Aa) | f>d (f/e/)d/^c/ d2d :|
+A | d<df>d a<df>d | c<cd<c g<ce>g | d<df>d a>df<d | a>f a/g/f/e/ d2(d ||
+A)| d<df<d ad f/g/a/f/ | c<ce>c g>c e/f/g/e/ | afge f>de>c | A>d (f/e/)(d/^c/) {c}d2d |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 383
+T: Carlton House
+R: march, reel
+M: 2/4
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.38 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: The 2nd part has final repeat symbol but no initial repeat.  Fixed.
+K: D
+|: a3f afaf | d2d2d2A2 | B2d2c2e2 | dcde d2A2 | a3f afaf | d2d2d2A2 | B2e2c2e2 | d4 d4 :|
+|: a3ba3b | a2a2f2d2 | a3ba3d' | bagf f2e2 | a3ba3b | a2b2c'2d'2 | bagf agfe | d2d2 d4 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 391
+T: Bread & Cheese to Roary
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.39 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: G
+c |\
+BGGA GAGc | BGGd gdec | BGGA GAGc | AFFA c2(cd) :|
+Bdde cdcA | Bdde fdgd | Bdde cdcB | AGFA c2(BA) |
+Bdde cdcA | Bdde fdgd | gaeg dgBd | AFFA c2d |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 392
+T: Back of the Change House
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.39 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: The 2nd part has a final repeat symbol but no initial repeat.  Fixed.
+K: D
+   B | AFAf edBd | AFAB dedB | AFAf edBg | (f/g/)a (AB) d2d :|
+|: g | fedf edBg | fefg abaf | gafg edBg | faAB d2d :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 393
+T: Maggy Shanks
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.39 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: Ddor
+g | adaf gcge | adag adag | adaf gcge | faef d2d :|
+e | cAAc GAcG | A/A/A A/A/A aged | cAAc GAcG | AcEc D2D ||
+e | cAAc GAcG | cAAg abed | cAAc GAcd | (e/d/c/A/) (cE) E2D |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 401
+T: Drunken Wives of Fochabers
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.40 #1
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: Dm
+A | FDDE FGAF | GGBG cBAG | FDDE FGAc | fdcA cGG :|
+c | fdcA fgaf | dgga baga | fdcA fgag | fdcA cGG ||
+c | fdcA fgaf | dgga baga | fdcA faga | dfcA cAG |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 402
+T: I wish you wou'd marry me now
+R: reel
+M: C
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.40 #2
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+K: Am
+|:\
+EA-AB c2(ce) | dcBA GABG | AE E/E/E c2(ce) | dBgB A/A/AA2 :|
+agea geae | gedg BGdB | agea geae | gdgB A/A/AA2 ||
+agea geae | gedg BGdB | cAdB ecae | gegB A/A/AA2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 403
+T: Sae weel as I was kiss'd the Streen
+R: jig
+M: 6/8
+L: 1/8
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: J. Anderson "Budget of Strathspeys, Reels and Country Dances" (Early 1800s) p.40 #3
+F: http://imslp.org/wiki/Anderson%27s_Budget_of_Strathspeys,_Reels_and_Country_Dances_(Various)
+N: The double bar at the end of the first line is fuzzy; repeats assumed to go with the final repeat symbol.
+K: Ador
+E |\
+A>BA ABd | (e/f/)gB A2c | B>AB GAB | (B/c/)dB G2B |\
+cBc dcd | ede a2g | edB ABd | edB A2 :|
+|: g |\
+a2A ABA | a2A A2f | g2G GAG | BAB GAB |\
+cBc dcd | ede a2g | edB ABd | e2A A2 :|

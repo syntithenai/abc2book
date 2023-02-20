@@ -1,0 +1,32 @@
+X: 10141
+T: TRUMPET MARCH
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.14 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for 8 bars per staff.
+V: 1 staves=2
+|:\
+GG/G/ GG GG GG | EC GG EC GG | c3d e>cf>e | d2d>d d2Bc |\
+d3e f>dg>f | e2e>e e2[c'a]>[af] | [g2e2]c>c c2[c'a]>[af] | [g2e2]c>c c2cd |
+e3c g>fe>d | c2c>c c2z2 :: GG/G/ GG GG GG | G2gg agfe |\
+fG/G/ GG GG GG | G2ff gfed | eG/G/ GG GG GG | EC GG EC GG |
+c3d e>cf>e | d2d>d d2Bc | d3e f>dg>f | e2e>e e2c'>a |\
+g2c>c c2c'>a | g2c>c c2cd | e3c gfed | c2c>c c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the book's staff breaks.
+V: 2 clef=bass middle=d
+|:\
+z8 | z8 | c3c c2c2 | G2G>G G2z2 |\
+G2G>G G2G2 | c2c>c c2z2 | c2c>c c2z2 | c2c>c c2z2 |
+c2c2 G2G2 | c2c>c c2z2 :: GG GG GG GG | G2 z4 z2 |\
+GG GG GG GG | G2 z4 z2 | GG GG GG GG |
+z8 |\
+c3c c2c2 | G2G>G G2z2 | G3G G2G2 | c2c>c c2z2 |\
+c2c>c c2z2 | c2c>c c2z2 | c3c G3G | c2c>c c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

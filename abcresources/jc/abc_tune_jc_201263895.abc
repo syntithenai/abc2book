@@ -1,0 +1,24 @@
+X:1
+T:Comrades of the Legion
+M:C|
+L:1/4
+P:Piccolo
+%Q:1/2=120
+%C:
+%%musicspace 1
+%
+K:D
+d'zz2 | !2!z4 | z2b2- | bzd'2- | d'zf'2- | f'e'd'e' | c'((3a/b/a/ ^ga)\
+|: d'4- | d'(3(a/b/a/^ga) | zTa2z | zTa2z | df/b/d'2- | d'((3c'/d'/c'/b)d' |\ 
+zTe'2z | zTe'2z | z.f.f.f | f((3e/f/e/dc) | z.d'.d'.d' | d'((3c'/d'/c'/ba- | 
+a/)^g/f/=f/e2- | e(e/^d/)e(Lb | La)zLaz |1 z((3a/b/a/^ga) :|2 z((3a/b/a/g)f |] 
+|: Le2Lg2 | Lf2Le2 | aLa2a | La2L^a2 | Lb2Ld'2 | Lc'2Lb2 | e'Le'2e' | Le'2L^e'2 | Lf'3e' | Ld'3c' | Lb>c'd'>b | Lg2.f.g | 
+.a.b.a.b | .a.b.f.e | dd'/d'/d'd' |1 d'((3a/b/a/g)f :|]2 d'zz2 |] 
+K:G
+!2!z4 | (f>efd) | g3z | !2!z4 | (b>gb_b) | a3z | !2!z4 | (c'>^c'd'=c') | b2AB | cg2g |\ 
+.f.e.d.c | .B.GLA2 | G(g/f/ g/a/b/^c'/) || 
+[|: d'La2b | f4 | zgz^g | .a.b.^c'z | d'La2b | f4 | zaz^a | .b.^c'.d'z | d'La2b | f4 | zbzc' |\ 
+.^c'.d'.e'.^e' | f'/z/zz2 | !2!z4 | z2zd | b/z/Lb2g | b2g2 | f>efd | g3b |\ 
+c'/z/Lc'2a | c'2a |\ 
+b>gb>_b | a3a | d'/z/Ld'2d' | e'2d'2 |\ 
+c'>^c'd'=c' | b2ab | c'g'2g' | f'e'd'c' | bgLa2 |1 g(g/f/  g/a/b/^c'/ :|[2 gzLgz |] 

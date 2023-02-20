@@ -1,0 +1,37 @@
+X: 20601
+T: SPRING GARDEN HORNPIPE
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" 1843 p.60 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain has only 7 bars.
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+|:\
+Bbfd fdcB | BABc dBGF | DFBd gecB | AfcA F2dc |\
+Bbfd gecB | dBGE DFBd | ceAc B2B2 :|
+|:\
+cBcd dcdf | gfga bagf | bagf edcB | Acfe gfed |\
+BbdB fecA | BABc dBFE | DEBd ceAc | B2B2 B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+|:\
+FfdB dBAF | DCDE FDED | DDFB ecAF | FdAF D2BA |\
+FfdB ecAF | BFEE B,DFB | AcFA [F2D2][F2D2] :|
+|:\
+AGAB BABd | edef gfed | ffed cBAF | FAdc edcB |\
+FfBF dcAF | [FD]CDE FDDE | B,CDF AcFA | d2d2 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+|:\
+B2B2 f2f2 | B2B2 B2e2 | B2B2 e2f2 | f2f2 f2z2 |\
+B2B2 e2f2 | B2e2 f2B2 | e2f2 B2B2 :|
+|:\
+f2f2 f2f2 | e2f2 B2B2 | B2B2 B2B2 | f2f2 f2f2 |\
+B2B2 f2f2 | f2f2 f2f2 | B2B2 e2f2 | B2B2 B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %sep 1 1 300

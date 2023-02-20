@@ -1,0 +1,24 @@
+X: 32382
+T: A FAVOURITE MINUETTO
+B: K\"ohler's Violin Repository, v.3, 1885 p.238 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a final repeat, but no initial repeat.
+N: The 1st-violin part is on the previous (facing) page.
+N: The 1st and 2nd violin parts have different titles.
+M: 3/4
+L: 1/8
+Q: "Moderato"
+K: C
+P: Violino Secondo
+z2 |\
+z4 uc2 | c2(c2G2) | c4(dc/d/) | e2c2z2 |\
+e2(eg)ec | e2(ec)ec | d2(df)dG | EGFEFG |
+z4 uc2 | c2(c2G2) | c2c2(e/d/c/d/) | e2c2z2 |\
+ve3(gfe) | e3d(dc) | (cB)BcGG | (F2G2) :|
+z2 |\
+z4z2 | z4z2 | F3(dcB) | (BA) (uAG) (uG^F) |\
+d3 (fed) | (dc) cc' (ba) | (ag) (ugf) (ufd) |
+Hc2 {Bdc}HB2 (u^fg) | (a^g) (a=gfe) | (fe)(fed^c) |\
+(d^c)(d=c_BA) | AGFEFG | z4z2 |
+z2z2uG2 | c2c2(e/d/c/d/) | e2c2z2 | e3(gfe) | e3d(dc) | (cB)GcGG | (F2"^Fine."E2) :|

@@ -1,0 +1,62 @@
+
+X: 1
+T: Danny Boy, (London)Derry Air    [C]
+C: trad. Ireland
+M: 4/4
+L: 1/8
+K: C
+"G7"zB,CD | "C"E3 D EA "C7"GE | "F"DC "(Dm)"A,2 |\
+[1 "G7"zCEF | "C"G3 A GE "(D7)"CE | "G"D4 :|\
+[2 "G7"zB,CD | "C"E3 F ED "G7"CD | "C"C4 |] "G7"zGAB |
+"C"c3 B "F"BA "(G7)"GA | "C"GE C2 "G7"zGAB |\
+"C"c3 B "F"BA GE | "G"D4 "G7"zGAG |\
+"C"e3 d "F"dc Ac | "C"GE C2 "Am"zB,"F"CD |\
+"C"EA GE "F"DC "G7"A,B, | "C"C4 |]
+
+
+X: 2
+T: Danny Boy, (London)Derry Air    [D]
+C: trad. Ireland
+M: 4/4
+L: 1/8
+K: D
+"A7"zCDE | "D"F3 E FB "D7"AF | "G"ED "(Em)"B,2 |\
+[1 "A7"zDFG | "D"A3 B AF "(E7)"DF | "A"E4 :|\
+[2 "A7"zCDE | "D"F3 G FE "A7"DE | "D"D4 |] "A7"zABc |
+"D"d3 c "G"cB "(A7)"AB | "D"AF D2 "A7"zABc |\
+"D"d3 c "G"cB AF | "A"E4 "A7"zABA |\
+"D"f3 e "G"ed Bd | "D"AF D2 "Bm"zC"G"DE |\
+"D"FB AF "G"ED "A7"B,C | "D"D4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 3
+T: Danny Boy, (London)Derry Air    [F]
+C: trad. Ireland
+M: 4/4
+L: 1/8
+K: F
+"C7"zEFG | "F"A3 G Ad "F7"cA | "B"GF "(Gm)"D2 |\
+[1 "C7"zFAB | "F"c3 d cA "(G7)"FA | "C"G4 :|\
+[2 "C7"zEFG | "F"A3 B AG "C7"FG | "F"F4 |] "C7"zcde |
+"F"f3 e "B"ed "(c7)"cd | "F"cA F2 "C7"zcde |\
+"F"f3 e "B"ed cA | "C"G4 "C7"zcdc |\
+"F"a3 g "B"gf df | "F"cA F2 "Dm"zE"B"FG |\
+"F"Ad cA "B"GF "C7"DE | "F"F4 |]
+
+
+X: 4
+T: Danny Boy, (London)Derry Air    [G]
+C: trad. Ireland
+M: 4/4
+L: 1/8
+K: G
+"D7"zFGA | "G"B3 A Be "G7"dB | "C"AG "(Am)"E2 |\
+[1 "D7"zGBc | "G"d3 e dB "(A7)"GB | "D"A4 :|\
+[2 "D7"zFGA | "G"B3 c BA "D7"GA | "G"G4 |] "D7"zdef |
+"G"g3 f "C"fe "(D7)"de | "G"dB G2 "D7"zdef |\
+"G"g3 f "C"fe dB | "D"A4 "D7"zded |\
+"G"b3 a "C"ag eg | "G"dB G2 "Em"zF"C"GA |\
+"G"Be dB "C"AG "D7"EF | "G"G4 |]

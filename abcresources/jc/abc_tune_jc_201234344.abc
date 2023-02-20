@@ -1,0 +1,18 @@
+X: 20441
+T: Mrs MACDONALD
+Q: "Andante"
+%R: jig
+B: "Edinburgh Repository of Music" v.2 p.44 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+%%slurgraces
+%%graceslurs
+[|\
+(c'>ba) (afe) | {ef}ece {ef}ece | ({a}c'>ba) (a>e'c') | (c'b).b bab |\
+c'>(ba) (afe) | {f}ece {f}ece | (a<e'c') Tb>(ab) | a2a a2 (e/d/) |]
+[|\
+(cea) (ac'a) | (egb) (bd'b) | (cea) (a<e'c') | (c'b).b b(ac') |\
+(e'c'a) ac'a | (bge) Te2d | (cea) (Tb>ab) | (c'<aa) a2z |]

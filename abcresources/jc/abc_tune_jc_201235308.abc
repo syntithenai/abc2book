@@ -1,0 +1,33 @@
+X: 21081
+T: Kirkforther [scordatura]
+%R: air, jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.108 #1 (and top 2 staffs of p.109)
+N: The book has A,EA^c scordatura tuning, and the tune uses two-voice notation.
+N: This transcription is as in the book, for ABC version 2 software.
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Several final bars have just half notes; dots added to fix the rhythms.
+M: 3/4
+L: 1/8
+K: none
+%%continueall
+[^c2A2E2A,2] \
+|:"_Slow"\
+[e2A2] [eA][eA][eA][eA] | [g4A4] [f2A2] | [e2A2] [eA][eA][eA][eA] | [B4D4] [A2D2] | [e2A2] [eA][eA][eA][eA] |\
+[g4A4] [f2A2] | e2 feBA | [B6D6] :: [B2^F2] [B2^F2] [e2A2] | [B2^F2] [B2^F2] [e2A2] | D2 f2 e2 | eB A^FED |
+[e2A2] [e2A2] [B2D2] | [e2A2] [e2A2] [B2D2] | eagfeB | [A6D6G,6] ::[M:C] "_Brisk" e2Ae fBBg |\
+eAAe BDD2 | e2Ae fBBg | eAB^F AG,G,2 ::
+g2eg faBd |  ^cgAe BDD2 | g2eg faBf | eAB^F AG,G,2 ::\
+G,B,DG B,D Ae | feBA ^FE D/C/B,/A,/ | G,B,DA Eagf |
+eBA^F AG,G,2 :: gAaA gAeA | gAag fe BD |\
+gAaA gAeA | B=feB AG,G,2 :: (3DAe (3DAe (3DAf (3DAf |
+(3DAe (3DAe BDD2 | (3DAe (3DAe (3DA=f (3DAf | eAB^F AG,G,2 ::\
+g/A/A/A/ a/A/A/A/ g/A/A/A/ e/A/A/A/ | g/A/A/A/ a/A/A/A/ B/D/D/D/ ^F/D/D/D/ |
+g/A/A/A/ a/A/A/A/ g/A/A/A/ e/A/A/A/ | Bd^cB AG,G,2 :: ([AD]B^c[AD]) ([BD]^cd[BD]) |\
+([AD]B^c[AD]) BDD2 | ([AD]B^c[AD]) ([BD]^cd[BD]) | cAB^F AG,G,2 ::
+g/A/a/A/ g/A/e/A/ g/A/a/A/ g/A/e/A/ | g/A/a/A/ g/A/e/A/ B/D/^F/D/ B/D/^F/D/ |\
+g/A/a/A/ g/A/e/A/ g/A/a/A/ g/A/e/A/ | Ed^cB AG,G,2 :|
+%%begintext align
+%% The book has A,EA^c scordatura tuning; transcribed here as in the book.
+%% This tune has two voices, transcribed here with ABC 2.0 voice overlays.
+%% This transcription is in A,EA^c scordatura tuning, for ABC version 2 software.
+%%endtext

@@ -1,0 +1,18 @@
+X: 96
+T: Broseley Assembly
+%R: march, reel
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1776", London 1776, p.48 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1776#
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|: c2(Bc/d/) c2G2 | AcBd c2G2 | cGEG cGEG | egfe {e2}d4 :|\
+|: g2 (fe) d2F2 | f2 (ed) e2c2 | fedc Aagf | edcB c4 :| 
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands across round .| and back
+%% again .|. cross over .|| right and
+%% left .||.
+%%endtext

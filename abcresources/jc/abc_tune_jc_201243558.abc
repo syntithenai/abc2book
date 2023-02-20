@@ -1,0 +1,15 @@
+X: 82
+T: 82. REEL
+B: Sam Bayard, "Hill Country Tunes" 1944 #82
+S: Played by David P. Gilpin, Connellsville, PA, Sept 22, 1943.  Learned at Dunbar, PA.
+R: reel, hornpipe
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: G
+((3def) |: g>dB>G | D>GB>d | e>dB>G D>GA>B |[1 c>BA>G ^/F>GA>B |
+c>Bc>d e2ef :|[2 c>BA>F D>FA>c | "a."B2 G>F G2 |] ((3def) |:
+g>fg>a g>fe>^d | e>^de>f e>d^/c>B |[1 A>BA>G F>GA>B |
+^/c>B^/c>d e2e>f :|[2 A>BA>G F>GA>^/c | "a."B>GG>F G2 |]
+P: Var:
+"a."BG2F |]

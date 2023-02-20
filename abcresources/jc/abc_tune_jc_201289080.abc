@@ -1,0 +1,35 @@
+X: 1
+T: Huzza
+P: Longways for as many as will
+%R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.29
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.6 #12
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+defg a2a2 | b2a2 a4 | b4 a2g2 | agfe d4 |\
+defg f2A2 | ABcd c2F2 | FGA2 ABc2 | A2G2 F4 :|
+|:\
+FGAB c2F2 | EFG2 G4 | B4 A2D2 | ^CDE2 E4 |\
+A=B^cd e2G2 | F2de f2A2 | G2ba gfed | e2d^c d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d'2de f2d2 | g2fe f2d2 | g4 f2e2 | d4 D4 |\
+d4 z2f2 | f4 z2f2 | f4 F4 | c2C2 F4 :|
+|:\
+F2FG A2B2 | c4 c4 | ^c4 d4 | A4 A4 |\
+a4 ^c4 | d4 z2f2 | g4 b2g2 | a2A2 d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. foots it and turns .| First Cu. cross over and half figure at Top :|
+%% The 1st Man goes round the 3d Man on the Right hand side, 1st Wo. does
+%% the same at the same time round the 2d Wo. 1st Cu. turns in the 2d Cu. Place
+%% .| the 1st Man figures round the 3d Wo. 1st Wo at the same Time figures round
+%% the 2d Man, and turn again in the 2d Cu. Place.
+%%endtext

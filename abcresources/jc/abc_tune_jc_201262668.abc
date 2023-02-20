@@ -1,0 +1,15 @@
+%%topmargin 0
+%%topspace 0.5cm
+%%composerspace 0
+%%musicspace 0
+%%staffsep 0
+%%staffwidth 300
+X:1
+T:TEST: alto/viola part
+M:4/4
+S:Jeff Bigler
+L:1/16
+K:Gm
+V:2     clef=alto   nm="Viola"              snm=""
+K:Gm
+| d4 a4 f6 =e2 | d2f2=e2d2 (^c2e2) A4 |

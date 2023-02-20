@@ -1,0 +1,27 @@
+X: 1
+T: Moselle
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (182)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: There's a double repeat sign between the strains, but none at the start or end.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+BcB B2d | ABA A2D | GFG AGA | B3- B2A |\
+BAB ^cBc | d^cd efg | fed Ad^c | d3- d2 :|
+|: d |\
+dBc d2e | cAB c2d | BAG dcB | A3- A2D |\
+GFG AGA | B3- B2A | BAB cBc | d3- d2c |\
+BcB ABA | G3- G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cross over down one Cu. and turn hands then down the 
+%% next Cu. the same way and turn hands the Wo. turns the 
+%% upper Man with one hand her Partner with the other the
+%% Man does the like at the same time only at the last
+%% Dancers turn with both hands.
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,23 @@
+X: 1
+T: Farewell to Argyle
+C: J. Francis Carter
+N: Worthing, England
+N: Adapted from the author's hymn, Arduaine
+N: Suggested tune for the dance "Cornish Waltz"
+B: "Gems - The Best of the Country Dance and Song Society", CDSS, 1993, p.39
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: waltz
+M: 3/4
+L: 1/4
+K: G
+"A1"[|] d |\
+"G"d2B | GBd | "C"gfe | "G"d2d | "D7"d2c | ABc | "G"e2d | B2d ||
+"A2"[|]\
+"G"d2B | GBd | "C"gfe | "G"d3 | "D7"c2A/F/ | DFA | F2G | A2 ||
+"B1"[|] d |\
+"G"dBG | dBG | "D"F2G | A3 | "D7"cAF | cAF | "G"e2d | B2 ||
+"B2,3"|: d |\
+"G"d2B | GBd | "C"g2e | "G"d2d | "D7"d2c | Ace | a2F | "G"G2 :|
+%%begintext align
+The dance was written to commemorate the author's move from Scotland to Cornwall.
+%%endtext

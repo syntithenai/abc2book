@@ -1,0 +1,45 @@
+X: 1
+A:Thomas Tallis
+T:Thomas Tallis' Third Psalm Tune
+M:none
+L:1/4
+Q:1/4=122
+K:E Phrygian
+%
+V:1 clef=treble
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+V:4 clef=bass+16 middle=D,%+
+%
+%%MIDI program 1	79 ocarina
+%%MIDI program 2	74 recorder
+%%MIDI program 3	78 whistle
+%%MIDI program 4	60 frenchrn
+%
+% Squeeze things together a bit, to get the whole tune to fit on one page.
+%%sysstaffsep    22.0pt
+%%systemsep      50.0pt
+%
+[V:1] z E    E    E  | E3    E   A   A  | ^G2    G  | ^G2 ^F   G   A  | ^G2
+[V:2] z B,   B,   B, | B,3   B,  C   D  |  E2    E  |  E2 ^D   E   E  |  E2
+w:     Why fum'th in  sight the Gen-tiles spite, in    fu- ry rag-ing   stout?
+[V:3] z E,   G,   G, | G,3   G,  A,  A, |  B,2   B, |  B,2 B,  B,  C  |  E2
+[V:4] z E,   E,   E, | E,3   G,  F,  F, |  E,2   E, |  E,2 B,, E,  A,,|  E,2
+%
+[V:1] z G    G    G  | ^G3   B   A   A  | ^G2    G  | ^G2   G   A    A  | ^G2
+[V:2] z E    E    E  |  E3   E   E   D  |  E2    E  |  E2   E   E    E  |  E2
+w:     Why tak'th in   hand the peo-ple   fond, vain things to bring a-   bout?
+[V:3] z E,   B,   B, |  B,3  G,  A,  A, |  B,2   B, |  B,2  B,  C    A, |  B,2
+[V:4] z E,   E,   E, |  E,3  G,  F,  F, |  E,2   E, |  E,2  E,  A,,  A,,|  E,2
+%
+[V:1] z =G  | G> (AB) | c2   B    A    A  | G2   G  | F2    E   E    D  | E2
+[V:2] z  E  | E2   F  | G2   G    E    E  | E2   E  | C2    C   A,   A, | A,2
+w:      The  kings a-  rise, the Lords de- vise, in   coun-sels met there-to,
+[V:3] z  B, | B,>(CD) | E2   D    C    C  | B,2  G, | A,2   E,  F,   F, | E,2
+[V:4] z  E, | E,2  D, | C,2  G,,  A,,  A,,| E,2  E, | A,,2  C,  D,   D, | A,,2
+%
+[V:1] z E  | A>  (GF)  E2    G  | c>  (BA)  G    E  | A   A    A     (E/^F/)|^G4      ||
+[V:2] z C  | E2    C   C2    C  | C2    C   C    C  | A,  D    C      C     | B,4     ||
+w:      a-  gainst the Lord with false  ac-cord, a-gainst his Christ they     go.
+[V:3] z A, | C> (B,A,) G,2   E, | A,>(G,F,) E,   G, | F,  D,   E,     E,    | E,4     ||
+[V:4] z A,,| A,,2  A,, C,2   C, | A,, F,,2  C,   C, | F,, F,,  A,,    A,,   |[E,,4E,4]||

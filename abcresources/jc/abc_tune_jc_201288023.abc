@@ -1,0 +1,20 @@
+X: 1
+T: Hovdemellom leiken av Siugurd Garmo
+O: Norway
+R: waltz
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Gm
+V: 1
+D2 \
+|: (D2 ^F2) G2 | {A}B2 (BG) cA | {A}B2 (cB) AG | {E}(F2 D2) C2 |
+|  (D2 ^F2) G2 | {A}B2 (BG) cA | {A}B2 (cB) A^F |1 {^F}G4 G2 :|2 {^F}G4 (GB) ||
+|: d2 (ed) cd | {A}B2 (BG) GA | {A}B2 (cB) AG | (^F2 D2) D2 |
+|  d2 (ed) cd | {A}B2 (BG) GA | {A}B2 (cB) A^F |1 {^F}G4 (GB) :|2 G4 |]
+V: 2
+D2 \
+|: (D2 C2) B,2 | G2 (DB,) D^F | G2 (BG) DB, | C4 C2 |
+|  (D2 C2) B,2 | G2 (DB,) D^F | G2 (BG) DC |1 B,4 D2 :|2 B,4 (DG) ||
+|: B2 (cB) AB | G2 (DB,) D^F | G2 (BG) DB, | A,2 (D^F) Ac |
+|  B2 (cB) AB | G2 (DB,) D^F | G2 (BG) DC |1 B,4 D2 :|2 B,4 |]

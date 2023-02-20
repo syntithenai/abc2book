@@ -1,0 +1,86 @@
+
+X: 1
+T: Pokarekare Ana
+O:trad M\=aori
+M:C
+L:1/8
+F:http://crash.ihug.co.nz/~dexy/music/kiwi.abc 2009-11-29
+K:D
+A2  "A7"ff ee \
+|| "D"d4 f4- | "D7"f2 A2 dd cc | "G"B4  e4- | "Em"e2 BB ee dd \
+| "A"c4  e4- | "A7"e2 AA BB cc | "D"d4-"G"d4- |
+d2 d2 "D7"e2 f2  \
+|| "G"g4-g4- | g2 B2  d2 g2  | "D"f4-f4- | f2 d2 de f2  \
+| "A"e4-e4- | "A7"ec cc B2 A2  | "D"d4-"G"d4- | "D"d2  |]
+
+%%sep 5 1 500
+
+X: 2
+T: Pokarekare Ana
+O:trad M\=aori
+N:Paraire Tomoana published the words in 1921. The tune is older, composer unknown.
+M:C
+L:1/8
+F:http://crash.ihug.co.nz/~dexy/music/kiwi.abc 2009-11-29
+K:G
+D2 "D7"BB AA \
+| "G"G4  B4- |    B2 D2 GG FF | "C"E4    A4- |"Am"A2 EE AA GG \
+| "D"F4  A4- |"D7"A2 DD EE FF | "G"G4-"C"G4- | "G"G2 ||
+G2 "G7"A2 B2 \
+| "C"c4- c4- | "C"c2 E2 G2 c2 | "G"B4-   B4- |    B2 G2 (3G2 A2 B2  \
+|"Am"A4- A4- |"D7"AF FF E2 D2 | "G"G4-"C"G4- | "G"G2  |]
+
+%%sep 5 1 500
+
+X: 3
+T: Pokarekare Ana
+O:trad M\=aori
+M:12/8
+L:1/8
+F:http://crash.ihug.co.nz/~dexy/music/kiwi.abc 2009-11-29
+N:If sung to a man, replace hine ("girl") with tama ("lad").
+N:And a woman might want to replace "Tuku atu taku r\=ingi" with "Tuku mai toku r\=ingi", You have sent your ring here.
+K:D
+A2-A "(A)"f2f e2e | "D"d6 f6- | f3 A2-A d2d c2c | "Em"B6 e6- |
+w: 1.~P\=o-*ka-re-ka-re a-na_ ng\=a_ wa-i o Wa-ia-pu,
+w: 2.~Tu-hi-tu-hi ta-ku re-ta,_ tu-ku a-tu ta-ku r\=i-ngi,
+w: 3.~Wha-ti wha-ti ta-ku pe-ne,_ ka_ pa-u a-ku pe-pa,
+w: 4.~E_ ko-re te a-ro-ha,_ e ma-ro-ke i te r\=a,_
+| e3 B2B e2e d2-d | "A"c6 e6- | e3 A2-A B2B c2c | "D"d6-"(G)"d6- | "(D)"d3 |]
+w: ~ whi-ti a-tu ko-e hi-ne_ ma-*ri-no a-na e.__
+w: ~ Ki-a ki-te t\=o_ i-wi,_ ra-ru ra-ru a-na e.__
+w: ~ Ko_ ta-ku a-*ro-ha,_ ma-u to-nu a-na e.__
+w: ~ M\=a-*k\=u-*k\=u* to-nu i, a-ku- ro-i-ma-ta e.__
+[| d3 "(D7)"e3 f3 | "G"g6-g6- | g3 B3 d3 g3 | "D"f6- f6- |
+w: E hi-ne e__ ho-ki mai r\=a._
+f3 d3 d2e2f2 | "A"e6-e6- | e2c c2c B3 A3 | "D"d6-"(G)"d6- | "(D)"d3 |]
+w: * Ka ma-te a-hau__ i te a-ro-ha e.__
+%
+%W: P\=okarekare ana ng\=a wai o Waiapu,
+%W: Whiti atu koe hine marino ana e.
+%W:
+%W: Chorus:
+%W: E hine e hoki mai ra.
+%W: Ka mate ahau I te aroha e.
+%W:
+%W: Tuhituhi taku reta tuku atu taku r\=ingi,
+%W: Kia kite t\=o iwi raru raru ana e.
+%W:
+%W: Whati whati taku pene ka pau aku pepa,
+%W: Ko taku aroha mau tonu ana e.
+%W:
+%W: E kore te aroha e maroke i te r\=a,
+%W: M\=ak\=uk\=u tonu i aku roimata e.
+%W:
+W:Translation:
+W:
+W:   They are agitated the waters of Waiapu, But when you cross over girl they will be calm.
+W:
+W:   Chorus:
+W:   Oh girl return to me, I could die of love for you.
+W:
+W:   I have written my letter I have sent my ring, so that your people can see that I am troubled.
+W:
+W:   My pen is shattered, I have no more paper But my love is still steadfast.
+W:
+W:   My love will never be dried by the sun, It will be forever moistened by my tears.

@@ -1,0 +1,18 @@
+X: 20131
+T: Lilli Burlare
+%R: jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.13 #1
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+%%slurgraces 1
+%%graceslurs 1
+D |\
+G>AG TB2B | A>BA c3 | (B/c/d)G c2B | A>GF G2 :: d |\
+g2f g2d | =f>gf Te2d | d>e^f g>fe | {e}d>cB A3 |
+e>dc Bcd | e>dc Bcd | (e/f/g)G c2B | A>GF G2 :: D |\
+(G/A/B)B TB2g | aAB {B}c2e | (d>B)G (Ec)B | TA>GF G2 :|
+|: d |\
+(3(g/f/g/)ag gde | =f>gf e2d | B>cd (e/^f/g)e | (d<B)G A2=f |\
+e(c/e/)g d(B/d/)g | ec/e/g dBd | (e/f/g)G EcB | A>GF G2 :|

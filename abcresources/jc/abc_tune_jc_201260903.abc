@@ -1,0 +1,32 @@
+X: 1
+T: Cavylilly Man
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.77 "H 3"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+f2f e2d | d>ef A3 | A>Bc c2c | f>gf e>dc |\
+f2f e2d | d>ef A2A | B>AG A2A | A>B^c d3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first cu. lead up, and the 2. cu. lead down, turn about and lead, the first cu. cast off into the
+%% 2. place. Do this to the last.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The first cu. take hands and change places, the 1. man and 2. wo. take hands, and the 1. wo. and
+%% 2. man take hands and change places, then take hands with your own and change places. Do this to
+%% the last.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The first man cast off, his wo. following him into the 2. place, so going the Figure of 8. the wo. casts
+%% off, and does as much. Do this to the last.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

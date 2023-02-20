@@ -1,0 +1,10 @@
+%%staffwidth 300
+X: 1
+T: TEST Voice change Flute to Piccolo
+M: C
+L: 1/8
+K: C
+V:1 name="Flute" clef=treble
+| CDEF GABc | cdef gabc' |
+V:1 name="Piccolo" clef=treble+8
+|  CDEF GABc | cdef gabc' |

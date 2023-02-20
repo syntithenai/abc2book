@@ -1,0 +1,58 @@
+
+X: 1
+T: Back of the Change House
+O: as played by Natalie MacMaster
+B: Robert Bremner's 1757 collection
+B: Athole Collection
+S: Page from Concord Slow Scottish Session collection
+O: as played by Natalie MacMaster on "A Compilation", track 2
+M: 4/4
+L: 1/8
+K: D
+B |\
+"D"A>F A<f  "G"e>d B>d | "D"A>F A<B "G"d>e d<B |\
+"D"A>F A<f "Em"e>d B>g | "A"f<a A<B "D"d2 d :|
+|: g |\
+"D"f>e d<f "G"e>d B>g | "D"f>e f<g "A"a>b a<g |\
+"D"f>e d<f "G"e>d B>g | "D"f<a "A7"A<B "D"d2 d :|
+
+%%sep 1 1 500
+
+X: 1
+T: Back of the Change House
+O: Robert Bremner's 1757 collection
+B: Athole Collection
+N: Arr. T. Traub 3/13/96, mods. 7-24-03
+M: 4/4
+L: 1/8
+K: D
+B |\
+"D"A<F A>f  "G"e>d B<d | "D"A<F A>B "G"d>e d<B |\
+"D"A<F A>f "Em"e>d B<g | "A"f/g/a e<c "D"d2 d :|
+g |\
+"D"f>e d>f "G"e>d B<g | "D"f>e f>g "A"a>b a<g |\
+"D"f<d g>f "G"e>d B<d | "A"f/g/a e<c "D"d2 d ||
+g |\
+"D"f>e d>f "G"e>d B<g | "D"f>e f>g "A"a>b a<g |\
+"D"f<d g>f "G"e>d B<d | "A"a<f g<e "D"d2 d |]
+
+%%sep 1 1 500
+
+X: 1
+T: Back of the Change House
+T: C\`ul an Taigh Osda
+O:Bagpipe adaptation 1848
+M:C
+L:1/8
+R:Reel
+B:William Gunn - The Caledonian Repository of Music
+B:Adapted for the Bagpipes (Glasgow, 1848, p. 2)
+Z:AK/Fiddler’s Companion
+K:D
+B |\
+AAAf edBd | AAAB dedB |\
+AAAf edBg |[1 faef dedB :|[2 faef d2d ||
+|: g |\
+fedf edBg | fefg a>dag |\
+[1 fedf edBg | faef d2d :|\
+[2 fdaf edBg | faef d2d |]

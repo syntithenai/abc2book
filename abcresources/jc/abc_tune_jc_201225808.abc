@@ -1,0 +1,29 @@
+X:4
+T:1000 \^Anes dans le pr\'e et alla danser
+G:Kazimodal
+R:Rond de Saint-Vincent
+C:Ronan Keryell, arrangement http://kazimodal.trad.org
+Q:C2=90
+P:F4
+M:4/4
+K:Em
+P:F
+%%%MIDI gchord ffcfffcfffcfffcf
+%%%MIDI gchord ffczffcfffcffzcf
+%%MIDI gchord ccfzccfcccfcczfc
+%%MIDI chordprog 41
+%%MIDI bassprog 36
+%%MIDI bassvol 127
+%%MIDI program 73
+|: "Em"E/2G/2F/2E/2 "D"D/2EF/2 "C"GA/2F/2 "D"GF |\
+	 "Em"E/2G/2F/2E/2 "D"FF "G"B/2AG/2 "D"FG |
+"Em"EF/2G/2 "D"F/2EF/2 "C"GB "Em"EF/2G/2 |\
+%%MIDI gchord ffczffcfffcffzzz
+	"D"FF/2F/2 "G"Bd B/2AB/2 "Bm"Fz :|
+%%MIDI gchord ffczffcfffcffzcf
+K:Am
+|: "Am"AG/2A/2 "F"c/2c/2c "G"B/2A/2B/2c/2 "Am"A2 |\
+	"C"cA/2c/2 "Dm"d/2dd/2 "Em"ed/2e/2 "Am"cA |
+"Am"AG/2A/2 "F"ce "Dm"d/2c/2A/2G/2 "Em"E2 |\
+	 "Dm"AB/2c/2 "Em"d/2ed/2 "F"BA/2"G"G/2 "Am"A2 :|
+%%text Break Em/G/Am/Bm Em/G/Am/Em

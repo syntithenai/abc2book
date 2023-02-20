@@ -1,0 +1,26 @@
+X:1
+T: Irish Jig (1)
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:Am
+I:speed 165
+%W: A1
+% voice 1 (1 lines, 40 notes)
+K:Am
+M:6/8
+L:1/16
+A4 B2 c2 B2 c2 d2 c2 d2 e4 a2 A4 B2 c2 B2 c2 d2 c2 d2 e2 c2 A2 |A4 B2 c2 B2 c2 d2 c2 d2 e4 g2 a4 e2 f4 d2 e4 d2 e2 c2 A2 |
+%W: A2
+% voice 1 (1 lines, 40 notes)
+A4 B2 c2 B2 c2 d2 c2 d2 e4 a2 A4 B2 c2 B2 c2 d2 c2 d2 e2 c2 A2 |A4 B2 c2 B2 c2 d2 c2 d2 e4 g2 a4 e2 f4 d2 e4 d2 e2 c2 A2 |
+%W: B1
+% voice 1 (1 lines, 43 notes)
+a4 b2 c'2 b2 a2 g2 e2 g2 a6 e2 a2 a2 e2 a2 a2 c'2 b2 a2 b2 g2 e2 |a4 b2 c'2 b2 a2 g2 e2 g2 a4 b2 c'2 b2 a2 g2 e2 c2 d2 c2 d2 e2 c2 A2 |
+%W: B2
+% voice 1 (1 lines, 41 notes)
+a4 b2 c'2 b2 a2 g2 e2 g2 a6 e2 a2 a2 e2 a2 a2 c'2 b2 a2 b2 g2 e2 |a4 b2 c'2 b2 a2 g2 e2 g2 a4 b2 c'2 b2 a2 g2 e2 c2 d2 c2 d2 A6 ||

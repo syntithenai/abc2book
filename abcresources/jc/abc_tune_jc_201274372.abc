@@ -1,0 +1,42 @@
+X:1
+T:Falkland Palace
+M:C
+L:1/8
+Q:80
+C:B. Donaldson 1st Batt. Scots Gds.
+S:March
+K:HP
+[| e2 | \
+{gcd}c2-cB{g}A2-AB | \
+{gcd}c{e}A{g}c/2e3/2{g}f2{gf}ga |
+{ef}e2-ec{gBd}B{e}A{g}B/2{d}c3/2 | \
+{g}B2-B2{GdGe}B2-Be | | \
+{gcd}c2-cB{g}A2-AB |
+{gcd}c{e}A{g}c/2e3/2{Gdc}d2{g}c3/2d/2 | \
+{gef}eA{Gdc}dc{gBd}B{e}A{g}B/2{d}c3/2 | \
+{e}A2-A2{GAG}A2|] [ |
+| {g}c3/2d/2{gef}e2-ec{ag}a2 | \
+-ae{g}fd{g}A/2f3/2{gef}e2 | \
+{g}c3/2d/2{gef}e2-ec{ag}aA |
+{g}B/2{d}c3/2{g}B2-B2{GdGe}B2 | | \
+{g}c3/2d/2{gef}e2-ec{ag}a2 | \
+-ae{g}fe{Gdc}da{ef}e2 |
+{g}c3/2d/2{gef}eA{Gdc}dc{gBd}B{e}A | \
+{g}B/2{d}c3/2{e}A2-A2{GAG}A-A|] [ | \
+e2 |
+{g}A2-Ae{gcd}c2-cB | \
+{g}Ae{gcd}c3/2B/2{g}A2{g}c3/2d/2 | \
+{gef}e2-ec{gBd}B{e}A{g}B/2{d}c3/2 |
+{e}B2-B2{GdGe}B2-Be | | \
+{g}A2-Ae{gcd}c2-cB | \
+{g}Ae{gcd}c3/2B/2{g}A2{g}c3/2d/2 |
+{gef}eA{Gdc}dc{gBd}B{e}A{g}B/2{d}c3/2 | \
+{e}A2-A2{GAG}A2|] [ | \
+| {g}f3/2g/2a2-a{g}a{ef}e2 |
+-e{A}e{g}fd{g}d/2a3/2{ef}e2 | \
+{g}f3/2g/2a2-a{g}a{ef}eA | \
+{g}B/2{d}c3/2{g}B2-B2{GdGe}B2| |
+{g}f3/2g/2a2-a{g}a{ef}e2 | \
+-e{A}e{g}fe{Gdc}da{ef}e2 | \
+{g}c3/2d/2{gef}eA{Gdc}dc{gBd}B{e}A |
+{g}B/2{d}c3/2{e}A2-A2{GAG}A2|]

@@ -1,0 +1,31 @@
+X: 21112
+T: AMERICAN SETT (tune 5)
+C:
+%R: march, reel, hornpipe
+B: Elias Howe "The Musician's Companion" 1843 p.111 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain has only 7 bars; perhaps its 3rd bar (bar 19) should be repeated.
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+F2 |\
+F2d2 d2cd | c2Bc B2AB | A2G2 G2AB | d2c2 F2F2 |\
+F2d2 d2cd | c2Bc B2AB | G2c2 F2A2 | B4 z2 H|]
+F2 |\
+F4 B>cd>B | F4 B>cd>B | f>ed>e =B>cd>c | f>ed>e =B>cd>c |\
+F4 B>cd>B | F4 B>cd>B | f>ed>e c>ed>c | B2d2B2 |]
+B2 |\
+B4 e>fg>e | B4 e>fg>e | b>ag>f =e>fg>e |\
+B4 e>fg>e | B4 e>fg>e | b>ag>a f>ag>f | e2g2"^D.C."e2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across partners,
+%% all balance partners,
+%% grand chain,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

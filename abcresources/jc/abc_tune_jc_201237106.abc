@@ -1,0 +1,26 @@
+X: 2421
+T: OAKLAND GARDEN
+R: Clog Dance.
+%R: clog, hornpipe, reel
+B: James Kerr "Merry Melodies" v.2 p.47 #421
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: C
+(3(G,A,B,) |\
+C2D2 EG zG | ABcd ec zG |\
+ABcA GE zG | FEDC {D}CB,A,G, |\
+C2D2 EG zG | ABcd ec ze |\
+fgaf ec'af | ecdB c2 :|
+|: uE2 |\
+vA4- ABcd | veA zB cdez |\
+vfA zv^c defz | eA zB cdez |\
+!ff!vdB z2 {B,C}DB, zd | !p!vc!ff!Az2 {A,B,}CA, zuc |\
+B^G z2 {^G,A,}B,G, zB | Aaec A2 :|
+|: G2 |\
+c4- cdef | g2ec GE zg |\
+a2fc AF za | g2ec GE zg |\
+f2GB dfag | e2CE Gcfe |\
+d2DG BedB | cEGe c2 :|

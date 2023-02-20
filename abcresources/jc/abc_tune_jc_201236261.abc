@@ -1,0 +1,24 @@
+X: 21841
+T: AIR FROM GUILLAUME TELL
+C: Rossini
+R: waltz
+B: K\"ohler's Violin Repository, v.2, 1885 p.184 #1
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: This is related to the song A Scottish Soldier
+N: In bar 14, the last note has a flag, but there's no rest.  Changed to e2, to be like similar measures.
+M: 3/4
+L: 1/8
+K: G
+u(DGA) |\
+B3 (GBc) | d3 (eBe) | (dcA).F.A.e | (dBG).D.G.A |\
+B3 (GBc) | d3 (eBe) | (dcA).D.F.A | G2 z2 uG2 |
+g4 (fe) | (ed) dz ue2 |  (dc) cz ud2 | cB Bz uG2 |\
+g4 (fe) | (ed) dz ue2 | (d^c) cz uBA | d3 (AfA) |\
+e3 (A^cA) | d3 (AfA) |
+e3 (A^cA) | .d(e^cede |\
+=cdBdAd) | G2 zu(DGA) | B3 (GBc) | d3(eBe) | (dcA)FAe | (dBG)DGA |
+B3(GBc) | d3(eBe) | (dcA)DFA | G3(FGA) |\
+B3(FdF) | B3(cBA) | G3(DBD) | G3 (FGA) |
+B3 (FdF) | B3(cBA) | G3(DBD) | G3z uG2 |\
+g4 (fe) | (ed) dz ue2 | (dc) cz ud2 | [g2B2D2G,2] z2 "^Fine."z2 |]

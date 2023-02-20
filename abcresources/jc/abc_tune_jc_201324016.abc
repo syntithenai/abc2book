@@ -1,0 +1,21 @@
+X: 1
+T: the Piper o' Dundee
+T: the Drummer
+R: strathspey
+O: Trad.
+B: Walsh "Caledonian Country Dances", 1740
+B: Neil Stewart "Collection of the Newest and Best Reels or Country Dances", 1761
+B: Gow's Repository, 1802, called "very old"
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+"E7"E2 \
+| "Am"A>B c>A E2 E>^F |  "G"G>A B>c d>{c}B {A}G>B \
+| "Am"A>B c>A E2 e>f  | "E7"e>d c>B A2 :|
+"G7"B2 \
+| "C"c2 c>e "G"d2 d>e | "C"c2 c>e "G"d>B G>B \
+| "C"c2 c>e "Dm"d2 d>f | "E7"e>d c>B "Am"A2 ||
+"G7"A>B \
+| "C"c>G c>e "G"d>G d>e | "C"c>G c>e "G"d>B G>B \
+| "C"c>G c>e "Dm"d2 d>f | "E7"e>d c>B "Am"A2 |]

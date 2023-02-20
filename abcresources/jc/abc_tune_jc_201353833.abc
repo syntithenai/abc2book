@@ -1,0 +1,30 @@
+X: 580
+T: Ukrainskyj Tanietz
+T: (Ukrainian Dance)
+O: Naftule Brandwein Feb 1923
+M: 2/4
+L: 1/16
+Q: 1/4=132
+%P: AABBCCDDEDBBCCDDEEBBCC
+K: Gm
+"Gm"Hg8 \
+P:A
+|:"Gm"b2b2 "D7"a3[a^f] | "Gm"g2g2 "D7"^f2fd | "Gm"b2b2 "D7"a3[a^f] | "Gm"g2g2 "D7"^f2fd \
+| "Gm"g2-g2 fedc | "Gm"d2B2 A2G2 | "D7"(3^FGAd2 D2=EF | "Gm"G8 |
+| "Gm"b>ab>g "D7"a2a^f | "Gm"g2g2 "D7"^f2fd |"Gm"b>ab>g "D7"a2a^f | "Gm"g2g2 "D7"^f2fd \
+| "Gm"g2g2 fedc | "Gm"d2B2 A2G2 | "D7"^F/G/Ad2 D2=EF | "Gm"G8 :|
+P:B
+|:"Bb"f4 "F"edec | "Bb"d2d2  "F"c2c2 | "Bb"d2de "F"c2c2 | "Bb"d2d2 "F"edec \
+| "Bb"f4 "F"edec | "Bb"d2d^f "F"e2e2 | "Bb"d2d2 "D7"^f2fa |1 "Gm"g4 g4 :|2 "Gm"g6 d2 ||
+P:C
+|:"Gm"G2B2 d2^c2 | d8- dcBA | "Gm"G2B2 d2^c2 | "Gm"d8- dcBA \
+| "Gm"G2B2 d2^c2 | d2-d2 "Cm"c2-c2 | "Gm"B2{A}cB "D7"AGAB |1 "Gm"G6 D2 :|2 "Gm"G8 "^fine"y2||
+P:D
+|:"D"A3^F D2D2 | "Gm"G^FGA BABG | "D"A3^F D2D2 | "Gm"G^FGA B2-B2 \
+| "D"A3^F D2D2 | "Cm"G2E2 D2C2 | "Gm"BABc "D7"d2^F2 |1 "Gm"G8 :|2 "Gm"G6 d2 ||
+P:E
+|:"Gm"g2gb "D7"a2ac' | "Gm"b2bg "D7"a2a2 | "Gm"gdgb "D7"adac' \
+| "Gm"b4 "D7"a4 | "Gm"gdgb "D7"adac' | "Gm"b2bg "D7"a2ag | "D7"^f2f2 d2=ef | "Gm"g8 :|
+P:F
+| "D"A3^F D2D2 | "Gm"G^FGA BABG | "D"A3^F D2D2 | "Gm"G^FGA B4 \
+| "D"A3^F D2D2 | "Cm"G2E2 D2C2 | "Gm"BABc "D7"d2^F2 | "Gm"G6 d2 "_to A"|]

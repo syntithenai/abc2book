@@ -1,0 +1,19 @@
+X: 1
+T: Reel B\'eatrice   [Am]
+C: trad. Qu\'ebec
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Fiddle Hell 2020 Quebec Jam handout
+M: C|
+L: 1/8
+K: Am
+"^A"[|] A,B, |\
+"Am"CCA,C EECE | AEED EGAB | cAAc ecce | aeea eaab |
+"Am"c'bag fedc | "Dm"BddB d3e | "E"e^def e=dcB |1 "Am"A2A,A, A,2 :|2 "Am"A6 ^g2 ||
+"^B"|:\
+"Dm"a2fa b2ff | "Am"fede a2ee | "E"ee^de ffe=d  | "A"cdcB A2^g2 |
+"Dm"a2fa b2ff | "Am"fede a3e- | "E"e^def e=dcB |1 "Am"A6 a2 :|2 "Am"A4 "G7"G4 ||
+"^C"|:\
+"C"c2Gc EGce | cGGG EGce | "G7"dBBB GBdB | "C"ceba "G7"gfed |
+"C"c2Gc EGce | cGGG EGce | "G7"dBBB GBdB |1 "C"cBcd c2AB :|2 "C"cBcd c2"E"x |]
+%%center Play AABC (using second endings on B anc C) for contra dances.

@@ -1,0 +1,14 @@
+X: 1
+T: Falls of Shin
+C: Barbara McOwen Nov.1983
+%D:1983
+R: reel
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: Slightly simplified by merging the 2 "identical" B parts (ignoring final A2 in the first B).
+N: Also, initial 8th-note rests as "pickups" moved to the ends.
+M: C|
+L: 1/8
+K: Ador	% and Amix
+%
+"^A"|: "Am"A2eA e2g2 | "G"dBGB dedB | "Am"A2eA e2g2 | "D"fedf "Am"e2ez \
+"^B"::[K:Amix] "A"ea2f "G"gfed | "A"e2fd e2f2 | "A"ea2f "G"gfed | "Em7"cABG "A"A2Az :|

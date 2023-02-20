@@ -1,0 +1,27 @@
+X: 1
+T: Wherefore come ye here Ise warrant
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (39)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The actual time signature is 6/8, but there are 12 8th notes per measure.
+M: 6/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+B3cd2- d2B2d2 | =f4c2- c2A2=F2 | B3cd2- d2B2d2 | g4d2- d2B2G2 |\
+g4d2- d2B2G2 | =f4c2- c2A2=F2 | g4d2 g2d2B2 | g4d2 d2B2G2 |]
+[|\
+(BABcd)B (dcBcd)B | (=fcAc=f)c (cBABc)A | (BABcd)B (dcBcd)B | (gdBdg)d dcBAG2 |]
+[| g2BcdB d2BcdB | =f2ABcA c2ABcA | g2BcdB d2BcdB | g2BcdB d2B2G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1s5 Cu. gallop down the Middle and up to the Top and cast off .|
+%% the 2d Cu. do the Same :| The 1st man turn the 3d Wo. and 1st Wo.
+%% the 2d man and turn Partners .| The 1st man turn the 2d Wo. and 1st
+%% Wo. the 3d Man and turn Partners :#: The 1st man and 2d Wo. foot
+%% it and turn .| 1st Wo. and 2d Man the same :| The 1st Cu. cross over
+%% and figure in .| then right and left.
+%%endtext
+%%sep 1 8 500

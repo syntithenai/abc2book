@@ -1,0 +1,19 @@
+X: 45
+T:Zwiefacher Bayerischer Bauer
+O: Germany
+M:3/4
+L:1/8
+Q:1/4=180
+K:Eb
+%%MIDI program 61
+%%MIDI chordprog 20
+%%MIDI bassprog
+%%MIDI chordvol 63
+%%MIDI bassvol 112
+"Eb"B4AG          |"Eb".G2.A2.B2    | [M:2/4] "Ab"c4      |"Eb"FGE2        |
+"Eb"z2B2          |"Eb"B2AG         |[M:3/4] "Eb".G2.A2.B2| [M:2/4] "Fm"c4 |
+[M:3/4] "F"F4z2   |[M:2/4] "Fm"A2GF | [M:3/4] "Fm"F2G2A2  | [M:2/4] "Eb"B4 |\
+[M:3/4] "Eb"E4z2  |
+"Eb"z2EGG2        |"Bb"FED4         |"Ab"z2FAA2           |"Eb"GFE4        |
+"Eb"G2G2B2        |[M:2/4] "Ab"A2c2 | [M:3/4] "Ab"F2GAF2  |[M:2/4] "Eb"G2B2|\
+[M:3/4] "Ab"F2A2A2| [M:2/4] "Eb"D2E2|

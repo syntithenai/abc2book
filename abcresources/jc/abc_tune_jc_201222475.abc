@@ -1,0 +1,24 @@
+X: 06022
+T: FAIRFAX PARK - POLKA -
+C: Bob McQuillen 18 July 82
+B: Bob's Note Book 6 #22
+%R: polka
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain has unusual 1st/2nd "endings" that don't include the final d6.
+N: Moved the staff break by 2 bars to make a 2-staff layout work better.
+N: Reformat the staff layout to fit your needs.
+M: C
+L: 1/8
+K: D
+AA \
+| d2d2 cdec | defd A2ff | g2ag fed2 | e6 AA |\
+| d2d2 cdec |1 defd A2AA | B2cd e2c2 | d6 :|2 defg a2ag |
+| f2ed e2c2 | d6 :: fg \
+| a2f2 gfed | edcB A2fg | a2f2 gab2 | e6 fg |\
+| a2f2 gfed | efec A2FA | B2cd e2f2 | d6 :|
+%%begintext align
+%% If you go to the
+%% national folk festival at Wolf Trap, Lake Fairfax
+%% Park in Reston, Va., is only about 10 minutes away.
+%% It is a real nice camping area. Good place to stay!
+%%endtext

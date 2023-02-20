@@ -1,0 +1,20 @@
+X: 20942
+T: MILL MILL O
+Q: "Moderato"
+%R: air, strathspey
+B: "Edinburgh Repository of Music" v.2 p.94 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+%%slurgraces 0
+%%graceslurs 0
+de |\
+{de}f2A2 A2d>c | {c}B>AB>d {f}e2de |\
+f2A2 (gfed) | B3c d2 :|\
+A2 |\
+d>ef>g (a3f) | (ba).g.f (f2e)A |
+d>ef>g a>ba>g | (f4 a2)A2 |\
+d>ef>g (afd'c') | ({c'}ba{a}gf) He2de |\
+f2A2 ({a}gf{f}ed) | B3c d2 |]

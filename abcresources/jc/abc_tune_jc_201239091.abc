@@ -1,0 +1,21 @@
+X: 32053
+T: "FAIR FA' THE MINSTREL" -- Reel
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.205 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Last part has an initial repeat but no final repeat.  (Not fixed)
+N: Parts 2 and 4 probably shouldn't be repeated, to give a 32-bar reel.
+M: C|
+L: 1/8
+K: Bb
+ue !segno!|\
+dB B/B/B (Fc)De | dB B/B/B (dB)fe | dB B/B/B (FB)DB | GEFD CDE :|
+|: uG |\
+(DB,)(FB,) GB,FB, | (DB,)(FB,) DEFB | (DB,)(FB,) GB,FB, | GEFD CDEG |
+(DB,)(FB,) GB,FB, | (DB,)(FB,) DEFe | dBcA BGFD | GEFD CDE :|
+|: ue |\
+dB B/B/B (FB)De | dB B/B/B (dB)fe | dB B/B/B (FB)DB | GEFD CDE :|
+|: ue |\
+(dB)(fB) gBfe | (dB)(fB) defb | (dB)(fB) gBfd | gefd cdeg |
+(dB)(fB) gBfe | (dB)(fB) defb | dbfd bdfb | gefd cdeg !segno!"_D.C."|]

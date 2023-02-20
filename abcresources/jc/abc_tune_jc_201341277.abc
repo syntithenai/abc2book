@@ -1,0 +1,22 @@
+X: 1
+T:Stourton Wake
+M:4/4
+C:
+S:Seabright
+N:a rough approximation of Paul Turner's version
+A:Adderbury
+O:English
+R:Reel
+%:NoTeX
+%:
+%P:A.(AB)$^4$
+P:A.(AB)4
+K:EDor
+I:speed 350
+%:
+D2 |: .E2 z4 D2 :|\
+P:A
+|: B z2  c .d2 .B2 | AGFE  .F2  GF  | .E2 .B2 BAGF    | Eeed .e4    :|\
+P:B
+   B z2  c .d2 .B2 | ed cB .c2 .A2  | B z2  c .d2 .B2 | .e4  .B4    |\
+   B z2  c .d2 .B2 | AGFE  .F2  GF  | .E2 .B2 BAGF    | Eeed  e4    ||

@@ -1,0 +1,37 @@
+X: 1
+T: The Duchess Tree
+C: J.S.Skinner
+R: air, strathspey
+B: The Scottish Violinist p.36
+B: Logie Collection, 1888
+Z: John Chambers <jc:trillian.mit.edu>
+N: Skinner's version is written an octave higher.
+N: Skinner also wrote the harmony line, which works as a descant above the melody.
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+AB |\
+"A"c2 c2 c2 Bc | "D"d2 F2 F2 GF |\
+"A"E2 A2 e2 c2 | "E7"c2B2- B2 AB |\
+"A"c2 c2 c2 Bc | "D(Bm)"d2 F2 F2 GF |\
+"A"EF GA "E7"c2 B2 | "A"A6 |]
+Bc |\
+"D"d2 d2 "(E7)"d2 AB | "A"c2 c2 c2 AF |\
+"A"E2 A2 "F#m"e2 c2 | "Bm"c2B2- "E7"B2 AB |\
+"A"c2 c2 "F#m"c2 Bc | "Bm"d2 F2 "E7"F2 GF |\
+"A"EF GA "E7"c2 B2 | "A"A6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+e2  |\
+e2 e2 f2 de | f2 b2 a2 ed |\
+c4    a4    | f2^d2 ef c=d |\
+e2 e2 f2 de | f2 b2 a2 ed |\
+e2 Bc e2 d2 | c6 |]
+z2  |\
+f2 f2 f2 cd | e2 e2 e2 cA |\
+AB cd cd ea | fg ^df gf e=d |\
+e2 e2 f2 de | f2b2 a2 ed |\
+e2 Bc e2 d2 | c6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

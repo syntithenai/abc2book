@@ -1,0 +1,11 @@
+X:1
+T:Dusty Bob's Jig
+M:6/8
+L:1/8
+K:G
+V:2 clef=alto middle=C
+D, | "G"G,2G, G,A,B, | "D7"A,2A, A,B,C | "G"D2B, "C"C2A, | "G"B,2G, "D7"A,F,D, |
+"G"G,2G, G,A,B, | "D7"A,2A, A,B,C | "G"DCB, "D7"A,G,F, | "G"G,3-G,2 :|]
+[ |: D | "G"G2G GAG | "Bm\nB7"F2F FGF | "C"E2E EFG | "D7"A2G FED |
+|1 "G"G2G GAG | "Bm"F2F FGF | "C"EFG "D7"FGA | "G"G3-G2 :|]
+|2 "G"G2D "Em"B,CD | "Am"E2C "D7"A,B,C | "G"DCB, "D7"A,G,F, | "G"G,3-G,2 |]

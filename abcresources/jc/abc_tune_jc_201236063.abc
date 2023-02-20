@@ -1,0 +1,32 @@
+X: 21601
+T: OH! HASTE AND LEAVE THIS SACRED ISLE
+O: Irish air.
+Q: "Moderato."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.160 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 is one long staff for compact, small-scale output.
+V: 1 staves=2
+!p!cBc |\
+(d2 B)def | (g2 d)d ({f}ed/c/) |\
+(B2 G)B TA>G | G2 zcBc |\
+(d2 B)def | g3 b "_cresc."(a/g/) (f/e/) |\
+!f!d4 ({f}e>d) | d3 cBc |\
+(d2 B)def | (g2 d)g (f/e/) (d/c/) |\
+(B2 G)B (TA>G) | G2 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout.
+V: 2
+!p!FGA |\
+(B2 G)BcA | B3 B ({d}cB/A/) |\
+GDBDFD | (G/e/d/c/) BAGA |\
+(B2 G)BcA | B3 g "_cresc."(f/e/) (d/^c/) |
+dAFD (G>F) | (FDE)FGA |\
+(B2 G)BcA | B3 e (d/c/) (B/A/) |\
+(G2 D)G (TF>G) | G2 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -: _

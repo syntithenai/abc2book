@@ -1,0 +1,12 @@
+X: 316
+T: Kad ja po\doh na Bemba\vsu,
+O: trad. Bosnja
+R: pravo, sevdalinka
+M: 3/2
+L: 1/8
+K: Bm
+%%MIDI gchord ccc
+[| "Bm"d2"(F)"c2 "Bm"B4 "F#7"c4 |[M:4/2] "Bm"d2"(F)"c2 "Bm"B4 "A"A4 z4 \
+|[M:3/2]"Em"e3f g4 b4 | "A7"a2g2 "D"f4 z4 |]
+|: "Em"e3f gagf "A7"e4 | "D"d3e fgfe "Bm"dcB2 \
+|  "F#7"c3d "Em"e4 "F#7"f4 | "F#7"d2c2 "Bm"B4 z4 :|

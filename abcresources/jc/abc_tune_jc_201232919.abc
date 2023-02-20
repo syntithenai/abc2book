@@ -1,0 +1,646 @@
+X: 0
+T: Twenty Four Country Dances with Figures for the Year 1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Button & Whitaker "Twenty Four Country Dances with Figures for the Year 1809", London 1809
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+K:
+%%center BUTTON  and WHITAKER
+%%center Twenty Four Country Dances,
+%%center with Figures:
+%%center For the Year 1809, Adapted for the
+%%center VIOLIN, GERMAN FLUTE or OBOE.
+%%center -----------------------------------
+%%center London Printed by the Editors at their Wholesale . Music & Musical Instrument Warehouse
+%%center 75, St Paul's Church Yard.
+%%center -----------------------------------
+%%begintext align
+%% Transcription notes:
+%% The tunes are are unnumbered; their count (01-24)
+%% is used in the file name to preserve the publication order.
+%% Some abbreviations use small superscript letters with a dot underneath.
+%% The dots are mostly ignored, and the letters typed as-is.
+%% Some abbreviations end with ":", which is transcribed.
+%% Original staff breaks are ignored; the ABC is formatted to have 2 or 4 bars per line,
+%% which are joined into staffs to look good at a small scale.
+%% Dances are transcribed with the original line breaks, which isn't significant.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1
+T: Phesim Dumbuggin
+N: The "si" part of the title is somewhat unclear.
+%R: slip-jig
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.1 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+dBA GFE GEF | ABc cde e2c |\
+dBA GFE GFE | ABc dBG A3 :|
+|:\
+fgf agf edc | ded fed c2c |\
+dBA GFE GFE | Ace dBG A3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands 6 quite round, back again, down the
+%% mid: up again, Promenade & Pousette.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2
+T: The Young Quaker
+%R: jig
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.1 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+{AB}c |\
+(cB).A (AG).F | (FE).E E2{AB}c |\
+(cB).A ({B}AG).A | (c3 B2){AB}c |\
+(cB).A (AG).F | (FE).E E2A |
+(AG).G (GA).B | (B3 A2) :|\
+|: e |\
+({f}e^de) fga | (ecA) (Ace) |\
+({f}e^de) (fga) | (e3 c2)e |
+[1 ({f}e^de) (fga) | (ec).A ({B}AGA) |\
+(AG).G (GAB) | (B3 A2) :|\
+[2 ({f}ed).d ({e}dc).c | (BcA) (GFE) |\
+(ABc) (dBe) | (c3 A2) |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Lead down the mid: up again & Allemande, swing
+%% corners, and foot it outsides.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 03
+T: The Irish Recruit
+%R: slip-jig
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.2 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2B d2B gfe | d2B dcB ABc |\
+dcB dcB gfe | dcB {B}AGA G3 H:|
+A2c {B}AGA {B}AGA | B2d {c}BAB {c}BAB |\
+dcB dcB gfe | fad {f}ede dB"_D.C."c |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Lead twice down the mid: up again,
+%% hands 4 round, right & left at top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 4
+T: Lady Roslyn's Rout
+%R: reel
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.2 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+{de}f2(ed) (AF)(Ad) | (fe)(fg) (ad)(ef) | (ag)(fe) (fa)(fd) | (BG)(ed) (cA)(Bc) |
+{de}f2(ed) (AF)(Ad) | (fe)(fg) (ad)(ef) | (ag)(fe) (fa)(fd) | ({c}BA)(Bc) d2z2 :|
+|:\
+{cd}e2(dc) (df)(fa) | (ge)(fg) (fa)(fd) | {cd}e2(dc) (df)(af) | (ec)(dB) (Ac)(de) |
+{de}f2 (ed) (AF)(Ad) | (fe)(fg) (ad)(ef) | {a}g2(fe) (fa)(fd) | ({c}BA)(Bc) d2z2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu: up again, down the mid: up again, to the top,
+%% swing corners, foot it & lead outsides.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 5
+T: Col: Greville's Waltz
+%R: waltz
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.3 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(AB) |\
+.c2(cdcB) | (A2F2)(fe) |\
+.d2(defd) | (cdcBAG) |\
+(F2f2)e2 | (d2b2)a2 |\
+(gagfed) | (cdcBAB) |\
+.c2(cdcB) | (A2F2)(fe) |
+.d2(defd) | (cdcBAG) |\
+(F2E2F2) | (D2B2A2) |\
+(G2c2E2) | F4 |: (EF) |\
+.G2(ecec) | (A2f2)e2 |\
+(defedc) | (=B2G2B2) |\
+(c2e2g2) |
+{f}f4e2 |\
+(d2c2=B2) | c4 :: (Ac) |\
+(B2g2B2) | (A2f2A2) |\
+(GABAGF) | .E2(CDEC) |\
+.F2(GFEF) | .D2(cBAB) |\
+(G2c2E2) | F4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands 4 back again, down the mid: up again,
+%% Allemande & Swing corners.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 6
+T: Sir William Curtis's Reel
+%R: reel
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.3 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The final notes in each strain probably shouldn't be dotted; not fixed.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+d2(af) d2(fd) | e2(ge) (dc)(BA) |\
+(df)(af) (de)(fd) | (eg)(ce) d3 :|
+|: (fa) |\
+g2(ge) f2(fd) | (cA)(Bc) (df)(af) |\
+(ag)(ge) (gf)(fd) | (eg)(ce) d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st & 2d Cu: hands across, back again,
+%% down the mid: up again, right and left at top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 7
+T: Tommy Tick
+%R: hornpipe
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.4 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(F>G)(F>A) c2(f>e) | d2(f>d) c2(A>c) | B2(G>B) (A>F)(G>A) | (B>A)(G>F) (E>C)(D>E) |
+(F>G)(F>A) c2(f>e) | (d>e)(d>c) (=B>G)(A>B) | (c>e)(g>e) (f>d)(c>=B) | c2C2 C2z2 :|
+|:\
+(c>d)(c>e) (g>f)(e>d) | (c>d)(c>B) (A>c)(f>e) | (d>c)(B>A) (B>A)(G>F) |(E>F)(G>E) C2(D>E) |
+(F>G)(F>A) c2(f>e) | d2(f>d) c2(A>c) ||  (c>B)(G>B) (A>F)(G>E) | F2f2 f2z2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st & 2d Cu: set & change sides, back again, down the
+%% mid: up again, Swing corners, & foot it outsides.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 8
+T: The Strasburgh Waltz
+%R: waltz
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.4 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+.G2(GBdB) | .g2(gdBd) | .c2(cABG) | (GFEDEF) |\
+.G2(GBdB) | .g2(gefg) | (fafde^c) | d4 :|
+|: (cB) |\
+.c2(c2ec) | .A2(A2cA) | (BdgdBG) | ({B}A^GADEF) |\
+(GFGABG) | .E2(efge) | (dedBcA) | G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% 1st Cu: set to 2d Lady & hands 3 round, same
+%% with Gent: down the mid: up again, cast off.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 9
+T: Major O'Flarty
+%R: slip-jig
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.5 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+cBc edc Bcd | cBc efg d2G |\
+cBc edc Bdg | eag ^fef g2 :|
+|: (e/f/) |\
+gag gfe f2d | efe edc d2G |\
+cBc efg ABc | Gce {e}dcd c2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands across, & back again, down the
+%% mid: up again, & right and left.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 10
+T: Miss Gayton's Hornpipe
+%R: hornpipe
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.5 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(c>B) |\
+(A>c)(f>e) f2(c>B) | (A>c)(f>e) f2(c>B) | (A>a)(g>f) (e>d) (c>=B) | (c>e)(g>f) (e>d)(c>_B) |
+(A>c)(f>e) f2(c>B) | (A>c)(f>e) f2(f>e) | (d>e)(f>g) (e>f)(g>a) | (f>e)(f>g) f2 |]
+(f>g) |\
+(a>g)(a>f) g2e2 | (f>e)(f>d) c2A2 | (B>c)(d>B) (A>B)(c>A) | ({B}G>F)(G>A) G2(f>g) |
+(a>g)(a>f) g2e2 | (f>e)(f>d) c2(f>e) | (d>e)(f>g) (e>f)(g>a) | (f>e)(f>g) f2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands across, & back again,
+%% down the mid: & Allemande.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 11
+T: The Lads of Wicklow
+%R: slip-jig
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.6 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+ABA ABc cde | ABA ABc d2B |\
+ABA ABc cde | dcB BcA G2E :|
+|:\
+Ace {f}e^de fga | Ace edc d2B |\
+Ace {f}e^de fga | efe dcB A3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st Lady set to the 2d Gent: & turn round
+%% with both hands, 1st Gent: same with 2d Lady,
+%% Pousette & right & left at top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 12
+T: Tandem
+%R: hornpipe
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.6 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(e>d) |\
+(c>B)(c>d) e2(a>g) | (f>e)(f>g) a2(g>f) | (e>d)(e>f) e2(d>c) | (B>A)(B>c) B2(e>d) |
+(c>B)(c>d) e2(a>g) | (f>e)(f>g) a2(g>f) | (e>c)(A>c) (B>A)(B>c) | A2A2 A2 :|
+|: (c>e) |\
+(d>c)(B>A) (G>A)(B>c) | (A>B)(c>d) e2(f>e) | (d>e)(B>e) (c>e)(A>c) | (B>A)(G>F) E2(A>G) |
+(F>G)(A>F) d2(B>A) | (G>A)(B>G) e2(a>g) | (f>e)(d>c) (B>f)(e>d) | c2A2 A2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Foot it & change sides, same back again, down the mid:
+%% up again, right & left at top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 13
+T: The Africans
+%R: reel
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.7 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+(dc)(dA) (FD)(dA) | (BG)(ge) (dc)(BA) |\
+(dc)(dA) (FD)(dA) | (BG)(ec) d2 :|\
+|: (cd) |\
+(ef)(ed) (ce)(ae) | (fg)(fe) (df)(af) |
+g2(3(efg) f2(3(def) | (ef)(ed) (cA)(Bc) |\
+(dc)(dA) (FD)(dA) | (BG)(ge) (dc)(BA) |\
+(dc)(dA) (FD)(dA) | (BG)(ec) d2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands 4 back again, down the mid: up again,
+%% Allemande & Swing corners.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 14
+T: The Vienna Waltz
+%R: waltz
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.7 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+(GABcde) | (d2B2G2) | (E2G2).G2 | (D2G2F2) |\
+(GABcde) | (d2B2).g2 | (f2a2f2) | g4 :|
+|: (gf) |\
+e2e2e2 | (e2f2).d2 | (d2^c2).c2 | (dfbagf) |\
+e2e2e2 | (e2f2).d2 | (d2e2).^c2 | d4 :|
+|: (Bc) |\
+.d2({a}gf).g2 | .e2({a}gf).g2 | d2(edcB) | (B2A2) (Bc) |\
+.d2({a}gf).g2 | .e2({a}gf).g2 | (dcB2A2) | G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st & 2d Cu: set & change sides, back again, down
+%% the mid: up again, Allemande, & swing corners.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 15
+T: Molly Brown's Whim
+%R: jig
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.8 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+f2g afd | c2d ecA | Bcd efg | fed cBA |\
+f2g afd | c2d ecA | Bcd efg | fge d3 :|
+|:\
+f2g afd' | bgd' afd' | f2g afd | ced cBA |\
+f2g afd' | bgd' afd' | efg fed | cde d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Half right & left, back again, down the
+%% mid up again, Swing Corners.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 16
+T: Merrily Trip it
+%R: reel
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.8 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(fg)(ef) (d2A2) | (d2A2)(d2A2) | (d2ef) (g2f2) | ({f}edef) (egfe) |
+(fg)(ef) (d2A2) | (d2A2)(d2A2) | (d2ef) (g2f2) | ({f}edef) d2z2 H:|
+(ABcd) (efge) | (afed) (afed) | (cdef) (efga) | (fg)(ef) d2z2 |
+(ABcd) (efge) | (afed) (afed) | (B^def) (gabg) | (fgfe) d2"_D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Cast off 1 Cu: up again, down the mid up
+%% again, Allemande.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 17
+T: Whistle for it
+%R: jig
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.9 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+g3 ege | c3 ege | f2d e2c | Bdc BAG |\
+g3 ege | c3 ege | f2d edc | d2g c3 H:|
+fed edc | BAG cde | fed edc | {d}cBc d3 |\
+e2g ^f2a | g^fe dcB | ABc BAG | ^FGA "_D.C."G3 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Change sides, back again, down the mid: up
+%% again, foot it & hands 4 round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 18
+T: William & Jonathan's Waltz
+%R: waltz
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.9 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(cd) |\
+(e2f2d2) | c4(de) | (d2G2).G2 | (d2G2).G2 |\
+(e2f2)d2 | c4(de) | .d2({e}dcde) | c4 :|
+|: (cd) |\
+.e2(e2f2) | g4(fg) | (a2f2).f2 | (g2e2).e2 |\
+(ed)e2f2 | g4e2 | .f2({g}fefg) | e4 :|
+|: (de) |\
+(f2d2).d2 | (e2c2).c2 | d2(edcd) | (e2c2)(de) |\
+(f2d2).d2 | (e2c2).c2 | .d2({e}dcde) | c4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st & 2d Cu: set & change sides, back again,
+%% down the mid: up again, Allemande & Swing corners.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 19
+T: Queen Pulkawalkas Waltz
+%R: waltz
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.10 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(de) |\
+f2{^g}a2{g}a2 | (g2e2).e2 | (fgfdcd) | e2A2 (de) |\
+f2{^g}a2{g}a2 | (g2e2).e2 | (fgfdec) | d4 :|
+|: (ec) |\
+A2A2(ag) | (g2f2)(ga) | (bagfed) | (cABcde) |\
+f2d2(ba) | (^gefg)a2 | {e}d2c2B2 | A4 :|
+|: (ef) |\
+(g2e2)(ag) | (fd)(cd)(cd) | B2(efge) | (dcBABc) |\
+(defgaf) | (efgabg) | (fafdec) | d4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st & 2d Cu: set & change sides, back again,
+%% down the mid: up again, All.e & Swing corners.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 20
+T: Poor Jenny
+%R: jig
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.20 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(B/c/) | (ded) (gdc) | (Bcd) (GBd) | (edc) (BAG) | (F/G/AF) D2(B/c/) |\
+(def) {a}g2f | (efg) {b}a2g | (fad) ({f}ede) | d2f d2 :|
+|: (f/g/) | (aba) (fed) | (gdc) (BAG) | (EAB) (cAG) | (F/G/AF) (DEF) |\
+({A}GFG) ({B}AGA) | ({c}BAB) (cde) | (dgb) ({b}aga) | g2b g2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands across, back again, down the mid:
+%% up again, & Allemande.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 21
+T: John Bull's Dream
+%R: jig
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.11 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(f/e/) |\
+(dfb) (fdB) | (GcB) (ABc) | (Bcd) (efg) | (fdB) (AGF) |\
+(dfb) (fdB) | (GcB) (ABc) | (Bcd) (efg) |[1 (de)c B2 :|[2 (dec) B3 ||
+|:\
+e2d (dcB) | e2d (dcB) | (Gc)c c2B | (Ac)c c2d |\
+{f}e2d (dcB) | {f}e2d (dcB) | (Gc).c c2B | ABc B3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Change sides, back again, down the mid:
+%% up again, hands 4 round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 22
+T: The Waterman's Hornpipe
+%R: hornpipe, reel
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.11 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+(Bc)(dB) G2(gf) | e2(ag) (fd)(ef) | (gf)(gd) (cA)(BG) | F2A2 A2z2 |
+(Bc)(dB) G2(gf) | e2(ag) f2(ba) | (gf)(ge) (fd)(e^c) | d2d2 d2z2 |]
+[|\
+(fg)(af) d2(ef) | (ga)(bg) d2(Bd) | (dc)(Ac) (cB)(GB) | ({B}A^G)(AB) | (AD)(EF) |
+(GA)(BG) (EFG^G) | (AB)(cA) (FGA^A) |  (Bc)(dB) ({d}cB)(cA) | G2G2 G2z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Change sides, back again, cross over 1 Cu: Gent:
+%% right hands across at bottom, Lady at Top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 23
+T: The Meclenburgh Waltz
+%R: waltz
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.12 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Fixed conflicting slurs in bars 12,13, by dropping the slur across the bar line.  Other slurrings are possible.
+M: 3/8
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(FG) |\
+(A2d2f2) | (a2f2d2) | (e2g2e2) | (dcBABc) |\
+(d2f2d2) | (d2g2b2) | (abagfe) | d4 :|
+|: (cd) |\
+(e2c2A2) | (g2e2c2) | (d2e2).f2 | (f2e2)a2 |\
+(^g2b2)(d2 | c2)(e2a2) | (f2b2^g2) | a4 :|
+|: (gf) |\
+.g2(gfge) | .f2(fefd) | (efedcB) | (ABAGFG) |\
+(A2d2f2) (a2f2d2) | .e2({f}edec) | d4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Hands 4 back again, down the mid: up
+%% again, Allemande, & Swing Corners.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 24
+T: Tipperary Waltz
+%R: waltz
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.12 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+(d4B2) | (g4e2) |\
+(d2B2G2) | ({B}AGAB).A2 |\
+(d4B2) | (g4e2) |\
+(dedcBA) | G6 :|
+|:\
+c4A2 | B2(dB)(dB) |\
+(c2B2A2) | B4d2 |\
+g4e2 | (f2a2d2) |\
+(e2g2^c2) | d6 :|
+|:\
+B2c2c2 | c2B2G2 |\
+A2B2c2 | B2c2d2 |\
+e4c2 | g4e2 |\
+(dedcBA) | G6 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st & 2d Cu: set & change sides, back again, down the
+%% mid: up again, Allemande, & Swing Corners.
+%%endtext

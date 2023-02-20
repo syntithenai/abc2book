@@ -1,0 +1,23 @@
+X: 1
+T: a Trip to Nottingham
+%R: triple hornpipe, slip-jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #20 (34)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 9/4
+L: 1/4
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+g2a bag ag^f | gd2- d2b a2g | fed cBA Bcd | ^FD2- D2B A2G :|
+|: dcB cBA BAG | ^FA2 B2c def | gab fed c>BA | B>cd (^FD)B A2G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% All four Hands half round the 1st Cu. turn sides with
+%% the 3d Cu. .| Then cast up to the Top and change Places
+%% with your Partners :| The 1st Cu. go in and out below
+%% the 3d Cu. .| Then lead up to the Top and cast off :|
+%%endtext
+%%sep 1 8 500

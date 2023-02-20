@@ -1,0 +1,29 @@
+X: 20423
+T: the PRIEST IN HIS BOOTS.*
+O: Irish air.
+Q: "Jig time."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.42 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c/d/ |\
+eee eee | efd cBA |\
+ddd fed | cAc e2c/d/ |\
+eee eee | efd cBA |\
+ddd fga | gec d2 :|
+|: f/g/ |\
+afa geg | fed cBA |\
+ddd fed | cAc e2f/g/ |\
+aaf gge | ffd cBA |\
+ddd fga | gec "^D.C."d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% * Known as "Paddy's Trip from Dublin," "Murphy Delaney,"
+%% "Larry O'Lashem," and "Paddy's Dream."
+%%endtext
+%%sep 1 1 300

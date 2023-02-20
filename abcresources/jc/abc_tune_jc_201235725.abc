@@ -1,0 +1,31 @@
+X: 21331
+T: la TRENISE
+N: "HERZ QUADRILLES."
+%R: _
+B: "Edinburgh Repository of Music" v.2 p.133
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added rests the ends of the 2nd and 3rd strains to fill out the measures.
+M: 2/4
+L: 1/16
+K: Bm
+[|\
+B2(3(F^G^A) B2(3(FGA) | B2c2d2B2 |\
+e2d2c2B2 | ^A2B2c4 |\
+B2(3(F^G^A) B2(3(FGA) | B2c2d2B2 |\
+e2g>g f2^A2 | B2B2B4 |]
+[|\
+d2dd d2e2 | f2g2a4 |\
+a2e'd' c'2e'2 | a2f'e'd'4 |\
+d2dd d2e2 | f2g2a4 |\
+a2e'd' c'2a2 | d'2f'2d'2z2 |]
+[|\
+B2(3(F^G^A) B2(3(FGA) | B2c2d2B2 |\
+e2d2c2B2 | ^A2B2c4 |\
+B2(3(F^G^A) B2(3(FGA) | B2c2d2B2 |\
+e2g>g f2^A1 | B2d2B2z2 |]
+[|\
+dz/(A/F)z/(A/ d)z/(A/e)z/(A/ | f)z/(A/g)z/(A/ a)z/(A/b)z/(a/ |\
+g)z/(e/A)z/(e/ g)z/(e/e')z/(c'/ | d')z/(a/f')z/(e'/ d')z/(a/g)z/(e/ |
+d)z/(A/F)z/(A/ B)z/(A/e)z/(A/   | f)z/(A/g)z/(A/ a)z/(A/b)z/(a/ |\
+g)z/(e/A)z/(e/ g)z/(e/e')z/(c'/ | d')z/(a/f')e' d'2z2 |]

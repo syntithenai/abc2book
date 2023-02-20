@@ -1,0 +1,19 @@
+X: 137019
+T: PADDY O'RAFFERTY
+Q: "Irish Jig."
+R: Jig.
+%R: jig
+B: James Kerr "Merry Melodies" v.1 p.37 s.0 #19
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The c grace note in bar 3 is probably a typo, and should be B.
+M: 6/8
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: A
+vAB !segno!|:\
+{AB}c2vE EFE | Edc BAB | {Ac}c2E EFG | AcB AFE |\
+{AB}c2E EFE | Edc def | ecA BcB | AcB AFE :|
+|:\
+Ace Ace | Ace fdB | Ace fga | AcB AFE |\
+Ace Ace | Ace efg | agf ecA | BcA GFE :|

@@ -1,0 +1,17 @@
+X: 21072
+T: ADIEU MY NATIVE LAND ADIEU
+Q: "Slow"
+%R: air, reel
+B: "Edinburgh Repository of Music" v.2 p.107 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The use of segnos and an initial repeat with no end-repeat anywhere is a bid odd.
+M: C
+L: 1/8
+K: C
+!segno!|:"_P."G |\
+c3e (ed)(fe) | (edcB) c3(G | A2)(c2 G2c2) | (d/c/B/c/) de d3G |\
+"_mF"c3e edfe | edcB c3G | A/B/c/B/ d/c/B/A/ Gceg | fdAB c3 H|]
+e |\
+(dG)(^FA) G3e | ({e}dB/G/) ({d}cA/^F/) G3^d | eBc^G AEHF>"_PP"F | f3e d3c |\
+B3c d3G | g "_>"f2 "_>"e2 "_>"d2 c | B2 (c3/d//e//) HG3 !segno!|]

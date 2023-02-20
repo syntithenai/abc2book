@@ -1,0 +1,495 @@
+%abc
+%%abc-alias none
+%%abc-creator ABCexplorer 1.6.1 [15/04/2017]
+%Thomas Cahusac, 24 Country Dances for the Year 1758
+%published London 1758
+%Mitchell Library, Glasgow, M9200
+%Transcribed into ABC by Mike Hicken
+%for the Village Music Project
+%28/5/15
+%4/2017 definite articles
+
+X:1
+T:Hessian Dance. Ca1758.025, The
+M:3/4
+L:1/4
+B:Cahusac,T. 24 Country Dances for the Year 1758
+Z:vmp.Mike Hicken 2015 www.village-music-project.org.uk
+Q:3/4=50
+K:G
+"_Presto" gdB|G/F/G/A/ G|DEF|G/F/G/A/ G|gdB|G/F/G/A/ G|DEF|G3 :|
+|: def|g2e|f/a/g/f/e/d/|e/g/f/e/d/^c/|def g2c|B A/G/A/F/|1 G3 :|2 G2g||
+d2e B2c|AGF|GDg|d2e|B2c|AGF|G2 |]
+W:
+W: The 1st Man cast off and turn the 3d. Wo.
+W: .|  his Partner do the same with the 3d. Man
+W: :|  Lead thro' the top and cast off .|  Lead
+W: thro' the Bottom and cast up :|  Back to
+W: Back .|  and Right and Left :|
+
+X:2
+T:Extempore. Ca1758.026, The
+M:2/4
+Q:1/2=80
+L:1/8
+B:Cahusac,T. 24 Country Dances for the Year 1758
+Z:vmp.Mike Hicken 2015 www.village-music-project.org.uk
+N:* In the original these three notes are shown as quavers.
+N: I have shown them as another triplet to give the correct bar length.
+K:D
+afdf|egfe|afdf|e2A2|afdf|egfe|(3fga "*" (3cde|d2D2||
+{g}f2 ed|eace|{g}f2 ed|e2A2|{g}f2 ed|eacf|dgfe Td2 Td2 :|
+|: fdAd|faba|bagf|e2A2|fdAd|faba|(3gab ac|d2d2 :|
+W:
+W: The 1st. Cu. cross over two Cu. .|  cross
+W: up again :|  Lead down two Cu. and
+W: cast up one .|  Lead thro' the top and
+W: cast off :|  hand 4 with 3d. Cu. .|  and
+W: Right and Left at top :|
+
+X:3
+T:Lord Boyd's Reel. Ca1758.027
+R:Reel
+M:C|
+L:1/8
+Q:1/2=85
+B:Cahusac,T. 24 Country Dances for the Year 1758
+Z:vmp.Mike Hicken 2015 www.village-music-project.org.uk
+N:* There is no repeat sign shown here in the original.
+K:A
+cAcA eAaA|cAeA f2e2|cAcA eAaA| f/g/a dc Tc2 B2 :|
+|: BEdB cAec|^dBag f2e2| Tf<g af ecaf|edcB A2A2 "*":|
+W:
+W: The 1st. Cu. cast off two Cu. .|  lead up
+W: to the top and cast off :|  then set contra-
+W:ry Corners and not turn but set Part-
+W: ners .|  the other Corners the same :| then
+W: turn contrary Corners with Right hands
+W: and Partners with Left .|  the
+W: other corners the same :|  then
+W: lead thro' Bottom and top cast
+W: off and turn :|
+
+X:4
+T:We'll all be merry before we go. Ca1758.028
+M:C|
+L:1/8
+Q:1/2=90
+B:Cahusac,T. 24 Country Dances for the Year 1758
+Z:vmp.Mike Hicken 2015 www.village-music-project.org.uk
+N:* There is no repeat sign shown here in the original.
+K:G
+g(f/g/a)f gedB|g(f/g/a)f e2a2|g(f/g/a)f gedB| gedB A2e2:|
+|: BG-G(A B)GdG| BG-GA BdA2|BG-G(A B)def|g>age dB G2 :|
+|: gBB/B/B dBgB| gB/B/BB a>bag|gBB/B/B dgdB|egdg Bg A2 "*":|
+W:
+W: The 1st. Man half figure round the 2d.
+W: Man and the 2d. Wo. half figure round
+W: the 1st. Wo. at the same time .|  the 1st.
+W: Wo. and 2d. Man do the same :|  the
+W: 1st. Cu. gallop down two Cu. up again
+W: and cast off .|  the 2d. Cu. do the same
+W: :|  Cross over half figure .|  Right
+W: and Left :|
+
+X:5
+T:Miss Cartwright's March. Ca1758.029
+R:March
+M:6/8
+L:1/8
+Q:3/8=110
+B:Cahusac,T. 24 Country Dances for the Year 1758
+Z:vmp.Mike Hicken 2015 www.village-music-project.org.uk
+K:Bb
+DFB TB2c|dBB TB2g|fed cBc|dBB TB2f|
+dfd cfc|Bba gf=e|fcB ABG|AFF F3 :|
+|: AcA (gf)A|BBB TB3| GAB GFE|TE3D3|
+GBG FBF|Eed cBA|BFE DEC|DB,B, B,3 :|
+W:
+W: The 1st. Cu. cast off one Cu. and the Man
+W: hands round with the 3d. Cu. and the Wo.
+W: with the 2d. Cu. at the same Time .|  the
+W: Man heys with the 3d. Cu. and the Wo. with
+W: the 2d. Cu. :|  Hands six round .|  and Right and Left at top :|
+
+X:6
+T:Arne's Jigg. Ca1758.030
+R:Jigg
+M:C|
+L:1/8
+B:Cahusac,T. 24 Country Dances for the Year 1758
+Z:vmp.Mike Hicken 2015 www.village-music-project.org.uk
+N:* Parts of bar 4 are difficult to read but I have used James Biggins MS, Leeds, 1779 (biggins.abc)
+N: from the Village Music Project to decipher it.
+N:** The second time through this needs to be a quaver.
+Q:1/2=80
+K:G
+G2 BG (B/c/d)BG|F2 AF A/B/c AG|G2 BG (de/f/)gB|"*"cAdB G/G/G "**"G2 :|!
+|:d|g2bg afed|e2f2gagd|g2bg afed|(e/f/g) (f/g/a)g3B|!
+ceAc BdGB|Aagf edcB|ceAc BdGB|A/B/c AF G2G,2 "*":|
+W:
+W: The 1st. and 2d. Cu Right and left
+W: half round .|  the same back again :|
+W: then set contrary Corners and turn
+W: the other Corners the same .|  Back
+W: to Back with your Partner & Right
+W: and Left at top :|
+
+X:7
+T:Trip to Ninny. Ca1758.031
+M:C
+L:1/8
+Q:1/2=80
+B:Cahusac,T. 24 Country Dances for the Year 1758
+Z:vmp.Mike Hicken 2015 www.village-music-project.org.uk
+N:* There is no repeat sign shown here in the original.
+K:G
+TB>A"_keysig 2 sharps in MS"Bc d2 ge|dBBd cAAc|TB>ABc d2g2| f/g/agf g2G2 :|
+|: g2g/a/b af d2|cBce dB G2| egfa gedc|BAGF G2G,2 "*":|
+W:
+W: The 1st. Cu. cross over and turn .|  Cross
+W: up again and turn :|  set across and turn
+W: .|  the Wo. do the same :|  Hands across
+W: all 4 .|  and back again :|  Cross over
+W: two Cu. lead up to the top foot it and
+W: cast off:|
+
+X:8
+T:Merry Polley. Ca1758.032
+M:2/4
+L:1/8
+Q:1/2=60
+B:Cahusac,T. 24 Country Dances for the Year 1758
+Z:vmp.Mike Hicken 2015 www.village-music-project.org.uk
+N:* There is no repeat sign shown here in the original.
+K:Bb
+(d//c//B3/) (d//c//B3/) |bf Tf2|ecTBA|(3ABc B2|(d//c//B3/) (d//c//B3/) |bg Tg2|afc=e|(3efg f2 :|
+|: (d//c//B3/) (d//c//B3/)|_af Tf2|e//d//c3/ (ab)|TB2A2|GEec|dBbf|(g//a//b3/) dc|B2 BTB "*":|
+W:
+W: The 1st. Cu. lead thro' the 2d. Cu.
+W: and cast up .|  Back to Back & cast
+W: off :|  hands round with the 2d.
+W: Cu. .|  and Right and Left :|
+
+X:9
+T:De'l take the Wars. Ca1758.033
+M:C|
+L:1/8
+Q:1/4=100
+B:Cahusac,T. 24 Country Dances for the Year 1758
+Z:vmp.Mike Hicken 2015 www.village-music-project.org.uk
+N:* There is no repeat sign shown here in the original.
+K:D
+d2 (d//e//f3/) (f<e)(d<c)|(d<A) (B//c//d3/) (B<A)(G<F)|(F<A)(A<d) (d<e) (e//f//g3/)|(f//g//a3/) gf Tf2e2|
+d2 (d//e//f3/) f<ed<c|d<A (B//c//d3/) (B<A)(G<F)|(F<A)(A<d) (d<e) (e//f//g3/)|(e//g//a3/) gf (e//d//c3/) d2 :|
+|:f2 (f//g//a) (f<d)(f<d)|e2 (f//^g//a3/) (e<c)(e<c)|f>gf>d e>fe>c|d>ed>c B2 cd|A>BA>F A2 (B//c//d3/)|
+G<FE<D A2A2|B>cB>G B2 ef|g<fe<d {d}c2B2|ABAF A2 fg|a<fg<e d4"*" :|
+W:
+W: The 1st. Cu. cross over and turn the 2d. Cu. do the same .|
+W: the 1st. Man heys on his own side turn his Partner with
+W: his Right hand into his own Place the 2d. Man with his
+W: Left in his Partners Place then the 2d. Wo. then the 3d. Man
+W: and turn the 3d. Wo. with both hands into contrary Places :|
+W: the 1st. Wo. heys on her own side then turn Right hand
+W: Left untill she has replaced them into their own Places and
+W: turns her Partner with both hands :|
+W: NB To begin again Lead up one Cu. and cast off and turn.
+W: First Strain once. (unable to read this line)
+
+X:10
+T:Hessian Camp. Ca1758.034
+M:2/4
+L:1/8
+Q:1/4=100
+B:Cahusac,T. 24 Country Dances for the Year 1758
+Z:vmp.Mike Hicken 2015 www.village-music-project.org.uk
+N:* There is no repeat sign shown here in the original.
+K:D
+d2e2|fd2e|f2g2|af2a|af2a|ge2g|fdgf|{f}e4 :|
+|:fdfa |eceg|fdgf|{f}e4|d/e/f/g/ aa|d/e/f/g/ aa|bage|d4 "*":|
+W:
+W: The 1st. and 2d Cu. Right hands across .|
+W: Left back again :|  gallop down and up and cast
+W: off .|  and Right and Left at top :|
+
+X:11
+T:Trip to Hanover. Ca1758.035, A
+M:C
+L:1/8
+Q:1/4=120
+B:Cahusac,T. 24 Country Dances for the Year 1758
+Z:vmp.Mike Hicken 2015 www.village-music-project.org.uk
+K:G
+G/A/B/c/ dB dfgd|cBAG AFED|G/A/B/c/ dB dfga|fde^c d4 :|
+|:dB/c/ dB cAFD|BA/B/ cA BGFD|G/A/B/c/ dB dfgd|BGAF G4 :|
+W:
+W: The 1st. Cu. lead down the 2d. Cu. &
+W: cross over the 3d. Cu. .|  the same back
+W: again :|  Right hands across all 4 .|
+W: the same back again :|
+
+X:12
+T: Trip to Hanover (2d. Part). Ca1758.036, The
+M:C|
+L:1/8
+Q:1/4=120
+B:Cahusac,T. 24 Country Dances for the Year 1758
+Z:vmp.Mike Hicken 2015 www.village-music-project.org.uk
+N:* There is no repeat sign shown here in the original.
+K:Gm
+G/A/B/c/ dc BABG|^F/G/A/B/ cB AG^FD|G/A/B/c/ dc BABG|B2c2d4:|
+|:d2 Bc/d/ eded|c2 AB/c/ dcdc|G/A/B/c/ dc BABG|A2^F2 G4 "*" :|
+W:
+W: The 1st. Cu. set and turn .|  change
+W: sides foot it and turn :|  cast off
+W: half figure and Right and Left :|
+
+X:13
+T:Roderhithe Assembly. Ca1758.037
+M:6/8
+L:1/8
+Q:3/8=100
+B:Cahusac,T. 24 Country Dances for the Year 1758
+Z:vmp.Mike Hicken 2015 www.village-music-project.org.uk
+N:* There is no repeat sign shown here in the original.
+K:Bb
+F|BFB dcB|(fg)a b2f|(ge)d (cd)e|(gf)A B2F|
+BFB dcB|(fga) b2g|(ag)f (ab)g|f3f2 :|
+|:f|dcB _agf|b2d e2g|f(ed) (c/d/e)B|(A/B/c)F E>DF|
+GETE ecTc|dBTB g2e|(df)b {d}Tc3|B3B2 "*":|
+W:
+W: The 1st. Man foot it twice to the 2d. Wo. He cast off
+W: and the Wo. cast up set and cast into your own Places
+W: again .|  1st. Wo. and 2d. Man do the same :|  the
+W: two Men lead between the two We. and foot it .|
+W: the two We. do the same :|  the 1st. Cu. heys with the
+W: 2d. Wo. .|  then with the 2d. Man :|  gallop down
+W: and  up cast off .|  and Right and Left :|
+
+X:14
+T:Pompey. Ca1758.038
+M:2/4
+L:1/16
+Q:1/4=80
+B:Cahusac,T. 24 Country Dances for the Year 1758
+Z:vmp.Mike Hicken 2015 www.village-music-project.org.uk
+N:History note - Slaveowners often renamed their slaves by Pompeii and other classical names.
+N:Pompey Ran Away is the title of another tune from the same period, also with a Scottish feel to it.
+K:Eb
+(3EEE GE BGe2|(3EEE GE DFDB,|(3EEE GE BGe>g|(3fed (3cBA B2B,2 :|
+|: (3BBB dBfB a2|(3BBB eBgB b2|(3EEE GB (3EEE Ac|BAGF E2e2 "*" :|
+W:
+W: The 1st Man set cross & turn
+W: .|  the Wo. do the same :|  cross
+W: over half figure .|  Right and
+W: Left :|  Set contrary Corners
+W: and turn .|  the other Corners
+W: the same :|  Lead out Sides
+W: and turn :|
+
+X:15
+T:Bob Sanders. Ca1758.039
+M:6/8
+L:1/8
+Q:3/8=110
+B:Cahusac,T. 24 Country Dances for the Year 1758
+Z:vmp.Mike Hicken 2015 www.village-music-project.org.uk
+N:* There is no repeat sign shown here in the original.
+K:A
+E|Aec Aec|Bcd d3|cBA GAB|AED CB,A,|
+Aec Ace|agf gfe|^dBd fed|eBG E2 :|
+|: e|e=gf edc|dBd f^ab|dfe dcB|cAc ega|
+fed cBA|GFE dBd|cBA GFE|AEC A,2 "*" :|
+W:
+W: Hands all Six round .|  and back again :|
+W: then lead down two Cu. the 2d. and 3d. Cu. fol-
+W: lows .|  foot it and turn your Partner and
+W: cast off :|  the Man hands round with the 3d. Cu.
+W: the Wo. heys with the 2d. Cu. .|  the Man heys with
+W: the 3d. Cu. and the Wo. hands 3 with the 2d, Cu.
+W: :| then lead thro' Bottom and top and turn
+
+X:16
+T:Fairy Queen. Ca1758.040, The
+M:2/4
+L:1/16
+Q:1/4=100
+B:Cahusac,T. 24 Country Dances for the Year 1758
+Z:vmp.Mike Hicken 2015 www.village-music-project.org.uk
+K:D
+D2FA D2GB|AFDF ECB,A,|D2FA dfed|cAE^G A2A,2 :|
+|: A2ce gecA|A2df afdA|FAda EGcg|fdAc d2D2 :|
+W:
+W: The 1st. Man turn the 2d. Wo.
+W: with his Right hand and his
+W: Partner with his Left .|  the
+W: 1st. Wo. do the same with the
+W: two Men :|  Cross over half
+W: figure .|  lead thro' the Bottom
+W: and cast up and turn :|
+
+X:17
+T:Village Parson. Ca1758.041, The
+M:2/4
+L:1/8
+Q:1/2=80
+B:Cahusac,T. 24 Country Dances for the Year 1758
+Z:vmp.Mike Hicken 2015 www.village-music-project.org.uk
+N:* There is no repeat sign shown here in the original.
+K:A
+B|cB/c/ dc|B2A2|EA AB c/B/c/d/ cc|cB/c/ dc|B2A2 EAAB|Bc2 :|
+|:d|ef/e/ de/d/| c2d2|ef/e/ dc|B/A/B/c/ BB|ef/e/ de/d/|c2 (d/e/f)|edcB|A3 "*":|
+W:
+W: The 1st. Cu set and turn .|  Change
+W: Sides set and turn :|  Cast off half fi-
+W: gure .| and Right and Left :|
+
+X:18
+T:Crowding Jack. Ca1758.042
+M:2/4
+L:1/8
+Q:1/2=80
+B:Cahusac,T. 24 Country Dances for the Year 1758
+Z:vmp.Mike Hicken 2015 www.village-music-project.org.uk
+N: * These 3 quavers are not shown as a triplet in the original.
+N: ** There is no repeat sign shown here in the original.
+N:Crowd = fiddle
+K:A
+AcAe|Aaec|Acec|(3BBB GE|AcAe agfe|(3def Bd|eEGB :|
+|: (3ddd ge|bedc|(3ddd fd|adcB|(3ccc ec|aedc|BABc|(3AAA A2|
+eg-ge|eb-be|df-fd|da-ad|ce-ec|aedc|BABc|"*"(3AAA A2 "**":|
+W:
+W: The 1st. Man set Back to Back with the 2d. Wo.
+W: .| the Wo. do the same with the 2d. Man :|
+W: Cross over two Cu. lead up to the top foot it
+W: and cast off .|  foot it Back to Back with
+W: your Partner Right and Left at top :|
+
+X:19
+T:Sr. Thomas Sleeper. Ca1758.043
+M:6/8
+L:1/8
+Q:3/8=120
+B:Cahusac,T. 24 Country Dances for the Year 1758
+Z:vmp.Mike Hicken 2015 www.village-music-project.org.uk
+K:D
+D|D2F F2A|dfe {e}d2B|Add Gdd|FdF EDC|
+D2F F2A|dfe e2d|cBA EF^G|AEC A,2 :|
+|:A|A2c c2e|afg afg|A2c c2e|gef g2f-|
+fed cBA|BAG FED|CDE A,2C|D3D2 "*" :|
+W:
+W: The 1st. Cu. heys contrary sides
+W:.|  then on your own sides :|  gallop
+W: down and up and cast off & Right
+W: and Left :|
+
+X:20
+T:Roy Stewart's Reel. Ca1758.044
+R:Reel
+M:C|
+L:1/8
+Q:1/2=80
+B:Cahusac,T. 24 Country Dances for the Year 1758
+Z:vmp.Mike Hicken 2015 www.village-music-project.org.uk
+N: * There is a repeat sign shown here in the original.
+K:F
+"^Last strain once" f|AF2A c2 d/c/B/A/|BG2A BGGd|AF2A c2 (d/c/B)| AF-Ff AFF :|
+"*" e|f>gaf (gf)(af)|gdd^f gdde|=fgaf gfag|fdcB AF2A|
+f>gaf gfaf|gdd^f gddg|(a/g/f) (g/f/d) (f/d/c) (d/c/A)| FAfc AFF |]
+W:
+W: The 1st. Cu. cast off hands 4 round with the
+W: 3d. Cu. .|  cast up hands 4 round with the 2d.
+W: Cu. :|  Cross over two Cu. lead up to the top
+W: cast off :|  then turn contrary Corners with
+W: your Right hand and Partners with your
+W: Left .|  the other Corners the same :|
+W: and lead thro Sides and turn :|
+
+X:21
+T:Threepenny Hop. Ca1758.045, The
+M:6/8
+L:1/8
+Q:3/8=120
+B:Cahusac,T. 24 Country Dances for the Year 1758
+Z:vmp.Mike Hicken 2015 www.village-music-project.org.uk
+N:* There is no repeat sign shown here in the original.
+N:Threepenny Hop = as opposed to an exclusive subscription dance or an assembly
+K:D
+d3 DFA|dfe d2B|G2b F2a|efd cBA|
+d3 DFA|dfe {f}e2d|cea EB^g|a3A3 :|
+|: Ace gec|Adf agf|f2e e2d|ced cBA|
+BGB dBG|AFA dfa|gfe ABc|d3D3 "*" :|
+W:
+W: The 1st. and 2d. Cu. foot it & Right
+W: and Left half round .|  the same back
+W: again :|  Right hands across all 4
+W: the same back again :|  Set across
+W: and turn .|  the Wo. do the same :|
+W: Cross over and half figure & hands
+W: all six round :|
+
+X:22
+T:Horatio's Maggot. Ca1758.046
+T:Maggot
+M:6/8
+L:1/8
+Q:3/8=120
+B:Cahusac,T. 24 Country Dances for the Year 1758
+Z:vmp.Mike Hicken 2015 www.village-music-project.org.uk
+N:* There is no repeat sign shown here in the original.
+K:D
+dAd f3|ecA G2E|(FD)B (AF)d|(ce)g (f2e)|
+dAd f3|ef^g a2f|edc B3|A3A3 :|
+|: cAc ege|edc d2c|Bcd AFd|TF3 E2A|
+(BG)d (cA)g|(fd)b a2g|(f/g/a)f edc|d3D3 "*":|
+W:
+W: The 1st. Cu. gallop down two Cu. up a-
+W: gain and cast off .|  the 2d. Cu. do the
+W: same :|  the 1st Cu. change Places
+W: and lead out to the Wall .|  Come
+W: into their own Places and lead out on?
+W: their own Sides :|  Set cross & turn .|
+W: the Wo. do the same :|  Cross over
+W: half figure and Right & Left
+
+X:23
+T:Alexander's March into Babylon. Ca1758.047
+M:2/4
+L:1/16
+Q:1/4=100
+B:Cahusac,T. 24 Country Dances for the Year 1758
+Z:vmp.Mike Hicken 2015 www.village-music-project.org.uk
+N:* There is no repeat sign shown here in the original.
+K:G
+Bc|dcde d2c2|BABc B2A2|G2AB c2B2|{B}A6 Bc|
+dcde d2c2|BABc B2g2|f2ed e2^c2|d6 :|
+|: d2|g2d2d2cB|e2d2 Td4|cded c2B2|A6 D2|
+GFGA BABc|d2ef g2c2|B2AG A2D2|G6 "*" :|
+W:
+W: The 1st Cu. cast off one Cu. &  cross
+W: over the 3d. Cu. .|  the same back
+W: again :|  Cross over half figure and
+W: Right and Left :|
+
+X:24
+T:Yorkshire Ned. Ca1758.048
+M:6/8
+L:1/8
+Q:3/8=110
+B:Cahusac,T. 24 Country Dances for the Year 1758
+Z:vmp.Mike Hicken 2015 www.village-music-project.org.uk
+N: On the repeat of this section this should be a dotted crotchet.
+K:G
+g|g2G G2B|AcA B2G|g2G G2B|AcA G2 :|
+|:d|dBd (g/a/b)g|cAc (f/g/a)f|g2G G2B|AcA "*" G2 :|
+|: bgd gdB|dBG AFD|bgd gdB|A/B/cA G3 :|
+|: ded b2d|cdc a2c|BdB cec|dgf g3 :|
+W:
+W: The 1st. Cu. set to the 2d. Wo. and
+W: not turn .|  the same to the 2d. Man
+W: :|  Right hands across half round .|
+W: the same back again :|  gallop down
+W: and up and cast off :|  and Right
+W: and Left :|
+
+

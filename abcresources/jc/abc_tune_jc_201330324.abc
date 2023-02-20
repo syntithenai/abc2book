@@ -1,0 +1,30 @@
+X: 1
+T: Right Scotch Contention
+T: the Duke of Athol's Rant
+%R: strathspey
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.100
+S: http://www.kantoreiarchiv.de/archiv/folk/caldonian_country_dances/0100.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 1st 2 beats of bar 5 are mostly illegible; copied from bar 7.
+N: The bass line has A rather than B in the last bar, clearly a typo (also fixed in kantoreiarchiv.de).
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: C|
+L: 1/16
+K: Em
+V: 1
+|: E3EE3E G3AB3G | c2A2B2G2 c2A2B2G2 | E3EE3E G3AB3G | c2A2B2G2 E4e4  :|
+|: g3ag3e dcBA G2B2 | cBcA e2A2 cBcA e2A2 | g3ag3e dcBA G2B2 | c2A2B2G2 E4e4 :|
+V: 2 clef=bass middle=d
+|: e8 e2f2g2e2 | a4g4 a4e4 | z4e4 z2f2 g2e2 | A2c2B4 e8 :|
+|: z4e4 f4g4 | a4z4 a4z4 | z4e4 f4g2G2 | A2c2B4 e8 :|
+%%center Each Strain twice.
+%%begintext align
+%% First Man sets to 2d Wo. foot it & turn .|
+%% the 1st Wo. & 2d Man does the same :|
+%% cross over two Cu .|
+%% and lead thro' two Cu. & foot it & cast off :|
+%% First Man sets to 3d Wo. and the 1st Wo sets to 2d Man at the same time, and
+%% turn the 1st Man, Wo. sets to the 2d Wo. and her Partner sets to the 3d
+%% Wo. and turns, then lead out to the Man's side & turn.
+%%endtext

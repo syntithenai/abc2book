@@ -1,0 +1,14 @@
+X: 1708
+T: the First of May   #3
+R: hornpipe, reel
+%S: s:2 b:9(5+4)
+B: O'Neill's 1850 #1708
+O: F.O'Neill
+Z: "Transcribed by Bob Safranek, rjs@gsp.org"
+M: 2/4
+L: 1/16
+N: Compacted by using labels and play order [JC]
+P: Play (A1A2)x2+(BA2)x2
+K: A	% DMoI has A dorian
+"^A"[|] (AG) |: EAAB cBcA | dcde f2(ef) | gedc [1 dfed | cAGF G2G2 :|[2 dfec | A2AA A2 |]
+"^B"[|] (fg) | a2af g2ge | fgfd e2(ed) | cdef gfed | cAGF G2G2 |]

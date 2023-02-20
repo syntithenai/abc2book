@@ -1,0 +1,38 @@
+X: 10261
+T: MARCH TO BOSTON
+T: the Road to Boston
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.26 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Bar 15 had the bass and 2nd voice in parallel 2nds; raised the bass one note to make it harmonize.
+N: Four A notes as in bars 3,7 might be a better bass line in bar 15.
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+|:\
+f2 fe/f/ | gfed | cdef | d AFA |\
+f2 fe/f/ | gf ed | cd ef | d2 d2 :|
+|:\
+a2 ag/a/ | bagf | g2 gf/g/ | agfe |\
+f2 fe/f/ | gfed | cdef | d2 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+|:\
+A2 AG/A/ | BAGF | EFGA | F2 DF |\
+A2 AG/A/ | BA GF | EFGA | F2 F2 :|
+|:\
+f2 fe/f/ | gfed | e2 ed/e/ | fedc |\
+d2 AG/A/ | BAGF | EFGA | F2 F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+|:\
+.d2 .d2 | .d2 .d2 | AA AA | d2 d2 |\
+d2 dd | .d2 .d2 | AAAA | d2 d2 :|
+|:\
+d'dd'd | d'd'd'd' | a A a A | aa aa |\
+d2 dd | e2 d2 | GABc | d2 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

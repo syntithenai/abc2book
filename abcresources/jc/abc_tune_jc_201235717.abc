@@ -1,0 +1,36 @@
+X: 21323
+T: FREE SUFFRAGE SETT (tune 3)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.132 #3 (and top staff on p.133)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: There's a double thin bar line after bar 5.
+N: There's an unusual partial line of a dance description below the 3rd staff that may belong to this dance or another.
+N: The grace note is actually before the bar line in the 3rd strain's pickup.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+(3(ABc) |\
+d3 d3 | d2A F2A | def fed | cee eAc |\
+d3 d3 | def gab | bag age | edd d2 H|]
+(3(ABc) |\
+d2f c2f | d2f A2f | dcd def | fee eAc |\
+d2f A2f | dcd efg | fed cBc | edd "^D.C."d2 |]
+AG |\
+{F}FAd dcd | FAd dcd | e2f g2f | efd cBA |\
+FAd dcd | Bcd efg | fdB ecB | BAA AB"^D.C."c |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First lady balance to the gentleman on her right and swing,
+%% balance to the next,
+%% and so on, till you come to partner, and balance him.
+%%endtext
+%%center (The above is below the 1st strain; the following is below the 3rd strain:)
+%%begintext align
+%% next lady the same, &c, then gentlemen perform the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

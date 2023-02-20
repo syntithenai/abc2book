@@ -1,0 +1,45 @@
+X: 2061
+T: Fingal's Cave.   a Strathspey.
+C: by John Gow.
+%R: air, strathspey
+B: Niel Gow & Sons "Complete Repository" v.2 p.6 #_
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "SLOW"
+K: E
+% - - - - - - - - - -
+% Voice 1 reformatted for 5 4-bar lines, for readability and proofreading.
+% The book has 4 staffs, with very tight spacing of notes in parts of this tune.
+V: 1 staves=2
+B,2 |\
+TE3FG2G2 (FAG)F E3B, | TE3FG2B2 (cB)(AG) (FA)(GF) |\
+TE3F G2G2 (FA).G.F E3B, | TC3B, TC3B, C2E2E2 :|
+|: B2 |\
+e4- eBcd e4- egbg | (e4 g)ebg c'2f2 (fa).g.f |\
+e4- eBcd e4- efge | {c}a3g {g}fefd {d}Te4 E2 :|
+|: GF |\
+(EF).G.F (EG).B.e (cB).A.G (AG).F.E | (Ee)(Bc) (GB)(B,A) [G2E2][F2D2] [F4D4] |\
+.E(ed).c (BA)(GF) .G(cBA GFED) | (CE)(B,E) (CE)(B,E) C2E2[E2B,2G,2] :|
+B2 |\
+(ed)(ed) (eB)cd (ed)(ed) (eg)(bg) | e4 (3gfe (3bag c'2f2 fagf |\
+e2gf .e(Bcd) e4- efge | {c}a3g {g}fefd Te4 E2B2 |
+(ed)(ed) (eB)(cd) (ed)(ed) (eg)(bg) | (eB)(ge) (bg)(e'b) c'2f2 (fa)gf |\
+.e(ede) (ce)(Be) (ce)(df) (eg)(fa) | (gb)(ac') (bg)(fa) g2e2e2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |\
+e4 e4 B4 e4 | g4 e2g2 a4 b4 |\
+g2b2 e2b2 d2b2 c2G2 | [A2e2][G2e2] [A2e2][G2e2] [A2e2]G2E2 :||: z2 | egbe' e2a2 gbe'b g3e |
+egbe' e2g2 a2c'2 b2d'2 | e'bgb e2a2 gbe'b g2e2 | c'2a2 b2B2 eBGB E2 :||: z2 | g2e2 b2g2 a2e2 c'bag | g2e2 e2d2
+efga bBba | g4 e4 .e(e'd'c' bagf) | [e2a2][e2g2] [e2a2][e2g2] [e2a2][e2g2] [E2e2] :|\
+z2 | e2e'2 e2e'2 e2e'2 e2e'2 | gbe'b e2g2 a2c'2 b2d'2 |
+e'2b2 g2af egbe' e4 | c'2a2 b2B2 zEGB e4 |\
+e2e'2 e2e'2 e2e'2 e2e'2 | e2e'2 e2g2 a2c'2 b2d'2 |\
+c'2b2 a2g2 a2f2 g2d2 | e2A2 B2[B,2B2] E2e2E2 |]
+% - - - - - - - - - -
+%%begintext align
+%% Bars 10,12 have parallel "voices" for the 2-note "chords", but this wasn't transcribed, because the
+%% written-out the chord notation is just as easy to read and is understood by the earliest ABC software.
+%%endtext

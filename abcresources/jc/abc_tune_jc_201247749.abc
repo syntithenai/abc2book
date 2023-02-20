@@ -1,0 +1,32 @@
+X:1
+T: Arlington Assembly
+N:
+C:Tune is "Night Watch" (16th century)
+S:Play  4  times
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 32 notes)
+K:G
+M:4/4
+L:1/16
+d4 |e2 f2 g4 f4 e4 |d8 d6 c2 |B2 c2 d4 c4 B4 |A8 A6 B2 |c2 d2 e4 d4 B4 |c4 B4 A4 G4 |A4 d4 c4 A4 |G12 d4 |
+%W: A2
+% voice 1 (1 lines, 31 notes)
+e2 f2 g4 f4 e4 |d8 d6 c2 |B2 c2 d4 c4 B4 |A8 A6 B2 |c2 d2 e4 d4 B4 |c4 B4 A4 G4 |A4 d4 c4 A4 |G12 z4 |
+%W: B1
+% voice 1 (1 lines, 29 notes)
+c8 B8 |A6 G2 F4 E4 |D4 d4 c8 |B6 c2 d4 g2 =f2 |e4 d4 c4 B4 |A6 G2 F2 G2 A4 |B2 c2 d8 ^c4 |d12 z4 |
+%W: B2
+% voice 1 (1 lines, 29 notes)
+c8 B8 |A6 G2 F4 E4 |D4 d4 c8 |B6 c2 d4 g2 =f2 |e4 d4 c4 B4 |A6 G2 F2 G2 A4 |B2 c2 d8 ^c4 |d12 z4 |
+%W: C1
+% voice 1 (1 lines, 28 notes)
+A4 B2 c2 d6 c2 |B8 A4 c4 |d4 c4 B8 |A12 e4|e4 c4 A4 d4|d4 B4 G4 c4 |B4 A2 G2 G4 F4 |G12 z4 |
+%W: C2
+% voice 1 (1 lines, 27 notes)
+A4 B2 c2 d6 c2 |B8 A4 c4 |d4 c4 B8 |A12 e4|e4 c4 A4 d4|d4 B4 G4 c4 |B4 A2 G2 G4 F4 |G12 ||

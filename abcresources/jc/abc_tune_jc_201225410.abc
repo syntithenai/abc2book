@@ -1,0 +1,25 @@
+X:948
+T:Robin Cushie
+R:Air
+O:Scotland
+S:Gibbon's Collection of Scots tunes
+B:Gibbon's Collection of Scots tunes
+Z:Transcription, chords:Mike Long
+M:C|
+L:1/8
+K:G
+V:1 stv=2
+V:1 clef=treble
+V:2 clef=bass
+[V:1]"G"G4   G3B|"C"ABAG "D"E2D>E|"G"G4 G3B|"Am"AGAB "D"d2e2|\
+[V:2]G,,2 G,2 B,2 G,2|D,3 B,,      C,2 B,,>C,|B,,2G,2 B,2G,2|D,3G,         B,,2C,2|\
+[V:1]"G"G4 g/f/e/f/ gB|"Am"cB~AG "Em"E2DE|
+[V:2]B,,2G,,A,,        B,,2 G,,2|A,,3B,,         C,2 B,,>C,|
+[V:1]"G"G2G2 "C"e2dB|"D"d4 "G"G4:| |:"G"d2ed B2gB|\
+[V:2]B,,3B,,      C,2 B,,>D,|G,>D,B,,>D,   G,,4:| |:G,,6        B,,2|\
+[V:1]"Am"cB~AG "Em"E4|"G"d2e>d {c}B2A>G|
+[V:2]A,,3B,,        C,2 C,,2|B,,2 z2      G,,2 z B,,|
+[V:1]"Am"A2B2 "C"e4|"G"d2ef g2B2|"Am"cB~AG "Em/C"E2DE|\
+[V:2]D,2G,2     C2C,2|B,,6        G,,2|A,,3B,,         C,2 B,,>C,|\
+[V:1]"G"G2G2 "C"e2dB|"D"d4 "G"G4:|
+[V:2]B,,3G,,      C,2 B,,>D,|G,>D,B,,>D,   G,,4:|

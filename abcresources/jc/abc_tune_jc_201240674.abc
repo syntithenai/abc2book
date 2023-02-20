@@ -1,0 +1,31 @@
+X: 4062
+T: There'll ne'er be peace till Jamie come Home.
+%R: air, waltz
+B: Niel Gow & Sons "Complete Repository" v.4 p.6 #2 (and top 4 staves of p.7)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: "SLOW"
+K: Gm
+% - - - - - - - - - -
+% Voice 1 reformatted for 4 i-bar lines, for compactness and proofreading.
+V: 1 staves=2
+~G>A |\
+~B2(cB)(AG) | A2(BA)(GF) | C>DF2F2 |  [F4C4A,4]~G>A |\
+(~Bc/d/) (cB)(AG) | (A2d2)T^F>=E | D2G2G>A | G4"_sf"GA |
+(TBA)(Bc)(de) | f3ed2 | dcBA f(g/a/) | HF4 GA |\
+~B2(cB)(AG) | (A2d2)T^F>=E | D2G2GA | [G4D4B,4] :|
+|: ~g>a |\
+b2a2g2 | {b}a2g2f2 | cdf2f2 | f4~g>a |\
+{ga}b2a2g2 | {b}a2g2f2 | d2g2~g>a | {a}g4"_sf"GA |
+(TBA)(Bc)(de) | f3ed2 | (dc)(BA) fg/a/ | HF4 ~G>A |\
+B2(cB)(AG) | (A2d2)T^F>=E | D2G2~G>A | [G4D4B,4] :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |\
+G2g2z2 | f2g2a2 | b2a2f2 | F2f2z2 | G2g2z2 | D2d2z2 |
+B>ABc dD | G2g2"_sf"e2 | d3ABc | d2c2B2 | A4f2 | F2Hf2z2 | G2g2z2 |
+D2d2c2 | B>ABc dD | G2g2 :||: z2 | g2a2b2 | f2g2a2 | b2a2g2 | f2F2z2 |
+g2a2b2 | c'2d'2d2 | b>abc'd'd | g2G2"_sf"e2 | d3ABc | d2c2B2 | A4f2 |
+F2Hf2z2 | G2g2z2 | D2d2c2 | B>ABc d>D | G2g2 :|

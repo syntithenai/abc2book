@@ -1,0 +1,18 @@
+X: 192
+T: New Jersey
+%R: jig
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: John Treat - "Gamut for the Fifes", 1779, p.19 #2
+F: https://archive.org/details/GamutFortheFifes
+N: Should the key be G major?
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+GBG G2B | BdB B2d | efg dfg | dBB B2G |\
+GBG G2B | BdB B2d | efg faf | edc d2 :|
+|: d |\
+dcB c2c | cBA B2B | BAG dcB | cBA A2d |\
+dcB cgg | cBA Bgg | gfg edc | BcA G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

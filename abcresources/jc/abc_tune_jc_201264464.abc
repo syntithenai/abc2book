@@ -1,0 +1,43 @@
+
+X: 1
+T: Core' n Grato
+T: Royal March
+T: Italian National Anthem
+C: words: R. Codiferro
+C: music: S. Cordillo
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+%%continueall 1
+[| "C"e8- | e2 B2 (3(B2e2B2) | "F"A8- | A4 B2c2 |\
+"G7"d8- | d2B2 (3(B2d2B2) | "C"G8- | G8 |
+"Dm"F4 c4- | c2F2 (3(F2c2F2) | "C"E8- | E2G2 C2E2 |\
+"G7"G8- | G4 E4 | "C"(3(EGE) C6- | C4 E3E ||
+w: | | | | | | | - Ca-Ta-
+w: | | | | | | | - Ca-Ta-
+%
+"C"G8- | G2z2 G3G | "Am"A8- | A2A2 B2B2 |
+w: Ri'.* Ca-Ta-Ri',* per-che me
+w: Ri'.* Ca-Ta-Ri',* tu nom' o
+%
+"Em"BAGA B3G | B4 B3B | "F"A4- AGFG | A2A2 c2A2 |
+w: Di-ce-sti pa-ro-le~a- ma re  per-che? - me par-le'o co-re me tur-
+w: Saie ca'n fin-'int A la chie-sa lo so'* Tras-su to~e aggio pri-ato A-
+%
+"C"GFEF G4 | z2G2 F2E2 | "Dm"F6 E2 | "Dm"D2E2 F2G2 |
+w: mien-te Ca-Ta-Ri'? Nun te scur-da Ca trag-gio da-teo
+w: Di-o Ca-Ta-Ri. E Lag-gio dit-to pure a'o con-fes'-
+%
+"C"EDCD E2E2 | "G7"D6 C2 | "C"C6 EE | "Em"G6 GG |
+w: co-re Ca-ta-ri' non te scor-dar' Ca-ta-ri', Ca-ta-
+w: so-re Lis-to a suf-fri Pe-Pe! chel-la La Sto a-
+%
+"B7"B2A2 A2B2 | "Em"GAB2 z2BB | "Dm"d2c2 c2d2 | "G"Bc d6 |
+w: ri', che ve-nea di-ce-re stu-par-la' ca me da' spa-se-me?
+w: suf-fri sto-a suf-*fri sto-a su-frir tut-ti Li stra-zie
+%
+"Am"c4 d2e2 | d2c2 BA^GA | "F"c4 c4 | z2c2 BAGF |
+w: Tu nun-'nce pien-zea stu do-lo-re mi-o Tu nun-'nce pien-za
+w: E'o con-fes-so-re ch\'e per-so-na san-ta M'a det-to' fig-lio
+%

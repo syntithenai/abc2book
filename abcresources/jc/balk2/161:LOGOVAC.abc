@@ -1,0 +1,16 @@
+X:3161
+T: Logovac
+O: Croatia
+F: https://www.youtube.com/watch?v=Z_QFt-AQLIA
+F: https://www.youtube.com/watch?v=K69IiJuWh_4
+M: 2/4
+L: 1/8
+K: Em
+Q: 1/4=180
+%%MIDI program 0
+%%MIDI chordprog 24
+%%MIDI gchord gi
+"Em"GA B2|"Am"cB A2   |cB A2    |A2 A2 |\
+"Em"GA B2|"Am"c2 B2   |A2 A2    |A4::
+"D"dc B2 |BA G2       |GF FA    |GF E2 |\
+"Em"EF G2|"F#dim"FE FD|"Em"E2 E2|E2 z2 :|

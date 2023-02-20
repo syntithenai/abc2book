@@ -1,0 +1,24 @@
+X: 1
+T: En krigsman s\aa b\aald
+C: efter sj\"okapten N.P. Ahlstr\"om, Klintehamn
+O: Sweden
+R: waltz
+S: http://www.gotlandstoner.se/web/11
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+%%continueall yes
+D | B2 B2 (BA) | G2 F2 G2 | A2 A2 G2 | F4 D2 | G2 B2 d2 | dd c2 B2 |
+w: En krigs-man s\aa* b\aald ock en fr\"o-ken s\aa grann de sut-to till-ho-pa i det
+B6 | A2 z2 B2 | A2 c2 B2 | A2 F2 A2 | d2 d2 c2 | B4 D2 | (Dc) c2 B2 |
+w: gr\"o-na. De s\aa-go med \"om-mast be-g\"ar p\aa var-ann. Al-lon-*ce den
+A2 F2 G2 | (Ad) d2 c2 | B2 z2 G2 | "^>"e4 dc | B2 c2 A2 | F6 | G4 z2 |]
+w: tap-pre s\aa kal-*la-des han, ock hon E-mo-ge-na den sk\"o-na.
+%%begintext
+%% Efter sj\"okapten N.P. Ahlstr\"om, Klintehamn. (Orden av Matthew Gregory
+%% Lewis, 1775-1818, \"overs. till sm. av And. af Kullberg 1799.)
+%%endtext
+W: En krigsman s\aa b\aald ock en fr\"oken s\aa grann de sutto tillhopa i det gr\"ona.
+W: De s\aago med \"ommast beg\"ar p\aa varann. Allonce den tappre s\aa kal*lades han,
+W: ock hon Emogena den sk\"ona.

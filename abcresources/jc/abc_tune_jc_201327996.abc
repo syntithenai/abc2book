@@ -1,0 +1,34 @@
+X: 1
+T: The Ragg, set by a gentleman
+B: A COLECTION of the most Celebrated Irish Tunes2 p.7
+N: The last part had an initial repeat symbol but no final repeat symbol.
+M: 6/8
+L: 1/16
+K: C
+g2 |\
+e4d2 G4_B2 | (ABc2)A2 F4f2 | e4d2 (G2A2G2) | c6 f6 |
+e4d2 G4_B2 | A2>B2AG F4f2 | e2f2g2 (f2e2d2) | c6 f4 :|
+|: g2 |\
+e4f2 (g2e2c2) | d4e2 (f2d2B2) | e4f2 (g2e2c2) | e6 f6 |
+e4f2 (g2e2c2) | (f2e2d2) (f2e2d2) | (e2f2g2) (d2e2f2) | c6 e4 :|
+|: f2 |\
+(g2e2c2) (Bcd2B2) | (ABc2A2) F4f2 | e4c2 (d2B2G2) | c6 (e4f2) |
+(efg2)e2 (cde2)c2 | (Bcd2)B2 (def2)d2 | (efg2e2) (def2)d2 | c6 e4 :|
+|: f2 |\
+g2(efg)e c2(efg)e | d4BcdB G2BcdB | g2efge (c2>d2)c2 |
+e6 (f2Tf3e/f/) | g2efge (a2g2f2) | Tg3fe2 d2e2f2 | ((ef)Tf2e/f/g) d2e2f2 | c6 e4 :|
+|: G2 |\
+E4G2 TG4_B2 | (ABc2A2) F3AGF | E4G2 (AGFE)(FG) | c6 (e4g2) |
+E4G2 (G2A2_B2) | A2G2F2 f2e2d2 | Tg4(fe) (f2e2d2) | c6 e4 :|
+|: f2 |\
+(g2f2e2) (g2f2e2) | (f2e2d2) (f2e2d2) | (g2f2e2) (g2f2e2) | (a2g2f2) e2f2g2 |
+(fga2)f2 (efg2)e2 | (d2B2G2) (f2d2B2) | (g2e2c2) (f2d2B2) | c6 e4 :|
+|: (G/F/E/D/) |\
+(C2E2G2) (c2G2E2) | F2A2c2 f2c2A2 | G2B2d2 g2d2B2 | c2e2g2 e4dc|
+(C2E2G2) F2A2c2 | G2B2d2 c2e2f2 | g3fe2 f2d2B2 | c6 e4 :|
+|: f2 |\
+ef(Tg3e/f/) g2e2c2 | Bc(Tc3B/c/) d2B2G2 | ef(Tf3e/f/) g2e2c2 | Te6 f2 g4 |
+(a2fgaf) (g2efge) | (d2BcdB) (G2BcdB) | (g2efge) d2B2G2 | c6 e4 :|
+|: (Tfe/f/) |\
+g4G2 G4_B2 | (ABcBAG) F4f2 | (efg2) G2 G4(c/B/A/G/) | c6 (e4f2) |
+(efg2) G2 G2A2_B2 | (A2G2F2) f2e2d2 | g3f2e d2B2G2 | [c6E6G,6] z2z2 :|

@@ -1,0 +1,800 @@
+X: 1
+T:Sweet Jenny Jones - Adderbury
+S:OY(AB)6
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:3/4
+L:1/4
+Q:100
+K:D
+"A"
+A | d A F | D>E F  | G B e | c A c |
+d A F | G>A B  | A d c | d2 ||
+"B"
+d/2e/2 | f d f | e c A | d B d |
+c A d/2e/2 | f d f | e c A | d c B |
+A2 B/2c/2 | d A F | D>E F | G B e |
+c A c |d A F | G>A B | A d c | d2 ||
+
+X: 2
+T:Constant Billy - Adderbury
+S:OY(AB)6
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:4/4
+L:1/8
+Q:150
+K:G
+"A"D | G2 d BGB | c2 A F2 D | BAG E2 D |
+[1 DEF G2 |[2 DEF G3 ||
+"B"Bcd e3 | ABc d3 |Bcd e3 | ABc def | g2 d BGB | c2 A F2 D |
+ BAG E2 D | DEF G3||
+
+X: 3
+T:Lads a' Bunchum - Adderbury
+S:OY(AB)6
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:4/4
+L:1/8
+Q:150
+K:G
+"A"A2 | B3 c Bcde | c2 A2 A2 Bc | d2 d2 dcBA | B2 G2 G2 :||
+"B"gf | e2 d2 d2 GA | B2 B2 B2 gf | e2 d2 c2 B2 | A2 G2 G2 gf |
+ e2 d2 d2 GA | B2 B2 B2 gf | e2 d2 c2 B2 | A2 G2 G2 ||
+
+X: 4
+T:Blue Bells of Scotland - Adderbury
+S:OY(AB)6  [OY and first A in key of D for singing]
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:4/4
+L:1/8
+K:G
+"A"d2 | g4 f2 e2 | d4 e2 fg | B2 B2 c2 A2 | G6 :||
+d2 "B" | B2 G2 B2 d2 | g2 g2 e2 g2 | f2 d2 e2 ^c2 | d4 e2 f2 | g2 g2 f2
+e2 | d2 d2  e2 fg | B2 B2 c2 A2 | G6 ||
+
+X: 5
+T:The Happy Man - Adderbury
+S:OY(AB)6
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:3/4
+L:1/4
+Q:120
+K:G
+"A"D | G G A | B2 A | B B ^c | d2 d | B B B | A A d | B B B | A A d/2d/2
+ | d e ^c | d2||
+"B"d/2c/2 | B A G | d2 G/2F/2 | E c/2B/2 A/2G/2 | G F D/2D/2 | G G/2A/2
+B/2c/2 | A2 c/2B/2 | A G F | G2||
+
+X: 6
+T:Black Joke - Adderbury
+S:OY(AB)6
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:6/8
+L:1/8
+K:G
+"A"D | DGG GFG | AcB AGF | GAB dcB | AcB AGF | G3 E3 | DEF G2:||
+ "B"B |d2 d d2 d | ede d2 B | d2 d d2 d | ede d2 c | B2 B BAG | AcB AGF
+| GAB dcB | AcB AGF | G3 E3 | DEF G2||
+
+X: 7
+T:Postman's Knock - Adderbury
+S:OY(AB)6
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:6/8
+L:1/8
+Q:90
+K:D
+"A" D | DFG A2 F | GAB A2 A | dAF FED | E3 E2 D | DEF A2 A | GAB A2 F |
+Edc BA^G | A4- A2 | AGF Fdd | dDE F2 F | A2 A dcB | c3 B2 A | Add dAF
+| EFG | B3 B3 | B3 B2 A | AdF F2 E | D3 D3||
+"B"A2 A A2 A | Bcd A3 | dcB A2 F | F2 E F3 | A2 A A2 A | Bcd A3 | dcB A2
+ d | d3 c3 | d3-d2||
+
+X: 8
+T:Highland Mary - Bampton
+S:OY(AB)4
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:4/4
+L:1/8
+Q:150
+K:G
+"A"D2 | G2 AG FE D2 | G2 AB c2 Bc | d2 de dcBA | GABG D2 D2 | G2 AG FE D
+2 | G2 AB c2 Bc | d2 de dcBA | G2 F2 G4||
+"B"GABc d2 d2 | ed cB c2 Bc | d2 de dcBA | GABG D2 D2 | G2 AG FE D2 | G2
+ AB c2 Bc | d2 de dcBA | G2 F2 G4 :||
+
+X: 9
+T:Webley Twizzle - Bampton
+S:OY(AB)4
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:6/8
+L:1/8
+K:G
+"A"D | GFG AGA | BdB AGA | BAG EAG | FEF G2 :||
+"B"B | d2 e dBG | d2 e dBG | EAG FED | EAG FED |  BAG EAG | FEF G2 :||
+
+X: 10
+T:Bonny Green Garters - Bampton
+S:OY A4 (BC)as required
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:6/8
+L:1/8
+Q:80
+K:D
+"A"A | dcd AFA | BAB ABc | dcd efg | faf ede | dcd AFA | BAB ABc | dcd e
+fg | f3 d2 ||
+"B"
+K:G
+d | dcB AGF | GAB cde | ded dcB |[1  B3 A2 |[2  A3 G2 ||
+"C"d | dcB AGF | G3 A2 d | dcB AGF | G3 A2 d | dcB AGF | GAB cde | ded d
+cB |  A3 G2 ||
+
+X: 11
+T:Cuckoo's Nest - Bledington
+S:OY(AB)4
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:2/2
+L:1/8
+K:Em
+"A"GAGF E2 e2 | B2 B2 A2 B2 | FAFE D2 EF | G2 A2 E4 :||
+"B"e2 e2 e2 fe | d2 B2 B3 ^c | d2 d2 d2 ed | ^c2 A2 A4 |
+GAGF E2 e2 | B2 B2 A2 B2 | FAFE D2 EF | G2 A2 E4 :||
+
+X: 12
+T:Glorishears - Bledington
+S:OY(AB)4
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:2/2
+L:1/8
+Q:150
+K:G
+"A"D2 | G4 G2 A2 |G4 D4 | B2 c2 d2 e2 | d4 d2 D2 | G4 G2 A2 |
+ G4 D4 | B2 c2 d2 e2 | d4 d2 D2 | G4 G2 A2 |G4 G4 | F2 G2 A2 B2| A4 A4 |
+GABA G2 dc | B2 A2 G4 ||
+"B" B2 B2 BcdB | c2 A2 A4 | B2 BA G2 B2 | AGFE D4 | G2 FE D2 G2 |
+A2 GF G2 A2 | B2 AG F2 A2 |[1 G4 G4   |[2 G4 G2 ||
+
+X: 13
+T:Rourke's Drift - Bledington
+S:OY(AB)4
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:4/4
+L:1/8
+Q:100
+K:G
+"A"B2 BB A2 A2 |  GABG EF G2 | D2 GB d2 dd | d2 cB A2 GA | B2 BB A2 A2
+ |  GABG EF G2 |  D2 GB d2 cB | A2 AA G4 ||
+"B" d2 dd d2 B2 | g2 gg f2 e2 | d2 dd e2 dd | d2 cB A2 GA |  B2 BB A2  A
+2 |
+ GABG EF G2 |  D2 GB d2 cB | A2 AA G4 ||
+
+X: 14
+T:Young Collins - Bledington
+S:OY(AB)4
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:2/2
+L:1/8
+K:G
+"A"GABc d2 d2 | c2 e2 A2 Bc | d2 d2 e2 dc | B2 A2 G4 :||
+"B" E2 D2 EF G2 | A2 A2 G3 A | B2 A2 Bc d2 | e2 e2 dcBA | GABc d2 d2 | c
+2 e2 A2 Bc | d2 d2 e2 dc | B2 A2 G4 :||
+
+X: 15
+T:William and Nancy - Bledington
+S:OY(AB)2(AC)2
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:6/8
+L:1/8
+Q:100
+K:G
+"A" D | G2 G GBd | e2 e dBG | A2 d BAG | E2 F G2 :||
+"B"d | e2 d B2 d | gfe d2 d | e2 d B2 d | gfe d2 c |  B2 B Bcd | e2 e dB
+G | A2 d BAG | E2 F G2 :||
+"C"z2 d3 | e3 d3 | B2c d3 | g2f e3 | d3 d3 | e3 d3 | B2 d |  gfe d2 c |
+ B2 B Bcd | e2 e dB
+G | A2 d BAG | E2 F G2 :||
+
+X: 16
+T:Trunkles - Bledington
+S:OY(AB3C3)2(AB3D3)2A
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:2/2
+L:1/8
+Q:150
+K:G
+"A" d2 B2 c2 e2 | dcBA B2 G2 | d2 B2 c2 e2 |[1  dcBA  G2 Bc  |[2  dcBA
+G4 ||
+"B" B2 Bc d2 d2 | efge d2 g2 | f2 ed ^c2 A2 | d4 d2 ||
+"C"cd | e2 c2 cdec | d2 B2 BcdB | c2 A2 ABce |dcBA G2 B2 |
+ cBAG F2 A2 | G4 G2 ||
+"D"cd | e4 c4 | c2 d2 e2 c2 | d4 B4 | B2 c2 d2 B2 | c4 A4 | A2 B2 c2 e2
+ | d3 c B2  A2  | G2 B2 |
+ cBAG F2 A2 | G4 G2 ||
+
+X: 17
+T:Black Joke - Bledington
+S:OY(AB)4
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:6/8
+L:1/8
+K:G
+"A"D | DGG GFG | AcB AGF | GAB dcB | AcB AGF | G3 E3 | DEF G2 :||
+"B" B | d2 d d2 d | ede d2 B | d2 d d2 d | ede d2 c | B2 B BAG | AcB AGF
+ | GAB dcB | AcB AGF |  G3 E3 | DEF G2 :|
+
+X: 18
+T:Saturday Night - Bledington
+S:OY (AB) As Required
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:6/8
+L:1/8
+Q:80
+K:G
+"A"A | BAB/2c/2 d2 D | EAG FED |  BAB/2c/2 d2 D |[1 DEF G2 |[2  DEF G3 |
+|
+"B" AFD D2 D | EFG FED | BAG Bcd |[1 DGF G3 |[2 DGF G2 ||
+
+X: 19
+T:Lumps of Plum Pudding - Bledington
+S:A(BC)2B
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:6/8
+L:1/8
+Q:100
+K:G
+"A"d | B>AG gfg | d>ed G2 A | B>AG G>FG | ABA  D2 c | B>AG gfg | def g3
+| d
+BG ABc | d2 B G2 z ||
+"B" dfg dfg | d2 B GAB | cde cAB |cAA ABc | def g3 | def g3 |  dBG ABc |
+ d
+2 B G3||
+"C" d2 c | B2 A G3 | g2 f g3 | d2 e d3 | G3 A3 | B2 A G3 | G2 F G3 | A2
+B
+A3 | D2 c | BAG gfg | def g3 | |  dBG ABc | d2 B G3|
+
+X: 20
+T:Ladies of Pleasure - Bledington
+S:A(BC)2B
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:6/8
+L:1/8
+K:G
+"A"d|g2 g B2 c|d2 B G2 D|G>GG ABc|B2 A A2 d|g2 g B2 c|d2 B G2 D|G>GG ABc
+|B2
+ A G3||
+"B"|AAA cBc|AAA cBc| A>Bc def| gfe d2 d|g2 g B2 c|d2 B G2 D|G>GG ABc|B2
+A G
+3||
+"C"d3| g3 g3 | B3 c3 | d2 c  B2 A | G2 D | GGG ABc | B2 A A3 |d3| g3 g3
+| B
+3 c3 | d2 c  B2 A | G2 D | GGG ABc | B2 A G3 ||
+
+X: 21
+T:Bumpus of Stretton - Ducklington
+S:OY(AB)3A
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:6/8
+L:1/8
+Q:100
+K:G
+"A" D | GFE D2 B | c2 B A2 D | GAB AGE | D3 G2 :||
+"B" G | GBd d2 d | ege d2 d | GBd dcd | e2 f g3 |  GBd d2 d | ege d2 d |
+  GAB AGE | D3 G2 :||
+
+X: 22
+T:Gallant Hussar - Ducklington
+S:OY(AB)3A
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:6/8
+L:1/8
+Q:100
+K:G
+"A"D | G2 B ABc | dBe c2 A | GAB cBd |[1 G3 F2  |[2 G3 G2 ||
+"B" B/2c/2 | dBd g2 g | ecA c2 B | ABc dBA |  G3 F2 D | G2 B ABc | dBe c
+2 A | GAB cBd |  G3 G2 :||
+
+X: 23
+T:Jockey to the Fair - Ducklington
+S:OY(A3B)2(C3B)A
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:6/8
+L:1/8
+Q:100
+K:G
+"A" D | G2 A B2 c | d2 g d2 c | BdB GAB | c2 B A2  D | G2 A B2 c | d2 g
+d2 g | fed Ad^c |d3 d2 ||
+"B" d | g2 g d2 d | cdc B2  d | g2 g d2 d | cdc  B2  d |e2 f gfe | d2 c
+Bcd | edc B2 A | GBG E2 F |
+G2 G GBd | e3 d2 g | edc B2 A | GBG E2 F | G2 g BcA | G3 G2 ||
+"C" D | G3 A3 | B3 c3 | d3 g3 | d3 c3 | BdB GFG | AcB A2 D | G3 A3 | B3
+c3 | d3 g3 | d3 g3 |  fed Ad^c |d3 d2 ||
+
+X: 24
+T:Lollipop Man - Ducklington
+S:OY(AB)3A
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:4/4
+L:1/8
+Q:120
+K:G
+"A" BA | GB D2 D2 DE | G2 G2 G3 A | BA GA BA GA | B2 E2 E2  BA |
+ GB D2 D2 DE | G2 G2 G3 d | edef g2 dc | B2 A2 G3 ||
+"B" A | d2 d2 gfeg | B2 d2 d3 B | AGAB cBAG | A2 E2 E2   BA |
+ GB D2 D2 DE | G2 G2 G3 d | edef g2 dc | B2 A2 G3 ||
+
+X: 25
+T:Trunkles - Ducklington
+S:OY(A2B3C3)2(A2B3D3)
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:4/4
+L:1/8
+K:G
+"A" d2 B2 c2 e2 | dcBA B2 G2 | d2 B2 c2 e2 |[1  dcBA  G2 Bc  |[2  dcBA
+G4 ||
+"B" B2 Bc d2 d2 | efge d2 g2 | f2 ed ^c2 A2 | d4 d2 ||
+"C"cd | e2 c2 cdec | d2 B2 BcdB | c2 A2 ABce |dcBA G2 B2 |
+ cBAG F2 A2 | G4 G2 ||
+"D"cd | e4 c4 | c2 d2 e2 c2 | d4 B4 | B2 c2 d2 B2 | c4 A4 | A2 B2 c2 e2
+ | d3 c B2  A2  | G2 B2 |
+ cBAG F2 A2 | G4 G2 ||
+
+X: 26
+T:Valentine - Ducklington
+S:OY(AB)2(AC)
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:6/8
+L:1/8
+Q:80
+K:G
+"A"d | gfe ede | edc cBc | dBg dBG | FAA A2 d | gfe ede | edc cBc | dBG
+DAF  | GGG G ||
+"B" Bc | ded dBd | BGG GAB | cAc BGB | FAA ABc | ded dBd | BGG G2 d | ef
+g dBd | BGG G :||
+"C" Bc | ded dBd | BGG GAB |
+M:4/4  c  A c2 | B G  B2 | F A  A2 | A2 |
+M:6/8 B2 c | ded dBd | BGG G2 d | efg dBd | BGG G2 :||
+
+X: 27
+T:Balance the Straw - Field Town
+S:OY(AB)4
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:6/8
+L:1/8
+Q:100
+K:G
+"A"D | G2 B BAB | c2 A ABc | dBd cAc | B2 G G2 :||
+"B"B/2c/2 | d2 d d2 B | c2 B B2 A | e2 d dAB | c2 B A2 D | G2 B BAB | c
+2
+ A ABc | dBd cAc | B2 G G2 :||
+
+X: 28
+T:Banks of the Dee - Field Town
+S:OY (AB)2 (AC)2
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:6/8
+L:1/8
+Q:80
+K:G
+"A"G | DEF GAB | ced cBA | BGE Ddc | BcA G2:||
+"B"G | Bcd d2 g | ede dBG | Bcd efg | GAG FED | cec BdB | GFG AFD
+| GFE Ddc | BcA G2:||
+M:4/4 L:1/4 Q:100
+"C" G | Bc d2 | d2 g2 | ed e2 | dB G2 | Bc d2 | ef g2 |GA G2 | FE D2 |
+M:6/8 L:1/8 Q:100
+cec BdB | GFG AFD | GFE Ddc | BcA G2:||
+
+X: 29
+T:Step Back - Field Town
+S:OY(AB)4
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:4/4
+L:1/8
+Q:100
+K:D
+d2 cd e2 f2  | e2 dc Bc d2 | c2 A2 B2 G2 | A2 AG FG A2 | d2 cd B2 AG |
+F2 A2 d4 | F2  FD E2 C2 | D4 D4||
+AGFE D2 EF | G2 A2 B2 c2 | dcBA G2 A2 | Bcdf e2 ce |d2 Bd c2 A2 | BGEF G
+2 B2 | AGFE D2 EF | G4 G4 ||
+
+X: 30
+T:Glorishear - Field Town
+S:OY(AB)2 (AC)2
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:6/8
+L:1/8
+Q:80
+K:G
+"A"d/2c/2 | BAG GFG | ABA D2 G | ABA Adc | BcA GAB |cde def | def g2 f |
+ ed
+c BcA | GAG  G3 ||
+"B" e2 d dAB | cdc cAB | cde edc | GAG FED | G2 g gfg | G2 g g2 f | e
+dc BcA | GAG G3||
+"C" e3 d3 | d2 A B3 | c2 d c3 | c2 A B3 |c2 d e3 | e2 d c3| G2 A G3 |
+ F2 E D3 | G3 g3 | g2 f g3 | G3 g3 | g4-g  f | edc BcA | GAG G2 ||
+
+X: 31
+T:Old Woman Tossed Up in a Blanket - Field Town
+S:OY(AB3C)4
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:6/8
+L:1/8
+Q:75
+K:G
+"A"D | G2 G GBd | efg dBG | AGA BAB |E2 F G2 :||
+"B"B | d2 d Bcd | efg dBG | dcd Bcd | efg d3 | d2 c Bcd | efg dBG | AGA
+ BAB | E2 F G2 ||
+"C" M:4/4   D | G2 G2 | GB d2 | ef g2 | dB G2 |
+M:6/8  AGA BAB | E2 F G2 ||
+
+X: 32
+T:Trunkles - Field Town
+S:OY (AB2C)2 (AB2D)2
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:4/4
+L:1/8
+K:D
+"A" A3 G F2 A2 | G2 F2 E2 D2 | A3 G F2 B2 | AGFE D4 | A3 G F2 A2 | G2 F2
+ E2 D2 | A3 G F2 B2 | AGFE D2 ||
+"B" FG | A2 A2 A2 Bc | dcdB A2 d2 | BcBA GABc | A4 A2 ||
+"C"dc | B2 G2 GABc | A2 F2 FGAF | G2 E2 EFGE | F2 D2 D2 EF | GFED CDEF |
+ D4 D2 ||
+"D"dc | B4 G4 | G2 A2 | B2 c2 | A4 F4 | F2 G2 | A2 F2 | G4 E4 | E2 F2 |
+G2 E2  | F4 D4 | D4 E2 F2 | GFED CDEF | D4 D2 ||
+
+X: 33
+T:Shepherds Hey - Field Town
+S:OY(AB)4
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:2/2
+L:1/8
+Q:120
+K:G
+"A"B>c | d>cB>c d2 (3de>f | g>ag>f e2  B>c | d>cB>c d2  (3de>f | g>ag>f
+e6 :||
+"B"z d | c (3ccc B>AG>B | d>c (3Bcd c>B (3ABc  B>A G2 A>Bc>d | e>fg>f e6
+:||
+
+X: 34
+T:Ladies Pleasure - Field Town
+M:6/8
+L:1/8
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+Q:120
+K:G
+"A"g | gfe edc | BcA G2 D | (4GABc (4dedc | B2 A G2 ||
+"B" A | Bcd d2 A | Bcd d2 A | Bcd edc | BcA G2 g |  gfe edc | BcA G2 D |
+ (4GABc (4dedc | B2 A G2 || "C" g | g f e3 | e d c3 | B c A3 | G3 D3 | (
+4GABc (4dedc | B2 A G g | g f e3 | e d c3 | B c A3 | G3 D3 | (4GABc (4de
+dc | B2 A G2 |
+
+X: 35
+T:Nutting Girl - Field Town
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:4/4
+L:1/8
+Q:150
+K:G
+"A"B>A | G2 G>A B>A G>B | d2 c2 A2 F2 | G2 B>c d2 g2 | d4 d3 B | c>d e>c
+ A2 B>c | B>c d>B G2 A>B | c2 A2 G2 F2 | G4 G3 || "B" B>A | G2 g2 g>e f>
+g | f>e d2 d2 B>c | d2 e>f g>f  f>e | f4 f3 e | d2 g2 g3   f | e2 d2 d3
+B | A2 B2 c2 d2 | e>f g>e d>c B>A  | G2 G>A B>A G>B | d2 c2 A2 F2 | G2 B
+>c d2 g2 | d4 d3 B | c>d e>c A2 B>c | B>c d>B G2 A>B | c2 A2 G2 F2 | G4
+G3 || "C" B>A | G4 G3 a | B3 A G3 B | d4 c4 | A4 F4 | G4 B3 c | d4 g4 |
+d4 d4 | d4 B4  | c>d e>c A2 B>c | B>c d>B G2 A>B | c2 A2 G2 F2 | G4 G3
+
+X: 36
+T:Lass of Richmond Hill - Field Town
+S:OY(ABC)2 (ABD)2
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:4/4
+L:1/8
+Q:180
+K:G
+ "A" D2 | D2 G2 G2 G2 | AGFG A2 c2 | B2 G2 E2 A2 | G4 F2 D2  | D2 G2 G2
+G2|  AGFG A2 G2 | FE D2 E2 ^C2 | D4 D2 ||
+"B"G2 | FE D2 D2 G2 | FE D2 D2 G2 | FE D2 c2 B2 | B4 A2 G2 | FE D2 D2 G2
+ |
+ FE D2 d3  c | B2 GB  A2 FA | G4 G2 ||
+ "C" D2 | D2 G2 G2 B2 | B6 G2 | F2 A2 A2 c2  | c6 A2 | B2 A2 G2  F2 | G2
+ E2
+D2 c2 | B2 GB A2 FA | G4 G2 ||
+ "D" D2 | D2 G2 G2 B2 | B6 G2 | F2 A2 A2 c2  | c6 A2 | B4 A4 | G4  F4 |
+G4 E4
+| D4 c4 | B2 GB A2 FA | G4 G2 |
+
+X: 37
+T:Idbury Hill - Field Town
+S:OY(AB)2 (AC)2
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:4/4
+L:1/8
+Q:140
+K:D
+"A"B2 Bc d2 B2 | AGFE D2 EF | G2 B2 BAGF | E4 E4 | B2 Bc d2 B2 | AGFE D2
+ EF | G2 B2 BAGF | E4 E4 ||
+"B" B2 Bc d2 B2 | edcB A2 A2 | B2 Bc d2 B2 | e3 d B4 |  B2 Bc d2 B2 | AG
+FE D2 EF | G2 B2 BAGF | E4 E4 :||
+"C" B4 B2 c2 | d4 B4 | e2 d2 c2 B2 | A4 A4 | B2 Bc d2 B2 | e3 d B4 |   B
+2 Bc d2 B2 | AG
+FE D2 EF | G2 B2 BAGF | E4 E4 :||
+
+X: 38
+T:Old Woman Tossed Up - Kirtlington
+S:OY(AB)4
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:6/8
+L:1/8
+K:G
+"A" D | GGG GBd | eed B2 G | ccc Adc | BGG G2 :||
+"B" d | efg efg | efg gfe | d2 d d2 d | eed B2 G | GGG GBd | eed B2 G |
+ccc Adc | BGG G2 :||
+
+X: 39
+T:Swaggering Bonny - Kirtlington
+S:OY (AB)2 (AC)2
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:6/8
+L:1/8
+K:D
+"A" A|FED FGA|BcB A2 A|dcd Bed|cBc d2:||
+"B" d|ecA ecA|ecA A2 F|GAB BcB|GEF G3|FGA D3|GAB E3|FGA Bed|
+cBc d2:||
+"C" d|ecA ecA|ecA A2 F|GAB BcB|GEF G3|FG A3|D3 D3|GA B3|
+E3 E3|FGA Bed|cBc d2:||
+
+X: 40
+T:Mrs Casey - Kirtlington
+S:OY (AB)4
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:6/8
+L:1/8
+K:D
+"A" fe|d2 B BcB|A2 F A2 A|BcA   Bcd|g3 f2 e|d2 B BcB|A 2 FA3|
+Bcd e2 c|d3 d2||
+"B" d | d2 e f2 g|a2 b a3|d2 e f2  g|a3 a3|b2 g a2 f|g2 f e2 d|
+d2 c B2 A|g3 f2 e|d2 B BcB|A2 F A2 A|BcA   Bcd|g3 f2 e|d2 B BcB|A2 FA3|
+Bcd e2 c|d3 d2 ;||
+
+X: 41
+T:Blue Streak - Moulton
+S:OY(A B)5
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:4/4
+L:1/8
+Q:140
+K:D
+ "A"F2 F>E D2 F>A | d2 d>c B4 | A2 A>B A2 F>D | E2 E>F E4 | F2 F>E D2 F>
+A
+ | d2 d>c B4 | e>d c>B A>G F>E | D2 d2 d4 ||
+"B" e2 e>d c2 e2 | d2 f2 d4 | B2 B>c d2 c>B | A>B A>F E4 |  F2 F>E D2 F>
+A
+ | d2 d>c B4 | e>d c>B A>G F>E | D2 d2 d4 ||
+
+X: 42
+T:Grundy's Delight - Moulton
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+S:OY (AB)5
+M:6/8
+L:1/8
+K:G
+"A" d2 B g2 e |  d2 B G3 | d2 B g2 f | e3 d3  | d2 B g2 e |  d2 B G3 | A
+2  d ^cdc | d3  d3 ||
+"B" e2 f gfe | c2 d edc | B2 c dcB | B3 A3 |  d2 B g2 e |  d2 B G3 | d2
+ g fga | g3 g3 ||
+
+X: 43
+T:Knuckles a'Kimbo - Moulton
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+S:OY (A1B A2B)2 A1
+M:4/4
+L:1/8
+Q:100
+K:G
+"A1" g2 gf e2 e2 | dedc  B2 Bc | d2 G2 A2 c2 | B3 A G4 :||
+"A2" G2 c2 c2 e2 |  dedc  B2 Bc | d2 G2 A2 c2 | B3 A G4 :||
+"B" gfge fe d2 | gfge fe d2 |  gfgf e2 a2 | f2 e2 d2 Bc |  g2 gf e2 e2 |
+ dedc  B2 Bc | d2 G2 A2 c2 | B3 A G4 :||
+
+X: 44
+T:Room for the Cuckold - Moulton
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+S:OY (AB)5
+M:6/8
+L:1/8
+K:G
+"A" GGG D2 D | EGe dBG | GGG D2 D | E2 A G3 :||
+"B" B2 G B2 G | BGB A3 | B2 G E2 E | AGF G3 :||
+
+X: 45
+T:Stop Me and Buy One - Moulton
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+S:OY (AB)5
+M:4/4
+L:1/8
+Q:150
+K:G
+"A" B2 A2 | Gc B2 | AG FG | B2 A2 | B2 A2 | Gc B2 | Ad d^c | d4 ||
+"B" d2 c2 | Bg e2 | d2 c2 | Bg e2 | dG c2 | BF Gc | B2 A2 | G  G3 ||
+
+X: 46
+T:Young Collins - Oddington
+M:4/4
+L:1/8
+Q:120
+S:OY(A2B2)3
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+K:G
+"A" GABc d2 d2 | c2 dc B3 B | c2 Ac B2 GB |[1 A2 F2 G4 |[2 A2 F2 G3 ||
+"B" F | E2 E2 EFGA | B2 B2 B3 B | c2  c2 BcBG | d2 d2 d4 | G2 Bc d2 d2 |
+ e2 dc B4 | c2 Ac B2 GB | A2 F2 G4 ||
+
+X: 47
+T:Constant Billy - Oddington
+M:6/8
+L:1/8
+Q:100
+S:OY(A2B2)3
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+K:G
+"A" GBd cAB | c2 A AGA | B2 G E2 E | DEF G3 :||
+"B" Bcd ecA | B2 c dBG | Bcd e2 e | ABc dBG | GBd cAB | c2 A AGA | B2 G
+E2 E | DEF G3 ||
+
+X: 48
+T:Highland Mary - Oddington
+M:4/4
+L:1/8
+Q:150
+S:OY(A2B2)3
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+K:G
+"A" D2 | G2 AG F2 D2 | G2 AB c2 Bc | d2 Bd c2 BA | G2 FE D2 D2 | G2 AG F
+2
+ D2 | G2 AB c2 Bc | d2 Bd c2 BA | G2 F2 G2 ||
+"B" B2 | d2 d2 d2 cB | c2 c2 c2 Bc | d2 d2 dcBA | G2 FE D2 D2 | G2 AG F2
+ D2 | G2 AB c2 Bc | d2 Bd c2 BA | G2 F2 G2 ||
+
+X: 49
+T:Old Frog Dance - Oddington
+M:6/8
+L:1/8
+Q:80
+S:OY(A1 A2 B3 A2)4
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+K:D
+"A1" A|FED FGA|BcB A2 A|dcd Bed|d3 A2||
+"A2"G |FED FGA|BcB A2 A|dcd Bed|cBc d2||
+"B" d|cde efe|ecA ABc|d2 d dcB|BGG G3|FGA D3|GAB E3|FGA Bed|
+cBc d2||
+
+X: 50
+T:Black Joke - Stretton on Fosse
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:6/8
+L:1/8
+Q:80
+S:OY (AB)4
+K:G
+"A" D | DGG GFG | AcB AGF | GAB dcB | AcB AGF |G3 E3 | DEF G2 ||
+"B" B |d2 d d2 d | ede d2 B | d2 d d2 d | ede d2 c | B2 B BAG |   AcB AG
+F  | GAB dcB | AcB AGF |G3 E3 | DEF G3 ||
+
+X: 51
+T:Old Mother Oxford - Stretton on Fosse
+M:4/4
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+L:1/8
+Q:160
+S:OY (AB)4
+K:G
+"A" GABc d2 c2  | B2 A2 G4 |  GABc d2 g2  | f2 g2 a4 | g3 a b2 a2 | g2 e
+2 d2 ef  | g2 d2 c2 B2 | A4 G4 ||
+"B" Bc d2 Bc d2 | Bc d2 d2 cB | c2 e2 c2 e2 | c2 e2 e3 f |  g3 a b2 a2 |
+ g2 e
+2 d2 ef  | g2 d2 c2 B2 | A4 G4 ||
+
+X: 52
+T:Shepherd's Hey - Stretton on Fosse
+M:4/4
+L:1/8
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+Q:150
+S:OY (AB)4
+K:G
+"A" BcdB c2 c2 |  BcdB A4 |  BcdB c2 Bc |1 d2 D2 G4 |2 d2 D2 G3 ||
+"B" B | d2 B2 c4 |B2 G2 A4 |  BcdB c2 Bc | d2 D2 G3 :||
+
+X: 53
+T:Hankie Dance - Upton on Severn
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:6/8
+L:1/8
+K:G
+"A" D | G2 G BdB |G3-G2  D | G2 G BdB | A3-A3 | B3 G3 |  c3 e3  | d2 d c
+BA |1 G3-G2  |2 G3-G3 ||
+"B" F2 G A3 |  F2  E  D3 | A2 A ABc | d3-d2 c | B2 A G2 F | E2 F G2 A |
+BcB AGF | E3 D3
+ | G2 G BdB |G3-G2  D | G2 G BdB | A3-A3 | B3 G3 |  c3 e3  | d2 d cBA |
+G3-G2  ||
+
+X: 54
+T:Stick Dance - Upton on Severn
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:6/8
+L:1/8
+Q:100
+K:G
+"A" e | dBB BAG | AGA BGE | DGG GAB | edB A2 e | dBB BAG | AGA BGE | DGG
+ GAB | ABA G2 ||
+"B" G | GBd g2 d | edc BAG |   GBd g2 d |edB  A3 | GBd g2 d | edc  Bcd |
+ ege dBG | ABA G2 ||
+
+X: 55
+T:Jenny Lind - Upton on Severn
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:4/4
+L:1/8
+Q:150
+K:G
+"A" g2 f2 ef e2 | d2 B2 Bc B2 | c2 A2 AG A2 | B2 G2 G4 |g2 f2 ef e2 | d2
+ B2 Bc B2 | c2 A2 F2 AF | G2 G2 G4 ||
+K:D
+"B" F2 AF G2 BG|A2 f2 fe f2|G2 e2 ef e2|F2 d2 dc d2|F2 AF G2 BG|A2 f2 fe
+ f2|
+g2 e2 c2 ec|d2 d2 d4||
+
+% Output from ABC2Win  Version 2.1 i on 14-12-99

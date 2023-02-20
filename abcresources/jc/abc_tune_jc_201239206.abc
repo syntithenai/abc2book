@@ -1,0 +1,23 @@
+X: 322
+T: Miss Julia Sinclair's Favorite
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.32#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: jig
+M: 6/8
+L: 1/8
+K: Gm
+V: 1
+d |\
+BGG ~G2A | (Bdf) g2a | b2g fdB | fdB ~c2d |\
+BGG G2A | Bdf gbg | fdB ~c2d | BGG G2 :|
+|: g/a/ |\
+bag dbg | fdB Tc>Bc | d2g ^fga | bab ~g2a |\
+b2g fdg | fdB ~c>Bc | ~ d2g fdc | BGG G2 :|
+V: 2 clef=bass middle=d
+z |\
+g3 G3 | B2d e2f | d2e d2B | d2=e f2z |\
+g3 G3 | B3  e3  | B2b a2^f | gdB G2 :|
+|: z |\
+g2^f g2G | d2=e f2a | b2e d2^f | g2d G2z |\
+g2e d2e | d2B f2^f | g2b d'2d | gdB G2 :|

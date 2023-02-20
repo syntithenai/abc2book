@@ -1,0 +1,24 @@
+X: 07018
+T: CHERRY'S JIG
+C: Bob McQuillen 8 Ap4 89
+B: Bob's Note Book 7 #18
+%R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The booklet has D for the first (pickup) note; that's surely a "typo".
+M: 6/8
+L: 1/8
+K: A
+E \
+| AcA BcB | ABA GFE | AcA Bcd | ecA B2c |\
+| AcA Bcd | ece fga | aec BAB | cAA A2 :|
+|: B \
+| cBc def | ece fga | aec def | edc B2e |\
+| cBc def | ece fga | aec dBG | BAA A2 :|
+%%begintext align
+%% For Cherry Thomae
+%% (pr. T\=omay) of Norwich, VT. New England Tradition
+%% was always so glad to have her sit in with us
+%% when she came to a dance with her flute - 
+%% Now you can play your own tune on it, Cherry! Much
+%% love to you from Bob.
+%%endtext

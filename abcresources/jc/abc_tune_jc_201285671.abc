@@ -1,0 +1,26 @@
+X:1
+T: Hello Gordon (strathspey)
+C: P.M. Angus MacDonald ca.1940
+O: APB Mari Black 2021
+R: strathspey
+N: as taught by Mari Black @ BSFD online class 2021-4-4
+S: transcribed by Lance Ramshaw
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Bm
+"^A"|: B3c |\
+"Bm"d3B cA3 B3c d3e | "A"f3A e3c A3c ec3 |\
+"Bm"d3B cA3 B3c d3e | "A"f3A e3c "Bm"cB3 :|
+"^B"|: B3c |\
+"Bm"Bca2 Bcf2 B3c d3e | "A"f3A e3c A3c ec3 |\
+[1 "Bm"Bca2 Bcf2 B3c d3e | "A"f3Ae3c "Bm"dB3 :|\
+[2 "Bm"d3B "A"cA3 "Bm"B3c d3e | "A"f3A e3c "Bm"cB3 |]
+"^C"|: B3c |\
+"Bm"B3A Bc3 B2c f2d | "A"c3B A3e cA3 e3c |\
+[1 "Bm"d3c B3c d3c f3e | "A"f3A e3c "Bm"dB3 :|\
+[2 "Bm"(3Bcd "A"(3cde "Bm(D)"(3fef a3f | "A"e3c A3c "Bm"dB3 |]
+"^C"|: B3a |\
+"D"f3e d3a fd3 a3f | "A"e3c A3e Ac3 g3e |\
+[1 "D"f3e d3a fd3 a3f | "A"e3c A3c "Bm"dB3 :|\
+[2 "Bm"d3B "A"cA3 "Bm"B3c d3e | "A"f3A e3c | "Bm"dB3 |]|["Fine"B4 |]

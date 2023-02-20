@@ -1,0 +1,24 @@
+X: 1
+T: Alice's Reverie
+C: J.P.Melmoth, Op.18, 1890
+N: Published by Chas. W. Held, New York, 1890
+R: jig, waltz
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+F: http://lcweb2.loc.gov/diglib/ihas/loc.natlib.ihas.100002458/default.html
+M: 6/8
+L: 1/8
+Q: "Moderato"
+K: F
+c |\
+"F"A2G F2A | c3- c2c | "Bb"d2B f2d | "F"c3- c3A |\
+"F"A2A "e/A7"A2G | "Dm"F3 "G7"E2F | "C7"G2C "c/D7"c2C | "c/Gm"c2C "C7"c2c |
+[1 "F"A2G F2A | c3- c2c | "Bb"d2B f2d | "F"c3- c3c |\
+"G7"=B2f "f/G7"e2d | "e/C"d2c "f/Dm"g2f | "g/C"e2G "G7"d2G | "C"c3- c2 :|
+[2 "F"A2G F2A | c3- c2c | "f#/D7"d2c B2A | "Gm"B3- B3d |\
+"C7"c2E A2G | "Dm"F2A "Bdim"e2d | "c/F"c2C "C7"A2G | "F"F3- "fine"F2z |][K:=B]
+K:C
+"C"G2E c2B | "F"A2F d2c | "G7"B2A G2F | "C"E3- E2G |\
+"C"G2E c2B | "F"A2A "f/Dm"e2d | "f#/D7"c2c B2A | "G"G2G G2G |
+"C"G2E c2B | "F"A2F d2c | "G7"B2A G2F | "C"E3- E2G |\
+"C"G2E c2B | "F"A2A "f/Dm"e2d | "g/C"c2c "G7"BAB | "C"c2c "d.C."c2 |]
+

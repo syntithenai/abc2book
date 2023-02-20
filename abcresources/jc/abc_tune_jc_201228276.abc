@@ -1,0 +1,30 @@
+X: 11161
+T: To dauntin me
+N: The index page has "Dauntin" capitalized.
+%R: air, strathspey
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.16 (and top 4 staffs of p.17)
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: In bar 27, first note in each 4 changed from 16th to 8th note, to fix the measure's rhythm (as in bar 18).
+M: C
+L: 1/16
+%%slurgraces 1
+%%graceslurs 1
+K: Em
+"_Slow"F3A |\
+B4 (E3F) E4 (A3G) | (F3A)(E3F) D4 (d3e) | (f2e2)(d2B2) (dB3)(AF3) | B4 (E3F) E4 :: (TF3E) |\
+D4 (d3e) d6 e2 | f2(ef) (ed)(^cB) A6 d2 |
+B4 (e3f) e6 f2 | {a}g2f2{f}e2d2 B4 (d3e) |\
+f4 {a}g2f2 e4 {g}f2e2 | d3ed2B2 A2B2d2e2 | (f3d)(e3B) (d3A) (BAFA) | B4 E3F E4 :|
+|: (F3A) |\
+B4E4 d6 ^cB | A2(GF) {A}G2(FE) D4 d3e | f2d2e2f2 (D2E2F2)A2 | B4 E3F E4 :: (TF3E) |\
+D4 (F2A2) d6 e2 | f2(3(ed^c) d2B2 A6 (d^c) |
+B2E2G2B2 (e2^d2e2)f2 | (gafg ef)(de) B4 (d3e) |\
+f2(ef g2)f2 (e2de f2)e2 | d2(^cB) d2F2 A4 (d3e) | (fedf) e(dBe) (dBAd BAFA) | B4 E3F E4 :|
+|: F3A |\
+B2 E4 F2 G2(AB) A2G2 | F(d^cB) A(GFE) D4 (d3e) | f2(3(ed^c) d2(3(^cBA)  B2D2E2F2 | B4 E3F E4 :: (TF3E) |\
+D2 F4 A4 d4 f2 |
+a2(gf) ed^cBA6 (GF) | E2 G4 B4 e2 B2f2 | (gafg) (efd)e B4 (d3e) |\
+f2 a4 (gf) (ef) g4 (fe) | d2ef (ed)(^cB) A2B2d2e2 |
+(fe)d2 (ed)B2 (dB)A2 (BAFA) | B4 E3F E4 ::\
+[M:6/8][L:1/8] "_Jig" F | B2E E2F | (AF)E D2(d/e/) | (fe)d (DE)F | (BA)F E2 |]
+F | D2d d2e | (fe)d (BA)F | E2e E2g | (fe)d B2(d/e/) | f3 Te3 | d2B (AB)d | (FE)D (EF)A | (BA)F E2 :|

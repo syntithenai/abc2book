@@ -1,0 +1,14 @@
+X:941
+T:Nancy Dawson
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 94
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+D2|G>AG>B d>BG>B|A>GA>B A>GF>D|G>AG>B d>BG>B|A>GF>E D2D2|
+G>AG>B d>BG>B|A>GA>B A>GF>D|G>AG>B d>BG>B|A>GF>E D2D2|
+A>^GA>B A>=GF>D|d>cc>e d>=cB>G|=c>Bc>d e>fg>e|d>=cB>A G2D2|
+A>^GA>B A>=GF>D|d>cd>e d>=cB>G|=c>Bc>d e>fg>e|d>=cB>A G2||

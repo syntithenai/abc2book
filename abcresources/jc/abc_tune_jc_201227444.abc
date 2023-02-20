@@ -1,0 +1,31 @@
+X: 107
+T: Carolan's Devotion
+%R: air, march
+B: "The Hibernian Muse" p.68
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: Some 16-note flags are barely visible or missing; assumed when the adjacent note has a clear dot.
+P: No. CVII.
+M: C
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+d3e f2e<d | d3e c2B<A | c3A G2F<E | TD3C C4 | D3E F2F<G | A3F G2B<A | d3A {G}F2E<D | D3E D4 :|\
+|:\
+D2C2 {C}A,2B,2 | C2(C<D) C<B, A,<G, |
+A,4 D2D2 | D3E DC B,C | A,4 F2F2 | F3G FE DE | C2c2 c2(d<c) |\
+d3e f2e<d | d3e f2A2 | A2{B}A>G F<GA<B | c2E2 E2FE | DEFG A2D2 |
+D>E {D}CB,A,2A,B, | B,2 {A,}A,4 z2 | A3Bc2c<e |\
+c3e d2d2 | (d<c)(cB) AGED | C6 z2 | D3E F2F<G | A3F G2B<A | d3A {G}F2E<D | D3E D4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d2a2 d'2d2 | f2g2 a2A2 | e2f2 e2d<c | g2G2 c4 | z4 d3e | f2d2 e2f2 | g2f2 a2A2 |
+d2A2 D4 :|\
+|:\
+d2e2 f2g2 | a2f2 g2e2 | f2F2 d2e2 | f2g2 e2c2 | f2F2 f2g2 | a2b2 f2g2 | c2c2 e2c2 |
+z4 d3e | f3e d2z2 | f2c2 c2c2 | c2d2 e2c2 | d3e f2d2 | B2d2 c2C2 | F2f2 F4 | f2g2 a2g2 |
+f2e2 f2d2 | e2c2 g2G2 | c2G2 C4 | z4 d3e | f2d2 e2f2 | g2f2 a2A2 | d2A2 D4 |]

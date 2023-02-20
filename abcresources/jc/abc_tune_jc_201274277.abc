@@ -1,0 +1,22 @@
+X: 1
+T: Fairy Dance
+O: Eric Foxley
+R: reel
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+S: https://www.facebook.com/groups/Fiddletuneoftheday/ 2020-7-9
+S: https://www.facebook.com/groups/Fiddletuneoftheday/photos/
+M: 4/4
+L: 1/8
+K: D
+"^A"[|] de \
+|: "D"f2fd    f2fd |     f2fd "A7"cecA \
+|  "D"f2fd "G"gfed | "A7"cABc  "D"defg :|
+"^B"\
+|: "D"a2af "B7"b2ba | "Em"gfge "A7"a2ag \
+|  "D"f2fd  "G"gfed | "A7"cABc  "D"defg :|
+"^A var"\
+[| "D"f^efd    fefd  | "D"f^efd "A7"c=ecA \
+|  "D"f^efd "G"gf=ed | "A7"cBAc  "D"defg |]
+"^B var"\
+[| "D"a^gaf "B7"b^ab=a | "Em"=gfge "A7"a^ga=g \
+|  "D"f2fd   "G"gfed   | "A7"cABc   "D"defg |]

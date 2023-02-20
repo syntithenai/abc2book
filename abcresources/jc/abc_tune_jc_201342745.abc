@@ -1,0 +1,31 @@
+X: 1
+T:Teribus  "CCPB Sep-1995"
+M:C|
+L:1/8
+Q:80
+C:Trad.
+S:March
+K:HP
+|: A|
+{Gdc}d{e}A{Gdc}d3/2e/2|
+{gfg}fa{fg}fd|
+{gf}g3/2f/2{gef}e3/2d/2|  !
+{gcd}ce{gcd}c{e}A|
+{Gdc}d{e}A{Gdc}d3/2e/2|
+{gfg}fa{fg}fd|  !
+{gf}g3/2f/2{gef}ea|
+{fg}fd{gde}d:| |:
+{gf}g|  !
+{ag}a2{GdG}a3/2g/2|
+{fg}fa{fg}fd|
+{gf}g3/2f/2{gef}e3/2d/2|  !
+{gcd}ce{gcd}c{e}A|1
+{ag}a2{GdG}a3/2g/2|
+{fg}fa{fg}fd|  !
+{gf}g3/2f/2{gef}ea|
+{fg}fd{gde}d:|2
+{Gdc}d{e}A{Gdc}d3/2e/2|  !
+{gfg}fa{fg}fd|
+{gf}g3/2f/2{gef}ea|
+{fg}fd{gde}d:|  !
+

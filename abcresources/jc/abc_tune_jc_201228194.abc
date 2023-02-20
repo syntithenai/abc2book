@@ -1,0 +1,26 @@
+X: 11103
+T: GIULLAN NAM BO.--"THE COW BOY."
+O: Gaelic air.
+Q: "Slow with expression."
+%R: air, jig
+N: This is version 1, for ABC software that doesn't understand crescendo/diminuendo symbols.
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.110 #3 (and p.111 #1)
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Eb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+E>FG G3 !p!| c>BG G3 |\
+E>FG G3 | "_>"c2d T"_>"c2B |\
+E>FG G3 | c>BG G3 |\
+G<EF G3 | {d}"_>"e2d T"_>"c2B :|
+|:!p!\
+{G}e2e "^cres."{d}f2f | g2a gcz |\
+{G}e2"_<"e {d}f2f | "_>"g2a "_>"g2f |\
+"cres."{G}e2e {d}f2f | Hb2g gfz !p!|\
+c2B B.Gz | {G}"_>"e2d T"_>"c2B :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

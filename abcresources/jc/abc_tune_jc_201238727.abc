@@ -1,0 +1,26 @@
+X: 31222
+T: COTILLION No. 20. BEETHOVEN SETT tune 2
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.122 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+g>a |\
+ge3-e2  g>a | g2 d4 de | fedc Addc | B2d2d2 g>a |\
+g2 e4 g>a | g2 d4 de | fedc AGEF | G2c2c2 H|]
+ed |\
+.c2.A2.G2.E2 | G3AG2G2 | c3d (fe)(dc) | (e2d2) d2(ed) |\
+.c2.A2.G2.E2 | G3AG2G2 | c3d efdf | e2c2"^D.C."c2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% 4 ladies forward and back,
+%% gentlemen the same,
+%% all balance to partners,
+%% all promenade, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

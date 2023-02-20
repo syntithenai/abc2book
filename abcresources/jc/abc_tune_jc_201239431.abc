@@ -1,0 +1,22 @@
+X: 32821
+T: PRIDE OF THE NORTH QUADRILLE Part 1
+C: By W.C. Paton
+R: jig
+B: K\"ohler's Violin Repository, v.3, 1885 p.282 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gm
+!segno!D |\
+GAG (.B2.c) | AFF (.F2.A) | GAG (.g2.a) | ^fde (.d2.e) |\
+=fgf fed | cdB ABc | {Bc}(.d2.d) (.d2.d) | BGG (.G2.d) |
+(.g2.g) gab | aff (.f2.a) | (.g2.g2) (.g2.g) | ^fde (.d2.e) |\
+=fgf fed | cdB ABc | dcB cBA | GAG G2 ||
+uD "^Coda"|\
+GAG (.B2.c) | AFF (.F2.A) | GAG (.g2.a) | ^fde (.d2.e) |\
+=fgf fed | cdB ABc | "^Divisi""_>"[dD]"_>"[eE]"_>"[dD] "_>"[cC]"_>"[AA,]"_>"[dD] |\
+"^>"[G2G,2]z "^>"[g2B2D2G,2] "_Fine."H|][K:Eb]
+uB |\
+Bee ede | gff (.f2.a) | gfe (g<b)uB | Bcd (.e2.B) |\
+Bee ede | gff (.f2.a) | gfe (g<b)uB | Bcd e2 "^D.C."|]

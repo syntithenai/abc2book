@@ -1,0 +1,21 @@
+X: 1
+T: Bessarabian Hora
+O: Belf Romanian Orchestra 1908-1910
+%D:
+%S: s:3 b:30(10+10+10)
+R: zhok, horra
+S: Fiddle Hell Online 2022-4-10 handout for Beth Bahia Cohen workshop
+Z: transcribed (handwritten) by Beth Bahia Cohen
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: none	% G misheberach, but the source page has no key signature
+|:\
+"Gm"G,3_B, DG | +B,3D GB | D3G +Bd | ^c2_B2 AG | (^c2d2) (3(fed) |\
+(^cB3) (3(BAG) |[1 "Gm"(^cd3) D2 | {^c}d4 D2 :|[2 "Gm"G3_B dB | G4 z2 |]
+|:\
+"Cm"c2c2 (c=B) | c4 (_BA) | "Gm"(_BA) B2B2 | _B4 (AG) | "D"A2 A2 A2 |\
+Jd3D E^F |[1 "Gm"G3A _Bc | (3(d2c2_B2) (3(BAG) :|[2 "Gm"G3_B dB | G4 z2 |]
+|:\
+G3_B (BA) | "Cm"A3c (c_B) | "Gm"_B3d (dc) | "Cm"c3_e (ed) | "Gm"d3c (c_B) |\
+"Gm(or D)"_B2(Ac) (3(BAG) |[1 "Gm"G3_e (d^c) | d4 G2 :|[2 "Gm"G3_B dB | G4 z2 |]

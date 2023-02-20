@@ -1,0 +1,25 @@
+X: 20601
+T: the FOURTH DRAGOON'S MARCH
+%R: march
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.60 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+G2GG G2(Bc) | dBGG G2cd | e<cg2 d<Bg2 | (gf)ag (fe)dc |\
+(Bd)BG (Ac)AF | GBcd efga | bgfg fed^c | d2d>d d2 :|
+|: d2 |\
+a2aa ac'ba | g2gg gbag | fedg fedc | B2AA A2(d/c/B/A/) |\
+G2GG GBcd | e<cg2 d<Bg2 | B<dc<e A<cF<A | G2G>G G2 :|
+|: "^Bugle."(dc) |\
+B4 A4 | G3A/G/ FGAB | (dc)cc (cB)BB | (BA)AA A2D2 |\
+d4 c4 | B4 ABcd | (ec)(cA) (AG)(GF) | A4 G2 :|
+|: g2 |\
+f2a>a f2z2 | g2b>b g2z2 | GBcd efga | g4 {ag}fedc |\
+B4 A4 | d2d>d c4 | B2{d}cA G2F2 | A4 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

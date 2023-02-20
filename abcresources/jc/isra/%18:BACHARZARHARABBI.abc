@@ -1,0 +1,25 @@
+X: 18
+T: Bacharzar Harabbi
+C: Chassidic
+D: Isareli Folk Dance Party
+O: Israel
+M: 2/4
+L: 1/8
+K: Gm
+Q: 1/4=120
+V:1
+%%MIDI program 69 English Horn
+DG/G/GG|G4     |GB/B/BB|B3G   |\
+.c2.B2 |.A2.G2 |[1GBAc |B4    :|[2dddd  |G4    |
+dede   |dedc   |c2G2   |c4    |\
+cdcd   |cdcB   |B2F2   |B4    |
+BcBc   |BcBA   |G2BG   |F3F   |\
+B2c2   |d2e2   |dd/d/dd|G4    |
+V:2
+%%MIDI program 45 Pizzicato Strings
+G,,2z2 |G,,2z2 |z2,B,,2|B,,2z2|
+z2,B,,2|z2,G,,2|[1z4   |B,,4  :|[2D,,2z2|G,,2z2|
+D,,2z2 |z4     |z2,G,,2|C,2z2 |
+C,2z2  |z4     |B,,2z2 |B,,2z2|
+z4     |z4     |G,,2z2 |F,,2z2|
+z4     |D,2z2  |D,,2z2 |G,,4  |

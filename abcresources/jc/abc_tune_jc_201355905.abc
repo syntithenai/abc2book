@@ -1,0 +1,24 @@
+%%scale 0.7
+%%barsperstaff 8
+X: 1
+T:Annie's Song
+C:John Denver
+M:3/4
+L:1/4
+K:C
+%%staves{RH1}
+V:1 clef=treble
+|c|"C"c B A|"F"c3|"G"B3-|"Am"B2 A/2A/2|"F"A B c|"C"G E2-|E3-|E2 G/2G/2
+w:1~You fill up my sen-ses_ like a night in the for-est__ like the
+|G A B|"F"c3|"G"B3-|"Dm"B2 A/2A/2|"F"A B c|"G"B3-|B3-|B z c/2c/2|"C"c B A
+w:moun-tains in spring-time_ like a walk in the rain__ like a storm in the
+|"F"c3|"G"B3-|"Am"B2 A/2A/2|"F"A B c|"C"G E2-|E3-|E z G|G A B|"F"c3
+w:des-ert_ like a sleep-y blue o-cean__ you fill up my sen-
+|"G"B3-|"Dm"B2 A|"G"B c d|"C"c3-|c3-|c z z|c B A|"F"c3|"G"B3-
+w:ses_ come fill me a-gain.__ Come let me love you_
+|"Am"B2 A/2A/2|"F"A B c|G "C"E2-|E3-|E z A/2A/2|G A B|"F"c3|"G"B3-|"Dm"B2 A/2A/2
+w:_let me give my life for you.__ Let me drown in your laugh-ter_ let me
+|"F"F G A|"G"d3-|d3-|d A/2A/2|A G F|"F"A3|"G"d3-|"Am"d2 A/2A/2|"F"A G F
+w:die in your arms.__ Let me lay down be-side you._ Let me al-ways be
+|"C"G E2-|E3-|E2 z| G A B|"F"c3|"G"B3-|"Dm"B2 A|"G"B c3/2 d/2|"C"c3-|c3-|c||
+w:with you.__ Come let me love you._ Come love me a-gain.__

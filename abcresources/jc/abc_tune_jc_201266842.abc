@@ -1,0 +1,36 @@
+X: 1
+T: Daniel Cowper
+P: Longways for as many as will
+%R: march, reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.105 #154 (210)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.169 "Q"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+A2d2 d2B2 | B2e2 e2A2 | A2d2 d2B2 | f4 d4 |][|\
+f3g a2(gf) | g3f e2(dc) | f3g a2(gf) | g4 e4 |\
+f3g a2(gf) | g3f e2(dc) | A2d2 d2(cB) | f4 d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The two Men sett Sides, and the two We. do the like at the same Time,
+%% then both Back to Back with their Partners :| The 1st Man turn the
+%% 2d Wo. with his right Hand, and so fall into their own Places, the
+%% 1st Wo. turn the 2d Man with her right Hand, so fall into their
+%% own Places, and then the 1st Cu. cast off into the 2d Cu. Place.
+%% [CCDM1]
+%%endtext
+%%sep 1 8 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The two men set sides, and the two we. do the like at the same time, then both back to back with their
+%% Partners :| The 1. man turn the 2. wo. with his right-hand, and so fall into their own places; the 1.
+%% wo. turn the 2. man with her right-hand, so fall into their own places, and then 1. cu. cast off into the
+%% 2. cu. place.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

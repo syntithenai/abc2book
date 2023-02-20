@@ -1,0 +1,26 @@
+X:1
+T: The New New Exchange
+N:
+C:aka Adson's Sarabande
+S:
+A:
+O:
+R:
+M:4/4
+K:Dm
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 35 notes)
+K:Dm
+M:4/4
+L:1/16
+a2 g2 f2 e2 f4 c4 |d2 e2 f2 g2 e4 a2 g2 |f2 e2 d4 d6 c2 |d12 A4 |d4 e4 f6 f2 |g4 a4 b6 b2 |a2 g2 f4 e6 d2 |d12 z4 |
+%W: A2
+% voice 1 (1 lines, 35 notes)
+a2 g2 f2 e2 f4 c4 |d2 e2 f2 g2 e4 a2 g2 |f2 e2 d4 d6 c2 |d12 A4 |d4 e4 f6 f2 |g4 a4 b6 b2 |a2 g2 f4 e6 d2 |d12 z4 |
+%W: B1
+% voice 1 (1 lines, 32 notes)
+c4 d2 e2 f6 A2 |B2 c2 d4 c6 c2 |d2 e2 f4 e6 f2 |g12 a4 |b6 a2 g6 f2 |e6 d2 c6 c2 |d2 e2 f4 e6 f2 |f12 z4 |
+%W: B2
+% voice 1 (1 lines, 32 notes)
+c4 d2 e2 f6 A2 |B2 c2 d4 c6 c2 |d2 e2 f4 e6 f2 |g12 a4 |b6 a2 g6 f2 |e6 d2 c6 c2 |d2 e2 f4 e6 f2 |f12 z4 ||

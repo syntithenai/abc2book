@@ -1,0 +1,41 @@
+%%scale 0.60
+X: 1
+T: the Royal Scots Polka
+C:
+R: polka
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: page from Concord Slow Scottish Session collection
+N: "L.P." at bottom right of tune
+M: 2/4
+L: 1/16
+K: D
+|: f>e "A"|\
+"D"d2A2 B2A2 | d2A>d f4 |\
+"A7"e2g>e c2e>c | A>ce>f g2f>e |\
+"D"d2A2 B2A2 | d2A>d f4 |
+"G"g2e>c "A7"A>ce>g | "D"f2d2d2 :|\
+   f>g "B"|\
+"D"a3g f2d2 | A2d>f a2e>f |\
+"A7"g3e c2e>c | A>ce>f g2f>g |
+"D"a3g f2d2 | A2d>f a2e>f |\
+"G"g2e>c "A7"A>ce>g | "D"f2d2d2 ||\
+f>g |\
+"D"a3g f2d2 | A2d>f a2e>f |
+"A7"g3e c2e>c | A>ce>f g2f>g |\
+"D"a>gg>f f>ee>d | d>cc>A a2e>f |\
+"G"g2e>c "A7"A>ce>g | "D"f2d2d2 |]
+|: A2 "C" |\
+"D"d2c>d B2A2 | d2A>d f4 |\
+"A7"e2g>e c2e>c | A>ce>f g2f>e |\
+"D"d2c>d B2A2 | d2A>d f2e>f |
+"G"g2e>c "A7"A>ce>g | "D"f2d2d2 :|\
+   f>g "D"|\
+"D"a>ga>g f2d2 | f>ga>g f2e>f |\
+"Em"g>fg>e c2e>c | "A7"A>ce>f g2f>g |
+"D"a>ga>g f2d2 | f>ga>g f2e>f |\
+"G"g2e>c "A7"A>ce>g | "D"f2d2d2 ||\
+f>g |\
+"D"a>ga>g f2d2 | f>ga>g f2e>f |
+"Em"g>fg>e c2e>c | "A7"A>ce>f g2f>e |\
+"D"e>dd>c c>BB>A | "D"d2A>d f2e>f |\
+"G"g2e>c "A7"A>ce>g | "D"f2d2d2 |]

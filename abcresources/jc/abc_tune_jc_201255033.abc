@@ -1,0 +1,685 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 30
+B: RSCDS Book 30
+K:
+%%center Book30/3000-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3001
+T: Collichur
+P: Lochleven Side
+C:John Bowie Coll.
+R:Jig (8x32)
+B:RSCDS 30-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:A
+|: A |\
+"A"A3 "E7"B>AB | "A7"c>BA "D"d2 f |\
+"A"e>dc "E"BAB | "A"cAE "E"E2A |\
+"A"A3 "E"B>AB | "A7"c>BA "D"d2 f |
+"A"e>dc "E"B>AB | "A"cAA A2 :|\
+f/g/ |\
+"A"a>gf e>dc | c>de "D"f2 a/f/ |\
+"A"e>dc "E7"B>AB | "A"cAE E2 f/g/ |
+"A"a>gf e>dc | "A7"c>de "D"f2 a/f/ |\
+"A"e>dc "E"B>AB | "A"cAA A2 |[| f/g/ |\
+"A"a>fb a2 g | "D"f>de f2 a/f/ |
+"A"e>dc "E"B>AB | "A"cAE "E7"E2 c/B/ |\
+"A"A>EA "E"B>AB | "A7"c>BA "D"d2f |\
+"A"e>dc "E7"B>AB | "A"cAA A2 |]
+%%center Book30/3001-Collichur-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3002
+T: Hame Came Our Gudeman
+P: Hame Came Our Gudeman
+C:Old Scotch
+R:Strathspey (8x32)
+B:RSCDS 30-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+d|"D"A>FAf "G"edBd|"D"A>F"A"AB "G"d>edB|\
+  "D"AFAf "Em"g/f/e/d/ "A"d/c/B/A/|"D"A>F"A7"AB "D"d>edd|
+  "D"A>FAf "G"edBd|"D"A>F"A"AB "G"d>edB|\
+  "D"AFAf "Em"g/f/e/d/ "A"d/c/B/A/|"D"A>F"A7"AB "D"d>ed||
+a|"D"f>edf "Em"e>d"A"Ba|"D"f>edf a>b"A7"ag|\
+  "D7"f2a2 "G"b/a/g/f/ "Em"g/f/e/d/ "A7"d/c/B/A/|"D"A>F"A7"AB "D"d>eda|
+  "D"f>edf "Em"e>d"A"Ba|"D"f>edf a>b"A7"ag|\
+  "D7"f2a2 "G"b/a/g/f/ "Em"g/f/e/d/ "A7"d/c/B/A/|"D"A>F"A7"AB "D"d>ed|]
+%%center Book30/3002-Hame_Came_Our_Gudeman-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3003
+T: Hame Came Our Gudeman
+P: Hame Came Our Gudeman
+C:Old Scotch
+R:Strathspey (8x32)
+B:RSCDS 30-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+d|"D"A>FAf "G"edBd|"D"A>F"A"AB "G"d>edB|\
+  "D"AFAf "Em"g/f/e/d/ "A"d/c/B/A/|"D"A>F"A7"AB "D"d>edd|
+  "D"A>FAf "G"edBd|"D"A>F"A"AB "G"d>edB|\
+  "D"AFAf "Em"g/f/e/d/ "A"d/c/B/A/|"D"A>F"A7"AB "D"d>ed||
+a|"D"f>edf "Em"e>d"A"Ba|"D"f>edf a>b"A7"ag|\
+  "D7"f2a2 "G"b/a/g/f/ "Em"g/f/e/d/ "A7"d/c/B/A/|"D"A>F"A7"AB "D"d>eda|
+  "D"f>edf "Em"e>d"A"Ba|"D"f>edf a>b"A7"ag|\
+  "D7"f2a2 "G"b/a/g/f/ "Em"g/f/e/d/ "A7"d/c/B/A/|"D"A>F"A7"AB "D"d>ed|]
+%%center Book30/3002-Hame_Came_Our_Gudeman_AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3004
+T: The Highland Lass
+P: The Fairy Hillock
+C:Pipe Tune
+R:Reel (8x32)
+B:RSCDS 30-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:Am
+ed|"Am"c2A2 ABcB|ABce a2e2|"G"B2G2 GABA|GABc d2 "E7"ed|
+   "Am"c2A2 ABcB|ABce a2e2|"G"B2G2 "E7"eaed|"Am"c2A2 A2 z||
+B|"Am"Aa^ga Aaga|Aa^ga e2 "D7"dc|"G"Bgdg Bgdg|BGBc d2 "E7"cB|
+  "Am"Aa^ga Aaga|Aa^ga e2 "D7"dc|"G"Bgdg "E7"eaed|"Am"c2A2A2|]
+%%center Book30/3003-Highland_Lass-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3005
+T: The Highland Lass
+P: The Fairy Hillock
+C:Pipe Tune
+R:Reel (8x32)
+B:RSCDS 30-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:Am
+ed|"Am"c2A2 ABcB|ABce a2e2|"G"B2G2 GABA|GABc d2 "E7"ed|
+   "Am"c2A2 ABcB|ABce a2e2|"G"B2G2 "E7"eaed|"Am"c2A2 A2 z||
+B|"Am"Aa^ga Aaga|Aa^ga e2 "D7"dc|"G"Bgdg Bgdg|BGBc d2 "E7"cB|
+  "Am"Aa^ga Aaga|Aa^ga e2 "D7"dc|"G"Bgdg "E7"eaed|"Am"c2A2A2|]
+%%center Book30/3003-Highland_Lass_AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3006
+T: The Bawk
+P: The Squirrel
+C:Jas. Fraser. Lowe's Coll.
+R:Jig (8x32)
+B:RSCDS 30-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:A
+|:g|"A"a3 A2B|ced cBA|"F#m"a2 "A"A2B|"Bm"FBA "E"GFE|\
+    "A"a3 A2B|ced "A7"cBA|
+                         "Bm"FGA "E7"Bcd|"A"cAA A2:|\
+e|"A"cAc ece|"D"fga "A"ecA|cAc ecA|"E"GAB Bcd|
+  "A"cAc "A7"ece|"D"fga "A"ecA|"Bm"FGA "E7"Bcd|"A"cAA A2 e|\
+  "A"cAc ece|"D"fga "A"ecA|
+                           cAc ecA|"E"GAB Bcd|\
+  "A"cAc "A7"ecA|"D"def "B7"fga|"E"gbg "E7"efg|"A"aec A2|]
+%%center Book30/3004-Bawk-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3007
+T: The Bawk
+P: The Squirrel
+C:Jas. Fraser. Lowe's Coll.
+R:Jig (8x32)
+B:RSCDS 30-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:A
+|:g|"A"a3 A2B|ced cBA|"F#m"a2 "A"A2B|"Bm"FBA "E"GFE|\
+    "A"a3 A2B|ced "A7"cBA|
+                         "Bm"FGA "E7"Bcd|"A"cAA A2:|\
+e|"A"cAc ece|"D"fga "A"ecA|cAc ecA|"E"GAB Bcd|
+  "A"cAc "A7"ece|"D"fga "A"ecA|"Bm"FGA "E7"Bcd|"A"cAA A2 e|\
+  "A"cAc ece|"D"fga "A"ecA|
+                           cAc ecA|"E"GAB Bcd|\
+  "A"cAc "A7"ecA|"D"def "B7"fga|"E"gbg "E7"efg|"A"aec A2|]
+%%center Book30/3004-Bawk_AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3008
+T: A Man's A Man For A' That
+P: A Man's A Man For A' That
+C:Scotch
+R:Strathspey (8x32)
+B:RSCDS 30-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+A/B/|"D"d>edA "G"B>d"A7"eg|"D"fedA "G"B2 "Em"B"A7"f/e/|\
+  "D"d>edA "G"Bd"A7"e>g|"D"f>e"G"dB "A"A2 "A7"A A/B/|
+  "D"d>edA "G"B>d"A7"eg|"D"fedA "G"B2 "Em"B"A7"f/e/|\
+  "D"d>edA "G"Bd"A7"e>g|"D"f>e"G"dB "A"A2 A||
+g|"D"f>gaf "A7"g>f e>g|"D7"f>gad "G"B2 Bg|\
+  "D"f>g "D7"af/a/ "G"be"A"e>f|"Bm"d>e "G"e/d/c/B/ "D"A2 A g|
+  "D"f>gaf "A7"g>f e>g|"D7"f>gad "G"B2 Bg|\
+  "D"f>g "D7"af/a/ "G"be"A"e>f|"Bm"d>e "G"e/d/c/B/ "D"A2 A|]
+%%center Book30/3005-Mans_A_Man_For_A_That-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3009
+T: A Man's A Man For A' That
+P: A Man's A Man For A' That
+C:Scotch
+R:Strathspey (8x32)
+B:RSCDS 30-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+A/B/|"D"d>edA "G"B>d"A7"eg|"D"fedA "G"B2 "Em"B"A7"f/e/|\
+  "D"d>edA "G"Bd"A7"e>g|"D"f>e"G"dB "A"A2 "A7"A A/B/|
+  "D"d>edA "G"B>d"A7"eg|"D"fedA "G"B2 "Em"B"A7"f/e/|\
+  "D"d>edA "G"Bd"A7"e>g|"D"f>e"G"dB "A"A2 A||
+g|"D"f>gaf "A7"g>f e>g|"D7"f>gad "G"B2 Bg|\
+  "D"f>g "D7"af/a/ "G"be"A"e>f|"Bm"d>e "G"e/d/c/B/ "D"A2 A g|
+  "D"f>gaf "A7"g>f e>g|"D7"f>gad "G"B2 Bg|\
+  "D"f>g "D7"af/a/ "G"be"A"e>f|"Bm"d>e "G"e/d/c/B/ "D"A2 A|]
+%%center Book30/3005-Mans_A_Man_For_A_That_AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3010
+T: The Guidman of Balangigh
+P: The Guidman of Balangigh
+C:Trad. (Playford), adapted by Muriel A. Johnstone
+R:Jig (8x32)
+B:RSCDS 30-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:F
+F|"F"A2 c f2 g|"C"e>dc "F"[f2A2] e|"Bb"d>c"F"A cAF|"Gm"[GD]AG "C9"[d2B2E2]f|
+  "F"F>GA f2 g|"C"e>dc "Dm"[f2F2]e|"Bb"[dF]cA "F"[cF]>A"A7"[GE]|\
+                 "Dm"[A3F3] [d2A2F2]||
+f|"F"f>ga g2 f|"C"edc "Dm"f2 "Bb"d|"F"cfc "Dm"AGF|"Gm"[G3D3] "C7"[B2E2]c|
+  "Dm"f>ga "C"gec|"Bb"f2 e "F"dcA|"Am"c>AG "Bb"F>G"Bbm"F|"F"A3 [f2c2A2F2]|]
+%%center Book30/3006-Guidman_of_Balangigh-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3011
+T: The Guidman of Balangigh
+P: The Guidman of Balangigh
+C:Trad. (Playford), adapted by Muriel A. Johnstone
+R:Jig (8x32)
+B:RSCDS 30-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:F
+F|"F"A2 c f2 g|"C"e>dc "F"[f2A2] e|"Bb"d>c"F"A cAF|"Gm"[GD]AG "C9"[d2B2E2]f|
+  "F"F>GA f2 g|"C"e>dc "Dm"[f2F2]e|"Bb"[dF]cA "F"[cF]>A"A7"[GE]|\
+                 "Dm"[A3F3] [d2A2F2]||
+f|"F"f>ga g2 f|"C"edc "Dm"f2 "Bb"d|"F"cfc "Dm"AGF|"Gm"[G3D3] "C7"[B2E2]c|
+  "Dm"f>ga "C"gec|"Bb"f2 e "F"dcA|"Am"c>AG "Bb"F>G"Bbm"F|"F"A3 [f2c2A2F2]|]
+%%center Book30/3006-Guidman_of_Balangigh_AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3012
+T: The Cadies Lady
+P: Duke of Kent
+C:A. Ogilvie Grey Album
+R:Reel (8x32)
+B:RSCDS 30-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:C
+"C"C2EC cCEC|"Dm"FEDF "G"FDdD|"C"EDCD EF"C#o"GE|"Dm"FD"G"GE "C"C2C2|
+"C"C2EC cCEC|"Dm"FEDF "G"FDdD|"C"EDCD EF"C#o"GE|"Dm"FD"G"GE "C"C2C2||
+"C"e2dc e2dc|"Dm"dcBc "G7"defd|"C"e2dc "F"Ac"C"Gc|"G7"edcB "C"c2c2|
+"C"e2dc e2dc|"Dm"dcBc "G7"defd|"C"ec"G"dB "Am"cA"G"BG|"F"AF"C"GE "Dm"FE"G"DE|]
+%%center Book30/3007-Cadies_Lady-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3013
+T: The Cadies Lady
+P: Duke of Kent
+C:A. Ogilvie Grey Album
+R:Reel (8x32)
+B:RSCDS 30-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:C
+"C"C2EC cCEC|"Dm"FEDF "G"FDdD|"C"EDCD EF"C#o"GE|"Dm"FD"G"GE "C"C2C2|
+"C"C2EC cCEC|"Dm"FEDF "G"FDdD|"C"EDCD EF"C#o"GE|"Dm"FD"G"GE "C"C2C2||
+"C"e2dc e2dc|"Dm"dcBc "G7"defd|"C"e2dc "F"Ac"C"Gc|"G7"edcB "C"c2c2|
+"C"e2dc e2dc|"Dm"dcBc "G7"defd|"C"ec"G"dB "Am"cA"G"BG|"F"AF"C"GE "Dm"FE"G"DE|]
+%%center Book30/3007-Cadies_Lady_2-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3014
+T: The Cadies Lady
+P: Duke of Kent
+C:A. Ogilvie Grey Album
+R:Reel (8x32)
+B:RSCDS 30-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:C
+"C"C2EC cCEC|"Dm"FEDF "G"FDdD|"C"EDCD EF"C#o"GE|"Dm"FD"G"GE "C"C2C2|
+"C"C2EC cCEC|"Dm"FEDF "G"FDdD|"C"EDCD EF"C#o"GE|"Dm"FD"G"GE "C"C2C2||
+"C"e2dc e2dc|"Dm"dcBc "G7"defd|"C"e2dc "F"Ac"C"Gc|"G7"edcB "C"c2c2|
+"C"e2dc e2dc|"Dm"dcBc "G7"defd|"C"ec"G"dB "Am"cA"G"BG|"F"AF"C"GE "Dm"FE"G"DE|]
+%%center Book30/3007-Cadies_Lady_2_AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3015
+T: The Cadies Lady
+P: Duke of Kent
+C:A. Ogilvie Grey Album
+R:Reel (8x32)
+B:RSCDS 30-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:C
+"C"C2EC cCEC|"Dm"FEDF "G"FDdD|"C"EDCD EF"C#o"GE|"Dm"FD"G"GE "C"C2C2|
+"C"C2EC cCEC|"Dm"FEDF "G"FDdD|"C"EDCD EF"C#o"GE|"Dm"FD"G"GE "C"C2C2||
+"C"e2dc e2dc|"Dm"dcBc "G7"defd|"C"e2dc "F"Ac"C"Gc|"G7"edcB "C"c2c2|
+"C"e2dc e2dc|"Dm"dcBc "G7"defd|"C"ec"G"dB "Am"cA"G"BG|"F"AF"C"GE "Dm"FE"G"DE|]
+%%center Book30/3007-Cadies_Lady_AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3016
+T: Short and Sweet
+P: Miss Williams Fancy
+C:William Campbell's 23rd Book
+R:Jig (8x32)
+B:RSCDS 30-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:F
+|:"F"cAF FGF|"Bb"f3 d3|"F"cAF "Dm"FG"G7"F|"C"EGG "C7"G2 A|
+  "F"cAF "F7"FGF|"Bb"[f3B3F3] [d3B3F3]|"F"c>dc "C7"BAG|"F"AF"Bb"F "F"F3:|
+|:"F"c3 cfa|"Bb"B3 Bdf|"F"A3 "D7"ABc|"Gm"BGG "C7"G2 A|
+  "F"F3 "F7"FAc|"Bb"def "G7"fed|"F"c>dc "C7"BAG|"F"AF"Bb"F "F"F3:|
+%%center Book30/3008-Short_and_Sweet-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3017
+T: Short and Sweet
+P: Miss Williams Fancy
+C:William Campbell's 23rd Book
+R:Jig (8x32)
+B:RSCDS 30-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:F
+|:"F"cAF FGF|"Bb"f3 d3|"F"cAF "Dm"FG"G7"F|"C"EGG "C7"G2 A|
+  "F"cAF "F7"FGF|"Bb"[f3B3F3] [d3B3F3]|"F"c>dc "C7"BAG|"F"AF"Bb"F "F"F3:|
+|:"F"c3 cfa|"Bb"B3 Bdf|"F"A3 "D7"ABc|"Gm"BGG "C7"G2 A|
+  "F"F3 "F7"FAc|"Bb"def "G7"fed|"F"c>dc "C7"BAG|"F"AF"Bb"F "F"F3:|
+%%center Book30/3008-Short_and_Sweet_AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3018
+T: Lochleven Side
+B: RSCDS 30-1
+P: Lochleven Side
+C: attrib. John Bowie
+N: Arr. T. Traub 6-29-2011
+M: 6/8
+R: jig
+K: A
+|: E|"A"A3 "E"BAB|"A"cBA "D"d2 f|"A"edc "E"BAB|"A"cAE "E"E2 E|"A"A3 "E"BAB|"A"cBA "D"d2 f|"A"edc "E"BAB|"A"cAA A2 :|
+f/g/|"A"agf edc|"A"cde "D"f2 a|"A"edc "E"BAB|"A"cAE "E"E2 f/g/|"A"agf edc|"A"cde "D"f2 a|"A"edc "E"BAB |"A"cAA A2 f/g/||
+"A"afb a2 g|"D"fde f2 a|"A"edc "E"BAB|"A"cAE "E"E2 c/B/|"A"AEA "E"BAB|"A"cBA "D"d2 f|"A"edc "E"BAB|"A"cAA A2 |]
+%%center Book30/30011-Lochleven_Side-TT.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 30051
+T: A Man's a Man for A' That
+B: RSCDS 30-5
+R: strathspey
+M: C
+L: 1/4
+%--------------------
+K: D
+"A7"A/B/ \
+| "D"d>e dA | "G"B>d "A7"eg | "D"fe dA | "G"B2 B"A7"f/e/ \
+| "D"d>e dA | "G"B>d "A7"eg | "D"f>e "G"dB | "A7"A2 A |]
+g \
+| "D"f>g af | "A7"g>f e>g | "D7"f>g ad | "G"B2 B"(A7)"g \
+| "D"f>g af/a/ | "Em"be "A"e>f | "Bm"d>e "G"e/d/c/B/ | "D"A2 "(A7)"A |]
+%%center Book30/30051-Mans_a_Man_for_A_That-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 30052
+T: A Man's a Man for A' That
+B: RSCDS 30-5
+R: strathspey
+M: C
+L: 1/4
+%--------------------
+K: D
+"A7"A/B/ \
+| "D"d>e dA | "G"B>d "A7"eg | "D"fe dA | "G"B2 B"A7"f/e/ |
+| "D"d>e dA | "G"B>d "A7"eg | "D"f>e "G"dB | "A7"A2 A |]
+g \
+| "D"f>g af | "A7"g>f e>g | "D7"f>g ad | "G"B2 B"(A7)"g |
+| "D"f>g af/a/ | "Em"be "A"e>f | "Bm"d>e "G"e/d/c/B/ | "D"A2 |]
+%%center Book30/30051-Mans_a_Man_for_A_That-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 30071
+T: Duke of Kent
+S: A Ogilvie Grey Album
+N: Dance from Alexander Bowman Manuscript, Laing Collection
+B: RSCDS 30-7
+O: RSCDS 30-7
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: C
+"A"\
+|: "C"C2EC cCEC | "Dm"FEDE "G7"FDdD | "C"EDCD "A7"EFGE | "Dm"FD"G"GE "C"C2"fine"C2 :|
+"B"\
+[| "C"e2dc "Am"e2dc | "Dm"dcBc "G7"defd | "C"e2dc "F"Ac"C"Gc | "G7"edcB "C"c2c2 |
+ | "C"e2dc "Am"e2dc | "Dm"dcBc "G7"defd | "C"ec"G"dB "Am"cA"G"BG | "F"AF"C"GE "Dm"FE"G7"DE |]
+%%center Book30/30071-Duke_of_Kent-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 30072
+T: Duke of Kent
+S: A Ogilvie Grey Album
+N: Dance from Alexander Bowman Manuscript, Laing Collection
+B: RSCDS 30-7
+O: RSCDS 30-7
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: C
+"A"\
+|: "C"C2EC cCEC | "Dm"FEDE "G7"FDdD \
+| "C"EDCD "A7"EFGE | "Dm"FD"G"GE "C"C2"fine"C2 :|
+"B"\
+|: "C"e2dc "Am"e2dc | "Dm"dcBc "G7"defd \
+|1 "C"e2dc "F"Ac"C"Gc | "G7"edcB "C"c2c2 \
+:|2 "C"ec"G"dB "Am"cA"G"BG | "F"AF"C"GE "Dm"FE"G7"DE |]
+%%center Book30/30071-Duke_of_Kent-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 30073
+T: Duke of Kent
+S: A Ogilvie Grey Album
+N: Dance from Alexander Bowman Manuscript, Laing Collection
+B: RSCDS 30-7
+O: RSCDS 30-7
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: C
+|: "C"C2EC cCEC | "Dm"FEDE "G7"FDdD | "C"EDCD EF"A7/C#"GE | "Dm"FD"G"GE "C"C2C2 |
+|  "C"C2EC cCEC | "Dm"FEDE "G7"FDdD | "C"EDCD EF"A7/C#"GE | "Dm"FD"G"GE "C"C2C2 ||
+[| "C"e2dc e2dc | "Dm"dcBc "G7"defd | "C"e2dc "F"Ac"C"Gc | "G7"edcB "C"c2c2 |
+|  "C"e2dc e2dc | "Dm"dcBc "G7"defd | "C"ec"G"dB "Am"cA"G"BG | "F"AF"C"GE "Dm"FE"C"DE :|
+[| "C"C2EC cCEC | "Dm"FEDE "G7"FDdD | "C"EDCD EF"A7/C#"GE | "Dm"FD"G"GE "C"C2C2 |
+|  "C"C2EC cCEC | "Dm"FEDE "G7"FDdD | "C"EDCD EF"A7/C#"GE | "Dm"FD"G"GE "C"C2C2 |]
+%%center Book30/30071-Duke_of_Kent-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 30074
+T: Duke of Kent
+S: A Ogilvie Grey Album
+N: Dance from Alexander Bowman Manuscript, Laing Collection
+B: RSCDS 30-7
+O: RSCDS 30-7
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+"A"\
+|: "C"C2EC cCEC | "Dm"FEDE "G7"FDdD \
+| "C"EDCD "A7"EFGE | "Dm"FD"G"GE "C"C2"fine"C2 :|
+"B"\
+|: "C"e2dc "Am"e2dc | "Dm"dcBc "G7"defd \
+|1 "C"e2dc "F"Ac"C"Gc | "G7"edcB "C"c2c2 \
+:|2 "C"ec"G"dB "Am"cA"G"BG | "F"AF"C"GE "Dm"FE"G7"DE |]
+%%center Book30/DukeOfKent_C2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 30075
+T: Duke of Kent
+S: A Ogilvie Grey Album
+N: Dance from Alexander Bowman Manuscript, Laing Collection
+B: RSCDS 30-7
+O: RSCDS 30-7
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+"A"\
+|: "C"C2EC cCEC | "Dm"FEDE "G7"FDdD \
+| "C"EDCD "A7"EFGE | "Dm"FD"G"GE "C"C2"fine"C2 :|
+"B"\
+|: "C"e2dc "Am"e2dc | "Dm"dcBc "G7"defd \
+|1 "C"e2dc "F"Ac"C"Gc | "G7"edcB "C"c2c2 \
+:|2 "C"ec"G"dB "Am"cA"G"BG | "F"AF"C"GE "Dm"FE"G7"DE |]
+%%center Book30/DukeOfKent_C2_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 30076
+T: Duke of Kent
+S: A Ogilvie Grey Album
+N: Dance from Alexander Bowman Manuscript, Laing Collection
+B: RSCDS 30-7
+O: RSCDS 30-7
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+|: "C"C2EC cCEC | "Dm"FEDE "G7"FDdD | "C"EDCD EF"A7/C#"GE | "Dm"FD"G"GE "C"C2C2 |
+|  "C"C2EC cCEC | "Dm"FEDE "G7"FDdD | "C"EDCD EF"A7/C#"GE | "Dm"FD"G"GE "C"C2C2 ||
+[| "C"e2dc e2dc | "Dm"dcBc "G7"defd | "C"e2dc "F"Ac"C"Gc | "G7"edcB "C"c2c2 |
+|  "C"e2dc e2dc | "Dm"dcBc "G7"defd | "C"ec"G"dB "Am"cA"G"BG | "F"AF"C"GE "Dm"FE"C"DE :|
+[| "C"C2EC cCEC | "Dm"FEDE "G7"FDdD | "C"EDCD EF"A7/C#"GE | "Dm"FD"G"GE "C"C2C2 |
+|  "C"C2EC cCEC | "Dm"FEDE "G7"FDdD | "C"EDCD EF"A7/C#"GE | "Dm"FD"G"GE "C"C2C2 |]
+%%center Book30/DukeOfKent_C6-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 30077
+T: Duke of Kent
+S: A Ogilvie Grey Album
+N: Dance from Alexander Bowman Manuscript, Laing Collection
+B: RSCDS 30-7
+O: RSCDS 30-7
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+|: "C"C2EC cCEC | "Dm"FEDE "G7"FDdD | "C"EDCD EF"A7/C#"GE | "Dm"FD"G"GE "C"C2C2 |
+|  "C"C2EC cCEC | "Dm"FEDE "G7"FDdD | "C"EDCD EF"A7/C#"GE | "Dm"FD"G"GE "C"C2C2 ||
+[| "C"e2dc e2dc | "Dm"dcBc "G7"defd | "C"e2dc "F"Ac"C"Gc | "G7"edcB "C"c2c2 |
+|  "C"e2dc e2dc | "Dm"dcBc "G7"defd | "C"ec"G"dB "Am"cA"G"BG | "F"AF"C"GE "Dm"FE"C"DE :|
+[| "C"C2EC cCEC | "Dm"FEDE "G7"FDdD | "C"EDCD EF"A7/C#"GE | "Dm"FD"G"GE "C"C2C2 |
+|  "C"C2EC cCEC | "Dm"FEDE "G7"FDdD | "C"EDCD EF"A7/C#"GE | "Dm"FD"G"GE "C"C2C2 |]
+%%center Book30/DukeOfKent_C6_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 30078
+T: The Guidman of Balangigh
+R: jig
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+B: RSCDS "Originally Ours"
+M: 6/8
+L: 1/8
+%--------------------
+K: F
+F \
+| "F"A2c f2g | "C7"e>dc "F"f2e | "Bb"d>cA "F"cAF | "Gm"GAG "C7"d2f \
+| "F"F>GA f2g | "C7"e>dc "Dm"f2e | "Bb"dcA "F"c>A"A7"G | "Dm"A3 d2 :|
+|: f \
+| "F"f>ga g2f | "C7"edc "Dm(Bb)"f2d | "F"cfc "Dm"AGF | "Gm"G3 "C7"B2c \
+| "Dm"f>ga "C"gec | "Bb"f2e "F"dcA | "Am"c>AG "Bb(m)"F>GF | "F"A3 f2 :|
+%%center Book30/Guidman_of_Balangigh-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 30079
+T: Hame Came Our Gude Man
+R: strathspey
+B: RSCDS 30-__
+B: Athole
+B: Gow
+B: Skye
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+B2 \
+| "D"A3F A3f "G"e3d Bd3 | "D"A3F A3B "G"d3e d3B \
+| "D"A3F A3f "Em"gfed "A"dcBA | "D"A3F "A7"A3B "D"d3e d2y :|
+|: a2 \
+| "D"f3e d3f "Em"e3d "A7"Ba3 | "D"f3e d3f a3b "A7"a2g2 \
+| "D7"f3a "Bm"bagf "Em"gfed "A7"dcBA | "D"A3F "A7"A3B "D"d3e d2y :|
+%%center Book30/HameCameOurGudeMan_D-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 30080
+T: Hame Came Our Gude Man
+R: strathspey
+B: RSCDS 30-__
+B: Athole
+B: Gow
+B: Skye
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+B2 \
+| "D"A3F A3f "G"e3d Bd3 | "D"A3F A3B "G"d3e d3B \
+| "D"A3F A3f "Em"gfed "A"dcBA | "D"A3F "A7"A3B "D"d3e d2y :|
+|: a2 \
+| "D"f3e d3f "Em"e3d "A7"Ba3 | "D"f3e d3f a3b "A7"a2g2 \
+| "D7"f3a "Bm"bagf "Em"gfed "A7"dcBA | "D"A3F "A7"A3B "D"d3e d2y :|
+%%center Book30/HameCameOurGudeMan_D_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 30081
+T: A Man's a Man for A' That
+B: RSCDS 30-5
+R: strathspey
+M: C
+L: 1/4
+K: D
+"A7"A/B/ \
+| "D"d>e dA | "G"B>d "A7"eg | "D"fe dA | "G"B2 B"A7"f/e/ \
+| "D"d>e dA | "G"B>d "A7"eg | "D"f>e "G"dB | "A7"A2 A |]
+g \
+| "D"f>g af | "A7"g>f e>g | "D7"f>g ad | "G"B2 B"(A7)"g \
+| "D"f>g af/a/ | "Em"be "A"e>f | "Bm"d>e "G"e/d/c/B/ | "D"A2 "(A7)"A |]
+%%center Book30/MansAManForAThat_D.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 30082
+T: A Man's a Man for A' That
+B: RSCDS 30-5
+R: strathspey
+M: C
+L: 1/4
+K: D
+"A7"A/B/ \
+| "D"d>e dA | "G"B>d "A7"eg | "D"fe dA | "G"B2 B"A7"f/e/ |
+| "D"d>e dA | "G"B>d "A7"eg | "D"f>e "G"dB | "A7"A2 A |]
+g \
+| "D"f>g af | "A7"g>f e>g | "D7"f>g ad | "G"B2 B"(A7)"g |
+| "D"f>g af/a/ | "Em"be "A"e>f | "Bm"d>e "G"e/d/c/B/ | "D"A2 |]
+%%center Book30/MansAManForAThat_D_4.abc

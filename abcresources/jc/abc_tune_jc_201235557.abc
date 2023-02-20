@@ -1,0 +1,22 @@
+X: 2121
+T: Coln.l Robertson of Strewan's welcome home
+%R: jig, air
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.12 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slow"
+K: Em
+% - - - - - - - - - -
+V: 1 staves=2
+B, |\
+TE2e (G2e) | TF2D AFD | TE2e (G2e) | TB>^c^d e2e/f/ ||\
+Tg>fe dcB | AFd DEF | TE2e GAB | B,C^D E2 :||:
+B |\
+e2b Tg2e | Tf2d afd | e2b ~g2b | TB>^c^d e2e/f/ ||\
+Tg>fe dcB | AFd DEF | TE2e GAB | B,C^D E2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | e3 e3 | d3 d3 | e3 e3 | g2f e3 || g3 b3 | f3 d3 | e3 e3 | b2B e2 :||:
+z | e'3 e'3 | d'3 d'3 | e'3 e3 | g2f e3 || g3 b2g | d'3 d3 | e3 e3 | b2B e2 :|

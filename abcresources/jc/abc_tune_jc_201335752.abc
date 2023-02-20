@@ -1,0 +1,57 @@
+
+X: 1
+T: La Maison de Glace
+T: The Ice House
+C: R\'ejean Brunet
+O: Qu\'ebec
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|:\
+"D"D3 DEF | "D"A3 AFA | "G"B3 Bcd | "A7"cBA GFE | "D"D3 DEF | "D"A3 AFA |\
+[1 "G"B3 BAG | "A7"F3 E3 :|2 "G"B3 Bcd | "A(F#)"c6 ||
+|:\
+"Bm"B2B- Bcd | "G"B2B- Bcd | "D"fed "A"edc | "Bm"dcA "F#m"dcA |\
+"Bm"B2B- Bcd | "G"B2B- Bcd | "D"fed "A"edc |1 "A"Adc "F#m"d2c :|2 "A"Adc "D"d3 :|
+
+%%sep 1 1 500
+
+X: 2
+T: La F\'ee des Dents
+T: The Tooth Fairy
+C: Andr\'e Brunet
+R: jig
+Z: 2008,2016 John Chambers <jc:trillian.mit.edu>
+F: http://www.youtube.com/watch?v=Rm_FyS7ceSc
+M: 6/8
+L: 1/8
+%%slurgraces 1
+K: G
+|:"G"B2D- DGA | Bdc BAG | "C"{B}c2E- EFG | "D7"FAG FED |\
+| "G"~B3  DGA | Bdc Bgf | "C"egd- dcB | "D7"AGF "G"G3 :|
+|:"C"~e3  edB | ced cBc | "G/B"d2B- BAG | Bdc BAG |\
+| "C"e2c  efg | "D7"afd- dcB | "C"ced cBA | "D7"AGF "G"G3 :|
+
+%%sep 1 1 500
+
+X: 3
+T: Gigue du Salon
+C: Pascal Gemme 2013
+S: Portland Collection v.3
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|:\
+"A"EAB c2e | "D"d2e "A"cBA | "Bm"BcA B2A | BcA "E7"GFE |\
+"A"EAB c2e | "D"d3  "A"cBA | "Bm"BcA BAF | "E7"EFG "A"A2 A :|
+|:\
+"A"e3 cBA | efe cBA | "Bm"BcA B2A | BcA "E7"GFE |\
+"A"e3 cBA | efe cBA | "Bm"BcA BAF | "E7"EFG "A"A3 |]
+|:\
+"A"e3 cBA | efe cBA | "Bm"BcA B2A | BcA "E7"GFE |\
+"A"EAB c2e | "D"d2e "A"cBA | "Bm"BcA BAF | "E7"EFG "A"A2 A :|
+

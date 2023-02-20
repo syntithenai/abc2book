@@ -1,0 +1,16 @@
+X: 4
+T: Spanish Waltz
+L: 1/8
+M: 3/4
+S: Colin Hume's website,  colinhume.com
+Z: Tweaked 2020-5-27 by John Chambers <jc:trillian.mit.edu>
+N: Does anyone know the origin of strains 1,2?
+N: Strains 3,4 are Rossini's "La tua Danza s\`i Leggier\`a" from the dance scene in his "Gulielmo Tell" opera (1829).
+H: Howe's Drawing Room Dances (1859) and other sources
+%Q: 1/4=120
+K: G
+%%continueall 1
+Bc | "G"d2dgfg | "G"Bdd2GB | "D7"Acc2FA | "G"GBB2Bc | "G"d2dgfg | "G"Bdd2GB | "D7"Acc2FA | "G"G4 ||
+GB | "D7"Acc2FA | "G"GBB2GB | "D7"Acc2FA | "G"GBB2Bc | "G"d2dgfg | "G"Bdd2GB | "D7"Acc2FA | "G"G3 ||
+DGA | "G"B3GBc | "G"d3eBe | "D7"dcAFAe | "G"dBGDGA | "G"B3GBc | "G"d3eBe | "D7"dcADFA | "G"G3 ||
+dBd | "C"g3-gfe | "G"edd2e2 | "D7"dcc2d2 | "G"cBB2(3GBd | "C"g3-gfe | "G"edd2e2 | "D7"dcc DFA | "G"G3 |]

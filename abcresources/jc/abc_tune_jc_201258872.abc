@@ -1,0 +1,57 @@
+X:56
+T:Cabar Feigh (#252)
+T:Deer's Horns, The
+M:4/4
+L:1/8
+S:setting by John Kelly, San Francisco
+R:Reel
+K:G
+V: 1
+A/2B/2 !segno!|:\
+c2dB cGAB | cBAG ECC2 | d2ec d2 (3ABc | dABG ^FGAB |
+c2dB cGAB | cBAG ECCE | DE=FG ABce | dcAG FD D2 :|
+|: ecgc\
+acgc | egfg ecce | fdad bdad | faga fddf |
+ecgc acgc | egfg ecce | dcBc ABce |1 dcAG FDD2 :|2 dcAG FGAB ||
+% V: 2 clef=bass middle=d
+% z |:\
+% [a2A2][b2g2] d2[c'2a2] | G2[c'2a2] c2[g2e2] |\
+% G2[c'2g2] B2[c'2e2] | [d2D2][b2g2] d2[d'2^f2] |\
+% c2[b2g2] e2[c'2a2] |
+% g2[c'2a2] c2[g2e2] |\
+% [d2D2][a2=f2] c2[c'2e2] | [d2D2][a2f2] d2[a2f2] ::\
+% c2[e'2c'2] e2[e'2c'2] | c2[e'2c'2] g2[e'2c'2] |\
+% d2[a2f2] A2[a2f2] |
+% d2[a2f2] A2[a2f2] | c2[e'2c'2] e2 [e'2c'2] |\
+% c2[e'2c'2] g2[e'2c'2] | G2[b2g2] A2[c'2a2] |\
+% [1 d2[a2f2] D2[a2f2d2] :|[2 [d2D2][a2f2] d2[a2f2] ||
+%
+%   When first received with a batch of fine tunes noted down by our
+% unselfish friend Francis E. Walsh from the playing of clever San
+% Francisco musicians, the foregoing reel under a slightly different
+% name was recognized as a variant of "Rakish Paddy" previously
+% printed in The Music of Ireland, and O'Neill's Dance Music of
+% Ireland. Another variant named "Sporting Pat" is to be found in
+% O'Neill's Irish Music for Piano or Violin. Under the circumstances,
+% another variant seemed superfluous, but coming from such a
+% famous fiddler as John Kelly of Roscommon, it has been cheerfully
+% welcomed to our pages.
+%   A favorite with all capable pipers and fiddlers of our acquaintance
+% for many years, the tune under any of its recognized names does
+% not appear in the Bunting, Petrie or Joyce publications. As
+% "Caper Fey" it was printed in Bremner's Second Collection of Scots
+% Reels or Country Dances, London 1768; yet omitted from The Glen
+% Collection of Scottish Dance Music, Edinburgh 1891.
+%   Most Highland Bagpipe note books include a suitable setting of the
+% tune under the correct title as above, in Gaelic and English.
+%
+% [jc 2016-9-17] Bar 7 had "=3D" before the F, and a number of cases
+% of "=20" in the comments. I ran it all through my quoted-printable
+% decoder, converting the "=3D" to just '='. I found a copy of the
+% 2nd edition at
+%   https://babel.hathitrust.org/cgi/pt?id=hvd.32044040672529;view=1up;seq=150
+% and on page 142, there's a version (with piano bass) that has the
+% =F in bar 7, with a Dm chord in the bass. It's tune X:269 in this
+% edition, so it might not be the same in the edition that Paul Kinder
+% used for his transcription. It also has the segno sign, which I
+% added above.

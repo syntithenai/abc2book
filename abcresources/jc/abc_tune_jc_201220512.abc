@@ -1,0 +1,26 @@
+X: 37
+T: Lary Grogan
+%R: jig
+B: "The Hibernian Muse" p.23 #1
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. XXXVII.
+M: 6/4
+L: 1/4
+Q: "Brisk"
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+d | BGB BGB | AFA A2c | BdB cAF | GGG GGd |\
+BGB BGB | AFA A>Bc | BdB cAF | GGG GG |]
+G |\
+=f>gf e>dc | Bcd d2G | =f>gf e^fg | AAA AAA |\
+=f>gf e>dc | Bcd dBG | BdB cAF | GGG G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+gbg gbg | dfd dfd | GBG cdD | gdB GBd |\
+gbg gbg | dfd dfd | GBG cdD | gdB G2 |]
+z |\
+d3 c3 | g2z gfe | d2z c2^c | dfa d'af |\
+d2z c2z | def gdG | GBG cdD | gdB G2 |]

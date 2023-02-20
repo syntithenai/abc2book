@@ -1,0 +1,31 @@
+X: 20282
+T: the NIGHT CAP
+Q: "Lively dancing time."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.28 #2 (and p.29 #1)
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat symbol but no final repeat symbol.
+M: 6/8
+L: 1/8
+K: Eb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+[G3B,3] !f![G2B,2]G//F//G//A// | BBB BGE | F=EF AFD | EGE B,EF |\
+[G3B,3] !f![G2B,2]G//F//G//A// | BBB BGE | !f!F=EF AFD | !f!E3 "^Fin."E3 H:|
+|:\
+ddd dbd | eEe eee | ddd dbd | eEe eee |\
+ddd dbd | eBG cAF | GBE FAD | !f!E3 E3 |]
+ggg fdB | ggg fdB | gfe dfB | B=AB cAF |\
+ggg fdB | ggg fdB | gfe dfB | B=AB cAF |]
+=aaa {b}aga | bBb bbb | =aaa aga | bBb bbb |\
+=aaa aga | bfd egc | fdB ec=A | BcB _AGF ||
+|:\
+[G3B,3] !f![G2B,2]G//F//G//A// | BBB BGE | !f!F=EF AFD | EGE B,EF |\
+[G3B,3] !f![G2B,2]G//F//G//A// | BBB BEG | {G}F=EF AFD | E3- E3 :|
+|:\
+[c2E2A,2]z B2z | [e2E2G,2]z B2z | [c2E2A,2]z B2z | [e2E2G,2]z B2z |\
+[c2E2A,2]z B2z | edc BAG | {G}F=EF AGF | E3- "^D.C."E3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,34 @@
+X:8305
+T:Tristrophon hendecasyllabum Armenicum
+T:Melothesia Armenica secundi toni
+C:anon.
+O:Latin
+S:Athanasius Kircher, Musurgia Universalis (1650), lib.VIII p.136
+N:If I understand the Latin correctly he got this from the
+N:Jesuits and harmonized it using his mechanical rules.
+N:The second G in voice 3 bar 1 is E natural in my notes;
+N:dunno if I transcribed it wrong or Kircher had a typo.
+Z:Jack Campin
+F:http://abc.musicaviva.com/tunes/latin/kircher-tristrophon.abc
+%Posted April 20th 2002 at abcusers by Jack Campin
+M:8/2  % C|
+L:1/4
+Q:1/2=60 % guess
+K:G dorian
+V:1 d2 dd  B2 d  d2 cAG c2d2 |B2dc B2c B2A  AB   A2 A2|G2GG A2A  B2B  GG ^F2G2 ||
+V:2 G2^FG  G2=F  F2_EDG F2F2 |D2DE G2A G2F  EG   E2^F2|D2DD F2F  G2F _ED  D2D2 ||
+V:3 B2 AB  G2 A  D2 GFB A2B2 |d2Bc d2f d2d ^cd2   ^cd2|B2BB c2c _e2d  cB  A2G2 ||
+V:4 G,2DG _E2 D  B,2CDE F2B,2|B2BA G2F G2D  A,G, A,2D2|G2GG F2F _E2B, CG, D2G,2||
+W:
+W:Garrachat parraz nuruche smidaz luhs
+W:Ansdieziet ariechagan luhs dzachia huchus
+W:Pirchieziet puguriz sesa puta pirchel.
+W:
+W:Splendor gloriae renovat mentis lumen
+W:Increati itaque solis lux orire huic animae
+W:O Redemptor Universi hanc festina redimere.
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

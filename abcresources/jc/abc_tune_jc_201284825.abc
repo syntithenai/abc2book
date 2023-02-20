@@ -1,0 +1,13 @@
+X: 1839
+T: Harrington Hall   #2
+R: march
+%S: s:2 b:10(6+4)
+B: O'Neill's 1850 #1839
+Z: Bob Safranek, rjs@gsp.org
+N: Compacted by using labels and play order [JC]
+P: Play |: A2A2 :: BA2 :|
+M: 6/8
+L: 1/8
+K: D
+A "^A" |: d2d ceA | dff f2g | afd [1 dcd | e>(de/f/) gfe :|[2 Bgf | edc d2 |]
+g "^B" | fdf fga | fdd dcd | eAA fAA | g>(fg/a/) gf"^->A2"e |]

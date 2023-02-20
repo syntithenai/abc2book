@@ -1,0 +1,27 @@
+X: 55
+T: John Kelly
+C: Carolan
+%R: jig
+B: "The Hibernian Muse" p.33 #2
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. LV.
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+c2c cdc | Bdd d2f | edc egg | fed faa |\
+g2e fed | cBA GAB | cEG cEG | [A3E3] [A3E3] :|
+|:\
+gag fed | c2G c2G | agf edc | Bdd d3 |\
+ge/f/g afa | geg fdf | edc TBGB | c3 c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+c'3 c3 | g3 bag | c'3 c3 | d3 d2f |\
+e2c d2B | c2f g2G | c3 c3 | A3 A3 :|
+|:\
+B3 d3 | e3 c3 | f3 c3 | g3 bag |\
+c'3 f3 | e3 d3 | c3 g2G | c3 c3 :|

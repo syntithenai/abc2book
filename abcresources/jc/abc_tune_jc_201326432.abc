@@ -1,0 +1,34 @@
+X: 1
+T: Prince George
+P: Longways for as many as will
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.41 #78
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.122
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The two versions are identical except for minor spelling and punctuation differences.
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+GAB2 A2d2 | B2AG ^F2ED |\
+G2AB A2d2 | B4 G2 |]\
+A2 |\
+B2cd c2f2 | d2cB c2F2 |
+B2G2 e2(dc) | c4 B4 |\
+A2AB c2A2 | d2G2 ^F3f |\
+d2(cB) (AB)c2 | B4 G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Man sett to his own Wo. and then take Hands with
+%% the 2d Man and turn round into his Place, while the 1st and
+%% 2d Wo. does the like; then the 1st Cu. cross over into the
+%% 2d Cu. Place, then all four take Hands and lead up abreast,
+%% then the 1st Man cross over and go below the 2d Man, while
+%% the 1st Wo. goes below the 2d Wo. and clap Hands, then all
+%% four Hands and go quite round, the rest do the same.
+%% [CCDM1]
+%%endtext
+%%sep 1 8 500

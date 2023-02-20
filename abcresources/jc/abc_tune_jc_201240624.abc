@@ -1,0 +1,23 @@
+X: 403	% 116
+T: Independence Waltz
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.40 #3
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Several measures have lengths other than 3/4, but it's not clear how to fix them.
+M: 3/4
+L: 1/8
+K: D
+V: 1 name="116"
+(DE) |\
+[A4F4] [A-FD][AE] | [A4F4] [A-FD][AE] | [A4F4] [A-FD][AE] | [A6F6] |\
+(E2 F2 G2) | ([B4G4-] [A2G2]) | ([B4G4-] [A2G2]) | ([A4F4] DE) |\
+([A4F4] DE) | ([A4F4] DE) | ([A4F4] DE) | [A6F6] |
+(E2 F2 G2) | ([B4G4-] [A2G2]) | [B3G3] (AFE) | D4 Md2 ||\
+[f4d4] M[f2d2] | ([g4B4] ^g2) | a3 (gag) | [f4d4] (ga) |\
+g4 c2 | c4 (ab) | a4 (ag) | !gliss!([f4d4] [a2f2]) |
+d'4-Md'2 | c'4 Mc'2 | b4 Mb2 | !gliss![a4f4] [f2d2] |\
+g3 (agf) | (e2 B2 c2) | d6- | d4 (3(f/g/a/) ||\
+(g4 Mc2) | (c4 (a)Mb) | a3- (MaMaMg)| f6 (3(f/g/a/) |
+(g4 Mc2) | c4 (ab) | (a3 MaMaMg) | !gliss![f4d4] [a2f2] |\
+[d'4-f4] M[d'2f2] | c'4- c'2 | b4 b2 | !gliss!([a4f4] [f2d2]) |\
+g3 (agf) | e2 B2 c2 | d6 | d4 |]

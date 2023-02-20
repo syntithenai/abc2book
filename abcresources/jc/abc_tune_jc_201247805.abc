@@ -1,0 +1,15 @@
+X: 541
+T: Arran Air   #2
+R: reel, air
+%S: s:2 b:10(6+4)
+B: O'Neill's 1850 #541
+Z: Dave Wooldridge
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+Q: "Moderate"
+M: 2/4
+L: 1/16
+K: D
+"^A"|: (AF) | D2(FG) A2(Bc) | (de)(fd) e2(dB) | A2(AB) [1 (AF) (de) | f2e2 e4 :|[2 (AF)(DF) | E2D2 "^fine"D4 |]
+"^B"[| (AF) | (AB)(de) f2(ef) | gefd e2(de) | f2e2 (dB)(AF) | F2E2 "^->A2"E2 |]

@@ -1,0 +1,32 @@
+X: 32391
+T: DUO POUR DEUX VIOLONS
+C: Par James C. Paton
+B: K\"ohler's Violin Repository, v.3, 1885 p.239 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 1st-violin part is on the previous (facing) page.
+U: P=!crescendo(!
+U: p=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: C
+L: 1/8
+Q: "Andante"
+K: C
+P: Violino Secondo
+|:\
+!p!(EG,EG,) (GG,EG,) | (FG,)(FG,) [DB,](B,DF) |\
+(EG,EG,) (GG,EG,) | (FG,)(FG,) [DB,](GF)D |\
+("cres."EC^CD ^DEFG) | (A2f2) Q(edcG) q|
+[E4G,4] [D4G,4] | (FG,)(FG,) E(CEG) :|\
+!ff![B4-^G4] [BG].[BG].[BG].[BG] | AE^DE Azu"_>"[G2A2] |\
+v(D4- [DA,]).[DA,].[DA,].[DA,] | [D2G,2]z2 "_rall."(d^cdu^d) |
+"_tempo"e4 (c2E2) | (ED)(FD) .[DB,](GBd) |\
+e4 (^d/e/f/e/ =d/c/G/E/) | (ED) (F/E/D/C/) .[DB,](DFG) |\
+[E4G,4] [E4_B,4] | [F4A,4] [F4_A,4] |
+(EG,EG,) (DG,FG,) | (FG,)(FG,) .E.G.E.C |\
+!p!C4 (D^CDB,) | =C2!ff!g2 "_Pizz."e2!p![c2E2] |\
+B,4 (CB,CD) | B,2Bc (def^f) |
+g4 (^fgag) | g4 (e2gf) |\
+(AECE) (C^GB,G) | zAEC A,zz2 |\
+[F4G,4] (FG,DG,) | [E2G,2]!p!z2 u(.[F2G,2].[F2G,2]) | [E6G,6] "_Fine."z2 H|]

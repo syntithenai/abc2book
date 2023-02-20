@@ -1,0 +1,30 @@
+X: 082
+T: Fife and all the Lands about it
+%R: air, march
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.8 #2
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Q: "slow"
+M: C
+L: 1/8
+K: Gmix	% This seems to start in C, but it's mostly in G.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1
+|:\
+E2GA G2g2 | Td3B Jd2G2 | g2G2 GABc | Jd2(TcB) A4 |\
+c2e>f e2{ef}g2 | G>AB>c Jd2D2 | E2G2 Te3d | Bcde d4 :|
+|:\
+gaba g2d2 | Te3d B2d2 | e2(Tg^f) g2d2 | (cB)(TAG) d4 |\
+e2(Tg^f) g3 a | {ga}b2(Ta>g) a2A2 | {A}B2d2 Te3d | g2(G>A) G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+|:\
+cd"6"ef "6"edec | "6"BABG "6"^F2G2 | z4 g2GA | "6"B2c2 "4 #"d4 |\
+"6"e3"6"d cd"6"ec | "6"B2GA "6"BABG |
+c2"6"B2 cBc"#"d | GA"6"Bc "#"d4 :|\
+|:\
+z4 ga"6"bg | cd"6"e"6"^f ga"6"bg | c3"#"d "6"ec"6"Bg | "6"e3"5"e "6;4"d2"5;#"D2 | z4
+e2g"6"^f | g2G2 "#"de"6"^fd | GA"6"BG c2c'2 | "5 6;3 4"g4 "  5;4 3"G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

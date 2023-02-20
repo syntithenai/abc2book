@@ -1,0 +1,25 @@
+X: 1
+T: \"Appelbo g\aangl\aat
+O: efter \"Arbergs Kalle
+R: g\aangl\aat
+S: Fiddle Hell handout 2022-4-2 for Bronwyn Bird's Swedish Jam
+Z: 2020 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+"^A"|: D2 \
+| "G"G2(GD) G2B2 | d6 Bc | d2(dB) d2de | "Am"c2(cB) A2AB \
+| "D7"c2(cd) e2(dc) | "G"(Bc)(BA) G2(FG) | "D7"(AB)(AF) D2(EF) | "G"G6 :|
+"^B"|: (Bd) \
+| "G"g2g2 g2(fe) | "D7"f2f2 f2(gf) | "C"e2e2 (eg)(fe)| "G"e2(d^c) d2(=cB) \
+| "Am"c2(cB) "D7"A2(GA) | "G"(Bc)(BA) "(Em)"G2FG | "D7"(AB)(AF) D2(EF) | "G"G6 :|
+% - - - - - - - - - -
+V: 2
+"^A"|: D2 \
+| "G"B,2(B,G,) B,2D2 | [B6D2] (GA) | B2(BG) B2(Bc) | "D"A2(AG) F2(FG) \
+| A2(AB) c2(BA) | "G"(GA)(GD) B,2(A,D) | "D"(FG)(FD) A,2(G,C) | "G"[D6B,6] :|
+"^B"|: (Bd) \
+| "G"B2B2 B2(dc) | "D"d2A2 d2(ed) | "C"c2G2 (ce)(dc) | "G"c2(BA) B2(AG) \
+| "D"A2(AG) F2(EF) | "G"(GA)(GD) B,2(A,D) | "D"(FG)(FD) A,2(G,C) | "G"[D6B,6] :|

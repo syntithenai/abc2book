@@ -1,0 +1,58 @@
+%%text RJ Set 009
+
+
+X: 1
+T: Fisher's Hornpipe
+I: Fisher's Hornpipe	R-24	D	hornpipe
+M: C|
+R: hornpipe, reel
+K: D
+(3ABc |\
+"D"dAFA "G"GBAG | "D"FDFD "G"GBAG |\
+"D"FDFD "G"GFGB | "D"AFDF "A"E2 (3ABc |\
+"D"dAFA "G"GBAG |
+"D"FDFD "G"GBAG |\
+"D"FAdf "A"gece | "D"d2d2 d2 :: cd |\
+"A"ecAc efge | "D"fdAd fgaf |
+"A"ecAc efgf | "E"edcB "A"A2A2 |\
+"G"BGDG BcdB | "D"AFDF ABcA |\
+"G"BcdB "A"AGFE | "D"D2D2 D2 :|
+
+
+X: 2
+T: Auld Grey Cat, The
+T: Old Gray Cat, The
+I: RJ R-82 E Dor reel Set 9, 18, 24
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+P: E Dorian
+K: EDor
+|:\
+"Em"e2e2 E3F | GFGA BABc | "D"d2d2 D3E | FAdB AFED |\
+"Em"e2e2 E3F | EFGA BABc |
+"D"dcBA "B7"BAGF |[1 "Em"E4 e3^d :|[2 "Em"E4 e3 |: d |\
+"Em"B2e2 e3d | Bdef gfed |
+"D"A2d2 d3B | ABde fedf |\
+"Em"e2B2 g2B2 | "Em"a2B2 "B7"b3a | "Am"gfed "B7"BAB^d | "Em"e4 e4 :|
+
+
+X: 3
+T: Easy Club
+C: Jim Sutherland
+I: Easy Club	R-98	A	reel
+M: C|
+R: reel
+K: A
+E2 |\
+"A"A2cA "E"BcdB | "A"cdec "D"defg |\
+"A"agae faec | "E"dcc(B B)dcB |\
+"A"A2cA "E"BcdB |
+"A"cdec "D"defg |\
+"A"agae faec | "G"dB=GB "A"A2 :: ce |\
+"D"faa(d d)aga | "A"eaa(c c)aga |
+"D"faa(d d)aga | "A"cee(B "E"B)dcB |\
+"A"A2cA "E"BcdB | "A"cdec "D"defg |\
+"A"agae faec | "G"dB=GB "A"A2 :|
+% text 08/29/98
+

@@ -1,0 +1,23 @@
+X: 4367
+T: BRINDISI FROM "LA TRAVIATA."
+R: Brindisi (drinking song)
+%R: air, waltz
+B: James Kerr "Merry Melodies" v.4 p.39 #367
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: D
+%%slurgraces yes
+%%graceslurs yes
+A2 |\
+f6- | f2A2f2 | f2A2f2 | f2{gf}^e2f2 |\
+a6- | a2g2f2 | e2({f}e^def) | e2({f}e^def) |\
+(e4d2) | A4A2 |\
+f6- | f2A2f2 | f2A2f2 | f2{gf}^e2f2 |\
+a6- | a2g2f2 | e2({f}e^def) | e2({f}e^def) |
+=d6- | d2z2 H|]\
+d2 |\
+g4g2 | g2(gfga) | (g4f2) | f4A2 |\
+e4e2 | e2(e^def) | (e4d2) | d4d2 |\
+g4g2 | g2(gfga) | (g4f2) | (f4a2) |\
+c4c2 | c2(c^Bcd) | c6- | c2(e2"^D.C."A2) |]

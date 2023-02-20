@@ -1,0 +1,33 @@
+X: 30791
+T: COTILLION No. 1. FANNY JONES' SETT tune 4
+%R: march, reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.79 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Initial rests added to start of strains 2,3 to fix the rhythms.
+M: 2/4
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+B |\
+eg Be | GB EG | FA DF | DD DD |\
+eg Be | GB EG | FA DF | EGE H|]
+f3 g/f/ | ee gb | ba ff | g2 e2 |\
+z |\
+f3 g/f/ | ee gb | ba fe | e2 "^D.C."z |]
+K: Ebm
+z |\
+B3 A | GF GA | Bc Bc | BA GF |\
+B3 A | GF GA | Be BG | E2 "^D.C."z |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 lead to right,
+%% chassa out and form lines across the hall,
+%% all forward and back,
+%% swing partners to place,
+%% grand chain,
+%% promenade 8.
+%% Sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

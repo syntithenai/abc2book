@@ -1,0 +1,19 @@
+X: 10411
+T: AGNES SOREL QUADRILLES Part 5
+C: Arranged by W. B. Laybourn
+R: polka
+B: K\"ohler's Violin Repository, v.1, 1885 p.41 #1
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Cm
+[|\
+vCCCC C2E2 | G2A2G2E2 | CCCC C2E2 | G2A2G2E2 |\
+GGGG G2A2 | GGGG G2^F2 | _A6 A2 | G2F2E2D2 |
+cccc c2e2 | g2a2g2e2 | cccc c2e2 | g2a2g2e2 |\
+gggg g2a2 | gggg g2^f2 | g2f2e2d2 | c2z2 c2z2 ||[K:C]
+ve4 (.e3.a) | g4 (.g3.c) | v(d4 ^c3)vd | u(e4 c3)uc |\
+e4 (.e3.a) | g4 (.g3.e) | "_>"g4 "_>"^f4 | "_>"e4 "_>"f4 |
+e4 (.e3.a) | g4 ( .g3.A) | v(d4 ^c3)vd | u(e4 c3)uc |\
+A2A2B2c2 | d2e2f2^f2 | g2G2 (.e3.d) | c2z2 "_D.C."c'2"_Fine."z2 |]

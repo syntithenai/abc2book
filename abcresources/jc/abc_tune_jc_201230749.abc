@@ -1,0 +1,29 @@
+X: 141001
+T: the BLACK BIRD
+Q: "Slow with expression."
+%R: air
+B: James Kerr "Merry Melodies" v.1 p.41 s.0 #1
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The comment text (above the melody) has an odd long underscore.
+M: C
+L: 1/16
+%%slurgraces yes
+%%graceslurs yes
+K: D
+uD4 |\
+B4 {AB}=c3{dc}B A4 B2c2 | (d3(3e/d/c/ d2)A2 (3(GAGF2) D3E |\
+.F2.G2.A2.B2 =c3AG3A | (G3(3AGF) "^>"D2"^>"D2 HD4 uD4 |\
+B4 ((3BcBG2) A3^G AB=cA |
+(d3(3e/d/^c/) d=cAF GAGF D3E |\
+.F2.G2 A2Hfe d3^c AGFA | GAGF "_>"D2"_>"D2 HD4 |]\
+uA4 |\
+d3ef2g2 "^>"a3gf2a2 | (g3(3a/g/f/) g2a2 (3(gagf2) Hd2 A2 |
+d3ef2g2 "^>"a3gf2a2 | (g3(3a/g/f/) "^>"d2"^>"d2 Hd4 zu.e.f.g |\
+"^>"a3gf2a2 g4 {ag}f2e2 | d3(e/d/c/) d2e2 H=f4 H^f3e |\
+d3^cA2F2 G3B A2G2 | F4 "_>"D2"_>"D2 H"_>"D4 |]
+%%begintext align
+%% The Black Bird is the Chef D'oeuvre of all the old Irish Fiddlers in the Country,
+%% although not any two of then that ever I heard __ play it alike.
+%% In this Setting I have tried to combine as many of the different Styles
+%% and embellishments, as is possible to do in one transcription.
+%%endtext

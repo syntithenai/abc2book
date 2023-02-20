@@ -1,0 +1,29 @@
+X: 093
+T: MISS ROBERTSON
+C: CHARLES STEWART
+R: Reel
+B: Glen Collection p.9 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: D
+%
+V: 1
+B |\
+ADFA BdAF | GeFd eEEB | ADFA BdAg | faeg fdd :|
+g |\
+fadf (d/e/f/g/) af | gefd ceeg | fadf (d/e/f/g/) af | ge{b}ag fddg |
+fadf (d/e/f/g/) af | gefd ceeg | fadf gbeg | fdeg fdd |]
+%
+V: 2
+z |
+d2[d'2a2] [d'2b2g2][d'2a2] | [c'2a2e2][d'2a2f2] [c'2a2][c'2a2] |\
+[a2f2][d'2a2f2] [d'2b2g2][c'2a2] | [f'2d'2][c'2a2] [d'2a2d2][d'ad] :|
+z |\
+[d'2a2d2][d'2a2d2] [d'2a2d2][d'2a2d2] | [c'2a2e2][d'2a2f2] [e'2a2][c'2a2] |\
+[d'2a2d2][d'2a2d2] [d'2a2d2][d'2a2d2] | [c'2a2][c'2a2] [d'2a2d2][d'2a2d2] |
+[d'2a2d2][d'2a2d2] [d'2a2d2][d'2a2d2] | [c'2a2e2][d'2a2f2] [e'2a2][c'2a2] |\
+[d'2a2d2][d'2a2d2] G2[b2g2] | [d'2a2][c'2a2] [d'2a2d2][d'ad] |]

@@ -1,0 +1,59 @@
+X: 11131
+T: COTTAGE MAID
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.113
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The score has 8 staffs, grouped as two sets of 4 staffs, but the bar lines  and  harmonies  don't
+N: line up well, and only the first two staffs have clefs. It works only as a set of 4 2-staff sets.
+N: Staffs 1-2 have the same first 6 bars  as  staffs  3+4.   Then  staffs  5+6  are  something  very
+N: different,  and  staffs 7+8 are the same as 2+3 except for the last bar.  This is the common AABA
+N: repeat pattern for a 4x8=32-bar tune. I've transcribed it this way. Also, note that the 2nd staff
+N: in  each  pair  only  makes  sense in C with a bass ("F") clef; with the printed treble clef, the
+N: bottom voice is in A minor rather than C.  [Sloppy, sloppy! ;-]
+N: Bar 16 starts with a [cDC] chord, which is clearly a typo; fixed.
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+[| !p!\
+[e3G3] ([eG][fA]).[dF] | ([g3E3] [e2C2])[eG] |\
+[e3G3] ([eG][fA]).[dF] | ([c3E3] [G2E2])z |!f!\
+([a2f2][bg]) [c'a][bg].[af] | ([g3e3] [e2c2])c |\
+[d2B2][ec] [fd2]d[gB] | ([e3c3] [d2B2])z |
+%
+[e3G3] ([eG][fA]).[dF] | ([g3E3] [e2C2])[eG] |\
+[e3G3] ([eG][fA]).[dF] | [c3E3] [G2E2]z |\
+([a2f2][bg]) [c'a][bg].[af] | ([g3e3] [e2c2])c |\
+[d2B2][ec] {g}[fA][eG][dF] | [cE]GE Cz g  |
+%
+!p!\
+[d2B2][ec] {g}[fd][ec][dB] | ([e3c3] [g2e2])[ec] |\
+[d2B2][ec] {g}[fd][ec][dB] | c2z z2g |!f!\
+[d2B][ec] [fd][ec][dB] | [e3c3] [ge][ec][cA] |\
+[BG]d[gB] [cA][BG][A^F] | HG4 z2 |
+%
+!mf!\
+[e3G3] ([eG][fA]).d | ([g3E3] [e2C2])[eG] |\
+[e3G3] ([eG][fA]).[dF] | [c3E3] [G2E2]z |\
+([a2f2][bg]) [c'a][bg].[af] | ([g3e3] [g2e2])[ec] |\
+[d2B2][ec] {g}[fA][eG][dF] | [c3E3-][c2E2] z H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[| !p!\
+c2c c2c | ceg c'2z | c2c c2c | ceg c'2z |!f!\
+c3 c'3 | ceg c'2z | g2g g2g | (g3 G2)z |
+%
+c2c c2c | ceg c'2z | c2c c2c | ceg c'2z |\
+c3  c'3 | ceg c'2z | g2c fgG | cge czz |
+%
+!p!\
+g2g g2g | c2c c2c | g2g g2g | c'2g ece |!f!\
+g2g g2g | c2c c2c | d2d d2d | g4 z2 |
+%
+!mf!\
+c2c c2c | ceg c'2z | d2c c2c | ceg c'2z |\
+c3  c'3 | ceg c'2z | g2c fgG | c3- c2 z H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

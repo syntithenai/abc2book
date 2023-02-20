@@ -1,0 +1,33 @@
+X: 20651
+T: the GRAVE OF BURNS
+Q: "Very slow."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.65 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+B3B A2B2 | {d}c3B/c/ (^c2d2) |\
+e2g2 (fe)(dc) | B2d2 (b3a) |\
+g2^f2 (g=f)(ed) | G2A2 (B3e) |\
+dB3 (A3c) | B3A G2 |]\
+g2 |\
+(g3d) (dc)(cB) | (c3B) Ac3 |
+(B3A) B2d2 | (c2e2 d2)F2 |\
+(DG3) (G3A) | (B2b2 a3)g |\
+fd3 (c3d) | B3A G2 |]\
+A2 |\
+B3c (B2G2) | e3c ^cd3 |\
+(g2^f2) (g2_a2) | (g3f) e2d2 |\
+e3(d/c/) d3(c/B/) |
+c3(B/A/) B3(A/G/) |\
+(A2c2 B2d2) | (BA)(G^F) {F}G3 |]\
+(g/a/) |\
+(b3a) b2g2 | fd3 (dB)(ce) |\
+dB3 (BcdB) | ABcB A2F2 |\
+D2G2 B2b2 | (a2g2) (^f2g2) |\
+(=f2d2) (c2d2) | (BA)(G^F) {F}G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

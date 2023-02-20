@@ -1,0 +1,18 @@
+X: 6
+T: the Brothers
+R: jig
+M: 6/8
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: William Randall eds "Twenty Four Country Dances", London 1771, p.5
+K: G
+|: G3 BGB | def gfe | ded cBA | EFG FED |\
+   G3 BGB | def gab | agf ed^c | d3 D3 :|
+|: bgd Tc>Bc | afc TB>AB | ABc EFG | F3 D3 |\
+   G3 BGB | def gfe | dcB AGF | G3 G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands 4 across and Back again and cross over
+%% Half figure Right and Left at top
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,27 @@
+X: 1
+T: Scotch Union
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (172)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+N: The tune makes more sense in 9/4, with two 3-beat bars per measure.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: afd afd | g>fe afd | afd ecA :|\
+|: d>ed f>ef | g>fe d>ed | f>ef ecA :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man turns single then his
+%% Wo. half round his Wo. does the
+%% same | Then cross over below the
+%% 2d Cu. and foot it :| Then all four lead
+%% up and foot it then 1st Wo. cross
+%% over above the 2d Wo. and the 1st
+%% Man above the 2d Man .| and so to
+%% the End :|
+%%endtext
+%%sep 1 8 500

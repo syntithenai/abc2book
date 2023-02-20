@@ -1,0 +1,22 @@
+X:169
+T:Danish Double Quadrille
+M:2/4
+L:1/8
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=120
+%%MIDI ratio 3 1
+%%MIDI chordname dim 0 3 6 9
+K:D
+P:A
+A | "D"A>F FA | "/"A>F FA | "D"Ad "G"Bd | "D"A3 A |\
+"D"A>F FA | "A"A>E EA | "E7"^Gd cB | "A7"A3 A |
+"D"A>F FA | "/"A>F FA | "D"Ad "G"Bd | "D"A3 d |\
+"D"d>A Af | "Em"e>B Bd | "A7"cB/A/ ^G/A/B/c/ | "D"d3 ||
+K:A
+P:B
+|: z | "A"c2 GA | "/"E2 GA | "D (Cdim)"F2 GA | "A"E4 | "A"c2 GA | "F#m"f2 e^d | "Bm"e2 =dc | "E7"B2 =c2 |
+"A"c2 GA | "/"E2 GA | "D (Cdim)"F2 GA | "A"E3 e | "F#7/A#"e2 f>e | "Bm"ed FB | "E7"AG c>B | "A"A2 z :|
+K:D
+P:C
+F | "A7"G2 A2 | "/"B2 c2 | "D"d2 f2 | "/"A3 d | "A7"c2 e2 | "/"A3 c | "D"d2 f2 | "/"A3 F |
+"A7"G2 A2 | "/"B2 c2 | "D"d2 f2 | "/"A3 d | "D"d>A Af | "Em"e>B Bd | "A7"cB/A/ ^G/A/B/c/ | "D"d2 z |]

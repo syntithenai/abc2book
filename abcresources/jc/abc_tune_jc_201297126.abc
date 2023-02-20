@@ -1,0 +1,49 @@
+X:1
+T:Kirkhill  "CYMRU"
+M:6/8
+L:1/8
+Q:80
+C:J.R. Riddell
+S:March
+K:HP
+|: e | \
+{g}c2{GdGe}A{GAG}A2e | \
+{g}f/2a3/2e{g}f3/2g/2a | \
+c2{GdGe}A{GAG}A2{d}c |
+{g}B/2{d}c3/2{e}A{GdG}B2e:|2  | \
+{g}c2{GdGe}A{GAG}A2e | \
+{g}f/2a3/2e{g}f3/2g/2a |
+{g}a3/2e/2{g}c{ag}a2B | \
+{g}c/2e3/2{g}A{GAG}A2 :: \
+{g}c/4e3/4 |
+{g}f3/2g/2a{g}a2e | \
+{g}f/2a3/2e{g}f3/2g/2a | \
+{g}a3/2B/2{G}A{GAG}A2{d}c |
+{g}B/2{d}c3/2{e}A{GdG}B2|1 {g}c/4e3/4|1  | \
+{g}f3/2g/2a{g}a2e | \
+{g}f/2a3/2e{g}f3/2g/2a |
+{g}a3/2e/2{g}c{ag}a2B | \
+{g}c/2e3/2{g}A{GAG}A2 :: \
+e |
+{g}A2{GdGe}A{gcd}c2d | \
+{g}c3/2d/2{e}B{g}A3/2{d}c/2e | \
+a3/2e/2c{g}A2{d}c |
+{g}B/2{d}c3/2{e}A{GdG}B2e | | \
+{g}A2{GdGe}A{gcd}c2d | \
+{g}c3/2d/2{e}B{g}A3/2{d}c/2e |
+{g}a3/2e/2{g}c{ag}a2B | \
+{g}c/2e3/2{g}A{GAG}A2 :: \
+c/2e3/2 |
+{g}f3/2e/2a{fg}f2{g}e | \
+a3/2e/2c{g}A3/2B/2{GdG}c | \
+a3/2e/2c{g}A2{d}c |
+{g}B/2{d}c3/2{e}A{GdG}B3/2|1 {g}c/2e|1  | \
+{g}f3/2e/2a{fg}f2{g}e | \
+a3/2e/2c{g}A3/2B/2{GdG}c |
+{g}a3/2e/2{g}c{ag}a2B | \
+{g}c/2e3/2{g}A{GAG}A2:|2
+e |
+{g}c3/2d/2{e}B{AGAG}A2e | \
+{g}f3/2e/2aA3/2B/2{GdG}c | \
+a3/2e/2{g}c{ag}a2B |
+{g}c/2e3/2{g}A{GAG}A2|]

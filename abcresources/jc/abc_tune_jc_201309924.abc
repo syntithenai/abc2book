@@ -1,0 +1,24 @@
+X: 1379
+T: the Mills are Grinding - 2nd Setting   #2
+R: reel
+%S: s:2 b:12(6+6)
+B: O'Neill's 1850 #1379
+O: Ennis
+Z: Bob Safranek, rjs@gsp.org
+N: Compacted via repeats and multiple endings [JC]
+N: The [cg] in B's 2nd bar is a "trick" that the O'Neills used in several tunes.
+N: I've used it here because it's "obvious" which pickup note each ending uses.
+N: (And the O'Neills effectively gave me permission to do it. ;-)   [JC]
+N: Also, the slurs are missing here, which some irtrad teachers say is preferable,
+N: and the book has some inconsistent slurs in the repeated measures.
+M: C|
+L: 1/8
+K: D
+"^A"\
+|:     (3DDD DE {G}FEFG | ABGB Add \
+[1 z | (3DDD DE {G}FEFG | ABGF EFGE :|\
+[2 g | fdec d2AB | {d}cBcG EDD Hz |]
+"^B"\
+|: dcdB c2(3ABc | d2fd cAA[cg] |\
+[1 dcdB cBcA | GEcE EDDz :|\
+[2 fdec d2AB | {d}cBcG EFG"_D.C."E |]

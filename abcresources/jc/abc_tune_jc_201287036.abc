@@ -1,0 +1,27 @@
+X: 1
+T: Hole in the Wall
+P: Longways for as many as will
+%R: minuet
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.222
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat added to match modern playing of this well-known dance tune, which agrees with the ... .| ... :| ... dance markings.
+M: 3/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d3e (def2) c2f2 | B3c (Bcd2) A2d2 |\
+G3A GAB2 F2d2 | B6 A2 B4 :|\
+b3a (gab2) a2g2 | ^f3g (fga2) B2f2 |
+b3a (gab2) a2g2 | g6 ^f2 g4 |\
+G3A (GAB2) (ABc2) | B3c (Bcd2) (cde2) | d3e (def2) Ff | d6 cd B4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%    The 1. cu. cast off below the 2. cu. and lead up the middle .| The 2. cu. cast up, and lead down
+%% the middle :|
+%%    The 1. man cross over with the 2. wo. and the 1. wo with the 2. man, so all four hands half-round,
+%% and so cast off into the 2. cu. place, the rest do the like.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

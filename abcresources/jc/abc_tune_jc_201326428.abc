@@ -1,0 +1,35 @@
+X: 1
+T: Prince Frederick's Hornpipe
+P: Longways for as many as will
+%R: hornpipe, reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.9
+S: 3: CCD3  http://javanese.imslp.info/files/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.9
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c2 |\
+A3G F2A2 | G2FE F2f2 | e2dc d2cB | A3G F2A2 |\
+G2FE F2A2 | G2FE FGAB | c2 B4 A2 | G6 :|
+|: c2 |\
+d2cB ABc2 | F2GA B4 | Bcd2 G2d2 | gab2 e4 | f2 e4 d2- | d2 c4 B2- | B2AB G2FE | F6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+c2 |\
+f4 F4 | c4 A2F2 | c4 d2e2 | f4 F4 |\
+c4 A2F2 | c4 d4 | e4 f4 | c2d2 e2 :|
+|: c2 |\
+B4 f4 | a2f2 edc2 | d4 B2G2 | bag2 c'2c2 |\
+f2c2 d4 | e4 c4 | e2f2 c2C2 | F2c2 f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu. Hey on the contrary sides, then on your own sides,
+%% and cast off and turn contrary Corners,
+%% First Cu. whole figure at the bottom, then at the top,
+%% lead thro' the Man's side and turn in the middle,
+%% then thro' the Wo. side and turn in the middle.
+%%endtext

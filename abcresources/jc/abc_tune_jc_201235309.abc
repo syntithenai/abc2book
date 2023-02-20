@@ -1,0 +1,30 @@
+X: 21081
+T: Kirkforther [scordatura]
+%R: air, jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.108 #1 (and top 2 staffs of p.109)
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Several final bars have just half notes; dots added to fix the rhythms.
+M: 3/4
+L: 1/8
+K: none
+%%continueall
+[^c2A2E2A,2] \
+|:"_Slow"\
+e2 eeee & A2 AAAA | g4 f2 & A4 A2 | e2 eeee & A2 AAAA | B4 A2 & D4 D2 | e2 eeee & A2 AAAA |\
+g4 f2 & A4 A2 | e2 feBA | B6 & D6 :: B2 B2 e2 & ^F2 F2 A2 | B2 B2 e2 & ^F2 F2 A2 | D2 f2 e2 | eB A^FED |
+e2 e2 B2 & A2 A2 D2 | e2 e2 B2 & A2 A2 D2 | eagfeB | [A6D6] & G,6 ::[M:C] "_Brisk" e2Ae fBBg |\
+eAAe BDD2 | e2Ae fBBg | eAB^F AG,G,2 ::
+g2eg faBd |  ^cgAe BDD2 | g2eg faBf | eAB^F AG,G,2 ::\
+G,B,DG B,D Ae | feBA ^FE D/C/B,/A,/ | G,B,DA Eagf |
+eBA^F AG,G,2 :: gAaA gAeA | gAag fe BD |\
+gAaA gAeA | B=feB AG,G,2 :: (3DAe (3DAe (3DAf (3DAf |
+(3DAe (3DAe BDD2 | (3DAe (3DAe (3DA=f (3DAf | eAB^F AG,G,2 ::\
+g/A/A/A/ a/A/A/A/ g/A/A/A/ e/A/A/A/ | g/A/A/A/ a/A/A/A/ B/D/D/D/ ^F/D/D/D/ |
+g/A/A/A/ a/A/A/A/ g/A/A/A/ e/A/A/A/ | Bd^cB AG,G,2 :: (AB^cA) (B^cdB) & D4 D4 |\
+(AB^cA) BDD2 & D4 x4 | (AB^cA) B^cdB & D4- D4 | cAB^F AG,G,2 ::
+g/A/a/A/ g/A/e/A/ g/A/a/A/ g/A/e/A/ | g/A/a/A/ g/A/e/A/ B/D/^F/D/ B/D/^F/D/ |\
+g/A/a/A/ g/A/e/A/ g/A/a/A/ g/A/e/A/ | Ed^cB AG,G,2 :|
+%%begintext align
+%% The book has A,EA^c scordatura tuning; transcribed here as in the book.
+%% This tune has two voices, transcribed here with ABC 2.0 voice overlays.
+%%endtext

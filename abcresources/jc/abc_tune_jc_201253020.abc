@@ -1,0 +1,32 @@
+X: 1
+T: Black-Heath
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.303 "D d 2"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The actual time signature is just "2".  Missing half-beat between strains fixed with an added rest.
+M: 2/2
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+B2d2 d2g2 | dcde d2G2 | B2d2 d2g2 | agab a2d2 |\
+g2a2 b2f2 | gfed c2f2 | d2B2 c2A2 | B6 G2 |\
+B2d2 d2g2 | dcde d2G2 |
+B2d2 d2g2 | agab a2d2 |\
+g2a2 b2f2 | gfed c2f2 | d2B2 c2A2 | B6 |] z2 |\
+d2A2 A2dc | =Bc =BA G2d2 | g2d2 d2gf | =ef =ed c2=e2 |
+f4 g4 | agab a2gf | =e2f2 g2=e2 | f6 f2 |\
+b2d2 d2ef | gfed c2de | f2B2 B2cd | edcB A2Bc |\
+d4 =e4 | ^f2B2 g2ab | a2g2 a2^f2 | g6 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The two men lead round their Partners into their own places, the 1. man leads his Partner through the
+%% 2. cu. and cast up .| The we. does the same :| The 1. man sets to the 2. wo. and the 2. man sets to the 1.
+%% wo. the 1. cu. cross over and go the Figure .| The 1. wo. goes between the 2. cu, the 1. man goes between
+%% the 3. cu. the 1. man cast up into the 2. cu. place, the 1. wo. cast off into the 2. cu. place, then
+%% turn hands till the Tune be ended :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,20 @@
+X: 32041
+T: CORRYMONNY STRATHSPEY
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.204 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Added dot to last note to fix the rhythm.
+M: C|
+L: 1/8
+K: A
+uF |\
+E<(C"^>"C>E) A,>EC<F | E<(C"^>"C>E) F>EC<F |\
+E<(C"^>"C>E) (A,>E) (.C>.c) | A<(F"^>"E>C) B,3F |
+E<(C"^>"C>E) A,>EC<F | E<(C"^>"C>E) F>EC<F |\
+E<(C"^>"C>E) (A,>E) (.C>.c) | A<(F"^>"E>C) B,3 ||
+uf |\
+e<c(a>c) (b>c)a>f | e<c(a>g) (f>e)c<f |\
+e<c(a>c) (b>c)a>g | (b/a/g/f/) (a>c) B2 (Bf) |
+e<c(a>c) (b>c)a>f | e<c(a>g) (f>e)c<f |\
+{c}(.e>c) {c}(.d>.B) (c>A)(B>G) | A<(F"^>"E>C) "_Segue Reel."B,3 "^D.C."|]

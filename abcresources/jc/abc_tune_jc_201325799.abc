@@ -1,0 +1,22 @@
+X: 1
+T: Porter On The Fence
+C: Andy Reiner, Eric Robertson, Sage Snider and Kaeden Kass
+%D:2014
+R: reel
+S: https://www.patreon.com/posts/rustic-roots-27198819
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: To make the tune more compact, both strains' pickup notes were moved to the start,
+N: eliminating alternate endings. Of course, you may omit any of the pickup notes, since
+N: they're not significant (and the original copy didn't have the initial B, pickup note,
+N: it was only in the 1st ending).
+M: C|
+L: 1/8
+K: C
+"^A"|: B, |\
+"C"C2EG A2GE | Gc2d ecGE | "F"FEFG Accd | "C"e2ge "F"f2ef |\
+"C"c2eg a2ge | fedc "Am"A2A2- | A2AE "F"FEFG |
+"G"Aced "C"c3 "^B"|: e |\
+"Am"fedc A2A2- | AGEC A,2A,2- | A,CA,G, A,3e |\
+fedc A2A2- | AGE2 "G"G4 |
+G3e "Am"fedc | A2A2- AGE2 | "F"F3E FEFG |\
+"G"AGAB "C"c2ec | "Am"A3E "F"FEFG | "(G)"Ac2d "C"c3 :|

@@ -1,0 +1,36 @@
+X: 10944
+T: JOHN PATERSON'S MARE
+Q: "Gallop time."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.94 #4
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: "D.C. al segno" at end changed to "D.C. al Fin.", since the "segno" makes no sense.
+M: 6/8
+L: 1/8
+K: F
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c/B/ !segno!|\
+AFA {A}f2c | AFA {A}f2A | AFA {A}fcB | A3 (F2A) |\
+BGB {B}g2d | BGB {B}g2d | BGB {B}gdc | B3 G2c/B/ |
+AFA {A}f2c | AFA {A}f2c | AFA fcB | A3 FGA |\
+TB>AB Tc>Bc | Td>cd Te>de | f>ed gdc | B3 "^Fin."G2 H|]
+c |\
+.A/.B/.c.F .A/.B/.c.F | .A/.B/.c.F .A/.B/.c.F | .A/.B/.c.F fcB | A3 F2c |\
+.B/.c/.d.G .B/.c/.d.G | .B/.c/.d.G .B/.c/.d.G | .B/.c/.d.G gdc | B3 G2B |
+.A/.B/.c.F .A/.B/.c.F | .A/.B/.c.F .A/.B/.c.F | .A/.B/.c.F fcB | A3 FGA |\
+TB>AB Tc>Bc | Td>cd Te>de | fed gdc | B3 G2 |]
+c |\
+AFA f2c | .f/.g/.a/.g/.f/.e/ f2c | .f/.g/.a/.g/.f/.e/ fcf | A3 F2A |\
+BGB g2d | .=e/.f/.g/.f/.e/.d/ g2d | .=e/.f/.g/.f/.e/.d/ gdc | B3 G2c |
+AFA f2c | .f/.g/.a/.g/.f/.e/ f2c | .f/.g/.a/.g/.f/.e/ fcf | A3 FGA |\
+TB>AB Tc>Bc | Td>cd Te>de | f>ed gdc | B3 G2 |]
+c |\
+.f/.g/.a/.g/.f/.e/ .f/.g/.a/.g/.f/.e/ | .f/.g/.a/.g/.f/.e/ .f/.g/.a/.g/.f/.e/ | .f/.g/.a/.g/.f/.e/ fcd | A3 F2d |\
+.g/.a/.b/.a/.g/.^f/ .g/.a/.b/.a/.g/.f/ | .g/.a/.b/.a/.g/.^f/ .g/.a/.b/.a/.g/.f/ | .g/.a/.b/.a/.g/.^f/ gdc | B3 G2c |
+.f/.g/.a/.g/.f/.e/ .f/.g/.a/.g/.f/.e/ | .f/.g/.a/.g/.f/.e/ .f/.g/.a/.g/.f/.e/ | .f/.g/.a/.g/.f/.e/ fcf | A3 FGA |\
+TB>AB Tc>Bc | Td>cd Te>de | f>ed gdc | "D.C. al Fin."B3 G2 !segno! |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

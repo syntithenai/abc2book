@@ -1,0 +1,18 @@
+X: 94
+T: Hamkholelet
+C: Amitai Ne'eman 1961
+O: Israel
+N: Tikva Records T104: Dance for Fun, Ayala Goren, Shai Burstyn, Geula Zohar
+M: 2/4
+L: 1/8
+K: DPhr
+Q: 1/4=160
+%%MIDI program 21 accordian
+%%MIDI gchord ff
+"Dm"DA2A|"Gm"BA/G/AG|"Dm"^FGAB|"Gm"AG/^F/Gz|\
+AG2A|G2"Dm"^F2|^FE2F|"Eb"E2"Dm"D2:|
+M: 4/4
+L: 1/8
+K: Gm
+Q: 1/4=120
+|:D|"Gm"G2G2GFGA|B3cAGBz|G3/2F/GA BcAG|[1.B2.B2z2:|[2.G2.G2z2|

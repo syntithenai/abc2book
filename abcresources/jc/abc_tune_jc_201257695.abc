@@ -1,0 +1,87 @@
+
+X: 1
+T: Bulgar \`a le Naftule   [D]
+T: Bulger ale Naftule
+T: Naftule's Bulgar
+T: SB 24 / NB
+R: bulgar
+S: several hand-written pages with unknown origins
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: _B_E^F	% D freygish
+A, "^A"|:\
+"D"D z2 D | "Cm"E z2 E | "D"F z2 A | "Cm"GF ED | "D"{^G=B}A2 F2 |\
+[1,3 "Cm"ED EG | "D"F4 |(3AGF "Cm"(3EDC :|\
+[2,4 "Cm"ED CE | "D"D4- | D2 z :|
+z "^B"|:\
+"Gm"zd dd | dd dd | "Cm"cd ed | cB AG | "D"{^G=B}A2 F2 |\
+[1,3 "Cm"ED EG | "D"F4- | F4 :|\
+[2 "Cm"ED CE | "D"D4- | D4 :|
+[4 "Cm"ED CE | "D"D4 | z :|\
+"^C"|: D "D7"GA |\
+"Gm"B4 | zB AG | "D"A4 | zD FG | A4 | zD B/A/G/F/ | "Gm"G4 | zD "D7"GA |\
+"Gm"B3 D |
+(3BAG (3FED | "Cm"C4 | c3 c | (3cAc (3BAG | "D"(3FGA "Cm"(3GFE |\
+[1 "D"D4 | z:|[2 "D"(3DEF "Cm"EDC | "D"D2 z |]
+
+%%sep 1 1 500
+
+
+X: 2
+T: Bulgar \`a le Naftule   [E]
+T: Bulger ale Naftule
+T: Naftule's Bulgar
+T: SB 24 / NB
+R: bulgar
+S: several hand-written pages with unknown origins
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: ^G	% E freygish
+B, "^A"|:\
+"E"E z2 E | "Dm"F z2 F | "E"G z2 B | "Dm"AG FE | "E"{^A^c}B2 G2 |\
+[1,3 "Dm"FE FA | "E"G4 |(3BAG "Dm"(3FED :|\
+[2,4 "Dm"FE DF | "E"E4- | E2 z :|
+z "^B"|:\
+"Am"ze ee | ee ee | "Dm"de fe | dc BA | "E"{^A^c}B2 G2 |\
+[1,3 "Dm"FE FA | "E"G4- | G4 :|\
+[2 "Dm"FE DF | "E"E4- | E4 :|
+[4 "Dm"FE DF | "E"E4 | z :|\
+"^C"|: E "E7"AB |\
+"Am"c4 | zc BA | "E"B4 | zE GA | B4 | zE c/B/A/G/ | "Am"A4 | zE "E7"AB |\
+"Am"c3 E |
+(3cBA (3GFE | "Dm"D4 | d3 d | (3dBd (3cBA | "E"(3GAB "Dm"(3AGF |\
+[1 "E"E4 | z:|[2 "E"(3EFG "Dm"FED | "E"E2 z |]
+
+%%sep 1 1 500
+
+
+X: 3
+T: Bulgar \`a le Naftule   [B]
+T: Bulger ale Naftule
+T: Naftule's Bulgar
+T: SB 24 / NB
+R: bulgar
+S: several hand-written pages with unknown origins
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: ^f=c^d	% B freygish
+F "^A"|:\
+"B"B z2 B | "Am"c z2 c | "B"d z2 f | "Am"ed cB | "B"{^e^g}f2 d2 |\
+[1,3 "Am"cB ce | "B"d4 |(3fed "Am"(3cBA :|\
+[2,4 "Am"cB Ac | "B"B4- | B2 z :|
+z "^B"|:\
+"Em"zb bb | bb bb | "Am"ab c'b | ag fe | "B"{^e^g}f2 d2 |\
+[1,3 "Am"cB ce | "B"d4- | d4 :|\
+[2 "Am"cB Ac | "B"B4- | B4 :|
+[4 "Am"cB Ac | "B"B4 | z :|\
+"^C"|: B "B7"ef |\
+"Em"g4 | zg fe | "B"f4 | zB de | f4 | zB g/f/e/d/ | "Em"e4 | zB "B7"ef |\
+"Em"g3 B |
+(3gfe (3dcB | "Am"A4 | a3 a | (3afa (3gfe | "B"(3def "Am"(3edc |\
+[1 "B"B4 | z:|[2 "B"(3Bcd "Am"cBA | "B"B2 z |]
+
+%%sep 1 1 500
+

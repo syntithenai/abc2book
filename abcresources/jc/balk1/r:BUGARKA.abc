@@ -1,0 +1,20 @@
+X: 72
+T: Bugarka
+O: Serbia
+F: http://www.youtube.com/watch?v=Sp2GTzqEGrg
+M: 7/8
+L: 1/8
+K: Gm
+%%MIDI beatstring fpmpmpp
+%%MIDI gchord f2f2f2z
+%%MIDI program 21 Accordian
+%%MIDI bassprog 117 Melodic Tom
+"Cm" BcAc BAc|"Gm" BB_AG GGD|"Cm"BcAc BAc|"Gm"BB_AG GGD|"Cm"BcAc BAc|
+"Gm"BB_AG GGF|"Fm"FF=EF G_AF|[1"Gm"GGGc GGD:|[2GGGc B2z|:
+"Gm"B2 dd dcd|"Cm"G2cc cBc  |"Gm"G2 BB BAG|"F"AAAF "Gm"GGG|
+"Gm"G2 dd dcd|"Cm"G2 cc cBc |"Gm"G2 BB BAG|"F"AAAF "Gm"G2z":|
+"Cm"c4-c3-   |c4-c3         |d2B2c2A|B2G2A2F|G4-G3|G4-G3|G4-G3|G4-G3|:
+"Gm"GDBB BAG|AAAF GGF|"Fm"FF=EF GAF|[1"Gm"GGGc GGD:|[2"Gm"GGGc G2z|:
+"Gm"GDBB BAG|GDBB BAG|GDBB BAG|[1"F"AAAF "Gm"GGD:|"F"AAAF "Gm"G2z|
+W:
+W: http://www.folkloretanznoten.de/

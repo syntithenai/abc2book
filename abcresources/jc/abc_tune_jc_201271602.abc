@@ -1,0 +1,14 @@
+X: 453
+T: Severnyashka Racenica
+O: Bulgaria
+M: 4/4
+L: 1/8
+K: G
+Q: 1/4=240
+%%MIDI program 68 Oboe
+|:ez3 ez3 Az3 z4|GAGF GAGF EFGA Bz3|
+  ez3 ez3 Az3 z4|GAGF GAGF EFB,^C ^DEz2::
+  GGFG AGFG G/A/GFG AGFG|G/A/GFG AGFG EFGA B2z2|
+  GGFG AGFG G/A/GFG AGFG|G/A/GFG AGFG AGFE E2z2::
+  FGAB cB<AG GFGB dB<Gz|FGAB c>BAG GFGB d2z2|
+  FGAB cB<AG GFGB dB<Gz|FGAB c>BAG GDEF G2z2:|

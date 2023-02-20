@@ -1,0 +1,83 @@
+
+X: 1
+T: le Branle de la Fosse aux Loups [Am]
+T: the Wolf Pit Branle
+C: Boris Nortier
+%level: 1
+S: https://www.youtube.com/watch?v=20ZYmxHEhWc
+S: https://www.youtube.com/watch?v=HXmGQm2lVdo
+S: https://www.youtube.com/watch?v=Y8SzqfpaY9k
+%Q: 1/4=156
+V: 1
+M: 6/8
+L: 1/8
+K: Am
+  E |"Am"A2E     Ace |  "F"f2e dcA |\
+[1,3 "Dm"d2A  "G"Bcd |  "C"e2d "Em"cB :|\
+[2,4 "Am"cdc "Em"BEB | "Am"A3- Az :|
+|:e | "F"fef "(Dm)"afe |  "G"d3  GBd |\
+[1,3  "C"ede  "G"ged | "Am"cAB cd :|\
+[2,4 "Am"edc "Em"dcB | "Am"A3- Az :|
+
+%%sep 1 1 200
+
+
+X: 1
+T: le Branle de la Fosse aux Loups [Bm]
+T: the Wolf Pit Branle
+C: Boris Nortier
+%level: 1
+S: https://www.youtube.com/watch?v=20ZYmxHEhWc
+S: https://www.youtube.com/watch?v=HXmGQm2lVdo
+S: https://www.youtube.com/watch?v=Y8SzqfpaY9k
+%Q: 1/4=156
+V: 1
+M: 6/8
+L: 1/8
+K: Bm
+  F | "Bm"B2F Bdf |  "G"g2f edB |\
+[1,3  "Em"e2G "A"cde |  "D"f2e "F#m"dc :|\
+[2,4  "Bm"ded "F#m"cFc | "Bm"B3- Bz :|
+|: f |  "G"gfg "(Em)"bgf |  "A"e3  Ace |\
+[1,3   "D"fef "A"afe | "Bm"dBc de :|\
+[2,4 "Bm"fed "F#m"edc | "Bm"B3- Bz :|
+
+% %text https://www.dailymotion.com/video/x50hz1
+%%begintext align
+%% Fosse (or Foss\'e) aux Loups (Wolf Pit/Gap) or  is in
+%% place names scattered around the French-speaking world.
+%% The best-known is probably the street in Brussels.
+%%endtext
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+%%partsspace 0
+
+
+X: 1
+T: Buv\vcansko
+O: Macedonia
+N: Start slow, around 92-100, and slowly speed up to 112 or faster.
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: EDorian
+|: DE E>F GA GF | GA BA AG GF | GA BA AG GF | G/F/E FD E2 E2 :|
+|: AB {A}BB ~B2 B2 | c/d/e d/c/B AG G2 | c/d/e d/c/B AG G>F | G/F/E FD E2 E2 :|
+
+%%sep 1 1 200
+
+%%partsspace 0
+
+
+X: 1
+T: Buv\vcansko
+O: Macedonia
+N: Start slow, around 92-100, and slowly speed up to 112 or faster.
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: F#Dorian
+|: EF F>G AB AG | AB cB BA AG | AB cB BA AG | A/G/F GE F2 F2 :|
+|: Bc {B}cc ~c2 c2 | d/e/f e/d/c BA A2 | d/e/f e/d/c BA A>G | A/G/F GE F2 F2 :|

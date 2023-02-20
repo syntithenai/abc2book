@@ -1,0 +1,17 @@
+X:643
+T:Sally in our Alley
+C:Walsh, 1719
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=100
+%%MIDI beat 100 95 80
+%%MIDI program 4
+%%MIDI chordprog 54
+%%MIDI bassprog 54
+M:3/4
+L:1/8
+K:C
+P:A
+|:z g/f/ ef | "G"e2 de/d/ cd | "Am"c3c/B/ AG | "F"FE DC Cc- | "C"c2 :|
+P:B
+|:z e/f/ ge | "F"ag fe "Dm"fd | "Em"gf ed "Am"ec | "Dm"fe dc "G"BG- | G2 z g/f/ ef |
+"C"e2 de/d/ cd | "Am"c2 "G"Be/f/ gd | "F"fe dc Gc- | "C"c2 :|

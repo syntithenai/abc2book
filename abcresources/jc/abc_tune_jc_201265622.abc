@@ -1,0 +1,22 @@
+X: 913
+T: the Cuckoo's Nest
+R: hornpipe
+%S: s:3 b:17(5+6+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #913
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0913/oneill-1001-0913-1.abc
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 A1A2 BB CA2 CA2
+M: 2/4
+L: 1/16
+K: G
+"^A"[|] \
+(dc) | BABA GBdg | fdcB cedc | BABG \
+[1,3 FGAB | c2A2A2 :|[2,4 FGAc | B2G2"^fine"G2 :|
+"^B"\
+|:(Bc) | dBGB dBGB | dcBA G2(AB) | cAFA cAFA | cBAG F2 |\
+| (BA) | GABc d2g2 | fdcB cedc |
+| BABG FGAc | B2G2G2 :|\
+"^C"\
+|:(Bc) | dggf gabg | afd^c d2(de) | =fede ^fgaf | gfdB c"^->A2"e |]

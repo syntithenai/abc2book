@@ -1,0 +1,170 @@
+%%center Captain Macintosh Standpiece
+%X: 0
+%T: Captain Macintosh Standpiece
+%C: 100304
+%K:
+
+
+X: 1
+T: Captain Macintosh  v.1
+P: piffero primo b0004
+O: Cushing
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/MacintosF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+A2 |\
+d3e d3e | c2A2 A2A2 | d3e d2f2 | a6 f2 |\
+b2g2 g2e2 | a2f2 f2d2 | e2f2 g2e2 | d2c2 B2A2 ||\
+d3e d3e | c2A2 A2A2 |
+d3e d2f2 | a6 f2 |\
+b2g2 g2e2 | a2f2 f2d2 | g2e2 e2c2 | d6 :: f2 |\
+a3b a3b | g2e2 e2f2 | g3a g3a | f6 d2 |\
+A2de f2d2 |
+B2ef g2e2 | b2g2 e2d2 | d2c2 B2A2 ||\
+d3e d3e | c2A2 A2A2 | d3e d2f2 | a6 f2 |\
+b2g2 g2e2 | a2f2 f2d2 | g2e2 e2c2 | d6 :|
+
+
+X: 2
+T: Captain Macintosh  v.2
+P: piffero secondo b0005
+O: Cushing
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/MacintosF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+F2 |\
+F3G F3G | E2F2 E2F2 | F3G F2d2 | f2d2 f2d2 |\
+g2e2 e2c2 | f2d2 A2F2 | G2A2 B2A2 | B2A2 G2F2 ||\
+F3G F3G | E2F2 E2F2 |
+F3G F2d2 | f2d2 f2d2 |\
+g2e2 e2c2 | f2d2 A2F2 | B2G2 G2E2 | F6 :: d2 |\
+f3g f3g | e2c2 c2d2 | e3f e3f | d2A2 d2F2 |\
+G2FG A2F2 |
+G2GA B2G2 | g2e2 c2d2 | B2A2 G2F2 ||\
+F3G F3G | E2F2 E2F2 | F3G F2d2 | f2d2 f2d2 |\
+g2e2 e2c2 | f2d2 A2F2 | B2c2 A2G2 | F6 :|
+
+%%center (drum bridge, Recruiting Sergeant, 8 bars)
+
+
+X: 3
+T: The Recruiting Sergeant
+P: piffero primo b0008
+O: safd 029
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/MacintosF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Em	% and G
+B2 |\
+B2e2 e4 | dcBc dcBA | B2e2 e4 | dcBc A4 |\
+B2e2 e2f2 | gfge d3c | B2G2 A2F2 | G6 :|
+|: g2 |\
+f2d2 d2ef | g2dB G2g2 | f2d2 defg | a6 g2 |\
+f2d2 d2ef | gfge d3c | B2G2 A2F2 | G6 :|
+
+
+X: 4
+T: Norman Toy  v.1
+P: piffero primo b0008
+O: Cushing
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/MacintosF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+z2 |\
+d2A2 d2A2 | d2f2 f4 | B2g2 A2f2 | G2e2 E2c2 |\
+d2A2 d2A2 | d2f2 f4 | A2c2 e2g2 | f2d2 d2 :|
+|: z2 |\
+F2A2 d2=c2 | =c2B2 B4 | A2c2 e2g2 | f2d2 d4 |\
+A2d2 f2g2 | f2d2 A2F2 | G2e2 E2c2 | d4 D2 :|
+
+
+X: 5
+T: Norman Toy  v.2
+P: piffero secondo b0007
+O: Cushing
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/MacintosF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+z2 |\
+d2A2 d2A2 | F2A2 A2d2 | G2B2 F2d2 | B2c2 G2E2 |\
+d2A2 d2A2 | F2A2 A2d2 | e2g2 g2e2 | d2F2 F2 :|
+|: z2 |\
+D2F2 D2F2 | F2G2 G4 | A2A2 c2e2 | d2F2 F4 |\
+A2F2 A2B2 | A2F2 F2D2 | G4 G4 | F4 F2 :|
+
+%%center (drum bridge, Paddy O'Toole, 8 bars)
+
+
+X: 6
+T: Paddy O'Toole
+P: piffero primo b0009
+O: safd 123
+%R: jig
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/MacintosF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+(3A/B/c/ |\
+ded dAF | ABA ABc | ded dAF | Eee efe |\
+ded dAF | ABA A2g | fed dcB | ABc d2 :|
+|: A |\
+dfa afd | cee ecA | dfa afd | Aaa a2A |\
+dfa afd | cee efg | fed dcB | ABc d2 :|
+|: (3A/B/c/ |\
+dAF dAF | ABA ABc | dAF dAF | Eee efe |\
+dAF dAF | ABA A2g | fef dcB | ABc d2 :|
+
+
+X: 7
+T: Go to the Devil and Shake Yourself  v.1
+P: piffero primo b0010
+O: Cushing
+%R: jig
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/MacintosF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+z |\
+Add dcB | ABA AFA | Add d2e | fed B2A |\
+Add dcB | ABA AFA | dfd ege | fdd d2 :|
+|: z |\
+afd dcd | BGG G3  | bge egd | cAA A3 |\
+Add dcB | ABA AFA | dfd ege | fdd d2 :|
+
+
+X: 8
+T: Go to the Devil and Shake Yourself  v.2
+P: piffero secondo b0011
+O: Cushing
+%R: jig
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/MacintosF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+z |\
+AFF BAG | FGF FDF | AFF Fdc | dFG G2A |\
+FFF BAG | FGF FDF | FGF cec | dFF F2 :|
+|: z |\
+fdF FEF | gBB B3  | gec cef | acc c3 |\
+AFF BAG | FGF FDF | FGF cec | dFF F2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

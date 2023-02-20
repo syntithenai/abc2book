@@ -1,0 +1,36 @@
+X: 198
+T: the Recollection of that day
+T: O chiadain an Io
+R: air
+N: This is version 2, for ABC software that understands cres/diminuendo symbols and trailing grace notes.
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" 1816 p.92 # 2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat, but no final repeat symbol; not fixed.
+M: 3/4
+L: 1/8
+Q: "Slow"
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for 2 9,10-bar lines, for compactness and proofreading.
+V: 1 staves=2
+|:\
+!p!e2 ([g4e4] | a)c/B/ [c4E4] | "_cres"{cd}e4 d>e | {e}gc/A/ A4 |\
+!f!{ed}"_dim"c2 [c4E4] | {cd}e>G G3 E | [EC]>[DB,] [D4B,4] |\
+{e}g>e [c3E3] Q(A/qG/) | (A>G) G3 Q(E/qG/) | QTD2 {CD} qC4 ::
+!p! G4 (A>G) | A>c [c4E4] |!f! {cd}"_dim"e3 d (c/B/)(A/G/) | pA>c P[c4E4] |\
+!f!{cd}"_dim"e3 d (e/d/)(A/G/) | p(A>c) P[c4E4] |\
+!pp!e2 QHg4 q| !f!a>"_dim"c QTd4{cd}| q[c4E4] |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+c2 e2 g2 | f2 e2 c2 | c2 e2 g2 | c'2 f4 | [c2c'2] [c2c'2] [c2c'2] | c2 e2 c2 | g2 G4 | 
+z2 c2 e2 | f2 e4 | g2 c4 :: c2 c'2 c2 | [f2c'2] c2 c'2 | c2 d2 e2 |
+ f2 e2 c2 | g2 f2 e2 | f2 e2 c2 | [C2c2] H[c4c'4] | f2 g2 G2 | c4 |]
+% = = = = = = = = = =

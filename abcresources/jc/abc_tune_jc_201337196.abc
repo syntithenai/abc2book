@@ -1,0 +1,16 @@
+X:666
+T:Siege of Limerick
+C:Henry Playford, 1968
+%%MIDI gchord fcHcfc
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=102
+M:3/2
+L:1/8
+K:Dm
+P:A
+|: "Dm"d3e f2d2 "A"a4 | "Gm"e3f "A"g2^c2 "Dm"f4 | "G"=B3d "A"^c2e2 "Dm"def2 | "Dm/A"A2 d2- "A7"d2^c2 "Dm"d4 :|
+P:B
+| "F"c3d cBA2 ABc2 | "Bb"d3e def2 "C"efg2 | "F"a2 f4 c2 "Bb"d2cB | "F/C"AB c2- "C7"c2e2 "F"f4 |
+P:C
+|: "Dm"a3b a2f2 "Gm"d4 | "Em"g3a g2e2 "A"^c4 | "Dm"f3g f2d2 "E7"=B2e2 | "A7"^c2 A2- A2^c2 "Dm"d4 :|

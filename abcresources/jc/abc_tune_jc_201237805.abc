@@ -1,0 +1,28 @@
+X: 292
+T: Loch-ness
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" p.29 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The bass part's last note in each strain is shortened to an 8th note.
+M: C|
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+A/A/A a2 gede | cGGA GAcG |\
+A/A/A a2 gede | cABG A/A/A A :|
+|: B |\
+A>Bcd e>dce | G/G/G GE cG-Gc |\
+A>Bcd egde | cABG A/A/A A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | e2e2 A2A :|\
+|: z |\
+a2a2
+a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | e2e2 A2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

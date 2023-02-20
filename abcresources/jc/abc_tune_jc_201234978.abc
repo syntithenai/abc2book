@@ -1,0 +1,29 @@
+X: 20932
+T: SIUBHAL AN T' SNEACHD TRA OICHE'.
+T: "the TRAVELLER BENIGHTED IN SNOW."
+O: Gaelic air.
+Q: "Pathetically."
+%R: air, slip-jig
+N: This is version 1, for ABC software that doesn't understand diminuendo/crescendo notation.
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.93 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/16
+K: Cm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!p!g>f |\
+{d}e4 (dc) c3BG2 B2F2B,2 |\
+{d}e2c2c2 c2G2c2 {d}e4g2 |\
+!f!f2d2B2 {cd/e/f/g/=a} b2a2g2 f2d2(Bc/d/) |\
+e3dc2 G2c2=B2 c4 :|
+ED |\
+C2!f!c2"_dim."{d}e2 C2c2"_dim."{d}e2 B2F2B,2 |\
+C2c2{d}e2 c2G2c2 {d}e4g2 |\
+!p!(eg3)e2 (db3)g2 f2d2(Bc/d/) |\
+e3dc2 G2c2=B2 {d}c4ED |
+C2!f!c2"_dim."{d}e2 C2"_dim."c2{d}e2 B2F2B,2 |\
+C2"_dim."c2{d}e2 c2G2c2 {d}e4g2 |\
+E2e2g2 D2d2f2 B,2B2d2 |\
+e3fHg2 G,2C2=B,2 {D}C4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

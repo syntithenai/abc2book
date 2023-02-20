@@ -1,0 +1,31 @@
+X: 1
+T: Dam it
+%R: hornpipe
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (63)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+c2 B2 c2 B>A | G>F E>F G2 FE |\
+D>E F>G A>B cB/A/ | G2 B2 c2 C2 :|\
+|:\
+c>d e2 c>d e2 | c>de>f d>BA>G |
+c>d e2 c>d e2 | c>d e>f g3 a |\
+g>fe>d c>BA>e | f2 A>e f3 e |\
+f>ed>c B>A GF/E/ | F2 G2 c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. turn the 2d Cu. across and turn Partners .|
+%% The 1st Cu. go the Hey with the 3d Cu. :| The 1st Cu. set
+%% and the 1st Man cast off the 1st Wo. at the same Time, cast
+%% up to the Top. then take each Hands with the 2d and 3d Cu.
+%% and go half round .| The 1st Cu. meet in the Middle and turn
+%% half round. take Hands with the contrary Cu. and go half
+%% round, which brings the 1st Cu. into the 2d Cu. Place :|
+%%endtext
+%%sep 1 8 500

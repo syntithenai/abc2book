@@ -1,0 +1,23 @@
+X: 1224
+T: Mackenzie's Rant.   a Strathspey.
+%R: strathspey
+B: Niel Gow & Sons "Complete Repository" v.1 p.22 #4 (and top staff on p.23)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+e |\
+A<Ac>e eA/B/ ce | =G<GB>A {A}G2GB |\
+A<Ac>e eA/B/ ce | ae/f/ =g>B A2A :| e |\
+Tc>BAg a>e=gB | =G<GTB>A {A}G2G>B |
+{d}Tc>B Af/g/ ae=gB | ae/f/ =gB {B}A2Ae ||\
+{d}c>B A>g ae/f/ =gB | =G<GB>A G>ABG |\
+A>Bc>e d>e=g>a | =g>eg>B {B}A2A |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | a2a2 a2a2 | =g2g2 g2g2 | a2a2 a2a2 | a2e2 A2A :| z | a2a2 a2e2 | =g2d2 G2G2 |
+A2a2 a2e2 | a2e2 A2A2 || a2a2 a2e2 | =g2d2 G2G2 | A2A2 a2a2 | e2e2 A2A |]

@@ -1,0 +1,15 @@
+X:1
+T:Wizard's Walk
+C:Jay Ungar
+R:Reel
+M:C|
+%%printtempo 0
+Q:180
+K:Em
+"Em"e2 dc BAGF|GAFG E2 B2|e3 f gfef|"B7"gafg e4|
+"Am"a2 gf edcB|cdBc A2E2|A3B cBAB|"E7"cdBc "Am"A4||
+"B7"BB[Bf]B B[Bf]BB|"C"[cg]cc[cg] cc[cg]c|"B7"BB[Bf]B B[Bf]BB|"C"[cg]cc[cg] cc[cg]c|
+"B7"[Bf]BBB "C"[cg]ccc|"B7"[Bf]BBB "C"[cg]ccc|"B7"[Bf]B^cc ^ddee|ffgg aabb||
+|:"Em"egbe bgeg|"B7"^dfbf bfdf|"D"=dfab afdB|"A"^ceae aecA|
+"C"=cege cege|"Em"Bege Bege|"Edim"_Bege Bege|"Bsus4"=Bege "B7""_D.C. al coda"fe^df:|
+!coda!"Em"e2dc BAGF|"_rit"G2 e2 "B7"F2 ^d2|"Em"e4 B2 G2|E4 e2x2|]

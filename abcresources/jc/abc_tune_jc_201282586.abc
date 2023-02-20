@@ -1,0 +1,11 @@
+X:4
+T:Greasy Coat down an octave
+%%vskip -.2cm
+M: C|
+L: 1/8
+R: reel
+K:Ador clef=treble
+A,B, |:"Am"C2 A,A, "G"G,G, A,A,|"Am"CA,G,2 A,2 A,B,|C2 A,2 "G"G,G, A,G,|"Am"G,A,2A,-A,2A,B,|
+CA,G,A, CA,DA,|"Am"E4-E2 D2|C2 A,2 "G"G,G, ED| [1"G"CA,G,2"Am" A,2 A,B, :| [2 "G"CA,G,2"Am" A,3G, ||
+|:"Am"A,B,CD EEFE| "G"F G2 G- GA,CB,| "Am"A,B,CD EFGE|"D"G A2 A- A2 CB,|
+"Am"A,B,CD E2FE|"G" G2 AG EA,DA,|"Am"C2 A,2 "G"G,2 A,G,|"Am"G, A,3 A,4:|

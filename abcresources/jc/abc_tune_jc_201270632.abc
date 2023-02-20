@@ -1,0 +1,22 @@
+X:203
+T:The Duchess
+C:Bob Pasquarello, 2006
+L:1/4
+M:3/4
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=130
+H:For the dance "The Duchess of York Street" by Sue DuPre
+K:A
+P:A
+[| E | "A"c3 | "E7"B3/c/B | "F#m"Ace | "E/G#"fed |\
+"A"c3/d/e | "F#m"cA2 | "Bm"B3/c/d | "Esus"E2 "E7"E |
+P:B
+"A"c3 | "E7"B3/c/B | "F#m"Aag | "D"f3/g/a |\
+"A"e3/d/ c/B/ | "E"AB "E7"G | "A"A2D | "A"C2A |
+P:C
+"D"FA3/F/ | "A"E2A | "D"FA3/F/ | "A"E2A/G/ |\
+"D"F/E/ F/G/ A/F/ | "E"G/F/ G/A/ B/4c/4d/ | "A"c2B | "A"A3 |
+P:D
+"Bm"B/c/ d/B/ A/G/ | "A/C#"c/d/ e/c/ B/A/ | "D"F/G/Ac | "E7"B2d |\
+"A"c/d/ec | "E"B3/A/G | "D"A3- | "A"A3 |]

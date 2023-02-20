@@ -1,0 +1,25 @@
+X: 16131
+T: Cease Your Funning
+%R: air, jig
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.6 p.13
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/16
+K: D
+%%slurgraces 1
+%%graceslurs 1
+|: "_Slow"\
+d4{fg}a2 {g/}f2{e}d4 | {ef}g4{f}e2 {d/}c2{B}A4 | f2{e}d4 (BG3)B2 | e2A2{d}c2 d6 ::\
+d4d'2 d'2a4 | d4b2 b2g4 | c4a2 a2d2c2 | B2a2^g2 a3bc'd' |
+d4{fg}a2 {g/}f2{e}d4 | (efg2){f}e2 {d/}c2{B}A4 | .f2d4 B2G2B2 | e2A2{d/}c2 d6 ::\
+defgag f2d'4 | efgabd c2a4 | defgaf B2b4 |
+cdefgc {c}d6 ::\
+DFAd fa bagfed | cegfbg (fe)(dc)(BA) | DFAd fa e2d'2c'2 | d'bc'ab^g a3=gfe |
+d2d'2d2 fgafed | b2G2b2 cdecBA | d'2d2d'2 bagfed | egfbac {c}d6 ::\
+(d/e/f/g/) ada2 fdadfd |
+(e/f/g/a/) bagf (e/f/e/d/) (c/d/c/B/)A2 | (d/e/f/g/) (a/g/f/e/) (d/c/B/A/) B2G2B2 | e2A2(dc) {c}d6 ::\
+(d/e/f/g/) afaf d'2a2z2 |
+(D/E/F/G/) (A/B/c/d/) (e/f/g/a/) b2g2z2 | (cd)(ef)(gb) (a/b/a/g/) (f/g/f/e/) (d/e/d/c/) | B2a2^g2 a(g/f/) (e/d/c/B/)A2 |\
+(d/e/f/g/) afaf d'2a2z2 |
+(e/f/g/a/) bagf (e/f/e/d/) (c/d/c/B/)A2 | (d/e/f/g/) (a/g/f/e/) (d/c/B/A/) B2G2b2 | (af)(ge)(fc) d6 :|

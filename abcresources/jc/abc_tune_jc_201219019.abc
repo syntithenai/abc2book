@@ -1,0 +1,29 @@
+X:0202
+T:The Bumpkin/Ninesome Reel
+P:The Bumpkin/Ninesome Reel
+C:»Cobbler's Opera« 1729
+R:Jig (12x24) ABC
+B:RSCDS 2-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+V:1
+%%staves (1 2)
+[V:1] "C"[c3G3C3] "G"[B3G3D3]|"Am"ABG "D"FED|"G"GAG BAB|GAG BAB|\
+[V:1] "C"[c3G3C3] "G"[B3G3D3]|"Am"ABA "D7"fef|
+[V:1]                                         "G"g2d "Am"ed"D7"c|"G"BAB GAB||\
+[V:1] "C"c2 (3d/e/f/ "G"gdB|"C"ABG "D7"FED|"G"GAG BAB|GAG BAB|
+[V:1] "C"G2f "G"gdB|"Am"ABA "D7"fef|"G"[g2G2]d "Am"ed"D7"c|"G"BAB G3||\
+[V:1] "Am"cAc "G"BGB|"Am"AB"A7"G "D"FED|
+[V:1]                                   "G"GAG BAB|GAG BAB|\
+[V:1] "Am"cAc "G"BGB|"Am"ABA "D7"fef|"G"g2d "Am"ed"D7"c|"G"BAB G3|]
+%V:2
+%[V:2]    x6                  |    E3     x3 |   B,6    |B,6    |\
+%[V:2]    x6                  |    E3      A3 |
+%[V:2]						 x6             |   x6     ||\
+%[V:2]    x6                |   x6         |   B,6    |B,6    |
+%[V:2]    x6        |    x6         |   x6                 |   x6    ||\
+%[V:2]     E3     D3 |    E3         x3 |
+%[V:2]                                      B,6    |B,6    |\
+%[V:2]     C3     D3 |    E3      A3 |   G3      x3     |   x6    |]

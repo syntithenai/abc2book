@@ -1,0 +1,19 @@
+X:1013
+T: Goldensteyn Khosidl
+M: 3/8
+L: 1/8
+N: According to Frank London's Brass
+K: Amin
+Q: 1/4=72
+%%MIDI gchord czc
+"Am"z3|z3|z3|z3|E A2-|A3|c>B B/A/| c>B B/A/|\
+c>B B/A/| c>B B/A/|"E" E ^G2-|G3-|G3-|G (3Bc^c|
+"Dm" d3-|d3-|d3| d>c c/B/|d>c c/B/|d>c c/B/| d>c c/B/|\
+"Am"e A2-|A3-|A3-|A (3^cd^d|"A7"e3-|e3-|e3|
+g>f f/e/| g>f f/e/|g>f f/e/| g>f f/e/|\
+"Dm" a d2-|d3-|d3-|d (3d^c=c|
+"E"B e2-|e3-|e3| edc| Bcd|eBc|BcE|\
+"Am"E A2-|A3-|A3-|A (3^cd^d|"A7"e3-|e3-|e3|
+g>f f/e/| g>f f/e/| g>f f/e/| g>f f/e/|\
+"Dm"a d2-|d3-|d3-|d (3d^c=c|"E"B e2-|
+e3|edc| Bcd|edc| BcE|"Am"EA2-|A3-|A3|

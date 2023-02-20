@@ -1,0 +1,26 @@
+X: 183
+T: Round: The Hunt.
+C: W. W. Pearson.
+Q: "Allegro."
+%R: jig
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+%%barsperstaff 4	% 3-staff layout for easy reading.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% The book has 4 lines of 3 bars each:
+%
+"^1"[| B2 c d2 d | (cB) c B2 z | F B B B F F |
+w: Hunts-man, sound the wind-*ing horn;  Cheer-i-ly, cheer-i-ly
+%
+F2 F F2 z |]"2"[| D2 F B2 B | (FD) F D2 z |
+w: greet the morn.  Thro' the vale the call* re-sounds;
+D D D D D D | E D C D2 z |]"^3"[| "^>"f2 z "^>"f2 z |
+w: Mer-ri-ly, mer-ri-ly gath-er the hounds.  Hark! hark!
+%
+F B F B2 z | B d f f d B | c B A B2 z |]
+w: for-ward they go,  Hunts-men and dogs with a wild Tal-ly-ho.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

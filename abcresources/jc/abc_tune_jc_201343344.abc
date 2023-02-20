@@ -1,0 +1,70 @@
+
+X: 1
+T: Tarantella di Peppina
+O: Trad Italy
+R: tarantella
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+% %scale 0.65
+%%vocalfont Helvetica-Narrow-Bold 16
+M: 6/8
+L: 1/8
+K: D
+"^Intro"\
+| "D"[A3F3] "G"[B3G3] | "D"[A6F6] | "A7"[cA3]cc [cG3]cc |1 "D"d6F6 :|2 "D"[d3F3] \
+"^Chorus"[|] "A7"AAA | "D"d3 A3 | F3 AAA |
+w: | | | | | * Co-me son bel-la-la co-me se
+| "A7"c3 A3 | G3 AAA | c3 A3 | G3 AAA | "D"B3 A3 | F2d d2d | "G"d6 | B3 ddd |
+w: bel-la-la di mi la bal-lo-lo la ta-ran- tel-la-la, o Pip-pi-nel-la la ta-ran-
+| "D"d6 | A2d d2d | "A7"c2c c2c | e2e edc | "D"d6- | "fine"d3 ||
+w: tel-la o bel-la bel-la bel-la bel-la bel-la con me!
+K:Dm
+"^Vocal"\
+[|] A,DF \
+| "Dm"A3 "Gm"B3 | "Dm"A3- A2B \
+| ABA "A7"GFE | "Dm"F3 A,DF \
+| A3 "Gm"B3 | "Dm"A3- A2B \
+| ABA "A7"GFE | "Dm"D3 A2A |
+| "A7"A2A AAA | G2A G2A \
+| GGG GFE | "Dm"F2F F2F \
+| F2F FED | "A7"E2E A2A \
+| A2G F2E | "Dm"D3 "C"c2c |
+|| "C"c2c c2c | c2c c2c \
+| c2c BAG | "F"A3 z3 \
+| "Dm"A2A A2A | "A7"^c2G G2G \
+| A2G F2E | "Dm"D2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Tarantella di Peppina
+O: Trad Italy
+R: tarantella
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+% %scale 0.65
+%%vocalfont Helvetica-Narrow-Bold 16
+M: 6/8
+L: 1/8
+K: E
+"^Intro"\
+| "E"[B3G3] "A"[c3A3] | "E"[B6G6] | "B7"[dB3]dd [dA3]dd |1 "E"e6G6 :|2 "E"[e3G3] \
+"^Chorus"[|] "B7"BBB | "E"e3 B3 | G3 BBB |
+w: | | | | | * Co-me son bel-la-la co-me se
+| "B7"d3 B3 | A3 BBB | d3 B3 | A3 BBB | "E"c3 B3 | G2e e2e | "A"e6 | c3 eee |
+w: bel-la-la di mi la bal-lo-lo la ta-ran- tel-la-la, o Pip-pi-nel-la la ta-ran-
+| "E"e6 | B2e e2e | "B7"d2d d2d | f2f fed | "E"e6- | "fine"e3 ||
+w: tel-la o bel-la bel-la bel-la bel-la bel-la con me!
+K:Em
+"^Vocal"\
+[|] B,EG \
+| "Em"B3 "Am"c3 | "Em"B3- B2c \
+| BcB "B7"AGF | "Em"G3 B,EG \
+| B3 "Am"c3 | "Em"B3- B2c \
+| BcB "B7"AGF | "Em"E3 B2B |
+| "B7"B2B BBB | A2B A2B \
+| AAA AGF | "Em"G2G G2G \
+| G2G GFE | "B7"F2F B2B \
+| B2A G2F | "Em"E3 "D"d2d |
+|| "D"d2d d2d | d2d d2d \
+| d2d cBA | "G"B3 z3 \
+| "Em"B2B B2B | "B7"^d2A A2A \
+| B2A G2F | "Em"E2 |]

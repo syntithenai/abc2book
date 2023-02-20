@@ -1,0 +1,20 @@
+X: 2202
+T: FRANCIS SITWELL
+Q: "Strathspey."
+R: Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.2 p.23 #202
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The f in bar 4 has a dot, but there's no flag on the A; not fixed.
+N: Initial note lengths in the two endings don't agree; not fixed.
+M: C
+L: 1/8
+K: Bb
+uf |\
+vd>vB (F<B) G2 uE>uG | vF>uB e/d/c/B/ A<c c>uf |\
+vd>vB (F<B) G2 uE>uG | vF>uB Af d<B B ::\
+ug |\
+f<B g<B f2 ud>ug |
+vf>B e/d/c/B/ A<cc> [1 g |\
+f<B g<B f<B b>uf | e/d/c/B/ vA>uf vd<B B :|[2 uf |\
+vd>vB (F<B) G2 uE>uG | vF>uB A<f d<B B |]

@@ -1,0 +1,29 @@
+X: 20971
+T: LABITSKY'S AURORA WALTZES. INTRODUCTION.
+Q: "Allegretto."
+%R: waltz
+N: This is version 1, for ABC software that doesn't understand diminuendo/crescendo notation.
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.97 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|!p!\
+(.f.g .a2) z2 | (.g.a .b2) z2 | (.a.b .c'2) .b2 | a!ff!z d'z z2 !p![|"Andantino."\
+G>B (d3 g) | ((3Bdg b3 g) | f>A c2 e | (3(ded) B4 | G>B (d3 g) |\
+(((3Bdg) b3 g) | (fAc) e3 (d | G4) z2 !p!|]
+[|"Allegretto."\
+(.^d.e .f2) z2 | (.e.f .g2) z2 | (.f.g .a2 .g2) | f!ff!z [bfdB]z Hz2 |[| (3(bae) c4 |\
+(3(agd) B3 G | (FAcedc) | (B/"_cres."d/g/b/) d'4- |\
+d'/("_dim."c'/a/e/ c4) | (c'/b/"_dim."g/d/ B3 G) | (FAcedF) |]\
+[M:9/8] (G3- GDB ADd) |
+d3- d/.d/.d/.d/(3(^c/d/e/) (dAB) |\
+(G3- GDB ADd) |\
+d3- d/.d/.d/.d/(3(^c/d/e/) (dAB) |\
+(G3- GDB GdB) |\
+(g3- g.d.b .g.d'.b) |\
+(g/d/b/g/d/B/ g/d/B/G/d/B/ G/D/B/G/D/B,/) |\
+[GG,]z2 !ff!z.[gdBG]z Hz2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

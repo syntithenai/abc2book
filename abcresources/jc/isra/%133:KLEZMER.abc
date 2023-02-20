@@ -1,0 +1,26 @@
+X: 133
+T:Klezmer
+O:Israeli
+I:Dance taught by Yo'av Ashriel
+L:1/8
+M:2/4
+Q:1/4=120
+K:Cm
+|:"Cm"c2 e2      |g2  fe           |c2 e2               |"Gm"d2 "Cm"G2 |\
+  c2 e2          |g2 "Fm"fe        |"Bbm"bb "Fm"aa      |"Cm"g4        |
+  "Fm"f2 a2-     |aa "Cm"gf        |c'2 c2-             |ce "Fm"dc     |\
+  "Cm"cG ce      |gg "Fm"fe        |ff "Cm"ed           |c4            :|
+  "Cm"c'g gg     |"Fm"ag "Cm"gg    |c'g gg              |"Fm"ag "Cm"gg |\
+  "Fm"c'2 "Bbm"b2|"Fm"a2 "Cm"g2    |"Fm"ff f/g/a/g/     |f2 fg         |
+  "Cm"egeg       |"Fm"f3 f         |cf cf               |"Cm"e2 e2     |\
+  "Fm"ba "Cm"gf  |  ef ed          |"Fm"c4              |
+K:Fm
+|:"Fm"z CDC      |F2 A2-           |A c BA              |F2 A2         |\
+  G2 EC          |F2 A2-           |A cBA               |"Cm"ee dd     |
+  "Cm"c4         |"Bbm"B2 d2-      |df ed               |"Fm"ff F2-    |\
+  "Dbm"F B"Abm"AG|"Db"FC FA        |\
+  "Ab"cc "Eb"BA  |"Bbm"BB "Fm"AG   |"Fm"F4              :|
+  "Fm"fc cc      |dc c2            |fc cc               |dc c2         |\
+  f2 "Cm"e2      |"Gb"d2"Cm"c2     |"Gm"BB "Cm"B/c/d/c/ |"Gm"B3 c      |
+  "Db"Ac"Ab"Ac   |"Eb"B3 B         |"Bbm"FB FB          |"Fm"A4        |\
+  "Cm"ed "Fm"cB  |"Fm"AB AG        |"Fm"F4              |

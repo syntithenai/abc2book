@@ -1,0 +1,27 @@
+X: 1
+T: Frank and easy
+%R: minuet
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (119)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/2
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+G2 c4 g2 e2c2 | ef g4 a2 g4 |\
+efg2 cde2 d2G2 | G2 d4 e2 d4 |]\
+c2 f4 g2 a2f2 | a2gf e2f2 g4 |
+c2 f4 g2 a2gf | e2d2 e2^c2 d4 |\
+f2 e4 d4 e2 | c2de fedc d2G2 |\
+f2ef def2 e2c2 | e2dc BcdB c4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First right and left half round then the 1st Man and 2d
+%% Wo. lead thro the 2d Cu. and cast off into their Places
+%% .| Then the 2d Man and 2d Wo. do the same :| The
+%% 1st Man and 1st Wo. take both hands and slide down the
+%% Middle and foot it and then slide up the Middle and foot
+%% it then cast off and go the whole figure with the 2d Cu.
+%%endtext
+%%sep 1 8 500

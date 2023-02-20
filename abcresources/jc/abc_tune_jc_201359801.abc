@@ -1,0 +1,98 @@
+X:1
+%
+%%topmargin      2.50cm
+%%titlespace     -0.30cm
+%%titleleft true
+%%tabfontitalian Borrono
+%%tabfontsize 13
+%%tabrhstyle  modern
+%
+T:Passacalles por la C.
+C:Gaspar Sanz
+L:1/4
+M:C
+K:italian5tab
+%
+%staff 1
+!strumup![cdc1] !strumdown!y |\
+	!strumup!y1 !strumdown!y !strumup!y !strumdown!y |\
+	!strumup![dd,,c1] !strumdown!y !strumup!y !strumdown!y |\
+	!strumup![,ccc1] !strumdown!y !strumup!y !strumdown!y |\
+	!strumup![cdc2] || ;,d1 a |\
+	[cd,a1],d [cd,a]a/:c | [daa1],a [daa],c/,d |
+%staff 2
+[dcc1],a [dcc],a/,c | T[cd,a2] || ,d1 a |\
+	!strumup![cdc1] !strumdown!y !strumup![fdfe] a/c |\
+	!strumup![dd,,c1] !strumdown!y !strumup![haa] f/h |\
+	!strumup![ffgh1] !strumdown!y !strumup![fccce] d/f |\
+	T!strumup![cdc1] || ,c/,a ,,c,,a ,,,e,,,c |
+%staff 3
+[cd,a1][da,c] [cbc]a/c | [daa1]d/c a/,d,c,a |\
+	[,,c,a/],,e,,c,,a ,,,e,,a,,,e,,,c |\
+	T,,,a2 || ,,,,a1,,,,c |\
+	!strumup![,b,cd1] !strumdown!y [cbc]a/c |\
+	!strumup![dd,,c1] !strumdown!y !strumup![dcc] ,a/,c |
+%staff 4
+!strumup![cdc1] !strumdown!y T[a,,,a] ,d/,c |\
+	T[,d,a1] || a/,d ,c,a,,c,,a |\
+	[,d,e1]f/d ca,d,c | [,a,a1]d/c a,d,c,a |\
+	[ac,,a1],,,,e/,,,,c ,,,,a,,a,,,e,,,c |\
+	T,,,a2 || ,d/,c,da |
+%staff 5
+[c,,a/]dca ,d,c,a,,c | [,aa/]fdc a,d,c,a |\
+	[,c,,a/],d,c,a ,,c,,a,,,e,,,c ||\
+	,,,a/,d,c,a ,,c,,a,,,e,,,c |\
+	[c,,a/]a,d,c ,a,,c,,a,,,e |\
+	[,aa/]fdc
+%staff 6
+a,d,c,a | [,,c,a/],,a,,,e,,,c ,,,a,,,,e,,,,c,,,,a ||\
+	[,d,a/]fdf [c,c]d [a,a]c |\
+	[,d,e/],d,c,d [,a,a],c [,,c,e],a |\
+	[,aa/]dcd [a,a]c [,d,e]a |\
+	[,c,,a/],,c,,a,,c [,d,e],,a [,c,c],,,e ||
+%staff 7
+,,,a/,l,i,l [,hh],i,,k,h | ,,,a/lkl [h,h]k,ih |\
+	,,a/dcd [ac]c,da | ,,,,a/fdf [c,,a]dac ||\
+	[,d,a/]d [d,e]f [c,c]a ([c,,a//]dca) |
+%
+%%newpage
+%
+%staff 8
+[,d,a/]d [,c,c],d [,a,a],,,,a [,a,,(c//],,,,e,,,,c[,,,,a)] |\
+	[,aa/]d [c,c]d [a,a],a ([,cc//],d,c,a) |\
+	[,c,,a/]f [d,e]f [c,c],,,,a [,,a,(c//],,,,e,,,,c[,,,,a)] ||\
+	[,d,a/],,c [,d,e],,a [,cc](d//c a/)c |
+%staff 9
+,d/,,,e [a,a],,c [,de](,,,,e//,,,,c ,,,,a/),,,,c |\
+	,,a/,,,a [,c,c],,e [,aa](,d//,c ,a/),c |\
+	,,c/a [c,,a]e [f,,,e](,,,e//,,,c ,,,a/),,,,e ||\
+	[,d,a/]dca ,d(,,,a//,,,c ,,,e/),,a | ,,c/lkh
+%staff 10
+,l(,f//,h,i/)f | h/a,d,c ,a(,,a//,,c,,e/),,a |\
+	,,c/fdc a(,,,,a//,,,,c,,,,e/),,,,a ||\
+	[,d,a/]a [c,,a]e [f,,,e],c,da |\
+	[cd/],a [,cc],d [a,a],,,a,,,c,,,e |
+%staff 11
+[,aa/],,,,c [f,,,e],,,a [e,,c]ace |\
+	[f,,,a/],,a [,,c,e],a [,c,,a],,,e,,a,,c ||\
+	[,d,a/]lkh [,l,,a]hf,i |\
+	[,h,a/]dca [,d,,c]ca,d |\
+	[,c,,a/],,,e,,,c,,,a [a,,,e],,,a,,,,e,,,,c | [,c,,a/]fdc
+%staff 12
+[a,,,e]dca ||\
+	[,d,a/][ha] ([k,,,a//]lkh) ,i/h,,,h,i |\
+	,,,,k/[a,a] ([c,,a//]dca) ,d/c,,,c,d |\
+	,,,,e/[,aa] ([,,ce//],,e,,c,,a) ,,,e/f,,ac |\
+	,,,c/[,aa] ([,c,,a//],d,c,a) ,,c/,,a c,,,c ||
+%staff 13
+,,,a/,c,,,aa ,,,ea ([c,,a//]dca) |\
+	[,d,a/]a,,,ed f,,,,a (,,,,c//,,,,e,,,,c,,,,a) |\
+	[,aa/],,,ed,,,,a ,a,,c ([,c,,a//],d,c,a) |\
+	,,c/a,,,,e,d a,,,,a (,,c//,,e,,c,,a) || [,d,a/],,,c,,,e,,a
+%staff 14
+([,,c,a//],,e,,c,,a) ([c,,a]dca) |\
+	[,d,a/],,,,c,,,,e,,,a [,,a(c//],,,e,,,c[,,,a)] ([,c,,a],d,c,a) |\
+	,,c/,,,a,,,c,,,e [,,a,(c//],,,,e,,,,c[,,,,a)] [,,a(c],,,e,,,c[,,,a)] |\
+	,,,,e/,,,c,,,e,,a ([,,c,a//],,e,,c,,a) ([c,,a]dca) |\
+	[,d,a4] |]
+

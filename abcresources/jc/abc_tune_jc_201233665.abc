@@ -1,0 +1,22 @@
+X: 20061
+T: DONALD
+Q: "Slow"
+%R: march, reel
+B: "Edinburgh Repository of Music" v.2 p.6 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+~d>e |\
+{d}f2 (f/e/)(d/c/) {e}d3 A | (cB)(AG) (A/G/F) zA |\
+F<Adf (f3/g//f//) ed | (d^d)e2 z2
+=d>e |\
+{d}f2 (f/e/)(d/c/) {d}d3 A | (cB)(AG) (A/G/F) zA |\
+F<Adf a<fTe>f | d2 ((3deHf) .e.d |]
+f2 |\
+a2(gf) (fe)(e>g) | f>dBg (f3/g//f//) ef |\
+(ag) (gf) (f/e/)(g/f/) ed | (d3/e//f//) e2 z2
+~d>e |\
+{d}f2 (f/e/)(d/c/) {e}d3 A | (cB)(AG) (A/G/F) zA |\
+F<Adf a>f Te>f | d2 ((3deHf) .e.d |]

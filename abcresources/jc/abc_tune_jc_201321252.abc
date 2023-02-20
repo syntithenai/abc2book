@@ -1,0 +1,25 @@
+X: 1
+T:Yellow Walls and Potholes
+M:6/8
+L:1/8
+Q:80
+C:Composed by T. O'Connor
+S:March
+K:HP
+|: {g}A|
+{Gdc}d2{e}A{gef}e2A|
+{g}f3/2g/2a{fg}f3/2e/2d|  !
+{a}g3/2e/2{A}e{g}e3/2g/2e|
+{gfg}f3/2d/2{c}d{gef}e3/2c/2{d}A{Gdc}d2{e}A{gef}e2A|
+{g}f3/2g/2a{fg}f3/2e/2d|  !
+{g}B3/2d/2{c}d{g}c/2{d}A3/2e|
+{g}f3/2d/2{c}d{gdc}d2:| |:
+{gf}g|  !
+{ag}a3/2d/2{c}d{g}d3/2a/2d|
+{g}d3/2f/2{g}d{ag}a3/2d/2{c}d|
+{a}g3/2e/2{A}e{g}e3/2g/2e|  !
+{gfg}f3/2d/2{c}d{gef}e3/2c/2{d}A|1 {ag}a3/2d/2{c}d{g}d3/2a/2d|
+{g}d3/2f/2{g}d{ag}a3/2d/2{c}d|
+{g}B3/2d/2{c}d{g}c/2{d}A3/2e|  !
+{g}f3/2d/2{c}d{gdc}d2:|
+

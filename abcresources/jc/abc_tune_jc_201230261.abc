@@ -1,0 +1,27 @@
+X: 1351
+T: My wife is a wanton wee thing
+%R: jig
+B: Niel Gow & Sons "Complete Repository" v.1 p.35 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: A few trailing grace notes were moved past the bar line to the next measure.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+fe |\
+d2A dfe | {c}~d3 A2B | =c>dc cGE | T=c3 E2^c | d2A dfe | {c}Td3 A2G | FDF ECE | D3 D2 :| F/G/ | A>BA FDF | A3 {AB}=c3 "^*"|
+G>=cG ECE | TG3 B3 | AdA FDF | A3 Tg3 | {fg}fdf ece | {c}Td3 D2F/G/ | ABA FDF | AdA FDF | GAG E=CE | G=cG ECE |
+ABA FDF | AFA aeg "^*"|\
+Tf>ga gfe | {c}d3 D2 |: f/e/ | d2g faf | Td3 A2B | =c>dc cGE | T=c3 {Bc}E2^c | d2A dfe |
+{c}d3 A2G | FDF ECE | D3 D2 :| f/g/ | aba fdf | Ta3 g2f | g>ag e=ce "^*"|\
+Tg3 {fg}efg | a>ba fdf | a3 Tg3 | {fg}fdf ece |
+{c}d3 D2f/g/ | aba fdf | aba fdf | gag e=ce | Tg>ag e=ce | a>ba fdf | aba gab | fga gec | {c}d3 D2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | d3 d3 | d3 d3 | =c3 c3 | =c3 cc2A | d3 d3 | f3 d3 | a3 A3 | D3 d2 :| z | d3 d3 | d3 d3 |
+=c3 c3 | c3 c3 | d3 d3 | f3 e3 | d3 A3 | D3 D3 | d3 d3 | d3 d3 | =c3 c3 | =c3 c3 | d3 d3 | d3 c3 |
+d3 A3 | D3 D2 |: z | d3 d3 | d3 d3 | =c3 c3 | =c3 A3 | d3 d3 | d3 d3 | a3 A3 | d3 d2 :| z | d'3 d'3 | d'3 d'3 | =c'3 c'3 |
+=c'3 ^c'3 | d'3 d'3 | f3 e3 | d3 A3 | f3 D2z | d'3 d'3 | d'3 d'3 | =c'3 c'3 | d'3 d'3 | d'3 d'3 | d'3 g3 | a3 A3 | d3 D2 |]

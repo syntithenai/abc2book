@@ -1,0 +1,25 @@
+X: 10963
+T: BONNIE JEAN
+O: Scottish air.
+Q: "Slow."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.96 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(TB>A) |\
+G2 (GA/B/) D3E | G>FG>A {GA}B2(A>G) |\
+c3e (d>B)(TA>G) | A>BAG E2(TB>A) |\
+G2 (B^c/d/) D3E | G2(A>B) g2(Tf>e) |\
+d>edB (AB)(cd) | {c}B2(A>G) G2 :|
+|: de/f/ |\
+g2(ga/b/) d3e | g>fga {ga}b2g>a |\
+(ba)(gf) d>egB | A>BAG E2 TB>A |\
+G2 (B^c/d/) D3E | G2(A>B) g2(fe) |\
+d>gB>g (AB)(cd) | {c}B2A>G G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

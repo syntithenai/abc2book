@@ -1,0 +1,27 @@
+X: 5
+T: the Kentish Cricketters
+%R: reel
+B: Kitty Bridges "Collection of Country Dances 1745" p.5
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-bridges1745
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: There is no time signature in this tune.
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: none
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+B |\
+AFdB AF DB | AFde {d}c2 EF/G/ |\
+AFdB AFDf | edef ddd d :|
+|:\
+d/e/f/g/ afbg ag | edef e/e/e e2 |\
+d/e/f/g/ afbg af | edef d/d/d d2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center The Kentish Cricketters
+%%begintext align
+%%   Hands across quite round with the
+%% 2d Coup.l then back again, Cross over two
+%% Coup.l Lead up to the top and Cast off
+%% One Couple, Set and Corners and lead
+%% out at the Sides.
+%%endtext

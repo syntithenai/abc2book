@@ -1,0 +1,14 @@
+X: 203
+T: Kumanovsko Oro
+O: Bulgaria
+M: 4/4
+L: 1/8
+Q: 1/4=160
+K: C
+%%MIDI drum d2ddddd2 41 41 41 41 41 41 120 60 60 60 60 120
+%%MIDI drumon
+%%MIDI program 111
+c4 BcBc|A6 B2|c4 BcBc|A6 z2|
+%%MIDI program 21
+GAAB cdcB|GAAB cdcB|
+c4 BcBc|A6 B2|c4 BcBc|A6 z2|

@@ -1,0 +1,19 @@
+X: 21681
+T: THE SHEPHERDESS
+R: jig
+B: K\"ohler's Violin Repository, v.2, 1885 p.168 #1
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Fixed incorrect length of first B in bar 5.
+M: 12/8
+L: 1/8
+Q: "Moderato."
+K: F#m
+uD |\
+CFA ({AB}c2B) AFF {GF^E}(.F2.G) | AGA ({AB}c2B) AFE (E2{FE}D) |\
+CFA ({AB}c2B) AFF {GF^E}(.F2.a) | f>ed (c2B) AFE [E2C2] :|
+uf |\
+{f}(e2d) {d}(c2B) (A2B) {dcB}(.c2.a) | {f}(e2d) {d}(c2B) AFF {GF^E}(.F2.a) |\
+{f}(e2d) {d}(c2B) (A2B) {AB}(.c2.A) | {Bc}B>AB {AB}(c2B) AFE (.[E2C2].a) |
+{f}(e2d) {d}(c2B) (A2B) {dc^B}(.c2.a) | {f}(e2d) {d}(c2B) AFF {GF^E}F2f/g/ |\
+agf edc {Bc}B>AB cea | {fg}fed {d}(c2B) AFE [E2C2] "^D.C."|]

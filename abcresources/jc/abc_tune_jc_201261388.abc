@@ -1,0 +1,16 @@
+X:115
+T:Charlie is my Darling
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=130
+M:4/4
+%%MIDI program 73     Flute
+%%MIDI chordprog 25   Acoustic Guitar (steel)
+%%MIDI bassprog 33    Electric Bass (finger)
+L:1/8
+K:Em
+P:A
+|: z | "Em"E>FG>A B2e>B | "Am"c2e>c "Em"B2e2 | "Em"E>FG>A B2e>f | "Am"g<e"B7"f>^d "Em"e2z :|
+P:B
+|:e | "B7"^d>B^c>d "Em"e>fg>e | "B7"^d>B^c>d "Em"e2-e>f | "C"g>fg>e "G"d>BGA/B/ |1 "Am"c>A"Em"B>G "B7"F2"Em"B :|2 "Am"c>A"Em"B>G "B7"F2B |]
+P:Last time last bar
+|| "Am"c>A"Em"B>G "B7"F2"Em"E2 |]

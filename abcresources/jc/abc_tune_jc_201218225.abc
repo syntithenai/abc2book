@@ -1,0 +1,32 @@
+X: 7
+T: O Rouke's Feast
+C: Carolan
+%R: jig
+B: "The Hibernian Muse" p.4 #2 - p.5 #1
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: "G.F." probably means "German Flute".
+P: No. VII.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+G |\
+(B/c/d)d dBG | c2c (c/d/e)c | dBd (e/f/g)e | (f/g/a)f g3 |\
+(g/f/g/a/)b abg | fge Td>cB | cAd BGd | e3 Tf3 |
+g2g gBd | eAa Tf>ed | e2e e(d/e/g) | dBTA/G/ G2 |]\
+D |\
+(E/F/G)G GDG | (GA/B/c) dBG | (F/G/A)A AEA | (AB/c/d) ecA |
+d2d d(e/d/c) | B2B B(c/B/A/G/) | (F/G/A)A ABA | GFE D2"G.F."c & x3 x2C |\
+B/c/dx G Bd & (B,/C/D)D G B,D | TGFG AFD | Td2c (B/c/d)B | (F/G/A)D G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g3 G3 | e3 c3 | g2b c'2c | d'3 dg2 |\
+b2g c'2a | d'2c' b2g | a2f g2B | c2B A2d |
+G3 g3 | c'2a d'>c'b | c'2c c'2b | d'2d g2 |]\
+z |\
+c'3 b3 | g2a b3 | d'3 c'3 | a2b c'3 |
+b2c' b2a | g2d G3 | d3 d3 | e3 f3 |\
+g3 G3 | b2g d'2c' | b2a g3 | d3 G2 |]

@@ -1,0 +1,25 @@
+X: 1
+T: Sv\"ang-Schottis    [G]
+T: Swing-Shottish
+C: Nils O.Lundin
+R: shottish
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+P: AABBACCA
+K: G
+"^A"|:\
+"G"d>d ^c>d "^>"e2 "^>"d2 | "^>"B2 "^>"G2 "^>"D3 z | "G"G>G F>G A2 "C#dim"G2 | "D7"F6 z2 |\
+"Am"e>e ^d>e "^>"f2 "^>"e2 | "^>"c2 "^>"A2 "^>"E2 z2 | "D7"D>D ^C>D "^>"d2 "^>"c2 | "G"B6 z2 |
+"G"d>d ^c>d e2 d2 | B2 G2 D3 z | "G"G>G F>G "G7"A2 G2 | "C"E6 z2 "I"|\
+"C"e>e ^d>e "C#dim"f2ye2 | "G"d>d ^c>d "E7"e2 d2 | "Am"d>d c2 "D7"B>B A2 | "G"G2 D2 !fine!G2 z2 :|[K:=f]
+K: D
+"^B"|:\
+"A7"A>^G A>^A B2 c2 | "D"d>c de f2 d2 | "A7"(3fgf e2 e>^d e>f | "D"(3efe d2 [d2A2] z2 |
+"A7"A>^G A>B c2 A2 | "D"d>c d>e f2 d2 | "A7"(3fgf ef g2 c2 | "D"d2 d2 d2 "^d.C."z2 :|
+K: C
+"^C"|:\
+"C"G2 e>^d e2 G2 | "D(m)7"e2 d>^c d4 | "G7"F2 d>^c d2 F2 | "C"[d2G2E2] d>_d c4 |\
+"F"A2 A>B c2 c>A | "C"G2 G>c e4 | "D7"d2 d>e d>c B>A | "G7"G2 F2 E2 D2 |
+"C"G2 e>^d e2 G2 | "D(m)7"e2 d>^c d4 | "G7"F2 d>^c d2 F2 | "C"d2 c>B c4 |\
+"F"A2 A>B "F#dim"c2 c>A | "G7"G>A G>F "A7"E4 | "D7"A2 A>c "G7"B2 B>d | "C"c2 G2 c2 "^d.C."z2 :|

@@ -1,0 +1,29 @@
+X: 1
+T: Miss Ann Monro's Reel
+C: Abraham Mackintosh
+R: jig
+S: handout for Mari Black online session 2022-2-6 (www.mariblack.com)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bm
+# = = = = = = = = = =
+V: 1 staves=2
+"^A"|: F |\
+"Bm"B3 f3  | "F#"edc "Bm"dcB | "A"Acd edc |aed cBA ||\
+"Bm"B3 fgf | "F#"edc "Bm"dcB | "/F#"efd "F#"edc | "Bm"dBB B2 :|
+"^B"[| c |\
+"Bm"dfB dbB | dcB fdB | "A"ceA caA | cBA "F#"edc ||\
+"Bm"dfB dbB | dcB fdB | "/F#"efd "F#"edc | "Bm"dBB B2c ||
+"Bm"dfB dbB | dfB dbB | "A"ceA caA | ceA caA ||\
+"Bm"BdB "F#"cec | "Bm"dfd "F#"ege | "Bm"fgf "F#"edc | "Bm"dBB B2 |]
+# = = = = = = = = = =
+V: 2 clef=bass middle=d
+|: z |\
+Bdf dfb | ^a3 b3 | c'3 a3 | c3 A3 ||\
+Bdf b3 | [f3^a3c'3] b3 | f2B f2F | B3 B2 :|
+[| z |\
+B3 b3 | b3 B3 | A3 a3 | a3 [^a3c'3] ||\
+b3 B3 | B3 b3 | f2B f2F | B3 b3 ||
+b3 B3 | b3 B3 | a3 A3 | a3 A3 ||\
+B3 ^A3 | B3 c3 | d3 f2F | B3 B2 |]

@@ -1,0 +1,36 @@
+X: 1
+T: Radi le
+P: ABA C1 D C2 DE C3 FGHIJKLMN
+O: Strandzha, E. Thrace
+Z: John Chambers <jc@trillian.mit.edu> (from a handwritten MS)
+N: Presented by Iliana Bozhanova and Lyuben Dossev, 1998
+W: O Radi, young man from Karyak, they've invited you to a Turkish wedding to sing for them.
+W: To a Turkish wedding, Radi, to sing for them, and even to dance for them.
+W: Dear old mother, I won't go, no, I'll never to to a turkish wedding, I'll never bow my head to Turks.
+M: 13+9/16
+L: 1/16
+K: Em
+"A"|: GB, FE GB, F2E  GA AB  | GB, F2E EF GA | GB, FE GB, F2E GA  AB | GB, F2E E2 E2 :|
+"B"|: AB  c2 GA  G2=F E2-E^F | GA  A2F G2-GA | BA  B2 AB G2=F GA- AB | GA G2=F E4 :|
+"C"|: {G}A2 A2 (AB) (GAF) (G3F) | E2 (GAF) G4 | {G}A2 A2 (AB) (G2F) (GA2G) | (G=F) E3 E4 :|
+w: 1.Ra-di le,* mla-**de* ka-ryach-**ko, Ra-di le,* ka-*ni-** li* sa te
+w:   na tur-ska* svat-**ba* je-ruch-**ka, Ra-di le,* da* im** po-*pe-esh.
+w: 2.Na tur-ska* svat-**ba* ju-ruch-**ka, Ra-di le,* da* im** po-*pe-esh.
+w:   Ra-di le,* da** im* po-pe-**esh i o-shte* da* im** po-*plesh-ish.
+w: 3.Ma-le le* sta-**ra* maj-chi-**tse ne ho-dya,* ma-*le,** ne* ho-dya
+w:   na tur-ska* svat-**ba* je-ruch-**ka, na tur-tsi* gla-*va** ne* kla-nyam.
+"D"|: ED EF GA A2F G2- GA | G=F E2^F GA A2 | ED EF GA A2F G2- GA | G=F E3 E4 :|
+"E"|: ^GA GF Ez E2F G2- GF | E2 ^GAF G4 | ^GA GF Ez E2F G2- GF | GA G2F E4 :|
+"F"|: A2- AB  cd d2c de- ed | dz d2e  d2 cB | A2  AB .c2 c2B d2- de | c_B A3 A4 :|
+"G"|: A2- AB .c2 c2B cd- de | fe e2d- de cB | cd d2 de cdB c2- cd | c_B A3 A4 :|
+K:A^c_B
+"H"|: cd cB AG A2B c2- cB | AB cde c4 | cd cB AG A2B c2- cB | cd c2B A4 :|
+K:Bm
+"I"|: B2- Bc de e2d ef f2- | fe e2f e2 dc | B2- Bc .d2 d2c de- ef |1 de d2=c B4 :|2 d=c B3 B4 ||
+"J"|: fg  f2 ed f2d e2- ef | d=c B2^c d2- de | fg f2 ed f2d e2- ef |1 d=c B3 B4 :|2 d=c B3 BAB^c ||
+K:A_B^f^c
+"K"|: de dc BA GAB c2 cB | ce dcB .c2 c2- | ce dc BA GAB c2- cB |1 cd dcB .A2A2 :|2 cd c2B .A2A2 ||
+K:Am
+"L"|: cd d2 de cdB c2- c_B | A2 cdB c4    | cd d2 de c2d cd- dc | c_B A3 A4 :|
+"M"|: cE BA cE B2A cd  de  | cE B2A Bc de | cE BA cE B2A cd  de | cE B2A AE A2 :|
+"N"|: cd d2 de cdB c2- c_B | A2 cdB c4    | cd d2 de c2B cd- dc | c_B A3 A4 :|

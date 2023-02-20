@@ -1,0 +1,17 @@
+X:544
+T:O mio babbino caro
+T:O my beloved father
+C:Puccini, from "Gianni Schicchi"
+N:Converted from 6/8 to 3/4 and transposed from A flat to G.
+B:http://www.petruccilibrary.us/files/imglnks/music_files/PMLUS00724-Puccini_-_GianniSchicchi_vocalscore.pdf page 71
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=90
+M:3/4
+L:1/4
+K:G
+[| "G"GGG | B2F | "Em"E3 | "G"D3 | "G"GAB | "Em"G2g | "G/B"d3 | "G"d2B |
+"D"d2A | "Am"c2B | "Em"G3 | G3 | "A7"GAB | "/"G2F | "D"A3 | "D7"A2D |
+| "G"G3 | BGF | "Em"E3 | "G"D3 | "G"GAB | "Em"G2g | "G/B"d3 | "G"d2e |
+"C"g2e | "D"d2c | "Bm"d3 | "Em"B3 | "C"GAB | "Am"G2E | "Em"G3 | G2e |
+"Am"g2e | "D7"d2c | "G/B"g2d | "C"c2B | "Am"e2c | "D7"B2A | "G"G3- | G3 |]

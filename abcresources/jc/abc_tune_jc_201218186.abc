@@ -1,0 +1,29 @@
+X: 6
+T: Mrs Casey
+O: "In Fontainbleau"
+%R: jig
+B: "The Hibernian Muse" p.4 #1
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. VI.
+M: 6/8
+L: 1/8
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B |\
+G2E EFE | D2D DED | {F}E2E EFE | G3 B2B |\
+G2E EFE | D2D D>ED | E2E E>FE | G3 B2D |
+G2A B2c | d2e d2B | G2A B2c | d3 e2d |\
+Te2c Td2B | Tc2A HB2A | G2E E>FE | Tc3 B2B |
+G2E E>FE | D2D DED | G2E EFE | G3 B2A |\
+{A}G2E EFE | D2D D>ED | G2E E>FE | G3 B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+e6 | d6 | e6 | e6 |\
+e6 | d6 | e6 | e3- e2z |
+g6 & G6 | g6 & G6 | g6 & G6 | g6 & G6 |\
+g6 & G6 | g3- g2z & G3- HG2z | e6 e6 |
+e6 | d6 | e6 | e6 |\
+e6 | d6 | e6 | e3- e2 |]

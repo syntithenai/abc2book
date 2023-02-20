@@ -1,0 +1,28 @@
+X: 1
+T: All Through the Night
+P: piffero primo c0000
+O: Welsh traditional
+%R: march
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+V: 1
+V: 2
+%%score (1 2)
+% - - - - - - - - - -
+V: 1 staves=2
+[|\
+G3F  E2G2 | A3G  F2D2 | E4   F3F  | G8 |\
+G3F  E2G2 | A3G  F2D2 | E4   F3F  | G8 |
+c2B2 c2d2 | e2d2 c2B2 | c2B2 A2G2 | B3A G2F2|\
+G3F  E2G2 | A3G  F2D2 | E4   F3F  | G8 |]
+% - - - - - - - - - -
+V: 2 
+[|\
+B,2D2 E2D2 | ^C2E2 F2D2 | =C4  E2D2 | B,CDD D2C2 |\
+B,2D2 E2D2 | ^C2E2 F2D2 | =C4  E2D2 | B,2EC D2E=F |
+E2G2  G2G2 | G2A2  G2E2 | E2D2 E2E2 | G2F2  E2D2 |\
+B,2D2 E2D2 | ^C2E2 F2D2 | =C4  E2D2 | B,2C2 B,4 |]
+%% - - - - - - - - - -

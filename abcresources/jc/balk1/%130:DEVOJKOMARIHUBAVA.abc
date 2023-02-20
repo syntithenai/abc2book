@@ -1,0 +1,18 @@
+X: 130
+T: Devojko Mari Hubava
+O: Bulgaria
+F: http://www.youtube.com/watch?v=J7iO_dKqKho
+F: http://www.youtube.com/watch?v=GRKAdtLjvc8
+M:2/4
+L:1/8
+Q:1/4=88
+K:Am
+%%MIDI program 42
+P:A
+|:A,B,CB,|{C}D4|{G}A,4|GFED|DCB,D|
+  A,B,CB,|D3G, |A,4   |A,4 |z4   :|
+P:B
+  {G,}A,4|C2D2 |E4    |E4  |A2E2 |\
+  E2D2   |D3C  |ED3   |D4- |D4   |
+|:A4     |G2F2 |E4    |D3C |E2E2 |DC2B,|\
+  C2D2   |B,A,3|A,4   |A,4 :|

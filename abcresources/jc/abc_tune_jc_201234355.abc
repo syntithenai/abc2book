@@ -1,0 +1,19 @@
+X: 20444
+T: la CHOCAILLON
+R: Quadrille.
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.44 #4 (and p.45 #1)
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+ABc |\
+d2c d2c | d2f ABc | d2c d2c | d2f ABc |\
+d2c d2f | ea^g fed | cfe dcB | A3 :|
+|: A2-A |\
+A3 Ace | g3 e2A | A3 Adf | a3 f2e |\
+edc cBA | ^GBd fed | Afe dcB | A3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

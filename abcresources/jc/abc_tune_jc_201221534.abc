@@ -1,0 +1,35 @@
+X: 4
+T: LINCOLN'S INN GARDEN
+R: minuet
+M: 3/2
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Thomas Bray's Country Dances 1699 p.12
+P: AA BB ad lib.
+Q: 1/2=80 "sweeping"
+K: Bb
+%----------------------------------------
+% V:1 arranged to give fewer, longer staff lines.
+V: 1
+"A"|:\
+f4 d4 (ga) (gf) | g2 b4 d2 c2B2 |\
+f2d2 B3A GAB2 | ABc2 f2A2 G2F2 :|\
+"B"|:\
+D2F2 Bcd2 G4 | g3g f2e2 d2c2 |
+A2c2 fga2 d2a2 | b3a g2ab g2f2 |\
+b2a2 g2f2 b2d2 | gfed c2B2 c2F2 |\
+GAB2 ABc2 def2 | g3f e2d2 c2B2 :|
+%----------------------------------------
+V: 2
+|:\
+D4 F4 E2D2 | E4 D2B,2 A,2B,2 | C2D2 G4 C4 | C4 C2F2 =E2F2 :| 
+|:\
+D4 D4 _E2D2 | C4 =B,2C2 D2E2 | F4 D2C2 D4 | D2 G4 F2 =E2F2 |
+F4 G2A2 B4 | B4 A2B2 A2F2 | E2G2 A4 B4 | G4 A2B2 A2B2 :|
+%----------------------------------------
+V: 3 clef=bass middle=d
+|:\
+"Bb"B8 "Eb"B2-"Bb"B2 | "Eb"e4 "Bb"B4 "F"f2"Bb"B2 | "F"A2"Bb"B2 "Eb"e4 "C"=e4 | "F"f4 A2F2 "C"c2"F"F2 :|
+|:\
+"Bb"B8 "Eb"e4 | "Cm"e4 "G"d2"Cm"c2 "G"g2"Cm"c2 | "F"f8 "Dm"f4 | "Gm"g3f "C"=e2"F"f2 "C"c2"F"f2 |
+"Bb"d4 "Eb"_e2"Dm"d2 "Gm"g2g2 | "Eb"e4 "F"f2"Bb"B2 "F"f2"Bb"d2 | "Eb"e4 "F"f4 "Bb"B4 | "Eb"e3d "F"c2"Bb"B2 "F"f2"Bb"B2 :|

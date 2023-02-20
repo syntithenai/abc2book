@@ -1,0 +1,16 @@
+X: 32022
+T: WALKER STREET HORNPIPE
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.202 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: There seems to be an extra segno.
+M: C|
+L: 1/8
+K: G
+uD2 !segno!|\
+G2(BG) dGBG | ABcd cBAG | Bdgd egdB | cBAG FADF |
+G2(BG) dGBG | ABcd cBAG | Bdgd egdB | edcA G2 :|
+|: (uef)!segno!|\
+{a}g2(dg) Bgdg | gabg agef | g2(dg) Bgdg | cBAG FADF |
+{a}g2(dg) Bgdg | gabg agef | gfga gfed | egfa gedB !segno!"_D.C.":|

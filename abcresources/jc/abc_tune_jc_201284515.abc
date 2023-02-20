@@ -1,0 +1,52 @@
+X: 1
+T: Hap-hazard
+P: Longways for as many as will
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.32 #55
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.121 "M"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Rewrote the unusual use of "segno" as an ordinary repeat.
+N: The tune and dance are identical, but the dance is worded somewhat differently (and has the usual spelling and puctuation differences.)
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |:\
+G2 B2 (cB) (AG) | F2 A2- A2 d2 | (GA)B2 B2 (cd) | e4 (dc) (BA) |\
+G2 B2 (cB) (AG) | F2 A2- A2 (Bc) | d2 B2 e2 d2 | g4 G2 g2 |
+f2 a2- a2 (gf) | (gf) (ga) b2 a2 | g2 (fg) (ag) (fe) | d2 (ef) (gf) (ed) |\
+(ef) (ga) (Bc) (dB) | (cd) e2 A2 a2 | (fg) a2 d2 f2 |[1 g2 (fe) (dc) (BA) :|[2 g6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu. cross over and go into the 2d Cu. Place, and 2d Cu. cross over
+%% and go into the 1st Cu. Place, the 1st Man cross over into the 2d Wo.
+%% place, and 1st Wo. into the 2d Man's place; then all four take hands
+%% and go round 'till they come into their own places again, the rest
+%% following and doing the same: This to the Tune twice over.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1st Cu. cast off into the 2d Cu. place, and the 2d Cu. into the 1st
+%% Cu. place, and Back to Back with their own; then right and left
+%% hands with your own, and go round 'till you come into your places
+%% the rest doing the same: This to the Tune twice over.
+%% [CCDM1]
+%%endtext
+%%sep 1 8 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First man and first wo. cross over and go into the 2. cu. place, and the 2. man and 2. wo. cross over and
+%% go into the 1. cu. place, then 1. man cross over into the 2. wo. place, and 1. wo. into the 2. man's place,
+%% then all four take hands and go round till they come into their own places again, the rest following, and
+%% do the same over again. This to the Tune twice over.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then 1. cu. cast off into the 2. cu. place, and 2. cu. into the 1. cu. place, and back to back with their
+%% own, then right and left-hands with your own, and go round till you come into your places; The other
+%% Couples do over the same.  This to the Tune twice over.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

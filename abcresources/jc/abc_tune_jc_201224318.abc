@@ -1,0 +1,70 @@
+%%text RJ Set 081 Old-Time Reels
+
+
+X: 1
+T: Liza Jane
+I: J-99 A reel
+M: C|
+R: reel
+K: A
+ef |\
+"A"a2f2 e2ce | fecB A4 | a2f2 e2c2 | "D"f4- f2ef |\
+"A"a2f2 e2ce | fecB A2AB | "D"cBAF "E"E2F2 | "A"A6 :|
+|: BA |\
+"A"c4 c3A | B2(A2 A)ABA | c2B2 A2E2 | "D"(F6 F)E |\
+"D"F2A2 "E"B3A | BAcA B2AB | "D"cBAF "E"E2F2 | "A"A6 :|
+
+
+X: 2
+T: Spotted Pony
+I: RJ R-48 D reel
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+FE |\
+"D"D2D2 "A"E2E2 | "D"FDF2 "G"G4 | "D"ABde fede | f2a2 "A"e2 FE ||\
+"D"D2D2 "A"E2E2 |
+"D"FDF2 "G"G4 | "D"ABAB dBAG | "D"F2"A"E2 "D"D2 :: z2 |\
+"D"f2a2 f4 | "G"efed BcdB |
+"D"ABde fede | f2a2 "A"e4 ||\
+"D"f2a2 f4 | "G"efed BcdB | "D"ABAB dBAG | "A"F2E2 "D"D2 |]
+
+
+X: 3
+T: North Carolina Breakdown
+C: Arthur L. Smith 1937
+I: RJ R-150 G reel
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: G
+D2 |\
+"G"G2G2 EDEF | GFGA Bdef | "C"g2f2 edef | "D"gage dBAF |\
+"G"G2G2 EDEF |
+GFGA Bdef | "C"g2f2 edBA | "D"dBAF "G"G2 :: d2 |\
+"C"[e2g2][e2-g2-] [e2g2][e2-g2-] | [e2g2]g2 gag2 |
+"G"[d2g2][d2-g2-] [d2g2][d2-g2-] | [d2g2][dg][dg] [B2g2][d2g2] |\
+"C"[e4g4] g2b2- | b2b2 agef | "G"gage dBAB | "D"dBAF "G"G2 :|
+
+
+X: 4
+T: Kansas City
+I: RJ R-152 A reel
+R: reel
+Z: transcribed to ABC by Debby Knight
+M: C|
+L: 1/8
+K: A
+% begintext ragged
+%  The first time, play quarter notes instead of the pairs of eighth notes in the first measure. Make them loud.
+% endtext
+cB |\
+"A"A-AcB A-AcB | Aceg aega | "E7"bgeg fecd | ecef ecBc |\
+"A"A2cB A2cB |
+Aceg aega | "E7"bgeg fecd | "A"ecB2 A2 :: cd |\
+"A"e3e e3=g | fecd ecBA |
+"G"B3c B2=g2- | =gfeg fecA |\
+"A"e3f e2e=g | fecd ecBA | "E7"Bege fefg | "A"ga2g a2 :|
+% text 06/16/07
+

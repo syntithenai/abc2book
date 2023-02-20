@@ -1,0 +1,21 @@
+X: 1
+A:Adam de la Halle
+T:Li dous regars de ma Dame
+N: (condensed)
+M:3/4
+L:1/4
+Q:1/4=120
+K:G Mixolydian
+%
+V:1 clef=treble
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+%%MIDI program 1       70 bassoon
+%%MIDI program 2       71 clarinet
+%%MIDI program 3       72 piccolo
+%
+[V:1] D (E/F/    G)|       G    (F/ E/ G) |C  (DE)  |F  (D E) |G (FE)| F  (E D) |(F/E/) (G/F/E)  |G3 ||
+[V:2] G      G/4F/4E/ D |(D/C/) (B,/A,/G,)|F, (G,A,)|B, (B,C) |D  G,2| F, (A,B,)|(C/D/) (C/B,/A,)|G,3||
+[V:3] G,       G,2      |       G,   (B,/C/ D) |G  (DC)  |B, (G,A,)|G, B,2| C  (A,G,)|(F,/A,/)      C2     |D2 ||
+w:    Li       dous            re-          gars**   de  ma*   da- me*   me fait es-pé-*          rer*        mer-    ci.
+%

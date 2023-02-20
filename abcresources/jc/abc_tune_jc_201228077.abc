@@ -1,0 +1,56 @@
+X: 11061
+T: HARRISON'S GRAND MARCH
+C:
+R: march
+N: This is version 1, for ABC software that doesn't understand voice overlays or tremolo notation.
+N: The original has the 2 treble voices on one staff, but this doesn't work well in ABC.
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.106
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+!f!A>B |\
+c2c>c f3e | edcB A2F>A |\
+c2c>c B2A2 | G2G>G G2A>B | c2c>c f3e | edc=B cGAB |
+cegg =Bdgg | c2c>c c2 :: !f!c2 |\
+b3a gfed | c3B Acde | f2f>g a>f c'>a | g2g>g g2c2 |
+(b3a) (ag)(gf) | (fe)(ed) (dc)(cB) |\
+Acfa Gceg | f2f>f f2 H:: !p!A>B |\
+c2- c/d/c/B/ AcAc | B2- B/c/B/A/ GBGB |
+A2G>G A>F c>A | G2G>G GAA=B |\
+c2- c/d/c/B/ AcAc | B2- B/c/B/A/ GBGB |\
+AFcA | GEGc | F2F>F F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+!f!F>G |\
+A2A>A A2c2 | cBAG F2z2 |\
+A2A>A G2F2 | E2E>E E2F>G |\
+A2A>A A3G | GFED E2z2 |
+E2E2 F2F2 | E2E>E E2 :: !f!c2 |\
+g3f edcB | A3G F2z2 |\
+A2A>z f2a>f | e2e>e e2z2 |
+(g3f) (fe)(ed) | (dc)(cB) (BA)(AG) |\
+F2Ac E2GB | A2A>A A2 H:: !p!F>G |\
+A2- A/B/A/G/ FAFA | G2- G/A/G/F/ EGEG |
+F2A,>C F2A>F | E2E>E EFG^G |\
+A2- A/B/A/G/ FAFA | G2- G/A/G/F/ EGEG |\
+F2F2 E2E2 | F2F>F F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+!f!z2 |\
+f2f>f f2a2 | b2c'2 f2z2 |\
+f2z2 e2f2 | c2c'>c' c'>ba>g |\
+f2f>f f2d2 | g2G2 c2z2 |
+c2c2 G2G2 | c2c>c c2 :: !f!z2 |\
+([e'4c4-] [c'2c2]) z2 | zcde f2z2 |\
+f2z2 f2f>a | c'2c'>c' c'2z2 |
+[d'6c6] [c'2c2] | [c'2c2][c'2c2][c'2c2][c'2c2] |\
+f2f2 c2c2 | f2f>f f2 :: !p!z2 |\
+fz fz fz fz | cz cz cz cz |\
+f2z2 f2F>A | c2c>c c2z2 |\
+fz fz fz fz | cz cz cz cz |\
+f2f2 c2c2 | f2f>f f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

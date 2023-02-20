@@ -1,0 +1,35 @@
+X: 20792
+T: HARRISON SETT (tune 5)
+C:
+%R: jig
+N: Version of the Jockey's Dance
+B: Elias Howe "The Musician's Companion" 1843 p.79 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+G |\
+c2c Gce | g2g g2e | gfd fec | dfe d2G |\
+c2c Gce | g2g g2e | d2a g2f | e2c c2 H|]
+B/c/ |\
+d2d d2e | d2d d2g | ^fed def | gab d2B/c/ |\
+d2d d2e | d2d d2g | ^fed def | a3 "^D.C."g2 |]
+E |\
+A2B c2d | e2e e2a | e2d cBA | Bdc B2E |\
+A2B c2d | e2e e2a | edc BAB | AcB "^D.C."A2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chasse across,
+%% turn corners,
+%% back and turn on the corners,
+%% all balance,
+%% turn partners,
+%% grand chain,
+%% all promenade,
+%% -- repeat the figure.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

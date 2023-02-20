@@ -1,0 +1,24 @@
+X: 20823
+T: the FLOWERS OF THE FOREST
+O: Old Scottish air.
+Q: "Slow with feeling."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.82 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+G2G>A (GA)(cd/e/) | (fe)({e}dc) (A>c){A}GE |\
+(3DEG G>A GA (c(3d/e/f/) | e2{e}d>c c3z |\
+_B2 (B/d/c/B/) (A>G)Ac | (Ge){e}dc A>c{A}GE |\
+_B2 (B/d/c/B/) {B}A>GA>c | (Ge){e}d>c c3z |]
+egg>a (ag)fe | (ge){e}d>c (Ac){A}GE |\
+egg>a agfe | (d/e/f/e/) {e}d>c c2 zd |\
+e<gg>a (ag)fe | {g}fe{e}dc (A>c){A}GE |\
+(3(DEG) G>A GA (c(3d/e/f/) | e2 {e}d>c c2 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

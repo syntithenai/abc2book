@@ -1,0 +1,27 @@
+X: 243
+T: HONble Mrs F. GRAY
+C: NATH GOW
+R: Strathspey
+B: Glen Collection p.24 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: F
+V: 1
+f !segno!|:\
+c>d f>g (a/g/).f/.e/ Tf2 | c>d f>a gG B<d |\
+c>d f>g (a/g/).f/.e/ (.f>.d) |1 c<A f>d c>F A<f :|2 c<A fd cF A<d ||
+(cA) (.f.A) aAT cA | (cA) (.f>.d) cG Bd | (cA) (.f>c) a>f ge | f>c d<f AF A<f |
+(cA) (.f.A) aAT cA | .c(f e).f (g>G) B<d | (cA) (.a>f) g>e f>d | c>f e/f/g/e/ f>F A<f !segno!|]
+%
+V: 2
+z |:\
+f2[c'2a2] [c'2a2][c'2a2] | f2[c'2a2] c2[g2e2] |\
+f2[c'2a2] [c'2a2][a2f2] |1 [a2f2][b2f2] [a2f2][f2F2] :|2 [a2f2][b2f2] [a2f2][f2F2] ||
+[f2F2][a2f2] [c'2f2][a2f2] | [a2f2][a2f2] [g2e2c2][g2e2c2] |\
+[f2F2][a2f2] [c'2f2][a2f2] | [a2f2][b2f2] [a2f2]f2 |
+[f2F2][a2f2] [c'2f2][a2f2] | f2[c'2a2] c2[g2e2] |\
+f2[c'2f2] [b2f2][a2f2] | [a2f2][b2g2c2] [a2f2][f2F2] |]

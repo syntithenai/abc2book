@@ -1,0 +1,19 @@
+X: 1
+T: Fiddler's Moon
+T: Melody & Harmony
+%D:2014
+C: \251 David A. Kaynor, June, 2014
+S: https://natunelist.net/fiddlers-moon/
+M: 4/4
+L: 1/8
+R: reel
+V: 1 staves=2
+K: Dm
+[V:1]|: Ac |"Dm"dcAF "G"G2AG |"Am"FDCA, "F"CFAc |"Dm"dcAF "G"G2FG |"Am"Addc "Dm"d2"Am"fe |
+[V:2]|: FA |    AAFD    D2FE |  DA,A,A,   A,DFA |    AAFD    D2FE |    FAAA     A2    dc |
+[V:1]| "Dm"dcAF "G"G2AG |"Am"FDCA, "F"CFAc |"Dm"dcAF "G"G2AG | "Am"FDEF "Dm"D2 :|
+[V:2]|     AAFD    D2FE |  DA,A,A,   A,DFA |    AAFD    D2FE |    FA,CD     D2 :|
+[V:1]|: Ac |"Dm"defa "G"g2ag |"Am"fedc "Dm"dAAc | defa "G"g2ag | "Am"edcA "Dm"d2Ac |
+[V:2]|: FA |    Acdf    d2fe |    dcAG     AFFA | Acdf    d2fd |     cAGE     F2FA |
+[V:1]| "Dm"defa "G"g2ag |"Am"fedc dABc | "Dm"dcAF "G"G2AG | "Am"FDEF "Dm"D2 :|
+[V:2]|     Acdf    d2fe |    dcAG AEGA |     AGDD    D2FE |    DA,CD    A,2 :|

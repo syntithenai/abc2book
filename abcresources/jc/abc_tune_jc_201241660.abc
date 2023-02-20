@@ -1,0 +1,29 @@
+X: 451
+T: Mr BAILLIE OF MELLERSTON
+C: NATH. GOW
+R: Strathspey
+B: Glen Collection p.45 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Em
+%
+V: 1
+e |\
+B<E B>d D>E Fd | B<E B>F E>F GA | B<d F<d d>e Fd | B<E B>F {F}E2 E :|
+g/a/ |\
+be- e>.f d>e fa | be- e>g e>g e^c | d<f B<d D>E Fd | B<E B>f {F}E2 Eg/a/ |
+be- e>.f d>e f/e/f/a/ | be- e>.f e>g e^c | d<f B<d D>E Fd | Ee (B/A/)G/F/ {F}E2 E |]
+%
+V: 2
+z |\
+e2[b2g2] f2[d'2a2] | e2^d2 e2[b2g2] |\
+[b2g2][a2d2] d2[d'2a2] | e2^d2 e2[bge] :|
+z |\
+e2[b2g2] f2[d'2a2] | e2[b2g2] g2g2 |\
+f2[b2f2] d2[a2f2] | e2^d2 e2[b2g2e2] |
+e2[b2g2] f2[d'2a2] | e2[b2g2] g2g2 |\
+f2[b2f2] d2[a2f2] | e2^d2 e2[bge] |]

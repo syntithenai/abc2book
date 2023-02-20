@@ -1,0 +1,19 @@
+X: 1
+T: Ding Dong! Merrily on High
+O: Anonymous 16th c. French tune
+B: From Carols for Choirs, v.1, Oxford, 1960, ed. by Reginald Jacques and David Willcocks
+R: march, reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+F: http://serpent.laymusic.org/~lconrad/music/carols/dingdong/score.abc	 2007-01-26 21:28:22 UT
+M: 4/4
+L: 1/4
+K: D
+|:\
+"D"d d "Em" e/d/c/B/ | "A"A3 A |\
+"G"B{c}d "A7"dc | "D"d2 d2 :|
+[|\
+"D"a>g "(Bm)"f/g/a/f/ | "Em"g>f "(A7)"e/f/g/e/ |\
+"Bm(D)"f>e "Bm"d/e/f/d/ | "A7(Em)"e>d "A7"c/d/e/c/ ||
+||\
+"G(Bm)"d>c "G" B/c/d/B/ | "A"c>B AA |\
+"G"Bd "A7"dc | "D"d2 d2 |]

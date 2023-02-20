@@ -1,0 +1,26 @@
+X:1
+T: What Shall We Do With the Baby-O?
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A
+% voice 1 (1 lines, 13 notes)
+K:G
+M:4/4
+L:1/16
+D4 G4 G8 |A4 A4 B8 |D4 B4 B4 G4 |A4 G4 G8 |
+%W:
+% voice 1 (1 lines, 14 notes)
+D4 G4 G4 G4 |A4 A4 B8 |d4 d4 d4 B4 |A4 G4 G8 |
+%W: B
+% voice 1 (1 lines, 14 notes)
+B4 d4 d4 d4 |e4 d4 d8 |B4 d4 d4 B4 |A4 G4 G8 |
+%W:
+% voice 1 (1 lines, 14 notes)
+B4 d4 d4 d4 |e4 d4 d8 |g6 e2 d4 B4 |A4 G4 G8 ||

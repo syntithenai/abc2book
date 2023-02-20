@@ -1,0 +1,32 @@
+%%scale 1.3
+%%barsperstaff 3
+X:1
+T:Old Molly Hare
+C:Traditional - based on Fairy Dance (Celtic tune)
+M:2/4
+L:1/8
+K:D
+%%staves{RH1}
+V:RH1 clef=treble
+|"D""^Part A"A2 AA|"G"B4|"A7"GGEE|"D"A4
+w:v1~Old Mol-ly Hare, What you do-ing there?
+w:v2~Old Mol-ly Hare, What you do-ing there?
+w:v3~Old Mol-ly Hare, What you do-ing there?
+w:v4~Old Mol-ly Hare, What you do-ing there?
+w:v5~Old Mol-ly Hare,~Your, tail's_ too_ short.
+w:v6~Riding of a goat,~and Lead-ing of a sheep,
+|FFDD|"G"GFED|"A7"CA,B,C|"D"D2 z2|
+w:Run-ning through the cot-ton patch as fast as I can tear.
+w:Sit-ting in my fire-_place a smo-king my ci-gar.
+w:Sit-ting on a hay-_stack a shoot-ing at a bear.
+w:Sit-ting on a but-ter plate a pick-ing out a hair.
+w:Yes_ dog-_gone it I can tuck it out of sight.
+w:I_ won't_ be back till the mid-dle of the week.
+|"D"A2 AA|"G"B4|"A7"GGEE|"D"A4
+|FFDD|"G"GFED|"A7"CA,B,C|"D"D2 z2||
+|"D""^Part B"F2 F2|"G"G2 G2|"D"F2 F2|"A7"E4
+w:Dogs say "Boo"_ and~they bark too,
+|"D"F2 F2|"G"G2 F2|"A7"E2 D2|"D"D4|
+w:I haven't got~the time for~to talk~to you.
+|"D"F2 F2|"G"G2 G2|"D"F2 F2|"A7"E4
+|"D"F2 F2|"G"G2 F2|"A7"E2 D2|"D"D4||

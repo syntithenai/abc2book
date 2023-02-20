@@ -1,0 +1,29 @@
+X: 10241
+T: Duetto - Andante
+O: introduced in the Pirates
+C: Pleyel
+Q: "Andante"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.24
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+%%graceslurs 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 4/8-bar staff/line lengths:
+V: 1
+fg |\
+a3b f2g2 | a3b f2g2 | a2a2g2f2 | (e3d)(e3f) e4 |\
+f3g d2e2 | f3g d2e2 | f2f2 {f/}(e3d)(e3f) | d3ed2 |]
+d2 |\
+e2e2e2f2 | g2ag2g2 | d2d2d2e2 | f3gf2g2 |\
+a3bf2g2 | a3bf2g2 | a3b/g/ f2e2 | d3ed2z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff/line breaks in the MS:
+V: 2
+de | f3g d2e2 | f3g d2e2 | f2f2e2d2 | (c3B)(c3d) c4 | d3e B2c2 |
+d3e B2c2 | d2d2 {d/}(c3B)(c3d) | G3AG2 |] G2 | c2c2B2^d2 | e2BB2B2 | B2B2A2c2 |
+d3GG2d2 | f3gd2e2 | f3gd2e2 | f3g/e/ d2c2 | B3cB2z2 |]
+%
+%%center -

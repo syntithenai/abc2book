@@ -1,0 +1,29 @@
+X: 031
+T: GOODEN WELL
+C: JAMES WALKER
+R: Reel
+B: Glen Collection p.3 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: A
+%
+V: 1
+c |\
+cA A/A/A EAAc | dBcA BGGe | cA A/A/A EAAg | aefd cAA :|
+g |\
+aefd ceAc | dBcA GBBg | aefd ceAc | aefd cAAg |
+aefd ceAc | dBcA GBBe | ceAc dfeg | aefd cAA |]
+%
+V: 2
+z |\
+A2[c'2a2e2] [c'2a2e2][c'2a2e2] | [b2g2e2][c'2a2e2] [d'2b2e2][d'2b2e2] |\
+A2[c'2a2e2] [c'2a2e2][c'2a2e2] | [c'2a2e2][b2g2e2] [c'2a2e2][c'ae] :|
+z |\
+A2[c'2a2e2] [c'2a2e2][c'2a2e2] | [b2g2e2][c'2a2e2] [d'2b2e2][b2g2e2] |\
+A2[c'2a2e2] [c'2a2e2][c'2a2e2] | [c'2a2e2][b2g2e2] [c'2a2e2][c'2a2e2] |
+A2[c'2a2e2] [c'2a2e2][c'2a2e2] | [b2g2e2][c'2a2e2] [d'2b2e2][b2g2e2] |\
+A2[e'2c'2a2] [d'2a2f2][d'2b2e2] | [c'2a2e2][b2g2e2] [a2e2A2-][aeA] |]

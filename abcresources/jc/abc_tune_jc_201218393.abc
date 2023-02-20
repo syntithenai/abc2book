@@ -1,0 +1,20 @@
+X: 01026
+T: the COONHUNTER
+C: Bob McQuillen '73
+B: Bob's Note Book 1 #26
+%R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: 2nd part has D2 pickup; shortened to 8th note to fix the rhythms.
+N: Bar 12 has only 5 counts; added dot to fill it out.
+M: 6/8
+L: 1/8
+K: G
+D \
+| GAB GED | G2B d2c | BAG GFG | A2F DEF |\
+| GAB GED | G2B d2c | BAG Adc | BGG G2 :|
+|: D \
+| GBd dBG | Bee e2D | GBd dBG | AFD D3 |\
+| GBd dBG | Bee e2e | dBG Adc | BGG G2 :|
+%%begintext align
+%% for James B. McCarthy
+%%endtext

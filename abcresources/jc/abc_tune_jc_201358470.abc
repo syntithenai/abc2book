@@ -1,0 +1,780 @@
+
+X: 0
+T: REELS TO LEARN
+K:
+
+%%sep 1 1 500
+
+X: 1
+T: A is 4 Ada
+C: Marcia Landa 2018
+R: reel
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|:\
+"A"A2cA "Bm"BAcA | "C#m"BAFG "D"AFEF | "A"A2cA "Bm"BAce | "D"fecB "C#m"c2ce | "D"f2af "A"ecBc |
+"C#m"ecBc "D"AFEF | "A"A2cA "D"BAFG | A4 z2 [1 EF :|[2 AG | "F#m"F2Ac fafc | "C#m"ecBc eA2G |
+"F#m"F2Ac fafc | "E"E4 z2AG | "D"F2Ad fafd | "C#m"ecBA c2cB | "D"A2cA "Bm"BAFG | A4 z2 [1 AG :|2EF :|
+
+%%sep 1 1 500
+
+X: 2
+T: l'Air (de la) Mignonne   [RJ]
+C: Simon Riopel
+R: air, reel, march
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: Handout at RJ practice
+S: https://www.youtube.com/watch?v=Nedymlq5D1s
+S: https://www.youtube.com/watch?v=RoSjIIHNiP8
+M: 2/4
+L: 1/8
+K: A
+EAB |\
+"A"c3e cBAB | "(F#m)"c3e cBAB |\
+"D"F3A "A"E3c |1,3 "E7"BAGA B :|2,4 "E7"BAGB "A"ABce |]
+|:\
+"D"f3a fece |  "F#m"f3a fecA |\
+"D"F3A "A"E3c |1,3 "E7"BAGA BEce :|2,4 "E7"BAGB "A"A |]
+
+%%sep 1 1 500
+
+X: 3
+T: Alphy's Reel
+C: Alphy Marin
+S: Fiddle Hell 2018 class by Don Roy
+R: reel
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+|:\
+"C"[E2C2][EC][EC] [A2E2][AE][AE] | "F"[A2F2][AF][AF] A2AA | "G"BcBA GBdB |\
+"C"cBcA G^FGE | "C"[E2C2][EC][EC] [A2E2][AE][AE] | "F"[A2F2][AF][AF] A2AA |
+"G"BcBA GBdB |[1 "C"[e2c2][ec][ec] [e2c2] (3(G,A,B,) :|[2 "C"[e2c2][ec][ec] [e2c2]ef |:\
+"C"g^fga gedB | cBcd cBcA | "G"BcBA "G7"GBdB |
+"C"cBcd e2ef | g^fga gedB | cBcd cBcA |\
+"G"BcBA "G7"GBdB |[1 "C"[e2c2][ec][ec] [e2c2]ef :|[2 "C"[e2c2][ec][ec] [e2c2] (3(G,A,B,) |]
+
+%%sep 1 1 500
+
+X: 4
+T: Barlow Knife
+S: Sandy Lafleur www.wanderingdulcimer.com 2018-09-11
+R: reel
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|:\
+"D"d2 d2 "A"cd e2 | "D"d2 d2 "A"A3 A |\
+"D"d2 d2 "A"c2 cc | "G"B2 A2 "D"A4 :|
+|:\
+"G"B2 A2 "D"FF AA | "G"B2 A2 "D"D4 |\
+"G"B2  A "D"F2 D2 | "A"EE D2 "D"D4 :|
+|:\
+"A"E3  E "D"F2 D2 | "A"E2 A2 "D"D4 |\
+"A"E3  E "D"F2 D2 | "A"E2 DD "D"D4 :|
+
+%%sep 1 1 500
+
+X: 5
+T: reel de Beloeil
+C: Edouard Picard
+S: Handout at Roaring Jelly practice 2016-11
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|:\
+"D"D3D "(A7)"DFEG | "D"FDDD F2DF | "D"AdcB "(A7)"AGFE |\
+[1,3 "D"DFAd "A7"BGEC :|[2 "A7"DdAF "D"D2A,2 :|[4 "A7"DdAF "D"D2G2 |]
+|:\
+"D"Fddd Fddd | "G"Gddd "(Em)"Gddd | "A7"Aeee Aeec |\
+[1,3 "D"dfed "A7"cBAG :|[2 "D"df"A7"ec "D"dBAG :|[4 "D"df"A7"ec "D"d4 |]
+
+%%sep 1 1 500
+
+X: 6
+T: Berkeley Reel    [Bm]
+C: Larry Unger
+R: reel
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bm
+|:\
+"Bm"Bffe fgfe | "G"dBBA "A"ABcA |\
+"Bm"Bffe fgfe | "G"dBAF "F#m"A2FA |\
+"Bm"Bffe fgfe | "G"dBBA "A"ABcA |
+"G"B2dB "D"AFED | "Em"EFED "G"B,2D2 ::\
+"Em"EDB,D E2DE | "F#m"FAAB AFED |\
+"G"EDEF EDB,D | EDB,D "A"A,4 |
+"Em"EDB,D E2DE | "F#m"FAAB AFED |\
+[1 "G"EDEF EDB,D | "A"FABA "Bm"B4 :|\
+[2 "Em"EFGE "F#m"FGAc | "G"Bcde "A"fedc |]
+
+%%sep 1 1 500
+
+X: 7
+T: Berkeley Reel    [Bm]
+C: Larry Unger
+R: reel
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bm
+|:\
+"Bm"Bffe fgfe | "G"dBBA "A"ABcA | "Bm"Bffe fgfe | "G"dBAF "F#m"A2FA |
+"Bm"Bffe fgfe | "G"dBBA "A"ABcA | "G"B2dB "D"AFED | "Em"EFED "G"B,2D2 :|
+|:\
+"Em"EDB,D E2DE | "F#m"FAAB AFED | "G"EDEF EDB,D | EDB,D "A"A,4 |
+% %vskip 2
+[1 "Em"EDB,D E2DE | "F#m"FAAB AFED | "G"EDEF EDB,D | "A"FABA "Bm"B4 :|
+[2 "Em"EDB,D E2DE | "F#m"FAAB AFED | "Em"EFGE "F#m"FGAc | "G"Bcde "A"fedc |]
+
+%%sep 1 1 500
+
+X: 8
+T: Black Rock
+C: Becky Tracy
+S: Handout at RJ practice 2018-2-13
+R: reel
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gmix
+|:\
+"G"D2D2 G3D | "F"FEFG FDC2 | "G"G3G F2D2 | "Dm"A3A- AGFE |\
+"G"D2D2 G3D | "F"FEFG FDC2 | "G"G3G "Em"F2D2 |1 "G"G4 GFED :|2 G4 G4 ||
+|:\
+"Dm"A3A F2D2 | AGFE D2[D2A,2] | A3A F2D2 | "F"c3c- cBAG |\
+"Dm"A3A F2D2 | GFED D2D2 | "G"G3G "F"F2D2 |1 "Gm"G4 _B4 :|2 "G"HG2z2 GFED |]
+
+%%sep 1 1 500
+
+X: 9
+T: the Boys of Malin
+S: Fiddle Hell 2018 class by Don Roy
+R: reel
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|:\
+("A"uAB)cd eAce | "D"fAdf "A"edc(uB | AB)cd "F#m"eAce |\
+[1 "Bm"fdBc "E7"d2(ucB) :|[2 "Bm"fdBc "E7"defg |] "A"aA (3vAuAvA vcAce |
+aAag "D"fefg | "A"aA (3vAuAvA "F#m"vcAce | "Bm"dcBc "E7"defg |\
+"A"aA (3vAuAvA vcAce | "A7"aAag "D"f2(ufg) | afge fdec |
+"E7"dfBc d2(ucB) |: "A"Aece Aece |\
+Aece "D"d2(ucB) | Aece Aece | "Bm"fdBc "E7"d2(ucB) :|
+
+%%sep 1 1 500
+
+X: 10
+T: Chalumet
+S: Fiddle Hell 2018 class by Don Roy
+R: reel
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|:\
+B2(uBc) dBGB | "D"A(uGFA DF)GB | "D7"vA2vFA DAFA |\
+ABcA "G"B(uGDG) | B2(uBc) dBGB | "D"A(uGFA DF)GB |
+"D7"vA2vFA DAFA |[1 "G"GBAF G2(uGA) :|[2 "G"GBAF G2(DB,) |:\
+"G"G,B,DG BABd | ("C"vefg)e "G"dBG(uB | "C"cd)eu(c "G"Bc)dB |
+"Am7"cABG "D7"AFDB, | "G"G,B,DG BABd | ("C"vefg)e "G"dBG(uB |\
+"C"cd)eu(c "G"Bc)dB |[1 "D7"cBAF "G"G2(uDB,) :|[2 "D7"cBAF "G"G2(uDG) |]
+
+%%sep 1 1 500
+
+X: 11
+T: reel des Colons
+T: the Colonials' Reel
+R: reel
+O: rep. de Bernard Morin
+S: handout at Roaring Jelly practice, Jan 2017
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: Emix
+|:\
+"E"e2{g}fe befe | "D"defg {g}a2fd |\
+[1,3 "E"e2{g}fe befe | "Bm"dB{c}BA "D"Bdef :|\
+[2,4 {g}fded "Bm"edBc | "D"dBAF GE{F}ED :|
+K: Edor
+|:::\
+"Em"EFGA BE{F}ED | EFGB "D"AD{F}ED |\
+"Em"EFGA "(G)"BBGB | "D"AFAd "(Bm)"BE{F}ED :::|
+
+%%sep 1 1 500
+
+X: 12
+T: the Derry Reel   [RJ]
+R: reel
+M: C|
+L: 1/8
+K: A
+AB |\
+"A"c3B ABcA | "E" B2cB AFEF |\
+"A"ABce a2ge | "D"(3fga ec "E"B2AB |\
+"A"c3B ABcA | "E"B2cB AFEF |
+"A"ABce fec[1A | "E"BAGB "A"A2 :|2 e |\
+"E"fefg "A"a2 |: ag |\
+"F#m"f3e ceag | "E"geBe geag |\
+"F#m"f3e ceag |
+"E"gfeg "F#m"f2 fg |\
+"A"aecB ABcA | "E"B2cB AFEF |\
+"A"ABce fec[1e | "E"fefg "A"a2 :|\
+[2 "A"A | BAGB A2 |]
+
+%%sep 1 1 500
+
+X: 13
+T: Forty-Four
+C: Becky Tracy
+S: Handout at RJ practice 2018-2-13
+R: reel
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dmix
+|:\
+"D"FGAB d2Bd | c2Ac BGFD | FGAB d2Bd | "Bm"efdf "C"edBG |\
+"D"FGAB d2Bd | c2Ac BGFD | "Am"c2Ac "G/b"BGFD | "C"EAGE [1 "D"D3E :|2 D2AB ||
+|:\
+"C"c3B cBAG | "D"ADDE DCA,2 | "C"c3B cBAG | "D"Addc dcAB |\
+"C"c3B cBAG | "D"ADDE DCA,C | "D"F2DF "Am"EAGE |1 "D"D3E DFAB :|2 "D"HD2z2 "C"E4 |]
+
+%%sep 1 1 500
+
+X: 14
+T: Good-bye Girls, I'm Goin' to Boston
+S: Sandy Lafleur www.wanderingdulcimer.com 2018-09-11
+R: reel
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: D
+|:\
+"D"D2F2 A2A2 | "G"B3B "A7"G2E2 | E2F2 G2G2 | "D"A3A F2D2 |\
+"D"D2F2 A2A2 | "G"B3B "A7"G2E2 | A2A2 G2E2 | "D"D4  D4 :|
+|:\
+"D"ddd2 ddee | d4 A4 | "C"=ccc2     ccdd |   =c4 "D"A4 |\
+"D"ddd2 ddee | d4 A4 | "C"=c2A2 "A7"G2E2 | "D"D4    D4 :|
+
+%%sep 1 1 500
+
+X: 15
+T: the Golden Legs
+C: Liz Carroll 1999
+R: reel
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+GFE |\
+   "D"D2FD "Em"E2GE | "D"FDEF "G"GA B/c/d | "D"fdAf "A7"ecAe | "G"dBGd "A7"AECE |
+y8|"D"D2FD "Em"E2GE | "D"FDEF "G"GA B/c/d | "Em"efge "A7"cAGE | EDCE "D"D :|
+|: a^ga |\
+   "D"fdd2 cded | "Em"g2fa gefd | "A7"cA A/A/A "Em"BG G/G/G |"D"AF F/F/F y
+[1 "A7"GEEg | "D"fdd2 cded | "Em"g2fa gefd | "A7"cAA2 efge | cAGE D :|
+[2 "A7"GEEA | "D"D2FD "Em"E2GE | "D"FDEF "G"GA B/c/d | "Em"efge "A7"cAGE | EDCE "D"D |]
+
+%%sep 1 1 500
+
+X: 16
+T: the Hare    [D]
+O: Qu\'ebec
+R: reel
+S: Debbie Knight, Sep 2015 RJ
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+   BAF |\
+"D"DFAd "G"(3BdB AG | "A7"FABc "D"dcd2 |\
+"D"DFAd "Bm"(3BdB AF | "Em"BFAF "A7"EGFE ||\
+"D"DFAd "G"(3BdB AG |
+"A7"FABc "D"dcde |\
+"D"~f2fa "G(Em)"gfed | "A7"cABc "D"d :: efg |\
+"D"a2fd Adfa | "Em"g2ec "A7"Acef |
+"A7"gece aece | "A7"bgec "D"defg ||\
+"D"a2fd Adfa | "Em"g2ec "A7"Acef |\
+"A7"gece aece | "A7"bgec "D"d :|
+
+%%sep 1 1 500
+
+X: 17
+T: Hobart's Transformation
+C: trad.
+R: reel
+N: Hobart (B.1775) was early American Bishop
+S: 2011 NEFFA tune-set handout
+O: USA
+M: 4/4
+L: 1/8
+K: Em
+|:\
+"Am"e2a2 abag | e2a2 abag | "Em"edef gfgf |\
+[1,3 edef gfgf :|2,4 "Am"edcB A4 :|
+|:\
+"Am"A2Ac "Em"BAGB | "Am"ABAG E2EG |\
+[1,3 "Am"AGAB c2d2 | "Em"e3=f e4 :|\
+[2,4 "Am"cBAc "G"BAG2 | "Am"A3B A4 :|
+
+%%sep 1 1 500
+
+X: 18
+T: Hollow Poplar
+R: reel
+M: C|
+F: http://www.thursdaycontra.com/~spuds/tunes/reels/HollowPoplar.abc
+K: G
+Bc |\
+"G"d4 d2{c}Bc | d2B2 AGAB | "C"c4 c2{B}AB | "Am"c2B2 AGEG |\
+"G"DEGA "D7"Bdef | "Em"g2f2 "D7"edBA | "G"G2BG "D7"AGF2 | "G"G6 :|
+|: Bc |\
+"G"d4g4 | g2f2e2d2 | "D"fa-af a2{g}fg | a2f2 edef |\
+"G(Em)"gfef gfef | "C"g2f2 edBA | "G"G2BG "D7"AGF2 | "G"G6 :|
+
+%%sep 1 1 500
+
+X: 19
+T: Hommage \`a Gilles Laprise 0
+C: Philippe Bruneau
+B: Portland Collection v.3 p.93
+S: http://archive.folx.org/tune/reel/hommage-gilles-laprise-2331 2015-7-14
+S: https://www.youtube.com/watch?v=Ni3x-uwAumo [Montréal flash mob 2010-7-21]
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: Phillippe says this was originally in C. This may have been the key of the accordion he was playing at the time.
+M: 2/4
+L: 1/16
+%P: Basic version:
+K: D
+|:\
+"D"a4 "A7"gfeg | "D"fefg afdf | "A7"edef gecA |\
+[1,3 "D"defg agfg :|[2,4 "D"df"A"ec "D"d4 :|
+|:\
+"D"Afed "G"B4 | Bgfe "D(A7)"[a4A4] | "D"Afed "A7"cAce |\
+[1,3 ageg "D"fafd :|[2,4 "A7"agec "D"d4 :|
+
+%%sep 1 1 500
+
+X: 20
+T: Kate and Rose's
+M: 4/4
+L: 1/8
+K: Dm
+%
+E | \
+"Dm"FD (3.D.D.D AD (3.D.D.D | dDDd dcAG |\
+FD (3.D.D.D AGFD | "C"EDCD "A7"EFGE ||\
+"Dm"FD (3.D.D.D AD (3.D.D.D |
+dDDd dcAG |\
+"F"F2 cF dFcF | "C"E3 E EDC :|\
+[K:Dmix] |: e |\
+"D"fd (3.d.d.d fdad | f3 f fede |
+"D"fd (3.d.d.d fdad | "C"cBAB "Am"cBAe ||\
+"D"fd (3.d.d.d fdad | f3 f fedB |\
+"C"c2 gc acgc | "G"B3 B BAG :|
+%["transition" "G"B3z"E7"z4 |]
+
+%%sep 1 1 500
+
+X: 21
+T: Lady of the Lake
+R: reel
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+S: handout at Roaring Jelly practice Jan 2017
+S: Portland Collection v.3 p.114
+M: C|
+L: 1/8
+K: D
+FG |\
+"D"AGFE DEFG | AGFE D2FE | DFA2 f3g | "A7"f2e2- e2cd || "A7"edcB ABcd |
+edcB A2cB | ABAG FDE2 | "D"D3E D2 :: FE | "D"D2F2 Acd2 | f3g f2dB |
+ABdB AGF2 | "A7"E3F E2CB, || "A7"A,2C2 EFA2 | f2e2- e2cB | ABcB AFE2 | "D"D3E D2 :|
+
+%%sep 1 1 500
+
+X: 22
+T: Maggie's Pancakes
+C: Stuart Morrison
+R: reel
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+S: PDF image from Lance Ramshaw
+S: page from Concord Slow Scottish Session collection
+N: "Presented by H.Cassel, BHSFS 8/03 Chds B. BcO."
+M: C|
+L: 1/8
+K: Bm
+|:\
+"Bm"fB B/B/B fgfe | "G"dB B/B/B GBdB | "A"cAAd AAec | "A"AfdB "F#m"ecAc |
+"Bm"fB B/B/B fgfe | "G"dB B/B/B GBdB | "A"cABc ABce- | "F#m"efec "Bm"Bcde :|
+|:\
+"Bm"f2dB "G"GBdB | "A"caec "Bm"dB B/B/B | "Bm"f2dB "G"GBdB | "A"cAec "Bm"Bcde |
+"D"fd d/d/d fgfe | "Bm"dB B/B/B "G"GBdB | "A"cAdA ecAa- | "F#m"afec "Bm"Bcde :|
+
+%%sep 1 1 500
+
+X: 23
+T: le reel des Menteries
+C: Normand Miron
+O: Qu\'ebec
+S: handout at Roaring Jelly practice Jan 2017
+R: reel
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: D
+|:\
+"D"A,DDA, [D3A,3]D | "A7"CDEF GECE |\
+[1,3 "D"A,DDA, [D3A,3]D | "A7"CDEF GECE :|\
+[2,4 "D"A,DFA dAFD | "A7"EDCE D2[D2A,2] :|
+|:\
+"D"d2Ad dfed | "A7"cABc BAFA | "D"dcBA FADF |\
+[1 "A7"EDCD EABc :|[3 "A7"CDEF GABc :|[2,4 "A7"EDCE "D"D2[D2A,2] |]
+
+%%sep 1 1 500
+
+X: 24
+T: Mona's Reel
+C: Lissa Schneckenburger
+R: reel
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+S: Handout at Roaring Jelly practice
+M: C|
+L: 1/8
+K: G
+"D7"F |\
+"G"G3B AGBc- | cBAG BAGF |\
+"C"E3G EDB,D | "Am"EDB,D "D7"A,3D ||\
+"G"G3B AGBc- | cBAG BAGF |
+"C"E3G "(D7)"EDB,A, |[1 "G"G,4 G,B,D :|\
+[2 "G"G,4 G,A,B,G, |: "Am"A,3A,- A,G,A,B, |\
+"(D7)"C2B,C A,G,B,D | "C"E3E- EDEF |
+"(D7)"GFED "G"B,DG,B, || "Am"A,3A,- A,G,A,B, |\
+"(D7)"C2B,C A,G,B,D | "C"E3E- EDB,D |\
+[1 "(Em)"E4 EDB,D :|[2 "Em"E4- E3 |]
+
+%%sep 1 1 500
+
+X: 25
+T: Motel Henry
+C: Jean-Claude Mirandette
+O: Qu\'ebec
+R: reel
+Z: 2011, 2017 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+S: handout at Roaring Jelly practice Jan 2017
+M: 2/4
+L: 1/16
+K: A
+|:\
+"A"[c3E3]c- cfec | "E7"BABc dcBA |\
+"A"c3c- cfec | "E7"BABc [1,3 "A"AE[AE]B :|[2,4 "A"A2[A2E2] :|
+|:\
+"D"f3f- fgaf | "A"e2(3cBA e2(3cBA |\
+"E7"B2GB EBGB | "A"AB[cA][dG] "A7"[eE][cA][e2A2] |
+"D"fAAf- fgaf | "A"e2(3cBA e2(3cBA |\
+"D"fgaf "A"ecAa- | "E7"afec "A"AE[A2E2] :|
+
+%%sep 1 1 500
+
+X: 26
+T: Ol' Bob
+C: Garry Harrison
+R: reel
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+S: Handout at Roaring Jelly practice (From Portland Collection); several online videos
+N: The 3rd bar of the 2nd strain has a lot of variability
+N: The 6th bar of the 2nd strain often keeps the D chord under the e note.
+M: C|
+L: 1/8
+K: A
+   cd |\
+"A"e4 e2ce- | efec B2A2 |\
+"D"A4 A2FA- | ABAG FDF2 |\
+"A"E4 EFEC | A,CEG A2AB |
+ce-ef ecAc | "E7"BcBG "A"A2 :|\
+|: AF |\
+"A"ECEA c2cB | "D"A2AG FGAF |\
+"A"ECE[AF] [FE][AF]AB |
+"(E)"cABc "E7"B2cd |\
+"A"efed cBAG | "D"F2A2 "(E7)"e3d |\
+"A"cded cBAc | "E7"BcBG "A"A2 :|
+
+%%sep 1 1 500
+
+X: 27
+T: On the Wings of a Skorie #2
+C: Michel Ferrie 1995
+N: A skorie is a herring gull in the Shetlands
+D: Fiddler's Bid "Da Farder Ben Da Welcomer"
+D: Alasdair Fraser and Natalie Haas "Abundance"
+S: https://thesession.org/tunes/2898 2nd setting 2018-5-15
+R: reel
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Em
+|:\
+"Em"BEE2 BEcE | BEE2 GFGB | "D"ABGB AGFA | "Em"GEED EFGA |
+"Em"BEE2 BEcE | BEE2 GFGB | "D"ABGB AGFA | "Em"GEED [1 E3A :|2 E3G ||
+|:\
+"Em"EBBG "D"AGFA | "Em"GEE2 GA (3Bcd | Beed efge | "D"fedf "Bm"eBgf |
+"Em"eBB2 "D"BAFA | "Em"GEE2 GA (3Bcd |"D"fadf efdB |ABdf [1 "Em"e2BA :|2 "Em"e4 |]
+
+%%sep 1 1 500
+
+X: 28
+T: reel de P\`ere L\'eon
+R: reel
+S: printed copy of unknown origin, from Paul Lizotte
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+|: ef |\
+"G"g2gf "C"gedc | "D7"BGAc "G"BGG2 |\
+[1,3 "G"B3B "Am"cBAG | "D7" FGAB A2 |:\
+[2,4 "G"B3B "Am"cBAG | "D7"FGAF "G"G2 :|
+|: A2 |\
+"G"B3B "C"cBAG | "G"BGBG "C"cBc2 |\
+[1,3 "G"B3B "Am"cBAG | "D7"FGAB A2 :|\
+[2,4 "G"BGBd "Am"cBAG | "D7"FGAF "G"G2 :|
+
+%%sep 1 1 500
+
+X: 29
+T: Reel \`a Gilbert
+C: R\'ejean Lizotte
+R: Reel
+S: Paul Lizotte 2015-7-20 [modified slightly during RJ practices in 2016]
+M: C|
+L: 1/8
+K: A
+AF |\
+"A"EAcA "(D)"BAFA | "A"EAcA "(D)"BAFA | "A"e2-ef "F#m"ecBA | "Bm"BAcA "E7"{c}BAFA |
+"A"EAcA "(D)"BAFA | "A"EAcA "(D)"BAFA | "A"e2-ef "F#m"ecBA |1 "E7"{c}BABc "Q"A2 :|2 "Bm"{c}BABc "E7"B2 :|
+|: cd |\
+"A"e2-ef eca2 | "D"f2-fa f2"(E7)"{af}ed | "A"cdef "F#m"ecAc | "Bm"BAcA "E7"{c}BAFA |
+"A"e2-ef eca2 | "D"f2-fa f2"(E7)"{gf}ed | "A"cdef "F#m"ecAB |1 "Bm"{c}BABc "E7"B2 :|2 "E7"{c}BABc "A"A2 :|
+
+%%sep 1 1 500
+
+X: 30
+T: Save the Hornpipe
+C: Mike Mahar
+R: hornpipe
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|:\
+"G"D2 GA B2 AB | "C"cB AG E2 E2 |\
+[1,3 "D7"A2 AB c2 Bc | "G"ed ^ce d2 (3dBG :|\
+[2,4 "D7"D2 FA c2 BA | "G"G2 B2 G4 :|
+|:\
+"C"c2 cd ed c2 | "G"BA Bc BA G2 |\
+[1,3 "C"c2 cd e2 g2 | "D7"fe fg fe d2 :|\
+[2,4 "D7"D2 FA c2 BA | "G"G2 B2 G4 :|
+% %begintext align
+% % A lot of hornpipes are sped up and played as reels. My friend Sandy
+% % thinks that they should be played as hornpipes if they are hornpipes.
+% % On a lark, she founded the National Save the Hornpipe Society. She made
+% % buttons for us all to wear. This tune is named after the society.
+% % Hornpipes often have the word hornpipe as part of their title. So, properly,
+% % this tune should be called Save the Hornpipe Hornpipe but that seems a bit
+% % redundant. So it's just Save the Hornpipe.
+% %endtext
+
+%%sep 1 1 500
+
+X: 31
+T: The Slip-On Gang
+R: reel
+C: Damien McKee
+M: 4/4
+L: 1/8
+Z: Contributed 2016-01-12 23:07:13 by debby knight debbyjk@aol.com
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+K: A
+z2 |:\
+"A"[e3A3]e efed | "A/C#"caaa eAce | "D"dfed "A/C#"ceAc |\
+[1,3 "Bm"B2ef  "E7"edBG :|\
+[2 "E/E-G#"BedB "A"A2 cd :|
+[4 "E/E-G#"BedB "A"A2 |:\
+GA |\
+"E"BE (3EEE eBde | "A"cA (3AAA "A/C#"cAce |\
+"D"fd (3ddd "A/C#"ec (3ccc |
+"Bm"d2cd "Bm/A"BAGA |\
+"E/G#"BE (3EEE "E"eBde | "A"cA (3AAA cA"A/C#"ce |\
+"D"fd (3ddd "A"ec Ac | "E"dBGB "A"A2 :|
+
+%%sep 1 1 500
+
+X: 32
+T: Sparkle of Starlight
+C: Rodney Miller
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+S: Handout at Roaring Jelly practice
+M: C|
+L: 1/8
+K: A
+|:\
+"A"EA (3AAA BcBA | "Bm"DA (3AAA BcBA | "C#m"EA (3AAA BcBA | "Dmaj7"B2BA cBAF |
+"A"EA (3AAA BcBA | "Bm"DA (3AAA BcBA | "C#m"EA (3AAA BcBA | "D"B3A A4 :|
+[|\
+"A"e2ce "Bm"fccf | "C#m"ecBc "F#"A2Bc | "D"d3B "C#m"cBAc | "Bm"BAGA "E"B2cd |
+"A"e2ce "Bm"fccf | "C#m"ecBc "F#"A2Bc | "D"d2Bd "C#m"cBAc | "Bm"BAGE "A"A2cd ||
+||\
+"A"e2ce "Bm"faaf | "C#m"ecBc "F#"A2Bc | "D"d2Bd "C#m"cBAc | "Bm"BAGA "E"B2AG |
+"D"FddF "C#m"EccE | "Bm"DABA "A"cBAE | "Bm"FGAd "E"cBAG | "D(A)"A4- A4 |]
+
+%%sep 1 1 500
+
+X: 33
+T: Sweet Nell
+R: reel
+C: Jamie Gans
+M: 4/4
+L: 1/8
+Z: Contributed 2016-01-12 23:09:24 by debby knight debbyjk@aol.com
+K: A
+|:\
+"A"[E2A,2]A2 ABcA | "E"BcdB "A"c2[c2A2] |\
+"A"[E2A,2]A2 ABcA | "E"BAGA BAGA |\
+"A"[E2A,2]A2 Bc2A | "E"Bc d2 "A"c2Bc |
+"D"d4 "A"c2BA |1 "E" GAB2 "A"A2[E2A,2] :|\
+[2 "E"GA B2"A"A2cd |:\
+"A"e4 a3g | "D"f2 d4 e2 |\
+"A" a2f2 ec3 |
+"E"B3cB2AB |\
+"A"cABc AGFG | "A"AG3 "D"F4 |\
+"E" EFAB cABG |1 "A"A3B A2cd :|2 "A"A3B A4 ||
+
+%%sep 1 1 500
+
+X: 34
+T: Terrebonne
+O: trad. Au\'ebec
+S: handout at Roaring Jelly practice, Jan 2017
+R: reel
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: A
+(3ABc "A"|:\
+"D"d2cd BAFA | d2cd "A7"eABc | "D"d2cd "G"B2AF | "A7"GBAG "D"FDD2 |
+"D"d2cd BAFA | d2cd "A7"eABc | "D"d2cd "G"B2Ad | "A7"fdec d2 :|
+"B"|: z2 |\
+"D"f3a "(G)"gfed | "D"fdfd "A7"Acde | "D"fdfa "(G)"gfed |\
+[1,3 "A7"cdea "D"fdd2 :|[2,4 "A7"cABc "D"d2 :|
+
+%%sep 1 1 500
+
+X: 35
+T: The Tongadale Reel
+C:Farquhar McDonald
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+M:4/4
+R:Reel
+K:Am
+AB |\
+"Am"cBcB AEAB | "F"cBcB AFAc |\
+[1,3 "G"BGDG EDDd | dBcB "Am"A2 :|\
+[2,4 "G"BGDG "Em"EDEG | EDCB, "Am"A,2 :|
+|: A,B, |\
+"Am"CA,EA, FA,EA, | GA,EA, "D"FEDC |\
+[1,3 "G"B,G,DG, EG,DG, | FG,EG, "Em"DC :|\
+[2,4 "G"B,G,DG, EDCB, | "Am"CA,A,G, "Am"A,2 :|
+
+%%sep 1 1 500
+
+X: 36
+T: the Torn Jacket
+C: Connie O'Connell
+M: C
+L: 1/8
+F: http://www.arcelts.com/bbot1/t741.abc 2011-8-2
+K: D
+|:\
+"D"F3A d2ed | "A7"cAAB cde2 | "D"FEFA dfed | "A7"cAGE "D"EDDE || "D"F3A d2ed | "A7"cAAB cdec |
+"D"Adde f2ed | "A7"cAGE "D"EDDE :: "D"FAdf a2fa | "G"g3b gfed | "A7"cAAB cdef |
+"A7"gfed cAAG || "D"FAdf a2fa | "G"g3b gfef | "Em"g2ba gfed | "A7"cAGE "D"EDD2 :|
+
+%%sep 1 1 500
+
+X: 37
+T: Union Street Session 2
+C: Paul Cranford
+O: Cape Breton Island
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+S: printed copy from Debby Knight at RJ session
+D: The Lighthouse,1996; Fiddler's Choice, Jerry Holland, The Bumblebees
+B: ?
+N:Composed for Kyle MacNeil (Barra MacNeils) after a session at his house.
+M: 4/4
+L: 1/8
+R: reel
+K: D
+c |\
+"D"d2AG F2DF | "A7"EA,A,2 GFED | "D"F2AF "G"GABd | "A7"AEE2 cdec || "D"d2AG F2DF |
+"A7"EA,A,2 GFED | "D"F2AF "G"GABd | "A7"AEEG "D"FDD :: c | "D"d2fd "(G)"gdfa | "A7"eAA2 cdec |
+"D"d2fd "G"g2fg | "A7"aeeg f2ec || "D"d2fd "(G)"gdfa | "A7"eAA2 cdeg | "D"f2ed "A7"e2cd | "A7"e2dc "D"d2A :|
+
+%%sep 1 1 500
+
+X: 38
+T: Wake Up to Cape Breton
+C: Brenda Stubbert
+R: Reel
+O: Cape Breton Island
+S: http://www.cranfordpub.com
+D: Some Tasty Tunes, 1999; Fiddler's Choice, Jerry Holland
+B: Jerry Holland the 2nd Collection, 2000
+Z: psc, (re-formatted,updated 9/19/04)
+R: http://www.cranfordpub.com/tunes/abcs/stubbertarchive.txt
+H: copyrights Stubbert Music, SOCAN
+L: 1/8
+Q: 333
+M: C|
+K: EMix
+|: e |\
+"E"BEEF "D"DEFD | "E"~E2GB "A"eBcA |\
+"E"BEEF "D"DEFA | "D"B2AF DEFA ||\
+"E"BEEF "D"DEFD | "E"~E2GB "A"eBcA |
+"E"BEEF "D"DEF \
+[1 D | "Bm"B,A,B,D "E"~E3 :|\
+[2 A | "Bm"B{c}dAF "E"~E3 |]\
+[K:=g][K:EDor]\
+|: f |\
+"Em"eBBg "(G)"efge | "D"fdcd ABdf |
+"Em"eBBg "(G)"efge | "Bm"dBAF "Em"~E3f ||\
+"Em"eBBg "(G)"efge | "D"fdcd ABdf |\
+"G"gefd "D"ecdA | "Bm"B{c}dAF "Em"E3 :|
+
+%%sep 1 1 500
+
+X: 39
+T: Woodridge Breakdown
+C: Andy de Jarlis
+R: reel
+S: printed page of unknown origin, RJ rehearsal 201806011
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+|:\
+"A"EGAB cAA2 | efed c2A2 | "G"EF=GA BGG2 | Bdde dBcA |
+"A"EGAB cAA2 | efed c2ef | "G"=gefd efed | "A"c2"E7"BG "A"A4 :|
+|:\
+"A"ea2a abaf | ea2a abaf | "Em"edef =g2gf | "G"=gedB =GABd |
+"A"e2a2 abaf | ea2a a2ef | "G"=gefd efed | "A"c2"E7"BG "A"A4 :|

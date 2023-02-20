@@ -1,0 +1,23 @@
+X: 7
+T:Al Givot Sheich Abreik
+T:Adama Admati
+C: Mordechai Zeira 1969
+O:Israel
+F: http://www.youtube.com/watch?v=DVFXYWYcUzE
+M:2/4
+L:1/8
+K:Gm
+Q: 1/4=150
+%%MIDI drum z2dz 35
+%%MIDI drumon
+%%MIDI gchord fz
+%%MIDI program 41
+%%MIDI bassprog 45
+|:"G"G3B  |A2G2|"C"F2E2 |D2C2    |\
+  "D" B,3D|F2DF|"G"G4-  |G4      :|
+  "F"A3G  |A2GA|"G"BcBA |"G"G4   |\
+  "F"A3G  |A2G2|"G"G4-  |G4      |
+|:"C"c3G  |c2d2|e2d2    |c4      |\
+  c3G     |c2B2|A2G2    |[1"G"B4 :|[2"G"G4   |
+|:"F"A3G  |A4  |"G"B3A  |B4      |\
+  c2B2    |A2G2|[1"G"B4-|B4      :|[2"G"G4-|G4|

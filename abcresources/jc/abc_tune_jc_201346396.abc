@@ -1,0 +1,32 @@
+X: 1
+T: a Trip to Bury
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.330
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the dance instructions.
+N: The 2nd bar has a half-beat missing; fixed by making it like several other versions that are identical except for that bar.
+N: The actual 2nd bar of this tune in DMDfD in abc is: | G2 C3 C c|
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+(AB) (cA) (dc) (AF) | G2 C2 C3 c |\
+(AB) (cA) f3 c | A2 F2 F3 :|\
+f/g/ |\
+agfe fc fg | agab g3 f |
+ef gc de fA | Bc dG E3 C |\
+FG AF BG cA | (d/e/f) (cA) G3 A |\
+B2 (B/c/d) c3 B | A2 F2 F3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. cross over below the 2. cu. and go back to back .| The 2. cu. do the same L| The two men
+%% being in the we. places, take hands and fall back, the we. the same at the same time, then all four meet
+%% and turn backs, and half round, then right-hands a-cross half round, then left-hands a-cross, the other
+%% half round, then 1. cu. do the Figure of 8. then Right and Left till you come in your own places. The
+%% second Strain once.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

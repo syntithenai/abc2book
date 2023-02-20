@@ -1,0 +1,28 @@
+X: 10391
+T: Dead March in Saul
+C:
+Q: "Grave"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.39
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%graceslurs 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 4/8-bar staff/line lengths:
+V: 1
+|:\
+f2f2 f2zf | fe/f/ gf {f}e2z2 | g2ga/b/ g2zb | ag fe//f//g/ f2z2 |\
+a2a2 a3a/b/ | =c'c'c'b a2za | ag zf fe za | ag/f/ gf e2 z2 :|
+|:\
+a2b2 c'2zd' | c'b/a/ b^g aea2 | a2a2 ab/c'/ ba | ba/g/ Tf2 e2z2 |\
+f2f>g/a// f2zf | edgf {f}e2z2 | a2d'2 a2za | ag/f/ e>d d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff/line breaks:
+V: 2
+|: d2d2 d2zd | dc/d/ ed {d}c2z2 | e2ef/g/ e2zg | fedA d2z2 | f2f2 f3f/g/ |
+aaag f2zf | fe zd dc zf | fe/d/ cd A2 z2 :||: c2e2 a2 zf | ed/c/ dB c2z2 |
+^defe defg | gf/e/ B2 G2z2 | d2d>e/f// d2zd | GFED A2z2 | f2f2 f2zf | fe/d/ A2 F4 :|
+%
+%%center -

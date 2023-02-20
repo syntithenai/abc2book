@@ -1,0 +1,33 @@
+X: 1
+T:Lochanside
+M:3/4
+L:1/8
+Q:80
+C:
+S:Retreat
+K:HP
+|: {Gdc}d3/2e/2{g}f2{gfg}fa|
+{f}ge{gfg}f2{Gdc}d2|
+a3/2f/2{Gdc}d2{gdc}d3/2e/2|  !
+{gfg}f{gAGAG}A{gfg}f2{gef}e2| |
+{A}e3/2d/2{gcd}c2{GdG}ca|
+{f}ge{Gdc}d2{e}A2|  !
+{g}e3/2f/2{gf}g2{f}gB|
+{gcd}c{e}A{Gdc}d2{gdc}d2:| |:
+{gdG}d3/2f/2{ag}a2{g}a3/2g/2|  !
+{fg}f3/2g/2{ag}a2{fg}f2|
+{Gdc}d{e}A{GdG}B2{f}g3/2f/2|
+{gef}ed{gfg}f2{gef}e2| |  !
+{A}e3/2d/2{gcd}c2{GdG}ca|
+{f}ge{Gdc}d2{e}A2|
+{g}e3/2f/2{gf}g2{f}gB|  !
+{gcd}c{e}A{Gdc}d2{gdc}d2:| |:
+{gcd}c2{GBG}A2{GAG}A{d}c|
+{gef}e{gf}g{fg}f2{Gdc}d2|  !
+{gcd}c2{GBG}A2{GAG}A{d}c|
+{ag}a3/2g/2{fg}f2{gef}e{AGAG}A| |
+{Gdc}df{ag}a2{fg}fa|  !
+{f}g3/4f/4{g}e3/4d/4{gcd}c2{gBd}B2|
+{g}e3/2f/2{gf}g2{f}gB|
+{gcd}c{e}A{Gdc}d2{gdc}d2:|  !
+

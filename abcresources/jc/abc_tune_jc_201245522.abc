@@ -1,0 +1,54 @@
+
+X: 1
+T: Ajde Jano
+O: Srbija
+R: lesnoto
+Z: John Chambers <jc@trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: Dm
+"^Vocal"\
+[| "Dm"F2E DE F2 | F2E E2D2 | "C"(DED) C4- |
+w: 1.~Aj-de Ja-*no, ko-lo da i-gra-**mo.
+w: 2.~Aj-de Ja-*no, ko-nja da pro-da-**mo.
+w: 3.~Aj-de Ja-*no, ku-\'cu da pro-da-**mo.
+w: 4.~Da pro-de-*mo, sa-mo da pro-da-**mo.
+| C2G, C2 C2 |: "F"F2G A2 A2 | "Gm"G2F "Dm"(FE) D2 |
+w: (Aj-de Ja-no.) Aj-de Ja-no, aj-de du-*\vso,
+w: (Aj-de Ja-no.) Aj-de Ja-no, aj-de du-*\vso,
+w: (Aj-de Ja-no.) Aj-de Ja-no, aj-de du-*\vso,
+w: (Aj-de Ja-no.) Da pro-da-mo, Ja-no du-*\vso,
+| "Gm"G2F E2 DE | "Dm"F3- (FG FE) | D3- D4- | D3- D4 :|
+w: ko-lo da i-*gra-****mo.
+w: ko-nje da pro-*da-****mo.
+w: ku-\'cu da pro-*da-****mo.
+w: sa-mo  da i-*gra-****mo.
+"^Instr"\
+[| "Dm"fed de fg | "G7"f2e fe d2 | "C"fed cd eg | "F"f3- f4 || "Dm"fga ag gf |
+| "Gm"g2f fe ed | "C"gfe ed dc | "Dm"d3- d4- | d3- d4 \
+|| "Dm"[fd][ge][af] [af][ge] [ge][fd] |
+| "C"[gc][gB][fA] [fA][eG] [eG][dF] | "Gm"[gB][fA][eG] [eG][dF] [dF][cE] \
+| "D"[d3^F3]- [d4F4]- | [d3^F3]- [d4F4] | "Dm"{^de}.fz2 z4 | z3 z4 |]
+W: Come, Jana, dance the kolo.  Sell the horse; sell the house; just dance.
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Ajde Jano
+O: Srbija
+R: lesnoto
+Z: John Chambers <jc@trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: Em
+"^Vocal"\
+[| "Em"G2F EF G2 | G2F F2E2 | "D"(EFE) D4- | D2A, D2 D2 |: "G"G2A B2 B2 |
+"Am"A2G "Em"(GF) E2 | "Am"A2G F2 EF | "Em"G3- (GA GF) | E3- E4- | E3- E4 :|
+"^Instr"\
+[| "Em"gfe ef ga | "A7"g2f gf e2 | "D"gfe de fa | "G"g3- g4 || "Em"gab ba ag |
+| "Am"a2g gf fe | "D"agf fe ed | "Em"e3- e4- | e3- e4 \
+|| "Em"[ge][af][bg] [bg][af] [af][ge] |
+| "D"[ad][ac][gB] [gB][fA] [fA][eG] | "Am"[ac][gB][fA] [fA][eG] [eG][dF] \
+| "E"[e3^G3]- [e4G4]- | [e3^G3]- [e4G4] | "Em"{^ef}.gz2 z4 | z3 z4 |]

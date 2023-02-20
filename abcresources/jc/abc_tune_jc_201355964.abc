@@ -1,0 +1,44 @@
+%%scale 1.025
+X:1
+T:Ashgrove - #118
+C:Traditional Welsh
+M:3/4
+L:1/4
+%scales {1 2}
+K:D
+V:1 name="melody"
+|A|:"D"d f a/2g/2|"Bm"f d d|"Em"e g/2f/2 e/2d/2
+w:v1~Down yon-der green_ val-ley, where stream-lets_ me-_
+w:_at the bright_ noon-tide in sol-i-_tude_
+w:v2~Still glows the bright_ sun-shine, oer val-ley_ and_
+w:_war-bles the_ black-bird, its note from_ the_
+|"A"c A A|"D"d f/2e/2 d/2c/2|"G"B G B
+w:an-der,  when twi-light_ is_ fa-ding, I
+w:wan-der, a-midst the_ dark_ shades of a
+w:moun-tain, still trem-bles_ the_ moon-beam on
+w:tree,_ but what are_ the_ beau-ties of
+|"D"A d "A"c|1"D"d2 A:|2"D"d2||
+w:pen-sive-ly roam. Or
+w:lone-ly ash-__grove.
+w:stream-let and fountain. Still_
+w:na-ture to__ me?
+|f/2g/2|"D"a f/2g/2 a/2b/2|"Bm"a g f|"Em"g e/2f/2 g/2a/2|"A"g f e
+w:Twas_ there where_ the_ black birds were cheer-ful-_ly_ sing-ing I
+w:With_ sor-row,_ dep_ sor-row by bo-som_ is_ la-den, All
+|"D"f d/2e/2 f/2g/2|"Bm"f e d|"A"c a "E"^g|"A"!fermata!a2 A
+w:first met_ my_ dear one, the joy of my heart. A-
+w:day I_ go_ wan-dering in search of my love. Ye
+|"D"d f a/2g/2|"Bm"f d d|"Em"e g/2f/2 e/2d/2|"A"c A c
+w:round us for_ glad-ness, the blue-bells_ were_ ring-ing Ah,
+w:ech-oes oh_ tell me, where is that_ bright_ maid-en? She
+|"D"d "^rit"f/2e/2 d/2c/2|"G"B G B|"D"A d "A"c|"D"d2||
+w:then, lit-_tle_ thought I how soon we would part.
+w:sleeps neath_ the_ green turf, down by the ash grove.
+V:2 name="descant"
+|d|:f a d'/2b/2|a f f|g b/2a/2 g/2f/2
+|e c e|f a/2g/2 f/2e/2|d B d
+|e g g|1f2 d:|f2 d/2e/2
+|f d/2e/2 f/2g/2|f e e|e c/2d/2 e/2f/2|e d c
+|d B/2c/2 d/2e/2|d c B|A A B|c2 g
+|f a d'/2b/2|a f f|g b/2a/2 g/2f/2|e c e
+|f a/2g/2 f/2e/2|d B d|e g g|f2||

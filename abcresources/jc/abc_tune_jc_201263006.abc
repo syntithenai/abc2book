@@ -1,0 +1,21 @@
+X: 1
+T: Coblers Hornepipe
+P: Longways for as many as will
+%R: triple hornpipe
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.271 "A a 4"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/2
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[| F4  D2EF  GFED | E2 C4 G2 F2E2 | F3G A2(GF) (DE)F2   | A,2 D4 F2 E2D2 |]
+[| d4 (de)f2 e2d2 | e2 c4 g2 f2e2 | f3g a2(gf) (ef)(ed) | A2  d4 F2 E2D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man meets and sets with his Partner, and turn sides with their right-hand, in their own places .|
+%% The second cu. do the same :| The 1. cu. being in their own places, cross over below the second cu. and
+%% go the Figure .| Then lead through the third cu. and cast up in the 2. cu. place :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

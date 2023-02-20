@@ -1,0 +1,20 @@
+X: 694
+T: a Moonlight Ramble
+R: reel
+%S: s:2 b:16(6+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #694
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0694/oneill-1001-0694-1.abc
+%m: Nn3 = n o/n/m/n/
+M: C|
+L: 1/8
+K: C
+%%slurgraces 1
+%%graceslurs 1
+"^A"[|] (gf) !segno! \
+| e>c (3({d}cBc) G>E (3({F}EDE) | Dd{e}d^c ~d3f \
+| ec (3({d}cBc) GFED | CcBd Hc2 "^B":| (cf) \
+| ecgc acgc | Ad{e}d^c ~d3f |
+| ecgc acgc | GcBd ~c3 || f \
+| ecgc acgc | Ad{e}d^c ~d3f \
+| (3(efg) ag fedc | GcBd ceg!segno!f |] 

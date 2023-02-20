@@ -1,0 +1,38 @@
+X: 1
+T: Waltz medley #6
+P: Leaving Lismore
+C: from John Chambers, arr. T.Traub 4-29-2006
+M: 6/8
+L: 1/8
+K: D
+[| "D"D>EF A2d | "G"B>AF "A7"A3 | "D"D>EF "Bm"A2d | "G"B>AF "A7"E3 |
+|  "D"D>EF A2d | "G"B>AF "D"A3 | "G"A>Bd "A7"F2E | "D"F/E/D "G"D "D"D3 |]
+[| "Bm"d>cd "G"B2d | "G"B>AF "A"A3 | "Bm"d>cd "G"B2d | "E7"B>AF "A7"E3 |
+|  "D"D>EF "F#m"A2d | "G"B>AF "D"A3 | "G"A>Bd "A7"F2E | "D"F/E/D "G"D "D"D3 |]
+
+X: 1
+P: My Home
+C: from John Chambers, arr. 4-29-2006 T. Traub
+C: as played by Morgan MacQuarrie
+M: 3/4
+L: 1/8
+R: waltz
+K: G
+dc \
+| "G"B3 A G2 | G2 B2 d2 | "C"g2 f2 e2 | "G"d4 c2 | "G"B3 A B2 | "Em"G3 A B2 | "Am"c3 B c2 | "D7"A4 dc |
+"G"B3 A G2 | G2 B2 d2 | "C"g2 f2 e2 | "D7"d4 c2 | "G"B G3 B2 | "F"A =F3 A2 | "G"G3 A G2 | G4 |]
+d2 \
+| "G"G3 A B2 | B3 A B2 | d3 c B2 |"(Em)"B4 d2 | "Am"c3 B c2 | "D7"A2 B2 c2 | "G"d3 B G2 | G4 d2 |
+"C"e3 c e2 | g3 f e2 | "G"d3 c B2 | "C"g4 c2 | "G"B G3 B2 | "F"A =F3 A2 | "G"G3 A G2 | G4 |]
+
+X: 1
+P: Westering Home
+C: Scotland
+C: as sung by Bill McCue with Jimmy Shand and White Heather Club (Youtube)
+M: 3/4
+L: 1/4
+K: G
+FE|"G"D>D D|"G"DB,D|"Em"G G "D"A|"G"B3|"C"c>B A|"G"B>A G|"Am"E E>D|"D"D3|
+"G"D>D D|"G"DB,D|"Em"G G "D"A|"G"B3|"G"d>B G|"D"B B A |"G"G3|"G"G3||
+"G"d B G|"Em"G>A B|"Am"A>BA|"D"D3|"G"DEF|"Em"GA>B|"Am"c >Bc|"D"A3|
+"G"d>B G|"Em"G>A B|"Am"A>BA|"D"D2 c|"G"BAG|"D"B2 A|"C"G3|"G"G3 |]

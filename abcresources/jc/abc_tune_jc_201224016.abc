@@ -1,0 +1,36 @@
+X: 07
+T: the Travelling Curricle
+%R: march, reel
+B: Thompson "A Favourite Collection of Country Dances 1800", p.7
+F: https://deriv.nls.uk/dcn23/1205/2168/120521683.23.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for a US-letter/A4 page size.
+V: 1
+dBdB |\
+G2B2 A2c2 | B2d2 G2B2 | c2A2 E2A2 | F2D2 dBdB |\
+G2B2 A2c2 | B2d2 G2d2 | B2g2e2^c2 | d4 :|
+|: bgbg |\
+e2e2 bgbg | d2d2 gdgd | c2cd B2Bc | A4 bgbg |\
+e2e2 bgbg | d2d2 gdgd | BdBG AcAF | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z4 |\
+gd'bd' fd'ad' | gd'bd' ebgb | caea caea | dafa dd'bd' |\
+gd'bd' fd'ad' | gd'gd' gd'bd' |
+ge'be' ae'^c'e' | d'2d2 :|\
+|: z4 |\
+ebgb ebgb | dbgb dbgb | fd'ad' gd'bd' | dafa z4 |\
+ebgb ebgb | dbgb dbgb | dbgb dafa | g2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First & 2d Cu: hands across & back again .|
+%% lead down the middle & up again .|.
+%% cross over 2 Cu: :|.
+%% right & left :|:
+%%endtext
+%%sep 2 2 400

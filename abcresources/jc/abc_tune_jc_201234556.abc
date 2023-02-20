@@ -1,0 +1,33 @@
+X: 206
+T: I can't conceal that I prefer you.
+T: Ho cha cheillin nach du bear leam.
+R: jig
+N: This is version 1, for ABC software that doesn't understand voice overlays or tremolo notation or cres/diminuendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.95 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Moderate"
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for 2 12-bar lines.
+V: 1 staves=2
+B |\
+!p!G<Bz c<Fz | {Bc}d2B c<Fz | "_cres"G<Bz c<Fz | {Bc}d2B TG2F ||\
+!p!G<Bz c<Fz | {Bc}d2B c<Fz | "_<"G<Bz "_<"G<cz | "_>..."{A}B2G F2 :| B |\
+!p!G<Bz f2B | {c}d2B f2F | "_cres"G<Bz f2c | {Bc}d2B TG2F ||
+!p!G<Bz f2B | {Bc}d2B c<Fz | "_<"G<Bz "_<"G<cz | "_>..."B2G F2!p!e |]|\
+d2e [f2d2][ge] | [g2e2][fd] [f2d2][eG] | !f!d2e f2^f | g2B G2g ||\
+!p!{g}f2e d2c | B2c {Bc}d2B | "_<..."(Tc>Bc) d3 | "_>..."TB2G F2 |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+!p!B2z F2z | [B3d3f3] [A3c3f3] | "_cres"B2z A2z | [B3d3f3] [B2e2g2]z ||\
+!p!B2z A2z | [B3d3f3] [A2c2f2]z | B2z E2z | G2e [B2d2] :| z |\
+!p!B2z [B3d3f3] | [B3d3f3] [B3f3b3] | "_cres"[B2e2]z [A2f2]z |
+b2d e2z || !p!B2z [B3d3f3] | [B3d3f3] [A2c2f2]z | B2z E2z | B2e [B2d2]!p!c |]|\
+B2c d2e | e2d d2c | !f!B2c d2z | e3 E3 || !p!d2g f2e | d2c B2z | f3 b3 | [g2B3]e [d2B2] |]
+% = = = = = = = = = =

@@ -1,0 +1,28 @@
+X: 1
+T: Horehronsk\'y Czarda\vs
+P: Start slow, each part faster: IABBCB
+O: Czech
+S: from transcriptions by Patrick Yacono and Terry Traub
+M: C
+L: 1/8
+K: Em
+%%indent 250
+"Intro"
+| "Em"E2{^A}B2- "Am"B2{A}B2 | "Em"e2{^A2}B2- "Am"B2{A}B2 \
+| "Em"E2{^A}B2- " /D"B2{A}B2- | " /C"B2{^A}B2- "Baug"B2{A}B2 ||
+"A"
+|: "Em"E2B2 "Am"B2A2 | "Em"d2B2 "Am"B2A2 | "Em"G3E "B7"GF3 \
+|1 "Em"E4 "Am"E4 :|2 "Em"E4 " /D"EF/G/ A/B/c/d/ ||
+|: "C"e2e2 e2"D"d2 | "G"B2B2 " /B"A2G2 | "C"A3A "D"dc3 | "G"B4 "Baug"B2z2 \
+|  "Em"E2B2 "Am"B2A2 | "Em"d2B2 "Am"B2A2 | "Em"G3E "B7"GF3 \
+|1 "Em"E4 EF/G/ A/B/c/d/ :|2 "Em"E4 E2z2 |]
+"B"
+|: "Em"E2B2 "Am"B2A2 | "Em"d2B2 "Am"B2A2 | "Em"G3E "B7"GF3 \
+|1 "Em"E4 "Am"E4 :|2 "Em"E2FG ABcd ||
+|: "C"e2e2 e2"D"d2 | "G"B2B2 " /B"A2G2 | "C"A3A "D"dc3 | "G"B4 "Baug"B2z2 \
+|  "Em"E2B2 "Am"B2A2 | "Em"d2B2 "Am"B2A2 | "Em"G3E "B7"GF3 \
+|1 "Em"E2FG ABcd :|2 "Em"E4 "fine"E2z2 |][K:Bm]
+"C"
+|: "Bm"B,2F2- F2"E"^G2 | "Bm"A2B2- B2"E"c2 | "Bm"d3B "F#"dc3 |1 "Bm"B4 "E"B4 :|2 "Bm"B4 " /A"BFGA ||
+|: "G"B2B2 B2"A"A2 | "D"F3F EDCD | "G"E3F "A"AG3 | "D"F4 "F#7"cz3 \
+|  "Bm"B,2F2- F2"E"^G2 | "Bm"A2B2- B2"E"c2 | "Bm"d3B "F#"dc3 |1 "Bm"B4 " /A"BFGA :|2 "Bm"B4 "E"B2z2 "to B"|]

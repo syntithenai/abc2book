@@ -1,0 +1,18 @@
+X: 261
+T: Appllo
+%R: march, reel
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: John Treat - "Gamut for the Fifes", 1779, p.26 #1
+F: https://archive.org/details/GamutFortheFifes
+N: Added initial rest and dots on the final G notes, to fix the rhythms of repeats.
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+zd/c/ |\
+B4 A4 | G2G>G G2BG | A2G2 F2E2 | DCDE D2dc |\
+B4 A4 | G2G>G G2d2 | e3c d3B | G6 :|
+|: GA |\
+B2GB d2GA | B2GB d2B2 | A2G2 F2E2 | DCDE D2GA |\
+B2GB d2GA | B2GB d2BG | e3c d3B | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

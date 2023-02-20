@@ -1,0 +1,28 @@
+X: 1
+T: Vieni sul mar  [C]
+O: trad Italy
+R: waltz
+Z: 1999 Chambers <jc@trillian.mit.edu>
+S: Enrico Caruso recording
+M: 3/4
+L: 1/4
+K: C
+%%indent 200
+B,C "I"|\
+"F"DA,2 | "(G7)"zCD | "C"EE2 | zEF |\
+"G7"AG^F | GDE | "C"Cz"G7"G | "C"c |]
+CD "V"|\
+"C"EAG | "G7"ECD | "C"EC2 | zCD |\
+EFG | "F"ABA | "G7"D3 | zCD |\
+"C"EAG | "G7"ECD | "C"EC2 | zCD |\
+"Am"EAG | "G7"DFE | "C"C3 | zCD |
+"Am"EAB | cBA | "E7"A^G2 | z^GG |\
+"Am"AAB | "Dm"cd=e | "E7"=e3 | z"(G7)"ED |\
+"C"CEG | ccB | "F"BA2 | zEF |\
+"G7"GAG | FED | "C"C3 | z3 |]
+"Ch"\
+|:\
+"C"E3  | "G7"DCD | "C"C3- | C3 |\
+"F"c3 | AFA | "C"G3- | G3 |\
+"F"cAc | "Em"BGB | "Dm"AFA | "C"G3 |\
+"C"E3  | "G7"DCD | "C"C3 | z :|

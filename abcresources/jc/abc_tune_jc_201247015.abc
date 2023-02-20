@@ -1,0 +1,21 @@
+X: 1
+T: Angeline the Baker
+C: trad.
+O: arr. H Wrigley
+%D:
+R: song, march
+S: Fiddle Hell Online 2022-4-10 handout for ???
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+%%continueall
+% - - - - - - - - - -
+"^A"|: dB |\
+"D"A2B2 d3A | B2 d4 dB | A2B2 dBA2 | "G"B6 dB |
+"D"A2B2 d3e | f2e2 d3e | f2e2 d2B2 | "A"A3B A2 :|
+"^B"|: fg |\
+"D"a2f2 e2de | f2e2 d2fg | a2f2 e2d2 | "G"B3B B2fg |
+"D"a2f2 e2de | f2e2 d2de | f2e2 d2B2 | "A"A3B A2 :|
+% - - - - - - - - - -
+%%text The parts may be played in either order.

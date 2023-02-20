@@ -1,0 +1,19 @@
+X: 2312
+T: the Strathspey
+C: by R.MacIntosh
+%R: strathspey
+B: Niel Gow & Sons "Complete Repository" v.2 p.31 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+% - - - - - - - - - -
+V: 1 staves=2
+F/E/ |\
+D(FFB)  EG-Gc/B/ | Acfe dbBf | DF-FB EG-Gc/B/ | (A/B/c)Fe dBB :| a | b>BA>a g>GF>f | ec (e/d/).c/.B/ A(cca) |
+b>Ba>B g>Bf>B | (A/B/c) (.F.e) dBBa || b>BA>ag>GF>f | ec (e/d/)c/B/ Ac-cB/A/ | GBFB EBDF | (E/F/G) TF>E DB,B, |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | B2d2 e2=e2 | f2a2 b2d2 | B2d2 e2=e2 | f2F2 B2B, :| z | g2f2 e2d2 | [a2A2][b2B2] f2F2 |
+d2f2 e2d2 | f2F2 B2d2 || g2f2 e2d2 | [a2A2][b2B2] F2f2 | [e2E2][d2D2] [c2C2][B2B,2] | c2F2 B2B, |]

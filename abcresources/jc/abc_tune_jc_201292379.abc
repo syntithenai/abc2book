@@ -1,0 +1,20 @@
+X: 1
+T: Jefferson and Liberty
+T: the Gobby O
+O: 1843
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: Howe's Musician's Companion, Part 2 (1843)
+B: NEFR #12 (in Am rather than Ador)
+N: Both Irelend and England claim the tune.
+N: Both aeolian and dorian scales (=f vs. ^f) are common.
+N: Some versions have the pickup notes; others don't.
+M: 6/8
+L: 1/8
+K: Ador
+"A"|: A/B/ |\
+"Am"c2A A^GA | E2A ABc | "G"B2G GBc | dBG GAB |\
+"Am"c2A A^GA | E2A A2e | "E7"edc BAB | "Am"E2A A2 :|
+"B"|: E |\
+"Am"A2B c2d | "C"e2f g3 | e2f g2e | "G"dBG G2E |\
+"Am"A2B c2d | "C"efg "F"a3 | "C"edc "E7"BAB | "Am"c2A A2 :|

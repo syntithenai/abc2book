@@ -1,0 +1,20 @@
+X: 2
+T: the Determination
+%R: jig
+B: "Twenty Four Favourite Dances for the Year 1779", Thomas Straight, ed. p.1 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1779
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|:\
+Ace Ace | fga ecA | dfe Bcd | cBA GFE |\
+FGA CDE | FDF EFG | ABc def | geg a3 :|
+|:\
+ecA fdB | ecA GFE | FdB fdB | AGA BGE |\
+F2d E2c | DED C2A | EBG dBG | A3 A,3 :|
+%%begintext align
+%% All round Chasse a quatre hands across in the
+%% Centre the other four do the same every Gent:
+%% turn his partner into her place
+%%endtext

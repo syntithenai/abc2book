@@ -1,0 +1,26 @@
+X: 173
+T:Godecki Cacak
+O:Serbia
+S:from record Folk Dance Underground F.U.3. Feb.1976
+F: http://www.youtube.com/watch?v=sCPXrCfrWqk
+F: http://www.youtube.com/watch?v=wTRGGqwjfgo
+F: http://www.youtube.com/watch?v=2YBeowsduvs
+L:1/8
+M:6/8
+Q:1/4=210
+K:Am
+%%MIDI program 23
+%%MIDI chordprog 0
+%%MIDI bassprog 0
+%%MIDI chordvol 65
+%%MIDI bassvol 65
+|: "Am"A2 e"G"dcB| "Am"A2 c"G"BAG| "G"G2 AB2 G| "Am"A3 A3   :|\
+|: "G"G2 A B2 G  |d2 BBAG        | G2 A B2 G  | "Am"d3 "G"B3|\
+   G2 A B2 G     |d2 BBAG        | G2 A B2 G  | "Am"A3 A3   :|
+K:D
+   "D" D3 A3    | A,3 D3        | D2 A,A, A,2| D3 D3       |\
+  F3 D3         | A,3 D3        | D2 A,A, A,2|D3 D3        |
+  F3 D3         | A,3 D3        | D2 A,A, A,2| D3 D3       |\
+   A3 D3         |A,3 D3         | D2 A,A, A,2| D3 D3       |
+K:Am
+|: "Am"E2 CC C2  | E2 CC C2      | A,2 CE C2  |[1 E2 CC C2  :|[2 "D"A,6|

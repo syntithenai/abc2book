@@ -1,0 +1,17 @@
+X: 806
+T: Chief O'Neill's Favorite
+R: hornpipe
+%S: s:2 b:10(6+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #806
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0806/oneill-1001-0806-1.abc
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play (A1A2)x2 + (BA2)x2
+M: C|
+L: 1/8
+K: D
+"^A"[|]\
+   (de) | fef(g a)fge | fde(c d)cAG | (FE)(FD) [1,3 FGA(B | c)Adc A2 :|[2,4 GBAG | F2D2 D2 :|
+"^B"\
+|: (DE) | (FEF)(D FG)AB | cAdB (cA)GB | Add(e f)ded | c(Adc) "^->A2"A2 |]

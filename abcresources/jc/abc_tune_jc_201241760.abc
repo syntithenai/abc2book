@@ -1,0 +1,26 @@
+X: 462
+T: MISS BUCHANAN OF CAMBUSMORE
+C: Wm SHEPHERD
+R: Jig
+B: Glen Collection p.46 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: G
+V: 1
+B, |\
+{EF}GFE EGE | EB,E E2F | GAB cAd | BGE AFD |\
+{EF}GFE EGE | EB,E E2F | GAB cAF | BGE E2 :|
+B |\
+e2f gfe | eBe e2f | g2a bge | afd def |\
+e2f gfe | eBe e2F | GAB cAF | BGE E2B |
+e2f gfe | eBe e2f | g2a bge | afd d2g/a/ |\
+bgb af^d | {a}gfe dBG | ABc BAF | BGE E2 |]
+V: 2
+z | e3 [b3g3] | B3 [b3g3] | [b3g3] [a3f3] | [b3g3] [c'3a3] | e3 [b3g3] | B3 [b3g3] |
+[b3g3] [a3d3] | [g3e3] [b2g2e2] :| z | e3 [b3g3] | B3 [b3g3] | [g3e3] [b3g3e3] | f3 d3 |
+e3 [b3g3] | e3 [c'3a3] | [b3g3] [a3d3] | [g3e3]  [b3g3e3] | e3 [b3g3] | B3 [b3g3] |
+e3 [b3g3e3] | f3 [d'3a3] | e3 [c'3a3] | [b3g3] [g3B3] | d3 ^d3 | e3 [b2g2e2] |]

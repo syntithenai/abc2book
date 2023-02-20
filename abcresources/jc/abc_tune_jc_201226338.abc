@@ -1,0 +1,37 @@
+X: 1020
+T: Hare in the Corn
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Fixed rhythm problems at part ends by adding initial rests in 2nd part.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+G |\
+d3- de=f | edc BAG | c2g B2g | aAA ABc |\
+d3- de=f | edc BAG | cBc Agf | gGG G2 :|
+|: z |\
+dB/c/d/B/ GB/c/d/B/ | dB/c/d/B/ GB/c/d/B/ | cA/B/c/A/ FA/B/c/A/ | cA/B/c/A/ FA/B/c/A/ |\
+dcB edc | fed gfe | dcB Agf | gGG G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g3 G3 | c3 g3 | a3 g3 | f3 e3 |\
+g3 G3 | c3 g3 | e2c d2D | g3 G2 :|
+|: z |\
+g3 z2z | G3 z2z | d3 z2z | D3 z2z |\
+B3 c3 | d3 e3 | f2g d2D | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. cross over, half figure at bottom .|
+the 2d do the same :|
+clap to your Partner, then Sides, and turn Sides till the 1st Cu. is in the 2d Cu. Place .|
+clap Sides, clap to your Partner and turn :|
+lead up with the 2d Cu. and Jigg it, Jigg it and cast off .|
+lead down with the 3d Cu. Jigg it and cast up, 3 Men take hands, cast back to the Wall and Jigg it.
+the Wo. do the same.  meet and turn single. Right hand and Left at top.
+%%endtext

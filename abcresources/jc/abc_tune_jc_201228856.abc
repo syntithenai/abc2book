@@ -1,0 +1,24 @@
+X: 11703
+T: DUNSTAFFNAGE CASTLE
+C: Copyright.
+Q: "Moderate."
+%R: strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.170 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain has a final repeat but no initial repeat; fixed.
+M: C
+L: 1/8
+K: Am
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+E |\
+A<AB>^G A<Aa2 | g>fed c>AB<E |\
+A<AB>^G A<Aa2 | g>feB c<A A :|\
+|: e |\
+E<EE>F E<EG2 | A<AB>^G A<cd2 |
+e>fec d>cB<G | E<^FG>F E<^G A :|\
+|: d |\
+e<ea>g e<eg2 | B<Bc>B A>^GA<F |\
+EDEC D<EG2 | E<dc>B c<A A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

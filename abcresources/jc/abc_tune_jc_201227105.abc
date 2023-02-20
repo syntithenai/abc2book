@@ -1,0 +1,22 @@
+X: 10612
+T: BIRNIEBOUZLE, or BRAES O' TULLIMETT.
+Q: "Strathspey."
+%R: strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.61 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+A<dd>c d>cd<f | A>Fc>F d>Fc>B |\
+A<dd>c d>cd<g | f>d {d}cB/A/ {A}G2G :|\
+d |\
+g>dg<b g>dg<b | f>cf<a f>cf<a |
+g>dg<b g>dg<b | f>c d/c/B/A/ G2G>d |\
+g>dg<b dg/a/ b<g | f>cf<a cf/g/ a{ga}^f |\
+g<dd>=e f>ga>g | fd/f/ d/c/B/A/ {A}G2G |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

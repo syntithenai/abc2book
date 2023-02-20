@@ -1,0 +1,57 @@
+X:1
+T:Butter Fingers
+M:6/8
+L:1/8
+Q:80
+C:P.M. Donald MacLeod
+S:Jig
+K:HP
+|: f | \
+{g}ec{G}c{gcd}c2B | \
+{g}B{d}A{e}A{GAG}A2{d}c | \
+{g}ec{G}c{gcd}c2e |
+{g}fe{A}e{g}e2f|1  | \
+af{e}f{gfg}f2a | \
+ec{G}c{g}c{d}A{e}A |
+{gcd}cB{G}B{g}B{d}ce | \
+{gfg}f3{ag}a2f:|2  | \
+af{e}f{g}fga |
+ec{G}c{g}ce{A}e | \
+f{g}B{G}B{g}B{d}ce | \
+{gfg}f3{g}efg|] |:
+| {ag}a3fga | \
+fec{g}A{d}A{e}A | \
+{g}ec{G}c{g}A{d}A{e}A |
+ac{G}c{g}A{d}A{e}A|1  | \
+{ag}a3fga | \
+{fg}f2e{g}c{d}A{e}A |
+{gcd}cB{G}B{g}B{d}ce | \
+{gfg}f3{g}efg:|2  | \
+af{e}f{g}fga |
+ec{G}c{g}ce{A}e | \
+f{g}B{G}B{g}B{d}ce | \
+{gfg}f3{g}fga|] |:
+| {fg}f3{g}e3 | \
+{gcd}c2B{g}c{d}A{e}A | \
+{g}ec{G}c{g}c{d}A{e}A |
+{d}caA{g}c{d}A{e}A|1  | \
+{ag}a3fga | \
+{fg}f2e{g}c{d}A{e}A |
+{gcd}cB{G}B{g}B{d}ce | \
+{gfg}f3{g}fga:|2  | \
+af{e}f{g}fga |
+ec{G}c{g}ce{A}e | \
+f{g}B{G}B{g}B{d}ce | \
+{gfg}f3{g}efg|] |:
+| {ag}a3ga{g}a | \
+fa{g}aea{g}a | \
+da{g}aca{g}a |
+Ba{g}aAa{g}a|1  | \
+{g}a3fa{g}a | \
+ea{g}ada{g}a |
+{cd}cB{G}B{g}B{d}ce | \
+{gfg}f3{g}efg:|2  | \
+af{e}f{g}fga |
+ec{G}c{g}ce{A}e | \
+f{g}B{G}B{g}B{d}ce | \
+{gfg}f3{ag}a2|]

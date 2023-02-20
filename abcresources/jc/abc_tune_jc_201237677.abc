@@ -1,0 +1,32 @@
+X: 281
+T: Kitty Tyrrel
+O: Irish
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.28#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slow"
+R: waltz, air
+M: 3/4
+L: 1/8
+K: Eb
+V: 1
+E>C |\
+(B,2 C2) E2 | ~E4 (EF) | .G2 (e2 d2) | {d}c4 (de) |\
+(cB) (AG) (FE) | E4 (EF) | ~G2 (AG) (FE) | {D}C4 E>C |
+(B,2 C2) .E2 | ~E4 EF | .G2 (e2 d2) | {d}c4 (de) |\
+(cB) (AG) (FE) | (E2 C2) (E/F/G) | {G}F2 .E2 .E2 | E4 :|
+|: (B/c/d) |\
+(e2 d2) .e2 | (c2 d2) .e2 | ~f2 (ed) (Tc>B) | B4 (B/c/d) |\
+(e2 d2) .e2 | ~B2 (cB) (AG) | G2 ((3EFG) ((3GFE) | {D}C4 E>C |
+(B,2 C2) .E2 | TE4 EF | (G2 e2) .d2 | {d}c4 (de) |\
+(~cB) (~AG) (~FE) | (E2 C2) (E/F/G) | {G}F2 .E2 .E2 | .E4 :|
+V: 2 clef=bass middle=d
+z2 |\
+[e2G2] [e2A2] [e2B2] | [e2G2] g2 d2 | e4 b2 | a2 A2 z2 |\
+e4 B2 | e2 ga ga | b2 c'b ag | a2 A2 z2 |
+[g2e2] [a2e2] [g2e2] | e2 b2 g2 | e4 g2 | a2 A2 z2 |\
+e4 B2 | e2 a2 g2 | b2 B2 e2 | E4 :|
+|: z2 |\
+[g2e2] [a2e2] [g2e2] | a2 b2 g2 | f4 F2 | B4 z2 |\
+e2 f2 g2 | e2 ag fe | e4 G2 | A4 z2 |
+e2 a2 g2 | e2 g2 e2 | e2 g2 b2 | a2 A2 z2 |\
+e4 b2 | g2 a2 g2 | b4 B2 | E4 :|

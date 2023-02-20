@@ -1,0 +1,17 @@
+X: 130024
+T: JIG.
+C: J.S.Neill.
+R: Jig.
+%R: jig
+N: This is version 2, for ABC software that understands voice overlays.
+B: James Kerr "Merry Melodies" v.1 p.30 s.0 #24
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|:\
+vD3 D3 | vd2vB AFD | B,3 C2D | EFD CB,A, |\
+D3 D3 | d2B AFD | B,CD EFG | ABc d2z H:|
+|:\
+FDF FGA | Bdc BAG | FDE FGA | Bed cBA |\
+FDF FGA | Bcd efg | afd bge | x3 "^1st"d3 & cBc "_2nd"dAF |]

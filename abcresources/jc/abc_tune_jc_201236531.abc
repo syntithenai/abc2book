@@ -1,0 +1,26 @@
+X: 2231
+T: Donald Quaich.   a Reel.
+O: Very Old.
+%R: reel
+N: This is version 2, for ABC software that understands voice overlays
+B: Niel Gow & Sons "Complete Repository" v.2 p.23 #1 (top 2 staves continued from previous page)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+% - - - - - - - - - -
+V: 1 staves=2
+|: ~c2(.e.A) B/B/B dG | ~c2eA aAeA | c2eA TB>cdG | Tc>deA B^GA2 :| ~c3g B/B/B dG | c3g c/c/c ge |
+faeg dgBG | Tc>deA B^GA2 ||~c3g B/B/B dG | c3g c/c/c ge | faeg dgBG | ~c>deA B^GA2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+% Voice 2 also has many shifts between bass and treble staf in the 2nd strain, only bass clef used here.
+% It's not clear how to reliably change clefs in measures with two voices (with up- and down-stems).
+V: 2 clef=bass middle=d
+|:\
+[c'2e'2][c'2e'2] [d'2][d'2] & a2a2 g2g2 | [c'2e'2][c'2e'2] [c'2e'2][c'2e'2] & a2a2 a2a2 |\
+[c'2e'2][c'2e'2] [b2d'2][b2d'2] & a2a2 g2g2 | [c'2e'2][c'2e'2] [b2e'2][c'2e'2] & a2a2 e2a2 :|\
+[e'2g'2][e'2g'2] [b2d'2][b2d'2] & c'2c'2 g2g2 | [e'2g'2][e'2g'2] [e'2g'2][e'2g'2] & c'2c'2 c'2c'2 |
+[f'2a'2][e'2g'2] [b2d'2][b2d'2] & c'2c'2 g2g2 | [c'2e'2][c'2e'2] [b2e'2]x2 & a2a2 e2[A2a2] ||\
+[e'2g'2][e'2g'2] [b2d'2][b2d'2] & c'2c'2 g2g2 | [e'2g'2][e'2g'2] [e'2g'2][e'2g'2] & c'2c'2 c'2c'2 |\
+[f'2a'2][e'2g'2] [b2d'2][b2d'2] & c'2c'2 g2g2 | [c'2e'2][c'2e'2] [b2e'2]x2 & a2a2 e2[A2a2] |]

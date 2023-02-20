@@ -1,0 +1,32 @@
+X:565
+T:Peacock Rag
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%subtitlefont Times-Roman 28
+Q:1/2=120
+M:2/2
+L:1/4
+K:D
+[| F/G/ | "D"Af -f/e/d | "D"A2 ^GA | "G"Bg -g/f/e | "E7"B2 ed |\
+"A7"ca -a/e/g/e/ | "A7"fe Bc | "D"d/c/d/f/ - "G"f/d/B | "A7"AF G^G |
+"D"Af -f/e/d | "D"A2 ^GA | "G"Bg -g/f/e | "E7"B2 ed |\
+"A7"ca -a/e/g/e/ | "A7"fe Bc | "D"d/c/d/f/ - "A7"f/c/e | "D"d2 a^a |
+%%vskip 30
+"B7"bb/^a/ b/a/b | "B7"a2 gf | "E7"ee/f/ ^g/b/g/f/ | "E7"e3d |\
+"A7"ca -a/e/g/e/ | "A7"fe Bc | "D"d/c/d/f/ - "G"f/d/B | "A"A2 a^a |
+"B7"bb/^a/ b/a/b | "B7"a2 gf | "E7"ee/f/ ^g/b/g/f/ | "E7"e3d |\
+"A7"ca -a/e/g/e/ | "A7"fe Bc | "D"d/c/d/f/ - "A7"f/c/e | "D"d4 |]
+%%vskip 60
+T:Beaumont Rag
+Q:1/2=120
+M:4/4
+L:1/8
+K:F
+[| z2f2g2a2 | "C7"b4g3^d | "C7"ege(c4c) | "F"a4f3c | "F"dcAc2dcA |\
+"C7"cdeg2ege | "C7"agec2dcA | "F"FGAc2AcA | "F"dcAc2dcA |
+"C7"b2b2gbg^d | "C7"egec2dec | "F"a2a2fgfc | "F7"dcAc2dcA |\
+"Bb"Bcdef2gf | "F"agfdc2ba | "C7"gfed cdeg | "F"f8 |]
+%%vskip 30
+"C7"EEcE EdEE | "C7"cEEE dEcE | "F"FFcF FdFF | "F"cFFF dFcF |\
+"C7"EEcE EdEE | "C7"cEEE dEcE | [I:MIDI=gchord bzzz] "F"F2 "_(break)"c2-cFdF | [I:MIDI=gchordoff] _e2-ed- d2c2 |
+[I:MIDI=gchordon] [I:MIDI=gchord fzczfzcz] "C7"EEcE EdEE | "C7"cEEE dEcE | "F"FFcF FdFF | "F7"_eFFd FFc2 |\
+"Bb"Bcde fegf | "F"agfdc2ba | "C"gfed cdeg | "F"f2 |]

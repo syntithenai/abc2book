@@ -1,0 +1,31 @@
+X: 1
+T: Subligny's Dance
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (191)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The title has an apostrophe in the index, but not in the tune page.
+N: There's an odd empty "measure" at the end of the 2nd and 3rd strains, omitted here.
+M: 6/4
+L: 1/4
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+e |\
+aga e2e | fed cBA |\
+cBA cBA | c2^d e2e |\
+aga e2e | fed cBA |
+cBA def | B2A A2 |][| c |\
+dcB cAc | dcB c2f |\
+=gfe f^db | =g>fe e2 |][| c |
+fga gcd | B>cG AFc |\
+fga g^ea | g>f^e f2a |\
+fga bge | aga b2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Note Each Strain is to be play'd but once over.
+%%begintext align
+%% First all four Hands half round then back again into
+%% their own Places then the 1st Cu. cross over the 2d Cu.
+%% and so thro the 2d Cu. and cast off into the 2d Cu.
+%% Places .|
+%%endtext
+%%sep 1 8 500

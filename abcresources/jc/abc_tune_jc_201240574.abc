@@ -1,0 +1,26 @@
+X: 401	% 114
+T: Happy Is The Miller Boy
+T: (Singing Call)
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.40 #1
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The "for ward" is written as two words.
+M: 2/4
+L: 1/8
+Q: "(March)"
+K: G
+V: 1 name="114"
+%%continueall 1
+D | GG BB GG BB | G2 EE D3 D |
+w: 1.~Well, hap-py is the mil-ler boy who lives by the mill. The
+w: 2.~Well, hap-py is the mil-ler boy who lives by the mill. The
+G2 B2 G2 BB | d2 B2 A3 B | d2 dd dd BA |
+w: wheel turns round with its own free will. One hand in the hop-per and the
+w: wheel turns round with its own free will. One hand in the hop-per and the
+GG GA B3 A | GG E2 DD GA | B2 A2 G3 |]
+w: oth-er in the sack, The la-dies go for ward and the gents turn back.
+w: oth-er in the sack, The la-dies go for ward and it's grab boys grab.
+%%begintext align
+%% Play Turkey in the Straw once thru for two-step back to Miller Boy.
+%% Continue changing until dance ends.
+%%endtext

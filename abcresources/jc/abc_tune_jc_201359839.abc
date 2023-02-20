@@ -1,0 +1,76 @@
+X:14329
+T:Sizilianisch
+T:(Siciliano) Op. 68, No. 11
+C:Robert Schumann
+O:Germany
+B:From Robert Schumann: "Album for the young"
+R:Siciliano
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/schumann-robert/schm068-11/schm068-11-pno2.abc
+V:1 Program 1 0 %Piano
+V:2 Program 1 0 %Piano
+M:6/8
+L:1/8
+K:Am
+V:1
+e|^G2G GAB|A2AA2e|^G2G GAB|A3- A2=G|
+V:2
+z|[B,2D2][B,D][B,3D3]|[C2E2][CE][C3E3]|\
+[B,2D2][B,D][B,3D3]|[C3-E3-][C2E2][B,D]|
+%
+V:1
+^F2F F^A^c|B2BB2=A|G^FEB2B,|E3-E2:|
+V:2
+[^A,2^C2][A,C][A,3C3]|[B,2^D2][B,D][B,2D2]B,|E2G,B,2B,,|E,3-E,2:|
+%
+V:1
+|:g|^A2A AB^c|B2BB2g|^A2A AB^c|{B/^c/}B3-B2[^F=A]|
+V:2
+|:z|[^C2E2][CE][C3E3]|[^D2^F2][DF][D3F3]|\
+[^C2E2][CE][C3E3]|[^D3-^F3-][D2F2]D|
+%
+V:1
+G2G G^FE|[E2c2][Ec][E2c2]c|BAG d2D|[1G3-G2:|[2G2[E-^G-][E2G2]||
+V:2
+E2E E z z|[A,2C2][A,C][A,2C2]C|\
+B,A,G,D2D,|[1G,3-G,2:|[2G,2[E,B,][E,2B,2]||
+%
+V:1
+e|^G2G GAB|A2AA2e|^G2G GAB|A3- A2=G|
+V:2
+z|[B,2D2][B,D][B,3D3]|[C2E2][CE][C3E3]|\
+[B,2D2][B,D][B,3D3]|[C3-E3-][C2E2][B,D]|
+%
+V:1
+^F2F F^A^c|B2B B2=A|G^FEB2B,|"_Fine"E3-E2|]
+V:2
+[^A,2^C2][A,C][A,3C3]|[B,2^D2][B,D][B,2D2]B,|E2G,B,2B,,|E,3-E,2|]
+%
+V:1
+M:2/4
+L:1/16
+K:Am
+Acec fdec|fdec dBA2|Acec fdec|fdec dBA2||
+V:2
+M:2/4
+L:1/16
+K:Am
+[A,4C4E4][A,2D2F2][A,2C2E2]|[A,2D2F2][A,2C2E2][E,2^G,2D2][A,2C2]|\
+[A,4C4E4][A,2D2F2][A,2C2E2]|[A,2D2F2][A,2C2E2][E,2^G,2D2][A,2C2]||
+%
+V:1
+ABcA ecBG|ecBG [^D^F]GE2|ABcA ecBG|ecBG [^D^F]GE2|
+V:2
+[A,4C4E4][^F,2A,2E2][G,2B,2]|[^F,2A,2E2][G,2B,2] B,2E,2|\
+[A,4C4E4][^F,2A,2E2][G,2B,2]|[^F,2A,2E2][G,2B,2] B,2E,2|
+%
+V:1
+Acec fdec|fdec dBA2|"_D. C. al fine senza replica"Acec fdec|fdec dBA2||
+V:2
+[A,4C4E4][A,2D2F2][A,2C2E2]|[A,2D2F2][A,2C2E2][E,2^G,2D2][A,2C2]|\
+[A,4C4E4][A,2D2F2][A,2C2E2]|[A,2D2F2][A,2C2E2][E,2^G,2D2][A,2C2]||
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

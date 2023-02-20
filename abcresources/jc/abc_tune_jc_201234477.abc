@@ -1,0 +1,20 @@
+X: 20541
+T: the YOUNG MAY MOON
+Q: "Vivace"
+%R: jig
+B: "Edinburgh Repository of Music" v.2 p.54 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The "8va" notation is a bit dubious in ABC.
+M: 6/8
+L: 1/8
+K: F
+((3c/d/e/) |\
+f2f f2c | d2c c2c |\
+f2f (gf)g | a2f (fg)a |\
+b2b a2a | gaf e>dc |\
+.d.c.B .A.B.c | (d2c) c2 :|
+"_F."d'2d' (c'af) | d'2d' c'3 |\
+d'2d' (c'af) | (e<g)g g3 "_P."|\
+"^8va_"d2"^_"d "^_"c"^_"e"^_"f | "^_"g2"^_"f "^_"e"^_"d"^_"c "_F."|\
+"^_"d"^_"c"^_"B "^_"A"^_"B"^_"c | "^_"d2"^_"c "^_"c2 |]

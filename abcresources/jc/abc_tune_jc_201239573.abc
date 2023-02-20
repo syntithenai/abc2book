@@ -1,0 +1,19 @@
+X: 331	% unnumbered
+T: Florida Blues
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.33 #1
+N: Handwritten: "Beautiful number - played slowly."
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Bar 8 has an extra 8th note; not fixed because it's not clear what was intended.
+N: The double bar lines at bar 11 are a bit odd.
+M: 2/4
+L: 1/16
+Q: "Blues rhythm"
+K: D
+V: 1 name="92"
+[|\
+{e=f}K^fafe dBAd | {e=f}K^fafe dBA2 | FFEF DB,A,D | G2AB dedB | GABd edBG |
+D2EF AGFE | DEFA BGAF | EccB ca3 ee | cBAB ce3 | a2ef dBAB | d6 ||
+([fd]e) ||\
+[d2F2][d2F2] [dF]BAF | D3E D2([fd]e) | [d2F2][d2F2] [dF]BAF | D4 EDEF | GA2B dedB | GABd edBG |
+DE2F AGFE | DEFA BGAF | EcBc dc3 | cBAB c[e3c3] | [a2c2](ef) dBAB | [d8F8] |]

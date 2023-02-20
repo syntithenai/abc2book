@@ -1,0 +1,22 @@
+X: 181
+T: 4. La lionnoise
+%R:
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.18 #1
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The repeat pattern and ending(s) for the 1st strain aren't clear.  
+N: The odd G surrounded by |:|-like symbols may be a second ending to the first strain.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g |\
+G2G GAB | A2A ABc | dcB AGF | G2G G2g |\
+G2G GAB | A2A ABc | dcB AGF | HG2(G G2 |][| G2) |]
+"2.f. de Suitte"[| [K:Gm] !segno!A B2A |\
+G3 A3 | ^FE^F G^FG | DE^F G^FG | D2A B2A |\
+G3 A3 | ^FG^F GAB | AcB AG^F | HG2 |]
+[| A B2c |\
+d3 c2e | d3 c2e | d2c B2A | B2G B2c |\
+d3 c2e | d3 c2e | d2c B2c | d2 !segno!y |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

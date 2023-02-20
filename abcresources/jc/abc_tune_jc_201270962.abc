@@ -1,0 +1,26 @@
+X: 1
+T: Duke of Luxemburgh's March
+P: Longways for as many as will
+%R: march, reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.176
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+c2cd c2G2 | c4 e4 | d2de d2A2 | d4 f4 |\
+e2ee e2dc | e2ef g4 | d2de dc  Bc | d4 g4 |][|\
+g2gg g2e2 | f2g2 e4 |
+e2de fe dc | B4 A4 |\
+aaaa ffff | dddd B4 | gggg eeee | cccc A4 |\
+ffff eeee | A2d2 B2cd | d4 c4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. and 2. man take hands and lead through between the two we. into their own places and turn
+%% sides, the two we. do the like :| Then the 1. cu. cross over into the 2. cu. place and go the full Figure
+%% of 8. then the Figure through the 3. cu. into the 2. cu. place, then lead up through and cast off.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,25 @@
+X:894
+T:Dunvegan Two Step, The
+C:Joe Buchanan's Scottish Tome - Page 459.0
+I:459 0
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:G
+W:Play A twice, B twice, A once, C twice, A once to fine.
+%%vskip 0
+P:A
+d | B2 B BAB | G2 B B3 | DGB dcB | A3- A2 B |
+A2 A AGA | D2 F A3 | d^cd edc | B3- B2 d |
+B2 B BAB | G2 B B3 | DGB dcB | A3- A2 B |
+f2 f f2 e | d2 e f2 e | d^cd edF | G3 G2 d !fine!:|
+P:B
+d | Bdg eBe | B2 G D3 | DGB dcB | A3- A2 d |
+a2 a aga | f3 e3 | d^cd efc | B3- B2 d |
+Bdg dBd | B2 G D3 | DGB dcB | A3- A2 d |
+a2 a aga | f3 e3 | d^cd efc | G3- G2 :|
+P:C
+B,C^C | D2 B G2 D | C2 A FDB, | A2 G F2 E | D3- D2 D |
+D2 B G2 D | C2 A FDB, | A2 G F2 E | D3- D2 G |
+E2 G c2 e | d2 B G2 B | d^cd edF | G3 G2 :|

@@ -1,0 +1,28 @@
+X: 21173
+T: SONNAMBULA WALTZ
+C: Strauss.
+Q: "Gracefully."
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.117 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+.Gz.A | .Bz.c | ("_>"d2b) | g2z |\
+.Gz.A | .Bz.c | ("_>"d2d') | b2(3(b/^a/b/) |\
+.c'z.b | .az.g | ("_>"f2A) | c2(3(d/^c/d/) |\
+.fz.e | .dz.c | B2D | G2z |]
+[|\
+.G2z.A | ._Bz.c | (d2_b) | g2z |\
+._Bz.c | !f!.dz._e | (f2d') | _b2b |\
+{_b}az.^g | .az.e | {=b}az.^g | .az(f |\
+b)z(e | g)z(A | f)z(A | d3) |]
+[|\
+.B("_>"e>d) | ("_>"d>c)F | "_>".f(b>a) | (a>g)d |\
+.d({f}e>d) | (d>fa) | d({f}e>d) | (d>fb) |\
+!f!.B(e>d) | (d>c)F | .f(b>a) | (a>g)d |\
+.G({B}A>G) | (G>ce) | .d/.d/.d.d | Gzz |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

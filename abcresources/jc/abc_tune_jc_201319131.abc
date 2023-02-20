@@ -1,0 +1,34 @@
+
+X: 1
+T: Oj Savice    [C]
+O: Croatia
+R: waltz
+M: 3/4
+L: 1/8
+K: C
+[|\
+DE C4 | [E2C2] [G4E4] | [AF][GE] {G}[F3D3] [EC] | [FD][EC] [D3B,3] [EC] | [GE][EC] [F3D3] [GE] |
+w: 1.~Oj* Sa- Oj Sa-vi-*ce* ti-*ja* vo-*do*
+(3[EC2]DE [D4B,4] | [FD][GE] [A3F3] [GE] | [GE][EC] [F3D3] [GE] | (3[EC2]DE [D4B,4] |]
+w: lad-**na, ti-*ja* vo-*do* lad-**na.
+%
+W: 2. Preve prevezi me tamo i ovamo, tamo i ovamo.
+W: 3. Tamo tamo mi je selo umiljeno, selo umiljeno.
+W: 4. I u i u selu najljep\vsa djevojka, najljep\vsa djevojka.
+W:
+W: Oh Sava, carry me across your quiet, cool water.
+W: There is my dear village, and in that village, the prettiest girl.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Oj Savice    [D]
+O: Croatia
+R: waltz
+M: 3/4
+L: 1/8
+K: D
+[|\
+EF D4 | [F2D2] [A4F4] | [BG][AF] {A}[G3E3] [FD] | [GE][FD] [E3C3] [FD] | [AF][FD] [G3E3] [AF] |
+(3[FD2]EF [E4C4] | [GE][AF] [B3G3] [AF] | [AF][FD] [G3E3] [AF] | (3[FD2]EF [E4C4] |]

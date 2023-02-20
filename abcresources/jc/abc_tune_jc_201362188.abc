@@ -1,0 +1,32 @@
+X: 1
+A:Adam de la Halle
+T:J'ai adès d'amour chanté/Omnes
+M:3/4
+L:1/4
+Q:1/4=110
+K:F Lydian
+%
+V:1 clef=treble-8 middle=B,
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+%%MIDI program 1       72 piccolo
+%%MIDI program 2       70 bassoon
+%
+%%%%%%%%%%%%%%%%%%%%%%%% duplum %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[V:1]
+    C2 (D/E/)|F2   E |(DC)    B,|C2 z | D2 (C/B,/)|C2  F | E D/C/
+w: J'ai       a-*  dès d'a-mour* chan-té     et        ser-* vi En  bon**
+(D/E/)|F2 z | C2 D/4E/4F/| E2  C |(DC) _B,| C2  F |(E/D/C) (D/C/)| F2 z |
+w:     es-*poir    Ma   dame**  et  si ai* guer- pi pour       li**         a-*  voir
+  (DC)  B, | C2 B,/4A,/4G,/| A,2 B, C2 z | F   F   F |  F2   E |(E/D/C)   D |
+w: Es-*cole  a-   mis**      et  a-voir   Est che don drois k'a-       mour** me
+    E2   D |(E/D/C)  B, | C2 z ||
+w: Lais-sant       ne-** nil voir.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% tenor %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[V:3] % The tenor must be numbered as 3 for our makefile to key off of these measures
+  F,6 | G,2 z | F,3 | D,3 | F,2 z |
+w:Omnes.
+	 			 F,6 | F,2 z | A,3 | G,3 | F,2 z |
+  F,6 | G,2 z | F,3 | D,3 | F,2 z|
+				 F,3 | F,2 z | A,2 z | G,6 | F,2 z ||
+%

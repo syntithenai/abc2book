@@ -1,0 +1,40 @@
+X:1
+T: The Ladies' Pleasure
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 150
+%W:
+% voice 1 (1 lines, 34 notes)
+K:G
+M:6/8
+L:1/16
+d2 g4 g2 B4 c2 d4 B2 G4 D2 G4 G2 A2 B2 c2 B4 A2 G4 |d2 g4 g2 B4 c2 d4 B2 G4 D2 G4 G2 A2 B2 c2 B4 A2 G4 |
+%W:
+% voice 1 (1 lines, 37 notes)
+A3 B A2 c2 A2 B2 A3 B A2 c6 A3 B c2 d2 e2 f2 g2 f2 e2 d6 |d2 g4 g2 B4 c2 d4 B2 G4 D2 G4 G2 A2 B2 c2 B4 A2 G4 |
+%W:
+% voice 1 (1 lines, 8 notes)
+M:4/4
+L:1/16
+d8 g8 |g8 B8 |c8 d8 |B8 G8 |
+%W:
+% voice 1 (1 lines, 9 notes)
+M:6/8
+L:1/16
+D2 G4 G2 A2 B2 c2 B4 A2 G4
+%W:
+% voice 1 (1 lines, 8 notes)
+M:4/4
+L:1/16
+d8 |g8 g8 |B8 c8 |d8 B8 |G8
+%W:
+% voice 1 (1 lines, 9 notes)
+M:6/8
+L:1/16
+D2 G4 G2 A2 B2 c2 B4 A2 G4 |

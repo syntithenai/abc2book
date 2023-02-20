@@ -1,0 +1,12 @@
+% %textfont  FreeSerif 14
+% This is a test of abcm2ps handling of flats and sharps.
+X:1
+T:TEST: check for sharp ( \001 ) and flat ( \002 )
+M:C
+L:1/4
+K:C
+%%titleleft  1
+%%staffwidth 15cm
+"C#"c2 "Bb"d_d | "D/F#"c2 "F#"^c2 |
+w:Is this a /\001 sharp?
+%%text sharp (\001) and flat (\002) in text

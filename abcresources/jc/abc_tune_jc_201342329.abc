@@ -1,0 +1,13 @@
+X:1
+T: Sweet Nell
+R: reel
+C: \251Jamie Gans
+M: 4/4
+L: 1/8
+K: A
+"A"[E2A,2]A2 ABcA |"E"BcdB "A"c2c2  | "A"[E2A,2]A2 ABcA | "E"BA GA BA GA|
+"A"A,2A2 Bc2A |"E"Bc d2 "A"c2Bc| "D"d4 "A"c2BA|1 "E" GA B2 "A"A2 A,2:|\
+	[2 "E"GA B2"A"A2cd ||
+|: "A"e4 a3g | "D"f2 d4 e2| "A" a2f2 ec3 | "E"B3BB2AB |
+"A"cABc AGFG| "A"AG3 "D"F4| "E" EFAB cABG |1 "A"A3A A2 cd:|2 "A"A3A A4 |]
+%%vskip 2cm

@@ -1,0 +1,22 @@
+X: 20583
+T: HALF-PAST-TWELVE
+C: Copyright.
+Q: "With spirit."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.58 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+gec |\
+ded cdc | BAB ABA | (G3 B2 | d3) def |\
+gag fef | efe dcd | (c3 B3 | A3) |]\
+ABc |\
+BAB G2B | cBc A2B | cde d2^c | d3 efg |
+gdc Bde | dBG EFG | ABc DEF | G3 |]\
+def |\
+gag G2g | aba A2c' | bag f2g | a3 d2g |\
+Bcd cde | EFG ABc | (D3 F3 | G3) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

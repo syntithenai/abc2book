@@ -1,0 +1,45 @@
+X: 1
+A:Thomas Tallis
+T:Thomas Tallis' Eighth Psalm Tune
+M:none
+L:1/4
+Q:1/4=110
+K:G Mixolydian
+%
+V:1 clef=treble
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+V:4 clef=bass+16 middle=D,%+
+%
+%%MIDI program 1	79 ocarina
+%%MIDI program 2	74 recorder
+%%MIDI program 3	71 clarinet
+%%MIDI program 4	60 frenchrn
+%
+% Squeeze things together a bit, to get the whole tune to fit on one page.
+%%sysstaffsep    22.0pt
+%%systemsep      50.0pt
+%
+[V:1] z D   D    D  | D    G   G   F  | G    G   A   A  | B   G     G  ^F  | G
+[V:2] z G,  A,   A, | B,   G,  C   A, | D    D   E   D  | D   D     C   A, | D
+w:     God grant we grace, he  us  em-brace. in gen-tle  part bless he our heart.
+[V:3] z G,  G,  ^F, | G,   G,  A,  A, | B,   G,  G, ^F, | G,  G,    A,  A, | B,
+[V:4] z G,  D,   D, | G,,  B,, A,, A,,| G,,  B,, C,  D, | G,, B,,   A,, A,,| G,,
+%
+[V:1] G   A   A  | B    G    c  c  | B    B   A   A  | G   G  c  c  | B
+[V:2] D   F > E  | D    D    C  A, | D    D   F  > E | D   D  C  A, | D
+w:   With lov-ing face shine he in place. His mer-cies all on us to fall.
+[V:3] G,  C   C  | B,   B,   A, A, | G,   G,  C   C  | B,  B, A, A, | G,
+[V:4] G,  G, ^F, | G,   G,   A, F, | G,   G,, A,, F,,| G,, G, G, F, | G,
+%
+[V:1] B   A  A  | G  d   c    A  | B   B     A  A  | G  d    c     A  | B
+[V:2] G   E  F  | D  G   E    F  | G   G     E  F  | D  G    E     F  | G
+w:   That we thy way may know all day, while we do sail this world so frail.
+[V:3] D   C  A, | B, B,  A,   A, | G,  D     C  A, | B, B,   A,    A, | G,
+[V:4] G,  A, F, | G, G,, C,   D, | G,, G,    A, F, | G, G,,  C,    D, | G,,
+%
+[V:1] B   A       A  | G  D   E   F  | G     B   A    A  | G  D   E    F  | G4   ||
+[V:2] G   E       D  | B, D   C   A, | B,    B,  E    D  | B,> D  C    A, | B,4  ||
+w:   Thy health's re-ward is hign de-clared, as plain as  eye all Gen-tiles spy.
+[V:3] D,  E,      F, | G, B,  A,  A, | G,    D,  E,   F, | G, B,  A,   A, | G,4  ||
+[V:4] B,, C,      D, | E, B,, C,  D, | G,,   G,, C,   D, | E, G,  C,   D, | G,,4 ||

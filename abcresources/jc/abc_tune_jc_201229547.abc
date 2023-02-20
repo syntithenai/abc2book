@@ -1,0 +1,23 @@
+X: 1252
+T: the Marquis of Lorn's Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.25 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted for 4 6-bar lines.
+V: 1 staves=2
+(g |\
+f)>de>c d>FD(F | E)>=CC<E G2-G>(g | f)>de>c d>FD(F | A)>FDF A2-A>(=c || B)>GA>F d>FDF | G/F/E/D/ =C<E G<cG<E |
+F<DG>E A<FB<G | d/c/B/A/ d>F D3D |]| a | f2d<a f<da>f | g>e=c>e g2g>a | f2d<a f>ga<f | a<fd<a f<da<d ||
+Tf2d<a f>ga>f | g>e=c<g e<cg<e | a>fg>e f>de>c | d/c/B/A/ d>F D2D>a || Tf2d<a f<da<f | g>e=c>e g2g>a |
+Tf2d<a f>ga<f | a<fd<f a>ba<f || g<bg<e f<af<d | e<ge<d Tc>de<g | a>fg>e f>de>c | d/c/B/A/ d>F D2D |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d2d2 d2d2 | =c2c2 c2c2 | d2d2 d2d2 | A2A2 d2d2 || d2d2 d2d2 | =c2c2 c2c2 |
+d2e2 f2g2 | a2A2 d2d |]| z | d2d2 d2d2 | =c2c2 c2c2 | d2d2 d2d2 | d2d2 d2d2 || d2d2 d2d2 |
+=c2c2 c2c2 | d2e2 f2g2 | a2A2 d2d2 || d2d2d2d2 | =c2c2 c2c2 | d2d2 d2d2 |
+d2d2 d2d2 || e2e2 d2d2 | A2A2 c2c2 | d2e2 f2g2 | a2A2 d2d |]

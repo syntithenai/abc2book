@@ -1,0 +1,20 @@
+X: 117103
+T: BRECHIN CASTLE
+Q: "Strathspey."
+R:  Strathspey.
+%R: strathspey
+N: This is version 2, for ABC software that understands voice overlays.
+N: The final bar is a bit confused. It's probably better as V1's alternate endings.
+B: James Kerr "Merry Melodies" v.1 p.17 s.1 #3
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: Bb
+uF |:!segno!\
+B/B/B B2 vB>vduf>ud | B/B/B B2 {AB}vc>vB (A<F) |\
+B/B/B B2 B>df>d | e<g d<f {AB}c>B (A<F) :|
+|:\
+vf>uB e/d/c/B/ f<B e>ug | vf>uB e/d/c/B/ {AB}vc>vB (A<F) |\
+f>B e/d/c/B/ f<B d>f | x2 x<"^2nd"b x2 (A<F) & e<g d<"_1st"f {AB}vc>vB x2 :|

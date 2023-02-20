@@ -1,0 +1,22 @@
+X: 21443
+T: RUSSIAN HYMN
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.144 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+A2c2 B2c2 | A2c2 G2c2 | A2c2 B2G2 | F2E2 F2z2 |\
+A2c2 B2c2 | A2c2 G2c2 | A2c2 B2G2 | F2E2 F2z2 |\
+f2e2 f2c2 | B2G2 A2c2 |
+f2e2 f2c2 | B2G2 F4 |] \
+F3F F2F2 | G3G G2G2 | F3F (F>AG)>F | F2E2 F2z2 |\
+F3F F2F2 | G3G G2G2 | F2F2 (F>AG)>F | F2E2 F4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Moore's song beginning "Hark the Vesper Hymn is stealing," is sung to the above air.
+%%endtext
+%%sep 1 1 300

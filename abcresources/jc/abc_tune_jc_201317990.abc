@@ -1,0 +1,17 @@
+X: 1
+T: Nyanyanyanyanyanyanya!  [B]
+T: Nyan Cat Theme
+C: ?
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+F: http://junket.tumblr.com/post/4776023022/heres-the-nyan-cat-sheet-music
+M: 4/4
+L: 1/16
+K: B
+%"Intro"[|]defz bede | fbd'e' d'abz | fzde fzb2 | c'abc' e'd'e'c' ||
+"A"|:\
+f2g2 ^^cd2^c | =dcB2 B2c2 | =d2dc Bc^df | gdfc dBcB |
+d2f2 gdfc | dB^^cd =d^cBc | =d2Bc ^dfc=d |1 cBc2 B2c2 :|2 cBc2 B2B2 ||
+"B"|:\
+B2FG B2FG | BcdB edef | B2B2 FGBF | edcB EDEF |
+B2FG B2FG | BBcd BFGF | B2BA BFGB |1 edef B2A2 :|2 edef B2c2 |]

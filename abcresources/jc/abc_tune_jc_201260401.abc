@@ -1,0 +1,27 @@
+X: 1
+T: Carrack's Rant, a Strathspey
+R: strathspey
+S: Fiddle Hell Online 2020-11-05 Se\'an Heel Slow Airs Workshop
+B: Gow's 1st Repository (ca.1817)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "Slowish"
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+d2 |\
+!p!D6 F2 A2AA TA3F | A3B d3A FFF2 F3D | E4- TE3F BBB2 TB3A | d3f Te3d BBB2 (3(B2c2d2) |
+!f!D6 F2 AAA2 (TA3F) | A3B {AB}d3A FFF2 F3D | TG3B G3B F3A F3A | TE3D E2F2 BBB2 B2 |]
+[| e2 |\
+d4- Td3f ddd2 d3A | TB3A {c}d3c FFF2 F3D | ~e6 f2 eee2 e3f | {ef}g3f e2d2 BBB2 B3e |
+d4- Td3f ddd2 d3A | TB3A {c}d3A FFF2 TF3D | TG3B G3B F3A F3A | TE3D E2F2 BBB2 B2 |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+d4d4 d4d4 | d4d4 d4d4 | e4e4 e4e4 | f4a4 g4G4 |
+[d4D4][d4D4] [d4D4][d4D4] | [d4D4][d4D4] [d4D4][d4D4] | b4g4 f4d4 | e4e4 g4G2 |]
+[| z2 |\
+d4d'4 d'4d'4 | d'4a4 d4d4 | e4e'4 e'4e'4 | e4f4 g4G4 |
+d4d'4 d'4d'4 | d'4a4 d4=c'4 | b4^c'4 d'4d4 | e4f4 g4G2 |]
+%%text The Old Scotch Song of Mary Scott is taken from this tune.

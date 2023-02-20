@@ -1,0 +1,40 @@
+X: 10341
+T: Those ruby lips, that radiant Eye
+C: Mazzinghi
+Q: "Andantino"
+B: "Man of Feeling", Gaetano Brandi, ed. v.2 p.34-35
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Bar 48 (last-2) has 9 16th notes; it's not obvious what rhythm was intended.
+M: 2/4
+L: 1/16
+K: C
+%%continueall
+[|\
+c4 d3 e | c4 z4 | d4 e3 f | d4 z2 G2 | 
+w: Those ru-by lips, that ra-diant Eye, The
+(c3B) (d3c) | (e3d) (f3e) | (a2g2) (f2e2) | d6 zB | c4 (d3e) |
+w: cold-*est* heart* of* Age* might* warm, A Saint for*
+c4 z3c | d4 e4 | f4 z2a2 | g3 e f3 d | c4 d4 |
+w: her wou'd leave the Sky, And own The-re-sa was the
+c4 z3G | c3 c d2 d2 | e2 c2 d2 zd | (dB) (AG) G3 d |
+w: charm, For her the ti-mid must be brave, Im-pe-*tuous* rush to
+e3 c c3 ze | (fd) (cB) B3 f | g3 e e2 zd |
+w: Wars a-larm, Im-pe-*tuous* rush to Wars a-larm, And
+e3 e ^f3 f | g3 =f e2 ze | d3 d c3 c |
+w: Wel-come Death if her to save, And wel-come Death if
+HB3 d Hc2 c2 | A3 A B2 c2 | d3 B G2 zG |
+w: her to save And own The-re-sa was the charm, And
+% p.36
+d3 d e3 e | f3 d HB4 | c4 d2 e2 | c4 z4 |
+w: own The-re-sa was the charm, Those ru-by lips,
+d4 e3 f | d4 z3G | (c3B) (d3c) | (e3d) (f3e) |
+w: that ra-diant Eye, the cold-*est* heart* of*
+(a2g2) (f2e2) | d4 z3B | c4 (d3e) | c4 z3c | d4 e4 |
+w: Age* might* warm, A Saint for* her wou'd leave the
+Hf6 c2 | f3 f e2 e2 | d2 d2 Hg2 a2 | g3 e f3 d |
+w: Sky, And own The-re-sa was the charm, And own The-re-sa
+c4 d4 | g3 e f2 d2 | c4 Td4{cd} | c4 x4 & z2 c'2b2a2 | g6 efd | c4 d2cd | Hc8 |]
+w: was the charm, The-re-sa was the charm.
+%
+%%center -

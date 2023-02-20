@@ -1,0 +1,18 @@
+X: 371	% 104
+T: Kenning's Quadrille
+T: or Three Jolly Sailor Boys
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.37 #1
+R: march, reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+V: 1 name="104"
+"^Intro"d | d>d (3(cBA) | G3 !segno!|: d |\
+GGG>A | B2B(G/A/) | BBcB | A3A |\
+DFAB | c2c>c | dddc | B3d |
+GGG>A | BBB3/(G/A/) | BBcB | A3A |\
+DFAB | c2e>e | dc BA | G3 || (B/c/) |\
+d/d/d/d/ (3(ddg) |
+(3(eee) a>g | (3(fef) (3(def) | (3(ggg) (3(gab) |\
+d/d/d/d/ (3(ddg) | (3(eee) a>g | (3(fef) (3(def) | "^Repeat"g3g !segno!|]

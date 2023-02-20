@@ -1,0 +1,28 @@
+X: 20763
+T: BY THE GAILY CIRCLING GLASS.
+T: SONG FROM THE "MASQUE OF COMUS."
+C: Dr. Arne.
+Q: "With spirit."
+%R: march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.76 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+g2d2 b3a | (gf)(ga) d2z2 |\
+g2(fd) f2(ed) | g2(fe) a4 |\
+d2(^cd) e2(de) | f2(ef) g2z2 |\
+f2(ed) g2(fe) | a2A2 B2z2 |\
+(gf)(ed) ^c2d2 | A3A d4 :|
+|:\
+g2b2 e2ze | (ag)(fe) ^d2z2 |\
+b3a g2(fe) | {g}f2(e^d) e2z2 |\
+c'2b2 a3g | f2g2 a2z2 |\
+g2(fe) d3d | e2(dc) B2z2 |\
+c'2a2 f3g | d3d G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

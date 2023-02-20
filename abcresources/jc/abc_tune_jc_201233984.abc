@@ -1,0 +1,38 @@
+X: 201
+T: My Love is gone to Sea
+T: Cha mo leannan nun' thar sal
+R: jig
+N: This is version 2, for ABC software that understands dim/crescendo symbols.
+% dim/cres..endo symbols:
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" 1816 p.93 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Moderate but Expressive."
+K: C	% ending on Am
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+|:\
+c2G E<Gz | {A}G2E {E}D3 | E<Gz !p!A<cz | B2G E3 ||\
+"_cres"c2d {cd}e2A | {A}G2E D3 | !p!E<Gz A<cz | QTB2^G q[A3E3C3] :|\
+!p!{E}c2c {Bc}d2c | TB2A pd2Pe | pc2d e2Pe | pf2d e2Pe ||
+"_cres"c2c {Bc}d2c | TB2A e2g | "_Exp"e2G E<Ez | pc2d {cd}HPe3 |[|\
+!p!c2G E<Az | G2E D3 | pE<PGz pA<Pcz | B2G E3 ||\
+"_cres"c2d {cd}e2A | {A}G2E D3 | !p!E<Gz A<cz | pB2^G P[A3E3C3] |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+c2c' c2z | c2c' g3 | c2z f2z | G2B c3 ||\
+e2g c'2f | e2c g3 | !p!c2z f2z | e2E A3 :|\
+!p!c'3 f2^f | g2z b2z | c'2b c'2c' | d'2b c'2c' ||
+e'2c' b2a | g2f e3 | c3 C2z | e2g Hc'3 |[|\
+!p!c2c' c2z | c2c' g3 | c2z f2z | G2B c3 ||\
+e2b c'2f | e2c g3 | !p!c2z f2z | e2E A3 |]
+% = = = = = = = = = =

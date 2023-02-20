@@ -1,0 +1,22 @@
+X: 126
+T: Kalu Raglayim
+C: Yosi Spivak 1958
+D: Debka Israeli Folk Dances (Tikva Records T-100)
+O: Israel
+M: 2/4
+L: 1/8
+Q: 1/4=144
+K: Bm
+%%MIDI program 42
+%%MIDI bassprog 32
+%%MIDI chordprog 27
+%%MIDI bassvol 96
+%%MIDI chordvol 60
+P:A
+|:"F#m"DD2E|DCDB,    |"Em"CDCB,  |CA,B,C   |\
+  "F#m"DD2E|DCDB,    |"Em"CDCA,  |"Bm"B,4  :|
+P:B
+  "F#m"F3E |FEFD     |"Em"EFED   |E2A,2    |\
+  "F#m"F2EF|GAGF     |EFED       |"Em"E4   |
+  "D"D3E   |FEFD     |EFED       |"Em"E2A,2|\
+  "D"D2EF  |"F#m"EFEC|"Bm"B,B,CA,|B,4      |

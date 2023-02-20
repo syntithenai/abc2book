@@ -1,0 +1,93 @@
+X: 1821
+T: BOSWELL'S WALTZ
+C: E. B. Bohuszewicz
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.182-183
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+U: P=!crescendo(!
+U: p=!crescendo)!
+M: 3/4
+L: 1/8
+K: F
+% -------------------------
+V: 1
+|:"1st VIOLIN"!ff!\
+[f2A2] [f2A2] [f2A2] | [f2A2] {d}c=B c2 | [f2A2] {d}c=B c2 | [fA][fA] [f2A2] [f2A2] |\
+[g2c2] [g2c2] [g2c2] | [g2c2] {c}c=B c2 | [g2c2] {d}c=B c2 | Q[gc][gc]q [g2c2] [g2c2] |\
+"_fp"(a4 g2) | (f4 d2) |
+(c4 f2) | P(eg)p (gb) "_>"(d'c') |\
+"^>"(a4 g2) | "^>"(f4 d2) | (c3 f).e.g | f2 z2 "_FINE"z2 H:|\
+|:!p!\
+(_e4 .e2) | ((3efe d2) "^>"g2 | d4 d2 | ((3ded c2) f2 |\
+(ed) G2 Bd |
+(dc) F2 Ac | "_CRES."=BcBcde | fg a(b/a/) gf |\
+!f!(Te^c) A2 z2 | (f/g/f/e/ d2) "^>".a2 | (e/f/e/d/ ^c2) .a2 | ((3fgf e2) .d2 |\
+((3e/f/e/^c A2) z2 | (f/g/f/e/ d2) .a2 | ((3efe ^c)(Aa)(c | d2) z2 z2 :|
+K: Bb
+|:!p!\
+z(.d.d.d .d2) | z(.f.f.f)"^>"f2- | f(.e.e.e) e2- | e(.d.d.d) d2 |\
+z(dbd) d2 | z(fbf) f2- | "_CRES."f=e [eB][eB] "^>"[e2^c2] | zQ[fA][fA][fA]q e2- |\
+e(.d.d.d .d2) | z(.f.f.f) f2- |
+f(.e.e.e) e2- | e(.d.d.d) d2- |\
+d(.c.c.c) G2- | G(.F.F.F) D2 | (CB,A,GF)A, | .B,2 z2 z2 :|\
+|:!f!\
+c4 c2 | (ed).c.=B c2 | !p!(ed)(c=B) c2 | !f!.e(dc)(=B c2) |\
+.d2 (f=e)(gf) |
+(f4 d2) | [b2B2] (f=e)(gf) | (Qf4q e)d |\
+!mp!c4 c2 | .e.d.c=B .c2 | "_PIZZICATO"edc=B c2 | "_ARCO"edc=B c2 |\
+Td6 | d2 {a}g>^f g2 | (fg) f2 A2 | B2 z2 "_D.C."z2 :|
+% -------------------------
+V: 2
+|:"2d VIOLIN"!ff!\
+[F2C2] [F2C2] [F2C2] | [F2C2] z2 z2 | [F2C2] z2 z2 | [FC][FC] [F2C2] [F2C2] |\
+[E2C2] [E2C2] [E2C2] | [E2C2] z2 z2 | [E2C2] z2 z2 | Q[EC][EC]q [E2C2] [E2C2] |\
+"_fp"([F4C4] e2) | (d4 B2) |
+A4 A2 | [B2G2] [B2G2] [B2G2] |\
+([A4F4] e2) |  (d4 B2) |(AcfAc)B | [A2F2] z2 "_FINE"z2 H:|\
+|:!p!\
+[c2A2] [c2A2] [c2A2] | [B2G2] z2 z2 | [B2G2] [B2G2] [B2G2] |[A2F2] z2 z2 |\
+z2 [B2D2] G2 |
+z2 A2 F2 | z2 E2 B2 | A2 z2 z2 |\
+!f!(A,2 ^C2) E2 | (A/B/A/G/) F4 | G2 E4 | (F2 G2 F2) |\
+z2 [A2E2] ^c2 | z2 [A2F2] d2 | z2 [A2E2] G2 | [F2D2] z2 z2 :|
+K: Bb
+|:!p!\
+z2 [B2D2] [B2F2] | z2 [B2F2] [B2F2] | z2 [B2E2] c2 | z2 [B2D2] [B2D2] |\
+z2 [B2D2] [B2F2] | z2 [B2F2] [B2F2] | z2 G2 A2 | z2 Q[A2D2]q [A2F2] |\
+z2 [B2D2] [B2F2] | z2 [B2F2] [B2F2] |
+z2 [B2E2] c2 | z2 [B2F2] [B2D2] |\
+z2 E2 E2 | z2 [B2D2] [d2F2] | [e2F2] z2 [e2F2] | [d2F2] z2 z2 :|\
+|:!f!\
+A4 A2 | (cB).A.^G A2 | !p!(cB)(A^G) A2- | !f!A(BA)(^G A2) | .B2 (d^c)(ed) |
+(d2 B2) B2 | d2 (B^c)(ed) | Q(d2 B2q c)B |\
+!mp!A4 A2 | .c.B.A.^G A2 | !pp!"_PIZZICATO"cBA^G A2 | "_ARCO"ABA^G A2 |\
+.D2 .E2 .^F2 | (G4 _d2) | (=de) .d2 .E2 | D2 z2 "_D.C."z2 :|
+% -------------------------
+V: 3 clef=bass middle=d
+|:"VIOLONCELLO"!ff!\
+f2 c2 A2 | F2 z2 z2 | f2 z2 z2 | F2 F2 F2 |\
+C2 c2 c2 | c2 z2 z2 | c2 z2 z2 | cdcBAG |\
+F2 F2 A2 | B2 B2 z2 |
+c2 c2 z2 | c2 c2 c2 | F2 F2 A2 |\
+B2 B2 z2 | c2 c2 c2 | f2 F2 "_FINE"z2 H:|\
+|:\
+(^f6 | g2) z2 z2 | c6 | f2 z2 z2 |\
+B6 |
+c6 | c2 B2 G2 | F2 z2 z2 |
+A6 | d2 z2 z2 | ^c6 | (d2 ^c2 d2) |\
+A6 | d2 z2 z2 | g2 a2 A2 | d2 z2 z2 :|
+K: Bb
+|:"CON ESP."\
+{B}(f4 b2) | d'4 d'2 | d'c' g2 a2 | ( b4 f2) |\
+{B}(f4 b2) | d'4 d'2 | d'^c' b2 a2 | d4 c2 |\
+{B}(f4 b2) | d'4 d'2 |
+d'c' g2 a2 | (b4 f2) |\
+(g4 c'2) | (f4 b2) | (.a.g.f.e.d.c) | B2 B2 z2 :|\
+|:\
+F2 f2 z2 | F2 f2 z2 | F2 f2 z2 | F2 f2 f2 |\
+B6- |
+B2 (d^c) (=ef) | B6- | B2 (d^c) (=ef) |\
+F2 f2 f2 | F2 f2 f2 | !pp!F2 f2 f2 | F2 f2 f2 |\
+.^f2 .g2 .a2 | (b4 =e2) | f4 f2 | B2 b2 "_D.C."z2 :|

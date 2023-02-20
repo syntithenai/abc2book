@@ -1,0 +1,70 @@
+X: 32
+T: l'Amour du Village.
+%R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #32
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+dcBc |\
+d2d2 edef | g2g2 dcBA | cBAG F2G2 | A2D2 dcBc |\
+d2d2 edef | g2 g2 dcBA | cBAG A2F2 | G4 :|
+B2B2 |\
+BAGA B2^c2 | d4 G2G2 | GFEF GEAG | F4 A2d^c |\
+B2ed ^c2fe | d2g2 fefg | a^cdg f2e2 | "_Da Capo"d4 |]
+K: Dm
+"Mineur"B2dB |\
+A2dA G2eG | {G}^F2D2 G^FGB | AGAB c2B2 | {B2}A4 B2dB |\
+A2dA G2eG | ^F2D2 d2d2 | dgGc B2A2 | G4 |]
+B2Fd |\
+d2Bf fedc | d2B2 B2Fd | d2Bf fedc | B4 B2Fd |\
+d2Bf fedc | d2B2 B2Fd | d2Bg fedc | "_Da Capo"B4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+g2g2 |\
+gabg c'bc'a | gdBG bagf | edcB AdBG | defd g2g2 |
+gabg c'bc'a | gdBG bagf | edcB cAdD | G4 :| g2g2 | gfef geag | fafd e2e2 |
+ed^cd ed^cA | d2de fed2 | gfe2 agf2 | bab^c' d'2de | fabg agaA | "_Da Capo"defd |]
+K: Dm
+"Mineur"G2g2 |\
+^f2d2 e2c2 | d2d'c' bd'bg | ^f=efg a^fg^c | de^fd G2g2 |
+^f2d2 e2c2 | d2d'c' baga | b2c'2 d'2d2 | g4 |] B2b2 | b2dd' d'c'ba | bfdf B2b2 |
+b2dd' d'c'ba | bfdf B2b2 | b2dd' d'c'ba | bfdf B2b2 | b2de f2F2 | "_Da Capo"B4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center L'Amour du Village.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first Couple face the fourth and Rigaudon,
+%% while the third Couple face the second and
+%% Rigaudon, then Moulinet four and four to their
+%% own places - - - - 1/2
+%%endtext
+%%begintext align
+%%   The second Couple face the first and Rigaudon,
+%% while the fourth Couple face the third and
+%% Rigaudon, then hands Round four and four to
+%% their own Places - - - 1/1
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   Each Gentleman Balanc\'e with the Lady on
+%% his Left, then turn his Partner - - 1/1
+%%endtext
+%%begintext align
+%%   All Eight Chass\'e cross with the Partners
+%% and back again - - - 1/2
+%%endtext
+%%begintext align
+%%   Each Gentleman Balanc\'e with his Partner
+%% and Rigaudon, then Allemande with the Lady
+%% on his Left - - - - 1/1
+%%endtext
+%%sep 1 1 400

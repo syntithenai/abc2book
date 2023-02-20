@@ -1,0 +1,28 @@
+X: 7
+T: the Woodcutter
+%R: hornpipe
+B: Cahusac "Annual Collection of Twenty-four favorite Country Dances For the Year 1809", p.4 #1
+F: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1809_%28Various%29
+F: http://javanese.imslp.info/files/imglnks/usimg/0/0d/IMSLP351863-PMLP71785-wm_cahusac_24_dances_1809.pdf
+Z: 2015 by John Chambers  <jc:trillian.mit.edu>
+N: The 1/4-notes at the ends of both straings should be 1/8-notes.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+d2f>d a>fb>a | g>fe>d c>de>A |\
+d>Ad>f a>fb>a | g>fe>d c3A |\
+d2f>d a>fd>f |
+g>fe>d c>de>c |\
+d>ef>g a>fe>d | B>dc>e d4 :|\
+|: A2 |\
+c>de>f g>ec>A | d>ef>g a>fe>d |
+B>eg>f b>ag>f | e>cd>B A2A2 |\
+c>de>d d>cB>A | d>cd>e f>ga>f |\
+b>ag>f | e>dc>B | A>dc>e d4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Lead outsides, back again, Down the mid: up again,
+%% hands 4 & Right and left.
+%%endtext

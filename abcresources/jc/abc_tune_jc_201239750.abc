@@ -1,0 +1,69 @@
+X: 33
+T: la Precieuse.
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #33
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+A2A |\
+ABA F2E | D3 A2A | d2d ede | [f3A3D3] A2A |\
+ABA F2E | D3 A2A | ded efe | d3 :|
+|: FAc |\
+dAf gea | f2d FAc | dAf gea | d3 A2A |\
+GFG GAG | F2E A2A | G2F EDE | D3 :|[K:=f=c]
+[K:Dm]\
+|: "Mineur"a2a |\
+f2f {e}dcd | B3 g2g | e2e {d}cBc | A3 f2f |\
+d2d {c}BAB | G3 g2f | {f}e2d ^c2d | e3 :|
+|: c2c |\
+f2f fef | a3 A2A | d2d d^cd | e3 A2f |\
+f2e e2d | d2^c c2d | BAG FGE | D3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+d2d |\
+d3 d2a | d3 zza | f2d a2A | dfa d2d | d3 d2a | d3 zza |
+f2d a2A | d3 :||: d2d | d3 e2A | d2D D2d | d3 e2A | d2d f2f |
+g2d c2A | d2g f2d | a2d a2A | d3 :|[K:=f=c][K:Dm]|: "Mineur" z2z | d'2d' b2b | gfg e3 |
+c'2c' a2a | fef d3 | b2b g2g | e2d ^c2d | g2f e2d | A3 :||: z2z | d2d a2f |
+c3 z2z | d2d f2d | A2A A2z | d2z A2z | A2z A2d | G3 A3 | d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Precieuse.
+%%begintext align
+%%   Le Grand Rond - - - - 2/1
+%%endtext
+%%begintext align
+%%   The first Gentleman with his Left hand,
+%% takes his Partner by the Right, and puts his
+%% Right behind her while she puts her Left 
+%% behind him; the third Couple do the same, and
+%% in that Position the first and third Couple
+%% Queue du Chat - - - 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%% M I N E U R.
+%%begintext align
+%%   Each Gentleman Chass\'e to the Corner on
+%% his Right and Rigaudon, in this manner compleat
+%% the Square, while the Ladies do the same
+%% to the Left - - - - 2/1
+%%endtext
+%%begintext align
+%%   The four Ladies Contretems in the middle
+%% and Rigaudon, then Allemande with their
+%% Partners - - - - 1/2
+%%endtext
+%%begintext align
+%%   The four Gentlemen Contretems in the middle
+%% and Rigaudon, then Allemande with their
+%% Partners - - - - 1/2
+%%endtext
+%%sep 1 1 400

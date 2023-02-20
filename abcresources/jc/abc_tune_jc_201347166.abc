@@ -1,0 +1,16 @@
+X: 1
+T: la Turlutte de Antoine
+T: la Turlette de Antoine
+O: from "Les T\^etes de Violon" CD
+R: reel
+S: Fiddle Hell Online 2022-4-10 handout for Abby Newton workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dm clef=bass middle=D
+|:\
+"Dm"(Ad) dA d2A2 | d2(de) d2cB | "Am"ABc(d cB)AB | c2(cB) A2G2 |\
+"Dm"(Ad) dA d2A2 | d2(de) d2cB | "C"AG AB c2E2 | "Am"F2(EF) "Dm"D2D2 :|
+|:\
+"Dm"DEFG A2G2 | ABc2 "Am"uC3uC | "C"C2E2 C2E2 | "Am"CE FE D2C2 |\
+"Dm"DEFG A2G2 | FG AB "Am"c2E2 | "C"F2(EF) "Dm"D2D2 :|

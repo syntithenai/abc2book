@@ -1,0 +1,18 @@
+X: 4269
+T: 1st OF MAY
+R: Hornpipe.
+%R: hornpipe, reel
+N: This is version 2, for ABC software that understands voice overlays.
+B: James Kerr "Merry Melodies" v.4 p.29 #269
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+A2 |:\
+ (EA)AB c2cA | d2cd e2fg |\
+[1 afge d2(cd) | ecAF G2(FE) :|\
+[2 afge dfec | A2A2A2 |]
+|: (fg) |\
+   a2af g2ge | xxxx x2"^2nd"ef & fgfd e2"_1st"ed |\
+[1 cdef g2fg | aecA B2 :|\
+[2 afge dfec | A2A2A2 |]

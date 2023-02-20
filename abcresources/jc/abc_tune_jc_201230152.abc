@@ -1,0 +1,29 @@
+X: 1331
+T: the Ruffians Rant.   a Strathspey.
+%R: strathspey, air
+B: Niel Gow & Sons "Complete Repository" v.1 p.33 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading. (Expanded slightly from the book's version.)
+V: 1 staves=2
+"^A"[|] B !segno!|\
+AFTF>E {G}F>EF<B | AFFD TE>DEF | AFTE>D {c}~d>efe | {c}d>B A/B/d/F/ TE>DE "^B":: B | A<Fd>A TB>AdB |
+A<Fd>A TB>ABd | AFTE>D ~d>efe | {c}d>B A/B/d/F/ TE>DE "^C":: b | a<fTf>e Tf>ef<b | a>fTf>d e>deb |
+a<fTf>e ~d>efe | {c}d>B A/B/d/F/ TE>DE "^D":| B | A<Fd>A d/c/B/A/ d>B | A<Fd>A TB>AB<d | A<FTE>D ~d>e{de}f>e |
+{c}d>B A/B/d/F/ TE>DEB "^E"|| A>Fd>A d/c/B/A/ d>B | A<Fd>A TB>AB<d | A<FE>D Td>e{de}f>e | {c}d>B A/B/d/F/ TE>DEG |] 
+y8 y8 y8 y8 \
+"^F"|| (3.F(.A.F) (3.F(.d.F) (3.F(.B.F) (3.F(.d.F) | (3.F(.A.F) (3.F.(.d.F) TB>AB<d | A<FTE>D ~d>e{de}f>e | {c}d>B A/B/d/F/ E>DE<!segno!B |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z !segno!|\
+d2d2 d2[g2d2] | d2d2 A2A2 | d2d2 f2d2 | [f2d2]d2 A2A :: z | d2d2 d2d2 | d2f2 [g3d4]f |
+d2a2 f2d2 | g2fd a2A :: z | d'2d'2 d'2d'2 | d'2d'2 a2 a2 | d'2c'2 b2f2 | g2fd a2A :| z |
+d2d2 d2d2 | d2f2 g2f2 | d2c2 B2F2 | A2D2 A2 A2 || d2d2 d2d2 | d2f2 g2f2 | d2c2 B2F2 | A2D2 A2Az |]
+y8 y8 y8 y8 \
+|| d2d2 d2d2 | d2d2 [g2d2][f2d2] | d2c2 B2[f2F2] | g2fd a2A!segno!z |]
+% - - - - - - - - - -
+%%center  This [F] may be played in place of the last four Barrs [E] in the fouth Strain. Ad.Lib. 

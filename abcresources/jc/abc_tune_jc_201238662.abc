@@ -1,0 +1,28 @@
+X: 3111
+T: Dunira Lodge
+C: by Miss M.Stirling
+%R: air, strathspey
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+N: (We also ignore the Gows' clef changes.)
+B: Niel Gow & Sons "Complete Repository" v.3 p11 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow"
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+D |\
+(FA) A>B AF d>B | A>FE>D B,>E~E>G |\
+(D/F/A) A>B A>F d>B | AFED (A,D)D :|\
+d |\
+A>df>d Ad fd/f/ | Ta>ba>f [fd]<[ec][ec]>f |
+A>df>d A>d fd/f/ | (a/^g/a/)b/ a>=g f<dd>f ||\
+A>df>d A>d fd/f/ | Ta>ba>f ([fd][ec]) [e3/c3/]a//g// |\
+f<ae>f d>BHd>B | !p!A>FTE>D (A,D)D |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | D2d2 d2bg | f2d2 e2a2 | d2fg fd bg | f2ga f2d :| z | d2d'2 d2d'2 | f'2d'2 a'2a2 |
+d2d'2 d2d'2 | fg aA d2Dz || d2d'2 d2d'2 [K:none clef=treble]|\
+F2D2 A2A,2 \
+[K:none clef=bass middle=d]| d'2c'2 b2Hg2 | !p!f2ga f2d |]

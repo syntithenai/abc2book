@@ -1,0 +1,23 @@
+X:1
+T: Temple-Barr
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 200
+%W: A
+% voice 1 (1 lines, 33 notes)
+K:Am
+M:4/4
+L:1/16
+A4 B4 |c4 A4 c4 d4 |e8 e4 d2 c2 |B4 c4 d4 e4 |c4 A4 A4 B4 |c4 A4 c4 d4 |e8 e4 d2 c2 |B4 A4 B4 ^G4 |A12 e2 f2 |
+%W: B
+% voice 1 (1 lines, 26 notes)
+g4 f4 g4 a4 |g8 g4 f2 e2 |d4 e4 f4 e4 |d8 e2 d2 e2 f2 |e8 d8 |c8 A4 B4 |c4 A4 c4 d4 |
+%W:
+% voice 1 (1 lines, 25 notes)
+e8 e4 d2 c2 |B4 c4 d4 e4 |c4 A4 A4 B4 |c4 A4 c4 d4 |e8 e4 d2 c2 |B4 A4 B4 ^G4 |A8 ||

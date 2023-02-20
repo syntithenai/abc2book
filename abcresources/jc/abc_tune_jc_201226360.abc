@@ -1,0 +1,32 @@
+X: 10221
+T: DANDALEITH
+C: Marshall
+Q: "Slow--Strathspey time."
+%R: strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.22 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+(A<Td)(d>c) A<FF>(A | c)>.dTd>A {A}G2(Gc) |\
+(A<d)(Td>c) A<FF>(e | f)>.ga<c A2A :: G |\
+(F<ff)>.g (fg/a/) (Ta>g) | f<dTc>B {A}G2(G>A) |
+F<(ff>.g) (fg/a/) (a>g) | f<cd>f A2A :| d |\
+c<AA>d c>AA>d | c>AA>F {F}G2(Gd) |\
+c<AA>d c<AA>a | fcdf TA2(A>d) |
+c<AA>d c<AA>d | c<AA>F {F}G2(G>A) |\
+F>GA<d c<AA>a | fcdf A2A |] g |\
+f>ga<g f>dd<f | c<ATA>F {F}G2(GA) |
+f>ga<f f<dd<f | c<Af>g a2(ag) |\
+f>ga<g f<dd>f | c<ATA>F {F}G2(GA) |\
+F>GA<d c<AA<a | fcdf A2A |: G |
+F>GA<f c<AA<f | c<AA>F {F}G2G>A |\
+F>GA<f c<AA<a | f>cd<f TA2A :| f/g/ |\
+a>fg>e f>cd<f | c<AA>F {F}G2Gf/g/ |
+a>fg>e f>cd<f | c<Af>g {fg}a2af/g/ |\
+a>fg>e f>cd<f | c<ATA>F {F}G2GA |\
+F>GA<d c<AA>a | f>cd<f TA2A |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

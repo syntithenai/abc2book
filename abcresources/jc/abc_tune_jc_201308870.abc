@@ -1,0 +1,31 @@
+X:5
+T:Meine Seel' erhebt den Herren
+S:Bach/Riemenschneider #358
+C:J.S. Bach
+S:Jack Campin abcusers 2003-7-22
+M:C
+L:1/4
+V:1
+V:2
+V:3 bass
+V:4 bass
+K:GMin
+V:1 d2  f2 |d  d  d  d |e2    d2   |c2    c2 |HB4  |
+V:2 G2  F2 |F ^F  G  A |G     F2 G |G2    F2 |HF4  |
+V:3 B,2 C2 |D  C  B, A,|B, C2    B,|B,2   A,2|HD4  |
+V:4 G,2 A,2|B, A, G,^F,|G, A, B, G,|E, C, F,2|HB,,4|
+%
+V:1 d2  f2 |c  c  c  G |B2    A2   |HG4  |
+V:2 F4     |F  F  E  G |G2   ^F2   |HD4  |
+V:3 B,4    |A, C  C  C |D3       C |HB,4 |
+V:4 B,2 D,2|F, A, G, E,|D, C, D,2  |HG,,4|
+%
+V:1 d2  f2 |d  d d   d |e2    d2   |c2    c2 |HB4  |
+V:2 G2  A2 |F3      ^F |G  A  B2-  |B  B  B A|HF4  |
+V:3 B,2 C2 |D  C D2    |D  C  B, F |G2    F C|HD4  |
+V:4 G,2 F,2|B, C B,  A,|B, C  F, D,|E, C, F,2|HB,,4|
+%
+V:1 d2     f2   |c  c  c c |c2    G  A|B2     A2   | G4-        |G4-        |G4       |H G4  |]
+V:2 z4          |F  G  A B |c2    C2  |D2     D  C |=B, D  G  F |E4-        |E2  D  C |H D4  |]
+V:3 z2     F, G,|A, B, C2- |C  D =E ^F|G2    =F  E | D =B, C  D-|D  G, C2-  |C2 =B, A,|H=B,4 |]
+V:4 B,, C, D, E,|F,3     G,|A, B, C2  |B,, C, D, E,| F,2   E, D,|C, D, E, F,|G,4      |H G,,4|]

@@ -1,0 +1,17 @@
+X: 20382
+T: the Weary pound of tow
+%R: air, waltz
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.38 #2
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The rhythms of repeats aren't quite correct; not fixed.
+M: 3/4
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+D |\
+G>G G3 G | (G/A/B) {B}A3 G | F>G {AB}c3 B | {B2}A4 zB |\
+G>G G3 G | (G/A/B) {B}A3 G | E>G {GA}B3 A | G6 :|
+|: d |\
+B>c d3 G | B>c d2 zG | F>G {AB}c3 B | {B2}A4 (d/e/f) |\
+g>f e3 d | d>e {e}g3 G | E>G {GA}B3 A | G6 :|

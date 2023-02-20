@@ -1,0 +1,39 @@
+
+X: 1
+T: Tiraspoler Bulgar
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+D: "Veretski Pass" by Veretski Pass (Cookie Segelstein, Joshua Horowitz, Stuart Brotman)
+M: 4/4
+L: 1/8
+K: Dm
+  "A7"A2 \
+| "Dm"d3 A | "Gm"cB AG | "Dm"^GA- AF | A/G/F F/E/D \
+| "A7"E2 F2 | EA, =B,^C | "Dm"D/^C/D F/E/F | A/^G/A d2 |
+| "F"c c2 d | cB AG | FA cA | "Gm"G3 F | "F"FC CF | "Eb(Cm)"F_E E/D/C | "Dm"D4- | D2 :|
+|:"C7"C2 \
+| "F"C F2 G | A A2 G | A A2 G | A4 | cB BA | "(C7)"AG GF | "F"GA F2 | C2 F2 |
+| "F"C F2 G | A A2 F | "Gm"GA/G/ FE | D2 "C7"C2 | "F"FG AF | "A7"GF FE | "Dm"D4- | D2 :|
+|:"C7"C2 \
+| "F"A2 GF | "Gm"G2 FE | "Dm"D2 FD | "C"C4 | "Gm"D2 G2 | "C"GA/G/ FE | "F"FE FG | A4 |
+| "F"A2 GF | cc BA | "Gm"GA/G/ FE | D2 "C7"C2 | "F"FG AF | "A7"GA/G/ FE | "Dm"D4- | D2 :|
+
+
+%%sep 1 1 500
+
+X: 2
+T: Tiraspoler Bulgar
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+D: "Veretski Pass" by Veretski Pass (Cookie Segelstein, Joshua Horowitz, Stuart Brotman)
+M: 4/4
+L: 1/8
+K: Em
+  "B7"B2 \
+| "Em"e3 B | "Am"dc BA | "Em"^AB- BG | B/A/G G/F/E \
+| "B7"F2 G2 | FB, ^C^D | "Em"E/^D/E G/F/G | B/^A/B e2 |
+| "G"d d2 e | dc BA | GB dB | "Am"A3 G | "G"GD DG | "F(Dm)"G=F F/E/D | "Em"E4- | E2 :|
+|:"D7"D2 \
+| "G"D G2 A | B B2 A | B B2 A | B4 | dc cB | "(D7)"BA AG | "G"AB G2 | D2 G2 |
+| "G"D G2 A | B B2 G | "Am"AB/A/ GF | E2 "D7"D2 | "G"GA BG | "B7"AG GF | "Em"E4- | E2 :|
+|:"D7"D2 \
+| "G"B2 AG | "Am"A2 GF | "Em"E2 GE | "D"D4 | "Am"E2 A2 | "D"AB/A/ GF | "G"GF GA | B4 |
+| "G"B2 AG | dd cB | "Am"AB/A/ GF | E2 "D7"D2 | "G"GA BG | "B7"AB/A/ GF | "Em"E4- | E2 :|

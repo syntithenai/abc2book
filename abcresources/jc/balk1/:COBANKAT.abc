@@ -1,0 +1,39 @@
+X: 86
+T: Cobankat
+O: Albania
+Z: Birgitt Karlson
+F: http://www.youtube.com/watch?v=YRiySkcMGvM
+F: http://www.youtube.com/watch?v=0ImXqfeXOgI
+F: http://www.youtube.com/watch?v=R6A50B1Ei_Y
+F: http://www.youtube.com/watch?v=ie4eZ0zzE70
+M: 4/4
+L: 1/8
+Q:1/4=120
+K: Cdor
+%%MIDI program 71
+%%MIDI chordprog 64
+%%MIDI bassprog 45
+%%chordvol 75
+%%bassvol 75
+%%MIDI gchord f3ff2f2
+%%MIDI drum d3dd2d2 36 35 35 40
+%%MIDI drumon
+ z8                          |z8                       |\
+ "Cm" z GGc cB BG            |G4 GF E2                 |\
+ z G Gc cB BG                | cB GF E4                |\
+ "C" =EF "F" GA A2 A2        |
+ Ac cA AG AG                 | G4-GF EC                |\
+ CG Gc cB BG                 | cB GF E2 EC             |\
+ C8-                         |C8                       |
+%%MIDI drumoff
+ "Cm" FG3 G4                 |C4 C2 =EF                |\
+ G4 C4                       |"F" F2 G A [F2A2] [F2A2] |\
+ "Gm" [D3A3] G D4            |C8                       |
+ "F" F2 GA [F2A2] [F2A2]     |\
+ [F2A2] [F2A2] [F2A2] [F2A2] |"Gm"[D3G3] [DF] D4       |\
+ "Cm" C8                     |
+ "F" F2 GA [F2A2] [F2A2]     |\
+ [F2A2] [F2A2] [F2A2] [F2A2] |"Gm"[D3G3] [DF] D4       |\
+ "Cm" C2 [F2c2] [Fc] [FA] G F|
+ "Gm" [D3G3] [DF] D4         |"Cm" C2 [F2c2] c A G F   |\
+ [D3G3] [DF] D4              |C8-                      |C8|

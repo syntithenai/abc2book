@@ -1,0 +1,23 @@
+X: 21392
+T: HART'S TENTH SET OF QUADRILLES Part 5
+R: jig
+B: K\"ohler's Violin Repository, v.2, 1885 p.139 #2
+F: http://www.archive.org/details/klersviolinrepos02rugg
+N: The repeats are confused.  The first part has no final repeat, despite the comment.
+N: The 2nd part has a begin-repeat, but no end repeat, giving 40 bars total.
+N: Fixed by reversing the repeat sign between the two parts, giving 32 bars.
+N: But you should use whatever repeat pattern best fits your dance.
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+P: 1st part twice. 2nd time 8ves.
+u(A/B/) |\
+(.c2.c) {cd}cBc | (.f2.e) edc | (.B2.B) {Bc}BcB | A3 E2A/B/ |\
+(.c2.c2) {cd}cBc | (f2e) edc | (.B2.B) BcB | A3- A2 :|
+u(G/A/) |\
+(.B2.B) {Bc}BAB | (d2=c) cBA | (.^d2.d) def | e3- e2(G/A/) |\
+(.B2.B) {Bc}BAB | (d2=c) cBA | (.^d2.d) afd | e3- e2 |]
+(A/B/) |\
+(.c2.c) {d}cBc | d3 agf | fec fdB | ^B3 c2(A/B/) |\
+(.c2.c) {d}cBc | d3 agf | fec edB | A3- "_D.C."A2 "_Fine."|]

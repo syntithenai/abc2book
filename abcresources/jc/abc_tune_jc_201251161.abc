@@ -1,0 +1,30 @@
+X: 1
+T: Reel B\'eatrice   [Am/C]
+%T: Oggi Nevica (Today it snows)
+C: T.Fantini
+R: reel
+D: La Bottine Souriante "Je Voudrais Changer D'Chapeau"
+Z: John Chambers <jc:trillian.mit.edu>
+N: Well-known in New England, and many variants exist.
+N: According to Paul M.  MacDonald, the original reel began as a polka from  the
+N: Ballo  Liscio  dance  repertoire  called "Oggi Nevica" (which means 'today it
+N: snows'), played by Riccardo Tesi, an Italian accordion player.
+M: C|
+L: 1/8
+K: Am
+%%staffsep 40
+A,B, "A"\
+|: "Am"CB,A,C E2CE | A2EA EGAB \
+| cBAc e2ce | aeea egab |
+y3 \
+| c'bag fedc | "Dm"BddB d4 \
+| "E7"e^def e=dcB | "Am"AA,A,A, A,2z2 :|
+"B"\
+|: "Dm"a2^ga bff2 | "Am"fe^de a4 \
+| "E7"e2^de f2e=d | "Am"cdcB cBA2 |
+y \
+| "Dm"a2^ga bff2 | "Am"fe^de a4 \
+| "E7"e^def e=dcB |1 "Am"AA,A,A, A,2z2 :|2 "Am"A2z2 "G7"G2AB ||
+"C"\
+|: "C"c2Gc EGce | c2Gc EGce \
+| "G7"d2Bd GBdB |1,3 "C"c2ba "(G7)"gfed :|2,4 "C"ce"G7"dB "C"c2z2 :|

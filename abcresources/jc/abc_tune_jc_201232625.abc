@@ -1,0 +1,44 @@
+X: 1761
+T: HORN POND WALTZ
+C: S. Knaebel
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.176-177
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: The first part has 23 bars.
+M: 3/4
+L: 1/8
+K: F
+% -------------------------
+V: 1
+[|"PRIMO"!ff!\
+.c2 z2 z2 | .d2 z2 z2 | .e2 z2 z2 | .f2 z2 z2 |\
+G6- | G2 (cd) c2 | (Ac) F2 z2 | !p!c3 _B A2 |
+f2 d4 | c3 B A2 | (AB) G4 | (GAG).^F G2 |\
+c3 A F2 | (GAG).^F G2 | ^G2 "^>"A4 | c3 B A2 |
+f2 d4 | c3 B A2 | (AB) "^>"G4 | (GAG)^F G2 |\
+(=FA) c4 | (GAG).^F G2 | =F4 z2 |]
+|:\
+!ff!(G^FG).A .B.c | .d2 .d2 d2- | d2 (c=B) (cd) | B2 (cB) A2 |\
+G2 G2 G2 | (cA) F3 D | (CF) A2 G2 | F4 z2 "_FINE"H:|
+[K: Bb]|:!p!\
+(F2 B2) .d2 | f4 f2 | (g2 f2) =e2 | f6 |\
+(e2 f2) .e2 | (d2 c2) B2 | A2 ff f2 | g2 f2 e2 |
+d2 B2 d2 | f4 f2 | (g2 f2) =e2 | f4 f2 |\
+_e2 =B2 c2 | d2 c2 _B2 | A2 {B}AG A2 | "_D.C. AL FINE"B4 z2 :|
+% -------------------------
+V: 2
+[|"SECONDO"!ff!\
+.c2 z2 z2 | .=B2 z2 z2 | _B2 z2 z2 | .A2 z2 z2 |\
+(F6 | E2) z2 E2 | F2 F2 z2 | !p!A3 G F2 |
+d2 B4 | A3 G F2 | (^FG) E4 | B6 |\
+A2 F4 | E3 ^D E2 | F2 "^>"F4 | A3 G F2 |
+d2 B4 | A3 G F2 | (^FG) "^>"E4 |
+B6 | A2 (AG) F2 | E2 (E^D) E2 | F4 z2 |]
+|: !ff!\
+E6- | E2 .G2 .B2 | (^G2 A2) (^F2 | =G2) .E2 =F2- |\
+F2 (ED) .EC | F2 A3 B | c2 C2 B2 | A4 z2 "_FINE"H:|
+[K: Bb]|:!p!\
+(D2 F2) B2 | d4 f2 | (_e2 d2) .^c2 | d6 |\
+(c2 d2) .c2 | (B2 A2) .G2 | F2 FF F2 | e2 d2 c2 |
+B2 F2 B2 | d4 d2 | (e2 d2) ^c2 | d4 d2 |\
+c2 D2 _E2 | F2 E2 D2 | C2 z2 C2 | "_D.C. AL FINE"D4 z2 :| 

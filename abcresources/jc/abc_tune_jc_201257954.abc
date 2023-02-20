@@ -1,0 +1,16 @@
+X: 90
+T: the Burnt Old Man - 1st Setting.   #2
+R: jig
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #90
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+Q: "Moderate"
+O: F.O'Neill
+M: 6/8
+L: 1/8
+K: D
+"^A1"[|] D  | (DEF) (AFE) |  (DEF) (TF2E) | (DEF)  (BAF) |  AFE (TE2 ||
+"^A2"[|  F) |  DEF   AFE  | (~FEF) (~dcd) | (edB) (TBAF) | (AFE) "^fine"E2 |]
+"^B" [|  F  | .A.F.F .d.F.F | .A.F.F.(~F2G) | AFF dcd | eEE "^->A2"E2 |]

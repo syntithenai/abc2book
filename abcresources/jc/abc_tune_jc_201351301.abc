@@ -1,0 +1,29 @@
+X: 1
+T: We'll be merry in our Old Cloaths
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (66)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+N: The natural signs in bars 3 and 4 are placed above and before the c notes.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B/c/ |\
+d2(A B/c/d)A | d3 A2B | =c>dc cGE | =c3 E2B/c/ |\
+d2A (B/c/d)A | d3 A2G | FDF ECE | D3- D2 :|
+|: F/G/ |\
+A>BA FDF | A3 E2F | G>AG ECE | G3 E2F/G/ |\
+A>BA FDF | A3 a2g | (f/g/a)f edc | d3- d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man setts to the 2d Wo. and casts off, the 1st Wo.
+%% setts to her Partner who is in the 2d Man's Place and cast
+%% off :| Then go the Figure in the 3d Cu. then figure at the
+%% Top then the 1st Man change Places with the 2d Wo. and 
+%% the 1st Wo. with the 2d Man, then right and left quite
+%% round :|
+%%endtext
+%%sep 1 8 500

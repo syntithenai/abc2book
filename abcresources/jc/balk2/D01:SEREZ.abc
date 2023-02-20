@@ -1,0 +1,14 @@
+X: 4401
+T: Serez
+O: Serbia
+F: https://www.youtube.com/watch?v=VlolOTMjax8
+M: 2/4
+L: 1/8
+K: Em
+Q:1/4=120
+%%MIDI program 110 fiddle
+%%MIDI bassprog 24 Acoustic Guitar
+%%MIDI gchord fz
+"Am"cBAc|cBAc    |"Em"B4  |"Am"EFGA|"D"GEFD |"Em"E3D |^CDE2  |E4::
+"Am"e3e |"D"d2=f2|"Am"e3d |cBA2    |"D"d3B  |"Am"cABG|A3G    |A2z2::
+cBcd    |"Em"BABc|"Am"AGAB|"Em"GFG2|"Am"edcd|"Em"BcAB|"Am"GA3|GA3 :|

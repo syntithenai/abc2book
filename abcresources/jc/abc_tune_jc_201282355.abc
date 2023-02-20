@@ -1,0 +1,16 @@
+X:1
+T:Grand Staff With Four Voices
+M:C|
+L:1/2
+K:
+%%staves {1 2 3 4}
+K:C
+V:1 [K:clef=treble]
+c/e/d/c/|c/B/B/c/|c2|]
+V:2 [K:clef=treble]
+EF|ED|E2|]
+V:3 [K:clef=bass]
+G,A,|G,G,|G,2|]
+V:4 [K:clef=bass]
+C,F,|G,G,,|C,2|]
+

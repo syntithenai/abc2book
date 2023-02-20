@@ -1,0 +1,29 @@
+X: 43
+T: Running Footman
+T: Longways for as many as will.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.22
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2th Strain has initial repeat but no final repeat; fixed to fit the dance.
+N: The rthythm isn't quite right between the strains.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g/f/ |\
+g>fe dcB | ABc BAG | GBd FAd | GBd FAd |\
+gdg gdg | gdg fe/f/d | g>fe d>cB | Agf g2 :|
+|:\
+fga aba | agf ed^c | (d/f/a)f (d/f/a)f | Ad^c dgf |\
+(g/=c/B)c (g/c/B)c | (g/c/B)c f>ed | g>fe d>cB | Agf g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man Heys with the 2d and 3d Wo. his Partner at
+%% the same time Heys with the 2d & 3d Man .| Then Hey
+%% on your own Sides :| 1st Cu. cross over below the 2d Cu.
+%% and then below the 3d .| First Cu. leads up the middle
+%% to the Top, foot it and cast off.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

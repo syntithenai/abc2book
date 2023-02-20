@@ -1,0 +1,325 @@
+
+%%pagesize 28.00cm
+%%printtempo no
+%%TITLE Ashworth's Instructor
+
+X:1
+T:Three Camps
+S:Ashworth's Instructor, p. 28
+M:2/4
+L:1/8
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+c|B2A2|G3g|f2e2|(d/^c/d/e/) d>=c|B2A2|G3g|f2e2|d3::
+d|gd BA/G/|e3d|c2B2|A3c|B2A2|G2g2|B2cA|G3:|]
+
+X:2
+T:The Scotch
+S:Ashworth's Instructor, p. 28
+M:2/4
+L:1/16
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+G2GA G2D2|GABA G4|d2(ef) g2d2|dedc B4::dBdB .e2.e2|(cB)(cA) d4|
+(GA)(Bc) d2g2|B2(cA) G4:|]
+
+X:3
+T:The Austrian
+S:Ashworth's Instructor, p. 29
+M:C
+L:1/8
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+D2|G>AB>c d>ef>d|g2 g2 f3 d|e2 e2 d3 B|c>ec>A B>dB>G|A>cA>F G2::
+B2|d>BG>B A>FD>B|d>BG>B A3 B|d>BG>B A>FD>B|d>BG>B A3 D|G>AB>c d>ef>d|
+g2 g2 f3 d|e2 e2 d3 B|c>ec>A B>dB>G|A>cA>F G2:|]
+
+X:4
+T:The Dutch
+S:Ashworth's Instructor, p. 29
+M:3/8
+L:1/16
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+d2|A4 FA|d4 Ad|e4 de|(fefg)f2|A4 FA|d4 Ad|e4 de|f4::(de)|
+f2(fedc)|B4 (cd)|e>f(edcB)|A4 A2|dAFAdf|ecAceg|f2(fgfe)|d4:|]
+
+X:5
+T:The Hessian
+S:Ashworth's Instructor, pp. 29-30
+M:C|
+L:1/8
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+c2|B2 e2 dedc|B2 e2 d3 c|B2 e2 dedc|B2 e2 d2||e2|dcBA GFGA|B2 e2 d3 e|
+dcBA GFGA|B2 A2 G2::D2|GBAG FEFD|G2 A2 B3 G|.c.c (3(cBA) .B.B (3(BAG)|
+d2 D2 G2::B2|.c.c (3(cdc) c3 A|.d.d (3(dcB) A3 B|.c.c (3(cBA) .B.B (3(BAG)|d2D2G2:|]
+
+X:6
+T:The Scotch Repeat
+S:Ashworth's Instructor, p. 30
+M:2/4
+L:1/16
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+DF|A2FA d2A2|fdaf e2 Ac|e2ce g2e2|bgec d2 DF|A2FA d2A2|
+fdaf e2ge|c2ec A2Bc|d2f2d2::ef|g2ec A2Bc|d2AF D2 ef|g2ec ABcA|
+d2f2d2 ef|gece ABcA|dAFA Ddef|gece ABcA|d2f2d2:|]
+
+X:7
+T:The Drummers Call
+S:Ashworth's Instructor, p. 30
+M:2/4
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+L:1/16
+(d/e/f/g/)|afdf g3e|dBAG F3D|(EG)(FA) (GB)(Ac)|(Bd)(^ce) d2(d/e/f/g/)|
+afdf g3e|dBAG F3D|GBAc BdgB|cedF G2|]
+
+X:8
+T:When Wars Alarm, Troop
+S:Ashworth's Instructor, p. 31
+M:C
+%%MIDI program 72
+%%MIDI transpose 8
+L:1/8
+K:G
+d2 Be A3 c|BGEA GFED|G2 G2 G>AB>c|d2 cB B2 A2|d2 Be A3 c|
+BGEA GFED|G2 G2 G>AB>c|B2 A2 G2 z2::e2 ed eBcB|c2 cB BAGE|
+B2 E2 B2 e2|BAGF E3 F|G2 GG e3 d|cBAG GFED|d2 Be A3 c|B2 A2 G2 z2:|]
+
+X:9
+T:Doublings of the Troop
+S:Ashworth's Instructor, p. 31
+M:2/4
+%%MIDI program 72
+%%MIDI transpose 8
+L:1/16
+K:Amix
+e2(ec) e2c2|e2eg dBGB|e2ec e2eg|dBGB A4::a2af g2ge|dBge dBGB|
+a2af g2ge|dBGB A4|a2af g2ge|dBge dBGB|a2af g2ge|dBGB A4:|]
+
+X:10
+T:To Arms
+S:Ashworth's Instructor, p. 31
+M:2/4
+%%MIDI program 72
+%%MIDI transpose 8
+L:1/8
+K:G
+d2 d>B|e2 e>c|d2 d>B|A2 G2::B2 B>G|c2 c>A|d2 d>B|A2 G2:|]
+
+X:11
+T:The Lass of Ochram, Retreat
+S:Ashworth's Instructor, p. 32
+M:3/4
+%%MIDI program 72
+%%MIDI transpose 8
+L:1/8
+K:D
+A2|d2 d2 c/d/e/c/|d2 d2 B2|e2 efge|f2 d2 d>c|B2 B>cd>B|A2 A2 G2|FAdAGF|F2 E2::
+G>F|G/A/B/G/ E2 G2|F/G/A/F/ D2 G2|FAdAGF|F2 E2 A>A|d2 Bgfg|ec A2 GF|GBAGFE|E2 D2:|]
+
+X:12
+T:The General
+S:Ashworth's Instructor, p. 32
+M:2/4
+%%MIDI program 72
+%%MIDI transpose 8
+L:1/8
+K:G
+Gd/e/ dc/B/|cd B2|cBAG|Ad G2|AG/A/ BA/B/|cB/c/ de|
+d2 e/d/c/B/|Ac/B/ Ad|G2 G/A/B/c/|dd e/d/c/B/|A>c BA/G/|
+dd A/c/B/A/|G2 AA/G/|BB/G/ AA/G/|B>A G/A/B/c/|dd e/d/c/B/|A/c/B/A/ G2|]
+
+X:13
+T:The Fatigue or Pioneers March
+S:Ashworth's Instructor, p. 32
+M:6/8
+%%MIDI program 72
+%%MIDI transpose 8
+L:1/8
+K:G
+B/c/|dcB cBA|G2G G2B/c/|dcB cBA|G3 zz::G2d Td3|G2e Te3|
+G2g fed|ed^c d3|G2d Td3|G2e Te3|G2g fed|ed^c !D.C.!d2||
+
+X:14
+T:The Roast Beef
+S:Ashworth's Instructor, p. 33
+M:6/8
+%%MIDI program 72
+%%MIDI transpose 8
+L:1/8
+K:D
+A|d>ed cde|fdf edc|d>ed cBA|BGB A2::
+A|BGB dcB|AFD B3|Agf edc|d3 AGF|GAB cAc|d3 z2:|]
+
+X:15
+T:The Rogue's March
+S:Ashworth's Instructor, p. 33
+M:2/4
+%%MIDI program 72
+%%MIDI transpose 8
+L:1/8
+K:G
+BB (3(Bcd)|ee Te2|ddde|d2B2|BB (3(Bcd)|ee e2|(3(def) gB|A2G2::g2f2|e2d2|
+g2f2|e2d2|BB (3(Bcd)|ee Te2|dd de|d2B2|BB (3(Bcd)|ee e2|(3(def) gB|A2G2:|]
+
+X:16
+T:The Grenadiers March
+S:Ashworth's Instructor, pp. 33-34
+M:2/4
+%%MIDI program 72
+%%MIDI transpose 8
+L:1/8
+K:G
+A|G>AB>c|d2de|d2g2|f3g|e3e|d2d2|A>Bc>d|B3A|G>AB>c|d2d2|
+a>gf>e|d3 B/c/|d3 B/d/|c3 A/c/|B>A G>B|A2 DB/c/|d3 B/d/|c3 A/c/|B>A G>B|
+A3 (3(d/e/f/)|g3e|d2g2|B2 cA|G3::e|d>ef>g|a>gf>e|d2e^c|d3e|d>ef>g|
+a>gf>e|d2e^c|d3e|d>ef>g|a2c2|d>cB>A|B3d|e3g|d2g2|
+B>AG>B|AD3|e3g|d2g2|B>AG>B|A3f|g3e|B2g2|B2cA|G3:|]
+
+X:17
+T:Parley, or Church Call
+S:Ashworth's Instructor, p. 34
+M:2/4
+%%MIDI program 72
+%%MIDI transpose 8
+L:1/16
+K:G
+d2(ed) c2B2|AGAB GABc|d2(ed) c2B2|AGAB G4::d2ef g2g2|agfe dcBA|
+d2ef g2g2|agfe d4:|d2(ed) c2B2|AGAB GABc|d2(ed) c2B2|AGAB G4|]
+
+X:18
+T:Phyllis and Damon Troop
+S:Ashworth's Instructor, p. 34
+M:C
+%%MIDI program 72
+%%MIDI transpose 8
+L:1/8
+K:D
+|:D2|F2 D>F A2 F>A|d>fe>c d3 A|d2 f>d B2 c>d|e>c A>A A2::
+A2|B>AB>c d2 (3def|A>BAG GFED|FABc dBGE|F>G A>F D2:|]
+
+X:19
+T:Charming Molly Doublings
+S:Ashworth's Instructor, p. 35
+M:2/4
+%%MIDI program 72
+%%MIDI transpose 8
+L:1/16
+K:G
+|:B2|c2cA B2BG|A2Bc dBGB|c2cA B2BG|E2A2 A3B|c2cA B2BG|
+A2Bc dBGB|c2cA B2BG|E2A2 A2::B2|ABcd e2g2|fagf e^cAB|
+ABcd e2g2|fagf e2fg|a2af g2ge|dBge dBGB|ABcd efgB|A2A2 A2:|]
+
+X:20
+T:The Dog and Gun Troop
+S:Ashworth's Instructor, p. 35
+M:C|
+%%MIDI program 72
+%%MIDI transpose 8
+L:1/8
+K:D
+|:A2|d2 d>d d>AF>A|d2 d>d d3e|fefg afed|c>de>e e2::
+e2|fddf geeg|afec A2c>d|e>cA>c e>aa>g|f2 d>d d2:|]
+
+X:21
+T:The Tobacco Box Doublings
+S:Ashworth's Instructor, p. 35
+M:2/4
+%%MIDI program 72
+%%MIDI transpose 8
+L:1/8
+K:G
+DGGE|FAFD|ABAB|c2B2|GBde|dBGE|A>B c/A/G/F/|[1 G2 G2:|[2 G2 GB|
+|:d>e dB|g2e2|dd e/d/c/B/|B2A2|DGGG|GBGE|A>B c/A/G/F/|[1 G2GB:|[2 G2 G2|]
+
+X:22
+T:The Pretty Maid Retreat
+S:Ashworth's Instructor, p. 36
+M:3/4
+%%MIDI program 72
+%%MIDI transpose 8
+L:1/8
+K:D
+a>g|fga2A2|d>ef2zA|B2gedc|d2z2A2|B>AB2d2|AFD2zA|BABcdF|E2D2::
+G>F|G>Be2G2|F>Ad2zF|B>AB>cd>F|F2E2a>g|f>ga2c2|d>ef2zA|B2gedc|d2z2:|]
+
+X:23
+T:Polly Oliver Retreat
+S:Ashworth's Instructor, p. 36
+M:3/4
+%%MIDI program 72
+%%MIDI transpose 8
+L:1/8
+K:D
+A2|d2c2d>B|A>FD2E2|F2B,2C2|D2z2A2|B2c2(3(def)|e>cA2Bc|dBA2^G2|A2z2::
+A2|B2c2(3(def)|e>cA2FA|dcBAGF|F2E2(3(ABc)|d2c2dB|A>FD2E2|F2B,2C2|D2z2:|]
+
+X:24
+T:Quick Step
+S:Ashworth's Instructor, p. 36
+M:2/4
+%%MIDI program 72
+%%MIDI transpose 8
+L:1/16
+K:Bm
+fe|d2F2F2 (Bc)|d2F2F2 (Bc)|d2B2 (edcB)|c2F2F2 (fe)|d2F2F2 (Bc)|
+d2F2F2 (Bc)|d2B2 dcB^A|B4 B2::c2|d2f2 (defd)|edcB A2Bc|dcB^A BcdB|
+A2F2 F4|c2d2 cdec|d2B2B2 (fe)|d2B2 dcB^A|B4 B2:|]
+
+X:25
+T:Quick Step
+S:Ashworth's Instructor, p. 37
+M:6/8
+%%MIDI program 72
+%%MIDI transpose 8
+L:1/8
+K:D
+A|dcd AFD|BdB AFD|GBG FAF|EEE E2A|dcd AFD|BdB AFD|Bcd Agf|
+edc d2::(d/e/)|fdf ecA|BdB AFD|fdf ecA|BBB B2g|fdf ecA|BdB AFD|GBG EFG|FDD D2::
+F|B2c d2e|fef def|ede cde|dBB B2F|B2c d2e|fef def|dgf edc|BBB !D.C.!B2:|]
+
+X:26
+T:Smith's Hornpipe
+S:Ashworth's Instructor, p. 37
+M:C|
+%%MIDI program 72
+%%MIDI transpose 8
+L:1/8
+K:D
+A2|dcdA Bcde|gfed cBAG|FAdf gfed|c2A2A2 (Bc)|dAeA fAgA|
+gfed dcBA|dfeg faeg|f2d2d2::fg|agfe dfga|b2e2e2d2|cAeA fAed|
+c2A2A2 Bc|dAeA fAgA|aAbe dcBA|dfeg faeg|f2d2d2:|]
+
+X:27
+T:Slow March
+S:Ashworth's Instructor, p. 38
+M:C
+%%MIDI program 72
+%%MIDI transpose 8
+L:1/8
+K:D
+A2|d2 f>d e2 g>e|fefg a2 b2|a>ag>f g>gf>e|fe d2 z2 fd|a2 e>e e2 f2|f2 e4 d2|
+(3(cde) (3(fed) c2 B2|A2 A>A A2::e2|a2 e>e e2 f2|f2 e4 f2|g2 fe fdaf|
+f2 e2 z2 A2|d2 f>d e2 g>e|f>ef>g a2 g2|(3(fga) (3(bag) f2 e2|d2 d>d d2:|]
+
+X:28
+T:Slow March
+S:Ashworth's Instructor, p. 38
+M:C
+%%MIDI program 72
+%%MIDI transpose 8
+L:1/8
+K:D
+A2|d2 d>d d>AF>A|B2 A>A A2 df|e2 e>e e>ce>g|f2 d>d d2 a>f|e2 d2 c2 a>f|
+e2 d2 c2 a>f|f>ef>d c2 B3/2A/B/|A2 A>A A2::(A/B/c/d/)|e2 e>e e>ce>g|f2 f>f f>df>a|
+g>ga>g f>fg>f|e2 e>e e2 c2|d2 d>d d>AF>A|B3/2A/B/ A>A A>ef>g|f>fg>e d2 Tc3/2B/c/|d2 d>d d2:|]

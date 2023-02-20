@@ -1,0 +1,32 @@
+X: 1
+T:The Old Rustic Bridge
+M:C
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+[| {g}A/2d/2|
+{g}f2{g}f3/2g/2{fg}f2{Gdc}dc|
+{gBd}B2{g}G{dc}d{e}A2G{d}A|  !
+{Gdc}d2{gdc}d3/2e/2{g}dB{gcd}c3/2d/2|
+{gef}e2{A}e3/2f/2{gef}e2{g}Ad{g}f2{g}f3/2g/2{fg}f2{Gdc}dc|
+{gBd}B2{g}G{dc}d{e}A2G{d}A|  !
+{GdG}B2{g}((3efg){fg}fe{gcd}c{e}A|
+{Gdc}d2{g}d3/2e/2{Gdc}d4|]
+{g}c2{GdG}c3/2d/2{gef}e2{g}fe|  !
+{A}e2{g}B3/2c/2{Gdc}d4|
+{gcd}c2{ag}ac{gef}ed{gcd}cB|
+{g}A2{GdG}B2{gcd}c2{g}Ad{g}f2{g}f3/2g/2{fg}f2{Gdc}dc|  !
+{gBd}B2{g}G{dc}d{e}A2G{d}A|
+{GdG}B2{g}((3efg){fg}fe{gcd}c{e}A|
+{Gdc}d2{g}d3/2e/2{Gdc}d2|]  !
+{g}e3/2f/2|
+{gf}g2{f}g3/2f/2{gef}e2{g}B3/2c/2|
+{Gdc}dff4-{e}f2|  !
+{gef}e2{ag}ac{gef}ed{gcd}cB|
+{g}A2{GdG}B2{gcd}c2a3/2g/2{fg}f2{e}f3/2g/2{fg}f2{Gdc}dc|
+{gBd}B2{g}G{dc}d{e}A2G{d}A|  !
+{GdG}B2{g}((3efg){fg}fe{gcd}c{e}A|
+{Gdc}d2{g}d3/2e/2{Gdc}d2|]
+

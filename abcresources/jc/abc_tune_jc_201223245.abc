@@ -1,0 +1,23 @@
+X: 07060
+T: JACK'S JIG
+C: Bob McQuillen 26 July 89
+B: Bob's Note Book 7 #60
+%R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The final notes were quarter notes; rhythm fixed by making them 8th notes.
+N: (Making the pickup notes 16th notes will work as well.)
+M: 6/8
+L: 1/8
+K: D
+FA \
+| dcB AFA | GAB AFD | GAB AdB | AFD EFE |\
+| DFA GAB | ABc dfe | dAF GAG | FDD D :|
+|: FA \
+| def ede | fdB AFA | dfd ede | fdB Bdf |\
+| afa baf | efe dBA | Bdf afe | fdd d :|
+%%begintext align
+%% Written at Augusta for
+%% great Galway flute player Jack Coen, one of the
+%% wonderful Irish musicians who gave us all
+%% such a grand week this year.
+%%endtext

@@ -1,0 +1,60 @@
+
+X: 1
+T: Roaring Jelly #1
+T: Smash the Windows
+O: trad
+R: jig
+B: Kerr's Caledonian; Kennedy v.1, Cole
+N: In O'Neill's as a reel (#1382)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: See also Smash the Windows, which has a B1 and a B2 part.
+M: 6/8
+L: 1/8
+K: D
+   A \
+| "D"D>ED F2A | d2f "A"ecA | "G"G2B "D"F2A | "Em"E2F "A7"GFE \
+| "D"D>ED F2A | d2f "A"ecA | "G"Bgf "A7"edc | "D"d3- d2 :|
+|: f/g/ \
+| "D"a2f d2f | f2g agf | "A7"g2e c2e | e2f gfe \
+| "D"fed "A7"gfe | "D"agf "G"bag | "D"fed "A7"cde | "D"fdd d2 :|
+
+%%sep 2 1 500
+
+X: 2
+T: Roaring Jelly #2
+T: Smash the Windows
+M: 6/8
+R: jig
+K: D
+A |\
+"D"DED F2A | d2f "A"ecA | "G"G2B "D"F2A | "A"E2F GFE |\
+"D"DED F2A | d2f "A"ecA | "G"Bgf "A"edc | "D"(d3 d2) :|
+a |\
+"D"a2f d2f | A2a agf | "A"g2e c2e | A2g gfe |\
+"D"f2 d "A"g2 e | "D"a2 f "G"bag | "D"fed "A"edc | "D"(d3 d2) ||
+a |\
+"D"agf fed | Adf agf | "A"gfe ecA | Ace gfe |\
+"D"fed "A"gfe | "D"agf "G"bag | "D"fed "A"edc | "D"(d3 d2) |]
+
+%%sep 2 1 500
+
+X: 3
+T: Roaring Jelly #3
+T: Smash the Windows
+R: jig
+B: Kerr's Caledonian; Kennedy v.1, Cole
+N: In O'Neill's as a reel (#1382)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: See also Roaring Jelly as played with B2 twice rather than this A1-A1-B1-B2 version.
+M: 6/8
+L: 1/8
+K: D
+|: A \
+| "D"D>ED F2A | d2f "A"ecA | "G"G2B "D"F2A | "Em"E2F "A7"GFE \
+| "D"D>ED F2A | d2f "A"ecA | "G"Bgf "A7"edc | "D"d3- d2 :|
+f/g/ \
+| "D"a2f d2e | f2g agf | "A7"g2e c2d | e2f gfe \
+| "D"a2f d2e | f2g agf | "Em"gfe "A7"cde | "D"fdd d2 ||
+e/f/ \
+| "D"aff dff | fdf agf | "A7"gee cee | eAe gfe \
+| "D"fed "Em"gfe | "D"agf "G"bag | "D"fed "A7"cde | "D"fdd d2 |]

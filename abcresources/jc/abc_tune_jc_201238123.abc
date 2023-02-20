@@ -1,0 +1,25 @@
+X: 30262
+T: WEBER'S LAST WALTZ
+C:
+%R: waltz
+N: This is version 1, for ABC software that doesn't understand diminuendo symbols.
+N: the complex single-bar repeat notation has been expanded and simplified to agree with several published editions.
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.26 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The repeat notation is bizarre, and transcribed as-is. Most ABC software won't understand it, either.
+N: bar 11 has a note missing; a G added to agree with the original in the (US) LoC collection.
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(dg) |\
+(gf) (fe) (ce) | (ed) dD GB | ("_>"BA) ("_>"BA) ("_>"BA) | (GB) (Bd) (df) |\
+(gf) (fe) (ce) | (ed) dD GB | ("_>"BA)("_>"BA)("_>"BA) | G2z2 !fine!:|\
+(DE) |: CA^CADA | CA^CADA |
+(DG)(BG)(BG) | (DG)(BG)(BG) | (CA^CADA) | (CA^CADA) | EG B3 A | G2^F2=F2 :|\
+|: [K:=f][K:C]\
+E3 E (FE/F/) | A2G2c2 | "^>"ed "^>"ed "^>"ed |\
+[1 ("_>"ce) ("_>"ce) ("_>"ce) :|[2 c2 "^D.C."z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

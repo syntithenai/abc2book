@@ -1,0 +1,39 @@
+X: 1041
+T: the Bowery
+%R: jig
+N: This is version 1, for ABC software that doesn't understand some ABC 2.* features.
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1810, No. 10 p.4 #1
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances5
+M: 6/8
+L: 1/8
+K: C
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+[|\
+!f!g2g (gc').e | ("_>"g2f) f2d | efg gfe | d2g G2z |\
+{^f}g2g (gc').e | ("_>"g2f) f2d | e2f [d2B2]e | c3 c2z |]
+d2d {f}ede | f2d d2f | edc {d}cBc | ([ec][dB]).[dB] [d2B2]z |\
+d2d {f}ede | f2d d2f | ec'b ac'^f | "_dim. . ."({a}g^fg "_>"bag) |
+g2g (gc').e | ("_>"g2f) f2d | efg gfe | d2g G2z |\
+{^f}g2g (gc').e | ("_>"g2f) f2d | e2f d2e | cge c2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+ceg c'3 | "_>"[c'3a3d3] [b3g3] | [c'3c3] (edc | g^fg =fed |\
+ceg c'3) | "_>"[c'3a3d3] [b3g3] | [c'3c3] !f!([f'3d'3g3] | [e'3c'3]) [c'2c2]z |]
+(Bg).g (cg).g | (dg).g (Bg).g | (cg).g (A^f).f | (Gg).g (Gg).g |\
+(Bg).g (cg).g | (dg).g (Bg).g | c[ae][ae] [dc'a][c'a][c'a] | ([b3-g3][b3f3]) |
+egc' egc' | dac' gbd' | c'e'g' c'e'g' | (gbd' f'e'd' |\
+c')e'g' c'e'g' | bd'g' bd'g' | c'e'g' bf'g' | c'e'g' c'2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off two Couples
+%% back again down the middle up again
+%% right and left
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

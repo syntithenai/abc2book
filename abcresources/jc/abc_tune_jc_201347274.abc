@@ -1,0 +1,48 @@
+X: 1
+T: 'Twas within a Furlong of Edinborough Town
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master" printed by John Walsh, London
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.19 #37
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.213
+Z: 2012-2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat added to satisfy the "first Strain played twice" instruction.
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+GA |\
+B3c d2(cB) | (cA) (dB) G2 (GA) |\
+B>c d>e f2 (ed) | c<B f<d B2 d=e |\
+f>=e f>g f2 (_ed) | (ed) (cB) c2 (Bc) |\
+(dB) (cA) (BG) (AG) | (^FD) (^FA) d2 :|
+de |\
+f3g (gf) (ed) | (ed) (cB) c2 A2 |\
+(BA) (Bc) d2 (cB) | AG ^F>G A2 (A/B/c) |\
+(BA) (BG) c2 (de) | (fd) (g=e) ^f3 ^f |\
+(g<d) (e<c) (d<B) (c<A) | (B<G) (D<^F) G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first Man go between the two We. and lead them to the Wall, then
+%% give a Nod to the right Hand, and then to the left, and fal back, then hold
+%% Hands and turn round, the Man into his Place, and the We. into theirs;
+%% then the 1st Wo. do the same to the rwo Men .| The 1st Man lead his Wo.
+%% down the Middle, then cast up and give a Peep, then cast off back again,
+%% then cross thro' the 2d Cu. and meet your Partner improper; the 2d Cu.
+%% lead down, then cast up and give a Peep, and then cast off back again;
+%% then all Hands half round, and then turn their Partners half round.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%   The 1. man go between the two we. and lead them to the wall, then give a nod to the right-hand, and then to the left,
+%% and fall back, then hold hands and turn round, the man into his place, and the we. into theirs; then the 1. wo. do the
+%% same to the two men.  This to the first Strain played twice.
+%%    The 1. man lead his wo. down the middle, then cast up and give a peep, and then cast off back again, then cross through
+%% the 2. cu. and meet your Partner improper; The 2. cu. lead down, then cast up and give a peep, and then cast off back
+%% again; then all hands half round, and then turn their Partners half round.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

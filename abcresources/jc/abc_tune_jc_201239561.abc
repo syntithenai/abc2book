@@ -1,0 +1,23 @@
+X: 3312
+T: Willie's awa'.   a Strathspey.
+%R: strathspey, air
+B: Niel Gow & Sons "Complete Repository" v.3 p.31 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+% - - - - - - - - - -
+V: 1 staves=2
+d |\
+TB>F (D/F/)(D/F/) BFD<d | TB>F (G/F/)E/D/ {D}C2 C>.d |\
+TB>F (D/F/)(D/F/) BG~F>D | EGF>A, TB,2 B, :|\
+F |\
+TB2df (ecAe) | d<Be>d {d}c2Tc<d |
+TB2df e(cAB) | F>B {Bc}d>c {c}B2B>F ||\
+TB2df ecTAc | d<Be>d {d}c2c>a |\
+(b>g)fd efHg>b | f>ed>c B2B |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+[B2B,2]B2 B2B2 | B2B2 F2f2 | B2B2 e2d2 | e2f2 B2B :| z | b2b2 a2f2 | b2b2 f2f2 |
+b2b2 a2b2 | f2f2 B2B2 || b2b2 a2f2 | b2b2 f2f2 | b2_a2 g2He2 | f2F2 B2B |]

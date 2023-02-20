@@ -1,0 +1,80 @@
+
+X: 1
+T: Jamie Allen    [G]
+T: Jimmy Allen
+T: Reel of Tullochgoram
+O: c.1800
+R: reel
+S: page labelled "VII-10", "Northumbrian Pipers 8" and "Potomac Valley"
+Z: John Chambers <jc:trillian.mit.edu>
+N: Jamie Allen (1734-1810) was a Northumbrian small-pipes player.
+N: This tune is attributed to him, but the details aren't known.
+M: 2/4
+L: 1/8
+K: G
+G/A/ |\
+"G"BG GA | "Em"B2 GA/B/ | "Am"cA AB | "D7"c2 BA |\
+"G"Gg "C"ge | "G"d2 B>c | "D7"dd c/B/A | "G"G3 :|
+|: B/A/ |\
+"G"Gg g>f | "Em"ed cB | "Am"Aa a>g | "D7"fd ef |\
+"C"g>a ge | "G"d2 B>c | "D7"dd c/B/A | "G"G3 :|
+
+%%sep 1 1 500
+
+X: 2
+T: Jamie Allen    [A]
+T: Jimmy Allen
+T: Reel of Tullochgoram
+M: 2/4
+L: 1/8
+Z: John Chambers <jc:trillian.mit.edu>
+N: Jamie Allen was a Northumbrian small-pipes player.
+K: A
+ A/B/ \
+| "A"cA AB | "Fm"c2 AB/c/ | "Bm"dB Bc | "E7"d2 cB \
+| "A"Aa "D"af | "A"e2 c>d | "E7"ee d/c/B | "A"A3 :|
+|: c/B/ \
+| "A"Aa a>g | "Fm"fe dc | "Bm"Bb b>a | "E7"ge fg \
+| "D"a>b af | "A"e2 c>d | "E7"ee d/c/B | "A"A3 :|
+
+%%sep 1 1 500
+
+X: 3
+T: Jamie Allen    [C]
+T: Jimmy Allen
+T: Reel of Tullochgoram
+O: c.1800
+R: reel
+M: 2/4
+L: 1/8
+Z: John Chambers <jc:trillian.mit.edu>
+N: Jamie Allen (1734-1810) was a Northumbrian small-pipes player.
+N: This tune is attributed to him, but the details aren't known.
+K: C
+C/D/ |\
+"C"EC CD | "Am"E2 CD/E/ | "Dm"FD DE | "G7"F2 ED |\
+"C"Cc "F"cA | "C"G2 E>F | "G7"GG F/E/D | "C"C3 :|
+|: E/D/ |\
+"C"Cc c>B | "Am"AG FE | "Dm"Dd d>c | "G7"BG AB |\
+"F"c>d cA | "C"G2 E>F | "G7"GG F/E/D | "C"C3 :|
+
+%%sep 1 1 500
+
+X: 4
+T: Jamie Allen    [D]
+T: Jimmy Allen
+T: Reel of Tullochgoram
+O: c.1800
+R: reel
+M: 2/4
+L: 1/8
+Z: John Chambers <jc:trillian.mit.edu>
+N: Jamie Allen (1734-1810) was a Northumbrian small-pipes player.
+N: This tune is attributed to him, but the details aren't known.
+K: D
+D/E/ |\
+"D"FD DE | "Bm"F2 DE/F/ | "Em"GE EF | "A7"G2 FE |\
+"D"Dd "G"dB | "D"A2 F>G | "A7"AA G/F/E | "D"D3 :|
+|: F/E/ |\
+"D"Dd d>c | "Bm"BA GF | "Em"Ee e>d | "A7"cA Bc |\
+"G"d>e dB | "D"A2 F>G | "A7"AA G/F/E | "D"D3 :|

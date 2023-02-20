@@ -1,0 +1,22 @@
+X: 05062
+T: MISS CAREY'S JIG
+C: Bob McQuillen 2 June'81
+B: Bob's Note Book 5 #62
+%R: jig
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G	% and Em
+A \
+| B2A G2F | G3 A3 | B2A G2A | B3 d3 || gfg efg | d2B GBd | e2d c2B | B3 AGA ||
+| B2A G2F | G3 A3 | BAB G2A | B2c d3 || gfg efg | d2B G2A | BdB A2G | G3- G2 |]
+K: Em
+[| B, \
+| E2B, E2F | G3 A3 | GFG AGA | B2G E2B, || E2B, E2F | GFE DEF | G2E DED | D2B, A,2B, ||
+| E2B, E2F | GAB AGA | B2G EGE | D2B, DEF || G2B AGE | D2B, A,2B, | EFG F2D | E3- E2 |]
+%%begintext align
+%% Karen Carey is a real
+%% sweetheart and she likes Mike McKernan and Mike
+%% likes her and I like both of them and I hope
+%% you like this tune, Karen!
+%%endtext

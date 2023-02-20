@@ -1,0 +1,16 @@
+X:348
+T:The Introduction
+C:"Carolan's Cottage" by O'Carolan
+L:1/8
+%%MIDI gchord b2b
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=112
+M:3/4
+%%MIDI ratio 3 1
+K:Am
+|: "E7"c>B | "Am"A2 E2 A>B | "Am"c4 "D7"BA | "G"G2 dc BA | "G"G4 "E7"cB |\
+"Am"A2 a2 g2 | "/"e3 d ce | "E7"c2 BA ^GB | "Am"A4 :|
+P:B
+|: "Em"eg | "Am"a2 ag "E7"e^g | "Am"a4 "F"c'2 | "C"ge de "Am"c'a | "Em"g4 eg |\
+"Am"a2 ag "E7"e^g | "Am"a4 "E7"e2 | "Am"c>B ce "E7"^GB | "Am"A4 :|

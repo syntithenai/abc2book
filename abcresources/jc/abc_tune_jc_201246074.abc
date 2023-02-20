@@ -1,0 +1,26 @@
+X:1
+T: All Saints Day
+N:
+C:Tune is   Chestnuts
+S:
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 32 notes)
+K:Am
+M:4/4
+L:1/16
+A4 e4 d4 c4 |B6 A2 ^G4 E4 |A4 B4 c4 c4 |d4 c2 d2 e8 |A4 e4 d4 c4 |B6 A2 ^G4 E4 |A4 B4 c4 c4 |d2 c2 d4 e8 |
+%W: A2
+% voice 1 (1 lines, 32 notes)
+A4 e4 d4 c4 |B6 A2 ^G4 E4 |A4 B4 c4 c4 |d4 c2 d2 e8 |A4 e4 d4 c4 |B6 A2 ^G4 E4 |A4 B4 c4 c4 |d2 c2 d4 e8 |
+%W: B1
+% voice 1 (1 lines, 41 notes)
+e4 e2 f2 g2 f2 e4 |d4 d2 e2 f2 e2 d4 |e4 e4 e4 d2 c2 |d6 f2 c8 |e4 f2 e2 f2 e2 d2 c2 |d4 e2 d2 e2 d2 c2 B2 |c4 A4 A4 d4 |B6 c2 A8 |
+%W: B2
+% voice 1 (1 lines, 41 notes)
+e4 e2 f2 g2 f2 e4 |d4 d2 e2 f2 e2 d4 |e4 e4 e4 d2 c2 |d6 f2 c8 |e4 f2 e2 f2 e2 d2 c2 |d4 e2 d2 e2 d2 c2 B2 |c4 A4 A4 d4 |B6 c2 A8 ||

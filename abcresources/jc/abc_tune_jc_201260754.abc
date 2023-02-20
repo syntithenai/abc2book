@@ -1,0 +1,12 @@
+X:1
+T:Catharsis
+R:Reel
+C:Amy Cann
+M:C|
+%%printtempo 0
+Q:180
+K:Gm
+"Gm"[G,D]GGF DGGF|DFGA BAGF|DGGF DGGF|"Cm"LDCB,LC "Dm"B,A,LB,A,|
+"Gm"[G,D]GGF DGGF|DFGA BABc|LdcBLc BAGF|1"Dm"DGGF "Gm"G2G2:|2"Dm"DGGF "Gm"GABc||
+|:"Gm"LdGGLc GGLBG|GLAGG LGABc|"F"LdFFLc FFLBF|FLAFF LGABc|
+"Eb"LdEELc EELBE|ELAEE LGABc|"Gm"LdcBLc BAGF|1"Dm"DGGF "Gm"GABc:|2"Dm"DCB,A, "Gm"G,4|]

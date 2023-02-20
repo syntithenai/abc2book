@@ -1,0 +1,16 @@
+X: 21891
+T: JOHN DIAMOND'S HORNPIPE
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.2, 1885 p.189 #1
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Missing 1/4 note in bar 8; added rest to match bar 16.
+M: C|
+L: 1/8
+K: D
+|:\
+ vA,2DE F2ED | (FA)AB A4 | {c}BAcA dBAF | {F}EDEF FDA,A, |\
+(A,D)DE F2ED | (FA)AB A4 | Bdce dBAF | E2D2 D2z2 :|
+|:\
+[f6A6D6] ((3gfe) | dfed {c}BABc | d4 ({e}dc)dc | fded BcdB |\
+{B}A^GAB AFED | {e}dcde fgef | dcdB AFdB | (AF)EF D2z2 :|

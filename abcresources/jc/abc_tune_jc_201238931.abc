@@ -1,0 +1,20 @@
+X: 3161
+T: Miss H Hunter's of Blackness    Reel
+C: by Nath:Gow
+%R: reel
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.16 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Eb
+% - - - - - - - - - -
+% Voice 1 reformatted for 6 6-bar lines.
+V: 1 staves=2
+a |\
+gafg e/e/e g2 | cf-fe dBBa | gafg e/e/e ge | cffd {d}e2e :| B | (G/F/E) BG AFcA | (G/F/E) BG FCDA |
+(G/F/E) BG AFcA | GEFD TE2EB || (G/F/E) BG AFcA | (G/F/E) BG FCCA | GEBG ABcd | ecBG E2E |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | e2e2 g2e2 | a2=a2 b2B2 | e2e2 g2e2 | a2b2 e2e :| z | e2e2 f2d2 |
+e2g2 a2b2 | e2e2 f2d2 | e2B2 E2E2 || e2e2 f2d2 | e2g2 a2A2 | e2e2 a2a2 | b2B2 e2E |]

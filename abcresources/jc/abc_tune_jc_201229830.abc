@@ -1,0 +1,29 @@
+X: 12
+T: Fife Hunt
+%R: reel, march
+B: Name "Kauntze's Collection of the most favorite Dances, Reels, Waltzes, &c."
+F: http://imslp.org/wiki/Kauntze%27s_Collection_of_Dances,_Reels,_Waltzes_etc._%28Various%29
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Added f pickup note to 2nd part to fix the rhythm in the obvious way.
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+f |\
+ecTc2 GETE2 | Dd2^c d2df |\
+ecTc2 GETE2 | Dc2B c2c :|\
+f |\
+ecgc acgc | Dd2^c d2df |
+ecgc acgc | Gc2B c2cf |\
+ecgc acgc | Dd2^c d2df |\
+egcg fadf | Gc2B c2c |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | c2c2 c2c2 | d2d2 d2d2 | c2c2 c2c2 | G2G2 c2c :|
+z | c2c2 c2c2 | d2d2 d2d2 | c2c2 c2c2 | c2c2 c2c2 |
+  | c2c2 c2c2 | d2d2 d2d2 | c2c2 d2d2 | G2G2 c2c |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Foot it and cast off 2 Cu. up again Lead down the middle up again and Allmand.
+%%endtext

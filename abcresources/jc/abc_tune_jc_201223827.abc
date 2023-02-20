@@ -1,0 +1,13 @@
+X:77
+T:Essence of Tampa
+M:2/4
+Q:1/4=100
+L:1/16
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+D2|G2GB A2AB|G2GB A4|G2ge dBGB|AGAB GED2|G2GB A2AB|G2GB A4|G2ge dBGB|
+AGAB G2::z2|e2>f2 g2f2|BB2c BAGF|E2>F2 G2A2|B^ABc B4|e2>f2 g2f2|BB2c BAGF|E2>F2 G2A2|BAG2 E2:|

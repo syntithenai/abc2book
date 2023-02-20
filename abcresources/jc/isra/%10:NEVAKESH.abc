@@ -1,0 +1,22 @@
+X: 10
+T:Al Nevakesh
+C:Moshe Nagar 1993
+O:Israel
+F: http://www.youtube.com/watch?v=DXPBu8en-9o
+F: http://www.youtube.com/watch?v=JEP4I6NpuM4
+F: http://www.youtube.com/watch?v=64kq_33FfEI
+M:4/4
+L:1/8
+K:Dm
+Q:1/4=84
+%%MIDI program 70
+%%MIDI bassprog 45
+%%MIDI chordprog 117
+%%MIDI chordvol 40
+%%MIDI bassvol 50
+  "Dm"zD2C D2z2 |"C"AAG^F A2G2|\
+  z2cB c4       |"Dm"BBAG A2z2|
+  "Bb"z2BA B4   |"Gm"GABc dc2B|\
+  "Am"A2z2 ccBc-|c3A Bcd_e    |"Dm"d4 z4     |
+|:"Bb"Bcdc Bd3  |Bcd_e dc2B   |\
+  "F"A4 BcBA    |"Gm"B3A G4   |[1"Am"GABA A4 :|[2"Dm"GABA d4|

@@ -1,0 +1,26 @@
+X:142
+T:A Mhairi Bhan Og (Harmonized)
+R:Jig
+M:6/8
+%%printtempo 0
+Q:180
+K:Am
+V:1 clef=treble
+V:2 clef=alto
+V:3 clef=bass
+%
+[V:1]|: E| A>BA   c2d | e2c   dcB | e2A     A>BA | G3     z2E | A>BA     c2d | e2c     deg |
+[V:2]|: E| E2D    E2B | A2E    G3 | A,>B,A,  C2D | E3     z2E | E2D      E2F | G2E      F3 |
+[V:3]|: z|"Am"A,,3 E,3| A,3 "G"B,3|"Am"A,3 "F"F,3|"Em"E,3 E,,3|"Am"A,,3 E,2D,|"C"C,3"Dm"D,3|
+%
+[V:1]e2c  dcB | A3 z2:| e/g/| a>ba g2f | e2c deg | e2A A>BA | G3 z2 E|
+[V:2]A>BA G2D | E3 z2:| z   | c3    d3 | G2E  G3 | A3   E2C | B3  z3 |
+[V:3]"Am/E"E,3  "Em"E,2G,|"Am"A,3A,,2:|z| "Am"A,3 "G/B"B,3|"C"C>DC"G/B"B,2E,|"Am"A,>B,A, A,>G,F,|"Em"E,3E,,3|
+%
+[V:1]A>BA c2d | e2c agf | e2c dcB | A3 z2e/g/ | a>ba g2f | e2c deg|
+[V:2]E2D  E2B | c3  FGA | c2e G2D | E3     z3 | c3    B3 | c3   A3|
+[V:3]"Am"A,>G,F, E,2D,|"C"C,3 "Dm"D,3|"Am/E"E,3 "Em"E,,2G,,|"Am"A,,2B,, C,D,E,|"F"F,3"Em"E,2D,|"C"C,3"Dm"D,3|
+%
+[V:1]e2A A>BA| G3 z2E | c>Bc d>cd | e>de Hc'2b/a/| e2c d>cB | A3 z2:|
+[V:2]AGF E>DC| B3  z3 | A3     B3 | c2B      HA3 | A>BA G2D | E3 z2:|
+[V:3]"Am"A,,2B,, C,2D,| "Em"E,>F,E, D,C,B,,|"Am"A,,3 "G/B"B,,3| "C"C,2G, "F"HF,3|"Am/E"E,3"Em"E,2G,|"Am"A,3A,,2:|

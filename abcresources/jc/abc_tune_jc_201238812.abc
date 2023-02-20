@@ -1,0 +1,31 @@
+X: 31363
+T: COTILLION No. 27. CONCORD SETT tune 3
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.136 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The flat in bar 11 is a bit odd; not fixed.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+c2 |\
+a2a2f2f2 | cdcB A2c2 | B2G2g2f2 | f6 c2 |\
+a2a2f2f2 | cdcB A2c2 | B2G2g2e2 | g6 f2 H|]
+g2 |\
+gagf efed | cdcB [c'2c2][b2B2] | b2_b2 a2g2 | a6 g2 |\
+gagf efed | cdcB c2[c'2c2] | [b2B2][d'2d2][g2G2][b2B2] | [d'4d4] "^D.C."[c'2c2] |]
+A2 |\
+d2fe d2fe | d6 A2 | e2gf e2gf | e6 A2 |\
+[1 b2b2 b4 | a2a2 [a4f4] | a2g2g2f2 | f4 e4 :|\
+[2 b2a2 g4 | a2g2 f4 | g2f2 e2b2 | a2^c2 "^D.C."d4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across partners and back,
+%% all balance and turn,
+%% grand chain,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

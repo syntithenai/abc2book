@@ -1,0 +1,19 @@
+X: 2133
+T: the Craig of Barns.   a Strathspey.
+%R: strathspey, air
+B: Niel Gow & Sons "Complete Repository" v.2 p.13 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+(d2c)>A G<G TG>G | c<F c>A c<F Ac | {A}d2 {d}c>A G<G TG>A | c>F Tc>A {A}G2G :| A | F>Acd c<ATc2 | d=efa {a}g>f d>e |
+f<a d<f ~F>GAc | d<F {d}c>A {A}G2GA || F>Acd c<ATc2 | d=efa {a}g>f d>e | f<a d<f ~F>GAc | d<f {d}c>A {A}G2G |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+g2g2 g2g2 | f2f2 f2f2 | g2g2 g2g2 | f2f2 g2g :| z | f2f2 f2f2 | g2g2 a2b2 |
+a2b2 f2f2 | d2d2 G2G2 || f2f2 f2f2 | g2g2 a2b2 | a2b2 f2f2 | d2d2 G2G |]

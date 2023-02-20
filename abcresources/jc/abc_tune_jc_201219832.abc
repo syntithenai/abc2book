@@ -1,0 +1,24 @@
+X: 2
+T: Rakes of Cashell
+%R: jig
+B: "Twenty Four Country Dances for the Year 1782", Thomas Skillern, ed. p.1 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1782#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am	% and C in the middle strain.
+e |\
+{d}c2A AcA | c2a Tg2e |\
+{d}c2A AcA | cec dBG :|\
+|:\
+c3 d3 | eca Tg2e |
+cec efd | ege dBG :|\
+|:\
+c2a aca | aca g2e |\
+c2a aca | ege dBG :|
+%%begintext align
+%%   The 1st Gent: set to the 2d Lady & turn her
+%% .| the 1st Lady does the same .|. foot it & hands
+%% across :|. The same back again :|: Cross over 2
+%% Cu .|| Lead up to the top foot it & cast off .||.
+%%endtext

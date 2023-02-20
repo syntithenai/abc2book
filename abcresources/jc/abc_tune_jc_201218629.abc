@@ -1,0 +1,28 @@
+X: 012
+T: Mrs LEITH OF GLENKENDYS
+C: R. PETRIE 2nd Coll.
+R: Reel
+B: Glen Collection p.1 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: A
+%
+V: 1
+e |\
+c/B/A EA EAcA | (d/c/B) FB FBdB | (c/B/A) EA EAcA | e/f/g ae cAA :|
+f |\
+eATc>A eAAa | fBTd>B fBBa | eATc>A eAAa | faea cAAf |
+eATc>A eAAa | fBTd>B fBBg | afge fdec | dBEe cAA |]
+%
+V: 2
+z |\
+A2 [c'2a2e2] [c'2a2e2] [c'2a2e2] | B2 [d'2b2f2] [d'2b2f2] [d'2b2f2] |\
+A2 [c'2a2e2] [c'2a2e2] [c'2a2e2] | e2 [d'2g2e2] A2 [c'ae] :| z |\
+A2 [c'2a2e2] [c'2a2e2] [c'2a2e2] | B2 [b2f2d2] [b2f2d2] [b2f2d2] |\
+A2 [c'2a2e2] [c'2a2e2] [c'2a2e2] | [d'2a2d2] [c'2a2e2] A2 [c'2a2e2] |
+A2 [c'2a2e2] [c'2a2e2] [c'2a2e2] | B2 [d'2b2f2] [d'2b2f2] [d'2b2f2] |\
+f2 c2 d2 A2 | e2 [b2g2e2] [c'2a2e2] [aeA] |]

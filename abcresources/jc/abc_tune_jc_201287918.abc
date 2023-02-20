@@ -1,0 +1,36 @@
+X:1
+T:Hot Punch  "rpband"
+M:6/8
+L:1/8
+Q:80
+C:
+S:6/8 March
+K:HP
+|: a | \
+{fg}f2d{gde}d3/2c/2d | \
+{gBd}B2d{e}A2d | \
+{gfg}f2d{g}f/2a3/2f |
+{Gdc}d3{gdc}d3/2|1
+e/2f{gf}g2e{g}e2{GdG}e | \
+{gcd}c2e{gef}e2d |
+{gcd}c2{e}A{g}c/2e3/2c | \
+{g}A3{GAG}A2:|2
+{g}fg/2 |
+{ag}a2f{gf}g2e | \
+{gfg}f2d{gef}e2d | \
+{g}c/2e3/2c{g}A3/2B/2{GdG}c |
+{Gdc}d3{gdc}d2|]  |: \
+{gf}g | \
+{fg}f2a{g}a2{GdG}a |
+{fg}f2a{g}a2{GdG}a | \
+{fg}f2d{g}f/2a3/2f | \
+{Gdc}d3{gdc}d3/2|1
+e/2f{gf}g2e{g}e2{GdG}e | \
+{gcd}c2e{gef}e2d | \
+{gcd}c2{e}A{g}c/2e3/2c |
+{g}A3{GAG}A2:|2
+{g}fg/2 | \
+a2{GdG}a{g}g2{GdG}g |
+{a}f2{GdG}f{g}e2{GdG}e | \
+{g}c/2e3/2c{g}A3/2B/2{GdG}c | \
+{Gdc}d3{gdc}d2|]

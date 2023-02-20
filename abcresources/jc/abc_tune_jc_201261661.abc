@@ -1,0 +1,34 @@
+
+X: 1
+T: la Chevre [G]
+O: France
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: 4/4
+L: 1/8
+K: G
+"^Intro"\
+[|]"G"B>A G>F E>E D>D | "G"G>G F>G "D7"A2 D2 \
+"A"\
+|: "G"{D}G>A B>c A>B G>D |  "G"B>A B>c "D7"A4 :|
+"B" \
+|: "G"B>A G>F E2  D>D | "G"G>G F>G "D7"A2 A2  \
+|  "G"   B>A G>F E2  D>D | "D7"G>G A>B  "G"G4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: la Chevre  [A]
+O: France
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: 4/4
+L: 1/8
+K: A
+"^Intro"\
+[|]"A"c>B A>G F>F E>E | "A"A>A G>A "E7"B2 E2 \
+"A"\
+|: "A"{E}A>B c>d B>c A>E |  "A"c>B c>d "E7"B4 :|
+"B"\
+|: "A"c>B A>G F2  E>E |  "A"A>A G>A "E7"B2 B2 \
+|  "A"c>B A>G F2  E>E | "E7"A>A B>c  "A"A4 :|

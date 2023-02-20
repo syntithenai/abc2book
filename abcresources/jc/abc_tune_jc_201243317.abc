@@ -1,0 +1,29 @@
+X:97803
+T:Staffin Harvest
+P:Miss Elizabeth Magd. - Fordyce Strathspey
+C:Robert Mackintosh
+R:Strathspey (4x32)
+B:RSCDS D78-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:A
+V:1
+%%staves (1 2)
+[V:1] E|"A"A>G A<B "E"G<E E>G|"A"A>E A/c/e/c/ "E"B2 B<c|\
+[V:1]   "D"d>c "E7"d<f "A"e<c B>A|"D"F>B "E7"A/G/F/E/ "A"A2 A E|
+[V:1]   "A"A>G A<B "E"G<E E>G|"A"A>E A/c/e/c/ "E"B2 B<c|\
+[V:1]   "D"d>c "E7"d<f "A"e<c B>A|"D"F>B "E7"A/G/F/E/ "A"A2 A||
+[V:1] g|"A"a/g/f/e/ a>e "E7"d<B G<E|"A"A>c e<a c<e a<c|\
+[V:1]   "D"d<f "A"c<e "Bm"B>A "E"G<E|"D"F>d "E7"c/B/A/G/ "A"A2 Ag|
+[V:1]   "A"a/g/f/e/ a>e "E7"d<B G<E|"A"A<c e<a c<e a<c|\
+[V:1]   "D"[dB]<b "A"c<a "B7"B>A "E"G<E|"D"F>d "E7"c/B/A/G/ "A"[A2E2C2][AEC]|]
+%V:2
+%[V:2] x|   x8                |   x8                    |\
+%[V:2]      x8                    |   D2      D2    [E2C2][EC] x|
+%[V:2]      x8                |   x8                    |\
+%[V:2]      x8                    |   D2      D2    [E2C2][EC]||
+%[V:2] x|   x8                      |   x8             |\
+%[V:2]      F2     E2      [F2D2] E2 |   D2     [G2D2]    [E2C2]x2|
+%[V:2]      x8                      |   x8             |\
+%[V:2]      x4                F2     E2 |   D2      [G2D2]      x3           |]

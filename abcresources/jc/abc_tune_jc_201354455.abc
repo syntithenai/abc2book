@@ -1,0 +1,21 @@
+X:175
+T: Yellow Hair'd Laddy ("duett 1")
+N: O'Farrell's Pocket Companion v.2 (Sky ed. p.88)
+M: 3/4
+L: 1/8
+R: waltz
+Q: 240
+V: 1 %%MIDI program 1 73 volume=70 % flute
+V: 2 %%MIDI program 1 40 % fiddle
+K: D
+[V:1] D>E|F2 A2 B>c|d3e f2|A2 BAGF|F2 E2 D>E|
+[V:2] F>G|d2 f2 e2|f>efg a2|f2 gf ed|d2 c2 F>G|
+% [continued]
+[V:1] F2 A2 B>c|d>cde f2|1 AB A<F ED/E/|D4 :|2 A2 gf ed/e/|d4||
+[V:2] d2 f2 e2|f>efg a2|1 fgf<d cB/c/|d4 :|2 f2 ed cG|F4||
+%
+[V:1] de|f2 gfed|c2 ecB<A|B>cdB AF|F2 E2 D>E|
+[V:2] FA|d2 edcB|A2 A2 F2|G2 BG F2|d2 c2 F>G|
+%
+[V:1] F2 A2 B>c|d>cd>e f2|1 A>BAF ED/E/| D4 :|2 F2 gf ed/e/|d4||
+[V:2] d2 f2 e2|f>ef>g a2|1 f>gf<d cB/c/| d4 :|2 f2 ed cG | F4||

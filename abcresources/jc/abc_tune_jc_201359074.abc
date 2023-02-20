@@ -1,0 +1,300 @@
+X:1
+T:British Grenadiers
+M:4/4
+L:1/4
+K:G
+D|"G"G D G A|B2 "D"A B/c/|"G"d G "D7"B/A/ G/F/|"G"G3 D|"G"G D G A|B2 "D7"A B/c/|
+"G"d G "D7"B/A/ G/F/|"G"G3|:B/c/|d>e d c|B c d d|"Am"e e d/c/ B/A/|"G"G2 "D"F D/D/|
+"G"G F/G/ "D"A G/A/|"G"B A/B/ "D"c B/c/|"G"d G "D7"B/A/ G/F/|"G"G3:|
+
+X:2
+T:Shepherds' Hey
+M:2/2
+K:G
+D|"G"BcdB "C"c2 (3cdc|"G"BcdB "D7"A2 D2|"G"BcdB "C"c2 Bc|"D7"d2 D2 "G"G3:|
+|:A1|"G"B2 G2 "C(D7)"c2>A2|"G"B2 "D7"G2 A2>A2|"G"BcdB "C"c2 Bc|"D7"d2 D2 "G"G2:|
+
+X:3
+T:Walter Bulwer's Polka
+M:2/4
+L:1/8
+K:G
+"G"DG GF/G/|"C"AE E2|"D7"F/G/A F/G/A|"G"AG G>E|DG GF/G/|"C"AE E2|
+"D7"F/G/A/F/ DG|"G"G2 G2::"D"AA "G"BB|"D"A/G/F/G/ AA|"A7"G/F/E/F/ GG|
+"D"F/E/D/F/ G>A|"D"AA "G"BB|"D"A/G/F/G/ A2|"Em"G/F/E/F/ "A7"G/A/B/c/|"D"d2 d2:|
+
+X:4
+T:Uncle Bernard's
+M:2/4
+L:1/8
+K:G
+"G"GA "D7"Bc|"G"d>e d/c/B|"D7"c>d c/B/A|"G"B>c BA|"G"GA "D7"Bc|"G"d>e dg|
+"D7"f/e/d/c/ BA|"G"G3::f|"C"gg fe|"G"d>e d/c/B|"D7"c>d c/B/A|
+"G"B>c Bd|"C"gg fe|"G"d>e dg|"D7"f/e/d/c/ BA|"G"G3:|
+
+X:5
+T:Phoenix
+M:2/2
+K:F
+c|:"F"f2 c2 A2 F2|"C7"cdef g2 e2|"F"fg a2 "Gm"(g2 f2)|"C7"(e3 d/e/) "F"f4:|
+"F"f2 c2 A2 F2|FGAB c2 A2|"Gm"dBcA BGAF|"C7"E3 D/E/ "F"F4:|
+
+X:6
+T:New Exchange
+M:2/2
+K:F
+"F"agfe f2 c2|"Bb"defg "C"d2 ag|"Dm"fe d2 "Am"d2>d2|"Dm"d4>A4|\
+"Bb"d2 e2 "F"f2>f2|"Gm"g2 a2 b2>b2|"F"ag f2 "C"e2>d2|"Dm"d4>z4||
+"C"c2 de "Dm"f2>A2|"Gm"Bc d2 "C"c2>c2|"Bb"de f2 "Gm"e2>f2|"C"g4>a4|\
+"Gm"b2 a2 g2>f2|"C"e2>d2 c2>c2|"Bb"de f2 "C"e2>f2|"F"f2 f4 z2|]
+
+X:7
+T:The Weeding Paddle
+T:An Bal Whennie
+M:4/4
+K:D
+A>d d>d A<d d>d|e>f g>e f>f f>d|c<e e>c A>c e>f|g>f e>c d2 d>a|
+(3fga a>a (3fga a>a|b>a g>f g>e e>d|c<e e>c A>c e>f|g>f e>c d2 d2||
+e>d c>d e2 e2|e>d c>d e2 e>d|c<e e>c A>c e>f|g>f e>c d2 d2:|
+
+X:8
+T:Castles in the Air
+T:Sheena Masson's
+M:4/4
+R:Hornpipe
+K:G
+DF|"G"G2 GB "D7"D2 (3DEF|"G"GF GA "Em"B2 BG|"C"cB ce "G"dB AG|"Am"AB AG E2 "D7"(3DEF|
+"G"G2 GB "D7"D2 (3DEF|"G"GF GA "Em"B2 BG|"Am"cB ce "G"dB GA|"D7"Bc BA "G"G2||
+|:(3Bcd|"C"e2-eg "G"dB-B2|"D7"cB cd "G"B GB|"C"cB ce "G"dB AG|"A7"AB AG E2 "D7"(3DEF|
+"G"G2 GB "D7"D2 (3DEF|"G"GF GA "Em"B2 BG|"C"cB ce "G"dB GA|"D7"Bc BA "G"G2|]
+
+X:9
+T:Lass O' Killiecrankie
+T:Mary Panton's
+M:6/8
+K:Am
+e|"Am"e2A A2e|e2A ABc|"G"d2B G2B|d2e dcB|"Am"A2B c2d|e2c A2e|"Em"e2d\
+c2B|"Am"(A3 A2):|
+z|"Am"aaa a2g|e2ee3|"G"ggg g2e|d2c BAG|"Am"A2B c2d|e2c A2e|"Em"e2d\
+c2B|"Am"(A3 A2):|
+
+X:10
+T:Swallows Tails
+M:6/8
+K:D
+E/F/|"Em"GEE BEE|GEG BAG|"D"FDD ADD|dcd "Bm"AGF|"Em"GEE BEE|GEG B2c|
+"D"dcd "Bm"AGF|"Em"GEE E2::B|"Em"Bcd e2f|e2f edB|Bcd e2f|edB "D"d2c|
+"Em"Bcd e2f|e2f edB|"D"dcd "Bm"AGF|"Em"GEE E2:|
+
+X:11
+T:Trip to Canterbury
+M:6/8
+K:G
+D|"G"D>EF G>AB|"Am"c>ed "D"cBA|"Em"BGE "G"DGG|"D7"B>cA "G"G2D|"G"D>EF\
+"Em"G>AB|"Am"c>ed "D"cBA|
+"Em"BGE "G"DGG|"D7"B>cA "G"G2::c|"G"B2c d3|"C"e2c "G"dBG|B>ce\
+"C"e>fg|"A7"GAG "D"FED|
+"C"Cec "G"B,dB|"Am"A>GA "Em"BGE|"C"GFE "G"Ddc|"D7"B>cA "G"G2:|
+
+X:12
+T:Herne Bay Dance
+M:2/4
+K:D
+d2|"D"A2F2 A2F2|A2Bc d2cB|A2F2 A2F2|"A7"GAGF E2d2|"D"A2F2 A2F2|
+A2Bc "Bm"d2ef|"Em"g2ed "A7"cBAG|"D"F2D2 D2::"A"E2A2 A2Bc|"E"C2B2\
+B2F2|^G2E2 "E7"F2G2|
+"A"ABcd "E7"ecdB|"A"E2A2 A2Bc|"D"C2B2 B2F2|"E7"^G2f2 ecdB|"A"A6:|
+
+X:13
+T:Adventure at Margate
+M:6/8
+K:G
+"G"dBG dBG|"C"e2d "G"d3|dBG dBG|"D"c2B "G"B3|dBG dBG|
+"C"ecG ecG|"G"Bcd "D"dcB|"G"G3G3::"D"ABc cBA|"G"dBG dBG|"D"ABc cBA|
+"G"dBG "G7"GBd|"C"ece "Am"ece|"G"dBd dBd|"C"edc "D7"BcA|"G"(G3G3):|
+
+X:14
+T:I'll Go and Enlist
+M:4/4
+L:1/4
+K:Gm
+GG/A/Bc|dgdd/=e/|fffA/B/|cc/A/FF|GG/A/Bc|dgdd/=e/|
+fAcB/A/|G2G2||G2G>A|B2c2|d2g2|d2d>=e|f2f2|f2A>B|
+c2c>A|F2F2|GG/A/Bc|dgdd/=e/|fAcB/A/|G2G2|]
+
+X:15
+T:Dorset Four Hand Reel
+M:2/4
+L:1/8
+K:G
+B/A/|"G"GB dc/B/|"C"ce ce|"G"GB d>c|"D"BA AB/A|"G"GB dc/B/|
+"C"ce ce|"G"GB "D7"d>c|"G"BGG::d|"G"gg "(C)"g/f/e|"G"dd d/c/B|
+"Am"AA/B cd|"D7"ed de/f/|"G"gg g/f/e|"G"dd "(C)"d/c/B|"D7"AA/B/ cA|"G"G2G:|
+
+X:16
+T:Dorset Four Hand Reel (alt.)
+M:2/4
+K:A
+E2|"A"A2ce aecA|"D"D2F2 D2F2|"A"A2ce aecA|"E7"B2e2 B2e2|"A"A2ce aecA|
+"D"D2F2 D2F2|"E7"e2gf edcB|"A"A2a2 a2::cd|"A"e2c2 e2c2|"D"f2d2 f2d2|
+"A"e2c2 e2c2|"E7"B2e2 e2>e2|"A"e2c2 e2c2|"D"f2d2 f2d2|"E7"e2gf edcB|"A"A2a2 a2:|
+
+X:17
+T:Hullichan Jig
+M:6/8
+K:D
+d|"G"GAG BGB|ded dBG|"C"cBc ege|"G"dBG "D7"A2d|"G"GAG BGB|ded B2g|
+"D7"fed cBA|"G"(G3G2)::B/c/|"G"ded Bcd|"C"ece e2e|"D7"fgf def|
+"G"gBd gfe|ded Bcd|"C"ece gfe|"D7"ded cBA|"G"(G3G2):|
+
+X:18
+T:Black Joke
+A:Adderbury
+M:6/8
+K:G
+D|"G"DGG GFG|"C"AcB "D7"AGF|"G"GAB d>cB|"C"AcB "D7"AGF|"G"GAB \
+"C"EFG|"D7"DEF "G"G2::
+A|"G"Bdd d2d|"C"ede "D7"d2c|"G"Bdd d2d|"C"ede "D7"d2c|"G"B>BB BAG|
+"C"AcB "D7"AGF|"G"GAB d>cB|"C"AcB "D7"AGF|"G"GAB "C"EFG|"D7"DEF "G"G2|]
+
+X:19
+T:Black Jack
+M:6/8
+K:G
+e|"G"d2B G>AB|"Am"c2A A2e|"G"d>ed B>AG|"D7"d3"G"B2::
+B|"C"e2f g>fe|"G"d>cB "Am"A2e|"G"d>ed B>AG|"D7"d3"G"B2:|
+
+X:20
+T:Black Jack
+M:6/8
+K:G
+(D|"G"D2)G GFG|"C"AB(A "D?"A)GA|"G"BcB BAG|"C"ABA "D7"AFD|"G"G2B "C"EFG|
+"D7"DEF "G"G2:|G|"G"B2(d d)cB|"C"dee "D7"d2c|"G"B2(d d)cB|"C"dee "D7"d2c|
+"Em"B2(B B)AG|"Am"ABA "D7"AGA|"G"BcB BAG|"C"ABA "D7"AGF|"Em"G2B \
+"Am"EFG|"D7"DEF "G"G2|]
+
+X:21
+T:Manchester Hornpipe
+M:4/4
+K:D
+(3ABc|dcdA FAdf|edcB A2fg|afaf bagf|edcB A2fe|dcdA FAdf|edcB A2fg|
+afdf (3gag ec|d2f2d2::fg|afaf dfaf|bgbg efge|afaf bagf|
+(3efe (3dcB A2fe|dcdA FAdf|edcB A2fg|afdf (3gag ec|d2f2d2:|
+
+X:22
+T:The Fairy Dance
+T:Fisher Laddie
+M:C|
+K:D
+"D"f2fd f2fd|f2fd "A7"cecA|"D"f2fd "G"gfed|"A7"cABc "D"defg|
+"D"fafd fafd|fafd "A7"cecA|"D"fafd "G"gfed|"A7"cABc "D"D2D2||
+"D"a2af "B7"b2ba|"Em"g2ge "A7"a2ag|"D"f2fd "G"gfed|"A7"cABc "D"defg|
+"D"a^gaf "G"b^ab=a|"Em"gfge "A7"a^ga=g|"D"fefd "G"gfed|"A7"cABc "D"D2D2|]
+
+X:23
+T:Upton on Severn Stick Dance
+M:6/8
+K:G
+d|"G"dBB BAG|"D7"AGA "G"BGE|DGG GBd|"C"edB "D7"A2d|"G"dBB BAG|"D7"AGA "G"BGE|
+DGG G2B|"D7"AGA "G"G2::G|"G"GBd g2d|"C"edc "D7"BAG|"G"GBd g2d|
+"C"edB "D7"A2G|"G"GBd g2d|"C"edc "D7"Bcd|"C"ege "G"dBG|"D7"AGA "G"G2:|
+
+X:24
+T:Dummer Five Hand Reel
+M:2/4
+K:G
+Bc|"G"d2Bd "D7"c2Ac|"G"B2G2 GFGB|"D7"A2F2 fefg|"G"A2G2 G2Bc|d2Bd "D7"c2Ac|
+"G"B2G2 GFGB|"D7"A2F2 fefg|"G"A2G2 G4::"G"G2Bd g2>f2|"C"f2e2e4|
+"D7"D2FA f2>e2|"G"e2d2d4|G2Bd g2>f2|"C"f2e2e2>e2|e2a2 "D7"e2f2|"G"g4g4:|
+
+X:25
+T:I Wandered By A Brookside
+M:4/4
+L:1/4
+K:G
+D|"G"D<D "C"E>D|"G"D(G G)G/A/|BG "C"GE|"D"D3 D|"G"D<D "C"E>D|
+"G"D(G G)G|GE BG|"D7"A3 D|"G"D<D "C"E>D|"G"D(G G)G/A/|
+BG "C"GE|"D"D3 G/A/|"G"B<B "D"A>F|"G"G2 DD/D/|"C"EG "D7"AF|
+"G"G3 G/A/|B<B "D"A>F|"G"G2 DD/D/|"C"E<G "D7"AF|"G"G3|]
+W:I wandered by a brookside...
+
+X:26
+T:Jig of Slurs
+M:6/8
+K:D
+B|A2d dcd|Bdd Add|Bdd Add|Bee efe|A2d dcd|Bdd Add|
+Bdd cde|fdd d2::B|a2f fef|gff fed|B2e ede|fee edB|
+a2f fef|gff fed|Bdd cde|fdd d2::\
+K:G
+G|G2g gfg|aee gdB|
+G2g gfg|aee g2A|G2g gfg|aee gdB|Bee efg|fed e2::A2|G2B Bdd|
+dee edB|G2B Bdd|dee egg|G2B Bdd|dee edB|Bee efg|fed e2:|
+
+X:27
+T:John of Paris
+M:6/8
+K:G
+d|"G"B2B BAB|d2B BAB|"C"c2e g2e|"G"d2B BAB|"D7"c2A AGA|"G"B2G "Em"GAB|
+"A7"A2B A2B|"D"A2d "D7"d^c=c|"G"B2B BAB|d2B BAB|"C"c2e g2e|"G"d2B BAB|
+"D7"c2A AGA|"G"B2G G2F|"C"Eed "D7"cBA|"G"G3 B2||c|dcd Bcd|"C"e2f g2a|
+"Em"b2a "A7"gfe|"D7"d2c "G"Bcd|"C"e2e ecA|"G"d2d dBG|"D7"c2A \
+"G"B2G|"D"FGF "D7"Ddc|"G"B2B BAB|
+d2B BAB|"C"c2e g2e|"G"d2B BAB|"D7"c2A AGA|"G"B2G G2F|"C"Eed "D7"cBA|"G"G3 B2|]
+
+X:28
+T:Nancy Dawson
+M:6/8
+K:G
+"G"G2G GAB|d2B G2B|"D7"A2B A2B|A2G FED|\
+"G"G2G GAB|d2B "Em"G2B|"A7"A2G F2E|"D"D3  D3::
+"D"A2A A2B|A2G FED|"G"B2c d2c|d2g dBG|\
+"C"c2B c2d|"Em"e2f "A7"gfe|"D7"dcB AGF|"G"G3  G3:|
+
+X:29
+T:Mr Englefields New Hornpipe
+M:3/2
+K:Dm
+"Dm"F4 D2EF "Gm"GFED|"C"E2C4G2F2E2|"F"F2>G2 A2GF "Bb"DEF2|"Dm"A,2D4F2E2D2:|
+"Dm"d4 def2 e2d2|"C"e2c4g2f2e2|"F"f2>g2 a2gf "Gm"efed|"Dm"a2d4f2e2d2:|
+
+X:30
+T:Bath Carnival
+M:6/8
+K:G
+"G"B2c dcB|"C"efg efg|edc "G"BAG|"D"FAG FED|"G"B2c dcB|"C"efg "G"efg|
+"C"edc "D7"BcA|"G"G3 G3::"D"ADD "G"BDD|"D"cDD "G"BDD|"D"ADD "G"BDD|
+"D"A2D DDD|ADD "G"BDD|"D"cDD "G"BDD|"D7"AcB AGF|"G"G6:|
+
+X:31
+T:Halfe Hannikin
+M:6/8
+K:G
+"G"B>cd d2c|B>cB "D"A2G|"G"B>cd d>cB|"D"A>GF "G"G3:|"G"B3 "C"c3|"G"B3 "D"A2G|
+"G"B>AB "C"c2B|"D"A>GF "G"G3|"G"B>AB "C"c>Bc|"G"B>AB "D"A2G|"G"B>AB \
+"C"c2B|"D"A>GF "G"G3|
+
+X:32
+T:Bluebell Polka
+M:4/4
+K:G
+(3Bdg|b2b2 gfge|d2d2 B2G2|FGAB c2e2|ed^cd B2(3Bdg|b2b2 gfge|d2d2 B2G2|
+FGAB cdef|g2g2g2::B2|A2A2 FAdf|a2a2f4|a2fa g2e2|b2a2a4|
+A2A2 FAdf|a2a2f4|a2fa g2e2|d2f2d2::d2|B2B2 Bcd2|B2B2 Bcd2|
+c2c2 cBA2|cBcB cBA2|B2B2 Bcd2|B2B2 Bcd2|c2c2 cAFA|G2B2G2:|
+
+X:33
+T:Astley's Ride
+M:4/4
+K:G
+dB|"G"G2G2 G2FG|"D"A2A2 A2BA|"C"GFED E2F2|"G"GABc dcBA|
+G2G2 G2FG|"D"A2A2 A2BA|"C"GFED "D7"E2F2|G4G2::GA|B2B2 B2AB|"Am"c2c2 cdcB|
+"D7"A2A2 A2GA|"G"B2B2 BcBA|G2G2 G2FG|"D"A2A2 A2BA|"C"GFED "D7"E2F2|"G"G4G2:|
+
+X:34
+T:The Sloe
+M:4/4
+K:D
+A2|"D"d2A2 d2"A"e2|"D"f2>e2 d2c2|"G"B2A2 BcdB|"A"A2G2 "D"F2A2|
+"D"d2A2 d2"A"e2|"D"f2>e2 d2c2|"G"B2A2 "A"B2c2|"D"d4-d2::
+A2|"D"(3BcBA2 F2A2|(3BcBA2 F2dd|"D"d2cc "A"c2BB|B2A2 "D"A2dd|
+"A"d2c2 c2ee|"D"e2d2 d2f2|"G"f2e2 "A"B2c2|"D"d4-d2:|

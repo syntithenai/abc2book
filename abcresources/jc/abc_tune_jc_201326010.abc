@@ -1,0 +1,50 @@
+
+X: 1
+T: Sva Nok le, Nado [F]
+C:
+O: Makedonija
+M: 4/4
+R: slow pravo
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+L: 1/8
+K: F
+P: Instr.
+[| "C"[c3e] [df] [ce][Bd] [Bd][Ac] | "F"[Ac][G2B] [Ac] [GB][FA] [FA][FC] \
+| [FA][GB] [GB][Ac] "C7"[GB][Ac] [GB][FA] | "F"[FA][GB] [FA][CG] [FA][GB] [Ac][Bd] |\
+| "C"[dB][ce] [ce][df] [ce][Bd] [Bd][Ac] | "C7"[Ac][B2G] [Ac] "F"[GB][FA] [F2A] \
+| [FA][GB] [GB][Ac] "C7"[GB][Ac] [GB][FA] | "F"[F8A] |]
+P: Vocal
+[| "F"[F3A] [GC] [F2A] [FA][GB] | [A3c] [GB] [GB][FA][F2A] \
+| [FA][GB] [A2c] "C7"[GB][Ac] [GB][FA] | "F"[F3A] [CG] [FA][GB] [A2c] |\
+| "F"[F2A] [FA][CG] [F2A] [FA][GB] | [A3c] [GB] [GB][FA] [F2A] \
+| [FA][GB] [A2c] "C7"[GB][Ac] [GB][FA] | "F"[F8A] |]
+[| "C"[c4e] [ce][Bd] [Bd][Ac] | "F"[A3c] [GB] [GB][FA] [F2A] \
+| [FA][GB] [A2c] "C7"[GB][Ac] [GB][FA] | "F"[F3A] [CG] [FA][GB] [A2c] |\
+| "C"[c4e] [ce][Bd] [Bd][Ac] | "C7"[Ac][B2G] [Ac] "F"[GB][FA] [F2A] \
+| [FA][GB] [A2c] "C7"[GB][Ac] [GB][FA] | "F"[F8A] |]
+
+%%sep 1 1 500
+
+X: 1
+T: Sva Nok le, Nado [G]
+C:
+O: Makedonija
+M: 4/4
+R: slow pravo
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+L: 1/8
+K: G
+P: Instr.
+[| "D"[d3f] [eg] [df][ce] [ce][Bd] | "G"[Bd][A2c] [Bd] [Ac][GB] [GB][GD] \
+| [GB][Ac] [Ac][Bd] "D7"[Ac][Bd] [Ac][GB] | "G"[GB][Ac] [GB][DA] [GB][Ac] [Bd][ce] |\
+| "D"[ec][df] [df][eg] [df][ce] [ce][Bd] | "D7"[Bd][c2A] [Bd] "G"[Ac][GB] [G2B] \
+| [GB][Ac] [Ac][Bd] "D7"[Ac][Bd] [Ac][GB] | "G"[G8B] |]
+P: Vocal
+[| "G"[G3B] [AD] [G2B] [GB][Ac] | [B3d] [Ac] [Ac][GB][G2B] \
+| [GB][Ac] [B2d] "D7"[Ac][Bd] [Ac][GB] | "G"[G3B] [DA] [GB][Ac] [B2d] |\
+| "G"[G2B] [GB][DA] [G2B] [GB][Ac] | [B3d] [Ac] [Ac][GB] [G2B] \
+| [GB][Ac] [B2d] "D7"[Ac][Bd] [Ac][GB] | "G"[G8B] |]
+[| "D"[d4f] [df][ce] [ce][Bd] | "G"[B3d] [Ac] [Ac][GB] [G2B] \
+| [GB][Ac] [B2d] "D7"[Ac][Bd] [Ac][GB] | "G"[G3B] [DA] [GB][Ac] [B2d] |\
+| "D"[d4f] [df][ce] [ce][Bd] | "D7"[Bd][c2A] [Bd] "G"[Ac][GB] [G2B] \
+| [GB][Ac] [B2d] "D7"[Ac][Bd] [Ac][GB] | "G"[G8B] |]

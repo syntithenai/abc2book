@@ -1,0 +1,12 @@
+%%staffwidth 200
+X: 1
+T: Key D signatures
+K: D
+P: major
+[| "D"DEFG ABcd |]
+P: Dorian
+K: Ddor clef=bass
+[| "D"DEFG ABcd |]
+P: minor
+K: Dmin clef=bass
+[| "Dm"DEFG A=B^cd |]

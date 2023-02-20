@@ -1,0 +1,19 @@
+X: 1
+T:Three Musketeers
+M:4/4
+C:
+S:as played by Chris Newberry
+N:tune is ``La Marseillaise'', transposed to G
+H:abcTranscriber: Alex Boster <boster@acm.org>
+A:Bledington
+O:
+P:${1}\over{2}$A(AB)$^4$
+%P:A/2.(AB)4
+L:1/16
+K:G
+L:1/16
+P:A
+|:D3D|G4 G4 A4 A4|d6 B2 G3G B3G|E4 c8 A3 F|G8 z4:|
+P:B
+|:G3A|B4 B4 B4 c3B|B4 A8 A3B|c4 c4 c4 d3c|B8 z4 d3d|
+d4 B2G2 d4 B2G2|D8 z4 D3F|A8 c4 A2F2|A4 G8 z4:|

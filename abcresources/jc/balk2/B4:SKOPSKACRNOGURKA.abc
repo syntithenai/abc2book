@@ -1,0 +1,15 @@
+X: 424
+T: Skopska Crnogurka
+F: http://www.youtube.com/watch?v=7EyCjIpGUwQ
+M: 2/4
+L: 1/16
+Q: 1/4 = 120
+K: F
+%%MIDI program 71
+%%MIDI bassprog 32
+%%MIDI bassvol 70
+%%MIDI gchord fzfz
+|:"F"FFF2 "C" GGG2 |"F" FFF2 "C" GGG2|ABAG A4    |
+  "F"FFF2 GGG2     |FFF2 GGG2        |ABAG F4    :|
+|:"F" ABcc "C" cBAG|"F" AAA2 "C"GA2F |ABAG A4    |
+  "C" ABcc cBAG    |AAA2 GA2F        |"F"ABAG F4 :|

@@ -1,0 +1,25 @@
+X: 1
+T: Ajde Lepa Maro (D)
+R: Kolo
+O: Croatia
+%info: line
+Z: 1997 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/8
+K: D
+[| "G"[bg][af] [ge][fd] \
+| "A"[g3e] [ge] \
+| "D"[fd][af] [fd][dB] \
+| "A"[e2A] [a2c] \
+| "G"[bg][af] [ge][fd] \
+| "A"[g3e] [ge] \
+| "D"[fd][af] [fd][dB] \
+| "A"[e2A] [eA]z |]
+[| "D"[dA][dA] [cA][dB] \
+| "A"[e3c] [fd] \
+| [ge][ec] "E7"[fd][dB] \
+| "A"[e2A] [a2c] \
+| "D"[dA][dA] [cA][dB] \
+| "A"[e3c] [fd] \
+| [ge][ec] "E7"[fd][dB] \
+| "A"[e2A] [eA]z |]

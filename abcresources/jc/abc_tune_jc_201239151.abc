@@ -1,0 +1,31 @@
+X: 321
+T: Captn Reeds
+T: the 3d Regt of Guards March
+B: C. & S. Thompson, "The Compleat Tutor for the Fife" c.1760 p.32 #1
+S: http://imslp.org/wiki/The_Compleat_Tutor_for_the_Fife_(Anonymous)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has more compact staff layout.
+V: 1
+A |\
+d2d>d d2f>e | d2A2 d2e2 |\
+f2f>f f2a>g | f2e2 f2g2 |\
+a2a>a a2b>a |
+g2g>g g2a>g |\
+f2ed a2gf | e2e>e e2z :: A |\
+A>BA>B c>dc>d | e>fe>f g2f>e |
+d>ed>e f>gf>g | a>ba>b =c'2ba |\
+bgeb afda | g>fe>d c2B>A |\
+B>cd>g f2Te2 | d2d>d d2z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 has staff layout matching the book's.
+V: 2
+z |\
+z8 | z4 z2 z A | d2d>d d2f>e | d2A2 d2e2 |
+f2f>f f2g>f | e2e>e e2f>e | d4 e2d2 | c2c>c c2z :: z |
+z4 A>BA>B | c>dc>d e2d>c | d2z2 d>ed>e | f>gf>g a2gf |
+g2b2 f2a2 | b2B2 A2d2 | d>ed>e d2Tc2 | d2d>d d2z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

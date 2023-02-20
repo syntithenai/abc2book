@@ -1,0 +1,24 @@
+X: 11046
+T: JANET'S JIG
+C: Bob McQuillen 29 Oct.2001
+B: Bob's Note Book 11 #46
+R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+e \
+| a2e cBA | a2e dcB | Ace cea | ecA B2e |\
+| a2e cBA | a2e dcB | cea gfg | aAA A2 :|
+|: B \
+| c2A AFE | FAF EAB | cAc edc | dcd Bed |\
+| cBc A2e | agf e2d | cAc dBe | cAA A2 :|
+%%begintext align
+%% Janet May is an old friend
+%% and a fine piano player from Youngstown, OH. She recently engineered
+%% a trip out there for me to do a piano workshop and dance in Cleveland.
+%% I played for a Saturday-night dance with their local band, "Rhubarb
+%% Pie", and boy, can they play! What a great night of music it
+%% was; I really enjoyed our evening together so much. Thanks
+%% loads, Janet; it was a wonderful week-end!
+%%endtext

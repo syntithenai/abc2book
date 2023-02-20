@@ -1,0 +1,38 @@
+X: 185
+T: Doves Figary
+T: Longways &c.
+%R: march
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.93
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: The dance descriptions seems to refer to 6 "strains"; how this maps to the tune isn't obvious.
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2a2 g2f2 | e3d ^c2A2 |\
+d2e2 f3f | g2fg a4 :|\
+|:\
+a2ab c'2ba | g2ga b2ag |
+a2a2 a2gf | g3f f4 |\
+a2a2 bagf | g2g2 agfe |\
+f2d2 d2a2 | e3d d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Men fall back, and We. at the same time, change
+%% places each with his own, Men hands round, to
+%% your places, and We. at the same time, Men being
+%% on the We. side, and We. on the Mens side .|
+%% back again to your places :| fall back and change
+%% places as before, Men the Hey and We. at the
+%% same time, the 1st Cu. staying in the last place .|
+%% this back again :| fall all back and change places
+%% as before, the 1st Man lead down his Wo. the
+%% rest following him, stay in the last place .| this
+%% back again, but cast off in stead of leading be
+%% tween the rest :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

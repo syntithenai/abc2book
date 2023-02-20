@@ -1,0 +1,41 @@
+
+X: 1
+T: Key to the Cellar   [Em]
+N: What's this tune's real name?
+S: Barnes II p.40
+R: march
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Edor
+|:\
+"Em"G2E2 E2D2 E4 | G2E2 E2G2 "D"FGA2 |\
+"Em"G2E2 E2D2 E4 | "D"F2D2 D2B2 "(Bm)"A2GF :|
+|:\
+"Em" E2e2 e2d2 e4 | E2e2 e2f2 g2e2 |\
+"(C)" E2e2 e2dc "G"d3B | "D"A2F2 D2B2 "(Bm)"A2GF :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Key to the Cellar   (Dm)
+T: Cam' Ye O'er Frae France
+T: Marchioness of Tweeddale's Delight
+T: Sellar Door Key
+%D: 1770
+B: William Vickers' music manuscript collection (Northumberland 1770)
+B: Niel Gow's 2nd Collection (1788)
+B: Barnes II p.40 (2005)
+R: march
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Also played in major (mixolydian).
+M: 3/4
+L: 1/8
+K: Ddor
+|:\
+"Dm"F2D2 D2C2 D4 | F2D2 D2F2 "C"EFG2 |\
+"Dm"F2D2 D2C2 D4 | "C"E2C2 C2A2 "(Am)"G2FE :|
+|:\
+"Dm" D2d2 d2c2 d4 | D2d2 d2e2 f2d2 |\
+"(Bb)" D2d2 d2cB "F"c3A | "C"G2E2 C2A2 "(Am)"G2FE :|

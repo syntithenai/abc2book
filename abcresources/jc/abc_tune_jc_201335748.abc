@@ -1,0 +1,54 @@
+%%text Set: Flying + Curvy + Evil
+
+
+X: 1
+T: Flying Home to Shelley
+C: Paul Gitlitz
+M: 4/4
+L: 1/8
+R: reel
+K: G
+M: C|
+|:\
+"G"DGdG cGBG | "Am"DGcG BGAG |\
+"Bm"DGAG BGAG | "C" DEGD "D"EDB,C |\
+"G"DGdG cGBG | "Am"DGcG BGAG |
+"Bm"DGAG "Am"BGAG |[1 "D"DEFD "G"G4 :|\
+[2 "D"DEFD "G"GABc :: "G"d3 B AGAB |\
+"Am"c3 B AG E2 | "C"e3 d "Bm"BA G2 |
+"Am"ABdA "D"BAGB | "Em"d3 B AGAB |\
+"Am"cGBG AG E2 | "C"e3 d "Am" BA G2 |\
+[1 "D"ABAF "G"GABc :|[2 "D"ABAF "G"G4 |]
+
+%%sep 1 1 500
+
+X: 2
+T: The Curvy Road to Corinth
+C: Larry Unger (1988)
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Em
+|:\
+"Em"B2eB gBeB | "D"dAeA fAeA | "Em"B2eB gBeg | "C"fedB "D"AGFA ||\
+"Em"B2eB gBeB |
+"D"dAeA fAef | "C"gfed BedB | "Bm"AGFD B,DFD ::\
+"C"E3F G2E2 | "G"GDAD BDGD |
+"Am"E3F G2E2 | "Bm"FEDB, D2F2 ||\
+"C"E3F G2E2 | "G"GDAD BDGB | "D"AdBe dBAG | "Bm"BAGF E2D2 :|
+
+%%sep 1 1 500
+
+X: 3
+T: Evil Diane
+C: by Sam Bartlett
+R: reel
+B: Portland Collection v._
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+"E7"e{f}g | "A"aeea fedc | "D"decd "(A)"BcAG | "E7"EDEF GABG |1,3 "A"AGAB cd :|2,4 "(A)"AG"(E7)"EG "A"A2 :|
+z2 |: "E7"E"#"DEE GABc | d2EF GABc | "(D)"d2cd B2"#"AB |1,3 "E7"GBAB GBAG :|2,4 "E7"GDEG "A"A2 :|
+

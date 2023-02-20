@@ -1,0 +1,278 @@
+These tunes were extracted by hand from a very poorly-done attempt to embed
+ABC inside HTML at <URL:http://www.bcpl.net/~hutmanpr/wasnot.html>. It took a
+bit of work to massage the ABC into something that works reasonably well. But
+some more improvements could help here, especially to get the spacing right.
+
+X:1
+T:A wassail ox 156
+M:6/4
+L:1/8
+S:New Oxford Book of Carrols #156
+K:C
+|G2|c2c2d2_B2_B2cd|_e2_e2f2d4_e2|c2c2d2(3_ef_ed2c2|_B2G2G2G4G2|c2c2d2_B4
+(cd) |_e2_e2f2d4d2|c2c2d2_e2d2c2|_B2G2G2(G2F2) _EF|G2G_BAGF2FAGF|_E2_EGF_ED4C2|F2_E2FG_A2G2F2|G2c2_B2c4||
+
+X:2
+T:The Yorkshire Wassail Song:
+T:We've been a while a-wandering
+M:6/8
+L:1/8
+C:Traditional/Vaughan Williams 1919
+S:New Oxford Book of Carols
+K:G
+||E|"Em"E2B"Em"B2A|("Em"G2G)"Em"G2F|"Em"E2F"Em"G2A|
+("Em"B3"Em"B2) E|"Em"E2 B"Em"B2A|("Em"G2G)"Em"G2F|"Em"E2F"Em"G2A|
+M:2/4
+L:1/16
+|"Em"B4B2"C"c2|
+M:3/4
+L:1/2
+|"G"d/2e/2dB/2A/2|
+M:2/4
+L:1/8
+"Em"G2A2G2"Em"E2|"G"D4G2"Am"A2|"Em"B4c2"G"d2|"Em"E4G2"Em"G2|"Em"G2B2A2"Bm"F2|E8||
+
+X:3
+T:Wassail, O Wassail all over the town!
+T:(The Somerset Wassail)
+M:2/2
+L:1/8
+S:New Oxford Book of Carrols #158
+K:C
+||:F2|(F2d2)c2_B2|(A4G2) F2|(F2G2)A2_B2|c6:| c2(d2_B2)_e2d2|c4A2A2|(_B2A2) G2|A2|_B4(A2_B2)|
+|(c2|f2)|d2_B2|c4(_B2A2)|(G2F2)A2G2|F6CC|F4G4|C6CC|(F4G2)A2|_B4A2_B2|(c2f2)d2_B2|c4 (_B2A2) G2F2 A2G2F6
+
+X:4
+T:The Somerset Wassail Verse 2
+M:2/2
+L:1/8
+S:New Oxford Book of Carols #158
+K:C
+|F2|(F2d2)(c2_B2)|A4G2F2|(F2G2)A2_B2|c6F2|(F2d2c2_B2|A4 (G2F2)|(F2G2)A2_B2|c6c2|
+(d2_B2)_e2d2|c6 _B2|(A2F2)G2A2|_B4|A2G2|F4G4|C6CC|F4 (G2A2)|B4A2B2|(c2f2)d2B2|c4(B2A2)|(G2F2) A2G2|F6||
+
+X:5
+T:The Somerset Wassail Verse 5
+M:2/2
+L:1/8
+S:The New Oxford Book of Carols #158
+K:C
+||FF|(F2d2)(c2_B2)|A4G2F2|(F2G2)A2_B2|c6:|| c2|(d2_B2) _e2d2|c4 (_B2A2)|G2F2G2A2|_B4||
+A2G2|F4G4|C6 CC|(F4G2)A2|_B4A2_B2|(c2f2)d2_B2|c4(_B2A2|(G2F2)A2G2|F6|
+
+X:6
+T:Wassail Song 159
+M:6/8
+L:1/8
+C:Traditional
+S:The New Oxford Carol Book
+K:D
+||E|E2BB2|(G2F)E2D|(E2F)G2A|
+(B3B2)E)(E2B)B2A|(G2F)E2D|(E2F)(G2A)|
+(B3B2)E|(E2B)B2A|(G2F)E2D|(E2F)(G2A)|
+B3||B2d|(d2BB2G|A3d2c|B2BE2F|
+G3F2G|A3d2c|B3E2F|(A2G)E2E|(E3E2)||
+
+X:7
+T:II Here We Come a Wassailing (159)
+M:6/8
+L:1/8
+C:Traditional
+S:New Oxford Book of Carols #159 II
+K:D
+D|D2EF2E|(D2E)F2E|(D2A)A2A|
+(A3A2)A|(B2B)A2F|(A2A)G2F|(E2D)(E2F)||
+M:2/4
+||G4F2G2|A4d2B2|A4F2G2|A2A2d2B2|
+A4F2G2|A4B2F2|G2E2D2C2|D3EF2D2|
+G4F2G2|A4B2F2|G2E2D2C2|D8||
+
+X:8
+T: Trunch Wassail Song
+M:4/4
+L:1/4
+K:C
+ GGFG|EDC2|_B,DCB,|C3z/G/|GGFG|EDCC|_B,DCB,|C3-C/||G/|
+ GGAA|(3GAG EE|FFDD|GFE2|GG(3AGF|GGE2|F2G2|AF(3DED|C4||
+
+
+X:9
+T:Southrups Wassail
+M:4/4
+L:1/4
+K:G
+ D|
+ GBBA|G2DD|CA,F,G,-|G,3D|GBBA|G2DF|GFED-|D3D|
+ GBBA|G2DD|CCB,A,-|A,3D|GBBA|G2D2-|D2CA,|G,3 |
+
+X:10
+T:Cornish Wassail
+M:3/4
+L:1/8
+Q:1/4=120
+K:D
+ D6|D2D2F2|A2A2A2|B2A2G2|A4A2|B2c2d2|A2F2A2|
+ G2F2E2|D4D2|D2F2A2|d4d2|B4B2|A4A2|B2c2d2|A2F2A2|G2F2E2|D4||
+
+X:11
+T:Can Wassel
+M:3/4
+L:1/8
+C:Traditional
+S:Adapted slightly from: Peter Kennedy #87 a.k.a. Wassail Song
+K:D
+A2\
+|F2D2F2|AA3A2|BB B2d2|A4\
+|A2|B2B2d2|A F3A2|G F3E2|
+|F4|A2|GF3E2|D4F2\
+|E4E2|FA3G2|F4|A2\
+|B2c2d2|AF3z |GF3E2|D4|]
+
+X:12
+T:Carol for Twelfth Day
+M:2/2
+L:1/8
+C:Traditional: cornish
+K:G
+||G4A2A2|B6d2|d3ed2B2|B4A4|
+|B2A2d2A2|B3cd2G2|F4E4|D8|
+|G6D2|E6c2|B2E2cBAG|G4FED2|
+|G4A4|B3cd2d2|c2B2A4|G8|
+|d2d2B2B2|G2G2E4|c2cB<A2AG<|F2E2D4|
+|G2G2E2E2|A2B2c4|B2Bc<de<c2|B2A2G2G2|
+|BAGFE2E2|c2d2e2d2|d2B2e2c2|B2A2G4|]
+
+X:13
+T:The Bellman's Song
+M:4/4
+L:1/8
+K:G
+ B,2| E2 F2 G2 FG|A-G FE ^D2 B,2| E2 F2 G2 A2| B6|G-A| B2c-B A2B-A|\
+ G2A-G F2G-A| B2 EEG-FE-D| E6||
+
+X:14
+T:Gower Wassail
+M:9/8
+L:1/4
+K:C
+ z2 z E- A/2| A3/2 A3/2 B- A/2| G3/2 G3/2 A- B/2| B3/2 c3/2 d3/2| B3 c- B/2|\
+ A3/2 A3/2 B3/2|c/2-d/2-c/2 B3/2 A3/2| G3/2 E3/2 E3/2| E3 E- A/2| A3/2 A3/2 B- A/2|\
+ G3 A G/2| c- B/2 c3/2 d3/2| B3 c- B/2| A3/2 A3/2 B3/2|c/2-d/2-c/2 B3/2 A A/2|\
+ G3/2 E3/2 E3/2| E3/2- D3/2 C D/2| E3/2 E G/2 ^F E/2| D3/2 D ^F/2 E D/2|\
+ C3/2 C E/2 D C/2| B,3 A, B,/2|C/2-D/2-C/2 B,3/2 C D/2| F3/2 E3/2 D3/2|\
+ E3/2 A3/2 G3/4- A3/4| A3 z z/2|
+
+X:15
+T:Homeless Wassail
+M:4/4
+L: 1/8
+Q:1/4=100
+K:C
+E8|A3Bc2e2|d2BAG3B|c2A2B2AG|E2G2A4|-A2E2A3B|
+c2e2d2B/2A3/2|G3Bc2A2|BAG2E2G2|A6G2|c2c2c2Bc|
+d2d2e3d|c2A2BA2G|A2G2EFG2|c2c2c2Bc|d3de4|
+-e2edccA2|B2AGE2G2|HA8||
+
+X:16
+T:Gallants Come Away
+M:4/4
+L:1/4
+Q:120
+K:GMixolydian
+zGB3/2c/|ded2|zBB3/2c/|dBc2|zBA3/2G/|F3/2E/D2|\
+zDG3/2A/|BGc2|zBA3/2A/|(GG)|]
+
+X: 17
+T:Helston Wassail
+M:3/4
+L:1/4
+K:F
+F/4\
+|FFA/2 B/4|ccc|dd=B|czc \
+|ddd|cAc|BAG|Fzc||
+|:BAG \
+|FF/2z/2F|GG/2z/2G|Afd|c2c \
+|d2d|cAc|BB/2AAG|F2F/2G/4 \
+|AFA/2B/4|ccc/2c/2|ddd|czc/2c/2 \
+|ddd|cAc|BAG|Fzc:|
+
+X: 18
+T:Canu Cwnsela (Wassail Song) (Mari Lwyd)
+M:3/4
+L:1/16
+C:Traditional Welsh
+K:G
+|B2 \
+|e2B4G2|F2A4GF|E2E4D2|d2d4f2 \
+|e2B4G2|F2A4GF|E2E4D2|d2d4B2 |
+|e2B4G2|F2A4GF|E2E4D2|d2d4f2 \
+|e2B4G2|A2F4D2|F2G4||
+
+X:19
+T:Old Fox Wassail II
+M:3/4
+L:1/4
+C:Traditional
+S:Ceil Sharp/ Sung by: Mr. Charles Ash, Creowcombe, Somerset, Sept.15,
+190
+K:D
+D|FEF|GAG|FDF|E2E|FGA|BAG|FAA|D2|
+
+X:20
+T:Heywood Sumner Wassail
+M:2/4
+L:1/16
+S:The Besom Maker, Heywood Sumner
+K:G
+|D2G4G2A2|B4A2B4|c4c2c2|d4z2B2\
+|d4d2e2|d4c2B2|c4c2d2|c4B2A2|
+|B4B2A2|G2F2E2D2|G2B2A2c2|B2B2z2def\
+|g4d2d2|e4e2dc|B2A2G2F2|GGz2|
+M:3/4 L:1/8
+GA|B2A2B2|c2d2c2|B2A2G2|A4GA|B2A2B2|c2d2edc|B4A2|G4|
+
+X:21
+T:Belly Wassail
+M:3/4
+L:1/8
+C:Traditional: Camborne
+S:Minners and Thomas
+R:3/4
+K:D
+D>E \
+|F2D>EF>G|A2A2A>A|B2B2B2|A4A>A \
+|B3cdB|A2F2A>A|GGF2E|D4F2 \
+|E4G2|F4A2|A2d2B2|A4A>A \
+|B3cdB|A2F2A2|G2F2E2|D4||
+
+T:A Sober spouse For Me
+M:3/4
+L:1/8
+C:Music by Henry Russell Lyric By George P. Morris
+K:G
+d|dBG2AB|DGB2c> B|A3 ABA|
+(G2GZB>c|dBG2A> B|DGB2 cB|A3 B/2A/2 EF|
+D2z2z2|z2z2cB|A3ABA|(G2D2) B> c|
+dBG2 A>B|DGB2c>B|A2 B/2A/2DB/2A/2|G2z (F>G)|
+AFD2 G> A|BGD3B|A3 B/2A/2 ^G A (d3D) GA|
+BBB3B|BBB2 (B>c|d3 B/2G/2DB/2A/2|G2z2GA|
+BBB2 G>A|BBB2 B>c|d3 B/2G/2B/2A/2|G2DGB|
+A3DFA|G3DGB|A2 e/3de/3d|e/3dzzd|DBGA> B|
+DGB2 c> B|A3 ABA|(G2D2)B> c|dBG2(A>B|
+DGB2 c> B|A3B/2A/2 D d|G3 c/2B/2A/2G/2F/2E/2|
+D3 E/2D/2^C/2D/2E/2F/2|G3 c/2B/2A/2G/2F/2E/2|D3 G/2B/2dF|Gz2z2|
+
+
+X: 22
+T:The Health
+T:or The Merry Wassail
+M:C|
+L:1/4
+Q:180
+B: Playford
+K:G
+B/2c/2 | "G"dd "D"d>c | "G"B G2 c/2d/2 | \
+"C"ee B>c | "D4"d3 "D"A/2B/2 | \
+"C"cc "D7"BA | "G"B2 "D7"A"G"G | \
+"Am"AB "D7"A>G | "G"G3 :|
+

@@ -1,0 +1,28 @@
+X: 11652
+T: LOVE IS THE CAUSE OF MY MOURNING
+Q: "Slow."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.165 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Eb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+EC |\
+E2G2B2 | G3FE2 | e3fg2 | G4GB |\
+c2(ec)(BG) | (B>cBG) (FE) | (gf)(ec)(BG) | {G}F4 (EC) |\
+E>FG2{GA}B2 | G3F{GF}E2 | e3(f{ef}g2) | G4(eB) |
+G2(BG)(FE) | F3E (FG) | B2G2(F>B) | G4E2 |\
+(E>F)G2B2 | G3FE2 | e2f2{ef}g2 | G4(GB) |\
+c2(ec)(BG) | (B>c)(BG) (FE) | ({ef}gf)(ec)(BG) | (F>G)(FE)C2 |
+E2G2{GA}B2 | G3F{GF}E2 | e3f{ef}g2 | G4(eB) |\
+G2(BG)(FE) | F3E (FG) | B2G2(F>B) | G4 |]\
+B2 |\
+e2(e>fg)f | (e>fe)cB2 | (cB)(c>gf)e | (c>ec)BG2 |
+(BG)(Bc)(ec) | (B>cB)GFE | ({ef}gf)(ec)(BG) | (F>GF)EC2 |\
+(e>f)g2{ga}b2 | {a}g3f{gf}e2 | e3f{ef}g2 | G4(eB) |\
+G2(BG)(FE) | F3E (FG) | B2(G>B)(F>B) | G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,22 @@
+X: 1193
+T: Three Blind Mice
+P: (Round)
+%R: song, round
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%%continueall 0
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+"^1"F3 E3 | D3- D2z | F3 E3 | D3- D2z | "^2"A3 G2G | F3- F2z | A3 G2G |
+w: Three blind mice,* Three blind mice,* See how they run,* See how they
+%
+F3- Fz A | "^3"d2d cBc | d2A A2A | ddd cBc |
+w: run* They all ran af-ter the far-mer's wife, She cut off their tails with a
+%
+d2A A2A | "^4"ddd cBc | dAA A2G | F3 E3 | D3- D2z |]
+w: carv-ing  knife; Did ev-er you see such a thing in your life, As three blind mice?*
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

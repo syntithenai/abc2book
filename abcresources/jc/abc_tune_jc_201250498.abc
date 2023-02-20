@@ -1,0 +1,16 @@
+X: 1
+T:The Barley Mow
+T:Linnen Hall
+S:Trad, arr Phil Rowe
+N Originally from Nottingham Music Database http://www.cs.nott.ac.uk/Department/Staff/ef/database.html
+N:abc version of NMD at http://diana.ecs.soton.ac.uk/~jra/NMD/ [access 13 October 1996]
+N: Modified by Robert Bley-Vroman, University of Hawaii, for abc2midi, 14 October 1996
+N: vroman@hawaii.edu
+M:6/8
+L: 1/8
+P:AABA
+K:G
+P:A
+ G2G A2A|B2c dBG|E2E c2B|ABG FED|G2G A2A|B2c dBG|EcB AGF|G6 ||
+P:B
+ d2d e2e|d2g dBG|d2d e2e|dBG A3|d2d e2e|d2g g2f|egf ed^c|d3 D3||

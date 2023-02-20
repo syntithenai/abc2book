@@ -1,0 +1,52 @@
+X:1
+T:The Spider and The Gaff  "CYMRU"
+M:6/8
+L:1/8
+Q:80
+C:P/M W. Ross 1952
+S:Jig
+K:HP
+|: e | \
+{g}c/2{d}A3/2B{gcd}c2f | \
+{gef}e3/2c/2e{g}e3/2c/2{d}A | \
+{g}B3/2{d}G/2{d}B{g}B/2{d}G3/2{d}B |
+{Gdc}d2e{g}f3/2d/2{e}B | | \
+{g}c/2{d}A3/2B{gcd}c2f | \
+{gef}e3/2c/2e{g}e3/2c/2{d}A |
+{g}B/2{d}G3/2{d}B{Gdc}d2{e}B | \
+{g}c3/2{d}A/2{e}A{GAG}A2 :: \
+e |
+{ag}a2e{gcd}c2f | \
+{gef}e3/2c/2e{g}e3/2c/2{d}A | \
+{g}B/2{d}G3/2{d}B{g}B/2{d}G3/2{d}B |
+{Gdc}d2e{g}f3/2d/2{e}B | | \
+{ag}a2e{gcd}c2f | \
+{gef}e3/2c/2e{g}e3/2c/2{d}A |
+{g}B/2{d}G3/2{d}B{Gdc}d2{e}B | \
+{g}c3/2{d}A/2{e}A{GAG}A2 :: \
+e |
+{g}c/2{d}A3/2{d}c{g}c/2{d}A3/2{d}c | \
+e/2{g}A3/2e{g}c/2{d}A3/2{d}c | \
+{g}B/2{d}G3/2{d}B{g}B/2{d}G3/2{d}B |
+{Gdc}d2e{g}f3/2d/2{e}B | | \
+{g}c/2{d}A3/2{d}c{g}c/2{d}A3/2{d}c | \
+e/2{g}A3/2e{g}c/2{d}A3/2{d}c |
+{g}B/2{d}G3/2{d}B{Gdc}d2{e}B | \
+{g}c3/2{d}A/2{e}A{GAG}A2:| [ | \
+e |
+a3/2g/2ae3/2{g}c/2e | \
+a3/2g/2ae3/2c/2{d}A | \
+{g}B/2{d}G3/2{d}B{g}B/2{d}G3/2{d}B |
+{Gdc}d2e{g}f3/2d/2{e}B | | \
+a3/2g/2ae3/2{g}c/2e | \
+a3/2g/2ae3/2c/2{d}A |
+{g}B/2{d}G3/2{d}B{Gdc}d2{e}B | \
+{g}c3/2{d}A/2{e}A{GAG}A2e | | \
+a3/2g/2ae3/2{g}c/2e |
+a3/2g/2ae3/2c/2{d}A | \
+{g}B/2{d}G3/2{d}B{g}B/2{d}G3/2{d}B | \
+{Gdc}d2e{g}f3/2d/2{e}B| |
+{g}c3/2{d}A/2{e}A{g}d3/2B/2{G}B | \
+{g}e3/2c/2{G}c{g}f3/2g/2a | \
+e3/2c/2{G}c{g}d3/2B/2{G}B |
+{g}c3/2{d}A/2{e}A{GAG}A2|]

@@ -1,0 +1,16 @@
+X: 604
+T: the Fisherman's Song   #2
+T: a\.bran iastadoire
+R: air, waltz
+%S: s:2 b:16(8+8)
+B: O'Neill's 1850 #604
+Z: John Walsh (walsh@math.ubc.ca)
+N: Compacted by using labels and play order [JC]
+P: Play AB CB
+Q: "Tenderly"
+M: 3/8
+L: 1/8
+K: D
+"^A"[|] A | dd (d/e/) | fe d/>c/ | (AG) (A3/4B/4) | =c2 |]
+"^B"[| (A/^c/) !segno!| dd ((3e/f/g/) | ed (d/c/) | A(G/E/) D/>E/ | "^fine"D2 |]
+"^C"[| (F/G/) | AB (=c/B/) |(A/F/) D (F/>G/) | A/B/ =cB | A2 || ((3A/B/c/) !segno!|]

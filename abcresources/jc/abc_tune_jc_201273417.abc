@@ -1,0 +1,94 @@
+%%center Essence - Frog
+
+
+X: 0
+T: Essence of Tampa
+P: Piffero primo b0037
+O: safd 103
+%R: reel, hornpipe
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/fyf04F.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+D2 |\
+G2GB A2AB | G2GB A4 | G2ge dBGB | AGAB GED2 |\
+G2GB A2AB | G2GB A4 | G2ge dBGB | AGAB G2 :|
+|: z2 |\
+e3f g2f2 | BB2c BAGF | E3F G2A2 | B^ABc B4 |\
+e3f g2f2 | BB2c BAGF | E3F G2A2 | BAG2 E2 :|
+
+
+X: 1
+T: Fischer's Hornpipe  v.1
+T: Fisher's Hornpipe, Blacksmith's Hornpipe
+P: Piffero primo a0085
+O: attr. Johann Fischer (1733-1800)
+%R: hornpipe, reel
+F: http://ancients.sudburymuster.org/mus/col/pdf/contraF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+(3(ABc |\
+d)A FA GBAG| FAFA GBAG | FDFD GEGE | FDFD E2 (3(ABc | d)A FA GBAG |
+FAFA GBAG | FGAB cAcA | d2d2 d2 :: cd | ecAc ecge | fdAd fdgf |
+ecAc ecgf | edcB A2 GA | BGDG BGdB | AFDF AFdA | BdcB AGFE | D2 d2 d2 :|
+
+
+X: 2
+T: Fifty Cents
+P: Piffero primo a0262
+O: cfd bk 1
+%R: jig
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/fyf04F.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+e |\
+aga efg | aga e2e | =gfg dBG | =gfg e2e |\
+aga efg | aga e2e | cBA BAG | A3 A2 :|
+|: f |\
+e2c cBA | e2c cBA | d2B BA=G | ABc def |\
+e2c cBA | e^de a2=d | cBA BAG | A3 A2 :|
+
+
+X: 3
+T: Free America
+T: British Grenadiers
+P: Piffero primo b0055
+O: safd 026
+%R: reel, march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/fyf04F.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+(3(ABc |\
+d2) (3(ABc d2)e2 | f4 e2fg | a2d2 fedc | d6 (3(ABc |\
+d2) (3(ABc d2)e2 | f4 e2fg | a2d2 fedc | d6 a2 |
+a3b a2g2 | f2g2 a2a2 | b2b2 agfe | d4 c2 (3(ABc |\
+d2)cd e2de | f2ef g2fg | a2d2 fedc | d6 :|
+
+
+X: 4
+T: Frog in the Well v.1
+P: Piffero primo a0044
+O: safd 007
+%R: polka, march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/matthewsF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+A2 |\
+d2d2 d2A2 | B2A2 A4 | d2d2 dcde | f2e2 e2A2 |\
+d2d2 d2A2 | B2A2 A4 | d2d2 ecde | f2d2 d2 :|
+|: z2 |\
+f2a2 a4 | f2a2 a4 | g3e f3d | e2e2 dcBA |\
+d2A2 BAFA | d2A2 BAFA | d2d2 ecde | f2d2 d2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

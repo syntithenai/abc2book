@@ -1,0 +1,29 @@
+X: 1
+T:King of the Pipers, The
+R:jig
+D:Altan: Harvest Storm
+D:Declan Masterson: Tropical Trad
+M:6/8
+L:1/8
+K:Dmix
+|:A2F B2F|A2G FED|A2F B2F|GFG AFD|!
+A2F B2F|A2G FED|GAB cAF|GFG AFD:|!
+|:dfa afd|ded cAG|FGA cAF|GFG AFD|!
+dfa afa|geg fdf|e^cA DFA|GFG AFD:|!
+|:d2e d2A|ded dcA|d2e dcA|GFG AFD|!
+d2e d2A|ded dcA|GAB cAF|GFG AFD:|!
+|:def def|def e^cA|def e^cA|~G3 AFD|!
+def def|def e^cA|GAB =cAF|GFG AFD:|!
+|:Ddd Dcc|DBB AFD|Ddd Dcc|GFG AFD|!
+Ddd Dcc|DBB AFD|GAB cAF|GFG AFD:|!
+"variations"
+|:A2D B2D|A2G FED|A2D B2D|GFG GFD|!
+A2D B2D|A2G FED|GAB cAF|GFG AFD:|!
+|:dfa afd|d^cd e^cA|GAB =cAF|GFG AFD|!
+dfa afa|geg fdA|GAB cAF|GFG AFD:|!
+|:d2e d2A|d2e dcA|d2e dcA|GFG AFD|!
+d2e d2A|d2e dcA|GAB cAF|GFG AFD:|!
+|:def def|def e^cA|def def|~G3 AFD|!
+def def|def e^cA|GAB =cAF|GFG AFD:|!
+|:Ddd Dcc|DBB DAA|Ddd Dcc|GFG AFD|!
+Ddd Dcc|DBB ~A3|GAB cAF|GFG AFD:|!

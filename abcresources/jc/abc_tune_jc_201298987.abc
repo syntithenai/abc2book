@@ -1,0 +1,33 @@
+X: 1
+T: Lady Charlotte Anne's Wedding March
+C: Bill Clement
+R: march, shottish
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+S: image from Atsuko Clement
+M: 2/4
+L: 1/16
+K: Hp
+|: e2 |\
+{g}A>{d}B{g}c<e {gcd}c2{g}B<{d}A | {g}A>{d}B{g}c<e {ag}a4 |\
+{fg}f>e{A}e<f {gcd}c2{g}B<{d}A | {g}f>e{A}ec {gBd}B3e |
+y7 \
+{g}A>{d}B{g}c<e {gcd}c2{g}B<{d}A | {g}A>{d}B{g}c<e {ag}a4 |\
+{fg}f>e{A}e<f {gef}e>A{g}c<{d}A | {g}c<e{e}B{d}c {e}A3 :|
+|: e2 |\
+{g}f>e{g}f<a {fg}f2e<c | {g}f>e{A}ef {gcd}c4 |\
+{g}A>{d}B{g}c<e {g}f>e{A}ec | {g}c<e{A}ec {gBd}B3e |
+y7 \
+{g}f>e{g}f<a {fg}f2e<c | {g}f>e{A}ef {gcd}c4 |\
+{g}A>{d}B{g}c<e {g}f>e{A}cA | {g}c<e{e}B{d}c {e}A3 :|
+|: e2 |\
+{g}A>{d}B{g}c<e {g}c2{GdGe}A{g}B | {g}A>{d}B{g}c<e {ag}a4 |\
+{fg}f2{GdGe}Af {gef}e2{GdGe}A{d}c | {g}c<e{A}ec {gBd}B3e |
+y7 \
+{g}A>{d}B{g}c<e {g}c2{GdGe}A{g}B | {g}A>{d}B{g}c<e {ag}a4 |\
+{fg}f2{GdGe}Af {gef}e2{GdGe}A{d}c | {g}c<e{e}B{d}c {e}A3 :|
+|: e2 |\
+{g}f>a{g}ae {g}c<{d}A{d}c2 | {g}c<e{A}ec {gef}e4 |\
+{g}A2{GdGe}A{d}B {g}c2{GdGe}A{d}c | {g}c<e{A}e>c {gBd}B3e |
+y7 \
+{g}f>a{g}ae {g}c<{d}A{d}c2 | {g}c<e{A}ec {gef}e4 |\
+{g}A2{GdGe}A{d}B {g}c2{GdGe}A{d}c | {g}c<e{e}B{d}c {e}A3 :|

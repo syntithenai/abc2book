@@ -1,0 +1,21 @@
+X: 1
+T: H\"okpers vals
+C: Lars H\"okpers
+R: waltz
+Z: 2020 by John Chambers <jc:trillian.mit.edu>
+S: https://www.facebook.com/groups/Fiddletuneoftheday/ 2020-10-15
+S: https://www.facebook.com/groups/Fiddletuneoftheday/photos/
+S: https://thesession.org/tunes/16773 (chords by John Chambers)
+M: 3/4
+L: 1/8
+K: Dm
+"^A"[|] A2 \
+| "Dm"d3 (e fa) | "Gm"g3 (f ed) | "A7"^c2 A3 (G | "Dm"F4) D2 \
+| "Dm"F2 (EF) AG | "C"E4 c2 | "G"=B2 (GA) Bd | "A7"A4 A2 |
+| "Dm"d3 (e fa) | "Gm"g3 (f ed) | "A7"^c2 A3 (G | "Dm"F4) "A7"E2 \
+| "Dm"D2 (^CD) EF | "Gm"A2 G2 FE | "A7"F2 E2 D^C | "Dm"D4 :|
+"^B"|: A2 \
+| "Dm"(AF) (FD) FA | (AF) (FD) FA | A2 G3 (F | "A7"E4) G2 \
+| (GE) (E^C) EG | (GE) (E^C) EG | G2 A3 (E | "Dm"F4) A2 |
+| "Dm"(AF) (FD) FA | (AF) (FD) FA | "D7"B2 d3 (c | "Gm"B4) B2 \
+| (Bc) (cB) BA | "Dm"AG A2 F2 | "A7"GF E2 D^C | "Dm"D4 :|

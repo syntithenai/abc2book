@@ -1,0 +1,26 @@
+X: 32731
+T: PRINCESS BEATRICE WALTZ #1
+C: Composed by William Findlay, Broxburn
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.272 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The repeat notation is a bit odd; adjusted to make phrase lengths and pickups match properly.
+M: 3/4
+L: 1/8
+K: C
+uC2 |\
+(G,2C2E2) | (G,2C2E2) | G6 | E6 |\
+(C2E2G2) | c2(B3A) | (F6 | D6) |\
+(B,2D2F2) | B6- | B2(A3F) | (E4F2) |\
+(G2A2G2) | (F4D2) | D2B,2C2 | B,2E2D2 |
+(G2c2e2) | (G2c2e2) | g6 | e6 |\
+(c2e2g2) | c'2(b3a) | (f6 | d6) |\
+(B2d2f2) | b6- | b2(a3f) | (e4f2) |\
+g2a2g2 | (f2A2B2) | [1 c6- | c2z2 :|[2 c6- | c2 ||
+|: (ue2f2) |\
+((3gag) ^f2g2 | (ba)gfed | ((3cdc) BAGF | E6 |\
+C2E2G2 | c2e2a2 | (g2f3e) | d6 |
+((3gag) ^f2g2 | (ba)gfed | ((3cdc) BAGF | E6 |\
+[1 C2E2G2 | c2e2a2 | g2z2uB2 | c2 :|\
+[2 (F4A2) | (G2e2d) | (.c3.c)c2 | c2z2 "^D.C."|] 

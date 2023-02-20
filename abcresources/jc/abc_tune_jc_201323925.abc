@@ -1,0 +1,695 @@
+X: 2
+T: Blackberry Quadrille
+M:6/8
+L:1/8
+S: Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:G
+d2d ed^c|d2B G2B|A2F D2D|B2A G2 (B/c/)|d2d ed^c|d2B G2B|
+A2A DEF|G3 G3 (B/c/):|
+|:d2d e2d|B2d b2b|c'2d def|g2a b2 (B/c/)|d2d e2d|B2d b2b|c'2d def|g3g2:|
+
+%%sep 1 1 500
+X: 3
+T: Blacksmiths Quadrille
+L:1/8
+M:6/8
+S: Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:D
+[FA][FA][FA] [GB][GB][GB] | [FA][FA][FA] f2 (f/g/) | [ca][ca][ca] [ce][ce][ce] |
+[ca][ca][ca] [d3f3] | [FA][FA][FA] [GB][GB][GB] | [FA][FA][FA] f(fg) |
+[ca][ca][ca] e(fe) | [F3d3] [Fd](ef) :: (g3 g)(fe) | (d3 d)(=cB) | (AG=c) (ABc) |
+f2e d2(ef) | (g3 g)fe | (d3 d)(cB) | ABc def |1 (g3 g)(ef) :|2 g3 g3 ||
+
+%%sep 1 1 500
+X: 4
+T: Bony Smith's Quadrille
+L:1/8
+M:6/8
+S: Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:C
+g|geg age|ccc G2c|Bcd A2B|cBA G2g|geg age|ccc G2c|
+(Bcd) A2B|[E3c3][E3c3]::G[Ec][Ec] [Ec][Ec][Ec]|G[Ec][Ec] cBA|
+G[GB][GB] [GB][GB][GB]|G[GB][GB] BAG|G[Ec][Ec] [Ec][Ec][Ec]|
+G[Ec][Ec] [Ec]BA|[E3c3e3] A2B|[E3c3][E3c3]:|
+
+%%sep 1 1 500
+X: 5
+T: Galloping Horses
+M:6/8
+L:1/8
+R:Quadrille
+S: Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:D
+DFA DFA|DGB DGB|DFA DFA|A,CE EFE|DFA DFA|DGB B2B| A2d cBA|(d3d2):|
+|:e|fed AFA|BFB A2f|gfe ABc|dcB A2A|fed AFA|BFB A2A| gfe ABc|d3 d2:|
+
+%%sep 1 1 500
+X: 6
+T: Run Johnny Run [2]
+M:6/8
+L:1/8
+S: Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:G
+DGG GGB|GGG GGB|ADD DFG|ADD DEF|GGG GGB|
+GGG GGB|ADD DEF|(G3G2):|
+(B/c/)|ddB ddB|GGG G2 (c/d/)|eee eec|AAA A2 (B/c/)|
+ddB ddB|GGG G2B|ADD DEF|G3G3||
+K:D
+Add ddf|ddd ddf|eAA ABc|eAA ABc|ddd ddf|ddd ddf|eAA ABc|d3d2||
+(f/g/)|aaf aaf|ddd d2 (g/a/)|bbg bbg|eee e2 (f/g/)|aaf aaf|ddd d2f| eAA ABc|d3d3:|
+
+%%sep 1 1 500
+X: 7
+T: Soldier's Joy [2]
+M:6/8
+L:1/8
+S:Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:D
+(A/B/)|:[DA][DA][FA] [DA][DA][FA]|[F2A2] [Fd] [F2d2] (A/B/)|
+[DA][DA][FA] [DA][DA][FA]|[E2A2] [EA] [E2A2] (A/B/)|
+[DA][DA][FA] [DA][DA][FA]|[F2A2] [Fd] [F2d2] e|[Af][Ag][Aa] [Ae][Ag][Ae]|1
+[A2f2] [Fd] [F2d2] (A/B/):|2 [A2f2] [Fd] [F2d2] z||
+|:[Af][Ae][Af] [Aa][Ag][Af]|[ce][ce][ce] [B2f2][df]|[Af][Ae][Af] [Aa][Ag][Af]|
+dcB [F2A2] [Af]| [Af][Ae][Af] [Aa][Ag] [Af]|[ce][ce][ce] [B2f2][Bg]|
+[Af][Ag][Aa] [Ae][Ag][Ae]|[F3d3] [F2d2] z:|
+
+%%sep 1 1 500
+X: 8
+T: La Varsouvienne [4]
+M:3/4
+L:1/8
+S:Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:D
+A>d|f>g f2 A>d|f>g f2 A>d|ff g2f2|e4 A>c|e>f e2 A>c|
+e>f e2 A>c|ee f2e2|d3 (ABc)||d2c2B2|A4 e>f|
+g2f2e2|a3 (ABc)|d2c2B2|A4 (ef)|g2B2c2|d4||
+
+%%sep 1 1 500
+X: 9
+T: Gustafs Skoal
+M:4/4
+L:1/8
+S: Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:C
+c4c4|c6C2||F2F2F3A|GFED DCB,C|G2G2G3E|FGAG F3C|
+F2F2F3A|GFED DCB,C|G2G2G3E|FGAG F4||
+|:AA/A/ AA ACFA|GG/G/ GG GEFG|AA/A/ AA ACFA| G2E2F3C:|
+
+%%sep 1 1 500
+X: 10
+T: Oxford Minuet [1]
+L:1/8
+M:4/4
+S:Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:G
+((3A/B/c/|d)>BA>B G2D2|E>GF>A G4|E>GF>A G2B2|A>EF>G A3 (3A/B/c/|
+d>BA>B G2D2|E>GF>A G4|c>cB>A d>BG>A|B2A2 G3 ((3D/E/F/||
+L:1/8
+M:2/4
+K:G
+G)ABd|ed d/d/B/c/|dc c/c/A/A/|ed d((3D/E/F/|G)ABd|ed d2|1
+([df]>e) ([df]>e)|dd d(3D/E/F/:|2 ([df]>e) d(e/f/)|[Bg][Bg] [Bg]||
+
+%%sep 1 1 500
+X: 11
+T: Yellow Dog Blues
+M:4/4
+L:1/8
+S: Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:D
+D/E/F/(A/ A/)F/E/D/|G/A/B/(d/ d2)|=f/^f/=f/^f/ d/B/A/F/|F/E/F/(d/ d2)|
+D/E/F/(A/ A/)F/E/D/|G/A/B/(d/ d2)|=f/^f/=f/^f/ d/B/A/F/|F/E/F/(d/ d)(3e/f/g/||
+a/e/f/(d/ d)(f/g/)|a/e/f/(d/ d2)|G/A/B/d/ e/d/e|=f/^f/=f/^f/ d/B/A|
+(FF)(A/B/)|c/e/c/(A/ A)(A/B/)|c/e/c/(A/ A2)|=f/^f/=f/^f/ d/B/A/F/|1
+([F2d2] [F2d2]):|2 df (d'2|d'2)z2||
+
+%%sep 1 1 500
+X: 12
+T: Angleworm Wiggle
+T: Jumping Cactus
+M:2/4
+L:1/8
+S:Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:G
+[d/b/][d/b/][d/b/][d/b/] [db][ca]|[B/g][B/g/][B/g/][B/g/] [Bg][df]|
+[c/e/][c/e/][c/e/][c/e/] [ce][Fd]|cB A2|[c/a/][c/a/][c/a/][c/a/] [ca][Bg]|
+[d3f3] (f/e/)|ddef|[B2g2][B2g2]:|
+|:GABc|[F3d3] (B/c/)|d(B/c/) dB|[F3A3] AA|DFAc|[c3e3]d|
+f>e d(e/f/)|gg gz:|
+
+%%sep 1 1 500
+X: 13
+T: Arkansas Jitters
+L:1/8
+M:2/4
+S:Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:G
+G|BB/d/ BB/d/|BGAB|c/B/c/d/ cB|A3 (3A/B/c/|da/g/ fa/g/|
+fdef|g/f/g/a/ ge|d/e/d/c/ B/A/G/A/|BB/d/ BB/d/|BGAB|
+c/B/c/d/ cB|A3 (3A/B/c/|da/g/ fa/g/|fdef|g/f/g/a/ g/f/e/f/|
+[d3g3] (g/a/)||ba g/f/e/f/|ag ff/g/|ag f/e/d/e/|fe d/B/G/A/|BB/d/ BB/d/|
+BGAB|c/B/c/d/ cB|A3 (3A/B/c/|da/g/ fa/g/|fdef|g/f/g/a/ g/f/e/f/|[B2g2][Bg]||
+
+%%sep 1 1 500
+X: 14
+T: Beaver Creek
+L:1/8
+M:2/4
+S: Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+N:"Arranged to fit call `Take a Peek'".
+K:G
+(3D/E/F/|GGGG|EED>D|GG G/G/G/G/|BB A(3D/E/F/|
+GGGG|EED>D|GG G/G/G/G/|BA G2||Bdd<d|Bd d2|
+[Ec][Ec][Ec][Ec] [GB][GB][GB][GB]|A>(AB/) A/F/E/D/|
+GGGG|EED>D|GG [B,G][B,G][B,G][B,G]|AB G2:|
+
+%%sep 1 1 500
+X: 15
+T: Bully of the Town
+L:1/8
+M:2/4
+S:Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:G
+D|D[GB][GB]>[GB]|[GB] [G2B2] [GB]|[GB][GB][G_B][G=B]|
+G3F|[CE][C2E2][CE]|[Ge][G2e2][Ge]|cc c/B/A|(F2 F)(F/E/)|
+D d3 ^c/=c/|ccBA|(G4|G3)||
+|:(B/c/)|(d2 d)(3c/d/^d/|ed AB|c2 cA|F3 (A/B/)|(c2 c)(3B/c/^c/|
+dc A_B|=B2 BG|D3G|(B2 B)(3A/B/c/|(d2 d)(3c/d/^d/|eecA|
+E3_E|D d3 ^c/=c/|ccBA|(G4|G3:|
+
+%%sep 1 1 500
+X: 16
+T: Chadham (sic) County Breakdown
+M:2/4
+L:1/8
+S: Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:C
+e>g g/a/g/e/|(g2g2)|e/eg/ e/d/c/B/|[F4A4]|G/A/B/G/ A/B/G/A/|
+B/G/A/B/ A<B|c/B/c/G/ A/G/E/G/|[E4c4]:|
+|:C/B,/C/D/ E/G/A/B/|[E4c4]|ee/f/ e/d/c/B/|[F4A4]|
+G/A/B/G/ A/B/G/A/|B/G/A/B/ A<B|c/B/c/G/ A/G/E/G/|[E4c4]:|
+
+%%sep 1 1 500
+X: 17
+T: Chicken and Dumpling
+L:1/8
+M:2/4
+S:Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:G
+d>g g/f/g/a/|bb/c'/ b/a/f/g/|aa/b/ a/g/e/f/|g/a/g/e/ d/c/B/c/|
+d>g g/f/g/a/|bb/c'/ b/a/f/g/|a/b/a/g/ f/d/e/f/|g>a g2||
+D>[GB] [G/B/][G/c/][G/B/]G/| D>[GB] [G/B/][G/c/][G/B/]G/|
+E>[Ec] [E/c/][E/d/][E/c/]G/| E>[Ec] [E/c/][E/d/][E/c/]G/|
+D>[GB] [G/B/][G/c/][G/B/]G/|A/B/A/G/ F/E/D/C/|D<G A<G|
+D>[GB] [G/B/][G/c/][G/B/]G/| D>[GB] [G/B/][G/c/][G/B/]G/|
+E>[Ec] [E/c/][E/d/][E/c/]G/| E>[Ec] [E/c/][E/d/][E/c/]G/|
+D>[GB] [G/B/][G/c/][G/B/]G/| D>[GB] [G/B/][G/c/][G/B/]G/|
+A/B/A/G/ F/D/E/F/|G>A G2||
+
+%%sep 1 1 500
+X: 18
+T: Climbing the Golden Stairs
+M:2/4
+L:1/8
+S:Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:D
+d/d/d/d/ f<a | d/e/d/d/ f<a | d/d/d/d/ fa | e3 (e/f/) | g/f/e/d/ c(e/f/) | g/f/e/d/ ce |
+a/aa/ ge | d3(3A/B/c/ :: dfb>a | a g3 g/ | cea>^g | a3 (3A/B/c/ | dfb>a |
+a g3 g/ | a/a/a/a/ ge |1 (d2d) (3A/B/c/:|2 (d2d) ||
+
+%%sep 1 1 500
+X: 19
+T: Come Along John
+M:2/4
+L:1/8
+S: Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:G
+D|:G>GAd|B/d/A/d/ B/GD/|G>GAd|B/G/A/F/ G>D:|
+e2{f}e2|f/e/d/f/ e/d/B/A/|d<d f/ed/|B/G/A/F/ Gd|
+e2{f}e2|g/f/e/g/ f/e/d/B/|d<e f/ed/|B/G/A/F/ G2||
+
+%%sep 1 1 500
+X: 20
+T: Dandelion Quadrille
+M:2/4
+L:1/8
+S:Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+K:F
+cAFd|c/A/F/A/ dc|f/g/f/e/ d/e/d/c/|B3 G/A/|BGEc|B/G/E/G/ BE|1
+e/f/e/d/ c/d/c/B/|A/B/A/G/ F2 (A/B/):|2 e/f/e/d/ c/d/e/g/|f/e/f/g/ [A2f2]||
+|:G/c/e/c/ e/g/e/c/|AG G2|G/c/e/c/ e/g/e/c/|fB [G2B2]|
+B/d/f/d/ B/d/f/d/|ec G2|G/A/B/d/ G/A/B/d/|c/B/c/d/ c2:|
+
+%%sep 1 1 500
+X: 21
+T: Dude Cowboy
+L:1/8
+M:2/4
+S:Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:G
+Bdd>e | BGG>A | Bdd>e | B3 (G/A/) | Bdd>e | BGG>A | BGAF | GDEG ||
+|: [G4B4] | A [B,2G2] A | {^AB}d2 {^AB}d2 | [G4B4] | A [B,2G2] A |
+{^AB}d2 {^AB}d2 | G2 A2 |1 [B,4G4] | [B,GD]EG :|2 [B,4G4] | [B,2G2] ||
+
+%%sep 1 1 500
+X: 22
+T: Fiddler's Dream [1]
+T: Fiddler's Trouble
+L:1/8
+M:2/4
+S: Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:G
+(A/_B/|=B/)G/F/E/ D/C/B,/A,/|G,/A,/B,/C/ D/E/G/A/|B/d/e/f/ g/f/g/a/|
+b/g/a/g/ e/d/g/a/|c'/g/a/g/ e/d/e/f/|g/e/d/B/ A/G/E/F/|G/E/D/C/ B,/D/G/A/|
+B/G/A/F/ G:|
+K:D
+[FA]>[FA][FA][FA]|A/d/d/e/ f/e/c/A/|c/d/e/d/ c/B/(3A/B/c/|d/c/d/A/ B/A/F/G/|
+[FA]>[FA][FA][FA]|A/d/d/e/ f/e/c/A/|c/d/e/f/ g/e/c/A/|[F2d2][Fd]:|
+
+%%sep 1 1 500
+X: 23
+T: Florida Blues
+M:2/4
+L:1/8
+S: Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:D
+{^e=f}^f/a/f/e/ d/B/A/d/|{e=f}^f/a/f/e/ d/B/A|F/F/E/F/ D/B,/A,/D/|
+GA/B/ d/e/d/B/|G/A/B/d/ e/d/B/G/|DE/F/ A/G/F/E/|D/E/F/A/ B/G/A/F/|
+E/c/c/B/ c<a e/e/|c/B/A/B/ c<e|ae/f/ d/B/A/B/|d3||([d/f/]e/)|[Fd][Fd] [F/d/]B/A/F/|
+D>E D([d/f/]e/)|[Fd][Fd] [F/d/]B/A/F/|D2 E/D/E/F/|G/AB/ d/e/d/B/|
+G/A/B/d/ e/d/B/G/|D/EF/ A/G/F/E/|D/E/F/A/ B/G/A/F/|E/c/B/c/ d<c|
+c/B/A/B/ c<[ce]|[ca](e/f/) d/B/A/B/|[F4d4]||
+
+%%sep 1 1 500
+X: 24
+T: Four and Twenty
+M:2/4
+L:1/8
+S:Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:C
+cc c/G/E/G/|AA A2|BB B/G/A/B/|c>e G2|
+cc c/G/E/G/|AA A2|BB B/G/A/B/|c/B/c/d/ c2:|
+|:e2 c>G|AF F2|d2 B>G|AE E2|A2 G>E|FA d2|BGAB|c/B/c/d/ c2:|
+
+%%sep 1 1 500
+X: 25
+T: Hop Light Ladies
+T: Hop High Ladies
+T: Don't You Want to Go to Heaven, Uncle Joe?
+L:1/8
+M:2/4
+S:Ruth - Pioneer Western Folk Tunes (1924)
+Z:AK/Fiddler's Companion
+K:G
+G/A/B/c/ d/B/G/A/|BB/A/ BA|GA/B/c/ d/B/G/B/|AA/B/ Az|
+G/A/B/c/ d/B/G/A/|BB/A/ Bd|e>d e/f/g/d/|BA Gz:|
+|:Gg e/f/g/d/|BB/A/ BA|Gb e/f/g/e/|a>b a2|Gg e/f/g/d/|BB/A/ Bd|e>d e/f/g/d/|BA G2:|
+|:G/G/ g/g/ e/e/g/g/|BB/c/ BA|G/G/ g/g/ e/e/g/g/|a>b a2|G/G/ g/g/ e/e/g/g/|BB/A/ Bd|e>d e/f/g/d/|BA G2:|
+
+%%sep 1 1 500
+X: 26
+T: House of David Blues
+M:2/4
+L:1/8
+S: Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:G
+{^A}B/G/D/E/ G/A/G/D/ | F/D/E/^C/ D2 | ^C/D/C/D/ B/G/A/F/ | G4 |
+{^A}B/G/D/E/ G/A/G/D/ | F/D/E/^C/ D2 | ^C/D/C/D/ B/^A/B/G/ |
+A<d e<d || (f | g/)a/g/e/ f<d | {^A}B/d/B/A/ G2 | C/D/E/G/ A/G/A/B/ |
+d>{^A}(BA/) G2 | {^A}B/G/D/E/ G/A/G/D/ | F/D/E/^C/ D2 |
+^C/D/C/D/ B/G/A/F/ | G4 ||
+
+%%sep 1 1 500
+X: 27
+T: I Like Sugar in My Coffee
+M:2/4
+L:1/8
+S:Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:G
+DG B/c/B/G/|AB c2|DG B/c/B/G/|BA G2|DG B/c/B/G/|AB c2|
+DG B/c/B/G/|BA G2||ed B/B/d/d/|ef g2|ed B/B/G/G/|BA A2|
+ed B/B/d/d/|ef g2|ed B/B/G/G/|AG G2||DG B/c/B/G/|AB c2|
+DG B/c/B/G/|BA G2|DG B/c/B/G/|AB c2|DG B/c/B/G/|BA G2||
+ed B/B/d/d/|ef g2|ed B/c/B/G/|BA A2|ed B/c/B/d/|ef g2|ed D/E/G/B/|AG G2||
+
+%%sep 1 1 500
+X: 28
+T: Lady Walpole Reel [2]
+M:2/4
+L:1/8
+S:Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:G
+(B/c/)|d/B/d/B/ d/g/f/e/|d/B/d/B/ d/g/f/e/|d/B/d/B/ e/d/c/B/|
+cA A(B/c/)|d/B/d/B/ d/g/f/e/|d/B/d/B/ d/g/f/e/|d/e/c/d/ B/c/A/B/|GG G||
+(B/c/)|d/c/B/c/ de/d/|c/B/A/B/ c(d/B/)|B/G/B/G/ c/B/A/G/|AA A(B/c/)|
+d/c/B/c/ de/d/|c/B/A/B/ c(B/c/)|d/g/f/e/ d/c/B/A/|GG G||
+
+%%sep 1 1 500
+X: 29
+T: Leather Breeches
+M:2/4
+L:1/8
+S: Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:G
+|:D/G/B/G/ A/G/B/G/|D/G/B/G/ A/G/E/G/|D/G/B/G/ A/G/B/G/|
+D/E/D/C/ B,/(A,/ G,)| D/G/B/G/ A/G/B/G/|D/G/B/G/ A/G/E/G/|
+c/B/A/G/ FD/D/|D/G/G/A/ B/G/G||
+K:D
+d>ddd|A/d/d/e/ f/(d/d)|d>ddd|A/B/A/G/ (F/E/)D|d>ddd|
+A/d/d/e/ f/(d/d)|g/f/e/d/ c>A|A/d/d/e/ (f/d/)d:|
+K:G
+|:d/g/b/g/ a/g/b/g/|d/g/b/g/ a/g/e/g/|d/g/b/g/ a/g/b/g/|d/e/d/c/ B/A/G:|
+
+%%sep 1 1 500
+X: 30
+T: Little Brown Jug
+M:2/4
+L:1/8
+S:Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:D
+F[F/A/][F/A/] [F/A/][F/A/][F/A/][F/A/]|G[GB][G2B2]|
+A[E/c/][E/c/] [E/c/][E/c/][E/c/][E/c/]|A[Fd] [d2f2]|
+F[F/A/][F/A/] [F/A/][F/A/][F/A/][F/A/]|G[GB][G2B2]|
+A[Ec] c/B/c/d/|e[Fd] [F2d2]||f/g/a/f/ d2|fe g2|gc c/d/e/f/|
+ed f2|f/g/a/f/ d2|fe g2|{a}bc c/d/e/f/|ed d2||
+
+%%sep 1 1 500
+X: 31
+T: Liza Jane [4]
+M:2/4
+L:1/8
+S:Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:G
+{A^A}B>G A2|{A^A}B>G AG/A/|d d3 (B/c/|d3) (G/A/)|
+{^A}B>G AG/A/|{^A}B>G A (E/F/)|G G3 (E/F/)|G4:|
+|:g3 d/d/|e2d2|d/d/ d2 (B/c/|d3) (e/f/|g) g3 d/|e2d2|[G/B/][G/B/] [B,3G3]A|
+[B,3G3] (3d/e/f/|g g3 d/|e2d2|d/d/ d2 (B/c/|d3) (e/f/|g) g2 d|e2d2|
+[G/B/][G/B/] [B,2G2] A|[B,4G4]:|
+
+%%sep 1 1 500
+X: 32
+T: Mountain Jig Quadrille
+M:2/4
+L:1/8
+S:Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:G
+(B/c/)|dfBd|GBDG|F/G/A/B/ c(B/A/)|G/A/B/c/ d(B/c/)|dgBd|
+GBDG|F/G/A/B/ c/A/F/D/|GG G:|
+|:(3[A,/F/][A,/F/][A,/F/] [A,F] (3[F/A/][F/A/][F/A/] [FA]|
+d/A/d/f/ a2|g/f/g/e/ c/A/B/c/|f/e/f/d/ A2|
+(3[A,/F/][A,/F/][A,/F/] [A,F] (3[F/A/][F/A/][F/A/] [FA]|
+d/A/d/f/ a2|g/f/g/e/ c/A/B/c/|df d:|
+
+%%sep 1 1 500
+X: 33
+T: Mud on the Wheel
+M:2/4
+L:1/8
+S:Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:A
+(AA) A,2|A,/E/C/E/ A,(E/F/)|=G/B/A/G/ E/D/E/F/|=G/B/A/G/ E2|
+(AA) A,2|A,/E/C/E/ A,2|A/c/B/A/ G/A/B/G/|A2A2:|
+|:[ce][ce] e/f/e/d/|c/d/e/f/ e2|G/A/B/c/ d/f/e/d/|c/B/c/d/ [c2e2]|
+[ce][ce] e/f/e/d/|c/d/e/f/ e2|a/b/a/g/ e/c/A/F/|EA A2:|
+
+%%sep 1 1 500
+X: 34
+T: Possum in the Simmon Tree
+L:1/8
+M:2/4
+S: Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:F
+(3C/D/E/|F/E/F/G/ A/B/c/A/|B/A/B/c/ d/e/f/d/|c/=B/c/d/ c/A/F/G/|A/G/F/A/ G/E/D/(3C/D/E/|
+F/E/F/G/ A/B/c/A/|B/A/B/c/ d/e/f/d/|c/=B/c/d/ c/A/F/G/|A/F/G/E/ Fc||
+e/^d/e/f/ g/^f/g/e/|=f/e/f/d/ c>c|e/d/e/f/ g/^f/g/e/|=f/e/f/d/ c>A|B/A/B/c/ d/e/f/d/|c/A/F/A/ c>f|
+e/d/c/B/ A/G/F/E/|FA F2||C/Ff/ c/d/c/A/|B/A/B/c/ d/e/f|C/Ff/ c/d/c/B/|
+G/F/G/A/ G/E/C|C/Ff/ c/d/c/A/|B/A/B/c/ d/e/f/d/|c/B/c/d/ c/A/F/G/|A/G/F/E/ F2||
+
+%%sep 1 1 500
+X: 35
+T: Run, N....r, Run
+T: (Run, Nigger, Run)
+L:1/8
+M:2/4
+S: Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+K:G
+d/e/d/B/ GG|D/G/A/G/ Bd|d/e/d/B/ Gc|B/G/A/F/ Gd:|
+|:g/a/g/e/ dd|A/d/e/d/ fa|g/a/g/e/ dd|B/G/A/F/ Gd:|
+
+%%sep 1 1 500
+X: 36
+T: Sally There's a Bug On Me
+M:2/4
+L:1/8
+S: Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:D
+A>d f/g/f/e/|dFA>d|cEG>B|AD F2|A>d f/g/f/e/|dFA>d|cABc|d2d2||
+K:A
+[ce]>f [ce]>f|[ce]>a [c2e2]|bb/a/ ff/g/|ac e2|[ce]>f[ce]>f|e>a [c2e2]|bb/a/ fg|a2a2:|
+
+%%sep 1 1 500
+X: 37
+T: Silver Cluster Cacti
+M:2/4
+L:1/8
+S: Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:Bb
+(3F/G/A/ | B>d c/B/c/d/ | B/d/f/b/ gf | b/a/g/f/ g/f/d/B/ | c/d/c/B/ GF |
+B>d c/B/c/d/ | B/d/f/b/ gf | b/a/g/f/ g/f/d/B/ | c/B/G/A/ B3 || f |
+g>a b(a/g/) | f/b/d/f/ B/d/F | c/=B/c/d/ eA | B/A/B/c/ df |
+g>a b(a/g/) |f/b/d/f/ B/d/F | c/=B/c/d/ eA | B/A/B/c/ B3 ||
+
+%%sep 1 1 500
+X: 38
+T: Snow Deer
+L:1/8
+M:C
+S: Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+K:G
+D2G2A2||B2 B^A B2 B^A|B2G2F2G2|A2 A^G A2A^G|\
+A2G2F2E2|D4(A4|A2)GG F2E2|D4 (B4|B2)D2G2A2|\
+B2 B^A B2B^A|B2G2F2G2|A2A^G A2A^G|A2G2F2E2|\
+D4(A4|A2)GG A2B2|(G4 G3)G||A2B2c4|E6G2|F2E2D4|B8|\
+B3c B2A2|A2^G2A4|A3B A2G2|G2F2G2G2|A2B2c4|E6G2|\
+F2E2D4|B8|B3c B2A2|A2^G2A2c2|B2A2(G4|G2)||
+
+%%sep 1 1 500
+X: 39
+T: Steamboat Bill
+M:2/4
+L:1/8
+S: Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:G
+(3D/E/F/|G/G/G/G/ B/dB/|c/B/c/A/ d3 (3D/E/F/|G/G/G/G/ B/dB/|
+AF D(3D/E/F/|G/G/G/G/ B/B/A/A/|G>E G>A|B/_B/=B/_B/ =B/dB/|
+B/=BD/ G3||
+|:{A_B}=B>D G>A|B/_B/=B/_B/ =B<d|
+{A_B}=B>D G>(Bc/)|d/e/d/B/ A2|{A_B}=B>D G>(Bc/)|
+B/_B/=B/_B/ =B<d|[c/e/][c/e/][c/e/][c/e/] d/B/G/A/|B/G/A G3:|
+
+%%sep 1 1 500
+X: 40
+T: Wagoner [1]
+M:2/4
+L:1/8
+S:Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:C
+CE/F/ GA/B/|c/B/A/B/ c/B/c|D>D Dd|d/c/B/c/ d/c/B/A/|
+CE/F/ GA/B/|c/B/A/B/ c/d/e/f/|g>^f g/a/g/=f/|ec c:|
+|:(g/f/)|eccc|c/d/e/f/ g/a/g/e/|dGGG|G/A/B/c/ d(g/f/)|
+eccc|c/d/e/f/ ge|a>g a/b/a/g/|ec c:|
+
+%%sep 1 1 500
+X: 41
+T: Walkin' Up Town
+M:2/4
+L:1/8
+S:Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:C
+(G/F/)|EG cf|e>^d e/=d/c|A^G/A/ d/c/A|G3 (G/F/)|EGcf|
+e>^d e/=d/c|d/^c/d/e/ ^f/d/e/f/|g3 (G/F/)|EGcf|e>^d e/=d/c|
+A/^G/A d/c/A|G3 (G/F/)|EGcf|e>^d e/=d/c|d/e/d/c/ B/G/A/B/|c3||
+g/^f/g a/g/e|c2e2|A/^G/A d/cA/|G3z|g>^fg/ a/ge/|c2e2|
+d/^c/d/e/ ^f/d/e/f/|(g2g2)|g>^fg/ a/g/e|c2e2|A/^G/A d/cA/|
+G3 (G/F/)|EGcf|e>^d e/=d/c|d/e/d/c/ B/G/A/B/|c3||
+
+%%sep 1 1 500
+X: 42
+T: Barn Dance Schottische
+M:4/4
+L:1/8
+R:Schottische
+S: Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:C
+c>d|e2c2 cGcd|e2d2d2 de|f2B2 BABc|d2c2c2cd|e2c2 cBcd|e2d2d2e2|
+f2B2 BdBA|G2c2 c4||{D}E2C2 CCDE|F2D2D2A2|c2 BA GABc|
+d2c2c2 BA|{D}E2C2 CCDE|F2 FE D4|{^A}BdBA GABc|d2c2c2||
+
+%%sep 1 1 500
+X: 43
+T: Denver Schottische
+M:4/4
+L:1/8
+R:Schottische
+S: Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:C
+cBcG ECDE|F2d2 d3e|fdBG AGED|CDEF G2 (AB)|cBcG ECDE|F2d2d3e|
+fedc BGAB|c2c2c2 (cd)|e^def gecB|A2a2a3g|edef gage|dcBA G2G2|
+e^def gecB|A2a2a3g|c'age fedc|BGAB c4||
+
+%%sep 1 1 500
+X: 44
+T: Honey Suckle Schottische
+L:1/8
+M:4/4
+S:Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948).
+Z:AK/Fiddler's Companion
+K:F
+C>FA>c f2f2|e2e2 d4|C>EG>B e2e2|d2d2 c4|C>FA>c f2f2|e2e2 d4|
+C>EG>B e2d2|(3cdc (3BAG F4||A4 B2 =B2|c6 c2|c2 =Bc ec_BA|
+G6D2|G4 B2c2|d6 (^cd)|b>ge>c d2c2|A6 A2|A4 B2=B2|c6 c2|
+C2 =Bc d>cB>A|G6D2|G4 B2c2|d6 (^cd)|b>ge>c d2e2|f2f2f2 z2||
+
+%%sep 1 1 500
+X: 45
+T: Knickle Schottische
+M:4/4
+L:1/8
+R:Schottische
+S:Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:G
+d2B2 B>AG>B|d2 B>d c>BA>B|c2A2 D>FA>B|c2B2 B>AG>B|
+d2B2 B>AG>B|d2 B>d c>B A2|f>gf>e d>cB>A|G2 g2 g>fg>a||
+b2d2 d>^cd>^d|e2A2 A>B A2|f>gf>e d>=cB>A|G2g2 g>fg>a|
+b2d2 d>^cd>^d|e2A2 A>B A2|f2 g>e d>cB>A|G2 g2g2 z2||
+
+%%sep 1 1 500
+X: 46
+T: Old South Schottische
+L:1/8
+M:4/4
+S: Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:G
+B>AF>A G2D2|B>db>a g4|{fg}f2 A>c f2e2|d>BG>A B2c2|
+B>AF>A G2D2|B>db>a g4|{fg}f2 A>B c2F2|G>FG>A G4||
+K:D
+A2A2 F>Ad>f|a>ga>b a4|{g}b2 e>f g2c2|d>f (3dcB A4|
+A2A2 F>Ad>f|a>ga>b a4|{g}b2 e>f g2c2|d>cd>e d4||
+K:C
+C>EG>c [G2e2][G2e2]|E>Gc>e g4|{fg}a2 d>e f2B2|ce (3cBA G4|
+C>EG>c [G2e2][G2e2]|E>Gc>e g4|{fg}a2 d>e f2B2|c>Bc>d c4||
+
+%%sep 1 1 500
+X: 47
+T: Starlight Schottische
+M:4/4
+L:1/8
+S:Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948).
+Z:AK/Fiddler's Companion
+K:C
+(3EF^F | G>Gc>d e>cG>E | A>Ad>e f4 | B>g^f>g =f>dA>B |
+(3ced (3cBA G2 (EF) | G>Gc>d e>cG>E | A>Ad>e f4 | B>g^f>g =f>dA>B | c2e2c4 ||
+K:F
+A4B2=B2 | c4f4 | e2 (3Gce d2 (3FAd | d>cA>F D>CB,>C | A2B=B2 | c4a4 |
+g>fd>f c>BA>B | (3cdc (3BAG F2 ||
+K:G
+Bc | d>ed>c B>cB>A | G2 (3Geg e2d2 | F2 (3FAg f2e2 | G2 (3Geg e2d2 |
+d>ed>c B>cB>A | G2 (3Geg e2d2 | (3fgf (3efe (3ded (3cBA | G2B2G2 ||
+
+%%sep 1 1 500
+X: 48
+T: Chicago Glide
+M:4/4
+L:1/8
+S:Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+Z:AK/Fiddler's Companion
+K:D
+|:A>FA>f e>de>f|1 a2a2a2z2:|2
+M:3/4
+L:1/8
+A3z2 (f/g/)||(a2^g2a2)|(b2a2f2)|(g2f2g2)|A2 z2 (ef)|
+(g2f2g2)|(c'2b2a2)|(f2e2f2)|A4 (FG)|A3 (FAd)|(f2e2d2)|
+B3 (_B=Bd)|(g2f2e2)|A>Bc>de>f|(g2f2g2)|(b2a2f2)|A3 (FAd)|
+(f2e2e2)|B3 (_B=Bd)|(g2f2e2)|A>Bc>de>f|(g2f2g2)|(b2a2f2)|(g2B2c2)|d4 z2||
+
+%%sep 1 1 500
+X: 49
+T: Drunkard's Hiccoughs
+T: Rye Whiskey
+M:3/4
+L:1/8
+S:Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948).
+Z:AK/Fiddler's Companion
+K:G
+(GA)|:B2G2 (GE)|D2B,2D2|E2G2G2|B4(GA)|
+B2G2 (GE)|D2B,2D2|E2G2A2|G4 (GA):|
+|:G2A2 (Bc)|d2G2A2|B2c2B2|A4 (GA):|
+B2G2(GE)|D2B,2D2|E2G2A2|G4 B,2||
+|:C[CE] [CE][CE][CE][CE]|B,[B,D] [B,D][B,D][B,D][B,D]|
+E[B,G] [B,2G2] [B,2G2]|[G4B4] B,2|C[CE] [CE][CE][CE][CE]|
+B,[B,D] [B,D][B,D][B,D][B,D]|E2G2A2|[B,4G4]:|
+
+%%sep 1 1 500
+X: 50
+T: Wednesday Night Waltz
+M:3/4
+L:1/8
+S: Viola "Mom" Ruth - Pioneer Western Folk Tunes (1948)
+K:D
+D[df] | [f6a6] | {^g}[f6a6] | {^g}[f3a3] (b[fa][df]) | [F4d4] [Ec] |
+[G2B2] [B3d3]e | [B4d4][G2B2] | [F6A6] | [F2A2][F2d2][d2f2] |
+[f6a6] | {^g}[f6a6] | {^g}[f2a2] [f2d'2] [fc'][df] | [F4d4] [E2c2] |
+(B2 [G4e4]) | [G4e4] [A2f2] | edefed | dB Ad [d2f2] | [f6a6] |
+{^g}[f6a6] | {^g}[f3a3] b[fa][df] | [F4d4] [E2c2] | [G2B2][B3d3]e |
+[B4d4][G2B2] | [F6A6] | [F4A4][F2A2] | BG AB df | abafdB |
+A2^G2A2 | [d6f6] | e2c2A2 | [F6d6] | [F2d2] D2E2 ||
+F6 | (E2D2E2) | F6 | A,6 | (B,4 D2) | (D4 E2) | (F6 | F4)F2 | (E4D2) |
+E4D2 | (F6 | A,6) | (B,4C2) | (D4F2) | (E6 | E2)(D2E2) | F6 | (E2D2E2) |
+F6 | (A,4 A2) | (B,4D2) | D4 (E2 | F6) | (F4 F2) | (E4 D2) | (E4 D2) |
+(F6 | A,6) | (B,4 D2) | (D4 E2) | (D6 | D2) || d2 [d2f2] | [f6a6] | {^g}[f6a6] |
+{^g}[d3f3] (b[fa][df]) | [F4d4] [E2c2] | [G2B2][B3d3]e | [B4(d4][G2B2)] |
+([F6A6] | [F2A2])[F2d2][d2f2] |]| [f6a6] | {^g}[f6a6] | {^g}[f2a2][f2d'2][fa][df] |
+[F4d4][E2c2] | B2 [G4(e4] | [G4e4)] [A2f2] | edefed | dB Ad [d2f2] |
+| [f6a6] | {^g}[f6a6] | {^g}[f3a3] (b[fa][df]) | [F4d4][E2c2] | [G2B2][B3d3]e |
+[B4(d4] [G2B2)] | [F6A6] | [F4A4] [F2A2] | BG AB df | abafdB | A2^G2A2 |
+[d6f6] | e4cA | [F2d2][d2f2][f2a2] | (d'6 | d'2) z2z2 |]

@@ -1,0 +1,16 @@
+X: 229
+T:Mirkovo Kolo
+O:Serbia
+M:6/8
+L:1/8
+Q:1/4=240
+K:GDor
+%%MIDI gchord fzzfzz
+|: "G"fef "G"g2f|"C"gfe "G"d2c|"F"f2c c2c    |"F"cBA "G"G3   |
+   "G"BAB "F"c2B|"F"cBA "G"G3 | "G"B2A "F"AFA| "G"G2z G2z    :|
+|: "G"BAB "F"c2B| "F"cBA "G"G3| "F"f2c c2c   |"F"cBA "G"G3   |
+   "G"BAB "F"c2B|"F"cBA "G"G3 |"G"B2A "F"AFA | "G"G2z G2z    :|
+|: "G"d2c d2c   |Bcd B3       |d2c d2c       |BAd B3         |\
+   d2c d2c      |Bcd B3       |B3 "F"A3      | "C"G2c "G"G3  :|
+|: "G"F3 "F"A3  | "G"B2A G3   | "G"F3 "F"A3  | "G"B2A G3     |\
+   d2c d2c      |B2c "F"A3    |"G"B3 "F"A3   |"G"G6          :|

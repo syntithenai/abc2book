@@ -1,0 +1,29 @@
+X:1
+T: The Designing Woman
+N:
+C:"Vivace" by Vivaldi
+S:
+A:
+O:
+R:
+M:3/4
+K:Am
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 30 notes)
+K:Am
+M:3/4
+L:1/16
+e4 |a4 c'4 e4 |d2 c2 d4 b4 |c4 B2 c2 d2 e2 |c4 B4 e4 |a4 g4 ^f4 |g2 ^f2 e2 ^d2 e4|e2 ^f2 g4 f4 |e8 a4 |
+%W: A2
+% voice 1 (1 lines, 31 notes)
+a4 c'4 e4 |d2 c2 d4 b4 |c4 B2 c2 d2 e2 |c4 B4 e4 |a4 b4 c'4 |f4/3 e4/3 f4/3 |d'2 f2 e2 d2 c2 d2 |B4 A4 A8 |E4
+%W: B
+% voice 1 (1 lines, 27 notes)
+A4 e4 |e4 e4 d2 c2 |d2 e2 f4 f4 |f4 f4 e2 d2 |e2 f2 g4 c'4 |c'4 a4 b8 |^g2 a2 b2 e2 b2 d'2 |
+%W:                                             C
+% voice 1 (1 lines, 25 notes)
+c'4 d'2 c'2 b2 a2 |e8 c2 d2 |e8 a4 ||a4 c'4 e4 |d2 c2 d4 b4 |c4 B2 c2 d2 e2 |c4 B4 e4 |
+%W:
+% voice 1 (1 lines, 40 notes)
+a2 g2 g2 f2 f2 e2 |f2 e2 e2 d2 d2 c2 |g2 f2 f2 e2 e2 d2 |e2 d2 d2 c2 c2 B2 |f2 e2 e2 d2 d2 c2 |d2 c2 c2 B2 B2 A2 |e4 E4 ^G4 |A8 ||

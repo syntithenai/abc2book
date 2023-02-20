@@ -1,0 +1,26 @@
+X: 30391
+T: HOPE WALTZ No. 1.
+C:
+%R: waltz
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.39 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Added initial rest to fix the rhythms.
+M: 3/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+z2 |\
+d2d2d2 | d3(AFA) | d2d2d2 | d4d2 |\
+(d2c2)e2 | (e2d2)f2 | g2(g2f2) | (f2c2)A2 |\
+d2d2d2 | d4(^d2 | e2)(e2f2) | g4f2 |\
+(e2g2)b2 | (d2e2c2) | d2(d2f2) | d4 :|
+f2 |\
+e3(cde) | f3(def) | (e2g2f2) | (f2e2)e2 |\
+(e2a2c'2) | (c'2b2a2) | (a2b2^g2) | a4((3ABc) |\
+d2d2d2 | d3(AFA) | d2d2d2 | d4d2 |
+(d2c2e2) | (e2d2f2) | g2(g2f2) | (f2e2)A2{BA^GA}y |\
+d2d2d2 | d4(^d2 | e2)(e2f2) | (g4f2) |\
+(e2g2b2) | (d2e2c2) | (dA)(fd)(af) | d'4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

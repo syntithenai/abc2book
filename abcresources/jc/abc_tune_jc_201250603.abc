@@ -1,0 +1,17 @@
+X: 970
+T: the Barony Jig
+O: Ireland
+R: slip-jig, long dance, set dance
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #970
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0970/oneill-1001-0970-1.abc
+M: 9/8
+L: 1/8
+K: Am
+"^A"[|] B \
+| c2A c2A- AGE | c2A ABd (e2d) | c2A c2A- AGE | GED DEG A2B \
+| c2A c2A- AGE | c2A ABd (e2d) | c2A efd cBA | GED DEG A2 :|
+"^B"|: B \
+| c2d ecA AGE | c2e (e/f/e)d e2d | c2d ecA AGE | GED DEG A2B \
+| c2d ecA AGE | c2d (e/f/e)d e2d | cde ge(d e)cA | GED DEG A2 :|

@@ -1,0 +1,19 @@
+X: 10391
+T: AGNES SOREL QUADRILLES Part 2.
+C: Arranged by W. B. Laybourn
+R: polka
+B: K\"ohler's Violin Repository, v.1, 1885 p.39 #2
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Bar 21 has a d on the b, giving an extra 1/16.
+M: 2/4
+L: 1/16
+K: C
+[|\
+vc'c'c'c' d'2c'2 | ^d'2e'2c'2z2 | v=d'2bg d'2bg | {d'}c'bc'd' e'2z2 |\
+c'c'c'c' vd'2c'2 | ^d'2e'2c'2z2 | v=d'2bg d'2bg | c'2z2 vc'2 ||
+uc2 |\
+fcfa c'2d'2 | (c'4 .a2).c2 | fcfa c'2d'2 | (c'4 .a2).c2 |\
+c2d2e2f2 | g2a2(.b3.c') | (b4 a3)u^g | a4z2uc2 |
+fcfa c'2d'2 | (c'4 a2)c2 | fcfa c'2d'2 | (c'4 a2)c2 |\
+b2(ba gfed) | .c2(ed cBAG) | .F2(FA cfac') | f'4 z2 "_D.C."|]

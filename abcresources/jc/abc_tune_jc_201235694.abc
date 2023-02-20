@@ -1,0 +1,24 @@
+X: 21311
+T: l'ETE
+N: "HERZ QUADRILLES."
+%R: _
+B: "Edinburgh Repository of Music" v.2 p.131
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+[|\
+D2DD D2E2 | D2G2 B2G2 |\
+{B}A2^G2 A2F2 | G2B2d2 BG |\
+D2DD D2E2 | D2G2 B2G2 |\
+{B}A2^G2 A2F2 | G2GG G4 H|]
+[|\
+.A.A.B2 .A.A.^c2 | .A.A.B2 .A.A.d2 |\
+.A.A.B2 .A.A.e2 | d2f2 a2fd |\
+.a.a.b2 .a.a.^c'2 | .a.a.b2 .a.a.d'2 |\
+.a2.^c'2.e'2.a2 | (d'3f'/e'/ d'2)z2 |
+(3(A^GA).B2 (3(A^GA).^c2 | (3(A^GA).B2 (3(AGA).d2 |\
+(3(A^GA).B2 (3(AGA)e2 | dz/(e/f)z/(g/ a)z/(b/c')z/(d'/ |
+(3(a)^ga).b2 (3(aga).^c'2 | (3(a^ga)b2 (3(aga)d'2 |\
+e'z/(d'c')z/(b/ a)z/(g/f)z/(e/ | d2)f2d2"D.C."z2 |]

@@ -1,0 +1,31 @@
+X: 2
+T: da Slockit Light
+C: melody: Tom Anderson (Shetland)
+C: harmony: Ed Pearlman (Maine)
+S: BSFC via Concord Slow Scottish Session collection
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+R: air
+K: D
+% = = = = = = = = = =
+V: 1
+FE \
+| "D"D3F A2d2 | "A7"fedc "D"d2A2 | "G"B2d2 "D"A2d2 | "G"BAGF "A7"EGFE \
+| "D"D3F A2d2 | "D"fedc "Bm"d2A2 | "G"B2G2 "A7"AGFE | "D"D6 :|
+g2 \
+| "D"f2a2 "A"e3c | "D"d3e dcBA | "D"f2a2 "E7"e2^g2 | "A"a6 g2 \
+| "D"f2a2 "A"e3c | "G"d3e "D/F#"dcBA | "G"B2G2 "A7"AGFE | "D"D6 |]
+g2 \
+| "D"f2a2 "A"e3c | "Bm"d3e dcBA | "G"B2d2 "D"A2d2 |  "G"BAGF "A7"EGFE \
+| "D"D3F A2d2 | "F#"fedc "Bm"d2A2 | "G"B2G2 "A7"AGFE | "D"D6 |]
+% = = = = = = = = = =
+V: 2
+FE \
+| "D"D3D F2A2 | "A7"AGFE "D"F2A2 | "G"G2B2 "D"F2A2 | "G"GFED "A7"CA,B,C \
+| "D"D3D F2A2 | "D"d2A2 "Bm"F2D2 | "G"G2DG "A7"E2C2 | "D"D6 :|
+"(A7)"g2 \
+| "D"d4 "A"c4 | "Bm"B4 "A"A2Bc | "D"d4 "E7"c2B2 | "A"A6 "A7"c2 \
+| "G"d2f2 "A7"c3A | "D"G3c "D/F#"BAGF | "G"B2DG "A7"E2C2  | "D"[D6A,6] |]
+"(A7)"E2 \
+| "D"D2F2 "A"C3A, | "Bm"B,2F2 G2GF | "G"G2B2 "D"F2A2 |  "G"G2E2 "A7"CA,B,C \
+| "D"D3D F2A2 | "A"agfe "Bm"d2F2 | "G"G2D2 "A7"A,3C | "D"D6 |]
+% = = = = = = = = = =

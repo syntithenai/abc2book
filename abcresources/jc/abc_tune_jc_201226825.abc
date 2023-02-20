@@ -1,0 +1,22 @@
+X: 10471
+T: Air - Allegro
+C: Bossi
+Q: "Allegro"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.47
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: 2nd part has initial repeat but no final repeat symbol; final repeat added to give 48 bars in AABABA form.
+M: 2/4
+L: 1/8
+K: E
+|:\
+b2(ga) | b2(ga) | (bagf) | g2e2 |\
+b2(ga) | b2(ga) | (bagf) | e2e2 :|
+|:\
+b2ge | dfB2 | b2ge | dfB2 |\
+b2ge | f2ga | b2ge | f2z2 ||
+||\
+b2(ga) | b2(ga) | (bagf) | g2e2 |\
+b2(ga) | b2(ga) | bagf | e2z2 :|
+%
+%%center -

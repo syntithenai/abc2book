@@ -1,0 +1,26 @@
+X:1
+T: David's Ramble
+N:
+C:by John Stapledon
+S:Tune is "Forget-me-not"
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 40 notes)
+K:G
+M:6/8
+L:1/16
+d2 |g4 f2 e3 f g2 d4 B2 G3 A B2 c4 d2 e2 f2 g2 A6A4 B2 |c3 d e2 e2 f2 g2 G3 A B2 B2 c2 d2 c3 B A2 A2 G2 F2 G6G4 d2 |
+%W: A2
+% voice 1 (1 lines, 39 notes)
+g4 f2 e3 f g2 d4 B2 G3 A B2 c4 d2 e2 f2 g2 A6A4 B2 |c3 d e2 e2 f2 g2 G3 A B2 B2 c2 d2 c3 B A2 A2 G2 F2 G6G4 G2 |
+%W: B1
+% voice 1 (1 lines, 37 notes)
+F4 G2 A4 B2 c4 B2 A3 B c2 d2 e2 f2 g4 f2 e6e2 f2 g2 |a4 g2 f3 e d2 g4 d2 =f3 e d2 c3 B A2 A2 G2 F2 G6G4 G2 |
+%W: B2
+% voice 1 (1 lines, 36 notes)
+F4 G2 A4 B2 c4 B2 A3 B c2 d2 e2 f2 g4 f2 e6e2 f2 g2 |a4 g2 f3 e d2 g4 d2 =f3 e d2 c3 B A2 A2 G2 F2 G6G4 ||

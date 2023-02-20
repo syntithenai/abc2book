@@ -1,0 +1,18 @@
+X: 147102
+T: the ARRAN BOAT
+Q: "Slow."
+%R: air, jig
+B: James Kerr "Merry Melodies" v.1 p.47 s.1 #2
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: Em
+|:\
+E>FE B>^cd | A<FD A<FD |\
+E>FE B>^cd | F<EF E2 :|\
+e>fg {f}g>fe | d>BG A>FD |
+e>fe {f}g>fe | ^d>Bd e2uB |\
+e>fe {f}g>fe | d>BG A>FD |\
+E>FE B>^cd | F>EF E2 |]

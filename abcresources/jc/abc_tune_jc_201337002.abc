@@ -1,0 +1,52 @@
+
+X: 1
+T: Shrewsbury Lasses    (C)
+O: Thompson 1765
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1765", London 1765, p.6 #2
+N: Longways for 3 couples
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Barnes
+N: Playford Ball
+M: C|
+L: 1/4
+P: 3x(AABB)
+K: C
+(3G/A/B/ \
+| "C"cG- "G7"GF | "C"EC- CE \
+| "G7"DF ED | "C"EC EG \
+| "C"ce- ec | "G"Bd- d[BG] \
+| "D7"AcA^F | "G"G3 :|
+|: (3G/A/B/ \
+| "F"cA- AF- | "G7"FD- Dg- \
+| "C"ge- ec- | "F"cA- Aa- \
+| "Dm"af- fd | "G7"dB- BG |
+| "F"FA- AF | "C"E/F/G EC \
+| "F"FA- AF | "C"EG ce \
+| "G7"ed cB | "C"c3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Shrewsbury Lasses    [D]
+O: Thompson 1765
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1765", London 1765, p.6 #2
+N: Longways for 3 couples
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Barnes
+N: Playford Ball
+M: C|
+L: 1/4
+P: 3x(AABB)
+K: D
+(3A/B/c/ \
+| "D"dA- "A7"AG | "D"FD- DF \
+| "A7"EG FE | "D"FD FA \
+| "D"df- fd | "A"ce- e[cA] \
+| "E7"BdB^G | "A"A3 :|
+|: (3A/B/c/ \
+| "G"dB- BG- | "A7"GE- Ea- \
+| "D"af- fd- | "G"dB- Bb- \
+| "Em"bg- ge | "A7"ec- cA |
+| "G"GB- BG | "D"F/G/A FD \
+| "G"GB- BG | "D"FA df \
+| "A7"fe dc | "D"d3 :|

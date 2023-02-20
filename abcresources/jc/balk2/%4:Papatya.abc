@@ -1,0 +1,31 @@
+X: 254
+T: Papatya
+O: Turkey
+Z: Birgitt Karlson
+M: 5/8
+L: 1/8
+Q: 1/4=88
+K: D octave=1
+%%MIDI program 28
+%%MIDI bassprog 118
+%%MIDI gchord f2ff2
+P:A
+  "D"z5             |z5                    |\
+  F2 E F2           |DE C D2               |\
+  FF E F2           |DE C D2               |
+  F/G/A/G/ F/E/ F2  |DE C D2               |\
+  =c/B/A/G/ F/E/ F2 |DE C D2               |
+P:B
+%%MIDI bassprog 117
+  "G"D/G/G/G/ G G2  |"D"G2 G F2            |\
+  "G"D/G/G/G/ G G2  |"D"G2 G F2            |\
+  F/G/A A A2        |B2 A A2               |
+  G/F/G/A/ F F2     |E2 D F2               |\
+  DE D F2           | DE C D2              |\
+  D/E/F/E/ D F2     |DE C D2               |
+P:C
+%%MIDI bassprog 116
+|:"D"A/d/d d d2     |e/d/=c/B/  A A2       |\
+  B2 =c/B/ A2       | ^G2 FA2              :|
+|:A/^G/A/G/ =F/E/ D2| DE/C/ D/C/D/E/ =F/^G/|\
+  A/B/A/^G/ =F/E/ D2|E3/2D/ C/E/ D2        :|

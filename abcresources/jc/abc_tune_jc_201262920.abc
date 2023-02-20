@@ -1,0 +1,31 @@
+X:1
+T:Clydeside
+M:C|
+L:1/8
+Q:80
+C:Traditional
+S:Hornpipe
+K:HP
+:|2 f | \
+{g}A/2{d}A/2{e}A/2{d}B/2{g}A/2B/2{g}d/2e/2 | \
+{g}f3/4e/4{g}f/4a3/4g/2f/2{g}e/2d/2 |
+{g}f/2e/2{g}d/2B/2{g}A/2B/2{gde}d/2A/2 | \
+{gBd}Be{A}ef | \
+{g}A/2{d}A/2{e}A/2{d}B/2{g}A/2B/2{g}d/2e/2 |
+{g}f3/4e/4{g}f/4a3/4g/2f/2{g}e/2d/2 | \
+{g}f/2e/2{g}d/2B/2{g}A/2B/2{g}d/2e/2 | \
+{gfg}fd{gdc}d ::
+{g}f3/4g/4 | \
+a3/4g/4{a}f/4a3/4{f}g/2{a}f3/4e/4 | \
+{g}f/2e/2{g}d/2f/2{gef}e2{g}d3/4e/4 |
+{g}f/2e/2{g}d/2B/2{g}A/2B/2{gde}d/2A/2 | \
+{gBd}Be|1 {A}e{g}f3/4g/4|1
+a3/4g/4{a}f/4a3/4{f}g{a}f3/4e/4 |
+{g}f/2e/2{g}d/2f/2{gef}e{g}d3/4e/4 | \
+{g}f/2e/2{g}d/2B/2{g}A/2B/2{g}d/2e/2 | \
+{gfg}fd{gdc}d:|2
+{A}e/2f/2 | \
+{g}A/2{d}A/2{e}A/2{d}B/2{g}A/2B/2{g}d/2e/2 | \
+{g}f3/4e/4{g}f/4a3/4g/2f/2{g}e/2d/2 |
+{g}f/2e/2{g}d/2B/2{g}A/2B/2{g}d/2e/2 | \
+{gfg}fd{gdc}d|]

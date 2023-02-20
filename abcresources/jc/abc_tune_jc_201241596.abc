@@ -1,0 +1,29 @@
+X: 4442
+T: LAWN MAZURKA
+R: Mazurka
+%R: mazurka
+B: James Kerr "Merry Melodies" v.4 p.50 #442
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+|: !p!\
+A>^G A4 | B>"_cresc."A B4 |\
+c>=B c2 ^c2 | e2 "^>"d4 !p!|\
+(d^c)defg | (=c=B)cdef |\
+[1 (BA)BdcB | ACDEFG :|\
+[2 !f!(BA) B2 [e2B2] | [f2A2] F2 z2 H|]
+|: !mf!\
+G2 c>ce>e | g>g =B4 |\
+A>^G A2 f2 | e2 G4 |\
+(FG)=Bd g2 | EGceg2 |\
+[1 agfedc | c=BdBAG :|\
+[2 ad f2 =B2 | c2 [c2E2] "^D.C."z2 |]
+P: Trio.
+K: Bb
+|: !p!\
+F>=E (F2 d2) | d2 c3 G |\
+B2 A3 E | G2 F4 |\
+f>=e (f2 ^f2) | g2 G3 c |\
+[1 B2 A3 a | g2 f4 :|\
+[2 BA^GAdc | B2 [B2D2] "_D.C."z2 |]

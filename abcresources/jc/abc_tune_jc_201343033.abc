@@ -1,0 +1,31 @@
+X: 1
+T: Take not a Woman's Anger ill, For if one won't, another will.
+P: Longways for as many as will
+%R: ree.
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.201
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat added to satisfy the "first Strain played twice" instruction.  The rhythms aren't right at the ends of the straints.
+N: The time signature is just "2".  But the beaming is for quarter-notes, not half-notes.
+N: The first strain has 7 bars.
+M: 2/2
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+f2ed c2d2 | (ed) (cB) c2 (BA) | B2(BG) F2B2 | G2(FE) D2d2 |\
+B2(AG) c4 | (F2GA) (BA) (GF) | F8 :| A2 | c2(BA) (Bcd2) | (GA)B2 G2z2 |
+e2z2 f2(ed) | (c=B)c2 (cde2) | c2cd e2dc | d2(cB) (AB)c2 |\
+F2z2 (def2) | B2z2 (Bcd2) | G2A2 B2AG | F2B2 (Bcd2) | B6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%    The 1. man take hands with the 2. man and turn quite round, and meet the 2. wo. one step back,
+%% turn his own wo. round by the left-hand and fall back into his own place; then 1. man turn the 2. wo.
+%% quite round by the left-hand and meet the 2. man one step back, then turn her Partner by the right-hand
+%% into her own place.  This ends the first Strain played twice.
+%%    Then both cu. meet lead out, and turn S. then 1. cu. slip down the middle and up again, then hands
+%% round into the 2. cu. place; then both cu. meet, lead out, and turn S. then 2. cu. slip down and back
+%% again; then both hands round, and the 1. cu. set in the 2. cu. place.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

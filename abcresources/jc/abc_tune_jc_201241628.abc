@@ -1,0 +1,71 @@
+X: 44
+T: la Graziosetta
+%R: march
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #44
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+A2 |\
+A2d2 d2c2 | B4 A4 | B2A2 B2c2 | dcde d2A2 |\
+A2d2 d2c2 | B4 A4 | B2A2 B2c2 | d6        |]\
+d2 |\
+e2f2 g2f2 | e2d2 c2d2 | e2f2 g2f2 | e2A2 A2d2 |
+c2d2 edcB | c2A2 A2d2 | c2d2 edcB | A4   e4   |\
+e3d  e2f2 | g4   f4   | e2d2 e2c2 | dcde d2f2 |\
+e2d2 e2f2 | g4   f4   | e2d2 e2c2 | d6        |]
+[M:3/4]
+f2gfef | d2A2A2 | d2c2d2 | edefe2 |\
+f2gfef | d2A2A2 | d2cdec | d6     |]\
+e2gfed | edcBA2 | B2B2B2 | c2BcA2 |
+B2B2B2 | c2BcA2 | B2dcBc | A4A2   |\
+e2gfed | edcBA2 | d2d2d2 | efgef2 |\
+d2d2d2 | efgea2 | f2gfef | d6     |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z2 |\
+d4 f4 | g2e2 f2d2 | g2f2 g2a2 | d8 |
+d4 f4 | g2e2 f2d2 | g2f2 g2a2 | d6 |] d2 | c2d2 e2d2 |
+c2B2 A2B2 | c2d2 e2d2 | a4 z4 | A4 z4 | a4 z4 |
+A4 z4 | a2A2 c2e2 | A2a2 g2f2 | e2c'2 d'2f2 | g2f2 g2a2 |
+d6 d2 | g2f2 g2a2 | b2c'2 d'2f2 | g2f2 g2a2 | d6 |] [M:3/4]
+d'2g2a2 | f2d2z2 | f2e2d2 | a6 | d'2g2a2 | f2d2z2 |
+d2a2A2 | d2A2D2 |] A4z2 | a4z2 | e2^g2e2 | a2e2A2 |
+e2^g2e2 | a2e2f2 | d2e2E2 | A6 | a6 | A6 |
+f2d2f2 | a2A2d2 | f2d2f2 | a2A2c2 | d2G2A2 D6 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Graziosetta.
+%%begintext align
+%%   The first Gentleman leads his Partner and
+%% the second Couple the whole Round to the
+%% left, while the fourth Lady leads her Partner
+%% and the second Couple to the Right - - - 1/1
+%%endtext
+%%begintext align
+%%   The Gentlemen go Round to the Right and
+%% the Ladies to the Left, with the Allemande and
+%% Rigaudon at every Quarter of the Course - - 1/2
+%%endtext
+%%center M I N U E T.
+%%begintext align
+%%   This must be performed with Minuet Steps all through.
+%%endtext
+%%begintext align
+%%   The Ladies go to the Right with hands
+%% Round in the middle, while each Gentleman
+%% goes Round to the Left - - 1/1
+%%endtext
+%%begintext align
+%%   The Course, each Couple turning Round at
+%% every Quarter - - - 1/2
+%%endtext
+%%begintext align
+%%   __
+%%endtext
+%%sep 1 1 400

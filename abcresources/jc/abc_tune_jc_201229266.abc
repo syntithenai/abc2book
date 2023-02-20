@@ -1,0 +1,26 @@
+X: 1211
+T: Lady Home's Jig
+%R: jig
+B: Niel Gow & Sons "Complete Repository" v.1 p.21 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+|: !p!\
+c2g- geg | gea Tg2e | ceg {a}gfe | ded f2d ||\
+c2g- geg | gea Tg2e | f>ga gfe | ded Tf2d :|
+|:!f!\
+Tc>dc cGc | cGc {cd}e2d | Tc>dc cGE | ded {f}e2d ||\
+Tc>dc cGE | CDE cGE | .F(.d.F) .E(.c.E) | DED Te2d :|
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+|: !p!\
+c'3 c'3 | c'3 c'3 | c'3 c'3 | g3 b3 ||\
+c'3 c'3 | c'3 c'3 | d'3 c'3 | g3 g3 :|\
+|:!f!
+[c3C3] [c3C3] | [c3C3] [c3C3] | [c3C3] [c3C3] | G3 G3 ||\
+[c3C3] [c3C3] | [c3C3] [e3E3] | [d3D3] [c3C3] | G3 G3 :|

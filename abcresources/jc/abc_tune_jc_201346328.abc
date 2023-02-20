@@ -1,0 +1,29 @@
+X:1
+T: A Trip O'er Tweed
+N:
+C:
+S:Play  3  times
+A:
+O:
+R:
+M:9/8
+K:G
+I:speed 150
+%W:         A1
+% voice 1 (1 lines, 30 notes)
+K:G
+M:9/8
+L:1/16
+G6 B4 c2 d2 B2 G2 g2 f2 g2 e2 f2 g2 a4 d2 e2 g2 e2 d2 B2 e2 d2 B2 G2 e2 d2 c2 B3 A G2 G6 |
+%W:         A2
+% voice 1 (1 lines, 30 notes)
+G6 B4 c2 d2 B2 G2 g2 f2 g2 e2 f2 g2 a4 d2 e2 g2 e2 d2 B2 e2 d2 B2 G2 e2 d2 c2 B3 A G2 G6 |
+%W:         B1
+% voice 1 (1 lines, 36 notes)
+F6 A4 B2 c4 d2 B2 e2 f2 g2 f2 e2 f2 B2 b2 a4 g2 f2 g2 a2 b2 a2 g2 f2 g2 e2 B2 e2 ^d2 e4 f2 |g2 e4 d4 c2 B4 c2
+%W:                                                               B2
+% voice 1 (1 lines, 34 notes)
+d2 c2 B2 A2 B2 G2 F4 D2 G2 d4 B2 e4 d2 g4 B2 e2 A2 A4 G2 G6 |F6 A4 B2 c4 d2 B2 e2 f2 g2 f2 e2 f2 B2 b2
+%W:
+% voice 1 (1 lines, 42 notes)
+a4 g2 f2 g2 a2 b2 a2 g2 f2 g2 e2 B2 e2 ^d2 e4 f2 |g2 e4 d4 c2 B4 c2 d2 c2 B2 A2 B2 G2 F4 D2 G2 d4 B2 e4 d2 g4 B2 e2 A2 A4 G2 G6 ||

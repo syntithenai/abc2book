@@ -1,0 +1,36 @@
+X: 20151
+T: SCOTCH MARCH
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" 1843 p.15 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: In bar 9, voice 2, the first d should probably be c; not fixed.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+F>A |\
+c2d>c A2F>A | c2d>c A2f>e | d>cd>e f>ef>d | e>fg>a g2F>A |\
+c2d>c A2F>A | c2d>c A2f>e | d>ef>d e>fg>e | f2g>a f2 :|
+|: g>a |\
+g>ee>c d>ff>d | c>A A>F G2F>G | A>GA>B d>cd>f | e>fg>a g2F>A |\
+c2d>c A2F>A | c2d>c A2f>e | d>ef>d e>fg>e | f2g>a f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+[A2F2][B2F2] [A2F2][F2C2] | [A2F2][B2F2] [A2F2]d>c | B>AB>c d>cd>B | c>de>f e2z2 |\
+[A2F2][B2F2] [A2F2][F2C2] | [A2F2][B2F2] [A2F2]d>c | B>cd>B c>de>c | A2B>c [A2F2] :|
+|: e>f |\
+e>cd>G B>dd>B | A>F F>C E2z2 | F>EF>G B>AB>d | c>de>f [e2c2]z2 |\
+[A2F2][B2F2] [A2F2][F2C2] | [A2F2][B2F2] [A2F2]d>c | B>cd>B c>de>c | A2B>c [A2F2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+f2f2 f2f2 | f2f2 f2f2 | b2b2 c'2c'2 | c2c2 c2z2 |\
+f2f2 f2f2 | f2f2 f2f2 | b2b2 c'2c'2 | f2f>f f2 :|
+|: z2 |\
+c2c2 B2B2 | f2f2 c2z2 | f2f2 b2b2 | c2c2 c2z2 |\
+f2f2 f2f2 | f2f2 f2f2 | b2b2 c'2c2 | f2f>f f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

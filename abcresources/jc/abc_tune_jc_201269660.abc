@@ -1,0 +1,15 @@
+X: 295
+T: Down Among the Ditches   #2
+R: jig
+%S: s:2 b:16(8+8)
+B: O'Neill's 1850 #295
+O: J.O'Neill
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+Q: "Lively"
+M: 6/8
+L: 1/8
+K: D
+A |: A2d def | dcB A2 [1 F | A2d def | {a}gfe fdB :|\
+                      [2 G | F2D GEC | D2D D2 |]
+D |: (DFA) (ABc) | GFE [1 (E2F) | (DFA) (ABc)| d3 (F2E) :|\
+                       [2  EFG  |  dAF   GEC | D2D D2 |]

@@ -1,0 +1,16 @@
+X: 308
+T: Dermot   #2
+T: diarmuid
+R: air, waltz
+%S: s:1 b:12
+B: O'Neill's 308
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: Compacted by using labels and play order [JC]
+P: Play AB CB
+Q: "Slow with feeling"
+M: 3/4
+L: 1/8
+K: F
+"^A"[| c3 B A2 | f3 e d2 | c2 (BA) (GF) | A3 G G2 \
+"^B"|[| c3 B A2 | ~f3g Ha2 | F>G A3 G | "^fine"F6 \
+"^C"|[| (f3 ede) | f3 F F2 | (f3 efg) | a3 f "^->B"d2 |]

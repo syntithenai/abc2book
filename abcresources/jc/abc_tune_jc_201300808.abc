@@ -1,0 +1,27 @@
+X: 1
+T: the Last New Vagaries
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.311
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The rhythms aren't right at the strain boundaries.
+M: 6/4
+L: 1/4
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+A2a e2c | e3  f3  | edc BA   | B3 E3 |\
+FGA GAB | ABc Bcd | cde e2^d | e3-e3 |]
+B |\
+G3B F2B | E3  B3  | edc d2e | f3-f2g |\
+a2c f2B | e2A G2B | edc B2A | A3 A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man casts off and goes to the third wo. and kiss her, and return to his Place .| The 3. man cast
+%% up and goes to the 1. wo. and kiss her, and cast off to his own place :| The 1. cu. lead down the middle
+%% and fall in between the 2. and 3. cu. and lead the 2. and 3. cu. to the wall .| Then cast up and cross
+%% over and meet and set in the 2. cu. place and turn :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

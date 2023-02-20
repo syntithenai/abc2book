@@ -1,0 +1,25 @@
+X: 1201
+T: I'll make you fain to follow.   a Jig.
+N: There's a space in the title where the ' should be; probably a printing failure.
+%R: jig
+B: Niel Gow & Sons "Complete Repository" v.1 p.20 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+C |\
+.E/.E/.G.G Tc2e | d(.D.D) D2C | E/F/GG cdc | TB>AB cGE || FdF EcE | d(.D.D) D2C | E/F/GG c2G | E(.C.C) C2 F ||
+E/F/GG Tc2e | d.D.D D2C | E/F/GG c>dc | TBAB c2c || BAG AGF | EcE D2C | E/F/GG Tc2G | E(.C.C) C2 |]
+f |\
+ega gec | Tf2e Td2c | ega gec | gea gec || Tf>ga gec | Tf2e Td2E | E/F/GG c2G | E(.C.C) C2f || ega gec |
+Tf2e Td2c | ega gec | gea gec || Tf>ga gec | fge dgf | ece fdf | e(.c.c) c2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | c3 c3 | g3 G2z | c3 c3 | g3 e3 || d3 c3 | B3 G3 | c3 G3 | C3 C3 ||
+c3 c3 | G3 G3 | c3 c3 | g3 e3 || g3 f3 | [e3c3] g3 | c'3 g3 | c3 c2 |] z |
+c'3 c'3 | g3 g3 | c'3 c'3 | c'3 c'3 || b3 c'3 | g3 G3 | c3 G3 | C3 C3 || c'3 c'3 |
+g3 g3 | c'3 c'3 | c'3 c'3 || d'3 c'3 | b3 g3 | c'3 g3 | c3 c2 |]

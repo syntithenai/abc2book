@@ -1,0 +1,82 @@
+
+X: 1
+T: Millisons Jegge    [Dm]
+O: Playford 1651
+B: Playford, Dancing Master,1st Ed.,1651
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+R: Jig
+K: Ddor
+a |\
+"Dm"a>gf e2d | "Am"c2d e2a |\
+"Dm"a>gf e2d | "Am"c3 "Dm"d2 ::\
+A |\
+"Am(F)"AcA AcA | AcA c2c |
+"Dm(G)"dfd dfd | dfd f2f |\
+"C(Em)"ege ege | ege g2a |\
+"Dm"a>gf e2d | "A"^c3 "Dm"d2 :|
+
+%%sep 1 1 400
+
+
+X: 1
+T: Millisons Jegge    (Em)
+O: Playford 1651
+B: Playford, Dancing Master,1st Ed.,1651
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+R: Jig
+K: Edor
+b |\
+"Em"b>ag f2e | "Bm"d2e f2b |\
+"Em"b>ag f2e | "Bm"d3 "Em"e2 ::\
+B |\
+"Bm(G)"BdB BdB | BdB d2d |
+"Em(A)"ege ege | ege g2g |\
+"D(Fm)"faf faf | faf a2b |\
+"Em"b>ag f2e | "B"^d3 "Em"e2 :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Millisons Jegge    (Gm)
+O: Playford 1651
+B: Playford, Dancing Master,1st Ed.,1651
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+R: Jig
+K: Gdor
+d |\
+"Gm"d>cB A2G | "Dm"F2G A2d |\
+"Gm"d>cB A2G | "Dm"F3 "Gm"G2 ::\
+D |\
+"Dm(B,)"DFD DFD | DFD F2F |
+"Gm(C)"GBG GBG | GBG B2B |\
+"F(Am)"AcA AcA | AcA c2d |\
+"Gm"d>cB A2G | "D"^F3 "Gm"G2 :|
+
+%%sep 1 1 400
+
+
+X: 1
+T: Millisons Jegge    (Am)
+O: Playford 1651
+B: Playford, Dancing Master,1st Ed.,1651
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+R: Jig
+K: Ador
+e |\
+"Am"e>dc B2A | "Em"G2A B2e |\
+"Am"e>dc B2A | "Em"G3 "Am"A2 ::\
+E |\
+"Em(C)"EGE EGE | EGE G2G |
+"Am(D)"AcA AcA | AcA c2c |\
+"G(Bm)"BdB BdB | BdB d2e |\
+"Am"e>dc B2A | "E"^G3 "Am"A2 :|

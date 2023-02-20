@@ -1,0 +1,26 @@
+X: 852
+T: the Sweep's Hornpipe
+R: hornpipe
+%S: s:3 b:24(8+8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #852
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0852/oneill-1001-0852-1.abc
+M: 2/4
+L: 1/16
+K: D
+"^A"[|]\
+a>g \
+| (3faf d>f A>dF>A | D>FA>d f2e>f \
+| g>be>g d>fA>F | G>BA>F E2 || a>g \
+| (3faf d>f A>dF>A | D>FA>d f2e>f \
+| g>fe>d c>AB>c | d2f2d2 :|
+"^B"|: z2 \
+| G>FG>A B>cd>e | f>gf>e d>cd>B \
+| A2f2 f>ef2 | G2e2 e>de2 |\
+| G>FG>A B>cd>e | f>gf>e d>cd>B \
+| A>fe>d c>AB>c | d>fe>c d2 :|
+"^C"|: a>g \
+| (3fgf (3efe (3ded (3cdc | (3BcB (3ABA G2b>a \
+| (3gag (3fgf (3efe (3ded | (3cdc (3BcB A2 || a>g \
+| (3fgf (3efe (3ded (3cdc | (3BcB (3ABA (3GAG (3FGF \
+| E>ge>d c>AB>c | d2f2d2 :|

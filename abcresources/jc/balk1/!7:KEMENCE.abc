@@ -1,0 +1,14 @@
+X: 217
+T:Kemence
+S:from record Carik 101  presented by Bora Ozkok
+O:Turkey
+L:1/8
+M:7/8
+Q:1/4=180
+K:Dm
+%%MIDI gchord fz3fz2
+%%MIDI beatstring fpppmpp
+|:  "F"c2 B2 A2 G          | "Dm"A2 G2 F2 G                     |\
+    "Dm"A2 G2 F2 E         |  "Dm"D2 D2 D3                      :|\
+|:  "Gm" EF [G2D2] [G2D2] F|"Dm"E [D2A,2] "Gm" [D2A,2] [D2A,2]  |\
+    "Gm" EF [G2D2] [G2D2] F|"Dm"E [D2A,2]"Dm" [D2A,2] [D2A,2]   :|

@@ -1,0 +1,28 @@
+X: 10
+T: Hoddam Castle
+C: Mr. Sharp
+O: Gow Collection
+B: Roy Goldring "14 Social Dances"
+P: Tune for "Monique's Jig"
+R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Last measure has "last 8 bars from !segno!" above the music.
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F |\
+"Bb"B2B "Bb/D"Bcd | "Cm/Eb"ecB "F"AGF | "Bb"BcB "Bb/D"Bdf | "F"fgf "F7/A"edc |
+"Bb"dBB "Eb"BGG | "Cm"ecc "F"cAA | "Gm"Bcd "F7/A"cBA | "Bb"BBB B2 ||
+!segno!d/e/ |\
+"Bb"fdd "Gm"dBB | "Cm"ecc "F"cAA | "Gm"Bcd "C7/E"cdB | "F"AFF "F7/Eb"FGA |
+"Bb/D"BBB "Cm/Eb"Gcc | "D/F"Add "Eb/G"Bee | "F7/A"cfe "Bb"dcB | "F7"cFA "Bb"B2 !Fine!y:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+B2[bf] d2b | e2b f2c' | b2[f'd'] d2b | f2[c'a] a2f' |
+b2d' e2b | c2[c'g] f2[c'a] | g2b a2[e'c'] | [d'2b2]f B2 ||
+z |\
+B2[bf] g2[d'b] | c2[c'g] f2[c'a] | g2[d'b] =e2c' | f2[c'a] e2c' |
+d2b e2[c'g] | f2[d'a] g2[e'b] | a2f' b2d' | f2[e'c'] [d'2b2] !Fine!y:|

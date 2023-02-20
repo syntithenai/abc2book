@@ -1,0 +1,34 @@
+X: 20893
+T: LOWELL SETT (tune 6)
+C:
+%R: reel
+N: Version 2 for ABC software that understands crescendo/diminuendo annotations.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: Elias Howe "The Musician's Companion" 1843 p.89 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain has initial repeat but no final repeat; not fixed.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="6"
+ag |\
+f2ag f2ag | f4 c3A | GABd cBAG | ABcA F2ag |\
+f2ag f2ag | f4 c3A | GABd cABG | F2A2F2 H|]
+c2 |\
+(cd)(cd) efge | Qf2cqa Qg2cqb | a2ge Qf2dqf | egfd c2c2 |\
+(cd)(cd) efge | Qf2aqg QBdqc2 | Qdfqb2 Qafqd2 | c4 "^D.C."z2 |]
+|: A2 |\
+(d^cd).B (fef).d | (e^de).A (gfg).e | (fa).g.f (eg).f.e | (df).e.d ^cA=Bc |\
+(d^cd).A (fef).d | (e^de).A (gfg).e | (fag).f ed^ce | e4 "^D.C."d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across and back,
+%% all balance and turn,
+%% all chain,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,29 @@
+X: 4172
+T: the Rock and wee pickle Tow
+%R: jig
+N: This is version 2, for ABC software that understands voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.4 p.17 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: Moved several small notes for "chords" from treble down to bass voice.
+M: 6/8
+L: 1/8
+Q: "SLOW"
+K: F
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+C | C/D/FF (AF).A | (cf)c G2c/B/ | (AF).G A2~G | AFF [F2C2A,2] :|\
+f | .d(df) ~d2f | .d(df) (dc).A | .c(cd) c2d |
+(cf).A G2A | TB>cd dBd | {d}cBA HG2!p!B | (AF)G A2~G | AFF F2f | (f/e/)dd ~d2f | (f/e/)dd {de}f2d |
+(d/c/)cc c2a | {ga}b2a {a}HG2 (f//g//a/) | [bf][ae][gd] [fc][eB][dA] |\
+([cG][fA])A HG2 (g//a//b/) |!p! afg a3/b/g/b/ | aff [f2c2A2] |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z |\
+[f3F3] [f3F3] | a2f [e'2c'2]e | f2e f2c | FAc f2 :|\
+z | [f'3d'3b3] [f'3d'3b3] | [f'3d'3b3] baf |
+[c'2a2f2][d'bf] [c'2a2f2][d'bf] | [c'2a2f2]f [c'2c2]z | [d2D2-][dD] [e2E2-][eE] |\
+[f2F2][fF] H[c'2c2]!p!e | f2e f2c | FAc [a2c'2]x & x3 f2z | d3 d3 & (Bf)f Bff | d3 d3 & Bff Bff |
+c3 c3 & Aff Aff | g2f H[c2e2]z |[K:F clef=treble] dcB AGF |\
+EF [K:F clef=bass middle=d] f H[e'2c'2c2]e |!p! f2e f2c | FAc f2 |]

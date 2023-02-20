@@ -1,0 +1,17 @@
+X: 66
+T: Debka Kurdit
+O: Israel
+C: Moshiko Halevy 1959
+D: Potpourri Israeli folk dances
+M: 2/4
+L: 1/8
+K: Dm
+Q:1/4=120
+%%MIDI program 68 Oboe
+%%MIDI chordprog 32 Acoustic Bass
+%%MIDI bassprog 32 Acoustic Bass
+%%MIDI bassvol 64
+%%MIDI chordvol 64
+"Dm"DA/A/.A.A           |.A.AA2               |"Gm".GG/B/AG|G/F/FF2|\
+"Dm"FF/G/ A/B/A/G/      |"Dm"G/A/G/F/ F/G/F/E/|"F"DG FE    |
+F/G/F/E/"Dm" D2 :: "F"F4|"Gm"G4               |F2E/F/E     |"Dm"D4 :|

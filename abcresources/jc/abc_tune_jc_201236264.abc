@@ -1,0 +1,20 @@
+X: 21842
+T: RUSSIAN NATIONAL ANTHEM
+C: music: Alexis Lvov
+C: words: Vasily Zhukovsky
+R: march
+N: This is a version of "Bozhe, tsarya khrani!", the 1833 Tsarist anthem.
+N: There is a higher (descant) line that can be heard as the melody; this is mostly the low tenor line.
+N: The composer and lyricist weren't mentioned by K\"ohler.
+B: K\"ohler's Violin Repository, v.2, 1885 p.184 #2
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd phrase has initial repeat but no final repeat.  Fixed with final repeat.  Usually sung without repeats.
+M: C|
+L: 1/8
+K: G
+|:\
+vB4 (.c2.c2) | (.B2>>.G2) D4 | e4 d2c2 | B4 e4 |\
+c4 d2d2 | B4 B2^c2 | d4 ^c4 | B4 z4 :|
+|: vc4 (B2A2) | (.B2>>.B2) B4 | B2A2 G2F2 | E4 F4 |\
+G2B2 d2c2 | B2^G2 A4 | [G4B,4] [F4A,4] | H[G6B,6] "^Fine."z2 :|

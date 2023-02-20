@@ -1,0 +1,34 @@
+X: 21452
+T: ALGERINE SETT (tune 5)
+C:
+%R: reel, march
+B: Elias Howe "The Musician's Companion" 1843 p.145 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+{A}G^F |\
+G2G^F G2c2 | e6 c2 | g2f2d2z2 | G2F2D2 {A}G^F |\
+G2G^F GBdB | f6 d2 | a2g2e2z2 | A2G2E2 H|]
+!f!G2 |\
+c2cc c2c2 | B2F2 A2B2 | c2cc c2c2 | B2G2 A2B2 |\
+cdBc A4 | gafg e2d2 | e4 B4 | c4 "^D.C."z2 |]
+!p!EF |\
+"_>"G4 ABcd | e4 dcBA | G2E2 {G}FEFG | EFDE C2EF |\
+G4 ABcd | e4 dcBA | G2^FG A2BA | G4 "^D.C."z2 |]
+Bc |\
+A2F2 z2Bc | G2E2 z2Bc | A2F2 z2Bc | G2E2 z2ag |\
+f2d2 z2ag | egfe dcBc | Adgf edcB | cedc BAG"^D.C."^F |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across partners and back,
+%% all balance partners and turn,
+%% four ladies cross hands round and back,
+%% gentlemen the same,
+%% all balance corners and turn partners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

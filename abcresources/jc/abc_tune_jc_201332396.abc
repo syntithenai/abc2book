@@ -1,0 +1,53 @@
+X: 1
+T: Rummer
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.100 #136 (200)
+N: Compared with http://archive.org/stream/dancingmasterord00play p.116 to veryify the illegible parts.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The first f in bar 3 looks somewhat like a g in CCDM1, but DMDfD has a clear f that makes better sense musically.
+N: The dances are identical, with differences in capitalisation, spelling and punctuation.
+M: 6/4
+L: 1/4
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+A>GF A/B/dA | (B/c/)dB c2c |\
+f>ed (e/f/)ge | fFF F2 |]\
+f |\
+f>ga gab | a>gf e>fg |
+f>ef dgf | ecc c2c |\
+def c2f | B2f A2f |\
+G>gf e>de | fFF F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. cast off and go down below the 3d Cu. then lead up again
+%% in the Middle and slip into the 2d Cu. Place, while the 2d Cu. slips
+%% into the 1st Cu. Place.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First and 2d Cu. go Back to Back with their own, and take right and
+%% left Hands all four with their own and go round, 'till the 1st Cu come
+%% in the 2d Cu. Place and the 2d Cu. in the 1st Cu. Place, then 1st and 2d
+%% Cu. go Back to Back with their own, and then take right and left
+%% Hands with their own, and go quite round 'till they come into the 2d
+%% Cu. Place, the rest do the like.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. cast off and go down below the 3. Cu. then lead up again in the middle and slip into the 2.
+%% cu. place, while the 2. cu. slips into the 1. cu. place.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then 1. and 2. cu. go back to back with their own, and take right and left-hands all four with their own
+%% and go round, 'till the 1. cu come in the 2. cu. place and the 2. cu. in the 1. cu. place, then 1. and 2. cu.
+%% go back to back with their own, and then take right and left-hands with their own, and go quite round
+%% 'till they come into the 2. cu. place. The rest do the like.
+%% [CCDM1]
+%%endtext
+%%sep 1 8 500

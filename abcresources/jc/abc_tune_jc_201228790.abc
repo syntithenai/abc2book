@@ -1,0 +1,30 @@
+X: 11611
+T: OR SON D' ELENA INVAGHITO.
+T: From the Comic Opera "Un' Avventura di Scaramuccia."
+C: Luigi Ricci.
+Q: "Moderate."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.161 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: First note (E) shortened by adding flag, to fix the rhythm.
+N: The segno symbols are a bit redundant.
+M: 2/4
+L: 1/16
+K: Eb
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!segno!|:\
+B4 B4 | c3(B/A/) G2z2 | (G4 B4) | =E4 F2z2 |\
+A4 c4 | c4 D3F | A6 G2 | G4 E2z2 |\
+B4 B4 | (c3B/)A/ G3G | G4 G4 | (A3G/F/ E4) |
+(E3F) (G3A) | (3(B2g2d2) (3(f2e2c2) | (3(=A2c2B2) (3(F2_A2G2) | E4 z4 |\
+A4 G4 | A2B2 c4- | c2(dc) (cB)(B=A) | =A4 B2z2 |\
+_A4 G4 | (A2B2) c4- | c2(dc) (=Bc)(F_B) | (A4 G2)Hz2 |
+B4 B4 | (c3B/A/) G4 | (EFGA) (Bc)(de) | =B4 c2z2 |\
+f4- f(edc) | c4- c(BAG) | B4- BA (GF) | E2z2 (GE)(cB) |\
+A2z2 (GA)(Bc) | B3e d3c | =B3c F3A | G2z2 (GF)(cG) |
+A2z2 (GA)(Bc) | HB2g2 f2e2 | Hd2B2 A2F2 | E2"^Fin."z2 z4 H|]\
+z4 B3B | {d}c2c2 z4 | z2B2B2B2 | {A}G2G2 z4 |\
+z4 B3B | {d}c2c2 z4 | B4 (c3d) | He8 !segno!:|"^D.C."y8
+% - - - - - - - - - - - - - - - - - - - - - - - - -

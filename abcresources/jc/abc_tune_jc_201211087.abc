@@ -1,0 +1,18 @@
+X: 207
+T:Flatbush Waltz
+C:Andy Statman
+D:Flatbush Waltz; Rounder 00116 (1980)
+Z:John Chambers <jc@trillian.mit.edu>
+L:1/8
+M:3/4
+R:Waltz
+S:Frets Magazine, Dec 1980
+K:Gm
+[| "Gm"d3 g dc | B2 G2 G2 | d3 g dB | "Cm"c3 e dc \
+| "Gm"GA Bc dB/d/ | "Cm"cG c2 c2 | "Gm"B3 c "Ab"_AB  | "Gm"G3/2G,/ B,D GB ||
+|| "Gm"[d3G3] [gd] [dB][cA] | [B2G2] [G2D2] [G2D2] | [d3B3] [gd] [dB][BG] | "Cm"[c3G3] f (3edc \
+| "Gm"Bc de fd | "Cm"cG c2 c2 | "Gm"B3 c "Ab"_AB  | "Gm"G6 ||
+|| "Gm"[b4d4] [ac][gB] | "D7"[ac]D [d^F]A d^f | "Eb"[g2B2] [f3A3] [eG] | "B"[d6F6] \
+| "Cm"[e2G2] [d2F2] [c2E2] | "Gm"[d2F2] [g2B2] [a2c2] | [b3d3] [ac] [bd][c'e] | "D7"[a6c6] ||
+|| "Gm"[b4d4] [ac][gB] | "D7"[ac]D [d^F]A d^f | "Eb"[g2B2] [f3A3] [eG] | "B"[d6F6] \
+| "Cm"[e2G2] [d2F2] [c2E2] | "Gm"[d2F2] [G2B,2] [c2E2] |  "Gm"[B3D3] [cE] "Ab"[_AC][BD]  | "Gm"[G6B,6] |]

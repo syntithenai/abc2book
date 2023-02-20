@@ -1,0 +1,32 @@
+X: 10712
+T: COTILLION No. 2. tune 4
+C:
+%R: jig
+N: This is version 1, for ABC software that doesn't understand diminuendo notation.
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.71 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!p!A |\
+{A}!f!f2!p!e !f!d2!p!A | {A}!f!f2!p!e !f!d2!p!A | ABc def | "^>"a2g e2!p!A |\
+{A}!f!g2!p!f !f!e2!p!A | {A}!f!g2!p!f !f!e2A | ABc cde | eac d2 H|]
+A |\
+!pp!ABc def | gaf dec | Ad/f/a Ac/e/a | dfa g/f/e/d/c/B/ |\
+ABc def | ga/g/f/e/ de/d/c/B/ | Ad/f/a Ac/e/a | dAf "^D.C."d2 |]
+A |\
+!pp!A2d d2f | afg agf | "^dim..."(bag) "^dim..."(gfe) | "^dim..."(ed)^c "^dim..."(cB)A |\
+A2d d2f | f2a a2d | e2e efe | dAF "^D.C."D2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All alamand corners,
+%% partners the same,
+%% all balance to corners,
+%% turn partners,
+%% ladies chain,
+%% promenade 4.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

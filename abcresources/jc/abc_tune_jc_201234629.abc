@@ -1,0 +1,33 @@
+X: 20661
+T: FLOW THOU REGAL PURPLE STREAM
+Q: "Bold but not too Fast"
+%R: reel
+B: "Edinburgh Repository of Music" v.2 p.66 - p.67
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Bar 74: flag added to 2nd d note to fix the rhythm.
+M: C
+L: 1/8
+K: D
+[|\
+d4 Te4 | {de}f2d2 (fe)(dc) | {c2}d4 g3f | (fe) zd c2Td2 |\
+{d2}e4 z4 | d4 Te4 | {de}f2d2 (fe)(dc) | {c2}d4 f3f |
+fefd c2B2 | A4 a3^g | (f^g)(fe) (de)(dc) | B2z2 B3A |\
+^GAGF EFED | A2z2 E2(F^G) | (A^G)(AB) (cB)(cd) | e2z2 (dc)(Bc) |
+(dc)(de) (fe)(f^g) | a2z2 (fe)(dc) | (dB)(cd) (ed)(cB) | cABc dBcd |\
+e2f2 d2e2 | a4 (fe)(dc) (dB)(cd) e2E2 | A4 "_sym:"ba^fa | fTa^ga baga |
+e2Ta^g/a/ c'bag | fedc B2^g2 | a2zA A3B | c3d e3f |\
+=g3z g3g | f2(3gfe d2c2 | B2zB f3e | (ed)(cB) (B^A)(^GF) |
+B3z f3e | (ed)(cB) (B^A)(^GF) | B2zB g3f | g2zg f2f2 |\
+f4 e3e | e2d2 (fe)(dc) | A4 g3g | (gf)(ed) (fe)(dc) |
+"[p.67]"B2(dc) (BA)(GF) | E2(gf) (ed)(cB) | c2ed (cB)(AG) | F2ag fedc |\
+Bcdc BAGF | GABA GFED | A2z"_F."A d2d2 | c3A d2d2 |
+HA4 z4 | "_P."d4 Te4 |{de} f3d (fe)(dc) | d2z2 g2f2 |\
+{f}e2zd c2d2 | {d2}e4 z4 | d4 Te4 | {de}f2d2 (fe)(dc) |
+d2zd (gf)(ed) | c2zd (fe)(dc) | d4 z4 | z4 d2(fe) |\
+(de)(dc) (BA)(GF) | E2z2 e2(gf) | (ef)(ed) (cB)(AG) | F2z2 F2A2 |
+d3A d2f2 | d2zD F2A2 | d2zA d2f2 | d2z2 (ag)(fe) |\
+(dc)(BA) (GF)(ED) | A2zA d2f2 | B2d2 (fe)(dc) | d2z2 g3g |
+f2d2 (fe)(dc) | d2zd g3g | f2zd fedc | d4 f4 |\
+g4 e4 | f4 f4 | g4 e4 | d4 "_sym"d'2d'2 |\
+d'2d'2 d'2d'2 | d'd'd'a d'd'd'a | d'4 d'4 | d'4 z4 |]

@@ -1,0 +1,119 @@
+X: 1
+T: Otce Nash
+T: (Pater Noster)
+C: Nikolaj Kedrov Sr.
+Z: Edited by Guido Gonzato <ggonza@tin.it>, abcusers 22 June 2002
+M: none
+L: 1/4
+Q: "Adagio"
+% %staves [1 2 3 4]
+V:1 clef=treble % name="Soprano"
+V:2 clef=treble % name="Alto"
+V:3 clef=treble-8 % name="Tenor"
+V:4 clef=bass % name="Bass"
+K: C
+%
+% 1 - 2
+%
+[V:1] !pp!E2 E !breath!E4 |EEEEEEE F4    |
+w: Ot- che nash, i- je ye- si na ne- be- seh,
+[V:2] !pp!C2 C !breath!C4 |CCCCCCC C2 B,2|
+w: Ot- che nash, i- je ye- si na ne- be- seh,_
+[V:3] !pp!G2 G !breath!G4 |GGGGGGG G4    |
+w: Ot- che nash, i- je ye- si na ne- be- seh,
+[V:4] !pp!c2 c !breath!c4 |ccccccc d4    |
+w: Ot- che nash, i- je ye- si na ne- be- seh,
+%
+% 3
+%
+[V:1] FFFF G2 GG !breath!G2    |
+w: da svya- ti- tsya i- mya Tvo- ye,
+[V:2] B,B,B,B, D2 CC !breath!C2|
+w: da svya- ti- tsya i- mya Tvo- ye,
+[V:3] GGGG G2 GG !breath!G2    |
+w: da svya- ti- tsya i- mya Tvo- ye,
+[V:4] dddd e2 ee !breath!e2    |
+w: da svya- ti- tsya i- mya Tvo- ye,
+%
+% 4 - 5
+%
+[V:1] GGGG G2 FFE F4  |F F2 F2 F2 EG !breath!D2 |
+w: da pri-i-dyet tsar-stvi-e Tvo-ye, da bu-dyet vo-lya Tvo-ya
+[V:2] CCCC C2 CCC C4  |C C2 C2 C2 CC !breath!B,2|
+w: da pri-i-dyet tsar-stvi-e Tvo-ye, da bu-dyet vo-lya Tvo-ya
+[V:3] GG(c_B) B2 AAG A4|A A2 A2 A2 GG !breath!G2|
+w: da pri-i-dyet tsar-stvi-e Tvo-ye, da bu-dyet vo-lya Tvo-ya
+[V:4] eeee f2 fff f4  |f f2 e2 d2 ee !breath!g2 |
+w: da pri-i-dyet tsar-stvi-e Tvo-ye, da bu-dyet vo-lya Tvo-ya
+%
+% 6
+%
+[V:1] D2 DDDE F2 E D2 C2 !fermata!D4   |
+w: ya-ko na ne-be-si i na zye-mgli.
+[V:2] B,2 BBBC C2 C B,2 C2 !fermata!B,4|
+w: ya-ko na ne-be-si i na zye-mgli.
+[V:3] G2 GGGG A2 G G2 A2 !fermata!G4   |
+w: ya-ko na ne-be-si i na zye-mgli.
+[V:4] g2 ggge d2 e g2 a2 !fermata!g4   |
+w: ya-ko na ne-be-si i na zye-mgli.
+%
+% 7
+%
+[V:1] !pp!E2 EEEE F2 F F2  |
+w: Chlyeb nash na-sush-nyi dashd nam dnyes
+[V:2] !pp!C2 CCCC C2 B, B,2|
+w: Chlyeb nash na-sush-nyi dashd nam dnyes
+[V:3] !pp!G2 GGGG G2 G G2  |
+w: Chlyeb nash na-sush-nyi dashd nam dnyes
+[V:4] !pp!c2 cccc d2 d d2  |
+w: Chlyeb nash na-sush-nyi dashd nam dnyes
+%
+% 8
+%
+[V:1] FF G2 GGGG G2 F2   |
+w: i a-sta-vi nam do-lghi na-sha,
+[V:2] B, B, D2 CCCC C2 C2|
+w: i a-sta-vi nam do-lghi na-sha,
+[V:3] GG G2 GGc_B B2 A2  |
+w: i a-sta-vi nam do-lghi na-sha,
+[V:4] dd e2 eeee f2 (fe) |
+w: i a-sta-vi nam do-lghi na-sha,_
+%
+% 9 - 10
+%
+[V:1] F2 FEG !breath!D2 DE F2   |FFF (E2 C) (D2 C2) D4    |
+w: ya-ko-je i myi a-sta-vlya-yem dol-jni-kam_ na - shim,
+[V:2] C2 CCC !breath!B,2 B,C C2 |CCC (C2 A,) (B,2 A,2) B,4|
+w: ya-ko-je i myi a-sta-vlya-yem dol-jni-kam_ na - shim,
+[V:3] A2 GGG !breath!G2 GG A2   |AAA G3 (G2 E2) G4        |
+w: ya-ko-je i myi a-sta-vlya-yem dol-jni-kam na - shim,
+[V:4] d2 dee !breath!g2 ge d2   |ddd e3 g4 g4             |
+w: ya-ko-je i myi a-sta-vlya-yem dol-jni-kam na-shim,
+%
+% 11
+%
+[V:1] z EEE (E2 G2) ccBA G2 F2 E2 |
+w: i nye ve-di_ nas va i-sku-she-ni-ye,
+[V:2] z CCC E4 EEEF (GC) (CB,) C2 |
+w: i nye ve-di_ * nas va i-sku-she-ni-ye,
+[V:3] z GGG c4 cccc (cG) G2 G2    |
+w: i nye ve-di_ nas va i-sku-she-ni-ye,
+[V:4] z ccc (c'2 b2) aagf e2 d2 c2|
+w: i nye ve-di_ nas va i-sku-she-ni-ye,
+%
+% 12
+%
+[V:1]
+!pp!DD G2 D G2|CD E4 E4 E4       |E2 E4 |]
+w: no i-zba-vi nas ot lu-ka va-go. A-min!
+[V:2]
+!pp!CC C2 C C2|CC (C2 A,2) B,4 C4|B,2 C4|]
+w: no i-zba-vi nas ot lu-ka_ va-go. A-min!
+[V:3]
+!pp!AA G2 A G2|AA (G2 E2) G4 G4  |G2 G4 |]
+w: no i-zba-vi nas ot lu-ka_ va-go. A-min!
+[V:4]
+!pp!ff e2 f e2|ff c4 g4 c4       |G2 C4 |]
+w: no i-zba-vi nas ot lu-ka va-go. A-min!
+%
+% End of file Otche_Nash.abc

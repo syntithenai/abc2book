@@ -1,0 +1,26 @@
+X: 45
+T: Irish Mad Song
+T: Endearing Young Charms
+%R: jig
+B: "The Hibernian Muse" p.28 #1
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. XLV.
+M: 6/8
+L: 1/16
+Q: "Slow"
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A>G |\
+(F3GF2) (F2A2c2) | (B2d2f2) f4 e>d | c3BA2 G2F2G2 | A6 z4 A>G |\
+F3GF2 F2A2c2 | B2d2f2 f4 e>d | c2f2A2 TG3FG2 | F6- F4 c>B |
+A4f2 ~f4 e>d | (cA3)f2 Hf4 e>d | c3BA2 G2F2G2 | A6 z4 A>G |\
+(F3GF2) (F2A2c2) | (B2d2f2) H{eg}f4 e>d | c3fA2 TG3FG2 | F6- F4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+f4a2 f4a2 | b4d'2 b4g2 | a4f2 e4c2 | f2a2c'2 f4c2 |\
+f4a2 f4a2 | b4d'2 b4g2 | a4f2 c'4c2 | f4 (c/B/A/G/) F4z2 |
+F4f2 F4f2 | F4f2 HF4z2 | a4f2 e4c2 | f2a2c'2 f4c2 |\
+f4a2 f4a2 | b4d'2 Hb4g2 | a4f2 c'4c2 | f4c2 F4 |]

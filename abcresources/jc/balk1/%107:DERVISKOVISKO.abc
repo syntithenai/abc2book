@@ -1,0 +1,22 @@
+X: 107
+T: Dervisko Visko
+T: Kopacka
+O: Macedonia
+Z: Deborah Jones
+M: 2/4
+L: 1/8
+Q: 1/4=120
+K: C
+%%MIDI program 23
+%%MIDI bassprog 35
+%%MIDI chordprog 32
+%%MIDI bassvol 80
+%%MIDI chordvol 90
+|:    "Am"(3deg (3eGe     |(3eed (3ddc      |(3cdG (3 dGd      | (3ccB (3AAG |
+      (3GAB (3cGc         |(3dcB (3BBA      |(3dAA (3A-AA      | A2 Az       :|
+      (3GAB (3cGc         |(3dcB (3BBA      |(3dAA (3A-AA      |A2 Az        |
+|:    "Am" [A2e2] [Ae][Ae]|[Ae][Ad] [Ad][Ac]|[A2d2] [Ac][AB]   |
+      [A2A2] [A2G2]       |[A2c2] [Ac][Ac]  |\
+      [Ac][Bc] [AA][AG]   |[Ac][AB] [AA][GA]| [A2A2] [AA][AA]  |
+      [A2A2] [A2G2]       |[A2c2] [Ac][Ac]  | [Ac][Bc] [AA][AG]|\
+      [A2A2] [AA][AA]     |[A2A2] [AA] z    :|

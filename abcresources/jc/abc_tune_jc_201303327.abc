@@ -1,0 +1,52 @@
+%%abc 2.0 [abcm2ps]
+
+X: 1
+T: Londonderry Air (G)
+T: Air from County Derry
+T: Danny Boy
+C: trad. Ireland
+N: Arrangement from Miss Jane Ross of Limavady, County Londonderry; tweaked by John Chambers.
+B: "Ancient Music of Ireland", George Petrie (editor), 1855
+F: https://archive.org/stream/petriecollection01petr#page/56/mode/2up
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: C
+L: 1/8
+Q: "Andante."
+K: G
+V: M staves=2
+V: H
+V: B clef=bass middle=d
+%%score {(M|H) B}
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: M % staves=2 nm=M
+FGA |\
+"G"B3A Be dB | "C"AGE2 "D7"zGBc |\
+"G"d3e dBGB | "D7"A4 zFGA |
+%
+"G"B3A Be dB | "Em"AGED "C"EFGA |\
+"G"!p!B3c "D7"BAGA | "G"G4 z |] "D7"def |
+%
+"Em"g3f "C"fe"G"dB | "G"dBG2 zdef |\
+ "G"g3f "C"fe"G"dB | "D7"A4 zddd |
+%
+"G"b3a ag "C"eg | "G"dBG2 "D7"zFGA |\
+"G"Be dB "C"AG "D7"EF | "G"G4- G |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: H
+z3 |\
+!p!zDEF Gc BG | E2E2 zDGA | B2Gc BGD2 | F4 x4 |
+zDEF Gc BG | E4 CDE2 | D3E DCB,C | B,4 z |] d^c=c |
+B3A G2G2 | BGD2 zd^c=c | B3A G2G2 | F4 x4 |
+!f!d3c B2 c2 | BG D2 z2 z2 | !p!G3D E2C2 | B,4- B, |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: B
+zz2 |\
+g4 G4 | c2c2 d2f2 | g2d2 g2bg | d2fa d'c'ba |\
+g4 G4 | e2f2 g2c2 | d4 d4 | g2d2 G |] zz2 |
+e2b2 c'2b2 | g2ba g2z2 | g4 c'2bg | d2a2 d'c'ba |
+g4- gGce | g2bg d'c'ba | g2B2 c2d2 | g2d2 G |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

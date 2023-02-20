@@ -1,0 +1,25 @@
+X: 35
+T: Drimen Duff
+%R: waltz
+B: "The Hibernian Muse" p.21 #2
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Roman-numeral label says "No. XXX", but it's obviously XXXV.
+P: No. XXX(V).
+Q: "Slow"
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+AB |\
+{d2}Tc4 B2 | A2 G2 AB | {d2}Tc4 B2 | {B2}A4 GA |\
+B4 A2 | G2 (E>DE>G) | g2 (dB)(cA) | TG4 AB |
+{d2}c4 B2 | A2 G2 AB | {d2}c4 B2 | A4 B2 | (cBcde)g | a4 g2 | (ed) B2 dB | {B}A4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+fg |\
+a4 g2 | f2 g4 | a2 f2 g2 | d2 D2 z2 |\
+g2 G2 d2 | B2 c4 | B2 G2 d2 | e4 fg |
+a4 g2 | f2 g2 fg | a2 f2 g2 | f2 d2 g2 |\
+e2 c2 cB | A2 f2 g2 | c2 d2 G2 | D4 :|

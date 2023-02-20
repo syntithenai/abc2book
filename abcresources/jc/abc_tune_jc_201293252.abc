@@ -1,0 +1,58 @@
+X: 1
+T: Galope de la Malbaie
+C:
+R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: printed copy of unknown origin, from Paul Lizotte
+M: C|
+L: 1/8
+K: D
+|:\
+"D"DFAd "B7/d#"fz ff | "Em"egec "A7"dBA2 | "D/f#"FAFA "G"GBGB | "D/f#"FAFA "Em"EAEA |
+"D"DFAd ffdf | "A7"egec "Bm"dBAF | "D/f#"DAFA "G"GBGB | "A7"Acec "D"d2z2 :|
+|:\
+"A7"Adef gfge | "D"defg "B7"a2AA | "Em"Adef "A"gfgb | "D"afge fdfd |
+"Em"Acef "A7"gfge | "D"defg afge | "Em"fdec "A7"dBAG | FABc "D"d2z2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Reel du Grandp\`ere
+O: Qu\'ebec
+R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: printed copy of unknown origin, via Paul Lizotte
+M: C|
+L: 1/8
+K: G
+(3DEF |\
+"G"G2FG (3EGE DF | GABc d3d | "C"ef (3gfe "G"dBGB | "Am"ABAG "D7"FDEF |
+"G"G2FG (3EGE DF | GABc d3d | "C"ef (3gfe "G"dBGB | "D7"ABAF "G"G2 :|[K:D]
+|: AG |\
+"D"FA- AA ABAG | FAde f3f | "G"gfeg "D"fedf | "Em"edcB "A7"ABAG |
+"D"FA- AA ABAG | FAde f3f | "G"gfeg "D"fedf | "A7"efec "D"d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Mademoiselle McCloud
+O: Qu\'ebec
+R: reel
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+S: Roaring Jelly collection
+M: C|
+L: 1/8
+K: G
+%%staffsep 35
+cBA |\
+"G"G2Bd edBg- | gBBA BcBA |\
+"G"G2Bd "E/g#"edBg- | "Am"gAAG "D"AcBA |
+"G"G2Bd edBg- | gBBA Bdef |\
+"C"gage "D"d2fa | "Em"gedB "D7"A :|
+|: def |\
+"G".g2.f2 "D"edBg- | "Em"gBBA "D"Bdef |\
+"G"gage "D"d2fa | "Em"gedB "D"Adef |
+"G".g2.f2 "D"edBg- | "Em"gBBA "D"Bdef |\
+"C"gage "D"d2fa | "Em"gedB "D7"A :|["end" cBA | "G"HG4 |]
+
+%%sep 1 1 500

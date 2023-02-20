@@ -1,0 +1,37 @@
+X: 2057
+T: la Doncaster.
+%R: _
+B: Henry Playford "Apollo's Banquet", London 1687 (5th Edition)
+F: https://archive.org/details/apollosbanquetco01rugg
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: In bars 9-12 there are some missing counts; not fixed because it's not obvious how to do it right.
+M: 3/2
+L: 1/8
+K: G
+% - - - - - - - - - -
+zB |\
+B6 AG d3d | d6 g2 a2b2 |\
+g3f e2a2 a3g | f6 g2 a2e2 |\
+=f3e d2e2 e3d | ^c6 d2 _B3A |\
+_B6 e2 e3=f |
+^c3c d3e e3d | d6- d4 ::\
+A2B2c2 B2B2e2 | d2e2f2 g4g2 |\
+e2B2c2 c2d2 | e2c3B A4A2 |\
+a2e2f3 ga2 | d2g2a2 b6 |
+e6 f3ga2 | d2g2a2 b6 |\
+e6 f3ga2 | g2g3f g4g2 |\
+B2B2e2 d2G2c2 | B2A3G F3ABc |\
+d3cB2 e4B2 | c2A3G G6 |
+[M:C|]\
+d2d2 ABc2 | B2 G4 g2 | e2a2 f3g | a6 gf |\
+g2 B4 ^c>d | ^c2 A4 e>e | =f2ed d3^c | d6 cB |\
+c3d e2d2 |
+c3B c2A2 | d2G2 E2A2 | F6 dc |\
+B2 B4 cd | e2 e4 af | g2Bc A3G | G8 |\
+[M:3/2]\
+B2c2d2 d3cB2 | e2f2g2 f3ed2 |
+g3de=f e2e4 | a3efg f3ga2 |\
+gfe3d d6 | A2B2c2 B3cd2 |\
+e2c3B A3GF2 | dedcdB e3ef2 |\
+g2g3f g6 |]
+% - - - - - - - - - -

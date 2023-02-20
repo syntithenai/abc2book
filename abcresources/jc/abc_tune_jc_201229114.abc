@@ -1,0 +1,25 @@
+X: 11
+T: St James's Park
+%R: march, reel
+B: "Twenty Four Country Dances for the Year 1782", Thomas Skillern, ed. p.6 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1782#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The rhythms at the strain boundares aren't quite right; not fixed.
+M: 2/4
+L: 1/8
+K: Bb
+F |\
+B2dB | cAGF | B2dB | c2e2 |\
+B2dB | cAGF | GBAc | B2B, :|
+|: F |\
+B2dB | cece | B2dB | cAGF |\
+B2dB | cece | dcBA | B2 B, :|
+|:\
+f2 (f/g/a) | fdcB | g2 g/a/b | gedc |\
+f2 f/g/a | fdcB | ecBA | B2 B,2 :|
+%%begintext align
+%%   Hands across & back again
+%% Lead down two Couple up
+%% again and cast off Hands
+%% Six round.
+%%endtext

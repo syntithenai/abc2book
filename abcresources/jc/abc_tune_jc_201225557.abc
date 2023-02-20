@@ -1,0 +1,21 @@
+X: 97
+T: DASHING WHITE SERJEANT
+%R: reel
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.39
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The double bar at the start of the 2nd strain is a bit odd.
+N: The "f" symbols are positioned before the chords; ABC can sorta handle this.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+D2D2 DEFG | A2A2A2 fe | d2B2A2F2 | B2E2E2 FE |\
+D2D2 DEFG | A2A2A2 f2 | e2d2c2B2 | A2A2A2 :|
+|] A2 |\
+A2AB c2cd | e2ec A4 | B2Bc d2de | f2fd B4 |\
+c2c2 d2d2 | e2e2 f2f2 | g6f2 | edcB AGFE |
+D2d2 dcde | d2A2 A4 | B2e2 edef | e2B2 B4 |\
+A2d2 dcde | f2d2 dcde | "_f"y"^>"[f4A4] "_f"y"^>"[a4c4] | "_f"y"^>"[d6F6] H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

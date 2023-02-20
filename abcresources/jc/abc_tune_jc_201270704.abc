@@ -1,0 +1,32 @@
+X:1
+T: The Duchess of Brunswick
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 32 notes)
+K:G
+M:4/4
+L:1/16
+d2 c2 B2 A2 G4 B4 |G4 B4 G4 B4 |A4 c4 A4 c4 |A4 c4 d8 |d2 c2 B2 A2 G4 B4 |G4 B4 G4 B4 |A4 c4 A4 F4 |G16 |
+%W: A2
+% voice 1 (1 lines, 32 notes)
+d2 c2 B2 A2 G4 B4 |G4 B4 G4 B4 |A4 c4 A4 c4 |A4 c4 d8 |d2 c2 B2 A2 G4 B4 |G4 B4 G4 B4 |A4 c4 A4 F4 |G16 |
+%W: B
+% voice 1 (1 lines, 28 notes)
+d4 c4 B4 A4 |c4 B4 A4 G4 |B4 A4 G4 F4 |G4 B4 D8 |d4 c4 B4 A4 |c4 B4 A4 G4 |B4 A4 G4 F4 |G16 |
+%W: C
+% voice 1 (1 lines, 28 notes)
+B4 d4 B4 d4 |A4 c4 A4 c4 |B4 A4 G4 F4 |G8 E8 |B4 d4 B4 d4 |A4 c4 A4 c4 |B4 A4 G4 F4 |E12 g4 |
+%W: D
+% voice 1 (1 lines, 18 notes)
+B8 A8 |G8 G4 g4 |B8 A8 |G8 c8 |B8 A8 |G4 g4 G4 g4 |B8 A8 |G16 |
+%W:
+% voice 1 (1 lines, 22 notes)
+B8 c8 |d8 c4 B4 |c8 B4 A4 |B4 c4 d4 g4 |B8 B4 c4 |d8 g8 |e4 c4 A4 F4 |G16 ||

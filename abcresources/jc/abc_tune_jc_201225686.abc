@@ -1,0 +1,31 @@
+X: 9
+T: FUN AND FIDDLES
+B: Button & Whitaker "Twelve Elegant New Dances for the year 1810" #9
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Elegant_New_Dances_for_1810_%28Various%29
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+B |\
+d2d f2f | gab b2d | cde e2c | ABc c2c |\
+d2d f2f | gab b2d | c2c edc | B2B B2 H:|
+c |\
+edc c2c | fed d2d | bag fed | edc c2c |\
+def def | gab gab | fed edc | Bfd B2 "^D.C."y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z |\
+B2b B2b | B2b B2b | F2f F2f | F2f F2f | B2b B2b |
+B2b B2b | F2f F2f | B2b B2 H:| z | F2f F2z | B2b B2z | B2b B2b |
+F2f F2f | B2b B2b | E2e E2e | F2f F2f | B2b B2 "D.C."y|]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Half right & left, back again,
+%% down the mid: up again, Swing corners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

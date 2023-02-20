@@ -1,0 +1,33 @@
+X: 20933
+T: COLUMBIAN SETT (tune 6)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.93 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The rhythms don't quite work at the strain boundaries; some tweaking will be necessary.
+M: 2/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="6"
+[|\
+Ac c2 | dc c2 | f2 af | f3 e |\
+f2 fe | ed d2 | B(c/B/) AB/A/ | G2 c/B/ H|]
+Ac c2 | dc c2 | f2 ag | f2 ec |\
+f3 f | gf dB | Ac BG | F3 "^D.C."z |]
+c |\
+c3 c | c3 c | f2 fe | e2 dz |\
+G3 A/=B/ | c3 =B | =BA fd | c3 B |\
+g3 e | gfed | c3 d/e/ | G3 A/B/ |\
+c3 =B | A=B ce/d/ | c3 B | cBA"^D.C."G |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All balance to the right,
+%% all promenade,
+%% all chassa across and back,
+%% all chain,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

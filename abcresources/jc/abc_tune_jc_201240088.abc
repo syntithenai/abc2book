@@ -1,0 +1,24 @@
+X: 363
+T: Donald Simon.   a Reel.
+C: by Wm Christie
+R: reel
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c."
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+c |\
+TB>D D/D/D (BD)FD | E>C C/C/C c2Tc>d | {c}B>D D/D/D BDFD | E>C C/C/C {C}B,2B, :| e | {e}d>f f/f/f bdfd | {d}e>c c/c/c g2Tg>a |
+b>B B/B/B fBdB | Tc>F .A/.B/.c {c}B2Be || d>f f/f/f bdfd | {d}e>c c/c/c g2Tg>a | bfdf gecB | (A/B/c) {c}e>c {c}B2B |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+B2B2 B2B2 | c2A2 F2f2 | B2B2 B2B2 | e2f2 B2B :| z | B2b2 b2b2 | c'2c2 e2e2 |
+d2B2 d2B2 | f2F2 B2B2 || B2b2 b2b2 | c'2c2 e2e2 | d2B2 e2e2 | f2F2 B2B |]
+% = = = = = = = = = =

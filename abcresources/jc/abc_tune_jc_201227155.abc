@@ -1,0 +1,26 @@
+X: 10633
+T: ROTHIEMURCHIE'S RANT
+Q: "Strathspey."
+%R: strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.63 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+TE3DE2C2 E2G2TG4 | c3GA3G c3GAc3 |\
+E3DE3C E3GG3c | A3cG3c E2D2D2 :: g2 |\
+{f}e4 d3c Td3ed2A2 | Tc3de2d2 (ed).c.B c2G2 |
+AAA2 a3g {f}e4 d2c2 | A2c2G2c2 E2D2D2 :: f2 |\
+e2g2g3a Tg3ag2d2 | e2a2a3b a3ba2g2 |\
+e3gd3e c3de3c | A2a2g3f e2d2d2 :| g2 |\
+(f2e2)(d2c2) de3 a4 |
+g2e2e3d Tc4A2c2 |\
+G3Ac3d (cde2) Td3c | A3cG3c E2D2D2g2 |\
+(f2e2)d2c2 de3 {^g}a4 | ge3e3d Tc4 A2eg |\
+a3eg3d {f}e4d2c2 | (A3B/c/) G3c E2D2D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,20 @@
+X: 2169
+T: DRUMINS
+Q: "Strathspey."
+R: Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.2 p.19 #169
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Fixed the rhythm in the last bar by adding a flag to make the 1st note (B) a 16th-note.
+N: The beaming in the last bar is a bit odd; not fixed.
+M: C
+L: 1/16
+K: D
+uF2 |\
+(DE)FG uA3uF DDD2 TB4 | (Ad3)uA3uF vGE3E3uF |\
+(DE)FG uA3uF DDD2 TB4 | (Ad3)A3G FD3D2 ::\
+ug2 |\
+vf3veud3ue ddd2 Tf4 |
+vd3veuf3ud eE3E3ug |\
+[1 f3ed3e ddd2 Tf4 | (Bd3) A3G FD3D2 :|\
+[2 (fb3) (e3f) vd3veuf3ue | (Bd3) A3GFD3 D4 |]

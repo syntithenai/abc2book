@@ -1,0 +1,26 @@
+X: 1
+T: the Russel
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.342
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice over" instruction.
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f |\
+b2f d>cB | c>dc A>GF | f>gf g>de | d>cB B2f |\
+b2f d>cB | c>dc A>GF | f>gf =ecf | f2=e f2 :|
+|: c |\
+A>Bc F>fe | d>ef B>ba | g>ag ^fdg | g2^f g2a |\
+bfd gec | fdB ecA | dBG cAf | d>cB B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text Note: Each Strain twice over.
+%%begintext align
+%% The first cu. cast off, then the 2. cu. and then the 3. cu. then lead up to the top and cast off, and
+%% right and left with the 3. cu. then first Hey on the mens side, and then on the we. side.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

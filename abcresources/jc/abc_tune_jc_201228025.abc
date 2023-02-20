@@ -1,0 +1,29 @@
+X: 11041
+T: COTILLION No. 18. Basket Sett tune 1
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.104 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!ff!.c.e |\
+a2.A.c e2EA | c2.C.E A2.A,.C | (EA).c.e a2.b.a | (ag).f.g a2.g.a |\
+(ba)cd (fe).A.B | (dc)(fe) (ga).e.c | A2.g.f .e.d.c.B | A2a2a2 H|]
+!f!(af) |\
+("_>"^d2e2) ("_>"f2e2) | (c2e2) .A2.c2 | (cd).B2 (f2e2) | (ce)A2 ("_>"a3f) |\
+("_>"^d2e2)("_>"f2e2) | (c2e2).A2.c2 | (Bb).a.f (^dB).A.F | E2e2"^D.C."e2 |]
+[K:Am] !p!e2 |\
+(ec).A2 .e2.f2 | (ec).A2 .e2.f2 | .e2.a2.^g2.a2 | (a4 "<>"b2)z2 |\
+(ec)A2 .a2.g2 | (fd).A2 .f2.d2 | c2[a2c2][a2B2][^g2B2] | [a4c4] "^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across and back,
+%% all balance and turn partners,
+%% grand chain,
+%% promenade 8.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

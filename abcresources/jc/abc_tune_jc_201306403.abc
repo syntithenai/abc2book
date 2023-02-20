@@ -1,0 +1,24 @@
+X: 011
+T: la Malbrook
+C: unknown
+O: Norfolk, England
+R: jigch
+N: Norfolk Museums Service
+N: MS with "scribble John Brown His Book 16 November 1785" on 1st page
+N: There's a 2nd unclear name: Robert Jas Goff/Goffe/Suff/Soffe.
+F: https://www.eatmt.org.uk/alan-flos-musings-on-a-norfolk-tune-book/
+F: https://www.eatmt.org.uk/wp-content/uploads/2021/03/SCN0939-2.jpg (page 1 of the MS)
+Z: 2021-06-25 John Chambers <jc:trillian.mit.edu>
+N: Both strains start with a pickup and end with a full measure. Fixed by removing final dots.
+N: The 2nd strain has initial repeat but no final repeat symbol.  Not fixed.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - -
+d/e/ |\
+f2f fef | g3 faf | f2d d2d/e/ | f2f fef ||\
+g3 f2a | f2d e2e | d3- d2 :: f/g/ |\
+a2f b2b | a3- a2f/g/ |
+a2f b2b | a3- a2d/e/ ||\
+f2f fef | g3 faf | e2e ede | f2d d2d/e/ ||\
+f2f fef | g3 f2a | f2d e2e | d3- d2 |]

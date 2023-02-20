@@ -1,0 +1,184 @@
+
+X: 1
+T: Efthalia
+C: Campbell "Cammy" Kaynor
+R: march, reel
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+S: Youtube 2020-3-31
+M: 2/4
+L: 1/16
+K: Em
+EF |\
+"Em"G2E2 z2EF | GFE2 z2GA | "B7"BcBA B2c2 | B6 EF |\
+"Em"G2E2 z2EF | GFE2 z2E2 | "B7"FGFE ^D2C2 | B,6 EF |
+"Em"G2E2 z2EF | GFE2 z2GA | "B7"BcBA B2c2 | B6 cd |\
+"Am"e2c2 z2AB | "D7"cBA2 A2d2 | "G"B3A G2F2 | G6 |]
+BA |\
+"G"G2B2 z2BA | G2d2 d3d | "Em"efg2 f2e2 | "B7"b6 BA |\
+"G"G2B2 z2BA | G2d2 d3d | "Em"efg2 f2e2 | "B7"^d6 ef |
+"Em"g2e2 z2cd | "C"edc2 c2de | "D"f2d2 z2Bc | "Bm"dcB2 B2cd |\
+"C"e2c2 z2AB | "Am"cBA2 A2d2 | "B7"B3A G2F2 | "Em"E6 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Efthalia
+C: Campbell "Cammy" Kaynor
+R: march, reel
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+S: Youtube 2020-3-31
+M: 2/4
+L: 1/16
+K: Em
+EF |\
+"Em"G2E2 z2EF | GFE2 z2GA | "B7"BcBA B2c2 | B6 EF | "Em"G2E2 z2EF | GFE2 z2E2 |
+"B7"FGFE ^D2C2 | B,6 EF | "Em"G2E2 z2EF | GFE2 z2GA | "B7"BcBA B2c2 | B6 cd | "Am"e2c2 z2AB |
+"D7"cBA2 A2d2 | "G"B3A G2F2 | G6 |] BA | "G"G2B2 z2BA | G2d2 d3d | "Em"efg2 f2e2 |
+"B7"b6 BA | "G"G2B2 z2BA | G2d2 d3d | "Em"efg2 f2e2 | "B7"^d6 ef | "Em"g2e2 z2cd | "C"edc2 c2de |
+"D"f2d2 z2Bc | "Bm"dcB2 B2cd | "C"e2c2 z2AB | "Am"cBA2 A2d2 | "B7"B3A G2F2 | "Em"E6 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Pammella, Pam\`ela, Pam Ella
+C: Cammy Kaynor
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "C"E2G "D"F2A | "G"GAB d2D |  "C"E2G "D"FED | "G"G3-  G2D \
+| "C"E2G "D"F2A | "G"GAB d2d | "A7"e2A   AB^c | "D"d^cd ed :|
+|: B \
+| "D7"cdc A2c | "G"BdB G2G | "Em"e2f gfe | "Em"B3- B2B \
+| "D7"cdc A2c | "G"BdB G2G | "D7"A2G F2E |  "D"D3- D2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: the Shores of Coeur d'Alene
+C: Cammy Kaynor (7/97)
+R: waltz
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: printed page with harmony
+M: 3/4
+L: 1/8
+K: Dm
+%%systemsep 50
+V: 1
+|:"Dm"a3   d d2 |     ag  f2 a2 | "A7"g3   f  ed  |     ^c6  \
+| "A7"a3  ^c c2 |    ^cd  e2 g2 | "Dm"f3   e  d^c |      d6  |
+| "Dm"a3   d d2 | "Gm"ba  g2 f2 |  "C"e3   f  ed  |      c6  \
+|  "C"G3   A GE |     C2  c2 B2 |  "F"A3   G  FE  |      F6 :|
+[| "F"FG  A2 c2 |  "C"EF  G2 c2 | "Dm"DE   F2 A2  | "A7"^CD E2 G2 \
+| "Bb"B,C D2 F2 | "F"A,B, C2 F2 | "G"G,=B, D2 GF  |  "C" EF ED CE |
+| "Dm"FA  d2 A2 | "A7"EA ^c2 A2 | "Dm"FA  d^c df  | "A7" ea e^c A2 \
+| "Gm"b>a gb ag | "Dm"a>g fa gf | "A7"ae  ^ce Ac  | "Dm" d6 |]
+V: 2
+|: d4    A2  | A4       d2 | e3    d  ^cB  | A6         \
+|  e4    A2  | A2 =B2  ^c2 | d^c  de   fg  | ab  ag fe  |
+|  f4    d2  | g4       e2 | c4        G2  | E6         \
+|  E3  F ED  | C2  D2   E2 | F3    E   FG  | F6        :|
+[| c2 A2 F2  | G2  E2   C2 | A2   F2   D2  | E2 ^C2 A,2 \
+|  F2 D2 B,2 | CB, A,B, C2 |=B,A, G,A, B,2 | C2  G2 E2  |
+|  F2 A2 F2  | E2  G2   E2 | D2   F2   D2  |^C2  E2 A2  \
+|  G6        | D6          | A,2 =B,2 ^C2  | D6        |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Vantastic Jig
+C: Cammy Kaynor (2002)
+R: jig
+N: Posted on youtube 2020-2-27 by Cammy Kaynor.
+M: 6/8
+L: 1/8
+K: Am
+"E7"E |\
+"Am7"A2 c e2 g | "Am7"e2 g e2 d | "Am"cdc "G"BcB | "Am"ABA "Em"G2 E |\
+"Am7"A2 c e2 g | "Am7"e2 g e2 c | "G7"dfd B2 A | "G7"G3-G2 ||
+D |\
+"G7"G2 B d2 f | "G7"d2 f d2 c | "G"BcB "Am"ABA | "G"GAG "Dm"F2 D |\
+"Em7"E2 G B2 d | "Fm7"F2 _A c2 _e | "E7"E2 c BA^G | "Am"A3-A2 :|
+"E7"E |\
+"A"A2 ^c e2 f | "A7"gfe ^c_BA | "Dm"d^cd ede | "Dm"f3-f2 D |\
+"G"G2 B d2 e | "G7"fed BAG | "C"cBc dcd | "C"e3- e2 ||
+D |\
+"E"E2 ^G B2 c | "E7"dcB fed | "Am"cBc dcd | "Am"e3- e2 e |\
+"Dm"fed a2 d | "Am"edc a2 c | "E7"dcB ^gab | "Am"a3- a2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Vantastic Jig
+C: Cammy Kaynor (2002)
+R: jig
+N: Posted on youtube 2020-2-27 by Cammy Kaynor.
+M: 6/8
+L: 1/8
+K: Am
+"E7" E |\
+"Am7"A2 c e2 g | "Am7"e2 g e2 d | "Am"cdc "G"BcB | "Am"ABA "Em"G2 E |\
+"Am7"A2 c e2 g |
+"Am7"e2 g e2 c | "G7"dfd B2 A | "G7"G3-G2 D ||\
+"G7"G2 B d2 f | "G7"d2 f d2 c | "G"BcB "Am"ABA | "G"GAG "Dm"F2 D |
+"Em7"E2 G B2 d | "Fm7"F2 _A c2 _e | "E7"E2 c BA^G | "Am"A3-A2 :| "E7"E |\
+"A"A2 ^c e2 f | "A7"gfe ^c_BA | "Dm"d^cd ede |
+"Dm"f3-f2 D |\
+"G"G2 B d2 e | "G7"fed BAG | "C"cBc dcd | "C"e3- e2 D ||\
+"E"E2 ^G B2 c | "E7"dcB fed |
+"Am"cBc dcd | "Am"e3- e2 e |\
+"Dm"fed a2 d | "Am"edc a2 c | "E7"dcB ^gab | "Am"a3- a2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: the Vantastic Jig
+C: Cammy Kaynor (2002)
+N: Posted on youtube 2020-2-27 by Cammy Kaynor.
+R: jig
+K:
+% - - - - - - - - - -
+W: Vandy
+W: (Fay Campbell Kaynor, 2/27/2002)
+W:
+W: Tune the strings!
+W: Put ball joints in the vice.
+W: Split a pile o' firewood.
+W: Sprinkle sand upon the ice.
+W:
+W: Enlarge the slot
+W: In dish washer door
+W: While upside down
+W: On neighbors' kitchen floor.
+W:
+W: Set trap for squirrel.
+W: Deliver sand.
+W: Practice somebody's
+W: Sarabande.
+W:
+W: Call up someone.
+W: Call back your brother.
+W: Whip into town for
+W: Some meeting or other.
+W:
+W: Beat Rose at Rummy.
+W: Sell Zachary's car.
+W: No one can imagine
+W: How busy you are.
+W:
+W: But among all your errands,
+W: On your list of "to do's"
+W: You're also obliged
+W: To joke and amuse
+W:
+W: The big house folks.
+W: Along with all the chores,
+W: Celebrate this day
+W: That you were thinking was YOUR'S.
+W:
+W: So feel appreciated
+W: And accept our thanks.
+W: Felicitations to our fix-it man
+W: And all his subtle pranks.

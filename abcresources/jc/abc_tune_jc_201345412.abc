@@ -1,0 +1,14 @@
+X: 949
+T: Tomgraney Castle
+R: hornpipe
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #949
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0949/oneill-1001-0949-1.abc
+M: C
+L: 1/8
+K: Ador
+"^A1"[|](cB) | A2(AB) AGEG  | AGA(B   cB)cd   |   efg(a ge)dc | B2G2 G2 ||
+"^A2"|  (cB) | A2(AB) AGEG  | A(GAB) (cB)(cd) | (3(efg) (fa) gede | c2A2 A2 :|
+"^B" |: (eg) | a2(ab) age(g | ag)ab   a2(ge)  |  d(ega) gedc | B2G2 G2 ||
+"^A2"|  (cB) | A2(AB) AGEG  | AGA(B   cB)cd   | (3(efg) (fa) gede | c2A2 A2 :|

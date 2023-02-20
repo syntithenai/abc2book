@@ -1,0 +1,29 @@
+X: 1024
+T: Highland Laddy
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: G2G2 B2AG | c4 B4 | A2A2 cdec | A2A2 cdec \
+|  G2G2 B2AG | c4 B4 | G2G2 BcdB | G8 :|
+|: gfed efge | d4 B4 | c2A2 A2fg | a2A2 A2ef \
+|  gfed efge | d4 B4 | G2G2 BcdB | G8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: G4 g4 | a2d2 g2G2 | A4 a2A2 | A4 a2A2 \
+|  G4 g4 | a2f2 g2a2 | b2c'2 d'2d2 | g8 :|
+|: g4 c'4 | b2a2 g2b2 | a8 | A8 \
+|  G4 c4 | B2A2 G2A2 | B2c2 d2D2 | G8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Man set to the 2d Wo. foot it and turn .|
+the 1st Wo. and 2d Man do the same :|
+the 1st Cu. cross over below the 3d Cu. .|
+then slip up the middle to the top. foot it and cast off .
+%%endtext

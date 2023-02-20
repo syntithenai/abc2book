@@ -1,0 +1,32 @@
+X: 95
+T: Mr Donaugh's Lamentation
+%R: waltz
+B: "The Hibernian Muse" p.59
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+P: No. XCV.
+M: 3/4
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+GA |\
+B2({B}AG)(AB) | G4 BA | B2(B/c/d) Bd | c4 fe |\
+d2(defe) | (dc)(de)(fd) | {d}c2(BA)(GF) | F4 (GA) |\
+B2(AG) (ga) | g4 a2 |
+b2(agfg) | f4 (dc) |\
+B2B2 (Bc) | A2A2 (Bc) | d2G2 (GA) | G4 :|\
+|: GF |\
+D2G2 (GA) | G4 (GF) | D2B2 (Bc) | B4 (AG) |\
+F2f2 (fg) |
+{g}f2(ed)(cB) | g2(ag)(fe) | d4 ({e}dc) |\
+B4 dc | {B2}A4 c2 | (dcd=efg) | ^f4 (ba) |\
+d2d2 (de) | A2A2 (Bc) | d2G2 (GA) | G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+g2B2d2 | g2G2z2 | g2g2g2 | c2c2c2 | d2d2d2 | B2B2B2 | f2A2c2 |
+f2F2z2 | G2B2d2 | B2G2d2 | e2c'2c2 | f2F2z2 | g2g2g2 | d2D2z2 | G2B2d2 | g2G2 :||: z2 |
+G2B2d2 | B2G2z2 | B2d2f2 | d2B2z2 | F2A2c2 | d2B2d2 | e2e2c2 | d2D2z2 | d2B2e2 |
+f2F2A2 | B2B2c2 | d4GA | B2B2Bc | d2d2BA | G2B2d2 | G4 |]

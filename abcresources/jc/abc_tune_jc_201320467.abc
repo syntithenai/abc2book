@@ -1,0 +1,35 @@
+
+X: 1
+T: Oriental Hora v.2   [Cm]
+R: zhok
+O: after Abe Schwartz
+M: 3/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+%%slurgraces
+%%graceslurs
+%%stretchstaff 0
+K: ^f_B_e
+g2 "A"|:!segno!\
+f g3 {b}ag | Tf3 e de |\
+f g3 g2 | g4 (^g/a/b/=b/ |\
+c'3) b {b}ag | Tf3 e de |\
+f g3 g2 |
+Tf3 f/g/ f/e/c/z/ |\
+f g3 {b}ag | Tf3 e dc |\
+"Fm"e =f3 f2 | =f3 e dc |\
+"Cm"{^f}g3 f g/f/e/z/ | "D"Tf3 e e/d/c/z/ |
+"Cm"c3 c GE |\
+[1 C3 g/a/ b/a/g/z/ :|[2 "Cm"C4 "Fine"y2 |]\
+"B"|: G2 |\
+"Cm"c6 | c6 |\
+{d}e3 d e/d/c/z/ | {d}e4 e/d/c/z/ |
+"G"=B B3 B2 | =B3 G _AG |\
+G _A3 =Bc | d e3 fg |\
+"Cm"c4 g2 | Tf3 e dc |\
+{d}e4 e/d/c/z/ |
+{d}e4 e/d/c/z/ |\
+"Fm"c =f3 f2 | =f6 |\
+{^f}g3 f g/f/e/z/ | "D"Tf3 e e/d/c/z/ |\
+"Cm"c3 c GE | "Cm"C4 "^D.S.":|

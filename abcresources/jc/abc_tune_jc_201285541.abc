@@ -1,0 +1,36 @@
+X:315
+T:Heidi's Waltz
+C:Dave Brown, 1993
+%%MIDI beat 100 95 80
+%%MIDI program 4
+%%MIDI chordprog 54
+%%MIDI bassprog 54
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=120
+M:3/4
+L:1/4
+K:D
+[| (f/g/) | "D"a2 (A/d/) | "D/C#"f2 ((3D/F/A/) | "Bm"B3/d/ f | "A7"e2 (f/g/) |\
+"D"a2 (A/d/) | "D/C#"f2 ((3D/F/A/) | "G"G3/A/ B | "A7"A2 (f/g/) |
+"D"a2 (A/d/) | "D/C#"f2 ((3D/F/A/) | "Bm"B3/d/ f | "A7"e2 A |\
+"D"d/<f/-f A | "G"B/<d/-d D | "A7"G/<B/-B E | "D"D2 E/F/ |
+"Em"(G/E/) (A/E/) (B/E/) | "D"d2 B | "Bm"(A/G/) (F/E/) .D/.F/ | "Em"E2 (E/F/) |\
+"Em"(G/E/) (A/E/) (B/E/) | "D"d2 B | "Em"(A/B/) (c/d/) (e/f/) | "A7"g2 (f/g/) |
+"D"a2 (A/d/) | "D/C#"f2 ((3D/F/A/) | "Bm"B3/d/ f | "A7"e2 A |\
+"D"d/<f/-f A | "G"B/<d/-d D | "A7"G/<B/-B E | "D"D2 |]
+N:Replace by blank line and X field
+T:Laurie's Waltz
+C:Colin Hume, 1993
+%%MIDI beat 100 95 80
+%%MIDI program 71
+M:3/4
+L:1/4
+K:G
+[| d/e/ | "G"d2 B/c/ | "Bm"B2 A/B/ | "Am"A G3/E/ | "D"D2 G/A/ |\
+"G"B3/A/ B | "Bm"dBd | "Em"e3/d/ B | "D"A2 d/e/ |
+"G"d2 B/c/ | "Bm"B2 A/B/ | "Am"A G3/E/ | "D"D2 D |\
+"C"E3/F/ G | "Bm"dBD | "Am"E3/G/ "D7"F | "G"G2 d/e/ |
+"Dm"=f3/e/ d | "A/C#"e A2 | "Cm"_e3/d/ c | "G/B"d G2 |\
+"Am"c3/B/ A | "Em"A B3/G/ | "C"E3 | "D"D2 d/e/ |
+"G"d2 B/c/ | "Bm"B2 A/B/ | "Am"A G3/E/ | "D"D2 D |\
+"C"E3/D/ C/B,/ | "D"A,2 G, | "G"G,3- | "G"G,2 |]

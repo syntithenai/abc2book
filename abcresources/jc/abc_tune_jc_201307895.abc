@@ -1,0 +1,32 @@
+X:1
+T: Master Jacob
+N:
+C:
+S: Play  3  or  6  times
+A:
+O:
+R:
+M:3/4
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 32 notes)
+K:G
+M:3/4
+L:1/16
+d4 |g4 g4 b4 |g4 B2 c2 d2 e2 |d4 A2 B2 c2 d2 |B4 G4 d4 |g4 g4 b4 |g4 B2 c2 d2 e2 |d4 A2 B2 c2 d2 |B8 d4 |
+%W: A2
+% voice 1 (1 lines, 31 notes)
+g4 g4 b4 |g4 B2 c2 d2 e2 |d4 A2 B2 c2 d2 |B4 G4 d4 |g4 g4 b4 |g4 B2 c2 d2 e2 |d4 A2 B2 c2 d2 |B8 d4 |
+%W: B1
+% voice 1 (1 lines, 25 notes)
+g4 g4 f4 |e4 g2 a2 b2 g2 |a4 g2 a2 b2 g2 |a4 a2 b2 c'2 a2 |b4 g2 a2 b2 g2 |a8 d4 |
+%W:
+% voice 1 (1 lines, 31 notes)
+g4 g4 b4 |g4 B2 c2 d2 e2 |d4 A2 B2 c2 d2 |B4 G4 d4 |g4 g4 b4 |g4 B2 c2 d2 e2 |d4 d2 c2 B2 A2 |G8 d4 |
+%W: B2
+% voice 1 (1 lines, 25 notes)
+g4 g4 f4 |e4 g2 a2 b2 g2 |a4 g2 a2 b2 g2 |a4 a2 b2 c'2 a2 |b4 g2 a2 b2 g2 |a8 d4 |
+%W:
+% voice 1 (1 lines, 30 notes)
+g4 g4 b4 |g4 B2 c2 d2 e2 |d4 A2 B2 c2 d2 |B4 G4 d4 |g4 g4 b4 |g4 B2 c2 d2 e2 |d4 d2 c2 B2 A2 |G8 ||

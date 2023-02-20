@@ -1,0 +1,91 @@
+
+X: 1
+T: Tira la Cordicella
+C: Dario Maggiorani
+R: tarantella
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+%%continueall
+F GAB \
+| "F"c2C "C7"B2C | "F"A2F "C7"GAB \
+| "F"c2C "C7"B2C | "F"A2F "C7"GAB \
+| "F"c2C "C7"B2C | "F"A2C "C7"G2C \
+| "F"F2C "C7"G2C | "F(m)"F2z |]
+[K:Fm]"Verse:"\
+CFA | "Fm"c2c "Bbm"BcB | "Fm"A3  CFA | "C7"G2G  C=EG | "Fm"F2z CFA | "Fm"c2c "Bb7"BcB | "Ab"A3  EAc |
+w: 1.~Er Fo-res-tie-ro ques-to se sa. Mo-va-gi-Ran-no per la cit-t\`a vo ve-d\'e ques-to qu\'e-lo chi sa-che ce fa-
+w: 2.~ui Ri-de sem-pre sen-za ca-pir. Lei Se Fa Co-ro Ma vo sen-ti. Sto mo-ti-vet-to pia-ce mu-si\'u Yes-ve-ri
+"Eb7"B3  EGB  | "Ab"A2z AB=B |  "C7"cGG      GGG | "Fm"cFF FFF | "C7"c=EE E=DE | "F"F2z z3 |][K:F]
+w: r\'a che ce fa-r\'a quan-do poi stan-co in se-ra ri- tor-na na vo-ce nel om-bra le can ta co-si.
+w: Gud, Yes, ve-ri Gud. qui tut-te mon-no ci cam-pa re-no-ne se scor-da-la pe-na can tan tu co-si.
+"refrain"\
+|: "F"cdc A2d | c3 A3 | cdc A2d | c3 A3 | "C7"BcB G2c | B3 G3 | cdc BAG |1 "F"F3- F2z :|2 "F"F2z F2F |
+w: Ti-ra la cor-di-cel-la fis-chia se te va bo-na Ga-cia na pa-chioc-co-na. Can-ta ma-da-ma Do-re._ ~ Giu-lio
+w: So-na li gio-ca-rel-li. Tan-to so sem-pre quel-li Gira pe li cas-tel-li pen-sa mpo-chet-to pe-*** tte.
+"Eb"G2G "F7"A2A | "Bb"B2B BAG | "F7"A2A AGF | "Bb"G2z G2G | "F"A2A "G7"=B2B | "C"c2c c=BA | "G7"=B2B BAG | "C"c3- "C7"c2z |
+w: Ce-sa-re, che fu ti-ra-va de piu ti-ra-va de piu. Mo la ti-ri pu-re to-la ti-ra Nan-ni la ti-re lu-lu_
+"F"cdc A2d | c3 A3 | cdc A2d | c3 A3 | "C7"BcB G2c | B3 G3 | cdc BAG | "F"F2z "d.C."z3 |]
+w: Ti-ra la cor-di-cel-la fis-chia se te va bo-na Ga-cia na pa-chioc-co-na. Can-ta Ma-da-ma Do-re.
+"Coda"\
+[| "F"z2F GAB | "F"c3- "C7"c3- | "F"c2F "C7"GAB | "F"c3- "C7"c3- | "F"c2F "C7"GAB | "F"c2C "C7"B2C | "F"A2C "C7"G2C |
+w: La ti-ra Ma-ma** La-ti-ra Pa-pa** Ti-ra-te-la tut-ti quan-t'in-siem-a me in
+"C7"F2C G2C | "F"F3- F2z | cdc A2d | c3 A3- | A3- A2"C7"Mc | "F"M[fcAF]z |] y8 y8 y8 y8
+w: siem-a me a me._ Ti-ra la cor-di-cel-la.__**
+
+%%newpage
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Tira la Cordicella
+C: Dario Maggiorani
+R: tarantella
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+F GAB \
+| "F"c2C "C7"B2C | "F"A2F "C7"GAB \
+| "F"c2C "C7"B2C | "F"A2F "C7"GAB \
+| "F"c2C "C7"B2C | "F"A2C "C7"G2C \
+| "F"F2C "C7"G2C |[K:Fm] "F(m)"F2z CFA ||
+"verse"\
+|| "Fm"c2c "Bbm"BcB | "Fm"A3  CFA | "C7"G2G  C=EG | "Fm"F2z CFA | "Fm"c2c "Bb7"BcB | "Ab"A3  EAc |
+|  "Eb7"B3  EGB  | "Ab"A2z AB=B |  "C7"cGG      GGG | "Fm"cFF FFF | "C7"c=EE E=DE |[K:F] "F"F2z z3 ||
+"refrain"\
+|: "F"cdc A2d | c3 A3 | cdc A2d | c3 A3 | "C7"BcB G2c | B3 G3 | cdc BAG |1 "F"F3- F2z :|2 "F"F2z F2F ||
+|| "Eb"G2G "F7"A2A | "Bb"B2B BAG | "F7"A2A AGF | "Bb"G2z G2G | "F"A2A "G7"=B2B | "C"c2c c=BA | "G7"=B2B BAG | "C"c3- "C7"c2z |
+| "F"cdc A2d | c3 A3 | cdc A2d | c3 A3 | "C7"BcB G2c | B3 G3 | cdc BAG | "F"F2z z3 |]
+"Coda"\
+| "F"FzF GAB | "F"c3- "C7"c3- | "F"c2F "C7"GAB | "F"c3- "C7"c3- | "F"c2F "C7"GAB | "F"c2C "C7"B2C | "F"A2C "C7"G2C |
+|"F"F2C "C7"G2C | "F"F3- F2z | cdc A2d | c3 A3- | A3- A2"C7"Mc | "F"M[fcAF]z |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Tira la Cordicella
+C: Dario Maggiorani
+R: tarantella
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+G ABc \
+| "G"d2D "D7"c2D | "G"B2G "D7"ABc \
+| "G"d2D "D7"c2D | "G"B2G "D7"ABc \
+| "G"d2D "D7"c2D | "G"B2D "D7"A2D \
+| "G"G2D "D7"A2D |[K:Gm] "G(m)"G2z DGB ||
+"verse"\
+|| "Gm"d2d "Cm"cdc | "Gm"B3  DGB | "D7"A2A  D^FA | "Gm"G2z DGB | "Gm"d2d "C7"cdc | "Bb"B3  FBd |
+|  "F7"c3  FAc  | "Bb"B2z Bc^c |  "D7"dAA      AAA | "Gm"dGG GGG | "D7"d^FF F=EF |[K:G] "G"G2z z3 ||
+"refrain"\
+|: "G"ded B2e | d3 B3 | ded B2e | d3 B3 | "D7"cdc A2d | c3 A3 | ded cBA |1 "G"G3- G2z :|2 "G"G2z G2G ||
+|| "F"A2A "G7"B2B | "C"c2c cBA | "G7"B2B BAG | "C"A2z A2A | "G"B2B "A7"^c2c | "D"d2d d^cB | "A7"^c2c cBA | "D"d3- "D7"d2z |
+| "G"ded B2e | d3 B3 | ded B2e | d3 B3 | "D7"cdc A2d | c3 A3 | ded cBA | "G"G2z z3 |]
+"Coda"\
+| "G"GzG ABc | "G"d3- "D7"d3- | "G"d2G "D7"ABc | "G"d3- "D7"d3- | "G"d2G "D7"ABc | "G"d2D "D7"c2D | "G"B2D "D7"A2D |
+|"G"G2D "D7"A2D | "G"G3- G2z | ded B2e | d3 B3- | B3- B2"D7"Md | "G"M[gdBG]z |]

@@ -1,0 +1,29 @@
+%%scale 1.0
+%%barsperstaff 4
+X: 1
+T:Alla En El Rancho Granda
+T:My Ranch
+C:Silvano R Ramos (1935) / Bartley Costello (English lyrics)
+M:2/4
+L:1/8
+K:D
+%%staves{RH1}
+V:RH1 clef=treble
+|A,|:"D"FF FE|E D2 F|GF G^G|"A7"A2 c2-|c2 z A,|B,A, ^G,A,
+w:I love to roam out yon-der, Out where the buf-f'lo wan-der,_ Free as the ea-gle
+w:A-lla~en el ran-cho gran-de, A-lla don-de vi-vi-a_ Ha-bia~u-na ran-che
+|G E2 A,|B,A, B,A,|"D"F D2 A,|B,A, F,A,|D2 F2-|F||
+w:fly-ing, I'm rop-ing and a ty-ing, I'm rop-ing and a ty-ing,_
+w:ri-ta Que~a-le-gre me de-ci-a, Que~a-le-gre me de-ci-a,_
+|A,D F|"D"A4|G2 F2|"A7"A C3-|CA, CE|c4
+w:Give me my ranch and my cat-tle,_ Far from the great
+w:Give me my bri-dle and sad-dle,_ And my old Pin-
+w:Te voy ha-cer tus cal-zo-nes,_ Co-mo los u-
+|B2 A2|"D"G F3-|FA, DF|A4|G2 F2|"A7"A C3-
+w:cit-y's rat-tle;_ Give me a big herd to bat-tle,
+w:to I'll strad-dle;_ I'll get the cow-boys a rid-ing,
+w:sa~el ran-che-ro;_ Te los co-mien-zo de la-na
+|CA, CE|c4|B2 A2|"D"G F3-|1F2 z A,:|2F2 d2||
+w:_For I just love herd-ing cat-tle._ I__
+w:_Out where the rust-lers are hid-ing.____
+w:_Te los a-ca-bo de cue-ro.____

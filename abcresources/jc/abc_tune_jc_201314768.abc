@@ -1,0 +1,26 @@
+X:1
+T: The Mulberry Garden
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:Am
+I:speed 160
+%W:
+% voice 1 (1 lines, 18 notes)
+K:Am
+M:6/8
+L:1/16
+E2 |A4 B2 c2 G2 E2 D2 E2 C2 G4 E2 A4 B2 c2 A4 e6e4 E2 |
+%W:
+% voice 1 (1 lines, 17 notes)
+A4 B2 c2 G2 E2 D2 E2 C2 G4 E2 A4 B2 c2 A4 e6e4 e2 |
+%W:
+% voice 1 (1 lines, 18 notes)
+f2 e2 d2 e4 B2 c2 A4 d4 c2 B2 c2 d2 c2 B2 A2 ^G6G4 F2 |
+%W:
+% voice 1 (1 lines, 15 notes)
+E4 D2 C4 B,2 A,2 A4 ^G4 A2 B2 E2 c2 B4 A2 A6A4 ||

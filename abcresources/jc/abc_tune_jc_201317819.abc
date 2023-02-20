@@ -1,0 +1,31 @@
+X: 1
+T: Nottingham Castle
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.265 "A a"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+(gd)g (dB)G | (FG)A A2B | c>de efg | f>ga f2f |\
+(gd)g (dB)G | (FG)A A2B | c>de dcB | A2G G2 |] 
+d |\
+d>ed c2B | c2B A2e | e>=fe eAd | d2^c d2a |\
+f>ef gfe | d>cB cBA | F2G A2B | c>dc B2z |\
+A2z G2z | G2F G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man turns the 2. wo. round with his right-hand, and then his own Partner with the left, the 2. man turn the 1. wo.
+%% with his right-hand, and then his own Partner with his left, all four men and we. fall back and turn single all round.
+%% The first Strain played once.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. man and 1. wo. go the Hey half round with the 2. cu. to their places, the 1. man and 1. wo. lead down, the 2 cu.
+%% cast up and meet, lead about on the next cu. into their places.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

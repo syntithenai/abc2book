@@ -1,0 +1,38 @@
+X: 217
+T: Macdonald Lord of the Isles.
+T: Mad Dhonaill Mor nan Eillan.
+R: air, minuet, waltz
+N: This is version 2, for ABC software that understands cres/diminuendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.99 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+% dim/cres..endo symbols:
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: 3/4
+L: 1/8
+Q: "Slow pathetic & Expressive"
+K: Cm
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for 2 12-bar lines, for compactness and proofreading.
+V: 1 staves=2
+G |\
+!p!c>e d2 zG | c<e d2 zg | e3"_dim"d (c/e/d/c/) | B2 G2 zc ||\
+B>A G2 c2 | B>A G2 B2 | pG>^F G2 Pe2 | Q{e}d2 qc2 z :| !p!d |\
+"_cres"~e>f g2 bg | Tf>e d3 g | "_dim"e3 d (c/e/d/c/) | B2 G2 zc ||
+"_cres"B>A G2 c2 | BA G2 B2 | pG>^F G2 Pe2 | Q{e}d2 qc2 zd ||\
+!p!~e>f "_cres"g2 bg | Tf>e d2 gf | e3 d (c/e/d/c/) | B2G2 zD ||\
+"_Exp"E>F G2 =A2 | B>A HG2 B2 | pG>^F G2 Pe2 | Q{e}d2 qc2 z |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+c2 =B2 G2 | c2 =b2 g2 | c'2 b2 a2 | g2 e2 a2 ||\
+g2 e2 a2 | g2 e2 d2 | e2 d2 c2 | g2 c2 z :| z | E2 e2 g2 | A2 a2 g2 |
+c'2 b2 a2 | g4 a2 || e4 a2 | e4 d2 | e2 d2 c2 | g2 c2 z2 ||\
+E2 e2 g2 | a2 b2 =b2 | a2 b2 a2 | g2 e2 =B2 ||\
+C4 c2 | B2 He2 d2 | e2 d2 c2 | g2 c2 z |]
+% = = = = = = = = = =

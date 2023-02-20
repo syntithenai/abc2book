@@ -1,0 +1,29 @@
+X: 233
+T: COUNTESS OF ROTHES
+C: R. MACKINTOSH
+R: Strathspey
+B: Glen Collection p.23 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: F
+%
+V: 1
+A |\
+F>(cTc>B) A<(ff>c) | G<(dd>c) B<(dd>g) | F<(cc>B) A<(fTf>c) | d>eTf>g {fg}aff :|
+F |\
+C>FA<F c<Fd<F | c<FA<F B<(GG>A) | (F/E/F/G/) A<F c<Fd<F | c<FTA>G A<(FF>A) |
+C>FA<F c<Fd<F | c<FA<F B<(GG>A) | A<fc<A B<fd<B | (e/f/g) c>b a(ff) |]
+%
+V: 2
+z |\
+F2[a2f2] [c'2f2][a2f2] | B2[g2d2] G2[b2g2] |\
+[a2f2][a2f2] [c'2f2][a2f2] | B2[b2f2d2] F2[afc] :|
+z |\
+A2[f2c2] [a2f2][b2g2] | [a2f2][c'2f2] c2[g2e2] |\
+F2[f2c2] [a2f2][b2f2] | [a2f2][c'2f2] [c'2f2][a2f2] |
+A2[f2c2] [a2f2][b2f2] | [a2f2][c'2f2] c2[g2e2] |\
+f2[c'2a2] B2[b2f2] | [g2c2][e2c2] [f2F2][fF] |]

@@ -1,0 +1,30 @@
+X: 31201
+T: COTILLION No. 19. TREMONT SETT tune 1
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.120 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+c2e2 d2c2 | c4 z2Bc | d2e2 f2e2 | d4 z2cd |\
+e2ee egfe | d2dd dfed | c2e2d2c2 | c4 z2 H|]
+g2 |\
+^f2d2e2f2 | g2ba g2g2 | ^f2d2e2f2 | g4 z2g2 |\
+^f2a2f2d2 | g2b2 ag^fe | d2c2 B2A2 | G4 "^D.C."z2 |]
+cd |\
+c2gg g2g2 | e4 c2de | ^fefg agfe | e2g2 z2d2 |\
+c2gg g2g2 | e4 c2e2 | dgfg bagf | g2f2e2"^D.C."d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 forward and back,
+%% chassa across 4 and back,
+%% balance 4 and turn,
+%% ladies chain,
+%% promenade 4.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,31 @@
+X: 20461
+T: Drimen Duff
+%R: air, waltz, minuet
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.46 #1
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"(AB) |\
+{B2}c4 B2 | A2 E2 (A>B) | c4 B2 | A4 (GA) |\
+TB4 A2 | G2 (DE)(GA) | {A2}B3 c (TBA) | G4 (A>B) |\
+c4 B2 | A2 E2 (A>B) | c4 B2 | A4 E2 |\
+c2 cdeg |
+{g2}a4 g2 | (ede)gaB | A4 :: (a>b) |\
+c'4 b2 | a2 e2 a>b | c'4 b2 | a4 (g>a) |\
+(ba)(bc')(ba) | (ge)(de)(ga) | b3 c'`ba | g4 ab |
+(c'b)(c'b) a^g | a2 e2 (a>b) | (c'b)(c'd')(c'b) | a4 (A>B) |\
+c2 (cd)(eg) | {g2}a4 g2 | (ed)(eg)aB | A4 :: (A>B) |\
+(cA)(ec)(Bd) | (cA)(ec)(Bd) |
+E2 A2 ^G2 | A4 (dc) |\
+(BG) (gB)(Ac) | (BG) (gB)(Ac) | (Bg)(dB)(cA) | G4 AB |\
+(cA)(ec)(Bd) | (cA)(ec)(Bd) | e2 a2 T^g2 | a4 b2 |\
+(c'b)(ag) (ed) |
+e2 (c'b)(a=g) | (ed)(eg)aB | A4 :: (ab) |\
+(c'b)(ag) e2 | (c'b)(ag) (ed) | e2 c'2 Tb2 | a4 (g>a) |\
+(ba)(ge) d2 | (ba)(ge)(de) |
+g>a b2 (Ta3/g//a//) | g4 (ab) |\
+(c'a)(^gb)(ae) | (c'a)(^gb)(ae) | c'2 (e'd')(c'b) | a3 b c'2 |\
+c2 cdeg | {g2}a4 (ge) | (dB)(ge)(dB) | A4 :|

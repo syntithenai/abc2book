@@ -1,0 +1,34 @@
+X: 18531
+T: GUARACHA DANCE
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.18 p.53 #1
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: In the bass, the first note in each bar has two stems, one without a flag,
+N: but ABC seems to have no way to represent this in any tool that I use.
+M: 3/8
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+(efef) |\
+(a2g2).e2 | (g2f2).d2 | (f2e2).c2 | c2 (efef) |\
+(a2g2).e2 | (g2f2).d2 | c2 (cece) | c2 "Fine"yH:|
+(BcBc) |\
+(e2d2).B2 | (d2c2).A2 | (c2B2).G2 | G2 (BcBc) |\
+(e2d2).B2 | (d2c2).A2 | G2(GBGB) | G2 "D.C."y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z2z2 |\
+c'2e'2g'2 | g2d'2g'2 | c'2e'2g'2 | c'4 z2 |\
+c'2e'2g'2 | g2d'2g'2 | c'2e'2g'2 | c'2 "Fine"yH:|
+z2z2 |\
+g2b2d'2 | d2a2d'2 | g2b2d'2 | g4 z2 |\
+g2b2d'2 | d2a2d'2 | g2b2d'2 | g2 "D.C."y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands 4 half round back again, down the mid: up again, right & left.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

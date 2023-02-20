@@ -1,0 +1,21 @@
+X: 4343
+T: the Bridge of Garry
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.4 p.34 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+e |\
+AA eA eAec | Bf-fe fBBa | AA ed cAec | EFAB cAA :| g | a2ea cAec | BfTfe fBBg |
+{g}a2ea cAec | EFAB cAAg || a2ea cAec | BfTfe fBBg | afbg afed | ceBd cAA |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z |\
+[a2A2][a2A2] [a2A2][a2A2] | [b2B2][b2B2] [b2B2][b2B2] |\
+[a2A2][a2A2] [a2A2][a2A2] | [e2E2][e2E2] A2A :| z | a2[c'2a2] a2a2 | b2b2 b2b2 |
+a2a2 a2a2 | e2e2 A2A2 || a2[c'2a2] a2a2 | b2b2 b2b2 | a2e2 a2d2 | e2E2 A2A |]

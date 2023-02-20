@@ -1,0 +1,32 @@
+X: 128
+T: Willy Wilkey
+T: Longways for as many ...
+%R: reel, march
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.64
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C|
+L: 1/8
+K: F	% or Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2 |\
+c2F2 A2GF | c2F2 F2d2 | c2F2 A2GF | G2D2 D2d2 |\
+c2F2 A2GF | c2F2 F2d2 | c2F2 A2GF | G2D2 D2 :|
+|: de |\
+f3g g4 | a2 A4 e2 | f3g g4 | a2 A4 de |\
+f3g a3g | agab agfe | fedc dcBA | G2D2 D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man sett to his own, and cross over,
+%% with the 2d Wo. 1st and 2d Wo. sett and cross
+%% over, and change places; 1st and 2d Man take
+%% hands and lead between 1st and 2d Wo. and
+%% come into their places again; .| all four clap and
+%% go into their places again, 1st and 2d Wo. take
+%% hands and lead between the 1st and 2d Men in their
+%% own places again; all 4 clap, and go half round
+%% in their places again, the rest doing the same. :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

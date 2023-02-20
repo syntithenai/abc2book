@@ -1,0 +1,29 @@
+X:1004
+T:Black Mask, The
+C:Joe Buchanan's Scottish Tome - Page 592.0
+I:592 0
+Z:Carl Allison
+R:Waltz
+L:1/4
+M:3/4
+K:D
+W:Play    1:    | 2:    | 1    | 3:    | 1   |
+%%vskip 0
+P:1
+A | "D"d>A F/A/ | "D7"d e f | "G"e>B e/f/ | "Em"g>f "E7"e/d/ |
+"A"c>A c/e/ | "A7"g f e | "D"f>e d/B/ | "A7"A2 A |
+"D"d>A F/A/ | "D7"d e f | "G"e>B e/f/ | "Em"g>f "E7"e/d/ |
+"A"c>A c/e/ | "A7"g f e | "D"d>d d | "D"d2 :|
+P:2
+((3d/c/=c/) | "G"B>G B/d/ | "G"e d B | "D"A>F A/d/ | "D"f>f "E7"e/d/ |
+"A"c>A c/e/ | "A7"g f e | "D"f>d d/B/ | "D7"A>d c/=c/ |
+"G"B>G B/d/ | "G"e d B | "D"A>F A/d/ | "D"f>f "Em"e/d/ |
+"A"c>A c/e/ | "A7"g f e | "D"d>d  d | "D"d2 :|
+P:3
+"A7"A/A/ | "D"A/d/ f/A/ d/f/ | "D"A/d/ f/A/ d/f/ | "D"f g f | "A"e>e e |
+"A"A/c/ f/A/ c/e/ | "A"A/c/ f/A/ c/e/ | "A7"e f e | "D"d>d d |
+"D"A/d/ f/A/ d/f/ | "D7"A/d/ f/A/ d/f/ | "G"B/d/ g/B/ d/g/ | "Em"B/d/ g/B/ d/g/ |
+"A"a b a | "A7"g f e | "D"d>d d | "D"d3 :|
+%
+W:Errata: Changed the lead in measure to part (2) to a triplet and changed the
+W:last measure of part (2) to a count of 2 rather than 3.

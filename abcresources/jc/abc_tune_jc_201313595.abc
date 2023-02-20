@@ -1,0 +1,19 @@
+X:494
+T:Mr Handel's Minuet
+C:Handel
+L:1/8
+M:3/4
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+N:From the Water Music.
+%%MIDI beat 100 95 80
+%%MIDI program 57
+%%MIDI chordprog 20
+%%MIDI gchord c2c
+Q:1/4=115
+K:F
+P:A
+|: "F"f2 cccc | "F"c2 BAGF | "F"fg a2 a2 | "F"a6 |\
+"F"ab c'2 c'2 | "F"c'4 f2 | "Gm"b2 "F/A"a2-"F"ab | "C"g6 :|
+P:B
+|: "C"g2 gggg | "C"g2 c'2 g2 | "F"a2 "Bb"d'2 "F/A"c'2 | "C/G"b2-"C"b2 "F"a2 |\
+"Gm"g2 gggg | "C"g4 b2 | "F"a2 ba "C"ga | "F"f6 :|

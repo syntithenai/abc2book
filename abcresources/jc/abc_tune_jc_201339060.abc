@@ -1,0 +1,20 @@
+X: 1
+T: Soldiers Joy using double stops
+C: trad.
+R: reel
+S: Fiddle Hell Online 2022-4-7 handout for Matt Flinner mando workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+"^A"|: [dA][dA] |\
+"D"[d2A2][d2A2] [AF][AF][AF][AF] | A2[fd][fd] [f2d2][dA][dA] |\
+[d2A2][d2A2] [AF][AF][AF][AF] | "A"[A2E2][AE][AF] [A2E2][dA][dA] |\
+"D"[d2A2][d2A2] [AF][AF][AF][AF] |
+A2[fd][fd] ff | "D"fedf "A"edce | "D"d2[fd][fd] [f2d2] :|\
+"^B"|: [fA][fA] |\
+"D"[f2A2][g2A2] [a2A2][aA][fA] | "G"[e2A2][f2A2] [g2B2][gB][gB] |
+"D"[f2A2][g2A2] [a2A2]gf | "A"edcB A2[fA][fA] |\
+"D"[f2A2][g2A2] [a2A2][aA][fA] | "G"[e2A2][f2A2] [g2B2]ag |\
+"D"fedf "A"edce | "D"d2[fd][fd] [f2d2] :|
+%%text The handout also has a mando-tab version.

@@ -1,0 +1,21 @@
+X: 1
+T: Don Jumpedo;  A Dance.
+R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: The Gentleman's Magazine v.20, March 1750, p.132
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+FAc fga | gfe f2e | fed cdB | AGF c2C |\
+FAc fga | gfe def | edc dG=B | (.c.c.c .c3) :|
+|:\
+ceg geg | geg b2a | gfe fed | eA^c d2e |\
+fcB AGF | EDC B2A | GBG ACE | (.F.F.F F3) |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% 1st man set to 2d woman and turn .| his partner the same :| gallop down the middle, up again
+%% and cast off |. right and left with the top couple :|:
+%%endtext

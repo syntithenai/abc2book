@@ -1,0 +1,24 @@
+X: 1
+T: Away In a Manger
+P: piffero primo c0004
+O: German
+%R: waltz
+F: http://ancients.sudburymuster.org/mus/col/pdf/carolsF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+V: 1
+V: 2
+%%score (1 2)
+% - - - - - - - - - -
+V: 1 staves=2
+d2 |\
+d3 c B2 | B3 A G2 | G2 F2 E2 | D4 D2 | D3 E D2 | D2 A2 F2 | E2 D2 G2 | B4 d2 |
+d3 c B2 | B3 A G2 | G2 F2 E2 | D4 D2 | c3 B A2 | B2 A2 G2 | A2 E2 F2 | G4 |]
+% - - - - - - - - - -
+V: 2 
+B2 |\
+B3 A G2 | D6 | E2 D2 C2 | B,4 D2 | A,6 | A,6 | C2 B,4 | G4 B2 |
+B3 A G2 | D6 | E2 D2 C2 | B,4 D2 | F3 G A2 | D6 | E2 E2 D2 | D4 |]
+%% - - - - - - - - - -

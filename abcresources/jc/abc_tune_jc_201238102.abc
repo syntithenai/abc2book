@@ -1,0 +1,36 @@
+X: 30221
+T: BELLVILLE QUICKSTEP
+C: E. L. White
+%R: quickstep, march, reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.22 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+A2 |\
+d2dc defg | a3gf2a2 | b2ba bc'd'b | a3gf2A2 |\
+d2dc defg | a3gf2A2 | B2gf edce | d2f2"^FINE."d2 :|
+A2 |\
+d3Ae3A | fefg a2f2 | e3Af3A | gfga bgec |\
+d3Ae3A | fa^gb a2aa | b>d'b>d' ^g>bg>b | a2c'2"^D.C."a2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+A2 |\
+F2FE FAde | f3ed2F2 | G2GF GABG | F3ED2A2 |\
+F2FE FAde f3ed2F2 | G2B2A2G2 | F2A2F2 :|
+A2 |\
+FAFA cAcA | dcde f2d2 | cAcA dAdA | edef gecA |\
+FAFA cAcA | d2d2e2e2 | f2f2e2d2 | c2e2c2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+d2d2d2d2 | d2d2d2d2 | d2d2d2d2 | d2d2d2z2 |\
+d2d2d2d2 | d2d2d2d2 | g2g2a2a2 | d2d2d2 :|
+z2 |\
+d4 A4 | d2d2d2z2 | A4 d4 | A2A2 A4 |\
+d4 A4 | d2d2c2c2 | d2d2e2e2 | A2A2A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

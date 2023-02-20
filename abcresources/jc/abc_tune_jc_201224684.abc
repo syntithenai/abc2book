@@ -1,0 +1,28 @@
+X: 86
+T: Hyde Park Corner
+T: Longways for as many as will.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.43
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the dance description.  Note the 3-bar phrases, 6-bar strains.
+M: 6/4
+L: 1/4
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B |\
+(AF)E D2e | f>gf ead | ^c3 A2f/e/ |\
+dBG cAF | BGF Ed^c | d3 D2 |]
+E |\
+F>GA/B/ cAF | f>ed g>fe/d/ | ^c3 A2f/g/ |\
+agf bag | agf eac | d3 D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. Jigg it and cast off behind 2d
+%% Cu. .| then Jigg it the same behind the
+%% 3d Cu. :| then led up to the Top and
+%% turn Hands behind the 1st Cu. .| and jigg
+%% it to the End of the Tune.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

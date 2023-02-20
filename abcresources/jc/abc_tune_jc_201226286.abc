@@ -1,0 +1,24 @@
+X: 101
+T: Christmas Eve.          E.
+C: Ignatius Sancho 1775
+%R: jig
+B: "Minuets Cotillons & Country Dances", 1775 p.10 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: B
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: BAB (FBd) | ecA BFA | {c}BAB FBd | ecA B3 :: fbf gec | fdB ecA | fbf gec | ecA B3 :|
+[V:2] |: b3 B3 | f3 B2e | d3 B2b | f3 B3 :: b3 e3 | d3 c3 | B3 e3 | c2f B3 :|
+[V:1] |: FBd FBd | ecA BFD | FBd FBd | ecA B3 :: fdf fdB | geg gec | bgb bfd | ecA B3 :|
+[V:2] |: b3 B3 | f3 B3 | b3 B3 | e2f Bdf :: b3 B3 | b3 B2c | d2e d2B | f2F B3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The First Cu. foot it to the Second Wo. without turning .| the same to the Second Man :|
+%% Lad down one Cu. .|. up again and cast off :|: Right hands across half round with the
+%% third Cu. .|| Left hands back again .||. Foot it Right and Left at top :||:
+%%endtext

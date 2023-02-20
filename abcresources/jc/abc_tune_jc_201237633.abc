@@ -1,0 +1,75 @@
+X: 27
+T: la Mignonette Fran\,coise.
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #27
+N: One spelling of "Contretems" is "Coutretems"; fixed.  The cedille is missing in the dance description; not fixed.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+F |\
+A2A AGF | c2c c2f | c2a c2B | TA3 G2F |\
+A2A AGF | c2c c2f | edc Gc=B | c3 c2 :|
+|: c |\
+g2c b2a | Tg2f e2f | g2c b2a | gfe fc_e |\
+d>bd B>dB | c>ac A>cA | B2G F2E | F2F F2 :|
+|: A |\
+A3 GFG | F2F F2c | c3 BAB | A2A A2f |\
+{g}f2e {f}e2d | {e}d2c {d}c2B | ABc B2A | G2G G2 :|
+|: c |\
+{cd}_e2e ecA | B2B B2d | f2f fd=B | c2c c2a |\
+b2a {a}g2f | b2a {a}g2f | cba gfe | f2f f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z |\
+f3- f2f | a2a agf | e2f e2c | f3 c2z |
+f3- f2f | a2a agf | c'2a g2g | c'3 c2 :||: z | c2e g2f | e2d c2d |
+c3 e2f | b2c' a2f | b3 g3 | a3 f3 | g2b c'2c | f3 F2 :||:
+z | f3 c3 | A3 F2a | a3 gfg | f2f f2d' | d'2c' {d'}c'2b |
+{c'}b2a {b}a2g | f3 g2f | c2c c2 :||: z | f3 f3 | d3 B2z | g3 g3 |
+e3 c2c' | d'2c' {c'}b2a | d'2c' {c'}b2a | e2f c'2c | f2f f2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Mignonette Francoise.
+%%begintext align
+%%   Le Grand Rond: Then fall in two Lines,
+%% the first and second Couple at Top, the third
+%% and fourth Couple at Bottom - - 2/1
+%%endtext
+%%begintext align
+%%   The first and second Couple Chass\'e cross
+%% and Rigaudon, while the third and fourth
+%% Couple do the same, then the first and third
+%% Gentlemen Moulinet with the opposite Ladies,
+%% while the second and fourth Gentlemen 
+%% Allemande with the opposite Ladies -- 1/2
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/2
+%%endtext
+%%begintext align
+%%   Each Gentleman Balanc\'e with the Lady on
+%% his Left, then half La Chaine four and four
+%% on the opposite - - - 1/3
+%%endtext
+%%begintext align
+%%   Counter-part - - - 1/3
+%%endtext
+%%begintext align
+%%   The first and second Couple Face each
+%% other with Contretems and Rigaudon, then hands
+%% round four, while the third and fourth Couple
+%% do the same - - - 1/4
+%%endtext
+%%begintext align
+%%   The first and fourth Couple Face each other
+%% with Contretems and Rigaudon, then hands
+%% round four, while the second and third Couple
+%% do the same - - - 1/4
+%%endtext
+%%sep 1 1 400

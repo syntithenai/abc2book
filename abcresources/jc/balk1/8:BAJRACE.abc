@@ -1,0 +1,17 @@
+X: 38
+T: Bajrace
+O: Macedonia
+F: http://www.youtube.com/watch?v=danVp3WkOxo
+F: http://www.youtube.com/watch?v=n8RM6b-LV7o
+M: 7/8
+L: 1/8
+Q:1/4=80
+K: Bb
+%%MIDI beatstring fpmpmpp
+%%MIDI drum dzddzdz 38 38 38 38 70 70 70 70
+%%MIDI drumon
+|:"Bb"  G/F/G/E/ F/E/E/D/ B,D/E/ F| G/F/G/E/ F/E/E/D/ B,2 z          :|
+%%MIDI drum dzdzdzz 38 38 38 70 70 70
+|:B,D/E/ F/E/E/D/  B,/D/E/F/ z    | B, D/E/ F/E/E/D/  B,2 z          :|
+%%MIDI drum dzzzdzz 38 38 70 70
+|:B,C/_D/ DD/C/ B,C/D/ z          |B,C/_D/ _A/G/F/E/ _D/C/B,/A,/ B,  :|

@@ -1,0 +1,32 @@
+
+X: 1
+T: Hejsan Grabbar
+N: See also Sk\ojtel\oberdans (Skaters' Shottish)
+C: Trad
+O: Sweden
+R: shottish
+M: 4/4
+L: 1/8
+K: G
+|::: "G"D>G BA G2 G2 |    B>c dc B4 | "D7"A>B cA F>D EF |1,3 "G"G>A BG D4 :|2,4 "G"G2 G2 G4 :|
+|::: "C"e2  c2 e2 e2 | "G"d>B GB d4 | "D7"c>B AG F>D EF |1,3 "G"G>A Bc d4 :|2,4 "G"G2 B2 G4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Hejsan Grabbar
+T: en Gammal Svensk Schottische
+C: Trad.
+O: arr. Carl J. Johnson
+N: See also Sk\ojtel\oberdans (Skaters' Shottish)
+M: 4/4
+L: 1/8
+K: G
+D |\
+"G"G>A BA G2 G>B | d>d g>B d2 d>g | "D7"f>e f>e c2 c>d | "G"e>d e>d B2 B>A |\
+"G"G>A BA G2 G>B |
+d>d g>B d2 d>g | "D7"f>e f>e c>A F>A | "G"G2 [B2G2] G2 z |]\
+B |\
+"C"c>d e>d c2 e2 | "G"G>B d>c B2 d2 |
+"D7"D>D F>A c>A F>A | "G"G>A Bc d2 zB "I"|\
+"C"c>d e>d c2 e2 | "G"G>B d>c B2 d2 | "D7"D>D F>A c>A F>A | "G"G2 [B2G2] G2 z |]

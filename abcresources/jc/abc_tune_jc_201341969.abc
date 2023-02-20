@@ -1,0 +1,45 @@
+X:58
+T:Suutarin Tytar Medley
+M:2/4
+L:1/16
+Q:1/4=80
+C:arr. Eira Mattsson (Washington DC Finlandia Foundation) ~1976
+S:SuutarinTytar,AmaliaArmas,TuominenSormus,MatalanTorpanBallaadi,Valiaikai
+R:jenkka
+P:ST,AA,TS,MTB,V
+N:1. Suutarin Tytar
+N:2. Amalia Armas
+N:3. Tuohinen Sormus
+N:4. Matalan Sorpan Ballaadi
+N:5. Valiaikainen
+K:Em
+P:ST
+"Em" G2A>B A2G>F | E2F>G F2E>D | "Am" C2D2 E2D>C | "B7" B,6 z2 |
+"Em" G2A>B A2G>F | E2F>G F2E2 | "Am" F2G>A "B7" G2F2 | "Em" E6 z2 | !
+"E7" B>cd2 c2B>c | "Am" B>AB2 c2A2 | "D7" d2c>d c2A2 | "G" B4 "B7" z4 |
+"Em" G2A>B A2G>F | E2F>G F2E>D | "Am" C2D2 E2D>C | "Em" (E4 E)B,EG | !
+|: "Em" B4 B4 | "Am" A2F>A F4 | A2F>G "B7" AB/2A/2 G>F | "Em" G2G2 E4 |
+"Am" A4 A4 | "Em" G2E>G E4 | G2E>F GA/2G/2 F>E | "B7" F2F2 B4 | !
+"E7" E2^G>A B2E>E | "Am" c2B>B A2F2 | "B7" B2B>B F2A2 | "Em" G8 |
+"B7" B,2^D>E F2B,>B, | "Em" G2F>F "Am" E2C2 | "Em" B,2B,>B, "B7" G2F2 |
+[1 "Em" (E4 E)B,EG :|[2 "Em" E6 z2 | !
+P:AA
+|: "Em" EEEF G2B2 | "B7" BBAG F2B,2 |BBBc BAGF |
+"Em" G2E2 E4 :| "Am" AAAB c2e2 | "D7" eedc "G" B2G2 | !
+"D7" A2AF DFAc | "B7" B4 B4 | "Em" EEEF G2B2 |
+"B7" BBAG F2B,2 | BBBc BAG^D | "Em" F2E2 E4 | !
+P:TS
+|: "Em" B2BG E2EG | "B7" F2F^D B,4 | F2B,2 F2GF |
+[1 E^DEF "B7" GFGA :|[2 E2E2 E2Be | !
+|: "Am" d2dc A2Ac | "Em" B2BG E3 E | "B7" B,^C^DE FAGF |
+[1 "Em" EFGA B2Be :|[2 "Em" E2E2 E4 || !
+P:MTB
+"Em" E2EE EFGG | "B7" F3E ^D2B,B, | "Em" E2EE EFG2 | "Am" F4 "B7" F4 | !
+|: "Am" A2AA A2c2 | "Em" B2BA B2GG | "B7" F2FE ^D2B,2 |
+[1 "Em" E4 E4 :|[2 E4 E2 || !
+P:V
+|: "B7" B,B, | "Em" E2EE GGFE | "Am" F2G2 A2BA |
+"Em" G2FE "B7" F2E^D "Em" E4 z2 :|
+|: "Em" Bc | "Am" d2dd d2cB | "D7" c2c2 c2AB | !
+c2cc c2BA | "B7" B2B2 B2GA | "Em" B2BB B2AG |
+"Am" A2A2 A2BA | "Em" G2FE "B7" F2E^D | "Em" E4 z2 :|

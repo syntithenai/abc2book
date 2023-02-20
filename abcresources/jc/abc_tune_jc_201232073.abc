@@ -1,0 +1,30 @@
+X: 163
+T: LADY CHARLOTTE CAMPBELL
+C: NATH. GOW
+R: Strathspey
+B: Glen Collection p.16 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Alternate runs at end of bar 12 rewritten to get more readable result from ABC software.
+N: Original was all 16th notes with 2nd set of stems and beams on the notes GABc.
+M: C
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: G
+%
+V: 1
+c !segno!| {Bc}d>cBG AcB>c | {Bc}d>cBG EAFD | {Bc}d>cBG Ac Bc/d/ | ecAF G2G :|
+d | g/f/g/a/ gd Bgdg | {a}gf/e/ f>g aAAf | g/f/g/a/ gd BgdB | e>cAF {F}G2 G, ||
+d | g/f/g/a/ gd Bgdg | {a}gf/e/ f>g aAAf | gdbf gdec | BdDF G{FG}A B{AB}c  !segno!|]
+%
+V: 2
+z |\
+[g2d2G2][g2d2G2] [f2d2A2][f2d2A2] | [g2d2G2][g2d2G2] [f2d2][f2d2] |\
+[g2d2G2][g2d2G2] [f2d2][g2d2] | [g2c2][c'2d2] [b2g2][bg] :|
+z |\
+[g2G2][b2g2] [d'2g2][b2g2] | [c'2a2d2][c'2a2d2] [c'2a2d2][c'2a2d2] |\
+[g2G2][b2g2] [d'2g2][b2g2] | [c'2a2d2][c'2a2d2] [b2g2]z ||
+z |\
+[g2G2][b2g2] [d'2g2][b2g2] | [c'2a2d2][c'2a2d2] [c'2a2d2][c'2a2d2] |\
+[g2G2][d'2g2] [b2g2][c'2g2] | [d'2g2][c'2d2] [b2g2]gz |]

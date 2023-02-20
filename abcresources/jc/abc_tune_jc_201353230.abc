@@ -1,0 +1,14 @@
+X:799
+T:Winster Galop
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=110
+M:2/2
+L:1/4
+%%MIDI ratio 3 1
+K:G
+P:A
+|: "G"GB/B/ GB | "G"GB d2 | "D"Ac/c/ BA | "G"GB d2 |\
+"C"ce fe | "G"dB d2 | "D7"A>c BA | "G"G2 G2 :|
+P:B
+|: "G"gf ed | "G"gf ed | "G"gf/f/ ed | "Am"cB A2 |\
+"D"fe d2 | "D"fe d2 | "D7"d2 A>c | "G"BG G2 :|

@@ -1,0 +1,21 @@
+X:6
+T:Russian Song
+O:arranged by Edward Bonkoski
+B:Slovenian and Polish Dances, Edward Bonkoski, Pietro Deiro #823, 1949
+Z:Transcribed by Moshe Braner, January 2001
+M:2/4
+L:1/8
+P:ABA
+K:D
+"D"[A2d] "A7"[Ad][Ace] | "D"[A2df] "D/A"[Ace][Ad] |\
+"A7"[Ac]A "A7/E"[Ac][Ad] | "(A)"[Ace]-"(G)"[Ace] "(F#)"z "(E)"z |
+"D"[A2d] "A7"[Ad][Ace] | "D"[A2df] "D/A"[Ace][Ad] |\
+"A7"[Ac]A "A7/E"[Ac][Ad] | "A"[Ace] z "A"[Ace] z |
+"E7"[^G2B]-"E"[^GB]"A"[Ac] |    "E7"[B2d] "A"[Ac]"E7"[^GB] |\
+"A"A2 "E"[Ac]-"A"[Ac] | "A"[c2e] "E"[Bd]"A"[Ac] |
+"E7"[^G2B]-"E"[^GB]"A"[Ac] | "E7/G#"[B2d] "E7"[Ac][^GB] |\
+"A"A"F#"c"E"e"C"c | "A"A z "A"[CEA] "Fine"z ||
+"D"FG "D/A"^GA | "D/F#"BA "D/A"=GF | "A7/E"EF "A7"GE | AG "A7/E"FE |
+"D"FG "D/A"^GA | "D/F#"BA "D/A"=GF | "E"E"D"D"C"C"B"B, | "A"A, z "A"[A,CEA] z |
+"E7"EF "E7/G#"^GA | "E7/B"BE "E7"F^G | "A"AB "A/E"cd | "A"ec "A/E"BA |
+"E7"ef "E7/G#"^ga | "E7/B"be "E7"f^g | "A"af "A/E"ec | "A"A "A"[Acea] z ||

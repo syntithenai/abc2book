@@ -1,0 +1,23 @@
+X: 20351
+T: MUIR MACKENZIE'S FAVOURITE
+C: Mr. Sharpe, of Hoddam.
+Q: "Slow."
+%R: strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.35 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f2 |\
+{c}d4 A3G {G}F2D2 D2EF | G3FE2D2 C2A,2B2c2 |\
+d3e {e}d2{c}B2 A2F2G2B2 | AF3E3G F2D2D2 :|\
+fg |\
+a3ba2g2 f2e2f2d2 | g3fe2d2 {d}c2B2c2A2 |
+a3ba2g2 f2e2f2d2 | g3ea3f d4 d2fg |\
+a2b2a2g2 f2d2e2f2 | g2f2e2d2 c2A2B2c2 |\
+d3e {g}f2{e}d2 e3f {a}g2{f}e2 | f3a c3e d6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

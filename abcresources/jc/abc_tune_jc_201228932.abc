@@ -1,0 +1,49 @@
+%%text Set 117 NEFFA 2014 Old-Time/Farm Set
+
+
+X: 1
+T: Turtle in the Grass
+C:Ariel Friedman
+M:C|
+L:1/8
+R:reel
+P: Play pickups.
+K:D
+dc |:\
+"D"B2 A2F3A | "D"E2D4 dc | "D" B2 A2 FA-A2 | "G"B6 dc |
+"D" B2 A2 F3 A | "D" E2 D2"Bm" B,2 A,B, | "G"DA,DF"A"E2 E2 |1 "D"D6 dc :|2 "D"D4-DDEF ||
+|:\
+"G"G2 A2 "A"B3A | "D"E2 D2-DDEF | "G"G2A2"Em" Bd-d2 | "A"c3d cAEF |
+"G"G2 A2 "A"B3A | "D"E2 D2"Bm" B,2 A,B, | "G"DA,DF"A"E2 E2 |1 "D"D4-DDEF :|2 "D"D6 |]|\
+["Trans""D7"D6 |]
+
+%%sep 1 1 500
+
+X: 2
+T: Shove That Pig's Foot a Little Further in the Fire
+M:C|
+L:1/8
+K:G
+GA |\
+"G"BdBA G2 E2 | "C"GAGE "G"D4 | DE G2 B3c | "D"B2 A4 GA |
+"G"BdBA G2 E2 | "C"GAGE "G"D4 | DE G2 "D"B3G | "G"A2 G4 :|
+|: GA |\
+"G"Bd-d2 dBdg | "C"edBc "G"d4 | "C"g4 g3d | "D"e2 d4 dd |
+"G"Bd-d2 dBdg | "C"edBc "G"d4 | BABd "D"BAGB | "G"A2 G4 :|
+
+%%sep 1 1 500
+
+X: 3
+T: Speed the Plow
+R:Reel
+M:C
+L:1/8
+K:A
+|:\
+"A"e4 c4 | "E"BABd "A"cBA2 | "D"fefg afed | "E"c2<B2 B2 cd |
+"A"e4 c4 | "E"BABd "A"cBA2 | "D"fefg afed | "E"cB3 "A"A4 :|
+|:\
+"A"e2e2 "D"fedf | "A"ece2 "D"f3e | "D"fefg "Bm"afed | "E"c2<B2 B2cd |
+"A"e2e2 "D"fedf | "A"ece2 "D"f3e | "Bm"fefg afed | "E"cB3 "A"A4 :|
+% %text Note in parentheses is to be omitted the last time.
+

@@ -1,0 +1,50 @@
+X: 8
+T: Cotillon VIII.     la Diligence.
+%R: jig
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #8
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+[|\
+[f2A2D2]f (fe)d | TcBc d3 | (Bc)d (AF)D | (AG)F {F}E3 |\
+[f2A2D2]f (fe)d | TcBc d3 | (ec)A (fd)B | (T^GF)G A3 |]
+|:\
+(aA)a (gA)g | (fA)f (ec)A | (aA)a (gA)g | (fA)f e3 |\
+[f2A2D2]f (fe)d | (TcB)c d3 | (Bc)d (AF)D | (GF)E D3 :|\
+[K:=f=c][K:Dm]
+[|\
+d2d def | (e^c)A A3 | BAG FED | A2A A3 |\
+d2d (de)f | e2e (ef)g | (fb)a (gf)e | dAF D3 |]\
+[K:=B][K:D]
+|:\
+[f2A2D2]f (fe)d | TcBc d3 | (Bc)d (AF)D | (AG)F {F}E3 |\
+[f2A2D2]f (fe)d | (TcB)c d3 | (Bcd) (AFD) | (GFE) D3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+[|\
+d'2d d'2d | a2A d3 | g2g f2f | e2d a2A |\
+d'2d d'2d | a2A d3 | c2c d2d e2E A3 |]\
+|: a3 e'3 |
+d'3 c'3 | a3 e'3 | d'3 c'3 |\
+d'2d d'2d | a2A d3 | g2g f2g | a2A d3 :| [K:=f=c][K:Dm]
+[|\
+d3 d'3 | ^c'3 a3 | bag fed |
+a2a a3 |\
+d3 d'3 | ^c'3 a3 | d'2f gaA | d3 D3 |] [K:=B][K:D]
+|:\
+d'2d d'2d | a2A d3 | g2g f2f | e2d a2A |\
+d'2d d'2d | a2A d3 | g2g f2g | a2A d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    All round, the queu de Chasse\`e by the first four: the same by the second four, the
+%% first four lead up, change their Ladies & turn to the other four: then clap hands 3 times
+%% and beat 3 times with their feet, then turn their Partners into their Places: the other
+%% four do the same: Le Promenade. Every Gentleman turns his Partner into her Place.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.

@@ -1,0 +1,28 @@
+X:1
+T: Dear Papa and Dear Mama
+N:
+C:
+S:
+A:
+O:
+R:
+M:3/4
+K:Gm
+I:speed 150
+%W:       A1
+% voice 1 (1 lines, 31 notes)
+K:Gm
+M:3/4
+L:1/16
+G2 A2 |B4 g4 g2 ^f2 |g4 d4 d2 c2 |d4 G4 A2 B2 |c4 f4 f2 =e2 |f4 G2 A2 B2 c2 |d2 A2 B2 G2 A4 |D8 G2 A2 |
+%W:       A2
+% voice 1 (1 lines, 29 notes)
+B4 g4 g2 ^f2 |g4 d4 d2 c2 |d4 G4 A2 B2 |c4 f4 f2 =e2 |f4 G2 A2 B2 c2 |d2 A2 B2 G2 A4 |D8 G2 A2 |
+%W:       B
+% voice 1 (1 lines, 30 notes)
+B4 g4 g2 ^f2 |g4 g2 A2 B2 c2 |d2 e2 A8 |G8 G2 A2 |B4 g4 g2 ^f2 |g4 g2 A2 B2 c2 |d2 e2 A8 |G8 B3 A |
+%W:
+% voice 1 (1 lines, 12 notes)
+M:2/4
+L:1/16
+G2 G2 A2 ^F2 |G4 B3 A |G2 G2 A2 ^F2 |G4 ||

@@ -1,0 +1,30 @@
+X: 1
+T: Tsanakaliotissa
+R: kalamatianos
+O: Greece
+M: 7/8
+L: 1/8
+K: Edor
+P: Instr:
+DEF \
+| "Em"GFG ABGA | B3 zDEF \
+| GFG ABGA | B3 zABc \
+| "D"dce dcBA |"Em"e2e dcBA \
+| GAB "Dm"G2=FD | "Em"E3- E4 |]
+P: Vocal:
+|:"Em"e3 dBcA | "Bm"B2c A2Bc \
+| "Em"e2e dBcA | "Bm"B3- B2z2 \
+"^instr"y\
+| "Em"e3 dBcA | "Bm"B2c A2Bc \
+| "Em"e2e dBcA | "Bm"B3 "vocal"z2Bc |
+| "Em"dce dcBA | AGA BcBA \
+| "Dm"G2=F "Em"E2 ","E2 | "D"e3 dcBA \
+| GAB "Dm"G=FFE | "Em"E3- E2 ", instr"Bc |
+| "Em"dce dcBA | AGA BcBA \
+| "Dm"G2=F "Em"E2 ","E3 | "D"e3 dcBA \
+| GAB "Dm"G=FFE \
+|1 "Em"E3- E2z2 :|2 "Em"E3 z2 "vocal+inst"EF |
+| "Em"GFG ABGA | B3- B2 EF \
+| GFG ABGA | B3- B2 Bc \
+| "D"dce dcBA | "Em"e2e dcBA \
+| "Gm"GAB "Dm"G=FFE | "Em"E3- E |]

@@ -1,0 +1,17 @@
+X: 343
+T: Come Along With Me   #2
+T: Tar liomsa
+R: hornpipe, air
+%S: s:2 b:10(6+4)
+B: O'Neill's 1850 #343
+O: J.O'Neill
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+Q: "With force"
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA3
+M: 2/4
+L: 1/8
+K: G
+D "^A"|: G2 A>F | G2 A>{B}c | d2 [1 c>A | G>F D>F :|[2 e>c | "^->B"d3 |][3 c>A | "^fine"G3 |]
+"^B"[| (B/c/) | d2 f>d | g2 d>c | B2 c>A | G>F D>"^->A3"F |]

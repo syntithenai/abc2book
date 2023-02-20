@@ -1,0 +1,86 @@
+
+X: 1
+T: le Marin-Congo
+O: Gascogne (Basque)
+N: Taught by Marilyn Wathen, Pinewoods 1988
+M: 4/4
+L: 1/16
+P: G-D drone
+K: G
+|: "G"B2B2 "D7"c2A2 | "G"G2E2 D4 | "G"B2B2 c2A2 |1 "G"G4 D4 :|2 "G"G4 z4 ||
+|::: "G"G2B2 G2B2 | "D7"AGAB AcBA | "G"G2B2 G2B2 | "D7"AGAB A4 :::|
+P: C-G drone
+K: C
+|: "C"e2c2 c2de | "G7"f2e2 d2cd | "C"e2c2 c2de |   "G7"f2e2 d4 :|
+|::: "C"g2e2 g2e2 | "G7"f2g2 f2ag | "G7"f2e2 d2ef |1,3 "C"e2d2 e2c2 :|2,4 "C"e2d2 c4 :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 0
+T: Marko Ska\vce
+O: Slovenia
+P: Play slow, then fast.
+K:
+
+
+X: 1
+P: Marko Ska\vce [D]
+O: Slovenia
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+| "D"[D4D4] | [D4D4] | [D4D4] | [D4D4] \
+[| "D"[FD][AF] [AF][AF] | [FD][AF] [AF][AF] |
+| [FD][FD] "A7"[EA,][EC] | "D"[D2D2] [D2D2] \
+|: "D"[D2D2] "A7"[E2C2] | "D"[FD][AF] [AF]z \
+| "D"[FD][FD] "A7"[EA,][EC] | "D"[D2D2] [D2D2] :|
+
+
+X: 2
+P: Marko Ska\vce [G]
+O: Slovenia
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+| "G"[G4G4] | [G4G4] | [G4G4] | [G4G4] \
+[| "G"[BG][dB] [dB][dB] | [BG][dB] [dB][dB] |
+| [BG][BG] "D7"[AD][AF] | "G"[G2G2] [G2G2] \
+|: "G"[G2G2] "D7"[A2F2] | "G"[BG][dB] [dB]z \
+| "G"[BG][BG] "D7"[AD][AF] | "G"[G2G2] [G2G2] :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 3
+P: Marko Ska\vce
+O: Slovenia
+N: Attr. G.Strouch and Mrs Anna Levak Brick
+K:
+W:  Marko ska\vce, Marko ska\vce,      po zelenoj trati.
+W:  Hm, hm, ja ja jaj,      po zelenoj trati.
+W:
+W:  Pokay no\'ci, pokay no\'ci      svati \vzurit stati.  Hm, hm, ...
+W:
+W:  Zove meni, zove meni      za divojku dati.  Hm, hm, ...
+W:
+W:  Daj mo i\vsli, daj mo i\vsli      da li po divojku.  Hm, hm, ...
+W:
+W:  Prek devetih, prek devetih,      prek desetih mosti.  Hm, hm, ...
+W:
+W:  Daj te mijo, daj te mijo      moja draga mati.  Hm, hm, ...
+W:
+W:  Da jo hoce, da jo hoce      s'njima da se vrati.  Hm, hm, ...
+W:  -------------------------------------------------------
+W:       Marko is skipping on the green grass.
+W:       At night the wedding party got ready hurriedly.
+W:       Now they are calling me to present the young woman
+W:       "Shall we be given the girl
+W:       From across nine, from across ten bridges?"
+W:       "Give her to me, my dear mother,
+W:       So that she can come back with us."
+

@@ -1,0 +1,27 @@
+X: 31284
+T: COTILLION No. 23. JIM CROW SETT tune 4
+T: Washington Quickstep
+T: Steamboat Quickstep
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.128 #4
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain ends with an end-repeat sign; it's not clear what the repeat should include.
+N: Length of final note in 1st strain changed to fix the rhythm.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+g2d B2G | GBd g3 | gfe dcB | Adc BAG |\
+g2d B2G | GBd g3 | gfe dcB | dcA G2 H|]
+G |\
+B2d ded | ded B2G | c2e efe | efg d3 |\
+B2d ded | ded B2G | gfe dcB | dcA "^D.C."G3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies all forward to the centre and balata,
+%% back and balata.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

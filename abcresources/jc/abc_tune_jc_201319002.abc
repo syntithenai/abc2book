@@ -1,0 +1,17 @@
+X:219
+T: Oft in the Stilly Night   #2
+R: air
+%S: s:2 b:14(8+4)
+B: O'Neill's 1850 #219
+O: J.O'Neill
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: The first section ends with a fermata over the double bar.
+N: Compacted via repeats and multiple endings [JC]
+P: Play ABAB CBCB
+Q: "Moderate"
+P: Play ABA
+M: 2/4
+L: 1/8
+K:D
+"^A"[|] A | f2 f>e | d>B Bd | A>A FD | E4 || FA AB  | AF  Dd | fd  ec | d2- Hd |]
+"^B"|: B | A>d dd | B>d dd |[1 f>d dd | {f}ed c :|[2 fd  ec | d2- "D.C."d |]

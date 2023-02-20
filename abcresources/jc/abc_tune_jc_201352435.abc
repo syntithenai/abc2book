@@ -1,0 +1,26 @@
+X:1
+T: The Wibsey Roundabout
+N:
+C:O'Carolan
+S:Tune is "Hugh O'Donnell"
+A:
+O:
+R:
+M:6/8
+K:C
+I:speed 150
+%W:
+% voice 1 (1 lines, 35 notes)
+K:C
+M:6/8
+L:1/16
+G2 |G4 c2 c2 d2 c2 B4 c2 d4 f2 e4 A2 A2 c2 A2 d4 G2 G2 B2 G2 |c4 G2 c2 B2 A2 G6 g6 e2 c2 e2 e2 c2 e2 f6 a6 |
+%W:
+% voice 1 (1 lines, 40 notes)
+g3 a g2 e2 c2 e2 f3 g f2 d2 B2 d2 e3 f e2 c2 A2 c2 d3 e d2 B2 G2 B2 |c4 G2 c2 B2 A2 G6 g6 f2 e2 d2 c2 d2 B2 c6 c4 c2 |
+%W:
+% voice 1 (1 lines, 46 notes)
+g4 c2 g4 c2 a2 g2 f2 e2 d2 c2 B2 d2 d2 d2 e2 d2 B2 d2 d2 d2 e2 d2 |c2 e2 e2 e2 f2 e2 A2 B2 c2 B2 A2 G2 A2 B2 c2 B2 c2 d2 A2 B2 c2 d2 B2 G2 |
+%W:
+% voice 1 (1 lines, 36 notes)
+g4 g2 a4 a2 b4 b2 c'6 c'4 g2 c'4 f2 c'4 e2 d2 d'2 c'2 |b2 a2 g2 g2 a2 g2 g2 f2 e2 d2 g2 f2 e2 d2 c2 d2 c2 B2 c6 c4 ||

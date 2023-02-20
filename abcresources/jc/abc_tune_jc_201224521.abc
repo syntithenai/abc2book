@@ -1,0 +1,38 @@
+X: 0841
+T: Calabria
+%R: mrch
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1809, No. 8 p.4 #1
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances8
+N: This is version 2, for ABC software that understands diminuendo notation and voice overlays.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: 2/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+|:\
+cffg | Qa2qgf | Qa2qgf | egg2 |\
+cffg | Qa2qgf | dgfe | f2f2 :|
+|:\
+f2ed | cAA2 | BGAF | EGG2 |\
+f2ed | cAAd | BGGE | F2F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=D
+|:\
+FcAc | FcAc | FcAc | FcBc |\
+FcAc | F2GA | B2c2 | [A2F2][A2F2] :|
+|:\
+(A2B2) & F4 | A2x2 & F2z2 | c4 & (E2F2) | c2x2 & C2z2 |\
+(A2B2) & F4 | A2d2 & F2^F2 | d2B2 & G2C2 | A2A2 & F2F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands three on the Ladies side,
+%% Hands three on the Gentlemans side,
+%% down the middle, up again
+%% and turn your Partner.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

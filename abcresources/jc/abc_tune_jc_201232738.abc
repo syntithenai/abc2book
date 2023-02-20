@@ -1,0 +1,31 @@
+X: 178
+T: Festing's Maggot
+T: Longways &c.
+%R: march, reel
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.89
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed to match the dance.
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2 d2 | B3 A | ((3GAB) AG | F3 A |\
+(Gd) g2 | (A^c) a2 | (fd) (A^c) | d2 D2 :|\
+|:\
+dABc | B3 A | Gc eG | F3 D |\
+GD B2 | AD c2 | BG DF | G2 G,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Wo. go within-side of the 2d Wo. then
+%% go round about her and stand below the 3d
+%% Wo. .| the 1st Man do the same :| the 1st Cu.
+%% being below the 3d Cu. cross over above the 3d
+%% Cu. and so above the 2d Cu. into their own
+%% places .| the 1st Man take hands with his partner
+%% and lead down the 2d Cu. into their own
+%% places and cast off :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

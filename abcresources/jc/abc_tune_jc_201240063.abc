@@ -1,0 +1,31 @@
+X: 361
+T: Good night and Joy be wi' you a'.
+C: Very Old
+R: air, song
+N: This is version 1, for ABC software that doesn't understand voice overlays or crescendo symbols.
+N: This is version 2, for ABC software that understands voice overlays and crescendo symbols.
+U: p=!crescendo(!
+U: P=!crescendo)!
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c."
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: "Andante"
+K: Gm	% and Bb
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+D |\
+G>A ~G3 D | G>G ~G3 A | pB>c {Bc}Pd3 c | {c}B>G ~F2 zD ||\
+"_cres."G>G {G}B3 (c/B/) | A<F {A}c2 ~B>c | {Bc}d>pG {G}PB3 G | {G}F>D [D2B,2] z ::
+(d/e/) |\
+"_Dolce"[fd]>[ge] [f3d3] ~d | p[fd]>[fd] P[f3d3] d | pg>a {ga}Pb3 f | {g}f>d {d}c2 ~B>c ||\
+"_cres."d<f {e}d2 (cB) | A<F {A}c2 ~B>c | {Bc}d>G {G}B3 G | {G}F>D [D2B,2] z :|
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | G2 g2 B2 | G2 g2 fe | d>c B3 A | [dB4]>e dbfd || [G2B2] g2 =e2 | f3 e dc | B2 GdBe | df B2 z ::
+z | Bbfbdb | Bbfbd'b | ga g2 e2 | fd [f2F2] z2 || B2 b2 ag | f3 e dc | B2 GdBe | df B2 z :|
+% = = = = = = = = = =

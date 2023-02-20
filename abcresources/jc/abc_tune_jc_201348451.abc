@@ -1,0 +1,20 @@
+X: 03
+T: Lady George Murray's Reel
+C: Hon. C. G.
+R: reel
+M: C
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+V: 1 name=""
+V: 2 name="" clef=bass middle=d
+K: D
+V: 1
+|: .D>FAF .D>GBG | .D>FAF T.E>DEF | .D>FAF .DGBd | A>FEF D/D/DD2 :|
+|: (DF)(FA) (Ad)(df) | f>daf Te>def | (DF)(FA) (Ad)(df) | {f}Te>def d/d/dd2 :|
+|: a>bg>a f>ae>f | dda>f Te>def | a>ba>f .a.a(a>b) | a>fef d/d/dd2 :|
+|: (A>F)(A>F) (B>G)(B>G) | .A.G.F.E D>CDE | A>FA>F [BDG]>BBd | A>GFE D/D/DD2 :|
+V: 2
+|: d2f2 d2g2 | d2f2a2A2 | d2f2 d2g2 | a2A2 dAD2 :|
+|: d2d'2 d2d'2 | d2f2 a2A2 | d2d'2 d2d'2 | g2a2 d'ad2 :|
+|: d2e2 f2g2 | f2d2 a2A2 | d2d'2 f2g2 | a2A2 dAD2 :|
+|: f2d2 g2e2 | agfe d2A2 | f2d2 g2g2 | a2A2 dAD2 :|

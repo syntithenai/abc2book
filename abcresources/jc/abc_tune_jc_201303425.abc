@@ -1,0 +1,13 @@
+X:1
+T:The Long, Hot Shower
+R:Jig
+K:G
+C:Betsy Branch
+M:6/8
+L:1/8
+%%printtempo 0
+Q:160
+A |: "D" cdd dcA | cdA "C"G3 | "D" FED F2G| "Am" ABA cec|
+"D" cdd dcA| cdA "C"G3| "D"FED "Am"CEC |1 "D"D3 D2 A:|2 "D"D3 D2|
+|:(_B,|"G7"B,2)D =FED| ABA =FED| B,2D =FED| "D"A,B,A, A,2(_B,| "G7"=B,2) D =FED|
+"G7"ABA A3 |1 "Am"dcA G2 A|"D"=FED D2:|2 "Am"GFG AGA| cAc cec|]

@@ -1,0 +1,29 @@
+X:1
+T: Oranges and Lemons
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 200
+%W:         A1                                                             A2
+% voice 1 (1 lines, 40 notes)
+K:D
+M:4/4
+L:1/16
+d4 e4 a2 f2 e2 d2 |e6 d2 B6 A2 |d6 f2 a2 f2 e2 d2 |e6 f2 d8 |d4 e4 a2 f2 e2 d2 |e6 d2 B6 A2 |d6 f2 a2 f2 e2 d2 |e6 f2 d4 g2 a2 |
+%W: B1
+% voice 1 (1 lines, 27 notes)
+b12 f2 g2 |a12 f2 e2 |d6 f2 a2 f2 e2 d2 |e6 d2 B6 A2 |d6 f2 a2 f2 e2 d2 |e6 f2 d4 g2 a2 |
+%W:
+% voice 1 (1 lines, 27 notes)
+b12 f2 g2 |a12 f2 e2 |d6 f2 a2 f2 e2 d2 |e6 d2 B6 A2 |d6 f2 a2 f2 e2 d2 |e6 f2 d4 g2 a2 |
+%W: B2
+% voice 1 (1 lines, 27 notes)
+b12 f2 g2 |a12 f2 e2 |d6 f2 a2 f2 e2 d2 |e6 d2 B6 A2 |d6 f2 a2 f2 e2 d2 |e6 f2 d4 g2 a2 |
+%W:
+% voice 1 (1 lines, 25 notes)
+b12 f2 g2 |a12 f2 e2 |d6 f2 a2 f2 e2 d2 |e6 d2 B6 A2 |d6 f2 a2 f2 e2 d2 |e6 f2 d8 ||

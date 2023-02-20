@@ -1,0 +1,28 @@
+%
+% ABC score translated from SongWright by sw2abc
+X:1
+T: A Jig for Joyce
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:D
+I:speed 180
+%W:
+% voice 1 (1 lines, 23 notes)
+K:D
+M:6/8
+L:1/16
+|:F2G2|A4B2 A2F2D2|d4B2 A2F2D2|F4G2 A2F2D2|C2D2E2 E2F2G2|
+%W:
+% voice 1 (1 lines, 17 notes)
+A4B2 A2F2D2|d4e2 d2c2B2|A4d2 A2G2F2|E6 D6|
+%W:
+% voice 1 (1 lines, 20 notes)
+c4d2 e2d2c2|d4f2 A2G2F2|G4A2 B2C2d2|A2G2F2 E4A2|
+%W:
+% voice 1 (1 lines, 18 notes)
+c4d2 e2d2c2|d4f2 A2G2F2|G2A2B2 A2G2F2|E6 D6:|

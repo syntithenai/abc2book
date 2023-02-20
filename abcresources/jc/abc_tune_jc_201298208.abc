@@ -1,0 +1,63 @@
+
+X: 1
+T: \vSano Du\vso  [C]
+T: Vranjanka
+N: (Lesnoto)
+O: Srbija
+R: lesnoto
+Z: 1998 John Chambers <jc:trillian.mit.edu>
+N: This song is traditionally sung in both waltz and lesnoto rhythms.
+M: 7/8
+L: 1/8
+K: C
+|: "Fm"[c2_A][cA] [c2A] [c2A] | "G"[B2G][_AF] [GE][AF] [BG][cA] | "Fm"[B2G][_AF] [B2G] [A2F] | "C"[G3E] [G4E] :|
+w: 1.~\vSa-no du-\vso, \vSa-no mo-*ri,* ot-vo-ri mi vra-ta.
+w: 2.~No\'c li ho-di, div-no \vSa-*no,* ja si tu-ga vi-jem.
+w: 3.~Tvo-je li-ce be-lo, \vSa-*no,* sneg je za pla-ni-ne.
+[| "F"[=A2F][AF] [A2F] [A2F] | [A2F][GE] [AF][BG] [c2A] | "G7"[G2E][AF] [G2E] [F2D] | "C"[E3C] [E4C] |]
+w:    Ot-vo-ri mi, \vSa-no, vra-*ta, da ti dam du-ka-ta.
+w:    U-ba-vi-nja tvo-ja, \vSa-*no, ne da mi da spi-jem.
+w:    Tvo-je \'ce-lo gi-di, \vSa-*no, ka-ko me-se-\'ci-ne.
+[| "C"[E2C][FD] [G2E] [FD][EC] | "Dm"[DA,][D2A,] [A4F] | "G7"[G2D][AD] [G2D] [F2D] | "C"[E3C] [E4C] |
+w:    Oj, le le le le le le le, iz-go-re za te-be,
+|  "C"[E2C][FD] [G2E] ([FD][EC]) | "Dm"[D3A,] [A4F] | "G7"([G2D2][AD]) [G2D] [F2D] | "C"[E3C] [E4C] |]
+w:    Iz-go-re mi,* \vSa-no, sr-*ce za te-be.
+
+%%sep 2 1 500
+
+X: 2
+T: \vSano Du\vso  [D]
+T: Vranjanka
+N: (Lesnoto)
+O: Srbija
+R: lesnoto
+Z: 1998 John Chambers <jc:trillian.mit.edu>
+N: This song is traditionally sung in both waltz and lesnoto rhythms.
+M: 7/8
+L: 1/8
+K: D
+"instr"\
+|: "Gm"[d_B][cA][_BG] "A"~[c2A2] [B/G/][A/F/][GE] | "D"[A2F2][GE] [AF][_BG] [cA][d_B] \
+|  "Gm"[d_B][cA][_BG] "A"~[c2A2] [B/G/][A/F/][GE] | "D"[A3F3] [A2F2] z2 :|
+"verse"\
+|: "Gm"[d2_B][dB] [d2B] [d2B] | "A"[c2A][_BG] [AF][BG] [cA][dB] | "Gm"[c2A][_BG] [c2A] [B2G] | "D"[A3F] [A4F] :|
+w: 1.~\vSa-no du-\vso, \vSa-no mo-*ri,* ot-vo-ri mi vra-ta.
+w: 2.~No\'c li ho-di, div-no \vSa-*no,* ja si tu-ga vi-jem.
+w: 3.~Tvo-je li-ce be-lo, \vSa-*no,* sneg je za pla-ni-ne.
+w: 4.~On-na us-ta tvo-ja, \vSa-*no,* ka-ko ruj-ne zo-re.
+"chorus"
+[| "G"[=B2G][BG] [B2G] [B2G] | [B2G][AF] [BG][cA] [d2B] | "A7"[A2F][BG] [A2F] [G2E] | "D"[F3D] [F4D] |]
+w: 1.~Ot-vo-ri mi, \vSa-no, vra-*ta, da ti dam du-ka-ta.
+w: 2.~U-ba-vi-nja tvo-ja, \vSa-*no, ne da mi da spi-jem.
+w: 3.~Tvo-je \'ce-lo gi-di, \vSa-*no, ka-ko me-se-\'ci-ne.
+w: 4.~On-no o-ko, du-\vso mo-*ja, me-ne me iz-go-re.
+[| "D"[F2D][GE] [A2F] [GE][FD] | "Em"[EB,][E2B,] [B4G] | "A7"[A2E][BE] [A2E] [G2E] | "D"[F3D] [F4D] |
+w:    Oj, le le le le le le le, iz-go-re za te-be,
+|  "D"[F2D][GE] [A2F] ([GE][FD]) | "Em"[E3B,] [B4G] | "A7"([A2E2][BE]) [A2E] [G2E] | "D"[F3D] [F4D] |]
+w:    Iz-go-re mi,* \vSa-no, sr-*ce za te-be.
+%
+W: 1. Shana, my soul, open the door to me, and I'll give you coins.
+W:    Chorus: Oy, le, le, ... my heart is burning for you, Shana.
+W: 2. When night comes, Shana, I am restless in sadness.  Your beauty will not let me sleep.
+W: 3. Your beautiful face, Shana, is snow on the mountains.  Your forehead is like the moonlight.
+W: 4. That mouth, Shana, is like the red dawn.  That eye, my dear, sets me on fire.

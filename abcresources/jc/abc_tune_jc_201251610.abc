@@ -1,0 +1,36 @@
+X: 1
+T: Bellamira
+P: Longways for as many as will
+%R: reel, march
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.107 #152 (214)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.149 "O 3"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The two versions differ only trivially in spelling and punctuation.
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+G2 D4 AB | G4 B4 | A2F2 f2c2 | A4 c4 |\
+B2G2 d2g2 | ^f4 d4 | (ed)(cB) (AB)c2 | B4 G4 |]
+[|\
+G3B/c/ d3B/c/ | d2B2 G2B2 | A3A/B/ c3A/B/ | c2A2 F2f2 |\
+d3g/a/ b3a/g/ | a2g2 ^f3=e/^f/ | g2a2 a3g | g4 d3B/A/ |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% First Man take Hands with his Partner, and lead her down the Middle,
+%% the Man go on the Wo. Side, and the Wo. on the Man's, then 1st Man
+%% side with Foot and Elbow, the 2d Wo. and the 1st Wo. side with Foot and
+%% Elbow the 2d Man, and turn Sides to their own Places.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Cross over with their Partners, and go round about the 1st Cu. 'till the
+%% 1st Man comes into the 2d Man's Place, and the 1st Wo. into the 2d Wo.
+%% Place, then 1st Man cross over with the 2d Wo. and 1st Wo. with the 2d
+%% Man, then all four clap Hands, and Hands half round and turn single.
+%% [CCDM1]
+%%endtext
+%%sep 1 8 500

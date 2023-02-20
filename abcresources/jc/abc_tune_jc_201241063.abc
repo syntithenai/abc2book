@@ -1,0 +1,32 @@
+X: 4221
+T: the New Water Kettle.   a Jig.
+C: by Nath.Gow
+P: Dedicated to A.Ballentine, Esq.r Kelso.
+%R: jig, air
+N: This is version 1, for ABC software that doesn't understand trailing grace notes.
+B: Niel Gow & Sons "Complete Repository" v.4 p.22 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+|:\
+cAF (TF2E/F/) | (TF2E/F/) (TF2E/F/) | cAF (TF2E/F/) | GAF EDC |\
+cAF (TF2E/F/) | (TF2E/F/) cBA | def cBA | GAF EDC :|
+|:\
+cBA f2c | f2c f2d | cBA f2A | GAF EDC |\
+cBA f2c | fed cBA | dcB AGF | EGF EDC |
+cBA f2c | f2c f2d | cBA fcA | GAF EDC |\
+cBA agf | edc fed | cBA dcB | AGF EDC |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+|:\
+[a3f3] "^sf"[b3g3] | "^sf"[c'3a3] "^sf"[d'3b3] | [c'3a3] "^sf"[=b3d3] | c'3 c3 |\
+[f3F3] "^sf"[g3G3] | "^sf"[a6A6] | [b3B3] a2f | e2d c3 :|
+f3 [f'3a3] | [f'3a3] [f'3b3] | [f'3a3] f3 | [=b3d3] [c'2c2]z |\
+f3 [f'3a3] | [f'3a3] [f'3a3] | b3 =b3 | c'3 c3 |
+f3 [f'3a3] | [f'3a3] [f'3b3] | a3 f3 | =B3 c3 |\
+f3 f'e'd' | c'3 d'c'b | a3 bag | f2=B cde |]

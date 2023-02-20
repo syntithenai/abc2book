@@ -1,0 +1,29 @@
+X: 011
+T: MISS C. ELPHINSTONE
+C: DUNCAN MACINTYRE
+R: Strathepsy
+B: Glen Collection p.1 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: A
+%
+V: 1
+c2 |\
+{G}A4 E2FG AGFE A2C2 | DF3 E3C B,B,B,2 B,3d | (cde2) A2c2 defd B2d2 | ce3 B3c AAA2 A2 :|
+fg |\
+agfe c2a2 d2b2 c2a2 | A2a2 c2a2 BBB2 B2fg | agfe c2a2 d2b2 c2a2 | f2dc B2ed c2A2A2 fg |
+agfe c2a2 d2b2 c2a2 | A2a2 c2a2 fedc Bcdf | edcB A2E2 F2A2 D2f2 | ec3 a3c AAA2 A2 |]
+%
+V: 2
+z2 |\
+A4 [c'4a4e4] [c'4a4e4] [c'4a4e4] | [a4f4d4] [a4e4A4] [g4e4] [b4g4e4] |\
+A4 [c'4a4e4] B4 [b4f4d4] | e4 [d'4g4e4] [c'4a4] [a2e2A2] :|
+z2 |\
+A4 [c'4a4e4] [b4g4e4] [c'4a4e4] | A4 [c'4a4e4] E4 [b4g4e4] |\
+A4 [c'4a4e4] [b4g4e4] [c'4a4e4] | [b4f4d4] [d'4g4e4] A4 [c'4a4e4] |
+A4 [c'4a4e4] [b4g4e4] [c'4a4e4] | A4 [c'4a4e4] d4 [b4f4d4] |\
+c4 [a4e4c4] d4 [a4f4d4] | e4 [c'4a4e4] [c'4a4e4] [a2e2A2] |]

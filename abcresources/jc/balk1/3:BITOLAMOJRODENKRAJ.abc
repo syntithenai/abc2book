@@ -1,0 +1,30 @@
+X: 33
+T: Bitola Moj Roden Kraj
+Z: Deborah Jones VIFD Book
+L: 1/8
+M: 7/8
+Q: 1/4=120
+K: C
+%%MIDI gchord f3f2f2
+P:I
+   "C" [E3C3] "G7" [D2F2] [CE][DF]           | "C" [E3G3][E4G4]               |\
+   [C3E3][D2F2]"G7" [CE][DF]                 | "C"[E7G7]                      |\
+   [E2C2][EC]"G7" [F2D2] [EC][FD]            | "C"[G3E3]"F" [A4F4]            |\
+   "C" [G3E3] "G7" [FD][GE] [F2D2]           | "C" [E7C7]                     |
+P:A
+   "C"[E3C3] "G7"[F2D2] [EC][FD]             | "C" [G7E7]                     |\
+   [E3C3] [F2D2] "G7" [EC][FD]               | "C" [G7E7]                     |\
+   [E2C2] [EC] "G7" [F2D2] [EC][FD]          |"C" [G3E3] "F" [A4F4]           |\
+   "C" [G3E3] "G7" [FD][GE] [F2D2]           |"C" [E7C7]                      |
+P:B
+|: "F" [F3A3] [F3A3] [EG]                    | [F4A4] G F2                    |\
+   "G" [E/G/][F/A/] [G2B2] "G7" [F2c2][F2A2] |\
+   "C" [E7G7]                                | "G" [G3B3] "G7" [F2A2] [F2A2]  |\
+   "C" [E4G4][DF] [C2E2]                     |\
+   [E2G2][EG] "G7"[DF][EG][DF][EE]           |[1 "C" [C7E7]                   :|\
+   [2 "C" [C5E5]z2                           |
+P:C
+|: "C"[GE][AF][BG] [cA][BG] [dB][cA]         |\
+   "F" [B2G2] [AF] [AF][GE] [BG][AF]         |\
+   "G7" [G2E2] [FD] [FD][GE] [FD][EC]        |\
+   [1 "C" [E2C2] [DB,] [EC][FD] [G2E2]       :|[2 "C" [E5C5] z2               |

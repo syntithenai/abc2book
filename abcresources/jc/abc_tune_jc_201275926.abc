@@ -1,0 +1,36 @@
+X:8
+T:Finn Pals Hoijakka Medley
+M:3/4
+L:1/8
+Q:1/4=120
+S:Finn Pals Polska, Jepuan Polska, Finn Pals Polska
+R:polska
+P:FP,JP,FP
+K:Gm
+P:FP
+|: "Gm" d>d "D7" cc "Gm" BB | "D7" A/2B/2A/2^F/2 "Gm" G2 D2 |
+"Gm" G>A Bc dg | "D" dc "Gm" d2 "D" D2 | !
+"Dm" d>d ff dd | "Cm" c>c ee "D7" dd |
+"Gm" B>B dd BG | "D7" ^F/2G/2A/2F/2 "Gm" G2 D2 :| !
+|: "Gm" G>A Bc/2B/2 AG | "D" ^F/2G/2A/2F/2 "Gm" G2 D2 |
+"Gm" G>A Bc dg | "D" dc "Gm" d2 "D" D2 | !
+"Dm" d>d ff dd | "Cm" c>c ee "D7" dd |
+"Gm" B>B dd BG | "D7" ^F/2G/2A/2F/2 "Gm" G2 D2 :| !
+K:Dm
+P:JP
+|: "Dm" a/2g/2f/2e/2 dd "A" ^cc | "Dm" dd "A" ee "Dm" ff |
+a/2g/2f/2e/2 dd "A" ^cc | A=B/2^c/2 e2 "Dm" d2 :| !
+|: "Dm" ff/2g/2 af af | "Gm" gg/2a/2 b2 g2 |
+"C" ee/2f/2 ge ge | "F" ff/2g/2 a2 f2 | !
+"Dm" a/2g/2f/2e/2 dd "A" ^cc | "Dm" dd "A" ee "Dm" ff |
+a/2g/2f/2e/2 dd "A" ^cc | A=B/2^c/2 e2 "Dm" d2 :|
+K:Gm
+P:FP
+|: "Gm" d>d "D7" cc "Gm" BB | "D7" A/2B/2A/2^F/2 "Gm" G2 D2 |
+"Gm" G>A Bc dg | "D" dc "Gm" d2 "D" D2 | !
+"Dm" d>d ff dd | "Cm" c>c ee "D7" dd |
+"Gm" B>B dd BG | "D7" ^F/2G/2A/2F/2 "Gm" G2 D2 :| !
+|: "Gm" G>A Bc/2B/2 AG | "D" ^F/2G/2A/2F/2 "Gm" G2 D2 |
+"Gm" G>A Bc dg | "D" dc "Gm" d2 "D" D2 | !
+"Dm" d>d ff dd | "Cm" c>c ee "D7" dd |
+"Gm" B>B dd BG | "D7" ^F/2G/2A/2F/2 "Gm" G2 D2 :| !

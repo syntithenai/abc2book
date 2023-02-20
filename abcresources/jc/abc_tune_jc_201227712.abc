@@ -1,0 +1,21 @@
+X: 1093
+T: Sir Ronald McDonalds Reel
+O: Very Old.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.1 p.9 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+B |\
+G/G/G (.d.c) Td3 g | .fd(Tc>A) FGAF | G/G/G (BG) Bd-df | AFcA [G3D3B,3] :| f | g(aTg>f) dfga | feTc>A FcAf |
+gaTg>f dfga | fdc>A G3 f || gaTg>f dfga | fc (d/c/B/A/) Tc>dfa | gafg dfcf | AFcA G3 :|]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z |\
+g2g2 g2g2 | f2f2 f2f2 | g2g2 g2g2 | d2d2 G2G :| z | g2g2 g2g2 | f2f2 f2f2 |
+g2g2 g2g2 | d2d2 G2G2 || g2g2 g2g2 | f2f2 f2f2 | g2f2 b2a2 | d2^f2 g2G |]

@@ -1,0 +1,39 @@
+X:212
+T:Careáu (MG 42)
+R:Careáu
+C:Versión Gaiteru del Centru Asturianu de México
+S:Música Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Baille del Oucidente asturianu.
+N:El ritmu ye tenrariu.
+N:Los bailladores dancien en rueda y van cambiando de parexa demientres van dando vueltes, dándose la cara "careándose".
+N:Nes brañes de Silvamayor, Emberniegu, Busecu y Aristébanu cántase con payel.la.
+N:Nes de Tinéu acompáñase de pandeiru redondu y payel.la.
+A:Asturies
+O:Oucidente d'Asturies
+Z:Métodu de Gaita 42
+M:3/8
+L:1/8
+Q:3/8=80
+E:Nivel 4
+K:C
+~G
+|: CCE|G2 G|~G>FE|.F2 F|~FED|~EDC|~DCB,|C2 ~G :|
+|CCE|G2 G|~G>FE|.F2 F|~FED|~EDC|~DCB,|C>C{G}C|{G}C3|
+|: G>AB|cB~A|G>AB|cB~A|G3|A3|
+|A>B~A|GF~E|D>EF|GF~E|D3|G3 :|
+|~G>GG|G3|~G>GG|G2 F|GGG|GG_A|_B2 _A|G2 F|G2 F|E3|
+|: G>GG|~G2 F|GG ~E|C3|~D>DD|~D2 B,|C3/2{G}C/{G}C|{G}C3 :|
+|G>GG|~G2 F|GG ~E|C3|~D>DD|~D2 B,|C3/2{G}C/{G}C|C3|
+|: G>AB|cB~A|G>AB|cB~A|G3|A3|A>B~A|GF~E|D>EF|GF~E|D3|G3 :|
+[K:Cm]
+|: G2 A|F2 E|G2 A|F2 E|G2 A|F2 ~G|FE~D|[1 C3 :|[2 C2 C/D/|
+|{F}E~DC|{F}E~DC|{F}E~DC|G G/G/ G|
+|G2 D/{F}E/|F{F}E~D|{F}E~DC|~DC=B,|
+|{G}C {G}C/{G}C/ {G}C|{G}C2
+C/D/|{F}E/~D/C/{F}E/~D/C/|{F}E/~D/C/{F}E/~D/C/|{F}E/~D/C/{F}E/~D/C/|
+|G G/G/ G|G2 D/{F}E/|F/{F}E/D/F/{F}E/D/|{F}E/~D/C/{F}E/~D/C/|
+[K:C]
+|~D/C/B,/D/C/B,/||C {G}C/{G}C/ {G}C|{G}C2 ~G|
+|: CCE|G2 G|~G>FE|.F2 F|~FED|~EDC|~DCB,|C2 ~G :|
+|CCE|G2 G|~G>FE|.F2 F|~FED|~EDC|~DCB,|C>C{G}C|{G}C3|

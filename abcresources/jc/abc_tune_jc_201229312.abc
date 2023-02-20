@@ -1,0 +1,17 @@
+X: 121
+T: Kincardine Reel
+C: Bert Murray
+R: reel
+B: Bert Murray's "Bon Accord Collection" 1999 p.12
+%
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Fixed the lengths in the first half of bar 7 to match bars 3, 11 and 15.
+M: 2/4
+L: 1/16
+K: Bm
+ue |\
+{ga}f2(fe) dBBd | (cB/A/) (ce) aece | {fg}f2(fe) dBBd | (cB/A/) (ec) dBBe |
+fgfe dBBd | (cB/A/) (ce) aece | {fg}f2(fe) dBBd | (cB/A/) (ec) dBB ||
+uf |\
+bffe dBBd | (cB/A/) (ce) aece | bffe dBBd | (cB/A/) (ec) dBBf |
+baba fedf | efaf ecAc | {fg}f2(fe) dBBd | (cB/A/) (ec) dBB |]

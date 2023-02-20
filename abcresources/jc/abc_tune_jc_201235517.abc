@@ -1,0 +1,20 @@
+X: 211
+T: 3. La Royal
+T: la Royal
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.21 #1 dance 07 #3
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: There are 4 E flats and only one E natural, so a G minor key signature makes more sense.
+M: 2/2
+L: 1/8
+K: Gdor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D4 G4 | ^F6 D2 | G2^F2 G2A2 | B4 B2AB |\
+c4 B4 | A6 B2 | G2B2 A2G2 | ^F4 F4 :|\
+|:\
+"4.F."d4 B4 | F6 F2 | G2F2 E2D2 | C4 [M:6/8] CB,C |
+D_ED CB,C | D_ED CB,C | D3 G3 | !+!^F3 D3 |\
+d_ed cBc | d_ed cBc | d3 G3 | !+!^F3 D3 |\
+BcB AGA | BcB AGA | D3 ^F3 | G3 G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,22 @@
+X: 1
+T: Polka from Don Messer
+C: Don Messer
+R: polka
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+cd \
+| "A"e2ce abaf | efec A2c2 \
+| "E7"BABc dcde | "A"fe2e e2cd \
+|| "A"e2ce abaf | efec A2c2 |
+| "E7"BABc dBGB |1 "A"A4 z2 \
+:|2 "A"A2a2 "A7"g2=g2 ||[K:=g][K:D]\
+|: "D"f4 A4- | A2d2 c2d2 \
+| "G"e4 B4- | B2d2 c2d2 |
+| "A7"b4 c4- | c2a2 ^g2a2 \
+| "D"d'2z2 f2a2- | "A7"a2 a2 ^g2=g2 \
+|| "D"f4 A4- | A2d2 c2d2 |
+| "G"e4 B4- | B2d2 c2d2 \
+| "A7"b4 b4 | c4 B2c2 | "D"d2cB "A7"AGFE \
+|1 "D"D2a2 "(A7)"^g2=g2 :|2 "D"D4 z2 |]

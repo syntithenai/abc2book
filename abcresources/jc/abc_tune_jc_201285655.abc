@@ -1,0 +1,26 @@
+X:1
+T: Helene's Night Out
+N:
+C:Claudio Buchwald
+S:
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 150
+%W:
+% voice 1 (1 lines, 34 notes)
+K:G
+M:6/8
+L:1/16
+D2 |G4 B2 A4 F2 E4 G2 F4 D2 E4 e2 f4 g2 d6d2 g2 f2 |e4 c2 e2 g2 f2 d4 B2 B4 c2 d3 e d2 c4 B2 A6A4 D2 |
+%W:
+% voice 1 (1 lines, 33 notes)
+G4 B2 A4 F2 E4 G2 F4 D2 E4 e2 f4 g2 d6d4 g f |e4 c2 e4 c2 d2 g4 B4 c2 d3 c B2 A4 G2 G6G4 e f |
+%W:
+% voice 1 (1 lines, 32 notes)
+g4 B2 g4 B2 g4 B2 g2 a2 g2 f4 B2 f4 B2 f6f4 g4 |g2 f4 d2 e4 e2 d B3 c2 d3 e d2 c4 B2 E6E4 D2
+%W:                                                                                                         FINAL
+% voice 1 (1 lines, 39 notes)
+G4 |G2 F2 G2 A2 B4 B2 A2 B2 c2 d4 d2 e4 e2 d4 d2 e4 e2 =f2 e2 |f2 e4 e2 =f2 e2 f2 e4 ^f2 g2 f2 g2 f2 d2 f2 g4 d2 c4 A2 |G12 |

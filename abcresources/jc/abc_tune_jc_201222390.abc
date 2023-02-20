@@ -1,0 +1,29 @@
+X: 5
+T: Duncan Davidson
+%R: march, reel
+B: Name "Kauntze's Collection of the most favorite Dances, Reels, Waltzes, &c."
+F: http://imslp.org/wiki/Kauntze%27s_Collection_of_Dances,_Reels,_Waltzes_etc._%28Various%29
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The last bass note was C; fixed to the obvious D.
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+D/D/D A>B | AFAB | D/D/D d>B | AFE2 |\
+D/D/D AB | AFAg | f>ge>f |[1 d/d/d d2 :|[2 d/d/d dg |
+|:\
+fd de/f/ | gfed | cAeA | fAeg |\
+fd d/d/d | gfed | cdef | d/d/d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+[d2D2][d2D2] | [d2D2][d2D2] | [d2D2][d2D2] | [d2D2][a2A2] | [d2D2][d2D2] |
+[d2D2][d2D2] | a2A2 |[1 dAD2 :|[2 dAD2 |: [d2D2][d2D2] | [a2A2][a2A2] |
+[a2A2][a2A2] | [a2A2][a2A2] | d'2d2 | [a2A2][a2A2] | [a2A2][a2A2] | dAD2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Set, 3 hands round with the 2d Lady. same with the 2d Gent. down the middle,
+%% up again, Right and Left.
+%%endtext

@@ -1,0 +1,22 @@
+X: 1
+T: \"Orbyhuspolskan
+O: efter Pelle Pettersson, Khypplan, Uppland
+N: upptecknad efter Ceylon och Henry Wallin
+R: polska
+S: Fiddle Hell Online 2020-11-05 handout from Bronwyn Bird
+S: Fiddle Hell Online 2022-4-2 handout for Bronwyn Bird's Swedish Jam
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+%%slurgraces yes
+%%graceslurs yes
+K: G
+"^A"|: (B2 |\
+"G"d3)~d B4 G3B | (e3~d) B4 B3B | d3~d B4 G3B | "D7"(d3B) {dB}A4 A2z2 |\
+"D7"(A3B) (A2G2) FA3 | d4 d4 z2ud2 | (fe3) (d3c) B3A |"G"G4 G6 :|
+"^B"|: z2 |\
+"G"D4 (D3B,) D3G | B4 (BcBA) G3F | "C"E4 (E3C) E3G | c4 (~c3~B) A3G |\
+"D7"F4 (F3G) F3E | (TED3) D6 z2 |[1 (B,3C) (D3E) D3C | (CB,3) B,6 z2 :|[2 "G"(D3B,) (D3G) B3A | {A}G4 G6 ||
+"^C"|: (B2 |\
+"G"d3)(d {Bd}B4) G3B | {B}d3(d {Bd}B4) B3B | "C"C4 c4 c3c | {c}e3(e {ce}c4) c3D |\
+"D7"D3(D F4) D3F | A3(A F4) F3TE | D3D (3(E2D2E2) (3(F2E2F2) | "G"G4 G6 :|

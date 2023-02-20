@@ -1,0 +1,27 @@
+X: 10063
+T: LYDIA'S WALTZ
+C: Bob McQuillen 21 Sept 93
+B: Bob's Note Book 10 #63
+%R: waltz
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: G	% and D
+Bd \
+| "G"gfe | dBd | "C"e3 | "G"d3 | Bd>B | "D7"AGA | "G"B2G | D2D |\
+| "C"E3 | "C7"EFG | "G"D3 | "Em"G2A | "A7"B3 | AB^c | "D7"dfe | def |
+| "G"g>fe | dBd | "C"e>fg | "G"d3 | Bd>B | "D7"AGA | "G"BG>E | D2D |\
+| "C"E3 | "C7"EFG | "G"DGB | "E7"d2c | "A7"BGB | "D7"A2G | "G"G3- | G |]
+K: D
+[| FG \
+| "D"Af/f/f | "G6"Af/f/f | "D"Aff/g/ | "G6"fd>B | "D"Add/e/ | "G6"fd>B | "D"A3- | Acd |\
+| "Em"eg>f | ede | "Bm"fa>f | d2d | "E7"Bcd | ef^g | "A7"agf | edB |
+| "D"Af/f/f | "G6"Af/f/f | "D"Aff/g/ | fd>B | Ade | fga | "D7"a3- | afa |\
+| "G6"gBB | "Gm6"gag | "D"fA>A | Ad"G"B | "A7"A3 |e2d | "D"d3- | d |]
+%%begintext align
+%% You've already met Lydia Reeve.
+%% She has a jig, back in Book 8, but I just coldn't leave it at that, not
+%% with Lydia! She just had to have her own waltz, too, and when this one showed
+%% up recently, I said, "_WOW_"!! That's _Lydia_'s Waltz! So here it is, dear lady,
+%% with much love to you from Bob--
+%%endtext

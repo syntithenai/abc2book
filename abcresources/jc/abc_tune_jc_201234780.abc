@@ -1,0 +1,20 @@
+X: 2077
+T: the HAGGIS
+C:
+Q: "Reel."
+R: Reel.
+%R: reel
+B: James Kerr "Merry Melodies" v.2 p.11 #77
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 1st ending of strain 2 conflicts with the pickup; fixed by moving the start-repeat to after the pickup note.
+M: C
+L: 1/8
+K: C
+F |\
+(E/F/G) (Gc) GEEF | (E/F/G) GB c2ce |\
+(E/F/G) (Gc) GcGE | D/D/D _BD F2F :|\
+g |:\
+ecgc eccg |
+ecge f2(fa) |\
+[1 ecgc acgc | d/d/d _bd f2fa :|\
+[2 ecdB cAGE | D/D/D _BD F2F |]

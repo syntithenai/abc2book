@@ -1,0 +1,26 @@
+X:1
+T: Bar a Bar
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:Dm
+I:speed 106
+%W:
+% voice 1 (1 lines, 24 notes)
+K:Dm
+M:4/4
+L:1/16
+d4 A2 f2 e6 A2 |d2 f2 e2 d2 ^c6 =B2 |A2 d2 G2 d2 F2 d2 E2 d2 |^c2 d2 e2 c2 d8 |
+%W:
+% voice 1 (1 lines, 26 notes)
+a4 f g a2 g6 g2 |a2 f2 f g a2 g6 f2 |e2 g2 d2 g2 c2 g2 B2 g2 |A2 f2 g2 e2 f8 |
+%W:
+% voice 1 (1 lines, 21 notes)
+a2 f2 f g a2 b6 a2 |g2 f2 e2 d2 ^c6 =B2 |A2 d2 G2 d2 F2 d2 E2 d2 |
+%W:
+% voice 1 (1 lines, 19 notes)
+D2 d2 e2 ^c2 d6 B2 |A2 d2 G2 d2 F2 d2 E2 d2 |D2 d2 e2 ^c2 d8 ||

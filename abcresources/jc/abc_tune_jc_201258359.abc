@@ -1,0 +1,22 @@
+X: 435
+T: Shabbat Menucha
+O: Israel
+C: Avihu Medina 1983
+F: http://www.youtube.com/watch?v=kS9EBqQ2Fek
+F: http://www.youtube.com/watch?v=U0meSK4p5R8
+M: 2/4
+L: 1/8
+K: Em
+Q:1/4 = 108
+%%MIDI program 73 % 73 Flute
+%%MIDI beat 97 87  77 4
+%%MIDI ratio 2 1
+%%MIDI drum dzdz 61 60 90 90
+%%MIDI drumon
+B|:e3/2f/gf|e4|d3/2^c/dc|d4|
+cccc|cded|c2BA|[1B4-|B3B:|[2B4-|B4|
+%%MIDI drum d3dd2d2 47 47 47 47 90 60 70 60
+B3/2A/GF|E2FG|B3c/B/|A4-|A4|
+G4|A2=F2|E4-|E4|
+B4|A4|d4|B4|
+G4|A2=F2|E4-|E4|

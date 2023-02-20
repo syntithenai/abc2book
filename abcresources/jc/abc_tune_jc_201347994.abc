@@ -1,0 +1,25 @@
+
+X: 1
+T: Uno! . . . Tango
+C: M\'usica: Marianito Mores 1943
+C: Letra: Enrique Santos Discepolo
+R: tango
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+[|\
+!p!"D"AAAA AA^GA | "F#/C#"^AAAA AA^^GA | "Bm"BBBB BBBB | "Am"[=c4E4] "B"[B4^D4] |
+!f!"Em"BBBB BB^AB | "C"=cccc ccBc | "A7"^cccc cccc | "Em"[d4B4] "Am7"[c4A4] |
+!ff!"D"eded eded | "C#7"cBcB cBcB | "F#"[f8^A8F8] & x4 "F#dim"((3E2F2E2) | "B"BABA BABA &^D4 x4 | "Em"[e8E8] & x4 "E7"((3D2E2D2) |
+"Am"AGAG AGFG & C4 x4  | "D"A8 | "G"eded edcd | "E/G#"cBcB cB^AB |
+"D/A"dcdc dcBc | "B"B6 zB, | "G"AGAG dBGF | "Em/B"E4 "/Bb"((3D2_B2D2) | "Am"[A8C8] ||
+!pp!"n.c."zFGF GFED | "D"F4- "D+"F4 | "Bm"zF"n.c."GA B3B, | "Em"E4- "Em+"E4 |
+"A/E"zG"n.c."AG AGFE | "Em"G4- "Em+"G4 | "A/E"zGAB c3A | "F#m"F8 |
+"/F#"z2"n.c."FG ABcd | "D"cccd cdcd | "C#"cccd c^dcd | "Em"B4 A4 |
+"A7/C#"z2"n.c."EF GABc | "Em6"BBBc BcBc | "A+"AAAB ABcA | "D"zced cA2B |
+"D"zF"n.c."GF GFED | "D"F4- "D+"F4 | "Bm/D"zF"n.c."GA B3B, | "Em"E4- "Em+"E4 |
+"Em"z2"n.c."EF GABc | "G"d4- dddd | "Gm"d4- dddd | "D"d4 A2-"Cdim"A2 |
+"B7"zF"n.c."GA BGFE | "/E"G2-"/_E2"G2- "/D"GB,CD | "A"F4 "A7"F4  |\
+[1"D"D2 "A7"[a2g2e2c2] "D"[d'2a2f2d2] [G2E2C2] :|\
+[2 "D"D8- & D2=C2 B,2_B,2 | "D"[D2A,2] "A7"[A2G2E2C2] "D"[d2A2F2D2] z2 |]

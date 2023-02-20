@@ -1,0 +1,17 @@
+X: 11191
+T: Blink over the Burn sweet Betty
+N: On the tune page the name looks like "Belty", but the index page has "Betty".
+%R: air, waltz, minuet
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.19 #1 (top 3 staffs continued from p. 18)
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dmix
+%%slurgraces 1
+%%graceslurs 1
+ag |\
+Tf3 e (f/g/a) | A4 Tf>e | d2 B2 ag | Tf3 e (f/g/a) | A3 gTf>e | d4 (ag) | Tf3 e d2 | A2 (3(agf) (3(gfe) |d2 B2 fg | a2 (ba)(gf) |
+g2 (ag)(fe) | d4 :: AG | F2 A2 d2 | {B}A3 gfe | d2 B2 (AG) | F2 A2 d2 | (FE) D2 (Tf>e) | d4 (AG) | FG (G3 F/G/) | A4 (Tf>e) |
+d2B2 (fg) | a3 g f2 | g2 (ag)(fe) | d4 :: ag | Tf3 e d2 | (A<g)(f<e)(d<^c) | {c}B4 a2 | Tf3 e d2 | A<gf<ed<^c | {^c}d4 (AG) |
+FDFA d2 | (f/g/a) (d/e/f) (B/c/d) | G4 (AG) | F2 A2 d2 | bg {f}Te4 | d4 :: (AG) | FDFA d2 | fDfed^c | {^c}B4 d2 |
+A3 B A2 | {ef}g2 (fe)(d^c) | {c}d4 (AG) | F2 A2 d2 | (e/f/g) (f/g/a) (g/a/b) | (BGB)d g2 | b3 a g2 | f2 (ag)(fe) | d4 :|

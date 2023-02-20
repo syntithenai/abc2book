@@ -1,0 +1,23 @@
+X:1
+T: The Spring
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 200
+%W:         A1                                                             A2
+% voice 1 (1 lines, 28 notes)
+K:Am
+M:4/4
+L:1/16
+e8 d4 e2 d2 |c4 d4 B4 e4 |^G4 E4 A4 B4 |B8 A8 |e8 d4 e2 d2 |c4 d4 B4 e4 |^G4 E4 A4 B4 |B8 A8 |
+%W:         B1
+% voice 1 (1 lines, 34 notes)
+g4 e2 d2 c4 e4 |f4 d2 c2 B4 G4 |c4 g2 f2 e4 a2 d2 |d8 c4 g4 |c'8 b4 c'4 |a4 b4 ^g4 e4 |a4 e2 d2 c4 f2 B2 |B8 A8 |
+%W:         B2
+% voice 1 (1 lines, 34 notes)
+g4 e2 d2 c4 e4 |f4 d2 c2 B4 G4 |c4 g2 f2 e4 a2 d2 |d8 c4 g4 |c'8 b4 c'4 |a4 b4 ^g4 e4 |a4 e2 d2 c4 f2 B2 |B8 A8 ||

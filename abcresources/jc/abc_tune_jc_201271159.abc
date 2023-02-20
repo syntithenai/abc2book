@@ -1,0 +1,44 @@
+X:1
+T:Duncan McInnes  "rpb"
+M:C|
+L:1/8
+Q:80
+C:
+S:2/4 March
+K:HP
+|: e | \
+{g}A3/2B/2{GdG}c{Gdc}d | \
+{g}e3/2f/2{gcd}c{e}A | \
+{gcd}ce{g}A{d}c |
+{gef}e3/2d/2{gBd}B{e}G | \
+{g}A3/2B/2{GdG}c{Gdc}d | \
+{g}e3/2f/2{gcd}ce |
+{Gdc}d{e}G{gef}e3/2d/2 | \
+{gBd}B{e}A{GAG}A :: \
+B |
+{AGAG}Aa{g}ae | \
+{gf}g3/2a/2{f}g{a}e | \
+{gcd}c{e}A{gcd}c{gf}g |
+{ef}e3/2d/2{gBd}B{e}G|1  | \
+{gAGAG}Aa{g}ae | \
+{gf}g3/2a/2{f}g{a}e |
+{Gdc}d{e}G{gef}e3/2d/2 | \
+{gBd}B{e}A{GAG}A :: \
+{g}e3/4d/4 |
+{g}d/2c3/2{g}A{d}c | \
+{g}e3/2f/2{gcd}c{e}A | \
+{gef}e2{g}A{Gdc}d |
+{gcd}c2{gBd}B{e}G | | \
+{g}d/2c3/2{g}A{d}c | \
+{g}e3/2f/2{gcd}ce |
+{Gdc}d{e}G{gef}e3/2d/2 | \
+{gBd}B{e}A{GAG}A :: \
+{g}c/2d/2 |
+{gef}ec{ag}a3/2g/2 | \
+{fg}fe{gcd}c{e}A | \
+{gef}e2{g}A{Gdc}d |
+{gcd}c2{gBd}B{e}G|1
+{gef}ec{ag}a3/2g/2 | \
+{fg}fe{gcd}c{g}e |
+{Gdc}d{e}G{gef}e3/2d/2 | \
+{gBd}B{e}A{GAG}A :|

@@ -1,0 +1,23 @@
+X: 2262
+T: Lick the Ladle Sandy,   a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.2 p.26 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+f !segno!|:\
+eAcA eAcA | =G/G/G gB d2Tf2 | eAcA eAcA | A/A/A ac e2Tf2 :| (ef/g/) ae fdec | B/B/B =gB d2Tf2 |
+(ef/g/) ae fdec | e/e/e ac e2Tf2 || (ef/g/) ae fdec | B=gdB GABG | ABcd ef=ge | fd=gB A2Tf2 !segno!y:|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z !segno!|:\
+a2a2 a2a2 | =g2g2 g2g2 | a2a2 a2a2 | a2a2 [c2a2][d2a2] :| a2c'2 d'2a2 | =g2g2 g2g2 |
+a2c'2 d'2c'2 | a2a2 [c2a2][d2a2] || a2c'2 d'2a2 | =g2g2 g2g2 | a2a2 A2c2 | d2e2 [c2a2][d2a2] !segno!y|]
+%%begintext align
+%% NB. The Sets we have seen formerly of this Tune begins with the 2d Strain
+%% (published we suppose by mistake) in place of the first as now given.
+%%endtext

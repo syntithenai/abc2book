@@ -1,0 +1,24 @@
+X: 2202
+T: Greig's Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.20 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C	% ending on Am
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 8-bar lines, for compactness and proofreading.
+V: 1 staves=2
+|:\
+EGTG2 cGTG2 | c>GA>G (c/A/).G/.E/ G2 | A,AA>B (c/B/).A/.^G/ A2 | A,A(A>B) (c/B/)A/^G/ A2 ||\
+A,ATc2 egTg2 | eaTa>g ec'Tc'2 | c'b/a/ Tag/e/ ed/c/ Tcd/e/ | TA,>B,TC>D TEAA2 :|
+|:\
+egTg2 c'gTg2 | egTg2 c'gTg2 | eaTa>b (c'/b/)a/^g/ a2 | AaTa>b c'/b/a/^g/ Ta>b ||\
+{ab}c'>ba>g a>gf>e | Tf>edc (G/E/)G/c/ AB, | TA,>B,TC>D (E/D/)C/D/ TE2 | TA,>B,TC>D TEAA2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+c'2c2 e2c2 | e2f2 e2cB | A2a2 e2a2 |A2a2 e2a2 || c2c'2 c2c'2 | c2c'b a2A2 |
+a2b2 c'2c'b | a>^gab c'2a2 :||: c2c'2 c2c'2 | c2c'2 c2c'b | a2A2 e2a2 | A2a2
+e2a2 || a>gf>e f>ed>c | B>cde ce az | Aeab a2A2 | a>^gab c'2a2 :|

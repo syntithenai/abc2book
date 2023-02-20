@@ -1,0 +1,23 @@
+X: 153
+T:Sapri Tama
+C:Yemenite Folk
+O:Israeli
+I:Dance taught by Yo'av Ashriel
+D:Dance Israel (Dancecraft LP 123301)
+F: http://www.youtube.com/watch?v=lWwMi1cAH1Y
+F: http://www.youtube.com/watch?v=ppPNdZ5yyYE
+F: http://www.youtube.com/watch?v=VZw986D1NY8
+L:1/8
+M:2/4
+Q:1/4=120
+K:Dm
+%%MIDI program 73 Flute
+%%MIDI bassprog 0 Piano
+%%MIDI gchord f2z2
+   c'3 f      | g2f2      |g2 ab       |ag g2- |g4    |\
+   c'4        |f2g2       |f2g2        | abag  | g4   | a4|
+K:EDor
+Q:1/4=160
+|: "D"D2 "A"CD| EF E2     | "D"D2 "A"CD| E4    :|\
+   "D"EF G2-  |G2 "D"F2   |"D"A4       |"A"E4\
+|: "A"A4      |"D"D2 "G"E2|"D"D2 "G"E2 |"D"FGFE|"E"E4-|E4 :|

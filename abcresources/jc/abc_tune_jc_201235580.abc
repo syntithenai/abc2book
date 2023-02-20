@@ -1,0 +1,30 @@
+X: 21232
+T: MASSASOIT SETT (tune 5)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.123 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Bar 8 has the high A notes' stems disconnected from the lower notes, but it's not musically significant.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+E2 |\
+(A2c2) c2BA | c2e2 e4 | (A2c2) c2BA | e2F2 E4 |\
+(A2c2) c2BA | c2e2 e4 | c2e2 A2e2 | [c2A2][a2A2E2][a2A2E2] H|]\
+E2 |\
+ABcd e2c2 | f2d2e2c2 | ABcd e2c2 |
+f4 E2E2 |\
+ABcd e2c2 | f2d2e2c2 | A2e2c2e2 | c2A2"^D.C."A2 |]\
+E2 |\
+A2 (3(fga) e2c2 | A2 (3(fga) e2c2 | A2 (3(fga) e2c2 | d2E2 E4 |\
+A2 (3(fga) e2c2 | A2e2 e4 | c2e2d2f2 | e2A2"^D.C."A2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies balance to right,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

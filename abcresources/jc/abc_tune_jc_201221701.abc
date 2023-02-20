@@ -1,0 +1,22 @@
+X: 05064
+T: MS. DAVIS' JIG
+C: Bob McQuillen 20 Dec'80
+B: Bob's Note Book 5 #64
+%R: jig
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G	% and Em
+d2e \
+| g2G GAB | AGE E2G | DGB d2e | d3- d ef | gfg age | dBG G2g | aba gfe | d3 g2a |
+| bgb age | ded dga | bab a2g | e3 d2c | Bdg ece | dfa gdB | ABc def | g3 |]
+K: Em
+[| G2A \
+| B2G EGA | Bde ged | Bed BAB | GEE E2d | BGB AGA | Bee e2f | gfe dBd | e3 e2f |
+| gfe fed | ede B2e | dBG GAB | dBA A2B | GEG AGA | Bef ged | BAB dBd | e3 |]
+%%begintext align
+%% All of us appreciate Sharon
+%% Davis - She works hard to bring great British Traditional
+%% Music groups (Silly Wizard, et cetera) into the area (and
+%% besides that, she's a great contra dancer) - Thanks, Sharon -
+%%endtext

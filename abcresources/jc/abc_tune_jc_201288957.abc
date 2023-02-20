@@ -1,0 +1,35 @@
+X: 1
+T: Huntington's Maggot
+P: Longways for as many as will
+%R: march, reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.191
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice over" instruction.
+N: Strain endings mismatched; fixed with initial rest.
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+z2 |\
+f4 (g3f/g/) | a4 d2f2 | e2(fe) d2^c2 | d4 A2e2 |\
+f4 (g3f/g/) | a4 d2f2 | e2(fe) d2^c2 | d6 :|\
+|: a2 |\
+a4 b3c' |  ^f6 g2 | a2b2 c'2a2 | b3c' b2a2 |
+g3a a3g | g6 d2 | e6 (f/g/a) | ^c6 d2 |\
+e2f2 g2(fe) | a3ab a2g2 | f3e e3d | d6 :|\
+|: a2 |\
+f2e2 f2(ed) | e4 A2e2 | f3g (g3f/g/) | a6 :|
+|: a2 |\
+a3g a2b2 | gfga g2a2 | f3g g3f | f6 ef |\
+g2f2 e2d2 | ed cB A2a2 | f3e e3d | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The two men take hands, and the two we. at the same time fall back, all four meet and turn Single, the first man turn
+%% the 2. wo. by the right-hand, and fall into their own places .| Take hands, fall back, meet and turn S. the wo turn the 2.
+%% man, and fall into their own places :| Then 1. cu. cross over below the 2. cu. take hands and turn round, the other cu. do the
+%% same as before :| The 1. cu. meet and set and cast off .| The other cu. do the like :| Back to back both cu. then right and
+%% left with your Partners .| All four lead up hands a-breast, then lead through and cast off :| Note: Each Strain twice over.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

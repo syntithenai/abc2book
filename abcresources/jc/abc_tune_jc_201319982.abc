@@ -1,0 +1,20 @@
+X:1
+T:Reinlender etter Oluf Homnes
+R:reiländer
+M:4/4
+L:1/16
+Q:1/2=75
+K:D
+% part A
+| a3b\
+|:"D"a4 f3d A4 d3e|"A"d4 c3B c3d e3f|g4 A4 e4 A4|"D"d3e f2g2 a4 a3b\
+| a4 f3d A4 d3e|"A"d4 c3B c3d e3f|g4 A4 A2g2 f2e2\
+|1 "D"d4 d4 d4 a3b :|2 "D"d4 d4 d4 G3B|
+% part B
+K:G
+|:"G"d8 B3c d3e|d4 d4 B4 G3B|d8 B3d g3a|"D"g4 f4 f4 A3B\
+| c8 A3B c3d|c4 c4 A4 A3d|f4 f4 e4 e4|"G"d8 B4 G3B\
+| d8 B3c d3e|d4 d4 B4 G3B|d8 B3d g3f|"C"f4 e4 e6 e2\
+| a4 a4 a3g f3e|"G"e4 d4 d3c B4|"D"A3G A2B2 c2d2 e2f2\
+|1"G"g4 g4 g4 G3B:|2"G"g4 g4 g4 z4||
+

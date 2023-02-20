@@ -1,0 +1,41 @@
+X: 4201
+T: the Hon.ble Mr Maule's Frolick    or the Trip to Dormont   [F/Fm]
+C: by Nath.Gow
+%R: jig, waltz, air
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.20 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: This tune has the 2nd strain written as 2 "voices", but it's easier to work
+N: with in this form, using chords rather than 2 voices.
+M: 6/8
+L: 1/8
+Q: "Slowish"
+K: F
+% - - - - - - - - - -
+% Voice 1 left as-is, though the note spacing could be slightly improved by adjusting the staff breaks.
+V: 1 staves=2
+(c//d//e/) |\
+~f2c ~c2A | ~A2F ~F2C | C2C (CF).E | (DG).F {F}E2 (c//d//e/) ||\
+~f2c ~c2A | ~A2F ~F2C | (DB)A {A}GFE | (TE3 {DE}F2) :| b |
+{ab}c'2c' ~c'2b | {ab}c'2c' ~c'2b | ~a>bc' c'af | (eg).g Tg2b ||\
+{ab}c'2c' ~c'2b | a>bc' c'af | (db).a {a}gfe | Te3 f2b ||\
+{ab}c'2c' ~c'2b | {ab}c'2c' ~c'2b |
+~a>bc' c'af | (eg).g ~g2b ||\
+a>bc' {d'}c'ba | ~b>c'd' ~g>ab | {b}agf {a}gfe | Tf3 "_Fine"HF2 |][K:Fm]|: "^Minore"F |\
+(C<F).F TF2G | {G}A2F {A}GFE | (C<F).F TF2G |
+A>Bc c2c ||\
+(dB)d {d}cBA | (GB).e (BG).E | (.C.F.G .A.B.c) |(AF).F F2 :| c |\
+{g}f=ef (cf).a | {a}gfg e2g | {g}f>=ef cfg | (af).c fga ||\
+Tf=ef cfa | (gb).g efg |
+{fg}a>gf (=eg).b | (af).f f2c ||\
+{g}f=ef (cf)a | {a}gfg e2g | {g}f=ef cf_e | Hd>cB cAF ||\
+~F>GA A>Bc | .B(=de) BGE | (cA).F (cA).F | =ECE "_D.C."[F2A,2] |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | F3 f3 | F3 f3 | a3 f2a | b2g c'2z || f3 f3 | F3 A3 | B3 c2C | FAc f2 :| z |
+[f3a3c'3] [f2a2c'2][egc'] | [f3a3c'3] [f2a2c'2][egc'] | [f3a3c'3] [f3a3c'3] | [c3g3c'3] [c3g3c'3] ||\
+[f3a3c'3] [f2a2c'2][egc'] | [f3a3c'3] [f3a3c'3] | b3 c'2c | fcA F2z || [f3a3c'3] [f2a2c'2][egc'] | [f3a3c'3] [f2a2c'2][egc'] |
+[f3a3c'3] [f3a3c'3] | [c3g3c'3] [c3g3c'3] || [F3f3] [A3a3] | [B3b3] [B3b3] | [c3c'3] [c3C3] | FAc "_Fine"Hf2 |][K:Fm]|: "^Minore"z |\
+f3 f3 |  f3 e3 | f3 f2c |
+f3 f3 || g3 a3 | e3 e3 | f3 c3 | f2c F2 :| z | f3 f3 | e3 e3 | f3 c3 | f3 F3 || f3 f3 | e3 e3 |
+f3 c3 | FAc f3 || f3 f3 | e3 e3 | f3 f3 | Hg>ab c'2f || f3 =d3 | e3 e3 | f3 f3 | c2C "_D.C."F2 |]

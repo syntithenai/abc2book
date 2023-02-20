@@ -1,0 +1,21 @@
+X:95
+T:The Buttercross
+C:Colin Hume, 1996
+L:1/8
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=90
+%%MIDI program 69
+%%MIDI bassprog 33
+%%MIDI chordprog 54
+%%MIDI gchord f2cc
+K:D
+P:Play  AA BB CC BB AA
+P:A
+|: DE | "D"F2EF "/"D2DE | "Bm"F2EF "/"D2EF | "Em"G3F "/"E3D | "A"C2A2- "/"A2EF | "Em"G2FG "A"A2FE | "Bm"D2B2- "/"B2A2 | "Em"G2e2- "/"e2d2 |1 "A"c4- "/"c2 :|2 "D"d4- "/"d2 ||
+K:A
+P:B
+|: AB | "A"c3B "/"A2Bc | "G"d3c "/"B2cd | "E7"e2B2 "/"c2d2 | "A"d4 "/"c4 | "F#m"AGAB "/"c2A2 | "E7"BABc "/"d2B2 | "A"c2e2 "E7"dcB2 | "A"A4- "/"A2 :|
+K:G
+P:C
+|: z2 | "G"B2GA "/"B2=c2 | "D"d4 "/"A4 | "Em"G2EF "/"G2A2 | "Bm"B4 "/"F4 | "C"E3F "/"G2A2 | "G"D2B2-B2G2 | "Am"E2c2-c2B2 | "D"A4- "/"A2 :|

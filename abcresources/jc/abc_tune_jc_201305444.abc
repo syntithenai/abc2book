@@ -1,0 +1,46 @@
+X: 1
+T: Madam Frederick  #1
+T: The Royal Recovery
+C: William Marshall
+B: The Skye Collection (1887)
+B: Gow #210
+S: handwritten copy in Concord Slow Scottish collection book 2
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+c |\
+"A"(A,>B, C)>D E>F E<C | "A"A,C E>C E<A A<c |\
+"A"A,>B, C>D E>F E<C | "Bm"B,>B (d/c/)B/A/ "E7"G<B B<c |
+"A"(A,>B, C)>D E>F E<C | "A"A,>C E>C EA Ac |\
+"A"e>c A<E "D"F<d f>e | "Bm"dc BA "E7"G<B B<c ||
+"A"A<A {d}c>A e>A c>A | "A"E>A c>A "D"(f/e/)d/c/ "E7"(B>c) |\
+"A"A<A {d}c>A "(F#m)"e>A c>A | "D"F>A (F/E/)D/C/ "E7"B,<B B<c |
+"A"A<A {d}c>A e>A c>A | "A"E>A c>A "Bm"(f/e/)d/c/ "E7"(B{d}c) |\
+"A"A>c A<E "D"F>A F<D | "E7"E>DC>B, "A"(A,A)A |]
+
+%%sep 1 1 500
+
+X: 1
+T: Madam Frederick  #2
+T: The Royal Recovery
+C: William Marshall
+O: as played by Calum MacKinnon
+B: The Skye Collection (1887)
+B: Gow #210
+S: printed copy in Concord Slow Scottish collection
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+[|\
+"A"A,>B, C>D E>F E<C | "A"A,C E>C E<A A<c |\
+"A"A,>B, C>D E>F E<C | "Bm"B,>c d/c/B/A/ "E7"G<B B<c |
+"A"A,>B, C>D E>F E<C | "A"A,>C E>C E<A A3/c//d// |\
+"A"e>c A>E "D"F<d f>e | "Bm"d>B d/c/B/A/ "E7"G>B B<c ||
+"A"A>B c>A e>A c<A | "A"E<A ce "Bm"f/e/d/c/ "E7"B/d/c/B/ |\
+"A"A>B c>A "(F#m)"e>A c<A | "A"EG/A/ F/E/D/C/ "E7"B,<B B<c |
+"A"A>B c>A e>A c<A | "A"EA ce "Bm"f/e/d/c/ "E7"B/d/c/B/ |\
+"A"A>c AE "D"F/G/A FD | "E7".E.D.C.B, "A"A,<A A |]
+
+%%sep 1 1 500

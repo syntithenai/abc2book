@@ -1,0 +1,51 @@
+X: 1
+T:The Nutting Girl
+M:4/4
+C:
+S:Bacon (RKS (MSS))
+% note that nobody actually plays it as in Bacon
+%abc2mtex:no
+N:
+A:Field Town
+O:English
+R:Reel
+P:AAB(CB)2
+K:G
+P:A
+% we ignore the once to yourself, coming in on catch step at end of the ftj
+   DE   | G2 B2 B2 d2 | c2 B2 A2 GF | G2 B2 d2 g2 | d2 d2 d2 cB |\
+w: (l) *  r  l  r  r    l  r  l  l *  r  l  r  r    l  r  l  l *
+%         footings for a right-footed foot up
+%
+          c2 e2 A2 Bc | B2 d2 G2 AB | c2 A2 G2 F2 | G4    G2    ||
+w:        r  l  r  r *  l  r  l  l *  r  r  l  l    t     t
+%         2 side steps,               hop back,     foot together jump
+%
+P:B
+   dd   | e2 g2 a2 f2 | g2 d2 d2 dd | e2 g2 a2 f2 | g2-g2 d2 dd |\
+w: (l) *  r  l  r  l    r  l  r  r *  l  r  l  r    l  r  l  l *
+% catch step, sidestep/doublestep sequence
+%
+          e2 g2 a2 g2 | f2 e2 d2 B2 | A2 B2 c2 e2 | d2-d2 c2 BA |
+w:        r  l  r  r    l  r  l  l    r  r  l  l    r  r  l  l *
+%         2 side steps,               hockle back sequence
+%
+          G2 B2 B2 d2 | c2 B2 A2 GF | G2 B2 d2 g2 | d2 d2 d2 cB |\
+w:        r  l  r  r    l  r  l  l *  r  l  r  r    l  r  l  l *
+%         footings for a right-footed foot up
+%
+          c2 e2 A2 Bc | B2 d2 G2 AB | c2 A2 G2 F2 | G4    G2    ||
+w:        r  l  r  r *  l  r  l  l *  galley(r) - - - t     t
+%         2 side steps,               galley, foot together jump
+P:C
+   DE   | G4    B4    | B4    d4    | c4    B4    | A4    G2 F2 |\
+w: (l)    rT    R       l     r       lT    L       r     l  *
+% catch step, 2 squash beetles (rT = right toe)
+%
+          G4    B4    | d4    g4    | d4    d4    | d4    c3 B  |
+w:        rT    R       l     r       lT    L       r     l  (l)
+%         2 squash beetles (rT = right toe)
+%
+          c2 e2 A2 Bc | B2 d2 G2 AB | c2 A2 G2 F2 | G4    G2    ||
+w:        r  l  r  r *  l  r  l  l *  r  r  l  l    t     t
+%         2 side steps,               hop back,     foot together jump

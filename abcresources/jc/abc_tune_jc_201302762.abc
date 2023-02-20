@@ -1,0 +1,16 @@
+X: 162
+T: Little Molly O
+R: air
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #162
+Z: 1997 henrik.norbeck@mailbox.swipnet.se
+N: Added initial rest to fix the rhythm of repeats.
+Q: "With expression"
+M: 3/4
+L: 1/8
+K: G
+z2 \
+[| d3 (e/d/) (B/A/B/d/) | e2 (g<e) (d<B) | (TA3 G) (B/4A/4G3/2) | G4 |\
+| d(3(d/e/f/) | g2 (gb) (ag) | f2 (gf) (ed) | (e3 g) (g/e/d/B/) | "^>"d4- d |]
+[| (3(d/e/f/) | g2 (gb) (ag) | f2 f2 (ed) | "^>"e3 (dBd) | ("^>"e4 d) |\
+| (3(d/e/f/) | (g>f) (e3 d) | e2 (g<e) (d<B) | (TA3 G) (B/4A/4G3/2) | G4 |]

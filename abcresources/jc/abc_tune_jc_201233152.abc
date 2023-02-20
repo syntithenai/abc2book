@@ -1,0 +1,28 @@
+X: 187
+T: the Tomtit
+C: music: Reinecke.
+C: words: Goethe.
+Q: "Allegretto."
+N: This is version 2, for ABC software that understands crescendo/diminuendo symbols.
+% dim/cres..endo symbols:
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+D | D !f!G F A | G> B d !p!D | D z z G | G z z G | pF PA
+w: 1.~A boy once caught a tom-tit gay,     hm, hm, so, so, And in a
+w: 2.~he laughed a-loud in sil-ly glee,    hm, hm, so, so, Put in his
+w: 3.~The bird flew high and sang for joy, hm, hm, so, so, And laughed to
+%
+G B | !f!e> Qd cq !p!B | A z z B | G z z "^rit."D | D z z G | G z Hz |]
+w: cage he put his prey,  hm, hm, so, so, hm, hm, so, so.
+w: hand right clum-si-ly, hm, hm, so, so, hm, hm, so, so.
+w: scorn the stu-pid boy, hm, hm, so, so, hm, hm, so, so.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

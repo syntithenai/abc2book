@@ -1,0 +1,44 @@
+X: 0821
+T: Morgiana
+%R: jig
+N: This is version 2, for ABC software that understands voice overlays and diminuendos.
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1809, No. 8 p.2 #1
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances8
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: 6/8
+L: 1/8
+K: F
+%%slurgraces 1
+%%graceslurs 1 % - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+c |\
+(cA)c {fg}a2g | fed c2d | (cA).c (fc).a | (ba).g (fe).d |\
+cAc {fg}a2g | {g}fed c2d | (cA)c fga | {a}gfe f2 |]
+a |\
+gag fed | c2c (Qb2qc) | (Qa2qc) (Qf2qc) | (Qa3q g2)g |\
+gag fed | c2c (Qb2qc) | (Qa2qc) fca | ({a}.g.f.e .d.c.B) |
+"^Harp Solo 8ve higher"\
+AFG A2c | AFG A2c | B2d A2c | {c}BAB (G2^G) |\
+AFG A2c | AFG A2c | d2f e2g | f2a f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=D
+z |\
+A3 c2B & F3 F3 | A2B A2B & F3 F3 | A3 A3 & F3 F3 | E2G c2B |\
+A3 c2B & F3 F3 | A2B A2B & F3 F3 | A3 [A3F3] & F3 D3 | [G2D2B,2][BGC] [A2F2] |]
+z |\
+EGc DG=B | CGc EGc | FAc FAc | FAc EGc |\
+EGc DG=B| CGc EGc | FAc FAc | "^dim:"[c2C2]z z2z |
+%
+FAc FAc | FAc FAc | EGc FAc | EGc EBc |\
+FAc fAc | FAc FAc | (BAG) c2B | A2c A2 & F3 F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across, back again,
+%% down the middle up again
+%% and swing corners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

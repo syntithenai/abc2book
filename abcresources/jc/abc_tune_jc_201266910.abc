@@ -1,0 +1,54 @@
+
+X: 1
+T: Danny Boy, (London)Derry Air    [Gw]
+C: music: traditional Irish
+C: words: Frederic Weatherly (1910)
+M: 4/4
+L: 1/8
+K: G
+%%continueall yes
+  "D7"zFGA | "G"B3 A     Be "G7"dB | "C"AG       E2 "D7"zGBc | "G"d3 e dB "(A7)"GB | "D"A4 ||
+w: 1.~Oh, Dan-ny boy, the pipes, the pipes are call-*ing from glen to glen, and down the moun-tain side.
+w: 2.~And if you come, when all the flowers are dy-*ing, and I am dead, as dead I well may be,
+  "D7"zFGA | "G"B3 A     Be "G7"dB | "C"AG "(Am)"E2 "D7"zFGA | "G"B3 c BA   "D7"GA | "G"G4 |]
+w: The sum-mer's gone, and all the flowers are dy-*ing.  'tis you, 'tis you must go, and I must bide.
+w: You'll come and find the place where I am ly-*ing, and kneel and say an "A-ve" there for me.
+  "D7"zdef | "G"g3 f "C"fe "(D7)"de |  "G"dB G2 "D7"zdef | "G"g3 f "C"fe dB | "D"A4 ||
+w: But come you back when sum-mer's in the mea-*dow, or when the val-ley's hushed and white with snow.
+w: And I shall hear, tho' soft you tread a-bove* me, and all my dreams will warm-er, sweet-er be,
+  "D7"zded | "G"b3 a "C"ag       eg |  "G"dB G2 "Em"zF"C"GA | "G"Be dB "C"AG "D7"EF | "G"G4 |]
+w: 'Tis I'll be there in sun-shine or in sha-*dow. Oh, Dan-ny boy, oh, Dan-ny boy, I love you so.
+w: If you shall kneel and tell me that you love* me, then I will sleep in peace un-til you come to me.
+
+
+X: 1
+T: Danny Boy, (London)Derry Air    [C]
+C: trad. Ireland
+M: 4/4
+L: 1/8
+K: C
+"G7"zB,CD | "C"E3 D EA "C7"GE | "F"DC "(Dm)"A,2 \
+[1 "G7"zCEF | "C"G3 A GE "(D7)"CE | "G"D4 :|\
+[2 "G7"zB,CD | "C"E3 F ED "G7"CD | "C"C4 |] "G7"zGAB |
+"C"c3 B "F"BA "(G7)"GA | "C"GE C2 "G7"zGAB |\
+"C"c3 B "F"BA GE | "G"D4 "G7"zGAG |\
+"C"e3 d "F"dc Ac | "C"GE C2 "Am"zB,"F"CD |\
+"C"EA GE "F"DC "G7"A,B, | "C"C4 |]
+
+
+X: 1
+T: Danny Boy, (London)Derry Air    [D]
+C: trad. Ireland
+M: 4/4
+L: 1/8
+K: D
+"A7"zCDE | "D"F3 E FB "D7"AF | "G"ED "(Em)"B,2 \
+[1 "A7"zDFG | "D"A3 B AF "(E7)"DF | "A"E4 :|\
+[2 "A7"zCDE | "D"F3 G FE "A7"DE | "D"D4 |] "A7"zABc |
+"D"d3 c "G"cB "(A7)"AB | "D"AF D2 "A7"zABc |\
+"D"d3 c "G"cB AF | "A"E4 "A7"zABA |\
+"D"f3 e "G"ed Bd | "D"AF D2 "Bm"zC"G"DE |\
+"D"FB AF "G"ED "A7"B,C | "D"D4 |]
+
+%%newpage
+

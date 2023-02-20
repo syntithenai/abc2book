@@ -1,0 +1,22 @@
+X: 1124
+T: Whistle o'er the leave o't.   a Strathspey.
+%R: strathspey, air
+B: Niel Gow & Sons "Complete Repository" v.1 p.12 #1 (and top 4 staffs of p.13)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+|:\
+G3EE2G2 TB3AB4 | de3Bg3 {B}A3GE4 | G3DE2G2 TB3ABg3 | GG3 {G}B3G TA4G4 :: d2ef g2d2 Te3dB4 | de3Bg3 {B}TA3GE4 |
+g3be3g d3eBg3 | GG3B3G TA4G4 :: G3BA3c B3GA3c | B3GA3E G3B,TA,4 | G,3B,A,3C B,3DG2B2 | GG3B3G TA4G4 ::
+(GABc d2)g2 {f}e3dTB4 | c3AB3G A3GTE4 | (TB3A/B/) (Tc3B/c/) d2ef g3e | dG3c3B TA4G4 :|
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+|:\
+[g4B4][g4c4] [g4G4][g4G4] | g4g4 d4c4 | [g4B4][g4c4] [g4G4][g4G4] | G4g4 d4G4 :: [b4g4][b4g4] [c'4g4]g4 | g4g4 d4c4 |
+[b4B4][c'4c4] [d'4d4][e'4e4] | [b4B4][g4G4] [d4D4]G4 :: g4f4 g4d4 | g4c4 B2G2d4 | G4[d4F4] [d8G8] | g4g4 d4G4 ::
+g4g4 g4g4 | f4g4 a2b2c'4 | [g4G4][a4A4] [b4B4][c'4c4] | [b4B4]f2g2 [d4D4][g4G4] :|

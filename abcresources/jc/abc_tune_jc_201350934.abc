@@ -1,0 +1,28 @@
+
+X: 1
+T: We Three Kings
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+[| "Em"B2A G2E | "B7"FGF "Em"E3 | B2A G2E | "B7"FGF "Em"E3 \
+| G2G "D"A2A | "G"B2B dcB | "Am"ABA "B7"G2F | "Em"E3 "D7"HF2HA || %[K:G]
+|| "G"G2G G2D | "C"G2E "G"G3 | G2G G2D | "C"G2E "G"G3 \
+| "Em"G2G "D"A2"G"B | "C"c2"G"B "D"A2"G"B | G2G G2D | "C"G2E "G"G3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: We Three Kings
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em	% and G
+[|"Em"[B2G2][AF]       [G2E2][EE]   |"B7"[FB,][GB,][FB,] "Em"[E3G,3]      \
+| "Em"[B2G2][AF]       [G2E2][EE]   |"B7"[FB,][GB,][FB,] "Em"[E3G,3]      \
+|     [G2E2][GE]    "D"[A2F2][AF]   | "G"[B2G2][BG]          [dB][cA][BG] \
+| "Am"[AC][BD][AC] "B7"[G2B,3][FB,] |"Em"[E3G,3]        "D7"H[F2D2]H[AF] || %[K:G]
+||"G"[G2B,2][GB,]      [G2B,2][DB,] | "C"[G2E2][EC]       "G"[G3B,3]      \
+|    [G2E2][GE]        [G2E2][DB,]  | "C"[G2E2][EC]       "G"[G3B,3]      \
+| "Em"[G2E2][GE]    "D"[A2F2]"G"[BD]| "C"[c2E2]"G"[BD]    "D"[A2F2]"G"[BD]\
+|    [G2B,2][GB,]      [G2B,2][DB,] | "C"[G2E2][EC]       "G"[G3B,3]     |]

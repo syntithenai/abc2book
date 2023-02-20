@@ -1,0 +1,22 @@
+X:452
+T:Masquerade (3:4)
+%%MIDI gchord GIgIHI
+%%MIDI beat 100 95 80
+C:Colin Hume, 2004
+N:This is not a waltz!
+M:3/4
+L:1/8
+Q:1/4=108
+%%MIDI chordname dim 0 3 6 9
+S:Both 3:4 and 3:2 versions are available at colinhume.com/inst3.htm#Masquerade
+K:Am
+P:A
+|: "Am"bc' ba ec | "Dm"BA F4 | "E7/B"DF "/E"^GB "/G#"ed | "Am"cB A4 |\
+"Bb"de fd c_B | "Cdim/Eb"AG "/C"^F2- "/A"F2 |
+"Gm/D"GA "/E"_Bd "/F"ag | "Cm/G"f2 _e4 |\
+"D7"CD ^FA dc | "Gm6"_Bc dg a_b | "Cdim"c'_b a3 ^f | "E7"a2 ^g4 :|
+P:B
+|: "D"a2 ^f3a | "E7/D"a^g e4 | "Dm"=f2 d3A | "G"c2 B4 |\
+"Cdim"A2 ^F^D EF | "Em"G^F EG B,2 |
+"Am"CB, A,C G,A, | "B7"B,3B, BB, |\
+"Em"b2 g3e | "Am"c'2 a3e | "B7"^d^f ac' "E7"b^g | "Am"a6 :|

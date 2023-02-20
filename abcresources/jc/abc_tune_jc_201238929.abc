@@ -1,0 +1,28 @@
+X: 3161
+T: LORD MOIRA
+Q: "Strathspey."
+R: Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.3 p.19 #161
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain has broken rhythm at repeats; fixed by adding initial repeat.
+N: Segnos at the first and last bar lines would help, too.
+%%slurgraces yes
+%%graceslurs yes
+M: C
+L: 1/16
+K: F
+uC2 |:\
+FF3 FF3 (A3c) {d}c4 | B3GA3F {EF}G3FE3C |\
+FF3 FF3 (Ac3) {d}c4 | d3f efga f4 (fa3) :|\
+ff3 {fg}a3f g3fec3 | dd3 f3d c3BAF3 |
+ff3 {fg}a3f g3fec3 | d3f efga f4 (fa3) ||\
+b3ga3f {a}g3fdf3 | dcBA f3A BAGF G3A |\
+FF3 FF3 (Bd3) d4 | c3f efga f4 (fa3) |]
+|:\
+A3Fc3F dcBA cf3 | A3Fc3F G3A(Bd3) |\
+A3Fc3F dcBA cf3 | df3 efga f4 (fa3) :|\
+(fa3) (fa3) (eg3) c4 | d3ef3d c3B(AF3) |
+(3f2g2a2 (3f2g2a2 (3e2f2g2 c3f | d3f efge f4 (fa3) |\
+d3bc3a B3gA3f | c3BA3F G3FE3C |\
+(3F2G2A2 (3G2A2B2 (3A2B2c2 (3B2c2d2 | c3f agfe gfed cBAG |]

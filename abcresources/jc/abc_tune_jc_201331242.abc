@@ -1,0 +1,15 @@
+X: 727
+T: Rolling Down the hill
+R: reel
+%S: s:3 b:16(6+5+5)
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #727
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0727/oneill-1001-0727-1.abc
+M: C|
+L: 1/8
+K: Ador
+"^A"[|\
+e2 (cA) e2(cA) | BGE^F G2GB | A^GAB cBcd | e^fge dgfg || e2(cA) Acec | dcBA G2 (GB) |
+A^GAB cBcd | eage d2 (cd) "^B"|]| (e^f)({a}gf) (ef)({a}gf) | (ea)({b}a^g) (ea)({b}ag) | (e^f)({a}gf) (ef)({a}gf) |
+a^fge d2d2 || (e^f)({a}gf) (ef)({a}gf) | (ea)({b}a^g) (ea)({b}ag) | edcB cdef | g^fge dgfg |]

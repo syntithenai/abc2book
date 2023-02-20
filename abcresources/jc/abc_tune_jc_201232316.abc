@@ -1,0 +1,23 @@
+X: 16
+T: Miss Swintons Reel
+%R: reel
+B: "Twenty Four Favourite Dances for the Year 1783", Thomas Straight, ed. p.8 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1783
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C|
+L: 1/8
+K: Bb
+F |\
+DB,DF B2FB | FB G/F/E/D/ ECCF |\
+DB,DF GABc | dgfe dBB :: f |\
+d/c/B fB dBfB | AFcF eFcF |
+d/c/B fB dBfB | AF ec dBBf |\
+d/c/B fB dBfB | AFcF eFcF |\
+dfga bfdB | Gedc dBB |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu again .|. lead down the middle
+%% 1 Cu up again & cast off right & left
+%% at top
+%%endtext

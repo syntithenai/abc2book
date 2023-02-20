@@ -1,0 +1,66 @@
+%%text RJ Set 090
+
+
+X: 1
+T: The Silver Spear
+%%vskip -.2cm
+C: Trad. Ireland (R-158)
+M: C|
+L: 1/8
+K: D
+|: "D"FA (3AAA BA (3AAA | dfed "G"Bc"A7"dA |  "D"FA (3AAA BA (3AAA | "Em"dfed "A"B2AG |
+ "D"FA (3AAA BA (3AAA | dfed "G"Bdef | "G"g3e "D"f3e | "A"dfed B2A2 :|
+|: "D"fa (3aaa bfaf | "G"gfed Bcde |  "D"fa (3aaa bfaf | "G"gfed "A"B2 A2 |
+ "D"fa (3aaa bfaf | "G"gfed Bdef | "G"g3e "D"f3e | "A"dfed B2A2 :|
+
+
+X: 2
+T: The Star of Munster
+C: Trad. Ireland
+N: RJ R-159
+M: C|
+L: 1/8
+K: Ador
+"^A"|:\
+"Am"c3A "G"BAGB | "Am"AGEF "G"GED2|"Am"EAAB cBcd | eaaf "Em"gfed |
+"Am"cBAc "G"BAGB | "Am"AGEF "G"GED2| "Am"EAAB cBcd  | "Em"edcB "Am"A4 :|
+"^B"|:\
+"Am"a3b ageg | agab agef|"G"g2ga gfef|gfga gfe2 |
+"Am"a3b ageg | agab agef| "G"g4 "Am"a4 |[1 "G"b3a gfe2 :|[2 "G"b3a "Em"gfed |]\
+["transition" "G"B4 "A"^c4 ||
+
+% X: 3
+% T: the Star of Munster Lower Octave (Replaces B part last time through and as needed for fun)
+% M: C|
+% L: 1/8
+% K: Ador
+% |:\
+% "Am"A3B AGEG | AGAB AGEF | "G"G2GA GFEF | GFGA GFE2 | "Am"A3B AGEG |
+% AGAB AGEF | "G"G4 "Am"A4 |[1 "G"B3A "Em"GFE2 :|[2 "G"B3A "Em"GFED |["transition" "G"B4 "A"^c4 ||
+
+
+X: 3
+P: The Star of Munster lower octave:
+%%text Alternate B part last time through and as needed for fun:
+M: C|
+L: 1/8
+K: Ador
+"^B2"|:\
+"Am"A3B AGEG | AGAB AGEF | "G"G2GA GFEF | GFGA GFE2 || "Am"A3B AGEG |
+AGAB AGEF | "G"G4 "Am"A4 |[1 "G"B3A "Em"GFE2 :|[2 "G"B3A "Em"GFED |]\
+["transition" "G"B4 "A"^c4 ||
+
+
+X: 4
+T: Julia Delaney
+%%vskip -.2cm
+C: Unknown, around 1900
+M: C
+L: 1/8
+R: reel
+K: Dm
+"Dm"dcAG F2DF| "C"E2CE "Dm"FDFA |dcAG F2DF| "Gm"Add^c "A"defe|
+"Dm"dcAG F2DF| "C"EDCE "Dm"FDD^c |dcAG "Bb"FDDF |1 "Am"Add^c "Dm"d4:|[2  "Am"Add^c "Dm"d3e ||
+|: "Dm" f2fe fagf | "C" ecgc acgc| "Dm"fede fagf| "Am"edce "Dm"d^cde|
+"Dm" f2fe fagf | "C" ecgc acgc| "Dm"fedf "Bb"edcB |1 "Am"Add^c "Dm"d3e:|[2 "Am"Add^c "Dm"d4 ||
+

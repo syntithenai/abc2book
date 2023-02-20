@@ -1,0 +1,27 @@
+X: 1
+T: Scotland
+P: Longways for as many as will
+%R: triple hornpipe, slip-jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.19 "C 4"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 9/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+g2d (dB)d (ef)g | f2A A2B (cB)A |\
+g2d (dB)d (ef)g | (GA)B A2G G3 :|\
+|:\
+B2d (dB)d (dB)G | c2e (ec)e (ec)A |\
+B2d (dB)d (dB)G | (GA)B A2G G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain is to be play'd twice over.
+%%begintext align
+%%   First Man take the 2. man by the right hand, and turn a turn and a half, the 1. and 2. wo. do the
+%% same at the same time till they come into the 2. cu. place, back to back, with your own, then turn
+%% your own, and back to back, sides-men to without-side the we. and come between them a quarter
+%% Figure, turn S. we. do the like.
+%%endtext
+%%sep 1 8 500

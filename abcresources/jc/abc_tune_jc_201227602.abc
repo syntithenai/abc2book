@@ -1,0 +1,20 @@
+X: 10883
+T: CHANSON D'ARTOIS
+C: Mons. Heron Fils.
+Q: "Playfully."
+%R: air, jig
+N: This is version 1, for ABC software that doesn't understand trailing or tied grace notes.
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.88 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+d2d (dB)f | ({e}d3 c2)e | G>(cd) (ec)A | (BFd c2)F |\
+d2d (dB)f | (c3 e2)f/g/ | G>(cd) (ec)A | "^Fin."B3- B2 H:|
+|: f |\
+(f>e)d (dc)B | (cde d2)d | (d>c)B (BA)B | c3- c2f |\
+(f>e)d (dc)B | (cde) d2(g/a/) | (b>a)g (gf)=e | f3- "^D.C."f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

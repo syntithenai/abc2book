@@ -1,0 +1,36 @@
+X: 20621
+T: FAIRIE'S FESTIVAL
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.62 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+d |\
+cAF FGA | GEC CDE | FEF GFG | AFD D2d |\
+cAF FGA | GEC C2c | dfd ege | fcA F2 :|
+|: f/g/ |\
+afd dfa | gec cde | fef d2g | g^fg c2c |\
+cAF fdd | cAF fdc | BAB GcB | AFF F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+B |\
+AFC CEF | ECB, B,B,C | A,B,C B,B,D | FCB, B,2B |\
+AFC CEF | ECB, B,2A | BdB cec | cAF F2 :|
+|: z |\
+fdB Bdf | ecA ABc | AGA B2e | BAB A2A |\
+AFC dBA | AFC dBA | GFG EAG | [AF][AF][AF] [A2F2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z |\
+f3 f3 | c3 c3 | f3 c3 | f3 B3 |\
+f3 f3 | c3 c3 | b3 c'3 | fff f2 :|
+|: z |\
+f3 f3 | c3 c3 | f3 B2z | c3 c3 |\
+f3 f3 | f3 f3 | B3 c3 | fff f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %sep 1 1 300

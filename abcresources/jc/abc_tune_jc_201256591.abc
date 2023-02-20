@@ -1,0 +1,19 @@
+X:87
+T:The Bribe
+%%staffsep 46
+%%MIDI program 53
+%%MIDI chordprog 50
+%%MIDI bassprog 54
+C:Colin Hume, 2003
+M:2/2
+L:1/4
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=90
+H:For Orly Krasner
+K:G
+P:A
+|: "G"G2 G/B/A | "Em"G3 G | "Am"A2 A/c/B | "D7"A3 A | "G"B2 B/c/d | "Em"dc BG |
+"C"e2 e/f/g | "D7"gf ed | "G"g2 "G/F#"g/b/a | "Em"g2- "Em/D"gB | "C"cB "D7"A3/G/ | "G"G4 :|
+P:B
+"D"F2 F/G/A | "A/C#"A2 B^c | "Bm"d^c B3/c/ | "A"A4 | "G"B2 B/^c/d | "D/F#"d2 ef |
+"Em"gf e3/d/ | "A"e2 fg | "D"a2 "D/C#"de | "Bm"f2 "Bm/A"ef | "G"gf "A7"e3/d/ | "D"d4 |]

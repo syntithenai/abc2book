@@ -1,0 +1,19 @@
+X: 1
+T: Suserl (Bb)
+M: 2+3/4
+L: 1/8
+K: Bb
+%%indent 250
+"^Intro"\
+| "Eb"[GE][GE] [GE][BG] [AF][GE] \
+| "Bb"[G2E2] [FD][EC] | [D2B,2] z2 \
+| "F7"[FC][FD] [F2E2] [A2E2] | "Bb"[B2D2] z2 z2 ||
+"A"|: "Bb"[DB,][FD] [FD][EC] | [D2B,2] z2 \
+| [DB,][FD] [FD][DB,] [GE][FD] \
+| "F7"[F2D2] [EC][DB,] | [C2A,2] z2 \
+| "Eb"[GE][GE] [GE][BG] [AF][GE] \
+| "Bb"[G2E2] [FD][EC] | [D2B,2]  z2 |
+| "F7"[FD][FD] [F2D2] [E2C2] | "Bb"[D2B,2] z2 "fine"z2 :| \
+"B"|: "F7"[CA,][EC] [EC][DB,] | [C2A,2] z2 \
+| [CA,][EC] [EC][CA,] [FD][EC] \
+| "Bb"[DB,][FD] [FD][EC] | [D2B,2] "d.C."z2 :|

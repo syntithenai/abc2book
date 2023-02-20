@@ -1,0 +1,37 @@
+X: 2281
+T: Callam Brougach    Strathspey
+%T: Callum Beogach
+%R: strathspey
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.28 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow"
+K: Am
+% - - - - - - - - - -
+% Voice 1 slightly reformatted for more equal spacing (and no bars split between staffs).
+% Some f notes have accidentals that are ambiguous. They're transcribed as sharps, giving
+% an A dorian scale, but if you prefer some of them natural, feel free to play that more
+% A aeolian sounding scale. Only the fs leading up to g really need to be sharp.
+V: 1 staves=2
+A |\
+A<[EA,-]T[EA,]>B [DG,2]>(EG>B) | A/A/A e>AT c>Ae>A | G<[EA,-]T[EA,]>G [DG,2]>(EG>B) |\
+Tc>ATB>G A/A/A e2 || A<[EA,-]T[EA,]>B [DG,2]>(EG>B) | A/A/A e>A Tc>Ae>A |
+G<[EA,-]T[EA,]>G [DG,2]>(EG>B) | Tc>ATB>G A/A/A e> |[| ^f | gTg {^fg}a/g/^f/e/ d/c/B/A/ TG>B |\
+A/B/c/d/ e>A {d}cB/A/ eT^f | gg a/g/^f/e/ d/c/B/A/ TG>B | Tc>ATB>G A/A/A Ta2 ||
+g<be<g B<gB<G | G<gA<a B<bA>B | G<[EA,-]T[EA,]>G [DG,]>(EG>B) | Tc>ATB>G A/A/A E |]| ^f |\
+g<e-Te>g Td>eTg>a | {ga}ba Tag/a/ {ga}baTa>b | g<e-e>g Td>eTg>a |
+{ga}ba ag Ta3 b || g<ee>g Td>eg>a | {ga}ba Tag/a/ {ga}baa>b | g<e-e>g Td>eTg>a |\
+{ga}baTa>g Ta2e> |[| ^f | gTg {^fg}a/g/^f/e/ d/c/B/A/ TG>B |
+A/B/c/d/ e>A {d}cB/A/ eT^f | gg a/g/^f/e/ d/c/B/A/ GB | Tc>ATB>G A/A/A Ta2 ||\
+g<be<g d<gB<G | G<gA<a B<bA>B | G<[EA,]T[EA,]>B [DG,]>(EB>d) | Tc>ATB>G A/A/A e |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+A2A2 B2G2 | A2a2 A2A2 | A2A2 B2G2 | A2e2 a2A2 || A2A2 B2G2 | A2A2 A2A2 | A2A2 
+B2G2 | A2E2 A2A> |[| z | G2g2 G2G2 | A2a2 A2d2 | B2G2 g2G2 | A2e2 a2A2 ||
+g2c2 B2G2 | g2a2 b2a2 | e2A2 B2G2 | A2E2 A2A |]| z | a2a2 b2g2 | a2a2 a2a2 | a2a2
+b2g2 | a2e2 a2Az || a2a2 b2g2 | a2a2 a2a2 | a2a2 b2g2 | a2e2 a2a> |[| z | G2g2 G2G2 | 
+A2a2 A2Ad | B2G2 g2G2 | A2e2 a2A2 || g2c2 B2G2 | g2a2 b2a2 | e2A2 B2G2 | A2E2 A2A |]

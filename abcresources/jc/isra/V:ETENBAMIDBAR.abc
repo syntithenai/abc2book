@@ -1,0 +1,17 @@
+X: 56
+T: Eten Bamidbar
+C: Dovi Zeltzer
+O: Israel
+M: 2/4
+L: 1/8
+Q: 1/4=240
+K: Em
+%%MIDI gchord zf
+|:"Em"E2E2|DEF2 |GFE2  |E2z2   |\
+  E2E2    |DEF2 |FEF2  |F2z2   |
+  EG2F    |EDE2 |F2z2  |z4     |\
+  EG2F    |EDE2 |E2z2  |z4     :|
+|:"Bm"z2E2|B4   |^cBA2 |^GABB|\
+  z2E2    |B3^c |d^cB^G|B2B2   |
+  z2^G2   |F4   |EF^GA |^G2G2  |\
+  d^cBA   |^G2E2|"Em"E4|z4     :|

@@ -1,0 +1,12 @@
+X:1
+T:Sailor's Hornpipe
+R:Hornpipe
+M:C
+%%printtempo 0
+Q:180
+K:G
+gf|"G"g2G2G2(dc)|Bdgf g2 (fg)|"A"a2a2a2(ag)|"D"fgfe d2 (ef)|
+"G"gfed edcB|"C"cBAG "A"AGFE|"D"DGFG AcBA|"G"B2G2G2:|
+|:(dc)|\
+"G"BdgB dgBd|"C"e=fed cdcB|"A"A^cac eace|"D"fgfe d2 (ef)|
+"G"gfed ed=cB|"C"cBAG "A"AGFE|"D"DGFG AcBA|"G" B2G2G2:|

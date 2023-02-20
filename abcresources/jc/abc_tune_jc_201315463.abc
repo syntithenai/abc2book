@@ -1,0 +1,26 @@
+X:1
+T: My Lady Winwood's Maggot
+N:
+C:
+S:3 times
+A:
+O:
+R:
+M:2/2
+K:G
+I:speed 224
+%W: A
+% voice 1 (1 lines, 19 notes)
+K:G
+M:2/2
+L:1/16
+g4 ||f4 |d4 |d4 |e2 f2 |g4 |G4 |G4 |g4 |f4 |d4 |d2 e2 |f2 d2 |g12 |a2 g2 |
+%W:
+% voice 1 (1 lines, 12 notes)
+f4 |d4 |d4 |e2 f2 |g4 |d4 |d4 |c4 |B8 |A8 |G12 ||
+%W: B
+% voice 1 (1 lines, 22 notes)
+c2 B2 ||c4 |e4 |e4 |d2 c2 |B2 c2 |d4 |d4 |c2 B2 |c4 |e4 |e4 |d2 c2 |B4 |d4 |d4 |B4 |
+%W:
+% voice 1 (1 lines, 15 notes)
+c2 B2 |c2 d2 |e2 d2 |e2 f2 |g4 |d4 |d4 |c4 |B8 |A8 |G12 ||

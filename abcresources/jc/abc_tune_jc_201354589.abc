@@ -1,0 +1,17 @@
+X: 1
+T: Yerakina  [D]
+T: Gerakina
+O: Greece
+R: kalamatianos
+D:
+D: Tradition TLP1037 "Songs of Greece" by Theodore Alevizos
+D: Alshire S-5242 "Greek Folk Songs & Dance" (various groups)
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 7/8
+L: 1/8
+K: D
+[| "D"[A2F][BG] [cA][dB][cA][BG] | [A7F] | [A2F][BG] [cA][dB][cA][BG] \
+| [A2F][GE] [AF][GE][F2D] | "Bm"[F3D] [GE][AF][GE][FD] \
+| "Em"[G7E] | "A7"[A2F][GE] [GE][AF][GE][FD] | "D"[F2D][GE] [AF][BG][cA][BG] ||
+|: "A7"[A3F] [G2E][GE][FD] | "D"[A3F] [AF][BG][cA][BG] \
+| "A7"[AF][A2F] [GE][AF][GE][FD] |1 "D"[F2D][GE] [AF][BG][cA][BG] :|2 "D"[F7-D-] | [F7D] |]

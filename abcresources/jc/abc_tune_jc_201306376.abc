@@ -1,0 +1,16 @@
+X: 1
+T: Make Peace with Your Maker
+C: Jane Rothfield
+R: jig
+S: Fiddle Hell Online 2020-11-05
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Bar 2 of the 2nd strain is short an 8th note; fixed by making it match bar 6.
+M: 6/8
+L: 1/8
+K: Em
+|:\
+BAG AGF | GFE B,3 | EFG FED | E3 FGA |\
+BAG AGF | GFE C3  | CDE DEF |1 E3 EFG :|2 E6 |
+|:\
+c c3 Ac | d d3 ga | bag agf | gag fed |\
+c c3 Ac | d d3 ef | gfe fed | [f6B6] :|

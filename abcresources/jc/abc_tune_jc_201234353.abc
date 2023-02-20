@@ -1,0 +1,26 @@
+X: 20443
+T: the LONDON MARCH
+%R: march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.44 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(DE) |\
+F2FF F2E2 | D/E/F/G/ A/B/c/d/ {c}B2A2 |\
+BdAd GdFd | EDEF EGFE |\
+F2FF F2E2 | DFAd {c}B2A2 |
+BdAd FA d/e/f/g/ | f2e2 d2 :: a2 |\
+a>gfg a2gf | e>fgf f2{gf}e2 |\
+DDDE FFFG | AAGF F2E2 |\
+a>gfg a2gf |
+e>fgf f2e2 |\
+ddde fffg | aaag f2e2 |\
+f2f>f f2e2 | dfAd {c}B2A2 |\
+BdAd FA d/e/f/g/ | f2e2 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

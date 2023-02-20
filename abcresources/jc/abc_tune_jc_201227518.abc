@@ -1,0 +1,23 @@
+X: 10832
+T: CALTON VALSE
+C: By J. Hamilton
+R: waltz
+B: K\"ohler's Violin Repository, v.1, 1885 p.83 #2
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd section is probably in Em.
+M: 3/4
+L: 1/4
+K: G
+[|\
+vB3- | BcB | (A3 | d3) | G3- | GBG | (F3 | B3) |\
+E3- | EGE | (D3 | G3) | (A2B) | (A2^G) | A3 | (d^c=c) |
+B3- | BcB | (A3 | d3) | G3- | GBG | (F3 | B3) |\
+E3- | EGE | (D3G) | (c2B) | (B2A) | (c2F) | G3- | G2z |
+vb3- | bc'b | (a3 | d'3) | g3- | gbg | (f3 | b3) |\
+e3- | ege | (d3 | g3) | (a2b) | (a2^g) | a3 | (d'^c'=c') |
+b3- | bc'b | (a3 | d'3) | g3- | gbg | (f3 | b3) |\
+e3- | e(ge) | (d2g) | (c'2b) | (b2a) | (c'2f) | g3- | g2 |]
+|: uB |\
+BcB | gfe | ezud | dzuc | czuB | BzuA | AzuF | FzuB |
+BcB | gfe | ezud | dzuc | BAG | FzuB |[1 E3- | Ez :|[2 E3 | [c3D3] "_D.C."|]

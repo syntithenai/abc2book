@@ -1,0 +1,17 @@
+X: 7
+T: Air Harlequin Ranger
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.3 #7
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+|:\
+d2d a2a | Tfef d3 | D2D E2F | G2A F>ED |\
+d2d a2a | Tfef d3 | D2D E2F | G2A D3 :|
+|:\
+d2d a2a | d'c'b a3 | A2A g2g | b>ag {g}f3 |\
+G2G e2e | g>fe d2d' | d2b a>gf | Te3 d3 :|

@@ -1,0 +1,34 @@
+X: 1
+T: Bacchus Defeat
+%R: minuet
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (201)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+N: The actual key signature is just "3".
+M: 3/4
+L: 1/4
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+fef | e/>f/gc | fe/d/c/B/ | A3 |\
+FAc | f2e | dgf | e3 |\
+fe/d/c/B/ | A2f | Bc2 | F3 :|\
+|:\
+FAF | c2B/A/ |
+GBG | d2B |\
+Agf | e/d/^cd | e/f/gf | e3 |\
+fef | FED | ede | EDC |\
+fed | ^cAd | GA2 | D3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+% - - - - - - - - - - Dance description: - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. back to back sett and cast off and Minuet thro
+%% the 3d Cu. .| Then cast off below the 3d Cu. and Minuet up
+%% to the Top and turn :| then the 1st and 2d Men lead thro' the
+%% two We. and the two We. lead quick thro' the Men .| then the
+%% 1st Cu. whole figure thro' the 2d Cu. and cast of [sic] quick
+%% and turn :|
+%%endtext
+%%sep 1 8 500

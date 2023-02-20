@@ -1,0 +1,13 @@
+X: 1
+T: Polka z Nogi
+O: Poland
+R: polka
+S: handwritten MS from Mandala
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Dm
+"Intro"[|] "Dm"d8 | d8 | d8 \
+"A"|: "Dm"abag f2e2 | d2e2 f2g2 | "A7"a3e f2e2 | "Dm"d4 d4 :|[K:=B]\
+[K:C]\
+"G"|: "C"{Gc}e2g2 g4 | e2g2 g4 | "G7"gagf e2d2 |1,3 "C"e2g2 g4 :|2,4 c4 c4 :|

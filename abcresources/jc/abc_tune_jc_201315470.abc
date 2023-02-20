@@ -1,0 +1,24 @@
+X:1
+T:My Land  "mylandv2.bmw"
+M:3/4
+L:1/8
+Q:80
+C:St. Ann's of Hampton Version
+S:March
+K:HP
+|: {g}A3/2{d}c/2{gef}e2{A}e2 | \
+{ag}ac{gef}e2{A}e2 | \
+{Gdc}d3/2c/2{gBd}B3f |
+{gef}e3/2d/2{gcd}c4 | \
+{g}A3/2{d}c/2{gef}e2{A}e2 | \
+{ag}ac{gef}e2{A}e2 |
+{Gdc}d3/2c/2{gBd}B3f | \
+{g}e2{GdGe}A4 :: \
+{gcd}c{e}A{gef}e2{A}e2 |
+{g}f3/2g/2a2{g}a2 | \
+{Gdc}d3/2f/2{gef}e3c | \
+{Gdc}d3/2c/2{gBd}B4 |
+{g}A3/2{d}c/2{gef}e2{A}e2 | \
+{ag}ac{gef}e2{A}e2 | \
+{Gdc}d3/2c/2{gBd}B3f |
+{g}e2{GdGe}A4 :|

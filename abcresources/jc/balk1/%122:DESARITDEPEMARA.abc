@@ -1,0 +1,18 @@
+X: 122
+T: De Sarit de Pe Mara
+O: Romania
+M: 4/4
+L: 1/16
+Q: 1/4=110
+K: A
+%%MIDI program 41
+%%MIDI drum d2d2ddd2 35 35 35 35 35 60 60 50 50 60
+%%MIDI drumon
+z16\
+|:A2A2 cded cde2-e4        | cBAG A4 cded cde2     |\
+  fga2 agfg e8          :: fga2 a2gf edcd e2dc  |
+  [1 Bcd2 c2B2 A2B2 c4  :|[2 Bcd2 c2B2 A2B2 A4  |\
+K: C
+  G16                    |cde2 c2Bd c2Bd c2z2    |
+  cde2 c2Bd c2Bd c2z2   | BA^G^F EFGB AGAB =cBA2|\
+  BA^G^F EFGB AGAB A4   |

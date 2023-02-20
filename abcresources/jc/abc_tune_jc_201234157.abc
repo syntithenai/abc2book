@@ -1,0 +1,24 @@
+X: 20301
+T: JOHNNY COPE
+Q: "Moderato"
+%R: march, reel
+B: "Edinburgh Repository of Music" v.2 p.30
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Am
+%%slurgraces
+%%graceslurs
+E4 |\
+A3B (AB).c.d | e2A2 (BA).G.E | G3A (BA).B.c | d2G2 (BA).G.E |\
+{^G}A3B (AB).c.d | d2A2 (BA).G.E | G2(g^f) (ed)cB | {B}A4 A2 :|
+|: B2 |\
+c3ec2G2 | (cd).e.f g2c2 | B2G2d2G2 | (Bc).d.e (ed).c.B |\
+A2c2B2d2 | (cd)(eg) (dB)(AG) | E2g^f (ed).c.B | {B}A4 A2 :|
+|: (eg) |\
+a4 a2(ga) | {ga}b2a2 (a2ge) | d3eg3a | {ga}b3ag2d2 |\
+e2a2 a2(ga) | {ga}b3a (a2g^f) | (g2dg) (ed).c.B | {B}A4 A2 :|
+|: (ed) |\
+(cd).c.B (A^G).A.E | (AB).c.d {f}e2dc | BGdG eGdG | Bdg.^f (ed).c.B |\
+(cd).c.B (A^G).A.E | (AB).c.d ({f}e2dc) | (de).g.a (ge).d.B | {B}A4 A2 :|

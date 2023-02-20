@@ -1,0 +1,33 @@
+X: 1
+T: Lincoln
+T: Bolton
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.23
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+N: The rhythms aren't quite right at the strain changes.  Should the last note of the first strain be C?
+M: 6/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+c>Bc g2e | f>ga (ge)c | B3 GAB |\
+c2E e>Bc | d>ed (BG)B | c3 D3 :|\
+|: G |\
+E2G (GE)G | A2c (cA)d | B3 G3 |\
+E2G (GE)G | A/B/cA B/c/dB | c3 C2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text First man on the wo. side
+%%sep 1 1 300
+%%begintext align
+%% First cu. cast off, 2. cu. lead up into their places, set to your own, and turn S. all four; 2. cu cast
+%% off, 1. cu. lead up as before, set and turn S. 1. Man go within-side, round about the 2. wo. and the
+%% 1. wo. go without-side round the 2. man at the same time; then the 2. wo. go within-side round the
+%% 1. man, and the 2. man without-side round the 1. wo. as before, right-hands with your own, then
+%% left-hands with the contrary.
+%%endtext
+%%sep 1 1 300
+%%text Note: Each Strain is to be play'd twice over.
+%%sep 1 8 500

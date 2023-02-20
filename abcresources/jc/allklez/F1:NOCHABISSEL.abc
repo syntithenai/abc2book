@@ -1,0 +1,22 @@
+X: 461
+T: Noch a bissel
+O: Kammen 1#8
+B: Kammen 1#8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: The original repeats bars 5-8 of the third part, for 20 bars.
+M: 2/4
+L: 1/8
+K: C
+| "C"c2 "G7"d>c | "C"ee2e | "C"e2 "G7"f>e | "C"gg2g \
+| "C"g/a/g "G7"f/g/f | "C"e/f/e "G7"d/e/d | "C"c[fA] "G7"[eG][dF] | "C"[cE][BD] "G7"[AC][GB,]
+| "C"c2 "G7"d>c | "C"ee2e | "C"e2 "G7"f>e | "C"gg2g \
+| "C"g/a/g "G7"f/g/f | "C"e/f/e "G7"d/e/d | "C"c[fA] "G7"[eG][dF] | "C"[cE]z [c'ge]z
+| "C"[eG]z "F"[fA]z | "C"[eG]f/e/ dc | "C"[eG]z "F"[fA]z | "C"ef/e/ dc \
+| "C"[e2c2] "G7"[f2d2] | "C"[g2e2] "F"[a2f2] | "C"[g2-e2] "G7"[g2f2] | "C"[c'/e/]b/a/g/ f/e/d/c/
+| "C"[eG]z "F"[fA]z | "C"[eG]f/e/ dc | "C"[eG]z "F"[fA]z | "C"ef/e/ dc \
+| "C"cd2c | "G7"[fA][eG] [dF][eG] | "C"[c4E4]- | [cE] |]
+|: ceg \
+| "C"[c'3e3]g | [c'3e3]g | [c'e]>g  [c'e]>g | [c'e]>g  [c'e]>g \
+| "Cm"c'g c'_b | ag _ba | "C"[g4=e4] | c4
+| "Cm"c'g c'_b | ag _ba | "G7"g^f ag | "Cm"^f_e dc \
+| "C"[g2=e2] [e2G2] | "G7"[dF][cE] [dF][eG] | "C"[c4E4]- | [cE] :|

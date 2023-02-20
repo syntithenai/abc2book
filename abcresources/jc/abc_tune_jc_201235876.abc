@@ -1,0 +1,27 @@
+X: 21432
+T: CUCKOO SETT (tune 5)
+O: 1768
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.143 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: A version of Gilderoy, aka Red Haired Boy, aka Little Beggar Man.
+M: 2/4
+L: 1/16
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+E2 |\
+A2AB cBcd | efec d2cd | edcB ABcA | AGED E2E^G |\
+A^GAB cBcd | efec d2cd | ea^ga edcB | c2A2A2 H:|
+ef |\
+{^f2}^g3a gfef | gfec d2cd | edcB ABcA | AGED E2E^G |\
+A^GAB cBcd | efec d2cd | ea^ga edcB | c2A2"^D.C."A2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies all balance to right,
+%% all promenade,
+%% gentlemen the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

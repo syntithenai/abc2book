@@ -1,0 +1,21 @@
+X: 11193
+T: WE'RE A' NODDIN'.
+O: Scotish air.
+Q: "Slowly."
+%R: air, reel, march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.119 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+GA |\
+B4 A2G2 | A2A2 BAGA | {GA}B4 BAG2 | BAGF G2 :|\
+|: Bc |\
+d2d2 d2ge | d2d2 d2Bc | d2d2 e3d | cBAG F2dc |\
+B2Bc d2ge | d2d2 d2Bc | d2d2 edcB | cBAG "^D.C."F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

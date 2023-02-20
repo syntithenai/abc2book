@@ -1,0 +1,46 @@
+X: 21601
+T: THE NEW VARSOVIANA
+R: varsoviana
+B: K\"ohler's Violin Repository, v.2, 1885 p.160
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Added missing rest after the repeat symbol in bar 33.
+N: Unusual notation | ^.."c "^.."d "^.."^d | rewritten as | cc dd ^dd | in bars 72, 74.
+M: 3/4
+L: 1/8
+K: C
+uc'>vb |\
+a2 g2 f2 | e4 c'>b | a2 g2 f2 | e4 a>b |\
+c'2 d'2 e'2 | f'2 z2 {f}ue>v^d |[1 e2 b2 d'2 | c'4 :|[2 e2 b2 c'2 | a4 |]
+z2 |\
+v(G<e) ue2 {G}ue2 | G<e ue2 {G}ue2 | (eg) (gc) (ce) | (Td4 {^cd}g)z |\
+(G<d) ud2 {F}ud2 | (G<d) ud2 {F}ud2 | (df) (fB) (Bd) | c4 z2 |
+(vc<a) ua2 {c}ua2 | (c<a) ua2 {c}ua2 | (ac') (c'f) (fa) | g6 |\
+(gd) d2 d2 | (ed) c2 g2 | (ba) g2 g2 | c4 |]
+K: F
+|: z2 |\
+(vC<F) u(F<G) u(G<A) | A4 (G>A) | (B<D) u(D<E) u(E<C) | C4 c2 |\
+(c<f) u(f<g) u(g<a) | a4 (g<a) | (b<d) (d<e) (e<g) | f4 :|
+K: C
+z2 |\
+v(G<e) ue2 {G}ue2 | (G<e) ue2 {G}ue2 | (eg) (gc) (ce) | (Td4 {^cd}g)z |\
+v(G<d) ud2 {F}ud2 | (G<d) ud2 {F}ud2 | (df) (fB) (Bd) | c4 z2 |
+v(ca) ua2 {c}ua2 | (ca) ua2 {c}ua2 | (ac') (c'f) (fa) | g6 |\
+(gd) d2 d2 | (ed) c2 g2 | (ba) g2 g2 | c4 |]
+K: G
+|: ud2 |\
+(defgab) | c'4 ud2 | (defga^a) | b4 ud2 |\
+(de^efg^g) | a4 ud2 | (d^cd^def) | g4 :|
+K: F
+|: z2 |\
+v(g4 f2) | (g4 f2) | (g<f) u(f<_e) (ue<d) | c4 B2 |\
+(c'4 b2) | (c'4 b2) | (c'b) (b_a) (af) | g6 :|
+z2 |\
+vg2 gggg | g6 | G2 GGGG | G6 |\
+c'2 c'c'c'c' | c'6 | c2 cccc | c6 |\
+cc dd ^dd | e2 "^>"e4 | cc dd ^dd | e4 "^D.C."|]
+K: C
+|: z2 |\
+vee/e/ (e^d)ef | (e=d) d^c dz | vdd/d/ (d^c)de | (d=c)dB cz |\
+vcc/c/ (cB)cd | (cB)B^A Bz | vee/e/ edBc | A4 "_D.C.":|
+% %center (To be continued.)

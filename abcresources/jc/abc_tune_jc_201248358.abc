@@ -1,0 +1,16 @@
+X: 1
+T: Atsuko's Waltz (ABABA)
+C: Bill Clement 1987
+R: waltz
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+S: image from Atsuko Clement
+N: Chords by John Chambers
+M: 6/8
+L: 1/8
+K: A
+   A "A"\
+| "A"c2e c2A | "A"c3- c2A | "A"c2e "F#m"c2A | "Bm"B3- "E7"B2A \
+| "A"c2e "(E)"e2f | "F#m"e2e c2A | "Bm"B2B "E7"c2B | "A"A3- !fine!A2 |]
+   A "B"\
+| "D"f2a f2c | "A"e3- e2A | "D"f2a "F#m"f2c | "Bm"B3- "E7"B2A \
+| "D"f2a "F#m"f2c | "E7"e2e "D"f2A | "F#m"c2e "E7"c2B | "A"A3- "d.C."A2 |]

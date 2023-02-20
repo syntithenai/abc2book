@@ -1,0 +1,27 @@
+X: 2051
+T: Sweet is the Lass that dwells among Heather.   a Strathspey.
+%R: strathspey
+B: Niel Gow & Sons "Complete Repository" v.2 p.5 #1 (top 2 staves continued from p.4)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "SLOW"
+K: A
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 4-bar lines, for compactness and proofreading.
+V: 1 staves=2
+E2 |\
+(CE3) TE3F (EC)EF A3c | e(cTBA) (TBABc) A2F2F2{G}A2 |\
+CE3 T[E3B,3]F (EC)EF A3c | e(cTB.A) (TBABc) [A4E4C4][A2E2C2] :|
+c2 | Td3e {de}f2ed ~c3d (fe)(dc) | TB3c (dc)(BA) B2F2F3c |\
+~d3e {de}f2ed ~c3d (fe)(dc) | e(cBA) (TBABc) A4 A2
+Bc |\
+~d3e {de}f2ed ~c3d (fe)(dc) | d(cB)A (TBABc) A2F2F2d2 |\
+(c2e2)(d2f2) e2fg Ha3c | e(cBA) (TBABc) [A4E4C4][A2E2C2] |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |\
+A4a4 A4c2e2 | a4 g2a2 d4 d'4 | a4g4 a4c2e2 | c2d2 e2E2 A4 A2 :| z2 | b4 g4 a4 A4 | G2A2 B2c2
+d4 D2z2 |\
+b4g4 a4A4 | c2d2 e2E2 A4 A2z2 | B4g4 a4A4 | G2A2 B2c2 d4 D2z2 | A4B4 c2de Hf4 | e4E4 A4A2 |]

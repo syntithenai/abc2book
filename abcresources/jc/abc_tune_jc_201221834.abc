@@ -1,0 +1,24 @@
+X: 51
+T: Bumpers 'Squire Jones
+%R: jig, waltz
+B: "The Hibernian Muse" p.31 #2
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. LI.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+{G}FDD D2E | (F/G/A)F (G/A/B)A | BEE TG2A | {G}FDD d2e |\
+f(g/f/e/d/) edc | dBe cAc | dDD D2 :: a |
+(f/g/a)f d(f/g/a/f/) | b(g/a/b/g/) e(g/a/b/g/) | afd (e/f/g)e | TcAA A2g |\
+(f/g/a)f geg | a(f/g/a/f/) geg | fed TcBc | dDD D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2z f2z | d2z e2f | g2z e2z | d2z f2a |\
+d'2z c'2z | b2z a2z | ddd d2 :: c' |
+d'3 d3 | g3 G3 | d3 g3 | a3 cBA |\
+d2d' c'2a | d'2d c'2a | d2g a2A | ddd d2 :|

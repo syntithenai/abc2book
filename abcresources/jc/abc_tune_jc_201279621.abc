@@ -1,0 +1,17 @@
+X: 1
+T: the Gareloch
+O: Kerr's
+S: handwritten copy by B.R.McOwen in Concord Slow Scottish Session collection
+F: http://ramshaw.info/slowjamtunes/PDF/Tunes_G/Gareloch_The.pdf
+R: strathspey
+M: C
+L: 1/8
+K: G
+"^A"|: uF  \
+| "G"{F}G2 (D>C) "G7"B,<G, G,>B | "C"({B}c>B) (A>G) "D7"F<D D>F \
+| "G"(.G>.B) (.A>.c) "Em"(B>.d) (.c>.e) | "D7"(d<g d)>c | "G"B<G vG :|
+"^B"[| uf \
+| "G"{f}g>d B>d "G7"g>d B>d | "C"(~c>B) (A>G) "D7"F<D D>F \
+| "G"({F}.G>.B) (.A>.c) "Em"(.B>.d) (.c>.e) | "D7"d<g d>c | "G"B<G G>f ||
+| "G"{F}vg>d B>d "C"c<a B<g | "Am7"({AB}c>B) (A>G) "D7"F<D D>F \
+| "G"{F}(3GAB (3ABc "Em"(3Bcd (3 cd"^4"e | "D7"d<g d>c | "G"B<G vG |]

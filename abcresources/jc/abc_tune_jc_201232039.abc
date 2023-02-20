@@ -1,0 +1,24 @@
+X: 162
+T: les Matadors          F.
+C: Ignatius Sancho 1775
+%R: march
+B: "Minuets Cotillons & Country Dances", 1775 p.16 #2 (and top of p.17)
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: c2ec  | d2fd | e2dc  | B2AG | c2ec  | d2fd | ecdB  | c2c2 :|
+[V:2] |: c2c'2 | b2g2 | c'2c2 | g4   | c2c'2 | b2g2 | c'2g2 | c4   :|
+[V:1] |: e2ge  | f2a2 | d2fd  | e2g2 | c2ec  | d2fd | ecdB  | c2c2 :|
+[V:2] |: c'2c2 | f4   | g2b2  | c'4  | e4    | f4   | g2G2  | c4   :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Ballance all Eight half round, back again, The first and third Cu. lead up turn under the
+%% Arms into their own Places, the Second & fourth Chassee at the same time, the 2d & 4th Lead
+%% up turn under the Arms into their Places, the first and third Chassee at the same time.
+%%endtext

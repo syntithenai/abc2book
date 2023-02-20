@@ -1,0 +1,31 @@
+X:1
+T:BEGULLION
+N:Very common tune.
+Z:
+C:
+R:March
+M:6/8
+L:1/8
+Q:
+K:HP
+|: e | A3/2e/2{A}e {gef}e2d | {g}e/2g3/2f {gef}e2d | {gBd}B3/2{g}A/2{d}G {gGd}G2d | {g}B/2{d}A3/2{g}B {Gdc}d2e |
+\
+| A3/2e/2{A}e {gef}e2d | {g}e/2g3/2f {gef}e2d | {gBd}B3/2{g}A/2{d}G {g}B/2d3/2e | {g}A3 {GAG}A2 :|
+\
+|: {d}B | {g}A3/2a/2{g}a {g}a2g | e/2a3/2g {ef}e2d | {gBd}B3/2{g}A/2{A}G {gGd}G2d | {g}B/2{d}A3/2{g}B {Gdc}d2e |
+\
+|["1st time" {g}A3/2a/2{g}a {g}a2g | e/2a3/2g {ef}e2d | {gBd}B3/2{g}A/2{d}G {g}B/2d3/2e | {g}A3 {GAG}A2 :|
+\
+|["2nd time" A3/2e/2{A}e {gef}e2d | {g}e/2g3/2f {gef}e2d | {gBd}B3/2{g}A/2{d}G {g}B/2d3/2e | {g}A3 {GAG}A2 |]
+\
+|: e |A3/2e/2{g}A  {g}B3/2e/2{A}e | {g}e/2g3/2f {g}e3/2f/2{g}e | {gde}d3/2{g}B/2{d}G {gGd}G2d | {g}B/2{d}A3/2{g}B {Gdc}d2e  |
+\
+|A3/2e/2{g}A  {g}B3/2e/2{A}e | {g}e/2g3/2f {gef}e2d | {gBd}B3/2{g}A/2{d}G {g}B/2d3/2e | {g}A3 {GAG}A2 :|
+\
+|: {d}B | {g}A3/2a/2{g}a e/2a3/2{g}a | g3/2e/2d {gef}e2{gf}g | {gBd}B3/2{g}A/2{d}G {gGd}G2d | {g}B/2{d}A3/2{g}B {Gdc}d2e |
+\
+|["1st time" {g}A3/2a/2{g}a e/2a3/2e |{gf}g3/2a/2g {ef}e2d | {gBd}B3/2{g}A/2{d}G {g}B/2d3/2e | {g}A3 {GAG}A2 :|
+\
+|["2nd time" A3/2e/2{g}A  {g}B3/2e/2{A}e | {g}e/2g3/2f {gef}e3/2d/2{A}d | {gBd}B3/2{g}A/2{d}G {g}B/2d3/2e | {g}A3 {GAG}A2 |]
+
+

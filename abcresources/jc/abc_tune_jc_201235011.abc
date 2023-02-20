@@ -1,0 +1,33 @@
+X: 20961
+T: BUNKER HILL SETT (tune 1)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.96 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Initial rest added to complete the rhythm.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="1"
+z |\
+aaa ggg | .f.e.d .c2z | BAB g2z | c=Bc a2z |\
+aaa ggg | fed c2z | BAB b2g | f3- f2 H|]
+K: Bb
+(3F/F/F/) |\
+FBd f2(3(B/B/B/) | Bdf b3(3(b/b/b/) | bag fdc | BdB F2 (3(F/F/F/) |\
+FBd f2(3(B/B/B/) | Bdf b2(3(b/b/b/) | bag fdc | Bdf "^D.C."b2 |]
+F |\
+d2F d2F | ded cdc | B2A B2d | c>BA/G/ FBc |\
+d2F d2F | ded cdc | BAG BAG | d3- "^D.C."d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First four right and left,
+%% balance four,
+%% ladies chain,
+%% promenade four,
+%% sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

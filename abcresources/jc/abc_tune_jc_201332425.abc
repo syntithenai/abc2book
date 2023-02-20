@@ -1,0 +1,17 @@
+X: 399
+T: the Runaway Jig
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #399
+R: single jig
+%S: s:4 b:18(4+5+4+5)
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0399/oneill-1001-0399-1.abc
+M: 6/8
+L: 1/8
+K: D
+"^A"\
+|:A2F F2A | d3 (cBA) | B2G G2A | B2A (Bcd) ||
+| A2F F2A | d3 (cBA) | Bcd ecA |[1 d3 (dcB) :|[2 d3 d2H |]
+"^B"\
+|: A \
+| d2e f2d | g2e f2d | ecA AcA | ecA AcA ||
+| d2e f2d | g2e f2d | ecA ABc |[1 d3d2 :|[2 d3 (dcB) |]

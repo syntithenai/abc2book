@@ -1,0 +1,45 @@
+%%text RJ Set 105
+
+
+X: 1
+T: The Silver Spire
+M: C|
+L: 1/8
+R: reel
+K: Dmaj
+"^A"|: "D"D2FE DEFA | dcde fdAF | "G"G2BG [1 "D"F2AF | "Em"EFGE "A"DCB,A, :|
+[2 "D"FEDF | "A"EDCE "D"D4 "^B":: "A"A,B,CD EFGE | "D"FDEF GABc | "G"dBBA "Bm/F#"Bcde |
+| "Em"f2gf "A"e3c || "D"d2fd "A"c2ec | "G"BcdB "D"AFDF | "G"G2BG "D"FEDF | "A"EDCE "D"D4 :|
+
+
+X: 2
+T: Music In The Glen
+M: C|
+L: 1/8
+R: reel
+K: Am
+|:\
+"A"A2cA "D"FA"(E)"ED | "A"CEAc BABc | "D"d2fd "A"c2ec | "Bm"dBcA "E"BAFE || "A"AcBA "D"FA"(E)"ED | "A"CEAc BABc |
+"D"defg "A"agaf |1 "E"ecBc "A"A3E :|[2 "E"ecBc "A"A3B |: "A"cA eA "D"fA"(E)"ed | "A"cAec "E"dBGB | "A"cAeA "D"fe"(E)"fg |
+"A"aecA "E"BAFA || "A"cAeA "D"fe"(E)"fg | "A*"a2ga "E"bgeg | "A"a2ga "D"faec |1 "Bm"dBcA "E"BAFA :| [2 "Bm"dBcA "E"BAFE |]
+% %begintext ragged
+% % *Transition: After the A chord with the asterisk, backup drops out.
+% %endtext ragged
+% %begintext ragged
+% % If ending with this tune, tack on an A at the end.
+% %endtext ragged
+% %textfont Times-Roman 6.0
+% %date 4/18/11
+
+
+X: 3
+T: Troll Soup
+C: Brendan Taaffe
+M: C|
+L: 1/8
+R: reel
+K: F#m
+|: "F#m"F2Ac BAFE | F/2F/2F AF "E"EFAE | "F#m"F2 Ac BAFA | fcef "E"ecBA || "F#m"F2Ac BAFE |
+F/2F/2F AF "E"EFAB | "A"cBAc "Bm"BAFD | "C#m"EFFE "F#m" F3z :: "F#m"f3a fecA | "Bm"B3c BAFA |
+"F#m"f3a fe c2 | "C#m"effe "F#m"f2 ce || "F#m"f2fa fecA | "Bm"B3c BAF2 | "F#m"ABBA cBAF | "C#m"EFFE "F#m"F3z :|]
+

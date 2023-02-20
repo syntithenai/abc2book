@@ -1,0 +1,20 @@
+X: 1
+T: Mr. Michie
+C: Angus Fitchet
+R: march, strathspey
+B: Hugh Foss, "The ANGUS FITCHET Album" 1954
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+N: Recommended for Langholm Fair, which is called a strathspey.
+N: The original form of this tune was a more even march with only a few dotted notes.
+M: C
+L: 1/16
+K: F
+C2 \
+| "F"F4 A3F c3A f3d | "F"c3A BAGF "C7"EG3 G3A \
+| "F"{E}F4 C3F "Bb"B,3D "Gm"G,3d | "F"c3A "C7"BGEc "F"AF3 F2 :|
+c2 \
+| "F"f3g a3f c3f c3f | "F"c3F dcBA "C7"BG3 G3c \
+| "F"f3g a3f c3f A3c | "C7"B3G cdcB "F"AF3 F2 |]
+c2 \
+| "F"a3f c3A f3d c3A | "F"c3F dcBA "C7"BG3 G3A \
+| "F"{E}F4 C3F "Bb"B,3D "Gm"G,3d | "F"cA3 "C7"BGEc "F"A3F F2 |]

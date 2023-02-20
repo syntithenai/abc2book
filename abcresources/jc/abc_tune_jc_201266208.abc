@@ -1,0 +1,26 @@
+X: 1
+T:The Heights of Dargai
+M:9/8
+L:1/8
+Q:80
+C:J. Wallace
+S:March 9/8
+K:HP
+|: e|
+{g}A3/2B/2{GdG}c{gef}e3{gcd}c2e|
+{gfg}f3/2d/2f{gef}e3{gcd}c3|
+{ag}a3/2g/2f{gef}e3{g}A3/2{d}c/2e|  !
+{gfg}f3/2e/2c{g}B3{GdGe}B2{gef}e| |
+{g}A3/2B/2{GdG}c{gef}e3{gcd}c2e|
+{gfg}f3/2d/2f{gef}e3{gcd}c3|  !
+{ag}a3/2g/2f{gef}e3{gBG}B2e|
+{gcd}c3/2{e}B/2{d}c{g}A3{GAG}A2:| |:
+| {g}A3/2{d}c/2e{g}f3{gfg}f3/2d/2f|  !
+a3/2g/2{a}f{gef}e3{gcd}c3|
+{ag}a3/2g/2f{gef}e3{g}A3/2{d}c/2e|
+{gfg}f3/2e/2c{g}B3{GdGe}B3| |  !
+{g}A3/2{d}c/2e{g}f3{gfg}f3/2d/2f|
+a3/2g/2{a}f{gef}e3{gcd}c3|
+{ag}a3/2g/2f{gef}e3{gBG}B2e|  !
+{gcd}c3/2{e}B/2{d}c{g}A3{GAG}A2:|
+

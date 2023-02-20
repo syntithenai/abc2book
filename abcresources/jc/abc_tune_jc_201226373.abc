@@ -1,0 +1,21 @@
+X: 1022
+T: YORKTOWN QUICK-STEP
+C: D. W. Lothrop
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.102 #2
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: The times at the part's ends don't add up properly.
+M: 2/4
+L: 1/16
+K: D
+(3ABc |\
+d4 c4 | d2dd d2d2 | f2e2d2c2 | d2d2z4 |\
+B4^A4 | B2BBB2 c2 | d2c2B2^A2 | B2B2z2 :|
+|: FG |\
+A2AB A2AB | ABA^G A2d2 | f2ff f2e2 | edcd B2d2 |\
+g2gg g2g2 | g2a2 b4 | a4 cdec | d4 :|
+|:[K:G] dedc |\
+B4 b4 | g4 d4 | ^cded d4 | ^cded d4 |\
+c4 c4 | c4 A4 |  ^cded cded | G4 z2BB |
+f4 g4 | a4 z4 | d2Bc d4 | d2Bc d4 |\
+c4 c4 | c4 z4 | g2g2 fgaf | g4 z2 :|

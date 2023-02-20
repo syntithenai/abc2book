@@ -1,0 +1,24 @@
+X: 537
+T: Shabechi et Y'rushelayim
+N: from handwritten ms by Ben Pasamanick
+Q: 1/4=63
+M: 2/4
+L: 1/16
+K: Dm
+DD "^Intro"\
+| "Dm"A3c ~B2AB | "Gm"G4 "Dm"F2G2 |[M:3/4][L:1/16] ABAG "A7"A8 |[M:2/4][L:1/16] "Dm"d4 A4 \
+| c2~B2 AGF2 | D2F2 "C"E2FG | "Dm"D8- | D6 DD |
+"^A"
+|: "Dm"A6 BA | c3A "(Gm)"BAG2 | "Dm"F4 G2A2 | "Gm"G8 | G4 ~A2G2 \
+| cAB/A/G G2FE | "Dm"F2~G2 "Cm"F2_E2 |1 "Dm"D6 DD :|2 "Dm"D8- D8
+"^B"
+| "Dm"d6 c2 | d6 c2 | f4 "(Gm)"_e2d2 | "Dm"ed3- d4 \
+| ~d6 c2 | d6 c2 | f4 "(C)"f2g2 | "Dm"gd3- d4
+"^C"
+| "F"cBBA A3C | cBBA ~A4 | "C7"zBAG G3F | BAAG G4 \
+| "F"F2G2 A2c2 | f4 "C"~e2c2 | "Dm"d8- | d8
+"^D"
+| "Dm"c3d d4 | c3d d2cc | f4 "C"edec | "Dm"~d8 \
+| c3d d4 | c3d d2 cc | f4 e2d2 | "C"g2fe decc | "Dm"d8- |1 d6 "^->A"DD :|2 "Dm"d8
+"^Coda"
+| "C"g4 fedc | "Dm"d8 | "Cm"cBAG F_EFE | "Dm"HD8 |]

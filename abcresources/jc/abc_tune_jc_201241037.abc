@@ -1,0 +1,36 @@
+X: 4211
+T: the Marquis of Hastings.   a Strathspey.
+%R: strathspey, air
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.4 p.21 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+C !segno!|:\
+F<F F<F Ac ~c2 | B>G A>F {EF}G>F EC |\
+F<F F<F Ac ~c2 | d>f .e/.f/.g/.e/ .f/.g/.a/.g/ f<a :|\
+f<f a>f Tg>f ec | d<d {e}f>d Tc>B AF |
+f<f a>f Tg>f ec | ~d>f (e/f/).g/.e/ Tf2 fg/a/ |\
+b>g a>f Tg>f df | d/c/B/A/ f>A B/A/G/F/ G>A |\
+F<F F<F B<d Td2 | c>f .e/.f/.g/.e/ .f/.g/.a/.g/ .f<.a 
+|:\
+{B}A>Fc>F d/c/.B/.A/ cf | AFcF TG>ABd |\
+A>Fc>F (d/c/).B/.A/ cf | ~d>f .e/.f/.g/.e/ .f/.g/.a/.g/ .f.a :|!p!\
+f/az/ f/az/ e/gz/ c2 | ~d>efd Tc>BAF |
+(3fga (3fga (3efg ~c2 | d>f (e/f/).g/.e/ Tf2 fg/a/ |\
+(.d.b) (.c.a) (.B.g) (.A.f) | {AB}c>BA>F {EF}G>FEC |\
+(3FGA (3GAB (3ABc (3Bcd | Tc>f a/g/f/e/ 
+["-" {g}f2 fa ["or" {g}fe/d/ c/B/A/G/ !segno!y|]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z !segno!|:\
+F2f2 F2f2 | e2f2 c'2b2 | a2f2 f2a2 | b2c'2 f2f'2 :| f2f2 c2c2 | B2de f2F2 |
+f2f2 c2c2 | B2c2 f2Fz | e2f2 c'2b2 | a2f2 c2B2 | A2F2 B2B2 | c2C2 (F2f2) |:
+[f2F2][f2F2] [f2F2][f2F2] | [f2F2][f2F2] [c2C2] [e2E2] |\
+[f2F2][f2F2] [f2F2]A2 | [B2B,2][c2C2] F2f2 :|!p! (f2a2 c'2)c2 | B2de f2F2 |
+(f2a2 c'2)A2 | B2c2 F2fz | b2a2 g2f2 | e2f2 c2B2 | A2E2 F2B2 | c2C2 ["-" F2F2 ["or" F2F2 !segno!y|]

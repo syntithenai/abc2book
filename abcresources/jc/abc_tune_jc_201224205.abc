@@ -1,0 +1,22 @@
+X: 08093
+T: the PIT POLKA
+C: Bob McQuillen 30 Aug 90
+B: Bob's Note Book 8 #93
+%R: polka, march, reel
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bm	% and D
+F2 \
+| Bcdc B2d2 | cded c2e2 | defg f2a2 | baf2 f4 |\
+| gagf e2g2 | fgfe d2f2 | efed c2fe | d2B2 B2 :|
+|: A2 \
+| d2dA BAfe | d2de fafd | cded efga | b2a^g a2A2 |\
+| d2dB ABde | d2de fafd | cdef geag | f2d2 d2 :|
+%%begintext align
+%% If you've
+%% been to Augusta ( and if you haven't, you
+%% should go!), then you know about "The Pit,"
+%% where they hold dances. It's a great place. You'ld
+%% have a real good time there. I did!
+%%endtext

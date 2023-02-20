@@ -1,0 +1,37 @@
+X: 10162
+T: WALTZ FROM THE OVERTURE TO "LODOISKA."
+%R: waltz
+N: This is version 1, for ABC software that doesn't understand crescendo symbols.
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.16 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The sharp should be below the turn symbol in bars 6, 10.
+N: Rest added in bar 12 to fix the rhythm.
+N: The rhythm is quite wrong at bar 28; not fixed.
+M: 3/4
+L: 1/8
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:!f!\
+c2c2c2 | cGABcd | e2e2e2 | eBcdef |\
+"^Dolce."{^f}g2g2g2 | "^#"~g2[c'2c2]e2 | (g2f2)d2 | edcdef |\
+g2g2g2 | "^#"~g2[c'2c2]e2 | (g2f2)d2 | c2z2 :|
+|: ze |!f!\
+c2c2g2 | e2e2eg | !p!{g}f2fdec | dBG2e2 |\
+!f!c2c2g2 | e2e2g2 | {f}f2fdec | d2z2 :|\
+^f2 |\
+g2d2d2 | !fz![_e6c6] | d2{e}d^cdc | d2^f2f2 |\
+g2d2d2 | !fz![_e6c6] | d2g2g2 | g/a/g/f/e/d/ |]
+|:"^To the end may be played an octave higher at plaeasure - - -"\
+{C}c2zGAB | c2zGAB | c2d2e2 | dBGfed |\
+c2zGAB | c2zGAB | c2d2e2 |[1 d2z2z2 :|[2 d2G>AB>c |:\
+d2g2g2 | g"_cres."fedce | !fz!G4AB | cBcdec |
+g2g2g2 | g"_cres."fedce | !fz!G4AB | [1 c4z2 :|[2 [c'2c2]cd/e/ f/g/a/b/ |[|\
+cccccc | BBBBBB | AAAAAA | GGGGGG |\
+(F/E/F/G/) (F/E/F/G/) (F/E/F/G/) |
+F2zDDE | (F/E/F/G/) (F/E/F/G/) (F/E/F/G/) | F2z"^#"~GAB |\
+c2c2c2 | {d}cBAGAB | cGE2E2 | GFD2D2 |\
+(C2c2)c2 | {d}cBAGAB | ~c3edB | c2z2 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

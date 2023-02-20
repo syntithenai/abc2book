@@ -1,0 +1,31 @@
+X: 1
+T: Hie to Cambridge
+%: Parry's Farewel
+R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: The Gentleman's Magazine v.22, January 1752, p.37
+N: Several missing dots added to notes that clearly need them. (The print quality isn't good.)
+M: 12/8
+L: 1/8
+K: Bm
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+dcB AGF BAG FED | FGA Bcd egf edc |\
+dcB AGF BAG FED | FGA Bgf edc d3 |]
+[|\
+Aed cBA fed cBA | aga edc Bcd cBA |\
+FED GFE AGF BAG | bag fed Adc d3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+d3 fed g2b agf | d2f g2f e2d a3 |\
+c'3 d3 g2b agf | d2f g3 a2A d3 |]
+[|\
+a3 A3 d2f edc | A3 c3 d2B e2A |\
+d3 e3 f3 g3 | g2b c'2g a2A d3 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   First man cast off and turn 3 with the 3d cu. .|. First woman cast off and turn 3 with
+%% the 2d couple :|: hands six round .|. lead thro' the 2d cu cast off and [turn?].
+%%endtext

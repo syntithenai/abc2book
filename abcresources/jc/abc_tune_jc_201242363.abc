@@ -1,0 +1,13 @@
+X:571
+T:Turnpike Bend
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 57
+M:2/4
+L:1/16
+Q:1/4=100
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+D2|G3B AGEA|GBdf g2fg|afdf gdBd|ecAG FAD2|G3B AGEA|
+GBdf g2fg|afdf gdBd|ecAF G2::D2|D2FD ADFA|G2BG dGBd|A2^cA eAce|
+dfaf g3f|gfed edcB|cdef g2fg|afdf gdBd|ecAF G2:|

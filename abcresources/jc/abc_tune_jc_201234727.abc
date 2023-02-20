@@ -1,0 +1,28 @@
+X: 2073
+T: Loch Erroch Side    Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.7 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: C
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+V: 1 staves=2
+C2 |\
+E2G2~G3A (cBcd) c4 | TA3GA2c2 (dcde) d2D2 |\
+E2G2~G3A c3d {cd}e3d | Tc3A GAcE TD4 C2 :|\
+gf |\
+e2g2 c2(ef) (gf).e.f g4 | f2a2 d2(fg) (ag).f.g a4 |
+e2g2 c2(ef) (gf).e.f g3c | G3ce3c Td4 c2gf ||\
+e2g2 c2(ef) (gf).e.f g2fe | f2a2 d2(fg) (ag).f.g a2gf |\
+e3gd3e c3Gca3 | cG3c3E TD4 C2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | c4c4 e4c4 | f4f4 g6b2 | c'4b4 a4e4 | f4e2c2 G4c2 :| z2 | c'4c'4 c'4c'4 | d'4d'4 d'4d'4 |
+c'4c4 c'4c4 | e4c4 g2G2c4 || c'4c'4 c'4c'4 | d'4d'4 d'4d'4 | c'4b4 a4e2f2 | e4c4 g2G2 c2 |]
+
+% z2 | e4e4 e4e4 | d4d4 d4d4 | e4e4 e4g4 | a4b4 e4e2 :| z2 | e4e4 e4e4 | d4d4 d4d4 |
+% e4e4 e4e4 | g4b4 e4e4 || e4e4 e4e4 | d4d4 d4d4 | e4d'4 c'4b4 | g4b4 e4e2 |]

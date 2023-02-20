@@ -1,0 +1,15 @@
+X: 373
+T: Sergt. Cahill's Favorite   #2
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #373
+R: single jig
+%S: s:2 b:10(6+4)
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0373/oneill-1001-0373-1.abc
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 A1A2 BA2 BA2
+M: 6/8
+L: 1/8
+K: G
+"^A"|: D2E G2A | B2d dBG |[1,3 B2c A2B | G2A BGE :|[2,4 B3  A2B | G3- G2"^fine"z :|
+"^B"|: g2d e2d | g2d e2d | B3  A2B | G2A BG"^->A2"E |]

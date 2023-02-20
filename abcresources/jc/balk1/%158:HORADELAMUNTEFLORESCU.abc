@@ -1,0 +1,20 @@
+X: 158
+T: Hora de la Munte Florescu
+O: Romania
+F: http://www.youtube.com/watch?v=0scIjMh6SmE
+F: http://www.youtube.com/watch?v=8VaB_yE5IcU
+M: 2/4
+L: 1/8
+Q: 1/4=180
+K:C
+%%MIDI gchord fg
+%%MIDI bassprog 45
+%%MIDI program 23
+|:"C"G,2 C2|CB, C2   |DEFE    |D2 C2|\
+  DEFE     |D2 C2    |D2E2    |z4   |
+  G,2 C2   |C2 C2    |DEFE    |D2 C2|\
+  DEFE     |D2 C2    |C2 C2   |z4   :|
+|:"G"E2 G2 |G2 E2    |"F"F2 E2|D2 C2|\
+  F2 E2    |"Em"D2 C2|E2 F2   |z4   |
+  "G"E2 G2 |G2 E2    |"F"F2 E2|D2 C2|\
+  F2 E2    |"G"D2 C2 |"C"C2 C2|z4   :|

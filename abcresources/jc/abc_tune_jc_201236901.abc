@@ -1,0 +1,22 @@
+X: 2352
+T: the Braes of Marr.  a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.2 p.35 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+f |\
+~d3f d/d/d f2 | E2TB>A BEEc |\
+~d(cde) defg | aAAF TE2D :|\
+G |\
+FA-AB/c/ dB AF | GBAF E/E/E (.B.E) |
+FA-A>B ABde | fdgf Te2dA |\
+FA-AB/c/ dBAF | GBFd (EFG).E |\
+(FAA>)B ABde | (f/g/a) g>f Te2d |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | d2d2 d2d2 | e2e2 e2e2 | d2d2 d2d2 | a2A2 A2d :| z | d2d2 d2d2 | g2f2 e2e2 |
+d2d2 d2d2 | a2A2 d2D2 | d2d2 d2f2 | g2f2 e2e2 | d2d2 d2d2 | a2A2 d2d |]

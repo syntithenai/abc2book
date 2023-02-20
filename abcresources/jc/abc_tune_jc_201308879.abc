@@ -1,0 +1,14 @@
+X: 1154
+T: Melancholy Martin   #2
+R: slipjig
+%S: s:1 b:8(4+4)
+B: O'Neill's 1850 Music of Ireland #1154
+Z: Stephen Foy (shf@access.digex.net)
+%: abc 1.6
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play (A1A2)x2+(BA2)x2
+M: 9/8
+K: A
+"^A"|: E | A2A BcA GFE |1 A2A B2B e2 :|2 F2F G2E "^fine"A2 \
+"^B"[| E | AGF EDC DE(F/G/) | A2E G2A "^->A2"B2 |]

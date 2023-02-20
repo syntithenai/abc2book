@@ -1,0 +1,28 @@
+X: 209
+T: Now is the Month of Maying
+C: music: Thomas Morley.
+C: words: Orazio Vecchi
+N: based on the canzonet So ben mi ch'a bon tempo used by Orazio Vecchi in his 1590 Selva di varia ricreatione.
+%R: _
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Oddly, the 1st strain has two identical endings, just the 1-bar G6 note. (Simplified here to one ending.)
+M: 4/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 | G2 G2 A2 A2 | B4 B2 G2 | B3 A B2 ^c2 | d4 d2 |
+w: 1.~Now is the month of May-ing, When mer-ry lads are play-ing
+w: 2.~The spring all clad in glad-ness, Doth laugh at win-ter's sad-ness
+%
+A B | c2 c2 B2 G2 | A2 F2 D2 d c | B2 c2 A3 G | G6 :|
+w: Fa, la, la, la, la, la, la, la, la; Fa, la, la, la, la, la, la!
+%
+|: B2 | A2 d2 d2 ^c2 | d6 A2 | c2 c2 B2 B2 | A6 d c |
+w: Each with his bon-ny lass, A danc-ing on the grass, Fa, la,
+w: And to the bag-pipe's sound The nymphs tread out the ground, Fa, la,
+%
+B2 G2 d4 | D E F G A B c2 | B3 c B2 A2 | G6 :|
+w: la, la, la, Fa, la, la, la, la, la, la, Fa, la, la, la, la.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

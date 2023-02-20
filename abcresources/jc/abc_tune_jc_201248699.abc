@@ -1,0 +1,47 @@
+X:1
+%% Copyright 1934, Harms Inc., New York
+T:Autumn in New York
+M:4/4
+L:1/8
+C:Vernon Duke
+Q:1/4=72
+K:F
+%%staves (chords melody)
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"Gm7"x4 "Am7"x4 | "Bb6"x4 "C7"x4 | "F6"x4 x4 | x4 x4 |
+"Gm7"x4 "Am7"x4 | "Bb6"x4 "C7"x4 | "Am7b5"x4 x4 | "D7"x4 x4 ||
+V:melody
+A>GFD C4- | CDFB dd2c | d4A4 | z8 |
+w:Au-tumn in New York, * why does it seem so in-vit-ing?
+A>GFD C4-|CDFB dd2c|d4A4|z8||
+w:Au-tumn in New York, * it spells the thrill of first night-ing,
+P:B
+V:chords
+"Gm7"x4 x4 | "Bbm7"x4 "Eb7"x4 | "Abmaj7"x4 x4 | x4 "Dm7b5"x4 |
+"Am7b5"x4 x4 | "Dsus7"x4 "G7"x4 | "Cmaj7"x4 x4 | x4 "C7"x4 ||
+V:melody
+cA2A G3F|_AA2F _E3_D|_E=B,2C E4- | E4 F4|
+w:Glit-ter-ing crowds and shim-mer-ing clouds in can-yons of steel, * they're
+GD2_EG4-|G4=B4|G8-|G6^G2||
+w:mak-ing me feel * I'm home. * It's
+P:A
+V:chords
+"Gm7"x4 "Am7"x4 | "Bb6"x4 "C7"x4 | "F6"x4 x4 | x4 x4 |
+"Cm7"x4 "Dm7"x4 | "Ebm6"x4 "F7"x4 | "Bbm6"x4 x4 | x4 x4 ||
+V:melody
+A>GFDC4- | CDFB dd2c | d4A4 | z8 |
+w:au-tumn in New York, * that brings the prom-ise of new love;
+d>cBGF4- | F_GBc _d_e2c | _d8- | d6z2 ||
+w:au-tumn in New York * is of-ten ming-led with pain. *
+P:C
+V:chords
+"Fm6"x4 "C7"x4 | "Fm6"x4 "Ab7"x4 | "Dbmaj7"x4 "Ab7"x4 | "Dbmaj7"x4 x2 "Db7"x2 |
+"Gm7"x4 "Am7"x4 | "Bbm6"x4 "C7"x4 | "Fm6"x4 x4 | "Gm7b5"x4 "C7"x4 |]
+V:melody
+c_A2c e2e2 | c6B2 | _AF2A c2c2 |_A6A2 |
+w:Dream-ers with emp-ty hands may sigh for ex-o-tic lands; *
+A>GFD C4-|CB,_DF _AB2G | F8 | z8|]
+w:Au-tumn in New York, * it's good to live it a-gain.

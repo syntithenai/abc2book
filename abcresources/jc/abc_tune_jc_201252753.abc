@@ -1,0 +1,26 @@
+X:1
+T: Birthday Jubilee
+N:
+C:G.F. Handel
+S:
+A:
+O:
+R:
+M:6/8
+K:Em
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 37 notes)
+K:Em
+M:6/8
+L:1/16
+B2 |e3 f g2 f3 g e2 ^d6 e4 B2 c3 B c2 A3 d c2 B6B4 E2 |A3 B c2 B3 c A2 G6 F4 B2 E3 F G2 F3 G E2 F6F4 B2 |
+%W: A2
+% voice 1 (1 lines, 36 notes)
+e3 f g2 f3 g e2 ^d6 e4 B2 c3 B c2 A3 d c2 B6B4 E2 |A3 B c2 B3 c A2 G6 F4 B2 E3 F G2 F3 G E2 F6F4 f2 |
+%W: B1
+% voice 1 (1 lines, 44 notes)
+f3 e f2 g3 f g2 e3 d e2 f3 e f2 B3 ^c d2 A3 d c2 d6d3 c B2 |c3 B c2 A3 B c2 B3 A B2 G3 A B2 E3 F G2 D3 G F2 G6G2 B2 A2 |
+%W:
+% voice 1 (1 lines, 40 notes)
+^G3 A B2 E3 F G2 A6A2 B2 c2 F3 G A2 D3 E F2 G6G2 G2 A2 |B3 ^c d2 c3 ^d e2 ^d3 e f2 e3 f g2 f3 g e2 B3 e ^d2 e6e4 ||

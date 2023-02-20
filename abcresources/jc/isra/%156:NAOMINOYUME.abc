@@ -1,0 +1,18 @@
+X: 156
+T: Naomi No Yume
+O: Israel-Japan
+C: David Kribushe 1970
+F: http://www.youtube.com/watch?v=lW9019iloOU
+F: http://www.youtube.com/watch?v=dmQJo6Qodb8
+M: 2/4
+L: 1/8
+Q: 1/4=140
+K:Cm
+%%MIDI drum dddd 40 37 40 37 70 70 70 70
+%%MIDI drumon
+|:"C" z4|GFG2|GFG2|GFFE|FEFG|zGC2|C2EF-|FF2G-|
+  GzcB  |c2GF|G2G2|G2G2|F2E2|C4  |z2B,2|C4   :|
+  zCDE  |F2F2|FE3 |G2C2|zCDE|F2F2|F2B2 |G4   |
+  zEFG  |A2A2|A2G2|B2E2|\
+K:G
+  zFGA  |B2B2|B2c2|d4  |

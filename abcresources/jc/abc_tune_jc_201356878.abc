@@ -1,0 +1,142 @@
+X:1036
+T:From Death to Life
+T:(provisional title)
+C:Eric Galluzzo
+F:http://abc.musicaviva.com/tunes/galluzzo-eric/death-to-life.abc
+%Posted June 12th 2000 at abcusers by Eric Galluzzo. Posted with permission.
+%%staves 1 {2 3} 4
+M:2/2
+L:1/4
+Q:1/2=80
+K:A
+%
+%
+V:1 clef=treble name="Voices"
+M:2/2
+L:1/4
+%%MIDI program 52   %% voice aahs
+([E2A2B2] | [A2B2e2] [A2^d2e2]) | "A2"[A4c4e4] | z4 | z4 |
+w:A-_                           | men!         |    |    |
+z4 |: "A"A3/ B/- B c   | "A4#"^d3/ c/- c B  | "A"A4-   |
+w:
+w:    I'm    a_    new | crea-     ture_ in | Christ,_ |
+A3 z | "B/A"A3/ B/- B c    | ^d3/ e/- e d | {^dc}B4- | B3 z |
+w:
+w:_  | the      a-_   ton- | ing  sac-ri- | fice._          |
+"A" A3/  B/- B c   | "A4#" ^d3/ c/- c B   | "A"A4- | A3 z |\
+w:
+w:  He's paid_ the |       full ran-_ som | price;_       |
+ "Faug7"A3/ B/- B c  |
+w:
+w:I         am_   no |
+=d3/   c/- c A  | "Esus"B4- | B3 z | "A"A3/ G/- G E    | A3/ "A/G"^G/- G E   |
+w:              |           |      | He     is_   the  | way and_        the |
+w:lon- ger_  in | sin!_            | Where  is_   your | vic-to-_        ry? |
+A3/     "A/F"G/- G E    | MA3/ z/ z2 | "A"A3/ G/- G   E    |
+w:truth and_       the  | life.      | Je-    sus_    has  |
+w:Where is_        your | sting?     | I've   passed_ from |
+ A3/    "A/G"G/- G E    | A3/ "A/F"G/- G E    | MA3/ z/ z2 |
+w:come  so_        that | I   may_       have | life;      |
+w:death to_        life | ev- er-_       las- | ting!      |
+"A"A3/ G/- G E   | A3/   "A/G"G/- G E   | A3/ "A/F"G/- G E    | MA3/ z/ z2 |\
+w:life to_   the | ful-  lest_      and | e-  ter-_      nal  | life!      |
+w:hea- ven_  a-  | waits me_        and | so  I_         will | sing       |
+ "G2"[=G4A4B4] | "Bm7"[F4A4B4] |
+w:             |               |
+w:prai-        | ses           |
+"Esus/A"[A4-B4e4-] | [A4^d4e4] | "A2"[A4c4e4] | z4 |
+w:                             |              |    |
+w:to_                          | Him!         |    |
+z4 |[1 z4 :|[2 z4 | z4 |]
+%([E2A2B2] | [A2B2e2] [A2^d2e2]) | [A4c4e4] | z4 | z4 |
+%z4 |: A3/ B/- B c | ^d3/ c/- c B | A4- |
+%A3 z | A3/ B/- B c | ^d3/ e/- e d | {^dc}B4- | B3 z |
+%A3/ B/- B c | ^d3/ c/- c B | A4- | A3 z | A3/ B/- B c |
+%=d3/ c/- c A | B4- | B3 z | A3/ G/- G E | A3/ ^G/- G E |
+%A3/ G/- G E | MA3/ z/ z2 | A3/ G/- G E | A3/ G/- G E |\
+% A3/ G/- G E | MA3/ z/ z2 |
+%A3/ G/- G E | A3/ G/- G E | A3/ G/- G E | MA3/ z/ z2 |\
+% [=G4A4B4] | [F4A4B4] |
+%[A4-B4e4-] | [A4^d4e4] | [A4c4e4] | z4 |
+%z4 |[1 z4 :|[2 z4 | z4 |]
+%
+%
+V:2 clef=treble name="Piano"
+M:2/2
+L:1/8
+%%MIDI program 0    %% acoustic grand piano
+z4 | z8 | z8 | z8 | z8 |
+z2 (e^d A)(dAE) |: (AEAB) (AEAc) | (A^dAE) (AEB,E) | (AEAc) (AEAB) |
+(cA^dc) (AECE) | (AFAB) (ABcA) | (^dAFA) (BABc) | (BF^DF) (BAB^d) |\
+ (e^dBd) (BFAB) |
+(AEAB) (AEAc) | (A^dAE) (AEB,E) | (AEAc) (^dcAE) | (cAEC) (^DEAB) |\
+ (A=FEF) (AFA^c) |
+(=dA=FA) (^cAFD) | (EB,EA) (EABA) | (BeBe) (aeab) |\
+ [A3c3e3a3] [A-c-e-g-] [A2c2e2g2] [A2c2e2] |\
+ [A3c3e3a3] [=G-c-e-^g-] [G2c2e2g2] [G2c2e2] |
+[=G3c3e3a3] [=F-c-e-^g-] [F2c2e2g2] [F2c2e2] | [c3e3a3] z z4 |\
+ [A3c3e3a3] [A-c-e-g-] [A2c2e2g2] [A2c2e2] |\
+ [A3c3e3a3] [=G-c-e-^g-] [G2c2e2g2] [G2c2e2] |
+ [=G3c3e3a3] [=F-c-e-^g-] [F2c2e2g2] [F2c2e2] | [c3e3a3] z z4 |
+[A3c3e3a3] [A-c-e-g-] [A2c2e2g2] [A2c2e2] |\
+ [A3c3e3a3] [=G-c-e-^g-] [G2c2e2g2] [G2c2e2] |
+ [=G3c3e3a3] [=F-c-e-^g-] [F2c2e2g2] [F2c2e2] | [c3e3a3] z z4 |\
+ [d3=g3b3] [d-g-a-] [d2g2a2] [d2g2b2] |\
+ [f3b3d'3] [f-b-c'-] [f2b2c'2] [f2b2d'2] |
+[e8-f8-b8-e'8-] | [e8f8b8e'8] | [e8a8c'8e'8] | z8 |
+z8 |[1 z2 (e^d A)(dAE) :|[2 z2 (A,E Aeae') | a' z z2 z4 |]
+%
+%
+V:3 clef=bass
+%%MIDI program 0    %% acoustic grand piano
+%%MIDI transpose -24
+M:2/2
+L:1/8
+z4 | z8 | (Aea)(A ebed) | (Aea)(A ebed) | (Aea)(A ebed) |
+(Aea)(A ebed) |: (Aea)(A ebed) | (Aea)(A ebed) | (Aea)(A ebed) |
+(Aea)(A ebed) | (Afb)(A f^d'fe) | (Afb)(A f^d'fe) | (Afb)(A f^d'fe) |\
+ (Afb)(A f^d'fe) |
+(Aea)(A ebed) | (Aea)(A ebed) | (Aea)(A ebed) | (Aea)(A ebed) |\
+ (=Fea)(F ebeB) |
+(=Fea)(F ebeB) | (EBe)(E B^fBA) | (EABe) (abe'f') | z2 [A,6A6] |\
+ z2 [=G,6=G6] |
+z2 [=F,6=F6] | z [_E,3_E3] [=F,2=F2] [=G,2=G2] | z2 [A,6A6] | z2 [=G,6=G6] |\
+ z2 [=F,6=F6] | z [_E,3_E3] [=F,2=F2] [=G,2=G2] |
+z2 [A,6A6] | z2 [=G,6=G6] | z2 [=F,6=F6] | z [_E,3_E3] [=F,2=F2] [^F,2^F2] |\
+ [=G,8=G8] | [B,8B8] |
+[E8-e8-] | [E8e8] | (Aea)(A ebed) | (Aea)(A ebed) |
+(Aea)(A ebed) |[1 (Aea)(A ebed) :|[2 (Aea)(A eAED) | A, z z2 z4 |]
+%
+%
+V:4 clef=bass name="Bass Guitar"
+M:2/2
+L:1/4
+%%MIDI program 33    %% electric bass guitar (finger)
+%%MIDI transpose -36
+z2 | z4 | A3/ e/- e a | b3/ a/- a e | A3/ e/- e a |
+b3/ a/- a e |: A3/ e/- e a | b3/ a/- a e | A3/ e/- e a |
+b3/ a/- a e | A3/ f/- f b | c'3/ b/- b f | A3/ f/- f b | c'3/ b/- b f |
+A3/ e/- e a | b3/ a/- a e | A3/ e/- e a | b3/ a/- a e | =F3/ ^c/- c a |
+b3/ a/- a c | E3/ B/- B e | f3/ e/- e B | z a3 | z =g3 |
+z =f3 | z/ _e3/ =f =g | z a3 | z =g3 | z =f3 | z/ _e3/ =f =g |
+z a3 | z =g3 | z =f3 | z/ _e3/ =f ^f | =g3/ f/- f e | d3/ c/- c B |
+A4- | A4 | A3/ e/- e a | b3/ a/- a e |
+A3/ e/- e a |[1 b3/ a/- a e :|[2 b3/ a/- a e | A/ z/ z z2 |]
+W:
+W:Amen!
+W:
+W:He is the way and the truth and the life.
+W:Jesus has come so that I may have life;
+W:life to the fullest and eternal life!
+W:
+W:I'm a new creature in Christ,
+W:the atoning sacrifice.
+W:He's paid the full ransom price;
+W:I am no longer in sin!
+W:Where is your victory? Where is your sting?
+W:I've passed from death to life everlasting!
+W:heaven awaits me and so I will sing praises to Him!
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.

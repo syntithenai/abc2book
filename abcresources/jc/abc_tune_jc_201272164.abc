@@ -1,0 +1,15 @@
+X:1
+T: Easy Club
+Z:
+M: C|
+R: reel
+K: A
+%%textfont       Times-Roman 10.0
+%
+%%textfont       Times-Bold 10.0
+%
+V:RH clef=treble staves=2 brace=2
+A4 B4|c4 d4|e4 d4|c3B- B2z2|A4 B4|c4 d4|e4 c4|=G3A- A2z2:|
+% %text harmony
+V:LH clef=treble
+c4 d4|e4 f4|g4 f4|e3d- d2z2|c4 d4|e4 f4|g4 e4|B3c- c2z2:|

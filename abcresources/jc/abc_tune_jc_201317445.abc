@@ -1,0 +1,59 @@
+X: 1
+T: Nobody's Jigg
+T: No-body's Jigg
+P: Longways for as many as will
+%R: reel, march
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.37 #63
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.93
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The dances are identical, with the usual spelling and punctuation differences, but the formatting is very different. 
+N: Repeats added to match the dance instructions in DMDfD. (CCDM1 doesn't mention the repeats.)
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g2 |\
+f2d2- d2ef | g2G2- G2g2 | f2d2 de fd | g6 ag |\
+f2d2- d2ef | g2d2- d2c2 | B4 A4 | G6 :|
+|: g2 |\
+f2 a4 gf | g2 b4 ag | f2 a4 gf | g2 b4 ag |\
+fga2 d2ef | g2 d4 c2 | B4 A4 | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the Presence, then to your We. lead up all forward
+%% and back, that again .| Then the two 1st Cu. fall back, and all four
+%% meet and turn Hands backward half round, fall back again, meet
+%% and turn as before :| The 1st Cu. cross over and meet below the
+%% 2d Cu. while the 2d Cu. leads up in the Middle, then the 1st Cu
+%% cross over and meet above in their own Places, while the 2d Cu.
+%% leads down into theirs; then the 1st Cu. lead down below the
+%% 2d Cu. while the 2d Cu. cast up into the 1st Cu. Place .| The 2d
+%% Cu. being now foremost, they cross over and meet below the
+%% 1st Cu. while the 1st Cu. leads up, the 2d Cu. cross over and meet
+%% above while the 1st Cu. leads down, then each Cu. sett to one another :|
+%%[CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% Honour to the presence, then to your we. Lead up all forward and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then the two 1. cu. fall back, and all four meet and turn hands backward half round, fall back again, and meet and
+%% turn as before.  This ends the first Strain of the Tune played twice over.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. cu. cross over and meet below the 2. cu. while the 2. cu. leads up in the middle, then the 1. cu. cross over and meet
+%% above in their own places, while the 2. cu. leads down into their; the 1. cu. lead down below the 2. cu. while the 2. cu.
+%% cast up in the 1. cu. place. This ends the second Strain played once.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 2. cu. being now foremost, they cross over and meet below the 1. cu. while the 1. cu. leads up, the 2. cu. cross over
+%% and meet above while the 1. cu. leads down, then each cu. set to one another. This ends the second Strain played twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

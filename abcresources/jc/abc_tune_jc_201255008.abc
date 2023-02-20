@@ -1,0 +1,1987 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 8
+B: RSCDS Book 8
+K:
+%%center Book08/0800-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0801
+T: Tulloch gorm
+P: Tulloch gorm
+C:From Wm. Campbell's Eleventh Book, 1796
+R:Strathspey (8x32)
+B:RSCDS 8-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:GMix
+A|"G"B>G d>G "F"c>F A2|"G"B>G d>G B>c d>g|\
+  "G"B>G d>G "F"c>F A>c|"G"B>G d>G "F"F2 A A|
+  "G"B>G d>G "F"c>F A2|"G"B>G d>G B>c d>g|\
+  "G"B>G d>G "F"c>F A>c|"G"BG dG "Dm"A/B/c "G"B||
+A|"G"G>g d>g "F"f>F A2|"G"G>g d>g B>g d>g|\
+  "G"G>g d>g "F"f>F A2|"G"G>g d>g "D"A/B/c B>A|
+  "G"G>g d>g "F"f>F A2|"C"G>g "G"d>e "F"f>c f>g|\
+  "F"a/g/f/e/ f>d c>F A>a|"G"g>d g>b "C"e>g "G"d|]
+%%center Book08/0801-Tulloch_gorm-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0802
+T: Peggy's Love
+P: Little Peggy's Love
+C:Wm. Marshall
+R:Strathspey (8x32)
+B:RSCDS 8-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:A
+A|"A"E<A A>B "F#m"c>B c<A|"Bm"F<B B>c "E7"d2 de|\
+  "D"f<a "A"e>c "Bm"B>A "E7"B<c|"A"E>A "E7"G>B "A"A3 A|
+  "A"E<A A>B "F#m"c>B c<A|"Bm"F<B B>c "E7"d2 de|\
+  "D"f<a "A"e>c "Bm"B>A "E7"B<c|"A"E>A "E7"G>B "A"A3||
+e|"A"a>g a<c' "E7"a>g a<c'|"B7"a>b a>c' "E"b3 c'|\
+  "A"a>e e>c "D"f>d' c'>b|"A"a>f e>c "E7"B3 A|
+  "A"E<A A>B "F#m"c>B c<A|"Bm"F<B B>c "E7"d2 de|\
+  "D"f<a "A"e>c "Bm"B>A "E7"B<c|"A"E>A "E7"G>B "A"A3|]
+%%center Book08/0802-Peggys_Love-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0803
+T: Calver Lodge
+P: Country Dance
+C:Nath. Gow's Dances for 1812
+R:Reel (8x24)
+B:RSCDS 8-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:D
+|:A2|"D"d3c edcB|A^GAB ABAF|"D"DBAF DBAF|"A"G2E2E2 A2|
+     "D"d3c edcB|A^GAB ABAF|"G"DBAF "A7"AGEF|"D"D2d2d2:|
+  f2|"A"efgf edce|"D"defg a2 fa|"A"ageg "D"gfdf|"A"edef e3 f|
+     "A"efgf edce|"D"defg a2 fa|"A"ageg "D"gfdf|"A7"edcB A2|]
+%%center Book08/0803-Calver_Lodge-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0804
+T: The Lovers' Knot
+P: Link him Dodie
+C:From Gow's First Coll., 1784
+R:Strathspey (8x40) ABABB
+B:RSCDS 8-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:A
+A|"A"Ae e>d c<A c2|"G"B=g g>d B<=G B<d|\
+  "A"A/B/c/d/ e>A c<A c2|"Fm"A<a "E7"g<b "A"a<A c<e|
+  "A"Ae e>d c<A c2|"G"B=g g>d B<=G B<d|\
+  "A"A/B/c/d/ e>A c<A c2|"Fm"A<a "E7"g<b "A"a<A c<e||
+  "A"a/g/f/e/ ca ea c2|"G"B=g g>d B=G B<g|\
+  "A"a/g/f/e/ c<a e<a c<a|"Fm"A<a c<a "A"ec c<e|
+  "A"a/g/f/e/ "D"f>d "A"e>d c2|"G"B=g g>d B<=G B<d|\
+  "A"A/B/c/d/ e>A cA c2|"Fm"A<a "E7"g<b "A"a<A c<e|]
+%%center Book08/0804-Lovers_Knot-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0805
+T: The River Cree
+P: Jackson's Bottle of Claret
+C:From Cooke's Selection of Country Dances, 1796
+R:Jig (8x32)
+B:RSCDS 8-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+V:1
+%%staves (1 2)
+[V:1] |:G|"G"G2G "D"A>GA|"G"B2g gdB|"D"c2A "Em"BGE|"G"G>AG GED|
+[V:1]     "G"G2G "D7"A>GA|B2g gdB|"A"c2A "Em"BGE|"C"G>AG "G"G2:|
+[V:1] |:d|"Em"gfg efg|"Bm"fdB B3|"Em"gfg "A"efg|"D"afd d2f|
+[V:1]     "Em"gfe "A"agf|"Em"gf"D/F#"e "G"edB|"Am"cBA "Em"BGE|"C"G>AG "G"G2:|
+%V:2
+%[V:2] |:x|x6            |x6        |x6            |x6         |
+%[V:2]        x3      F3  |G2z z2z|   E6         |   E3      D2:|
+%[V:2] |:x|    B6     |    B3  B3|    B3     A3 |   x6     |
+%[V:2]         d3     c3 |    B2      c    B3 |    E6         |   E3      D2:|
+%%center Book08/0805-River_Cree-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0806
+T: The Lass o' Livingston
+P: The Lass o' Livingston
+C:Allan Ramsay's Music to Tea-Table Miscellany, 1726, and earlier
+R:Reel (8x32)
+B:RSCDS 8-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:F
+|:C2|"F"F3G A3f|cAcd cAGF|"C7"A2G2 G2FG|A2G2 G2FD|
+     "F"CDFG A2fd|cAGF GABc|"Bb"d2D2 D2(3CDE|"Dm"F2D2 D2:|
+|:(3cde|"F"f3g fgag|fcdf cAGF|"C7"A2G2 G2FG|A2G2 G2 fg|
+     "F"afga fcdf|cAGF GABc|"Bb"d2D2 D2(3CDE|"Dm"F2D2 D2:|
+%%center Book08/0806-Lass_o_Livingston-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0807
+T: Braes of Atholl
+P: Braes of Atholl
+C:From Walsh's Country Dances, 1731
+R:Strathspey (8x40) ABBCD
+B:RSCDS 8-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:G
+|:d|"G"B2 AG B/c/d e/f/g|"G"B>A GB "D"A/A/A Ad|\
+    "G"B2 A>G B/c/d "Em"eB|"D"AF"D7"DB "G"G/G/G G:|
+|:e/f/|"G"gdBg "G7"dgdB|"C"g/f/e/d/ Bg "D"f2 Ae/f/|\
+    "G"g/f/e/d/ Bg "G7"dgdB|"Am"c/B/A/G/ "D7"FA "G"G/G/G G:|
+|:c|"G"BGBG BG B/c/d|BG B/c/d g2 A2|BGBG BG B/c/d|D2 DB G/G/G G:|
+|:B|"G"Gg g/f/e/d/ "Bm"Bg g/f/e/d/|"Em"Bg zg "D"f2 Ae/f/|\
+    "G"g/f/e/d/ Bg dgdB|"D"c/B/A/G/ "D7"FA "G"G/G/G G:|
+%%center Book08/0807-Braes_of_Atholl-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0808
+T: The Bleu Ribbon
+P: The Bleu Ribbon
+C:From Gow's Repository, Part II, ca. 1800
+R:Reel (8x40) AABBA
+B:RSCDS 8-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:F
+|:cB|"F"A2F2F2 GA|"C"c2G2G2 cB|"F"A2 G>F "Dm"F2 ag|"F"f4 c2 fg|
+     "F"agfd fdcA|"Gm"d2G2 "C7"G2 cB|"F"BAGF "C7"a2ga|"F"f4 f2!fine!:|
+|:c/d/e|"F"fedc "Bb"defg|"F"a2 "C7"g2g2 c/d/e|\
+    |"F"fedc "Bb"de"F"fc|"C7"B2 "Dm"A2 f3 g|
+     "F"agfd fdcA|"Gm"d2G2 "C7"G2 cB|"F"BAGF "C7"a2ga|"F"f4 f2!D.C.!:|
+%%center Book08/0808-Bleu_Ribbon-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0809
+T: Jessie's Hornpipe
+P: The Ton
+C:From Aird's Coll. (IV), 1794
+R:Reel (8x32)
+B:RSCDS 8-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/8
+K:G
+|:B/c/|"G"dg gB/c/|Bd dB/A/|GG "D7"AA|"G"B/A/B/c/ BB/c/|
+       "G"dg gB/c/|Bd dc/B/|GG "D7"AA|"G"G3:|
+|:B/c/|"G"dg "C"ec|"G"dg "C"ec|"G"d>B "A7"AB|"D"A/G/A/B/ "D7"AB/c/|
+       "G"dg "C"ec|"G"dg "C"ec|"G"B/d/B/G/ "D7"A/c/A/F/|"G"G3:|
+%%center Book08/0809-Jessies_Hornpipe-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0810
+T: Lassie wi' the Yellow Coatie
+P: Lassie wi' the Yellow Coatie
+C:Rutherford 1756/Bremner 1759
+R:Reel (8x32)
+B:RSCDS 8-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:G
+A|"G"G2 GB d>e gd|"C"e/e/e "G"gd "C"edeg|\
+  "G"g>G GB d>e gd|"C"e/f/g "G"dB "Em"AG EA|
+  "G"G2 GB d>e gd|"C"e/e/e "G"gd "C"edeg|\
+  "G"g>G GB d>e gd|"C"e/f/g "G"dB "Em"AG E||
+a|"Em"g>a bg "Am"ae "G"gd|"G7"Bdde =fged|\
+  "Em"g>a bg "C"ae "G"gd|"C"e/f/g "G"dB "Em"AG E a|
+  "Em"g>a bg "Am"ae "G"gd|"G7"Bdde =fged|\
+  "Em"g>a bg "C"ae "G"gd|"C"e/f/g "G"dB "Em"AG E|]
+%%center Book08/0810-Lassie_wi_the_Yellow_Coatie-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0811
+T: Tibby Fowler o' the Glen
+P: Tibby Fowler o' the Glen
+C:Allan Ramsay's Music to Tea-Table Miscellany, 1726, and earlier
+R:Strathspey (8x32)
+B:RSCDS 8-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:Am
+B|"Am"A/A/A A>B "G"G>A Bd|"Am"eA A>B "G"d/c/B/A/ G>B|\
+  "Am"A/A/A A>B "G"G>A Bd|"Am"eA A>B "Em"GE EB|
+  "Am"A/A/A A>B "G"G>A Bd|"Am"eA A>B "G"d/c/B/A/ G>B|\
+  "Am"A/A/A A>B "G"G>A Bd|"Am"eA A>B "Em"GE E||
+a|"C"ge e>g "G"d>e dB|"C"ge e>g "Am"a>b "Em"g>e|\
+  "G"d>e "(Em)"g>b "C"e>g "E7"e/d/c/B/|"Am"eA A>B "Em"GE E> a|
+  "C"ge e>g "G"d>e dB|"C"ge "Am"e>a "Em"g>b "Am"ae|\
+  "Em"g>b e>g "G"d>g B>d|"Am"eA A>B "Em"GE E|]
+%%center Book08/0811-Tibby_Fowler_o_the_Glen-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0812
+T: Off She Goes/Follow Her over the Border
+P: Off She Goes
+C:Dale's Coll. ca. 1800
+R:Jig (8x16)
+B:RSCDS 8-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:D
+A|"D"F2A "G"G2B|"A7"ABc "D"d2z|"D"F2A "G"G2B|"D"AFD "A7"E2z|
+  "D"F2A "G"G2B|"A7"ABc "D"d2e|f2d "G"g2f|"A7"edc "D"d2||
+g|"D"faf d2f|"Em"gbg "A7"c2g|"D"faf d2f|"A7"edc d2g|
+  "D"faf d2f|"A"gbg "A7"c2e|"Bm"d2f "D"a2f|"A7"gec "D"[d2F2]|]
+%%center Book08/0812-Off_She_Goes_Follow_Her_over_the_Border-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 08011
+T: Major Mole
+R: strathspey
+B: Kerr's
+B: RSCDS 8-1
+N: Alternate tune for Tullochgorm
+M: C
+L: 1/8
+%--------------------
+K: Ador
+|: "Am"A<e e>d c>d B>c | A<e e>d c2 "(G)"B<c | "Am"A<e e>f g>f g>e | "G"d>B G>B "Em"e>d c>B :|
+|: "Am"A<E E2  A>E c>E | A<E E>E c2 "(G)"B<c | "Am"A<E E>E e>f g>e | "G"d>B G>B "Em"e>d c>B :| \
+"Am"A4 |]
+%%center Book08/08011-Major_Mole-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8012
+T: Tullochgorum
+O: Trad.
+R: strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+N: A highly variable tune, in most old Scottish collections.
+N: First known publication by Robert Bremner, 1757.
+N: RSCDS 8-1
+N: Wm. Campbell's Eleventh Book, 1796
+N: Allan's p.15
+N: BSFC I-58
+N: Caledonian Companion, p.109.
+N: Carlin, #226.
+N: H&C p.68
+N: Hardie p.109
+N: Mel Bay 137
+N: OTDT p.69
+N: SV p.26 (lots of variations)
+N: Skye p.87 (with variation)
+D: Harvey Tolman on his tape
+M: 4/4
+L: 1/8
+%--------------------
+K: GMix
+|: c/ \
+| "G"B<G d>G "F"c<F A2 | "G"B<G d>G B>c d<g \
+| "G"B<G d>G "F"c<F A>c | "G"B<G d>G "D"A/B/c B> :|
+[| A \
+| "G"G>g d>e "F"f>F A2 | "G"G>g d<g B<g d<g \
+| "G"G>g d>e "F"f>F A2 | "G"G>g d<g "D"A/B/c B>A ||
+|| "G"G>g d>e "F"f>F A2 | "G"G>g d<g "F"f>g a>f \
+| a/g/f/e/ f>d c<F A<a | "G"g>d g>_b "C"e<g "D"d> |]
+%%center Book08/08011-Tullochgorum-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 08021
+T: Duncan Davidson
+R: strathspey
+B: Kerr's
+B: RSCDS 8-2
+N: Alternative tune for Peggy's Love
+M: C
+L: 1/8
+%--------------------
+K: D
+F \
+| "D"D>F A>B A<F A<d | "D"D>F "G"d>B "D"A<F "A7"E>F \
+| "D"D>F A>B A<F A>g | "A7"f>d e>f "D"d<d d :|
+g \
+| "D"f>e (3def "Em"g>f e>d | "A7"c<A e>A c>d e>g \
+| "D"f>e (3def "Em"g>f e>d | "A7"c>d e>g "D"f<d dg ||
+| "D"f>e (3def "Em"g>f e>d | "A7"c<A e>A c>d e>g \
+| "D"f<d "A7"g<e "D"a<f "G"b>g | "A7"f>d e>f "D"d<d d :|
+%%center Book08/08021-Duncan_Davidson-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8022
+T: Duncan Davidson
+R: strathspey
+B: Kerr's
+B: RSCDS 8-2
+N: Alternative tune for Peggy's Love
+M: C
+L: 1/8
+%--------------------
+K: D
+F \
+| "D"D>F A>B A<F A<d | "D"D>F "G"d>B "D"A<F "A7"E>F \
+| "D"D>F A>B A<F A>g | "A7"f>d e>f "D"d<d d :|
+g \
+| "D"f>e (3def "G"g>f e>d | "A7"c<A e>A c>d e>g \
+| "D"f>e (3def "G"g>f e>d | "A7"c>d e>g "D"f<d dg ||
+| "D"f>e (3def "G"g>f e>d | "A7"c<A e>A c>d e>g \
+| "D"f<d "A7"g<e "D"a<f "G"b>g | "A7"f>d e>f "D"d<d d :|
+%%center Book08/08021-Duncan_Davidson-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8023
+T: Little Peggy's Love
+C: William Marshall
+R: strathspey
+B: RSCDS 8-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Published as Lady Louisa Gordon't Strathspey in 1781.
+M: 4/4
+L: 1/8
+%--------------------
+K: A
+|: A \
+| "A"E<A A>B "F#m"c>B c<A | "Bm"F<B B>c "E7"d2 de \
+| "D"f<a "A"e>c "Bm"B>A "E7"B<c | "A"E>A "E7"G>B "A"A2- "fine"A :|
+|| e \
+| "A"a>g a<c' "E7"a>g a<c' | "B7"a>b a>c' "E"b3 c' \
+| "A"a>e e>c "D"d>d' c'>b | "A"a>f e>c "E7"B2- "d.C."B |]
+%%center Book08/08021-Little_Peggys_Love-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8024
+T: Little Peggy's Love
+C: William Marshall
+R: strathspey
+B: RSCDS 8-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Published as Lady Louisa Gordon't Strathspey in 1781.
+M: 4/4
+L: 1/8
+%--------------------
+K: D
+|: D \
+| "D"A,<D D>E "Bm"F>E F<D | "Em"B,<E E>F "A7"G2 GA \
+| "G"B<d "D"A>F "Em"E>D "A7"E<F | "D"A,>D "A7"C>E "D"D2- "fine"D :|
+|| A \
+| "D"d>c d<f "A7"d>c d<f | "E7"d>e d>f "A"e3 f \
+| "D"d>A A>F "G"G>g f>e | "D"d>B A>F "A7"E2- "d.C."E |]
+%%center Book08/08021-Little_Peggys_Love-11.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8025
+T: Little Peggy's Love
+C: William Marshall
+R: strathspey
+B: RSCDS 8-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Published as Lady Louisa Gordon't Strathspey in 1781.
+M: 4/4
+L: 1/8
+%--------------------
+K: F
+A \
+| "F"C<F F>G "Dm"A>G A<F | "Gm"D<G G>A "C7"B2 Bc \
+| "Bb"d<f "F/A"c>A "Gm"G>F "C7"G<A | "F"C>F "C7"E>G "F"F2- "fine"F :|
+c \
+| "F"f>e f<a "C7"f>e f<a | "Dm"f>g f>a "G7"g3 a \
+| "F"f>c c>A "Bb"B>b a>g | "F"f>d c>A "C7"G2- "d.C."G |]
+%%center Book08/08021-Little_Peggys_Love-12.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 08031
+T: Country Dance
+R: reel
+B: RSCDS 8-3
+B: Nath. Gow's Dances for  1812
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: D
+A2 | "D"d3c edcB | A^GAB ABAF | DBAF DBAF |1 "A7"G2E2 E2 :|2 DBAF "A7"AGEF | "D"D2d2d2 :|
+f2 | "A7"efgf edce | "D"defg a2fa | "A7"ageg "D"gfdf |1 "A7"edef e3 :|2 "A7"edcB AA"d.C."Bc |]
+%%center Book08/08031-Country_Dance-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8032
+T: Country Dance
+R: reel
+B: RSCDS 8-3
+B: Nath. Gow's Dances for 1812
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: D
+A2 | "D"d3c edcB | A^GAB ABAF | DBAF DBAF |1 "A7"G2E2 E2 :|2 DBAF "A7"AGEF | "D"D2d2d2 :|
+f2 | "A7"efgf edce | "D"defg a2fa | "A7"ageg "D"gfdf |1 "A7"edef e3 :|2 "A7"edcB AA"d.C."Bc |]
+%%center Book08/08031-Country_Dance-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8033
+T: Earl of Lauderdale
+B: RSCDS 8-3
+B: Gow's Collection
+N: Alternative tune for Calver Lodge
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: G
+   D | "G"G2Bd "D7"cAFD | "G"GBdg    edcB | "Am"ceAc "G"BdGB | "D7"AcDF "G"G3 :|
+|: d | "Em"gbeg "D"fadf | "C"egce "G"edcB | "Am"ceAc "G"BdGB | "D7"AcDF "G"G3 :|
+%%center Book08/08031-Earl_of_Lauderdale-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8034
+T: Earl of Lauderdale
+B: RSCDS 8-3
+B: Gow's Collection
+N: Alternative tune for Calver Lodge
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: G
+     D | "G"G2Bd "D7"cAFD | "G"GBdg    edcB | "Am"ceAc "G"BdGB | "D7"AcDF "G"G3 ||
+|::: d | "Em"gbeg "D"fadf | "C"egce "G"edcB | "Am"ceAc "G"BdGB | "D7"AcDF "G"G3 :::|
+%%center Book08/08031-Earl_of_Lauderdale-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 08041
+T: Harvest Home
+R: strathspey
+B: RSCDS 8-4
+B: Lowe's Collection
+Z: John Chambers <jc:trillian.mit.edu>
+N: Alternative tune for The Lover's Knot
+M: C
+L: 1/8
+%--------------------
+K: F
+|: A \
+| "F"F<F A>F c>F A>F | "C7"C<C E>C G>C E>C \
+| "F"F<F A>F c>F A>F | "Bb"(3def "C7"(3gab "F"a<f f :|
+a \
+| "F"f<f a>f "C7"b>g "F"a>f | "Bb"d<b g>f "C7"e>d c>e \
+| "F"f<f a>f "C7"b>g "F"a>f | "Bb"d<b "C7"g>e "F"f2 F>c |
+| "F"f<f a>f "C7"b>g "F"a>f | "Bb"d<b g>f "C7"e>d c>e \
+| "F"(3fga "C7"gab "F"(3agf "Am"edc | "Bb"(3Bcd "C7"cde "F"(3fcB (3AGF |]
+%%center Book08/08041-Harvest_Home-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8042
+T: Link Him Dodie
+R:
+B: RSCDS 8-4
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: 4/4
+L: 1/8
+%--------------------
+K: A
+"A"\
+|: "A"Ae e>d c<A c2 | "G"B=g g>d B<=G B<d \
+| "A"A/B/c/d/ e>A c<A c2 | "E7"A<a g<b "A"a<A c<e :|
+"B"\
+| "A"a/g/f/e/ c>a e>a c2 | "G"B=g g>d B<=G B<g \
+| "A"a/g/f/e/ c<a e<a c<a | "F#m"A<a c<a "E7"ec c<e ||
+| "A"a/g/f/e/ "D"f>d "A"e>d c2 | "G"B=g g>d B<=G B<d \
+| "A"A/B/c/d/ e>A c<A c2 | "E7"A<a g<b "A"a<A c<e |]
+%%center Book08/08041-Link_Him_Dodie-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 08051
+T: Jackson's Bottle of Claret
+B: RSCDS 8-5
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+   D \
+| "G"G2G "D7"AGA | "G"B2g gdB | "Am"c2{B}A "Em"BGE | "C"G>AG "D7"GED \
+| "G"G2G "D7"AGA | "G"B2g gdB | "Am"c2{B}A "Em"BGE | "C"G>AG "G"G2 :|
+|: f \
+| "Em"gfg     efg | "Bm"fdB B2f | "Em"gfg "A7"efg | "D"afd    d2f \
+| "Em"gfe "D7"agf | "Em"gfe edB | "Am"cBA "Em"BGE | "C"G>AG "G"G2 :|
+%%center Book08/08051-Jacksons_Bottle_of_Claret-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8052
+T: Old Rosin the Beau
+R: jig
+B: RSCDS 8-5
+N: Alternative tune for The River Cree
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+E \
+| "A"A>GA cBA | e3 "D"f3 | "A"e>cA     ABc | "D"F3 "E7"F2E \
+| "A"A>GA cBA | e3 "D"f3 | "A"e>cA "E7"BAG | "A"A3     A2 :|
+|: c/d/ \
+| "A"ece  efg | "D"a2f  a2f | "A"e>cA "F#m"ABc | "Bm"F3 "E7"F2E \
+| "A"A>GA cBA |    e3 "D"f3 | "A"e>cA  "E7"BAG |  "A"A3     A2 :|
+%%center Book08/08051-Old_Rosin_the_Beau-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 08061
+T: The Lass o' Livingston
+R: reel
+B: RSCDS 8-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+N: Allan Ramsay's Music to Tea-Table Miscellany, 1726, and earlier
+N: From Gow's Repository, Part IV, 1824
+M: C|
+L: 1/8
+%--------------------
+K: F
+|: "C7"C2 \
+| "F"F3G A2f2 | cAcd cAGF | "C7"A2G2 G2FG | A2G2 G2FD | "F"CDFG A2fd | cAGF GABc |
+| "Bb"d2D2 D2(3CDE | "Dm"F2D2 D2 :: "C7"(3cde | "F"f3g fgag | fcdf cAGF | "C7"A2G2 G2FG |
+| "C7"A2G2 G2 fg | "F"afga fcdf | cAGF GABc | "Bb"d2D2 D2(3CDE | "Dm"F2D2 D2 :|
+%%center Book08/08061-Lass_o_Livingston-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8062
+T: Steer her up and had her gaun
+R: reel
+B: Gow's Collection
+B: RSCDS 8-6
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+%--------------------
+K: D
+fe \
+| "D"d2d2 f3e | defg a2 AG | F2A2 BAGF | "A7"E2E2 c3e \
+| "D"d2d2 f3e | defg a2ga | "G"bagf "A7"edec | "D"d2 D4 :|
+|: fe \
+| "D"d2A2 F3A | dAGA GFED | "C"e2 =c4 E=F | GFED =C2 fe \
+| "D"d2A2 F3A | DEFG A2gf | "G"efgf "A7"ecAc | "D"d2 D4 :|
+%%center Book08/08061-Steer_her_up_and_had_her_gaun-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 08071
+T: Ayrshire Lassies
+R: strathspey
+B: RSCDS 8-7
+B: Lowe's Collection
+N: Alternative tune for Braes of Atholl
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: C
+   c \
+| "C"G>c E>c "G7"d>c d<e | "C"c<c e>d "F"c<A A>c \
+| "C"G>c E>c "G7"d>c d<e | "F"c>A "G7"G>c "C"E<C C :|
+   e/f/ \
+| "C"g>e c>g e>g c>g | g>e c>e "G7"d<D D e/f/ \
+| "C"g>e c>e d<f e>d | "F"c>A "G7"G>F "C"E<C C ||
+   e/f/ \
+| "C"g>e c>g e>g c>g | g>e c>e "G7"d<D D e/f/ \
+| "C"g>e "Dm"f>d "Am"e>c "G7"d>B | "F"c>A "G7"G<c "C"E<C C |]
+%%center Book08/08071-Ayrshire_Lassies-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8072
+T: Braes of Atholl
+R: strathspey
+B: RSCDS 8-7
+B: Walsh's Country Dances, 1731
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+%--------------------
+K: G
+d2 \
+| "G"B4 A2G2 Bcd2 efg2 | B3A G2B2 "D7"AAA2 A2d \
+| "G"B4 A3G  Bcd2 e2B2 | "D7"A2F2 D2B2 "G"GGG2 G2 :|
+|: ef \
+| "G"g2d2 B2g2 d2g2 d2B2 | "Em"gfed B2g2 "D7"f4 A2ef \
+| "G"gfed B2g2 d2g2 d2B2 | "C"cBAG "D7"F2A2 "G"GGG2 G2 :|
+|: c2 \
+| "G"B2G2 B2G2 B2G2 Bcd2 | B2G2 Bcd2 g4 "D7"A4 \
+| "G"B2G2 B2G2 B2G2 Bcd2 | D4 "D7"D2B2 "G"GGG2 G2 :|
+|: B2 \
+| "G"G2g2 gfed "Bm"B2g2 gfed | "G"B2g2 z2g2 "D7"f4 A2ef \
+| "G"G2g2 gfed d2g2 d2B2 | "C"cBAG "D7"F2A2 "G"GGG2 G2 :|
+%%center Book08/08071-Braes_of_Atholl-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8073
+T: The Rock and the Wee Pickle Tow
+R: jig
+B: RSCDS 8-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Playford as "A Scottish March" 1663 and "Montrose's March" 1669
+N: As "The Rock and the wee pickle tow" in Mitchell's "Highland Fair" 1731 and later.
+M: 6/8
+L: A
+%--------------------
+K: A
+E \
+| "A"E>FA Bce | "D"f>ec "E7"B2e/d/ | "A"cAB "E7"c2B | "A"(cA)A A2F \
+| "A"E>FA Bce | "D"f<ac "E7"B2e/d/ | "F#m"cAB "E7"c2B | "A"cAA A2 :|
+|: a \
+| "D"f>fa "E"efg | "A"agf fec | "A"e>fe "E7"efg | "D"agf "E"e2c \
+| "D"d>cd "E7"efg | "A"aec "E7"B2g | "F#m"aAB "E7"c2B | "A"cAA A2 :|
+%%center Book08/08071-Rock_and_the_Wee_Pickle_Tow-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8074
+T: Rock and the Wee Pickle Tow, The
+R: jig
+B: RSCDS 8-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Playford as "A Scottish March" 1663 and "Montrose's March" 1669
+N: As "The Rock and the wee pickle tow" in Mitchell's "Highland Fair" 1731 and later.
+M: 6/8
+%--------------------
+K: A
+E \
+| "A"E>FA Bce | "D"f>ec "E7"B2e/d/ | "A"cAB "E7"c2B | "A"(cA)A A2F \
+| "A"E>FA Bce | "D"f<ac "E7"B2e/d/ | "F#m"cAB "E7"c2B | "A"cAA A2 :|
+|: a \
+| "D"f>fa "E"efg | "A"agf fec | "A"e>fe "E7"efg | "D"agf "E"e2c \
+| "D"d>cd "E7"efg | "A"aec "E7"B2g | "F#m"aAB "E7"c2B | "A"cAA A2 :|
+%%center Book08/08071-Rock_and_the_Wee_Pickle_Tow_The.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 08111
+T: Tibby Fowler O'er the Glen
+R: strathspey
+B: RSCDS 8-11
+N: Allan Ramsay's Music to Tea-Table Miscellany 1726 and earlier.
+N: Gow's Repository, Part I, 1799.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: Am
+B \
+| "Am"A/A/A A>B "G"G>A Bd | "Am"eA A>B "G"d/c/B/A/ G>B \
+| "Am"A/A/A A>B "G"G>A Bd | "Am"eA A>B "Em"GE E :|
+|| a \
+| "C"ge e>g "G"d>e dB | "C"ge e>g "Am"a>b "Em"g>e \
+| "G"d>e "(Em)"g>b "C"e>g "(E7)"e/d/c/B/ | "Am"eA A>B "Em"GE E ||
+|| a \
+| "C"ge e>g "G"d>e dB | "C"ge "Am"e>a "Em"g>b "Am"ae \
+| "Em"g>b e>g "G"d>g B>d | "Am"eA A>B "Em"GE E |]
+%%center Book08/08111-Tibby_Fowler_Oer_the_Glen-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8112
+T: Tibby Fowler o' the Glen
+R: strathspey
+B: RSCDS 8-11
+N: Allan Ramsay's Music to Tea-Table Miscellany 1726 and earlier.
+N: Gow's Repository, Part I, 1799.
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+%--------------------
+K: Am
+B \
+| "Am"A/A/A A>B "G"G>A Bd | "Am"eA A>B "G"d/c/B/A/ G>B \
+| "Am"A/A/A A>B "G"G>A Bd | "Am"eA A>B "Em"GE E :|
+|| a \
+| "C"ge e>g "G"d>e dB | "C"ge e>g "Am"a>b "Em"g>e \
+| "G"d>e "(Em)"g>b "C"e>g "(E7)"e/d/c/B/ | "Am"eA A>B "Em"GE E ||
+|| a \
+| "C"ge e>g "G"d>e dB | "C"ge "Am"e>a "Em"g>b "Am"ae \
+| "Em"g>b e>g "G"d>g B>d | "Am"eA A>B "Em"GE E |]
+%%center Book08/08111-Tibby_Fowler_o_the_Glen-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8113
+T: Tibby Fowler o' the Glen
+T: 8x32S
+R: strathspey
+B: RSCDS 8-11
+%--------------------
+K: Am
+%%center Book08/08111-Tibby_Fowler_o_the_Glen.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8114
+T: Ayrshire Lassies
+R: strathspey
+B: RSCDS 8-7
+B: Lowe's Collection
+N: Alternative tune for Braes of Atholl
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+   c \
+| "C"G>c E>c "G7"d>c d<e | "C"c<c e>d "F"c<A A>c \
+| "C"G>c E>c "G7"d>c d<e | "F"c>A "G7"G>c "C"E<C C :|
+   e/f/ \
+| "C"g>e c>g e>g c>g | g>e c>e "G7"d<D D e/f/ \
+| "C"g>e c>e d<f e>d | "F"c>A "G7"G>F "C"E<C C ||
+   e/f/ \
+| "C"g>e c>g e>g c>g | g>e c>e "G7"d<D D e/f/ \
+| "C"g>e "Dm"f>d "Am"e>c "G7"d>B | "F"c>A "G7"G<c "C"E<C C |]
+%%center Book08/AyrshireLassies_C-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8115
+T: Ayrshire Lassies
+R: strathspey
+B: RSCDS 8-7
+B: Lowe's Collection
+N: Alternative tune for Braes of Atholl
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+   c \
+| "C"G>c E>c "G7"d>c d<e | "C"c<c e>d "F"c<A A>c \
+| "C"G>c E>c "G7"d>c d<e | "F"c>A "G7"G>c "C"E<C C :|
+   e/f/ \
+| "C"g>e c>g e>g c>g | g>e c>e "G7"d<D D e/f/ \
+| "C"g>e c>e d<f e>d | "F"c>A "G7"G>F "C"E<C C ||
+   e/f/ \
+| "C"g>e c>g e>g c>g | g>e c>e "G7"d<D D e/f/ \
+| "C"g>e "Dm"f>d "Am"e>c "G7"d>B | "F"c>A "G7"G<c "C"E<C C |]
+%%center Book08/AyrshireLassies_C_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8116
+T: Ayrshire Lassies
+R: strathspey
+B: RSCDS 8-7
+B: Lowe's Collection
+N: Alternative tune for Braes of Atholl
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+   c \
+| "C"G>c E>c "G7"d>c d<e | "C"c<c e>d "F"c<A A>c \
+| "C"G>c E>c "G7"d>c d<e | "F"c>A "G7"G>c "C"E<C C :|
+   e/f/ \
+| "C"g>e c>g e>g c>g | g>e c>e "G7"d<D D e/f/ \
+| "C"g>e c>e d<f e>d | "F"c>A "G7"G>F "C"E<C C ||
+   e/f/ \
+| "C"g>e c>g e>g c>g | g>e c>e "G7"d<D D e/f/ \
+| "C"g>e "Dm"f>d "Am"e>c "G7"d>B | "F"c>A "G7"G<c "C"E<C C |]
+%%center Book08/AyrshireLassies_C_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8117
+T: Braes of Atholl
+R: strathspey
+B: RSCDS 8-7
+B: Walsh's Country Dances, 1731
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+d2 \
+| "G"B4 A2G2 Bcd2 efg2 | B3A G2B2 "D7"AAA2 A2d \
+| "G"B4 A3G  Bcd2 e2B2 | "D7"A2F2 D2B2 "G"GGG2 G2 :|
+|: ef \
+| "G"g2d2 B2g2 d2g2 d2B2 | "Em"gfed B2g2 "D7"f4 A2ef \
+| "G"gfed B2g2 d2g2 d2B2 | "C"cBAG "D7"F2A2 "G"GGG2 G2 :|
+|: c2 \
+| "G"B2G2 B2G2 B2G2 Bcd2 | B2G2 Bcd2 g4 "D7"A4 \
+| "G"B2G2 B2G2 B2G2 Bcd2 | D4 "D7"D2B2 "G"GGG2 G2 :|
+|: B2 \
+| "G"G2g2 gfed "Bm"B2g2 gfed | "G"B2g2 z2g2 "D7"f4 A2ef \
+| "G"G2g2 gfed d2g2 d2B2 | "C"cBAG "D7"F2A2 "G"GGG2 G2 :|
+%%center Book08/BraesOfAtholl_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8118
+T: Braes of Atholl
+R: strathspey
+B: RSCDS 8-7
+B: Walsh's Country Dances, 1731
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+d2 \
+| "G"B4 A2G2 Bcd2 efg2 | B3A G2B2 "D7"AAA2 A2d \
+| "G"B4 A3G  Bcd2 e2B2 | "D7"A2F2 D2B2 "G"GGG2 G2 :|
+|: ef \
+| "G"g2d2 B2g2 d2g2 d2B2 | "Em"gfed B2g2 "D7"f4 A2ef \
+| "G"gfed B2g2 d2g2 d2B2 | "C"cBAG "D7"F2A2 "G"GGG2 G2 :|
+|: c2 \
+| "G"B2G2 B2G2 B2G2 Bcd2 | B2G2 Bcd2 g4 "D7"A4 \
+| "G"B2G2 B2G2 B2G2 Bcd2 | D4 "D7"D2B2 "G"GGG2 G2 :|
+|: B2 \
+| "G"G2g2 gfed "Bm"B2g2 gfed | "G"B2g2 z2g2 "D7"f4 A2ef \
+| "G"G2g2 gfed d2g2 d2B2 | "C"cBAG "D7"F2A2 "G"GGG2 G2 :|
+%%center Book08/BraesOfAtholl_G_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8119
+T: Braes of Atholl
+R: strathspey
+B: RSCDS 8-7
+B: Walsh's Country Dances, 1731
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+d2 \
+| "G"B4 A2G2 Bcd2 efg2 | B3A G2B2 "D7"AAA2 A2d \
+| "G"B4 A3G  Bcd2 e2B2 | "D7"A2F2 D2B2 "G"GGG2 G2 :|
+|: ef \
+| "G"g2d2 B2g2 d2g2 d2B2 | "Em"gfed B2g2 "D7"f4 A2ef \
+| "G"gfed B2g2 d2g2 d2B2 | "C"cBAG "D7"F2A2 "G"GGG2 G2 :|
+|: c2 \
+| "G"B2G2 B2G2 B2G2 Bcd2 | B2G2 Bcd2 g4 "D7"A4 \
+| "G"B2G2 B2G2 B2G2 Bcd2 | D4 "D7"D2B2 "G"GGG2 G2 :|
+|: B2 \
+| "G"G2g2 gfed "Bm"B2g2 gfed | "G"B2g2 z2g2 "D7"f4 A2ef \
+| "G"G2g2 gfed d2g2 d2B2 | "C"cBAG "D7"F2A2 "G"GGG2 G2 :|
+%%center Book08/BraesOfAtholl_G_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8120
+T: Country Dance
+R: reel
+B: RSCDS 8-3
+B: Nath. Gow's Dances for 1812
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A2 | "D"d3c edcB | A^GAB ABAF | DBAF DBAF |1 "A7"G2E2 E2 :|2 DBAF "A7"AGEF | "D"D2d2d2 :|
+f2 | "A7"efgf edce | "D"defg a2fa | "A7"ageg "D"gfdf |1 "A7"edef e3 :|2 "A7"edcB AA"d.C."Bc |]
+%%center Book08/CountryDance_8_3_D-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8121
+T: Country Dance
+R: reel
+B: RSCDS 8-3
+B: Nath. Gow's Dances for 1812
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A2 | "D"d3c edcB | A^GAB ABAF | DBAF DBAF |1 "A7"G2E2 E2 :|2 DBAF "A7"AGEF | "D"D2d2d2 :|
+f2 | "A7"efgf edce | "D"defg a2fa | "A7"ageg "D"gfdf |1 "A7"edef e3 :|2 "A7"edcB AA"d.C."Bc |]
+%%center Book08/CountryDance_8_3_D_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8122
+T: Country Dance
+R: reel
+B: RSCDS 8-3
+B: Nath. Gow's Dances for 1812
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A2 | "D"d3c edcB | A^GAB ABAF | DBAF DBAF |1 "A7"G2E2 E2 :|2 DBAF "A7"AGEF | "D"D2d2d2 :|
+f2 | "A7"efgf edce | "D"defg a2fa | "A7"ageg "D"gfdf |1 "A7"edef e3 :|2 "A7"edcB AA"d.C."Bc |]
+%%center Book08/CountryDance_8_3_D_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8123
+T: Duncan Davidson
+R: strathspey
+B: Kerr's
+B: RSCDS 8-2
+N: Alternative tune for Peggy's Love
+M: C
+L: 1/8
+K: D
+F \
+| "D"D>F A>B A<F A<d | "D"D>F "G"d>B "D"A<F "A7"E>F \
+| "D"D>F A>B A<F A>g | "A7"f>d e>f "D"d<d d :|
+g \
+| "D"f>e (3def "Em"g>f e>d | "A7"c<A e>A c>d e>g \
+| "D"f>e (3def "Em"g>f e>d | "A7"c>d e>g "D"f<d dg ||
+| "D"f>e (3def "Em"g>f e>d | "A7"c<A e>A c>d e>g \
+| "D"f<d "A7"g<e "D"a<f "G"b>g | "A7"f>d e>f "D"d<d d :|
+%%center Book08/DuncanDavidson_D.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8124
+T: Earl of Lauderdale
+B: RSCDS 8-3
+B: Gow's Collection
+N: Alternative tune for Calver Lodge
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+     D | "G"G2Bd "D7"cAFD | "G"GBdg    edcB | "Am"ceAc "G"BdGB | "D7"AcDF "G"G3 ||
+|::: d | "Em"gbeg "D"fadf | "C"egce "G"edcB | "Am"ceAc "G"BdGB | "D7"AcDF "G"G3 :::|
+%%center Book08/EarlOfLauderdale_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8125
+T: Earl of Lauderdale
+B: RSCDS 8-3
+B: Gow's Collection
+N: Alternative tune for Calver Lodge
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+   D | "G"G2Bd "D7"cAFD | "G"GBdg    edcB | "Am"ceAc "G"BdGB | "D7"AcDF "G"G3 :|
+|: d | "Em"gbeg "D"fadf | "C"egce "G"edcB | "Am"ceAc "G"BdGB | "D7"AcDF "G"G3 :|
+%%center Book08/EarlOfLauderdale_G16-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8126
+T: Earl of Lauderdale
+B: RSCDS 8-3
+B: Gow's Collection
+N: Alternative tune for Calver Lodge
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+   D | "G"G2Bd "D7"cAFD | "G"GBdg    edcB | "Am"ceAc "G"BdGB | "D7"AcDF "G"G3 :|
+|: d | "Em"gbeg "D"fadf | "C"egce "G"edcB | "Am"ceAc "G"BdGB | "D7"AcDF "G"G3 :|
+%%center Book08/EarlOfLauderdale_G16_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8127
+T: Earl of Lauderdale
+B: RSCDS 8-3
+B: Gow's Collection
+N: Alternative tune for Calver Lodge
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+     D | "G"G2Bd "D7"cAFD | "G"GBdg    edcB | "Am"ceAc "G"BdGB | "D7"AcDF "G"G3 ||
+|::: d | "Em"gbeg "D"fadf | "C"egce "G"edcB | "Am"ceAc "G"BdGB | "D7"AcDF "G"G3 :::|
+%%center Book08/EarlOfLauderdale_G_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8128
+T: Earl of Lauderdale
+B: RSCDS 8-3
+B: Gow's Collection
+N: Alternative tune for Calver Lodge
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+     D | "G"G2Bd "D7"cAFD | "G"GBdg    edcB | "Am"ceAc "G"BdGB | "D7"AcDF "G"G3 ||
+|::: d | "Em"gbeg "D"fadf | "C"egce "G"edcB | "Am"ceAc "G"BdGB | "D7"AcDF "G"G3 :::|
+%%center Book08/EarlOfLauderdale_G_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8129
+T: Harvest Home
+R: strathspey
+B: RSCDS 8-4
+B: Lowe's Collection
+Z: John Chambers <jc:trillian.mit.edu>
+N: Alternative tune for The Lover's Knot
+M: C
+L: 1/8
+K: F
+|: A \
+| "F"F<F A>F c>F A>F | "C7"C<C E>C G>C E>C \
+| "F"F<F A>F c>F A>F | "Bb"(3def "C7"(3gab "F"a<f f :|
+a \
+| "F"f<f a>f "C7"b>g "F"a>f | "Bb"d<b g>f "C7"e>d c>e \
+| "F"f<f a>f "C7"b>g "F"a>f | "Bb"d<b "C7"g>e "F"f2 F>c |
+| "F"f<f a>f "C7"b>g "F"a>f | "Bb"d<b g>f "C7"e>d c>e \
+| "F"(3fga "C7"gab "F"(3agf "Am"edc | "Bb"(3Bcd "C7"cde "F"(3fcB (3AGF |]
+%%center Book08/HarvestHome_F-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8130
+T: Harvest Home
+R: strathspey
+B: RSCDS 8-4
+B: Lowe's Collection
+Z: John Chambers <jc:trillian.mit.edu>
+N: Alternative tune for The Lover's Knot
+M: C
+L: 1/8
+K: F
+|: A \
+| "F"F<F A>F c>F A>F | "C7"C<C E>C G>C E>C \
+| "F"F<F A>F c>F A>F | "Bb"(3def "C7"(3gab "F"a<f f :|
+a \
+| "F"f<f a>f "C7"b>g "F"a>f | "Bb"d<b g>f "C7"e>d c>e \
+| "F"f<f a>f "C7"b>g "F"a>f | "Bb"d<b "C7"g>e "F"f2 F>c |
+| "F"f<f a>f "C7"b>g "F"a>f | "Bb"d<b g>f "C7"e>d c>e \
+| "F"(3fga "C7"gab "F"(3agf "Am"edc | "Bb"(3Bcd "C7"cde "F"(3fcB (3AGF |]
+%%center Book08/HarvestHome_F_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8131
+T: Harvest Home
+R: strathspey
+B: RSCDS 8-4
+B: Lowe's Collection
+Z: John Chambers <jc:trillian.mit.edu>
+N: Alternative tune for The Lover's Knot
+M: C
+L: 1/8
+K: F
+|: A \
+| "F"F<F A>F c>F A>F | "C7"C<C E>C G>C E>C \
+| "F"F<F A>F c>F A>F | "Bb"(3def "C7"(3gab "F"a<f f :|
+a \
+| "F"f<f a>f "C7"b>g "F"a>f | "Bb"d<b g>f "C7"e>d c>e \
+| "F"f<f a>f "C7"b>g "F"a>f | "Bb"d<b "C7"g>e "F"f2 F>c |
+| "F"f<f a>f "C7"b>g "F"a>f | "Bb"d<b g>f "C7"e>d c>e \
+| "F"(3fga "C7"gab "F"(3agf "Am"edc | "Bb"(3Bcd "C7"cde "F"(3fcB (3AGF |]
+%%center Book08/HarvestHome_F_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8132
+T: Jackson's Bottle of Claret
+B: RSCDS 8-5
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+   D \
+| "G"G2G "D7"AGA | "G"B2g gdB | "Am"c2{B}A "Em"BGE | "C"G>AG "D7"GED \
+| "G"G2G "D7"AGA | "G"B2g gdB | "Am"c2{B}A "Em"BGE | "C"G>AG "G"G2 :|
+|: f \
+| "Em"gfg     efg | "Bm"fdB B2f | "Em"gfg "A7"efg | "D"afd    d2f \
+| "Em"gfe "D7"agf | "Em"gfe edB | "Am"cBA "Em"BGE | "C"G>AG "G"G2 :|
+%%center Book08/JacksonsBottleOfClaret_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8133
+T: Jackson's Bottle of Claret
+B: RSCDS 8-5
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+   D \
+| "G"G2G "D7"AGA | "G"B2g gdB | "Am"c2{B}A "Em"BGE | "C"G>AG "D7"GED \
+| "G"G2G "D7"AGA | "G"B2g gdB | "Am"c2{B}A "Em"BGE | "C"G>AG "G"G2 :|
+|: f \
+| "Em"gfg     efg | "Bm"fdB B2f | "Em"gfg "A7"efg | "D"afd    d2f \
+| "Em"gfe "D7"agf | "Em"gfe edB | "Am"cBA "Em"BGE | "C"G>AG "G"G2 :|
+%%center Book08/JacksonsBottleOfClaret_G_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8134
+T: Jackson's Bottle of Claret
+B: RSCDS 8-5
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+   D \
+| "G"G2G "D7"AGA | "G"B2g gdB | "Am"c2{B}A "Em"BGE | "C"G>AG "D7"GED \
+| "G"G2G "D7"AGA | "G"B2g gdB | "Am"c2{B}A "Em"BGE | "C"G>AG "G"G2 :|
+|: f \
+| "Em"gfg     efg | "Bm"fdB B2f | "Em"gfg "A7"efg | "D"afd    d2f \
+| "Em"gfe "D7"agf | "Em"gfe edB | "Am"cBA "Em"BGE | "C"G>AG "G"G2 :|
+%%center Book08/JacksonsBottleOfClaret_G_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8135
+T: The Lass o' Livingston
+R: reel
+B: RSCDS 8-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+N: Allan Ramsay's Music to Tea-Table Miscellany, 1726, and earlier
+N: From Gow's Repository, Part IV, 1824
+M: C|
+L: 1/8
+K: F
+|: "C7"C2 \
+| "F"F3G A2f2 | cAcd cAGF | "C7"A2G2 G2FG | A2G2 G2FD | "F"CDFG A2fd | cAGF GABc |
+| "Bb"d2D2 D2(3CDE | "Dm"F2D2 D2 :: "C7"(3cde | "F"f3g fgag | fcdf cAGF | "C7"A2G2 G2FG |
+| "C7"A2G2 G2 fg | "F"afga fcdf | cAGF GABc | "Bb"d2D2 D2(3CDE | "Dm"F2D2 D2 :|
+%%center Book08/LassOLivingstonR-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8136
+T: The Lass o' Livingston
+R: reel
+B: RSCDS 8-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+N: Allan Ramsay's Music to Tea-Table Miscellany, 1726, and earlier
+N: From Gow's Repository, Part IV, 1824
+M: C|
+L: 1/8
+K: F
+|: "C7"C2 \
+| "F"F3G A2f2 | cAcd cAGF | "C7"A2G2 G2FG | A2G2 G2FD | "F"CDFG A2fd | cAGF GABc |
+| "Bb"d2D2 D2(3CDE | "Dm"F2D2 D2 :: "C7"(3cde | "F"f3g fgag | fcdf cAGF | "C7"A2G2 G2FG |
+| "C7"A2G2 G2 fg | "F"afga fcdf | cAGF GABc | "Bb"d2D2 D2(3CDE | "Dm"F2D2 D2 :|
+%%center Book08/LassOLivingstonR_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8137
+T: The Lass o' Livingston
+R: reel
+B: RSCDS 8-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+N: Allan Ramsay's Music to Tea-Table Miscellany, 1726, and earlier
+N: From Gow's Repository, Part IV, 1824
+M: C|
+L: 1/8
+K: F
+|: "C7"C2 \
+| "F"F3G A2f2 | cAcd cAGF | "C7"A2G2 G2FG | A2G2 G2FD | "F"CDFG A2fd | cAGF GABc |
+| "Bb"d2D2 D2(3CDE | "Dm"F2D2 D2 :: "C7"(3cde | "F"f3g fgag | fcdf cAGF | "C7"A2G2 G2FG |
+| "C7"A2G2 G2 fg | "F"afga fcdf | cAGF GABc | "Bb"d2D2 D2(3CDE | "Dm"F2D2 D2 :|
+%%center Book08/LassOLivingstonR_F-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8138
+T: The Lass o' Livingston
+R: reel
+B: RSCDS 8-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+N: Allan Ramsay's Music to Tea-Table Miscellany, 1726, and earlier
+N: From Gow's Repository, Part IV, 1824
+M: C|
+L: 1/8
+K: F
+|: "C7"C2 \
+| "F"F3G A2f2 | cAcd cAGF | "C7"A2G2 G2FG | A2G2 G2FD | "F"CDFG A2fd | cAGF GABc |
+| "Bb"d2D2 D2(3CDE | "Dm"F2D2 D2 :: "C7"(3cde | "F"f3g fgag | fcdf cAGF | "C7"A2G2 G2FG |
+| "C7"A2G2 G2 fg | "F"afga fcdf | cAGF GABc | "Bb"d2D2 D2(3CDE | "Dm"F2D2 D2 :|
+%%center Book08/LassOLivingstonR_F_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8139
+T: The Lass o' Livingston
+R: reel
+B: RSCDS 8-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+N: Allan Ramsay's Music to Tea-Table Miscellany, 1726, and earlier
+N: From Gow's Repository, Part IV, 1824
+M: C|
+L: 1/8
+K: F
+|: "C7"C2 \
+| "F"F3G A2f2 | cAcd cAGF | "C7"A2G2 G2FG | A2G2 G2FD | "F"CDFG A2fd | cAGF GABc |
+| "Bb"d2D2 D2(3CDE | "Dm"F2D2 D2 :: "C7"(3cde | "F"f3g fgag | fcdf cAGF | "C7"A2G2 G2FG |
+| "C7"A2G2 G2 fg | "F"afga fcdf | cAGF GABc | "Bb"d2D2 D2(3CDE | "Dm"F2D2 D2 :|
+%%center Book08/LassOLivingstonR_F_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8140
+T: The Lass o' Livingston
+R: reel
+B: RSCDS 8-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+N: Allan Ramsay's Music to Tea-Table Miscellany, 1726, and earlier
+N: From Gow's Repository, Part IV, 1824
+M: C|
+L: 1/8
+K: F
+|: "C7"C2 \
+| "F"F3G A2f2 | cAcd cAGF | "C7"A2G2 G2FG | A2G2 G2FD | "F"CDFG A2fd | cAGF GABc |
+| "Bb"d2D2 D2(3CDE | "Dm"F2D2 D2 :: "C7"(3cde | "F"f3g fgag | fcdf cAGF | "C7"A2G2 G2FG |
+| "C7"A2G2 G2 fg | "F"afga fcdf | cAGF GABc | "Bb"d2D2 D2(3CDE | "Dm"F2D2 D2 :|
+%%center Book08/LassOLivingstonR_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8141
+T: Link Him Dodie
+R: strathspey
+B: RSCDS 8-4
+D: Gow's 1st Collection
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+"A"\
+|: "A"Ae e>d c<A c2 | "G"B=g g>d B<=G B<d \
+| "A"A/B/c/d/ e>A c<A c2 | "E7"A<a g<b "A"a<A c<e :|
+"B"\
+| "A"a/g/f/e/ c>a e>a c2 | "G"B=g g>d B<=G B<g \
+| "A"a/g/f/e/ c<a e<a c<a | "F#m"A<a c<a "E7"ec c<e ||
+| "A"a/g/f/e/ "D"f>d "A"e>d c2 | "G"B=g g>d B<=G B<d \
+| "A"A/B/c/d/ e>A c<A c2 | "E7"A<a g<b "A"a<A c<e |]
+%%center Book08/LinkHimDodie-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8142
+T: Link Him Dodie
+R: strathspey
+B: RSCDS 8-4
+D: Gow's 1st Collection
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+"A"\
+|: "A"Ae e>d c<A c2 | "G"B=g g>d B<=G B<d \
+| "A"A/B/c/d/ e>A c<A c2 | "E7"A<a g<b "A"a<A c<e :|
+"B"\
+| "A"a/g/f/e/ c>a e>a c2 | "G"B=g g>d B<=G B<g \
+| "A"a/g/f/e/ c<a e<a c<a | "F#m"A<a c<a "E7"ec c<e ||
+| "A"a/g/f/e/ "D"f>d "A"e>d c2 | "G"B=g g>d B<=G B<d \
+| "A"A/B/c/d/ e>A c<A c2 | "E7"A<a g<b "A"a<A c<e |]
+%%center Book08/LinkHimDodie_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8143
+T: Link Him Dodie
+R: strathspey
+B: RSCDS 8-4
+D: Gow's 1st Collection
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+"A"\
+|: "A"Ae e>d c<A c2 | "G"B=g g>d B<=G B<d \
+| "A"A/B/c/d/ e>A c<A c2 | "E7"A<a g<b "A"a<A c<e :|
+"B"\
+| "A"a/g/f/e/ c>a e>a c2 | "G"B=g g>d B<=G B<g \
+| "A"a/g/f/e/ c<a e<a c<a | "F#m"A<a c<a "E7"ec c<e ||
+| "A"a/g/f/e/ "D"f>d "A"e>d c2 | "G"B=g g>d B<=G B<d \
+| "A"A/B/c/d/ e>A c<A c2 | "E7"A<a g<b "A"a<A c<e |]
+%%center Book08/LinkHimDodie_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8144
+T: Little Peggy's Love
+C: William Marshall
+R: strathspey
+B: RSCDS 8-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Published as Lady Louisa Gordon't Strathspey in 1781.
+M: 4/4
+L: 1/8
+K: A
+|: A \
+| "A"E<A A>B "F#m"c>B c<A | "Bm"F<B B>c "E7"d2 de \
+| "D"f<a "A"e>c "Bm"B>A "E7"B<c | "A"E>A "E7"G>B "A"A2- "fine"A :|
+|| e \
+| "A"a>g a<c' "E7"a>g a<c' | "B7"a>b a>c' "E"b3 c' \
+| "A"a>e e>c "D"d>d' c'>b | "A"a>f e>c "E7"B2- "d.C."B |]
+%%center Book08/LittlePeggysLove_A-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8145
+T: Little Peggy's Love
+C: William Marshall
+R: strathspey
+B: RSCDS 8-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Published as Lady Louisa Gordon't Strathspey in 1781.
+M: 4/4
+L: 1/8
+K: A
+|: A \
+| "A"E<A A>B "F#m"c>B c<A | "Bm"F<B B>c "E7"d2 de \
+| "D"f<a "A"e>c "Bm"B>A "E7"B<c | "A"E>A "E7"G>B "A"A2- "fine"A :|
+|| e \
+| "A"a>g a<c' "E7"a>g a<c' | "B7"a>b a>c' "E"b3 c' \
+| "A"a>e e>c "D"d>d' c'>b | "A"a>f e>c "E7"B2- "d.C."B |]
+%%center Book08/LittlePeggysLove_A_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8146
+T: Little Peggy's Love
+C: William Marshall
+R: strathspey
+B: RSCDS 8-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Published as Lady Louisa Gordon't Strathspey in 1781.
+M: 4/4
+L: 1/8
+K: A
+|: A \
+| "A"E<A A>B "F#m"c>B c<A | "Bm"F<B B>c "E7"d2 de \
+| "D"f<a "A"e>c "Bm"B>A "E7"B<c | "A"E>A "E7"G>B "A"A2- "fine"A :|
+|| e \
+| "A"a>g a<c' "E7"a>g a<c' | "B7"a>b a>c' "E"b3 c' \
+| "A"a>e e>c "D"d>d' c'>b | "A"a>f e>c "E7"B2- "d.C."B |]
+%%center Book08/LittlePeggysLove_A_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8147
+T: Little Peggy's Love
+C: William Marshall
+R: strathspey
+B: RSCDS 8-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Published as Lady Louisa Gordon't Strathspey in 1781.
+M: 4/4
+L: 1/8
+K: D
+|: D \
+| "D"A,<D D>E "Bm"F>E F<D | "Em"B,<E E>F "A7"G2 GA \
+| "G"B<d "D"A>F "Em"E>D "A7"E<F | "D"A,>D "A7"C>E "D"D2- "fine"D :|
+|| A \
+| "D"d>c d<f "A7"d>c d<f | "E7"d>e d>f "A"e3 f \
+| "D"d>A A>F "G"G>g f>e | "D"d>B A>F "A7"E2- "d.C."E |]
+%%center Book08/LittlePeggysLove_D-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8148
+T: Little Peggy's Love
+C: William Marshall
+R: strathspey
+B: RSCDS 8-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Published as Lady Louisa Gordon't Strathspey in 1781.
+M: 4/4
+L: 1/8
+K: D
+|: D \
+| "D"A,<D D>E "Bm"F>E F<D | "Em"B,<E E>F "A7"G2 GA \
+| "G"B<d "D"A>F "Em"E>D "A7"E<F | "D"A,>D "A7"C>E "D"D2- "fine"D :|
+|| A \
+| "D"d>c d<f "A7"d>c d<f | "E7"d>e d>f "A"e3 f \
+| "D"d>A A>F "G"G>g f>e | "D"d>B A>F "A7"E2- "d.C."E |]
+%%center Book08/LittlePeggysLove_D_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8149
+T: Little Peggy's Love
+C: William Marshall
+R: strathspey
+B: RSCDS 8-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Published as Lady Louisa Gordon't Strathspey in 1781.
+M: 4/4
+L: 1/8
+K: D
+|: D \
+| "D"A,<D D>E "Bm"F>E F<D | "Em"B,<E E>F "A7"G2 GA \
+| "G"B<d "D"A>F "Em"E>D "A7"E<F | "D"A,>D "A7"C>E "D"D2- "fine"D :|
+|| A \
+| "D"d>c d<f "A7"d>c d<f | "E7"d>e d>f "A"e3 f \
+| "D"d>A A>F "G"G>g f>e | "D"d>B A>F "A7"E2- "d.C."E |]
+%%center Book08/LittlePeggysLove_D_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8150
+T: Little Peggy's Love
+C: William Marshall
+R: strathspey
+B: RSCDS 8-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Published as Lady Louisa Gordon't Strathspey in 1781.
+M: 4/4
+L: 1/8
+K: F
+A \
+| "F"C<F F>G "Dm"A>G A<F | "Gm"D<G G>A "C7"B2 Bc \
+| "Bb"d<f "F/A"c>A "Gm"G>F "C7"G<A | "F"C>F "C7"E>G "F"F2- "fine"F :|
+c \
+| "F"f>e f<a "C7"f>e f<a | "Dm"f>g f>a "G7"g3 a \
+| "F"f>c c>A "Bb"B>b a>g | "F"f>d c>A "C7"G2- "d.C."G |]
+%%center Book08/LittlePeggysLove_F-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8151
+T: Little Peggy's Love
+C: William Marshall
+R: strathspey
+B: RSCDS 8-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Published as Lady Louisa Gordon't Strathspey in 1781.
+M: 4/4
+L: 1/8
+K: F
+A \
+| "F"C<F F>G "Dm"A>G A<F | "Gm"D<G G>A "C7"B2 Bc \
+| "Bb"d<f "F/A"c>A "Gm"G>F "C7"G<A | "F"C>F "C7"E>G "F"F2- "fine"F :|
+c \
+| "F"f>e f<a "C7"f>e f<a | "Dm"f>g f>a "G7"g3 a \
+| "F"f>c c>A "Bb"B>b a>g | "F"f>d c>A "C7"G2- "d.C."G |]
+%%center Book08/LittlePeggysLove_F_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8152
+T: Little Peggy's Love
+C: William Marshall
+R: strathspey
+B: RSCDS 8-2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Published as Lady Louisa Gordon't Strathspey in 1781.
+M: 4/4
+L: 1/8
+K: F
+A \
+| "F"C<F F>G "Dm"A>G A<F | "Gm"D<G G>A "C7"B2 Bc \
+| "Bb"d<f "F/A"c>A "Gm"G>F "C7"G<A | "F"C>F "C7"E>G "F"F2- "fine"F :|
+c \
+| "F"f>e f<a "C7"f>e f<a | "Dm"f>g f>a "G7"g3 a \
+| "F"f>c c>A "Bb"B>b a>g | "F"f>d c>A "C7"G2- "d.C."G |]
+%%center Book08/LittlePeggysLove_F_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8153
+T: Major Mole
+R: strathspey
+B: Kerr's
+B: RSCDS 8-1
+N: Alternate tune for Tullochgorm
+M: C
+L: 1/8
+K: Ador
+|: "Am"A<e e>d c>d B>c | A<e e>d "Em"c2 B<c | "Am"A<e e>f g>f g>e | "G"d>B G>B "E(m)"e>d c>B :|
+|: "Am"A<E E2  A>E c>E | A<E E>E "Em"c2 B<c | "Am"A<E E>E e>f g>e | "G"d>B G>B "E(m)"e>d c>B :| "Am"A4 |]
+%%center Book08/MajorMole_Am.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8154
+T: Old Rosin the Beau
+R: jig
+B: RSCDS 8-5
+N: Alternative tune for The River Cree
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"A>GA cBA | e3 "D"f3 | "A"e>cA     ABc | "D"F3 "E7"F2E \
+| "A"A>GA cBA | e3 "D"f3 | "A"e>cA "E7"BAG | "A"A3     A2 :|
+|: c/d/ \
+| "A"ece  efg | "D"a2f  a2f | "A"e>cA "F#m"ABc | "Bm"F3 "E7"F2E \
+| "A"A>GA cBA |    e3 "D"f3 | "A"e>cA  "E7"BAG |  "A"A3     A2 :|
+%%center Book08/OldRosinTheBeau_A-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8155
+T: Old Rosin the Beau
+R: jig
+B: RSCDS 8-5
+N: Alternative tune for The River Cree
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"A>GA cBA | e3 "D"f3 | "A"e>cA     ABc | "D"F3 "E7"F2E \
+| "A"A>GA cBA | e3 "D"f3 | "A"e>cA "E7"BAG | "A"A3     A2 :|
+|: c/d/ \
+| "A"ece  efg | "D"a2f  a2f | "A"e>cA "F#m"ABc | "Bm"F3 "E7"F2E \
+| "A"A>GA cBA |    e3 "D"f3 | "A"e>cA  "E7"BAG |  "A"A3     A2 :|
+%%center Book08/OldRosinTheBeau_A_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8156
+T: Old Rosin the Beau
+R: jig
+B: RSCDS 8-5
+N: Alternative tune for The River Cree
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"A>GA cBA | e3 "D"f3 | "A"e>cA     ABc | "D"F3 "E7"F2E \
+| "A"A>GA cBA | e3 "D"f3 | "A"e>cA "E7"BAG | "A"A3     A2 :|
+|: c/d/ \
+| "A"ece  efg | "D"a2f  a2f | "A"e>cA "F#m"ABc | "Bm"F3 "E7"F2E \
+| "A"A>GA cBA |    e3 "D"f3 | "A"e>cA  "E7"BAG |  "A"A3     A2 :|
+%%center Book08/OldRosinTheBeau_A_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8157
+T: The Rock and the Wee Pickle Tow
+T: Montrose's March
+O: Playford 1663, 1669
+R: jig
+B: RSCDS 8-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Playford as "A Scottish March" 1663 and "Montrose's March" 1669
+N: As "The Rock and the wee pickle tow" in Mitchell's "Highland Fair" 1731 and later.
+M: 6/8
+L: A
+K: A
+E \
+| "A"E>FA Bce | "D"f>ec "E7"B2e/d/ | "A"cAB "E7"c2B | "A"(cA)A A2F \
+| "A"E>FA Bce | "D"f<ac "E7"B2e/d/ | "F#m"cAB "E7"c2B | "A"cAA A2 :|
+|: a \
+| "D"f>fa "E7"efg | "D"agf "E7"fec | "A"e>fe "E7"efg | "D"agf "A"e2c \
+| "Bm"d>cd "E7"efg | "A"aec "E7"B2g | "F#m"aAB "E7"c2B | "A"cAA A2 :|
+%%center Book08/RockAndWeePickleTowJ-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8158
+T: The Rock and the Wee Pickle Tow
+T: Montrose's March
+O: Playford 1663, 1669
+R: jig
+B: RSCDS 8-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Playford as "A Scottish March" 1663 and "Montrose's March" 1669
+N: As "The Rock and the wee pickle tow" in Mitchell's "Highland Fair" 1731 and later.
+M: 6/8
+L: A
+K: A
+E \
+| "A"E>FA Bce | "D"f>ec "E7"B2e/d/ | "A"cAB "E7"c2B | "A"(cA)A A2F \
+| "A"E>FA Bce | "D"f<ac "E7"B2e/d/ | "F#m"cAB "E7"c2B | "A"cAA A2 :|
+|: a \
+| "D"f>fa "E7"efg | "D"agf "E7"fec | "A"e>fe "E7"efg | "D"agf "A"e2c \
+| "Bm"d>cd "E7"efg | "A"aec "E7"B2g | "F#m"aAB "E7"c2B | "A"cAA A2 :|
+%%center Book08/RockAndWeePickleTowJ_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8159
+T: The Rock and the Wee Pickle Tow
+T: Montrose's March
+O: Playford 1663, 1669
+R: jig
+B: RSCDS 8-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Playford as "A Scottish March" 1663 and "Montrose's March" 1669
+N: As "The Rock and the wee pickle tow" in Mitchell's "Highland Fair" 1731 and later.
+M: 6/8
+L: A
+K: A
+E \
+| "A"E>FA Bce | "D"f>ec "E7"B2e/d/ | "A"cAB "E7"c2B | "A"(cA)A A2F \
+| "A"E>FA Bce | "D"f<ac "E7"B2e/d/ | "F#m"cAB "E7"c2B | "A"cAA A2 :|
+|: a \
+| "D"f>fa "E7"efg | "D"agf "E7"fec | "A"e>fe "E7"efg | "D"agf "A"e2c \
+| "Bm"d>cd "E7"efg | "A"aec "E7"B2g | "F#m"aAB "E7"c2B | "A"cAA A2 :|
+%%center Book08/RockAndWeePickleTowJ_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8160
+T: Steer her up and had her gaun
+R: reel
+B: Gow's Collection
+B: RSCDS 8-6
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+fe \
+| "D"d2d2 f3e | defg a2 AG | F2A2 BAGF | "A7"E2E2 c3e \
+| "D"d2d2 f3e | defg a2ga | "G"bagf "A7"edec | "D"d2 D4 :|
+|: fe \
+| "D"d2A2 F3A | dAGA GFED | "C"e2 =c4 E=F | GFED =C2 fe \
+| "D"d2A2 F3A | DEFG A2gf | "G"efgf "A7"ecAc | "D"d2 D4 :|
+%%center Book08/SteerHerUpAndHadHerGaun_D-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8161
+T: Steer her up and had her gaun
+R: reel
+B: Gow's Collection
+B: RSCDS 8-6
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+fe \
+| "D"d2d2 f3e | defg a2 AG | F2A2 BAGF | "A7"E2E2 c3e \
+| "D"d2d2 f3e | defg a2ga | "G"bagf "A7"edec | "D"d2 D4 :|
+|: fe \
+| "D"d2A2 F3A | dAGA GFED | "C"e2 =c4 E=F | GFED =C2 fe \
+| "D"d2A2 F3A | DEFG A2gf | "G"efgf "A7"ecAc | "D"d2 D4 :|
+%%center Book08/SteerHerUpAndHadHerGaun_D_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8162
+T: Steer her up and had her gaun
+R: reel
+B: Gow's Collection
+B: RSCDS 8-6
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+fe \
+| "D"d2d2 f3e | defg a2 AG | F2A2 BAGF | "A7"E2E2 c3e \
+| "D"d2d2 f3e | defg a2ga | "G"bagf "A7"edec | "D"d2 D4 :|
+|: fe \
+| "D"d2A2 F3A | dAGA GFED | "C"e2 =c4 E=F | GFED =C2 fe \
+| "D"d2A2 F3A | DEFG A2gf | "G"efgf "A7"ecAc | "D"d2 D4 :|
+%%center Book08/SteerHerUpAndHadHerGaun_D_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8163
+T: Tibby Fowler O'er the Glen
+R: strathspey
+B: RSCDS 8-11
+N: Allan Ramsay's Music to Tea-Table Miscellany 1726 and earlier.
+N: Gow's Repository, Part I, 1799.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+B \
+| "Am"A/A/A A>B "G"G>A Bd | "Am"eA A>B "G"d/c/B/A/ G>B \
+| "Am"A/A/A A>B "G"G>A Bd | "Am"eA A>B "Em"GE E :|
+|| a \
+| "C"ge e>g "G"d>e dB | "C"ge e>g "Am"a>b "Em"g>e \
+| "G"d>e "(Em)"g>b "C"e>g "(E7)"e/d/c/B/ | "Am"eA A>B "Em"GE E ||
+|| a \
+| "C"ge e>g "G"d>e dB | "C"ge "Am"e>a "Em"g>b "Am"ae \
+| "Em"g>b e>g "G"d>g B>d | "Am"eA A>B "Em"GE E |]
+%%center Book08/TibbyFowlerOTheGlenS-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8164
+T: Tibby Fowler O'er the Glen
+R: strathspey
+B: RSCDS 8-11
+N: Allan Ramsay's Music to Tea-Table Miscellany 1726 and earlier.
+N: Gow's Repository, Part I, 1799.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+B \
+| "Am"A/A/A A>B "G"G>A Bd | "Am"eA A>B "G"d/c/B/A/ G>B \
+| "Am"A/A/A A>B "G"G>A Bd | "Am"eA A>B "Em"GE E :|
+|| a \
+| "C"ge e>g "G"d>e dB | "C"ge e>g "Am"a>b "Em"g>e \
+| "G"d>e "(Em)"g>b "C"e>g "(E7)"e/d/c/B/ | "Am"eA A>B "Em"GE E ||
+|| a \
+| "C"ge e>g "G"d>e dB | "C"ge "Am"e>a "Em"g>b "Am"ae \
+| "Em"g>b e>g "G"d>g B>d | "Am"eA A>B "Em"GE E |]
+%%center Book08/TibbyFowlerOTheGlenS_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8165
+T: Tibby Fowler O'er the Glen
+R: strathspey
+B: RSCDS 8-11
+N: Allan Ramsay's Music to Tea-Table Miscellany 1726 and earlier.
+N: Gow's Repository, Part I, 1799.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+B \
+| "Am"A/A/A A>B "G"G>A Bd | "Am"eA A>B "G"d/c/B/A/ G>B \
+| "Am"A/A/A A>B "G"G>A Bd | "Am"eA A>B "Em"GE E :|
+|| a \
+| "C"ge e>g "G"d>e dB | "C"ge e>g "Am"a>b "Em"g>e \
+| "G"d>e "(Em)"g>b "C"e>g "(E7)"e/d/c/B/ | "Am"eA A>B "Em"GE E ||
+|| a \
+| "C"ge e>g "G"d>e dB | "C"ge "Am"e>a "Em"g>b "Am"ae \
+| "Em"g>b e>g "G"d>g B>d | "Am"eA A>B "Em"GE E |]
+%%center Book08/TibbyFowlerOTheGlenS_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8166
+T: Tullochgorum
+O: Trad.
+R: strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+N: A highly variable tune, in most old Scottish collections.
+N: First known publication by Robert Bremner, 1757.
+N: RSCDS 8-1
+N: Wm. Campbell's Eleventh Book, 1796
+N: Allan's p.15
+N: BSFC I-58
+N: Caledonian Companion, p.109.
+N: Carlin, #226.
+N: H&C p.68
+N: Hardie p.109
+N: Mel Bay 137
+N: OTDT p.69
+N: SV p.26 (lots of variations)
+N: Skye p.87 (with variation)
+D: Harvey Tolman on his tape
+M: 4/4
+L: 1/8
+K: GMix
+|: c/ \
+| "G"B<G d>G "F"c<F A2 | "G"B<G d>G B>c d<g \
+| "G"B<G d>G "F"c<F A>c | "G"B<G d>G "D"A/B/c B> :|
+[| A \
+| "G"G>g d>e "F"f>F A2 | "G"G>g d<g B<g d<g \
+| "G"G>g d>e "F"f>F A2 | "G"G>g d<g "D"A/B/c B>A ||
+|| "G"G>g d>e "F"f>F A2 | "G"G>g d<g "F"f>g a>f \
+| a/g/f/e/ f>d c<F A<a | "G(m)"g>d g>_b "C"e<g "D"d> |]
+%%center Book08/Tullochgorum_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8167
+T: Tullochgorum
+O: Trad.
+R: strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+N: A highly variable tune, in most old Scottish collections.
+N: First known publication by Robert Bremner, 1757.
+N: RSCDS 8-1
+N: Wm. Campbell's Eleventh Book, 1796
+N: Allan's p.15
+N: BSFC I-58
+N: Caledonian Companion, p.109.
+N: Carlin, #226.
+N: H&C p.68
+N: Hardie p.109
+N: Mel Bay 137
+N: OTDT p.69
+N: SV p.26 (lots of variations)
+N: Skye p.87 (with variation)
+D: Harvey Tolman on his tape
+M: 4/4
+L: 1/8
+K: GMix
+|: c/ \
+| "G"B<G d>G "F"c<F A2 | "G"B<G d>G B>c d<g \
+| "G"B<G d>G "F"c<F A>c | "G"B<G d>G "D"A/B/c B> :|
+[| A \
+| "G"G>g d>e "F"f>F A2 | "G"G>g d<g B<g d<g \
+| "G"G>g d>e "F"f>F A2 | "G"G>g d<g "D"A/B/c B>A ||
+|| "G"G>g d>e "F"f>F A2 | "G"G>g d<g "F"f>g a>f \
+| a/g/f/e/ f>d c<F A<a | "G(m)"g>d g>_b "C"e<g "D"d> |]
+%%center Book08/Tullochgorum_G_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 8168
+T: Tullochgorum
+O: Trad.
+R: strathspey
+Z: John Chambers <jc:trillian.mit.edu>
+N: A highly variable tune, in most old Scottish collections.
+N: First known publication by Robert Bremner, 1757.
+N: RSCDS 8-1
+N: Wm. Campbell's Eleventh Book, 1796
+N: Allan's p.15
+N: BSFC I-58
+N: Caledonian Companion, p.109.
+N: Carlin, #226.
+N: H&C p.68
+N: Hardie p.109
+N: Mel Bay 137
+N: OTDT p.69
+N: SV p.26 (lots of variations)
+N: Skye p.87 (with variation)
+D: Harvey Tolman on his tape
+M: 4/4
+L: 1/8
+K: GMix
+|: c/ \
+| "G"B<G d>G "F"c<F A2 | "G"B<G d>G B>c d<g \
+| "G"B<G d>G "F"c<F A>c | "G"B<G d>G "D"A/B/c B> :|
+[| A \
+| "G"G>g d>e "F"f>F A2 | "G"G>g d<g B<g d<g \
+| "G"G>g d>e "F"f>F A2 | "G"G>g d<g "D"A/B/c B>A ||
+|| "G"G>g d>e "F"f>F A2 | "G"G>g d<g "F"f>g a>f \
+| a/g/f/e/ f>d c<F A<a | "G(m)"g>d g>_b "C"e<g "D"d> |]
+%%center Book08/Tullochgorum_G_JC.abc

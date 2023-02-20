@@ -1,0 +1,72 @@
+
+X: 1
+T: Iag Bari    [G]
+T: The Big Longing
+R: \vco\vcek
+O: Romanian Roma
+S: 2017 DEFFA Folk Band collection
+D: Fanfare Cioc\uarlia "Le Bal des Tziganes" album
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The C part has an extra measure.
+M: 4/4
+L: 1/8
+P: ABCB ABCB solos CBA
+K: _A_e=B	% G hijaz
+"A"|:\
+"G"BcBc d4 | BcBc d4 | z2fe d2c2 | decd B4 |\
+"Fm"GAGA B4 | GAGA B4 | z2fe d2cd | "G"BcAB "^Fine"G4 :|
+"B"|:\
+"G"B2c2 d4 | B2c2 d4 | zd2e d2c2 | e2d2 c2 B2 |\
+"Fm"A2B2 c4 | A2B2 c4 | c2e2 d2c2 | "G"B2A2 G4 :|
+"C"|:\
+"(G)"G GAB cde=e | "Fm"z2f_e f2e2 | f2f2 d4 | "Cm"z2ed e2d2 |\
+e2e2 c4 | "G"z2dc d2c2 | d2d2 B4 | "Fm"c2c2 B2A2 :| "G"G6 z2 |]
+%%text Repeat B.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Iag Bari    [A]
+T: The Big Longing
+R: \vco\vcek
+O: Romanian Roma
+S: 2017 DEFFA Folk Band collection
+D: Fanfare Cioc\uarlia "Le Bal des Tziganes" album
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The C part has an extra measure.
+M: 4/4
+L: 1/8
+P: ABCB ABCB solos CBA
+K: _B^c	% A hijaz
+"A"|:\
+"A"cdcd e4 | cdcd e4 | z2gf e2d2 | efde c4 |\
+"Gm"ABAB c4 | ABAB c4 | z2gf e2de | "A"cdBc "^Fine"A4 :|
+"B"|:\
+"A"c2d2 e4 | c2d2 e4 | ze2f e2d2 | f2e2 d2 c2 |\
+"Gm"B2c2 d4 | B2c2 d4 | d2f2 e2d2 | "A"c2B2 A4 :|
+"C"|:\
+"(A)"A ABc def^f | "Gm"z2g=f g2f2 | g2g2 e4 | "Dm"z2fe f2e2 |\
+f2f2 d4 | "A"z2ed e2d2 | e2e2 c4 | "Gm"d2d2 c2B2 :| "A"A6 z2 |]
+%%text Repeat B.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Iag Bari
+F: http://www.allthelyrics.com/lyrics/fanfare_ciocarlia/iag_bari-lyrics-1236994.html
+F: https://www.lyrics.com/lyric/9912353
+D: Fanfare Ciocãrlia "Le Bal des Tziganes" album
+K:
+W: Iag Bari, Iag Bari    Tu de mange me mo gi
+W: Tu mudar me dui iaga  Ri co tuce incarman
+W:
+W: Refrain:
+W: Te maraman lasa   To dole ogesa
+W: Te gule ustesa    Aptar me mo gi
+W:
+W: S-ar celes s-ar diles   Li andar co gi roves
+W: Sostar mandar mudares   Sostar mandar barvares
+W:
+W: Refrain

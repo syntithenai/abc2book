@@ -1,0 +1,13 @@
+X:1
+T:Riff City
+C:John Goodin
+R:Reel
+M:C|
+L:1/8
+K:GDor
+%%printtempo 0
+Q:180
+"Gm"G2 GF GFDC|DFDC D2|"C"C2B,G, CB,G,|CG,B,2G,4|
+"Gm"G2 GF GFDC|DFDC D2|"C"c2BG FDF2|"Gm"G8::
+"Gm"d2 "F/G"c2-c2 "Gm"d2|BcBF G4|G,B,CD FDAB|"Dm"AGF2D4|
+"Gm"d2 "F/G"c2-c2 "Gm"d2|BcBF G4|"C"c2BG FDF2|"Gm"G8:|

@@ -1,0 +1,34 @@
+
+X: 1
+T: Bar'chu
+C: Ben Siegel
+M: 4/4
+L: 1/8
+Q: "Lively" 1/4=104
+K: Dm
+[|"Dm"F>E DE FG "Gm"DG | "Dm"F6 z2 | "Dm"F>E DE FG "C7"AB | "F"A6 z2 |
+w: La la la . . . | la.  La la la . . . | la.
+w: Ba-_______ruch A-_____do-nai.
+| "Dm"A2 FA "Eb"G2 G2 | "Gm"G2 DG "Dm"F2 F2 | "Bb"F>E DE "Gm"FG DG | "Dm"F6 z2 |
+w: La la . . . | | La la . . . | la.
+w: ha-_m'-vo-rach, ha-_m'-vo-rach l'-_o-_lam_ va-_ed,
+|  "F"A2 FA "Eb"G2 G2 | "Gm"G2 DG "Dm"F2 F2 | "Bb"F>E DE FA "C"G2 | "Dm"D4 "fine"z2 DF |
+w: La la . . . | | | la. Ba-r'-
+w: ha-_m'-vo-rach, ha-_m'-vo-rach l'-_o-_lam_ va-ed. Ba-r'-
+| "Dm"A4 A2 GF | "Gm"GA G6 | "Bb"D2 FA "C"G2 FE | "Dm"D6 z2 |]
+w: chu et A-do-nai__ ha-_m'-vo-__rach.
+
+
+%%sep 3 1 500
+
+X: 2
+T: Bar'chu
+C: Ben Siegel
+M: 4/4
+L: 1/8
+Q: "Lively" 1/4=104
+K: Em
+[|"Em"G>F EF GA "Am"EA | "Em"G6 z2 | "Em"G>F EF GA "D7"Bc | "G"B6 z2 |
+| "Em"B2 GB "F"A2 A2 | "Am"A2 EA "Em"G2 G2 | "C"G>F EF "Am"GA EA | "Em"G6 z2 |
+|  "G"B2 GB "F"A2 A2 | "Am"A2 EA "Em"G2 G2 | "C"G>F EF GB "D"A2 | "Em"E4 "ginf"z2 EG |
+| "Em"B4 B2 AG | "Am"AB A6 | "C"E2 GB "D"A2 GF | "Em"E6 z2 |]

@@ -1,0 +1,21 @@
+X: 10902
+T: ONE KIND KISS BEFORE WE PART.
+Q: "Very slow, and with much feeling."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.90 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A4 AGFG | A4 z2A2 | B4 BdcB | B2A2 z4 |\
+A4 AGFG | A4 z2de | f4 fede | "^Fin."d8 H:|\
+f2a2 (3(agf) (3(edc) | d4 A4 | B2d2 cBAG | {G}F4 z4 |
+A6 F2 | F6 A2 | A4 AFEF | E4 z4 |\
+d4 dgfe | {g}f4 z2e2 | f4 fbag | a4 agfe |\
+defe dcBA | Bcdc BAGF | F4 AFGE | D4 "^D.C."z4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

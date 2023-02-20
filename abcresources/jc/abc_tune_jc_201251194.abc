@@ -1,0 +1,16 @@
+X:42
+T:The Beau's Retreat
+%%MIDI gchord fcHcfc
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=100
+M:3/2
+L:1/4
+C:John Young, 1728
+K:Am
+P:A
+|: "Am"A2Ec"Dm"BA | "Em"GE2D"E7"CB, | "Am"A,A2B"Dm"cd | "Am"eA"Dm"cB/A/"E7"^GE |\
+"Am"A2Ec"Dm"BA | "Em"GE2D"E7"CB, | "Am"CE"Dm"DF"Am"Ee | "E7"^GE2G"Am"A2 :|
+P:B
+|: "C"e2cgfe | "G"dB"Am"cB/A/"Em"GE | "Am"AGABcd | "C"ed/c/"G7"B/c/d/B/"C"c2 |\
+"C"e2"G"d2"Dm"f2 | "C"e2"Am"a2"E7"^g2 | "Am"e2AB/c/"Dm"d/c/B/A/ | "E7"^GE2G"Am"A2 :|

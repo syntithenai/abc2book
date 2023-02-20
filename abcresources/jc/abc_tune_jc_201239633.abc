@@ -1,0 +1,16 @@
+X: 3342
+T: Roaring Jelly.   a Jig.
+%R: jig
+B: Niel Gow & Sons "Complete Repository" v.3 p.34 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+  A, | D>ED F2A | ~d2f ecA | G2B F2A | E2F GFE | D>ED F2A | ~d2f ecA | ~Bgf edc | d3 d2 :|
+|: a | ~a2f ~f2d | A2a agf | ~g2e ~e2c | A2g gfe | f2d g2e | a2f bag | fed edc | d3 d2 :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z | d3 d3 | d3 A3 | c3 d3 | A3 A3 | d3 d3 | d3 A3 | G3 A3 | D3 d2 :|
+|: z | d3 d'3 | d'3 d'3 | A3 a3 | a3 a3 | d3 e3 | f3 g3 | a3 A3 | D3 D2 :|

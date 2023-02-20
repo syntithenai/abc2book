@@ -1,0 +1,27 @@
+X: 10192
+T: the HILLS OF GLENURCHIE
+Q: "Slow."
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.19 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The alternate form of bar 4 is shown in-line with smaller note heads, which ABC can't represent.
+M: 6/8
+L: 1/8
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+B2E EFE | BAB d2B | AFD DED | "1)"AFA d2A |\
+B2E EFE | BAB d2e | dBd AFD | EFE E2 :|
+B |\
+e>fe edB | efg gfe | d>ed dAB | d>ef fed |\
+e>fe edB | efg gfe | dBd AFD | EFE E2 
+B |\
+efe edB | efg gfe | d>ed dAB | def fed |\
+gbg faf | ege BeB | dBd AFD | EFE E2 |]
+y6 | "1)"FDF A2d |
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Tannahill's song, "The Kebbuckston Wedding," is sung to this air.
+%%endtext
+%%sep 1 1 300

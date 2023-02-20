@@ -1,0 +1,75 @@
+
+X: 1
+T: Hopak
+T: Kasatske
+O: trad Russia
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/16
+K: G
+|: "G"g4 B2d2 | "D7"cBcA B2G2 | "G"D2G2 B2d2 | "D7"cBcA B2G2 \
+| "G"gfg2  B2d2 | "D7"cBcA B2G2 | "G"D2G2 B2d2 | "D7"dcBA "G"G4 :|
+K: C
+|: "C"G2c2 e4 | "G7"defd "C"e4 | g2g2 "F"a2a2 | "G7"gfed "C"e2c2 \
+| G2c2 e4 | "G7"defd "C"e4 | g2g2 "F"a2a2 | "G7"gfed "C"c4 :|
+
+
+X: 1
+T: Hopak
+T: Kasatske
+O: trad Russia
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/16
+K: C
+|: "C"c4 E2G2 | "G7"FEFD E2C2 | "C"G,2C2 E2G2 | "G7"FEFD E2C2 \
+| "C"cBc2  E2G2 | "G7"FEFD E2C2 | "C"G,2C2 E2G2 | "G7"GFED "C"C4 :|
+K: F
+|: "F"C2F2 A4 | "C7"GABG "F"A4 | c2c2 "Bb"d2d2 | "C7"cBAG "F"A2F2 \
+| C2F2 A4 | "C7"GABG "F"A4 | c2c2 "Bb"d2d2 | "C7"cBAG "F"F4 :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Hopa Hopa
+O: Croatia
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: F
+P: F/C:
+[| "F"[cA]z [A2F2] | "C7"[BG]z [G2E2] \
+| "F"[AF]z [F2-C2-] | "C7"[FC][BG] [AF][GE] \
+| "F"[AF]z [F2-C2-] | "C7"[FC][BG] [AF][GE] \
+| "F"[AF][BG] [c2A2] | [dB][cA] "G7"[BG][AF] | "C"[G4E4C4] |]
+K: C
+[| "C"[ge]z [e2c2] | "G7"[fd]z [d2B2] \
+| "C"[ec]z [c2-G2-] | "G7"[cG][fd] [ec][dB] \
+| "C"[ec]z [c2-G2-] | "G7"[cG][fd] [ec][dB] \
+| "C"[ec][fd] [g2e2] | [af][ge] "D7"[fd][ec] | "G"[d4B4G4] |]
+%%sep 10 10 200
+P: G/D:
+K: G
+[| "G"[dB]z [B2G2] | "D7"[cA]z [A2F2] \
+| "G"[BG]z [G2-D2-] | "D7"[GD][cA] [BG][AF] \
+| "G"[BG]z [G2-D2-] | "D7"[GD][cA] [BG][AF] \
+| "G"[BG][cA] [d2B2] | [ec][dB] "A7"[cA][BG] | "D"[A4F4D4] |]
+K: D
+[| "D"[af]z [f2d2] | "A7"[ge]z [e2c2] \
+| "D"[fd]z [d2-A2-] | "A7"[dA][ge] [fd][ec] \
+| "D"[fd]z [d2-A2-] | "A7"[dA][ge] [fd][ec] \
+| "D"[fd][ge] [a2f2] | [bg][af] "E7"[ge][fd] | "A"[e4c4A4] |]
+%%sep 10 10 200
+P: A/E:
+K: A
+[| "A"[ec]z [c2A2] | "E7"[dB]z [B2G2] \
+| "A"[cA]z [A2-E2-] | "E7"[AE][dB] [cA][BG] \
+| "A"[cA]z [A2-E2-] | "E7"[AE][dB] [cA][BG] \
+| "A"[cA][dB] [e2c2] | [fd][ec] "B7"[dB][cA] | "E"[B4G4E4] |]
+K: E
+[| "E"[bg]z [g2e2] | "B7"[af]z [f2d2] \
+| "E"[ge]z [e2-B2-] | "B7"[eB][af] [ge][fd] \
+| "E"[ge]z [e2-B2-] | "B7"[eB][af] [ge][fd] \
+| "E"[ge][af] [b2g2] | [c'a][bg] "F7"[af][ge] | "B"[f4d4B4] |]

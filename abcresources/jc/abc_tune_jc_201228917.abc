@@ -1,0 +1,24 @@
+X: 11783
+T: a DREAM O' MEMORIE
+C: Copyright.
+Q: "Slow with feeling."
+%R: air, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.178 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Final note in bar 4 changed from 8th to quarter note to agree with pickups to bars 1, 9, and 13.
+N: Dot added to last note in bar 9 to fix the rhythm; perhaps the a note should be lengthened instead.
+M: C
+L: 1/8
+K: G
+d2 |\
+(d3c) (BA)(GF) | G2B2 c3B |\
+e3d c2(de) | d4 z2f2 |\
+(g2f2 e2)B2 | c3d A2GF |\
+G2e2 d2c2 | {c2}B4 z2 |]
+d2 |\
+g3e af3 | (g2d2) c3B |\
+c2e2 a3g | {g2}f4 z2g2 |\
+e2c2 A2B2 | c2(de) d3c |\
+(B2A2 G2)F2 | G4 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

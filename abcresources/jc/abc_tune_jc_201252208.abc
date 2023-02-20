@@ -1,0 +1,385 @@
+X: 1
+T:Bidford Town Morris, (Morris On), JG (CJS MSS ex Ferris)
+M:6/8
+L:1/8
+Q:100
+S:Bacon (JG (CJS MSS ex Ferris))
+A:Bidford
+P:A.(AB)8
+K:C
+P:A
+cBc d2B|cBA  GAB|c2G AGF|E3 C3::
+P:B
+DEF E2C|DEF E2C|c2G AGF|E3 C3:|
+
+X: 2
+T:Morris Off, CJS(MSS) & JG  ad lib
+M:4/4
+L:1/8
+S:Bacon (CJS (MSS) \& JG)
+A:Bidford
+P:A8
+K:DMix
+Bc|d2d2 d2e2|d6c2|B2G2 G2A2|F4D4 |\
+B2G2 G2A2|B2G2 G2A2|B2G2 G2A2|F4D2 ||
+
+X: 3
+T:Shepherds' Hey,  Ferris - 'Shepherds' Aid'
+M:4/4
+L:1/8
+Q:120
+S:Ferris - Shepherds' Aid
+R:Hornpipe
+A:Bidford
+P:A2(AB)6A
+K:G
+P:A
+c|B>cd>B c2c2  |B>cd>B A2A2|B>cd>B c2Bc|d2D2 G3A||
+P:B
+B2G2   c2>>A2|B2G2   A4  |B>cd>B c2Bc|d2D2 G3||
+
+X: 4
+T:Shepherds' Hay, JG (via Shakespeare MM)
+M:4/4
+L:1/8
+Q:120
+S:JG
+R:Reel
+A:Bidford
+P:A2(AB)6A
+K:G
+P:A
+FGAF G2G2|FGAF E2E2|FGAF G2FG|A2A,2 D3A||
+P:B
+F2D2 G3E |F2D2 E4  |FGAF G2FG|A2A,2 D3A||
+
+X: 5
+T:Shepherds' Aye, CJS (via Shakespeare MM)
+M:4/4
+L:1/8
+Q:120
+S:CJS
+A:Bidford
+P:A2(AB)6A
+K:G
+P:A
+BcdB c2(3cdc|BcdB A2D2|BcdB c2Bc|d2D2 G3A||
+P:B
+B2G2 c3A    |B2G2 A4  |BcdB c2Bc|d2D2 G3z||
+
+X: 6
+T:Constant Billy, CJS
+M:6/8
+L:1/8
+S:CJS
+A:Bidford
+P:A(AB2)4
+K:F
+P:A
+C|F2c AGA|B2G GEC|A2F D2F|CDE  F2:|
+P:B
+z|B2c dBG|A2B cAF|B2c dBG|GA=B c2(3C/D/E/|
+F2c AGA|B2G GEC|A2F D2F|CDE  F2||
+
+X: 7
+T:Constant Billy, JG
+M:6/8
+L:1/8
+S:JG
+A:Bidford
+P:A(AB2)4
+K:D
+P:A
+|:D2A FEF|G2E ECA,|F2D B,2D|A,B,C D3:|
+P:B
+G2A BGE|F2G AFD |G2A BGE |EF^G  A3|
+D2A FEF|G2E ECA,|F2D B,2D|A,B,C D3|
+
+X: 8
+T:Old Woman Tossed Up, CJS (JG's version is similar)
+M:6/8
+L:1/8
+Q:1/4=120
+A:Bidford
+P:A(AB2)4A
+K:Bb
+P:A
+  F>GA Bcd|efe dcB|edc cfe|dcB AGF|
+  F>GA Bcd|efe dcB|edc cfe|dcB B3|
+P:B
+  cde cde|cde f3|fgf fgf|b2d dcB|
+  F>GA Bcd|efe dcB|edc cfe|dcB B3||"@alt B4"c'2d dcB|
+
+X: 9
+T:Old Woman Tossed Up, Ferris
+M:6/8
+L:1/8
+Q:1/4=100
+A:Bidford
+P:A2B6A2
+K:F
+P:A
+|:C|FGA Bcd|ceB AGF|BAB GcB|AFF F2:|
+P:B
+f|def def|dgf edc|cAc cAc|dcB A2G|
+FGA Bcd|ceB AGF|BAB GcB|AFF F2||
+
+X: 10
+T:Brighton Camp, JG
+M:4/4
+L:1/8
+Q:1/4=120
+A:Bidford
+P:A(AB2)4A
+K:G
+P:A
+gf|e2dc B2A2|B2G2 E3 F|G2G2 GABc|d4 B2gf|
+e2dc B2A2|B2G2 E3 G|F2A2 D2EF|G4 G3||
+P:B
+F|G2B2 d2ef|g2d2 B2GA|B2d2 e2f2|g4 f2gf|
+e2dc B2A2|B2G2 E3 G|F2A2 D2EF|G4 G3||
+
+X: 11
+T:Abraham Brown, JG
+M:6/8
+L:1/8
+Q:100
+S:Bacon (JG)
+A:Bidford
+P:A(AB)4A
+N:
+K:D
+P:A
+A|dcB A2d | g2f e3  | fga A2A | B3 d2 ::!
+P:B
+z|d2f a2f | b2f a2f | d2f a2f | b3 a3 |\
+b2g efg | a2f d2A | def A2A | B3 d2 :||
+
+X: 12
+T:Abraham Brown, Ferris
+M:6/8
+L:1/8
+Q:1/4=100
+S:Ferris
+A:Bidford
+P:A.(AB)4.AA
+Z:VRH 05/03/0
+K:G
+P:A
+GFE D2D|c2B A3 |Bcd D2D|E3 G3:|
+P:B
+G2A B2c|d2d d2G|G2A B2c|d3 B2B|
+e2e d2B|c2B A2G|GAB D2D|E3 G3 ||
+
+X: 13
+T:We Won't Go Home, CJS
+M:6/8
+L:1/8
+Q:6/8=200
+A:Bidford
+P:A(AB3)2A2DC6
+K:G
+P:A
+G/A/|B2B BAB|c2c BcB|A2A AGA|B2A GDG|
+B2B BAB|c2d efg|d2c B2A|G3  G2 ||
+P:B
+G/A/|d2B e2B|d3-d GB|d2B e2B|d3-d GA|
+B2B BAB|c2c BcB|A2A AGA|B2A GDG|
+B2B BAB|c2d efg|d2c B2A|G3  G2 ||
+P:C
+M:4/4
+L:1/8
+GB|d2d2 d2ed|c2c2 c2AB|c2c2 c2dc|B2G2 G2AB|
+cBAG F2A2|dcBA G2d2|edcB AGFD|G2G2 GABc||
+"@alt C 7-8 (JG)"edcB AGFA|G2G2 G2||
+
+X: 14
+T:The Cuckoo's Nest, Ferris
+M:4/4
+L:1/8
+Q:1/8=100
+S:Ferris
+A:Bidford
+K:G
+GB|d2dd d2ed|cA3A3B|c2cc c2dB|B2G2 G3G|
+AGFE D2Bc|dcBA G2AB|AGFE D2FG|FDD||
+
+
+X: 15
+T:Princes(s) Royal, (or Cross Caper), JG
+M:4/4
+L:1/8
+Q:1/4=120
+S:JG
+R:Hornpipe
+A:Bidford
+P:A.(A2BC3)4.AA
+K:G
+P:A
+d>c|B>cA>B G2d>c|B>cA>B G2c>d|e2e>d c2e2|d2d>c B2d2|
+c2B2 A2G2|F>GA>F D2d>c|B>dB>G A2D2|G4 G2||
+P:B
+zd|e2d2 e2f2|g2G>G G2A>B|c2B2 A2G2|F2E2 D4|
+D>EF>G A2A2|B2d2 g4|f2d2 e4|d2G2 c4|
+B2A2 G2B2|A>GF>E D2d>c|B>dB>G A2D2|G4 G2||
+P:C
+d>c|B>cA>B G2d>c|\
+M:5/4
+L:1/8
+B>cA>B G2d3d|\
+M:4/4
+e4 e3d|c4 e4|d4  d3c|B4 d4|
+c4 B4 |A4 G4|F3G A3F|\
+M:3/4
+L:1/8
+D4d>c|\
+M:4/4
+B>dB>G A2D2|G4 G2||
+
+
+X: 16
+T:Princes(s) Royal, (or Cross Caper), CJS
+M:4/4
+L:1/8
+Q:1/4=120
+S:CJS
+A:Bidford
+P:A.(A2BC3)4
+K:G
+P:A
+d>c|B<cA<B  G2d>c|B<cA<B G2cd|e2ed   c2e2|d2dc B2d2|
+c2(3BcB A2G2 |F>GA>F D2dc|B<dB<G A2D2|G4   G2 ||
+P:B
+d2|e2d2     e2f2|g2GG   G2AB|c2B2   A2G2|F2E2 D4  |
+DEFG     A2A2|B2d2   g3g |f2d2   e3e |d2G2 c3c |
+B2A2     G2B2|AGFE   D2dc|BdBG   A2D2|G4   G2 ||
+P:C
+z|d3c      Bc3 |AB3    G4  |d3c    Bc3 |AB3  G4  |
+c2d2     e4  |e2d2   c4  |e4     d4  |d2c2 B3d |
+c2(3BcB  A2G2|F>GA>F D2dc|B<dB<G A2D2|G4   G2 ||
+
+X: 17
+T:Bluff King Hal, CJS
+M:4/4
+L:1/8
+Q:1/4=120
+S:CJS
+A:Bidford
+P:A.(ABC)14
+K:D
+P:A
+|:A2d2 B2c2|d2cB A2Bc|d2cB A2GF|EDEF D4:|!
+P:B
+|:FGAB A2GF|EDEF D4  |FGAB A2GF|EDEF D4:|!
+P:C
+|:F2F2 C2C2|DEFG A2Bc|d2cB A2GF|EDEF D4:||
+
+X: 18
+T:We Won't Go Home, JG (See Cuckoo's Nest, No 14)
+M:6/8
+L:1/8
+Q:1/8=240
+S:JG
+A:Bidford
+P:A.(A)6.(C)5(6)
+K:G
+GA|B2B BAB|c3B2B|A2A AGA|B3G2G|B2B BAB|c2d e2e|d2c B2A|G3G2||
+
+X: 19
+T:Devil Among Ye Tailors, Bidford
+M:4/4
+L:1/8
+Q:1/4=150
+A:Bidford
+P:A.(AB)3C
+K:G
+P:A
+Bd^cd Bdcd|Bd^cd ed=cB|ce^de cede |ce^de fe=dc|
+Bd^cd Bdcd|Bd^cd ed=cB|edcB  AGFE |D2F2  G4||
+P:B
+dgfg  dgfg|dgfg  edcB|ea^ga  ea^ga|ea^ga =gfed|
+dgfg  dgfg|dgfg  edcB|edcB   AGFE |D2F2  G4||
+P:C
+Q:1/4=170
+dgfg  dgfg|dgfg  edcB|ea^ga  ea^ga|ea^ga =gfed|
+dgfg  dgfg|dgfg  edcB|edcB   AGFE |.D2.F2 .G4||
+
+X: 20
+T:Morning Star, Bidford, Shakespeare MM
+M:4/4
+L:1/8
+A:Bledington
+P:A(AB)4
+K:G
+P:A
+|:BcBG E2FG|ABAF D2GA|BcBA E2AF|D2G2 G4:|
+P:B
+|:B2B2 d2d2|egfe dcBA|GAGc d2d2|efge d4 |
+  B2Bc d2d2|egfe dBG2|ABcA FGAF|D2G2 G4:|
+
+X: 21
+T:Morris Off, CJS(MSS) & JG See above, Shakespeare MM version?
+M:4/4
+L:1/8
+S:Bacon (CJS (MSS) \& JG)
+A:Bidford
+P:A8
+K:DMix
+P:A
+z2|DCDE DCDE|D2B,CD4|B,A,B,A, G,B,A,G,|F,2E,F, D,4|
+B,A,B,A, G,2A,2|B,A,B,A, G,2A,2|B,A,B,A, G,B,A,G,|F,2E,F, D,4||
+
+X: 22
+T:Old Woman Tossed Up, Shakespeare MM version or transposition of CJS JG?
+M:6/8
+L:1/8
+Q:1/4=120
+A:Bidford
+P:A(AB2)4A
+K:G
+P:A
+|:DEF GAB|cdc BAG|cBA Adc|1BAG FED:|2BAG G3||
+P:B
+  ABc ABc|ABc d3 |ded ded| g2d B2A|
+  DEF GAB|cdc BAG|cBA Adc| BAG G3||
+
+X: 23
+T:Princess Royal, Shakespeare MM
+M:4/4
+L:1/8
+Q:1/4=120
+S:Shakespeare Morris Men
+A:Bidford
+P:A.(A2BC3)4.AA
+Z:vrh 05/03/0
+K:G
+P:A
+dc|BcAB G2dc|BcAB G2d2|e2ed cde2|d2dc B2d2|
+c2B2 A2G2|FGAF D2dc|BdBG AcAF|G4   G2 ||
+P:B
+d2|e2d2 e2f2|g2GG G2AB|c2B2 A2G2|F2E2 D4 |
+DEFG A2A2|B2d2 g3g |f2d2 e3e |d2B2 c3c|
+c2B2 A2G2|FGAF D2dc|BdBG AcAF|G4   G2||
+P:C
+dc|B3c  A3B |G4   d2c2|B3c  A3B |G4   d4 |
+e4{g}e2d2|c4   e4  |d4{g}d2c2|B4   d4 |
+c2B2 A2G2|FGAF D2dc|BdBG AcAF|G4   G2||
+
+X: 24
+T:Wooden Shoon, Bidford, Shakespeare MM
+M:4/4
+L:1/8
+Q:1/4=120
+A:Bidford
+P:A(AB)4AC
+K:C
+P:A
+gf|e2dc dcBA|G6gf| e2c2 c2d2|e2c2 c2de|
+f2fg agfe|d2g2 g2ag|^f2d2 g2f2|g2G2 G2||
+P:B
+g2|g2fe defg|a2f2 f2e2|c2c2 A2d2|B2G2 G2e2|
+A2B2 c4|B2c2 d4|
+d2e2 f4|e2f2 g4|agfe defg|e2c2 c2 ||
+P:C
+g2|g2fe defg|a2f2 f2e2| c2c2 A2d2|B2G2 G2e2|
+ABc2 Bcd2|def2 efg2| agfe defg|e2c2 c4 ||

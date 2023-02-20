@@ -1,0 +1,29 @@
+X: 301
+T: COUNTESS OF BREADALBANE
+C: M. Mc DONALD
+R: Reel
+B: Glen Collection p.30 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Bb
+%
+V: 1
+d |\
+B2BF DB,FD | EC c=B cGGc | B2BF DB,FD | ECFE DB,B, :|
+f |\
+dBfB bgfB | dBfB Acce | dBfB bgfB | Fcec dBBf |
+dBfB bgfB | dBfB Acce | dBcA BGFE | Dgfe dBB |]
+%
+V: 2
+z |\
+B2[b2d2] [f2d2][b2d2] | c2[g2e2] [g2e2][g2e2] |\
+B2[b2d2] [f2d2][b2d2] | [a2f2][a2f2] [b2B2][fdB] :|
+z |\
+B2[d'2b2] [e'2b2][d'2b2] | B2[d'2b2] [c'2f2][a2f2] |\
+B2[d'2b2] [e'2b2][d'2b2] | f2F2 B2[d'2b2] |
+B2[d'2b2] [e'2b2][d'2b2] | B2[d'2b2] [c'2f2][a2f2] |\
+[b2f2][e'2f2] [d'2b2][c'2a2] | b2[a2f2] [b2B2][bfdB] |]

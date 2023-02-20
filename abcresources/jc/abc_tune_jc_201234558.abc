@@ -1,0 +1,25 @@
+X: 20601
+T: GO TELL HER I LOVE HER
+Q: "Andante"
+%R: _
+B: "Edinburgh Repository of Music" v.2 p.60
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 clef=treble
+A2 |\
+d2(e>f) (ge) za | d2(e>d) (dc) zA |\
+a2(f>d') (c'b) zg | (g/f/)(b/a/) (a>c) d2 (d>c) |\
+(cBA) g (g3f) | f2e^g a2bc' |
+f2d'>c' c'ba^g | a2e>f g2a2 |\
+Hb6 a>g | g2(g/f/a/g/) (fe) zA |\
+d2f>a bd' zg | (g/f/b/a/) a>c d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=treble
+F2 |\
+F2(A>d) c2 zG | F2(G>F) (FE) z2 | f2(d>f) g2 ze |
+(e/d/)(g/f/) (e>G) F2F2 | (G2F) d (e3d) | d2cd c2BA | d2f>e edcB |
+c2c>d e2f2 | Hg6 f>e | e2(e/d/f/d/) (dc) zG | F2d>f gb ze | (e/d/g/f/) e>G F2 |]

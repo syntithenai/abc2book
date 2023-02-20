@@ -1,0 +1,34 @@
+X: 186
+T: the Old Captain
+T: Longways &c.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.93
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed to agree with the dance's strains.
+M: 6/4
+L: 1/4
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2d ^c2A | d2d e3 | f2f e2c | f2f g3 |\
+a2a b2a | a2g a3 | f2g aga | g2f f3 :|
+|:\
+a2f a2b | a2g g3 | e2c dfc | B2A A3 |\
+^c2A d2f | f2g a3 | f2e f2d | g2a b3 |\
+f2g a>gf | e2d d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First four go back from your partners, and meet
+%% again, 1st Man and 2d Wo. change places, 1st Wo.
+%% and 2d Man change, then change both with your
+%% own .| As much with the next, and so to all :|
+%% 1st four take hands and go round, 1st Cu. meet,
+%% slip down between the 2d, and turn S. do thus
+%% to the last, the rest following .| 1st two Men hands
+%% and change places, We. as much, take right hands
+%% across and go round do thus to the last, the rest
+%% following :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

@@ -1,0 +1,52 @@
+X: 1
+T: Road to the Isles
+T: the Bens of Jura
+T: the Burning Sands of Egypt
+C: John MacLellan (1891)
+N: also attributed to Kenneth MacLeod
+O: Scotland
+%date 1891
+M: 4/4
+Z: John Chambers <jc:trillian.mit.edu>
+N: Often played with repeats.
+L: 1/8
+K: G
+D>G \
+| "G"B4 d>B A>B | "C"G>A G>F E2 G>F \
+| E<C E>F "G"G>A B<d | "Am"A4- "D7"A2D>G |
+y4 \
+| "G"B4 d>B A>B | "C"G>A G>F E2 c2 \
+|"G"B<d B>G "D7"D>F A>F | "G-C-G"G6 |]
+B>c \
+| "G"d>D ~D2 B>D ~D2 | "C"G>A G>F E2 G>F \
+| E<C E>F "G"G>A B<d | "Am"A4- "D7"A2B>c |
+y4 \
+| "G"d>D ~D2 B>D ~D2 | "C"G>A G>F E2 c2 \
+|"G"B<d B>G "D7"D>F A>F | "G-C-G"G6 |]
+%%sep 5 5 200
+
+X: 2
+T: Road to the Isles
+T: the Bens of Jura
+T: the Burning Sands of Egypt
+C: John MacLellan (1891)
+N: also attributed to Kenneth MacLeod
+O: Scotland
+%date 1891
+M: 4/4
+Z: John Chambers <jc:trillian.mit.edu>
+N: Often played with repeats.
+L: 1/8
+K: D
+A>d \
+| "D"f4 a>f e>f | "G"d>e d>c B2 d>c \
+| B<G B>c "D"d>e f<a | "Em"e4- "A7"e2A>d |
+y4 \
+| "D"f4 a>f e>f | "G"d>e d>c B2 g2 \
+|"D"f<a f>d "A7"A>c e>c | "D-G-D"d6 |]
+f>g \
+| "D"a>A ~A2 f>A ~A2 | "G"d>e d>c B2 d>c \
+| B<G B>c "D"d>e f<a | "Em"e4- "A7"e2f>g |
+y4 \
+| "D"a>A ~A2 f>A ~A2 | "G"d>e d>c B2 g2 \
+|"D"f<a f>d "A7"A>c e>c | "D-G-D"d6 |]

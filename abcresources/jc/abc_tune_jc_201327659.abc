@@ -1,0 +1,5503 @@
+%%font Helvetica-Narrow-Bold
+#include "RightHeader.h"
+% ---------- set 1 ----------
+% Westfork Gals (D) / Planxty George Brabazon (G) / Swinging on a Gate (G)
+%%topspace -.75cm
+%%textfont       Times-Bold 13.0
+%%text Set 1
+%%textfont       Times-Roman 7.0
+%%scale .76
+X: 1
+T: Westfork Girls (R-31)
+I: Westfork Girls	R-31	D	reel
+M: C|
+R: reel
+K: D
+"D"fgfe d2ef| "G"g2g2 B4| "A"efed c2A2| ABAG "D"F2D2|
+"D"fgfe d2ef| "G"g2g2 B4| "A"efed c2A2| ABc2 "D"d4 :|
+|:"D"ABAG F2A2|    d2d2 F3A| "A"G2F2 E3F| G2F2 E4|
+"A"efed cABc| "D"d2A2 F2A2| d2d2 "A"efg2| "D"f2d2 d4 :|
+
+%%topspace 0cm
+X: 2
+T: Planxty George Brabazon (Carolan; R-24)
+I: Planxty George Brabazon	R-24	G	reel
+M: C|
+R: reel
+K: G
+ge| "G"d2G2 cBAG| d2G2 cBAG| "Am"e2A2 ABcd| e2A2 "D7"ABcd|
+    "G"edcB "C"g2fe| "G"edcB cBAG| BAGE "D"DEGA| "G"B2G2 G2 :|
+|:ga| "G"b2gb "B"a2fa| "Em"g2eg edcB| "Am"e2A2 ABcd| "D7"e2A2 A2ga|
+    "G"b2gb "B"a2fa| "Em"g2eg edcB| "Am"cBAG "D7"DEGA| "G"B2G2 G2 :|
+
+X: 3
+T: Swinging on a Gate (R-35)
+I: Swinging on a Gate	R-35	G	reel
+M: C|
+R: reel
+K: G
+"G"gedB G2AB| "Am"cABG AGEG| "G"DGBd g2g2| "D"fgag fdef|
+"G"gedB G2AB| "Am"cABG AGEG| "C"cABG "Am"AGEG| "D"DGGF "G"G2d2 :|
+|:"G"gfga bagf| "Em"gfed B2AG| "Am"EAAB cBAG| EAAB "D"cdef|
+"G"gfga bagf| "Em"gfed edBd| "Am"cABG "C"AGEG| "D"DGGA "G"G4 :|
+%%text 10/21/98
+
+#include "LeftHeader.h"
+% ----------set 2 ----------
+% Rakes of Mallow (G) / Scollay's Reel (Em) / Hughie Shortie's  (G)
+%%topspace -.75cm
+%%textfont       Times-Bold 13.0
+%%text Set 2
+%%textfont       Times-Roman 7.0
+%%scale .64
+X: 1
+T: The Rakes of Mallow (R-3)
+I: Rakes of Mallow, The	R-3	G	reel
+I: Marlow	R-3	G	reel
+M: C|
+R: polka
+K: G
+(3DEF| "G"G2B2 G2B2| G2B2 cBAG| "D"F2A2 F2A2| F2A2 dcBA|
+       "G"G2B2 G2B2| G2B2 d3B| "C"cBAG "D7"FGAc| "G"B2G2 G2 :|
+|:(3def| "G"g2fe d2c2| B2c2 d3B| g2fe d2c2| B2d2 "D"A3d|
+       "G"g2fe d2c2| B2c2 d3B| "C"cBAG "D7"FGAc| "G"B2G2 G2 :|
+
+%%topspace 0
+X: 2
+T: Scollay's Reel (R-19; AKA King of the Fairies)
+I: Scollay's Reel	R-19	Em	reel
+I: King of the Fairies	R-19	Em	reel
+M: C|
+R: reel
+K: Em
+"Em"E3F G3A| BcBA GEGA| B2E2 EFG2| "D"FGAF D2F2|
+"Em"E3F G3A| BcBA GEGA| B3c "B7"BAFA| "Em"G2E2 E4 :|
+|:"Em"efge B2B2| g2g2 B4| "Am"c2BA "Em"G2G2| "D"FGAF D3F|
+"Em"E3F G3A| BABd e2d2| B3c "B7"BAFA| "Em"G2E2 E4 :|
+
+X: 3
+T: Hughie Shortie's Reel
+I: Hughie Shortie's Reel	R-98	G	reel
+%%musicspace	0.2cm
+C: Johnny Wilmot
+M: C|
+R: reel
+K: G
+"G"G2BG "D"cAFA| "G"GABd g2fg| "C"ecAc "G"dBGB| "Am"cAAB "D"AFD2|
+"G"DGBG "D"cAFA| "G"GABd g2fg| "C"ecAc "G"dBGB| "D"cAFA "G"G4 :|
+"G"g2dg bgag| "C"ec c/c/c "Am"efge| "G"dB B/B/B "Em"dBGB| "C"cAAB "D"AFD2|
+"G"g2dg bgag| "C"ec c/c/c efge| "G"dB B/B/B "C"dBGB| "D"cAGF "G"G4|
+"G"g2dg bgag| "C"ec c/c/c "Am"efge| "G"dB B/B/B "Em"dBGB| "C"cAAB "D"AFD2|
+"C"G,CEC "G"B,DdB| "D"cdef "G"g2fg| "C"ecAc "G"dBGB| "D"cAFA "G"G4|]
+%%text Roaring Jelly  R-98
+%%text 08/29/98
+
+#include "RightHeader.h"
+% ---------- set 3 ----------
+% Joys of Quebec(A) / Gaspe Reel(D) / Eddie's Reel(G)
+%%topspace -.75cm
+%%text Set 3
+%%textfont Times-Roman 8.0
+%%scale .7
+X: 1
+T: Joys of Quebec (R-41)
+I: Joys of Quebec	R-41	A	reel
+M: C|
+R: reel
+K: A
+ee| "A"eccc c2ee| eccc c2ee| fAeA dAcA| "E7"dBBB B2dd|
+    "E7"dBBB B2dd| dBBc B2(3Bcd| |1 "E7"e2ee gfeg| "A"fe^df e2 :|2                                     "E7"e2ee fefg| "A"a6 |]
+|:(3ABc| "A"[A4e4] "D"[A4f4]| "A"[e3A3][fA] [A2e2]AB|        "A"[c4e4] "D"[d4f4]| "A"[c3e3]d [c2e2]Ac|
+       "A"B2A2 G2A2| "E7"B3c B2Bc|1 d2e2 gfeg| "A"fe^df e2 :|2                                 "E7"d2e2 fefg| "A"afec A2 |]
+
+%%topspace 0
+$SmallLMargin
+$SmallRMargin
+X: 2
+T: Gasp\'e Reel (R-30 with modifications)
+M: 4/4
+L: 1/8
+R: reel
+K: D
+"D"!upbow![fA] z2 !upbow!((3f/g/f/ e2)d2|z!upbow!AFA "D#dim"B2A2|"Em"!downbow![g2B2]z!upbow!gf2e!downbow!(A|"A"B)ABc ((3BdB)A2|
+"D"!downbow!f2((3fgf) e2d2|AAFA "D#dim"((3BdB)A2|"Em"g2fa ((3faf) e!upbow!(A |1 "A"B2)!upbow!c2 "D"d4:|[2 "A"B2)!upbow!c2 "D"d2 "D#dim"((3faf)||
+"Em"e2f2 "A/C#"gf !downbow!(e2|"D"f2) g2 "Bm"a3(f|"Em"e2)ff "A/C#" gf eA|"F#m"BABc "B7" ((3BdB)A2
+"Em"e2f2 "A/C#"gf !downbow!(e2|"D"f2) g2 "Bm"a3|1!upbow!(f|"Em"e2)ff gf e!upbow!(A|"A"B2)!upbow!c2 "D"d2 "D#dim"(3faf:|[2 a|"Em"!downbow!b2 ((3aba) gfe!upbow!(A| "A"B2)!upbow!c2 "D"d4||
+
+%%begintext ragged
+Fiddle bowings are meant to give it a nice Quebec touch, but they are suggestions only.  Players of wind instruments, keyboards, guitars, hurdy-gurdys, bagpipes, and coconuts may ignore them.
+%%endtext ragged
+
+X: 3
+T: Eddie's Reel (R-42)
+I: Eddie's Reel	R-42	G	reel
+M: C|
+R: reel
+K: G
+G2 |: "G"DGBd gag2| DGBd gag2| DGBd gfed| "D7"c4 cdcB|
+     "D7"AFAd fgf2| AFAd fgfe|1 d2d2 eged| "G"B4 BcBA :|2 "D7"d2d2 cAFA| "G"G6|]
+d2| "G"[B4b4] [B2b2][B2a2]| [B4g4] [B2g2]d2|  [B2b2][B2b2] [B2a2][B2g2]| "D7"[A4f4] [A2f2]d2|"D7"[A4a4] [A2a2][A2g2]| [A4f4] [Af][Ag][Af][Ae]| [D2d2][D2d2] [Ae][Ag][Ae][Dc]| "G"[D4B4] [D2B2]d2|
+    "G"[B4b4] [B2b2][B2a2]| [B6g6] z2| [B4b4] [B2b2][B2b2]| "C"[c4c'4] [c2c'2][A2e2]| "Am"[A4a4] [A2a2][A2g2]| "D7"[A4f4] [Af][Ag][Af][Ae]| d2d2 cAF[DA]| "G"G6 |]
+%%text 05/22/10
+
+#include "LeftHeader.h"
+% ---------- set 4 ----------
+% John Howett (D) / Mason's Apron (A) / Willafjord (D)
+
+
+%%topspace -.75cm
+%%textfont       Times-Bold 13.0
+%%text Set 4
+%%textfont       Times-Roman 7.0
+%%scale .77
+X: 1
+T: John Howett
+I: John Howett	R-83	D	reel
+M: C|
+R: reel
+K: D
+%%textfont       Times-Roman 9.0
+%%text Repeat part A 4 times
+%%textfont       Times-Roman 7.0
+fg| "D"a2fd "A"g2ec| "D"d2AG FDDF| "Em"E2FG ABcd|1 "A"eAfA g2fg:|2 "A"eABc "D"d2 :|
+|:"D"defg aAfA| "G"gfed "A"ceAe| "D"defg aAfA| "G"gba^g "A"a4|
+"D"abaf "G"gfed| "Em"efgA "A"GFED| "D"F2AF "G"G2BG| "A"Addc "D"d4 :|
+%%text Roaring Jelly  R-83
+
+
+%%topspace 0
+X: 2
+T: Mason's Apron (R-7)
+I: Mason's Apron	R-7	A	reel
+M: C|
+R: reel
+K: A
+ed| "A"c2A2 ABAF| EFAB dcBA| "Bm"d2B2 BcBA| Bcde gfed|
+    "A"c2A2 ABAF| EFAB dcBA| "D"Bcde "Bm"fefa| "E"edcB "A"A2 :|
+|:ed| "A"cAeA fAeA| cAeA fedc | "Bm"dBfB gBfB| dBfB "E"gfed|
+    "A"cAeA fAeA| cAeA fedc | "D"Bcde "Bm"fefa| "E"edcB "A"A2 :|
+
+X: 3
+T: Willafjord
+I: Willafjord	R-91	D	reel
+M: C|
+R: reel
+K: D
+"D"A2FA zDFA| "G"B2GB zDGB| "D"A2FA zDFA| "A7"EFGA GFED|
+"D"A2FA zDFA| "G"B2GB zDGB| "A7"ABcd efge| "D"f2d2 d2 z2 :|
+|:e2| "D"f2df zAdf| "Em"geaf gfed| "D"f2df zAdf| "A7"e2ce zAce|
+    "D"f2df zAdf| "Em"geaf gfed| "A"ABcd efge| "D"f2d2 d2 :|
+%%text Roaring Jelly  R-91
+%%text 08/29/98
+
+#include "RightHeader.h"
+% ---------- set 5 ----------
+% Ragtime Annie (D) / Liza Jane (A) / Johnny don't Get Drunk (D)
+
+%%topspace -.75cm
+%%textfont       Times-Bold 13.0
+%%text Set 5
+%%textfont       Times-Roman 7.0
+%%scale .67
+X: 1
+T: Ragtime Annie
+I: Ragtime Annie	R-67	D	?
+%%musicspace	0.0cm
+M: C|
+R: rag
+K: D
+FE| "D"DFBF AFBF| DFBF A2FE| DEFG ABAF| "A"A2c2 c2cB|
+    "A"ABcA B2cB| ABcA BAcB| ABcd egfe| "D"d2dc d2:|
+fg| "D"a2ab afd2| A6 fg| a2ab agf2| "G"g6 ef|
+    "A"gfef gfef| gagf e2ef| gagf edcB| "D"A6 fg|
+    "D"a2ab afdB| A2AB A2A2| [F4d4] "C"[E4=c4]| "G"[G6B6] A2|
+    "G"B2b2 b2ag| "D"f2a2 a2gf| "A"A2ef gfec| "D"d4 z2 |]
+%%text Roaring Jelly  R-67
+
+X: 2
+T: Liza Jane
+I: Liza Jane	R-99	A	reel
+%%musicspace	0.0cm
+M: C|
+R: reel
+K: A
+ef| "A"a2f2 e2ce| fecB A4| a2f2 e2c2| "D"f4 f2ef|
+     "A"a2f2 e2ce| fecB A2AB| "D"cBAF "E"E2F2| "A"A6 :|
+|:BA| "A"c4 c3A| B2(A2 A)ABA| c2B2 A2E2| "D"(F6 F)E|
+     "D"F2A2 "E"B3A| BAcA B2AB| "D"cBAF "E"E2F2| "A"A6 :|
+%%text Roaring Jelly  R-99
+
+X: 8
+T: Johnny, Don't Get Drunk
+I: Johnny, Don't Get Drunk	R-95	D	reel
+%%musicspace	0.0cm
+M: C|
+R: reel
+K: D
+"D"fefg a2g2| "A7"fdec "D"d4| "G"BABc dBAG| "A7"F2E2 E4|
+"D"fefg a2g2| "A7"fdec "D"d4| "G"BABc d2g2| "A7"fdec "D"d4 :|
+|:"D"F2A2 A4| FA2F A4| "G"BABc dBAG| "A7"F2E2 E4|
+"D"FA2F A4| "G"BABc d4| BABc d2g2| "A7"fdec "D"d4 :|
+%%text Roaring Jelly  R-95
+%%text 1/20/02
+
+#include "LeftHeader.h"
+% ---------- set 6 ----------
+% Captain White (D) / Portland Fancy (A/D)
+%%topspace -.75cm
+%%textfont       Times-Bold 13.0
+%%text Set 6
+%%textfont       Times-Roman 7.0
+X: 1
+T: Captain White
+I: Captain White	J-34	D	jig
+C: James Kerr
+M: 6/8
+R: jig
+K: D
+A/F/| "D"DFA d2f| "Em"edc "G"B2d| "D"A2d "Bm"F2B| "G"AGF "A7"E2F|
+      "D"DFA d2f| "Em"edc "G"B2d| "D"A2d F2B| "A7"ABc "D"d2:|
+f| "A"e^de A2f| e^de "D"a2f| "A"efe "E7"dcB| "A"A2B c2f|
+   "A"e^de A2f| e^de a2f| "E7"efe dcB| "A"ABA "A7"GFE|
+   "D"D2f fef| d2A A2A| "D"A2f fef| "A7"g2e e2e|
+   "D"A2f fef| "Bm"d2A A2A| "G"Bcd "A"edc| "D"(d3 d2)|]
+%%text Roaring Jelly  J-34
+
+X: 3
+T: Portland Fancy
+I: Portland Fancy	J-42	A/D	jig
+M: 6/8
+R: jig
+K: A
+"A"E2A E2A| EAB c2c| "D"dcd "E"Bcd| "D"f2e "E"cAF|
+"A"E2A E2A| EAB c2c| "D"dcd "E"EFG|1 "A"AcB AGF:|2 "A"AcB Ace|]
+|:"A"a2a gag| "D"fdf e2c| dcd "E"Bcd| "A"cde "E"f2e|
+"A"a2a gag| "D"fdf e2c| dcd "E"EFG|1 "A"AcB Ace:|2 "A"AcB AF=G |] 
+[K:D]|:"D"ABc d2e| f2g a3| "G"efg "A"Ade| "D"f2d "A"AFG|
+"D"ABc d2e| f2g a3| "A"efg ABc| "D"d2f d3:|
+|:"D"F2A F2A| FAd f3| "A"ece gec| "D"dfe dAG|
+"D"F2A F2A| FAd f3| "A"ece gec| "D"d3 d3:|
+%%text Roaring Jelly  J-42
+%%text 08/29/98
+
+#include "RightHeader.h"
+% ---------- set 7 ----------
+% Charlie Hunter's (D) / Mist Over TN (G) / Aunt Mary's Canadian Jig (D)
+
+%%topspace -.75cm
+%%textfont       Times-Bold 13.0
+%%text Set 7
+%%textfont       Times-Roman 7.0
+X: 14
+T: Charlie Hunter's Jig
+I: Charlie Hunter's Jig	J-36	D	jig
+C: Bobby MacLeod
+M: 6/8
+R: jig
+K: D
+"D"DFA "G"GBd| "D"Adf a2g| fed "Bm"Bcd| "A7"ecA GFE|
+"D"DFA "G"GBd| "D"Adf a2g| fef "A7"gec| "D"edc d3:|
+|:f/g/| "D"afd dcd| "G"BGG G2F| "E7"E^GB e2d| "A"cBA "A7"A2a/g/|
+      "D"fdA "D7"FDF| "G"GBd g2g| "D"fef "A7"gec| "D"edc d2 :|
+%%text Roaring Jelly  J-36
+
+X: 19
+T: Mist Over Tennessee
+I: Mist Over Tennessee	J-40	G	jig
+M: 6/8
+R: jig
+K: G
+"D7"d2c| "G"B2B BGE| DGB d3| "C"ege "G"dBG|
+"Am"c3 "D"cAB| c2c cAF| DFA c3| ded cBA|1 "G"B3:|2 "G"G3 g2a|]
+|:"G"b3 g3| ded B3| DGB DGB| "Am"c3 cBc|
+"D"a3 f3| d3 dBc| ded cBA|1 "G"B2c d2g:|2 "G"G3|]
+%%text Roaring Jelly  J-40
+
+%%vskip .3cm
+
+X: 13
+T: Aunt Mary's Canadian Jig
+I: Aunt Mary's Canadian Jig	J-36	D	jig
+M: 6/8
+R: jig
+K: D
+z2A| "D"f2f fga| d2d dcB| ABA "B7"AGF| "Em"E2E E2A|
+   "A7"e2e efg| e2d c2B| ABA ABA|1 "D"F3 :|2 "D"d3 |]
+|:z2A| "D"ABA faf| e2d d2z| AFA "B7"BcB| "Em"A2G G2z|
+   "A7"GFG efe| d2c c2B|1 ABA ABA| "D"F3  :|2 "A7"ABA ABc| "D"d3 |]
+%%text Roaring Jelly J-36
+%%text 08/29/98
+
+#include "LeftHeader.h"
+% ---------- set 8 ----------
+% Hundred Pipers (A) / Mr Charles Graham's... (Am) / Fair Jenny's (D)
+%%topspace -.75cm
+%%textfont       Times-Bold 13.0
+%%text Set 8
+%%textfont       Times-Roman 7.0
+%%scale .6
+X: 18
+T: The Hundred Pipers
+I: Hundred Pipers, The	J-6	A	jig
+M: 6/8
+R: jig
+K: A
+A/B/| "A"c2E EFE| "D"F2A A2f| "A"e2c cBA| "E"B2B B2A/B/|
+      "A"c2E EFE| "D"F2A A2f| "A"e2c "E"BcB| "A"A2A A2 :|
+|:c/d/| "A"e2e ece| "D"f2a a2f| "A"e2c cBA| "E"B2B B2c/d/|
+      "A"efe ece| "D"f2a a2f| "A"e2c "E"BcB| "A"A2A A2 :|
+%%text Roaring Jelly  J-6
+
+X: 2
+T: Mr. Charles Graham's Welcome Home (J-41)
+I: Mr. Charles Graham's Welcome Home	J-41	A Dor	jig
+%%musicspace	0.0cm
+C: Wm. Gow
+M: 6/8
+R: jig
+K: ADor
+A/G/| "Am"EAA A2G| BAA A2B| "G"d2e dBg| BGG G2A/G/|
+      "Am"EAA A2G| BAA A2B| "G"d2e dBg| "Am"BAA A2 :|
+e| "Am"a>^ga a2e| a>^ga a2e| "G"=g>bg e>ge| dBG G2e|
+   "Am"a>^ga a2e| a>^ga a2e| "G"=g>bg e>ge| d>BA "Am"A2e|
+   "Am"a>^ga a2e| a>^ga a2e| "G"=g>bg e>ge| dBG G2A/G/|
+   "Am"EAA A2G| BAA A2B| "G"d2e dBg| "Am"BAA A2|]
+
+X: 21
+T: Fair Jenny's Jig
+I: Fair Jenny's Jig	J-18	D	jig
+%%musicspace 0.2cm
+C: Peter Barnes \2511977
+M: 6/8
+R: jig
+K: D
+A| "D"f3 fgf| "A"ecA ecA| "G"Bcd "A"ecA| "G"Bcd "A"e2A|
+   "D"f3 fed| "A"ecA ecA| "G"Bcd "A"e2A| ABc "D"d2 :|
+|:A| "G"B3 B=cB| GBB B=cB| "D"ADD dDD| ^cDD "D7"=cDD|
+   "G"B3 B=cB| GBB B=cB| "A"AEA "A7"AB^c| "D"dAF D2 :|
+%%text Roaring Jelly  J-18
+%%text 08/29/98
+
+#include "RightHeader.h"
+% ---------- set 9 ----------
+% Fisher's (D) / Auld Gray Cat (Em) / Easy Club (A)
+
+%%textfont       Times-Bold 13.0
+%%text Set 9
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+%%scale .78
+X: 13
+T: Fisher's Hornpipe (R-24)
+I: Fisher's Hornpipe	R-24	D	hornpipe
+M: C|
+R: hornpipe
+K: D
+(3ABc| "D"dAFA "G"GBAG| "D"FDFD "G"GBAG| "D"FDFD "G"GFGB| "D"AFDF "A"E2 (3ABc|
+       "D"dAFA "G"GBAG| "D"FDFD "G"GBAG| "D"FAdf "A"gece| "D"d2d2 d2 :|
+|:cd| "A"ecAc efge| "D"fdAd fgaf| "A"ecAc efgf| "E"edcB "A"A2A2|
+    "G"BGDG BcdB| "D"AFDF ABcA| "G"BcdB "A"AGFE| "D"D2D2 D2 :|
+
+X: 2
+T: Auld Grey Cat, The (R-82)
+I: Auld Grey Cat, The	R-82	E Dor	reel
+M: C|
+R: reel
+K: EDor
+"Em"e2e2 E3F| GFGA BABc| "D"d2d2 D3E| FAdB AFED|
+"Em"e2e2 E3F| EFGA BABc| "D"dcBA "B"BAGF|1 "Em"E4 e3^d :|2 "Em"E4 e3|]
+|:d| "Em"B2e2 e3d| Bdef gfed| "D"A2d2 d3B| ABde fedf|
+   "Em"e2B2 g2B2| "C"a2B2 "B"b3a| "Am"gfed "B"BAB^d|1 "Em"e4 e3 :|2 "Em"e4 e4 |]
+
+X: 11
+T: Easy Club (\251Jim Sutherland;R-98)
+I: Easy Club	R-98	A	reel
+M: C|
+R: reel
+K: A
+E2| "A"A2cA "E"BcdB| "A"cdec "D"defg| "A"agae faec| "E"dcc(B B)dcB|
+    "A"A2cA "E"BcdB| "A"cdec "D"defg| "A"agae faec| "G"dB=GB "A"A2 :|
+|:ce| "D"faa(d d)aga| "A"eaa(c c)aga| "D"faa(d d)aga| "A"cee(B "E"B)dcB|
+    "A"A2cA "E"BcdB| "A"cdec "D"defg| "A"agae faec| "G"dB=GB "A"A2 :|
+%%text 08/29/98
+
+#include "LeftHeader.h"
+% ---------- set 10 ----------
+% Coleraine (Am) / Shandon Bells (D) / Caliope House (E)
+
+%%textfont       Times-Bold 13.0
+%%text Set 10
+%%textfont       Times-Roman 7.0
+%%scale .75
+%%topspace -.75cm
+X: 1
+T: Coleraine (J-1)
+I: Coleraine	J-1	Am	jig
+M: 6/8
+R: jig
+K: Am
+E| "Am"EAA ABc| "E"Bee e2d| "Am"cBA ABc| "E"B^GE E2E|
+   "Am"EAA ABc| "E"Bee e2d| "Am"cBA "E"B^GE| "Am"(A3 A2) :|
+|:B| "C"c2c cdc| "G"Bdg g2^g| "Am"aed cBA| "E"^GBG E^FG|
+   "Am"A^GA "E"BAB| "Am"cde "Dm"fed| "Am"cBA "E"B^GE| "Am"(A3 A2) :|
+
+X: 9
+T: Shandon Bells (J-25)
+I: Shandon Bells	J-25	D	jig
+M: 6/8
+R: jig
+K: D
+B| "D"AFD DFA| ded cBA| "Em"BGE EFA| "A7"B2 A Bcd|
+   "D"AFD DFA| ded cBA| "G"Bcd "A7"ecA|1 "D"d3 dc :|2 "D"d3 d2|]
+|:g| "D"f2 (d d)ed| faa afd| "A"cAA eAA| "A7"cBc efg|
+   "D"f2 (d d)ed| faa afd| "G"Bcd "A7"ecA| "D"d3 d2:|
+
+X: 18
+T: Calliope House
+I: Calliope House	J-39	E	jig
+C: Dave Richardson
+M: 6/8
+R: jig
+K: E
+B| "E"eBB gBB| fBB gBB| "A"cff f2e| "B"fge cec|
+   "E"BcB B2G| B2c e2f|1 "A"gbg gfe| "B"f3 f2:|2 "A"gbg "B"fec| "E"e3 ega|]
+|: "E"b3 gbb| fbb gbb| "A"a3 gag| "B"fgf fec|
+   "E"BcB B2G| "C#m"B2c e2f|1 "A"gbg gfe| "B"f3 fga:|2 "A"gbg "B"fec| "E"e3 e2|]
+%%text Roaring Jelly  J-39
+%%text 01/20/02
+
+#include "RightHeader.h"
+% ---------- set 11 ----------
+% Liberty (D) / Rakes of Mallow (G) / Staten Island (D)
+
+%%textfont       Times-Bold 13.0
+%%text Set 11
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X: 19
+T: Liberty
+I: Liberty	R-39	D	reel
+M: C|
+R: reel
+K: D
+"D"f2A2 f2A2| fgfe d2ef| "G"g2B2    g2B2| gagf e2de|
+"D"f2A2 f2A2| fgfe d2ef| "G"gfed "A"cABc| "D"d2f2 d4 :|
+|:"D"A2AB AGFE| DFAd f2d2| A2AB AGF2| "A"E3F E2FG|
+"D"A2AB AGFE| DFAd f2ef| "G"gfed "A"cABc| "D"d2f2 d4 :|
+%%text Roaring Jelly  R-39
+
+%%vskip .2cm
+
+X: 5
+T: The Rakes of Mallow
+I: Rakes of Mallow, The	R-3	G	reel
+I: Marlow	R-3	G	reel
+M: C|
+R: polka
+K: G
+(3DEF| "G"G2B2 G2B2| G2B2 cBAG| "D"F2A2 F2A2| F2A2 dcBA|
+       "G"G2B2 G2B2| G2B2 d3B| "C"cBAG "D7"FGAc| "G"B2G2 G2 :|
+|:(3def| "G"g2fe d2c2| B2c2 d3B| g2fe d2c2| B2d2 "D"A3d|
+       "G"g2fe d2c2| B2c2 d3B| "C"cBAG "D7"FGAc| "G"B2G2 G2 :|
+%%text Roaring Jelly  R-3
+
+%%vskip .2cm
+
+X: 15
+T: Staten Island
+I: Staten Island	R-6	D	reel
+M: C|
+R: reel
+K: D
+AG| "D"FDFG A2A2| dfed "D7"dcBA| "G"B2GB "D"A2FA| "A"G2E2 E2AG|
+    "D"FDFG A2A2| dfed "D7"dcBA| "D"d2d2 "A"efge| "D"f2d2 d2 :|
+|:fg| "D"a2fa "A"g2eg| "D"f2df "A"ecA2| "C"=c2c2 efge| =c2c2 efge|
+    "D"a2fa "A"g2eg| "D"f2df "A"ecA2| "D"d2d2 "A"efge| "D"f2d2 d2 :|
+%%text Roaring Jelly  R-6
+%%text 08/29/98
+
+#include "LeftHeader.h"
+% ----------set 12 ----------
+% Irishman's Heart (A) / Connaughtman's Ramble's (D) / Caliope House (E)
+
+%%textfont       Times-Bold 13.0
+%%text Set 12
+%%textfont       Times-Roman 7.0
+%%scale .74
+%%topspace -.75cm
+X: 15
+T: Irishman's Heart to the Ladies
+I: Irishman's Heart to the Ladies	J-17	A	jig
+M: 6/8
+R: jig
+K: A
+a| "A"ecA "D"BAF| "A"AFE EFA| "Bm"Bdc BAB| "E"cBB B2 a|
+   "A"ecA "D"BAF| "A"AFE EFA| "Bm"Bdc "E7"BAB| "A"cAA A2 :|
+|:A| "A"cee "D"dff| "A"cee ecA| cde "D"eaf| "A"ecA "E"B2 A|
+   "A"cee "D"dff| "A"cee ecA| "Bm"Bdc "E7"BAB| "A"cAA A2 :|
+%%text Roaring Jelly  J-17
+
+X: 4
+T: Connaught-Man's Ramble
+I: Connaught-Man's Ramble	J-1	D	jig
+M: 6/8
+R: jig
+K: D
+A/G/| "D"FAA dAA| "G"BAB "D"dAG| FAA dfe| "Bm"dBB BAG|
+      "D"FAA dAA| "G"BAB "D"def| "G"gfe "D"dfe| "Bm"dBB B2 :|
+|:g| "Bm"fbb faa| "D"fed deg| "Bm"fbb faa| fed "A"e2g|
+   "Bm"fbb faa| "D"fed def| "G"gfe "D"dfe| "Bm"dBB B2 :|
+%%text Roaring Jelly  J-1
+
+X: 18
+T: Calliope House
+I: Calliope House	J-39	E	jig
+C: Dave Richardson
+M: 6/8
+R: jig
+% %staffwidth 12.5cm
+K: E
+B| "E"eBB gBB| fBB gBB| "A"cff f2e| "B"fge cec|
+   "E"BcB B2G| B2c e2f|1 "A"gbg gfe| "B"f3 f2:|2 "A"gbg "B"fec| "E"e3 ega|]
+|: "E"b3 gbb| fbb gbb| "A"a3 gag| "B"fgf fec|
+   "E"BcB B2G| "C#m"B2c e2f|1 "A"gbg gfe| "B"f3 fga:|2 "A"gbg "B"fec| "E"e3 e2|]
+%%text Roaring Jelly  J-39
+%%text 05/27/09
+
+#include "RightHeader.h"
+% ---------- set 13 ----------
+% Cowboy's (G) / Coleraine (Am) / Fair Jenny's (D)
+
+%%textfont       Times-Bold 13.0
+%%text Set 13
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X: 22
+T: Cow-Boy's Jig, The
+I: Cow-Boy's Jig, The	J-19	G	jig
+M: 6/8
+R: jig
+K: G
+B/A/| "G"GDE G2 A| Bgf gdB| "C"ABc "G"BGA| "Am"BcA "D"BGE|
+      "G"GDE G2 A| Bgf gdB| "Am"ABc "D"BcA| "G"BGG G2 :|
+|:B/d/| "C"e2e e2e| egf edB| "Bm"d2d d2d| dge dBG|
+      "C"c2d e2d| "G"gdB "D7"A2d| "G"BGA "D7"BcA| "G"BGG G2 :|
+%%text Roaring Jelly  J-19
+
+%%vskip .2cm
+
+X: 1
+T: Coleraine
+I: Coleraine	J-1	Am	jig
+M: 6/8
+R: jig
+K: Am
+E| "Am"EAA ABc| "E"Bee e2d| "Am"cBA ABc| "E"B^GE E2E|
+   "Am"EAA ABc| "E"Bee e2d| "Am"cBA "E"B^GE| "Am"(A3 A2) :|
+|:B| "C"c2c cdc| "G"Bdg g2^g| "Am"aed cBA| "E"^GBG E^FG|
+   "Am"A^GA "E"BAB| "Am"cde "Dm"fed| "Am"cBA "E"B^GE| "Am"(A3 A2) :|
+%%text Roaring Jelly  J-1
+
+%%vskip .2cm
+
+X: 5
+T: Fair Jenny's Jig
+I: Fair Jenny's Jig	J-18	D	jig
+C: Peter Barnes \2511977
+M: 6/8
+R: jig
+K: D
+A| "D"f3 fgf| "A"ecA ecA| "G"Bcd "A"ecA| "G"Bcd "A"e2A|
+   "D"f3 fed| "A"ecA ecA| "G"Bcd "A"e2A| ABc "D"d2 :|
+|:A| "G"B3 B=cB| GBB B=cB| "D"ADD dDD| ^cDD "D7"=cDD|
+   "G"B3 B=cB| GBB B=cB| "A"AEA "A7"AB^c| "D"dAF D2 :|
+%%text Roaring Jelly  J-18
+%%text 08/29/98
+
+#include "LeftHeader.h"
+% ---------- set 14 ----------
+% Jig of Slurs (D/G) / Miss Maggie Brown's Favorite (G)
+
+%%textfont       Times-Bold 13.0
+%%text Set 14
+%%textfont       Times-Roman 7.0
+%%scale .6
+%%topspace -.75cm
+X: 20
+T: Jig of Slurs
+I: Jig of Slurs	J-40	D/E Dor	jig
+C: G. S. MacLellan
+M: 6/8
+R: jig
+K: D
+A| "D"Add dcd| "G"Bdd "D"Add| "G"Bdd "D"Add| "Em"Bee "A"edB|
+   "D"Add dcd| "G"Bdd "D"Add| "G"Bdd "A"cde| "D"fdd d2:|
+|:B| "D"Aff fef| aff fed| "Em"Bee ede| "G"fed "A"edB|
+   "D"Aff fef| aff fed| "G"Bdd "A"cde| "D"fdd d2 :|
+|:B| "G"Ggg gfg| "Em"age "G/D"gdB| "G"Ggg gfg| "D"age "G"g2 B|
+   "G"Ggg gfg| "Em"age "G"ged| "Em"Bee efg| fed e2:|
+|:G| "G"GBB Bdd| dee "Em"edB| "G"GBB Bdd| dee "Em"efg|
+   "G"GBB Bdd| dee edB| "Em"Bee efg| "D"fed "Em"e2:|
+%%text Roaring Jelly  J-40
+
+X: 13
+T: Maggie Brown's Favorite
+I: Maggie Brown's Favorite	J-27	G	jig
+M: 6/8
+R: jig
+K: G
+"G"dBG GAB| "C"E2E E2c| "D"AFD DEF| "G"G2G G2g|
+"G"dBG Bcd| "C"E2E E2c| "D"AFD DEF|1 "G"GBA G3:|2"G"GBA G2g/a/|]
+"G"bgb "D"afd| "C"efg gfe| "G"dBg dBG| "D"AFD D ga|
+"G"bgb "D"afd| "Em"efg "D"gfe| faf "A"ge^c| "D"d3 "(G7)"de=f|
+"C"ece "G"dBd| "C"cac "G"BgB| "Am"Ace "G"dBG| "D"FAF DEF|
+"G"GAB "Am"EFG| ABc "D"def| "G"gdB "D"cAF| "G"G3 G2 g|]
+%%text Roaring Jelly  J-27
+%%text 08/29/98
+
+#include "RightHeader.h"
+% ---------- set 15 ----------
+% Kesh Jig (G) / Hills of Glenurchie (Em) / Humors of Kesh (G)
+
+%%textfont       Times-Bold 13.0
+%%text Set 15
+%%textfont       Times-Roman 7.0
+%%scale .6
+%%topspace -.75cm
+X: 19
+T: Kesh Jig
+I: Kesh Jig	J-18	G	jig	Set 15
+I: Kincora Jig	J-18	G	jig	Set 15
+%%musicspace	0.0cm
+M: 6/8
+R: jig
+K: G
+D| "G"G3 GAB| "D"ABA ABd| "G"edd gdd| edB "D"dBA|
+   "G"G3 GAB| "D"ABA ABd| "G"edd gdB| "D"AGF "G"G2 :|
+|:A| "G"B3 dBd| "C"ege "G"dBG| BAB dBG| "Am"ABA AGA|
+   "G"B3 dBd| "C"ege "G"dBd| "C"g3 "D"aga| "G"bgg g2 :|
+%%text Roaring Jelly  J-18
+
+X: 2
+T: Hills of Glenurchie
+I: Hills of Glenurchie	J-31	Em	jig
+%%musicspace	0.0cm
+M: 6/8
+R: jig
+K: Em
+d| "Em"BGE EFE| BAB d2B| "D"AFD DED| AFA ded|
+   "Em"BGE EFE| BAB d2e| "D"dBd AFD| "Em"EFE E2:|
+|:B| "Em"efe edB| efg "A"gfe| "D"ded dAB| def fed|
+   "Em"efe edB| efg "A7"gfe| "D"dBd AFD| "Em"EFE E2:|
+%%text Roaring Jelly  J-31
+
+X: 5
+T: Humours of Kesh, The
+I: Humours of Kesh, The	J-53	G	jig	Set 15
+M: 6/8
+R: jig
+K: G
+"G"BGG Bcd| "C"ecG "D7"efg| "G"dcB "Em"gdB| "Am"A3 "D7"ABc|
+"G"BGG Bcd| "C"ecc "D7"efg| "G"dcB "Em"gdB| "D7"cAF "G"G3:|
+"G"gfg "Em"bag| "Am"fed "D7"^cde| "G"dcB "Em"gdB| "Am"A3 "D7"ABd|
+"G"gfg bag| "D7"fed ^cde| "C"dcB "Am"gdB| "D7"cAF "G"G (3Bcd|
+"G"gfg "Em"bag| "Am"fed "D7"^cde| "G"dcB "Em"gdB| "Am"A3 "D7"ABc|
+"G"BdG Bcd| "C"e2c "Am"efg| "D7"dcB gdB| cAF "G"G3|]
+%%text Roaring Jelly  J-53
+%%text 08/29/98
+
+#include "LeftHeader.h"
+% ---------- set 16 ----------
+% St. Joseph (D) / Reel de Montreal (G) / You Married My Daughter... (G)
+
+%%textfont       Times-Bold 13.0
+%%text Set 16
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X: 6
+T: St. Joseph's
+I: St. Joseph's	R-94	D	reel
+M: C|
+R: reel
+K: D
+"D"defd "A7"cdec| "D"defd A2ef| "A7"g2gf edcB| Aa2a abag|
+"D"defd "A7"cdec| "D"defd A2ef| "G" g2gf edcB| "A7"Afec "D"d2dA :|
+%%textfont       Times-Roman 9.0
+%%text Repeat part B 4 times
+%%textfont       Times-Roman 7.0
+%%vskip .1cm
+|:"D"Af2g fedc| "G"BG2B g4| "A7"e2ef edcB|1 ea2a abag :|2 Afec "D"d2dA |]
+%%text Roaring Jelly  R-94
+
+%%vskip 0.4cm
+
+X: 1
+T: Reel de Montr\'eal
+I: Reel de Montreal	R-41	G/D	reel
+M: C|
+R: reel
+K: G
+d2| "G"g2fe dcBA| GBDG B2AG| "D7"FADF AcBA| "G"GBDG B2Bd|
+    "G"g2fe dcBA| GBDG B2AG| "D7"FGAB cdef| "G"g2g2 g2 :| [K: D]|:z2 |"D"A2FA d2Ad| f2df a2ab| "A7"a2g2 e2g2| "D"b2a2 f2d2|
+"D"A2FA d2Ad| f2df a2ab| "A7"a2g2 e2c2| "D  (D7)"d4-d2 :|
+%%text Roaring Jelly  R-41
+
+X: 26
+T: You Married My Daughter But Yet You Didn't
+I: You Married My Daughter But Yet You Didn't	R-30	G	reel
+M: C|
+R: reel
+K: G
+"G"B2d2 g2g2| "D"fgaf "G"g2g2| B2d2 "D"f2f2| "A7"efge "D"f2f2|
+"G"B2d2 g2g2| "D"fgaf "G"g2g2| B2d2 "D"fgfe| dBA2 "G"G4 :|
+|:"G"BcdB G2BB| G2BB d2c2| "D"ABcA F2AA| F2AA "G"e2d2|
+"G"BcdB G2BB| G2BB d2c2| "D"ABcA F2fe| dBA2 "G"G4 :|
+%%text Roaring Jelly  R-30
+%%text 08/25/99
+
+#include "RightHeader.h"
+% ---------- set 17 ----------
+% Johnny Don't Get Drunk (D) / Round the Horn (G) / Spootiskerry (G)
+
+%%textfont       Times-Bold 13.0
+%%text Set 17
+%%textfont       Times-Roman 7.0
+%%scale .66
+%%topspace -.75cm
+X: 8
+T: Johnny, Don't Get Drunk (R-95)
+I: Johnny, Don't Get Drunk	R-95	D	reel
+M: C|
+R: reel
+K: D
+"D"fefg a2g2| "A7"fdec "D"d4| "G"BABc dBAG| "A7"F2E2 E4|
+"D"fefg a2g2| "A7"fdec "D"d4| "G"BABc d2g2| "A7"fdec "D"d4 :|
+|:"D"F2A2 A4| FA2F A4| "G"BABc dBAG| "A7"F2E2 E4|
+"D"FA2F A4| "G"BABc d4| BABc d2g2| "A7"fdec "D"d4 :|
+
+%%topspace 0
+X: 17
+T: 'Round the Horn (\251Jay Ungar; R-25)
+I: Round the Horn	R-25	G	reel
+M: C|
+R: reel
+K: G
+(3DEF| "G"G2GA BAGA| Bd2e d4| "C"cdef e2g2| "D"a6 ga|
+       "Em"b2b2 "D"agfa| "C"gfed "G"BAGB| "Am"A2d2 BAG2|1 "Em"E4- "D7"E2 :|2 "Em"E8 |]
+|:"C"e3f e2d2| "G"B6 B2| "Am"A3A G2A2| "Bm"B2 d6|
+"C"g3a g2e2| "G"dedc BAGB| "Am"A2d2 BAG2|1 "Em"E8 :|2 "Em"E4- "D7"E2 |]
+
+X: 14
+T: Spootiskerry (Ian Burns \2511980; R-78)
+I: Spootiskerry	R-78	G	reel
+M: C|
+R: reel
+K: G
+DE| "G"G2DE GDEG| DEGA "D"B2AB| "G"G2DE "Em"GABd| "C"eged "D"B2AB|
+    "G"G2DE GDEG| DEGA "G7"B2AB| "C"g2ed "Am"edBA| "D7"dBAB "G"G2:|
+ef| "Em"g2ed edB2| BABG "C"E2DE| "G"GABd "Em"eged| "A7"B2A2 "D7"A2ef|
+    "Em"g2ed edB2| BABG "C"E2DE| "G"GABd "C"eged| "D"B2G2 "G"G2ef|
+    "Em"g2ed edB2| BABG "C"E2DE| "G"GABd "Em"eged| "A7"B2A2 "D7"A2DE|
+    "G"G2DE GDEG| DEGA "G7"B2AB| "C"g2ed "Am"edBA| "D7"dBAB "G"G2 |]
+%%text 05/27/09
+
+#include "LeftHeader.h"
+% ---------- set 18 ----------
+% Bouchard's (D) / Auld Gray Cat (Em) / St. Annes (D)
+
+%%textfont       Times-Bold 13.0
+%%text Set 18
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X: 13
+T: Bouchard's Hornpipe
+I: Bouchard's Hornpipe	R-88	D	hornpipe
+C: Mike Springer
+M: C|
+R: hornpipe
+K: D
+FE| "D"DFAd "G"BcdB| "A"cdec "D"d2ef| "Em"gfga gfed| "A"edcB A2dc|
+    "G"B2BA BcdB| "D"AGFG A2(3ABc| "G"dcdf "A"edc2| "D"d4 d2 :|
+|:fg| "D"a2ab agfa| "Em"gfef g2ag| "Bm"f2fd gfed| "F#m"cdec A2dc|
+    "G"B2BA "Em"BcdB| "D"AGFG A2(3ABc| "G"dcdf "A"edc2| "D"d4 d2 :|
+%%text Roaring Jelly  R-88
+
+%%vskip 6pt
+
+X: 2
+T: Auld Grey Cat, The
+I: Auld Grey Cat, The	R-82	E Dor	reel
+M: C|
+R: reel
+K: EDor
+"Em"e2e2 E3F| GFGA BABc| "D"d2d2 D3E| FAdB AFED|
+"Em"e2e2 E3F| EFGA BABc| "D"dcBA "B"BAGF|1 "Em"E4 e3^d :|2 "Em"E4 e3|]
+|:d| "Em"B2e2 e3d| Bdef gfed| "D"A2d2 d3B| ABde fedf|
+   "Em"e2B2 g2B2| "C"a2B2 "B"b3a| "Am"gfed "B"BAB^d|1 "Em"e4 e3 :|2 "Em"e4 e4 |]
+%%text Roaring Jelly  R-82
+
+%%vskip 6pt
+
+X: 16
+T: Saint Anne's Reel
+I: Saint Anne's Reel	R-6	D	reel	Set 18
+I: Sainte Agathe	R-6	D	reel	Set 18
+M: C|
+R: reel
+K: D
+A2| "D"f2fg fedB| A2FG AFAd| "G"BGGF G2FG| "D"BAAF A2de|
+    "D"f2fg fedB| A2FG AFAd| "G"BGBd "A"cAce| "D"dfec d2 :|
+|:ag| "D"fdfa fdfa| "A"aggf g2gf| edcB ABce| "D"baa^g a2 a=g|
+    "D"fdfa fdfa| "A"aggf g2gf| edcB ABce| "D"fdec d2 :|
+%%text Roaring Jelly  R-6
+%%text 11/23/98
+
+#include "RightHeader.h"
+% ---------- set 19 ----------
+% Roaring Jelly (D) / Squirral in the Tree (G) / Fair Jenny's (D)
+
+%%textfont       Times-Bold 13.0
+%%text Set 19
+%%textfont       Times-Roman 7.0
+%%scale .6
+%%topspace -.75cm
+X: 6
+%T: Smash the Windows
+I: Smash the Windows	J-2	D	jig
+T: Roaring Jelly
+I: Roaring Jelly	J-2	D	jig
+%%musicspace	0.0cm
+M: 6/8
+R: jig
+K: D
+A,| "D"DED F2A| d2f "A"ecA| "G"G2B "D"F2A| "A"E2F GFE|
+    "D"DED F2A| d2f "A"ecA| "G"Bgf "A"edc| "D"(d3 d2) :|
+a| "D"a2f d2f| A2a agf| "A"g2e c2e| A2g gfe|
+   "D"f2 d "A"g2 e| "D"a2 f "G"bag| "D"fed "A"edc| "D"(d3 d2) a|
+   "D"agf fed| Adf agf| "A"gfe ecA| Ace gfe|
+   "D"fed "A"gfe| "D"agf "G"bag| "D"fed "A"edc| "D"(d3 d2) |]
+%%text Roaring Jelly  J-2
+
+X: 17
+T: Squirrel in the Tree
+I: Squirrel in the Tree	J-39	G	jig
+%%musicspace	0.0cm
+M: 6/8
+R: jig
+K: G
+d2c|: "G"BBB B2B| B2A GAB| "C"ccc c2B| c2d efg|
+      "D"fff fff| fed cBA|1 "G"GBd "D"e2d| "G"B3 Bdc:|2 "G"GBd "D"b2a| "G"g3 d2|]
+|:g| "G"bbb b2b| b2a "C"gfe| "G"ddd d2e| d2c Bdg|
+   "D"fff fff| fed cBA|1 "G"GBd "D"e2d| "G"B3 Bd:|2 "G"GBd "D"bfa| "G"g3 g2|]
+%%text Roaring Jelly  J-39
+
+X: 5
+T: Fair Jenny's Jig
+I: Fair Jenny's Jig	J-18	D	jig
+%%musicspace 0.2cm
+C: Peter Barnes \2511977
+M: 6/8
+R: jig
+K: D
+A| "D"f3 fgf| "A"ecA ecA| "G"Bcd "A"ecA| "G"Bcd "A"e2A|
+   "D"f3 fed| "A"ecA ecA| "G"Bcd "A"e2A| ABc "D"d2 :|
+|:A| "G"B3 B=cB| GBB B=cB| "D"ADD dDD| ^cDD "D7"=cDD|
+   "G"B3 B=cB| GBB B=cB| "A"AEA "A7"AB^c| "D"dAF D2 :|
+%%text Roaring Jelly  J-18
+%%text 08/29/98
+
+#include "LeftHeader.h"
+% ---------- set 20 ----------
+% Tobin's Favorite (D) / Irish Washerwoman (G) / Coleraine (Am)
+
+%%textfont       Times-Bold 13.0
+%%text Set 20
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X: 24
+T: Tobin's Favorite
+I: Tobin's Favorite	J-19	D	jig
+M: 6/8
+R: jig
+K: D
+A/F/|: "D"DFA ddd| "A"ecA cde| "D"fff "G"ggg| "A"ecA GFE|
+       "D"DFA dcd| "A"ecA efg| "D"f/g/af "A"gec| edc "D"ddd:|
+|:"D"dfa agf| "G"e/f/ge "Em"efg| "D"fef "G"ggg| "A"ecA GFE|
+"D"DFA ddd| "A"ecA efg| "D"f/g/af "A"gec| edc "D"ddd:|
+%%text Roaring Jelly  J-19
+
+%%vskip 6pt
+
+X: 21
+T: The Irish Washerwoman
+I: Irish Washerwoman, The	J-7	G	jig
+M: 6/8
+R: jig
+K: G
+d/c/| "G"BGG DGG| BGB dcB| "D"cAA EAA| cAc edc|
+      "G"BGG DGG| BGB dcB| "D"cBc Adc| "G"BGG G2 :|
+|:g| "G"gdg gdg| gdg bag| "D"fdf fdf| fdf agf|
+   "C"egg "G"dgg| "C"cgg "G"Bgg| "D"cBc Adc| "G"BGG G2 :|
+%%text Roaring Jelly  J-27
+
+%%vskip 6pt
+
+X: 1
+T: Coleraine
+I: Coleraine	J-1	Am	jig
+M: 6/8
+R: jig
+K: Am
+E| "Am"EAA ABc| "E"Bee e2d| "Am"cBA ABc| "E"B^GE E2E|
+   "Am"EAA ABc| "E"Bee e2d| "Am"cBA "E"B^GE| "Am"(A3 A2) :|
+|:B| "C"c2c cdc| "G"Bdg g2^g| "Am"aed cBA| "E"^GBG E^FG|
+   "Am"A^GA "E"BAB| "Am"cde "Dm"fed| "Am"cBA "E"B^GE| "Am"(A3 A2) :|
+%%text Roaring Jelly  J-1
+%%text 08/29/98
+
+#include "RightHeader.h"
+% ---------- set 21 ----------
+% Lady of the Lake (G) / John Howett (D)
+
+%%textfont       Times-Bold 13.0
+%%text Set 21
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X: 4
+T: Lady of the Lake
+I: Lady of the Lake	R-83	G	reel
+%%staffsep	46pt
+M: C|
+R: reel
+K: G
+"G"G,B,DG B2Bc| dBGA B2AB| "C"c2cB AGFG| "D"AGFE DCB,A,|
+"G"G,B,DG B2Bc| dBGA B2AB| "C"c2cB AGFE|1 "D"DGGF "G"G4 :|2 "D"DGGF "G"G2|
+|:Bc| "G"dcBd g2gd| "C"edce a2ae| "D"f2fg fedf| "A"ed^ce "D"d2Bc|
+    "G"dcBd g2gd| "C"edce a2ae| "D"fgfe dcBA| "G"G2B2 G2 :|
+%%text Roaring Jelly  R-83
+
+%%vskip 10pt
+
+X: 5
+T: John Howett
+I: John Howett	R-83	D	reel
+%%staffsep	46pt
+M: C|
+R: reel
+K: D
+%%textfont       Times-Roman 9.0
+%%text Repeat part A 4 times
+%%textfont       Times-Roman 7.0
+fg| "D"a2fd "A"g2ec| "D"d2AG FDDF| "Em"E2FG ABcd|1 "A"eAfA g2fg:|2 "A"eABc "D"d2 :|
+|:"D"defg aAfA| "G"gfed "A"ceAe| "D"defg aAfA| "G"gba^g "A"a4|
+"D"abaf "G"gfed| "Em"efgA "A"GFED| "D"F2AF "G"G2BG| "A"Addc "D"d4 :|
+%%text Roaring Jelly  R-83
+%%text 08/29/98
+
+#include "LeftHeader.h"
+% ---------- set 22 ----------
+% Westend (D) / Scotty O'Neil (D)
+
+%%textfont       Times-Bold 13.0
+%%text Set 22
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X: 4
+T: West End, The
+I: West End, The	R-21	D	reel
+M: C|
+R: reel
+K: D
+AG| "D"FGAF D2d2| "A"cdec A3f| "G"gfed    B2ed| "A"c2A2 A2AG|
+    "D"FGAF D2d2| "A"cdec A3f| "G"gfed "A"Bdce| "D"d6 :|
+fg| "D"afdf a2a2| "A"gece g2g2| "D"fedc "Em"d2ed| "A"c2A2 A2fg|
+    "D"afdf a2a2| "A"gece g2g2| "D"afdf "A"gece| "D"d2f2 d2fg|
+    "D"afdf a2a2| "A"gece g2g2| "D"fedc    d2ed| "A"c2A2 A2AG|
+    "D"FGAF D2d2| "A"cdec A3f | "G"gfed "A"Bdce| "D"d6 |]
+%%text Roaring Jelly  R-21
+
+%%vskip 10pt
+
+X: 4
+T: Scotty O'Neil
+I: Scotty O'Neil	R-32	D	reel
+C: Bob McQuillen 1973
+M: C|
+R: reel
+K: D
+AG| "D"F2D2 A2F2| "G"dedc BABc| "D"d2A2 G2F2| "A"F2 E4 AG|
+    "D"F2D2 A2F2| "G"dedc BABc| "D"d2A2 "A"ABAG| "D"F2 D4 :|
+|:AG| "D"F2A2 f2e2| "G"d2c2 B3c| "D"d2A2 G2F2| "A"F2 E4 AG|
+    "D"F2D2 f3e| "G"dedc BABc| "D"d2A2 "A"ABAG| "D"F2 D4 :|
+%%text Roaring Jelly  R-32
+%%text 1/25/02
+
+#include "RightHeader.h"
+% ---------- set 23 ----------
+% Far From Home (G) / Willafjord (D) / Scotty O'Neil (D)
+
+%%textfont       Times-Bold 13.0
+%%text Set 23
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X: 6
+T: Far From Home
+I: Far From Home	R-43	G	reel
+M: C|
+R: reel
+K: G
+D2| "G"GEDE G2GA| B2BA Bcd2|    GEDE    G2GB| "Am"AGAB "D"AGEF|
+    "G"GEDE G2GA| B2BA Bcd2| "C"edef "G"gedc| "D"BGAF "G"G2 :|
+|:d2| "Em"g2ge "D"f2fd| "C"edef "G"edBd| gedB G2B2| "Am"AGAB AG E2|
+     "G"GEDE G2 GA| B2BA Bcd2| "C"edef "G"gedc| "D"BGAF "G"G2 :|
+%%text Roaring Jelly  R-43
+
+%%vskip 10pt
+
+X: 1
+T: Willafjord
+I: Willafjord	R-91	D	reel
+M: C|
+R: reel
+K: D
+"D"A2FA zDFA| "G"B2GB zDGB| "D"A2FA zDFA| "A7"EFGA GFED|
+"D"A2FA zDFA| "G"B2GB zDGB| "A7"ABcd efge| "D"f2d2 d2 z2 :|
+|:e2| "D"f2df zAdf| "Em"geaf gfed| "D"f2df zAdf| "A7"e2ce zAce|
+    "D"f2df zAdf| "Em"geaf gfed| "A"ABcd efge| "D"f2d2 d2 :|
+%%text Roaring Jelly  R-91
+
+%%vskip 10pt
+
+X: 4
+T: Scotty O'Neil
+I: Scotty O'Neil	R-32	D	reel
+C: Bob McQuillen 1973
+M: C|
+R: reel
+K: D
+AG| "D"F2D2 A2F2| "G"dedc BABc| "D"d2A2 G2F2| "A"F2 E4 AG|
+    "D"F2D2 A2F2| "G"dedc BABc| "D"d2A2 "A"ABAG| "D"F2 D4 :|
+|:AG| "D"F2A2 f2e2| "G"d2c2 B3c| "D"d2A2 G2F2| "A"F2 E4 AG|
+    "D"F2D2 f3e| "G"dedc BABc| "D"d2A2 "A"ABAG| "D"F2 D4 :|
+%%text Roaring Jelly  R-32
+%%text 08/29/98
+
+#include "LeftHeader.h"
+% ---------- set 24 ----------
+% Spootiskerry (G) / Auld Gray cat (Em) / Fisher's (D)
+
+%%textfont       Times-Bold 13.0
+%%text Set 24
+%%textfont       Times-Roman 7.0
+%%scale .6
+%%topspace -.75cm
+X: 14
+T: Spootiskerry
+I: Spootiskerry	R-78	G	reel
+C: Ian Burns \2511980
+M: C|
+R: reel
+K: G
+DE| "G"G2DE GDEG| DEGA "D"B2AB| "G"G2DE "Em"GABd| "C"eged "D"B2AB|
+    "G"G2DE GDEG| DEGA "G7"B2AB| "C"g2ed "Am"edBA| "D7"dBAB "G"G2:|
+ef| "Em"g2ed edB2| BABG "C"E2DE| "G"GABd "Em"eged| "A7"B2A2 "D7"A2ef|
+    "Em"g2ed edB2| BABG "C"E2DE| "G"GABd "C"eged| "D"B2G2 "G"G2ef|
+    "Em"g2ed edB2| BABG "C"E2DE| "G"GABd "Em"eged| "A7"B2A2 "D7"A2DE|
+    "G"G2DE GDEG| DEGA "G7"B2AB| "C"g2ed "Am"edBA| "D7"dBAB "G"G2 |]
+%%text Roaring Jelly  R-78
+
+X: 2
+T: Auld Grey Cat, The
+I: Auld Grey Cat, The	R-82	E Dor	reel	Set 9, 18, 24
+M: C|
+R: reel
+K: EDor
+"Em"e2e2 E3F| GFGA BABc| "D"d2d2 D3E| FAdB AFED|
+"Em"e2e2 E3F| EFGA BABc| "D"dcBA "B"BAGF|1 "Em"E4 e3^d :|2 "Em"E4 e3|]
+|:d| "Em"B2e2 e3d| Bdef gfed| "D"A2d2 d3B| ABde fedf|
+   "Em"e2B2 g2B2| "C"a2B2 "B"b3a| "Am"gfed "B"BAB^d|1 "Em"e4 e3 :|2 "Em"e4 e4 |]
+%%text Roaring Jelly  R-82
+
+X: 13
+T: Fisher's Hornpipe
+I: Fisher's Hornpipe	R-24	D	hornpipe	Set 9, 24
+%%muscispace	2pt
+%%staffsep 41pt
+M: C|
+R: hornpipe
+K: D
+(3ABc| "D"dAFA "G"GBAG| "D"FDFD "G"GBAG| "D"FDFD "G"GFGB| "D"AFDF "A"E2 (3ABc|
+       "D"dAFA "G"GBAG| "D"FDFD "G"GBAG| "D"FAdf "A"gece| "D"d2d2 d2 :|
+|:cd| "A"ecAc efge| "D"fdAd fgaf| "A"ecAc efgf| "E"edcB "A"A2A2|
+    "G"BGDG BcdB| "D"AFDF ABcA| "G"BcdB "A"AGFE| "D"D2D2 D2 :|
+%%text Roaring Jelly  R-24
+%%text 08/29/98
+
+#include "RightHeader.h"
+% ---------- set 25 ----------
+% Woodchopper's Reel (D) / Reel de Montreal (G) / Dancing Bear (Em)
+
+%%textfont       Times-Bold 13.0
+%%text Set 25
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X: 4
+T: Woodchopper's Reel
+I: Woodchopper's Reel	R-73	D	reel
+M: C|
+R: reel
+K: D
+"D"afdB AdFA| DFAd f2ef| "A"(3gfe cB Aceg| a^gab a2f=g|
+"D"afdB AdFA| DFAd f2ef| "A"(3gfe cB Acec| "D"dfec d4 :|
+|:"D"DFAd (3BdB AF| DFAd (3BdB Az| "A"A,CEA ceaf| gfed cBAF|
+"D"DFAd (3BdB AF| DFAd (3BdB Az| "A"A,CEA ceaf| (3gfe cA "D"d4 :|
+%%text Roaring Jelly  R-73
+
+%%vskip 10pt
+
+X: 1
+T: Reel de Montr\'eal
+I: Reel de Montreal	R-41	G/D	reel
+M: C|
+R: reel
+K: G
+d2| "G"g2fe dcBA| GBDG B2AG| "D7"FADF AcBA| "G"GBDG B2Bd|
+    "G"g2fe dcBA| GBDG B2AG| "D7"FGAB cdef| "G"g2g2 g2 :| [K: D]|:z2 |"D"A2FA d2Ad| f2df a2ab| "A7"a2g2 e2g2| "D"b2a2 f2d2|
+"D"A2FA d2Ad| f2df a2ab| "A7"a2g2 e2c2| "D  (D7)"d4-d2 :|
+%%text Roaring Jelly  R-41
+
+%%vskip 10pt
+
+X: 9
+T: Dancing Bear, The
+I: Dancing Bear, The	R-116	Em	reel
+C: Bob McQuillen  2/22/78
+M: C|
+R: reel
+K: Em
+"Em"EFGF EFGF| EFGA G2E2| "A"EFGF EFGF| EFGA G2E2|
+"C"EFGF EFGF| EFGA B2e2| "B7"B2Bc BAGF| "Em"G2E2 E4 :|
+|:"Em"e2ef gfef| gfe2 e4| "A"e2ef gfef| gfe2 e4|
+"C"e2ef gfef| gfe2 e2dc| "B7"BABc BcBA| "Em"GFE2 E4 :|
+%%text Roaring Jelly  R-116
+%%text 08/25/99
+
+#include "LeftHeader.h"
+% ---------- set 26 ----------
+% Farewell to Whiskey (G) / Temperance Reel (G) / Whiskey Before Breakfast (D)
+
+%%textfont       Times-Bold 13.0
+%%text Set 26
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X: 9
+T: Farewell to Whiskey
+I: Farewell to Whiskey	R-14	G	reel
+I: Ladies' Triumph	R-14	G	reel
+M: C|
+R: reel
+K: G
+GE| "G"D2G2 B2AG| "Am"A2E2 E3G| "G"D2G2 B2AG| "Bm"d2B2 B3d|
+    "C"e2g2 "G"d2B2| "Am"cBAG "D"A2B2| "G"D2G2 "D"BAGA| "G"B2G2G2 :|
+|:Bc| "G"d2B2 g2B2| "Am"cBAG "D"A2Bc| "G"d2B2 g2d2| "C"e2g2 g3d|
+    "C"e2g2 "G"d2B2| "Am"cBAG "D"A2B2| "G"D2G2 "D"BAGA| "G"B2G2G2 :|
+%%text Roaring Jelly  R-14
+
+%%vskip 10pt
+
+X: 26
+T: Temperance Reel
+I: Temperance Reel	R-10	G	reel
+M: C|
+R: reel
+K: G
+(3DEF|:"G"G2GF GABc| dBge dBAc| "Em"BEED EFGA| "D"BGAF GFED|
+"G"G2GF GABc| dBge dBAc| "Em"BEED EFGA|1 "D"BdAF "G"G2(3DEF :|2 "D"BdAF "G"G2|]
+|:B2| "Em"Beed e3f| geaf gfed| "D"Adde d3e| feaf gfed|
+    "Em"Beed e3f| geaf gfed| BEED EFGA |1 "D"BdAF "G"G2 :|2"D"BGAF "G"GFED|]
+%%text Roaring Jelly  R-10
+
+%%vskip 10pt
+
+X: 18
+T: Whiskey Before Breakfast
+I: Whiskey Before Breakfast	R-69	D	reel	Set 26
+M: C|
+R: reel
+K: D
+%%textfont       Times-Roman 9.0
+%%text Repeat part A 4 times
+%%textfont       Times-Roman 7.0
+"D"A,B,DE D2FG| AFBF A2EF| "G"G2BG "D"F2AF|1 "A7"EDEF EDB,A, :|2 "A"EDEF "D"D4 |]
+|:"D"F2d2 d2Bc| dcdA BAFA| "Em"e4 e2ef| gfed "A7"cABc |
+"D"d2fd "A"c2ec| "G"BABd "D"BAFD| "G"G2BG "D"F2AF| "A7"EDEF "D"D2 z2 :|
+%%text Roaring Jelly  R-69
+%%text 1/20/02
+
+#include "RightHeader.h"
+% ---------- set 27 ----------
+% Westfork Gals (D) / Green Willis (D)
+
+%%textfont       Times-Bold 13.0
+%%text Set 27
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X: 1
+T: Westfork Girls
+I: Westfork Girls	R-31	D	reel
+M: C|
+R: reel
+K: D
+"D"fgfe d2ef| "G"g2g2 B4| "A"efed c2A2| ABAG "D"F2D2|
+"D"fgfe d2ef| "G"g2g2 B4| "A"efed c2A2| ABc2 "D"d4 :|
+|:"D"ABAG F2A2|    d2d2 F3A| "A"G2F2 E3F| G2F2 E4|
+"A"efed cABc| "D"d2A2 F2A2| d2d2 "A"efg2| "D"f2d2 d4 :|
+%%text Roaring Jelly  R-31
+
+%%vskip 10pt
+
+X: 2
+T: Green Willis
+I: Green Willis	R-31	D	reel
+M: C|
+R: reel
+K: D
+(3ABc| "D"dAdA d2fe| dAdA d2gf| "A"edcB ABcd| edcB A2 (3ABc|
+       "D"dAdA d2fe| dAdA d2gf| "A"edcA B2c2| "D"d2de d2 :|
+|:fg | "D"agfg agfe| d2de d2ef| "G"gfga bagf| "A"edcB A2fg|
+     "D"agfg agfe| d4 "G"g3f| "A"edcA B2c2| "D"d2de d2 :|
+%%text Roaring Jelly  R-31
+%%text 08/29/98
+
+#include "LeftHeader.h"
+% ---------- set 28 ----------
+% Trip to Duro (D) / Ships Are Sailing (EDor) / Mason's Apron (A)
+
+%%textfont       Times-Bold 13.0
+%%text Set 28
+%%textfont       Times-Roman 7.0
+%%scale .67
+%%topspace -.75cm
+X: 15
+T: Trip to Duro (R-89)
+I: Trip to Duro	R-89	D	reel
+M: C|
+R: reel
+K: D
+"D"D2FD A2FA| defd "Bm"B2Bc| "G"dBBA "Bm"dBBA| "D"FADE "A7"FEE2|
+"D"D2FD A2FA| defd "G"B2Bc|  dBBA "D"FAdB| "A"AFGE "D"FDD2 :|
+"D"d2de f2fg| afdf "G"gfed| "A"cdef "Em"gebe| "G"gebe "A"gfec|
+"D"d2de f2fg| afdf "G"gfed| "A"cdef "G"gbag| "A"fdec "D"d3e|
+"D"fdec "G"d3e| "D"fded "Bm"B2Bc| dBBA "G"dBBA| "D"FADE "A7"FEE2|
+"D"D2FD A2FA| defd "G"B2Bc| dBBA "D"FAdB| "A"AFGE "D"FDD2|]
+
+%%topspace 0
+X: 8
+T: Ships Are Sailing (R-115)
+I: Ships Are Sailing	R-115	E Dor	reel
+M: C|
+R: reel
+K: EDor
+"Em"Beed BcdB| "D"AD (3FED AD (3FED| "Em"EDEF GFGA| Bdef gfed|
+"Em"Beed BcdB| "D"AD (3FED AD (3FED| "Em"EDEF GFGA |1        "D"Bded "Em"e2ed :|2 "D"Bded "Em"e2 |]
+|:ef | "G"gfga bgeg| "D"fefg afdf| "Em"gfga bgeg| "D"fedf "Em"e2ef|
+     "G"gfga bgeg| "D"fefg afdf| "G"g2ge "D"f2fd |1     "Em"edef gf :|2 "Em"edef gfed |]
+
+X: 17
+T: Mason's Apron (R-7)
+I: Mason's Apron	R-7	A	reel
+M: C|
+R: reel
+K: A
+ed| "A"c2A2 ABAF| EFAB dcBA| "Bm"d2B2 BcBA| Bcde gfed|
+    "A"c2A2 ABAF| EFAB dcBA| "D"Bcde "Bm"fefa| "E"edcB "A"A2 :|
+|:ed| "A"cAeA fAeA| cAeA fedc | "Bm"dBfB gBfB| dBfB "E"gfed|
+    "A"cAeA fAeA| cAeA fedc | "D"Bcde "Bm"fefa| "E"edcB "A"A2 :|
+%%text 05/27/09
+
+#include "RightHeader.h"
+% ---------- set 29 ----------
+% Money in Both Pockets (D) / Cowboy's (G) / Morrison's (E Dor)
+
+%%textfont       Times-Bold 13.0
+%%text Set 29
+%%textfont       Times-Roman 7.0
+%%scale .6
+%%topspace -.75cm
+X: 28
+T: Money in Both Pockets
+I: Money in Both Pockets	J-9	D	jig
+%%musicspace	2pt
+M: 6/8
+R: jig
+K: D
+A| "D"d2F "A"FEF| "D"DFA AFD| d2F "A"FEF| "D"D2f fef|
+   "D"d2F "A"FEF| "D"DFA AFD| "Em"EFE EFG| "A"BBB B2:|
+|:A| "D"dfa afd| "A"cea ecA| "D"dfa afd| "G"g3 fga|
+   "G"bag "D"agf| "A"ede "D"fdB| ABA AFA| "G"BBB B2 :|
+%%text Roaring Jelly  J-9
+
+X: 22
+T: Cow-Boy's Jig, The
+I: Cow-Boy's Jig, The	J-19	G	jig
+%%musicspace	2pt
+M: 6/8
+R: jig
+K: G
+B/A/| "G"GDE G2A| Bgf gdB| "C"ABc "G"BGA| "Am"BcA "D"BGE|
+      "G"GDE G2A| Bgf gdB| "Am"ABc "D"BcA| "G"BGG G2 :|
+|:B/d/| "C"e2e e2e| egf edB| "Bm"d2d d2d| dge dBG|
+      "C"c2d e2d| "G"gdB "D7"A2d| "G"BGA "D7"BcA| "G"BGG G2 :|
+%%text Roaring Jelly  J-19
+
+X: 11
+T: Morrison's Jig
+I: Morrison's Jig	J-26	E Dor	jig
+%%musicspace	2pt
+M: 6/8
+R: jig
+K: Edor
+"Em"E3 BEB| EBE "D"AFD| "Em"E3 BEB| "D"dcB AGF|
+"Em"E3 BEB| EBE "D"AFD| "G"G2G FGA| "D"dAG FED :|
+"Em"Bee fee| aee "D"fed| "Em"Bee fee| "D"fag fed|
+"Em"Bee fee| bee "D"fed| edc d2A| "B7"BAG F3|
+"Em"Bee fee| aee "D"fed| "Em"Bee fee| "D"faf def|
+"G"g2g gfe| def g2d| "D"edc d2A| "B7"BAG F3|] "Em - go out on"HE4|]
+%%text Roaring Jelly  J-26
+%%text 10/27/99
+
+#include "LeftHeader.h"
+% ---------- set 30 ----------
+% The Tipsy Sailor (Em) / Rakes of Clonmel (Am) / Irishman's Heart (A)
+
+%%textfont       Times-Bold 13.0
+%%text Set 30
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+%%scale .75
+$SmallLMargin
+$SmallRMargin
+X: 1
+T: Tipsy Sailor, The
+I: Tipsy Sailor, The	J-51	Em	jig
+H: Scottish jig
+M: 6/8
+R: jig
+K: Em
+D| "Em"E2B- BAB| E2B- BAB| "D"ded d^cB| AFD DEF|    "Em"E2B- BAB| E2B- BAB| "D"AdB AFA| "Em"BGE E2:|
+f| "Em"eBe gfe| Bef gfe| "D"fdA FAd| fdf "B7"agf|    "Em"eBe gfe| Bef gfe| "D"fdf gfg| "Em"bge e2f|
+   "Em"eBe gfe| Bef gfe| "D"fdA FAd| fdf "B7"agf|    "Em"gba gfe| "D"fag fed| B/c/dB AFA| "Em"BGE E2|]
+%%text 05/27/09
+
+%%topspace 0
+X: 2
+T: Rakes of Clonmel
+I: Rakes of Clonmel	J-29	Am	jig
+M: 6/8
+R: jig
+K: Am
+e/d/| "Am"cBA "G"BGE| "Am"EAA A2B| c>Bc A>Bc| "G"BGG G2e/^f/|       "C"g>fg ege| "G"dBG Bcd| "Am"ecA "G"dBG| "Am"EAA A2:|
+a| "Am"a^ga A2a| edA A2g| "G"g^fg G2g| dBG G2B|    "C"cBc C2c| "Dm"dcd D2d| "Am"edc "G"Bcd| "Am"ecA A2a|
+   "Am"aea aed| cBc A2g| "G"gdg gdc| BAB G2A/B/|    "C"cBc C2c| "Dm"dcd D2d| "Am"edc "G"Bcd| "Am"ecA A2|]
+%%text Roaring Jelly  J-29
+
+X: 3
+T: Irishman's Heart to the Ladies
+I: Irishman's Heart to the Ladies	J-17	A	jig
+M: 6/8
+R: jig
+K: A
+a| "A"ecA "D"BAF| "A"AFE EFA| "Bm"Bdc BAB| "E"cBB B2 a|    "A"ecA "D"BAF| "A"AFE EFA| "Bm"Bdc "E7"BAB| "A"cAA A2 :|
+|:A| "A"cee "D"dff| "A"cee ecA| cde "D"eaf| "A"ecA "E"B2 A|    "A"cee "D"dff| "A"cee ecA| "Bm"Bdc "E7"BAB| "A"cAA A2 :|
+%%text Roaring Jelly  J-17
+%%text 05/27/09
+
+#include "RightHeader.h"
+% ---------- set 31 ----------
+% Flower's of Edinburgh (G) / Pat d'Budgie (C) / Batchelder's (F)
+
+%%textfont       Times-Bold 13.0
+%%text Set 31
+%%textfont       Times-Roman 7.0
+%%scale .6
+%%topspace -.75cm
+X: 10
+T: Flowers of Edinburgh, The
+I: Flowers of Edinburgh, The	R-14	G	reel
+M: C|
+R: reel
+K: G
+GE| "G"D2DE G2GA| BGBd cBAG| "D"FGEF DEFG| "D7"AFdF E2GE|
+    "G"D2DE G2GA| BGBd "C"efge| "G"dcBA "D"GFGA| "G"B2G2 G2 :|
+|:ef| "G"g2gf gbag| "D"f2fe fagf| "C"edef gfed| "Em"B2e2 e2ge|
+    "G"dBGB d2Bd| "C"edef g2fe| "G"dcBA "D"GFGA| "G"B2G2 G2 :|
+%%text Roaring Jelly  R-14
+
+%%vskip 6pt
+
+X: 9
+T: Pat d'Budgie
+I: Pat d'Budgie	R-106	C	reel
+C: Graham Townsend \2511961
+M: C|
+R: reel
+K: C
+"C"CB,CE G3 E| "F"FEFA "Dm"d3 c| "G7"BcBA G2 AB| "C"c2 BA GFED|
+"C"CB,CE G3 E| "F"FEFA "Dm"d3 c| "G7"BcBA G2 AB|1 "C"c2 cB c2 z2 :|2 "C"c2 cB cd e2 |]
+|:"F"f2 fe fg a2| "C"gage c2 Bc| "G7"dedB G2 AB|1 "C"c2 cB cd e2 :|2 "C"c2 cB c3 e|]
+|:"C"g2 z2 "F"a2 z2| "C"gage c2 Bc| "G7"dedB G2 AB|1 "C"c2 cB cd e2 :|2 "C"c2 cB c2 z2|]
+%%text Roaring Jelly  R-106
+
+%%vskip 6pt
+
+X: 5
+T: Batchelder's
+I: Batchelder's	R-54	F	reel
+M: C|
+R: reel
+K: F
+c2| "F"f2af "C7"efge| "F"f2c2- c2=Bc| "Bb"dcBA BAGF| "C7"EFGA Bcde|
+    "F"f2af "C7"efge| "F"f2c2- c2=Bc| "Bb"dcBA BAGF| "C7"EFGE "F"F2 z2:|
+|:"F"A2cA cAcA| "Bb"B2dB dBdB| "F"A2cA cAcA| "C7"BAGF EFGB|
+"F"A2cA cAcA| "Bb"B2dB dBdB| "F"Acfa "C7"bgeg| "F"f2a2 f4 :|
+%%text Roaring Jelly  R-54
+%%text 08/29/98
+
+#include "LeftHeader.h"
+% ---------- set 32 ----------
+% Green Fields of America (G) / Miss Thompson's (D) / Miss McLeod's (A)
+
+%%textfont       Times-Bold 13.0
+%%text Set 32
+%%textfont       Times-Roman 7.0
+%%scale .6
+%%topspace -.75cm
+X: 17
+%%musicspace	0pt
+T: Green Fields of America
+I: Green Fields of America	R-37	G	reel
+M: C|
+R: reel
+C: R-37
+K: G
+AB| "C"c2ec "G"B2dB| "Am"AGAB AGEF| "G"GAGE DEGB| "Am"AGAB AGEB|
+    "C"c2ec "G"B2dB| "Am"AGAB AGEF| "G"GAGE DEGA| "D"BGAF "G"G2 :|
+|:D2| "G"GABc d2ef| "C"gfge "G"dBGB| "C"c2ec "G"B2dB| "Am"AGAB AGE2|
+    "G"gfge dBGB| "Am"cABG AGEF| "C"GAGE "G"DEGA| "D"BGAF "G"G2 :|
+%%text Roaring Jelly  R-37
+
+X: 10
+%%musicspace	0pt
+T: Miss Thompson
+I: Miss Thompson	R-107	D	reel
+M: C|
+R: reel
+K: D
+(3ABc| "D"d2df edcB| "A"A2AB AGFE| "D"DFAF "G"DGBG| "D"DFAF "G"GFED|
+       "D"d2df edcB| "A"A2AB AGFE| "D"DFAd "A7"fedc| "D"d2dc d2:|
+|:cd| "A"ecec Acec| "D"fdfd Adfd| "G"gege "D"fdfd| "E7"edcB "A"A2FA|
+    "G"BGBG DGBd| "D"AFAF DFAd| FAde "A7"fedc| "D"d2dc d2:|
+%%text Roaring Jelly  R-107.
+
+X: 10
+%%musicspace	0pt
+%T: May Day
+I: May Day	R-23	A	reel
+T: Miss McLeod's Reel
+I: Miss McLeod's Reel	R-23	A	reel
+M: C|
+R: reel
+K: A
+cB|: "A"A2a2 fefa| c2cB cdcB| A2ag fefa| "E"B2BA BdcB|
+     "A"A2a2 fefa| cdcB cde2| "D"fgfe "A"cefg| afec "E"BdcB :|
+"A"ABcd ecAB| c2cB cdcB| ABcd ecAc| "E"BcBA BdcB|
+"A"ABcd ecAB| cdcB cde2| "D"fgfe "A"cefg| afec "E"BdcB |
+"A"A2cA EAcA| c2cB cdcB| A2cA eAcA| "E"BcBA BdcB|
+"A"A2cA EAcA| cdcB cde2| "D"fgfe "A"cefg| afec "E"BdcB |] "A - go out on" HA2 |]
+%%text Roaring Jelly  R-23
+%%text 05/28/99
+
+#include "RightHeader.h"
+% ---------- set 33 ----------
+% Medway Jig I (G) / Medway Jig II (G) / Medway Jig #3 (G)
+
+%%textfont       Times-Bold 13.0
+%%text Set 33
+%%textfont       Times-Roman 7.0
+$SmallLMargin
+$SmallRMargin
+%%topspace -.75cm
+X: 4
+T: Medway Jigs I, The (©1994 Paul Milde;J-43)
+I: Medway Jigs I, The	J-43	G	jig
+M: 6/8
+R: jig
+K: G
+GA| "G"BAB "C"cBc| "G"dBG "C"EFG| "G"DGA BAG| "D"ded dGA|    "G"BAG "C"cBA| "D"def "G"gdB| "C"ecA "D"FAF| cAF "G"G2D|
+    "G"GFG "C"ABG| "G"dBG "C"EFG| "G"DGA "Em"BAG| "D"ded dGA|    "G"BAG "C"cBA| "D"def "G"gdB| "C"ecA "D"FAF| DAF "G"G2|]
+d| "G"cAf "C"edg| "D"fef "G"gfg| "D"aga "G"bag| "A"fge "D"d2B|"G"b2g "D"agf| "C"efg "G"d2g| "C"efg "D"agf| "G"g3- g2d|
+"G"cAf "C"edg| "D"fef "G"gfg| "D"aga "G"bag| "A"fge "D"d2B|"G"b2g "D"agf| "C"age "G"d2B| "C"ced "D"cAF| "G"G3- G|]
+
+X: 5
+T: Medway Jigs II, The (©Paul Milde; J-43)
+I: Medway Jigs II, The	J-43	G	jig
+M: 6/8
+R: jig
+K: G
+"G"BAG BAG| BAG d2G| B2G "C"AGE| "D"D3 C3|"G"B,CD D2G| D2E G2A| B2d dcB| "D"A3- A2G|
+"G"BAG BAG| BAG d2G| B2G "C"AGE| "D"D3 C3|"G"B,CD D2E| D2E G2 A| "D"B2B AGA| "G"G3- G2 |]
+d| "G"Bcd dcB| "C"c2d g2d| "G"Bcd e2d| "C"c2B "D"A3|   "G"B2c dcB| "D"A2B c2A| "Em"GAB BAG| "D"A2F "G"G2d|
+   "G"Bcd dcB| "C"c2d g2d| "G"Bcd e2d| "C"c2B "D"A3|   "G"Bcd "D"c2A| "G"B2G "D"ABc| ABc "G"B2G| "D"A2F "G"G3|]
+
+X: 8
+T: Medway Jig #3 (©1997 Paul Milde;J54)
+I: Medway Jig #3	J-54	D	jig
+M: 6/8
+R: jig
+K: G
+D| "G"G3 "D"FGA| "G"G3 D2G| B2d dcB| "D"AGA "G"B2d|       d2c B2A| GAB "D"A2D| "G"G2G "D"F2G| AGF "G"G2 :|
+d| "C"e3 efg| "G"d3 dcB| "D"cBA "G"BAG| "Am"ABe "D"d2d|    "C"e3 efg| age "G"d2B| "C"cde "G"dcB| "D"FGA "G"G2d|
+   "C"e3 efg| "G"d3 dcB| "D"cBA "G"BAG| "Am"ABe "D"d2d|1    "C"e3 gfe| "G"ded B2G| "D"A2c "G"BAG| "D"FGA "G"G2 |] 
+P: Last time
+   "C"e3 gfe| "G"d3  B2d| "D"A2c "G"BAG| "D"FGA "G"G3|]
+%%text 05/5/99
+
+#include "LeftHeader.h"
+% ---------- set 34 ----------
+% Lad O'Beirne (D) / Devlin's (Bm) / Medway Jig II (G)
+
+%%textfont       Times-Bold 13.0
+%%text Set 34
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X: 15
+T: Lad O'Beirne
+I: Lad O'Beirne	J-37	D	jig
+M: 6/8
+R: jig
+K: D
+"D"d2F AGF| d2F AGF| "A"A,CE GFE| A,CE GFE|
+"D"DFA "G"G2B| "A"Adc "D"d2e| fed cBA| "A"GFE "D" D3:|
+|:"D"f=f^f a^ga| f2d de=f| "C"e=ce gfg| "A"e2^c cde|
+"D"f=f^f "G"gfg| "D"agf "A"efg| "D"fed cBA| "A"GFE "D" D3:|
+%%text Roaring Jelly  J-37
+
+%%vskip 6pt
+
+X: 9
+T: Devlin's
+I: Devlin's	J-46	Bm	jig
+M: 6/8
+R: jig
+K: Bm
+"Bm"d2B BAB| F2B BAB| "G"d2B Bcd| "A"cBc ABc|
+"G"d3 "A"e3| "Bm"f2b afe| "G"dcB "A"AFE| "Bm"FBB B2c:|
+|:"D"a3 f3| "A"e2A cBA| c2A cBA| "F#"cde f2e|
+"Bm"d2B BAB| F2B Bcd| "G"efg "A"fef| "Bm"dBB B3:|
+%%text Roaring Jelly  J-46
+
+%%vskip 6pt
+
+X: 5
+%%leftmargin     1.80cm
+%%staffwidth     18.0cm
+T: Medway Jigs II, The
+I: Medway Jigs II, The	J-43	G	jig
+C: Paul Milde  1994
+M: 6/8
+R: jig
+K: G
+"G"BAG BAG| BAG d2G| B2G "C"AGE| "D"D3 C3|"G"B,CD D2G| D2E G2A| B2d dcB| "D"(A3 A2)G|
+"G"BAG BAG| BAG d2G| B2G "C"AGE| "D"D3 C3|"G"B,CD D2E| D2E G2 A| "D"B2B AGA| "G"(G3 G2) |]
+d| "G"Bcd dcB| "C"c2d g2d| "G"Bcd e2d| "C"c2B "D"A3|   "G"B2c dcB| "D"A2B c2A| "Em"GAB BAG| "D"A2F "G"G2d|
+   "G"Bcd dcB| "C"c2d g2d| "G"Bcd e2d| "C"c2B "D"A3|   "G"Bcd "D"c2A| "G"B2G "D"ABc| ABc "G"B2G| "D"A2F "G"G3|]
+%%text Roaring Jelly  J-43
+%%text 08/29/98
+
+#include "RightHeader.h"
+% ---------- set 35 ----------
+% Lassies of Dunse (D) / Lads of Dunse (D) / Handsome Young Maids (A)
+%%scale .75
+%%textfont       Times-Bold 13.0
+%%text Set 35
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X: 10
+%%leftmargin 1.8cm
+%%staffwidth 18.0cm
+T: Lassies of Dunse, The
+I: Lassies of Dunse, The	J-47	D	jig
+$SmallLMargin
+$SmallRMargin
+M: 6/8
+R: jig
+K: D
+f/g/| "D"afd "A"ecA| "D"d2A A2=c| "G"BGB "D"AGF| "A"E2E E2f/g/|       "D"afd "A"ecA| "D"d2A A2G| FDF "A"ECE| "D"D3 D2:|
+|:F/G/| "D"AFA "G"BGB| "D"AFA d2A| "G"BGB "D"AGF| "A"E2E E2 f/g/|       "D"afa "A"geg| "Bm"fdf "A"ecA| "G"B/c/dB "A"c/d/ec| "D"d3 d2:|
+%%text Roaring Jelly  J-47
+
+X: 11
+$SmallLMargin
+$SmallRMargin
+T: Lads of Dunse, The
+I: Lads of Dunse, The	J-47	D	jig
+M: 6/8
+R: jig
+K: D
+B| "D"A2D DED| DED "G"B2A| Bcd "D"AFA| "G"BGE "A"E2d|    "D"A2D DED| DED "G"B2A| "Em"Bcd "A"AFd| "D"AFD D2 :|
+g| "D"fef d2e| fga "G"B2A| Bcd "D"AFA| "Em"BGE "A"E2g|    "D"fef d2e| fga "Em"B2A| "G"Bcd "A"AFd| "D"AFD D2g|
+   "D"fef d2e| fga "G"B2A| "Em"Bcd "D"AFA| "G"BGE "A"E2f/g/|    "D"afa "A"geg| "Bm"fdf "A"ece| "G"dcB "A"AFd| "D"AFD D2 |]
+%%text Roaring Jelly  J-47
+
+%%vskip 6pt
+
+X: 4
+T: Handsome Young Maids
+I: Handsome Young Maids	J-52	A	jig
+C: Charlie Lennon
+M: 6/8
+R: jig
+K: A
+"A"aed cBA| cde aga| "E"bee dee| Bee bag|
+"A"aed cBA| cde aga| "E"bee dee|1 BAG "A"A2e:|2 "E"BAG "A"A2|]
+B| "A"c2A ABc| "D"dcd "E"fed| "A"cAc aec| "E"B2f fed|
+   "A"c2A ABc| "D"dcd "E"fed| "A"ece "D"fed| "E"cdB "A"A2B|
+   "A"c2A ABc| "D"dcd "E"fed| "A"cAc aec| "E"B2f fed|
+   "A"c2A ABc| "D"dcd "E"fed| "A"ece "D"fef| "E"gfg bag|]
+%%text Roaring Jelly  J-52
+%%text 10/31/00
+
+#include "LeftHeader.h"
+% ---------- set 36 ----------
+% Young Tim Murphy (D) / Cuil Aodha (A) / All the Rage (E)
+
+%%textfont       Times-Bold 13.0
+%%text Set 36
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X: 12
+T: Young Tim Murphy
+I: Young Tim Murphy	J-48	D	jig
+C: Hartnett
+M: 6/8
+R: jig
+K: D
+F/G/| "D"AFD DFA| "G"Bcd "D"A2A| "G"Bcd "D"AGF| "G"GFG "A7"EFG|
+      "D"AFD DFA| "G"Bcd "D"B2A| "G"Bcd "D"F2E| FDD D2:|
+|:e| "D"fef "G"dBA| "Bm"Bdd d2e| "D"fef def| "G"gfg "A7"e2a|
+   "D"fed "G"B2d| "D"A2d F2A| "G"Bdd "A7"F2E| "D"FDD D2 :|
+%%text Roaring Jelly  J-48
+
+%%vskip 6pt
+
+X: 7
+T: C\'uil Aodha, The
+I: Cuil Aodha, The	J-53	A	jig
+M: 6/8
+R: jig
+K: A
+"A"aec dBG| A3 "E7"c2d| "A"edc dBA| "E7"GEE dcB|
+"A"A3 AGA| "E7"BAB gab| "D"age "E7"dBe| "A"ABA Ace:|
+|:"F#m"a2a aga| "E7"bef gab| "A"age "D"d2e| "B7"dBA "E7"GAB|
+"A"a2a aga| "E7"bef gab| "D"age "Bm"dBe| "E7"A3 "A"Ace:|
+%%text Roaring Jelly  J-53
+
+%%vskip 6pt
+
+X: 14
+T: All the Rage
+I: All the Rage	J-48	E	jig
+C: Larry Unger \2511989
+M: 6/8
+R: jig
+K: E
+e| "E"fgg gfe| fgg g2e| "A"cee "E"Bee| "F#m7"gfe "B7"f2e|
+   "E"fgg gfe| fgg g2b| "A"gfe "B7"fed| "E"e3- e2:|
+|:e| "A"cee "E"Bee| "A"cee "E"B2e| "A"ece "F#m7"fef| "E"gbg "B7"f2e|
+   "A"cee "E"Bee| "A"cee "E"B2b| "A"gfe "B7"fed| "E"e3- e2:|
+%%text Roaring Jelly  J-48
+%%text 08/29/98
+
+#include "RightHeader.h"
+% ---------- set 37 ----------
+% Hare in the Corn (G) / Reunion Jig (D) / Birthday Jig (G)
+
+%%textfont       Times-Bold 13.0
+%%text Set 37
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X: 1
+T: Hare in the Corn, The
+I: Hare in the Corn, The	J-51	G	jig
+M: 6/8
+R: jig
+K: G
+Bc| "G"d2B G2B| ded "C"cBA| "G"BAG "C"EDB,| EDB, "D"A,B,A,|
+    "G"G,B,D G,B,D| "C"EFG "D"Adc| "G"B2G dBG| "D"cAF "G"G:|
+|:Bc| "G"ded BGB| def g2e| "C"edB "G"gdB| gdB ABA|
+    "G"GBd GBd| "C"bag "D"(4efge| "C"edB "G"gdB| "D"cAF "G"G:|
+%%text Roaring Jelly  J-51
+
+%%vskip 10pt
+
+X: 15
+T: Reunion Jig
+I: Reunion Jig	J-49	D	jig
+C: Bruce A. Randall
+M: 6/8
+R: jig
+K: D
+D| "D"FAB AFD| FAB cde| "Bm"fBA Bde| fBA "G"BdB|
+   "D"AFG AFD| FAB Ade| "Bm"fBA "G"BdB| "A"AFE "D"D2:|
+|:d| "D"fga fdg| fag fdf| "Em"ega bge| geb geg|
+   "D"fda baf| def "A"edf| "Em"eBA "G"Bcd| "A"AFE "D"D2 :|
+%%text Roaring Jelly  J-49
+
+%%vskip 10pt
+
+X: 16
+T: Birthday Jig, The
+I: Birthday Jig, The	J-49	G	jig
+C: Laura Davidson
+M: 6/8
+R: jig
+K: G
+"G"GDE G3| "D"AdB ABA| "C"GED G2A| "D"BAB GED|
+"G"GDE G3| "D"AdB ABA| "C"GED G2A| "D"BGG "G"G3:|
+|:"Em"Bed BBA| "C(no E)"GAB "D(no F#)"GAB| "Em"Bed Bef| "G"ged BAG|
+"Em"Bed BBA| "C"GAB GED| "G"GDE G2A| "D"BGG "G"G3:|
+%%text Roaring Jelly  J-49
+%%text 08/29/98
+
+#include "LeftHeader.h"
+% ---------- set 38 ----------
+% Butcher's Row (G) / Lake Bay Reel (D) / Jelly Side Up (G)
+%%textfont       Times-Bold 13.0
+%%text Set 38
+%%textfont       Times-Roman 7.0
+%%scale .55
+%%topspace -.75cm
+X: 3
+T: The Butcher's Row (R-113)
+I: Butcher's Row, The	R-113	G	reel
+M: C|
+R: reel
+K: G
+d|: "G"BcdB G2gf| "C"edef gedc| "G"BcdB G2Bd| "D"cBAG F2D2|
+    "G"BcdB G2gf| "C"edef "G"gdef| "C"gfge "G"dedc| "D"BGAF "G"G2d2:|
+|:"G"gfga b2b2| "D"abag f2d2| "C"edef "G"gdBd| "D"cBAG F2D2|
+"G"GFGB "D"AGAc| "G"BGBd "C"edef| gfge "G"dedc| "D"BGAF "G"G2z2:|
+
+X: 4
+T: The Lake Bay Reel (©Frank Ferrel; R-113)
+I: Lake Bay Reel, The	R-113	D	reel
+M: C|
+R: reel
+K: D
+(3ABc| "D"d2dc dAFA| dcde fdAd| "A7"gfed cdef| gfed cABc|
+       "D"d2dc dAFA| dcde fdef| "A7"gfed cdec| Acec "D"d2 :|
+|:fg| "D"a2ab afdf| abaf d2ef| "A7"g2ga gecd| efec ABcA|
+    "D"dcde fdef| "G"gfga bagf| "A7"efec Acec| Acec "D"d2 :|
+
+X: 1
+T: Jelly Side Up (©Paul Milde; R-111)
+I: Jelly Side Up	R-111	G	reel
+M: C|
+R: reel
+K: G
+D2| "G"GFGA B2AG| d2Bc dcBd| g2fg "C"agef| agfe "G"d3B|
+   "Am"cBcd "D"ecA2| "G"B2GA B2G2| "D"A2Ac "G"B2AG| "D"FGAF "G"G3D|
+    "G"GFGA B2AG| d2Bc d2f2| g2fg "C"agfe| "G"d2Bc d3B|
+   "Am"cBcd "D"e2c2| "G"B2GA B2G2| "D"A2Ac "G"B2AG| "D"FGAF "G"G2|]
+Bc| "G"d2d2 g3d| "C"e2ge "G"d3B| "D7"cBce "G"d2cB| "Em"GABG "D"A2Bc|
+    "G"d2B2 g2d2| "C"egfe "G"d3B| "C"cedc "G"B2GB| "C"AG"D"FA "G"G2Bc|
+    "G"d4 g3d| "C"ecge "G"d3B| "D7"cBce "G"dcBA| "Em"GABG "D"A2d2|
+    "G"g3a "Em"gfed| "D"gfed "C"fedc| "G"B2GB "D"AGFA| "G"G6 |]
+%%text 08/29/98
+
+#include "RightHeader.h"
+% ---------- set 39 ----------
+% Reel de l'Hotelier (D) / Reel de Peribona (G) / Belle Katrine (C)
+
+%%textfont       Times-Bold 13.0
+%%text Set 39
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X: 5
+T: Reel d'Hotelier
+I: Reel d'Hotelier	R-114	D	reel
+M: C|
+R: reel
+K: D
+%%textfont       Times-Roman 9.0
+%%text Repeat both part 4 times
+%%vskip 4pt
+%%textfont       Times-Roman 7.0
+AG| "D"FDDD DFAd| "G"BGGF G2ed| "A"cAAA Aceg| "D"fddc d2 :|
+|:ef| "G"gagf g2b2| "D"abaf d2fa| "A"gece Aceg| "D"fddc d2 :|
+%%text Roaring Jelly  R-114
+
+%%vskip 10pt
+
+X: 6
+T: Reel de P\'eribonka
+I: Reel de Peribonka	R-114	G	reel
+%%staffsep 48pt
+M: C|
+R: reel
+K: G
+D2|: "G"GABA GEED| "D7"FGAG FDD2| "G"GABc dBge| "D7"dBAc "G"BGEF|
+     "G"GABA GEED| "D7"FGAG FDD2| "G"GABc dBge|1 "D7"dcAc "G"BGGD :|2      "D7"dcAc "G"BGG |]
+|:B| "G"dBBA dBBe| dBBA B2Be| dBBA Bdge| "D7"dcAc "G"BGGB|
+   "G"dBBA dBBe| dBBA B2GB| dBBA Bdge|1 "D7"dcAc "G"BGG :|2 "D7"dcAc "G"BGG2 |]
+%%text Roaring Jelly  R-114
+
+%%vskip 10pt
+
+X: 7
+T: Belle Katrine
+I: Belle Katrine	R-115	C	reel
+M: C|
+R: reel
+K: C
+%%textfont       Times-Roman 9.0
+%%text Repeat both parts 4 times
+%%vskip 4pt
+%%textfont       Times-Roman 7.0
+% NOTE: can modify PS files - look for end1 and change (1) to (1,3) & (2) to (2,4)
+"C"EGce dccc| EGce dccc| "G"Bcde fefg |1 ag^fg "C"eccc :|2 ag^fg "C"c4 |]
+|:"C"eg2g gagf| eggg "F"a4| "G"eggg bag^f |1 ag^fg "C"eccc :|2 ag^fg "C"c4 |]
+%%text Roaring Jelly  R-115
+%%text 08/29/98
+
+#include "LeftHeader.h"
+% ---------- set 40 ----------
+% Brenda Stubbert's (Am) / Gordon Cote (A) / Homeward Bound (D)
+
+$SmallLMargin
+$SmallRMargin
+%%textfont       Times-Bold 13.0
+%%text Set 40
+%%textfont       Times-Roman 7.0
+%%scale .66
+%%topspace -1cm
+X: 1
+T: Brenda Stubbert's (\251Jerry Holland; R-121)
+I: Brenda Stubbert's	R-121	A Dor	reel
+M: C|
+R: Reel
+K: ADor
+B|"Am"A/A/A BA GAAB| A/A/A BA edde| "G"G/G/G BA BGGB| "F"[c2G2]BA "G"BGGB|
+  "Am"A/A/A BA GAAB| A/A/A BA edda| "G"gedB GABd| e2dB "Am"eAA:|
+B| "Am"A/A/A a2 A/A/A g2| Aage ageg| "G"G/G/G BA BGGB| "F"[c2G2]BA "G"BGGB|
+   "Am"A/A/A a2 A/A/A g2| Aage agea| "G"gedB GABd| e2dB "Am"eAAB|
+   "Am"A/A/A a2 A/A/A g2| Aage ageg| "G"G/G/G BA BGGB| "F"[c2G2]BA "G"BGGB|
+   "Am"A/A/A BA GAAB| A/A/A BA edda| "G"gedB GABd| e2dB "Am"eAA|]
+
+%%topspace -.5cm
+X: 2
+T: Gordon Cot\'e (\251Jerry Holland; R-121)
+I: Gordon Cote	R-121	A	reel
+M: C|
+R: reel
+K: A
+E| "A"A2cA    EACE| A,CEA caga| "D"fdBd "A"ecAc| "Bm"BFBA "E"GBEG|
+   "A"A/A/AcA EACE| A,CEA caga| "D"fdBd "A"ecAc| "E"BEFG "A"A3 :|
+|:g| "A"abag aece| "D"fefg "A"aece| "D"fdBd "A"ecAc| "Bm"BFBA "E"GBEg|
+   "A"abag aece| "D"fefg "A"aecA| "D"FAdf "A"ecae| "E"dEFG "A"A3 :|
+
+%%topspace -.5cm
+X: 3
+T: Homeward Bound (R-121)
+I: Homeward Bound	R-121	D	reel
+M: C|
+R: reel
+K: D
+A,| "D"D2DE FEDF| A2AF    "Em"ABde| "D"f<aed "G"B2dB| "D"AFEF "A"DB,A,B,|
+    "D"D2DE FEDF| A/A/AAF "Em"ABde| "D"f<aed "G"B2dB| "A"AFEF "D"D/D/DD :|
+|:g| "D"fdfg afdf| "Em"e/e/eed "A"efg2| "D"fdfg afdf| "A"edef "D"d/d/ddg|
+   "D"fdfg afdf| "Em"e/e/eed "A"efg2| "D"f/g/aed "G"B2dB|1    "A"AFEF "D"D/D/DD :|2 "A"AFEF "D"DB,A,B, |]
+%%text 08/29/98
+
+#include "RightHeader.h"
+% ---------- set 41 ----------
+% Chorus Jig (D,G) / Opera Reel (D)
+
+%%textfont       Times-Bold 13.0
+%%text Set 41
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+$SmallLMargin
+$SmallRMargin
+X: 7
+T: Chorus Jig
+I: Chorus Jig	R-3	D/G	reel
+R: reel
+M: C|
+K: D
+AG| "D"F2DF ABAG|FADF A2d2| D3F ABAF|"A"GFEF G2:|
+[K: G]Bc| "G"dBcA BGFG|"D"Ad^cd A2B=c| "G"dBcA BGFG| "D"AcBA "G"G2Bc|
+"G"dBcA BGFG| "C6"ABcd efge| "G"dBcA BGFG| "D"AcBA "G"G2|] 
+[K: D]|:ag| "D"fddd fddd| fdfg "A"abag| "D"fddd fddd| "C"=cdef g2:| 
+[K: G]Bc| "G"dBcA BGFG| "D"Ad^cd A2B=c| "G"dBcA BGFG|"D"AcBA "G"G2Bc|
+    "G"d2 (3cdc BGFG| "C6"ABcd efge| "G"dBcA BGFG|"D"AcBA "G"G2|]
+%%text Roaring Jelly  R-3
+
+X: 2
+T: Opera Reel
+I: Opera Reel	R-52	D	reel
+M: C|
+R: reel
+K: D
+(3A,B,C |: "D"D2D2 FEFA| DCDF "A"EDCA,| "D"D2D2 FEFA|1           "G"BdAF "A"EDCE :|2 "G"BdAF "A"(3EEE |]
+|:(3ABc| "D"dcec dAFA| Adcd "A"egfe| "D"dcec dAFA| "G"BdAF "A"E2 :|
+|:fg| "D"afaf "A"gfge| "D"fafe "A"dcBA| "D"afaf "G"gfge| "A"faec "D" d2 :|
+|:(3ABc| "D"defd "A"efge| "D"faec "A"dcBA| "D"defd "G"efge| "A"faec "D"d2 :|
+%%text  Roaring Jelly  R-52
+%%text 10/27/99
+
+#include "LeftHeader.h"
+% ---------- set 42 ----------
+% Petronella (D) / Green Mountain Petronella (G) / Petronella (D)
+
+%%textfont       Times-Bold 13.0
+%%text Set 42
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X: 7
+T: Petronella
+I: Petronella	R-13	D	reel
+M: C|
+R: reel
+K: D
+dA| "D"F2AF "A"E2AF| "D"D2D2 D2FA| d2cd "E"e2d2| "A"cdBc A2dA|
+    "D"F2AF "A"E2AF| "D"D2D2 D2FA| d2cd "A"e2c2| "D"d6 :|
+|:dA| "D"F2fd "D7"A2af| "G"g2gf "Em"edcB| "A"A2ec A2ge| "D"f2fd AdAF|
+    "D"D2fd "D7"A2af| "G"g2gf "Em"edcB| "A"A2ec Agec| "D"d6 :|
+%%text Roaring Jelly  R-13
+
+%%vskip 10pt
+
+X: 5
+T: Green Mountain Petronella
+I: Green Mountain Petronella	R-42	G	reel
+M: C|
+R: reel
+K: G
+"G"D2G2 GFGE| D2B2 BGAB| "D"c2cB ABcd| "C"e2d2 "G"d4|
+"G"D2G2 GFGE| D2B2 BGAB| "D"c2A2 AGFG| "G"A2G2 G2z2 :|
+|:Bd| "G"gggz  "D"fffz| "C"efge "G"dBGB| "C"edef "G"g2B2| "D"B2A2 A2Bd|
+   "Em"gggz "Bm"fffz| "C"efge "G"dBGB| "C"edef "G"g2B2|1 A2 G2G2:|2 A4 GGz2|]
+%%text Roaring Jelly  R-42
+%%text 09/30/98
+
+#include "RightHeader.h"
+% ---------- set 43 ----------
+% Off She Goes (D) / Saddle the Pony (G) / The Ruddy Turnstone (D)
+
+%%textfont       Times-Bold 13.0
+%%text Set 43
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X: 24
+T: Off She Goes
+I: Off She Goes	J-8	D	jig
+M: 6/8
+R: jig
+K: D
+A| "D"F2A "G"G2B| "A"ABc "D"d2A| F2A "G"G2B| "D"AFD "A"E2D|
+   "D"F2A "G"G2B| "A"ABc "D"d2e| fed "G"g2f| "A"edc "D"d2 :|
+|:g| "D"f/g/af d2f| "G"g/a/bg "Em"e2g| "D"f/g/af d2f| "A"ecA A2g|
+   "D"f/g/af d2f| "G"g/a/bg "Em"e2g| "D"fed "G"g2f| "A"edc "D"d2 :|
+%%text Roaring Jelly  J-8
+
+X: 27
+T: Saddle the Pony
+I: Saddle the Pony	J-8	G	jig	Set 43
+I: Red Stocking, The	J-8	G	jig	Set 43
+M: 6/8
+R: jig
+K: G
+(3D/E/F/| "G"GBA G2B| "D"def "G"gdB| GBA G2B| "D"AFD AFD|
+          "G"GBA G2B| "D"def "G"gfg| "C"ecA "G"dBG| "D"FEF "G"G2 :|
+|:(3A/B/c/| "G"ded dcB| "D"def "G"gdB| ded dcB| "D"AFD AFD|
+          "G"ded dcB| def gfg| "C"ecA "G"dBG| "D"FEF "G"G2 :|
+%%text Roaring Jelly  J-8
+
+$SmallLMargin
+$SmallRMargin
+X: 7
+T: Ruddy Turnstone, The
+I: Ruddy Turnstone, The	J-54	D/A	jig
+I: Noel Stone's Jig	J-54	D/A	jig
+C: J. M. Graetz
+M: 6/8
+R: jig
+K: D
+AG|: "D"FGA A2A| "Em"B3- BAG| "D"FDF GAB| "A7"E3- EAG|
+"D"FDD D2A| "G"BGG "(Em)"EFG|1 "D"ABA AGF| "A7"E3- EAG :|2 "A7"ABA GFE| "D"D2E "E7"F2|]
+[K:A]|:^G| "A"A3 Bcd| e3- edc| "E"BGB dcB| "A"cBA "E"Bcd|
+    "A"ecc c2e| "Bm"fdd B2A| "E7"GEG dcB|1 "A"A2E "E7"F2 :|2                                         | "A"A2z "A7"=G3|]
+%%text Roaring Jelly  J-54
+%%text 08/29/98
+
+#include "LeftHeader.h"
+% ---------- set 44 ----------
+% The Eavesdropper (G) / Knights of St Patrick (D) / Pet of the Pipers (G)
+
+%%textfont       Times-Bold 13.0
+%%text Set 44
+%%textfont       Times-Roman 7.0
+%%scale .6
+%%topspace -.75cm
+X: 14
+T: Eavesdropper, The
+I: Eavesdropper, The	J-58	G	jig	Set 44
+M: 6/8
+R: jig
+K: G
+GE| "G"DBB BAG| Bdd dBG| "C"cde "G"dBG| "Am"BAA "D"AGE|
+    "G"DBB BAG| Bdd dBG| "C"cde "G"dBA| "D"AGF "G"G :|
+|:Bd| "G"g3  "D"afd| "C"efg "G"dBG| "C"cde "G"dBG| "Am"BAA ABd|
+    "G"g2b "D"afd| "C"efg "G"dBG| "C"cde "G"dBA| "D"AGF "G"G :|
+%%text Roaring Jelly J-58
+
+X: 15
+%%musicspace 0pt
+T: Knight's of Saint Patrick
+I: Knight's of Saint Patrick	J-58	D	jig	Set 44
+M: 6/8
+R: jig
+K: D
+"D"dcd faf| dcd AFD| "G"GBG FAF| "A"EFG ABc|
+"D"d3 faf| dcd AFD| "G"GBG "D"FAF |1 "A"EDE D2A :|2 "A"EDE D2f |]
+"D"aga fdf| aba agf| "A"g3 gec| Ace gfe|
+"D"aga fdf| aba afg| afd "Em"bge| "A"edc "D"d2f|
+"D"aga fdf| aba agf| "A"g3 gec| Ace gfe|
+"D"d3 "Em"ede| "F#m"fef "G"gfg| "D"afd "Em"bge| "D"dAF D2 "(A)"A |]
+%%text Roaring Jelly J-58
+
+X: 10
+%%musicspace 0pt
+T: Pet of the Pipers
+I: Pet of the Pipers	J-56	G	jig	Set 44
+M: 6/8
+R: jig
+K: G
+"G"G3 BAG| dBG gdB| G3 BAG| "Am"FED "D"cBA|
+"G"G3 BAG| dBG g2d| "C"efg "G"dBG |1 "D"cAF "G"G2D :|2 "D"cAF "G"GBd |]
+|:"C"g3 efg| "D"agf "G"ged| "C"g3 efg| "D"agf "G"g2d|
+"C"gfe "G"dcB| "C"edc "G"BAG| "C"efg "G"dBG| "D"cAF "G"G3 :|
+%%text Roaring Jelly J-56
+%%text 08/29/98
+
+#include "RightHeader.h"
+% ---------- set 45 ----------
+% Swallow's Nest (D) / Ship in Full Sail (G) / Port an Brathair (D)
+
+%%textfont       Times-Bold 13.0
+%%text Set 45
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X: 12
+T: Swallow's Nest, The
+I: Swallow's Nest, The	J-57	D	jig	Set 45
+M: 6/8
+R: jig
+K: D
+A/c/| "D"dcd fdc| dAG FED| FAd "A"cAF| E=CE "A7"GFE|
+      "D"DFA dAF| "Em"EGB "A7"efg| "D"f/f/df "A7"gec| edc "D"d2 :|
+|:f/g/| "D"a>ba fdf| "A7"gag ecA| "D"fef "A7"gfg| ecA GFE|
+      "D"DFA dAF| "Em"EGB "A7"efg |1 "D"f/f/df "A7"gec| edc "D"d2 :|2      "D"f2f "A"gec| edc "D"d2 :|
+%%text Roaring Jelly J-57
+
+%%vskip 6pt
+
+X: 11
+T: Ship in Full Sail
+I: Ship in Full Sail	J-56	G	jig	Set 45
+M: 6/8
+R: jig
+K: G
+"G"DGG BGG| dGG Bdd| "C"ege "G"dBG| "Am"ABA "D"AGE|
+"G"DGG B3| "G"dGG Bdd| "C"ege "G"dBG| "D"ABA "G"G3 :|
+|:"G"dgg bgg| "D"aga "Em"bge| "G"dgg bgg| "D"a2a age|
+"G"dgg bgg| "D"aga "Em"bgd| "C"ege "G"dBG| "D"ABA "G"G3 :|
+%%text Roaring Jelly J-56
+
+%%vskip 6pt
+
+X: 13
+T: Port an Bhrathar
+I: Port an Bhrathar	J-57	D	jig	Set 45
+M: 6/8
+R: jig
+K: D
+%%textfont       Times-Roman 9.0
+%%text Repeat both parts 4 times
+%%textfont       Times-Roman 7.0
+%%text
+   "D"d2e "Bm"fdB| "D"d2e "Bm"fdB| "D"AFE "A"EFA |1 "D"AFE "A"EFA :|2 AFD "D"D3 |]
+|: "G"B3 "D"BAF| "A"ABc "D"d2B| AFE "A"EFA |1 "D"AFE "A"EFA :|2 AFD "D"D3 |]
+|: "G"gag "D"fgf| "A"ede "Bm"fdB| "D"AFE "A"EFA |1 "D"AFE "A"E2f :|2 AFD "D"D3 |]
+%%text Roaring Jelly J-57
+%%text 08/29/98
+
+#include "LeftHeader.h"
+% ---------- set 46 ----------
+% Skipping Cat (G) / Cuffy (G) / Grand Picnic (D)
+
+%%textfont       Times-Bold 13.0
+%%text Set 46
+%%textfont       Times-Roman 7.0
+%%scale .75
+%%topspace -1cm
+X:1
+T: Skippin' Cat
+I: Skippin' Cat		R-122	G	reel
+C: Jack Link \2511986
+M: C|
+R: reel
+K: G
+B,C| "G"DCB,C DCB,C| DGBG "C"c2 Bc| "G"dedc BAG=F| "C"EC3 C2B,C|
+     "G"DCB,C DCB,C| DGBG "C"cdef| "D"gage dBAc |1 "G"BG3 G2 :|2 "G"BG3 G4|]
+|:"D"A3c "G"B2d2| "D"ABcA "G"BG3| "D"A3c Bdef| gedc "G"BG3|
+"D"A3c "G"B2d2| "D"ABcA "G"Bdef| "D"gage dBAc |1 "G"BG3 G4 :|2 "G"BG3 G2|]
+%%text Roaring Jelly  R-122
+
+X: 2
+T: Cuffy
+I: Cuffy		R-122	G	reel
+M: C|
+R: reel
+K: G
+ef| "G"gfed BdBG| DEGA B4| "D"DFAB cBcd| "G"edBc d2ef|
+    "G"gfed BdBG| DEGA B4| "D"DFAB cAFD| "G"G6 :|
+|:Bc| "G"d4 d4| dedc Bcd2| "C"e4 e4| efed Bdef|
+    "G"g2ga gfef| gfed BdBG| "D"DFAB cAFD| "G"G6 :|
+%%text Roaring Jelly  R-122
+
+X: 3
+$SmallLMargin
+$SmallRMargin
+T: Grand Picnic
+I: Grand Picnic		R-123	D	reel
+M: C|
+R: reel
+K: D
+"D"DFAB AFEF| DFAd fedf| "G"edBc "Em"dBAB| "A"AFE2 E2FE|
+"D"DFAB AFEF| DFAd fedf| "G"edBc "Em"dcdB |1 "A"AFE2 "D"D2FE :|2 "A"AFE2 "D"D2de|]
+|:"D" fefg a2a2| fefg a2fa| "G"g2ge "D"fedf| "Em"edef "A"edB2|
+"D"dcdA BAFE| DFAd fedf| "G"edBc "Em"dcdB | "A"AFE2 "D"D4 :|
+%%text Roaring Jelly  R-123
+%%text 08/29/98
+
+#include "RightHeader.h"
+% ---------- set 47 ----------
+% Reel des Acadiens (A) / Reel du Brae (A Dor) / Reel des Accordeonistes (D)
+
+%%textfont       Times-Bold 13.0
+%%text Set 47
+%%textfont       Times-Roman 7.0
+%%scale .65
+$SmallLMargin
+$SmallRMargin
+%%topspace -.75cm
+X:1
+T: Reel des Acadiens
+I: Reel des Acadiens	R-125	A	reel
+C: E. Arsenault
+M: C|
+R: reel
+K: A
+af| "A"eece AAce| fece "D"feaf| "A"eece "D"feaf| "A"ecAc "E"B2af|
+    "A"eece AAce| fece "D"feaf| "A"eece "D"feaf |1 "A"ec"E"Bc "A"A2 :|2 "A"ec"E"Bc "A"A3 |]
+|:A| "A"ABcd eeea| "D"feaf "A"ecBc| ABcd eeea| "B7"fecA "E"B2BB|
+   "A"ABcd eeea| "D"feaf "A"ecBc| ABcd eeaf |1 "E"ecBc "A"A3 :|2 "E"ecBc "A"A2 |]
+%%text Roaring Jelly  R-125
+
+X: 2
+T: Reel du Brae
+I: Reel du Brae		R-124	A Dor	reel
+M: C|
+R: reel
+%%musicspace 0pt
+K: ADor
+"Am"A,B,CD EA,A,G,| A,B,CD EA,A,D| "Em"EFGA BG"D"Ad| "G"BGdG eGdG|
+"Am"A,B,CD EA,A,G,| A,B,CD EA,A,D| "Em"EFGA BA"C"Gc| "G"BAGB "Am"A2A2 :|
+|:"Am"eaab agea| gabg abef| "G"gage degd| egdB cABG|
+"Am"eaab agea| gabg abef| "C"gage "G"dBGB| cABG "Am"A2AA :|
+%%text Roaring Jelly  R-125
+
+X: 3
+T: Reel des Accorde\'onistes
+I: Reel des Accordeonistes	R-124	D	reel
+C: Marcel Messervier
+M: C|
+R: reel
+K: D
+FG| "D"A2df "G"edcB| "D"ABAG F2EF| "A"GAGF EBBB| "D"ABAG FDFG|
+    "D"A2df "G"edcB| "D"ABAG F2EF| "Em"GFEF "A"GABc| "D"dfec d2 :|
+|:A2| "G"(3BcB GB d2cB| "D"(3ABA FA dAFA| "A"GECE A,ECE| "D"DEFG A2FA|
+    "G"(3BcB GB d2cB| "D"(3ABA FA d2cd| "A"efed cBAG| FABc "D"d2 :|
+%%text Roaring Jelly  R-124
+%%text 03/24/99
+
+#include "LeftHeader.h"
+% ---------- set 48 ----------
+% Roddy McCorley (G) / Bonaparte Crossing the Rhine (D) / Mount Cashel's Brigade (A)
+
+%%textfont       Times-Bold 13.0
+%%text Set 48
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X: 1
+T: Roddy McCorley
+I: Roddy McCorley	R-130	G	march	Set 48
+M: C
+R: march
+K: G
+GA| "G"B2 AB D2GA| B3A G2 DD| "C"E2 G2 "D7"G2 A2| "G"(G4 G2) Bc|
+    "G"d2 d2 d2 Bd| "C"e2 e2 "G"d2 BA| "Em"G2 E2 "Am"c2 B2| "D7"(A4 A2) Bc|
+    "G"d2 d2 "G7"d2 Bd| "C"e2 e2 "G"d2 BA| "Em"G2 E2 "Am"c2 B2| "D7"(A4 A2) GA|
+    "G"B2 AB D2GA| "B7"B3A "Em"G2 DD| "C"E2 G2 "D7"G2 A2| "G"(G4 G2) |]
+%%text Roaring Jelly R-130
+
+%%vskip 6pt
+
+X: 2
+T: Bonaparte Crossing the Rhine
+I: Bonaparte Crossing the Rhine	R-130	D	march	Set 48
+M: C
+R: march
+K: D
+FG| "D"A>BAF A2de| f>efa d2dc| "G"B>cdB "D"AFED| "A"E2EF E2FG|
+    "D"A>BAF A2de| f>efa d2dc| "G"B>cdB "D"AF"A"EF| "D"D2D>E D2de|
+    "D"f>efg a2aA| "G"B>ABc "D"d3A| "G"B>cdB "D"AFDF| "A"E2E>F E2FG|
+    "D"A>BAF A2de| f>efa d2dc| "G"B>cdB "D"AF"A"EF| "D"D2D>E D2 |]
+%%text Roaring Jelly R-130
+
+%%vskip 6pt
+
+X: 3
+T: Mount Cashel's Brigade
+I: Mount Cashel's Brigade	R-12	A	march	Set 48
+M: C
+R: march
+K: A
+E2| "A"A2c>B ABAF| E>FED C2E2| A2c>B ABcd| "E"B2e>f edcB|
+    "A"A2c>B ABAF| E>FED C2E2| "E"edcB cBAG| "A"A2A>B A2 (3Bcd|
+    "A"e>fed c>dcB| A2AB cABc| "E"d>edc B>cBA| G2E>F GEFG|
+    "A"A2A2 "E"GBGE| "D"F>EFG A2f2| "A"e>fec "E"dBGE| "A"A2A>B A2 |]
+%%text Roaring Jelly R-12
+%%text 09/13/98
+
+#include "RightHeader.h"
+% ---------- set 49 ----------
+% Kesh Jig (G) / Morrison's (E Dor) / Stan Chapman (A)
+
+%%textfont       Times-Bold 13.0
+%%text Set 49
+%%textfont       Times-Roman 7.0
+%%scale .6
+%%topspace -.75cm
+X:1
+T: Kesh Jig (J-18)
+I: Kesh Jig	J-18	G	jig	Set 15
+I: Kincora Jig	J-18	G	jig	Set 15
+M: 6/8
+R: jig
+K: G
+D| "G"G3 GAB| "D"ABA ABd| "G"edd gdd| edB "D"dBA|
+   "G"G3 GAB| "D"ABA ABd| "G"edd gdB| "D"AGF "G"G2 :|
+|:A| "G"B3 dBd| "C"ege "G"dBG| BAB dBG| "Am"ABA AGA|
+   "G"B3 dBd| "C"ege "G"dBd| "C"g3 "D"aga| "G"bgg g2 :|
+
+%%topspace 0
+X: 2
+T: Stan Chapman (J-62)
+I: Stan Chapman	J-62	A	jig
+C: Jerry Holland
+R: jig
+M: 6/8
+K: A
+F| "A"E3 EFA| "E"B3 Bce| "D"fea "F#m"fec| "Bm"ecA "E"BAF|
+   "A"E3 EFA| "E"B3 Bce| "D"fea "E"fec| "A"ecA A2 :|
+|:f| "A"e3 ecA| "D"f3 fga| "A"fec BAB| "F#m"cAF F2f|
+[1 "A"e3 ecA| "D"f3 fga| fec "E"BAB| "A"cAA A2 :|
+[2 "A"ecA ecA| "D"fdf fga| fec "E"BAB| "A"cAA A2 |]
+
+X: 3
+T: Morrison's Jig (J-26)
+I: Morrison's Jig	J-26	E Dor	jig
+M: 6/8
+R: jig
+K: Edor
+"Em"E3 BEB| EBE "D"AFD| "Em"E3 BEB| "D"dcB AGF|
+"Em"E3 BEB| EBE "D"AFD| "G"G2G FGA| "D"dAG FED :|
+"Em"Bee fee| aee "D"fed| "Em"Bee fee| "D"fag fed|
+"Em"Bee fee| bee "D"fed| edc d2A| "B7"BAG F3|
+"Em"Bee fee| aee "D"fed| "Em"Bee fee| "D"faf def|
+"G"g2g gfe| def g2d| "D"edc d2A| "B7"BAG F3|] "Em - go out on"HE4|]
+%%text 10/27/99
+
+#include "LeftHeader.h"
+% ---------- set 50 ----------
+% Reel des Onions (G) / St. Antoinne (A) / Caribou (Edor)
+
+%%textfont       Times-Bold 13.0
+%%text Set 50
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X:1
+T: Reel des Onions
+I: Reel des Onions	R-107	G	reel
+M: C|
+R: reel
+K: G
+"G"gage d2"G#o"Bd| (3"Am"cdc A2 A4| "D"feee eddd| dccc c2B2|
+"G"gage d2"G#o"Bd| (3"Am"cdc A2 A4| "D"D2fe dcBA|1 "G"G2g2 g4:|2 "G"G2g2 g2 |]
+|:Bc| "G"d2g2 ggfg| "Am"a6 (3ABc| "D"d2a2 aaga| "G"b6 Bc|
+    "G"d2g2 ggfg| "Am"a6 (3ABc| "D"d2a2 aaba|1 "G"g6 :|2 "G"g8 |]
+%%text Roaring Jelly  R-107
+
+X: 2
+T: Reel St. Antoinne
+I: Reel St. Antoinne	R-132	A	reel
+R: reel
+M: C|
+K: A
+"A"a3a aece| aaa2-aece| agfe "A#o"dcBA| "Bm"GABc "E7"defg|
+"A"a3a aece| agab aece| agfe "Bm"dcBA| "E7"GABc "A"A4 :|
+|:"A"c3c cAce| dcBA "A#o"GABc| "Bm"d3d dBdf| edcB AGAB|
+"F#m"c3c cAce| "Bm"dcBA GABc| "E7"defg afed| cdBc "A"A4 :|
+%%text Roaring Jelly  R-132
+
+X:3
+T: Caribou
+R: reel
+M: C|
+K: Edor
+"Em"B2ED EFGA| B2ED EFGE| "D"D2FD DADD| BDDA DDFD|
+"Em"E2ED EFGA| Bdef g2fg| "C"afge "D"efec |1 "D"dBAF "Em"EdcA :|2 "D"dBAF "Em"E4|]
+|:"Em"Be2B efed| Bdef edBd| "D"Ad2A d3e| fedf edBA|
+"Em"Be2B efed| Bdef g2fg| "C"afge "D"efec| dBAF "Em"E4 :|
+%%text Roaring Jelly  R-135
+%%text 3/24/99
+
+
+
+#include "RightHeader.h"
+% ---------- set 51 ----------
+% Money in Both Pockets (D) / Old Favorite (G) / Jump at the Sun (Gm)
+%%textfont       Times-Bold 13.0
+%%text Set 51
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X: 28
+T: Money in Both Pockets
+I: Money in Both Pockets	J-9	D	jig
+M: 6/8
+R: jig
+K: D
+A| "D"d2F "A"FEF| "D"DFA AFD| d2F "A"FEF| "D"D2f fef|
+   "D"d2F "A"FEF| "D"DFA AFD| "Em"EFE EFG| "A"BBB B2:|
+|:A| "D"dfa afd| "A"cea ecA| "D"dfa afd| "G"g3 fga|
+   "G"bag "D"agf| "A"ede "D"fdB| ABA AFA| "G"BBB B2 :|
+%%text Roaring Jelly  J-9
+
+X: 141
+T: Old Favorite
+R: jig
+M: 6/8
+K: G
+"G"B3 BAB| dBA G2B| ded d2B| ded "D"B2A|
+"G"B3 BAB| dBA G2B| ded "D"cBA| "G"G3 G3 :|
+|:"G"g3 "D"f3| "C"efe "G"d2B| ded d2B| ded Bdf| "G"g3 "D"f3|
+"C"efe "G"d2B|1 "D"dge dBA| "G"G3 G3 :|2 "G"dge dge| dge "D"dBA |]
+%%text Roaring Jelly  J-63
+
+X: 116
+T: Jump At the Sun
+I: Jump At the Sun	J-50	Gm	jig
+C: John Kirkpatrick  \2511972
+M: 6/8
+R: jig
+K: Gm
+"Gm"GBd ^c2d| GBd ^c2d| gdd gdd| dcB "D"A3|
+"Gm"GBd ^c2d| GBd ^c2d| gdd "Cm"ed=c| "D7"BcA "Gm"G3:|
+|:d| "Gm"gdd bag| "D7"add c'ba| "Gm"bag bag| "D"a^fd "D7"e2d|
+   "Gm"gdd bag| "D7"add c'ba| "Gm"gdd "Cm"edc| "D7"BcA "Gm"G2:|
+%%text Roaring Jelly  J-50
+%%text 03/24/99
+
+#include "LeftHeader.h"
+% ---------- set 52 ----------
+% Miss Thompson (D) / Spootiskerry (G) / Mason's Apron (A)
+
+%%textfont       Times-Bold 13.0
+%%text Set 52
+%%textfont       Times-Roman 7.0
+%%scale .6
+%%topspace -.75cm
+X:1
+T: Miss Thompson
+I: Miss Thompson	R-107	D	reel
+M: C|
+R: reel
+K: D
+(3ABc| "D"d2df edcB| "A"A2AB AGFE| "D"DFAF "G"DGBG| "D"DFAF "G"GFED|
+       "D"d2df edcB| "A"A2AB AGFE| "D"DFAd "A7"fedc| "D"d2dc d2:|
+|:cd| "A"ecec Acec| "D"fdfd Adfd| "G"gege "D"fdfd| "E7"edcB "A"A2FA|
+    "G"BGBG DGBd| "D"AFAF DFAd| FAde "A7"fedc| "D"d2dc d2:|
+%%text Roaring Jelly  R-107.
+
+X: 2
+T: Spootiskerry
+I: Spootiskerry	R-78	G	reel
+C: Ian Burns \2511980
+M: C|
+R: reel
+K: G
+DE| "G"G2DE GDEG| DEGA "D"B2AB| "G"G2DE "Em"GABd| "C"eged "D"B2AB|
+    "G"G2DE GDEG| DEGA "G7"B2AB| "C"g2ed "Am"edBA| "D7"dBAB "G"G2:|
+ef| "Em"g2ed edB2| BABG "C"E2DE| "G"GABd "Em"eged| "A7"B2A2 "D7"A2ef|
+    "Em"g2ed edB2| BABG "C"E2DE| "G"GABd "C"eged| "D"B2G2 "G"G2ef|
+    "Em"g2ed edB2| BABG "C"E2DE| "G"GABd "Em"eged| "A7"B2A2 "D7"A2DE|
+    "G"G2DE GDEG| DEGA "G7"B2AB| "C"g2ed "Am"edBA| "D7"dBAB "G"G2 |]
+%%text Roaring Jelly  R-78
+
+X: 3
+T: Mason's Apron
+I: Mason's Apron	R-7	A	reel
+M: C|
+R: reel
+K: A
+ed| "A"c2A2 ABAF| EFAB dcBA| "Bm"d2B2 BcBA| Bcde gfed|
+    "A"c2A2 ABAF| EFAB dcBA| "D"Bcde "Bm"fefa| "E"edcB "A"A2 :|
+|:ed| "A"cAeA fAeA| cAeA fedc | "Bm"dBfB gBfB| dBfB "E"gfed|
+    "A"cAeA fAeA| cAeA fedc | "D"Bcde "Bm"fefa| "E"edcB "A"A2 :|
+%%text Roaring Jelly  R-7
+%%text 05/28/99
+
+#include "RightHeader.h"
+%%scale .7
+% ---------- set 53 ----------
+% Road to California (D) / Far From Home (G) / Wissahickon Drive (A)
+
+%%textfont       Times-Bold 13.0
+%%text Set 53
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X:1
+T: Road to California
+I: Road to California	R-133	D	reel
+R: reel
+M: C|
+K: D
+A,2| "D"D2DE FEFE| DFAB AF- FA| "G"dcBA GFED| "A"CDE2 E2FE|
+"D"D2DE FEFE| DFAB AF- FA| "G"dcBA GFED|1 "A"CDE2 "D"D2 :|2 "A"CDE2 "D"D4 |]
+|:"G"D2B2 B4| BABc dcBA| "D"F2A2 ABAG| FEFG ABAF|
+"G"D2B2 B4| BABc dcBA| "D"F2D2 DEFD|1 "A"EDC2 "D"D4 :|2 "A"EDC2 "D"D2 |]
+%%text Roaring Jelly  R-133
+
+X: 2
+T: Far From Home
+I: Far From Home	R-43	G	reel	Set 23, 53
+M: C|
+R: reel
+K: G
+D2| "G"GEDE G2GA| B2BA Bcd2|    GEDE    G2GB| "Am"AGAB "D"AGEF|
+    "G"GEDE G2GA| B2BA Bcd2| "C"edef "G"gedc| "D"BGAF "G"G2 :|
+|:d2| "Em"g2ge "D"f2fd| "C"edef "G"edBd| gedB G2B2| "Am"AGAB AG E2|
+     "G"GEDE G2 GA| B2BA Bcd2| "C"edef "G"gedc| "D"BGAF "G"G2 :|
+%%text Roaring Jelly  R-43
+
+X: 3
+T: Wissahickon Drive
+I: Wissahickon Drive	R-134	A	reel
+C: Liz Carroll
+R: reel
+M: C|
+K: A
+"A"EFAB cBAB| ceef ecBA| "Bm"F2dF edde| "D"f2ef "E"ecBA|
+"A"EFAB cBAB| c2ef eAce| "D"fagf "A"eAcA| "E"BEGB "A"A4 :|
+|:"A"a2ga baga| "D"fAde fagf| "A"eAce aece| aedc "E"B2fg|
+"A"a2ga baga| "D"fAde fagf| "A"eAce "D"aedc| "E"BEGB "A"A4 :|
+%%text Roaring Jelly  R-134
+%%text 05/05/99
+
+#include "LeftHeader.h"
+%%scale .7
+% ---------- set 54 ---------
+% Girl I Left Behind Me (G) / Leather Away the Wattle O (D) / Reel de Montreal (G/D)
+
+%%textfont       Times-Bold 13.0
+%%text Set 54
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X:1
+T: Girl I Left Behind Me, The (R-3)
+I: Girl I Left Behind Me, The	R-3	G	reel
+I: Brighton Camp	R-3	G	reel
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: G
+gf| "G"e2d2 B2G2| "C"ABAG E2(3DEF| "G"G2G2 GABc|"D7"d4 B2gf|
+    "G"e2d2 B2G2| "C"ABAG E2G2| "D"F2A2 D2EF| "G"G4 G2 :|
+|:GA| "G"B2d2 e2f2| g2d2 B2A2| BGBd edef| g2ag "D"f2gf|
+    "G"e2d2 B2G2| "C"ABAG E2G2| "D"F2A2 D2EF| "G"G4 G2 :|
+
+%%topspace 0
+X: 2
+T: Leather Away the Wattle O (R-39)
+I: Leather Away the Wattle O	R-39	D	reel
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+fe| "D"d2A2 F2A2| d3d d2f2| "G"e2d2 c2d2| "A"e2f2 g2fg|
+    "D"(3a2g2f2 "A"g2e2| "D"d2c2 "A"A2F2| "Em"G2B2 "A"ABAG| "D"F2D2 D2 :|
+|:e2| "D"f2ff f2d2| "G"g2gg "A"g2e2| "D"f2ff f2a2| "Em"g2f2 "A"e2fg|
+    "D"a2f2 "A"g2e2| "D"d2c2 A2F2| "Em"G2B2 "A"ABAG| "D"F2D2 D2 :|
+
+
+X: 3
+T: Reel de Montr\'eal (R-41)
+I: Reel de Montreal	R-41	G/D	reel	Set 16, 25
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: G
+d2| "G"g2fe dcBA| GBDG B2AG| "D7"FADF AcBA| "G"GBDG B2Bd|
+    "G"g2fe dcBA| GBDG B2AG| "D7"FGAB cdef| "G"g2g2 g2 :| [K: D]
+|: z2 |"D"A2FA d2Ad| f2df a2ab| "A7"a2g2 e2g2| "D"b2a2 f2d2|
+"D"A2FA d2Ad| f2df a2ab| "A7"a2g2 e2c2| "D  (D7)"d4-d2 :|
+%%text 01/24/99
+
+#include "RightHeader.h"
+% ---------- set 55 ----------
+% John Howett (D) / Auld Grey Cat (E dor) / Dinky's Reel (A mix)
+
+%%textfont       Times-Bold 13.0
+%%text Set 55
+%%textfont       Times-Roman 10.0
+%%scale .63
+$SmallRMargin
+%%topspace -.75cm
+X: 1
+T: John Howett
+I: John Howett	R-83	D	reel	Set 21
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+%%textfont       Times-Roman 9.0
+%%text Repeat part A 4 times
+%%textfont       Times-Roman 7.0
+fg| "D"a2fd "A"g2ec| "D"d2AG FDDF| "Em"E2FG ABcd|1 "A"eAfA g2fg :|2 "A"eABc "D"d2 :|
+|:"D"defg aAfA| "G"gfed "A"ceAe| "D"defg aAfA| "G"gba^g "A"a4|
+"D"abaf "G"gfed| "Em"efgA "A"GFED| "D"F2AF "G"G2BG| "A"Addc "D"d4 :|
+%%text Roaring Jelly  R-83
+
+X: 2
+T: Auld Grey Cat, The
+I: Auld Grey Cat, The	R-82	E Dor	reel	Set 9, 18, 24
+I: Old Grey Cat, The	R-82	E Dor	reel	Set 9, 18, 24
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+P: E Dorian
+K: EDor
+"Em"e2e2 E3F| GFGA BABc| "D"d2d2 D3E| FAdB AFED|
+"Em"e2e2 E3F| EFGA BABc| "D"dcBA "B"BAGF|1 "Em"E4 e3^d :|2 "Em"E4 e3|]
+|:d| "Em"B2e2 e3d| Bdef gfed| "D"A2d2 d3B| ABde fedf|
+   "Em"e2B2 g2B2| "C"a2B2 "B"b3a| "Am"gfed "B"BAB^d|1 "Em"e4 e3 :|2 "Em"e4 e4 |]
+%%text Roaring Jelly  R-82
+
+$SmallLMargin
+X: 3
+T: Dinky's Reel
+I: Dinky's Reel	R-136	A Mix	reel
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+M: C|
+P: A Mixolydian
+K: Amix
+ed| "A"cdBc ABcd| egfd edBd| "G"gB (3.B.B.B gBaB| gB (3.B.B.B gfed|
+"A"cdBc ABcd| egfd edBd| "G"gfge "D"dfed| "E"cdBc "A"A2 :|
+e^g| "A"aA (3.A.A.A aAbA| aA (3.A.A.A agef| "G"gB (3.B.B.B gBaB| gB (3.B.B.B gefg|
+"A"aA (3.A.A.A aAbA| aA (3.A.A.A agef| "G"gfge "D"dfed| "E"cdBc "A"A2e^g|
+"A"aA (3.A.A.A aAbA| aA (3.A.A.A agef| "G"gB (3.B.B.B gBaB| gB (3.B.B.B gefg|
+"A"aA (3.A.A.A "G"gA (3.A.A.A| "D"fA (3.A.A.A "A"e2ef| "G"gfge "D"dfed| "E"cdBc "A"A2|]
+%%text Roaring Jelly  R-136
+%%text 04/01/00
+
+#include "LeftHeader.h"
+% ---------- set 56 ----------
+% Redwing (D) / Redwing (G) / Snow Deer (C)
+
+%%textfont       Times-Bold 13.0
+%%text Set 56
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+%%scale .75
+$SmallLMargin
+$SmallRMargin
+X: 1
+T: Redwing #1
+I: Redwing	S-R	D	square
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+A,4|: "D"D3D D2F2| A6 D2| "G"G2B2 d2B2| "D"A6 F2|      "G"G2GF E2G2| "D"F2FE D2F2|1 "E"E2B,2 C2D2| "A7"E6 A,2:|2 "E"E2B,2 "A7"C2E2| "D"D4 |]
+d2c2| "G"B4 B3B| B2d2 c2B2| "D"A4 F4-| F2A2 B2A2| "A7"A4 (E4|E2) A2 B2A2| "D"A4 F4-| F4 d2c2|
+      "G"B4 B3B| B2d2 c2B2| "D"A4 F4-| F2A2 B2A2| "A7"A4 G4| F4 E4| "D"D8-| D4|]
+%%text Roaring Jelly  S-R
+
+X: 2
+T: Redwing #2
+I: Redwing	S-R	G	square
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+D4|: "G"G3G G2B2| d6 B2| "C"c2e2  g2e2| "G"d6 B2|     "C"c2cB A2c2| "G"B2BA G2B2|1 "A"A2E2 F2G2| "D"A6 D2:|2 "A"A2E2 "D7"F2D2| "G"G4 |]
+g2f2| "C"e4 e3e| e2g2 f2e2| "G"d4 B4-| B2d2 e2d2| "D7"d4 A4-| A2d2 e2d2| "G"d4 B4-| B4 g2f2|
+      "C"e4 e3e| e2g2 f2e2| "G"d4 B4-| B2d2 e2d2| "D7"d4 A4| "D"A2c2 B2A2| "G"G8-| G4|]
+%%text Roaring Jelly  S-R
+
+
+X:3
+T:Snow Deer
+R:reel
+C:Bob Wills?
+D:From The Essential Texas Fiddle by Joe Stephenson
+Z:Transcribed to abc by Debbie Knight, edited by Mary Lou Knack
+M:C|
+K:C
+G2c2d2|"C"e2ed e2ef| e2c2 B2c2| "D"d2dc d2de | d2c2 B2A2|   "G7"G4 d4-| d2c2 B2A2| "C"G4 e4| e2G2 c2d2|
+"C"e2e(d e2)ef| e2c2 B2c2| "D"d2dc d2de | d2c2 B2A2|   "G7"G4 d4-| d2c2 d2e2| "C"c8- | c2c2 "C7"d2e2|
+"F"f4 A4-| A2c2 B2A2| "C"G4 e4-| e4 e3f|    "G"e2d2 d2cd-| d4 d3e| "C"d2c2 c2Bc-|c2c2 "C7"d2e2|
+"F"f4 A4-| A2c2 B2A2| "C"G4 e4-| e4 e3f|    "G7"e2d2 d2cd-|d2f2 e2d2| "C"c8 |1 c2 :|2 "C"c8 |]
+%%text tag line
+_AAFA BBAB| ddBd f2f2| gef^f ge=f^f| g^f=fe-e4|
+%%text 6/17/07
+%%text 04/01/00
+
+#include "RightHeader.h"
+%%textfont       Times-Bold 13.0
+%%text Set 56 (cont'd)
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+%%scale .85
+$SmallLMargin
+$SmallRMargin
+X: 4
+T: Redwing #1 (harmony)
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+E4|: F4 (F2A2)| d4- d2A2| B2(d2 g2d2)| [F4-d4-] [F2d2]A2|    (B2A2) G2B2| (A2G2) F2A2|1 ^G2G2 (A2B2)| A4 (=G2E2):|                           [2 ^G2G2 (=G2E2)| F4 |]
+f2e2| d4 d4| d2g2 (a2g2)| f4 d4-| d2d2 d2d2|    c4 G4-| G2c2 (d2c2)| d4 A4-| A4 f2e2|
+d4 d4| d2g2 (a2g2)| f4 d4-| d2d2 d2d2|    c4 G4-| G2(B2 A2G2)| F8-| F4 |]
+
+%%topspace 0
+X: 5
+T:Snow Deer (harmony)
+R:reel
+H:Bob Wills?
+Z:Transcribed to abc by Debbie Knight, edited by Mary Lou Knack
+M:C|
+K:C
+C2E2F2| G2GF G2GA |G2E2 D2E2 |F2FE F2FG |F2E2 D2C2 |      B,4 G4- |G2F2 E2D2 |C4 G4- |G2C2 E2F2 |
+G2GF G2GA |G2E2 D2E2 |F2FE F2FG |F2E2 D2C2 |      B,4 F4- |F2E2 F2G2 | E8- |E2E2 F2G2|
+A4 F4- |F2A2  G2F2 | E4 G4- |G4 G3A |      G2F2 F2EF- |F4 F3G | F2E2 E2DE- |E2 E2F2G2|
+A4 F4- |F2A2  G2F2 | E4 G4- |G4 G3A |      G2F2 F2EF- |F2A2 G2F2| E8 |1 E2 :|2 E8|]
+%%text tag line
+FFDF _AAFA| BB_AB d2d2| ecd^d ec=d^d| e^d=dc- c4|
+%%text 04/01/00
+
+#include "LeftHeader.h"
+%%vskip 3in
+%%textfont       Times-Bold 13.0
+%%center This page intentionally left blank
+%%textfont       Times-Roman 7.0
+
+#include "RightHeader.h"
+%%scale .65
+% ------- set 57 -------
+% Falling Off A Log (G/D) / Mist Over Tennessee (G) / Hommage a. Jos. Bouchard (C/Am)
+
+%%textfont       Times-Bold 13.0
+%%text Set 57
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X:1
+T:Falling Off A Log  (J-68, aka 6/8 in G and D)
+I:Falling Off A Log	J-68	G/D	jig
+I:6/8 in G and D	J-68	G/D	jig
+R:jig
+H:Traditional reel from Quebec
+D:From workshop by Richard Forest; chords and bass line based on accompaniment by Mario Loiselle
+Z:Translated to abc by Debbie Knight, edited by Mary Lou Knack
+M:6/8
+K:G
+B | "G/G"d2B "C/C"e2B | "G/B"d2B "Gdim/A#"G2G | "Am7/A"FAF "D/D"DEF | "Am7/C"GFE "D+/F#"D2B |
+"G/G"d2B "C/C"e2B | "G/B"d2B "Gdim/A#"G2G | "Am7/A"FAF "D7/D"DEF | [1 "D7/D"GBd "G"g2 :| [2 "G"G3 "A7"A2G |]
+K:D
+|: "D"F2d dcd | F2d dcB  |"Em7"A2e edc | "A7"dcd fdA |
+"D"F2d dcd | F2d dcB | "Em7"A2e edc |1 "A7"dfe "D"d2A :|                                    [2 "A7"dfe "D7"d3 |]
+
+%%topspace 0
+X:2
+T: Mist Over Tennessee  (J-40)
+I: Mist Over Tennessee	J-40	G	jig	Set 7
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: G
+"D7"d2c| "G"B2B BGE| DGB d3| "C"ege "G"dBG|
+"Am"c3 "D"cAB| c2c cAF| DFA c3| ded cBA|1 "G"B3:|2 "G"G3 g2a|]
+|:"G"b3 g3| ded B3| DGB DGB| "Am"c3 cBc|
+"D"a3 f3| d3 dBc| ded cBA|1 "G"B2c d2g:|2 "G"G3|]
+
+X:3
+T:Hommage a Jos. Bouchard (J-69)
+I:Hommage a Jos. Bouchard	J-69	C/Am	jig
+R:jig
+C:Philippe Bruneau
+H:Written by Philippe Bruneau, in honor of Joe Bouchard
+D:From Sam Bartlett, then Mario Loiselle
+Z:Translated to abc by Debbie Knight
+M:6/8
+K:C
+"C"E3 EFA| G3GAB| cBc "F"dcA| "A"G2G "Am7"EGc| "Dm"B2B "G"GBd| 
+ "Dm"f2f "G"GBd|1 "Dm"bag "G"fed| "C"cdc "G7"BAG:|[2 "G"bag fed| "G"c3-"E7"cAB|]
+K: Am
+"Am"c2c cBc| AEE EAB| c2c cBc| "Bm7"BEE "E7"E3| "Bm7"d2d dcd|"E7"BEE E^GB|
+"E"eEE "Fdim"dEE| "F#dim"cEE "E7/G#"BAB |"Am"c2c cBc| AEE EAB| c2c cBc|
+"Bm7"BEE "E7"E3| "Bm7"d2d dcd| "E7"BEE E^GB| "E7"efe dcB|1 "Am7"A3 "G7"G3 |][2 "A - Last time"A3-A3|]
+%%text 1/23/05
+
+#include "LeftHeader.h"
+% ---------- set 58 ----------
+% Moon and Seven Stars (D)/ One Horned Sheep (G) 
+
+%%scale .7
+%%textfont       Times-Bold 13.0
+%%text Set 58
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X:1
+T: Moon and Seven Stars, The
+I: Moon and Seven Stars, The	J-65	D	jig
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: D
+A| "D"d2A AGF| "G"GAB "D"A2A| "G"Bcd efg| "A"fed cBA|
+"D"d2A AGF| "G"GAB "D"A2A| "G"Bcd efg| "A"Adc "D"d2 :|
+|: "A"e2A ABA| efg "D"f3| "A"efg "D"fed| "E"cdB "A"A2A|
+"G"BGB "D"A2A| "G"BGB "D"A2A| "G"Bcd efg| "A"Adc "D"d3 :|
+%%text Roaring Jelly J-65
+
+X:2
+T: One-Horned Sheep
+I: One-Horned Sheep	J-64	G	jig
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: G
+"G"g2G GFG| "C"EGG "G"DGG| g2G GFG| "Am"EAG "D"FED|
+"G"g2G GFG| "C"EGG "G"DGG| "C"EGG "D"FGA| "G"BGF G3 :|
+|: "G"GBd dBd| GAB d2D| GBd dcB| "D"cdc A2D|
+"G"GBd dBd| GAB def| "C"gfe dBG |1 "D"ABA G2D :|2 "D"ABc def |]
+%%text Roaring Jelly J-64
+
+X: 14
+T: All the Rage
+I: All the Rage	J-48	E	jig
+C: Larry Unger \2511989
+M: 6/8
+R: jig
+K: E
+e| "E"fgg gfe| fgg g2e| "A"cee "E"Bee| "F#m7"gfe "B7"f2e|
+   "E"fgg gfe| fgg g2b| "A"gfe "B7"fed| "E"e3- e2:|
+|:e| "A"cee "E"Bee| "A"cee "E"B2e| "A"ece "F#m7"fef| "E"gbg "B7"f2e|
+   "A"cee "E"Bee| "A"cee "E"B2b| "A"gfe "B7"fed| "E"e3- e2:|
+%%text Roaring Jelly  J-48
+%%text 1/20/02
+
+#include "RightHeader.h"
+% ---------- set 59 ----------
+% Reel semeur (D) / Reel des Onions (G) / St. Antoinne (A)
+%%textfont       Times-Bold 13.0
+%%text Set 59
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X:1
+T:Reel semeur (R-140)
+I: Reel semeur	R-140	D	reel
+R:reel
+H:Traditional reel from Quebec
+D:From workshop by Richard Forest
+Z:Translated to abc by Debby Knight, edited by Mary Lou Knack
+M:C|
+K:D
+A| "D"ABAG F2A2| f4 d4| ABAG  F2A2 | f4 d4  |
+   "Em"e3f "A7"g2e2 | "D"dcde "Bm"fafd| "Em"cBcd "A7"efec |1 "D"dBAF D3 :|[2 "D"dBAF "D#o"D2df ||
+|: "Em"a2(3gbg "A7"e2ce| "D"g2f2 "Bm"d3e| "Em"(3faf e2 "A7"B2c2 | "D"dcde "D#o"fedf|
+"Em"a2(3gbg "A7"eece| "D"g2f2 "Bm"d3c| "E7"B2g2 "A7"e2c2  |1 "D"dBAF "D#o"D2df :|[2 "D"dBAF D3|]
+
+%%topspace 0
+X:2
+T: Reel des Onions (R-107)
+I: Reel des Onions	R-107	G	reel
+M: C|
+R: reel
+K: G
+"G"gage d2"G#o"Bd| (3"Am"cdc A2 A4| "D"feee eddd| dccc c2B2|
+"G"gage d2"G#o"Bd| (3"Am"cdc A2 A4| "D"D2fe dcBA|1 "G"G2g2 g4:|2 "G"G2g2 g2 |]
+|:Bc| "G"d2g2 ggfg| "Am"a6 (3ABc| "D"d2a2 aaga| "G"b6 Bc|
+    "G"d2g2 ggfg| "Am"a6 (3ABc| "D"d2a2 aaba|1 "G"g6 :|2 "G"g8 |]
+
+X: 3
+T: Reel St. Antoinne (R-132)
+I: Reel St. Antoinne	R-132	A	reel
+R: reel
+M: C|
+K: A
+"A"a3a aece| aaa2-aece| agfe "A#o"dcBA| "Bm"GABc "E7"defg|
+"A"a3a aece| agab aece| agfe "Bm"dcBA| "E7"GABc "A"A4 :|
+|:"A"c3c cAce| dcBA "A#o"GABc| "Bm"d3d dBdf| edcB AGAB|
+"F#m"c3c cAce| "Bm"dcBA GABc| "E7"defg afed| cdBc "A"A4 :|
+%%text 9/28/00
+
+#include "LeftHeader.h"
+% ---------- set 60 ----------
+% Timmy Clifford's (G) / Handsome Young Lasses (A) / Cliffs of Moher (Ador)
+%%scale .6
+%%textfont       Times-Bold 13.0
+%%text Set 60
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X:1
+T: Timmy Clifford's
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: G
+"G"G,B,D "C"E2D| EGF "D"GDB,| "G"G,B,D "C"C2B| "D"AGF "G"G3|
+"G"G,B,D "C"E2D| EGF "D"GAB|  "G"d3 B3|1 "D"AGF "G"G3 :|2 "D"AGF "G"GBd :|
+|: "C"efe "G"d2B| BAG GBd| "C"efe "G"d2B| BAG "D"A2g/f/|
+"C"efe "G"d2B| BAG GAB| "C"c3 "G"B3|1 "D"AGF "G"GBd :|2 "D"AGF "G"GDB,|]
+%%text Roaring Jelly  J-66
+
+X: 2
+%%musicspace 0
+T: Handsome Young Maids
+C: Charlie Lennon
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+% %staffwidth 12.5cm
+K: A
+"A"aed cBA| cde aga| "E"bee dee| Bee bag| 
+"A"aed cBA| cde aga| "E"bee dee|1 BAG "A"A2e:|2 "E"BAG "A"A2 |]
+|: B|  "A"c2A ABc| "D"dcd "E"fed| "A"cAc aec| "E"B2f fed|
+   [1"A"c2A ABc| "D"dcd "E"fed| "A"ece "D"fed| "E"cdB "A"A2 :|
+   [2 "A"c2A ABc| "D"dcd "E"fed| "A"ece "D"fef| "E"gfg bag|]
+%%text Roaring Jelly J-52
+
+X: 3
+T: Cliffs of Moher
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: Ador
+"Am"a2a bag| eaf "G"ged| "Am"c2A BAG| "Em"EFG ABd| 
+"Am"eaa bag| eaf "G"ged| "Am"c2A BAG| "Em"EFG "Am"A3 :|
+|:"Am"e=fe dBA| ~e3 dBA|  "G"GAB dBA| GAB ~d3|
+[1"Am"e=fe dBA| ~e3 dBA|  "G"GAB dBG| "Em"EFG "Am"[E3A3] :|
+[2 "Am"e=fe dee| cee Bee| EFG BAG| "G"EDB, "Am"A,3 |]
+%%text Roaring Jelly  J-67
+%%text 10/31/00
+
+#include "RightHeader.h"
+% ---------- set 61 ----------
+% Reel St Simeon (D) / Reel Eugene (D) / Levis Beaulieu (A)
+%%scale .65
+%%textfont       Times-Bold 13.0
+%%text Set 61
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X:1
+T:Reel St-Sim\'eon
+R:reel
+Z:Transcribed to abc by Mary Lou Knack
+M:C|
+K:D
+f| "D"a2fd A2df| aba^g "D#o"a3f| "Em"(3gag ec Acef| g2f2 "A7"g3f|
+"D"a2fd "Em7"A2df| "Do"aba^g "D"a3f| "Em"(3gag ec Acef| "A7"gf{g}fe "D"d3|]
+|:B| "D"A2f2 {g}fedc| "G"Bg (3ggg "Em"gfed| "A"ca (3aaa "A7"gece| "D"dcde "Do"fafd|
+"D"A2fg    fedc| "G"Bg (3ggg "Em"gfed| "A"ca (3aaa "A7"gece| "D"df"A"ec "D"d3 :|
+%%text Roaring Jelly  R-142
+%%textfont       Times-Bold 10.0
+%%text Suggested base line:
+%%text |: D D  | D D# | E A  | E  A   | D E  | F F# | E A  | A  D :|
+%%text |: D F# | G E  | A C# | DE FF# | D F# | G E  | A C# | DA D :|
+
+X: 2
+T:Reel Eug\`ene
+R:reel
+Z:Transcribed to abc by Mary Lou Knack
+M:C|
+K:D
+"Bm"B2Bc dcB2| "Em"e2ef gece| "F#7"f2fg fede| fbbf bfdc|
+"Bm"B2Bc dcB2| "Em"e2ef gece| "F#7"f2fg fedc|1 "Bm"B4 "F#7"F4 :|2 "G"B4 "A7"A4 |]
+|:"D"f2fe d2dB| AAdf "Do"b2f2| "Em"a2ag e2 (3cec| "A7"Aceg (3faf e2|
+"D"f2fe d2dB| AAdf "Do"b2f2| "Em"a2ag egec|1 "A7"dfec "D"d3e :|2 "A7"dfec "D"d4 |]
+%%text Roaring Jelly  R-143
+
+X: 3
+T:L\'evis Beaulieu
+R:reel
+Z:Transcribed to abc by Debbie Knight
+M:C|
+K:A
+ed|"A"c2AA AcBA | "D"FBAF "A"E3A |"Bm"BABc d2B2 |"E"AAAc efed | 
+"A"c2AA AcBA | "D"FBAF "A"E3A |"Bm"BABc "E"dBed |1 "A"c2A2 A2 :|[2 "A"c2A2 A2ce |]
+|:"A"a2ab afed |cAce a2ef | "G"=g2ga ged=c   |B=GBd =g2e^g|
+"A"a2ab afed |cAce a2ee | "Bm"efec "E"dBed |1 "A"c2A2 A2ce  :|   [2 "A"c2A2 A4|]
+%%text Roaring Jelly  R-144
+%%text 02/05/01
+
+#include "LeftHeader.h"
+% ---------- set 62 ----------
+% Scotty O'Neill (D) / Scollay's Reel (Em) / Round the Horn (G)
+
+%%textfont       Times-Bold 13.0
+%%text Set 62
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X:1
+T: Scotty O'Neil
+C: Bob McQuillen 1973
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+AG| "D"F2D2 A2F2| "G"dedc BABc| "D"d2A2 G2F2| "A"F2 E4 AG|
+    "D"F2D2 A2F2| "G"dedc BABc| "D"d2A2 "A"ABAG| "D"F2 D4 :|
+|:AG| "D"F2A2 f2e2| "G"d2c2 B3c| "D"d2A2 G2F2| "A"F2 E4 AG|
+    "D"F2D2 f3e| "G"dedc BABc| "D"d2A2 "A"ABAG| "D"F2 D4 :|
+%%text Roaring Jelly  R-322
+
+X: 2
+T: Scollay's Reel
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: Em
+"Em"E3F G3A| BcBA GEGA| B2E2 EFG2| "D"FGAF D2F2|
+"Em"E3F G3A| BcBA GEGA| B3c "B7"BAFA| "Em"G2E2 E4 :|
+|:"Em"efge B2B2| g2g2 B4| "Am"c2BA "Em"G2G2| "D"FGAF D3F|
+"Em"E3F G3A| BABd e2d2| B3c "B7"BAFA| "Em"G2E2 E4 :|
+%%text Roaring Jelly  R-122
+
+X: 3
+T: 'Round the Horn
+C: Jay Ungar
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: G
+(3DEF| "G"G2GA BAGA| Bd2e d4| "C"cdef e2g2| "D"a6 ga|
+       "Em"b2b2 "D"agfa| "C"gfed "G"BAGB| "Am"A2d2 BAG2|1 "Em"E4- "D7"E2 :|2 "Em"E8 |]
+|:"C"e3f e2d2| "G"B6 B2| "Am"A3A G2A2| "Bm"B2 d6|
+"C"g3a g2e2| "G"dedc BAGB| "Am"A2d2 BAG2|1 "Em"E8 :|2 "Em"E4- "D7"E2 |]
+%%text Roaring Jelly  R-25
+%%text 02/07/01
+
+#include "RightHeader.h"
+% ---------- set 63 ----------
+% Hull's Victory (F) / Forester's Hornpipe (D) / Good For the Tongue (A)
+
+%%textfont       Times-Bold 13.0
+%%text Set 63
+%%textfont       Times-Roman 7.0
+%%scale .60
+%%topspace -.75cm
+X:1
+T: Hull's Victory
+%C: R-4
+%C: New England
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: hornpipe
+K: F
+  "F"fcfa fcfg| "C" agfe "F"f2AB| "C"c2cd c2cB| ABGA "F"F2c2|
+  "F"fcfa fcfa| "C"g2g2 g2ag| "Dm"fedc "G7"=BcdB|"C"c2e2 c2c2 :|
+|:"F"fefg agfe| "Bb"d2B2 B2ef| "G"g^fga bag=f| "C"e2c2 c2 (3cde|
+"F"fcfa fcfa| "C"gcgb gcgb| "F"agfa "C"gfeg| "F"f2a2 f2c2 :|
+%%textfont       Times-Bold 10.0
+%%text Transition
+|"F"f2z2 "A7"^f3g |
+%%textfont Times-Roman 7
+%%text Roaring Jelly R-4
+
+X: 2
+T: Forester's Hornpipe (R-72)
+
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: hornpipe
+K: D
+fg| "D"a^gaf dfbg| a^gaf d2cd| "A"eAfA eAfA| edcB A2fg|
+    "D"a^gaf dfbg| a^gaf d2cd| "G"BGFG "A"Adce| "D"f2d2 d2:|
+|:cd| "A"edcB AGEG| "D"FAdf a2fa| "G"geBg "D"fdAf| "A"edcB A2cd|
+    "A"edcB AGEG| "D"FAdf afba| "G"gfed "A"cABc| "D"d2f2 d2:|
+% %textfont       Times-Bold 10.0
+% %text Transition
+| "D"d2z2 z4 |
+
+X: 3
+T: Good For the Tongue (R-147)
+M: C|
+Z: Transcribed to abc by Debby Knight
+R: hornpipe
+K: A
+"A"ABcd ecAe| "D"fA"E"gA "A"aAAA| "D"FAAA "A"EAAB| "Bm"cdBG "E"AGFE|
+"A"ABcd ecAe| "D"fA"E"gA "A"aAAA| "D"FAAA "A"EAAB| "E"cdBG "A"A4:|
+|:"A"eAAA eAAA| "D"aAfA "A"eAAA|"D"aAfA "A"eAAB| "Bm"cdBG "E"AGFE|
+"A"eAAA eAAA| "D"aAfA "A"eAAA|"D"aAfA "A"eAAB|  "E"cdBG "A"A4:|
+%%text 1/28/02
+
+#include "LeftHeader.h"
+% ---------- set 64 ----------
+% Petronella (D) / Reel Eugene (D) / Levis Beaulieu (A) / Dedicado a Jos (Bm/D)
+%%textfont       Times-Bold 13.0
+%%text Set 64
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+%%scale .72
+$SmallLMargin
+$SmallRMargin
+X:1
+T: Petronella (R-13; New England)
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+dA| "D"F2AF "A"E2AF| "D"D2D2 D2FA| d2cd "E"e2d2| "A"cdBc A2dA|
+    "D"F2AF "A"E2AF| "D"D2D2 D2FA| d2cd "A"e2c2| "D"d6 :|
+|:dA| "D"F2fd "D7"A2af| "G"g2gf "Em"edcB| "A"A2ec A2ge| "D"f2fd AdAF|
+    "D"D2fd "D7"A2af| "G"g2gf "Em"edcB| "A"A2ec Agec| "D"d6 :|
+
+%%topspace 0
+X: 2
+T:Reel Eug\`ene (R-143)
+R:reel
+Z:Transcribed to abc by Mary Lou Knack
+M:C|
+K:D
+"Bm"B2Bc dcB2| "Em"e2ef gece| "F#7"f2fg fede| fbbf bfdc|
+"Bm"B2Bc dcB2| "Em"e2ef gece| "F#7"f2fg fedc|1 "Bm"B4 "F#7"F4 :|2 "G"B4 "A7"A4 |]
+|:"D"f2fe d2dB| AAdf "Do"b2f2| "Em"a2ag e2 (3cec| "A7"Aceg (3faf e2|
+"D"f2fe d2dB| AAdf "Do"b2f2| "Em"a2ag egec|1 "A7"dfec "D"d3e :|2 "A7"dfec "D"d4 |]
+
+X: 3
+T:L\'evis Beaulieu (R-144)
+R:reel
+Z:Transcribed to abc by Debbie Knight
+M:C|
+K:A
+ed|"A"c2AA AcBA | "D"FBAF "A"E3A |"Bm"BABc d2B2 |"E"AAAc efed | 
+"A"c2AA AcBA | "D"FBAF "A"E3A |"Bm"BABc "E"dBed |1 "A"c2A2 A2 :|						[2 "A"c2A2 A2ce |]
+|:"A"a2ab afed |cAce a2ef | "G"=g2ga ged=c   |B=GBd =g2e^g|
+"A"a2ab afed |cAce a2ee | "Bm"efec "E"dBed |1 "A"c2A2 A2ce  :|					   [2 "A"c2A2 A4|]
+%%text 1/28/02
+
+#include "RightHeader.h"
+%%scale .9
+%%textfont       Times-Bold 13.0
+%%text Set 64 (cont'd)
+%%textfont       Times-Roman 7.0
+%%topspace 0cm
+$SmallRMargin
+$SmallLMargin
+X:4
+T:Dedicado a Jos (R-149; \251Les Editions de la Bottine Souriante)
+D: from La Bottine Souriante, "Je Voudrais Changer d'Chapeau" album
+R:reel
+Z:Transcribed to abc by Debby Knight
+M:C|
+K:D
+"Bm"B3c d3e   |fgfd B3f |"F#m"fgfd c3f  |"Bm"fgfd  B2F2|
+"Bm"B2Bc dcde |fgfd B3f |"F#m"fgfd cedc |"Bm"B4 F4 | 
+"Bm"B3c d3e   |fgfd Bfff|"F#m"fgfd c3f  |"Bm"fgfd  B2F2|
+"Bm"B2Bc dcde |fgfd Bfff |"F#m"fgfd cedc |"Bm"B4 "A7"A4  |]
+%%textfont Times-Bold 10.0
+%%text Part B
+"D"f8 |"G"g4^g4 |"A7"a3a a4-  |a2g2 f2e2| a3a a4- |a2g2 f2e2|"D"f2df dfdf |"A7"cfcf B2A2|
+"D"f8  |"G"g4^g4 |"A7"a3a a4-  |a2g2 f2e2| a3a a4-  |a2g2 f2e2|"D"d3A "A7"BAFA  |"D"d2z2 F4 |]
+%%textfont Times-Bold 10.0
+%%text Last B 
+"D"f8 |"G"g4^g4 |"A7"a3a a4-  |a2g2 f2e2| a3a a4- |a2g2 f2e2|"D"f2df dfdf |"A7"cfcf B2A2|
+"D"f8  |"G"g4^g4 |"A7"a3a a4-  |a2g2 f2e2| a3a a4-  |a2g2 f2e2|"D"d2z2 "A7"A2z2 |"D"d2z2 z4 |]
+%%text B Harmony 
+F8  | G4^G4 | c3c c4- |c2B2 A2G2 | c3c c4- |c2B2 A2G2 |"D"f2df dfdf |"A7"cfcf B2A2|
+F8  | G4^G4 | c3c c4- |c2B2 A2G2 | c3c c4- |c2B2 A2G2 |"D"d3A "A7"BAFA |"D"d2z2 F4   |]
+%%text 8/20/09
+
+#include "LeftHeader.h"
+%%vskip 3in
+%%textfont       Times-Bold 13.0
+%%center This page intentionally left blank
+%%textfont       Times-Roman 7.0
+
+#include "RightHeader.h"
+% ---------- set 65 ----------
+% Lady Anne Montgomery (D) / Devil's Dream (A) / Old French (D)
+$SmallRMargin
+%%textfont       Times-Bold 13.0
+%%text Set 65
+%%textfont       Times-Roman 7.0
+%%scale .68
+%%topspace -.75cm
+X:1
+T:Lady Anne Montgomery (R-145)
+%C: R-145
+M:C|
+L:1/8
+K:D Major
+A| "D"FADA FADA| FAdA "G"BAdA|"D"FADF "Em"EDEF| "A"DB,A,B, "D"D3E|
+"D"FADA FADA| FAdA BABc|"G"dBAF "Em"E3F|"A"DB,A,B, "D"D3:|
+|: e| "D"f3f fede| fedB ABde|   f2fe "Bm"fede| "Em"fgaf "A"efde|
+"D"f3f fede| fedB ABde|"G"fded "Em"BdAd| "A"egfe "D"d3:|
+%%textfont Times-Bold 10.0
+%%text Alternate chords/bass line for part B:
+%%text |: D - | - - | F#m/C# - | - - | Bm - | - - | Em G | A D :|
+
+%%topspace 0
+X: 2
+T: Devil's Dream, The (R-7)
+I: Devil's Dream, The	R-7	A	reel
+%C: R-7
+%C: British Isles, North American
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: A
+e2| "A"agae agae| agae fedc| "Bm"dfBf dfBf| dfBf "E"agfe|
+    "A"agae agae| agae fedc| "D"dfed "A"cABA| "E"E2A2 "A"A2 :|
+|:e2| "A"ceAe ceAe| ceAe fedc| "Bm"dfBf dfBf| dfBf "E"agfe|
+    "A"ceAe ceAe| ceAe fedc| "D"dfed "A"cABA| "E"E2A2 "A"A2 :|
+
+X: 3
+T: Old French (R-6)
+I: Old French	R-6	D	reel
+%C: R-6
+%C: New England
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+
+K: D
+(3ABc|: "D"d2cd BdAF | DFAd f2ed| "A"cdef gece| "D"defd A2 (3ABc|
+"D"d2cd BdAF | DFAd f2ed| "A"cdef gece|1 "D"d2f2 d2 (3ABc :|                                       [2 "D"d2f2 d2 |]
+|:cd| "A"efed c2A2| AEAc e2dc| "G"BGBd gfed |1 "A"cAce a2 :|2 "A"c2A2 A2 |]
+|:cd| "A"efed c2A2| AEAc e2dc| "G"BGBd gfed |1 "A"cAce a2 :|2 "A"c2A2 B2c2 |]
+%%text 1/28/02
+
+#include "LeftHeader.h"
+% ---------- set 66 ----------
+% Ingonish Jig (Edor) / Andy De Jarlis' (E) / Blue Jig (Am)
+
+%%textfont       Times-Bold 13.0
+%%text Set 66
+%%textfont       Times-Roman 10.0
+%%scale .64
+%%topspace -.75cm
+X:1
+T:Ingonish Jig (J-71)
+%C: J-71
+R:jig
+Z:Transcribed to abc by Mary Lou Knack
+M:6/8
+P: E Dorian
+K:Edor
+"Em"B2e efg| "D"fef "Bm"dBA| "Em"B2e efg| "D"afe "Bm"d2A|
+"Em"Bee efg| "D"fef dBA| "G"BdB "D"AFD |1 "Em"EFE E2A :|2 "Em"EFE E2e |]
+|:"Em"BEE BEE| "D"FEF DFA| "Em"BEE BEE| "D"ABc "Bm"dcd|
+"Em"BEE BEE| "D"FEF DFA| "G"ABc "D"dAF |1 "Em"EFE E2e :|2 "Em"EFE E3 |]
+
+X:2
+T:Andy De Jarlis' (J-70)
+%C: J-70
+R:jig
+Z:Transcribed to abc by Mary Lou Knack
+M:6/8
+K:E
+K:E
+"E"EGB EGB| EGB "A"c2B| "E"EGB EGB| "D"=DFA B2A| "E"EGB EGB| EGB "A"c2a|! "B"g2f Bcd|1 "E"efe e3 :|2 "E"efe e2a |:"E"gbg efg| "A"aba c2e| "F#m/A"f2g f2e|! "B7"dcB c2B| "E"gbg efg| "A"aba  "F#m"c2a| "B"gfe Bcd |1 "E"e3 e2a :|2 "E"e3 e3 |]
+%%textfont Times-Bold 10.0
+%%text Transition
+K:Am
+| "E"e_ed "E7#9"c2^c |
+
+X: 3
+T: Blue Jig, The (Joel Mabus; J-61)
+%C: J-61
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: Am
+"A7"A3 cBA| cBA a3| age _edc| "D7"d^de d=dc| "A7"A3 cBA| cBA a3|! age "D7"cAG| "E7"_EDC "A"A,3:| |:"D7"^FAB cBA| ^FAB cBA| "A7"^ce^f gfe|! ^ce^f gfe| "D7"^FAB cBA| ^FAB cBA| "A7"age "D7"cAG| "E7"_EDC "A"A,3 :|
+%%text B Harmony
+|:Acd ^d=dc |Acd ^d=dc |ega ^a=ag |ega ^a=ag |
+Acd ^d=dc |Acd ^d=dc | age cAG| _EDC A,3 :|
+%%text 1/24/06
+
+#include "RightHeader.h"
+% ---------- set 67 ----------
+% Reel des Onions (G) / St. Antoinne (A) / Bus Stop (Am)
+
+%%textfont       Times-Bold 13.0
+%%text Set 67
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X:1
+T: Reel des Onions
+I: Reel des Onions	R-107	G	reel
+M: C|
+R: reel
+K: G
+"G"gage d2"G#o"Bd| (3"Am"cdc A2 A4| "D"feee eddd| dccc c2B2|
+"G"gage d2"G#o"Bd| (3"Am"cdc A2 A4| "D"D2fe dcBA|1 "G"G2g2 g4:|2 "G"G2g2 g2 |]
+|:Bc| "G"d2g2 ggfg| "Am"a6 (3ABc| "D"d2a2 aaga| "G"b6 Bc|
+    "G"d2g2 ggfg| "Am"a6 (3ABc| "D"d2a2 aaba|1 "G"g6 :|2 "G"g8 |]
+%%text Roaring Jelly  R-107
+
+X: 2
+T: Reel St. Antoinne
+I: Reel St. Antoinne	R-132	A	reel
+R: reel
+M: C|
+K: A
+"A"a3a aece| aaa2-aece| agfe "A#o"dcBA| "Bm"GABc "E7"defg|
+"A"a3a aece| agab aece| agfe "Bm"dcBA| "E7"GABc "A"A4 :|
+|:"A"c3c cAce| dcBA "A#o"GABc| "Bm"d3d dBdf| edcB AGAB|
+"F#m"c3c cAce| "Bm"dcBA GABc| "E7"defg afed| cdBc "A"A4 :|
+%%text Roaring Jelly  R-132
+
+X: 3
+T: Bus Stop Reel
+I: Bus Stop Reel	R-139	D	reel
+%C: R-139
+C: Anita Anderson \2511987
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+M: C|
+K: Am
+"Am"A2eA dAc2| ABcA "G"BAGB| "Am"A2eA dAc2| "C"cde^f "G"gedB|
+"Am"A2eA dAc2| ABcA "G"BAG2| "F"FGAc "G"BAGB| "Am"cABG A4:|
+|:"Am"ea-ag edcB| ABcd e4| ea-ag "C"edc2| "D"de^fd "E"e4|
+"Am"ea-ag edcB| ABcd e2dc| "G"BAGF EFGB| "Am"cABG A4 :|
+%%text Roaring Jelly R-139
+%%text 1/28/02
+
+#include "LeftHeader.h"
+%%scale .65
+% ---------- set 68 ----------
+% Rose in the Heather (D) / Hills of Sharon (D) / Out On the Ocean (A)
+
+%%textfont       Times-Bold 13.0
+%%text Set 68
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X:1
+T: Rose in the Heather    (j-13)
+I: Rose in the Heather  J-13    D       jig
+%C: J-13
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack, modified by Debby Knight
+R: jig
+K: D
+"D"F3 "A"EFE| "D"DFA BAF| ABd "A"ede| "D"fdB AFE|
+"D"F2D "A"EDB,| "D"DFA BAF| AdB "A"AFE| "D"FDC D3 :|
+|:"D"fdB ABd| faa afd| "G"gfg "D"fed| "Em"Bee "A"efg|
+"D"fdB ABd| faa afa| "G"baf "A"gfe| "D"fdc d3 :|
+
+%%topspace 0
+X: 2
+T: Hills of Sharon   (j-72)
+M: 6/8
+Z: Transcribed to abc by Debby knight
+R: jig
+K: D
+"Bm"F3 FEF| "G"EDB, "D"A,B,D| "A"E2E EDE| "D"FDF "A"E3|
+"Bm"F2F FEF| "G"EDB, A,B,D| "A"EDC "D"D2D| "A"EDC "D"D3 :|
+|: "G"B3 BAB| AGF "A"E2F-| "D"F2F BAF| "A" E3- E2D |
+"D"EFF FED| "G"ABB B2g-| "Em"gfe "D/F#"dAF| "A" E3- E3 :|
+
+X: 3
+T:Out On the Ocean    (j-73)
+R:Jig
+M:6/8
+K:A 
+"A"E2c cBA| cec "A/C#"BcB| "D"AFE "Bm"A2B| "E7"cec BAF|
+"A"E2c cBA| cec "A/C#"BcB| "D"AFE "Bm"A2B|1 "E7"cAG "A"A2F:|                                          [2 "E7"cAG "A"Ace|]
+"F#m"f3 fec| "D"fgf fec| "C#m"efe ecB| "E7sus4"e2e ecB|
+"A"A2B "A/C#"c2e| "D"faf "D#dim"ecB| "E7"AFE A2B| cAG "C#7/F"Ace|
+"F#m"f3 fec| "D"fgf fec| "C#m"efe efg| "E7"agf ecB|
+"A"A2B "A/C#"c2e| "D"faf "A/C#"ecB| "D"AFE "Bm"A2B| "E7"cAG "A"A3|]
+%%text 7/29/05
+
+#include "RightHeader.h"
+%%scale .7
+% ---------- set 69 ----------
+% Scotty O'Neil (D)/Farewell to Whiskey (G)/Road to Boston (D)
+
+%%textfont       Times-Bold 13.0
+%%text Set 69
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X:1
+T: Scotty O'Neil
+C: Bob McQuillen 1973
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+AG| "D"F2D2 A2F2| "G"dedc BABc| "D"d2A2 G2F2| "A"F2 E4 AG|
+    "D"F2D2 A2F2| "G"dedc BABc| "D"d2A2 "A"ABAG| "D"F2 D4 :|
+|:AG| "D"F2A2 f2e2| "G"d2c2 B3c| "D"d2A2 G2F2| "A"F2 E4 AG|
+    "D"F2D2 f3e| "G"dedc BABc| "D"d2A2 "A"ABAG| "D"F2 D4 :|
+%%text Roaring Jelly R-32
+
+%%topspace 0
+X: 2
+T: Farewell to Whiskey (R-14)
+C: R-14
+C: Irish
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: G
+GE| "G"D2G2 B2AG| "Am"A2E2 E3G| "G"D2G2 B2AG| "Bm"d2B2 B3d|
+    "C"e2g2 "G"d2B2| "Am"cBAG "D"A2B2| "G"D2G2 "D"BAGA| "G"B2G2G2 :|
+|:Bc| "G"d2B2 g2B2| "Am"cBAG "D"A2Bc| "G"d2B2 g2d2| "C"e2g2 g3d|
+    "C"e2g2 "G"d2B2| "Am"cBAG "D"A2B2| "G"D2G2 "D"BAGA| "G"B2G2G2 :|
+
+X: 3
+T: Road to Boston (R-9)
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+e2| "D"f6 ef| g2f2 e2d2| "A"c2d2 e2f2| "D"d2A2 F2A2|
+    "D"f6 ef| g2f2 e2d2| "A"c2d2 e2c2| "D"d6 :|
+|:fg| "D"a6 ^ga| "B"b2a2 =g2f2| "Em"g6 fg| "A"a2g2 f2e2|
+    "D"f6 ef| "G"g2f2 e2d2| "A"c2d2 e2c2| "D"d2A2 d2 :|
+%%text 3/26/02
+
+#include "LeftHeader.h"
+%%scale .75
+% ---------- set 70 ----------
+% Hughie Shortie's (G)/ Easy Club (A)/  Bus Stop (Am)
+
+$SmallLMargin
+$SmallRMargin
+%%textfont       Times-Bold 13.0
+%%text Set 70
+%%textfont       Times-Roman 7.0
+%%scale .9
+%%topspace -.75cm
+X:1
+T: Hughie Shortie's Reel (Johny Wilmot; R-98)
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: G
+"G"G2BG "D"cAFA| "G"GABd g2fg| "C"ecAc "G"dBGB| "Am"cAAB "D"AFD2|
+"G"DGBG "D"cAFA| "G"GABd g2fg| "C"ecAc "G"dBGB| "D"cAFA "G"G4 :|
+"G"g2dg bgag| "C"ec c/c/c "Am"efge| "G"dB B/B/B "Em"dBGB| "C"cAAB "D"AFD2|
+"G"g2dg bgag| "C"ec c/c/c efge| "G"dB B/B/B "C"dBGB| "D"cAGF "G"G4|
+"G"g2dg bgag| "C"ec c/c/c "Am"efge| "G"dB B/B/B "Em"dBGB| "C"cAAB "D"AFD2|
+"C"G,CEC "G"B,DdB| "D"cdef "G"g2fg| "C"ecAc "G"dBGB| "D"cAFA "G"G4|]
+
+X: 2
+%%topspace 0
+T: Easy Club (\251Jim Sutherland;R-98)
+I: Easy Club	R-98	A	reel
+M: C|
+R: reel
+K: A
+E2| "A"A2cA "E"BcdB| "A"cdec "D"defg| "A"agae faec| "E"dcc(B B)dcB|
+    "A"A2cA "E"BcdB| "A"cdec "D"defg| "A"agae faec| "G"dB=GB "A"A2 :|
+|:ce| "D"faa(d d)aga| "A"eaa(c c)aga| "D"faa(d d)aga| "A"cee(B "E"B)dcB|
+    "A"A2cA "E"BcdB| "A"cdec "D"defg| "A"agae faec| "G"dB=GB "A"A2 :|
+%%text 12/07/09
+
+#include "RightHeader.h"
+%%textfont       Times-Bold 13.0
+%%text Set 70 (cont'd)
+%%textfont       Times-Roman 7.0
+%%scale .9
+%%topspace -.75cm
+X:1
+T: Bus Stop Reel       (r-139)
+C: Anita Anderson \2511987
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+M: C|
+K: Am
+"Am"A2eA dAc2| ABcA "G"BAGB| "Am"A2eA dAc2| "C"cde^f "G"gedB|
+"Am"A2eA dAc2| ABcA "G"BAG2| "F"FGAc "G"BAGB| "Am"cABG A4:|
+|:"Am"ea-ag edcB| ABcd e4| ea-ag "C"edc2| "D"de^fd "E"e4|
+"Am"ea-ag edcB| ABcd e2dc| "G"BAGF EFGB| "Am"cABG A4 :|
+
+%%topspace 0
+X:2
+T: Easy Club Harmony
+Z: to be played occasionally in place of the usual A's
+M: C|
+R: reel
+K: A
+%%topspace 0
+%%textfont       Times-Roman 10.0
+%%text to be played occasionally in place of the usual A's
+%%textfont       Times-Bold 10.0
+%%text alternate A
+V:RH clef=treble staves=2 brace=2
+A4 B4|c4 d4|e4 d4|c3B- B2z2|A4 B4|c4 d4|e4 c4|=G3A- A2z2:|
+% %text harmony
+V:LH clef=treble
+c4 d4|e4 f4|g4 f4|e3d- d2z2|c4 d4|e4 f4|g4 e4|B3c- c2z2:|
+
+X: 3
+T:Bus Stop Harmony
+Z:to be played occasionally in place of the usual A's
+M:C|
+R:reel
+K:Amin
+%%textfont       Times-Roman 10.0
+%%text to be played occasionally in place of the usual A's
+%%textfont       Times-Bold 10.0
+%%text alternate A
+A2e2 d2c2| A3B- B2 z2| A2e2 d2c2| e3^f- f2z2| 
+A2e2 d2c2| A4 G4| F4 G4|1 A4 z4 :|2 A2B2 c2d2|]
+%%text 12/07/09
+
+#include "LeftHeader.h"
+%%scale .68
+% ---------- set 71 ----------
+%Pipe on the Hob (Dmix) / The Wild One (Dm) / Indian Point (Em) / The Roaring Barmaid (G)
+%%textfont       Times-Bold 13.0
+%%text Set 71 (old set 72)
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X:1
+T:Pipe On The Hob, The (J-74)
+M:6/8
+L:1/8
+R:jig
+Z:abc by J. Walsh
+K:DMix
+A|"D"d^cd A2G|F2D DED|"C"EDE cBc|E2D "D"D2A|
+  "D"dcB "Am7"cBA|"Bm7"BAG "Am7"A2G|"C"EDE cBc|"C"E2D "D"D2:|
+g|: "D"f2d d^cd|f2d d^cd|"C"edB c2d|"C"ede "A"age|
+[1 "D"f2d d^cd|f2d d^cd|"C"ede age|"A"ed^c "D"d2e:| 
+   [2 "D"fef "C"gfg |"D/B"afa "Am7"g2e|"D"fed "C"eag|"A"ed^c "D"d2|]
+
+%%topspace 0
+X: 2
+T:Wild One (J-75)
+M:6/8
+L:1/8
+R:jig
+C:Mary Pantaleone
+Z:abc by Debby Knight
+K:Dmin
+"Dm"DEF DGD|"F"ADc AGF|"Bb"DEF DGD|"Am"ADF EDC |
+"Dm"DEF DGD|"F"ADc AGF|"Bb"dcA "Dm"GAF|1 "Am"EDC "Dm"D2A,:|	[2 "Am"EDC "Dm"D2A ||
+|: "Dm"d2c A2c|"F"dcA cdc|"Bb"d2c A2G|"Am"FGE FED |
+"Dm"d2c A2c|"F"dcA cdc|"Bb"dcA "Dm"cdF| "Am"EDC "Dm"D3:|
+
+X: 3
+T:Indian Point (J-77)
+R:jig
+C:Rick Mohr  4/89
+D:
+Z:Translated to abc by Debbie Knight
+Z:
+M:6/8
+K:Emin
+"Em"B,EF G2A  |BAG FED |"C"CEF G2A |BAG BAG |
+"D"FED A,2D |FEF AGF |1"Em"EFG BAG |"B" F3 FED :|	[2 "Em"GFE "D"FED | "Em"E3 E2 ||
+|: A| "Em"Bef gfe |"C"cef gfe  |"D"dfg agf |"Em"gfe "D"fed |
+"Em"Bef gfe |"C"ceg a2a |"B"bag fgf|"Em"e3 e2 :|
+%%text 1/25/06
+
+#include "RightHeader.h"
+%%textfont       Times-Bold 13.0
+%%text Set 71 (old set 72) (cont'd)
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X:4
+T:The Roaring Barmaid
+R:jig
+C:Tony O'Sullivan
+Z:Translated to abc by Debbie Knight
+Z:
+M:6/8
+K:G
+"G"G3 EGD |"C/G"G3 EGD |"G"DGG BGG |dGG BdB |
+"G"G3 EGD |"G/B"G3 EGD |"C"GAB deg |"D" deg edB :|
+|:"G"deg b3 |"G/B"bab deg  |"C"b3 bag |"D"edB deg |
+"G"b3 bab |"G/B"agg bgg |"C"agg efg|"D"deg edB :| "G - go out on"G6 |]
+%%text Roaring Jelly J-76
+
+X:5
+T:The Roaring Barmaid
+T:B part harmonies
+R:jig
+D:
+Z:Translated to abc by Debbie Knight
+L:1/8
+M:6/8
+K:G
+P:1st Harmony
+GGB d3|dcd GGB| d3 dcB|GGD GGB |d3 dcd|
+cBB dBB| cBB GAB| GGB cAG:|"go out on"D6 |]
+P:2nd Harmony
+Bcd g3 |geg Bcd |g3 ged |cBG Bcd | g3 geg |
+edd gdd |edd Bcd | Bcd gfd:|"go out on"B6 |]
+%%text 1/25/06
+
+#include "LeftHeader.h"
+% ---------- set 72 ----------
+% Spotted Pony (D) /North Carolina Breakdown (D) / Old Joe (C)
+%%textfont       Times-Bold 13.0
+%%text Set 72 (old set 71)
+%%textfont       Times-Roman 10.0
+%%scale .7
+%%topspace -.75cm
+X:1
+T: Spotted Pony, The (R-48)
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+FE| "D"D2D2 "A"E2E2| "D"FDF2 "G"G4| "D"ABde fede| f2a2 "A"e2 FE|
+    "D"D2D2 "A"E2E2| "D"FDF2 "G"G4| "D"ABAB dBAG |1 "D"F2"A"E2 "D"D2 :|2 "D"F2"A"E2 "D"D4 |]
+|:"D"f2a2 f4| "G"efed BcdB| "D"ABde fede| f2a2 "A"e4|
+"D"f2a2 f4| "G"efed BcdB| "D"ABAB dBAG |1 "A"F2E2 "D"D4 :|2 "A"F2E2 "D"D2|]
+
+%%topspace 0
+X: 2
+T: North Carolina Breakdown (©Arthur L. Smith 1937; R-150)
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+D2| "G"G2G2 EDEF| GFGA Bdef| "C"g2f2 edef| "D"gage dBAF|
+"G"G2G2 EDEF| GFGA Bdef| "C"g2f2 edBA| "D"dBAF "G"G2 :|
+|: d2| "C"[e2g2][e2-g2-] [e2g2][e2-g2-]| [e2g2]g2 gag2|    "G"[d2g2][d2-g2-] [d2g2][d2-g2-]| [d2g2][dg][dg] [B2g2][d2g2]|
+"C"[e4g4] g2b2-| b2b2 agef| "G"gage dBAB| "D"dBAF "G"G2 :|
+
+X: 3
+T: Old Joe (R-150)
+M: C|
+Z: Transcribed from "Frets", with slight changes, by Debby Knight
+R: reel
+K: C
+"C"[E3c3]d "C/E"cAGc|  "F"AGAB "F#dim7"cBcd| "C/G"eg2e "A7"ggag| "D7"ega_b "G7"aged|
+"C"c2cd "C7"cAGc| "F"AGAB "F#dim7"cBcd| "G"ega_b "Am"agea| "G/B"gedB "C"c4 :|
+|: "Am"A,4 C4| EA2_E DCA,G,| "Am"A,4 C4| "F7"_E3E DCA,G,|
+"Am"A,2A,2 C4| EA2_E DCA,C| "C"c2cA "F"GcAG| "G"ECDB, "C"C4 :|
+%%text 1/25/06
+
+#include "RightHeader.h"
+% ---------- set 73 ----------
+% Jimmy in the Swamp (G) / Kansas City (A) / Old Bell Cow (A)
+
+%%textfont       Times-Bold 13.0
+%%text Set 73
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X:1
+T: Jimmy in the Swamp (R-99)
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: G
+"G"DEGA BAGA| Bded efg2| DEGA BAGA| "C"B2AG "D"EFGE|
+"G"DEGA BAGA| Bded efga| "Em"b2ag "C"efge|1 "D"dBAF "G"G3E :|2 "D"dBAF "G"GABd|]
+|:"Em"e3d B2Bd| efed B2gf| e2E3 FGA| "Bm"B2AF "Em"GFE2|
+"Em"e3d B2Bd| efed B2gf| e2E2 "C"EFGA| "D"BGAF "G"G4 :|
+
+%%topspace 0
+X: 2
+T:Kansas City (R-152)
+R:reel
+Z:transcribed to ABC by Debby Knight
+M:C|
+L:1/8
+K:A
+cB|"A"AAcB AAcB | Aceg aega | "E7"bgeg fecd | ecef ecBc|
+"A"A2cB A2cB | Aceg aega |"E7"bgeg fecd |"A"ecB2 A2 :|
+|: cd| "A"e3e e3=g | fecd ecBA | "G"B3c B2=g2- | =gfeg fecA |
+"A"e3f e2e=g | fecd ecBA | "E7"Bege fefg | "A"ga2g a2 :|
+
+X:3
+T:Old Bell Cow (R-153)
+R:reel
+Z:transcribed to ABC by Debby Knight
+M:C|
+L:1/8
+K:AMix
+"A"A=cAG EGED | CA,2CA,3A, | A,B,CE A2AG | "D"FD2F D3A- |
+"A"A=cAG EGED | CA,2C A,2CB, |A,B,CE AEAG |1 "D"FD2E D3A-:|2 "D"FD2E D4 |]
+|: "A"e3f e2ed | cdef e2A2 | "G"d2d2 BAGB | dBd=c BG3 |
+"A"e3f e2ed | cdef efef | "G"gfgf efed | "A"cABc A4 :|
+%%text 8/20/10
+
+#include "LeftHeader.h"
+% ---------- set 74 ----------
+% Set Americain (D) / Evit Gabriel (Em) / Hommage a Edmond Pariseau (A and D)
+
+%%textfont       Times-Bold 13.0
+%%text Set 74
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X:1
+T:Set Am\'ericain
+R:reel
+C:Th\'eodore Duguay
+Z:transcribed to ABC by Debby Knight
+M:C|
+L:1/8
+K:D 
+(3ABc|"D"dAFA DAFA | "A"EAEA "D"DABc | "D"dAFA DAFA | dAdf "A"ec (3ABc |
+"D"dAFA DAFA | "A"EAEA "D"DABc |"D"dcdf "A"ec (3ABc |1 "D" df"A"ec "D"d2 :|[2 "D"dfec "F#"d2c2|]
+|: "Bm"B3c dcde| fefg "F#"fedc | "Bm"BABc dcBA | "Em"GFGA "F#"G2F2 |
+"Bm"BFBc dcde| fefg "F#"fedc| "Bm"BABc "F#"dcBA |1 "Bm"Bbfd "Bm"B2 "F#"dc  :| [2 "Bm"Bbfd B2 |]
+%%text Roaring Jelly R-155
+
+%%topspace 0
+X: 2
+T:Evit Gabriel
+R:reel
+Z:transcribed to ABC by Debby Knight
+M:C|
+L:1/8
+K:Em
+|"Em"EFGF EFGF | EFGA B2AB |"Am"cBAG F2GA |"B7"BAGB F4 |
+"Em"EFGF EFGF | EFGA B2AB | "Am"cBAG "B7"FBGF | "Em"EG"B7"FD "Em"E4 :|
+|: "Am"eAAe "D"dcBc | "G"dGGd "C"cBAG | "F#m"FGAc "B"BAGF | "Em"GFGA "E7"B2cd |
+"Am"eAAe "D"dcBc | "G"dGGd "C"cBAG | "F#m"FGAc "B"BAGF| "Em"GA"B7"FG "Em"E4 :|
+%%text Roaring Jelly R-156
+%%text
+%%text 4/13/03
+
+#include "RightHeader.h"
+%%textfont       Times-Bold 13.0
+%%text Set 74 (cont'd)
+%%textfont       Times-Roman 7.0
+%%topspace -.75cm
+X: 3
+T:Hommage \`a Edmond Pariso (Pariseau)
+R:reel
+Z:transcribed to ABC by Debby Knight
+M:C|
+L:1/8
+K:A
+A ABcd|"A"eAAe AAeA | AAeA "D"f2ed | "A"ceAB cAeA | ceAc "A#dim"dedc |
+"E7/B"B3B BABc| "E"B3e efed | "A" c2B2 AcBA |"E"E3 A ABcd|
+"A"eAAe AAeA | AAeA "D"f2ed | "A"ceAB cAeA | ceAc "A#dim"dedc |
+"E7/B"B3B BABc| "E"e2d2 c2B2| "A"Afed "E"cdBc |"A"A2c2 "A7" B2 A2 |]
+|: "D"a4 "F#/C#"f4 |"Bm7"d3A "E7"d2f2 | "A" e3e "E/G#"efec | "F#m"A2c2 B2A2 |"E"B2BB BABc |
+"E"e2d2 c2B2 |1 "A"cBAc "E"ecef | "A"e2c2 "A+/C#"B2A2 :|	[2 "A"Afed "E"c2B2| "A"A3 |]
+%%text Roaring Jelly R-157
+
+%%vskip 28
+
+X: 4
+T:Hommage \`a Edmond Pariso (Pariseau)
+R:reel
+Z:transcribed to ABC by Debby Knight
+M:C|
+L:1/8
+K:D
+D DEFG|"D"ADDA DDAD | DDAD "G"B2AG | "D"FADE FDAD | FADF "D#dim"GAGF |
+"A7/E"E3E EDEF |"A"E3A ABAG | "D"F2E2 DFED |"A"A,3 D DEFG|
+"D"ADDA DDAD | DDAD "G"B2AG | "D"FADE FDAD | FADF "D#dim"GAGF |
+"A7/E"E3E EDEF |"A"A2G2 F2E2| "D"DBAG "A"FGEF |"D"D2F2 "D7" E2 D2 |]
+|: "G"d4 "B/F#"B4 |"Em7"G3D "A7"G2B2 | "D"A3A "A/C#"ABAF | "Bm"D2F2 E2D2 |"A"E2EE EDEF |
+"A"A2G2 F2E2 |1 "D"FEDF "A"AFAB | "D"A2F2 "D+/F#"E2D2 :| [2 "D"DBAG "A"F2E2| "D"D3 |]
+%%text 8/6/05
+
+#include "RightHeader.h"
+% ---------- set 75 ----------
+% Jimmy in the Swamp (G) / Kansas City (A) / Old Bell Cow (A)
+%%scale .8
+%%textfont       Times-Bold 13.0
+%%text Set 75 (harmony)
+%%textfont       Times-Roman 10.0
+%%topspace -.75cm
+X:1
+%%vskip 3in
+T:Harmony for Sligo Creek
+M: C|
+R: reel
+K: Bm treble
+%%vskip 3in
+|c2 AB AF F2|B2 AB AB B2|e2 AA FE DB,|A,B,DE F3 A|
+B2 AB AF F2|B2 AB AB B2|e2 AA FDAF|EFFE F4:|
+|:G8|F8|E8|C8|B,8|A,8|A,8|F,4 B,4:|
+
+%%text 1/25/06
+
+#include "RightHeader.h"
+%%textfont       Times-Bold 18.0
+%%text Set 75
+%%textfont       Times-Roman 10.0
+%%topspace -.75cm
+% ---------- set 75 ----------
+%%scale .69
+% Lady Anne Montgomery (D) / Sligo Creek (Bm) / The Devil's Dream (A)
+X:1
+T:Lady Anne Montgomery (R-145)
+M:C|
+L:1/8
+K:D
+A| "D"FADA FADA| FAdA "G"BAdA|"D"FADF "Em"EDEF| "A"DB,A,B, "D"D3E|
+"D"FADA FADA| FAdA BABc|"G"dBAF "Em"E3F|"A"DB,A,B, "D"D3:|
+|: e| "D"f3f fede| fedB ABde|   f2fe "Bm"fede| "Em"fgaf "A"efde|
+"D"f3f fede| fedB ABde|"G"fded "Em"BdAd| "A"egfe "D"d3:|
+%%text Alternate chords/bass line for part B:
+%%text |: D - | - - | F#m/C# - | - - | Bm - | - - | Em G | A D :|
+
+%%topspace 0
+X: 2
+T: Sligo Creek (R-154)
+C:Danny Noveck c1988
+R:reel
+Z:transcribed to abc by Mary Lou Knack
+M:C|
+L:1/8
+K:Bm
+de| "Bm"f2ef dB~B2| f2ef df~f2| "A"a2ed cAAF| EFAB "F#m"c3e|
+    "Bm"f2ef dB~B2| f2ef df~f2| "A"a2ed cAec| ABcA "Bm"B2 :|
+|: BA| "G"GB~B2 Bcde| "D"f2ec defd| "A"eA (3.A.A.A cAFA| EFAB "F#m"c2BA|
+"G"GB~B2 Bcde| "D"f2ec defd| "A"ea (3.a.a.a faec| ABcA "Bm"B2 :|
+
+%%vskip 14pt
+
+X: 3
+T: Devil's Dream, The (R-7)
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: A
+e2| "A"agae agae| agae fedc| "Bm"dfBf dfBf| dfBf "E"agfe|
+    "A"agae agae| agae fedc| "D"dfed "A"cABA| "E"E2A2 "A"A2 :|
+|:e2| "A"ceAe ceAe| ceAe fedc| "Bm"dfBf dfBf| dfBf "E"agfe|
+    "A"ceAe ceAe| ceAe fedc| "D"dfed "A"cABA| "E"E2A2 "A"A2 :|
+%%text 4/13/02
+
+#include "LeftHeader.h"
+%%textfont       Times-Bold 18.0
+%%text Set 76
+%%textfont       Times-Roman 10.0
+%%topspace -.75cm
+% ---------- set 76 ----------
+% Rock Valley (C) / Little Burnt Potato (D) / Irishman's Heart to the Ladies (A)
+%%scale .65
+X:1
+T: Rock Valley (J-78)
+M:6/8
+K:Am
+|:"C"C2E GFE|"F"D2E"Dm"F2A|"G"GAG GBd|"C"cBc "G7"AGE|
+"C"C2E GFE|"F"D2E"Dm"F2A|"G"GAG GBd|1 "C"cdc c3 :|2 "C"cdc cef|]
+|:"C"gag gag|"C"e2c cBA|"C"G2c B2c|"Dm"e2d d^cd|
+"C"gag gag|"C"e2c cBA|"G"G2c "G7"Bcd|"C"cdc c3:|
+%%text Transition -- play this instead of last measure above:
+|c3^f2g|
+
+%%topspace 0
+X: 2
+T: Little Burnt Potato (J-34; New England)
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: D
+fg|: "D"a^ga bag| afd Ade| fdf g2f| "Em (G)"efe Bcd|
+     "A"efe dcB| Ace a3|1 a^ga ba=g| "D"f3 f2g:|2 "A"a^ga b2c| "D"d3 d2g|]
+|:"D"f2A f2A| fgf f2e| def afd| "G"g3 gef|
+"Em"gba gfe| "A"dcB A3|1 a^ga ba=g| "D"f3 fag:|2 "A"a^ga b2c| "D"d3|]
+
+X: 3
+T: Irishman's Heart to the Ladies (Irish; J-17)
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: A
+a| "A"ecA "D"BAF| "A"AFE EFA| "Bm"Bdc BAB| "E"cBB B2 a|
+   "A"ecA "D"BAF| "A"AFE EFA| "Bm"Bdc "E7"BAB| "A"cAA A2 :|
+|:A| "A"cee "D"dff| "A"cee ecA| cde "D"eaf| "A"ecA "E"B2 A|
+   "A"cee "D"dff| "A"cee ecA| "Bm"Bdc "E7"BAB| "A"cAA A2 :|
+%%text 12/19/04.   Irishman's Heart to the Ladies also known as "Health to the Ladies".
+
+#include "RightHeader.h"
+% ---------- set 77 ----------
+% Dominion Reel (C) / Batchelder's (F) / Lamplighter's Hornpipe (A)
+%%textfont       Times-Bold 18.0
+%%text Set 77
+%%textfont       Times-Roman 12.0
+%%topspace -.75cm
+%%scale .65
+X: 1
+T: Dominion Reel (R-92; New England)
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: C
+G2| "C"c2c2 "G"BcdB| "C"cega gece| "F"f2fd "C"e2ec| "G"dcBA G2AB|
+    "C"c2c2 "G"BcdB| "C"cega gece| "F"f2fd "C"e2ec| "G"dcBd "C"c2 :|
+|:G2| "C"cege cege| "F"defe "G"dcBd| "C"cege cege| "G"dg"D"^fa "G"g2G2|
+    "C"cege cege| "F"f2fe dcBA| "G"GABc defg| "C"ec"G"dB "C"c2 :|
+%%text Alternate chords by Heather Pinney:
+%%text |: CGC- Dm-G- CGAmEm FDGC :|
+%%text |: C-G- C-DG C-F- G---C :|
+
+X:2
+T: Batchelder's (R-54; New England)
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: F
+c2| "F"f2af "C7"efge| "F"f2c2- c2=Bc| "Bb"dcBA BAGF| "C7"EFGA Bcde|
+    "F"f2af "C7"efge| "F"f2c2- c2=Bc| "Bb"dcBA BAGF| "C7"EFGE "F"F2 z2:|
+|:"F"A2cA cAcA| "Bb"B2dB dBdB| "F"A2cA cAcA| "C7"BAGF EFGB|
+"F"A2cA cAcA| "Bb"B2dB dBdB| "F"Acfa "C7"bgeg| "F"f2a2 f4 :|
+%%text Transition -- play this instead of last measure above:
+|f2z2^c3d|
+
+X: 3
+T: Lamplighter's Hornpipe (R-90)
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: hornpipe
+K: A
+cd| "A"ecec eagf| ecec eagf| ecec fedc| "E7"d2B2 B2cd|
+    "A"ecec eagf| ecec eagf| efde "E7"cdBc| "A"A2A2 A2 :|
+|:cd| "A"edcd e2fe| "E7"dcBc d2ed| "A"cAcA dcBA| "E"GABc B2cd|
+    "A"edcd e2fe| "E"dcBc d2ed| "A"cagf "E"edcB| "A"A2c2 A2 :|
+%%text 12/19/04
+
+#include "LeftHeader.h"
+%%textfont       Times-Bold 18.0
+%%text Set 78
+%%textfont       Times-Roman 12.0
+%%topspace -.75cm
+%%scale .65
+X:1
+T:The Clare Jig (J-79)
+M:6/8
+K:G
+|:"G"G3 GAB|"C"AGE "D"GED|"G"GFG "Am"AGE|"C"GED "D"DEF|
+"G"~G3 GAB|"C"AGE "C/B"GAB|"Am"cBA "C"BGE|[1"D"DED DEF:|2"D"DED D3|]
+|:"C"cBA "G"BAG|"D"ABA AGE|"C"cBA "G"BGE|"D"DED D3|
+"C"cBA "G"BAG|"Am"ABA ABc|"D"dcA "C"GEA|[1"D"DED D3:|2"D"D2 B cAF|]
+%%text Transition -- play this instead of last measure above:
+|D2 z3 f/2e/2|
+
+X:2
+T: Top of Cork Road (J-1)
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: D
+f/e/| "D"dAF DFA| "G"Bed "A"cBA| "D"dcd "A"efg| "D"fdf "A"ece|
+      "D"dAF DFA| "G"Bed "A"cBA| "D"dcd "A"efg| "D"fdd d2 :|
+|:g| "D"fdf fga| "A"ecd efg| "Bm"dcd fed| "F#m"cAA A2c|
+   "G"BGB Bcd| "D"AFA ABc| "G"dcd "A"efg| "D"fdd d2 :|
+
+X:3
+T: Tenpenny Bit, The (J-3; in A Dorian)
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: ADor
+e| "Am"eAA eAA| "G"BAB GBd| "Am"eAA eAA| "D"def "G"gfg|
+   "Am"eAA eAA| "G"BAB GBd| "Em"edB gBB| "Am"BAA A2 :|
+|:B| "Am"A2a aga| "Em"bge dBG| "Am"A2a aga| "Em"bge g2d|
+   "Am"e2a aga| "Em"bge dBd| edB gBB| "Am"BAA A2 :|
+%%text 1/1/05
+
+#include "RightHeader.h"
+%%textfont       Times-Bold 18.0
+%%text Set 79 (old 80)
+%%textfont       Times-Roman 10.0
+%%topspace -.75cm
+%%scale .7
+X:1
+T: Moon and Seven Stars, The (J-65)
+I: Moon and Seven Stars, The	J-65	D	jig
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: D
+%%text Don't play pickup at start!
+A| "D"d2A AGF| "G"GAB "D"A2A| "G"Bcd efg| "A"fed cBA|
+"D"d2A AGF| "G"GAB "D"A2A| "G"Bcd efg| "A"Adc "D"d2 :|
+|: "A"e2A ABA| efg "D"f3| "A"efg "D"fed| "E"cdB "A"A2A|
+"G"BGB "D"A2A| "G"BGB "D"A2A| "G"Bcd efg| "A"Adc "D"d3 :|
+
+X:2
+T: One-Horned Sheep  (J-64)
+I: One-Horned Sheep	J-64	G	jig
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: G
+"G"g2G GFG| "C"EGG "G"DGG| g2G GFG| "Am"EAG "D"FED|
+"G"g2G GFG| "C"EGG "G"DGG| "C"EGG "D"FGA| "G"BGF G3 :|
+|: "G"GBd dBd| GAB d2D| GBd dcB| "D"cdc A2D|
+"G"GBd dBd| GAB def| "C"gfe dBG |1 "D"ABA G2D :|2 "D"ABc def |]
+%%rightmargin 12cm
+
+X:3
+T: Tenpenny Bit, The (J-3)
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+P: A Dorian
+K: ADor
+| "Am"e2A eAA| "G"BAB GBd| "Am"eAA eAA| "D"def "G"gfg|
+   "Am"eAA eAA| "G"BAB GBd| "Em"edB gBB| "Am"BAA A2 :|
+|:B| "Am"A2a aga| "Em"bge dBG| "Am"A2a aga| "Em"bge g2d|
+   "Am"e2a aga| "Em"bge dBd| edB gBB| "Am"BAA A2 :|
+%%text 4/3/05
+
+#include "LeftHeader.h"
+%%textfont       Times-Bold 18.0
+%%text Set 80 (old 79)
+%%textfont       Times-Roman 12.0
+%%topspace -.75cm
+%%scale .64
+X:1
+T:Marche Duvernay (J-78)
+M:6/8
+K:D
+|:"D"f2 f f2 f|fed dcB|A2 A A2 A|"D"Add "D#dim"ded|"Em7"c2 c c2 c|
+|[1"A"cfe gba|"D"f2 f f2 f|fAB "A7"cBA:|2"A7"caa age|"D"dAB "A7"cBA|d2 A "D#dim"A2 B||
+|:"Em7"cBA cBA|"A7"cBA GFE|"A7"DFA dFB|A2 A "D#dim"A2 d|
+"Em7"cBA cBA|"A7"cBA GFE|[1"D"DFA d2 F|A3 "D#dim"d3:|2"D"DFA dAF|DAB "A7"cBA||
+%%text Transition -- play this instead of last measure above:
+|D3 "A7"A3|
+
+X:2
+T:Marche des Trois Rivieres (R-160)
+M:C|
+K:D
+A|:"D"A3 f e2 d2|(A4 A)B1/2 cB1/2|A3 f e2 d2|(A4 A)B1/2 cB1/2|
+"Em"A3 B c2 d2|"A"e6 aa|[1"Em"a2 e2 "A7"a2 e2|"D"(f4 "A"f3) A:|2"A"a2 g2 B2 c2|"D"ddAF "F#"D2 FF||
+|:"Bm"F2 B2 B2 FF|F2 B2 B2 FF|F2 B2 B2 F2|"Em"A2 G2 G2 AA|
+"A"A2 c2 c2 AA|"A"A2 c2 c3 [1E|"A"E3 d "A/G"d2 c2|"F#m/F#m/A"B2 c2 A2 FF:|2B|"A"B2 A2 G2 E2|"D"DDFA d3||
+%%text Transition -- play this instead of last measure above.  
+%%text Hold this quarter note as long as you will hold the eighth notes in next tune.
+|D2|
+
+
+X:3
+T: Marche du Mont Saint-Louis (R-124)
+M: C
+R: march
+K: D
+ABc|"D"d2 "A7"e2 "D"f2 "A7"e2|"D"d4- dA"A"Bc|"D"d>cBA "D#m"BAGF| "A"F2E2- EABc|
+"Em7"e2f2 "A7"g>fed|"Em7"c4- "A7"caaa|"Em7"a2g2 "Aaug"B>c"A"BA|"D"d4- "A"dab>a||
+"D"a4- af"A7"e>d|"D"A4- "A"AF/G/ A/A/B/c/|"D/F#"dd/B/"Fdim"dd/B/"D/F#"dd/B/ "Fdim"d/e/d/B/|"Em"c4- "A7"cab>f|
+"Em7"a4- "A7"age>c|"Em7"A4- "A"AA/A/AA|"Em7"B2g2 "A7"B>cBA|"D"d4- d||
+%%text 3/26/05
+
+#include "RightHeader.h"
+%%scale .7
+%%textfont       Times-Bold 18.0
+%%text Set 80, continued
+%%scale .8
+X:4
+T: Marche du Mont Saint-Louis in G (R-124, transposed)
+M: C
+R: march
+K: G
+DEF|"G"G2 "D7"A2 "G"B2 "D7"A2|"G"G4- GD"D"EF|"G"G>FED "G#m"EDCB,| "D"B,2A,2- A,DEF|
+"Am7"A2B2 "D7"c>BAG|"Am7"F4- "D7"Fddd|"Am7"d2c2 "Daug"E>F"D"ED|"G"G4- "D"Gde>d||
+"G"d4- dB"D7"A>G|"G"D4- "D"DB,/C/ D/D/E/F/|"G/B"GG/E/"Bbdim"GG/E/ "G/B"GG/E/ "Bbdim"G/A/G/E/|"Am"F4- "D7"Fde>B|
+"Am7"d4- "D7"dcA>F|"Am7"D4- "D"DD/D/DD|"Am7"E2c2 "D7"E>FED|"G"G4- G||
+
+X:5
+T: Marche des Marchands des Fruits (R-161)
+M: C
+R: march
+K: C
+%%scale .8
+$SmallRMargin
+$SmallLMargin
+g/ ga|"C"g>e ef e>c cc|dc "C#dim"Bc "Dm"f>f fg|"Dm"f>d de d>g ga|"G7"ba gf "C"e>g "G7"ga|
+"C"g>e ef e>c cc|dc "C7"Bc "F"a2 f>a|"F"a2 "Dm"f>a "C"g2 "Am"e>g|"Dm7"ag "G7"fd "G7"cG "G7"ce||
+|:"C"g2 g>a g/e/c/e/ ga| g2 e>e ee "C#dim"fe|"Dm7"d2 d>d "G"df ed|"C"c/G/c/e/ "G7"ag [1"C"cG "G7"ce:|2c3/2|]
+%%textfont Times-Roman 10.0
+%%text 4/30/05
+
+#include "LeftHeader.h"
+%%textfont       Times-Bold 18.0
+%%text Set 81 (L)
+%%textfont       Times-Roman 10.0
+%%topspace -.75cm
+$SmallLMargin
+$SmallRMargin
+X: 1
+T: Liza Jane (R-99)
+I: Liza Jane	R-99	A	reel
+M: C|
+R: reel
+K: A
+%%text Fiddles shuffle in.  A, C#, and E are good notes to shuffle.  Anything else is not good.
+ef| "A"a2f2 e2ce| fecB A4| a2f2 e2c2| "D"f4 f2ef|"A"a2f2 e2ce| fecB A2AB| "D"cBAF "E"E2F2| "A"A6 :|
+|:BA| "A"c4 c3A| B2(A2 A)ABA| c2B2 A2E2| "D"(F6 F)E|"D"F2A2 "E"B3A| BAcA B2AB| "D"cBAF "E"E2F2| "A"A6 :|
+
+$NormLMargin
+$NormRMargin
+%%rightmargin   4cm
+X:2
+T: Spotted Pony, The  (R-48)
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+FE| "D"D2D2 "A"E2E2| "D"FDF2 "G"G4| "D"ABde fede| f2a2 "A"e2 FE|
+    "D"D2D2 "A"E2E2| "D"FDF2 "G"G4| "D"ABAB dBAG |1 "D"F2"A"E2 "D"D2 :|2 "D"F2"A"E2 "D"D4 |]
+|:"D"f2a2 f4| "G"efed BcdB| "D"ABde fede| f2a2 "A"e4|
+"D"f2a2 f4| "G"efed BcdB| "D"ABAB dBAG |1 "A"F2E2 "D"D4 :|2 "A"F2E2 "D"D2|]
+
+#include "RightHeader.h"
+%%textfont       Times-Bold 18.0
+%%text Set 81 continued
+%%textfont       Times-Roman 10.0
+%%topspace -.75cm
+X: 3
+T: North Carolina Breakdown (R-150; Arthur L. Smith \2511937)
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: G
+D2| "G"G2G2 EDEF| GFGA Bdef| "C"g2f2 edef| "D"gage dBAF|
+"G"G2G2 EDEF| GFGA Bdef| "C"g2f2 edBA| "D"dBAF "G"G2 :|
+|: d2| "C"[e2g2][e2-g2-] [e2g2][e2-g2-]| [e2g2]g2 gag2|    "G"[d2g2][d2-g2-] [d2g2][d2-g2-]| [d2g2][dg][dg] [B2g2][d2g2]|
+"C"[e4g4] g2b2-| b2b2 agef| "G"gage dBAB| "D"dBAF "G"G2 :|
+
+X: 4
+T:Kansas City  (R-152)
+R:reel
+Z:transcribed to ABC by Debby Knight
+M:C|
+L:1/8
+K:A
+%%text The first time, play quarter notes instead of the pairs of eighth notes in the first measure.  Make them loud.
+cB|"A"AAcB AAcB | Aceg aega | "E7"bgeg fecd | ecef ecBc|
+"A"A2cB A2cB | Aceg aega |"E7"bgeg fecd |"A"ecB2 A2 :|
+|: cd| "A"e3e e3=g | fecd ecBA | "G"B3c B2=g2- | =gfeg fecA |
+"A"e3f e2e=g | fecd ecBA | "E7"Bege fefg | "A"ga2g a2 :|
+%%text 6/16/07
+
+#include "LeftHeader.h"
+%%scale .7
+%%textfont       Times-Roman 10.0
+% ---------- set 82 ----------
+%%scale .7
+% Dancing Bear (Em) / Vladimir's Steamboat (Amix/Dmix) / Carpathian Tune (Gm)/Kolomeyke #? (Am)
+%%textfont       Times-Bold 18.0
+%%text Set 82
+%%textfont       Times-Roman 10.0
+%%topspace -.75cm
+X: 1
+T: Dancing Bear, The (R-116)
+C: Bob McQuillen  2/22/78
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: Em
+"Em"EFGF EFGF| EFGA G2E2| "A"EFGF EFGF| EFGA G2E2|
+"C"EFGF EFGF| EFGA B2e2| "B7"B2Bc BAGF| "Em"G2E2 E4 :|
+|:"Em"e2ef gfef| gfe2 e4| "A"e2ef gfef| gfe2 e4|
+"C"e2ef gfef| gfe2 e2dc| "B7"BABc BcBA| "Em"GFE2 E4 :|
+
+%%topspace 0
+X: 2
+T: Vladimir's Steamboat (R-162; \251Jay Ungar)
+M: C|
+L: 1/8
+R: reel
+K: Amix
+|:"A"Acde dcAc|dedc AGEA- |Acde dc A2|"G/E"GFGB AG E2|
+"A"Acde dcAc|dega gedg|edce "G"dc A2|"G/E"GFGB "A"A4:|
+| "A"az az az az|a2ga bagf|efed cdef|"G"gea^g "E"e4|
+"A"az az az a2-|a2ga bagf|efed "G"cdef|"E"ecdc "A"A4|
+| "A"aa- aa a2a2-|a2ga bagf|efed cdef|"G"gea^g "E"e4|
+"A"abag "G"egab|"A"aega bagf|efed cdef|"E"ecdc "A"A4|
+
+#include "RightHeader.h"
+%%text Set 82 Continued
+%%topspace -.75cm
+X: 3
+T: Vladimir's Steamboat in D (R-163; \251Jay Ungar)
+M: C|
+L: 1/8
+R: reel
+K:DMIX %Transposed from AMIX
+|:"D"DFGA GFDF|GAGF DCA,D- |DFGA GF D2|"C/A"CB,CE DC A,2|
+"D"DFGA GFDF|GAcd cAGc|AGFA "C"GF D2|"C/A"CB,CE "D"D4:|
+| "D"dz dz dz dz|d2cd edcB|ABAG FGAB|"C"cAd^c "A"A4|
+"D"dz dz dz d2-|d2cd edcB|ABAG "C"FGAB|"A"AFGF "D"D4|
+| "D"dd- dd d2d2-|d2cd edcB|ABAG FGAB|"C"cAd^c "A"A4|
+"D"dedc "C"Acde|"D"dAcd edcB|ABAG FGAB|"A"AFGF "D"D4|
+
+%%vskip .2cm
+X:4
+T: Carpathian Tune (R-164 from String Beings)
+L:1/8
+K: Gm
+M: C|
+$SmallRMargin
+$SmallLMargin
+"Gm"GABc d2 d2|"A"^c2 c2 "D"d4|"Gm"BAG2 A2B2|"D"A8|"Gm"GABc d2 d2|"A"^c2 c2 "D"d4|"Gm"BAG2 "D"A2B2|G8:|
+|:"Cm"(3cdcG2 (3cdcG2|"Gm"(3BcBG2 (3BcBG2|"Cm"(3cdcG2 c2>d2|"Gm"BcAB "Gm/B"G4|
+"Cm"(3cdcG2 (3cdcG2|"Gm"(3BcBG2 B2c2|"D"d6 de|["Repeat" d2c2B2A2:|["Transition""D5"d2=e2f2g2||
+%%textfont       Times-Roman 12.0
+%%text In the transition, harmony drones D below A.  That's what the notation "D5" means.
+
+$NormLMargin
+$NormRMargin
+%%vskip .2cm
+X:5
+T: Kolomeyke (R-165)
+M: C|
+L:1/8
+K: Am % transposed from Dm
+|:"Am"a2 e4 e2|"Dm"d2 d2 "Am"e3 d|cBAB cBcd|"E"e4 e4|
+"Am"a2 e4 e2|"Dm"d2 d2 "Am"e3 d|"E" cedc BdcB|"Am"AEcB A4:|
+|:"E"B2 E2 e3B|"Am"dcBc dcBA|"E"^G2 AB E2 ^F^G|[1,3"Am"A^GAB cBcA:|[2,4"Am"AEcB A4:|]
+  
+#include "LeftHeader.h"
+%%scale .65
+%%textfont       Times-Bold 18.0
+%%text Set 83
+%%textfont       Times-Roman 10.0
+%%topspace -.75cm
+X:1
+T:Le tourment (J-79)
+R:jig
+C:Jean-Paul Loyer ?¯?¡?¡?© 1975
+D:From recording by J-P Loyer, Ojnab
+Z:Translated to abc by Debbie Knight
+Z:Chords by Bruce Rosen, after Pete Sutherland
+M:6/8
+K:G
+"G"G2G "D7"AGA |"G"Bdc BAG |"C"E2c cBc | "D"d3 def |
+"Em"g2g d2d |"C" ede "G/B"B2B |"Am"cBA "G"BAG |[1 "D"A2F DEF :|[2 "D"DGF "G"G2F |
+"C"E3 EFG |"G/B (Bm)"DGF GAB |"Am"d3 dcB |cBA "G/B"BAG |
+"C"E3 EFG |"G/B (Bm)"DGF GAB |"C"d2B cBA|[1 "D7"DGF "G"G2F :|[2 "D7"DGF "G"G3 |]
+
+%%topspace 0
+X: 2
+T: The Robin's Nest/Paddy Fahy's (J-80)
+M: 6/8
+L: 1/8
+R: jig
+K: Cmaj
+"C"c3 "G"dcB|"C"cGE "C/E"CEG"F"|F3 "Dm"DEF|"G"GAB ced|
+"C"c3 "G"dcB|"C"cGE "C/E"CEG|"F"F3 "G"DGF|"C"ECC C3 :|
+|:"C"c3 "C/G"g^fg|"C"ea^f "C/E"gec|"Dm"A2 f fef|Adf "G"afd|
+"C"c3 "C/G"g^fg| "C"ea^f "C/E"g2 a|"C"gec "G"fdB|"C"cGE C3 :|
+
+X: 3
+T: The Reverend Brother's Jig/The Monk's (J-81)
+M: 6/8
+L: 1/8
+R: jig
+K: Ador
+|:"Am"ABA c2e|dcd ege|ABA c2e|"G"dcA AGE|
+"Am"ABA c2e|dcd ege|a3 ged|"G"cAG "Am"A3:|
+|:"Am"eaa aba|"G"gef ged|"Am"eaa aba|"G"ged cAA|
+"Am"eaa aba|"G"gef g3|"Am"a3 ged|"G"cAG "Am"A3:||
+
+#include "RightHeader.h"
+%%text Set 83, continued
+%%topspace -.75cm
+X: 4
+T: The Reverend Brother's, lower octave
+M: 6/8
+L: 1/8
+R: jig
+K:ADOR %Transposed from DDOR
+|:"Am"A,B,A, C2E|DCD EGE|A,B,A, C2E|"G"DCA, A,G,B,|
+"Am"A,B,A, C2E|DCD EGE|A3 GED|"G"CA,G, "Am"A,3:|
+|:"Am"EAA ABA|"G"GEF GED|"Am"EAA ABA|"G"GED CA,A,|
+"Am"EAA ABA|"G"GEF G3|"Am"A3 GED|"G"CA,G, "Am"A,3:||
+
+%%vskip .5cm
+X: 5
+T: The Reverend Brother's Harmony.  
+M: 6/8
+L: 1/8
+R: jig
+K:EDOR %Transposed from ADOR
+|:"Am"EFE G2B|AGA BdB|EFE G2B|"G"AGE EDB,|
+"Am"EFE G2B|AGA BdB|e3 dBA|"G"GED "Am"E3:|
+|:"Am"Bee efe|"G"dBc dBA|"Am"Bee efe|"G"dBA GEE|
+"Am"Bee efe|"G"dBc d3|"Am"e3 dBA|"G"GED "Am"E3:||
+%%text This sounds weirdly exciting if played occasionally!
+%%text But it just sounds weird if you play it too much, so wait for a sign from Debby.
+%%text It is just transposed up a fifth from the low-octave variant.
+
+#include "LeftHeader.h"
+%%textfont       Times-Roman 10.0
+% ---------- set 84 ----------
+$SmallRMargin
+$SmallLMargin
+%%scale .65
+% The Great Cape Breton Set
+%%textfont       Times-Bold 17.0
+%%text Set 84 The Great Cape Breton Set!
+%%textfont       Times-Roman 10.0
+%%topspace -1cm
+X: 1
+T: Miss Susan Cooper (R-96 \251Ronnie Cooper)
+R: reel
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: (3ABc | "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde "Bm"fa^ga | "Em"=g2fd "A7"eAce |
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde fafd | "A7"eAce "D"d2 :|
+|: dc | "Bm"Bcde fBBc | def^g "E7"a2gf | "A"eAce a2^ga | "Em"=g2fd "A7"eAce |
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde fafd | "A7"eAce "D"d2 :|
+
+%%topspace 0
+X: 2
+T: Culburnie Cottage (R-166 \251Alasdair Fraser)
+N: (Ask permission)
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: fe | "D"d2AF DFAF | "G"GDGA "Em"B2cB | "D"Aa^ga =gfed | "A7"ceAc egfe | "D"d2AF DFAF |
+| "G"GDGA "Em"B2cB | "D"Aa^ga "A7"=gecA | "D"d4 d2 :: fg | "D"a2fa "A7"gece | "D"dAFA d2cd |
+| "A7"ecAc eAce | "D"fdba "A7"agfg | "D"a2fa "A7"gece | "Bm"dAFA "G"d2cd | "A7"ea^ga =gecA | "D"d4 d2 :|
+
+X: 3
+T:Rannie MacLellan's Reel (R-167; \251Brenda Stubbert)
+R:Reel
+S:http://www.cranfordpub.com
+D:In Jig Time,1994; Fiddler's Choice, Jerry Holland; Natalie MacMaster Live
+B:Brenda Stubbert's Collection
+L:1/8
+M:C|
+K:D
+|:fe|"D"dBAd BAFD|"Emin"E2 FE "G"DB,B,D|"D"A,B,DE F2 ED| "Emin"EBBA "A"B3 c|
+"D"defe dBAF|"Emin"E2 FE "G"DB,B,D|"D"A,B,DE F2 dB|"A"AFEF "D"D2:|
+|:FG| "D"Addc d2 cA| "Emin"Beed e2 de |"D"f2 af egfe|"G"dBAd "A"FEEF|
+"D"Dddc d2 cA|"Emin"Beed e2 de|"D"f2 af "G"egfe|"A"dBAF "D"D2:|
+
+X: 4
+T: Brenda Stubbert's (R-121, \251Jerry Holland)
+I: Brenda Stubbert's	R-121	A Dor	reel
+M: C|
+R: Reel
+K: ADor
+%%textfont Times-Bold 10
+%%text Play lower octave occasionally for dramatic effect.  Omit pickup on transition.
+%%staves (1 2)
+V:1 up
+B|"Am"A/A/A BA GAAB| A/A/A BA edde| "G"G/G/G BA BGGB| "F"[c2G2]BA "G"BGGB|
+  "Am"A/A/A BA GAAB| A/A/A BA edda| "G"gedB GABd| e2dB "Am"eAA:|
+V:2 
+B,|A,/2A,/2A, B,A, G,A,A,B,| A,/2A,/2A, B,A, EDDE| G,/2G,/2G, B,A, B,G,G,B,| [C2G,2]B,A, B,G,G,B,|
+   A,/2A,/2A, B,A, G,A,A,B,| A,/2A,/2A, B,A, EDDA| GEDB, G,A,B,D| E2DB, EA,A,:|
+%%text B part on next page!!!
+
+#include "RightHeader.h"
+%%scale .60
+X: 4
+K: ADor
+%%textfont Times-Bold 16
+%%text Set 84 Continued
+%%topspace -.75cm
+%%staves (1 2)
+V:1 up
+B|: "Am"A/A/A a2 A/A/A g2| Aage ageg| "G"G/G/G BA BGGB| "F"[c2G2]BA "G"BGGB|
+   [1"Am"A/A/A a2 A/A/A g2| Aage agea| "G"gedB GABd| e2dB "Am"eAAB:|2
+   "Am"A/A/A BA GAAB| A/A/A BA edda| "G"gedB GABd| e2dB "Am"eAA|]
+V:2
+B,|:A,/2A,/2A, A2 A,/2A,/2A, G2| A,AGE AGEG|G,/2G,/2G, B,A, B,G,G,B,|[C2G,2]B,A, B,G,G,B,|
+    [1A,/2A,/2A, A2 A,/2A,/2A, G2| A,AGE AGEA| GEDB, G,A,B,D| E2DB, EA,A,B,:|2
+    A,/2A,/2A, B,A, G,A,A,B,| A,/2A,/2A, B,A, EDDA| GEDB, G,A,B,D| E2DB, EA,A,|]
+
+X: 5
+T: Frank's (R-168; \251John McCusker)
+M: 4/4
+L: 1/8
+R: reel
+K: Amaj
+|"A"Ac BA "D"F2 AF|"A"EF AB "A/C#"cA Bc |"D"d3 f "A/C#"ec Ae |"D"fa ec "E7"(3Bcd cB |
+"A"Ac BA "D"F2 AF|"A"EF AB cA Bc |"D"d3 f "A"ec Ac |"E7"BA GB "A"A2 (3EFG |
+"A"Ac BA "D"F2 AF|"A"EF AB cA Bc |"Bm"d2 df "A/C#"ec Ae |"D"fa ec "E7"(3Bcd cB|
+"A"|Ac BA "D"EF AF |"A/C#"EF AB "A"cA Bc |"D"df (3fff "A"ec Ac|"E7"BA GB "A"Ae fg||
+|"A"aA Ag AA fA |ef fe cA Bc |"Bm7"d3 f "A/C#"ec Ac |"D"Bc de "E7"fe (3efg |
+"A"aA Ag AA fA |ef fe cA Bc |"D"df (3fff "A"ec Ac |"E7"BA GB "A"Ae fg |
+"A"aA Ag AA fA |e f2 e cA Bc |"Bm7"d3 f "A/C#"eA ce |"D"fa ec "E7"(3Bcd cB|
+|"A"Ac BA "D"F3 A |"A/C#"EF AB "A"cA Bc |"D"d3 f "A"ec Ac |"E7"BA GB "A"A4 ||
+
+X: 6
+T: Hull's (R-169; \251John Morris Rankin)
+M: 4/4
+L: 1/8
+R: reel
+F:
+K: Emaj
+ec|:"E"BE E/E/E B2 Ac|"E"BE E/E/E "A"cBce|"E"BE E/E/E B2 AB|"A"cBce "B7"fefg|
+"E"BE E/E/E B2 Ac|"E"BE E/E/E "A"cBce|"F#min"fgfe c2Bc|"A"efec "B7"Be:|
+ef|: "E"gB B/B/B "E/B"g2fg|"A"fc c/c/c c2Bc|"F#min"fc c/c/c c2Bc|"B7"eB B/B/B Bcef|
+"E"gB B/B/B "E/B"g2fg|"A"fc c/c/c c2Bc|"F#min"fgfe c2Bc|"A"efec "B7"Be :|"Ending""E"e[cf]|[B2e2g2]||
+
+#include "LeftHeader.h"
+%scale .9
+%%textfont       Times-Bold 18.0
+%%text Set 85
+%%topspace -.75cm
+% ---------- set 85 ----------
+% Roaring Jelly (D) / Kesh Jig (G) / Morrison's (E Dor) / Stan Chapman (A)
+%%textfont       Times-Roman 10.0
+X: 1
+T: Roaring Jelly (J-2; Irish, New England)
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: D
+A,| "D"DED F2A| d2f "A"ecA| "G"G2B "D"F2A| "A"E2F GFE|
+    "D"DED F2A| d2f "A"ecA| "G"Bgf "A"edc| "D"d3- d2 :|
+a| "D"a2f d2f| A2a agf| "A"g2e c2e| A2g gfe|
+   "D"f2 d "A"g2 e| "D"a2 f "G"bag| "D"fed "A"edc| "D"d3- d2 a|
+   "D"agf fed| Adf agf| "A"gfe ecA| Ace gfe|
+   "D"fed "A"gfe| "D"agf "G"bag| "D"fed "A"edc| "D"d3- d2 |]
+
+%%vskip .2cm
+X:2
+T: Kesh Jig (J-18)
+M: 6/8
+R: jig
+K: G
+D| "G"G3 GAB| "D"ABA ABd| "G"edd gdd| edB "D"dBA|
+   "G"G3 GAB| "D"ABA ABd| "G"edd gdB| "D"AGF "G"G2 :|
+|:A| "G"B3 dBd| "C"ege "G"dBG| BAB dBG| "Am"ABA AGA|
+   "G"B3 dBd| "C"ege "G"dBd| "C"g3 "D"aga| "G"bgg g2 :|
+
+#include "RightHeader.h"
+%%scale .8
+%%text Set 85, continued
+%%topspace -.75cm
+X: 3
+T: Stan Chapman (J-62; \251Jerry Holland))
+I: Stan Chapman	J-62	A	jig
+R: jig
+M: 6/8
+K: A
+F| "A"E3 EFA| "E"B3 Bce| "D"fea "F#m"fec| "Bm"ecA "E"BAF|
+   "A"E3 EFA| "E"B3 Bce| "D"fea "E"fec| "A"ecA A2 :|
+|:f| "A"e3 ecA| "D"f3 fga| "A"fec BAB| "F#m"cAF F2f|
+[1 "A"e3 ecA| "D"f3 fga| fec "E"BAB| "A"cAA A2 :|
+[2 "A"ecA ecA| "D"fdf fga| fec "E"BAB| "A"cAA A2 |]
+
+%%vskip .2cm
+X: 4
+T: Morrison's Jig (J-26)
+I: Morrison's Jig	J-26	E Dor	jig
+M: 6/8
+R: jig
+K: Edor
+"Em"E3 BEB| EBE "D"AFD| "Em"E3 BEB| "D"dcB AGF|
+"Em"E3 BEB| EBE "D"AFD| "G"G2G FGA| "D"dAG FED :|
+"Em"Bee fee| aee "D"fed| "Em"Bee fee| "D"fag fed|
+"Em"Bee fee| bee "D"fed| edc d2A| "B7"BAG F3|
+"Em"Bee fee| aee "D"fed| "Em"Bee fee| "D"faf def|
+"G"g2g gfe| def g2d| "D"edc d2A| "B7"BAG F3|] "Em - go out on"HE4|]
+%%text 4/26/06
+
+#include "LeftHeader.h"
+%%scale .65
+%%textfont       Times-Roman 10.0
+% ---------- set 86 ----------
+% Needlecase (D) / North Carolina Breakdown (D) / Froggie on the Carport (A)
+%%textfont       Times-Bold 18.0
+%%text Set 86
+%%textfont       Times-Roman 10.0
+%%topspace -.75cm
+X:1
+T: Needlecase (R-170)
+M: C
+L: 1/8
+R: reel
+K: D
+(3efg|"D"aAgA fedf|"G"fg2f g2(3efg|"D"aAgA fedA|"A" BABd A2(3efg |
+"D"aAgA fedf|"G"fg2f g2A2- |"A"ABcd edcA|BABc "D"d2:|
+FE|:"D"D2d2 dBA2|"G"B3=c B4 |"D"A2AB AFDF|"A"E3F E2FE|
+"D"DFAB dBA2|"G"B3=c B2A2- |"A"ABcd edcA|BABc "D"d2:|
+
+%%topspace 0
+X: 2
+T: North Carolina Breakdown (R-150 Arthur L. Smith \2511937)
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: G
+D2| "G"G2G2 EDEF| GFGA Bdef| "C"g2f2 edef| "D"gage dBAF|
+"G"G2G2 EDEF| GFGA Bdef| "C"g2f2 edBA| "D"dBAF "G"G2 :|
+|: d2| "C"[e2g2][e2-g2-] [e2g2][e2-g2-]| [e2g2]g2 gag2|    "G"[d2g2][d2-g2-] [d2g2][d2-g2-]| [d2g2][dg][dg] [B2g2][d2g2]|
+"C"[e4g4] g2b2-| b2b2 agef| "G"gage dBAB| "D"dBAF "G"G2 :|
+
+
+X: 3
+T: Froggie on the Carport (R-171)
+M: C
+L: 1/8
+R: reel
+K: A
+cB|"A"Aceg aga2|Aceg aga2|"G"edef =gfgf|edef =gedB|
+"A"Aceg aga2 |Aceg aga2 |"E"efed cAB2|"A"A4 A2:|
+cB|:"A"ABcd efec|"D"d3e d2dB |"G"=GAB=c dedB|"C"=c3d c2cB|
+"A"ABcd ecAe|a2g2 "G"=g4 |"E"efed cAB2 |"A"A4 A2:|
+%%text Tag ending: Replace last measure with
+|"E"efed cAB2 |"E"efed cAB2|"A"A4 A2|| 
+%%text Also called Doggie on the Carpet or Doggie on the Carport.
+%%text 6/16/07
+
+#include "RightHeader.h"
+%%scale .58
+% ---------- set 87 ----------
+% Booth (A) / Julianne Johnson (D) / Benton's Dream (A mixolydian)
+%%textfont       Times-Bold 18.0
+%%text Set 87
+%%textfont       Times-Roman 12.0
+%%topspace -.75cm
+X: 1
+T: Booth (Trad. version from Bruce Molsky)
+R:reel
+Z:transcribed to ABC by Debby Knight
+M:C|
+L:1/8
+K:A
+%%text Shuffle in (A, C# and E are good notes to use)
+AF|"A"ECEF E3E|"D"FA2B A3A|"A"ABcB AcBA|"F#m"F3 F3 AF|
+"A"ECEF E3E|"D"FA2B A3f|"A"e2cB "E"AcBG|[1"A" A3 A3 AF:|[2 "A"A3 A3 AB ||
+"A"ce2f e3e|"D"fa2ba3f|"A"e2cB AcBA|"F#m"F3 F3 AB|
+"A"ce2f e3e|"D"fa2ba3f|"A"e2cB "E7"AcBG|"A"A3 A3 AB
+"A"ce2f e3e|"D"fa2ba3f|"A"e2cB AcBA|"F#m"F3 F3 AF|
+"A"ECEF E3E|"D"FA2B A3f|"E7"e2cB AcBG |["normal" "A"A6||["alt" "A"A4 "D"F4 ||
+%%text Alt ending may be used occasionally.  (Skip the pickup notes when you use it!)
+
+%%topspace 0
+X: 2
+T: Julianne Johnson
+M: 4/4
+L: 1/8
+R: reel
+K: D
+|"D"fafe dfed| Bd- de d2fg| a2 a2-aab2|"A" a8|
+"D"fafe dfed| Bd- de d2fg|f2 e2 dA B2| [1 "A" A8:|[2 "A" A6||
+|:A2|"G" B4 d3 A|BABc d3 A|BABc dA B2 |"D"A6- AA|
+"G"BABc d2 AA|BABc d2 e2|"D"f2ff  edB2| [1 "A7"A6:|[2 "A7" A8 |["Transition""A"A3A- Ace^g||
+
+X:3
+T:Benton's Dream
+C:
+R:reel
+Z:transcribed to ABC by Debby Knight
+M:C|
+L:1/8
+K:Amix
+"A"[a6c6] e2|"G"[g6B6] f2|"A"e3f edcB|A3c BA^GB|
+"A"A2 F2 EFAB|"E"=cBcB AFEF|"A"A3A- "E"AcB^G|[1"A"A3A- Ace^g:|[2 "A"A6 ||
+|:F2|"G"G2BG AGBG|AB-BA B2D2|G2BG AGBG|AB-BA B2B2|
+"A"A3A- Ace^g|a2 a2 =gedc|A3c "E"BA^GB |[1 "A"A6 :|[2"A"A3A- Ace^g||["final" "A"A8 || 
+%%text 6/16/07
+
+#include "LeftHeader.h"
+%%scale .65
+% ---------- set 88 ----------
+% Verret's (D) / Reel des Esquimaux (G) / Fleur de Mandragore (A)
+%%textfont       Times-Bold 18.0
+%%text Set 88
+%%textfont       Times-Roman 12.0
+%%topspace -.75cm
+X: 1
+T:Verret's
+R:Reel
+C:
+B:
+L:1/8
+M:C|
+K:D
+|"D"fedf "Bbdim/Bb"edBc|"Bm"dB (3BBB "G"BAFD|"D"A,DFA "D#dim"cBAG| "Em7"FAde "A"fede|
+"D"fedf "Bbdim/Bb"edBc|"Bm"dB (3BBB "G"BAFD|"D"A,DFA "Em7"cBAG|1 "A"FDEF "D"D3 e:|[2 "A"FDEF "D"D2 AG ||
+| "D"FDA,D FDDF| "C"E=CEG B2 AG  |"D"FDAD FAAA|"G"BA"A"cA "D"d2 AG|
+"D"FDA,D FDDF| "C"E=CEG B2 AG|"D"FAdf "Em7"edce |1 "A"dfec "D"d2 AG:|[2 "A"dfec "D"d4||
+
+%%topspace 0
+X: 2
+T: Reel des Esquimaux
+M: 4/4
+L: 1/8
+R: reel
+K: G
+(3DEF|"G"G3G GEDC |B,G,"D"A,C "G"B,G,G,2|"G"B,DGB "G#dim"cBAG |"Am7"FGAB "D"A2 (3DEF|
+"G"GFGA GEDC |B,G,"D"A,C "G"B,G,G,2|"G"B,DGB "Am7"cBAG |"D"FDEF "G"G2:|
+Bc|"G"d3e dcBd|"C"g2ga "Am"gedc| "G"BGBd "G#dim"cBAG|"Am7"FGAB "D"A2Bc|
+"G"d3e dcBd|"C"gfga "Am7"gedc| "G"BGBd "Am7"cBAG|"D"FDEF "G"G2:|
+
+X: 3
+T:Fleur de Mandragore (\251Michel Bordeleau)
+R:Reel
+L:1/8
+M:C|
+K:A
+$SmallLMargin
+$SmallRMargin
+%%text Notes in parentheses are "ghost notes" and should be played very lightly.
+|"A"EGAE GABA|Aced cA"<("">)"AA|"F#m/C#"EGAE GABB-| BABd cA"<("">)"AA|
+"D"EGAE GABA|Aced cA"<("">)"AA|"E"EGAE GABB-|1BABd cAA2:|[2 BABc Aceg ||
+| "A"a4 a2 ga| "Bm"bAaA (3gag ec |"D"dfed cABc|"E"defg agfe|
+"A"a4 a2 ga| "Bm"bAaA (3gag ec |"D"dfed "A"cABc|[1  "E"dcBc "A"Aceg:|[2 "E"dcBc "A"BA A2 ||
+["final"  "E"dcBc "A"Aceg|"A"a4 a2||
+%%text 09/09/09
+
+#include "RightHeader.h"
+% ---------- set 89 ----------
+% Paddy Killoran's (G) / La Maison de Glace (D) / The Old Woman Tossed Up in a Blanket (A)
+%%textfont       Times-Bold 18.0
+%%text Set 89
+%%textfont       Times-Roman 12.0
+%%topspace -.75cm
+%%scale .65
+X:1
+T:Paddy Killoran's
+R:jig
+C:
+D:From recording by J-P Loyer, Ojnab
+Z:Translated to abc by Debby Knight
+Z:
+M:6/8
+K:G
+"G"G,3 DB,D |GFG Bdg|"C"edc "Am"BcA| "D"BGE DB,A, |
+"G"G,3 DB,D |GFG Bdg|"C"edc BcA |[1 "D"BGF "G"G3 :|[2 "D"BGF "G"G2 ||
+D|"G"GBd g3| "C"ece "G"d2B |"C"cBc "G"dBG |"Am7"AGA "D"BGE|
+"G"GBd g3| "C"ece "G"d2B |"C"cBc "G"dBG |[1"D"AGF "G"G2:|[2 "D"AGF "G"G3||
+
+X: 1
+T: La Maison de Glace
+M: 6/8
+L: 1/8
+R: 6/8
+K: D
+"D"D3 DEF |"D/F#"ABA  AFA|"G"B3 Bcd|"A"cBA GFE|"D"D2D DEF|
+"D/F#"ABA  AFA|1 "G"B3 BAG|"A"F3 EFE:|     [2 "G"B3 Bcd| "A  F#m"c6 ||
+"Bm"B3- Bcd| "G"B3- Bcd|"D"fed "A"edc|"Bm"dcA "F#m"dcA|
+"Bm"B3- Bcd| "G"B3- Bcd|"D"fed "A"edc|[1 Adc  "D"d2c|[2Adc  "D"d3||
+%%text First two measures of lines 3 and 4 may be syncopated for excitement:
+|"Bm"B2B- Bcd|"G"B2B- Bcd|
+
+
+X: 1
+T:The Old Woman Tossed Up in a Blanket
+N:O'Neill's - 771, modified by Debby Knight
+Z:Ornament (~) is a mordant
+M:6/8
+R:Jig
+K:A
+E|"A"AcB Bce|fec "E7"B2 A|"A"AcB cAB|"F#m"cAF "D"~F2 E|
+"A"AcB Bce|fec "E"B2 A|"A"AcB cAB|"E7"cAA "A"A2:|
+a|"D"~f3 fea|fea fec|"A (C#m)"ecf ecf|ecA "E7"B2 e|
+"A"aff "E"gee|"A"fec "E7"B2 A|"A"AcB cAB|"E7"cAA "A"A2:|
+%%text 06/16/07
+
+#include "LeftHeader.h"
+% ---------- set 90 ----------
+% Silver Spear (G) / Star of Munster (Ador) / Julia Delaney (Ador)
+%%textfont       Times-Bold 18.0
+%%text Set 90
+%%textfont       Times-Roman 12.0
+%%topspace -1cm
+%%leftmargin 1.0cm
+%%rightmargin 3.0cm
+%%scale .63
+X: 1
+T:  The Silver Spear (R-158; Trad. Ireland)
+M: C|
+L: 1/8
+K: D
+|: "D"FA (3AAA BA (3AAA | dfed "G"Bc"A7"dA |  "D"FA (3AAA BA (3AAA | "Em"dfed "A"B2AG |
+|  "D"FA (3AAA BA (3AAA | dfed "G"Bdef | "G"g3e "D"f3e | "A"dfed B2A2 :|
+|: "D"fa (3aaa bfaf | "G"gfed Bcde |  "D"fa (3aaa bfaf | "G"gfed "A"B2 A2 |
+|  "D"fa (3aaa bfaf | "G"gfed Bdef | "G"g3e "D"f3e | "A"dfed B2A2 :|
+
+
+%%topspace 0
+X: 2
+T:  The Star of Munster (R-159; Trad. Ireland)
+M: C|
+L: 1/8
+K: Ador
+| "Am"c3A "G"BAGB | "Am"AGEF "G"GED2|"Am"EAAB cBcd | eaaf "em"gfed |
+|  "Am"cBAc "G"BAGB | "Am"AGEF "G"GED2| "Am"EAAB cBcd  | "Em"edcB "Am"A4 :|
+|: "Am"a3b ageg | agab agef|"G"g2ga gfef|gfga gfe2 |
+| "Am"a3b ageg | agab agef| "G"g4 "Am"a4 |[1 "G"b3a gfe2 :|   [2 "G"b3a "Em"gfed ||
+
+X: 3
+T:  The Star of Munster Lower Octave (Replaces B part last time through and as needed for fun)
+M: C|
+L: 1/8
+K:Ador
+|: "Am"A3B AGEG | AGAB AGEF|"G"G2GA GFEF|GFGA GFE2 |
+| "Am"A3B AGEG | AGAB AGEF| "G"G4 "Am"A4 |[1 "G"B3A "Em"GFE2 :|   [2 "G"B3A "Em"GFED|["transition" "G"B4 "A"^c4 ||
+
+
+X: 4
+T:Julia Delaney
+M: C
+L: 1/8
+R: reel
+K: Dm
+"Dm"dcAG F2DF| "C"E2CE "Dm"FDFA |dcAG F2DF| "Gm"Add^c "A"defe|
+"Dm"dcAG F2DF| "C"EDCE "Dm"FDD^c |dcAG "Bb"FDDF |1 "Am"Add^c "Dm"d4:|[2  "Am"Add^c "Dm"d3e ||
+|: "Dm" f2fe fagf | "C" ecgc acgc| "Dm"fede fagf| "Am"edce "Dm"d^cde|
+"Dm" f2fe fagf | "C" ecgc acgc| "Dm"fedf "Bb"edcB |1 "Am"Add^c "Dm"d3e:|[2 "Am"Add^c "Dm"d4 || 
+%%text 08/29/07
+
+#include "RightHeader.h"
+%%text Set 91 (NEFFA 08 Old-time set)
+%%scale .8
+X: 1
+T:Nail That Catfish to the Tree (©Steve Rosen)
+M:C|
+L:1/8
+F:
+K:G
+DE|"G"G2 BG AG BG|cB A2 [B4G4]|"D"ABAG FGAB|AGFD (3EFE D2|
+"G"G2 BG AG BG|cB A2 [B3G3] B|"D"ABAG FDEF|"G"(G[BG][B4G4]):|
+|:D2|"C"[C4E4] [A4D4]|[c4E4] c2c2|"D"ABAG FGAB|AGFD (3EFE D2|
+"C"[C4E4] [A4D4]|[1[c6E6] (A2|"D"A)BAG FDED|"G"(G[BG][B4G4]) :|[2[c6E6] (d2|"D"d)D cD BD A2|"G"(G[BG][B4G4])|]
+
+X:1
+$SmallLMargin
+$SmallRMargin
+T:Devil in the Strawstack                           % title
+M:C|                           % meter
+L:1/8                        % length of shortest note
+K:Gm                           % key
+"Gm"GFDF GFDF|GFDF "F"C4|"Gm"GFDF G2 (d2|["1,3""Dm"d)cAc dcAc:|["2,4"d)c A2 G4||
+|:"Gm"d2 g2 g4|gagf d4|"F"fAgA fAgf|["1,3"dcAc "Dm"d4:|["2,4""Dm"dc A2 "Gm"G4|]
+
+$NormLMargin
+$NormRMargin
+X: 1
+T:Granny Won't Your Dog Bite
+C:
+S:Old Time, from Ruthie Dornfeld
+Z:
+M:4/4
+L:1/8
+K:AMix
+"A"A2AA A,CEC|"D"DEFD "A"E2CE| "D"DEFD "A"E2EE|"D"DEFD "E"EF^GE|
+"A"A2AA A,CEC| "D"DEFD "A"E2EE|"E"e3d cBAc|1 BA^GB "A"A2 E^G:|[2 BA^GB "A"A4||
+|:"A"e3d cAcd| eAfA "G"gAfA|"A"efed cABA |"A"a3a- "G"aged|
+"A"e2 (e2 e)dcd| eAfA "G"gAfA| "E"efed cBAc|"E"BA^GB "A"A4:|]
+%%text 4/23/08
+
+#include "LeftHeader.h"
+%%text Set 92 (NEFFA 08 Jigs-to-reel Set)
+%%scale .8
+X:1
+T:The Roaring Barmaid (©Tony Sullivan; J-76)
+R:jig
+Z:Translated to abc by Debbie Knight
+Z:
+M:6/8
+K:G
+"G"G3 EGD |"C/G"G3 EGD |"G"DGG BGG |dGG BdB |
+"G"G3 EGD |"G/B"G3 EGD |"C"GAB deg |"D" deg edB :|
+|:"G"deg b3 |"G/B"bab deg  |"C"b3 bag |"D"edB deg |
+"G"b3 bab |"G/B"agg bgg |"C"agg efg|"D"deg edB :|
+
+%%topspace 0
+X: 2
+T: Redican's
+M: 6/8
+L: 1/8
+R: jig
+K: Ador
+%%text Transition: Start on A, not E
+"Am"~E3 ABc|"Em"~B3 GBd|"Am"edB edB|"Em"~c3 BAG|
+"Am"~E3 ABc|"Em"~B3 GBd|"Am"edB edB|"Em"BAG "Am"~A3:|
+|:"G"def ~g3|"Am"age edB|"G"def gab|"Am"age age|
+"G"def ~g3|"Am"age edB|"Am"edB "G"gdB|"Em"BAG "Am"~A3:|
+%%text 4/19/08
+
+#include "RightHeader.h"
+%%text Set 92, continued
+%%topspace -.75cm
+%%scale .75
+X: 1
+T: Sliabh Russell
+M: 6/8
+L: 1/8
+R: jig
+K: Ador
+|:"Am"eAA Bcd|eaf "G"ged|"Am"edB cBA|"G"BAG "Em"ABd|
+"Am"eAA Bcd|eaf "G"ged|"Am"edB cBA|1 "Em"BAG "Am"A3:|2 "G"BAG "Em"ABd||
+|:"Am"eaa efg|agf "G"gfd|"Am"eaa efg|"D"afd "Em"e3|
+"Am"eaa efg|agf "G"gfd|"Am"edB cBA|"G"BAG "Am"ABd:|
+
+%%topspace 0
+X:4
+$SmallLMargin
+$SmallRMargin
+T: Tam Lin
+R: reel
+K: Dm
+G,|: "Dm"A,2DA, FA,DA,| "Bb"B,2DB, FB,DB,| "C"C2EC GCEG|[1,3 "Am"FEDC DCA,G, :|[2,4 "Am"FEDC "Dm"D4 |]
+|:"Dm"dcAG F2 D2|dcAG F2 D2|"C"cE (3EEE cEdE|cE (3EEE c=Bc^c|
+"Dm"dcAG F2 D2|dcAG F2 D2|"Bb"B,3A, B,CDE|"Am"FEDC "Dm"D4:|
+
+X:2
+$NormLMargin
+$NormRMargin
+T:The Roaring Barmaid B part harmonies
+R:jig
+D:
+Z:Translated to abc by Debbie Knight
+L:1/8
+M:6/8
+K:G
+P:1st Harmony
+GGB d3|dcd GGB| d3 dcB|GGD GGB |d3 dcd|
+cBB dBB| cBB GAB| GGB cAG:|"go out on"D6 |]
+P:2nd Harmony
+Bcd g3 |geg Bcd |g3 ged |cBG Bcd | g3 geg |
+edd gdd |edd Bcd | Bcd gfd:|"go out on"B6 |]
+%%text 4/19/08
+
+#include "LeftHeader.h"
+$SmallLMargin
+$SmallRMargin
+%%text Set 93 (NEFFA 08 French Canadian Set)
+%%topspace -.75cm
+%%scale .9
+X:1
+K:G
+T: Le Diable Vert
+M:C|
+L:1/8
+DC|"G"B,G,B,D GDGB|ed (3ddd "G#°"(dB)GB|
+"Am7"cBAG FDEF|["1,3""D7"GBAG "D7+/D"FE:|["2,4""D7"GBAF "G"G2:|
+|:A2|"Em"[B3E3] [BE][B2E2] ef|"Em"gfeg "Bm"fB (3BB(B|"Em"e)BBe BBef|"Em"gB-{/c}BA "D"BAGA|
+"Em"BEBE B2 ef|"Em"gfeg "Bm"fB (3BB(B|"C"e)(f (3gfe) dBG(B|"D7"cB)AF G2:| 
+
+%%vskip 1cm
+X:2
+K:Ador
+T:La Tuque Rouge, aka Le Reel des Habitants
+M:C|
+L:1/8
+|:"Am"a2ab agef|"G"gfga gfed|"Am"eaab agef|"Em(G)"gedB "Am"cA A2|
+"Am"eaab agef|"G"gfga gfed|"Am"gfge "G"dBGB| "Em"cBAG "Am"A4:|
+|:"Am"EAAB AGAB|cded "D"cB c2|"G"DGGA GFGA|BcdB "Em"cBAG|
+"Am"A4 A3 B|AGAB "Am(C)"cdef|"G"gfge dBGB|"Em"cBAG "Am"A4:|
+%%text 4/23/08
+
+#include "RightHeader.h"
+%%text Set 93, continued
+%%scale .9
+$SmallLMargin
+$SmallRMargin
+X:3
+T:Hommage à la belle Gasp\'esie (©Marcel Messervier)
+M:C|                           % meter
+L:1/8                        % length of shortest note
+K:A                           % key
+EA|"A"c3 d cBAc|feef e2 EA|"A"c2 cd "A#°"cBAc|"Bm7"edde d2 Bc|
+dcde dcBA|"E7"BABc B3 e|ecef edcB|[1cBcd cA:|[2"A"Ac (3BcB "A7"A3 A:|
+"D"aA=gA "D/F#"(3faf "D/G#"ec|"A"Acef "F#m"ecAF|"Bm7"EEBE "E7"cE (3BcB|["1,3""A"ABcd "A7"ecBA:|["2,4""A"Ac (3BcB A4||
+%%text 4/23/08
+
+#include "LeftHeader.h"
+$SmallLMargin
+$SmallRMargin
+%%textfont Times-Roman 18
+%%text Set 94 (NEFFA 08 Jig set)
+%%topspace -.75cm
+%%scale .9
+X:1
+T: The New Stove Jig (©Frank Ferrel)
+M: 6/8
+L: 1/8
+R: jig
+K: D
+A|"D"f2A "A"e2A|"D"ded dAF| "D/F#"DFA "F°/F"ded|"Em"BGG G2f|
+"A"g2A "D"f2A |efe ecB|1 ABA BAG|"D"F3 z2 :|[2 Aba gec | "D"d3 d2A||
+|:"D"F2A AFD| A,DF A2F|DFA ded| "G"B3 z2A|
+"A"g3 e3|cdc c2B|ABA BAG|"D"F3 F2A|
+"D"f2A "A"e2A|"D"ded dAF |DFA ded|"G"B3 z2A|
+"G"Bgg g2B|"D"Aff f2a|"A"gec ABc | "D"d3 d2|]
+
+
+%%topspace 0
+X:2
+T:Idlewild Jig
+M:6/8
+K:D
+"D" D2D FED | F2A d2 A | "G" Bcd A2F | "A"E2D B,2A, | 
+"D" D2D FED | F2A d2 A | "G" Bcd A2F | "A"E2F "D"D3:|
+"Bm"B2F F^EF |"Bm/A#"d2 B B^AB |"Bm/A" f2 B B^AB |"Bm/G#" b2f f^ef | "G"g2e "D"f2d |
+"A"e2c "D"d2A |1"G"Bcd A2 c | "A"B2 "F#m"AF2A:|2"G"Bcd A2F | "A"E2D B,2A,|]
+%%textfont Times-Roman 8
+%%text 4/19/08
+
+#include "RightHeader.h"
+%%textfont       Times-Bold 18.0
+%%text Set 95
+% Haste to the Wedding (D) / Timmy Clifford's (G)
+%%textfont       Times-Roman 7.0
+%%scale .9
+$SmallLMargin
+$SmallRMargin
+X: 1
+T: Haste to the Wedding (J-2; British Isles, New England traditional)
+C: J-2
+C: British Isles, New England
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: D
+A| "D"AFA Aaf| "A7"ede "Bm"fdB| "D"AFA AdF| "A7"EFE E2 A|
+   "D"AFA Aaf| "A7"ede "Bm"fdB| "D"AFA "A7"faf| "D"ded d2 :|
+|:\
+a| "D"afa afa| "G"bgb bgb| "D"afa agf| "A"gfg efg|
+   "D"a3 f3| "G"ede "Bm"fdB| "D"AFA "A"faf| "D"ded d2 :|
+
+X: 2
+T: Timmy Clifford's
+C: J-66
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: G
+"G"G,B,D "C"E2D| EGF "D"GDB,| "G"G,B,D "C"C2B| "D"AGF "G"G3|
+"G"G,B,D "C"E2D| EGF "D"GAB| "G"d3 B3|1 "D"AGF "G"G3 :|2 "D"AGF "G"GBd|]
+|: \
+"C"efe "G"d2B| BAG GBd| "C"efe "G"d2B| BAG "D"A2g/f/|
+"C"efe "G"d2B| BAG GAB| "C"c3 "G"B3|1 "D"AGF "G"GBd :|2 "D"AGF "G"GDB,|]
+%%text 8/8/2009
+
+
+#include "LeftHeader.h"
+%
+% ---------- set 96 ----------
+% Road to California (D) / Far From Home (G) / Bus Stop (Am)
+
+%%textfont       Times-Bold 18.0
+%%text Set 96
+%%textfont       Times-Roman 7.0
+$SmallLMargin
+$SmallRMargin
+%%scale .9
+
+X:1
+T: Road to California
+I: Road to California	R-133	D	reel
+R: reel
+M: C|
+K: D
+A,2| "D"D2DE FEFE| DFAB AF- FA| "G"dcBA GFED| "A"CDE2 E2FE|
+"D"D2DE FEFE| DFAB AF- FA| "G"dcBA GFED|1 "A"CDE2 "D"D2 :|2 "A"CDE2 "D"D4 |]
+|:"G"D2B2 B4| BABc dcBA| "D"F2A2 ABAG| FEFG ABAF|
+"G"D2B2 B4| BABc dcBA| "D"F2D2 DEFD|1 "A"EDC2 "D"D4 :|2 "A"EDC2 "D"D2 |]
+%%text Roaring Jelly  R-133
+
+X: 2
+T: Far From Home
+I: Far From Home	R-43	G	reel	Set 23, 53
+M: C|
+R: reel
+K: G
+D2| "G"GEDE G2GA| B2BA Bcd2|    GEDE    G2GB| "Am"AGAB "D"AGEF|
+    "G"GEDE G2GA| B2BA Bcd2| "C"edef "G"gedc| "D"BGAF "G"G2 :|
+|:d2| "Em"g2ge "D"f2fd| "C"edef "G"edBd| gedB G2B2| "Am"AGAB AG E2|
+     "G"GEDE G2 GA| B2BA Bcd2| "C"edef "G"gedc| "D"BGAF "G"G2 :|
+%%text 07/01/09
+
+#include "RightHeader.h"
+%%scale .9
+%%textfont       Times-Bold 18.0
+%%text Set 96 continued
+%%textfont       Times-Roman 7.0
+$SmallLMargin
+$SmallRMargin
+X: 3
+T: Bus Stop Reel       (r-139)
+C: Anita Anderson \2511987
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+M: C|
+K: Am
+"Am"A2eA dAc2| ABcA "G"BAGB| "Am"A2eA dAc2| "C"cde^f "G"gedB|
+"Am"A2eA dAc2| ABcA "G"BAG2| "F"FGAc "G"BAGB| "Am"cABG A4:|
+|:"Am"ea-ag edcB| ABcd e4| ea-ag "C"edc2| "D"de^fd "E"e4|
+"Am"ea-ag edcB| ABcd e2dc| "G"BAGF EFGB| "Am"cABG A4 :|
+
+X: 4
+T:Bus Stop Reel
+Z:to be played occasionally in place of the usual A's
+M:C|
+R:reel
+K:Amin
+%%textfont       Times-Roman 10.0
+%%text to be played occasionally in place of the usual A's
+%%text alternate A
+A2e2 d2c2| A3B- B2 z2| A2e2 d2c2| e3^f- f2z2| 
+A2e2 d2c2| A4 G4| F4 G4|1 A4 z4 :|2 A2B2 c2d2|]
+%%text 07/01/09
+
+#include "LeftHeader.h"
+%%text Set 97 2009 Neffa Old-time Set
+%
+% ---------- set 97 2009 NEFFA Old-time set ----------
+% Turkey in the Pea Patch (D) / Big Sciota (G) / Say No More (C)
+%
+%%scale .9
+
+X:1
+$SmallLMargin
+$SmallRMargin
+T:Turkey in the Pea Patch (traditional)
+M: C|
+L: 1/8
+R: reel
+K:D
+%%text Fiddles shuffle in D.  D, F#, and A are good notes to use.
+"D"A2F2 D3 F|ABAG F2D2|"A"E2C2A,3F|AcBA FA3|
+"D"A2F2 D4|ABAG F2DF|"A"E2C2A,CEG|FDEF "D"D4|
+"D"A2F2 D4|dBAG F2D2|"A"E2C2A,2E2|AcBA F2A2|
+"D"A2F2 A2F2|ABAG F2DF|"A"E2C2 E2EG|FDEF "D"D4||
+|:"D"d2fd "G"BcdB|"D"AdBA FG A2|"A"Acdf edef |"G"gfed "A"cABc|
+"D"defd "G"BcdB|"D"ABAG F2DF|"A"E2C2A,2EG|["cont" FDEF "D"D4:|["trans"FDEF "D7"D DED 
+%%text 8/10/2009
+
+
+#include "RightHeader.h"
+X:2
+%%text Set 97, continued
+%%scale .8
+T:Big Sciota (traditional)
+M:C|
+L:1/8
+K:G
+%%text Play pickup at start.
+D ED|"G"G2GA Bcd2|B3A B3 B-|BAGB "D"AGED| "G"G3 G2 D ED|
+GFGA Bcd2|"C"e3 e2-e2A|"G"BAGB "D"AGEG|"G"AG2 G2 D ED|
+"G"G2GA Bcd2|B3A B3 B-|BAGB "D"AGED| "G"GE DB, A,G,3|
+GFGA Bcd2|"C"e3 e2-e2 d|"G"BAGB "D"AGED|"G"G3 G2 A Bd|
+|:"G"g3a ba g2|"A"e a2 a2-a2 e|aege fe d2|"C"Be2 e3ef|
+gefg fed2|"Am"Be2 e2-e2A|"D"BAGB AGED|1 "G"G3 G2 A Bd:|2 "G"AG3-G|]
+%%text Transition: Play G7 on last beat.
+
+X:3
+T: Say No More (©Mark Simos, used with permission)
+M: C|
+L: 1/8
+K: C
+%%text Play pickup
+ag| "C"ecag ecag | (3ege c2 c2 Bc|"G"dedc BGAB | "C" cdef "G"g2ag |
+"C"ecag ecag |ec-cd c2 Bc|"G"dedc BGAB |"C"c6 :|
+|:AB|"Am"c2 B2 AE3 | "F"F6 AB|"Am"c2 B2 AE3|"Dmin"F4 "E7"E4 |
+"Am"cABc AGEG |"F"FE F2 "F#dim"A4| "G"G^FGA G=F DB,| "C"C6:|
+%%text Internal tag ending (depending on dance):
+| "G"G^FGA G=F D2| "G"G^FGA G=F D2| "G"G^FGA G=F DB,|"C"C6|]
+%%text 8/10/2009
+
+#include "LeftHeader.h"
+%%text Set 98, Neffa '09 French-Canadian Set
+%
+% Aim\'e Gagnon (G) / Reel du Faubourg (D) / Reel de Pointe-au-Pic (C) 
+%
+%%scale .75
+X:1
+%%topspace -.75cm
+$SmallLMargin
+$SmallRMargin
+T: Aim\'e Gagnon
+M: C|
+L: 1/8
+R: reel
+K:G
+DC|"G"B,DGA B2DC|B,DGA "G#dim"B2AG|"Am7"FGAB cAFA|"D"GABc "D7"d2DC|
+"G"B,DGA B2DC|B,DGA "G#dim"B2AG|"Am7"FGAB cAFA|"D7"GBAF "G"G2:|
+|:Bd|"G"gddg ddgd|Bcde "G#dim"dBAG| "Am7"FGAB cAFA|"D"GABc "D7"d2Bd|
+"G"gddg ddgd|Bcde "G#dim"dBAG|["cont" "Am7"FGAB cAFA|"D7"GBAF "G"G2:|
+|["Trans""Am7"FGAB "D7"cAFA|"G".G2z2z2AG|
+
+%%topspace 0
+X:2
+$SmallLMargin
+$SmallRMargin
+T:Reel du Faubourg
+C:
+R:Reel
+M:C|
+L:1/8
+K:D
+AG|:"D" FAdf a2AG | FAdf "D#dim"a3A | "Em"Acef "A#dim"gece | "A"ABcA "A7/G"~B2 AG |
+"D/F#"FAdf a2 AG | FAdf "BM"a3A | "Em"Acef (3gfe ce | [1 "A7"dBAF "D"DBAG :|[2"A7"d2zd "D7"efga ||
+K:G
+"G"b3 b bgfa|gg g2-gdBG|DGBd "G#dim"gfeg|"Am"fccc cB A2 |
+ "Am"a3a "[A+/C#]"abga | "D"ff f4 ed | "D/F#"~f2ed "A#dim"fedf | "G/B"edBe "Am"dBG2| 
+"G"b3 b"Am" bgfa | "G/B"gg(g2 g)dBG | "G"DGBd "A#dim"gfeg |"Am"fedf eAce |
+ a3a a2g2 | "D"fefa f2~e2 | ~d2 ed ^cdef |["cont" "G"gfga g2||["Trans""G"g2z2zg eg|
+%%text 8/10/2009
+
+#include "RightHeader.h"
+%%text Set 98 continued
+X:3
+%%topspace -1cm
+T:Reel de Pointe-au-Pic (traditional)
+C:
+R:Reel
+M:C|
+L:1/8
+K:C
+g eg|\
+"C"decd BcAB|GG G2-Ggec|decd "C#dim"cBAc|"Dm"BBB2-B fde|
+"Dm"cdBd AcAc|"G"BB B2-Bgeg|aggg "G7"agec|"C"GG G2zgec|
+"C"decd BcAB|GG G2-Ggec|"C"dz cc "C7/Bb"cdcB |"F"A2 z2 "C#dim"A3B|
+"Dm"c2 Bc "G/B"dd cd|"C"eceg "Am"a3 e|"D7"g2f2- "G7"fdAB|"C"ccc2-"E7"c2 B2||
+"Am"A2 AB cBcd|"Am/G#"eaae a2-ag|"Am/G"eaag abag|"Am/F#"eaag ageA|
+"G"G3A BGBd|gg g2-gGBd|"Em"gg g2-gGBd|g^fga "E7"gedB|
+"Am"A3B c3d|"Am/G#"eaae a2-ag|"Am/G"eaag abag|"Am/F#"eaaga2 za|
+"Cdim/Eb"c'3c'-c' ef^f|"C"g^fga "Amin7"gecd|"D7"egec "G7"dedB|"C"ccc2-c|]
+%%sep 0 0 20cm
+
+%%scale .65
+$SmallLMargin
+$SmallRMargin
+X: 1
+T:Reel de Pointe-au-Pic (basic-Play this if the above has too many notes!)
+C:
+R:Reel
+M:C|
+L:1/8
+K:C
+g eg|\
+"C"d2c2 B2A2|GG G2-Ggec|d2c2 "C#dim"cBAc|"Dm"BBB2-B fde|"Dm"c2B2 AcAc|
+"G"BB B2-Bz2g|aggg "G7"agec|"C"GG G2zgec|"C"d2c2 B2A2|GG G2-Ggec|
+"C"dz c2 "C7/Bb"cdcB |"F"A2 z2 "C#dim"A3B|"Dm"c2 Bc "G/B"d2 cd|"C"eceg "Am"a3 e|"D7"g2f2- "G7"fdAB|"C"ccc2-"E7"c2 B2||
+"Am"A2 AB cBcd|"Am/G#"eaae a2-ag|"Am/G"e2a2 abag|"Am/F#"e2a2 ageA|"G"G3A B3d|
+gg g2-gGBd|"Em"gg g2-gGBd|g^fga "E7"gedB|"Am"A3B c3d|"Am/G#"eaae a2-ag|"Am/G"eaag abag|
+"Am/F#"eaaga2 zA|"Cdim/Eb"c3c-c2z^f|"C"g^fga "Amin7"gecd|"D7"egec "G7"dedB|"C"ccc2-c|]
+%%textfont Times-Roman 7
+%%text 8/10/2009
+
+
+#include "LeftHeader.h"
+%%text Set 99 Neffa '09 Jig Set
+%
+% Humours of Trim (D) / Seanamhac Tube Station (Gdor) / Sean Ryan's (Ador) / The Spotted Dog (A)
+%
+%%scale .8
+X: 1
+T: Humours of Trim
+M: 6/8
+L: 1/8
+R: jig
+K: D
+"D"F2D DED|D2d "A"cAG|"D"F2D DED|"Em7"ABA "A"GFE|
+"D"FEF DED|D2d "A"cAG|"D"FAF "G"GBG|"A"ABA GFE:|
+|:"D"D2d cAd| cAd "A"cAG|"D"F2d cAG|FAF "A"GFE |
+"D"D2d "A"cde|"D"fed "A"cAG|"D"FAF "G"GBG |"A"ABA GFE:|
+%%textfont       Times-Roman 14.0
+%%text Transition: Melody plays last line; backup plays the first D chord and drops out.
+
+$SmallLMargin
+$SmallRMargin
+X: 2
+T: Seanamhac Tube Station (©John Carty)
+M: 6/8
+L: 1/8
+R: jig
+K:Gdor
+"Gm"~G3 GFD |GAc ~d3 | "Gm"dcA "F"cAF | "Gm"GFD "F"CDF |
+"Gm"~G3 GFD |GAc ~d3 | dcA "F"cAF |1 "Gm"~G3 "F"ABA :|2 "Gm"~G3 "F"GAc||
+"Gm"~d3 dcA | "F"~c3 cAc | "Gm"dcA "F"cAF | "Gm"GFD "F"CDF |
+"Gm"~d3 dcA | "F"~c3 fcf | "Gm"dcA "F"cAF | "G"~G3 "F"GAc |
+"Gm"~d3 dcA |"F" ~c3 cAc | "Gm"dcA "F"cAF | "Gm"GFD "F"CDF |
+"Gm"GFD GFD | GFD "F"dcA | "Gm"dcA "F"dcA |["cont""Gm"~G3 "F"ABA ||
+["trans""Gm"Gz2z3||
+%%textfont Times-Roman 7
+%%text 8/10/2009
+
+#include "RightHeader.h"
+%%text Set 99, continued
+%%scale .8
+X: 3
+T: Sean Ryan's (traditional)
+M: 6/8
+L: 1/8
+R: jig
+K: Ador
+|:"Am"~c3 "G"BAG|"Am"AGE "G"DB,G,|"Am"~A,3 EDB,|"G"DEG AGE|
+"Am"cBA "G"BAG|"Am"AGE "G"DB,G,|"Am"A,2 E "Em"EDE|"G"DB,G, "Am"A,2 B:|
+|:"Am"cBA ~a3|bag edB|"G"GBd gfg|GBd cBA|
+"Am"cBc "G"dcd|"Am"ede "G"gab|"Am"age "G"dBG|"Em"EFG "Am"A2 B:|
+%%text Transition: Don't play that last B pickup note.
+%%vskip 1cm
+
+X:4
+$SmallLMargin
+$SmallRMargin
+T: The Spotted Dog (©2001 or earlier John McEvoy)
+M: 6/8
+L: 1/8
+R: jig
+K: A
+"A"EAA ABc|"D"BAF "A"AFE|"Bm"FBB Bce|"D"faf "E"ecA|
+"A"EAA ABc|"D"BAF Ace|"D"f2a"A"e2a|"E"ABc "A"B2A:|
+|:"A"cee ece|"D"fec "A"ecA|"A"eaf "F#m"ecA|"Bm"EFA "E"B2A|
+"A"cee ece|"D"fec "A"e2 a|"D"f2a "A"e2a|"E"ABc "A"B2A:|
+%%text Ending: Tack on an A-chord after last measure.
+
+#include "LeftHeader.h"
+%%text Set 100, Neffa '09 Celtic Set
+%
+% Twilight In Portroe (A) / Barrowburn (D) / Cooley's Reel (Edor) / The Road To Errogie (A)
+%
+%%scale .8
+$SmallLMargin
+$SmallRMargin
+X: 1
+T: Twilight In Portroe
+M: C|
+L: 1/8
+R: reel
+K: Amaj
+"A"A,2CE "D"DEFD|"E"E2GB "A"ABcA|"D"df~f2 "A/C#"edcA|"Bm"BAcA "E"BAFE|
+"A"A,2CE "D"DEFD|"E"E2GB "A"ABcA|"D"df~f2 "A"edcA|1 "E"B2AB "A"cAA2:|2 "E"B2AB "A"cAAB||
+|:"A"c2ec fcec|ABcA "E"BAFA|"A"~E3F "F#m"ABcA|"Bm"defg "E"aefe|
+"A"c2ec fcec|ABcA "E"BAFA|"A"~E3F ABcA|1 "D"dfed "E"cAAB:|2 "E"dfed "A"cAA2||
+%%text Transition: Backup plays BIG A7 chord; skip the pickups
+
+X: 2
+T: Barrowburn
+M: C|
+L: 1/8
+R: reel
+K: Dmaj
+FE|"D"D2DE "D7"FAAd | "G"B2BA BcdB | "D"A2AB "Bm"d2de | "G"fedB "A7"AFEF |
+"D"D2DE "D7"FAAd | "G"B2BA Bcde | "D"f2af "G"egfe | "A7"dBAB "D"d2:||
+|:cd|"A"e2ef "A7/C#"ecBA | "D"f2fg "Bm"fdBA | "Em"g2ga "A/C#"gecA | "F#m"a2ag "B"f2ef |
+"Em7"g2ga "A/C#"gecA | "D"a2ag "Bm"f2ef | "G"g2ag "D"f2ed | "A7"BAAB "D"d2:|]
+%%text Transition: Clean break; skip the pickup note.
+%%text
+%%text 8/10/2009
+
+#include "RightHeader.h"
+%%text Set 100, continued
+%%scale .79
+$SmallLMargin
+$SmallRMargin
+X: 3
+T: Cooley's Reel
+M: C|
+L: 1/8
+R: reel
+K: Edor
+F2|"Em"EBBA B2 EB | B2 AB dBAG | "D"(3FED AD BDAD | (3FED AD BAGF |
+"Em"EBBA B2 EB | B2 AB defg | "D"afec dBAF| "Bm"DEFD "Em"E2:||
+|:gf|"Em"eB (3BBB eBgf | eB (3BBB gedB | "D"A2 FA DAFA | BAFA "Bm"defg |
+"Em"eB (3BBB eBgf | eB (3BBB defg|"D"afec ["cont" dBAF| "Bm"DEFD "Em"E2:|
+["trans" "Bm"dBAF|"Em".E2z2 "E7"A3F|
+
+X: 4
+T:The Road to Errogie (R-176; ©Adam Sutherland)
+S:Scottish reel, originally in B major
+Z:
+M:C|
+L:1/8
+K:A
+AF|"A"EA A2 "E"BABc|"A"eA A2 "E"Bcea|"D"f3f "A/C#"ecAc|"Bm"BABc "E"BAFA|
+"A"EA A2 "E"BABc|"A"eA A2 "E"Bcea|"D"f3f "A"ecAc|"E"BABc "A"A2:|
+ce|"A"a2-a a-a2ba|"A/C#"c'3b a3 e|"D"f2 ea- "A"ae f2-|"Bm"feae "E"fece|
+"A"a2-a a-a2ba|"A/C#"c'3b a3 e|"D"f3 a "A"ecAc |"E"BABc "A"A2 ce|
+"A"a2-a a-a2ba|"A7/C#"c'3b a3 e|"D"f2 ea- "A"ae f2-|"Bm"feae "E"fece|
+"A"EA A2 "E"BABc|"A"eA A2 "E"Bcea|"D"f3f "A"ecAc|"E"BABc "A"A2|]
+%%text Ending: Choke the last note
+%%textfont Times-Roman 7
+%%text 8/10/2009
+
+#include "LeftHeader.h"
+%%text Set 101, NEFFA '10 Jigs Set
+$SmallRMargin
+$SmallLMargin
+%%scale .8
+X: 1
+T: Glen Echo Jig (\251Larry Unger)
+M: 6/8
+L: 1/8
+R: jig
+K: G
+"G"B3 BAB|"Em"GED E2D|"C"EGD EGD|EGB "D"AGE|
+"G"B2B BAB|"Em"GED E2D|"C"EGD EGB|"D"AGE G3:|]
+|:"G"B,2D DED| B,DE D2D|"C"E2G GED|"Am"GED "D"B,A,G, |
+"G"B,2D DED| B,DE D2D|"C"EGB AGE|"D"DB,A, "G"G,3:|]
+
+%%vskip 2cm
+
+X: 1
+T: Reunion Jig (\251Russ Barenberg)
+M: 6/8
+L: 1/8
+R: jig
+K: A
+"A"c3 "E"BAG|"A"AED CB,A,|"D"DEF "A/C#"EAc|"Bm"dec "E"BAB|
+"A"cdc "E"BAG|"A"AED CB,A,|"D"DEF "E"EAG|1"A"A3-A2 B:|[2 "A"A3-AcA||
+"E"BEE cEE| edc Bcd|"A"cAA ABc|"E"BEE E2 c|BEE cEE|
+"E" edc Bcd|1"A"cAA eAc "E"B3-B2 c:|[2"A"cAA "F#m"ABc| "Bm"dFc "E"Bcd:|
+["Transition""A"cAA "F#m"ABc| "Bm"dFc "E"Bc^d|]
+
+#include "RightHeader.h"
+%%text Set 101, Continued
+$SmallRMargin
+$SmallLMargin
+%%scale .8
+X: 18
+T: Calliope House (\251Dave Richardson; J-39)
+I: Calliope House	J-39	E	jig
+M: 6/8
+R: jig
+K: E
+B| "E"eBB gBB|"E" fBB gBB| "A"cff f2e| "B"fge cec|
+"E"BcB B2G| B2c e2f|1 "A"gbg gfe| "B"f3 f2:|2 "A"gbg "B"fec| "E"e3 ega|]
+|: "E(Bm7)"b3 gbb|"E" fbb gbb| "A"a3 gag| "B"fgf fec|
+   "E"BcB B2G| "C#m"B2c e2f|1 "A"gbg gfe| "B"f3 fga:|2 "A"gbg "B"fec| "E"e3 e2:|
+["Transition""A"gbg "B"fec| "E"e3 A3|]
+
+X:1
+T:Calliope House in D (After playing once, go back to Glen Echo.)
+I:Calliope House	J-39	E	jig
+M:6/8
+R:jig
+K:Dmaj
+A| "D"dAA fAA| eAA fAA| "G"Bee e2d| "A"efd BdB|
+"D"ABA A2F| A2B d2e|1 "G"faf fed| "A"e3 e2:|2 "G"faf "A"edB| "D"d3 dfg|]
+|: "D(Am7)"a3 faa|"D" eaa faa| "G"g3 fgf| "A"efe edB|
+"D"ABA A2F| "Bm"A2B d2e|1 "G"faf fed| "A"e3 efg:|2 "G"faf "A"edB| "D"d3 d2|]
+%%text Roaring Jelly  J-39
+%%text 5/22/10
+
+#include "LeftHeader.h"
+%%text Set 102, NEFFA '10 Old-time Set
+$SmallRMargin
+$SmallLMargin
+%%scale .8
+X: 1
+T: Forked Deer
+I: Forked Deer  D   Reel
+S: RJ
+M: C
+L: 1/8
+R: Reel
+K:D
+%%text Fiddles shuffle in.  D, F#, and A are good notes to use.
+(3v(ABc |:"D"vd)efg a2 u(fa) |"G"gbag "A7"fdec |"D"defg     agfa | "A7"gfed cABc|
+ "D"defg  a2 u(fa) |"G"gbag "A7"fdec |"D"d2 F2 "G"GBAG |1"A7"FDEu(C "D"D2)(3v(ABc) :|[2"A7"FDEu(C "D"D4)|]
+|:"A"vA2 Ac (BA)cB |(Ac)BA (FE)F^G |"A"A2 Ac (BA)cB |"D"(AF)EF     D4   |
+ "A"A2 Ac (BA)cB |(Ac)BA  F2 E2  |(A,B,)CD (EF)GE |   (FD)E(F "D"D4) :|
+
+%%vskip 2cm
+X: 1
+T:Shove That Pig's Foot a Little Further in the Fire
+M:4/4
+L:1/8
+K:G
+GA|"G"BdBA G2 E2|"C"GAGE "G"D4|DE G2 B3c| "D"B2 A4 GA|
+"G"BdBA G2 E2|"C"GAGE "G"D4|DE G2 "D"B3G| "G"A2 G4:|
+|:GA|"G"Bd-d2 dBdg|"C"edBc "G"d4|"C"g4 g3d|"D"e2 d4 dd|
+"G"Bd-d2 dBdg|"C"edBc "G"d4|BABd "D"BAGB|"G"A2 G4 :||
+%%text 5/22/10
+
+#include "RightHeader.h"
+%%text Set 102, continued
+$SmallLMargin
+$SmallRMargin
+%%scale .8
+X:2
+T:Old Bell Cow (R-153)
+R:reel
+Z:transcribed to ABC by Debby Knight
+M:C|
+L:1/8
+K:AMix
+"A"A=cAG EGED | CA,2CA,3A, | A,B,CE A2AG | "D"FD2F D3A- |
+"A"A=cAG EGED | CA,2C A,2CB, |A,B,CE AEAG |1 "D"FD2E D3A-:|2 "D"FD2E D4 |]
+|: "A"e3f e2ed | cdef e2A2 | "G"d2d2 BAGB | dBd=c BG3 |
+"A"e3f e2ed | cdef efef | "G"gfgf efed | "A"cABc A4 :|
+["Ending"E4 ^C4|A,4|]
+%%vskip 3cm
+%%text Occasionally replace the first two measures with this:
+.A4.E4|.^C4.A,4|
+%%text 5/22/10
+
+#include "LeftHeader.h"
+%%text Set 103, NEFFA '10 French-Canadian Set
+%%scale .9
+$SmallLMargin
+$SmallRMargin
+X: 1
+T: Gasp\'e
+M: 4/4
+L: 1/8
+R: reel
+K: D
+"D"!upbow![fA] z2 !upbow!((3f/g/f/ e2)d2|z!upbow!AFA "D#dim"B2A2|"Em"!downbow![g2B2]z!upbow!gf2e!downbow!(A|"A"B)ABc ((3BdB)A2|
+"D"!downbow!f2((3fgf) e2d2|AAFA "D#dim"((3BdB)A2|"Em"g2fa ((3faf) e!upbow!(A |1 "A"B2)!upbow!c2 "D"d4:|[2 "A"B2)!upbow!c2 "D"d2 "D#dim"((3faf)||
+"Em"e2f2 "A/C#"gf !downbow!(e2|"D"f2) g2 "Bm"a3(f|"Em"e2)ff "A/C#" gf eA|"F#m"BABc "B7" ((3BdB)A2
+"Em"e2f2 "A/C#"gf !downbow!(e2|"D"f2) g2 "Bm"a3|1!upbow!(f|"Em"e2)ff gf e!upbow!(A|"A"B2)!upbow!c2 "D"d2 "D#dim"(3faf:|[2 a|"Em"!downbow!b2 ((3aba) gfe!upbow!(A| "A"B2)!upbow!c2 "D"d4||
+
+%%begintext ragged
+Fiddle bowings are meant to give it a nice Quebec touch, but they are suggestions only.  Players of wind instruments, keyboards, guitars, hurdy-gurdys, bagpipes, and coconuts may ignore them.
+%%endtext ragged
+
+X: 1
+T: Saut du lapin
+M: 4/4
+L: 1/8
+R: reel
+K: G
+|:"G"BcBA GFGB | "G/B"d2 "A#dim"BG "Am"[AD]z2A|"Am"ABcB ABcd|"D"e2 f2  "A#dim"~e2 d2|
+"G"BcBA GFGB | "G/B"d2 "A#dim"BG "Am"[AD]z2A|"Am"ABcB ABcd|1 "D"eAfA "G"[g2B2]z2 :|\
+		[2 "D"eAfA "G"[g3B3] g||
+|:"G"gdBG "G/F#"d2 ef|"G/E"gdBG "G/D"d3 D| "D"FdDd FdDd|FdDd Bdef |
+"G"gdBG "G/F#"d2 ef|"G/E"gdBG "G/D"d3 D| "D"FdDd FdDd|1eAfA "G"[g3B3] g :|\
+[2 eAfA "G" [g2B2] z2||
+%%text 5/22/10
+
+#include "RightHeader.h"
+%%text Set 103, continued
+%%scale .9
+$SmallLMargin
+$SmallRMargin
+X: 1
+T: Clog de Pariseau
+M: 4/4
+L: 1/8
+R: reel
+K: A
+|:"F#m"F2 GA F2 GA| FGAB c2cc | fgag "F#m/E"~f2 cc|\
+"F#m/D"fgag  "C#7" ~f2 cc|
+"F#m"|F2 GA F2 GA| FGAB c2cc |"Bm"fgag "Cdim"f2 cc|\
+"C#"~f2 c2 "F#m"f4   :|
+"A"e2 fe cAAA|aaAa "Cdim" g2 ~f2|"E/B"EFGA "E"Bcde| "Cdim"fdfe "A/C#"~c2 AA|
+"A"e2 fe ~c2AA|aaAa "Cdim" g2 ~f2|"E/B"EFGA "E"Bcde|1 "E/G#"Aaec "A"A2 ee:| \
+[2 "E/G#"Aaec "A"A4||
+
+X: 1
+%%graceslurs 0
+T: Reel du pere Bruneau
+M: 4/4
+L: 1/8
+R: reel
+K: D
+(3ABc|"D"dAFA "G"GBAG|"D"FA"A"EA "D"D2 FA|"D"dfed "Em7"cBAG|"A"FDEG "D"FDFA|
+"D"dAFA "G"GBAG|"D"FA"A"EA "D"D2 FA|"D"dfed "Em7"cBAG|1 "A"FABc "D"d2:|[2 "A"FABc "D"d2 ~B2|]
+"D"A2 FA dFAd|fAdf a2zB| "D/F#"A2 FA "Fdim"dFAd|"Em"c4{ec} B4{cB}|E3 F G2 A2| "A"c3 c "Bm"cc ~B2|
+"Cdim" A2 cB "A/C#" AGFE| "D"DdDd "A+"~B2 AB |"D"AAFA dFAd |fAd(f a) z2 B| "D/F#"A2 FA "Fdim"dFAd |
+ "Em"c4{ec} B4{cB} | "A"E3 F G2 A2| "Em" c3 c c2 ~B2 | "A"A2 cB AGFE |"D"DDFA d2 ||
+%%graceslurs 1
+%%text 5/22/10
+
+#include "LeftHeader.h"
+%%text Set 104, NEFFA '10 Scottish Set
+$SmallLMargin
+$SmallRMargin
+%%scale .8
+X:1
+T: MacLeod's Farewell (\251Donald Shaw)
+M: 4/4
+L: 1/8
+K: D
+DE|"D"F2BF AFEF|(3DDD DE FABd|"Em7"eefd efed|ABeB "A"dBAG|
+"D"F2BF AFEF|(3DDD DE FABd|"Em7"eefd efdB|1 "A"ABde "D"dD:|\
+	[2 "A"ABde "D"dABd||
+|:"D"A3f edfd|BA Af edfd|"Em7"ABdA BdAB|"A"dBAF EDB,D|
+"Bm"F2BF AFEF|"D"(3DDD DE FABd|"Em7"eefd efdB|1 "A"ABde "D"dABd:|\
+[2 "A"ABde "D"d2||
+
+X: 1
+T: Kate and Rose's
+M: 4/4
+L: 1/8
+K: Dm
+%%text Skip the pickup on transition.
+E | \
+"Dm"FD (3.D.D.D AD (3.D.D.D |dDDd dcAG |   FD (3.D.D.D AGFD |"C"EDCD "A"EFGE |
+"Dm"FD (3.D.D.D AD (3.D.D.D |dDDd dcAG |"F"F2    cF    dFcF |"C"E3 E    EDC :||:
+K: G
+e | \
+"D"fd (3.d.d.d fdad |f3 f fede |"D"fd (3.d.d.d fdad |"C"cBAB "Am"cBAe |
+"D"fd (3.d.d.d fdad |f3 f fedB |"C"c2    gc    acgc |["normal""G"B3 B     BAG :|["transition""G"B3z"E7"z4|]
+%%text 5/22/10
+
+#include "RightHeader.h"
+%%text Set 104, continued
+$SmallLMargin
+$SmallRMargin
+%%scale .8
+X: 1
+T: Wing Commander Donald Mackenzie's
+M: 4/4
+L: 1/8
+R: reel
+K: F#min
+"A"cE E/2E/2E cEBE|"F#m"AFFE FAEA|"D"F2FE FGAB|"E7"cBAB cffe|
+"A"cE E/2E/2E cEBE|"F#m"AFFE FAEA|"D"F2FE FGAB|1"E7"~c2BG "A"A3B:|2"E7"~c2Bc "A"Aa a/2a/2a||
+|:"A"aefe c2Bc|"F#m"AFEF ABce|"D"faba fbaf|"E7"ecAB BAce|
+"A"aefe c2Bc|"F#m"AFEF ABce|"D"faba fbaf|1"E7"ecBc "A"Aa a/2a/2a:|2"E7"ecBc "A"A3B||
+%%text Choke the ending!
+%%sep 4cm 4cm 15cm 
+
+X: 2
+T: Kate and Rose's Low Octave B part
+M: 4/4
+L: 1/8
+K: G 
+E | \
+"D"FD (3.D.D.D FDAD |F3 F FEDE  |"D"FD (3.D.D.D FDAD |"C"CB,A,B, "Am"CB,A,E  |
+"D"FD (3.D.D.D FDAD |F3 F FEDB, |"C"C2    GC    ACGC |"G"B,3  B,     B,A,G, :|
+%%text 5/22/10
+
+#include "LeftHeader.h"
+%%text This page left intentionally blank

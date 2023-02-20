@@ -1,0 +1,47 @@
+
+X: 1
+T: Sl\uance Gree    [D]
+T: The Sun is Shining
+%T: Слънце грее
+C: trad. Bulgaria
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: Transcription by Colin Ferguson
+S: https://youtu.be/Srww_o_DTn0
+L: 1/16
+M: 11+7/16
+K: Dmix
+"Break"|:\
+"G"GDG ~A2AG ~B2~A2 | "G"ABG "D"~F2ED |\
+"D"DA,D ~E2ED ~F2~E2 |1 "A"EFE "D"DEFD :|2 "A"EFE "D"D2z2 ||
+"Vocal"|:\
+"D"D3 "G"G4 AGF2 | "D"~E2D ~D3C |\
+"C"DE3 ~E3C GFEF | "C"E2D "D"D4 :|
+|:\
+"C"E3 E4 D2C2 | "C"DE2 E4 |\
+"Am"E3 E3C GFEF | "Am"~E2D "D"D4 :|
+%%text Vocal drones on D or C, whichever is in the chord.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Sl\uance Gree    (E)
+T: The Sun is Shining
+%T: Слънце грее
+C: trad. Bulgaria
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: Transcription by Colin Ferguson
+S: https://youtu.be/Srww_o_DTn0
+L: 1/16
+M: 11+7/16
+K: Emix
+"Creak"|:\
+"A"AEA ~B2BA ~c2~B2 | "A"BcA "E"~G2FE |\
+"E"EB,E ~F2FE ~G2~F2 |1 "B"FGF "E"EFGE :|2 "B"FGF "E"E2z2 ||
+"Vodbl"|:\
+"E"E3 "A"A4 BAG2 | "E"~F2E ~E3D |\
+"D"EF3 ~F3D AGFG | "D"F2E "E"E4 :|
+|:\
+"D"F3 F4 E2D2 | "D"EF2 F4 |\
+"Bm"F3 F3D AGFG | "Bm"~F2E "E"E4 :|
+%%text Vocal drones on E or D, whichever is in the chord.

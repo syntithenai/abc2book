@@ -1,0 +1,24 @@
+X: 0733
+T: MANCHESTER STRATHSPEY
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.73 #3
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+N: The 4th part has an initial repeat but no final repeat.  Fixed by omitting the initial repeat, giving 32 bars.
+M: 4/4
+L: 1/8
+K: G
+D |\
+G<GG>G TB>GBd | e<gdB {B}A2A>B |\
+G<GG>G B>GBd | e<gTd>B G2G :|
+|: d |\
+Tg>aba gedg | e<gTd>B {B}A2A>B |\
+g>aba b/a/g/e/ dg | e<gTd>B {A}G3 :|
+|: B |\
+DGEG DG ce | d<BG>B {B}A2A>B |\
+DGEG D>G ce | d>Bg>B G3 :|
+d |\
+g>ab>a ged>g |\
+d>egb Ta2a>b |\
+Tg>ab>a b/a/g/e/ d>g | e<gd>B {A}G2G ||
+d |\
+Tg>ab>a ged>g | d>egb Ta2ag/a/ |\
+b>g b/a/g/f Tg>ed>g | d>cB>A G3 |]

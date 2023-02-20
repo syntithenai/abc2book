@@ -1,0 +1,35 @@
+X: 12281
+T: the Bonny Boat Man
+%R: reel, jig
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.28
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"F>G |\
+A3d (BA)(GF) | {EF}GFED A3A | B(d/c/) de fdgf | {f2}Te4 E2(FG) |\
+A3d (BA)(GF) | {EF}GFED A3F | G2(AB) A2(Tc>e) |
+d4 F2 :: (dc) |\
+(BA)Bc (de)fd | {a}g2{g}f2 {f}e3E |\
+TF2A2 (d>e)(fg) | {f2}e4 E2(FG) |\
+A3d BAGF | {EF}GFED A2(GF) | GBAd (c/d/)e ATc |
+{c2}d4 D2 :: FG |\
+AFDA FAdA | (F/A/G/F/) (E/G/F/E/) DFAd |\
+FA df d(f/g/) a(g/f/) | {f2}Te4 E2 (Tf>e) |\
+d(f/d/) A(d/A/) FAdA |
+F(G/F/) E(F/E/) DFGB |\
+A(d/c/) B(g/f/) e(f/d/) c(B/c/) | {c2}d4 D2 :: (fg) |\
+afdA d(d/e/) f/d/e/f/ | {a}gfTed cd eA/G/ |
+FDFA FA df | Te>def EEFG |\
+A(B/A/) (B/A/G/F/) (A/F/)d (A/F/)d | GFED (A/F/)(d/c/) (B/A/G/F/) |\
+GBAd ce A(d/c/) | {c2}d4 D2 :|
+P: Gigga
+M: 6/8
+|: "_Allegro"F/G/ |\
+AdA FDA | (B/c/d)B AFD | FGA def | e3 E2(A/G/) |\
+(FD)F (AF)A | (BG)B Tc>BA | (f/g/a)d Adc | d3 D2 :|
+|: (d/c/) |\
+(Bc)A (de)f | (gf)e (ag)f | (eA)G (FA)d | TA3 G3 |\
+(F/G/A)d (dA)F | (GB)e (ec)A | (f/g/a)d Adc | d3 D2 :|

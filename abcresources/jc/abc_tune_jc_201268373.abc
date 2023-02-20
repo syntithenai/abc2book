@@ -1,0 +1,26 @@
+X:1
+T: The Devilish Delight of Doctor Dennard
+N:
+C:
+S:Play  4  times
+A:
+O:
+R:
+M:4/4
+K:C
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 47 notes)
+K:C
+M:4/4
+L:1/16
+c2 c4 G2 B2 A2 G2 E2 |G2 A4 G2 E4 c4 |c2 e4 c2 B4 e2 A2 |A8 z4 c2 A2 |c2 d2 c2 G2 c2 d2 c2 A2 |c2 e4 c2 e8 |d2 c4 B2B2 ^F2 A4 |d2 G2 B2 G2 A2 B4 G2 |
+%W: A2
+% voice 1 (1 lines, 44 notes)
+c2 c4 G2 B2 A2 G2 E2 |G2 A4 G2 E4 c4 |c2 e4 c2 B4 e2 A2 |A8 z4 c2 A2 |c2 d2 c2 G2 c2 d2 c2 A2 |c2 e4 c2 e8 |A2 e6 B2 d4 c2|c2 G2 A2 B2 c8 |
+%W: B1
+% voice 1 (1 lines, 44 notes)
+B2 f4 d2 e2 d2 B2 G2 |B2 f4 d2 e2 d2 B2 G2 |c2 e4 c2 A8 |e2 e4 d2 e2 d2 c2 A2 |B2 f4 d2 B8 |B2 f4 d2 B8 |c2 e4 c2 A8 |d2 e4 d2 e2 d2 c2 A2 |
+%W: B2
+% voice 1 (1 lines, 47 notes)
+B2 f4 d2 e2 d2 B2 G2 |B2 f4 d2 e2 d2 B2 G2 |c2 e4 c2 A8 |e2 e4 d2 e2 d2 c2 A2 |c2 d2 c2 A2 c2 d2 c2 A2 |c2 e4 c2 e8 |A2 e6 B2 d4 c2|c2 G2 A2 B2 c8 ||

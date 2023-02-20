@@ -1,0 +1,17 @@
+X: 1
+T: Puffin's Reel
+M: 4/4
+R: reel
+C: Terry Harvey
+L: 1/8
+K: Am
+cd \
+| "Am"e2e2 e2de | "Dm"f2e2 d2cd \
+| "Am"edcB AcBA | "E7"^GAGF E2cd \
+| "Am"e2e2e2 dc | "Dm"d2e2f2 ed \
+| "Am"edcB "E7"AcE^G | "Am"A4 A2 z2 :|
+|: "Am"ABcA "E7"BcdB | "Am"cdec "Dm"defd \
+| "Am"e2A2A2 Bc | "E7"BA^GF E3 z1 \
+| "Am"ABcA "E7"BcdB | "Am"cdec "Dm"defd \
+|1 "Am"e2A2 "E7"cBA^G | "Am"A4 A2 \
+:|2 "Am"e2a2 "E7"edcB | "Am"A4 A2 |]

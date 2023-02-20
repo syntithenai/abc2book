@@ -1,0 +1,30 @@
+X: 1
+T: Svensk Annas Vals
+T: Svenskarnasvalsen
+T: Nordfjordsvals
+%: Fjordvalsen
+O: Trad Scandinavian
+N: Alfred Maurstad, a fiddler from Nordfjord, Norway, played this tune
+N: in the Norwegian film "Fant".
+R: waltz
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+"A"|: [F/D][G/E] \
+| "D"[AF] [fA]> e | "G"[dB] [cA] [BG] | "D"[AF] [FD] [GE] | [A2F] [F/D][G/E] \
+| "D"[AF] [fA]> e | [dB] [cA] [dA] | "E"[e^G]>fe/d/ | "A7"[c2=G] ||
+y2 [F/D][G/E] \
+| "D"[AF] [fA]> e | "G"[dB] [cA] [BG] | "D"[AF] [FD] [GE] | [A2F] [AF] \
+| "G"[BG] [gB] [fA] | "A7"[eG] [dF] [cE] | "D"[dF]> [eG][d/F][c/E] | [d2F] :|
+"B"|: [F/D][G/E] \
+| "D"[A2F] [fA] | [AF]> [FD][G/E][A/F] \
+| "G"[B2G] [gB] | "Em"[B2GE] [A/F][B/G] \
+| "A7"[cA] [EC]> [FD] | [GE]> [FD][G/E][A/F] \
+| [BG] [AF] [GE] | "D"[A2FD] ||
+y3/ [F/D][G/E] \
+| "D"[A2F] [fA] | [AF]> [FD][G/E][A/F] \
+| "G"[B2G] [gB] | "Em"[B2GE] [B/G][d/B] \
+| "A7"[cA]> [dB][c/A][B/G] | [AF] [fA] [eG] \
+| "D"[dF]> [eG][d/F][c/E] | [d2F] :|
+

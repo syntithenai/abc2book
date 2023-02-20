@@ -1,0 +1,19 @@
+X: 11071
+T: Allegro
+C: Gaetano Brandi
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.107
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+%: Added initial rest to correct the rhythm in the repeat.
+M: 6/8
+L: 1/8
+K: C
+%%graceslurs 0
+z(ga) |\
+(gc')g fdB | cGe dGf | ecg {a/}gfe | ddd .d(ga) |\
+(gc')g fdB | cGe dGf | ecg {g/}fed | c3 :|
+|: z(de) |\
+fdd (def) | gec c.(de) | fdd (def) | gec c(g^g) |\
+aAa bBb | (c'ge) (afd) | c2c {e/}(dcd) | c3 :|
+%
+%%center -

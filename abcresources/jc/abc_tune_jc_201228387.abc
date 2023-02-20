@@ -1,0 +1,23 @@
+X: 11231
+T: the Fairy Queen
+%R: air, minuet, waltz
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.23
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The last (3-bar) strain has initial repeat but no final repeat; fixed by making it a coda.
+M: 3/4
+L: 1/16
+K: G
+|: "_Slow"\
+G8 D4 | G8 D4 | G4 (F2E2) D4 | (F3E)(F3G)(A3B) |\
+g4 f2e2d2c2 | B8 E4 | D4 G4 F4  | G8 :: (Bc)(d/c/B/A/) |\
+G8 (Bc)(d/c/B/A/) | F8 (A2F2) | E6 F2TE2D2 |
+B8 (DEF2) | g4 (d2c2)(B2A2) | G8 (DEFG) | (A3B)A2G2 F2E2 | D8 (GAB2) |\
+E8 (GAB2) | D8 (DEF2) | {F}G8 :: (def2) | g3ag2d2B2d2 | g8 (e2d2) |
+TB6 d2B2A2 | G8 (def2) | (g2f2g2)a2g2d2 | e4 f4 g4 |\
+(a2b2a2)g2f2e2 | d8 g2a2 | b4 (.B2.B2.B2.B2) | b4 e8 |\
+(a2b2a2)g2f2e2 | d8 (g3a) | {ga}b4 e4 a(gfe) |
+d4 (efg2) (fga2) | g8 :: (B2d2) | e4 - e2g2e2d2 | B4 - B2d2B2A2 | G4 B2A2G2F2 |\
+TE6 d2 B4 | D4 (.D2.D2.D2.D2) | D4 E4 F4 | (G2A2) (A6 GA) |\
+B8 d4 | (e2f2) (Tf6 ef) |
+g4 G4 g2f2 | e6 g2e2d2 | B8 (bag2) | e3ge2d2 B4 |\
+(A2B2A2)G2E2A2 | G8 :| (g2"_Pia"f2) | e6 d2 B4 | A3BA3GE3A | G8 |]

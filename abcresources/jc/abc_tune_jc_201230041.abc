@@ -1,0 +1,20 @@
+X: 131
+T: Miss Mary Gray of Backworth's Strathspey
+C: Abraham Mackintosh
+R: strathspey
+M: C|
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Abraham Mackintosh "A Collection of Strathspeys, Reels, Jigs &c.", Newcastle, after 1797, p.13
+F: http://imslp.info/files/imglnks/usimg/a/a8/IMSLP80796-PMLP164326-Abraham_Mackintosh_coll.pdf
+K: D
+V: 1
+A | F<DA>F B>GA>G | F<D F/G/A d3 f | F<DA>F B>GA>F | G<EE>F G3  :|
+B | A<FD>F d>FD>F | A>FD>F    A3 B | A<FD>F d>FD>F | G<EE>F G3 B |
+    A>FD>F d>FD>F | A>FD>F    A3 g | f>de>c d<BA>F | G<EE>F G3  |]
+V: 2 clef=bass middle=d
+z | d2[f2d2] [g2d2][f2d2] | d2d2 f2d2 | d2[f2d2] [g2d2][f2d2] | e2e2 e3 :|
+z | [d2D2][d2D2] [d2D2][d2D2] | [d2D2][d2D2] [d2D2][d2D2] |
+    [d2D2][d2D2] [d2D2][d2D2] | [e2E2][e2E2] [e2E2][e2E2] |
+    [d2D2][d2D2] [d2D2][d2D2] | [d2D2][d2D2] [f2F2][e2E2] |
+	[d2D2][a2A2] [d2D2][^d2^D2] | [e2E2][e2E2] [e2E2] |]

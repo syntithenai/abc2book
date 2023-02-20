@@ -1,0 +1,26 @@
+X: 1
+T: My Lord Byron's Delight
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.239
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+a | (af) (fc) f2 (ba) | g2 (fe) c3 a | (af) (ge) (fa) (gb) | a2 (gf) f3 |][| g | (ge) (fg) a2 (gf) | (ge) (fd)  ^c3 a |
+(bg) (af) (ge) (fd) | d3 ^c d2 zb | (ba) (ag) (gc) za | (af) (fd) (dB) zg | (ge) (ec) (cA) (Bc) | A2 (GF) F3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%    The 1. man turns the 2. woman with his right-hand, and his own Partner with his left .|
+%%    The 1. woman does the same :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%%   The 1. cu. take hands and lead through the 2. cu. and back again, then cast off into the 2. cu. place;
+%% Right and left with your Partners quite round, then the Figure of Eight quite round again .|
+%% Right and left with your Partners again, which brings the 1. cu. into the 2. cu. place.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

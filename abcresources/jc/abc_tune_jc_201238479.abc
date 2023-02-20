@@ -1,0 +1,32 @@
+X: 30861
+T: COTILLION No. 5. ST. LOUIS SETT tune 1
+%R: jig
+N: This is version 2, for ABC software that understands tremolo notation.
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.86 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The "D.C." in strain 1 should probably be a fermata.
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+e2z c2z | Gce g3 | g^fg ag=f | e6 |\
+e2z A2z | A^cd f3 | GBc d2e | c3 z2"^D.C."z |]
+K: Bb
+B2z B2z | BAB g3 | f=ef c'2b | g3 z2z |\
+g2z g2z | g^fg =e2d | c=Bc edc | B3 B2 |]
+e2z c2z | Gce g3 | ^cde agf | e3 z2z |\
+c2z c2z | c2d _e3 | =edc BA^G | A4 z |]
+!/!B3 B2z | !/!B3 B2z | g6 | g^fg ag=f |\
+e2g c'3 | d2f a3 | gfe dcB | c6 "D.C."y |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 right and left,
+%% balance and turn partners,
+%% ladies chain,
+%% promenade 4.
+%% Sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

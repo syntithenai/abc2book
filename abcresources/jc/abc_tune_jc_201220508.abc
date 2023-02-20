@@ -1,0 +1,48 @@
+%%text RJ Set 037 Jigs
+
+
+X: 1
+T: Hare in the Corn, The
+I: RJ J-51 G jig
+M: 6/8
+R: jig
+K: G
+Bc |\
+"G"d2B G2B | ded "C"cBA | "G"BAG "C"EDB, | EDB, "D"A,B,A, |\
+"G"G,B,D G,B,D | "C"EFG "D"Adc | "G"B2G dBG | "D"cAF "G"G :|
+|: Bc |\
+"G"ded BGB | def g2e | "C"edB "G"gdB | gdB ABA |\
+"G"GBd GBd | "C"bag "D"(4efge | "C"edB "G"gdB | "D"cAF "G"G :|
+
+
+X: 2
+T: Reunion Jig
+C: Russ Barenberg
+M: 6/8
+L: 1/8
+R: jig
+K: A
+|:\
+"A"c3 "E"BAG | "A"AED CB,A, | "D"DEF "A/C#"EAc | "Bm"dec "E"BAB | \
+"A"cdc "E"BAG | "A"AED CB,A, | "D"DEF "E"EAG |1 "A"A3-A2 B :|
+[2 "A"A3-AcA |:\
+"E"BEE cEE | edc Bcd | "A"cAA ABc | "E"BEE E2 c | BEE cEE | \
+"E" edc Bcd |
+[1 "A"cAA eAc | "E"B3-B2 c :|[2 "A"cAA "F#m"ABc | "Bm"dFc "E"Bcd :| \
+|["Transition:"y "A"cAA "F#m"ABc | "Bm"dFc "B7"Bc^d |]
+
+
+X: 3
+T: Birthday Jig, The
+I: RJ J-49 G jig
+C: Laura Davidson
+M: 6/8
+R: jig
+K: G
+|:\
+"G"GDE G3 | "D"AdB ABA | "C"GED G2A | "D"BAB GED |\
+"G"GDE G3 | "D"AdB ABA | "C"GED G2A | "D"BGG "G"G3 :|
+|:\
+"Em"Bed BBA | "C(no E)"GAB "D(no F#)"GAB | "Em"Bed Bef | "G"ged BAG |\
+"Em"Bed BBA | "C"GAB GED | "G"GDE G2A | "D"BGG "G"G3 :|
+

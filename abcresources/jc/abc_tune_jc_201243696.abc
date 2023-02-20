@@ -1,0 +1,20 @@
+X: 388
+T:Battle of Waterloo
+N: page 145
+N: heptatonic
+R: Reel
+M:4/4
+L:1/4
+K:Amix
+%
+e/d/ B | "A"A2 A B | A G G A | c> d e c | "D"d2 e f/g/ |\
+"A"a> g e d | e d B A |
+ "G"G> G G A | G2 e/d/ B |"A"A2 A B | A G G A |\
+ c> d e c | "D"d2 e f/g/ |"A"a> g e d |
+ e d "G"B G | "A"A2 "D"A> A | "A"A3 g | "A"a> g e d |\
+ c2 e f | "Em"g> a g e | "G"g2 e/f/ g |
+"A"a> g e d | e d "D"B A | "G"G> G G A | "G"G2 e/d/ B |\
+"A"A> A A B | "G"A G G A | "A"c> d e c |
+ "G"d2 e f/g/ |"A"a> g e d | "G"e d B G | "A"A2 A> A | "A"A2 |]
+%%stretchlast yes
+%%continueall no

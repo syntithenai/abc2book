@@ -1,0 +1,47 @@
+X: 1
+T: Will Ye Go Lassie Go   [D,w]
+M: 6/8
+L: 1/8
+C: Trad., Arranged by Anita Smisek
+% %borderwidth 0.1in
+% %leftmargin 0.3in
+% %topmargin 0.1in
+% %composerspace 0
+% %partsspace 0
+% %musicspace 0
+% %staffsep
+% %textfont helvetica 10
+% %scale .7
+%%continueall
+K: D
+% - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+z(de) | "D"f2f "G"(e2d) | "D"(Bd2) z(fa) | "G"b2b (b2a) | "D"(fa2)
+w: 1.~O the sum-mer time is com-ing, and the trees are sweet-ly bloom-ing,
+z(fa) | "G"b3 "D/F#"(a2f) | "Em"(ed2) zef | "G"g2f e2d | Bd2
+w: and the wild moun-tain thyme - Grows a-round the bloom-ing heath-er,
+   d2B | "D"A2B "G"dd2 | "D"d3
+w: will ye go, - las-sie, go?
+% - - - - - - - - - - - - - - - - - - - -
+"^Chorus"|]| zfa | "G"b3 b2a | "D"fa2 zfa | "G"b3 "D/F#"a2f | "Em"ed2 zef | "G"g2f e2d | Bd2
+w: And we'll all go to-geth-er to pluck wild moun-tain thyme - All a-round the bloom-ing heath-er.
+d2B | "D"(A2B) "G"dd2 | "D"d3- Hd |[|
+w: Will ye go - las-sie, go? -
+% - - - - - - - - - - - - - - - - - - - -
+ydB | "D"A2B "G"d2d | "D"d-d2 zfa | "G"b3 b2a | "D"fa2
+w: 2.~I will build my love a tow-er near yon pure crys-tal foun-tain.
+w: 3.~If my true love, she were gone,  - I would surely find an-oth-er,
+zfa | "G"b2b "D/F#"a2f | "Em"ed2 zef | "G"g2f e2d | Bd2 d2B | "D"A2B "G"dd2 | "D"d3 |]
+w: And - on it I will pile - all the flow-ers of the moun-tain. Will ye go. - las-sie, go?
+w: Where - wild - moun-tain thyme - grows a-round the bloom-ing heath-er. Will ye go - las-sie, go?
+% - - - - - - - - - - - - - - - - - - - -
+V: 2
+z(Bc) |\
+d2d (c2B) | (GB2) z(df) | g2g (g2f) | (df2) z(df) |\
+g3 f2d | cB2z cd | e2dc2B | GB2 B2G | F2G GG2 | F3 |]|
+zdf |\
+g3 g2f | df2 zdf | g3 f2d | cB2 zcd |\
+e2d c2B | GB2 B2G | F2G GG2 | F3- HF |[|
+yBG |\
+F2G G2G | F3 zAd | d3 d2c | d3 zd2 |\
+d3 d3 | cB2 zcd | B6 | GB2 B2G | (F2F) FF2 | F3 |]

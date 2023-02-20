@@ -1,0 +1,30 @@
+X: 1
+T:The Alma
+M:C|
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+|: e/2d/2|
+{gcd}c{e}A{g}A/2{d}A/2{e}G|
+{g}A3/4B/4{g}c3/4d/4{gef}e2|  !
+{g}f3/4e/4{g}d3/4c/4{gef}e{g}A|
+{g}d3/4c/4{g}B3/4A/4{g}G{dc}d{gcd}c{e}A{g}A/2{d}A/2{e}G|
+{g}A3/4B/4{g}c3/4d/4{gef}e2|  !
+{g}f3/4e/4{g}d3/4c/4{g}e3/4f/4{g}e3/4c/4|
+{g}A/4{d}A3/4{ag}a{g}a:| |:
+c/2d/2|  !
+{g}e{ag}ac/4{G}c3/4{ag}a|
+e3/4f/4{g}e3/4c/4{g}A/4A3/4{g}B3/4c/4|
+{Gdc}d{gf}gB/4{G}B3/4{gf}g|  !
+{Gdc}d3/4e/4{g}d3/4B/4{g}G/4{d}G3/4{g}c3/4d/4|1 {g}e{ag}ac/4{G}c3/4{ag}a
+|
+e3/4f/4{g}e3/4c/4{g}A/4A3/4{g}B3/4c/4|
+{Gdc}d3/4e/4{g}d3/4B/4{g}e3/4f/4{g}e3/4c/4|  !
+{g}A/4{d}A3/4{ag}a{g}a:|2
+{g}e3/4f/4{g}e3/4c/4{g}f3/4d/4{g}e3/4c/4|
+{g}A/4a3/4e3/4c/4{g}A/4{d}A3/4{g}B3/4c/4|  !
+{Gdc}d3/4e/4{g}d3/4B/4{g}e3/4f/4{g}e3/4c/4|
+{g}A/4{d}A3/4{ag}a{g}a:|
+

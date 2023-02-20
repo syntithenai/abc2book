@@ -1,0 +1,18 @@
+X:1
+T: Fr. Francis Cameron
+%%topspace       0.00cm
+%%titlespace       0.00cm
+C: R-102
+C: John Campbell
+M: C|
+Z:
+R: reel
+K: A
+E2| "A"A2cA "D"FDDF| "A"   EA,CE "D"F2DF| "A"EAcA "F#m"e2cA| "Bm"BEGB "E"d2cB|
+    "A"A2cA "D"FDDF| "A/C#"EA,CE "D"F2DF| "A"EAce "D"dcdf| "E"ecdB "A"A2 :|
+%
+% NOTE: can modify PS files - look for end1 and change (1) to (1,3) & (2) to (2,4)
+|:\
+cd| "A"e2cA eAce| "D"f2dB "Bm"fBdf| "A/C#"eagb "A"aecA|1 "E"BEGB d2 :|2\
+                                                         "E"BEGB "A"A2|]
+%

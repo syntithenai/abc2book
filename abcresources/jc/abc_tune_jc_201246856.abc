@@ -1,0 +1,1511 @@
+
+X: 00
+T: The Andrew Rankine Collection
+C: Andrew Rankine (1930-1985)
+O: John Chambers, editor
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes"
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+K:
+%%begintext align
+%% I've collected all of Andrew Rankine's tunes that I've found
+%% online in ABC format. I've transcribed a lot of them myself,
+%% mostly from recordings or from handouts at SCD events,
+%% over the years that I've been playing for Scottish dances.
+%% Many tunes are here in several versions.
+%% In Jan 2017, I got a copy of the Complete Andrew Rankine Collection,
+%% selected the closest version of each, and transcribed the few missing tunes.
+%% Those versions have the book's tune count at the start of their names,
+%% and are listed here in the book's order,
+%% with a triple horizontal line to separate them from the other
+%% transcriptions that I'm still finding and linking here.
+%%endtext
+
+%%sep 1 1 500
+
+X: 01
+T: A TRIBUTE TO LINDSAY ROSS
+C: Andrew Rankine 1980
+R: reel
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.4
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+c2 |\
+"F" F3A c2d2 | F3A c4 | F2Ac dcAF | "C7"B4- B2e2 |\
+G3B c2e2 | G3B c4 | G2Bc ecBG | "F"A4- A2c2 ||
+"F"F3A c2d2 | F3A c4 | F2Ac "F7"dAc^c | "Bb"d4- d4 |\
+d2^cd fdBF | "F"A2^GA cAFD | "C7"C2EG cBDE | "F"F4- F2 |]
+"C7"C2 |\
+"F"F2CF AGFA | cBAc dcAc | f2dc AFD^D | "C7"E4- E4 |\
+E2CE GFEG | B2GB dcBc | e2cB GEG^G | "F"A4- A2 C2 ||
+"F"F2CF AGFA | cBAc dcAc | f2dc "F7"cAc^c | "Bb"d4- d4 |\
+d2^cd fdBF | "F"A2^GA cAFD | "C7"C2EG cBDE | "F"F4- F2 |]
+
+%%sep 1 1 500
+
+X: 02
+T: ANGUS MacLEOD
+C: Andrew Rankine 1960
+R: reel
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.5
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+c2 |:\
+"F"F4 F3G | A2c2 A4 | F4 F3G | A2c2 "Gm"B4 |\
+"C7"G4 G3A | B2c2 B4 | e3d c2B2 | A2G2 [1 "F"F2f2 :|[2 "F"F4 |]
+|:\
+"Bb"f4 f3e | "F"d2c2 A4 | c4 c3d | c2A2 "C7"G4 |\
+"F"F4 F3G | A2F2 "Gm"B4 | "C7"e3d c2B2 | A2G2 "F"F4 :|
+
+%%sep 1 1 500
+
+X: 03
+T: BARRAS BRIDGE
+C: Andrew Rankine (1930-1985)
+R: reel
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.6
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+e |:\
+"A"cAAB cAA2 | "E7"dBBc dBBd | "A"EAAB "F#m"cAAc | "B7"B^ddf "E7"e2e=d |
+"A"cAAB cAA2 | "E7"dBBc dBBd | "A"cAAB "F#m"cAAc | "E7"BEGB "A"A4 :|
+|:\
+"A"EAAE FEEA | EccA "E7"AGG2 | EGGE FEFF | EddB "A"BAA2 |
+"A"EAAE FEEA | EccA "E7"AGG2 | EGGE FEEd | GEBG "A"A2z2 :|
+
+%%sep 1 1 500
+
+X: 04
+T: CHRIS BLAIR
+C: Andrew Rankine 1976
+R: reel
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.7
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D2 |\
+"G"G2FA G2D2 | B^ABc d2cB | "D7"A2^GB A2D2 | A^GAB dcBA |
+"G"G2FA G2D2 | B^ABc d2cB | "D7"AFDF AFBA | "G"G2G2G2 :|
+|: FG |\
+"D7"AFDF AFBA | "G"GDGB d2Bd | "C"cGEc "G"BGDB | "A7"AB^cA "D7"d=cBA |
+"G"G2FA G2D2 | B^ABc d2cB | "D7"AFDF AFBA | "G"G2G2G2 :|
+
+%%sep 1 1 500
+
+X: 05
+T: HIGHLAND DIAMOND
+C: Andrew Rankine 1983
+R: reel
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.8
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+DG |\
+"G"BBBB BdGB | e2 d4 DG | "G"BBBB "E7/g#"BdcB | "Am"A4- "Am7"A3B |\
+"D7"ceAB "Am7"c2 FG | "D7"AcFG "Am7"A2AB | "D7"cBcd eded | "G"B6 DG |
+"G"BBBB BdGB | e2 d4 DG | "G"GDGB "G7"dBg=f | "C"e6 cd |\
+egcd "Gdim/c#"e2dc | "G"BdGA "A7"B2AG | "D7"FDFA dcBA | "G"G4- G2 |]
+Bc |\
+"G"dgGA BdcB | A2 G4 GA | "G"BGed "E7/g#"BDcB | "Am"A4- "Am7"A3B |\
+"D7"ceAB "Am7"c2FG | "D7"AcFG "Am7"A2AB | "D7"cBcd eded | "G"B4- "D7"B3c |
+"G"dgGA BdcB | A2 G4 GA | "G"BGAB "G7"dBg=f | "C"e6 cd |\
+egcd "Gdim/c#"e2dc | "G"BdGA "A7"B2AG | "D7"FDFA dcBA | "G"G4- G2 |]
+
+%%sep 1 1 500
+
+X: 06
+T: IAN MacKENZIE'S REEL
+C: Andrew Rankine 1980
+R: reel
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.9
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+E2 |\
+"A"A2AB cA"A7"ce | "D"agaf "A"e2 "F#7"c2 | "Bm"B2Bc dFBd | "E7"G2GA BEGB |
+"A"A2AB "A7"cAce | "D"agaf "A"e2 "F#7"c2 | "Bm"B2Bc "E7"dEGB | "A"A2A2A2 :|
+|: Bc |\
+"D"d2de fefd | "A"c2cd "F#7"edec | "Bm"B2Bc "E7"dEGB | "A"AGAB "A7"cABc |
+"D"d2de fefd | "A"c2cd "F#7"edec | "Bm"B2Bc "E7"dEGB | "A"A2A2A2 :|
+
+%%sep 1 1 500
+
+X: 07
+T: JAMES FORRESTER RANKINE
+C: Andrew Rankine
+R: reel
+N: Original tune for Dance of the Diamones
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.10
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+G2 |\
+"C"C2E2 GAGE | c2E2 GAGE |\
+C2E2 GAGE | GAGE cGEC |\
+"F7"B,2D2 FGFD | B2D2 FGFD |
+B,A,B,C DCDE | FEFG AGAB ||\
+"C"c2e2 gage | c'2e2 gage |\
+c2e2 gage | gage c'gec |
+"G7"B2d2 fgfe | b2d2 fef^f |\
+g^fg^g agab | "C"c'2"F"c'2 "C"c'2 \
+|: _B2 |\
+"F"A2f2 fgfd | "C"e2c2 cdcA |
+"G7"G2B2 BcBA | "C"G^FGc "C7"edc_B |\
+"F"A2f2 fgfd | "C"e2c2 cdcA |\
+"G7"G^FG^G AGAB | "C"c2"F"c2 "C"c2 :|
+
+%%sep 1 1 500
+
+X: 08
+T: KATHLEEN'S REEL
+C: Andrew Rankine
+R: reel, march
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.11
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+|:\
+"G"GB Bd | "D7"d2 A>B | c2 Bd | A2 "G"G2 |\
+"Em"Be e^d | "C"e2 g2 | "D7"d>c BA | "G"BG [1 "D7"d/c/B/A/ :|
+[2 "B7"B/A/G/F/ \
+|: "Em"Ee e^d | e2 "A7"EF/E/ | "D"Dd d^c | d2 "Bm"DG/F/ | "Em"Ee e^d |\
+"C"e2 "C#dim"g2 | "D7"d>c BA |[1 "G"BG "B7"B/A/G/F/ :|[2 "G"BG G2 |]
+
+%%sep 1 1 500
+
+X: 09
+T: MENSTRIE BURN
+C: Andrew Rankine
+R: reel
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.12
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A2 |\
+"D"D2FA d2cd | "E7"edcB "A7"A2de | "D"f2ef "Em"gfed | "A7"cdec AGFE |
+"D"D2FA d2cd | "E7"edcB "A7"A2de | "D"f2ef "A7"gecA | "D"d2d2 d2 :|
+|: e2 |\
+"D"f2df a2ba | "Em"gfed "A"e2c2 | "G"d2Bc "E7"d2ed | "A7"cBA^G A=GFE |
+"D"D2FA d2cd | "E7"edcB "A7"A2de | "D"f2ef "A7"gecA | "D"d2d2 d2 :|
+
+%%sep 1 1 500
+
+X: 10
+T: MENSTRIE CASTLE
+C: Andrew Rankine
+R: reel, polka
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.13
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+A |\
+"D"dA d>e | f2 f>A | fA f>g | "A7"fe e>d |\
+cA ce | a2 a>g | "D"fA "A7"f>e | "D"d2- d :|
+|: e/f/ |\
+"G"g>B dg | "D"f>A df | "A7"eA ag | "D"f>A "D7"df |\
+"G"g>B dg | "D"f>A df | "A7"eA f>e | "D"d2- d :|
+
+%%sep 1 1 500
+
+X: 11
+T: The NEW HIGH LEVEL
+C: Andrew Rankine
+R: reel, hornpipe
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.14
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D2 |\
+"G"G2DG B2GB | d2ed cBAG |\
+"D7"F2DF A2FA | dcde dcBA |
+"G"G2DG B2GB | d2ed cBAG |\
+"D7"FDFA dcBA | "G"G2B2 G2 :|
+|: Bc |\
+"G"d2Bd "G7"gdBd | "C"e2ce gece |\
+"G"d2Bd gdBd | "D7"c2 fe dcBc |
+"G"d2Bd "G7"gdBd | "C"e2ce gece |\
+"D7"dgfe dcBA | "G"G2B2 G2 :|
+
+%%sep 1 1 500
+
+X: 12
+T: ROBERT SPENCER OF LANGTON HALL
+C: Andrew Rankine 1981
+R: reel
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.15
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+e |\
+"A"A2Ac "E7"BdcB | "A"cdcB "A7"Aaag |\
+"D"f2fa "A"eccf | "F#m"ecBA "G"B3 e |\
+"A"A2Ac "E"BdcB | "F#m"cdcB Aa"A"ag |
+"D"f2fa "A"eccf | "E7"ecBc "A"A3 :|\
+e |\
+"A"a2af "A7"ecce | "D"fagf "A"ecce |\
+"D"f2fa "A"eccf | "F#m"ecBA "G"B3 e |
+"A"a2af ecce | "D"fagf "A"ecce |\
+"D"f2fa "A"eccf | "E7"ecBc "A"A3 e |\
+"A"a2af "A7"ecce | "D"fagf "A"ecce |
+"D"f2fa "A"eccf | "F#m"ecBA "G"B3 e |\
+"A"A2Ac "E"BdcB | "F#m"cdcB "A"Aaag |\
+"D"f2fa "A"eccf | "E7"ecBc "A"A3 |]
+
+%%sep 1 1 500
+
+X: 13
+T: RUSS TAYLOR
+C: Andrew Rankine 1980
+R: reel
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.16
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+FG |\
+"D"A2FA BAFA | "Bm"d2cd "A7"BAFG | "D"A2FA "B7"BAFA | "Em"e2^de "A7"cAGE |
+"D"A2FA "D7"BAFA | "G"d2cd "D"BAFA | "Em"B2GB "D"A2FA | "A7"GA,B,C "D"D2 :|
+|: E2 |\
+"D"FA,DF "D7"ADFA | "G"B2GB "D"AA,DE | FA,DF ADFA | "Em"e2^de "A7"cAGE |
+"D"FA,DF "D7"ADFA | "G"B2GB "D"ADFA | "Em"B2GB "D"A2FA | "A7"GA,B,C "D"D2 :
+
+%%sep 1 1 500
+
+X: 14
+T: TOMMY McTAGUE
+C: Andrew Rankine
+R: reel, hornpipe
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.17
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+FE |\
+"D"D2FA "A7"GFGE | "D"D2FA "D7"BAFA |\
+"G"GBdg "D"fefd | "A7"cBcA GFGE |\
+"D"D2FA "A"GFGE | "Bm"D2FA "F#m"BAFA |
+"G"GBdg "D"fefd |[1 "A7"cAGE "D"D2 :|\
+[1 "A7"cAGE "D"D2z2 |:\
+"A"AcBc "Em"BG"A7"EG | "D"Fdcd "D7"BAFA |
+"G"Gdcd "D"AFAd | "E7"B^GBe "A7"cA=GE |\
+"D"D2FA "A"GFGE | "Bm"D2FA "F#m"BAFA |\
+"G"GBdg "D"fefd | "A7"cAGE "D"D2-D2 :|
+
+%%sep 1 1 500
+
+X: 15
+T: WICKED WILLIE
+C: Andrew Rankine 1976?
+R: reel
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.18
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+A2 |:\
+"D"d2ce "Bm"dfed | "E7"dfed "A7"cee2 | "E7"c2Bd "A7"cecB | ABAG "D"FAA2 |
+"D"d2ce "Bm"dfed | "E7"dfed "A7"cee2 | "E7"c2Bd "A7"cecB | Acge "D"fdd2 :|
+|:\
+"D"f2ef edcB | A2^GA BAGA | "A7"=G2FG AGFG | "D"A2^GA BAGA |
+"D"f2ef edcB | A2^GA BAGA | "A7"=G2FG BGcG | "D"d2d2 d2-d2 :|
+
+%%sep 1 1 500
+
+X: 16
+T: The ALEXANDRIA REEL
+C: Andrew Rankine
+R: jig
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.21
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+A/B/ |\
+"A"c2c cBA | cdc cBA | "A"c2c "F#m"cBc | "Bm"dBB "E7"B2 G/A/ |\
+B2B BAG | BcB BAG | B2B Bcd | "A"cA"D"A "A"A2 :|
+|: c/d/ |\
+"A"e2e edc | efe edc | "A"e2e "Em"e=gg | "A7"=gff "D"f2 d/e/ |\
+"Bm"f2f "E7"fed | "A"e2e "F#7"edc | "Bm"d2d "E7"dcB | "A"cA"D"A "A"A2 :|
+|: F |\
+"A"EAc EAc | c2c cBA | "A"EAc "F#m"EAc | "Bm"dBB "E7"B2G |\
+EGB EGB | B2B BGE | EGB Bcd | "A"cA"D"A "A"A2 :|
+
+%%sep 1 1 500
+
+X: 17
+T: BARBARA SAUNDERS OF DOLLAR
+C: Andrew Rankine
+R: jig
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.22
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: Moved final D chord to start of measure rather than the middle that the book has.
+M: 6/8
+L: 1/8
+K: D
+A, |:\
+"D"DCD "A"EDE | "Bm"FEF "A"GFG | "G"BAG "A7"cBc | "D"d3 "D7"d2c |\
+"G"BGg dBG | "D"AFd AFD | "A7"ECA A,EC |[1 "D"D3 D2"A7"A, :|[2 "D"D3 DFA ||
+|:\
+"G"BGB dcB | "D"Aff dAF | "Em"Eee "A7"cAG | "D"Fdd "D7"DFF |\
+"G"BGB dcB | "D"Aff dAF | "A7"ECA A,EC |[1 "D"D3 DFA :|[2 "D"D3 "B7"B3 ||
+|:\
+"Em"GEG "A7"BAG | "D"FDF "B7"AGF | "A"EAc ecA | "D"Afd "B7"BAF |\
+"Em"GEG "A7"BAG | "D"FDF "B7"AGF | "A7"ECA A,EC | "D"D3- D3 :|
+
+%%sep 1 1 500
+
+X: 18
+T: The CORNERHOUSE JIG
+C: Andrew Rankine
+R: jig
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.23
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+B |\
+"D"Add dcd | fed A2d | "Em"Bee edB | Bee "A7"cBA |\
+"D"Add dcd | fed A2d | "G"Bdd "A7"cBc | "D"d3- d2 :|
+|: A/G/ |\
+"D"FAA AFD | "G"GBB BAG | "A"Acc cBc | "D"dcd "A7"BAG |\
+"D"FAA AFD | "G"GBB BAG | "D"Add "A7"cBc | "D"d3- d2 :|
+
+%%sep 1 1 500
+
+X: 19
+T: DONALD IAIN RANKINE
+C: Andrew Rankine
+R: jig
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.24
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+|:\
+"F"Acc FAA | CFF A,CC | A,CC FAA | "C7"FEE E3 |\
+CEE EGG | GBB Bcc | cee [1 ecc | "F"BAA A3 :|[2 "C7"ede |
+"F"gff f3 [|\
+"F"aff cff | aff dcc | aff "Fm"cff | "C7"fee e3 |\
+gee cee | gee edc | gee cee | "F"dcc c3 |]
+"F"aff cff | aff dcc | aff "F7"cff | "Bb"fdd d3 |\
+dBB FBB | "F"CFF Acc | "C7"cee ede | "F"gff f3 |]
+
+%%sep 1 1 500
+
+X: 20
+T: EDMUND MacKENZIE OF PLOCKTON
+C: Andrew Rankine
+R: jig
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.25
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|:\
+"G"DEF GAB | d2d B3 | "D7"c2c A3 | "G"d2d B3 |\
+"G"DEF GAB | d2d B3 | "D7"d^cd =cAF | "G"G3- G3 :|
+|:\
+"C"e3 c3 | "G"d^cd B3 | "D7"=cBc DFA | "G"d2c "G7"B2B |\
+"C"e3 c3 | "G"d^cd B3 | ded "D7"cBA | "G"G3- G3 :|
+
+%%sep 1 1 500
+
+X: 21
+T: HOGMANAY JIG
+C: Andrew Rankine
+R: jig
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.26
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+AB |:\
+"A"c2c cdc | B2A A2B |\
+c2c cBA | "Bm"G2F "B7"F3 |\
+"E7"G2G GAG | F2E E2F |
+[1 "E7"EGB e^de | "A"=d2c cAB :|\
+[2 "E7"EGB dcB | "A"A3- A2 E |:\
+"A"c2c "E"B2B | "F#m"A2A "E"G2G |\
+"D"F2F "B7"FEF |
+"E"G3- GEG | "Bm"d2d "A"c2c |\
+[1 "E"B2B "F#m"A2A |\
+"E"GAG "D"FGF | "A"E3- "E7"EDE :|\
+[2 "Bm"BcB "B7"ABA | "E"GFE "E7"EFG | "A"A3- A3 |]
+
+%%sep 1 1 500
+
+X: 22
+T: JOHN FINLAYSON'S JIG
+C: Andrew Rankine
+R: jig
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.27
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+B |\
+"D"ABA fed | A3- A2B | ABA "Ddim"BAB | "A7"c3- c3 | ABA gfe |\
+B3- B2d | cBc [1 AE^E | "D"F3- F2 :|[2 ABc | "D"d3- d2 |]
+|: B |\
+"D"AD^E FA^G | A3- A2B | A^GA "Ddim"de=c | "A7"c3- c3 | efg gae |\
+g3- g2f | edd [1 cE^E | "D"F3- F2 :|[2 cBc | d3- d2 |]
+
+%%sep 1 1 500
+
+X: 23
+T: LET THE HACKLES RISE
+C: Andrew Rankine
+R: jig
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.28
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|:\
+"A"CEE EAA | Acc c3 | "E7"Bdd GBB | "A"Acc EAA |\
+"A"CEE EAA | Acc "F#m"c3 | "Bm"Bdd "E7"GBB | "A"BAA A3 :|
+|:\
+"A"cee Acc | "E7"edd d3 | Bdd dff | "A"fee e3 |\
+cee Acc | "E7"edd d3 | Bdd GBB | "A"BAA A3 :|
+
+%%sep 1 1 500
+
+X: 24
+T: MAIDENS
+C: Andrew Rankine
+R: jig
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|:\
+"D"DFA dcB | d3- d2c/B/ |\
+DFA dcB | "A7"G3- G2E/D/ |\
+CEG cBA | c3- c2B |
+[1 A^GA BA=G | "D"F3- "A7"F2E :|\
+[2 A^GA cAe | "D"d3- "D7"d2=c |:\
+"G"BGB dBe | d3- d2c/B/ |\
+"D"AFA dAf |
+d3- d2c/B/ |\
+"A"cAc ece | "A7"g3- gec |\
+[1 "D"dAd fdf | a3- "D7"a2=c :|\
+[2 "D"dAd "A7"edc | "D"d3- d3 |]
+
+%%sep 1 1 500
+
+X: 25
+T: MISS ANNE SUTHERLAND OF DOLLAR
+C: Andrew Rankine
+R: jig
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.30
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D |:\
+"G"GFG ^AB^c | d^cd "G7"BAG | "C"cGc ecg | "G"d3 "E7"dcB |\
+"Am"cAB "D7"cBA |[1 "G"dBc "E7"dcB | "A7"e^cd efg | "D"f2e "D7"cAF :|
+[2 "G"BGA Bc^c | "Am"d=cA "D7"FDA | "G"G3 "E7"d2^d |]|\
+"Am"ecA "D7"FAe | "G"dBG DGd | "D7"cAF DFc |
+"G"B3- B2B |\
+"D7"cAF DFc | "G"BAG DGB | "A7"A^GA ^cde | "D"d3- d2^d |]|\
+"Am"ecA "D7"FAe |
+"G"dBG DGd | "D7"cAF DFc | "G"B3 "E7"d3 |\
+"Am"cd^d "D7"ecA | "G"Bc^c dBG | "Am"d=cA "D7"FDA | "G"G3- G2 |]
+
+%%sep 1 1 500
+
+X: 26
+T: Mr and Mrs ROBERT PATTERSON
+C: Andrew Rankine
+R: jig
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.31
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A |\
+"D"dfe dFG | A3- ABc | ded "Bm"def | "Em"fee e2d |\
+"A"ced cEF | G3- GAB | ced cBB | BAA "A7"ABc |
+y3 |\
+"D"dfe dFG | A3- ABc | dcd def | "G"agg g2f |\
+"A"ece "G"dcB | "D"A3- AEF | "A"GFG "A7"ABc | "D"edd d2 |]
+A |\
+dcd "Ddim"FG^G | "D"A3- A de | f3- fef | "A7"agg g2f |\
+eAB cEF | G3- GAB | c3- cdc | "A"BAA "A7"ABc |
+y3 |\
+"D"dcd "Ddim"FG^G | "D"A3 A de | f3- "D7"fef | "G"agg g2f |\
+"A"ece "G"dcB | "D"A3 AEF | "A"GFG "A7"ABc | "D"edd d2 |]
+
+%%sep 1 1 500
+
+X: 27
+T: The PLIGHTED TROTH
+C: Andrew Rankine
+R: jig
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.32
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+FG |\
+"D"A3 DEF | B3 A3 | A^GA dcB | "A7"c3- cEF |\
+G3 EFG | c3 B3 | ABA AE^E | "D"F3- FG^G |
+y4 |\
+A3 DEF | "Ddim"B3 "D"A3 | A^GA "D7"dc=c | "G"B3- BGA |\
+BcB dcB | "D"ABA Fz d | "A7"cBA GFE | "D"D3 z |]
+FG |\
+ABA DEF | B3 A3 | ABc def | "A7"g3 zEF |\
+GAG EFG | c3 B3 | ABc de^e | "D"f3 FG^G |
+y4 |\
+ABA FED | "Ddim"B3 A3 | ABA "D7"dc=c | "G"B3- BGA |\
+BcB dcB | "D"ABA Fz d | "A7"cBA GFE | "D"D3- D |]
+
+%%sep 1 1 500
+
+X: 28
+T: WARWICKSLAND
+C: Andrew Rankine
+R: jig
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.33
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+F/G/ |\
+"D"AFG A2d | "G"BGA BdB | "D"Ade "Bm"fed | "E7"e3- "A7"e2F/G/ |\
+"D"AFG A2d/c/ | "G"BGB d2c/B/ | "D"Aed "A7"cBc | "D"d3- d2 :|
+|: F/G/ |\
+"D"Ade fdA | "A7"AGG G2E/F/ | Gee ecA | "D"GFF F2G |\
+"D"Ade fdA | "A7"AGG G2E/F/ | Ged cBc | "D"d3- d2 :|
+
+%%sep 1 1 500
+
+X: 29
+T: The WEAVER AND HIS WIFE
+C: Andrew Rankine
+R: jig
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.34
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|:\
+"A"E2E EAB | c3 A3 | c3 A2c | "E7"edc B3 |\
+E2E EBc | d3 B3 | E2e dcB |[1 "A"A3- A2-A :|\
+[2 "A"A3- A2 |]
+G/F/ |\
+"A"EAc e3 | EAB c3 | EAc edc | "E7"d3- d2B/c/ |\
+ded BdB | G3 F3 | E2e dcB | "A"A3- A2 :|
+G/F/ |\
+"A"EAc e3 | EAe c3 | EAc edc | "E7"d3- d2B/c/ |\
+ded BdB | G3 F3 | E2e dcB | "A"A3- A3 |]
+
+%%sep 1 1 500
+
+X: 30
+T: WILLY MacLEAN OF AULTBEA
+C: Andrew Rankine
+R: jig
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.35
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+F/E/ |\
+"D"D3 d3 | dcB A2F | D2d "Bm"dcB | "A7"A2e ede |\
+"D"f3 "D7"d3 | "G"B3 "Em"G3 | "D"faf "Bm"def | "A7"e3 "D"d2 :|
+|: A |\
+"D"d3 f3 | "G"B3 d3 | "D"Adf afd | "A7"c3 ede |\
+"D"f3 "D7"d3 | "G"B3 "Em"G3 | "D"faf "Bm"def | "A7"e3 "D"d2 :|
+
+%%sep 1 1 500
+
+X: 31
+T: The BYRON STRATHSPEY
+C: Andrew Rankine 1976
+R: strathspey
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.37
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: none
+N: The time signature should probably be "M:C".
+L: 1/8
+K: A
+E>A |\
+"A"c2c2 "E7"B>cd<B | "A"A4- A2"A7"A>G | "D"F>^EF>G "Cdim"A>BA<F | "A"E4- "E7"E2E>A |
+"A"c2c2 "E"B>cd<B | "F#m"A2a2 "D"f>ga<f | "A"e>fe<c "E7"B>cd>B | "A"A4- A2 ||
+a>g |\
+"D"f>^ef>g a>ga>f | "A"e4- e2c2 | "Bm"B>^AB>c "E7"d>cd<e | "A"c4- "A7"c2c>B |
+"D"A>GA>G "Cdim"A>BA<F | "A"E>^DE>A "F#8"c>ed<c | "B7"B>^AB>c "E7"d>BG<B | "A"A4- A2 |]
+
+%%sep 1 1 500
+
+X: 32
+T: The CALICAN SCOT
+C: Andrew Rankine
+R: strathspey
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.38
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+G2 |\
+"C"c2 B<c "F"[A2F2] "C"[G2E2] | "Dm"[FD]>G A>F "G7"[D2B,2] D>C |\
+B,>DG>B d2cB | "C"c>G g>e "G7"d2 cB |
+"C"c2 B<c "F"[A2F2] "C"[G2E2] | "Dm"[FD]>G A>F "G7"[D2B,2] D>C |\
+B,>DG>B d>B g>d | "C"e2 "F"[c2A2F2] "C"[c2G2E2] :|
+|: c>B |\
+"F"A2 ^G>A c>A d>c | "C"G2 "Cdim"^F>A "C"G2 A>B |\
+"Am"c2 A>B c>A e>c | "D7"(3(BcB) (3(ABA) "G7"G>^GA>B |
+"C"c2 B<c "F"[A2F2] "C"[G2E2] | "Dm"[FD]>G A>F "G7"[D2B,2] "D7"D>C |\
+"G7"B,>DG>B d>B g>d | "C"e2 "F"[c2A2F2] "C"[c2G2E2] :|
+
+%%sep 1 1 500
+
+X: 33
+T: The CHEVIOT GATE
+C: Andrew Rankine
+R: strathspey
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.39 #1
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+F>A |\
+"F" d2 c<F B2 A<F | "G7"G>A G<F D2 E>D |\
+"C7"C>E G>B c>B G<E |1 G>B c>B "F"A2 :|2 "C7"C>E A>G "F"F2 ||
+"F7"B>c |\
+"Bb"d2 B<F f2 d<B | "F"c>d c<A c2 A<F |\
+"Gm"B>c B<G "C7"B2 G<E | "F"A>B A<F c>d "F7"c<A |
+y4 |\
+"Bb"d2 B<F f2 d<B | "F"c>d c<A c2 A<F |\
+"C7"C>E G>B c>B G<E | C>E A>G "F"F2- F2 |]
+
+%%sep 1 1 500
+
+X: 34
+T: DRUMELZIER
+C: Andrew Rankine
+R: strathspey
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.39 #2
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+D>E |\
+"Bb"F>=EF<B d>cd<f | F>=EF<B d2c>d | "F7"e>dc>B A<F [1 c>d | "C7"c>BA>G "F7"F2 :|
+[2 "F7"f>e | "Bb"d2B2B2 |] d>e | "Bb"f>ed<c d>c"Bb7"B<A | "Eb"c>BA<G "Bb"F2D>E | "Bb"F>BF<d "C7"c>BA>G |
+"F7"A2F2 F2d>e | "Bb"f>ed<c "Bb7"d>cB<A | "Eb"c>BA<G "Bb"F2c>d | "F7"e>dc>B A<F f>e | "Bb"d2B2B2 |]
+
+%%sep 1 1 500
+
+X: 35
+T: DUNCRYNE
+C: Andrew Rankine
+R: strathspey
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.40 #1
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Dm
+|:\
+"Dm"{^c}d2 D2 D>E F<D | "C"C>E D>E G>C E<C |\
+"Dm"{^c}d2 D2 D>E F<D | "A7"A,>^C E>G "Dm"F<D D2 :|
+"Dm"f2A2 "F"a>g f<a | "C"g>f e>d "Am"c<A A2 |\
+"F"c>A "Dm"f>d "Am"c<A A2 | "Gm"B>A G>F "C"E<C C2 |
+"Dm"f2A2 "F"a>g f<a | "C"g>f e>d "Am"c<A A2 |\
+"Gm"G>A B>G "Dm"F<D D2 | "A7"A,>^C E>G "Dm"F<D D2 |]
+
+%%sep 1 1 500
+
+X: 36
+T: MARY AND MAURICE COOPER
+C: Andrew Rankine
+R: strathspey
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.40 #2
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+e>d |:\
+"A"c>d e>c A>A A>B | "D"A>B A>F "Bm"D>D D>F |\
+"A"E>E E>F "F#m"A>A [1 A>B | "A"c>e "Bm"d>c "E7"B2 e>d :|
+[2 "F#m"A>c | "Bm"B>A "E7"B<c "A"A2 c>d |]\
+"A"e2 c>d "F#7"e>e e>c | "Bm"d2 f>d "E7"B>B B>d |\
+"A"c>d e>c "F#m"A<A A<c |
+"B7"B>A G>A "E7"B2 c>d |\
+"A"e2 c>d "F#7"e>e e>c | "Bm"d2 f>d "E7"B>B B>d |\
+"A"c>d e>c "F#m"A>A A>c | "Bm"B>A "E7"B<c "A"A2- A2 |]
+
+%%sep 1 1 500
+
+X: 37
+T: PETER SANDERSON'S STRATHSPEY
+C: Andrew Rankine
+R: strathspey, shottish
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.41 #1
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+|:\
+"A"A2 A>B c>B A<a | "D"f>e d<f "A"e>d c<e |\
+"Bm"d>c B>A "D7"G>F [1 E>D | "A"(3CEA c>e "Bm"d>c "E7"d<B :|
+[2 "E7"(3Eed | "A"c<A "E7"B>G "A"A2 "E7"e2 |]\
+"A"a2 f>e "A7"f>e c<e | "D"f>e d<f "A"e>d c<e |\
+a2 f>e f>e c<e |
+"Bm"d>c d>c "E7"B>f e>g |\
+"A"a2 f>e "A7"f>e c<e | "D"f>e d<f "A"e>d c<e |\
+"Bm"d>c B>A "E7"G>F (3Eed | "A"c<A "E7"B<G "A"A2- A2 |]
+
+%%sep 1 1 500
+
+X: 38
+T: TWIXT DON AND DEE
+C: Andrew Rankine
+R: strathspey, shottish
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.41 #2
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+d>B |:\
+"G"G2 G2 "D7"G>F G<A | "G"B>G B<d "G7"g3 d |\
+"/C"e>g "/B"d<g "/A"c>g "/G"B<g |[1 "A7"A>G A<B "D7"A>=c BA :|
+[2 "A7"A>G "D7"A<B "G"G2 "D7"d>=c |]\
+"G"B<G G>A B>G d<G | B<G G>A B2 "E7"d2 |\
+"Am"e<A A>B c>A e<A |
+"Am"c<A A>B c2 "D7"d>c |\
+"G"B<G G>A B>G d<G | B<G G>A B2 "G7"d2 |\
+"/C"e>g "/B"d<g "/A"c>g "/G"B<g | "A7"A>G "D7"A<B "G"G2 |]
+
+%%sep 1 1 500
+
+X: 39
+T: TWIXT DON AND DEE
+C: Andrew Rankine
+R: march
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.42
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+AG |\
+"D"F2A2 d2 ed | "A7"c2e2 A2 ed | c2e2 A2 ec | "D"d2f2 A3G |\
+F2A2 d2 ed | "A7"c2e2 A2 ed | c2e2 ABcA | "D"d4- d2 :|
+|: FG |\
+"D"A2F2 "B7"A2 BA | "Em"G2E2 G4 | "A7"c2A2 e2 Bc | "D"d2F2 A2 FG |\
+A2F2 "B7"A2 BA | "Em"G2E2 G4 | "A7"c2e2 ABcA | "D"d4- d2 :|
+
+%%sep 1 1 500
+
+X: 40
+T: JOE MANN'S FAREWELL TO LEICESTER CITY POLICE
+C: Andrew Rankine 1980
+R: march, jig
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.43
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+e |\
+"A"ABA cBB | cAA Acf | e3 ecA | "E7"cBB B2e |\
+"A"ABA cBB | cAA Acf | e2c "G"dB=G | "A"A3- A2 :|
+|: e |\
+"A"aA=g fAe | cAA Ace | aA=g fAe | "E7"cBB B2e |\
+"A"aA=g fAe | cAA Acf | e2c "G"dB=G | "A"A3- A2 :|
+|: e |\
+"A"A/A/AA "E7"cBB | "A"cAA "D"fef | "A"a3 ecA | "B7"cBB "E7"B2e |\
+"A"A/A/AA "E7"cBB | "A"cAA "D"fef | "A"a2c "G"dB=G | "A"A3- A2 :|
+|: e |\
+"A"a3 A=gA | "D"f3 AfA | "A"e3 Ace | "B7"cBB "E7"B2e |\
+"A"a3 A=gA | "D"f3 AfA | "A"e2c "G"dB=G | "A"A3- A2 :|
+
+%%sep 1 1 500
+
+X: 41
+T: JOHN CARMICHAEL'S FAREWELL TO SCOTLAND
+C: Andrew Rankine 1980
+R: march, shottish, strathspey
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.44
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+d>B |\
+"D"A>AA>B  d2d>B | A>Bd>e     f>ed<c | "Em"B>BB>d      e2B>d |  e>de>f "A7"g>ec<e |
+y4 |\
+"D"A>AA>B  d2d>B | A>Bd>e "D7"f>ed<c |  "G"B>AG>B "A7"c>BA<g | "D"f2d2 d2 :|
+|: e2 |\
+"D"f>dd>e  f2f>e | d>dd>f     g>fe<d | "A7"c>AA>c      e2A>c |  e>de>f g>ec<e |
+y4 |\
+"D"f>dd>e  f2f>e | d>dd>f "D7"g>fe<d |  "G"B>AG>B "A7"c>BA<g | "D"f2d2 d2 :|
+|: d>B |\
+"D"A>AA>B d>AA>B | d>Ad>e     f>ed<c | "Em"B>BB>d     e>BB>d |  e>de>f "A7"g>ec<e |
+y4 |\
+"D"A>AA>B d>AA>B | d>Ad>e "D7"f>ed>c |  "G"B>AG>B "A7"c>BA<g | "D"f2d2 d2 :|
+|: f>g |\
+"D"a>ff>g f>dd>a | a>ff>d     g>fe<d | "A7"c<AA>c     e>cc>e |  g>ee>f g>ec<e |
+y4 |\
+"D"a>ff>g f>dd>a | a>ff>d "D7"g>fe<d |  "G"B>AG>B "A7"c>BA<g | "D"f2d2 d2 :|
+
+%%sep 1 1 500
+
+X: 42
+T: The SPIRIT OF SCOTLAND
+C: Andrew Rankine
+R: march, shottish, strathspey
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.46
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/4
+K: A
+E |:\
+"A"A4 | E2 Ac | e4 | c2 "A7"e2 |\
+"D"f3 e | f2 a2 | "A"e4 | c2 "F#7"e2 |\
+"Bm"d3 c | d2 "E7"e2 | "A"c4 | A2 c2 |
+[1 "B7"B3 F | B2 A2 | "E7"G3 F | G2 E2 :|\
+[2 "B7"B3 F | "E7"A2 G2 | "A"A4- | A2 "A7"A>=G |]\
+"D"F2 A2 | d2 f2 | "A"e4 | c2 e2 |
+"E7"E3 G | B2 d2 | "C"c4 | A2- "A7"A>=G |\
+"D"F2 A2 | d2 f2 | "A"e4 | c2 e2 |\
+"B7"^d3 B | ^d2 a2 | "E7"g3 f | ed cB |
+"A"A4 | E2 Ac | e4 | c2 "A7"e2 |\
+"D"f3 e | f2 a2 | "A"e4 | c2 "F#7"e2 |\
+"Bm"d3 c | d2 "E7"e2 | "A"c4 | A2 "F#m"c2 |
+"B7"B3 F | "E7"A2 G2 | "A"A4- | A3 A |]\
+[K:D] |:\
+"D"d4 | A2 df | a4 | f2 "D7"a2 |\
+"G"b3 a | b2 d'2 | "D"a4 | f2 "B7"a2 |
+"Em"g3 f | g2 "A7"a2 | "D"f4 | "Bm"d2 f2 |\
+[1 "E7"e3 B | e2 d2 | "A"c3 B | c2 A2 :|\
+[2 "E7"e3 B | d2 "A7"c2 | "D"d4 | d2- "D7"d=c |]
+"G"B2 d2 | g2 b2 | "D"a4 | f2 a2 |\
+"A"A3 c | e2 "A7"g2 | "D"f4 | d2- "D7"d>=c |\
+"G"B2 d2 | g2 b2 | "D"a4 | f2 "B7"a2 |
+"E7"^g3 e | ^g2 d'2 | "A"c'3 b | ag fe |\
+"D"d4 | A2 df | a4 | f2 "D7"a2 |\
+"G"b3 a | b2 d'2 | "D"a4 | f2 "B7"a2 |
+"Em"g3 f | g2 "A7"a2 | "D"f4 | "Bm"d2 f2 |\
+"E7"e3 B | d2 "A7"c2 | "D"d4 | d3 "D7"F |\
+"G"G2 B2 | d2 "Fdim"cB | "D"A2 d2 | F2 dA |
+"A7"c3 d | eA Bc | "D"d3 e | fd "D7"AF |\
+"G"G2 B2 | d2 "Fdim"cB | "D"A2 d2 | F2 dA |\
+"A7"c3 d | eA Bc | "D"d4- | d4 |]
+
+%%sep 1 1 500
+
+X: 43
+T: ANDREW RANKINE'S COMPLIMENTS TO JIMMY CLINKSCALE
+C: Andrew Rankine
+R: schottish, march
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.49
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The "D.C."s both have "(With Repeat)", but ABC tools don't seem to know how to format that sensibly.
+N: There is actually no "Fine" in the tune; presumably it's at the end of the first strain.
+N: Pickups move to the start of the strains, making alternate endings unnecessary.
+M: 2/3
+L: 1/16
+%P: Play AABBAATTAA.
+K: A
+(3EEE |\
+"A"E2c>c c>Bc>d | f2e2 e2B>A |\
+"E7"G>gg>g g2f>g | "A"a>gf>e "E7"f>dB>G |
+"A"E2c>c c>Bc>d | f2e2 e2B>A |\
+"E7"G>gg>g g>ef>g | "A"a2"D"a2"A"a2 :|
+|: z2 |\
+"D"f>df>a a>fd>A | "A"c>Ac>e e>cB>A |\
+"E7"G>EG>B d2c>B | "A"A>EA>c "A7"e2c>e |
+"D"f>df>a a>fd>A | "A"c>Ac>e e>cB>A |\
+"E7"G>DG>B d2c>B | "A"A2"D"A2"A"A2 "_D.C. al Trio"y:|
+P: TRIO
+K: E
+|: (3EEE |\
+"E"g2g>f e2B2 | G>EG>B c2B2 |\
+"B7"d2B>d g2f2 | "E"e>BG>E "Bbdim"c2"B7"B2 |
+"E"g2g>f e2B2 | G>EG>B c2B2 |\
+"B7"d2B>d g3f | "E"e2"A"e2 "E"e2"_D.C. al Fine"y:|
+
+%%sep 1 1 500
+
+X: 44
+T: The GLENIFFER POLKA
+C: Andrew Rankine 1958
+R: polka
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.50
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+A2 |:\
+"D"F>AB>c B2A2 | F>AB>c B2A2 | F>AB>c "Adim"B2A2 | "A7"G8 | E>FG>A c2B2 | E>FG>A c2B2 |
+[1 g>ee>c c>AA>G | "D"F6 A2 :|[2 g>ee>c c>AA>F | "D"D6 A2 |]
+|:\
+"D"D>FF>A A>dd>f | f2d>A f>dA>F | D>FA>d f>d"Adim"A>F | "A7"G4- G4 | E>FG>A B>cc2 |
+E>FG>A c4 |[1 E>FG>A c>BA>G | "D"F4- F2A2 :[2 E>FG>A c>BG>E | "D"D6 D2 |]
+|:\
+"D"F>AB>c B2A2 | F>AB>c B2A2 | F>AB>c "Adim"B2A2 | "A7"G8 | E>FG>A c2B2 | E>FG>A c2B2 |
+[1 g>ee>c c>AA>G | "D"F6 A2 :|[2 g>ee>c c>AA>F | "D"D6 A2 |]
+K: A
+|:\
+"A"E2e2 e^de2 | E2c2 c=c^c2 | E2e2 e^d"Edim"e2 | "E7"d8 | E2d2 dcd2 | E2B2 B^AB2 |
+[1 E>GB>d f2e2 | "A"c8 :|[2 g>fe>d c2B2 | "A"A6 "_D.C."A2 |]
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 1
+T: Angus MacLeod
+C: Andrew Rankine
+R: march
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+N: From handwritten MS by Barbara McOwen
+M: C|
+L: 1/4
+K: G
+d \
+|: "G"G2 G>A | "G"Bd B2 | "G"G2 G>A | "G"Bd "D7"c2 | "Am"A2 A>B | "Am"ce c2 | "D7"f>e dc | "D7"BA "G"G2 :|
+|: "C"g2 g>f | "C"ed "G"B2 | "G"d2 d>e | "G"dB "D7"A2 | "G"G2 G>A | "G"BG "C"c2 | "D7"f>e dc | "D7"BA "G7"G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: The Byron Strathspey
+C: Andrew Rankine
+R: strathspey
+B: Deeside 2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+E>A \
+| "A"c2 c2 "E7"B>c d<B | "A"A4- A2 A>G | "D"F>^E F>G "B7"A>B A<F | "E7"E4- E2E>A |
+| "A"c2 c2 "E7"B>c d<B | "F#m"A2a2 "D"f>g a<f | "A"e>f e>c "E7"B>c d>B | "A"A4- A2 ||
+a>g \
+| "D"f>^e f>g a>g a>f | "A"e4- e2 c2 | "Bm"B^A B>c "E7"d>c d<e | "A"c4- c2 c>B |
+| "D"A>G A>G "B7"A>B A<F | "E7"E>^D E>A "A"c>e d>c | "Bm"B>^A B>c "E7"d>B G<B | "A"A4- A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: The Byron Strathspey
+C: Andrew Rankine
+R: strathspey
+B: Deeside 2
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+D>G \
+| "G"B2 B2 "D7"A>B c<A | "G"G4- G2 G>F | "C"E>^D E>F "A7"G>A G<E | "D7"D4- D2D>G |
+| "G"B2 B2 "D7"A>B c<A | "Em"G2g2 "C"e>f g<e | "G"d>e d>B "D7"A>B c>A | "G"G4- G2 ||
+g>f \
+| "C"e>^d e>f g>f g>e | "G"d4- d2 B2 | "Am"A^G A>B "D7"c>B c<d | "G"B4- B2 B>A |
+| "C"G>F G>F "A7"G>A G<E | "D7"D>^C D>G "G"B>d c>B | "Am"A>^G A>B "D7"c>A F<A | "G"G4- G2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: The Byron Strathspey
+C: Andrew Rankine
+O: minor version by Sylvia Miskoe
+R: strathspey
+B: Deeside 2
+Z: 2009 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+D>G \
+| "Gm"B2 B2 "D7"A>B c<A | "Gm"G4- G2 G>F | "Cm"E>D E>F "A7"G>A G<E | "D7"D4- D2D>G |
+| "Gm"B2 B2 "D7"A>B c<A | "Gm"G2g2 "Cm"e>f g<e | "Gm"d>e d>B "D7"A>B c>A | "Gm"G4- G2 ||
+g>f \
+| "Cm"e>d e>f g>f g>e | "Gm"d4- d2 B2 | "Am"A^G A>B "D7"c>B c<d | "Gm"B4- B2 B>A |
+| "Cm"G>F G>F "A7"G>A G<E | "D7"D>^C D>G "Gm"B>d c>B | "Am"A>^G A>B "D7"c>A ^F<A | "Gm"G4- G2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: The Directors
+C: unknown
+N: attr. Andrew Rankine
+N: attr. Bert Murray
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+GBd \
+| "G"e2d ^c2d | B3 GBd | e2d ^c2d | "Am"c3- c3 \
+| "D7"(f3 e2)z | (f3 e2)z |1 f2e d2c | "G"B3 :|2 "D7"d2d def | "G"g3 |][K:=f]
+K: C
+g^f=f \
+| "C"e3 ^d2e | G3- G3 | GAB "(D7)"cBA | "G"B3- B2G \
+| "G7"f3 e2f | G3- G3 | GAB cd^d | "C"e3- e3 |
+| "C"e3 ^d2e | G3- G3 | "C7"GAB cde | "F"f3 A3 \
+| A^GA f2A | "C"G^FG e2c | "G7"B^AB e2d | "C"c3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Donald Iain Rankine   [F]
+C:Andrew Rankine, 1950
+M:6/8
+K:F
+"C7"c2B \
+| "F"Acc FAA |    CFF A,CC | "F"A,CC FAA | "C"FEE E3\
+| "C"CEE EGG | "C"GBB Bcc  |    cee  ecc | "F"BAA A3 |
+| "F"Acc FAA |    CFF A,CC | "F"A,CC FAA | "C"FEE E3\
+| "C"CEE EGG | "C"GBB Bcc  |    cee  ede | "F"gff f3 |]
+[|"F"aff cff |    aff dcc  | "F"aff  cff | "C"fee e3\
+|    gee cee | "C"gee edc  |    gee  cee | "F"dcc "C"c3 ||
+||"F"aff cff |    aff dcc  | "F"aff  cff |"Bb"fdd d3\
+|    dBB FBB | "F"CFF Acc  | "C"cee  ede | "F"gff f3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Donald Iain Rankine   [G]
+C:Andrew Rankine, 1950
+M:6/8
+K:G
+"D7"d2c \
+| "G"Bdd GBB |    DGG B,DD | "G"B,DD GBB | "D"GFF F3\
+| "D"DFF FAA | "D"Acc cdd  |    dff  fdd | "G"cBB B3 |
+| "G"Bdd GBB |    DGG B,DD | "G"B,DD GBB | "D"GFF F3\
+| "D"DFF FAA | "D"Acc cdd  |    dff  fef | "G"agg g3 |]
+[|"G"bgg dgg |    bgg edd  | "G"bgg  dgg | "D"gff f3\
+|    aff dff | "D"aff fed  |    aff  dff | "G"edd "D"d3 ||
+||"G"bgg dgg |    bgg edd  | "G"bgg  dgg | "C"gee e3\
+|    ecc Gcc | "G"DGG Bdd  | "D"dff  fef | "G"agg g3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Drumelzier
+R: shottish, strathspey
+C: Andrew Rankine
+Z: John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/abc/
+N: Tune for "Drumelzier" strathspey
+M: C
+L: 1/8
+K: Bb
+(3DE=E \
+| "Bb"F>=E F<B d>c d<f | F>=E F<B d2 c>d | "F7"e>d c>B     A<F c>d | "C7"c>B A>G "F7"F2 (3DE=E |
+| "Bb"F>=E F<B d>c d<f | F>=E F<B d2 c>d | "Cm"e>d c>B "F7"A<F f>e | "Bb"d2 B2 B2 ||
+d>e \
+| "Bb"f>e d>c d>c B>A | "Eb"c>B A>G "F"F2 D>E | "Bb"F>[BG] F<d "C7"c>B A>G | "F"A2 F2 "F7"F2 d>e |
+| "Bb"f>e d>c d>c B>A | "Eb"c>B A>G "F"F2 c>d | "Cm"e>d c>B "F7"A<F f>e | "Bb"d2 "(Eb)"B2 "Bb"B2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Edmund MacKenzie of Plockton
+C: Andrew Rankine
+S: Sylvia Miskoe (White Cockade)
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: "G"DEF GAB | "G"d2d  B3 |1,3 "D7"c2c A3  | "G"d2d     B3  :|2,4 "D"d^cd =cAF | "G"G3 G3 :|
+|: "C"e3  c3  | "G"d^cd B3 |1,3 "D7"cBc DFA | "G"d2c "G7"B2B :|2,4 "D7"ded  cBA | "G"G3 G3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Edmund MacKenzie of Plocton
+C: Andrew Rankine 1973
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 6/8
+L: 1/8
+K: G
+|: "G"DEF GAB | "G"d2d B3 | "D7"c2c A3 | "G"d2d B3 \
+|  "G"DEF GAB | "G"d2d B3 | "D7"d^cd =cAF | "G"G3 G3 :|
+|: "C"e3 c3 | "G"d^cd B3 | "D7"cBc DFA | "G"d2c B2B \
+|  "C"e3 c3 | "G"d^cd B3 | "G"ded "D7"cBA | "G"G3 G3 :|
+
+%%sep 1 1 500
+
+X: 2
+T: Edmund MacKenzie of Plockton
+C:Andrew Rankine
+S:Jim Paterson
+Z:Jack Campin <http://www.purr.demon.co.uk/jack/> 2004
+M:6/8
+L:1/8
+%Q:3/8=120
+K:G
+|: DEF GAB|d2d  B3| c2c   A3 |d2d B3 \
+|  DEF GAB|d2d  B3| d^cd =cAF|G3  G3:|
+|: e3  c3 |d^cd B3|=cBc   DFA|d2c B2B\
+|  e3  c3 |d^cd B3| ded   cBA|G3  G3:|
+
+%%sep 1 1 500
+
+X: 1
+T: Good Hearted Glasgow
+C:David Ross
+R:Jig
+B:The Complete Andrew Rankine Collection
+Z:Terry Traub 3-3-02
+N:from Liz Donaldson
+M:6/8
+K:A
+L: 1/8
+   e \
+| "A"edc "E7"e2f | "A"ecA A3  | "E7"BGE B2c | "E7"dcB GFE \
+| "A"edc "E7"e2f | "A"ecA A2e | "E7"dBG EFG | "A"A3   A2 :|
+|: e \
+| "D"fdf a2f | "A"ecA A3  | "E7"BGE B2e | "A"fec "A7"e3 \
+| "D"fdf a2f | "A"ecA e3  | "E7"dBG EFG | "A"A3   A2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Hogmanay Jig
+C: Andrew Rankine
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+S: Dance Leaflet
+S: handwritten MS by Barbara McOwen
+M: 6/8
+L: 1/8
+K: A
+AB \
+| "A"c2c cdc | B2A A2B | c2c "F#m"cBA | "Bm"G2F "B/D#"F3 | "E7"G2G GAG | F2E E2F |1 "E7"EGB e^de |
+| "A"=d2c c :|2 "E7"EGB dcB | "A"A3 A2B |: "A"c2c "E/G"B2B | "F#m"A2A "E"G2G | "D"F2F "B/D#"FEF | "E"G3 GEG |
+| "D"d2d "A"c2c |1 "E/G"B2B "F#m"A2A | "E"GAG "D"FGF | "A/C"E3 "E7"ECE :|2 "Bm"BcB "B7"AGF | "E7"EGB dcB | "A"A3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Hogmanay Jig
+C: Andrew Rankine
+M: 6/8
+L: 1/8
+K: A
+A2B \
+|: "A"c2c cdc \
+| B2A A2B \
+| c2c "F#m"cBA \
+| "Bm"G2F "B/D#"F3 \
+| "E7"G2G GAG \
+| F2E E2F |
+|1 "E7"EGB ede \
+| "A"d2c cAB \
+:|2 "E7"EGB dcB \
+| "A"A3 A2B \
+|: "A"c2c "E/G#"B2B \
+| "F#m"A2A "E"G2G \
+| "D"F2F "B/D#"FEF |
+| "E"G3 GEG \
+| "Bm"d2d "A"c2c \
+| "E/G#"B2B "F#m"A2A \
+|1 "E"GAG "D"FGF \
+| "E7"E3 ECE \
+:|2 "E7"EGB dcB \
+| "A"A3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Hogmanay Jig
+C: Andrew Rankine
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+S: Dance Leaflet
+S: handwritten MS by Barbara McOwen
+M: 6/8
+L: 1/8
+K: A
+AB \
+| "A" c2c cdc | "A" B2A A2B | "A" c2c "F#m"cBA | "Bm"G2F "B/D#"F3 \
+| "E7"G2G GAG | "E7"F2E E2F | "E7"EGB     e^de | "A"=d2c      cAB ||
+| "A" c2c cdc | "A" B2A A2B | "A" c2c "F#m"cBA | "Bm"G2F "B/D#"F3 \
+| "E7"G2G GAG | "E7"F2E E2F | "E7"EGB      dcB | "A" A3        A2 |]
+B \
+[|"A"c2c "E/G#"B2B | "F#m" A2A "E"  G2G | "D"F2F "B/D#"FEF | "E"   G3     GEG \
+| "D"d2d "A"   c2c | "E/G#"B2B "F#m"A2A | "E"GAG "D"   FGF | "A/C#"E3 "E7"ECE
+| "A"c2c "E/G#"B2B | "F#m" A2A "E"  G2G | "D"F2F "B/D#"FEF | "E"   G3     GEG \
+| "D"d2d "A"   c2c | "Bm"  BcB "B7" AGF | "E7"EGB      dcB | "A"   A3     z |]
+
+%%sep 1 1 500
+
+X: 1
+T: Let the Hackles Rise
+C: Andrew Rankine
+R: jig
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: "A"CEE EAA | "A"Acc c3 | "E7"Bdd GBB | "A"Acc EAA \
+|  "A"CEE EAA | "A"Acc "F#m"c3 | "Bm"Bdd "E7"GBB | "A"BAA A3 :|
+|: "A" cee Acc | "E7"edd d3 | "E7"Bdd dff | "A"fee e3 \
+|  "A" cee Acc | "E7"edd d3 | "E7"Bdd GBB | "A"BAA A3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Maidens
+C: Andrew Rankine 1982
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 6/8
+L: 1/8
+K: D
+|: "D"DFA dcB | d3 d2 c/B/ | "D"DFA dcB | "Em"G3 G2E/D/ | "A7"CEG cBA |
+| c3 c2B |2"A7"A^GA BA=G | "D"F3 F2E :|2 "A7"A^GA cAe | "D"d3 d2=c |]
+|: "G"BGB dBe | d3 d2c/B/ | "D"AFA dAf | d3 d2c/B/ | "A7"cAc ece |
+| a3 gec |1dAd fdf| a3 a2=c :|2 "D"dAd "A7"edc | "D"d3 d3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Maidens
+C: Andrew Rankine 1982
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 6/8
+L: 1/8
+K: D
+"A"|: "D"DFA dcB | d3 d3 c/B/ | "D"DFA dcB | "Em"G3 G2E/D/ | "A7"CEG cBA | c3 c2B |
+|1 "A7"A^GA BA=G | "D"F3 F2E :|2 "A7"A^GA cAe | "D"d3 d2=c |]"B"|: "G"BGB dBe | d3 d2c/B/ |
+| "D"AFA dAf | d3 d2c/B/ | "A7"cAc ece | a3 gec |1 dAd fdf| a3 a2=c :|2 "D"dAd "A7"edc | "D"d3 d3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Mary and Maurice Cooper
+C: Andrew Rankine
+R: strathspey
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: PDF image of set for The Byron Strathspey from George Meikle 2012
+M: C
+L: 1/8
+K: A
+e>d |\
+"A"c>d e>c A>A A>B | "D"A>B A>F "Bm"D>D D>F |\
+"A"E>E E>F "F#m"A>A A>B | "A"c>e "Bm"d>c "E7"B2 ||
+e>d |\
+"A"c>d e>c A>A A>B | "D"A>B A>F "Bm"D>D D>F |\
+"A"E>E E>F "F#m"A>A A>c | "Bm"B>A "E7"B<c "A"A2 |]
+c>d |\
+"A"e2 c>d "A#/F#"e>e e>c | "Bm"d2 f>d "E7"B>B B>d |\
+"A"c>d e>c "F#m"A>A A>c | "B7"B>A G>A "E7"B2 ||
+c>d |\
+"A"e2 c>d "A#/F#"e>e e>c | "Bm"d2 f>d "E7"B>B B>d |\
+"A"c>d e>c "F#m"A>A A>c | "B7"B>A "E7"B<c | "A"A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: The New High Level Reel
+C: Robert Whinham
+N: often misattributed to Andrew Rankine, who recorded a version
+R: reel
+Z: 2002 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D2 |: "G"G2DG B2GB | "G"d2ed cBAG |\
+[1,3 "D7"F2DF A2FA | "D7"d^cde d=cBA :|\
+[2,4 "D7"FDFA dcBA | "G"G2B2 G2 :|
+|: Bc |\
+     "G"d2Bd gdBd | "C"e2ce gece |\
+[1,3 "G"d2Bd gdBd | "Am"c2fe "D7"dc :|\
+[2,4 "G"dgfe "D7"dcBA | "G"G2B2 G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: The New High Level Reel
+C: Robert Whinham
+N: often misattributed to Andrew Rankine, who recorded a version
+R: reel
+Z: 2002 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D2 \
+| "G"G2DG B2GB | "G"d2ed cBAG | "D7"F2DF A2FA | "D7"d^cde d=cBA || "G"G2DG B2GB |
+| "G"d2ed cBAG | "D7"FDFA dcBA | "G"G2B2 G2 :: Bc | "G"d2Bd gdBd | "C"e2ce gece | "G"d2Bd gdBd |
+| "Am"c2fe "D7"dcBc || "G"d2Bd gdBd | "C"e2ce gece | "G"dgfe "D7"dcBA | "G"G2B2 G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: The New High Level Reel
+C: Robert Whinham
+N: often misattributed to Andrew Rankine, who recorded a version
+R: reel
+Z: 2002 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D2 \
+| "G"G2DG B2GB | "G"d2ed cBAG \
+| "D7"F2DF A2FA | "D7"d^cde d=cBA |
+y4 \
+| "G"G2DG B2GB | "G"d2ed cBAG \
+| "D7"FDFA dcBA | "G"G2B2 G2 :|
+|: Bc \
+| "G"d2Bd gdBd | "C"e2ce gece \
+| "G"d2Bd gdBd | "Am"c2fe "D7"dcBc |
+y6 \
+| "G"d2Bd gdBd | "C"e2ce gece \
+| "G"dgfe "D7"dcBA | "G"G2B2 G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Peter Sanderson's Strathspey
+C: Andrew Rankine
+M: 4/4
+L: 1/8
+K: A
+E2 \
+|: "A"A2 A>B c>B A<a \
+| "D"f>e d<f "A"e>d c<e \
+|1 "Bm"d>c B>A "E7"G>F E>D \
+| "A"(3CEA c>e "E7"d>c d<B :|
+|2 "Bm"d>c B>A "E7"G>F (3Eed \
+| "A"c>A "E7"B>G "A"A2 \
+|] e2 \
+| "A"a2 f>e f>e c<e \
+| "D"f>e d<f "A"e>d c<e \
+| "A"a2 f>e "F#m"f>e c<e |
+| "Bm"d>c d>c B>f "E7"(3efg \
+||"A"a2 f>e f>e c<e \
+| "D"f>e d<f "A"e>d c<e \
+| "B(m)"d>c B>A "E7"G>F (3Eed \
+| "A"c>A "E7"B>G "A"A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Peter Sanderson's Strathspey
+C: Andrew Rankine
+M: 4/4
+L: 1/8
+K: A
+E2 \
+| "A"A2 A>B c>B A<a \
+| "D"f>e d<f "A"e>d c<e \
+| "Bm"d>c B>A "E7"G>F E>D \
+| "A"(3CEA c>e "E7"d>c d<B ||
+y1 \
+| "A"A2 A>B c>B A<a \
+| "D"f>e d<f "A"e>d c<e \
+| "Bm"d>c B>A "E7"G>F (3Eed \
+| "A"c>A "E7"B>G "A"A2 |]
+e2 \
+| "A"a2 f>e f>e c<e \
+| "D"f>e d<f "A"e>d c<e \
+| "A"a2 f>e "F#m"f>e c<e \
+| "Bm"d>c d>c B>f "E7"(3efg ||
+y1 \
+| "A"a2 f>e f>e c<e \
+| "D"f>e d<f "A"e>d c<e \
+| "B(m)"d>c B>A "E7"G>F (3Eed \
+| "A"c>A "E7"B>G "A"A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Twixt Don and Dee
+C: Andrew Rankine
+R: strathspey
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: PDF image of set for The Byron Strathspey from George Meikle 2012
+M: C
+L: 1/8
+K: G
+d>B \
+|:"G"G2 G2 "F#/D"G>F G<A | "G"B>G B<d g3 d \
+| "C"e>g "G"d<g "Am"c>g "G"B<g |1 "A7"A>G A<B "D7"A>c BA :|2 "A7"A>G "D7"A<B "G"G2 ||
+d>c \
+| "G"B<G G>A B>G d<G | "G"B<G G>A B2 "E7"d2 \
+| "Am"e<A A>B c>A e<A | "Am"c<A A>B "D7"c2 ||
+d>c \
+| "G"B<G G>A B>G d<G | "G"B<G G>A B2 d2 \
+| "C"e>g "G"d>g "Am"c>g "G"B<g | "A7"A>G "D7"A<B "G"G2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: The Weaver and His Wife
+N: Nottingham Music Database
+C: Andrew Rankine
+M: 6/8
+K: A
+E \
+| "A"E2E E>AB | c3 A3 | c3 A2c | e>dc "Bm"B3 \
+| "E7"E2E E>Bc | d3 B2G | E2e d>cB |1 "A"c3- c2 :|2 "A"A3 -A2 ||
+|: "(E)"G/F/ \
+| "A"E>Ac e3 | E>Ae c3 | E>Ac edc | "Bm"d3 -d>Bc \
+| "E7"d>ed B>dB | G3 F3 | E2e d>cB |1 "A"c3 -c2 :|2 "A"A3 -A2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: The Weaver and His Wife
+N: Nottingham Music Database
+C: Andrew Rankine
+M: 6/8
+K: A
+E \
+| "A"E2E EAB | c3 A3 | c3 A2c | edc "Bm"B3 | "E7"E2E EBc | d3 B3 | E2e dcB |1 "A"c3- c2 :|2 "A"A3 -A2 ||
+|: "(E)"G/F/ \
+| "A"EAc e3 | EAe c3 | EAc edc | "Bm"d3 -d2B/c/ | "E7"ded BdB | G3 F3 | E2e dcB |1 "A"c3 -c2 ||2 "A"A3 -A2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: The Weaver and His Wife
+C:Andrew Rankine
+S:Jim Paterson
+Z:Jack Campin <http://www.purr.demon.co.uk/jack/> 2004
+M:6/8
+L:1/8
+%Q:3/8=120
+K:A
+c|E2E EAB|c3  A3|c3  A2c|edc B3 |
+  E2E EBc|d3  B3|E2e dcB|A3  A2:|
+c|EAc e3 |EAe c3|EAc edc|d3  B2c|
+  ded BdB|G3  F3|E2e dcB|A3  A2:|
+
+%%sep 1 1 500
+
+X: 1
+T: Wicked Willie
+C: Andrew Rankine
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A2 \
+|: d2ce dfed | dfed cee2 | c2Bd cedc | ABAG FAA2 |
+|  d2ce dfed | dfed cee2 | c2Bd cecB | Acge fdd2 :|
+|: f2ef edcB | A2^GA BAGA | =G2FG AGFG | A2^GA BAGA |
+|  f2ef edcB | A2^GA BAGA | =G2FG BGcG | "D"d2d2 d4 :|

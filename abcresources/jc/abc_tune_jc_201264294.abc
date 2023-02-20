@@ -1,0 +1,30 @@
+X:1
+T:Contre-danse de l'Arguenon
+R:Contre-danse de l'Arguenon
+C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+P:A5
+M:12/8
+L:1/8
+K:C
+P:A
+Q:3/8=130
+M:12/8
+%%MIDI gchord fcffcfcz
+%%MIDI chordvol 60
+%%MIDI bassprog 42
+%%MIDI bassvol 127
+%%MIDI program 6
+%%MIDI chordprog 6
+%%MIDI gchord c2ffcfc2ff3
+%%MIDI gchord c2fcfcf2cf3
+%%%MIDI chordprog 0
+%%%MIDI chordvol 80
+%%%MIDI bassprog 0
+%%%MIDI bassvol 127
+%%%MIDI program 0
+|: "G"g2 f "C"ede "F"f2 e "Dm"d3 |1 "Am"e2 d cBc "Dm"d2 B "G"G3 :|2 "Am"e2 d cBc "G"d2 B "C"c3 ||
+M:4/4
+Q:1/4=130
+%%MIDI gchord c2ffccf2
+|: "C"ce/2d/2 "Am"ce/2d/2 cg "Em"g2 |1 gf/2e/2 "Dm"dd/2e/2 "F"fe/2d/2 "C"ec :|2\
+	gf/2e/2 "Dm"dd/2e/2 "F"fe/2d/2 "C"c2 ||

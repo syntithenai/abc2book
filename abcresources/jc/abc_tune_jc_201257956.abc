@@ -1,0 +1,15 @@
+X: 91
+T: the Burnt Old Man - 2nd Setting.
+R: jig
+%S: s:2 b:16(8+8)
+B: O'Neill's 1850 #91
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+Q: "Moderate"
+O: F.O'Neill
+M: 6/8
+L: 1/8
+K: D
+[| ("^>"DF).G ("^>"AF).F | .D(FG) (TF2E) | (DF).G (AF).D | FEE (TE2F) |\
+| (DF).d AFD | DFA "^>"d2e | f"^>"dB B"^>"cd | (AFD) TE2D |]
+[| .D.d.d .d.A.F | .B.A.A A2A | .B.e.e .e.f.g | fdB (TB2A) |\
+| (ABc) (def) | "^>"DFA "^>"d2e | fdB Bcd | AFD TE2D |]

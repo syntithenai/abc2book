@@ -1,0 +1,54 @@
+
+X: 1
+T: Zumpa Ondo  [G]
+O: Japan
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+Q: "Play with slightly 'dotted' rhythm"
+M: 4/4
+L: 1/8
+K: G
+[| "G" d2 dd dd dd | "G"de/d/ Bd BA BA \
+| "G"G2 EG ED B,B, | "G"D8 \
+| "G" d2 dd dd dd | "G"de/d/ Bd- dd BA ||
+|: "G"GB, DE =FE FE | "G"=FF EE DB, DD \
+| "G"G ","B, B,D D2 D2- | "G"D2 ED B,2 A,2 \
+| "G"G,4 GG E2 | "G"D2 D6 |
+| "G"z2 E2 G2 G2- | G3 G E2 D2- \
+| D2 B,A, G,3 G, | "D"A,8 \
+| "Em"z2 BB Bc BA | "Em"G2 GE DB, DE |
+| "G"zG GG "D"AG B2 | "D"AG E2 "G"G4 \
+| "Em"z2 BB Bc BA | "Em"G2GE DB, DE \
+| "G"zG GG "D"A2 B2 | "D"AG E2 "G"G4 :|
+[|["Coda" "G"z2 dd dd dd | "G"d2 ed BA BA \
+| "G"G2 EG ED B,B, | "G"D8 \
+| "G"d2 dd dd dd | "G"de/d/ Bd- dd BA |
+| "G"GB, DE =FE FE | "D"D2 F2 "G"G2 z2 |] y4 y4 y4 y4 y4 y4 y4 y4 y4 y4 y4 y4
+
+
+%%sep 3 1 500
+
+X: 2
+T: Zumpa Ondo  [A]
+O: Japan
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: 4/4
+L: 1/8
+K: A
+[| "A" e2 ee ee ee | "A"ef/e/ ce cB cB \
+| "A"A2 FA FE CC | "A"E8 \
+| "A" e2 ee ee ee | "A"ef/e/ ce- ee cB ||
+|: "A"AC EF =GF GF | "A"=GG FF EC EE \
+| "A"A ","C CE E2 E2- | "A"E2 FE C2 B,2 \
+| "A"A,4 AA F2 | "A"E2 E6 |
+| "A"z2 F2 A2 A2- | A3 A F2 E2- \
+| E2 CB, A,3 A, | "E"B,8 \
+| "F#m"z2 cc cd cB | "F#m"A2 AF EC EF |
+| "A"zA AA "E"BA c2 | "E"BA F2 "A"A4 \
+| "F#m"z2 cc cd cB | "F#m"A2AF EC EF \
+| "A"zA AA "E"B2 c2 | "E"BA F2 "A"A4 :|
+[|["Coda" "A"z2 ee ee ee | "A"e2 fe cB cB \
+| "A"A2 FA FE CC | "A"E8 \
+| "A"e2 ee ee ee | "A"ef/e/ ce- ee cB |
+| "A"AC EF =GF GF | "E"E2 G2 "A"A2 z2 |] y4 y4 y4 y4 y4 y4 y4 y4 y4 y4 y4 y4

@@ -1,0 +1,35 @@
+X: 20381
+T: STEAMBOAT QUICKSTEP
+C:
+%R: quickstep, jig
+B: Elias Howe "The Musician's Companion" 1843 p.38 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Adjusted note lengths at strains' ends to fis the rhythm of repeats.
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+z |\
+a2e c2A | Ace a3 | agf edc | Bed cBA |\
+a2e c2A | Ace a3 | agf edc | edB A2 :|
+|: A |\
+c2e efe | efe c2A | d2f fgf | fga e3 |\
+c2e efe | efe c2A | agf edc | edB A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z |\
+e2c A2E | EAc f3 | fed cBA | GcB EDC |\
+e2c A2E | EAc f3 | fed cBA | cBD C2 :|
+|: z |\
+A2c cdc | cdc A2E | B2d ded | def c3 |\
+A2c cdc | cdc A2E | [fd]ed cBA | cBD [E2C2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z |\
+a3 a3 | a3 a3 | a3 a3 | e3 e3 |\
+a3 a3 | a3 a3 | c3 d3 | e3 [a2A2] :|
+|: z |\
+a3 a3 | a3 a3 | d3 d3 | d3 A3 |\
+a3 a3 | a3 a3 | c3 d3 | e3 A2 :|

@@ -1,0 +1,19 @@
+X:1
+T:the Curlew
+C:Donald MacPherson
+M:6/8
+L:1/8
+R:March
+Z:Betsy Hooper
+S:http://home.usit.net/~bhooper/scot2.abc
+K:D
+|:"D"d3 A2d | "G"B>AA "A"d>BA | "D"d3 A2d | "G"B>AA "A"a>ef \
+| "D"d3 A2d | "G"B>AA "A"d>BA | "G"g2f "Em"e>fd | "A"c>AA a>ef :|
+|:"D"d3 f2d | "D"a>ef "A"dBA | "D"d3 f2d | "D"a>Aa "A"f>ef \
+| "D"d3 f2d | "D"a>ef "A"dBA | "G"g2f "Em"e>fd | "A"c>AA a>ef :|
+|:"D"d3 "G"G>BA | "D"d>Bd "A"e>cA | "D"d3 "G"G>BB | "A"A>ce a>ef \
+| "D"d3 "G"G>BA | "D"d>Bd "A"e>cA | "G"g2f "Em"e>fd | "A"c>AA a>ef :|
+[|"D"d3 a2f | "D"d>fd "A"e>cA | "D"d3 a2f | "D"d>fd "A"a>ef \
+| "D"d3 a2f | "D"d>fd "A"e>cA | "G"g2f "Em"e>fd | "A"c>AA a>ef ||
+||"D"d3 a2f | "D"d>fd "A"e>cA | "D"d3 a2f | "D"d>fd "A"a>ef \
+| "G"g>fg "Em"e>fd | "G"G>Bd "A"e>cA | "G"g2f "Em"e>fd | "A"c>AA a>ef |]

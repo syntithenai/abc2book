@@ -1,0 +1,22 @@
+X: 546
+T: Granu Waile or Ma-Ma
+R: jig, waltz, air
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #546
+Z: Dave Wooldridge
+Q: "Slow"
+M: 6/8
+L: 1/16
+K: Gm
+A2 \
+| (.d2.=e2.f2) (("^>"dc)("^>"BA)("^>"G^F)) | (G4.G2) (G4(AB)) \
+| (c2A2f2) (("^>"dc)(BA)(GE)) | F4 F2 F4 ||
+| (d=e) \
+| f2=e2f2 (("^"dc)(BA)(G^F)) | (G2g2).g2 .g2((gb)(ag)) \
+| ({fg}f2=e2f2) (("^"dc)("^"BA)("^"G^F)) | (.G2.G2.G2) G4 :|
+|| (3(d=ef) \
+| .g2(dc)(BA) .g2(dc)(BA) | (.G2.G2.G2) (G4(3(cd=e)) \
+| .f2((cB)(AG)) f2((cB)(AG)) | (.F2.F2.F2) (F4 ||
+| (d=e)) \
+| .f2 (3(=efe)d2 .g2 (3(fgf)=e2 | .a2 ((3gag)^f2 .g2(gb)(ag) \
+| ({fg}f2=e2f2) ((dc)(BA)(G^F)) | (.G4 .G2) G4 |]

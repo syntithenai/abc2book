@@ -1,0 +1,25 @@
+X: 1172
+T: I hae a wife o' my ain
+%R: slip-jig
+B: Niel Gow & Sons "Complete Repository" v.1 p.17 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: Key changed from Em to Edor to eliminate all the sharps.
+M: 9/8
+L: 1/8
+K: Edor
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+|:\
+EFE	~G2A B3 | EFE G2A BGE | EFE ~G2A Bcd | DED {c}d2B AFD :| g>ag fgf e3 | EFE ~G2A BGE |
+g>ag fgf e3 | DFD {c}d2B AFD || g>ag fgf e3 | EFE ~G2A BGE | g>ag fgf efg | DED DdB AFD |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+|:\
+[e3E3] [e3E3] [e3E3] | [e3E3] [e3E3] [d3D3] |\
+[e3E3] [e3E3] [e3E3] | [d3D3] [d3D3] [d3D3] :|\
+[e3E3] [B3B,3] [e3E3] | [e3E3] [e3E3] [e3E3] |
+[e3E3] [B3B,3] [e3E3] | [d3D3] [d3D3] [d3D3] ||\
+[e3E3] [B3B,3] [e3E3] | [e3E3] [e3E3] [e3E3] |\
+[e3E3] [B3B,3] [e3E3] | [d3D3] [d3D3] [d3D3] |]

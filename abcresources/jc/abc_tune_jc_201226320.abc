@@ -1,0 +1,1769 @@
+B:The One Hundred and One Best Songs - The Cable Company - 1919 - Chicago, Illinois
+% Transcribed by John Atchley, guitarnut.com
+
+% From the index page:
+
+% This special collection of Old Favorite Melodies, Patriotic Songs, and College  Songs,
+% together  with some of the newer songs of unusual excellence, we mail, prepaid for 10c
+% a copy.  Special rates for quantity lots.
+
+% This was a little  stapled  soft-cover  booklet  of  tunes  published  by  this  piano
+% manufacturer in 1919. Under U.S. copyright law, all of the material in this booklet is
+% now in the public domain.
+
+% The booklet actually contained 102 songs, plus a blank page for "your state song." The
+% booklet doesn't specify which of the 102 songs is not one of the "best."
+
+% This isn't by any means a rare booklet, but most existing copies  are  in  pretty  bad
+% shape  as they were printed on very poor quality paper.  I scanned all of the pages at
+% very high resolution and will be archiving the images to CD,  along  with  some  other
+% books I am transcribing. If you really need the original source for one of these songs
+% let me know and I can e-mail you the scanned image (the full-  resolution  images  are
+% about 3.8mb each, though).
+
+% Assign global decoration shortcuts
+U:H=!fermata!
+U:L=!accent!
+U:l=!crescendo(!
+U:k=!crescendo)!
+U:q=!diminuendo(!
+U:p=!diminuendo)!
+U:S=!segno!
+U:s=!D.S.!
+U:O=!coda!
+U:o=!D.C.!
+U:Z=!fine!
+U:r=!breath!
+
+X:1
+T:America the Beautiful
+T:("Materna")
+% Four-part piano arrangement for standard notation.
+%%titlespace 30pt
+%%LineSep 20pt
+C:Katherine Lee Bates, 1904/Samuel A. Ward
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:4/4
+L:1/4
+Q:1/4=100
+%%staves [(1 2) (3 4)]
+%%staffsep 30pt
+K:C
+V:1 clef=treble
+!mf!G | G > E E G | G > D D E | F G A B | G2- G
+w:O beau-ti-ful for spa-cious skies, For am-ber waves of grain,*
+w:O beau-ti-ful for pil-grim feet, Whose stern, im-pas-sioned stress*
+w:O beau-ti-ful for he-roes proved In lib-er-at-ing strife*
+w:O beau-ti-ful for pa-triot dream That sees be-yond the years*
+V:2 clef=treble
+!mf!E | E > C C E | D > B, B, B, | D D F F | (E2 F)
+V:3 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+!mf!c' | c' > g g c' | b > g g g | b b d' d' | (c' ^a b)
+V:4 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+!mf!c | c > c c G | d > d d G | d d G G | (c ^c d)
+V:1
+G | G > E E G | G > D D d | ^c d e A | d2- Hd
+w:For pur-ple moun-tain maj-es-ties A-bove the fruit-ed plain!*
+w:A thor-ough-fare for free-dom beat A-cross the wil-der-ness!*
+w:Who more than self their coun-try loved, And mer-cy more than life.*
+w:Thine al-a-bas-ter cit-ies gleam, Un-dimmed by hu-man tears!*
+V:2
+D | E > C C E | D > D D G | G G ^F ^F | (G ^F H=F)
+V:3
+b | c' > g g c' | b > b b b | b b c' c' | (b c' Hd')
+V:4
+G | c > c c A | d > d d d | d d d a | (g a Hb)
+V:1
+!f!G | e > e rd c | c > B rB c | d B A G | c- c- c
+w:A-mer-i-ca! A-mer-i-ca! God shed His grace on thee,*
+w:A-mer-i-ca! A-mer-i-ca! God mend thine ev-'ry flaw,*
+w:A-mer-i-ca! A-mer-i-ca! May God thy gold re-fine,*
+w:A-mer-i-ca! A-mer-i-ca! God shed His grace on thee,
+V:2
+!f!G | G > G rG E | F > G rG G | G G F F | (E E F)
+V:3
+!f!g | c' > rc' c' c' | d' > d' rd' c' | b b c' d' | (c' g a)
+V:4
+!f!g | g > re e g | g > d rd e | f g a b | (c' c c)
+V:1
+c | c > A A c | c > G G G | A c G d | c3 |]
+w:And crown thy good with broth-er-hood, From sea to shin-ing sea!
+w:Con-firm thy soul in self-con-trol, Thy lib-er-ty in law!
+w:Till all suc-cess be no-ble-ness, And ev-'ry gain di-vine!
+w:And crown thy good with broth-er-hood, From sea to shin-ing sea!
+V:2
+G | F > F F F | E > E E G | A c G F | E3 |]
+V:3
+_b | a > a a a | g > c' c' g | a c' g b | c'3 |]
+V:4
+c | f > f f d | g > g g g | a c' g G | c3 |]
+
+%%newpage
+
+X:2
+T:The Star-Spangled Banner
+T:(Service Version*)
+% Four-part piano arrangement for standard notation.
+C:Francis Scott Key/John Stafford Smith
+%%HistoryFont Times-Roman 11
+H:*The great growth of community singing, and the systematic introduction of mass singing as a factor
+in the training of the American army, brought into prominence the fact that there has never been an
+authorized official version of our national anthem.  Probably this accounts for the many variations in printed
+and sung versions.  In an effort to bring about greater unity, a representative committee worked for almost
+a year on this Service Version with the hope that it might be widely used.  The Committee of Twelve was
+composed of the following members: John A. Carpenter, Frederick S. Converse, Wallace Goodrich, W.R.
+Spalding, representing the War Department Commission on Training Camp Activities; Hollis E. Dann,
+Peter W. Dykems, Osbourne McConathy, representing the Music Supervisors' National Conference; C.C.
+Birchard, Carl Engel, W.A. Fisher, Arthur Johnstone, E.W. Newton, representing Music Publishers. In
+their conferences, the Committee were agreed, as a fundamental point of departure, that the Star-Spangled
+Banner was to be regarded as a "folk song" and that therefore their efforts should be directed to
+determining what is the present commonly accepted version of the American people rather than to endeavoring
+to establish the authentic and original version from the historic standpoint.  This principle led to a
+unanimous agreement regarding the version of the melody and the greater part of the harmony.  Details
+concerning the deliverations of the Committee may be obtained from the Chairman, Peter W. Dykems,
+University of Wisconsin, Madison, Wisconsin.
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:3/4
+L:1/4
+Q:1/4=104
+%%staves [(1 2) (3 4)]
+%%vocalfont Times-Roman 13
+K:Bb
+V:1 clef=treble
+(!f!"^}>___With spirit."F3/4 D/4) | B, lD F | kB- B (Ld3/4 c/4) | qB D p=E | F2 F/- F/ | Ld > c B |
+w:1.~O* say! can you see,* by the dawn's ear-ly light, What so proud-ly we
+w:2.~On the shore, dim-ly seen* thro' the mists of the deep, Where the foe's haugh-ty
+w:3.~O* thus be it ev-er when* free-men shall stand Be\-* tween their lov'd
+V:2 clef=treble
+(!f!F3/4 D/4) | B, lD F | kD- D LD3/4- D/4 | qD D pC | C2 F/- F/ | LF > F F |
+V:3 clef=bass
+%%MIDI transpose -24
+(!f!f3/4 d/4) | B lb c' | kb- b La3/4- a/4 | qb b pb | a2 f/- f/ | Lb > a b |
+V:4 clef=bass
+%%MIDI transpose -24
+(!f!f3/4 d/4) | B lb a | kg- g L^f3/4 ^f/4 | qg g pc | f2 f/- f/ | LB > c d |
+V:1
+A2 G3/4 A/4 | B B F | D B, F3/4 D/4 | B, lD F | kB2 Ld3/4 c/4 |
+w:hail'd at the twi-light's last gleam-ing? Whose broad stripes and bright stars, thro' the
+w:host in dread si-lence re-pos-es, What is that which the breeze, o'er the
+w:homes and the war's des-o-la-tion! Blest with vic-t'ry and peace, may the
+V:2
+F2 F3/4 F/4 | F B F | D B, F3/4 D/4 | B, lD F | kD2 LD3/4 D/4 |
+V:3
+c'2 c'3/4 c'/4 | b b f | d B f3/4 d/4 | B lb c' | kb2 La3/4 a/4 |
+V:4
+f2 e3/4 e/4 | d b f | d B f3/4 d/4 | B lb a | kg2 L^f3/4 ^f/4 |
+V:1
+B qD p=E | F2 F/ F/ | d > c B | A2 G3/4 A/4 | B B F |
+w:per-il-ous fight, O'er the ram-parts we watch'd, were so gal-lant-ly
+w:tow-er-ing steep, As it fit-ful-ly blows, half con-ceals, half dis\-
+w:Heav'n-res-cued land Praise the Pow'r that hath made and pre-served us a
+V:2
+D qD pC | C2 F/ F/ | F > F F | F2 F3/4 F/4 | F B F |
+V:3
+b qb pb | a2 f/ f/ | b > a b | c'2 c'3/4 c'/4 | b b f |
+V:4
+g qg pc | f2 f/ f/ | B > c d | f2 e3/4 e/4 | d b f |
+V:1
+D B, !mf!d/- d/ | ld e kf | f2 qe/ d/ | pc ld ke | e2 e/- e/ |
+w:stream-ing? And the rock-ets' red glare, the bombs burst-ing in air, Gave*
+w:clos-es? Now it catch-es the gleam of the morn-ing's first beam, In full
+w:na-tion! Then* con-quer we must, when our cause it is just, And*
+V:2
+D B, !mf!B/- B/ | lB c kd | d2 qc/ B/ | pA lB kc | c2 F/- F/ |
+V:3
+d B !mf!d'/- d'/ | l[d'b] [e'c'] k[f'd'] | [f'2d'2] qe'/ d'/ | p[c'a] l[d'b] k[e'c'] | [e'2c'2] a/- a/ |
+V:4
+d B !mf!b/- b/ | lB3 | kB2 qc'/ b/ | pf3 | f2 f/- f/ |
+V:1
+d > qc B | pA- A (G3/4 A/4) | B D =E | F2 || [Q:1/4=96] lO"_<^CHORUS."F/ kF/ | !f!B B (B/A/) | G G G |
+w:proof thro' the night* that our flag was still there. O* say, does that Star-span-gled
+w:glo-ry re-flect-ed, now* shines on the stream: 'Tis the Star-span-gled Ban-ner: O
+w:this be our mot-to: "In* God is our trust!" And the Star-span-gled Ban-ner in
+V:2
+F > qF F | pF- F F3/4 F/4 | F D C | C2 || [Q:1/4=96] OlF/ kF/ | !f!D E F | E E F |
+V:3
+b > a qb | c'- pc' c'3/4- c'/4 | b b b | a2 || [Q:1/4=96] Olf/ kf/ | !f!b b b | b b =b |
+V:4
+B > c qd | f- pf e3/4- e/4 | d g c | f2 || [Q:1/4=96] Olf/ kf/ | !f!B c d | e e d |
+V:1
+c (qe/d/) (c/pB/) | (qB pHA) F/ F/ | "^broaden"lB > c kd/ e/ | !ff!f2 B/ c/ | d > e c | B2 |]
+w:Ban-ner* yet* wave* O'er the land* of the free and the home of the brave?
+w:long may* it* wave* O'er the land* of the free and the home of the brave!
+w:tri-umph* shall* wave* O'er the land* of the free and the home of the brave!
+V:2
+E (qE/F/) G | pqF- HF F/ F/ | lF2 kF/ B/ | !ff!B2 G/ =E/ | !ff!F > G E | D2 |]
+V:3
+Lc' qg (e'/pd'/) | (qd' pHc') a/ a/ | (lb > c') kd'/ e'/ | !ff![f'2d'2] d'/ b/ | b > b a | b2 |]
+V:4
+Lc (qc/d/) (e/p=e/) | qf- pHf f/ e/ | (ld > f) kb/ {b}c'/ | !ff!b2 g/ g/ | f > f f | B2 |]
+
+X:3
+T:America
+T:(My Country, 'Tis of Thee)
+T:First sung in Park Street Church, Boston, July 4, 1832.
+%%titlespace 30pt
+%%LineSep 20pt
+% Four-part piano arrangement for standard notation.
+C:Samuel Francis Smith/Attributed to Henry Carey
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:3/4
+L:1/4
+Q:1/4=88
+%%staves [(1 2) (3 4)]
+K:G
+V:1 clef=treble
+G G A | F>G A | B B c | B>A G | A G F | G3 | d d d |
+%%vocalfont Times-Roman 11.0
+w:1.~My coun-try 'tis of thee, Sweet land of lib-er-ty, Of thee I sing; Land where my
+w:2.~My na-tive coun-try, thee, Land of the no-ble free, Thy name I love: I love thy
+w:3.~Let mu-sic swell the breeze, And ring thro' all the trees Sweet free-dom's song; Let mor-tal
+w:4.~Our fa-thers' God, to Thee, Au-thor of lib-er-ty, To Thee we sing; Long may our
+V:2 clef=treble
+D D E | D>E F | G G A | G>F E | E D D | D3 | B B B |
+V:3 clef=bass
+%%MIDI transpose -24
+%%jsastem=up
+b b c' | a>a d' | d' e' e' | d'>c' b | c' b a | b3 | d' d' d' |
+V:4 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+g g c | d>d d | g e c | d>^d e | c d d | g3 | g b d' |
+V:1
+d>c B | c c c | c>B A | B c/B/ A/G/ | B>c d | e/c/ B A | G3 |]
+w:fa-thers died, Land of the Pil-grims' pride, From ev\-*ry* moun-tain-side Let* free-dom ring.
+w:rocks and rills, Thy woods and temp-led hills; My heart* with* rap-ture thrills Like* that a-bove.
+w:tongues a-wake; Let all that breathe par-take; Let rocks* their* si-lence break, The* sound pro-long.
+w:land be bright With free-dom's ho-ly light; Pro-tect* us* by Thy might, Great* God, our King.
+V:2
+B>A G | A A A | A>G F | G G D | G>G G | G G F | D3 |]
+V:3
+d'>d' d' | d' d' d' | d'>d' d' | d' e'/d'/ c'/b/ | d'>d' d' | c'/e'/ d' c' | b3 |]
+V:4
+g>g g | d f a | d>d d | g g g | g>a b | c' d' d | [g3G] |]
+
+X:4
+T:Tramp! Tramp! Tramp!
+% Four-part piano arrangement for standard notation.
+C:G.F.R./Geo. F. Root
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:4/4
+L:1/8
+Q:1/4=100
+%%staves [(1 2) (3 4)]
+K:Bb
+V:1 clef=treble
+F > E | D > F B > c B2 B > A | G > B B > G F2 F > E |
+w:1.~In the pris-on cell I sit, Think-ing, Moth-er dear, of you, And our
+w:2.~In the bat-tle front we stood When their fierc-est charge they made, And they
+w:3.~So with-in the pris-on cell We are wait-ing for the day That shall
+V:2 clef=treble
+D > C | B, > D D > E D2 F > F | E > G G > E D2 D > C |
+V:3 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+b > f | f > b b > b b2 b > b | b > e' e' > b b2 b > f |
+V:4 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+B > B | B > B B > B B2 d > d | e > e e > e B2 B > B |
+V:1
+D > F B > c d > d c > B | c6 F > E | D > F B > c B2 B > A |
+w:bright and hap-py home so far a-way; And the tears they fill my eyes Spite of
+w:swept us off, a hun-dred men or more; But be-fore we reached their lines They were
+w:come to o-pen wide the i-ron door; And the hol-low eyes grow bright, And the
+V:2
+B, > D D > E F > F F > =E | F6 D > C | B, > D D > E D2 F > F |
+V:3
+f > b b > b b > b c' > c' | a6 b > f | f > b b > b b2 b > b |
+V:4
+B > B b > b b > b a > g | f6 B > B | B > B B > B B2 d > d |
+V:1
+G > B B > G F2 d > c | B > A B > G A > F A > c | B6 z2 |
+w:all that I can do, Tho' I try to cheer my com-rades and be gay.
+w:beat-en back, dis-mayed, And we heard the cry of vic-t'ry o'er and o'er.
+w:poor heart al-most gay, As we think of see-ing home and friends once more.
+V:2
+E > G G > E D2 F > F | G > G G > E E > E E > E | D6 z2 |
+V:3
+b > e' e' > b b2 b > b | b > b e' > e' c' > a c' > f | f6 z2 |
+V:4
+e > e e > e B2 B > d | e > e e > e f > f f > f | B6 z2 |
+V:1
+"^CHORUS."d2 d2 d > c B > G | F4 B4 x | c2 c2 d > c B > d |
+w:Tramp! tramp! tramp! the boys are march-ing, Cheer up, com-rades, they will
+V:2
+F2 F2 F > E E > E | D2 D2 D2 D2 x | F2 F2 F2 F2 |
+w:
+w:* * * * * * march-ing on, O cheer up, com- rades,
+V:3
+b2 b2 f > f g > g | b2 b2 f2 f2 x | a2 a2 b2 b2 |
+V:4
+B2 B2 B > B B > B | B2 B2 B2 B2 x | f2 f2 B2 d2 |
+V:1
+c6 F > E | D > F B > c B2 B > A |
+V:2
+F2 F2 F2 B, > A, | B, > D D > E D2 D > F |
+w:come,** And be-neath the star-ry flag We shall
+w:they will come,
+V:3
+a2 a2 a2 f > f | f > f f > f f2 b > b |
+V:4
+f2 f2 f e d > c | B > B B > B B2 B > B |
+V:1
+G > B B > G F2 d > c | B > A B > G A > F A > c | B6 |]
+w:
+w:breathe the air a-gain Of the free-land in our own be-lov-ed home.
+V:2
+E > G G > E D2 D > D | E > E E > E C > C E > E | D6 |]
+V:3
+b > b b > b b2  f > f | g > g g > g f > a c' > a | b6 |]
+V:4
+e > e e > e B2 B > B | e > e e > e f > f f > f | B6 |]
+
+%%newpage
+
+X:5
+T:Yankee Doodle
+% Four-part piano arrangement for standard notation.
+%%titlespace 30pt
+%%LineSep 20pt
+C:Dr. Schamburg/Old English Tune ca. 1755
+S:From "The One Hundred and One Best Songs" / The Cable Company / 1919 / Chicago, Illinois
+M:2/4
+L:1/8
+Q:1/4=120
+%%staves [(1 2) (3 4)]
+%%vocalfont Times-Roman 12
+%%textfont Times-Roman 10
+K:A
+V:1 clef=treble
+E | A A B c | A c B G | A A (B c) | A2 G E | A A
+w:1. Fath'r and I went down to camp, A-long with Cap-tain Good-'in, And there we
+w:2.~~And there we see a thou-sand men, As rich as Squire* Da-vid; And what they
+w:3.~~And there was Cap-tain Wash-ing-ton, Up-on a slap-ping stal-lion, A-giv-ing
+w:4.~~And then the feath-ers on his hat, They looked so ver-y fine, ah! I want-ed
+V:2 clef=treble
+E | C C D E | C E D D | C C (D E) | C2 D D | C C
+V:3 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+e | a a g g | a a g b | a a (g g) | a2 b g | a a
+V:4 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+e | A A e e | A A e e | A A (e e) | A2 e e | A A
+V:1
+B c | d c B>A | G E F G | A2 A z | "^CHORUS."F > G F E | F G AF |
+w:saw the men and boys As thick as has-ty pud-din'.
+w:wast-ed ev-'ry day, I wish it could be sav-ed. Yan-kee Doo-dle, keep it up,_
+w:or-ders to his men; I guess there was a mil-lion.
+w:pes-ki-ly to get To give to my Je-mi-ma.
+V:2
+D E | F E D>C | B, D D D | C2 C z | D > E D D | D E FD |
+V:3
+a a | a a f>f | e g a b | a2 a z | a > a a a | a a d'a |
+V:4
+A A | d d d>d | e e e e | A2 A z | d > d d d | d d d2 |
+V:1
+E>F E D | C>D E z | F>G F E | F G A F | E A G B | A2 A |]
+w:
+w:Yan-kee Doo-dle dan\-* dy, Mind the mu-sic and the step, And with the girls be hand-y.
+V:2
+C>D C B, | A,>B, C z | D>E D D | D E F D | C C D D | C2 C |]
+V:3
+a>a a a | e2 a z | a>a a a | a a a a | a a b g | a2 a |]
+V:4
+A>A A A | A2 A z | d>d d d | d d d d | e e e e | A2 A |]
+W:5 And there I see a swamping gun, Large as a log of maple, Upon a
+W:mighty little cart; A load for father's cattle.
+W:6 And every time they fired it off, It took a horn of powder; It made a
+W:noise like father's gun, Only a nation louder.
+W:7 And there I see a little keg, Its head all made of leather; They knocked
+W:upon't with little sticks, To call the folks together.
+W:8 And Cap'n Davis had a gun, He kind o' clapt his hand on't; And stuck a
+W:crooked stabbing-iron Upon the little end on't.
+W:9 The troopers, too, would gallop up And fire right in our faces; It scared
+W:me almost half to death To see them run such races.
+W:10 It scared me so I hooked it off, Nor stopped, as I remember, Nor turned
+W:about till I got home, Locked up in mother's chamber.
+
+%%newpage
+
+X:6
+T:Columbia, the Gem of the Ocean
+% Four-part piano arrangement for standard notation.
+%%titlespace 30pt
+%%LineSep 20pt
+C:David T. Shaw/David T. Shaw
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:4/4
+L:1/8
+Q:1/4=120
+%%staves [(1 2) (3 4)]
+%%vocalfont Times-Roman 12.0
+K:G
+V:1 clef=treble
+"^Spirited"D3/2- D/2 | G2 G > G A2 d > c | B G2 z z2 D- D | E2 e d cB A G | (G4 F2) z
+w:1.~O Co-lum-bia, the gem of the o-cean, The* home of the brave* and the free,*
+w:2.~When* war winged its wide des-o-la-tion, And* threat-ened the land* to de-form,*
+w:3.~The* star-span-gled ban-ner bring hith-er, O'er Co-lum-bia's true sons* let it wave;*
+V:2 clef=treble
+D3/2- D/2 | D2 D > D F2 F > F | G D2 z z2 B,- B, | C2 E E E2 E E | E6 z
+V:3 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+d3/2- d/2 | b2 b > b d'2 a > d' | d' b2 z z2 g- g | g2 c' c' g2 a a | (b4 a2) z
+V:4 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+d3/2- d/2 | G2 G > G d2 d > d | g g2 z z2 G- G | c2 c c c2 ^c ^c | d6 z
+V:1
+A/- A/ | A2 A > A A2 B ^c | d A z2 z2 d- d | ^cB A G FE A ^C | D2 z2 z2
+w:The* shrine of each pa-triot's de-vo-tion, A* world* of-fers hom\-* age to thee.
+w:The* ark then of free-dom's foun-da-tion, Co\-* lum\-* bia, rode safe* thro' the storm:
+w:May the wreaths they have won nev-er with-er, Nor its stars* cease to shine* on the brave:
+V:2
+F/- F/ | F2 F > F E2 G G | F F z2 z2 F- F | AG F E D^C ^C A, | A,2 z2 z2
+V:3
+d'/- d'/ | d'2 d' > d' ^c'2 d' e' | d' d' z2 z2 d'- d' | d'2 b b a2 g g | f2 z2 z2
+V:4
+d/- d/ | d2 d > d a2 a a | d d z2 z2 d- d | g2 G G A2 A A | d2 z2 z2
+V:1
+(D F) | A2 A A GF E D | D G z2 z2 (G A) | B2 B B cB A G | A2 z2 z2
+w:Thy* man-dates make he\-* roes as-sem-ble, When* Lib-er-ty's form* stands in view;
+w:With the gar-lands of vic\-* t'ry a-round her, When so proud-ly she bore* her brave crew,
+w:May the serv-ice, u-nit\-* ed, ne'er sev-er, But* hold to their col\-* ors so true;
+V:2
+D- D | F2 F F D2 C C | B, B, z2 z2 G- G | G2 G D ED E E | F2 z2 z2
+V:3
+d'- d' | d'2 d' d' c'2 f f | g g z2 z2 (b c') | d'2 d' g g2 g e' | d'2 z2 z2
+V:4
+d- d | d2 d d d2 d d | g g z2 z2 g- g | g2 g g g2 c ^c | d2 z2 z2
+V:1
+(G B) | Sd2 d d cB A G | F E z2 z2 ed | cB A G F2 E F | ZG6 ||
+w:Thy* ban-ners make tyr\-* an-ny trem-ble When* borne* by the red, white and blue;
+w:With her flag proud-ly float\-* ing be-fore her, The* boast* of the red, white and blue;
+w:The* ar-my and na\-* vy for-ev-er, Three* cheers* for the red, white and blue;
+V:2
+(D G) | SG2 G G ED D D | D C z2 z2 E2 | E2 E E D2 D D | ZD6 ||
+V:3
+(b d') | S[b2g] [bg] [bg] g2 f g | a g z2 z2 g ^g | a2 a a a2 c' c' | Zb6 ||
+V:4
+g- g | SG2 G G G2 A B | c c z2 z2 cB | A2 c c d2 d d | Zg6 ||
+V:1
+"^CHORUS."FG | A2 A > A A2 d c | B2 z2 z2 FG | A2 A A A2 d c | B2 z2 z2 (sG B) |]
+w:When* borne by the red, white and blue, When* borne by the red, white and blue; Thy*
+w:The* boast of the red, white and blue, The* boast of the red, white and blue; With her
+w:Three* cheers for the red, white and blue, Three* cheers for the red, white and blue; The*
+V:2
+DE | F2 F > F F2 F A | G2 z2 z2 DE | F2 F F F2 F A | G2 z2 z2 (sD G) |]
+V:3
+d'2 | d'2 d' > d' d'2 a d' | d'2 z2 z2 d'2 | d'2 d' d' d'2 a d' | d'2 z2 z2 (sb d') |]
+V:4
+d2 | d2 d > d d2 d f | g2 z2 z2 d2 | d2 d d d2 d f | g2 z2 z2 sg- g |]
+
+%%newpage
+
+X:7
+T:Battle Hymn of the Republic
+% Four-part piano arrangement for standard notation.
+C:Julia Ward Howe/Air: "John Brown's Body"
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:4/4
+L:1/8
+Q:1/8=168
+%%staves [(1 2) (3 4)]
+%%staffsep 30pt
+K:Bb
+V:1 clef=treble
+"^Allegretto"F/- F/ | F > F F > E D > F B > c | d > d d > c B2 B > A |
+%%vocalfont Times-Roman 13.0
+w:1.~Mine* eyes have seen the glo-ry of the com-ing of the Lord; He is
+w:2.~I have seen Him in the watch-fires of a hun-dred cir-cling camps; They have
+w:3.~I have read a fier-y gos-pel writ in bur-nished rows of steel: "As ye
+w:4.~He has sound-ed forth the trump-et that shall nev-er call re-treat; He is
+w:5.~In the beau-ty of the lil-ies Christ was born a-cross the sea, With a
+V:2 clef=treble
+D/- D/ | D > D D > C B, > D F > F | F > F F > E D2 F > F |
+V:3 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+b/- b/ | b > b b > f f > b b > a | b > b b > a b2 b > b |
+V:4 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+B/- B/ | B > B B > B B > B d > f | b > b b > f B2 d > d |
+V:1
+G > G G > A B > A B > G | F > G F > D F2 F > F |
+w:tram-pling out the vint-age where the grapes of wrath are stored; He hath
+w:build-ed Him an al-tar in the eve-ning dews and damp; I can
+w:deal with My con-tem-ners, so with you My grace shall deal." Let the
+w:sift-ing out the hearts of men be-fore His judg-ment-seat; Oh, be
+w:glo-ry in His bos-om that trans-fig-ures you and me; As He
+V:2
+E > E E > F G > F G > E | D > E D > B, D2 D > D |
+V:3
+b > b b > b e' > e' e' > b | b > b b > f b2 b > b |
+V:4
+e > e e > e e > e e > e | B > B B > B B2 B > B |
+V:1
+F > F F > E D > F B > c | d > d d > c B2 B2 | c2 c2 B2 A2 | B4 z4 |
+w:loosed the fate-ful light-ning of His ter-ri-ble swift sword, His truth is march-ing on.
+w:read His right-eous sen-tence by the dim and flar-ing lamps, His day is march-ing on.
+w:He-ro, born of wom-an crush the ser-pent with His heel, Since God is march-ing on.
+w:swift, my soul, to an-swer Him! be ju-bi-lant, my feet! Our God is march-ing on.
+w:died to make men ho-ly, let us die to make men free, While God is march-ing on.
+V:2
+D > D D > C B, > D F > F | F > F F > E D2 F2 | G2 G2 F2 E2 | D4 z4 |
+V:3
+b > b b > f f > b b > a | b > b b > b b2 b2 | e'2 e'2 d'2 c'2 | b4 z4 |
+V:4
+B > B B > B B > B d > f | b > b f > f B2 d2 | e2 e2 f2 f2 | B4 z4 |
+V:1
+"^CHORUS."F3 E D > F B > c | d4 B2 z2 | G3 A B > A B > G | F4 D4 |
+w:
+w:
+w:Glo-ry! glo-ry! Hal-le-lu-jah! Glo-ry, glo-ry! Hal-le-lu-jah!
+V:2
+D3 C B, > D D > E | F4 D2 z2 | E3 F G > F G > E | D4 B,4 |
+V:3
+b3 b f > b b > b | b4 f2 z2 | b3 b b > b b > b | b4 f4 |
+V:4
+B3 B B > B B > B | B4 B2 z2 | e3 e e > e e > e | B4 B4 |
+V:1
+F3 E D > F B > c | d4 B2 B2 | c2 c2 B2 A2 | B6 z2 |]
+w:
+w:
+w:Glo-ry! glo-ry! Hal-le-lu-jah! His truth is march-ing on.
+V:2
+D3 C B, > D D > E | F4 D2 F2 | G2 G2 F2 E2 | D6 z2 |]
+V:3
+b3 b f > f f > f | b4 f2 b2 | e'2 e'2 d'2 c'2 | b6 z2 |]
+V:4
+B3 B B > B B > B | B4 B2 d2 | e2 e2 f2 f2 | B6 z2 |]
+
+%%newpage
+
+X:8
+T:La Marseillaise
+T:FRENCH NATIONAL HYMN
+T:(Based on the Official French Version)
+%%LineSep 20pt
+% Four-part piano arrangement for standard notation.
+C:/Rouget de L'Isle (Arranged by Henry S. Sawyer)
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:4/4
+L:1/8
+Q:1/8=168
+%%staves [(1 2) (3 4)]
+K:G
+V:1 clef=treble
+"^Marziale"D/ D > D | G2 G2 A2 A2 | (d3 B) G > G B > G | E2 c4 A > F |
+w:1.~Ye sons of France, a-wake to glo\-* ry! Hark! hark! what myr-iads bid you
+w:2.~With lux-u-ry and pride sur-round\-* ed The vile in-sa-tiate des-pots
+w:3.~O Lib-er-ty! can man re-sign* thee? Once hav-ing felt thy gen-'rous
+V:2 clef=treble
+D/ D > D | D2 D2 D2 F2 | G4 G > D D > D | C2 E4 C > C |
+V:3 clef=bass
+%%MIDI transpose -24
+d/ d > d | b2 b2 a2 c'2 | (b3 d') b > b g > g | g2 a4 f > a |
+V:4 clef=bass
+%%MIDI transpose -24
+d/ d > d | g2 g2 f2 d2 | G4 G > G G > B | c2 A4 d > d |
+V:1
+G4- G z/ G/ G > A | B2 B2 B2 c>B | B2 A2 z > A A > B | c2 c2
+w:rise!* Your chil-dren, wives, and grand-sires* hoar-y, Be-hold their tears and
+w:dare,* Their thirst for gold and pow'r un\-* bound-ed, To mete and vend the
+w:flame,* Can dun-geon bolts and bars con\-* fine thee, Or whips thy no-ble
+V:2
+B,4- B, z/ G/ G > F | G2 G2 G2 A>G | G2 F2 z > F F > F | F2 F2
+V:3
+g4- g z/ d'/ d' > d' | d'2 d'2 d'2 d'2 | d'2 d'2 z > c' c' > b | a2 a2
+V:4
+G4- G z/ b/ b > a | g2 g2 g2 f>g | d2 d2 z > d d > d | d2 d2
+V:1
+c2 d>c | B4 z > d d > d | d2 B>G d2 B>G | D4- D z/ D/ D > F |
+w:hear their* cries, Be-hold their tears and* hear their* cries!* Shall hate-ful
+w:light and* air, To mete and vend the* light and* air!* Like beasts of
+w:spir-it* tame? Or whips thy no-ble* spir-it* tame?* Too long the
+V:2
+F2 F2 | G4 z > d d > d | d2 B>G d2 B>G | D4-D z/ D/ D > D |
+V:3
+a2 a>d' | d'4 z > d' d' > d' | d'2 b>g d'2 b>g | d4-d z/ f/ f > a |
+V:4
+d2 d2 | g4 z > {d}d' {d}d' > {d}d' | {d}d'2 b>g {d}d'2 b>g | d4-d z/ d/ d > d |
+V:1
+A2 A2 c2 A>F | A2 G2 z G =F =F | E3 G G2 F>G | A6 z A |
+w:ty-rants mis-chief* breed-ing, With hire-ling hosts, a ruf-fian* band, Af\-
+w:bur-den would they* load us, Like gods would bid their slaves a\-* dore; But
+w:world has wept, be\-* wail-ing The blood-stain'd sword our con-qu'rors* wield; But
+V:2
+D2 D2 D2 D2 | D2 D2 z D D D | C3 E E2 E2 | F6 z F |
+V:3
+f2 f2 a2 c'>a | c'2 b2 z b g g | g3 c' ^c'2 ^c'2 | d'6 z d' |
+V:4
+d2 d2 d2 d2 | g2 g2 z G B B | c3 c A2 a2 | d6 z d |
+V:1
+_B3 _B _B _B c d | A4 z2 _B>A | G3 G G _B A > G | G2 F4 z3/2
+w:fright and des-o-late the land While* peace and lib-er-ty lie bleed-ing?
+w:man is man, and who is more? Then* shall they lon-ger lash and goad us?
+w:free-dom is our sword and shield, And* all their arts are un-a-vail-ing!
+V:2
+G3 G G G A _B | F4 z2 F2 | D3 D D D D > D | D2 D4 z3/2
+V:3
+d'3 d' d' d' d' d' | d'4 z2 d'>c' | _b3 _b _b d' c' > _b | _b2 a4 z3/2
+V:4
+g3 g g g g g | d4 z2 d2 | g3 g g g g > g | d2 d4 z3/2
+V:1
+"^{__REFRAIN"d/ | d4- d > d B > G | A6 z > d | d4- d > d B > G | A4- A z D2 | G6 A2 |
+w:
+w:To arms,* to arms, ye brave! Th'a-veng\-* ing sword un-sheathe!* March on! march
+V:2
+d/ | d4- d > d B > G | D6 z > d | d4- d > d B > G | D4- D z D2 | D6 F2 |
+V:3
+d'/ | d'4- d' > d' b > g | f6 z > d' | d'4- d' > d' b > g | f4- f z d'2 | b6 d'2 |
+V:4
+{d}d'/ | {d}d'4- {d}d' > {d}d' b > g | d6 z > {d}d' | {d}d'4- {d}d' > {d}d' b > g | d4- d z d2 | g6 d2 |
+V:1
+B6 z2 | c4 d2 e2 | A4- A z e2 | d4- d > B c > A | G4- G z/ |]
+w:
+w:on! all hearts re-solved* On lib\-* er-ty or death!
+V:2
+G6 z2 | G4 G2 G2 | F4-F z F2 | G4- G > G F > F | D4- D z/ |]
+V:3
+d'6 z2 | c'4 b2 _b2 | a4- a z c'2 | b4- b> d' d' > c' | b4- b z/ |]
+V:4
+g6 z2 | e4 d2 ^c2 | d4- d z d2 | g4- g > g d > d | G4-G z/ |]
+
+X:9
+T:Anvil Chorus
+T:(from "IL TROVATORE")
+%%LineSep 30pt
+%%topspace 50pt
+%%titlespace 50pt
+C:/Giuseppe Verde
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:4/4
+L:1/4
+Q:1/4=110
+K:F
+"@@19"z4 | !p!z2 F C/ A,/ | G E/ C/ A F/ C/ | B G/ E/ c A/ F/ | d !tenuto!B/ .G/
+w:God of the na-tions, in glo-ry en-thron-ed, Up-on our loved coun-try Thy
+E F | G z F C/ A,/ | G E/ C/ A F/ C/ | B G/ E/ c A/ F/ |
+w:bless-ings pour; Guide us and guard us from strife in the fu-ture, Let peace dwell a\-
+d B/ G/ E F | G z z2 | "@@5"z4 | !f!d2 d > d | (d > c) B > G | F > A c > _e | d2 B z |
+w:mong us for-ev-er-more. Proud-ly our ban\-* ner now gleams with gold-en lus-ter!
+d2 d > d | (d > c) (B > G) | F > A c > _e | (d B) d z | B z c z | A B G A |
+w:Brigh-ter each star* shines* in the glo-rious clus\-* ter! Hail! Hail! Free-dom ev-er\-
+D2 z3/4 [^F/4D] [G3/4E] [A/4^F] | [BG] [BG] z3/4 [A/4^F] [B3/4G] [c/4A] | [dB] [dB] z3/4 [c/4A] [d3/4B] [_e/4c] | [f3d3] [_ec] | [d3B3] z |]
+w:more, And truth tr-um-phant, and truth tr-um-phant through-out our glo-rious land.
+
+%%newpage
+
+X:10
+T:Illinois
+H:This song included the note, "Used by permission of Clayton F. Summy Co., Owners of the Copyright."
+C:Words by C. H. Chamberlain/Air: "Baby Mine"
+%%NoDecos 5 yes
+%%NoDecos 2 no
+%%staffsep 30pt
+%%LineSep 30pt
+%%titlespace 40pt
+%%textspace 10pt
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:4/4
+L:1/8
+Q:1/4=110
+%%staves [(1) (2 3) (4 5)]
+K:F
+V:1 clef=treble
+A B | c A G F A F D > C |
+w:1.~By thy riv-ers gen-tly flow-ing, Il-li\-
+w:2.~From a wil-der-ness of prai-ries, Il-li\-
+w:3.~When you heard your coun-try call-ing, Il-li\-
+w:4.~Not with-out thy won-drous sto-ry, Il-li\-
+V:2 clef=treble
+z2 | F2 F2 F2 F2 |
+V:3 clef=treble
+z2 | A,2 A,2 A,2 B,2 |
+V:4 clef=bass
+%%MIDI transpose -24
+z2 | c2 c2 c2 d2 |
+V:5 clef=bass
+%%MIDI transpose -24
+z2 | F2 F2 F2 B2 |
+V:1
+F2 F > G F2 A B | c A G F A F D > C |
+w:nois, Il-li-nois, O'er thy prai-ries ver-dant grow-ing, Il-li\-
+w:nois, Il-li-nois, Straight thy way and nev-er va-ries, Il-li\-
+w:nois, Il-li-nois, Where the shot and shell were fall-ing, Il-li\-
+w:nois, Il-li-nois, Can be writ the na-tion's glo-ry, Il-li\-
+V:2
+F2 F>G F2 z2 | F2 F2 F2 D>C |
+V:3
+A,2 B,2 A,2 z2 | A,2 A,2 A,2 A,2 |
+V:4
+c2 d2 c2 z2 | c2 c2 c2 f2 |
+V:5
+F2 F2 F2 z2 | F2 F2 F2 F2 |
+V:1
+G2 G > A G2 A B | c A d B c2 A B |
+w:nois, Il-li-nois, Comes an ech-o on the breeze, Rus-tling
+w:nois, Il-li-nois, Till up-on the in-land sea Stands Chi\-
+w:nois, Il-li-nois, When the South-ern host with-drew, Pit-ting
+w:nois, Il-li-nois, On the rec-ord of thy years, A-bra'am
+V:2
+G2 G>A G2 AB | c2 d2 c2 AB |
+V:3
+=B,2 =B,2 C2 F2 | F2 F2 F2 F2 |
+V:4
+f2 f>f e2 c'b | a2 b2 a2 c'b |
+V:5
+G2 G>G c2 f2 | f2 f2 f2 f2 |
+V:1
+c A d B c2 A B | c A G F (AF) D > C |
+w:thro' the leaf-y trees, And its mel-low tones are these,* Il-li\-
+w:ca-go, great and free, Turn-ing all the world to thee,* Il-li\-
+w:Gray a-gainst the Blue, There were none more brave than you,* Il-li\-
+w:Lin-coln's name ap-pears, Grant, and Lo-gan, and our tears,* Il-li\-
+V:2
+c2 d2 c2 z2 | F2 F2 F2 F2 |
+V:3
+F2 F2 F2 z2 | A,2 A,2 A,2 B,2 |
+V:4
+a2 b2 a2 z2 | c2 c2 c2 d2 |
+V:5
+f2 f2 f2 z2 | F2 F2 F2 B2 |
+V:1
+F2 F > G A2 A B | c f e d (cA) G > F | F6 |]
+w:nois, Il-li-nois, And its mel-low tones are these,* Il-li-nois!
+w:nois, Il-li-nois, Turn-ing all the world to thee,* Il-li-nois!
+w:nois, Il-li-nois, There were none more brave than you,* Il-li-nois!
+w:nois, Il-li-nois, Grant, and Lo-gan, and our tears,* Il-li-nois!
+V:2
+F2 F>G A2 AB | cf ed [cA]A [G3/2E]F/ | F6 |]
+V:3
+A,2 C2 F2 FE | F2 F2 FF [C3/2B,][C/A,] | [C6A,] |]
+V:4
+c2 a>b c'2 c'c' | c'2 d'2 c'2 c2 | f6 |]
+V:5
+F2 f2 f2 fg | a2 b2 c2 C2 | F6 |]
+W:5 When the Cubans struck for freedom, Illinois, Illinois,
+W:  Uncle Sam resolved to aid them, Illinois, Illinois,
+W:  And for men on land and sea,
+W:  Illinois said, "Call on me!
+W:  For the Cubans must be free!" Illinois, Illinois,
+W:  For the Cubans must be free, Illinois!
+W:6 Some encamped at Chickamanga, Illinois, Illinois,
+W:  Others fell at Santiago, Illinois, Illinois,
+W:  Others, anxious for a call,
+W:  They will march, or fight, or fall,
+W:  They are heroes, heroes, all, Illinois, Illinois,
+W:  They are heroes, heroes, all, Illinois!
+
+X:14
+T:March of the Men of Harlech
+% Four-part piano arrangement for standard notation.
+C:English Words by John Oxenford/Welsh National Melody
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:4/4
+L:1/4
+Q:1/4=110
+%%staves [(1 2) (3 4)]
+%%NoDecos 3 no
+%%NoDecos 4 no
+%%DecosBelowSt 3 yes
+%%DecosBelowSt 4 yes
+K:Ab
+V:1 clef=treble
+"^With martial spirit throughout"A>>G F>>G | A B c A | d c B A | G F
+w:1.~~Men of Har-lech! in the hol-low, Do ye hear, like rush-ing
+w:~~'Tis the tramp of Sax-on foe-men, Sax-on spear-men, Sax-on
+w:2.~~Rock-y steeps and pass-es nar-row Flash with spear and flight of
+w:~~Hurl the reel-ing horse-men o-ver! Let the earth dead foe-men
+w:3.~~Men of Har-lech! hon-or calls us, No proud Sax-on e'er ap-
+w:~~Tho' our moth-ers may be weep-ing, Tho' our sis-ters may be
+V:2 clef=treble
+C>>C D>>E | E E E E | E E F F | E =D
+V:3 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+a>>a a>>b | a g a a | g a d' b | b b
+V:4 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+A>>A d>>d | c B A c | B c d =d | e B
+V:1
+G E | A>>G F>>G | A B c f | e<<c B>>c | A3 z :|
+w:bil-low, Wave on wave that, surg-ing, fol-low Bat-tle's dis-tant sound?
+w:bow-men; Be they knights, or hinds, or yeo-men, They shall bite the ground.
+w:ar-row; Who would think of death or sor-row? Death is glo-ry now!
+w:cov-er! Fate of friend, of wife, of lov-er, Tremb-les on a blow!
+w:palls us! On we march, what-e'er be-falls us, Nev-er shall we fly!
+w:keep-ing Watch for some who now are sleep-ing On the bat-tle field!
+V:2
+E E | E>>E D>>E | E E E A | A<<A G>>G | E3 z :|
+V:3
+b g | a>>a a>>b | a g a a | c'<<e' d'>>e' | c'3 z :|
+V:4
+e d | c>>c d>>d | c e a d | e<<e e>>e | A3 z :|
+V:1
+B>>A G>>A | B B z2 | e>>d c>>d | e e z2 | e>>d c>>d |
+w:
+w:Loose the folds a-sun-der, Flag we con-quer un-der! Plac-id skies that
+w:Strands of life are riv-en, Blow for blow is giv-en, Dead-ly locks or
+w:For-ward, light-ly bound-ing, Hear the trump-et sound-ing! For-ward ev-er,
+V:2
+G>>F E>>F | G G z2 | c>>B A>>B | c c z2 | c>>B A>>B |
+V:3
+g>>a b>>a | g g z2 | c'>>d' e'>>d' | c' c' z2 | c'>>d' e'>>d' |
+V:4
+e>>f g>>f | e e LE LE | a>>b c'>>b | a a LA LA | a>>b c'>>b |
+V:1
+e>>d c>>d | e3/4f/4 e3/4d/4 c3/4B/4 c3/4d/4 | e e z2 | f f e e |
+w:
+w:hear our cries Shall launch* their* bolts* in* thun-der! On-ward! 'tis our
+w:bat-tle shocks When mer\-* cy* shrieks* to* heav-en! Men of Har-lech!
+w:back-ward nev-er, This* proud* foe* a\-* stound-ing! Fight for fa-ther,
+V:2
+c>>B A>>B | c3/4d/4 c3/4B/4 A3/4G/4 A3/4B/4 | c c z2 | A A A A |
+V:3
+c'>>d' e'>>d' | c'3/4b/4 c'3/4d'/4 e' e'3/4d'/4 | c' c' z2 | d' d' [c'e'] [c'e'] |
+V:4
+a>>b c'>>b | a3/4g/4 a3/4b/4 c'3/4d'/4 c'3/4b/4 | a a LA LA | d d c c |
+V:1
+d d c c | B d/c/ B A | G F G E |
+w:
+w:coun-try needs us! He is* brav-est, he who leads us!
+w:young or hoar-y, See your* ban-ner, Famed in sto-ry,
+w: sis-ter, moth-er, Each is* bound to each as broth-er;
+V:2
+G G A A | F F F F | E =D E E |
+V:3
+[be'] [be'] [ae'] [c'e'] | d' f/=a/ b b | b b b g |
+V:4
+B B A c | d B/c/ d =d | e B e _d |
+V:1
+A>>G F>>G | A B c f | e<<c B>>c | A3 z |]
+w:
+w:Hon-or's self now proud-ly heeds us! Free-dom, God, and Right!
+w:Strike for home, for life, for glo-ry! Nev-er will we yield!
+w:With this faith in one an-oth-er We will win or die!
+V:2
+E>>E D>>E | E E E A | A<<A G>>G | E3 z |]
+V:3
+a>>a a>>b | a g a =b | c'<<e' d'>>e' | c'3 z |]
+V:4
+c>>c d>>d | c e a =d | e<<e e>>e | A3 z |]
+
+X:17
+T:Good-Night, Ladies
+% Four-part piano arrangement for standard notation.
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:4/4
+L:1/4
+Q:1/4=110
+%%staves [(1 2) (3 4)]
+%%vocalfont Times-Roman 12
+K:Bb
+V:1 clef=treble
+!f!"@{Sostenuto."d2 B2 | F/4 B3/4-B2 z | d2 B2 | c/4 c3/4-c2 z | d2 B2 | e/4 e3/4-e2 z/ e/ | d > d
+w:1.~Good-night, la-dies!* Good-night, la-dies!* Good-night, la-dies!* We're going to
+w:2.~Fare-well, la-dies!* Fare-well, la-dies!* Fare-well, la-dies!* We're going to
+w:3.~Sweet dreams, la-dies!* Sweet dreams, la-dies!* Sweet dreams, la-dies!* We're going to
+V:2 clef=treble
+!f!"@{Sostenuto."F2 D2 | D/4 D3/4-D2 z | F2 F2 | F/4 F3/4-F2 z | F2 _A2 | G/4 G3/4-G2 z/ G/ | F > F
+V:3 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+!f!"@{Sostenuto."b2 f2 | f/4 f3/4-f2 z | b2 b2 | a/4 a3/4-a2 z | b2 b2 | b/4 b3/4-b2 z/ b/ | b > b
+V:4 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+!f!"@{Sostenuto."B2 B2 | B/4 B3/4-B2 z | B2 d2 | f/4 f3/4-f2 z | B2 d2 | e/4 e3/4-e2 z/ e/ | f > f
+V:1
+c > c | B3 z |: "@{Allegro."d3/4 c/4 B/ c/ d/ d/ d |1 c/ c/ c d/ f/ f :|2 "^Ritard molto."c3/4 c/4 d/ c/ "^@^Repeat pp."B2 |]
+w:
+w:leave you now. Mer-ri-ly we roll a-long, roll a-long, roll a-long, O'er the dark blue sea.
+w:
+V:2
+E > E | D3 z |: "@{Allegro."F3/4 F/4 F/ F/ F/ F/ F |1 F/ F/ F F/ F/ F :|2 "^Ritard molto."E3/4 E/4 F/ E/ "^{Repeat pp."D2 |]
+V:3
+a > f | f3 z |: "@{Allegro."b3/4 e'/4 d'/ c'/ b/ b/ b |1 a/ a/ a b/ d'/ d' :|2 "^Ritard molto."a3/4 a/4 a/ f/ "^{Repeat pp."f2 |]
+V:4
+f > f | B3 z |: "@{Allegro."B3/4 B/4 B/ B/ B/ B/ B |1 f/ f/ f B/ B/ B :|2 "^Ritard molto."f3/4 f/4 f/ f/ "^{Repeat pp."B2 |]
+
+X:23
+T:Believe Me, If All Those Endearing Young Charms
+% Four-part piano arrangement for standard notation.
+C:Thomas Moore/Irish Air "My Lodging is in the Cold Ground"
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:6/8
+L:1/8
+Q:1/4=80
+%%staves [(1 2) (3 4)]
+K:Eb
+V:1 clef=treble
+"^Andantino"G/F/ | E > F E E G B | A c e e2 d/ c/ | B > A G
+w:1.~Be\-* lieve me, if all those en-dear-ing young charms, Which I gaze on so
+w:2.~It* is not while beau-ty and youth are thine own, And thy cheeks un-pro\-
+V:2 clef=treble
+"^Andantino"D | B, > B, B, B, E E | E A A A2 F/ F/ | G > D E
+V:3 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+"^Andantino"a | g > a g g b b | c' e' c' c'2 b/ d'/ | e' > b b
+V:4 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+"^Andantino"B | e > e e e e g | a a a a2 a/ a/ | g > f e
+V:1
+F > E F | G3-G2 G/ F/ | E > F E E G B | A c e e2 (d/ c/) |
+w:fond-ly to-day,* Were to change by to-mor-row, and fleet in my arms, Like*
+w:faned by a tear,* That the fer-vor and faith of a soul can be known, To which
+V:2
+D > C D | E3-E2 D/ D/ | B, > B, B, B, E E |E A A A2 (A/ A/) |
+V:3
+b > b b | b3-b2 b/ a/ | g > a g g b _d' | c' e' c' c'2 (d'/ e'/) |
+V:4
+B > B B | e3-e2 B/ B/ | e > e e e e g | a a a a2 (a/ a/) |
+V:1
+B e G F > E F | E3-E2 B/ A/ | G B e e > e (B/ B/) |
+w:fair-y gifts, fad-ing a-way,* Thou wouldst still be a-dored* as this
+w:time will but make thee more dear!* No, the heart that has tru-ly loved*
+V:2
+G G E D > E D | B,3-B,2 G/ F/ | E G G G > G (G/ G/) |
+V:3
+e' e' b a > g a | g3-g2 b/ b/ | b b b b > b (e'/ e'/) |
+V:4
+b b b B > B B | e3-e2 e/ e/ | e e e e > e (e/ e/) |
+V:1
+c A e e2 d/ c/ | B > A G F > E F | G3-G2 G/ F/ | E > F E
+w:mo-ment thou art, Let thy love-li-ness fade as it will;* And a-round the dear
+w:nev-er for-gets, But as tru-ly loves on to the close;* As the sun-flow-er
+V:2
+A E A A2 A/ A/ | G > E E D > C D | E3-E2 D/ D/ | B, > B, B,
+V:3
+e' c' c' c'2 d'/ e'/ | e' > c' b b > b b | b3-b2 b/ a/ | g > a g
+V:4
+a a a a2 a/ a/ | e > e e B > B B | e3-e2 B/ B/ | e > e e
+V:1
+E G B | A c e e2 d/ c/ | B e G F > E F | E3-E z |]
+w:ru-in, each wish of my heart Would en-twine it-self ver-dant-ly still!*
+w:turns on her god, when he sets, The same look which she turned when he rose!*
+V:2
+B, E E | E A A A2 A/ A/ | G G E D > E D | B,3-B, z |]
+V:3
+g b _d' | c' e' c' c'2 d'/ e'/ | e' e' b a > g a | g3-g z |]
+V:4
+e e g | a a a a2 a/ a/ | b b b B > B B | e3-e z |]
+
+X:26
+T:The Wearing of the Green
+% Four-part piano arrangement for standard notation.
+C:Words by Dion Boucicault
+S:From "The One Hundred and One Best Songs" / The Cable Company / 1919 / Chicago, Illinois
+M:2/4
+L:1/8
+Q:1/4=110
+%%staves [(1 2) (3 4)]
+%%vocalfont Times-Roman 13
+K:F
+V:1 clef=treble
+"^Moderato"F/G/ | A A A A | A c c A | A G G G | G2 z c |
+w:1.~~~~O* Pad-dy dear, and did you hear the news that's go-ing round? The
+w:2.~Then* since the col-or we must wear is Eng-land's cru-el red, Sure
+w:3.~But* if at last our col-or should be torn from Ire-land's heart, Her
+V:2 clef=treble
+F/E/ | F F F F | F F F F | F E E E | E2 z E |
+V:3 clef=bass
+%%MIDI transpose -24
+a/b/ | c' c' c' c' | c' a a c' | c' c' c' c' | c'2 z g |
+V:4 clef=bass
+%%MIDI transpose -24
+f | f f f f | f f f f | c c c c | c2 z c |
+V:1
+d B f d | d c A F | G F F F | F2 (F G) | A A A A |
+w:Sham-rock is for-bid by law to grow on I-rish ground; Saint* Pat-rick's Day no
+w:Ire-land's sons will ne'er for-get the blood that they have shed. You may take the Sham-rock
+w:sons with same and sor-row from the dear old soil will part.  I've heard whis-per of a
+V:2
+F F F F | F F F C | C C C C | C2 (C E) | F F F F |
+V:3
+b d' d' b | b a c' a | b a a a | a2 (a c') | c' c' c' c' |
+V:4
+B b b b | f f f f | c f f f | f2 (f c) | f f f f |
+V:1
+A c c A | A G G G | G2 z c | d B f d | d c A F |
+w:more we'll keep, his col-or can't be seen, For there's a blood-y law a-gin' the
+w:from your hat, and cast it on the sod, But 'twill take root and flour-ish still, tho'
+w:coun-try that lies far be-yant the say, Where rich and poor stand e-qual in the
+V:2
+F F F F | F E E E | E2 z F | F F F F | F F F C |
+V:3
+c' a a c' | c' c' c' c' | c'2 z a | b d' d' b | b a c' a |
+V:4
+f f f f | c c c c | c2 z f | B b b b | f f f f |
+V:1
+G F F F | F2 (f e) | d d c A | c c F G | A G A B |
+w:wear-in' o' the green. I* met with Nap-per Tan-dy, and he tuk me by the
+w:un-der-foot 'tis trod. When the law can stop the blades of grass from grow-ing as they
+w:light of free-dom's day. O* E-rin, we must lave you, driv-en by the ty-rant's
+V:2
+C C C C | C2 (F F) | F F F F | F F C E | F E F G |
+V:3
+b a a a | a2 (a c') | b b a c' | a a a c' | c' c' c' c' |
+V:4
+c f f f | f2 (f f) | f f f f | f f f c | f f f f |
+V:1
+A2 (f e) | d d c A | c - c F A | (G F) E D |
+w:hand, And he said, "How's poor ould Ire\-* land, and how* does she
+w:grow, And* when the leaves in sum-mer-time their ver-dure dare not
+w:hand, Must we ask a moth-er's wel-come from a strange but hap-py
+V:2
+F2 F- F | F F F F | F- F C F | D-D =B, =B, |
+V:3
+c'2 c'- c' | b b a c' | a- a a c' | =b- =b g f |
+V:4
+f2 a- a | b b f f | f- f f f | g g G G |
+V:1
+C2 (F G) | A A A A | A c- c A | A G G G |
+w:stand?" She's the most dis-tress-ful coun-try* that ev-er you have
+w:show, Then* I will change the col-or* I wear in my cau-
+w:land; Where the cru-el cross of Eng-land's tharll-dom nev-er shall be
+V:2
+C2 (C E) | F F F F | F F- F F | F E E E |
+V:3
+e2 (a c') | c' c' c' c' | c' a- a c' | c' c' c' c' |
+V:4
+c2 (f c) | f f f f | f f- f f | c c c c |
+V:1
+G2 z c | d B Hf d | d c HA F | G F F > F | F3 |]
+w:seen; They're hang-ing men and wom-en there for wear-ing of the green.
+w:been, But, till that day, I'll stick for aye to wear-ing of the green.
+w:seen, And where, in peace, we'll live and die a-wear-ing of the green?
+V:2
+E2 z F | F F HF F | F F HF C | C C C > C | C3 |]
+V:3
+c'2 z a | b d' Hd' b | b a Hc' a | b a a > a | a3 |]
+V:4
+c2 z f | B b Hb b | f f Hf f | c f f > f | f3 |]
+
+X:27
+T:The Last Rose of Summer
+% Four-part piano arrangement for standard notation.
+C:Thomas Moore/Irish Air "The Groves of Blarney" / Flotow's "Martha"
+S:From "The One Hundred and One Best Songs" / The Cable Company / 1919 / Chicago, Illinois
+M:3/4
+L:1/8
+Q:1/4=80
+%%staves [(1 2) (3 4)]
+%%vocalfont Times-Roman 15
+K:Eb
+V:1 clef=treble
+|:(E > F) | G2 ed c>B | B G3 E>F | (G B2) G F>E | E4 :|
+w:1.~'Tis the last rose* of* sum-mer, Left* bloom\-* ing a\-* lone;
+w:~~All her love-ly* com\-* pan-ions Are* fad\-* ed and* gone;
+w:2.~I'll not leave thee,* thou* lone one, To* pine* on the* stem;
+w:~~Since the love-ly* are* sleep-ing, Go* sleep* thou with* them;
+w:3.~So* soon may* I* fol-low When* friend\-* ships de\-* cay;
+w:~~And from love's shin\-* ing* cir-cle The* gems* drop a\-* way;
+V:2 clef=treble
+|:(B, > D) | E2 G2 A>G | G E3 E2 | (E G2) E D>E | E4 :|
+V:3 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+|:(g > a) | b2 b2 e'2 | e' b3 g>a |b3 b a>g | g4 :|
+V:4 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+|:(e > e) | e2 e2 e2 | e e3 e2 | e3 e B2 | e4 :|
+V:1
+B>G | (e3 d) c > B | B2 G2 B>G | e2 ed c=B | c2{dc=Bcd}He2
+w:No* flow-er of her kin-dred No* rose-bud* is* nigh,*
+w:Thus* kind\-* ly I scat-ter Thy* leaves o'er* the* bed*
+w:When* true* hearts lie with-ered, And* fond ones* have* flown,*
+V:2
+E2 | (G3 G) A > G | G2 E2 E2 | E2 GF ED | E2- HE2
+V:3
+g>b | (b3 b) e' > e' | e'2 b2 g2 | g2 g2 g2 | g2- Hg2
+V:4
+e2 | (e3 e) e > e | e2 e2 e2 | c2 c2 G2 | c2- Hc2
+V:1
+(E > F) | G2 ed c>B | B G3 E>F | (G B2 G) F > E | E4 |]
+w:To re-flect back* her* blush-es, Or* give** sigh for sigh.
+w:Where thy mates of* the* gar-den Lie* scent\-** less and dead.
+w:Oh,* who would* in\-* hab-it This* bleak** world a-lone!
+V:2
+(B, > D) | E2 G2 A>G | G E3 E2 | (E G2 E) D > E | E4 |]
+V:3
+(g > a) | b2 b2 e'2 | e' b3 g>a | b4 a > g | g4 |]
+V:4
+(e > e) | e2 e2 e2 | e e3 e2 | e4 B > e | e4 |]
+
+X:30
+T:Nancy Lee
+C:Frederick E. Weatherly/Stephen Adams
+S:From "The One Hundred and One Best Songs" / The Cable Company / 1919 / Chicago, Illinois
+M:6/8
+L:1/8
+Q:1/4=160
+%%staves [(1)]
+K:Eb
+V:1 clef=treble
+!f!"^{<__With spirit"B | B3-B2 c | B2 G E2 C | B,3- (B,EG) | B3 Lc3 | LB3-B FG | A3 Lc3 |
+w:1.~Of all* the wives as e'er you know,____ Yeo-ho!* lads!* ho! Yeo\-
+w:2.~The har\-* bor's past, the breez-es blow,____ Yeo-ho!* lads!* ho! Yeo\-
+w:3.~The bo'\-* s'n pipes the watch be-low,____ Yeo-ho!* lads!* ho! Yeo\-
+LB3-B EF | G2 z z2 B | B3-B2 c | B2 G E2 C | B,3- (B,EG) | B3 Le3 |
+w:ho!* Yeo\-* ho! There's none* like Nan-cy Lee, I trow,____ Yeo\-
+w:ho!* Yeo\-* ho! 'Tis long* ere we come back, I know,____ Yeo\-
+w:ho!* Yeo\-* ho! Then here's* a health be-fore we go,____ Yeo\-
+Ld3-d LG=A | B3-B L=AB | G3 z2 z | z2 z z2 G | A2 A B2 B |
+w:ho!* Yeo\-* ho!* Yeo\-* ho! See there she stands an'
+w:ho!* Yeo\-* ho!* Yeo\-* ho! But true an' bright from
+w:ho!* Yeo\-* ho!* Yeo\-* ho! A long, long life to
+c2 c d2 d | B3-B2 G | B3 z2 G | B2 B =A2 =A | A2 A F2 F |
+w:waves her hand up-on* the quay, An' ev-'ry day when I'm a-way she'll
+w:morn till night my home* will be, An' all so neat an' snug an' sweet for
+w:my sweet wife an' mates* at sea, An' keep my bones from Da-vy Jones wher\-
+c3-c B=A | B3 z2 B | B2 B c2 c | d2 d e2 c | B3-B2 G | B3 Lc3 |
+w:watch* for* me, An' whis-per low when temp-ests blow, for jack* at sea; Yeo\-
+w:Jack* at* sea, An' Nan-cy's face to bless the place, an' wel\-* come me; Yeo\-
+w:e'er* we* be, An' may you meet a mate as sweet as Nan\-* cy Lee; Yeo\-
+Ld3-d BG | F3-F EC | B,3 z2 z | z2 z B3 | e3-e2 B | e2 B d2 c |
+w:ho!* lads!* ho!* Yeo\-* ho! The sail\-* or's wife the sail-or's
+B3-B2 G | E3 Lc3 | LB3-B FG | A3 c3 | B3-B EF | G3-G2 B | e3-e2 B |
+w:star* shall be; Yeo\- ho!* we* go a-cross* the* sea;* The sail\-* or's
+e2 B d2 c | B3-B2 G | E3 G3 | A2 G A2 B | c3 d3 | e6- | e3 z2 |]
+w:wife the sail-or's star* shall be, The sail-or's wife his star shall be._
+
+X:44
+T:Old Folks at Home
+% Four-part piano arrangement for standard notation.
+C:Stephen C. Foster, 1851/Stephen C. Foster
+S:From "The One Hundred and One Best Songs" / The Cable Company / 1919 / Chicago, Illinois
+M:4/4
+L:1/8
+Q:1/4=120
+%%staves [(1 2) (3 4)]
+K:D
+V:1 clef=treble
+|:F4 E D F E | D2 d2 B d3 | A4 F2 D2  | E6 z2 |
+w:1.~~'Way down up-on the Swa-nee Riv-er, Far, far a-way,
+w:~~~All up and down de whole cre-a-tion, Sad-ly I roam;
+w:2.~~All roun' de lit-tle farm I wan-dered, When I was young;
+w:~~~When I was play-ing with my broth-er, Hap-py was I;
+w:3.~~One lit-tle hut a-mong de bush-es, One that I love,
+w:~~~When will I see de bees a-hum-ming, All roun' de comb?
+V:2 clef=treble
+|:D4 C D C C | D2 F2 G G3 | F4 D2 D2 | C6 z2 |
+V:3 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+|:a4 g f a g | f2 a2 g b3 | d'4 a2 f2 | a6 z2 |
+V:4 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+|:d4 d d A A | d2 d2 g g3 | d4 d2 d2 | A6 z2 |
+V:1
+F4 E D F E | D2 d2 B d3 | A2 F > D E2 (E > E) | D6 z2 :|
+w:Dere's wha my heart is turn-ing ev-er, Dere's wha de old folks* stay.
+w:Still long-ing for de old plan-ta-tion, And for de old folks at home.
+w:Den man-y hap-py days I squandered,* Man-y de songs I* sung.
+w:Oh! take me to my kind old moth-er, There let me live and* die.
+w:Still sad-ly to my mem-'ry rush-es, No mat-ter where I* roam.
+w:When will I hear de ban-jo tum-ming, Down in my good old* home?
+V:2
+D4 C D C C | D2 F2 G G3 | F2 D > D D2 (C > C) | D6 z2 :|
+V:3
+a4 g f a g | f2 a2 g b3 | d'2 a > f g2 (g > g) | f6 z2 :|
+V:4
+d4 d d A A | d2 d2 g g3 | a2 A > A A2 (A > A) | d6 z2 :|
+V:1
+"^REFRAIN."c3 d e2 A2 | A3 B A2 d2 | d2 B2 G2 B2 | A6 z2 |
+w:
+w:All de world is sad and drear-y, Ev-'ry-where I roam;
+V:2
+G3 G G2 G2 | F3 G F2 A2 | B2 G2 D2 G2 | F6 z2 |
+V:3
+e'3 d' c'2 c'2 | d'3 d' d'2 d'2 | d'2 d'2 b2 d'2 | d'6 z2 |
+V:4
+a3 a a2 a2 | d3 d d2 f2 | g2 g2 g2 g2 | d6 z2 |
+V:1
+F4 E D F E | D2 d2 B d3 | A2 F > D E2 E > E | D6 z2 |]
+w:
+w:Oh! dark-ies, how my heart grows wear-y, Far from de old folks at home.
+V:2
+D4 C D C C | D2 F2 G G3 | F2 D > D D2 C > C | D6 z2 |]
+V:3
+a4 g f a g | f2 a2 g b3 | d'2 a > f g2 g > g | f6 z2 |]
+V:4
+d4 d d A A | d2 d2 g g3 | a2 A > A A2 A > A | d6 z2 |]
+
+X:59
+T:Drink to Me Only With Thine Eyes
+% Four-part piano arrangement for standard notation.
+C:Ben Jonson/Old English Air
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:6/8
+L:1/8
+Q:1/4=70
+%%staves [(1 2) (3 4)]
+K:Eb
+V:1 clef=treble
+G G G A2 A | BA G FG A | BE A G2 F | E3-E2 z |
+w:1.~Drink to me on-ly with* thine eyes,* And I* will pledge with mine;*
+w:2.~I sent thee late a ro\-* sy wreath,* Not so* much hon-'ring thee*
+V:2 clef=treble
+E E E D2 D | ED E FE D | E2 E E2 D | E3-E2 z |
+V:3 clef=bass
+%%MIDI transpose -24
+b b b b2 b | b2 b b2 b | b2 c' b2 a | g3-g2 z |
+V:4 clef=bass
+%%MIDI transpose -24
+e e e f2 f | gf e de f | g2 a b2 B | e3-e2 z |
+V:1
+G G G A2 A | BA G FG A | BE A G2 F | E3-E2 B |
+w:Or leave a kiss with-in* the cup,* And I'll* not ask for wine;* The
+w:As giv-ing it a hope* that there* It could* not with-ered be;* But
+V:2
+E E E D2 D | ED E FE D | E2 E E2 D | E3-E2 E |
+V:3
+b b b b2 b | b2 b b2 b | b2 c' b2 a | g3-g2 g |
+V:4
+e e e f2 f | gf e de f | g2 a b2 B | e3-e2 e |
+V:1
+BG B e2 B | BG B B2 x B | c2 B BA G | (G3 F2) z |
+w:thirst* that from the soul* doth rise, Doth ask a drink* di-vine;*
+w:thou* there-on didst on\-* ly breathe, And sent'st it back* to me,*
+V:2
+E2 G G2 G | GE E GF x E | E2 E D2 E | (E3 D2) z |
+V:3
+gb g b2 b | b2 b d'2 x b | a2 b b2 b | b3-b2 z |
+V:4
+e2 e e2 e | e2 g ba x g | a2 g f2 e | B3-B2 z |
+V:1
+G G G A2 A | BA G (FG A) | (B E) A G2 F | E3-E2 z |]
+w:But might I of Jove's nec\-* tar sip,* I would* not change for thine.*
+w:Since when it grows and smells,* I swear,** Not of it-self, but thee.*
+V:2
+E E E D2 D | ED E E2-E | E - E E E2 D | E3-E2 z |]
+V:3
+b b b b2 b | b2 b (c'b a) | g - g c' b2 a | g3-g2 z |]
+V:4
+e e e f2 f | gf e (ag f) | B - B B B2 B | e3-e2 z |]
+
+X:65
+T:Annie Laurie
+% Four-part piano arrangement for standard notation.
+C:Douglas of Fingland / Lady John Scott
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:4/4
+L:1/4
+Q:1/4=120
+%%staves [(1 2) (3 4)]
+K:C
+V:1 clef=treble
+E3/4D/4 | C>C c>B | B A2 A | G>E (ED/) C/ | D3 (E3/4 D/4) |
+w:Max\-* wel-ton's braes are bon-nie, Where ear-ly fa's* the dew, And 'twas
+w:Her* brow is like the snaw-drift, Her throat is like* the swan, her*
+w:Like* dew on th'~gow-an ly-ing Is~th' fa' o'her fair-y feet, And like
+V:2 clef=treble
+C3/4B,/4 | C>C E>G | G F2 F | E>C (CB,/) C/ | B,3 B,3/4- B,/4 |
+V:3 clef=bass
+%%MIDI transpose -24
+g3/4f/4 | e>e g>c' | c' c'2 c' | c'>g (gf/) e/ | g3 g3/4- g/4 |
+V:4 clef=bass
+%%MIDI transpose -24
+c | c>c c>e | d d2 d | c>c c>c | G3 (g3/4 f/4) |
+V:1
+C>C c>B | B A2 A | G>E D>C | C2 z G |
+w:there that An-nie Lau-rie Gi'ed me her prom-ise true; Gi'ed
+w:face it is the fair-est That e'er the sun shone on; That
+w:winds in sum-mer sigh-ing, Her voice is low and sweet; Her
+V:2
+C>C E>G | G F2 F | E>C B,>C | C2 z E |
+V:3
+g>g g>c' | c' c'2 c' | c'>g f>e | e2 z c' |
+V:4
+e>e c>e | f f2 f | g>g G>c | c2 z c |
+V:1
+c>c d>d | e3 G | c>c d>d | e3 e3/4 d/4 |
+w:me her prom-ise true, Which ne'er for-got will be, And for
+w:e'er the sun shone on, And dark blue is her e'e, And for
+w:voice is low and sweet, And she's a'~the world to me, And for
+V:2
+G>G G>G | G3 G | E>E A>A | ^G3 =G3/4 F/4 |
+V:3
+c'>c' b>b | c'3 c' | c'>c' c'>b | b3 b3/4 b/4 |
+V:4
+e>e g>g | c3 e | a>a f>f | e3 =g3/4 g/4 |
+V:1
+c>B A c/A/ | G E2 E3/4D/4 | (C/ c) E/ D>C | C2-C/ z/ |]
+w:bon-nie An-nie* Lau-rie I'd* lay* me doon and dee.*
+V:2
+E>G F F | E C2 C3/4B,/4 | C3/2 C/ B,>C | C2-C/ z/ |]
+V:3
+c'>c' c' a/c'/ | c' g2 g3/4f/4 | e>g f>e | e2-e/ z/ |]
+V:4
+a>e f f | c c2 c | c>c G>c | c2-c/ z/ |]
+
+X:66
+T:Oh, Wert Thou in the Cauld Blast
+% Four-part piano arrangement for standard notation.
+C:Robert Burns/F. Mendelssohn
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:3/4
+L:1/8
+Q:1/4=88
+%%staves [(1 2) (3 4)]
+K:Bb
+V:1 clef=treble
+F2 G F F B | (c > d) d3 f | d > c c3 d | B > A A3
+w:1.~Oh, wert thou in the cauld* blast, On yon-der lea, On yon-der lea,
+w:2.~Oh, wert thou in the wild-est waste, Sae bleak and bar, Sae bleak and bare,
+V:2 clef=treble
+D2 E D D D | (F > F) F3 F | F > F F3 F | F > F F3
+V:3 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+b2 b b b b | (a > b) b3 d' | b > a a3 b | d' > c' c'3
+V:4 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+B2 B B B B | (f > f) B3 B | f > f f3 f | f > f f3
+V:1
+F | F > F G F B F | G4-G e | c > B B3 F | E > D D4 |
+w:My plai-die to the an-gry airt,_ I'd shel-ter thee, I'd shel-ter thee;
+w:The des-ert were a Par-a-dise_ If thou wert there, If thou wert there;
+V:2
+E | D > D E D D D | E4-E G | E > D D3 D | C > B, B,4 |
+V:3
+a | b > b b b b b | (b2(=b2)c') c' | a > b b3 b | a > f f4 |
+V:4
+f | B > B B B B B | e4- e e | f > B B3 B | f > B B4 |
+V:1
+z D G B d B | A > c B3 d | d > c B2 z A | {c}B > A B4 |
+w:Or did mis-for-tune's bit-ter storms A-round thee blaw, A-round thee blaw,
+w:Or were I mon-arch of the globe, With thee to reign, With thee to reign,
+V:2
+z B, D G B G | ^F > A G3 B | B > A G2 z ^F | G > ^F G4 |
+V:3
+b2 b b g b | e' > c' d'3 d' | e' > e' d'2 z d' | d' > d' d'4 |
+V:4
+G2 g g g g | g > g g3 g | c > c d2 z d | g > g g4 |
+V:1
+z B B B A G | FG A3 d | c > B B3 F | E > D D4 |]
+w:Thy shield should be my bos\-* om, To share it a', To share it a'.
+w:The bright-est jewel in my* crown Wad be my queen, Wad be my queen.
+V:2
+z G G G C C | C2 F3 F | E > D D3 D | C > B, B,4 |]
+V:3
+_d'2 _d' _d' b b | ab c'3 a | a > b b3 b | a > f f4 |]
+V:4
+=e2 =e =e =e =e | f2 f3 f | B > B B3 B | F > B B4 |]
+
+X:67
+T:Robin Adair
+% Four-part piano arrangement for standard notation.
+C:Caroline Keppel/Scotch Melody
+S:From "The One Hundred and One Best Songs" / The Cable Company / 1919 / Chicago, Illinois
+M:3/4
+L:1/8
+Q:1/4=88
+%%staves [(1 2) (3 4)]
+%%vocalfont Times-Roman 11
+K:Bb
+V:1 clef=treble
+|:F2 G2 A2 | B3 c d2 | (F<B) (G<B) (A<c) | B4 z2 :| d2 d2 d2 | f3 F F2 |
+w:1.~What's this dull town to me? Rob\-* in's* not* near;
+w:~~What was't I wished to see, What* wished* to* hear? Where's all the joy and mirth
+w:2.~What made th'~as-sem-bly shine? Rob\-* in* A\-* dair;
+w:~~What made the ball so fine? Rob\-* in* was* there; What, when the play was o'er,
+w:3.~But now thou'rt cold to me, Rob\-* in* A\-* dair;
+w:~~But now thou'rt cold to me, Rob\-* in* A\-* dair; Yet him I loved so well,
+V:2 clef=treble
+|:D2 E2 F2 | F3 F F2 | F2 G2 E2 | D4 z2 :| F2 F2 F2 | F3 F F2 |
+V:3 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+|:b2 b2 c'2 | b3 a b2 | b2 b2 a2 | b4 z2 :| b2 b2 b2 | c'3 c' c'2 |
+V:4 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+|:B2 e2 e2 | d3 c B2 | d2 e2 f2 | B4 z2 :| b2 b2 b2 | a3 a a2 |
+V:1
+d2 (d f) ( (3ecA) | B3 G F2 | f2 ed cB | B3 c d2 | (F<B) (G<B) (A<c) | B4 z2 |]
+w:That made this town* a heav'n on earth? Oh, they're* all* fled with thee, Rob\-* in* A\-* dair.
+w:What made* my** heart so sore? Oh! it* was* part-ing with Rob\-* in* A\-* dair.
+w:Still in* my** heart shall dwell, Oh! I* can* ne'er for-get Rob\-* in* A\-* dair.
+V:2
+F2 F- F ( (3F-FE) | D3 E D2 | F2 GF ED | F3 F F2 | F2 G2 E2 | D4 z2 |]
+V:3
+b2 (b d') (3c'-c'-c' | b3 b b2 | d'2 b2 f2 | b3 a b2 | b2 b2 a2 | b4 z2 |]
+V:4
+b2 b- b ( (3a-af) | g3 e B2 | B2 B2 B2 | d3 f b2 | d2 e2 f2 | B4 z2 |]
+
+X:68
+T:Sweet Genevieve
+% Four-part piano arrangement for standard notation.
+C:Geo. Cooper/Henry Tucker Arr. by Henry S. Sawyer
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:3/4
+L:1/8
+Q:1/4=88
+%%staves [(1 2) (3 4)]
+K:Bb
+V:1 clef=treble
+"@@Andante"F2 | d > ^c d2 e2 | d > ^c =c2 F2 | c > =B c2 d2 | (3cB G F2
+w:1.~O Gen-e-vieve, I'd give the world To live a-gain the love\-* ly past!
+w:2.~Fair Gen-e-vieve, my ear-ly love, The years but make thee dear\-* er far!
+V:2 clef=treble
+D2 | F > =E F2 G2 | F > =E _E2 _E2 | E > D E2 F2 | (3ED E D2
+V:3 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+b2 | b > b b2 b2 | a > a a2 c'2 | a > ^g a2 a2 | (3f-f g b2
+V:4 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+B2 | B > B B2 B2 | f > f f2 a2 | f > f f2 f2 | (3B-B B B2
+V:1
+F2 | d > ^c d2 f2 | f > =e e2 e2 | d > ^c d2 F2 | c > B B2 z
+w:The rose of youth was dew im-pearled, But now it with-ers in the blast.
+w:My heart shall nev-er, nev-er rove, Thou art my on-ly guid-ing star.
+V:2
+D2 | F > =E F2 _A2 | G > G G2 _G2 | F > =E F2 D2 | E > D D2 z
+V:3
+b2 | b > b b2 b2 | b > b b2 b2 | b > b b2 b2 | a > b b2 z
+V:4
+B2 | B > B B2 d2 | e > e e2 e2 | f > f f2 f2 | f > B B2 z
+V:1
+B | c d e2 G2 | F B d2 B2 | c d f2 e2 | B c d2 z
+w:I see thy face in ev-'ry dream, My wak-ing tho'ts are full of thee;
+w:For me the past has no re-gret, What-e'er the years may bring to me;
+V:2
+F | F F F2 E2 | D D F2 F2 | G G G2 G2 | G G ^F2 z
+V:3
+b | a b c'2 a2 | b b b2 d'2 | c' =b d'2 c'2 | _b a a2 z
+V:4
+d | f f f2 f2 | B B B2 B2 | e d =B2 c2 | e e d2 z
+V:1
+d | d d e2 d2 | c d G2 A2 | B B c2 B2 | A G HdHe
+w:Thy glance is in the star-ry beam That falls a-long the sum-mer sea.*
+w:I bless the hour when first we met The hour that gave me love and thee!*
+V:2
+^F | ^F ^F ^F2 ^F2 | ^F ^F G2 ^F2 | G G A2 G2 | ^C G H^FH=F
+V:3
+a | a d' c'2 a2 | d' d' d'2 d'2 | d' d' e'2 d'2 | a ^c' Hd'Ha
+V:4
+d | d d d2 d2 | d c B2 A2 | G g ^f2 g2 | =e _e HdHc
+V:1
+H"@{^^CHORUS"e2 | d > ^c d2 e2 | d > ^c =c2 F2 | c > =B c2 d2 | (3c_B G F2 F2 |
+w:O Gen-e-vieve, sweet Gen-e-vieve! The days may come, the days* may go, But
+V:2
+HG2 | F > =E F2 G2 | F > =E _E2 _E2 | E > D E2 F2 | (3ED E D2 D2 |
+V:3
+Ha2 | b > b b2 b2 | a > a a2 c'2 | a > ^g a2 a2 | (3f-f g b2 b2 |
+V:4
+Hf2 | B > B B2 B2 | f > f f2 a2 | f > f f2 f2 | (3B-B B B2 B2 |
+V:1
+%%LineSep 10pt
+d > ^c d2 f2 | f > =e He2 e2 | d > ^c d2 F2 | c > B HB2 || "@>ad lib"HOe2 | d > ^c Hd2 ||
+w:still the hands of mem-'ry weave The bliss-ful dream of long a-go. O Gen-e-vieve!
+V:2
+F > =E F2 _A2 | G > G HG2 _G2 | F > =E F2 D2 | E > D HD2 || "@>ad lib"OHG2 | F > =E HF2 ||
+V:3
+b > b b2 b2 | b > b Hb2 b2 | b > b b2 b2 | a > f Hf2 || "@>ad lib"OHb2 | b > b Hb2 ||
+V:4
+B > B B2 d2 | e > e He2 e2 | f > f f2 f2 | f > B HB2 || "@>ad lib"OHB2 | B > B HB2 ||
+
+X:69
+T:The Flowers That Bloom in the Spring
+% Four-part piano arrangement for standard notation.
+C:W.S. Gilbert/Arthur Sullivan
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:6/8
+L:1/8
+Q:1/8=170
+%%staves [(1 2) (3 4)]
+%%vocalfont Times-Roman 13
+K:Ab
+V:1 clef=treble
+A | A > B A A > B A | A z e e z c | c > B A B E B | A3 z2
+w:1.~The flow-ers that bloom in the spring, Tra la, Breathe prom-ise of mer-ry sun-shine
+w:2.~The flow-ers that bloom in the spring, Tra la, Have noth-ing to do with the case;
+V:2 clef=treble
+E | E > E E E > E E | E z A A z E | E > D C D D D | C3 z2
+V:3 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+c' | c' > d' c' c' > d' c' | c' z c' c' z a | a > g a g g g | a3 z2
+V:4 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+a | a > a a a > a a | a z a a z A | e > e e e e e | A3 z2
+V:1
+A/- A/ | A > B A A > B A | A z e e z c | c > d c c > d c | c z f f z
+w:As we mer-ri-ly dance and we sing, Tra la, We wel-come the hope that they bring, Tra la,
+w:I've* got to take un-der my wing, Tra la, A most un-at-tract-ive old thing, Tra la,
+V:2
+E/- E/ | E > E E E > E E | E z A A z E | =E > =E =E =E > =E =E | F z A A z
+V:3
+c'/- c'/ | c' > d' c' c' > d' c' | c' z c' c' z a | b > b b b > b b | a z c' c' z
+V:4
+a/- a/ | a > a a a > a a | a z a a z a | g > g g c > c c | f z f f z
+V:1
+c/- c/ | B > c B B > c B | e3 E2 c | B > c B B > c B | E3 z2 E |
+w:Of a sum-mer of ro-ses so fine, Of a sum-mer of ro-ses so fine; And
+w:With a car-i-ca-ture of a face, With a car-i-ca-ture of a face; And
+V:2
+F/- F/ | =D > =D =D =D > =D =D | E3 E2 E | E > E E =D > =D =D | E3 z2 E |
+V:3
+a/- a/ | a > a a a > a a | g3 g2 a | g > g g a > a a | g3 z2 c |
+V:4
+f/- f/ | f > f f B > B B | e3 e2 A | B > B B B > B B | e3 z2 c |
+V:1
+F G A d c d | B A B G2 E | F G A d c d | B A B HG2
+w:that's what we mean when we say that a thing Is wel-come as flow-ers that bloom in the spring.
+w:that's what I mean when I say or I sing, "Oh, both-er the flow-ers that bloom in the spring!"
+V:2
+F G A d c d | B A B G2 E | F G A d c d | B A B HG2
+V:3
+d e f b a b | g f g e2 c | d e f b a b | g f g He2
+V:4
+d e f b a b | g f g e2 c | d e f b a b | g f g He2
+V:1
+E | A > A A Ae E | A > A A Ae E/- E/ | c > B A B G E | A3 z2
+w:Tra, la, la, la, la,* Tra, la, la, la, la,* As we mer-ri-ly dance and we sing,
+w:Tra, la, la, la, la,* Tra, la, la, la, la,* I've* got to take un-der my wing,
+V:2
+E | E > E E E2 C | E > E E E2 C/- C/ | E > D C D D D | C3 z2
+V:3
+d' | c' > c' c' c'2 a | c' > c' c' c'2 a/- a/ | a > g a g b g | a3 z2
+V:4
+g | a > a a a2 a | a > a a a2 a/- a/ | e > e e e e e | A3 z2
+V:1
+E | A > A A Ae A | A > A A (AHa) A | B > c d B e e | A3 z2 |]
+w:Tra, la, la, la, la,* Tra, la, la, la, la,* The flow-ers that bloom in the spring.
+w:Tra, la, la, la, la,* Tra, la, la, la, la,* The flow-ers that bloom in the spring.
+V:2
+C | E > E E E2 E | F > F F F- HF F | A > A A G G G | A3 z2 |]
+V:3
+a | c' > c' c' c'2 c' | c' > c' c' c'- Hc' c' | f' > f' f' e' e' d' | c'3 z2 |]
+V:4
+A | a > a a a2 a | f > f f f- Hf f | d' > c' b e e e | a3 z2 |]
+
+X:76
+T:In the Secret of His Presence
+% Four-part piano arrangement for standard notation.
+C:Ellen Lakshmi Goreh, of India/George C. Stebbins
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:2/4
+L:1/8
+Q:1/4=65
+%%staves [(1) (2 3) (4 5)]
+%%vocalfont Times-Roman 13
+%%DecosBelowSt 3 yes
+%%NoDecos 3 no
+%%NoDecos 4 no
+K:G
+V:1 clef=treble
+"@{Slowly"D/ D/ | D B B B | B A E G | G F E D | D3
+w:1.~In the se-cret of His pres-ence how my soul de-lights to hide!
+w:2.~When my soul is faint and thirst-y, 'neath the shad-ow of His wing
+w:3.~On-ly this I know: I tell Him all my doubts, my grifs and fears;
+w:4.~Would you like to know the sweet-ness of the se-cret of the Lord?
+V:2 clef=treble
+D | DBBB | BAEG | GFED | D3
+V:3 clef=treble
+B, | B,DDD | EECC | C4 | B,3
+V:4 clef=bass
+%%MIDI transpose -24
+"^{Slowly"g | gggg | ggge | aagf | g3
+V:5 clef=bass
+%%MIDI transpose -24
+G | G4 | c4 | d4 | G3
+V:1
+D/ D/ | D F F A | A G G B | B A E A | A3 D/ D/ |
+w:Oh, how pre-cious are the les-sons which I learn at Je-sus' side! Earth-ly
+w:There is cool and pleas-ant shel-ter, and a fresh and crys-tal spring; And my
+w:Oh, how pa-tient-ly He lis-tens! and my droop-ing soul He cheers: Do you
+w:Go and hide be-neath His shad-ow: this shall then be your re-ward; And when\-
+V:2
+D | D[DF][DF][DA] | [DA][DG][DG][GB] | [GB][GA]E[GA] | [F3A] D |
+V:3
+B, | CCCC | B,B,B,D | ^C4 | D3 D |
+V:4
+g | faaf | gggg | eega | a3 f |
+V:5
+G | d4 | G4 | A4 | d4 |
+V:1
+D c c c | c B B B | B F G A | B3 B/ B/ | B d d d |
+w:cares can nev-er vex me, nei-ther tri-als lay me low; For when Sa-tan comes to
+w:Sav-ior rests be-side me, as we hold com-mun-ion sweet: If I tried, I could not
+w:think he Ne'er re-proves me? What a false friend He would be, If He nev-er, nev-er
+w:e'er you leave the si-lence of that hap-py meet-ing  place, You must mind and bear the
+V:2
+Dccc | cBBB | BFGA | B3 B | Bddd |
+V:3
+DDEF | EDDD | ^D^DEE | ^D3 ^D | =DDGG |
+V:4
+ffga | gggg | fbba | f3 f | gbbb |
+V:5
+d4 | G4 | B2 ec | B3 B | G2 =f2 |
+V:1
+d c G "^rit."A | _B _B _B _B | H_B2 =A G | D > D D D | D3 |]
+w:tempt me, to the se-cret place I go, to the se-cret place I go.
+w:ut-ter what He says when thus we meet, what He says when thus we meet.
+w:told me of the sins which He must see, of the sins which He must see.
+w:im-age of the Mas-ter in your face, of the Mas-ter in your face.
+V:2
+dcG"^rit."A | _B_B[_B_A=F][_BA=F] | H[_B2G] =AG | D>DDD | D3 |]
+V:3
+GGG"^rit."G | GGDD | H_E2 _E^C | D>DCC | B,3 |]
+V:4
+c'c'c'"^rit."c' | d'd'_b_b | H_b2 c'_b | [=b3/2g][b/g]a[fa] | g3 |]
+V:5
+e2 _e2 | d2 _B2 | H_e2 _e_e | d4 | G3 |]
+
+X:79
+T:Rock of Ages
+% Four-part piano arrangement for standard notation.
+C:Augustus M. Toplady/Thomas Hastings
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:3/4
+L:1/8
+Q:1/4=110
+%%staves [(1 2) (3 4)]
+K:Bb
+V:1 clef=treble
+F > G | F2 D2 B > G | F4 B > c | d3 c B A | B4
+w:1.~Rock of A-ges, cleft for me, Let me hide my-self in Thee;
+w:2.~Could my tears for-ev-er flow, Could my zeal no lan-gour know,
+w:3.~While I draw this fleet-ing breath, When my eyes shall close in death,
+V:2 clef=treble
+D > E | D2 B,2 D > E | D4 F > G | F3 E D C | D4
+V:3 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+b > b | b2 f2 f > b | b4 b > b | b3 f f f | f4
+V:4 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+B > B | B2 B2 B > B | B4 d > e | f3 f F F | B4
+V:1
+A > B | c3 c A F | B4 A > B | c3 c A F | B4
+w:Let the wa-ter and the blood, From Thy wound-ed side which flowed,
+w:These for sin could not a-tone; Thou must save, and Thou a-lone;
+w:When I rise to worlds un-known, And be-hold Thee on Thy throne,
+V:2
+C > D | E3 E E E | D4 C > D | E3 E E E | D4
+V:3
+f > b | a3 a c' a | b4 f > b | a3 a c' a | b4
+V:4
+f > f | f3 f f f | B4 f > f | f3 f f f | B4
+V:1
+F > G | F2 D2 B > G | F4 B > c | d3 c B A | B4 |]
+w:Be of sin the doub-le cure, Save from wrath and make me pure.
+w:In my hand no price I bring; Sim-ply to Thy cross I cling.
+w:Rock of A-ges, cleft for me, Let me hide my-self in Thee.
+V:2
+D > E | D2 B,2 D > E | D4 F > G | F3 E D C | D4 |]
+V:3
+b > b | b2 f2 f > b | b4 b > b | b3 f f f | f4 |]
+V:4
+B > B | B2 B2 B > B | B4 d > e | f3 f F F | B4 |]
+
+X:84
+T:Jesus, Tender Shepherd, Hear Me
+% Four-part piano arrangement for standard notation.
+C:Claribel / Mrs. Charles Barnard (Claribel), 1834-1869
+S:From "The One Hundred and One Best Songs" / The Cable Company / 1919 / Chicago, Illinois
+M:4/4
+L:1/4
+Q:1/4=80
+%%staves [(1 2) (3 4)]
+K:G
+V:1 clef=treble
+B A G D | F E E D | G G B B | A B A2 |
+w:1.~Je-sus, ten-der Shep-herd, hear me; Bless Thy lit-tle lamb to-night;
+w:2.~All this day Thy hand has led me, And I thank Thee for Thy care;
+w:3.~Let my sins be all for-giv-en; Bless the friends I love so well;
+V:2 clef=treble
+G F E D | D C C B, | B, B, D D | ^C ^C D2 |
+V:3 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+d' c' b g | g g g g | e g g g | g g f2 |
+V:4 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+g d e B | c c G G | e e B G | A A d2 |
+V:1
+B A G D | F E E D | G G G F/G/ | B A G2 | G2 G2 |]
+w:Thro' the dark-ness be Thou near me, Keep me safe till* morn-ing light.**
+w:Thou hast clothed me, warmed and fed me, Lis-ten to my* eve-ning prayer!**
+w:Take me, when I die, to heav-en, Hap-py there with* Thee to dwell. A-MEN.
+V:2
+D F E D | D C C B, | B, C ^C ^C | D C B,2 | C2 B,2 |]
+V:3
+g c' b g | g g g g | g g g g | g f g2 | e2 d2 |]
+V:4
+g d e B | c c G G | e e _e _e | d d G2 | c2 G2 |]
+
+X:101
+T:He Leadeth Me
+% Four-part piano arrangement for standard notation.
+C:Rev. Joseph H. Gilmore/William B. Bradbury
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:4/4
+L:1/4
+Q:1/4=100
+%%staves [(1 2) (3 4)]
+%%vocalfont Times-Roman 12
+K:D
+V:1 clef=treble
+A | F>E D A | B G G B | A>F F E/D/ | F F HE
+w:1.~He lead-eth me! O bless-ed tho't! O words with heav'n-ly* com-fort fraught!
+w:2.~Some-times 'mid scenes of deep-est gloom, Some-times where E-den's* bow-ers bloom,
+w:3.~Lord, I would clasp Thy hand in mine, Nor ev-er mur-mur* nor re-pine;
+w:4.~And when my task on earth is done, When, by Thy grace, the* vic-t'ry's won,
+V:2 clef=treble
+F | D>A, A, D | D D D G | F>D D D | D D HC
+V:3 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+a | a>g f f | g b b d' | d'>a a g/f/ | a a Ha
+V:4 clef=bass
+%%MIDI transpose -24
+%%jsastem=dn
+d | d>d d d | g g g g | d>d d d | A A HA
+V:1
+A | F>E D A | B G Hd c/B/ | A F F/E/ D/E/ | F>E D
+w:What-e'er I do, wer-e'er I be, Still* 'tis God's hand* that* lead-eth me.
+w:By wa-ters still, o'er troub-led sea, Still* 'tis His hand* that* lead-eth me.
+w:Con-tent, what-ev-er lot I see, Since* 'tis my God* that* lead-eth me.
+w:E'en death's cold wave I will not flee, Since* God thro' Jor\-* don* lead-eth me.
+V:2
+C | D>A, A, D | D G HG G | F D D/C/ B,/C/ | D>C D
+V:3
+a | a>g f f | g b Hb d' | d' a b f | a>g f
+V:4
+A | d>d d d | g g Hg g | d d B B | A>A d
+V:1
+"^REFRAIN."A |: A d c e | d c/B/ A B | A F F/E/ D/E/ |1 F F HE A :|2 F>E HD |]
+w:He lead-eth me! He lead-eth* me! By His own hand* He* lead-eth me; His
+w:* faith-ful fol-low'r I would* be, For by His hand* He* **** lead-eth me.
+V:2
+F |: F F E A | A A/G/ F G | F D D/C/ B,/C/ |1 D D HC E :|2 D>C HD |]
+V:3
+a |: d' a a c' | d' d' d' d' | d' a b f |1 a a Ha c' :|2 a>g Hf |]
+V:4
+d |: d f a g | f g d d | d d B B |1 A A HA A :|2 A>A Hd |]

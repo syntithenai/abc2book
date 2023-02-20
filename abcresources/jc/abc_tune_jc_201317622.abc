@@ -1,0 +1,15 @@
+X:1
+T:North Beat
+R:Reel
+C:Ethan Lewis
+M:C|
+L:1/8
+K:D
+%%printtempo 0
+Q:180
+"D"AD D/D/D ADBD| AD D/D/D CD D/D/D| "G"GD D/D/D CD D/D/D|"G"GABd "A"cAFG|
+"D"AD D/D/D ADBD| AD D/D/D CD D/D/D| "Em"B,E"D/F#"FA, FG"G"G,G | AFGF "A"EFED::
+"D"d3 d2 c Ac| defe dcAc |1 "G" d3 d2 c Ac| defe Beec:|2
+"Em"dzdc dcAc| "G"defd efg/f/e|:"D"d3 g fedB|
+"G"ABAG "A"FDFA |"Bm" Bg g/g/f gfed| "A"c/B/A eA fAeA| "D" f3 g fedB | "D/F#" ABAG FDFA|1
+"G" aA A/A/A aAbA |"A" agfe gfed:|2 "D"agfe gffg- |"Em"gfef gf"G"ed:|"D"d8|]

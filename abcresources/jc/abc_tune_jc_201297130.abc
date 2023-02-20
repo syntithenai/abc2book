@@ -1,0 +1,16 @@
+X: 1
+T: Kirk's Hornpipe
+R: hornpipe
+F: http://www.math.mun.ca/~bshawyer/reels/KirksHornpipe.abc 2011-3-22
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+AG \
+| "D"FG AF D2 d2 | "A7"cd ec A2 ef \
+|1,3 "Em"gf ed "E7"B2 ed | "A7"c2 A2 A2 \
+:|2,4 "G"gf ed "A7"Bd ce | "D"d2 d2 d2 :|
+|: fg \
+| "D"af df a2 ba | "A7"ge ce g2 ag \
+|1,3 "D"fe dc "E7"d2 ed | "A7"c2 A2 A2 \
+:|2,4 "D"fe dc "G"Bd "A7"ce | "D"d2 d2 d2 :|

@@ -1,0 +1,30 @@
+X:1
+T:Oddfellows, The
+R:Reel
+C:J.Scott Skinner
+S:ABC TUNE FINDER 1 X 88 Reel/SQ. SET
+B:RSCDS BOOK 35
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:2/4
+L:1/16
+%
+K:A
+P:A
+ED |: "A"CEA2    A2cA | "D"B2A2 "A"A2ED | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2ED |!
+| "A"CEA2    A2cA | "D"BAAF "A"E2A2 | "D"F2EC   "A"EFAE |1 "D"F2A2  A2ED:|2 "D" F2A2  "A" A2cd ||!
+| "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2cd |!
+| "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "E7"B2A2 "A"A2cd |!
+| "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2ED |!
+| "A"CEA2    AAcA | "D"BAAF "A"E2A2 | "D"F2EC   "A"EFAE | "D"[D2F2][D2A2] "A7" [C2A2]B2  |!
+P:B
+|:"D"  A2F2 d3A | "G" B2d2 "D" A3F| "F#m" A2Bc "Bm" d2A2|  "Em" B2e2 "A7"e3f|!
+|"D"A2F2 d3A| "G" B2d2 "D" A2d2| "Em" edcB "D" A2FA|1"G" B2d2 "D" d2B2:|2"G" B2d2 "D" d2f2||!
+|:"D" edcB A2FA| "G" B2d2 "D" A2f2| "Em" edcB "D" A2FA| "Em" B2e2 "A7" e2f2|!
+"Em" edcB A2FA| "G" B2d2 "D" A2d2| "Em" edcB "D" A2FA|1"G" B2d2 "D" d2f2:|2"G" B2d2 "D" d2ED||
+P:C
+|"A" CEA2 A2cA|"D" B2A2 "A" A2ED| "A" CEAc fecA| "E" c2B2 B2ED|!
+| "A" CEA2 A2cA|"D" BAAF "A" E2A2| "D" F2EC "A" EFAE|"D" F2A2 "A" A2 cd|!
+| "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2cd |!
+| "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "E7"B2A2 "A"A2cd |!
+| "A"ecA2 "D"fdA2 | "A"ecA2    a2cA | "A"CEAc "F#m"fecA | "Bm"c2B2 "E7"B2ED |!
+| "A"CEA2    AAcA | "D"BAAF "A"E2A2 | "D"F2EC   "A"EFAE | "D"[D2F2][D2A2] "A" [C2A2]  :|!

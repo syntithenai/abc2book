@@ -1,0 +1,19 @@
+X:226
+T:The English Bachelor
+C:Colin Hume
+L:1/4
+M:2/4
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=120
+%%MIDI chordname dim 0 3 6 9
+N:A second tune for the dance "The American Husband" by Pat Shaw.
+K:F
+P:A
+|: D/E/D/ | "Bb7"F E/D/- | "Bb7"D/E/ F/G/ | "F"A/c/ A/c/- | "Am7"c A/c/ |\
+"Gm"d/e/ f/g/- | "C"g/f/ e/d/ | "Am7"c2- | "D7"c/A/ B/c/ |
+"Gm"B A/G/- | "C7"G/B/ c/d/ | "F"c B/A/- | "Am"A/c/ d/e/ |\
+"Fdim/D"f "/F"d/f/- | "Fdim/G#"f/d/ "/B="f | "C7"e/e/ d/c/- | "C7"c/ :|
+P:B
+|: d/e/d/ | "Gm"f f | "C7"e3/4d/4 c/B/ | "Am"c/d/ c/A/- | "Dm"A/G/ F |\
+"Bb"f/f/- "/A"f/f/- | "G7"f/d/ "/F"f | "Eb"g- "/D"g- | "C7"g/f/ "/Bb"g/^g/ |
+"A7"a g/f/- | "Dm"f/F/G/^G/ | "A7"A G/F/- | "Dm"F/d/ _d/c/ | "G7"=B/d/ a/g/- | "C7"g/e/ c | "F"f- "Bb"f- | "F"f/ :|

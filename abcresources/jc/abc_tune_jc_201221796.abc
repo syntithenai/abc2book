@@ -1,0 +1,21 @@
+X:0512
+T:Cold and Raw
+P:Up in the Morning Early
+C:Playford 1695
+B:RSCDS 5-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+R:Jig (8x24) ABB
+M:6/8
+L:1/8
+K:Gm
+V:1
+%%staves (1 2)
+[V:1] D|"Gm"G2A B2c|"Dm"d>=ef F2F|"Cm"G>AG "D7"d3/2c/B/A/|"Gm"G3 d2 D|
+[V:1]   "Gm"G2A B2c|"Dm"d>=ef F2F|"Cm"G>AG "D7"d3/2c/B/A/|"Gm"G3 d2||
+[V:1] |:z|"Bb"B>cB B2B|"F"c>dc c3|"Bm"d>ef "Eb"g>fe|"Gm"d3 [f2F2] F|
+[V:1]   "Gm"B>cB "Bb"B2B|"Cm"cdf "Eb"g2f/e/|"Gm"d>cB "D7"c>BA|"Gm"G3 d2:|
+%V:2
+%[V:2] x|x6|x6|x6|x6|
+%[V:2]       x6|x6|x6|x3x2||
+%[V:2] |:x|    x6      |   A2 A A3|    x3       G3  |    G3  x3     |
+%[V:2]       D3       D3 |    G2x     G2x   |    x3       D2 x|    x3 x2:|

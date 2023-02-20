@@ -1,0 +1,35 @@
+X: 21003
+T: FRANKLIN SETT (tune 3)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.100 #3 (and the top staff on p.101)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has E sharp in bar 3 and E natural in bar 7; fixed with both naturalized.
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+FE |\
+D2B2 F2dc | B2B2 B2AB | c2dc BAGF | F2dc B2FE |\
+D2B2 F2dc | B2B2 B2AB | c2dc BAGA | B2d2B2 H|]
+AB |\
+c2cA f2fd | c2cA F2GF | =EFGA BGcB | B4 A2AB |\
+c2cA f2fd | c2cA F4 | =EFGA BAGE | F2A2"^D.C."F2 |]
+de |\
+f4f2d2 | g2f2e2d2 | c2c2 cBcd | BABc dcde |\
+f4f2d2 | g2f2e2d2 | c2c2 cBcd | B2d2"^D.C."B2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Two ladies forward and back,
+%% two gentlemen the same,
+%% balance four,
+%% alamand corners,
+%% partners the same,
+%% balance corners,
+%% turn partners,
+%% sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

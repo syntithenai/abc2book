@@ -1,0 +1,22 @@
+X: 10302
+T: QUICK STEP No. 2.
+C:
+%R: quickstep
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.30 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain has 8.5 bars.  You may "fix" this however you like, or not.
+N: The 2nd staccato and slur in bar 7 are in conflict; not fixed.
+N: The ornaments in bars 9,15 are written with 4 separate, unbeamed notes, but the 2 main notes (e3f) are beamed.
+N: ABC doesn't seem to have a way to represent this.
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+ce |\
+g2gf efde | c2c2 cgec | f2da gece | dcBA G2AB |\
+c2ec d2fd | ecde f2a2 | geca gfdf | edcB c2 :|
+|: d2 |\
+(e3{fede}f) g2fd | (c4 B2)de | f2f2 edef | d2dd d2ef |\
+g3f fedc | Bdfa g2f2 | (e3{fede}f) gfdB | c2c2c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

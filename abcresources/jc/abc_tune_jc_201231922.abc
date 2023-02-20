@@ -1,0 +1,17 @@
+X:16102
+T: Bonnie Charlie
+R: hornpipe, reel
+Z: John Chambers <jc:trillian.mit.edu>
+B: RSCDS 16-10(II)
+M: C|
+L: 1/8
+%--------------------
+K: Dm
+A,2 \
+| "Dm"D2DE F2FG | ABGA F2 (3GAB | A2D2 D3F | "A7"EFGE C2FE \
+| "Dm"D2DE F2FG | ABGA F2 (3GAB | A2D2 "Am"FEDC | "Dm"D4 d2 :|
+A2 \
+| "Dm"dedc A2A2 | dedc A3f | "C"efge c2c2 | efge c2fg \
+| "F"a2fa "C7"g2eg | "Dm"f2df "A7"fed^c | "Gm"d3e "Dm"fedc | "C"A2d2 "Dm"d3A |
+| "Dm"dedc A2A2 | [f2A2][f2A2] "Am"A3c | "Gm"BAGF GFED | "C"EFGE C2FG \
+| "F"A2FA "C"c2Ac | "Dm"defg fed^c | "Gm"dcBA "A7"AGFE | "Dm"D4 d2 |]

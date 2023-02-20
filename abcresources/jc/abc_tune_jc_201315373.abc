@@ -1,0 +1,19 @@
+X: 242
+T: My Fairhaired Darling   #1
+R: air, jig
+%S: s:4 b:32(8+8+8+8)
+B: O'Neill's 1850 #242
+O: F.O'Neill
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+Q: "With feeling"
+M: 6/8
+L: 1/8
+K:G
+"^A"[|] G2F | D2G G2F | G3  AGF  | G2A c2d | =f3 \
+"^B"|| de^f | g2f d2c | A3  G3   | F3- F2G |  A3 ||
+"^A"||  G2F | D2G G2F | G3  AGF  | G2A c2d | =f3 \
+"^C"|| de^f | g2f d2c | A2G F2A  | G3- G3  |  G3 |]
+"^D"[|  z2c | d2c d2e | =f2 de^f | g2f d2e | =f3 \
+"^B"|| de^f | g2f d2c | A3  G3   | F3- F2G |  A3 ||
+"^A"||  G2F | D2G G2F | G3  AGF  | G2A c2d | =f3 \
+"^C"|| de^f | g2f d2c | A2G F2A  | G3- G3  |  G3 |]

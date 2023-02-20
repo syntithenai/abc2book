@@ -1,0 +1,22 @@
+X: 2088
+T: HILTON LODGE
+C:
+Q: "Strathspey."
+R: Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.2 p.12 #0088
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: changed lengths of final notes of 2nd strain's endings to 2, to fix the rhythms of repeats.
+M: C
+L: 1/16
+%%slurgraces yes
+%%graceslurs yes
+K: C
+(uef) |\
+vguc3g3ue vfd3d2(ef) | vguc3Tg3ue vc3veug3ue |\
+f3de3c dD3D3uE | vC3vEuc3uE {^F}G4 G2 ::\
+uE2 |\
+vC3vEuc3uE vFD3D3uE |
+vC3vEuc3uE G3cE3c |\
+[1 G3cE3c dD3D3E | C3Ec3E {F}G4 G2 :|\
+[2 F3dE3c Dd3d2(ef) | g3ef3d {B}c4 c2 |]

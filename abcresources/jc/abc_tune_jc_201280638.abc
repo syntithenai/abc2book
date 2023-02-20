@@ -1,0 +1,17 @@
+X: 340
+T: the Girl From Lower Ireland
+T: cailin ua iac\`dar na eirinn
+R: air, waltz
+%S: s:2 b:19(10+9)
+B: O'Neill's 1850 #340
+O: by J.O'Neill
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+Q: "Gracefully"
+N: Irregular phrasing (5+5+4+5).
+M: 3/4
+L: 1/8
+K: D
+    A2  | d2 g2  fe  |(~dc) (~AG) FG | (AB {d}c.A G)B | (A2 d2) d2 | d4 \
+||  A2  | d2 g2  fd  |  c2   (AG) FG | (Ac) d2    FD  | (E2 {FE}D2) D2 | D4 |]
+|| (FG) | A2 A2  de  | (fa  g)(f ed) |  d2 (ed    cA) |  A4 \
+|| (FG) | A2 A2 (de) | (fa    gf ec) |  d3  (c    AG) | (E2 {FE}D2) D2 | D4 |]

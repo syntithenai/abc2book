@@ -1,0 +1,27 @@
+X: 154
+T:Hora Lautareasca
+O: Romania
+M:2/4
+L:1/8
+Q:1/4=210
+K:Em octave=1
+%%MIDI program 75
+%%MIDI bassprog 105
+%%MIDI bassvol 70
+%%MIDI gchord z4fz3
+P:A
+|:"B"zB^df|b^ac'b|b^ac'b|b^ac'b|(3b^ab b2|\
+"A"a^gba|a^gba|a^gba|a2B2|
+"B"z^def|ge^ab|^c'2b^a|geef|\
+geef|"A"aagf|e^deg|"F#"fffz:|
+P:B
+K: BPhr octave=1
+z2e^d|:"B"efga|f/g/e^de|"F#"gfff|\
+"E"Bfgz|"F#"gffB|"E"fggz|"F#"f=f^fe|
+"B"^defg|afge|"F#"^defg|"b"fffz|\
+"F#"ffcg|zfge|"C#"fee^d|"a"c2B2|"f"z2e^d:|
+P:C
+|:"B"BBcA|BcAB|c^dBc|^dedc|\
+cABc|^defe|e^dBA|^AB^df|
+zBcA|BcBA|c^dBc|c^dza|\
+aagg|ffee|^ddcB|AB2z:|

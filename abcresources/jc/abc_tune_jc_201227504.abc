@@ -1,0 +1,32 @@
+X: 10822
+T: COTILLION No. 7. tune 7
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.82 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F2 |\
+B2Bd F2F2 | B2Bd F2F2 | GABc defg | gfed d2c2 |\
+B2Bd F2F2 | B2Bd F2d2 | fgfg gfed | dcBA B2 H|]
+f2 |\
+g2g2 f2f2 | g2g2 f2f2 | g2g2 gfed | fedc Bcde |\
+g2g2 gfff | (fg).g.g f2f2 | g2g2 gfed | dcBA B4 |]
+B2Bc _d2d2 | c2cA F4 | B2_d2B2d2 | Bc_dc dcBA |\
+B2Bc _d2d2 | c2cA F2GA | B2_d2 cAcA | B2_d2B2 |]
+F2 |\
+B2Bc _d2d2 | c2cA F4 | B2_d2B2d2 | Bc_dc dcBA |\
+B2Bc _d2d2 | c2cA F2GA | B2_d2 cAcA | B2_d2B2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies chain,
+%% first lady forward and back twice,
+%% second gentlemen the same,
+%% promenade 4,
+%% chain, &c.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

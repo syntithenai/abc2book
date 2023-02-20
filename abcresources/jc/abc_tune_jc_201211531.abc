@@ -1,0 +1,18 @@
+X: 228
+T: Flatbush Waltz [Gm]
+C:Andy Statman
+D:Flatbush Waltz; Rounder 00116 (1980)
+Z:John Chambers <jc:trillian.mit.edu>
+L:1/8
+M:3/4
+R:Waltz
+S:Frets Magazine, Dec 1980
+K:Dm clef=treble
+| "Dm"A3 d AG | F2 D2 D2 | A3 d AF | "Gm"G3 B AG \
+| "Dm"DE FG AF/A/ | "Gm"GD G2 G2 | "Dm"F3 G "Eb"_EF  | "Dm"D3 A,DF
+| "Dm"[A3D3] [dA] [AF][GE] | [F2D2] [D2A,2] [D2A,2] | [A3F3] [dA] [AF][FD] | "Gm"[G3D3] c (3BAG \
+| "Dm"FG AB cA | "Gm"GD G2 G2 | "Dm"F3 G "Eb"_EF  | "Dm"D6
+| "Dm"[f4A4] [eG][dF] | "A7"[eG]A, [A^C]E A^c | "Bb"[d2F2] [c3E3] [BD] | "F"[A6C6] \
+| "Gm"[B2D2] [A2C2] [G2B,2] | "Dm"[A2C2] [d2F2] [e2G2] | [f3A3] [eG] [fA][gB] | "A7"[e6G6]
+| "Dm"[f4A4] [eG][dF] | "A7"[eG]A, [A^C]E A^c | "Bb"[d2F2] [c3E3] [BD] | "F"[A6C6] \
+| "Gm"[B2D2] [A2C2] [G2B,2] | "Dm"[A2C2] [D2F,2] [G2B,2] |  "Dm"[F3A,3] [GB,] "Eb"[_EG,][FA,]  | "Dm"[D6F,6] |]

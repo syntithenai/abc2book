@@ -1,0 +1,61 @@
+
+X: 1
+T: Mazel
+C: From Pete Sokolow, Klez Kamp 2001
+R: Waltz
+Z: Terry Traub
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+K: Dm
+L: 1/4
+|: "Dm"A, D F | "Dm" A/^G/ A > B | "A" A ^C2-|"A" ^C3| "A"A, ^C E|\
+   "A7"G  F E |[1 "Dm" F3-| F3 :|[2 "Dm" D3-| D3 ||
+   "D7"D ^F A | "D7" c B A | "Gm" B/A/ G2-| "Gm" G3| "C" C E G| \
+   "C7"B  A G | "F"A/G/ F > A| "A7"G/F/ E2||
+   "Dm"A, D F | "Dm" A/^G/ A > B | "A" A ^C2-|"A" ^C3| "A"A, ^C E|\
+   "A7"G  F E | "Dm" D3-| D3 |]
+
+%%sep 2 1 500
+
+X: 2
+T: Oi Shloimele   [Dm]
+C: From Pete Sokolow, Klez Kamp 2001
+R: Waltz
+Z: Terry Traub
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+K: Dm
+L: 1/4
+|:\
+"Dm" D F A | "Dm" d A F | "Gm" A G2- | "Gm"G3 | "Gm" GFD | "Gm" GFD | "Dm"F3- | "Dm"F3 |
+"F"C F A | "D7"c B A | "Gm" c G2- | "Gm"G3 | "Gm" G A B | "C7" d c B | "F" A3- | "A7"A3 :|
+|:\
+"Dm" F3 | "Dm" F E D | "Dm" F3 | "Dm" F E D | "Dm" F E D | "E7" F E D | "A7" E3- | "A7" E3 |
+"Gm6" G3 | "A7" G F E | "Dm" F3 | "Dm" F E D | "Gm6/E" E E E | "A7" E F E | "Dm" D3- | "Dm" D3 :|
+
+%%sep 2 1 500
+
+X: 3
+T: All My Love [Dm]
+R: waltz
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin, labelled "19B"
+M: 3/4
+L: 1/8
+K: Dm
+"A"\
+|: "Dm"A6 | "A7"^C6 | "Dm"D6- | D2 F2 A2 \
+|  "D7"d6 | ^F6 | "Gm"G6- | G2 A2 B2 |
+|  "A7"A6 |  E6 | "Dm"F2 E2 D2 | "Gm"G2 A2 B2 \
+|1 "Bdim7"F6 | "E7"D6 | "A7"E6- | E6 \
+:|2 "G#dim"F6 | "A7"E6 | "Dm"D6- | D2 "D7"d2 c2 ||
+"B"\
+[| "Gm"B3 A G2 | z2 B2 d2 | "Dm"A3 ^G A2 | "Dm"z2 A2 B2 \
+|  "A7"G3 F E2 | z2 G2 A2 | "Dm"F3  E D2 | z2 "D7"d2 c2 ||
+|| "Gm"B3 A G2 | z2 B2 d2 | "Dm"A3 ^G A2 | "Bdim7"z2 A2 =B2 \
+|  "A7"^c4  c2 | "E7"=B2 E2 B2 | "A"A6 | "A7"AB AG FG |]
+"C"\
+[| "Dm"A6 | "A7"^C6 | "Dm"D6- | D2 F2 A2 \
+|  "D7"d6 | ^F6 | "Gm"G6- | G2 A2 B2 |
+|  "A7"A6 |  E6 | "Dm"F2 E2 D2 | "Gm"G2 A2 B2 \
+| "G#dim"F6 | "A7"E6 | "Dm"D6- | D4 z2 |]

@@ -1,0 +1,33 @@
+X: 1
+T: the Cooler
+%R: reel
+B: Kitty Bridges "Collection of Country Dances 1745" p.1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-bridges1745
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added '3' to triplets to satisfy ABC player software.  (An 8th and two 16th notes might have been intended.)
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+BGdB ecdB | BGdB (3=FAB cA |\
+BGdB ecdA | BG=Fe fA- A :|
+|: g |\
+e/f/g de BG dB | (e/f/g) de A=FcA |\
+(3efg de BG dB | (3ABc =FA =fA A :|
+|: c |\
+BG G/G/G G/G/G ed | BG G/G/G =FA/B/ cA |\
+BG G/G/G G/G/G ed | A/B/c =FA =fA A :|
+|: g |\
+(e/f/g) (e/f/g) BGBG | (e/f/g) (e/f/g) A=FAF |\
+(e/f/g) (e/f/g) BGBG | A/B/c =FA =fA A :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center The Cooler
+%%begintext align
+%%   Set to y.r Part. and Cast off one Coup.l, set
+%% again you cast off another Coup.l your P.r up into
+%% her Place, then set three at bottom and three at
+%% top and turn round the same, Lead out at
+%% bottom & turn in the Middle, then at top and
+%% turn in the Middle.
+%%endtext

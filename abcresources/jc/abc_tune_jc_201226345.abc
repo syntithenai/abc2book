@@ -1,0 +1,21 @@
+X: 10211
+T: NORAN KITSA
+O: Irish.
+Q: "Lively."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.21 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+B2c d2B | e2c d2B | B2c (dc)B | A3 c2F |\
+B2c d2B | e2c d2B | (de)f (ec)A | B3 B2 H|]
+e |\
+(dc)B {B}A2G | F2F F2e | (dc)B A2F | G3 e2e |\
+(dc)B {B}A2G | F2F F2HyF | (de)f F2{G}A | B3 B2"^D.C."F |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

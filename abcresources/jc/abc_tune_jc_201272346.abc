@@ -1,0 +1,25 @@
+X:895
+T:Edinbane Two Step
+C:Joe Buchanan's Scottish Tome - Page 460.0
+I:460 0
+C:Iain MacDonald, Dunvegan 1986
+R:Two-step
+Z:Carl Allison
+L:1/8
+M:6/8
+K:G
+W:Intro
+%%vskip 0
+"G"d3 ^c2 d | "G"edB "D7"AGF | "A7"E3 "D7"F3 | "G"G3- G2 |]
+%%vskip 20
+P:A
+"A7"D | "G"d3 ^c2 d | "G"edB "A7"AGE | "D7"F2 c c2 B | c3- c2 d |
+"G"e3 ^d2 e | fed cBA | G2 d d2 ^c | d3- d2 "D7"D |
+"G"d3 ^c2 d | "G"edB "A7"AGE | F2 c c2 B | c3- c2 d |
+"G"a2 g f2 e | d2 c BAG | "A7"E3 "D7"F3 | "G"G3- G2 :|
+P:B
+[K:D] "A7"A2 | "D"F3 "A7"A3 | "D d"^G3 "D"A3 | "D"ABc d2 e | g3- g2 A |
+A2 a f2 d | A3 "D7"B3 | "A7"c3- c3- | c2 A G2 F |
+E3- E2 F | G2 A GFE | "D"F2 ^E F2 E | F2 B AGF |
+"E7"E3 E3 | F3 ^G3 | "A7"A3 "E7"BA^G | "A7"A3- A2 A |
+%%newpage

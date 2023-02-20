@@ -1,0 +1,81 @@
+X: 0101
+T: ROCKAWAY QUICK-STEP
+C: Composed by S. Knaebel
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.10-11
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: The trio section has 25 bars.  Bar 38 seems to have some missing dots; add them if you like.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+U: P=!crescendo(!
+U: p=!crescendo)!
+M: 2/4
+L: 1/16
+K: Eb
+% -------------------------
+V: 1
+K: F
+|:"FIRST CORNOPEAN""or BUGLE in Bb"!p!\
+c4 d4 | ccc2 c2A2 | BBB2 B2G2 | A2d2 c4 |\
+c4 d4 | ccc2 c2A2 | BBB2 GGG2 | .A2.G2 F4 :|
+|:!ff!\
+(GA).B.c .d2._d2 | (c2f2) .c.c.c2 | (c2g2) .c.c.c2 | a(fe.g) f4 |\
+d2g^f g4 | (c^cde) f4 | (edc=B) (c_BAG) | F2Ac f2"_FINE"z2 H:|
+|:[K:Bb]"^TRIO"\
+z8 | z8 | "_DOLCE"F4 B3A | B2z2 d2z2 |\
+c7 A | c4 z3d | c7 A | B2z2 d3d |\
+(3f2=e2_e2 c4 | (3e2d2c2 B4 | (3A2B2c2 (3B2A2G2 | "_CRES."F7 =E |
+F3P=E pF3E | !p!F3A B3A | B2z2 d2z2 | c7 A |\
+B2z2 z3d | c7 A | B2z2 (3B2c2d2 | c2z2 (3c2d2e2 |\
+A2z2 (3A2B2c2 | !f!(3.B2.d2e2 (3.f2.g2.a2 | (3.b2.f2.=e2 (3.f2.g2.a2 | b2z2 b3b | "_D.C. AL FINE"b4 z4 H:|
+% -------------------------
+V: 2
+K: F
+|:"SECOND CORNOPEAN""or BUGLE in Bb"!p!\
+A4 B4 | AAA2 A2F2 | GGG2 G2E2 | F2B2 A4 |\
+A4 B4 | AAA2 A2F2 | GGG2 EEE2 | .F2.E2 F4 :|
+|:!ff!\
+B8 | z2AA A2A2 | z2B2 z2G2 | .c2.B2 A4 |\
+z2c2 B4 | z2B2 A4 | z2EE E2E2 | F2F2F2"_FINE"z2 H:|
+K: Bb
+|:"^TRIO"!pp!\
+F2z2 F2z2 | F2z2 F2z2 | F2z2 F2z2 | F2z2 F2z2 |\
+F2z2 F2z2 | F2z2 F2z2 | F2z2 F2z2 | F2z2 F2z2 |\
+A2z2 A2z2 | B2z2 F2z2 | F4 =E4 | "_CRES."F7 =E |
+F3P=E pF3E | !p!F2z2 F2z2 | F2z2 F2z2 | F2z2 F2z2 |\
+F2z2 F2z2 | F2z2 F2z2 | F2z2 F2z2 | G2z2 G2z2 |\
+F2z2 F2z2 | !f!(3.F2D2E2 (3.F2.G2.A2 | (3.B2.F2=E2 (3.F2.G2.A2 | B2z2 d3d | "_D.C. AL FINE"d4 z4 H:|
+% -------------------------
+V: 3 clef=bass middle=D
+K: Eb
+|:"TROMBONE"!p!\
+e4 e4 | e4 z2e2 | d4 z2d2 | e2e2 e4 |\
+e4 e4 | e2z2 e2e2 | d2z2 B2B2 | B2A2 G4 :|
+|:!ff!\
+f8 | g2ee e2e2 | f4 d4 | .e2.f2 g4 |\
+z2g2 f4 | z2f2 e4 | z2BB F2A2 | .G2.B2.G2"_FINE"z2 H:|
+K: Ab
+|:"^TRIO"!pp!\
+c2z2 c2z2 | c2z2 c2z2 | c2z2 c2z2 | c2z2 c2z2 |\
+_d2z2 d2z2 | c2z2 c2z2 | d2z2 d2z2 | c2z2 A2z2 |\
+B2z2 B2z2 | A2z2 c2z2 | B3G (3F2G2A2 | "_CRES."G2z2 G4 |
+PB4 p_d4 | !p!c2z2 c2z2 | c2z2 c2z2 | d2z2 d2z2 |\
+c2z2 c2z2 | d2z2 d2z2 | c2z2 (3c2d2e2 | d2z2 (3d2e2f2 |\
+B2z2 (3B2c2d2 | !f!(3.c2.C2.D2 (3.E2.F2.G2 | (3.A2.E2.=D2 (3.E2.F2.G2 | A2z2 A3A | "_D.C. AL FINE"A4 z4 H:|
+% -------------------------
+V: 4 clef=bass middle=d
+K: Eb
+|:"OPHICLEIDE"!p!\
+e4 e4 | e4 z2e2 | B4 z2B2 | e2e2 e4 |\
+e4 e4 | e2z2 e2e2 | B2z2 B2b2 | e2B2 e4 :|
+|:!ff!\
+d8 | e2ee e2e2 | d2z2 B2z2 | .e2E2 e4 |\
+.a2z2 z2.a2 | b4 z4 | B4 B2B2 | .e2.e2E2"_FINE"z2 H:|
+K: Ab
+|:"^TRIO"!pp!\
+a2z2 a2z2 | a2z2 a2z2 | a2z2 a2z2 | a2z2 a2z2 |\
+g2z2 e2z2 | a2z2 a2z2 | g2z2 e2z2 | a2z2 a2z2 |\
+e2z2 e2z2 | a2z2 a2z2 | b4 B4 | "_CRES."e2z2 e4 |
+Pd4 pB4 | !p!A2z2 a2z2 | a2z2 a2z2 | g2z2 e2z2 |\
+a2z2 a2z2 | g2z2 e2z2 | a2z2 a2z2 | d2z2 d2z2 |\
+e2z2 E2z2 | !f!(3.A2.c2.d2 (3.e2.f2.g2 | (3.a2.e2.=d2 (3.e2.f2.g2 | a2z2 A3A | "_D.C. AL FINE"A4 z4 H:|

@@ -1,0 +1,56 @@
+X: 1
+T: O Sole Mio  [G]
+C: music: Eduardo di Capua 1898
+C: words: Giovanni Capurro
+N: Words by G. Capurro
+Z: 2022 John Chambers <jc@trillian.mit.edu>
+% Modified to make consistent reading at a "session" easier.
+M: 4/4
+L: 1/4
+K: G
+%%continueall
+%%slurgraces 1
+%%graceslurs 1
+"^A"[|] "G"zd cB | A2 G2 | GA BG | "Am"F2 E2 | zF GA |
+w: Che bel-la co-sa na jur-na-ta'e so-le, n'ar-i-a~se-
+w: Quan-no fa not-te~e'o so-le se ne scen-ne, me ve-ne
+"D7"FE E2- | EF GA | "G"(ED) D2 | "G"zd cB | A2 G2 |
+w: re-na dop-*po na tem-pes-*ta!  Pe' ll'ar-ia fres-ca
+w: qua-*se 'na mal-in-cun-i-*a; sot-to'a fe-nes-ta
+GA BG | "Am"{G}F2 E2 | zc BA | "G"dB AG | "D7"A3 B | "G"A2{BA}G2 \
+"^B"|:
+w: pa-re gi\`a na fes-ta,  Che bel-la co-sa na jur-na-ta'e so-le.
+w: toi-a res-tar-ri-a quan-no fa not-te~e'o so-le se ne scen-ne.
+z2g2 | g2f2 | "G"{f}d2 d2 | zf fe | "Am"{e}c4 | zf fe | "Am"{e}c2 c2 | "D7"zA Bc | "G"d4 |
+w: Ma n'a-tu so-le cchi\`u bello, oje ne'.  O so-le mi-o sta 'nfron-te~a te!
+z2 z d | "Cm"_e2 e2 | zc g>_e | "G"d2 d2 | zB AG | "D7"d4 | zB {AB}A>F | "G"G4 :|
+w: O so-le, O so-le mi-o sta 'nfron-te~a te!  sta 'nfron-te~a te!
+y4 y4 y4 y4 |["Coda" zB AG | "D7"d4 | zd [bdB]>[acA] | "G"[g4B4G4] |]
+%w: O so-le mio sta 'nfron-te~a te!
+w: sta 'nfron-te~a te, sta 'nfron-te~a te!
+%
+% Standard Italian:
+%
+%  Che bella cosa una giornata di sole,
+%  un'aria serena dopo la tempesta! 
+%  Per l'aria fresca pare giàna festa... 
+%  che bella cosa una giornata di sole!
+%  
+%  REFRAIN:
+%  Ma un altro sole più non c'è
+%  il sole mio sta in fronte a te!
+%  Il sole, il sole mio, sta in fronte a te! 
+%  
+%  Luccicano i vetri della tua finestra,
+%  una lavandaia canta e se ne vanta...
+%  e mentre strizza i panni, li stende e canta  
+%  luccicano i vetri della tua finestra! 
+%  
+%  REFRAIN
+%  
+%  Quando fa sera e il sole tramonta,
+%  mi viene quasi una malinconia.
+%  Resterei sotto la tua finestra,
+%  quando fa sera ed il sole tramonta.
+%  
+%  REFRAIN

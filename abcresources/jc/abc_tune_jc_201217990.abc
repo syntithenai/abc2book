@@ -1,0 +1,30 @@
+X: 0022
+T: Schottis - Rheinlander efter Olmorts (Spak) Erik Olsson
+%R: shottish
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+"^A"|:!segno!\
+[D2G,2][B2D2] [D2G,2][B2D2] | c2(B/c/B/)A/ [B4D4] |\
+{cd}e2d>d d2cc | c2B2 {Bc}B>AB2 ||\
+[D2G,2][B2D2] [D2G,2][B2D2] | [c2D2]([B/D2]c/B/)A/ [B3D3](c |
+d)ddd c2(A/B/A/)F/ | [G2G,2][G2G,2] [G4G,4] !coda!y \
+"^B"::\
+D>bb>a a>gg>f | {fg}f>ee>d e4 |\
+[dD]>[fd][fd]>e e>[dD][dD]>[cD] | [cD]>[BD]{Bc}[BD]>A [B3D3](c |
+[dD])>bb>a a>gg>f | ({fg}f>e)(e>d) e3(e |\
+[d2D2]){fg}f>e [d2D2]ba | g2[D2G,2] [g2B2]"^1)"z2 !segno!y\
+"^C"::!coda!\
+G2(FA) G2(FA) | G2[D2B,2] [D4B,4] |
+G2(FA) G2(FA) | G2[E2C2] [E4C4] |\
+{E}G>=FEF G2(ed) | c>d(3(cBc) A4 |\
+G2(BA) G2ed | c2G2 [c4E4] :|
+% - - - - - - - - - -
+N: 1) "D.S.al !coda! pai !coda!" below staff, but not reproducible in some abc software.
+N: Trad., en norrman--Halvar B\"ackman
+N: Uppt. Ture Gudmundsson

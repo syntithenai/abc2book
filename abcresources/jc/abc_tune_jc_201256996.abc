@@ -1,0 +1,22 @@
+X: 1
+T: Brochan Lom (Orange and Blue) ABABB
+O: Trad
+Z: John Chambers <jc:trillian.mit.edu>
+N: called a schottische in Skinner SV p.20 (with variations),
+N: Hunter  354
+N: jig or strathspey in Skye p.121
+N: second Kennedy tune-book
+N: p.19, BSFC I-23, keep under O&B name alphabetically
+M: 4/4
+L: 1/8
+K: G
+d>c "A"\
+| "G"B-<G ~G2 D-<G ~G2 | B>G d>B G2 AB \
+| "Am"c-<A ~A2 E-<A ~A2 | "D7"F>D A>F D2 d>c |
+| "G"B-<G ~G2 D-<G ~G2 | B>G d>B G2 (3Bcd \
+| "C"e>c "G/B"d>B "Am"c>A "G"B>G | "D7"A>F (3DEF "G"G2 |]
+d>c "B"\
+| "G"B-<d d2 "/F#"B-<d d2 | "Em"B>G d>B "/D"G2 A>B \
+| "Am"c-<e e2 "/G"c-<e e2 | "D/F#"c>A e>c "/D"A2 B>c |
+| "G"B-<d d2 "/F#"B-<d d2 | "Em"B>G d>B "/D"G2 (3Bcd \
+| "C"e>c "G/B"d>B "Am"c>A "G"B>G | "D7"A>F (3DEF "G"G2 |]

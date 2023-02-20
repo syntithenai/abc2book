@@ -1,0 +1,20 @@
+X: 10522
+T: the GLASGOW QUADRILLES No.2.--l'Et\`e.
+N: Yes, the accent in the title is wrong.
+%R: march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.52 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4	% The book has 3/4, but that's clearly wrong.
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!p!BA !segno!|:\
+G2B2d2 (cB) | A2c2e2 (ag) | f2d2e2f2 | (gf).e.d (dc).B.A !f!|\
+G2B2d2 (cB) | A2c2e2 (ag) | f2d2e2f2 | g4 g2 H|]\
+!p!fg |\
+a2b2a2d2 "^fz"| "_>"g4 f2e2 | d2g2a2b2 | (ag).f.e d2c2 |
+B2B2c2d2 | c2e2a2g2 | f2ed e2d^c | d2(fe) d2=c2 !ff!|\
+B2BB d2dd | g2gg b2bb | abag fgfe | dgfe dedc !ff!|\
+B2BB d2dd | g2gg b2bb | abag fed^c | d4 d=c"^D.C.al"BAy !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

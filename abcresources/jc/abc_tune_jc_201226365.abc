@@ -1,0 +1,49 @@
+X: 10222
+T: KING OF PRUSSIA'S WALTZ
+C: D. Steibelt
+%R: waltz
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.22 #2 (and all of p.23)
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+AB |\
+c2c2 (e/d/c/d/) | (c4 f2) | (e2efga) | b2g2 cg |\
+.b2.b2 (b/a/g/a/) | g4 f2 | fedcde | f4 "^(8va _ _ _"AB |\
+c2c2 e/d/c/d/ | c4 f2 | e2efga | b2g2 cg |
+b2b2 b/a/g/a/ | g4 f2 | fedcd"^_ _ _8va)"e | f4 "loco."c2 |\
+[g-e][gc][g-e][gc][b-e][bc] | a4 gf | [e2e2][e-B][ec][f-A][fc] | {G}g2e2c2 |\
+[g-e][gc][g-e][gc][b-e][bc] | a4 gf |  [e2e2][e-B][ec][f-A][fc] | g4 AB |
+c2d2 (e/d/c/d/) | (c4 f2) | e2(efga) | (b2g2) cg |\
+b2b2 (b/a/g/a/) | g4 f2 | fedcde | f4 c2 |\
+g2[g-e][gc][b-e][bc] | (a4 gf) | [e2e2][e-B][ec][f-A][fc] | ({G}g2e2c2) |
+[g-e][gc][g-e][gc][b-e][bc] | (a4 gf) | [e2e2][e-B][ec][f-A][fc] | g4 "^(8va _ _ _"AB |\
+c2c2 e/d/c/d/ | c4 f2 | e2e(fga) | (b2g2) (cg) |\
+b2b2 (b/a/g/a/) | g4 f2 | fedcde | "^_ _ _ 8va)"f4 |]
+"^loco."cf |\
+(agfedc) | (dcBAGF) | (=EFGABG) | (FABcde) |\
+{g}fefgaf | efga=bc' | c2c2 d>e | c4 cf |\
+(agfedc) | (dcBAGF) | =EFGABG | FABcde |
+fefgaf | efga=bc' | c2c2 d>e | c4 |]\
+c2 |\
+cGEC e2 | fcAF C2 | [g-e][gc][b2e2][a2f2] | g2c'2c2 |\
+BGEC e2 | fcAF C2 | [g-e][gc][b2e2][a2f2] | g4 AB |
+c2c2 (e/d/c/d/) |\
+(c4 f2) | e2efga | (b2g2) cg |\
+b2b2 b/a/g/a/ | g4 f2 | fedcde | f4 |]\
+c2 |\
+BGEC E2 | fcAF C2 | [g-e][gc][b2e2][a2f2] | g2c'2c2 |\
+BGEC e2 |
+fcAF C2 | [g-e][gc][b2e2][a2f2] | g4 "^(8va _ _ _"AB |\
+c2c2 e/d/c/d/ | c4 f2 | e2efga | b2g2 cg |\
+b2b2 b/a/g/a/ | g4 f2 | fedcde | "^_ _ _ 8va)"f4 |]\
+"^loco."CA, |\
+A,CF2 A,C | B,DF2 =B,D |
+CEGc_BG | Acf2 CB, |\
+A,DF2 A,C | B,DF2 =B,D | CEGc_BG | F4 af |\
+eg[c'2c2] bg | fa[c'2c2] ba | gbgece | f2c2 af |\
+eg[c'2c2] bg | fa[c'2c2] ba | gbgece | f4z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

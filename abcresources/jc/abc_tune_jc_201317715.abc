@@ -1,0 +1,15 @@
+X: 747
+T: the Northern Lasses
+R: reel
+%S: s:4 b:17(4+4+4+5)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #747
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0747/oneill-1001-0747-1.abc
+M: C|
+L: 1/8
+K: G
+"^A"[|] (3(def) \
+| gG (3GGG (EG)DG | (EG)DG (EG)AB | cBAG FGAB | cBAB cdef ||
+| gG (3GGG (EG)DG | (Aa)af  gfed  | cBAG FGAc | BGAF G2 |]
+(Bd) "^B"|: g2dg egdg | agbg agef | g2dg egdg | agba g2 || (ga) |
+| (3(bag) (3(agf) gfed | Bdef gedc | (3(Bcd) ef gfge |[1 dgba gfef :|[2 dB (3(cBA) G2 |]

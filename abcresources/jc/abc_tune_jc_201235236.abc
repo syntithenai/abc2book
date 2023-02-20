@@ -1,0 +1,31 @@
+X: 21053
+T: MANILLA SETT (tune 3)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.104 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: 8th rests in bars 8, 12 transcribed as quarter rests to fix the rhythm.
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+F |\
+BAB cdc | B2z F3 |GAB cdB | A2z f3 |\
+BAB cdc | B2z A3 | GAB cBA | G3 z2 H|]
+d |\
+dcB ABc | BAB G2d | dcB ABG | F3 z2d |\
+dcB ABc | BAB G2d | dcB ABG | F3 FG"^D.C."A |]
+D |\
+G^FG BAB | G^FG d^cd | ecB ABc | BAB G2D |\
+G^FG BAB | G^FG d^cd | ecB AcA | G3 FG"^D.C."A |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First lady balance to the right and swing,
+%% then to the next, &c,
+%% 2d, 3d and fourth ladies do the same,
+%% gentlemen perform the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

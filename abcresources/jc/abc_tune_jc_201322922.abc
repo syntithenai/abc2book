@@ -1,0 +1,19 @@
+X: 1
+T: PEEK-A-BOO WALTZ
+O: from Don McBain, Nelson, Victoria
+N: This is a variant of the old Swedish waltz, Svenskarnavalsen, also played in North America as "Peek-a-Boo" waltz.
+R: waltz
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: In a set for Luciens Waltz
+M: 3/4
+L: 1/8
+K: D
+(FG) |\
+"D"A2 fd ec | d2 (3(cdc) B2 | A2 F2 G2 | A4 (FG) |\
+A2 fd ec | d2 c2 d2 | "A7"e3 f e3 | e4 (FG) |
+"D"A2 fd ec | d2 (3(cdc) B2 | A2 F2 G2 | A4 (dc) |\
+"G"B2 g2 f2 | "A7"e2 B2 c2 | "D"d3 d d2 | d2 F2 G2 ||
+"D"A4 f2 | A4 (BA) | "G"B4 g2 | B6 |\
+"A7"c3 d c2 | c2 B2 A2 | B2 A2 G2 | "D"F3 E FG |
+"D"A4 f2 | A4 (BA) | "G"B4 g2 | B3 c B2 |\
+"A7"c3 B A2 | gA fA eA | "D"d3 d d2 | d4 |]

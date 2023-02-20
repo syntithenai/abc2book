@@ -1,0 +1,505 @@
+X: 0
+T: 15 Social Dances
+C: Roy Goldring
+N: Published in 1998?
+K:
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1
+T: The Balmedie Lasses
+C: Alastair Hunter
+B: Roy Goldring "14 Social Dances"
+P: Tune for "Alastair Hunter's Reel"
+R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A2 |\
+"D"D2DF "A7"EDEF | "D"D2dc "G"BABd | "D"ABAF "Bm"DFAF | "Em"EGFE "A7"DB,A,B, |
+"D"D2DF "A7"EDEF | "D"D2dc "G"BABd | "D"ABdA "Bm"BAFD | "Em"EG"A7"FE "D"D2 :|
+|: de |\
+"F#7"f2fg fedc | "Bm"dedc Bcd^d | "E7"e2ef edcB | "A7"cdcB AGFG |
+"D"A2dc "Em"B2ed | "F#7"c2fe "Bm"d2ef | "Em"gfed "A7"cdec | "D"d2D2 D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+d2[a2f2] A2[c'2a2g2] | d2f2 g2[d'2b2] | d2[d'2a2] B2[b2f2] | e2[b2g2] A2[g2e2] |
+d2[a2f2] A2[c'2a2g2] | d2f2 g2[d'2b2] | d2[d'2f2] B2[b2f2] | e2A2 D2 :|
+|: z2 |\
+F2[^a2f2] c2[a2f2] | B2[d'2b2] f2b2 | e2[e'2b2] e2^g2 | a2[e'2c'2] A2c2 |
+d2[a2f2] e2[b2g2] | f2^a2 b2B2 | e2[b2g2] A2[c'2a2g2] | [d'2a2f2d2]A2 D2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2
+T: Jovial Ken (Ken Park)
+C: Donald Ridley
+B: Roy Goldring "14 Social Dances"
+P: Tune for "The Bartons' Reel"
+R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+z2 |\
+"F"FCCF "F/C"A2FA | "F"cfef "Bb"dcde | "F/A"fcdB "F"AcFA | "Gm"BGAF "C7"E2DC |
+"F"FCCF "F/C"A2FA | "F"cfef "Bb"dcde | "F/A"fc"Bb"dB "C7"cABG | "F"A2F2 F2 :|
+|: GF |\
+"C"ECCE "C7/E"G2FG | "F"AFFc "D7"c2Ac | "G"=Bcde "G7/D"fdBd | "C"c2C2 "C7/E"C2DE |
+"F"FCCF "F/C"A2FA | "F"cfef "Bb"dcde | "F/A"fc"Bb"dB "C7"cABG | "F"A2F2 F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+F2[f2c2] c2[a2f2] | f2[f'2c'2a2] B2[f'2d'2] | a2[f'2c'2] f2[c'2a2] | g2[d'2b2] c2[b2g2] |
+F2[f2c2] c2[a2f2] | f2[f'2c'2a2] B2[f'2d'2] | a2b2 c'2c2 | [F2F6]c2 a2 :|
+|: z2 |\
+c2[g2e2] e2[c'2b2] | f2[c'2a2] d2[c'2^f2] | g2[d'2=b2] d2[b2g2] | c2g2 e2[c'2b2] |
+f2a2 c2[c'2f2] | F2[f2c2] B2[b2f2] | A2B2 c2C2 | [F2F6]c2 a2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3
+T: Lady Davidson of Cantray
+C: John Lowe - Kerr's Collection
+B: Roy Goldring "14 Social Dances"
+P: Tune for "The Cramond Wedding"
+R: strathspey
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F2 |\
+"D"D3F Ad3 "D/F#"A3F DF3 | "Em"Ee3 e3f "A7"gfed ce3 |\
+"D/F#"d3B AF3 "G"GABc d3B | "D"A3F "Em"GFED "A7"CE3 E3F |
+"D"D3F Ad3 "D/F#"A3F DF3 | "Em"Ee3 e3f "A7"gfed ce3 |\
+"D/F#"dcde fefg "D"a3f dA3 | "G"BcdB "A"AF3 "D"Ad3 d2 ||
+f2 |\
+"D"a3f dA3 "G"Bb3 "D/F#"a3f | "Em"g3e gfed "A7"ce3 e2fg |\
+"D"a3f dA3 "G"b3a "D/F#"fd3 | "Em"g3e "A7"abag "D"fd3 d3f |
+"D"a3f dA3 "G"Bb3 "D/F#"a3f | "Em"g3e gfed "A7"ce3 e3f |\
+"D"(3d2c2d2 "G"(3B2c2d2 "Em"(3e2f2d2 "A"(3c2B2A2 | "G"BcdB "A"AF3 "D"Ad3 d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+D4 [d'4a4f4] F4[a4f4] | "Em"E4[e'4b4g4] A,4[c'4a4g4] |\
+F4 [d'4a4f4] G4 [d'4b4g4] | [d4D4][e4E4] A,4[c'4a4g4] |
+D4 [d'4a4f4] F4[a4f4] | "Em"E4[e'4b4g4] A,4[c'4a4g4] |\
+[f4F4][e4E4] [d4D4][d'4=c'4f4] | [g4G4][a4A4] D4[d'2a2f2] ||
+z2 |\
+D4[d'4a4f4] [g4G4][f4F4] | [e4E4][e'4b4g4] [A4A,4][c'4a4g4] |\
+D4[d'4a4f4] [g4G4][f4F4] | [e4E4][a4A4] D4[d'4a4f4] |\
+D4[d'4a4f4] [g4G4][f4F4] | [e4E4][e'4b4g4] [A4A,4][c'4a4g4] |\
+[d4D4][g4G4] [e4E4][a4A4] | [g4G4][a4A4] D4[d'2a2f2] |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 4
+T: Mrs. Elisabeth Hunter
+C: Alastair Hunter
+B: Roy Goldring "14 Social Dances"
+P: Tune for "Elisabeth Hunter's Strathspey"
+R: air, reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+"A7"DE |\
+"D"F3G "A7"E3F | "D"DFAd "D7"f3e | "G"d2cB "D/F#"A2FD | "Em7"D2CE "A7"B,2A,2 |
+"D"F3G "F#7"E3F | "Bm7"DFAd "D7"f3e | "G"d2cB "D/F#"A2FD | "Em"D2-"A7"DC "D"D2 ||
+"A7"A2 |\
+"D"d2ef "A"e2dc | "Bm"d3c/B/ "F#m"A2F2 | "G"GABG "D/F#"FGAF | "Em7"EG,B,D "A7"D2C2 |
+"D"f2ed "F#7"cedc | "G"dcBA "D/F#"GFED | "G"B,2CD "Em"DC "A7"F>E | "D"D2-"G"D2- "D"D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[g2A2] |\
+D2[d'2a2f2] A2[c'2a2g2] | d2[f'2d'2a2] D2[f'2d'2=c'2a2] |\
+G2[g'2d'2b2] F2[a2d2] | E2[g2e2] A,2[g2c2] |
+D2[d'2a2f2] F2 [c'2^a2f2] | B2[d'2b2] D2[f'2d'2=c'2a] |\
+G2[g'2d'2b2] F2[a2d2] | [e2E2][g2A2] [f2D2] ||
+[c'2a2g2] |\
+d2[d'2a2f2] A2[c'2a2e2] | B2[d'2b2f2] F2[c'2a2] |\
+G2[b2g2d2] F2[a2d2] | E2[g2e2] A,2[a2g2e2] |
+D2[f'2d'2a2]F2[e'2^a2f2] | G2[d'2g2] F2[a2d2] |\
+G2[b2g2] [e2E2][g2A2] | [D2D6][b2g2d2] [a2f2d2] |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 5
+T: Thor & Richard's Rant
+C: Muriel Johnstone
+B: Roy Goldring "14 Social Dances"
+P: Tune for "Eric's Jubilee"
+R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Fixed typo in next-to-last chord, written "A/D" but obviously "D/A".
+M: 4/4
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+cd |\
+"A"ecA2 "A/C#"A2Bc | "E7"dBE2 "E7/G#"E2FG | "A"Aaga "A/C#"fedc | "Bm"d2B2 "E7"B2cd |
+"A"ceA2 "A/C#"A2Bc | "E7"BdE2 "E7/G#"E2FG | "F#m"Aaga "Bm/D"fa"E7"ed | "A"c2"D/A"A2 "A"A2 :|
+|: fg |\
+"A"aAce "A/C#"agfe | "D"fAdf "A/C#"eEAc | "A"eAce "F#m"aedc | "Bm"d2B2 "E7"B2dc |
+"E7"BdE2 "E7/G#"EBcd | "A"ceAG "A/C#"Aefg | "F#m"a2ga "Bm/D"fa"E7"ed | "A"c2"D/A"A2  "A"A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+A2[a2e2] c2[a2e2] | e2b2 g2b2 | a2c'2 c2a2 | B2[b2f2] e2[d'2g2] |
+A2[a2e2] c2[a2e2] | e2b2 g2b2 | [c'4a4f4] [d'2b2d2][d'2g2e2] | [e'2c'2a2][f'2d'2a2] [e'2c'2a2] :|
+|: z2 |\
+A2[a2e2] c2[a2e2] | d2[a2f2] c2[a2e2] | A2[a2e2] F2f2 | B2[b2f2] e2[d'2g2] |
+e2b2 g2b2 | a2c'2 c2a2 | [c'4a4f4] [d'2b2d2][d'2g2e2] | [e'2c'2a2][f'2d'2a2] [e'2cc'2a2] :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 6
+T: Miss Field's Strathspey
+C: Robert Mackintosh
+B: Roy Goldring "14 Social Dances"
+P: Tune for "Glen Lyon"
+R: strathspey
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+"G"G,G3 G3D B,G3 G3D | "Am/C"A,A3 A3G "D7"FD3 EF3 |\
+"G"G,G3 G3D "C"E3G ce3 | "D7"d3B dcBA "G"BG3 G4 :|
+"G"bag2 dg3 Bg3 dg3 | "C/E"c3g "G"B3g "D"A2a2a2ga |\
+"G"bag2 dg3 "C"e3g "G/B"d3g | "Am"c3a "D7"fd3 "G"g3f g2a2 |
+"G"bag2 dg3 Bg3 dg3 | "C/E"c3g "G"B3g "D"A2a2a2ga |\
+"G"bg3 "D7"fa3 "G/B"gd3 "C"e3B | "Am"c3e "D7"dcBA "G"BG3 G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+G,4 [b4g4d4] G4 [b4g4d4] | C4 [c'4a4e4] D4 [c'4f4d4] |\
+G4 [b4g4d4] C4 [e'4c'4g4] | D4 [c'4f4d4] G4 [b4g4d4] :|
+[G4G,4] [b4g4d4] [d'4g4] [b4d4] | [c'4e4] [d'4g4] [d4D4] [f'4d'4a4] |\
+[G4G,4] [b4g4d4] [c'4c4] [b4B4] | [a4A4] [d4D4] G4 [d'4b4g4] |
+[G4G,4] [b4g4d4] [d'4g4] [b4d4] | [c'4e4] [d'4g4] [d4D4] [f'4d'4a4] |\
+[d'4g4] [c'4d4] [g4B4] [g4c4] | [a4A4] [c'4f4d4] G4 [d'4b4g4] |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 7
+T: Miss Maule's Strathspey
+C: Robert Mackintosh
+B: Roy Goldring "14 Social Dances"
+P: Tune for "the Grants' New Rant"
+R: strathspey
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+E |\
+"A"c2  A<E "D"F<A "A/C#"E<C | "A"c2 A>E "Bm/D"F<B "E7"B>d |\
+"A"c>B A<E "D"F<A "A/C#"E<C | "Bm"D<F "E7"E>G "A"A/A/A AE |
+"A"c2  A<E "D"F<A "A/C#"E<C | "A"c2 A>E "Bm/D"F<B "E7"B>d |\
+"A"c>B A<E "D"F<A "A/C#"E<C | "Bm"D<F "E7"E>G "A"A/A/A A ||
+e |\
+"A"c<e a<e "D"f>a "E7"e>d | "A"c<e a>c "E7"d<B B>d |\
+"A"c<e a<e "D"f>a "A/C#"e<c | "Bm"d<f "E7"e>d "A"c<A A>e |
+"A"c<e a>e "D"f<a "E7"e>d | "A"c<e "F#m"a<c "Bm/D"d<B "E7"Bc/d/ |\
+"A"c<e "Bm"d<f "A/C#"e<a "E"g<b | "D/F#"a<f "E7/G#"e>d "A"c<A A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+A,2 [c'2a2e2] [a2d2] [a2c2] | A,2 [c'2a2e2] [d2D2] [e2E2] |\
+A,2 [c'2a2e2] [a2d2] [a2c2] | [b2B2] [d'2g2e2] A2 [c'2a2] |
+A,2 [c'2a2e2] [a2d2] [a2c2] | A,2 [c'2a2e2] [d2D2] [e2E2] |\
+A,2 [c'2a2e2] [a2d2] [a2c2] | [b2B2] [d'2g2e2] A2 [c'a] ||
+z |\
+A,2 [c'2a2e2] [a2d2] [d'2e2] | A2 [c'2a2e2] E2 [d'2g2e2] |\
+A,2 [c'2a2e2] [a2d2] [a2c2] | [b2B2] [d'2e2] A2 [c'2a2] |
+A,2 [c'2a2e2] [a2d2] [a2c2] | A2 [c'2a2f2] [b2f2d2] [d'2g2e2] |\
+[a2A2] [b2B2] [c'2c2] [e'2e2] | [d'2f2] [e'2g2] [e'2c'2a2] A :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 8
+T: Shuter's Hornpipe
+C: Traditional
+O: Kohler's Violin Repository
+B: Roy Goldring "14 Social Dances"
+P: Tune for "Mary Erskine"
+R: hornpipe, reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+"G"G2G2 GABc | "G"dcBA GABG | "Am"A2A2 A2ed | "Am"cBAG "D7"FAFD |
+"G"G2G2 GABc | "Em7"dcBA "G/D"B2g2 | "D/A"fafd "A7"ege^c | "D"d2"G"d2 "D"d2z2 ||
+"D/F#"A2A2 "D"A2Bc | "D/F#"dBAG "D7"FAFD | "G"d2d2 "D"d2ef | "Em"gedc "G7/D"BdBG |
+"C"e2c2 c2ge | "G/B"d2B2 "Em"B2g2 | "Am"ecec "D7"BAGF | "G"G2B2 G2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g2[d'2b2] d2[b2g2] | G2d2 b2G2 | A2e2 c'2e2 | A2a2 d2[c'2f2] |
+g2d'2 f2d'2 | e2b2 d2b2 | a4 A4 | [a2f2d2][b2g2d2] [a2f2d2]z2 ||
+f2d'2 d2d'2 | f2d'2 d2c'2 | g2d'2 f2d'2 | e2g2 d2[b2g2=f2] |
+c2g2 e'2z2 | B2g2 e2b2 | A2[c'2a2] d2[c'2f2] | [G2G6]d2 b2z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 9
+T: John Kelly
+C: Traditional
+B: Roy Goldring "14 Social Dances"
+P: Tune for "the Miller of Sessnie"
+R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+"D"f2A "D/F#"ABA | "G"B2A "D/F#"ded | "G"c2B "Em7"B2A | "A7"g3 "A7/E"f2e |\
+"D"f2A "D/F#"ABA | "G"B2A "D/F#"ded | "Em"c2B "A7"B2A |1 "D"d3 "A7"d2e :|2 "D"d3 "D/F#"def ||
+"Em"g3 "A7"gfe | "D"f3 "D/F#"fed | "Em/G"B2e e2f | "Em"e2d "G"B2d |\
+"A7"g2a "A7/C#"gfe | "D"f2g "D/F#"fed | "G"Bcd "E7"ef^g | "A"a3 "A7"gfe |
+"D"f2A "D/F#"ABA | "G"B2A "D/F#"ded | "Em"c2B "Em/G"B2A | "A7"g3 "A7/E"f2e |\
+"D"f2A "D/F#"ABA | "G"B2A "D/F#"ded | "Em"c2B "A7"B2A | "D"d3 d2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d2[d'a] f2[d'a] | g2d' f2d' | g2d' e2d' | A2[c'ag] e2[c'ga] | d2[d'a] f2[d'a] |
+g2d' f2d' | e2[bg] A2[c'ag] |1 d2[af] A2[c'ag] :|2 d2d' f2d' || e2[bg] A2[c'ag] |
+d2[d'a] f2[d'a] | g2[e'b] g2f | e2b g2b | a2[e'c'] c2[c'ag] | d2d' f2d'|
+g2[d'b] e2[d'^g] | a2[e'c'] A2[gc] | d2[d'a] f2d' | g2d' f2d' | e2b g2b |
+A2[c'a] e2[c'ag] | d2d' f2d' | g2d' f2d' | e2[bg] A2[c'ag] | [d3-D3] [d'2a2f2]z |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 10
+T: Hoddam Castle
+C: Mr. Sharp
+O: Gow Collection
+B: Roy Goldring "14 Social Dances"
+P: Tune for "Monique's Jig"
+R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Last measure has "last 8 bars from !segno!" above the music.
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F |\
+"Bb"B2B "Bb/D"Bcd | "Cm/Eb"ecB "F"AGF | "Bb"BcB "Bb/D"Bdf | "F"fgf "F7/A"edc |
+"Bb"dBB "Eb"BGG | "Cm"ecc "F"cAA | "Gm"Bcd "F7/A"cBA | "Bb"BBB B2 ||
+!segno!d/e/ |\
+"Bb"fdd "Gm"dBB | "Cm"ecc "F"cAA | "Gm"Bcd "C7/E"cdB | "F"AFF "F7/Eb"FGA |
+"Bb/D"BBB "Cm/Eb"Gcc | "D/F"Add "Eb/G"Bee | "F7/A"cfe "Bb"dcB | "F7"cFA "Bb"B2 !Fine!y:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+B2[bf] d2b | e2b f2c' | b2[f'd'] d2b | f2[c'a] a2f' |
+b2d' e2b | c2[c'g] f2[c'a] | g2b a2[e'c'] | [d'2b2]f B2 ||
+z |\
+B2[bf] g2[d'b] | c2[c'g] f2[c'a] | g2[d'b] =e2c' | f2[c'a] e2c' |
+d2b e2[c'g] | f2[d'a] g2[e'b] | a2f' b2d' | f2[e'c'] [d'2b2] !Fine!y:|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 11
+T: A Case Apart
+C: Muriel Johnstone
+B: Roy Goldring "14 Social Dances"
+P: Tune for "My Jo"
+R: strathspey
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Changed typo g note to a in bar 9.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A,2 |\
+"D"D2 FD "G"B,>D "D/F#"A,<D | "Em"C>D EF "A7"G2 FE |\
+"D"D2 FD "G"B,>D "D/F#"A,B | "D"A>B dF "D7/F#"A2 GF |
+"Em"G>F "A7/C#"G<e "D"F>E "Bm"F<d | "Em"E>F G/F/E/D/ "A7"C>D E>F |\
+"D"A,2 F<D "G"B,>D G<B | "A7"A>B d<c "D"d2- d ||
+de |\
+"D"f<a "A7"e<f "D/F#"d2 Ad | "Em"c>d ef "A7"g2 fe |\
+"Bm"d>c "G"B<d "D/F#"A>G "D"F<A | "Em"G<B, "E7"F>D "A7"E3 A, |
+"D"D2 A,F "G"B,>D G<B | "A7"A>B d<c "Bm"d2 de |\
+"D"f<a "A"e<f "Bm"d<f "G" B<d | "A7"A>B d<c "D"d2- d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+[d2D2] [a2f2] [g2G2] [f2F2] | [e2E2] [b2g2] [A2A,2] [c'2a2g2] |\
+[d2D2] [a2f2] [g2G2] [f2F2] | D2 [d'2a2f2] F2 [d'2=c'2f2] |
+[e2E2] [c2C2] [d2D2] [B2B,2] | [G2G,2] [b2g2e2] [A2A,2] [c'2a2g2] |\
+D2 [a2f2] [G2G,2] [b2g2d2] | [A2A,2] [c'2a2g2] D2 [f'd'a] ||
+z2 |\
+[d'2d2] [a2A2] [f2F2] [f'2d'2a2] | [e2E2] [b2g2e2] [A2A,2] [c'2a2g2] |\
+[b2B2] [g2G2] [f2F2] [d2D2] | [e2E2] [b2^g2e2] [A2A,2] [c'a=g]z |
+D2 [f2d2] [G2G,2] [b2g2] | [A2A,2] [e'2c'2a2g2] [B2B,2] [f'2d'2b2] |\
+[d'2d2] [a2A2] [b2B2] [g2G2] | A2 [e'2c'2a2g2] D2 [f'd'a] :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 12
+T: Denis Murphy
+O: Traditional
+B: Roy Goldring "14 Social Dances"
+P: Tune for "Side By Side"
+R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Last ending has "last 8 bars from !segno!" above the repeat bracket.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B |:\
+"D"A2D FED | "D"F2A "D/F#"A2f |\
+"Em"g2e "D"f2d | "Em/G"e2d "A7"Bcd |
+"D"A2D FED | "D"F2A "D/F#"A2f |\
+"Em"g2f "A7"efe | "D"d3 d2 ||
+!segno!A |\
+"D/F#"d2"A7/E"e "D"f3 | "A7/C#"g2e "D"f3 |\
+"Em"gfe "D"f2d | "Em/G"e2d "A7"B2A |
+"D/F#"d2"A7/E"e "D"f3 | "A7/C#"g2e "D"f2g |\
+"D/F#"a2f "A7"efe |1 "D"d3 "G"dcB :|2 "D"d3 !Fine!d2 !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |:\
+d2a A2a | d2a f2d' | e2[e'b] d2[d'a] | g2[e'b] a2[g'c'] |
+d2a A2a | d2a f2d' | [e'3b3e3] [g'3c'3a3] | [f'3d'3] [f'2d'2] ||
+z |\
+[d'2f2][c'e] [d'3a3d3] | c2[c'ag] d2[d'a] | e2[e'b] d2[d'a] | g2b a2[g'c'] |
+[d'2f2][c'e] [d'3a3d3] | c2a d2e |\
+[d'3f3] [g'3c'3a3] |1 [f'3d'3] [f'2d'2]z :|2 [f'3d'3] !Fine![f'2d'2] !segno!|]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 13
+T: Bill Clement
+C: Muriel Johnstone
+B: Roy Goldring "14 Social Dances"
+P: Tune for "the Thornhill Strathspey"
+R: strathspey
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+"D"(3FGA d>d "A7"f>e "D/F#"d>A | "Em/G"(3Bcd g>f "A"e<A A>G |\
+"D"(3FGA d>d "A7"f>e "Bm"dg | "A"(3fga e>d "G"BA Bd |
+"D"(3FGA d>d "A7"f>e "D/F#"d>A | "Em/G"(3Bcd g>f "A"e<A A>G |\
+"D"(3FGA d>d "A7"f>e "Bm"dg | "A"(3fga e>d "D"A<d d ||
+g |\
+"D"(3fga a>b "D/F#"d>c dD | "C"E<=c c>d "Em"ed "A7"eg |\
+"D"(3fga a>b "D/F#"dcdD | "C"E<=c c>e "D"d2 dg |
+"D"(3fga a>b "D/F#"d>c dD | "G"(3GAB g>f "A7"edef |\
+"D"(3FGA d>d "A"f>e dg | "A7"(3fga e>d "D"A<d d :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+D2 [d'2a2f2] [a2A2] [f2F2] | G2 [e'2b2g2] A2 [e'2c'2a2] |\
+D2 [d'2a2f2] [a2A2] [b2B2] | A2 [c'2a2e2] G2 [d'2b2g2] |
+D2 [d'2a2f2] [a2A2] [f2F2] | G2 [e'2b2g2] A2 [e'2c'2a2] |\
+D2 [d'2a2f2] [a2A2] [b2B2] | A2 [c'2a2e2] D2 [d'af] ||
+z |\
+D2 [d'2a2f2] F2 [d'2a2f2] | =C2 [=c'2g2e2] [e2E2] [a2A2] |\
+D2 [d'2a2f2] F2 [d'2a2f2] | =C2 [=c'2g2e2] D2 [d'2a2f2] |
+D2 [d'2a2f2] F2 [d'2a2f2] | G2 [b2g2d2] A2 [c'2a2e2] |\
+D2 [d'2a2f2] [a2A2] [b2B2] | A2 [c'2a2e2] D2 [d'af] :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 14
+T: Leaving the Shepherd's Inn
+C: Donald Ridley
+B: Roy Goldring "14 Social Dances"
+P: Tune for "Thirty Years On"
+R: strathspey
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+"G"d>e "D7/A"d>B "G/B"A>G B<d | "C"g>a g>f "Gdim"e>d e<g |\
+"G"d>e "D7/A"d>B "G/B"A>G B<d | "D7"f>g f>e "D7/A"(3dcB (3ABc |
+"G"d>e "D7/A"d>B "G/B"A>G B<d | "C"g>a g>f "Gdim"e>d e<g |\
+"D7"f>g f>d "D7/F#"c<A F>G | "Cm"A2 G2 "G"G2 F>G ||
+"D"A>B A>G "F/F#"F<D F<A | "G"d>e "D7/A"d>B "G/B"A<G B<d |\
+"D"(3fag (3fed "A7"e<g ^c<e | "D"d>e f>e "D7/F#"d>c B<c |
+"G"d>e "D7/A"d>B "G/B"A>G B<d | "C"g>a g>f "Gdim"e>d e<g |\
+"D7"f>g f>d "D7/F#"c<A F>G | "Cm"A2 G2 "G"G2 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+[g2G2] [f2A2] [g2B2] [d'2b2g2] | c2 [e'2c'2g2] G2 [e'2^c'2_b2g2] |\
+[g2G2] [f2A2] [g2B2] [d'2b2g2] | d2 [d'2c'2a2] A2 [d'2c'2f2] |
+[g2G2] [f2A2] [g2B2] [d'2b2g2] | c2 [e'2c'2g2] G2 [e'2^c'2_b2g2] |\
+d2 [d'2c'2a2] F2 [c'2a2d2] | c2 [_e'2c'2g2] [d'2b2g2] z2 ||
+D2 [d'2a2f2] F2 [d'2a2f2] |[g2G2] [f2A2] [g2B2] [d'2b2g2] |\
+D2 [f'2d'2a2] A2 [e'2^c'2a2g2] | d2 [f'2d'2a2] F2 [c'2f2d2] |
+[g2G2] [f2A2] [g2B2][=f'2b2g2] | c2 [e'2c'2g2] G2 [e'2^c'2_b2] |\
+d2 [c'2f2] A2 [c'2a2d2] | c2 [_e'2c'2g2] [b2g2] z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 15
+T: Peking Duck
+C: Neil Barron
+P: Tune for "The Water of Fleet"
+R: jig
+B: Roy Goldring "14 Social Dances"
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c/d/ |\
+"A"e3 e2f | "A"ecA "D"F2A | "A"EFE A2A | "Bm"F2F "E7"efc |\
+"A"e3 e2f | "A7"ecA "D"F2E | "B7"F2A "E7"GAB | "A"BAA A2 |]
+E |\
+"A"EFE A2A | "Bm"F2F "E7"efc | "A"efc ecB | "B7"ABc "E7"B2E |\
+"A"EFE A2A | "Bm"F2F "E7"efc | "A"ecA "E7"BAB | "A"cAA A2 |]
+E |\
+"A"EFE A2A | "Bm"F2F "E7"efc | "A"efc ecB | "B7"ABc "E7"Bcd |\
+"A"e3 e2f | "Bm"ecA "E7"F2E | "A"F2A "E7"GAB | "A"BAA A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+A2[c'a] e2[c'a] | A2[e'c'a] d2[d'a] | A2[c'a] e2[c'a] |\
+B2[d'b] e2[d'g] | a2[e'c'] e2[c'a] |
+A2[c'a=g] d2a | B2[^d'ba] e2[=d'g] |\
+A2[e'c'a] [e'2c'2a2] |]
+z |\
+A2[c'a] e2[c'a] |
+B2[d'b] e2[d'g] | a2[e'c'] e2[c'a] | B2[^d'ba] e2[=d'g] |\
+A2[c'a] e2[c'a] | B2[d'b] e2[d'g] |
+a2[e'c'] e2[d'g] | A2e c'2 |]
+e |\
+A2[c'a] e2[c'a] | B2[d'b] e2[d'g] | a2[e'c'] e2[c'a] |
+B2[^d'ba] e2[=d'g] | a2[e'c'] e2[c'a] |\
+A2[c'a=g] d2a | B2[^d'ba] e2[=d'g] | A2[e'c'a] [e'2c'2a2] |]

@@ -1,0 +1,23 @@
+X: 13162
+T: Etrick Banks
+%R: air, reel
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.3 p.16 #2
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The double bar between strains 3 and 4 lacks the repeat signs. Fixed, so the repeats make sense.
+M: C
+L: 1/8
+K: Dm
+"_Slow" A2 |\
+F3E D2Ac | dcAc d2(d/e/)f | (dc)(BA) f2A2 | (BA)(GF) G2(F/G/A) |\
+{G}TF3E D2Ac | (dc)(Ac) d2(c/d/e) | f>gfe de fd | Tc2AB A2 :|
+|: GF |\
+f3g f2F2 | (AB)(cd) c2(BA) | fagf Te3d | (cd)(ef) g2(fg) |\
+a2(g/f/g/a/) f2F2 | A2c2 {fg}a3g | Tf3e (de)(fd) | c2AB A2 :|
+|: A2 |\
+(GF)(ED) (FA) (df) | (eb)(a^c) d3e | f2 f4 ed | c(B/A/) (B/A/)(G/F/) G2A2 |\
+(GF)(ED) (FA) (de) | (f/g/f/e/) (d/c/A/c/) d3e |
+(f/e/f/g/) (f/g/f/e/) d/f/e/g/ fd | Tc2(AB) A2 ::\
+(GF) | (f/g/a/)g/ fc dAcF | Afed Tc2BA | f(g/a/) (b/a/g/f/) Te3d |
+efga g2fg |\
+a(g/f/) g/f/(g/a/) (c<A) TG>F | GA c(d/e/) f>g a/f/g/a/ | fedc (d/f/)(e/g/) fd | Tc2AB A2 :|

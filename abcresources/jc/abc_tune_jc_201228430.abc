@@ -1,0 +1,23 @@
+X: 11281
+T: LET'S PUSH ABOUT THE FLOWING BOWL.
+Q: "Briskly."
+%R: air, march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.128 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c2 |\
+f3g a2c2 | d3e f2(FG) | (AF)(fe) (dc)(BA) | {A}G4 z2c2 |\
+f3g a2(gf) | g2=B2 (cd)(ef) | g2e>c G2=B2 | c4 z2 |]
+c2 |\
+e2(g>e) c2(g>e) | f2(a>f) c2a2 | g2(b>g) (ce)(gb) | (b2a)>f e2zc |\
+d3d (cAB)c | (def)d c3f | d2b2 a2(gf) | c2e2 f2z |]
+c |\
+fefg fcd_e | dcdc d2zd | g^fga gde=f | eded e2zc |\
+b3g a3f | g3e f2c2 | d2b2 a2(gf) | c2e2 f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

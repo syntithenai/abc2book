@@ -1,0 +1,22 @@
+X: 433	% 125
+T: Portland Fancy
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.43 #3
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The book doesn't show the key change until bar 19, which is on a new staff.
+N: But the g in bar 18 could be played sharp, and most people wouldn't notice.
+M: 6/8
+L: 1/8
+Q: "Quadrille Rhythm"
+K: A
+V: 1 name="125"
+E |\
+E2A E2A | EAB c2c | dcd Bcd | f2e cBA |\
+E2A E2A | EAB c2c | dcd BFG | AEc A2 :|
+|: e |\
+a3- agf | ecf e3 | dBe d3 | cde f2e |\
+a3- agf | ecf e3 | edB efg | aec' a2 :|
+K: D
+|: (F/G/) |\
+ABc d2e | f2g a3 | efg (AB/c/d/e/) | f2d A2(F/G/) |\
+ABc d2e | f2g a3 | efg ABc | d2f d2 :|

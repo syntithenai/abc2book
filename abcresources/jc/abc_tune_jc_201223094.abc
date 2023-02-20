@@ -1,0 +1,26 @@
+X: 6
+T: Garnerins Waltz
+R: waltz
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.3 #6
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: 3/8
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Third part has final repeat but no initial repeat; added.
+K: Bb
+F2 |\
+B4d2 | f4d2 | g2gab2 | f4d2 |\
+e2gec2 | A2cAF2 | B2d2f2 | B4 :|
+|: !f!F2 |\
+FAcecA | FBdfdB | FAcecA | B2d2f2 |\
+FAcecA | FBdfdB | FAcecA | B4 :|[K:Eb]
+|: !p!de |\
+B2B2B2 | B4G2 | F2(AF)(AF) | EGBege |\
+B2B2B2 | B4G2 | A2F2D2 | E4 :|
+%%begintext align
+%% Set & hands across .|
+%% back again :|
+%% lead down the middle, up again :|.
+%% Allemand :|:
+%% Swing Corners .:|:. .
+%%endtext

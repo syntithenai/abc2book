@@ -1,0 +1,35 @@
+X: 5
+T: the Whim
+C: Michael Dabney
+%R: reel
+B: Michael Dabney "Twelve Minuets and Twelve Dances" p.9 #1
+S: http://imslp.org/wiki/12_Minuets_and_12_Dances_(Dabney,_Michael)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces mostly 4- or 8-bar staffs.
+V: 1
+|:\
+d3c B2(AG) | ^FGAB A^F=ED |\
+G^FGA BABc | d2D2 G2G,2 ::\
+f3e d2(cB) | cdcB {B}A2(GF) |
+BABc dcde | f2F2 B4 |\
+d3c B2(AG) | ^FGAB A^F=ED |\
+(3(GAB) (3(ABc) (3(Bcd) (3(cde) | d2D2 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+|:\
+g4 e4 | d4 d2c2 | B2d2 g2e2 | d4 G4 ::\
+b4 d4 | e2c2 f2z2 | z4 b4 | f4 b2B2 |
+b4 g4 | a4 d2z2 | G2A2 B2c2 | d4 G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%  Cast off 2 Cu: lead up the
+%% middle to the top Cast off
+%% Hands a cross with the 3d Cu:
+%% back again, lead thro the top
+%% Cu: cast off Right & left
+%%endtext

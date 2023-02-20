@@ -1,0 +1,46 @@
+X: 1
+T: la Bagatelle   [F]
+O: London Magazine, 1771
+S: printed page from Darlene Wigton 2015-10-7
+F: https://books.google.com/books?id=8SsoAAAAYAAJ&pg=PA333&lpg=PA333
+B: The London Magazine, Or, Gentleman's Monthly Intelligencer, v.40, p.323, June 1771
+R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+"F"f2f2 |\
+c2c2 "F"f2f2 | A4 "Gm"BcdB | "C7"GABG E2F2 | "C7"G2C2 "F"f2f2 |\
+c2c2 "F"f2f2 | A4 cdef | "C"gfef "G7"Td4 | "C"c4 |]
+|: g2g2 |\
+"C7"c2c2 B2B2 | "F"A4 "Bb"Bcde | "/d"f2ba "Gm"g2f2 | "C7"g4 "F"A2A2 |\
+"Bb"B2B2 "C"c2c2 | "Bb"d2d2 "C"e2e2 | "F"f2ed "C7"cBAG | "F"F4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=D
+F4 |\
+z4 A4 | z4 G2F2 | E2C2 c4 | C4 F4 |\
+z4 F4 | z4 F2C2 | E2F2 G2G,2 | C4 |]
+|: C4 |\
+C4 C2E2 | FGAF B4 | z2B2 c2B2 | cBAG F2F2 |\
+B2B2 c2c2 | BABc c2B2 | A2B2 c2C2 | F4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text All round
+%%begintext align
+%% I. The first and third couple contre tems to the left before
+%%    the second and fourth couple, who makes rigadoon step.
+%%endtext
+%%begintext align
+%% II. The first and third couple contre tems forward between
+%% the other two couple and face the wall,
+%% the gentlemen take the ladies left hands and return to their own places,
+%% turning the ladies before them;
+%% mean time the second and fourth contre tems to the centre,
+%% make a cross to the left,
+%% and return to their places.
+%%endtext
+%%begintext align
+%% III. and IV. The contre party does the same figure.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

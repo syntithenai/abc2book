@@ -1,0 +1,26 @@
+X:1
+T: All Alive
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:Em
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 38 notes)
+K:Em
+M:6/8
+L:1/16
+B2 |e4 f2 g2 f2 e2 g2 b4b4 B2 e2 f2 g2 f2 g2 e2 ^d6 B4 e2 |d2 c2 B2 c2 B2 A2 B2 d2 G2 c4 B2 A2 F2 G2 F4 E2 E6E4 B2 |
+%W: A2
+% voice 1 (1 lines, 37 notes)
+e4 f2 g2 f2 e2 g2 b4b4 B2 e2 f2 g2 f2 g2 e2 ^d6 B4 e2 |d2 c2 B2 c2 B2 A2 B2 d2 G2 c4 B2 A2 F2 G2 F4 E2 E6E4 G2 |
+%W: B1
+% voice 1 (1 lines, 36 notes)
+F4 G2 A2 B2 G2 B2 d4 c4 B2 g2 f2 e2 a2 f2 g2 ^d6 B4 b2 |c'2 b2 a2 b4 B2 c2 B2 A2 B4 g2 a2 g2 f2 f4 e2 e6e4 g2 |
+%W: B2
+% voice 1 (1 lines, 43 notes)
+F4 G2 A2 B2 G2 B2 d4 c4 B2 g2 f2 e2 a2 f2 g2 ^d6 B4 b2 |c'2 b2 a2 b4 B2 c2 B2 A2 B4 g2 a2 g2 f2 f4 e2 e6e4 B2 |A2 F2 G2 F4 E2 E6E4 ||

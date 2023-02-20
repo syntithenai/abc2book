@@ -1,0 +1,32 @@
+X:1
+T: Red and All Red
+N:
+C:Thompson
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 30 notes)
+K:G
+M:4/4
+L:1/16
+G2 A2 |B4 A4 B4 d4 |G8 G4 A4 |B4 A4 B4 c4 |A8 A4 A4 |B4 B4 d4 d4 |f4 e4 d4 ^c4 |d8 d4 d4 |d12 G2 A2 |
+%W: A2
+% voice 1 (1 lines, 28 notes)
+B4 A4 B4 d4 |G8 G4 A4 |B4 A4 B4 c4 |A8 A4 A4 |B4 B4 d4 d4 |f4 e4 d4 ^c4 |d8 d4 d4 |d12 B2 B2 |
+%W: B1
+% voice 1 (1 lines, 25 notes)
+c4 B4 c4 d4 |e8 d4 c4 |c4 B4 A4 G4 |d8 e4 f4 |g4 f4 e4 d4 |c4 B4 A4 G4 |d8 d4 e4 |
+%W:
+% voice 1 (1 lines, 22 notes)
+c8 c4 d4 |B8 B4 c4 |A8 d4 f4 |g4 e4 d4 c4 |B8 c4 A4 |G8 G4 G4 |G12 B2 B2 |
+%W: B2
+% voice 1 (1 lines, 25 notes)
+c4 B4 c4 d4 |e8 d4 c4 |c4 B4 A4 G4 |d8 e4 f4 |g4 f4 e4 d4 |c4 B4 A4 G4 |d8 d4 e4 |
+%W:
+% voice 1 (1 lines, 20 notes)
+c8 c4 d4 |B8 B4 c4 |A8 d4 f4 |g4 e4 d4 c4 |B8 c4 A4 |G8 G4 G4 |G12 ||

@@ -1,0 +1,26 @@
+X: 1
+T: Fryar Bungy
+%R: reel, march
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (168)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+d2 f4 ed | ^c2 e4 A2 | B2A2 def2 | e2d2 ^c2 :|\
+|: a2 |\
+g2fe f2F2 | A2 c4 BA | B2 g4 fe | f2 b4 a2 |\
+gfed e2^c2 | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man cast off round the 2d Cu. the Wo.
+%% following .| Then the 1st Wo. do the same back again
+%% the Man folloing [sic] :| Cross over and figure thro the
+%% 3d Cu .| The 1st and 2d Cu. take all four Hands and
+%% turn quite round 1st and then single :|
+%%endtext
+%%sep 1 8 500

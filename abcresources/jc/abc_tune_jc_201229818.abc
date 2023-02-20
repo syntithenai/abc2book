@@ -1,0 +1,19 @@
+X: 12
+T: the Brothers
+%R: march, strathspey
+B: "Twenty Four Country Dances for the Year 1799", Thomas Skillern, ed. p.6 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1799
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+a |\
+e<c cB | A>BAE | F<A E<A | F<A Ea |\
+e<c cB | ABAE | Eee^d | e2e :|
+|: e |\
+f<ddB | c>def | d<B BG | A>BcE |\
+F<A E<A | F<A Ed | cA {c}B{A}G | A2A :|
+%%begintext align
+%% Half right and left, same Back again, X over 1 Cu:
+%% and to your places, Poussette.
+%%endtext

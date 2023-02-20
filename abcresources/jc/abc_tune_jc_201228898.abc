@@ -1,0 +1,24 @@
+X: 11743
+T: NEW COLDSTREAM MARCH
+%R: march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.174 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d4 f4 | a2g2 f2e2 | d4 A4 | B2B2 {Bc}d2(cB) |\
+A3B A2A2 | B2B2 {Bc}d2(cB) | A3B A2d2 | c3e d2f2 |\
+e3e d2d2 | e2d2 c2d2 |
+e3f e2a2 | a4 ^g4 | a6 z/(A/B/c/) :|\
+|:\
+d2d2 d2(fe) | d2B2 G2(gf) | e2e2 e2a2 |\
+g2f2 e2 z/(A/B/c/) | d4 f4 | a2g2 f2e2 | d4 A4 |
+B2B2 {Bc}d2(cB) | A3B A2A2 |\
+B2B2 {Bc}d2(cB) | A3B A2A2 | g2g2 {ga}b2(ag) |\
+f2g2 a2[d'2d2] | f4 e4 |1 d6 z/(A/B/c/) :|2 d8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,29 @@
+X: 1092
+T: Cork
+T: Thiselworth Assembly
+P: Longways for as many as will
+R: slip-jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+D |\
+G2c BGB AFA | G2G (B/c/)dB g2f | g>fe dcB AFD | G2G (B/c/)dB G2 :|
+|: d |\
+gdg gdg gdf | gdg gdg a2g/f/ | g>fe dcB AFD | G2G (B/c/)dB G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+b2a g2G d3 | g3 G3 g3 | b2c' bag d3 | g3 G3 g2 :|
+|: z |\
+b3 g3 d3 | b3 g3 f2d | | b2c' bag f3 | g3 G3 g2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+Cross over & turn Hands, the 2d Cu. do the same, then Right Hands
+and Left; Jigg up & down & cast off. Hands & cross dance to the 2d
+Wo. and turn, the other Cu. do the same.
+%%endtext

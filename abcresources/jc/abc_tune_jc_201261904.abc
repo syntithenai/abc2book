@@ -1,0 +1,19 @@
+X: 1
+T: Chinquapin Hunting [1]
+R: Reel
+N: AEae tuning
+S: Bruce Molsky, based on the Norman Edmonds version
+N: From a transcription by John Lamancusa. See http://www.mne.psu.edu/lamancusa/tunes.htm
+s; https://tunearch.org/wiki/Chinquapin_Hunting_(1)
+Z: 2021 John Chambers <jc:trillian.mit.edu> [condensed from 6 to 3 staffs 2021-07-02]
+Z: AK/Fiddler's Companion
+M: C
+L: 1/8
+K: A
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+|: "A"A3(e "D"fe)df | "A"e(fe)(e "D"fe)df | "A"e3(e "D"fe)fg | (af)(af) "(E7)"e2e2 | [M:2/4] "A"(3cdc A2 :|
+[M:C]
+|: "A"A3B A2A2 | "D"(FED)D (ED)F2 | "A"A3B A2 AF | "E"A,2 A,B, "A"C2 {E}E2 :| 
+|: "D"F2 {E}F3F ED | "E"[B2B,2] EB, "A"C2 EC | "D"F2 {E}F3F ED |[1 "E"B2 [EA]B, "A"C2 [EA]C :|[2 "E"B,2 ED "A"C(A, A,2) ||]

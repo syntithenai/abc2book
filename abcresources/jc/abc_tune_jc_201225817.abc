@@ -1,0 +1,29 @@
+X: 10011
+T: MY WIFE'S A WANTON WEE THING.
+Q: "Jig time."
+%R: jig
+N: This is version 1, for ABC software that doesn't understand trailing or slurred/unslurred grace notes.
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.1 #1 (only tune)
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f/e/ |\
+d2A (B/c/d)A | {c}Td3 A2B | =cdc cGE | =c3 E2^c |\
+d2A dfe | {c}d3 A2G | FDF E>FE | D3- D2 :|
+F/G/ |\
+ABA FDF | A3 {AB}=c3 | G=cG EcE | G3 B3 |\
+AdA FDF | A3 Tg3 |{fg} fdf ece | d3- d2 F/G/ |
+A>BA FDF | AdA FDF | G>AG E>GE | G=cG EGE |\
+ABA FDF | AFA aeg | f>ga gfe | {c}d3- d2 |]
+|: f/e/ |\
+d2g faf | d3 A2B | =c>dc cGE | T=c3{Bc} E2^c |\
+d2A dfd | {c}d3 A2G | FDF EFE | D3- D2 :|
+f/g/ |\
+abg fdf | a3 g2f | g>ag e=ce | g3 {fg}efg |\
+aba fdf | a3 g3 |{fg} fdf ece | {c}d3- d2 f/g/ |
+aba fdf | aba fdf | gag e=ce | gag e=ce |\
+aba fdf | aba gab | fga gec | {c}d3- d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

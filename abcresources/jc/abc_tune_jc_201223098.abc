@@ -1,0 +1,36 @@
+X: 6
+T: Glascon Lasses
+%R: march, reel
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed.
+M: 2/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+c |\
+F>GFd | cAcf | F>GFA | BG2c |\
+F>GFd | cA2c | d>efg | af2 :|
+|: (f/g/) |\
+a>gfF | Ac2f/g/ | a>gfF | eg2f/g/ |\
+a>gfc | d/e/f cA | B/c/d BG | AF2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z |\
+f2 f2 | f2 f2 | f2 f2 | c2 c2 |\
+f2 "6;4"f2 | "5;3"f2 z"6"a | bg"6"ac' | f3 :|\
+|: z |\
+f2 f2 |
+f2 z2 | f2 "6"d2 | c4 |\
+f2 "6"a2 | b2 f2 | "6"d2 c2 | f3 :|
+%%begintext align
+%% First Man foot it to the 2d Wo. and cast off into the 2d Man's Place, & the 2d Wo. cast up at the
+%% same Time into the first Wo. Place | Then the 2d Man foot it to the first Wo. (he being a Top) and
+%% cast off into his Place, and the first Wo. cast up into her Place || Then the 1st & 2d Man foot it to their
+%% Partners   the first Cu. cast off one Cu. take Hands with the 2d Cu. and lead up foot it & cast off
+%% into the 2d Couple's Place.
+%%endtext

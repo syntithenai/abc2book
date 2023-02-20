@@ -1,0 +1,31 @@
+X: 4263
+T: Mrs Grant of Lagan's Strathspey
+O: Communicated by Capt. Fraser of Knocky.
+%R: strathspey
+B: Niel Gow & Sons "Complete Repository" v.4 p.26 #3 (and top staff of p.27)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+Q: "This Tune may be played Slow."
+K: Am
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+e |\
+(d/c/B/A/) ^G<B AA,A,B, | C>DE>^F G2GB |\
+(A/B/c) (B/c/d) AA,A,B, | CDE^G A2AB ||\
+(d/c/B/)A/ B>^G A>E =G>D | E<GTB,>A, G,2 G,A,/B,/ |
+(3CB,A, (3DCB, (3EDC (3B,CD | (3Edc (3BA^G A2 A |]|\
+c/B/ |\
+A<e Tc>B A/B/c/B/ AE | G<B G>D TB,2 G,c/B/ | A<e Tc>B (A/B/)(c/d/) ea |
+c>AB>^G A2 Ac/B/ || A<e d/c/B/A/ B>^GA>E | G<B G>D TB,2 G,A,/B,/ |\
+(3CB,A, (3DCB, (3EDC (3B,CD | (3Edc (3BA^G A2 A |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z |\
+a2e2 A3B | c2c2 B2G2 | A2E2 A3^G | A2E2 A2z2 || a2e2 c2B2 |
+c2d2 G2Gz | A2B2 c2d2 | e2E2 A2A |]|\
+z |\
+[a2A2][a2A2] [a2A2][a2A2] | [g2G2][g2G2] [g2G2][g2G2] | [a2A2][a2A2] [a2A2][a2A2] |
+e2E2 A2Az || a2a2 e2c2 | B2e2 G2G>^G | A2B2 c2d2 | e2E2 A2A |]

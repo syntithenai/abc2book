@@ -1,0 +1,26 @@
+X: 1
+T: Ladies Maggot
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.268
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Bar 8 has the dot on the wrong d; fixed.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+(BG)B d2g | d3 B2e | (de)B (Ac)B | A3- A2G |\
+BGB d2g | d3 B2e | (de)B (^cA)^c | d3- d2 |]
+f |\
+(gf)g e2e | (fe)f ^d2d | (eB)G (Ac)(B/A/) | B3- B2B |\
+(Bd)B d2d | (eg)e f2f | (gd)B (Bd)A | G3- G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man meet and set with the 2. wo. and turn his Partner .| The 2. cu. does the same :| The 1.
+%% man turns his Partner twice round, then right and left quite round, till the 1. cu. is in the 2. cu. place .|
+%% Then the 1. cu. leads through the 3. cu. and turns his Partner :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

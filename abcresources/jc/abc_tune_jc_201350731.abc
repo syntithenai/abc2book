@@ -1,0 +1,49 @@
+X:793
+T:Watching the Wheat: Piano solo
+C:Arr. Colin Hume, 2008
+L:1/4
+M:3/4
+% Draw 8va
+%%postscript /octava{
+%%postscript exch -10 add exch 2 copy
+%%postscript M 0 10 RM /Times-Roman 16 selectfont (8) show
+%%postscript /Times-Roman 12 selectfont (va) show
+%%postscript M 0 6 RL currentpoint stroke M
+%%postscript [6] 0 setdash 30 add 0 RL currentpoint stroke M
+%%postscript [] 0 setdash 0 -6 RL stroke}!
+% Start/stop 8va
+%% deco 8( 5 - 24 0 0
+%% deco 8) 5 octava 24 0 0
+%%subtitlefont Times-Roman 28
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=98
+%%MIDI chordname dim 0 3 6 9
+K:C
+V:1 treble
+%%MIDI program 60
+%%staffsep 52
+[| C/E/ [DEG]3/ E/ | [A,CF]/ [A,CF]/ [A,B,-E-] [^G,B,E]/ F/ |\
+[CDG]/ E/ [A,C]3/ [G,E]/ | [_B,DG]2 [B,^CE] | [DF]/ [DF]/ [FA]3/ [DF]/ |
+[DE]/ [DE]/ [CDG]3/ E/ | [F,-_A,-E]/[F,-_A,-D]/ [F,_A,D] [G,_B,]/ C/ | [A,C]3 ||\
+C/E/G/c/e/g/ | [Af]/[Af]/ [Ge]3/ [Af]/ |
+[eg]/[ce]/ [Ac][FBe] | [ceg]2 [ce] | [cdf]/[cdf]/ [cda]3/f/ | [Bce]/[Bce]/ [eg]3/e/ |\
+[F-c-e]/[Fcd]/ [Fd]3/c/ | [EGc]3 ||
+V:2 bass octave=-2
+%%MIDI program 58
+[| cbg | dD2 | GcB | efg | a2G |
+g2G | _B2G | F/G/A/B/c/d/ ||[Cc]2-[Cc]/[Cc]/ | F/A/c/e/g/b/ |
+c'/b/a^g |[V:2 treble octave=0]A,/B,/C/E/G/B/ | AFD | CB,_B, |[K:C bass octave=-2]a [^gc']2 | =gcB ||
+V:1
+C/C/ [CEc]3/A/ | [A,CF]2 [A,CE] | [A,CD]/[A,CD]/ [^FAd]3/[CDFB]/ |\
+[B,EG]2 [G,_B,E] | [A,CF]/[A,CF]/ [CFA]3/ [A,CF]/ | [G,B,E]/[G,B,E]/ [B,EG]3/E/ |
+!crescendo(![B,E]/ D/ [B,F]/ E/ [B,E]/ G/ | [B,DG]/ F/ [B,DA]/ G/ [B,DA]/ B/ !crescendo)! ||\
+I:octave=1
+!ff![CEc] !8(![CEc]/[B,DB]/[A,CA]/[G,B,G]/ | [F,A,F]2 [E,G,E] | [D,^F,D]/[D,^F,D]/ [D^Fd]3/B/ |
+[G,B,G]/[A,CA]/[B,DB]/[CEc]/[DFd]/[EGe]/ |\
+[FAf]/[FAf]/ [Aca]3/[FAf]/ | [Gce]/[Gce]/ [ceg]3/[Gce]/ |\
+!diminuendo(![F-A-e]/[FAd]/ [GBd]3/c/ | [Fc-][Ec-][Dc] !diminuendo)! || !pp!!arpeggio!!8)![CEGc]3 |]
+V:2
+AaA | D/F/A/c/d/f/ | ^f2 D | E/^F/G/A/_B/c/ | d2 D | c C/D/E/F/ |
+!crescendo(![Gg]3 | [Gg] [Gg] [Gg] !crescendo)! || !ff![Aa] A/B/c/^c/ | d ^G/A/B/c/ | dD^F |
+[Gg]2[Gg] | [Ff]2 [K:C treble octave=0] [FAc] | [CEG]2 C | !diminuendo(!D/E/ FG | AGF !diminuendo)! || !pp!E3 |]

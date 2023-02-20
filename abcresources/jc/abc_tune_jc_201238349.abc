@@ -1,0 +1,23 @@
+X: 3062
+T: Hoddom Castle
+%R: air, jig
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.6 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slow"
+K: Bb
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 8-bar lines.
+V: 1 staves=2
+F |\
+B2B TB>cd | {c}e2c/B/ {B}AGF | B>cB (Bd).f | f>gf {f}edTc ||\
+(dB).B (BG).G | (ec).c (cA).A | TB>cd {d}cBA | [BD][BD][BD] [B2D2] :|
+|: Td/>e/ |\
+(fd).d (dB).B | (ec).c (cA).A | TB>cd cc/d/c/B/ | AFF FGA ||\
+BBB (Gc)c | (Ad).d (Be).e | cfe {e}dcB |1 cFA (B/A/)B/c/ :|2 cFA [B2D2] |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | B2b B3 | c2e f2e | d3 B2b | ded c2f || B3 e3 | c3 f3 | d2B f2F | bfd B2 :||: z |
+Bdf b3 | FAc f3 | d2B c2=e | f2F f2_e || d3 e2=e | f2^f g2g | a3 b2B |1 f2F B2 :|2 f2F B2 |]

@@ -1,0 +1,52 @@
+%%text RJ Set 049 Jigs
+
+
+X: 1
+T: Kesh Jig (Kincora Jig)
+I: Kesh Jig	J-18	G	jig	Set 15
+I: Kincora Jig	J-18	G	jig	Set 15
+M: 6/8
+R: jig
+K: G
+D |\
+"G"G3 GAB | "D"ABA ABd | "G"edd gdd | edB "D"dBA |\
+"G"G3 GAB | "D"ABA ABd | "G"edd gdB | "D"AGF "G"G2 :|
+|: A |\
+"G"B3 dBd | "C"ege "G"dBG | BAB dBG | "Am"ABA AGA |\
+"G"B3 dBd | "C"ege "G"dBd | "C"g3 "D"aga | "G"bgg g2 :|
+
+
+X: 2
+T: Stan Chapman
+C: Jerry Holland
+I: Stan Chapman	J-62	A	jig
+R: jig
+M: 6/8
+K: A
+F |\
+"A"E3 EFA | "E"B3 Bce | "D"fea "F#m"fec | "Bm"ecA "E"BAF |\
+"A"E3 EFA | "E"B3 Bce | "D"fea "E"fec | "A"ecA A2 :|
+f |\
+"A"e3 ecA | "D"f3 fga | "A"fec BAB | "F#m"cAF F2f |\
+"A"e3 ecA | "D"f3 fga | fec "E"BAB | "A"cAA A2 |]
+f |\
+"A"e3 ecA | "D"f3 fga | "A"fec BAB | "F#m"cAF F2f |\
+"A"ecA ecA | "D"fdf fga | fec "E"BAB | "A"cAA A2 |]
+
+
+X: 3
+T: Morrison's Jig
+I: RJ J-26 E Dor jig
+M: 6/8
+R: jig
+K: Edor
+|:\
+"Em"E3 BEB | EBE "D"AFD | "Em"E3 BEB | "D"dcB AGF |\
+"Em"E3 BEB | EBE "D"AFD | "G"G2G FGA | "D"dAG FED :|
+[|\
+"Em"Bee fee | aee "D"fed | "Em"Bee fee | "D"fag fed |\
+"Em"Bee fee | bee "D"fed | edc d2A | "B7"BAG F3 |]
+[|\
+"Em"Bee fee | aee "D"fed | "Em"Bee fee | "D"faf def |\
+"G"g2g gfe | def g2d | "D"edc d2A | "B7"BAG F3 |] "Em"HE4 |]
+

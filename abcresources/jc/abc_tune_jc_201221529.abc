@@ -1,0 +1,21 @@
+X: 4
+T: King of Polands Allmand
+%R: reel
+B: "Twenty Four Country Dances for the Year 1780", Thomas Skillern, ed. p.2 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1780#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+{b}a2gf |\
+{f}e2dc Bcde | {d}c2BA {b}a2gf |\
+{f}e2dc BcdB | A4 :|
+|: B2ed |\
+{d}c2BA Bcde | {d}c2BA B2ed |\
+{d}c2BA BcdB | A4 :|
+%%begintext align
+%%   Right hands across .|.
+%% Left hands back again :|.
+%% Lead down two Cu .|:
+%% up again and Cast off :|:
+%%endtext

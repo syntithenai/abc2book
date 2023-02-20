@@ -1,0 +1,12 @@
+X:40
+T:Strube's 6/8
+M:6/8
+Q:1/8=300
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+a|ecA A2B|c2d edc|dcd faf|d2e fga|ecA A2B|c2d edc|Bgf edc|d3-d2::
+f|e2f gfg|e2f g2g|afd dcd|ecA A2f|e2f gfg|e2f g2b|afd gec|d3-d2:|

@@ -1,0 +1,33 @@
+X: 1
+T: Shuffle and Cut
+P: Longways for as many as will
+%R: slip-jig, triple hornpipe
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.69
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #8 (14)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to satisfy the "Each Strain but once" instruction.
+N: The natural in the base voice's bar 4 was missing, but it's obviously needed.
+N: CCDM2 says "Each Strain but once", but has repeat signs in the music.
+N: CCDM2's dance is missing the first "& turn", but is the same otherwise (except for capitalization).
+N: The tunes differ only in bar 3; the lower notes are from CCDM2.
+M: 9/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[| dBG FAF E/F/GE | =cEE E2B AFD | dBG FAF F/G/AB & x3 x3 EGE | AFD D2B AFD |]
+[| f/g/af e/f/ge B/c/dB | =cEE E2B AFD | f/g/af e/f/ge B/c/dB | AFD D2B AFD |]
+[| G2e F2d E3 | =cEE E2B AFD | G2e F2d E2B | AFD D2B AFD |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[| G3 d3 =c3 | A3 =c2G d3 | G3 d3 zzG | d2=c B2G d3|]
+[| d'3 =c'3 g3 | a3 =c2G d3 | d'3 =c'3 g3 | d2=c B2G d3 |]
+[| e3 d3 A3 | zzA =c2G d3 | e3 d3 A2G | d2=c B2G d3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain but once.
+%%begintext align
+%% The 1st Cu. dance thro' the 2d Cu. & cast off & turn .|
+%% then the 1st Cu. dance thro' the 3d Cu. & cast up again & turn :|
+%% then the first and 2d Cu jigg it round and cast off .:|
+%%endtext

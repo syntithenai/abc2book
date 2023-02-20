@@ -1,0 +1,66 @@
+X: 1
+T: Signore delle cime
+C: Bepi De Marzi (vivente)
+M: C
+L: 1/4
+S: aar09@dial.pipex.com (Phil Taylor) abcusers 2003-2-24
+A: Northern Italy
+I: This is a funeral hymn, typically sung when somebody
+I: dies in mountain accident (not only is such tragic
+I: occasions though). It's very popular in northern Italy,
+I: especially in Alpine regions (Veneto, Trentino, Lombardia).
+%
+N: English translation of the lyrics:
+N: 1. O God of the heavens, Lord of the summits, you claimed
+N: our friend from the mountain.
+N:   (Refrain:) But we pray you, we pray you: high in Heaven,
+N:   high in Heaven, let him go onto your mountains.
+N: 2. Holy Mary, Lady of the snow, cover our friend, our brother,
+N: with your white and soft mantle. (Ref.)
+Q: "Grave" 1/4=50
+%%staves [1 2 3 4]
+V: 1 clef=treble
+V: 2 clef=treble
+V: 3 clef=treble   T=-12
+V: 4 clef=bass m=d T=-24
+K:C
+[V: 1] E2EE|G2G>G|cccc |B2B2|A2AA|
+w:     Di-o del cie-lo, Si-gno-re del-le ci-me, un no-stro~a-
+w:     San-ta Ma-ri-a, Si-gno-ra del-la ne-ve, co-pri col
+[V: 2] E2EE|D2D>D|EEE^F|G2G2|F2FF|
+[V: 3] c2cc|B2B>B|ccce |e2e2|c2BB|
+w:     Di-o del cie-lo, Si-gno-re del-le ci-me, un no-stro~a-
+w:     San-ta Ma-ri-a, Si-gno-ra del-la ne-ve, co-pri col
+[V: 4]  c'2c'c'|b2b>b|aaaa |e2e2|f2gg|
+%
+[V: 1] G2GG|FFFF|E2E2  |E2AG |G2F2|
+w:     mi-co hai chie-sto~al-la mon-ta-gna- Ma ti pre-ghia-mo,
+w:     bian-co tuo sof-fi-ce man-tel-lo il no-stro~a-mi-co,
+[V: 2] E2EE|DDDC|B,2B,2|^C2CC|D2D2|
+[V: 3] c2cB|AAAA|^G2G2 |A2AA |A2A2|
+w:     mi-co hai chie-sto~al-la mon-ta-gna- Ma ti pre-ghia-mo,
+w:     bian-co tuo sof-fi-ce man-tel-lo il no-stro~a-mi-co,
+[V: 4] c2cc|dddd|e2e2  |A2AA |d2d2|
+%
+[V: 1] A2cB |A2G2|cccc      |B2B2|
+w:     ma ti pre-ghia-mo: su nel Pa-ra-di-so,
+w:     no-stro fra-tel-lo. su nel Pa-ra-di-so,
+[V: 2] ^D2DD|E2E2|EE^FF     |G2G2|
+[V: 3] B2BB |B2B2|c c/B/ ee |e2e2|
+w:     ma ti pre-ghia-mo: su nel_ Pa-ra-di-so,
+w:     no-stro fra-tel-lo. su nel_ Pa-ra-di-so,
+[V: 4] B2BB |e2ed|c c'/b/ aa|e2e2|
+%
+[V: 1] AAAA|G2G2|A2AA|^G2A2 |
+w:     su nel Pa-ra-di-so la-scia-lo~an-da-re
+[V: 2] FFDD|E2E2|FEDD|E2E2  |
+[V: 3] ccBB|c2c2|c2BA|(Be)c2|
+w:     su nel Pa-ra-di-so la-scia-lo~an-da_re
+[V: 4] ffgg|c2c2|f2ff|e2a2  |
+%
+[V: 1] AAGc|(c2B2)|c4-     | Hc2z2     :|
+w:     per le tue mon-ta_gne. *
+[V: 2] FFFE|F4    |E4-     | HE2z2     :|
+[V: 3] ecBc|d4    |c4-     | Hc2z2     :|
+w:     per le tue mon-ta-gne. *
+[V: 4] ffgg|g4    |[c4-g4-]| H[c2g2]z2  :|

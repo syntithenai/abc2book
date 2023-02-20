@@ -1,0 +1,27 @@
+X:2003
+T: La masa mare ohne Polobocul
+O: Romania, Bocovinia
+F: http://www.youtube.com/watch?v=19U9e22Od14
+W:transcribed by Jutta Weber-Karn
+W:http://www.folkloretanznoten.de/
+W:converted to abc notation by Seymour Shlien
+M: 2/4
+L: 1/16
+K: Bm
+Q: 1/4=120
+%%MIDI program 66 % Tenor Sax
+%%MIDI bassprog 32 % Acoustic Bass
+%%MIDI chordprog 24 % Acoustic Guitar (nylon)
+"Bm"a2^gf gab2  |B2B2 B4        |a2^gf gab2      |\
+B2B2 B4         |"F#m"a2^gf gab2|"Bm"a2^gf gab2  |
+"F#m" a2^gf gab2|B2B2 B4        |"Em"baag gffe   |\
+"D"aggf f2ed    |"Dm"e=ffe eddc |
+de=fg a4        |"Em"baag gffe  |"D"aggf f2ed    |\
+"Dm"e=ffe eddc  |"Bm"decd B4    |
+K:Dm
+"Dm"f8          |fed^c defd     |"A"e8           |\
+"Dm"fed^c d4    |a8             |c'=ba^g fedf    |
+"A"e4-e3d       |"Dm"fed^c d4   |:\
+K:Bm
+b2a^g =fedc     |"Bm"decd B4    |d2dc "A"cAdc    |"Bm"Bcde f4|
+"Dm"b2a^g =fedc |"Bm"decd B4    |"Em"dcec "A"dBcA|"Bm"B8     :|

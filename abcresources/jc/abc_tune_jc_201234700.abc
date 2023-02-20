@@ -1,0 +1,23 @@
+X: 20713
+T: SILLY BOY, 'TIS FULL MOON YET, SO NIGHT AS DAY SHINES CLEARLY.
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.71 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+B3c | d2(dc) | B2d2 | A2A2 | B3c | d2(dc) | B2g2 |\
+B3c | d2(dc) | B2d2 | A2A2 | B3c | d2({e}dc) | (Bdg2) |
+e2g2 | d2g2 | e2(dc) | B2(dB) | A2d2 | B2(BG) | A2d2 | G2z2 |\
+e2g2 | d2g2 | (fe)({e}dc) | B2(dB) | A2d2 | B2(BG) | A2d2 | G2z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% This air is adapted to a song beginning as above,
+%% and written by Sir Walter Raleigh.
+%%endtext
+%%sep 1 1 300

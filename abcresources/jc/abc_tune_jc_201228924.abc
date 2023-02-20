@@ -1,0 +1,25 @@
+X: 117
+T: Count Sax's March
+%R: march, reel
+N: This is version 2, for ABC software that understands grace notes with length.
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.56 #117
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - -
+Bc |\
+d4 e4 | dcBc d2g2 |\
+G4 TA4 | BAGF G2d2 |\
+edcd e2g2 | dcBc d2g2 |\
+c4 TB3c | {B2}A6 :|
+|: fg |\
+a4 d4 | ^c4 d2fg |\
+a4 d4 | ^cdec A2A2 |\
+d2(d/e/f) e2(e/f/g) | f2(f/g/a) g2(g/a/b) |\
+a2d2 {f}e2d^c | {c2}d6 g2 |
+edcd e2g2 | dcBc d2g2 |\
+c4 TB4 | AGFE D2D2 |\
+G2(G/A/B) A2(A/B/c) | B2(B/c/d) c2(c/d/e) |\
+d2G2 {B}A2GF | {G2}G3 :|

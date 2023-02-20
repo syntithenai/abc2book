@@ -1,0 +1,39 @@
+X: 275
+T: Kloca
+T: Baluca Vlaski Tanc
+F: http://www.youtube.com/watch?v=5711ABSBd3c
+O: Bulgaria
+M: 2/4
+L: 1/8
+P:AB2C2B2C2DE2F2
+K: G clef=treble
+Q:1/4=120
+%%MIDI program 65
+%%MIDI bassprog 32
+%%MIDI chordprog 24
+P:A
+|"G" Z4\
+P:B
+|:"G"Bzdz      |cBc2                 |\.B2.d2|cdBG :|
+P:C
+|:G,/A,/ A,A,A,|A,/G,/G,/F,/F,/E,/E, |\
+  G,/A,/ A,A,A,|A,/G,/G,/F,/F,/E,/E, :|
+P:D
+Q:1/4=160
+|:B3z          |EFG2                 |\
+  B2^A2-       |A2E2                 :|\
+|:B3z          |EFG2                 |\
+  [1B2^A2-     |A2E2                 :|\
+  [2B2^A2      |E2z2                 |
+P:E
+K: F#m
+Q:1/4=170
+|:EGB2         |dcB2                 |\
+  .d2.B2       |dcB2                 |\
+  EGB2         |dcB2                 |\
+  d2B2         |.G2.E2               :|
+P:F
+Q:1/4=180
+|:c2BA         |A2A2                 |\c2BA  |A2A2 |\
+| c2BA         |A2A2                 |\
+  c2BA         |A4                   :|

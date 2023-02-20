@@ -1,0 +1,25 @@
+X: 2041
+T: Gin a body meet a body.   a Strathspey.
+%R: strathspey, air
+B: Niel Gow & Sons "Complete Repository" v.2 p.4 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "VERY SLOW"
+K: Bb
+% - - - - - - - - - -
+V: 1 staves=2
+B |\
+F<F F>d {d}c>Bcd | F<F ~G>F {F}B3 G |\
+F<F f>d (e/d/).c/.B/ cd | F<F ~G>F {F}B3 :|\
+(d/e/) |\
+f>dBd {d}c>B cd | f>dBd ({e}g3 a/b/) |
+f>de>c d>B cd | F<F ~G>F {F}B3 (d/e/) ||\
+f>dBd Tc>B c(d/e/) | (f/e/)(d/c/) Bd/f/ H[g3B3E3G,3] (a/b/) |\
+Tf>g (g/f/)(e/d/) gc Tc>d | F<F ~G>F {F}B3 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+d2B2 f2e2 | d2e2 d2B2 | d2B2 f2ab | d2e2 d2B :| z | B2b2 f2f2 | b2[b2d2] [b2e2][b2e2] |
+d>b c>a B>g f2 | d2e2 d2B2 || b2B2 f2ed/c/ | B2b2 H[e3E3]z | d2B2 e2f2 | d2e2 d2B |]

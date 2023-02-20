@@ -1,0 +1,28 @@
+X: 11472
+T: the SWISS DROVER BOY
+Q: "Moderate."
+%R: air, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.147 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+G2(GA) B2(Bc) | d2(ed) B2BB | (d2c2) A2Bc | d2g2Hb2 D2 |\
+G2(GA) B2(Bc) | d2(ed) B2B2 | d2c2 A2(cB) | G6 |]\
+G2 |\
+A2AA (GFED) | {^G}A2AA (=GFED) |
+A2d>F (AG) (3(EG>F) | E3D "^D.C."D2 |]\
+Bd |\
+c2Ac aAce | d2Bb g2Bd | c2Ac aAce | d2Bb Hg2db |\
+g4- gdbd | g4- gdbd | gdbd gd[d'd]b | {fga}Hg4 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% From the above air T. H. Bayley has taken the subject
+%% of the melody of his song "Long, long ago."
+%%endtext
+%%sep 1 1 300

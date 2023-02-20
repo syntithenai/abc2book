@@ -1,0 +1,35 @@
+
+X: 1
+T: Mrs Jamieson's Favorite
+C: melody: Charles Grant
+C: harmony: Ed Pearlman
+S: BSFC Session Tune Book p.72
+S: BSFC Tune Book VIII-16
+R: air, waltz, jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "air, waltz, jig"
+V: 1
+V: 2
+K: A
+%%slurgraces 1
+% - - - - - - - - - - - - - - -
+V: 1 staves=2
+"A"[|\
+"A"E>AB ({A}c2E) | "D"F2E FA2 | "A"E>Ac "F#m"(e2Tf) | "D"e2c "E"TB2c |\
+"A"E>AB ({A}c2E) | "D"F2E "Bm"FA2 | "A"EAB "F#m"(c<ef) | "E"{A}c2B "A"[A3E3] |]
+"B"[|\
+"A"e2A "D"{fa}f2A | "A"{ef}e2E "D"FA2 | "A"e2A "F#m"{fa}f2A | "D"Ha2c "E"B2c |\
+"A"e>AA "A7"ABc | "D"F2E "Bm"FA2 | "A"E>AB "F#m"(c<ef) | "E"{A}c2B "A"[A3E3] |]
+% - - - - - - - - - - - - - - -
+V: 2
+%C: E. Pearlman
+%S: BSFC Tune Book p.72
+%Z: 2017 John Chambers <jc:trillian.mit.edu>
+[|\
+C>EG A2C | D2C DF2 | c>EA c2 d | c2A G3 |\
+C>EG A2C | D2C DB,2 | CEG A<cA | E2G A3 |]
+[|\
+c2E d2E | c2E FD2 | c2E c2F | d2A G2G |\
+c>AA AG=G | F2E FD2 | EEG A>cd | E2B A3 |]

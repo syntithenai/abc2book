@@ -1,0 +1,54 @@
+X: 20
+T: THE LAST OF TWENTY
+M: 6/4
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Thomas Bray's Country Dances 1699 p.46
+N: Duple minor longways
+N: Minuet step throughout
+N: The time signature looks like "31".
+P: AA BB ad lib.
+Q: 1/4=108 "with delicacy"
+K: C
+%----------------------------------------
+% V:1 arranged to give fewer, longer staff lines.
+V: 1
+"A"|:\
+g3ag2 f2e4 | defedc d4G2 | c2d4 edefef |\
+g3ag2 f2e4 | defedc d4G2 | c2(d3c/d/) e6 :|
+"B"|:\
+g6 c2d2e2 | f2fga2 g4f2 | e2^f3e/f/ gfgag=f |\
+e6 c2d2e2 | f2fga2 d4e2 | cdd3c c6 :|
+%----------------------------------------
+V: 2
+|:\
+E3FG2 A2G2E2 | G2=F2^F2 G2B,2G2 | A2(TB3A/B/) cBcdcd |
+e3fe2 d2c2G2 | G2=F2^F2 G2B,2G2 | A2(TB3A/B/) c6 :|
+|:\
+E2F2G2 A4G2 | A4D2 E2G2A2 | G2ABcA BABcd2 |
+c2G2E2 A4G2 | A2D2C2 B,2D2G2 | eFFEFG HE4G2 :|
+%----------------------------------------
+V: 3 clef=bass middle=d
+|:\
+"C"c'4c2 "F"f2"C"c'4 | "G"b2"F"a2-"D"a2 "G"g4"Em"e2 | "Am"a2"G"g4 "C"c6 |
+"C"c4c2 "G"B2"C"c4 | "G"B2"F"A2-"D"A2 "G"G2g2"Em"e2 | "Am"a2"G"g2G2 "C"c6 :|
+|:\
+"C"c2d2e2 "F"f4"C"e2 | "Dm"d3ef2 "C"c4"F"f2 | "C"c'2"D"a4 "G"g4B2|
+"C"c4c'2 "Am"a2b2"C"c'2 | "F"f4f2 "G"g4"Em"e2 | "Am"af"G"g2G2 | "C"c6 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%center A Minuet Country Dance, call'd the last of Twenty.
+%%begintext align
+%% The 1st Man and Wo. cross over with their backs to each other, in three Minuett steps to each
+%% others place, and turn to the left Hand with their Faces in, the 2d cu. do the same at the same
+%% time, 1st Man and 2d Wo. chang [sic] places with the right Hand, and turn to the left in three Minuett
+%% steps, the 1st Wo. and 2d Man go half round at the same time, with their left Hand to the other cu.
+%% .| The same again, only, the 1st Wo. and 2d Man change places with the right Hand, and the other
+%% cu. change places as before, :| The 1st Man lead his Wo. up one Minuett step, and five to the left Hand
+%% round, till he comes to the 2d Womans place as at first; 2d Wo. at the same time lead her Man one step
+%% down, and five to the left Hand, to the 1st Mans place as at first; 1st Man and 2d Wo. fall back into
+%% the middle of the Room with their backs to each other, and stand all in a row cross the Room each
+%% with his Face to his Partner .| 1st Man and 2d Wo. move three minuett steps to the left Hand, the Man
+%% up, the Wo. down, till they come on the outside, the 1st Wo. and 2d Man at the same time cross over
+%% and fall with their backs to each other as before, then each Man turn his Wo. with the right Hand,
+%% the 1st Cu. below, the 2d cu. above :| And so to the end,
+%%endtext

@@ -1,0 +1,16 @@
+X: 38
+T: Good Morning Fair Maid   #2
+R: air, waltz
+%S: s:2 b:20(10+10)
+B: "O'Neill's 1850 *38"
+Q: "Moderate"
+O: F.O'Neill
+Z: Norbert Paap, norbertp@bdu.uva.nl
+N: Note: 5-bar phrases
+N: Compacted by using labels and play order [JC]
+P: Play ABBA
+M: 3/4
+L: 1/4
+K: G
+"^A"[| G/A/ | BAG | EGE    | DB,D | EGG | "^fine"G2 |]
+"^B"|: D    | GAB | c2d/c/ | BAG  | BdB | "->A"A2 :|

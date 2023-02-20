@@ -1,0 +1,22 @@
+X: 111
+T: 1 La lanterne Magique
+%R:
+B: Robert Landrin "Potpourri fran\,cois des contre-danse ancienne tel quil se danse chez la Reine ..." 1760 p.11 #1
+S: http://memory.loc.gov/cgi-bin/query/D?musdibib:2:./temp/~ammem_EbRS:
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: In bars 13 & 14, the MS has rests under the 16th notes, but ABC software rejects this syntax.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+F2D A2F | d3 dcB |\
+ABA AGF | [EA,]2[EA,] [EA,]2D |\
+F2D A2F | d3 dfe |\
+dfe dcB | AAA A2 :|
+|: "4f"A |\
+[eA]2[eA] [eA][fA][gA] | [fd]2[fd] [fd]ga |\
+agf agf | [eA][eA][eA] [eA]2A |\
+[dF]2f [dG]2f | [eA]2g [eA]2g |\
+fed edc | [dF][dF][dF] [dF]2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

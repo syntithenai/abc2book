@@ -1,0 +1,32 @@
+X: 3282
+T: Mr Robertson of Ladykirk's     Strathspey
+C: by Nath. Gow
+%R: strathspey
+N: This is version 2, for ABC software that understands "grace chords". (See bar 3.)
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.28 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: C
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+GF |\
+E2G2G2AB c2E2 [D3B,3]F | (E3G)(.G2.G2) Tc3d {cd}e4 |\
+(ABc).B (dcB).A (G<E)c>E {[EC]}[D3B,3]F | E2G2 (cd)ef [e3G3]T[dF][c2E2] :|
+gf  |\
+e2g2 (ag)fe a2f2Td3f | e3g (gfed) cBcd {cd}e4 |\
+A2B>c (AGF)E c2[E2C2][D3B,3]F | E2G2 (cd)ef [e2G2]T[d2F2][c2E2]gf ||
+e3g (ag)fe a2f2 d2gf | !p!e(gfe) gfed {d}c>Bcd {cd}e4 |\
+.A(cBc) .G(cBc) [AF][GE][FD][EC] HT[EC]H[DB,] gf | (EG)(AB) cdef e2c2Tc2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |\
+c2e2c2f2 e2c2 g2G2 | [c'4g4] [b4g4] [c'2a2]gf e2c2 |\
+f2c'2 e2c'2 c2c'2 G2g2 | c'2c2 e2f2 g2G2c2 :|
+z2 |\
+c2c'2 c2c'2 f4 g2b2 | c'2c2 c'3b a3f e2c2 |\
+f2c2 e2c2 c2e2 g2G2 | c4 e2f2 g2G2 c4 ||
+c2c'2 c2c'2 f4 g2b2 | !p!c'4 [d'4b4] [e'4a4] [c'4e4] |\
+[c'4f4] [c'4e4] fef^f HgHG z2 | c2f2 efgG c2G2C2 |]

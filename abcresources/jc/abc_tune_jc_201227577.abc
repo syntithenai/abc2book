@@ -1,0 +1,19 @@
+X: 10871
+T: CHARLES STREET, BATH.
+R: Reel.
+%R: reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.87 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Removed extraneous bar line in bar 7.
+M: C
+L: 1/8
+K: A
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+agag aece | fgag f2e2 |\
+acec fdBd | ceEG A2A2 ::\
+EBGB EcAc | EBcd c2B2 |\
+aece fdBd | ceEG A2A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

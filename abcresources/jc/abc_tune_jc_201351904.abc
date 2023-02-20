@@ -1,0 +1,34 @@
+%%abc 2.2
+
+X: 734
+T: Whence Comes This Rush of Wings   [Gm]
+C: Trad. French carol
+O: 
+R:
+S: The Cyber Hymnal #7315
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+Q: "Christmas carol"
+M: C
+L: 1/8
+K: Gm
+% - - - - - - - - - -
+V: 1 nm=S staves=2
+[|	G2FG A2A2 | B2(BB) A4 | G2FG A2G2 |  F2=E2 D4 \
+||	G2(FG) A2A2 | B2B2 A4 | d2dc d2c2 | B2A2 G4 |]
+% - - - - - - - - - -
+V: 2 nm=A clef=treble
+[|	D2DD F2F2 | F2(FF) F4 | D2DD F2D2 | D2^C2 D4 \
+||	D2(DD) F2F2 | F2F2 F4 | F2FF (FB2)A | AG2^F G4 |]
+% - - - - - - - - - -
+% V: 3 clef=bass middle=d staves=2
+% [|	b2ab c'2c'2 | d'2(d'd') c'4 |
+% 	b2bb c'2b2 | a2(ag) f4 |
+% 	b2b-b c'2c'2 | d'2d'2 c'4 |
+% 	b2ba b2e'2 | d'2d'2 b4 |]
+% % - - - - - - - - - -
+% V: 4 clef=bass middle=d
+% [|	g2dg f2f2 | b2(bb) f4 |
+% 	g2bg f2g2 | a2A2 d4 |
+% 	b2(ag) f2f2 | b2b2 f4 |
+% 	b2bf b2c'2 | d'2d2 g4 |]
+% % - - - - - - - - - -

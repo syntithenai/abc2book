@@ -1,0 +1,26 @@
+X:1
+T: Colterom
+N:
+C:
+S:
+A:
+O:
+R:
+M:3/4
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 44 notes)
+K:G
+M:3/4
+L:1/16
+g4/3 a4/3 b4/3 |g2 b2 d2 f2 g4/3 |a4/3 b4/3 g2 b2 |d2 f2 g2 f2 g2 b2 |a2 g2 f6 e2 |d4 g4/3 a4/3 |b4/3 g2 b2 d2 f2 |g4/3 a4/3 b4/3 |g2 b2 d2 f2 g2 a2 |b2 a2 g2 f2 g12 |
+%W: A2
+% voice 1 (1 lines, 44 notes)
+g4/3 a4/3 b4/3 |g2 b2 d2 f2 g4/3 |a4/3 b4/3 g2 b2 |d2 f2 g2 f2 g2 b2 |a2 g2 f6 e2 |d4 g4/3 a4/3 |b4/3 g2 b2 d2 f2 |g4/3 a4/3 b4/3 |g2 b2 d2 f2 g2 a2 |b2 a2 g2 f2 g12 |
+%W: B1
+% voice 1 (1 lines, 56 notes)
+f4/3 g4/3 a4/3 |f4/3 g4/3 a4/3 |d2 A2 B4/3 c4/3 |d4/3 B4/3 c4/3 |d4/3 G4 c4/3 |d4/3 e4/3 c4/3 |d4/3 e4/3 A2 G2 |F4/3 G4/3 A4/3 |F4/3 G4/3 A4/3 |D4 G4/3 A4/3 |B4/3 G4/3 A4/3 |B4/3 A2 c2 B4/3 |c4/3 d4/3 B4/3 |c4/3 d4/3 c2 e2 |d4/3 e4/3 f4/3 |e4/3 f4/3 g4/3 |f4/3 g4/3 a4/3 |g12 |
+%W: B2
+% voice 1 (1 lines, 56 notes)
+f4/3 g4/3 a4/3 |f4/3 g4/3 a4/3 |d2 A2 B4/3 c4/3 |d4/3 B4/3 c4/3 |d4/3 G4 c4/3 |d4/3 e4/3 c4/3 |d4/3 e4/3 A2 G2 |F4/3 G4/3 A4/3 |F4/3 G4/3 A4/3 |D4 G4/3 A4/3 |B4/3 G4/3 A4/3 |B4/3 A2 c2 B4/3 |c4/3 d4/3 B4/3 |c4/3 d4/3 c2 e2 |d4/3 e4/3 f4/3 |e4/3 f4/3 g4/3 |f4/3 g4/3 a4/3 |g12 ||

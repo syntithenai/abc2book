@@ -1,0 +1,33 @@
+X: 32331
+T: BUY A BROOM - Old German Air, with variations
+C: Arr. by T.W. Howard
+N: Bowing and Fingering arranged by W.B. Laybourn
+R: air, waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.233
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: This is the well-known song tune "Ach du lieber Augustine".
+N: 2nd part of Air have initial repeat but no final repeat.
+N: The section labels, P: headers here, were placed below the first phrase, which is confusing.
+M: 3/4
+L: 1/8
+K: D
+P: Air.
+|: va3 bag | f2d2d2 | e2A2A2 | f2d2 df  | a3bag | f2d2d2 | e2A2A2 | d4z2 :|
+|: ve2A2A2 | f2d2d2 | e2A2A2 | f2d2(df) | a3bag | f2d2d2 | e2A2A2 | d4z2 H:|
+P: 1st Variation.
+|: va2([c'a]b)ag | (fA).d.f.a.f | (eA).c.e.a.e | fA.d.f.g.^g |\
+    a2([c'a]b)ag | (eA).d.f.a.f | (eA).c.e.a.c | d4z2 :|
+|: (veA).c.e.a.e | (fA).d.f.a.f | (eA).c.e.a.e | (fA).d.f.g.^g |\
+    a2([c'a]b)ag | (fA).d.f.a.f | (eA).c.e.a.c | d4z2 H:|
+P: 2nd Variation.
+|: va2([c'a]b)ag | (3.f.d.A (3.F.A.d (3.f.a.f | (3ecA (3EAc (3ege | (3dAF (3DFA (3d(fg) |\
+    a2([c'a]b)ag | (3fdA (3FAd (3faf | (3ecA (3EAc (3egf | d4z2 :|
+|: v(3ecA (3EAc (3ege | (3fdA (3FAd (3faf | (3ecA (3EAc (3ege | (3dAF (3DFA (3dfg |\
+    a2([c'a]b)ag | (3fdA (3FAd (3faf | (3ecA (3EAc (3egf | d4z2 H:|
+P: 3rd Variation.
+L: 1/16
+|: vaaaa c'c'c'c' aagg | ffAA ddff aaff | eeAA ccee aaee | ffAA ddff gg^gg |
+    aaaa c'c'bb aagg | ffAA ddff aaff | eeAA ccee aacc | d8z4 :|
+|: veeAA ccee aaee | ffAA ddff aaff | eeAA ccee aaee | ffAA ffdd gg^gg |
+    aaaa c'c'bb aagg | ffAA ddff aaff | eeAA ccee aacc | d8z4 H:|

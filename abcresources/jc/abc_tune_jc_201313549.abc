@@ -1,0 +1,65 @@
+X:1
+T: Mozart Rondo Alla Turka
+Z:Giddily
+M: 2/4
+L: 1/16
+Q:1/4=120
+K:A
+z8|z8|B,A, G,A, =C2 z2|D=C B,=C E2 z2|
+=FE ^DE BA GA|BA GA =c4|A/2z3/2 =c/2z3/2 =G/2A/2B A/2z3/2|=G/2z3/2 A/2z3/2 =G/2A/2B A/2z3/2|
+=G/2z3/2 A/2z3/2 =G/2A/2B A/2z3/2|=G/2z3/2 ^F/2z3/2 E4|B,A, G,A, =C2 z2|=D=C B,=C E2 z2|
+=FE ^DE BA ^GA|BA GA =c4|A/2z3/2 =c/2z3/2 =G/2A/2B A/2z3/2|=G/2z3/2 A/2z3/2 =G/2A/2B A/2z3/2|
+=G/2z3/2 A/2z3/2 =G/2A/2B A/2z3/2|=G/2z3/2 ^F/2z3/2 E4|E/2z3/2 =F/2z3/2 =G/2z3/2 =G/2z3/2|A=G =FE =D2 =G,2|
+E/2z3/2 =F/2z3/2 =G/2z3/2 =G/2z3/2|A=G =FE D4|=C/2z3/2 D/2z3/2 E/2z3/2 E/2z3/2|=FE D=C B,2 E,2|
+=C/2z3/2 D/2z3/2 E/2z3/2 E/2z3/2|=FE D=C B,4|B,A, ^G,A, =C2 z2|D=C B,=C E2 z2|
+=FE ^DE BA ^GA|BA GA =c4|A/2z3/2 B/2z3/2 =c/2z3/2 B/2z3/2|A/2z3/2 G/2z3/2 A/2z3/2 E/2z3/2|
+=F/2z3/2 =D/2z3/2 =C4|B,/2(3=CB,=CB,/2A,/2B,/2 A,4|E/2z3/2 =F/2z3/2 =G/2z3/2 =G/2z3/2|A=G =FE D2 =G,2|
+E/2z3/2 =F/2z3/2 =G/2z3/2 =G/2z3/2|A=G =FE D4|=C/2z3/2 D/2z3/2 E/2z3/2 E/2z3/2|=FE D=C B,2 E,2|
+=C/2z3/2 D/2z3/2 E/2z3/2 E/2z3/2|=FE D=C B,4|B,A, ^G,A, =C2 z2|D=C B,=C E2 z2|
+=FE ^DE BA ^GA|BA GA =c'|A/2z3/2 B/2z3/2 =c/2z3/2 B/2z3/2|A/2z3/2 G/2z3/2 A/2z3/2 E/2z3/2|
+=F/2z3/2 =D/2z3/2 =C4|B,/2(3=CB,=CB,/2A,/2B,/2 A,4|A/2z3/2 B/2z3/2 ^c4|A/2z3/2 B/2z3/2 c/2z3/2 B/2z3/2|
+A/2z3/2 G/2z3/2 ^F/2z3/2 G/2z3/2|A/2z3/2 B/2z3/2 G2 E/2z3/2|A/2z3/2 B/2z3/2 c4|A/2z3/2 B/2z3/2 c2z3/2 B/2z3/2|
+A/2z3/2 G/2z3/2 F/2z3/2 B/2z3/2|G/2z3/2 E/2z3/2 A4|A/2z3/2 B/2z3/2 c4|A/2z3/2 B/2z3/2 c/2z3/2 B/2z3/2|
+A/2z3/2 G/2z3/2 F2z3/2 G/2z3/2|A/2z3/2 B/2z3/2 G2 E/2z3/2|A/2z3/2 B/2z3/2 c4|A/2z3/2 B/2z3/2 c/2z3/2 B/2z3/2|
+A/2z3/2 G/2z3/2 ^F/2z3/2 B/2z3/2|G/2z3/2 E/2z3/2 A4|cd cB AB AG|FA GF =F^F G=F|
+^C^D =FC ^F=F ^FG|AG AB c=c ^c=c|^cd cB AB AG|FA GF EF GE|
+C^D EC ^DE F^D|=C^C ^D=C ^C4|cd cB AB AG|FA GF =F^F G=F|
+C^D =FC ^F=F ^FG|AG AB c=c ^c=c|^cd cB AB AG|FA GF EF GE|
+C^D EC ^DE F^D|=C^C ^D=C ^C4|E=D CB, A,B, CD|EF GA AG FE|
+ED CB, A,B, CD|EF GA ^A2 B/2z3/2|ED CB, A,B, CD|EF G=A AG FE|
+ED CB, CD A,C|B,D G,B, A,4|cd cB AB AG|FA GF =F^F G=F|
+C^D =FC ^F=F ^FG|AG AB c=c ^c=c|^c=c ^c^A dc d|dc dc dc B=A|
+GA BG AB cF|=F^F G=F ^F4|E=D CB, A,B, CD|EF GA AG FE|
+ED CB, A,B, CD|EF GA ^A2 B2z3/2|ED CB, A,B, CD|EF G=A AG FE|
+ED CB, CE A,C|B,D G,B, A,4|cd cB AB AG|FA GF =F^F G=F|
+C^D =FC ^F=F ^FG|AG AB c=c ^c=c|^c=c ^c^A dc dc|dc dc dc B=A|
+GA BG AB cF|=F^F G=F ^F4|A/2z3/2 B/2z3/2 c4|A/2z3/2 B/2z3/2 c/2z3/2 B/2z3/2|
+A/2z3/2 G/2z3/2 F/2z3/2 G/2z3/2|A/2z3/2 B/2z3/2 G2 E/2z3/2|A/2z3/2 B/2z3/2 c4|A/2z3/2 B/2z3/2 c/2z3/2 B/2z3/2|
+A/2z3/2 G/2z3/2 F/2z3/2 B/2z3/2|G/2z3/2 E/2z3/2 A4|A/2z3/2 B/2z3/2 c4|A/2z3/2 B/2z3/2 c/2z3/2 B/2z3/2|
+A/2z3/2 G/2z3/2 F/2z3/2 G/2z3/2|A/2z3/2 B/2z3/2 G2 E/2z3/2|A/2z3/2 B2z3/2 c4|A/2z3/2 B/2z3/2 c/2z3/2 B/2z3/2|
+A/2z3/2 G/2z3/2 F/2z3/2 B/2z3/2|G/2z3/2 E/2z3/2 A4|B,A, G,A, =C2 z2|=D=C B,=C E2 z2|
+=FE ^DE BA GA|BA GA =c4|A/2z3/2 =c/2z3/2 =G/2A/2B A/2z3/2|=G/2z3/2 A/2z3/2 =G/2A/2B A/2z3/2|
+=G/2z3/2 A/2z3/2 =G/2A/2B A/2z3/2|=G/2z3/2 ^F/2z3/2 E4|B,A, G,A, =C2 z2|=D=C B,=C E2 z2|
+=FE ^DE BA ^GA|BA GA =c4|A/2z3/2 =c/2z3/2 =G2A/2B A/2z3/2|=G2z3/2 A/2z3/2 =G/2A/2B A/2z3/2|
+=G/2z3/2 A/2z3/2 =G/2A/2B A/2z3/2|=G/2z3/2 ^F/2z3/2 E4|E/2z3/2 =F/2z3/2 =G/2z3/2 =G/2z3/2|A=G =FE =D2 =G,2|
+E/2z3/2 =F/2z3/2 =G/2z3/2 =G/2z3/2|A=G =FE D4|=C/2z3/2 D/2z3/2 E/2z3/2 E/2z3/2|=FE D=C B,2 E,2|
+=C/2z3/2 D/2z3/2 E/2z3/2 E/2z3/2|=FE D=C B,4|B,A, ^G,A, =C2 z2|D=CB,=C E2 z2|
+=FE ^DE BA ^GA|BA GA =c4|A/2z3/2 B/2z3/2 =c/2z3/2 B/2z3/2|A/2z3/2 G2z3/2 A/2z3/2 E/2z3/2|
+=F/2z3/2 =D/2z3/2 =C4|B,/2(3=CB,=CB,/2A,/2B,/2 A,4|E/2z3/2 =F/2z3/2 =G/2z3/2 =G2z3/2|A=G =FE D2 =G,2|
+E/2z3/2 =F/2z3/2 =G/2z3/2 =G/2z3/2|A=G =FE D4|=C/2z3/2 D/2z3/2 E/2z3/2 E/2z3/2|=FE D=C B,2 E,2|
+=C/2z3/2 D/2z3/2 E/2z3/2 E/2z3/2|=FE D=C B,4|B,A, ^G,A, =C2 z2|D=C B,=C E2 z2|
+=FE ^DE BA ^GA|BA GA =c4|A/2z3/2 B/2z3/2 =c/2z3/2 B/2z3/2|A/2z3/2 G/2z3/2 A/2z3/2 E/2z3/2|
+=F/2z3/2 =D/2z3/2 =C4|B,/2(3=CB,=CB,/2A,/2B,/2 A,4|A,A B,B ^C^c z2|A,A B,B Cc B,B|
+A,A G,G F,^F G,G|A,A B,B G,G E,E|A,A B,B Cc z2|A,A B,B Cc B,B|
+A,A G,G F,F B,B|G,G E,E A4|A,A B,B Cc z2|A,A B,B Cc B,B|
+A,A G,G F,^F G,G|A,A B,B G,G E,E|A,A B,B Cc z2|A,A B,B Cc B,B|
+A,A G,G F,F B,B|G,G E,E A4|C3c C/2E/2A/2C'2-c/2-|c4 C/2E/2A/2C'2-c/2-|
+c4 dc Bc|dc Bc d4-|d3z d/2c3/2 d/2c3/2|d/2c3/2 d/2c3/2 B4-|
+B2 e/2z3/2 C/2E/2A/2c2-c/2-|c4 C/2E/2A/2c2-c/2-|c4 dc Bc|dc Bc d4-|
+d3z d/2c3-c/2-|c2 z2 c/2B3/2 c/2B3/2|c/2B3/2 c/2B3/2 A4|E/2A2-A/2c E/2A3-A/2|
+z4 E/2A3-A/2|z4 dc Bc|dc Bc d4-|d3z d/2c3/2 d/2c3/2|
+d/2c3/2 d/2c3/2 B4-|B2 e2z3/2 C/2E/2A/2c2-c/2-|c4 C/2E/2A/2c2-c/2-|c4 dc Bc|
+dc Bc d4-|d3z d/2c3-c/2-|c2 z2 c/2B3/2 c2B3/2|c/2B3/2 c/2B3/2 A4-|
+A2 c/2z3/2 A4-|A2 e/2z3/2 A4-|A2 c/2z3/2 A/2z3/2 c/2z3/2|A/2z3/2 e/2z3/2 Az3|
+A4 A4-|A3/2
+Pachbels (spelling) canon, one of my favourite, its not 100% works best on lute and harp i would give it 7/10 for composing

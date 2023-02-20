@@ -1,0 +1,55 @@
+X: 1
+T:THE 2nd RHODESIAN REGIMENT
+M:C|
+L:1/8
+Q:80
+C:PM Peter MacLeod
+S:March
+K:HP
+|: {gcd}c/2B/2|
+{g}A{Gdc}d{gfg}fa|
+A{Gdc}d{gfg}f2|  !
+{ag}a3/2f/2{Gdc}df|
+{gef}e{GdG}e/2f/2{gef}e/2d/2{gcd}c/2B/2|
+{g}A{Gdc}d{gfg}fa|  !
+A{Gdc}d{gfg}f2|
+{gf}g3/2e/2{g}c/4{d}A3/4{d}c/4e3/4|
+{Gdc}d2{gdc}d:| |:  !
+{g}A/2d/2|
+{gfg}f2{gfg}fa|
+A3/4d/4{g}f/4a3/4{fg}f{g}d|  !
+{ag}a3/2f/2{Gdc}d{e}A|1
+{g}c{GdG}e/2f/2{a}g3/4e/4{g}c/4{d}A3/4|1
+{gfg}f2{gfg}fa|  !
+A3/4d/4{g}f/4a3/4{fg}f{g}d|
+{gf}g3/2e/2{g}c/4{d}A3/4{d}c/4e3/4|
+{Gdc}d2{gdc}d:|2  !
+{g}c{GdG}e/2f/2{gef}e/2d/2{gcd}c/2B/2|
+{g}A{Gdc}d{gfg}fa|
+A{Gdc}d{gfg}f2|  !
+{gf}g3/2e/2{g}c/4{d}A3/4{d}c/4e3/4|
+{Gdc}d2{gdc}d|] |:
+{gcd}c/2B/2|  !
+{g}A3/2B/2{Gdc}d{gcd}c/2B/2|
+{g}A{Gdc}d{gfg}f2|
+{g}A3/2B/2{Gdc}d{g}f|  !
+{gef}e{GdG}e/2f/2{gef}e3/4d/4{gcd}c/2B/2|
+{g}A3/2B/2{Gdc}d{gcd}c/2B/2|
+{g}Ad{gfg}f2|  !
+{gf}g3/2e/2{g}c/4{d}A3/4{d}c/4e3/4|
+{Gdc}d2{gdc}d:| |:
+{gf}g|  !
+a3/4g/4{a}f/4a3/4A3/4d/4{g}f/4a3/4|
+{fg}f/2d/2{g}f/2a/2{fg}f2|
+{ag}a3/2f/2{Gdc}dA|1  !
+c{GdG}e/2f/2{a}g3/4e/4{g}c/4{d}A3/4|1
+a3/4g/4{a}f/4a3/4A3/4d/4{g}f/4a3/4|
+{fg}f3/4d/4{g}f/4a3/4{fg}f2|  !
+{gf}g3/2e/2{g}c/4{d}A3/4{d}c/4e3/4|
+{Gdc}d2{gdc}d:|2
+{g}c{GdG}e/2f/2{gef}e/2d/2{gcd}c/2B/2|  !
+{g}A3/2B/2{Gdc}d{gcd}c/2B/2|
+{g}A{Gdc}d{gfg}f2|
+{gf}g3/2e/2{g}c/4{d}A3/4{d}c/4e3/4|  !
+{Gdc}d2{gdc}d|]
+

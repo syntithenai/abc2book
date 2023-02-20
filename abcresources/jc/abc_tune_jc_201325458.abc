@@ -1,0 +1,29 @@
+X: 1
+T: Polska efter Snickar Erik Olsson, Ovan\aaker
+C: St\"amma: Gunnar Osterg\aards
+S: Bruce Sagan's "scanfolk" session archive
+F: https://app.box.com/s/u6iiren0igvsukrhdducy7orq72jayq8/file/1023324444444 (dated 2002-05-11)
+S: Sv. L\aatar H\"alsingland nr. 534
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+R: polska
+M: 3/4
+L: 1/8
+Q: 1/4=108
+K: D
+% - - - - - - - - - -
+V: 1 clef=treble staves=2
+A "^A"|:\
+"D"dA FA df | "D"fe/d/ "A"e2 A2 | "D"de/f/ "A7"ge "Bm"fd | "A"cA "E7"B^G "A"A2 |
+"D"dA FA df | "D"fe/d/ "A"e2 A2 | "D"de/f/ "G"ge/g/ "D"fd/f/ | "A"e/a/e/c/ "D"d2 D2 :|
+"^B"|:\
+"D"af fd db | "G"(bg) (g"Em"e) (ea) | "D"(af) "A7"(ge) "Bm"(fd) | "A"ec "E7"dB "A"Aa |
+"D"af fd db | "G"(bg) (g"Em"e) (ea) | "D"af/a/ "A7"ge/g/ "Bm"fe/d/ | "A7"e/d/c/e/ "D"d2 D2 :|
+% - - - - - - - - - -
+V: 2 clef=treble
+D "^A"|:\
+"D"AF DF Ad | "D"dc/B/ "A"c2 E2 | "D"FA/d/ "A7"ec "Bm"dB | "A"AE "E7"^GB, "A"[E2C2] |
+"D"AF DF Ad | "D"dc/B/ "A"c2 E2 | "D"FA/d/ "G"BG/B/ "D"AF/A/ | "A"A/c/A/E/ "D"[A2F2] [D2A,2] :|
+"^B"|:\
+"D"fd dA Ag | "G"(ge) (e"Em"B) (Be) | "D"(fd) "A7"(ec) "Bm"(dB) | "A"cA "E7"B^G "A"Ec |
+"D"fd dA Ag | "G"(ge) (e"Em"B) (Be) | "D"fd/f/ "A7"ec/e/ "Bm"dA/F/ | "A7"A/B/A/G/ "D"[A2F2] [D2A,2] :|
+% - - - - - - - - - -

@@ -1,0 +1,15 @@
+X: 1
+T: Bacca Pipes
+O: Morris Tune
+R: hornpipe
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Karpeles & Schofield "A Selection of 100 English Folk Dance Airs" 1951 p.36
+M: C
+L: 1/16
+K: Ador
+"A"\
+|: "Am"c4 c3e "G"d3c B4 | "Am"c3B A4 "G"B3A G4 \
+|  "Am"c4 c3e "G"d3c B4 | "Am"c3A "G"B3G "Am"A4 A4 :|
+"B"\
+|: "C"g3f g3e "G"d3B G4 | "C"g3f g3e "D"a3f d4 \
+|  "C"g3f g3e "G"d3B G3B | "Am"c3A "G"B3G "Am"A4 A4 :|

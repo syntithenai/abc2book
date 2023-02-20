@@ -1,0 +1,32 @@
+X: 138
+T: Black as a Cole
+T: Longways for &c.
+%R: slip-jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.69
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: 9/8
+L: 1/8
+K: Dmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+DEF DEF A,3 | DEF DEF B2E |\
+DEF DEF A,2A, | efe e2G F2E :|\
+|:\
+df/g/a/f/ df/g/a/f/ d2A | df/g/a/f/ df/g/a/f/ g2e |
+df/g/a/f/ df/g/a/f/ d2A | efe eEG F2E ||\
+afd dBG AFD | afd def g2e |\
+afd dBG AFD | efe e2G F2E :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st Cu. turn sett and cast down .| then turn sett
+%% and cast up again :| the 1st Man takes hands with
+%% the 3d Cu. the 1st Wo. take hands with the 2d Cu
+%% and turn 'em half round, then turn his partner .|
+%% the 1st Man turn the 2d Cu.. the 1st Wo. the 3d
+%% Cu. half round, and turn partners :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

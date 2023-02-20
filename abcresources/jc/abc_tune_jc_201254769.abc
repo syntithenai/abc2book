@@ -1,0 +1,32 @@
+X:1
+T:Bonnie MacAlpine
+M:6/8
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+|: a | \
+{g}a3/2f/2{g}d{g}d3/2e/2f | \
+{gf}g3/2{a}B/2d{gcd}c3/2B/2{G}A | \
+{g}A3/2B/2d{g}d3/2e/2f |
+{g}e3/2f/2{g}d{gef}e2a{g}a3/2f/2{g}d{g}d3/2e/2f | \
+{gf}g3/2{a}B/2d{gcd}c3/2B/2{G}A | \
+{gf}g3/2B/2{G}B{g}c/2{d}A3/2{d}c |
+{a}g3/2e/2{g}c{Gdc}d2 :: \
+{gf}g | \
+{ag}a3{fg}f3/2e/2{g}d |
+{g}B/2e3/2d{gcd}c3/2B/2{G}A | \
+{g}A3/2B/2d{g}d3/2e/2f | \
+{g}e3/2f/2{g}d{gef}e2|1 {gf}g{ag}a3{fg}f3/2e/2{g}d |
+{g}B/2e3/2d{gcd}c3/2B/2{G}A | \
+{gf}g3/2B/2{G}B{g}c/2{d}A3/2{d}c | \
+{a}g3/2e/2{g}c{Gdc}d2 ::
+{g}f | \
+{g}d2{GBG}A{g}A3/2d/2{G}d | \
+{g}A3/2d/2{g}fa3/2f/2{g}d | \
+{g}c2{GdGe}A{g}A3/2c/2{G}c |
+{g}A3/2{d}c/2{g}e{a}g3/2e/2{g}c{g}d2{GBG}A{g}A3/2d/2{G}d | \
+{g}A3/2d/2{g}fa3/2f/2{g}d | \
+{gf}g3/2B/2{G}B{g}c/2{d}A3/2{d}c |
+{a}g3/2e/2{g}c{Gdc}d2 :|

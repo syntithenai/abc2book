@@ -1,0 +1,18 @@
+X: 051	% 8
+T: Heel And Toe Polka
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.5 #1
+R: polka
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: "Fast"
+K: D
+V: 1 name=8
+|:\
+FFAA GGBB | A2f2 [fd][fd][fd][fd] |\
+A2[e2c2] [ec][ec][ec][ec] | A2[d2F2] [d4F4] \
+::\
+d2B2 BcdB | A2[F2A,2] [F4A,4] |\
+G2[E2C2] [EC][EC][EC][EC] |\
+[1 F2[D2D2] [D4D4] :|\
+["Final Ending" D2FA d2f2 | [d'8f8] |]

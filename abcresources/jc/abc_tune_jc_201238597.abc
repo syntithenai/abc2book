@@ -1,0 +1,29 @@
+X: 31011
+T: COTILLION No. 12. HIGHLAND SETT tune 4
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.101 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+B/c/ |\
+d2d d^cd | b3 g2g | gfg gfg | ^g3 a2 f/g/ |\
+agf ed^c | dgb d'2c' | bag fga | a3 g2 H|]
+b |\
+a2f d2d' | d'2b g2b | c'2a b2g | a2f d2 f/g/ |\
+a2f d2d' | d'2b g2b | agf gfe | e3 "^D.C."d2 |]
+K: Gm
+d |\
+{a}g^fg {c'}bgb | d'^c'd' g'2d' | d'e'd' d'c'b | b3 a2 d |\
+g^fg bab | d'^c'd' g'2d' | d'e'd' c'ba | ^f3 "^D.C."g2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 right and left,
+%% balance and swing round.
+%% Next 2 right and left, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

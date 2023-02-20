@@ -1,0 +1,29 @@
+X: 442
+T: Mrs WRIGHT OF LAWTON
+C: N. GOW
+R: Strathspey
+B: Glen Collection p.44 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Em
+%
+V: 1
+e |\
+B<E B>A B<E B<e | dD {B}AG/F/ dD {B}AG/F/ | B<E BA BE B>e | d<B d>F {F}E2 E :|
+B |\
+e<B e<g B<e g<e | d<f B<d F<D A>F | e<B e<g B>e g>e | d<B d>F {F}E2 E>B |
+e<B e<g B<e g>e | d<f B<d F>D A<F | G<B E>B e<B g>e | d<B d>F {F}E2 E |]
+%
+V: 2
+z |\
+e2[e'2b2] g2[e'2b2] | d2[a2f2] A2[a2f2] |\
+e2[e'2b2] g2[e'2b2] | B2d2 e2[bge] :|
+B |\
+[b2g2e2][b2g2e2] [b2g2e2][b2g2e2] | B2[b2g2] d2[a2f2] |\
+[b2g2e2][b2g2e2] [b2g2e2][b2g2e2] | B2[f2d2] [g2e2][g2e2] |
+[b2g2e2][b2g2e2] [b2g2e2][b2g2e2] | B2[b2f2] d2[a2f2] |\
+e2[b2g2] B2[b2g2] | B2[f2d2] [g2e2][eE] |]

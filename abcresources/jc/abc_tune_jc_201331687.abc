@@ -1,0 +1,26 @@
+X:1
+T: Rose the White and Rose is Red
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:C
+I:speed 165
+%W: A1
+% voice 1 (1 lines, 19 notes)
+K:C
+M:6/8
+L:1/16
+e4 e2 e2 d2 c2 d4 d2 f2 e2 d2 e4 e2 e2 d2 c2 e6 g4 a _b |
+%W:
+% voice 1 (1 lines, 18 notes)
+c'2 _b2 a2 g2 f2 e2 d4 d2 a2 g2 f2 e4 e2 e2 d2 c2 e6 g6 |
+%W: A2
+% voice 1 (1 lines, 19 notes)
+e4 e2 e2 d2 c2 d4 d2 f2 e2 d2 e4 e2 e2 d2 c2 e6 g4 a _b |
+%W:
+% voice 1 (1 lines, 18 notes)
+c'2 _b2 a2 g2 f2 e2 d4 d2 a2 g2 f2 e4 e2 e2 d2 c2 e6 g6 ||

@@ -1,0 +1,27 @@
+X: 30911
+T: COTILLION No. 7. BLACKSTONE SETT tune 4
+N: This set isn't named on its first page (90), but its name is in the index at the end of the book.
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.91 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+(AB=B) c2a | aef c3 | cfa c'3 | (b2g) (b2g) |\
+(AB=B) c2a | aef d3 | cfa geg | f3- f2 H|]
+cag f2c | c2A A2F | CFA FAd | Acf cfa |\
+cag (f2c) | (c'2 a2) (a f) | c3 cde | fca "^D.C."f3 |]
+d3 c=B_B | A3 GFG | [A2F2][FC] [A2F2][FC] | G_A=A B=Bc  |\
+d3 c=B_B | A3 GFG | [A2F2][FC] [A2F2][FC] | d_e=e gfd | c3 c=B"^D.C."_B |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First lady balance to the gentleman on her right,
+%% swing round,
+%% and so on through the sett.
+%% Others the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

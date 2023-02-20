@@ -1,0 +1,22 @@
+X: 1
+T: the Favorite Dram
+T: Horo Mo Bhobag an Dram
+C: trad. Scotland
+O: arr. Vincent Janoski
+R: strathspey
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+F: http://pipehacker.com/wp-content/uploads/thefavoritedram1.png 2012-9-30
+M: 9/8
+L: 1/8
+K: Hp
+|:\
+{gcd}c2d {g}ec{d}A {g}A2e | {ag}a2f {g}ec{d}A {g}A2d |\
+{gcd}c2d {g}ec{d}A {g}ABc | {Gdc}d2c {g}B{d}G{d}B {g}Bcd :|
+{g}cBc {g}c{d}B{d}c {g}A2d | {gcd}c2d {gef}edc {g}A2d |\
+{g}cBc {g}c{d}B{d}c {g}A2c | {Gdc}d2c {g}B{d}G{d}B {g}Bcd ||
+{g}cBc {g}c{d}B{d}c {g}A2d | {gcd}c2d {gef}edc {g}A2d |\
+{gcd}c2d {gfg}ec{d}A aec | {Gdc}d2c {g}B{d}G{d}B {gBd}B2e |]
+aec aec {g}A2e | {ag}a2f {gef}ec{d}A {g}A2e |\
+aec aec {g}A2c | {Gdc}d2c {g}B{d}G{d}B {g}Bcd ||
+aec aec {g}A2e | {ag}a2f {gef}ec{d}A {g}A2d |\
+{g}cde {g}efg aec | {Gdc}d2c {g}B{d}G{d}B {gBd}B2 |]

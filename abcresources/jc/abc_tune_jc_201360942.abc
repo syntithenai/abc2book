@@ -1,0 +1,33 @@
+%%scale 1.03
+%%barsperstaff 4
+X: 1
+T:When You and I Were Young, Maggie
+C:Music: J A Butterfield; Lyrics: George W Johnson
+M:4/4
+L:1/4
+K:D
+%%staves {1 2}
+V:1 name=melody
+|A|"D"A F3/4E/4 D E3/4D/4|"G"D2 B,/2 D B,/2|"D"A, D3/4-D/4 F A3/4-A/4
+w:v1~I wan-dered to day to the hill, Mag-gie, To watch the_ scene be-_
+w:v2~A ci-ty so si-lent and lone, Mag-gie, Where~the young and the gay and the
+w:v3~They say I am fee-ble with age, Mag-gie, My steps are less spright-ly than
+|"A7"E3 A|"D"A F3/4E/4 D E3/4D/4|"G"D2 B,/2 D B,/2|"D"A, (D3/4F/4) "A7"A E3/4F/4|"D"D2-D/2 z||
+w:v1~low, The creek and the old rus-ty mill, Mag-gie, Where we~sat in the long long a-go._
+w:v2~best. In pol-ished white man-sion of stone, Mag-gie, Have each found a place of_ rest._
+w:v3~then; My face is a well writ-ten page, Mag-gie, But time a-_lone was the pen._
+|+segno+A|"G"B B3/4B/4 G B3/4B/4|"D"A2 F/2 A F/2|"A7"E A/2-A/2 ("Em"A/2^G/2) (c/2B/2)|"A7"A3 A/2A/2
+w:v1~The green grove is gone from the hill, Mag-gie, Where first the_ dai-_ sies_ sprung. The_
+w:v2~Is built where the birds used to play, Mag-gie, And join in the songs_ that were sung. For we
+w:v3~They say we are a-ged and grey, Mag-gie, as spray by the bra-_ kers_ flung. But to
+w:ch~And now we are a-ged and grey, Mag-gie, the tri-als of life_ near-ly done, Let us
+|"D"A F3/4E/4 D E3/4D/4|"G"D2 B,/2 D "^TAG"B,/2|"D"A, D3/4F/4 "A7"A E3/4F/4|"D"D2-D/2 z+D.S.+||
+w:v1~old rus-ty mill is_ still, Mag-gie, Since you and_ I were_ young._
+w:v2~sang as_ gay as_ they, Mag-gie, When you and_ I were_ young._
+w:v3~me you're as fair as you were, Mag-gie, When you and_ I were_ young._
+w:ch~sing of the days that are gone, Mag-gie, When you and_ I were_ young._
+V:2 name=harmony
+|D|D D3/4A,/4 A, A,3/4A,/4|B,2 G,/2 B, G,/2|F, A,3/4-A,/4 D D3/4-D/4
+|C3 C|D D3/4A,/4 A, =C3/4C/4|B,2 G,/2 B, G,/2|F, (A,3/4D/4 C) C3/4C/4|D2-D/2 z||
+|D|D D3/4D/4 D D3/4D/4|D2 D/2 D D/2|C E/2E/2 D E/2D/2|C3 C/2-C/2
+|D D3/4A,/4 A, =C3/4C/4|B,2 G,/2 B, G,/2|A, A,3/4D/4 C C|D2-D/2 z||

@@ -1,0 +1,30 @@
+X:670
+T:Shepherd's Holiday
+C:John Playford, 1651
+M:6/8
+L:1/8
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=108
+%%MIDI program 41     Viola
+%%MIDI chordprog 27   Electric Guitar (clean)
+%%MIDI bassprog 110   Fiddle
+K:Gm
+%%center For Colin Hume's interpretation, play  AABB AABB AABBB
+P:A
+V:1
+|:d | "Bb"d>ed "Eb"g3 | "Bb"f3 "Ab"f e2 | "Bb"d>ed "Ab"cdB |\
+"F"A>GA "/"B/A/B/c/d/e/ | "Bb"f>ed "Ab"cdB | "Bb"B>cB "/"B2 :|
+V:2
+%%MIDI program 74    Recorder
+%%MIDI gchordoff
+|: z | "Bb"B3 "Eb"e>fe | "Bb"d>ed "Ab"c2_A | "Bb"B>cB "Ab"_A2E |\
+"F"F>GF "/"F2F | "Bb"B>cB _A2E | "Bb"F3 F2 :|
+P:B
+V:1
+%%MIDI gchordon
+|: d | "Bb (hold)"d>ef dcB | f2 d f2 F | "Gm (hold)"B>cd BAG | d2 G d2D |
+"Eb (hold)"G>AB GFE | "Gm"B3 "F"c>de/f/ | "Gm"d>cB/A/ "F"B>AG | "Gm"G3- "/"G2 :|
+V:2
+%%MIDI gchordoff
+|: z | "Bb (hold)"B2F B2F | d>ef dcB | "Gm (hold)"G2D G2D | B>cd BAG |
+"Eb (hold)"E2B, E2B, | "Gm"G>AB "F"A>GF | "Gm"G2D "F"F2C | "Gm"D>CDG,2 :|

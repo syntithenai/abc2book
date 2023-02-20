@@ -1,0 +1,35 @@
+X: 15
+T: Cotillon XV.     Allemande.
+%R: waltz
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #15
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+.D2(F2A2) | (dcde)d2 | .A2(d2f2) | edcBA2 |\
+.D2(F2A2) | (dcde)d2 | (BdcB)(A^G) | A6 :|\
+.A2(c2e2) | .A2(d2f2) | .A2(e2g2) | (fefg)f2 |
+.g2(e2c2) | .f2(d2B2) | (cedc)(B^A) | B6 |\
+.D2(F2A2) | dcded2 | .A2(d2f2) | (edcB)A2 |\
+.B2(B2g2) | .A2(A2f2) | (Bgfe)(dc) | d6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+d4D2 | d4D2 | d4D2 | a4A2 | d4D2 | d4D2 | d2e2E2 | A6 :| a4A2 |
+a4A2 | a4A2 | d6 | e4E2 | d4 D2 | e2f2F2 | B6 | d4D2 | d4D2 | d4D2 |
+a4f2 | g4e2 | f4d2 | g2a2A2 | d6 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    The 4 Gentlemen gives their right Hand to the next Lady & turns her under the Arm
+%% in making a whole round & then returns to their Partners & turn them with their left
+%% hand, in making a whole round all 4 Couple lead up to the middle & all take hands, the
+%% 4 Gentlemen turns under their Partners left Arm & faces to the Wall still holding hands
+%% then make a whole round the Gentlemen turning every fourth part of the round.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.

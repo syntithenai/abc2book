@@ -1,0 +1,22 @@
+X: 07014
+T: BRENNAN'S JIG
+C: Bob McQuillen 22 Mar 89
+B: Bob's Note Book 7 #14
+%R: jig
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D	% and Bm
+B,A, \
+| DEF ABd | fed B2d | ABA FDF | EDB,B,2A, |\
+| DEF ABd | fed BdB | ABA FDF | EDD D :|
+|: FA \
+| BdB BAF | ABd BAB | dfd ede | fdB B2A |\
+| dBd ede | fdB AFA | dBd AFE | FDD D  :|
+%%begintext align
+%% It's always a happy
+%% time when I get together with my fiddler friend John
+%% Brennan of Erdenheim, PA. I first met him at the
+%% Philly Folk Festival, along with [Eddy Bonsell], and we've
+%% been having great times together ever since.
+%%endtext

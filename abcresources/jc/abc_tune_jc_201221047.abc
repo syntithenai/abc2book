@@ -1,0 +1,32 @@
+X: 42
+T: the Craftsman
+T: Longways for as many as will.
+%R: reel
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.21
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2th Strain has initial repeat but no final repeat; fixed to fit the dance.
+N: The dance description has what looks like a hyphen in the last phrase; interpreted as the ".|" icon.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+fgag f2f2 | f2ef g4 |\
+fgag f2f2 | f2ed c4 :|\
+|:\
+ABcA dBf2 | ABcA dBf2 |\
+ABcA dBfd | cBAG F4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. takes hands & foots it with the
+%% 2d Wo. .| 1st Cu. does the same with the 2d
+%% Man :| 1st & 2d Cu. Hands across half round
+%% with their right Hands .| back again with
+%% their left :#: 1st Cu. leads below the 2d Cu. &
+%% foots it .| 1st Cu. leads through the 3d Cu. :|
+%% First Cu. Right and Left quite round
+%% with the 2d .| and turn in the 2d Cu. Place
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

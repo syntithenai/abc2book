@@ -1,0 +1,82 @@
+X:2566
+T:Nobilis humilis
+T:Magnushymnen
+C:anon.
+O:Norway
+A:Orkney Islands
+S:Codex Upsaliensis C233 (ms c. 1280)
+R:Gymel
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/norway/magnushymnen/magnushymnen-voca2.abc
+%Posted at abcusers Feb 5th 2001 by Frank Nordberg
+V:1 Program 1 74 %Recorder
+V:2 Program 1 72 %Piccolo
+The word "gymel" wasn't invented in 1280, but this is one anyway.
+M:none
+L:1/2
+Q:1/1=64
+K:Flyd
+V:1
+A c B2 A c B2 A c  B d A c B2 A c B2|
+w:No-bi-lis, hu-mi-lis, Mag-ne mar-tyr sta-bi-lis, Ha-bi-lis,
+V:2
+F A G2 F A G2 F A G B F A G2 F A G2|
+w:No-bi-lis, hu-mi-lis, Mag-ne mar-tyr sta-bi-lis, Ha-bi-lis,
+V:1
+A c B2 A c B d A d/e/ ed||e c B c A F GA|
+w:u-ti-lis, co-mes ve-ne ra-bi--lis,_ et tu-tor lau-da-bi-lis,_
+V:2
+F A G2 F A G B F c cd|| c A G A F F EF|
+w:u-ti-lis, co-mes ve-ne ra-bi-lis,_ et tu-tor lau-da-bi-lis,_
+V:1
+G A A G F3 z A B c B/c/ A F GA G A A G F4|]
+w:Tu-os sub-di-tos ser-va car-nis_ fra-gi-lis_ mo-le po-si-tos.
+V:2
+G F E/D/ E F3 z F G A G/A/ F F EF G F E/D/ E F4|]
+w:Tu-os sub--di-tos ser-va car-nis_ fra-gi-lis_ mo-le po--si-tos.
+W:
+W:Nobilis, humilis, Magne martyr stabilis, Habilis,
+W:utilis, comes vene rabilis, et tutor laudabilis,
+W:Tuos subditos serva carnis fragilis mole positos.
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+
+
+
+X:2
+T:Nobilis humilis
+T:Magnushymnen
+C:anon.
+O:Norway
+A:Orkney Islands
+S:Codex Upsaliensis C233 (ms c. 1280)
+R:Gymel %Well, the word "gymel" wasn't really invented back then...
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+%http://abc.musicaviva.com/tunes/norway/magnushymnen.abc
+%Specially formatted for BarFly's neume function.
+M:none
+Q:1/1=64
+K:Flyd Doh3
+A c B y A c B y A c y B d y A c B y A c B|
+w:No-bi-lis, hu-mi-lis, Mag-ne mar-tyr sta-bi-lis, Ha-bi-lis,
+F A G y F A G y F A yG B y F A G y F A G|
+w:No-bi-lis, hu-mi-lis, Mag-ne mar-tyr sta-bi-lis, Ha-bi-lis,
+A c B y A c B d A de ed||e c B c A F GA|
+w:u-ti-lis, co-mes ve-ne ra-bi-*lis,* et tu-tor lau-da-bi-lis,*
+F A G y F A G B F c cd|| c A G A F F EF|
+w:u-ti-lis, co-mes ve-ne ra-bi-lis,* et tu-tor lau-da-bi-lis,*
+G A A G F y A B c Bc y A F GA y G A A G F|]
+w:Tu-os sub-di-tos ser-va car-nis* fra-gi-lis* mo-le po-si-tos.
+G F ED E F y F G A GA y F F EF y G F ED E F|]
+w:Tu-os sub-*di-tos ser-va car-nis* fra-gi-lis* mo-le po-*si-tos.
+W:
+W:Nobilis, humilis, Magne martyr stabilis, Habilis,
+W:utilis, comes vene rabilis, et tutor laudabilis,
+W:Tuos subditos serva carnis fragilis mole positos.
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

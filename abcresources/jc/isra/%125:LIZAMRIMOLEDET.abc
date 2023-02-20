@@ -1,0 +1,19 @@
+X: 125
+T: Li Zamri Moledet
+C: Shaike Paikov 1987
+O: Israel
+F: http://www.youtube.com/watch?v=EwajHY6FQKE
+M: 2/4
+L: 1/8
+Q: 1/4=100
+K: Am
+%%MIDI program 70
+%%MIDI gchord fz
+"Am"z3 E |cc cc    |B2 AG      |"C"G  C3-|\
+C2 C2    |"Am"AA AA|"G"G3 F    |G4       |
+"C"zG EE |"G"EA G2 |"Bm"F2EE   | Ec B2   |\
+"Am"E2 A2|"Em" FEDE|"Am"G A3-  |A2 z2    |
+"G"EFG2  |C2AA     |GF G2      |F2 E2    |\
+CDE2     |A,2 FF   |ED E2      |D2 C2    |
+EFG2     |C2AA     |"Bm"GF G2  |B2 c2    |\
+"Dm"ABc2 |A2BB     |"Am"A^G A2-|A2 z2    |

@@ -1,0 +1,197 @@
+
+X: 1
+T: Katariina's polkka
+R: polka
+O: Richard Koski
+B:
+D: "Saturday Night Sauna" with the Crumtown Ramblers
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+N:
+M: 2/4
+L: 1/16
+K: Am
+   "Am"e4 \
+| "Dm"fedc BcBA | "E7"c2B2 B3E  |     c2B2 Bcdc | "Am"B2A2 A4 \
+|     A2AB cBcd | "Dm"e2d2 d4   |     d3e  fefg | "Am"f2e2 e4 |
+y8\
+| "Dm"fedc BcBA | "E7"c2B2 B3E  |     c2B2 Bcdc | "Am"B2A2 A4 \
+| "Dm"d2de fga2 | "Am"A2AB cde2 | "E7"E2E2 c2B2 | "Am"A2z2 :|
+|:  "G7"G4 \
+| "C"C2EG c2B2 |     A2G2 G4   |     C2EG c2B2 | "Dm"B2A2 F4 \
+|  "G7"D2D2 G2G2 |     FEDE F2F2 |     D2D2 F2F2 |  "C"EDCD E2E2 |
+y8\
+|   "C"C2EG c2B2 |     A2G2 G4   |     C2EG c2B2 | "Dm"B2A2 F4 \
+|  "Dm"d2de fga2 | "Am"A2AB cde2 | "E7"E2E2 c2B2 | "Am"A2z2 :|
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+
+X: 2
+T: Kikapu
+O: Finland
+R: polka
+Z: John Chambers <jc@trillian.mit.edu>
+N: First part not always repeated.
+M: 2/4
+L: 1/8
+K: Am
+|: "Am"ed cB | ed cB | c/B/A AA | c/B/A AA \
+|  "Dm"ag fe | ag fe | f/e/d dd | f/e/d dd |
+|  "E7"e2 Bc | d2 cB | "Am"e2 AB | c2 BA \
+|  "Dm"f/e/d dd | f/e/d dd | "E7"ee/e/ ee | e2 z2 :|
+K: A
+|: "A"e4 | "D"a2 f2 | "A"ee- ec | e4 \
+|  cc- cd | "E7"c2 B2 |1 "Am"e4- | "E7"e4 :|2 "A"A2 e2 | a2 z2 :|
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+
+X: 3
+T: Knapsauspolkka
+R: polka
+O:
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+M: 2/4
+L: 1/16
+K: Am
+|: "Am".e2a2 .e2a2 | "Dm"fgfe d2dc | "E7"B2.e2 B2.e2 | "Am"cdcB ABcd \
+|  "Am".e2a2 .e2a2 | "Dm"fgfe d2dc | "E7"B2e2 ^g2eg | "Am"b2a2 a2z2 :|
+|: "C"G2c2 c2Bc | e2c2 c2BA | "G7"G2g2 g2^fg | a2g2 g^fg2 \
+|  "C"G2c2 c2Bc | e2c2 c2BA | "G7"G2g2 gdBd | "C"c2e2 c2z2 :|
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+
+X: 4
+T: L\"oyly\"a liss\"a\"a
+T: Karjalan poikia
+T: The Boys of Karelia
+R: polka
+O: trad Finland
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|: "D"a2a2 a2a2 | ~a2ga b2a2 | f2f2 f2f2 | ~f2ef g2f2 \
+| "A7"e2[e2A2] c2Ac | e2[e2A2] c2Ac | e2g2 f2e2 | "D"e2d2 d4 :|
+|: "D"A2BA F2A2 | d6 e2 | f2gf e2f2 | "G"g2z2 "D"f4 \
+| "A7"e2[e2A2] c2Ac | e2[e2A2] c2Ac | e2g2 f2e2 | "D"e2d2 d4 :|
+w: | | | |~ Hej!
+
+
+X: 5
+T: L\"oyly\"a liss\"a\"a
+T: Karjalan poikia
+T: The Boys of Karelia
+R: polka
+O: trad Finland
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|: "G"d2d2 d2d2 | ~d2cd e2d2 | B2B2 B2B2 | ~B2AB c2B2 \
+| "D7"A2[A2D2] F2DF | A2[A2D2] F2DF | A2c2 B2A2 | "G"A2G2 G4 :|
+|: "G"D2ED B,2D2 | G6 A2 | B2cB A2B2 | "C"c2z2 "G"B4 \
+| "D7"A2[A2D2] F2DF | A2[A2D2] F2DF | A2c2 B2A2 | "G"A2G2 G4 :|
+w: | | | |~ Hej!
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+
+X: 6
+T: Lukkari-Heikin polkka
+R: polka
+O: trad Finland
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|: "A7"AA \
+| "D"A2D2 ~F2DF | A2D2 ~F2DF | "A7"G2E2 C2E2 | "D"D2d2 "(A7)"cdcB \
+| "D"A2D2 ~F2DF | A2D2 ~F2DF | "A7"G2E2 C2E2 | E2D2 "D fine"D2 :|
+|: z2 \
+| "G"G2B2 G2B2 | G2B2 BdcB | G2B2 G2B2 | G2B2 BdcB \
+| "D"A2D2 ~F2DF | A2D2 ~F2DF | "A7"G2E2 C2E2 | E2D2 "D"D2 :|
+|: dc \
+| "Bm"B2Bd f2f2 | b2f2 "(Em)"gfed | "F#7"c2cd e2e2 | fedc "Bm"d2B2 \
+| B2Bd f2f2 | b2f2 "(Em)"gfed | "F#7"c2cd fedc | "Bm"B2B2 B2 :|
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+
+X: 7
+T: Polka Medley 1
+K: C
+P: Hoputas polkka (Tupsun juuren) (Zorros m\"arke)
+R: polka
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Am
+|: "Am"ea a>b | ag e>f | "G"gg/a/ gf | "E7"e2 e2 :|
+|: "Am".ec BA | .ec BA | .eA .eA | .ec BA | "E7"BB/d/ cB | "Am"A2 A2 :|
+P: Polka
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+N: From a transcription by Karen Myers
+M: C|
+L: 1/8
+K: Am
+|: "Am"E2AA A2B2 | c2e2 edc2 | "E7"B2e2 edcB |1,3.A2"Am"c2 edc2 :|2,4.A2"Am"A2 A2z2 :|
+|: "Dm"a3g f2f2 | "Am"efed c4 | "E7"B3c ddcB |1,3.c"Am"Bcd "A7"e2e2 :|2,4.A2"Am"A2 A2z2 :|
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+
+X: 8
+T: S\"akkij\"arven polkka
+R: polka
+O: trad Finland
+Z: 2005 by John Chambers <jc@trillian.mit.edu>
+N: Probably the best-known traditional Finnish polkka tune.
+N: S\"akkij\"arvi is a small town between Leningrad/(Saint)Petersburg and the Finnish border.
+N: Fourth and fifth parts are often played, which are usually "accordion showoff" parts.
+N: This tune is sometimes attributed to Vili Vesterinen, but he learned it from others,
+N: and was the accordion player who popularized it.
+N: The "D" part here has a key change.  Some people play it like this; others stay in one key.
+M: 2/4
+L: 1/16
+K: Am
+"A"\
+|: {Ace}"Am"a2e2 d2c2 | "E7"c2B2 B2cd | e2>d2 c2B2 | "Am"B2A2 A2ce \
+| a2e2 d2c2 | "E7"c2B2 B2cd | e2d2 c2B2 | "Am"A4 "fine"z2 :|
+"B"\
+|: "Am"ABcd e2a2 | "E7"a2^g2 gab2 | e^f^ga b2c'2 | "Am"b2a2 a^ga2 \
+| ABcd e2a2 | "E7"a2^g2 gab2 | e2e2 ^f2^g2 | "Am"a4 z2 :|
+"C"\
+|: "Am"A^GAB "A7"cBc^c | "Dm"d^cde fedf | "E7"eE^GB edcB |1,3 A"Am"^GAB cBAE :|2,4 A2"Am"e2 A4 :|[K:Dm]
+"D"\
+|: "Dm"A2AF D2DF | A2AF D2DF | A2A2 B2A2 | "A7"GAGF E2EF \
+| G2GF E2EF | G2GF E2EF | G2G2 A2G2 | "Dm"FGFE D2DF |
+| "Dm"A2AF D2DF | A2AF D2DF | A2A2 "D7"d2c2 | "Gm"BcBA G2>A2 \
+| B2B2 A2G2 | "Dm"FGFE D2DF | "A7"EFED ^C2E2 | "Dm"D4 z2 :|
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+
+X: 9
+T: Vironpolkka (Nauhapolkka)
+M: 2/4
+L: 1/8
+K: G
+P: G:
+d/c/ |: "G"BB Bc/B/ | "D7"AA AB/c/ | dd d/c/B/A/ | "G"GG G2 :: "C"ce ce | "G"Bd Bd | "D7"cD DF | "G"AG G2 :|
+P: D:
+K: D
+a/g/ |: "D"ff fg/f/ | "A7"ee ef/g/ | aa a/g/f/e/ | "D"dd d2 :: "G"gb gb | "D"fa fa | "A7"gA Ac | "D"ed d2 :|

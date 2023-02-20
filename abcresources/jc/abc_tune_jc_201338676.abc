@@ -1,0 +1,32 @@
+X: 1
+T: Smith's Rant
+P: Longways for as many as will
+%R: hornpipe, rant
+B: "The Dancing-Master: Containind Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.107
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+F2 A>B c2 A2 | B>c A>B G2 F2 | f2 e>f g2 e2 | f>g e>f d2 c2 |][|\
+g2 a>b a3 (g/f/) | e>f d>e ^c2 de | e2 d>e f>g (a<f) | (b<a) g>f e2 f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the presence, then to your we. Lead up forward and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First, sides with your own wo. then on the other side, then both clap hands and make a pass at each
+%% other and turn S. then turn your own wo. once and an half, and so on to the next 'till you come to
+%% your own places.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then the 1. man take his own wo. by the right-hand, holding it up 'till the 2. wo. passeth under, then
+%% face about while the 2. wo. goes back again, then they three clap hands and make a pass all together,
+%% and all three turn S. then take hands and do the same to the 2. man, and so the end.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

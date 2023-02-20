@@ -1,0 +1,16 @@
+X:241
+T:Scales and Exercises
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 24, on which Scales and Exercises are given.
+M:C
+L:1/4
+Q:1/4=100
+K:C
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+"^  Major Scales""^C Major"c2de|fgab|c'2ba|gfed|c4||"^  Relative Minor Scales""^A Minor"A2Bc|de^f^g|a2=g=f|edcB|A4||
+[K:G]"^G Major"G2AB|cdef|g2fe|dcBA|G4||"^E Minor"E2FG|AB^c^d|e2=d=c|BAGF|E4||
+[K:D]"^D Major"D2EF|GABc|d2cB|AGFE|D4||"^B Minor"B2cd|ef^g^a|b2=a=g|fedc|B4||
+[K:A]"^A Major"A2Bc|defg|a2gf|edBc|A4||"^F# Minor"F2GA|Bc^d^e|f2=e=d|cBAG|F4||
+%
+%X:251

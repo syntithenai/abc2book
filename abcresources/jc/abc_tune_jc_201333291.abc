@@ -1,0 +1,17 @@
+X: 621
+T: the Sailor's Jacket
+R: reel
+%S: s:2 b:12(6+6)
+%S: s:3 b:12(4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #621
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0621/oneill-1001-0621-1.abc
+%%slurgraces 1
+%%graceslurs 1
+%m: Tn = (3n/o/n/
+M: C
+L: 1/8
+K: D
+"^A"\
+|: dfec A2AB | cdef {a}gfge | dfec A2AB | cBcG TEDD2 "^B":| d2(fd) adfd | c2(ec) gcec |
+| d2(fd) adfd | eaTag edd2 || defg afge | cdef g2fg | (3(agf) (3(gfe) fded | ea{b}ag edd2 |]

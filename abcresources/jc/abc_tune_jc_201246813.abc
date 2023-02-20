@@ -1,0 +1,16 @@
+X: 1
+T: Anderson's Jig
+C: Carol Cook
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+   zA "A"\
+| "D"d2f "A7"edc | "D"dAF "D7"DFA | "G"BAG "D"AGF | "Em"EFG "A7"ABc \
+| "D"def "A7"edc | "D"dAF DFA | "G"B<gf "A7"e<ac | "D"d3- d ||
+|: fg "B1"\
+| "D"afd "G"bgd | "D"afd def | "Em"gfe "E7"fed | "A"ecA "A7"Afg \
+| "D"afd "G"bgd | "D"afd def | "G"B<gf "A7"e<ac | "D"d3- d ||
+y2 fg "B2"\
+| "D"afd "G"bgd | "D"afd def | "Em"gfe "E7"fed | "A"ecA "A7"ABc \
+| "D"def "A7"edc | "D"dAF DFA | "G"B<gf "A7"e<ac | "D"d3- d :|

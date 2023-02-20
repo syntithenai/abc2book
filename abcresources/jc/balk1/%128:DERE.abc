@@ -1,0 +1,14 @@
+X: 128
+T: Dere
+O: Croatia
+F: http://www.youtube.com/watch?v=9lNqfWi6Xec
+N: Vujlicsics - Serbian Music from Southern Hungary
+M: 2/4
+L: 1/8
+K: Emix
+Q: 1/4=180
+% begins with Krici Krici Ticek
+% followed by this instrumental part repeating incessantly
+%%MIDI program 26 % Electric Guitar (jazz)
+"E"BB BA|G2A2 |BB BA|G4 |\
+G2 F2   |E2 F2|G2 F2|E4 :|

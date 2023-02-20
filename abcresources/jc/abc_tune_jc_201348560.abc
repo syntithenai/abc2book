@@ -1,0 +1,20 @@
+X:776
+T:Val
+%%MIDI gchord c2cc
+%%MIDI program 72
+%%MIDI chordprog 54
+C:Colin Hume, 2002
+H:For Val McFarlane
+M:2/2
+L:1/4
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=75
+%%MIDI chordname 7sus 0 5 7 10
+K:Gm
+P:A
+|: "Cm"e d/c/ "Gm/Bb"dB | "D/A"cA "Gm"BG | "Cm"A G/B/ "D"A2 | "Cm/Eb"c A/e/ "D/F#"d2 |\
+"Gm"d c/d/ "Cm"ed | "F/A"cf "Bb"d2 | "Gm"B A/B/ "Cm"cB | "D7sus"A- "D7"A "Gm"G2 :|
+K:G
+P:B
+|: "G"B B/c/ "/"dg | "D"f3/e/ "/"d2 | "Am"A G/B/ "D"A2 | "Am"c A/e/ "D"d2 |\
+"C"e e/f/ "G/B"gg | "Am"ag/a/ "E/G#"b2 | "Am"c'e "C"ef/g/ | "D7"a2 "G"g2 :|

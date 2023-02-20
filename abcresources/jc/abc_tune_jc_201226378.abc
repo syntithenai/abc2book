@@ -1,0 +1,17 @@
+X: 10232
+T: Duet - Prestissimo
+C: Gaetano Brandi
+Q: "Prestissimo"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.23
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+%%graceslurs 0
+[V:1] |: !f!a2ee | e3!p!c | "_cres:"defg | (a/g/a/b/).a2 | a2ee | e3c | {c/}(BABc) | A4 :|
+[V:2] |: c2cc | c3A | BcdB | c2.c2 | c2cc | c3e | {e/}dcde | c4 :|
+[V:1] |: (!p!e!f!g)gg | (ae)ee | (b2a2) | {b}(a2g2) | (!p!e!f!g)gg | aeee | {e/}(dcde) | c4 :|
+[V:2] |: zeee | zccc | (d2c2) | {d}(c2B2) | zeee | zccc | {c/}(BABc) | A4 :|
+%
+%%center -

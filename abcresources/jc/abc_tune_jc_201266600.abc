@@ -1,0 +1,65 @@
+
+X: 220
+T: Dan Breen's / The Humours of Ballinahinch
+R:reel
+D:Catherine McEvoy & John McEvoy: The Kilmore Fancy
+D:Altan: The Red Crow
+D:Jack Coen: Warming Up
+Z:Julie Ross
+M:C|
+K:Ador
+"Dan Breen's"
+egdB A2AG|EAAG ABcd|egdB ABAG|EGGF G2Bd|
+e2dB A2AG|EAAG ABcd|(3efg dB ABAG|EGGF G2Bd||
+e2ge edBd|eAcA eAcA|e2ge edBd|d2ef g2fg|
+e2ge edBd|eaag eaag|e3g edBd|d2ef g2fg||
+K:D
+"The Humours of Ballinahinch"
+a3g |: f2df edBA | (3Bcd ef g2ag | {fg}f2df edBc | dBAF EFDe |
+f2df edBA | (3Bcd ef g2ag | f~d3 edBc | dBAF EFD2 ||
+faaf d2de | faaf ~g3e | faaa b2af | gfed {Bc}B2Ag |
+faaf d2de | faaf g3a | aggf gfed | (3Bcd ef gbag :||
+
+%%sep 1 1 500
+
+X: 1
+T: Dan Breen's
+M:2/2
+L:1/8
+S:Brendan Ring, _Across the Waters_(compilation)
+R:reel
+K:ADor
+e2dB ABAG|EAAG ABcd|e2dB ABAG|EGGF GABd:||*
+||:e2^ce edbd|ea~a2 ea~a2|e2^ce edbd|dGde gefd:||
+
+%%sep 1 1 500
+
+X: 22
+T: Dan Breen's
+R:reel
+D:Catherine McEvoy & John McEvoy: The Kilmore Fancy
+D:Altan: The Red Crow
+Z:Julie Ross
+M:C|
+K:Ador
+egdB A2AG|EAAG ABcd|egdB ABAG|EGGF G2Bd|
+e2dB A2AG|EAAG ABcd|(3efg dB ABAG|EGGF G2Bd||
+e2ge edBd|eAcA eAcA|e2ge edBd|d2ef g2fg|
+e2ge edBd|eaag eaag|e3g edBd|d2ef g2fg||
+
+%%sep 1 1 500
+
+X: 1
+T: Dan Breen's
+T: Breen's
+R:reel
+D:Chieftains 1
+D:Altan: The Red Crow
+Z:id:hn-reel-132
+M:C|
+K:Ador
+e2dB ABAG|EAAG A2Bd|e2dB ABAG|1 EGGF G2gf:|2 EDEG G2Bd||
+|:e2ge edBd|eA~A2 eA~A2|e2ge edBd|d2ef g2fg:|
+"variations"
+|:efdB cA{c}BG|EA{c}AG ABcd|~e2dB cA{c}BG|EG{A}GF ~G2 (3Bcd:|
+|:e2ge {a}ed (3Bcd|ea{c'}ag efge|~e2ge {a}ed Bc|1 ~d2ef g2fg:|2 d2ef g2 (3Bcd||

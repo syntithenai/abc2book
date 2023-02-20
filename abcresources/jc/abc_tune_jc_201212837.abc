@@ -1,0 +1,17 @@
+X: 111
+T: Bulgar (Frailach) 9#17
+O: Kammen 9 #17
+B: Kammen 9 #17
+R: jig
+Z: John Chambers <jc@trillian.mit.edu>
+N: Original in 2/4, but with mostly triplets in melody.
+R: Bulgar
+M: 6/8
+L: 1/8
+K: EDor
+|: B,C^D \
+| "Em"E3 GFE | G3 B^AG | B2c dcB | cde dcB | cd2- d2d | cde dcB | ^AB2- B2A | B^AG GFE
+| "Em"E3 GFE | G3 B^AG | B2c dcB | cde dcB | ^ABc dcB | B^AG GFE | E6- | E3 :|
+|: B,EG \
+| "Em"B2B B2B | B2c dcB | ^AcB- B3- | B6 | ^ABc dcB | B^AG GFE | ^AcB- B3- | B6
+| "Em" ^ABc dcB | B^AG GFE | F=AG- G3- | G6 | FG^A BAG | B^AG GFE | FGE- E3- | E3 :|

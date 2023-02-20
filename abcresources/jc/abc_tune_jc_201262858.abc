@@ -1,0 +1,20 @@
+X: 869
+T: the Clover Blossom   #2
+R: hornpipe
+%S: s:2 b:12(6+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #869
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0869/oneill-1001-0869-1.abc
+N: Compacted via repeats and (two kinds of) multiple endings [JC]
+M: C|
+L: 1/8
+K: A
+"^A"|: (3(efg) \
+| a(ece) Ace(a | f)dBG A2(Bc) |\
+[1,3 def(e d)cBA | GBAF E2 :|\
+[2,4 df(ed c)ABG | E2A2A2 :|
+"^B"|: (ed) \
+|:: ceA(e ce)A"^1)"[ec] |\
+[1 dfB(f df)Bf :|[2 B(AGF) E2(ed) :|\
+[3 d(cde) fgaf | eae(d c)ABG | E2A2A2 :|
+%%text 1) O'Neill and others are inconsistent in which note is used here for the different next measures.

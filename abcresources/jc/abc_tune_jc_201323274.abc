@@ -1,0 +1,25 @@
+X:0205
+T:The Perth Medley
+T:Perth Hunt
+C:Miss Magdalina Stirling of Ardoch, ca. 1788
+R:Medley (8x64)
+B:RSCDS 2-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:D
+V:1
+V:2 clef=bass middle=D
+%%staves (1 2)
+[V:1] "D"{B}A2FA DAFA|DAFA "G"BEE2|"D"{B}A2FA DAFA|"A7"faeg "D"fdd2|
+[V:2]       D8       |x8          |      D8       |    x8          |
+[V:1] "D"{B}A2FA DAFA|DAFA "G"BEE2|"D"{B}A2FA DAFA|"A7"faeg "D"fdd2|
+[V:2]       D8       |x8          |      D8       |    x8          |
+[V:1] "D"{g}fdad "G"bd"D"ad|"D"fdad "Em"be"A7"eg|\
+[V:2]       x8             |x8                  |
+[V:1]     "D"fdad "G"bd"D"ad|"A7"ABde "D"fddg|
+[V:2]        x8             |x8              |
+[V:1] "D"(3fed ad "G"bd"D"ad|"D"(3fed ad "Em"be"A7"eg|\
+[V:2]      x8               |x8                      |\
+[V:1]     "D"fadf "G"gbeg|"A"ABde "D"fdd2|]
+[V:2]        x8          |   x8          |]

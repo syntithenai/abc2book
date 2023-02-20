@@ -1,0 +1,21 @@
+X: 1
+T: da New Rigged Ship  [AABABC]
+O: Trad
+R: jig, air
+N: Anderson p.41
+N: Bain p.43 (Da Full Rigged Ship)
+B: Skye, p.176.
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+G "A"\
+| "C"c2c c2e | c2c c2e | "G7"dBG GBc | dBG GAB \
+| "C"c2c c2e | c2c "G7"dBG | "F"ABc "G7"dBG | "C"c3- c2 :|
+e/f/ "B"\
+| "C"g2e g2e | "Am"c2c ceg | "Dm"a2f a2f | "G7"d2d def \
+| "C"g2e g2e | "Am"c2c "G7"dBG | "F"ABc "G7"dBG | "C"c3- c2 |]
+e/f/ "C"\
+| "C"gfe gfe | "Am"cdc ceg | "Dm"agf agf | "G7"ded def \
+| "C"gfe gfe | "Am"cdc "G7"dBG | "F"ABc "G7"dBG | "C"c3- c2 |]
+

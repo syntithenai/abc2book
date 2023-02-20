@@ -1,0 +1,23 @@
+X:1
+T: Rest Assured
+N:
+C:Brian Jenkins
+S:
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 34 notes)
+K:G
+M:6/8
+L:1/16
+B3 c B2 B3 A G2 G6G6 e3 f g2 g3 f e2 d6d4 c2 |B3 c B2 A3 B A2 G6G4 E2 D3 E D2 D3 E F2 G6G6 |
+%W: A2
+% voice 1 (1 lines, 36 notes)
+B3 c B2 B3 A G2 G6G6 e3 f g2 g3 f e2 d6d4 c2 |B3 c B2 A3 B A2 G6G4 E2 D3 E D2 c3 B A2 G6G2 c2 d2 |
+%W: B
+% voice 1 (1 lines, 37 notes)
+e3 f g2 c'3 b c'2 b6b4 g2 f3 e d2 c3 B c2 B6B2 A2 G2 |E3 G c2 e3 f g2 d6d2 B2 G2 D3 F A2 c3 A F2 G6G6 ||

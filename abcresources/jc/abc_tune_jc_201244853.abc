@@ -1,0 +1,51 @@
+X: 1
+T: Abergenny
+P: Longways for Eight
+%R: march, reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.35
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The tunes strains are presumably to be repeated.
+N: The dance has 3 sections; the first two are in two columns (indicated by ##); the third is one wide block of text.
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[| G2G2 B3c | def2 F3F | G2G2 Bcd2 | c3c B4 |]\
+[| b2b2 a2g^f | g2^fg a2d2 | e^fg2 ^f2g2 |a3g g4 |]
+% - - - - - - - - - - Dance description: - - - - - - - - - -
+%%begintext align
+%% Lead up and fall back, that again .| Set and fall back, that again :|
+%% ##
+%% The first and last cu. cast off into the middle, the 2. cu. slip up, and
+%% the 3. cu. slip down at the same time, the 2. and 3. cu. cast off and
+%% back again into their own places at the same time.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. cu. take hands betwixt the 2. cu. and the last
+%% cu. take hands betwixt the 3. cu. and meet the 1. and
+%% 2. cu. all abreast and fall back; the 1. man turn the 2. (?)
+%% wo. into her place; the last man turn down the 3.
+%% man into his place, and the last wo. at the same
+%% time turn down the 3. wo. into her place; the 2.
+%% and 3. cu. do the like.
+%% ##
+%% The 2. and 3. cu. hold up hands, and let the first and last cu. go
+%% under into their places; the first and last man lead out to the wall, and
+%% the first and last wo. lead out to the wall, and the 2. cu. lead up
+%% and the 3. cu. lead down; and lead back again at one time; change
+%% places all with your own and turn round S. The 1. and 2. cu.
+%% hands half round; the 1. cu. change places with the 2. cu. and at
+%% the same time the last cu. change places with the 3. cu. and the 3.
+%% cu. do the same all over.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The first and last cu. meet and change places with your own; 2. cu. slip up, and 3. cu. down; the 2. cu. cast off into
+%% the 1. cu. place, and the 3. cu. cast off about the last cu. into the last cu. place and stand all at one time; the 1. man
+%% change places with the last wo. and the 1. wo. with the last man; the first and last man, and first and last wo. give right
+%% and left hands to the next: the 1. cu. turn into the 2. cu. place, and the 3. cu. turn down into the last cu. place, the 2.
+%% and 3. cu. doing the same.
+%%endtext
+%%sep 1 8 500

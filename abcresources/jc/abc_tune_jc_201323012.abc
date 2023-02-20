@@ -1,0 +1,15 @@
+X: 207
+T: Peggy Bawn
+R: air, waltz
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #207
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+Q: "Slow"
+M: 3/4
+L: 1/8
+K: D
+A2 "^A1"| d2 (fd) (ec) | d>B  AG FE  | D2  FA Bc | d4 ||
+A2 "^A2"| d2  fd   ec  | d>B  G2 FE  | D>E FA Bc | d4 |]
+|| d>e "^B"| f2 f2 ge | fd   B2 c>d | eB  gf ed | d2 c2 ||
+(AB/c/) \
+   "^A3"| d2  fd   ec  | d>B (AG FE) | HD2 FA Bc | Hd4 |]

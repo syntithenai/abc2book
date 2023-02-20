@@ -1,0 +1,22 @@
+X: 1
+T: the Death of Wolfe
+O: Trad.
+%R: song, march
+S: http://ancients.sudburymuster.org/mus/sng/pdf/wolfeF.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+Q: 1/4=90
+M: 2/4
+L: 1/8
+K: Ador
+E2 |\
+A3B  | e2cA | B4- | B2AB |\
+c2BA | G4   | A4- | A2  :| cd |\
+e3d  | edB2 | G4- | G2AB |
+c4   | d2g2 | e4- | e2E2 |\
+A3B  | e2cA | B4- | B2AB |\
+c2BA | G4   | A4- | A2   |]
+%%begintext align
+%% This version played by Tom Reid, written out by Dick Ruquist
+%% on the bus from the Quebec expedition 10/5//75, then
+%% transcribed by Leo Zschau 10/7/75
+%%endtext

@@ -1,0 +1,16 @@
+X: 759
+T: the Grey Plover
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #759
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0759/oneill-1001-0759-1.abc
+M: C|
+L: 1/8
+K: G
+"^A"\
+[| G3B d2(BA) | BcBA BcBA | G3B d2(BG) | FADA FADA ||
+|| G2GB d2Bd | eBBd g2(fg) | efde Bddf | e2dB (BA)A2 |]
+"^B"\
+[| d>g (3.g.g.g a2(ge) | d2BA GBB2 | d>g (3.g.g.g a2(ge) | d2BG FAA2 ||
+|| dggg a2(ge) | dBBd g2(fg) | efde Bddf | e2dB (BA)A2 |]

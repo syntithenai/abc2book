@@ -1,0 +1,32 @@
+X: 383
+T: Smilin Katie.   a Reel.
+R: reel
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c."
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: Em
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+F2 |\
+E4 T(B3A) B2d2e2f2 | d2f2B2d2 A2F2D2F2 |\
+E4 (TB3A) B2d2e2f2 | Td2B2d2F2 EEE2 E2 :|\
+B2 |\
+e2B2 (TB3A/B/) e2B2 g2e2 | f2d2a2d2 b2d2a2d2 |
+e2B2 (TB3A/B/) e2B2g2e2 | Td2B2d2F2 EEE2 E2B2 ||\
+e2B2 (TB3A/B/) e2B2g2e2 | f2d2a2d2 b2d2a2d2 |\
+g2b2 f2a2 e2g2 d2e2 | B2d2 {B}TA2F2 EEE2 E2 |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |\
+[e4E4][e4E4] [g4G4][e4E4] | [f4F4][g4G4] [a4A4][d4D4] |\
+[e4E4][e4E4] [e4E4][e4E4] | b4B4 e4E2 :| z2 |
+[e'4e4][e'4e4] [e'4g4][e'4e4] | [d'4d4][d'4f4] [d'4g4][d'4f4] |
+[e'4e4][e'4e4] [e'4e4][e'4e4] | [b4B4][b4B4] [e4E4][e4E4] ||\
+[e'4e4][e'4e4] [e'4e4][e'4e4] | [d'4d4][d'4f4] [d'4g4][d'4f4] |\
+[e4E4][f4A4] [g4G4][a4A4] | [b4B4]B4 e4E2 |]
+% = = = = = = = = = =

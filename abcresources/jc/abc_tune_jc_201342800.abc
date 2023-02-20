@@ -1,0 +1,46 @@
+
+X: 1
+T: Tropanka from Dobrudja [G]
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+N: from handwritten ms by Bill Tomczak dated 1980
+M: 2/4
+L: 1/16
+K: G
+"A"
+|::: "G"d^cdG "C"de~e2 | "G"d^cdG d=c~B2 | "G"d^cdG "D7"B=cAc |1,3 ~B2AG "G"GBdG :|2,4 ~B2AG "G"GD~G2 :|
+"B"
+|::: "G"d^cdG "D7"B=cAc | ~B2AG "G"GBdG | "G"d^cdG "D7"B=cAc | ~B2AG "G"GD"fine"~G2 :::|
+"C"
+|::: "G"d^cdG "C"fgga | "D7"~f2ed "G"d=c~B2 | "G"d^cdG "D7"B=cAc |1,3 ~B2AG "G"GBdG :|2,4 ~B2AG "G"GD~G2 :|
+"B"
+|::: "G"d^cdG "D7"B=cAc | ~B2AG "G"GBdG | "G"d^cdG "D7"B=cAc | ~B2AG "G"GD~G2 y:::|
+K: Gmix=f
+"D"
+|::: "G"e=fdf ~e2d^c | dGB^c dGef | gefd ~e2d^c | dGB^c dGdG y:::|
+"E"
+|::: "G"gefd ~e2d^c | dGB^c dGef | gefd ~e2d^c | dGB^c dGdG !d.C.![|]y:::|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Tropanka from Dobrudja [A]
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+N: from handwritten ms by Bill Tomczak dated 1980
+M: 2/4
+L: 1/16
+K: A
+"A"
+|::: "A"e^deA "D"ef~f2 | "A"e^deA e=d~c2 | "A"e^deA "E7"c=dBd |1,3 ~c2BA "A"AceA :|2,4 ~c2BA "A"AE~A2 :|
+"B"
+|::: "A"e^deA "E7"c=dBd | ~c2BA "A"AceA | "A"e^deA "E7"c=dBd | ~c2BA "A"AE"fine"~A2 :::|
+"C"
+|::: "A"e^deA "D"gaab | "E7"~g2fe "A"e=d~c2 | "A"e^deA "E7"c=dBd |1,3 ~c2BA "A"AceA :|2,4 ~c2BA "A"AE~A2 :|
+"B"
+|::: "A"e^deA "E7"c=dBd | ~c2BA "A"AceA | "A"e^deA "E7"c=dBd | ~c2BA "A"AE~A2 y:::|
+K: Amix=g
+"D"
+|::: "A"f=geg ~f2e^d | eAc^d eAfg | afge ~f2e^d | eAc^d eAeA y:::|
+"E"
+|::: "A"afge ~f2e^d | eAc^d eAfg | afge ~f2e^d | eAc^d eAeA !d.C.![|]y:::|

@@ -1,0 +1,20 @@
+X: 4341
+T: Highland Laddie
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.4 p.34 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+f |\
+eAcA {f}e2{d}c2 | fBBc fBBf | ecac Tf2ed | cAAB cAA :| a | fefa Tf2ec | fBBc fBBa |
+fefa f2ec | eAAB cAAa || fefa Tf2ec | fBBc fBBf | ecac efdf | eAAB cAA |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z |\
+[a2A2][a2A2] [a2A2][a2A2] | [b2B2][b2B2] [b2B2][b2B2]| a2a2 d2d2 | e2e2 A2a :| z | a2a2 a2a2 | b2b2 b2b2 |
+a2a2 a2a2 | e2e2 a2a2 || a2a2 a2a2 | b2b2 b2b2 | a2a2 a2a2 | e2e2 A2A |]

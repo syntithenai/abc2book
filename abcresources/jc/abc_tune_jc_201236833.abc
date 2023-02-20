@@ -1,0 +1,25 @@
+X: 2324
+T: Sailors Wife.   a Jig.
+%R: jig
+B: Niel Gow & Sons "Complete Repository" v.2 p.32 #4 (and top 2 staves of p.33)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: The {c} grace note in bar 8 is missing its sharp; fixed.
+N: The 2nd strain has initial repeat but no final repeat; fixed.
+M: 6/8
+L: 1/8
+K: Dm
+% - - - - - - - - - -
+% Voice 1 reformatted to 2 8-bar staffs.
+V: 1 staves=2
+E |\
+DEF TE2D | ~d2e ~f2g | agf edc | AcA GEC ||\
+DEF ~E2D | d2e f2g | agf ed^c | {^c}d3 D2 :|
+|: e |\
+~f>ga fga | fga- a.g.f | ecg ecg | ecg gfe ||\
+Tf>ga agf | efg gfe | def ed^c | d3 D2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+d3 A3 | d3 d3 | d3 e3 | f3 c3 || d3 A3 | d3 f3 | g3 a3 | d3 d2 :||: z | f3 f3 |
+f3 f3 | c3 c3 | c3 ^c3 || d3 d3 | A3 A3 | d3 A3 | d3 [d2D2] :| 

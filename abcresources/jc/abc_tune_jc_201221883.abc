@@ -1,0 +1,36 @@
+X: 0523
+T: Tommy Pringle.
+%R: strathspey
+N: This is version 1, for ABC software that doesn't understand some ABC 2.* features.
+N: The initial D is optional in bars 1,3, indicated with a rest above the D.
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1808, No. 5 p.2 #3
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances5
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+|:\
+DGG>g dG"_>"B2 | DGG>g dG(B<g) |\
+DGG>g dG~B2 | c>AB>G {B}AGEA :|
+|:\
+Gg~g>a ([b/f/]a/g/f/) g2 | e>fg>a begb |\
+ef (a/g/f/e/) dBc>d | (e<g)d>B (c/B/A/G/) EA :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=D
+|:\
+[BG]d[BG]d [BG]d[BG]d | [BG]d[BG]d [BG]d[BG]d |\
+[BG]d[BG]d [BG]d[BG]d | [BG]d[BG]d [c2C2][c2C2] :|
+|:\
+[BG]d[BG]d [BG]d[BG]d | cAB[^dBF] "_fz"[e4B4E4] |\
+cGcG BGBG | cGBG [EC]A[EC]A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change sides and back again,
+%% down the middle up again
+%% and set it out.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

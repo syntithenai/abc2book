@@ -1,0 +1,22 @@
+X: 1
+T: Orange and Blue
+T: Brochan Lom
+T: Thin Porridge
+O: Trad
+Z: John Chambers <jc:trillian.mit.edu>
+N: called a schottische in Skinner SV p.20 (with variations),
+N: Hunter  354
+N: jig or strathspey in Skye p.121
+N: second Kennedy tune-book
+N: p.19, BSFC I-23, keep under O&B name alphabetically
+M: 4/4
+L: 1/8
+K: F
+c>B | "F"A-<F ~F2 C-<F ~F2 | A>F c>A F2 GA \
+    | "Gm"B-<G ~G2 D-<G ~G2 | "C7"E>C G>E C2 ||
+c>B | "F"A-<F ~F2 C-<F ~F2 | A>F c>A F2 (3ABc \
+    | "Bb"d>B "F/a"c>A "Gm"B>G "F"A>F | "C7"G>E (3CDE "F"F2 |]
+c>B | "F"A-<c c2 "/e"A-<c c2 | "Dm"A>F c>A "/c"F2 G>A \
+    | "Gm"B-<d d2 "/f"B-<d d2 | "C/e"B>G d>B "C7"G2 ||
+A>B | "F"A-<c c2 "/e"A-<c c2 | "Dm"A>F c>A "/c"F2 (3ABc \
+    | "Bb"d>B "F/a"c>A "Gm"B>G "F"A>F | "C7"G>E (3CDE "F"F2 |]

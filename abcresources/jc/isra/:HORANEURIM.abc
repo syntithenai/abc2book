@@ -1,0 +1,16 @@
+X: 91
+T: Hora Neurim
+C: Effi Netzer
+D: Dance Along with Sabras (Tikva-69)
+O: Israel
+F: http://www.youtube.com/watch?v=SauCBRglPx0
+M: 4/4
+L: 1/8
+Q:1/4=160
+K: Bmin
+%%MIDI drum dzdd 41 41 41
+  B2F2 AG/F/GA     |BF2D EDEA     |D2CD2B,=C/B,/A,|B,4 B,4  |
+%%MIDI drumon
+  B,F2E F2B,2      |B,CB,A, B,2B,2|EF2E FAA2      |BAGE F2F2|
+%%MIDI drum ddddz12d8d8 54 54 54 54 54 54
+|:E3B, E2F2        |^G2F2 GFE2    |D2CD2B,C/B,/A, |B,8      :|

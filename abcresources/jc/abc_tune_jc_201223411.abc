@@ -1,0 +1,26 @@
+X: 071
+T: the Bush aboon Traquair
+%R: air
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.7 #1
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Q: "slow"
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1
+D |\
+{DE}F2A2 d3f | Te>d (e/f/g/f/) Te3A | {G}TF2A2 (f>ed)B | A2- A/(G/F/E/) D3 :|
+|: d |\
+Tc>BAB cdef | g>a{g}f>g {f}Te3A | d>ef>g a>bTag | f>g (a/g/f/e/) d3e |
+Tc>BAB cdef | g/(b/a/g/) f/(a/g/f/) {f}Te3D | {DE}F2A2 (f>ed)B | A2- A/(G/F/E/) D3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+z |\
+d'2"6"c'2 bc'"6"d'b | "6"c'3d' ab"6"c'a | d'2"6"c'2 b3g | "4"a2"3"A2 d3 :: z a3 "6"^g
+ab"6"c'd' "6"e'"6"c'd'd a2A2 | zAd>e "6"f>gf"6"e | d"6"b"4"a"3"A d2"6;5"^G2 | A2z"#"e ab"6"c'd' |
+"6"e'"6"c'd'd a2z2 | d'2"6"c'2 "5"b3g | "4"a2 "3"A2 d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,18 @@
+X: 324
+T: der Beltzer Bulgar
+R: bulgar
+O: Beltz
+Q: 1/4=150
+B: German Goldenshteyn "Shpilt klezmorimlach klingen zoln di gesalach" New York 2003 v.3 #24
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: This tune had identical repeats and bad rhythms at repeats.  Fixed
+N: The keysig was ^f, but all f's are natural, and all g's are sharp, so the keysig was wrong.
+M: 2/4
+L: 1/8
+K: =f^g
+ega | bb bb | c'2Tb>a | Tb>a g2- | gega | b2 c'2 | T^d'c' Td'c' | b4- | b :|
+|: ega | ba c'b | agfe | fe d2- | db c'^c' | (~d'c') (~c'b) | (~ba) (~ag) | (~gf) (~fe) | e :|
+P: der Beltzer Bulgar, down an octave:
+K: =F^G
+EGA | BB BB | c2TB>A | TB>A G2- | GEGA | B2 c2 | T^dc Tdc | B4- | B :|
+|: EGA | BA cB | AGFE | FE D2- | DB c^c | (~dc) (~cB) | (~BA) (~AG) | (~GF) (~FE) | E :|

@@ -1,0 +1,29 @@
+X: 062
+T: MISS MONCRIEFF OF PITLOWER
+C: ALEXr LEBURN
+R: Reel
+B: Glen Collection p.6 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: A
+%
+V: 1
+F |\
+E2Ed {d}cBAc | ecec fBBF | E2Ed {d}cBAc | dfBd cAA :|
+g |\
+a2ed cBAc | dfBd BGEg | a2ed cBAc | dfBd cAAg |
+a2ed {d}cBAc | dfBc BGEB | EBFBGBAc | dfed cA[AC] |]
+%
+V: 2
+z |\
+e2[b2g2e2] [c'2a2e2][c'2a2e2] | [c'2a2e2][c'2a2e2] [b2f2d2][b2f2d2] |\
+[b2g2e2][b2g2e2] [c'2a2e2][c'2a2e2] | [b2g2e2][b2g2e2] [c'2a2][aA] :|
+z |\
+A2[c'2a2e2] [c'2a2e2][c'2a2e2] | B2[f2d2] e2[d'2b2] |\
+A2[c'2a2e2] [c'2a2e2][c'2a2e2] | [b2g2e2][b2g2e2] [a2e2][c'2a2e2] |
+A2[c'2a2e2] [c'2a2e2][c'2a2e2] | B2[f2d2] e2[d'2b2g2] |\
+[d'2b2g2][d'2a2] [d'2b2][c'2a2] | [b2g2e2][b2g2e2] [a2e2][aeA] |]

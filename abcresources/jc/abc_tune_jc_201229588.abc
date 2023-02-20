@@ -1,0 +1,20 @@
+X: 126004
+T: HORNPIPE
+N: AKA Lochmaben Hornpipe, Bridge of Lodi, Lord Nelson's Hornpipe, Murray's Hornpipe
+R: Hornpipe.
+%R: hornpipe, reel
+B: James Kerr "Merry Melodies" v.1 p.26 s.0 #4
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+(AF) |\
+D2d2 d2(cd) | ecAc d2(de) |\
+fdfd gege   | afdf ecAF |\
+D2d2 d2(cd) | ecAc d2(cd) |\
+ecec dBA^G   | A2A2A2 :|
+|: (fg) |\
+agfe dcBA | B2G2G2 (ga) |\
+bagf edcB | c2A2A2 (fg) |\
+afaf bgbg | afaf  bgbg |\
+afbg fedc | d2d2d2 :|

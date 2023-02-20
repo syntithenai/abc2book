@@ -1,0 +1,15 @@
+X: 774
+T: Red Stockings.
+R: jig
+B: O'Neill's 1850 "Music of Ireland" #774
+Z: Stephen Foy (shf@access.digex.net)
+%abc 1.6
+N: All ornaments (~) are mordents.
+M: 6/8
+K: G
+D |\
+G(~BA) G2B | def gdB | G(~BA) G2B | AFD AFD |\
+G(~BA) G2B | def gdB | ecA dBG | cAF G2 :|
+|: A |\
+(B/c/de) dcB | def gdB | ded dBG | ABG AFD |\
+ded dcB | def gdB | ecA dBG | cAF G2 :|

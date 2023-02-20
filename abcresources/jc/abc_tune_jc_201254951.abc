@@ -1,0 +1,24 @@
+X: 1
+T: the Bonny Lass
+T: Under the Water
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.3-14
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: agfe dcBA | agfe f2a2 | agfe dcBA | aaAA c2e2 :|
+|: A/B/c/d/ ec ecec | B/c/d/e/ fd fd a2 | A/B/c/d/ ec ecec | agfe f2a2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: a4 A4 | c'2a2 d'2d2 | c'4 a4 | c2e2 a2A2 :|
+|: a4 A4 | d'4 d4 | a4 A4 | c4 d2A2 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1st Cu. cast off two Cu. .|
+%% cast up again :|
+%% Gallop down one Cu. up again & cast off .|.
+%% hands round all six :|:
+%%endtext

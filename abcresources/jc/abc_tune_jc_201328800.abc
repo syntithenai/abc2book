@@ -1,0 +1,1645 @@
+X:1
+T:Red Rose Polka. GHW.001
+M:2/4
+L:1/16
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Polka
+O:England
+A:Norfolk
+N:Pause sign over the last double bar line meaning Fine
+Z:vmp.Taz Tarry
+Z: Contributed 2015-06-07 00:18:55 by John Lawrie lawris.rosenun@btopenworld.com
+K:G
+(Bcd2 efg2)|d2B2 (B^AB2)| d2A2 (A^GA2)|B2G2 (GFG2)|!
+(Bcd2 efg2) |d2B2 (B^AB2)|(d2cB AcBA)| G2G2 G2 z2|!
+(Bcd2 efg2)|d2B2 (B^AB2)| d2A2 A^GA2|B2G2 (GFG2)|!
+(Bcd2 efg2) |d2B2 (B^AB2)|(d2cB AcBA)| G2G2 G2 z2||!
+K:D
+|:(ABA2 d2A2)|(c2B2) B2 z2|(EFG2) (GFE2)|(F2D2 DEFG)|!
+(ABA2 d2A2)|c2B2 B2 z2|(ABcd egfe)|((3efe)d2 d2 z2|!
+(ABA2 d2A2)|(c2B2) B2 z2|(EFG2) (GFE2)|F2D2 DEFG|!
+(ABA2 d2A2)|c2B2 B2 z2|(ABcd egfe)|((3efe)d2 d2 z2:|!
+K:G
+(Bcd2 efg2)|d2B2 (B^AB2)| d2A2 (A^GA2)|B2G2 (GFG2)|!
+(Bcd2 efg2) |d2B2 (B^AB2)|(d2cB AcBA)|(GABc defg)|!
+(d2cB AcBA)|(G2B2 d2B2)|(G2B2 d2B2)|(G2B2 d2B2)|G2g2 g2 z2|]
+
+X:2
+T:Country Dance Polka. GHW.002
+M:2/4
+L:1/8
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Polka
+O:England
+A:Norfolk
+N:As written!
+Z:vmp.Taz Tarry
+K:D
+(3FGA BA|dA f2|fe fd|ed fd|!
+(3FGA BA|dA f2|fe ac|ddd:|!
+|:(3efe ^de|ac e2|(3efe dB|fe e2|!
+(3efe ^de|ac e2|(3efe dB|ddd:|!
+|:dg Bd|GB D2|BA cG|ed d2|!
+dg Bd|Ad D2|BA cG|AG G2:|
+
+X:3
+T:Pop Goes the Weasel. GHW.003
+M:6/8
+L:1/8
+Q:3/8=120
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Jig
+O:England
+A:Norfolk
+N:mf indication at start of tune - assuming convention of notation under
+N:the relevant stave - otherwise could be at start of B part.
+N:Third bar of B part in MS appears as g3A3 e2 g - I have interpreted as
+N:double stop first dotted crotchet, then crochet quaver
+N:Rall sign over rests in penultimate bar of B part
+Z:vmp.Taz Tarry
+K:G
+G2G A2A|(Bd)B G2z|G2G A2A|(B3 G2) z|!
+G2G A2A|(Bd)B G2z|.e zz (A2c)|(B3 G2) z:|!
+"^MF"g3 e2g|(faf) d2 z|[f3A3] e2 g|(f3 d2)z|!
+.c z .B .c z .d|.e z .f .g zz|[eG] z z A2 c|(B3G2) z:|
+
+X:4
+T:Bella Clara Polka. GHW.004
+M:2/4
+L:1/8
+Q:100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Polka
+O:England
+A:Norfolk
+N:Pause mark of end of c part  meaning Fine,  DC mark at last
+N:bar. 4th. bar of D music missing a beat in manuscript. Slur is marked
+N:continuing into next bar. Also only 15 bars. Transcribed as in MS
+Z:vmp.Taz Tarry
+K:D
+d|dB gd|fe A/^G/A|BA DA|BG G/F/G|!
+dB gd|fe A/^G/A|BA DA|GGG:|!
+z|A/A/F d2|d/d/A f2|(ea) (ea)|f2d2|!
+A/A/F d2|d/d/A f2|(ea) (ea)|1 ddd:|2d2c2||!
+z|dB gd|fe A/^G/A|BA Dc|AG G/F/G|!
+dB gd|fe A/^G/A|BA DA|GGG||!
+z|e3 f|g2c2|B3 A|"^cr"G4|!
+(A2 f2)|G2 e2|d3 f/e/|d3 B|!
+d3 f|g2 c2|B3 A|(A2f2)|!
+(G2e2)|B3 e/d/|"^crs"ccc|]
+
+X:5
+T:Holly Polka. GHW.005
+M:2/4
+L:1/8
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Polka
+O:England
+A:Norfolk
+N:Bars 7&8 (dG|g/B/ ccc) in MS.CGP
+Z:vmp.Taz Tarry
+K:C
+e/f/|gcc B/c/|edA B/c/|dGG ^F/G/|age e/f/|!
+gcc B/c/|edA B/c/2|dGgB| ccc:|!
+|:A/B/|caa b/a/|gBB f/e/|cAA c/B/|GDD A/B/|!
+caa b/a/|gBB f/e/|dD D/c/B/A/|GGG:|!
+|:A/B/|c/c/c d/d/d|c/c/c f/f/f|c/c/c g/g/g|c/c/c a/a/a|!
+agd>e|gfc>f|1 fed>f|g2 cA/B/||2eca>g|fff||]
+
+X:6
+T:Country Dance. GHW.006
+T:If The Life Of A Man,aka. GHW.006
+M:6/8
+L:1/8
+Q:3/8=120
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Jig
+O:England
+A:Norfolk
+N:Pause sign  at end of A part -meaning Fine. Pause sign over second beat
+N:of 6th. bar of B. DC at end of B
+Z:vmp.Taz Tarry
+K:D
+F/G/|A>BA A>BA|d2 A A2 F/G/|A>BA A>BA|eeA AFG|ABA ABA|!
+d2A e2A|f>ed A>dc|d2D HD2||z|f>ed f>ed|e2A A3|f>ed f>ed|!
+g2 e e3|{d/e/}f>ed f>ed| gfe Ha2 g|f>ed A>dc|d2D D3:|
+
+X:7
+T:Jenny Lind Polka. GHW.007
+M:2/4
+L:1/8
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Polka
+O:England
+A:Norfolk
+N:DC marked at end of each part.TT Meaning play ABAC? CGP.
+Z:vmp.Taz Tarry
+K:D
+FA GB|Af f/g/f|Ge e/f/e|Fd d/e/d|!
+FA GB|Af f/g/f|Ge e/f/e|ddd:|!
+|:z|dB B/c/B|AF F/G/F|GE E/F/E|FD D/E/D|!
+dB B/c/B|AF F/G/F|GE E/F/E|DDD:|!
+|:z|e/f/e bc|ed d/c/d|e/f/e d^g|ba a/^g/a|!
+e/f/e ac|ed d/c/d|e/f/e dB|AAA:|
+
+X:8
+T:Little Polly Polka. GHW.008
+M:2/4
+L:1/8
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Polka
+O:England
+A:Norfolk
+N:Pause (Fine) mark at end of first part, but no DC marked in tune. 6th.
+N:bar of C written asfe semiquaver, e quaver. Assumed meant same as 2nd
+N:bar and transcribed as fe quaver, e quaver. Missing beat in 8th bar as
+N:C part left as in MS
+Z:vmp.Taz Tarry
+K:D
+Ad d/c/d|Be e2|cc/d/ ec|df f2|!
+Ad d/c/d|Be e2|cc/d/ ec|df d2:|!
+|:ce ce|ed d2|B/wc/d B/c/d|fe e2|!
+ce ce |df f2|ec e/d/c/B/|Ac A2:|!
+K:G
+|:d/d/d d/d/d|fe e2|^c/c/c c/c/c|fd d2|!
+d/d/d d/d/d|fe e2|A/A/2A A/A/A|GBG:|
+
+X:9
+T:Bird Polka. GHW.009
+M:2/4
+L:1/8
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Polka
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:G
+B|BB/A/ GG|gg/f/ e2|cc/B/ AA|ff/e/ d2|!
+BB/A/ GG|gg/f/ e2|EA/2B/ "^d2EF in ms"dE/F/|GGG:|!
+|:d|dB/c/ db|dB/c/ d2|eA/B/ cB/c/|dG/A/ B2|!
+dB/c/ db|dB/c/ d2|F/G/A B/c/d|GGG:|!
+|:d|dB/d/ dg|fe/d/e2|(eA/B/) ce|(dd/c/)B2|!
+dB/d/ dg|fe/d/e2|A/c/f/e/ d/c/B/A/|GGG:|
+
+X:10
+T:Polka. GHW.010
+M:2/4
+L:1/16
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Polka
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:D
+"^Key G in ms"A2|FGA2 GAB2|A2d2 f4|g2A2 cde2|a2d2 f2A2|!
+FGA2 GAB2|A2d2 f4|g2A2 cde2|"^crs"d2d2d2:|!
+|:f2|edc2 BAG2|^G2B2 d4|dcA2 BA^G2|A2c2 e4|!
+edc2 cBA2|a2f2 d3f|edc2 dcB2|A2A2A2:|!
+K:G
+|:^d2ed cdef|g2B2 B4|A2fe dcBA|B2d2 G2B2|!
+d2ed ^cdef|g2B2 B4|A2fe dcBA|G2B2G2:|
+
+X:11
+T:Briton Polka. GHW.011
+M:2/4
+L:1/16
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Polka
+O:England
+A:Norfolk
+N:A number of bars have sets of three semiquavers, leaving a beat short.
+N:I have interpreted these as two semi-quavers + quaver -which seems more
+N:appropriate than quaver + two semiquavers. The bars affected are
+N:1,3,5,7,10,12,14,17,19,21,2
+N:Fine sign at end of A, DC at end of D  part (note C part is in fact the
+N:A part again
+Z:vmp.Taz Tarry
+K:D
+"_NB"(df)A2 (Ad)F2|G2B2 B4|(eg)c2 (ce)A2|e2f2 f4|!
+(df)A2 (Ad)F2|G2B2 B4|egc2 ceA2|d2d2d2 z2:|!
+f3ff3f|gad2 dfA2|e3ee3e|efc2 ceA2|!
+f3ff3f|gad2 dfA2|c2d2d2g2|g2^f2=f2z2||!
+dfA2 AdF2|G2B2 B4|egc2 ceA2|e2f2 f4|!
+dfA2 AdF2|G2B2 B4|egc2 ceA2|d2d2d2 z2|!
+K:G
+B2d2g3f|e2g2c3A|F2A2e3d|B2d2G3G|!
+B2d2g3f|e2g2c3e|A2c2F3A|G2G2G2 z2|]
+
+X:12
+T:Trip to the Cottage. GHW.012
+M:6/8
+L:1/8
+Q:3/8=120
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Jig
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:G
+d|dBB BGG|cAA AFD|DGG FAA|BBB A2 d|!
+dBB BGG|dAA AFD|DGG FAA|BGG G2:|!
+d|gfe dcB|edc Bcd|edA dBG|FAA A2d|!
+gfe dcB|edc Bcd|efg agf|edc d3||g2g2g2|]
+
+X:13
+T:Polka. GHW.013
+M:2/4
+L:1/8
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Polka
+O:England
+A:Norfolk
+N:DC marked at end of each part in M
+Z:vmp.Taz Tarry
+K:D
+A|Adc>d|feB>e|dcB>A|BAF>A|Adc>d|feB>e|dcf>e|ddd:|!
+K:A
+|:c|cea>b|agB>c|ddg>f|fec>d|efd>c|cBF>B|ABc>B|AAA:|!
+K:G
+z|d2Bg|g2f2|fcf>e|e2d2|d2gf|f2e2|e2ag|gfed|!
+d2Bg|g2f2|fcf>e|e2d2|dgc>d|dc e2|dfb>a|g|]
+
+X:14
+T:Soldiers Joy Reel. GHW.014
+M:2/4
+L:1/8
+Q:1/2=90
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Reel
+O:England
+A:Norfolk
+N:DC marked at end of each part in M
+N:Last bar marked 'fine
+Z:vmp.Taz Tarry
+K:D
+dB|AFDF AFDF|A2d2d2(cB)|AFDF AFDF|G2E2E2 dB|!
+AFDF AFDF|A2d2d2g2|fafd egec|d2d2d2||!
+g2|fdfg fagf|ecAc egfe|fdfg fagf|edcB A2g2|!
+fdfg fagf|ecAc egfe|fafd egec|\
+d2d2d2||z3/ "FINE"[d/F/] [d6F6]|]
+
+X:15
+T:Circasian Polka. GHW.015
+M:2/4
+L:1/8
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Polka
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:G
+BB/A/ GA|Bdd2|cA A2|BG G2|BB/A/ GA|Bd d2|!
+cAA2|BGG2:|\
+|:E/G/c/e/ ge|d/e/d/B/ GB|A/B/A/F/ Dd|G/D/G/B/ dd|!
+E/G/c/2e/ ge|\
+d/e/d/B/ GB|A/B/A/F/ Dd|G/D/B/A/ Gz:|\
+K:C
+|:G|g4|ag g/e/c|!
+ed d/B/G|dc c/G/E|g4|ag g/e/c|ed d/B/G|c3:|
+
+X:16
+T:My First Step Polka. GHW.016
+M:2/4
+L:1/16
+Q:1/4=110
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Polka
+O:England
+A:Norfolk
+N:DC marked at end of tun
+Z:vmp.Taz Tarry
+K:C
+e2g2 gage|c2e2 e4|d2f2 fgfB|c2a2g4|!
+e2g2 gage|c2e2e4|d2g2 fga2|g2g2g2 z f|!
+e2g2 gage|c2e2 e4|d2f2 fgfB|c2a2g4|!
+e2g2 gage|c2e2e4|d2g2 fdB2|c2c2c2z2:|!
+d2g2 fdBG|c2c2 agec|d2g2 fdBG|c2g2 g2g2|!
+d2g2 fdBG|c2c2 agec|GABc defB|c2e2 c4:|!
+e2g2 gage|c2e2 e4|d2f2 fgfB|c2a2g4|!
+e2g2 gage|c2e2e4|d2g2 fdB2|c2c2c2||!
+K:G
+D2|B6 A2|G6F2|A2G2 D3G|F4E4|!
+c6B2|A6G2|F2C2 F3E|D4 EFGA|!
+B6A2|G6F2|A2G2 g3f|f4e4|!
+f6 e2|d2B2 G3E|D2B2 B3A|G2G2G2:|
+
+X:17
+T:Clara Polka,The. GHW.017
+M:2/4
+L:1/16
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Polka
+O:England
+A:Norfolk
+N:DC  marked at end of tune
+Z:vmp.Taz Tarry
+K:D
+FG|A2f2 fed2|A2f2 fed2|A2f2e2d2|c2B2B2 FG|!
+A2f2 ggfe|A2f2 fed2|A2e2 efe2|d2d2d2:|!
+K:A
+|:cd|eeee f2e2|e2E2c2f2|e2E2B2f2|e2A2c2 cd|!
+eeee f3e|e2E2c2f2|e2E2B2e2|A2A2A2:|!
+K:G
+dc|B2G2 GFG2|B2d2 g3f|e2A2 A^GA2|c2e2 a3g|!
+f2d2 d^cd2|ede2 fef2|g2Bc dcBA|G2AB cdef|!
+g2G2 GFG2|B2d2 g3f|e2A2 A^GA2|c2e2 a3g|!
+f2d2 d^cd2|ede2 fef2|g2Bc dcBA|G2G2G2|]
+
+X:18
+T:Genny Bell. GHW.018
+T:Jenny Bell?aka. GHW.018
+M:4/4
+L:1/8
+Q:1/2=72
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Schottische
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:D
+G>A|B>G g2 f>d f2|e>d G2G2 A>B|\
+d>cB>c A2 B>c|e>dc>dB2 G>A|!
+B>G g2 f>d f2|e>d G2G2 A>B|d>cB>c F3F |G2G2G2:|!
+|:"qu"a2|a>g d2 A>d f2|g>fg>a a2 z g|\
+g>e c2 A>c e2|f>ef>g f2 z a|!
+a>g "qu"d2 A>d f2|g>fg>a g2 z g|g>fe>d c>de>c|d2d2d2:|!
+|:A2|((3AAA) B2 ((3AAA) d2|((3AAA) B2 ((3AAA) f2|\
+g3 e e>de>g|f>e A2 A>G A2|!
+((3AAA) B2 ((3AAA) d2|((3AAA) B2 ((3AAA) f2|\
+a3 e e>de>f|d2d2d2:|!
+|:d>B|c>e a4 f>a|b>a d4 g>f|f>e c2 c>ed>c|e>d B2B2 d>B|!
+c>e a4 f>a|b>a d4 z g|g>fe>d c>de>f|g2g>f g2:|
+
+X:19
+T:Black and Tan Polka. GHW.019
+M:2/4
+L:1/16
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Polka
+O:England
+A:Norfolk
+N:A flat in third to last bar left as in MS, but probably should be B
+N:flat as in 6th. bar of last par
+Z:vmp.Taz Tarry
+K:G
+d2|g2g2 fagf|e2e2d3B|c2c2 BdcB|ABAG FED2|!
+g2g2 fagf|e2e2d3B|cedc BdcB|A2g2g2 d2|!
+g2g2 fagf|e2e2d3B|.c2.c2 BdcB|ABAG FED2|!
+.g2.g2 fagf|e2e2d3B|cedc BdcB|A2f2g2||!
+a2|f2e2d3 a|c2B2A3 A|a2e2 a3g|f6 f2|!
+f2g2f3c|d2e2d3f|f2e2d3B|e6 a2|!
+f2e2d3 A|c2B2A3A|a2e2 a3g|f6 f2|!
+(f2e2 EGcB)|(E2D2 DEBA)|(EDEF GABc)|d2d2d2:|!
+d2|B2d2g3e|g6 d2|B2d2g3d|f6 d2|!
+c2d2g3d|a6 _b2|g2f2e3d|c2B2A3d|!
+B2d2g3d|g6 d2|B2d2g3d|f6 d2|!
+c2d2g3d|a6 _a2|g2f2e3f|g6|]
+
+X:20
+T:Polka. GHW.020
+M:2/4
+L:1/16
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Polka
+O:England
+A:Norfolk
+N:rests added Bars 16,24. CGP
+Z:vmp.Taz Tarry
+K:F
+a2ef g2f2|e2d2 d^cd2|a2ce a2g2|g2f2 fefg|!
+a2ef g2f2|e2d2 d^cd2|a2d2 ceag|f2f2f2 z2:|!
+|:G2e2 cBce|a2g2 g^fg2|=f2^c2 e2d2|d2B2 dcBA|!
+G2e2 cBce|a2g2 g^fg2|g2G2e3d|f2f2f2z2:|!
+|:f4 e3d|d2c2 c4|cd^de a2g2|fg^ga d2c2|!
+f4 e3d|d2c2 c4|cdef a3g|f2f2f2z2:|
+
+X:21
+T:Scoth(Scotch?) Polka. GHW.021
+M:2/4
+L:1/8
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Polka
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:F
+A/B/|c a2 g|f d2 d|cc/d/ cf|agg A/B/|c a2 g|f d2 d|c>c de|gff:|!
+|:B|Ac c>B|Ac c>B|Ac fa|gg/^f/ gB|Ac c>B|Ac c>c|df eg| aff:|!
+K:Bb
+|:z2|F>G F>G|Fd d>d|ed cB|dc c2|F>G F>G|Fd d>d|fe dc|cBB:|
+
+X:22
+T:M.B.Polka,The. GHW.022
+M:2/4
+L:1/8
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Polka
+O:England
+A:Norfolk
+N:Possibly ff marking at start of B part. Fine marked at end of C part. D
+N:part marked '1st time f, 2nd time ff at start. 2nd. time at end of D
+N:marked D.TT.. Last strain re-beamed.CGP
+Z:vmp.Taz Tarry
+K:G
+B/A/B d/^c/d|ed G/F/G| F/E/F c/B/c|ed B2|!
+B/A/B d/^c/d|ed G/F/G| F/E/F (d/c/B/A/)|GGG z:|!
+K:D
+|:Aff>d|A^GBA|Gee>c|AGcB|!
+Aff>d|A^GBA|Gec>A|ddd z:|!
+K:G
+"^FF"B/A/B d/^c/d|ed G/F/G| F/E/F c/B/c|ed B2|!
+B/A/B d/^c/d|ag A/^G/A|c/B/c e>F|"^FINE"Ggg||!
+K:C
+|:e|cG/G/ GE|G3 e|cG/G/ GE|A3 f|!
+dF/F/ FD|B3A|AG/G/ GE|G3e|!
+cG/G/ GE|G3 e|cG/G/ GE|A3 f|!
+dA/A/ Ad|cG/G/ Gc|BfA>B|1c3:||2c3 z|]
+
+X:23
+T:Pergola Polka. GHW.023
+M:2/4
+L:1/8
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Polka
+O:England
+A:Norfolk
+N:Quavers left separated as in MS
+Z:vmp.Taz Tarry
+K:D
+f A A ^G/A/|B g g2|g c c B/c/|d a a2|!
+f A A ^G/A/|B g g2|g c c G/A/|d d d2:|!
+|:e e f2| e e B2|e e f2|e e c2|!
+a a B2|f f A2|e e B3/ c/|d d d2:|!
+d e d3/ ^c/|A3 B|G B d3/ e/|d3 g|!
+g f g3/ a/|c3 e|e d d3/ c/|B3 d|!
+d e d3/ c/|A3 B|G B d3/ e/|d3 d|!
+d ^c d3/ e/|f3 g|f e B c|d2 z2|]
+
+X:24
+T:Watson's Quick Step. GHW.024
+M:4/4
+L:1/8
+Q:1/4=130
+C:"Quickstep" in MS
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.March
+O:England
+A:Norfolk
+N:Untitled in MS (except as Quickstep..CGP)
+Z:vmp.Taz Tarry
+K:F
+((3cdc)|B>AG>A F>fe>d|c>BG>A B2 ((3cde)|f>ae>g d>fc>f|d>fc>f g2 c2|!
+B>AG>A F>fe>d|c>BG>A B2 c2|d>gd>e c>d ((3efg)|f2e2f2:|!
+|:((3efe)|d>^cd>f a>f d2|e>ce>g b>g e2|d>^cd>f a>f ((3def)|e2 c2 A2 c2|!
+d>^cd>f a>f d2|e>ce>g b>g e2|d>ab>a g>f ((3efe)| d2 ^c2 d2:|
+
+X:25
+T:Polka. GHW.025
+M:2/4
+L:1/8
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Polka
+O:England
+A:Norfolk
+N:First bar of B in MS is 'fe>d a/' I've transcribed this as 'fed3/
+N:a/' to make it fit time signature and reflect other occurences of this
+N:pattern, especially 9th. bar of B. 14th. bar of B is split over a line
+N:- seond half is 'dfba' in MS. I've transcribed this as 'f/d/b/a/'
+N:to fit time signature and established patter
+Z:vmp.Taz Tarry
+K:G
+d|gg f/a/g/f/|eed>B|cc B/d/c/B/|A/B/A/G/ F/E/D|!
+gg f/a/g/2f/|eed>B|c/e/d/c/ B/d/c/B/|Afg:|!
+K:D
+|:a|"NB"fed3/a/|cBA3/A/|aea>g|f3 f|!
+fgf>c|ded>f|fed>B|e3 a|!
+fed3/A/|cBA>A|aea>g|f3 f|!
+fe e/g/c'/b/|ed "qus"d/f/b/a/|e/^d/e/f/ g/a/b/c'/|d'/d'/d'/:|!
+|:[dD]|Bdg>e|g3 d|Bdg>d|f3 d|!
+cdf>d|[a3A3] _b|gfe>d|cBA3/d/|!
+Bdg>d|g3 d|Bdg>d|f3 d|!
+cdf>d|a3 _b|gfe>f|g3:|
+
+X:26
+T:Huntsmans Chorus. GHW.026
+M:2/4
+L:1/8
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Air
+O:England
+A:Norfolk
+N:I have kept the notes separated as in
+N:the MS. There is a pause  mark over the last minim.
+Z:vmp.Taz Tarry
+K:G
+[V:1]z2zA|d2 d/e/ f/g/|a2 f f|(ea) ea|f/g/f/e/ d A|d2 (d/e/) f/g/|a2f f|!
+[V:2]z2z A|F2 F/A/ d/e/|f2 d d |c2 c c|d/e/d/c/ d A|F2 F/A/ d/e/|f2 d d |!
+%
+[V:1]e2 ^g3/4 g/4|a2 zA|d2 d/e/ f/g/|a2 f f|ea ea|fe d A|d2 d/e/ f/g/|!
+[V:2]c2 d3/4 d/4|a2 z A|F2 F/A/ d/e/|f2 d d |c2 c c|dc d A|F2 F/A/ d/e/|!
+%
+[V:1]a2f f|e2 ^g3/4 g/4|a2 zA|f2 f f|d2 d d|g2 g g|e2 e e|f2 f f|!
+[V:2]f2 d d |c2 d3/4 d/4|c2 z A|A2 A A |B2 B B|B2 B B|c2 c A|A2 A A|!
+%
+[V:1]d2 d d|g2 g g|e2 z A|f2 f f|g2 f f|e2f/e/ d/e/|f2 d A|f2 f f|g2 f f|!
+[V:2]B2 B B|B2 B B|c2 z c|A2 A A|B2 A d|c2 (d/c/) (B/c/)|dA F A|A2 A A|!
+%
+[V:1](f/e/) (d/c/) f e|d2 z A|A A/ A/ A A/ A/|A A/ A/ A A/ A/|d2 A f|d2 A f|!
+[V:2]B2 A d|c2 c c|d2 z A|A A/ A/ A A/ A/|A A/ A/ A A/ A/|F2 F A|F2 F A|!
+%
+[V:1](a/g/) e (a/g/) e|(a/g/) e (a/g/) e|d2 A f|d2 A f|\
+(a/g/) e (a/g/) e|(a/g/) e (a/g/) e|!
+[V:2]E GE G|E G E G|F2 F A|F2 F A|E G E G|E G E G|!
+%
+[V:1]f d/ f/ a2|f d/ f/ a2|1 f d/ d/ d f|e2 z:|2 f d/d/ d d/d/| d4||!
+[V:2]F d/ d/ c2|d d/ d/ c2|1 d d/ d/ d d|c2 z:|2 d F/F/ F F/F/|F4|]
+
+X:27
+T:Polka. GHW.027
+M:2/4
+L:1/16
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Polka
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:F
+a2ef g2f2|e2d2 d2^cd|b2ce a2g2|g2f2 fefg|!
+a2ef g2f2|e2d2 d2^cd|b2d2 cega|f2f2f2z2:|!
+|:G2e2 cBce|a2g2 g^fg2|f2^c2 e3d|d2B2 dcBA|!
+G2e2 cBce|a2g2 g^fg2|a2G2e3d|c2c2 c4:|!
+|:f4 e3d|d2c2 c4|cd^de a2g2|fg^ga b2a2|!
+f4 e3d|d2c2 A4|cdef a3g|f2f2 f4:|
+
+X:28
+T:Lilian Polka. GHW.028
+M:2/4
+L:1/8
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Polka
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:F
+((3A/c/d/)|af cA|dG G/^F/G/A/|cB GE|dc c ((3A/c/d/)|!
+af cA|dG G/^F/G/A/|cB GE|Fff:|!
+K:C
+|:GA/B/ c/d/e/f/|gg e2|ff d2|ee c2|!
+GA/B/ c/d/e/f/|gg e2|ff d2|c3:|!
+K:Bb
+|:B/c/|dF Bc|((3B/c/B/) AA c/d/|eF c>d|((3c/d/c/) BB B/c/|!
+dF B>c|((3B/c/B/) AA e/f/|gc/d/ eG/A/|cBB:|
+W:All triplets slurred quavers in MS|
+
+X:29
+T:Soldiers of the Queen,The. GHW.029
+M:4/4
+L:1/4
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.March
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:F
+c/ c/|fedA|c>B Ed|c>BE A|G>F C c/ c/|!
+fece|d>c A c3/4 d/4|e e e3/4 d/4 c3/4 d/4|e3 c|!
+fedA|c>B Ed|c>BE A|G>F C c|!
+fedA|c =B/ _B3/4 A/4 G3/4 A/4|Bcde|\
+1f2 z c/ c/:|2f2 z2|]
+
+X:30
+T:Holly Bush Polka. GHW.030
+M:2/4
+L:1/16
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Polka
+O:England
+A:Norfolk
+N:DC marked at end of fourth (last) part
+Z:vmp.Taz Tarry
+K:C
+g2cd ecfe|e2dA dFfe|e2dG dGed|d2cB cdef|!
+g2cd ecfe|f2dA dAfe|dcde fgab|c'2c'2c'2:|!
+|:cd|edcB ABcd|edcB ABcd|edcB AcBA|BEee eeee|!
+edcB ABcd|edcB ABcd|edcA BdcB|1 A2a2A2:|2 edcB AcBA||!
+g2gg g2g2|g2gg g2g2|g2gg g2g2|g2gg g2g2|g2gg g2g2|g2cd ecfe|!
+e2dA dAfe|e2dB dGed|d2cB cdef|!
+g2cd ecfe|e2dA dAfe|dcde fgab|c'2c'2c'2||!
+K:D
+L:1/8
+Q:160
+A|d3c|e3d|fc d>B|A3A|G3e|d3c|cB f>e|ecBA|!
+d3c|e3d|fc e>d|B3B|Bg f>e|ed A>d|dc f>e|ddd||!
+
+X:31
+T:Snow Drop Schottische. GHW.031
+M:4/4
+L:1/8
+Q:1/2=70
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Schottische
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:G
+GA|B2 d2 c2 e2|B2c2d2 A>c|c>BA>G F>GA>B|c>BA>G F2 G>A|!
+B2d2c2e2|B2c2d2 A>B|c>BA>G F>D E>F|G2G2G2:|!
+|:e2 d>e f2 d2|d2 g>f g2|c2 c>d e2d2|f2 e2 f4|!
+e2 d>e f2 d2|d2 e>f g4|c2 e>d c>ed>c|B2 G2G2 z2:|!
+K:C
+|:e4  "^c>d in ms"c3d|e2 e>f d2 c2|B2 A>c d2 B2|c>dc>d g4|!
+e4 c2d2|e2 d>f d2B2|d2 G>A B>cd>e|c2c2c2 z2:|
+
+X:32
+T:Heel & Toe Polka. GHW.032
+T:Sultan Polka,aka. GHW.032
+M:4/4
+L:1/4
+Q:1/2=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Polka
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:G
+B2B2|AGGG|FGAB|dc c2|c2 c2|BA A2|GFEF|GG G2|!
+B2BB|AGGG|FGAB|dc c2|cc c2|BA A2|GFEF|GG G2|!
+|DD G3/4A/4 B|DD G A/B/|d c c2|c B B2|BAEA|GFED|!
+DD G3/4A/4 B|DD G3/4A/4 B|dc c2|c B B2|BAEF|G2G2|]
+
+X:33
+T:Galop. GHW.033
+M:2/4
+L:1/8
+Q:1/4=110
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Galop
+O:England
+A:Norfolk
+N:'Signo' at start and end, DC at end. Ccnfused notes in second beat of
+N:23. Could be either cg or gc. I've gone for  cg, but it could be
+N:either.
+Z:vmp.Taz Tarry
+K:F
+cc/c/ cd|c3 d|cAcf|e2 z2|cc/c/ cd|c3 a|gfdg|c.c.d.e||!
+|:f3e|d2 zc|dc cd|d2 B2|f3e|d2 z d|dd cB|(d2c) z|!
+f3e|d2 zc|dc cf|g2 d2|f2ed|c2 zd|ca cg|(f2f2):|!
+K:Bb
+|:d2c>B|d3 d|ff e>d|f2 zb|a3 g|d3 e|dd c>B|c3 ^c|!
+d2 c>B|d3 f| ff e>d|(g2g2)|=e3 e|f3 g|fe d>c|(B2B2):|
+
+X:34
+T:Eclipse Galop,The. GHW.034
+M:2/4
+L:1/8
+Q:1/2=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Galop
+O:England
+A:Norfolk
+N:Bar 1, 9 in MS are a quaver short. I've changed these to match the C
+N:part.Sign at start of B part.  Last part marked TRI
+Z:vmp.Taz Tarry
+K:A
+c>eA2|c>eA2|d>fa>f|f2e z|c>eA2|c>eA2|F>Bd>B|G2E2|!
+c>eA2|c>eA2|d>fa>f|f2e z|c>eA2|c>eF2|G>Bd>B|A2 z a:|!
+|:(3(aaa) a>a|(3(ggg) g>g|(3(fff) f>f|(e2e) z|\
+d>fe>d|c>fd>c|B>dc>B|(c2A2)|!
+(3(aaa) a>a|(3(ggg) g>g|(3(fff) f>f|(e2e) z|\
+d>fe>d|c>ed>c|B>dc>B|A2A z:|!
+c>eA2|c>eA2|d>fa>f|f2e z|B>dF2|G>Bd>B|A2 z a||!
+K:D
+"TRIO"dzez|fzgz|azaz|ag f2|gzBz|fzez|fzez|fecA|!
+dzez|fzgz|azaz|ag f2|gzBz|fzez|dcBc|dzdz|!
+e>A A2|f>dd2|eABc|d>fA2|e>A A2|f>dd2|eABc|dzdz|!
+e>A A2|f>dd2|eABc|d>fA2|e>A A2|fdda|^gefg|a z z2|!
+dzez|fzgz|azaz|ag f2|gzBz|fzez|fzez|fecA|!
+dzez|fzgz|azaz|a>g f2|gzBz|fzez|dcBc|dzdz|]
+
+X:35
+T:Second Violin. GHW.035
+M:2/4
+L:1/8
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Misc.
+O:England
+A:Norfolk
+N:Unsure as to which tune this is the second violin part of.
+Z:vmp.Taz Tarry
+K:G
+G|G B B B |G B B B|G B B B |G c c c |G c c c |A c c c |!
+A A B B|G G G G|\
+G B B B |G B B B|G B B B |G c c c|F A A A|!
+G B B B |c c d d|B2 B2:|\
+(3GGG G>G|B B B B|G G c c|!
+G B B B|G B B B|G B B B|F  A A A|G B B B|\
+G B B B|G B B B|!
+G c c c |G B B B|G c c c|G B B B|F A A A|G G G|]
+
+X:36
+T:Bunch of Roses Schottische. GHW.036
+M:4/4
+L:1/8
+Q:1/2=70
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Schottische
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:G
+D>G|B2B2 c>Bc>B|e2d2 z2 d>c|B>dB>G A>cA>F|G2B2G2 D>G|!
+B2B2 c>Bc>B|e2d2 z2 d>c|B>gd>B A>cB>A|G2B2G2||!
+z2|a2 a>^g b2 d'2|c'2 b2 g2 z2|cdef g3 b|b2a2f2 z2|!
+a2 a>^g b2 d'2|b2 a2 g2 z2|cdef g3 c'|d'2d'2c'2 |]
+
+X:37
+T:Snow Drift Gallop. GHW.037
+T:Jingle Bells,aka. GHW.037
+M:2/4
+L:1/8
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Galop
+O:England
+A:Norfolk
+N:Coda written above first bar of 'C' music. DC at end.
+Z:vmp.Taz Tarry
+K:G
+D|(DBAG)|D2 z D|(DBAG)|E2 z E|(EcBA)|F2 z F|F(ed)>c|B3 D|!
+(DBAG)|D2 z D|DBAG|E2 z E|EcBA|Bed>B|edcA|1 G2 G:|2 G2B z||!
+(3(BBB) B>B|d>d d>d|B>B e>e|^d4|(e>Bc>e)|(d>BG>B)|(A>cB>A)| B4|!
+(3(BBB) B>B|d>d d>d|B>B e>e|^d4|(e>Bc>e)|\
+(d>BG>B)|(A>cB>A)|1 G2 Gz:|2 G2G D||!
+(DBAG)|D2 z D|(DBAG)|E2 z E|(EcBA)|F2 z F|F(ed)>c|B3 D|!
+(DBAG)|D2 z D|(DBAG)|E2 z E|(EcBA)|Bed>B|(edcA)|G2||!
+G2|G2E2|G2c2| e3 d|c3B|A3B|(dcBA)|(G4|G2) G2|!
+(F3E)|(F2G2)|(F2E2)|(c3B)|(A3 d)|(d3c)|(cBAG)|(^FGAG)|!
+G2E2|G2c2| e3 d|c3B|A3B|dcBA|(G4|G2) G2|!
+(F3E)|(F2G2)|(F2E2)|c3 c|(d2A2)|(cBAB)|c4|[c2E2] z|]
+
+X:38
+T:Gold Ring Schottische. GHW.038
+M:4/4
+L:1/8
+Q:1/2=70
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Schottische
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:G
+(3(def)|.g2 .b2 e2 g>e|d>ed>B G2 A>G|\
+F>GA>B c>de>f|g>fg>e d2 (3(def)|!
+.g2 .b2 e2 g>e|d>ed>B G2 (3(ABA)|1\
+F>Af>e d>cA>B|G2B2G2:|2 F>Af>e d>de>f|g2g2g2||!
+K:F
+|:A>B|c>fc>A F>Ac>A|B2 G2G2 G>A|\
+B>ge>c =B>cd>e|f2 A2A2 A>B|!
+c>gc>A F>Ac>A|B2 g2g2 g>a|b>ag>f e>gd>e|f2f2f2:|
+
+X:39
+T:Holly Schottische. GHW.039
+M:4/4
+L:1/8
+Q:1/2=70
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Shottische
+O:England
+A:Norfolk
+N:DC marked at end
+Z:vmp.Taz Tarry
+K:G
+d>cB>c d2 g2|e>dc>d e4|d>ef>g a2 d2|e>d^c>d B4|!
+d>cB>c d2 g2|e>dc>d e4|d>ef>g a>de>f|g2g2g2 z2:|!
+K:D
+|:f>ed>c d>f a2|g>fe>^d e3 z|c>BA>B c>d e3 z|f>ed>c B3 z|!
+f>ed>c d>f a2|g>fe>^d e>f b3|a>gA>B c>df>e|d2d2d2 z2:|!
+K:C
+e4 c2 z2|e>fe>d c2 z2|d4 B2 z2|d>cB>d (a2g2)|!
+e4 c2 z2|e>fe>d c2 z2|B>d g2 ^f>ac'>f| g2g2g2 z2|!
+e4 c2 z2|e>fe>d c2 z2|d4 B2 z2|d>cB>d (a2g2)|!
+e4 c2 z2|f>ed>^c d>f a2|g2 d>e f>ef>B|c2c2c2 "DC"z2|]
+
+X:40
+T:Solway Schottische. GHW.040
+M:4/4
+L:1/8
+Q:1/2=70
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Schottische
+O:England
+A:Norfolk
+N:'Sign' at beginning. DC marked at end of B part. A part marked
+N:'second
+N:time octave higher at end.  End of bar 4 in B part missing in MS
+Z:vmp.Taz Tarry
+K:F
+A>B|c>Bd>c A>FE>F|B>AG>D G3 F|\
+E>FG>A B>ce>d|c>=Bc>d "^A>B in ms"A3B|!
+c>=Bd>c A>FE>F|B>AG>D G3 F|E>FG>A c>Bd>c|1F2F2F2:|2f2f2f2|!
+K:C
+|:z2|G>AG>^F G2 e>c|f2 A2 A3 B|d>cB>A c>BA>G|B>AG>F "^NB"A>GE>F|!
+G>AG>^F G2 e>c|A>^GA>B A2 f>d|\
+B>^AB>d B>G=A>B|1 c2c2c2 z2:|2"^DC"2c2c2c2||!
+|:G2E2 c2G2|e>dc>A B2A2|f>ed>G e>dc>B|A>Bc>e d>cB>A|!
+G2E2c2G2|e>dc>G B2A2|f>ed>c B>GA>B|c2c2c2:|
+
+X:41
+T:Haywards Schottische. GHW.041
+M:4/4
+L:1/8
+Q:1/2=70
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Schottische
+O:England
+A:Norfolk
+N:Pause mark at end of A
+Z:vmp.Taz Tarry
+K:G
+B>cB>A G z d2|e>fg>e d3 B|c2 a>c B2 g>B|A>BA>^G A z d2|!
+B>cB>A G z d2|e>fg>e d3 B|c2 a>c B2 g>B|A>cB>A HG3 z:|!
+|:A2A2 B3 A|FAde f3 g|fe^de B3 e|ede>d A3 A|!
+A2A2 B3 A|FAde f3 g|fe^de A^cfe|1 d2d2d2:|2 d2 c6||!
+K:C
+e2e2 f3e|ed^cd A3 A|c>BA>B d2 dd|e>dc>d e2 A2|!
+e2e2 f3e|ed^cd A3c|c>BA>G F>Ge>d|c2c2c2z2|]
+
+X:42
+T:Excelsior Schottische. GHW.042
+M:2/4
+L:1/8
+Q:1/2=70
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Schottische
+O:England
+A:Norfolk
+N:C part key signature of G added as implied by notation
+Z:vmp.Taz Tarry
+K:D
+a>^g|b2a2f2 f>e|g2f2d2 c>B|A>^G A>c e2 c>B|A>^G A>c f2 a>^g|!
+b2a2f2 f>f|g2f2d2 c>B|A>B c>d e>f f>e|d2d2d2:|!
+|:c>d|e>d e>c A2 A>G|F>A d>f a2 g>f|e>g f>e d>f e>d|c>e d>B A2 F>G|!
+A>^G A>B f2 d>c|B>G B>d g2 f>e|d>f e>d c>A B>c|d2d2d2:|!
+K:G
+|:B>c|d>e d>^c d2 d>e|d2 b2 f2 a>g|f2 c2 f3 e|d>e d>B G2 B>c|!
+d>e d>^c d2 g>f|e>f e>d e2 a>g|f>e d>c B>d c>A|G2G2G2|]
+
+X:43
+T:Schottische. GHW.043
+M:2/4
+L:1/16
+Q:1/4=70
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Schottische
+O:England
+A:Norfolk
+N:Pause mark at end of A part. Last of B written as three crotchets ,
+N:crothcet rest in MS. Transcribed as quavers to fit time signature
+Z:vmp.Taz Tarry
+K:D
+f2A2d2A2|B2A2 A^GAB|c2A2 Acef|e2d2 dcde|!
+f2A2d2A2|B2A2 A^GAB|c2A2 Acef|e2d2d2:|!
+|:(gf)(fe) e2d2|DEFG (B2A2)|gfe2 Ace2|dcde f2a2|!
+(gf)(fe) e2d2|DEFG B2A2|gfe2 Ace2|d2d2d2z2:|!
+K:A
+|:e|e2c2 Acea|g2f2d2 z d|d2B2 GBdf|f2e2c2 z e|!
+e2c2 Acea|g2f2d2 z d|d2B2 GBfe|A2A2A2z2:|
+
+X:44
+T:White Cockade Country Dance. GHW.044
+M:2/4
+L:1/16
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Scots Measure
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:G
+(GA)|B2B2 cBAG|B2B2 B2g2|d2B2 cBAG|FGAB A2GA|!
+B2B2 cBAG|B2d2 g2ga|bagf agfe|d2B2B2:|!
+(Bc)|d2B2g2B2|d2d2 d2(Bc)|d2B2 g2(fg)|a2A2 A2(GA)|!
+B2B2 cBAG|B2d2 g2(ga)|bagf agfe|d2B2B2:|
+
+X:45
+T:Bric-a-Brac Schottische. GHW.045
+M:2/4
+L:1/8
+Q:1/2=70
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Schottische
+O:England
+A:Norfolk
+N:Last note of 6th. nar is probably d, but has f# also marked. Last 16
+N:bars marked TRIO at star
+Z:vmp.Taz Tarry
+K:D
+A>df>e d>cd>B|A>^GA>B A2 d2|c>eg>f e>^de>A|B>cd>e f4|!
+A>df>e d>cd>B|A>^GA>B A2 d2|^g>fe>d F>^Gc>B|A2 g2g2g2|!
+A>df>e d>cd>B|A>^GA>B A2 d2|c>eg>f e>^de>A|B>cd>e f4|!
+A>df>e d>cd>B|A>^GA>B A2 d2|^A>B=a>g ^G>A=g>f|e2 a2 d2 z2||!
+|:d2 d>c B>^AB>F|G2 B2 F4|F2 ^A>c g>fe>f|d>ec>d B4|!
+d2 d>c B>^AB>F|G2 B2 F4|B2 B>c d>Bc>^A|B2d2B2z2:|!
+A>df>e d>cd>B|A>^GA>B A2 d2|c>eg>f e>^de>A|B>cd>e f4|!
+A>df>e d>cd>B|A>^GA>B A2 d2|^A>B=a>g ^G>A=g>f|e2 a2 d2 z2||!
+K:G
+"TRIO"d3 B/G/ g3 d|e3 c/G/ g3 e|d3 B/G/ B3 G|A3 F/G/ d3 D|!
+d3 B/G/ g3 d|_e3 c/G/ g3 e|d3 B/G/ d3 c|B>GA>F G2 z2:|!
+K:D
+A>df>e d>cd>B|A>^GA>B A2 d2|c>eg>f e>^de>A|B>cd>e f4|!
+A>df>e d>cd>B|A>^GA>B A2 f2|a>gf>e d>A^G>A|f2e2 d2 z2|]
+
+X:46
+T:Mountain Belle Schottische. GHW.046
+M:2/4
+L:1/8
+Q:1/4=70
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Schottische
+O:England
+A:Norfolk
+N:Sign at start, DC sign at end of B part
+D:New Victory Band
+Z:vmp.Taz Tarry
+K:F
+((3c/d/e/)|fAc d/c/|BEG (g/a/)|b3/4a/4g3/4f/4 e3/4d/4c3/4B/4|\
+A3/4B/4c3/4d/4 c ((3c/d/e/)|!
+fAc (d/c/)|BEG (g/a/)|b3/4a/4g3/4f/4 e3/4c/4d3/4e/4|\
+fff ((3c/d/e/)|!
+fAc (d/c/)|BEG (g/a/)|b3/4a/4g3/4f/4 e3/4d/4c3/4B/4|\
+A3/4B/4c3/4d/4 c ((3c/d/e/)|!
+fAc d/c/|BEG (g/a/)|b3/4a/4g3/4f/4 e3/4c/4d3/4e/4|fff ||!
+K:C
+eg e(d/c/)|ba f2|ba fe/f/|ag e2|eg ed/c/|ba f2|ba de/d/|cec z|!
+eg e(d/c/)|ba f2|ba f(e/f/)|ba e2|eg e(d/c/)|ba f2|ba d(e/d/)|\
+"^DC"cec||!
+K:Bb
+(F/E/)|DF B>c|BA c2|gc gc|gf d2|DF B>c|BA c2|gc gc|Bbb (F/E/)|!
+DF B>c|BA c2|gc gc|(gf) d2|DF B>c|BA c2|gc gc|Bbb|]
+
+X:47
+T:Lawn Tennis Schottische,The. GHW.047
+M:4/4
+L:1/8
+Q:1/2=70
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Schottische
+O:England
+A:Norfolk
+N:Sign at start, Fine at end of A part, DC at end of B part,  Trio at
+N:start of C part. DC and Sign at end of 2 time bar of C part
+Z:vmp.Taz Tarry
+K:G
+D>BA>G (F2d2)|E>cB>A D2 z2|A>BA>^G (A2 d2)|d>^cB>c d2 z2|!
+D>BA>G (F2d2)|E>cB>A D2 z2|B>cB>A d>ed>c|B2A2G4:|!
+|:B>cB>A (B2F2)|A>GF>G E2 z2|d>ed>^c (d2B2)|A2 ^c2 d4|!
+g>ag>f (e2B2)|e>fe>dc2 z2|A>Bc>d c>BA>G|E2F2 G4:|!
+K:D
+"^TRIO"(3AAA B2 (3AAA E2|(3AAA B2 (3AAA F2|\
+A>^GA>B (c2d2)|1 e2f2e2a2:|2f2e2d4|]
+
+X:48
+T:Spring Blossom Schottische,The. GHW.048
+M:2/4
+L:1/16
+Q:1/2=70
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Schottishe
+O:England
+A:Norfolk
+N:D part marked Trio. F part marked DC with a sign at end. G part marked
+N:Coda. Repeats and double bar lines assumed for first and second time
+N:bars in Coda..TT..May not fit on one page!!CGP
+Z:vmp.Taz Tarry
+K:F
+F>Ac>f e2d2|E>GB>e d2c2|((3cdc) =B>c d2_B2|((3BcB) A>B d>cA2|!
+F>Ac>f e2d2|E>GB>e d2c2|((3cdc) =B>c d2_B2|A>Gd>c F2 z2:|!
+K:C
+|:G2e2 F2d2|E2c2 a>^ga>b|a2g2 g>^fg>a|g2e2 c4|!
+G2e2 F2d2|E2c2 a>^ga>b|a2g2 e3d|c2c2 c2 z2:|!
+K:F
+|:F>Ac>f e2d2|E>GB>e d2c2|((3cdc) =B>c d2_B2|((3BcB) A>B d>cA2|!
+F>Ac>f e2d2|E>GB>e d2c2|((3cdc)  =B>c d2_B2|A>Gd>c F2 z2:|!
+K:Bb
+|:"^TRIO"B>AB>d c3B|A2G2 e3d|d3c g3f|gfdB F4|!
+B>AB>d c3B|A2G2 e3d|d>cg>f e>cG>A|B2[b2B2][b2B2] z2:|!
+K:F
+|:{FAc}f2f2 g>fe>d|(c4c)>cd>c|c2(B2 B)>Be>d|=B4 c2z2|!
+{FAc}f2f2 g>fe>d|c2f2 f2 z2|E4 {GB} d2c2|F2f2f2 z2:|!
+K:Bb
+|:B>AB>d c3B|A2G2 e3d|d2c2 g3f|gfdB F4|!
+B>AB>d c3B|A2G2 e3d|d>cg>f e>cG>A|"^DC"B2B2B2 z2:|!
+K:F
+|:"^CODA"F>Ac>f e2d2|E>GB>e d2c2|((3cdc) =B>c d3_B|1\
+((3BcB) A>B d>cA2:|2A>Gd>cF4||!
+|:c>cd>c c2=B2|B>Bc>B B2A2|f>fe>d d2c2|1c>cd>c A4:|2c>cd>c F3e||!
+f3e f3e|f3f f2f2|f2 z2 a2 z2|F8|]
+
+X:49
+T:Pretty Martha Schottische. GHW.049
+M:4/4
+L:1/8
+Q:1/2=70
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Schottische
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:D
+F>G|A>d f2 e>d B2|A>^GB>A FA D2|D>EG>A A>dg>c|e>dc>B A>GF>G|!
+A>d f2 e>d B2|A>^GB>A FA D2|C>EG>A c>eg>c|d2f2d2:|!
+K:A
+|:c>d|e2A2c2E2|A>GG>A B>cd>e|f2B2d2G2|B>Ac>f e2 (3(cd^d)|!
+e2A2c2E2|A>GG>A B>cd>e|(3(fed) (3(cBA) G>F c>B| A2 c2 A2:|!
+K:G
+|:d>c|d2g2B2d2|e>dd>c B>c d2|d>cc>B AB c2|c>BB>A G>AB>c|!
+d2g2B2d2|e>dd>c B>c d2|d>cc>B (3(ABc) (3(def)|g2g2g2:|
+
+X:50
+T:Hollyhock Schottische. GHW.050
+M:4/4
+L:1/8
+Q:1/4=70
+C:Edmund Forman
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Schottische
+O:England
+A:Norfolk
+N:Triplets not marked as such in MS. I've marked them in my transcription
+Z:vmp.Taz Tarry
+K:C
+e>Bd>c (3BcB A2|f>Ae>d (3cdc B2|b>ag>^f =f>dA>B| (3ABA G2 E2 (3EGc|!
+e>Bd>c (3BcB A2|f>Ae>d (3cdc B2|b>ag>^f =f>dA>B|1\
+d2{ed}c>Bc2 (3EGc:|2d2 {ed}c>B c2 z2||!
+K:G
+B>cd>e d>B g2|f>ec>e f2 e2|A2A>B c>BA>c|f>ed>c B2z2|!
+B>cd>e d>B g2|f>eA>c b2a2|af b>a a>gf>e|d2 e>d a>f (3dec|!
+B>cd>e d>B g2|f>ec>e (f2 e2)|A2A>B c>de>f|a>gf>e d3 z|!
+B>AB>c d>e d2| e>fg>a b>c' b2|a>gf>e d>Bd>b|a>e f>d g2 z2|]
+
+X:51
+T:Waltz,Country Dance. GHW.051
+M:3/4
+L:1/4
+Q:3/4=50
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Waltz
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:G
+d/|g/z/B/z/d/z/|(g2f)|(fe)e|(e2d)|d/z/F/z/A/z/|\
+(d2c)|(cB)B|(B2d)|!
+|g/z/B/z/d/z/|(g2f)|(fe)e|(ea)g|(f>^e) f|(db)a|(ag)g|g2:|!
+|:d|(g3|g)Bd|(G3|G)FG|(A3|A)Bc|e2d|B2d|!
+(g3|g)Bd|G3|GFG|(A2d)|(cf)>e|(ed)d|d2:|
+
+X:52
+T:Blue Rhine Waltz. GHW.052
+M:3/4
+L:1/4
+Q:3/4=50
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Waltz
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:C
+G|(e2e/f/)|(edc)|(G3|G)zG|(e2e/f/)|(edc)|(A3|A)zA|!
+(f2f/g/)|(fed)|(a3|a)z(g/a/)|(gag)|(fAB)|(c3|c)z:|!
+|:G|(g>g)g|(f/e/ed)|(c>c) c|(c/B/AG)|(d>d)d|\
+(d/e/d)G|(c/B/c)d|(e2G)|!
+(g>g)g|(f/e/ed)|(c>c) c|(c/B/AG)|(A/B/cd)|\
+(e/f/ga)|(g/a/g/f/e/d/)|Hc2:|
+
+X:53
+T:Little Annie Rooney. GHW.053
+M:3/4
+L:1/4
+Q:3/4=50
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Waltz
+O:England
+A:Norfolk
+N:Chorus written at start of B music
+Z:vmp.Taz Tarry
+K:C
+e|e2a|g2e|ed2|c2z|f2a|g2e|f2e|d2z|!
+ea2|g2e|e2d|c2e|dc'2|b2a|a3|g2z|!
+a2c'|g2e|(age)|g2e|f2a|g2e|(ag)e|d2d|!
+e2a|g2e|e2d|c2e|dc'2|(b2a)|a3|g2z||!
+"^CHORUS"g3|c3|g3|c3|c'3|a3|(g3|g2)z|!
+a3|f3|g(e2|e2)z|e3|c3|(d3|d2)z|g3|e3|d(c2|c2)z|!
+g(c'2|c'3)|b(a2|a2)z|gg2|a2b|c'(g2|g2)a|f3|d3|c3|]
+
+X:54
+T:Kirks Hornpipe. GHW.054
+T:West End,The,aka. GHW.054
+M:2/4
+L:1/8
+Q:1/2=90
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Hornpipe
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:D
+(AG)|FGAF D2d2|cdec A2 f2|gfed B2 (ed)|c2A2A2 (AG)|!
+FGAF D2d2|cdec A2 f2|gfed cdce|d2d2d2:|!
+|:(fg)|afdf a2a2|gece g2g2|fedc d2 (ed)|c2A2A2 (fg)|!
+afdf a2a2|gece g2g2|fedc Bdce|d2d2d2:|
+
+X:55
+T:Mairs Hornpipe. GHW.055
+M:2/4
+L:1/8
+Q:1/2=90
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Hornpipe
+O:England
+A:Norfolk
+N:First bar written gfge in MS - transcribed as afge to match fifth bar
+Z:vmp.Taz Tarry
+K:D
+(fg)|afge dfed|cdec A3 G|FAdf gfed|(ce)AA A2 (fg)|!
+afge dfed|cdec A3 G|FAdf gecA|d2d2d2:|!
+|:(cd)|(eA)AA (fA)AA|gAAA A3f|(gf)ed (dc)BA|GBBB B3A|!
+Fddd Aeee|(df)ff (eg)gg|(fg)af (bg)ec|d2d2d2:|
+
+X:56
+T:Harvest Home Hornpipe. GHW.056
+M:2/4
+L:1/8
+Q:1/2=80
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Hornpipe
+O:England
+A:Norfolk
+N:Last note of penultimate bar and last bar missing from photocopy.  I've
+N:'guessed' these but please check with original
+Z:vmp.Taz Tarry
+K:D
+F>E|D>AF>A D>AF>A|d>ef>e d>cB>A|e>Af>A g>Af>A|edcB AGFE|!
+D>AF>A D>AF>A|d>ef>e d>cB>A|e>Af>A g>Ae>c|d2f2d2:|!
+|:cd|eAAA fAAA|gAAA fAAA|eAfA gAfA|edcB AGFE|!
+Dddd c>de>c|Dddd c>de>c|d>fa>f b>ge>c|d2f2d2:|
+
+X:57
+T:Yarmouth Hornpipe. GHW.057
+T:Rickett's Hp.,aka. GHW.057
+T:Manchester Hp,.aka. GHW.057
+M:2/4
+L:1/8
+Q:1/2=90
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Hornpipe
+O:England
+A:Norfolk
+N:4th bar of B part - last note crotchet A in MS transcribed as minim A
+N:to correspond with A music
+Z:vmp.Taz Tarry
+K:D
+A2|dcdA FAdf|edcB A2 g2|fafd bgec|dfec A4|!
+dcdA FAdf|edcB A2 g2|fafd bgec|d2d2d2:|!
+|:(fg)|afdB G2 fa|bgec A2 (fg)|afdf gece|dfec "^cr"A4|!
+dcdA FAdf|edcB A2 g2|fafd bgec|d2d2d2:|
+
+X:58
+T:Devil Among the tailors Country Dance. GHW.058
+M:2/4
+L:1/8
+Q:1/2=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Reel
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:A
+eaga eaga|eaga fedc|dfBf dfBf|dfBf gfed|!
+eaga eaga|eaga fedc|fgaf ecBA|E2G2 A2 z2:|!
+|:ceAe ceAe|ceAe fedc|dfBf dfBf|dfBf gfed|!
+ceAe ceAe|ceAe fedc|fgaf ecBA|E2G2 A2 z2:|
+
+X:59
+T:Fishers Hornpipe. GHW.059
+M:4/4
+L:1/8
+Q:1/2=90
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Hornpipe
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:D
+((3ABc)|dAFA GBAG|FAFA GBAG|FDFD GEGE|FDFD E2 ((3ABc)|!
+dAFA GBAG|FAFA GBAG|FAdf fdec|d2d2d2:|!
+|:(cd)|ecAc ecge|fdAd fdfd|ecAc ecgf|edcB A2A2|!
+BGDG BGdB|AFDF AFdA|BdcB AGFE|d2d2d2:|
+
+X:60
+T:Goumaldies Hornpipe. GHW.060
+T:Grimaldi's Hp,aka. GHW.060
+T:Alexander's Hp,aka. GHW.060
+M:2/4
+L:1/8
+Q:1/2=90
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Hornpipe
+O:England
+A:Norfolk
+N:Transcribers Note: See same tune later in the MS.
+Z:vmp.Taz Tarry
+K:D
+(3(ABc)|(dA).F.A (DF).A.d|fdAF E2 (ef)|\
+(gf).g.e (fe).f.d|(ec).d.B A2 (fe)|!
+(dA).F.A (DF).A.d|(fd).A.F E2 ef|(ge).b.g (fg).e.c|d2d2d2:|!
+|:(AG)|(FA).d.A (FA).d.A|(GB).d.B (GB).d.B|\
+(Ac).e.c (Ac).e.c|(df).a.f (ge).c.A|!
+(FA).d.A (FA).d.A|(GB).d.B (GB).d.B|(Ac).e.f (ga).c.e|d2d2d2:|
+
+X:61
+T:Beckels Hornpipe. GHW.061
+T:?aka. GHW.061
+M:2/4
+L:1/8
+Q:1/2=90
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Hornpipe
+O:England
+A:Norfolk
+N:First note of first basr transcribed as a - crossbar on note missing on
+N:M
+Z:vmp.Taz Tarry
+K:A
+((3efg)|(ae)(ce) (Ac)(ea)|(fd)BG A2 (Bc)|\
+(de).f.e (dc).B.A|G2 E2E2 ((3efg)|!
+(ae).c.e (Ac).e.a|(fd).B.G A2 (Bc)|(df).e.d (cB).A.G|A2A2A2:|!
+|:(ed)|ceAe ceAe|dfBf dfBf|ceAe ceAe|GBEB GBEB|!
+ceAe ceAe|dfBf dfBf|(ea).g.f (ed)cB|A2A2A2:|
+
+X:62
+T:Tom Jolly's Hornpipe. GHW.062
+T:Liverpool Hp.,aka. GHW.062
+M:2/4
+L:1/8
+Q:1/2=90
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Hornpipe
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:D
+G2|(FD).F.A (df).a.f|(gf).e.d (dc).B.A|(GB).G.B (FA).F.A|\
+(GB).A.G (GF).E.D|!
+(FD).F.A (df).a.f|(ge).f.e (dc).B.A|f2 (fg) (af).d.f|(ge).c.e d2:|!
+|:A2|(df).d.f (ce).c.e|(df).e.d (dc).B.A|(GB).G.B (FA).F.A|\
+(GB).A.G (GF).E.D|!
+(FD).F.A (df).a.f|(ge).f.e (dc).B.A|f2 (fg) (af).d.f|(ge).c.e d2:|
+
+X:63
+T:Jacksons Hornpipe. GHW.063
+M:2/4
+L:1/8
+Q:1/2=90
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Hornpipe
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:G
+(BA)|G2 (GA) BGBd|e2 (ed) (ef)ge|\
+dBge d{B/}c{A/}B{G/}A|E2 (A2A2) BA|!
+G2 (GA) BGBd|e2 (ed) efge|dBge d{B/}c{A/}B{G/}A|d2 G2G2:|!
+|:((3def)|(gd)Bd (gd)Bd|efge d{B/}c{A/}B{G/}A|\
+cAce dcBA|E2 (A2A2) ((3def)|!
+(gd)Bd (gd)Bd|efge dcBA|(cA).c.e d{B/}c{A/}B{G/}A|D2 G2G2:|
+
+X:64
+T:Rapers Hornpipe. GHW.064
+M:2/4
+L:1/8
+Q:1/2=90
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Hornpipe
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:G
+dc|(BA).B.A (dg).d.B|(cB).A.G FGAc|\
+(BA)Bd gabg|(3(agf) (3(gfe) d2 dc|!
+(BA)BA (dg)dB|(cB)AG (FG)Ac|(Bd)BG (Ec)AF|G2G2G2:|!
+|:AG|(FG)AB (cB)AG|(GA)Bc (dB)GB|\
+(cd)ed (cB)AG|(3(AGF) (3(GFE) D2 (dc)|!
+(BA)BA (dg)dB|(cB)AG (FG)Ac|(Bd)BG EcAF|G2G2G2:|
+
+X:65
+T:Watson's Hornpipe. GHW.065
+T:Hornpipe. GHW.065
+M:2/4
+L:1/8
+Q:1/2=90
+C:Untitled in MS
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Hornpipe
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:D
+AGFG A2 d2|BGde dcBA|defe B2 (cd)|efge dcBA|!
+AGFG A2 d2|BGde dcBA|defe B2 g2|fdec d4:|!
+|:f2 (df) agfe|e2 (ce) aedc|defd B2 cd| efge dcBA|!
+AGFG A2 d2|BGde dcBA|defe B2 g2|fdec d4:|
+
+X:66
+T:Bang Up Hornpipe. GHW.066
+M:2/4
+L:1/8
+Q:1/2=90
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Hornpipe
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:D
+dc|d2D2D2 fd|e2E2E2 ef|gfed cdef|ec A2A2 dc|!
+d2D2D2 fd|e2E2E2 ef|gfed cdef|d2d2d2:|!
+|:AG|FAFA dAGF|GBGB ecBA|FAFA dAGF|G2E2E2 AG|!
+FAFA dAGF|GBGB ecBA|FAdB cdef|d2d2d2:|
+
+X:67
+T:Swanton Abbott Hornpipe,aka. GHW.067
+M:4/4
+L:1/8
+Q:1/2=90
+C:untitled
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Hornpipe
+O:England
+A:Norfolk
+N:Untitled in MS..My Title... CGP
+Z:vmp.Taz Tarry
+K:F
+cB|ABcA F2 fg|agaf d2 cB|AB c2 dcBA|A2G2G2 cB|!
+ABcA F2 fg|agaf d2 cB|AB c2 agfe|f2F2F2:|!
+|:de|fgaf ge c2|fgaf ge c2|cABc dcBA|A2G2G2 cB|!
+ABcA F2 fg|agbf d2 cB|AB c2 agfe|f2F2F2:|
+
+X:68
+T:Haste to the Wedding. GHW.068
+M:6/8
+L:1/8
+Q:3/8=120
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Jig
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:C
+G|GEG (Gg)e|d>cd ecA|GEG (Gc)>E|EDD D2G|!
+GEF Gge|d>cd ecA|GEG (Gg)f|ecc c2||!
+g|geg geg|afa afa|geg gfe|edd d2 (e/f/)|!
+g3e3|d>cd ecA|GEF (Gg)e|ecc c2|]
+
+X:69
+T:Off She Goes. GHW.069
+M:6/8
+L:1/8
+Q:3/8=120
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Jig
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:D
+A|F2A G2B|ABc d3|F2AG2B|AFD E3|!
+F2AG2B|ABc d2e|f2d({ef}g2)f|edc d2:|!
+|:g|(f/g/a)f d2f|(e/f/g)e c2 e|(f/g/a)fd2f|edc d2 g|!
+(f/g/a)f d2f|(e/f/g)e c2 e|d2f a2 f|gec d2:|
+
+X:70
+T:Touch the String. GHW.070
+T:?aka GHW.070
+M:2/4
+L:1/8
+Q:1/2=80
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Country-dance
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:D
+d|AFFD|CEEG|FDFA|d2cB|AFFD|CEEG|FDAF|D2D F|!
+BcdB|ceAA|BcdB|{cd}e2 AA|BcdB|cdec|{de}fdc>B|d2c>B|!
+AFFD|CEEG|FDFA|d2cB|AFFD|CEEG|FDAF|D2D|]
+
+X:71
+T:Collage Hornpipe. GHW.070
+M:4/4
+L:1/8
+Q:1/2=90
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Hornpipe
+O:England
+A:Norfolk
+N:First four quavers of 5th. bar of B music transcribed as (ba).g.f to
+N:match same phrase in A music
+Z:vmp.Taz Tarry
+K:Bb
+(BA)|B2B,2B,2(FE)|DFBA BdcB|c2C2C2 (cB)|(Ac) f2f2 (ga)|!
+(ba).g.f (gf).e.d|(ed).c.B BAGF |GBAc Bdce|d2B2B2:|!
+|:(FE)|(DF).B.F (DF).B.F|G2E2E2 GF|(=EG).c.G (=EG).c.G|A2F2F2 (ga)|!
+"NB"(ba).g.f (gf).e.d|(ed).c.B (BA).G.F|GBAc Bdce|d2B2B2:|
+
+X:72
+T:Ewan's Hornpipe. GHW.072
+T:Navvie on the Line,aka. GHW.072
+M:2/4
+L:1/8
+Q:1/2=90
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Hornpipe
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:G
+(Bc)|dgfe dcBA|(GB)DG B2 AG|(FA)DF A2 (GF)|(GB)DG B2 (Bc)|!
+dgfe dcBA|(GB)DG B2 AG|FGAB cdef|g2g2g2:|!
+|:(ag)|(fa)df a2 gf|(gb)dg b2 ag|(fa)df a2 gf|(gb)dg b2 Bc|!
+dgfe dcBA|(GB)DG B2 AG|FGAB cdef|g2g2g2:|
+
+X:73
+T:Kays Hornpipe. GHW.073
+T:?Hp,aka. GHW.073
+M:2/4
+L:1/8
+Q:1/2=80
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Hornpipe
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:D
+(FE)|D2D2 D>FE>G|F2F2 F>AG>B|\
+A>dc>B A>GF>E|D>FA>F B>GE>C|!
+D2D2 D>FE>G|E2E2 E>GF>A|A>dc>B A>GF>E|D2D2D2:|!
+|:A2|F>Ad>A F>Ad>A|G>Bd>B G>Bd>B|\
+A>ce>c A>ce>c|d>fe>d c>BA>G|!
+F>Ad>A F>Ad>A|G>Bd>B G>Bd>B|\
+A>ce>c A>ce>c|1 e>dc>B A>GF>E:|2d2[d2F2][d2F2]|]
+
+X:74
+T:Swiss Hornpipe,The. GHW..074
+M:2/4
+L:1/8
+Q:1/2=80
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Hornpipe
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:F
+((3CDE)|F>EF>G F>Ac>A|dcAc FAGF|EGce dfBd|cBcd cBAG|!
+F>EF>G F>Ac>A|fagf edcB|(Ac)(FA) (GB)(EG)|F2F2F2:|!
+K:C
+|:(GF)|EGce dfBd|cBcd ecGc|fedf edce|((3ded) ((3cBA) G2 (GF)|!
+(EGce) (FAdf)|EGce dcBA|Gagf edcB|d2c2c2:|
+
+X:75
+T:Victor Bowden's Hornpipe,aka. GHW.075
+M:2/4
+L:1/16
+Q:1/4=80
+C:untitled
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Hornpipe
+O:England
+A:Norfolk
+N:Untitled in MS, named after Victor Bowden of Kemsing,Kent who brought
+N:the MS to light, and kindly donated it to George Frampton.CGP
+Z:vmp.Taz Tarry
+K:D
+FG|AFDF AFAd|BdAd fedc|dfAf gfed|((3edc) ((3dcB) A2(FG)|!
+AFDF AFAd|BdAd fedc|dfAf gfed|d2d2d2:|!
+|:(de)|(fd)d2 BdAd|FAdA (fd)d2|eAfA gAfA|((3edc) ((3dcB) A2(de)|!
+(fd)d2 BdAd|FAdA (fd)d2|eAfA gAfA|eABc d2:|
+
+X:76
+T:Lancashire Clog Dance. GHW.076
+M:2/4
+L:1/8
+Q:1/2=70
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Hornpipe
+O:England
+A:Norfolk
+N:End of A part marked Fine
+Z:vmp.Taz Tarry
+K:D
+D2 ((3FED) A2 D2|B2 ((3dcB) A2 F2|G2 ((3BAG) F2 ((3AGF)|E>FE>D c>BA>c|!
+D2 ((3FED) A2 D2|B2 ((3dcB) A2 c2|d2 ((3cBA) G2 ((3AGF)|E2A2 D2 z2:|!
+|:B2 ((3dcB) f2B2|g2 ((3agf) e2 g2|f>gf>e d>cB>^A|B2 F>E D2 B,2|!
+B2 ((3dcB) f2 B2|e2 ((3gfe) d2 D2|G2 ((3AGF) E2 ((3GFE)|D2c2B2 z2:|
+
+X:77
+T:Miss Gaytons Hornpipe. GHW.077
+M:2/4
+L:1/8
+Q:1/2=90
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Hornpipe
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:F
+(c>B)|(A>cf>e) f2 (c>B)|(A>cf>e) f2 (c>B)|\
+(A>ag>f) (e>dc>B)|(c>eg>f) (e>dc>B)|!
+(A>cf>e) f2 (c>B)|(A>cf>e) f2 (f>e)|(d>ef>g) (e>fg>a)|(f>ef>g) f2||!
+(f>g)|(a>ga>f) g2 e2|(f>ef>d) c2 A2|(B>cd>B) (A>Bc>A)|\
+(G>FG>A) G2 (f>g)|!
+(a>ga>f) g2 e2|(f>ef>d) c2 (f>e)|(d>ef>d) (e>fg>e)|f2a2f2|]
+
+X:78
+T:Grimaldies Hornpipe. GHW.078
+T:Alexander's Hp,aka. GHW.078
+M:2/4
+L:1/8
+Q:1/2=90
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Hornpipe
+O:England
+A:Norfolk
+N:Transcribers Note: Essentially the same as Tune 60 with slightly
+N:different bowing. Interesting to note that the 3rd.
+N:note of the 7th. bar - b - appears to be crossed out in both
+N:versions.TT.
+Z:vmp.Taz Tarry
+K:D
+(3ABc)|(dA).F.A (DF).A.d|(fdAF) E2 (ef)|\
+(gf)(ge) (fe).f.d|(ec).d.B A2 (fe)|!
+(dA).F.A (DF).A.d|(fd).A.F E2 ef|(ge).b.g (fg).e.c|d2d2d2:|!
+|:(AG)|(FA).d.A (FA).d.A|(GB).d.B (GB).d.B|\
+(Ac).e.c (Ac).e.c|(df).a.f (ge).c.A|!
+|(FA).d.A (FA).d.A|(GB).d.B (GB).d.B|\
+(Ac).e.g (fa).c.e|d2d2d2:|
+
+X:79
+T:Amateur Hornpipe. GHW.079
+M:2/4
+L:1/8
+Q:1/2=80
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Hornpipe
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:Bb
+F2|((3BBB) F>B D>FB>c|((3ddd) B>d F>Bd>B|\
+((3eee) A>c F>ce>c|((3aaa) a>g f>ed>c|!
+((3BBB) F>B D>FB>d|((3eee) A>c F>ce>c|\
+A>ca>g f>ec>A|"qu's"B2b2B2:|!
+|:(cB)|Acec BdFB|Acec BdFB|Acec agf=e|f=efg f2 (f_e)|!
+(db)(ca) (Bg)(Af)|(Ge)(Fd) (Ec)(DB)|Acag fecA|B2b2B2:|
+
+X:80
+T:Coltishall Slow Hornpipe,aka. GHW.080
+M:4/4
+L:1/8
+Q:1/2=70
+C:Untitled in MS
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Hornpipe
+O:England
+A:Norfolk
+N:Named by me after presumed home village of GHW..CGP.
+Z:vmp.Taz Tarry
+K:G
+((3DEF)|G>BD>G ((3B,DG) B>d|d>gb>a g>fe>d|\
+((3gag) f>e d>cc>B|((3aba) ((3gfe) ((3ded) ((3cBA)|!
+G>BD>G ((3B,DG) B>d|d>gb>a g>fe>d|\
+((3aba) ((3gfe) ((3ded) ((3cBA)|G2g2G2:|!
+|:F>G|((3AcB) ((3AGF) G>Bd>B|g>dB>G F>AF>D|\
+((3dcd) e>c d>ef>g|((3fed) ((3edc) d2 e>f|!
+g>a f>g e>f d>e|c>d B>c A>B G>A| Ffee d>cc>F|G2B2G2:|
+

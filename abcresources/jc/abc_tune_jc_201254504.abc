@@ -1,0 +1,22 @@
+X: 1789
+T: Bonaparte's Retreat
+R: hornpipe, air, "long dance"
+%S: s:7 b:28(4+4+4+4+4+4+4)
+T: claoi\.deaa\.d \.m-buonapart
+S: O'Neill's Music of Ireland p.318 #1789
+B: O'Neill's 1850 #1789
+O: Hartnett
+Z: Robert Thorpe (thorpe@skep.com)
+Z: ABCMUS 1.0
+L: 1/8
+M: C|
+K: Em
+B,2 \
+| B,>EE>F G>FE>D | E>FA>B d>^cd>e | f>de>^c d>B=c>A | B>GA>F G>E=F>D |
+| B,>EE>F G>FE>D | E>FA>B d>^cd>e | f>ed>B A>FD>F | E2E>F E2 :|
+B>^c \
+| d>^cd>e d2 (3Bcd | e>^de>f e2B>^c | d>^cd>e d2B>=c | B>GA>F G>EE2 |
+| d>^cd>e d2 (3Bcd | e>^de>f e2e>f | g>fe>g f>e^d>f | e2e>f e2e>f |
+| (~gf)g>a g>fe>g | ~(fe)f>g f>ed>f | d>^cd>e d2A>=c | B>AG>F G>E=F>D |
+| B,>EE>F G>FE>D | E>FA>B d>^cd>e | f>de>^c d>B=c>A | B>GA>F G>E =F>D |
+| B,>EE>F G>FE>D | E>FA>B d>^cd>e | f>ed>B A>FD>F | E2E>F E2 |]

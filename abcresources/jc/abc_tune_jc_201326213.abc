@@ -1,0 +1,27 @@
+X: 1
+T: Pretty Miss
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.159 "P 2"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+(cde2)c2 G4f2 | (efg2)e2 a4A2 |\
+Bcd2B2 cde2c2 | A4G2 G4 |]\
+z2 | g4g2 e4e2 | a2^g3a ^g6 |\
+(^ga3)e2 f4(ed) | c4(BA) A6 |\
+e4f2 e4(dc) | (ef)(^f3e/f/) g4e2 |\
+a2A2B2 c2f2e2 | c4B2 c4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man slip down below the 2. man, and then come up into his own place again, then the 2. wo.
+%% cast up at the same time and come down unto her own place, then the 1. wo. and 2. man do the like.
+%% The two men set and sides, and the two we. do the like at the same time, then all turn S. then right and
+%% left with your Partners till the 1. cu. come into the 2. cu. place.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

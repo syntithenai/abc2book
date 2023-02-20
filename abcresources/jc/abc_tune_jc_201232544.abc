@@ -1,0 +1,32 @@
+X: 173
+T: HONble Mrs CAMPBELL. (of Lochnell.)
+C: . MACKINTOSH
+R: Reel
+B: Glen Collection p.17 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: C
+%
+V: 1
+G |\
+c2(Gc) ECGE | c2(ec) d(DDB) | c2(AF) EGCE | FDG,G E(CCG) |
+c2(Gc) EDGE | c2(ec) d(DDB) | c2(Ac) GcEc | defd ecc ||
+G |\
+ECEG AFAc | ECFE D(G,G,F) | ECEG AFAc | BdGf e(ccG) |
+ECEG AFAc | ECFE D(G,G,F) | EGFA GBAc | Bag>f ecc |]
+%
+V: 2
+z |\
+c2[g2e2] [g2e2][g2e2] | c2[c'2g2] G2[b2g2] |\
+c2[a2f2] c2[g2e2] | G2d2 c2[g2e2] |
+c2[g2e2] [g2e2][g2e2] | c2[c'2g2] G2[b2g2] |\
+c2[c'2f2] [c'2e2][c'2g2] | [b2g2][b2g2] [c'2g2c2][c'gc] ||
+z |\
+c2[c'2g2] f2[c'2a2] | c2[c'2g2] G2[d2B2] |\
+c2[c'2g2] f2[c'2a2] | g2[d'2b2] c2[c'2g2e2] |
+c2[c'2g2] f2[c'2a2] | c2[c'2g2] G2[d2B2] |\
+[c'2c2][c'2d2] [c'2e2][c'2f2] | [b2g2][b2g2] [c'2g2c2][c'gc] |]

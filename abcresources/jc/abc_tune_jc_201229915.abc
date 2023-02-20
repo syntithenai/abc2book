@@ -1,0 +1,33 @@
+X: 13022
+T: the Mill Mill O
+%R: air, march, strathspey + jig
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.3 p.2 #2 (plus top 7+ staffs on p.3)
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Mismatched pickups fixed by adding a rest to the short ones.
+M: C
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"d>e |\
+{de}f2A2 A3d | TBABd Te2de | {de}f2A2 gfed | B4 d2 :: zA |\
+(de)(fg) {fg}a2d2 | (ba)(gf) {f}e3A | defg a>b ag |
+Tf4 a3A | (de)(fg) a2(ga) |\
+(ba)(gf) e2de | {de}f2A2 (gf)(ed) | TB4 d2 :: ze | {de}f2A2 AFAd | BABd e>fd>e |
+{de}f2A2 (a<fe>)d | B4 d2 :: zA | (de)(fg) a3b | a<f e>d {f}e3A |\
+(d/e/f) (e/f/g) (f/g/a) bd | Tf4 a3A | (d/c/d/e/) (f/e/f/)g/ afga |
+ba (3(b/a/g/) (3(a/g/f/) e>fd>e |\
+{de}f2A2 (a<f) Te>d | B4 d2 :: (d<B) | A2(d<B) (AB)(de) | (3(fag) (3(fed) Te2(d<B) |\
+A2a>d (b/a/g) (f/e/d) |
+TB4 d2 :: ze |\
+(fg)(ab) (af)(ed) | ba/b/ g/a/f/g/ Te3A |\
+.d(d/f/) .e(e/g/) (fab)d | Tf4 a3A | (B/d/c/e/) (d/f/e/g/) .f/(d/c/d/) .a/(d/c/d/) |
+"*1"(d'/c'/b/a/ g/f/e/d/) (e>f)(d>e) |\
+{de}f2A2 (gf)(ed) | B4 d2 :: [M:6/8] "_Giga"e | (fed) B2A2 | ABd efa |\
+(fed) B2A | gec d2 :|
+|: A |\
+(df/g/a) a2d | baf Te2d |\
+d(f/g/a) afd | bge a2A | (df/g/)a afa | baf efa |\
+(fed) TB2A | gec d2 :|
+%%text *1 This "slur" is squiggly in the book.

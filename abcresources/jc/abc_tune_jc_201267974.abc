@@ -1,0 +1,26 @@
+X:1
+T: The Demon Barber of Oak Hill
+N:
+C:Tune is "Balet Anglois" by J. Fischer
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 33 notes)
+K:G
+M:4/4
+L:1/16
+d4 |g8 d8 |B4 A2 B2 G4 e4 |d4 F4 G2 A2 B4 |A4 D4 D4 B4 |A4 d4 G4 ^c4 |d4 A4 g2 f2 e4 |f2 e2 d4 e4 ^c4 |d12 d4 |
+%W: A2
+% voice 1 (1 lines, 32 notes)
+g8 d8 |B4 A2 B2 G4 e4 |d4 F4 G2 A2 B4 |A4 D4 D4 B4 |A4 d4 G4 ^c4 |d4 A4 g2 f2 e4 |f2 e2 d4 e4 ^c4 |d12 d4 |
+%W: B
+% voice 1 (1 lines, 30 notes)
+A8 B2 A2 B4 |A12 A4 |B4 B4 c2 B2 c4 |B12 B4 |c4 c4 d2 c2 d4 |e2 d2 c4 d4 B4 |c2 B2 A4 B4 ^G4 |A12 c4 |
+%W: C
+% voice 1 (1 lines, 32 notes)
+D4 c4 B2 A2 B4 |A12 d2 G2 |A4 c4 B2 A2 B4 |A12 A4 |G4 B4 c2 B2 c4 |B2 c2 d4 e4 f2 g2 |b2 a2 g4 a4 f4 |g12 ||

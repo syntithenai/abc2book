@@ -1,0 +1,36 @@
+X: 1
+T: the Dumps
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.35 #66
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.36
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The first time signature looks like "2/3" or "2/5", whatever that means.
+N: Repeat signs added to indicate the dance instruction to repeat the 2nd Strain as many times as there are couples.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+d3 FED | d3 FED | d3 FED | D3 D2 |][M:9/4][L:1/4] E |: F>GA B2A d2E |
+F>GA B2A e2E | F>GA B2A d2E | F>GA B2A ["1..." d2D :|["last" d3 FED |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The Men put their Hats over their Eyes, and all lead up
+%% four Steps forward, nod, and four Steps back again, that
+%% over again :| The first Couple cross over below the
+%% second, and then below the third, and so on to the
+%% Bottom, the rest do the like to the Bottom. The second
+%% Strain play'd as many Times as there are Couples.
+%%endtext [CCDM1]
+%sep 1 1 500
+%%begintext align
+%% The men put their Hats over their Eyes, and all lead up 4. steps forward, nod, and four steps
+%% back again, that over again :| The first cu. cross over below the 2 and then below the third, and
+%% so to the bottom, the rest do the like to the bottom. The second Strain play'd as many Times as there
+%% is couple[s].
+%% [DMDfD]
+%%endtext
+%sep 1 8 500

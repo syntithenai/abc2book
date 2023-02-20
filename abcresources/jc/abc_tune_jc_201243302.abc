@@ -1,0 +1,29 @@
+X:97802
+T:Cuillins of Skye
+P:Farewell to Cramond
+C:Muriel A. Johnstone
+R:Strathspey (8x32)
+B:RSCDS D78-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:A
+V:1
+%%staves (1 2)
+[V:1] "E7"E>D|"A"C<A,C>E A>Bc>A|"D"d<FF>A "E"G/A/B/A/ G/F/E/D/|\
+[V:1]         "A"C<A,C>E A>BcA|"D"f<f "E7"e>d "A"c<A AE/D/|
+[V:1]         "A"C<A,C>E "F#m"A>Bc>A|"Bm"d<FF>A "E"G/A/B/A/ G/F/E/D/|\
+[V:1]         "A"C<A,C>E A>BcA|"D"f<f "E7"e>d "A"cA A||
+[V:1] c|"A"e<ef>e "E"d<ccB|"F#m"A<Ac>A "A"E2 EA|\
+[V:1]   "D"F<Ff>e "Bm"dcBA|"Bm"B<F "B7"B>A "E"G2 "E7"FE|
+[V:1]   "A"e<ea>g "E"feed|"F#m"c<A "D"f>e "A"e3 E|\
+[V:1]   "D"F<DF>A "Bm"d>efd|"Am"e<c "E7"B>A "A"A2|]
+%V:2
+%[V:2][B,2G,2]|   x8            |   x8                         |\
+%[V:2]            x8           |   A2      [G2E2] E2  x2   |
+%[V:2]            x8                 |    x8                         |\
+%[V:2]            x6        =G2| [A2F2]    [G2E2] E2 x||
+%[V:2] x|   x8             |     x8             |\
+%[V:2]      x8             |    x2  [F2B,2]    E2     D2|
+%[V:2]      x8            |     x2  [d2A2] [A3E3]x|\
+%[V:2]      x8              |    A2   [G2D2]    C2|]

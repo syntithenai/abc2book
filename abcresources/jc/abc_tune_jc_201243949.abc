@@ -1,0 +1,14 @@
+X: 95
+T: 95. HANG ON
+B: Sam Bayard, "Hill Country Tunes" 1944 #95
+N: Played by Irvin Yaugher Jr., Mt. Independence, PA, Oct 19, 1943. Learned from his grandfather.
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+%%slurgraces
+K: D
+"a."((3ABc) | d2dB d2dB | d2dB "b."G3A | B2d2 efed | B2A2 A2 :|
+|: ((3efg) | a2a2 f2d2 | {f}gfed B2d2 | efed efed | B2A2 A2 :|
+P: Var:
+"a."Bc || "b."G2A2 |]

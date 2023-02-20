@@ -1,0 +1,69 @@
+
+X: 1
+T: Yankee Doodle
+O: 1730
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+P: Both parts may be repeated.
+K: D
+% - - - - - - - - - -
+[| "D"dd  ef |    df "A7"eA |  "D"dd     ef |    d2 "A7"c2 \
+|  "D"dd  ef | "G"gf     ed | "A7"cA     Bc | "D"d2     d2 |]
+[| "G"B>c BA |    Bc     d2 |  "D"A>B    AG |    F2     A2 \
+|  "G"B>c BA |    Bc     dB |  "D"Ad "A7"ce | "D"d2     d2 |]
+% - - - - - - - - - -
+%%begintext align
+%% Originated in England as a song mocking Americans,  who  adopted  it  as  a
+%% military  march  to  taunt  the  British  soldiers  during  the Revolution.
+%% Variants of the tune are much older than the Revolutionary-era song.
+%% The parts are often repeated in instrumental versions, but not for the song.
+%% Also in some old collections in jig time, as Kitty Fisher's Jig.
+%%endtext
+
+%%sep 1 1 400
+
+
+X: 1
+T: Yanky Doodle variations
+N: parts numbered in the original
+O: Aird 1778
+Z: Jack Campin, July 1999 (Chords by John Chambers)
+B: Aird vol. 1, Glasgow, 1778
+M: 2/4
+L: 1/8
+K: D
+[|\
+d2d2 e2f2 | d2d2 e2c2 | d2d2 e2f2 | d4 c4 |\
+d2d2 e2f2 | d2d2 e2c2 | A2A2 B2c2 | d4 d4 |]
+[|\
+d4 B2G2 | B2G2 B4 | =c4 A2G2 | F2G2 A4 |\
+d4 B2G2 | B2G2 =c4 | A2B2 ^c2A2 | d4 d4 |]
+%%vskip 10pt
+"2"[|\
+d2f2 e2g2 | f2d2 e2c2 | d2f2 e2g2 | f4 e2d2 |\
+d2f2 e2g2 | f2d2 e2c2 | A2A2 B2c2 | d4 d4 |]
+[|\
+d4 B2G2 | B2d2 =c2B2 | A2B2 A2G2 | F2G2 A2B2 |\
+=c2d2 c2A2 | B2d2 =c2A2 | A2B2 ^c2A2 | d4 d2>g2 |]
+%%vskip 10pt
+"3"[|\
+f2d2 e2c2 | d2B2 A2g2 | f2d2 e2f2 | B4 A2g2 |\
+f2d2 e2c2 | d2B2 A2F2 | A4 B2c2 | d4 d2g2 |]
+[|\
+F2A2 A2d2 | B2A2 A2G2 | F2A2 A2d2 | B4 A2G2 |\
+F2A2 A2d2 | B2A2 A2F2 | A4 B2c2 | d4 d4 |]
+%%vskip 10pt
+"4"[|\
+f2a2 e2g2 | f2d2 e2c2 | f2a2 e2g2 | f4 e2d2 |\
+f2a2 e2g2 | f2d2 e2c2 | A2A2 B2c2 | d4 d4 |]
+[|\
+(dcde) d2A2 | B2A2 A2F2 | (dcde) d2A2 | B4 A4 |\
+(dcde) d2A2 | B2A2 A2F2 | A4 B2c2 | d4 d4 |]
+%%vskip 10pt
+"5"[|\
+a4 a2f2 | g2f2 e2d2 | a4 a2g2 | f4 e4 |\
+a4 a2f2 | g2f2 e2f2 | A4 B2c2 | d4 d4 |]
+[|\
+(BABc) B2d2 | (AGAB) A2d2 | (BABc) B2d2 | B2A2 G2F2 |\
+(BABc) B2d2 | (AGAB) A2d2 | A4 B2c2 | d4 d4 |]

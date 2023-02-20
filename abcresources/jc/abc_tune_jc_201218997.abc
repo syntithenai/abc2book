@@ -1,0 +1,37 @@
+X: 1
+T: Cotillon I.    la Pantomime.
+%R: reel, march
+B: J. Longman "XXIV New Cotillons or French Dances", London 1770 #1
+F: http://http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-longmans 2015-2-22
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 1 is formatted for a small scale.
+V: 1 clef=treble
+|:\
+G2g2 G4 | (AB)(cA) B2G2 | G2g2 G4 | (AB)(cA) B4 |\
+g2f2 e2d2 | (^cd)(ec) A4 | (B^c)(dB) (cd)(ec) | d2d2 d4 :|
+|:\
+d2d'2 d4 | (ed)(cB) c2A2 | c2c'2 c4 | (dc)(BA) B4 |\
+g2f2 e2^d2 | (eg)(fe) ^d2B2 | (eB)(cA) G2TF2 | E2E2 E4 |
+B2g2 G4 | (AB)(cA) B2G2 | G2g2 G4 | (AB)(cA) B4 |\
+e2d2 c2B2 | (cd)(ef) g2c'2 | (ba)(gb) (ag)(fa) | g4 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+g4 b4 | d'2d2 G4 | g4 b4 | d'2d2 G4 |\
+g6 e2 | a6 f2 | g4 a4 | d'2d2 d4 :|
+|:\
+b4 ^g2e2 | a2e2 A4 | a4 f2d2 | g2d2 G4 |\
+e6 f2 | g2a2 b2a2 | g2a2 b2B2 | e2E2 E4 |
+g4 b4 | d'2d2 G4 | g4 b4 | d'2d2 g4 |\
+c'2b2 a2g2 | a4 b2c'2 | d'4 d4 | g2G2 G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   All round: four lead up, fall back, Ballance, four round: the other four do
+%% the same: Every Gentleman turn his Partner into her Place.
+%%endtext
+%%text See the title page for the set of 9 "changes" for this dance.

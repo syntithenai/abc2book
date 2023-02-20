@@ -1,0 +1,23 @@
+X: 2264
+T: Cuttymun & Treeladle,*   a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.2 p.26 #4 (and top 2 staffs of p.27)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+{c}e2ea e2cA | {c}e2e=g d2BG | {c}e2ea ceae | =gbeg d2BG :| e2TcA eAcA | e2~cA d=GBG |
+e2~cA eAcA | =gbeg d2BG || e2~cA eAcA | e2~cA d=GBG | e2cA ceae | =gbeg d2BG |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+a2a2 a2a2 | a2a2 =g2g2 | a2a2 a2a2 | b2=c'2 b2=g2 :| a2a2 a2a2 | a2a2 =g2g2 |
+a2a2 a2a2 | b2=c'2 =g2g2 || a2a2 a2a2 | a2a2 =g2g2 | a2a2 a2a2 | b2=c'2 =g2g2 |]
+% - - - - - - - - - -
+%%begintext align
+%% *This is the Tune mentioned in the old Poem entitled Christs Kirk on the Green, Canto 2d line 96.
+%%endtext

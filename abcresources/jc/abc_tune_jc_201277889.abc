@@ -1,0 +1,32 @@
+X:1
+T: The French Ambassador
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 31 notes)
+K:G
+M:4/4
+L:1/16
+d4 |B4 G4 D4 F4 |G12 d4 |e4 d4 e2 f2 g4 |f12 e4 |d4 B4 c4 d4 |e4 c4 A4 e4 |=f4 e2 d2 ^c2 d2 e2 c2 |d12 d4 |
+%W: A2
+% voice 1 (1 lines, 30 notes)
+B4 G4 D4 F4 |G12 d4 |e4 d4 e2 f2 g4 |f12 e4 |d4 B4 c4 d4 |e4 c4 A4 e4 |=f4 e2 d2 ^c2 d2 e2 c2 |d12 d4 |
+%W: B1
+% voice 1 (1 lines, 32 notes)
+e6 d2 e4 f4 |g4 B4 B4 B4 |e6 f2 g4 f2 e2 |^d12 d4 |e4 B4 B4 A2 B2 |c4 A4 A4 G2 A2 |B4 A2 G2 F6 E2 |E12 G4 |
+%W:
+% voice 1 (1 lines, 33 notes)
+F6 G2 F2 G2 F2 G2 |A4 D4 D4 D4 |G6 A2 B4 A2 G2 |d12 e2 f2 |g4 B4 e4 A4 |d4 G4 F4 d4 |B4 A2 G2 D4 F4 |G12 d4 |
+%W: B2
+% voice 1 (1 lines, 32 notes)
+e6 d2 e4 f4 |g4 B4 B4 B4 |e6 f2 g4 f2 e2 |^d12 d4 |e4 B4 B4 A2 B2 |c4 A4 A4 G2 A2 |B4 A2 G2 F6 E2 |E12 G4 |
+%W:
+% voice 1 (1 lines, 32 notes)
+F6 G2 F2 G2 F2 G2 |A4 D4 D4 D4 |G6 A2 B4 A2 G2 |d12 e2 f2 |g4 B4 e4 A4 |d4 G4 F4 d4 |B4 A2 G2 D4 F4 |G12 ||

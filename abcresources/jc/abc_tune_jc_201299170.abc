@@ -1,0 +1,47 @@
+
+X: 1
+T: Lady of Spain
+C: Tolchard Evans
+R: waltz
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+S: Image at www.cotatifest.com (Cotati Accordion Festival, P.O. Box 809, Cotati, CA 94931)
+F: http://www.cotatifest.com/ladyofspain.htm
+M: 3/4
+L: 1/8
+K: C
+|: "C"c2 B2 A2 | A2 B2 c2 | "G7"(3BcB A4- | A6 |\
+B2 A2 G2 | G2 A2 B2 | "C"(3ABA G4- | G6 |
+"A7"A2 G2 F2 | E2 F2 G2 | "Dm"(3GAG F4- | F6 |\
+"D7"c2 B2 A2 |[1 A2 B2 c2 | "Fm"d6- | "G7"d G^FGAB :|[2 "G7"B2 c2 d2 | "C"c6- | "^Fine"c6 |]
+"Am"E2 F2 G2 | A2 G2 F2 | (3FGF E4- | E6 |\
+"Am"E2 F2 G2 | A2 G2 F2 | "A7" (3FGF E4- | E6 |
+"D7"d3 A"G7"Bd | "C7"c3 G"E7"Ac | "Bb7"_B3 F"Eb7"GB | "Ab7"_A4 _G2 |\
+"Cm"G^FGABc | "Cdim"_e4 A2 | "Fm"d6- | "G7"d "^D.C. al Fine"G^FGAB |]
+
+%%sep 1 1 500
+
+X: 1
+T: Lady of Spain
+C: Tolchard Evans
+R: waltz
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+S: Image at www.cotatifest.com (Cotati Accordion Festival, P.O. Box 809, Cotati, CA 94931)
+F: http://www.cotatifest.com/ladyofspain2.htm
+N: Play "marcato", with bass+chord on every beat.
+M: 3/4
+L: 1/8
+K: C
+|:\
+"C"[c2E2] [B2E2] [A2E2] | [A2E2] [B2E2] [c2E2] |\
+"G7"(3BcB A4- & F6- | A6 & F6 |\
+[B2F2] [A2F2] [G2F2] | [G2F2] [A2F2] [B2F2] |\
+"C"(3ABA G4- & E6- | G6 & E6 |
+"A7"[A2^C2] [G2C2] [F2C2] | [E2^C2] [F2C2] [G2C2] |\
+"Dm"(3GAG F4- & D6- | F6 & D6 |\
+"D7"[c2^F2] [B2F2] [A2F2] |\
+[1,3 [A2^F2] [B2F2] [c2F2] |\
+"Fm"M.[d_A=F].[d/A/F/].[d/A/F/] .[dAF].[dAF].[dAF].[dAF] |\
+"_>"[dGF]^F G^G (3A^AB :|\
+[2 [cE]"_>"G/"_>"G/ "_>"G"_>"G"_>"G"_>"G |\
+"G""_>"G^FG^G (3A^AB :|\
+[4 "C"[cE].c/.d/ .e.g .e(3d/e/d/ | c2 z2 "_sffz"[c'2g2e2c2] |]

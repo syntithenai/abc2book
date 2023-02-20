@@ -1,0 +1,29 @@
+X:1
+T: Merry Boyce and Girls
+N:
+C:William Boyce
+S:"Jigg" from 7th Symphony
+A:
+O:
+R:
+M:6/8
+K:A
+I:speed 150
+%W: A
+% voice 1 (1 lines, 38 notes)
+K:A
+M:6/8
+L:1/16
+e2 c2 A2 F4 E2 e2 c2 A2 F4 E2 F2 G2 A2 G2 B2 d2 c2 B2 A2 A4 e2 |c2 A2 e2 c2 A2 e2 a6a2 f2 g2 a2 f2 ^d2 B4 a2 g6 f6 |
+%W: B
+% voice 1 (1 lines, 31 notes)
+e2 c2 A2 F4 E2 f6 e6 e2 c2 A2 F4 E2 g6 a6 |e2 c2 A2 F4 E2 d6d2 e2 f2 e2 d2 c2 B2 A2 G2 A6A6 |
+%W: C
+% voice 1 (1 lines, 36 notes)
+e6e2 c2 d2 e2 c2 ^A2 F2 A2 c2 f2 =g2 f2 e2 d2 c2 d6 c6 |d6d2 B2 c2 d2 B2 G2 E2 G2 B2 d2 f2 e2 d2 c2 B2 c6 B6 |
+%W: D
+% voice 1 (1 lines, 34 notes)
+e2 c2 A2 F4 E2 f6 e6 e2 c2 A2 F4 E2 g6 a6 |e2 c2 A2 F4 E2 d6d2 e2 f2 e2 d2 c2 B2 A2 G2 A4 G A B4 D2 |
+%W:
+% voice 1 (1 lines, 32 notes)
+C2 f2 e2 G2 A2 B2 A2 f2 e2 B2 c2 d2 c2 f2 e2 G2 A2 B2 A2 g2 a2 d2 g2 a2 |e2 d2 c2 B2 A2 G2 A6A6 |

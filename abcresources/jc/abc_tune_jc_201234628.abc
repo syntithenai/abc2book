@@ -1,0 +1,55 @@
+X: 20661
+T: CRACOVIENNE QUICKSTEP
+C:
+%R: quickstep, polka
+B: Elias Howe "The Musician's Companion" 1843 p.66 #1 (and p.67 #1)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The rhythms at the strain boundaries aren't quite correct; 
+N: Changed note lengths in V:1 bar 8 to agree with other voices; added initial repeat symbols.
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+G |:\
+FAce | dBB2 | d(3(d/e/d/) cA | GBBG |\
+FAce | dBB2 | d(3(d/e/d/) cA | AGG2 :|
+|:\
+cege | dBB2 | d(3(d/e/d/) cA | GBBG |\
+cege | dBB2 | d(3(d/e/d/) cA | AGG2 :|
+|:\
+G2Bd | f2ef | .g.c.B.d | ce/c/Gz |\
+G2Bd | f2ef | .g(cB).d | c2z2 :|
+|:\
+A2c=f | aag^f | gag^f | g2ez |\
+G2Bd | =f2ef .g.c.B.d | c2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z |:\
+DFAc | BGG2 | B(3(B/c/B/) AF | DGGD |\
+DFAc | BGG2 | B(3(B/c/B/) AF | FCB,2 :|
+|:\
+Acec | BGG2 | B(3(B/c/B/) AF | DGGD |\
+Acec | BGG2 | B(3(B/c/B/) AF | CB,B,2 :|
+|:\
+G2-G2 | d2cd | eAGB | EG/E/Ez |\
+G2-G2 | d2cd | e(AG)B | E2E2 :|
+|:\
+F2Ac | ffed | e[fdA]eA | e2cz |\
+E2GB | d2cd | e[cA]DF | E2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z |:\
+d2d2 | g2g2 | B2c2 | g2g2 |\
+d2d2 | g2g2 | B2c2 | G2G2 :|
+|:\
+c2c2 | g2g2 | B2c2 | g2g2 |\
+c2c2 | g2g2 | B2c2 | G2G2 :|
+|:\
+g2g2 | g2g2 | g2g2 | c2cz |\
+g2g2 | g2g2 | g2g2 | c2c2 :|
+|:\
+f2f2 | f2f2 | f2f2 | c2cz |\
+g2g2 | g2g2 | cefg | c2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

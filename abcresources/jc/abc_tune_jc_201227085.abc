@@ -1,0 +1,25 @@
+X: 10602
+T: RANGING THE PLAINE ONE SUMMER'S NIGHT
+O: Playford's Coll. 1684
+Q: "Moderate."
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.60 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+d3c (dc)(BA) | B2(AG) ^F3d |\
+(dc)(cd) B3A | B6 f2 |\
+c3d (ed)(cB) | (cA)(BG) ^F3d |\
+(ef)e>d c3d | d6 |]
+d2 |\
+A3B c2(BA) | (ed)c>B c3f |\
+d2(gf) (ed)(cB) | A6 d2 |\
+e2(dc) f2 (3(^f/=e/f/) | gdc>B A3d |\
+(ed)(cB) {A}G3^F | G6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

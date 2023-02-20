@@ -1,0 +1,28 @@
+X: 21181
+T: the Voice of my Love
+%R: air, reel
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+N: The use of voice overlays in this tune isn't really needed for any reason.
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.118 #1
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "Plaintive"
+K: A
+%%slurgraces yes
+%%graceslurs yes
+|:"_Slow"\
+e6 d2 (c2B2)(c2d2) | {cd}e4 Td3c (Tc3B/c/) B4 |\
+e6 d2 c2(ba) (gf)(ed) | c4 (TB3A/B/) A8 ::\
+e6 f2 (g2f2)(a2g2) | {ga}b4 a2g2 Tg3(f/g/) f4 |
+(b2g2)(e2B2) c6 a2 | (g2f2)(e2^d2) (d4. e2)z2 |\
+"_soft"(e2c2)(f2e2) (d2B2)(e2d2) | (c2A2)(d2c2) Tc3(B/c/) B4 |\
+"_strong"(fga2) .a2.a2 a4 (gfed) | c4 TB3(A/B/) A8 :|
+Q:"Pastoral"
+[M:6/8][L:1/8]|:"_Brisk"\
+e3 A2c | (B2d) (c2a) | (f2d) (B2G) | (E2e) (c2A) |\
+e3 (A2c) | (B2d) c2a | g2e (bge) | B2^d2 e3 ::\
+(B2c) (d2b) | (A2B) (c2a) |
+(G2A) (B2E) | (d2c) {c}B3 |\
+[e2c2][ac] [e2c2][fd] | [e2c2][ac] [e3c3] | [f3A3D3] edc | TB2A A3 |\
+[E2C2][AC] [E2C2][FD] | [E2C2][AC] [E3C3] | [f3A3D3] edc | TB2A A2 :|

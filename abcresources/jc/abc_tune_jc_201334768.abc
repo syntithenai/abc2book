@@ -1,0 +1,12 @@
+X: 1
+T: Scotch Mary (in C mixolydian)
+M: C|
+L: 1/8
+R: reel
+K:Cmix	% Transposed from DMIX
+|:\
+"C"EFGF EFGF | ECG,A, "Bb"B,CDF | "C"EFGF EFGF | "Bb"ECDE "C"C3D |
+"C"EFGF EFGF | ECG,A, "Bb"B,CDF | "C"EFGA "Bb"BAGF |1 "Bb"ECDE "C"C3D :|[2 "Bb"ECDE "C"CGAB |]
+|: \
+"C"c3B GAGF | EFGA "Bb"B2AB | "C"GccB "Bb"GAGF | "C"ECDE CGAB |
+"C"c3B GAGF | EFGA "Bb"BGAB | "C"cABG AFGF |1 "Bb"ECDE "C"CGAB :|[2 "Bb"ECDE "C"C4 |]

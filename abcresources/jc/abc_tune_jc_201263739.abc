@@ -1,0 +1,33 @@
+X: 1
+T: Come along Ioan
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (158)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+d2f e2g | faf def | efg faf | d3- d2A, |\
+D2F E2G | FAF DEF | GAB A2A, | D3- D2 :|\
+|: f |\
+(eg)f e2d | c3- c2g |
+(fa)g f2g | e3- e2f |\
+gbg faf | ege dag | faf eAc | d3- d2F |\
+GBG FAF | EGD CDE | (FG)A/B/ A2A, | D3- D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man take his Partner by her right hand lead her
+%% below the 2d Man and cast off below the 3d Cu. improper .|
+%% The 1st Man lead his Wo. above the 3d Wo. and cast up to
+%% the Top proper :| The 1st Man change Place with the 2d Wo.
+%% the 1st Wo. and 2d Man do the same the 1st Cu. dance
+%% across with the 3d Cu. and turn all four single .| Then
+%% the 1st and 2d Cu. change Places with your Partners, the
+%% 1st Cu. slip outside to the Top, all four dance across,
+%% then the 1st Cu. cast off :|
+%%endtext
+%%sep 1 8 500

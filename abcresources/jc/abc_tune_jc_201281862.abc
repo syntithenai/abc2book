@@ -1,0 +1,27 @@
+X:1
+T:Good King Wenceslas
+C:Traditional
+Q:160
+S:Ted Neil <ted.neil:amd.com> abcusers 2002-12-15
+V:1 % program 1 40 volume 75
+V:2 % program 1 68 volume 128
+V:3
+M:4/4
+L:1/4
+K:G
+V:1 "G"G "_Melody"G G A| G G D2|"C"E D "D"E F|"G"G2 G2|
+V:2 "G"D "_Baritone Hamony"D D E|D D B,2|"C"C B, "D"C D|"G"D2 D2|
+V:3 "G"B "_Tenor Harmony"B B c|B B G2|"C"G F "D"G A|"G"B2 B2|
+%
+V:1 "G"G G G A| G G D2|"C"E D "D"E F|"G"G2 G2|
+V:2 "G"D D D E|D D B,2|"C"C B, "D"C D|"G"D2 D2|
+V:3 "G"B B B c|B B G2|"C"G F "D"G A|"G"B2 B2|
+%
+V:1 "G"d c B A|B A G2|"C"E D "D"E F|"G"G2 G2|
+V:2 "G"B A G F|G F D2|"C"C B, "D"C D|"G"D2 D2|
+V:3 "G"g f d c|d c B2|"C"G F "D"G A|"G"B2 B2|
+%
+V:1 "G"D D E F|G G "D"A2|"G"d c B A|(G2"C"c2)|"G"G4||
+V:2 "G"B, B, C D|D D "D"F2|"G"B A G F|(D2"C"G2)|"G"D4||
+V:3 "G"G G A B|B B "D"d2|"G"g f d c|(B2 "C"e2)|"G"B4||
+%

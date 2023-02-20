@@ -1,0 +1,19 @@
+X: 22
+T: Jeitili
+O: Lebanon
+F: http://www.youtube.com/watch?v=G1QXby8BxPc
+M: 2/4
+L: 1/8
+K: Am
+Q:1/4=240
+%%MIDI program 111 Shanai
+%%MIDI drum dzdz 43 60 90 60
+%%MIDI drumon
+Z4|zcBA|A4|A4|A4|A2z2|
+A2d2|c2d2|A2c2|B2c2|A2c2|B2c2|A2BG|A4|\
+Z4|A2c_B|c4|A2c_B|c4|A2B2|c2B2|A2c_B|c4|
+A2B2|c2B2|A2c2|A4|Z4|\
+A2B2|c4|A2B2|c4|A2c2|B4|A2B2|c4|
+A2B2|c4|A2B2|A4| Z4|\
+c4|c2c2|c4|c2c2|A2c2|B4-|B2z2|
+A2B2|c4|A2B2|c4|A2c2|A4|

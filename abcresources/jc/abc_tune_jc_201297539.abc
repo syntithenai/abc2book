@@ -1,0 +1,39 @@
+
+X: 1
+T: Klumpakojis  [C/F]
+O: Lithuania
+P: bouncy
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+"G7"G4 G4 | G8 \
+|:"C"E2ED E2ED | E2F2 G4 | "F"A2AG F4 | "C"G2GF E4 |
+| "C"E2ED E2ED | E2F2 G4 | "F"A2AG "G7"F2ED |1 "C"C2GA "G7"GFED :|2 "C".C2 .E2 .C2 z2 |]
+|:"C"G2^FG A2G2 | "G".D2 .D2 .D2 z2 | "G7"G2^FG A2G2 | "C".C2 .C2 .C2 z2 |
+| "C".c2 .c2 .c2 z2 | "F".A2 .A2 .A2 z2 | "G7"G2BA GFED \
+|1 "C"CG,A,B, CDEF :|2 "C".C2 .E2 .C2 z2 |][K:=c]
+K: F
+|:"F"A2A2 "C7"B2B2 | "F"c2c2 cBAc | "C7"B2B2 BAGB | "F"AGAB c2cB |
+| "F"A2A2 "C7"B2B2 | "F"c2c2 cBAc | "C7"B2B2 BAGA |1 "F"Fz CC .C2 .C2 :|2 "F".F2 .A2 .F2 z2 |]
+
+
+%%sep 3 1 500
+
+X: 2
+T: Klumpakojis  [D/G]
+O: Lithuania
+P: bouncy
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+"A7"A4 A4 | A8 \
+|:"D"F2FE F2FE | F2G2 A4 | "G"B2BA G4 | "D"A2AG F4 |
+| "D"F2FE F2FE | F2G2 A4 | "G"B2BA "A7"G2FE |1 "D"D2AB "A7"AGFE :|2 "D".D2 .F2 .D2 z2 |]
+|:"D"A2^GA B2A2 | "A".E2 .E2 .E2 z2 | "A7"A2^GA B2A2 | "D".D2 .D2 .D2 z2 |
+| "D".d2 .d2 .d2 z2 | "G".B2 .B2 .B2 z2 | "A7"A2cB AGFE \
+|1 "D"DA,B,C DEFG :|2 "D".D2 .F2 .D2 z2 |][K:=c]
+K: G
+|:"G"B2B2 "D7"c2c2 | "G"d2d2 dcBd | "D7"c2c2 cBAc | "G"BABc d2dc |
+| "G"B2B2 "D7"c2c2 | "G"d2d2 dcBd | "D7"c2c2 cBAB |1 "G"Gz DD .D2 .D2 :|2 "G".G2 .B2 .G2 z2 |]

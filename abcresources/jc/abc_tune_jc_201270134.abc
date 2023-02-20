@@ -1,0 +1,72 @@
+X: 1
+T: Drive the cold Winter away
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.86 #125 (171)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The dance description is odd:  It's in two columns, with the parts after the :| being on the right, here marked by "##".
+M: 6/8
+L: 1/4
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+F>ED A2d | c>BA f2F |\
+G2A B>cB | A3- A2 |]\
+d |\
+cAF c2d | B>AG B2c |
+A>GF E2D | f3- f2d |\
+cAF c2d | B>AG B2c |\
+A>GF E>DE | D3- D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up all forward and back .| That again :|
+%% ##
+%%	First Man back a D. then go down between the rest and
+%%	turn the last Wo. but one, then Men the last, and stay
+%%	there while the other Men go between the 2d and 3d We.
+%%	and go towards the left Hand, and fall down to tHe 1st
+%%	Man .| First Man back, then go up between the rest, and
+%%	turn the 2d Wo. then the 1st Wo. while the Men to
+%%	between the two last We. turn toward the right Hand,
+%%	and go up to your Places
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Sides all .| That again :|
+%% ##
+%%	This as before, the We. doing it :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Arms all .| That again :|
+%% ##
+%%	As at the first :|
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up all forward and back .| That again :|
+%% ##
+%%	First an back a D. then go down between the rest and turn the last
+%%	wo. but one, then men the last, and stay there while the other men go
+%%	between the 2. and 3. we.  and go towards the left-hand, and fall down to
+%%	the 1. man .| First man back, then go up between the rest, and turn the
+%%	2. wo. then the 1. wo. while the men to between the two last we.
+%%	turn toward the right-hand, and go up to your Places.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Sides all .| That again :|
+%% ##
+%%	This as before, the we. doing it :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Arms all .| That again :|
+%% ##
+%%	As at the first :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

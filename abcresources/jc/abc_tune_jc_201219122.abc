@@ -1,0 +1,13 @@
+X:20
+T:British Grenadiers
+M:2/4
+Q:1/4=100
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+(3(A/B/c/)|dA de/f/|gf ef/g/|af df|e/d/c/B/ AB/c/|dA de/f/|gf ef/g/|ad f/e/d/c/|d2 z::
+a|a>b ag|fg a>a|bb a/g/f/e/|(d2 c) (3(A/B/c/)|dc/d/ ed/e/|fe/f/ gf/g/|ad f/e/d/c/|d2 z:|

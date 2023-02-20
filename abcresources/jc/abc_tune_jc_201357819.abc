@@ -1,0 +1,22 @@
+X: 1
+A:Adam de la Halle
+T:Hareu li maus d'amer
+N: (condensed)
+M:3/4
+L:1/4
+Q:1/4=120
+K:D dorian
+%
+V:1 clef=treble
+V:2 clef=treble
+V:3 clef=treble-8 middle=B,
+%%MIDI program 1       70 bassoon
+%%MIDI program 2       71 clarinet
+%%MIDI program 3       72 piccolo
+%
+[V:1]     B  c2 |(c/B/4A/4) BA  | G  (A    G/F/)||  G   A2  ||
+[V:2]     E  F2 |(F/E/4D/4) ED  | C  (D/^C/B,)  || ^C   D2  ||
+[V:3]     G, F,2|  F,       E,2 | E, (D,   E,)  ||  E,  D,2 ||
+w: 1.4.7.~Ha-reu  li        maus d'a- mer*  2.8.~M'o-chist.
+w: ~~3.~~~~Il me  fait      dé-  si-  rer.*
+w: ~~~~5.~~~Par un douch     re-  gar- der*  ~~6.~~Me  prist.

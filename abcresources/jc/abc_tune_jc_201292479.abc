@@ -1,0 +1,21 @@
+X: 1
+T: Jenny Lind Waltz
+C: Ludwig Hagemann
+R: waltz
+F: http://lcweb2.loc.gov/music/sm2/sm1848/081000/081390/002.tif
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: from a guitar arrangement by Robert Kelley
+N: Published 1848, William Hall & Son, 239 Broadway, New York; Croswell & Jewell, New Haven, CT.
+M: 3/4
+L: 1/8
+K: A
+e2 |\
+"A"c'3 b a2 | g2 a4 | "E7"e2 [b2d2] [b2d2] | [b4d4] e2 |\
+"E7"d'3 c' b2 | ^a2 b4 | "E7"e2 [g2B2] [f2A2] | [e4G4] e2 |
+"A"c'3 b a2 | g2 a4 | "D"[f2d2] g2 a2 | "E7"b2 c'2 d'2 |\
+"A"e'3 c'ae | "E7"d'3 bge | g3 edB | "A"A4 :|
+|: (cd) |\
+"A"[e2c2] f2 g2 | a2 {a}c'2 e2 | "E7"[g3d3B3] fdB | [g3d3B3] fdB |\
+"E7" [d2B2] f2 (ag) | b3 (ag)f | "E7"e2 g2 b2 | {b}e'2 z(cd) |
+"A"[e2c2] f2 g2 | a2 {a}c'2 e2 | "D"[f2d2] g2 a2 | "E7"b2 c'2 d'2 |\
+"A"[e'3a3e3] c'ae | "E7"[d'3g3e3] bge | [g3d2B3] edB | "A"A4 :|

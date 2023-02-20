@@ -1,0 +1,14 @@
+X: 277
+T: Makedonikos Horos
+C: Greece
+M: 4/4
+L: 1/8
+Q: 1/4=160
+K: G
+%%MIDI drum dd 47 47
+%%MIDI drumon
+ ~AGFE FGA2|A2 c2 B2A2 |c2 B2 A2 G2|A3G FGA2 |
+ AGFE FGA2 |A2 c2 B2A2 |AGFE   FGA2|A8       |
+ d^cd2 c4  |^c8        |^cBc2 A4   |A8       |:
+ FGAG A2A2 |ABcB  B2A2 |FGAG A2A2  | FGAG A4 :|
+ A^cde cBc2|A^cde cBc2 |A^cdA AcBA |BABG A4  |

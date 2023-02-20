@@ -1,0 +1,19 @@
+X: 316
+T:Pogonisios
+O:Greece
+M:4/4
+L:1/8
+Q:1/4=120
+K:BbDor
+%%MIDI gchord fzzzfzzz
+%%MIDI drum dzzz 41
+   B,2                |\
+%%MIDI drumon
+   "Bbm".F2 .F2 FE ED |.F2 .F2 FE ED|\
+   "Ab"E2 E2 E2 DC    |"Bbm"B,4 D2B,2           |\
+   "Eb"E2 E2 "Ab"E2 DC| "Bbm"B,6 B,2            |
+   "Bbm".F2 .F2 .F2 ED|.F2 .F2 .F2 ED           |\
+   "Eb"E2 E2 "Ab"E2 DC|"Bbm"B,4 D2B,2           |\
+   "Eb"E2 E2 "Ab"E2 DC| "Bbm"B,6 B,2            |
+|: "Bbm"DB,3 DB,3     |"Eb"EEEE "Bbm"B,4        |\
+   DB,3 DB,3          |"Eb"EEEE "Bbm"B,4        :|

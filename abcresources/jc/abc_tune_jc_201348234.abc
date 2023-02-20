@@ -1,0 +1,27 @@
+X: 1
+T: the Upper Valley Reel
+C: melody: Gianna Marzilli Ericson (March 2017)
+C: harmony: David A. Kaynor
+R: reel
+%S: s:4 b:16(4+4+4+4)
+S: https://natunelist.net/upper-valley-reel/
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% = = = = = = = = = =
+V: 1 staves=2
+"^A"|:\
+"D"F2FG A2A2 | "D"ABAG FED2 | "D"F2FG A2A2 | "G"BAGB "A"A4 |
+"D"F2FG A2A2 | "D"ABAG FED2 | "D"F2FG A2F2 | "A"EDC2 "D"D4 :|
+"^B"|:\
+"D"FDFA cdd2 | "G"dedc B2Bc | "D"dBAG FEDE | "Bm"FGFD "A"E2DE |
+"D"FDFA cdd2 | "G"dedc B2Bc | "D"dBAG FEDD | "A"EGFE "D"D4 :|
+% = = = = = = = = = =
+V: 2
+|:\
+"D"A2AB d4 | d4 dBA2 | A2AB d4 | "G"BAB2 "A"c4 |
+"D"A2AB d4 | d4 dBA2 | fgfe d2B2 | "A"A2G2 "D"F4 :|
+|:\
+"D"d2e2 f2f2 | "G"g2g2 gfe2 | "D"f2f2 fed2 | "Bm"fgfd "A"e4 |
+"D"d2e2 f2f2 | "G"g2g2 gfe2 | "D"f2f2 fed2 | "A"efec "D"d4 :|

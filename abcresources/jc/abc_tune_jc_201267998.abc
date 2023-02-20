@@ -1,0 +1,16 @@
+X: 7
+T: Denis Delaney   #2
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #7
+R: double jig
+%S: s:3 b:24(4+4+4)
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0007/oneill-1001-0007-1.abc
+N: Compacted via repeats and multiple endings [JC]
+M: 6/8
+L: 1/8
+%Q: 3/8=128
+K: G
+"^A"[|] (d/c/) |: BAG GBG | GBG A>Bc | BAG [1,3 GBG | {d}cAF Adc :|[2,4 dBG | cAF G2 :|
+"^B"|: c |: Bcd def | gfe fed | dBG gdB |[1,3 cAF Adc :|[2,4 cAF G2 :|
+"^C"|: (B/c/) | dBG dBG | dBG ABc | dBG dBG | cAF A2 "^->B2"d/c/ |]
+%%text Note: The B and C parts have identical last 4 bars.

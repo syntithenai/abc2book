@@ -1,0 +1,24 @@
+X: 1192
+T: the Duke of Gordon's Strathspey
+%R: strathspey, air
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.19 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow"
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 6-bar lines.
+V: 1 staves=2
+TF/E/ |\
+D>A,TB,>A, D>B,A,>(F | G)>EF>D {D}B,2 B,TF/E/ |\
+D>A,TB,>A, D>B,A,>B | {B}A>FE>F D2D :| B/c/ |\
+d>AB>F A>FD>F | G>EF>D {D}B,2 B,B/c/ |
+d>AB>F A>FD>F | G>EA>F {E}D2 DB/c/ ||\
+d>AB>F A>FD>F | G>EF>D {D}B,2 B,TF/E/ |\
+D>A,TB,>A, D>B,A,>B | A>FE>F D2D |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d2d2 f2d2 | e2f2 g2G2 | d2d2 f2g2 | a2A2 d2d :| z | d2d2 f2d2 |
+e2f2 g2G2 | d2d2 f2d2 | a2A2 d2d2 || d2d2 f2d2 | e2f2 g2G2 | d2d2 f2g2 | a2A2 d2d |]

@@ -1,0 +1,25 @@
+X: 3052
+T: Earl of Elgin's    Strathspey   (D)
+%R: strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.5 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Published in E major; transcribed to D for the benefit of scale-limited instruments (or musicians).
+M: C
+L: 1/16
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted for 6 8-bar lines, for compactness and proofreading.
+V: 1 staves=2
+F2 !segno!|\
+D3FA2F2 AAA2 A2F2 | Acde gfed e2E2E2F2 |\
+D3FA2F2 AAA2 A2g2 | {g}f2ed {f}e2dc d2D2D2 :|\
+g2 |\
+Tf3ed2A2 d2f2d2A2 | Bcde dcBA B2e2-e3g |
+Tf3ed2A2 d2f2{df}a3A | TB3A BAGF A2d2d2g2 ||\
+Tf3ed2c2 d2f2d2A2 | Bcde dcBA B2e2-e3g |\
+fa3ef3 df3Bd3 | A3d (Te4 {de}f3)d d2!segno!f2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 !segno!| d4d4 d4d4 | d4d4 c4A4 | d4d4 d4d4 | g4a4 d4d2 :| z2 | d4d4 d4d4 |
+d4d4 g4a4 | d4d4 d4d4 | g4a4 d4d4 || d4d4 d4d4 | d4d4 g4a4 | d'4c'4 b4g4 | a4A4 d4!segno!d4 |]

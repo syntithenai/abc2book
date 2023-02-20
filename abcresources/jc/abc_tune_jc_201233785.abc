@@ -1,0 +1,17 @@
+X: 20112
+T: MY BOY TAMMY
+Q: "Slow"
+%R: hornpipe, strathspey
+B: "Edinburgh Repository of Music" v.2 p.11 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Rest added at ends of both strains, to fix the rhythm.
+M: C
+L: 1/8
+K: Em
+[|\
+E>F G>A (B>^c) d2 | (A>B) (A>G) F<D z2 |\
+E>F G>A B>^c d2 | (Bg) (fe) B<e z |]\
+e |\
+e>f g>e d>c B2 | G>B d>B A>F D2 |\
+e>g f>g e2 B2 | G>A B>A G<E z2 |]

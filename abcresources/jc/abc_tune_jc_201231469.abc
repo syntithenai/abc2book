@@ -1,0 +1,31 @@
+X: 15291
+T: the Banks of Severn
+C: James Oswald
+%R: air, strathspey
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.5 p.29
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The appoggiatura {B2} in all the final bars should probably have a natural sign.
+M: C
+L: 1/8
+K: F
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"F>G |\
+(A<F)(c>A) f3(g/a/) | (g<e)(f<d) {d}c3c |\
+(d>e)fd (c<A) (A/G/F) | {F}G3A G2F>G |\
+(A<F)(c<A) d3c | d2 g>f {f}e3f |
+(g<e)(f<d) G2 (c>=B) | {B2}c6 :: c>d |\
+(e<c)(g<e) b3B | (A<F)(c<A) {A}B3c |\
+(dB)(ga) (bagf) | (e>f)g2 z2F>G |
+(A<F)(c<A) d3c | d2g>f {f}e3d |\
+(cf)(cA) (BA)(GF) | (DE)F2 {fg}a3g |\
+(fd)(cA) (BA)(GF) | (DE)F2 z2 :|
+|: (F>G) |\
+(3AFc (3cAf (3fca (3bag | (3afe (3fga c3c |\
+(3dBf f2 (3cAF (3dBA | {A2}G4 z2(F>G) |\
+(3(AcB) (3(AGF) (B3/c//d//) c2 | d2 (3(bag) {f}e3f |
+(3(gec) G2 (Afe) (dc=B) | {B2}c4 z2 :: (c>d) |\
+(3(ece) (3(geg) b3B | (3(AGF) (3(_edc) {c}B3c |\
+(3(def) (3(gab) a2Tg>f | (e>f)g2 z2F>G |
+(3AFc (3cAf d3c | (3BAG (3d'bg {f}e3d | c(f/e/) (d/c/B/A/) (BA)(TG>F) | (D>E)F2 {fg}a3g | (f<d) (c/d/f) (c<A) (TG>F) | (D>E)F2 z2 :|

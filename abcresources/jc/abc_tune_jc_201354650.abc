@@ -1,0 +1,24 @@
+X: 1
+T: Yidish Khusedl (Joseph Frankel's Orchestra 1919)
+%D:1919
+R: khusidl
+D: Lt. Joseph Frankel's Orchestra 1919
+S: Fiddle Hell Online 2020-11-07 workshop by Beth Bahia Cohen
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+Z: handwritten transcription by Beth Bahia Cohen [adjusted by JC]
+N: Bar lines added to get 2/4 instead of 4/4 measures.
+M: 2/4
+L: 1/16
+K: ^f^c_B
+"^A"|: uD2 |\
+"Gm"BAG2 BAG2 | BAG2 D2G2 | BAG2 A2B2 | c2d2 BAG2 ||\
+"Gm"BAG2 BAG2 | BAG2 D2G2 | "D"dccB BAAG | "Gm"G4 z2 :|
+"^B"|: z2 |\
+"Gm"cdB2- B2AG | cdB2- B2AG | cdcd cBAG | ABG2 D2G2 ||\
+"Gm"cdB2- B2AG | cdB2- B2AG | eded "D"cBAG | "Gm"G4 z2 :| z
+"^C"|: uDGB |:\
+"Gm"d7 c | d7 c | d3c d3c | d4 B4 ||\
+"Gm"dcBA B2G2 | dcBA B2G2 | dcBA B2e2 | "D"dcBA [1 "Gm"G4 :|[2 "Gm"G ||
+"^D"|: vBAG |\
+"D"FGA2- A2=c2 | "Gm"BAG2 B2G2 | "D"FGA2- A2G2 | "Cm"FGF_E "D"F2D2 ||\
+"D"FGA2- A2=c2 | "Gm"BAG2 B2G2 | "D"FGAG "Cm"F3_E | "D"D4 [1 z :|[2 z2 |]

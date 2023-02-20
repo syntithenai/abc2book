@@ -1,0 +1,32 @@
+X: 471
+T: MISS FORDYCE AYTON
+C: R. MACKINTOSH
+R: Reel
+B: Glen Collection p.47 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Em
+%
+V: 1
+B |\
+E/E/E (BG) EB,GE | FDAF dAFD | GEBG EB,GE | ABGF G(EEB) |
+E/E/E (BG) EB,GE | FDAF dAFD | EGFA GBAc | BAGF GEE ||
+f |\
+ebge Bege | (d/e/f/g/ a).f defd | ebge Bege | ^dfBa g(eef) |
+ebge Bege | (d/e/f/g/ a).f defd | egfa gbfa | gef^d eEE |]
+%
+V: 2
+z |\
+e2[b2g2] B2[b2g2] | d2[a2f2] A2[a2f2] |\
+e2[b2g2] B2[b2g2] | d2^d2 e2E2 |
+e2[b2g2] B2[b2g2] | d2[a2f2] A2[a2f2] |\
+e2^d2 e2A2 | B2^d2 e2[bge] ||
+z |\
+e2[e'2b2] g2[e'2b2] | d2[d'2a2] f2[d'2a2] |\
+e2[e'2b2] g2[e'2b2] | d2^d2 e2[b2g2] |
+e2[e'2b2] g2[e'2b2] | d2[d'2a2] f2[d'2a2] |\
+e2^d2 e2A2 | B2B2 e2[bge] |]

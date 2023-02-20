@@ -1,0 +1,26 @@
+X: 1
+T: the Ceilidh Umbrella    (C)
+C: Muriel A. Johnstone
+R: strathspey
+% %staffsep 40.0pt
+B: RSCDS 35-5
+M: C
+L: 1/8
+K: C
+G2 \
+| "C"E<G c>e "Dm"d>c "G7"d<e \
+| "C"c>G E>G C>E G>C \
+| "F"A,>C F<A "C"G<E G>c \
+| "E7"B<E e>d "Am"c2 ((3cde) |
+| "Dm"((3fed) "C"e>c "F"d>c A<c \
+| "C"G<E c<E "G"D>C "E7"D<E \
+| "Am"C2 c>B "F"A2 ((3agf) \
+| "G7"e<c' e>d "C"c2 "C7"((3cde) |]
+[| "Dm"f2 d>f "G7"B<G g>f \
+| "C"e>d ((3cde) "F"A<F f>e \
+| "Bm"d>c ((3Bcd) "E7"^G<E e>d \
+| "Am"((3cBA) "Dm"((3agf) "G7"e>d B<G |
+| "C"E<G c>e "Dm"d>c "G7"d<e \
+| "C"c>G E>G C>E G>_B, \
+| "F"A,>C F<A "C"G<E ((3agf) \
+| "G7"e<c' e>d "C"c2 |]

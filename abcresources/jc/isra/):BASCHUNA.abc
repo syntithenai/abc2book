@@ -1,0 +1,29 @@
+X: 29
+T: Baschuna
+C: Avihu Medina 1989
+O: Israel
+M: 3/4
+L: 1/8
+K: Am
+Q: 1/4=150
+%%MIDI program 57
+  z2B2AG     |A6        |z6        |\
+  "Am" ABc2B2|ABc2B2    |ABc2d2    |"Dm"e2d2z2|\
+  "Em"efg2e2 |"C"dce2c2 |cBd2c2    |"Am"B2A2z2|
+  "Em"A2e4   |"Dm"fge2d2|"Em"def2g2|a2e4      |\
+  "Dm"def2d2 |cde2d2    |cdd2c2    |"Am"B2A4  |
+M: 2/4
+Q: 1/4=300
+%%MIDI drum dzzz 35
+%%MIDI gchordoff
+%%MIDI drumon
+  z4         |z4        |z4        |z4        |\
+|:d4-        |d2B2      |c4        |B2A2      |\
+  z2d2-      |d2B2      |c4        |B2A2      |
+  d4-        |d2e2      |c2B2      |A4        |\
+  d2c2       |d2e2      |c2B2      |A4        |
+  d4-        |d2e2      |f4        |a4        |\
+  [1 e4-     |e2d2      |e2d2      |c2z2      |\
+  c4-        |c2d2      |e4        |f2e2      |d4|z4|z4 :|
+  [2b2a2     |a2^g2     |a4        |e4        |\
+  e4-        |e2d2      |c4        |B4        |A4|

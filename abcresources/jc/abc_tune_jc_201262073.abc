@@ -1,0 +1,56 @@
+
+X: 1
+T: Christians Gykel
+T: Peters Gykel
+N: The dance is a Danish version of Circassian Circle
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin labelled "309"
+M: 4/4
+L: 1/8
+K: G
+|| "G"GB/B/ Bd "C"(3efg "G"d2 | "C"(3efg "G"dB BA "D7"A2 \
+ | "G"GB/B/ Bd "C"(3efg "G"d2 | "C"(3efg "D7"fd "G"[g2B2] [g2B2] ||
+|| "C"ge/e/ ee "G"gd/d/ dB | "D7"dAA Ac "G"BG G2 \
+ | "C"ge/e/ ee "G"gd/d/ d2 | "A7"AA Ag fe "D"[d2F2] ||
+|| "G"GB/B/ Bd "C"(3efg "G"d2 | "C"(3efg "G"dB BA "D7"A2 \
+ | "G"GB/B/ Bd "C"(3efg "G"d2 | "C"(3efg "D7"fd "G"[g2B2] [g2B2] ||[K:C=f]
+|| "C"c2 ee g2 fe | "G7"ed AB "C"dc G2 \
+ | "C(Am)"c2 ee "F(Dm)"a2 "G"g2 | "G7"f e2 d "C"c2 z2 |]
+
+%%sep 2 1 500
+
+X: 2
+T: Christians Gykel
+T: Peters Gykel
+N: The dance is a Danish version of Circassian Circle
+R: reel
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS of unknown origin labelled "309"
+M: 4/4
+L: 1/8
+K: G
+V:1
+|| "G"GB/B/ Bd "C"(3efg "G"d2 | "C"(3efg "G"dB BA "D7"A2 \
+ | "G"GB/B/ Bd "C"(3efg "G"d2 | "C"(3efg "D7"fd "G"[g2B2] [g2B2] ||
+V:2
+|| "G"DG/G/ GB "C"(3cde "G"B2 | "C"(3cde "G"BG GF "D7"F2 \
+ | "G"DG/G/ GB "C"(3cde "G"B2 | "C"(3cde "D7"dA "G"[d2D2] [d2D2] ||
+V:1
+|| "C"ge/e/ ee "G"gd/d/ dB | "D7"dAA Ac "G"BG G2 \
+ | "C"ge/e/ ee "G"gd/d/ d2 | "A7"AA Ag fe "D"[d2F2] ||
+V:2
+|| "C"ec/c/ cc "G"dB/B/ BG | "D7"dAA Ac "G"BG G2 \
+ | "C"ec/c/ cc "G"dB/B/ B2 | "A7"EE G^c dc "D"A2 ||
+V:1
+|| "G"GB/B/ Bd "C"(3efg "G"d2 | "C"(3efg "G"dB BA "D7"A2 \
+ | "G"GB/B/ Bd "C"(3efg "G"d2 | "C"(3efg "D7"fd "G"[g2B2] [g2B2] ||[K:C=f]
+V:2
+|| "G"DG/G/ GB "C"(3cde "G"B2 | "C"(3cde "G"BG GF "D7"F2 \
+ | "G"DG/G/ GB "C"(3cde "G"B2 | "C"(3cde "D7"dA "G"[d2D2] [d2D2] ||[K:C=f]
+V:1
+|| "C"c2 ee g2 fe | "G7"ed AB "C"dc G2 \
+ | "C(Am)"c2 ee "F(Dm)"a2 "G"g2 | "G7"f e2 d "C"c2 z2 |]
+V:2
+|| "C"c2 cc c2 dc | "G7"cB FG "C"BG E2 \
+ | "C(Am)"c2 cc "F(Dm)"A2 "G"B2 | "G7"B G2 F "C"E2 z2 |]

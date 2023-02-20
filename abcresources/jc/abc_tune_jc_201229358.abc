@@ -1,0 +1,41 @@
+X: 12221
+T: Corn Riggs
+%R: march, reel
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.22 and p.23
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"A2 |\
+d3e {de}f2(Te>d) | TcBcd {cd}e2A2 | d3e (f>a)(e>f) | d2(fg) f2A2 |\
+d3e {de}f2(Te>d) | (cBc)d {cd}e2A2 | (Bcd).B edTcB | A2(d>e) d2 :|
+|: A2 |\
+d2(a>g) (fga)d | (TcBc)d {cd}e2A2 | d2(a>g) (fae)f | d2ab a3A |\
+d2a2 (bag)f | (gf)(ed) Tc2(BA) | (Bcd)B ed(Tc>B) | A2(d>e) d2 :|
+%
+|: (A>G) |\
+TF2A2 d2(d/e/f) | e2Ad (cde)c | d2(A>G) TF2(E>D) | d2(a>b) a2(a/b/c') |\
+d'2Ta2 f2(Te>d) | (f/g/a) e>d cde(d/c/) | d>c B/A/G/F/ EFGA |
+F2TE>D D2 :: A2 |\
+(dcde f/g/f/g/) ad | TcBcd e(.a/.g/ .f/.e/.d/.c/) | dfad ceae | Tf2(e>d) d3A |\
+(Bcd).e(fga).b |
+(g/a/f/g/ e/f/d/e/ c/d/B/c/ A/B/G/A/) | FAdF Edce | d2D>E D2 :: (A/B/c) |\
+dDFA (d/c/d/e/ f)d | eEed c/B/c/d/ ec |
+dAFA dAFA | d2 (d/e/f/g/) Tf3a |\
+d'aTgf d'aTgf | a(e/d/) cA ceac | BdgB A(G/F/) E/d/c/e/ | d2D>E D2 :|
+|: "^P.23"A2 |\
+df2 a2 f (d/f/e/d/) | ce2 a2 e (c/d/e/c/) | dAdf e(.a/.g/ .f/.e/.d/.c/) | d2{de}f>g f2(A>G) |\
+FA2 d2 a (f/g/a/g/) |
+gf2 e2 d (c/d/e/c/) | (AB/)c/ dF E(.e/.d/ .c/.B/.A/.G/) | F2TE>D D2 :: a2 |\
+d'ad'a (b/c'/b/a/ g/f/e/d/) |
+aAce (.a/.g/.f/.e/ .f/.e/.d/.c/) | dAdA d/f/e/g/ f/a/e/g/ |\
+f2(Te3/d//e//) d3A | dfdf d/f/d/f/ (d/f/e/d/) |
+Aece A/e/d/e/ c/d/e/c/ | GdFd E/(.e/.d/.c/ .A/.G/.F/.E/) | F2TE>D D2 :: A2 |\
+(d<e)(f<g) (a<f)(e<d) | A2ed cABc |
+d2(ag) (fef)A | d2f>g f2A2 |\
+(d<e)(f<g) (a<f)(e<d) | (A<B)(c<d) (e<c)(B<A) | (Bc)dB (ed)cB | A2(de) d2 :: A2 |\
+d2(a>g) (fga)d |
+TcBcd {cd}e2A2 | d2(ag) (fe)fA | d2(ab) a2(bc') |\
+d'a2 f2 d2a- | ae2 c2 A2d | (Bc)(dB) (ed)(cB) | A2(de)d2 :|

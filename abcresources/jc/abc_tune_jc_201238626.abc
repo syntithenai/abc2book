@@ -1,0 +1,30 @@
+X: 31043
+T: COTILLION No. 14. COLUMBIAN SETT tune 3
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.104 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: In strain 3, bar 4 is missing its 2nd half.  (Maybe it should be f3?)
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+cAF CFA | CFA cAF | BGE CEG | BAB dcB |\
+Acf a3 | Bdf b3 | agf cfe | f3 f2 H|]
+g |\
+g>ag g>ag | g2c' gec | fef ede | dd'c' =bag |\
+c'ac' afa | geg fdf | ece dBd | c=BA GA"^D.C."B |]
+K: Fm
+f2f a2a | f2f c'3 | a2a g2f | =efg x3 |\
+d2d dcB | cBc gcB | AGA GFG | F2F F2 =A/"^D.C."=B/ |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All gentlemen balance to the right,
+%% turn partners,
+%% chassa.
+%% Ladies the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

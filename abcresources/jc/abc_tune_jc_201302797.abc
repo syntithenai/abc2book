@@ -1,0 +1,14 @@
+X: 72
+T: the Little Red Lark   #1
+R: air, waltz
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #72
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+Q: "Gracefully"
+M: 6/8
+L: 1/8
+K: G
+"^A1"[|] D  |  (G2A)  (GEF) | (G2A) (Bge)  |  dBG   B>AG  | E3 ({G}F2 ||
+"^A2"||  D) | .G.A.G .G.E.F | (G2A) (B<g)e | (dBG) (B>AG) | G3- G2 |]
+"^B" [|  d  | (gfg)   (edB) | (gfe) (d<g)e |  dBG   B>AG  | E3 ({G}F2 ||
+"^A2"||  D) | .G.A.G .G.E.F |  G2A  (B<g)e | (dBG) (B>AG) | G3- G2 |]

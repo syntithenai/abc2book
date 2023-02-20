@@ -1,0 +1,25 @@
+X: 1
+T:Hyla Lassie
+M:6/8
+C:
+S:Bacon (Carey MSS)
+N:Tune from The Old Frog Dance (Oddington)
+H:from Steve Allen's Morris Library, C part added by Alex Boster <boster@acm.org>
+A:Bucknell
+O:English
+R:Jig
+P:${1}\over{2}$A(AB)(AC)$^2$A
+%P:AB.(AC)2.A
+L:1/8
+K:D
+I:speed 300
+P:A
+G|FED AGA|BcB A2 A|dcd B<ed|d3  A2 G|\
+FED AGA|Bcd A2 A|dcd B<ed|cBc d2||\
+P:B
+d|cde efe|ecA ABc|ded dcB|BGG G3|\
+FGA D3|GAB E3|FGA Bed|cBc d2||
+P:C
+d|cde efe|ecA ABc|\
+d2e2d2|d2c2B2|BGG G3|\
+FGA D3|GAB E3|FGA Bed|cBc d2||

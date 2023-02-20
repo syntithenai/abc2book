@@ -1,0 +1,26 @@
+X:1
+T: Prince William of Gloucester's Waltz
+N:
+C:
+S:
+A:
+O:
+R:
+M:3/4
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 22 notes)
+K:G
+M:3/4
+L:1/16
+G4 B4 d4 |d8 B4 |c4 A4 F4 |G2 F2 G2 A2 G4 |G4 B4 d4 |d8 B4 |c4 A4 F4 |G12 |
+%W: A2
+% voice 1 (1 lines, 22 notes)
+G4 B4 d4 |d8 B4 |c4 A4 F4 |G2 F2 G2 A2 G4 |G4 B4 d4 |d8 B4 |c4 A4 F4 |G12 |
+%W: B1
+% voice 1 (1 lines, 18 notes)
+D4 F4 A4 |A8 F4 |B8 G4 |c8 A4 |G4 B4 d4 |d8 B4 |c4 A4 F4 |G12 |
+%W: B2
+% voice 1 (1 lines, 22 notes)
+g4 f4 e4 |d4 d4 d4 |e4 d4 c4 |B4 B4 B4 |g4 f4 e4 |d4 d4 d4 |c4 A4 F4 |G12 ||

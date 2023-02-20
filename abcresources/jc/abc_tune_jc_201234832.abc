@@ -1,0 +1,20 @@
+X: 2081
+T: MARQUIS OF QUEENSBERRY
+C:
+Q: "Reel."
+R: Reel.
+%R: reel
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+N: The book has 1st/2nd variants in bars 1,2 of strain 2; rewritten as 8-bar strain without repeats
+B: James Kerr "Merry Melodies" v.2 p.11 #81
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+uf |\
+ec c/c/c c2ec | fedc Bagf |\
+ec c/c/c c2ac | BGAB c3 ::\
+uG |\
+EFGE "_2nd"F2(Ac) & x4 FG x2 |\
+x4 "^2nd"cdx2 & BcdB c2 (eg) |\
+afaf gedc |[1 BGAB c3 :|[2 BGAB cag |]

@@ -1,0 +1,26 @@
+X:1
+T: The Lobelia Lawn
+N:
+C:Ludwig van Beethoven
+S:
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 35 notes)
+K:D
+M:4/4
+L:1/16
+A2 G2 |F4 A4 F4 d4 |A4 f4 d4 a4 |g4 e4 c4 A4 |d4 f4 a4 A2 G2 |F4 A4 F4 d4 |A4 f4 d4 a4 |g4 e4 c4 A4 |d8 z4 A2 G2 |
+%W: A2
+% voice 1 (1 lines, 32 notes)
+F4 A4 F4 d4 |A4 f4 d4 a4 |g4 e4 c4 A4 |d4 f4 a4 A2 G2 |F4 A4 F4 d4 |A4 f4 d4 a4 |g4 e4 c4 A4 |d8 z4 d4 |
+%W: B1
+% voice 1 (1 lines, 23 notes)
+f12 d4 |g12 e4 |f12 d4 |g12 e4 |g4 e4 c4 A4 |d4 f4 a4 f4 |g4 e4 c4 A4 |d8 z4 d4 |
+%W: B2
+% voice 1 (1 lines, 22 notes)
+f12 d4 |g12 e4 |f12 d4 |g12 e4 |g4 e4 c4 A4 |d4 f4 a4 f4 |g4 e4 c4 A4 |d8 z4 ||

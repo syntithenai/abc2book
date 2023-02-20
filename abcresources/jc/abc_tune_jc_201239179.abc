@@ -1,0 +1,18 @@
+X: 3223
+T: Athole Brose or Niel Gow's Favourite   Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.22 #3 (andtop 2 staves of p.23)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+A !segno!|:\
+F>D D/D/D A,DDG | F>D D/D/D (G/A/B) AG | F>D D/D/D A,DD=F |[1 (3E=FG CE cGEG :|[2 (3E=FG CE cGEC |:
+DdTd>c dedc | A(dd>e) =fdec | d<d=fd ecfd | (c>dc).G ECGE !segno!:|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z !segno!|: d2d2 d2d2 | d2d2 d2d2 | d2d2 d2d2 |[1 c2c2 c2c2 :|[2 c2c2 c2c2 |:
+d'2d'2 d'2d'2 | d'2d'2 d'2d'2 | d'2d'2 d'2d'2 | c'2c'2 c2c2 !segno!:|

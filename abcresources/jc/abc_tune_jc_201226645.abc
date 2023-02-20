@@ -1,0 +1,24 @@
+X: 10382
+T: YE SHALL WALK IN SILK ATTIRE.
+Q: "Slow."
+%R: air, waltz, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.38 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/16
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(GA) |\
+B4A2 (G2B2)d2 | (e4d)B {B}A4(GA) |\
+B4A2 (G2B2)d2 | (e4f2 Hg4)f2 |\
+(e2d2)c2 (B2d2)g2 | ({f}e2d2)(cB) {B}A4D2 |\
+G4A2 (B2dc)(BA) | {A}G4z2 z4 |]
+(de/f/) |\
+g4f2 (e2f2)g2 | a4(gf) e4(dB) |\
+g4a2 b4(ag) | {f}e6 z4(fg) |\
+(e2d2)c2 | (B2d2)g2 | ({f}e2d2)(gB) {B}A4D2 |\
+G4A2 (B2dc)(BA) | {A}G4z2 z4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

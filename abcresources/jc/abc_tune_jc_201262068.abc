@@ -1,0 +1,21 @@
+X: 1
+T: Christian Catto  (G)
+C: Allan Kindness
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 41-1
+M: 6/8
+L: 1/8
+K: G
+d \
+| "G"Bcd e2d | "(D7)"b2a "G"g3 | "G"Bcd g2f | "C"e3 "E7"e3 \
+| "Am"A^GA cBc | "Am"a2g "(A7)"f2e | "D"d=cd "D7"e2d | "G"B3 B2 ||
+d \
+| "G"Bcd e2d | "(D7)"b2a "G"g3 | "G"Bcd g2f | "C"e3 e2f \
+| "Am"g2g "D7"agf | "G"g2d "Em"B3 | "D7"d2{e}d cBA | "G"G3 G2 |]
+"(B7)"B \
+| "Em"B2e e^de | "B7"g2f "Em"e3 | "Em"B2g "B7"fgf | "Em"e3 e3 \
+| "D"A2d d=cd | "A7"f2e "D"d3 | "A"a^ga "A7"=gfe | "D7"ded cBA |
+y \
+| "G"GBd e2d | "(D7)"b2a "G"g3 | "G"Bcd g2f | "C"e3 "(G/b)"e2f \
+| "Am"g2g "D7"agf | "G"g2d "Em"B3 | "D7"d2{e}d cBA | "G"G3 G2 |]

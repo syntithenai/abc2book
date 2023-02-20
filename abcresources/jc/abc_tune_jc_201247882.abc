@@ -1,0 +1,21 @@
+X: 1
+T: Arthur's Seat
+C: James Stewart-Robinson
+O: 1781
+R: reel
+S: printed page in Concord Slow Scottish Session collection
+B: Athole Collection p.133
+Z: 2015 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bm
+   c \
+| "Bm"BF F/F/F {c}d2de | "A"cAeA "F#7"(Tfe)({c}dc) \
+| "Bm"BF F/F/F {c}d2cd | "F#7"(Tfe)({c}dc) "Bm"{c}dBBc |
+| "Bm"BF F/F/F {c}d2de | "A"cBAa "F#7"(Tfe)({c}dc) \
+| "Bm"BF F/F/F {c}d2cd | "F#7"(Tfe)({c}dc) "Bm"{c}dBB :|
+|: c \
+| "Bm"(Bb)(ba) "G"{f}gfed | "A"ca(ed) cAAc \
+| "Bm"(Bb)(ba) "G"{f}gfed | "A"caec "Bm"dBBc |
+| "Bm"(Bb)(ba) "G"({f}gf)ed | "A"caed cAAc \
+| "Bm"(BF)Bc "G"{c}dc{c}de | "F#7"(Tfe)({c}dc) "Bm"{c}B2 :|

@@ -1,0 +1,26 @@
+X:1
+T:Silbaatno
+Z:Mikael Segerstrom
+L:1/4
+Q:1/4=200
+M:4/4
+I:linebreak $
+K:Dmaj
+V:1 clef=treble octave=0 nm="Unnamed-000"
+V:2 clef=treble octave=0 nm="Unnamed-001"
+V:3 clef=bass nm="Unnamed-002"
+V:1
+|:!fff! F B/2 d/2 f f | F ^A/2c/2 e e | f f/2g/2 f e | d/2e/2 d/2c/2 B B | F B/2d/2 f f | F ^A/2c/2 e e |
+f f/2g/2 f/2e/2 d/2c/2 |1 B d B2 :|2 B d B2 |: b b/2a/2 g g | f f/2e/2 d d | c/2B/2 c/2d/2 e e | d/2c/2 d/2e/2 f f |
+b b/2a/2 g g | f f/2e/2 d d | F ^A/2c/2 f/2e/2 d/2c/2 |1 B d B- B :|2 B d B2 |]
+V:2
+|: z"Bm" [Bdf] z [Bdf] | z"F#" [F^Ac] z"E" [E^GB] | z"F#m" [FAc] z"A" [Ace] |
+z"Bm" [Bdf] z [Bdf] | z"Bm" [Bdf] z [Bdf] | z"F#" [F^Ac] z"E" [E^GB] |
+z"F#7" [F^Ace] z [F^Ace] |1 z"Bm" [Bdf] z [Bdf] :|2 z"Bm" [Bdf] z [Bdf] |:
+z"G" [GBd] z"Em" [EGB] | z"D" [DFA] z"E" [E^GB] | z"F#m" [FAc] z"A" [Ace] |
+z"Bm" [Bdf] z"F#m" [FAc] | z"G" [GBd] z"Em" [EGB] | z"D" [DFA] z"E" [E^GB] |
+z"F#7" [F^Ace] z [F^Ace] |1 z"Bm" [Bdf] z"A" [Ace] :|2 z"Bm" [Bdf] z [Bdf] |]
+V:3
+|: B,,2 D, B,, | F,,2 E,,2 | F,,2 A,,2 | B,,2 F,, A,, | B,,2 D, B,, | F,,2 E,,2 | F,,2 ^A,,2 |1
+B,,2 F,, A,, :|2 B,,2 D, B,, |: G,,2 E,,2 | D,,2 E,,2 | F,,2 A,,2 | B,,2 F,,2 | G,,2 E,,2 |
+D,,2 E,,2 | F,,2 ^A,,2 |1 B,,2 A,,2 :|2 B,,2 F,, A,, |]

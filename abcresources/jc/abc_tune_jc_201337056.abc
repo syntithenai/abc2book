@@ -1,0 +1,16 @@
+X: 59
+T: Shule Aroon - 1st Setting   #2
+R: air
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #59
+Q: "Plaintively"
+O: F.O'Neill
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+N: Compacted by using labels and play order [JC]
+P: Play AB CB
+M: C
+L: 1/8
+K: Dm
+"^A"[| (fe) | d2(dc) (AB)(GA) | c2(dc) A2(FG) | A2A2 f2(ec) | dcA^F G2 |]
+"^B"[| (AG) | F2(EF) D2 ((3A=B^c) | d>c AG A2 Ha>g | f2ed ^cdec | d4 "^fine"d2 |]
+"^C"[|  z2  | f4 e4 | d2(dc) A2(AB) | c2d2 f2e2 | dc A^F "->B"G2 |]

@@ -1,0 +1,24 @@
+X: 25
+T: Batut
+O: Romania
+M: 2/4
+L: 1/8
+Q: 1/4=240
+K: D
+%%MIDI gchord zf
+%%MIDI program 42
+%%MIDI program 43
+%%MIDI drum dd 56 56 60 40
+%%MIDI drumon
+|:"G" z4|"D" z4|"G" z4|"D" z4:|
+%%MIDI drum dd 56 56 40 20
+|:"G" Bcd2|"D" B2z2|"G" Bcd2|"D" B2z2  |\
+  "G" B2d2|"D" c2d2|"G" B2d2|"D" g2z2  |
+  "G" B2d2|"D" c2d2|"G" B2d2|"D" c2d2  |\
+  "G" B2d2|"D" c2d2|"G" B2d2|"D" g2z2  :|
+K: G
+%%MIDI drum ddd 56 56 60 40 30 40
+|:"G" efg2|"C" e2z2|"G" efg2|"C" e2z2  |\
+  "G" e2g2|"C" f2g2|"G" e2g2|"C" c'2z2 |
+  "G" e2g2|"C" f2g2|"G" e2g2|"C" f2g2  |\
+  "G" e2g2|"C" f2g2|"G" e2g2|"C" c'2z2 :|

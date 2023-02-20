@@ -1,0 +1,29 @@
+X:1
+T:4r. Oculus non vidit,
+T:Test of various melisma indications
+H: transcribed from the Musica Alamire facsimile of the original
+H: printed in Antwerp by Petrum Phalesium, 1609
+S:Laura Conrad <lconrad@world.std.com> abcusers 2000-07-13
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+M:C|
+L:1/4
+K:D dorian
+T:Superius.
+T:A. intra-word melismas with -
+e6 d2 c2 A2 c3 d e4 A4 z2 A B c d e c f2 d e f d  f2 e4 A4 A3 B
+w:O- cu- lus non vi- - - dit, nec _ _ _ _ _ _  au- - - - -- ris au- di-
+T:B. intra-word melismas with _; escaped dash to indicate syllable
+e6 d2 c2 A2 c3 d e4 A4 z2 A B c d e c f2 d e f d  f2 e4 A4 A3 B
+w:O- cu- lus non vi\- _ _ dit, nec _ _ _ _ _ _ au\- _ _ _ _ _ ris au- di\-
+T:C. intra-word melismas with underscore, except for dash on first one
+e6 d2 c2 A2 c3 d e4 A4 z2 A B c d e c f2 d e f d  f2 e4 A4 A3 B
+w:O- cu- lus non vi - _  dit, nec _ _ _ _ _ _  au - _ _ _ _  ris au- di-
+T:D. typed what I consider the "normal" way, with a dash to indicate
+T:syllabification and _'s for melismas.
+T:I consider what abc2ps does with this to be a bug
+e6 d2 c2 A2 c3 d e4 A4 z2 A B c d e c f2 d e f d  f2 e4 A4 A3 B
+w:O- cu- lus non vi- _ _ dit, nec _ _ _ _ _ _  au- _ _ _ _ _ ris au- di-
+T:E. Like C, but with the dash escaped
+e6 d2 c2 A2 c3 d e4 A4 z2 A B c d e c f2 d e f d  f2 e4 A4 A3 B
+w:O- cu- lus non vi \- _  dit, nec _ _ _ _ _ _ au \- _ _ _ _  ris au- di-

@@ -1,0 +1,22 @@
+X: '1'
+T:Reel du Diable est aux vaches
+C:Laurence Beaudry
+N:©Laurence Beaudry, Reproduced with permission
+R:reel
+M:4/4
+L:1/8
+K:Gmin
+"intro" G,2B,D GDB,D | C2EG cGEG | ^F2AF BFAF |1 d^FAF BFAF :|2 BAG^F G4 ||:
+G2BG cGBG | ^FAcA dcAB | G2BG cGBG | ^FDCD B,DA,D | G2BG cGBG |
+^FAde dcBc |1 dBcA BG^FG | AG^FG A3F :|2 dBcA BG^FA | GDB,D [G,G]4 ::
+G,3G F2DB, | C3 D EDCD | B,CDB, CDEC | DA^FA DCB,A, | G,3G F2DB, |
+C3D EDCD | B,CDB, CDEC |1 DCB,A, G,3A, :|2 DCB,A, G,4 |:
+K:Dmin
+d2fd gdfd | ^cege agef | d2fd gdfd | ^cAGA FAEA | d2fd gdfd |
+^ceab agfg |1 afge fd^cd | ed^cd e3c :|2 afge fd^ce | dAFA D4 |:
+D3d c2 | AF G3 A BAGA | FGAF GABG | Ae^ce AGFE | D3d c2AF |
+G3A BAGA | FGAF GABG |1 AGFE D3E :|2 AGFE D3A |:
+d2fd gdfd | ^cege agef | d2fd gdfd | ^cAGA FAEA |d2fd gdfd |
+^ceab agfg |1 afge fd^cd | ed^cd e3c :|2 afge fd^ce |dAFA D4|]
+K:Gmin
+"Finir avec l'intro" G,2B,D GDB,D | C2EG cGEG | ^F2AF BFAF |1 d^FAF BFAF :|2 BAG^F G4 ||:

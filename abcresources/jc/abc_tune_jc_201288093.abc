@@ -1,0 +1,27 @@
+X: 1
+T: How can I keep my Maiden Head
+P: Longways for as many as will
+%R: reel, strathspey
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.85
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: F/F/F FG A>GFA | G>FGA d>cdf | F/F/F FG A>GFA | G>FGA D/D/D D2 :|
+|: cdfg a>gfa | gfga f>edf | cdfg a>gfa | gf (g/a/b) g3 f :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: f3c FGAF | cdef B3d | f3c FGAF | c3A d2D2 :|
+|: dbag fgaf | edef dcBd | ABAG FGAF | cdef cBAF :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+%% The 1st Cu. cross over & foot it .|
+%% then lead thro' the 3d Cu. & cast up and turn :|
+%% then hands half round with the 1st Cu. & turn single and Right and Left half round .|
+%% then hands half round with the 3d Cu. & turn single, then Right and Left half round :|
+%%endtext

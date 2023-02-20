@@ -1,0 +1,26 @@
+X: 684
+T: Planxty Scott
+T: pleraca albana\.c
+R: air, waltz, jig
+%S: s:4 b:26(6+6+6+6)
+C: O'Carolan
+B: O'Neill's 1850 #684
+O: F.O'Neill.
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+R: jig, waltz
+Q: "Moderate"
+M: 6/8
+L: 1/8
+K: D
+[| (D>EF/G/) A2B | ABd F>ED |\
+EFA B2(d/e/) | .f(g/f/e/d/) B2 || d |\
+(D>EF/G/) A2B | ABd F>ED |
+.G(A/G/F/E/) .F(G/F/E/D/) | .E (E/F/G/A/) B2 || c |\
+(d/f/e/d/c/e/) d2(c/B/) | (B/A/G/A/B/c/) A2(B/c/) |\
+dFd FdF | {F}EDD D2z |]
+[| dDF .d(e/d/c/B/) | A>Bd FED |\
+eE(e/f/) e2(d/e/) | .f(g/f/e/d/) B2 || ((3A/B/c/) |\
+dAd (d/c/d/e/f/e/) | (d/e/d/B/A/G/) F>ED |
+G/A/BG F/G/AF | E/F/GE F>ED ||\
+FAA A>FD | GBB B>cd A((F/A/)F) |\
+G((E/G/)E) | {G}FDD D2z |]

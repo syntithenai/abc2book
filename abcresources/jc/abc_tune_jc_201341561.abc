@@ -1,0 +1,18 @@
+X: 1
+T:Stumpy the Pig (alternative)
+M:6/8
+L:1/8
+Q:130
+C:Roy Powell
+S:Think of an abattoir
+R:Jig
+O:Scotland
+P:2
+N:
+K:D
+ AFF A2 B/2 | dBA FED | AFF A2 B/2 | dfe dBD | AFF A2 B/2 | dBA FED | A,
+DD FED | CDE D3 :|
+A,DD FED | CDE FDE | A,DD FED | CDE D3 | A,DD FED | CDE FDE | AFF BEE |
+FED D3 :|
+
+% Output from ABC2Win  Version 2.1 h on 27/07/2001

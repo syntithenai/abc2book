@@ -1,0 +1,16 @@
+X: 2374
+T: Look before you.  a Strathspey.
+%R: strathspey
+B: Niel Gow & Sons "Complete Repository" v.2 p.37 #4
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+F | D>AF>A D>AF>A | E=cc>G TE2CE | D>AF>A D>AF>A | Ddd>A F2D :| f | d>fA>f d>fA>B | ~=c>d~e>f g2 (a/g/f/e/) |
+d>fA>f dfAf | ~d>e~f>g a2 (a/g/f/e/) | d>fA>f d>fA>B | ~=c>d~e>f g2 ef/g/ | a>fg>e f>de>c | d>AB>G TF2D |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | d2d2 d2d2 | =c2c2 c2c2 | d2d2 d2d2 | d2A2 D2D :| z | d2d2 d2d2 | =c2c2 c2^c2 |
+d2d2 d2d2 | d2A2 d2d2 | d2d2 d2d2 | =c2c2 c2c2 | d2e2 f2g2 | a2A2 d2d |]

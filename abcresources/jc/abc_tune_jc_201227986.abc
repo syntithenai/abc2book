@@ -1,0 +1,28 @@
+X: 11024
+T: the EARL OF EGLINTON'S BIRTH-DAY
+C: Hugh Gilmour
+Q: "Strathspey."
+%R: strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.102 #4
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The rhythm in bar 9 is a bit strange, and doesn't total 8/8; fixed by adjusting the beams to match the dots.
+M: C
+L: 1/8
+K: F
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+F<(F A2) G<(G B2) | Ac d/c/B/A/ BGGA |\
+F<F A2 G<G B2 | fc c/d/c/B/ AFF :| A |\
+f>gfd egg2 | a<a b/a/g/f/ e(gga) |
+f>gfc (3(def) (3(efg) | fc c/d/c/B/ AFFc |\
+f>gf>e e<g-g<g | a>a b/a/g/f/ eg-gc |\
+(3(def) (3(efg) (3(fga) (3(gfe) | fc c/d/c/B/ AFF |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Composed by the late Hugh Gilmour,
+%% of Stevenston, Ayrshire,
+%% and never before published.
+%%endtext
+%%sep 1 1 300

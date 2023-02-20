@@ -1,0 +1,28 @@
+X: 1
+T: Drapers Maggot
+P: Longways for as many as will
+%R: minuet
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.203
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice over" instruction.
+N: The actual time signature is "3i".  The low G, in bar 7 should probably be a low A, instead.
+M: 3/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D2 DEFG | A2 d2 A2 | B2 BA G2 | A2 AG F2 |\
+G2 GF E2 | F2 FE D2 | FG A2 G,2 | D6 :|\
+|:\
+d2 defg | g2 ag f2 | g2 gf e2 | f4 e2 |\
+fg a2 gf | ef g2 fe | de e4 | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text Note: Each Strain twice over.
+%%begintext align
+%% Hands all four quite round and cast off .| and Right and Left with the 3. cu. :| then the 1. man turn the
+%% 3. wo. and the 1. wo. the 2. man, and then his own Partner .| then the 1. man turn the 2. wo. and
+%% the 1. wo. the 3. man, and then turn Partners :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

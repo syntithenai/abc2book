@@ -1,0 +1,36 @@
+X: 1
+T: Syrtos: Psaropoula
+R: syrtos
+O: Greece
+M: 2/4
+L: 1/16
+K: D
+[dF][eG][fA] "B"\
+| "G"[g3B3][gB] [g2B2][g2B2] \
+| "Em"[gB][fA][gB][ac] [gB][fA][e2G2] \
+| "D"[f3A3][fA] [f2A2][f2A2] \
+| "Bm"[fA][eG][fA][gB] [fA][eG][d2F2] \
+| "Em"[e3G3][eG] [e2G2][e2G2] |
+| "A7"[eG][fA][eG][dF] [eG][dF][e2G2] \
+| "A7"[ac][^gB][ac][bd] [ac][=gB][fA][eG] \
+| "D"[dF][cE][dF][eG] [fA][gB][ac][gB] \
+| "A7"[f2A2][eG][dF] [cE][dF][eG][cE] \
+| "D"[d8F8] \
+"C"\
+|[| "D"[d3F3][dF] [d2F2][e2G2] \
+| [f3A3][fA] [fA][eG][d2F2] |
+| "A7"[e4G4] [c2E2]{B}[A2C2] \
+| "D"[d8F8] \
+| "A7"[e4G4] [c2E2]{B}[A2C2] \
+| "D"[d4F4] [e2G2][f2A2] "D" \
+|| "G"[g3B3][gB] [g2B2][g2B2] \
+| "Em"[gB][fA][gB][ac] [gB][fA][e2G2] \
+| "D"[f3A3][fA] [f2A2][f2A2] \
+| "Bm"[fA][eG][fA][gB] [fA][eG][d2F2] |
+| "Em"[e3G3][eG] [e2G2][e2G2] \
+| "A7"[e2G2][eG][fA] [eG][^dF][e2G2] \
+| "A7"[fA][gB][ac][gB] [f2A2][e2G2] \
+| "D"[dF][cE][dF][eG] [fA][gB][ac][gB] \
+| "A7"[f2A2][f2A2] [eG][dF][e2G2] \
+|["1-N" "D"[d4F4] z \
+:|["lzst" "D".[d2F2] "A7".[A2G2] "D".[d2F2]z2 |]

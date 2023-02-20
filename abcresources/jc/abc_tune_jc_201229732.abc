@@ -1,0 +1,17 @@
+X: 128
+T: Duke of York's Favourite
+%R: reel
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.50 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: Incorrect keysig (2 sharps) corrected.
+M: 2/4
+L: 1/16
+K: G
+|:\
+(GABc) (dBce) | d2B2 G4 | (FGAB) (cABG) | A2F2 D4 |\
+(GABc) (dBce) | d2g2 b4 | (abag) (defd) | g2g2 g4 :|
+|:\
+(gf).g.d B2B2 | (dc).d.B G2G2 | (FGAB) (cABG) | A2d2 D4 |\
+(gf).g.d B2B2 | (dc).d.B G2G2 | (cdef) (gefc) | (dcde) (ec"Da Capo"BA) |]

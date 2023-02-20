@@ -1,0 +1,39 @@
+X: 1
+T: the Duke of Fife's Welcome to Deeside
+C: J. Scott Skinner
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+S: BSFC XIV-25; Tune Book p.2
+M: 4/4
+L: 1/16
+O: Scotland
+R: March
+K: A
+E2 "A"|\
+"A"[E2A,2]A2 A2Bc "E"B2A2 "A"A2Bc | "D"d2ef "A"e2a2 ecAc "E"B2E2 | \
+"A"E2A2 A2Bc "E"{c}B2A2 "A"A2Bc | "D"{c}d2ef "E"ecBc "A"{G}[A4-A4] [A2E2] :| 
+cd "B1"|\
+"A"e2cA a2ga "D"f2a2 "A"e2c2 | "D"d2ef "A"e2a2 ecAc "E"B2cd | \
+"A"e2cA a2ga "D"f2a2 "A"e2c2 | "D"{c}d2ef "E"ecBc "A"{G}A4 [A2E2] |]
+cd "B2"|\
+"A"e2cA a2ga "D"f2a2 "A"e2c2 | "D"d2ef "A"e2a2 ecAc "E"{c}B2E2 | \
+"A"[E2A,2]A2 A2Bc "E"{c}B2A2 "A"A2Bc | "D"{c}d2ef "E"ecBc "G"{G}[A4-A4] [A2E2] |] 
+
+X: 2
+T: the Duke of Fife's Welcome to Deeside variation
+C: J. Scott Skinner
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+S: BSFC XIV-25; Tune Book p.2
+M: 4/4
+L: 1/16
+O: Scotland
+R: March
+K: A
+E2 "C"|\
+"A"EDCE AA,Ac "E"BAGB "A"AA,Ac | "D"dcdf "A"ecAa ecAc "E"BAGF | \
+"A"EDCE AA,Ac "E"BAGB "A"AA,Ac | "D"defa "E"ecdB "A"A4- [A2A,2] :| 
+cd "D1"|\
+"A"ecdB Aaga "D"fadf "A"eace | "D"dcdf "A"ecAa ecAc "E"BBcd | \
+"A"(3(edc) (3(dcB) Aaga "D"fadf "A"eace | "D"defa "E"ecdB "A"{G}A4- [A2A,2] |]
+cd "D2"|\
+"A"ecdB Aaga "D"fadf "A"eace | "D"dcdf "A"ecAa ecAc "E"BAGF | \
+"A"EDCE AA,Ac "E"BAGB "A"AA,Ac | "D"defa "E"ecdB "G"A4- [A2A,2] |] 

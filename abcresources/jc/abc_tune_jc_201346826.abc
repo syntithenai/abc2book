@@ -1,0 +1,10 @@
+X: 1
+T: The Trugh
+B: A COLECTION of the most Celebrated Irish Tunes2 p.9b
+N: The length of the first ending doesn't make sense.  It might have to do with the .S. notation in the 4th full bar.
+N: The repeat notation for the second ending is unusual, with a : on both sides of the bar line.
+M: 3/4
+L: 1/8
+K: Em
+Bd | e2 e>f g>f | e2 d>B g>f | e2 d>B A>G | E3 ".S." Bc.d |
+B2 B>d e>g | A2 G>A B>A | G2 E>D D>E |1 E3 ::[2 E4 :|

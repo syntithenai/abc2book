@@ -1,0 +1,19 @@
+X: 149122
+T: MARY YOUNG AND FAIR
+Q: "Slow and Tenderly."
+%R: air, jig
+B: James Kerr "Merry Melodies" v.1 p.49 s.1 #22
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: Am
+uE |\
+(A>BA) {B}uc2ud | {c}ve2vc dcB | {B}ve2vA (A>BA) | ^G3 z2uE |\
+(A>BA) c2d | {c}e2c (deg) | e2c dcB | A3- A2 :|\
+{e}ug |\
+a>ba ug2uf | e2c deg | e2A A>BA | ^G3 z2uE |
+A>BA c2d | e2c agf | e2c dcB | A3 z2{e}ug |\
+a>ba g2f | e2c deg | e2A A>BA | ^G3 z2uE |\
+c>Bc d>^cd |"^rall."e>^de Hc'2 b/a/ | e2c dcB | A3- A2 |]

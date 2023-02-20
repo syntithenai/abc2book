@@ -1,0 +1,57 @@
+X: 1
+T: Ciribiribin   [G]
+C: music: Alberto Pestalozza (1898)
+C: words: Carlos Tiochet (1899)
+M: 3/4
+L: 1/8
+K: G
+%%continueall 1
+% - - - - - - - - - -
+"A"[|] d2 B2 || "G"A4 G2 | F4 G2 | EF D4 | z2 G2 A2 | "G"B4 d2 | e4 g2 | "D7"f6 |
+w: Su fi-ni-sci-la coi ba-*ci    Bel mo-ru-ccio bi-ric-chin
+   z2 f2 a2 || "D7"e4 g2 | f4 e2 | fe A4 | z2 A2 B2 | "D7"c4 d2 | e4 f2 | "G"d6 |
+w: Ma non ve-di tu la lu-*na    Che dal ciel fa ca-po-lin?
+   z2 d2 B2 || "G"A4 G2 | F4 G2 | EF D4 | z2 d2 e2 | "E7"=f4 e2 | =f4 e2 | "Am"e6 |
+w: La-scia pur la lu-na spi-*i    Noi las cia-mo-la spi-ar
+   z2 A2 B2 || "D7"c4 B2 | A4 e2 | "G"dB G4 | "(Cm)"z2 G2 A2 | "G"B2 d2 B2 | "D7"A4 d2 | "G"G4 z2 |]
+w: An-zi, il pal-li-do suo rag-gio    Ci con-si-glia a se-gui-tar!
+%
+"B"[| B2 B3 B || "Em"e6 | B2 B3 B | "B7"f6 | B2 B3 B | "B7"B6 | F2 G3 A | "Em"B6 | z2 z2 B2 ||
+w: Ma poi chis-s\`a? Co-sa di-r\`a?     E via di-r\`a quel-che vor-r\`a    di-
+   "B"B6 | z2 z2 d2 | "D7"d6 | z2 d_dcB | d2 d_dcB | "G"d2 d_dcB | "D7"d6 | z2 
+w: r\`a, di-r\`a!   Ci-ri-bi-ri-bin, Ci-ri-bi-ri-bin, Ci-ri-bi-ri-bin!
+%
+"C"|: "D7"d_dcB || "G"d4 B2 | A4 G2 | D2 z2 G2 | A4 G2 | "G"D4 B2 | A4 G2 | "Am"c6 |
+w: Ci-ri-bi-ri-bin che bel fac-cin    Che sguar-do dol-ce as-sas-sin
+   z2 e_edc || "D7"f4 e2 | c4 B2 | A2 z2 A2 | B4 A2 | "D7"e4 g2 | f4 e2 | ("G"e6 | d2) ","y
+w: Ci-ri-bi-ri-bin, che bel nas-sin    Che bel den-tin, che bel boc-chin!_
+   "D7"d_dcB || "G"d4 B2 | A4 G2 | D2 z2 G2 | A4 G2 | "G"D4 B2 | "(G+)"A4 G2 | "C"e6 |
+w: Ci-ri-bi-ri-bin che bel fac-cin    Che squar-do dol-ce as-sas-sin
+   z2 fe^de || "C"g6 | z2 fe^de | "G"g6 "I"| z2 BA^GA | "Am"c4 F2 | "D7"B4 A2 | "G"G6 | z2 :|
+w: Ci-ri-bi-ri-bin, Ci-ri-bi-ri-bin    Ci-ri-bi-ri-bin che bel fac-cin.
+% - - - - - - - - - -
+% - - - - - - - - - -
+%W: English lyrics (lyricist unknown):
+%W:
+%W: When the moon is brightly shining
+%W: On a lovely night like this
+%W: Ev'ry maiden's heart is pinning
+%W: For a sweetheart's tender kiss
+%W: 'Tis the song of sweet romancing
+%W: Filling hearts with love's desire
+%W: 'Tis a melody entrancing
+%W: Setting each maiden's heart a fire
+%W: Now from a far hear the quitar
+%W: Oh, hear it played sweet Serenade,
+%W: dir\`a, dir\`a
+%W: Ciribiribin, Ciribiribin, Ciribiribin.
+%W: (Ciribiribin, Ciribiribin, Ciribiribin.)
+%W: Ciribiribin I love you and
+%W: Do cherish you with all my heart
+%W: Ciribiribin, I hope and pray
+%W: Each day that we will never part
+%W: Ciribiribin If you would only
+%W: Say your love will never die
+%W: Ciribiribin, Ciribiribin,
+%W: (Ciribiribin, Ciribiribin)
+%W: Ciribiribin I love you so

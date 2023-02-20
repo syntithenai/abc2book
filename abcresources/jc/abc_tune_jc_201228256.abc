@@ -1,0 +1,55 @@
+X: 11141
+T: a CONTRA DANCE
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.114
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%%indent 70
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="Clarionet in C" sname="Cl" staves=4
+V: 1 % staves=8
+K: G
+z !segno!|\
+!f!B2G {B}A^GA | FcB B2z |\
+B2G {B}A^GA | F2F G2 !fine!:: d |\
+(a2g) {g}f>ef | {g}f>ef (g2e) |
+({ef}g2e) ({ef}g2e) | (gf).e a2f |!mf!\
+(f2e) {e}d>^cd | {e}d>^cd e2c |\
+({^cd}e2c) ({cd}e2c) | (ed)^c d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 name="1st Violin" sname="Vl1"
+K: G
+d |\
+!f!g2B {d}cBc | (Aed) d2d |\
+g2B {d}cBc | (Ad)F G2 !fine!:: d |\
+(f2e) {e}d>^cd | {e}d>^cd (e2c) |
+({^cd}e2c) ({cd}e2c) | (ed).^c f2d |!mf!\
+(a2g) {g}f>ef | {g}f>ef g2e |\
+({ef}g2e) ({ef}g2e) | (gf)e d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 name="2d Violin" sname="Vl2"
+K: G
+z |\
+B,DG A,CE | A,CD G,B,D |\
+B,DG A,CE | CEA, B,2 !fine!:: z |\
+[F2A,2]z [F2A,2]z | [F2A,2]z [G2A,2]z |
+[G2A,2]z [G2A,2]z | [G2A,2]z [F2A,2]z |!mf!\
+[F2A,2]z [F2A,2]z | [F2A,2]z [G2A,2]z |\
+[G2A,2]z [G2A,2]z | [G2A,2][GA,] [F2A,2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 4 name="Base" sname="Bs" clef=bass middle=d
+K: G
+z |\
+G2z c2z | d2z g2z |\
+G2z c2z | d2d [b2g2] !fine!:: !p!z |\
+d2z d2z | d2z A2z |
+A2z A2z | a2z d2z |!mf!\
+d2z d2z | d2z A2z |\
+A2z A2z | A2A d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

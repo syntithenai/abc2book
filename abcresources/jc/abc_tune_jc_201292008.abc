@@ -1,0 +1,36 @@
+X: 1
+T: Jambalaya
+C: Hank Williams (1952)
+R: song
+D: "Jambalaya (On the Bayou)" (B-side: "Window Shopping") by Hank Williams With His Drifting Cowboys, July 19, 1952
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: C
+% %continueall
+EG | "C"A2 EG | A2 GE | "G7"G D3 | z2
+w: 1.~Jum-ba-laya, craw-fish pie, fil-let gum-bo,
+w: 2.~Good-bye, Joe, me gotta go, me oh my oh.
+w: 3.~Thi-bay-daux, Fon-tain-eaux, place is buzz-in'
+w: 4.~Set-tle down, far from town, buy a pi-rogue.
+%
+GG | B2 BB | AG A>G | "C"G E3 | z2 
+w: 'cause to-night I'm gonna see my cher-a mi-o.
+w: Me gotta-go pole the pi-rogue down the bay-ou.
+w: Kin-folk come~to see Y-vonne* by the doz-en. 
+w: Gon-na catch~me all the craw-fish in the ba-you.
+%
+cc | c>c AG | c2 AG | "G7"GD3 | z2
+w: Pick gui-tar,* fill fruit jar and be gay-o.
+w: My Y-vonne, the sweet-est one, me oh my oh.
+w: Dress in style and go hog wild, me oh my oh.
+w: Save my mon'* buy Y-vonne what she need oh.
+%
+G/G/G | B-B/B/ AG | A2 G>E | "C"D C3 | z2 |]
+w: Son of a gun, gon-na have big fun on the bay-ou.
+w: Son of a gun,* we'll have big fun on the bay-ou.
+w: Son of a gun,* we'll have big fun on the bay-ou.
+w: Son of a gun, gon-na have big fun on the ba-you.
+%
+% First verse is the chorus.
+%%text Ending: Repeat last line.

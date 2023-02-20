@@ -1,0 +1,15 @@
+X: 114
+T:Sapari Tamar
+O:Israeli
+I:Dance taught by Yo'av Ashriel
+L:1/8
+M:2/4
+Q:1/4=120
+K:Dm
+%%MIDI gchord f2z2
+   c'3 f      | g2f2      |g2 ab       |ag g2- |g4    |\
+   c'4        |f2g2       |f2g2        | abag  | g4   | a4|
+K:EDor
+|: "D"D2 "A"CD| EF E2     | "D"D2 "A"CD| E4    :|\
+   "D"EF G2-  |G2 "D"F2   |"D"A4       |"A"E4\
+|: "D"A4      |"D"D2 "G"E2|"D"D2 "G"E2 |"D"FGFE|"E"E4-|E4 :|

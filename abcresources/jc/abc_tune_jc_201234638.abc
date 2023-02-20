@@ -1,0 +1,20 @@
+X: 20672
+T: CHINESE AIR
+Q: "Slow and with feeling."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.67 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: It might be better to change the key signature for each strain.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+(D2G2)(G3A) | (B2c2)(e3d) | (c2dc) (A3F) | F3D D4 |\
+D2G2G3A | (B2c2)(e3d) | (c2dc) (A2D2) | D2G2 "^Fin."G4 H|]
+A2(FA) dddd | ^c2(eG) BBBB | (E2G^C) EEEE | (D2FA) D4 |\
+A2(FA) dddd | ^c2eG BBBB | (E2G^C) EEEE | (D2_e2d2=c2 |
+_B2G2_E2=F2) | (D2_e2d2=c2 | _B2G2_E2=F2) | (D2_e2d2=c2 |\
+_B2G2_E2=F2) | (D2G2_E2=F2) | D2G2_E2=F2 | D2D2 (=E3D) | D3D (HE3"^D.C."D) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

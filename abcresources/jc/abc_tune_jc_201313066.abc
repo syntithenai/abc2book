@@ -1,0 +1,14 @@
+X: 1
+T: Morpeth Rant 2
+O: Trad
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: There are two common versions of this tune, with different second parts.
+N: Northern Frisk
+M: C|
+L: 1/8
+K: G
+D2 \
+| "G"{EF}G2DC B,G,B,D | "C"ECEG | "D7"FDFA | "G"BGcA dBAG |1,3 "D7"F2A2 A2 :|2,3 "D7"D2G2 "G"G2 :|
+|: ef \
+| "G"gdBG "D7"FAce | "G"dBAG GFED | "D7"cAcA "G"BGBG | "D7"F2D2 D3 =F |
+| "C"ECEG cBAG | "D7"FDFA dcBA | "G"Ggfe "D7"dcBA | "G"G2B2 G2 :|

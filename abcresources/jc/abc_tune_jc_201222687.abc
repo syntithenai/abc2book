@@ -1,0 +1,25 @@
+X: 061
+T: Mrs Cartwrights delight
+N: This tune has "1773" at the top-right corner.
+B: 204 Favourite Country Dances
+N: Published by Straight & Skillern, London ca.1775
+F: http://imslp.org/wiki/204_Favourite_Country_Dances_(Various) p.31 #61
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The rhytms between the strains are mismatched; not fixed.
+N: The 1st f of the 1st bar should probably be g, like bar 5.
+M: 6/8
+L: 1/8
+K: G	% Actually Dmix in the 1st strain
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f |\
+fab agf | efg fed | caa Bgg | ABG FED |\
+gab agf | efg fga | fed ABc | d3 D2 :|
+|:\
+DGG BGG | dGG BGG | fdd BGG | ABG FED |\
+DGG BGG | dGG BGG | Bcd DEF | G3 G,3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across lead outsides & turn .| the same back
+%% again .|. cast off 1 Cu. hands round four :|. Right
+%% and Left :|:
+%%endtext

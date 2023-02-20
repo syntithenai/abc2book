@@ -1,0 +1,74 @@
+
+X: 1
+T: Sabrali sa se sabrali    [Bm]
+O: Bulgaria
+S: Pinewoods International Collection 2nd ed. p.245-6
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 7+9/8
+P: AAB AB ABB
+K: Bm
+"A"|:\
+"Em"Bee e2 (ed) | "Bm"(ef)(fd) (dB-) B3 |\
+cdB c2"A"A2 | A2 "Bm"B3 B2 z2 :|
+"B"|:\
+"A"cdB c2 (AE) | A2 "Em"B3 d2 cB |\
+"A"cdB c2 (AE) | A2 "Bm"B3 B2 z2 :|
+%%text Last time, slow down the last bar.
+
+%%sep 1 1 500
+
+X: 1
+T: Sabrali sa se sabrali    [Cm]
+O: Bulgaria
+S: Pinewoods International Collection 2nd ed. p.245-6
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 7+9/8
+P: AAB AB ABB
+K: Cm
+"A"|:\
+"Fm"cff f2 (fe) | "Cm"(fg)(ge) (ec-) c3 |\
+dec d2"Bb"B2 | B2 "Cm"c3 c2 z2 :|
+"B"|:\
+"Bb"dec d2 (BF) | B2 "Fm"c3 e2 dc |\
+"Bb"dec d2 (BF) | B2 "Cm"c3 c2 z2 :|
+%%text Last time, slow down the last bar.
+
+%%sep 1 1 500
+
+X: 1
+T: Sabrali sa se sabrali    [Dm]
+O: Bulgaria
+S: Pinewoods International Collection 2nd ed. p.245-6
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 7+9/8
+P: AAB AB ABB
+K: Dm
+"A"|:\
+"Gm"DGG G2 (GF) | "Dm"(GA)(AF) (FD-) D3 |\
+EFD E2"C"C2 | C2 "Dm"D3 D2 z2 :|
+"B"|:\
+"C"EFD E2 (CG,) | C2 "Gm"D3 F2 ED |\
+"C"EFD E2 (CG,) | C2 "Dm"D3 D2 z2 :|
+%%text Last time, slow down the last bar.
+
+%%sep 1 1 500
+
+X: 1
+T: Sabrali sa se sabrali    [Em]
+O: Bulgaria
+S: Pinewoods International Collection 2nd ed. p.245-6
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: 7+9/8
+P: AAB AB ABB
+K: Em
+"A"|:\
+"Am"EAA A2 (AG) | "Em"(AB)(BG) (GE-) E3 |\
+FGE F2"D"D2 | D2 "Em"E3 E2 z2 :|
+"B"|:\
+"D"FGE F2 (DA,) | D2 "Am"E3 G2 FE |\
+"D"FGE F2 (DA,) | D2 "Em"E3 E2 z2 :|
+%%text Last time, slow down the last bar.

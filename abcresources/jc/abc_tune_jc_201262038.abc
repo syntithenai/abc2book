@@ -1,0 +1,39 @@
+X: 1
+T: Christ Church Bells in Oxon
+P: Longways for as many as will
+%R: march
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.104 #150 (208)
+B: "The Dancing-Master: Containind Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.104
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: This tune is often played as a round.
+N: The dances in DMDfD and CCDM1 are identical except for minor spelling and punctuation differences.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[| c3  c c2 c2 | c2 c2 c2 e2 | d2 c2 B2 A2 | G6      G2 | E2 G2 C2 G2 | c2 F2 G2 gf | f2 a2 de f2 | e3 d c4 |]
+[| e3  e e2 e2 | e3  e e2 g2 | f2 ef d2 c2 | d2 G2 d3 d | e2 d2 e2 d2 | e2 d2 d2 cB | c2 A2 d2 B2 | c3 d e4 |]
+[| gg gg g2 gg | g2 gg g2 G2 | A3  B c2 d2 | B6      AB | c2 B2 c2 B2 | c2 d2 B2 AG | G2 F2 G3  G | C8      |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the Presence, then to your We. lead up all forward and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First Man turn right hands with the 2d Wo. once round, and left hands with his
+%% own Wo. once round:  This ends the first Strain of the tune.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Second Man turn left Hands with the 1t Wo. once round, and right Hands
+%% with his own Wo. once round:  This ends the second Strain.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% All four take Hands and go once round, then each Cu. clap right and left
+%% Hands; then the 1st Cu. cast off into the 2d Cu. Place, while the 2d Cu.
+%% leads up.  This ends the third Strain.
+%%endtext
+%%sep 1 8 500

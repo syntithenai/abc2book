@@ -1,0 +1,53 @@
+%%text RJ Set 046 Reels
+
+
+X: 1
+T: Skippin' Cat
+I: RJ  R-122 G reel
+C: Jack Link \2511986
+M: C|
+R: reel
+K: G
+B,C |\
+"G"DCB,C DCB,C | DGBG "C"c2Bc |\
+"G"dedc BAG=F | "C"EC3 C2B,C ||\
+"G"DCB,C DCB,C |
+DGBG "C"cdef | "D"gage dBAc |[1 "G"BG3 G2 :|[2 "G"BG3 G4 |:\
+"D"A3c "G"B2d2 | "D"ABcA "G"BG3 |
+"D"A3c Bdef | gedc "G"BG3 ||\
+"D"A3c "G"B2d2 | "D"ABcA "G"Bdef | "D"gage dBAc |\
+[1 "G"BG3 G4 :|[2 "G"BG3 G2 |]
+
+
+X: 2
+T: Cuffy
+I: RJ  R-122 G reel
+M: C|
+R: reel
+K: G
+ef |\
+"G"gfed BdBG | DEGA B4 | "D"DFAB cBcd | "G"edBc d2ef |\
+"G"gfed BdBG | DEGA B4 | "D"DFAB cAFD |
+"G"G6 :: Bc |\
+"G"d4 d4 | dedc Bcd2 | "C"e4 e4 | efed Bdef |\
+"G"g2ga gfef | gfed BdBG | "D"DFAB cAFD | "G"G6 :|
+
+
+X: 3
+T: Grand Picnic
+I: RJ R-123 D reel
+M: C|
+R: reel
+K: D
+|:\
+"D"DFAB AFEF | DFAd fedf |\
+"G"edBc "Em"dBAB | "A"AFE2 E2FE ||\
+"D"DFAB AFEF | DFAd fedf |
+"G"edBc "Em"dcdB |1 "A"AFE2 "D"D2FE :|2 "A"AFE2 "D"D2de \
+|:\
+"D" fefg a2a2 | fefg a2fa |
+"G"g2ge "D"fedf | "Em"edef "A"edB2 ||\
+"D"dcdA BAFE | DFAd fedf |\
+"G"edBc "Em"dcdB | "A"AFE2 "D"D4 :|
+% text 08/29/98
+

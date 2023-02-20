@@ -1,0 +1,17 @@
+X: 441	% 126
+T: Quadrille Or Virginia Reel
+T: Name Unknown
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.44 #1
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Fixed the rhythm in bar 4 by making the A a quarter note.
+M: 6/8
+L: 1/8
+K: D
+V: 1 name="126"
+(3(A/B/c/) |\
+dcd Adf | e^de Ace | fba gfe | dcB A2(3(A/B/c/) |\
+dcd Adf | e^de Beg | fba gfe | dAf d2 :|
+|: (d/f/) |\
+a^ga dfa | b=gb dgb | bag fed | cBA gfe |\
+dcd Adf | e^de Beg | fba gfe | dAf d2 :|

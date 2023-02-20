@@ -1,0 +1,19 @@
+X: 10022
+T: MINUET, from "Don Giovanni."
+C: Mozart
+Q: "Moderato."
+%R: minuet, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.2 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+c2 cccc | c>f c2 z2 | B2 BBBB | c/B/A/B/ A2 z2 |\
+=B2 BBBB | c>d e2 ze | f>d c2 =B2 | c4 z2 :|
+|:\
+e2 eeee | f>c c2 zA | B2 BBBB | A>B c2 z2 |\
+d>e ffff | f>g a2 za | b>g f2 e2 | f4 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

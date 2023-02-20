@@ -1,0 +1,29 @@
+X: 40
+T: la Ruggieni
+N: Spelled "Ruggiene" in the index.
+%R: Rmarch, reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.18,19 #40
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The end of bar 9 is obscured; it should perhaps be b2g2 as in bar 13.
+M: 2/4
+L: 1/16
+K: G
+%%slurgraces 1
+%%graceslurs 1
+|:\
+G4 A2c2 | {c}B4 c2e2 | d2c'2f2a2 | gfga g2g2 |\
+G2BG A2c2 | B2dB c2e2 | dc'ba g2f2 | g4 g4 ::\
+b2ga b4 |
+c'2ab c'2a2 | b2ga b2g2 | {g}f2d2 d4 |\
+b2(ga) b2g2 | c'2b2a2g2 | {g}f2d2 egfa | g4 g4 ::\
+f2ag f2d2 | g2ba g2e2 | f2a2^c2e2 |
+d^cde d2d2 |\
+!p!(b2g2).g2.b2 | (a2f2).f2.a2 | !f!g2e2d2^c2 | d4 d4 ::\
+d4 c2B2 | {cd}e4 d2c2 | B2A2G2F2 | GFGA G2G2 |
+.d2(d2c2B2) | .e2(e2d2c2) | B2A2G2F2 | G4 G4 ::\
+(G2B2).d2.g2 | (B2d2).g2.b2 | a2c'2f2a2 | gfga g2g2 |\
+(G2B2).d2.g2 | (B2d2).g2.b2 |
+a2g2f2e2 | d4 d4 ::\
+d4 c2B2 | {cd}e4 d2c2 | B2A2G2F2 | GFGA G2G2 |\
+.d2(d2c2B2) | .e2(e2d2c2) | B2A2G2F2 | G4 G4 :|

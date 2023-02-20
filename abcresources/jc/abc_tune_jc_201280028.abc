@@ -1,0 +1,96 @@
+
+X: 1
+T: General Guinness
+C: words: Seamus Kennedy
+R: song
+Z: id:hn-song-53
+M: 2/4
+L: 1/8
+K: G
+%%continueall
+D | "G"DG GG | GA BB | "C"cE EE | E3
+w: 1.~You've heard of Ge-neral Wel-ling-ton, who won at Wa-ter-loo,
+w:    He's good old Ge-neral Guin-ness, he's a sol-dier strong and stout.
+%
+c | "D7"cA AA | Ad dc | "G"BG "D7"AF | "G"G3 ||
+w: But there's a good old I-rish-man I'll men-tion un-to you.
+w: He's found on ev-ery bot-tle-front, and~he can't be done with-out!
+%
+D | "G"DG GG | GA BB | "C"cE EE | E3
+w: He comes from dear old Dub-lin, he's a man we all ap-plaud,
+w: His no-ble name his world-wide fame, de-serve three hear-ty cheers,
+%
+c | "D7"cA AA | Ad dc | "G"BG "D7"AF | "G"G3 |]
+w: For~he al-ways finds a cork-screw far more han-dy than a sword.
+w: Hur-rah! for Ge-neral Guin-ness of the Dub-lin Boo-zi-liers!
+%
+%W:1.
+%W: You've heard of General Wellington, who won at Waterloo,
+%W: But there's a good old Irishman I'll mention unto you.
+%W: He comes from dear old Dublin, he's a man we all applaud,
+%W: For he always finds a corkscrew far more handy than a sword.
+%W: He's good old General Guinness, he's a soldier strong and stout.
+%W: He's found on every bottlefront, and he can't be done without!
+%W: His noble name his world-wide fame, deserve three hearty cheers,
+%W: Hurrah! for General Guinness of the Dublin Booziliers!
+W:2.
+W: This hale and hearty warrior is worshipped in the ranks,
+W: For he does his task inside the cask, as well as in the tanks.
+W: He bears the brunt on every front, north, south, east, and west,
+W: And he wears about ten million canteen medals on his chest.
+W: He's good old General Guinness, he has won the world's applause.
+W: 'Twas him who kept our spirits up in the midst of all our wars.
+W: Who was the first to flirt with Mademoiselle from Armentieres?
+W: Why good old General Guinness of the Dublin Booziliers.
+W:3.
+W: All over bonny Scotland too, the General is seen.
+W: They've given him the freedom of the toon of Aberdeen.
+W: From Inverness to Galashiels, he keeps them warm and bright,
+W: And they love to gather 'round him, och, on every moonlit night.
+W: He's good old General Guinness, he's as strong as Scottish broth,
+W: 'Twas him who turned the Firth of Forth into the Firth of Froth.
+W: All Scotsmen dance The Highland Fling and shout when he appears,
+W: Hurrah! for General Guinness of the Dublin Booziliers.
+W:4.
+W: Through the length and breadth of Ireland, the General he is known,
+W: His Convoy takes his liquid joy to Kerry and to Rome.
+W: From Saint James's Gate he's never late, on his appointed round,
+W: And no matter what the weather, sure, he never lets us down.
+W: He's good old General Guinness, he's as good as Irish stew,
+W: We all recall his war cry, "Guinness is Good For You."
+W: So Irish men all raise a glass, and give three rousing cheers,
+W: Hurrah! for General Guinness of the Dublin Booziliers!
+
+
+X: 1
+T: General Guinness   [C]
+R: song
+Z: id:hn-song-53
+M: 2/4
+L: 1/8
+K: C
+G | "C"Gc cc | cd ee | "F"fA AA | A3 \
+f | "G7"fd dd | dg gf | "C"ec "G7"dB | "C"c3 :|
+
+
+X: 1
+T: General Guinness   [D]
+R: song
+Z: id:hn-song-53
+M: 2/4
+L: 1/8
+K: D
+A | "D"Ad dd | de ff | "G"gB BB | B3 \
+g | "A7"ge ee | ea ag | "D"fd "A7"ec | "D"d3 :|
+
+
+X: 1
+T: General Guinness   [F]
+R: song
+Z: id:hn-song-53
+M: 2/4
+L: 1/8
+K: F
+C | "F"CF FF | FG AA | "Bb"BD DD | D3 \
+B | "C7"BG GG | Gc cB | "F"AF "C7"GE | "F"F3 :|
+

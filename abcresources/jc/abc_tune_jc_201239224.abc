@@ -1,0 +1,20 @@
+X: 3232
+T: Honb.le Capt.n Elphinston's   Strathspey
+C: by Nath. Gow
+%R: strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.23 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+G<Gd>B TG2DB | G<GGd Td>cBg | G<Gd>B TG2DE |[1 TF>GAB c>BAf :|[2 TF>GAB cffa |] g<gb>a Tg2de/^f/ |
+ggga {ga}b>agd | g<gb>a Tg2dc/B/ | Afcf TA>GFa || g<gb>a Tg2de/^f/ | ggga {ga}b>agd | g<gbg afge | Tf>cdf A<Fc>A |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+G2g2 g2g2 | g2g2 g2g2 | g2G2 g2g2 |[1 f2f2 f2f2 :|[2 f2f2 f2f2 |] g2g2 g2d2 |
+G2g2 G2G2 | g2g2 g2g2 | f2f2 f2f2 || g2g2 g2d2 | g2G2 g2g2 | g2g2 g2g2 | f2f2 f2f2 |]

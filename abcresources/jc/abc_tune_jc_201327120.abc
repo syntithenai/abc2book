@@ -1,0 +1,17 @@
+X: 1
+T: the Quarantine Jig
+C: John Blandin
+R: jig
+%D2020
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+S: https://thesession.org/tunes/19115
+S: https://www.youtube.com/watch?v=4HnjWAhP6n0
+M: 6/8
+L: 1/8
+K: Bm
+F |\
+"Bm"[B2F2]B Bcd | "A"cBA "Bm"BAF | "D"d2d def | fed "A"ecA |
+"Bm"[B2F2]B Bcd | "A"cBA "Bm"BAF | "G"GAB "A"ABc | dcA "Bm"B2 :|
+|: A |\
+[d2D2]d def | "A"afe "D"dBA | "G"[B2G2]B Bcd | "A"efe cdA |
+[d2D2]d def | "A"afe "D"dBA | "G"GAB ABc | "A"dcA "Bm"B2 :|

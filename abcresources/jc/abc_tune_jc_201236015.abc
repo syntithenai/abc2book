@@ -1,0 +1,35 @@
+X: 21551
+T: LA VERRE EN MAIN POLKA
+C: Par Tahrbach
+R: polka
+B: K\"ohler's Violin Repository, v.2, 1885 p.155
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Inconsistent beaming, split in bars that have all notes beamed together.  Other odd beaming left as-is.
+N: This tune uses the abcm2ps +beambr1+ pseudo-ornament to break double beams after triplets.
+M: 2/4
+L: 1/16
+K: F
+|:\
+vc2AB c2AB | (c2d2) d4 | c2c2 (cd)cA | B8 |\
+c2=Bc c2Bc | (c2e2)e4 | d2d2 (df)ed | c8 |
+c2AB c2AB | (c2d2) d4 | c2c2 (cd)cA | B8 |\
+f2f2 {g}fefd | e2e2 {f}e^dec | =d2d2 {e}d^cd=B |[1 c2cc (.c2.c2) :|[2 c4 (a3g) |]
+|: vg2f2 (.f3.d) | d4 (a3g) | g2f2 (.f3.c) | c6 ed |\
+d2c2c2 ed | ((3ded)c2 c2ed | ((3ded)c2 (Acfa) | c'4 (b3a) |
+a2g2 (.g3.f) | d4 (a3g) | g2f2 (.f2.c) | c6 fe |\
+((3efe)d2 d2gf | ((3fgf)e2 e2ag | (fg)ab c'2e2 |[1 f4 (a3g) :|[2 f2 |]
+K: Bb
+u(F2{A}G3F) "Trio"|\
+D2d2 d2d2 | d4 ((3ded)+beambr1+cB | A2f2 f2f2 | f2 (F2{A}G3F) |\
+E2e2 e2e2 | e4 ((3efe)+beambr1+dc | B2f2 f2f2 | f2 (F2{A}G3F) |
+D2d2 d2d2 | d4 ((3ded)+beambr1+cB | A2f2 f2f2 | f4 ((3fgf)+beambr1+=ed |\
+c2b2 b2b2 | b4 ((3bc'b)+beambr1+ag | f2f2 f2f2 | f2 (F2{A}G3F) |
+D2d2 d2d2 | d4 ((3ded)+beambr1+cB | A2f2 f2f2 | f2 (F2{A}G3F) |\
+E2e2 e2e2 | e4 ((3efe)+beambr1+dc | B2f2 f2f2 | f2 (F2{A}G3F) |
+D2d2 d2d2 | d4 ((3ded)+beambr1+cB | A2f2 f2f2 | f4 ((3fgf)+beambr1+=ed |\
+e2b2 b2b2 | b4 ((3bc'b)+beambr1+ag | f2f2 f2f2 | f2f2f2 (de) |
+d2cd c2cd | c2Bc B2Bc | B2A2 e2e2 | d6 (de) |\
+d2cd c2cd | c2Bc B2Bc | B2A2 G2A2 | F2 (e2d2c2) |
+d2cd c2cd | c2Bc B2Bc | B2A2 e2e2 | d6 (fg) |\
+f2ef e2ef | e2de d2de | d2c2 G2A2 | [B6D6] "_Fine."z2 "^D.C."|]

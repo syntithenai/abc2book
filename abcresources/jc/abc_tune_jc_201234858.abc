@@ -1,0 +1,21 @@
+X: 2083
+T: Drummond Castle    Jigg
+%R: jig
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.8 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+% - - - - - - - - - -
+V: 1 staves=2
+E |\
+(AB)A a3 | (ag)e Tg3 | c2c  edc | Bdg dBG |\
+(ABc) a3 |  age  Tg3 | e>ge deg | edB A2 :|
+|: B |\
+c2c cec | d2d  ded | c2c edc | Bdg dBG |\
+c2c edc | deg Ta2g | ege deg | edB A2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | a3 a3 | f3 e3 | c3 c3 | g3 G3 | A3 a3 | f3 e3 | c3 d3 | e3 A2 :||: z |
+c3 c3 | g3 g3 | c'3 c3 | g3 G3 | c3 c3 | B3 f3 | c3 d3 | e3 A2 :|

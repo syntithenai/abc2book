@@ -1,0 +1,26 @@
+X:1
+T: Sucessful Campaign
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A
+% voice 1 (1 lines, 24 notes)
+K:G
+M:4/4
+L:1/16
+G6 B2 A6 c2 |B2 G2 B2 d2 g8 |g2 f2 e2 d2 e2 d2 c2 B2 |c2 B2 A2 G2 F4 E2 D2 |
+%W:
+% voice 1 (1 lines, 20 notes)
+G6 B2 A6 c2 |B2 G2 B2 d2 g8 |g2 f2 e2 d2 e2 f2 g2 e2 |f4 e4 d8 |
+%W: B
+% voice 1 (1 lines, 20 notes)
+d4 d4/3 e4/3 f4/3 |e4 d4 c4 B4 |c4 A4 c4 c4/3 |d4/3 e4/3 d4 c4 |B4 A4 B4 G4 |
+%W:
+% voice 1 (1 lines, 20 notes)
+G6 B2 A6 c2 |B2 G2 B2 d2 g8 |g2 f2 e2 d2 e2 f2 g2 c2 |B4 A4 G8 ||

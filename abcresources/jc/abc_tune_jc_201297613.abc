@@ -1,0 +1,13 @@
+X:389
+T:Knives and Forks
+C:Neal, c.1726
+M:3/2
+%%MIDI beat 100 95 80
+%%MIDI gchord fcHcfc
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=112
+L:1/4
+F:http://serpent.laymusic.org/~lconrad/music/fromweb/frank/knives.abc
+K:G
+|: "G"ga/g/ "D"fg/f/ "C"e/f/g/e/ | "D"fd2f ed | "C"cd/c/ "G"Bc/B/ "D"A/B/c/d/ | "G"BG2B AG :|
+|: "G"G/A/B/c/ dG "Bm"F2 | "Am"EA2G "D"FE/D/ | "G"G/A/B/c/ dG "D7"F2 | "G"DG2B "D7"AG :|

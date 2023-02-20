@@ -1,0 +1,47 @@
+X: 11111
+T: OAK HALL QUICKSTEP
+C:
+%R: jig, quickstep
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.111
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The single use of tremolo in the bass bar 17 transcribed as 6 B notes.
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+!ff!F |\
+B2B/B/ BBB | BAG FED | CCC CDE | F2FF2d |\
+c2c   c=Bc | A2A AGA | Bdc BAG | F2z z2 :|
+|: !pp!F |\
+D2F BBB | d2B f2d | c2e FAc | B2d f2F |\
+D2F BFB | d2B F2B | A2c FAc | B2z z2 :|
+|: !ff!d/e/ |\
+f3  =e3 | f3  z2c | Bdc BAG | F2F F2(c/d/) |\
+e2d edc | Bdc BAG | F2F FGA | B2z z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+!ff!F |\
+D2D/D/ DDD | DFE DCB, | A,A,A, A,B,C | D2D D2B |\
+A2A A^GA | F2F F=EF | DBA GF=E | F2z z2 :|
+|: !pp!z |\
+[D2B,2][DB,] [D2B,2][DB,] | [D2B,2][DB,] [D2B,2][DB,] |\
+[E2C2][EC]   [E2C2][EC]   | [D2B,2][DB,] [D2B,2][DB,] |\
+[D2B,2][DB,] [D2B,2][DB,] | [D2B,2][DB,] [D2B,2][DB,] |\
+[E2C2][EC]   [E2C2][EC]   | D2z z2 :|
+|: !ff!(B/c/) |\
+d3 ^c3 | d3 z2F | F2E DFB, | A,2A, A,2z |\
+CEF CEF | D2E F2[DB,] | A,CF A,B,C | [D2B,2]z z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+!ff!z |\
+Bdf bfd | B2z z2z | FAc edc | Bdf b2z |\
+f2z f2z | f2z f2z | g2z c2z | f2z z2 :|
+|: !pp!z |\
+B2B B2B | B2B B2B | B2B A2A | B2B B2B |\
+B2B B2B | B2B B2B | f2f f2f | B2z z2 :|
+|: !ff!z |\
+bbb bbb | b2a gfe | d2A B2e | f2f f2z |\
+f2f f2f | B2c d2e | f2f f2f | B2z z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

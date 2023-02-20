@@ -1,0 +1,30 @@
+X: 1
+T: the Quadrille
+P: Longways for as many as will
+%R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.90
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (54)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+N: Bass line starts with A, which is obviously wrong.  The F# in bar 3 may be wrong, too.
+N: The tune and dance are identical in CCDTB and CCDM2.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+   G2 | G,2G2 A2GA | B2AB c2BA | G2E2 C2D2 | G,6 :|
+|: de | f2ef  g2fe | d2c2 B2AB | cdc2 BcB2 | FGAF D2gf | efg2 A3G | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+   g2 | G2g2   a2ga | b2ab c'2ba | g2e2 c2f2 | G6 :|
+|: d2 | d'2c'2 b2a2 | b2a2 g2b2 | a4 g4 | d2c2 B2G2 | c2B2 c2d2 | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+%% First lead up all forwards & backwards. the 1st Cu. sett & turn Hands & cast off.
+%% (This must be done by every Couple) then the 1st Man & 2d Wo. change Places, & the
+%% 2d Man & 1st Wo. change Places, then hands half round & the 1st Cu. cast off.
+%%endtext
+%%sep 1 8 500

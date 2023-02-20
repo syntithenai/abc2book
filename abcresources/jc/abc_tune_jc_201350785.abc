@@ -1,0 +1,28 @@
+X:783
+T:The Waters of Holland
+T:O Nederland, let op U saeck
+C:Traditional Dutch
+Q:1/2=110
+M:2/2
+%%stretchstaff 0
+L:1/8
+K:Am
+P:A
+|: E2 | "Am"A2 B2 c2 d2 | e4 e2 g2 | "B7"^f2 e2 e2 ^d2 | "E"e6 :|
+P:B
+|: e2 | "C"c4 c2 e2 | "G"d4 d3 B | "Am"c2 B2 A2 c2 | "E7"d4 B4 |\
+"Am"AGAB c2 B2 | ABcd e3 e | "Dm"d2c2B2A2 | "E"B4 "Am"A2 :|
+N:Replace by blank line and X field
+T:Die winter is vergangen
+%%titlefont Times-Roman 18
+C:Traditional Dutch
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=110
+M:2/2
+%%stretchstaff 0
+L:1/4
+K:G
+P:A
+|: D | "G"GG "D"Ad | "Em"B2 Bc | "Am"AG "D"AF | "G"G3 :|
+P:B
+|: G/A/ | "G"BB BA/B/ | "Am"c2 cc | "Em"BG "Am"Ac/B/ | "D"A3 D | "G"GG "D;G7/F"Ad | "Em;E7"B2 Bc | "Am"AG "D"AF | "G"G3 :|

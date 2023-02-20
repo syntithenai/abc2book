@@ -1,0 +1,31 @@
+
+X: 1
+T: The Irish Rover
+C: J M Crofts
+Z: John Chambers <jc:trillian.mit.edu>
+R: march
+M: 2/4
+L: 1/8
+K: D
+FE \
+|:"D"D2 FG | A2 de | f2 ed | "G"d2 cB \
+| "D"A2 BG |1 F2 AF | "A7"E4 | z GFE :|2 "A7"FG- GE | "D"D4 | z ABc |]
+[| "D"d3 e | f2 ed | "A7"e>f ec | A2 Bc | "D"d3 e | f2 ed | "A7"e3 c | [AA2]>G FE |]
+[| "D"D2 FG | A2 de | f2 dF | "G"G2 FE | "D"D2 FA | d2 f2 | "A7"e4 | "D"d2 |]
+
+
+%%sep 3 1 500
+
+X: 2
+T: The Irish Rover  [A]
+C: J M Crofts
+Z: John Chambers <jc:trillian.mit.edu>
+R: march
+M: 2/4
+L: 1/8
+K: A
+CB, \
+|:"A"A,2 CD | E2 AB | c2 BA | "D"A2 GF \
+| "A"E2 FD |1 C2 EC | "E7"B,4 | z DCB, :|2 "E7"CD- DB, | "A"A,4 | z EFG |]
+[| "A"A3 B | c2 BA | "E7"B>c BG | E2 FG | "A"A3 B | c2 BA | "E7"B3 G | [EE2]>D CB, |]
+[| "A"A,2 CD | E2 AB | c2 AC | "D"D2 CB, | "A"A,2 CE | A2 c2 | "E7"B4 | "A"A2 |]

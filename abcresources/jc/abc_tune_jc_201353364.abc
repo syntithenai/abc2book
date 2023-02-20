@@ -1,0 +1,21 @@
+X: 1
+T: the Witches Hill
+C: Abraham Mackintosh
+R: strathspey
+S: handout for Mari Black online session 2022-2-6 (www.mariblack.com)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+P: Play: AA B AA B
+M: C
+L: 1/8
+K: Am
+"^A"|: uE |\
+"Am"(vA>B) (uMc>uMB) vA>G E<^F | "G"vG>D B,<D G>A B<G |\
+"Am"(vA>B) (uMc>Mud) ve>d e<g | "G"(vd>B) "Em"(ue/d/)c/B/ "Am"{AB}vA2 uA :|
+"^B"[|] uB |\
+"C"(vc/d/e/f/) (Mug>Mua) g>e "C/E"c<e | "G"vd>g d>c vB<(uG-~G>uB) |\
+"C"(vc/d/e/f/) (Mug>Mua) g>e c<e | "G"(vd>B) "Em"(ue/d/)c/B/ "Am"{AB}vA2 uAy ||
+uB |\
+"C"(vc/d/e/f/) (Mug>Mua) g>e "C/E"c<e | "G"vd>g d>c vB<(uG-~G>uB) |\
+"Am"(vA>B) (uMc>Mud) ve>d e<g | "G"(vd>B) "Em"(ue/d/)c/B/ "Am"{AB}vA2 uA :|
+%%text Alternate bowing for all 3 ending bars:
+y4 | "G"vd>uB "Em"ve/ud/vc/"_dim..."uB/ "Am"{AB}vA2 uA |

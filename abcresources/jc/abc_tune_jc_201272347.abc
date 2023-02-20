@@ -1,0 +1,38 @@
+X: 1
+T: Edinborough Castle
+P: Longways for as many as will
+%R: slip-jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.45 #83
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+(FA2) A2B AFD | (GB2) Bcd E2E | (FA2) A2B AFd | GB2 =c2B AFD |]
+(Ad2) d>e f/e/ d2D | FAB AdF E2d | (ce2) e>f g/f/ e2E | G>A B/c/ d2e fed |
+BG2 B/c/de dBG | AF2 A>BA E>F G/A/ | B3 A3 d3 | F2G A2B AFD |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man cast off below the 2d Man, and go the Hey with
+%% the 2d Cu. 'till the 1st Man comes into the 2d Man's Place .| The
+%% 1st Wo. cast off below the 2d Wo. and do the like :| First Cu. being
+%% in the 2d Cu. Place, the two Men lead to the Wall, the two
+%% We. do the same at the same Time; then the 1st Cu. lead up, and
+%% the 2d Cu. lead down at the same time; then right Hands across
+%% all four half round, then left Hands and back again, 'till the 1st
+%% Cu. comes into the 2d Cu. Place .| The rest do the like :|
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man cast off below the 2. man, and go the Hey with the 2. man and 2. wo. till the 1. man
+%% comes into the 2. man's place .| The 1. wo. cast off below the 2. wo. and do the like :| First cu. being
+%% in the 2. cu. place, the two men lead to the wall, and the two we. do the same at the same time, then the
+%% 1. cu. lead up, and the 2. cu. lead down at the same time, then right-hands a-cross all four half round, and
+%% then left-hands and back again, till the 1. cu. comes into the 2. cu. place.  The rest do the like :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

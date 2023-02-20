@@ -1,0 +1,26 @@
+X:1
+T: The Severn Bore
+N:
+C:Tune is "Sarabande" by Corelli
+S:
+A:
+O:
+R:
+M:3/4
+K:Em
+I:speed 150
+%W:
+% voice 1 (1 lines, 38 notes)
+K:Em
+M:3/4
+L:1/16
+e2 f2 |g2 b2 g2 f2 e4 |c'8 b4 |a3 b g3 a f3 g |f8 e4 |b3 c' b3 a g3 e |c'4 b4 f2 g2 |a2 b2 c'2 b2 c' b a g |f8 e2 f2 |
+%W:
+% voice 1 (1 lines, 36 notes)
+g2 b2 g2 f2 e4 |c'8 b4 |a3 b g3 a f3 g |f8 e4 |b3 c' b3 a g3 e |c'4 b4 f2 g2 |a2 b2 c'2 b2 c' b a g |f8 g2 a2 |
+%W:
+% voice 1 (1 lines, 33 notes)
+b3 c' b3 ^g b4 |a4 e4 e4 |a3 b a3 f a4 |g4 d4 d4 |g2 a2 ^a2 =a2 g2 =f2 |^d4 d4 e4 |e4 g2 f2 e2 ^d2 |e8 g2 a2 |
+%W:
+% voice 1 (1 lines, 31 notes)
+b3 c' b3 ^g b4 |a4 e4 e4 |a3 b a3 f a4 |g4 d4 d4 |g2 a2 ^a2 =a2 g2 =f2 |^d4 d4 e4 |e4 g2 f2 e2 ^d2 |e8 ||

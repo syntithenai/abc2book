@@ -1,0 +1,45 @@
+X: 2
+A:Adam de la Halle
+T:Amoures et ma Dame aussi
+N: (condensed)
+M:3/4
+L:1/4
+Q:1/4=130
+K:F Lydian
+%
+V:1 clef=treble
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+%%MIDI program 1       70 bassoon
+%%MIDI program 2       71 clarinet
+%%MIDI program 3       72 piccolo
+%
+[V:1 ][K:C] C   (FG) | A   A2  | G        (A/G/E) | F2   z  |   C   FG  | A2  (A/4G/4F/)|(G/4F/4E/) DE  | F3  ||
+[V:2 ][K:C] F    F2  | E  (ED) |(E/4D/4C/)(A,  B,)| C2   z  |   F   F2  | E   (ED)      |(E/4D/4C/) B,2 | C3  ||
+[V:3 ][K:F] F,   B,2 | A,  A,2 | B,        A,2    | F,2  z  |   F,  B,2 | A,   A,2      | G,        G,2 | F,3 ||
+w:   1.4.8.~A-  mours  et  ma   Dame       aus-     si, 2.5.9.~Join-tes  mains vous       proi      mer-  chi.
+%
+[V:1 ][K:C] C   (FG) | A   A2  | G        (A/G/E) | F2   z  |
+[V:2 ][K:C] F    F2  | E  (ED) |(E/4D/4C/)(A,  B,)| C2   z  |
+[V:3 ][K:F] F,   B,2 | A,  A,2 | B,        A,2    | F,2  z  |
+w:   3.7.~Votre grant  bi- au-   té        mar      vi
+%
+[V:1 ][K:C] C   (FG) | A   A2  | G        (A/G/E) | F2   z  |   C   FG  | A2  (A/4G/4F/)|(G/4F/4E/) DE  | F3  ||
+[V:2 ][K:C] F    F2  | E  (ED) |(E/4D/4C/)(A,  B,)| C2   z  |   F   F2  | E   (ED)      |(E/4D/4C/) B,2 | C3  ||
+[V:3 ][K:F] F,   B,2 | A,  A,2 | B,        A,2    | F,2  z  |   F,  B,2 | A,   A,2      | G,        G,2 | F,3 ||
+w:   1.4.8.~A-  mours  et  ma   Dame       aus-     si, 2.5.9.~Join-tes  mains vous       proi      mer-  chi.
+%
+[V:1 ][K:C] C   (FG) | A   A2  | G        (A/G/E) | F2   z  |
+[V:2 ][K:C] F    F2  | E  (ED) |(E/4D/4C/)(A,  B,)| C2   z  |
+[V:3 ][K:F] F,   B,2 | A,  A,2 | B,        A,2    | F,2  z  |
+w:   6.~~~~Se    n'a-  vés pi-   té        de       mi
+%
+[V:1 ][K:C] C   (FG) | A   A2  | G        (A/G/E) | F2   z  |
+[V:2 ][K:C] F    F2  | E  (ED) |(E/4D/4C/)(A,  B,)| C2   z  |
+[V:3 ][K:F] F,   B,2 | A,  A,2 | B,        A,2    | F,2  z  |
+w:   3.7.~Votre grant  bi- au-   té        mar      vi
+%
+[V:1 ][K:C] C   (FG) | A   A2  | G        (A/G/E) | F2   z  |   C   FG  | A2  (A/4G/4F/)|(G/4F/4E/) DE  | F3  ||
+[V:2 ][K:C] F    F2  | E  (ED) |(E/4D/4C/)(A,  B,)| C2   z  |   F   F2  | E   (ED)      |(E/4D/4C/) B,2 | C3  ||
+[V:3 ][K:F] F,   B,2 | A,  A,2 | B,        A,2    | F,2  z  |   F,  B,2 | A,   A,2      | G,        G,2 | F,3 ||
+w:   1.4.8.~A-  mours  et  ma   Dame       aus-     si, 2.5.9.~Join-tes  mains vous       proi      mer-  chi.

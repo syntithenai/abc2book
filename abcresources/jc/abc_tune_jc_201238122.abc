@@ -1,0 +1,26 @@
+X: 30261
+T: le ROSSIGNOL WALTZ
+C:
+%R: waltz
+N: This is version 2, for ABC software that understands diminuendo symbols.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.26 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(3({a}g^fg) |\
+c'2 z2 (3({a}g^fg) | e2 z2 (3({d}cBc) | G4 c2 | e2 z2 (3({a}g^fg) |\
+=f2 z2 (3{e}d^cd | B2 z2 (3{A}G^FG | c4 e2 | g2 z2 (3({a}g^fg) |\
+c'2 z2 (3({a}g^fg) | e2 z2 (3({d}cBc) |
+A2 "^sf"c'4 | (bagfed) |\
+Q(a2 qg2) ec | Q(g2 qf2) dB | c2 c2 e2 | c2 z2 !fine!:|\
+^FG |\
+Qg4 q^fg | Qe4 q^de | Qc4 qBc | QG2 q^FGAG | c2 Bcdc |
+e2 ^defe | (g6 | G)ABcde | f6- | fedcBA | G6 |\
+GABcde | f4 g2 | (bagfe)d | e2 c2 c2 | c2 "^D.C."z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

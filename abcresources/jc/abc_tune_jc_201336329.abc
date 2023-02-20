@@ -1,0 +1,58 @@
+
+X: 1
+T: Shenandoah Falls
+R:reel
+S:Combined from several versions, and simplifiedls/ShenandoahFalls.abc
+Z:2011 John Chambers <jc:trillian.mit.edu>
+M:C|
+L:1/8
+K:A
+cd |\
+"A"e2ef edcB | A2{B}c2 "D"d4 | "A"c4 "F#m"B2A2 | "Bm"BAGF "E"E2cd | "A"e2ef edcB |
+A2{B}c2 "D"d4 | "A"c2{B}Ac "E"BAG2 | "A" A6 :: G2 | "Bm"F4B4 | F2B2- B2F2 |
+"A"A2cA BcAB | cABc- cBA2 | "Bm"F4B4 | F2B2- B2ed | "A"c2{B}Ac "E"BAG2 | "A"A6 :|
+
+%%sep 2 1 500
+
+X: 2
+T: Shenandoah Falls
+R:reel
+F:http://www.thursdaycontra.com/~spuds/tunes/reels/ShenandoahFalls.abc
+M:C|
+L:1/8
+K:A
+cd |\
+"A"e2ef edcB | A2 (3cBA "D"d4 | "A"c3c "F#m"B2Ac | "Bm"BAGF "E"E2cd | "A"e2ef edcB |
+A2 (3cBA "D"d4 | "A"cBAc "E"BAG2 | "A" A6 :: G2 | "Bm"F4B4 | F2AB- BAF2 |
+"A"A2cA BcAB | cABc- cBA2 | "Bm"F4B4 | F2AB- Bfed | "A"cdec "E"BAG2 | "A"A6 :|
+
+%%sep 2 1 500
+
+X: 3
+T: Shenandoah Falls
+S:Bernie Waugh
+R:reel
+F:http://www.math.dartmouth.edu/~doyle/docs/waugh/w1.abc
+S:Printed page from Debby Knight
+M:4/4
+L:1/8
+K:A
+cd |\
+"A"e2ef edcB | ABcA "D"d4 | "A"cBcd "E"cBAc | "A"BAFD E2cd | "A"e2ef edcB |
+AB (3cBA "D"d2d2 | "A"cBAc "E"BAGB | "A"A3B A2 :: G2 | "Bm"F4 B4 | BABA- AAB2 |
+"A"z2cA BcAB | cABc- cBA2 | "Bm"F4 B4 | BcBA Bfed | "D"cBAc "E"BAGB | "A"A4 A2 :|
+
+%%sep 2 1 500
+
+X: 4
+T: Shenandoah Falls
+S:Bernie Waugh
+R:reel
+S:Printed page from Debby Knight
+M:4/4
+L:1/8
+K:A
+cd |\
+"A"e2ef edcB | AB (3cBA "D"d4 | "A"c2cA "(F#m)"B2{cB}Ac | "B7"BAGF "E"E2cd | "A"e2ef edcB |
+AB (3cBA "D"d4 | "A"cBAc "E7"BAG2 | "A"A6 :: G2 | "Bm"F4 B4 | F2AB- BAF2 |
+"A"A2cA BcAB | cABc- cBA2 | "Bm"F4 B4 | F2AB- Bfed | "D"cdec "E"BAG2 | "A"A4 A2 :|

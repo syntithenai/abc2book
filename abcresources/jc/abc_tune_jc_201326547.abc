@@ -1,0 +1,25 @@
+X: 641
+T: Princess Royal
+T: bean-priunsa reo\.g\.sa
+R: march
+%S: s:3 b:20(6+7+7)
+C: O'Carolan
+B: O'Neill's 1850 #641
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+Q: "Lively"
+N: Bar 9 has a missing dot or an extra flag; fixed by adding dot to 2nd g note.
+M: 2/4
+L: 1/16
+K: Gm
+dc \
+| (B2A2) G2(dc) | (B2A2) (G2d2) \
+| (e2d2) c2(fe) | (dedc) B2 || d2 \
+| (cdcB) (ABAG) | ^F2T=E2 D2 (dc) |
+| B2(AG) (BAG^F) | G4 G2 |]| d2 \
+| (g3^f) (g3a) | b2(.B2.B2)b2 \
+| (bagf) (edcB) | (ABcA) F2 || (GA) \
+| B2(AB) c2(Bc) |
+| d2d2 g4 \
+| ">"f4 e2(fe) | ">"d4 c2 || (dc) \
+| (cB)(BA) (GB)(AG) | (^FGF=E) D2 (dc) \
+| B2(AG) (BAG^F) | G4 G2 |]

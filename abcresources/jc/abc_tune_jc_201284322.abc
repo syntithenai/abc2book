@@ -1,0 +1,23 @@
+X:1
+T: Handel with Care
+N:
+C:Handel
+S:Bouree from Water Music  --  3 times
+A:
+O:
+R:
+M:4/4
+K:A
+I:speed 100
+%W:
+% voice 1 (1 lines, 27 notes)
+K:A
+M:4/4
+L:1/16
+E2 |A2 c2 B2 A2 e4 c4 |f2 e2 d2 c2 d2 c4 E2 |A2 c2 B2 A2 e4 c4 |f2 e2 d2 c2 d2 c4 e2 |
+%W:
+% voice 1 (1 lines, 39 notes)
+f2 d2 B2 c d e2 c2 A2 B c |d2 c2 B2 A2 B A B c B2 c d |e2 c d e2 d c d2 B c d2 c B |c2 A2 B3 A A6 e2 |
+%W:
+% voice 1 (1 lines, 38 notes)
+f2 d2 B2 c d e2 c2 A2 B c |d2 c2 B2 A2 B A B c B2 c d |e2 c d e2 d c d2 B c d2 c B |c2 A2 B3 A A6 ||

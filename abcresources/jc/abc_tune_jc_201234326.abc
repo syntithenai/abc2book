@@ -1,0 +1,24 @@
+X: 2042
+T: Miss Gibsons Jig
+%R: jig
+B: Niel Gow & Sons "Complete Repository" v.2 p.4 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: Note the 3-bar phrases.
+M: 6/8
+L: 1/8
+Q: "SLOWISH"
+K: Bb
+% - - - - - - - - - -
+V: 1 staves=2
+F |\
+(D/E/F).F B2F | (G/A/B).G FDB, | D(.C.C) TC2E |\
+(D/E/F).F TB2g | fdB cAF | G(.B.B) TB2 :|
+|: f |\
+dBd fga | bfg fdB | (A/B/c).c Tc2e |\
+dBd fbg | fdB cAF | G(.B.B) TB2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+B3 B3 | e3 d3 | f3 F3 | B3 B3 | B3 F3 | B3 B2 :||: z |
+b3 b3 | b3 b3 | f3 f3 | b3 e3 | d3 f3 | B3 B2 :|

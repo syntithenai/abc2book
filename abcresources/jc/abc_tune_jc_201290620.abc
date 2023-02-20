@@ -1,0 +1,25 @@
+X: 1
+T: Invertita
+O: Bessarabia, Romania
+R: invertita
+S: Fiddle Hell Online 2022-4-10 handout for Bahia Cohen workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 10/16
+L: 1/16
+Q: 4/8+3/8+3/8
+K: Gm
+"^A"|:\
+"Gm"G,B,DG B,2D G2B | "Gm"DGBd ^c2B A2G | "D"ABTc2- c2A B2^c | "Gm"dABd T^c2B A2G ||
+"Gm"G,B,DG B,2D G2B | "Gm"DGBd ^c2A B2c | "D"d2(^cB) A2G D2^F |[1 "Gm"G2z z3 (uB,2TA,) :|[2 "Gm"G2z z3 z3 ||
+"^B"[|\
+"Bb"(=efg)f b2a g2f | "Bb"(=efg)f _e2d c2B | "F"ABc2- c2A B2c | "Bb"dABd c2B F3 ||
+"Bb"(=efg)f b2a g2f | "Bb"(=efg)f _e2d c2B | "D"ABcB A2G D2^F | "Gm"G2z z3 z3 |]
+"^C"|:\
+"F"f=e_ed c2B F>(d=e) | "Bb"f=e_ed c2B F2B | "F"ABc2- c2A B2^c | "Bb"dABd c2B F>(d=e) ||
+"F"f=e_ed c2B F>(d=e) |  "F"f=e_ed c2B A2G | "D"^cdcB A2G D2^F | |[1 "Gm"Gzzd e3 (=e2g) :|[2 "Gm"G3 z8 |]
+%P: the time signature is more like 10/16: 4+3+3
+%%begintext align
+%% The handout has this in 3/4 time, with a comment that it's "more like 10/16: 4+3+3".
+%% This is the tune rewritten to show that rhythm.
+%% The "real" rhythm would usually have a fair amount of rubato in the melody.
+%%endtext

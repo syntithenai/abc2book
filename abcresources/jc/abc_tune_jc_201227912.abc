@@ -1,0 +1,22 @@
+X: 11004
+T: ALICE'S JIG
+C: Bob McQuillen 24 May 01
+B: Bob's Note Book 11 #4
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+| dfd cBA | Bcd A2F | DFA AFA | fgf e2A |\
+| dfd cBA | Bcd A2F | FAd cBc | edd d2 :|
+|: g \
+| faf eae | dfd ecA | GAB AFA | fgf e2g |\
+| faf eae | dBd cA=c | BGB Adf | gec d2 :|
+%%begintext align
+%% Alice McBride is the youngest
+%% of George and Lea's nice children, and she's into the music
+%% scene just like all the rest of the family. This tune sure
+%% sounds like Alice's Jig to me - what do you think? That's what
+%% I thought. Hope you like it, Alice!
+%%endtext

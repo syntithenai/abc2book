@@ -1,0 +1,22 @@
+X: 54
+T: DRUMMOND OF PERTH
+%R: strathspey
+B: Jean White "100 Popular Hornpipes, Reels, Jigs and Country Dances", Boston 1880 p.24
+F: http://www.loc.gov/resource/sm1880.09124.0#seq-1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: This should be written in K:Amix, since all the c's are sharp.
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: Bar 8 is missing a beat; fixed to match bar 12.
+M: C|
+L: 1/8
+K: Ador
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+a |\
+A<Ae>d B>de2 | d>gB>g d>gB>G |\
+A<Ae>d B>de>^g | a>eg>B {B}A3 :|
+|: ^g |\
+a2 e<a ^c<a e>f | g2 d<g B<g d>^g |\
+a2 e<a ^c<a e>f | (g/f/).e/.f/ g>B {B}A3^g |
+a2 e<a ^c<a e>f | g<g d<g B<g d>^g |\
+a<a e<a g<b e>f | (g/f/).e/.f/ g>B {B}A3 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

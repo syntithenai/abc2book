@@ -1,0 +1,25 @@
+X: 8
+T: Sir T.H. Liddell's Favorite
+%R: reel
+B: "Twenty Four Country Dances with Figures for the Year 1810", Button & Whitaker, p.4 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1810
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+fdB2 cAF2 | BABc defg |\
+fdgf edcB | AFGA Bcde |\
+fdB2 cAF2 | BABc defg |\
+fdec dBcA | B2d2 B2z2 :|
+|:\
+Acf2 Bdf2 | edec dfdB |\
+Acf=e dBgf | =ecde f_ede |\
+fdB2 cAF2 | BABc defg |\
+fdec dBcA | B2d2 B2z2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%  Hay on your own sides, down the middle,
+%% up again, right & left.
+%%endtext

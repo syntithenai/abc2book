@@ -1,0 +1,26 @@
+X: 1
+T: Antin valssi
+O: Jyv\"askyl\"a, Finland
+R: waltz
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+N: Soittanut v. (played in) 1969 Antti Vesterinen, viulu, alkuper\"a tuntematon.
+M: 3/4
+L: 1/8
+K: Dm
+%%staffsep 40
+z2 A,2 \
+| "Dm"F4 E2 | "A7"E2 {FE}D2 ^C2 | "Dm"D6 | D4 A,2 \
+| "Dm"D2 F2 A2 | "Gm"B4 d2 | "Bb"d6 | "F"A4 c2 |
+| "A7"A2 ^c2 e2 | "Bb"g2 f2 d2 | "Gm"^F2 G2 B2 | "Dm"A2 F2 D2 \
+| "A7"F4 E2 | E2 {FE}D2 ^C2 | "Dm"D6- | D2 :|
+|: z2 F>E \
+| "Dm"D2 F2  A2 | d2 f2 a2 | a2 f2 ^c2 | "A7"e>e e4 \
+|     a2 f2 ^c2 | e>e e4 | a2 g2 e2 | "Dm"f3 e d2 |
+| "Dm"D2 F2  A2 | d2 f2 a2 | "Gm"[a2A2] [b2B2] [d'2d2] | "F"[d'4d4] [c'2c2] \
+| "Gm"[c'4c4] [g2G2] | "A7"[b2B2] [a3A3] [^c^C] | "Dm"[d6-D6-] | [d2D2] :|
+|: a2 ^g2 \
+| "Dm"a3 g f2 | (3fgf e2 d2 | "A7"^c6 | A>^c e>f g>a \
+|     b2 a2 g2 | (3gag f2 e2 | "Dm"d6 | AF Ad fa |
+| "Dm"a2 g2 f2 | (3fgf e2 d2 | "Gm"b6- | b3 a^ga \
+| "A7"a6 ||1 e2 f2 ^c2 "Dm"d6- | d2 :|2 "A7"^c'6 | "Dm"d'6- | d'2 |]

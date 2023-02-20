@@ -1,0 +1,29 @@
+X: 31082
+T: COTILLION No. 16. EMMA QUADRILLE tune 2
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.108 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Strain 1 ends with a dotted c plus a rest; deleted the dot to fix the rhythm.
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+GG |\
+cccc e2e2 | g2(ag) e2e2 | g2g2 d2d2 | e2(g2 c'2)GG |\
+c2cd (ed)ef | g2(ag) e2e2 | g2gf d2gf | c4 z2 H|]
+c2 |\
+d2d2 cBAG | d2d2 cBAG | d2gB (dc).A.B | A2GG G3G |\
+c2(cd) (ed)ef | ggag e2ee | g2ff d2g2 | c6 "^D.C."y :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance and turn partners.
+%% Others the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

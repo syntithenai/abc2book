@@ -1,0 +1,24 @@
+
+X:1
+T:Trois petites notes de musique
+C:Paroles : Henri Colpi, musique : Georges Delerue, fichier abc : Bernard Loffet
+L:1/8
+Q:400
+K:G
+M:3/4
+ [d2G,,2] [d2G,2] [d2G,2] | [d2G,,2] [d2G,2] [e2G,2] | [e2G,,2] [d2G,2] [d2G,2] | \
+ [d2G,,2] [d2G,2] [e2G,2] | [e2G,,2] [d2G,2] [d2G,2] | [d2G,,2] [c2G,2] [B2G,2] | \
+ [c2D,,2] D,2 D,2 | D,,2 D,2 D,2 | [c2D,,2] [c2D,2] [c2D,2] | [c2D,,2] [c2D,2] [d2D,2] | \
+ [d2D,,2] [c2D,2] [c2D,2] | [c2D,,2] [c2D,2] [d2D,2] | [d2D,,2] [c2D,2] [c2D,2] | \
+ [c2D,,2] [B2D,2] [A2D,2] | [B2G,,2] G,2 G,2 | G,,2 G,2 G,2 | [G2G,,2] [A2G,2] [B2G,2] | \
+ [d2G,,2] [B2G,2] [d2G,2] | [d2D,,2] D,2 D,2 | [c2D,,2] D,2 D,2 | [F2D,,2] [G2G,2] [A2D,2] | \
+ [c2D,,2] [A2D,2] [c2D,2] | [c2G,,2] G,2 G,2 | [B2G,,2] G,2 G,2 | [e2C,,2] C,2 C,2 | \
+ C,,2 C,2 C,2 | C,,2 [e2C,2] [g2C,2] | [f2D,,2] [e2D,2] [f2D,2] | [d2G,,2] G,2 G,2 | \
+ G,,2 G,2 G,2 | G,,2 [d2G,2] [g2G,2] | [f2G,,2] [e2G,2] [f2G,2] | [d2D,,2] D,2 D,2 | \
+ D,,2 D,2 D,2 | D,,2 [d2D,2] [g2G,2] | [f2D,,2] [e2D,2] [f2D,2] | [d2G,,2] G,2 G,2 | \
+ G,,2 G,2 G,2 | G,,2 [G2G,2] [A2G,2] | [B2G,,2] [c2G,2] [d2G,2] | [e2C,,2] C,2 C,2 | \
+ C,,2 C,2 C,2 | C,,2 [e2C,2] [g2C,2] | [f2D,,2] [e2D,2] [f2D,2] | [d2G,,2] G,2 G,2 | \
+ G,,2 G,2 G,2 | G,,2 [d2G,2] [g2G,2] | [f2G,,2] [e2G,2] [f2G,2] | [d2D,,2] D,2 D,2 | \
+ D,,2 D,2 D,2 | D,,2 [A2D,2] [B2D,2] | [c2D,,2] [B2D,2] [A2D,2] | [G2G,,2] G,2 G,2 | \
+ G,,2 G,2 G,2 | G,,2 G,2 G,2 | G,,2 G,2 G,2 | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet

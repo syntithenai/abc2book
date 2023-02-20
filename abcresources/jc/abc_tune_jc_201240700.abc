@@ -1,0 +1,29 @@
+X: 4081
+T: Miss Oswald of Auchincruive
+C: By Nath.Gow
+%R: air, march
+N: This is version 1, for ABC software that doesn't understand trailing grace notes.
+N: (The single case is transcribed as 32nd notes.)
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.8 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: "Slow"
+K: Am
+% - - - - - - - - - -
+V: 1 staves=2
+(c>B) |\
+.A2.A2 .A2(Bc) | G2G2 G2(cB) | A2A2A3B | {d}cBcd {cd}e3c ||\
+A2A2 A2(Bc) | G2G2 G2cd | {cd}[e2c2][d2B2][c2A2][B2^G2] | {B}A4 A2 :|
+"4"c'"^3"b |\
+a2a2 ~a2bc' | g2g2 ~g2c'b | a2a2 a3"^0"e | Ta^gab {ab}c'3b ||\
+a2~a2 a2(bc') | g2g2 g2ab | "_Exp.o"{ab}c'3ab3^g | (Ta3^g/a/) A2c'b |
+a2a2 Ta2(bc') | g2g2 ~g2(c'b) | a2a2 Ta3"^1"b | c'bc'd' {c'd'}e'3d' ||\
+c'e'd'c' bc'ba | gabc' d'2e'>d' | c'3"^3"a b3^g | {g}a4 A2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | A4 a4 | G4 g4 | a4 a2e2 | a4 A4 || a4 a4 | g4 g4 | c2d2e2E2 | A4 A2 :|
+z2 | a4 a4 | g4 g4 | a4  a2e2 | a4 A2z2 || a4 a4 | g4 g4 | "_Exp.o"e'4 e4 | a2e2 A4 |
+a4 a4 | g4 g4 | a4 a2^g2 | a4 A4 || a6 ^f2 | g6 [^g2b2e'2] | a2c'2 d'2e'2 | a4 [a2A2] |]
+%%text The figures show the shift for the Violin.

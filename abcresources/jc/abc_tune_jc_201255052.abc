@@ -1,0 +1,587 @@
+
+X: 4800
+T: Scottish Country Dances
+T: RSCDS Book 48
+B: RSCDS Book 48
+K:
+%%center Book48/4800-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4801
+T: Ballinbreich
+C: Graham Berry
+N: Tune for the dance Newburgh Jig
+R: jig
+B: RSCDS 48-1
+Z: 2015 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+A |\
+"F"A2A "Bb"FBA | "C"FGE "F"F2C | "Bb"Ddc "A/F"ABG |\
+"A/F"F2F "Bb"DBA | "C"Gce "Dm"f2e | "Gm7"dcc "C7"AcB | "F"AFF F2 :|
+e |\
+"Bb"f2d "A/F"cAF | "C7"BdB "F"c2F | "Bb"Ddc "A/F"ABG | "Gm7"FEF "C"G2e |\
+"Bb"d2B "A/F"cAF | "C"Gce "Dm"f2e | "Gm"dcc "C7"AcB | "F"AFF F2e |
+"Bb"f2d "A/F"cAF | "C7"BdB "F"c2F | "Bb"Ddc "A/F"ABG | "Gm7"FEF "C"G2C |\
+"Bb"DFD "C"Eed | "Am"cge "Dm"f2e | "Gm7"dcc "C7"AcB | "F"AF F2 |]
+%%center Book48/4801-Ballinbreich-32-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4802
+T: Mrs Mary Printy
+C: Iain T MacPhail
+R: reel
+B: RSCDS 48-2
+Z: 2015 by John Chambers <jc:trillian.mit.edu>
+N: Tune for the dance The Rutland Reel
+M: 2/4
+L: 1/16
+K: F
+C2 |\
+"F"F2F2 "C/F"A2A2 | "F"c2=Bc "C/F"dc_BA | "G/C7"G2G2 "C7"B2B2 | "G/C7"c2=Bc "C7"dc_BG |\
+"F"F2F2 "C/F"A2A2 | "F"c2=Bc "C/F"dcAF | "G/C7"G2G2 "C7"cBAG | "F"F2"Bb"F2 "F"F2 ||
+AB |\
+"F"c2Ac "C/F"FcAc | "F"c2Ac "C/F"FcAc | "G/C7"c2Bc "C7"EcBc | "G/C7"c2Bc "C7"EcBc |\
+"F"c2Ac "C/F"FcAc | "F"c2Ac "C/F"FcAc | "G/C7"c2Bc "C7"BGEG | "F"F2"Bb"F2 "F"F2 |]
+%%center Book48/4802-Mrs_Mary_Printy-F-16-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4803
+T: Miss MacKenzie's Strathspey
+C: Robert Mackintosh
+R: strathspey
+B: RSCDS 48-3
+Z: 2015 by John Chambers <jc:trillian.mit.edu> (based on a transcription by Terry Traub)
+N: Tune for the dance The Golden Years
+M: 4/4
+L: 1/16
+K: D
+d2 |\
+"D"AF3 E3F "F#/D"D3F EA,3 | "Em"B,E3 EE3 "A7"E3F GB3 |\
+"D"AF3 "C#/A"E3F "Bm"D3F "F#/D"DA,3 | "G"B,B3 "A"A3F "D"DDD2 D2 :|
+f2 |\
+"D"a3f agfe "F#/D"fd3 dA3 | "Em"Be3 ee3 "A7"e3f gb3 |\
+"D"a3f agfe "F#/D"fd3 d3A | "G"Bd3 "A/D"A3F "D"DDD2 D3 ||
+f |\
+"D"a3f agfe "F#/D"fd3 dA3 | "Em"Be3 ee3 "A7"e3f gb3 |\
+"D"agf2 "C#/A"gfe2 "Bm"fed2 "F#/D"edc2 | "G"d3B "A/D"A3F "D"DDD2 D2 |]
+%%center Book48/4803-Miss_Mackenzies_Strathspey-D-16-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4804
+T: Back To Your Roots
+C: Muriel A Johnstone
+R: jig
+B: RSCDS 48-4
+Z: 2015 by John Chambers <jc:trillian.mit.edu>
+N: Tune for the dance Monica's Way
+M: 6/8
+L: 1/8
+K: D
+[|\
+"Bm"fdB FBd | "Bm"fed "E7"fed | "A"ecA EAc | "A"efa "F#7"fec |\
+"Bm"fdB FBd | "Bm"fed "E7"fed | "A"eac "F#7"fec | "Bm"cBB B3 :|
+"Bm"BAF B2B | "D"BAF def | "Em"edB B2d | "A"cBA ABc |\
+"Bm"BAF B2B | "G"BAF "D"def | "A"eac "F#7"fec | "Bm"cBB B3 ||
+"Bm"BAF "G"B2B | "D"BAF def | "A"efa fed | "F#m"cBA "F#7"fec |\
+"Bm"BAF "G"Bde | "D"fed fed | "A"eac "F#7"fec | "Bm"cBB B3 |]
+%%center Book48/4804-Back_To_Your_Roots-Bm-32-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4805
+T: Oer the Muir to Ketty
+O: trad Scotland
+N: Tune for the dance Rye Twist
+M: C|
+L: 1/8
+R: Scots Measure
+B: McGlashan Collection of Scots Measures (178?)
+Z: AK/Fiddlers Companion (chords added by John Chambers)
+K: D
+F>E |\
+"D"D3F "A/D"ABAF | "D"A2d2 "A/D"d3A | "D"ABde "Bm"f2ed | "Em"e2E2 "A"E2F>E |\
+"D"D3F "A/D"ABAF | "D"A2d2 "Bm"d3A | "Em"ABde "A7"fgef | "D"d2D2 D2 ||
+de |\
+"D"fedB "A/D"ABdF | "D"A2d2 "Bm"d3F | "Em"G3A "B/Em"BAGF | "Em"E2e2 "A7"e2ag |\
+"D"fedf "A"edce | "Bm"dcBA "G/Em"BAGF | "Em"EFGE "A7"AGFE | "D"D2d2 d2 |]
+%%center Book48/4805-Oer_the_Muir_To_Ketty-D4-16-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4806
+T: City of Belfast
+C: Marian Anderson
+N: Tune for the dance by the same name.
+R: air
+Z: 2011, 2015 John Chambers <jc:trillian.mit.edu> (from earlier transcription simpler chords)
+M: C
+L: 1/8
+K: D
+Ad/e/ |\
+"D"f3 g "C#/A"ef/e/ dc | "Bm7"d2 cB "A"cB Ac |\
+"G"B2 AG "F#/D"FE DA, | "G"B,D GF "A7"EG dc |
+"Bm"d3 e/f/ "G"ga bg | "A7"c3 d/e/ "D"fg af |\
+"G"G2 cd "A7"ef/e/ dc | "D-G-D"d6 |]
+de |\
+"D"f3 g "C#/A"aA Bc | "Bm"d3 e "A"cd/c/ BA |\
+"G"Gd2G "F#/D"Fd2F | "Em"eE FG "A7"A^A Bc |
+"Bm"d3 c/B/ "C#/A"cd ef | "Bm"dD2D "E/A7"CD EF |\
+"G"B,2 cd "A7"ef/e/ dc | "D-G-D"d6 |]
+%%center Book48/4806-City_of_Belfast-D-16-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4807
+T: Lord Drighorn's Reel
+C: Robert Mackintosh
+R: jig
+B: RSCDS 48-7
+Z: 2015 by John Chambers <jc:trillian.mit.edu>
+N: Tune for the dance Sunshine and Sweetie's Jig
+M: 6/8
+L: 1/8
+K: D
+A |\
+"D"d3 "C#/A7"ABc | "Bm"dAG "A/D"FED | "D"d3 "G/Em7"Bcd | "A"efe "C#/A7"cBA |\
+"D"d3 "F#/D"Adc | "G"BAG "F#/D"FED | "Em"GFG "A7"EAG | "D"FDD D2 :|
+A |\
+"D"F>ED "F#/D"AFD | "G"GBd "B/G"dBG | "D"F>ED "Bm"AFD | "Bm"E3 "A7"A,2G |\
+"D"F>ED "F#/D"AFD | "G"GBd "B/G"dBG | "A7"Ace "C#/A7"gfe | "D"fdd d2 ||
+"A7"A |\
+"D"F>ED "F#/D"AFD | "G"GBd "B/G"dBG | "D"F>ED "Bm"AGF | "Em"E3 "A7"A,2G |\
+"D"FED "E/A7"GFE | "F#/D"AGF "G"BAG | "A7"Aag "C#/A7"fge | "D"fdd d2 |]
+%%center Book48/4807-Lord_Drighorns_Reel-D-D-32-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4808
+T: The Wonder Hornpipe
+C: Traditional
+R: hornpipe, reel
+B: RSCDS 48-7
+Z: 2015 by John Chambers <jc:trillian.mit.edu>
+N: Tune for the dance The Tri-Mariner
+M: 4/4
+L: 1/8
+K: G
+A2 |\
+"G"GdBG "D7"FcAF | "G"GABG D2GF | "Am"EFAB cBAG | "D7"FAd^c ed=cA |
+"G"GdBG "D7"FcAF | "G"GABG D2GF | "Am"Eedc "D7"BAGF | "G"A2G2 G2z2 ||
+"D"FAd^c "A7"dBAG | "D"FAd^c dfed | "A7"^cdef gece | "D"d^cde "D7"d2=c2 |
+"G"BcBA "E7"^GBe2 | "A7"ABAG "D"FAd2 | "C"egfe "D7"dcBA | "G"B2G2 G2 |]
+%%center Book48/4808-Wonder_Hornpipe-G-16-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4809
+T: Bog O' Gight
+C: William Marshall
+R: strathspey
+B: RSCDS 48-9
+Z: 2015 by John Chambers <jc:trillian.mit.edu>
+N: Tune for the dance A Summer Meeting
+M: 4/4
+L: 1/8
+K: A
+A |\
+"A"e>f e<c "C#/A"A>c AE | "D"F>E FA "B/E7"B/B/B Bc |\
+"A"e>f e<c "C#/A"A<c A>E | "D"F<A "E7"E>C "A"A,/A,/A, A,2 |
+"A"e>f e<c "C#/A"A>c AE | "D"F>E FA "B/E7"B/B/B B2 |\
+"A"ce fe "C#/A"dc BA | "B/E7"B>A B>c "A"A/A/A A ||
+g |\
+"A"a>b a>e "C#/A"a>b a>e | "D"f>e "Bm"f>a "G#/E7"b/b/b b2 |\
+"A"a>b a<e "D"f<a A<a | "E7"B>A B>c "A"A/A/A Ag |
+"A"a>b a>e "C#/A"a>b a>e | "D"f>e "Bm"f<a "G#/E7"b/b/b b2 |\
+"A/D"a>e f<a "C#/A"e<f c<e | "B/E7"B>A B<c "A"A/A/A A |]
+%%center Book48/4809-Bog_O_Gight-A-16-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4810
+T: John Cass's Jig
+C: Marian Anderson
+R: jig
+B: RSCDS 48-10
+Z: 2015 by John Chambers <jc:trillian.mit.edu>
+N: Tune for the dance The Festival Man
+M: 6/8
+L: 1/8
+K: Am
+e |\
+"Am"AGA "E/Am"c2B | "Am"ABc "F#/D7"de^f | "G"g2B "C"edc | "G"B<dc "G/Em"BAG |\
+"Am"AGA "E/Am"c2B | "Am"A2G "C"EDC | "Dm"DED "G#/E7"E<cB | "Am"A3 A2 :|
+|: e |\
+"Am"Aee "E/Am"e2A | "F"c2B "Dm"AGF | "C"Gcc "C/Am"cde | "Dm"f<ge "B/G7"d2B/A/ |\
+"C"Gcc "Am"cde | "Dm"f2A "Em"BAG | "F"Az f "G7"dgB | "F"c3 "C"c2 :|
+%%center Book48/4810-John_Casss_Jig-Am-32-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4811
+T: Return from India
+O: Traditional Cape Breton
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Tune for the dance The Fireworks Reel
+R: reel
+M: 4/4
+K: A
+L: 1/8
+e2 |\
+"A"agae "E/A"agae | "Bm"dcBA "E7"GBBe |\
+"A"agae "E/A"agae | "D"fe"E7"fg "A"a2 fg |
+"F#m"aAgA "A/F#m"fAeA | "Bm"dcBA "E7"GBed |\
+"A"ceAc "Bm"dfBa | "E7"gefg "A"a2 |]
+e2 |\
+"A"dcBA "E/A"cAce | "D"dcBA "E7"GBEe |\
+"A"dcBA cAeA | "D"fA"E"gA "A"a2 e2 |
+"A"dcBA "F#m"cAce | "Bm"dcBA "E7"GBEe |\
+"A"dcBA "F#m"cAeA | "D"fA"E7"gA "A"a2 |]
+%%center Book48/4811-Return_From_India-A-16-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4812
+T: The Lime Hill
+C: Dan R. MacDonald
+O: Cape Breton, Nova Scotia
+N: Tune for the dance Rougemont Castle.
+Z: 2006, 2015 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 48-12
+B: Exeter Branch 40 #14
+R: strathspey
+M: 4/4
+L: 1/8
+K: A
+a |\
+"A"e<c c>B "D"A<F F>A | "A"E<C E>F "C#/A"A2 A>B |\
+"A"c>B c>e "D"f>e f<a | "C#/A"e<c "F#m"c>A "Bm"B2 "E7"B<a |
+"A"e<c c>B "D"A<F F>A | "A"E<C E>F "C#/A"A2 A>B |\
+"A"c>B c<e "D"f>e f>a | "C#/A"e<c "B/E7"B>c "A"A2 A ||
+B |\
+"A"c<e e>f "C#/A"e<c a>e | "A"c<e e>f "C#/A"e2 e>a |\
+"F#m"c<f f>a "C#m"f>e a/2g/2f/2e/2 | "F#m"c<f f>g "D"f2 f<a |
+"A"c<e e>f "C#/A"e<c a>e | "A"c<e e>f "C#/A"e2 (3(efg) |\
+"A"(3agf (3edc "D"(3dfd "C#/A"(3cac | "B/E7"B<E G>B "A"A2 A |]
+%%center Book48/4812-Lime_Hill-A-16-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4813
+T: Ivy House
+C: Traditional
+R: jig
+B: RSCDS 48-13
+Z: 2015 by John Chambers <jc:trillian.mit.edu>
+N: Tune for the dance Lady in Red
+M: 6/8
+L: 1/8
+K: G
+|: B |\
+"G"dBd "B/G"dBd | "C"g3 "E/C"gfe | "G"dBd "B/G"dcB | "D"AFD "F#/D7"D2d |\
+"G"dBd "B/G"dBd | "C"g3 "E/C"gfe | "G"dBd "D7"cBA | "G"G3- G2 :|
+|: B |\
+"G"BAB "B/G"GAB | "C"cde "D7"d2c | "G"BAB "B/G" GAB | "D"AFD "F#/D7"D2d |\
+"G"dBd "B/G"dBd | "C"efg "E/C"gfe | "G"dBd "D7"cBA | "G"G3- G2 :|
+%%center Book48/4813-Ivy_House-G-32-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4814
+T: Winds of Change
+C: Seonaid Lynn
+R: strathspey
+B: RSCDS 48-14
+Z: 2015 by John Chambers <jc:trillian.mit.edu>
+N: Tune for the dance Farewell to Helensburgh
+M: 4/4
+L: 1/8
+K: D
+A |\
+"D"d>c B<d "F#m"c2 A2 | "G"B>A G<B "F#m"A4 |\
+"Em"G>F G<B "D"A2 D2 | "Em"G>F "Em7"E<D "A"E2 "A7"A2 |
+"Bm"d>c B<d "F#m"c2 A2 | "G"B>A G<B "F#m"A4 |\
+"G"G>A B<G "F#m"A>F D<F | "Em"E<G "A7"F>E "D"D3 :|
+A |\
+"Bm"d<B B>d "F#m"c>d e>c | "G"B<d d>B "D"A4 |\
+"Bm"(3(dcB) "F#m"c>A "G"B<d "F#m"A>F | "Em"E>F G<B "A7"A4 |
+"Bm"d<B B>d "F#m"c>d e>c | "G"B<d d>B "D"A4 |\
+"Bm"(3(dcB) "F#m"c>A "G"B<d "F#m"A>F | "Em"E<G "A7"F>E "D"D2 A2 |
+"Bm"d<B B>d "F#m"c>d e>c | "G"B<d d>B "D"A4 |\
+"Bm"d<B "F#m"B>d "G"c>d "F#m"e>c | "Em"d<B c>d "A7"e4 |
+"Bm"d<f f>d "F#m"c>d e>c | "G"B<d d>B "F#m"c4 |\
+"Bm"(3(dcB) "F#m"(3(cBA) "G"B<d "F#m"A>F | "Em"E<G "A7"F>E "D"D2 |]
+%%center Book48/4814-Winds_Of_Change-D-32-6.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 4815
+T: Mr Busby Maitland
+C: Nathaniel Gow
+R: reel
+B: RSCDS 48-15
+Z: 2015 by John Chambers <jc:trillian.mit.edu>
+N: Tune for the dance MacLeod's Wedding
+M: 4/4
+L: 1/8
+K: D
+A |\
+"D"FDAD "F#/D"d2dA | "D"d2df "E/A7"eEEA | "D"FDAF "Bm"d2dB | "A7"cdeg "D"fddA |
+"D"FDAD "F#/D"d2dA | "D"d2df "E/A7"eEEA | "D"FDAF "D/G"dABG | "D"FA"G"dg "D"fd d ||
+d |\
+"D"fede "Bm"fgaf | "Em"gfed "A7"cAeg | "D"fedf "F#/D"fgaf | "A"ecdB "D"Addg |
+"D"fdfg "F#/D"fgaf | "em"gfed "A7"cAeg | "D"fd"G"gb "D"af"A7"ge | "Bm"fd"A7"ec "D"dD D |]
+%%center Book48/4815-Mr_Busby_Maitland-D-16-4.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: City of Belfast
+C: Marian Anderson
+N: Written for the dance by the same name.
+R: air
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+Ad/e/ |\
+"D"f3 g "A/c#"ef/e/ dc | "Bm"d2 cB "A"cB Ac | "G"B2 AG "D/f#"FE DA, | "Em"B,D "/d"GF "A7/c#"EG dc |
+"Bm"d3 e/f/ "G(Em)"ga bg | "A7"c3 d/e/ "D"fg af | "G"G2 cd "A7"ef/e/ dc | "D-G-D"d6 |]
+de |\
+"D"f3 g "A/c#"aA Bc | "Bm"d3 e "A"cd/c/ BA | "G"Gd2G "D/f#"Fd2F | "Em"eE "/d"FG "A7/c#"A^A Bc |
+"D"d3 c/B/ "A/c#"cd ef | "Bm"dD2D "A7"CD EF | "G"B,2 cd "A7"ef/e/ dc | "D-G-D"d6 |]
+%%center Book48/City_of_Belfast_JC-D-16-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Gentle Shepherd
+C: Joshua Campbell (????-1801)
+R: jig
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+B: RSCDS "Originally Ours"
+N: Tune for the dance with the same name (RSCDS 17-5)
+N: Alternate tune for the dance Lady in Red (RSCDS 48-13)
+M: 6/8
+L: 1/8
+K: G
+B/c/ \
+| "G"dBG "(C)"Gge | "G"dBG "(C)"Gge | "G"dBG "Em"dBG | "A7"AAA "D7"A2B/c/ \
+| "G"dBG "(C)"Gge | "G"dBG "(C)"Gge | "G"dBG "D7"cAF | "G"GGG G2 :|
+|: B,/C/ \
+| "G"DB,D "C"ECE | "D7"FDA  "G"B2G | "Bm"DB,D "C"ECE | "D7"FDd "G"B2G \
+| "G"DB,D "C"ECE | "D7"FDA "Em"B2G | "Bm"dBd "Am"ece | "D7"fdb "G"g2 :|
+%%center Book48/Gentle_Shepherd-G-32-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Lime Hill
+M: 4/4
+L: 1/8
+R: strathspey
+C: Dan R. MacDonald
+O: Cape Breton, Nova Scotia
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: BSFC Session Tune Book 2016 p.22
+N: Tune for the dance Rougemont Castle.
+K: A
+a | "A"e<c c>B "D"A<F F>A | "A"E<C E>F A2 A>B | "A"c>B c>e "F#m"f>e f<a | "Bm"e<c {d}c>A "E7"B2- B ||
+a | "A"e<c c>B "D"A<F F>A | "A"E<C E>F A2 A>B | "A7"c>B c<e "D"f>e f>a | "E7"e<c B>c "A"A2- A |]
+d | "A"c<e e>f e<c a>e | c<e e>f "E7"{gf}e2 e>a | "F#m"c<f f>a f>e a/2g/2f/2e/2 | "F#m"c<f f>g "D"f2- f ||
+a | "A"c<e e>f e<c a>e | c<e e>f "A7"e2 e>g | "D"(3agf "A"(3edc "Bm"(3dfd "A"(3cac | "E7"B<E G>B "A"A2- A |]
+%%center Book48/Lime_Hill_DM-A-16-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lime Hill
+M:4/4
+L:1/8
+C:Dan R. MacDonald
+S:Sandy MacIntryre's Book
+N:Tune for the dance Rougemont Castle.
+R:strathspey
+O:Cape Breton, Nova Scotia
+K:A
+a \
+| e<cc>B A<FF>A | E<CE>F A2A>B | c>Bc>e f>ef<a | e<c{d}c>A  (B2 B<a) |
+| e<cc>B A<FF>A | E<CE>F A2A>B | c>Bc>e f>ef>a | e<cB>c A2 A |
+d \
+| c<ee>f e<ca>e | c<ee>f {gf}e2 e>a | c<ff>a f>e a/2g/2f/2e/2 | c<ff>g f2 f>a |
+| c<ee>f e<ca>e | c<ee>f (e2 e>g) | (3agf (3edc (3dfd (3cac | B<EG>B A2 A |]
+%%center Book48/Lime_Hill_SM-A-16-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Mary Printy
+S:I. MacPhail, via PR
+M:4/4
+L:1/4
+K:F
+C |\
+"F"FF AA | c=B/2c/2 d/2c/2A/2F/2 |\
+"Gm"GG BB | "Gm"c=B/2c/2 "C7"d/2c/2_B/2G/2 |
+"F"FF AA | c=B/2c/2 d/2c/2A/2F/2 |\
+"Gm"GG "C7"c/2B/2G/2E/2 | "F"FF F :|
+|: A/2B/2 |\
+"F"cA/2c/2 F/2c/2A/2c/2 | cA/2c/2 F/2c/2A/2c/2 |\
+"C7"cB/2c/2 E/2c/2B/2c/2 | "Gm"cB/2c/2 "C7"E/2c/2B/2c/2 |
+"F"cA/2c/2 F/2c/2A/2c/2 | cA/2c/2 F/2c/2A/2c/2 |\
+"Gm"cB/2c/2 "C7"B/2G/2E/2G/2 | "F"FF F :|
+%%center Book48/Miss_Mary_Printy_1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Oer the Muir to Ketty
+O: trad Scotland
+M: C|
+L: 1/8
+R: Scots Measure
+B: McGlashan Collection of Scots Measures (178?)
+Z: AK/Fiddlers Companion
+K: D
+FE "A"\
+| D3F A>BAF | A2d2d3A \
+| Bcde f2 ed | e2E4 {G}FE \
+| D3F A>BAF | A2 de d3A |
+| BcdB edce | d2 D4 :| \
+de "B1"\
+| fedc BAGF | B2d2d3F \
+| G3A BAGF | E2 e4 ag |
+| fedf edce | dcBA BAGF \
+| EFGE AGFE | D2 d4 |] \
+de "B2"\
+| fedc BAGF | B2de d3F |
+| GFGA BAGF | E2e4 ag \
+| fedf edce | dcBA BAGF \
+| E/D/E/F/ GB AGFE | D2 d4 |]
+%%center Book48/Oer_the_Muir_to_Ketty_Gow-D-32-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Return from India
+O: Cape Breton
+S: Winston 'Scotty' Fitzgerald
+N: This is the Cape Breton version; Kerr has it with the parts interchanged.
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: 4/4
+K: A
+L: 1/8
+e |\
+"A"agae agae | "Bm"dcBA "E7"GBBg |\
+"A"agae agae | "D"fe"E7"fg "A"a2 ||
+(3efg |\
+"A"af"E"ge "D"fd"A"ec | "Bm"dB"A"cA "E7"GBBd |\
+"A"ceAe "D"dfB[aA] | "E7"gefg "A"a3 |]
+|: e |\
+"A"dcBA cAce | "Bm"dcBA "E7"GBBe |\
+"A"dcBA cAeA | "Bm"fA"E"gA "A"a3 :|
+%%center Book48/Return_from_India_CB_JH-A-16-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Return from India
+O: Kerr MM 1
+N: This is the Kerr version; Jerry Holland has it with the parts interchanged.
+S: from Laura Risk 2012
+Z: Terry Traub
+R: reel
+M: 4/4
+K: A
+L: 1/8
+e |:\
+"A"dcBA cAce | "Bm"dcBA "E7"GBEe |\
+"A"dcBA cAeA | "Bm"fA"E"gA [1 "A"afec :|[2 "A"aAA :|
+e |\
+"A"agae agae | "Bm"dcBA "E7"GBBe |\
+"A"agae agae | "D"fe"E7"fg "A"aAA ||
+e |\
+"A"aA"E"gA "D"fA"A"eA | "Bm"dcBA "E7"GBed |\
+"A"cABc "D"defg | "E7"agfg "A"aA A |]
+%%center Book48/Return_from_India_JK_MM-A-16-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Return from India
+O: Cape Breton
+S: Winston 'Scotty' Fitzgerald
+N: This is the Cape Breton version; Kerr has it with the parts interchanged.
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: 4/4
+K: A
+L: 1/8
+e |\
+"A"agae agae | "Bm"dcBA "E7"GBBe |\
+"A"agae agae | "D"fe"E7"fg "A"a2 fg ||\
+"F#m"aAgA "/A"fAeA | "Bm"dcBA "E7"GBed |
+"A"ceAc "Bm"dfBa | "E7"gefg "A"a3 |: e |\
+"A"dcBA "(F#m)"cAce | "D(Bm)"dcBA "E7"GBEe |\
+"A"dcBA "(F#m)"cAeA | "D"fA"E"gA "A"a3 :|
+%%center Book48/Return_from_India_RSCDS-A-16-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Return from India
+O: Cape Breton
+S: Winston 'Scotty' Fitzgerald
+N: This is the Cape Breton version; Kerr has it with the parts interchanged.
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Tune for the dance The Fireworks Reel
+R: reel
+M: 4/4
+K: A
+L: 1/8
+e2 |\
+"A"agae agae | "Bm"dcBA "E7"GBBe |\
+"A"agae agae | "D"fe"E7"fg "A"a2 ||
+fg |\
+"F#m"aAgA "/A"fAeA | "Bm"dcBA "E7"GBed |\
+"A"ceAc "Bm"dfBa | "E7"gefg "A"a2 |]
+|: e2 |\
+"A"dcBA "(F#m)"cAce | "D(Bm)"dcBA "E7"GBEe |\
+"A"dcBA "(F#m)"cAeA | "D"fA"E"gA "A"a2 :|
+%%center Book48/Return_from_India_RSCDS-A-16-3.abc

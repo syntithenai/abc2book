@@ -1,0 +1,26 @@
+X:1
+T: The Ashford Anniversary
+N:
+C:play 3 times
+S:tune is "Phale`se"
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 15 notes)
+K:G
+M:4/4
+L:1/16
+G4 G4 A4 G4 |G4 D4 D4 E2 F2 |G4 G4 A4 G4 |D8 D8 |
+%W: A2
+% voice 1 (1 lines, 15 notes)
+G4 G4 A4 G4 |G4 D4 D4 E2 F2 |G4 G4 A4 G4 |D8 D8 |
+%W: B1
+% voice 1 (1 lines, 25 notes)
+B4 B4 B4 A2 B2 |c4 B4 A4 G4 |B4 B4 B4 A2 B2 |c4 B4 A4 c4 |B4 G4 A4 G2 F2 |G8 G8 |
+%W: B2
+% voice 1 (1 lines, 25 notes)
+B4 B4 B4 A2 B2 |c4 B4 A4 G4 |B4 B4 B4 A2 B2 |c4 B4 A4 c4 |B4 G4 A4 G2 F2 |G8 G8 ||

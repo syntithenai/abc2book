@@ -1,0 +1,14 @@
+X: 867
+T: the Scholar   #2
+R: hornpipe
+%S: s:3 b:15(5+5+5)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #867
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0867/oneill-1001-0867-1.abc
+M: 2/4
+L: 1/16
+K: D
+"^A"[|] AA \
+|: dfaf gfeg | fdAG FGA=c | BGFG EFGg |[1,3 fdec dcBA :|[2 fgec d2 :|
+|[4 fgec defg "^B" |: a2(fd) dfaf | dfaf bagf | gfge =cege | =cege agfe ||
+|| a^gaf  dfaf | dfaf bagf | gfgf  gbag |[1 fdec defg :|[2 fgec d2 |]

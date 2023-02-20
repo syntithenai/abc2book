@@ -1,0 +1,36 @@
+X: 401
+T: Somerset
+C: By Dr. Madan
+%R: march
+N: This is version 1, for ABC software that doesn't understand long or trailing grace notes.
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: John Treat - "Gamut for the Fifes", 1779, p.42 & p.43 #1
+F: https://archive.org/details/GamutFortheFifes
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+[|\
+D2 E2 | F3 D | B2 B2 | (B2 A2) |\
+A3 F | (Ad) (cB) | A2 G2 | G2 F2 |\
+F2 ^G2 | A3 B | c2 de/f/ | (f2 e2) |
+dd/e/f d | cB/c/d B | A2^G2 | A4 |\
+(AF) AF | AF FD | E2 F2 | G4 |\
+F2 A2 | A3 B | {B}A2 G2 | (G2 F2) |
+C2 D2 | E3 F | (GB) (AG) | (G2 F2) |\
+A3 B | (BA) GF | (BA) (GF) | (F2 E2) |\
+A3 d | (BA) (GF) | (AG) (FE) | D4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 
+[|\
+F2 G2 | A3 F | G2 G2 | (G2 F2) | f3 d | fe ed | c2 (de) | A4 | d2 (cB) | c2 d2 | e2 ff/e/ | (e2 c2) |
+cB/c/d B | ed/e/d B | c2 B2 | A4 | (FD) (FD) | d2 (AB) | c2 c2 | (c2 B2) | A2 d2 | d3 D | {G}F2 E2 |
+(G2 D2) | A2 B2 | c3 A | d2 e2 | A4 | d3 g | (gf) (ed) | (gf) (ed) | (d2 c2) | d3 F | (GF) (ED) | (FE) (DC) | D4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+[|\
+d2 g2 | d3 d | (GA) (Bc) | d4 | d'3 d' | d'2 g2 | a2 c2 | d4 | d2 e2 | (f2 e)d | a2 d2 | a4 |
+a2 d2 | A2 d2 | e2 e2 | A4 | d2 d2 | f2 f2 | g2 a2 | b2 c'2 | d'2 b2 | f3 g | a2 B2 |
+d4 | A2 A2 | a3 A | B2 c2 | (d2 e2) | f2 g2 | d2 d2 | d2 d2 | a4 | f2 d2 | F2 B2 | G2 A2 | [d4D4] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

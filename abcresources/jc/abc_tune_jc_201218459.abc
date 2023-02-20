@@ -1,0 +1,26 @@
+X: 01069
+T: LINDBERGH'S CRATE
+C: Bob McQuillen Dec'75
+B: Bob's Note Book 1 #69
+%R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+e \
+| f2f e2e | ded cBA | Bcd A2f | agf ede |\
+| f2f e2e | ded cBA | Bcd Adf | edc d2 :|
+|: A \
+| F2F GFG | ABc d2e | fga agf | fed e2A |\
+| FEF GFG | ABc def | gab agf | edc d2 :|
+%%begintext align
+%% With Best Wishes to the Crate, and love
+%% always to the beautiful flute player dwelling
+%% therein.
+%%endtext
+%%begintext align
+%% P.S. It really was L's crate!
+%% P.P.S. and there really _is_ a flute
+%% player living in it. Her name
+%% is Deanna Still, and she's super neat!
+%%endtext

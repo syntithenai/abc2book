@@ -1,0 +1,15 @@
+X:38
+T:Bath Assembly
+C:Rutherford, c. 1756
+M:C|
+L:1/8
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=112
+%%MIDI gchord fcfcfcfc
+K:C
+P:A
+g |: | "G"GGBG "F"cFAF | "G"GGBG dGBe |\
+"F"fg a/g/f/e/ fcAF | "G"GGBG dGBg :|
+P:B
+|: "F"ff "G"g/f/e/d/ "F"cf AF | "F"fe/f/ "G"g/f/e/f/ g/f/e/f/gG |\
+"F"f/e/f/g/ a/g/f/e/ fcAF | "G"GGBB dGBg :|

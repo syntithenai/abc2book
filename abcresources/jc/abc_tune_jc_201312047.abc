@@ -1,0 +1,36 @@
+X:1
+T:The Mistresses Health (2)     %Tune name
+C:Composer:     %Tune composer
+N:Remarks:     %Tune infos
+Q:1/4=120     %Tempo
+V:1     %
+%!STAVE 0 'Song' @
+%!INSTR 'Choir aahs' 4 5200 @
+M:6/8     %Meter
+L:1/8     %
+K:C
+G |E D C G2 E |A2 B c2
+w:Our mis-tress-'s health we now be-gin,
+B |c B A G A B | c2 C C2
+w:in spite of the Pope and the Span-ish King;
+G |E D C G2 E |A A B c2
+w:For she has got gold and sil-ver in store,
+B |c B A G A B| c2 C C2
+w:And when it is gone she will have some more.
+G |c2 e d2 c |e2 c A2
+w:So here's to thee, my bro-ther John,
+B |c2 A d2 c | B2 A G2
+w:Tis al-most time that we were gone.
+c |G2 c G2 c |F2 F E2
+w:We'll smoke, we'll drink, we'll stand our ground,
+D |C c c d c d |e2 c c2  |]
+w:And so let the mis-tress-'es health go round.
+%End of file
+W:Our mistress's health we now begin,
+W:In spite of the Pope and the Spanish King;
+W:For she has got gold and silver in store,
+W:And when it is gone she will have some more.
+W:So here's to thee, my brother John,
+W:'Tis al-ost time that we were gone.
+W:We'll smoke, we'll drink, we'll stand our ground,
+W:And so let the mis-tress'es health go round.

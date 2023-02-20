@@ -1,0 +1,34 @@
+X: 2
+A:Thomas Tallis
+T:Thomas Tallis' Eighth Psalm Tune
+M:none
+L:1/4
+Q:1/4=80
+K:G Mixolydian
+N:The melody, done as a round (with the accidental removed)
+%
+V:1 clef=treble
+V:2 clef=treble
+V:3 clef=treble
+V:4 clef=treble
+%
+%%MIDI program 1	79 ocarina
+%%MIDI program 2	74 recorder
+%%MIDI program 3	71 clarinet
+%%MIDI program 4	60 frenchrn
+%
+[V:1]
+z D D D | D G G F | G G A A | B G G F | G G A A | B G c c | B B A A | G G c c |
+B B A A | G d c A | B B A A | G d c A | B B A A | G D E F | G B A A | G D E F | G4 ||
+[V:2]
+z4 |
+z D D D | D G G F | G G A A | B G G F | G G A A | B G c c | B B A A | G G c c |
+B B A A | G d c A | B B A A | G d c A | B B A A | G D E F | G B A A | G D E F | G4 ||
+[V:3]
+z4 | z4 |
+z D D D | D G G F | G G A A | B G G F | G G A A | B G c c | B B A A | G G c c |
+B B A A | G d c A | B B A A | G d c A | B B A A | G D E F | G B A A | G D E F | G4 ||
+[V:4]
+z4 | z4 |  z4 |
+z D D D | D G G F | G G A A | B G G F | G G A A | B G c c | B B A A | G G c c |
+B B A A | G d c A | B B A A | G d c A | B B A A | G D E F | G B A A | G D E F | G4 ||

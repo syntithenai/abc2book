@@ -1,0 +1,29 @@
+X: 1
+T: S\"usserl
+T: (P2WP2WP2W2)2((P2WP2)2P2WP2WP2W2)2
+R: zwiefacher
+O: Bavaria
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N:
+M: 2+3/4
+L: 1/8
+P: Play AABBABBA
+K: Bb
+P: Bb
+|: "Bb"[dB][fd] [fd][ec] | [d2B2] z2 | [dB][fd] [fd][dB] [ge][fd] \
+| "F7"~[f2d2] [ec][dB] | [c2A2] z2 |
+| "Eb"[ge][ge] [ge][bg] [af][ge] | "Bb"~[g2e2] [fd][ec] | [d2B2] z1 \
+| "F7"[fA][fA] [f2A2] [e2c2] | "Bb"[d2B2] z2 z2 :|
+|: "F7"[cA][ec] [ec][dB] | [c2A2] z2 | [cA][ec] [ec][cA] [fd][ec] \
+| "Bb"[dB][fd] [fd][ec] | [d2B2] z2 :|
+%%sep 5 5 500
+P: F
+K: F
+|: "F"[AF][cA] [cA][BG] | [A2F2] z2 | [AF][cA] [cA][AF] [dB][cA] \
+| "C7"~[c2A2] [BG][AF] | [G2E2] z2 |
+| "Bb"[dB][dB] [dB][fd] [ec][dB] | "F"~[d2B2] [cA][BG] | [A2F2] z1 \
+| "C7"[cE][cE] [c2E2] [B2G2] | "F"[A2F2] z2 z2 :|
+|: "C7"[GE][BG] [BG][AF] | [G2E2] z2 | [GE][BG] [BG][GE] [cA][BG] \
+| "F"[AF][cA] [cA][BG] | [A2F2] z2 :|

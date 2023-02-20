@@ -1,0 +1,22 @@
+X: 593
+T: Sunrise, Sunset
+O:Fiddler on the Roof
+Z: John Chambers <jc:trillian.mit.edu>
+L:1/8
+M:3/4
+R:Waltz
+K:Gm
+| "Gm"D2 G2 B2 | "D7"AG ^F2 A2 | "Gm"G6 | D6 \
+|  "Gm"D2 G2 B2 | "D7"AG ^F2 A2 | "Gm"(G6 | "G7"G6)
+|  "Cm"G2 c2 e2 | "G7"dc =B2 d2 | "Cm"c6 | G6 \
+|  "A"A6 | "A7"A6 | "D"(B6 | "D7"B6)
+| "Gm"D2 G2 B2 | "D7"AG ^F2 A2 | "Gm"G6 | D6 \
+|  "Gm"D2 G2 B2 | "D7"AG ^F2 A2 | "Gm"(G6 | "G7"G6) |
+|  "Cm"G2 c2 e2 | "G7"dc =B2 d2 | "Cm"c6 | "A7"^c6   \
+|  "D"d6- | "D7"d6- | "D6"d6 | "D"[^FD][GE][AF][FD][GE][AF] |
+|: "Gm"z2 [B2G2] "Cm6"([c2A2] | [c2A2]) "Gm"[B2G2] "D7"[A2^F2] \
+|  "Gm"z2 [B2G2] "Cm6"([c2A2] | [c2A2]) "Gm"[B2G2] "D7"[A2^F2] \
+|  "Gm"z2 [B2G2] "Cm6"([c2A2] | [c2A2]) "Gm"[B2G2] "Cm"[c2A2] \
+|  "Gm"[d6B6] | "G7"[=BG][cA][dB][BG][cA][dB]
+|  "Cm"[e2c2] [e2c2] [e2c2] | "F7"[ec][dB] [c2A2] [e2c2] | "Bb"[d6B6] | "Gm"[B6G6] \
+|  "Am"[c2A2] [c2A2] [c2A2] | "D7"[cA][BG] [A2^F2] [c2A2] |1 "Gm"([B6G6] :| [B6G6]) |2 "Gm"([G6G6] | [G6G6]) |

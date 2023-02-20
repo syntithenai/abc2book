@@ -1,0 +1,21 @@
+X: 1
+T: The Countess of Sutherland's Reel   [G]
+C: Daniel Dow (1732-1783)
+R: reel
+Z: Steve Wyrick <sjwyrick'at'gmail'dot'com>, 7/31/05
+B: Petrie's "Third Collection of Strathspey Reels and Country Dances &c." p.24
+B: James Kerr "Merry Melodies" v.3 p.20 #174
+B: Orginally Ours, p.181
+L: 1/8
+M: C
+K: G
+B "A"|\
+"G"G2DG "C"EG"G"DG | "C"CG"G"B,G "D7"A,AAB |\
+"G"G2DG "C"Eedc | "D7"BdAc "G"BGG :|
+%%vskip 6	% The low A collides with the chord below.
+f "B1"|\
+"G"gdBd "Am"ceAc | "G"BdGB "D7"ADDf |\
+"G"gdBd "Am"ceAc | "D7"BdcA "G"BGG |]
+f "B2"|\
+"G"gdBd "Am"ceAc | "G"BdGB "D7"ADDd |\
+"C"edef "G"gedc | "D7"BdAc "G"BGG |]

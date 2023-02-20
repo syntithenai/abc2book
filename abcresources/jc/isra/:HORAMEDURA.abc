@@ -1,0 +1,21 @@
+X: 90
+T: Hora Medura
+C: Joel Walbe
+O: Israel
+I: Dance taught by Yo'av Ashriel
+F: http://www.youtube.com/watch?v=zt1TN7oGzgs
+F: http://www.youtube.com/watch?v=lSakToFMQsw
+F: http://www.youtube.com/watch?v=5NmhSctYBaI
+M: 2/4
+L: 1/8
+Q: 1/4=144
+K: Em
+%%MIDI program 22
+%%MIDI bassprog 117
+%%MIDI gchord ff
+  "f" FA "a" A2  |"a" AA A2|"f" G/F/E2E|"a" FG A2 |
+  "a" FA2A       |AA A2    |"e" G/F/E2E|E2     E2 |
+|:"f" B, "c" E2G |"c" EEE2 |"f" B2B2   |"c"EEE2   |
+  "f"  B, "c" E2G|"c" EEE2 |"f" BBAA   |"c"GFE2   ::
+  "f" FA "a" -A2 |"a" AA A2|"f" G/F/E2E|"a" FG A2 |
+  "a" FA3        |AA A2    |"e" G/F/E2E|E2     E2 :|

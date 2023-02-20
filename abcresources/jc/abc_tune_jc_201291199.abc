@@ -1,0 +1,50 @@
+
+X: 1
+T: Iti Milvanon    [Dm]
+O: Israel
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dm
+"A"|: df  | "Gm"g6 a{ba}g/f/ | a2 g4 fe | "Dm"f2 f2 "C"f2 ed | "Dm"d6 :|
+%w:
+w:     I-*ti mi-lva-*non*  I-*ti ka-la ta-vo-'i.
+"B"|: Ac | "Dm"d6 e/f/e/d/ | d6 ef | "Gm"gf ef- "C"f2 ec | "Dm"d6 :|
+%w:
+w: 1.~Hinach ya-fa ra-'a-ya-*ti. Ey-*na-*yich** ka-yon-im.
+w: 2.~Mi-m'o-not a-*ra-*yot       Me-*rosh Se-nir** ve-Cher-mon.
+w: 3.~Zeh do-di zeh* re-*'i     B'not Ye-ru-sha-la-yim* zeh do-di.
+
+%%sep 1 1 500
+
+X: 1
+T: Iti Milvanon    [Em]
+O: Israel
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Em
+"A"|: EG  | "Am"A6 B{cB}A/G/ | B2 A4 GF | "Em"G2 G2 "D"G2 FE | "Em"E6 :|
+"B"|: B,D | "Em"E6 F/G/F/E/ | E6 FG | "Am"AG FG- "D"G2 FD | "Em"E6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Iti Milvanon    [F#m]
+O: Israel
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F#m
+"A"|: FA  | "Bm"B6 c{dc}B/A/ | c2 B4 AG | "F#m"A2 A2 "E"A2 GF | "F#m"F6 :|
+"B"|: CE | "F#m"F6 G/A/G/F/ | F6 GA | "Bm"BA GA- "E"A2 GE | "F#m"F6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Iti Milvanon
+K:
+W:     Iti milvanon          Iti kala tavo'i.
+W: 1. Hinach yafa ra'ayati. Eynayich kayonim.
+W: 2. Mim'onot arayot       Merosh s'nir vechermon.
+W: 3. Zeh dodi zeh re'i     B'not Yerushalayim zeh dodi.

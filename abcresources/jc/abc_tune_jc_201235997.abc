@@ -1,0 +1,24 @@
+X: 2152
+T: the Parson in Boots.   a Jig.
+%R: jig
+B: Niel Gow & Sons "Complete Repository" v.2 p.15 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+~G3 G2c | B2G (B/c/d).B | TG3 Bcd | EFG AFD ||\
+~G3 G2c | B2G (B/c/d).B | gfe dcB | ABG FED :|
+|:\
+TB>cd ded | ded dcB | Tc>de efe | efe edc ||\
+TB>cd ded | ded def |  gfe  dcB | ABG FED :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+g3 g3 | g3 g3 | g3 g3 | c3 d3  ||\
+g3 g3 | g3 g3 | B3 G3 | d3 D3 :||:
+[g3G3] [g3G3] | [g3G3] [g3G3] | [c3C3] [c3C3] | [c3C3] [c3C3] ||\
+[g3G3] [g3G3] | [g3G3] [g3G3] | [b3B3] [g3G3] | [d3D3] [d3D3] :|

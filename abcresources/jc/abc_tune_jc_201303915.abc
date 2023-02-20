@@ -1,0 +1,32 @@
+X:1
+T: The Lord Phoppington
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 17 notes)
+K:D
+M:4/4
+L:1/16
+A4 |F6 E2 D4 A4 |d12 e4 |f4 e2 f2 g2 f2 e2 d2 |e4 E8 A4 |
+%W:
+% voice 1 (1 lines, 16 notes)
+F6 E2 D4 A4 |d12 e4 |f4 e2 f2 g2 f2 e2 d2 |e4 a8 A4 |
+%W: A2
+% voice 1 (1 lines, 16 notes)
+F6 E2 D4 A4 |d12 e4 |f4 e2 f2 g2 f2 e2 d2 |e4 E8 A4 |
+%W:
+% voice 1 (1 lines, 16 notes)
+F6 E2 D4 A4 |d12 e4 |f4 e2 f2 g2 f2 e2 d2 |e4 a8 e4 |
+%W: B
+% voice 1 (1 lines, 14 notes)
+c6 B2 A4 a4 |f12 e2 d2 |c6 B2 A4 A4 |g4 e8 A4 |
+%W:
+% voice 1 (1 lines, 17 notes)
+F2 G2 A4 B4 d4 |c2 d2 e4 A4 g4 |f2 g2 a4 e4 g4 |f4 d8 ||

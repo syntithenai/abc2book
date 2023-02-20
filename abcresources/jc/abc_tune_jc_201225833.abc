@@ -1,0 +1,24 @@
+X: 10014
+T: BOB'S POLKA
+C: Bob McQuillen 13 April 93
+B: Bob's Note Book 10 #14
+%R: polka, reel
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C	# and G
+gf \
+| e2ce dcBA | GAGF E2G2 | cdec d2gf | egec d2gf |\
+| e2ce dcBA | GAGF ECEG | c2ec Bdgf | e2c2 c2 :|
+K: G
+|: Bc \
+| d2gf g2dc | Bcde d2Bd | cedc BGAG | F2A2 A2dc |\
+| B2GB d2Bd | gage d2ed | cBAG FAdc | B2G2 G2 :|
+%%begintext align
+%% Bob Walser
+%% is from down Connecticut way and I usually
+%% get to see him several times a year at various
+%% functions - He's a real fine box player and I
+%% just thought this tune might work on it OK -
+%% I sure hope so, Bob!
+%%endtext

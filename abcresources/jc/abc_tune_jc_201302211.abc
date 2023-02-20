@@ -1,0 +1,39 @@
+X: 1
+T: Lilli Burlero
+P: Longways for as many as will
+O: John Walsh "The Dancing-Master" c.1700 p.19 #38 
+%R: jig
+B: "The Dancing-Master" printed by John Walsh, London
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.19 #38
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.156
+Z: 2012-2013 John Chambers <jc:trillian.mit.edu> (chords from a version in my ECD collection)
+S: https://www.facebook.com/groups/Fiddletuneoftheday/ 2020-11-26
+S: https://www.facebook.com/groups/Fiddletuneoftheday/photos/
+N: The time signature is 3/4, but that doesn't agree with the bar lines; changed to common 6/8 jig time.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+"G"G>AG "(Em)"B2B | "Am"A>BA "D7"c3 |\
+"G"BdG "Am"c2B | "D7"AGF "G"G3 |]\
+"G"g2f g2d | "F"=f2=f "C"e2d |
+"G"e^fg g2d | "C"edB "D"A3 |\
+"C"(ed)c "G"(Bc)d | "C"(edc) "G"(Bc)d |\
+"C"edB "Am"c2B | "D7"AGF "G"G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man lead his Partner down thro' the 2d Cu.
+%% and cast up to his own Place, and then the 2d Cu. lead
+%% up thro' the 1st Cu. and cast off into their own Places
+%% then 1st Man cross over with the 2d Wo. and the 1st
+%% Wo. with the 2d Man, then fall back and meet and
+%% turn S. then cross over, and the Men Back to Back,
+%% the We. at the same Time doing the like; then the
+%% two Men right and left, the We. at the same Time doing
+%% the like, 'till the 1st Cu comes into the 2d Cu.
+%% Place.
+%%endtext
+%%sep 1 8 500
+%%text https://youtu.be/djt0RQ45eCE

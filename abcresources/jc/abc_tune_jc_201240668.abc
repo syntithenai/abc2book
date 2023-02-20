@@ -1,0 +1,18 @@
+X: 4061
+T: Lady Madelina Sinclair's Birth Day    a Reel
+%R: reel
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.6 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+% - - - - - - - - - -
+V: 1 staves=2
+d |\
+TB2FB DBFB | B2(d/c/B) Ac-c.d | TB2FB DBFB | (A/B/c) Tc>e (dBB) :| d | B<BdB fBdB | BBdB Ac-c>d |
+B<Bd>B f>BdB | (A/B/c) c>e (dBB)d || B<Bd>B fBdB | BBdB Ac-cd | .B.B.c.c .d.d.e.e | .f.fb>f (dBB) |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | B2B2 B2B2 | B2B2 f2F2 | B2B2 B2B2 | f2F2 B2B :| z | b2b2 b2b2 | b2b2 f2f2 |
+b2b2 b2b2 | f2f2 B2B2 || b2b2 b2b2 | b2b2 f2f2 | b2a2 b2e2 | f2F2 B2B |]

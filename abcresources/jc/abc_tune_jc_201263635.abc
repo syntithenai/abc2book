@@ -1,0 +1,45 @@
+X: 1
+T: Come By the Hills
+C: trad.
+R: air, song, waltz
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+F: https://mairicampbell.scot/tunes/come-by-the-hills/
+M: 3/4
+L: 1/8
+K: G
+V: 1 staves=2
+% = = = = = = = = = =
+[|\
+"G"B4 AB | "D7"A4 GE | "G"D4 D2 | "C"E2 G3 A | "G"G6- | G4 D2 |
+"G"G4 AB | "C"c4 BA | "G"B4 AG | "Em"E2 G2 B2 | "D"A6- | A4 Bc |
+"G"d2 B2 A2 | "Em"G4 G-G | "C"c2 d2 e2 | "G"d2 B2 G2 | "D"A6- | A4 GA |
+"G"B4 AB | "Em"AG3 E2 | "G"D4 D2 | "C"E2 G3 A | "G"G6- | G6 |]
+% = = = = = = = = = =
+V: 2
+[|\
+D4 D2 | F3 E DE | G4 B2 c4 e2 | d2 c2 B2 | B2 c2 d2 |
+D4 D2 | E4 GF | G4 dc | B4 E2 | F2 D2 D2 | D2 F2 GA |
+B2 G2 D2 | E4 D2 | E2 G2 E2 | D2 G2 D2 | F4 E2 | D4 EF |
+G3 D FG | E2 B2 A2 | G2 d2 B2 | c2 e3 c | B6- | B6 |]
+% = = = = = = = = = =
+% Gaelic from https://www.azlyrics.com/lyrics/celticthunder/comebythehillsbuachailloneirne.html
+%
+W: Buachaill \'on 'Eirne me's bhr\'eagfainn f\'ein cail\'in deas \'og
+W: N\'e iarrfainn b\'o spr\'e l\'eithe t\'a m\'e saibhir go leor
+W: 'S liom Corcaigh a mh\'eid \'e, dh\'a thaobh a' ghleanna's T\'ir Eoghain
+W: 'S mura n-athra'\'i m\'e b\'easa\'i 's me n' t-oibhr ar Chontae Mhaigh Eo
+W:
+W: Come by the hills to the land where fancy is free
+W: And stand where the peaks meet the sky and the loughs meet the sea
+W: Where the rivers run clear and the bracken is gold in the sun
+W: And the cares of tomorrow can wait till this day is done
+W:
+W: Come by the hills to the land where life is a song
+W: And stand where the birds fill the air with their joy all day long
+W: Where the trees sway in time and even the wind sings in tune
+W: And the cares of tomorrow can wait till this day is done
+W:
+W: Come by the hills to the land where legend remains
+W: The stories of old fill our hearts and may yet come again
+W: Where the past has been lost and the future is still to be won
+W: And the cares of tomorrow can wait till this day is done

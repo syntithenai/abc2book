@@ -1,0 +1,31 @@
+X: 31012
+T: COTILLION No. 12. HIGHLAND SETT tune 5
+C:
+%R: reel, hornpipe
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.101 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(3Bc^d |\
+e>^de>d e2f2 | g>fg>f g2a2 | b>^ab>a b2g2 | f6 a>b |\
+c'>ba>g f>ed>c | B>AG>F E2GB | e2g2 fe^df | e2g2e2 H|]
+d2 |\
+[g4B4] [b4d4] | g>fg>f g2ab | c'>ba>g f>ed>c | BGDB, G,2fg |\
+agag a2ab | c'bc'b c'2e'2 | d'c'bg g2f2 | a4 "^D.C."g2 |]
+K: E
+ba |\
+g2b2 e2g2 | fac'2 a2g2 | f2a2 d2f2 | e2gb e'2ba |\
+gabg efge | agab c'2b^a | b2e'2 d'2c'2 |
+c'4 b2ba | g2b2 e2g2 | f2a2c'2 ag | fedc Bdfd |\
+e2gb e'2ba | gabg e2g2 | fedc B2A2 | GBeg FBdf | e2g2"^D.C."e2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All balance to the right,
+%% turn partners,
+%% chassa across and back.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

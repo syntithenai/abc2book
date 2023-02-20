@@ -1,0 +1,28 @@
+X: 1
+T: the Queen's Birth-day
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p._
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The actual time signature is just "2".
+N: The rhythms at the strain boundaries are wrong.
+M: 2/2
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+c2G2 E2G2 | c4 G4 | cdc2 ded2 | efe2 d4 |\
+c2G2 E2G2 | c4 G2c2 | cdcd d3c | c8 |]
+ef |\
+g2e2 c2g2 | a4 g4 | fgf2 efe2 | dedc B2ef |\
+g2e2 c2g2 | a4 g4 | fgfe d2g2 | e3d c2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first man turn the second woman with the right hand, then turn the second man with his left,
+%% then to his own place .| The woman turn the second man with her right-hand, the second woman with
+%% her left, and then to her own place :| Cross over the second couple, then Figure through the first cu.
+%% and turn in the second couples place.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

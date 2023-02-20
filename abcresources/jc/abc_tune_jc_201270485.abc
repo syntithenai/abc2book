@@ -1,0 +1,53 @@
+
+X: 1
+T: the Drunken Sailor   [Dm,wW]]
+C: Trad (song)
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Ddor
+%%continueall
+"^Verse"[| "Dm"A2AA A2AA | A2D2 F2A2 |
+w: What should we do with a drunk-en sail-or?
+    "C"G2GG G2GG | G2C2 E2G2 |
+w: What should we do with a drun-ken sail-or?
+   "Dm"A2AA A2AA | A2B2 c2d2 |
+w: What should we do with a drunk-en sail-or?
+   "Am"c2A2 G2E2 | "Dm"D4 D4
+w: Earl-eye in the morn-ing!
+"^Chorus"|[| "Dm"A4 A3A | A2D2 F2A2 |
+w: Weigh-heigh and up she ri-ses,
+   "C"G4 G3G | G2C2 E2G2 |
+w: Weigh-heigh and up she ri-ses
+   "Dm"A4 A3A | A2B2 c2c2 |
+w: Weigh-heigh and up she ri-ses,
+   "Am"c2A2 G2E2 | "Dm"D4 D4 |]
+w: Earl-eye in the morn-ing!
+%
+W: More verses:
+W:   Put him in a long-boat 'til he's sober, ...
+W:   Put him in the scuppers until he's sober, ...
+W:   Put him in the bilge and make him drink it, ...
+W:   Shave his belly with a rusty razor, ...
+W:   Heave him by the leg in a runnin' bowline, ...
+W:   Lock him in the guard room 'til he gets sober, ...
+W:   Put him in a cabin with the captain's daughter, ...
+W:   You ain't seen the captain's daughter, ...
+W:   ...
+W:   That's what we do with a drunk-en sailor, ....
+
+%%sep 1 1 500
+
+X: 2
+T: the Drunken Sailor    [Em]
+C: Trad (song)
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Edor
+[| "Em"B2BB B2BB | B2E2 G2B2 | "D"A2AA A2AA | A2D2 F2A2 \
+|  "Em"B2BB B2BB | B2c2 d2e2 | "Bm"d2B2 A2F2 | "Em"E4 E4 |]
+[| "Em"B4 B4 | B2E2 G2B2 | "D"A4 A4 | A2D2 F2A2 \
+|  "Em"B4 B4 | B2c2 d2d2 | "Bm"d2B2 A2F2 | "Em"E4 E4 |]

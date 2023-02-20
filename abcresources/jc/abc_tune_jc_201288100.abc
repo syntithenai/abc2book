@@ -1,0 +1,17 @@
+X:338
+T:How great is the pleasure
+C:Shaker hymn.  Chords by Colin Hume
+L:1/4
+M:3/4
+%%MIDI beat 100 95 80
+%%MIDI program 68     Oboe
+%%MIDI chordprog 46   Orchestral Harp
+%%MIDI bassprog 46    Orchestral Harp
+%%MIDI gchord b2b
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=110
+K:Gm
+P:A
+|: D/F/ | "Gm"GG/A/ B/c/ | "/"dBB/d/ | "F"cAB/A/ | "Eb"G2B/c/ | "Gm"dBd/e/ | "Bb"fdB | "Cm"Gcc | "D"d2 :|
+P:B
+|: d/e/ | "Bb"f/e/ d/c/ B/A/ | "Eb"BG"Eb/D"G | "Cm"cc/B/ A/G/ | "F"F2D/F/ | "Gm"GG/A/ B/c/ | "/"dBB/d/ | "Am"cA"D7"B/A/ | "Gm"G2 :|

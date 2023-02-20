@@ -1,0 +1,28 @@
+X: 4346
+T: Harly Bush Fair
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/4
+L: 1/8
+K: D
+%
+V: 1
+a2 |\
+{g}f4d2 d2e2f2 | (ef)g2f2 g4b2 | a2g2f2 {f}e4d2 | e2c2A2 A4a2 |\
+f4d2 d2e2f2 | (ef)g2f2 g4b2 | a2g2f2 e2d2c2 | d2A2F2 D4 :|
+|: A2 |\
+F4D2 A2B2=c2 | B2G2G2 G4B2 | ^G4E2 B2c2d2 | c2A2A2 A4a2 |\
+(ga)b2e2 (fg)a2d2 | (ef)g2c2 (de)f2B2 | (cde2)d2 c2A2c2 | d2A2F2 D4 |]
+%
+V: 2 clef=bass middle=d
+z2 |\
+d6 d'6 | a6 b4g2 | f4d2 a4d2 | c6 A6 |\
+d6 d'6 | a6 b4g2 | f4d2 a4A2 | d6 d4 :|
+|: z2 |\
+d6 d6 | g6 G6 | e6 e6 | a6 A6 |\
+b4g2 a4f2 | g4e2  f4d2 | a6 A6 | d6- d4 |]
+%%begintext align
+First Cu. Set and cast off two Cu. and up again, cross over and figure with
+the 1st Cu. then the half figure below, and half figure a Top |.
+%%endtext

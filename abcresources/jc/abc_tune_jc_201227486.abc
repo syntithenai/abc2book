@@ -1,0 +1,36 @@
+X: 10813
+T: COTILLION No. 7. tune 5
+C:
+%R: reel, march
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.81 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(AB) |\
+c2c2 c2fa | c2c2c2A2 | F2F2G2G2 | AGAB A2AB |\
+c2c2 c2fa | c2c2c2f2 | eceg bgec | f2f2f2 H|]
+(fe) |\
+d2(dc) =B2(BA) | G2G2G2c2 | =Bcde fdcB | c2c2 c2fe |\
+ddfd BBdB | G2G2G2c2 | =Bcde fdcB | c2c2 c2 ||
+(A_B) |\
+c2cc c2c2 | c2a2 f4 | d2b2g2e2 | fefg f2AB |\
+c2cc c2c2 | c2a2 f4 | d2b2g2e2 | (g4 f2) ||
+z2 |\
+f4 gfeg | f4 d3d | f4 gfef | d4 c3B |\
+A2Bc defg | a4 f2a2 | g2bg e2ge | f4 "^D.C."f2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 back to back,
+%% partners the same,
+%% alamand corners,
+%% alamand partners,
+%% all chassa,
+%% cross partners,
+%% all balance partners and turn,
+%% next 2 the same.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

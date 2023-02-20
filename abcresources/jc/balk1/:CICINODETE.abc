@@ -1,0 +1,26 @@
+X: 93
+T: Cicino Dete
+O: Serbia
+F: http://www.youtube.com/watch?v=Gsd0cKy-j3A
+M: 7/8
+L: 1/8
+K: GPhr =B
+Q: 1/4=144
+%%MIDI drum dzdzdzz 40 40 40
+%%MIDI drumon
+[AF][AF] [BG][cA] [dB][c/A/][B/G/][AF]|\
+[A2F2] [BG][cA] [dB][c/A/][B/G/][AF]  |\
+[AF][AF] [BG][cA] [dB][c/A/][B/G/][AF]|\
+[B2G2] [B2G2] [BG][d2B2]              |:\
+[AF][AF] [BG][cA] [dB][c2A2]          |
+[fd][ec] [dB][cA] [dB][c/A/][B/G/][BG]|\
+[c2A2] [BG][cA] [dB][c/A/][B/G/][BG]  |\
+[B2G2] [B2G2] [B/G/][d/B/][B2G2]::\
+[FD][FD] [GE][AF] [BG][c2A2]          |\
+[dB][cA][BG][cA] [BG][A2F2]           |
+[FD][FD] [GE][AF] [BG][A2F2]          |\
+[C2G2][C2G2] [CG][C2G2]::\
+[F2D2] [GE][AF] [BG][A2F2]            |\
+[A2F2] [GE][AF] [BG][A2F2]            |\
+[A2F2] [GE][AF] [BG][A2F2]            |\
+[G2C2][G2C2] [G3C3]                   :|

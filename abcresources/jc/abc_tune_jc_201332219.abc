@@ -1,0 +1,84 @@
+
+X: 29
+T: La Royale
+O: c.1755
+%R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" #29
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+"A"[|]\
+F3G |\
+A2A2 Bcd2 | A4 d2cB |\
+Adcd efge | f2d2 F3G |\
+A2A2 Bcd2 | A4 d2cB |
+(3ca^g (3fed c2B2 | A4 "B":|\
+Adfa |\
+a2g2 Aceg | g2f2 fafd |\
+gbge fafd | c2A2 Adfa |
+a2g2 Aceg | g2f2 gbge |\
+fafd A2c2 | d4 "C"|]\
+FAdA |\
+GBeB FAdF | EAcE FAdF |
+GBed cBAG | F2D2 FAdF |\
+GBeB FAdF | EAcE FAdF |\
+GBeg fdec | d4 |] [b4D4]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+"D"d3e | "D"f2d2 "G"g2g2 | "D"f2d2 d2d2 | "D"f2d2 "A7"c2A2 | "D"d2d2 d3e | "D"f2d2 "G"g2g2 |
+"D"f2d2 "E7"^g2e2 | "A"a2"D"d2 "E7"e2E2 | "A"A4 :| "D"d2d2 | "A7"f2e2 c2A2 | "D"d2d2 d2d2 |
+"A7"e2c2 "D"d2D2 | "A"a2a2 "D"d2d2 | "A7"f2e2 c2A2 | "D"d2d2 "A7"e2c2 | "D"d2d2 "A7"a2A2 |
+"D"d4 |] "D"d2d2 | "Em"e2c2 "D"d2d2 | "A"A2A2 "D"d2d2 | "G"g2g2 "A7"a2A2 |
+"D"d2d2 d2d2 | "Em"e2c2 "D"d2d2 | "A"A2A2 "D"d2d2 | "G"g2g2 "A7"a2A2 | "D"d4 |] [a4D4]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Royale
+%%text Le Grand Rond - - - 2/1
+%%begintext align
+%%   The first and third Gentlemen take the
+%% Ladies on their Left, cross Corners and change
+%% places, then the second and fourth Gentlemen
+%% do the same - - - 1/2
+%%endtext
+%%begintext align
+%%   The four Ladies hands Round to their places,
+%% then the four Gentlemen do the same. - 1/3
+%%endtext
+%%sep 1 1 400
+
+%%sep 1 1 500
+
+X: 1
+T: La Royale   (C)
+O: c.1755
+R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" #29
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+"A"[|]\
+"G7"E3F |\
+"C"G2G2 "F"ABc2 | "C"G4 "(G7)"c2BA |\
+"C"GcBc "G7"defd | "C"e2c2 E3F |\
+"C"G2G2 "F"ABc2 | "C"G4 "D7"c2BA |
+"G"(3Bg^f "C"(3edc "D7"B2A2 | "G"G4 "B":|\
+"C"Gceg |\
+"G7"g2f2 GBdf | "C"f2e2 egec |\
+"G7"fafd "C"egec | "G"B2G2 "C"Gceg |
+"G7"g2f2 GBdf | "C"f2e2 "G7"fafd "I"|\
+"C"egec "G7"G2B2 | "C"c4 "C"|]\
+"C"EGcG |\
+"Dm"FAdA "C"EGcE | "G"DGBD "C"EGcE |
+"F"FAdc "G7"BAGF | "C"E2C2 EGcE |\
+"Dm"FAdA "C"EGcE | "G"DGBD "C"EGcE |\
+"F"FAdf "G7"ecdB | "C"c4 |] [a4C4]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

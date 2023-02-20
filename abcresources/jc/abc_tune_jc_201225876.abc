@@ -1,0 +1,25 @@
+X: 10031
+T: la FANTASIA
+C: Lady Eliz. Lindsay
+Q: "With spirit."
+%R: reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.3 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: F
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+AB |\
+(dc).B.A (gf).e.d cfaf c2Ac | B2gB (BA)fA A2G2 G2FA |\
+cfag (fe).d.c (cB).A.B G2AB | Afef (GA).B.c A2F2F2 |]
+Ac |\
+B2B2 G2G2 {B}AGAB c2c2 | [b2g2]c2 [a2f2]c2 (gf).e.d (cB).A.B |\
+A3B c2f2 {f}e2d2 b3g | (fe).d.c dfeg f2ag f2 |]
+c2 |\
+f2Tf2 a3f {a}g3e c2c2 | dgbd (dc).B.A A2G2 G2e2 |\
+f2af gece dgbd (dc).B.A | (cB).A.B (GA).B.c A2F2F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,23 @@
+X: 39
+T: Basara
+O: Serbia
+W: from Martin Junghans/Jutta Weber-Karn transcription
+W: http://www.folkloretanznoten.de/
+M: 2/4
+L: 1/8
+K: G
+Q:1/4=144
+%%MIDI program 110 Fiddle
+%%MIDI chordprog 24 Acoustic Guitar
+%%MIDI bassprog 32 Acoustic Bass
+"D"(3DEF (3GFG|AD AD|(3DEF (3GFG|AD AD|\
+"G"[GB][Bd] "D"[Ac]2|[Ac]/[GB]/[FA] "G"[GB]2|[GB][Bd] "D"[Ac][Ac]|
+[Ac]/[GB]/[FA] "G" [GB]2|\
+"D"(3DEF (3GFG|AD AD|(3DEF (3GFG|AD AD|\
+"Gm"[G_B][FA] G/F/G|"D" AD AD|"Gm"[G_B][FA] [EG]/[DF]/[EG]|
+"D"[FA]D AD:: "D"[Ac][Ac] [Ac][GB]/[FA]/|"G"[GB][GB] [GB][FA]/[EG]/|\
+"D"(3[FA][GB][Ac] (3[Ac][GB][FA]|"G"[GB][GB] (3[GB]AG|\
+"D"[Ac][Ac] [Ac][GB]/[FA]/|"G"[GB][GB] [GB][FA]/[EG]/|
+"Gm"[G_B][FA] "A"[EG]/[DF]/[EG]|"D" [FA]D AD ::\
+"Gm"[G_B][FA] "A"[EG]/[DF]/[EG]|"D" [FA]D AD|\
+"Gm"[G_B][FA] "A"[EG]/[DF]/[EG]|"D" [FA]D AD:|

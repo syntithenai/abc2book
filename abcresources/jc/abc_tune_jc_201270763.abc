@@ -1,0 +1,33 @@
+X: 1
+T: Ducks and Draks
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (141)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction (phrased oddly for this dance).
+M: 6/4
+L: 1/4
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+e |\
+fed agf | efd ^c2e | fed agf | efd ^c2d |\
+eAe fef | gcg aga | bag c'ef | gg2 f2 :|
+|: c |\
+ABc cBA | GEc GEC | FGA AGF | EFD A2e |\
+fAA =BdG | g=BB ^c2e | aAB AGF | Ed^c D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain is to be play'd twice and repeat each Time
+%%begintext align
+%% The two 1st Cu. lead to the Wall and Back again then the 1st
+%% Cu. cast off and turn Hands .| Then lead to the wall and
+%% back again the 1st Cu. cast up and turn Hands in their own
+%% Places :| The 1st Man cross over with the 2d Wo. and the
+%% 2d Man with the 1st Wo. the two Men lead thro the two
+%% We. then the two We. lead thro the two Men .| The 1st
+%% Man cast up round the 2 Man into his proper Place the
+%% 2d Wo. casts off in to hers at the same Time then the 2d
+%% Man cast off into his proper Place the 1st Wo. casts up
+%% into hers at the same Time then the 1st Cu. cast off and
+%% turn Hands :|
+%%endtext
+%%sep 1 8 500

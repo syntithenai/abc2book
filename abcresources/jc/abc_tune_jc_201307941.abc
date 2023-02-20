@@ -1,0 +1,31 @@
+X:1
+T:Titel: Metallica - Master of Puppets
+C:Composer:
+N:Remarks: start only
+Q:1/4=125
+M:4/4
+L:1/8
+K:C
+E/2F/2B/2 z/2 E/2F/2c/2 z/2 E/2F/2d/2 z/2 E/2F/2c/2 z/2 E/2F/2B/2B/2
+E/2F/2B/2 z/2 E/2F/2c/2 z/2 E/2E/2 z/2 A/2G/2 z/2 A/2G/2 z/2 A/2G/2
+-----------------------------------------------------------------------------
+Yatta16-06-2007, 12:45 PMI keep getting bad meter. Line2, coloum3. The tunes work when I play them on my .ABC player but wont work in game.
+-----------------------------------------------------------------------------
+Jake Spectral16-06-2007, 01:23 PMthats because LotRO uses notes C through c....though being a musical numpty that means very little to me hehe
+A lot of abc files converted from midid will require further editing to make them compliant.
+-----------------------------------------------------------------------------
+Yatta16-06-2007, 01:34 PMSorted it I was saving the propper music file formats for my player. What you need to do is cut and past the tune you want to play in to note book. You then save the file as any file but this is the important bit you need to add .abc to it. So if your tune is called test1 you need to save it as test1.abc then you can play it in game.
+-----------------------------------------------------------------------------
+Jake Spectral16-06-2007, 01:44 PMhehe very common error. I'm actually amazed at the number of ppl around who have no idea what a file extension is, let alone enabling them to rename them :P
+And for the wise, never ever use notepad, its rubbish, comes from microsux and is prone to moving your text around a lot. Use a text editor like Crimson Editor or other such app.
+-----------------------------------------------------------------------------
+RPG_Ash16-06-2007, 03:00 PMVery nice collection! Thanks :D
+-----------------------------------------------------------------------------
+Nosyd16-06-2007, 04:03 PMI can't seem to get it to work. All I get is this message in my chat window:
+Couldn't open file
+C:\Documents and Settings\name\My Documents\The Lord of the Rings Online\Music\moz.abc.
+I have done as said in the above post, but it doesn't seem to want to open the file? Do I need a special program or something to save these abc files?
+Edit: Never mind, I got it to work now. I was being a bit thick it seems... :o
+-----------------------------------------------------------------------------
+Yatta16-06-2007, 06:01 PMYou should not need a special program just to save the files as .abc. But If you follow this guide it should work.
+1st copy this.

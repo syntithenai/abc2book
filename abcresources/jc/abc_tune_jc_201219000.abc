@@ -1,0 +1,30 @@
+X: 01
+T: the HOPELESS
+%R: jig
+B: Button & Whitaker "Twelve Elegant New Dances for the Year 1810"
+F: http://imslp.org/wiki/Button_and_Whitaker's_Elegant_New_Dances_for_1810_(Various)
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for compactness.
+V: 1 staves=2
+|:\
+BAB G3 | d^cd B3 | edc BAG | FGA D3 |\
+BAB G3 | d^cd g3 | fed ed^c | d6 :|
+|:\
+fga d3 | gab d2^d | e=dc BAG | FGA D3 |\
+GFG B3 | A^GA e3 | ded cBA | G3 G2z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+G3 g3 | G3 g3 | c3 ^c3 | d6 | G3 g3 |
+G3 g3 | A3 a3 | dfa d3 :||: d3 =c3 | B3 z2z | c3 ^c3 |
+d3 z2z | B3 G3 | A3 ^c3 | d3 D3 | G3 g2z :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Foot it & turn your Partner, back again, down the middle and up again, right & left.
+%%endtext
+% %center -------------------------
+% %center Button & Whitaker "Twelve Elegant New Dances for the Year 1810"

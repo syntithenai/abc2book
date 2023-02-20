@@ -1,0 +1,56 @@
+X: 1
+T: Valse Style Musette
+C: Andr\'e Verchuren
+O: France
+R: waltz
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://accordeonduriche.canalblog.com/print/29199644.html
+S: http://storage.canalblog.com/35/98/833929/93792185_o.png
+S: https://www.youtube.com/watch?v=gNcjnSWnmKE (Gaston Nolet's version)
+M: 3/4
+L: 1/8
+P: Play IAABACA
+K: Dm
+"Intro"||\
+"Gm"GABGAB | "Dm"FGAFGA | "/A"EF"/B"GE"/C#"FG | "Dm".D2 \
+"A"|:"N.C."^GABA |\
+"Dm"fdAfdA | "A7/E"e^cGecG |
+"Dm/F"dAFdAF | "F#dim"cA_EcAE |\
+"Gm"BGDBGD | "D7/A"A^FCAFC |\
+"Gm/Bb"G2- [G4D3B,4] | "Gm"z2EFGA |
+[1 "A7/E".[B2G2^C2] z2 {AGE}.C2 | "A7"z2^CEGA |\
+"Dm".[B2F2D2]AG.[F2D2A,2] | "Dm/F"z2defd |\
+"E7/B"[e6d6^G6] | "E7"(3[=B^G]cB .[_B2=G2].[=B2^G2] |\
+"/A /B /C"[e6-^c6-G6-] | "A7/C#".[e2c2G2] :|
+[2 "A7/E"BA^GA^ce | "A7"gbagfe |\
+"Dm"[g3e3][_g_e].[f2d2] | "Dm/C"zdefed |\
+"E7/B"[f3d3^G3]G (3=Bdf | "A7"[e3^c3G3]d [cG]e !coda!|\
+"/D /A /F"[d6-A6-F6-] | "Dm".[d2A2F2] !fine!|]
+% - - - - - - - - - -
+"B"|: "N.C.".c2.d2 |\
+"C7/G"(3[eB]fe.d2.c2 | "C7".[g2e2B2][f3d3][ec] |\
+"F"[g4c2A2].[f2c2A2] | z2[ac][ac][ac][ac] |\
+"C7/B".[a2c2][gB][ac].[b2d2] | "C7"z2[gB][gB][gB][gB] |\
+"F".[g2B2][fA][gB].[a2c2] | z2[c2A2][d2A2] | "C7"(3[eB]fe.d2.c2 |
+"C7".[g2e2B2][f3d3][ec] | "F"[g4c4A4].[f2c2A2] | "D7"z2[ac][ac][ac][ac] |\
+"Gm".[a2c2][gB][ac][b2d2] | "C7"z2[d3B3]e |\
+[1 "F"[f6-c6-A6-] | [f2c2A2].d2 :|\
+[2 "/F /G /G#"[f6c6A6] | "A7".[e2^c2G2] "_d.C."y|]
+% - - - - - - - - - -
+K: D
+"C"|: "N.C."A^G=GA |\
+"D"[F6-D6-] | "D/A"[F2D2][G3E3][^G^E] |\
+"sim. - - - -".[B2G2]z2[A2-F2-] | [A2F2][^G3^E3][AF] |\
+.[B2G2][A3F3][^G^E] | "D/F#".[B2G2][A3F3]D |
+"A7/E"[C6-G,6-] | "A7"[C6G,6] |\
+"sim. - - - -"[G6-E6-] | [G2E2][A2F2][_B2G2] |\
+.[c2A2]z2[B2-G2-] | [B2G2][^A3F3][BG] |\
+.[c2A2][B3G3][^A^F] | .[c2A2][B3G3][E^C] |\
+"D"[A6-F6-] | "/A"[AF]A,"/B"A_A"/C#"G=A |
+"D"[F2-D2][F2-C2][F2-B,2] | "D/A"[F2A,2][G3E3][^GE] |\
+"sim. - - - -".[B2G2]z2[A2-F2-] | [A2F2][A3F3][B^G] |\
+"Am7"[=c2A2][e2c2^G2][e2c2=G2] | "D7".[e2=c2F2][d3B3][cA] |\
+"G"[B2-G2-D2][B2-G2-C2][B2-G2-D2] | "B7"[B2A2^D2] | "N.C."BA GF | "Em"E2G2B2 |
+"Gm"[e3_B3G3]^d.[e2B2G2] | "D/A"D2F2A2 | "D/F#"[d3B3F3]^c.[d2B2F2] |\
+"A7/E".[c2G2E2](3BcB.A2 | "A7".[G2C2B,2][F3C3A,3][EG,] |\
+"D"[D6-A,6-F,6-] |[1 "N.C.".[DA,F,]A, :|[2 "Dm"[D2A,2F,2] "d.C."|]

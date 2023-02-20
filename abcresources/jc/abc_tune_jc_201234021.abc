@@ -1,0 +1,24 @@
+X: 20211
+T: DUNCAN'S ELECTION
+C: Copyright.--John McGlashan.
+Q: "Moderate."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.21 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D |\
+(GB).d (ed).B |(GB).d (e2g) | (GB).d edB | AGB A2D |\
+GBd edB | (GB).d e2f | gfe dcB | AGA G2 :|
+|: d |\
+(gf)g (ef)g | abg f2d | efg (ag)a | bge e2(g/a/) !p!|\
+(ba).g (ag).f | (gf)e (de).f | (gf).e dcB | AGA G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Composed on the election of G. Duncan, Esq., M.P.,
+%% as Grand Master of a lodge of Masons in Dundee.
+%%endtext
+%%sep 1 1 300

@@ -1,0 +1,24 @@
+X: 12
+T: the Shrewsbury Lasses
+%R: march, reel
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1765", London 1765, p.6 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1765#
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(3(A/B/c/) |\
+dA2(G | F)D2F | EGFE | FDFA |\
+df2(d | c)e2A | BdB^G | A2-A :: (3(A/B/c/) |\
+dB2G- | GE2a- |
+af2d- | dB2b- |\
+bg2e- | ec2(A | G)B2G | ((3FGA) FD |\
+GB2G | FA df | {f}e2dc | d2d :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First Man set to the 2d Wo: and turn .|. 1st Wo: do the same
+%% with the 2d Man :|. Cast off & hands round four at bottom .|:
+%% the Wo: go round the bottom Cu: the Man round the top Cu:
+%% meet and turn in your own Places :|:
+%%endtext

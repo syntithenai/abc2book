@@ -1,0 +1,23 @@
+X: 1781
+T: the Ace and Deuce of Pipering - 1st Setting
+T: aon 's do na pipbaireacda
+R: hornpipe, reel, "long dance"
+%S: s:6 b:24(4+4+4+4+4+4)
+S: 1781 O'Neill's Music of Ireland
+B: O'Neill's 1850 #1781
+O: Cronin
+Z: Robert Thorpe (thorpe@skep.com)
+Z: ABCMUS 1.0
+M: C|
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+(dc) \
+| B2cA  (BG)cA | BdcA  B2(AG) | d2ec       d2ec  | dfec dcBA |
+| e2fd  (ed)cA | Adde   dcBA  | BGcA      B2(AG) | FGAB cBcA |
+| G2(ge) =fdcA | FGAB {d}cAFG |.A(G{A}GF) G2(FG) |.A(G{A}GF) G2 :|
+|: (GF) \
+| G2=f2   e2f2 | G2(=fg) fdcA | G2g2      f2g2   | d2(ga) gfdc  |
+| A2=f2   e2f2 | d^cde   fefg | agfa      gfdc   | BGcA  B2(AG) |
+| G2(ge) =fdcA | FGAB {d}cAFG |.A(G{A}GF) G2(FG) |.A G{A}GF G2 :|

@@ -1,0 +1,16 @@
+X: 992
+T: the Humors of Kilkenny
+R: jig
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #992
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0992/oneill-1001-0992-1.abc
+M: 6/8
+L: 1/8
+K: G
+"^A"[|] c |: \
+B>GG G2B | ded d2c | BGG GBd | e3 g3  ||
+GBd  gfe | edc cBA | BGE EDE | c3 edc :|
+"^B"|:\
+BGE EDE | GED D2c | BGE EDE | c3 edc ||
+BGE EDE | GED D2c | BAG AGF | G3 G3  :|

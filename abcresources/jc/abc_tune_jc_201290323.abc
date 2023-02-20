@@ -1,0 +1,19 @@
+X: 1
+T: In The Toyshop
+R: barndance
+S: https://thesession.org/tunes/11075 #2
+M: 4/4
+L: 1/8
+K: G
+B>c "^A1"|\
+d2 d>B g2g>B | d2 d4 G>A | B2 B2 e2 e2 | d6 f>e |\
+d2 A2 A2 f>e | d2 A2 A4 | d2 dd c2 A2 | B6 ||
+B>c "^A2"|\
+d2 d>B g2 g>B | d2d4 G>A | B2 B2 e2 e2 | d6 f>e |\
+d2 A2 A2 f>e | d2 A2 A4 | d2 [d2c2] [e2B2] [f2A2] | [g4G4] |]
+=f4 "^B"|\
+e2e>^d e2e>^d | e>^de>(a a)>gf>e | d2 d2 d>c B>c | d6 B2 |\
+e2e>^d e2e>^d | e>^de>(a a)>gf>e | d2d2e2 ^e2 | f6 ||
+ B>c "^A3"|\
+d2 d>B g2 g>B | d2d4 G>A | B2 B2 e2 e2 | d6 f>e |\
+d2 A2 A2 f>e | d2 A2 A4 | d2 [d2c2] [e2B2] [f2A2] | [g6G6] |]

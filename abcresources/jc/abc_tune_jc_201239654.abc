@@ -1,0 +1,19 @@
+X: 3354
+T: RACKET HORNPIPE
+R: Hornpipe.
+%R: hornpipe, reel
+B: James Kerr "Merry Melodies" v.3 p.39 #354
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+(gf) |\
+ecc'g ecfe | dAdc BGAB |\
+cdef geag | fed^c d2(gf) |\
+ecc'g ecfe | dAdc BGAB |\
+cdef geaf | edcB c2 :|
+|: (gf) |\
+edcB A2(ag) | fed^c d2(fe) |\
+dcBA BGgf | edcB c2(gf) |\
+edcB cdec | A^cde fga^f |\
+gece fdBd | c2e2 c2 :|

@@ -1,0 +1,22 @@
+X: 21612
+T: the BALL-ROOM POLKA
+Q: "Allegretto."
+%R: polka, march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.161 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Initial "pickup" rest added to 2nd strain, to fix the rhythm.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!p!.G.A |\
+.B2.B.c .B2.B.c | B2G2 G2FG | .A2.B.c .c2.d.e | e2d2 d2c2 |\
+B2Bc B2Bc | B2G2 G2FG | A2Bc d2ef | g2G2 G2 :|
+|: !f!z2 |\
+.A.B.^c2 .c.d.e2 | .f.g.a2 .d.e.f2 | {fg}.f2.e2 .g.f.e2 | {ef}.e2.d2 .f.e.d2 |\
+AB^c2 cde2 | fga2 def2 | {fg}f2e2 gfe2 | d2[d2F2][d2F2] :|
+|: !p!.G.A |\
+.B2.B.c .B2.B.c | B2G2 G2FG | .A.B.c2 .c.d.e2 | e2d2 d2c2 |\
+B2Bc B2Bc | B2G2 G2FG | A2Bc d2ef | g2G2 "D.C."G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

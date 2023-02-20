@@ -1,0 +1,26 @@
+X: 1
+T: Col. McBain's Reel
+R: reel
+S: Fiddle Hell Online 2020-11-05 Se\'an Heel Slow Airs Workshop
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - -
+V: 1 staves=2
+!p!c |\
+(B/c/d) (.G.d) BGdB | (A/B/c) (.F.c) AFcA |\
+(B/c/d) (Gd) BGdG | (^F/G/A) D>F {F}G2G :: !f!A |\
+B2-TBf B/B/B (.f.d) | c>(dTcB) ABcA |
+Gg-g.a bag^f | (g/a/b) (.a.^f) Tg2ga |\
+(g/a/b) (.=f.d) (B/c/d/e/) .f.d | c>d(TcB) A>BcA |\
+BdTg>^f gdc_e |  dBcA {^F}G2G, |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+[g2G2][g2G2] [g2G2][g2G2] | [f2F2][f2F2] [f2F2][f2F2] |\
+[g2G2][g2G2] [g2G2][g2G2] | [d2D2][d2D2] [g2G2][gG] :: z |\
+[b2B2][b2B2] [b2B2][b2B2] | [f2F2][f2F2] [f2F2][f2F2] |
+[g2G2][g2G2] [g2G2][g2G2] | [d2D2][d2D2] [g2G2][_e2_E2] |\
+[d2D2][d2D2] [B2B,2][B2B,2] | [f2F2][f2F2] [f2F2][^f2^F2] |
+[g2G2][a2G2] [b2B2][c'2c2] | [d'2d2][d2D2] | [g2G2][gG] |]

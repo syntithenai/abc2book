@@ -1,0 +1,30 @@
+X: 1
+T: R\'ugu\vo
+T: If [16-bar form]
+C: melody: T\'ai Zh\`ao-M\'ei
+%T: Rúguǒ
+%T: 如果
+%C: melody: Tái Zhào-Méi (邰肇玫)
+%C: lyrics: Shī Bì-Wú (施碧梧)
+D: Vienna Teng
+D: T\'ai Zh\`ao-M\'ei (邰肇玫)
+N: This is a 32-bar version, arranged for 32-bar dances. The original song
+N: stretches the last 2 bars to 4, plus assorted interludes between verses.
+M: C
+L: 1/8
+K: G
+%%staffsep 45
+|:"G"B,D3- D2DD | "C"EG3- G2z2 | "G"DD2E D2B,2 | "D7"A,6 z2 |
+| "G"B,D3- D2DD | "C"EG3  E2zE | "G"D3B, "D7"A,3G, | "G"G,6 z2 ||
+||"G"G3G  G2A2 |    B4   D4    | "C"EG2G "(A7)"G2(FG) | "D7"A6 z2 |
+| "G"BB2c B2A2 | "C"zG2A G2{F}E2 | "G"D3D "D7"BA(GF) | "G"G6 z2 :|
+%
+%W:如果你是朝露    我愿是那小草
+%W:如果你是那片云  我愿是那小雨
+%W:终日与你相偎依  于是我将知道
+%W:当我伴着你  守着你时  会是多么绮丽
+%W:%
+%W:如果你是那海    我愿是那沙滩
+%W:如果你是那阵烟  我愿是那轻风
+%W:永远与你缠绵    于是我将知道
+%W:当我伴着你  守着你时  会是多么甜蜜

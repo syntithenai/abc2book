@@ -1,0 +1,31 @@
+X: 208
+T: Now you're gang awa.
+T: O'n a tha u falbh.
+R: air, minuet
+N: This is version 2, for ABC software that understands crescendo symbols
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.96 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+U: p=!crescendo(!
+U: P=!crescendo)!
+M: 3/2
+L: 1/4
+Q: "Slow & Soft"
+K: Dm
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+|:\
+!p!A<d ~d>^c [A2F2] | "_cres"F<f Tf>g {fg}a>g |\
+"_dim"Tf>e ~d>c [A2F2] | p(TA>^G A)~^c {c}Pd2 :|\
+!p!Tf>e d>c [A2F2] | "_cres"F<f Tf>g {fg}a>g |
+"_dim"Tf>d e>c [A2F2] | p(A>^G A)^c {c}Pd2 ||\
+!p!Tf>d ec [A2F2] | "_cres"Tf>e fg a<c' |\
+!f!H"_dim"a>g ~f>e ~d>c | p(TA>^G A)~^c {c}Pd2 |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+df aA d2 | fa c'c f2 | ac' ba f2 | fe fe d2 :| d'>c' b>a f2 | A f2 e f2 |
+ab gc' f2 | fe fe d2 || df a2 f2 | ag ag f2 | Hfg a2 b2 | fe fe d2 |]
+% = = = = = = = = = =

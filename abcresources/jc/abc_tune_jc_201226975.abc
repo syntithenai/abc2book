@@ -1,0 +1,13 @@
+X: 10543
+T: STUMPIE STRATHSPEY
+R: strathspey
+B: K\"ohler's Violin Repository, v.1, 1885 p.54 #3
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Removed extra bar line in middle of bar 11.
+N: Added missing flag to first c in bar 12.
+M: C|
+L: 1/8
+K: A
+|: (vc<e) a2 .a/.g/.f/.e/ a2 | (c<e) a2 (b<B)B>d | (c<e) a2 .a/.g/.f/.e/ a2 | (c<e) [BG]>e (c<A) [A2A2] :|
+|: vc<e (e>c) (d<f) f>d | c<e (e>c) (f<B)B>d | c<e (e>c) (d<f) f>d | c<a [BG]>e (c<A) "_Segue Reel."[A2A2] :|

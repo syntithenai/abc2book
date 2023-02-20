@@ -1,0 +1,50 @@
+%%text RJ new Set 2020-7-14
+
+
+X: 1
+T: Irishman's Heart to the Ladies
+M: 6/8
+L: 1/8
+S: RJ handout from Michael Pavan 2020-7-14
+K: A
+"^A"[|] vf |\
+"A"ecA "D"BAF | "A"AFE EFA | "D(Bm)"Bdc BAB | "E"cBB B2 vf |\
+"A"ecA "D"BAF | "A"AFE EFA | "D(Bm)"Bdc "E(7)"BAB | "A"cAA A2 :|
+"^B"|:  vA |\
+"A"cee "D"dff | "A"cee ecA | cee "D"dff | "A"ecA "E"B2 vA |\
+"A"cee "D"dff | "A"cee ecA | "D(Bm)"Bdc "E(7)"BAB | "A"cAA A2 :|
+
+
+X: 2
+T: Connaughtman's Rambles, The
+M: 6/8
+L: 1/8
+S: RJ handout from Michael Pavan 2020-7-14
+K: D
+"^A"[|] A |\
+"D"FAA dAA | "G"BAB "D"dAG | FAA dfe | "Bm"dBB B2A |\
+"D"FAA dAA | "G"BAB "D"def | "G"gfe "D"f2 e | "Bm"dBB B2 :|
+K: Bm
+"^B"|: g |\
+"Bm"fbb faa | "D"fef d2 e | "Bm"fbb faa | fed "A"ede |\
+"Bm"fbb faa | "D"fef def | "G"gfe "D"d2 e | "Bm"dBB B2 :|
+
+
+X: 3
+T: Old Favorite (Club C\`eil\`i)
+M: 6/8
+L: 1/8
+S: RJ handout from Michael Pavan 2020-7-14
+K: G
+"^A" [|] A |\
+"G"B3 BAB | dBA G2B |\
+[1,3 ded d2B | ded "D"B2A :|\
+[2,4 ded "D"cBA | "G"G3 G2 :|\
+"^B"|: f |\
+"G"g2g "D"f2f | "C"efe "G"d2B |
+ded d2B | ded Bdf |\
+"G"g2g "D"f2f | "C"efe "G"d2B |\
+[1 "D"dge dBA | "G"G3 G2 :|\
+[2 "G"dge dge | dge "D"dB |]
+
+%%text Handout for Roaring Jelly practice 2020-7-14

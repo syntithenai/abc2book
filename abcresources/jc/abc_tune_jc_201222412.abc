@@ -1,0 +1,17 @@
+X: 5
+T: 5. REEL
+T: Billy in the Lowlands (variant)
+B: Sam Bayard, "Hill Country Tunes" 1944 #5
+S: Played by David P Gilpin, Connellsville, Fayette County, PA, Sep 22 1943. Learned in Dunbar, PA.
+N: Variant of Billy in the Lowlands (Low Grounds).
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+%Q: "Very Quick"
+M: C|
+L: 1/8
+K: C
+G,2 |\
+G,2C2 E2G2 | cBcd c2B2 | A^GAB cBcd | e2a2 {e}g2G,2 |
+G,2C2 E2G2 | cBcd c2B2 | A^GAB cBcA | GED_B, C2 || cc |
+eg2^f g2ag | ec2B c2d2 | ea2g a2ag | ecAB c2cd |
+eg2^f g2ag | ec2B c2G2 | A^GAB cBcA | GED_B, C2 |]

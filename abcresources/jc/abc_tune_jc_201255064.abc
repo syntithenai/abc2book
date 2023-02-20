@@ -1,0 +1,858 @@
+
+X: 0
+T: Polka 1
+K:
+
+
+X: 1
+P: Hoppvals fra Feragen
+O: Norway
+R: polka, Busserull
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K:  D
+|: F \
+|  "D"A>A AG | FA dc | "G"B>B BA | "Em"GB ed \
+| "A7"c>c cc | cA Bc |1,3 " D"d>d dB | "A7"A3 :|2,4 " D"d2 {e}dc | d3 :|
+|: f \
+|  "D"a>a ^ga | ba gf | "A7"g>g gf | e4 \
+|1,3 g>g gf | kez A2 | "D"f>f fe | d3 \
+:|2,4 g>"A7"g ge | cA Bc | "D"d2 dc | d3 :|
+
+
+X: 2
+P: Alfred p\aa Hultet
+O: Sweden, Denmark
+R: polka, polkett
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|: "D"f2f2 fgfe | d2d2 F3G | A2A2 {A}B2AG | "Em"F2E2 E4 \
+|  "A7"g2g2 gfed | c2c2 c3B | "D"A2A2 {A}B2AG | F2A2 d2e2 ||
+|| "D"f2f2 fgfe | d2d2 F3G | A2A2 {A}B2AG | "Em"F2E2 E4 \
+|  "A7"g2g2 gfed | c2a2 abag | f2g2 B2c2 | "D"d4 d4 :|
+|: "D"f2f2 fdAd | f2f2 f4 | "G"g2g2 gdBd | "Em"g2g2 g4 \
+| "A7"a2a2 aece | a2a2 abag | f2g2 e2a2 | "D"f2d2 d2e2 ||
+|| "D"f2f2 fdAd | f2f2 f4 | "G"g2g2 gdBd | "Em"g2g2 g4 \
+| "A7"a2a2 aece | a2a2 abag | f2g2 B2c2 | "D"d4 d4 :|
+
+
+X: 3
+P: Ungerska J\"arnv\"agns  (Hungarian Railway)
+O: Sweden
+C: Magnus B\"ackstr\"om, 1988
+N: Ritard greatly before end on the 2nd measure.
+R: polkett
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|: A2 \
+| "D"d2AB "A7"A2G2 | "D"HF6 "(A)"A2 | "D"d2AB A-Bcd | "A7"e6 f2 \
+| g2fg f2ed | c-ABc B2A2 | A-Bcd e-fge | "D"f-gfe f2d2- |
+| "D"d2AB "A7"A2G2 | "D"F6 "(A)"A2 | "D"d2AB A-Bcd | "A7"e6 f2 \
+| g2fg f2ed | c-Ace a4 | a-baf g2ec | "D".d2.f2d2 :|
+|: A2 \
+| "D"D-EFG A-Bcd | "A7"e-dcB c2A2 |1,3 e-dcB c2eg | f-edc B2 \
+                                 :|2,4 e-dcB c2eg | "D"f2-.d2 d2 :|
+
+
+X: 4
+P: Kaustisen polkka
+R: polka
+O: Finland
+M: 2/4
+L: 1/16
+K: Am
+|: "Am"ABcd e2a2 | e2c2 cBcd \
+| "E7"c2B2 B2AB |1,3 "Am"cBAc "E7"B2E2 :|2,4 "Am"cBA2 A2Hz2 :|
+|: "Am"ABcd e2a2 | "Dm"c'2b2 a2^ga \
+| "E7"b2e2 e^geg |1,3 "Am"b2{a}a2 a^ga2 :|2,4 "Am"b2{a}a2 a2z2 :|
+|: "C"g2ag eceg | c'2g2 eceg \
+| "G7"g2ag gdBd |1,3 "C"c2c2 cdef :|2,4 "C"c2c2 c2z2 :|
+
+%%newpage
+
+
+X: 0
+T: Polka 2 (Swedish)
+K:
+
+
+X: 1
+P: Babba-Lisas hyfs'n
+C: S\"oren Johansson
+O: Sweden
+R: polkett
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|: D2 \
+|  "G"GGGG G2A2 | BBBB B2c2 | dddd d2e2 | "D7"f6 g2 \
+|     aaaa a2g2 | ffff f2e2 | dddd d2c2 | B6 D2 ||
+|| "G"GGGG G2A2 | BBBB B2c2 | dddd d2e2 | "D7"z2f4 g2 \
+|     aaaa a2g2 | ffff f2e2 | ~d2^cd e2f2 | "G"g6 :|
+|: d2 \
+|  "G"d2gg g2d2 | B2dd d2B2 | G2[gB][gd] g2B2 | "Am"c6 B2 \
+|  "D7"A2aa a2gg | g2ff f2ee | e2dd d2c2 | B6 c2 ||
+|| "G"d2gg g2d2 | B2dd d2B2 | G2[gB][gd] g2B2 | "Am"c6 B2 \
+|  "D7"A2aa a2gg | g2ff f2e2 | ~d2^cd e2f2 | "G"g6 :|
+
+
+X: 2
+P: Polkett fr\aan Stugun, J\"amtland
+O: Upptecknad av E.M.N\"aslund
+N: efter Grythyttand Polskegille
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+R: snoa, polkett
+M: 2/4
+L: 1/16
+K: C
+ef \
+| "C"g2ag "G7"{fg}f2ed | "C"e2c2 Tc2Bc | "G7"d2G2 G2AB | "C"cBcd edef \
+| "C"g2ag "G7"{fg}f2ed | "C"e2c2 Tc2Bc | "G7"d2G2 G2AB | "C"c2c2 [c2E2] :|
+|: z2 \
+| "C"G2c2 C2c2 | "G7"{cd}c2B2 {c}B2AB | {ga}g2^fg a2g2 | {ga}g2^fg a2g2 \
+| "C"e2g2 c3e  | "Dm"{f}e2d2 {e}d2^cd | "G7"g2^fg ag=fd | "C"c2c2 [c2E2] :|
+
+
+X: 3
+P: Polka "Redwing"
+O: Swedish
+R: polkett
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+N: Ed Johnson (Minneapolis) played this; it was one of the tunes he remembered from his youth
+N: in R\"attvik (in the 1920's).  It is clearly derived from the 19th-century American tune "Redwing".
+M: 2/4
+L: 1/16
+K: G
+|: z2Bc \
+| "G"d2Bc d2Bc | d2B2 G2Bc | d2Bc d2g2 | "D7"f6 fg \
+| a2fg a2fg | a2f2 d3e | d2c2 B2A2 |1 "G"[B4G4] :|2 "G"G4 :|
+|: g2f2 \
+| "C"e4 c4- | c2g2 f2e2 | "G"d4 B4- | B2g2 f2g2 \
+| "D7"a4 f4- | f2a2 g2a2 | "G"b4 g4- | g4 f2=f2 |
+| "C"e4 c4- | c2g2 f2e2 | "G"d4 B4- | B2g2 f2e2 \
+| "D7"d4 c4 | E4 F4 | "G"G2GA "D7"B2A2 | "G"G4 :|
+
+
+X: 4
+P: Polka i A/A/D
+O: Norway, Sweden
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+cd \
+| "A"e2c2 ~e2ce | a2c2 efec | "E7"~d2E2 EGBd | "A"~c2A2 ABcd \
+| "A"e2c2 ~e2ce | a2c2 efec | "E7"~d2E2 EGBG | "A"A2[c2A2] "fine"A2 :|
+|: z2 \
+| "A"E2EE E2AB | c2cc c2dc | "E7"B2BB B2cd | "A"~c2A2 A2AF \
+| "A"E2EE E2AB | c2cc c2dc | "E7"B2BB BdcB | "A"A2[c2A2] A2 :| %[K:=g]
+K:D
+|: AA \
+| "D"A2d2 f2e2 | d6 c2 | BABc d2c2 | "G"B6 BB \
+| "Em"B2e2 g3f | "A7"~e2d2 c2B2 |1 BAce a2g2 | "D"f6 :|2 "A7"BAce a2c2 | "D"d6 |]
+
+%%newpage
+
+
+X: 0
+T: Polka 3 (Danish)
+K: C
+
+
+X: 1
+P: Hamborg Sekstur
+R: polka
+O: Randersegnen
+B: 358 Danske Folkedansemelodier v.I #255
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+%Q: 1/4=104
+K: D
+A2 \
+|: "D"d2f2 a3b | a2f2d2 f2 |1,3 "A7"gfef gfef | gfed c2A2 \
+                          :|2,4 "A7"gfed cABc | "D"d2d2d4 :| [K:^g]
+K: A
+|: "A"e2c'a e2ae | c2ec A2c2 |1,3 "E7"d2d2 dcB2 | "A"c2c2 cBA2 \
+                            :|2,4 "E7"dcBc defg | "A"a2a2a4 :| [K:=g]
+K: D
+|: "D"f2A2 d2A2 | FAdf a3f |1,3 "A7"g2A2 e2A2 | (ba^ga) f2 A2 \
+                          :|2,4 "A7"gfef gbac | "D"d2d2d4 :|
+
+
+X: 2
+P: Rheinl\aender Polka Nr.  19
+O: trad Danmark
+R: polka
+D: Sp\aelimenninir i Hoyd\olum
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+Bc \
+| "G"dbag "D7"fage | "G"d2B2 B2Bd \
+|1,3 "D7"c2A2 ABcd | "G"e2d2 B2Bc :|2,4 "D7"cBAB cdef | "G"g2g2"fine"g2 :| [K:D]
+z2 \
+|: "D"ffff f2A2 | f2A2 f2A2 | ffff f2a2 | "A7"a2c2 c4 \
+| gggg g2A2 | g2A2 g2A2 | gggg g2b2 | "D"b2a2 f4 |
+| "D"aaaa a2g2 | "D"ffff f2e2 | dddd d2c2 | "G"B2g2 g4 \
+| "D"f2Ad f2f2 | "A7"e2Ac e2e2 | "D"dfa2 "A7"c3a | "D"d2d2d2 :| [K:G]
+d2 \
+|: "G"d4 B2G2 | "C"g4 f2e2 | "G"e2d2 d2B2 | G6 d2 \
+| "D7"d2c2 c2A2 | F6 d2 | f2e2 d2c2 | "G"B6 d2 |
+| "G"d4 B2G2 | "C"g4 f2e2 | "G"e2d2 d2B2 | G6 d2 \
+| "D7"f3e f3e | e2d2 d2Bc | d2c2 B2A2 | "G"G2B2G2 :|
+
+
+X: 3
+P: Arnes Polka
+C: Arne Jornegsen
+O: Denmark
+S: Harald Haugaard
+N: from a handwritten MS
+M: 2/4
+L: 1/16
+K: G
+Bc \
+| "G"d2bd "D7"c2ac | "G"B2gg g2g2 \
+| "D7"A2ff f2f2 | "G"B2gg g2Bc |
+| "G"d2bd "D7"c2ac | "G"B2gg g2g2 \
+| "D7"fga[bg] [c'f][ad][ge]f | "G"g2g2 "fine"g2 :|
+|: g2 \
+| "C"eccG G2e2 | "G"dBBG D2d2 \
+| "D7"cAAF D2F2 | "G"GFGA B2G2 |
+| "C"EGcG EGcG | "G"DGBG DGBG \
+| "D7"FGAB cAFA | "G"G2G2 G2 :|[K:C=f]
+|: "C"[E2C2][E2C2] [E4C4] | "F"[F2A,2][F2A,2] [F4A,4] \
+| "G7"G2BA GFED |1-3 "C"CDEF G2G,2 :|4 "C"[E2C2][E2C2] [E4C4] |]
+
+%%newpage
+
+
+X: 0
+T: Polka 4 (Finnish)
+K:
+
+
+X: 1
+P: S\"akkij\"arven polkka
+R: polka
+O: trad Finland
+Z: 2005 by John Chambers <jc@trillian.mit.edu>
+N: Probably the best-known traditional Finnish polkka tune.
+N: S\"akkij\"arvi is a small town between Leningrad/(Saint)Petersburg and the Finnish border.
+N: Fourth and fifth parts are often played, which are usually "accordion showoff" parts.
+N: This tune is sometimes attributed to Vili Vesterinen, but he learned it from others,
+N: and was the accordion player who popularized it.
+N: The "D" part here has a key change.  Some people play it like this; others stay in one key.
+M: 2/4
+L: 1/16
+K: Am
+"A"\
+|: {Ace}"Am"a2e2 d2c2 | "E7"c2B2 B2cd | e2>d2 c2B2 | "Am"B2A2 A2ce \
+| a2e2 d2c2 | "E7"c2B2 B2cd | e2d2 c2B2 | "Am"A4 "fine"z2 :|
+"B"\
+|: "Am"ABcd e2a2 | "E7"a2^g2 gab2 | e^f^ga b2c'2 | "Am"b2a2 a^ga2 \
+| ABcd e2a2 | "E7"a2^g2 gab2 | e2e2 ^f2^g2 | "Am"a4 z2 :|
+"C"\
+|: "Am"A^GAB "A7"cBc^c | "Dm"d^cde fedf | "E7"eE^GB edcB |1,3 A"Am"^GAB cBAE :|2,4 A2"Am"e2 A4 :|[K:Dm]
+"D"\
+|: "Dm"A2AF D2DF | A2AF D2DF | A2A2 B2A2 | "A7"GAGF E2EF \
+| G2GF E2EF | G2GF E2EF | G2G2 A2G2 | "Dm"FGFE D2DF |
+| "Dm"A2AF D2DF | A2AF D2DF | A2A2 "D7"d2c2 | "Gm"BcBA G2>A2 \
+| B2B2 A2G2 | "Dm"FGFE D2DF | "A7"EFED ^C2E2 | "Dm"D4 z2 :|
+
+
+X: 2
+P: Lukkari-Heikin polkka
+R: polka
+O: trad Finland
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|: "A7"AA \
+| "D"A2D2 ~F2DF | A2D2 ~F2DF | "A7"G2E2 C2E2 | "D"D2d2 "(A7)"cdcB \
+| "D"A2D2 ~F2DF | A2D2 ~F2DF | "A7"G2E2 C2E2 | E2D2 "D fine"D2 :|
+|: z2 \
+| "G"G2B2 G2B2 | G2B2 BdcB | G2B2 G2B2 | G2B2 BdcB \
+| "D"A2D2 ~F2DF | A2D2 ~F2DF | "A7"G2E2 C2E2 | E2D2 "D"D2 :|
+|: dc \
+| "Bm"B2Bd f2f2 | b2f2 "(Em)"gfed | "F#7"c2cd e2e2 | fedc "Bm"d2B2 \
+| B2Bd f2f2 | b2f2 "(Em)"gfed | "F#7"c2cd fedc | "Bm"B2B2 B2 :|
+
+
+X: 3
+P: Yrj\"on polkka    [Dm]  (George's polka)
+O: Finland
+R: polka
+M: 2/4
+L: 1/16
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+K: Dm
+|: "Dm"a2d2 f2d2 | "A7"f2e2 efga | b2a2 a3e | "Dm"g2f2 fefg \
+|  "Dm"a2d2 f2d2 | "A7"f2e2 efga | b2a2 a3^c | "Dm"e2d2 d2z2:|
+|: "F"c2c2 c=Bc2 | f2f2 fefa | "C7"g2g2 g^fgc' | "F"a2a2 a4 \
+| "C"c'c'c'2 "C#dim"bbb2 | "Dm"aaa2 "Gm"ggg2 | "Dm"fff2 "A7"e3^c | "Dm"d2d2 d2z2 :|
+
+
+X: 4
+P: Sukkula polkka
+C: Konsta Jylh\"a
+R: polka
+O: Finland
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+|: "F"{AB}c2Ac f2AB | "Gm"c2BA BAG2 |1,3 "C7"{ga}g2eg c'2e2 | "F"g2f2 agf2 \
+                                   :|2,4 "C7"g2eg c'2eg | "(F)"g2f2 "F"f4 :|
+|: "F"AccA "Bb"BddB | "F"ABcf faaf |1,3 "C7"gbbg eceg | "F"gfag "C7"fedc \
+                                  :|2,4 "C7"gbbg eceg | ~g2f2 "F"f4  :| [K:Bb]
+|: "Bb"f2bf d2fd | B2dB F2B2 |1,3 "F7"ABcd efg2 | fecA F2F2 \
+                            :|2,4 "F7"ABce g2Ac | "Bb"B2d2 B4 :|
+
+%%newpage
+
+
+X: 0
+T: Polka 5 (Polkett)
+K:
+
+%%titlefont Helvetica-Bold 14
+
+
+X: 1
+T: Bakmes fr\aan Kall
+O:Alm Nils Ersson
+N:III Polka -- Bakmes
+N:ur Svenska L\aatar
+R:polka
+M:2/4
+L:1/16
+K:A
+N:l\aangsamt
+ce | "A"a2c2 c2ea | "E"g2B2 B2(e2 | g2)g2 g2b2 | "A"a2ec A2ce \
+| "A"a2c2 c2ea | "E"g2B2 B2(e2 | g2)g2 (gf)dB |  "A"A6 :|
+|: z2 \
+| "A"E3A c3{d}c | "Bm"B2c2 d4 | "E7"B2d2 f2g2 | "A"a2(gf e)^de2 \
+| "A"E3(A c2){d}c2 | "Bm"B2c2 d4 | "E7"B2d2 f2g2 | "A"g2a2 a2 :|
+
+
+X: 2
+T: Polkett Dal-Jonke
+O: arr. Olof Lindgren
+R: polkett
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+L: 1/8
+M: 2/4
+K: G
+|: "G"dg/d/ Bd/B/ | GB DG | Bd gf/g/ | "Am"ba a2 \
+| "D7"ce/c/ Ac/A/ | FA DF | Ad fe/f/ | "G"ag gz :|
+|: "D7"a2 ag/a/ | ba fd | "G"dg gf/g/ | bg "C"e2 \
+| "Am"c2 c>B | "D7"Ad f>e | "G"dg "D7"b>a | "G"gg gz :|
+
+
+X: 3
+T: Sveds Jans polkett
+R: polka
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+e/d/ \
+|: "A"cE AE | A/B/c/d/ e>f | "E7"eB d/c/B | "A"Aa g/f/e/d/ \
+|  "A"cE AE | A/B/c/d/ e>f | "E7"eB d/c/B | "A"AA "fine"A2 :|
+K: E
+|: "E"Be Be | Ba g2 | "B7"gf a/g/f | "E"fe g/f/e \
+|  "E"Be Be | Ba g2 | "B7"gf a/g/f | "E"ee e2 :|
+K: A
+e/d/ \
+|: "A"cE AE | A/B/c/d/ e>f | "E7"eB d/c/B | "A"Aa g/f/e/d/ \
+|  "A"cE AE | A/B/c/d/ e>f | "E7"eB d/c/B | "A"AA A2 :|
+K: D
+|: "D"FG ^GA | f2 d2 | "A7"fe g/f/e | "D"ed f/e/d \
+|  "D"FG ^GA | f2 d2 | "A7"fe g/f/e | "D"dd d2 :|
+
+
+X: 4
+T: Minne fr\aan Rommelied
+R: polka
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+|: "G"dB dB | bg g/f/e | "D7"dA/B/ cF | "G"GB B/d/B/G/ \
+|  "G"dB dB | bg g/f/e | "D7"dA/B/ cF | "G"GG G2 :|
+K: D
+|: "D"FA df | fa a/f/d | "A7"cg g/e/c | "D"da a/f/d \
+|  "D"FA df | fa a/f/d | "A7"cg g/e/c | "D"dd d2 :|
+K: G
+|: "G"g2 [B2G2] | "Am"d/c/B/c/ "D7"A2 | D/F/A/d/ fa | "G"gb b/g/d \
+|  "G"g2 [B2G2] | "Am"d/c/B/c/ "D7"A2 | D/F/A/d/ fa | "G"gg g2 :|
+
+
+X: 5
+T: Polkett fr\aan Sv\"ardsj\"o
+R: polkett
+O: Sweden
+B:
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+N:
+M: 2/4
+L: 1/16
+K: G
+|: "G"G2BB BdBG | "D7"A2AB cdcB | A2ff fef2 | "G"d2gg gfg2 \
+|  "G"G2BB BdBG | "D7"A2AB cdcB | A2ff f2{gf}ef | "G"g2g2 g4 :|
+|: "G"b3a g2B2 | "D7"d2c2 cBc2 | a3g f2d2 | "G"b3a g2d2 \
+|  "G"b3a g2B2 | "D7"d2c2 cBc2 | a3g f2{gf}ef | "G"g2g2 g4 :|
+|: "G"B2B2 B2{cB}AB | "C"c2c2 c2ag | "D7"f2f2 f2{gf}ef | "G"g2g2 gfed \
+|  "G"B2B2 B2{cB}AB | "C"c2c2 c4 | "D7"a3g f2{gf}ef | "G"g2g2 g4 :|
+
+%%newpage
+
+
+X: 0
+T: Polka 6 (Norway)
+K:
+
+%%titlefont Helvetica-Bold 14
+
+
+X: 1
+T: Pariserpolka
+O: Norway
+R:
+S: etter Sigbj\orn B Osa
+B:
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+N:
+M: 2/4
+L: 1/16
+K: D
+|: "D"Adef e2d2 | "G"g2B2 g2B2 | "A7"Aceg f2e2 | "D"a2d2 f2d2 \
+|  Adfa g2f2 | "Em"b2e2 g2e2 | "A7"Aceg f3e | "D"d2f2 d4 :|
+K: A
+|: "A"[f4A4]- [e4A4] | [c2e4]A2 [c2e4]A2 | [f4A4]- [e4A4] | "E7"[d2e4]B2 [d2e4]B2 \
+| [f4d4]- [e4d4] | [d2e4]B2 [d2e4]B2 | [f4d4] e3c | "A"A2c2 A4 :|
+K: D
+|: "A7"A,2A,2 B,2C2 | "D"D2F2 A4 | "G"[B2G2][B2G2] "A7"[cG2]B[c2G2] | "D"d2f2 dcd2 \
+|  "A7"A,2A,2 B,2C2 | "D"D2F2 A4 | "G"[B2G2][B2G2] "A7"[cG2]B[c2G2] | "D"[d4F4] [d4F4] :|
+
+
+X: 2
+T: Pariserpolka
+O: Norway
+R:
+B:
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+N:
+M: 2/4
+L: 1/16
+K: C
+|: "C"G2AG F2G2 | E2G2 c4 | c2dc B2c2 | "Dm"A2d2 f4 \
+| f2gf e2f2 | "G7"d2b2 b3a | a2g2 g2f2 | "C"f2e2 e4 |
+| "C"G2AG F2G2 | E2G2 c4 | c2dc B2c2 | "Dm"A2d2 f4 \
+| f2gf e2f2 | "G7"d2b2 b3a | "G7"a2g2 g2B2 | "C"d2c2 c4 :|
+|: "C"g2ag e2g2 | a2g2 e2c2 | "G7"e2d2 B2G2 | "C"a2g2 e2c2 \
+|  "C"g2ag e2g2 | a2g2 e2c2 | "G7"e2d2 B2G2 | "C"c4 c2z2 :|
+
+
+X: 3
+T: Pariserpolka
+R:
+O: Norway
+B:
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+N:
+M: 2/4
+L: 1/16
+K: D
+|: "D"A2{BA}^GA F2A2 | "fine"d2z2 d4 | A2{BA}^GA F2A2 | "A7"E2z2 E4 \
+|  "D"A2{BA}^GA F2A2 | d2e2 f3g | "A7"a2gf e2f2 | "D"d2z2 d4 :|
+|: "D"a2{ba}^ga bagf | "Em"e2f2 g4 | "A7"g2{ag}fg agfe | "D"d2e2 f4 \
+| f2{gf}ef g3f | "Em"e2d2 c2B2 | "A7"A2{BA}^GA B2c2 |1 "D"d2f2 a4 :|2 "D"d2z2 d4 |]
+
+%%newpage
+
+
+X: 0
+T: Polka 7 (Finland)
+K:
+
+%%titlefont Helvetica-Bold 14
+
+
+X: 1
+T: Polka Medley 1
+K: C
+P: Hoputas polkka (Tupsun juuren) (Zorros m\"arke)
+R: polka
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Am
+|: "Am"ea a>b | ag e>f | "G"gg/a/ gf | "E7"e2 e2 :|
+|: "Am".ec BA | .ec BA | .eA .eA | .ec BA | "E7"BB/d/ cB | "Am"A2 A2 :|
+P: Polka
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+N: From a transcription by Karen Myers
+M: C|
+L: 1/8
+K: Am
+|: "Am"E2AA A2B2 | c2e2 edc2 | "E7"B2e2 edcB |1,3.A2"Am"c2 edc2 :|2,4.A2"Am"A2 A2z2 :|
+|: "Dm"a3g f2f2 | "Am"efed c4 | "E7"B3c ddcB |1,3.c"Am"Bcd "A7"e2e2 :|2,4.A2"Am"A2 A2z2 :|
+
+
+X: 1
+T: Karjalan poikia (L\"oyly\"a liss\"a\"a)
+%%musicspace 0
+R: polka
+O: trad Finland
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Karjalan poikia   [D]
+|: "D"a2a2 a2a2 | ~a2ga b2a2 | f2f2 f2f2 | ~f2ef g2f2 \
+| "A7"e2[e2A2] c2Ac | e2[e2A2] c2Ac | e2g2 f2e2 |1 d2c2 B2A2 :|2 "D"e2d2 d4 |]
+|: "D"A2BA F2A2 | d6 e2 | f2gf e2f2 | "G"g2z2 "D"f4 \
+| "A7"e2[e2A2] c2Ac | e2[e2A2] c2Ac | e2g2 f2e2 |1 d2c2 B2A2 :|2 "D"e2d2 d4 |]
+w: | | | |~ Hej!
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Karjalan poikia   [G]
+K: G
+|: "G"d2d2 d2d2 | ~d2cd e2d2 | B2B2 B2B2 | ~B2AB c2B2 \
+| "D7"A2[A2D2] F2DF | A2[A2D2] F2DF | A2c2 B2A2 |1 G2F2 E2D2 :|2 "D"A2G2 G4 |]
+|: "G"D2ED B,2D2 | G6 A2 | B2cB A2B2 | "C"c2z2 "G"B4 \
+| "D7"A2[A2D2] F2DF | A2[A2D2] F2DF | A2c2 B2A2 |1 G2F2 E2D2 :|2 "D"A2G2 G4 |]
+w: | | | |~ Hej!
+
+
+X: 1
+T: Suomisen V\"ain\"on polkka
+R: polka
+O:
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+M: 2/4
+L: 1/16
+K: G
+|: "G"GBcd edcB | "D7"A2F2 d2F2 |1,3 FABc dcBA | "G"B2G2 e2G2 \
+                               :|2,4 f2e2 dcBA | A2G2 "G"G4 :|
+|: "Em"b2g2 e4 | "D"f2e2 d4 | f2e2 dcBA |1,3 "G"GBcd e2g2 \
+                                       :|2,4 A2G2 "G"G4 :|
+
+
+X: 1
+T: Kypasj\"arven polkka
+R: polka
+O: efter Albin Hjelm
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+M: 2/4
+L: 1/16
+K: D
+|: "G"B3A G2F2 | "A"E2A2 AAA2 | B2A2 f3c |1,3 "D"e2d2 dcd2 :|2,4 "D"e2d2 d4 :|
+|: "Bm"f2B2 b3f | "A"a2c2 cBA2 | c2a2 f3c |1,3 "D"e2d2 dfB2 :|2,4 "D"e2d2 d4 :|
+
+%%newpage
+
+
+X: 0
+T: Polka 8
+K:
+
+%%titlefont Helvetica-Bold 14
+
+
+X: 1
+T: Katariina's polkka
+R: polka
+O: Richard Koski
+B:
+D: "Saturday Night Sauna" with the Crumtown Ramblers
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+N:
+M: 2/4
+L: 1/16
+K: Am
+   "Am"e4 \
+| "Dm"fedc BcBA | "E7"c2B2 B3E  |     c2B2 Bcdc | "Am"B2A2 A4 \
+|     A2AB cBcd | "Dm"e2d2 d4   |     d3e  fefg | "Am"f2e2 e4 |
+y8\
+| "Dm"fedc BcBA | "E7"c2B2 B3E  |     c2B2 Bcdc | "Am"B2A2 A4 \
+| "Dm"d2de fga2 | "Am"A2AB cde2 | "E7"E2E2 c2B2 | "Am"A2z2 :|
+|:  "G7"G4 \
+| "C"C2EG c2B2 |     A2G2 G4   |     C2EG c2B2 | "Dm"B2A2 F4 \
+|  "G7"D2D2 G2G2 |     FEDE F2F2 |     D2D2 F2F2 |  "C"EDCD E2E2 |
+y8\
+|   "C"C2EG c2B2 |     A2G2 G4   |     C2EG c2B2 | "Dm"B2A2 F4 \
+|  "Dm"d2de fga2 | "Am"A2AB cde2 | "E7"E2E2 c2B2 | "Am"A2z2 :|
+
+
+X: 2
+T: Knapsauspolkka
+R: polka
+O:
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+M: 2/4
+L: 1/16
+K: Am
+|: "Am".e2a2 .e2a2 | "Dm"fgfe d2dc | "E7"B2.e2 B2.e2 | "Am"cdcB ABcd \
+|  "Am".e2a2 .e2a2 | "Dm"fgfe d2dc | "E7"B2e2 ^g2eg | "Am"b2a2 a2z2 :|
+|: "C"G2c2 c2Bc | e2c2 c2BA | "G7"G2g2 g2^fg | a2g2 g^fg2 \
+|  "C"G2c2 c2Bc | e2c2 c2BA | "G7"G2g2 gdBd | "C"c2e2 c2z2 :|
+
+
+X: 3
+T: Kalle-enon polkka
+R: polka
+O:
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+M: 2/4
+L: 1/16
+K: G
+|: "G"d2B2 G2B2 | d2g2 fefg | "D7"agfe defg | "C"a2gf g2e2 \
+|  "G"d2B2 G2B2 | d2g2 fefg | "D7"agfe d2ef | "G"g2b2 g2z2 :|
+|: "G"d2de "(D)"d2de | "G"dcBA G2B2 | "D7"dcBA F2A2 | "G"dcBA B2GB \
+|  "G"d2de "(D)"d2de | "G"dcBA G2B2 | "D7"d2d2 defg | "G"a2g2 g2z2 :|
+
+
+X: 4
+T: Salonkyl\"an polkka
+R: polka
+O: trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|: "D"A2df a2b2 | abaf a2f2 | "A7"gagf g2e2 | "D"fgfe f2d2 \
+|  "D"d2ef a2b2 | abaf a2f2 | "A7"gagf gfef | e2d2 "D"d4 :|
+|: "A"eefe eefe | e2c2 A3c | "E7"e2d2 B3c | "A"e2c2 A3c \
+|  "A"eefe eefe | e2c2 A3c | "E7"e2d2 BBcB | "A"A2c2 A4 :| [K:G]
+|: "D7(G7)"d4 d4 | "C"e4 e4 | "D7"f2gf e2f2 | "G"g6 Bc \
+|   d2B2 e3d | "C"d2c2 cBAB | "D7"c2A2 f3e | "G"e2d2 dcBc |
+|  "G7"d4 d4 | "C"e4 e4 | "D7"f2gf e2f2 | "G"g6 Bc \
+|   d2B2 e3d | "C"d2c2 cBAB | "D7"cBAB cdef | "G"g2g2 g4 :|
+
+%%newpage
+
+
+X: 0
+T: Polka 09 (Denmark)
+K: C
+
+
+X: 1
+P: Feder Mikel [G]
+O: Danmark
+B: 358 Danske Folkedansemelodier v.I #136
+R: fynbo
+M: 2/4
+L: 1/16
+K: G
+   dc \
+| "G"B2G2 G2AB | "D7"c2A2 A2dc | "G"B2G2 "D7"A2F2 |1 "G"GABc "D7"d2 :|2 "G"G6 ||
+|: Bc \
+| "G"d2d2 d2g2 | "C"e2c2 c4 | "A7"e2e2 e2a2 | "D7"f2d2 d3c \
+| "G"B2G2 G2AB | "D7"c2A2 A2dc | "G"B2G2 "D7"A2F2 | "G"G6 :|
+
+
+X: 2
+P: Gallop kontra
+O: trad Danmark
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+A2 \
+| "D"A2d2 d2d2 | d2cB A2cd | "A"e2a2 a2a2 | a^ga2 e2a2 | a^ga2 e2a2 | a^ga2 "D"f2d2 | "A7"c2e2 e2A2 | "D fine"d6 :|
+|: a2 \
+| "D"ba^ga baga | f2d2 d2f2 | "A"edcd e2a2 | "D"f2d2 d2a2 | ba^ga baga | f2d2 d2ed | "A7"c2e2 e2A2 | "D"d6 :|
+|: f2 \
+| "D"f2e2 d2c2 | B2A2 A2F2 | "G"G2A2 B2A2 | "A7"G4 "D"F2f2 | f2e2 d2c2 | B2A2 A2F2 | "A7"G2A2 B2c2 | "D"d6 :| [K:A]
+|: e2 \
+| "A"edcd e2e2 | f2e2 e2e2 | edcd e2c2 | B2A2 A2e2 | edcd e2e2 | f2e2 e3f | "E7"e2e2 G2G2 | "A"A6 :|
+
+
+X: 3
+P: \AAlborg polka
+O: Trad efter Viggo Gade
+N: From transcription by Esben Wolf, 1997
+Z: 2004 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+c4 \
+|: "F"a2a2 f2f2 | c2c2 cBA2 | "C7"B2g2 gfe2 |1,3 "F"fefg a2c2  :|3,4 "F"f>gfe Hf4 :|
+K: Dm
+|:"Dm"d^cde fefg | a^gab a4 |1 "A7"g^fga g4 | "Dm"fefg f3e :|2 "C7"c'c'2c' c'2c'2 | c'4 "d.C."c4 |]
+K:Bb
+"Trio"\
+|:"Bb"d6 e2 | =e2f2 d'3c' | b6 d2 | g4 f4 | "F7"c6 d2 | e2f2 a3g | "Bb"f6 =ef | "F7"g2^f2 =f2e2 |
+| "Bb"d6 e2 | =e2f2 d'3c' | b6 d2 | g4 f4 | "F7"e2c'2 c'ba2 | "Bb"b2d'2 d'c'b2 | "F7"a2c'2 c'ba2 | "Bb"b>c'ba b4 :|
+
+%%newpage
+
+
+X: 0
+T: Polka 10 (Finland)
+K: C
+
+
+X: 1
+P: Lokakuun polkka   [A] (October polka)
+C: Otto Hotakainen
+R: polka
+B: Otto Hotakaisen Nuotikirja
+%%slurgraces  1
+% %continueall yes
+M: 2/4
+L: 1/16
+K: A
+|: "A"A2ce a2gg    |    ~f2e2 edcB    |    A2ce     fedc | "Bm"e2d2     dcdc \
+| "E7"dcB2 b3a     |     a2g2 g2f2    |    ee"#"de  gfed |  "A"d2c2     cBcB |
+|  "A"A2ce a2gg    |    ~f2e2 edcB    |    A2ce     a2gg |  "D"agf2     feff \
+| "E7"B2B2 g3f     | "A"~f2e2 e"#"de2 | "D"effe "E7"egge |  "A"eaa2     a4  :|
+|: "A"c2EE EEAA    |     c2EE EEAA    |    cAcA     d2cc | "Bm"dcB2     B4   \
+| "E7"d2EE EEGB    |     d2EE EEGB    |    dcBd     e3B  |  "A"c2c2     cBAB |
+|  "A"c2EE EEAA    |     c2EE EEAA    |    cAce     d2cc | "Bm"dcB2     B4   \
+| "E7"g2gg gfe"#"d |     g2gg gfe"#"d |    gfed     edcB | "(A)"cBAG "A"A4  :|
+
+
+X: 2
+P: Rapupolkka (Crawdad polka)
+C: Otto Hotakainen
+R: polka
+B: Otto Hotakaisen Nuotikirja
+%%slurgraces 1
+M: 2/4
+L: 1/16
+K: G
+|: "G"d^cd2 "C"=cBc2 | "G"~B2.G2 GDGB | "D"~A2.F2 FDFA | "G" BAGF "(D7)"GABc \
+|  "G"d^cd2 "C"=cBc2 | "G"~B2.G2 G2B2 | "D" Adfe  dcBA | "G".G2B2     G4 :|
+|: "G"B,2G,B, .D2B,D |     G2DG .B2GB | "D" d2Ad  AdcB | "C".d2c2 "Am"cBc2 \
+|  "D"F2DF    .A2FA  |     c2Ac  f2ef |    .a2a2  agfe | "G" dcB2     BAG2 |
+|  "G"B,2G,B, .D2B,D |     G2DG .B2GB | "D" d2Ad  AdcB | "C" d2c2 "Am"cBAB \
+|  "D"cBAB     cdA2  | "G" BAGA  Bcd2 | "D" dAFA  dAFA | "G".G2B2     G4 :|
+
+%%newpage
+
+
+X: 0
+T: Polka 11 (Danish)
+K: C
+
+
+X: 1
+P: Gallop kontra
+O: trad Danmark
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+A2 \
+| "D"A2d2 d2d2 | d2cB A2cd | "A"e2a2 a2a2 | a^ga2 e2a2 | a^ga2 e2a2 | a^ga2 "D"f2d2 | "A7"c2e2 e2A2 | "D fine"d6 :|
+|: a2 \
+| "D"ba^ga baga | f2d2 d2f2 | "A"edcd e2a2 | "D"f2d2 d2a2 | ba^ga baga | f2d2 d2ed | "A7"c2e2 e2A2 | "D"d6 :|
+|: f2 \
+| "D"f2e2 d2c2 | B2A2 A2F2 | "G"G2A2 B2A2 | "A7"G4 "D"F2f2 | f2e2 d2c2 | B2A2 A2F2 | "A7"G2A2 B2c2 | "D"d6 :| [K:A]
+|: e2 \
+| "A"edcd e2e2 | f2e2 e2e2 | edcd e2c2 | B2A2 A2e2 | edcd e2e2 | f2e2 e3f | "E7"e2e2 G2G2 | "A"A6 :|
+
+
+X: 2
+P: \AAlborg polka
+O: Trad efter Viggo Gade
+N: From transcription by Esben Wolf, 1997
+Z: 2004 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+c4 \
+|: "F"a2a2 f2f2 | c2c2 cBA2 | "C7"B2g2 gfe2 |1,3 "F"fefg a2c2  :|3,4 "F"f>gfe Hf4 :|
+K: Dm
+|:"Dm"d^cde fefg | a^gab a4 |1 "A7"g^fga g4 | "Dm"fefg f3e :|2 "C7"c'c'2c' c'2c'2 | c'4 "d.C."c4 |]
+K:Bb
+"Trio"\
+|:"Bb"d6 e2 | =e2f2 d'3c' | b6 d2 | g4 f4 | "F7"c6 d2 | e2f2 a3g | "Bb"f6 =ef | "F7"g2^f2 =f2e2 |
+| "Bb"d6 e2 | =e2f2 d'3c' | b6 d2 | g4 f4 | "F7"e2c'2 c'ba2 | "Bb"b2d'2 d'c'b2 | "F7"a2c'2 c'ba2 | "Bb"b>c'ba b4 :|
+
+
+X: 3
+P: Arnes Polka
+C: Arne Jornegsen
+O: Denmark
+S: Harald Haugaard
+N: from a handwritten MS
+M: 2/4
+L: 1/16
+K: G
+Bc \
+| "G"d2bd "D7"c2ac | "G"B2gg g2g2 \
+| "D7"A2ff f2f2 | "G"B2gg g2Bc |
+| "G"d2bd "D7"c2ac | "G"B2gg g2g2 \
+| "D7"fga[bg] [c'f][ad][ge]f | "G"g2g2 "fine"g2 :|
+|: g2 \
+| "C"eccG G2e2 | "G"dBBG D2d2 \
+| "D7"cAAF D2F2 | "G"GFGA B2G2 |
+| "C"EGcG EGcG | "G"DGBG DGBG \
+| "D7"FGAB cAFA | "G"G2G2 G2 :|[K:C=f]
+|: "C"[E2C2][E2C2] [E4C4] | "F"[F2A,2][F2A,2] [F4A,4] \
+| "G7"G2BA GFED |1-3 "C"CDEF G2G,2 :|4 "C"[E2C2][E2C2] [E4C4] |]
+
+%%newpage
+
+
+X: 0
+T: Polka 12 (Finnish)
+K: C
+
+
+X: 1
+P: Polka Medley 1
+K: C
+P: Hoputas polkka (Tupsun juuren) (Zorros m\"arke)
+R: polka
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Am
+|: "Am"ea a>b | ag e>f | "G"gg/a/ gf | "E7"e2 e2 :|
+|: "Am".ec BA | .ec BA | .eA .eA | .ec BA | "E7"BB/d/ cB | "Am"A2 A2 :|
+P: Polka
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+N: From a transcription by Karen Myers
+M: C|
+L: 1/8
+K: Am
+|: "Am"E2AA A2B2 | c2e2 edc2 | "E7"B2e2 edcB |1,3.A2"Am"c2 edc2 :|2,4.A2"Am"A2 A2z2 :|
+|: "Dm"a3g f2f2 | "Am"efed c4 | "E7"B3c ddcB |1,3.c"Am"Bcd "A7"e2e2 :|2,4.A2"Am"A2 A2z2 :|
+

@@ -1,0 +1,35 @@
+X: 20311
+T: Deil Stick the Minister
+%R: air, reel
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.31 #1 (Actually bottom 2 staves on p.30, plus all of p.31)
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The very last bar is fuzzy and incomplete; transcribed to match all the other final bars.
+N: The tune has a number of unmarked triplets; fixed with an added "(3" prefix.
+M: 2/4
+L: 1/16
+K: Ador
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"E2 |\
+AAA2 A3A | B4 E3B | {B}c4 (TB3A) | B2G2G2B2 |\
+AAA2 E3A | B4 E3B | {B}c4 (TB3A) | (T^G3F) E2 :: g2 |\
+e2g2e2c2 | d2g2d2B2 | c4 (dcBA) |
+B2G2G2g2 |\
+e2g2c2e2 | d2g2B2d2 | c4 (dcBA) | ^G2E2E2 :: e2 |\
+(3(a2^g2a2) A2a2 | b4 G2b2 | (3(c'2b2c'2) A2c'2 | b2g2g2b2 |\
+(3(a2^g2a2) A2a2 | b4 e2b2 |
+c'4 (d'c'ba) | ^g2e2e2 :: g2 |\
+(e=fg2) c2e2 | d2g2B2d2 | (cde2) A2d2 | B2G2G2g2 |\
+(e=fg2) c2e2 | d2(gd) B2(dB) | c2A2 (dcBA) | ^G2E2E2 :|
+|: E2 |\
+ABAE ABAE | BcBE BcBE | cdcE cdcE | BcBE BcBE |\
+ABAE ABAE | BcBE BcBE | cAdB ecBA |
+^G2E2E2 :: g2 |\
+egcg egcg | dgBg dgBg | cABc dBcA | B2G2G2g2 |\
+ecac ecac | dBgB dBgB | cAdB ecBA |
+^G2E2E2 :: e2 |\
+A2a2 (3(a2^g2a2) | B2b2 (3(b2a2b2) | c2c'2 (d'c'ba) | b2g2g2b2 |\
+A2a2B2b2 | c2c'2d2d'2 | c'2(bc') d'bc'a | ^g2e2e2 :|
+|: g2 |\
+.e(gfg) .c(gfg) | .d(gfg) .B(gfg) | c2a2 (A2Bc) | (dc)(BA) G2g2 |\
+.e(cBc) .a(cBc) | .d(BAB) .g(BAB) | cAdB ecBA | ^G2E2E2 :|

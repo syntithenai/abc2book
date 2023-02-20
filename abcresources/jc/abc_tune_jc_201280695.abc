@@ -1,0 +1,16 @@
+X: 745
+T: The Girl With the Laughing Eyes
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #745
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0745/oneill-1001-0745-1.abc
+M: C|
+L: 1/8
+K: D
+"^A"[|]\
+(3(ABc) | d2(FG) Adef | gfed gdBc | d2(FG) A2(AB) | AFEG FDD ||
+||   A  | d2(FG) Adef | gfed gdBc | d2 FG  A2(ag) | faef d2 |]
+"^B"\
+[| (3(efg) | afbf afdf | gfed cd (3(efg) | afbf afdf | abag fd ||
+|| (3(efg) | afbf afdf | gfed fdBc | d2FG A2(ag) | faef d2 |]

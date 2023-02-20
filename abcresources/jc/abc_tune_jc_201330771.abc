@@ -1,0 +1,25 @@
+X: 1
+T: Roast Beef and Brown Beer
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #4 (16)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat added to match the instruction to play the tune twice for once through the dance.
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+d>ed c2d/e/ | fed e2d/c/ | d>ed c>dc | BE^G A2A |\
+BGB d2c/B/ | AFD B3 | e>fg c>BA | d3 A2F |\
+G>AB A>dc | d3- d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Tune to be play'd quite through. First Cu turn and
+%% swing then cross over and figure and turn behind 2d
+%% Cu. This to the Tune play'd once through
+%% Then right and left 1st and 2d Cu. and all 4 take
+%% hand and swing round 1st Cu cast off and turn
+%% This to the tune play'd the second time over.
+%%endtext
+%%sep 1 8 500

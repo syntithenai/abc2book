@@ -1,0 +1,31 @@
+X: 10121
+T: GEBURSTAG'S VALSE
+R: waltz
+B: K\"ohler's Violin Repository, v.1, 1885 p.12 #1
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: The 3rd part has a final repeat, but no initial repeat.  Not fixed.
+M: 3/4
+L: 1/8
+K: G
+|:\
+uB2(.e3.d) | B4G2 | B2(.e3.d) | c4F2 |\
+c2(.f3.e) | e4d2 | A2(d3c) | ^A4B2 |\
+B2(.e3.d) | B4G2 | g2(.a3.g) | f4e2 |
+A2(.f3.e) | e4d2 | F2(B3A) | G2z2z2 :|[K:D]\
+|:\
+(.A3.A)A2 | (.^G3.G)G2 | A2Bcde | f2z2z2 |\
+(v.a3.a)a2 | (.^g3.g)g2 | a3(ge)c | A2z2z2 |
+(v.A2.A)A2 | (.^G3.G)G2 | A2Bcde | f2z2z2 |\
+[1 g3fe2 | d2c2B2 | A2G2E2 | D2z2z2 :|\
+[2 g3ec2 | A2G2E2 | (.D3.D)D2- | D2z2z2 ||[K:G]
+[|\
+B6- | B(AGFED) | (D6 | B,2)z2z2 |\
+uD2(.B3.G) | (F4G2) | (^G4A2) | E6 |\
+vc6- | c(BAGFE) |
+(E6 | C2)z2z2 |\
+uF2(.e3.d) | (^c4d2) | (^cdcdcd) | (edBGD2) |\
+B6- | B(AGFED) | (D6 | B,2)z2z2 |
+vg6- | g(fedcB) | f6 | e6 |\
+e6- | e(cBcAE) | d6- | d(B^ABGD) |\
+c6 | (fdcAFD) | (.G3.G)B2 | G2z2z2 :|

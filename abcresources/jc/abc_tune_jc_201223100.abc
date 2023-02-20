@@ -1,0 +1,28 @@
+X: 6
+T: Here and There
+%R: march, reel
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.3 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+fd e2 fd e2 | fd cd e/d/c/B/ A2 |\
+fd e2 fd e2 | fd Be Ac d2 :|
+|:\
+ad' b2 ad g2 | fd cd e/d/e/f/ e2 |\
+ad' b2 ad g2 | fB ge dc d2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Each strain repeated)
+%%begintext align
+%% The 1st Lady turns the 2d Gent: 1st Gent: turns the 2d Lady |:
+%% lead down the mid: up again & right & left |: .
+%%endtext
+%%text DOUBLE FIGURE (Tune play'd twice thro' with repeats)
+%%begintext align
+%% Cast off 2 Cu: & back again |: swing with right hands round the 2d Cu:
+%% then with left |: set contrary corners |: & the double triangle |: .
+%%endtext

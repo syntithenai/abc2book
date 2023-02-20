@@ -1,0 +1,55 @@
+X: 1
+T: Parkgate
+C: Antony Baldwin (2007)
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+   A2 \
+| "D"d2A2 FDFA | "G"d2d2 d3d \
+| "A7"e2e2 e2fg | "D"fed2 z2f2 \
+| "F#m"e2dc "E7"edcB | "A"c2d2 e2a2 \
+| "A"c2BA "E7"B2A^G | "A"A6 :|
+|: A2 \
+| "A"e2A2 e2f2 | "Em"g6 fe \
+| "G"d2G2 "A"d2fe | "D"f6 f2 \
+| "Em"e2gf edcB | "A7"A2c2 d2e2 \
+| "D"A2d2 "A7"e2dc | "D"d6 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Parkgate
+C: Antony Baldwin (2007)
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+V: 1
+   A2 \
+| d2A2 FDFA | d2d2 d3d \
+| e2e2 e2fg | fed2 z2f2 |
+| e2dc edcB | c2d2 e2a2 \
+| c2BA B2A^G | A6 :|
+|: A2 \
+| e2A2 e2f2 | g6 fe \
+| d2G2 d2fe | f6 f2 |
+| e2gf edcB | A2c2 d2e2 \
+| A2d2 e2dc |1 d6 :|2 d6 |]
+V: 2 clef=bass middle=d
+z2 \
+| d6 c2 | B6 f2 \
+| g2e2 a2A2 | d4 D4 |
+| c2f2 B2e2 | A2f2 c2d2 \
+| e2f2 d2e2 | A2e2 a2 :|
+|: z2 \
+| A4 a2f2 | e2d2 e2f2 \
+| g4 f2e2 | d2e2 f2d2 |
+| e2f2 g2e2 | a2g2 f2e2 \
+| f2b2 g2a2 |1 d2A2 D2 :|2 d6 |]
+
+%%sep 1 1 500
+%%sep 1 1 500

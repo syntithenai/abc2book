@@ -1,0 +1,22 @@
+X:1091
+T: Hine Ma Tov 2
+O: Israel
+C: Moshe Jacobson, 2000
+F: https://www.youtube.com/watch?v=6eAgxnaVirg
+F: https://www.youtube.com/watch?v=kVtjP8cg984
+F: https://www.youtube.com/watch?v=dCVKpPRrrnE
+M: 4/8
+L: 1/8
+K: Dm
+Q: 1/4=120
+%%MIDI program 40 # violin
+  A4  |B4  |G3B  |A2 B2|\
+  A4  |B4  |G3B  |A2 B2|
+  FD2F|D2F2|EG3- |G4   |\
+  A2G2|F2G2|A4-  |A4   |
+|:FDDD|FFG2|ADDD |CCD2::\
+  FDDD|FFG2|ADDD |CCD2::
+  AA2z|AA2z|GFG2-|G2z2 |\
+  AA2z|AA2z|GFG2-|G2z2 |
+  z2GA|B2A2|G2F2 |ADDE |F2z2|\
+  zFDF|DFEG|CCD2 |z4   :|

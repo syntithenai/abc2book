@@ -1,0 +1,26 @@
+X:188
+T:Dorset Four-Hand Reel
+%%subtitlefont Times-Roman 28
+C:Traditional English
+M:4/4
+L:1/4
+Q:1/2=112
+K:G
+P:A
+|: B/A/ | "G"GB dc/B/ | "C"ce ce | "G"GB d3/c/ | "Am"BA "D7"AB/A/ |\
+"G"GB dc/B/ | "C"ce ce | "G"GB "D7"d3/c/ | "G"BG G :|
+P:B
+|:d | "G"gg "C"g/f/e | "G"dd "Em"d/c/B | "Am"A3/B/ cd | "D"ed de/f/ |\
+"G"gg "C"g/f/e | "G"dd "Em"d/c/B | "Am"AA/B/ "D7"cA | "G"G2 G :|
+%%vskip 40
+N:Replace by blank line and X field
+T:Dorset Four-Hand Reel - second tune
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=120
+K:A
+P:A
+|: c/B/ | "A"Ac/e/ a/e/c/A/ | "D"df df | "A"Ac/e/ "F#m"a/e/c/A/ | "Bm"Be "E7"Be |\
+"A"Ac/e/ a/e/c/A/ | "D"df df | "E7"eg/f/ e/d/c/B/ | "A"Ac A :|
+P:B
+|: c/d/ | "A"ec ec | "D"fd fd | "A"ec ec | "E7"Be ec/d/ |\
+"A"ec ec | "D"fd fd | "E7"eg/f/ e/d/c/B/ | "A"Ac A :|

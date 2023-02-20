@@ -1,0 +1,19 @@
+X:398
+T:The Lark
+T:Miss Le Hupe's Dance
+C:The Blackburne Tunes
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+N:Originally 4 beats to the bar.
+%%MIDI program 74
+Q:1/2=100
+K:Bb
+P:A
+|: "Bb"D<F F<B | "Bb"B<d d<f | "Bb"fg/f/ "(Cm)"e/d/c/B/ | "F"A/B/c/B/ "F7"A/G/F/E/ |\
+"Bb"D<F F<B | "Bb"B<d d<f | "Bb"fg/f/ "(Cm)"e/d/c/B/ | "F7"d3/c/ "Bb"B2 :|
+P:B
+| "F"FA-Ac- | "F7"ce- eA | "Bb"BF/B/ dB/d/ | "Bb"fd/f/ b2 |\
+"F"FA-Ac- | "F7"ce- eA | "Bb"BF DB, | "F"F2- "F7"F2 |
+"Bb"D<F F<B | "Bb"B<d d<f | "Bb"fg/f/ "(Cm)"e/d/c/B/ | "F"A/B/c/B/ "F7"A/G/F/E/ |\
+"Bb"D<F F<B | "Bb"B<d d<f | "Bb"fg "(Cm)"ab | "F7"d>c "Bb"B2 |]

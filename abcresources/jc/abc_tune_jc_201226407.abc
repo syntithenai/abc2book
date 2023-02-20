@@ -1,0 +1,23 @@
+X: 10252
+T: SEULE, DANS UN BOIS, FILIOT LISÉ
+T: [Vaudeville.]
+C: M. Grevin, l'ainé, Professeur.
+Q: "Lento."
+%R: air, march
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.25 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(d/e/d/c/) !segno!|:\
+B2 B2 B2 A>c | B3 c d2 (d/e/d/c/) |\
+B2 B2 A2 A>B | {A}G2 G2 c2 B2 |\
+d2 (cd) (ef) (ge) | (^c2 d2) {d}=c3 B |
+(B2 A)B (cd) eg | {g}f4 e3 d |\
+{d}c3 B (Ac) (Bd) | (dc) B2 (d^c) Hc2 |\
+ee/g/ fe e2 d2 | AA/c/ BA (A2 G2) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

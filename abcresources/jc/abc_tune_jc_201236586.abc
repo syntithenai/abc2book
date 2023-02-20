@@ -1,0 +1,19 @@
+X: 2252
+T: Keep the Country Bonny Lassie.   a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.2 p.25 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+f |\
+eA cA TB>cdf | eA cA eAcA | dfce TB>cdf | ecac {f}e2A :| g | (a/g/f/e/) c.e TB>cdf | (a/g/f/e/) ce ae ce |
+(a/g/f/e/) c.e TB>cdf | ecac Te2Ag || (a/g/f/e/) c.e TB>cdf | (a/g/f/e/) c.e (a/g/f/e/) c.e | df ce TB>cdf | eaca Te2A |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+a2a2 b2b2 | a2a2 a2c'2 | d'2c'2 b2b2 | a2a2 a2A :| z | a2a2 b2b2 | a2a2 a2a2 |
+a2a2 b2b2 | a2a2 e2A2 || a2a2  b2b2 | a2a2 a2c'2 | d'2c'2 b2b2 | a2a2 a2A |]

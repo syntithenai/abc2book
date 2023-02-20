@@ -1,0 +1,53 @@
+
+X: 1
+T: Hava Nashira
+T: Let's Sing
+Z: John Chambers <jc:trillian.mit.edu>
+N: Let us sing together, sing halleluia.
+M: C|
+L: 1/4
+K: Bb
+"1"[| "Bb"B,2 "F7"FG | "F7"F2 "Bb"B,2 | "Eb"E2 "Bb"DC/B,/ | "F7"C2 "Bb"B,2 |]
+w: Ha-va na-shi-ra, shir ha-le-*lu-ia!
+"2"[| "Bb"B2 "F7"AB | "F7"c2 "Bb"d2 | "Eb"B2 "Bb"cd    | "F7"e2 "Bb"d2 |]
+w: Ha-va na-shi-ra, shir ha-le-lu-ia!
+"3"[| "Bb"d2 "F7"cB | "F7"A2 "Bb"B2 | "Eb"G2 "Bb"FB    | "F7"B/A/G/A/ "Bb"B2 |]
+w: Ha-va na-shi-ra, shir ha-le-lu-___ia!
+
+
+X: 2
+T: Hava Nashira
+T: Let's Sing
+Z: John Chambers <jc:trillian.mit.edu>
+N: Let us sing together, sing halleluia.
+M: C|
+L: 1/4
+K: C
+"1"[| "C"C2 "G7"GA | "G7"G2 "C"C2 | "F"F2 "C"ED/C/ | "G7"D2 "C"C2 |]
+w: Ha-va na-shi-ra, shir ha-le-*lu-ia!
+"2"[| "C"c2 "G7"Bc | "G7"d2 "C"e2 | "F"c2 "C"de    | "G7"f2 "C"e2 |]
+w: Ha-va na-shi-ra, shir ha-le-lu-ia!
+"3"[| "C"e2 "G7"dc | "G7"B2 "C"c2 | "F"A2 "C"Gc    | "G7"c/B/A/B/ "C"c2 |]
+w: Ha-va na-shi-ra, shir ha-le-lu-___ia!
+
+
+X: 3
+T: Hava Nashira
+T: Let's Sing
+Z: John Chambers <jc:trillian.mit.edu>
+N: Let us sing together, sing halleluia.
+M: C|
+L: 1/4
+K: D
+"1"[| "D"D2 "A7"AB | "A7"A2 "D"D2 | "G"G2 "D"FE/D/ | "A7"E2 "D"D2 |]
+w: Ha-va na-shi-ra, shir ha-le-*lu-ia!
+"2"[| "D"d2 "A7"cd | "A7"e2 "D"f2 | "G"d2 "D"ef    | "A7"g2 "D"f2 |]
+w: Ha-va na-shi-ra, shir ha-le-lu-ia!
+"3"[| "D"f2 "A7"ed | "A7"c2 "D"d2 | "G"B2 "D"Ad    | "A7"d/c/B/c/ "D"d2 |]
+w: Ha-va na-shi-ra, shir ha-le-lu-___ia!
+
+
+X: 4
+%%wordsfont Helvetica 10
+W: Transcription by John Chambers http://trillian.mit.edu/~jc/music/abc/Klezmer/
+K: C

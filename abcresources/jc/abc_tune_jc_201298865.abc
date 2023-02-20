@@ -1,0 +1,17 @@
+X: 691
+T: the Ladies of Leinster   #2
+R: reel
+%S: s:3 b:13(5+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #691
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0691/oneill-1001-0691-1.abc
+N: Compacted via repeats and multiple endings [JC]
+M: C|
+L: 1/8
+K: G
+"^A"[|] (dc) \
+|: BGGB d2(cB) | ADDE FGAc | BGGB d2(cB) |[1 cdeg fdcA :|[2 cdef g2 |]
+"^B"\
+[| d2 | gfdB GBdB | Aaag fedc | Bdgf edcB | cdef g2 ||
+"^C"\
+|| dB | G2gf edcB | ADDE F2GA | BGGB cAAg | fdef g2 |]

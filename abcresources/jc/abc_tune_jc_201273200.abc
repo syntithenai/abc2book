@@ -1,0 +1,45 @@
+X: 1
+T: Epsom Wells
+P: Longways for as many as will
+%R: minuet
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.43 #75
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p._
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeat added to satisfy the "first Strain played twice" instruction in CMDfD.
+M: 3/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+c3 f cA | c2 A2 F2 | d3 f dB | d2 B2 G2 |\
+c f2 a gf | g2 c2 A2 | B>c dc BA | GF fe f2 :|
+af ca gf | f2 c2 A2 | fd Af dA | =B2 (B/c/d) G2 |\
+ge cg ec | d=B d=B Gg | dg eg dg | (ed/e/) (f/e/d/c/) c2 |
+f>e fgfe | f3 g f2 | g>f gagf | g3 a g2 |\
+a>g abag | a>b agfe | f>g (f/g/a) gf | fg fc f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first Cu. cast off into the 2d Cu. Place, then take Hands and turn,
+%% and then cast up again into their own Places .| The 1st Cu. go the Figure
+%% of 8 through the 2d Cu. then take Hands and turn 'till they come to their
+%% own Sides :| The 1st Cu. cross over below the 2d Cu. and lead between the
+%% 3d Cu. then cast up above the 3d Cu. and cross up above the 2d Cu. into
+%% their own Places; the  1st Man change Places with the 2d Wo. the other
+%% doing the like; then all four take Hands and go quite round 'till the 1st
+%% Cu comes into their own Places, then the 1st Cu. cast off .|
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. cast off into the 2. du. place, then take hands and turn, and then cast up again into their own places.  This to
+%% the first Strain played once.  The 1. cu. go to the Figure of 8. through the 2. cu. then take hands and turn till they come to their
+%% own sides.  This to the first Strain played twice.  The 1. cu. cross over below the 2. cu. and lead between the 3. cu. then cast
+%% up above the 3. cu. and cross up above the 2. cu. into their own places; the 1. man change places with the 2. wo. the
+%% other doing the like; then all four take hands and go quite round till the 1. cu. comes into their own places, and then the
+%% 1. cu. cast off.  This to the second Strain played once.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

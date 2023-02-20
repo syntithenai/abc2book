@@ -1,0 +1,15 @@
+X:1
+T:A Parcel of Rogues in a Nation
+%%staves {1 2}
+B:McGibbon (Rutherford) v.3 p.21
+M:C
+L:1/8
+K:Dm
+V:1
+"_Slow"(Ac)| d>e (cA)d3e | (fd)(c>A)F2GA | BAGF G2(A>c) | d4A2 :: fg |
+a>cagf2(e>d) | (cA) T(G>F)c2(de) | f2edg2fg | a4d2fg |
+ac'ga f>g fe/d/ | (cA) T(G>F)f2(ac) | (BA)TG>FG2(Ac) | d4A2 :|
+V:2 clef=bass middle=d % transpose=-24
+z2 | d2f2babg | a2f2A2BA | G3A Bbag | fd'afd2 :: z2 |
+f3ga2zb | a2e2f2d^c | dd ef e2de | fgag  fd ze |
+f2g2a3b | a3BA2zf | G2zA Bbag | fd'afd2 :|

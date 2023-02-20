@@ -1,0 +1,30 @@
+X: 21403
+T: MILFORD SETT (tune 3)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.140 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: In bar 2, the "tr" is actually between the A and c notes.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+[|\
+G2TA2B2A2 | B2TA2c2d2 | c2e2 A2Bc | d2c2d2A2 |\
+F2A2B2A2 | B2A2c2d2 | c2e2 A2Bc | d6 z2 H|]
+Te6 ^de | g2f2e2d2 | c2d2e2c2 | d2f2a4 |\
+Te6 ^de | g2e2d2c2 | .d2(fa) .c2(ba) | d6 "^D.C."z2 |]
+B2c2d4 | d2c2B2 | g4f2e2 | d2c2B4 |\
+B2c2d4 | d2c2B4 | e2fg f2e2 | decd "^D.C."B4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies cross hands round and back,
+%% give the other hand to partners,
+%% balance and turn,
+%% gentlemen perform the same,
+%% repeat once.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

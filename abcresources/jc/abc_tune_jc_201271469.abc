@@ -1,0 +1,26 @@
+X:1
+T: The Dutch House
+N:
+C:Brian Jenkins
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W:
+% voice 1 (1 lines, 24 notes)
+K:G
+M:4/4
+L:1/16
+A4 |c16|c4 B2 A2 G4 A4 |B16|B4 G4 c4 d4 |e16|e4 f2 g2 a2 g2 e4 |d16|d4 B4 A4 G4 |
+%W:
+% voice 1 (1 lines, 26 notes)
+A6 B2 c8|c4 F4 G4 A4 |B6 c2 d8|d4 G4 A4 B4 |c8 E8 |B4 B2 A2 G4 A4 |G16|G4 G4 c4 d4 |
+%W:
+% voice 1 (1 lines, 26 notes)
+e6 g2 g8|g4 a4 g4 e4 |d6 B2 d8|d4 B4 A4 G4 |A12 B4 |c4 d2 c2 B4 c4 |d16|d4 B4 A4 G4 |
+%W:
+% voice 1 (1 lines, 24 notes)
+E6 F2 G8|G4 A2 G2 F4 E4 |D6 G2 B8|B4 E4 F4 G4 |A12 G4 |F4 E2 F2 B4 B4 |G16|G12 ||

@@ -1,0 +1,33 @@
+X: 31523
+T: COTILLION No. 38. MASTER HUMPHREY'S SETT tune 3
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.152 #3 (and p.153 #1)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The rhythm between the strains isn't right; not fixed.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+G2BG F2AF | G2BG D2EF | G2BG F2AF | GABc dBcA |\
+G2BG F2AF | G2BG D2EF | G2BG F2AF | G2G2G2 |]
+B2d2 g2d2 | c2B2 c2ec | B2dB A2AB | cBAG GFED |\
+B2d2 g2[d2B2] | c2B2 c2ec | B2dB A2AB | cBAG "^D.C."d4 |]
+K: Gm
+"Minor."\
+A2 |\
+(B2A2) (c2B2) | (d2c2) (e2d2) | c2B2A2G2 | ^FGAF D2GA |\
+(B2A2) (c2B2) | (d2c2) (e2d2) | c2B2A2G2 | d4 "^D.C."c2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All alamand corners,
+%% alamand partners,
+%% all balance to corners,
+%% turn partners,
+%% grand chain,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

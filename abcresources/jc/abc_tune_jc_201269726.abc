@@ -1,0 +1,29 @@
+X: 1
+T: Down by the Riverside
+O: African-American Gospel
+R: song, march
+S: Fiddle Hell Online 2020
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The %%continueall command is used to fit the lyrics into the available width for the chosen font.
+N: This was transcribed as a cello exercise, using the bass clef. Change it to treble if you prefer.
+M: C|
+L: 1/8
+%%continueall
+K: G clef=bass middle=D
+%
+"^Verse"[|] BA | "G"B2 D4 E2 | G3B- B4 | "G"z2B2 B3A | BA2G- G4 |
+w: Gon-na lay down my bur-den* Down by the ri-ver side,*
+	"D7"z2A2 A3G | AG2F- F4 | "G"z2B2 B3A | BA2G- G2 BA |
+w: Down by the ri-ver side,* Down by the ri-ver side,* Gon-na
+	"G"B2 D4 E2 | G3B- B4 | "G"z2B2 B3A | BA2G- G4 |
+w: lay down my bur-den* Down by the ri-ver side,* and
+	"D7"B2 A4 c2 | B4 A4 | "G"G8 "^Chorus"[| "G"z2G2 A2BB |
+w: stu-dy* war no more.  I ain't gon-na
+	"C"cc2c- c2c2 | c2z2 G2AA | "G"BB2B- B2A2 | G2z2 G2GG |
+w: stu-dy war_ no more, ain't gon-na stu-dy war* no more, ain't gon-na
+	"D7"B2 A6 | G4 A4 | "G"B8 | z2G2 A2BB |
+w: stu-dy war no more. I ain't gon-na
+	cc2c- c2c2 | c2z2 G2AA | "G"BB2B- B2A2 | G2z2 G2GG |
+w: stu-dy war_ no more, ain't gon-na study-war* no more, ain't gon-na
+	"D7"B2 A4 c2 | B4 A4 | "G"G8- | G4 z2 |]
+w: stu-dy* war no more.*

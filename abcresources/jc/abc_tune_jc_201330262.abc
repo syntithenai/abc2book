@@ -1,0 +1,18 @@
+X:1
+T:Rid\'es d'octobre 2003
+C:Traditionnel breton et J. HUBY (NEKETA)
+I:Rid\'es 6 T
+Q:1/4=164
+P:A4
+M:3/4
+L:1/8
+K:G
+P:A
+%%%MIDI gchord c2zfc2zff4
+%%%MIDI gchord fccfcz
+%%MIDI gchord fccfcf
+%%MIDI bassprog 0
+%%MIDI program 0
+%MIDI bassvol 127
+|: "G"GA B2 "C"cB |"D"Ac BA "G"GD |GA "Em"B2 "Am"cB |"Bm"A/B/c "C"B"D"A "G"G2 :|
+|: "G"Bc "Bm"d2 ed |B2 "C"cB "D"Ac |"G"Bc "Bm"d2 ed |"Am"c/d/c "D"BA "G"G2 :|

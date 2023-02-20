@@ -1,0 +1,22 @@
+X: 171
+T: A Dance for Sylvia
+T: dance: Stoner House [Paul Hemenway]
+C: Burt Murray \251 1998
+O: arr. Sylvia Miskoe
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000) p.17
+M: 6/8
+L: 1/8
+P: AB
+K: G
+"A"[| E |\
+"G"DB,G, G,B,D | "G"B2B B2A | "G"GFE DCB, | "Am"C3 C2B, |\
+"D7"A,B,C A,B,C | "D7"F2F F2E | "D7"D^CD ED=C | "G"B,3- B,2 E ||
+"G"DB,G, G,A,B, | "G"D2G G2A | "G7"BcB BAG | "C"E3- E2E |\
+"Am"c2c cBA | "G"GFE D2B, | "D7"DED CB,A, | "G"G,3- G,2 |]
+"B"[| D |\
+"G"DGB dBG | "G"DGA BAG | "G"DGB dcB | "Am"c3 c2B |\
+"D7"cBc A^GA | "D7"F^EF D^CD | "D7"DFA d^c=c | "G"B3- B2c ||
+"G"dBG DB,G, | "G"B,DG B2c | "G"d2d dcB | "C"e3- e2f |\
+"G"gfe dcB | "C"edc BAG | "D7"ABc def | "G"g3- g2 |]

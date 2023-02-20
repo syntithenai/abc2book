@@ -1,0 +1,23 @@
+X: 20593
+T: the SUNNY RAYS OF MORNING
+O: Danish air.
+%R: air
+N: This is version 2, for ABC software that understands diminuendo/crescendo notation.
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.59 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: What's the meaning of the vertical bar and "sym." above bar 16?
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 !p!|\
+B3B c>Bc>A | (d3c) B2z2 | A3c c>BA>G | (B3c/B/) A2D2 |\
+B3(A/G/ FG)(AB) | c3B A2(d>B) | G3B (B>A)(G>F) | (A4 G2) dd |!p!\
+d3c (c_B)(AG) | F3A G2dd |
+d3c c>_BA>G !f!| Hd4 ^c2=c2 |!p!\
+=B3B B2({cBAB}cd) | d3E E2(cA) | G3B B>AG>F | A4 G2"^|"AB"^sym."|\
+Q(c4 qB2)z2 | Qf4 qg2z2 |!f! G3B B>AG>F | QA4 qG2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

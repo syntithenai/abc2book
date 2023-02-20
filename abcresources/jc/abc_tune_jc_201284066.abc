@@ -1,0 +1,182 @@
+X: 1
+T: Funeral March of a Marionette
+T: Alfred Hitchcock Theme
+C: F.Gounod
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+E \
+[|"Am"[A,2A2][cA] [cA][B^G][A^F] | "E7"[B2^G2][cA] [d2B2]E \
+| "Am"[A,2A2][cA] [cA][B^G][A^F] | "E7"[B2^G2][cA] [d3B3] \
+| "Am"A2c "G"e2d | "C"c2e "G"g2f \
+| "Em"e2g "B7"b2a | "E7"k^g>fe dc[Be] |
+| "Am"[A,2A2][cA] [cA][B^G][A^F] | "E7"[B2^G2][cA] [d2B2]E \
+| "Am"[A,2A2][cA] [cA][B^G][A^F] | "E7"[B2^G2][cA] [d3B3] \
+| "Am"c2e "G7"g2f | "C"edc "Bb"_Bdf \
+| "Am"A^GA "E"=B2c | "E7"B3 "Am"A2z |]
+[| "E"{^d}e2E E^DE | "B7"^G2^F "E"E3 \
+| "E"{^d}e2E E^DE | "B7"^G2^F "E"E3 \
+| "E"{^d}e2E "F"FGA | "E"B2E "F"FGA \
+| "E"B2E EDC | "E7"DED C2B, |
+| "Am"[A,2A2][cA] [cA][B^G][A^F] | "E7"[B2^G2][cA] [d2B2]E \
+| "Am"[A,2A2][cA] [cA][B^G][A^F] | "E7"[B2^G2][cA] [d3B3] \
+| "Am"c2e "G7"g2f | "C"edc "Bb"_Bdf \
+| "Am"A^GA "E"=B2c | "E7"B3 "Am"A2 |]
+
+%%sep 1 1 500
+X: 2
+T: Go To the Devil and Shake Yourself
+B:Ms Music Book, Duchess of Atholl
+Z:Nigel Gatherer <gatherer:argonet.co.UK>
+M:6/8
+L:1/8
+K:A
+a \
+| "A"e2c cBc | e2c c2a | e2c "E/G#"cBc | "F#m"A2F F2a \
+| "A"e2c cBc | Ace aga | "D"fed "Bm"cdB | "F#m"A2F F2 :|
+|: "E"G \
+| "A"ABA "E/G#"cBc | "F#m"A2F F2A | "E"GAB "B7"BcA | "E"G2E E2G \
+| "A"ABA cBc | Ace aga | "D"fed "Bm"cdB | "F#m"A2F F2 :|
+
+%%sep 1 1 500
+X: 3
+T: Jump At the Sun
+C: John Kirkpatrick 1972
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: Dm
+|:\
+"Dm"DFA ^G2A | "Dm"DFA ^G2A | "Dm"dAA dAA | "Dm"AGF "A"E3 |\
+"Dm"DFA ^G2A | "Dm"DFA ^G2A | "Dm"dAA "Gm"BAG | "A7"FGE "Dm"D3 :|
+|:\
+"Dm"dAA fed | "A7"eAA gfe | "Dm"fed fed | "A"e^cA "A7"B2A |\
+"Dm"dAA fed | "A7"eAA gfe | "Dm"dAA "Gm"BAG | "A7"FGE "Dm"D3 :|
+
+%%sep 1 1 500
+X: 4
+T: Vallafield   [C]
+O: Trad Shetland
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+G | "C"c2e c2e | "Am"ecA A2A | "G"Bcd dBG |1 "G"Bcd dB :|2 "C"c3- c2 |[| d | "C"cBA "G"GAB |
+| "G"dBA B2G | "C"cBA "G"GAB | "C"cBA "G"GAB || "G"dBA B2G | "G"dBA B2G | "C"cBA "G"GAB | "C"c3-c2 |]
+
+%%sep 1 1 500
+X: 5
+T: Dunmoe Gallumph
+C: Dougie Adams
+Z: 2008 John Chambers <jc:trillian.mit.edu> (and chords)
+F: http://www.londonnasuwt.org.uk/gtmc/session_tunes/dunmoe.gif
+M: 6/8
+L: 1/8
+K: Edor
+|: "Em"E2B E2B | "D"FGA FGA | "Em"E2B E2B | "D"AGF "Em"E3 \
+|  "Em"E2B E2B | "D"FGA FGA | "Em"E2B E2B | "D"AGF "Em"E3 :|
+|: "Em"e2e ede | "D"f2f f2d | "Em"e2e edc | "D"d2d     d2c \
+|  "C"=c2c cdc | "G"B2B B3  |  "D"A2A d2F | "Em"E3     E3 :|
+
+%%sep 1 1 500
+X: 6
+T: Abbots Bromley Horn Dance [Dm]
+N: From the Nottingham Music Database
+S: EFDSS
+M: 6/8
+K: Dm
+d \
+| "Dm"A2d F2d | "Dm"A2d D2F | "Gm"EFG "Dm"FGA \
+|1,3 "A7"GFE "Dm"F2 :|2,4 "A7"GFE "Dm"D2 :| \
+d \
+| "Gm"B2d Bcd | "Gm"G2B GAB \
+| "C"EFG FED | CDE "F"A,2f |
+| "Bb"d2f def | "Gm"B2d Bcd \
+| "F"cBA "C"GFE | "Dm"D3 D2 \
+|: G \
+| "Dm"ABA "Gm"B3 | "Dm"ABA "Gm"d3 | "Dm"ABA "A7"GFE \
+|1 "Dm"F3- "A7"F2 :|2 "Dm"D3- D2 |]
+
+%%sep 1 1 500
+X: 7
+T: Abbots Bromley Horn Dance [Em]
+N: From the Nottingham Music Database
+S: EFDSS
+M: 6/8
+K: Em
+e \
+| "Em"B2e G2e | "Em"B2e E2G | "Am"FGA "Em"GAB \
+|1,3 "B7"AGF "Em"G2 :|2,4 "B7"AGF "Em"E2 :| \
+e \
+| "Am"c2e cde | "Am"A2c ABc \
+| "D"FGA "(Em)"GFE | DEF "Bm"B,2g |
+| "Em"e2g efg | "Am"c2e cde \
+| "G"dcB "D"AGF | "Em"E3 E2 |: \
+A \
+"Em"BcB "Am"c3 | "Em"BcB "Am"e3 | "Em"BcB "B7"AGF \
+|1 "Em"G3 "B7"G2 :|2 "Em"E3 E2 |]
+
+%%sep 1 1 500
+X: 8
+T: Abbots Bromley Horn Dance [Gm]
+N: From the Nottingham Music Database
+S: EFDSS
+M: 6/8
+K: Gm
+g \
+| "Gm"d2g B2g \
+| "Gm"d2g G2B \
+| "Cm"ABc "Gm"Bcd \
+|1,3 "D7"cBA "Gm"B2 \
+:|2,4 "D7"cBA "Gm"G2 :|
+g \
+| "Cm"e2g efg \
+| "Cm"c2e cde \
+| "F"ABc "Gm"BAG \
+| "Dm"FGA D2b \
+| "Gm"g2b gab \
+| "Cm"e2g efg |
+| "Dm"fed cBA \
+| "Gm"G3 G2 |: \
+c \
+| "Gm"ded "Cm"e3 \
+| "Gm"ded "Cm"g3 \
+| "Gm"ded "D7"cBA \
+|1 "Gm"B3 "D7"B2 \
+:|2 "Gm"G3 G2 |]
+
+%%sep 1 1 500
+X: 9
+T: Abbots Bromley Horn Dance [Am]
+N: From the Nottingham Music Database
+S: EFDSS
+M: 6/8
+K: Am
+a \
+| "Am"e2a c2a | "Am"e2a A2c | "Dm"Bcd "Am"cde |1,3 "E7"dcB "Am"c2 \
+                                             :|2,4 "E7"dcB "Am"A2 :| \
+a \
+| "Dm"f2a fga | "Dm"d2f def | "G"Bcd "Am"cBA | "Em"GAB E2c' |
+| "Am"a2c' abc' | "Dm"f2a fga | "Em"gfe    dcB | "Am"A3  A2  |: \
+d \
+| "Am"efe "Dm"f3 | "Am"efe "Dm"a3 | "Am"efe "E7"dcB |1 "Am"c3 "E7"c2 \
+                                                   :|2 "Am"A3     A2 |]
+
+%%sep 1 1 500
+X: 10
+T: Gigue de l'Halloween
+C: Jean Duval 1995
+R: jig
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+F: http://mustrad.udenap.org/tounes/TQ006_Gigue%20de%20l%27Halloween.htm
+M: 6/8
+L: 1/8
+K: Bm
+F \
+| "Bm"~B3 Bcd | "A"c2A ABc | "G"B2G GAB | "F#m"A2F FEF \
+| "Bm"~B3 Bcd | "A"c2A ABc | "D"def "A"edc | "Bm"B3 B2 :|
+|: e \
+| "Bm"~f3 fed | "A"cde Adc | "G"Bcd dcB | "F#m"cAF F3 \
+| "Bm"~f3 fed | "A"cde Adc | "G"Bcd "A"cBA |1 "Bm"B2B cd :|2 "Bm"B3 B2 |]

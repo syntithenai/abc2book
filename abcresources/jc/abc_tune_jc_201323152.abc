@@ -1,0 +1,26 @@
+X:1
+T: Pepper's Black
+N:
+C:tune is "Kettledrum"
+S:
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 210
+%W: A
+% voice 1 (1 lines, 19 notes)
+K:Am
+M:4/4
+L:1/16
+e2 f2 g2 f2 e4 d4 |A4 f4 A4 f4 |e2 f2 g2 f2 e4 d4 |A4 f4 d8 |
+%W:
+% voice 1 (1 lines, 19 notes)
+e2 f2 g2 f2 e4 d4 |A4 f4 A4 f4 |e2 f2 g2 f2 e4 d4 |A4 f4 d8 |
+%W: B
+% voice 1 (1 lines, 18 notes)
+a2 f2 g2 a2 g6 a2 |g6 a2 g4 e4 |f2 g2 a4 a4 ^g4 |a12 f2 g2 |
+%W:
+% voice 1 (1 lines, 15 notes)
+a2 g2 f2 e2 d2 e2 f2 d2 |e8 A8 |F4 A4 A4 f4 |d16 ||

@@ -1,0 +1,20 @@
+X:229
+T:End of the day
+C:Colin Hume, 2018
+L:1/4
+M:3/4
+%%MIDI beat 100 95 80
+%%MIDI ratio 3 1
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=120
+%%MIDI gchord b2b
+%%MIDI chordname dim 0 3 6 9
+K:G
+P:A
+|: G/A/ | "G"BGG | "Em"G2F/G/ | "Am"AEE | "C"E2F/G/ |\
+"D"A>BA | "D7"FGA | "G"BGG | "C"G2G/A/ |
+"G"BGG | "Em"G2A/B/ | "Am"cEB | "D"A2B/c/ | "G"dBd | "Em"g2"Em/D"f |
+"C"e>dc | "G/D"d2"D#dim"c | "Em"B>AG | "Am"A<c"D"F |1 "G"G3- | "C"G2 :|2 "G"G3 | z2 |]
+P:B
+|: F/G/ | "D"AFA | "Bm"d2^c/d/ | "Em"eBd | "A"^c2d/e/ | "Bm"fef | "G"gf>d |\
+"A"ea"A#dim"g | "Bm"f2d/^c/ | "G"BAG | "D/F#"Ad>D | "Em"GF"A7"E | "D"D2 :|

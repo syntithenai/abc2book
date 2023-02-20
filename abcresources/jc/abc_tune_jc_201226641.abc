@@ -1,0 +1,33 @@
+X: 10381
+T: ST. VALENTINE'S GALOP
+C: Arranged by W. B. Laybourn
+R: galop
+B: K\"ohler's Violin Repository, v.1, 1885 p.38 #1
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+"^Introduction"z2 | Z7 | Hz2 "^Galop"|: (.ug.uf) |\
+vezuez | .ez (.e>.f) | gz (.ua>.^f) | (g2e)z |\
+v{de}fed^c | (d2G)z | u{d'e'}f'e'd'^c' | (d'2g)z |
+vezveu | ez u(.e>.f) | gz v(.a>.^f) | (g2e)z |\
+ued^fa | bgd2 | d'c'ba |[1 g2 :|[2 gggz ||
+|:\
+vfz {g}ez | {g}dz {g}cz | {g}Bz {g}Az | {g}G2 (A/B/c/d/) |\
+vez {g}dz | {g}cz {g}Bz | {g}Az {g}_Az | {g}G>(A B/c/d/e/) |
+fz {g}ez | {g}dz {g}cz | {g}Bz {g}Az | {g}G2 (A/B/c/d/) |\
+ee(eg) | aa(ac') | bbbd' | c'z vc'z "^Fine":|
+K:F
+P: Trio
+z4 | z2 uc>uB |:\
+"^8va"vAzuAz | AzAz | AGF2 | z2uc2 |\
+vBzuBz | BzBz | BAG2 | z2uc2 |
+f3c | (dc)BA | (.G2>>.d2) | d2d2 |\
+(.c3.d) | cBAG | (.G>.F)F2 | z2uc2 |
+(.B>.A)A2 | z2uf2 | (.e>.d)d2 | z2ud2 |\
+(.c3.B) | A2G2 | (.G>.F)F2 |1 z2uc>uB :|2 z2 uc'>uc'
+|: (.c'>.d')(.c'>.=b) | c'2(.g>.^g) | agf2 | z2(a>ud') |\
+c'eb2- | b>va(.b>.d') | c'fa2 | z2uc'>uc' |
+(c'>.d')(c'>.=b) | c'2(.g>.^g) | agf2- | f2{gf}(ed) |\
+(cfad') | (c'3f) | bz ez |1[f2A2](.c>.c) :|2 f2 "_D.C."|]

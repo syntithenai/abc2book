@@ -1,0 +1,19 @@
+X: 1
+T: Bandura Waltz
+C: trad. Ukraine
+R: waltz
+S: https://musescore.com/user/36621453/scores/6506176 (different from what's actually played)
+S: https://www.soundslice.com/slices/NmnMc/ (teaching session)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Chords by John Chambers.
+N: The bandura is the traditional Ukranian lute/zither.
+M: 3/4
+L: 1/4
+K: Dm
+"^A"[|\
+"A7"A^ce | A^ce | "Dm"d3 | f3 | "A7"efg | g{ag}fe | "Dm"d3- | dzc/B/ ||
+"A7"A^ce | A^ce | "Dm"d3 | f3 | "A7"efg | g{ag}fg | "Dm"a3- | "D7"azB/A/ |]
+"^B"[|\
+"Gm"GAB | dcB | "Dm"A3- | AGF | "A7"EFG | G{AG}FG | "Dm"A3- | "D7"Az B/A/ ||
+"Gm"GAB | dcB | "Dm"A3- | AGF | "A7"EFG | G{AG}FE | "Dm"D3- | Dz2 |]
+%%text Play the B part up an octave if you can.

@@ -1,0 +1,32 @@
+X:1
+T: Neal's Maggot
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 23 notes)
+K:G
+M:6/8
+L:1/16
+B c |d3 e d2 c3 B A2 B4 G2 G4 F G A3 B A2 G2 E2 G2 F6 D4 E F |
+%W:
+% voice 1 (1 lines, 21 notes)
+G3 A G2 F3 E D2 E4 E2 e3 g2 d2 g2 B2 c2 A2 c2 B4 G2 G4 B c
+%W: A2
+% voice 1 (1 lines, 21 notes)
+d3 |e d2 c3 B A2 B4 G2 G4 F G A3 B A2 G2 E2 G2 F6 D4 E F
+%W:
+% voice 1 (1 lines, 21 notes)
+G3 |A G2 F3 E D2 E4 E2 e3 g2 d2 g2 B2 c2 A2 c2 B4 G2 G4 B c
+%W: B
+% voice 1 (1 lines, 21 notes)
+d3 e |d2 c4 B2 c4 A2 A4 f g a2 b2 a2 ^c2 g2 e2 f4 d2 d4 e f
+%W:
+% voice 1 (1 lines, 21 notes)
+g2 f2 |e2 d2 c2 B2 c2 g2 c2 B2 g2 B2 c2 g2 B2 A2 d2 A2 B4 G2 G4 ||

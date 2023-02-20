@@ -1,0 +1,19 @@
+X: 2302
+T: Lady Dumfries's Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.2 p.30 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+A |\
+F2-FA/B/ cAag | fdcA TGFGA | F2-FA/B/ cAag |fcba Tg2f :| g | (f/g/a) .a.f gef(d | {d}Tc)AFA TGFDg |
+(f/g/a) .a.f gefd | cAba Tg2f>g || (fg/a/) (.a.f) gefd | {d}TcAFA TGFDg | (f/g/a) (.a.f) gefd | cAba Tg2f |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | f2f2 f2f2 | b2a2 c'2c2 | f2f2 f2f2 | A2B2 c2F :| z | f2f2 c2d2 | f2f2 c'2b2 |
+a2f2 c2B2 | A2f2 d2[f2F2] || f2f2 c'2b2 | a2f2 c'2b2 | a2f2 c2B2 | A2F2 [c2C2][fF] |]

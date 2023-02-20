@@ -1,0 +1,28 @@
+X: 114
+T: Gaselnita
+O: Romania
+S: Gypsy Camp vol. 1
+M: 2/4
+L: 1/8
+Q: 1/4=280
+K: Bb
+%%MIDI  gchord zf
+   "g"g3e    |g3e       |g3e          |e3c          |\
+   c3A       |c3A       |c3A          |c3A          |
+   g3e       |g3e       |g3e          |e3c          |\
+   c3A       |c3A       |c3A          |A2z2         |
+K: Eb
+%%MIDI program 75
+   d2e/f/e/f/|ezez      |e/d/e/d/dc   |ecA2         |
+   d2e/f/e/f/|ezez      |e/d/e/d/dc   |ecA2         |
+   d2e/f/e/f/|ezez      |e/d/e/d/dc   |ecA2         |
+   d2e/f/e/f/|ezez      |e2c2         |A2z2         |
+   d2e/f/e/f/|ezez      |e/d/e/d/dc   |ecA2         |
+   B=Bde     |fgz2      |e/d/e/d/e/d/z|A2A2         |
+   d2e/f/e/f/|ezez      |e/d/e/d/dc   |ecA2         |
+   d2e/f/e/f/|ezez      |e2c2         |A2z2         |
+   e=Bez     |e/d/e/d/z2|e=Bez        |e/d/e/d/z2   |
+   defz      |e/d/e/d/z2| e=Bez       |e/d/e/d/z2   |
+K:C
+   g^fef     |g^fef     |g^fef        |e/d/e/d/e/d/e|
+   G^FEF     |G^FEF     |G^FEF        |E/D/E/D/E/D/E|

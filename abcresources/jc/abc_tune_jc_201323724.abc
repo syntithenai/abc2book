@@ -1,0 +1,30 @@
+X: 1
+T: Pig in the Parlour
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #14 (8)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F2 |\
+AFEF AFEF | c2 c4 BA | B2A2 G2F2 | EF G4 F2 |\
+AFEF AFEF | de f4 ed | e2dc G2=B2 | cGEG C2 :|
+|: c2 |\
+ecBc ecBc | b2 a4 gf | e2d2 c2B2 | AG F4 c2 |\
+ecBc gcBc | ga b4 ag | afef gece | f2c2 A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+%% The 1st Man turn 2d Wo. and jump round S. the 2d Man do
+%% the same, with the 1st Wo. .| the 1st man change Places with the
+%% 2d Wo. and the 2d man do the same, with the 1st Wo. then hands
+%% all four half round and right and left quite round, then foot it
+%% and jump .| then change places with contrary Partners and go
+%% all four round and cast off and turn your Partner .| then take
+%% your Partner by both hands and draw her round the 3d Cu. and
+%% above the 2d Cu. and cast off below the 2d Cu. & turn yr partner :|
+%%endtext
+%%sep 1 8 500

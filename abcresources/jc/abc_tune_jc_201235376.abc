@@ -1,0 +1,27 @@
+X: 2111 
+T: Hey Jenny come down to Jock
+%R: air, jig
+N: This is version 1, for ABC software that doesn't understand crescendo symbols.
+B: Niel Gow & Sons "Complete Repository" v.2 p.11 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "SLOWISH"
+K: F	% and Dm
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 8-bar lines.
+V: 1 staves=2 clef=treble
+f |\
+F2F GAc | d>cA G2f | F2F GAc | ~d>^cd D2f ||\
+F2F GAc | d>cA G2f | F2F GAc | ~d>^cd D2 |]
+d/e/ |\
+"cresc..."(fe).d (gf).e | fed cde | "_cres."f>ed "_sf"g>fe | a>^ga d2!p!d/e/ ||\
+(fe).d (gf).e | fed cde | Hfg{f/g/}Ha cA>F | [G2E2][A^C] [D2A,2F,2] |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+f2F c2A | B3 c3 | agf e3 | d2A D2z ||\
+f2F c2A | B3 c3 | agf e3 | d2A D2 |] z |
+(DE).F (EF).G | A2=B c2^c | def g3 | a2A d2!p!z ||\
+def efg | a2=b c'2_b | Ha3 f3 | e2A [d2D2] |]

@@ -1,0 +1,118 @@
+
+X: 1
+T: Wind that Shakes the Barley
+O: arr. Elke Baker
+%date: 1800
+R: reel
+S: printed copy from Potomac Valley Scottish Fiddle Club, in Concord Slow Scottish Session collection
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+B |\
+"D"A2AB AFED | "G"B2BA BcdB |\
+"D"A2AB AFED | "G"gfed "A7"Bcd :|
+e |\
+"D"f2fd "A7"g2ge | "D"f2fd "G"Bcde |\
+"D"f2fd "A7"g2ge | "D"afed "G"Bcd ||
+e |\
+"D"f2fd "Em"g2ge | "D"f2fd "A"ecBA |\
+"D"defg "G"afba | "A7"gfed "G"B2d |]
+
+
+X: 1
+T: the Wind That Shakes the Barley
+R: reel
+O: c.1800 (arr. Elka Baker)
+S: Page from Boston Slow Scottish Session collection
+B: Northern Minstrel c.1800
+N: "Paddledoo Music" at lower right.
+B: Henry Robson's "The Northern Minstrel's Budget", c.1800
+B: Joshua Gibbons (Lincolnshire) private MS c.1825
+B: Surenne (Dance Music of Scotland), 1852; pg. 41
+B: Stewart-Robertson (The Athole Collection), 1884; pg. 89
+B: MacDonald (The Skye Collection), 1887; pg. 35
+B: RSCDS 21-8(II) (in A)
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+B |\
+"D"A2AB AFED | "G"B2BA BcdB |\
+"D"A2AB "(F#m)"AFED | "G"gfed "A"Bc d :|
+|: e |\
+"D"f2fd "Em"g2ge | "D"f2fd "A"Bcde |\
+"D"f2fd "Em"g2ge | "D"afed "G"Bc d :|
+
+
+X: 1
+T: the Wind That Shakes the Barley
+R: reel
+O: Nath. Gow c.1800
+%date: 1800
+N: May be an Irish variant of Largo's Fairy Dance Reel (Nathaniel Gow 1809)
+B: Henry Robson's "The Northern Minstrel's Budget", c.1800
+B: Joshua Gibbons (Lincolnshire) private MS c.1825
+B: Surenne (Dance Music of Scotland), 1852; pg. 41
+B: Stewart-Robertson (The Athole Collection), 1884; pg. 89
+B: MacDonald (The Skye Collection), 1887; pg. 35
+B: RSCDS 21-8(II) (in A)
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: "D"A2AB AFED | "G"B2BA B2d2 | "D"A2AB AFED | "Em"gfed [1 "A7"B2d2 :[2 "A7"Bcde |]
+[| "D"f2fd "G"g2ge | "D"f2fd "A7"ecBA | "D"f2fd "G"g2ge | "D"afed "A7"Bcde ||
+|| "D"f2fd "G"g2ge | "D"f2fd "A7"ecBA | "D"defg "(Bm)"afba | "Em"gfed "A7"BcdB |]
+
+
+X: 1
+T: the Wind That Shakes the Barley
+R: reel
+O: c.1800
+N: May be an Irish variant of Largo's Fairy Dance Reel (Nathaniel Gow 1809)
+B: Henry Robson's "The Northern Minstrel's Budget", c.1800
+B: Joshua Gibbons (Lincolnshire) private MS c.1825
+B: Surenne (Dance Music of Scotland), 1852; pg. 41
+B: Stewart-Robertson (The Athole Collection), 1884; pg. 89
+B: MacDonald (The Skye Collection), 1887; pg. 35
+B: RSCDS 21-8(II) (in A)
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: "D"A2AB AFED | "G"B2BA B2d2 | "D"A2AB AFED |\
+[1 "Em"gfed "A7"B2d2 :|[2 "Em"gfed "A7"Bcde |]
+|: "D"f2fd "Em"g2ge | "D"f2fd "A7"ecBA |\
+[1 "D"f2fd "Em"g2ge | "D"afed "A7"Bcde :|\
+[2 "D"defg "Bm"afba | "Em"gfed "A7"BcdB |]
+
+
+X: 26
+T: the Wind That Shakes the Barley
+%date: 1800
+R:reel
+Z:id:hn-reel-109
+M:C|
+K:D
+|:\
+~A3B AFED | ~B3A BcdB | ~A3B AFED |1 gfed BcdB :|2 gfed Bcde ||
+~f3d ~g3e | ~f3d Bcde | ~f3d g2fg | afed Bcde |
+~f3d ~g3e | ~f3d Bcdc | defg ~a3b | afed BcdB |]
+
+
+X: 24
+T: the Wind that Shakes the Barley
+B: 100 Essential Irish Session Tunes
+R: reel
+Z: 2012 John Chambers <jc@trillian.mit.edu>
+B: "100 Essential Irish Session Tunes" 1995 Dave Mallinson, ed.
+M: 4/4
+L: 1/8
+K: D
+|: "D"A2AB AFED | "G"B2BA BcdB |\
+[1 "D"A2AB AFED | "Em"gfed "G"BcdB :|\
+[2 "D"FAAB AFED | "Em"gfed "G"Bcde |]
+|: "D"f2fd "Em"g2ge | "D"f2fd "G"Bcde |\
+[1 "D"f2fd "Em"g2fg | "D"afed "G"Bcde :|\
+[2 "Bm"defg afbf | "Em"gfed "G"BcdB |]

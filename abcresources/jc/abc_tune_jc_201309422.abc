@@ -1,0 +1,72 @@
+X:1
+T:Mi go zatvorile
+R:lesnoto
+C:Trad.
+O:Macedonia
+Z:2018 John Chambers
+%P:IV2 x 3 (or 4)
+M:7/8
+L:1/8
+K:D
+P:Instr:
+[| "D"([FD][GE][AF]) ([FD][GE]) ([AF][BG]) | "G"([dB][cA][BG]) "D"([AF][GE]) [FD]z \
+ | "D"([FD][GE][AF]) ([FD][GE] [AF][BG]) | "G"([dB][cA][BG]) "A"[c2A2] z2 |
+ | "A"([cA][dB][ec]) "G"([dB][cA][BG][dB]) | "A"([c2A2][BG]) "D"([AF][GE] [FD]) z \
+ | "G"([dB][cA][BG]) "A"([AF][BG][AF][GC]) | "D"[F3D3] z2 z2 |] z7 |
+P:Vocal:
+[| "D"[FD][F2D2] [A2F2] [A2F2] | "A"([G2E2][FD]) "D"[F2D2] z2 \
+ | "D"[FD][F2D2] "G"[B2G2] [B2G2] | "D"([B2G2][AF]) [A2F2] z2 |]
+w: 1.~Mi go zat-vo-ri-*le mla-di-ot Jor-dan-*\vco,
+w: 2.~Vo zan-da-ni i-*ma vo-da do ko-le-*na,
+w: 3.~Le-\vzal \vsto mi le-*\vzal, vre-me tri go-di-*ni,
+w: 4.~Ko-ga vre-me doj-*de Jor-dan da se pu-*\vsta,
+w: 5.~Ko-ga mi pri-sti-*gnal v'ne-go-va-ta ku-*kja,
+w: 6.~Por-ti ot-vo-ri-*la ne-go-va-ta maj-*ka,
+w: 7.~Ka-de mi e maj-*ko moj-to ver-no li-*be,
+w: 8.~Tvoj-to ver-no li-*be, sno-\vsti se o-ma-*\vzi,
+|: "A"[AF][B2G2] [c2A2] ([BG][AF]) | "G"[B3G3] "D"([AF][GE] [F2D2]) \
+ | "A"[AF][A2F2] [G2E2] ([GE][AF]) | "D"([G2E2][FD]) [F2D2] z2 :| z7 |]
+w: 1.~mi go zat-vo-*ri-le** vo tem-ni zan-*da-*ni.
+w: 2.~vo-da do ko-*le-na,** kos-ki do ra-*me-*na.
+w: 3.~vre-me tri go-*di-ni,** a i \vsest me-*se-*ci.
+w: 4.~pra-vo toj mi* tr-ga** vo ne-go-vo* se-*lo.
+w: 5.~dva pa-ti mi* vik-nal,** tri pa-ti mi* trop-*nal.
+w: 6.~por-ti ot-vo-*ri-la,** si-na pre-gr-*na-*la.
+w: 7.~por-ti da ot-*vo-ri,** me-ne da pre-*\vce-*ka?
+w: 8.~za tvo-jot kom-*\vsi-ja,** za tvo-jot po-*bra-*tim.
+% - - - - - - - - - -
+
+% - - - - - - - - - -
+%W:Mi go zatvorile mladiot Jordan\vco, mi go zatvorile vo temni zandani.
+%W:Vo zandani ima voda do kolena,    voda do kolena, koski do ramena.
+%W:
+%W:Le\vzal \vsto mi le\vzal, vreme tri godini, vreme tri godini, a i \vsest meseci.
+%W:Koga vreme dojde Jordan da se pu\vsta,    pravo toj mi trga vo negovo selo.
+%W:
+%W:Koga mi pristignal v' negovata kukja, dva pati mi viknal, tri pati mi tropnal.
+%W:Porti otvorila negovata majka,        porti otvorila, sina pregrnala.
+%W:
+%W:- Kade mi e majko mojto verno libe,     porti da otvori, mene da pre\vceka?
+%W:- Tvojto verno libe, sno\vsti se oma\vzi, za tvojot kom\vsija, za tvojot pobratim.
+
+% - - - - - - - - - -
+%%text Lyrics: https://pesna.org/song.php?id=550
+W: Ми го затвориле младиот Јорданчо
+W: ми го затвориле во темни зандани.
+W: Во зандани има вода до колена,
+W: вода до колена, коски до рамена.
+W:
+W: Лежал што ми лежал, време три години,
+W: време три години, а и шест месеци.
+W: Кога време дојде Јордан да се пушта,
+W: право тој ми трга во негово село.
+W:
+W: Кога ми пристигнал в' неговата куќа,
+W: два пати ми викнал, три пати ми тропнал.
+W: Порти отворила неговата мајка,
+W: порти отворила, сина прегрнала.
+W:
+W: - Каде ми е мајко мојто верно либе
+W: порти да отвори, мене да пречека?
+W: - Твојто верно либе, сношти се омажи
+W: за твојот комшија, за твојот побратим.

@@ -1,0 +1,20 @@
+X: 20751
+T: Armstrong's Farewell
+%R: air, waltz
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.75 #1
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Bb	% and Gm
+"_Slow"(Bc) |\
+d4 c2 | {c}B2 G2 F2 | (F2 G2) B2 | Tc4 (Bc) |\
+{Bc}d4 c>d | {c}B2 G2 F2 | {F}G2 B2 (B>c) | B4 :: df |\
+g2 f2 (d/c/B) | Tc2 B2 c2 |
+d2 b2 g2 | {g2}f4 d2 |\
+(c2 d2) f2 | (ba)(ba) Tgf | d2 g2 g>a | g4 f2 |\
+g>a b2 a2 | (gb)(gf) dg | f>g (f<d) (Tc>B) | {B2}c4 d>f |
+g2 (bg)(fd) | (ed)(ed) (TcB) | G2 B2 (B>c) | B4 :|[M:6/8]|: "_Brisk"B/c/ |\
+d2c BGF | G2B TcBc | d2c BGF | {F}G2B B2 :|
+|: (de) |\
+fdB TcBc | dbg f2d | cdf b2a | ga^f g2a |\
+bag fbg | fdB cBc | d2g fdc | BcA G2 :|

@@ -1,0 +1,33 @@
+X: 30923
+T: COTILLION No. 8. WINTHROP HALL SETT tune 3
+C:
+%R: hornpipe
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.92 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Each strain ends with a "D.C.", with no fermata or fine.  Not fixed.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+F>Ad>d d>dd>d | c>ea>a a>aa>a |\
+a>gf>g e>fg>e | d>fe>d c>BA>G |\
+F>Ad>d d>dd>d | A>cb>a a>aa>a |
+a>gf>g e>fg>e | d>fe>c "^D.C."d4 |]\
+f>a^g>a b>ag>a | e>a^g>a b>ag>a |\
+f>a^g>a b>ge>d | c>ef>e d>cB>A |
+f>a^g>a b>ag>a | e>a^g>a b>ag>a |\
+f>af>a ^g>bg>b | aced cBA"^D.C."G |][K:Dm] \
+d>fe>f e>fe>d | ^c>de>c d>ed>c |
+d>fe>f e>fe>d | ^c>de>c A4 |\
+d>fe>f e>fe>d | ^c>de>c d>ed>c |\
+d>fe>f e>gf>e | dfe^c "^D.C."d4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% back to back,
+%% next 2 forward, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

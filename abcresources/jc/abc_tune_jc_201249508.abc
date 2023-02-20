@@ -1,0 +1,26 @@
+X:1
+T: The Baffled Knight
+N:
+C:
+S:Play 3 times
+A:
+O:
+R:
+M:6/8
+K:D
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 37 notes)
+K:D
+M:6/8
+L:1/16
+D2 |D4 A2 A3 B A2 F4 E2 D4 c2 d4 c2 B3 c d2 c6 B4 c2 |d3 c B2 A3 G F2 B4 E2 E3 F G2 A3 G F2 D4 C2 D6D4 D2 |
+%W: A2
+% voice 1 (1 lines, 36 notes)
+D4 A2 A3 B A2 F4 E2 D4 c2 d4 c2 B3 c d2 c6 B4 c2 |d3 c B2 A3 G F2 B4 E2 E3 F G2 A3 G F2 D4 C2 D6D4 A2 |
+%W: B1
+% voice 1 (1 lines, 31 notes)
+F6F4 A2 E6E4 B c d4 D2 F4 D2 E6E4 c2 |d4 e2 f3 e d2 g4 B2 A3 B c2 d4 F2 E4 D2 D6D4 A2 |
+%W: B2
+% voice 1 (1 lines, 30 notes)
+F6F4 A2 E6E4 B c d4 D2 F4 D2 E6E4 c2 |d4 e2 f3 e d2 g4 B2 A3 B c2 d4 F2 E4 D2 D6D4 ||

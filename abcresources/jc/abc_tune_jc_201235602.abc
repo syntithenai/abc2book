@@ -1,0 +1,33 @@
+X: 21251
+T: NARRAGANSET SETT (tune 4)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.125 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+g |\
+c'2z e2z | eee a2g | (b2a) (gf)d | c3 z2G |\
+(Ge)e e2e | g3 ez G | Gee e2e | g3 ez2 |\
+d2g e2g | d2g e2g | b2a gfd | c3 z2 H|]
+K:F
+c |\
+f2f f2a | c'3 az2 | f2f {g}fef | gz2 zz2 |\
+bz2 az2 | c'3 az2 | f2f {g}fef | (g3 "^D.C."f2) |]
+K: C
+z |\
+e2z ^g2z | a2z b2z | c'ba {g}fef | g3 z2z |\
+fed d'2f | e2g c'2g | a2g _a2g | c3 "^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All promenade round,
+%% and form lines lengthwise the Hall;
+%% all march,
+%% all balance and swing to place.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

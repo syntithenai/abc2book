@@ -1,0 +1,46 @@
+X:1
+T:Between the Devil and the deep blue sea
+M:4/4
+L:1/4
+C:Harold Arlen & Ted Koehler
+Q:1/4=190
+%%staves (chords melody)
+K:F
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 |
+"Cm7"x2 "F7"x2 | "Bb6"x2 "Bbm6"x2 | "( Am7" "F/C"x"Abm7" " "x "Gm7" "C7"x"C7 )" " "x | "F6"x2 "C7"x2 ||
+V:melody
+zA2C | A2c2 | zA/^G/AC | Ac3 |
+w:I don't want you, but I'd hate to lose you,
+zdd<F | cB/f/-f>_d | c/f/c/_c/ B A/F/- | F2z2 ||
+w:you've got me in be-tween* the de-vil and the deep blue see.*
+P:A
+V:chords
+"F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 |
+"Cm7"x2 "F7"x2 | "Bb6"x2 "Bbm6"x2 | "( Am7" "F/C"x"Abm7" " "x "Gm7" "C7"x"C7 )" " "x | "F6"x2 "E7"x2 ||
+V:melody
+zA2C | A2c2 | zA/^G/AC | Ac3 |
+w:I don't want you, cause I can't for-get you,
+zdd<F | cB/f/-f>_d | c/f/c/_c/ B A/F/- | F2z2 ||
+w:you've got me in be-tween* the de-vil and the deep blue see.*
+P:B
+V:chords
+"Amaj7"x2 "F#m7"x2 | "Bm7"x2 "E7"x2 | "A/C#"x2 "Cdim7"x2 | "Bm7"x2 "E7"x2 |
+"C6"x2 x2 | "Fm6"x2 x2 | "Ab7"x2 x2 | "(Db7)""Gm7"x2 "C7"x2 ||
+V:melody
+z>e ^c/=B/A/^F/ | A/^FF/-F2 | AAA/=B/A/^F/ | A^c/e/-e2 |
+w:I ought to cross you off my list,* but when you come knock-ing at my door*
+z>e d/c/A/c/ | d/dd/-d>d | _e/e/d/c/ B_A | G4 ||
+w:fate seems to give my hart a twist* and I come runn-ing back for more.
+P:A
+V:chords
+"F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 | "F6"x2 "Dm7"x2 | "Gm7"x2 "C7"x2 |
+"Cm7"x2 "F7"x2 | "Bb6"x2 "Bbm6"x2 | "( Am7" "F/C"x"Abm7" " "x "Gm7" "C7"x"C7 )" " "x | "F6"x2 "C7"x2 ||
+V:melody
+zA2C | A2c2 | zA/^G/AC | Ac3 |
+w:I should hate you, but I guess I love you,
+zdd<F | cB/f/-f>_d | c/f/c/_c/ B A/F/- | F2z2 |]
+w:you've got me in be-tween* the de-vil and the deep blue see.*

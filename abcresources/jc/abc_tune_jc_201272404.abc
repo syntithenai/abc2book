@@ -1,0 +1,26 @@
+X:1
+T: Edwin's Maggot
+N:
+C:Tune is The Charmer
+S:
+A:
+O:
+R:
+M:4/4
+K:A
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 35 notes)
+K:A
+M:4/4
+L:1/16
+e4 |a4 A4 A4 a4 |g8 e2 f2 =g4 |f4 e4 ^d2 e2 f2 d2 |e4 B4 G4 E4 |a4 A4 A4 a4 |g8 e2 f2 =g4 |f4 e4 ^d2 e2 f2 d2 |e12 e4 |
+%W: A2
+% voice 1 (1 lines, 34 notes)
+a4 A4 A4 a4 |g8 e2 f2 =g4 |f4 e4 ^d2 e2 f2 d2 |e4 B4 G4 E4 |a4 A4 A4 a4 |g8 e2 f2 =g4 |f4 e4 ^d2 e2 f2 d2 |e12 B4 |
+%W: B1
+% voice 1 (1 lines, 34 notes)
+e4 B4 B4 c4 |d8 A2 B2 =c4 |B4 A4 G4 A4 |B2 A2 B2 c2 B4 B4 |e4 B4 B4 c4 |d8 A2 B2 =c4 |B4 A4 G2 A2 B2 G2 |A12 B4 |
+%W: B2
+% voice 1 (1 lines, 33 notes)
+e4 B4 B4 c4 |d8 A2 B2 =c4 |B4 A4 G4 A4 |B2 A2 B2 c2 B4 B4 |e4 B4 B4 c4 |d8 A2 B2 =c4 |B4 A4 G2 A2 B2 G2 |A12 ||

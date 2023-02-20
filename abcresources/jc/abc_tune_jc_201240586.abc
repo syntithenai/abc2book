@@ -1,0 +1,24 @@
+X: 40222
+T: The New Opera Dance -- or Mrs Loch's Favorite
+Q: "Slowish"
+B: Gows 4th Book p.22 #2
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+K: Eb
+V: 1
+B !segno!|\
+(Be).B (ce).c | BGE TE2G | F2G (EB,).E | F2G F2B |
+(Be).B (ce).c | (BG).E TE2G | TF2G (EB,)E | TF2G "_FINE."HE2 :|
+|: z |\
+g2e (BG).B | (c2e) G3 | ~A>Bc E2E | !F2G B,3 |
+g2e (BG).B | (c2e) G2B | ~A>Bc f2g | ([af][ge][fd] [ec][dB])[cA] !segno!"^D.C."|]
+V: 2 clef=bass middle=d
+z !segno!|\
+[g3e3] [g3e3] | [g3d3] e3 | [a3B3] [a3B3] | [a2d2][ge] B2z |
+[g3G3] [a3A3] | [g3G3] [e3E3] | [a3B3] [a3B3] | A2B "_FINE."HE2 :|
+|: z |\
+e3 [g3e3] | a3 e3 | d3 e3 | B3 B3 |
+e3 g3 | a3 e3 | f>ga- a2g | Qfga qb2z !segno!"^D.C."|]

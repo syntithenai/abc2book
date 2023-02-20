@@ -1,0 +1,12 @@
+X: 1
+T: TEST: K with "exp" mode
+N: K: A exp _B=f ^c^g % A zengule
+%%staffwidth 200
+P: With spaces:
+P: K: A exp _B=f ^c^g % A zengule
+K: A exp _B=f ^c^g % A zengule
+|: AB cd ef ga |]
+P: Without spaces:
+P: K: Aexp_B=f^c^g % A zengule
+K: Aexp_B=f^c^g % A zengule
+|: AB cd ef ga |]

@@ -1,0 +1,1883 @@
+%abc
+%%%%             Le  L I V R E  DES  C H A N S O N S
+%                         d'HENRI DAVENSON
+%           (pseudonyme d'Henri-Irénée Marrou (1904 - 1977))
+%
+% Ces morceaux de musique populaire ont été retranscris à partir du
+% "Livre des chansons" d'Henry Davenson.
+% Les paroles ne sont pas recopiées dans leur intégralité, je m'intéresse plus à la musique
+% qu'aux textes, mais il n'est pas exclu qu'un jour je recopie aussi les paroles complètes.
+% Je me suis efforcé de retranscrire de la façon la plus proche de la notation de l'auteur.
+%
+% Les airs sont au format ABC (http://www.gre.ac.uk/~c.walshaw/abc/).
+% Quelques logiciels recommandés pour interpréter ce format de fichier :
+%    AbcMus1.1b  http://home1.swipnet.se/~w-11382/abcmus/ (pour l'écoute)
+%    Abc2win     http://www.c7r.com/abc/ (pour la visualisation des notes)
+%    Abcm2ps     http://moinejf.free.fr/ (pour le format postscript)
+%
+%% © Copyright (c) Eric Forgeot <eric.forgeot@caramail.com>
+%                               ----- http://anamnese.fr.st
+%
+% Le "copyright" n'est pas pour signifier que je m'approprie le travail
+% de M. Davenson à mon compte, mais pour dire qu'il n'est pas permis
+% d'utiliser mon travail de transcription pour imprimer des partitions
+% ou des livres destinés à la commercialisation. La restriction est
+% uniquement pour ce cas.
+% Ce travail ne me rapporte rien financièrement.
+%
+% Dernière mise à jour : 29/11/01
+% http://anamnese.online.fr/abc/
+%
+%%%%
+
+%%textfont Times-Roman-Bold 15
+%%vskip 0.5cm
+%%center Le  L I V R E  des  C H A N S O N S
+%%center d'Henri Davenson
+%%textfont Times-Roman 12
+%%center (extraits)
+%%vskip 0.5cm
+%%center Transcriptions :
+%%center anamnese@caramail.com
+%%center http://anamnese.fr.st
+%%vskip 0.5cm
+%%textfont Times-Roman 10
+%%text Version : octobre 2001
+%%sep
+%%vskip 0.5cm
+%%titlespace 0.5cm
+%%% wordsfont %%
+%%Page
+
+X:1
+T:Le Roi Renaud
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°1
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=105
+K:C
+D D D | A3 A B B | G3 c c c  | d3 c c B | A2z D D D |
+        A3 A A D | F3 A G _B | A3 G F E | D3-D2 z2 ||
+W:Le roi Renaud de guerre revint,
+W:Portant ses tripes en sa main.
+W:Sa mère était sur le créneau
+W:Qui vit venir son fils Renaud :
+W:
+W:Renaud, Renaud, réjouis-toi ! / Ta femme est accouchée d'un roi.
+W:- Ni de ma femme, ni de mon fils / Je ne saurais me réjouir.
+W:
+W:Allez ma mère, allez devant ; / Faites-moi faire un beau lit blanc :
+W:Guère de temps n'y passerai, / A la minuit trépasserai.
+W:
+W:Mais faites-le moi faire ici bas, / Que l'accouchée n'entende pas."
+W:Et quand ce vint sur la minuit / Le roi Renaud rendit l'esprit.
+W:
+W:Il ne fut pas le matin jour / Que les valets pleuraient tretous ;
+W:Il ne fut temps de déjeuner / Que les servantes ont pleuré.
+W:
+W:"Ah, dites-moi, mère m'amie, / Que pleurent nos valets ici ?
+W:- Ma fille, en baignant nos chevaux, / Ont laissé noyer le plus beau.
+W:
+W:Et pourquoi, mère m'amie / Pour un cheval pleurer ainsi ?
+W:Quand le roi Renaud reviendra / Plus beaux chevaux amènera. /.../
+W:
+A A A | F3 G F E | D2 z A A A | F3 G F E | D2 z A, D E |
+F3 G F E | D3 E F G | A E HG2 F>E | D3-D z2 ||
+W:- Renaud, Renaud, mon réconfort,
+W:Te voilà donc au rang des morts ;
+W:Divin Renaud, mon réconfort,
+W:Te voilà donc au rang des morts !
+W:
+W:Puisque le roi Renaud est mort, / Voici les clefs de mon trésor ;
+W:Prenez mes bagues et mes joyaux, / Nourrissez bien le fils Renaud.
+W:
+W:Terre, ouvre-toi, terre, fends-toi, / Que j'aille avec Renaud mon roi !"
+W:Terre s'ouvrit, terre fendit, / Et si fut la belle engloutie.
+
+X:2
+T:Les Anneaux de Marianson
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°2
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=110
+K:F
+F c2 c | (cB) A c-B A | G2 A B2 c | (AG) F E2 F |
+ G2 G A3-|A z2 c3 | (BA) G A2 G | F6 ||
+W:Marianson, dame gentil,
+W:Où est allé votre mari ?
+W:- Il y a bien six mois et demi
+W:Que Renaud est dedans Paris.
+W:- Puisque Renaud n'est plus ici,
+W:Il vous faut faire un autre ami.
+W:- Non, si longtemps que je vivrai,
+W:Autre que Renaud n'aimerai. /.../
+
+X:3
+T:La Pernette
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°3
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=130
+K:Bb
+z G2 | d3 c d e | d3 c z c | d z (=ef) z f | d3 {cd}c B c |
+d3-d z G | d3 c d e | d3 c2 c | d2 c B2 A | G2 A B2 c |
+[M:9/8] d2 B d3-d z B | [M:6/8] c2 d B2 A | G6 ||
+W:La pernette se lève,
+W:Tra la, la-la, la la, la la la la ;
+W:La pernette se lève
+W:Trois heures avant le jour (3x)
+W:
+W:Elle prend sa quenouillette avec son petit tour
+W:A chaque tout qu'elle vire pousse un soupir d'amour.
+W:Sa mère lui demande : "Pernette, qu'avez-vous ?
+W:Avez-vous mal de tête, Ou bien le mal d'amour ?
+W:- N'ai pas le mal de tête, Mais bien le mal d'amour.
+W:- Ne pleurez pas, Pernette, Nous vous marierions.
+W:Avec le fils d'un prince, Ou celui d'un baron.
+W:- Je ne veux pas d'un prince, Ni d'un fils de baron.
+W:Je veux mon ami Pierre, Qui est dans la prison.
+W:- Tu n'auras pas ton Pierre, Nous le pendoulerons.
+W:- Si vous pendoulez Pierre, Pendoulez-moi aussi.
+W:Au chemin de Saint-Jacques, Enterrez-nous tous deux.
+W:Couvrez Pierre de roses, Et moi de mille fleurs.
+W:Les pèlerins qui passent, Se mettront à genoux.
+W:Diront : ' Que Dieu ait l'âme, Des pauvres amoureux ;
+W:L'un pour l'amour de l'autre, Ils sont morts tous les deux."
+
+X:4
+T:La porcheronne
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°4
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=110
+K:F
+C | F2 E-D | C2 F2 | G2 G A | F2 E-D | C2 F2 |!
+G2 z F | G A F G | B-A G F | F2 E-D | C2 D-E | F4 ||
+W:C'est Guilhem de Beauvoire qui se va marier ;
+W:Prend femme tant jeunette, ne sais pas s'habiller.
+
+X:5
+T:L'escrivèto
+T:La femme aux sarrazins
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°5
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=110
+K:G
+D | G>A B B | A2 B B | G>A B B | [M:3/8] A2 B B G A |
+[M:2/4] B2 d2 | A A G A | A2 B2 | G4 ||
+W:Jean-Pierre de Provence se marie aujourd'hui (2x)
+W:Il prend femme si jeune qu'il ne peut s'en servir.
+W:Il est parti en guerre sept ans sans revenir.
+W:Au bout de la huitième il revient au pays /.../
+
+X:6
+T:La fille au Roi Louis
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°6
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=110
+K:G
+E E E | B3 A B G | E3 E F G | F3 E F D | B,2 z G G G |
+        G3 D F G | B3 B c B | E3 D G F | E3-E2 z2 ||
+W:Le roi Louis est sur son pont,
+W:Tenant sa fille en son giron ;
+W:Elle se voudrait bien marier
+W:Au beau Déon, franc chevalier.
+W:
+W:"Ma fille, n'aimez jamais Déon, / Car c'est un chevalier félon ;
+W:C'est le plus pauvre chevalier, / Qui n'a pas vaillant six deniers. /.../
+
+X:7
+T:Renaud le tueur de femmes
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°7
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=110
+K:D
+D D F | A2 A B2 B | A3 d c d | e2 d c-d B | A2 z A d d |
+F3 A G F | E3 A A A | B3 A G E | D2 z A G F | F3 A G F |
+ E3 A A A | B3 A G E | D3-D z2 ||
+W:Renaud a de si grands appas
+W:Qu'il a charmé la fille au roi.
+W:L'a bien emmenée à sept lieues
+W:Sans qu'il lui dit un mot ou deux.
+
+X:8
+T:La Blanche Biche
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°8
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=95
+K:F
+G | G3 A B c | d3-d2 d | g3 g d e  | f2-e2 d d/-e/ |
+    f3 g d c | B3-B2 B | c3 _e d c | B/-A/ G2-G z2 ||
+W:Celles qui vont au bois, c'est la mère et la fille (2x)
+W:
+W:La mère va chantant et la fille soupire :
+W:Qu'av'vous à soupirer, ma fille Marguerite ?
+W:- J'ai bien grand ire en moi, et n'ose vous le dire :
+W:Je suis fille le jour et la nuit blanche biche.
+W:La chasse est après moi, les barons et les princes,
+W:Et mon frère Renaud qui est encore bien pire.
+W:Allez, ma mère, aller bien promptement lui dire
+W:Qu'il arrête ses chiens jusqu'à demain ressie.
+W:- Où sont tes chiens, Renaud, et ta chasse gentille ?
+W:- Ils sont dedans le bois à courre blanche biche.
+W:Arrête-les, Renaud, arrête, je t'en prie !"
+W:Trois fois les a cornés O son cornet de cuivre ;
+W:A la troisième fois, la blanche biche est prise :
+W:"Mandons le dépouilleur, qu'il dépouille la biche."
+W:Celui qui la dépouille dit : "Je ne sais qui dire :
+W:Elle a les cheveux blonds et le sein d'une fille."
+W:A tiré son couteau, en quartier l'a mise.
+W:En ont fait un dîner au baron et aux princes :
+W:"Nous voici tous illec, faut ma soeur Marguerite.
+W:- Vous n'avez qu'à manger, suis la première assise :
+W:Ma tête est dans le plat et mon coeur aux chevilles,
+W:Mon sang est répandu par toute la cuisine,
+W:Et sur vos noirs charbons, mes pauvres os grillent."
+
+X:9
+T:La maumariée vengée par son frère
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°9
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=110
+K:G
+G A B c | d2 d d | e f g e | d4 | d d e B | c2 A c |!
+ e2 d c | B4 | d d e B | c2 A c | e2 d F | G4 ||
+W:"La première année que je me suis mariée,
+W:Il m'a fait marcher tout le long d'une année
+W:Dessur des épines qu'on venait de planter.
+
+X:10
+T:Dame Lombarde
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°10
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=110
+K:G
+D2 F>G | A3 B | c2 B2 | A4 | F G A B | A4 |\
+ D2 F>G | A3 G | F2 A2 | F2 D2 | z D F A | G2 z2 ||
+W:"Allons au bois, charmante brune, allons au bois ;
+W:Nous trouverons le serpent verde, nous le tuerons.
+W:Dans une pinte de vin rouge nous le mettrons ;
+W:Quand ton mari viendra de chasse, grand soif aura.
+
+X:11
+T:La prison du roi François
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°11
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=110
+K:C
+G G A | B3 A B A | G3 D z2 | [M:3/8] G2 A2 B2 | [M:6/8] A2 z G G B |
+ d2 B G2 B | [M:3/8] A4 z4 | [M:6/8] c3 A2 ^F | G2 z G G B |
+ d2 B G2 B | A2 z G G B | d2 B G2 B | A2 z ||
+W:Quand le roi départit de France,
+W:Vive le roi !
+W:à la male heure il départit.
+W:Vive le roi !
+W:à la male heure il départit.(2x)
+W:
+W:Il départit jour de dimanche, et jour de lundi il fut pris. /.../
+
+X:12
+T:La marquise empoisonnée
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°12
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=90
+K:F
+d  A B |  A3 G F G |  A3 G A B | c2 d (c>Ac/B/) |!
+ G2 z A A B |  A3 G F E | D3 F E F | G2 A D>CF/E/ | D3-D z2 ||
+W:Quand le roi entra dans la cour pour saluer ces dames,
+W:La première qu'il salua elle a ravi son âme.
+W:
+W:Le roi demanda au marquis : "A qui est cette dame ?"
+W:Le marquis lui a répondu : "Sire roi, c'est ma femme.
+W:
+W:- Marquis, t'es plus heureux qu'un roi d'avoir femme si belle.
+W:Si tu voulais, l'honneur j'aurais de coucher avec elle.
+W:
+W:- Sire, vous avez tout pouvoir, tout pouvoir et puissance ;
+W:Mais si vous n'étiez pas roi, j'en aurais ma vengeance ! /.../
+
+X:12b
+T:La marquise empoisonnée (variante sur le même thème)
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°12
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:3/4
+L:1/4
+Q:1/4=100
+K:C
+G | G2 c | A2 G | c c e | g2 e | (d/4/c/4d/4) (e d) |c2 G |!
+    G2 c | A2 G |c (c e)| g2 e | (d/4/c/4d/4) (e d) |c2 || c |!
+    d2 e | c2 A | B2 c  | d/ e/ (fe/d/)| d2 c |
+    d2 e | (c B) A | B c e | d d2 | c3 |]!
+W:Charmante Gabrielle, Percée de mille dards,
+W:Quand la gloire m'appelle A la suite de Mars !
+W:
+W:Cruelle départie, Malheureux jour !
+W:Que ne suis-je sans vie Ou sans amour !
+
+X:13
+T:Le mariage anglais
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°13
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:C|
+L:1/8
+Q:1/4=100
+K:F
+D2 F E | D2 C2 F2 G2 | A2-A z (A>G) A B |A3 D E2 G2 |
+  E2-E z A>G A B | A2 D2 E2 G2 | F2 E2 F2 A2 |
+E2-E z (A>G) A B | A2 D2 E2 G2 | F D F E D2-D z ||
+W:C'était la fille au roi François
+W:Que l'on marie à un Anglois
+W:"O mes chers frères, empêchez de m'emmener !
+W:J'aimerais mieux soldat françois que roi anglois."
+W:
+W:Et quand ce vint pour l'épouser,
+W:Dedans Paris fallut passer :
+W:Il n'y a dame de Paris que ne pleurit,
+W:De voir partir la fille au roi a un Anglois.
+W:
+W:Et quand ce vint pour embarquer,
+W:Les yeux lui a voulu bander,
+W:"Bande les tiens et laisse-moi, maudis Anglois !
+W:Puisque la mer me faut passer, je la verrai." /.../
+
+X:14
+T:Le trente et un du mois d'août
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°14
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=110
+K:G
+D D D | G3 B B B | G3 B B B | B3 G B G | A3 D D D |
+ G3 B B B | G3 B B B | B3 G B G | A3 A B c |
+ d3 G G F | E3 D z D | G3/2 G/ G G2 F/ G/ |
+ A3 A B c | B3 A G A | G2 z D D D | G3/2 G/ G B B B | G3 B B B |
+ B3 G B G | A3 A B c | d3 G G F | E3 D z D | G3/2 G/ G A G A |
+HB3 A B c | B3 A G A | G2 z ||
+W:Au trente et un du mois d'août,
+W:On vit venir sous vent à nous
+W:Un frégate d'Angleterre
+W:Qui fendait la mer-z-et les flots,
+W:C'était pour attaquer Bordeaux.
+
+X:15
+T:La prise de Mantoue
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°15
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=115
+K:Bb
+z2zz2 F | G2 G G2 F | B3 c3 | d2 c B2 A |\
+G3 F2 F | G2 G G2 F | B3 c3 | d2 c B2 A |G3 F2 z |
+c3 c2 d | B3-B2 c | d2 d c2 c | G3-G2 A | B3 G3 | c2 B A2 G | F3-F2 z |
+c3 c2 d | B3-B2 c | d2 d c2 c | G3-G2 A | B3 G3 | c2 c B2 A | B3-B2 z ||
+W:C'est la ville de Matoue : grand Dieu qu'elle est jolie (2x)
+W:Elle est jolie et parfaite en beauté, que les Français veulent y entrer (2x)
+W:
+W:/.../
+
+X:16
+T:La Péronelle
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°16
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:C|
+L:1/8
+Q:1/4=100
+K:F
+A2 | A2 c2 (B3 A/G/|F2) G2 G3 F | E2 D2-D z d2 | d2 d2 (d2 cB|
+w:Av' vous point vu___ la Pé-ron-nel-le * que les gens d'armes___
+A2) d2 c2 B2 | A4-A z A2 | A2 c2 (B3 A/G/|F2) G2 G3 F |!
+w:_ ont em-me-née~? * /.../
+ E2 D2-D z A2 | A2 c2 (B3 A/G/|F2) G2 G2 ^F2 | G8 ||
+W:Av' vous point vu la Péronnelle que les gens d'armes ont emmenée ?
+W:Ils l'ont habillée comme un page : c'est pour passer le Dauphiné.
+W:Elles avait trois mignons de frères qui la sont allés pourchasser/
+W:Tant l'ont cherchée que l'ont trouvée à la fontaine d'un vert pré, /.../
+
+X:17
+T:Le flambeau d'amour
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°17
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=100
+K:Bb
+F3 B2 A | G2 A B2 c | B3-B z2 | F3 B2 A | G2 F E2 G | G3 F3-|F z F B2 c |
+d3-d2 c | B3 d2 | c6-|c z F G2 G | F3 B-c | d3-d2 c | B6 ||
+W:C'est une fille de quinze ans,
+W:Ou quelque chose davantage ;
+W:Son père l'as mise en la tour
+W:De peur que l'on lui fît l'amour.
+
+X:18
+T:Le plongeur noyé
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°18
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=100
+K:F
+C F G A G/A/ | B3 A z z | A2-F A2-F | F E F G2-G/-F/ |!
+F3-F z F | A2 G A2 B | A3-A z z | c B A G-A G | F3-F z A/B/ |!
+c2 B G2 F | A3-A z A/-B/ | c2 B G2 F | A3-A z2 ||
+W:La fille au roi d'Espagne
+W:veut apprendre un métier,
+
+X:19
+T:Les tristes noces
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°19
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=100
+K:C
+E | A2 A B2 c | B3-B2 B | c2 B A2 B | A2 ^G A3 | B2 B =G2 ^F |!
+E3-E z E | A2 A B2 c | B3 e3 | d2 c B2 c | A2 G/B/ A3 ||
+W:Qui veut ouïr chanson,
+W:chansonnette nouvelle ?
+W:Chante rossignolet !
+W:Qui veut ouïr chanson, chansonnette nouvelle ?
+W:
+W:C'est d'un jeune garçon et d'une demoiselle.
+W:Ont fait l'amour sept ans, sept ans sans en rien dire.
+W:Mais au bout de sept ans, le galant se marie.
+W:Au jardin de ma mère, y a un buisson d'orties.
+W:En a fait un bouquet pour porter à s'amie :
+W:"Tenez, m'amie, tenez, voici la départie.
+W:A une autre que vous mon père me marie.
+W:- Celle que vous prenez est-elle bien jolie ?
+W:- Pas si jolie que vous, mais elle est bien plus riche. /.../
+
+X:20
+T:La danseuse noyée
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°20
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=85
+K:Bb
+ z F B c | d2 d2 | d c d e | c c c c | F2 c2 | c B c d | B4 ||
+W:Sur le pont de Nantes un bal est assigné. (2x)
+W:La belle Hélène voudrait bien y aller :
+W:"Ma chère mère m'y lairrez-vous aller ?
+W:- Non, non, ma fille, vous n'irez point danser." /.../
+
+X:21
+T:Pierre de Grenoble
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°21
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=80
+K:C
+A A A | A2 c B2 c | A A c c B c | A2 c c B c | A2 z A A A |!
+A2 G F2 E | F F F F E F | D2 F F E F | D3-D z z ||
+W:Quand Pierre partit pour l'armée,
+W:sept ans demeurer (2x)
+W:A laissé sa mie à Grenoble,
+W:qui fait que pleurer (2x)
+W:
+W:Pierre a envoyé une lettre qu'est pleine d'amours ;
+W:La belle a fait une réponse qu'est pleine de plours. /.../
+
+X:22
+T:Le retour du marin
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°22
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+N:Il doit y avoir une erreur dans la partition,
+N:à l'avant dernière mesure, que j'ai essayé de corriger.
+N:la mesure à l'origine était ainsi :
+N:%    |G2 D E-D C2|
+M:6/8
+L:1/8
+Q:1/4=110
+K:F
+C D E | F3 G A F | G2-F E2 G |F3 z2 F | B2 B A2 A |!
+c2 A G z A-|B2 G-A2 F-|G2 D E-D C | F3-F2 z ||
+W:Brave marin revient de guerre
+W:Tout doux
+W:Tout mal chaussé tout mal vêtu :
+W:"Brave marin d'où reviens-tu ?
+W:Tout doux
+W:
+W:- Madame je reviens de guerre ;
+W:Qu'on m'apporte ici du vin blanc,
+W:Que le marin boive en passant." /.../
+
+X:23
+T:La passion de notre seigneur jesus christ (vide)
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°23
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:3/4
+L:1/4
+Q:1/4=80
+K:F
+F2 G | G2 F | G B B | B3 | B2 c | d c B | d2 G |!
+G c c | F3 | G B A | G3 | c c B | G2 A | G2 F ||
+
+
+X:24
+T:jesus christ s'habille en pauvre (vide)
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°24
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=80
+K:G
+
+
+X:25
+T:La pénitence de marie madeleine (vide)
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°25
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:C|
+L:1/8
+Q:1/4=80
+K:F
+
+
+X:26
+T:Le martyre de sainte catherine (vide)
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°26
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=80
+K:C
+
+
+X:27
+T:saint nicolas et les trois petits enfants (vide)
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°27
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=80
+K:F
+
+
+X:28
+T:Voulez-vous que je vous chante ? (vide)
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°28
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:3/4
+L:1/8
+Q:1/4=80
+K:F
+
+
+X:29
+T:L'amour de moi
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°29
+N:sur la partition originale il y a une erreur rythmique à la seconde mesure :
+N: ... | C2 C | ...
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:C
+L:1/4
+Q:1/4=80
+K:C
+P:A
+G2 GG | C3 C | E2 A2 | (G3 F | E D/C/ D2 | C2) z2 | c3 c | d3 c |
+(B A/G/ A) A | G2 z2 | A2 AA | (c>B) AA | (G F/E/ F) F | E2 z2 |
+z2 z E | G3 G | C3 C | E2 A2 | (G3 F | E D/C/ D2 | C4) |
+P:B
+|: c2 cc | d3 c | (BA/G/A) A | G2 z2 | A2 AA | G3 F | (E D/C/D) D | C4 :|
+W:L'amour de moi si est enclose
+W:Dedans un joli jardinet
+W:Où croît la rose et le muguet
+W:Et aussi fait la passerose.
+W:
+W:Ce jardin est bel et plaisant :
+W:Il est garni de toutes flours ;
+W:On y prend son ébattement
+W:Autant la nuit comme le jour.
+
+
+
+X:30
+T:Rossignolet... console-moi
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°30
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=80
+K:F
+z2 z C F G | A-F A c2 d | c2 A A c d | c2 A c2 G |!
+HA3 A c B | A2 F G2 B | A2 G A c f | d2 B G2 A/-G/ | F3 ||
+W:"Rossignolet du vert bocage, oh ! je t'en prie, console-moi :
+W:On dit que ma mie est malade, oh ! permets-moi d'aller la voir !
+W:
+W:- Non, ta mie n'est pas malade, elle est guérie de tout mal :
+W:Elle est morte et enterrée, à elle il n'y faut plus penser. /.../
+
+X:31
+T:Rossignolet du bois
+O:France
+B:Le livre des Chansons (Henri Davenson) n°31
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=80
+K:C
+A A A e-d f | e2 z A B c |\
+ d2 B (c>dc/B/|A2) z A B c |
+d2 e d c d | e3 ^f g f | e12-|e4 ||
+W:"Rossignolet du bois, rossignolet sauvage,
+W:Apprends-moi ton langage, apprends-moi-z-à parler,
+W:Apprends-moi la manière comment il faut aimer.
+
+X:32
+T:J'ai descendu dans mon jardin (vide)
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°32
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:3/4
+L:1/8
+Q:1/4=80
+K:F
+
+
+X:33
+T:La fleur de l'olivier
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°33
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=80
+K:Bb
+F | B2 d f2 d | {ed}B3-B z z | B c d f-e d | {ed}c3-c2 c | c2-d d2 {c}B |!
+d-c3 zz | d e d c-B c | B A B c A B | c3-c z c | e2 c d2 A | {c}B3-B zz ||
+W:La fleur de l'olivier que vous avez aimée,
+W:Charmante beauté, Et vos beaux yeux charmants,
+W:Que mon coeur aime tant, les faudra-t-il quitter ? /.../
+
+X:34
+T:Réveillez-vous, Belle endormie
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°34
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=80
+K:Bb
+F F B | B-A B c2 d | c2 B e d f | e-d c B2 d | c2 z c d e |!
+f2 B B-A B | c2 c e e d | c-d B G2 A | B6 ||
+W:"Réveillez-vous, Belle endormie
+W:Réveillez-vous, car il est jour
+W:Mettez la tête à la fenêtre,
+W:Vous entendrez parler de vous."
+
+X:35
+T:Comment voulez-vous qu'une personne chante ?
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°35
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=80
+K:G
+E2 E B | B3 A | A A B ^c | d2 A z | d2 ^c d | B3 A | B d ^c d | B3 z |!
+B2 B B | c3 B | A A B A | A2 G z | E-F G A | B4 | e2 d e |
+M:3/4
+B A G {B}A G F |\
+M:2/4
+E3 z | E-F G A | B4 | e2 d e |\
+M:3/4
+B A G {B}A G F |\
+M:2/4
+E4 ||
+W:Comment voulez-vous qu'une personne chante ?
+W:Quand elle n'a pas son coeur en liberté ?
+W:Laissez chanter ceux que l'amour contente,
+W:Et laissez-moi, et laissez-moi dans mon malheur pleurer (2x)
+W:
+
+X:37
+T:Là-haut, sur la montagne. (I)
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°37
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=100
+K:G
+D G B | d3 (d/c/) | (B/G/) G3 | d c/ B/ c/ (d/e/) |
+d2 | (c(3dcB) (c/B/) (c/B/) | (G/B/)-B (G/A/) B/ A/ |
+G D3 | d-(d/g/) f/ d/ | B (A/G/) B (3A/B/A/ |
+(G/A/B)-B d/c/ | (B>d) B/ G/ (B/A/) | G(3ABE D2 |
+d2-d/g/ f/ d/ | B (A/G/) B (3A/B/A/ | G4 ||
+
+
+X:37b
+T:Là-haut, sur la montagne. (II)
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°37
+Z:/anamnese@caramail.com
+M:6/8
+L:1/8
+Q:1/4=100
+K:G
+D | G2 A B2 d | B3 A3 | d3 B2 G | A2 G A3|-A2 z G3 |
+M:9/8
+{A/B/}c2 B A2 B G2 A | B3 A3 zz D | G2 B A2 (B/A/) F2 A |
+G6-G2 z ||
+
+
+X:37c
+T:Là-haut, sur la montagne. (III)
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°37
+Z:/anamnese@caramail.com
+M:3/4
+L:1/8
+Q:1/4=100
+K:G
+D | G3 A B c | B A2 d B G | A B A4 | (3AAA A2 (3BGA | B2 G e (AAA |
+Ad-d2 (3cBA | G4-G z | (3AAA A2 (3BGA | B2 G e (AAA |Ad-d2 (3cBA | G4-G z ||
+
+
+X:41
+T:Pastourelle de Thibaut de Champagne
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°41
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:C|
+L:1/4
+Q:1/4=80
+K:G
+B c | d e | d c | d d | G A | B c | B A | G2  | B c | d e | d c |!
+d d | G A | B c | B A | G2  | G A | B c | d c | B2  | A B | c B |
+(3B/A/G/ A/-B/  | B2  | %/.../
+W:L'autrier par la matinée
+W:Entre un bois et un vergier
+W:Une pastore ai trouvée
+W:Chantant pour soi envoisier,
+W:Et disoit un son premier :
+W:"Ci me tient li maus d'amor."
+
+X:42
+T:Il était une fille, une fille d'honneur
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°42
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=80
+K:Ab
+F | c3 B c d | c2 B-A z B | c2 B c2 d |\
+M:2/4
+e d e f |!
+M:6/8
+c3 B A B | c3-c z F | c3 B c d | c2 B-A z B |\
+M:2/4
+c B A G | F2 z2 |\
+M:6/8
+A G A B2 B | B2 z Hc3 ||
+W:Il était une fille, une fille d'honneur
+W:Qui plaisait fort à son seigneur ;
+W:En son chemin rencontre ce seigneur déloyal,
+W:Monté sur son cheval, al !
+
+X:43
+T:La bergère et le monsieur
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°43
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=80
+K:Eb
+c | c3 B c e | c3 B3 | B B c B2 A | G3 zz c | c3 B c e | c3 B3 | B B c B2 A | G3 z E F |!
+M:9/8
+G2 B G3 F G F |\
+M:6/8
+E2 F G E F |\
+M:9/8
+G2 B G3 F G F |\
+M:6/8
+D2 D C3 ||
+W:Que fais-tu bergerette, là-bas dedans le pré ?
+W:Tu es toute seulette pour tes moutons garder.
+W:Fiale ma coulougno,garde mous moutous
+W:Vire ma roulèto de cent milo tous.
+
+X:44
+T:La belle barbière
+O:France
+B:Le livre des Chansons (Henri Davenson) n°44
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=120
+K:Bb
+B c | d d c B | d c B c|\
+ d d c B | c2-c z | d3 c |!
+M:3/4
+L:1/8
+B d c3 (B/A/) |\
+M:2/4
+L:1/8
+G2  F z | c d e d | c2 (GA) | B2 ||
+W:Dans Paris y a une barbière qui est plus belle que le jour ;
+W:Ce sont trois gentilshommes qui voudraient lui faire l'amour.
+W:Ils se disent les uns aux autres : "Las ! Comment lui parlerons-nous ?
+W:- Il faut lui donner une aubade demain matin, au point du jour."
+W:/.../
+
+X:45
+T:Sur le pont d'Avignon
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°45
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=90
+K:G
+D | G3/2 A/ B B | A d G D | G3/2 A/ B B | A d G G |!
+M:6/8
+A2 G E2 G | A G A B2 G | A2 G E2 G | A3 G2 z ||
+W:Hier, sur le pont d'Avignon (2x)
+W:J'ai ouï chanter la Belle ; (2x) lon là
+W:
+W:Elle chantait d'un ton si doux, comme une demoiselle,
+W:Que le fils du roi l'entendit du logis de son père.
+
+X:46
+T:Ma belle, si tu voulais
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°46
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:3/8
+L:1/8
+Q:1/4=100
+K:Bb
+F | F2 G | G2 F | F2 D | D2 E | E2 D | D2 C | C2 D | D2 C |!
+ C B, B, | B, z C | C2 D | D2 C | C2 B,-|B,2 z ||
+W:Ma belle, si tu voulais, (2x)
+W:Nous dormirions ensemble, (2x) lon là
+W:
+W:Dans un grand lit carré, couvert de taies blanches ;
+W:Aux quatre coins du lit, un bouquet de pervenches.
+W:Dans le mitan du lit, la rivière profonde ;
+W:Tous les chevaux du roi y viennent boire ensemble.
+W:Et là, nous dormirions jusqu'à la fin du monde.
+
+X:47
+T:Les filles de la Rochelle
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°47
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=100
+K:G
+d2 e | c3 A B c | B2 B d2 e | c3 A B c | B3 d2 e | c3 A B c |!
+B2 z G2 A | B2 B B2 B | d2 d G2 A | B2 B B-A G | A2 z G2 A |!
+B B B B B B | d2 d G2 A | B c B A2 B | G3 ||
+W:Les filles de la Rochelle
+W:ont armé un bâtiment, (2x)
+W:Pour aller faire la course dedans les mers du levant
+W:Ah ! La feuille s'envole s'envole Ah ! La feuille s'envole au vent.
+W:
+W:La grand'vergue est en ivoire, les poulies en diamant ;
+W:La grand'voile est en dentelle, la misaine en satin blanc ; /.../
+
+X:48
+T:La courte paille (vide)
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°48
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=100
+K:G
+
+
+X:49
+T:En passant par la Lorraine
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°49
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=150
+K:F
+F2 F | c2 c c2 c | d2 B c2 c | d2 d c3-|c zz
+F2 F | c2 c c2 c | d2 B c2 c | d2 d c3-|c zz
+c2 c | f2 c c2 B | A2 G A2 A | A2 c c2 B |
+A2 G F2 A | c3-c zz | d2 B G2 E | F6-|F zz ||
+W:En passant par la Lorraine, avec mes sabots (2x)
+W:Rencontrai trois capitaines, avec mes sabots dondaine oh ! oh ! oh !
+W:Avec mes sabots !
+W:
+W:Ils m'ont appelée vilaine.
+W:Je ne suis pas si vilaine,
+W:Puisque le fils du roi m'aime.
+W:Ils m'ont donné pour étrennes
+W:Un bouquet de marjolaine :
+W:S'il fleurit, je serai reine ;
+W:S'il y meurt, je perds ma peine.
+
+X:50
+T:Joli tambour (vide)
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°50
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=150
+K:G
+
+
+X:51
+T:La belle qui fait la morte
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°51
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=140
+K:F
+C | F2 G A2 B | c3-c2 c | d2 c G2 B | A2-G F3-|F zz c3 |!
+A2 c f2 f | d2 d B3 | G2 B d2 d | c2 z F3 | A2 c c2 B |\
+A2 G d3 | c2 A B2 G | F6 ||
+W:Dessous le rosier blanc la Belle s'y promène
+W:Blanche comme la neige, belle comme le jour ;
+W:Ce sont trois capitaines, tous trois lui font l'amour.
+W:
+W:Le plus jeune des trois l'a prise par sa main blanche :
+W:"Montez, montez, la Belle, dessus mon cheval gris ;
+W:A Paris je vous mène dedans un grand logis."
+W:
+W:Arrivée à Paris, l'hôtesse lui demande :
+W:"Etes-vous ici par force, ou bien pour vos plaisirs ?
+W:- Ce sont trois capitaines qui m'ont conduite ici."
+W:
+W:Vint l'heure du souper, la Belle ne mange guère :
+W:"Soupez, soupez, la Belle, prenez votre plaisir :
+W:Avec trois capitaines vous passerez la nuit."
+W:
+W:Au milieu du souper, la Belle tomba morte :
+W:"Sonnez, sonnez trompettes, tambours, batetz aux champ !
+W:Puisque ma mie est morte, j'en ai le coeur dolent. /.../
+
+
+X:51b
+T:La belle qui fait la morte [autre thème]
+R:Chanson
+O:France
+N:cette version me convient bien mieux que celle de Davenson
+B:Anthologie de la chanson française 3 - Jean-François Dutertre
+Z: (transcription d'oreille) anamnese@caramail.com
+M:4/4
+L:1/8
+Q:1/4=100
+K:Eb
+A | F G A B c3 c | _d c B B A2 G A | F G A B c3 c |\
+M:5/4
+ _d c B B A2 G3 z |
+M:4/4
+c2 G B B A G F |\
+M:5/4
+ B2 c _d c B G3 A |
+M:4/4
+ F G A B c A c2 B B A G F2 ||
+W: [mêmes paroles que la précédente...]
+
+X:52
+T:Auprès de ma blonde
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°52
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=140
+K:G
+B | B2 c B2 A | G3 G z G | d2 d e2 e | d3 z2 B |\
+    B2 c B2 A | G3 G z G | d2 d e2 e | d3 z2 d |
+e2 e e2 B | c3 c z c | d2 d d2 A | B3-B zz |\
+G3 A B c | B3 d2 z | A2 c B2 A | G2 E D3 |!
+G3 A B c | B3 d2 z | A2 c B2 A | G3 z2 ||
+W:Au jardin de mon père les lilas sont fleuris (2x)
+W:Tous les oiseaux du monde y viennent faire leur nid.
+W:Auprès de ma blonde qu'il fait bon, fait bon, fait bon
+W:Auprès de ma blonde qu'il fait bon dormir.
+
+X:53
+T:Les filles du maréchal de France
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°53
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:3/4
+L:1/8
+Q:1/4=80
+K:Bb
+B F B c | d d B F B c | d d d d c B | c6 |!
+M:C
+z2 d e f2 d-c | B F B B c2 c2 | F2 F z B B c d | B4 ||
+W:Brave capitaine,
+W:Revenant de guerre,
+W:Cherchant ses amours ;
+W:Les a tant cherchées,
+W:Qu'il les a trouvées
+W:Dedans une tour : /.../
+W:
+
+X:54
+T:La fille-soldat
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°53
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=90
+K:F
+F A B c2 c | (d3/2c/d/c/) c3 | A B d c2 B/-A/ | G3-G zz |!
+c f c A2 {BAG}A/c/ | (B3/2c/B/A/G3) | G B d d-c d/-c/ | A3-A zz |!
+c f c A2 {BAG}A/c/ | (B3/2c/B/A/G3) | c d c c>B G/-A/ | F6 ||
+W:La jeune citoyenne a perdu son amant,
+W:N'est-ce pas bien dommage à l'âge de quinze ans ?
+W:
+W:Elle s'en va l'attendre à l'ombre de ces bois ;
+W:Mais elle a beau l'attendre, son amant ne vient pas : /.../
+
+X:55
+T:Le départ pour l'armée
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°55
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:3/4
+L:1/8
+Q:1/4=90
+K:C
+B2 c d | e2 e2 d c | d4 B2-|B z B2 c d | e2 e2 d c | B4-B z |!
+E2 A2 c2 | B2 d2 B c | A2 G2 z2 | E2 A2 c2 | B2 d2 B c | A6 ||
+W:Oh ! que je suis donc à mon aise, quand j'ai ma mie auprès de moi ;
+W:De temps en temps je la regarde : "Ma mie, mon coeur, embrasse-moi ! /.../
+W:
+W:
+
+X:56
+T:A la claire fontaine
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°56
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=90
+K:Bb
+F G A | B3 d3 | c2 c F G A | B3 d3 | c2 z c c c | c3 e3 |!
+d2 c B A G | F3 G3 | F2 z D2 E | F2 F B2 c | d3 d d e |!
+d3 c c c | d c B D2 E | F2 F B2 c | d3 B A B | c2 d e-d c | B6 ||
+W:En revenant des noces, j'étais bien fatiguée,
+W:Au bord d'une fontaine je me suis reposée,
+W:Ah ! Je l'attends, je l'attends, je l'attends,
+W:Celui que j'aime, celui que mon coeur aime
+W:Ah ! Je l'attends, je l'attends, je l'attends,
+W:Celui que mon coeur aime tant.
+W:
+W:Et l'eau était si claire que je m'y suis baignée ;
+W:A la feuille du chêne je me suis essuyée.
+W:Sur la plus haute branche le rossignol chantait :
+W:Chante, rossignol, chante, toi qui a le coeur gai !
+W:Le mien n'est pas de même, il est bien affligé : /.../
+
+X:57
+T:Nous n'irons plus au bois
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°57
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=90
+K:F
+z F A B | c2 d2 | c>B A c | B2 A-G | F F A B |\
+c2 d2 | c>B A c | B2 A-G | F2-F z ||
+F F F G | F2 C z | F F F G | F C c | A2 c2 | A B c B | G F E2 | F2 z2 ||
+W:Nous n'irons plus aux bois : les lauriers sont coupés.
+W:La belle que voilà, ira les ramasser. /.../
+
+X:58
+T:Le pommier doux
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°58
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=90
+K:G
+G>A B c |\
+M:3/4
+d d d e c e |\
+M:2/4
+d2-d z | G>A B c |\
+M:3/4
+d d d e c e |!
+M:2/4
+d2-d z | d>B B B | (dc) A z | G G B B | (dc) A z |!
+d>B B B | (dc) A G | B d c A | G2 z B |\
+M:3/4
+B c d2 e2 |!
+M:2/4
+d d/ d/ d B |\
+M:3/4
+B c d2 e2 |\
+M:2/4
+d2 z B |\
+M:3/4
+B c d2 e2 |!
+M:2/4
+d d/ d/ d B |\
+M:3/4
+B c d2 e2 | Hd6 ||
+W:Derrière chez mon père, y a un pommier doux (2x)
+W:D'argent sont les branches,
+W:   Vole mon coeur, vole
+W:D'argent sont les branches, et les feuilles itou.
+W:et les feuilles itou, lou re lou et les feuilles itou. (2x)
+W:
+W:Trois jeunes princesses sont endormies dessous :
+W:"Tiens, dit la plus vieille, voici que vient le jour.
+W:- Tiens, dit la seconde, entendez le tambour.
+W:- Non, dit la plus jeune, ce n'est pas ci le jour :
+W:C'est son épée claire de mon ami doux.
+W:- Il part en campagne combattre pour nous.
+W:- S'il gagne bataille, il aura mes amours.
+W:- Qu'il perde ou qu'il gagne (dit la plus jeune) il les aura toujours."
+W:Derrière chez mon père il y a un pommier doux.
+
+X:59
+T:Le canard blanc
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°59
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:3/4
+L:1/8
+Q:1/4=90
+K:C
+z G G G | G2 D2 E E |\
+M:2/4
+D G G G |\
+M:3/4
+G2 D2 E E |!
+M:2/4
+D D G B |d d B G | A4 | D2 E E | D2 D D/ D/ |!
+M:3/4
+D c B A A G |\
+M:2/4
+D2 E E | D2 D D/ D/ | D c B A | G4 ||
+W:Derrière chez nous y a-t-un étang, (2x)
+W:Trois beaux canards y vont nageant
+W:Moi je ferai faire un petit moulin sur la rivière
+W:et puis encore un petit bateau pour passer l'eau.
+W:
+W: /.../
+
+X:60
+T:J'ai vu le loup, le renard, le lièvre
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°60
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=90
+K:F
+z2 B A/ B/ | G A F G | G G B A/ B/ | G A F G | G2  G A | B B/ B/ B c |!
+A2 B B/ B/ | G G A A | F D G A | B B/ B/ B c | A2 B A/ B/ | G A F G | HG4 ||
+W:J'ai vu le loup, le renard, le lièvre
+W:J'ai vu le loup, le renard cheuler :
+W:C'est moi-même qui les ai rebeuillés.
+W:J'ai vu le loup, le renard, le lièvre
+W:C'est moi-même qui les ai rebeuillés.
+W:J'ai vu le loup, le renard cheuler.
+W:
+W:J'ai ouï le loup, le renard, le lièvre
+W:J'ai ouï le loup, le renard, chanter :
+W:C'est moi-même qui les ai rechignés.
+W: /.../
+
+X:61
+T:Les transformations
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°61
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=120
+K:G
+d | G2 A B2 c | d3 d3 | e3 c2 e | d3-d z d |\
+    G2 A B2 c | d3 d3 | e3 c2 e | d3-d z d |!
+d2 d g2 d |\
+M:9/8
+d2-c B3 B2-d |\
+M:6/8
+d3-c2 B | A3-A z c | c2 d e2 c |!
+M:9/8
+B3 B2 B A2 A |\
+M:6/8
+G3-G zz ||
+W:J'ai fait une maîtresse, y'a pas longtemps (2x)
+W:J'irais la voir dimanche sans plus tarder
+W:Je prendrai sur sa bouche un doux baiser.
+
+
+X:62
+T:Ne l'oserai-je dire ?
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°62
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:C|
+L:1/4
+Q:1/4=110
+K:F
+F F/ G/ A A | B2 A F | G E F D | C2 F F/ G/ | A A B2 | (A/F/G) F2 ||!
+c>c A A | B B A2 | A B G F | G G F2 |\
+c>c A A | B B A2 | A B G F | G G F2 | F F/ G/ A A | (B2 A F|G2 F2) ||
+W:Ne l'oserai-je dire si j'aime par amour, ne l'oserai-je dire ?
+W:Mon père m'y maria un petit devant le jour ;
+W:A un vilain m'y donna qui ne sait bien ni honnour.
+W:Ne l'oserai-je dire ?
+W:
+W: /.../
+
+X:64
+T:Mon père m'a mariée à un vieillard
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°64
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:C|
+L:1/4
+Q:1/4=110
+K:G
+B A/ B/ | FGAF | G2 B A/ B/ | FGAF |GGGd | ddcc | BBBG | AB (c/B/) (A/G/) |
+A2 BA/B/ | GF G/ A/ B/ G/ | AAB A/ B/ | FGAF | G2 ||
+W:Mon père m'a mariée
+W:J'entends le moulin tique taque.
+W:A un vieillard il m'a donnée, il n'a ni maille ni denier.
+W:J'entends le moulin tique tique taque.
+W:J'entends le moulin taqueter.
+W: /.../
+
+X:66
+T:Corbleu Marion
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°66
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:3/4
+L:1/8
+Q:1/4=90
+K:G
+E | B B G G A A | B>B B<B G A | B2 B<B G A |\
+M:3/8
+B z E |\
+M:3/4
+B B G G A A |G2-F2 E2 ||
+W:"Qu'allais-tu faire à la fontaine,
+W:Corbleu, Marion (2x)
+W:Qu'allais-tu faire à la fontaine ?
+W:
+W:J'étais allé quérir de l'eau
+W:Avec qui donc que tu parlais ?
+W:Avec la fille de notre voisine.
+W:Les femmes ne portent point d'épée. /.../
+
+
+X:68
+T:Mon mari est bien malade
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°68
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=90
+K:C
+c B | A e e ^d2 | e>e c B | A e e ^d2 | e2 e e | e d e f |
+e2 B B | e d c B | A2 d d | c2 A c | B2 d d | c2 B B | A2 z2 ||
+W:Mon mari est bien malade, en grand danger de mourir.
+W:Je vais chercher le médecin pour venir autour de lui.
+W:
+W:Je n'étais pas à moitié chemin que les cloches sonnaient pour lui.
+W:Je m'assois sur une pierre : au lieu de pleurer je ris !
+W:
+W:Je retourne à la maison, je le trouve enseveli ;
+W:Je me suis mise à pleurer, mais ce n'était pas pour lui ! /.../
+
+X:70
+T:L'occasion manquée
+R:Chanson
+O:France
+A:Champagne
+B:Le livre des Chansons (Henri Davenson) n°70
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=110
+K:G
+A | A d B A | G2 G D | E F G F/ E/ | A A/ A/ A A | A d B A |
+G2 G D | E G F A | G2 !fine! z || G | B B d B | A A A G | B B d B | A2 !D.C.!z ||
+W:Après ma journée faite, Ma tan déri toudé ra, la la la, après ma journée faite,
+W:  je m'en fus promener, je m'en fus promener, voyez, je m'en fus promener.
+W:
+W:En mon chemin rencontre une fille à mon gré.
+W:La pris par sa main blanche, dans les bois l'ai menée.
+W:Quand elle fut dans le bois, elle se mit à pleurer :
+W:"Ah ! Qu'avez-vous, la Belle, qu'avez-vous à pleurer ?
+W:- Je pleure mon innocence que vous me l'allez ôter !
+W:- Ne pleurez pas tant, la Belle, je vous la laisserai."
+W:Quand elle fut dans les champs, elle se mit à chanter :
+W:"Ah : Qu'avez-vous, la Belle, qu'avez-vous à chanter ?
+W:- Je chante votre bêtise de me laisser aller :
+W:Quand on tenait la poule, il fallait la plumer !"
+
+X:71
+T:Petite camuson
+R:Chanson
+O:France
+A:Champagne
+B:Le livre des Chansons (Henri Davenson) n°71
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=110
+K:Bb
+G | G d d c | d2 d G | G d d c | d3 d | d e f e | c2 B c |
+d c B A | G2 B/ B/ B | A/ A/ A d/ G/ d | d c/B/ A z | [M:3/4] c2 G B A F | G4 z2 ||
+W:Lorsque j'étais petite, petite camuson*,       [*->fillette]
+W:J'allais à la fontaine pour ramasser des joncs.
+W:   Foutana, Inqu'en ira Dzôli dzaï, Bé maouré, Où qu'allez-vous madé ?
+W:
+W:Au bord de la fontaine, mon pied il a glissé,
+W:Et j'étais trop jeunette : au fond je suis tombée.
+
+X:75
+T:La fille aux oranges
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°75
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=150
+K:F
+F | F2 G A2 B | c3 c z2 | f3 c2 d | c3 c z :|!
+c | c2 c A2 F | B2 z A2 G | A3 G2 F | G3-G z c |!
+c2 c A2 F | B2 z A A G | A2 c A2 G | F6 ||
+W:Au jardin de mon père / Vive la rose ! (2x)
+W:   Un oranger il y a / Vive ci, vive là
+W:   Un oranger il y a / Vive la rose et le damas !
+W:
+W:Qu'est si chargé d'oranges qu'on croit qu'il en rompra. /.../
+
+X:76
+T:Le bateau chargé de blé
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°76
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=80
+K:G
+G G/ G/ |G B G B | A2 G G/ G/ | G B G B | A2 A B/ c/ |!
+d d d d | B G/ A/ B B | B A/ G/ A A/-B/ | A G/ A/ B>B | B d B-A | G4 ||
+W:Devant Bordeaux est arrivé (2x)
+W:Un beau bateau chargé de blé ! (2x)
+W:Nous irons sur l'eau nous y promener, nous irons jouer dans l'île.
+W:
+W:Trois dames le vont marchander : /.../
+
+X:77
+T:La Danaé
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°77
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=80
+K:F
+C | F2 G A2 A | A A A A2 A | c2 B A2 G | G3 F2 z | A3 G3 | F C F G3 |!
+G A B A3 |G F G A2 F |A3 G3 | F C F G3 | G A B A3 |G F G F2 z ||
+W:L'était une frégate
+W:Lonla, l'était une frégate
+W:C'était la Danaé,
+W:A prendre un ris dans les basses voiles
+W:C'était la Danaé,
+W:A prendre un ris dans les huniers. /.../
+
+X:79
+T:Le comte Ory
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°79
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=130
+K:G
+d2 B>c | d3 d | e>e d>c | d>c B>A |\
+M:3/4
+G2 D2 GG |
+M:2/4
+A>B c>A | G3 ||: B/4 B>A | G2d2 |\
+M:3/4
+G>G A>B c>A | G6 :||
+W:Le comte Ory disait pour s'égayer
+W:Qu'il voulait prendre le couvent de Farmontier
+W:Pour plaire aux nonne et pour les désennuyer. /.../
+
+
+X:81
+T:La femme du roulier
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°81
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=110
+K:G
+B2 c>B | A2 A (F/G/) | A A A B | (AG) z (E/F/) | G G G>A | G3 A |
+B G E F | (AG) F2-|F zz B, | E F G A | B B/ B/ B/ z B/ | c>B A B | (G2F2) | E4 ||
+W:Triste et dolente, la femme du roulier
+W:S'en va dans le pays, de taverne en taverne
+W:Pour chercher son mari,
+W:     Lali-ra
+W:avec une lanterne
+W:
+W:"Bonsoir l'hôtesse, mon mari est-il là ?
+W:- Oui, madame, il est là ; dans la plus haute chambre,
+W:A prendre ses ébats avec une servante.
+W:
+W:- Ah ! Chien d'ivrogne, pilier de cabaret,
+W:Tu manges tout ton bien avecque des canailles,
+W:Et moi et tes enfants nous sommes sur la paille ! /.../
+
+
+X:83
+T:Martin prit sa serpe
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°83
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:C|
+L:1/4
+Q:1/4=110
+K:F
+G A | B2A2 | G^FGA | B2A2 | G2DE | ^FGF2 | GG^FG |
+D2D>E | ^FEFG | ^F2G>A | B>cA2 | G2 ||
+
+
+X:84
+T:Le géant
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°84
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=110
+K:F
+F | F A c c d e | f3 {c}f e e | e2 c d2 d | c2 z c e g |
+g2 c d2 e | d2 c B B B | A2 F G2 A | G2 z G F A | c2 c d2 B | d2 c c d e |
+{g}f2 {A}A d2 c | A4 || "5è couplet" f f f |\
+ e3 c d e | d2 c B B B | A3 F G A | G2 z ||
+
+X:85
+T:La pibole
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°85
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:3/4
+L:1/8
+Q:1/4=115
+K:Bb
+B B | B2 F2 G A | G2 F z :: B d | c c B d c B/ A/ |
+B2 F z B d | c c B d c B/ A/ | B2 z2 :|
+W:Au printemps la mère Ageasse, A niché dans un buisson
+W:La pibole, A niché dans un buisson Pibolon. /.../
+
+
+X:88
+T:Huchage
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°88
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+N:il n'y a pas de mesure dans les deux premiers titres
+L:1/4
+Q:1/4=160
+K:G
+P:1
+d6 e3 e e2 e3 e e2 d3 c B2 A3 B2 z2 ||
+d6 e3 e e2 e3 e e2 d2-c B A2 HG2 ||
+P:2
+K:F
+BABG c4 c3 BABG2 ||
+P:3
+K:F
+Gd2 cdc4 d2 dd c2 AGF2GFG8 ||
+P:4
+M:C
+L:1/4
+K:C
+z2 (_Bf/)>(_e/|f2)-f-f/ z/ | z4 | z2 _B^f/>^e/ | ^f2-f-f/ z/ | z4 |
+z2 =B g/>(^f/|g4)-|g/ z/ z z2 ||
+
+X:90
+T:Chanson à grand vent
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°90
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=110
+K:F
+C | F3 G {AG}F/ G/ | A3-A z A | Hc Hd (5c/4d/4c/4B/4A/4 F2 G | A3-A z C |
+    F3 G {AG}F/ G/ | A3 A z A | Hc Hd (5c/4d/4c/4B/4A/4 F2 G | A3-A z B |
+ c2 c c2 c | Hc (3B/c/B/ A2 c | c2 c {Bc}B2 A | {A}G3-G z C |
+    F3 G {AG}F/ G/ | A3 A z G | {AB}A2 G {GAB}A2 (3G/A/G/ |
+F3-F z (3G/A/B/ | {AB}A2 G {GAB}A2 (3G/A/G/ | F3-F z ||
+W:
+
+
+X:99
+T:Chanson des scieurs de long
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°99
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:3/4
+L:1/4
+Q:1/2=100
+K:Bb
+FBc | d2e | dBd | c2d | cBd | cBG | F2 z |
+FBc | d2e | dBd | c3  | BAc | B2z |
+FBc | d2e | c2z | FAB | c2F | B2z ||
+W:N'y a rien de si drôle que les scieurs en long
+W:Niouli nioula, Ridouti la loii la.
+W:N'y a rien de si drôle que les scieurs en long
+W:que les scieurs en long (bis)
+
+X:101
+T:Le départ du compagnon
+R:Chanson
+O:France
+D:voir la version de Malicorne intitulée "La conduite"
+B:Le livre des Chansons (Henri Davenson) n°101
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=100
+K:Bb
+G | A3 G F G | [M:3/8] A3 | [M:6/8] D G A c2 B | G3F z G |
+    A3 G F G | [M:3/8] A3 | [M:6/8] D G A (B-G) A | G3-G z z |
+  d2c d =e c | [M:3/8] A3 | [M:6/8] D G B (Ac3/2) B/ | [M:3/8] (AG) F |
+[M:6/8] G2 A G F G | [M:3/8] A3 | [M:6/8] D G A (BG) A | G3-G z z ||
+W:Partons, chers compagnons, Le devoir nous l'ordonne.
+W:Voici le vrai moment Qu'il nous faut battre aux champs :
+W:L'hiver est écoulé, La neige et la froidure ;
+W:On voit dès à présent Revenir le printemps. /.../
+
+X:103
+T:Guillenlé
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°103
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=110
+K:E
+z B B | [M:3/4] G2 E2 F F | [M:2/4] E B B B |
+        [M:3/4] G2 E2 F F | [M:2/4] E z/2 B/ B B |
+G3/2 B/ B B | G3/2 B/ B B | [M:3/4] G2 E2 F F | [M:2/4] E2 z2 ||
+W:Guillenlé, beau Guillenlé,
+W:En bonne année puissiez entrer !
+W:Qui n'y a pas qui a Noël
+W:Qu'y a huit jours que Dieu fut né !
+W:/.../
+
+
+X:104
+T:Trimousette
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°104
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=105
+K:C
+B2 (cB) | A2 A B | c2 B c | A2 e d | e B c B | A2-A z || z A c d |
+[M:3/4] e2 (ed) c B | [M:2/4] A A c d |
+[M:3/4] e2 (ed) c B | [M:2/4] A E A c | B d c B | A E A c | B d c B |
+[M:3/4] A z B2 (cB) | [M:2/4] A z A B | c2  B c | A2  e d | e B c B | A2-A z ||
+W:Trimousette, C'est le Mai, mois de Mai, C'est le joli mois de mai.
+W:  En revenant de dans les champs,
+W:  Nous 'ons trouvé les blés si grands,
+W:  La blanche épine florissant,
+W:  Devant Dieu
+W:C'est le Mai, mois de mai, C'est le joli mois de mai
+W:/.../
+
+X:105
+T:Voici le mois de mai
+A:Champagne
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°105
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=105
+K:F
+c2 F F  | F F F C  | F G A G/ F/ | G2C2 |!
+c2 c B  | A B d c  | B A G c |   F2 z c |!
+c A d c | (cB) A c | c A d c | (cB) A z ||
+W:Voici le mois de mai,
+W:et lon lan la tire lire,
+W:Voici le mois de mai
+W:Que donnerai-je à ma mie ?
+W:Que donnerai-je à ma mie ? (2x)
+W:
+W:Nous lui planterons un mai à sa porte jolie.
+W:Quand le mai sera planté, nous demanderons la fille.
+W:Laquelle demanderons-nous, est-ce la vieille ou la jeune ?
+W:Nous demanderons la jeune, car c'est la plus jolie.
+W:La vieille monte en haut, en faisant des soupirs
+W:Son père la suivit : " Que vous faut-il, ma fille ?
+W:- Ma soeur a des amants, et moi je resterai fille.
+W:- Oh taisez-vous ma fille, nous vous marierons riche..."
+
+
+
+X:108
+T:Le chant des livrées
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°108
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=135
+K:G
+B2 B B | {Bc}B3 A | G4 | A2 A A | B3 A | GF E2-|E2 z2 |
+ E ^D E F | G2 F E | G2 A2 | B2-B z | B A B c | B A G F |
+G2 F2 | E4 || B2 B c | B3 A | G4 | A2 A A | B3 A | G-F E2-|E zz B, |
+E ^D E F | G F G E | G2 A2 | B4 | B A B c | B-A G F | G2 F2 | E4 ||
+W:Ouvrez la porte, Ouvrez, Françoise ma mignonne
+W:J'ons un biau bouquet à vous présenter
+W:Hélas ma mignonne laissez-nous entrer
+W:- Mon père est en chagrin ma mère en grand tristesse
+W:Et moi je suis une fille de trop grand merci
+W:Pour ouvrir la porte à cette heure-ci./.../
+
+
+X:123
+T:Fanchon
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°123
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:3/8
+L:1/8
+Q:1/4=90
+K:C
+G2 | c3 G | G>A G>F | (E2D2) | C>D E>F | G>G D>D | G2-G>G | G2-G>G |
+A>G A>B | c>c B>c | d>c B>A | B2A2 | G4 || {GAB}c z G>A |
+G>F E>D | C>D E>F | G>G D>D | (G3 B/A/) | G-G z/ D/ | D2-D>E | G>F D>E |
+C4 | A,2-A,>D | D2-D>E | G>F D>E | C>E E>F | G>F E>F | G>F E>F |
+ G>F E>F | G2-G z/e/ | e2>>d/ | f>e d>e | c4 | G2-G z/e/ | e2>>d/ |
+f>e d>e | c2 G2 | E2 G2 | c4-|c2 ||
+W:Amis, il faut faire une pause :
+W:J'aperçois l'ombre d'un bouchon.
+W:Buvons à l'aimable Fanchon,
+W:Chantons pour elle quelque chose.
+W:
+W:Ah ! que son entretien est doux, qu'elle a de mérite et de gloire.
+W:Elle aime à rire elle aime à boire, Elle aime à chanter comme nous (3x)
+W:Oui, comme nous.
+
+
+
+X:126
+T:Le pauvre paysan
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°126
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=120
+K:G
+E2 F G2 A | B2 A B2 c | Hd2-d z2 | d2 e d2 c | B2 B c2 d | (B3-B2 (3A/B/c/) |
+B3-B z2 | (B2 A) G2 F | F2 G {AB}A2 G | F3-F z2 | (E2 F) G2 A | B2 B A2 B |
+(A3/2B/4c/4) B2 e2-|e3 d2 B | c2 B A2 c | B3 E3 ||
+W:De toutes les richesses d'à présent, je n'aspire qu'à la sagesse
+W:Je suis un pauvre paysan, qui vient de perdre sa richesse.
+W:La mort me ravit aujourd'hui, la plus aimable ménagère.
+W:Voyez comme je suis réduit : J'ai six enfants dans ma chaumière. /.../
+
+X:129
+T:Vive Henry IV
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°129
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:C|
+L:1/4
+Q:1/4=150
+K:C
+A2 A A | ^G2 G c | B A ^G A | E4 | A2 A A | ^G2 G c | B A ^G A | E4 |
+c2 B A | B2 B B | A A ^G F | E E/ F/ G G | C2 C C | D D E E | [A,2A2] z2 ||
+W:Vive Henry IV, Vive ce roi vaillant ! (2x)
+W:Ce diable à quatre
+W:A le triple talent
+W:De boire et de se battre
+W:Et d'être un vert galant !
+
+
+X:133
+T:Nous étions dix filles dans un pré
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n°133
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=115
+K:G
+ B B B | B A A G | G2 B B  | B A A G |
+G2 A A | A D A A | A D A B | c c B A |
+[M:3/4] B G B2d2 | c c B B A A | [M:2/4] HA2 B B | B A A G | G2 B B | B A A G |
+[M:3/4] G2 G B d e |[M:2/4] (d2c2) {dc}|B2 z B | B>A B>c | (B3A) | E2 z2 ||
+W:Nous étions dix filles dans un pré,
+W:Toutes les dix à marier :
+W:Y avait Dine, Y avait Chine,
+W:Y avait Claudine et Martine, Ah ! ah !
+W:Catherinette et Catherina ;
+W:Y avait la belle Suzon,
+W:La duchesse de Montbazon ;
+W:Y avait Madeleine ;
+W:Puis y avait la Du Maine.
+W:
+
+

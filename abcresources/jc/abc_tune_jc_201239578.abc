@@ -1,0 +1,31 @@
+X: 331
+T: Lady George Beauclark's Reel
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.33 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Shortened last note in bar 4 to fix the rhythm.
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+G |\
+TE2(.C.G) cGEC | FAGE FD-DG |\
+TE2(CG) cGEC | FDGF ECC :|\
+|: g |\
+egcg afge | afge fd-dg |
+Te2cg fage | fdgf ec-cg |\
+egcg afge | afge fd-de |\
+cedf egfa | egdf ec-c :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+c2c2 c2c2 | c2c2 d2d2 |\
+c2c2 c2c2 | f2g2 c2c :|\
+|: z |\
+c2c2 c2c2 | c2c2 d2d2 |\
+c2c2 c2c2 | f2g2 c2c2 |\
+c2c2 c2c2 | c2c2 d2d2 |\
+c2d2 e2f2 | g2g2 c2c :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

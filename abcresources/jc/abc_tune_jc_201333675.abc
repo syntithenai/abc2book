@@ -1,0 +1,30 @@
+X: 1
+T: Sally in our Alley
+%R: minuet
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (165)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 3/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: zg/f/ ef |\
+(e2 d)(e/d/ c)d | c2- c(c/B/) AG | FEDC Cc- | c2 :|\
+|: ze/f/ ge | agfe fd |
+gfed ec | fedc BG- | G2 zg/f/ ef |\
+(e2d)(e/d/ c)d | (c2 B)e/f/ gd |\
+fedc Gc- | c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man cast off and the 2d Wo. cast up and half
+%% figure .| The 2d Man cast up and the 1st Wo. cast off
+%% and half figure :| Then the Men being in the We.
+%% Places and the We. in the Men's fall back all four and
+%% cross over into your own places right Hands and
+%% left quite round .| The 1st Man change Places with
+%% the 2d Wo and the 2d Man with the 1st Wo. and go
+%% quite round cast off and turn Partners :|
+%%endtext
+%%sep 1 8 500

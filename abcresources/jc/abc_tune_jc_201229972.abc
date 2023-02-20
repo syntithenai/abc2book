@@ -1,0 +1,17 @@
+X: 131003
+T: THERE CAM' A YOUNG MAN
+Q: "Scotch Jig."
+R: Jig.
+%R: jig
+B: James Kerr "Merry Melodies" v.1 p.31 s.0 #3
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The rhythms of repeats aren't correct; not fixed.
+M: 6/8
+L: 1/8
+K: Am
+|: uE |\
+ABA uc2ud | edc uB2uA | GAG B2c | dge dBG |\
+ABA Bcd | edc Bcd | e2A AB^G | A3 A2 :|
+|: uB |\
+vc2ve ug2ua | gec gec | G2B d2e | dge dBG |\
+c2e g2a | gec deg | a2A AB^G | A3 e2 :|

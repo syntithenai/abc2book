@@ -1,0 +1,123 @@
+
+X: 1
+T: Zillertaler L\"andler   [G]
+O: Austria
+Z: Deborah Jones VIFD 2
+M: 3/4
+L: 1/8
+%Q: 1/4=150
+K: G
+%%indent 400
+"^I"[|] DEF |"G"[B,6D6G6] |[D6G6B6] | "D7"[F2c2d2] z[cdf] [c2d2f2] |"G"[B2d2g2] z ||
+% - - - - - - - - - -
+P: Melody
+"^A"|: z[G2B2] |\
+"G"[G4B4] [B2-d2-] | [B2d2] [A2c2] [G2B2] | "D7"[F6-A6-] | [F2A2] z2 [A2c2] |\
+ [A4c4] [c2-e2-] | [c2e2] [B2d2] [A2c2] | "G"[G6-B6-] | [G2B2] z2 [G2B2] |\
+ [B4d4] [f2-a2-] | [f2a2] ag fe |
+ [1,3 "C"[c6g6] | [c6f6] | "D7"[A4c4] [e2-g2-] | [e2g2] gf ed | "G"[d6f6] | [B2e2] z :|\
+ [2,4 "C"[d6f6] | [c6e6] | "D7"[F2c2d2] z2 f2 | fe dc BA | "G" G2 z2 "D7"[F2c2d2]|\
+ "G"[G2B2d2g2] z \
+"^B":: ggg |\
+"C"g2 ec eg | g2 ec eg |
+"G" g2 dB dg | g2 dB dg | "D7"f2 dc A2 | f2 dc A2 |\
+[1,3 "G"e2 d^c de | d3 :|\
+[2,4 "G" G2 z2 "D7"[F2c2d2] | "G"[G2B2d2g2] z \
+"^C":: DGA |\
+"G"[G6-B6-] | [G3B3] BAG | "D7"[F6-A6-] |
+ [F3A3] FAB | [A6-c6-] | [A2c2] zAGF | "G"[G6-B6-] |\
+ [G3B3] GBc | [B6-d6-] | [B2d2] zdcB | "C"[c6-e6-] |\
+ [c2e2] z [eg] [eg] [eg] | "D7"[c2f2] z f f2 |\
+ fe dc BA | "G" G2 z2 "D7"[F2c2d2] | "G"[G2B2d2g2] z4 :|
+% - - - - - - - - - -
+P: With "doodles"
+"^A"|: z[G2B2] |\
+"G"[G3B3] [Bd] [B2-d2-] | [B2d2] [A2c2] [G2B2] | "D7"[F2A2] ac' fa | df Ad FA |\
+ [A3c3] [ce] [c2-e2-] | [c2e2] [B2d2] [A2c2] | "G"[G2B2] bd' gb | dg Bd GB |\
+ [B3d3] [fa] [f2-a2-] | [fa]a ag fe |
+ [1,3 "C"[c6g6] | [c6f6] | "D7"[A3c3] [eg] [e2-g2-] | [eg]g gf ed | "G"[d6f6] | [B2e2] z :|\
+ [2,4 "C"[d6f6] | [c6e6] | "D7"[F2c2d2] z f f2 | fe dc BA | "G" G2 z2 "D7"[F2c2d2]|\
+ "G"[G2B2d2g2] z \
+"^B":: ggg |\
+"C"ge cA ce | ge cA ce |
+"G" gd BG Bd | gd BG Bd | "D7"fd AF Ad | fd AF Ad |\
+[1,3 "G"[ec][dB] [dB][^c^A] [dB][e=c] | [d3B3] g gg :|\
+[2,4 "G" G2 z2 "D7"[F2c2d2] | "G"[G2B2d2g2] z \
+"^C":: DGA |\
+"G"[G3B3] [Bd] [B2d2] | [B3d3] [Bd][Ac][GB] | "D7"[F3A3] [Ac] [A2c2] |
+[A3c3] F[AF][BG] |\
+[F3c3] [ce] [c2e2] | [c3e3] [ce][Bd][Ac] | "G"[G3B3] [Bd] [B2d2] | [B3d3] G[BG][cA] |\
+[B3d3] [Bd] [B2d2] | [B3d3] dcB | "C"[c3e3] [ce] [c2e2] | [c2e2] z [eg] [eg][eg] |\
+"D7"[d2f2] z [fd] [f2d2] | [fd][ec] [dB][cA] [BG][AF] | "G" G2 z2 "D7"[F2c2d2] | "G"[G2B2d2g2] z4 :|
+% - - - - - - - - - -
+%%begintext
+%% Often played with the parts repeated the first time but not the second:
+%%   ||: A1A2 :||: B1B2 :||: CC :|| A1A2 B1B2 C ||
+%%endtext
+%%begintext
+%% http://www.youtube.com/watch?v=_dqwz_kAseY
+%% http://www.youtube.com/watch?v=8fYW_tAEZPI
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Zillertaler L\"andler   [A]
+O: Austria
+Z: Deborah Jones VIFD 2
+M: 3/4
+L: 1/8
+%Q: 1/4=150
+K: A
+%%indent 400
+"^I"[|] EFG |"A"[C6E6A6] |[E6A6c6] | "E7"[G2d2e2] z[deg] [d2e2g2] |"A"[c2e2a2] z ||
+% - - - - - - - - - -
+P: Melody
+"=A"|: z[A2c2] |\
+"A"[A4c4] [c2-e2-] | [c2e2] [B2d2] [A2c2] | "E7"[G6-B6-] | [G2B2] z2 [B2d2] |\
+ [B4d4] [d2-f2-] | [d2f2] [c2e2] [B2d2] | "A"[A6-c6-] | [A2c2] z2 [A2c2] |\
+ [c4e4] [g2-b2-] | [g2b2] ba gf |
+ [1,3 "D"[d6a6] | [d6g6] | "E7"[B4d4] [f2-a2-] | [f2a2] ag fe | "A"[e6g6] | [c2f2] z :|\
+ [2,4 "D"[e6g6] | [d6f6] | "E7"[G2d2e2] z2 g2 | gf ed cB | "A" A2 z2 "E7"[G2d2e2]|\
+ "A"[A2c2e2a2] z \
+"^B":: aaa |\
+"D"a2 fd fa | a2 fd fa |
+"A" a2 ec ea | a2 ec ea | "E7"g2 ed B2 | g2 ed B2 |\
+[1,3 "A"f2 e^d ef | e3 :|\
+[2,4 "A" A2 z2 "E7"[G2d2e2] | "A"[A2c2e2a2] z \
+"^C":: EAB |\
+"A"[A6-c6-] | [A3c3] cBA | "E7"[G6-B6-] |
+ [G3B3] GBc | [B6-d6-] | [B2d2] zBAG | "A"[A6-c6-] |\
+ [A3c3] Acd | [c6-e6-] | [c2e2] zedc | "D"[d6-f6-] |\
+ [d2f2] z [fa] [fa] [fa] | "E7"[d2g2] z g g2 |\
+ gf ed cB | "A" A2 z2 "E7"[G2d2e2] | "A"[A2c2e2a2] z4 :|
+% - - - - - - - - - -
+P: With "doodles"
+"^A"|: z[A2c2] |\
+"A"[A3c3] [ce] [c2-e2-] | [c2e2] [B2d2] [A2c2] | "E7"[G2B2] bd' gb | eg Be GB |\
+ [B3d3] [df] [d2-f2-] | [d2f2] [c2e2] [B2d2] | "A"[A2c2] c'e' ac' | ea ce Ac |\
+ [c3e3] [gb] [g2-b2-] | [gb]b ba gf |
+ [1,3 "D"[d6a6] | [d6g6] | "E7"[B3d3] [fa] [f2-a2-] | [fa]a ag fe | "A"[e6g6] | [c2f2] z :|\
+ [2,4 "D"[e6g6] | [d6f6] | "E7"[G2d2e2] z g g2 | gf ed cB | "A" A2 z2 "E7"[G2d2e2]|\
+ "A"[A2c2e2a2] z \
+"^B":: aaa |\
+"D"af dB df | af dB df |
+"A" ae cA ce | ae cA ce | "E7"ge BG Be | ge BG Be |\
+[1,3 "A"[fd][ec] [ec][^d^B] [ec][f=d] | [e3c3] a aa :|\
+[2,4 "A" A2 z2 "E7"[G2d2e2] | "A"[A2c2e2a2] z \
+"^C":: EAB |\
+"A"[A3c3] [ce] [c2e2] | [c3e3] [ce][Bd][Ac] | "E7"[G3B3] [Bd] [B2d2] |
+[B3d3] G[BG][cA] |\
+[G3d3] [df] [d2f2] | [d3f3] [df][ce][Bd] | "A"[A3c3] [ce] [c2e2] | [c3e3] A[cA][dB] |\
+[c3e3] [ce] [c2e2] | [c3e3] edc | "D"[d3f3] [df] [d2f2] | [d2f2] z [fa] [fa][fa] |\
+"E7"[e2g2] z [ge] [g2e2] | [ge][fd] [ec][dB] [cA][BG] | "A" A2 z2 "E7"[G2d2e2] | "A"[A2c2e2a2] z4 :|
+% - - - - - - - - - -
+%%begintext
+%% Often played with the parts repeated the first time but not the second:
+%%   ||: A1A2 :||: B1B2 :||: CC :|| A1A2 B1B2 C ||
+%%endtext
+%%begintext
+%% http://www.youtube.com/watch?v=_dqwz_kAseY
+%% http://www.youtube.com/watch?v=8fYW_tAEZPI
+%%endtext

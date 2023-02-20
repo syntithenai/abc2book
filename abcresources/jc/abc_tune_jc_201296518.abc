@@ -1,0 +1,55 @@
+
+X: 1
+T: Khupa tanz #2   [Gm]
+D: Abe Schwartz "Masters of Klezmer Music" v.1 (Global Village 126)
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Gm
+|: D2 \
+| "Gm"DGG^F "D7"FAAG | "Gm"GBBA "D7"AccB | "Gm"Bddc "Cm"ceed | "Gm"dcBc d4 |
+| "Cm"ceeA "(D7)"AccA | "Gm"BddG GBBG | "D7"d^FAc TB3A | "Gm"ABG2- G2 :|
+|: (3FGA \
+| "Bb"TB4- BFdF | TB4- BFdF | BFdF BFdF | BFdF edcB |
+| "F7"TA4- AFcF | TA6 f2- | feed dccB | "Bb"cdB2- B2 :|
+|: D2 \
+| "Gm"d3B "D7"c3A | "Gm"B3G "D7"A3D | "Gm"G^FGA BAGB | "D"AG^FE D4 |
+| "Cm"edce "Gm"dcBd | "D7"cBAc "Gm"BAG2 | "D7"dccB BAAG | "Gm"ABG2- G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Khupa tanz #2   [Am]
+D: Abe Schwartz "Masters of Klezmer Music" v.1 (Global Village 126)
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Am
+|: E2 \
+| "Am"EAA^G "E7"GBBA | "Am"AccB "E7"Bddc | "Am"ceed "Dm"dffe | "Am"edcd e4 |
+| "Dm"dffB "(E7)"BddB | "Am"ceeA AccA | "E7"e^GBd Tc3B | "Am"BcA2- A2 :|
+|: (3GAB \
+| "C"Tc4- cGeG | Tc4- cGeG | cGeG cGeG | cGeG fedc |
+| "G7"TB4- BGdG | TB6 g2- | gffe eddc | "C"dec2- c2 :|
+|: E2 \
+| "Am"e3c "E7"d3B | "Am"c3A "E7"B3E | "Am"A^GAB cBAc | "E"BA^GF E4 |
+| "Dm"fedf "Am"edce | "E7"dcBd "Am"cBA2 | "E7"eddc cBBA | "Am"BcA2- A2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Khupa tanz #2   [Bm]
+D: Abe Schwartz "Masters of Klezmer Music" v.1 (Global Village 126)
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bm
+|: F2 \
+| "Bm"FBB^A "F#7"AccB | "Bm"Bddc "F#7"ceed | "Bm"dffe "Em"eggf | "Bm"fede f4 |
+| "Em"eggc "(F#7)"ceec | "Bm"dffB BddB | "F#7"f^Ace Td3c | "Bm"cdB2- B2 :|
+|: (3ABc \
+| "D"Td4- dAfA | Td4- dAfA | dAfA dAfA | dAfA gfed |
+| "A7"Tc4- cAeA | Tc6 a2- | aggf feed | "D"efd2- d2 :|
+|: F2 \
+| "Bm"f3d "F#7"e3c | "Bm"d3B "F#7"c3F | "Bm"B^ABc dcBd | "F#"cB^AG F4 |
+| "Em"gfeg "Bm"fedf | "F#7"edce "Bm"dcB2 | "F#7"feed dccB | "Bm"cdB2- B2 :|

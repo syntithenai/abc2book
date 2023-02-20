@@ -1,0 +1,32 @@
+X: 20561
+T: GLORIOUS APOLLO
+Q: "Mod.to"
+%R: march
+B: "Edinburgh Repository of Music" v.2 p.56 - p.57 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 arranged for fewer, longer staff lines.
+V: 1 clef=treble
+|:\
+f2dd | e2e2 | dagf | f2e2 |\
+d2dd | g>ggf | e2Te2 | d4 :|\
+f2ff | e2e2 |
+(df)ed | c2e2 |\
+f2ff | e2AA | de(f^g) | Ha4 |:\
+f2dd | e2e2 | dagf | f2e2 |
+d2dd | g>ggf | e2Te2 | d3 :| e |\
+f2e2 | f3g | f2Te2 | d2z"_F."e |\
+f2Te2 | f3g | f2Te2 | d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=treble
+|:\
+A2Ad | d2c2 | dAcd | d2c2 | dABA | B>cdd | d2Tc2 | d4 :|
+A2AA | A2A2 | A2^GG | A2c2 | d2AA | A2AA | BBB2 | Hc4 |:
+A2Ad | d2c2 | dAcd | d2c2 | dABA | B>cdd | d2Tc2 | d3 :|
+c |\
+d2c2 | d3e | d2Tc2 | d2z"_F."c | d2Tc2 | d3e | d2Tc2 | d4 |]

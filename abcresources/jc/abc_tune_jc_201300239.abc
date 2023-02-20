@@ -1,0 +1,47 @@
+X: 1
+T: Lane's Mggot
+T: Mr. Lane's Maggot
+T: Richmond Ball
+P: Longways for as many as will
+%R: reel, march
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.45 #84
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.211 "T 4"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain is to be play'd twice over" instruction.
+N: DMDfD has the "Mr." printed in the title, with handwritten "Richmond Ball or" above and "1728" to the right of the title.
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+a4 g4 | f2 gf e2 A2 | de fg e2 A2 | de fg e2 A2 |\
+a2 ba g2 ag | f2 gf e2 A2 | de fg e2 ^c2 | d8 :|
+|:\
+F2 A2 F2 A2 | F2 A2 F2 A2 | A2 GA F2 A2 | A2 GA F2 A2 |\
+FG AG FG AG | FG AG FG Af | e2 d2 e2 ^c2 | d8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain is to be play'd twice over.
+%%begintext align
+%% The 1st Cu. cast off and lead thro' the 3d Cu. then cast off
+%% and lead up thro' both Cu. and cast off into the 2d Cu. Place;
+%% the 1st Man being in the 2d Man's Place, turn the 1st Wo.
+%% with the right Hand, and fall into their own Places, the 1st
+%% Wo. being in the 2d Wo. Place turn the 1st Man, and so fall in
+%% to their own Places, then all four lead up and cast off into
+%% the 2d Cu. Place.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. cast off and lead through the 3. cu. then cast off and lead up through both cu. and cast off
+%% into the 2. cu. place: The 1. man being in the 2. man's place, turn the 1. wo. with the right-hand, and
+%% fall into their own places, the 1. wo. being in the 2. wo. place turn the 1. man, and so fall into their
+%% own places, then all four lead up and cast off into the 2. cu. place.
+%% [DMDfD]
+%%endtext
+%%sep 1 1 300
+%%text Note: Each Strain is to be play'd twice over.
+%%sep 1 8 500

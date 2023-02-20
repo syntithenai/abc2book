@@ -1,0 +1,27 @@
+X: 1
+T: the Cellist
+C: David A Kaynor 2002
+R: jig
+%D:2002
+B: David A. Kaynor "Living Music and Dance" 2021
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+S: Dave_Kaynors_Melodies_and_Harmonies.PDF
+M: 6/8
+L: 1/8
+K: G |\
+# = = = = = = = = = =
+[| G |\
+"C"G2c "G"dcB | "C"c3 G2G | "F"A2B cd2 | "G"d3- d2 || g |\
+"F"a2a agf | "E,"g3- g2e | "Dm"f2e d2c | "G"BdB G2 ||
+G |\
+"F"ABc "G"d2c | "C"c3 G2G | "F"ABc c2d | "G"d3- d2 || g |\
+"F"a2a agf | "Em"g3- g2e | "Dm"fed "G"d2c | "D"c3- c2 |]
+[| g |\
+"F"a2a agf | "Em"g3- g2e | "Dm"f2e d2c | "G"BdB G2 || G |\
+"F"ABc "G"d2c | "C"c3 G2G | "F"ABc c2d | "G"d3- d2 ||
+g |\
+"F"a2a agf | "Em"g3- g2e | "Dm"f2e d2c | "G"BdB G2 || G |\
+"F"ABc "G"d2c | "C"c3 G2G | "F"ABc "G"c2B | "C"c3- c2 |]
+# = = = = = = = = = =
+%%begintext align
+%%endtext

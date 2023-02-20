@@ -1,0 +1,23 @@
+X: 21391
+T: HART'S TENTH SET OF QUADRILLES Part 4
+R: reel
+B: K\"ohler's Violin Repository, v.2, 1885 p.139 #1
+F: http://www.archive.org/details/klersviolinrepos02rugg
+N: In bar 1, it's not clear whether the final G is inside the slur.  In bar 5, it clearly is.
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+A,2 |\
+D4 (DEFG) | A4 (.F2.F2) | E2{^G}A2E2{G}A2 | FGFE D2A,2 |\
+D4 (DEFG) | A4 (.F2.F2) | E2{^G}A2E2{G}A2 | D6 ||
+vaua |\
+a2ff f2d'd' | d'2aa a2f'f' | f'4 (e'd'c'b) | a4 f2aa |\
+a2ff f2d'd' | d'2aa a2d'e' | f'2f'2 e'd'e'f' | d'6 ||
+uG2 |\
+d4 (defg) | a4 (.f2.f2) | e2{^g}a2 e2{g}a2 | fgef d2A2 |\
+d4 (defg) | a4 (.f2.f2) | e2a2c'2b2 | a6 e2 |
+f2ff f2fe | decd B2B2 | g2gg g2gf | egde c2A2 |\
+d4 (defg) | a4 (.f2.f2) | e2{g}a2e2{g}a2 | d6 A2 |
+d4 A2f2 | e4 A2f2 | {a}g2e2{a}g2e2 | {a}g2e2{a}g2e2 |\
+d4 A2f2 | d4 A2f2 | {a}g2e2{a}g2e2 | d6 "^D.C."|]

@@ -1,0 +1,31 @@
+X:1
+T:The Cock o' the North
+M:6/8
+L:1/8
+Q:80
+C:Traditional
+S:March
+K:HP
+|: a | \
+c/2{d}A3/2{d}c{gBd}B2{G}A | \
+{g}A3/2{d}c/2e{gfg}f2e | \
+{g}c/2{d}A3/2{d}c{gcd}c3/2{g}B/2{d}A |
+{g}B3{GdGe}B2a | \
+c/2{d}A3/2{d}c{gBd}B2{G}A | \
+{g}A3/2{d}c/2e{gfg}f2e |
+{g}c/2{d}A3/2{d}c{gBd}B2{e}G | \
+{g}A3{GAG}A2 :: \
+{gf}g |
+{ag}a2e{gfg}f2e | \
+{ag}a2e{gfg}f2e | \
+{g}c/2{d}A3/2{d}c{gcd}c3/2{g}B/2{d}A |
+{g}B3{GdGe}B2|1 {gf}g|1
+{ag}a2e{gfg}f2e | \
+{ag}a2e{gfg}f2e |
+{g}c/2{d}A3/2{d}c{gBd}B2{e}G | \
+{g}A3{GAG}A2:|2
+{g}c/2d/2 |
+{g}c/2e3/2c{gBd}B2{G}A | \
+{g}A3/2{d}c/2e{gfg}f2e | \
+{g}c/2{d}A3/2{d}c{gBd}B2{e}G |
+{g}A3{GAG}A2|]

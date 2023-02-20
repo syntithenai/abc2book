@@ -1,0 +1,22 @@
+X: 2053
+T: ALISTER Mc ALISTER
+C:
+Q: "Strathspey."
+R: Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.2 p.9 #53
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 1st/2nd endings start at the bar line, with the pickup notes labelled "1st" and "2nd".
+M: C
+L: 1/16
+%%slurgraces yes
+%%graceslurs yes
+K: Am
+(ued) |\
+vcA3A3uG vEA3A3uB | cA3A3B e4(e3d) |\
+cA3A3G EA3A3c | BG3G3B {^c}d4-d2 ::\
+uB2 |\
+vc3vdue3uf vg3vaug3ue |
+c3de3f g4 g3 \
+[1 e | c3de3f g3ag3e | BG3G3B {^c}d4d2 :|\
+[2 a | _b3ga3f g3ef3d | BG3G3B {^c}d4-d2 |]

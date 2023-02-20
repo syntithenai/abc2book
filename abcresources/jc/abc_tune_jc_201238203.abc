@@ -1,0 +1,40 @@
+X: 30381
+T: NONANTUM HORNPIPE
+C: E.L. White
+%R: hornpipe, reel
+N: This is version 2, for ABC software that understands voice overlays and tremolo notation.
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.38 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+|:\
+cece gege | afaf g2ab | c'geg afdc | BGBd gfdB |\
+cece gege | afaf g2ab | c'geg afdB c2e2c2z2 :|
+|:\
+GABc defd | eceg c'2bc' | d'bgb c'bag | ^fdef g2dB |\
+GABc defd | eceg c'geg | abc'a bc'd'a | c'2e'2c'2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+N: The G "drone" notes in V:2 are perhaps better played by V:3.
+V: 2
+|:\
+E2G2E2G2 & G,8 | F2A2E2G2 | E2G2A2F2 | D2[F2B,2][G2B,2]z2 |\
+E2G2E2G2 & G,8 | F2A2E2G2 | E2G2F2G2 | E2G2E2z2 & G,6 x2 :|
+|:\
+z2[F2G,2][F2G,2][F2G,2] | [E2G,2][E2G,2][E2G,2]z2 |\
+z2[B2D2] z2[c2E2] | [A2D2][A2D2][B2D2]z2 |\
+z2[F2G,2][F2G,2][F2G,2] | [E2G,2][E2G,2][E2G,2]z2 |\
+[f2A2][f2A2][d2G2][d2G2] | [c2E2][c2E2][c2E2]z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+|:\
+c4 c4 | c4 c4 | c4 f2f2 | g2G2G2z2 |\
+c4 c4 | c4 c4 | c4 G2G2 | c2c2c2z2 :|
+|:\
+G4 G2G2 | c2c2c2z2 | G2z2 c2z2 | d2d2G2z2 |\
+G4 G2G2 | c2c2c2z2 | f2f2g2G2 | c2c2c2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

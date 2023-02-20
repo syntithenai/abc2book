@@ -1,0 +1,55 @@
+X: 21181
+T: the ECHO CATCH
+C: Herschell.
+%R: jig
+N: This is version 1, for ABC software that doesn't understand diminuendo/crescendo notation.
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: In voice 1, "echo." is printed above the "<>" symbols.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted as 4 10-bar lines for compact, small-scale score.
+V: 1 staves=3
+A |\
+d2d (dc)d | e2A A2A | e2e ede | f2d d2a |\
+f2d AFD | HA3 z2z | !ff!d2z z2!p!=c | B2A G2z |\
+!ff!e2z z2!p!d | c2B A2A |
+c2A d2z | !ff!e2z !p!z2a | g2f e2z | !ff!e2z "^<>"e2z |\
+!f!e2z "^<>"e2z | !f!e2z "^<>"e2z |\
+z2z z2d | A2A A2A | d2z "^<>"d2z | d2z "^<>"d2z |
+z2z z2e | B2B B2B | e2z "^<>"e2z | e2z "^<>"e2A |\
+(cB)c d2d | (ede) (fe)d | !ff!e6- | e4z2 |\
+e6- "cresc."y|"dim."ye6 |
+z2z z2f/g/ | a3 g3 |\
+fed edc | !f!d2z "^<>"d2z | !f!f2z "^<>"f2z | !f!a2f a2z |\
+(a2"^<>"f a2)z | z2z Hz2F/G/ | A2A B2g | (fg)e d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voices 2,3 preserve the original (somewhat irregular) staff layout.
+V: 2
+F |\
+A2F F2z | A2E E2z | c2A A2z | d2A A2f |\
+d2A F2f | He3 z2z | z2!p!A d2z | e2=c B2z |
+z2!p!B e2z | e2d c2c | (ed)c (fe)d | g2z z2f |\
+e2d c2B | c2z "^<>"e2e | A2z "^<>"e2c | c2z "^<>"e2f |
+d2d A2A | d2d (de)c | B2z "^<>"d2z | B2z "^<>"d2(^g/f/) |\
+e2e B2B | e2e (ef)d | c2z "^<>"e2z | c2z "^<>"e2A |
+E2A F2A | c2A d2A | !ff!c6- | c4z2 |
+c6- "cresc."y|"dim."yc6 | z2z z2d/e/ | f3 e3 | dAF GFE |
+!f!F2z "^<>"A2z | !f!d2z "^<>"d2z | !f!f2d f2z | (f2"^<>"d f2)z |\
+z2z Hz2D/E/ | F2F d2B | (Ae)c d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3
+D |\
+F2D D2z | c2c c2z | A2c c2z | A2F F2d |\
+A2F D2d | Hc3 z2z | z2z z2F | G2G G2F |
+E2z z2^G | A2A A2A | A3- A2z | A2A A2A |\
+A6- | A2z "^<>"e2e | c2z "^<>"e2c | A2z "^<>"e2A |
+F2F D2D | F2F D2D | G2z "^<>"d2z | G2z "^<>"d2(B/A/) |\
+^G2G E2E | ^G2G E2E | A2z "^<>"e2z | A2z "^<>"e2E |
+A2E A2F | A2c A2d | !ff!A6- | A4z2 |\
+A6- "cresc."y|"dim."yA6 | z2z z2A | d3 A3 | dDD AAA |
+!f!D2z "^<>"F2z | !f!A2z "^<>"A2z | !f!d2A d2z | (f2"^<>"A d2)z |\
+z2z Hz2d/d/ | D2D G2G | A2A D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

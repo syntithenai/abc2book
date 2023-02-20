@@ -1,0 +1,32 @@
+X: 20843
+T: MELLOW HORN SETT (tune 3)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.84 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+F2 |\
+A3B c2c2 | d2c2 c2c2 | d2c2 f2e2 | d3c A2F2 |\
+A3B c2c2 | d2c2 c2f2 | d2f2 c2d2 | A2G2F2 H|]
+fg |\
+a2gf g2fe | f2d2 c2A2 | f2d2 c3d | A2G2 G2fg |\
+a2gf g2fe | f2d2 c2A2 | f3e dcBA | GFEF Gdc"^D.C."B |]
+c2 |\
+f2f2 f2ef | g2g2 g2ag | fedc =Bcde | f2d2 c2A2 |\
+f2f2 f2ef | g2ba gfed | c2A2 G2F2 | A2G2"^D.C."G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies cross hands round and back,
+%% all balance,
+%% turn partners,
+%% grand chain,
+%% promenade eight,
+%% gentlemen the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

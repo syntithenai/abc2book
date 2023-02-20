@@ -1,0 +1,24 @@
+X: 3222
+T: the Bottle of Punch.
+O: Irish
+%R: jig
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.22 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slow"
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 8-bar lines, for compactness and proofreading.
+V: 1 staves=2
+|:\
+.D2.B AFD | TEDE {DE}F2E | D2B AFD | TEDE FDB, || D2B AFD | TEDE FG[AC] | TB>cd AGF | TEDE FDB, :|
+(df).d cec | BdB ABc | dfd ege | Tf>ed {d}cBA || (df).d cec | BdB ABc | ~d>cB AGF | TEDE FDB, ||
+(df).d (ce).c | dBd ABc | Td>ef efg | Tf>ed {c}ecA || (df).d (ce).c | BdB ABc | {c}Hd>ef AFD | TEDE FDB, |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+D3 d3 | c3 d2c | B2g f3 | a3 g3 || f2g f2d | f2c d2c | B2g f2d | a3 [d3g3] :|
+d3 a3 | g3 f3 | d3 a3 | d'3 a3 || b3 a3 | g3 f3 | d3 f2d | a3 [d3g3] || d'3 c'3 |
+b3 a2g | f3 e3 | d3 c3 || B3 A3 | G3 F2E | D3 d3 | a3 [d3g3] |]

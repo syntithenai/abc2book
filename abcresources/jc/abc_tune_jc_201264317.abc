@@ -1,0 +1,38 @@
+X:1
+T: The Convention
+N:
+C:
+S:Tune is "York Fusiliers"
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 35 notes)
+K:D
+M:4/4
+L:1/16
+D8 F4 A4 |d4 e2 f2 g4 e4 |f4 d4 c4 d4 |e2 d2 c2 B2 A2 G2 F2 E2 |D8 F4 A4 |d4 e2 f2 g4 e4 |f4 d4 c2 d2 e2 c2 |d16 |
+%W: A2
+% voice 1 (1 lines, 35 notes)
+D8 F4 A4 |d4 e2 f2 g4 e4 |f4 d4 c4 d4 |e2 d2 c2 B2 A2 G2 F2 E2 |D8 F4 A4 |d4 e2 f2 g4 e4 |f4 d4 c2 d2 e2 c2 |d16 |
+%W: B1
+% voice 1 (1 lines, 29 notes)
+f4 e4 e8 |f4 a4 a8 |f4 a4 f4 d4 |e2 d2 c2 B2 A2 B2 c2 d2 |f4 e4 e8 |f4 a4 a8 |f4 a4 f4 d4 |e16 |
+%W: B2
+% voice 1 (1 lines, 29 notes)
+f4 e4 e8 |f4 a4 a8 |f4 a4 f4 d4 |e2 d2 c2 B2 A2 B2 c2 d2 |f4 e4 e8 |f4 a4 a8 |f4 a4 f4 d4 |e16 |
+%W: C1
+% voice 1 (1 lines, 30 notes)
+D4 A4 A8 |D4 B4 B8 |A4 B4 A2 G2 F2 E2 |D4 d4 c4 d4 |D4 A4 A8 |D4 B4 B8 |A4 B4 A2 G2 F2 E2 |E8 D8 |
+%W: C2
+% voice 1 (1 lines, 30 notes)
+D4 A4 A8 |D4 B4 B8 |A4 B4 A2 G2 F2 E2 |D4 d4 c4 d4 |D4 A4 A8 |D4 B4 B8 |A4 B4 A2 G2 F2 E2 |E8 D8 |
+%W: D1
+% voice 1 (1 lines, 35 notes)
+A6 G2 F4 d4 |A6 G2 F4 d4 |B4 A4 G4 F4 |E2 D2 E2 F2 E8 |A6 G2 F4 d4 |A6 G2 F4 d4 |B4 g2 e2 f2 d2 e2 c2 |d4 d4 d8 |
+%W: D2
+% voice 1 (1 lines, 35 notes)
+A6 G2 F4 d4 |A6 G2 F4 d4 |B4 A4 G4 F4 |E2 D2 E2 F2 E8 |A6 G2 F4 d4 |A6 G2 F4 d4 |B4 g2 e2 f2 d2 e2 c2 |d4 d4 d8 ||

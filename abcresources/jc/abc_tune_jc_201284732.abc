@@ -1,0 +1,27 @@
+X:4
+T:Hark! The Hearld Angles Sing
+C:C. Wesley/F. Mendlessohn
+Q:140
+S:Ted Neil <ted.neil:amd.com> abcusers 2002-12-15
+V:1 % program 1 40 volume 75
+V:2 % program 1 68 volume 128
+V:3
+M:4/4
+L:1/4
+K:G
+V:1 "G"D "_Melody"G G>F|G B B A|"D"d d d>c|"G"B A B2|D G G>F|
+V:2 "G"B, "_Baritone Harmony"D D>C|D G G F|"D"A A A>G|"G"G F G2|B, D D>C|
+V:3 "G"G "_Tenor Harmony"B B>A|B d d c|"D"f f f>e|"G"d c d2|G B B>A|
+%
+V:1 "G"G B B A|"D"d A A F|F E D2|"G"d d d G|"C"c B B A|
+V:2 "G"D G G F|"D"A F F D|D B, D2|"G"B B B D|"C"G F F E|
+V:3 "G"B d d c|"D"f d d A|A G  F2|"G"g g g B|"C"e d d c|
+%
+V:1 "G"d d d G|"C"c B B A|e e e d|c B c2|"G"A B/c/ d>G|
+V:2 "G"B B B D|"C"G F F E|c c c B|G F G2|"G"F G/A/ B>D|
+V:3 "G"g g g B|"C"e d d c|g g g f|e d e2|"G"c d/f/ g>B|
+%
+V:1 "G"G A B2|"C"e>e e d|c B c2|"G"A B/c/ d>G|G A G2||
+V:2 "G"D F G2|"C"c>c c B|G F G2|"G"F G/A/ B>D|D F D2||
+V:3 "G"B c d2|"C"g>g g f|e d e2|"G"c d/f/ g>B|B c d2||
+%

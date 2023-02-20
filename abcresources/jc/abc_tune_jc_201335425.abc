@@ -1,0 +1,30 @@
+X: 1
+T: Segovia-Valsen
+C: Kalle Liljeberg
+R: waltz
+S: Tune-raiser for David (Facebook group) 2021-12-16 (Transcription by C.Kaynor)
+S: https://www.facebook.com/photo/?fbid=10224233391496806&set=pcb.1067011790747121
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: 1/4=120
+K: Am
+% - - - - - - - - - -
+% Voice 1 reformatted for 4 8-bar lines, for compactness and proofreading.
+V: 1 staves=2
+|: E2 | A2 AB c2 | B3 c d2 | ef ed cB | A3 E AB | Tc3 B A2 | cd e2 ef | e6 | e4 
+   E2 | A3 B  c2 | B3 c d2 | ef ed cB | A3 E AB | Tc3 B A2 | B2 A2 G2 | A6 | A4 :|
+|: ea | f3 e  dc | B3 c df | ef ed cB | A3 E AB |  c3 B A2 | cd e2 ef | e6 | e4
+   ea | f3 e  dc | B3 c df | ef ed cB | A3 E AB |  c3 B A2 | B2 A2 G2 | A6 | A4 :|
+% - - - - - - - - - -
+% Voice 2 preserves the layout in C
+% Chords added by JC
+V: 2
+|: A,2 |\
+"Am"C3 D E2 | "E7"^G3 A B2 | "Am"cd cB AE | C3 B, CD | TE3 D C2 |
+E2 A2 c2 | "E"B6 | B4 "(Am)"A,2 | "Am"C3 D E2 | "E7"^G3 A B2 | "Am"cd cB AE | C3 B, CD |
+TE3 D C2 | "G"D2 C2 B,2 | "Am"C6 | C4 :|: A2 | "Dm"d3 c BA | "G"G3 A Bd |
+"Am"cd cB AE | C3 B, CD | E3 D C2 | "(F)"F2 E2 Dc | "E7"B6 | B4 "(Am)"c2 |
+"Dm"d3 c BA | "G"G3 A Bd | "C"cd cB AE | "Am"C3 B, CD | E3 D C2 | "G"D2 C2 B,2 | "Am"C6 | C4 :|
+% - - - - - - - - - -
+%%text https://open.spotify.com/track/6XCt3R9ombvdAlZPud6dbN

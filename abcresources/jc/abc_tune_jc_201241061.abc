@@ -1,0 +1,42 @@
+X: 421
+T: Rothemurches Rant -- strathspey
+R: strathspey
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.42 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 4th strain has initial repeat but no final repeat; not fixed.
+N: Fixed the lengths of the final bass notes in each strain.
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+G |\
+(TE>DE)C E<GG2 | c>GA>G c>GA<c |\
+(TE>DE)C E<GG2 | A>cG>c E<DD :|
+|: f|\
+Te2d>e d>ed>A | c>de>d c>Ac>G |\
+A/A/A a>g Te2dc | A>cG>c EDD :|
+|: g |\
+e>gg>a g>aTg>e | e>a-a>b a>ba>g |\
+e>gd>e c>de>c | e>a(Tg>e) d/d/d d :|
+|: g |\
+Te2d>c d<e a2 | g<e ed Tc2 A>c |\
+G>Ac>d Te2d>c | A>cG>c E<DD |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+c2c2 c2c2 | c2c2 c2c2 |\
+c2c2 c2c2 | f2e2 d2d :|\
+|: z |\
+c2d2 d2d2 |
+c2c2 c2c2 |\
+A2A2 a2a2 | f2e2 d2d :|\
+|: z |\
+c2c2 c2c2 | c2c2 c2c2 |\
+c2c2 c2c2 |
+A2A2 D2D :|\
+|: z |\
+c2c2 c2c2 | c2c2 c2c2 |\
+c2c2 c2c2 | f2e2 d2d |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

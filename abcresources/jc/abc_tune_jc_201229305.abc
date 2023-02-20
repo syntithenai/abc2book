@@ -1,0 +1,33 @@
+X: 121
+T: the First of August
+T: Longways for as many &c.
+%R: reel
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.61
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: 2/2	% Actually just "2"
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A2A2 F2GA | B2B2 A4 |\
+BcdB cdec | fgfe d4 :|\
+|:\
+f2gf e2dc | dfed c2BA |
+Bcde cdef | defg e4 |\
+A2A2 F2GA | B2B2 A4 |\
+Bcd2 cde2 | fgfe d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Note: Each strain twice.
+%%begintext align
+%% The 1st Cu. clap and cast of .| Then clap & cast
+%% up :| The 1st Man goes of the outside the 3d Wo.
+%% and the 1st Wo. off the Inside the 2d Wo. at the same
+%% time, then 1st Man cast up behind the 3d Man &
+%% the 1st Wo. cast off behind the 2d Wo. at the
+%% same time .| Then right and left with the 2d Cu.
+%% quite round and turn your Partner :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

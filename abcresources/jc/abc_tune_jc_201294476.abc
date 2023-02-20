@@ -1,0 +1,17 @@
+X: 1466
+T: the Jolly Seven
+R: reel
+%S: s:2 b:16(8+8)
+B: O'Neill's 1850 #1466
+O: Hartnett
+Z: Bob Safranek, rjs@gsp.org
+Z: Compacted via repeats and multiple endings [JC]
+M: C|
+L: 1/8
+K: C
+"^A"\
+[| c2(ec) gcec | c2(ec) dBGB c2(ec) gcec | a^f{a}ge dBGB \
+|| c2(ec) gcec | c2(ec) dBGB cBA^G AB^cd | eaed ^cAA2 |]
+"^B"\
+[| ceAe ceAe | ceAe dBGB | ceAe ceAe | a^f{a}ge dBGB \
+|| ceAe ceAe | ceAe dBGB | cBA^G AB^cd | eaed ^cAA2 |]

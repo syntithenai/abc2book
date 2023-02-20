@@ -1,0 +1,92 @@
+
+X: 1
+T: Road to Errogie
+C: Adam Sutherland
+R: reel
+S: Barbara McOwen
+B: BSFC Session Tune Book 2016 p.32
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: B
+BG |\
+"B"FB B/B/B cBcd | fB B/B/B "B7"cdfB |\
+"E"g3g "/D#"fdBc- | "C#m"cBcd "F#7"cBGB |\
+"B"FB B/B/B cBcd | fB B/B/B "B7"cBbB |
+"E"g3g "C#m"fdBc- | "F#7"cBcd "B"B2 :| fB |\
+"B"b3b- b2c'b | d'3c' "B7"b2bg |\
+"E"fggf "/D#"bffg- | "C#m"gfbf "F#7"gfdf |
+"B"b3b- b2c'b | d'3c' "B7"b2bg |\
+"E"fg g/g/g "C#m"fdBc- |"F#7"cBcd "B"B2fB ||\
+"B"b3b- b2c'b | d'3c' "B7"b2bg |
+"E"fggf "/D#"bffg- | "C#m"gfbf "F#7"gfdB |\
+"B"FB B/B/B cBcd | fB B/B/B "B7"cBbB |\
+"E"g3g "C#m"fdBc- | "F#7"cBcd "B"B2 :|
+
+
+X: 1
+T: Kohler's Hornpipe
+T: Laybourne's Hornpipe
+R: reel
+B: K\"ohler's Violin Repository, v.1, 1885 p.66 #3 (unnamed hornpipe)
+B: BSFC Session Tune Book 2016 p.32
+S: from VOM 1991
+N: arr. Andy Imbrie
+M: 4/4
+L: 1/8
+K: C
+G2 |\
+"C"cBcd "G7"cdef | "C"g^fga "C7/E"gedc |\
+"F"AGAB cdcA | "C"GEcA "C7/E"GECE | "F"FEFG "G"AGAB |
+"C"cBcd "Am"egag | "F(Dm)"fedc "G"AcBd | "G7"eccB "C"c2 :|\
+|: gf |\
+"C"egcg egcg | "G"dgBg dgBg |
+"Am"ceAe ceAe | "C/E"GcEc GcEc |\
+"F"FEFG "G7"AGAB | "C"cBcd "Am"egag |\
+"Dm(F)"fedc "G"AcBd | "G7"eccB "C"c2 :|
+
+
+X: 1
+T: Faroe Rum
+O: Shetland
+R: reel
+S: handwritten MS
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: "D"A(A2F) ABd(B | "D"AF)FD "A7"E2(FG) | "D"A(A2F) ABde | "A7"fafe "D"d2[f2d2] :|
+|: "A7"e(AcA) e(AcA) | "D"ABde f2af | "A7"e(AcA) e(AcA) | "A7"e(gfe) "D"d2d2 :|
+
+
+X: 1
+T: Lasses Trust in Providence
+O: Shetland
+S: via B. McOwen, arr. T. Traub 4-26-2004
+R: Reel
+M: 4/4
+L: 1/8
+K: D
+A2 \
+| "D"d2 de fdef | "G"d2 df "A7"ecBA \
+| "D"d2 de "Bm"fdef | "G"dBAF "A7"E2 EA \
+|| "D"d2 de fdef |
+| "E7"d2 df "A7"ecBA | "D"d2 de "Bm"fdef | "G"dBAF "A"E2 E2 \
+|[| "D"A2 AB ADFA | "G"d2 d2 BABd |
+| "D"A A2 B ADFA | "A7"GFEC "D"DEFG | "D"A2 AB "D7"ADFA \
+| "G"d2 d2 "A"BABd | "D"A A2 B ADFA | "A7"GFEC "D"D2 |]
+
+
+X: 1
+T: Laxo Burn
+C: Arthur Scott Robertson (1984)
+M: C|
+L: 1/8
+Z: 2002 John Chambers <jc:trillian.mit.edu> from handwritten MS (by Barbara McOwen?)
+B: BSFC Session Tune Book 2016 p.p.33
+B: BSFC Tune Book XXXII-3
+K: D
+AG |\
+"D"FD~D2 FGA=c | "G"BG~G2 GABd | "A7"^cA~A2 cdeg | "D"fdcd "G"Bd"A"Ad | "D"FD~D2 FGA=c |
+| "G"BG~G2 GABd | "A7"^cA~A2 cdeg | "D"fddc d2 :: zg | "D"f2df Afdf | "Em"g2eg Bgeg |
+| "E7"^g2eg Bgeg | "A"a2ea "A7"ceA=g | "D"f2df Afdf | "Em"g2eg "E7"Bge^g | "A7"aA~A2 cde=g | "D"fddc d2 :|

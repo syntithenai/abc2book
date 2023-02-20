@@ -1,0 +1,54 @@
+%%continueall
+
+X: 1
+T: Vaiennut viulu
+C: sävelmä: Konsta Jylhä
+C: sanat: Viljami Niittykoski
+Z: John Chambers <jc@trillian.mit.edu>
+B: "Konstan parhaat", Edition Coda, Helsinki, 1970
+M: 3/4
+L: 1/4
+K: Am
+[| "Am"EAG | "Dm"F>ED | "E7"B,ED | "Am"C>B,A, |
+w: 1.~On viu-lu vai-en-nut, on soit-to rau-en-nut
+w: 2.~Nyt viu-lu sei-n\"al-l\"a\"an, kai-va-ten yk-si-n\"a\"an
+| E"B7"^F"E7"^G | "Am"A>Bc | "B7"B=G^F | "Em"E2"E7"z |
+w: mi en-nen helk-ky-en her-k\"as-ti soi
+w: muis-te-lee h\"an-t\"a mi nuk-kui jo pois.
+| "Am"ABc | "Dm"B>AA | "G7"GFB, | F>"C"EE |
+w: i-lo-ja ih-mis-ten, su-ru-ja sy-d\"an-ten
+w: H\"an en-nen jou-sel-laan, hy-v\"ail-len soi-tin-taan,
+| "Am"AcB | "B7"^F2"E7"^G | "Dm"dcB | "E7"e3 |
+w: kau-neim-man kai-puun il-moil-le toi,
+w: sen kie-let soin-tuin hur-ma-han sai,
+| "C"cGE | "Dm"D2F | "E7"E2[^GD] | "Am"[A3C3] |]
+w: niin-kuin vain viu-lu soi-da voi.
+w: kuin tai-to-mies voi saa-da vain.
+
+
+%%sep 5 1 500
+
+X: 2
+T: Vaiennut viulu
+C: sävelmä: Konsta Jylhä
+C: sanat: Viljami Niittykoski
+Z: John Chambers <jc@trillian.mit.edu>
+B: "Konstan parhaat", Edition Coda, Helsinki, 1970
+M: 3/4
+L: 1/4
+K: Dm
+[| "Dm"Adc | "Gm"B>AG | "A7"EAG | "Dm"F>ED |
+w: 1.~On viu-lu vai-en-nut, on soit-to rau-en-nut
+w: 2.~Nyt viu-lu sei-n\"al-l\"a\"an, kai-va-ten yk-si-n\"a\"an
+| A"E7"=B"A7"^c | "Dm"d>ef | "E7"e=c=B | "Am"A2"A7"z |
+w: mi en-nen helk-ky-en her-k\"as-ti soi
+w: muis-te-lee h\"an-t\"a mi nuk-kui jo pois.
+| "Dm"def | "Gm"e>dd | "C7"cBE | B>"F"AA |
+w: i-lo-ja ih-mis-ten, su-ru-ja sy-d\"an-ten
+w: H\"an en-nen jou-sel-laan, hy-v\"ail-len soi-tin-taan,
+| "Dm"dfe | "E7"=B2"A7"^c | "Gm"gfe | "A7"a3 |
+w: kau-neim-man kai-puun il-moil-le toi,
+w: sen kie-let soin-tuin hur-ma-han sai,
+| "F"fcA | "Gm"G2B | "A7"A2[^cG] | "Dm"[d3F3] |]
+w: niin-kuin vain viu-lu soi-da voi.
+w: kuin tai-to-mies voi saa-da vain.

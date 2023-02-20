@@ -1,0 +1,289 @@
+
+X: 0
+T: Klezmer Jam Session Tunes - Bb instruments
+N: Fiddle Hell 2013
+K:
+
+%%sep 1 1 500
+
+X: 1
+T: And the Angels Sing (der Shtiller Bulgar)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Kammen 1#15
+B: Kammen 1#15
+M: 2/4
+L: 1/8
+K: D
+|: ABc \
+| "D"d4- | dd/f/ ed | f4- | fg/f/ ed | "A7"ef ga | "D"fd "A7"ec | "D"dd' c'b | ag fe |
+| "D"d4- | dd/f/ ed | f4- | fg/f/ ed | "A7"ef ga | "D"fd "A7"ec | "D"d4- | d :|
+|: dfa \
+| "D"b=c'2c' | =c'/b/a a2 | ^ga2a | a/g/f f2 | b=c'2c' | (3=c'ba ^gab | a4 | [d'3f3]z |
+| "D"b=c'2c' | =c'/b/a a2 | ^ga2a | a/g/f f2 | "A7"ef ga | "D"fd "A7"ec | "D"d4- | d :|
+|: ddc \
+| "Bm"B3 f | ed cd | "(Em)"e3 d | "Bm"(3fed (3dcB | B3 f | ed cd | f4 | [b3d3]z |
+| "Bm"B3 f | ed cd | "(Em)"e3 d | "Bm"(3fed (3dcB | c/e/d2d | (3dcB "F7"(3^ABc | "Bm"B4- | B :|
+
+%%sep 1 1 500
+
+X: 1
+T: Bulgar: Henry Weinstein's
+T: Wu Nemt Men a Bisel "Bash"
+T: Where can you find a little party?
+C: Henry Weinstein (Kammen 9 #19)
+B: Kammen 9 #19
+Z: John Chambers <jc:trillian.mit.edu>
+R: Bulgar
+M: 2/4
+L: 1/8
+K: Em
+"^A"|: EGB \
+|| "Em"e^d eB- | B^A B2 | GF GE- | EE FG | "Am"A3 G | "B7"B/^A/G G/F/E | "Em"^A/=c/ B3- | BE GB |
+|| "Em"e^d eB- | B^A B2 | GF GE- | EE FG | "Am"A3 G | "B7"B/^A/G G/F/E | "Em"E4-        | E :|
+"^B"|: "D7"d[e=c][f_c] \
+|| "G"[gB][dB] [gB][bd]- | [bd][gB] [b2d] | [d'b][bg] [d'b][bg]- | [b4g] \
+| "D7"[a3f] [bg] | [c'a][d'/b][c'/a] [bg][af] | "G"[^af] [b3g]- | [bg]d "D7"[e=c][f_c] |
+|| "G"[gB][dB] [gB][bd]- | [bd][gB] [b2d] | [d'b][bg] [d'b][bg]- | [b4g] \
+|  "D7"[d'3b] [bg] | [d'/b][c'/a][bg] [c'/a/][b/g/][af] | "G"[g4g]- | g :|
+"^C"|: G"B7"F^D \
+|| "Em"E4- | E[F^D] [GE][AF] | [B4G]- | [BG]G FE | "B7"^D2 F2 | c3 ^A | "Em"B3 ^A | B/^A/G G/F/E |
+|| "Em"E4- | E[F^D] "E7"[GE][^G=D] | "Am"[A4C] | [c2E] z2 | "Em"BE FG | "B7"B/^A/G G/F/E | "Em"E4- | E :|
+
+%%sep 1 1 500
+
+X: 1
+T: Der Gasn Nigun   [Em]
+T: The Street Tune
+R: horra
+B: The Compleat Klezmer p.47
+M: 3/8
+L: 1/16
+Q: 3/8=60
+K: Em
+|: zG2 \
+| "Am"GA3 A2 | TA4 G2 | "Em"GE- E4- | E2z2 G2 \
+| "Am"GA3 A2 | "D7"TA3G BA | "G"G3D BD | G2z2 D2 |
+| "Gm"D3G FG | A3_B ^cd | "A"e3=f ed | T^c3_B AG \
+| "Em"G3F "Am"AF | "Em"G3E "Dm"(3=FED | "Em"E3e BG | E2z :|
+|: B,EG \
+| "Em"B6- | B3B (3d^cB | ^A^c B4- | B3E GB \
+| "Em"d3^c (3dcB | d3^c (3dcB | ^A^c B4- | B3 B,EG |
+| "Em"B3^A (3BAG | B3^A (3BAG | F=A G4- | G3 B,EF \
+| "Em"G3F (3GFE | G3F (3GFE | ^DF E4- | E2z :|
+
+%%sep 1 1 500
+
+X: 1
+T: Hora Veche   [Bm]
+O: Romania
+Z: from a 2012 transcription by Peter Yacono
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/16
+L: 1/16
+K: Bm
+F- "F#7"FBc |\
+"Bm"cd2 ~d2c | "Em"^de2 "C#7/e#"~e2=d | "F#7"~d2c c3- | ~c2F ^AB2 |\
+"Em"B~c2 c2~B | ~^A3 GFG | "Bm"F6- | "F#7"F2F Bd2 |
+"Bm"^ef2 ~f2^e | "B7"fg2 ~g2f | "Em"{^a}b2z e3- | "(cm)"e2e f2g |\
+"F#7"fdf ~e2d | "/g#"dBd "/a#"c^Ac | "Bm"B6- | B2  :|
+|: f- f^ef |\
+"Bm"d6- | d2f- ~f^ef | "F#7"c6- | c3 z3 |\
+"Em"[c2^A2][dB] [ec][f2d2] | ~[g2e2][fd] [ec][g2e2] | "Bm"[f6d6]- | "F#7"[f2c2]f- fg^a |
+"Bm"{^a}b6- | "B7"bfa gg^d | "Em"^de2- e3 | "(cm)"{f}g6 |\
+"F#7"fdf ece | "/g#"dBd "/a#"c^Ac |["1-n" "Bm"B6- | Bz :|["fine" "Bm"Bz2 "F#7"fz2 | "Bm"bz |]
+
+%%sep 1 1 500
+
+X: 1
+T: Kandel's hora
+R: horra
+M: 3/8
+L: 1/16
+%Q: 3/8=60
+P: Play ABCB
+K: EPhr^G
+"A"\
+|: "E"E3G BA | TG3F "Dm"ED | "E"E4 E2 | E6 \
+| "Dm"F2E2D2 | "A7"^C3D EF | "Dm"D6- | D6 |
+| "E"E3G BA | TG3F "Dm"ED | "E"E4 E2 | {E}B6 \
+| "E"TB3A GF | TG3F "Dm"ED | "E"E6- | E4 E2 :|
+"B"\
+|: "Am"A2A2A2 | A4 G2 | "E"TB3A GF | E4 E2 \
+| "Dm"A2G2F2 | "E"E3F GA | G6- | G4 E2 |
+| "Am"A2A2A2 | A3B c^c | "Dm"d3=c BA | "E"G4 G2 \
+| "Dm"A2D2 EF | G2A2 GF | "E"E6- | E4 "^fine"E2 :|
+|| "Am"A6- | A4 Bc | A6- | A4 Bc \
+| A4 Bc | A4 Bc | A6- | A4 E2 ||
+"C"\
+|: "Am"A2B2c2 | c4 c2 | c6- | c4 c2 \
+| "Am"Tc3B/c/ BA | Tc3B/c/ BA | "Dm"d3c BA | "E"B4 A2 |
+| "E"G2A2B2 | B3e Be | B6- | B4 E2 \
+| "Am"c3B BA | "E"G3A Bc | "Am"A6- | A4 "_=> B"E2 :|
+%%text The B part is often repeated here.
+
+%%sep 1 1 500
+
+X: 1
+T: Khosidl
+T: Yismekhu
+M: 2/4
+L: 1/16
+Z: John Chambers <jc:trillian.mit.edu>
+K: Ephr^G
+|: "E"EFEF GAGF | G2E2 B,2E2 | GAGA BcBA | B2G2 E2G2 || EGBd cBAG | "Dm"AGFE D4 |
+| ^CDEF GAGF | "E"GFE6 :: "E"B8 | B8 | B4 B4 | B4 B4 || "E"BcBc B3A |
+| GAGA B4 | BcBc B3A | "(Dm)"GAGF "E"E4 || "E"BcBc B3A | GABc "Dm"d4 |
+| dccB BAAG | GAGF "E"E4 :: "E"G3F EDEF | GAGF E4 | EcBA GABc |
+| B4 e4 || "(Dm)"dcBA GABc | dcBA GFED | "Dm"^CDEF GAGF | "E"GFE6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Kishiniever Bulgar [A]
+T: Bulgar from Kishiniev
+S: Abe Schwartz's Orchestra 1917
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+EAc \
+| "A"ed c2 z EAc | ed c2 z EAc | "A"e2 "D" f2 "A"e2 "E7"dc | "A"e3 ka z EAc |
+| "A"ed c2 z EAc | "Bm"dc B2 "E7"z Bcd | "A"e>c "E7"d>B "A"c>A "E7"B>G | "A"A4 z :|
+|: z3 \
+| "A"ef =g2 "D"fe f2 | "E7"ed e2 "A"d c3 | e2 dc e2 dc | e4 a2 a2 |
+| "A"ef =ga f=g ef | "E7"de cd "A"cB BA | "A"e>c "D"d>B "A"c>A "E7"B>G | "A"A4 z :|
+
+%%sep 1 1 500
+
+X: 1
+T: Leben Zol Palestina  [Em]
+%T: Smokin' Bulgar
+R: bulgar
+D: DRK-204 "Git Azoy" the 12 Corners Klezmer Band
+M: 4/4
+L: 1/8
+K: Edor
+z3 \
+|  "Em"zB BB d/c/B B2 | zG GG B/^A/G G2 | zE EE G/F/E ^D/E/F | E2 B2 (3B^AG (3GFE |
+|  "Em"zB BB d/c/B e2 | zG GG B/^A/G B2 | zE EE G/F/E ^D/E/F | E4 z :|
+|: "B7"(Bc^d \
+| "Em"e)d cB ^AB cd | {d/}cB {B/}^AG FG ^AB | {d/}cB {B/}^AG {B/}^AG {G/}FE | (^AB7) |
+| "Em"ed cB ^AB cd | {d/}cB {B/}^AG FG ^AB | {d/}cB {B/}^AG {B/}^AG {G/}FE | E4 z :|
+K:E
+|: "B7"Bef \
+| "E"g4- geba | g4- ggfe | "B7"fgab gefd |1,3 "E"b2 z3 :|2,4 "E"e4 z :|
+
+%%sep 1 1 500
+
+X: 1
+T: Misirlou  [Ehjz]
+C: N.Roubanis 1927
+O: Greece
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: ^G^d
+|: "E"E3 F G2 A2 | B3c d2cB | B8- | B8 |\
+| E3F G2A2 | B3c d2cB | B8- | B8 |
+| "Am"cB2c B2A2 | BA2B A2G2 | "E"G8- | G8 |\
+| "Dm"BA2B A2G2 | GF2G F2EE | "E"{GF}E8- | E8 :|
+|: "Am"A8- | A6 GA | "G"B8- | B6 AB | "F"c6 Bc | "B"d6 cd | "E"e8- | e8 | [K:=d]
+[K:^G]
+| "Dm"f e2 f e2 d2 | e d2 e d2 c2 | "E"B8- | B8 |\
+| "Dm"d c2 d c2 B2 | B A2 B G2 F2 | "E"E8- | E8 :|
+%P: Coda
+%|| "Am"c6 Bc | "B"^d6 cd | "E"e8- | e8- | e8- | e z7 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Russian Freilach (Bm)
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Bm
+|: "Bm"B2 FB | FB FB | d2 Bd | Bd Bd \
+| f2 df | "Em"e2 ce |1 "Bm"d2 Bd | "F7"c2 f2 :|2 "F7"d2 cB | "Bm"B4 |]
+[| "Bm"zf ga | gf ed | zf ga | gf ed | zf ga | "B7"ba gf | "Em"e2 gf | e4 |
+| "A7"ze fg | ag fe | "D"d2 fe | d3 d | dA Ad | "C/Am"d=c cB | "Bm"B4- | B4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Wedding in Crown Heights   [E]
+%T: Purim Nign (Purim tune)
+R: freilach, bulgar
+M: C
+L: 1/8
+K: ^G % E freygish/hejaz
+"A"|:\
+"E"EcBA GGGz | "E"GAGF EEEz | "E"GG2G "Am"AA2c |\
+[1 "Dm"BAGA "E"B2z2 :|[2 "Dm"BAGF "E"E2 z ||
+"B"|: E |\
+"A"A2B2 ^c>BAE | "A"A2B2 ^c>BAE | "Am"A2B2 =c2e2 |\
+[1 "B"^d2c2 "(E)"B2z :|[2 "B"^d2c2 "(E)"B2 z2 ||
+"C"|:\
+"Dm"Bd2d d2d2 | dccB BAAG |\
+"E"GB2B B2B2 | BAAG GFFE | "E"GG2G "Am"AA2c |\
+[1 "Dm"BAGA "E"B2 z2 :|[2 "Dm"BAGF "E"E2z2 ||
+"D"|:\
+"E"GG2G "Am"AA2c | "Dm"BAGA "E"B2z2 |\
+"E"GG2G "Am"AA2c | "Dm"BAGF "E"E2z2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Yos'l Yos'l [Em]
+M: 2/4
+L: 1/8
+K: Em
+B,EG \
+| "Em"B2 "Am"c2 | "Em"BB "B7"AG | "Em"c B3 | zB,EG \
+| "Em"B2 "Am"c2 | "Em"BA cB | "B7(Am)"A4 | "B7"zB,^DF |
+| "B7"A2 B2 | "(Am)"AA GF | "B7"A A3 | zB,^DF \
+| "B7"A2 B2 | AG BA | "Em"G4 | zB,EG |
+| "Em"B2 "Am"c2 | "Em"BB "B7"AG | "Em"c B3 | zB,EG \
+| "Em"B2 e2 | "E7"dc ed | "Am"c4- | c2 cd |
+| "Am"ee ee | e2 dc | "Em"BB BB | B2 AG \
+| "(B7)"B2 F2 | "B7"AA GF | "Em"E4- | E |]
+%%text The last 8 bars are often repeated, giving 40 bars; this is a 32-bar contradance version.
+
+%%sep 1 1 500
+
+X: 1
+T: Anniversary Waltz    [Am]
+T: Chanesse Valts
+O: Eastern European Jewish
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+L: 1/4
+M: 3/4
+R: Waltz
+K: C
+|: "E7"E3- |E ^G A | B3- | B ^G E | "Am"c3- | c B A | e3- | "A7"e3 |
+| "Dm"f3- | f e d | "Am"e3- | e d c | "E7"B3- | B c B | "Am"A3- | A3 :|
+|: {ABcdefg}"F"[af] [af]>[af] | [af] [af]>[af] | "C"[af] [ge]>[^f^d] | [g3e] \
+| "Dm"[fd] [fd]>[fd] | [fd] [fd]>[fd] | "Am"[fd] [ec]>[^dB] | [e3c] |
+| "E7"[dB] [dB]>[dB] | [dB] [dB]>[dB] | "Am"[dB] [cA]>[B^G] | [A2E] [ac] \
+| "Dm"[fd] [dA] [BF] | "E7"[c2E] [B^G] | "Am"[A3A]- | [A3A] :|
+
+%%sep 1 1 500
+
+X: 1
+T: Salo Enis Klezmer Waltz   [Em]
+C: Salo Enis 1915-2013
+%date 1935
+R: waltz
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Em
+B2 |:\
+"Em"g3 f fe | "E7"e2 B2 d2 | "Am"c6- | c4 A2 |\
+"D"f3 e e^d | "B7"^d3 c BA | "Em"G2 A3 B | "B7"B4 B2 |
+"Em"g3 f ag | "E7"f2 e2 B2 | "Am"d4 c2 | c6 |\
+"B7"B3 c ^de | f4 g2 | "Em"e6- | [1 e4 B2 :|[2 e6 ||
+|:\
+"Em"EF G2 B2 | e2 g3 e | "B7" e2 ^d4- | d4 B2 |\
+f2 ^d3 B | f2 ^d3 B | "Em"A2 G4- | G6 |
+"Em"E2 G2 B2 | e2 g2 f2 | "E7"e2 d3 c | "Am"A6 |\
+"B7"B3 c ^de | f2 g4 |[1 "Em"e6- | e6 :|2 "Em"e3 e BG | E4 |]

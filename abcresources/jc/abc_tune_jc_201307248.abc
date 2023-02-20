@@ -1,0 +1,26 @@
+To: Shelley.Drowns@gmail.com
+Subject: Marine's Hymn
+
+X: 1
+T:Marine's Hymn
+M:C|
+L:1/8
+P:Flute
+%Q:1/2=120
+C:Arr. by David Bennett
+K:Eb
+e2g2 [|\
+b2(bc') Tb4 | b2(bc') Tb4 | z2(bg b2)(bg | bgef) g3a |\
+b4b4 | a2f2 (bagf | e2)(Be) g2(eg) | Tb4e2g2 |
+b2(bc') Tb4 | b2(bc') Tb4 | z2(bg b2)(bg | bgef) g3a |\
+b4b4 | a2f2 (bagf | e2)(bg) e2(ec) | e4z4 |
+Te'8- | e'8- | e'8- | e'8- |\
+e'8- | e'8- | e'4 Tb4- | b2z2 e2g2 |
+b2(bc') Tb4 | b2(bc') Tb4 | z2(bg b2)(bg | bgef) g3a |\
+b4b4 | a2f2 (bagf | e2)z2 z4 | z4 |]
+%%begintext
+%% FROM THE HALLS OF MONTEZUMA, TO THE SHORES OF TRIPOLI.
+%% WE WILL FIGHT OUR COUNTRY'S BATTLES IN THE AIR ON LAND AND SEA. (OR ON LAND AND AIR AND SEA)
+%% FIRST TO FIGHT FOR RIGHT AND FREEDOM, AND TO KEEP OUR HONOR CLEAN,
+%% WE ARE PROUD TO CLAIM THE TITLE OF THE UNITED STATES MARINES!
+%%endtext

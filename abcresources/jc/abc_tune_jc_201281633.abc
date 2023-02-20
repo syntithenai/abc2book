@@ -1,0 +1,20 @@
+X: 12
+T: the Gold Ring
+C: anon.
+%S: s:7 b:56(8+8+8+8+8+8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #12
+R: double jig
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0012/oneill-1001-0012-1.abc
+%m: Tn2 = (3n/o/n/ o/n/
+%m: Mn = (3n/o/n/
+M: 6/8
+L: 1/8
+K: G
+"^A"[|] d | cAG GFG | cAG G2d | cAG GFG | cAG F2 || d | cAG GFG | cAG TA2G | FGA (~fed) | cAG G2 :|
+"^B"|: d | cAd cAd | cAG G2d | cAd cAd | cAG F2 || d | cAd cAd | cAG TA2G | FGA (~fed) | cAGG2 :|
+"^C"|: (3d/e/f/ | gag gdc | BGGG2 d/e/ | =fgf fc_B | A=FF F2 || d | gag gdc | BGG G2d | =fgf fed | cAG G2 :|
+"^D"|: (3d/e/f/ | gdd fdd | gdd fdd | gdd fdd | cAG G2 || (3d/e/f/ | gdd fdd | gdd fdd | (f/g/a)g f2d | cAG G2 :|
+"^E"|: D | Gdd Gdd | cAG G2A | TB2G TA2G | cAG F2 || A | TB2G TA2G | TB2G TA2G | FGA (~fed) | cAG G2 :|
+"^F"|: (G/A/) | BGB AFA | DED FED | Add fed | cAG FGA || BGB AFA | DED FED | Add fed | cAG G2 :|
+"^G"|: (G/A/) | BAB DED | AFA DED | Add fed | cAG FGA || BAB DED | AFA DED | Add fed | cAG G2 :|

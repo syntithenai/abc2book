@@ -1,0 +1,1310 @@
+
+X: 0000
+T: L\aatar fr\aan Dalarna
+C: samlade och utgivna av Paul B\"ackstr\"om
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+K: none
+% - - - - - - - - - -
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0001
+T: Stor Kersta-visa
+%R: vals
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: Dm
+% - - - - - - - - - -
+D | D F A | G B A | F E C | D2 D | B B G |
+w: O-lyck-lig jag f\"od-des i Jol-re ka-pell, av hul-da f\"or-
+%
+c c A | B> A G | A2 A | d> e d | c> B A |
+w: \"ald-rar en kropp och en sj\"al, mot d\"o-den ett m\aal* till
+%
+B {cB}A G | A2  (F/E/) | D F A | G B A | F {GF}E C | D2  |]
+w: v\"arl-den ett prov, samt* l\"am-nad o, ti-digt \aat v\"arl-den ett rov.
+% - - - - - - - - - -
+%W:2.~Mitt namn h\"ar utspriddes med st\orsta besv\"ar, att Kerstin P\aals\-
+%W:dotter p\aa Idre det \"ar, som blivit f\"orr\aadder av
+%W:falska f\"rsvar, som med tiden f\aar besinna, att i himlen \"ar far.
+% - - - - - - - - - -
+%%begintext align
+%% Uppt. Stig Bergstr\"om efter Olof Ersson - Bergstr\"om och Evald Person, vilka sjungit melodin.
+%% Text: Edvard Bergstr\"om
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0002
+T: Schottis
+C: etter Storbo J\"ons
+%R: shottish
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - -
+|:\
+D2F>A d2d2 | D2F>A d>ed>c | e>fe>c A2B>c | d2c>B A>GF>E | D2F>A d2d2 |
+D2F>A d>ed>c | e>fe>c A2B>c | d2d2 d2z2 :: a2a2 g2e>g | f2d2 e4 | =f2a>g Tf2e>d |
+c>de>d c2A2 | a2a2 g2e>g | f2d2 e4 | =f2a>g Tf2e>d | c>de>c d4 :|
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0003
+T: Schottis Rheinl\"ander
+O: efter Storbo J\"ons och Storjo Halvar
+%R: shottish
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Dm
+% - - - - - - - - - -
+|:\
+a>age f2{gf}ed | ^c2A2 A4 |\
+A>=B^cd e2e2 | {fe} d>^cdf a4 |\
+a>age f2{gf}ed | ^c2A2 A4 |
+A>=B^cd e>^fec | d2d2 d4 :|\
+|:\
+f2fg f2{gf}ed | e2a2 {b}a2ge |\
+f2fg f2{gf}ed | e2e^c A4 |
+f2fg f2{gf}ed | e2a2 {b}a2ge |\
+.f2df .e2Ac | d2d2 d4 :|\
+|:\
+d2d2 ({e}Td>^c)ed | ^c2AA A>bag |
+f2fg f2af | (f2{gf}e)^c A4 |\
+d2d2 ({e}Td>^c)ed | ^c2AA A>bag |\
+.f2df .e2A^c | d2d2 d4 :|
+% - - - - - - - - - -
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0004
+T: S\"arna Hurven: Stor-Hurven
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+P: (G-str\"angen uppst\"amt till a.)
+K: Dm
+%%text K.E.F.11.
+% - - - - - - - - - -
+|:\
+[E3A,2]F [D3A,2]E ^CA,CD | [E3A,2]F [D3A,2]E ^CA,CD | [E3A,2]F [D3A,2]E ^CA,CD |[1 D2z2 [E8A,8] :|[2 D2z2 A,8 |:
+A3^c d3e [f3A2]a | (3(g2e2g2) a2e2 [f2A2]a2 |[1 g2eg f3d [e3A3]^c | d2e2 f2d2 ^c2=B2 :|
+|[2 (3(g2e2g2) f2e2 [e3A3]^c | "_D.C. al Fine."d2z2 A8 |]\
+[K:=B][K:D] "^N\aagot l\aangsammare."f3e d3f a3f | d2ec "_Fine"[d8F8] |]
+% - - - - - - - - - -
+%%text Jmf. S.L.nr 503.
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0005
+T: S\"arna Hurven: Lill-Hurven  (>>Bakm\"as>>)
+O: efter Olmorts Eril Olsson. M.E.
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+P: (G-str\"angen uppst\"amt till a.)
+K: Dm
+%%text K.E.F.12.
+% - - - - - - - - - -
+|:\
+"^>"A3^c d3e f3a | g2eg "^>"a8 |[1 Tg3e f2d2 e2d2 | ^c2e2 d2c2 A4 :|[2 Tg3e f2d2 e2^c2 |
+^c2ec d8 |: [F2A,2]z2 [E8A,8] | [F2A,2]z2 [E2A,2]^C2 E2G2 | (3(F2D2F2) E2^C2 E2F2 |[1 D2z2 E8 :|[2 E2z2 "_D.C."D8 |]
+% - - - - - - - - - -
+%%text Jmf. S.L.nr 507.
+
+% %newpage
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0006
+T: Mikael-laaten, efter Johan Mikael Iiesselies
+N: K.E.F. 17.
+N: G-str\"angen uppst\"amt till a.
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q:
+K: D
+% - - - - - - - - - -
+|:\
+"_>"[A2A2] (3(FGF) (3(EFE) | DE (3(CEC) D2 | "_>"[A2A2] (3(BAB) (3(cBc) |\
+[1,3 df ec A2 :|2,4 [d4D4] z2 :|
+|:\
+"_>"[A2A2] (3(dAd) (3(fdf) | (3(afa) "_>"d'2 f2 | "_>"(3(gag) (3(fgf) ec |\
+[1,3 (3(def) (3(dcB) [A2A2] :|2,4 (3(def) [d4D4] :|
+% - - - - - - - - - -
+
+%%center --- page eject ---
+%% newpage
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0007
+T: G\aards Jonas Polska
+O: M.E.
+R: polska
+P: (G-str\"angen uppst\"amd till a.)
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+%%text K.E.F.14.
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+|:\
+D>E "_>"[F2A,2] (3(EFE) | Dz "_>"[E4A,4] |\
+{a}^ga/-g/ fg/f/ ed | "^>"^c-B/c/ d4 :|\
+"_>"A>^c de f>a | Tge/g/ (fd/f/) "_>"e2 |
+{^c}d>e fe fa | Tgf/g/ "_>"a4 ||\\
+.A.^c .d.e Tf.a | fd/f/ .e.^c .A._B |\
+"_>"A>F DF E>^C | (3(DEF) D4 |]
+% - - - - - - - - - -
+%%text Jmf. S.L.nr 499
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0008
+T: Slufre-l\aaten efter Anders Besselius
+O: M.E.
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+P: (G-str\"angen uppst\"amd till a.)
+K: Am
+%%text K.E.F. 15.
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+[|\
+[AA,]>^G A^c eg | gf/e/ de =cB |\
+{B}[AA,]>^G A^c eg | gf/e/ de =c2 |\
+{c}"_>"B>d cA B^G | (3("^<"ABc) A4 ||
+|:\
+"^>"B>d cA B^G | (3("_>"ABc) AA ^G2 |\
+"_>"B>d (3(cAc) (3(B^GB) | "_>"Ac e4 |\
+"_>"B>d (3(cAc) B^G | (3(ABc) A4 :|
+% - - - - - - - - - -
+%%text Jmf. S.L.nr 497, 687.   13-15-20
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0009
+T: S\"arna \"Aldsta Brurmarsch. efter G\aards Jonas.
+O: M.E.
+%R: march
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+P: (G-str\"angen uppst\"amd till a.)
+%%text K.E.F.24.
+K: Dm
+% - - - - - - - - - -
+|:\
+[A2D2] (3(^cde) | Tgf Tfd | Td^c TcA | [e3c3] e ||\
+Tfd (3(efg) | [a3A3] e | fa (3(Tgfe) | [d3D3] A :|
+|:\
+[AD] a2 =b | gg ae | (3(Tfed) (3(Td^cd) | [e3A3] f ||\
+(3(Tgfe) fTf | dTd ^cTc | A^c [eA]c |[1 [d3D3] A :|[2 [d4D4] |]
+% - - - - - - - - - -
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0010
+T: S\"arna Brurmarsch. efter Spaks Erik.
+O: C.G.
+P: (G-str\"angen uppst\"amd till a.)
+%R: march, gaanglaat
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+%%text K.E.F. 25.
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+|:\
+!f!"_>"[a4A4] (Tf2df) | "_>"[a4A4] (Tf2df) |\
+"_>"[a4A4] bagf | "_>"[g4A4] ({a}Tg2fg) ||\
+"_>"[e4A4] (c2Ac) |"_>"[e4A4] (c2Ac) |\
+(e2g2) f2Te2 |[1 [d4F4] (d2e2) :|[2 [d4F4] (d2e2) ||
+|:\
+!mf!dz "_>"B4 B2- | B2d2 (c2B2) | (TB2A2) (A2B^G) |\
+"_>"A6 A2 || (TA2"_cresc. . ."B2) (c2d2) |\
+(e2f2) (g2e2) | "_>"[d4F4] (Tc2Ac) |[1 [d4F4] (d2e2) :|[2 [d8F8] |]
+% - - - - - - - - - -
+%%text Jmf. S.L. nr 496
+%%text Jmf 1098, 1136
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0011
+T: Gammal G\aangl\aat, Stekmarschen
+O: M.E.
+%R: march, g\aangl\aat
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Dm
+P: (G-stringen upst\"amd till a. De sekunderande l\"osa str\"angarna skola ljuda med.)
+% (G-string uptuned to a. The secondary loose strings will sound along.)
+%%text K.E.F 38.
+Q: "marc."
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+|: !f!\
+A2d2 e2a2 | e2^fg a4 |\
+{g}^f2ed e2^c2 |[1 A8 :|[2 d6 e2 \
+|:\
+=f2{g}fe f2a2 | e6 ^c2 |
+d2{e}d^c d2f2 | e6 g2 |\
+f2e2 d2fa | g2e2 ^c2eg |\
+f2ed e2^c2 |[1 d6 e2 :|[2 d8 |]
+% - - - - - - - - - -
+%%begintext
+%% The first 8 bars were written without the repeat.
+%% The repeat was added to save space and a staff.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0012
+T: Stabb-L\aaten. efter Olmorts Olof.
+P: (G-str\"angen uppst\"amd till a.)
+O: M.E.
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The source had natural signs on all the non-sharped f notes; not transcribed.
+M: 3/4
+L: 1/8
+K: Dm
+%%text K.E.F 31.
+% - - - - - - - - - -
+[|\
+A>^c e>c ^f>d | e>^c ez c2 | A>^c fd fd | d^c e4 || A>^c e>c f>d |\
+e>^c ez Tc2 | A>^c eg Tfd |
+(3(e^ce) d4 |[| ^c>d e2 fd | (Tf2 e)z d=c |\
+(TB2 A)z GF | TE2 D4 || ^c>d e2 fd | (Tf2 e)z df | e>c Ac d^f | (3(e^ce) d4 |]
+% - - - - - - - - - -
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0013
+T: 497. Skrikegubbens Polska efter B\"ake Halvar
+O: efter Lars \AAhs
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+% %text S.L.
+Q: 1/4=120
+K: Am
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+|:["bis" {B}A3^G A3c e2f2 | agfe d3e c4 :| {c}A3c B2Ac B3G |[1 A2cB A3B G4 :|[2 A2Bc [A8A8] ||
+|::: B4 d3c AcBG | A2Bc A2BA G4 | B4 d3c AcBG |[1,3 A2Bc [e8e8] :|[2,4 A2Bc [A8A8] :|
+N: The original has the 2nd line twice, differing only in the last note.
+% - - - - - - - - - -
+%%text Jmf S.L.687 K.E.F.nr 15
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0014
+T: 686. L\aangdans "Stabbl\aaten" fr\aan Sarna
+O: efter Magnus Engzelius
+%R: mazurka, polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+P: A-bas
+Q: "S.L."
+K: Dm
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+e |\
+g{ag}e f2 dz/f/ | e^c A3 e |\
+g{ag}e f2 dz/f/ | e^c a3 a |\
+g{ag}e f2 dz/f/ | e^c A3 e |
+g>{ag}e f2 dz/f/ | e^c d3 || e |\
+fe f2 g2 | az/g/ a3 e |\
+fe f2 g2 | az/g/ a3 g |\
+az/^f/ d2 =f2 | e^c d3 |]
+% - - - - - - - - - -
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0015
+T: 687. Polska efter Halvar B\"ackman
+O: efter Magnus Engzelius
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+P: A-bas
+Q: "S.L."
+K: Am
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+|:\
+("_>"A2{B}A^G A3)(^c [e3A3])[eA] | ("^>"[g3A3](3{a}g/f/e/ d3)(e ^c3)B |\
+("^>"A2{B}A^G A3)(^c "^>"[e3A3])[eA] | ("^>"[g3A3](3{a}g/f/e/ d3)e "^>"=c3e |\
+{e}"^>"d2.B.d (3.c2.A2.c2 "_>"B3^G |
+(3(A2B2c2) [A8A,8] ::\
+(B3d) (3c2A2c2 "_>"B3^G | (3(A2B2c2) A3A ^G4 |\
+B3d (3c2A2c2 (3B2=G2B2 | A3^c Me8 |\
+{c}B3d (3c2A2c2 "_>"B3^G | (A2B2c2) [A8A,8] :|
+% - - - - - - - - - -
+%%text Jmf. S.L. nr 479, K.E.F. nr 15
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0016
+T: Stor-Hurven
+O: efter Halvar B\"achman
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Dphr
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+[|\
+E4 (FEFD) (D3E) | [E4^C4] (3(F2E2F2) (D3E) |\
+[E4^C4] (3(F2E2F2) [F4D4] | [E4^C4] {D}[D4D4] {E}[E4A,4] |\
+(EF3) (DA,3) (6:4(^CA,B,CDE) |
+(FEF2) (DA,3) (6:4(^CA,B,CDE) |\
+(FEF2) (D3E) [E3^C3][EC] | ([E3^C3][DD]) [D8D8] \
+|:\
+[A3D3](^c d3)(e ^f3)(a | g3)(b a4) {^fe}f3(a |
+g3)(e ^f2)d2 (e2^c2) | {e}d6 ^f2 (3(A2^c2e2) |\
+A3(^c d2)(e2 (^fefa)) | (3(g2e2g2) a4 (^fefa) |\
+g3(^f d2)f2 (3(^c2A2c2) | d4 [A8A,8] :|
+|: ({E}FEF2) (DA,3) (6:4(^CA,B,CDE) | (3(F2E2F2) (DA,3) (6:4(^CA,B,CDE) \
+|[1 [F4D4] [F4D4] [E3^C3]([EC] | [D4D4]) [E8A,8] \
+:|[2 [F4D4] [D4D4] [E3^C3][EC] | [E4^C4] [D8D8] |]
+% - - - - - - - - - -
+%%text Jmf. K.E.F. S\"arna nr 11
+%%text Uppt.Ture Gudmundsson
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0017
+T: Sv\^ole-leken
+T: Sval-l\aaten
+O: efter Halvar B\"ockman
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: D
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+|:\
+([AD] a4) (fefa) g2(b2 | a3)g f2a2 g2eg | {fg}f3e d2ef g3(f | e2)fg a4 (3(b2g2b2) | a3g f2a2 {gf}g2(b2 |
+a3)(g f2)a2 g2eg | f4 d2(ef g3)f | d>fec d8 :: [A2D2]f2 d2ec [A4A4] | [A2D2]f2 d2ec [A4A4] |
+[A2D2]f2 g3e (3(g2a2g2) | (3(f2g2f2) d4 (fgfe) |[1 (3(c2e2d2) (3(B2c2B2) A4 :|[2 (cAce) [d8F8] || "_pizz"H[e12A12] |]
+% - - - - - - - - - -
+%%text Jmf. K.E.F. s\"arna nr 20   23
+%%text Uppt. Ture Gudmundsson
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0018
+T: G\aangl\aat efter Halvor B\"ockman
+P: A-bas
+%R: ganglat, march
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+g4 |\
+(3(fgf)ed e2fg a2c2 d2eg | (3(fgf)ed e2c2 A4 [D4A,4] |\
+({fe}f2d2) {f}e2fg a2ab a2g2 | (3(fgf)ed e2fg a2c2 d2eg |
+(3(fgf)ed (5(cAcAc) d4 [D4D4] | (g>age) f2d2 (ef)ed c2A2 ||\
+[M:5/4] (g>a)ge f2d2 (5(cAcAc) d4 [A4A,4] ||[M:C] (gage) f2d2 efed c2A2 ||
+[M:5/4] (g>a)ge f2d2 (6(cAcAcA) [d4D4] [A4A,4] ||[M:C] f2d2 A2(fefg) a3b a2g2 |\
+(3(fgf)ed e2fg a2c2 d2eg | (3(fgf)ed [e2c2][e2c2] ([ce2]A)[c2e2] [d4D4] |
+{fe}f2(df) e2(fg) a3b a2g2 | (3(fgf)ed e2fg a2c2 d2eg |\
+(3(fgf)ed (5(cAcAc) [d4D4] D4 | (g>age) f2d2 (ef)ed c2[A2D2] ||
+[M:5/4](g>age) f2d2 (5(cAcAc) [d4D4] [A4A,4] ||[M:C] (g>age) f2d2 efed c2A2 |\
+(gage) f2d2 (5(cAcAc) ([d2-D2][d2F2]) |]
+% - - - - - - - - - -
+%%text Uppt. Ture Gudmundsson
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0019
+T: Lil-Hurven efter Dimorts Olof Svensson
+P: A-bas
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: D
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+|:\
+[A3D3A,3]([cD-] [d3D3])([eA-] [f3A3])([aA-] | [g2A2])[eA][gA-] [a3A3]([eA-] [fA3]ef)>([aA-] \
+|1 [g3A3])([eA-] [f2A2])([f2A2] (3[c2e4]d2c2) | (3([c2e4]d2c2) [d2f2][d2f2] (3([c2e4]d2c2) \
+:|2 [g3A3][eA] [f2d2][f2d2] [e2c2]ec | {c}[d4D4] "^,"y[D8A,8] |]
+|:\
+{fe}[f2A2]df [e4A4] (3(c2A2c2) | (d/e/f)(fd) [e4A4] (3(c2A2c2) | (d/e/f)(fd) [e4A4] (3(c2A2c2) \
+|1 [f3d3][fd] [e8e8] :|2 {c}[d4D4] "^,"y[D8A,8] |]
+% - - - - - - - - - -
+%%text Jmf. K.E.F. S\"arna nr 12
+%%text Uppt. Ture Gudmundsson
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0020
+T: Slufre-l\aaten
+O: efter Olmerts Olaf Svensson
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+P: A-bas
+K: Amix
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+|: {AB}A3G A3c e3g | (3({a}g2f2e2) d2(fe) (cdcB) \
+| A3G A3c e3g | (3({a}g2f2e2) d2(fd) ce3 |
+(3(d2B2d2) (3(c2A2c2) B3G |[1 (3(A2B2c2) [A4A,4] [E4A,4] \
+:|[2 (3(A2B2c2) [A8A,8] |: {=c}[B2E2](Bd) =c3A (BcBG) |
+(3(A2B2=c2) A4 G3B | B2d2 (3(c2A2c2) (3(B2G2B2) \
+|[1 (A2c2) {c}[e8e8] :|[2 (3(A2B2c2) [A8A,8] |]
+% - - - - - - - - - -
+%%text Jmf. K.E.F. S\"arna nr 15   8-13-15
+%%text Uppt. Ture Gudmundsson
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0021
+T: G\aangl\aat efter G\aards Jonas
+O: efter Olmarts (Spak) Erik
+%R: ganglat, march
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+"^A"|:\
+{AB}A3F D2(DF) | {G}G6 (GB) | (AB)AF A2c2 | e6 (ef |\
+e2)((3cdc A2){A}d2 | [f6A6] ((3(fgf) | e2)d2 c2(3(efe) | d2(fe d4) :|
+"^B"|:\
+[dD]efg a2b2 | a2(3(fgf) d2A2 | defg a2d'2 | c'2b2 a2f2 |\
+defg a2b2 | {ab}a2f2 [f4d4] | (cdef) (3(gag)(ec) | {c}d4-[d4D4] :|
+% - - - - - - - - - -
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0022
+T: Schottis - Rheinlander efter Olmorts (Spak) Erik Olsson
+%R: shottish
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+"^A"|:!segno!\
+[D2G,2][B2D2] [D2G,2][B2D2] | c2(B/c/B/)A/ [B4D4] |\
+{cd}e2d>d d2cc | c2B2 {Bc}B>AB2 ||\
+[D2G,2][B2D2] [D2G,2][B2D2] | [c2D2]([B/D2]c/B/)A/ [B3D3](c |
+d)ddd c2(A/B/A/)F/ | [G2G,2][G2G,2] [G4G,4] !coda!y \
+"^B"::\
+D>bb>a a>gg>f | {fg}f>ee>d e4 |\
+[dD]>[fd][fd]>e e>[dD][dD]>[cD] | [cD]>[BD]{Bc}[BD]>A [B3D3](c |
+[dD])>bb>a a>gg>f | ({fg}f>e)(e>d) e3(e |\
+[d2D2]){fg}f>e [d2D2]ba | g2[D2G,2] [g2B2]"^1)"z2 !segno!y\
+"^C"::!coda!\
+G2(FA) G2(FA) | G2[D2B,2] [D4B,4] |
+G2(FA) G2(FA) | G2[E2C2] [E4C4] |\
+{E}G>=FEF G2(ed) | c>d(3(cBc) A4 |\
+G2(BA) G2ed | c2G2 [c4E4] :|
+% - - - - - - - - - -
+N: 1) "D.S.al !coda! pai !coda!" below staff, but not reproducible in some abc software.
+N: Trad., en norrman--Halvar B\"ackman
+N: Uppt. Ture Gudmundsson
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0023
+T: Sv\^ole-leken
+T: Sval-l\aaten
+O: efter Olmorts (Spak) Erik
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: D
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+|:\
+{A}a3g f2fa {gf}g3b | a3g f4 {f}a4 | {f}g2eg (3(fgf)(d2 e3)(f |\
+g2)((3(fgf) e3)(f g3)(a | b2)gb a3(g f2)a2 |
+(3({f}gfg)(b2 a3)(g f2)a2 |{f}g2eg (3(fgf)(d2 e3)(f |\
+(3(gag))(e2 c2)Ac [d4D4] :: [A2D2]f2 d2fd A4 | D2(3(fgf) d2fd A4 |
+D2f2 g2e2 (g>agf) |\
+[1 ([f2A2][f2d2]) (3([f2d2][f2d2][f2d2]) ([e2-d2][e2c2]) | [e3e3]d (B2cB) A4 :|\
+[2 f2d2 [f2d2][f2d2] (ece2) | d12 |]
+% - - - - - - - - - -
+%%text Jmf. K.E.F S\"arna nr 20
+%%text Uppt. Ture Gudmundsson
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0024
+T: Gr\"asl\aaten
+C: Trad. fader
+O: efter Olmorts (Spak) Erik
+N: Uppt. Ture Gudmundsson
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Compacted via repeats and multiple endings; also by using labels and play order [JC]
+P: Play ABAB CBCB
+P: A1A2 BA2
+M: 3/4
+L: 1/8
+K: Dm
+%%vskip 5
+% - - - - - - - - - -
+"^A"|:\
+(^F>G) AF Ac | (BA) GA/G/ A2 | (^c>d) ec eg |1 (e^f) de/^c/ A2 :|2 (f/e/f) d2- "^fine"[d2D2] |]
+"^B"[|\
+([e^c]>d) ec eg | (e^f) ff/d/ e2 | (^c>d) ec eg | (e^f) dd/^c/ "^->A2"A2 |]
+% - - - - - - - - - -
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0024
+T: Gr\"asl\aaten
+C: Trad. fader
+O: efter Olmorts (Spak) Erik
+N: Uppt. Ture Gudmundsson
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+% - - - - - - - - - -
+[|\
+(^F>G) AF Ac | (BA) GA/G/ A2 | (^c>d) ec eg | (e^f) de/^c/ A2 |
+(^F>G) AF Ac | (BA) GA/G/ A2 | (^c>d) ec eg | (f/e/f) d2- [d2D2] ||
+||\
+([e^c]>d) ec eg | (e^f) ff/d/ e2 | (^c>d) ec eg | (e^f) dd/^c/ A2 |
+(^F>G) AF Ac | (BA) GA/G/ A2 | (^c>d) ec eg | (f/e/f) d2- [d2D2] |]
+% - - - - - - - - - -
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0025
+T: Polska efter Olmorts (Spak) Erik
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Uppt. Ture Gudmundsson
+N: Trad.:fader
+N: The 1st ending of the 2nd phrase has 4 beats.
+N: The 2nd phrase lacks a begin-repeat; added.
+M: 3/4
+L: 1/16
+K: D
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+|:\
+{AB}[A4D4] [A2F2]DF A2FA | {A}d4 {fg}f2df {f}a4 | ({ab}a3e) c2Ac e3g- | f3(e d2)(de d4) |
+{AB}[A4D4] [A2F2]DF A2FA | {A}d4 {fg}f2df {f}a4 | {ab}a3(e c2)Ac e3(f | (3(gag))e<c d4- [d4D4] :|[K:=c][K:G]
+|:\
+({B}[g4B4] f2)(gf e2)(fe | d3)(c d2)(ef g4-) | g2(bg f2)(af e3)c |[1 d2(de d2)A2 F2GF E2D2 :|[2 d2ef {f}d4- [d4D4] |]
+% - - - - - - - - - -
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0027
+T: Plant Ola l\aaten
+O: efter Olmorts (Spak) Erik
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Trad.:fader
+N: Uppt. Ture Gudmundsson
+M: 3/4
+L: 1/16
+K: Dm
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+|:\
+[A3D3]a (aba2-) a2(3(gag) | [e4A4] ({e}fefe) d3^c | (d2e2) (f2gf) [e4A4] |\
+[1 (gag^f) (e2d2) ^c2d2 | e3^c [A8A8] :|
+[2 (gag^f) (e2d2) ((3^cdc)Ac | {c}d12 |:\
+A3A {A}d8 | ({d}^cdc=B)  c3d e3g |
+f3e (3(d2^c2d2) e2^c2 | A3A {A}d8 |\
+({d}^cdc=B) c3d e3f | f2e^c d8 :|
+% - - - - - - - - - -
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0027
+T: Henningl\aaten
+O: efter Frans Jakobsson
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: D
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+|:\
+([A,4D4A4] a2)[aA][aA] [a4A4] | ([A,4D4A4] g2)[gA][gA] [g4A4] |\
+{fg}f3d f3a f3d | (ec3) [e8A8] | ([A,4D4A4] a2)[aA][aA] [a4A4] |\
+([A,4D4A4] g2)[gA][gA] [g4A4] |
+{fg}f3d f3a f3d | (ec3) [d8D8] ::\
+[A3D3]d  [f3d3][fd] [f3d3]d | ([eA]c3) [e8A8] | {f}e3d Tc3A B3c |
+d2dd d3A (FD3) | [A3D3]d [f3d3][fd] [f3d3]d | ([eA]c3) [e8A4] |\
+{f}e3d Tc3A B3c |[1 {c}d4 [d6D6] A2 :|[2 {c}d4 [d8D8] |]
+% - - - - - - - - - -
+N: Trad.: Arvid B\"ackman
+N: Uppt. Carl Gustav F\"arje o. Paul B\"ackstr\"om
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0028
+T: Vals efter G\aards Jonas
+O: efter Frans Jakobsson
+%R: waltz
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+FG |\
+A2 (3(Bcd) (e<f) | [f4d4] (FG) | A2(B<A) (GF) | [E4A,4] (FG) ||\
+A2 (3(Bcd) (e<f) | (g2 (3(fgf)) (ed) | {d}c2 (c<A) (B<c) | d4 :|
+|: de |\
+[f2A2] [e2A2] [fA][fA] | {f}g2 B2 g2 | a2 ({b}a^g)ab | a4 g2 ||\
+Tf2 e<d e<f | Tg2 B2 e2 | {d}c2 ({d}cA)Bc | {c}d4 :|
+% - - - - - - - - - -
+N: Trad. Arvid B\"ackman
+N: Uppt. Carl Gustav F\"arje o. Paul B\"ackstr\"om
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0029
+T: Schottis Rheinl\"ander efter Olmorts (Spok) Erik
+O: efter Ingvar Norman
+%R: shottish
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+|:!segno!\
+[A2D2]f2 [A2D2]f2 | {D}g2(f/g/f/e/) [f4A4] |\
+{ga}b2a>a a2A2 | g2f2 {g}Tf2e>f ||\
+[A2D2]f2 [A2D2]f2 | {D}g2(f/g/f/e/) [f4A4] |
+{f}aaaa {a}g2(3(ege) | d2(3(edc) d4 !coda!::[K:=c][K:G]\
+d>bba (ag)(gf) | (fe){f}ed e4 |\
+(d>f)(fe) (ed)dc | (cB){c}BA B4 ||
+{B}d>bba (ag)(gf) | (fe){f}ed e4 |\
+d2Tfe d2ba | g2(3(agf) g4 !segno!:|y!coda!|:\
+d2(ce) d2(ce) | d2[A2F2] [A4F4] |
+d2(ce) d2(ce) | d2[B2G2] [B4G4] ||\
+{B}d>cBc d2(b>a) | g>a(3(gfg) e4 |\
+d2(fe) d2ba | g2(3(agf) [g4B4] :|
+% - - - - - - - - - -
+N: This tune was labelled "29a", but most ABC software ignores that 'a'.
+%%text Upptecknad och bearbetad av Ingvar Norman
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0029
+T: Skrikhed polska
+O: efter Frans Jakobsson
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: D
+% - - - - - - - - - -
+|:\
+A3F D3F A3F | D2EF G4 [B4D4] | (3(B2c2B2) A3c e3c | A2Bc [1,3 {c}d4 f4 :|[2,4 {c}d8 :|
+|:\
+({fg}f2ef) g2(3(fgf) e3d | e3f g4 (3(f2g2f2) | e3c A3c e3c | A2Bc d4 f4 |
+((3(fgf)ef) g2(3(fgf) e3d | e3f g4 b4 | (Te3c) A3c e3c | A2Bc d4 [d8D8] :|
+% - - - - - - - - - -
+%%text Trad. Olmerts (Spok) Erik
+N: Uppt. Carl Gustav F\"arje  Paul B\"ackstr\"om
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0030
+T: \AAsens brudl\aat
+O: efter Viktor Gabrielsson
+%R: march
+N: Uppt. Carl Gustav F\"arje
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Dm
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+|:\
+d4 cBAc | BAGB ({A}(3ABc | d4) cBAc | BAGB A4 | A2^c2 d4 | d2e2 f4 |
+f2a2 a2g2 | b2a2 a2g2 | {e}f4 fgaf | d2f2 ((3{f}efe)~dc | d8 :|
+|:\
+f4 ((3{f}fgf)~ed | cdec A2A2 | {c}BABc d2B2 | [A8F8C8] | f4 ((3{f}fgf)~ed |
+cdec A2A2 | {c}BABc d2B2 | [A8E8^C8] | A2^c2 d4 | d2e2 f4 | f2a2 a2g2 |
+b2a2 a2ge | f4 fgaf | e4 efec | d2f2 ((3{f}efe)~dc | [d8D8] :|
+% - - - - - - - - - -
+%%text uppt. Carl Gustav F\"arje
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0031
+T: Faut Pers Vals I.
+P: K.E.F. 11.
+C: C.G.
+%R: waltz
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Redundant endings replaced with "pickup" notes and repeats.
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+A |\
+d2 (cd) (eg) | {g}Tf2 (ef) (3(dbb) | {b}a2 (fa) (ge) | f2 (df) A2 |\
+d2 (cd) (eg) | {g}Tf2 ef (3(dbb) | {b}a2 fa ge | d2 z3 :|
+|: g |\
+b2 bb bb | (ba) (af) (df) | {f}a2 aa aa | (ag) (fe) d2- |\
+d2 (cd) (eg) | {g}Tf2 (ef) (dbb) | {b}a2 (fa) (ge) | d2 z3 :|
+% - - - - - - - - - -
+%%text Jmf. S.L. nr 645.
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0032
+T: Faut Pers Vals II.
+P: K.E.F. 12.
+C: C.G.
+%R: waltz
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Added missing dot to last note in the 1st strain, to fix the rhythm of repeats.
+M: 3/4
+L: 1/8
+K: C	% and Am
+%%begintext align
+%% (St\aar av arrang\"oren oriktigt harmoniserad i G-dur "Ett fordomdags
+%% br\"ollop i \"Alvdalen", d\"ar \"annu en Faut Pers Vals finnes).
+%%endtext
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+|:\
+G2 (GB) d2 | (cBcd) e2 | d3 (BcA) | G3 (FEF) |\
+G2 (GB) d2 | (cBcd) e2 | d3 (cBd) | "_Fine."c6 :|
+|:\
+(e>f) edcB | A2 {B}A2 G2 | g2 (3(^fgf) (ed) | e2 e2 c2 |\
+(e>=f) edcB | A2 {B}A2 G2 | c2 (3(BcB) (AG) | "_D.C."A4 :|
+% - - - - - - - - - -
+%%text Jmf. S.L. nr 410.
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0033
+T: Evetsbergs Gamla Brudmarsch.   efter P\aal Karl Persson.
+C: C.G.
+P: K.E.F. 14.
+%R: march, g\aangl\aat
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: This tune had the triplet notes half-length; fixed
+M: 2/4
+L: 1/16
+K: Am
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - -
+(A,2 | A2)(gb) {ab}a2(3(gag) | {g}e2ge (3(fgf).e.d | (3(fgf).e.^c A2(gb) | {ab}a2(3(gag) {g}e2ge |
+(3({g}fgf).e.d (3(fgf).e.^c | A4 (3(=cdc).B.A | (BA) (A/B/c/d/) e4 | (3({g}fgf).e.d (fe)(ec) |
+A4 ((3cdc).B.A | BA (A/B/c/d/) e4 | E6 E2 |: A4 ((3{c}BcB).A.G | (BA)(cd) e4 |
+{gfg}f2ed (fe)(ec) | A4 ((3{c}BcB)AG | (BA)(cd) e4 | d8 :|
+% - - - - - - - - - -
+%%text Jmf. S.L. nr 659,663?
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0034
+T: Vals fr\aan Evetsberg. efter P\aal Karl Persson
+C: C.G.
+%R: waltz
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The last bar has A6, but that would give 4 beats on a repeat, so it was "fixed".
+N: Duplication of pickup notes in 1st endings eliminated.
+M: 3/4
+L: 1/8
+P: K.E.F.16
+K: Am
+%%text (G-str\"angen uppst\"amd till A).
+% - - - - - - - - - -
+[AA,][AA,] |\
+[A2A,2] (cA) (cd) | e4 [ee]>[ee] |\
+[e2c2] {g}f2 d2 | [e4c4] [e2c2] |\
+(3(cdc) BG BG | A4 :|\
+|: Ac |\
+(e>^f) e2 d2 | (3(^fgf) ed cd |
+(e>^f) e2 d2 | (3(^fgf) ed cd |\
+(e>^f) e2 d>f | e4 [ee]>[ee] |\
+e2 ^f2 d2 | [e4c4] [e2c2] |\
+(3(cdc) BG BG |A4 :|
+% - - - - - - - - - -
+%%text Jmf. S.L. nr 355
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0035
+T: Tommos Anders Polskor efter S.G.Larsson
+C: C.G.
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: A
+% - - - - - - - - - -
+|:\
+(e4 a3)g b3f | {g}f4 (efe)d c3d | (e4 a3)g b3f | ({g}f2e2) e8 :: (e2a2) a3Tf d4 | (d2f2) f3Te c4 |
+(c2e2) e3Td B3c | (B2A2) (.A.B.c.d) e4 | (e2a2) a3Tf d4 | (d2f2) f3Te c4 | (c2e2) e3Td B3c | (3(B2G2B2) A8 :|
+% - - - - - - - - - -
+%%text Jmf 42 (=S.L. 404), 1050, S.L. 573
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0037
+T: \"Alvdalens Brudmarsch efter S.J.Larsson
+C: C.G.
+%R: march
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+P: E.F.32.
+K: G
+% - - - - - - - - - -
+D2 |:\
+"^>"G3G (A2B2) | c2(3(BcB) A2G2 | (B2d2) (e2ce) |"^>"d4 "_>"A4 | d4 (e2f2) | g2(3(fgf) (e2d2) | (AB^cd) (e2ce) |
+|[1 d4 z2(3(B=cB) :|[2 d6 d2 |] d6 f2 | (a2fa) g4 | ({d}cBcd) (e2ce) | (d3B) A2B2 | "^>"c4 (cedc) |
+"^>"B4 (BdcB) | A3c (TB2AF) | G6 B2 | "^>"c4 (cedc) | "^>"B4 (BdcB) | A3c (TB2AF) | HG8 |]
+% - - - - - - - - - -
+%%text Jmf. S.L. nr 144,417    Jmf 429-499
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0037
+T: \"Alvdalens Stekl\aat efter Isak Anders
+C: C.G.
+%R: g\aangl\aat
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+P: K.E.F.24
+K: A
+% - - - - - - - - - -
+|:\
+e(fec) A2A2 | (efed) (cdeg) | (Tf2ed) (Tc2Ac) | (TB2AG) B2A2 | "^>"[A4D4] "^>"[A4C4] :|
+||:\
+(efe^d) e2g2 | (a2ab) (Ta2=ge) | (=g2ga) (faf=d) | "^>"e4 "^>"[e4A4] | (efe^d) e2^g2 |
+(a2ab) (Ta2=ge) | (=g2ga) (faf=d) | (efec) A2B2 | (=c2ec) (TB2AG) | "^>"A4 H"^>"A4 :|
+% - - - - - - - - - -
+%%text Jmf. S.L. nr 351,370,383,387,414,540,609?,648
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0038
+T: S\"oderstens vals.   Efter Lars Orre.
+C: C.G.
+%R: waltz
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Gm
+% - - - - - - - - - -
+G2 |:\
+G2 B2 d2 | g4 g2 | (fg) fe dc | B4 (3(ABA) |\
+G^F GA Bc | d2 dB G2 | (3(BcB) A2 ^F2 | G4 G2 :|
+|:\
+{Bc}B2 Bd =fd | {de}d2 BG BG | {AB}A2 Ac ec | {cd}c2 AF AF |\
+G2 GA Bc | d2 dB G2 | {Bc}B2 A2 ^F2 | G4 :|
+% - - - - - - - - - -
+N: K.E.F. 31.
+N: Jmf. S.L. nr 481,631.
+N: L\aaten kallas av \"alvdalsspelm\"annen "Silkesvalsen".
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0039
+T: S\"oderstens minne.   Polska efter Lars Orre
+C: G.G.
+% What does G.G. stand for?
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Gm
+% - - - - - - - - - -
+|: (D2G2) (G3^F) (G2A2) | (A2B2 B2)AG A4 | {A}d4 d3c {c}B3A |[1 {A}G2(G^F) (GAG)F D4 :|[2 {A}G2(G^F) (GAG)F G4 ||
+|: (d4 B)(Bd)d f2d2 | d4 (cd)cA =F4 | F12 | {Bc}(B2G2) (G2B2) {d}d3B | {Bc}B4 (ABA)^F D4 |
+| D12 | D2(D2 ^F2)(F2 G2)G2 | A2A2 (BAB)c d2(3(cdc) | {c}B2A2 G2G2 (AB.A).G | (^F2=EF) G8 :|
+% - - - - - - - - - -
+N: K.E.F. 32.
+N: Jmf. S.L. nr 582.
+N: Jmf 392, 464, 602, 1111, 1135, 1207, 1215, 1261, 1262
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0040
+T: Psalm fran \"Alvdals \AAsen
+O: upptecknad av Pastor Alb. Lindberg
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+N: K.E.F.36.
+K: A
+% - - - - - - - - - -
+(c^e) | (f3 g) (f^e) (fa) | (g3 ^e) c2 "^,"x (ce) | (f3 g) f2 ^d2 | =e6 (c^e) |
+(f3 =e) (c=d) (ef) | (d3 c) B2 A2 | B4 c4- | c6 :||: g2 | (a3 b) (ag) (fa) | (g3 a) g3 ","x g |
+(a3 b) (ag) (fa) | g6 ","x (c^e) | (f3 =e) (cd) (ef) | (d3 c) B2 A2 | B4 c4- | c6 :|
+% - - - - - - - - - -
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0041
+T: Polska efter Gamt Berg
+O: efter S.J. Larsson
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+N: K.E.F.41. V.
+K: G
+% - - - - - - - - - -
+|: G2Ac ~B2AB G3B | d2eg ~f2ef d3D | G2Ac ~B2AB G3B | d2eg ~f2ef d2f2 | a3a g2(ga) f3g | e2(fe) d4 z4 :|
+|: {f}g3f e2(fe) d4 | g2f2 (ef)ed B4 | {c}B2AB c2(Ac) B3G |1 (Ac)AF G3B d4 :|2 (Ac)AF G8 |]
+% - - - - - - - - - -
+%%text Jmf S.L. nr 396
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0042
+T: 404 Polska efter Tommos Anders i Evertsberg
+O: efter Isak Anders Persson
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: 1/4=138
+N: S.L.
+K: A
+% - - - - - - - - - -
+|:\
+ve2 a>(g b)f | f2 (e/f/e/)d/ cd | ea a>g bf |1 {g}f{gf}e [e4e4] :|2 {g}f{gf}e [e3e3] (ve ||
+|:\
+e)a af d2 | d>f f{gf}(e c2) | (c<e) e>(d B)z/(c/ | B2) (A/B/c/)d/ e2 |
+ea af d2 | d>f f{gf}(e c2) | c<e e>(d B)z/G |1 BA [A3A3] (e :|2 BA [A4A4] |]
+% - - - - - - - - - -
+%%text Jmf 35 (=K.E.F. 17), 1050, S.L. 573
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0043
+T: 393 Polska efter Berg
+O: efter Isak Anders Persson
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: 1/4=138
+N: S.L.
+K: G
+% - - - - - - - - - -
+|:\
+(3(vBdB) [GG,]z/([G/G,/] B)>(d | ^c)e dz/(=c/ A)d | (3(BdB) [GG,][GG,] Bd |1 ^c<e [d4D4] :|2 ^c<e [d3D3] (va ||
+|:\
+(3faf) d(d f)>a | (3(geg) (f/a/f/)d/ e>A | (d<f) d2 "^>"[d2D2] | (3faf d(d f)>a |
+(3faf) (f/a/f/)d/ e>A | d<f d2 "^>"[d2D2] | =cA/c/ (B/d/)B/G/ A>A |1 (G<B) [G3G,3] (va :|2 (G<B) [G4G,4] |]
+% - - - - - - - - - -
+%%text Jmf. K.E.F. nr 40.
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0044
+T: L\aangdans efter D\"od Erik Andersson
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: 1/4=132
+N: S.L.
+K: Ddor
+% - - - - - - - - - -
+|: [AA,]>(e f2) fa | ((3a/b/a/)(g e2) (g<e) | fd e2 ^c2 | .^cd [d4D4] :|
+|: vA>^c- cd d>(e | f)(e/d/) "^*"^c2 c2 | A^c d2 cd | ef T[e4A4] d/e/ :|
+|: vA>(e f2){gf} fa | ((3a/b/a/)g e2 (ge) | fd e2 ^c2 | (e<g) a4 |
+   vA>(e f2){gf} fa | ((3a/b/a/)g e2 (ge) | fd e2 ^c2 | ^cd d4 :|
+% - - - - - - - - - -
+%%text * These ^c notes both have small e and A notes on their stems.
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0045
+T: Polska efter Berg
+O: efter Isak Anders Persson
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: 1/4=132
+N: S.L.
+K: G
+% - - - - - - - - - -
+v(D | "^>"[GG,])>(G A)(c B)A | "^>"dz/(d/ (3.e)(fg) .f<{gf}d | gz/(g/ (3a)(fa) (f<d) |
+dz/(B/ (3c)(Ac) TB2 || "^*"u.Bz [G3G,3] :: {fg}vf>e fd d>B | .G(A/B/) c2 B2 | {Bc}B>{cB}A GA Bd |
+d>^c  (c/e)z/ d2 | {fg}f>(e f)d d>B | .G(A/B/) c2 B2 | {Bc}B>{cB}A GA Bc | (3.A(FA) [G3G,3] :|
+% - - - - - - - - - -
+%%begintext align
+%% * F\"orsta satsens femte takt togs n\aagot l\aangsammare, liksom ett slags mellanspel, men takten
+%% upprepades icke s\aasom andra dylika mellanspel.
+%%endtext
+%%text Jmf. K.E.F. nr 26.
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0046
+T: 595. POLSKA
+T: Lasses Margits polska, efter Gambt Berg
+O: efter Anders S\"odersten
+%R: waltz
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+Q: 1/4=120
+K: Gm
+% - - - - - - - - - -
+|:\
+{^F}vG3(A- B2{cB}A2) G2G2 | A2(Ac) .c.d.c.A B4 | (A^F3) G2G2 .g.a.g.^f | (^fd3) [d8D8] :|
+|: ["bis" {^c}vd2=e2 .f.g.f.e f2A2- | A2c2 .c.d.c.A B4 :| A2^F2 G2G2 .g.a.g.^f |
+.^f2.d2 [d8D8] | {de}d3c c2{dc}A2 {A}B2B2{cB}y | .A.^F.A.F [G8G,8] :|
+P: F\"orsta satsens f\"orsta takter spelades \"aven s\aa h\"ar:
+y12 | G2G2 B2G2 G2G2 | A2A2 c2A2 B4 | y12 y12 y12
+% - - - - - - - - - -
+%%text Jmf. S.L. nr 530. Kallas S\"oderstens minne.
+N: The 2nd repeat (bars 5,6) has an "ending" bracket above with "bis" in the center.
+N: It's not clear what this means, since those two bars also have repeat symbols at both ends.
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0047
+T: 411. Vals efter Berg
+O: efter Isak Anders Persson
+%R: waltz
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: 3/4=66
+K: D
+% - - - - - - - - - -
+uA2 |\
+d3 f fd |.ez {e}"^<>"ec A2 | AB AG AF | .[AD]z {A}"^<>"A[FB] A2 |\
+d3 f fd | ez {e}"^<>"ec A2 | AB AG AF | "^>"D2 z2 :|
+|: u[G,2E2] |\
+g2 gg (gb) | (fa) fd ff | eg ec ee | a2- "^>"aa aa |\
+g2 gg (gb) | (fa) fd ff | (eg) ec ec | "^>"d2 z2 :|
+%%text Jmf. S.L.nr 389, K.E.F.nr 13.
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0048
+T: 412. Vals efter Anders Fogde
+C: after Isak Anders Persson
+%R: waltz
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: 3/4=66
+K: G
+% - - - - - - - - - -
+ud2 | [d2D2] Bd Bd | g2 dB dB | (d<c) AF AF | [G2G,2] BA [GG,]>B | [d2D2] Bd Bd | g2 dB dB | (d<c) AF AF | [G2G,2] z2 :|
+|: [B2D2] | g3 g g2 | g2 bb b2 | b2{c'b} a2 b2 | g3 g g2 | g2{ag} f2 [g2A2] | {e}a4 (a<<f) | df ag fa |
+g2 bg d2 | g3 g g2 | g2 bb b2 | b2{c'b} a2 b2 | g3 g g2 | g2{ag} f2 [g2A2] | {e}a4 (a<<f) | (df) (ag) fa | g2 z2 :|
+% - - - - - - - - - -
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0049
+T: 415. MARSCH efter Berg
+O: efter Isak Anders Persson
+%R: march
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: 1/4=96
+P: A-bas
+K: D
+% - - - - - - - - - -
+u[A2D2] | v[dD]>(ef)>g a2a2 | (^g<e)(g>b) a2(af) | d>ef>g a2a2 | (^g<e)(gb) .[a2A2]z2 | "^*"[a6A6] :|
+|: u[e2a2] | va>geg f2{gf}df | (e<g)ec [A4A4] | ABcd e2e2 | dcBc d2d2 |
+B2{AG}A^G [A4A4] | ABcd e2e2 | dcBc d2d2 | B2{cB}A^G | [A2A2]e2 |
+ageg f2df | egec A2e2 | ageg f2df | (eg)ec d2 :|
+% - - - - - - - - - -
+%%text * Denna takt, ett slags mellanspel, upprepas efter behag en eller flera g\aanger.
+%%text Jmf.K.E.F.nr27.
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 0050
+T: 451. VALS efter Lars \AAhs
+%R: waltz
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: 3/4=66
+K: D
+% - - - - - - - - - -
+vFuG | A2 f2 e2 | d4 c2 | {Bc}B2 z(A G)F | E3 (FE)D | E2 g2 f2 | e4 d2 | (cd)cBAG | F4 ||
+FG | A2 f2 e2 | d4 c2 | {Bc}B2 z(A G)F | E3 (FE)D | E2 g2 f2 | e4 d2 | (cd)cABc | d2 z2 :|
+|: vAuG | F2 AF Ad | f2 dA G2 | E2 cA Bc | edcBAG | F2 AFAd | f2 dA G2 | E2 cABc | d2 z2 :|
+% - - - - - - - - - -
+%%text Jmf 532

@@ -1,0 +1,22 @@
+X: 13
+T: Chatsworth
+%R: jig
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1765", London 1765, p.7 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1765#
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G3 dBd | gbg faf | cec BdB | AcA FED |\
+G3 dBd | gbg faf | dgd cec | BdB G3 :|
+|:\
+d3 gbg | (f/g/a)f ege | (c/d/e)c BdB | (e/f/g)e def |\
+g3 gbg | (f/g/a)f ege | (c/d/e)c B/c/dB | (f/g/a)f g2G :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Foot it four turn Right hands across .|. Foot it four
+%% left hands back again :|. Cast off and lead thro the 3d
+%% Cu: and cast up .|: Right and left at top :|:
+%%endtext

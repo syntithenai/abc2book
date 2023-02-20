@@ -1,0 +1,42 @@
+X: 13
+T: the Deacon of the Weavers
+%R: reel, hornpipe
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.104 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat symbol; not fixed.
+N: Shortened final notes in the 1st strain to 8th notes.
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+(A/B/ |\
+c)FdF cFdF | cFdA G/G/G G(A/B/ |\
+c)FdF cF fd | c>B TA>G F/F/F F ::\
+(f/g/ |\
+a)fdf cfAc | d>cba
+g/g/g g(f/g/ |\
+a)fdf cAdB | cfeg f/f/f f(f/g/ |\
+a)fdf cfAc | d>cba g/g/g g(f/g/ |\
+a)fgd cAfd | c>B TA>G F/F/F F |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+f2f2 f2f2 | f2f2 g2g2 |\
+f2f2 f2B2 | c2c2 F2 F ::\
+z |\
+f2f2 f2f2 | f2f2
+g2g2 |\
+f2f2 f2f2 | c2c2 F2F2 |\
+f2f2 f2f2 | f2f2 g2g2 |\
+f2g2 a2b2 | c'2c2 f2f |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The first and 2d Cu: foot it right and left half round .|
+%% the same back again :|
+%% lead down two Cu. up again & cast off :|:
+%% set corners & turn .||.
+%% lead outsides and turn :||:
+%%endtext
+%%sep 2 2 400

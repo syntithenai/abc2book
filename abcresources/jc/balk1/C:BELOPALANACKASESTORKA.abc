@@ -1,0 +1,16 @@
+X: 43
+T: Belopalanacka Sestorka
+O: Serbia
+F: http://www.youtube.com/watch?v=tRxWlnzEjMM
+F: http://www.youtube.com/watch?v=W0LfMJL77K0
+M: 2/4
+L: 1/8
+Q: 1/4=180
+K: Eb
+%%MIDI program 1
+B2F2|GEF2|B2F2|GEF2|G2A2|GEF2|
+G2A2|GEF2|E2F2|GEF2|G2A2|GEF2|
+K:Bb
+%%MIDI program 74
+F2C2|DB,C2|F2C2  |DB,C2|D2E2|DB,C2|
+D2E2|DB,C2| B,2C2|DB,C2|D2E2|DB,C2|

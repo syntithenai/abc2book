@@ -1,0 +1,17 @@
+X: 17
+T: Miss Chalmer's Gigg
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.9 #17
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+|:\
+G2G- GAB | c2c- cde | ded dcB | {B}A2(G F)ED |\
+G2G- GAB | c2c- cde | ded cBA | G3 [G3G,3] :|
+|:\
+ded dcB | a2c A2B | cdc cBA | g2B G2D |\
+E2F G2A | Bcd G2D | EcB AGF | G3 [G3G,3] :|

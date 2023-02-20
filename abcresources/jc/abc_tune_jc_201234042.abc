@@ -1,0 +1,23 @@
+X: 20221
+T: MY MARY DEAR DEPARTED SHADE
+Q: "Slow"
+%R: _
+B: "Edinburgh Repository of Music" v.2 p.__ #_
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Bar 5 was missing a beat; fixed by making it the same as bars 1, 3 and 7.
+N: Bar 15 has poor rhythmic notation; not fixed.
+M: C
+L: 1/8
+K: G
+%%slurgraces
+%%graceslurs
+B>c |\
+d2  {f}e>d  d2  g>e  | {e}d2 BG {B}A2 B>c |\
+d2  {f}e>d  d2 (g>e) | (d<B) (TA>B) G2 {cBA}B>c |
+d2 ({f}e>d) d2  g>e  | {e}d2 {c}B{A}G {B}A2 {cBA}B>c |\
+d2  {f}e>d  d2  g>e  | (d<B) TA>B G2 :||: (d3/e//f//) |
+(gf)  (ed)  d2 (ce)  | {e}d2 {c}B{A}G {B}A2 (d3/e//f//) |\
+(gf)  (ed)  d2  ce   | (d<B) TA>B G2 (d3/e//f//) |
+(gf)  (ed)  d2  c>e  | {e}d2 {c}B{A}G {B}A2 {cBA}B>c |\
+(de)  (dc) (B>d) Hg2 ({fgag}f/<e/) | (d<B) TA>B | G2 :|

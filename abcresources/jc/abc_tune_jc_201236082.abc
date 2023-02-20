@@ -1,0 +1,29 @@
+X: 21621
+T: the Man has got his Mare again
+Q: "Slow"
+%R: jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.162 #3
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+%%continueall
+B2 |\
+A>F A2 B2 | d4 e2 |\
+f2 (af)(ed) | (f2 e2) (d/e/)f |\
+A>F A2 B2 | d3 e f>a |\
+b>a f2 Te2 | d4 :: f>a |\
+b3 a (f/e/)d | Te2 d2 (e/f/)a |\
+b3 a (b/a/)f | f2 e2 (d<B) |\
+d3 c (TBA) | (g2 f2) (e/f/)a |\
+b>a f2 Te2 | d4 |]
+"_Brisk"[M:C]\
+|:\
+A2AB d2ef | gfed fBBd | A2AB d2ef | gbeg fdd2 ::
+bafd egfd | afed cee2 | bafd egfb | afed Bdd2 ::\
+f2eg g2fb | afed cee2 | f2ef g2fb | afed Bdd2 ::\
+a2fb a2fb | afed bee2 | a2fb a2fb | afTed Bdd2 ::\
+AFAB d2ef | gfed feef | AFAB d2ef | (g/a/b) egfd d2 ::\
+bfad (e/f/)g fd | bfad (c/d/)e cA | bfad (e/f/)g fb | afTed Bdd2 ::\
+D2EF ABde | faba feef | D2EF ABde | faeg fdd2 ::\
+a2fd gefd | a2fd gecA | a2fd gbef | gfed Add2 :| 

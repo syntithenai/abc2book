@@ -1,0 +1,104 @@
+
+X: 1
+T: Swallowtail Jig    [Em]
+O: Ryan 1883
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+R: jig
+B: Ryan’s Mammoth Collection, 1883; pg. 100
+B: Kerr (Merry Melodies), vol. 2; No. 271, pg. 29
+B: White's Unique Collection, 1896; No. 42
+M: 6/8
+L: 1/8
+K: Edor
+   E/F/ \
+| "Em"GEE BEE | GEG BAG | "D"FDD ADD | dcd AGF \
+| "Em"GEE BEE | GEG B2c | "D"dcd AGF | "Em"GEE E2 :|
+|: B \
+| "Em"Bcd e2f | e2f edB | Bcd e2f | edB "D"d2B \
+| "Em"Bcd e2f | e2f edB | "D"dcd AGF | "Em"GEE E2 :|
+
+%%sep 1 1 500
+
+X: 12
+T: Jefferson and Liberty
+T: the Gobby O
+O: 1843
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: NEFR #12 (in Am rather than Ador, which is slightly more common)
+B: Howe's Musician's Companion, Part 2 (1843)
+N: Based on an English song, "The Gobby O"
+N: Some versions have the pickup notes; others don't. NEFR has only the pickup on the B part.
+M: 6/8
+L: 1/8
+K: Ador
+"A"|:\
+"Am"{AB}c2A A^GA | E2A ABc | "G"B2G GBc | dBG GAB |\
+"Am"c2A A^GA | E2A A2e "I"| edc "E7"BAB | "Am"E2A A3 :|
+"B"|:\
+"Am"{B}A2B c2d | "C"e2f g3 | e2f g2e | "G"dBG G2E |\
+"Am"A2B c2d | "C"efg "F"a3 | "C"edc "E7"BAB | "Am"c2A A3 :|
+
+%%sep 1 1 500
+
+X: 1
+T: O'Keeffe's Slide
+S:Sessions, LPs, etc
+Z:John Chambers <jc:trillian.mit.edu>
+M:12/16
+L:1/16
+K:Ador
+|:\
+"Am"A2e e2d "G"BAB d2B | "Am"A2e e2d "G"B2G GAB |\
+"Am"A2e e2d "G"BAB d3  "I"| "G"BAB d2e "Am"B2A A3 :|
+|:\
+"Am"e2a a2b a2g e2d | "Am"e2a a2b a2g e2f |\
+"G"g2a g2e dBA G3  | "G"BAB d2e "Am"B2A A3 :
+
+%%sep 1 1 500
+
+X: 1
+T: the Red-Haired Boy
+T: the Little Beggar Man
+T: Guilderoy
+O: Scotland 1762
+B: McGibbon, Scots Tunes, book III, 1762; p.70
+B: James Gillespie Manuscript of Perth, 1768
+B: c.1776-1778 music copybook of fifer Thomas Nixon Jr. [1] (1762-1842), of Framingham, Connecticut
+M: C|
+L: 1/8
+Z: Mary Lou Knack (Roaring Jelly collection)
+R: reel
+K: AMix
+GF \
+| "A"E2A2 ABcd | e2ec "D"d2cd | "A"e2A2 ABcA | "G"B2EF G2GF | "A"E2A2 ABcd |
+| e2ec "D"d2cd | "A"e2a2 "E7"aged | "A"c2A2 A2 :: ef | "G"g2ef g2ef | gfec "D"d2cd |
+| "A"e2A2 ABcA | "G"B2EF G2GF | "A"E2A2 ABcd | e2ec "D"d2cd | "A"e2a2 "E7"aged | "A"c2A2 A2 :|
+%%text Also played in A minor (dorian)
+
+%%sep 1 1 500
+
+X: 1
+T: Largo's Fairy Dance    [D]
+T: the Fairy Reel
+T: Old Molly Hare
+C: Nathaniel Gow
+O: 1809
+Z: John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: C|
+N: Many versions from all over the British Isles and North America.
+N: Nath. Gow (variations by Skinner)
+N: H&C 88
+N: OTDT p.71
+N: BSFC I-24 and III-16 and IV-5 and V-5
+N: Hunter 219
+N: Fairy Dance in Skye 57
+N: Bain 7 (he thinks it's trad Shetland)
+N: Varella 78
+N: Gow 268 but C
+D: Fiddlers 3+2 tape A6
+K: D
+de \
+|: "D"f2fd f2fd | f2fd "A7"cAeA | "D"f2fd "G"gfed | "A7"cABc "D"defg :|
+|: "D"a2af "G"b2ba | "Em"g2ge "A7"a2ag | "D"f2fd "G"gfed | "A7"cABc [1 "D"defg :|2 "D"d2 |]

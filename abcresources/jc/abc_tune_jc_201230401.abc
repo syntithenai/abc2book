@@ -1,0 +1,26 @@
+X: 1381
+T: Brisk Bob.  a Strathspey
+C: by D. Mackintyre
+%R: strathspey
+B: Niel Gow & Sons "Complete Repository" v.1 p.38 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bm
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+B/c/ |\
+{c}dBf>B FBBc | Td>e (f/e/).d/.c/ {c}dAAB/c/ |\
+[1 dBfB FBBd | (e/f/g) Tf>e dBB :|
+[2 B>dc>e dfeg | Tf>g f/e/d/c/ dBB |] f |\
+bf g>e f>dBc | Td>e (f/e/).d/.c/ dAAf |\
+bfg>e fdBg |
+f>d (f/e/).d/.c/ dBBf ||\
+.b(fg)(e f)(de).c | d<BfB d(AAB/)c/ |\
+d>Be>c f>dg>e | f>F (f/e/).d/.c/ {c}dBB |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | b2b2 b2b2 | b2b2 a2a2 |[1 b2b2 b2b2 | e2f2 B2B :|[2 b2[^a2f2] b2e2 | f2F2 B2B |] z |
+b2b2 b2b2 | b2b2 a2a2 | b2b2 b2b2 | f2f2 B2B2 || b2b2 b2^a2 | b2b2 a2a2 | b2^a2 b2e2 | f2F2 B2B |]

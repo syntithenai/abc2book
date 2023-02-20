@@ -1,0 +1,754 @@
+
+X: 1
+T: Anniversary Reel
+C: Ralph Page?
+S: Chris Dewhurst (1978), via PR
+M: C|
+L: 1/4
+K: D
+"A7"de \
+| "D"f>d Ad | "G"Bd "A"c/d/e | "D"d2 A2 | "D7"F>F GA \
+| "G"B d2 B | "D"A>G "Bm"FG | "Em"E4- | "A"EA ||
+"A7"de \
+| "D"f>d Ad | "G"Bd "A"c/d/e | "D"d2 A2 | "D7"F>F GA \
+| "G"B d2 B | "D"Ad "A"c/d/e | "D"d4- | d2 |]
+"E7"ed \
+| "A"cc "F#m"c/B/A | "Bm"BB "E"B/A/^G | "A"A a2 f | "A"e>c "D"AB \
+| "A"ce e/d/c | "E"Bd d/c/B | "A"A2 -"Em"A2 | "A"AA ||
+"A7"de \
+| "D"f>d Ad | "G"Bd "A"c/d/e | "D"d2 A2 | "D7"F>F GA \
+| "G"B d2 B | "D"Ad "A"c/d/e | "D"d4- | d2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Anniversary Reel
+C: Ralph Page?
+S: Chris Dewhurst (1978), via PR
+M: C|
+L: 1/4
+K: D
+"A7"de \
+| "D"f>d Ad | "G"Bd "A"c/d/e | "D"d2 A2 | "D7"F>F GA \
+| "G"B d2 B | "D"A>G "Bm"FG | "Em"E4- | "A"EA ||
+"A7"de \
+| "D"f>d Ad | "G"Bd "A"c/d/e | "D"d2 A2 | "D7"F>F GA \
+| "G"B d2 B | "D"Ad "A"c/d/e | "D"d4- | d2 |]
+"E7"ed \
+| "A"cc "F#m"c/B/A | "Bm"BB "E"B/A/^G | "A"A a2 f | "A"e>c "D"AB \
+| "A"ce e/d/c | "E"Bd d/c/B | "A"A2 -"Em"A2 | "A"AA ||
+"A7"de \
+| "D"f>d Ad | "G"Bd "A"c/d/e | "D"d2 A2 | "D7"F>F GA \
+| "G"B d2 B | "D"Ad "A"c/d/e | "D"d4- | d2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Ashuelot Hornpipe
+C: Ralph Page
+R: hornpipe, reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Northern Junket, v.7, #10, March 1963
+N: Corrected some note lengths in bars 8, 16.
+M: 2/4
+L: 1/16
+K: D
+A |:\
+dcdA FAdf | e^def g2fg | afge fdec | dcdB A2A2 |
+dcdA FAdf | e^def g2fg | afge fdec | d2d2d2 :|
+|: DE |\
+F2F2 FDEF | GFGA B4 | c2c2 cABc | d2dd d2DE |
+F2F2 FDEF | GFGA B4 | c2c2 cABc | dBAF D2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Bunkhouse Reel
+O: origin unknown
+N: Named taken from a square dance, also known as The Judge's Jig.
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Ralph Page "Northern Junket", v.5, #5, Feb. 1956
+M: 6/8
+L: 1/8
+K: G
+zD |\
+D^CD EDB, | G,B,D B3 | cAF DEF | GBA GFE |\
+D^CD EDB, | G,B,D B3 | cAF DEF | G3-G :|
+|: Bd |\
+bgd gdB | dBG BGD | DFA cBA | GBe dBd |\
+bgd gdB | dBG BGD | DFA cBA | G3-G :|
+
+%%sep 1 1 500
+
+X: 1
+T: the Crooked Hornpipe
+C: Ralph Page
+R: hornpipe
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: The Ralph Page Book of Contras, 1969, EFDSS
+M: C|
+L: 1/8
+K: D
+A2 \
+| "D"Aafd "A7"Agec | "D"Aafd dcBA | "G"BgAf "Em"GeFe | "A7"efge dcBA | "D"Aafd "A7"Agec |
+| "D"defd A2dc | "G"Bcde "A7"fa^ga | "D"d2d2 d2 :: cd | "A"eAfA gAfA | "A7"eAce dcBA |
+| "G"BbAa "Em"GgFf | "A7"efge dcBA | "G"Bbge "D"Aafd | "A7"Ggec "Bm"d2dc | "Em"Bcde "A7"fABc | "D"d2f2 d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Crooked Hornpipe
+C: R-116
+C: Ralph Page
+M: C|
+Z:
+R: hornpipe
+K: D
+A2| "D"Aafd "A"Agec| "D"Aafd dcBA| "G"BgAf "Em"GeFd| "A"efge "A7"dcBA|
+    "D"Aafd "A"Agec| "D"defd A2dc| "G"Bcde "A7"fa^ga| "D"d2d2 d2 :|
+|:\
+cd| "A"eAfA gAfA| eAce "A7"dcBA| "G"BbAa "Em"GgFf| "A"efge dcBA|
+    "G"Bbge "D"Aafd| "A"Ggec "Bm"d2dc| "Em"Bcde "A7"fABc| "D"d2f2 d2 :|
+%
+
+%%sep 1 1 500
+
+X: 1
+T: the Crooked Hornpipe
+C: Ralph Page
+R: hornpipe
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: The Ralph Page Book of Contras, 1969, EFDSS
+M: C|
+L: 1/8
+K: D
+A2 \
+| "D"Aafd "A7"Agec | "D"Aafd dcBA | "G"BgAf "Em"GeFe | "A7"efge dcBA | "D"Aafd "A7"Agec |
+| "D"defd A2dc | "G"Bcde "A7"fa^ga | "D"d2d2 d2 :: cd | "A"eAfA gAfA | "A7"eAce dcBA |
+| "G"BbAa "Em"GgFf | "A7"efge dcBA | "G"Bbge "D"Aafd | "A7"Ggec "Bm"d2dc | "Em"Bcde "A7"fABc | "D"d2f2 d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Crooked Stovepipe #1, The
+I:
+C: S-C
+C: Ralph Page
+M: C|
+Z:
+R: square
+%%staffsep 50.0pt
+K: G
+D2| "G"G2B2 BcdB| G2B2 BcdB| G2B2 "E7"e2B2 | "Am"d2c2 "D7"c3A| \
+       F2A2 ABcA| F2A2 ABcd| "C"e2d2 "D7"e2f2| "G"G,2[B2g2] [B2g2] :|
+|:\
+a2| "G"b4 b2a2| g3a g2f2| "C"e2e2 "Am"f2g2| "A7"a4 a2b2| \
+    "D7"c'4 c'2a2| f3g f2e2| d2^d2 e2f2|1 "G"g2^g2 "D7"a2^a2:|2 "G"G,2[B2g2] [B2g2] |]
+
+%%sep 1 1 500
+
+X: 1
+T: Crooked Stovepipe #2, The
+I:
+C: S-C
+C: Ralph Page
+M: C|
+Z:
+R: square
+K: G
+(3DEF| "G"G2B2 BcdB| G2B2 BcdB| G2B2 e2B2| "D7"d2c2 c2BA| \
+          F2A2 ABcA| F2A2 A2Bc| d2d2 e2f2| "G"g6 :|
+|:\
+a2| "G"b6 a2| g6 f2| "C"e2e2 f2g2| "A"a6 b2| \
+"D7"c'6 a2| f6 e2| d2d2 e2d2|1 "G"ggg2 a2^a2:|2 "G"g6 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Crooked Stovepipe #3, The
+C: Ralph Page
+M: C|
+Z:
+R: square
+K: G
+"G"G2B2 BcdB| G2B2 BcdB| G2B2 "E7"e3B | "Am"d2c2 "D7"cdcA|
+"D7"F2A2 ABcA| F2A2 ABcd| "C"e3d "D7"e2f2|1 "G"g2fe dcBA :|2 "G"g2g2 "D7"a2^a2|]
+|:\
+"G"b3c' b2a2| g4 g2f2| "C"e2e2 "Am"f2g2| "A7"a6 b2|
+"D7"c'3d' c'2a2| f6 e2| d2d2 e2f2|1 "G"g2g2 "D7"a2^a2:|2 "G"g2fe dcBA |]
+
+%%sep 1 1 500
+
+X: 1
+T: Dunroamin' Jig
+C: Ralph Page
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Northern Junket, v.8, #12,  July 1967
+N: __
+M: 6/8
+L: 1/8
+K: Bb
+F |\
+B2d ^c2d | B2d ^c2d | B2d g2f | fed e2F |\
+F2c =B2c | F2c =B2c | a2g f2e | dec B2 :|
+|: df |\
+b2b a2a | gab fdB | F2e ede | F2d dcd |\
+b2b a2a | gab fdB | F2c edc | B3- B2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Fiddle Hill Jig
+C: Ralph Page
+M: 6/8
+K: G
+"D7"B2A \
+| "G"G2g f2e | d^cd edB \
+| G2B c2^c | "D7"d3- dAB \
+| c2d c2d | cAF DFA |
+| "D7"ded [1 cdc | "G"B3 :|[2 cBA | "G"G3 |] [K:D] \
+|: zFG \
+| "D"[AA]BA "A7"[GG]AG | "D"FAd fed | "A7"c2e B2c |
+| "(E)"BA^G "A7"AF=G | "D"[AA]BA "A7"[GG]AG \
+| "D"FAd fed | "A7"cBA [1 ABc | "G"d3 :|[2 gfe | "D"d3  |]
+
+%%sep 1 1 500
+
+X: 1
+T: Fiddle Hill Jig
+C: Ralph Page
+M: 6/8
+K: G
+"D7"BA \
+| "G"G2g f2e | d^cd edB | G2B c2^c | "D"d3- dAB \
+| "D7"c2d c2d | cAF DFA | ded cdc | "G"B3- B2 ||
+y2A \
+| "G"G2g f2e | d^cd edB | G2B c2^c | "D"d3- dAB \
+| "D7"c2d c2d | cAF DFA | ded cBA | "G"G3 z |] [K:D]
+FG \
+| "D"[AA]BA "A7"[GG]AG | "D"FAd fed | "A7"c2e B2c | "E7"BA^G "A7"AFG \
+| "D"[AA]BA "A7"[GG]AG | "D"FAd fed |"A7"cBA ABc | "D"d3 z ||
+FG \
+| "D"[AA]BA "A7"[GG]AG | "D"FAd fed | "A7"c2e B2c | "E7"BA^G "A7"AFG \
+| "D"[AA]BA "A7"[GG]AG | "D"FAd fed |"A7"cBA gfe | "D"d4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Fiddle Hill Jig
+C: Ralph Page
+M: 6/8
+K: G
+"D7"B2A \
+| "G"G2g f2e | d^cd edB \
+| G2B c2^c | "D7"d3- dAB \
+| c2d c2d | cAF DFA |
+| "D7"ded [1 cdc | "G"B3 :|[2 cBA | "G"G3 |] [K:D] \
+|: zFG \
+| "D"[AA]BA "A7"[GG]AG | "D"FAd fed | "A7"c2e B2c |
+| "(E)"BA^G "A7"AF=G | "D"[AA]BA "A7"[GG]AG \
+| "D"FAd fed | "A7"cBA [1 ABc | "G"d3 :|[2 gfe | "D"d3  |]
+
+%%sep 1 1 500
+
+X: 1
+T: Fiddle Hill Jig
+C: Ralph Page
+M: 6/8
+K: G
+"D7"BA \
+| "G"G2g f2e | d^cd edB | G2B c2^c | "D"d3- dAB \
+| "D7"c2d c2d | cAF DFA | ded cdc | "G"B3- B2 ||
+y2A \
+| "G"G2g f2e | d^cd edB | G2B c2^c | "D"d3- dAB \
+| "D7"c2d c2d | cAF DFA | ded cBA | "G"G3 z |] [K:D]
+FG \
+| "D"[AA]BA "A7"[GG]AG | "D"FAd fed | "A7"c2e B2c | "E7"BA^G "A7"AFG \
+| "D"[AA]BA "A7"[GG]AG | "D"FAd fed |"A7"cBA ABc | "D"d3 z ||
+FG \
+| "D"[AA]BA "A7"[GG]AG | "D"FAd fed | "A7"c2e B2c | "E7"BA^G "A7"AFG \
+| "D"[AA]BA "A7"[GG]AG | "D"FAd fed |"A7"cBA gfe | "D"d4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Get Lost Jig
+C: Ralph Page
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Northern Junket, v.6, #7, Dec. 1958
+N: Adjusted lengths of pickup notes to 2nd part.
+M: 6/8
+L: 1/8
+K: G
+D |\
+G3 B3 | ded dBG | AGA BGD | EAG FED |\
+G3 B3 | ded dBG | ABc BAG | DGF G2 :|
+|: B/c/ |\
+dBc d3 | ecd e3 | fde fed | gfe dBc |\
+dBc d3 | ecd e3 | fed cAF | GAG G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Gone A Rovin'
+C: Ralph Page
+R: march, reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Northern Junket, v.13, #11, June 1981
+M: C|
+L: 1/4
+K: G
+GA !segno!|\
+B>c BA | AG Bd | g>a gf | e2 ef | g>a ge |\
+[1 dB Bc | d>e dB | A2 :|[2 dB Bd | c/d/c BA | G2  ||
+fg | a>b ag | fd ga | b>c' ba | g2 gf | e>d ef | ag fe | d>e dB | A2 ||
+GA | B>c BA | AG Bd | ga gf | e2 ef | g>a ge | dB Bd | cd/c/ BA | G2 "d.S."|]
+
+%%sep 1 1 500
+
+X: 1
+T: Hunky Dory Hornpipe
+C: Ralph Page
+R: hornpipe, reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Northern Junket, v.8, #5, May 1965
+M: 2/4
+L: 1/16
+K: TG
+|:\
+D2GA B2G2 | D2GA B2G2 | FGAB c2BA | GABc d2-d2 |
+D2GA B2G2 | D2GA B2G2 | FGAB cdef | g4   g4   :|
+|:\
+g2df g2d2 | B2dc B2G2 | D2FA c2BA | GABc d2-d2 |
+g2df g2d2 | B2dc B2G2 | D2FA cBAB | G2G2 G2z2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Jack's Delight
+C: Ralph Page
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Northern Junket, v.8, #6, Oct. 1965
+M: 2/4
+L: 1/16
+K: D
+A2 |\
+d2d2 cecA | d2fd A2ef | g2gf e2ed | cedB ABcA |
+d2d2 cecA | d2fd A2ef | gfge cABc | d2d2d2 :|
+|: AG |\
+FAFA dAFA | AGFG E2F2 | GBGB edcd | cAB^G ABA=G |
+FAFA dAFA | GBGB dBGB | cged cABc | d2d2d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Kitchen Reel
+C: Ralph Page
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Northern Junket, v.8, #8, May 1966
+B: Northern Junket, v.9, #6, Oct. 1968
+M: C|
+L: 1/8
+K: A
+e>d |\
+cAce a2e2 | fgaf e2c2 | cAce afec | d2B2 B2ed |\
+cAce a2e2 | fgaf e2c2 | ceae gabg | a2a2 a2 :|
+|: e2 |\
+c'4 c'2b2 | a6 c2 | dcde f2d2 | B6 d2 |\
+b4 b2a2 | g6 e2 | d2e2 f2e2 | c6 e2 |
+c'4c'3b | a6 c2 | A2c2 e2a2 | f6 d2 |\
+B2d2 f2b2 | A2c2 e2a2 | BABc defg | a2a2 a2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Late Evening Reel
+C: Ralph Page
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: The Ralph Page Book of Contras, 1969, EFDSS
+M: C|
+L: 1/8
+K: D
+FG \
+| "D"Adcd fdcd | "D"adcd fdcd | "D"Adcd fdcd | "Em"gfed "A7"c2FG | "D"Adcd fdcd |
+| "D"adcd fdcd | "A"ABcd "A7"efge | "D"d2f2 d2 :: fg | "D"a3b "A"afge | "D"dcde "D7"fdAF |
+| "G"GBed "D"FAed | "Em"cegf "A7"e2fg | "D"a3b "A7"afge | "D"dcde "D7"fdAF | "G"GBed "D"FAed | "A7"cgec "D"d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Late Evening Reel
+C: Ralph Page
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: The Ralph Page Book of Contras, 1969, EFDSS
+M: C|
+L: 1/8
+K: D
+FG \
+| "D"Adcd fdcd | "D"adcd fdcd | "D"Adcd fdcd | "Em"gfed "A7"c2FG | "D"Adcd fdcd |
+| "D"adcd fdcd | "A"ABcd "A7"efge | "D"d2f2 d2 :: fg | "D"a3b "A"afge | "D"dcde "D7"fdAF |
+| "G"GBed "D"FAed | "Em"cegf "A7"e2fg | "D"a3b "A7"afge | "D"dcde "D7"fdAF | "G"GBed "D"FAed | "A7"cgec "D"d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: McQuillen's Squeezebox
+C: Ralph Page
+R: march, reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: C
+EF \
+| "C"G>A GF | EG "(F)"cA | "C"G>A GF | E2 DE \
+| "Dm"F>G FE | "G7"DG Bd |1 "C"c>d "F"cA | "G7"G2 :|2 "C"c>d "G7"cB | "C"c2 ||
+|: cd \
+| "C"e>f ed | cG cd | e>f ed | c2 Bc \
+| "G7(Dm)"d>e fe | "G7"dG Bc |1 d>e fe | d2 :|2 "G7"dc ed | "C"c2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: McQuillen's Squeezebox
+C: Ralph Page
+M: C|
+L: 1/8
+B: Northern Junket, v.10, #6, Jan. 1971
+B: Northern Junket, v.13, #3, Oct. 1978
+S: Roaring Jelly collection
+R: reel
+K: C
+E2F2 |\
+"C"G3A G2F2 | E2G2 c2A2 | G3A G2F2 | E4 D2E2 |\
+"G"F3G F2E2 | D2G2 B2d2 |1 "C"c3d "Am"c2A2 | "G7"G4 :|2 "C"c3d "G"c2B2 | "C"c4 |]
+|: c2d2 |\
+"C"e3f e2d2 | c2G2 c2d2 | e3f e2d2 | c4 B2c2 |\
+"G"d3e f2e2 | d2G2 B2c2 |1 d3e "C#dim"f2e2 | "G7"d4 :|2 "G7"d2c2 e2d2 | "C"c4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: McQuillen's Squeezebox
+C: Ralph Page
+R: march, reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: C
+EF \
+| "C"G>A GF | EG "(F)"cA | "C"G>A GF | E2 DE \
+| "Dm"F>G FE | "G7"DG Bd |1 "C"c>d "F"cA | "G7"G2 :|2 "C"c>d "G7"cB | "C"c2 ||
+|: cd \
+| "C"e>f ed | cG cd | e>f ed | c2 Bc \
+| "G7(Dm)"d>e fe | "G7"dG Bc |1 d>e fe | d2 :|2 "G7"dc ed | "C"c2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: McQuillen's Squeezebox
+C: Ralph Page
+R: march, reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: C
+EF \
+| "C"G>A GF | EG "(F)"cA | "C"G>A GF | E2 DE \
+| "Dm"F>G FE | "G7"DG Bd |1 "C"c>d "F"cA | "G7"G2 :|2 "C"c>d "G7"cB | "C"c2 ||
+|: cd \
+| "C"e>f ed | cG cd | e>f ed | c2 Bc \
+| "G7(Dm)"d>e fe | "G7"dG Bc |1 d>e fe | d2 :|2 "G7"dc ed | "C"c2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: McQuillen's Squeezebox
+C: Ralph Page
+M: C|
+L: 1/8
+B: Northern Junket, v.10, #6, Jan. 1971
+B: Northern Junket, v.13, #3, Oct. 1978
+S: Roaring Jelly collection
+R: reel
+K: C
+E2F2 |\
+"C"G3A G2F2 | E2G2 c2A2 | G3A G2F2 | E4 D2E2 |\
+"G"F3G F2E2 | D2G2 B2d2 |1 "C"c3d "Am"c2A2 | "G7"G4 :|2 "C"c3d "G"c2B2 | "C"c4 |]
+|: c2d2 |\
+"C"e3f e2d2 | c2G2 c2d2 | e3f e2d2 | c4 B2c2 |\
+"G"d3e f2e2 | d2G2 B2c2 |1 d3e "C#dim"f2e2 | "G7"d4 :|2 "G7"d2c2 e2d2 | "C"c4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: McQuillen's Squeezebox
+C: Ralph Page
+R: march, reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: C
+EF \
+| "C"G>A GF | EG "(F)"cA | "C"G>A GF | E2 DE \
+| "Dm"F>G FE | "G7"DG Bd |1 "C"c>d "F"cA | "G7"G2 :|2 "C"c>d "G7"cB | "C"c2 ||
+|: cd \
+| "C"e>f ed | cG cd | e>f ed | c2 Bc \
+| "G7(Dm)"d>e fe | "G7"dG Bc |1 d>e fe | d2 :|2 "G7"dc ed | "C"c2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: McQuillen's Squeezebox
+C: Ralph Page
+M: C|
+L: 1/8
+B: Northern Junket, v.10, #6, Jan. 1971
+B: Northern Junket, v.13, #3, Oct. 1978
+S: Roaring Jelly collection
+R: reel
+K: C
+E2F2 |\
+"C"G3A G2F2 | E2G2 c2A2 | G3A G2F2 | E4 D2E2 |\
+"G"F3G F2E2 | D2G2 B2d2 |1 "C"c3d "Am"c2A2 | "G7"G4 :|2 "C"c3d "G"c2B2 | "C"c4 |]
+|: c2d2 |\
+"C"e3f e2d2 | c2G2 c2d2 | e3f e2d2 | c4 B2c2 |\
+"G"d3e f2e2 | d2G2 B2c2 |1 d3e "C#dim"f2e2 | "G7"d4 :|2 "G7"d2c2 e2d2 | "C"c4 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Monadnock Reel
+C: Ralph Page
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Northern Junket, v.1, #4, July 1949
+N: This is a variant of Glise \`a Sherbrooke.
+M: C|
+L: 1/8
+K: G
+|:\
+G2GA BABc | d2dc B2G2 | c2cB AFA2 | dedc B2D2 |
+G2GA BABc | d2dc B2G2 | c2cB AGFA | G2G2 G2z2 :|
+|:\
+g2gf efge | d2dc BAB2 | c2cB AFA2 | d2dc B2d2 |
+g2gf efge | d2dc B2G2 | c2cB AGFA | G2G2 G2z2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Old Rocking Chair, The
+C: Ralph Page
+S: Donna Hind's Notebooks
+Z: Nigel Gatherer, chords by John Chambers
+B: Northern Junket, v.12, #12, March 1977
+M: 6/8
+L: 1/8
+K: A
+ED |\
+"A"CEE "D"DFF | "A"Ecc cBc | "E7"dBB BAB | "A"cAF "E7"E2D |\
+"A"CEE "D"DFF | "A"EAB cBc | "E7"dBG EFG | "A"ABA A :|
+|: cd |\
+"A"ecA efe | "D"dBc dfd | "A"cec ABc | "D"dcd "E7"Bcd |\
+"A"ecA efe | "D"dBc ded | "A"cBc "E7"dBG | EAG "A"A :|]
+
+%%sep 1 1 500
+
+X: 1
+T: Old Rocking Chair, The
+C: Ralph Page
+S: Donna Hind's Notebooks
+Z: Nigel Gatherer, chords by John Chambers
+B: Northern Junket, v.12, #12, March 1977
+M: 6/8
+L: 1/8
+K: A
+ED |\
+"A"CEE "D"DFF | "A"Ecc cBc | "E7"dBB BAB | "A"cAF "E7"E2D |\
+"A"CEE "D"DFF | "A"EAB cBc | "E7"dBG EFG | "A"ABA A :|
+|: cd |\
+"A"ecA efe | "D"dBc dfd | "A"cec ABc | "D"dcd "E7"Bcd |\
+"A"ecA efe | "D"dBc ded | "A"cBc "E7"dBG | EAG "A"A :|]
+
+%%sep 1 1 500
+
+X: 1
+T: Patriot's Jig
+C: Ralph Page
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Northern Junket, v.11, #2, Oct. 1972
+N: __
+M: 6/8
+L: 1/8
+K: F
+A/B/ |\
+cdc BAG | FG^G A2F | EF^F G2E | FG^G A2A/B/ |\
+cdc BAG | FG^G A2F | CEG  BAG | F2F  F2 :|
+|: A/B/ |\
+c3 c3 | cAB c3  | B3  F2G | BcB A2G |\
+c3 c3 | cAB c2F | CEG B2A | GFE F2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Ralph Page's Breakdown
+C: Ralph Page
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+G2 \
+| "G"D2EF G2Bc | d2ef g4 | "D7"f2A2 ABcd | "G"e2d2 d4 \
+| "G"D2EF G2Bc | d2ef g4 | "Am"f2AB "D7"dcBA | "G"G2G2 G3 :|
+Bc \
+| "G"d2B2 G2e2 | d4- d2Bd | g2f2 e2d2 | "Am"dcBc A2AB \
+| c2B2 c2A2 | "D7"F4- F2fe |  d2e2 c2d2 | "G"B4- B2Bc |
+| "G"d2B2 G2e2 | d4- d2Bd | g2fg "G7"d2B2 | "C"e4- e2ef \
+| gggg f2e2 | "G"dddd "Em"B2G2 | "Am"d2c2 "D7"A2D2 | "G"G4- G2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Ralph Page's Breakdown
+C: Ralph Page
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+G2 \
+| "G"D2EF G2Bc | d2ef g4 | "D7"f2A2 ABcd | "G"e2d2 d4 \
+| "G"D2EF G2Bc | d2ef g4 | "Am"f2AB "D7"dcBA | "G"G2G2 G3 :|
+Bc \
+| "G"d2B2 G2e2 | d4- d2Bd | g2f2 e2d2 | "Am"dcBc A2AB \
+| c2B2 c2A2 | "D7"F4- F2fe |  d2e2 c2d2 | "G"B4- B2Bc |
+| "G"d2B2 G2e2 | d4- d2Bd | g2fg "G7"d2B2 | "C"e4- e2ef \
+| gggg f2e2 | "G"dddd "Em"B2G2 | "Am"d2c2 "D7"A2D2 | "G"G4- G2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Reggie's Cigar
+C: Ralph Page
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Northern Junket, v.9, #3, April 1968
+N: Corrected length of A note in bar 11.
+M: 6/8
+L: 1/8
+K: G
+D |\
+GFG BAG | dBd g3 | d2e dcB | ABG FED |\
+GFG BAG | dBd g3 | d2e dcB | AGF G2 :|
+|: d |\
+g3 f3 | efg dBG | G2A Bdc | BAG A2d |\
+g3 f3 | efg dBG | cde dcB | AGF G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Rollstone Mountain
+C: Ralph Page
+M: C|
+L: 1/4
+K: D
+FG | "D"A>B AF | Ad fd | "G"G>A "D"GF | "Em"E2 EF | "A7"G>A cB | AB GA | "D"F2- F2- | F2 ||
+FG | "D"A>B AF | Ad fd | "G"B>^A Be | "Em"g2 Bd | "A7"c>d cB | Ac ec | "D"d2- "(G)"d2- | "D"d2 |]
+fg | "D"a2 ~a^g/a/ | ba gf | "Em"g2 B2 | e2 "E7"ed | "A"c>d cB | "A7"Ac de | "D"f2- f2- | f2 ||
+fg | "D"a2 ~a^g/a/ | "B7"ba gf | "Em"g2 B2 | e2 "E7"ed | "A7"c>d cB | Ac ec | "D"d2- "G"d2- | "D"d2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Rollstone Mountain
+C: Ralph Page
+M: C|
+L: 1/4
+K: D
+FG | "D"A>B AF | Ad fd | "G"G>A "D"GF | "Em"E2 EF | "A7"G>A cB | AB GA | "D"F2- F2- | F2 ||
+FG | "D"A>B AF | Ad fd | "G"B>^A Be | "Em"g2 Bd | "A7"c>d cB | Ac ec | "D"d2- "(G)"d2- | "D"d2 |]
+fg | "D"a2 ~a^g/a/ | ba gf | "Em"g2 B2 | e2 "E7"ed | "A"c>d cB | "A7"Ac de | "D"f2- f2- | f2 ||
+fg | "D"a2 ~a^g/a/ | "B7"ba gf | "Em"g2 B2 | e2 "E7"ed | "A7"c>d cB | Ac ec | "D"d2- "G"d2- | "D"d2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Rollstone Mountain
+C: Ralph Page
+M: C|
+L: 1/8
+Z: (Roaring Jelly collection)
+R: reel
+K: D
+F2G2 | "D"A3B A2F2 | A2d2 f2d2 | "G"G3A "D"G2F2 | "Em"E4 "Em7"E2F2 |\
+      "A"G3A c2B2 | A2B2 "A7"G2A2 | "D"F8- | F4 F2G2 |
+      "D"A3B A2F2 | A2d2 f2d2 | "G"B3^A B2e2 | "Em"g4 B2d2 |\
+      "A"c3d c2B2 | "A7"A2c2 e2c2 | "D"d4 d4 | d4 |]
+f2g2 | "D"a4 a2^ga | b2a2 g2f2 | "Em"g4 B4 | e4 "E7"e2d2 |\
+      "A"c3d c2B2 | A2c2 "A7"d2e2 | "D"f4- f4- | f4 f2g2 |
+      "D"a4 "D7"a2^ga | "B7"b2a2 g2f2 | "Em"g4 B4 | e4 "E7"e2d2 |\
+      "A"c3d c2B2 | A2c2 "A7"e2c2 | "D"d4 "G"d4 | "D"d4 |]
+%
+
+%%sep 1 1 500
+
+X: 1
+T: the Scotia Girl Hornpipe
+C: Ralph Page
+R: hornpipe, reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Northern Junket, v.8, #4, March 1965
+N: __
+M: 2/4
+L: 1/16
+K: D
+AG |\
+FAAA A2BA | GBBB B2cB | ABcd egfe | dcdB A2AG |
+FAAA A2BA | GBBB B2cB | ABcd ecAc | d2d2d2 :|
+|: fg |\
+a2fa d2ed | BdcB A2de | fdfa bafd | f2e2 e2fg |
+a2fa d2ed | BdcB A2dc | Bcde fgec | d2d2d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: the Tipsy Parson
+C: Ralph Page
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Northern Junket, v.4, #2, August 1953
+N: __
+M: C|
+L: 1/8
+K: G
+|:\
+G2Be d2Bd | gdBd cAFA | G2Be d2Bd | dcAB GDEF |
+G2Be d2Bd | gdBd cAFA | GBAc ((3Bcd) eg | fdcA G2z2 :|
+|:\
+A2FA c2BA | GdBG d2cB | A2FA c2BA | G2B2 d2Bc |
+d2Bd g2dB | Acee e2dc | BgdB cAFA | G2Bd g2z2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Year-End Two Step
+C: Ralph Page
+R: two-step, hornpipe, reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: Northern Junket, v.7, #11, May 1963
+N: __
+M: 2/4
+L: 1/8
+K: G
+GB |\
+d>ed^c | dBGB | d>ed^c | d2AB | c>dcB | cAFA | d>ed^c | d2GB |
+d>ed^c | dBGB | c>Bce | g2fe | d>^cde | dBGA | B>cBA | G ||
+ded |\
+g2g>f | gdBG | F2-F2 | Fded | f2f>e | fecA | G2-G2 | Gded |
+g2g>f | gdBG | c2e2 | g2fe | d2d>e | fdef | g2-g2 | g2 |]

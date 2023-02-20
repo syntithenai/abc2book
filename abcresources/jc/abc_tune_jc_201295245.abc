@@ -1,0 +1,36 @@
+X: 1
+T: Krivo Horo
+R: kopanica
+O: Bulgaria
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: Mark Lefy; David Bilides
+D: Nonesuch 72234
+M: 11/16
+L: 1/16
+K: A^c^f_B
+"A" \
+|: "A"A2de ed2 ded2 | ded2 dc2 cdd2 | "Gm"c2B2 B3 B2B2 | cddc B2A G4 |
+| "Gm"G2GA B3 B2B2 | cdd2  c2B Bc3 | c2Bc B2A "A"A4 | "Gm"ABG2 "A"A3 A4 |
+| "Gm"G2AB B3 B2B2 | cdde c2B Bc3 | "Gm"c2Bc B2A "A"A4 | "Gm"ABG2 "A"A3 A4:|
+"B" \
+|: cBAG A2E FGA2 | AGA2 AG2 A2A2 | cBAG A2E FGA2 | "Gm"FGA2 AG2 "A"A2A2 :|
+"C" \
+|: "A"FGA2 GFE FGA2 | A2c2 cBB AGA2 | A2GF EFG A2A2 | "Gm"c2Bc BAG "A"A2A2  :|
+"D" \
+|: "Gm"c2Bc BAG "A"ABcd | "Gm"c2Bc BAG "A"A2e2 | "Gm"c2Bc BAG "A"ABcd | "Gm"c2Bc BAG "A"A2A2 :|
+%%text A B C D
+K: GMaj
+"E" \
+|: "G"d2dB c2B B2d2 | d2dB c2B BGAG | "G"d2dB c2B B2d2 | d2dB c2B BGA2 :|
+"F" \
+|: "G"c2B2 c2B B2d2 | c2B2 dcB BGAG | "G"c2B2 c2B B2d2 | c2B2 dcB BGA2 :|
+K: ADor
+"G" \
+|: "Am"E4 A2G FGA2- | AEFG A2G "Em"FEB2 |1 "Am"E4 A2G FGA2- | AEFG A2G "Em"FDE :|2 "Am"E4 A2G FGA_B | "A"^c2_B2 cBA AGA2 |]
+K: A^c^f_B
+"H" \
+|:: "A"c2B2 cBA AGAd | c2B2 cBA AGA2 ::| "A"c2B2 cBA AGAd | c2B2 cBA GA=B=c |]
+K: B^d
+"I" \
+|: "B"d2c2 dcB BABe | d2c2 dcB BAB2 | d2c2 dcB BABe | d2c2 dcB BAB2 :|
+

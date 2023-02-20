@@ -1,0 +1,38 @@
+X: 11312
+T: MORGIANA
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.11 p.31 #2
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+c |\
+(cAc) {fg}a2g | fed c2d | (cA).c (fc).a | (ba).g (gf).d |\
+ cAc      a2g | fed c2d | (cA).c (fc).f | (ag).e f2 |]
+g |\
+gag fed | ccc b2c | (ac).c (fc).c | acc g3 |\
+gag fed | dcc b2c | (ac).c (fc).c | gfe dcB |]
+AFG A2c | AFG A2c | B2d A2c | G3- GcG |\
+AFG A2c | AFG A2c | d2f e2g | f3 f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z |\
+f3 fac' | d'c'b afz | f3 f3 | c3 f2z |\
+f3 fac' | d'c'b afb | a3 f3 | c3 f2 |]
+z |\
+c3 G3 | c3 egc' | f3 a3 | f2a c'ge |\
+c3 G3 | c3 egc' | f3 a3 | c'3 z2z |]
+fac' f'c'a | fac' f'c'a | bd'b afa | c'ge c3 |\
+fac' f'c'a | fac' f'c'a | bd'b c'2c | fcA F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st Lady change places with 2d Gent
+%% 1st Gent the same with 2d Lady
+%% Pousette & Right & left.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

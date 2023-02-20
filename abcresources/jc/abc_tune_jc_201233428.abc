@@ -1,0 +1,35 @@
+X: 199
+T: Bonnie Laddie, Highland Laddie.
+O: Scotch Folksong
+%R: air, march
+Q: "Moderato."
+B: "The Everyday Song Book", 1927
+N: This is version 2, for ABC software that understands crescendo/diminuento symbols.
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+!mf!F3 G A2 A2 | B2 G2 A4 | !p!A2 G2 G2 FG | A2 G2 G2 A2 |
+w: 1.~Where ha'e ye been a the day, Bon-nie lad-die,* High-land lad-die?
+w: 2.~When he drew his gude braid-sword, Bon-nie lad-die,* High-land lad-die;
+w: 3.~Geor-gie sits in Char-lie's chair, Bon-nie lad-die,* High-land lad-die;
+!mf!F3 pG A2 d2P | !f!(Bc) (QAG) (qA3G) | !p!F2 D2 D2 (CD) | F2 D2 D2 C2 |
+w: Saw ye him that's far* a-*way,* Bon-nie lad-die,* High-land lad-die?
+w: Then he gave his roy-*al* Word,* Bon-nie lad-die,* High-land lad-die;
+w: But I think he'll no* bide* there,* Bon-nie lad-die,* High-land lad-die;
+!f!d2 f2 c2 f2 | (BA) (GF) A4 | !mp!A2 G2 G2 (FG) | A2 G2 pG2 Pc2 |
+w: On his head a bon-*net* blue, Bon-nie lad-die,* High-land lad-die,
+w: Frae the field he ne'er* would* flee, Bon-nie lad-die,* High-land lad-die,
+w: Char-lie yet shall mount* the* throne, Bon-nie lad-die,* High-land lad-die,
+!f!d2 f2 c2 f2 | (BA) (GQF) (A3qG) | !p!F2 D2 D2 (CD) | F2 D2 D2 HC4 |]
+w: Tar-tan plaid and High-*land* trew,* Bon-nie lad-die,* High-land lad-die.
+w: Wi' his friends would live* or* dee,* Bon-nie lad-die,* High-land lad-die.
+w: Weel ye ken it is* his* own,* Bon-nie lad-die,* High-land lad-die.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

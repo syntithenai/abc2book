@@ -1,0 +1,24 @@
+X: 1062
+T: Major Graham
+%R: air, strathspey
+N: This is version 2, for ABC software that understands voice overlays.
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.6 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow"
+K: D
+% = = = = = = = = = =
+V: 1 staves=2
+B, |\
+A,>B,DD D2 x2 & x2DD D2{D}d>B | AFED [E2A,2][EA,]F |\
+A,>B,DD D2 x2 & x2DD D2{D}d>B | AFTEF D2D :| (A/B//c//) |\
+d>edc TBABd | A>FED E2EB/c/ |
+d>edc TBABd | A<FE>F D2DB/c/ ||\
+d>edc TB>ABd | AFED E2EF |\
+A,>B,DD D2 x2 & x2DD D2{D}d>B | AFE>F D2D |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d2d2 d2d2 | d2d2 e2e2 | d2d2 d2d2 | a2A2 d2d :| z | d2d2 d2d2 | d2d2 [e2A2][e2A2] |
+d2d2 d2d2 | a2A2 d2d2 || d2d2 d2d2 | d2d2 [e2A2][e2A2] | d2d2 d2d2 | a2A2 d2d |]

@@ -1,0 +1,14 @@
+X: 149
+T: Rei'ach Menta
+C:Margalit Tzanani 1996
+O: Israel
+M: 4/4
+L: 1/8
+Q: 1/4=192
+K: Am
+%%MIDI program 65
+%%MIDI drum dddd 36 41 41 41 80 60 70 50
+%%MIDI drumon
+|:z2.d2.d2.d2|c3B A2z2|cdcB cdcB|c2dzc2dz  |
+  z2 dd d2 e2|c3B A2z2|cBcd cBBA|A4 z4     :|
+|:ABcd.e2.e2 |e3d ede2|dgfg e2z2|edec c2z2 :|

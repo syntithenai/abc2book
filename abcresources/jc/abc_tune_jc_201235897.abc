@@ -1,0 +1,28 @@
+X: 21451
+T: THE ORIGINAL VARSOVIANA
+N: Bowing and Fingering arranged by W.B. Laybourn
+R: varsoviana
+B: K\"ohler's Violin Repository, v.2, 1885 p.145
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The last phrase has two endings but no initial repeat sign.  Fixed.
+M: 3/4
+L: 1/8
+K: Am
+ue>vf |\
+   e2 c'2 a2 | ^g4 e>f | e2 d'2 b2 | a4 e>f |\
+   e2 e'2 c'2 | b4 d>f | e>d (c2 B2 ) |[1 A2 z2 :|[2 A2 z2 z2 |]
+|: {f}ue>^d e2 G2 | {f}e>^d e2 G2 | {f}e>^d e2 f2 | =d4 G2 |\
+   {g}f>e f2 G2 | {g}f>e f2 G2 | {g}f>e f2 g2 |1 e4 G2 :|2 (.e4 v.e2) ||
+|: u(d<e) u(c<d) u(B<c) | (A4 ^f2) | u(e<^f) u(d<e) u(c<d) | (B4 e2) |\
+   u(d<e) u(c<d) u(B<c) | (A4 ^f2) | u(e<^f) u(d<e) u(c<d) |1 (B4 e2) :|2 (B4 G2) ||
+|: {f}e>^d e2 f2 | {a}g>^f g2 ^g2 | {b}a>^g a2 b2 | c'4 e2 |\
+   {f}e>^d e2 f2 | {a}g>^f g2 ^g2 | {b}a>^g a2 b2 |1 c'4 G2 :|2 c'4 c'2 ||
+|: u(c'<a) u(a<^f) u(f<d) | (c4 d2) | u(d'<b) u(b<g) u(g<d) | (B4 d2) |\
+   u(c'a) u(a^f) u(fd) | (c4 d2) | (c'a^fdcA) |1 G4 vc'2 :|2 G4 (A/G/^F/G/) |]
+|: e4 (A/G/^F/G/) | e4 (A/G/^F/G/) | e2 (.e2 .e2) | d4 u(A/G/^F/G/) |\
+  =f4 (A/G/^F/G/) | f4 (A/G/^F/G/) |=f2 (.f2 .f2) |1 e2 z2 uG2 :|2 e2 z2 ue2 ||
+|: vd2 (d/e/d/c/) Bd | c4 c2 | B2 (B/c/B/A/) ^GB | A4 e2 |\
+    d2 (d/e/d/c/) Bd | c4 c2 | B2 (B/c/B/A/) ^GB | A4 e2 :|
+|: f(g/f/) efgf | e(f/e/) ^defe | =d(e/d/) ^cded | =c4 A2 |\
+   f(g/f/) efgf | e(f/e/) ^defe | =d(e/d/) ^cd=cB |1 A4 e2 :|2 A2 z2 "_D.C."|]

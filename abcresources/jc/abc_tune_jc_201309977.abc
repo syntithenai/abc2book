@@ -1,0 +1,27 @@
+X: 1
+T: Min levnads Afton
+T: Autumn of My Life
+O: efter Pekkos Per
+C: trad. arr. Carl Rahkonen
+R: g\aangl\aat
+S: Fiddle Hell Online 2021-5-14 "Easy Scandinavian" handout 2021-05-14
+Z: 2021-5-14 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+"Am"A,3 B, C2 D2 | "E"E6 ^GB | "Am"A2 Bd c2 c2 | "E"(Bc) B^G E2 D2 |
+"C"C2 B,C "G"D2 CD | "C"E6 e2 | "Am"c2 BA "E"Bd B^G |1 "Am"A8 :|2 "Am"A3B AB ce ||
+|:\
+"Am"a3 a a2 ^g2 | "E"e6 d2 | "C"c3 e e2 e2 | "D"d2 cd "E"e3 d |
+"Am(F)"c3 B AB cd | "Dm"ed cB c2 c2 | "E"Bc B^G EG Bc |1 "Am"A3B AB ce :|1 "Am"A8 |]
+% - - - - - - - - - -
+V: 2
+|:\
+E3 ^G A2 B2 | ^G6 e^g | a2 ^gb  a2 a2 | ^ga ge c2 B2 |
+A2 ^GA B2 AB | c6 c'2 | a2 ^g^f gb ge |1 c8 :|2 c3 ^G ^FG AB |
+|:\
+e3 e e2 d2 | ^G2 G^F G2 EG | AE Ac c2 c2 | ^F2 FA ^G2 EG |
+A3 E CE AB | cB A^G A2 A2 | ^GA G^F EF ED |1 C3 ^G ^FG AB :|2 C8 |]

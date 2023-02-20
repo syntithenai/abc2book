@@ -1,0 +1,27 @@
+X: 011
+T: Dumbarton's Drums
+%R: march, reel
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.1 #1
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Q: "slow"
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1
+FG |\
+A3c AcTAG | F2c2 {d}c2(TBA) | (TGFG)A (BA)(TGF) | {E}D2d2 Td2cd |
+f2fg (ag)(Tf>d) | (cA)cd f2F>A | (GA) f>d (cA)(TGF) | D2(d2 {e}d2) :|
+|: cd |\
+~f2f>g a>bTa>g | f2a2 {b}a2(gf) | Tg>fga (ba)(Tgf) | d2g2 Tg2(fd) |
+(cd)f>g (ag)(fd) | (cA)cd f2f>g | (ag)Tf>d (cA)TG>F | D2(d2 {e}d2):|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+z2 |\
+fg"6"ac f2zc | d2"6"A2 "9"B2"8"b2 | c'2zf e3"6"a | bagf d2z2 | "6"aga"6"e fg"6"ab |
+"6"a3g f"6"gaf | c'3b "6"a2za | bagf d2 :||: z2 | z2 "6;4"c2 "5;3"f2f"6"g | "6"agfe f2F2 | c3f g3"6"a |
+bagf "6"ecfg | "6"a2z"6"e fg"6"ab | "6"a3g fg"6"a"6"e | f3b "6"a3a | bagf d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

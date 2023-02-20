@@ -1,0 +1,25 @@
+X:1
+T:Hàn Tiān Léi
+T:旱天雷
+%%jianpu 1
+M:2/4
+L:1/4
+Q:1/4=120
+K:C shift=CG
+z2S|\
+ !f!G,G | G,/z/ A//G//E//G// | DG, | D/z/z |\
+ !mp!G>A | B,/>D/ B,/A,/ | G,G,/>A,/ | !mf!G,/GA/ |\
+ B,/>d/ B//d//B//A// | G/c/ E/G/ | AA/>B/ | !f!A/AG/ |\
+ CC/>A,/ | C/D/ A//G//E//G// | D/z/D/z/ | D/z/z |\
+ z/C/ z/C/ | z/C/ z/C/ | z/D/ D/>E/ | D/DE/ |\
+ !f!G c/A/ | G/>A/ G/E/ O| D/z/z | z/z |\
+ A,/>C/ D//G//E//D// | B,/>D/ A,/C/ | !>(!G,2-!>)! | G,z/PA/ |\
+ G/>A/ c/>B/ | A//c//A//G// F/E/ | G>PA | G/>A/ c/B/ |\
+ A/z//c// A//c//A//G// | E//D//E//G// A//G//A//c// | G>PA | !>(!G/G!>)!c/ |\
+ A/z/z | zz | zz | zz/E//G// |\
+ !mf!D/>E/ C/>A,/ | D/>E/ A//c//A//G// | E2- | EG/>E/ |\
+ D/>E/ D//E//D//B,// | A,/E/ G,/A,/ | C/A,/!<(!C- | !<)!C!>(!G//D//E//!>)!B,// |\
+ !mp!A,/G,G/ | E/z//F// E//F//E//D// | C>G | G,//G//G//G// G,//G//G//G// |\
+ !mf!A,/>C/ D//G//E//D// | B,/>D/ A,//G,//A,//C// | G,2- | G,A//G//E//G// O!D.S.!|\
+| !<(!D//G//G//G// E//G//G//G// | !<)!A,//G//G//G// G,//G//G//G//H | A/>c/ d/e/ | B/d/ A/Hc/ |\
+ HG2 & !<(!x!<)!!>(!x!>)! |]

@@ -1,0 +1,31 @@
+X: 1
+T: Mug House
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.20
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+B>cd (ec)e | (dB)g B>AG | (AF)A A2c |\
+B>cd (ec)e | (fd)f g2d | (BG)G G2 :|
+|: B |\
+(AF)A (AF)A | (AF)d (AF)B | (GE)E E2A |\
+(FD)d (Be)d | (ge)a (df)b | (ga)f g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text	First man on his wo. side.
+%%sep 1 1 300
+%%begintext align
+%%	First wo. cross over with the 2. wo. turn S. all four; 2. wo. cross over with the 1. man, and turn S.
+%% 1. wo. being in the 2. wo. place, cast up round her, and turn the 2. man; 1. man being in his own
+%% place, cast down at the same time, and turn the 2. wo. men standing on their own side, lead through
+%% round; 2. wo. cast up, 1. man turn his own wo. 1. cu. being in the 2. place, run the Figure through,
+%% and so turn your own.
+%%endtext
+%%sep 1 1 300
+%%text Note: Each strain is to be play'd twice over.
+%%sep 1 8 500

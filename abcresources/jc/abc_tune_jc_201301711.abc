@@ -1,0 +1,53 @@
+
+X: 1
+T: \vSano Du\vso  [C]
+T: Vranjanka
+N: (Lesnoto)
+O: Srbija
+R: lesnoto
+Z: 1998 John Chambers <jc@trillian.mit.edu>
+N: This song is traditionally sung in both waltz and lesnoto rhythms.
+M: 7/8
+L: 1/8
+K: C
+|: "Fm"[c2_A][cA] [c2A] [c2A] | "G"[B2G][_AF] [GE][AF] [BG][cA] | "Fm"[B2G][_AF] [B2G] [A2F] | "C"[G3E] [G4E] :|
+w: 1.~\vSa-no du-\vso, \vSa-no mo-*ri,* ot-vo-ri mi vra-ta.
+w: 2.~No\'c li ho-di, div-no \vSa-*no,* ja si tu-ga vi-jem.
+w: 3.~Tvo-je li-ce be-lo, \vSa-*no,* sneg je za pla-ni-ne.
+[| "F"[=A2F][AF] [A2F] [A2F] | [A2F][GE] [AF][BG] [c2A] | "G7"[G2E][AF] [G2E] [F2D] | "C"[E3C] [E4C] |]
+w:    Ot-vo-ri mi, \vSa-no, vra-*ta, da ti dam du-ka-ta.
+w:    U-ba-vi-nja tvo-ja, \vSa-*no, ne da mi da spi-jem.
+w:    Tvo-je \'ce-lo gi-di, \vSa-*no, ka-ko me-se-\'ci-ne.
+[| "C"[E2C][FD] [G2E] [FD][EC] | "Dm"[DB,][D2B,] [A4F] | "G7"[G2E][AF] [G2E] [F2D] | "C"[E3C] [E4C] |
+w:    Oj, le le le le le le le, iz-go-re za te-be,
+|  "C"[E2C][FD] [G2E] ([FD][EC]) | "Dm"[D3B,] [A4F] | "G7"([G2E2][AF]) [G2E] [F2D] | "C"[E3C] [E4C] |]
+w:    Iz-go-re mi,* \vSa-no, sr-*ce za te-be.
+
+
+%%sep 1 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: \vSano Du\vso  [D]
+T: Vranjanka
+N: (Lesnoto)
+O: Srbija
+R: lesnoto
+Z: 1998 John Chambers <jc@trillian.mit.edu>
+N: This song is traditionally sung in both waltz and lesnoto rhythms.
+M: 7/8
+L: 1/8
+K: D
+|: "Gm"[d2_B][dB] [d2B] [d2B] | "A"[c2A][_BG] [AF][BG] [cA][dB] | "Gm"[c2A][_BG] [c2A] [B2G] | "D"[A3F] [A4F] :|
+w: 1.~\vSa-no du-\vso, \vSa-no mo-*ri,* ot-vo-ri mi vra-ta.
+w: 2.~No\'c li ho-di, div-no \vSa-*no,* ja si tu-ga vi-jem.
+w: 3.~Tvo-je li-ce be-lo, \vSa-*no,* sneg je za pla-ni-ne.
+[| "G"[=B2G][BG] [B2G] [B2G] | [B2G][AF] [BG][cA] [d2B] | "A7"[A2F][BG] [A2F] [G2E] | "D"[F3D] [F4D] |]
+w:    Ot-vo-ri mi, \vSa-no, vra-*ta, da ti dam du-ka-ta.
+w:    U-ba-vi-nja tvo-ja, \vSa-*no, ne da mi da spi-jem.
+w:    Tvo-je \'ce-lo gi-di, \vSa-*no, ka-ko me-se-\'ci-ne.
+[| "D"[F2D][GE] [A2F] [GE][FD] | "Em"[EC][E2C] [B4G] | "A7"[A2F][BG] [A2F] [G2E] | "D"[F3D] [F4D] |
+w:    Oj, le le le le le le le, iz-go-re za te-be,
+|  "D"[F2D][GE] [A2F] ([GE][FD]) | "Em"[E3C] [B4G] | "A7"([A2F2][BG]) [A2F] [G2E] | "D"[F3D] [F4D] |]
+w:    Iz-go-re mi,* \vSa-no, sr-*ce za te-be.

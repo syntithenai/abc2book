@@ -1,0 +1,37 @@
+X:613
+T:Red and Gold
+C:Colin Hume, 1982
+L:1/8
+M:6/8
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=110
+%%MIDI ratio 3 1
+K:G
+P:A
+V:1
+%%MIDI program 21     Accordion
+%%MIDI chordprog 42   Cello
+%%MIDI bassprog 43    Contrabass
+|: "G"B2G B2G | "Am"cBc A3 | "D7"d2A def | "G"g2d BAG |\
+"C"e2c efg | "A7"a2g "D"fed | "Em"efg "A7"ed^c | "D"d3- d2d |
+"C"e2c efg | "D"f2e d2B | "Am"c2A cde | "D"d2c B2A |\
+"Em"B2A GAB | "Am"c2B "Am"ABc | "G"d2g "C"edc | "D7"BcA "G"G3 [K:Am] :|
+V:2
+|:
+%%MIDI program 71     Clarinet
+G2D G2D | A2E CB,C | A,2D FGA | B2G D2G |\
+c2B A2G | AB^c d2A | E2B, EFG | FGA FED |
+C2G, C2E | D2A, DEF | E2C E2G | F2D FGA |\
+G2F EFG | A2G FGA | B2G cBA | DEF G3 [K:C] :|
+Q:1/2=90
+P:B
+V:1
+L:1/4
+M:2/2
+|: "Am"A2 c2 | "G"B/c/B/A/ G2 | "C"ce- ed/c/ | "G"Bd- dc/B/ |\
+"F"A>B cA | "Dm"df- fe/d/ | "Am"ce- ed/c/ | "E7"B>A "Am"A2 :|
+V:2
+L:1/4
+M:2/2
+|: A2 EF | G2G/A/G/F/ | EC EF | G2DE |\
+FC- CF/E/ | DA, DF | EC EA | A^G A2 :|

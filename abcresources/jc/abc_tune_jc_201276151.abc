@@ -1,0 +1,17 @@
+X: 844
+T: the First of June
+R: hornpipe
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #844
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0844/oneill-1001-0844-1.abc
+%m: ~n2 = o/4n/m/4n
+M: C|
+L: 1/8
+K: G
+"^A"|: (B>c) \
+| d>dc>A (3ddd c>A | ~G2A>F G2A>G | F>Af>e d>cE>F | G>gf>e (3ded (3cBA ||
+| d>dc>A (3ddd c>A | G>gf>a g2g2 | d>BG>E D>DE>F | G2g2 g2 :|
+"^B"\
+|: (e>f) | (3gag f>g e>Be>f | g>bf>g e2f>g | a>ba>g f>ed>f | e>gf>e d2 ||
+|   e>f  | g>af>g e>fd>f | g>dB>G A>GE>F | G>BG>E D>DE>F | G2g2 g2 :|

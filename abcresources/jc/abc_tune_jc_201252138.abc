@@ -1,0 +1,45 @@
+
+X: 1
+T: Bibbidy Bobbidi Boo
+C: Mack David, Al Hoffman, Jerry Livingston
+N: From Walt Disney's "Cinderella"
+R: jig
+M: 6/8
+L: 1/8
+K: F
+|: "F"c=Bc d2c | A^GA _B2A | FFF FED | C3 z3 |
+w: Sa-la-ga-doo-la men-chi-cka boo-la Bib-bi-di Bob-bi-di Boo.
+w: Sa-la-ga-doo-la men-chi-cka boo-la Bib-bi-di Bob-bi-di Boo.
+  "C7"CDE FGA | BAG c3 | cdc BAG |1 "F"F3 "C7"A3 :|2 "F"F3 z3 ||
+w: Put 'em to-geth-er and what have you got? Bib-bi-di Bob-bi-di Boo.
+w: It-'ll do mag-ic be-lieve it or not, Bib-bi-di Bob-bi-di- | | Boo.
+   "Bb"BBB G2F | B6 | "F"AAA G2F | "Dm"A3 A2_A |
+w: Sa-la-ga-doo-la means men-chi-cka boo-le-roo, But the
+  "G7"GGG G2G | G2G G2F | "C"E^DE "Gm7"FEF | "C7"G3 z3 ||
+w: thing-a-ma-bob that does the job is Bib-bi-di Bob-bi-di Boo.
+   "F"c=Bc d2c | A^GA _B2A | FFF FED | C3 z3 |
+w: Sa-la-ga-doo-la men-chi-cka boo-la Bib-bi-di Bob-bi-di Boo.
+  "C7"CDE FGA | BAG c3 |1 cdc BAG | "F"F3 "C7"A3 |]
+w: Put 'em to-geth-er and what have you got? Bib-bi-di Bob-bi-di Boo.
+|["Coda" "C7"cdc BAG | cdc BAG | cdc BAG | "F"F3 [f3A3] |]
+w: Bib-bi-di Bob-bi-di Bib-bi-di Bob-bi-di Bib-bi-di Bob-bi-di Boo.
+
+
+%%sep 2 1 500
+
+X: 2
+T: Bibbidy-Bobbidi-Boo
+C: Mack David, Al Hoffman, Jerry Livingston
+N: From Walt Disney's "Cinderella"
+R: jig
+M: 6/8
+L: 1/8
+K: G
+|: "G"d^cd e2d | B^AB =c2B | GGG GFE | D3 z3 \
+| "D7"DEF GAB | cBA d3 | ded cBA |1 "G"G3 "D7"B3 :|2 "G"G3 z3 ||
+|| "C"ccc A2G | c6 | "G"BBB A2G | "Em"B3 B2_B \
+| "A7"AAA A2A | A2A A2G | "D"F^EF "Am7"GFG | "D7"A3 z3 ||
+|| "G"d^cd e2d | B^AB =c2B | GGG GFE | D3 z3 \
+| "D7"DEF GAB | cBA d3 |1 ded cBA | "G"G3 "D7"B3 |]
+|["Coda" "D7"ded cBA | "D7"ded cBA | "D7"ded cBA | "G"G3 [g3B3] |] \
+y6 y6 y6 y6 y6 y6 y6 y6 y6 y6 y6 y6

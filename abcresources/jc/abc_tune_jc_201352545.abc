@@ -1,0 +1,20 @@
+X: 1
+T: My Wild Irish Rose
+C: Music and Lyrics by Chauncey Olcott (1898)
+N: Irish-American, composed for the New York theater show "A Romance of Athlone".
+M: 3/4
+L: 1/4
+%%staffsep 35
+K: G
+B,/C/ "D"\
+| "G"DEF | "G,+"GB>A | "C"AGE | "G"G2B,/C/ | "G"DEG | "A7"AB>A |"D7"A3- | A2 B,/C/ |
+| "G"DEF | "G,+"GB>A | "C"AGE | "G"G2B,/C/ | "G"DEG | "D7"AG>F | "G"G3- | G2B     |
+|"D7"ABc |   c2B/A/ | "G"GAB |    B2B    |"A7"BAG |     EFG  |"D7"A3- | A2B,/C/  |
+| "G"DEF | "G,+"GB>A | "C"AGE | "G"G2B,/C/ | "G"DEG | "D7"AG>F | "G"G3- | G2     |]
+|: "D7"D "E"\
+| "G"B3 | "D7"B3A | "G"G3- | "G7"G2G \
+| "C"GG2 | "D7"F2E | "G"D3- | D2 B,/B,/ |
+| "C"CDE | "G"D2B, | "C"CDE | "G"D2F/G/ \
+|1 "A7"E3 | B2A | "D7"A3- | A2 :|
+|2 "A7"EFG | "D7"AGF | "G"G3- | G2 \
+:|["Coda" "A7"EFG | "D7"GHA3/G/ | "G"G3- | G2 |]

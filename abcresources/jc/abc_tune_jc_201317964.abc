@@ -1,0 +1,157 @@
+X: 1
+%%pageheight 11in
+T:The Nutting Girl
+M:4/4
+C:
+S:Bacon (Jour EFDS, 1928)
+N:iteration 4 with stepping
+%:NoTeX
+%:
+A:Bampton
+O:English
+R:Reel
+P:AAB(CB)2
+K:G
+I:speed 400
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A0 (OY)
+   "bar 0"B>A |\
+   "bar 1"G2  G>A   B>A   G>B | "bar 2"d2    (3cdc   A2  G>F |\
+   "bar 3"G2  B>c   d2    g2  | "bar 4"d4            d3    B |
+   "bar 5"c>d e>c   A2    B>c | "bar 6"B>c   d>B     G2  A>B |\
+   "bar 7"c2  (3AcA F2    D2  | "bar 8"G4            G2      ||
+w:                            |        L             r
+w:                            |        HC                    |
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A1 (FU) (style 7 on Bacon p. 49)
+   "bar 0"B>A |\
+w:        hr *
+   "bar 1"G2  G>A   B>A   G>B | "bar 2"d2    (3cdc   A2  G>F |\
+w:        l  hl *   r *  hr *          l    hl * *   r  hr *
+w:        ~2                  |        ~2                    |
+   "bar 3"G2  B>c   d2    g2  | "bar 4"d4            d2- d B |
+w:        l   (l) * r     (r)          L             r   r *
+w:        bs                  |        HC                    |
+   "bar 5"c>d e>c   A2    B>c | "bar 6"B>c   d>B     G2  A>B |\
+w:        l  hl *   r *  hr *          l    hl * *   r  hr *
+w:        ~2                  |        ~2                    |
+   "bar 7"c2  (3AcA F2    D2  | "bar 8"G4            G2      ||
+w:        l   (l) * * r   (r)          L             r
+w:        bs                  |        HC                    |
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%newpage
+P:B (Jig)
+   "bar 0"B>A |\
+w:        hr *
+   "bar 1"G2  g2    g>e   f>g | "bar 2"(3fgf   d2    d2  B>c |\
+w:        l   r     l *   hl *         r * *   hr    l  hl *
+w:        css(lt)             |                              |
+   "bar 3"d2  e>f   (3gag f>e | "bar 4"f2-     f2    f3    e |
+w:        r   l *   r * * hr *         l       hl    r     hr
+w:        css(rt)             |                              |
+   "bar 5"d2  g2    g3      f | "bar 6"e2      d2    d3    B |\
+w:        l   r     l      hl          r     l       r    hr
+w:        oss(lt)             |        oss(rt)               |
+   "bar 7"A2  B2    c2    d2  | "bar 8"e>f     g>e   d>B c>A |
+w:        L   *     r    hr            L *     * *   r * hr *
+w:        HC                  |        HC                    |
+   "bar 9"G2  G>A   B>A   G>B | "bar10"d2      (3cdc A2  G>F |\
+w:        l   hl *  r *   hr *         l      hl * * r  hr *
+w:        2                   |        2                     |
+   "bar11"G2  B>c   d2    g2  | "bar12"d4            d3    B |
+w:        l   (l) * r     (r)          l             R     *
+w:        bs                  |        SC                    |
+   "bar13"c>d e>c   A2    B>c | "bar14"B>c     d>B   G2  A>B |\
+w:        l * hl *  r    hr *          l *    hl *   r  hr *
+w:        2                   |        2                     |
+   "bar15"c2  (3AcA F2    D2  | "bar16"G4            G2- G2  ||
+w:        l   (l) * * r   (r)          L             r   r
+w:        bs                  |        HC                    |
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%newpage
+P:C1 (UC)
+M:2/4
+L:1/8
+   "bar 0"B3 A |\
+w:        ft *
+w:        UC   |
+M:4/4
+   "bar 1"G4     G2- G A  | "bar 2"B3    A G3 B | "bar 3"d2- d2 c4     |\
+w:        A      l   l *           ft    * A  *          l   l  ft
+w:                        |        UC           |        *   *  UC     |
+   "bar 4"A4     F2-   F2 | "bar 5"G4      B3 c | "bar 6"d2- d2 g4     | "bar 7"d4 d2- d2 |\
+w:        A      l     l           ft      A  *          l   l  ft              A   l  l
+w:                        |        UC           |        *   *  UC     |                  |
+M:2/4
+L:1/8
+   "bar7a"d2 B2 |\
+w:        r  r
+M:4/4
+   "bar 8"c>d e>c   A2    B>c | "bar 9"B>c   d>B     G2  A>B |\
+w:        l * hl *  r    hr *          l *   * *     R     *
+w:        2                   |        SC                    |
+   "bar10"c2  (3AcA F2    D2  | "bar11"G4            G2      ||
+w:        l   (l) * * r   (r)          l             r
+w:        bs                  |        SC                    |
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:C2 (HC)
+M:2/4
+L:1/8
+   "bar 0"B3 A |\
+w:        L  *
+w:        HC   |
+M:4/4
+   "bar 1"G2- G2 G3 A | "bar 2"B2- B A G3 B | "bar 3"d2- d2 c4 |\
+w:        r   r  L  *          r   r * L  *          r   r  L
+w:        *   *  HC   |        *   * * HC   |        *   *  HC |
+   "bar 4"A2- A2 F4   | "bar 5"G2- G2  B3 c | "bar 6"d2- d2 g4 | "bar 7"d2- d2 d4 |\
+w:        r   r  L             r   r   L  *          r   r  L           r   r  L
+w:        *   *  HC   |        *   *   HC   |        *   *  HC |        *   *  HC |
+M:2/4
+L:1/8
+   "bar 7a"d2 B2 |\
+w:         r  r
+M:4/4
+   "bar 8"c>d e>c   A2    B>c | "bar 9"B>c   d>B     G2  A>B |\
+w:        l * hl *  r    hr *          l *   * *     R     *
+w:        2                   |        SC                    |
+   "bar10"c2  (3AcA F2    D2  | "bar11"G4            G2      ||
+w:        l   (l) * * r   (r)          l             r
+w:        bs                  |        SC                    |
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%newpage
+P:end of B1, transition to C1 (UC)
+   "bar15"c2  (3AcA F2    D2  | "bar16"G4            G2- G2  ||\
+w:        l   (l) * * r   (r)          L             r   r
+w:        bs                  |        HC                    |
+%P:C1 (UC)
+M:2/4
+L:1/8
+   "bar 0"B3 A |\
+w:        ft *
+w:        UC   |
+M:4/4
+   "bar 1"G4     G2- G A  | "bar 2"B3    A G3 B | "bar 3"d2- d2 c4     |
+w:        A      l   l *           ft    * A  *          l   l  ft
+w:                        |        UC           |        *   *  UC     |
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:end of B2, transition to C2 (HC)
+   "bar15"c2  (3AcA F2    D2  | "bar16"G4            G2- G2  ||\
+w:        l   (l) * * r   (r)          L             r   r
+w:        bs                  |        HC                    |
+%P:C2 (HC)
+M:2/4
+L:1/8
+   "bar 0"B3 A |\
+w:        L  *
+w:        HC   |
+M:4/4
+   "bar 1"G2- G2 G3 A | "bar 2"B2- B A G3 B | "bar 3"d2- d2 c4 |
+w:        r   r  L  *          r   r * L  *          r   r  L
+w:        *   *  HC   |        *   * * HC   |        *   *  HC |
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:end of B3
+%%staffwidth 196
+   "bar15"c2  (3AcA F2    D2  | "bar16"G4            G2- G2  ||
+w:        l   (l) * * r   (r)          L             R   *
+w:        bs                  |        SC                    |

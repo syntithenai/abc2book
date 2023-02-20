@@ -1,0 +1,1040 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 14
+B: RSCDS Book 14
+K:
+%%center Book14/1400-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1401
+T: Willie With His Tartan Trews
+P: Willie With His Tartan Trews
+C:Traditional?
+R:Jig (8x40) ABABB
+B:RSCDS 14-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:A
+f|"A"ecA "D"def|"A"ece c2f|ecA edc|"G"BcB d2 f|
+  "A"ecA "D"def|"A"ecf c2e|"D"faf "A7"edc|"Bm"BcB d2||
+f|"A"ecA acA|ecA "D"d2f|"A"ecA acA|"Bm"BcB d2f|
+  "A"ecA acA|ecA cde|"D"faf "A"ecA|"G"BcB d2|]
+%%center Book14/1401-Willie_With_His_Tartan_Trews-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1402
+T: Grant's Reel
+P: Grant's Reel
+C:Rutherford
+R:Strathspey (8x32)
+B:RSCDS 14-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:C
+E|"C"C>E G>E c>G A>G|"Dm"F>d "C"E>c "G"dD DE|\
+  "C"C>E G>E c>G A>G|F>D "G7"G>F "C"EC C E|
+  "C"C>E G>E c>G A>G|"Dm"F>d "C"E>c "G"dD DE|\
+  "C"C>E G>E c>G A>G|F>D "G7"G>F "C"EC C||
+f|"C"g>e c>e g/f/e/f/ ge|"F"f>a "C"g>e g>d "G"d>g|\
+  "C"g>e c>e g/f/e/f/ g>e|"F"fd "G"gf "C"e<c c>e|
+  "C"g>e c>e g>a g>e|g>e "F"g>f "C"e<d "G"d>f|\
+  "C"g>e "G7"f>d "C"e>c "G"d>B|"Am"c/B/A/B/ "C"c>G E<C C|]
+%%center Book14/1402-Grants_Reel-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1403
+T: Push About The Jorum
+P: Push About The Jorum
+C:Gow (5th Coll. 1809)
+R:Reel (8x32)
+B:RSCDS 14-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:G
+g|"G"dGBG "D"FAAc|"G"BGBd "C"e/f/gf>e|"G"dGBG "D"FAA>B|"G"DG"D7"FA "G"G2 Gg|
+  "G"dGBG "D"FAAc|"G"BGBd "C"e/f/gf>e|"G"dGBG "D"FAA>B|"G"DG"D7"FA "G"G2 G||
+d|"Em"g2 f>g "G7"afed|"Em"ggf>g "D"a2d2|\
+                         "G"dgfg "D"afed|"Em"e/f/g"D"f/g/a "G"g2 g>d|
+  "Em"g2 f>g "G7"afed|"Em"ggfg "D"a2d2|\
+                         "G"dgfg "D"afed|"G"eg"D7"fa "G"g2 g|]
+%%center Book14/1403-Push_About_The_Jorum-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1404
+T: The Crooket Horned Ewie
+%
+P: The Crooket Horned Ewie
+C:Traditional (Gow 1799)
+R:Strathspey (8x32)
+B:RSCDS 14-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:A
+%
+E|"A"E<A A>B "E7"E>A B>G|"A"E<A A>c "Bm"d>B "A"c>A|\
+  "D"d>c B>A "E7"G>A B>G|"A"E<A A>c "E7"B>G "A"A E|
+  "A"E<A A>B "E7"E>A B>G|"A"E<A A>c "Bm"d>B "A"c>A|\
+  "D"d>c B>A "E7"G>A B>G|"A"E<A A>c "E7"B>G "A"A||
+d|"A"c<e e>f d>e "Bm"d>B|"A"c<e e>f =g>e a2|\
+  "G"=g>a ge dB =G>B|"A"E>A A>c "E7"B>G "A"A d|
+  "A"c<e e>f d>e "Bm"d>B|"A"c<e e>f =g>e a2|\
+  "G"=g>a ge dB =G>B|"A"E>A A>c "E7"B>G "A"A|]
+%%center Book14/1404-Crooket_Horned_Ewie-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1405
+T: Miss Nancy Frowns
+P: Miss Nancy Frowns
+C:Traditional?
+R:Jig (8x32)
+B:RSCDS 14-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+G|"G"GAG G2e|dBG "D"AFD|"G"GAG G2e|dBG "A"A2 G|
+  "G"GAG G2e|dBG "D"AFD|"G"GAG G2e|dBG "A"A2||
+A|"G"GAB d2g|"D"dBG AFD|"G"GAB d2g|"D"dBG A2 g|
+  "G"bag "A"age|egc "Em"BAG|"A" ABA "D"FED|"A"EA"D"F "G"[G2B,2]|]
+%%center Book14/1405-Miss_Nancy_Frowns-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1406
+T: Keep The Country Bonnie Lassie
+%
+P: Keep The Country Bonnie Lassie
+C:Gow
+R:Strathspey (8x40) ABABB
+B:RSCDS 14-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:A
+%
+f/|"A"AA/A/ c>B A>B "D"c<f|"A"AA/A/ c>A e>A c>A|\
+   "Bm"d>f "A/C#"c>e "Bm/D"B>c d<f|"A"e>A "D"a>f "E7"e2 "A"A3/2 f/|
+   "A"AA/A/ c>B A>B "D"c<f|"A"AA/A/ c>A e>A c>A|\
+   "Bm"d>f "A/C#"c>e "Bm/D"B>c d<f|"A"e>A "D"a>f "E7"e2 "A"A3/2||
+g/|"F#m"a/g/f/e/ c>f "Bm"B>c d<g|"F#m"a/g/f/e/ c>e a/g/f/e/ c>e|\
+   "Bm"d>f "A/C#"c>a "Bm/D"B>c d<f|"A"ef/g/ "D"a>f "E7"e2 "A"A3/2 g/|
+   "F#m"a/g/f/e/ c>f "Bm"B>c d<g|"F#m"a/g/f/e/ c>e a/g/f/e/ c>e|\
+   "Bm"d>f "A/C#"c>a "Bm/D"B>c d<f|"A"ef/g/ "D"a>f "E7"e2 "A"A3/2|]
+%%center Book14/1406-Keep_The_Country_Bonnie_Lassie-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1407
+T: The Deil Amang The Tailors
+P: The Deil Amang The Tailors
+C:Gow
+R:Reel (8x32)
+B:RSCDS 14-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C|
+L:1/8
+K:A
+g2|"A"a2 eg a2 eg|a2 ea fedc|"Bm"dfBf dfBf|dfba "E"gefg|
+   "A"a2 eg a2 eg|a2 ea fedc|"Bm"defd "A"ecBA|"E"E2 G2 "A"A2||
+e2|"A"ceAe ceAe|ceag fedc|"Bm"dfBf dfBf|dfba "E"gfed|
+   "A"ceAe ceAe|ceag fedc|"Bm"defd "A"ecBA|"E"E2 G2 "A"A2|]
+%%center Book14/1407-Deil_Amang_The_Tailors-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1408
+T: She's Ower Young To Marry Yet
+P: She's Ower Young To Marry Yet
+C:Traditional (Surenne)
+R:Strathspey (8x32)
+B:RSCDS 14-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:C
+C/|"C"E>G G>A c>d e>d|"F"F>A "C"G>A "G"d>e d>D|\
+   "C"E>G "G"G>A "C"c>d "F"e>c|e<g "G7"d>e "C"c<C C>C|
+   "C"E>G G>A c>d e>d|"F"F>A "C"G>A "G"d>e d>D|\
+   "C"E>G "G"G>A "C"c>d "F"e>c|e<g "G7"d>e "C"c<C C||
+g/|"C"e>c g>c e>f g>a|e>c g>c e<d "G"d>g|\
+   "C"e>c g>c e>f g>a|e>c "G"d>B "C"c>C C3/2 g/|
+   "C"e>c g>c e>f g>a|e>c g>c e<d "G"d>g|\
+   "C"e>c g>c e>f g>a|e>c "G"d>B "C"c>C C3/2|]
+%%center Book14/1408-Shes_Ower_Young_To_Marry_Yet-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1409
+T: What A Beau My Granny Was
+P: What A Beau My Granny Was
+C:Traditional?
+R:Reel (8x32)
+B:RSCDS 14-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+g|"D"fd"A"ec "G"dBAG|"D"FAdf "A"eE2 g|"D"fd"A"ec "G"dBAG|"D"Fd"A7"Ec "D"d2D g|
+  "D"fd"A"ec "G"dBAG|"D"FAdf "A"eE2 g|"D"fd"A"ec "G"dBAG|"D"Fd"A7"Ec "D"d2D||
+G|"D"FADF "Em"GBEG|"D"FAdf "A"eE2 G|"D"FAdf "A7"gedc|"D"dBAG FD DG|
+  "D"FADF "Em"GBEG|"D"FAdf "A"eE2 G|"D"FAdf "A7"gedc|"D"dBAG FD D|]
+%%center Book14/1409-What_A_Beau_My_Granny_Was-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1410
+T: The Bonniest Lass in All The World
+P: Miss Coxe's Strathspey
+C:Mrs McIntyre (here from Gow)
+R:Strathspey (8x40) ABABB
+B:RSCDS 14-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:Eb
+B/c/4d/4|"Eb"e>E "Ab"C>E "Eb/G"B,>E G,>E|B,>D A/G/F/E/ "Bb"D<F FB/c/4d/4|\
+  "Eb"e>E "Ab"C>E "Eb/G"B,>E G,>E|
+                                  "Bb"DE/F/ B,>A "E"G<E E B/c/4d/4|\
+  "Eb"e>E "Ab"C>E "Eb/G"B,>E G,>E|B,>D A/G/F/E/ "Bb"D<F FG/A/|
+  "Eb7"B>G Ee "Ab"c>A Fc|"Eb"B>G "Bb"F>A "Eb"G<E E||\
+B/c/4d/4|"Eb"e>B e>g e>c B<G|
+                             "Fm"A>F A/G/F/E/ "Bb"D<F F>A|\
+  "Eb"G/A/B E>e "Bb"d/e/f B>a|"Eb"g<b "Bb"f>a "Eb"g<e e>a|
+  "Eb"g>e "Bb"d<f "C"e>c "Gm"B>G|"Fm"A>F "Eb"B>E "Bb"D<F FG/A/|\
+  "Eb"G>E B,>_D "Ab"C2 A,>c|"Bb7"B>G F>A "Eb"G<E E|]
+%%center Book14/1410-Bonniest_Lass_in_All_The_World-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1411
+T: Jimmy's Fancy
+P: Lord Seaforth
+C:Traditional (Surenne)
+R:Strathspey (8x32)
+B:RSCDS 14-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:A
+c/|"A"A<E E>F A>B c>A|"E7"d>B "A"c>A "D"F3 B|\
+   "A"A<E E>F A>B c>f|e<c "E7"B>c "A"A>>c|
+   "A"A<E E>F A>B c>A|"E7"d>B "A"c>A "D"F3 B|\
+   "A"A<E E>F A>B c>f|e<c "E7"B>c "A"A7/2||
+a/|"D"f/g/a "A"e>a c>a e>c|"E7"d>B "A"c>A "D"F7/2 a/|\
+   "D"f/g/a "A"e>a c>a e>c|"E7"d>B e>c "A"A7/2 a/|
+   "D"f>a "A/C#"e>a "Bm"d>b "A"c>a|"E7"d>B "A"c>A "D"F7/2 a/|\
+   "A"A<E E>F A>B c>f|e>c "E7"B>c "A"A7/2|]
+%%center Book14/1411-Jimmys_Fancy-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1412
+T: Lamb Skinnet
+P: Lamb Skinnet
+C:Traditional?
+R:Jig (8x32)
+B:RSCDS 14-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:A
+|:e|"A"Ace ecA|"D"d2f f2a|"A"Ace ecA|"E7"G2B B2c|
+    "A"Ace ecA|"D"d2f f2a|"E"gfe "B7"fe^d|"E7"e3 E2:|
+|:f/g/|"A"aec aec|"D"d2f f2a|"A"ecA ecA|"E7"G2B Bcd|
+    "A"ecA ecA|"D"d2f fga|"A"ecA "E7"eBG|"A"A3 A2:|
+%%center Book14/1412-Lamb_Skinnet-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 14041
+T: The Crooket Horned Ewie
+O: Gow 1799
+R: strathspey
+B: RSCDS 14-4(I)
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/16
+%--------------------
+K: A
+E \
+| "A"EA3 A3B "E"G3A B3G | "A"EA3 A3c "E"d3B "A"c3A \
+| "D"d3c B3A "E"G3A B3G | "A"EA3 A3c "E"B3G "A"A3 :|
+|: d \
+| "A"ce3 e3f "E"d3e d3B | "A"c3e e3f =g3e a4 \
+| "G"=g3a g2e2 d2B2 =G3B | "A"EA3 A3c "E"B3G "A"A3 :|
+%%center Book14/14041-Crooket_Horned_Ewie.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 14051
+T: Balcomie House
+R: jig
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 14-5
+B: Whitelaw Collection
+N: Alternative tune for Miss Nancy Frowns
+N: Without repeats in the booklet, but fits better if played AABB.
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+B/c/ \
+| "G"d2d Bdg | d2e dBG | "D7"A2A A>GA | "G"BcB "D7"ABc \
+| "G"d2d Bdg | d2e dBG | "D7"DFA cAF | "G"G2B G2 :|
+|: B,/C/ \
+| "G"D2D B,DG | "C"E2E "Am"CEG | "D7"F2F DFA | "G"G2G DGB \
+| "G"D2D B,DG | "C"E2E "Am"CEG | "D7"DFA {B}cAF | "G"G2B G2 :|
+%%center Book14/14051-Balcomie_House-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 14051
+T: Balcomie House
+R: jig
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 14-5
+B: Whitelaw Collection
+N: Alternative tune for Miss Nancy Frowns
+N: Without repeats in the booklet, but fits better if played AABB.
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+c/d/ \
+| "A"e2e cea | e2f ecA | "E7"B2B B>AB | "A"cdc "E7"Bcd \
+| "A"e2e cea | e2f ecA | "E7"EGB dBG | "A"A2c A2 :|
+|: C/D/ \
+| "A"E2E CEA | "D"F2F "Bm"DFA | "E7"G2G EGB | "A"A2A EAc \
+| "A"E2E CEA | "D"F2F "Bm"DFA | "E7"EGB {c}dBG | "A"A2c A2 :|
+%%center Book14/14051-Balcomie_House-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 14051
+T: Balcomie House
+R: jig
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 14-5
+B: Whitelaw Collection
+N: Alternative tune for Miss Nancy Frowns
+N: Without repeats in the booklet, but fits better if played AABB.
+M: 6/8
+L: 1/8
+%--------------------
+K: F
+A/B/ \
+| "F"c2c Acf | c2d cAF | "C7"G2G G>FG | "F"ABA "C7"GAB \
+| "F"c2c Acf | c2d cAF | "C7"CEG BGE | "F"F2A F2 :|
+|: A,/B,/ \
+| "F"C2C A,CF | "Bb"D2D "Gm"B,DF | "C7"E2E CEG | "F"F2F CFA \
+| "F"C2C A,CF | "Bb"D2D "Gm"B,DF | "C7"CEG {A}BGE | "F"F2A F2 :|
+%%center Book14/14051-Balcomie_House-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 14051
+T: Miss Nancy Frowns
+C: Thompson (18C)
+B: RSCDS 14-5
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+D \
+| "G"GAG G2e | dBG "D7"AFD | "G"GAG G2e | dBG "D7"A2 :|
+D \
+| "G"GAB d2g | dBG "D7"AFD | "G"GAB d2g | dBG "D7"A2 ||
+a \
+| "G"bag "D"agf | "C"egc "G"BAG | "D"ABA FED | "D7"EAF "G"G2 |]
+%%center Book14/14051-Miss_Nancy_Frowns-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 14051
+T: Miss Nancy Frowns
+C: Thompson (18C)
+N: Originally 16 bars
+B: RSCDS 14-5
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+D \
+| "G"GAG "C"G2e | "G"dBG "D7"AFD |  "G"GAG "C"G2e |  "G"dBG "D7"A2D \
+| "G"GAG "C"G2e | "G"dBG "D7"AFD |  "G"GAG "C"G2e | "D7"dAF  "G"G2 :|
+|: D \
+| "G"GAB    d2g |    dBG "D7"AFD |  "G"GAB    d2g |     dBG "D7"A2a \
+| "G"bag "D"agf | "C"egc  "G"BAG | "Am"ABA "D"FED | "D7"EAF  "G"G2 :|
+%%center Book14/14051-Miss_Nancy_Frowns-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 14071
+T: The Deil Amang the Tailors
+T: The Devil's Dream
+O: Trad
+N: Allan's p.17
+N: BSFC I-22 and IV-11
+N: Bain p.8
+N: H&C p.108
+N: Hardie p.36
+N: Hunter 229
+N: OTDT p.74
+N: RSCDS  14-7
+N: Scots Guards, p.192
+N: SFT p.2
+N: SV p.29 (3 variations by J.S.Skinner)
+N: Skye p.4 w/3rd part
+N: Kennedy v.1 p.18
+%--------------------
+K: A
+|: e{f}g \
+| "A"a2e{f}g a2e{f}g | a2ea fedc | "Bm"d{e}fBf dfBf | dfba "E7"gefg |
+| "A"a2e{f}g a2e{f}g | a2ea fedc | "D"defd "A"ecBA | "E7"E2G2 "A"A2 :|
+|: ed \
+| "A"c{d}eAe ceAe | ceag fedc | "Bm"d{e}fBf dfBf | dfba "E7"gfed |
+| "A"c{d}eAe ceAe | ceag fedc | "D"defd "A"ecBA | "E7"E2G2 "A"A2 :|
+%%center Book14/14071-Deil_Amang_the_Tailors-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 14071
+T: The Deil Amang the Tailors
+T: The Devil's Dream
+O: Trad
+N: Allan's p.17
+N: BSFC I-22 and IV-11
+N: Bain p.8
+N: H&C p.108
+N: Hardie p.36
+N: Hunter 229
+N: OTDT p.74
+N: RSCDS  14-7
+N: Scots Guards, p.192
+N: SFT p.2
+N: SV p.29 (3 variations by J.S.Skinner)
+N: Skye p.4 w/3rd part
+N: Kennedy v.1 p.18
+M: C|
+L: 1/8
+%--------------------
+K: A
+e{f}g \
+| "A"a2e{f}g a2e{f}g | a2ea fedc | "Bm"d{e}fBf dfBf | dfba "E7"gefg | "A"a2e{f}g a2e{f}g |
+| a2ea fedc | "D"defd "A"ecBA | "E7"E2G2 "A"A2 :: ed | "A"c{d}eAe ceAe | ceag fedc |
+| "Bm"d{e}fBf dfBf | dfba "E7"gfed | "A"c{d}eAe ceAe | ceag fedc | "D"defd "A"ecBA | "E7"E2G2 "A"A2 :|
+%%center Book14/14071-Deil_Amang_the_Tailors-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 14071
+T: The Deil Amang the Tailors
+T: The Devil's Dream
+O: Trad
+N: Allan's p.17
+N: BSFC I-22 and IV-11
+N: Bain p.8
+N: H&C p.108
+N: Hardie p.36
+N: Hunter 229
+N: OTDT p.74
+N: RSCDS  14-7
+N: Scots Guards, p.192
+N: SFT p.2
+N: SV p.29 (3 variations by J.S.Skinner)
+N: Skye p.4 w/3rd part
+N: Kennedy v.1 p.18
+M: C|
+L: 1/8
+%--------------------
+K: A
+e{f}g | "A"a2e{f}g a2e{f}g | a2ea fedc | "Bm"d{e}fBf dfBf | dfba "E7"gefg |
+   y4 | "A"a2e{f}g a2e{f}g | a2ea fedc | "D"defd "A"ecBA | "E7"E2G2 "A"A2 :|
+|: ed | "A"c{d}eAe ceAe | ceag fedc | "Bm"d{e}fBf dfBf | dfba "E7"gfed |
+   y4 | "A"c{d}eAe ceAe | ceag fedc | "D"defd "A"ecBA | "E7"E2G2 "A"A2 :|
+%%center Book14/14071-Deil_Amang_the_Tailors-6.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 14071
+T: The De'il Amang the Tailors
+T: The Devil's Dream
+O: Trad
+N: Allan's p.17
+N: BSFC I-22 and IV-11
+N: Bain p.8
+N: H&C p.108
+N: Hardie p.36
+N: Hunter 229
+N: OTDT p.74
+N: RSCDS  14-7
+N: Scots Guards, p.192
+N: SFT p.2
+N: SV p.29 (3 variations by J.S.Skinner)
+N: Skye p.4 w/3rd part
+N: Kennedy v.1 p.18
+%--------------------
+K: A
+|: (3efg \
+| "A"a2e{f}g a2e{f}g | a2ea fedc | "Bm"d{e}fBf dfBf | dfba "E7"gefg |
+| "A"a2e{f}g a2e{f}g | a2ea fedc | "D"defd "A"ecBA | "E7"E2G2 "A"A2 :|
+|: ed \
+| "A"c{d}eAe ceAe | ceag fedc | "Bm"d{e}fBf dfBf | dfba "E7"gfed |
+| "A"c{d}eAe ceAe | ceag fedc | "D"defd "A"ecBA | "E7"E2G2 "A"A2 :|
+%%center Book14/14071-Deil_Amang_the_Tailors.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 14071
+T: The Deil Amang the Tailors (the Devil's Dream)
+O: Trad
+N: Allan's p.17
+N: BSFC I-22 and IV-11
+N: Bain p.8
+N: H&C p.108
+N: Hardie p.36
+N: Hunter 229
+N: OTDT p.74
+N: RSCDS  14-7
+N: Scots Guards, p.192
+N: SFT p.2
+N: SV p.29 (3 variations by J.S.Skinner)
+N: Skye p.4 w/3rd part
+N: Kennedy v.1 p.18
+M: C|
+L: 1/8
+%--------------------
+K: A
+e{f}g \
+| "A"a2e{f}g a2e{f}g | a2ea fedc | "Bm"d{e}fBf dfBf | dfba "E7"gefg | "A"a2e{f}g a2e{f}g |
+| a2ea fedc | "D"defd "A"ecBA | "E7"E2G2 "A"A2 :: ed | "A"c{d}eAe ceAe | ceag fedc |
+| "Bm"d{e}fBf dfBf | dfba "E7"gfed | "A"c{d}eAe ceAe | ceag fedc | "D"defd "A"ecBA | "E7"E2G2 "A"A2 :|
+%%center Book14/14071-Deil_Amang_the_Tailors_the_Devils_Dream-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 14071
+T: The Deil Amang the Tailors (the Devil's Dream)
+O: Trad
+N: Allan's p.17
+N: BSFC I-22 and IV-11
+N: Bain p.8
+N: H&C p.108
+N: Hardie p.36
+N: Hunter 229
+N: OTDT p.74
+N: RSCDS  14-7
+N: Scots Guards, p.192
+N: SFT p.2
+N: SV p.29 (3 variations by J.S.Skinner)
+N: Skye p.4 w/3rd part
+N: Kennedy v.1 p.18
+%--------------------
+K: A
+|: e{f}g \
+| "A"a2e{f}g a2e{f}g | a2ea fedc | "Bm"d{e}fBf dfBf | dfba "E7"gefg |
+| "A"a2e{f}g a2e{f}g | a2ea fedc | "D"defd "A"ecBA | "E7"E2G2 "A"A2 :|
+|: ed \
+| "A"c{d}eAe ceAe | ceag fedc | "Bm"d{e}fBf dfBf | dfba "E7"gfed |
+| "A"c{d}eAe ceAe | ceag fedc | "D"defd "A"ecBA | "E7"E2G2 "A"A2 :|
+%%center Book14/14071-Deil_Amang_the_Tailors_the_Devils_Dream.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1411
+T: Lord Seaforth's Reel
+R: reel (originally strathspey)
+B: RSCDS 14-11
+Z: 2007 converted to reel by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+B | "G"GDDE "Em"GABG | "Am"cA"(G)"BG "C"~E2EA | "G"GDDE "Em"GABe | "D7"dBAB "G"G2-G :|
+g | "C"eg"G"dg BgdB | "Am"cA"(G)"BG "C"~E2Eg | "C"eg"G"dg BgdB | "D7"cAdB "G"G2-G ||
+g | "C"eg"G"db "Am"ca"G"Bg | "Am"cA"(G)"BG "C"~E2"D7"EA | "G"GDDE "Em"GABe | "D7"dBAB "G"G2-G |]
+%%center Book14/14111-Lord_Seaforths_Reel-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1411
+T: Lord Seaforth
+R:strathspey
+B:RSCDS __-__
+Z:1997 by John Chambers <jc@trillian.mit.edu>
+M:C
+L:1/8
+K:G
+B \
+| "G"G<D D>E "Em"G>A B<G | "Am"{d}c>A "G"B>G "C"~E2 "D"E>A \
+| "G"G<D D>E "Em"G>A B>e | "D7"d<B A>B "G"G2- G |
+B \
+| "G"G<D D>E "Em"G>A B<G | "Am"{d}c>A "G"B>G "C"~E2 "D"E>A \
+| "G"G<D D>E "Em"G>A B>e | "D7"d<B A>B "G"G2- G |
+g \
+| "C"e/f/g "G"d>g B>g d<B | "Am"{d}c>A "G"B>G "C"~E2 E>g \
+| "C"e/f/g "G"d>g B>g d<B | "Am"c>A "D7"d>B "G"G2- G ||
+g \
+| "C"e<g "G"d<b "Am"c<a "G"B<g | "Am"{d}c>A "G"B>G "C"~E2 "D7"E>A \
+| "G"G<D D>E "Em"G>A B<e | "D7"d<B A>B "G"G2- G |]
+%%center Book14/14111-Lord_Seaforths_Strath-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1411
+T: Lord Seaforth's Strathspey
+R: strathspey
+B: RSCDS __-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+B \
+| "G"G<D D>E "Em"G>A B<G | "Am"{d}c>A "G"B>G "C"~E2 "D"E>A \
+| "G"G<D D>E "Em"G>A B>e | "D7"d<B A>B "G"G2- G :|
+g \
+| "C"e/f/g "G"d>g B>g d<B | "Am"{d}c>A "G"B>G "C"~E2 E>g \
+| "C"e/f/g "G"d>g B>g d<B | "Am"c>A "D7"d>B "G"G2- G |]
+g \
+| "C"e<g "G"d<b "Am"c<a "G"B<g | "Am"{d}c>A "G"B>G "C"~E2 "D7"E>A \
+| "G"G<D D>E "Em"G>A B<e | "D7"d<B A>B "G"G2- G |]
+%%center Book14/14111-Lord_Seaforths_Strath-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 14121
+T: Lamb Skinnet
+R: jig
+B: RSCDS 14-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: A
+e \
+| "A"Ace ecA | "D"d2f f2a | "A"Ace ecA | "E7"G2B B2c \
+| "A"Ace ecA | "D"d2f f2a | "E"gfe "B7"fe^d | "E7"e3- e2 :|
+|: f/g/ \
+| "A"aec aec | "D"d2f f2a | "A"ecA ecA | "E7"G2B Bcd \
+| "A"ecA ecA | "D"d2f fga | "A"ecA "E7"eBG | "A"A3- A2 :|
+%%center Book14/14121-Lamb_Skinnet-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Crooket Horned Ewie
+O: Gow 1799
+R: strathspey
+B: RSCDS 14-4(I)
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+E \
+| "A"EA3 A3B "E"G3A B3G | "A"EA3 A3c "E"d3B "A"c3A \
+| "D"d3c B3A "E"G3A B3G | "A"EA3 A3c "E"B3G "A"A3 :|
+|: d \
+| "A"ce3 e3f "E"d3e d3B | "A"c3e e3f =g3e a4 \
+| "G"=g3a g2e2 d2B2 =G3B | "A"EA3 A3c "E"B3G "A"A3 :|
+%%center Book14/CrooketHornedEwie_A-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Crooket Horned Ewie
+O: Gow 1799
+R: strathspey
+B: RSCDS 14-4(I)
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+E \
+| "A"EA3 A3B "E"G3A B3G | "A"EA3 A3c "E"d3B "A"c3A \
+| "D"d3c B3A "E"G3A B3G | "A"EA3 A3c "E"B3G "A"A3 :|
+|: d \
+| "A"ce3 e3f "E"d3e d3B | "A"c3e e3f =g3e a4 \
+| "G"=g3a g2e2 d2B2 =G3B | "A"EA3 A3c "E"B3G "A"A3 :|
+%%center Book14/CrooketHornedEwie_A_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The De'il Amang the Tailors
+T: The Devil's Dream
+O: Trad
+N: Allan's p.17
+N: BSFC I-22 and IV-11
+N: Bain p.8
+N: H&C p.108
+N: Hardie p.36
+N: Hunter 229
+N: OTDT p.74
+N: RSCDS  14-7
+N: Scots Guards, p.192
+N: SFT p.2
+N: SV p.29 (3 variations by J.S.Skinner)
+N: Skye p.4 w/3rd part
+N: Kennedy v.1 p.18
+K: A
+|: e{f}g \
+| "A"a2e{f}g a2e{f}g | a2ea fedc | "Bm"d{e}fBf dfBf | dfba "E7"gefg |
+| "A"a2e{f}g a2e{f}g | a2ea fedc | "D"defd "A"ecBA | "E7"E2G2 "A"A2 :|
+|: ed \
+| "A"c{d}eAe ceAe | ceag fedc | "Bm"d{e}fBf dfBf | dfba "E7"gfed |
+| "A"c{d}eAe ceAe | ceag fedc | "D"defd "A"ecBA | "E7"E2G2 "A"A2 :|
+%%center Book14/DeilAmangTheTailorsR.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Deil Amang the Tailors
+T: The Devil's Dream
+O: Scotland c.1790
+N: Allan's p.17
+N: BSFC I-22 and IV-11
+N: Bain p.8
+N: H&C p.108
+N: Hardie p.36
+N: Hunter 229
+N: OTDT p.74
+N: RSCDS  14-7
+N: Scots Guards, p.192
+N: SFT p.2
+N: SV p.29 (3 variations by J.S.Skinner)
+N: Skye p.4 w/3rd part
+N: Kennedy v.1 p.18
+M: C|
+L: 1/8
+K: A
+e{f}g \
+| "A"a2e{f}g a2e{f}g | a2ea fedc | "Bm"d{e}fBf dfBf | dfba "E7"gefg | "A"a2e{f}g a2e{f}g |
+| a2ea fedc | "D"defd "A"ecBA | "E7"E2G2 "A"A2 :: ed | "A"c{d}eAe ceAe | ceag fedc |
+| "Bm"d{e}fBf dfBf | dfba "E7"gfed | "A"c{d}eAe ceAe | ceag fedc | "D"defd "A"ecBA | "E7"E2G2 "A"A2 :|
+%%center Book14/DeilAmangTheTailorsR_A3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 926
+T: The Hon. Mrs Maule's Favourite
+C: Niel Gow
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: Whetherly 9 #26
+B: RSCDS 14-7 II
+M: C|
+L: 1/8
+K: A
+e \
+| "A"agae ceAc | "D"dFBA "E7"GBEG | "A"A2cA "D"FDfe | "B(m)"dcBA "E7"GEg2 |
+| "A"agae ceAc | "Bm"dFBA "E7"GBEG | "A"AedA "Bm"FfdB | "E7"GEFG "A"A2A |]
+|: d \
+| "A"cBcd eca2 | "D"fdb2 "E7"gefg | "A"aefc "D"dfBd | "E7"ceGB "A"A3 :|
+%%center Book14/Hon_Mrs_Maules_Favourite-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lamb Skinnet
+R: jig
+B: RSCDS 14-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Kunz notes that "Lamb Skinnet" > was a "vulgar"
+N: term the for Lan(s)quenet/Landsknecht card game
+N: at the time the tune was originally published.
+M: 6/8
+L: 1/8
+K: A
+e \
+| "A"Ace ecA | "D"d2f f2a | "A"Ace ecA | "E7"G2B B2c \
+| "A"Ace ecA | "D"d2f f2a | "E"gfe "B7"fe^d | "E7"e3- e2 :|
+|: f/g/ \
+| "A"aec aec | "D"d2f f2a | "A"ecA ecA | "E7"G2B Bcd \
+| "A"ecA ecA | "D"d2f fga | "A"ecA "E7"eBG | "A"A3- A2 :|
+%%center Book14/LambSkinnetJ-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lamb Skinnet
+R: jig
+B: RSCDS 14-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Kunz notes that "Lamb Skinnet" > was a "vulgar"
+N: term the for Lan(s)quenet/Landsknecht card game
+N: at the time the tune was originally published.
+M: 6/8
+L: 1/8
+K: A
+e \
+| "A"Ace ecA | "D"d2f f2a | "A"Ace ecA | "E7"G2B B2c \
+| "A"Ace ecA | "D"d2f f2a | "E"gfe "B7"fe^d | "E7"e3- e2 :|
+|: f/g/ \
+| "A"aec aec | "D"d2f f2a | "A"ecA ecA | "E7"G2B Bcd \
+| "A"ecA ecA | "D"d2f fga | "A"ecA "E7"eBG | "A"A3- A2 :|
+%%center Book14/LambSkinnetJ_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lamb Skinnet
+R: jig
+B: RSCDS 14-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Kunz notes that "Lamb Skinnet" > was a "vulgar"
+N: term the for Lan(s)quenet/Landsknecht card game
+N: at the time the tune was originally published.
+M: 6/8
+L: 1/8
+K: A
+e \
+| "A"Ace ecA | "D"d2f f2a | "A"Ace ecA | "E7"G2B B2c \
+| "A"Ace ecA | "D"d2f f2a | "E"gfe "B7"fe^d | "E7"e3- e2 :|
+|: f/g/ \
+| "A"aec aec | "D"d2f f2a | "A"ecA ecA | "E7"G2B Bcd \
+| "A"ecA ecA | "D"d2f fga | "A"ecA "E7"eBG | "A"A3- A2 :|
+%%center Book14/LambSkinnetJ_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1411
+T: Lord Seaforth's Reel
+R: reel (originally strathspey)
+B: RSCDS 14-11
+Z: 2007 converted to reel by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+B | "G"GDDE "Em"GABG | "Am"cA"(G)"BG "C"~E2EA | "G"GDDE "Em"GABe | "D7"dBAB "G"G2-G :|
+g | "C"eg"G"dg BgdB | "Am"cA"(G)"BG "C"~E2Eg | "C"eg"G"dg BgdB | "D7"cAdB "G"G2-G ||
+g | "C"eg"G"db "Am"ca"G"Bg | "Am"cA"(G)"BG "C"~E2"D7"EA | "G"GDDE "Em"GABe | "D7"dBAB "G"G2-G |]
+%%center Book14/Lord_Seaforths_Reel-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1411
+T: Lord Seaforth's Reel
+R: reel (originally strathspey)
+B: RSCDS 14-11
+Z: 2007 converted to reel by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+B | "G"GDDE "Em"GABG | "Am"cA"(G)"BG "C"~E2EA | "G"GDDE "Em"GABe | "D7"dBAB "G"G2-G :|
+g | "C"eg"G"dg BgdB | "Am"cA"(G)"BG "C"~E2Eg | "C"eg"G"dg BgdB | "D7"cAdB "G"G2-G ||
+g | "C"eg"G"db "Am"ca"G"Bg | "Am"cA"(G)"BG "C"~E2"D7"EA | "G"GDDE "Em"GABe | "D7"dBAB "G"G2-G |]
+%%center Book14/Lord_Seaforths_Reel_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1411
+T: Lord Seaforth
+R:strathspey
+B:RSCDS __-__
+Z:1997 by John Chambers <jc@trillian.mit.edu>
+M:C
+L:1/8
+K:G
+B \
+| "G"G<D D>E "Em"G>A B<G | "Am"{d}c>A "G"B>G "C"~E2 "D"E>A \
+| "G"G<D D>E "Em"G>A B>e | "D7"d<B A>B "G"G2- G |
+B \
+| "G"G<D D>E "Em"G>A B<G | "Am"{d}c>A "G"B>G "C"~E2 "D"E>A \
+| "G"G<D D>E "Em"G>A B>e | "D7"d<B A>B "G"G2- G |
+g \
+| "C"e/f/g "G"d>g B>g d<B | "Am"{d}c>A "G"B>G "C"~E2 E>g \
+| "C"e/f/g "G"d>g B>g d<B | "Am"c>A "D7"d>B "G"G2- G ||
+g \
+| "C"e<g "G"d<b "Am"c<a "G"B<g | "Am"{d}c>A "G"B>G "C"~E2 "D7"E>A \
+| "G"G<D D>E "Em"G>A B<e | "D7"d<B A>B "G"G2- G |]
+%%center Book14/Lord_Seaforths_Strath-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1411
+T: Lord Seaforth's Strathspey
+R: strathspey
+B: RSCDS __-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+B \
+| "G"G<D D>E "Em"G>A B<G | "Am"{d}c>A "G"B>G "C"~E2 "D"E>A \
+| "G"G<D D>E "Em"G>A B>e | "D7"d<B A>B "G"G2- G :|
+g \
+| "C"e/f/g "G"d>g B>g d<B | "Am"{d}c>A "G"B>G "C"~E2 E>g \
+| "C"e/f/g "G"d>g B>g d<B | "Am"c>A "D7"d>B "G"G2- G |]
+g \
+| "C"e<g "G"d<b "Am"c<a "G"B<g | "Am"{d}c>A "G"B>G "C"~E2 "D7"E>A \
+| "G"G<D D>E "Em"G>A B<e | "D7"d<B A>B "G"G2- G |]
+%%center Book14/Lord_Seaforths_Strath-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Nancy Frowns
+C: Thompson (18C)
+B: RSCDS 14-5
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"GAG G2e | dBG "D7"AFD | "G"GAG G2e | dBG "D7"A2 :|
+D \
+| "G"GAB d2g | dBG "D7"AFD | "G"GAB d2g | dBG "D7"A2 ||
+a \
+| "G"bag "D"agf | "C"egc "G"BAG | "D"ABA FED | "D7"EAF "G"G2 |]
+%%center Book14/MissNancyFrowns_G16.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Nancy Frowns
+C: Thompson (18C)
+N: Originally 16 bars
+B: RSCDS 14-5
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"GAG "C"G2e | "G"dBG "D7"AFD |  "G"GAG "C"G2e |  "G"dBG "D7"A2D \
+| "G"GAG "C"G2e | "G"dBG "D7"AFD |  "G"GAG "C"G2e | "D7"dAF  "G"G2 :|
+|: D \
+| "G"GAB    d2g |    dBG "D7"AFD |  "G"GAB    d2g |     dBG "D7"A2a \
+| "G"bag "D"agf | "C"egc  "G"BAG | "Am"ABA "D"FED | "D7"EAF  "G"G2 :|
+%%center Book14/MissNancyFrowns_G32.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mr. Oswald of Auchincruive
+T: The Balquidder Strathspey
+C: Robert Mackintosh (1745-1807)
+R: strathspey
+B: RSCDS 24-2
+B: RSCDS 14-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: There is also a "Miss Oswald of Auchincruive" by Nathaniel Gow, a completely different tune.
+M: C
+L: 1/8
+K: G
+D \
+| "G"G>A B<d B>A B<g | d<B A>G "D7"F<A A>B \
+| "G"G/A/B B<B "(Em)"B>A B<g | "D7"d<B A>G "G"D<G G :|
+f \
+| "G"g>a b<g "D7"f<d a<f | "G"g/f/g/a/ b>g "D7"f<a a>f \
+| "G"g>a b<g "D7"f<d a<f | "C"g<e "D7"d>c "G"B<G G |]
+f \
+| "G"g>a b<g "D7"f<d a<f | "G"g/f/g/a/ b>g "D7"f<a a>f \
+| "G"g<b "D"a<b "Em"g<a "Bm"f<g | "Am"e<a "D7"f<d "G"g>a g |]
+%%center Book14/MrOswaldOfAuchincruive_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mr. Oswald of Auchincruive
+T: The Balquidder Strathspey
+C: Robert Mackintosh (1745-1807)
+R: strathspey
+B: RSCDS 24-2
+B: RSCDS 14-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: There is also a "Miss Oswald of Auchincruive" by Nathaniel Gow, a completely different tune.
+M: C
+L: 1/8
+K: G
+D \
+| "G"G>A B<d B>A B<g | d<B A>G "D7"F<A A>B \
+| "G"G/A/B B<B "(Em)"B>A B<g | "D7"d<B A>G "G"D<G G :|
+f \
+| "G"g>a b<g "D7"f<d a<f | "G"g/f/g/a/ b>g "D7"f<a a>f \
+| "G"g>a b<g "D7"f<d a<f | "C"g<e "D7"d>c "G"B<G G |]
+f \
+| "G"g>a b<g "D7"f<d a<f | "G"g/f/g/a/ b>g "D7"f<a a>f \
+| "G"g<b "D"a<b "Em"g<a "Bm"f<g | "Am"e<a "D7"f<d "G"g>a g |]
+%%center Book14/MrOswaldOfAuchincruive_G_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mr. Oswald of Auchincruive
+T: The Balquidder Strathspey
+C: Robert Mackintosh (1745-1807)
+R: strathspey
+B: RSCDS 24-2
+B: RSCDS 14-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: There is also a "Miss Oswald of Auchincruive" by Nathaniel Gow, a completely different tune.
+M: C
+L: 1/8
+K: G
+D \
+| "G"G>A B<d B>A B<g | d<B A>G "D7"F<A A>B \
+| "G"G/A/B B<B "(Em)"B>A B<g | "D7"d<B A>G "G"D<G G :|
+f \
+| "G"g>a b<g "D7"f<d a<f | "G"g/f/g/a/ b>g "D7"f<a a>f \
+| "G"g>a b<g "D7"f<d a<f | "C"g<e "D7"d>c "G"B<G G |]
+f \
+| "G"g>a b<g "D7"f<d a<f | "G"g/f/g/a/ b>g "D7"f<a a>f \
+| "G"g<b "D"a<b "Em"g<a "Bm"f<g | "Am"e<a "D7"f<d "G"g>a g |]
+%%center Book14/MrOswaldOfAuchincruive_G_JC.abc

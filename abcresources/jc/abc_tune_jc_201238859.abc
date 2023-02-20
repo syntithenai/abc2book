@@ -1,0 +1,31 @@
+X: 31451
+T: COTILLION No. 31. PANTHEON SETT tune 4
+C:
+%R: reel, march
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.145 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+G3G G2FG | A6 A2 | A3A A2GA | B6 d2 |\
+e2e2 e2cA | d2d2 d2AB | c2de d2F2 | G6 H|]
+FG |\
+A2BA A2ed | d3c B2gf | (fe)(ed) (dc)(cB) | d3c A2FG |\
+A2BA A2ed | d3c G2ag | fedc B2A2 | "^D.C."G6 |]
+d2 |\
+.e.d.e.d .e.e.d.^c | .d.^c.d.c .d.d.=c.B | .c.B.c.B .c.d.e.c | B6 Ad |\
+.e.d.e.d .e.e.d.^c | d^cdc defg | (ge)(ec) (cB)(BA) | A6 "^D.C."G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across and back,
+%% all balance to partners,
+%% alamand corners,
+%% alamand partners,
+%% balance to corners,
+%% turn partners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

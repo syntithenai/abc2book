@@ -1,0 +1,48 @@
+X: 223
+T: Freilechs von der Chuppe
+O: Harry Kandel's Orchestra (1917)
+Z: John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/16
+K:Cdor^F
+|: G,2 \
+"A"\
+| "Cm"C4 DEFE \
+| F2G2- G2G2 \
+| BAG2 GFE2 \
+| GFE2 EDDC \
+| C4 DEFE \
+| F2G2- G2G2 \
+| c6 G2 \
+| c2B2 A2G2 |
+| "Cm"C4 DEFE \
+| F2G2- G2G2 \
+| BAG2 GFE2 \
+| GFE2 EDDC \
+| BABA BAG2 \
+| (3c2B2A2 (3G2F2E2 \
+| "G7"(3A2G2F2 EDCB, \
+| "Cm"C6 :|
+"B"\
+|: ~G2 \
+| "Cm"c6 ~G2 \
+| c6 ~G2 \
+| c3G c3G \
+| c3G c3G \
+| c2B2 A2G2 \
+| ~F3E FEDC \
+| c2B2 A2G2 |
+| ~FAG4 G2 \
+| c2B2 A2G2 \
+| ~F3E FEDC \
+| "G7"D2D2 EDC=B, \
+| "Cm"C6 ::[K:=B=e=F][K:C] z2 \
+"C"\
+| "C"E2G2 GFFE \
+| E2G2 GFFE |
+| G^FGA BAG=F \
+| G4 c4 \
+| E2G2 GFFE \
+| "Fm"F6 ^F2 \
+| "G7"AG^F_E FEDE \
+| "Cm"C6 :|

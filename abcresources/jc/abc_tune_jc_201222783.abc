@@ -1,0 +1,22 @@
+X:62
+T:Within a Mile of Edinburgh
+C:arr. Carlo Minasi
+M:C
+L:1/8
+B:Chappell's One Hundred Scotch Melodies
+B:Arranged for the Concertina by Carlo Minasi
+Q:"Moderato  "1/4=120
+Z:Peter Dunk 2012
+K:C
+!p!(e>f)|([gc]<e) ([dBG]>e) [c2E2] (ec)|\
+([AF]<c) G>E G2 (c>d)|([ec]<g) ([af]c') \
+(g<e) (dc)|([e2c2G2][d2B2G2]) z2 (e>f)|
+%
+([gc]<e) ([dBG]>e) [c2E2] (ec)|([AF]<c) G>E G2 (c>d)|\
+([ec]<g) ([af]c') (g<e) (dc)|[c4E4] z4||
+%
+!crescendo(!(c>de>f) ge c'2|(c>de>f) \
+ge c'3/ c/|(c>dc>A) (GEG>c)!crescendo)!|
+%
+(e>c) (e<g) LH[a3f3c3F3] c'|!p!(g<e) (e<c) \
+(A<c) (G<c)|([ec]<g) ([dBG]>e) [c2E2]||

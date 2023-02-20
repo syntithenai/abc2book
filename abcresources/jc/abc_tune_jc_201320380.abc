@@ -1,0 +1,65 @@
+
+X: 1
+T: Opsa!
+O: Srbija
+R: \vCo\vcek
+Z: 2003 John Chambers <jc@trillian.mit.edu>
+M: C
+K: Dmix=c
+"A"\
+|:"D"([GE][A-F-]) [A4F4] ([GE][FD]) | ([GE][FD]) [F2D2] [FD][DA,] [FD][GE] \
+|    ([GE][A-F-]) [A4F4] ([GE][FD]) | ([GE][FD]) [FD][F-D-] [F2D2] [F2D2] :|
+w: Nek'** se* i-*gra o-vo ko-lo. Ko** ga* ne* bi vol'-*o?
+"B"\
+|: "tacet"(DC) (B,A,) (B,C) D2 \
+| "A7"z[G2E2] [FD] "D"[A2F2] [A2F2] \
+| "tacet"(DC) (B,A,) (B,C) D2 \
+| "A7"z[G2E2] [FD] "D"[F2D2] [F2D2] :|
+w: Ko-*lo-* i-*de ta-ko la-ko da* za* i-*gra mo-\vze sva-ko
+"C"\
+|: "D"D4 "B7"^D4 \
+| "Em"E2 z2 z4 \
+|| "Em"[AF][GE] [GE][GE] [A2F2] [G2E2] \
+| [G2E2] [AF][BG] [A2F2] [G2E2] \
+| [AF][GE] [GE][GE] [A2F2] [G2E2] |
+w:| | | De-voj-ke se \'cu-ju op-sa* sko-\vci! Ne da-ju se mom-ci
+| [G2E2] [AF][BG] [A2F2] [G2E2] \
+|| "D"[GE][FD] [FD][FD] [G2E2] [F2D2] \
+| [F2D2] [GE][AF] [G2E2] [F2D2] \
+| D2 z2 D2 z2 :|2  D2 z2 D2 z2 |]
+w: o-\'ce* br-\vze. Slo\vz-ni-je i bol-je i-graj do zo-re. Op-sa! Op-sa!
+%
+W: 2. Nek' se igra ovo kolo ko ga ne bi vol'o?
+W:    Momci, cure, svi u kolo. Nek' se vije naokolo.
+W:
+W: 2. Nek' se igra ovo kolo ko ga ne bi vol'o?
+W:    Zurle je\vce, bubanj bije, vesele se meraklije.
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Opsa!
+O: Srbija
+Z: 2003 John Chambers <jc@trillian.mit.edu>
+M: C
+K: Emix=d
+"B"\
+|:"E"([AF][B-G-]) [B4G4] ([AF][GE]) | ([AF][GE]) [G2E2] [GE][EB,] [GE][AF] \
+|    ([AF][B-G-]) [B4G4] ([AF][GE]) | ([AF][GE]) [GE][G-E-] [G2E2] [G2E2] :|
+"C"\
+|: "tacet"(ED) (CB,) (CD) E2 \
+| "B7"z[A2F2] [GE] "E"[B2G2] [B2G2] \
+| "tacet"(ED) (CB,) (CD) E2 \
+| "B7"z[A2F2] [GE] "E"[G2E2] [G2E2] :|
+"D"\
+|: "E"E4 "C7"^E4 \
+| "F#m"F2 z2 z4 \
+|| "F#m"[BG][AF] [AF][AF] [B2G2] [A2F2] \
+| [A2F2] [BG][cA] [B2G2] [A2F2] \
+| [BG][AF] [AF][AF] [B2G2] [A2F2] |
+| [A2F2] [BG][cA] [B2G2] [A2F2] \
+|| "E"[AF][GE] [GE][GE] [A2F2] [G2E2] \
+| [G2E2] [AF][BG] [A2F2] [G2E2] \
+| E2 z2 E2 z2 :|2  E2 z2 E2 z2 |]

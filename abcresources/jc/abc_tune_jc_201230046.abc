@@ -1,0 +1,32 @@
+X: 131
+T: New Hanover square
+T: Longways for ...
+%R: jig
+N: The 'N' in the title is reversed, like "View" with the 'V' and 'i' run together.  The index has "New".
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.66
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: 6/8
+L: 1/16
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2^c2d2 f6 | e4d2 e2c2A2 | d4B2 A4G2 | F4E2 D6 |\
+fefgf2 a2f2d2 | edefe2 g2e2c2 | fedcBA G2f2e2 | f4F2 F6 :|
+|:\
+fefgf2 a4f2 | e4f2 g4c2 | B4g2 A4f2 | G4e2 f6 |\
+BABcB2 B2G2E2 | AGABA2 A2F2D2 | B2A2G2 A4G2 | F4E2 D6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st Cu. go with inside the 2d Cu. then on
+%% the outside of the 3d Cu. and lead up to the top,
+%% and cast off; the 2d Cu. do the same .| the 1st
+%% and 2d Man sett to their partners, and take
+%% hands to go quite round, and lead between
+%% the 2d Cu. and cast up, then right and left
+%% hands half round :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

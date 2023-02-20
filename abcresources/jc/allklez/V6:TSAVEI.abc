@@ -1,0 +1,28 @@
+X: 566
+M: 2/4
+L: 1/8
+P: Tsavei
+K: Dm
+"^A"\
+|:"Dm"A2 A2 | AG F2 \
+| A2 A2 | AG F2 \
+|1"Gm"F G2 F | "A7"AG GF \
+| "Dm"F4 | F4 \
+:|2 "Gm"DE FE | "A7"GF  EF \
+| "Dm"D4 | D2 z2 |]
+"^B"\
+[|"Gm"G G2 z| "(C)"G G2 z\
+| "Gm"G G2 z| "Dm"G2 F2 \
+| "Gm"F G2 F | "A7"AG GF \
+| "Dm"F4 | F4 \
+| "Gm"G G2 z| "C7"G G2 z\
+| "F"c>B AG | "Bb"FE D2 \
+| "Gm"DE FE |
+| "A7"GF EF \
+| "Dm"D4 | D4 \
+"^C"\
+|: "Dm"d d2 z| "Bb(G)"d d2 z\
+| "Gm"d d2 z| "Dm"d d2 z\
+| "F"A=B cB | "G"dc =Bc \
+| "Dm"A4 | "(A7)"A4 :|
+%%text repeat B

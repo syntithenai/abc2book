@@ -1,0 +1,26 @@
+X:1
+T: Unionville Square
+N:
+C:Debbie Jackson
+S:Tune is "Nocturne"
+A:
+O:
+R:
+M:3/4
+K:Am
+I:speed 230
+%W:               A1
+% voice 1 (1 lines, 40 notes)
+K:Am
+M:3/4
+L:1/16
+E2 A2 c2 ||e2 ^d2 e2 d2 e2 f2 |d6 E2 G2 F2 |F2 E2 ^G2 B2 f3 e |d4 c6 c2 |c2 B2 a2 g2 d2 ^d2 |f6 e2 G2 e2 |d6 c2 B2 A2 |B6 E2 A2 c2 |
+%W: A2
+% voice 1 (1 lines, 34 notes)
+e2 ^d2 e2 d2 e2 f2 |d6 E2 G2 F2 |F2 E2 ^G2 B2 f3 e |d4 c6 c2 |c2 B2 a2 g2 d2 ^d2 |f6 e2 G2 e2 |d6 B2 A2 ^G2 |A12 |
+%W: B1
+% voice 1 (1 lines, 34 notes)
+a2 ^g2 a2 c'2 b2 g2 |a12 |g2 ^f2 g2 a2 g2 =f2 |f4 e6 e2 |e2 d4 f2 e2 d2 |d2 c4 e2 d2 c2 |c2 d c B2 A2 G2 F2 |E12 |
+%W: B2                                                                                                       Last time only
+% voice 1 (1 lines, 45 notes)
+a2 ^g2 a2 c'2 b2 g2 |a12 |g2 ^f2 g2 a2 g2 =f2 |f4 e6 e2 |e2 d4 f2 e2 d2 |d2 c4 e2 d2 c2 |c2 d c B2 A2 ^G2 B2 |A6 E2 A2 c2 ||c2 a2 c3 ^d e3 e |a12|a12 |||

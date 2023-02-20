@@ -1,0 +1,28 @@
+X: 1
+T: Cuckfield Place
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #76 (32)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+ABc dAF | GEA TF2D | DEF GAB | dBe Tc2A |\
+ABc dAF | GEA TF2D | agf efd | eAc d3 :|
+|:\
+agf gfe | dBe Tc2A | dAd eAe | fAf e3 |\
+agf gfe | dAe Tc2A | dcB AGF | EDC D3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. foot twice and cast off and half figure up |
+%% foot it again and half figure with the 3d Cu. :|: 1st
+%% Man foots it to the 3d Wo. and his Partner at the
+%% same time to the 2d Man then the 1st Man turns the
+%% 2d Wo. and his Partner the 3d Man at the same time ||
+%% then clap twice and foot it twice and lead thro the
+%% 3d Cu. and cast up :||:
+%%endtext
+%%sep 1 8 500

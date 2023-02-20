@@ -1,0 +1,16 @@
+X: 31951
+T: BUSHWICK HORNPIPE
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.195 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+N: Fixed wrong lengths for last note of 1st part and pickup to 2nd part (bar 8).
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+!ff!(ude) |\
+{g}f=efg f2{a}b2 | f=efg f2{a}b2 | fdbf cfaf | dfba gfde |
+{g}f=efg f2{a}b2 | f=efg f2{a}b2 | fdbf cfaf | bfdf B2 :|
+|: (uFE) |\
+!pp!DF ((3F=EF) (BF)dF | cF ((3F=EF) (AF)cF | (DF)BF (CF)AF | (Bd)cA (BG)FE |
+DF ((3F=EF) (BF)dF | CF ((3F=EF)  (AF)cF | (DF)BF (CF)AF | (Bd)cA B2 :|

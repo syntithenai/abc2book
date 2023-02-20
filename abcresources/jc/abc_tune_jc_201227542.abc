@@ -1,0 +1,34 @@
+X: 1084
+T: a Trip to Bath
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: 2nd part has initial repeat but no final repeat.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+G/A/ |\
+B>cd gdc | B2G G2B | cde Aag | f2d d2f |\
+gdB ecA | afd bag | fga dgf | g2G G2 :|
+|: B |\
+ceg gec | Bdg gdB | cBc Aag | f2d d2c |\
+Bdg cea | dfb bag | dcB Aaf | g2G G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+G |\
+g2d B2A | G3 B3 | A3 ^c3 | d3 c3 |\
+B3 c3 d3 G3 | d3 D3 | G3- G2 :|
+|: g |\
+e3 c3 | g3 B3 | A3 ^c3 | d3 f3 |\
+g3 a3 | b3 g3 | BAG d3 | G3- G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st and 2d Cu. clasp Hands, then loose and Back to Back & turn, .|
+then the Men hey on the We. side, and the We. after on the Mans side :|
+then the three 1st Cu. take hands and go round and turn S .|
+then Right and Left cast off and turn :|
+%%endtext

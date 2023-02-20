@@ -1,0 +1,15 @@
+X: 703
+T: Fair-Haired Mary   #2
+R: reel
+%S: s:3 b:13(5+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #703
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0703/oneill-1001-0703-1.abc
+M: C|
+L: 1/8
+K: Gm
+"^A"\
+|: Gddc d2(cB) | AFcF dFcF | Gddc d2d=e | fdcA [1 dcBA :|[2 AGG2 |]
+"^B"\
+[| g2(dg) g2(ag) | fdd=e f2(fe) | g2gf g2ag | fdcA dBcA ||
+|| gddf g2(ag) | fdd=e f2(fg) | abag fgag | fdcA AGG2 |]

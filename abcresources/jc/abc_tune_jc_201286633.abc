@@ -1,0 +1,512 @@
+X:2
+T:Hills of Glenorchy
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:6/8
+L:1/8
+Q:3/8=60
+K:E Dorian
+d/c/|B2E  E>FE|B>AB d2B |A2D  D>ED|F>DF Adc |
+     B2E  E>FE|B>AB e3  |d>Bd A>FD|E>FE E2 :|
+B   |e>fe e>dB|e>fg g>fe|d>ed d>AF|d>ef f>ed|
+     e>fe e>dB|e>fg f2e |d>Bd A>FD|E>FE E2 :|
+
+X:3
+T:Stronsay Waltz
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:3/4
+L:1/8
+Q:3/4=60
+K:A
+   ed|c3 Bcd|e2 c2 A2|d3 cde|f2 a2 f2|e2 c2 A2|[1 A2 c2 e2|B6-|B4:|
+                                               [2 B4    e2|A6-|A4||
+   e2|a3 gaf|e2 c2 A2|d3 cde|f2 a2 f2|e2 c2 A2|   A2 c2 e2|B6-|B4
+[1 e2|a3 gaf|e2 c2 A2|d3 cde|f2 a2 f2|e2 c2 A2|   B4    e2|A6-|A4:|
+[2 ed|c3 Bcd|e2 c2 A2|d3 cde|f2 a2 f2|e2 c2 A2|   B4    e2|A6-|A4|]
+
+X:4
+T:The Braes of Lochiel
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:6/8
+L:1/8
+Q:3/8=60
+K:A Minor
+e|A>GB A2A|a>ge d<eg|G<BA G2B |d>eg e<dB|
+  B<AG A2A|a>ge d<eg|B<GB d>eg|B2A  A2 :|
+g|a>ga a2e|a>ge d<eg|G<BA G2B |d>eg e<dB|
+  B<AG A2A|a>ge d<eg|B<GB d>eg|B2A  A2 :|
+
+X:5
+T:Leaving Lismore
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:3/4
+L:1/4
+Q:3/4=60
+K:D
+   D>EF|A2d|BAF|A2F|D>EF|A2A|B   AF |E2F|
+   D>EF|A2d|BAF|A3 |A Bd|F2E|F/E/D2-|D3:|
+   d>cd|B2A|BAF|A3 |d>cd|B2A|B   AF |E3 |
+[1 d>cd|B2A|BAF|A3 |A Bd|F2E|F/E/D2-|D3:|
+[2 D>EF|A2d|BAF|A3 |A Bd|F2E|F/E/D2-|D3|]
+
+
+% Marches
+% -------
+
+X:6
+T:The Battle of the Somme
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:9/8
+L:1/8
+Q:3/8=90
+K:D
+A|f<af d3 d>cd|e>dG B3 A3|B>GB A3 d3|f<af e3- e2
+A|f<af d3 d>cd|e>dG B3 A3|B>GB A3 f3|e>fe d3- d2:|
+A|d>cd e3 A2e |e>fg a3 d3|d>ef g3 A3|f<af e3- e2
+A|f<af d3 d>cd|e>dG B3 A3|B>GB A3 f3|e>fe d3- d2:|
+
+X:7
+T:Fingal's Cave
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:C|
+L:1/8
+Q:1/2=72
+K:A Dorian
+  A4     BAGA|B2A2 A2ed|B2AG e2dB|d2G2 G4  |
+  A4     BAGA|B2A2 A2ed|BBAG e2dB|e2A2 A4 :|
+  e2  de g2fg|a2ea g2eg|e2de g2fg|edBA G4  |
+  e2  de g2fg|a2ea g2eg|gefd gedB|e2A2 A4  |
+(3efe de g2fg|a2ea g2eg|e2de g2fg|edBA GABG|
+   c2 Bc d2cd|e2de g2a2|gefd gedB|e2A2 A4 |]
+
+X:8
+T:The Burning of the Piper's Hut
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:C|
+L:1/8
+Q:1/2=72
+K:B Minor
+f2 |B>c d>e f4       |f>e   f<a f2 e>d|c2 A2 e2 A2 |c>d e>f e2
+d>c|B>c d>e f4       |f>e   f<a f2 e>d|c2 A2 f2 e>d|c2  B2  B2:|
+f2 |B>c d>e f>B   B<B|a>B   B<B f2 e>d|c2 A2 e2 A2 |c>d e>f e2
+d>c|B>c d>e f>B (3BBB|a>B (3BBB f2 e>d|c2 A2 f2 e>d|c2  B2  B2:|
+
+X:9
+T:Loch Ruan
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:C
+L:1/8
+Q:1/4=128
+K:Hp
+A>B|d2Aa f2ed|e2fg B2e>d|c2BA g2ec|d2 ef A2
+A>B|d2Aa f2ed|e2fg B2e>d|c2BA g2ec|d2-d2 d2:|
+f>g|a2fd Aafd|e2fg B2e>f|g2ec Agec|d2 ef A2
+f>g|a2fd Aafd|e2fg B2e>d|c2BA g2ec|d2-d2 d2:|
+
+X:10
+T:Walter Douglas MBE
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:2/4
+L:1/8
+Q:1/4=132
+K:Hp
+e|A>A Ag|ed e>f|g>e dg|BA BG|   A>A        Ag |ed  e>f|g>e dB|eA A:|
+a|e>f ga|ed e>f|g>e dg|BA BG|[1 e>f        ga |ed  e>f|g>e dB|eA A:|
+                             [2 A<A        Ag |ed  e>f|g>e dB|eA A||
+e|A<A AB|AB e2 |G<G GA|GA BG|   A<A        AB |AB  e>f|g>e dB|eA A:|
+g|a2  ga|ed e>f|g>e dg|BA BG|   a2         ga |e>d e>f|g>e dB|eA Ag|
+  a2  g2|fd e>f|g>e dg|BA BG|   B/<e/d/>B/ A>B|AB  e>f|g>e dB|eA A|]
+
+X:11
+T:Campbell's Farewell to Redcastle
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:2/4
+L:1/16
+Q:1/4=96
+K:A Mixolydian
+e2 |A3B  c3d |e2a2 e3d|c2A2 A2Bc|d2B2 G2````B2|A3B c3d  |e2a2 e3d|c2BA G2B2|A4 A2:|
+g>f|e2a2 a2gf|e2a2 e3d|c2A2 A2Bc|d2B2 G2 [1 gf|e2a2 a2gf|e2a2 e3d|c2BA G2B2|A4 A2:|
+                                         [2 B2|ABcd cdef|efga e3d|c2BA G2B2|A4 A2|]
+
+X:12
+T:Corriechoille's Farewell to the Northern Meeting
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:2/4
+L:1/8
+Q:1/4=110
+K:D
+e |A>B Ad|e>d BA|d>e fa|fe ef|
+   A>B Ad|e>d BA|d>e fa|fd d:|
+f |a>f df|e>d BA|d>e fa|fe ef|
+[1 a>f df|e>d BA|d>e fa|fd d:|
+[2 A>B Ad|e>d BA|d>e fa|fd d|]
+
+X:13
+T:Highland Laddie
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:2/4
+L:1/16
+K:Hp
+AB|d2e2 f2a2|gfed f4  |f2e2 e2de|f2e2 e2dB|
+   d2e2 f2a2|gfed f2ef|d2B2 B2AB|d2B2 B2 :|
+g2|a2gf g2fe|f2ed f4  |f2e2 e2de|f2e2 e2g2|
+   a2gf g2fe|f2ed f2ef|d2B2 B2AB|d2B2 B2 :|
+
+X:14
+T:Pipe Major Donald Maclean of Lewis
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:6/8
+L:1/8
+R:march
+Q:3/8=96
+K:A Dorian
+e |A>BG A3  |e>dg e>dB|A>BA G2B |d2e  e>dB |\
+   A>BG A3  |e>dg e>dB|G>Bg e>dB|A3   A2  :|
+g |a2e  e2g |a>ee e>dB|A>BA G2B |d2e  e>dB |\
+[1 a2e  e2g |a>ee e>dB|G>Bg e>dB|A3   A2  :|
+[2 A>BG A3  |e>dg e>dB|G>Bg e>dB|A3   A2  ||\
+e |A>ee d>ee|A>ee e>dB|A>BA G>GG|B<de e>dB |
+   A>ee d>ee|A>ee e>dB|G>Bg e>dB|A3   A2  :|\
+e |A2a  a>ga|g>ee e>dB|A>BA G2B |d2e  e>dB |
+[1 A2a  a>ga|g>ee e>dB|G>Bg e>dB|A3   A2  :|\
+[2 A>BG A3  |e>dg e>dB|G>Bg e>dB|A3   A2  |]
+
+
+% Strathspeys
+% -----------
+
+X:15
+T:The Lad wi' the Plaidie
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:4/4
+L:1/8
+Q:1/4=120
+K:D
+f>g`f>e d>e`d>B|A>F`A>d c<e e2 |f>g`f>e d>ed>B|c>de>a f<dd2:|
+A2(3FED F<A`A>d|B>A`B>d c<e e2 |A2(3FED F<AA>d|c>de>a f<dd2:|
+f2(3agf e2(3gfe|d2(3fed c2(3edc|B2(3dcB A2 f>a|g>fe>a f<aa2 |
+f2(3agf e2(3gfe|d2(3fed c2(3edc|B2(3dcB A2 f>a|g>fe>a f<dd2|]
+
+X:16
+T:Captain Campbell
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:C
+L:1/8
+Q:1/4=120
+K:A Minor
+G|E<AA>B c>AB<G|D<GG>A B>d       c/B/A/G/|E<AA>B c>Bc<e|d<Bg>B A2A :|
+B|A<aa>g e>dc<e|d>eg>e d/c/B/A/  G>B     |A<aa>g e>dc<e|d<Bg>B A2A>B|
+  A<aa>g e>dc>e|d>eg>e d/c/B/A/  G>B     |c<Ad>B e>dc<e|d<Bg>B A2A |]
+
+X:17
+T:The Smith's a Gallant Fireman
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:C
+L:1/8
+Q:1/4=120
+K:D
+D2 D>F A<AA>F|A>Bd>A F2E>D|E2 E>G B<BB>A|d>fe>d B2B<d|
+D2 D>F A<AA>F|A>Bd>A F2E>D|G>BG<B F>AF<A|E>FG>A B2A2:|
+d>ef>e d<dd>A|B>Ad>A F2E>D|e2 e>f e2 e>f|g>fe>d B2A2 |
+d>ef>e d2 d>A|B>Ad>A F2E>D|G>BG<B F>AF<A|E>FG>A B2A2:|
+
+X:18
+T:The Braes of Tulliemet
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:C
+L:1/8
+Q:1/4=120
+K:E Dorian
+E<BB>A B>AB<d|F<DA>D B>DA>F|E<BB>A  B>AB<e|d>BA<F E2 E2:|
+e>Be<g e>Be<g|d>Ad<f d>Ad<f|e>Be<g  e>Be<g|d>BA<F E2 E2 |
+e>Be<g B>eg>e|d>Ad<f A>df>d|e>BB>c  d>ef>e|d>BA<F E<EE2|]
+
+X:19
+T:Katie Bairdie
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:C
+L:1/8
+Q:1/4=120
+a2 a>g f>ga2|e>fg>f e>fg2|a2 a>g f>ga>f|d>ef>d e2d2:|
+f>dA>d f>df2|g>ec>e g>eg2|f>dA>d f>df2 |d>ef>d e2d2:|
+
+X:20
+T:Orange and Blue
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:C
+L:1/8
+Q:1/4=120
+K:D
+f<dd2 A<dd2|f>da>f d2d>f|g<ee2  B<ee2 |c>A   e>c A2a>g|
+f<dd2 A<dd2|f>da>f d2f>a|b>ga>f g>ef>d|e>c (3ABc d4  ||
+f<aa2 f<aa2|f>da>f d2d>f|g<bb2  g<bb2 |g>e   b>g e2e>g|
+f<aa2 f<aa2|f>da>f d2f>a|b>ga>f g>ef>d|e>c (3ABc d3e |]
+
+
+% Reels
+% -----
+
+X:21
+T:Staten Island
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:C|
+L:1/8
+Q:1/2=120
+K:D
+AG|FDFG A2A2|dfed dcBA|B2GB  A2FA |G2E2  E2
+AG|FDFG A2A2|dfed dcBA|d2d2  efge |f2d2  d2:|
+fg|a2fa g2eg|f2df ecA2|=c2c2 e=fge|=c2c2 e=f
+ge|a2fa g2eg|f2df ecA2|d2d2  efge |f2d2  d2:|
+
+X:22
+T:Mrs McLeod of Raasay
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:C|
+L:1/8
+Q:1/2=112
+K:A
+A2a2 fefa|c2cB c2cB|A2a2 fefa|B2BA BdcB |
+A2a2 fefa|c2cB c2ce|f2fg fefg|afec B2cB:|
+ABcd ecBA|c2cB c2cB|ABcd ecBA|B2BA BdcB |
+ABcd ecBA|c2cB c2ce|f2fg fefg|afec BdcB:|
+
+X:23
+T:The Fairy Dance
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:C|
+L:1/8
+Q:1/2=110
+K:D
+f2fd f2fd|f2fd cde2|f2fd gfed|cABc [1 d4  :|\
+                                   [2 defg||
+a2af b2ba|gfge a2ag|f2fd gfed|cABc [1 defg:|\
+                                   [2 d4  |]
+
+X:24
+T:The Ale is Dear
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:C|
+L:1/8
+Q:1/2=110
+K:B Minor
+e|:f2ef B2fe|faef cAAe|f2ef B2fe|faec B3c:|
+ |:B3c  d2cB|A3B  ABcA|B3c  d2cB|f2ec B3c |
+   B3c  d2cB|A3B  ABcA|d2fd c2ec|f2ec B3 |]
+
+X:25
+T:The High Road to Linton
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:C|
+L:1/8
+Q:1/2=110
+K:A Mixolydian
+ceef a2ae|f2fe a2ae|ceef a2ae|faec B2A2:|
+ceeg fddf|ecce fBB2|ceeg fddf|ecac B2A2:|
+K:A
+a2a2 efa2|efae faef|a2a2 efae|faec B2A2:|
+c2ec defd|c2ec BcdB|c2ec defg|afec B2A2:|
+
+X:26
+T:The Flowers of Edinburgh
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:C|
+L:1/8
+Q:1/2=120
+K:G
+GE|D2DE G2GA|BGBd cBAG|FGFE DEFG|AFdF E2EF|
+   D2DE G2GA|BGBd efge|dcBA GFGA|B2G2 G2 :|
+Bd|g2g2 gbag|f2f2 fagf|e2ef gfed|B2e2 e2ge|
+   dBGB d2d2|edef g2fe|dcBA GFGA|B2G2 G2 :|
+
+X:27
+T:The Mason's Apron
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:C|
+L:1/8
+Q:1/2=120
+K:A
+AB|c2A2 ABAF|EFAB c2Bc|d2B2 BcBA|Bcde f2ed|
+   c2A2 ABAF|EFAB c2Bc|dcde fgaf|edcB A2 :|
+AB|c2ec f2ec|A2ec fedc|d2fd g2fd|d2fd gfed|
+   c2ec f2ec|A2ec fedc|dcde fgaf|edcB A2 :|
+
+X:28
+T:Lochleven Castle
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:C|
+L:1/8
+Q:1/2=120
+K:A Dorian
+cB|A2AB AGEG|AGAB cBcd|eaga gede|c2G2 G2
+cB|A2AB AGEG|AGAB cBcd|eaga gede|c2A2 A2:|
+eg|a2ab ageg|agab a2ge|dega gede|c2G2 G2
+eg|a2ab ageg|agab a2ge|dega gede|c2A2 A2
+eg|a2ab ageg|agab agef|gfga gede|c2G2 G2
+cB|A2AB AGEG|AGAB cBcd|eaga gede|c2A2 A2||
+
+X:29
+T:The Deil Amang the Tailors
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:C|
+L:1/8
+Q:1/2=120
+K:A
+eg|a2eg a2eg|a2ea fedc|dfBf dfBf|dfba gefg|
+   a2eg a2eg|a2ea fedc|defe dcBA|E2G2 A2 :|
+ed|ceAe ceAe|ceAa fedc|dfBf dfBf|dfBb gfed|
+   ceAe ceAe|ceAa fedc|defe dcBA|E2G2 A2 :|
+
+
+% Shetland Reels
+% --------------
+
+X:30
+T:Saint Anne's Reel
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:C|
+L:1/8
+Q:1/2=108
+K:D
+de |fedc edcB|A2FA DAFA|B2GB DBGB|A2FA  DA
+FA |fedc edcB|A2FA DAFA|B2ed cABc|eddc  d2:|
+de |f2fg fdef|gagf g2gf|edcB Aceg|baa^g a2
+a=g|f2fg fdef|gagf g2gf|edcB Aceg|fddc  d2:|
+
+X:31
+T:Willafjord
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:C|
+L:1/8
+Q:1/2=108
+K:D
+B2|A2FA- ADFA|B2GB- BDGB|A2FA- ADFA|EFGA  GFED|
+   A2FA- ADFA|B2GB- BDGB|ABcd  efge|f2d2  d2 :|
+e2|f2df- ffdf|geaf  gfeg|f2df- fAdf|e2ce- eAce|
+   f2df- ffdf|geaf  gfec|ABcd  efge|f2d2  d2 :|
+
+X:32
+T:Da Ferry Reel
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:C|
+L:1/8
+Q:1/2=108
+K:D
+A|d2dA d2d2|efed c2A2|BcdB ABAF|G2E2 E3
+A|d2dA d2d2|efed c2A2|BcdB AGFE|D2d2 d3 :|
+e|f2fA f2fA|fgag fedf|e2eA e2eA|efed cBAd|
+  f2fA f2fA|fgag fedf|efgf edcB|A2d2 d3 :|
+
+X:33
+T:Sleep Soond i da Mornin
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:C|
+L:1/8
+Q:1/2=108
+K:A Dorian
+BG|Aa-ag a2ef|gedB GABG|Aa-ag a2ef|gedB A2
+BG|Aa-ag a2ef|gedB GABG|Aa-ag a2ef|gedB A3||
+B |cAeA  cAeA|BcdB G3G |cAeA  cAeA|BAGB A3
+B |cAeA  cAeA|BcdB G3B |ABcd  efga|gedB A2|]
+
+
+% Jigs
+% ----
+
+X:34
+T:Kenmure's On and Awa, Willie
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+B|G>AB gdB|d2d d2B|G>AB gdB|A2A A2B|G>AB gdB|d>ef g>fe|d>cB c>BA|G2G G2:|
+d|g2d  edB|d2d def|g2d  edB|A2A A2f|g2d  edB|d>ef g>fe|d>cB c>BA|G2G G2:|
+
+X:35
+T:The Muckin o Geordie's Byre
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:6/8
+L:1/8
+Q:3/8=120
+K:D
+B   |A>BA A>FA|d2e f2 a|g2e  f2d |e2d  B>cd|
+     A>BA A>FA|d2e f2 g|a>fd e>fe|d3   d2 :|
+e/f/|g2 g g>ag|f2f f>af|e2 e e>fg|f>ed B>cd|
+     A>BA A>FA|d2e f2 g|a>fd e>fe|d3   d2 :|
+
+X:36
+T:The Stool of Repentance
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:6/8
+L:1/8
+Q:3/8=120
+K:A
+a2e c2e|agf edc|aff f2e|fag f2e |
+a2e c2e|agf edc|d2e f2e|fac B2A:|
+cAA eAA|cAA edc|dBB fBB|dBB fed |
+cAA eAA|cAA edc|d2e f2e|fac B2A:|
+
+X:37
+T:Drummond Castle
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:6/8
+L:1/8
+Q:3/8=120
+K:A Minor
+B|A>BA a3 |age g2B|c2c edc|Bdg dBG|
+  A>BA a3 |age g3 |ege deg|edB A2:|
+B|c2c  cec|d2d ded|c2c edc|Bdg dBG|
+  c2c  edc|deg a2g|ege deg|edB A2:|
+
+X:38
+T:Haste to the Wedding
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:6/8
+L:1/8
+Q:3/8=120
+K:D
+B   |AFA Aaf|ede fdB|AFA AdF|EFE E2
+A   |AFA Aaf|ede fdB|AFA faf|ddd d2:|
+f/g/|afa afa|bgb bgb|afa agf|efe e2
+f/g/|a3  f3 |ede fdB|AFA faf|ded d2:|
+
+X:39
+T:The Jig of Slurs
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:6/8
+L:1/8
+Q:3/8=120
+K:D
+B|A>dd dcd |B>dd A>dd|B>dd A>dd|B>ee edB |
+  A>dd dcd |B>dd A>dd|B>dd c>de|f>dd d2 :|
+B|A>ff fef |a>ff fed |B>ee ede |f>ee edB |
+  A>ff fef |a>ff fed |B>dd c>de|f>dd d2 :|
+B|G>gg gfg |a>gf gdB |G>gg gfg |a>gf g2B |
+  G>gg gfg |a>gf gdB |B>ee e>gg|f>dd e2 :|
+B|G>BB B>dd|d>ee edB |G>BB B>dd|d>ee e>gg|
+  G>BB B>dd|d>ee edB |B>ee e>gg|f>dd e2 :|
+
+
+% Polka
+% -----
+
+X:40
+T:Bluebell Polka
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:2/4
+L:1/16
+Q:1/4=100
+K:G
+(3Bdg|b2b2 g>fg>e|d2d2B2 zG|F2A2   c2e2|ed^cd     B2 (3Bdg|
+      b2b2 g>fg>e|d2d2B2 zG|FGAB   cdef|g2g2      g2     :|
+K:D
+  z2 |A2A2 FAdf  |a2a2f4   |a2^g2 =g3e |b2 (3aba ^g2a2    |
+      A2A2 FAdf  |a2a2f4   |a2^g2 =g3e |d2d2      d2     :|
+K:G
+(3Bdg|b2b2 g>fg>e|d2d2B2 zG|F2A2   c2e2|ed^cd     B2 (3Bdg|
+      b2b2 g>fg>e|d2d2B2 zG|FGAB   cdef|g2g2      g2     :|
+K:C
+  z2 |e2e2 efg2  |e2e2 efg2|f2f2   fdB2|fefg      fdB2    |
+      e2e2 efg2  |e2e2 efg2|f2f2   fdBd|c2c2      c2     :|
+K:G
+(3Bdg|b2b2 g>fg>e|d2d2B2 zG|F2A2   c2e2|ed^cd     B2 (3Bdg|
+      b2b2 g>fg>e|d2d2B2 zG|FGAB   cdef|g2g2      g2     :|

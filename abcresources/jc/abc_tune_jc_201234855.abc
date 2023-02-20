@@ -1,0 +1,26 @@
+X: 20833
+T: PROVIDENCE SETT (tune 6)
+C:
+%R: reel, march
+B: Elias Howe "The Musician's Companion" 1843 p.83 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="6"
+c2 |\
+F2G2 A2c2 | BAGF A[Fa]Ac | [g2d2]d2d2f2 | fedc c2de |\
+A3G A2c2 | BAGF A[Fa]Ac | [g2d2]d2 e2de | f2a2f2 H|]
+de |\
+f2a2 e2g2 | d2f2 AGAB | B2G2 A2F2 | G2F2 D2de |\
+f2a2 e2g2 | d2f2 AGAc | B2G2 BAGF | C2F2"^D.C."F2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies all balance to the right,
+%% all promenade,
+%% gentlemen the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

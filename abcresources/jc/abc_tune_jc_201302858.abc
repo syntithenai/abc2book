@@ -1,0 +1,23 @@
+X: 1
+T: Lively and Happy
+T: Lebedich un Freilech
+C: trad. arr. Shana Aisenberg
+R: freilach, bulgar
+S: Fiddle Hell Online 2020-11-09
+Z: 2020 John Chambers <jc:trillian.mit.edu> (and reformatted to save screen space)
+S: Fiddle Hell Online 2022-4-2 handout for Shana Aisenberg workshop
+M: 2/4
+L: 1/8
+P: A1A2 BB A2 CC A2
+K: Ddor
+"^A"|: A, B,^C |\
+"Dm"D2 FE- | ED EF | A^G BA- | A^G FE |\
+D2 FE- | "A"ED EF |[1 A^G BG | "A"A :|[2 "Dm"D4- | "^fine"D |]
+"^B"|: D FA | "Dm"d2 d2 | d2 de | "Am"c/B/A2 A- | "^->A2"A :|\
+[K:G]\
+"^C"|: D GA |\
+"G"B4- | BA BA | G D3- | DD GA |\
+{Bc}BA {Bc}BA |
+{Bc}BA {Bc}BA | G D3- | D || D GA |\
+"G"B4 | "Gm"_B4 | "A"AG FE- | EE FG |\
+AF GE | FD E^C | "D"Dd AF | D :|

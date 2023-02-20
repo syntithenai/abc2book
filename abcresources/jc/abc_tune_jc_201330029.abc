@@ -1,0 +1,112 @@
+X: 1
+T: S\"akkij\"arven polkka
+R: polka
+O: trad Finland
+B:
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+N: Probably the best-known traditional Finnish polkka tune.
+N: S\"akkij\"arvi is a small town between Leningrad/(Saint)Petersburg and the Finnish border.
+N: Fourth and fifth parts are often played, which are usually "accordion showoff" parts.
+N: This tune is sometimes attributed to Vili Vesterinen, but he learned it from others,
+N: and was the accordion player who popularized it.
+M: 2/4
+L: 1/8
+K: Am
+|: {Ace}"Am"ae dc | "E7"cB Bc/d/ | e>d cB | "Am"BA Ac/e/ \
+| ae dc | "E7"cB Bc/d/ | ed cB | "Am"A2 "fine"z2 :|
+e \
+|: "Am"A/B/c/d/ ea | "E7"a^g g/a/b | e/^f/^g/a/ bc' | "Am"ba a/^g/a \
+| A/B/c/d/ ea | "E7"a^g g/a/b | ee ^f^g | "A"a2 z2 :|
+Ac \
+|: "Am"ee/c/ AA/c/ | ee/c/ AA/c/ | ee fe | "E7"d/e/d/c/ BB/c/ \
+| dd/c/ BB/c/ | dd/c/ BB/c/ | dd ed | "Am"c/d/c/B/ AA/c/ ||
+|| "Am"ee/c/ AA/c/ | ee/c/ AA/c/ | ee "A7"ag | "Dm"f/g/f/e/ d>e \
+| ff ed | "Am"c/d/c/B/ AA/c/ | "E7"B/c/B/A/ ^GB | "Am"A2 z2 :|
+%%sep 5 5 200
+
+X: 2
+T: Kiikkuri kaakkuri
+O: Trad Finland
+R: shottish
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|: "D"D2FA D2FA | AGFG "A7"E2E2 | "A7"A,2CE A,2CE | GFEF "D"D2D2 :|
+|: "D"DEFG A2Bc | "G"d2G2 B3B | "A7"BAGF AGFE |1 "D"D2F2 A4 :|2 "D"D2F2 D4 :|
+K: G
+|: "G"G2Bd G2Bd | dcBc "D7"A2A2 | "D7"D2FA D2FA | cBAB "G"G2G2 :|
+|: "G"GABc d2ef | "C"g2c2 e3e | "D7"edcB dcBA |1 "G"G2B2 d4 :|2 "G"G2B2 G4 :|
+%%sep 5 5 200
+
+X: 3
+T: Saimaanrannan Laulu
+C: Raimo Turunen
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+|: "D"A, D F | A2 A | B A> G | "D"F2 D | "A7"A, C E |
+| G2 E | G F> E | "D"D3 :| "D"d c d | "G"B2 G \
+| d c B | "D"A3 | F ^E F | "Bm"B2 F |
+| "Em"A G F | "A7"E3 || "D"A, D F | A2 A | B A> G \
+| "D"F2 D "Intro"| "A7"A, C E | G2 E | G F> E | "D"D3 |]
+
+X: 4
+T: Viitatoista
+T: Viistoista
+M: 2/4
+L: 1/8
+P: 8x
+K: D
+P: D:
+|: "D"f2 "G"d>B | "D"AA/A/ AF | "A7"AG FG/G/ | "D"AA A2 :: "G"BB BB | "D"BA AA | "A7"cc Bc | "D"dd d2 :|
+P: G:
+K: G
+|: "G"b2 "C"g>e | "G"dd/d/ dB | "D7"dc Bc/c/ | "G"dd d2 :: "C"ee ee | "G"ed dd | "D7"ff ef | "G"gg g2 :|
+%%sep 5 5 200
+
+X: 5
+T: Sappu Kirvusta
+M: 2/4
+L: 1/8
+P: 10x (D2G2D2G2D2)
+K: D
+P: D:
+|: "D"de fg | a2 d2 |1 "A7"ce Bc | dc BA :|2 "A7"ce fe | "D"d2 z2 ||
+|: "D"a3 f | a3 f | "Em"eg b2 | e3 d | "A7"c2 b2 | a2 g2 |1 f2 e2 | "D"dB Ad :|2 "D" dd/d/ "G"dd | "D"d2 z2 |]
+P: G:
+K: G
+|: "G"GA Bc | d2 G2 |1 "D7"FA EF | GF ED :|2 "D7"FA BA | "G"G2 z2 ||
+|: "G"d3 B | d3 B | "Am"Ac e2 | A3 G | "D7"F2 e2 | d2 c2 |1 B2 A2 | "G"GE DG :|2 "G" GG/G/ "C"GG | "G"G2 z2 |]
+%%sep 5 5 200
+
+X: 6
+T: Nuuskapolkka
+M: 2/4
+L: 1/8
+K: G
+P: G:
+D |: "G"GG/A/ BB | "D7"AA/B/ cc | "G"BB "D7"AA |1 "G"GB D2 :|2 "G"GB G2 ||
+G/B/ || "G"dd BG | "C"e2 z2 | "D7"cc Ae | "G"d2 z2 | dd BG | "C"e2 "G"d2 | "D7"c2 A2 | "G"G4 |]
+P: D:
+K: D
+A |: "D"dd/e/ ff | "A7"ee/f/ gg | "D"ff "A7"ee |1 "D"df A2 :|2 "D"df d2 ||
+d/f/ || "D"aa fd | "G"b2 z2 | "A7"gg eb | "D"a2 z2 | aa fd | "G"b2 "D"a2 | "A7"g2 e2 | "D"d4 |]
+%%sep 5 5 200
+
+X: 7
+T: Kahdeksan miehen engelisk\"a
+T: \AAttaman engelska
+M: 2/4
+L: 1/16
+K: D
+P: Polka (3x)
+|: "G"b3a g2f2 | "A7"A2ce cAce | a3g f2e2 |1 "D"d2fa fdfa :|2 "D"d2d2 d4 :|
+|: "D"D2FA FDFA | "G"G2Bd BGBd | "A7"A2ce cAce |1 "D"fedc dcBA :|2 "D"d2d2 d4 :|
+P: Polska (2x)
+M: 3/4
+L: 1/16
+|: "A7"A4 | "D"DCDE FEDE F2D2 | FEFG AGFG A2F2 | A2FA d2Ad f2df | "A7"fedc "D"d4 :|
+|: "A7"A4 | "D"d2fd "A"Acec Acec | "D"Adfd "A"Acec Acec | ABcd efge "D"fafd | "A"egec "D"d4 :|

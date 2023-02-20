@@ -1,0 +1,18 @@
+X: 39
+T: Mr Aldrige's Highland Laddie
+N: The index lacks the "Mr" in the title, but has the apostrophe that's missing in the tune.
+%R: reel
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.18 #39
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+f |\
+ABde {g}f2(ed) | geef geef |\
+ABde fbag | fdde fdd :|
+|: d' |\
+babd' {b}a2(gf) | geef geed' |\
+babd' {b}a2(fe) | fdde fdd :|

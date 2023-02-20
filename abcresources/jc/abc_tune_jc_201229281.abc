@@ -1,0 +1,30 @@
+X: 1213
+T: Nithian a Ghreisich ___ the Suttor's Daughter
+%R: strathspey, air
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.21 #3 (and 4 staves on p.22)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow"
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted for 4 almost-even lines.
+V: 1 staves=2
+A, |\
+D>A,TB,>A, D2A,2 | D>E{DE}FD FEE>F | D>A,TB,A, D2A,2 | D>EFF FFF2 | TE>DEF B3d | A>B {B}AG/F/ BEE>F |\
+D>A,TB,>A, D2A,2 | B>A (3(BAF) (3(AFE) E>F |
+D>A,B,>A, D2D :| A | d>efd Tfee>f | d>AB>A {c}d2A2 |\
+d>e[fd][fd] [fd][fd][f2d2] | e>def Ta3b |\
+a>b {b}ag/f/ bee>f | d>ABA (d/c/d/).e/ {e}dc/B/ |
+A<FTF>D {DE}F>EE>F | D>A,TB,>A, D2A,2 |\
+B>A (3(BA).F (3(AF).E TE>F | D>A,TB,A, D3A | d>efd Tfee>f | d>AB>A {^c}d2A2 | d>e[fd][fd] [fd][fd][f2d2] |
+Te>def b3d' |\
+a>b {b}ag/f/ bee>f | d>AB>A (d/c/).d/.e/ {e}dc/B/ |\
+{B}AG/F/ {G}FE/D/ {DE}FEE>F | D>A,TB,>A, D2A,2 | B>A (3(BAF) (3(AFE) TE>F | D>A,B,A, D2-D |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d2d2 f2ec | d4 A4 | d2d2 fdcA | dc BdAd fd | B3A G2g2 | f2d2 e2a2 |
+f2ga defd | g2fd fga2 | d2ga faf :| e | d4 [g4a4] | f2ga fafd | d3c B2A2 | G4 FDfg |
+f2d2 g2a2 | f2ga fa bg | fad'f g2a2 | e2ga fafd | g2fd fga2 | f2ga fafd | d4 g2[a2g2] | f2ga
+fafd | d3c B2A2 | G>FED G2g2 | f2d2 g2a2 | f2ga f2bg | f2d2 g2a2 | f2ga fafd | g2fd fga2 | f2ga d'2d |]

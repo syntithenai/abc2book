@@ -1,0 +1,34 @@
+X: 11042
+T: COTILLION No. 18. Basket Sett tune 2
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.104 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!p!(c |\
+agf) (e2f) | c3 (A2c) | (fca) fc'a | bge (d2c) |\
+(agf) (e2f) | c3 (A2c) | (db)g ec'e | f2f f2 H|]
+|: !f!g |\
+(ag^f) (g2=f) | e2d c2c | (e2d) A2=B | c2e g2g |\
+=bag fed | (^d2e) c2c | =B(ag) fAB | c2c "^D.C."c2 :|
+!p!c |\
+(ag)f c2f | (ag)f c2f | (ag).f (ag).f | {a}b2g g2c |\
+(dc).=B c2_b | (dc).=B c2_b | {a}g^fg b2e | f2f f2c |
+(agf) c2f | (agf) c2f | (ag.f) (ag).f | {a}b2g f2c |\
+(dc=B) (c2e) | a(g^f) (g2a) | bge cBG | HF3 "^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies all forward and back,
+%% ladies forward again to the centre,
+%% gentlemen swing round the ladies,
+%% ladies join your hands and fall back,
+%% gentlemen raising their arms at the same time;
+%% all balance and turn partners,
+%% gentlemen forward, &c.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

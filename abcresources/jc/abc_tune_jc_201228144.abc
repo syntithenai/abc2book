@@ -1,0 +1,16 @@
+X: 11091
+T: the Lovely Lass of Inverness
+C: James Oswald
+%R: air, march, reel
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.9 #1
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Both strains' ends have wrong rhythms; fixed with initial rest and dots on final notes.
+M: C
+L: 1/8
+K: D
+"_Slow"z |\
+d2A>G F2d2 | efdF TE2D2 | A2B>d {d}c3d | efgf {f}e4 |\
+F2G>F E2A2 | B>cde Tc2BA | e2f^g afed | c2TB>A A3 :|
+|: A |\
+d2ef B2(gf) | edcB {B}T^A3F | G2(FE) F2(Bc) | c3B B3d |\
+AFED D3E | FdAF A2fa | b2ag ed (Bc/d/) | (A<F) TE>D D3 :|

@@ -1,0 +1,39 @@
+
+X: 1
+T: The Collier's Daughter   [Gm]
+T: The Duke of Rutland's Delight
+O: 1700
+B: Henry Playford's "Original Scotch Tunes" London 1700 as "The Collier's Lass"
+R: march
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gdor
+dc |\
+"Gm"B2G2 G2G2 | G4 D4 | "Bb"D2 F4 F2 | "F"A2 c4 ||
+dc |\
+"Gm"B2G2 G2G2 | G4 D4 | "C"cBAG cBAG | "Gm"B2 d4 :|
+|: ef |\
+"C7"gfed cded | "F"c4 f4 | "C7"cBAG FGAB | "F"A4 c4 ||
+"Gm"B2G2 "Dm"A2D2 | "Gm"B2G2 "Dm"A2D2 | "C"gfef g2G2 | "Gm"B2 d4 :|
+
+
+%%sep 0 1 8cm
+
+X: 2
+T: The Collier's Daughter   [Am]
+T: The Duke of Rutland's Delight
+O: 1700
+B: Henry Playford's "Original Scotch Tunes" London 1700 as "The Collier's Lass"
+R: march
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Ador
+ed |\
+"Am"c2A2 A2A2 | A4 E4 | "C"E2 G4 G2 | "G"B2 d4 ||
+ed |\
+"Am"c2A2 A2A2 | A4 E4 | "D"dcBA dcBA | "Am"c2 e4 :|
+|: fg |\
+"D7"agfe defe | "G"d4 g4 | "D7"dcBA GABc | "G"B4 d4 ||
+"Am"c2A2 "Em"B2E2 | "Am"c2A2 "Em"B2E2 | "D"agfg a2A2 | "Am"c2 e4 :|

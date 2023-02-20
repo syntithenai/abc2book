@@ -1,0 +1,23 @@
+X: 1112
+T: Elven Side
+%R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.11 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The book has double thin bars between the 1st & 2nd measures.
+N: The phrasing is a bit odd; it's not made of 4-bar chunks, and the total is 17 bars.
+M: C
+L: 1/16
+K: Em
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 staff lines, mostly for compactness.
+V: 1 staves=2
+e2 | B3E dBAB dD3TA3F || B3E dBAB dE3TB2A2 | d3E dBAB dD3TA3F | B3E dBAB d2E2-E3g | {g}f2.e.d {f}e2.d.c dD3TA3F |
+B3E dBAB dE3TB3A | d3E dBAB dD3TA3F | B3E dBAB d2E2-E3g | {g}f2ed {f}e2dc dD3TA2 |][| GF | e3E B3E e3E BAGF | d3E B3E d3D BAGF |
+e3E B3E d2E2-E3g | {g}f2.e.d {f}e2dc dD3TA3F | d3EB3E d3E BAGF | d3EB3E d3D BAGF | d3E B3E d2E2-E3g | {g}f2ed {f}e2dc dD3TA2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | e4e4 d4d4 || e4e4 e4e4 | e4e4 d4d4 | e4e4 e4e4 |
+e4e4 d4d4 | e4e4 e4e4 | e4e4 d4d4 | e4e4 e4e4 | e4e4
+d4d2 |][| z2 | e4e4 e4e4 | e4e4 d4d4 | e4e4 e4e4 | e4e4 e4e4 |
+e4e4 e4e4 | e4e4 d4d4 | e4e4 e4e4 | e4d4 d4d2 |]

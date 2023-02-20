@@ -1,0 +1,40 @@
+X: 1
+T: Dr. Popes Jigg
+P: Longways for as many as will
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.86 #126 (172)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.58
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the DMDfD dance instructions.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+gf |\
+e2dc G2c2 | E2 C4 cd | e2cd e2cd | e2 g4 fg |\
+agag agag | (ag)(fe) d2g2 | e2dc c2d2 | e2 g4 :|
+|: dc |\
+B2dc B2g2 | B2 d4 cd | e2cd e2cd | e2 g4 fe |\
+f2F2 A2c2 | g2G2 B2d2 | a2A2 B2G2 | A2 c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. go the Figure thro' the 2d Cu. and turn three times in
+%% their own Places, then the 2d Cu. go the Figure thro' the 1st Cu.
+%% and turn three times into their own Places :| The 1st and 2d Cu.
+%% right and left all round, the 1st Man change Places with the 2d
+%% Wo. and the 1st Wo. with the 2d Man then all four Hands half
+%% round, and the 1st Cu. cast off :|
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% The 1. cu. go the Figure thro' the 2. cu. and turn three times in their own places, then the 2. cu. go
+%% the Figure through the 1. cu. and turn three times into their own places. This is the first Strain played
+%% twice. The 1. and 2. cu. go right and left all round, and the 1. man change places with the 2. wo.
+%% and the 1. wo. with the 2. man, then all four hands half round, and the 1. cu. cast off. This to the
+%% second Strain played twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

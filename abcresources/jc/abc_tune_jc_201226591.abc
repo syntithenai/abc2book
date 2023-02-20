@@ -1,0 +1,19 @@
+X: 10351
+T: ADELPHI POLKA
+C: Arranged by W. B. Laybourn
+R: polka
+B: K\"ohler's Violin Repository, v.1, 1885 p.35 #1
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|:\
+vB2d2 {f}edeg | d2b2 (c'3b) | d2a2 (b3a) | d2g2a2g2 |\
+B2d2 {f}edeg | d2b2 (c'3b) | d2a2 (b3a) | g2b2g2z2 :|
+|:[K:D]\
+vA2a2 G2a2 | F2a2 {g}fef2 | A2a2 {f}e^de2 | (A2a2) {g}fef2 |\
+A2a2 G2a2 | F2a2 {g}fef2 | A2af agec | d2f2d2z2 "^D.C.":|
+|:[K:C]\
+(v.c'3.b) ag^fg | a2g2 gfe2 | g2f2 fed | f2e2 edc |\
+(.c'3.b) ag^fg | a2g2 gfe2 | g2f2 fed2 | c2e2c2z2 "_D.C.":|

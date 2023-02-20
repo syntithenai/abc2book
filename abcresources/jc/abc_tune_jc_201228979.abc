@@ -1,0 +1,26 @@
+X: 1183
+T: Rothemurchue's Rant.   a Strathspey.
+%R: strathspey, air
+N: This is version 2, for ABC software that understands voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.1 p.18 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+G |\
+TE>DEC EGTG2 | c>GA>G c>GA<c | E>DE>C E<GG>c | A>cG>c ([EC][DB,]).[DB,] :: g | {f}e2d>c Td>edA |
+Tc>dec (e/d/).c/.B/ cG | A/A/A a>g {f}e2dc | AcGc ([EC][DB,]).[DB,] :: f | eg-g>a Tg>agd | ea-a>b a>bag |
+e>gd>e ~c>de>c | Aag>e ([ec][dB])[dB] :| g | (fe) ~dc d<ea2 | gee>d Tc2Ac | G>Ac>d (c/d/e) Td>c |
+A>cG>c ([EC][DB,]).[DB,]>g || (fe)dc d<e {^g}a2 | g<ee>d Tc2 Ae/g/ | a>eg>d {f}e2dc | (A3/B//)c// G>c ([EC][DB,]).[DB,] |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | c2c2 c2c2 | e2f2 e2f2 & c8 |  c2c2 c2e2 | f2e2 g2G :: z |\
+c2c2 d2f2 | e2g2 c'2e2 |
+f2f2 c2e2 | f2e2 g2G :: z | c'2c'2 c'2c'2 | c'3b a2b2 |(.c'2b2 a2).e2 | f2ec g2G :| z | c'2g2 a2f2 |
+e2g2 e2f2 | e2c2 c2e2 | f2e2 g2G2 || c'2g2 a2f2 | e2g2 a2A2 | f2g2 a2e2 | f2e2 g2G |]
+% - - - - - - - - - -
+%%text This Tune may be Played very Slow.

@@ -1,0 +1,32 @@
+X: 65
+T: Mother quoth Hodge
+T: Longways for as many as will.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.33
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: 6/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G>AG c2d | e>fe d3 |\
+eAB c>de | Tc2B c3 :|\
+|:\
+e2c A>Bc/A/ | d2B G>AB/G/ |
+cBc AdG | TG2F G2G |\
+cBc ABc | dcd Bcd |\
+e>fe dgc | Tc2B c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%% center Each strain twice.
+%%begintext align
+%% The 1st Man side with his Partner on one side .|
+%% then on the other :| The Men makes their honours
+%% to his Partner the Wo. do the same .| Back to Back
+%% & turn, then the Man leaves his Partner to go to the
+%% 2d Wo. & the Wo. leaves her Partner to go to the 2d
+%% Man, 'till they get to the bottom and leave of on
+%% their own sides.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

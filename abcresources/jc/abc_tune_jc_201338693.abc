@@ -1,0 +1,26 @@
+X:1
+T: Smithy Hill
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:Em
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 34 notes)
+K:Em
+M:6/8
+L:1/16
+B2 |e4 f2 e2 d B G2 d4 c2 B3 G E2 F6F4 E2 F6F4 B2 |g4 a2 g3 f e2 d4 e2 d3 B G2 A6A4 B2 A6A4 B2 |
+%W:
+% voice 1 (1 lines, 31 notes)
+G4 G2 G4 e2 d4 B2 G4 G2 A4 A2 A4 e2 d4 B2 G4 G2 |g4 f2 e3 d c2 B4 G2 E4 E2 F6F4 E2 F6F4 B2 |
+%W: A2
+% voice 1 (1 lines, 33 notes)
+e4 f2 e2 d B G2 d4 c2 B3 G E2 F6F4 E2 F6F4 B2 |g4 a2 g3 f e2 d4 e2 d3 B G2 A6A4 B2 A6A4 B2 |
+%W:
+% voice 1 (1 lines, 30 notes)
+G4 G2 G4 e2 d4 B2 G4 G2 A4 A2 A4 e2 d4 B2 G4 G2 |g4 f2 e3 d c2 B4 G2 E4 E2 F6F4 G2 E6E4 ||

@@ -1,0 +1,34 @@
+X: 199
+T: the Dirge of Mull
+T: An cronan Muillach
+R: air
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+% dim/cres..endo symbols:
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" 1816 p.93 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow & Plaintive"
+K: Am
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+|:\
+A4 {A}^G2E2 | !p!{E}c4 {Bc}d2B2 | "_cres"c3d e4 | e2d2 Q(d2qc2) ||\
+pc3Pd pe3Pg | e2A2 {A}^G2E2 | !p!A4 p^G3PB | Q(c3d/c/) (B2qA2) :|
+|:\
+!p!A3B e4 | A4 Q{A}^G2qE2 | pA3PB pe3Pg | (c3d/c/) HB2z2 ||\
+"_cres"A3B e4 | A4 {A}^G2E2 | "_Exp"e3^d e2^G2 | Q(A3(3^G/A/B/) qA4 :|
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+z2a2 e4 | !p!z2a2 ^g2e2 | a2b2 c'4 | c'2b2 b2a2 || e3d c2z2 | abc'd' e'2z2 | !p!c2c'2 b2e2 | abc'd' e'2a2 :|
+|:\
+!p!z4 A2B2 | c2d2 e4 | z4 A2B2 | c2d2 He2E2 || z4 A2B2 | c2d2 e4 | c2B2 cde2 | a2e2 A4 :|
+% = = = = = = = = = =

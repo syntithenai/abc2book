@@ -1,0 +1,58 @@
+%%topmargin     1.50cm
+%%scale         0.67
+%%titlefont      Times-Roman 24.0
+%%titleleft      no
+%%subtitlespace  0.20cm
+X: 1
+T: Cameron Workshop, June 16, 2012
+T: presented by Terry Traub   
+M: C
+L:
+K: C
+
+%%titlefont      Times-Roman 18.0
+%%titlespace     0.30cm
+%%titleleft      yes
+%%composerfont   Times-Italic 10.0
+X: 2
+T: The Iron Man [W.M.F. McHardy, Forgue]
+T: by J. Scott Skinner, from "The Scottish Violinist"
+M: 4/4
+L: 1/8
+K: A
+E|"A"A2 c>A "E"B>G"A"A>B|"A"c2 e>c "E"d>B"A"c<e|"D"f2 d>f "A"e2 c>e|"Bm"(3dcB (3cBA "E"G<BB>c| "A"A2 c>A "E"B>G"A"A>B |"A"c2 e>c "E"d>B"A"c<e|
+"D"f2 d>f "A"e<ac>A|"E"(3Bcd (3dcB "A"c<A A|| g|"A"a>A"E"g>A "D"f>A"A"e>A|"A"c/B/A e>g a>ec<A|"Bm"dEcE "E"B>Ec>E|
+"Bm"d/c/B c/B/A "E"(3Bcd (3efg|"F#m"a>A"E"g>A "D"f>A"A"e>A|"A"c/B/A e>g a>ec<A|"D"d2 f>d "A"(3eag "D"(3fed|"E"(3cBA (3GAB "A"c<A A |]
+%%textfont Times-Italic 11.0
+%%text A splendid example of an early modern strathspey, written by one of the greatest Scottish composers of all time.
+%%text Note the long phrases and lyrical melodic patterns.
+
+
+%%titlespace     1.00cm
+X: 3
+T: O'er the Bows to Ballindalloch
+T: Traditional pipe strathspey, collected from Matt Petrie
+R: Strathspey
+M: 4/4
+K: D
+L: 1/8
+|: "D"a2 a>f "G"e>d"A"e<f|"D"a2 a>f "G"e>d B2|"D"a2 a>f "Bm"e>de<f|"G"A>Bd>f "A"B<d A2 :|
+"D"A>df>d "G"e>df>d|"D"A>df>d "G"e>d B2|"D"A>df>d "Bm"e>df>d|"G"A>Bd>f "A"B<d A2 |
+"D"A>df>d "G"e>df>d|"D"A>df>d "G"e>d B2|"D"a2 a>f "Bm"e>de<f|"G"A>Bd>f "A"B<d A2 |]
+
+%%textfont Times-Italic 11.0
+%%text A pipe strathspey well known to pipers, less well known to fiddlers.
+%%text This is a typical pipe tune with 2-bar phrases but more lyrical than many such tunes.
+
+X: 1
+T: Lord Seaforth's Strathspey
+T: Traditional fiddle strathspey
+M: 4/4
+L: 1/8
+K: G
+|:B|"G"G<DD>E "Em"G>AB>G|"Am"c>A"G"B>G "C"E2 E>A|"G"G<DD>E "C"G>AB<e|"D"d>B A<B "G"G2 G:|
+g|"C"e/f/g d>g "G"B>gd>B|"D"c>A"G"B<G "C"E2 E>g|"C"e/f/g d>g "G"B>gd>B|"D"c>Ad<B "G"G2 g>g|
+"C"e<g "G"d<b "D7"c<a "G"B<g|"D7"c>A"G"B>G "C"E2 E>A|"G"G<DD>E "C"G>AB<e|"D"d>BA<B "G"G2 G|]
+
+%%text A great 18th Century strathspey from the Athole Collection, still widely played in Scotland and Cape Breton.
+%%text John Chambers sources this tune from John Pringle "Collection of Reels Strathspeys & Jigs", 1801

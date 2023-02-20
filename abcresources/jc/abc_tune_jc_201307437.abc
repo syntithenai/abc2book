@@ -1,0 +1,19 @@
+X: 1
+T: Marquis of Huntly's Strathspey
+O: by R. MacIntosh.
+R: reel
+S: Fiddle Hell Online 2020-11-05 Se\'an Heel Slow Airs Workshop
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - -
+V: 1 staves=2
+F | (D<G)(TG>F) (D<G)(G>A) | TF>GAB c/B/A/G/ FA | (D<G)(TG>F) D<G Gg | f>c (d/c/)B/A/ {A}G2G :|
+d | Tg>abg d>gbg | (a/g/).f/.d/ Tc>d fcaf | Tg>abg d>gbg | b/a/g/f/ d>^f g/g/g g2 |
+  | Tg>abg a>^fg>d | T=f>cd<f A<Fc>A | (D<G)(TG>F) | (D>G) Gg | f>c d/c/B/A/ {A}G2 G |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | g2g2 g2g2 | f2f2 f2f2 | g2g2 g2b2 | c'2d'2 G2G :|
+z | g2g2 g2g2 | f2f2 f2f2 | g2g2 g2g2 | g2d2 G2G2 |
+  | g2g2 d2g2 | f2f2 F2F2 | G2G2 G2B2 | c2c2 G2G |]

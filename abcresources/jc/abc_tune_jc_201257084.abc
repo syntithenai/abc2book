@@ -1,0 +1,29 @@
+X: 1
+T: Brook and Hilliar
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (136)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+GDF G2A | BGA B2c | dcB ABG | F3 A2G |\
+GDF G2A | BGB d2f | gfe Ad^c | d3- d2 :|
+|: d |\
+gfg e2e | fef ^d2B | efg Be^d | e3 g3 |\
+dBd e2d | cAc d2f | gGB dDF | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1st Cu. cast off and cast up again .| The 2d Cu. cast
+%% off below the 3d Cu. then lead up and cast off into
+%% their own Places :| The 1st two Cu. follow each other
+%% half round, then clap hands once, then follow the other
+%% half round clap Hands once .| The two Men go the half
+%% Figure between the two We. then the 1st Cu. cast off :|
+%%endtext
+%%sep 1 8 500

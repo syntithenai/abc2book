@@ -1,0 +1,22 @@
+X: 592
+T:Sunrise, Sunset
+O:Fiddler on the Roof
+Z: John Chambers <jc:trillian.mit.edu>
+L:1/8
+M:3/4
+R:Waltz
+K:Am
+| "Am"E2 A2 c2 | "E7"BA ^G2 B2 | "Am"A6 | E6 \
+|  "Am"E2 A2 c2 | "E7"BA ^G2 B2 | "Am"(A6 | "A7"A6)
+|  "Dm"A2 d2 f2 | "A7"ed ^c2 e2 | "Dm"d6 | A6 \
+|  "B"B6 | "B7"B6 | "E"(c6 | "E7"c6)
+| "Am"E2 A2 c2 | "E7"BA ^G2 B2 | "Am"A6 | E6 \
+|  "Am"E2 A2 c2 | "E7"BA ^G2 B2 | "Am"(A6 | "A7"A6)
+|  "Dm"A2 d2 f2 | "A7"ed ^c2 e2 | "Dm"d6 | "B7"^d6   \
+|  "E"e6- | "E7"e6- | "E6"e6 | "E"[^GE][AF][BG][GE][AF][BG]|
+|: "Am"z2 [c2A2] "Dm6"([d2B2] | [d2B2]) "Am"[c2A2] "E7"[B2^G2] \
+|  "Am"z2 [c2A2] "Dm6"([d2B2] | [d2B2]) "Am"[c2A2] "E7"[B2^G2] \
+|  "Am"z2 [c2A2] "Dm6"([d2B2] | [d2B2]) "Am"[c2A2] "Dm"[d2B2] \
+|  "Am"[e6c6] | "A7"[^cA][dB][ec][cA][dB][ec]
+|  "Dm"[f2d2] [f2d2] [f2d2] | "G7"[fd][ec] [d2B2] [f2d2] | "C"[e6c6] | "Am"[c6A6] \
+|  "Bm"[d2B2] [d2B2] [d2B2] | "E7"[dB][cA] [B2^G2] [d2B2] |1 "Am"([c6A6] :| [c6A6]) |2 "Am"([A6A6] | [A6A6]) |

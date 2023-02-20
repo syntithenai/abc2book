@@ -1,0 +1,13 @@
+X: 150
+T: Willy Reilly   #2
+R: air, march
+%S: s:2 b:10(6+4)
+B: O'Neill's 1850 #150
+O: F.O'Neill
+Z: henrik.norbeck@mailbox.swipnet.se
+Q: "Moderate"
+M: 2/4
+L: 1/8
+K: A
+"^A"[|] (3EFG | A>G AB | cd ec | dc [1 AF | =G2 :|[2 A>A | "^fine"A3 |]
+"^B"[| (d/e/) | f>e fa | =gf ec | dc AF | "^->A2"=G2 |]

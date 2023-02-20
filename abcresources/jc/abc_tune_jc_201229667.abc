@@ -1,0 +1,18 @@
+X: 127302
+T: SIR ROGER DE COVERLEY
+P: Country Dance.
+%R: slip-jig
+B: James Kerr "Merry Melodies" v.1 p.27 s.3 #2
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: G
+|:\
+v{DEF}G2vG uG2ug dBG | uA2uA ABG FED |\
+vG2vG uG2ue def | ug2uG GAG FED ::\
+vdBd ece dBG | uA2uA ABG FED |
+vdBd ece def | g2G GAG FED ::\
+vgag uf2ue dBG | uA2uA ABG FED |\
+gag f2e def | g2G GAG FED :|

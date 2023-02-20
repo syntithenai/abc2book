@@ -1,0 +1,50 @@
+X: 1
+T: Det ligger k\"arlek i luften i kv\"all
+C: Ernfrid Ahlin-Jokern 1938
+R: foxtrot
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+%%continueall
+% The ABC "staff" lines are laid out to match the lines of the printed version,
+% which is useful for proofreading, but otherwise insignificant. Use whatever
+% layout fits your needs best.
+% - - - - - - - - - - - - - - - - - - - %
+%"^Intro"CCD | "C7"[E2C2B,2] E>F [G2E2] [GE]>c | [BE]G E2- E>c [cBE]>d | [c2B2E2] [cBE]>d [cE]>B [AE]>G | "F"[F4C4A,4] [f2c2A2F2] z2
+% - - - - - - - - - - - - - - - - - - - %
+"A1"[| "F"FF2D "Fdim"F3D | "C7"[GEB,]A G2 C4 | "F"FF2D "Fdim"F3D | "C7"[GEB,]A G2 C3 C | "F"F>G A>B "F7"[c2A2_E2] [d2A2F2] |
+w: 1.~M\aa-nen g\aatt opp bak gra-nar-nas topp. Stj\"ar-nor-na st\aa p\aa him-me-len bl\aa. S\aa stil-la smy-ger af-ton-
+w: 2.~Vid din bal-kong jag sjung-er min s\aang, Ju-li-a \"ar sin Ro-me-o d\"ar. Ja, k\"ar-le-ken \"ar \"an i
+%
+"Bb"[c2F2D2] [B2F2D2] [F3D3] [GD] | "G7"[A2F2=B,2] [A2F2B,2] [G2F2B,2][F2B,2] | "C7"[G2-E2_B,2] [G2-E2B,2] [G2-E2B,2] [G2-E2B,2] "A2"|| "F"[FA,] F2D "Fdim"F3 D | [GEB,]A G2 C4 |
+w: vind f\"or-bi i kv\"al-lens po-e-si.___ | V\aa-gor-na sm\aa de kluc-ka och sl\aa.
+w: dag sig lik, s\\ fylld av ro-man-tik.___ Dr\"om-mar s\aa bl\aa mot him-me-len g\aa.
+%
+"F"[FA,]F2D "Fdim"F3D | "C7"[GECB,]A G2 C2-C2 | "F"F>G A>B "F7"[c2A2_E2] [d2A2F2] | "Bb"[c2F2D2] [B2F2D2] "Bbm"[F3_D3] [GD] | "F"[A2F2C2] [A2F2C2] [d2A2F2] [A2F2C2] | "C7"[c4B4E40] z "^Refr."|]
+w: Doften* oss n\aar fr\aan ro-sor-nas sn\aar. Jag ser dig, d\"ar du st\aa'r bak din gar-din. s\aa s\"ot och som-mar-fin.
+w: Lyckan* \"ar din, och lyc-kan \"ar min. Om ba-ra vi f\"orst\aa* att f\aang-a den, s\aa kom-mer den, min v\"an.
+% - - - - - - - - - - - - - - - - - - - %
+CDE "B1"| "F"F2 F>G [A2F2] [AF]>[cA] | [A2-F2] [A2-E2] [AD] CDE | F2 F>G [A2F2] [AF]>[cA] | "C7"[BE]G E2- E CCD |
+w: Det lig-ger k\"ar-lek i luf-ten i kv\"all__ och n\"ar du h\"or mig vid grin-den (vissling)____ s\"and mig en
+%
+"C7"E2 E>F [G2E2] [GE]>c | [BE]G E2- E>c [cBE]>d | [c2BE2] [cBE]>d [c2B2E2] [cE]>[BG] | "F"[A4F4] z CDE "B2"|
+w: h\"als-ning med vin-den. (vissling)____ Det lig-ger k\"ar-lek i luf-ten i kv\"all. Jag k\"an-ner
+%
+"F"F2 F>G [A2F2] [AF]>[cA] | [A2-F2] [A2-E2] [AD] CDE | F2 F>G [A2F2] [AF]>[cA] | "C7"[BE]G E3 CCD |
+w: p\aa mig att n\aan-ting skall ske.__ Jag \"ar s\aa glad som en l\"ar-ka (vissling)___ det kan en
+%
+"C7"E2 E>F [G2E2] [GE]>c | [BE]G E2- E>c [cBE]>d | [c2B2E2] [cB2]>d [cE]>[BG] [AE]>G | "F"[F4C4A,4] z "(F7)"FBc "C1"|
+w: barn-ung-e m\"ar-ka (vissling)____ Men jag vet sj\"alv in-te rik-tigt vad de e'. Till h\"og-sta
+%
+"Bb"[d2B2F2] [dBF]>^c [d2B2F2] [dBF]>e | "(Fdim)"[d2^G2F2] "F"[=c4A4F4] [d2A2F2] | "C7"[c2G2E2] [B2G2E2] [d2B2F2] [c2B2E2] | "F"[A4F4] z "(F7)"FBc |
+w: top-pen up-p\aa Hi-ma-lay-a jag kun-de mig be-ge, jag kun-de
+%
+[d2B2F2] [dBF]^c [d2B2F2] [dBF]>e | "Fdim"[e2^G2F2] "F"[=c4A4F4] [d2A2F2] | "G7"[c2F2D2] [=B4F4D4] [G2F2D2] | "C7"[c4_B4E4C4] z CDE "B3"|
+w: kapp-sim-ma \"o-ver Bis-cay-a f\"or att se dig le. Deg lig-ger
+%
+F2 F>G [A2F2] [AF]>[cA] | [A2-F2] [A2-E2] [AD] CDE | F2 F>G [A2F2] [AF]>[cA] | [BE]G E2- E "I"[|]CCD |
+w: k\"ar-lek i luf-ten i kv\"all__ n\"ar du mig h\"or skall du bara (vissling)_____ med sam-ma
+%
+[E2C2B,2] E>F [G2E2] [GE]>c | [BE]G E2- E>c [cBE]>d | [c2B2E2] [cBE]>d [cE]>[BG] [AE]>G | [F4C4A,4] [f2c2A2F2] z2 |]
+w: lock-to-ner sva-ra (vissling)____ Det \"ar s\aa vack-ert med stj\"ar-norr-na i kv\"all.*

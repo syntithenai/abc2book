@@ -1,0 +1,23 @@
+X: 353
+T: Miss Haldane's Jigg
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.35#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: G
+V: 1
+D |\
+~G3 Bcd | ecA dBG | ~E3 ABc | AFD D2F |\
+{A}GFG Bcd | efg gfe | dcB cAd | BGG G2 :|
+|: c |\
+Bcd edc | ABc dcB | EFG ABc | BAG AFD |\
+Bcd gfe | dcB ABc | BGB AFD | G3 G2 :|
+V: 2 clef=bass middle=d
+z |\
+g3 g3 | c3 B3 | c3 ^c3 | d3 D3 |\
+g3 G3 | c3 ^c3 | d3 d3 | g3 G2 :|
+|: z |\
+g3 g3 | f3 g3 | c3 d3 | g3 d3 |\
+g3 c3 | B3 d3 | g3 d3 | G3 G2 :|

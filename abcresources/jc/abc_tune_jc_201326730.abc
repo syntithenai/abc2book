@@ -1,0 +1,32 @@
+X: 1
+T: the Pump Room
+P: Longways for as many as will
+%R: march, reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.21
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c2 |\
+F2F2 F2F2 | (c2A2) f4 | F2F2 A2GF | EFG2 G4 |\
+F2F2 F2F2 | (c2A2) fedc | =Bcd2 G2=B2 | c6 :|
+|: g2 |\
+c2c2 c2c2 | g2e2 b4 | cdef g2a2 | g2c2 c2f2 |\
+d2c2 f2B2 | B2A2 d2F2 | EFG2 C2E2 | F6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+f2F2 A2F2 | f4 a2f2 | a4 f4 | c2d2 e2c2 |\
+f2F2 A2F2 | f4 a2f2 | g4 G4 | c6 :|
+|: z2 |\
+c'2c2 e2c2 | c2c2 c2c2 | e2c2 e2f2 | e2g2 c'2a2 |\
+b2a2 d'4 | d'2c'2 b2ab | c'4 c4 | f2c2 F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. cast off one Cu. and then another Cu. lead up the middle and set and
+%% cast off into the 2d Cu. Place. lead your Partner down and then up and turn your
+%% Partner with both hands, then lead thro' the bottom and top and turn.
+%%endtext

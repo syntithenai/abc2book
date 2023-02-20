@@ -1,0 +1,29 @@
+X:1
+T:Mrs. Farquharson of Monaltrie's Delight
+C:Robert Petrie
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick <sjwyrick'at'gmail.com>, 3/5/04
+N:Petrie's First Collection, page 1
+L:1/8
+M:C
+K:Eb
+"^Slow"
+E   |~C>ECG,        C(cGE)     | B,(D/E/)    FD          .B.F.D.B,     |\
+     ~C>ECG,        C(ecG)     | F(G/A/)    (G/F/)(E/D/) .ECC         :|
+c/d/|(e/d/)c (Gc)  (Ec) (Gc)   | B/c/d/e/   (fd) (bf)    {e}(d{c}B)    |\
+     (e/d/)c (Gc)  (Ec) (Gc)   |=B<aTg>f                  ecTc>d       |
+     (e/d/)c (G>c) (E>c)(G>c)  |(B/c/d/e/)  (fd)         (bf){e}(d{c}B)|\
+     (Tg>e)(Tf>d) (Te>c)(Td>=B)| cA         (G/F/)(E/D/)  ECC         ||
+"^Var:"
+E   |~C>E              (=B,/<C/)G,     C=B/<c/             (^F/<G/)(D/<E/)   |\
+    (=A,/<B,/)(D/<E/)  (G/<F/)(E/<D/) (=A/<B/)(=E/<F/)     (^C/<D/)(=A,/<B,/)|
+     ~C>E              (=B,/<C/)G,     C(d/<e/)            (B/<c/)(^F/<G/)   |\
+    (=E/<F/)(G/<A/)    (TG/>F/)(T_E/>D/)                    ECC             :|
+c/d/|{f}e(d/<c/)        G/c/(Tc/=B/4c/4) E/c/ (Tc/=B/4c/4)  G/c/ (Tc/=B/4c/4)|\
+     (B/c/d/e/)        (g/<f/)(e/<d/) (=a/<b/)(=e/<f/)     (^c/<d/)(=A/<B/)  |
+     (f/<e/)(d/<c/)     G/c/ Tc/(=B/4c/4) E/c/ (Tc/=B/4c/4) G/c/ (Tc/=B/4c/4)|\
+     (.=B/.d/.f/.a/    .g/.f/.e/.d/)   ecTc>d                                |
+     (f/<e/)(d/<c/)     G/c/(Tc/=B/4c/4) E/c/ (Tc/=B/4c/4)  G/c/ (Tc/=B/4c/4)|\
+     (.B/.c/.d/.e/     .g/.f/.e/.d/    .b/.=a/.g/.f/       .e/.d/.c/.B/)     |
+     (.a/.g/.f/.e/     .g/.f/.e/.d/    .f/.e/.d/.c/        .e/.d/.c/=B/)     |\
+     Tc/=B/c/A/        TG/F/TE/D/      ECCz                                 |]

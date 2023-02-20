@@ -1,0 +1,27 @@
+X: 31512
+T: COTILLION No. 37. LUCY LONG SETT tune 5
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.151 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G, |\
+G,B,D GBd | gfe dBG | AGA BAG | EDD D2A, |\
+A,B,D GBd | gfe dBG | AGA BAB | E2F G2 H|]
+d |\
+g2d g2d | gab g2d | e2d e2d | fga f2d |\
+g2d g2d | gab g2d | gfe dBd | b2a "^D.C."g2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First couple lead to the right,
+%% balance,
+%% swing round with that couple,
+%% lead up to the next couple,
+%% &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

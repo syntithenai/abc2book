@@ -1,0 +1,44 @@
+%%topmargin 1.5cm
+X:1
+%%musicspace 1.0cm
+T:Magnificat secundi toni
+C:T.L. de Victoria (1548-1611)
+L:1/1
+M:none
+K:GDorian
+%%indent 7.5cm
+%%staffwidth 12cm
+V:Choral clef=treble8
+F GFB B B2 ||
+w: Ma-gni - * fi-cat
+
+%%topspace -1.5cm
+X:2
+L:1/4
+M:C|
+K:F
+%%indent 2cm
+%%sysstaffsep 30pt
+%%systemsep 100pt
+V:S clef=treble name=Soprano bracket=4
+V:A clef=treble8 name=Alto
+V:T clef=treble8 name=Tenore
+V:B clef=bass name=Basso
+%
+[V:S] z4 | z4 | z4 | z4 |
+w:
+[V:A] B2 BB | G/A/B/c/ d G | B/c/d/B/ c/B/A/G/ | A B A A |
+w:  a-ni-ma me**- * a Do*** -*** *-* mi-
+[V:T] z2 B2 | BB B2- | B2 A2 | F G2 ^F |
+w:  a-ni-ma me - a Do - mi-
+[V:B] z4 | z4 | z4 | z4 |
+w:
+%
+[V:S] z2 B2 | BB B2- | B2 A2 | F G2 ^F | G4 |]
+w: a-ni-ma me - a Do - mi-num
+[V:A] G4 | z d d d | B/c/d/e/ f e | d3 A | =B4 |]
+w:  num. a-ni-ma me**- * a Do-mi-num.
+[V:T] G/A/B/c/ B d | d d B/A/B/c/ | d3 c | B2 A2 | G4 |]
+w:  num.**** a-ni-ma me**- * a Do-mi-num.
+[V:B] z4 | B2 BB | G/A/B/c/ d A | B>c d d | G4 |]
+w:  a-ni-ma me**- * a Do -* mi-num.

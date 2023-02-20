@@ -1,0 +1,25 @@
+X: 4343
+T: Mrs Carmichael of Skirling's    Strathspey
+C: by Niel Gow
+%R: strathspey
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.34 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow"
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+(A,<D)D>F TE>DEF | (A,<D)D>F (TE/D/E/)F/ B2 |\
+TB>d (B/A/)G/F/ (G/F/)E/D/ TEF | (A,<D) D>F (TE/D/)E/F/ D2 :|\
+(A<d)d>f Te>def | (A<d)d>f Te>fd2 |
+TB>d (B/A/)G/F/ (G/F/)E/D/ EF | (A,<D) DF TE>F D2 ||\
+(A<d)d>f Te>def | (A<d)d>f Te>f dA |\
+(B/A/B/).d/ (B/A/).G/.F/ (G/F/).E/.D/ EF | (A,<D) D>F (TE/D/)E/F/ D2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+d2D2 a2A2 | d2f2 a2g2- | g2fd efga | f2d2 a2f2 :| d2d'2 a2A2 | d2d'2 a2fd |
+gd fd ef ga | f2d2 a2f2 || d2d2 a2A2 | d2d'2 c'a bf | g2fd ef ga | f2d2 a2f2 |]

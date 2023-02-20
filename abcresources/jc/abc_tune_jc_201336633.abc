@@ -1,0 +1,26 @@
+X:3
+T:Shingly Beach
+C:Tom Anderson
+M:4/4
+L:1/8
+Q:1/4=120
+K:G
+V:1 D | G4 c4    | Bd cA F2 D2 | G2 Bd E2 Ac | D2 FA C2 FA |
+V:2 D | G4 G2 F2 | GB AF D2 C2 | B,4   C4    | D4    A,4   |
+V:3 z | G4 D4    | G4    D4    | G4    C4    | D4    D4    |
+%
+V:1 G4 c4    | B2 AG A2 D2 | G2 B2 E2 A2 |[1 D2 GF G3 :|[2 D2 GF G4 ||
+V:2 D4 G2 F2 | G2 D2 F2 C2 | B,4   C4    |[1 D2 D2 G3 :|[2 D2 D2 G4 ||
+V:3 G4 D4    | G4    D4    | G4    C4    |[1 D2 F2 G3 :|[2 D2 F2 G4 ||
+%
+V:1 d2 cB c2 f2 | g2 dB c2 d2 | B2 d2 A2 c2 | B2 AG  A2 c2 | d2 cB c2 f2 |
+V:2 B2 AG A2 d2 | d2 BG A2 A2 | G2 F2 E2 E2 | D2 CB, C2 D2 | B2 AG A2 d2 |
+V:3 G4    D4    | G4    D4    | G4    C4    | D4     D4    | G4    D4    |
+%
+V:1 g2 dB c2 d2 | cB AG E2 A2 | D2 GF G3 e | d2 cB c2 f2 | g2 dB c2 d2 |
+V:2 d2 BG FE DF | G4    C4    | D2 F2 G3 c | B2 AG A2 dc | BA G2 A2 A2 |
+V:3 G4    D4    | G4    C4    | D2 F2 G4   | G4    D4    | G4    D4    |
+%
+V:1 B2 d2 A2 c2 | B2 AG A2 D2 | G4 c4   | Bd cA F2 D2 | G2 B2 E2 A2| D2 GF G4 |]
+V:2 G2 F2 E2 E2 | D2 FE D2 C2 | D4 G2 F2| GB AF D2 C2 | B,4   C4   | D2 GF G4 |]
+V:3 G4    C4    | D4    F4    | G4 D4   | G4    D4    | G4    C4   | D2 F2 G4 |]

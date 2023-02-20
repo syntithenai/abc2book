@@ -1,0 +1,27 @@
+X: 03
+T: Lord Duncan's Reel
+%R: reel
+B: Thompson "A Favourite Collection of Country Dances 1800", p.3
+F: https://deriv.nls.uk/dcn23/1205/2168/120521683.23.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for a US-letter/A4 page size.
+V: 1
+|: FEFA cAAc | FcAc G/G/G G2 | FAAc fcgc | abga f/f/f f2 :|
+|: fdcA FcAc | fdcA G/G/G G2 | fgaf cfcA | TG>FG>A F/F/F F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|: f2f2 f2f2 | F2F2 c2c2 | f2f2 f2e2 | f2c2 f2F2 :|
+|: f2f2 f2f2 | F2F2 c2c2 | f2f2 f2f2 | c2c2 F2F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Cast off 2 Cu .|
+%% up again .|. 
+%% lead down the middle & up again .|
+%% cast off set corners & turn, lead outsides.
+%%endtext
+%%sep 2 2 400

@@ -1,0 +1,41 @@
+X: 21361
+T: the MORN RETURNS IN SAFFRON DREST
+T: From the opera of "Rosina." Arranged as a duet.
+C: Stephen Paxton.
+Q: "Plaintive and slow."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.136 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: What does the "sym." annotation mean in bar 16?
+M: C
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 is formatted as 2 9-bar staffs, compact for proofreading.
+V: 1 staves=2
+Re2 |\
+e2(cd e2)a2 | (e<c)(B>c) A2(de) |\
+f3e (ed)(dc) | (cB)(BA) {A}^G3e |\
+e2(cd) e2a2 | (e<c)(B>c) A2(de) |\
+(fd)(gc) (ed)(cB) | c4 z2e2 |
+e2(cd e2) e2 | (dc)(Bc) d2f2 |\
+e2(dc) B2A2 | {A}^G4 z2e2 |\
+e2(cd) e2a2 | (dc)(Bc) d2f2 |\
+e2(dc) (c2B)>A | A4 "^sym."f4 |\
+e2(dc) (c2B)>A | A4 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout.
+V: 2
+c2 |\
+c2(AB c2)(ed) | c<B^G2 A2A2 |\
+A2A2 ^G2(Ae) | (ed)(dc) {c}B3c |\
+c2(AB c2)(ed) | c<A^G2 A2(Ac) |
+B2cE (GF)(ED) | E4 z2E2 |\
+G2(EF) G2c2 | (BA)(GA) B2d2 |\
+c2(BA) d2c2 | B4 z2c2 |\
+c2(AB) c2c2 |
+(BA)(^GA) B2d2 |\
+c2(BA) A2^G>A | A4 "^sf"d4 |\
+c2(BA) A2^G>A | A4 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

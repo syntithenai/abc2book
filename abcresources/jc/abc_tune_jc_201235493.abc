@@ -1,0 +1,44 @@
+X: 21138
+T: Cotillion (From the Opera of La Somnambula) (tune 2)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.118 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Version 2 for ABC software that understands voice overlays.
+N: Bar 4 is short a 16th-note; fixed by lengthening the rest.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="2"
+BB |\
+B2A B/z/ d<c | B2A B/z/ d<c | A2^G Azc | B3 Gz G/A/ |\
+B2A B/z/ (d<c) | B2A B/z/ (d<c) | A2^G A/z/ c<B | G3 z H|]
+B"Clarionet solo"c |\
+d2d d>ed | ^c2A A2A | c>Bc e>dc | B3 zG<A |\
+d2c d/z/ (d<c) | B2A B/z/ (d<c) | A2^G A/z/ c<B | G3 "^D.C."z |]
+zd |{d}\
+[dB3]ef [gB2]a[bd] |\
+[dB3]ef [gB2]a[bd] |\
+[d'c2]c'[bB] [ac2]g[ad] |\
+[c'B3-]bg [a2B2]d |\
+[dB3]ef [gB2]a[bd] |\
+[dB3]ef [gB2]a[bd] |\
+[d'c2]c'[bB] [ac2]^g[ad] |\
+[g2B2][gB] "^D.C."[g2B2] |]
+e2e |\
+d>cB e2e | d>cB (c2e) | (d2B) (c2A) | B2z e2e |\
+d>cB e2e | d>cB c2e | d2B c2A | G3 "^D.C."z |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% grand right and left,
+%% all balance,
+%% next two forward, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

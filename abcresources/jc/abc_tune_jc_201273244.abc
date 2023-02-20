@@ -1,0 +1,29 @@
+X: 1
+T: Erets zavat chalav
+C: E.Gamliel
+O: Deuteronomy 27:3
+W: * clap
+W:
+W: A land flowing with milk and honey.
+N: May be sung as a 2-part round
+M: C
+L: 1/8
+K: Dm
+"I"
+[| "Dm"D2 DC CD D2 | "*"z2 "*"D "C"ED/C/ "Dm"D2 \
+|  "Dm"D2 DC CD D2 | "*"z2 "*"D "C"ED/C/ "Dm"D2 |
+w:	E-rets za-vat cha-lav cha-lav u-d'-vash \
+	e-rets za-vat cha-lav cha-lav u-d'-vash
+| "Gm"G2 AF "Dm"FF F2 | "*"z2 "*"zF "A7"GF/E/ "Dm"F2 \
+| "Gm"G2 AF "Dm"FF F2 | "*"z2 "*"zA "A7"GF/E/ "Dm"D2 ||
+w:	E-rets za-vat cha-lav cha-lav u-d'-vash \
+	e-rets za-vat cha-lav cha-lav u-d'-vash
+"II"
+||"Dm"(d3 c)  d2 A2 | "Gm"(GF) G2 "Dm"F4 \
+| "Dm"(d3 c)  d2 A2 | "Gm"(GF) AG "Dm"F4 |
+w:	E-*rets za-vat* cha-lav \
+	za-*vat cha-lav* u-d'-vash
+| "F"(c3 B) A2 c2 | "Am"(ed) (ec) "Dm"d4 \
+| "F"(c3 B) A2 c2 | "Am"(ed)  ec  "Dm"d4 |]
+w:	E-*rets za-vat* cha-*lav \
+	za-*vat cha-lav* u-d'-vash

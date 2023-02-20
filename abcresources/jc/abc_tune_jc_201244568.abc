@@ -1,0 +1,1371 @@
+
+X: 000
+T: The Airs and Melodies Peculiar to the Highlands of Scotland and the Isles
+T: Captain S. Fraser (1773-1852) of Knockie's Collection of Highland Music
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" 1816, 1874
+S: https://imslp.org/wiki/The_Airs_and_Melodies_Peculiar_to_the_Highlands_of_Scotland_and_the_Isles_(Fraser%2C_Simon)
+S: archive.org file IMSLP333182-PMLP429041-airsmelodiespecu00fras.pdf
+N: 1816 edition published by Walker & Anderson, Edinburgh
+N: 1874 editition published by H. Mackenzie, Inverness
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+K: none
+% = = = = = = = = = =
+%%center THE
+%%center Airs and Melodies
+%%center Peculiar to the
+%%center HIGHLANDS of Scotland and THE ISLES
+%%center communicated in an
+%%center ORIGINAL PLEASING & FAMILIAR STYLE,
+%%center Having
+%%center THE LIVELY AIRS INTRODUCES AS MEDLEYS
+%%center TO FORM A SEQUENCE TO EACH SLOW MOVEMENT
+%%center With
+%%center AN ADMIRED PLAIN HARMONY,
+%%center for the
+%%center PIANO FORTE, HARP, ORGAN, or VIOLONCELLO
+%%center Intended rather to preserve simplicity; than load with Embellishment;
+%%center EDITED
+%%center by
+%%center Capt.n S.Fraser.
+%%center and
+%%center Chiefly acquired, during the interesting Period from 1710 to 1745,
+%%center through the Authentic Source narrated in the
+%%center Accompanying Prospectus
+%%center EDINBURGH
+
+%%sep 2 2 500
+%%sep 2 2 500
+
+
+X: 001
+T: The Languer of Love.
+T: Tha' mi tinn leis a Ghoal.
+R: air
+N: This is version 1, for ABC software that doesn't understand voice overlays or diminuendo symbolx.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.11 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow & Tender"
+K: D
+% = = = = = = = = = =
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+[|\
+D2F[AD] [d4F4] | !p!(c2"^cres."d2) [B4G4] | A2(Bc) d3e | "_>"d3c ("_>"B2A)z |\
+!f!~F3G A2g2 | {d}f3e Hd2 zD | !p!~F3G {FG}A3F | "_dim. . ."(G2F2) (E2D2) |
+!p!D2FA d4 | (c2d2) [B4G4] | A2(Bc) d3e | "_>"d3c ("_>"B2A)z |\
+!f!~F3G A2g2 | {d}f3e Hd2 zD | !p!~F3G {FG}A3F | ">dim. . ."(G2F2) (E2D2) |]
+[|\
+!p!{d}f3"_cres."e d3f | (c2d2) [B4G4] | {d}f3e d3f | "_>"d3c ("_>"B2A)z |\
+~F3G A2(ag) | f3e Hd2 zD | ~F3(G {FG}A3)F | "_dim. . ."(G2F2) (E2D2) |
+!f!{g}f3e d3f | (c2d2) [B4G4] | f3e d4 | c2(c3/d//e//) d2Dz |\
+!p!~F3G A2g2 | "_retard."((3.f.g.a (3.g.f.e) Hd4 | {DEFGABc}!f!d3B A3F | "_dim. . ."(G2F2) (E2D2) |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+[|\
+d3c B3b | !p!(a2"_cres."f2) g2G2 | f3e d2g2 | "^>"f2a2 "^>"[g2d2]fz |\
+!f! D2de f2e2 | e2A2 HB2z2 | !p!a2g2 f2d2 | "_dim. . ."gba2 A2d2 |
+!p!d3c B2b2 | a2f2 g2G2 | f2ge d2g2 | "_>"f2a2 "_>"[g2d2]fz |\
+!f!D2de f2e2 | d2A2 HB2z2 | !p!a2g2 f2d2 | "dim. . ."b2a2 g2f2 |]
+[|\
+!p!d2"^cres."e2 f2d2 | e2f2 g2G2 | c'2c'2 b2z2 | "^>"[b2d2-][a2d2] "^>"g2fz |\
+d2e2 f2c2 | d2A2 HB2z2 | a2g2 f2e2 | "_dim. . ."bga2 A2d2 |
+!f!d'2c'2 b2z2 | a2f2 g2G2 | d'2c'2 b2B2 | a2A2 d2z2 |\
+!p!d'2c'b a2c2 | "^retard."d2A2 HB4 | !f!f2g2 f2a2 | "dim. . ."b2a2 g2f2 :|
+
+
+X: 001
+T: The Languer of Love.
+T: Tha' mi tinn leis a Ghoal.
+R: air
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.11 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow & Tender"
+K: D
+% = = = = = = = = = =
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+[|\
+D2F[AD] [d4F4] | !p!(c2"^cres."d2) [B4G4] | A2(Bc) d3e | "_>"d3c ("_>"B2A)z |\
+!f!~F3G A2g2 | {d}f3e Td2 zD | !p!~F3G {FG}A3F | "_dim. . ."(G2F2) (E2D2) |
+!p!D2FA d4 | (c2d2) [B4G4] | A2(Bc) d3e | "_>"d3c ("_>"B2A)z |\
+!f!~F3G A2g2 | {d}f3e Hd2 zD | !p!~F3G {FG}A3F | ">dim. . ."(G2F2) (E2D2) |]
+[|\
+!p!{d}f3"_cres."e d3f | (c2d2) [B4G4] | {d}f3e d3f | "_>"d3c ("_>"B2A)z |\
+~F3G A2(ag) | f3e Hd2 zD | ~F3(G {FG}A3)F | "_dim. . ."(G2F2) (E2D2) |
+!f!{g}f3e d3f | (c2d2) [B4G4] | f3e d4 | c2(c3/d//e//) d2Dz |\
+!p!~F3G A2g2 | ((3.f.g.a (3.g.f.e) Hd4 | {DEFGABc}!f!d3B A3F | "_dim. . ."(G2F2) (E2D2) |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+[|\
+d3c B3b | !p!(a2"_cres."f2) g2G2 | f3e d2g2 | "^>"f2a2 "^>"[g2d2]fz |\
+!f! D2de f2e2 | e2A2 HB2z2 | !p!a2g2 f2d2 | "_dim. . ."gba2 A2d2 |
+!p!d3c B2b2 | a2f2 g2G2 | f2ge d2g2 | "_>"f2a2 "_>"[g2d2]fz |\
+!f!D2de f2e2 | d2A2 TB2z2 | !p!a2g2 f2d2 | "dim. . ."b2a2 g2f2 |]
+[|\
+!p!d2"^cres."e2 f2d2 | e2f2 g2G2 | c'2c'2 b2z2 | "^>"[b2d2-][a2d2] "^>"g2fz |\
+d2e2 f2c2 | d2A2 HB2z2 | a2g2 f2e2 | "_dim. . ."bga2 A2d2 |
+!f!d'2c'2 b2z2 | a2f2 g2G2 | d'2c'2 b2B2 | a2A2 d2z2 |\
+!p!d'2c'b a2c2 | "^retard."d2A2 HB4 | !f!f2g2 f2a2 | "dim. . ."b2a2 g2f2 :|
+
+%%newpage
+
+
+X: 197
+T: Cease not to row, brave Boys
+R: jig
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" 1816 p.92 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Moderate"
+K: C	% ending on Am
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for 3 8-bar lines, for compactness and proofreading.
+V: 1 staves=2
+E |:\
+CEE TE2G | (EG).F EDC | "_cres"CE.E TE2c | TB>A^G A2c ||\
+!p!CE.E TE2G | (EG)F EDC | "_cres"CEE EcHe | {f}dcB A2c :||:
+c>eg ceg | (c/B/c/d/)e/f/ gec | cec' (a/g/)f/e/d/c/ | de.g ~a2c' ||\
+c>eg ceg | (Tc/B/c/d/e/f/) gec | (f/e/)d/c/B/A/ {A}GF/E/D/C/ | DEG A2e ||
+c>eg ceg | (Tc/B/c/d/)e/f/ gec | cec' (a/g/)f/e/d/c/ | deg ~a2c' ||\
+"_Exp."ceg (e<c)e | (d<B)d c>d{cd}He | !pp!(CE)"_retard"E (EA)c | TB>A^G A2c |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |:\
+C2c C2c | C2B cde | c2c C2c | d2e A3 || C2c C2c | C2B cde |
+c2c C2Hc | d2e a3 :||: c2c' c2c' | c2c' c2c' | c2c' f2a | g2e f3 ||
+c2c' c2c' | c2c' c2c' | d2f- f2a | g2e f2z || c2c' c2c' | c2c' c2c' |
+c2c' f2a | g2e f3 || c2c' ceg | g2^g abc' | c2c' c2c' | e2E A3 |]
+% = = = = = = = = = =
+
+
+X: 198
+T: The Recollection of that day
+T: O chiadain an Io
+R: air
+N: This is version 1, for ABC software that doesn't understand cres/diminuendo symbols or trailing grace notes.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" 1816 p.92 # 2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat, but no final repeat symbol; not fixed.
+M: 3/4
+L: 1/8
+Q: "Slow"
+K: C
+% %slurgraces yes
+% %graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for 2 9,10-bar lines, for compactness and proofreading.
+V: 1 staves=2
+|:\
+!p!e2 ([g4e4] | a)c/B/ [c4E4] | "_cres"{cd}e4 d>e | {e}gc/A/ A4 |\
+!f!{ed}"_dim"c2 [c4E4] | {cd}e>G G3 E | [EC]>[DB,] [D4B,4] |\
+{e}g>e [c3E3] "_> . ."(A/G/) | (A>G) G3 "_> . ."(E/G/) | "_> . . ."TD2 {CD} C4 ::
+!p! G4 (A>G) | A>c [c4E4] |!f! {cd}"_dim"e3 d (c/B/)(A/G/) | "_< . . ."A>c [c4E4] |\
+!f!{cd}"_dim"e3 d (e/d/)(A/G/) | "_< . . ."(A>c) [c4E4] |\
+!pp!e2 "_> . ."Hg4 | !f!a>"_dim"c "_> . . ."Td4 {cd}y| [c4E4] |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+c2 e2 g2 | f2 e2 c2 | c2 e2 g2 | c'2 f4 | [c2c'2] [c2c'2] [c2c'2] | c2 e2 c2 | g2 G4 |
+z2 c2 e2 | f2 e4 | g2 c4 :: c2 c'2 c2 | [f2c'2] c2 c'2 | c2 d2 e2 |
+ f2 e2 c2 | g2 f2 e2 | f2 e2 c2 | [C2c2] H[c4c'4] | f2 g2 G2 y| c4 |]
+% = = = = = = = = = =
+
+
+X: 199
+T: The Dirge of Mull
+T: An cronan Muillach
+R: air
+N: This is version 1, for ABC software that doesn't understand cres/diminuendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" 1816 p.93 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow & Plaintive"
+K: Am
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+|:\
+A4 {A}^G2E2 | !p!{E}c4 {Bc}d2B2 | "_cres"c3d e4 | e2d2 "_> . ."(d2c2) ||\
+"_< . ."c3d "_< . . "e3g | e2A2 {A}^G2E2 | !p!A4 "_< . ."^G3B | "_> . . . "(c3d/c/) (B2A2) :|
+|:\
+!p!A3B e4 | A4 "_> . ."{A}^G2E2 | "_< . ." A3B "_< . ."e3g | (c3d/c/) HB2z2 ||\
+"_cres"A3B e4 | A4 {A}^G2E2 | "_Exp"e3^d e2^G2 | "_> . . ."(A3(3^G/A/B/) A4 :|
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+z2a2 e4 | !p!z2a2 ^g2e2 | "_cres"a2b2 c'4 | c'2b2 b2a2 || e3d c2z2 | abc'd' e'2z2 | !p!c2c'2 b2e2 | abc'd' e'2a2 :|
+|:\
+!p!z4 A2B2 | c2d2 e4 | z4 A2B2 | c2d2 He2E2 || "_cres"z4 A2B2 | c2d2 e4 | "_Exp"c2B2 cde2 | a2e2 A4 :|
+% = = = = = = = = = =
+
+
+X: 200
+T: Where are your Gods and mighty hopes
+T: Cia iad ar Dee s'ar duile treun
+R: lament, air, strathspey
+N: This is version 1, for ABC software that doesn't understand cres/diminuendo symbols or trailing grace notes.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" 1816 p.93 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat symbol; not fixed.
+N: Several bars are missing a beat in both voices; not fixed.
+M: C
+L: 1/8
+Q: "Pompously Slow"
+K: Am	% ending on C major
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+E |\
+A>B(A^G) !p!TA>=GEG | TE>^DE^G {G}A2(A>c) |\
+"_cres"AGGB (Tc>B)cd | {c}e>dc>d{c}e2e>g ||\
+"_>"f>d"_>"e>c "_>"Td>c "dim..."{c}He2 (d//c//B//A//) |
+"_cres"G>E {B,}D>E {^F}G2 z(E//D//E//F//)!p! |\
+"_Exp"GEDC {E}c>d {cd}He z/c/ | "dim..."d>c {B}A(d/B/ c) :: !p!E |\
+A>B {AB}c>A c>GEG | TE>^DE^G {G}A2A>c |\
+"_cres"AGGB Tc>Bcd |
+Te>deg {^g}a3"dim..."z (a//g//a//b//) ||\
+!f!{ab}"_dim"c'>ag>e d>c "dim..."{c}He2 (d//c//B//A//) | "_cres"(GE){B,}DE {^F}[G2B,2] z(E//D//E//F//)!p!y |\
+"_Exp"GEDC c>d {cd}He z/c/ | "_>"d>c "cres..."ATB {ABd}[c2E2] |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+a2e2 !p!c2c'2 | c2B2 A2a2 | c'3g e3d | e2gG c2c'2 || b2c'2 g2Hc2 y|
+c2g2 b2z2 | c'2g2 edHc2 | g2f2 [ec] :: !p!z | a2e2 c2c'2 | c2B2 A2a2 | c'3f edcB |
+c2c'2 f3zy ||!f! afec G2Hc2 y| [g2c2]Bc G2z2!p!y | c'2g2 edc2 | g2fg c2 |]
+% = = = = = = = = = =
+
+
+X: 201
+T: My Love is gone to Sea
+T: Cha mo leannan nun' thar sal
+R: jig
+N: This is version 1, for ABC software that doesn't understand dim/crescendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" 1816 p.93 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Moderate but Expressive."
+K: C	% ending on Am
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+|:\
+c2G E<Gz | {A}G2E {E}D3 | E<Gz !p!A<cz | B2G E3 ||\
+"_cres"c2d {cd}e2A | {A}G2E D3 | !p!E<Gz A<cz | "_> . . ."TB2^G [A3E3C3] :|\
+!p!{E}c2c {Bc}d2c | TB2A "_<"d2e | "_< . . ."c2d e2e | "_< . . ."f2d e2e ||
+"_cres"c2c {Bc}d2c | TB2A e2g | "_Exp"e2G E<Ez | "_< . . ."c2d {cd}He3 |[|\
+!p!c2G E<Az | G2E D3 | "<"E<Gz "<"A<cz | B2G E3 ||\
+"_cres"c2d {cd}e2A | {A}G2E D3 | !p!E<Gz A<cz | B2^G "_< . . ."[A3E3C3] |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+c2c' c2z | c2c' g3 | c2z f2z | G2B c3 ||\
+e2g c'2f | e2c g3 | !p!c2z f2z | e2E A3 :|\
+!p!c'3 f2^f | g2z b2z | c'2b c'2c' | d'2b c'2c' ||
+e'2c' b2a | g2f e3 | c3 C2z | e2g Hc'3 |[|\
+!p!c2c' c2z | c2c' g3 | c2z f2z | G2B c3 ||\
+e2b c'2f | e2c g3 | !p!c2z f2z | e2E A3 |]
+% = = = = = = = = = =
+
+
+X: 202
+T: Prince Charles's last view of Scotland
+T: An Sealladh mo dheireadh do Thearlach
+R: air, jig
+N: This is version 1, for ABC software that doesn't understand cresc/diminuendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" 1816 p.94 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slow & Tender."
+K: Gm
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+(G/A/) !segno!|:\
+~B>cB {B}!p!A2(G/^F/) | G<DB =FDB, | "_cres"B>cB A2(G/^F/) | "_cresc . . ."(GA)c "_>"{^c}d2D ||\
+!p!~B>cB A2(G/^F/) | G<DB (=FD) (B,/C/) | !pp!(D>^C)D {A,}B,2A, | G,(G^F) {A}HG2 :|
+D |\
+!p!B>AG A^FD | "_cresc . . ."B>cd (G^F).D | "_cres"B>AG c>BA | {^c}d2^F HG2z/D/ ||\
+!f![B3D3] [c3A3E3] | (Td>^c)d H[g2e2B2G2]"_dim"(a/b/) | {e}dcB {d}cBA | (TG/"_cresc . . ."^F/)(G/A/)(B/c/) {^c}Hd2D !segno! |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z !segno!|:\
+G2g !p!d'2c' | b2g b2B | "_cres"G2g d2d' | e2e' [d'3d3] || !p!G2g d2d' | b2g d2z | !pp!B2A G2^F | G2d Hg2 :| z |
+!p!gab c'3 | gab [bd][ad]z | "_cres"g2b a2c' | d'2d Hg2z || !f!GBd Acf | B2b He2"_dim"z | bag ag^f | e2e Hd2 z !segno!|]
+% = = = = = = = = = =
+
+
+X: 203
+T: Weavers Triumph
+T: Tha bhuaidh aig on fhioghdair
+R: jig
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" 1816 p.94 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The book has the first note of every beat in the bass part doubled an octave higher; not transcribed here.
+N: The 2nd strain has a final repeat but no initial repeat; not fixed.
+M: 6/8
+L: 1/8
+Q: "Dance & Song."
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for 3 8-bar lines, for compactness and proofreading.
+V: 1 staves=2
+d !segno!|:\
+TB2F- FDF | FDF FDF | ~F2G B2c | d2f edc || TB2G- G^FG G^FG G^FG | ~G2A B2c | d2f edc :|
+{fga}b2B Tf2e | d2B fdB | {fga}b2B Tf2e | d2B fdB || {ga}b2c Tg2c | {d}e2c gec | {ga}b2c Tg2c | {d}e2c gec ||
+{fa}b2B Tf2e | Td2B fdB | {ga}b2B Tf2e | d2B fdB || bag fed | edc dcB | BAG FED | d2f edc !segno!:|
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z !segno!|:\
+Bdf Bdf | Bdf Bdf | Bdf Bdf | Bdf Acf || Beg Beg | Beg Beg | Bdf Bdf | Bdf Acf :|
+Bfb Bfb | Bfb Bfb | Bfb Bfb | Bfb Bfb || ceg ceg | ceg ceg | ceg ceg | ceg ceg || Bfb Bfb |
+Bfb Bfb | Bfb Bfb | Bfb Bfb || Beg Bdf | Acf Bdf | Beg Bdf | B3 fga :|
+% = = = = = = = = = =
+%%begintext align
+%%endtext
+
+
+X: 204
+T: Cheerful Mary
+T: Mari ghreannar
+R: jig
+N: This is version 1, for ABC software that doesn't understand crescendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" 1816 p.94 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The repeat symbols used with the alternate endings were a bit garbled, and can't be made top
+N: with modern repeat notation, so I transcribed "the usual" interpretation of the two endings.
+M: 6/8
+L: 1/8
+Q: "Moderate."
+K: Bb   % ending on Gm
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 formatted for 2 10-bar lines, for compactness and proofreading.
+V: 1 staves=2
+B |\
+!p!{DE}F2D F2G | B2B ~B2c | "_cres"d2f {d}c2A | TB2A G2B ||\
+!p!{DE}F2D F2A | TB2F D2F | "_< . . ."E2^C D2^F | {^F}[G3D3B,3] [G2D2B,2] :|\
+!p!B | B,2B TB2A | B2B ~B2c |
+"_cres"d2f {d}c2A | TB2A G2g |\
+[1 !f!f2"_dim"e d2c | TB2F D2F | "_< . . ." D2^C D2^F | {^F}G3 G2 :|\
+[2 {g^fga}"_f dim"b2a g2=f | d2c B2F | "_< . . ."(D2^C) D2^F | [G3D3B,3] [G2D2B,2] |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |!p! B2b B2b | B2b B2b | "_cres"[b3B3] [f3F3] | g2f e3 ||\
+!p! [b3B3] [b3B3] | [b3d3] [b3f3] | B3 d2D | [g3G3] [g2G2] :|\
+z | B2b B2b | B2b B2f |
+"_cres"[b3B3] [f3F3] | g2f e3 |\
+[1 !f!d2"_dim"c B2c | d3 B3 | d3 D3 | G3 g2 :|\
+[2 "_f dim"d2f e2d | B3 b3 | d3 D3 | [g3G3] [g2G2] |]
+% = = = = = = = = = =
+
+
+X: 205
+T: A Lady to her Husband killed in Culloden
+T: Mo Run geal og
+R: air, slip-jig
+N: This is version 1, for ABC software that doesn't understand diminuendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.95 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat symbol; not fixed.
+N: An 8th-note is missing in both strains' final bars; fixed by adding 8th-rests at ends.
+N: Note the 9-bar phrases.
+N: What do the "Cho.s _ _ _" markings mean?
+M: 9/8
+L: 1/8
+Q: "Slow & Plaintive."
+K: Gm
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+|:\
+!p!B2c (Td>cd) B2F | {D}F2F (Td>cd) d2f |!f!\
+"_dim"g3 (Tg>^fg) {g}=f2e | (Td>cd) gdc B2G |!p!\
+{D}"_cres"F2G B>cB g2f | {ga}b2a gGG TG2F |
+!pp!{d}e3 (d>cd) Hg2=e | {e}"_>..."f2d (Tc>Bc) {Bc}"_>"d2c |\
+"_Cho.s _ _ _"z2B (TG2^F) [G2D2B,2]z :: !p!G2A B>AG ^F<Dz |\
+B2d fdd d2f |!f! "_dim"g2a bag ^f<dz |
+(Td>cd) gdc {c}B2G |!p! F2"_cres"G B>cB {B}g2f |\
+{ga}b2a gGG G2F | !pp!{d}e3 (Td>cd) Hg2f |\
+{e}"_> . . ."f2d (Tc>Bc) {Bc}"_>"d2c |"_Cho.s _ _ _"z2B (G2^F) [G2D2B,2]z |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+!p!G2g G2g z2z | B2b B2b B2z | !f!E2e E2e d2c | B2b B2c d2z |!p! f2e d2b B2b | B2f g3 G2z |
+g2b f2b He2z | d2B f2F B2z | g3 d3 [G2g2]z :: !p!G2g G2g d2z | B2b B2b B2z |!f! E2e E2e [d2D2]z |
+B2b B2c d2z |!p! f2e d2b B2b | B2g g3 G2z |!pp! g2b f2b He2z | d2B f2F B2z | g3 d3 [G2g2]z |]
+% = = = = = = = = = =
+
+
+X: 206
+T: I can't conceal that I prefer you.
+T: Ho cha cheillin nach du bear leam.
+R: jig
+N: This is version 1, for ABC software that doesn't understand voice overlays or tremolo notation or cres/diminuendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.95 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Moderate"
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for 2 12-bar lines.
+V: 1 staves=2
+B |\
+!p!G<Bz c<Fz | {Bc}d2B c<Fz | "_cres"G<Bz c<Fz | {Bc}d2B TG2F ||\
+!p!G<Bz c<Fz | {Bc}d2B c<Fz | "_<"G<Bz "_<"G<cz | "_>..."{A}B2G F2 :| B |\
+!p!G<Bz f2B | {c}d2B f2F | "_cres"G<Bz f2c | {Bc}d2B TG2F ||
+!p!G<Bz f2B | {Bc}d2B c<Fz | "_<"G<Bz "_<"G<cz | "_>..."B2G F2!p!e |]|\
+d2e [f2d2][ge] | [g2e2][fd] [f2d2][eG] | !f!d2e f2^f | g2B G2g ||\
+!p!{g}f2e d2c | B2c {Bc}d2B | "_<..."(Tc>Bc) d3 | "_>..."TB2G F2 |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+!p!B2z F2z | [B3d3f3] [A3c3f3] | "_cres"B2z A2z | [B3d3f3] [B2e2g2]z ||\
+!p!B2z A2z | [B3d3f3] [A2c2f2]z | B2z E2z | G2e [B2d2] :| z |\
+!p!B2z [B3d3f3] | [B3d3f3] [B3f3b3] | "_cres"[B2e2]z [A2f2]z |
+b2d e2z || !p!B2z [B3d3f3] | [B3d3f3] [A2c2f2]z | B2z E2z | B2e [B2d2]!p!c |]|\
+B2c d2e | e2d d2c | !f!B2c d2z | e3 E3 || !p!d2g f2e | d2c B2z | f3 b3 | [g2B3]e [d2B2] |]
+% = = = = = = = = = =
+
+
+X: 207
+T: Pass about the Flagon
+T: Ho cuir a nall am bodach
+R: air, strathspey
+N: This is version 1, for ABC software that doesn't understand cres/diminuendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.95 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow Strathspey Style."
+K: Gm
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+|:\
+{B,}D2 G<G {=E}TF>D=E<C | !p!D2 B<B {AB}c>BA<c |\
+"_cres"d<d {=B}c>_B A>G F>G | "_<"A/cz/ "_<"A/dz/ {=B}"_>..."c>A {^F}[G2D2B,2] :|\
+!p!D<GTG>=E F>_ETD>C | D<B~B>d c>BTA>G |
+A<fTd>^c "_>"d<D{=E}"_<"F>G | "_<"A/cz/ "_<"A/dz/ {=B}"_>..."c>A {^F}G2 ||\
+!p!D<GTG>=E F>T_ED>C | "_cres"D<B~B>d c>BTA>G |\
+"_Exp."Hf>=ed>^c "_>"d>D{_E}"_<"F>G | "_<"B/cz/ "_<"A/dz/ {=B}"_>..."c>A [G2D2B,2] |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+G2g2 B2c2 | !p!G2g2 f2F2 | "_cres"b2ag fga2 | d2d2 D2[G2g2] :| !p![B2g2][c2g2] faba | b2g2 c2e2 |
+"_cres"f2b2 B2A2 | f2d2 D2G2 || !p![B2g2][c2g2] faba | "_cres"b2g2 c2e2 | "_Exp."Ha2b2 B2A2 | d2d2 D2[G2g2] |]
+% = = = = = = = = = =
+
+
+X: 208
+T: Now you're gang awa.
+T: O'n a tha u falbh.
+R: air, minuet
+N: This is version 1, for ABC software that doesn't understand crescendo symbols
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.96 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/2
+L: 1/4
+Q: "Slow & Soft"
+K: Dm
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+|:\
+!p!A<d ~d>^c [A2F2] | "_cres"F<f Tf>g {fg}a>g |\
+"_dim"Tf>e ~d>c [A2F2] | "_cresc. . ."(TA>^G A)~^c {c}d2 :|\
+!p!Tf>e d>c [A2F2] | "_cres"F<f Tf>g {fg}a>g |
+"_dim"Tf>d e>c [A2F2] | "_cresc. . ."(A>^G A)^c {c}d2 ||\
+!p!Tf>d ec [A2F2] | "_cres"Tf>e fg a<c' |\
+!f!yHa>"_dim"g ~f>e ~d>c | "_cresc. . ."(TA>^G A)~^c {c}d2 |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+df aA d2 | fa c'c f2 | ac' ba f2 | fe fe d2 :| d'>c' b>a f2 | A f2 e f2 |
+ab gc' f2 | fe fe d2 || df a2 f2 | ag ag f2 |!f!y Hfg a2 b2 | fe fe d2 |]
+% = = = = = = = = = =
+
+
+X: 209
+T: Marion the Knabs Daughter
+%T: Marion the Gaberlunzie Man's Daughter
+T: Mor nian a Ghibarlan
+R: air, strathspey
+N: This is version 1, for ABC software that doesn't understand dim/crescendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.96 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow & Tender"
+K: F	% and Gdor and Bb
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for 2 8-bar lines, for compactness and proofreading.
+V: 1 staves=2
+|:\
+!p!G2GB {B}d2cA | {B}A2F>G AFD2 |\
+"_cres"[F2A,2](FG) {F}A2GF | {B,}D2F>G (FD)C2 ||\
+!p![FA,]<ATG>F [F2A,2]"_<"(ef) | "_cres"~d2df d>c{B}[A2F2] |\
+!p!Tc>BAf {e}d2cA | "_dim."G2F>G {FG}A>GG2 :|
+|:\
+!p!d>cB>c d2"_<"(ef) | {A}G2F>G AF{B,}D2 |\
+"_dim"{B}A>GF>G {F}A2"_<"(=Bc) | "_cres"{_B,}D2F>G F>DC2 ||\
+!p![FA,]<ATG>F[F2A,2]"_<"(ef) | "_cres"~d2df d>c{B}[A2F2] |\
+!p!c>"_Exp"B (A{Bcde}f/)>e/ {e}d2cA | "_dim."G2[FA,]>G {FG}A>G G2 |]
+% = = = = = = = = = =
+V: 2 clef=bass middle=d
+|:\
+z4 d2c2 | B2AG F2B2 | d2cB A2BA | B2AG F2f2 || !p!F2c2 d2c2 |
+B2b2 f2F2 | !p!f2a2 b2af | c'2a2 f2c2 :||: B2b2 B2b2 | B2AG F2B2 | F2f2 F2z2 |
+B2AG F2f2 || f2c2 d2c2 | B2b2 B2f2 | f2a2 b2af | c2F2 f2c2 |]
+% Voice 2 preserves the staff layout in the book.
+% = = = = = = = = = =
+
+
+X: 210
+T: Willy will you ere return
+T: Uilleachan an thig u choaidh
+R: air, strathspey
+N: This is version 1, for ABC software that doesn't understand crescendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.96 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow accented Strathspey Style"
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+f |:\
+!p!{d}c>AF<d F<F {AB}c>A | {d}c<AF>G A<c {^c}d2 |\
+!f!{d}c>AF<d c<F {AB}c>B | !pp!{F}A>GF>G A<c {^c}d2 :|\
+!p!c<Af>d {d}c>AB<G | "_cres"A<f{f}e<d {d}^c<A {^c}d2 |
+!p!c<Af>d {d}c>AB<G | !pp!{F}A>GF>G A<c {^c}d2 ||\
+!p!c<Af>d {d}c>AB<G | "_cres"A<f{f}e<a {d}^c>A {^c}d2 |\
+!f!c<A {c}a>g f>d{d}c>B | !pp!{F}A>GF>G Ac {^c}d2 |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |:\
+[f2c'2][f2d'2] [f2c'2][f2c'2] | [f2c'2][f2c'2] [f2c'2][f2d'2] |\
+[f2c'2][f2d'2] [f2c'2][f2c'2] | [f2c'2][f2c'2] [f2c'2][f2d'2] :|\
+[f2c'2][f2c'2] [f2c'2][e2c'2] | f2g2 a2d2 |
+[f2c'2][f2b2]  [f2c'2][e2c'2] | [f2c'2][f2c'2] [f2c'2][f2d'2] ||\
+[f2c'2][f2d'2] [f2c'2][e2c'2] | f2g2 a2d2 |\
+[f2c'2][f2c'2] [f2d'2][f2c'2] | [f2c'2][f2c'2] [f2c'2][f2d'2] |]
+% = = = = = = = = = =
+
+
+X: 211
+T: None left at home but Wife and Bairn.
+T: Gun duine aig a bhaile.
+R: jig
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.97 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Moderate"
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for 2 12-bar lines, for compactness and proofreading.
+V: 1 staves=2
+f/d/ |\
+c<Ac Tf2g | a>gf fed | cAA ~A2d/f/ |"_cresc" c<Ac Tf2g ||\
+{fg}a>gf fcA | AGG G2f/>d/ |!p! c<Ac Tf2g |  a>gf fed ||\
+cAA ~A2c |"_cres" (A/B/c)c (fa)g | (fa)g fdc | AGG G2 |]
+c |!p! (Ac).d (Ac).d | (fd)c Acd | cAA ~A2c |"_cres"(Ac).d (Ac).d ||\
+fdc Acd | AGG ~G2c |!p! (Ac).d (Ac).d | fdc Acd ||\
+cAA ~A2c |"_cresc"(A/B/c)c (fa)g | (fa)g fdc | AGG G2 |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+[f3c'3] [f3c'3] | [f3c'3] [f3d'3] | [f3c'3] [f2c'2]z |"_cres"[f3c'3] [f3c'3] ||\
+[f3c'3] [f3c'3] | [c3c'3] [c2c'2]z |!p![f3c'3] [f3c'3] | [f3c'3] [f3d'3] ||
+[f3c'3] [f3c'3] |"_cres"[f3c'3] [f3c'3] | [f3c'3] [f3c'3] | [c3c'3] [c2c'2] |]\
+z |!p!\
+[f2c'2]z [f2c'2]z | [f2c'2]z [f2c'2]z | [f2c'2]z [f2c'2]z |"_cres" [f2c'2]z [f2c'2]z || [f2c'2]z [f2c'2]z |
+[c3c'3] [c3c'3] |!p! [f2c'2]z [f2c'2]z | [f2c'2]z [f2c'2]z ||\
+[f2c'2]z [f2c'2]z |"_cres" [f2c'2]z [f2c'2]z | [f3c'3] [f3c'3] | [c3c'3] [c2c'2] |]
+% = = = = = = = = = =
+
+
+X: 212
+T: The Marchioness Salute.
+T: Failte na Ban mharc.
+R: strathspey
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.97 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Sprightly Strathspey"
+K: F
+% = = = = = = = = = =
+V: 1 staves=2
+A |!p!\
+F>CA,<F C<FA,<F |!f! C>FA,<A G>G,B,<G |!p! F>CA,<F C<FA<f |!f! c>FA<f AFF :| f |!p!c<Af>A c>fA<f | c>fA<a g>GB<d |
+c<Af>A c>fA<f | c>FA<f AFFf ||!f! c<Af>A c/c/f A/A/f | c/c/f A/A/a g>GB<b | (3agf (3efg (3fcB (3ABd | (3cAF (3DFB AFF |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+!p![F2f2][F2f2] [F2f2][F2f2] | !f![F2f2][F2f2] [C2c2][C2c2] |\
+!p![F2f2][F2f2] [F2f2][F2f2] | !f![F2f2][F2f2] [F2f2][Ff] :| z |\
+!p![F2f2][F2f2] [F2f2][F2f2] | [F2f2][F2f2] [C2c2][E2e2] |
+   [F2f2][F2f2] [F2f2][F2f2] | [F2f2][F2f2] [F2f2][F2f2] ||\
+!f![F2f2][F2f2] [F2f2][F2f2] | [F2f2][F2f2] [C2c2][E2e2] |\
+ [F2f2][G2g2] [A2a2][F2B2f2] | [c2c'2][B2b2] [f2c'2][fc'] |]
+% = = = = = = = = = =
+
+
+X: 213
+T: Merry Lads and bonny Lasses.
+T: Fleasguich og is cailleagan.
+R: reel
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.97 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+Q: "Dance"
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+c |\
+AFEF CFA,F | B,DG,A, B,CDB | AFEF CFA,e | fdcf AFF :| f | cfTf2 efgb | afTf2 GABd |
+cfTf2 efga | bagf efgb || afeg fBAc | BAGF EFGB | AfBf cfeg | fdcf AFF |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | F2f2 F2f2 | [B2B,2]B2 [B2B,2]B2 | F2f2 F2f2 | B2A2 F2f :| z | f2a2 g2c'2 | f2a2 b2b2 |
+a2f2 g2c'2 | c2c'2 c2c'2 || f2c'2 d'2c'2 | d'2=b2 c'2e2 | f2g2 a2c'2 | b2c'2 f2f |]
+% = = = = = = = = = =
+
+
+X: 214
+T: The Isle of Aigas.
+T: Eillan Aigaish.
+R: air, jig
+N: This is version 1, for ABC software that doesn't understand cres/diminuendo symbols or trailing grace notes.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.98 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/16
+Q: "Slowly & Pointedly"
+K: Cm
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for 3 8-bar lines, for compactness and proofreading.
+V: 1 staves=2
+c>d |\
+!p!{c2d2}e2c2G2 G4{F2G2}G>F | E2C2(C=B,2/) C4_B,2 |\
+"_cres"C2F2=E2 F3(EFG/A/) | G2c2=B2 c4c>d ||\
+!p!{c2d2}e2c2G2 (G4TF=E/F/) | _E3FGe {e}d4g2 |\
+(ed)c=Bcd c2G2(FD) | E3FTD2 {CD}C4 :|
+F2 |\
+!f![c6E6] [d6G6] | !p!e3f(ed) c2.G2.G2 |\
+!pp!(e2d2)c2 G4{EF}GF | E2C2(C=B,) C4zG ||\
+!f![c6E6] [d6G6] | !p!g2e2f2 {e}d4f2 |\
+"_dim"(ed)c=Bcd c2(G2FD) | E3FTD2 {CD}C4 ||
+G2 |\
+!f![c6E6] [d6G6] | !p!e3f(ed) c2.G2.G2 |\
+!f!g2f2e2 d2c2=B2 | a2f2e2 {e}d4zG ||\
+!p!c4{d}e2 d2=B2G2 | !f![c3E3]d(ef) g4Hc'2 |\
+!p!(ag)fed=B c2(G2FD) | E4TD2 {CD} C4 |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | !p!c'2g2e2 c4=B2 | c2e2g2 c4z2 | "_cres"a4g2 a2g2f2 | g4G2 c4z2 || !p!c'2g2e2 c4=B2 | c2d2e2 f4z2 |
+"_dim"g4f2 e4f2 | g4G2 c4 :| z2 | !f!c2e2g2 =B2d2g2 | !p!c4d2 e6 | !pp! c4d2 e4f2 | g4G2 c4z2 ||
+!f!c2e2g2 =B2d2g2 | !p!=B2c2d2 g4z2 | "_dim"g4f2 e4f2 | g4G2 c4 || z2 | !f!c2e2g2 =B2d2g2 | !p!c4d2 e6 | !f!c2d2e2 f6 |
+f4^f2 g4z2 || !p!c2e2g2 =B2d2g2 | !f!e2d2c2 =B4Hz2 | !p!f6 e4f2 | g4G2 c4 |]
+% = = = = = = = = = =
+
+
+X: 215
+T: The Fire Cross Song
+T: An crann tiaradh.  or Chrois faire.
+R: jig
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.98 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Moderate but Expressive"
+K: Eb
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for 2 12-bar lines, for compactness and proofreading.
+V: 1 staves=2
+B |\
+!p!G2G (TG>^FG) | Gcc c2d | "_cres"{d}e2e {d}(e>de) | dff f2b |\
+!f!{e}g2g gfe | {d}f2f fed | "_dim"c2d (c/d/e)c | BGG G2 :| G/F/ |\
+!f!EGE DFD | Cdd c2d | !p!ege dbB | d2f f2b ||
+!f!g2g gfe | {d}f2f fed | "_dim"c2d (c/d/e)c | BGG HG2 G/F/ || !f!EGE DFD |\
+Ccc c2d | !p!ege dbB | dff f2E/F/ || !ff!GeG FdF | EcE Dfa | "_dim"{a}gfe dec | BGG G2 |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+!p!egb egb | eac' eac' | "_cres"egb egb | Bfb Bfb || !f!egb egb | dfb dfb | "_dim"e2d c2A | E3 E2 :| z |
+!f!e2b B2b | A2a A2a | !p!g2e f2b | B2b B2z || !f!egb e3 | dfb d3 | "_dim"e2d c2a | egb He2z || !f!e2b B2b |
+A2a A2a | !p!g2e f2b | B2b B2z | !ff!egb dfb | eac' b2d | "_dim"efg a3 | egb e2 |]
+% = = = = = = = = = =
+
+
+X: 216
+T: Macpherson of Strathmashy.
+T: Stradh-maisidh.
+R: air, strathspey
+N: This is version 1, for ABC software that doesn't understand crescendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.99 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow Strathspey Style"
+K: Cm	% Starts with Eb, Ab chords, then cadences on Cm.
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% (Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.)
+% Voice 1 not reformatted here, though the spacing isn't very even.
+V: 1 staves=2
+e |\
+!p!B>G{EF}G>F E>CC<E | B,>G,E>G, B,3e | !f!B<G {EF}G>F E>CC<E | =B,<G,{^F}G>B, C2C<e ||\
+!p!B>G{EF}G>E E>CC<E |
+B,<G,E>G, B,3e | !f!B<G{EF}G>F E>CD<G | =B,<G,{^F}G>B, C2-C |]|\
+G | !p!c>d{d}e>^f g>GG>=A | B<eG>_A {A}B2B(e/d/) | !f!c>d{d}e>^f g>GGz/c/ |
+G<c {=Bc}d<B c2cd || !p!~e>fg>e f<db>d | B<G{G}e>G B2Ba | "_Exp"g>f{d}e>d c>de>g | G<c {=Bc}e>B c2c |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+E2e2 A2a2 | E2e2 E2e2 | E2e2 A2a2 | G2g2 [C2c2]z2 || E2e2 A2a2 |
+E2e2 E2e2 | E2e2 c2=B2 | G2g2 c2-c |]| z | c2c'2 =B2bz | g2e2 d2B2 | c2c'2 =B2c2 |
+e2g2 c3a || g2e2 B2b2 | E2e2 B2[B2f2] | e2g2 a2g2 | G2g2 c2c |]
+% = = = = = = = = = =
+%%begintext align
+%% Small text at upper right:
+%%   "Macpherson of Strathmashy," whose recitations occasioned the Publication of Ossian by his Friend.
+%%endtext
+
+
+X: 217
+T: Macdonald Lord of the Isles.
+T: Mad Dhonaill Mor nan Eillan.
+R: air, minuet, waltz
+N: This is version 1, for ABC software that doesn't understand cres/diminuendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.99 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: "Slow pathetic & Expressive"
+K: Cm
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+% Voice 1 reformatted for 2 12-bar lines, for compactness and proofreading.
+G |\
+!p!c>e d2 zG | c<e d2 zg | e3"_dim"d (c/e/d/c/) | B2 G2 zc ||\
+B>A G2 c2 | B>A G2 B2 | G>^F G2 e2 | {e}d2 c2 z :| !p!d |\
+"_cres"~e>f g2 bg | Tf>e d3 g | "_dim"e3 d (c/e/d/c/) | B2 G2 zc ||
+"_cres"B>A G2 c2 | BA G2 B2 | G>^F G2 e2 | {e}d2 c2 zd ||\
+!p!~e>f "_cres"g2 bg | Tf>e d2 gf | e3 d (c/e/d/c/) | B2G2 zD ||\
+"_Exp"E>F G2 =A2 | B>A HG2 B2 | G>^F G2 e2 | {e}d2 c2 z |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+c2 =B2 G2 | c2 =b2 g2 | c'2 b2 a2 | g2 e2 a2 ||\
+g2 e2 a2 | g2 e2 d2 | e2 d2 c2 | g2 c2 z :| z | E2 e2 g2 | A2 a2 g2 |
+c'2 b2 a2 | g4 a2 || e4 a2 | e4 d2 | e2 d2 c2 | g2 c2 z2 ||\
+E2 e2 g2 | a2 b2 =b2 | a2 b2 a2 | g2 e2 =B2 ||\
+C4 c2 | B2 He2 d2 | e2 d2 c2 | g2 c2 z |]
+% = = = = = = = = = =
+
+
+X: 218
+T: The Sound of War from the Glen.
+T: Tha Tairm ann sa Ghleann.
+R: air
+N: This is version 1, for ABC software that doesn't understand cres/diminuendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.99 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+Q: "Slow & wildly expressive."
+K: Cm
+% = = = = = = = = = =
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+G2 |\
+!p!(Tc2=Bc) {e}d4 z2G2 | {d}e3c dG3 z2G2 | "_cres"(Tc2=Bc) {e}d4 z2e2 | {e}d3c =BG3 z2G2 ||\
+!p!(Tc2=Bc) {e}d4 z2G2 | {d}e3c dG3 z2G2 | (Tc2=Bc) {e}d4 z2Hg2 | {e}d3c =BG3 z2 |]
+_B2 |\
+!p!{A}G2FE D4 z2(ED) | !f!(E2=B,C) D4 z3_B | !p!{A}G2FE D4 z2E2 | D3C =B,G,3  z2_B2 ||\
+!p!{A}G2FE D4 z2(ED) | !f!(E2=B,C) D4 z3_B | !p!{A}G2FE D4 z2Hg2 | {e}d3c =BG3 z2 |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |\
+!p!c4 =B4 G4 | c4 g4 G4 | c4 f4 ^f4 | =f3^f g4 G4  ||\
+!p!c4 =B4 G4 | c4 g4 G4 | c4 f4 H[c4e4] | f3^f g4 G2 |] z2 |
+!p!e4 B4 G4 | !f!A4 [G4=B4] z4 | !p!e4 f4 ^f4 | g4 G4 z4 ||\
+!p!e4 B4 G4 | !f!A4 [G4=B4] z4 | !p!e4 f4 H[c4e4] | f3^f [g4G4] z2 |]
+% = = = = = = = = = =
+
+
+X: 219
+T: Flora McDonald Adeiu to the Prince
+T: Tha mi fodh ghruaim.
+C:
+R: air, jig
+N: This is version 1, for ABC software that doesn't understand cres/diminuendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.100 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Deleted the extra F note in bar 8, to fix the rhythm.
+M: 6/8
+L: 1/8
+Q: "Slow & Expressive."
+K: F#m
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for 2 12-bar lines, for compactness and proofreading.
+V: 1 staves=2
+A |\
+!p!F2F (FE)D | d>ed {d}c2A |"_cresc"Bce Tfe(g/a/) | fed {d}c2B ||\
+!p!F2F (FE)D | d>ed {d}c2^A | (Bc)e f>eB | AF^E {E}F2 :: A |
+!f!Fff (fe)c | ~d>ed {d}c2A | cag f>ed | cB^A HB2 z/(D//E//F//G//) ||\
+!p!A=GF EDC | Dfd {d}c2e | Bce TfeB | AF^E {E}F2 |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+[a3d3] [a3d3] | d3 a3 | =g3 f3 | d2f a2z ||!p!\
+[a3d3] [a3d3] | d3 a3 | =g3 a2b | c'2c f2 :: z |
+!f!d3 a3 | b2g a2z | abc' d'e'f' | f3 Hb2 zx/ ||!p!\
+c2d A2=g | f2d a2z | =g3 a2b | c'2c f2 |]
+% = = = = = = = = = =
+
+
+X: 220
+T: The Fashion which the Lasses have
+T: Am fasan aig no Cailleagan.
+C:
+R: reel
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.100 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The book has an odd "endings" notation for the first strain, not translatable to ABC (and confusing to humans).
+N: The rhythm between the strains is also wrong; fixed by copying the pattern in bars 8,9.
+M: C|
+L: 1/8
+Q: "Dance & Song"
+K: F#m	% ending on A
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+c !segno!|:\
+AF F/F/F AEEc | AF F/F/F {AB}c2Bc | AF F/F/F AEEA | FGAB Tc2 [1Bc :|[2 cf || eAfA TcBBf | e<ATfe c2ca |
+eAfA cAB<c | AFAB Tc2cf || ecfc TcBBf | e<ATfe | c2cb | agfa eacA | FGAB cABc !segno!|]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z !segno!|:\
+F2f2 E2e2 | F2f2 F2f2 | F2f2 E2e2 | c2cB A2 [1 a2 :|2 z2 || a2d2 e2e2 | a2d2 a2A2 |
+a2d2 e2e2 | d2dB A2a2 || a2d2 e2e2 | a2d2 a2A2 | a2d2 c2A2 | d2cB A2[G2^E2] !segno!|]
+% = = = = = = = = = =
+
+
+X: 221
+T: The Ancient sports of the glen.
+T: Sealg is sugradh nan gleann.
+C:
+N: This is version 1, for ABC software that doesn't understand cres/diminuendo symbols.
+R: air, waltz
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.100 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+Q: "Sow & Expressive."
+K: Bdor
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+(c>B) |\
+AF3A2 |!p! Tf2(ed)(cB) | AF3^A2 | [B3D3](cdB) |\
+"_cres"AF3A2 | f2(ed)(cB) | F2d2Tc2 | {c}B4 |]\
+(de) |\
+!p!f2(ed)(cB) | e2(dcd)e | f2(ed)(cB) | Hc4 (ga) |
+!f!f3"_dim"B (c>B) | A2B2 (c>B) | AF3^A2 | H[B4D4] |]\
+(de) |\
+!p!f2(ed)(cB) | e2(Tdc)(de) | Tf2(ed)(cB) | Hc4 (ga) |\
+!f!f3B (cB) | A3G(TF^E) | F2d2Tc2 | [B4D4] |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | [d6f6] |!p! f2g2g2 | f4e2 | d4e2 |"_cres"[c6f6a6] | f2g2g2 | def2F2 | B4 |]
+z2 | !p!d4e2 | g4z2 | d4e2 | Hd4 z2 | !f!d4 z2 | f2d2e2 | f4F2 | HB4 |]
+z2 | !p!d4e2 | g4z2 | d4g2 | Ha4 z2 |!f! d4 z2 | d4c2 | def2F2 | B4 |]
+% = = = = = = = = = =
+
+
+X: 222
+T: Lord President Forbes.
+T: Tighearna Chulodair.
+C:
+R: strathspey
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.101 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow Strathspey Style."
+K: F#m
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+!p!E |\
+C>FA>F E>CA,<B, | "_cres"C>FA>B {B}~c2c<f |\
+!p!C>FA>F E>CA,>d | c>B {G}A>G [F2A,2][FA,] :|\
+c |\
+!p!f>g{fg}a>g fcc^e | f>g{g}a>f {a}g2f^e |
+!p!f>g{fg}a>g fcc>a | "_cres"g>a{ga}b>g Tf2f>c ||\
+!p!f>g{fg}a>g fcc^e | "_cres"f>g{g}a>f {a}g2f^e |\
+"_Exp"{c}a>c{c}d>B c>A^E<C | {E}c>B{G}A>G [F2A,2][FA,] |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | F2f2 c2A2 | F2f2 F2f2 | F2f2 c2AB | c2C2 F2-F :| z |!p!F2f2 a2g2 | F2f2 c'2c2 |
+!p!F2f2 a2f2 | c'2c2 f2F2 || !p!F2f2 a2g2 | F2f2 c'2c2 | a2b2 f2g2 | ab c'c f2F |]
+% = = = = = = = = = =
+
+
+X: 223
+T: The Darling.
+T: Nian donn ro' bheadarach.
+C:
+R: strathspey
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.101 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Bars 3,4 converted to regular ABC alternate endings.
+M: C
+L: 1/8
+Q: "Strathspey Style."
+K: F#m
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+f |\
+c<FTcB A>FF>f | c<Fc>e ~f2 f<a | c<FTc>B \
+[1 A>FF<f | e>cA<c B2B :|\
+[2 A>Bc<f | e>cA<c B2B :|\
+d |\
+c<ff>g a>cTc>B |
+c<ff>g {b}a2gf |\
+c<ff>g a>fc<a | e>cA<c ~B2Bd ||\
+c<ff>g a>cTc>B | c<ff>g {b}a2g<b |\
+f>aTg>f e>cc<a | e<ca>c ~B2B |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+f2^e2 f2f2 | f2f2 [f2c'2][f2d'2] | f2^e2 \
+[1 f2f2 | c2^d2 e2D :|[2 f2f2 | c2^d2 e2D :|\
+z |\
+f2f'2 f2f'2 | f2f'2 f2f'2 |
+f2f'2 f2f'2 | c2^d2 e2E2 ||\
+f2f'2 f2f'2 | f2f'2 f2c2 |\
+d2d2 c2A2 | c2^d2 e2E |]
+% = = = = = = = = = =
+
+
+X: 224
+T: The Shepherdess.
+T: Nian nan Coarach.
+R: jig, slide
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.101 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 12/8
+L: 1/8
+Q: "Moderate"
+K: F#m	% ending on A
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+D |\
+!p!CFA {AB}c2B AFF ~F2G | (AG).A {AB}c2B AFE ~E2D |\
+"_cres"CFA {AB}c2B AFF ~F2a | !f!f>ed c2B AFE [E2C2] :| f |
+!p!{f}e2d {d}c2B A2B ~c2a | {f}e2d {d}c2B AFF ~F2a |\
+"_cres"{f}e2d {d}c2B A2B {AB}c2A | TB>AB {AB}c2B AFE [E2C2] a |
+!f!{f}e2d {d}c2B A2B ~c2a | {f}e2d {d}c2B AFF ~F2f/g/ |\
+!f!agf edc (TB>AB) cea | Tf>ed {d}c2B AFE [E2C2] |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | F2f F2f F2f F2z | c3 a2g f2g a2z | F2f F2f F2f F2z |!f! d3 e2^e f2g a2 :| z |
+!p!A2a A2a A2a A2a | A2a A2a D2d D2d | A2a A2a A2a A2a | g2e a2g f2g a3 |
+!f!A2a A2a A2a A2a | A2a A2a D2d D2d |!f! c2d e2a g2e a3 | d3 e2^e f2g a2 |]
+% = = = = = = = = = =
+
+
+X: 225
+T: The Rising of the year 1715.
+T: Tha tighn' fodham eiridh.
+R: air, strathspey
+N: This is version 1, for ABC software that doesn't understand diminuendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.102 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat symbol; fixed with added final repeat.
+M: C
+L: 1/8
+Q: "Moderate Bachanalian Chorus."
+K: Eb
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+|:\
+!p!B,<E(TE>D) (E>C)E<B, | "_cres"c<F~F>G ({G}A<G)(FE) |\
+!p!G<B~B>c B<aTg>f | {d}e>c B>G TF2 E2 :|
+|:\
+!p!G<ETE>F TE>CB,<E | C<F(~F>G) TF>EC<E |\
+"_cres"B,>CE>d {d}e>dc<He | B<Ge>G TF2 E2 :|
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|: !p!e2g2 a2g2 | "_cres"a2g2 f2e2 | !p!e2d2 efg2 | a2b2 B2e2 :|
+|: !p!e2g2 a2g2 | a2A2 a2A2 | "_cres"g2f2 g2Ha2 | [e2g2][e2b2] [e2a2][e2g2] :|
+% = = = = = = = = = =
+
+
+X: 226
+T: The Emigrants Adieu.
+T: Ho cha neil mulad oirn.
+R: air, strathspey
+N: This is version 1, for ABC software that doesn't understand diminuendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.102 #226
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Tender"
+K: Eb
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+G |\
+!p!B,<E(E>G) (FG) {B,}C2 | "_cres"B,>C~E>G BG {G}e2 |\
+"_dim"(cd/e/) B>G TF>E {B,}Cz/c/ | {c}B>A {A}TG>F GEE :| F |\
+!pp!({EF}G>F)(E>F) (DE) {B,}C2 | "^cres"B,>CE>G B<G {G}e2 |
+"_dim"(cd/e/) TB>A G>F Ez/c/ | {c}B>A {A}G>F G>EEz/F/ ||\
+!pp!{EF}G>F(E>F) (DE) {B,}C2 | "_cres"B,>CE>G B<G {G}e2 |\
+"_Exp"Hg>fe>G (FG){B,}Cz/c/ | B>ATG>F  G[EG,][EG,] |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | !p!E2e2 A2a2 | "_cres"G2g2 E2e2 | "_dim"a2g2 aga2 | gabB e2E :| z |
+!pp!e2g2 b2a2 | "_cres"g2e2 E2e2 | "_dim"a2g2 b2[a2c'2] | gabB e2Ez ||
+!pp!e2g2 b2a2 | "_cres"ga ge E2e2 | "_Exp"HE2G2 A2az/a/ | gabB e2E |]
+% = = = = = = = = = =
+
+
+X: 227
+T: Bonny lassie take advice!
+T: No chaillin og thoir le toigh an airr' dhomh.
+R: air
+N: This is version 1, for ABC software that doesn't understand diminuendo/crescendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.102 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow & Plaintive."
+K: Eb
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+E>F |\
+!p!G3F G4 | "_cres"G2c2 {GA}B3E | [G2E2][F2D2] [F2D2]E>F |\
+!p!G3F G4 | "_dim"G2e2 {e}d3=B | c2G2 G2 :| ~e>f |\
+!f!{e}g3"_dim"f {f}e2dc | =Bc {G}F2 G3F |
+E3F G4 | "_dim"G2e2 {e}d3=B | c2G2 G2~e>f |\
+!f!{e}g3"_dim"f {f}e2dc | =Bc{G}F2 G3F |\
+"_Exp"E3C TE2 zF | "_dim"G2e2 {e}d3c | B2G2 G2 |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | E2B2 e4 | e2A2 G2E2 | B2B,2 B,2z2 | !p!E2B2 e2d2 |\
+c4 =B2G2 | CEGc C2 :| z2 | !f!e3d c2a2- | a2d2 e3d |
+c3d e4 | e2c2 =B2G2 | c2C2 C2z2 | !f!e'3d' c'2a2 |\
+g2d2 e2d2 | c2A2 HG2 zD | E4 B2a2 | g2e2 e2 |]
+% = = = = = = = = = =
+
+
+X: 228
+T: The Love that has undone me.
+T: S'ole a chuir a mhireadh rium.
+R: air, strathspey
+N: This is version 1, for ABC software that doesn't understand crescendo/diminuendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.108 #228
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "Slow & Plaintive"
+K: Eb
+% = = = = = = = = = =
+V: 1 staves=2
+E2 |!p!\
+G4 e3c (B2c2) {A2}G2zE |"cres" GB3 {G2}e3c B3G [F2D2]zE |!p!\
+G4 e3c (B2c2) {A2}HG2zc | B3DE3G (TF3E) [E2G,2] :| B2 |!pp!\
+Ge2z (eg2)z (B2c2) {A}G2zB | "_cres"G2e2 e3(f/g/) f2G2 {G}[F4D4] |
+Ge3{d}e3c B3A {A}G2zc | BD3E3G TF3E [E4G,4] || !f! \
+{B}"_dim"g3f {d}e3d Tc3B G4 |!p! g3f {d}e3c B3G [F4D4] |!pp!\
+G3B {G}F3E FG3 {G}He2"_Exp."zd | Tc3B(G2B2) TF3E [E2G,2] |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+% = = = = = = = = = =
+z2 |\
+e6a2 g4e2z2 | e6a2 g4b2z2 |\
+!p!e6a2 g4He2z2 | z2a2g2e2 B4 E2 :| z2 |!pp!\
+E4e4 d4e4 | "^cres"E4e4 a2=a2 b4 |
+"_dim"e4c'2a2 g4e2z2 | z2a2g2e2 B4[e4E4] ||!f!\
+"_dim"e2f2g4 a4e4 | !p!e2f2g2a2 g2=a2b4 |!pp!\
+e4a2g2 a4He2"^Exp"z2 | a4b4 B4e2 |]
+
+
+X: 229
+T: Malcolm of the Glen.
+T: Callum a ghlinne.
+R: air, jig
+N: This is version 1, for ABC software that doesn't understand crescendo/diminuendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.103 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The only repeat symbol is at the very end; not fixed.
+M: 6/8
+L: 1/8
+Q: "Slow but with a spirited Expression."
+K: Eb
+% %slurgraces yes
+% %graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+B,CE E>F(G/A/) | ~B2e GFE | CFG {G}A2F |_ded cB=A ||"_cres."\
+BcT=d{cdd}e2(B/c/) | !p!_d>ed Tc>Be |"_cres." B2(A/G/) ~A>Bc | BeG F>EC |]
+!f!EB,D E>F(G/A/) | BGe GEB, | !p!AFG {G}A2F | _ded "_>"c/B/ z3/ (3(B//c//d//) ||\
+!f!{d}eBd {d}eBd | {d}eB_d cB{d}"_<"e | !p!B2(A/G/) (A/G/)A/B/c/d/ | ("_>"e/d/)"_>"c/B/"_>"A/G/ "<"F>EC :|
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+e2E e2f | g2a b2g | a2g f3 | b2B e2z ||"_cres."\
+e2d c2z | !p!B2b a2g |"_cres." e3 fga | g2b a3 |]
+!f!e2f g2f | e2E e2E | !p!d2e f2a | b2B e2z ||\
+!f!g2a g2a | g2b a2g | !p!e3 fga | g2b a3 :|
+
+
+X: 229
+T: Malcolm of the Glen.
+T: Callum a ghlinne.
+R: air, jig
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.103 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The only repeat symbol is at the very end; not fixed.
+M: 6/8
+L: 1/8
+Q: "Slow but with a spirited Expression."
+K: Eb
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+B,CE E>F(G/A/) | ~B2e GFE | CFG {G}A2F |_ded cB=A |\
+BcT=d{cd}y{d}e2(B/c/) | !p!_d>ed Tc>Be | "_cres."B2(AG) ~A>Bcc | BeG F>EC |]
+!f!EB,D E>F(G/A/) | BGe GEB, | !p!AFG {G}A2F | _ded "_>"c/B/z (3(B//c//d//) |\
+!f!{d}eBd {d}eBd | {d}eB_d cB{d}"_<"e | !p!B2(AG/) (A/G/)A/B/c/d/ | ("_>"e/d/)"_>"c/B/"_>"A/G/ "<"F>EC :|
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+
+
+X: 230
+T: The Editors thanks to Mr Nathaniel Gow.*
+T: Mile taing' an udair.*
+R: air, jig
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.103 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain has odd notation for "endings" that I think I've figured out.
+M: C
+L: 1/8
+Q: "Strathspey Style."
+K: Eb
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+A, |:\
+(G,/A,/B, B,)<G E>C TB,2 | (G,/A,/B,) B,<B {A}GF/E/ G<B |\
+(G,/A,/B,) B,<G E>C B,2 | G<E {FG}A>G F>B,D [1 F :|2 a [|\
+Tg>eg<b e<eTg2 | e>gB<b g>eg<b |
+Tg>eg<b e<eTg>f | g<e {fg}a>g f>Bd<f ||\
+Tg>eg<b e<e Tg2 | {d}e>gB<b g>eg<b |\
+g/a/b {g}a<f g>e f<d | e/d/c/B/ A/G/F/E/ F>B,D |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |:\
+[E2e2][E2e2] [E2e2][E2e2] | [E2e2][E2e2] [E2e2][E2e2] |\
+[E2e2][E2e2] [E2e2][E2e2] | [E2e2]c2 [B,2B2][B,B] [1 x :|2 z [|\
+[e2b2][e2b2] [e2b2][e2b2] | [e2b2][e2b2] [e2b2][e2b2] |
+[e2b2][e2b2] [e2b2][e2b2] | [e2b2][d2b2] [B2b2][B2b2] ||\
+[e2b2][e2b2] [e2b2][e2b2] | [e2b2][e2b2] [e2b2][e2b2] |\
+[e2b2][d2b2] [e2b2][f2b2] | [G2g2][A2a2] [B,2B2][B,B] |]
+% = = = = = = = = = =
+%%begintext align
+%% * THE Editor cannot conclude this tedious work, without expressing his thanks in the most public
+%% manner, for the aid afforded him by Mr GOW, throughout this undertaking, and to the other
+%% eminent PROFESSIONAL MEN, who assisted in revisal of a work, which might often require a
+%% Sacrifice of their Skill, in blending the Science of Music, with the wild and simple Effusions
+%% of Nature.
+%%endtext
+
+
+X: 231
+T: Postscript
+K: none
+% = = = = = = = = = =
+%%begintext align
+%% The following Medley so properly belongs to this Work that after compleating his Index, the
+%% Editor cannot resist adjecting it, having- been composed on the following occasion. ___
+%%endtext
+%%begintext align
+%% Lord Lovat spent the last six Months previous to his being apprehended, chiefly in the House
+%% of Tho.s Fraser Esq.r of Gorthleck, the Editors maternal Grandfather, where he had his only Interview
+%% with Prince Charles after his defeat, and not at Castleduny, as mentioned in the Culloden
+%% Papers. His residence there, or elsewhere, rendered the Place for the time, the Focus of the
+%% Rebellion, and brought a concourse of Visitors, of all descriptions friendly to the cause; but
+%% chiefly, men of the best talents and address, not likely to commit themselves, if intercepted, ___
+%% These, who were of course entertained according to the manner of the times, naturally joined
+%% in narrative and Song, & this considerably added to the many opportunities which the original
+%% Compiler of these Melodies had, of hearing and acquiring them, being a daily Visitor, not a
+%% Mile distant._ And Independent of Recitation from men of this Stamp,___ he had the advantage
+%% of hearing many of the Airs, from Lord Lovats attendant Minstrel and Bard, who was
+%% the Composer of the following, complimentary of Old Gorthlecks appearance, on some of these
+%% occasions, in a new belted Plaid, whereupon the Minstrel claimed the old one as his reward, which
+%% was instantly granted, and the Music commemorative of it immediately performed and Sung.
+%%endtext
+
+
+X: 231
+T: Gorthlecks Highland Plaid
+T: Breachdan ur Fhir Ghortaleic
+P: Strathspey Style.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.104 #231
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Add
+M: C
+L: 1/8
+K: E
+% = = = = = = = = = =
+% Voice 1 reformatted for 4 6-bar lines.
+V: 1 staves=2
+B |\
+E<E TB>A G>FE<c | ~=d>AA<d A<DTF2 |\
+E<E TB>A G>FE>a | g>ef>d e/e/e e :|g |\
+e/f/g/a/ be Tg>eg<g | a>gf>e =d>ef<a |
+e/f/g/a/ b>e g>eb>a | Tg>ef<g e/e/e e2 ||\
+B<bb>a Tg>ee<g | a>gf>e =d>efg/a/ |\
+b>ga>f g>ef<d | B<ag>f e/e/e e2 |]
+[|\
+E<E TBA G>FE>c | ~=d>AA<d A<DTF2 |\
+EE B>A G>FE>a | g>ef>d e/e/e e :: b |\
+(a/g/)f/e/ b>e g>eb<e | f/e/=d/c/ a<d b>da>d |
+a/g/f/e/ b>eg>e b>a | g>ef<g e/e/e e2 ||\
+B<bb>a Tg>ee<g | a>gf>e =d>efg/a/ |\
+b>ga>f g>ef>d | B<aTg>f e/e/e e |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | [e2E2][e2E2] [e2E2][e2E2] | [=d2F2][d2F2] [d2F2][d2F2] | [e2E2][e2E2] [e2E2][e2E2] | b2B2 e2E :| z |
+[e'2e2][e'2e2][e'2e2][e'2e2] | [=d'2=d2][d'2d2] [d'2d2][d'2d2] | [e'2e2][e'2e2] [e'2e2][e'2e2] |
+b2B2 e2E2 || E2e2 e2e2 | =d2=d2 d2d2 | e2f2 g2a2 | b2B2 e2E2  |][|\
+[e2E2][e2E2] [e2E2][e2E2] | [=d2F2][d2F2] [d2F2][d2F2] | [e2E2][e2E2] [e2E2][e2E2] | b2B2 e2E :: z |
+[e'2e2][e'2e2] [e'2e2][e'2e2] | [=d'2=d2][d'2d2] [d'2d2][d'2d2] | e2e2 e2e2 | b2B2 e2E2 ||\
+E2e2 e2e2 | =d2d2 d2d2 | e2f2 g2a2 | b2B2 e2E |]
+
+
+X: 232
+T: The Belted Plaid and health to wear it
+T: Am Breacdhan ur gu meal u e
+P: Sprightly Dance.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" p.104 #232
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: E
+% = = = = = = = = = =
+V: 1 staves=2
+A |\
+(G/A/B) TBA GATBG | (G/A/B) Bc =dDDA | (G/A/B) TBA GABg | afdB e2e :: a | Tg>fea gebe | f=dad fdda |
+Tg>fea gebg | afdB ~e2ea || Tg>feb gebe | f=dgd fdda | gebg afdB | cAfd e2e |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+e2e2 e2e2 | e2e2 =d2d2 | e2e2 e2e2 | b2B2 e2E :: z |\
+[e'2e2][e'2e2] [e'2e2][e'2e2] | [=d'2=d2][d'2d2] [d'2d2][d'2d2] |
+[e'2e2][e'2e2] [e'2e2][e'2e2] | b2B2 e2E2 ||\
+[e'2e2][e'2e2] [e'2e2][e'2e2] | [=d'2=d2][d'2d2] [d'2d2][d'2d2] |\
+e2g2 a2b2 | a2b2 e2E |]

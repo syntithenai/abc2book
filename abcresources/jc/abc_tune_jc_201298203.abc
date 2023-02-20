@@ -1,0 +1,29 @@
+X:1
+T:Mi go zatvorile
+R:lesnoto
+C:Trad.
+O:Macedonia
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+P:IV2IV2IV2
+Q:3/8=90
+M:7/8
+L:1/8
+K:D
+P:I
+[| "D"([FD][GE][AF]) ([FD][GE]) ([AF][BG]) | "G"([dB][cA][BG]) "D"([AF][GE]) [FD]z \
+ | "D"([FD][GE][AF]) ([FD][GE] [AF][BG]) | "G"([dB][cA][BG]) "A"[c2A2] z2 |
+ | "A"([cA][dB][ec]) "G"([dB][cA][BG][dB]) | "A"([c2A2][BG]) "D"([AF][GE] [FD]) z \
+ | "G"([dB][cA][BG]) "A"([AF][BG][AF][GC]) | "D"[F3D3] z2 z2 |]
+P:V
+[| "D"[FD][F2D2] [A2F2] [A2F2] | "A"([G2E2][FD]) "D"[F2D2] z2 \
+ | "D"[FD][F2D2] "G"[B2G2] [B2G2] | "D"([B2G2][AF]) [A2F2] z2 |]
+w:Mi go zat-vo-ri-*le mla-di-ot Jor-dan-*ce
+|: "A"[AF][B2G2] [c2A2] ([BG][AF]) | "G"[B3G3] "D"([AF][GE] [F2D2]) \
+ | "A"[AF][A2F2] [G2E2] ([GE][AF]) | "D"([G2E2][FD]) [F2D2] z2 :|
+w:mi go zat-vo-*ri-*le vo tem-ni zan-*da-*ni.|
+W:
+W:Arrangement Copyright (C) 2002, 2009 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.

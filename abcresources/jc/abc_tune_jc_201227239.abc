@@ -1,0 +1,33 @@
+X: 10692
+T: COTILLION No. 1. tune 5
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.69 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: There are several cases of a dotted 8th-note followed by two short notes.
+N: Some were written as two 8th notes, others as two 32nd notes; all changed to two 32nd-notes.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+B4 B2B2 | {c}B>AB>c d3d | (3(cdd) (3(BcB) A2d>c | (3(BcB) (3(ABA) G2D2 |\
+B4 B2B2 | Bdgf edcB | (A.c)(c.e) (e.d)(d.F) | A3B/A/ G4 H|]
+[|\
+A4 ^GAcA | F3E ^CDEF | G4 B2d2 | A3c/B/ A2D2 |\
+A4 ^GAcA | F3D EFGA | G4 B2d2 | A4 z2A2 |]
+[|\
+!f!_B4 B2B2 | B2_ed cBAG | =F4 F2GA | c4 _B2d2 |\
+(d3c/_B/) A2c2 | (e3_B/A/) G2G2 | ^F2A2 G2_B2 | ADE^F GA=B"^D.C."c |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across partners,
+%% turn corners,
+%% chassa back,
+%% grand chain,
+%% all balance to corners,
+%% turn partners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

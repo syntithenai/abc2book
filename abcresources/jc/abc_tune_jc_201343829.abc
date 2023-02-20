@@ -1,0 +1,14 @@
+X:1 %Music
+T:TENPENNY %Tune name
+C: %Tune composer
+N: %Tune infos
+Q:1/4=180 %Tempo
+N:Found at blindchicken.com  2007-6-22
+M:6/8 %Meter
+L:1/8 %
+K:G
+z4 zc \
+|c=FF cFF |G=FG _EG_B |c=FF cFF |_Bcd _ede |c=FF cFF |G=FG _EG_B |c_BG _eGG |G=FF F2 c |
+|c=FF cFF |G=FG _EG_B |c=FF cFF |_Bcd _ede |c=FF cFF |G=FG _EG_B |c_BG _eGG |G=FF F2 _E |
+|=F2 f f_ef |g_ec _BGE | =F2 f f_ef |g_ec e2 _B |c2 =f f_ef |g_ec _BGB |c_BG _eGG |G=FF F2 _E |
+|=F2 f f_ef |g_ec _BGE |=F2 f f_ef |g_ec e2 _B |c2 =f f_ef |g_ec _BGB |c_BG _eGG |G=FF F2 z |]

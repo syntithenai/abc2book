@@ -1,0 +1,20 @@
+X: 3333
+T: Miss Grace Hay's Delight
+%R: jig
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.33 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+G2c B2c | dBd efg | G2c B2c | dBG AFD | TE2C CEG | TF2D D2c | (B/c/d)B cAF | G3 G3 :|
+d2g f2g | afd e^cA | fga B^cd | efd {d}^cBA | afa geg | fdf e^cA | Bgf ed^c | d2d d=cB ||
+c2c cac | B2B BgB | ABA ABc | dBG AFD | TE2C CEG | TF2D D2c | (B/c/d)B cAF | {F}G3 G3 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+G3 g3 | G3 c3 | B3 G3 | g3 d3 | c3 c3 | d3 f3 | g3 d3 | G2g G3 :| d3 d3 | d'3 a3 | d3 g3 | e3
+a3 | d'3 ^c'3 | d'3 a3 | g3 a2A | d3 d3 || A3 f3 | g3 G3 | c3 A3 | B2G d3 | c3 c3 | d3 f3 | g3 d3 | G2g G3 |]

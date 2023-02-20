@@ -1,0 +1,69 @@
+X: 1
+T: To Anacreon in Heaven
+%R: air, waltz
+C: words: Ralph Tomlinson
+%S: https://www.loc.gov/resource/ihas.100010463.0?st=gallery
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/8
+K: C
+%%continueall 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+   z2 | z6 z2z2 !p!g f | e2 e2 ed c4 !f!a g | f2 f2 e2 d4 !p!G2 | e4 d c B3 A G G |
+w: Where he sat in full* glee where he sat in full glee a few Sons of har-mo-ny a
+%
+   g4 f e d3 c B2 | z12 | !f!g3 f ed e c3 z2 | z6 z2z2 !p!gf | e2 e2 ed c4 !f!(ag) |
+w: few Sons of har-mo-ny sent a Pe-*ti-tion and* pat-ron would* be and*
+%
+   f2 f2 e2 d4 !p!G G | e3 d c2 B4 G2 | g3 f e2 d4 G2 | c3 B A2 G4 !f!g f | e3 f d2 e2 Hc2
+w: pat-ron would be when this ans-wer ar-riv'd this ans-wer ar-riv'd this ans-wer ar-riv'd from the jol-ly old Gre-cian
+%
+   z2 | z12 | z6 z2z2 !p!e2 | e3 f g2 g4 fe | "^dim."d3 e f2 HTf4 {fefg}y{f2}y !f!d2 | e3 d c2
+w: Voice Fid-dle and Flute no* lon-ger be mute I'll lend you my
+%
+   B3 d d2 | g2 (ag) (fe) {e2}d4 !p!G G | c2 c2 c2 A2 A2 A2 | (e/>e/d/>e/) (fe) (dc) Tc3 B/c/ d/c/B/c/ | HB4
+w: aid and in-spire you* to* boot And be-sides I'll in-struct you like | me*** to* en-*twine******
+%
+   G2 c3 e (df) | e2 c2 d2 e3 g (fa) | {a}g2 (fe) !f!cd e3 f (ed) | c6 z2z2 |]
+w: The Myr-tle of* Ve-nus the Myr-tle of* Ve-nus* with* Bac-chus-es* Vine.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+   z2 | z6 z2z2 !p!e d | c2 c2 cB A4 !f!c c | c2 B2 c2 B4 z2 | z6 z2z2 z!p!G |
+w: Where he sat in full* glee where he sat in full glee a
+%
+   e4 d c B3 A G G | c4 B A G3 F G2 | !f!e3 d cB c c3 z2 | z6 z2z2 !p!ed | c2 c2 cB A4 !f!c2 |
+w: few Sons of har-mo-ny a few Sons of har-mo-ny sent a Pe-*ti-tion and* pat-ron would* be and
+%
+   c2 B2 c2 B4 z2 | z6 z2z2 !p!G2 | e3 d c2 B4 z2 | z6 z2z2 !f!e d | c c3 G2 G2 HC2
+w: pat-ron would be this ans-wer ar-riv'd from the jol-ly old Gre-cian
+%
+!p!B2 | B3 c d2 {^cde}d4 cB | A3 B c2 B4 c2 | c3 d e2 e4 dc | B3 c d2 HTD4 {d^cde}y{d}yz2 | z6
+w: Voice Fid-dle and Flute no* lon-ger be mute Voice Fid-dle and Flute no* lon-ger be mute
+%
+   z3 B B2 | c2 c2 (Bc) {c2}B4 z2 | z6 z2z2 !p!C2 | F2 (AG) (FE) D6- | HD4
+w: and in-spire you to* boot like me to* en-*twine*
+%
+   z2 z6 | z2z2 G2 c3 e (df) | e2 c2 !f!G2 c3 d (cB) | c6 z2z2 |]
+w: the Myr-tle of* Ve-nus with Bac-chchus-es* Vine.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+   c c | c2 e2 g2 c'6- | c'6 z2z2 f e | d2 d2 c2 g4 z2 | z12 |
+w: To A-nac-reon in Heav'n- - where he sat in full glee
+%
+   z6 z2z2 z!p!e | a4 g f e3 d ef | !f!g3 g G2 c c3 c2 | c2 e2 g2 c'2 c'4- | c'6 z2z2 !f!(fe) |
+w: a few Sons of har-mo-ny* sent a Pe-ti-tion that he their in-spi-rer_ and*
+%
+   d2 d2 c2 g4 z2 | z12 | z6 z2z2 !p!e2 | a3 g f2 (e3 d) !f!e f | g g3 G2 c2 Hc2
+w: pat-ron would be this ans-wer ar-riv'd* from the jol-ly old Gre-cian
+%
+!p!g2 | g3 a b2 b4 ag | ^f3 g a2 g4 z2 | z2z2 e2 e3 f g2 | g6- g4 yy !f!g2 | c'3 b a2
+w: Voice Fid-dle and Flute no* lon-ger be mute no long-er be mute_ I'll lend you my
+%
+   g3 g f2 | e2 (fe) (dc) G4 z2 | z2z2 !p!c2 f2 f2 f2 | d2 d2 d2 g6- | g4
+w: aid and in-spire you* to* boot in-struct you like me to en-twine*
+%
+   z2 z6 | z12 | z4 !f!e2 g3 g G2 | c6 z2z2 |]
+w: with Bac-chus-es Vine.
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text https://www.loc.gov/item/ihas.100010463/

@@ -1,0 +1,25 @@
+X: 11313
+T: FRIENDSHIP
+Q: "Moderate."
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.131 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c2 |\
+f2 (ag)(fe) | (fc) c2 d2 | (cf) c2 B2 | {B2}A4 B2 |\
+(cA) f2 d2 | c3 e f2 | (B>c) B2 A2 | (A2 G2) c2 |\
+f2 (ag)(fe) | (fc) c2 d2 | (cf) (cB)(AG) | A4 G2 |
+(AF) d2 c2 | (=BG) g2 c2 | (a//g//f3/) e2 d2 | {d}c2 z2 :|\
+|: c2 |\
+(ge) c2 B2 | (B2 A2) (G>F) | (A3/B//c//)  B2 A2 | (A2 G2) =B2 |\
+c2 d2 e2 | f3 g e2 | (dg) f2 e2 | {e2}d4 (de) |
+(fe) c2 d2 | {d2}c4 G>G | (Ac)(fc)(BA) | {A2}G4 f2 |\
+(e3/f//g//) c2 B2 | (A3/B//c//) F2 c2 | (dc)(BA)(GF) | c6- |  c6- | c6- | c4 (g3/a//b//) |\
+(af) (fc) c2 | (dB)(BG)(Ff) | (dc/B/) A2 G2 | F4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,33 @@
+X: 3122
+T: My only Joe and dearie
+O: Supposed Irish.
+%R: air, march, reel
+N: This is version 1, for ABC software that doesn't understand voice overlays or crescendo symbols.
+B: Niel Gow & Sons "Complete Repository" v.3 p.12 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slowish"
+K: Dm
+% - - - - - - - - - -
+V: 1 staves=2 clef=treble
+A2 |\
+~d3e fe d^c | d2A2 A3F | ~G3B (AG)(FE) | F2D2 [D2A,2F,2]A2 ||\
+~d3e (fe) (d^c) | d2[A2F2] [A3F3]F | [G2E2]([AF][BG]) ([AF][GE])([FD][EC]) | F2D2 [D2A,2F,2] :|
+A2 |\
+~d3e f2d2 | e3^c A2A2 | ~d3e f2ed | e2=c2 c2(de) ||\
+f3d (fe) (d=c) | ~d3e Hf2 !p!F2 | ~G3B ([AF][GE])([FD][EC]) | F2D2 [D2A,2F,2] ||
+[A2D2] |\
+~d3e f2d2 | e3^c A2A2 | ~d3e {g}f2ed | e2=c2 H[c2G2E2] Tf>g ||\
+a3f (ag) (fe) | "^cresc."(de)(fg) Ha2 !p!F2 | ~G2(AB) (AG)(FE) | F2D2 [D2A,2F,2] |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+[d2a2-][^c2a2-] [d2a2-][e2a2] | f2d'2 d2f2 | e2g2 a2A2 | dDFA d2z2 ||\
+D2d^c defg | f2d'2 d'2a2 | b2g2 a2A2 | dDFA d2 :|
+A2 |\
+d2^c2 d2b2 | a2A2 a2g2 | f2e2 d2[g2=b2] | c'2c2 c2z2 ||\
+d2b2 a2A2 | d2A2 "^p"HD2 !p!z2 | b2g2 a2A2 | dDFA d2 ||
+z2 |\
+d2^c2 d2g2 | a2A2 a2g2 | f2e2 d2[g2=b2] | c'c eg Hc'2 d'e' ||\
+f'2d'2 a'2a2 | "^cresc."d'^c'd'e' Hf'2 !p!z2 | b2g2 a2A2 | dDFA d2 |]

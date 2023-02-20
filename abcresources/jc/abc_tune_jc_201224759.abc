@@ -1,0 +1,19 @@
+X: 0881
+T: THE NEW POLKA DANCE No. 1
+C: Offenbach
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.88 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+|:\
+def2 b2a2 | a2g2 e'3e | g2f2 "^>"a2B2 | {d}c>Bc>d e2c2 |\
+def2 b2a2 | a2g2 e'3e | g2f2 e'2d'2 | c'2c'2c'2z2 H:|
+|:\
+d'4 c'ba^g | a2^g2a2b2 | d'2c'2^f'2e'2 | e'2d'2 d'4 |\
+d'4 c'ba^g | a2^g2a2b2 | d'2c'2b2a2 | g2b2g2z2 "^Da Capo":|
+K: F
+|:\
+"^>"c'2f2f2a2 | a2g2g4 | "^>"d'2d2d2e2 | {g}f>ef>g a2f2 |\
+"^>"c'2f2f2a2 | a2g2g4 |  d'2d2e2c2 | f2a2f2z2 "^Da Capo":|

@@ -1,0 +1,33 @@
+X: 4181
+T: Colonel Baird
+C: composed by the late Mrs Oswald of Auchincruive
+%R: air, jig
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.18 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slowish"
+K: F
+% - - - - - - - - - -
+% Voice 1 slightly modified to put the 2nd strain's repeat sign and pickup notes on the 2nd staff.
+V: 1 staves=3
+c |\
+(cf).c (cf).d | c2c ~c2d | (cA).F (BG).E | F2F ~F2c ||\
+(cf).c (cf).d | c2c ~c2d | (cA).F (BG).E | [F3C3A,3] [F2C2A,2] :|
+|: B |\
+{AB}c2c AFA | {c}B2B GEG | (FG).A (FG).A | {c}B2A G2B ||\
+{AB}c2c AFA | {c}B2B GEG | ~F>GA (BG)E | [F3C3A,3] [F2C2A,2] :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 nm=Harp.d clef=bass middle=d
+z |\
+(fa).c' (fb).d' | fac' fac' | fac' cgc' | fac' f3 ||\
+(fa)c' (fb)d' | fac' fbd' | fac' cgc' | fcA F2 :|
+|: z |\
+fac' fac' | egc' cgc' | fac' fac' | cgc' cgc' ||\
+fac' fac' | egc' cgc' | fac' cgc' | fcA F2 :|
+% - - - - - - - - - -
+% Voice 3 preserves the staff layout in the book.
+V: 3 nm=Violon.lo clef=bass middle=d
+   z | F3 F3 | A3 F3 | c3 C3 | F3  F3 || F3 F3 | A3 B3 | c3 C3 | F3 F2 :|
+|: z | f3 f3 | c3 c3 | f3 f3 | e2f c3 || f3 f3 | c3 e3 | f3 c3 | F3 F2 :|

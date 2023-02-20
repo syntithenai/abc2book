@@ -1,0 +1,115 @@
+
+X: 1
+T: Karamfil    [Dm]
+T: Carnation
+%T: ABC DBC ABC D
+O: Bulgaria
+R: lesnoto
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 7/16
+L: 1/16
+P: ABCD BC ABCD
+K: Dm
+% - - - - - - - - - - - - - - -
+V: 1 staves=2
+"A"[|\
+  "D7"d3- d2 AB | cBA "Gm"~B2- BA | "C7"G3 cB- BA | "F"AFG ~AG FE | "D7"~D3 ~A2- AB | "Gm"AGF ~G2 GD | "A7"~F3 GE ED | "Dm"D7 |]
+"B"[|\
+  "Dm"A,3 D2E2 |  F3   F4 | "A7"E3 E2F2 | "Dm"(E2D) D4 | "C7"C3  F2G2 |
+w: 1.~Ka-\vzi mi, ka-\vzi, mla-di le mom-*ko, ka-\vzi mi,
+w: 2.~Az, ver-en sin s\uam, sin na Bal-ka-*na i roz-a-
+w: 3.~Go-re le go-ro, go-fo haj-du\vs-*ka, i ti, gra-
+V: 1
+| "F"A3 A4 | "C7"(G2A/G/) F2G2 | "F"A7 || "D7"D3 D2B2 | "Gm"(A2G) G4 |
+w: al-en ka-**ram-*fil, Gd\`e ras-na mom-*ko,
+w: va-ta do-**li-*na.  Si-la i hub-*ost
+w: ni-ten na\vs** Bal-*kan.  Dnes ni-je ran-*nem
+% - - - - - - - - - - - - - - -
+| "C7"G3 F2E2 | "F"F2G A4 | "A7"A,3 A,2G2 | F3 E4 | E3 D2^C2 | (~E2D) "Dm"D4 |]
+w:ras-na po-ras-*na, si-la i hub-ost koj li ti da-*d\`e.
+w:dar mi da-ri-*ha, kak da se bor-ja te me u-\vci-*ha.
+w:mla-di ju-na-*ci, na ka-ram-fi-la ver-ni po-tom-*ci.
+"C"[|\
+  "Gm"(d2c B4) | "Dm"(c2B A4) | "Gm"G3 F2 G2 | "Dm"A7 | "Gm"G2G (cB) (AG) | "Dm"(F2G) A4 | "A7"(G2F) (FE) (ED) | "Dm"D7 |]
+w: Eh__ eh__ ka-ram-*fil, par-ti-zan-*ski* maj-*ko, slav-en ko-*man-*dir.
+%
+"D"[|\
+  "Gm"d2c ~B2- B2 | "Dm"c2B ~A2- A2 | "Gm"~(G2A/G/) F2 G2 | "Dm"~A4 |\
+  "Gm"G2G cB AG | "Dm"~F2G ~A2- A2 | "A7"G(GF) (FE) (ED) | "Dm"~D7 |]
+% - - - - - - - - - - - - - - -
+V: 2
+[| ^F3- F2 FG | AGF ~G2- GF | E3 AG GF | FCE ~F2 A2 |\
+   ~A3 ~c2- cd | cBA ~B2 BA | ~A3 AG GF | F7 |]
+[| D3 F2G2 | A3 A4 | G3 G2A2 | (G2F) F4 | E3 A2B2 |
+| c3 c4 | (B2c/B/) A2B2 | c7 || ^F3 F2d2 | (c2B) B4 |
+| B3 A2G2 | A2B c4 | ^C3 C2B2 | A3 G4 | G3 F2E2 | (~G2F) F4 |]
+[| (B2A G4) | (A2G F4) | E3 D2 E2 | F7 |\
+   E2E (AG) (FE) | (D2E) F4 | (E2D) (DC) (^CA,) | D7 |]
+[| B2A ~G2- G2 | A2G ~F2- F2 | ~E3 D2 E2 | ~F4 \
+| E2E AG FE | ~D2E ~F2- F2 | E(ED) (D^C) (CA,) | ~D7 |]
+%
+W: 1. Tell me, young girl, purple carnation,
+W:    Where you grew up, who gave you strength and goodness.
+W: (Refrain) Eh, eh, Carnation, partisan mother, true commander.
+W: 2. I am a true son of the Balkans and the Rose Valley,
+W:    Strength and goodness they gave me; how to fight is what they taught me.
+W: 3. Up to the mountains of the Hajduks, and you, our granite Balkans,
+W:    Today we raise young heroes, true descendants of the Carnation.
+
+
+X: 1
+T: Karamfil    [Em]
+T: Carnation
+%T: ABC DBC ABC D
+O: Bulgaria
+R: lesnoto
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 7/16
+L: 1/16
+P: ABCD BC ABCD
+K: Em
+% - - - - - - - - - - - - - - -
+V: 1 staves=2
+"A"[|\
+  "E7"e3- e2 Bc | dcB "Am"~c2- cB | "D7"A3 dc- cB | "G"BGA ~BA GF |\
+  "E7"~E3 ~B2- Bc | "Am"BAG ~A2 AE | "B7"~G3 AF FE | "Em"E7 |]
+"B"[|\
+  "Em"B,3 E2F2 |  G3   G4 | "B7"F3 F2G2 | "Em"(F2E) E4 | "D7"D3  G2A2 |
+w: 1.~Ka-\vzi mi, ka-\vzi, mla-di le mom-*ko, ka-\vzi mi,
+w: 2.~Az, ver-en sin s\uam, sin na Bal-ka-*na i roz-a-
+w: 3.~Go-re le go-ro, go-fo haj-du\vs-*ka, i ti, gra-
+| "G"B3 B4 | "D7"(A2B/A/) G2A2 | "G"B7 || "E7"E3 E2c2 | "Am"(B2A) A4 |
+w: al-en ka-**ram-*fil, Gd\`e ras-na mom-*ko,
+w: va-ta do-**li-*na.  Si-la i hub-*ost
+w: ni-ten na\vs** Bal-*kan.  Dnes ni-je ran-*nem
+| "D7"A3 G2F2 | "G"G2A B4 | "B7"B,3 B,2A2 | G3 F4 | F3 E2^D2 | (~F2E) "Em"E4 |]
+w:ras-na po-ras-*na, si-la i hub-ost koj li ti da-*d\`e.
+w:dar mi da-ri-*ha, kak da se bor-ja te me u-\vci-*ha.
+w:mla-di ju-na-*ci, na ka-ram-fi-la ver-ni po-tom-*ci.
+"C"[|\
+  "Am"(e2d c4) | "Em"(d2c B4) | "Am"A3 G2 A2 | "Em"B7 |\
+  "Am"A2A (dc) (BA) | "Em"(G2A) B4 | "B7"(A2G) (GF) (FE) | "Em"E7 |]
+w: Eh__ eh__ ka-ram-*fil, par-ti-zan-*ski* maj-*ko, slav-en ko-*man-*dir.
+%
+"D"[|\
+  "Am"e2d ~c2- c2 | "Em"d2c ~B2- B2 | "Am"~(A2B/A/) G2 A2 | "Em"~B4 |\
+  "Am"A2A dc BA | "Em"~G2A ~B2- B2 | "B7"A(AG) (GF) (FE) | "Em"~E7 |]
+% - - - - - - - - - - - - - - -
+V: 2
+[| ^G3- G2 GA | BAG ~A2- AG | F3 BA AG | GDF ~G2 B2 |
+   ~B3 ~d2- de | dcB ~c2 cB | ~B3 BA AG | G7 |]
+[| E3 G2A2 | B3 B4 | A3 A2B2 | (A2G) G4 | F3 B2c2 |
+|  d3 d4 | (c2d/c/) B2c2 | d7 || ^G3 G2e2 | (d2c) c4 |
+|  c3 B2A2 | B2c d4 | ^D3 D2c2 | B3 A4 | A3 G2F2 | (~A2G) G4 |]
+[| (c2B A4) | (B2A G4) | F3 E2 F2 | G7 |\
+   F2F (BA) (GF) | (E2F) G4 | (F2E) (ED) (^DB,) | E7 |]
+[| c2B ~A2- A2 | B2A ~G2- G2 | ~F3 E2 F2 | ~G4 |\
+   F2F BA GF | ~E2F ~G2- G2 | F(FE) (E^D) (DB,) | ~E7 |]
+% - - - - - - - - - - - - - - -
+W: 1. Tell me, young girl, purple carnation,
+W:    Where you grew up, who gave you strength and goodness.
+W: (Refrain) Eh, eh, Carnation, partisan mother, true commander.
+W: 2. I am a true son of the Balkans and the Rose Valley,
+W:    Strength and goodness they gave me; how to fight is what they taught me.
+W: 3. Up to the mountains of the Hajduks, and you, our granite Balkans,
+W:    Today we raise young heroes, true descendants of the Carnation.

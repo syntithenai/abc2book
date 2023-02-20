@@ -1,0 +1,25 @@
+X: 022
+T: the Weald of Sussex
+%R: hornpipe
+M: C|
+L: 1/8
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1802", London 1802, p.2 #2
+F: http://folkopedia.efdss.org/images/4/41/Thompson_24_1802.PDF
+N: The slurs are rather poorly printed, and should probably be ignored.
+K: D
+|:\
+A>BA>F d>ed>A | B>cd>B A>BA>F |\
+A>BA>F d>fd>A | B>cd>B A4 :|
+|:\
+(a/b/a f)f (a/b/a f)f | (g/a/g) e/g/e (f/a/f) ez |\
+(a/b/a) ff (a/b/a) ff | (e/g/e) (c/e/c) d4 :|
+|:\
+A>Bc>d c>de>d | c>BA>G F>ED2 |\
+f>ga>b b>ag>f | e>fg>a f2 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change sides and back again lead down
+%% the middle up again and swing corners
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

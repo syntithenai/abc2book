@@ -1,0 +1,18 @@
+X: 1372
+T: GERMAN WALTZ
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.137 #2
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: The first part has 9 bars, with bar 6 repeated.
+M: 3/8
+L: 1/16
+K: G
+d2 |\
+d4{f}g2 | d2c'ba2 | d3af2 | gdbgd'2 |\
+d4{f}g2 | d2c'ba2 | d2c'ba2 | d3af2 | g4 :|
+|: !f!AG |\
+.F2(DFAd) | (fed^cBA) | .G2(EG^cG) | (ed^cBAG) |\
+.F2(DFAd) | (fed^cBA) | G2(EG^ce) | d4 :|
+|: dc |\
+Bcdefg | a4d^c | defga^a | b2g2 dc |\
+Bcdefg | a4d^c | defgaf | g4 :|

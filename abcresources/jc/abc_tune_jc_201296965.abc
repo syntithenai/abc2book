@@ -1,0 +1,23 @@
+X: 979
+T: King of the Fairies
+T: ri na si\.deog
+T: Bonny Charlie; King William of Orange; Briton's Glory
+R: hornpipe, march, reel; long dance, set dance
+%S: s:6 b:16(4+4+4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #979
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0979/oneill-1001-0979-1.abc
+%m: Tn2 = (3n/o/n/ m/n/
+%m: Tn3 = n (3o/n/o/ (3n/m/n/
+P: Play AA BC or AA BC BC, as needed by the dance.
+L: 1/16
+K: Edor
+"^A"|: B,2 \
+| E^DE(F GF)GA | B2B2 TG3A | B2E2 E(FGE) | FGFE TD2B,2 ||
+| E(^DEF) GFGA | B(AGB) d3c | B2E2 (GF)E^D | E4E2 :|
+"^B"[| d2 \
+| e2e2 Bde(f | ga)gf e2f2 | e2B2 (BAB)c | d(edc) BcdB ||
+| e2B2 Bdef | g(agf) efed | Bde(g fe)df | e6 |
+"^C"|| (ef) \
+| g3e f2d2 | e(dBc) Td3e | dBA(F GA)B^c | dBA(F GF)ED ||
+| B,2E2 (EFG)A | B2e2 edef | e2B2 BAG(F | TE4)E2 |]

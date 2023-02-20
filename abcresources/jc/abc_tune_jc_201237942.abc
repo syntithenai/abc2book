@@ -1,0 +1,23 @@
+X:1
+T:Anselm Lingnau's Compliments to Rik de Vroome
+R:Hornpipe
+C:Anselm Lingnau
+S:31 May 1995
+G:SSL 2
+H:Rik de Vroome from Aalst Waalre, The Netherlands,
+likes to compose tunes and devise dances.
+I wrote this tune for him because he especially seems to fancy hornpipe tunes.
+With the broken rhythm, this tune is nice to play more slowly and listen to,
+but if it is played faster and as just mostly eighth notes
+it could also serve as a dance tune.
+M:C
+K:G
+E:5
+(3DEF|"G"G>A G>F G>B g>f|"C"e>f g>e "G"d4|"Am"c>d e>g "G"B>d g>b|\
+"D"(3aba (3gfe "D7"(3ded (3cBA|
+"G"G>A G>E D>G B>d|"C"e>f g>e "G"d4|"Am"c>d e>g "G"B>d g>b|\
+"D"(3aba "D7"(3def "G"g2::(3gf^e|
+"C"=e>c G>E "G/B"D>G B>d|"Am"(3cdc (3BcB "D"A2 A>B|\
+c>A F>E "D7"D>F A>c|"G"(3efe d>^c d2 (3gf^e|
+"C"=e>c G>E "G"D>G B>d|"Am"f>e c>A E2 f>e|"D"(3ded (3cdc "D7"(3BcB (3AGF|\
+"G"G2 B2 G2|]

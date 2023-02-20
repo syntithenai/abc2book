@@ -1,0 +1,30 @@
+X: 11021
+T: Duetto - Tempo di Minuetto
+C: Gaetano Brandi
+Q: "Tempo di Minuetto"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.102-103
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 4/8-bar staff/line lengths.
+V: 1
+|:\
+!f!(c>e) e3 f | {e/}dc/d/ c2 z2 | !f!(ge)(a!p!gfe) | d>d d2 z2 |\
+!f!(c>e) e3 f | {e/}dc/d/ c2 z2 | !p!(g"_cres"^ga=gfe) | !f!(e4 d2 :|
+|:\
+!f!G2- (3Ggg {a/}(3gfe | "_sF"(e3 f) .f2 | !f!G2- (3Gff {g/}(3fed | !ff!(d3 e) .e2 |\
+{b/}(!p!a^ga!f!b)c'a | g3- !p!g//(a//g//f//) .e2 | !f!(g>a) e2 Td2{cd} | c2 c2 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 has the original staff/line breaks in the MS:
+V: 2
+|: !f!(E>c) c3 d | {G/}F(E/F/) E2 z2 |
+!f!(ec)(f!p!edc) | B>B B2 z2 | !f!(E>c) c3 d |
+{G/}F(E/F/) E2 z2 | !p!(e"_cres"efedc) | !f!(c4 B2 :|
+|: !f!G2- (3Gee {f/}(3ed^c | "_sF"(^c3 d) .d2 | !f!G2- (3Gdd {e/}(3dcB |
+!ff!(B3 c) .c2 | {g/}(!p!fef!f!g)af | e3- !p!e//(f//e//d//) .c2 |
+!f!(e>f) c2 TB2{AB} | c2 c2 z2 :|
+%
+%%center -

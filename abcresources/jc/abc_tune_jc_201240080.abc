@@ -1,0 +1,32 @@
+X: 362
+T: Lieut. Col. LUMSDEN
+C: D. MACINTYRE
+R: Reel
+B: Glen Collection p.36 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Gm
+%
+V: 1
+B/A/ |\
+GDB,D GABc | AFAc f2Ad/c/ | BGAD Gdgb | afcA Bdce |
+dcTBA GABc | AFAc fcA^F | GBAc Bedc | BdcA GG,G, ||
+d |\
+gabg dgBd | cf (d/c/B) (A/B/c) FA | GdBe dg^fa | gba^f g/g/g ga |
+bgfe dfBd | cf (d/c/B) (A/B/c) A^F | GBAc Bedc | BdcA GG,G, |]
+%
+V: 2
+z |\
+G2[g2d2] B2[g2d2] | F2[f2c2] A2[f2c2] |\
+G2[a2^f2] [b2g2][b2g2] | f2[e'2c'2] [d'2b2][c'2a2] |
+g2[d'2b2] d2[d'2b2] | f2[c'2a2] [c'2a2][c'2a2] |\
+[b2g2][a2^f2] [b2g2][a2f2] | g2[^f2d2] g2G ||
+z |\
+G2[g2d2] B2[g2d2] | F2f2 [c'2f2][c'2f2] |\
+G2[g2d2] d2[c'2a2] | [b2g2][c'2d2] [b2g2][b2g2] |
+B2[b2d2] [b2f2][b2d2] | F2f2 [c'2f2][c'2a2] |\
+[b2g2][a2^f2] [b2g2][a2f2] | g2[^f2d2] [g2G2][dG] |]

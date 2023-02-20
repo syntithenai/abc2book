@@ -1,0 +1,28 @@
+X: 112
+T: THE ROAD TO BERWICK
+T: re-named The Buck of the Cabrach
+C: Wm MARSHALL
+R: Reel
+B: Glen Collection p.11 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: D
+%
+V: 1
+|:\
+F<DAF BGAF | DAdf e2E2 | F<DAF BGAF | Adce d2D2 :|
+(f/g/a) (fd) bgag | (f/g/a) (fd) b2(eg) | (f/g/a) (fd) bgag | fdec d2D2 |
+(f/g/a) (fd) bgag | (f/g/a) (fd) b2(eg) | fdge afbg | fdec d2D2 |]
+%
+V: 2
+|:\
+d2[d'2a2] [c'2a2][d'2a2] | d2[d'2a2] A2[c'2a2] |\
+d2[d'2a2] [c'2a2][d'2a2] | a2[g2A2] [f2d2][f2d2] :|
+d2[d'2a2] c2[c'2a2] | d2[d'2a2] A2[c'2a2] |\
+d2[d'2a2] c2[c'2a2] | a2[g2A2] [f2d2][f2d2] |
+d2[d'2a2] c2[c'2a2] | d2[d'2a2] A2[c'2a2] |\
+[d'2a2][c'2a2] [d'2a2][c'2a2] |  a2[g2A2] [f2d2][f2d2] |]

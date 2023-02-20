@@ -1,0 +1,18 @@
+X: 249
+T: Gypsy Bulgar
+B: Kammen 9 #9
+C: (Kammen 9#9)
+R: Bulgar
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+P: A
+|: "A"[ce][ce] [ce][ce] | [df][e=g] [df][ce] | ed2 c | "E7"e/d/c/d/ "A"c2 :| \
+K: Am
+P: B
+|: "Am"[Ac][Ac] [Ac][Ac] | ^de dc | cB2 A | "E7"c/B/A/^G/ "Am"A2 :|
+P: C
+|: "Am"cc cB | "F"BA2 A | "Am"cc cB | "F"BA2 A | "Am"Bc dc | "E7"_ed2 c | "Am"(3=edc (3cBA | [Ac]A Bc :|
+P: D
+|: "Dm"d2 A(d | d)d cB | "Am"c2 A(c | c)c BA | "E7"B2 ^G(B | B)B A^G | "Am"A2 E(A | A) z3 :|

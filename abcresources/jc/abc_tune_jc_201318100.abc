@@ -1,0 +1,28 @@
+X:5
+T:O Come, All Ye Faithful
+C:Oakley/Reading
+Q:140
+S:Ted Neil <ted.neil:amd.com> abcusers 2002-12-15
+V:1 % program 1 40 volume 75
+V:2 % program 1 68 volume 128
+V:3
+M:4/4
+L:1/4
+K:G
+V:1 staves=3
+[V:1] "G"z3 "_Melody"G|G2 D G|"D"A2 D2|"G"B A B c|B2 A G|G2 F E|
+[V:2] "G"z3 "_Baritone Harmony"D|D2 B, D|"D"D2 F2|"G"G F G A|G2 F D|D2 C B,|
+[V:3] "G"z3 "_Tenor Harmony"B|B2 G B|"D"d2 F2|"G"d c d e|d2 c B|B2 A G|
+%
+[V:1] "G"F G A B|"D"F2 E>D|D3 z|"G"d2 c B|"C"c2 B2|"C"A B G A|
+[V:2] "G"D D F G|"D"D2 C>D|D3 z|"G"B2 A G|"C"G2 F2|"C"F G E F|
+[V:3] "G"A B c d|"D"A2 G>F|F3 z|"G"g2 f e|"C"e2 d2|"C"c d B c|
+%
+[V:1] "G"F>E D G|G F G A|G2 D B|B A B c|B2 A B|
+[V:2] "G"D>C B, D|D C D E|D2 B, G|G F G A|G2 F G|
+[V:3] "G"B>A G B|B A B c|B2 G d|d c d e|d2 c d|
+%
+[V:1] "G"c B A G|"C"F2 G c|"D"B2 A>G|"G"G3 z||
+[V:2] "G"A G F D|"C"C2 E G|"D"G2 F>D|"G"D3 z||
+[V:3] "G"e d c B|"C"A2 c e|"D"e2 d>B|"G"B3 z||
+%

@@ -1,0 +1,16 @@
+X:116
+T:The Charms of Watford
+C:Matthew Cooke, c. 1780
+L:1/8
+M:2/4
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%MIDI gchord fzcz
+P:ABA
+Q:1/2=100
+K:D
+P:A
+"D"d2 fd | "A"ec Ac | "D"d2 fd | "A"ec Ac | "D"d2 ba | "G"gf ed | "A"c2 ec | "/"A2 Bc |
+"D"d2 fd | "A"ec Ac | "D"d2 fd | "A"ec Ac | "D"d2 ba | "A"gf ed | "D"dA FA | "D"d2 !fine!z2 |]
+P:B
+"Bm"d2 cB | "F#"^Ac F2 | "Bm"fd cB | "F#"^Ac F2 | "Bm"dB gf | "Em"ed cB | "F#"^A2 cA | "/"F3 F |
+"Bm"B2 cd | "F#"cd ec | "Bm"d2 ef | "C#m"ef ge | "D"fb fd | "Em"ge dc | "F#"dB c^A | !D.C.! "Bm"B4 |]

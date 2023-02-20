@@ -1,0 +1,23 @@
+X: 3173
+T: Barley Cakes.   a Jig.
+%R: jig
+N: This is version 2, for ABC software that understands voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.3 p.17 33
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+c |\
+B2G (B/c/dB) | A2=F (A/B/cA) | B2G (B/c/dB) | ~d3 g3 |\
+B2G (B/c/dB) | A2=F ABc | edB cBA | G3 G,2 :: d |
+gag fgf | {f}e2d B3 | gag Tf2g | a3 d3 |\
+c2a B2g | ABG TF>ED | G>AB AGF | G3 G2 :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+G3 g3 | =F3 f3 | G3 g3 | GBd g3 |\
+G3 g3 | =F3 f3 | g3 d3 | G3 G2 :: z |
+g3 d3 | e2f g3 | e3 f2g | a2A d3 |\
+a3 b3 & f3 g3 | c2^c d3 | g3 d3 | G3 G2 :|

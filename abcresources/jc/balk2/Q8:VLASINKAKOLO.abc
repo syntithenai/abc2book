@@ -1,0 +1,18 @@
+X: 518
+T: Vlasinka Kolo
+O: Serbia
+F: http://www.youtube.com/watch?v=dArEjg0TeHk
+F: http://www.youtube.com/watch?v=HSCamMyf84w
+M: 4/4
+L: 1/8
+K: Ador
+Q: 1/4=240
+%%MIDI program 20 % Reed Organ
+"Am"c2BGA2A2|c2BGA2A2   |c2BGA2A2     |GFGzA2A2      |\
+c2BGA2A2    |c2BGA2A2   |c2BGA2A2     |GFGzA2A2::
+FGA2A2A2    |c2c2cBG2   |FGA2A2A2     |B2G2A2z2      |\
+FGA2A2A2    |c2c2cBG2   |FGA2A2A2     |B2G2A2z2::
+"C"ede2c2c2 |cABG cde2  |ede2 c2c2    |"Am"cABG A2z2 |\
+"C"ede2c2c2 |cABG cde2  |ede2 c2c2    |"Am"cABG A2z2 :|
+c2BA ABcd   |"C"e2A2A2z2|"Am"c2BA ABcd|e2A2A2z2      |\
+c2BA ABcd   |"C"e2A2A2z2|"Am"c2BA ABcd|e2A2A2z2      |

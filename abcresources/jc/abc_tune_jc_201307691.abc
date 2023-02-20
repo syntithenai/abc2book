@@ -1,0 +1,70 @@
+%%center tunes for several Mary MacDonalds
+
+
+X: 1
+T: (Miss) Mary MacDonald's Reel
+O: 1788
+B: Niel Gow's 2nd Coll. 1788
+M: C
+L: 1/8
+R: reel
+B: Gow – 2nd Collection of Niel Gow’s Reels, 3rd ed., p.31 (orig. 1788)
+Z: AK/Fiddler’s Companion
+K: Gmix
+B |\
+G<GBG AFFA | G<GBG AGBG |\
+D>GBG AFFA | (GcBA) G3 :|
+|: B |\
+G<Gg_B AFFA | G<Ggd gagd |\
+fgfc AFFA | (GcBA) G3 :|]
+
+%%sep 1 1 500
+
+X: 2
+T: (Mrs) Mary MacDonald
+O: 1788
+B: Niel Gow's 2nd Coll. 1788
+R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: printed copy of unknown origin
+M: 6/8
+L: 1/8
+K: Gdor
+[|\
+"Gm"G2BG "F"AFFA | "Gm"G2BG AGBG | "Gm"DGBG "F"AFFA | "Dm"GcBA "Gm"G2GF | "Gm"G2BG "F"AFFA | "Gm"G2BG AGBG |
+"Gm"DGBG "F"AFFA | "Dm"GcBA "Gm"G3 |] A | "Gm"G2gB "F"AFFA | "Gm"G2gd gagd | "C"efcB "F" AFFA |
+"Dm"GcBA "Gm"G3A | "Gm"G2gB "F"AFFA | "Gm"G2gd gagd | "Bb"fgfd "F"ACFA | "Dm"GcBA "Gm"G4 |]
+
+%%sep 1 1 500
+
+X: 3
+T: (Miss) Mary MacDonald
+O: 1788
+B: Niel Gow's 2nd Coll. 1788
+R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: printed copy of unknown origin
+M: 6/8
+L: 1/8
+K: Gdor
+A |\
+"Gm"G2BG "F"ADFA | "Gm"G2BG AGBG |\
+"Gm"DGBG "F"ADFA | "Dm"GcBA "G"G2G :|
+|: D |\
+"Gm"G2g2 "F"ADFA | "Gm"G2g2 gagd |\
+"F"efec ADFA | "Dm"GcBA "Gm"G2G :|
+
+%%sep 1 1 500
+
+X: 4
+T: (Miss) Mary MacDonald
+O: Athole collection
+R: reel
+B: The Athole Collection
+M: C|
+L: 1/8
+K: Gdor
+   B |\
+GGBG AFFA | GGBG AGBG | EGBG AFFA | GcBA G3  :|
+|: B |\
+GGgB AFFA | GGgd gagd | fgfc AFFA | GcBA G2G :|

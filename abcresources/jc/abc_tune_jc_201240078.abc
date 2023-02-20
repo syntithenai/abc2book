@@ -1,0 +1,27 @@
+X: 362
+T: Kick the Rogues out
+R: slip-jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.36 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The time signature was 6/8, but it's obviously 9/8.
+M: 9/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+(FGA) D2B (AFD) | (FGA) D2=c B2A |\
+(FGA) D2B (AFD) | (GFE) (EFA) TB2A :|
+|:\
+(dcd) D2B (AFD) | (dcd) A2g (Tf2e) |\
+(de)f (ef)d (cTB)A | (B/c/d)B (AF)A TB2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d3 d3 d3 | d3 d3 d3 |\
+d3 d3 d3 | A3 A3 D3 :|
+|:\
+d3 d3 d3 | d3 d3 d3 |\
+a3 a3 a3 | g3 f3 d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

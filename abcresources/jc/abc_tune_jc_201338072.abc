@@ -1,0 +1,65 @@
+
+X: 1
+T: Skye Boat Song    [F]
+C: music: Trad.
+C: words: Sir Harold Boulton (1859-1935)
+O: 1884
+%D: 1884 "Songs of the North" by Boulton and MacLeod, London
+S: Concord Slow Scottish Session collection (arr. Barbara McOwen)
+R: air
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+P: Chorus
+|:\
+"F"C3DC2 | F4F2 | "Gm"G3AG2 | "C"c6 | "F"A3GA2 | "Bb"D4D2 | "F"C6 | "(C7)"z6 :|
+w:  Speed, bon-nie boat, like~a bird on the wing, On-ward!~ the sail-ors cry;
+w:  Car-ry the lad that's born to be King         O-ver the sea to Skye.
+P: Verse
+|:\
+"Dm"A3FA2 | A6 | "Gm"G3DG2 | G6 | "Dm"F3DF2 | "Bb"F4F2 | "Dm"D6 | "(C7)"z6 :|
+w: 1.~Though the waves leap, soft shall ye sleep, O-cean's a roy-al bed.
+w:~~~~Rocked in the deep, Flo-ra will keep        Watch by your wear-y head.
+w: 2.~Loud the winds howl, loud the waves roar,   Thun-der-claps rend the air;
+w:   ~Baf-fled, our foes stand by the shore,      Fol-low they will not dare.
+w: 3.~Ma-ny's the lad fought on that day,         Well the clay-more could wield,
+w:   ~When the night came, si-lent-ly lay         Dead on Cul-lo-den's field.
+w: 4.~Burned are their homes, ex-ile and death    Scat-ter the loy-al men;
+w:   ~Yet ere the sword cool in the sheath        Char-lie will come a-gain.
+
+
+X: 2
+T: Skye Boat Song    [A]
+M: 3/4
+L: 1/4
+K: A
+|: "A(E7)"E>FE | "A"A3 | "Bm"B>cB | "E7"e3 | "A"c>Bc | "D"F2F | "A"E3 | "(E7)"z3 :|
+|: "F#m"c>Ac | c3 | "Bm"B>FB | B3 | "F#m"A>FA | A>BA | "D"F3 | "(E7)"z3 :|
+
+
+X: 3
+T: Skye Boat Song    [D]
+M: 3/4
+L: 1/4
+K: D
+|: "D(A7)"A>BA | "D"d3 | "Em"e>fe | "A7"a3 | "D"f>ef | "G"B2B | "D"A3 | "(A7)"z3 :|
+|: "Bm"f>df | f3 | "Em"e>Be | e3 | "Bm"d>Bd | d>ed | "G"B3 | "(A7)"z3 :|
+
+
+X: 4
+T: Skye Boat Song    [G]
+M: 3/4
+L: 1/4
+K: G
+|: "G(D7)"D>ED | "G"G3 | "Am"A>BA | "D7"d3 | "G"B>AB | "C"E2E | "G"D3 | "(D7)"z3 :|
+|: "Em"B>GB | B3 | "Am"A>EA | A3 | "Em"G>EG | G>AG | "C"E3 | "(D7)"z3 :|
+
+
+X: 5
+T: Skye Boat Song    [C]
+M: 3/4
+L: 1/4
+K: C
+|: "C(G7)"G>AG | "C"c3 | "Dm"d>ed | "G7"g3 | "C"e>de | "F"A2A | "C"G3 | "(G7)"z3 :|
+|: "Am"e>ce | e3 | "Dm"d>Ad | d3 | "Am"c>Ac | c>dc | "F"A3 | "(G7)"z3 :|

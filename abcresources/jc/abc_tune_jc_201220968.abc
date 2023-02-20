@@ -1,0 +1,29 @@
+X: 041
+T: the ARGYLL ROUT
+%R: jig
+B: J.Gray's Twenty four Country Dances (for the Year 1812) p.4 #1
+S: http://www.eatmt.org.uk/gray_1812.htm 2014-8-7
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: In bar 17 the length of the first note is wrong; changed to match ba4 21
+N: In bar 25 there's an odd 16th rest between the a notes; left out to fix the rhythm.
+M: 6/8
+L: 1/8
+K: G
+D |\
+G2D DB,D | G2A B2c | d2B GAB | c2A A2B |\
+G2G DB,D | G2A B2c | d2B {B}AGA | B2G G2  |]
+d |\
+gag fef | gdB GBd | gag fef | b2b g2d |\
+gag fef | gdB GBd | gag fef | g2b g2 |]
+d |\
+e2f {a}gfe | d2d d2B | cBc edc | B2c d2d |\
+e2f gfe | d2d d2c | BcB {B}AGA | G2G G2 |]
+d |\
+g3 g3 | a3 a2g | fed def | g2a b2d |\
+g3 g3 | a3 a2g | fed def | g2b g2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change sides back again. down mid: up again. pousette. right &
+%% left at top.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

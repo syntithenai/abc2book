@@ -1,0 +1,18 @@
+X: 1
+T: The Navvie
+O: Trad
+R: hornpipe, reel
+B: RSCDS 45-5
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+"A"[|] Bc |\
+"G"dgfe "D7"dcBA | "G"GBDG B2AG | "D7"FADF A2GF | "G"GDEF "D7"GABc |
+y4 |\
+"G"dgfe "D7"dcBA | "G"GBDG B2AG | "D7"FADF A2GF | "G"G2B2 G2 :|
+"B"|: AG "*"|\
+"D7"FADF A2GF | "G"GBDG B2AG | "D7"FADF A2GF | "G"GDEF "D7"GABc |
+y4 |\
+"G"dgfe "D7"dcBA | "G"GBDG B2AG | "D7"FAfe dcBA | "G"G2B2 G2 :|
+%%text * Some versions have the first 4 bars of the B part an octave higher.

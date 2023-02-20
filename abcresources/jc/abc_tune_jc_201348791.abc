@@ -1,0 +1,36 @@
+X:2
+T:Valse des Niglos (Am/C/A)
+T:Waltz of the Hedgehogs (Am/C/A)
+C:Gusti Malha
+Z:ABC by Moshe Braner, 000825
+N:transposed to: Am, C, A (in parts A, B, C)
+M:3/4
+L:1/4
+P:AABBAC (or other combinations, e.g., AABBACA or  ABBACABBA)
+K:Am
+P:A
+|: "Am"ec'^g | baf | ecB | A3 | ABc | cBA | "E7"A/^G/ B2-|B3 |
+"E7"eba | ^gfe | dBA | ^G3 | ^GAB | Bc>^G | "Am"B/A/ c2-|c3 |
+"Am"ec'^g | baf | ecB | A3 | "A7"AB^c | ^cd>e | "Dm"e/d/ f2-|f2-f/d/ |
+L:1/8
+"Dm"de ef fa | af gf ed | (3"Am"fgf ed e2 | c2 BA ^GA |\
+"Adim"c2-"(E7)"c2-"(F7)"c2 | "E7"B6 |1 "Am"A3 A A2 | A2 z4 :|2 "Am"AC EA ce | a2 z4 ||
+P:B
+K:C
+L:1/8
+"G"GA Bc de | f^c de ba | (3"C"gag ea g2-|g2 ac' ac' |\
+"G"b2 ag f2-| fb fb fb | "C"a2 gf e2-|ee dc BA |
+"G7"GA Bc de | f^c de ba | (3"C"gag ea g2-|g2 ^d2 e2 |\
+"F"a3 a a2 | c'2 b2 a2 | "E"e6-|ee dc BA |
+"G"GA Bc de | f^c de ba | (3"C"gag ea g2-|g2 ac' ac' |\
+"G"b2 ag f2-| fb fb fb | "C"a2 gf e2-|e2 ^d2 e2 |
+"F"a3 a a2 | c'2 b2 a2 | "E"e^G Be ^gb |e'2 ^d2 e2 |\
+"F"a3 a a2 | c'2 b2 a2 | "E"e3 e e2 | e2 z4 ||
+P:C
+K:A
+L:1/4
+"A"efg | fef | ac'g | fef | a3 | "D#dim(D7)"f3 | "E7"g3-|g3 |
+"E7"efd' | bfa | gfe | d^AB | f3 | g3 | "(Adim)"f3 | "A"e2 z |
+"A"efg | fef | ac'a | fef | a3 | "A7"b3 | "D6(G7?)"b3-|b z2 |
+"Dm"ag=f | =fga | "A"ae2-|e f/e/ c/A/ |\
+c3 | "E7"B3 | "A"A/C/ E/A/ c/e/ | a2 z4 ||

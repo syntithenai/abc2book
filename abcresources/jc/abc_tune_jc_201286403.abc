@@ -1,0 +1,24 @@
+X:1
+T:The Highland Cradle Song - seconds
+M:6/8
+L:1/8
+Q:80
+C:
+S:Slow Air
+K:HP
+|: {g}d{g}f3/2g/2{ag}a2e | \
+{ag}a3{f}g3 | \
+{g}c{g}e3/2f/2{gf}g2a |
+{f}g{a}f3/2e/2{g}d3 | \
+{g}d{g}f3/2g/2{ag}a2e | \
+{ag}a3{f}g2f |
+{g}fdf{ag}a2{f}g | \
+{a}((3f3/2gag){a}f3 :: \
+{g}f{g}ed{gdc}d2e |
+{gef}e{g}dc{GdG}c2d | \
+{gde}d{g}cB{GdG}B2c | \
+{gcd}c{g}B3/2c/2{Gdc}d2f |
+{g}f{g}ed{gdc}d2e | \
+{gef}e{g}dc{GdG}c2d | \
+{gde}d{g}c3/2d/2{gef}e{g}d3/2e/2 |
+{g}((3f3/2gag){a}f3 :|

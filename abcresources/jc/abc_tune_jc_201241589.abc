@@ -1,0 +1,26 @@
+X: 4437
+T: PASTORAL DANCE
+C: Carl Volti
+%R: jig, tarantella
+B: James Kerr "Merry Melodies" v.4 p.49 #437
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Repeat symbol added to 1st bar line and final bar line of 1st strain, to fix the rhythm of repeats.
+M: 12/8
+L: 1/8
+K: D
+!p!a2g |:\
+(f^ef) a3 (dcd) f3 | Bcd edB A3- A2d |\
+[1,3 c2(c e2)(e d2)(d f2)f | (a2g) (^d2e) (f2e) (c2A) :|\
+[2,4 Bcd efg bag fed | cBA gfe d3 :|\
+[K:A]\
+e2d |:\
+c2c (c^Bc) e2e B2B |
+d2d A2A c3- c2c |\
+[1 (BcB) G2G A2A c2c | (BcB) f2A G2A B3 :|\
+[2 BcB (g2f) ABA (f2e) | EFE (c2B) "_D.C."A3 ||\
+[K:G]\
+|: def |\
+g2g d2d B2B (Bcd) | e2e c2c A3- A2B |
+c2c A2A F2F D2D | GFG ABc d3 def |\
+g2g d2d B2B (Bcd) | e2e c2c A3- A2G |\
+FGA E2F D2c B2A | G3 ded "_D.C."g3 :|

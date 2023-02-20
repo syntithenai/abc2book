@@ -1,0 +1,2436 @@
+HTTP/1.1 200 OK
+Date: Sun, 20 Aug 2017 14:31:09 GMT
+Server: Apache/2.4.10 (Debian)
+Vary: Host
+Last-Modified: Wed, 26 Jul 2017 08:47:03 GMT
+ETag: "fe9c-555347dfa7e83"
+Accept-Ranges: bytes
+Content-Length: 65180
+
+%abc
+%%abc-alias none
+%%abc-creator ABCexplorer 1.6.1 [25/07/2017]
+%www.village-music-project.org.uk
+%ABC by Simon Wilson March 2013
+%John Johnson, London 1758
+%Choice Collection of 200 Favorite Country Dances Vol 8
+%Revised Oct 2014, changed JJo to JJo8
+%7/2017 more keysigs (Hp)
+
+X:1
+T:Hessian Dance. JJo8.001, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+T:Swab. JJo8.001, The
+M:3/8
+L:1/8
+Q:3/8=60
+K:G
+gdB|G>AG|DEF|(G/F/G/A/)G|gdB|G>AG|DEF|G3:|
+|:def|g2e|(f/g/a/g/f/e/)|(d/e/d/c/B/A/)|def|g2c|B(A/G/)(A/F/)|G2G|
+def|g2e|(f/g/a/g/f/e/)|(d/e/d/c/B/A/)|def|g2c|BA/G/A/F/|G2g:|
+|:d2e|B2c|{B}AGF|GDg|d2e|B2c|{B}AGF|!fermata!G2g:|
+
+X:2
+T:Arne's Maggot. JJo8.002
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+T:Arne's Jig,aka. JJo8.002
+M:C|
+L:1/8
+Q:1/2=90
+K:G
+G2(BG) (Bd)(BG)|F2(AF) (Ac)(AF)|G2(BG) (Bd)(gB)|
+(cA) (Fd) (BG)G2::Tg2(bg) (af)(ed)|e2Tf2{ef}(g/f/g/a/ g)d|
+Tg2(bg) (af)(ed)|e2Tf2(g/f/g/a/ g)d|(ce)(Ac) (Bd)(GB)|
+(Aa)Tf2{ef}(gb)(Bd)|(ce)(Ac) (Bd)(GB)|(A/B/c) DFTG2G,2:|
+
+X:3
+T:Life of the Cause. JJo8.003, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/4
+Q:1/2=100
+K:A
+c2BA|GBB/c/d|c2BA|GBef/g/|acdc/B/|cB/A/Ba|g/a/bB^d|eBE2:|
+|:B2cd|ceed/c/|dfed/c/|BGE2|ce/c/df/d/|ef/g/Ta2|c/d/eEG|AEA,2:|
+
+X:4
+T:Distiller. JJo8.003, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/4=100
+K:Am
+|:ef/g/ af|(ec)a2|ef/g/ ac|e2a2|
+ef/g/ af|(ec)a2|dB=gB|d2f2:|
+|:(eA)(cA)|eATc2|(eA)(cA)|e2a2|
+(eA)(cA)|(eA)(cA)|(dB)(=gB)|d2f2:|
+
+X:5
+T:Weldon's Maggot. JJo8.005
+T:Buddy MacMaster's Traditional Jig,aka. JJo8.005
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+N:This is somehow closely related to Buddy McMaster's trad jig
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+c|BAG DB,G,|GBd gdc|(BA)BG2B|(A2B)c3|
+BAG DB,G,|GBd gdB|cdc BgB|(A2B)c3:|
+|:Bcd ded|def gdc|Bcd ded|defg3|
+Bcd ded|def gdB|cac BgB|(A2B)c3:|
+
+X:6
+T:Green Man. JJo8.006, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=100
+K:G
+G2G2BcdB|A2A2cdec|BcdBG2B2|AGFED4|
+B2d2gfg2|gefga2g2|fga2A2^c2|d4D4:|
+|:B2d2gfg2|gfg2e3d|c2e2aga2|fgafd3f|
+g2b2a2gf|gbagf3d|efge fgaf|g4G4:|
+
+X:7
+T:Strike home ye Britons. JJo8.007
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/4=100
+K:G
+g|egdg BG2g|egdg aA2g|egdg BGcA|dBec BG2:|
+|:d|BdAd BG2A|BcdB cA2d|BdAd BdGg|fedc BG2:|
+
+X:8
+T:Nanny's Choice. JJo8.008
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=80
+K:A
+c/d/|eca2ecdf|ecBA{c}TB3D|CEAB cAdB|ecacTB3c/d/|
+eca2ecdf|ecBA{c}TB3D|CEAB cfed|c2TB2A3:|
+|:c|BEdB cAec|BEdB{c}Tc3A|BEdB cAec|(3agf (3edc{c}TB3c|
+BEdB cAec|BEdB{c}c3A|BEdB cfed|c2TB2A3:|
+
+X:9
+T:Office of Ordnance. JJo8.009, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=80
+K:A
+E|AA cB/A/B2Bd|cecA GBGE|AA cB/A/B2Bd|cdcBA3:|
+|:B|ee gf/e/f2fa|gbge ^dfdB|ee gf/e/f2fa|gagfe3f|
+edcBc2Ac|dcBA GBGE|AA cB/A/B2Bd|cdcBA3:|
+
+X:10
+T:Lilly. JJo8.010, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=90
+K:D
+|:A|dcdAB2AG|F2ED E/E/E EA|dcdAB2AG|EDEF D/D/DD:|
+|:A|FDADF2FA|FDAD E/E/E EA|FDADF2FA|EDEF D/D/DD:|
+|:A|dcdAB2de|f2ed e/e/e ea|gfedB2AF|EDEF D/D/DD:|
+
+X:11
+T:Miss Sparks's Maggot. JJo8.011
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+|:GAB ABc|B2dB2G|ABc def|g3d2B|
+GAB ABc|B2d^c2A|def ge^c|d3D3:|
+|:{e}d^cd {e}d^cd|D2d =c2B|cde ABc|BAG FED|
+{a}gfg {a}gfg|gfe dcB|ABc BcA|G3G,3:|
+
+X:12
+T:Riddle. JJo8.012, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=90
+K:A
+|:c|((3ABA) cA eBAG|((3ABA) cA Bcdf|edca (ec)(ac)|(dB)(ec) A/A/AA:|
+|:c|((3ABA) (ae) (fe) (ae)|(dc)(ac) B/B/B Bc|defga2ec|dBec A/A/AA:|
+
+X:13
+T:Capt' Jolly. JJo8.013
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:Bb
+|:f3B2A|Bcde2g|fedc2B|ABcF3|f3B2A|Bcde2g|fed cBA|B3B,3:|
+|:b3ag^f|gabc3|BAg =fdB|ecA Bdf|gab fdB|e3g3|fed cBA|B3B,3:|
+
+X:14
+T:Nelson's Maggot. JJo8.014
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=80
+K:F
+|:f/g/|afdgc2B2|Af2A BG2f/g/|afdgc2B2|AfcAF3:|
+|:G/F/|EGcGA2Ac|=BcdA{c}=B2AG|g=Bca gfed|egG=Bc3c|
+Acfcd2Bd|=Bdgde2ce|cegb aefc|dBAGF3:|
+
+X:15
+T:Old Glanville. JJo8.015
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+|:g2dg2b|agfg3|efg dBG|cAF GBd|g2dg2b|agfg3|efg afd|ge^cd3:|
+|:d2=fB2d|c2eA2c|Bgf edc|BAG FED|geg fdf|geg fdB|cde dBG|cAFG3:|
+
+X:16
+T:Folly of Youth. JJo8.016, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=100
+K:A
+|:e2cAf2dB|ceac BGFE|e2cAf2dB|gefga2A2:|
+|:B2GEc2AF|dcBA GBeg|a2ecf2dB|ceEGA2A,2:|
+
+X:17
+T:Palatine Lass. JJo8.017, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=90
+K:D
+|:f/g/|afdfe2cA|ddfa eeAf/g/|afdfe2cA|ddgfe3:|
+|:e/d/|ceAa gfg2|aAaA ag/f/ ef/g/|aAa2gGg2|fe/d/ Acd2:|
+
+X:18
+T:Lasses of Lynn. JJo8.018, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=80
+K:G
+c|B>A (B/c/d) G2-GF/E/|DFAB cA2c|B>A (B/c/d) G2Gg|d>edc BG2:|
+|:g|"tr"f>edg "tr"f>ede|fgaB cA2g|"tr"f>efg "tr"f>ede|(f/g/a) (A/B/c) BG2:|
+
+X:19
+T:Capt' Catton's Maggot. JJo8.019
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:Bb
+|:F|B2B Bdf|e3d2c|Bdf Acf|Bgf edc|
+B2B Bdf|e3d2c|d=ef cf=e|f3-f2:|
+|:f|fga bfe|dcBg3|GAB cde|fed cdB|
+bfe dcB|AGFe3|GAB cBA|B3-B2:|
+
+X:20
+T:Crab Tree. JJo8.020, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+|:G2BA2c|B3GAB|c2ed2c|B3GAB|c2ed2c|B2gf2e|fed Ad^c|d3D3:|
+|:d2fe2g|f3def|g2fe2g|f3def|gfe dcB|edc BAG|FAc BcA|G3G,3:|
+
+X:21
+T:Jemmy Lass. JJo8.021, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=80
+K:A
+|:c/d/|edcB (A/B/c) (B/c/d)|(ca)(gf) {f}e2(dc)|db2a (ge)(af)|(ec)(BA)B3:|
+|:c|(BA)(Bc) (dc)(de)|f/g/a2f{a}g2(fe)|(dc)(db) (cB)(ca)|(BA)(BG)A3:|
+
+X:22
+T:Phoebe's Delight. JJo8.022
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:A
+|:E|CEA Ace|{d}c3-c2d/f/|ecA dBG|AED CB,A,|
+CEA Ace|{d}c3-c2a|gbe fa^d|(e3e2):|
+|:B|GBe egb|{a}g3-g2a|bge af^d|eBA GFE|
+CEA Ace|{d}c3-c2(d/f/)|ecA dBG|A3A2:|
+
+X:23
+T:Trip to Epping. JJo8.023, A
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:Bb
+F|B3B2c|dfdB2F|c3c2d|egec2B|Acf afc|d2f =egb|agf{a}Tg3|f3F2:|
+|:f|fg_a gfe|dc=Bc3|efg fed|cBAB2F|BFB cFc|Td3efg|fed{d}Tc3|B3B,3:|
+
+X:24
+T:Nothing Like a Good Thing. JJo8.024
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:A
+|:E|A3A,2C|E2Ac2e|d3B,2d|cBcA2E|FEF GFG|A2cB2d|cea aec|{c}B3-B2:|
+|:(B/4c/4^d/4)|eBGE3|F2AG2B|Ace cea|edc TB2A|GBd cea|aecd2f|edcTB3|A3A2:|
+
+X:25
+T:Lads Come Follow Me. JJo8.025
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+|:G3B2d|cAcB3|ABc def|gdBG3:|
+|:gfe dcB|c3Ade|agf ed^c|d3def|
+gfe dcB|ABG FED|EFG AGF|G3G,3:|
+
+X:26
+T:Now or Never. JJo8.026
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:A
+|:E|cBA ABc|E3E2G|ABc dcB|cBAA2B|
+cAce3|fga gfe|^def Be^d|e3-e2:|
+|:e|edc def|efga3|A3c2e|dBAG2E|
+edc BcA|Bcd efg|aed cdB|A3-A2:|
+
+X:27
+T:Shepherd and Shepherdess. JJo8.027, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=70
+K:A
+(c/d/e) Aa|f2-fa|e>fec|B/B/B Bc|AE- EB/c/|d2(e/d/c/B/)|(ce)(Bc)|A/A/AA2:|
+|:(cA)(dB)|cA-AB|(cA)(ec)|B/B/B Bc|AE- EB/c/|d2(e/d/c/B/)|(ce)(Bc)|A/A/AA2:|
+|:(a/g/f/)g/ ab|(ag)(fe)|(c/d/e) (f/g/a)|(AG)(FE)|(FD)(dB)|(cA)(dB)|(ce)(Bc)|A/A/AA2:|
+
+X:28
+T:Scotch Jenny. JJo8.028
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=80
+K:G
+|:d|(B/c/d) BG gded|gfed Tc3B|c/d/e2d cBAG|FAcBA3:|
+|:A|F/G/A2B (AF)(dA)|B(G G)A/B/Tc3A|(B/c/d) (e/f/g)d2(cB)|(cA)(dB)G3:|
+
+X:29
+T:Primrose. JJo8.029, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+|:d|gfg dgf|gdBG2B|cdBA2G|FGED2d|
+gfg dgf|gegf2d|^cde Ad^c|d3-d2:|
+|:d|dBd=f2e|dcBc3|cAce2d|cBAB3|
+GBd ecA|dBG Bdg|Aag fef|g3-g2:|
+
+X:30
+T:Nanny's Whim. JJo8.030
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=90
+K:D
+|:dcBA|B/c/d2e|de/f/ gf|{f}e2dc|defg|afed|efgf|Tf2e2:|
+|:agfe|faa2|gbeg|fdcA|B2ge|c2ag|fdAc|d2D2:|
+
+X:31
+T:Doctors Commons. JJo8.031
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:Bb
+|:F|B,FB FBd|Bdf dfb|gfe dcB|cdB AGF|
+B,FB FBd|Bdf =egb|agf cf=e|{=e}f3-f2:|
+|:f|fdc {c}=B2d|eGF EDC|ecB{B}A2c|dFE DCB,|
+A,CE DFB|FBd Bdf|gab dec|{c}B3-B2:|
+
+X:32
+T:Virgin's Wish. JJo8.032, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:C
+|:G|c3ece|g3e3|c2ed2c|Bdc BAG|c3eceg3e3|fga dg^f|g3-g2:|
+|:g|g3efg|f3def|egf edc|Bdc BAG|c3ABc|B3GAB|cde fdB|c3-c2:|
+
+X:33
+T:Golden Cross. JJo8.033, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=70
+K:Gm
+|:(G/A/)|BGG,G"^tr"G3(A/B/)|cAA,A"^tr"A3(B/c/)|dBAG {cd}e2dc|dBAG A^FED|
+G,GBG dBAG|^FAce dg^fa|gbag af=ed|g=ed^cd3:|
+|:(d/e/)|f(g/a/) bg{g}f3g|fdcB{B}A3G|FB/c/ dB Aceg|
+fdecB3(G/A/)|BG^FG"^tr"G3(A/B/)|cdec{B}A3(B/c/)|dBAG ecBA|
+dBAG A^FED|G,GBG dBAG|^FAce dg^fa|gedc dBAG|cAG^FG3:|
+
+X:34
+T:Chalkhill Hall. JJo8.034
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=100
+K:G
+|:G2Bdc2Ac|B2GB ABcd|ecBA dBAG|FGABA2D2:|
+|:g2dBG2Bd|c2(ag) fedc|BGcA dBec|fdefg2G2:|
+
+X:35
+T:Alterations. JJo8.035
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=80
+K:A
+|:A/B/c/d/ ea|e2cA|d2fd|B2GE|AGFE|F/G/A2B|(cA)(dc)|"^tr"c2B2:|
+|:B/A/B/c/ Bc|def2|FGA2|dBc2|A/B/c/d/ ea|(ge)(af)|(ed)(cB)|A2A2:|
+
+X:36
+T:Walton Bridge. JJo8.036
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=80
+K:A
+|:e|c/c/c ec acec|B/B/B fB bBfB|c/c/c ec acec|B>cdcc2B:|
+|:B|E/E/E GE BE dB|A/A/A cA ec ae|f/f/f af egaf|edcB"^tr"B2A:|
+
+X:37
+T:Jack's Whim. JJo8.037
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+|:D|G2DB2G|d2Bg2d|efg dcB|cAG FED|
+E<EG F<FA|G<GBA2c|Bdg dcB|{B}A3-A2:|
+|:d|d(=fe) dcB|ced cBA|Bdc BAG|FAG FED|
+EFG ABc|FGA Bcd|Bdg B>cA|G3-G2:|
+
+X:38
+T:Maddox's Delight. JJo8.038
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:D
+A|dfa gec|dAG FED|CDE FGA|Bcd
+AFD|EF^G ABc|def e^ga|fdB {cd}e3|dB^GB2:|
+|:A|AB=c BGG,|B^cdc2A|Bcd efg|agf{f}e2a|
+bgdG2{ga}b|afdF2d|Bgf edc|dAFD2:|
+
+X:39
+T:Syngogue. JJo8.039, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=90
+K:G
+|:gdBG BGBG|edcBA2D2|gdBG BGBG|edcBA4|
+b4a2g2|fgef d^cBA|b4a2g2|fgefd4:|
+|:d=cBc dcBc|d2=f2e2c2|edcd edcd|e2g2f2d2|
+g4d2c2|BcAB GFED|g4d2c2|BcABG4|:
+
+X:40
+T:Plumb Pudding. JJo8.040
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=90
+K:Bb
+|:B2((3dcB)|gedc|B2((3dcB)|AFAF|B2((3dcB)|gedc|((3def) ((3dcB)|c2B2:|
+|:B2((3dcB)|bBbB|B2((3dcB)|AFAF|B2((3dcB)|gedc|((3def) ((3dcB)|c2B2:|
+
+X:41
+T:Sir Charles Grandison. JJo8. 041
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+N:Sir Charles Grandison, a novel by Samuel Richardson published in 1753.
+T:Willing Maid. JJo8.041, The
+M:2/4
+L:1/8
+Q:1/2=90
+K:G
+|:g2fg|dgg2|face|dBAG|g2fg|dbag|faAc|d2D2:|
+|:d2cB|cafc|c2BA|BgcA|B2AG|Eedc|BdDF|G2G,2:|
+
+X:42
+T:Lady Doll St. Clair's Reel. JJo8.042
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=80
+K:Hp
+B|A/A/A cA dBcA|Bg2d BGGB|A/A/A cA dBcA|Ba2e cA A:|
+|:g|(a/g/f/e/) ca eaca|Bg2d BGGg|1(a/g/f/e/) ca eaca|Ba2e cA A:|
+|2(a/g/f) (g/f/e) (f/e/d) (e/d/c)|Ba2e cA A|]
+
+X:43
+T:First of January. JJo8.043, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=60
+K:G
+G2cB/A/|BGFE|DcBA|Gedc|B>G c>A|BGFE|Dd ^c/d/e/c/|d2d2:|
+d>e (dc/d/)|ecc2|c>d (cB/c/)|dBB2|G>B (BG/A/)|BGFE|D>c c>B|B2A2|
+(g/f/g/a/) gd|(g/f/g/a/) gd|g/f/g/a/ gG|((3FGA) FD|((3GAB) ((3ABc)|((3Bcd) ec|B2A2|G4|]
+
+X:44
+T:Namptwich Fair. JJo8.044
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:9/8
+L:1/8
+Q:3/8=120
+K:Bb
+|:"_Only one flat in book, but E note flattened"B2G^F2AD2c|B2GG2B (AcA)|B2G^F2AC3|D2FF2B (AcA):|
+|:BAB cBcd3|_e2cc2F AcA|BAB cBcd3|c2FF2B AcA:|
+
+X:45
+T:Pride of Scotland. JJo8.045, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=90
+K:G
+d|(gf)(gd) e/e/e .e.g|(dB)(AG) A/A/A .A.B|(GE)(DE) (GB)(dg)|(ed)(e>g)e3:|
+|:d|g2(ga) (ge)(dg)|e/e/e edB2Bd|e2cef2df|g2eg (ae)(fd)|
+g2(ga) (ge)(dg)|(dB)(AG) A/A/A .A.B|(GE)(DE) G2.G>.B|(AG)(G>B) G3:|
+
+X:46
+T:Parker's Whim. JJo8.046
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=80
+K:F
+|:c|(A/B/c) (c/d/e)f2(fc)|(d/e/f) (cA) BG-Ga|(gf)(ed) ec-cd|(e/f/g) (G=B)c3:|
+|:c|(A/B/c) (_ec) dB-Bd|(gf)(ed) ec-ca|(bg)(ec)B2(AG)|(A/B/c) (BG)F3:|
+
+X:47
+T:Will Rogers. JJo8.047
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=90
+K:D
+|:g|f2d>f|e2A>G|F>A f>d|e2fe|((3gag) bg|((3fgf) ag|(f>d) (e>c)|d2D:|
+|:G|((3FGF) A>F|(BG) (AF)|D>g f>d|e2E>G|((3FGF) AF|(B>d) (Ag)|(f>d) (e>f)d2D:|
+
+X:48
+T:Trip to Ingestree. JJo8.048, A
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:9/8
+L:1/8
+Q:3/8=120
+K:G
+|:G3B2c (dB)d|G3(B/c/d)B (AF)A|G3B2c (dB)d|efg dBG AEA:|
+|:(ge)g gag fed|geg bgb afd|(ge)g gag fed|(e/f/g)e dBG AFA:|
+
+X:49
+T:Lady Coventry's Delight. JJo8.049
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+|:B2c|dBG gec|d2BA2B|cBA edc|c2BB2c|
+dBG gec|d2Bb2g|fedA2^c|d3:|
+|:d2e|=fed dcB|c2Ac2d|edc cBA|B2GB2c|
+dBG gec|dBG (e/f/g)e|dBG (A/B/c)A|G3:|
+
+X:50
+T:Intrepid. JJo8.050, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+T:Lass and the Money is All My Own,aka.  JJo8.050, The
+M:6/8
+L:1/8
+Q:3/8=120
+K:A
+|:f|ecA ABc|d2cB2A|ecA ABA|B2cd2f|
+ecA ABc|d2cB2A|(c/d/e)c (B/c/d)B|A2AA2:|
+|:e|fdf ece|fdf ece|fga ecA|B2cd2f|
+efg agf|edcB2A|(c/d/e)c (B/c/d)B|A2AA2:|
+
+X:51
+T:Betty Blue. JJo8.051
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/4
+Q:1/2=120
+K:D
+a>bag|f>edf|a>b a/g/f/e/|d2d2|a>bag|f>edf|a>baf|d2d2:|
+|:e>fed|c>BAc|e>fec|A2A2|e>fed|c>BAc|
+e>fec|A3a|A3a|A3a|AaAa|A2A2|f>gfe|
+d>cde|f>gfe|d2d2|f>gfe|d>cdf|afge|d2d2:|
+
+X:52
+T:Demeple. JJo8.052, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+T:Dimple,aka JJo8.052, The
+M:C|
+L:1/8
+Q:1/2=100
+K:D
+|:A|d2fd ecAc|BGEB AFDA|d2fd ea^gf|edcBA2A:|
+|:A|B2G>BA2F>A|GGEGF2DA|B2G>B AdcB|AGFED2D:|
+
+X:53
+T:Grand Parade. JJo8.053, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:D
+|:d2f agf|e2f gfe|fed edc|dAG FED|
+d2f agf|e2f gfe|fed edc|d3D3:|
+|:f2d cBA|B2G FED|DFD EGE|FAG FED|
+GBG AcA|Bed cBA|dfd edc|d3D3:|
+
+X:54
+T:Abel Drugger. JJo8.054
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=80
+K:G
+|:G2G(B/c/) dBGB|D2D(A/B/) cAFA|G2G(B/c/) dBGB|AdAFG2G,2:|
+|:d(e/f/) ge dBGB|D(A/B/) cA dBcA|d(e/f/) ge dBGB|AcAFG2G,2:|
+|:g2"^tr"f2gdBG|cBAG FAFD|g2"^tr"f2gdBG|AdAFG2G,2:|
+
+X:55
+T:Miss Nancy's Delight. JJo8.055
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=110
+K:Gm
+|:D|GBd edc|(^f/g/a)e d2{cd}e|dcB (A/B/c)A|(^F/G/A)FD2D|
+GBd edc|^f/g/ae d2e|dcBTc3|d3-d2:|
+|:d|(=B/c/d)B (f/g/_a)g|(fd)=Bc2_B|(A/B/c)A (e/f/g)f|(ec)AB2e|
+(dc)B (AG)^F|(D^F)A (ed)c|(BA)G (DG)^F|G3-G2:|
+
+X:56
+T:Charming Sally. JJo8.056
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=80
+K:A
+|:cAec|aecA|BEGB|dgbg|cAec|af^da|gbB^d|e4:|
+|:ecAd|f^dBe|geca|(3gba (3gfe|cAec|fdcB|ceEG|A4:|
+
+X:57
+T:Sailors Dance. JJo8.057
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+T:Fair Quaker of Deal. JJo8.057
+M:2/4
+L:1/8
+Q:1/2=75
+K:G
+|:Ggfg|Ggfg|a/g/f/e/ dc|B2A2|Ggfg|Ggfg|{c}BA/G/ {c}BA/G/|G2!fermata!G2:|
+|:bb2a/g/|ad2d|(^cd)(gf)|(^cd)(ba)|(^cd)(gf)|\
+(^cd)(ba)|"^tr"(f>e/d//) "^tr"(e>d/^c//)|d2d2:|
+
+X:58
+T:Miss Longs for it. JJo8.058
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=100
+K:Bb
+|:((3fga)|bfdB fdBF|G2e2-e2dc|d2cBA2B2|c2F2-F2((3fga)|
+bfdB fdBF|c=egba2{ga}b2|{b}a2gf{a}g2fe|=e2f4:|
+|:((3fga)|bfdB fB_af|g2e2-e2c2|{B}A2BcF2E2|E2D4FE|
+DFBF G{F}Eec|d{c}Bbgf2e2|{e}d2cB{d}c2BA|A2B4:|
+
+X:59
+T:King of Prussia's Tamborine. JJo8.059
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/4=100
+K:A
+B/c/d/B/ Aa|edcB|A/B/c/B/ Aa|edc2:|
+|:BB2B-|BB2B/c/|dcBA|GFE2|
+ee2e-|ee2f/g/|adcB|A4:|
+
+X:60
+T:King of Prussia's Tamborine (2nd Part). JJo8.060
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/4=100
+N:Printed next to first part in book,
+N:obviously not meant as a second voice to the tune,
+N:as the dance and the key are different!
+K:A
+A/B/c/B/ Af|edcB|A/B/c/B/ Af|e^de2:|
+|:ee2e|ed/^c/d2|dd2d|dc/B/c2|
+cB/A/{f}e2|cB/A/ {^g}a2|cB/A/ E^G|A4:|
+
+X:61
+T:Trip to the Camps. JJo8.061
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=110
+K:A
+|:E|EAc cAe|ecaa2e|f/g/af ecA|dcBc2E|
+EAc cAe|f^dB a2a|gbg fe^d|eBGE2:|
+|:E|EGBe2E|EGBd2E|EGB efg|aecB2e|
+f/g/af ecA|B/c/dB cde|f/g/af ecA|dcBA2:|
+
+X:62
+T:Ludlow Races. JJo8.062
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=85
+K:Bb
+B2FBB2FB|Bd dc/B/ dbb2|e2cee2ce|egfed2{c}B2:|
+|:f2dBb2fd|e2cAg2fe|d2Bdc2fd|cBAG{B}A2GF|
+B2FBB2FB|Bddc dbb2|e2ced2Bd|cBcAB2B,2:|
+
+X:63
+T:Banks of Tay. JJo8.063
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C
+L:1/4
+Q:1/2=100
+K:D
+F/G/AAA|Ad2e|{g}f2ed|c/d/ee2|F/G/AAA|
+Ad2e|fdAc|d2D2::d/e/fff|fd2B|c/d/eee|
+ec2A|Bd2BAd2A|BAGF|E3E|F/G/AAA|
+Ad2e|{g}f2ed|c/d/ee2|F/G/AAA|Ad2e|fdAc|d2D2:|
+
+X:64
+T:Severn Banks. JJo8.064
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=80
+K:A
+|:c/B/A AA AEF=G|F2ED C/D/EE2|e/d/c cc defg|aecA G/A/BB2:|
+|:G/A/BB2G/A/BB2|cAaA G/A/B B>c|defg afed|c2BA F/G/AA2:|
+
+X:65
+T:Jews Harp. JJo8.065, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/4
+Q:1/2=100
+K:A
+c|BAGF|Ed2f|edcB|ca2c|BAGF|Ed2f|edcB|A2A,:|
+|:d|cBAG|Ff2g|"^tr"a>gaf|eA2B/c/|dBfd|cAaf|edcB|A2A,:|
+
+X:66
+T:Northern Frisk. JJo8.066
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C
+L:1/8
+Q:1/2=80
+K:D
+|:f/e/|fddA B/c/d dA|BGdF E/E/E Ee|fddA B/c/d dB|AFdF D/D/D D:|
+|:D/E/|FDdD FDBD|FDdF E/E/E EG|FDdD FDBD|BdAF D/D/D D:|
+|:d/e/|fdaf ecAc|dAdF E/E/E Ee|fdaf ecAA|BdAF D/D/D D:|
+
+X:67
+T:Trip to Sligo. JJo8.067
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+DGG DGG|DGG A2G|gdd ecc|dAc BAG|
+DGG DGG|DGG"^tr"A2G|gdd ecc|BGGG3:|
+|:Bdd dbb|dcB"^tr"c2B|Acc caa|cBAB2A|
+BGG EGG|DGG"^tr"A2G|gdd ecc|BGGG3:|
+
+X:68
+T:Irish Hero. JJo8.068
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+T:Blakney Forever. JJo8.068
+M:6/8
+L:1/8
+Q:3/8=120
+K:Bb
+B3DEF|GAB cde|dfd cec|BdB AGF|
+B3DEF|GAB cde|dcB AFA|B3B,3:|
+|:f3bfd|e2f gec|d3fdB|A2B cAF|
+B3DEF|GAB cde|dcB AFA|B3B,3:|
+
+X:69
+T:Hanoverian Camp. JJo8.069
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/4=100
+K:G
+GG e/c/B/A/|GG F/A/F/D/|GG e/c/B/A/|B/d/D/F/G2:|
+|:GGgg|{c/}BA/G/ F/A/F/D/|GGgg|{c?}BA/G/ A>A|
+GG e/c/B/A/|GG F/A/F/D/|GG e/c/B/A/|B/d/D/F/G2:|
+
+X:70
+T:Mingotti's Maggot. JJo8.070
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/4=100
+K:A
+e/d/e/f/ ed|cAAB|caBd|caAf|
+e/d/e/f/ ed|cAag|fe fe/^d/|e4:|
+|:B/c/B/c/ dc/B/&E4-|caa2&[E2A,2]z2|B/c/B/c/ dc/B/&E4-|cAAc&[E2A,2]z2|
+B/c/B/c/ dc/B/&E4-|caaf&[E2A,2]z2|e>f e/d/c/B/|A2A,2:|
+
+X:71
+T:Highland Wedding. JJo8.071
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/4
+Q:1/1=80
+K:G
+Bgge|dBAG|"^tr"E>DEG|"^tr"E>DEG|Bgge|dBAG|"^tr"E>DEF|G2G,2:|
+|:gege|dedB|gege|d2B2|geae|gede|dBAG|A2DA|
+Bgge|dBAG|"^tr"E>DEG|"^tr"E>DFG|Bgge|dBAG|"^tr"F>DFE|G2G,2:|
+
+X:72
+T:Trip to the Forest. JJo8.072
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:F
+|:(.c.c.c) cfc|cBA cBA|(.d.d.d) dfd|dcB AGF|
+(.c.c.c) cfc|(.d.d.d) dfd|cAf cBA|(.G.G.G)G3:|
+|:(.G.G.G) GEG|Bdc BAG|(.A.A.A) AFA|cBA[C2G2]A/B/|
+(.c.c.c) cfc|(.d.d.d) dbg|agf ece|f(.F.F)F3:|
+
+X:73
+T:Eight Men of Moidart. JJo8.073
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=80
+K:F
+a|(a/g/f/e/) fcA2Fc|(A/B/c) Fc AGGa|(a/g/f/e/) fcA2Fc|(AB/c/) GC AFF:|
+|:c|AFcF dFcF|AFcF (d/c/B/A/) Gc|AFcF dFcF|AB/c/ Gc AFF:|
+
+X:74
+T:Milk Maid. JJo8.074, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=80
+K:D
+f>g a>f f2e2|d>c d>e d2A2|B2(Bc/d/)c2(cd/e/)|d4D4:|
+|:e>c BA e>c BA|a>f ed a>f ed|B2(Bc/d/)c2(cd/e/)|d4D4:|
+
+X:75
+T:Petit Doit. JJo8.075, Le
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+D2DG2G|ABcB2A|BdDG2G|ABcB2A:|
+|:B2cd2d|ABcB2A|G2GF2F|E2ED2c|
+BdDG2G|ABcB2A|BdDG2G|cBAG3:|
+
+X:76
+T:Who Can Help it Now. JJo8.076
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=90
+K:G
+G>AGe|dBAG|g>age|d2B2|g>age|dBAG|((3ABc) BA|G2E2:|
+|:gdBd|gdBG|g>ef>g|a2A2|gdBd|gdBG|((3ABc) BA|G2E2:|
+
+X:77
+T:Lord Rockingham's Reel or.. JJo8.077
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+T:Scampden's Cade, JJo8.077
+T:Duke of Perth's Reel,aka. JJo8.077
+T:Broom's Reel. JJo8.077
+T:Lolly Pops & BUll's Eyes. JJo8.077
+T:Scamp(s)ton Cade . JJo8.077
+M:2/4
+L:1/8
+Q:1/4=100
+N:Lord Rockingham's collection of pedigrees & breeders' certificates
+N:Pedigrees from WWM/R193 (Sheffield Archives, 52 Shoreham Street, Sheffield S1 4SP, England)
+N:Lord Rockingham's first appearance on the turf dates from 1752 when he started 4 horses:
+N:(1) a bay filly by Cade, her dam by the Lonsdale Arabian;
+N:(2) Scamp(s)ton Cade, also got by Cade;
+N:(3) Silver Leg, by the Earl of Portmore's Cartouch, his dam by Old Cartouch;
+N:and (4) Yorkshire Jack, got by Jack come Tickle me.
+K:G
+B|G/A/B/c/ dB|gBdB|gBdB|aAAB|\
+G/A/B/c/ dB|gBdB|cA d/c/B/A/|BG G:|
+|:f|{g}g>age|{g}a>baf|{f}g>age|be ef|\
+{g}g>age|{g}a>bag/f/|gddc|BG G:|
+
+X:78
+T:Merry Maids of Shefnal. JJo8.078, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/4=100
+K:G
+|:(G/A/B) GD|B,G,D2|(G/A/B) GD|(B/c/d) BD|
+(G/A/B) GD|B,G,D2|(B/c/d) cB|{B} A4:|
+|:(A/B/c) AD|(B/c/d) BD|(c/d/e) dD|(d/e/f) gG|
+(e/d/c) cz|(d/c/B) Bz|((3BAG) DF|G4:|
+
+X:79
+T:Brickmakers. JJo8.079, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/4=100
+K:Bb
+(B/c/)|dB2d|cA2c|BG2B|A^FD2|G2AB|cAG^F|G2G2|G3:|
+|:B/c/|db2a-|ag2f-|f2gf|f2gA|B2cd|e2fg|fdcB|{B}A2GF|
+BA2c-|cB2d-|dceG|{G}^F2ED|G2AB|cAG^F|G2G2|G3:|
+
+X:80
+T:Nebuchadnezzar's Delight. JJo8.080
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:C
+|:{d}"^tr"c>Bc {d}"^tr"cBc|cGF EDC|DBd Ece|Ffd {c}BAG|
+{d}c>Bc {c}c>Bc|ca^f gfg|edc BdG|Ac^FG3:|
+|:GA_B BgG|GA_B AGF|ABc cAa|ABc BAG|
+aed gec|Afd BAG|AGF EGC|DAB,C3:|
+
+X:81
+T:Charming Polly. JJo8.081, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/4=100
+K:A
+|:ae-ec|cA2c|Bd2B|BG2E|CEAd|DFBd|caec|A2A2:|
+|:cecA|BdBG|Aaf^d|bgeB|caf^d|bgeB|ce^df|e2E2:|
+|:d2bd|GdEd|{d}c2ec|aecA|d2bd|GdEd|caec|A2A,2:|
+
+X:82
+T:Lady Petersham's Will. JJo8.082
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/4=120
+N:Could easily be in 6/8.
+K:C
+c>c"^tr"G2|A>A F>E|D>f f>e|(3dec (3BAG|
+c>c"^tr"G2|A>A F>E|(3Dfe (3dcB|c2C2:|
+e>f (3g>ag|(3f>gf| (3e>de|e>f (3g>ag|{g}"^tr"f2e2|
+e>f (3g>ag|(3f>gf (3e>de|d>c (3d>cB|c2C2:|
+
+X:83
+T:One More Dance and Then... JJo8.083
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/4=100
+K:A
+|:c/d/|efeca2cd|e>fec dB2c/d/|e>fec agfe|fedcB3:|
+|:B/c/|dBgd bdcB|cAec acBA|cAGF EDCB,|A,dcB{B}A3:|
+
+X:84
+T:Trip to Paris. JJo8.084, A
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:Bb
+|:B|d2B def|gab fdB|Ace dcB|AGF EDC|
+B,Bd Cce|Acf dgb|agf cf=e|fcAF2:|
+|:f|fdB fg_a|ged {d}e2d|cBA GFE|DCB,{A,}A,2B,|
+CEA cde|DFB def|ged{d}"^tr"c3|B3-B2:|
+
+X:85
+T:Jay's Frolick. JJo8.085
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:C
+|:{d}cBc {d}cBc|cag fed|cAf dBg|eca fdB|
+{d}cBc {d}cBc|cag fed|e^fg Da^f|{f}g3G3:|
+|:{a}g^fg {a}g^fg|(ga)(_b b)ag|a=fd gec|fdc BAG|
+cAc BGB|ceg Bdg|Afe dcB|{B}c3C3:|
+
+X:86
+T:Black Boy. JJo8.086, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/4=100
+K:A
+|:A2c/B/A/G/|Acea|gbed|cA2B|ce^df|eg2e|fa g/f/e/d/|e2E2:|
+|:e=g2f|f/e/d/c/d2|Bd2f|e/d/c/B/c2|Ac2e|d/c/B/A/ GB|Ed c/B/A/G/|A2A,2:|
+
+X:87
+T:Edmonton Assembly. JJo8.087
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=80
+K:G
+G|E/E/E EG DEGA|BGAB AGED|E/E/E EG DEGA|BGABG3:|
+G|(B/c/d) df dega|bgab aged|(B/c/d) df dega|bgab"^tr"g3a|
+(b/a/g) (a/g/f) dbba|gedB AGED|E/E/E EG DEGA|BGABG3:|
+
+X:88
+T:City Mell. JJo8.088, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=80
+K:A
+fg|aedc df2c|dcBA GB2E|ABcA dBec|fdecB2:|
+|:ed|cA fe ^dB gf|e2fga2gf|egaf ecAc|dBAG|A2:|
+
+X:89
+T:Master of Ceremonies. JJo8.089, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=80
+K:G
+g2fed2cB|cAdAB2AG|e2cAd2BG|cAGFG2G,2:|
+|:A2FDc3A|BdBG cecA|BdBG gdcB|cAGFG2G,2:|
+|:B2Bd ^cedc|defg afed|g2gb afed|ged^c{c}d4:|
+|:gdcB ecBA|dBAG AFED|c2ce dBAG|cAGF{F}G4:|
+
+X:91
+T:Scotch Ramble. JJo8.091, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=90
+K:A
+|:A/A/A Ac ecAc|B/B/B GBd2cB|A/A/A Ac (ec)(dB)|c>eBc A/A/AA2:|
+|:ce- ef/g/a2(ec)|aecA B/B/B Bd|(cA)(eA) aecA|c>eBc A/A/AA2:|
+
+X:92
+T:Bonny Kate
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/4=100
+K:A
+|:a>bag aeef|edcB cA-AB|cA- AB/c/ dB -Bc/d/|c>edcB4:|
+|:cA- AB/c/ dBec|fd- de/f/g2ef/g/|a>baf egaf|e>fecA2A2:|
+
+X:90
+T:Crown. JJo8.090, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:D
+dAf edc|dAG FED|dAf edc|B>a^ga3:|
+|:agf gbe|fad cBA|Bge caf|dbg efg|
+agf gbe|fad cBA|GEg FDf|E>dcd3:|
+
+X:93
+T:True Briton. JJo8.093, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=100
+K:Gm
+|:g^fg dgf|g3d2e|dcB ABc|BABG3:|
+|:(Bd)f- fdB|cAF cAF|dcB ABc|BABG3:|
+|:dg^f gab|ag^f gdB|dg^f gab|ag^fg3:|
+|:fed efg|cde ABc|FAc dBG|cA^FG3:|
+
+X:94
+T:Polly Wright. JJo8.094
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=90
+K:C
+|:c2eg fedc|Bcde fdcB|c2egB2dg|Aag^fg4:|
+|:GABc defg|ecaf dBGB|cecA fdBg|ecGBc4:|
+
+X:95
+T:Hercules. JJo8.095, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:D
+|:d2Ad2f|edc dAF|D2f edc|E2g fed|F2ag2f|efd cBA|Bba ^geg|a3A3:|
+|:agf gbe|fad cde|fag fed|c2B AGF|G2BA2c|B2dc2e|dgf edc|d3D3:|
+
+X:96
+T:Lady Bampfylde's Reel. JJo8.096
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=80
+K:G
+|:G>BG>B de/f/ ge|dBgB AA/A/A2|G>BG>B de/f/ ge|dBgB GG/G/G2:|
+|:dBgB dBgB|fg/a/ fd fg/a/ fd|Bgfa ga/b/ ge|dBgB GG/G/G2:|
+
+X:97
+T:Chelmsford Assembly. JJo8.097
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+|:GBd cBA|G2bg2d|(Bd)g- gdB|cAG FDF|GBd cBA|G2bg2d|efg Ee^c|d3D3:|
+|:(de)=f- fdB|G2=fe2c|(e^f)g- ge^c|A2gf2d|b2g e=ce|a2f dBd|gec Aaf|g3G3:|
+
+X:98
+T:Eliz'h Canning. JJo8.098
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=80
+N:Elizabeth Canning was the subject of one of the most sensational trials of the 1750s
+K:A
+|:e/d/|ceAa(f2e)a|dfce dB- Be/d/|ceAa(f2e)a|ceBd cA- A:|
+|:e/d/|c2(d/c/B/A/) GB-Bd|cAac dB-Be/d/|c2(d/c/B/A/) GB-Bd|ceae cA- A:|
+
+X:99
+T:Welch Rabbit. JJo8.099, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:D
+|:D2EF2G|AFA BGB|ABc def|edcd3:|
+|:f2g afa|bag fed|f2g afa|ged cBA|
+f2g agf|e2f gfe|fga efg|f3d3:|
+
+X:100
+T:Nimble Nine Pence. JJo8.100, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:A
+|:A2EA2c|dcBc2B|A2EA2c|dcBc2e|
+fge ^dBd|efga2f|(g2b)(e2g)|fe^de3:|
+|:ecde2=g|fed cec|dBcd2f|edc BcA|
+(a2A)(c2A)|d2B cde|fgaA2c|BAGA3:|
+
+X:101
+T:Mother Midnight. JJo8.101
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:D
+A|ded cBc|d3dcB|ABG F2E|FGED2E|
+FDF AGF|G3EFG|ABc dB^G|A3-A2:|
+|:E|AB=c BAB|G3EFG|B^cd cBc|
+A3ABc|d3def|e3efg|afd gec|d3-d2:|
+
+X:102
+T:Feathers. JJo8.102, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=90
+K:A
+|:cA2B/c/|d2cB|Acef|dBTB2|Acef|d2cB|e2Bd|cAA2:|
+|:B2GE|c2AF|BGEc|dBTB2|ecAf|d2cB|e2Bd|cAA2:|
+|:a2b/a/g/f/|ge2f|(d2c)a|(B2A)c|df2e/d/|cBAa|edcB|A2A2:|
+
+X:103
+T:British Fishery. JJo8.103, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+T:Britifh Fifhery. JJo8.103, The
+M:C|
+L:1/8
+Q:1/2=90
+K:A
+|:cd|ecBAa2(gf)|ecBAB2(AB)|cA- AB/c/ defg|aedcB2:|
+|:GA|BGFEd2(cB)|Acef =g2(fe)|fa^gbe2d2|cB/A/ BA/G/A2:|
+
+X:104
+T:Ben in the Minories. JJo8.104
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+|:gab agf|g2dB2G|cde dcB|(AB)GF2D|
+G2B- B^cd|^cde cAc|def ge^c|d3d3:|
+|:D2EF2G|A2B cBA|G2AB2c|d2e =fed|
+e2f gag|fdBc2e|dcB cAF|G3G3:|
+
+X:105
+T:Tea for Two. JJo8.105
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/4=100
+K:G
+|:g2(b/a/g/f/)|gdBG|ce- ed/c/|BGFD|GB- BA/G/|(c/d/e/f/)g2|fdA^c|d2D2:|
+|:de=f2|ecBc|e^fg2|fd^cd|abc'2|bfge|dBcA|G2G2:|
+
+X:106
+T:Enfield Wash. JJo8.106
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=100
+K:G
+|:GABc2A|B2G AFD|GABc2e|dcBA3|GABc2A|B2G AFD|E3GAB|cAFG3:|
+|:GABc2A|defg3|def gag|fdBc2e|def gag|fdB cAF|E3GAB|cAFG3:|
+
+X:107
+T:Jack of Both Sides. JJo8.107
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=100
+K:G
+|:GAB cAF|GBd FAd|Egf edc|Bed cBA|
+GAB cAF|GBd FAd|Egf ed^c|d3D3:|
+|:def ge^c|dfa gfe|dD=fC2e|B,dB cAF|
+GDB AGF|GDB ceg|fdB cAF|G3G,3:|
+
+X:108
+T:Blind Man's Ramble. JJo8108, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+T:Chips n'Shavins,aka. JJo8108
+M:C|
+L:1/8
+Q:1/4=140
+K:D
+|:B/c/|dAFDG2(FE)|D>FAF GE- EB/c/|dAFDG2(FE)|A>cdA FD-D:|
+|:F/G/|A2AG/F/ GEDF|A>BAF GE- EF/G/|A2AG/F/ GEDF|A>cdA FDD:|
+|:B/c/|d>faf g2(fe)|d>faf ge- ef/g/|afge f>dcB|B<GFE FDD:|
+
+X:109
+T:Prince Edward's Birth Day. JJo8.109
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+|:D|G2AB2c|dec BAG|ABc BAG|F2G AFD|G2AB2c|def gab|agf ed^c|d3-d2:|
+|:e|edc BA^G|A2Bcde|dcB AGF|G2A Bcd|efg dcB|ecAF2f|gec BcA|G3-G2:|
+
+X:110
+T:Joe's Rant. JJo8.110
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=80
+N:perhaps Joe Grimaldi?
+K:G
+|:GG/G/ G>B|AA/A/ A>c|EE/E/ E>F|GDB,G,|GG/G/ G>B|AA/A/ A>c|EE/E/ E>F|(G2"^sic"HA,2):|
+|:dd/d/ d>d|bgdB|cc/c/ c>c|afcA|BB/B/ B>B|gdBG|ca/c/ Ba/B/|A2D2:|
+
+X:111
+T:Eatwick Assembly. JJo8.111
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=80
+K:G
+|:D|DGGAB2AG|FGAB{d}c2BA|Bdef gdBG|FAGF{F}TE3D|
+DGGA{c}B2AG|FGABc2BA|Bdef gbgd|B2G2G3:|
+|:d|gdgbb2ag|fafd{e}Td3c/B/|cfac' Bdgb|A2D2D3D|
+DGGA ABBG|FAcf acBA|BdBG{F}TE3D|E2G2TG3:|
+
+X:112
+T:Sir Charles's Rant. JJo8.112
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+|:G2G dBG|ecA dBG|G2G dBG|c3e3|
+G2G dBG|ecA dBG|B/c/dB A/B/cA|G3G3:|
+|:(e/f/)ge dBG|(e/f/)ged2G|(e/f/)ge dBG|A3d3|
+(e/f/)ge dBG|(c/d/)ecA2c|(B/c/)dB (A/B/)cA|G3G3:|
+
+X:113
+T:Hampsted Belles. JJo8.113
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:Bb
+|:fdB fdB|bag fdB|fdB fdB|Ace dcB|fdB fdB|bag f=ef|cd=e fef|cd=ef3:|
+|:cAF cAF|cdc cAF|Bdf fdB|cdBA2G|FDB, BFD|fdB bfd|efg fbB|FGAB3:|
+
+X:114
+T:My own Whim. JJo8.114
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:12/8
+L:1/8
+Q:3/8=120
+K:A
+|:a|ecd ecd ecde2a|fde fde fde fga[?]|ecd ecd ecd efg|aec ecAB3!fermata!A2:|
+|:AFG AFG AFG ABc|dcB AGF ^EFG C2c[?]|dcB cfc dcB cFc|dcB cfB ABGF2a:|
+
+X:115
+T:Round House. JJo8.115, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:12/8
+L:1/8
+Q:3/8=120
+K:D
+|:A3A2FB3B2A|Bcd cBAB3B2A|dedf2d cBAB2B|AGF EDCD3D3:|
+|:deff2d efgg2e|fga agf efd cBA|def fed efg gfe|fga agf{f}e3e2d/e/|
+f2de2cd2Bc2A|dcB AGFE3E3|B3B2Ad3d2B|AGF EDCD3D3:|
+
+X:116
+T:Trip to Glascow. JJo8.116
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/4
+Q:1/2=100
+K:G
+|:d|BdBg|dB2d|BdBg|cA2c|BdBg|AcAf|gABc|B!fermata!G2:|
+|d|BG2B|AD2d|BG2B|Ad2c|Bgdc|Bgdc|BdgB|!D.C.!BA2|]
+
+X:117
+T:Lem's Rant. JJo8.117
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C
+L:1/8
+Q:1/2=80
+K:G
+|:D|((3GAG) BB dBBB|((3efg) BB cAAA|((3GAG) BB dBBB|((3efg) AA BGGD|
+((3GAG) BB dBBB|dBBB cAAA|((3efg) dd ((3efg) de|((3dcB) Ac BGG:|
+|:agfg ((3fed) db|agfg ((3fed) db|afge fdeg|dcBd ((3cBA) Ad|
+GG ((3efg) GG ((3efg)|GG ((3efg) cAAd|((3efg) ((3fga) ((3gab) de|((3cBA) Ad ((3BAG) G2:|
+
+X:118
+T:Trip to the North. JJo8.118
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/2
+L:1/8
+Q:1/2=80
+K:D
+|:d|dAAF|B/B/B Bd|dAAF|E/E/EE2|dAAF|B/B/B Bg|fedc|d2D:|
+|:e|fdde|fdde|fdaf|eAAe|fdde|faAg|fedc|d2D:|
+
+X:119
+T:My Peggy is a Young Thing. JJo8.119
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=80
+K:G
+|:D|DGGAB2AB|cBAG{G}A3D|DGGE EAAE|DGGA BdAB|
+GGGAB2AB|cBAGA3D|GFGA Bcde|gBcAG3:|
+|:d|Bdddg2fa|gfe^de3d|dggf feed|dggf feed|
+GFGAc2Be|dcBcA3D|GFGA ((3Bcd) ((3efg)|((3dcB) ((3cBA)G3:|
+
+X:120
+T:Ormond Bridge. JJo8.120
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:A
+|:cdee2a|cdee2a|cdee2a|ecA BGE|cdee2a|cdee2a|gbgfaf|Bc^de3:|
+|:GABB2e|GABB2e|eBd cBA|BFA GFE|cdee2a|deff2a|fdf ecA|EFGA3:|
+
+X:121
+T:Novelty. JJo8.121, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:D
+|:g|fdd def|gee efg|fdd def|ecAA2g|fdd def|gag fag|fdf ecA|d3D2:|
+|:g|fga aba|bgg gag|aff fgf|gee efg|fga aba|bgg gag|fdf ecA|dAFD2:|
+
+X:122
+T:Frolick and Free. JJo8.122
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/4=100
+K:G
+|:[G,DBg]2fe|dcBA|[G,DBg]2fe|fg (f/g/a)|[G,DBg]2fe|dcBA|BGAF|G2g2:|
+|:BG (B/c/d)|(e/f/g) (B/c/d)|BGBd|ecAc|BG (B/c/d)|(e/f/g) (B/c/d)|BGAF|G2g2:|
+
+X:123
+T:I'm a top of Tom Tickler's Ground. JJo8.123
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=100
+K:G
+|:B|(GBB)TB2d|(e/f/g)e dBG|(ce)eTe2g|(f/g/a)f gdB|
+(GB)BTB2d|(e/f/g)e dBG|(ce)c (Bd)B|A(gf)g2:|
+|:(e/f/)|gdB gdB|gdB AFD|g(e/f/g) def|gbg afd|
+gdB gdB|gdB AFD|EFG DcB|AGFG2:|
+
+X:124
+T:Under the Rose. JJo8.124
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/4
+Q:1/2=100
+K:G
+|:B2AG|c/d/eeg|dBAG|F/G/AAc|{c}B2AG|{e}d2cB|c/d/e/f/gB|TB2A2:|
+|:d2cB|c/d/eAB|c2BA|B/c/dGA|Bg2B|caAe|dcBA|BGG2:|
+
+X:125
+T:Twenty may play as well as One. JJo8.125
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=80
+K:G
+|:B|GB (d/e/f)|gdBG|ceAc|BGAF|GB (de/f/)|gdBG|ceAc|B2G:|
+|:B|(g/f/e/f/) (g/f/e/f/)|gBgB|(g/f/e/f/) (g/f/e/f/)|aAaA|(g/f/e/f/) (g/f/e/f/)|gBdB|(c/A/c) (B/G/F)|G2G,:|
+
+X:126
+T:Derby Captain. JJo8.126
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:9/8
+L:1/8
+Q:3/8=120
+K:Bb
+|:B3DEF GAB|cde deB AGF|B3DEF GAB|cec AFA!fermata!B3:|
+|:f3dBd gbg|=ece fcB AGF|d3BdB GAB|AGF =ECEF3:|
+
+X:127
+T:St. James's Beauties. JJo8.127
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=100
+K:G
+|:gf|g2d2e2gf|g2d2e2gf|g2fe dcBA|B2G2G2gf|g2d2b2ag|f2d2a2ag|fgaf efge|f2d2d2:|
+d^c|d2A2=c2BA|B2G2G2e^d|e2B2=d2^cB|c2A2A2a^g|a2e2g2fe|f2^c2d2cB|A2d2AGFE|
+F2D2D2gf|g2d2e2gf|g2d2e2f2|g2fe dcBA|B2G2G2BA|B2G2A2Bc|B2G2A2Bc|B2g2ABcA|B2G2G2|]
+
+X:128
+T:Bacon Flitch. JJo8.128, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+T:Trip to Dunmow. JJo8.128
+M:2/4
+L:1/8
+Q:1/4=100
+K:D
+|:a/g/|fddf|eAAG|FdEc|dD Da/g/|fddf|ea^gb|afed|cAA:|
+|:d|dAB=c|BGGe|eBcd|cAAG|Fafd|Egec|dBAG|FDD:|
+
+X:129
+T:Debauchè. JJo8.129, Le
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=100
+K:Gm
+|:dcded2d2|cBcdc2c2|BABcd2B2|A2G2^F2D2|dcded4|cBcdc4|BABcd2G2|A2G^FG4:|
+|:fefgf2e2|d2c2B4|b2B2Tc2B2|ABcAB2D2|E2c2F2B2|ABcAB2D2|E2c2F2B2|ABcAB3c|
+dcded4|cBcdc4|BABcd2B2|A2G2^F2D2|dcded2b2|cBcdc2a2|BABcB2g2|B2A2G4:|
+
+X:130
+T:Jolie Baiseur. JJo8.130, La
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/4
+Q:1/2=100
+K:C
+|:c2BA|G2c2|Bcde|f2e2|Tf2e2|Tf2e2|dcdB|c2C2:|
+|:edef|e2e2|dcde|d2d2|cBcd|c2c2|a3c|Tc2B2|
+c2BA|G2c2|Bcde|f2e2|a2g2|Tf2e2|dcdB|c2C2:|
+
+X:131
+T:Brays of Dornoch. JJo8.131
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/4
+Q:1/2=90
+K:G
+|:D|G2g2|dBAG|c/d/eee|e2ge|dBAG|B2AG|F/G/AAA|
+A3D|G2ge|dBAG|cdef|g3f/e/|dedB|AdBG|E/F/GGG|G3:|
+|:G/A/|B2BG|g2gb|dBAG|e2dc|B2Bd|g2gb|dBAG|A2BA|
+GFEF|G2AB|cdef|g3f/e/|dedg|dBAG|E/F/GGG|G3:|
+
+X:132
+T:Negligè. JJo8.132, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/4
+L:1/4
+Q:3/4=80
+K:Bb
+|:B2BBcB|f2dB2=B|c2ccdc|g3b3|g2ecec|f2dBdB|e2cAFA|B3B,3:|
+|:B2BBcB|d2=ef3|GABdcB|TB3A2G|A2fcBA|B2fdcB|A2fcBA|TG3F2F:|
+
+X:133
+T:Bonsadalians. JJo8.133, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=100
+K:G
+|:G2Bd|G2Bd|ge dc|BG dB|G2Bd|G2Bd|ged^c|d2D2:|
+|:g2gb|g2gb|edef|gdBG|g2gb|g2gb|edef|g2G2:|
+
+X:134
+T:Bristol Wells. JJo8.134
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+|:g2b afd|(e/f/g)e dBG|c2e dBG|FAAA3|g2b afd|(e/f/g)e dBG|(c/d/e)c (B/c/d)B|DGFG3:|
+|:dBG Bdg|dBG Bdg|bgd|bgd|eAAA3|dBG Bdg|dBG Bdg|dgd (B/c/d)B|DGFG3:|
+
+X:135
+T:Trip to Nettle Bed. JJo8.135, A
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=90
+K:Eb
+(EG)B (eB)G|(cA)F{E}D2C|(B,D)F (DF)A|GBDE2((3B/c/d/)|
+(e/B/)TB2(f/B/)TB2|(ge)c{B}=A2G|\
+F=Ac (Ac)e|1(df)=ATB2((3A/G/F/):|2df=AB2||
+|:f2g (fd)B|(ge)B (fd)B|{a}T(g>f)g agf|edc{c}=B3|
+(ge)ca3|(fd)Bg3|(ag)f (ed)c|G2((3F/E/D/)C2((3B/c/d/)|
+{d}e3(BG)E|(cA)(F{E}D3)|f2g (ag)a|(cf)e{e}d3|
+(bg)d (e=B)c|(af)c (d-A)B|(eB)G (cA)F|BGD{D}E3:|
+
+X:136
+T:Milliner's Shop. JJo8.136, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=100
+K:Bb
+|:B>cB F>DF|B>cB F>DF|B>FB d>Bd|f3F3:|
+|:f>gf dbd|cac BgB|f>gf dbd|Td3c3|
+f>gf dbd|cac AGF|dcB cBA|B3B,3:|
+
+X:137
+T:Young Fox. JJo8.137, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=100
+K:D
+d3f2d|gecd2A|(B/c/d)c (dAF)|(BGE) (AFD)|(d/e/f)e (fd)B|(ec)A (^GB)d|
+f3(ed)c|(dc)BA3::(c/d/e)d (ec)A|(Ac)e (ed)c|(d/e/f)e (fd)(B|B)df- fed|
+(e/f/g)f gec|(fd)B ^Ace|(gf)e (dc)B|gf^AB2c|(B/c/d)c dAF|(DA)=c (BA)G|
+(B/c/d)B (ge)g|(Be)dc3|(f/g/a)f (ge)c|(dB)^G (AB)c|(dA)F (Bg)f|edcd3:|
+
+X:138
+T:Downie's Humour. JJo8.138
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=80
+K:D
+|:D|DFAd|fgaf|ecTBA|BGEF|DFAd|fgaf|geaf|d/d/d d:|
+|:f/g/|afdf|edef|dBAF|TEDEF|afdf|edef|dBAF|D/D/D D:|
+
+X:139
+T:Irish Man's Choice. JJo8.139, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+T:My Mind Will Never Be Easy,aka. JJo8.139
+T:Woo'd and Married and a',aka. JJo8.139
+M:9/8
+L:1/8
+Q:3/8=130
+K:F
+|:d|cAA AGA FGA|c2c cdc ccd|cAA AGA FGA|D2d de^cd2:|
+|:d/c/|A2f fgf ffA|ccc cdc ccd|cAA AGA FEF|D2d de^c|dcd:|
+|:A2A AGAF3|ABc ccc def|AGA AGA FEF|D2d de^cd2:|
+
+X:140
+T:Litchfield Races. JJo8.140
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+|:G2GG2B|dBG AFD|G2GG2B|dBGA2D|G2GG2B|dBG AFD|BdB cAF|G/G/GGG3:|
+|:gdB gdB|cec dBG|gdB gdB|A/A/AAA2f|gdB gdB|cec dBG|cec BdB|G/G/GGG3:|
+
+X:141
+T:Blechynden's Maggot. JJo8.141
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=110
+K:F
+|:faf faf|gcc ccc|BdB BdB|AFF FFF|
+faf faf|gee fdd|ecc d=BB|cCC CCC:|
+|:gbg gbg|aff fff|bag fed|^cde ed^c|
+bgg aff|bgg aff|(f/g/a)f cfe|f3F3:|
+
+X:142
+T:Ge Ho Dobin. JJo8.142
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=100
+K:D
+|:D|F>GA B>cA|B>dB A>Bc|d>ef B>cd|e>cAd2:|
+|:c/d/|e>fe e>cA|e>cA A>FG|A>BA A>GF|G>EF G>FG|
+F2A FDF|G2B GEG|F>FA G>FE|D2dD2:|
+
+X:143
+T:Steel Hoop. JJo8.143, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=80
+K:G
+|:GG2D|BB2G|dd2B|g2d2|ec2e|dB2d|cA2c|BG AD|
+GG2D|BB2G|dd2B|g2d2|ec2e|dB2c|BA GF|G2[G2G,2]:|
+|:gg2d|gg2d|gb2g|gb2g|gg2d|gg2d|edcB|B2A2|
+gg2d|gg2d|gb2g|gb2g|gd ed|gd ec|BA GF|G2[G2G,2]:|
+
+X:144
+T:New Year's Day in the Morning. JJo8.144
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=110
+K:A
+|:A2cd2f|eca cBA|fdf ecA|GBA GFE|
+A2cd2f|eca cBA|gba gfe|Bc^de3:|
+|:Ae=d cBA|=GEG FED|dfe dcB|AFA GFE|
+gba gfe|dBd cBA|fdf ecA|EFGA3:|
+
+X:145
+T:Turkish Jigg. JJo8.145
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=100
+K:G
+|:BGG BGG|GBd Tgfg|BGG BGG|DEFG3:|
+|:Bdd Add|^ceg fed|afb gea|AB^cd3:|
+|:Bcd efg|ABc def|GAB cde|DEFG3:|
+|:dBG ecA|fdfg3|ecA dBG|DEFG3:|
+
+X:146
+T:Cavendish Court or.. JJo8.146
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+T:Look Sharp. JJo8.146
+M:3/4
+L:1/8
+W:The Minuet 4 times, the last tune twice.
+Q:3/4=40
+K:G
+G4g2|f>ad2d2|c>eA2A2|F>AD2D2|EGFAGB|A2^c2d2|faA2T^c2|d2D4:|
+M:2/4
+Q:1/4=100
+G/g/f/e/ d/c/B/A/|GGG2|D/d/c/B/ A/G/F/E/|DDD2:|
+|:"^Brisk"B/d/B/G/ c/e/c/A/|f/d/e/f/ gg|B/d/B/G/ A/c/A/F/|GGG2:|
+
+X:147
+T:St. Bride's Bells. JJo8.147
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/4=100
+K:A
+|:a|gfed|cBAa|gfed|c2Aa|gfed|cBAa|(g/a/b) B^d|e2E:|
+|:a|fdBg|ecAa|fdBg|e2Aa|fdBg|ecAc|dfBg|a2A:|
+
+X:148
+T:Scot's Hall. JJo8.148, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+T:Gallop & Shite,aka. JJo8.148
+T:Cow's Corrant,aka. JJo8.148
+M:6/8
+L:1/8
+Q:3/8=120
+K:Hp
+g|fdB BdB|fdBTB2g|fdB BdB|ecATA2g|
+fdB BdB|fdBTB2g|gbg faf|ecATA2:|
+g|(f/g/a)f def|fdBTB2g|(f/g/a)f def|ecATA2g|
+(f/g/a)f def|gbg faf|geg fdf|ecATA2:|
+
+X:149
+T:Princess Augusta's Tamborine. JJo8.149
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/4=100
+K:D
+f//e/<d .d.d|(c/d/e) AG|FA df|e/d/c/B/A2|f//e/<d .d.d|(c/d/e) AG|
+FDgf|Tf2e2::(a/g/f f)e|(^d/e/f)B2|^d/B/c/d/ e/f/g/a/|gfe2|
+(g/f/e) e=d|(c/d/e)A2|c/A/B/c/ d/e/f/g/|fed2|(f//e/<d) .d.d|(c/d/e)d2|
+(a//f/<d) .d.d|(c/d/)e db|(a/f/)d (g/e/)c|(f/d/)B (e/c/)A|F/A/d (g/e/)c|d2D2:|
+
+X:150
+T:Merry Girls of Maidstone. JJo8.150
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=110
+K:G
+|:B2B BdB|A2ATA3|B2B BdB|G2GTG3|
+B2B BdB|A2ATA2g|(f/g/a)c BAG|DEFG3:|
+|:B2B B^c^d|efgTf3|geb gfe|B^c^de2g|
+dgd BdB|cAcB2e|(d/c/B)g BcA|(G3G3):|
+
+X:151
+T:Bona Roba. JJo8.151, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=110
+K:F
+|:CFAc2A|CEGB2A|CFAc2A|GECC3|CFAc2A|G=Bdf2g|edc fed|.c-.c-.cc3:|
+|:cegb2g|fdfa2g|eag fed|eA^cd2e|faf cAF|CEGB2c|AGF BAG|.F-.F-.FF3:|
+
+X:152
+T:Prince George's March. JJo8.152
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=100
+K:D
+A2FGA2d2|f2ede2A2|B2dBA2de|f2ede4|A2FGA2d2|f2ede2f^g|a2^gfe2Bd|c2B2A4:|
+|:f2cde2e2|EFG2TG2F2|EFG2FAd2|{ef}g2f2e3A|a2gfg2A2|g2fef2D2|d2cBA2EG|F2E2D4:|
+
+X:153
+T:Miss Nanny Frowns. JJo8.153
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+|:G|GAGG2e|dBG AFD|GAGG2e|dBGA2:|
+|:A|GABd2g|dBG AFD|GABd2g|dBGA2g|
+bag agf|egc BAG|ABG FED|EAFG2:|
+
+X:154
+T:Chalford Bottom. JJo8.154
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=80
+K:D
+|:d2((3fed)|eAA2|d2((3fed)|eaa2|d2((3fed)|eAA2|((3Bcd) ((3edc)|d2D2:|
+|:((3fga) ((3fga)|gbb2|((3efg) ((3efg)|faa2|((3Bcd) ed|Tc>BA2|((3efg) fd|Acd2:|
+
+X:155
+T:Lasses of Lynn. JJo8.155
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/4
+Q:1/2=100
+K:G
+|:d/c/|BG2d/c/|BG2d|g2fe|dG2G|A>BAd|A>BAd|EFGA|FD2:|
+|:a/g/|fd2a/g/|fd2d|efga|fd2d|egce|dgBe|dcBA|BG2:|
+
+X:156
+T:Love in a Hurry. JJo8.156
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=100
+K:Am
+|:aAB cBA|eEEE2E|^F^GA GAB|AA,A,A,2A,|
+B,CD CDE|FED fed|cBA E^F^G|AA,A,A,3:|
+|:aef gfe|f[aA][gG] [fF][eE][dD]|gde fed|e[gG][fF] [eE][dD][cC]|
+fcd edc|BcA ^GEe|aed cBA|E^F^GA3:|
+
+X:157
+T:Chances. JJo8.157, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:9/8
+L:1/8
+Q:3/8=130
+K:G
+|:c|TB2G Bcd efg|TB2G Bcd cAF|B2G Bcd efg|[G,G]2g (f/g/af)g2:|
+|:[G,G]2g (f/g/af) gdB|[G,G]2g faf bge|[G,G]2g (f/g/af) gdB|ecA dBG AFD:|}
+
+X:158
+T:Trip to White Conduit. JJo8.158
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=100
+K:A
+|:E|ABcA|B2EB|c2Ac|TB2EB|c2Ac|defd|cAEG|A2A,:|
+|:A|cdef|e2ae|Tf2df|e2ae|Tf2af|e2ca|fedc|TB2E2|
+ABcA|B2EB|cBcA|B2EB|c2Ac|defa|edcB|A2A,:|
+
+X:159
+T:Contending Orators. JJo8.159
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=100
+K:C
+|:G2E>G|G2E>G|c2e>g|g3g|a2f>a|g2e>g|f2d>f|e2dc|
+G2E>G|G2E>G|c2e>g|g4|f2d>f|e2c>e|dcdB|c4:|
+|:e2c>e|A2Bc|dedc|B2AG|d2B>d|g2A>e|dcBA|G3A|
+G2E>G|g2e>g|F2D>F|f2d>f|e2c>e|A2f>e|dcdB|c4:|
+
+X:160
+T:Milk Sop. JJo8.160, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/4
+Q:1/2=100
+K:Dm
+|:a|fed^c|d/e/f2a|gfed|^c/d/e2a|A2BA|G2AG|FG/A/GF|EA,A,:|
+|:c|{B}A2GF|A/B/c2f|cAGF|E/F/G2A|BAge|^cdGB|AGFE|D3:|
+
+X:161
+T:Humours of Wapping. JJo8.161
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=100
+K:Bb
+FE|DEFDB2AG|ABcde2dc|dfdB cdec|d2B4FE|
+DEFDB2AG|ABcdF2ED|gabg fedc|d2B4:|
+|:de|fdfd b2ag|fdfdB2cd|ecgf edcB|A2F4FE|
+DFBF GBeB|ABcde3g|fdbg fedc|d2B4:|
+
+X:162
+T:British Carnival. JJo8.162
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=80
+K:Bb
+|:B2B/c/d|{d}c3g|fedc|dBBc|dBBc|dBgf|edcB|cFF2:|
+|:c2c/d/e|{e}d3b|fedc|dBBc|dFGA|BDEG|FEDC|DB,B,2:|
+
+X:163
+T:Now for it. JJo8.163
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/4=100
+K:D
+|:G|FA2g|fd2G|FA2d|cE2G|FA2g|fd2f|edcB|A3:|
+|:A|BG2(e/f/)|gB2G|AF2(d/e/)|fA2G/F/|((3GAB) ((3ABc)|((3Bcd) ((3efg)|fdec|d2D:|
+
+X:164
+T:Scaramouch. JJo8.164
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C
+L:1/8
+Q:1/4=100
+K:D
+|:(D/E/F/G/) A>D B>DA>D|(F/G/A) (B/c/d)B2E2|(D/E/F/G/) A>D B>DA>D|(B/c/d) (e/f/g)f2d2:|
+|:fdeA fdeA|(F/G/A) (B/c/d)B2E>g|fdeA fdeA|(B/c/d) (e/f/g)f2d2:|
+
+X:165
+T:We Have Nothing Else to Do. JJo8.165
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:9/8
+L:1/8
+Q:3/8=120
+K:A
+E|:ABA cec BGE|ABA cec dBG|ABA cde fga|fdB ecA BGE:|
+|:(a/g/f/g/)a ecA ecA|(a/g/f/g/)a fdB fdB|(a/g/f/g/)a ecA ecA|fdB ecA BGE:|
+
+X:166
+T:Shuter's Humour. JJo8.166
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=90
+K:D
+|:c|d2(f/g/a)|fdec|d2(f/g/a)|e2g2|fdec|dBAG|FeEd|D2d:|
+|:e|fdec|fdec|dBcA|^G2A2|(A/B/c) (B/c/d)|cefd|caB^g|[Aa]2Ac|
+d2(f/g/a)|fdec|d2(f/g/a)|e2g2|(f/g/a) fd|ecdB|AGFE|D2d:|
+
+X:167
+T:Leave off here. JJo8.167
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=100
+K:A
+|:e|c/d/ece2e|c/d/eca2e|c/d/ec d/e/fe|dBBTB2e|
+c/d/ece2e|c/d/eca2e|f/g/af g/a/bg|aAAA2:|
+|:c/d/|e3cAc|efe cAc|d3BGB|ded BGB|
+ece fdf|gega3|fdc Bag|aAAA3:|
+
+X:168
+T:Lord Anson for ever. JJo8.168
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/4
+Q:1/2=100
+K:G
+|:g|"_Brisk"GGGA|B/A/B/c/Bc|ddde/f/|g/f/g/a/fd|edgd|edgd|cBAG|A2D:|
+|:d|DDDE|F/E/F/G/FG|Aedc|Tc2B[gA]|GBAg|GBAe|dcBA|G2G,:|
+
+X:169
+T:Mad Couple. JJo8.169
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=80
+K:A
+|:E|Ac/B/A eae|fdf eae|fdf ed/c/B/A/|dcBA2:|
+|:E|Ac/B/A FDF|Bd/c/B GEG|AcA fga|dcBA2:|
+|:e|efe dcB|cea cBA|EAc EBd|cdBA2:|
+|:e|aed ^cde|fdc Bcd|ecA Bcd|cdBA2:|
+
+X:170
+T:Cardinal. JJo8.170, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=80
+K:G
+|:c|{c}B>AGB|Tce-ec|{c}TB>AGB|ADDc|{c}B>AGB|cegc|BGAF|G[GG,] [GG,]:|
+|:g|{g}Tf>edf|gafg|{g}Tf>edf|aAAB|{c}B>AGB|cegc|BGAF|G[GG,] [GG,]:|
+
+X:171
+T:Spithead Fleet. JJo8.171
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=110
+K:Gm
+|:G/F/|DGA Bcd|cAFTF2A|BGA Bdg|fdB TB2b|bag fdd|fdd ecc|dg2fdc|BGGG2:|
+|:d|gfg def|BcdTf2d|gfe dcB|gfed2a|bag fdd|fdd ecc|dg2fdc|BGGG2:|
+
+X:172
+T:Trip to Virginia. JJo8.172
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/4=100
+K:F
+|:f/e/f/g/ fc|{B}A2GF|B/c/d BG|A/B/c AF|f/e/f/g/ fc|{B}A2GF|d/e/f BA|G2C2:|
+|:G/F/G/A/ GA|B2cd|cBAG|AFFe|f/e/f/g/ fc|dbag|ag/f/ ce|f2F2:|
+
+X:173
+T:Something New. JJo8.173
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:9/8
+L:1/8
+Q:3/8=130
+K:Bb
+|:B3BFEF3|B3BFD EFG|B3BFD E2E|DEF GAB ABc:|
+|:B3fdfF3|B3fdf gab|B3fdfF3|DEF GAB ABc:|
+
+X:174
+T:Wild Goose Chace. JJo8.174
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=75
+K:Bb
+|:B|dfdB|egec|dfdB|AcAF|dfdB|egec|dBFA|B3:|
+|:B|FBFD|EcAE|DFEG|FDCB,|FBFD|EcAE|DBCA|B3:|
+|:f|dffb|bfdB|cdef|gBAF|Ge2G|Fd2F|EcFA|B3:|
+
+X:175
+T:Take a Dance. JJo8.175
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:Hp
+|:B2cd2e|fedTc3|B2cd2e|f2g fdB|B2cd2e|fedTc3|A2Bc2d|e2a (ec)A:|
+|:(a2f)(g2e)|(f2d)Tc3|B2cd2e|f2g fdB|aaf gge|ffdTc3|A2Bc2d|e2a (ec)A:|
+
+X:176
+T:Canterbury Revel. JJo8.176
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=70
+K:G
+|:D|DGBG|cABG|ABcA|B2g2|ecdB|cABG|AcBA|G2[GG,]:|
+|:d|gfga|gbgd|egec|B2g2|ceac|BdgB|AcBA|G2[GG,]:|
+
+X:177
+T:Jenny of the Green. JJo8.177
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/16
+Q:1/4=100
+K:Eb
+|:((3EEE) GEBG e2|((3EEE) GE DFD[BB,]|((3EEE) GEBG e>g|((3fed) ((3cB=A) B2B,2:|
+|:((3BBB) dBFB _a2|((3BBB) eBgB b2|((3EEE) G>B ((3EEE) A>c|BAGF E2e2:|
+
+X:178
+T:Sally's Taste. JJo8.178
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=80
+K:D
+|:d2de/f/|e2ef/g/|fafd|ecBA|d2de/f/|e2ef/g/|fdec|d4:|
+|:fgaf|bgfg|efge|afef|defd|gfed|cdef|e2A2|
+d2de/f/|e2ef/g/|fafd|ecBA|d2de/f/|e2ef/g/|fdec|d4:|
+
+X:179
+T:Lib the Loun or.. JJo8.179
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+T:Balgeny. JJo8.179
+M:2/4
+L:1/8
+Q:1/4=100
+K:F
+|:c>d c/B/A/G/|FCDE|FdcB|A2f2|c>d c/B/A/G/|FCDE|FdcB|{B}A2{G}F2:|
+|:fafa|fafc|dbdg|{f}e2{d}c2|c>d c/B/A/G/|Fcde|fdcB|{B}A2{G}F2:|
+
+X:180
+T:Alcove. JJo8.180, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=80
+K:A
+|:e|c2Ae|c2Ae|EAAA|A3B|cAAB|cAAB|cedc|{c}B4:|
+|:B|G2Ed|{e}d2cB|cBAa|A2AB|GFEd|d2cB|cAaf|Tf2e>e|
+f2Df|e2Ce|dcBA|G/A/B Ec|d2fd|Tg2af|edcB|A4:|
+
+X:181
+T:Wildboar's Maggot. JJo8.181
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=80
+K:Bb
+|:FE|DFB2-Bdfd|"^tr"c>B"^tr"c>dc2de|f3g "^tr"fd"^tr"cB|ABcdc2FE|
+DFB2-Bdfd|=efgab2ag|af=egc2fe|"^tr"f2F2F2:|
+|:cB|ABcde2dc|gecfA2d^f|g3a bg^fb|d2gab2ag|
+f2ed gecf|dBGcA2ga|bfceG2BA|"^tr"B2B,2B,2:|
+
+X:182
+T:Lasses of Leeds. JJo8.182, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=80
+K:G
+|:D|({GA}B2)BB|TB3g|(dB)(AG)|FAFD|({GA}B2)BB|TB3g|BGAB|!fermata!G2:|
+|d|cBAG|FGAd|^cBAG|{G}F3A|{Bc}d2dd|^ceAg|fed^c|!D.C.!{c}d3|]
+
+X:183
+T:Gallant Blakeney. JJo8.183
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+|:G3d2c|BGB AFD|EGE AcA|F3D3|G3d2c|BGB AFD|(E/F/G)E AGF|G3G,3:|
+b3g2b|afa geg|faf gbd|^c3A3|afa bgb|afa geg|faf ed^c|d3D3|
+G3d2c|BGB AFD|EGE AcA|F3D3|G3d2c|BGB AFD|EGE AFD|G3G,3||
+|:BdB c2a|AcAB2g|EGE AcA|F3D3|G3d2c|BGB AFD|EGE (F/G/A)F|G3G,3:|
+
+X:184
+T:Partridge. JJo8.184, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=100
+K:G
+|:g2g2dgg2|face dBAG|g2g2gbag|faA^cd2D2:|
+|:{e}d2cB cfad|{d}c2BA BdgB|cBAG Fedc|BdDFG2G,2:|
+
+X:185
+T:Blakeney's Tamborine. JJo8.185
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/4=100
+K:A
+|:AECA,|[A,3E3A3](c/B/A)|eBGE|[E3B3e3](gf/e/)|d/c/B- Bd|c/B/(A A)F//(G//A/)|GF/E/T [B,2F2]|[E4B4e4]:|
+|:ef=ge|dB[B,2F2B2]|defd|cA[A,2E2A2]|c>dec|B/e/^d/f/ eA|GF/E/TF2|E2z/=D/C/B,/|
+A,CEA|[A,2E2A2](c/B/A)|EGBe|[E3B3e3](g/f/e)|ceac'|{c'}b3d|cB/A/ EG|[A,4E4A4]:|
+
+X:186
+T:Barry's Delight. JJo8.186
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=80
+K:D
+|:D2((3FGA)|BGAF|D2((3FGA)|BGEd|D2((3FGA)|BGAg|fdec|dAFA:|
+|:{g}fedf|gfeg|eAgA|fAbA|{g}fedf|gfeg|fdec|dAFA:|
+
+X:187
+T:Little Driver. JJo8187
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:Bb
+|:TB3cde|fga bfd|TB3cde|dBG cAF|TB3cde|fga bfd|gfg cd=e|Tf3F3:|
+|:Tf3gfg|cde dcB|Tg3aga|bag fed|F3GAB|cde fga|bfd ecA|TB3B,3:|
+
+X:188
+T:Jacky Wagtail. JJo8.188
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:D
+|:d3AFD|BGE EFG|ABA AFD|fdB Bcd|efe ecA|BGE EFG|ABA AFD|dAF DFA:|
+|:d3faf|gbg efg|d3efg|bgb afd|gbg faf|ecA Bcd|ABA AFD|dAF DFA:|
+
+X:189
+T:Tommy's Chance. JJo8.189
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+|:gdBG3|gdBG3|gfe dcB|cBAG3|DFAd3|DFAd3|d^cB AGF|GFED3:|
+|:dfa afd|afdTB3|agf edc|Tc3B3|dBG ecA|fdfTg3|ege faf|Tg3G3:|
+
+X:190
+T:King's Arms Assembly. JJo8190, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=80
+K:Amix
+|:af Tfe//f//|af Tfe//f//|gfed|cdeA|af Tfe/f/|af Tfe/f/|gfed|Ac!fermata!d2:|
+|:fda2|eca2|d/e/f/^g//a// bd|cBA2|fd^ge|b^ged|caB^g|a4:|
+
+X:191
+T:Hawke's Humour. JJo8.191
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=90
+K:A
+|:Aece|Aece|Be dc|B/B/BB2|Aece|aecA|BcdB|A/A/AA2:|
+|:aecA|aecA|aecA|B/B/BB2|ABcd|eaga|ecdB|A/A/AA2:|
+|:AEAE|CEAc|BAGF|E/E/EE2|AEAE|CECF|ECDB,|A,/A,/A,A,2:|
+
+X:192
+T:Worcester Races. JJo8.192
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/4
+Q:1/1=90
+K:C
+|:gcec|gcac|gcec|g2fe|gcec|gcac|fedc|d2G2:|
+|:GEcA|GEGE|GEcA|G2E>F|GEcA|GEGe|dfed|c2C2:|
+
+X:193
+T:Trip to Bath. JJo8193, A
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=90
+K:G
+|:d|BGGA|B3c|dgdB|ceAc|BGGA|Bdbg|fde^c|d3:|
+|:d|dBdB|ceAB|BdGB|AFFD|dBdB|ecTc2|fdef|g3d|
+BGGA|B3d|dgdB|ceAc|BGGA|Bdge|dBcA|G3:|
+
+X:194
+T:Miss Townsend's Delight. JJo8.194
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=100
+K:Dm
+a/g/|(fed) ^cde|(d^c)d-d2d|ede- efg|f>ed zc'b|
+(agf) (efg)|fef-f2(g/a//b//)|agf cfe|Tf<eff2:|
+|:a|a>ga Ffa|g>fg Eeg|(fe)d (bg)e|d3^c2A|
+=B^cd efg|fd^ga2=g|fed A=B^c|d3D2:|
+
+X:195
+T:Drunken Doctor. JJo8.195, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+Q:3/8=90
+K:G
+|:G3G,2d|gdB ecA|Bdc BAG|FAG FED|G3G,2d|gdB ecA|BdB AFD|G3G,3:|
+|:d3D2d|fag fed|c3c//d//e//f// ge^c|a3dfa|g3^ceg|f/g/af ed^c|d3D3|g3dBG|
+e3AFD|Bdc BAG|FAG FED|G3G,2d|gdB ecA|BAG DEF|G3G,3:|
+
+X:196
+T:Highland Man Kissd his Mother. JJo8.196
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:C|
+L:1/8
+Q:1/2=90
+K:C
+|:cg2e gcge|cg2Te dBGB|cg2e gcge|a^fge dBGB:|
+|:ceAe ceAe|ceAe d/c/B/A/ GB|ceAe ceAg|a^fge dBGB:|
+
+X:197
+T:Loving Susee. JJo8.197
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=80
+K:D
+|:d2(c/d/e)|dAFD|f2(e/f/g)|fdAF|a2(g/a/b)|acdg|(f/g/a) gf|fez2|
+d2(c/d/e)|dAFD|f2(e/f/g)|fdAF|a2(g/a/b)|(ac)(dg)|fdec|d2D2:|
+|:f2(e/f/g)|f<dc<B|g<ed<c|T(B>^A)B2|e2(d/e/f)|e<cB<A|f<dc<B|A^GA2|
+d2c/d/e|dAFD|f2e/f/g|fdAF|a2g/a/b|acdg|fdec|d2D2:|
+
+X:198
+T:Lady Cordelia's Jigg. JJo8.198
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:6/8
+L:1/8
+N:Key sig given as one flat in MS
+Q:3/8=100
+K:Bb
+|:"^key sig given as one flat in MS"B3F2f|edcd3|ge2fd2|ecB AGF|B3F2f|edcd3|bg2a2f|abgf3:|
+|:c3F2f|edcd3|(c/d/e)c (g/a/b)B|(A/B/c)AF2E|DFB FBd|(g/a/b)gf2e|dcB FBA|B3B,3:|
+
+X:199
+T:Mantua Makers Frolick. JJo8.199, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=80
+K:Bb
+|:B2((3GFE)|D[B,B] DF|B2((3dcB)|AF Ac|B2((3GFE)|D[B,B] DF|d>B F>A|B4:|
+|:B>df>d|b>dc>B|A>Bc>A|a>cB>A|G>AB>G|g>ed>c|B>G B/A/G/F/|G4:|
+|:f>d ((3dcB)|b>a ((3agf)|e>d ((3dcB)|A>GF>E|DFBd|EGce|cAFA|B4:|
+
+X:200
+T:Tartar. JJo8.200, The
+B:J.Johnson Choice Collection Vol 8 1758
+Z:vmp.Simon Wilson 2013 www.village-music-project.org.uk
+M:2/4
+L:1/8
+Q:1/2=90
+K:Hp
+|:D2((3Bcd)|BGAF|GABG|E2B2|D2((3Bcd)|BGAF|defd|B2d2:|
+|:defd|ecdB|AcdF|E2B2|DEFG|ABAF|GEAF|D2d2:|
+
+

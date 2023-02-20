@@ -1,0 +1,20 @@
+X: 698
+T: the Skibbereen Lasses   #2
+R: reel
+%S: s:2 b:12(6+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #698
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0698/oneill-1001-0698-1.abc
+N: Compacted via repeats and multiple endings [JC]
+%m: Tn = (3n/o/n/
+M: C|
+L: 1/8
+K: A
+"^A"\
+|: e2(cA) cdef | =gedc BcdB |\
+[1 e2(cA) cdef | =gedB TcAA2 :|\
+[2 cAcd edef | =gedB TcAA2 |]
+"^B"\
+|: cAce a2(ef) | =gedc BcdB |\
+[1 eA (3.A.A.A a2(ef) | =gedB (TcA)A2 :|\
+[2 A2(3(Bcd) eaaf | =gedB TcAA2 |]

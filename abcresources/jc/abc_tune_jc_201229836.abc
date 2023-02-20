@@ -1,0 +1,37 @@
+X: 12
+T: Jemmy Jigger
+%R: jig
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+|:\
+B2d cBA | BAG ^F3 | G2B A^FD | GBG A^FD |\
+ded cdc | BAG ^F3 | G2g (^f/g/a)f | g3 G3 :|
+d2f edc | dcB A3 | B2d cAF | BdB cAF |\
+fgf efe | ded {d}c3 | BdB cAF | B3 B,3 |
+d2f- fd=B | c2e- ecA | B2d- dBG | ^F2A- AFD |\
+d3 c3 | BcB A3 | dBG A^FD | G3 G,3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+G3 "+6"a2^f | g2e "#"d2c | "6"B2G "#"d3 | "6"B2G "#"d3 |\
+"6"b3 "+6"a3 | g2e "#"d2c | "6"B2e "#"d2D | G3- G3 :|\
+"Last Strain once"\
+b3 c'2a | b2g f2e |
+d2B f3 | d2B f3 |\
+b2d' c'2a | b3 f2e | d2B f2F | B3 dfb |\
+d'3 "7;="G3 | "b6"c'3 "7"f3 | "6"b3 "6"e3 | "#"d3 z2z |\
+b3 a2^f | g3 "#"d2c |
+"6"B2G "#"d2D | G3 G3 |]
+%%begintext align
+%% Cross over and Right Hand & left with the 2d Cu. half Round. cast off & set
+%% to the 3d Cu. & turn   Lead off out Sides with the 2d Couple and turn &
+%% Right Hand & left quite-Round.
+%%endtext

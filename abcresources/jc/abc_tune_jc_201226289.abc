@@ -1,0 +1,18 @@
+X: 101	% 23
+T: Fischer's Hornpipe
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.10 #1
+R: hornpipe, reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain isn't repeated in this version.
+M: 2/4
+L: 1/16
+K:D
+V: 1 name=23
+(3(ABc) |\
+dAFD GBAG | FDFD GBAG | FDFD GEGE | FDFD E2(3(ABc) |\
+dAFD GBAG |
+FDFD GBAG | FGAB cdec | d2d2 d2 :|\
+(cd) |\
+ecAc efge | fdAd fagf |
+ecAc efge | fdcB A2(dc) |\
+BGDG Bdcd | AFDF Adcd | BdcB AGFE | D2d2d2 |]

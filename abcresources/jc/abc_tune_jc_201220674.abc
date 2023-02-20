@@ -1,0 +1,22 @@
+X: 3
+T: the Mariners Compass is Grog.
+%C: Mr. Gray
+%R: jig
+B: Mr. Gray "24 Country Dances for the Year 1805" p.2 #1
+S: http://folkopedia.efdss.org/images/9/92/ThompsGray_24_1805.PDF  2013-12-2
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Add dot to last note in each strain to fix the rhythm.
+M: 6/8
+L: 1/8
+K: F
+|:\
+fcB AGF | ddd (d2e) | fcB AGF | GEC C2e |\
+fcB AGF | Gce gec | Afe dc=B | c3 c3 :|
+|:\
+cAF Acf | dAB (B2c) | d=BG Bdf | ecc cde |\
+fga cef | Bcd GcB | AGF CDE | F3 F3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Twice down the mid: up again, hands 4
+%% round at bottom right & left at top.
+%%endtext

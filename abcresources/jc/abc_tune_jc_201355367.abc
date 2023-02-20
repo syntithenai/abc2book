@@ -1,0 +1,49 @@
+X: 7
+T: la Zone de Venus
+R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755
+F: http://books.google.com/books?id=ipV0y26Vq8EC
+M: 6/8
+L: 1/8
+P: Rondeau
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+"A"|:\
+c3 BAB | E2F E2A | E2A G2A | B3 BAB |\
+c3 BAB | E2F E2A | Fdc B2A | HA6 :|
+"B"[|\
+e2a e2a | cde f3 | df2 df2 | Bcd e3 |\
+ABA ABA | ABA GFE | ABA B2e | c3 B3 |]
+"C"[|\
+c2c cBA | e2e e3 | A2A AGF | G2F E2B |\
+c^de fga | ^dcB A3 | GFE TF3 | E6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+"A"|:\
+"A"a3 "E"e3 | "A"c2d c2A | "A"c2c "B7"B2A | "E"e3 E3 | "A"a3 "E"e3 |
+"A"c2d c2A | "D"d3 "E7"e2E | "A"HA6 :|"B"[| "A"A3 A3 | "A"A3 "D"d3 | "Bm"b3 "E7"g3 |
+"E7"e3 "A"c3 | "A"A3 A3 | "A"A3 "E"e3 | "A"A3 "E"e2g | "A"a3 "E7"e3 "_d.C."|]
+"C"[|\
+"A"a2a a3 | "E"g2g g3 | "F#m"f2f "B7"^d2B | "E"e3 E3 | "A"A6 |
+"B7"B3 c2^d | "E"e2c' "B7"b2B | "E"e6 "_d.C."|]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+% %sep 1 1 400
+% %center La Zone de Venus
+% %text Le Grand Rond - - - 2/1
+% %begintext align
+% %   The Ladies go forward lifting up their hands
+% % and joining them together in the form of pyramids,
+% % the Gentlemen at the same time follow
+% % the Ladies and enclose them by taking hold of
+% % each others hand, All Rigaudon; then the Ladies
+% % go Round to the Left, while the Gentlemen
+% % go Round to the Right - - 1/2
+% %endtext
+% %text Chass\'e up and down - - 1/1
+% %text A Double Moulinet, the Ladies in, and the Gentlemen out - - - 1/3
+% %text Chass\`e up and down - - 1/1
+% %sep 1 1 400

@@ -1,0 +1,27 @@
+X: 032
+T: Mr JAMES RAMSAY
+C: J. ANDERSON
+R: Strathspey
+B: Glen Collection p.3 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: A
+%
+V: 1
+|:\
+A,3Ac3A (d2B2)(c2A2) | E3A dcBA G3B TB4 | A,3Ac3A (d2B2)c2a2 | e3c BcdB (c2A2) A4 :|
+(a2g2)(a2e2) c3AE3e | (a2g2)(a2c2) (G3B) TB4 | (a2g2)(a2e2) c3ec3A | d3c Bfed (c2A2) A4 |
+{efg}a3ga3e (c2B2)(c2A2) | A,3A dcBA (G3B) TB4 | A3EC3E D3FE3c | d3c Bfed (c2A2) A4 |]
+%
+V: 2
+|:\
+[A4A,4][c'4a4e4] [b4g4e4][c'4a4e4] | [A4A,4][c'4a4e4] [e4E4][d'4g4e4] |\
+[A4A,4][c'4a4e4] [b4g4e4][c'4a4e4] | [e4E4][d'4g4e4] [a4A4] [c'4a4e4] :|
+A4[c'4a4e4] [c'4a4e4][c'4a4e4] | [a4A4][c'4a4e4] [e4E4][b4g3e4] |\
+A4[c'4a4e4] [c'4a4e4][c'4a4e4] | e4[d'4g4] A4[c'4a4] |
+A4[c'4a4e4] [a4e4][a4e4] | [e4c4][a4e4] [b4e4][g4e4] |\
+A4[a4e4] [a4f4d4][a4e4c4] | A4[g4e4] [a4e4A4][a4e4A4] |]

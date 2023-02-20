@@ -1,0 +1,18 @@
+X: 2031
+T: Lady Loudon's    Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.3 #1 (top 6 staves continued from p.2)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - -
+V: 1 staves=2
+!p!e/f/ |\
+g<cTg>e g<cTg>e | g<cTg>e ad- de/f/ | g<cTg>e g<cTg>e | f<aTg>f ecc :| e |!f! G>cE>c G>cec | G>cE>c dD-D>c |
+G>cE>c G>cec | (f/g/a) Tg>f ecTc>e || G>cE>c G>ce>c | G>cE>c dD-Df/g/ | a>fg>e f>de>c | f<aTg>f ecc |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+!p!z | c'2c'2 c'2c'2 | c'2c'2 d'2d'2 | c'2c'2 c'2c'2 | f2g2 c2c :| z |!f! c2c2 c2c2 | c2c2 g2G2 |
+c2c2 c2c2 | f2g2 c2c2 || c2c2 c2c2 | c2c2 G2Gz | f2e2 d2c2 | f2g2 c2c |]

@@ -1,0 +1,68 @@
+X:1
+T:Scarborough Fair
+O:Yorkshire
+C:Collected and arranged by Cecil Sharp
+%%Copyright: 1916, Oliver Ditson Company
+S:A Selection of Some Less Well Known Folk-Songs vol. 2
+S:compiled by Cyril Winn
+S:London: Novello and Company, Limited
+Z:Jack Campin 2003 <http://www.purr.demon.co.uk/jack/>
+M:6/8
+L:1/8
+Q:3/8=60 "Andante"
+P:ABABABC
+K:G Dorian
+P:A
+    G`````A```G   F``````G````A   |B>````c`````B     A2
+w:1.Where are you go-    ing? To   Scar- bor-  ough  Fair?
+w:3.Tell  her to  wash   it   in   yon-*       der   well,
+w:5.Tell  her to  plough it   with one*        ram's horn,
+%
+z|G2   A   (BA)````G   |G``B``c   d2
+w:Pars-ley, sage,* rose-ma-ry and thyme,
+w:Pars-ley, sage,* rose-ma-ry and thyme,
+w:Pars-ley, sage,* rose-ma-ry and thyme,
+%
+  G    |d2     d    =e``````d```c   |d````G```G   (FG)
+w:Re-   mem-   ber   me     to  a    bonn-y   lass there,*
+w:Where water  ne'er sprung nor a    drop of  rain fell,*
+w:And   sow~it all   o-     ver with one  pep-per  corn,*
+%
+  A |(Bc)```B     A```A`G  |[M:3/8]D``=E`^F |[M:6/8]G2z z3||
+w:For once* she   was a true       lov-er of        mine.
+w:And she*  shall be  a true       lov-er of        mine.
+w:And she*  shall be  a true       lov-er of        mine.
+%
+P:B
+    G````A```G  F``````G``A    |(B````c)`B    A`````A
+w:2.Tell her to make   me a      cam-*   bric shirt,*
+w:4.Tell her to plough me an     ac-  re of   land,*
+w:6.Tell her to reap   it with~a sick-le of   leath-er,
+%
+z|G2   A   (BA)````G   |G``B``c   d2
+w:Pars-ley, sage,* rose-ma-ry and thyme,
+w:Pars-ley, sage,* rose-ma-ry and thyme,
+w:Pars-ley, sage,* rose-ma-ry and thyme,
+%
+  G   |d`````d``d  =e````d````c  |d2     G      F`````G
+w:With-out   an-y   need-le   or  thread work'd in    it,
+w:Be-  tween*   the sea  and  the salt   sea    strand,*
+w:And  tie  it  all up   with a   tom-   tit's  feath-er,
+%
+  A |(Bc)  B     A``A`G   |[M:3/8]D``=E`^F |[M:6/8]G2z z3||
+w:And she* shall be a true        lov-er of        mine.
+w:And she* shall be a true        lov-er of        mine.
+w:And she* shall be a true        lov-er of        mine.
+%
+P:C
+    G````A```G  F````G``A |B```c``B A3|
+w:7.Tell her to gath-er it all in a sack,
+%
+  G2   A   (BA)````G   |G``B``c   d2
+w:Pars-ley, sage,* rose-ma-ry and thyme,
+%
+  G  |d```d``d =e````d``c|d```G```G    (FG)
+w:And car-ry it home on a but-ter-fly's back,
+%
+  A  |B````c```B     A``A`G  |[M:3/8]D``=E`^F |[M:6/8]G3-G2z||
+w:And then she shall be a true       lov-er of        mine.

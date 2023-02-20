@@ -1,0 +1,15 @@
+X: 6
+T: Bach Minuet 3
+C: J. S. Bach (1685-1750)
+M: 3/4
+L: 1/8
+K: G
+"G""_mf"d2 (GA) Bc |   d2 .G2- .G2 |"C"e2 (cd) ef |"G"g2 .G2- .G2 |\
+"C"     c2 (dc) BA |"G"B2 (cB)  AG |"D"F2 (GA) BG |   A6          |
+"G"     d2 (GA) Bc |   d2 .G2- .G2 |"C"e2 (cd) ef |"G"g2 .G2- .G2 |\
+"C"     c2 (dc) BA |"G"B2 (cB)  AG |"D"A2 (BA) GF |"G"G6         : |
+|: \
+"G""_f"b2  (ga) bg |"D"a2 (de) fd |"Em" g2   (ef)     gd  |"A"^c2  Bc A2 |\
+      (AB) ^cd  ef |   g2  f2  e2 | "D" f2  (.A2 "A".^c2) |"D" d6        |
+"G""_p"d2   GF  G2 |"C"e2  GF  G2 | "G" d2  (.c2     .B2) |"D"(AG) FG A2 "^I"|\
+      (DE)  FG  AB |   c2  B2  A2 | "G"(Bd) (.G2 "D" .F2) |"G" G6       : |

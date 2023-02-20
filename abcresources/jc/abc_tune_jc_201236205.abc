@@ -1,0 +1,28 @@
+X: 21782
+T: ROBIN ADAIR
+O: Arranged by Haydn.
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.178 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The book has both voices on one staff, but no ABC software I have can represent this one accurately.
+M: 3/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+G2 |:\
+G2 A2 B2 | c3 d e2 | G2 A2 B2 | {B2}c4 z2 |\
+G2 A2 B2 | c3 d e2 | G2 A2 B2 | {B2}c6 :|\
+|:\
+{d}e2 e2 e2 | f3 A A2 | {G}e2 e2 ed | c3 A F2 |\
+{G}g2 fe dc | c3 d e2 | G2 A2 B2 | c6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+E2 |:\
+E2 F2 D2 | E3 F G2 | D2 F2 D2 | {D2}E4 z2 |\
+E2 F2 D2 | E3 G c2 | E2 F2 D2 | {D2}E6 :|
+|:\
+{E}G2 G2 G2 |F3 A F2 | {E}G2 G2 GF | E3 F E2 |\
+E2 F2 G2 | A3 A GF | E2 F2 D2 | E6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

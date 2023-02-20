@@ -1,0 +1,31 @@
+X:492
+T:Mr Felton's Retirement
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+C:Colin Hume, 2012
+L:1/8
+M:3/4
+%%MIDI gchord bfb
+%%MIDI beat 80 80 80
+%%MIDI program 72
+%%MIDI chordprog 54
+%%MIDI bassprog 54
+%%MIDI chordvol 60
+%%MIDI bassvol 60
+Q:1/4=110
+K:G
+%%textfont Times-Roman-Bold 20
+%%center The A-music is not a waltz, more a 3-time Strathspey!  Note the Scotch snaps.
+P:A
+|: B/d3/ d3D & "G"x2 "/"x2 "/"x2 | E/G3/ G3E & "C"x2 "/"x2 "Am"x2 | D/G3/ G3A & "G"x2 "/"x2 "Em"x2 | B2 A3B & "D"x2 "/"x2 "G7"x2 |\
+c3/d/ ec BA & "C"x2 "/"x2 "Am"x2 | G3/A/ BG ED & "G/B"x2 "/"x2 "Em"x2 | E/G3/ G2 A3/F/ & "Am"x2 "/"x2 "D7"x2 |1 G6 & "G"x2 "/"x2 "/"x2 :|2 G4-G F/G/ & "G"x2 "/"x2 "/"x2 [I:MIDI=gchordoff] |]
+P:B
+K:D
+M:6/8
+Q:3/8=110
+%%MIDI chordprog 1
+%%MIDI chordvol 40
+"D"A2A "/"dAd | "A7"eAe "D"fed | "G"Lg2 Lg "/"fed | "A"Le2 Le "/"dcB |\
+"D"A2A "/"dAd | "A7"eAe "Bm/G#"fed | "D/A"La2 La "A7"gfe | "D"d3- "D7"d2=c |
+P:C
+"G"BGB "/"d^cB | "D"AFA "/"dcd | "A7"ecA "/"efg | "D"f3- "/"f2 f/g/ |\
+"D"afd "/"AFD | "G"GBd "/"g2a | "D"fed "A7"edc | "D"d3 "D/F#"=c3 |]

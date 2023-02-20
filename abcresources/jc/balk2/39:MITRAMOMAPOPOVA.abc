@@ -1,0 +1,24 @@
+X: 339
+T: Mitra Moma Popova
+O: Macedonia
+F: http://www.youtube.com/watch?v=AuCKLIVL3X4
+W:transcribed by Jutta Weber-Karn
+W:http://www.folkloretanznoten.de/
+W:converted to abc notation
+M: 5/8
+L: 1/8
+K: Cdor clef=treble
+Q: 1/4=210
+%%MIDI gchord fzczz
+"Cm" c2 g2 g    |gf g2 f     |\
+"Fm"c2 f2 f     |fe f2 e     |\
+"Bb" B2 e2 e    | ed e2 d    |\
+"Cm"f2 c2 B     |[1 cd efg   :|[2 cB c2z|:
+"Eb" F2 G3      |G2 G3       |\
+F2 G3           |F2 E3       |\
+"Fm" E2 F3      |F2 (E2D)    |\
+"Cm"B,2 C3      |E2 E3::
+"Gm" C2 B,A,G,  |A,B, (C2D)  |\
+"Bb"F2 (E2D)    |"Fm"E2 F3   |\
+"Gm" C2 (B,A,)G,|(A,B,) (C2D)|\
+"Fm"F2 (C2B,)   |"Cm"C2 C3   :|

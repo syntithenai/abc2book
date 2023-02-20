@@ -1,0 +1,26 @@
+X: 21102
+T: PORT A BHODICH
+T: the CARLE'S RANT
+Q: "Strathspey."
+%R: strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.110 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Added missing dots after some 8th notes next to a 16th note.
+M: C
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+e2 |:\
+AA3e3B c3BA2a2 | AA3e3c d3cB2e2 |\
+AA3e3B c3Ae2d2 | cA3e3c d3cB2e2 :|
+|:\
+cA3a2g2 a3AAe3 | cA3a3g =g3BB3e |\
+cA3a3g a2A2a3e | fa3e=g3 d3cBe3 :|
+|:\
+dcBA A,3A c2A2Ae3 | dcBA A,3e d3BBe3 |\
+dcBA A,3e dcBA A,3e | dcBA A,3e d3cB2e2 :|
+|:\
+c2A2a3g a3AA3e | c2A2a3f =g3BBe3 |\
+cA3a3g a2A2a3e | fga2 ef=g2 d3cBe3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

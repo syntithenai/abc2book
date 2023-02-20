@@ -1,0 +1,38 @@
+X: 1
+T: Kettering Assembly
+C: Michael Dabney
+%R: reel
+B: Michael Dabney "Twelve Minuets and Twelve Dances" p.7 #1
+S: http://imslp.org/wiki/12_Minuets_and_12_Dances_(Dabney,_Michael)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces mostly 4- or 8-bar staffs.
+V: 1
+|:\
+c2 (3GAB cGEC | ABcd cBAG |\
+cGA_B Afaf | edc=B c4 ::\
+egcg dgBg | ceAc BGTG2 |
+F(B/c/d)F E(A/B/c)E | DdGB c2C2 ::\
+EcEc (e>c)Tc2 | GEcE (FD)D2 |\
+GEGc ecgc | dcde c2C2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+|:\
+c'2g2e2c2 | f2d2g2e2 |\
+c2e2f2d2 | g2G2c4 ::\
+c2z2 g2z2 | c2d2G2z2 | g4 c4 |
+g2G2 c4 ::\
+c4 c4 | c2e2g2G2 |\
+c4 c2e2 | g2G2 c4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%   Right hands across _ left
+%% hands back again _ lead down
+%% the middle 2 Cu: _ up again
+%% cast off hands 4 round with
+%% the 3d Cu: Right & left at top
+%%endtext

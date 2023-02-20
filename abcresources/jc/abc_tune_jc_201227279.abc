@@ -1,0 +1,27 @@
+X: 10703
+T: BLAR LEINE.--"THE BATTLE OF KINLOCH LOCHY."
+O: Gaelic air.
+Q: "Very slow and soft."
+%R: air, waltz
+N: This is version 2, for ABC software that understands crescendo/diminuendo symbols.
+N: Note that sometimes "cres." is written above the staff.
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.70 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Eb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(G3F) |\
+G4 B4 !p!(c3=B) | c4 d4 {d}e3c | (d4 g4) (f2g2) | {d}Qc4 B2qG2 "^cres."ec3 |\
+d4 g4 {d}bd3 | {d}c4 (B2G2) {d}e3g | {e}d4 c4 p(dc=Bc) | {^F}PG8 :|
+|: !p!(EFGB) |\
+"^cres."{G}e8 (fe)(dc) | d4 c4 (3(c2d2f2) | g8 (gf)(ed) | {d}"_>"e4 G4 Q(fe)(dcq) |\
+d4 pg4 {d}b3Pd | {d}c4 B2G2 {d}He3Qg | {e}d4q c4 p(dc=Bc) | {^F}PG8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

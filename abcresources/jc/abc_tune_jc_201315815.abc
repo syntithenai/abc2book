@@ -1,0 +1,75 @@
+
+X: 1
+T: Inisheer
+C: Thomas Walsh (1987?)
+R: waltz
+%O: trad. Ireland
+S: NEFFA 2022 set
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: 1/4=99
+K: G
+D GA |\
+"G"B3 A Bd | "G/B"B3 A Bd | "C"E3 B AB | "D"D3 d B/A/G |
+"G"B3 A "D/F#"Bd | "Em"B3 A "D"Bd | "C"G3 B "D"A/G/F | "G"G3 :|
+|: A Bd |\
+"C"e3 f ed | "G"B3 A Bd | "C"gf ed B/c/d | e3 d "G/B"Bd |
+"Am"e3 f "D"ed | "Em"B3 A "G/D"Bd | "C"G3 B "D"A/G/F | "G"G3- "^D.C."y:|["fine" HG3 |]
+
+
+X: 2
+T: Simple Gifts
+C: ?
+R: song, air
+O:
+S: NEFFA 2022 set
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+Q: 1/4=132
+K: G
+DD |\
+"G"G2GA BGBc | "G/B"d2dc B2AG | "Am"A2A2 A2G2 | "D"ABAF D3D |
+"G"GFGA B2AA | "G/B"B2c2 d3B | "Am"A2Bc B2AG | "D"A2GF "G"G4 ||
+"Bm"d4 B3A | "Em"BcBA G3A | "G"B2Bc "C"d2B2 | "D"A2AB A2DD |
+"G"G4 "D/F#"G3A | "Em"B2Bc d2cB | "Am"A2A2 "D"B2BA | "G"G2G2 G2 :|
+
+
+X: 3
+T: Saint Anne's Reel
+C: ?
+R: reel
+%O: ?
+S: NEFFA 2022 set
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: 1/4=132 "optionally" 1/4=198
+K: G
+|:\
+"G"B2Bc BAGE | D2B,D G,DB,D | "C"E2CE G,ECE | "G"D2B,D G,DB,D |
+"G"B2Bc BAGE | D2B,D G,DB,D | "C"EGFE "D"FDEF | "G"AGGF G2GA :|
+|:\
+"G"B2BA GABG | "C"dccB c2cB | "D"AGFE DFAc | "G"edd^c d2d=c |
+"G"B2BA GABG | "C"dccB c2cB | "D"AGFE DFAc | "G"BGGF "_fine"G2GA :|
+
+
+X: 4
+T: Saint Anne's Reel
+C: ?
+R: reel
+%O: ?
+S: NEFFA 2022 set
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: 1/4=132 "optionally" 1/4=198
+K: G
+|:\
+"G"b2bc' bage | d2Bd GdBd | "C"e2ce Gece | "G"d2Bd GdBd |
+"G"b2bc' bage | d2Bd GdBd | "C"egfe "D"fdef | "G"aggf g2ga :|
+|:\
+"G"b2ba gabg | "C"d'c'c'b c'2c'b | "D"agfe dfac' | "G"e'd'd'^c' d'2d'=c' |
+"G"b2ba gabg | "C"d'c'c'b c'2c'b | "D"agfe dfac' | "G"bggf "^fine"g2ga :|
+

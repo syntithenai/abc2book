@@ -1,0 +1,103 @@
+X: 1
+T: Sl\"angpolska efter Juringius  [Bm]
+T: Sl\"angpolska fr\aan Kalmar
+O:Sweden
+A:Sm\aaland
+R:sl\"angpolska
+S:http://archive.folx.org/tune/polska/slangpolska-efter-juringius-87
+K:Bm
+M:3/4
+L:1/8
+z |\
+"Bm"f>f Bf Bf | "Em"~g>f ef ga |\
+"A"e>e Ae Ae | "D"f>e de fg |\
+"Bm"f>f ed "A"c>B | A/-B/c/A/ "Bm"B2 :: A/B/ |\
+"F#m"~c>c Fc Fc |
+"Bm"~d>c Bc de |\
+"F#m"~c>c Fc Fc | "Bm"~d>c Bc de |\
+"A"e>e Ae Ae | "D"f>e de fg |\
+"Bm"f>f ed "A"c>B | A/-B/c/A/ "Bm"B3 :|
+
+%%sep 1 1 500
+X: 2
+T: Sl\"angpolska efter Juringius  [Em]
+T: Sl\"angpolska fr\aan Kalmar
+O:Sweden
+A:Sm\aaland
+R:sl\"angpolska
+S:http://archive.folx.org/tune/polska/slangpolska-efter-juringius-87
+K:Em
+M:3/4
+L:1/8
+z |\
+"Em"B>B EB EB | "Am"~c>B AB cd |\
+"D"A>A DA DA | "G"B>A GA Bc |\
+"Em"B>B AG "D"F>E | D/-E/F/D/ "Em"E2 :: D/E/ |\
+"Bm"~F>F B,F B,F |
+"Em"~G>F EF GA |\
+"Bm"~F>F B,F B,F | "Em"~G>F EF GA |\
+"D"A>A DA DA | "G"B>A GA Bc |\
+"Em"B>B AG "D"F>E | D/-E/F/D/ "Em"E3 :|
+
+%%sep 1 1 500
+X: 3
+T: Sl\"angpolska efter Juringius  [Am]
+T: Sl\"angpolska fr\aan Kalmar
+O:Sweden
+A:Sm\aaland
+R:sl\"angpolska
+S:http://archive.folx.org/tune/polska/slangpolska-efter-juringius-87
+K:Am
+M:3/4
+L:1/8
+z |\
+"Am"e>e Ae Ae | "Dm"~f>e de fg |\
+"G"d>d Gd Gd | "C"e>d cd ef |\
+"(Am)"e>e dc "G"B>A | G/-A/B/G/ "Am"A2 :: G/A/ |\
+"Em"~B>B EB EB |
+"Am"~c>B AB cd |\
+"Em"~B>B EB EB | "Am"~c>B AB cd |\
+"G"d>d Gd Gd | "C"e>d cd ef |\
+"(Am)"e>e dc "G"B>A | G/-A/B/G/ "Am"A3 :|
+
+%%sep 1 1 500
+X: 4
+T: Sl\"angpolska efter Juringius  [Dm]
+T: Sl\"angpolska fr\aan Kalmar
+O:Sweden
+A:Sm\aaland
+R:sl\"angpolska
+S:http://archive.folx.org/tune/polska/slangpolska-efter-juringius-87
+K:Dm
+M:3/4
+L:1/8
+z |\
+"Dm"A>A DA DA | "Gm"~B>A GA Bc |\
+"C"G>G CG CG | "F"A>G FG AB |\
+"Dm"A>A GF "C"E>D | C/-D/E/C/ "Dm"D2 :: C/D/ |\
+"Am"~E>E A,E A,E |
+"Dm"~F>E DE FG |\
+"Am"~E>E A,E A,E | "Dm"~F>E DE FG |\
+"C"G>G CG CG | "F"A>G FG AB |\
+"Dm"A>A GF "C"E>D | C/-D/E/C/ "Dm"D3 :|
+
+%%sep 1 1 500
+X: 5
+T: Sl\"angpolska efter Juringius  [Gm]
+T: Sl\"angpolska fr\aan Kalmar
+O:Sweden
+A:Sm\aaland
+R:sl\"angpolska
+S:http://archive.folx.org/tune/polska/slangpolska-efter-juringius-87
+K:Gm
+M:3/4
+L:1/8
+z |\
+"Gm"d>d Gd Gd | "Cm"~e>d cd ef |\
+"F"c>c Fc Fc | "Bb"d>c Bc de |\
+"Gm"d>d cB "F"A>G | F/-G/A/F/ "Gm"G2 :: F/G/ |\
+"Dm"~A>A DA DA |
+"Gm"~B>A GA Bc |\
+"Dm"~A>A DA DA | "Gm"~B>A GA Bc |\
+"F"c>c Fc Fc | "Bb"d>c Bc de |\
+"Gm"d>d cB "F"A>G | F/-G/A/F/ "Gm"G3 :|

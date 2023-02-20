@@ -1,0 +1,35 @@
+X: 11032
+T: COTILLION No. 17. Porter Sett tune 4
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.103 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(3(B/c/d/) |\
+!mf!eBG BGF | E2E EFG | ABc BGe | dec B2!f!B |\
+eBG BGF | E2E EFG | CAF Bcd | e2e e2 H|]
+!f!f |\
+geb fdg | ecf dBd | efg fdB | =ABG F2d |\
+ecf dBf | ecf dBd | efg fdB | cB=A Bc"^D.C."d |]
+!p!G |\
+c2G d2G | e2g fed | cag fed | cde G2G |\
+"_>"c3 "_>"_B3 | "_>"A3 GFE | DFA G2=B, | C3- "^D.C."C2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 give right hand across,
+%% left hand back,
+%% form a line,
+%% balance 4 in a line,
+%% half promenade,
+%% ladies forward and back,
+%% gentlemen the same,
+%% balance 4,
+%% half promenade to place,
+%% next couple, &c.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

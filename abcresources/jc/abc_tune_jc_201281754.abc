@@ -1,0 +1,28 @@
+X: 1
+T: Golden Square
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.298
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The tune has 3-bar phrases (and 6-bar strains).
+M: 6/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f |\
+(ec)g d2G | c>dc dA/B/ c/A/ | B3 d>cB |\
+c>dc A>GF | G>AG GD/E/ F/D/ | E3 C2 |]
+G/F/ |\
+E>DC G>FE | F>EF A>GF | A3 d>cB |\
+c>Bc e>dc | f>ed (e/f/g)G | c3- c2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first couple cast off, the 1. man go round the 3d. woman, and the woman go round the 2d. man,
+%% and meet between the 2d. and 3d. couple; the men cast up and the women cast off: Then the man go
+%% round the 2d. woman, and the woman round the 3d. man and meet between the 2d. and 3d. couple
+%% again: The man turn the 3d. woman, the woman the 2d. man, then turn one another, then the woman
+%% turn the 3d. man, and the man turn the 3d. woman, then one another, so forward.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

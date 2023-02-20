@@ -1,0 +1,45 @@
+X: 2271
+T: Miss Ketty Hall
+C: The Variations by Sir Alex.r Don & the late Mr Nisbet of [Dirleton?]
+%R: jig, reel
+N: This is version 2, for ABC software that understands long notes in chords.
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.27 #1 (entire page)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% %continueall
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+f !segno!|:\
+{c}d2A- AFA | AFD Dfe | {c}d2A {B}AGF | TE>FE Tc2e ||\
+{c}d2A- AFA | AFA AFD | GBA FAF |1 (E>FE) Tc2e :|2 (E>F)E TG2E |
+|: "^*1"([DA6]ED) (TFEF) | [DA6]ED TF2E | ([DA6]ED) (TFEF) | ([EA6]FE) TG2E ||\
+([DA6]EF) (TFEF) | (T[FA6]EF) (TFEF) | GBG FAF |1 EFE TG2E :|2 EFE Efe |
+%
+!segno![| "^Var.1st"[M:2/4][L:1/16] \
+DAFA DAFA | (3([D2A8]E2D2) TF3E | DAFA DAFA | (3([E2A8]F2E2) TG3F ||\
+DAFA DAFA | DAFA DAFA | DBGB DAFA |1 (3([E2A8]F2E2) TG3E :|2 (3(E2F2E2) (3(E2f2e2) |
+!segno![| "^Var.2d"[M:6/8][L:1/8]\
+.D(FA) "^*1".D(FA) | .D(GB) .D(GB) | .D(FA) .D(FA) | .E(GA) .E(GA) ||\
+.D(FA) .D(FA) | .D(GB) .D(GB) | .D(GB) .D(FA) |1 EFE TG2E :|2 (EFE) Efe |
+!segno![| "Var.3d"[M:2/4][L:1/16] DAFA DAFA | DBGB DBGB | DAFA DAFA | EAGA EAGA ||\
+DAFA DAFA | DBGB DBGB | DBGB DAFA |
+|[1 EAGA EAGE :|2 (3(E2F2E2) (3E2f2e2 |]\
+"^Var.4th"[M:2/4]\
+(DF)(AF) (DF)(AF) | "_Segue"[B4G4D4] [B4G4D4] | [A4F4D4] [A4F4D4] | [A4E4C4] [A4E4A,4] || [A4F4D4] [A4F4D4] | [B4G4D4] [B4G4D4] | [B4G4D4] [A4F4D4] |1 [A4E4C4] [A4E4A,4] :|2 [A4E4C4] A,2fe !segno!|]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z !segno!|: d3 d3 | d3 d3 | d3 d3 | a3 A3 || d3 d3 | d3 d3 | g3 f3 |1 c3 A3 :|
+[2 A3 A3 | |: [d3D3] [d3D3] | [d3D3] [d3D3] | [d3D3] [d3D3] | [a3A3] A3 || [d3D3] [d3D3] | [d3D3] [d3D3] | c3 d3 |
+[1 a3 A3 :|2 c3 A3 |
+!segno![| [M:2/4][L:1/16]\
+d4 d4 | d4 d4 | d4 d4 | c4 A4 || [d4D4] [d4D4] | [d4D4] [d4D4] |
+g4 d4 |1 c4 A4 :|2 c4 A4 | !segno![| [M:6/8][L:1/8] d3 d3 | g3 g3 | f3 d3 | c3 A3 || d3 D3 |
+G3 g3 | g3 f2d |1 c3 A3 :|2 c3 A3 | \
+!segno![| [M:2/4][L:1/16] d4 d4 | [g4d4] [g4d4] | d4 d4 |
+c4 A4 || d4 d4 | g4 g4 | g4 f3d |1 a4 A4 :|2 c4 A4 |]
+[M:2/4] d8 | "_Segue"g8 | d8 | A4 c4 || d8 | g8 | g4 d4 |1 A4 c4 :|2 A4 c4 !segno!|]
+%%text The 1st Strain to be play'd after each Var: And the 1st and 2d Strains after the last.

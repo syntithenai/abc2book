@@ -1,0 +1,64 @@
+
+X: 1
+T: Krivo Ihtimansko horo    [Dm]
+O: Bulgaria-\vSopluk
+S: https://hjj.home.xs4all.nl/Bladmuziek/Fakebook_Bulgarian_Music.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 8/16
+L: 1/16
+K: Dm
+|: "Dm"c2 d2e f3 |[M:9/16] g2 a2g fe dc |[M:8/16] "C"e2 f2e f2e | "Dm"c2 d3 d3 :|
+[M:13/16]\
+|: "C"e2 f2e f2e c2 "Dm"d2c |[M:8/16] "C"e2 f2e fgc | "Dm"d2 d3 d3 :|
+[M:13/16]\
+|: "Gm"[g2d2] "Dm"[a2d2][gd] [a2d2][gd] [fd][ed] [d2d2][cd] |\
+   "Gm"[g2d2] "Dm"[a2d2][gd] [a2d2][gd] [fd][ed] [d2d2][cd] |
+   "C"[e2c2] [f2c2][ec] [fc][gc][cc] "Dm"[d2d2] [d2d2][cc] |\
+[M:8/16]\
+   "C"[e2c2] [f2c2][ec] [fc][gc][cc] | "Dm"[d2d2] [d3d3] [d3d3] :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Krivo Ihtimansko horo    [Em]
+O: Bulgaria-\vSopluk
+S: https://hjj.home.xs4all.nl/Bladmuziek/Fakebook_Bulgarian_Music.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 8/16
+L: 1/16
+K: Em
+%
+|: "Em"d2 e2f g3 |[M:9/16]\
+    a2 b2a gf ed |[M:8/16]\
+   "D"f2 g2f g2f | "Em"d2 e3 e3 :|
+[M:13/16]\
+|: "D"f2 g2f g2f d2 "Em"e2d |\
+[M:8/16]\
+   "D"f2 g2f gad | "Em"e2 e3 e3 :|
+[M:13/16]\
+|: "Am"[a2e2] "Em"[b2e2][ae] [b2e2][ae] [ge][fe] [e2e2][de] |\
+   "Am"[a2e2] "Em"[b2e2][ae] [b2e2][ae] [ge][fe] [e2e2][de] |
+   "D"[f2d2] [g2d2][fd] [gd][ad][dd] "Em"[e2e2] [e2e2][dd] |\
+[M:8/16]\
+   "D"[f2d2] [g2d2][fd] [gd][ad][dd] | "Em"[e2e2] [e3e3] [e3e3] :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+%%vspace 20pt
+
+
+X: 1
+T: Krivo Ihtimansko horo
+%O: Bulgaria-\vSopluk
+K:
+W: 1. |: Sede, sedenkja dosede, :|   |: pa se pokani da lega. :|
+W:     |: Koj s brata, koj s pobratima, :|   |: a Cenka nema s\^as kogo. :|
+W: 2. |: Koj s brata, koj s pobratima, :|   |: a Cenka nema s\^as kogo. :|
+W:     |: Ergen ja Gen o otkradna, :|   |: pa fata Cenka za ruku. :|
+W: 3. |: Ergen ja Gen o otkradna, :|   |: pa fata Cenka za ruku. :|
+W:     |: Pa vodi, vodi ta doma :|   |: e te ti mali otmena. :|
+W: 4. |: E te ti mali otmena :|   |: i tazi bela premena. :|
+W:     |: Ima li studna vodica :|   |: i mene meka postilkja. :|

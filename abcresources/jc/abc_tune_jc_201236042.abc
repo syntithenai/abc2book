@@ -1,0 +1,28 @@
+X: 21582
+T: DONALD
+O: Scottish air.
+Q: "Slow."
+%R: air, strathspey
+N: This is version 2, for ABC software that understands voice overlays.
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.158 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(d3e) |\
+{d}f6 (3(edc) {e}d6 A2 | (c2B2)(A2G2) GF3 z2A2 |\
+(FA3) (d2e2) {de}f4 (e2d2) | (d4 e4) z4 (d3e) |\
+{d}f6 (3(edc) {d}d6 A2 | (c2B2)(A2G2) GF3 z2A2 |\
+(F3A) (d2f2) (a3f) (e3f) | d4 (3(d2e2f2) e2d2 & d4 z4 z4 |]
+z2f2 |\
+a4 (g2f2) (fe3) (e3g) | (fd3) (B2g2) (f2gf) (e2f2) |\
+{a}g6 f2 (fe)(gf) (e2d2) | (d4 e4) z4 (d3e) |\
+{d}f6 (3(edc) d6 A2 | (c2B2)(A2G2) (GF3) z2A2 |\
+(FA3) (d2f2) (a3f) (e3f) | {e}d4 (3(d2e2f2) e2d2 & d4 z4 z4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Burns' sng, "From thee Eliza I must go," is sung to the above air.
+%%endtext
+%%sep 1 1 300

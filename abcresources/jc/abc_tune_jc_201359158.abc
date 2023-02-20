@@ -1,0 +1,28 @@
+X: 1
+A:Adam de la Halle
+T:Or est Baiers en la pasture
+N: (condensed)
+M:3/4
+L:1/4
+Q:1/4=280
+K:A minor
+%
+V:1 clef=treble
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+%%MIDI program 1       70 bassoon
+%%MIDI program 2       71 clarinet
+%%MIDI program 3       72 piccolo
+%
+[V:1]      A3  | G3 |(G2 A) | G3 |(GF E) | D3  |(E2 F )| E2  C ||       E2  C  ||
+[V:2]      A,3 | C3 |(CB,A,)| C3 | C3    | B,3 |(A,2G,)| A,2 A,||       A,2 A, ||
+[V:3]      E3  | C3 |(CD E) | C3 |(CB,A,)| G,3 |(A,2B,)| A,2 C ||       A,2 F, ||
+w:  1.5.9.~Or    est  Bai-**  ars  en**    la    pas-*   tu- re,  2.10.~Hu- re,
+w: ~~~4.~~~Il    por- te**    sou- ef**    l'am- ble-*   u-  re.
+w: ~~~~6.~~A-   voir  li**    fer- ai**    cou-  ver-*   tu- re, ~7.~~~~Hu- re,
+%
+[V:1]     (D2 E) | D3  | F3   | E3  |(F E D) | E3   ||(D2 E) | D3  | F3   | E3  |(F E D) | E3  ||
+[V:2]     (F,2G,)| B,3 | A,3  | C3  |(C B,A,)| G,3  ||(F,2G,)| B,3 | A,3  | C3  |(C B,A,)| G,3 ||
+[V:3]     (A,2B,)| B,3 |(CB,2)| A,3 |(A,G,A,)| B,3  ||(A,2B,)| B,3 |(CB,2)| A,3 |(A,G,A,)| B,3 ||
+w:   3.11.~Des*    deus  piés*  def-  fé-**    rés.    Des*    deus  piés*  def-  fé-**    rés
+w: ~~~8.~~~Au*     re-   pai-*  rier  des**    prés.   Au*     re-   pai-*  rier  des**    prés.

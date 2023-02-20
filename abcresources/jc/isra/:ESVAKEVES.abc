@@ -1,0 +1,16 @@
+X: 86
+T: Es Vakeves
+C: Metitiahu Shelem 1967
+D: Dance Along with Sabras (Tikva-69)
+O: Israel
+I: dance taught by Yo'av Ashriel
+M: 2/4
+L: 1/8
+Q: 1/4=180
+K: Dm
+%%MIDI drum dd 54 54
+%%MIDI drumon
+|:FG2A         |F/E/DD2  |E3/2F/EC|D2D2   :: CD.D.D|C=B,/C/D2|
+  CFEG         |ECD2    ::FG2A  |F/E/DD2|E3/2F/EC|D2D2 ::
+  A/G/GG2      |A/G/GG2  |E3/2F/EC|DCD2   ::\
+  FG2A         |F/E/DD2  |E3/2F/EC|D2D2   :|

@@ -1,0 +1,23 @@
+X: 66
+T: Cotillon
+%R: jig
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.30,31 #66
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain has initial repeat but no final repeat; not fixed.
+%%slurgraces 1
+%%graceslurs 1
+M: 6/8
+L: 1/8
+K: D
+|:\
+d2d e2e | c2(c d3) | f2f g2g | e2e f2f |\
+d2d e2e | c2c d3 | edc TB2A | {c}BA^G | A3 :|
+|:\
+a2a f2f | e2^d e2E | g2g e2e | d2c d2D |\
+a2a bab | c'bc' d'2d | agf {f}e2d | edc d3 :|
+|:\
+DDD FFF | AAA d2A | d2e fed | g2f e3 |\
+DDD FFF | AAA d2A | d2e d2c | {c}BA^G A2A |
+a2a f2f | e2^d e2E | g2g e2e | d2c d2D |\
+a2a bab | c'bc' d'2d | (ag)f {f}e2d | {f}edc d3 |]

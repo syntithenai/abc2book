@@ -1,0 +1,75 @@
+X:1
+T:Fantasia on "Greensleeves": Part I 27.2.2
+T:Arranged by Ian Hall from Ralph Greaves's adaptation of R. Vaughan Williams's opera 'Sir John in Love'
+Z:HALL, Ian <halli:oup.co.uk> tradtunes 2002-7-24
+M:6/8
+L:1/8
+Q:1/4=70
+%%MIDI gchord czzczz
+%%MIDI chordprog 3 % Xylo
+K:Fm
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+V:1 nm="Violin I"  snm="Vl. I"
+V:2 nm="Violin II" snm="Vl. II"
+V:3 nm="Guitar I"  snm="Gu. I"
+V:4 nm="Guitar II" snm="Gu. II"
+V:5 clef=bass middle=d nm="Bass Guitar" snm="Bass"
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+V:1
+% First Violin (Matt)
+%%MIDI channel 1
+%%MIDI program 40 % Violin
+%%MIDI transpose 0
+((f'6|f')>=e'=d'c'2b)|(f6|f)>=e=d c2B|c2 B F2 E|\
+"Fm"(F3 F)z z|"Fm" z6 |"Fm"(c3 c2)=d|"Eb"e6|\
+"Fm"(c3 c2)=d|"Cm"(e3 e2)f|"Fm"(c3 c2)=d|\
+"Eb"e2f "Cm"g>fe|"Fm"a2b "C"c'2b|"F"=a2g f3|\
+"Ab"(e3 e2)f|"Eb"g3 "Cm"b>ag|"Fm"(a3 a2)b|"Cm"(c3 c)bg|\
+"Ab"(e3 e2)f|"Eb"g3 "Cm"b>ag|"Fm"a2b "C"c'2b|"F"=a2 g f3|\
+"Ab"e3 e>=dc|"Eb"B2G "Cm"E>FG|"Fm"A2F F>EF|"Cm"G2E C3|\
+"Ab"e3 e=dc|\
+"Eb"B2G "Cm"E>FG|"Fm"A>GF "C"=E=DE|"F"(F3 F)zz|]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+V:2
+% Second Fiddle (Kate)
+%%MIDI channel 2
+%%MIDI program 41 % Viola
+%%MIDI transpose 0
+z6|z6|z6|z6|z6|\
+z6| z6 |A6|B6|(A3 A2)B|(c3 c2)_d|A6|\
+e2f g>fe|f3 g3|f2c c3|(c3 c2)=d|e3 g>fe|(f3 f2)g|g3 e3|\
+(c3 c2)=d|e3 g>fe|f3 g3|f3 c3|e3 e>=dc|B2G E>FG|A2F F>EF|G2E C3|
+e3 e=dc| B2G E>FG|A>GF =E=DE|(F3 F)zz|]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+V:3
+% First Guitar (Ian)
+%%MIDI channel 3
+%%MIDI program 26 % Jazz Guitar
+%%MIDI transpose -12
+F,/C/=D/F/A/c/ z3|z6|F,/C/=D/F/A/c/ z3|z6|\
+[F2A2C2=d2]z4|\
+z6|z3 z2F|A2 B c>=dc|B2G E>FG|A2F FEF|G2E C2F|A2B c>=dc|\
+B2G E>FG|A>GF =E=DE|F3 F3|e3 e>=dc|B2G E>FG|A2F F>EF|G2E C3|\
+e3 e=dc|B2G E>FG|A>GF =E=DE|F3 F3|\
+A,EA cAE|E,B,E GEC|F,CF AFC|CGc ecG|\
+A,EA cAE| E,B,E GEC|F,CF [CEGc]zz|F,CF =Acf|]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+V:4
+% Second Guitar (Nic)
+%%MIDI channel 4
+%%MIDI program 27 % Clean Guitar
+%%MIDI transpose 0
+z3 F/A/c/=d/f/g/|az2 z3|z3 F/A/c/=d/f/g/|az2 z3| [=d2A2F2C2] z4|
+z6|z6|F6|G6|(F3 F2)A|(G3 G2)A|F6|
+G2A B>AG|c2=d =e2=d|F,2 C=A2=B|cz2 z3|(B3 E3)|(c3 c2)=d|e3 c3|
+AA,E Ac=d|z3 z3|z3 z3|z6|\
+e3 E2F|G3 B>AE|A3 A2B|c3 cBG|
+E3 E2F| G3 B>AG|A2B c2B|(=A3 A)zz|]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+V:5
+F2 z z2 z|z6|z6|z6|z6|\
+z6|z6|F2z z3|e2z z3|F2z z3|c2z z3|F2z z3|\
+e2z c2z|z3 c2z|F2z z3|A2z z3|e2z c2z|F2z z3|c2z z3|\
+A2z z3|e2z c2z|F2z c2z|F2z z3|A2z A2z|e2z c2z|F2z F2z|c2z c2z|A2z A2z|\
+e2z c2z|F2z c2z|F2z z3|]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

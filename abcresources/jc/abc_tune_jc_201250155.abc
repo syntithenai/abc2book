@@ -1,0 +1,21 @@
+X: 1
+T: the Banks of Spey
+C: William Marshall
+%date: c.1786
+S: BSFC Tune Book VI-5
+N: Caledonian Companion p.88.
+N: Wm. Marshall p.48; Hardie p.88; SFT p.3; BSFC II-21
+N: played by Ed Pearlman on BH 4A; Dancing Strings tape Siegal/Payne
+Z: 2019John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: ADor
+[| "Am"[A2E2A,2] A>B A>B c<e | "G"d<c TB>A {A}G2 G2 |\
+"Am"[A2E2A,2] A>B A>B c>d | "C"e<c de "G"g2 ~g2 |
+"Am"a>g e>c d<e g<a | "Em"e<g g>B "G"G2 GB |\
+"Am"A<E A>B "Dm"c>d e<g | "Em"e<d Tc>B "Am"{B}A2 A || |]
+[| B |\
+"Am"A<E A>c A<E A>c | "G"B>c d{c}B {A}~G2 GB |\
+"Am"A<E A>c A<E c>d | "C"e>c de "G"g2 ~g2 |
+"Am"a>g e<c de ga | "Em"e<g g>B "G"G2 GB |\
+"Am"A<E A>B "F"c>d e<g | "Em"e<d Tc>B "Am"A3 |]

@@ -1,0 +1,23 @@
+X: 3
+T: Corry's Jig
+T: Drops of Brandy
+R: jig
+M: 6/8
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: 19th century tune book collected by W.A. Cocks.
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: Dmix
+A |\
+F2D DED | AFD AFD | F2D DED | A2B G3 |\
+F2D DED | AFD AFD | E2c AFD | G2B G2 :|
+|: A |\
+F2A d^cd | F2A AFD | F2A d^cd | A2B G3 |\
+F2A d^cd | F2A AFD | E2c BAB | G2B G2 :|
+|: g |\
+f2d f2d | afd faf | f2d f2d | a2b g3 |\
+f2d f2d | afd faf | efe c2e | g2a g2 :|
+|: a |\
+fdf ece | dBd AFD | D2d d^cd | A2B c3 |\
+dBd cAc | BdB AFD | E2c AFD | G2B G2 :|

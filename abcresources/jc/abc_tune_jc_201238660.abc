@@ -1,0 +1,30 @@
+X: 31103
+T: COTILLION No. 17. ROCHESTER SETT tune 3
+N: The tune is labelled "4", but this is a typo; it's the 3rd tune in the set.
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.110 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+e4 e4 | e2dc B2dc | cBAG BAGF | AGFE GFED |\
+e4 e4 | e2dc B2dc | cBAG BAGF | E4 e4 H|]\
+g4 g4 | g6 (dc) | B2B2 A2A2 |
+G2B2 A4 |\
+g4 g4 | g6 dc | B2B2 A2A2 | G6 B2 \
+|: B2d2c2f2 | g2d2 b4 :|\
+g6 fe | dedc BcBA | GFGA _BA=B^c | d2D2 "^D.C."z4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All forward and back,
+%% all balance to corners,
+%% half promenade,
+%% swing round,
+%% grand chain,
+%% promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

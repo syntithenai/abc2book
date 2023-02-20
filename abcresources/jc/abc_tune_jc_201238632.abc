@@ -1,0 +1,26 @@
+X: 31053
+T: COTILLION No. 14. COLUMBIAN SETT tune 6
+C:
+%R: reel, march
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.105 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+c2c2 dcde | c2G2G2 g2 | e2c2c2 Bc | dcBA G2 ~g2 |\
+a2A2 agfe | f2d2d2 g2 | e2c2d2B2 | c2c2c2 H|]
+Bc |\
+d2d2 dedc | B2G2 G4 | g4 d2c2 | dcBA G2GG |\
+c2GG d2GG | g4 agfe | d2d2 BABd | d4 "^D.C."c2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First lady balance to the gentleman on her right,
+%% swing round,
+%% and so on through the sett.
+%% Others the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,40 @@
+X: 500
+T: Sher 3 ("Philadelphia")
+O: Klez Camp 98
+S: Marianne Cygnel
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F#Phr^A
+P:A
+|:F2G2 A4- | AGA2 G2F2 | A2B2 c4- | c2Bc B2A2 \
+| F2G2 A4- | AGA2 G2F2 | ^DEFG ABAG | ~G2F6 :|
+P:B
+|:B4 A3G | ABG2 F4 | A2B2 cdBd | c4 f4 \
+| B4 A3G | ABG2 FGE2 | ^DEFG ABAG | ~G2F6 :|
+P:C
+|:~B8 | d6 =e2 | =efed efed | dccB cdF2 \
+| B6 d2 | f4 f4 | =efed efed | dccB B4 :|
+P:D
+|:e3^d e3d | e6 =d2 | c3^B c3B | c6 =B2 \
+| ABcd edcB | ABcB AGFE | ^DEFG ABAG | ~G2F6 :|
+P:E
+|:FGEG F2F2 | FGEG F2F2 | F2G2 ~A3G | FGA6 \
+| FGEG F2F2 | FGEG F2F2 | ^DEFG ABAG | ~G2F6 :|
+P:F
+|:B6 F2 | B6 F2 | B3F B3F | B3F B3F \
+| B2cd Bcd2 | B2cd Bcd2 | deed deed | deed dcB2 |
+| d2d2 cBcd | B4 d2F2 | B2dc Bcd2 | B2dc Bcd2 \
+| deed deed | deed dcB2 | d2d2 cBcd | B8 :|
+P:G
+|:F2f2 F2f2 | F2 f6 | e3d e3d | dcc2- c4 \
+| E2e2 E2e2 | E2 e6 | d2c2 B2A2 | Adc2- c2F2 |
+| A2B2 c2d2 | e2d2 c2B2 | ABcB ~A3G | FEFG ~F2E2 \
+| A2B2 c2d2 | e2d2 c2B2 | ABcB ~A3G | ~G2F6 :|
+P:H
+|:f4 e4 | d4 c4 | B3c dcdB | c4 z2(3cd^d \
+| edec dcdB | cBdc B4 | ABcB ~A3G | ~G2F6 :|
+B,2 \
+P:I
+|:E4 F4 | G4 B4 | ABcB ~A3G | FGFG ~F2E2 \
+| E4 F4 | G4 B4 | ABcB ~A3G | ~G2F6 :|

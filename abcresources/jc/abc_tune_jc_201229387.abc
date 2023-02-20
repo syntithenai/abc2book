@@ -1,0 +1,23 @@
+X: 122
+T: Clout the Caldron
+%R: air
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.12 #2
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Q: "slow"
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1
+|:\
+Ad dd d>edJf | edTcB c2(TBA) | (B/c/d) dd d>e (d/e/f) | TedcB Tc2BA |
+TFE EF/A/ TBA TF(E/D/) | TFE EF/A/ TB2 A>G | TFE EF/A/ TBA TF(E/D/) | TFE EF/A/ (TB2{AB}A2) :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+|:\
+d'2 "4;2"c'2 "5"b2 "6"f2 | "6"g2 zA A2 z"6"f | g2 "6;4"a2 b2 "6"f2 | "6"g2 zA A2 zA |
+dA zD Gd zd | "6;4"a"5;3"A zd G2 zA | dA zd Gd zd | "6;4"a"5;3"A ze G2 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

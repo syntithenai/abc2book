@@ -1,0 +1,29 @@
+X: 384	% 111
+T: Good Night Waltz
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.38 #4
+R: waltz
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Thin double bars added to mark the 8-bar phrases.
+M: 3/4
+L: 1/8
+K: C
+V: 1 name="111"
+[|\
+g3(^fg^g) | a4(ef) | .g.a.g.e.c.A | G6 |\
+MEMFMGMAMcMe | (g4f2) | B3(ABc) | B6 ||\
+a3(^ga^a) | b6 | agecAc | G6 |
+GABcde | g2a2e2 | g3(^fga) | g6 ||\
+g3(^fg^g) | a4(ef) | gagecA | G6 |\
+(E2G2c2) | (e2d2c2) | A6- | A6 ||
+c'4c'2 | b4a2 | gagecA | (G2^F2G2) |\
+A3(GA_B) | =B4G2 | c6 | _B6 |]\
+[K:F][|\
+(C2F2)(AB) | (c2=B2c2) | d3(edA) | c4(dMc) |
+(C2F2A2) | cdcAFD | E6- | E6 ||\
+(C2E2G2) | (c2e2f2) | e6 | d6 |\
+(c2e2d2) | (c2d2c2) | A6- | A6 ||\
+(C2F2)(AB) | (c2=B2c2) |
+d3(edA) | c4(dc) |\
+(C2F2G2) | (A2G2F2) | D6- | D6 ||\
+(F2E2F2) | (G2F2G2) | AdcAFD | MC2MA,2MC2 |\
+A6 | G6 | F6- | F6 |]

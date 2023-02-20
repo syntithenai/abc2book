@@ -1,0 +1,12 @@
+X:1
+T:Mary Willie's
+R:Slide
+K:Am
+L:1/8
+M:12/8
+%%printtempo 0
+Q:170
+|:"Am"E2A ABA E2A ABA|E2A ABA "G"G2A "D"^F2A|"Am" E2A ABA E2 A ABd|
+|1 A2A "Em"AGF E3-EAG:|2 e^fe d^cB A3 Acd||
+K:D
+|:"A"e2e edc "D"d2d dcd|"Am"e2A ABA "G"G2A "D"F2A|"Am"E2A ABA E2A ABd|efe dcB "Am"A3A3:|

@@ -1,0 +1,18 @@
+X: 10822
+T: OVER THE WATER TO CHARLIE
+%R: jig
+B: "Edinburgh Repository of Music" v.1 p.82 #2 - p.83 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 6/8
+L: 1/8
+K: D
+|:\
+D2A- AFA | (B/c/d).F E2D | (DF)A (AF).A | B>AB def |\
+DFA AFA | B>cd AFD | dfd ecA | B3 {AB}d3 :|
+|:\
+dfd ecA | {Bc}d2F E2D | dfd ecA | TB3 {AB}d2A |\
+dfd ecA | {Bc}d2F E2D | D2A AFA | B3 d2A |
+dfd ecA | B>cd AFD | dfd ecA | TB3 {AB}d2f/g/ |\
+agf edc | d>cB AFA | DFA AFA | BAB Hd3 |]

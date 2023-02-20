@@ -1,0 +1,19 @@
+X: 1
+T: Bach-polsen
+T: Fri bearbeidelse av et parti fra J.S.Bachs orkestersuite i h-moll
+C: Sven Nyhus
+N: Laget i anledning radiokonsert med finske, norske og svenske
+N: spellmenn i Berwaldhallen, Stockholm, 3. aug. 1985.
+M: 3/4
+L: 1/16
+%%slurgraces
+K: Am
+|: "Am"A3(B cBce) a3a | "Dm"(g2f2) {fe}[f8A8] \
+| "Am"e4 d2e2 {cB}c4 | "E7"{Bc}[B4E4] A2B2 ({cB}c2A2) |
+| "Dm"({fg}f2e2) (d2^g2) a3f | "Am"(e2d2) (c2e2) a3e \
+| "E7"d3(c B2e) "Am"c3A |1"E7"({cd}c2B2) [B8E8] :|2 "E7"^G2BG "Am"[A8A8] |
+|: "E7"E3(^F ^GFGB) e3e | "Am"(d2c2) ({cB}c6 BA) \
+| "G7"(G2A2) (B2d2) g3f | f2ed "C"e8 |
+| "F"(A2G2) (F2B2) {cB}c3A | "C"(G2F2) (E2B2) {cB}c3e \
+|1 "Dm"(f2gf) "C"e4 d3c | "E7"({cd}c2B2) [B8E8] \
+:|2 "Dm"(f2gf) "C"e4 (c2BA | "G7"G2)Bd "C"{cB}[c8E8] |]

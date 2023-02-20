@@ -1,0 +1,30 @@
+X: 1
+T: Torna a Sorrento  [Am,A]
+T: Come Back To Sorrento
+C: Ernesto De Curtis (1902)
+R: waltz
+O: Italy
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+"A"\
+|: "Am"AB cd ec | e2 e4 \
+| "Dm"de fd fd | "Am"a2 a4 \
+| "F"ab c'b ab | "Am"e2 e4 \
+| "E7"de dc Bc | "Am"A4 z2 :|[K:A]
+"B"\
+[| "A"ag ef ge | "Bm"f2 f4 \
+| "E7"gf ef ge | "A"f2 f4 \
+| cd ec BA | "Bm"d2 d4 \
+| "E7"ef gf eg | "A"c4 z2 |]
+"C"\
+[|"A"ag ef ge | "Bm"f2 f4 \
+| "E7"ba ga bg | "F"a2 a4 \
+| "Dm"ab =c'b ab | "Am"e2 e4 \
+| "E7"de d=c Bc | "Am"A4 z2 |]
+"D"\
+[|"A"ab g3 f | "Bm"a6 \
+| "E7"zg ab gf | "A"e2 e4 \
+| "Dm"d2 =f2 a2 | "Am"=c'3 b a2- \
+| "E7"ab ^g3 a | "Am"a4 z2 |]

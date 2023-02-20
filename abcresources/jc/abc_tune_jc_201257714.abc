@@ -1,0 +1,22 @@
+X: 1
+T:Bulgarian (?) 9
+O:Bulgaria ?
+M:13/16
+L:1/16
+N:the turn symbol represents a trill
+K:Am
+"Am".A2.A2 "Dm"cdd2 d2 ~d2c|\
+"Am"(c2d2) (~e3d) (cB) ~A2A|\
+A2A2 "Dm"(cd)d2 d2 ~d2c    |\
+"Am".c2.d2 (~e3d) (cB) ~A2A|
+"G"(cd)G2 .G2.G2 (AB) (~c2B)|\
+"C"e2f2 (~g3f) (ed) (~c2B)  |\
+"G"(cd)G2 .G2.G2 (AB) c2B|\
+"Dm"(ga)A2 "Am"A2A2 A2A3 ::
+"C".c2.d2 .e2.f2 (gf) (~e2d)|\
+{gf}g2(af) (ge)(fd) (fg) (~e2G)|\
+.c2.d2 .e2.f2 (gf) (~e2d)|\
+"Dm"(cd)A2 "Am"A2A2 A2A3::
+"G"(cd)G2 .G2.G2 (AB) (~c2B)\
+|1 "C".e2.f2 (~g3f) (ed) ~c2B \
+:|2 {c}"Dm"(d2d2) "Am".A2.A2 A2A3 :|

@@ -1,0 +1,42 @@
+X: 1
+T:Balscadden Bay
+M:6/8
+L:1/8
+Q:80
+C:Composed by Dave Rickard
+S:March
+K:HP
+|: {g}A3/2f/2{g}e{Gdc}d3|
+{g}A3/2f/2{g}e{gde}d3/2c/2d|
+{g}B3/2g/2{a}f{gef}e3|  !
+{g}B3/2g/2{a}f{gef}e3/2d/2{e}B{g}A3/2f/2{g}e{Gdc}d3|
+{g}A3/2f/2{g}e{gde}d3/2c/2d|
+{g}B/2{d}G3/2{d}B{g}B/2e3/2a|  !
+g3/2e/2{g}c{Gdc}d3:| |:
+{g}f/2a3/2g{a}f3/2e/2d|
+{gde}d3/2c/2d{gef}e3|  !
+g3/2{a}f/2g{a}B/2e3/2d|
+{gcd}c3/2B/2A{gfg}f3{g}f/2a3/2g{a}f3/2e/2d|
+{gde}d3/2c/2d{gef}e3|  !
+{g}B/2{d}G3/2{d}B{g}B/2e3/2a|
+g3/2e/2{g}c{Gdc}d3:| |:
+{g}A3/2d/2{e}A{g}f3/2e/2d|  !
+{g}c/2{d}A3/2{d}c{gef}e3|
+{gf}g3/2e/2{g}B{g}f3/2d/2{e}A|
+{GdG}e3/2d/2{e}B{G}A3{g}A3/2d/2{e}A{g}f3/2e/2d|  !
+{g}c/2{d}A3/2{d}c{gef}e3|
+{g}B/2{d}G3/2{d}B{g}B/2e3/2a|
+g3/2e/2{g}c{Gdc}d3:| |:  !
+a2{GdG}aA3/2a/2f|
+g3/2{a}f/2g{ef}e3|
+g3/2{a}f/2gB/2e3/2d|1  !
+{gcd}c3/2B/2A{gfg}f3{g}f/2a3/2g{a}f3/2e/2d|
+{gde}d3/2c/2d{gef}e3|
+{g}B/2{d}G3/2{d}B{g}B/2e3/2a|  !
+g3/2e/2{g}c{Gdc}d3:|2
+{gcd}c3/2B/2A{GAG}A2f|
+{g}A3/2d/2{e}B{g}A3/2d/2{c}d|  !
+{g}B3/2e/2{A}e{gef}e3/2d/2c|
+{g}B/2{d}G3/2{d}B{g}B/2e3/2a|
+g3/2e/2{g}c{Gdc}d3:|  !
+

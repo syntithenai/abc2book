@@ -1,0 +1,44 @@
+X:1
+%%Copyright 1932, Warner Bros. Inc
+T:Alone together
+M:4/4
+L:1/4
+C:Arthur Schwartz & Howard Dietz
+Q:1/4=160
+%%staves (chords melody)
+K:Dm
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+x/ |:"Dm6"x2 x2 | "Em7b5"x2 "A7"x2 | "Dm6"x2 x2 | "Em7b5"x2 "A7"x2 |
+"Dm6"x2 x2 | "Am7b5"x2 "D7"x2 | "Gm6"x2 x2 | x2 x2 |
+"( Bm7b5" "Abdim7"x2 "E7 )" " "x2 | "Gm7"x2 "C7"x2 | "Fmaj7"x2 x2 | "Em7b5"x2 "A7"x2 | "Dmaj7"x2 x2 | x2 x2 :|
+V:melody
+D/ |: F2-F>D| E<E-E2- | Ez/D/ E>F | A4- |
+w:A-lone* to-geth-er,** be-yond the crowd,
+w:*lone* to-geth-er,** the blind-ing rain,
+Az/D/E>F | A4- | Az/G/ A>B | d2-d>d |
+w:* a-bove the world,* we're not too proud* to
+w:* the star-less night,* we're not in vain;* For
+e2-e>d | c<c-c>B | A>GA>G | A2-A>G | ^F<F-F2- | F3 z/D/ :|
+w:cling* to-geth-er,* we're strong as long as we're* to-getr-er.** A-
+w:we're* to-geth-er* and what is there to fear* to-geth-er?** Our
+P:B
+V:chords
+"Am7b5"x2 x2 | "D7"x2 x2 | "Gm6"x2 x2 | x2 x2 |
+"Gm7b5"x2 x2 | "C7"x2 x2 | "Fmaj7"x2 x2 | "Em7b5"x2 "A7"x2 ||
+V:melody
+c4- | (3cAB (3c_ed | B4- | B3D |
+w:love* is as deep as the sea,* our
+B4- | (3BGA (3B_dc | A2-A>F | G2-G>D||
+w:love* is as great as a love* can be;* And
+P:A
+V:chords
+"Dm6"x2 x2 | "Em7b5"x2 "A7"x2 | "Dm6"x2 x2 | "Em7b5"x2 "A7"x2 |
+"Dm6"x2 "Bm7b5"x2 | "Bb7"x2 "A7"x2 | "Dm6"x2 x2 | "T.A."x2 x2 |]
+V:melody
+F2-F>D | E<E-E2- | Ez/D/ E>F | A4- |
+w:we* can weath-er** the great un-known,
+Az/A/=Bd | f2-f>^c | d<d-d2- | dz z2|]
+w:* if we're a-lone* to-geth-er.**

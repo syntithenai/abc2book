@@ -1,0 +1,27 @@
+X: 3
+T: lady Harriot Leslies Waltz
+R: waltz
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.2 #3
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: 3/8
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Missing beat in first part's last bar; fixed with pickup rest.
+N: The final repeat implies playing the 3rd part 4 times, but this doesn't seem to fit the dance.
+K: Bb
+z2 |\
+d2B2B2 | e2c2c2 | A2F2F2 | f2d2d2 |\
+d2BcdB | e2c2c2 | A2FGAF | B4 :|
+|: !p!f2 |\
+ed c2c2 | c4 e2 | def2f2 | def2f2 |\
+edc2c2 | c4 e2 | defedc | B4 :|
+|: f2 |\
+f2d2f2 | g2a2b2 | f2fgfe | d4 !f!(3FGA |\
+B2B2 (3FGA | B2B2 (3FGA |[1 BABGAB | c4 :|[2 BABFGA | B4 :|
+%%begintext align
+%% Set & hands across .|
+%% back again :|
+%% down the middle up again :|.
+%% Allemand :|:
+%% Swing Corners .:|:.
+%%endtext

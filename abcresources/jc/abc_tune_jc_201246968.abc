@@ -1,0 +1,66 @@
+X: 1
+T: Andy de Jarlis   [E]
+C: trad.
+S: Jerry Holland, who learned it from Mike MacDougall
+S: printed page in Concord Slow Scottish Session collection from the Jerry Holland Collection
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: E
+|: "E"EGB EGB | "E"(EG)B "A"{B}c2B | "E"EGB EGB | "D"=DFA {A}B2A \
+|  "E"EGB EGB | "E"EGB "A"{B}c2a | "B7"Tg2f Bcd | "E"{d}e3 e2 :|
+|: a \
+| "E"gbg (efg) | "A"{g}b2a c3 | "F#m"(f2g) (Tf2e) | "B7"dcB (Tc2B) \
+| "E"gbg efg | "A"{g}b2a c2a | "B7"(Tg2f) Bcd | "E"{d}e3 e2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Andy de Jarlis' Jig v.1   [E]
+C: trad.
+S: Jerry Holland, who learned it from Mike MacDougall
+R: jig
+M: 6/8
+L: 1/8
+K: E
+|: "E"EGB EGB | EGB "A"c2B | "E"EGB EGB | "D"=DFA B2A \
+|  "E"EGB EGB | EGB "A"c2a | "B7"g2f Bcd | "E"e6 :|
+f- \
+|: "E"gbg efg | "F#m"gba c3 | "B7"f2g f2e | dcB c2B \
+|  "E"gbg efg | "F#m"gba c2a | "B7"g2f Bcd | "E"e6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Andy de Jarlis' Jig v.1   (D)
+C: trad.
+S: Jerry Holland, who learned it from Mike MacDougall
+R: jig
+M: 6/8
+L: 1/8
+K: D
+|: "D"DFA DFA | DFA "G"B2A | "D"DFA DFA | "C"=CEG A2G \
+|  "D"DFA DFA | DFA "G"B2g | "A7"f2e ABc | "D"d6 :|
+e- \
+|: "D"faf def | "Em"fag B3 | "A7"e2f e2d | cBA B2A \
+|  "D"faf def | "Em"fag B2g | "A7"f2e ABc | "D"d6 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Andy de Jarlis' Jig v.2   [E]
+C: trad.
+S: Jerry Holland's Collection of Fiddle Tunes
+R: jig
+M: 6/8
+L: 1/8
+K: E
+z2 |\
+"E"EGB EGB | EGB "A"{B}c2B | "E"EGB EGB | "D"=DFA {A}B2A |\
+"E"EGB EGB | EGB "A"{B}c2a | "B7"Tg2f Bcd | "E"{d}e6 :|
+|: a |\
+"E"gbg efg | "A"{g}b2a c3 | "F#m"f2g Tf2e | "B7"dcB Tc2B |\
+"E"gbg efg | "A"{g}b2a c2a | "B7"Tg2f Bcd | "E"{d}e6 :|
+
+%%sep 1 1 500

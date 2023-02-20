@@ -1,0 +1,53 @@
+%%center Drummer's Call
+
+
+X: 1
+T: Drummer's Call v.1
+P: piffero primo a0859
+O: Camp Dupont
+%R: march, reel
+F: http://ancients.sudburymuster.org/mus/sng/pdf/drummersC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+d2 |\
+afdf g3e | dBAG F3D |\
+(EG)(FA) (GB)(Ac) | (Bd)(^ce) d2
+d/e/f/g/ |\
+afdf g3e | dBAG F3D |\
+(GB)(Ac) (Bd)(gB) | cedF G2 :|
+
+
+X: 2
+T: Drummer's Call v.2
+P: piffero primo a0860
+O: Camp Dupont
+%R: march, reel
+F: http://ancients.sudburymuster.org/mus/sng/pdf/drummersC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+d2 |\
+fdc2 B3c | BdcB A3d- | d2c2 B2F2 | GBEG F2d>e |\
+fdc2 B3c | BdcB A3F | d2F2 G2d2 | AcBA G2 :|
+
+
+X: 3
+T: Drummer's Call v.3
+P: piffero primo a0861
+O: Camp Dupont
+%R: march, reel
+F: http://ancients.sudburymuster.org/mus/sng/pdf/drummersC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+z2 |\
+z2D2 G2G2 | G2C2 D2C2 | B,2D2 G2D2 | G2A2 D2z2 |\
+z2D2 G2G2 | G2C2 D2C2 | B,2D2 G2G2 | C2D2 G2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

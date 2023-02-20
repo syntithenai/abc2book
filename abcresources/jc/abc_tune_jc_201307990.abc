@@ -1,0 +1,17 @@
+X: 1
+T: the Mathematicians' Canon
+C: James Gray
+R: reel
+B: Alex & James Gray "Tweeddale Collection" v.4 #5 p.29
+B: Alex & James Gray "Tweeddale Collection" v.2
+N: Tune for The Mathematicians
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+"A"[|] (3G,A,B, |\
+"C"C4 c4 | "G"dcBd "C"c2G2 | "F"AGFA "C"G2E2 | "G7"F2D2 B,2G,2 |\
+"C"C4 c4 | "G"dcBd "C"c2G2 | "F"AGFA "G7"G2f2 | "C"e2c2 c2 |]
+"B"[|] ef |\
+"C"g4 "G7"fedf | "C"e2c2- cGce | "G"d4 "Am"cBAc | "Em"B2E2 "E"^G4 |\
+"F"AGFA "C"G2E2 | "G7"F2D2 B,2G,2 | "C"C2g2 "G7"fedf | "C"e2c2 c2 |]

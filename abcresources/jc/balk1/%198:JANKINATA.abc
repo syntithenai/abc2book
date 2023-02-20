@@ -1,0 +1,27 @@
+X: 198
+T: Jankinata
+O: Bulgaria
+F: http://www.youtube.com/watch?v=N3AyCW_0Rqo
+Z: Transcribed by Birgitt Karlson
+Z: http://www-linux.gsi.de/~karlson/index_e.htm
+M: 11/8
+L: 1/8
+K: Em
+V:1
+%%MIDI program 41
+"G"D2 EF G2 D GABc|"D" dcBA A2B "G"G2 GD|"Am" GAAG ABG GFGA|G=F E2 E3 E4|
+V:2
+%%MIDI program 1
+D2 C2 B,2 A, G4|A,2 A,2 A,3 B,4|C4-C3-C4|C2 C2 B,3 B,4|
+V:1
+"G"D2 EF G2 D GABc|"D"dcGA A2 B G2 GD|"Am" GAAG ABG GFGA|G=F E2 D3 E4|
+V:2
+D2 C2 B,3 B,4|F4-F3 G4|E4-E3-E4-|E2 E2 B,3 B,4|
+V:1
+"Em" A2 AB B3 GA G2|AB GA G2=F E4|"Am" G2 G2 GA2 FG3|"Em"G=F E2 E3 E4|
+V:2
+E2 E2 E3 E4|E2 E2 E,3 [E,B,]4|[A,C]2[A,C]2[A,C]3 [A,C]4|[A,C]2 [A,C]2 [B,E]3 [B,E]4|
+V:1
+"G"A2 AB B3 GA G2|"F"AB GA "G7" G2=F "C"E4|"Am"G2 G2 GA2 FG3|"Em" G=F E2 "Am"E3 "Em" E4|
+V:2
+G2 G2 G3 G4|=F2 F2 F3 E4|E2 E2 E3 E4|E2 E2 E3 E4|

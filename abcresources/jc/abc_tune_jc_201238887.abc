@@ -1,0 +1,28 @@
+X: 31513
+T: COTILLION No. 37. LUCY LONG SETT tune 6
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.151 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+Bc |\
+d3d ^cded | g3d B2Bc | d3d (^cded) | f3c .d.c.B.A |\
+B3c ^cded | b3a gfed | ^cded fcAF | G4 z2 H|]
+ga |\
+bbbb b2ag | baaa a2fg | aaaa a2ba | aggg g2ga |\
+bbbb b2ag | baaa a2fg | aaaa a2ba | g4 "^D.C."z2 |]
+e2 |\
+e^def gfga | b2b2B3b | c'3c'b3b | abag e3e |\
+.e.^d.e.f .g.f.g.a | b2b2 a2a2 | g2g2 ^defg | e4 "^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies all balance to the right,
+%% all promenade,
+%% gentlemen the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

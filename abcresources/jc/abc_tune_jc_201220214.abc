@@ -1,0 +1,18 @@
+X: 032	%3
+T: Pop Goes The Weasel
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.3 #2
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Both parts have final repeat but no initial repeat; fixed with added initial repeats.
+N: Bar 12 is only length 5/8; fixed by adding dot to first note (f).
+M: 6/8
+L: 1/8
+K: G
+V: 1 name=3
+(3(D/E/F/) |\
+G2G A2A | BdB G2 (3(D/E/F/) | G2G A2A | B3 G2 (3(D/E/F/) |\
+G2G A2A | BdB G3 | "^Pizz. 2nd finger."ezz (ABc) | B3 G3 :|
+|:\
+g2f e2g | faf d2(e/f/) | g2g e2g | f3 d2B |\
+c2B c2d | e2f g2z | "^gliss"y(ge'2)zz ABc | B3 G2 :|
+

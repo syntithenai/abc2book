@@ -1,0 +1,68 @@
+X: 12
+T: les Quatre Saisons.
+%R: reel/march, jig, minuet/waltz
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #12
+N: The dance description has "Quartre"; fixed.
+M: 1/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+A,2 |\
+(D3E/F/) ([E3A,2]F/G/) | ([F3A,2]G/A/) D2F2 | {F}E2D2C2D2 | (EDCB,) (A,B,CA,) |\
+(D3E/F/) ([E3A,2]F/G/) | ([F3A,2]G/A/) D2F2 | E2D2 (CDEC) | {C}D6 :|
+"_Doucement"A2 |\
+(A^G) e4 =G2 | (FA) d4 A2 | (BAGF) E2D2 | (CDEC) A,2A2 |\
+(A^G) e4 =G2 | (FA) d4 A2 | (BAGF) (EDEC) | {C}D6 |
+|: [M:6/8][L:1/8] "_Vivement"A, |\
+D2D (DF).A | d2d (dB).A | (dB).A (GF).E | D2D D2A, |\
+D2D (DF).A | d2d (dB).A | (dB).A (GF).E | D3- D2 :|
+|: [M:3/4][L:1/8] "_Gracieusement"\
+A2(TA3G/A/) | B2(TB3A/B/) | g2c2c2 | ({e}dcde)(df) |\
+A2(TA3G/A/) | B2B2-Bc//d//e//f// | g2c2c2 | {c2}d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z2 |\
+z2d2c2A2 | d2D2 z2d2 | g2f2e2d2 | a4 A4 |
+z2d2c2A2 | d2D2 z2d2 | g2f2e2a2 | d2A2D2 :| "_Doucement"z2 | z2a2c'2a2 |
+z2d2f2d2 | g4^g4 | a4A4 | z2a2c'2a2 | z2d2f2d2 |
+g2e2a2A2 | d2A2D2 |: [M:6/8][L:1/8] "_Vivement"z | d2z D2z | d2z D2z | d2F G2A | d2z D2z |
+d2z D2z | d2z D2z | d2f g2a | dAF D2 :||: [M:3/4][L:1/8] "_Gracieusement"d2f2d2 | G2g2f2 |
+e2a2g2 | f2d2z2 | d2f2d2 | G2g2f2 | e2a2A2 | d2A2D2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Les Quatre Saisons.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%center D O U C E M E N T.
+%%begintext align
+%%   Each Gentleman join hands with his Lady
+%% the Right over the Left, makes her turn to
+%% the Right and advance one quarter of the
+%% Course, then the Ladies make the Gentlemen
+%% turn to the Right and advance another quarter
+%% of the Course: The hands must be held up all
+%% the time - - - - 1/2
+%%endtext
+%%center V I V E M E N T.
+%%begintext align
+%%   One Quarter of the Grand Moulinet with
+%% the Ladies in the Middle, the Ladies Chass\'e
+%% outside, while the Gentlemen Chass\`e inside,
+%% then Rigaudon - - - 1/3
+%%endtext
+%%begintext align
+%%   All Eight advance another Quarter in the
+%% grand Moulinet, the Gentlemen Chass\`e outside
+%% and the Ladies inside, then Rigaudon - 1/3
+%%endtext
+%%center M I N U E T.
+%%begintext align
+%%   The grand Quarr\'e in Minuet Steps - 2/4
+%%endtext
+%%sep 1 1 400

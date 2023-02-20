@@ -1,0 +1,38 @@
+X:1
+T: Cold Comfort
+N:
+C:Erasmus Widmann
+S:Tune is "Regina"
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 184
+%W: A1
+% voice 1 (1 lines, 23 notes)
+K:Am
+M:4/4
+L:1/16
+A2 B2 c2 d2 e2 f2 g2 e2 |f2 a2 g2 f2 e4 A4 |B2 c2 d4 ^c2 d2 e4 |d8 z4 d4 |
+%W:
+% voice 1 (1 lines, 21 notes)
+g2 f2 e2 d2 c2 A2 B2 c2 |d2 c2 B2 A2 e4 d2 c2 |B4 A4 A4 ^G4 |A12 z4 |
+%W: A2
+% voice 1 (1 lines, 23 notes)
+A2 B2 c2 d2 e2 f2 g2 e2 |f2 a2 g2 f2 e4 A4 |B2 c2 d4 ^c2 d2 e4 |d8 z4 d4 |
+%W:
+% voice 1 (1 lines, 21 notes)
+g2 f2 e2 d2 c2 A2 B2 c2 |d2 c2 B2 A2 e4 d2 c2 |B4 A4 A4 ^G4 |A12 z4 |
+%W: B1
+% voice 1 (1 lines, 8 notes)
+a8 g8 |f8 e8 |e8 d8 |c8 B8 |
+%W:
+% voice 1 (1 lines, 20 notes)
+A2 B2 c2 d2 e2 f2 g2 e2 |f6 e d ^c4 A4 |B2 ^c2 d4 c2 d2 e4 |d16 |
+%W: B2
+% voice 1 (1 lines, 8 notes)
+a8 g8 |f8 e8 |e8 d8 |c8 B8 |
+%W:
+% voice 1 (1 lines, 20 notes)
+A2 B2 c2 d2 e2 f2 g2 e2 |f6 e d ^c4 A4 |B2 ^c2 d4 c2 d2 e4 |d16 ||

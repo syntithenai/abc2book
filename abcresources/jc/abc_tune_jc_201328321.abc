@@ -1,0 +1,24 @@
+X: 1785
+T: the Rambling Rake   #2
+T: an racaire fana\'c
+R: reel, "long dance"
+%S: s:3 b:18(6+6+6)
+S: 1781 O'Neill's Music of Ireland
+B: O'Neill's 1850 #1785
+O: Hartnett
+Z: Robert Thorpe (thorpe@skep.com)
+Z: ABCMUS 1.0
+M: C|
+L: 1/8
+K: A
+"^A"[|] E2 \
+|: AGAB cBcd | efec d2(ge) \
+|[1,3 (3ddd ge (3ddd ge | dcBA G2G2 \
+:|[2,4 dBGB dedB | c2A2 A2 :|
+"^B"|| d2 \
+| efec d2g2 | efec d2g2 \
+| (3ffg af dgg2 | (3ffg af d2(ga) |\
+| bagf efga | bagf efga |
+| baga bagf | ~(ed)ef g2 || (fg) \
+| efec d2g2 | efed c2(Bc) \
+| ABcd gfge | dcBA G2"^->A2"G2 |]

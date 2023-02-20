@@ -1,0 +1,30 @@
+X: 13062
+T: Bessy Bell
+%R: jig
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.3 p.6 #2 (and top 4 staffs of p.7)
+S: https://ia800501.us.archive.org/18/items/caledonianpocket01rugg/caledonianpocket01rugg_bw.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/16
+K: D
+%%slurgraces 1
+%%graceslurs 1
+"_Brisk"A2 |\
+F3GA2 A2B2=c2 | TB2A2B2 G4G2 | F3GA2 A2F2A2 | f6 (Tg4fg) |\
+a2A2A2 A2B2=c2 | B2A2G2 g4(fg) | a2g2f2 g2f2e2 |
+d6 {de}f4 :: (fg) |\
+a2f2d2 (fga2)f2 | e2=c2e2 g4(fg) | a2f2d2 d3ed2 | f6 Tg4(fg) |\
+(agfed2) f2a2f2 | g2e2=c2 e2f2g2 |
+a3gf2 g2f2e2 | d6 {de}f4 :: "_Variation"A2 |\
+F3GA2 A2B2=c2 | (B=cd2)B2 (GA)B2G2 | (F3E)D2 A2F2A2 | f6 (Tg4fg) |\
+a2f2d2 A2B2=c2 |
+(B=cd2)G2 g2(efge) | a2fgaf g2e2^c2 | d6 D4 :: (fg) |\
+(agfg)a2 F4a2 | gfefg2 E4g2 | agfef2 A2d2e2 | f6 Tg4(fg) |
+(agfg)a2 F2a2f2 | (gfef)g2 E2g2e2 | (fg)a2f2 e2a2^c2 | d6 D4 :: A2 |\
+(FGA2)A2 (FGA2)A2 | (GAB2)B2 (GAB2)B2 | (FGA2)D2 F2A2d2 |
+Tf6 Tg6 |\
+(fg)a2A2 (Bc)d2F2 | G2B2E2 (gab2)e2 | fga2d2 e2A2^c2 | d6 D4 :: (fg) |\
+(agfe)d2 a2f2d'2 | (gfed)=c2 g2e2c'2 |
+(agfe)d2 (agfe)d2 | Tf6 g4(fg) |\
+agfed2 ("^*1"d'c'bagf) | (gfed)=c2 ("*1"=c'bagfe) | f2a2d2 e2A2^c2 | d6 D4 :|
+%%text *1 The "slurs" in these two runs are squiggly, whatever that meant.

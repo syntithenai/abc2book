@@ -1,0 +1,31 @@
+X: 20021
+T: Johnnny cock-up thy Beaver
+%R: jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.2 #1 (and top 2 staves of p.3)
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/16
+K: G
+%%slurgraces 1
+%%graceslurs 1
+"_Brisk"e2 |\
+{e}d4G2 TB3AG2 | A3BA2 {B}c4e2 | {e}d4G2 TB2A2B2 | G2g2d2 B2c2d2 |\
+Te2d2e2 g2d2B2 | A3BA2 {B}c4e2 | {e}d4c2 {c}B4A2 | G2g2d2 B4 :|
+|: D2 |\
+G2g2d2 (Bcd2)B2 | A2a2A2 {B}c4e2 | G2g2d2 (Bcd2)B2 | G2g2d2 (Bcd2)B2 |\
+(cBcde)f g2d2B2 | A3BA2 {B}c4g2 | {e}d4c2 {c}B4A2 | G2g2d2 TB4 :|
+|: D2 |\
+G2g2d2 B2G2B2 | A2a2A2 c4e2 | G2g2B2 g2B2g2 | G2g2B2 g2B2G2 |\
+c3de2 g2d2B2 | A3BA2 {B}c4e2 | {e}d4c2 TB3AB2 | G2g2d2 TB4 :|
+|: b2 |\
+g2d2B2 G2g2b2 | a2A2B2 {B}c4b2 | g2d2B2 G2g2b2 | g2d2B2 G2(BcdB) |\
+(cBcdec) d2B2g2 | a2A2B2 c2g2e2 | {e}d4c2 {c}TB4A2 | G2g2d2 TB4 :|
+|: D2 |\
+G2(Bcd)B d2(BcdB) | a2A2B2 {B}c4e2 | G2(BcdB) d2(BcdB) | g2(BcdB) d2(BcdB) |\
+c(Bcd)ef g2d2B2 | a2A2B2 c2g2e2 |
+{e}d4c2 TB3AB2 | G2g2d2 B4 :: D2 |\
+(GABcdB) (dcBcdB) | A2a2A2 {B}c4e2 | (GABcd)B (dcBcd)B | (gfefg)e (dcBcd)B |
+cacaca BgBgBg | A4B2 c2g2e2 | {e}d4c2 (BcdcB)A | G2g2d2 TB4 :: b2 |\
+(agfed)c B2G2g2 | a2A2B2 {B}c4b2 |
+(agfed)c B2G2b2 | (agfed)c B2G2B2 |\
+(cBcdef) (gfedcB) | a2A2B2 (cdefge) | {e}d4c2 B(cdcBA) | G2g2d2 TB4 :|

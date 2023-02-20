@@ -1,0 +1,63 @@
+X: 1
+T:The Banjo Breakdown  "CYMRU"
+M:6/8
+L:1/8
+Q:80
+C:Arr. by Pipe Major Donald MacLoed, MBE
+S:Jig
+K:HP
+|: e|
+{g}A{d}A{e}A{gcd}c2e|
+{ag}a2e{gcd}c2e|
+{g}A{d}A{e}A{Gdc}d2f|  !
+{ag}a2f{Gdc}d2f|1 |
+{g}A{d}A{e}A{gcd}c2e|
+{ag}a2e{gcd}c2e|  !
+{g}B{d}B{e}B{gcd}c2e|
+{g}B{d}B{e}B{gcd}c2e:|2 |
+{g}efgagf|  !
+{gef}e2d{gcd}c2B|
+{g}A{d}ceaec|
+{G}A6|] |:  !
+e|
+{ag}a2e{gcd}c2e|
+{ag}a2e{gcd}c2e|
+{ag}a2f{Gdc}d2f|  !
+{ag}a2f{Gdc}d2f|1
+{ag}a2e{gcd}c2e|
+{ag}a2e{gcd}c2e|  !
+{g}B{d}B{e}B{gcd}c2e|
+{g}B{d}B{e}B{gcd}c2e:|2 |
+{g}efgagf|  !
+{gef}e2d{gcd}c2B|
+{g}A{d}ceaec|
+{G}A3{ag}a3|] |:  !
+{g}A{d}A{e}A{gcd}c2e|
+{g}A{d}A{e}A{gcd}c2e|
+{g}B{d}B{e}B{Gdc}d2f|  !
+{g}B{d}B{e}B{Gdc}d2f|1 |
+{g}A{d}A{e}A{gcd}c2e|
+{g}A{d}A{e}A{gcd}c2e|  !
+{g}B{d}B{e}B{g}c{d}c{e}c|
+{g}B{d}B{e}B{gcd}c2e:|2 |
+{g}efgagf|  !
+{gef}e2d{gcd}c2B|
+{g}A{d}ceaec|
+{G}A3{g}A{d}ce|] |:  !
+{ag}a2e{g}ce{A}e|
+{ag}a2e{g}ce{A}e|
+{ag}a2f{g}df{e}f|  !
+{ag}a2f{g}df{e}f| |
+{ag}a2e{g}ce{A}e|
+{ag}a2e{g}ce{A}e|  !
+{g}Be{A}e{g}ce{A}e|
+{g}Be{A}e{g}ce{A}e| |
+ae{A}e{g}ce{A}e|  !
+ae{A}e{g}ce{A}e|
+af{e}f{g}df{e}f|
+af{e}f{g}df{e}f| |  !
+{g}efgagf|
+{g}efe{g}dcB|
+{g}A{d}ceaec|  !
+{G}A3{ag}a3:|
+

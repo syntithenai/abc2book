@@ -1,0 +1,21 @@
+X: 81
+T: Cerga
+O: Macedonia
+M: 2/4
+L: 1/8
+Q: 1/4=120
+K: Em clef=treble
+%%MIDI trim 1/4
+%%MIDI beat 110 80 50 2
+%%MIDI program 22 Harmonica
+%%MIDI bassprog 32 Acoustic Bass
+%%MIDI chordprog 24 Acoustic Guitar
+"A"efgf|e^dcA|cded|cBcA|\
+ABcB|A^GAB|FzFz|[1FE^D/E/F:|[2FE^D/E/E|:
+%%MIDI trim 0/1
+"B"B,2F,A,|B,2F,A,|B,^D3|C/B,/A,/C/B,2|\
+"A"A2GF|G2FE|E^DCA,|"B"B,2z2::
+"B"z2^D/E/F/^G/ |"A"A^GAG|AFGF|"B"F/E/^D/E/Fz|\
+z2^D/E/F/^G/ |"A"A/^G/A/G/ A/G/A/G/|"A"AF"E"GE|"F#m"F4::
+"B"B,/^C/^D/E/2-"E"E2|"B"B2"A"A2|"E"B^GGA/G/|"F#m"F4|\
+"B"B,/^C/^D/E/2-"E"E2|"B"B2A2|"E"^GGGA/G/|F4:|

@@ -1,0 +1,27 @@
+X: 21663
+T: the REQUEST
+Q: "Slow."
+%R: air, reel, march
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.166 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+d2(cd) | (cB)(AB) |\
+A2 (GA/G/) | F2z2 |\
+(de)(fg) | a2a2 |\
+(ag)(gf) | {f}e4 |\
+e2(fg) |
+f2(ga) |\
+(ag)(fe) | {e}f2z2 |\
+a2 (3(gag) | f2z2 |\
+f2 (3(efe) | d2 (eg/e/) |\
+d2 (c3/4B//c//) | {c}d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Mr. Clarke's song, "Tell me babbling echo" is sung to the above air.
+%%endtext
+%%sep 1 1 300

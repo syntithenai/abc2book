@@ -1,0 +1,16 @@
+X: 1426
+T: the Plaid Mantle   #2
+R: reel
+%S: s:2 b:16(8+8)
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #1426
+O: McFadden
+Z: Bob Safranek, rjs@gsp.org
+Z: Compacted via repeats and multiple endings [JC]
+M: C|
+L: 1/8
+K: D
+"^A"[|] (AG) \
+|: FEDE FGAF | GBAG FDD(E | {G}FE)DE FGAg |1 fdec dcAG :|2 faec d2 |]
+"^B"|: (de) \
+| fedc dcAF | GBAG FDD [1  g | fdec dcAg | faec d2 :|[2 (E | {G}FE)DE FGAg | faec d2 |]

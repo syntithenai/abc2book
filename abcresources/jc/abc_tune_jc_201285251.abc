@@ -1,0 +1,18 @@
+% ABC prototype for Audrey Knuth's "Tunes 'N Stuff" project
+X: 1
+T: Hawks and Eagles
+C:
+N:
+R: reel
+Z: 2020 John Chambers <jc:trillian.mit.edu> 
+S: Tunes 'N Stuff with Audrey Knuth 2021-5-25
+S: https://drive.google.com/drive/u/0/folders/1cP6iXVNCDWojRiI7GahPqXBkbXVE86xj
+M: C|
+L: 1/8
+K: D
+|:   "D"Bd-dd- dBAA | BAdA BdA2 |\
+[1,3 "A"e3f e2ef- | ff-fe dBAA :|\
+[2,4 "A"A3B A2FA- | AFED "D"D2DD :|
+|:   "D"B,D-DD- DB,A,A, | B,A,DA, B,DA,2 |\
+[1,3 "A"E3F E2EF- | FF-FE DB,A,A, :|\
+[2,4 "A"A3B A2FA- | AFED "D"D2B,A, :|

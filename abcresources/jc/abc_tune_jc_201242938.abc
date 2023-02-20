@@ -1,0 +1,34 @@
+X: 1
+T: Lady William's Delight
+C: Jonathan Jensen
+O: Baltimore, Maryland
+%R: minuet, triple hornpipe
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.72
+M: 3/2
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 rearranged to give two staffs:
+V: 1 clef=treble
+|:\
+f3e def2 d2B2 | G2 e4 d2 c2A2 |\
+F2 d4 c2 B2G2 | E2 A4 G2 FGA2 |\
+Bcd2 d2c2 d4 :: a3g fga2 b2g2 |
+e3d cde2 f2c2 |\
+d2B2 gfe2 fed2 | d6 c2 B4 |\
+FGA2 B2F2 G2E2 | cde2 a2e2 f2d2 |\
+e2B2 c2A2 d2A2 | FGA2 F2ED D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks:
+V: 2 clef=bass middle=d
+|:\
+"Bm"B8 d4 | "Em"e4 G4 "A"A4 |\
+"D"d4 F4 "G"G4 | "A"A4 c4 "D"d4 |
+"G"g4 "A"a4 "D"d2c2 ::\
+"D"d8 "G"g4 | "Em"e4 g4 "F#"f4 |\
+"Bm"B4 "Em"e4 "Bm"d4 |
+"Bm"f4 "F#7"F4 "Bm"B4 |\
+"D"d4 "B"^d4 "Em"e4 | "A"A4 c4 "D"d4 |\
+"Em"G4 "A7"g4 "D"f4 | "D"a4 "A7"A4 "D"Hd2c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

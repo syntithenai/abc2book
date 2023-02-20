@@ -1,0 +1,21 @@
+X: 32742
+T: MISS ANDERSON'S POLKA
+C: By Mackenzie
+R: polka
+B: K\"ohler's Violin Repository, v.3, 1885 p.274 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd and 3rd parts start with a c-flat as key signature.  Changed to B-flat.
+N: The 3rd part has an initial repeat but no final repeat.  Final double bar changed to final repeat.
+M: 2/4
+L: 1/16
+K: C
+|:\
+(veg)G2 (eg)G2 | (GA)Bc def2 | (fa)A2 (fa)A2 | (AB)cd efg2 |\
+(eg)G2 (eg)G2 | (GA)Bc def2 | (fa)A2 (fa)B2 | c2e2c2z2 :|
+|:[K:F]\
+vcdef gab=b | c'2c'f c'4 | b2bg b4 | a2af a4 |\
+cdef gab=b | c'2c'a c'4 | a2ag (a2g2) | f2a2f2 "D.C.":|
+|:[K:F]\
+vc4 (defg) | a2e2g2f2 | (fe)dc e2d2 | (dc)BA d2c2 |\
+c4 (defg) | a2e2g2f2 | (fe)dc (ed)cB | (dc)Gc F2z2 :|

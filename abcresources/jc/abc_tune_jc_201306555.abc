@@ -1,0 +1,27 @@
+X: 1
+T: Man-Tiger
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.327 "F f 2"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The key signature has both high and low F-sharp, but only a high g-sharp without a low G-sharp. 
+N: Some bagpipes have a similar high sharp 7th and a flat low 7th, so this may be significant.  Or maybe not.
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+fg |\
+a2 A4 e2 | c2 A4 fg | a2f2 b2a2 | g6 fg |\
+a2 A4 e2 | c3d e2ba | g2e2 f2^d2 | e6 |]
+Bc |\
+d2d2 d2fg | e2 c4 Bc | (dc) (BA) (Bc)d2 | G6 fg |\
+a2 A4 e2 | f3e fga2 | G2A2 B2G2 | A6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man sets to the 2. wo. and turn single, and turns her .| The 2. man does the same :| Then
+%% cross over below the 2. cu. and go the Figure .| Then lead through the 3. cu. and turn your
+%% Partner :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

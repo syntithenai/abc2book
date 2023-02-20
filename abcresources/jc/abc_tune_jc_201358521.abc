@@ -1,0 +1,33 @@
+%%scale 1.25
+%%barsperstaff 4
+X: 1
+T:Little Liza Jane
+C:Traditional
+M:4/4
+L:1/4
+K:D
+%%staves{RH1 RH2}
+V:RH1 clef=treble name="melody"
+|"D"F D E D|F D E D|"G"F "D"A2 F|A4
+w:v1~I've gotta gal in Bal-ti-more,_ Li'l Li-za Jane,
+w:v2~I've gotta gal and you've got none,_ Li'l Li-za Jane,
+w:v3~I know~a gal that I a-dore,_ Li'l Li-za Jane,
+w:v4~Down where~she lives the po-sies grow,_ Li'l Li-za Jane,
+w:v5~I wouldn't care how far we roam,_ Li'l Li-za Jane,
+|F D E D|F D E D|"A7"F F2 E|"D"D4|
+w:She's the gal that I a-dore,_ Li'l Li-za Jane.
+w:I've gotta gal that calls me "Hon',"_ Li'l Li-za Jane.
+w:Way down south in Bal-ti-more,_ Li'l Li-za Jane.
+w:Chick-ens round the kitch-en door,_ Li'l Li-za Jane.
+w:Where she's at is home sweet home,_ Li'l Li-za Jane.
+|"D"d3 A|"G"B2 "D"A2|"G"F "D"A2 F|A4
+w:ch~Oh, Li'l Li-za, Li'l Li-za Jane,
+w:ch~Oh, E-li-za, Li'l Li-za Jane,
+|d3 A|"G"B2 "D"A2|"A7"F F2 E|"D"D4||
+w:Oh, Li'l Li-za, Li'l Li-za Jane.
+w:Oh, E-li-za, Li'l Li-za Jane.
+V:RH2 clef=treble name="harmony"
+|A F G F|A F G F|A d2 A|d4
+|A F G F|A F G F|A A2 G|F4|
+|f3 d e2 d2|A d2 A|d4
+|f3 d|e3 d|A A2 G|F4||

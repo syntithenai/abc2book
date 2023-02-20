@@ -1,0 +1,16 @@
+X: 671
+T: Five Miles Away
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #671
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0671/oneill-1001-0671-1.abc
+M: C|
+L: 1/8
+K: D
+"^A"\
+[| d2({e}dB) ABAF | d2(AF) Agfe | dedF ABAF | GFEF GABc ||
+|| d2({e}dB) ABAF | d2(AF) Agfe | dedF ABAF | GBAG (FD)D |]
+"^B"\
+[| g | fdAd fdad | fdAd ceeg | fdAd fdad | bage fdd ||
+|| g | fdAd fdad | fdAd ceeg | (3(fga) (ge) fdec | cABG (FD)Dz |]

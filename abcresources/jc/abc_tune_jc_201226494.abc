@@ -1,0 +1,29 @@
+X: 102
+T: Wedding Day
+T: Longways for as many as will.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.51
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: 12/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c |\
+(cf)c A2F Acc f2c | (dg)d =B2G Bde f3 |\
+(FA)F f2g agf e>dc | dgd =B2G Bde f2 :|
+|: d |\
+cAF cAF Acc f3 | d2=B dBG Bde f2a |\
+F>AF f2g agf e>dc | dgd =B2G B2d f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man turn his Partner, then both cast off &
+%% take Hands round .| The 2d do the same :| Then
+%% the 1st Cu. cross over & go the Figure of 8
+%% between the 2d Cu. into the 2d Cu. Place .|
+%% then Right & Left with the 2d Cu. :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

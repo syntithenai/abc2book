@@ -1,0 +1,41 @@
+X: 041
+T: Minuetto 2 Rondo
+C: Ignatius Sancho (1775)
+B: "Minuets Cotillons & Country Dances", 1775 p.4 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+N: For ABC version 2, which handles multiple voices on a staff.
+N: The B strain really is missing a note in the last measure of the Viol2 part. (Try F or A if you like.)
+N: The booklet's Corni parts have a C-clef on the 5th line (middle=A).
+N: Change the clef= and middle= fields to get your preferred clef notation.
+N: The book has the Corni parts at the top, but available ABC software got confused when it "went missing"
+N: after the first strain, and misformatted the Viol and Bassi parts.  The order here worked normally,
+N: after I moved the Viol parts to the top position..
+R: minuet
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Bb
+V: 1 nm=Viol1  snm=V1 clef=treble middle=B staves=2
+V: 2 nm=Viol2  snm=V2 clef=treble middle=B
+V: 3 nm=Corni1 snm=C1 clef=alto   middle=A staves=2
+V: 4 nm=Corni2 snm=C2 clef=alto   middle=A
+V: 5 nm=Bassi  snm=B  clef=bass   middle=d
+%%score (1 2) (3 4) 5
+% - - - - - - - - - -
+P: A:
+[V:1] |: d4(c3/d//e//) | (dc)(BA)B2 | FBdBFd | c3d/e/ dz | d4c3/d//e// | dcBABF | G<gf<ed<c | HB6 :|
+[V:2] |: F2 B2 A2 | B2 z2 z2 | FBdBFB | A3 B/c/ Bz | F2 B2 A2 | B2 z2 F2 | G<ed<cB<A |  B6 :|
+[V:3] |: d4 c2 | d2  z2 z2 | f2 f2 d2 | c4 d2 | d4 c2 | d2 z2 z2 | B>c d2 c2 | HB6 :|
+[V:4] |: B4 F2 | B,2 z2 z2 | d2 d2 B2 | F4 B2 | B4 F2 | B2 z2 z2 | B2  F2 F2 | B,6 :|
+[V:5] |: B2 d2 f2 | b2 z2 z2 | z2 b2 B2 | f2 F2 B2 | B2 d2 f2 | b2 z2 d2 | e2 f2 F2  | HB6 :|
+% - - - - - - - - - -
+P: B:
+[V:1] |: x6         | x6     | x6     | x6      | bagabg  | agfgaf | g3/a//b// agf=e | f6  :|
+[V:2] |: d>ed>ed>=e | f2c2f2 | g2c2B2 | A>Bc2z2 | gf=efge | f2ABcA | B3/c//d// cBAG | "_da Capo"x6 :|
+[V:5] |: B2 d2 f2   | A2c2f2 |=e2g2c'2| f2ac'af | c2c,2z2 | f2F2z2 | b2c'2c2 | fgfedc :|
+% - - - - - - - - - -
+P: C:
+[V:1] |: d>e d2 c2 | B>c B2 A2 | G2 g2 f2 | e2 d2 z2 | (gd)(bg)Tg2 | (gd)(bg)Tg2 | (Ae)(dc)(BA)  |          G6 :|
+[V:2] |: B>c B2 A2 | G>A G2^F2 | G2 e2 d2 | c2 B2 z2 | x6          | x6          | (Ac)(BA)(G^F) |"_da Capo"G6 :|
+[V:5] |: G2  B2 d2 | g2 b2 d'2 | e4   =B2 | c2 g2 z2 | G2   B2  d2 | g2   b2 d'2 |  c2  d2  D2   |      Ggfedc :|
+% - - - - - - - - - -

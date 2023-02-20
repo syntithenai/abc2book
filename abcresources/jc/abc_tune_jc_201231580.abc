@@ -1,0 +1,35 @@
+X: 1552
+T: ANDANTE
+O: French air, arranged by Adam Kurek.
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.155 #2
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Bb
+% -------------------------
+V: 1
+"1st VIOLIN"!p!z | (DFAF) | (CFAF) | (DF) (BF) |\
+A(e/d/) cz | (3zDF (3BFD | (3zCF (3cAF | (3DFB (3CFA |
+[BD][dF][BD]z  !mf! |: A2!trem2!c2 | B2!trem2!d2 :|\
+!p!DFBF | CFAF | [BF][BF][AF][AF] | [BD][dF][BD] H|]
+% -------------------------
+V: 2
+K: C
+"2d VIOLIN"!p!z | ([D4B,4] | [E4C4] | [D4B,4]) |\
+[FC](c/B/) Az | ([D4B,4] | [E4C4]) | ([D2B,2][E2C2]) |\
+[DB,][DB,][DB,]z !mf!|: (F2!trem2!A2) | (G2!trem2!B2 :|\
+!p![D4B,4] | [E4C4]) | [DB,][DB,] [EC][EC] | [DB,][DB,][DB,] H|]
+% -------------------------
+V: 3
+K: C
+"Bb CLAR."!p!g | g2e>e | f2d z/d/ | eg c'>e |\
+d2 zg/g/ | g2e>e | f2d z/f/ | ee {e}d/c/d/e/ |\
+c2 zz/!mf!g/ |: ffdd | g2eg :|\
+!p!g2 ee | f2 dd | ee {e}d/c/d/e/ | cec H|]
+% -------------------------
+V: 4 clef=bass middle=d
+"BASE"!p!z | B2z2 | f2z2 | B2z2 |\
+Fffz | B2z2 | F2z2 | B2F2 |\
+Bbbz !mf!|: afaf | "^>"bfbf :|\
+!p!B2z2 | F2z2 | B2f2 | bBB H|]

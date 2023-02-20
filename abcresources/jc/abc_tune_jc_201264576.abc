@@ -1,0 +1,26 @@
+X:1
+T:Corn Rigs Are Bonnie
+M:C
+L:1/8
+Q:80
+C:Robert Burns
+S:March
+K:HP
+|: A2 | \
+{Gdc}d3e{g}f2{Gdc}d2 | \
+{gcd}cB{g}cd{gef}e2{g}A2 |
+{Gdc}d3e{g}fg{a}ef | \
+{Gdc}d2a2{g}a2A2 | \
+{Gdc}d3e{g}f2{Gdc}d2 |
+{gcd}cB{g}cd{gef}e2{g}A2 | \
+{g}B3{d}c{gef}ed{g}cB | \
+{g}A2{Gdc}d3/2e/2{Gdc}d2 ::
+A2 | \
+{Gdc}d2a2{fg}f3/2g/2ad | \
+{gcd}c3/2B/2{g}cd{gef}e2{g}A2 | \
+{Gdc}d2a2{fg}fg{a}ef |
+{Gdc}d2a2{g}a2A2 | \
+{Gdc}d2a2{fg}fa{f}gf | \
+{a}gf{g}ed{g}c2{GdG}eA |
+{g}B3{d}c{gef}ed{g}cB | \
+{g}A2{Gdc}d3/2e/2{Gdc}d2 :|

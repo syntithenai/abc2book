@@ -1,0 +1,16 @@
+X: 692
+T: Planxty Browne   #2
+T: pleraca \.bruna\.c
+R: jig
+%S: s:3 b:18(6+6+6)
+C: O'Carolan
+B: O'Neill's 1850 #692
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Compacted via repeats and multiple endings [JC]
+Q: "Lively"
+M: 6/8
+L: 1/8
+K: G
+"^A"|: g | dBG Bcd | E2E E2c | AFD DEF | G2-G G2 "^B":: g/a/ | bgb afd | efg gfe |
+[1 dBg dBG | AFD D2 :|[2 faf ge^c | d2d de=f "^C"[| ece dBd | cac BgB |
+|  Ace dBG | FAF DEF "^D"|| GAB EFG | ABc def | gdB cAF | G3 G2 |]

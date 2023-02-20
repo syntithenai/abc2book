@@ -1,0 +1,30 @@
+X: 6
+T: Non joli gar\,con
+N: There's a small hook at the lower left of the title's "c" that may be a cedille.
+%R: hornpipe
+B: "Le Sylphe, Twenty Four Country Dances with Figures for the Year 1818", Button & Whitaker, p.3 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1818
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+d>^cd>c d>gf>e | d>^cd>c d>=cBA | G>AB>c d>ef>g | a>^ga>b a4 |
+d>^cd>c d>gf>e | d>^cd>c d>=cBA | G>Bd>g g>bf>f | g2b2g2z2 :|
+[|\
+a>gf>g {^g}a2d2 | b>ag>a {^a}b2d2 | g>fe>f g2^ga | f>ge>f d4 |
+e>gf>e dgb2 | c>ed>c Bdg2 | e>gf>e d>cB>A | G>Bd>B G2z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center SINGLE FIGURE        (Tune play'd straight thro')
+%%begintext align
+%% Set & change sides with 2d Cu: set & back again |.
+%% down the mid: up again & lead thro' the top |.
+%%endtext
+%%center DOUBLE FIGURE        (Each strain repeated)
+%%begintext align
+%% Hey contrary sides |. hey on your own sides |: promenade 3 Cu: |.
+%% down the mid: up again & set to the top couple |: .
+%%endtext
+%%sep 1 1 450

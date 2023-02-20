@@ -1,0 +1,15 @@
+X:61
+T:Rob Roy MacIntosh
+M:2/4
+Q:1/4=100
+L:1/8
+K:A
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+{^A/}B4|:{^A/}Bd fe|(3(d/e/d/)B B2|f>e fg|a/a/=g f2|{^A/}Bf fe|(3(d/e/d/)B Bd/e/|
+f>e f/e/f/g/|a^A Bz::bb/a/ ff|b/a/b/a/ f2|a>f ec|af ed/e/|f/e/f/c/ B/c/d/e/|
+f/e/f/g/ ag/a/|b>b a/f/d/e/|ff Bz:|{^A/}B4|{^A/}B3 d/e/|:T(fB) T(fB)|c/d/e/c/ B2|
+f>e fg|a3 g/a/|b>b a/a/a/a/|=gg/g/ fc/d/|ef ed|[1 B3 d/e/:|[2 B4||{^A/}B4|{^A/}B3 f/f/|bz z2|]

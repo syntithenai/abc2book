@@ -1,0 +1,17 @@
+X: 1
+T: Mrs MacDouall Grant   (G)
+C: Niel Gow
+R: march
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+d2 \
+| "G"Bcd2 d2B2 | "C"c2e2 e4 | "G"Bcd2 B2G2 | "D7"F2A2 A4 \
+| "G"Bcd2 d2B2 | "C"cdef g2fe | "G"d2B2 "D7"c2A2 | "G"G4 G2 |]
+g2 \
+| "D7"a4 "G"b4 | "G"g2d2 g2b2 | "D7"a2ga "G"b2g2 | "D7"f2a2 a2b2 \
+| "D7"a4 "G"b4 | "G"g2d2 "C"g2fe | "G"d2B2 "D7"c2A2 | "G"G4 G2 |]
+g2 \
+| "D7"a4 "G"b4 | "G"g2d2 g2b2 | "D7"a2ga "G"b2g2 | "D7"f2a2 a2ga \
+| "G"b2g2 "C"e2g2 | "D"f2d2 "Em"g2fe | "G"d2B2 "D7"c2BA | "G"G4 G2 |]

@@ -1,0 +1,29 @@
+X: 14
+T: Mad Cap
+%R: slip-jig
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.7 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 9/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+ded a2f def | efe B2e cBA |\
+ded a2f def | efg ABc d3 :|
+|:\
+aba d'c'b afd | aba d'c'b a3 |\
+aba d'c'b afd | efg ABc d3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Each strain repeated)
+%%begintext align
+%% Set and change sides set and back again |: lead down the
+%% middle up again and right and left at top |: .
+%%endtext
+%%text DOUBLE FIGURE (Tune play'd twice thro' with repeats)
+%%begintext align
+%% The 3 Ladies & 3 Gent: set & lead thro' set & back again |: lead
+%% down the middle up again set to the top Cu: |: swing cor.s |:
+%% and set 3 across and set 3 in your places |:
+%%endtext

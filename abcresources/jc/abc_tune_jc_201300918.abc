@@ -1,0 +1,20 @@
+X: 1
+T: Laurel Street
+C: Paul Milde 1995
+R: polka
+%S: s:8 b:64(8+8+8+8+8+8+8+8)
+S: printed copy dated "9/1/98"
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: G
+"^A"[|\
+"G"B2 cB | "D"A2 B2 | "G"G2 B2 | d2 g2 | "C"e3 f | g2 e2 | "D"a2 g2 | f2 e2 |
+"G"d2 ed | B2 e2 | "G"d2 B2 | A2 G2 | "D"A2 Bc | B2 A2 | "G"G2 "D"F2 | "G"G4 ||
+"G"B2 cB | "D"A2 B2 | "G"G2 B2 | d2 g2 | "C"e3 f | g2 e2 | "D"a2 g2 | f2 e2 |
+"G"d2 ed | B2 e2 | "G"d2 G2 | A2 B2 | "C"c2 ed | B2 A2 | "G"G2 "D"F2 | "G"G2 "^Fine"z2 |][K:D]
+"^B"[|\
+"D"A3 B | A2 G2 | F2 A2 | d2 A2 | "G"B3 A | G2 F2 | E2 D2 | E2 F2 |
+"D"A3 B | A2 G2 | F2 A2 | d2 f2 | "A7"e3 f | g2 c2 | "D"e2 d2 | d4 ||
+"D"A3 B | A2 G2 | F2 A2 | d2 A2 | "G"B3 A | G2 F2 | E2 D2 | C2 "A7"E2 |
+"D"D3 E | F2 D2 | F2 A2 | d2 f2 | "A7"e3 f | g2 c2 | "D"e2 d2 | d2 "^DC al Fine"=c2 |]

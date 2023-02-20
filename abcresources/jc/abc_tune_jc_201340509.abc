@@ -1,0 +1,31 @@
+X: 1
+T: Stamey Creek (Harmonized Low)
+C: David A. Kaynor 2018
+R: waltz
+S: Fiddle Hell Online 2020-11-05
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+|: ag |\
+"A"a2 e3 d | cA E2 CE | "Bm"DE F2- "E"FE | "A"E2 A,2 B,C |\
+"D"DE F2 "E"FE | "A"E2 A,2 B,C |1 "Bm"DEFA Bc | "E"c2 B2 :|2 "Bm"DEFA BA | "E"e4 |]
+fg |\
+"A"a2- agae | "D"f2 d2 de | "Bm"fb b2 bf | "E"g2 e2 ag |\
+"A"a2 c2 (3(cBA) | "D"d2 F2 DE | "Bm"FB B3 A | "E"e4 ||
+fg |\
+"A"a2- agae | "D"f2 d2 de | "Bm"fb b2 bf | "E"g2 e2 ag |\
+"A"a2 e3 d | cA E2 CE | "D"DE A2 "E"AG | "A"A4 |]
+% - - - - - - - - - -
+V: 2
+|: ee |\
+e2 c3 A | AE C2 A,C | B,2 D2- DB, | C4 A,2 |\
+A,2 D2 B,2 | C4 DA, |1 B,2 D2 F2 | E4 :|2 B,2 D2 F2 | G4 |]
+Bd |\
+c2- cdec | d2 A2 A2 | df f2 fd | e2 B2 ee |\
+e2 A2 E2 | A2 D2 A,2 | B,D F3 F | G4 ||
+de |\
+c2- cdec | d2 A2 A2 | df f2 fd | e2 B2 e2 |\
+e2 c3 A | AE C2 A,C | A,2 F2 ED | [E4C4] |]

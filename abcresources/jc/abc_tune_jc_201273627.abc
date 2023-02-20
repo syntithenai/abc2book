@@ -1,0 +1,57 @@
+X: 1
+T: Excuse me
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.126 #189 (251)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.115 "L 4"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "[Each] Strain played twice" instructions.
+M: 6/4
+L: 1/4
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2G G2g | f2e d2e | f>gf cdB | A3 F3 |\
+f>ed e>dc | d>ed c>BA | B>AG A^F2 | G3- G3 :|
+|: B2c dBG | B2c dBG | B2c d2g | ^f3 d3 :|\
+|: ABc c>dc | f2c A2A | Bcd d>ed |
+g2f =e>dc | f2f f>ed | c2B A2^f |\
+[1 g>ag gdc | B3 G3 :|\
+[2 g2d =e>dc | =B3 G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text [The 1st ending of the 3rd Strain is from CCDM1; the 2nd ending is from DMDfD.]
+%%begintext align
+%% First Man and 1st Wo. cross over and pass into the 2d Cu. Place, then take Hands and
+%% turn round 'till the 1st Man is in the 2d Man's Place, and the 1st Wo. in the 2d Wo. Place
+%% then the 2d Cu. do this over as the 1st Cu. did the rest doing the same :| Then the
+%% 1st Man and 2d Wo. meet and fall back, and turn S. and the 1st Wo. and 2d Man meet
+%% and fall back, and turn S :| Then the 1st Cu. cast off and go down on the Outside off [sic]
+%% the 2d Cu. and go the whole Figure, 'till the 1st Wo. comes into the 2d Wo. place,
+%% and the 1st Man into the 2d Man's place, then the 2d Cu. cast off and go the whole
+%% Figure of 8 between the 1st Cu. 'till they come into the 3d Cu. place, and slip up
+%% the Middle, 'till they come to their own places again, the rest doing the like .|
+%% [CCDM1]
+%%endtext
+%%sep 1 1 300
+%%sep 1 1 500
+%%begintext align
+%% First man and 1. wo. cross over and pass into the 2. cu. place, then take hands and turn round till the 1. man is in the 2.
+%% man's place, and the 1. wo in the 2. wo. place, then the 2. cu do this over as the 1. cu. did, the rest doing the same.
+%% This is to the first Strain played twice.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then the 1. man and 2. wo. meet and fall back, and turn S. and the 1. wo. an 2. man meet and fall back, and turn S.
+%% This to the second Strain played twice.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then the 1. cu cast off and go down on the out-side of the 2. cu. and go the whole Figure, till the 1. wo. comes into the 2.
+%% wo. place, and the 1. man into the 2. man's place, then the 2. cu. cast off and go the whole Figure of 8 between the 1. cu. till
+%% they come into the 3. cu. place, and slip up in the middle till they come into their own places again, the rest do the like.
+%% This to the third Strain played twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

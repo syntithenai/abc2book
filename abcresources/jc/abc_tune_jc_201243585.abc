@@ -1,0 +1,21 @@
+X: 83
+T: 83. REEL
+T: Mountain Hornpipe
+T: Douglas' Favorite
+B: Sam Bayard, "Hill Country Tunes" 1944 #83
+S: Played by David P. Gilpin, Connellsville, PA, Sept 22, 1943.  Learned at Dunbar, PA.
+N: This is a set of a quite well known dance air which, in commercial fiddle-tune collections,
+N: generally goes by the name of "Douglas Favorite, or the Mountain Hornpipe."
+R: reel
+M: 4/4
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+%%slurgraces
+K: G
+((3DEF) |\
+G2gf edBA | G2gf edBG | DFGB AGBG | DFA"a."B cBA^/F |
+G2gf edBA | G2gf edef | gfgf e^cAF | G2GF G2 || "b."Gd |
+B2Bc "c."d2B2 | "d."cBcd e2A2- | A2AB "e."cBcA | GBBd "g."{d}g2Bc |
+d^cdf e^deg | fefa gfge | d^cdf ecAF | "g."G2GF G2 |]
+P: Var:
+"a."d || "b."Ad || "c."d2dB || "d."c2cd || "e."cBc2 || "f."gB || "g."G2G2G2 || "g."G2[g2B2][g2B2] |]

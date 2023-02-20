@@ -1,0 +1,180 @@
+X: 1
+T:Angels We Have Heard on High [G,w]
+C:Traditional (French Carol), English Words: James Chadwick
+S:An Online Christmas Songbook
+Z:ABC by Thornton Rose, December 2001
+N:Original score in F.
+M:4/4
+L:1/4
+K:G
+  B  B    B   d | d>c      B2 |  B     A  B     d | B>A     G2 |
+w:An-gels we have heard on high, sweet-ly sing-ing  o'er the plains
+  B   B   B    d |   d>c   B2 | B   A  B  d |   B>A     G2 |:
+w:And the moun-tains in re-ply, ech-o-ing their joy-ous strains.
+ (d2 e/2d/2c/2B/2 | c2 d/2c/2B/2A/2 | B2 c/2B/2A/2G/2 | A>)D D2 | G A B c |
+w:Glo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-or-i-a, in ex-cel-sis
+[1 B2 A2 :| [2 (B2 A2) | G4 |]
+w:De-o. De-e-o.
+W:2. Shepherd why this jubilee?
+W:Why your joyous strains prolong?
+W:What the gladsome tidings be,
+W:Which inspire your heavenly song?
+W:(Chorus)
+W:
+W:3. Come to Bethlehem and see,
+W:Him whose birth the angels sing.
+W:Come adore on bended knee,
+W:Christ the Lord the newborn king.
+W:(Chorus)
+W:
+W:4. See him in a manger laid,
+W:Whom the choirs of angels praise.
+W:Mary, Joseph, lend your aid,
+W:While our hearts in love we raise.
+W:(Chorus)
+W:
+W:0. Chorus:
+W:Gloria, in excelsis Deo.
+W:Gloria, in excelsis Deo.
+
+X: 2
+T:Angels We Have Heard on High [G]
+C:Traditional (French Carol), English Words: James Chadwick
+S:An Online Christmas Songbook
+Z:ABC by Thornton Rose, December 2001
+N:Original score in F.
+M:4/4
+L:1/4
+K:G
+B B B d | d>c B2 | B A B d | B>A G2 |
+B B B d | d>c B2 | B A B d | B>A G2 |:
+(d2 e/2d/2c/2B/2 | c2 d/2c/2B/2A/2 | B2 c/2B/2A/2G/2 | A>)D D2 |
+G A B c | [1 B2 A2 :| [2 (B2 A2) | G4 |]
+W:1. Angels we have heard on high,
+W:Sweetly singing o'er the plains,
+W:And the mountains in reply,
+W:Echoing their joyous strains.
+W:
+W:Chorus:
+W:Gloria, in excelsis Deo.
+W:Gloria, in excelsis Deo.
+W:
+W:2. Shepherd why this jubilee?
+W:Why your joyous strains prolong?
+W:What the gladsome tidings be,
+W:Which inspire your heavenly song?
+W:(Chorus)
+W:
+W:3. Come to Bethlehem and see,
+W:Him whose birth the angels sing.
+W:Come adore on bended knee,
+W:Christ the Lord the newborn king.
+W:(Chorus)
+W:
+W:4. See him in a manger laid,
+W:Whom the choirs of angels praise.
+W:Mary, Joseph, lend your aid,
+W:While our hearts in love we raise.
+W:(Chorus)
+
+X: 3
+T:Angels We Have Heard on High [F]
+C:French Carol, English: James Chadwick
+S:An Online Christmas Songbook
+Z:ABC by Thornton Rose, December 2001
+N:Original score in F.
+M:4/4
+L:1/4
+K:F
+A A A c | c>B A2 | A G A c | A>G F2 |
+A A A c | c>B A2 | A G A c | A>G F2 |:
+(c2 d/2c/2B/2A/2 | B2 c/2B/2A/2G/2 | A2 B/2A/2G/2F/2 | G>)C C2 |
+F G A B | [1 A2 G2 :| [2 (A2 G2) | F4 |]
+%
+W:1. Angels we have heard on high,
+W:Sweetly singing o'er the plains,
+W:And the mountains in reply,
+W:Echoing their joyous strains.
+W:
+W:Chorus:
+W:Gloria, in excelsis Deo.
+W:Gloria, in excelsis Deo.
+W:
+W:2. Shepherd why this jubilee,
+W:Why your joyous strains prolong?
+W:What the gladsome tidings be,
+W:Which inspire your heavenly song?
+W:(Chorus)
+W:
+W:3. Come to Bethlehem and see,
+W:Him whose birth the angels sing.
+W:Come adore on bended knee,
+W:Christ the Lord the newborn king.
+W:(Chorus)
+W:
+W:4. See him in a manger laid,
+W:Whom the choirs of angels praise.
+W:Mary, Joseph, lend your aid,
+W:While our hearts in love we raise.
+W:(Chorus)
+
+%--------------------------------------------------------------------
+
+X: 4
+T:Angels We Have Heard on High (Duet) [G]
+M:4/4
+L:1/4
+C:Traditional (French Carol), English Words: James Chadwick
+S:An Online Christmas Songbook
+Z:ABC by Thornton Rose, December 2001
+N:Original score in F.
+K:G
+V:0
+B B B d | d>c B2 | B A B d | B>A G2 |
+B B B d | d>c B2 | B A B d | B>A G2 |
+(d2 e/2d/2c/2B/2 | c2 d/2c/2B/2A/2 | B2 c/2B/2A/2G/2 | A>)D D2 |
+G A B c | B2 A2 |
+(d2 e/2d/2c/2B/2 | c2 d/2c/2B/2A/2 | B2 c/2B/2A/2G/2 | A>)D D2 |
+G A B c | (B2 A2) | G4 |]
+V:1
+G G G G | G>G G2 | G F G G | G>F G2 |
+G G G G | G>G G2 | G F G G | G>F G2 |
+(B A ^G E | E2 D F | G3 E | F)>F F2 | E D D E | G2 F2 |
+(B A ^G E | E2 D F | G3 E | F)>F F2 | G F G A | (A G2 F) | G4 |]
+
+%--------------------------------------------------------------------
+
+X: 5
+T:Angels We Have Heard on High (Lyrics)
+C:Traditional (French Carol), English Words: James Chadwick
+Z:ABC by Thornton Rose, December 2001
+M:4/4
+L:1/4
+K:F
+|]
+W:1. Angels we have heard on high,
+W:Sweetly singing o'er the plains
+W:And the mountains in reply
+W:Echoing their joyous strains.
+W:
+W:Chorus:
+W:Gloria, In Excelsius Deo.
+W:Gloria, In Excelsius Deo.
+W:
+W:2. Shepherd why this jubilee,
+W:Why your joyous strains prolong?
+W:What the gladsome tidings be,
+W:Which inspire your heavenly song?
+W:(Chorus)
+W:
+W:3. Come to Bethlehem and see,
+W:Him whose birth the angels sing.
+W:Come adore on bended knee,
+W:Christ the Lord the newborn king.
+W:(Chorus)
+W:
+W:4. See him in a manger laid,
+W:Whom the choirs of angels praise.
+W:Mary, Joseph, lend your aid,
+W:While our hearts in love we raise.
+W:(Chorus)

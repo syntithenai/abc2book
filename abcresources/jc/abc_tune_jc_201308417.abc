@@ -1,0 +1,17 @@
+X: 850
+T: McDermott's Hornpipe   #2
+R: hornpipe
+%S: s:3 b:12(4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #850
+Z: Frank Nordberg - http: //www.musicaviva.com
+F: http: //www.musicaviva.com/abc/tunes/ireland/oneill-1001/0850/oneill-1001-0850-1.abc
+M: 2/4
+L: 1/16
+K: D
+D2 "^A"\
+|:   d>f (3edc d2B2 | (3ABA G>A F>GEF \
+|[1,3 E>d (3ddd c>e (3eee | d>fe>d cABc :|
+|[2,4 DFAF GABd | c>e (3ABc d2 "^B":: (de) \
+|:   f2fd fgaf | g2gf gbag |
+|[1,3 f2fd fgab | agfe dcBA \
+:|[2,4 fad>f (3efe c>f | dfed cABc :|

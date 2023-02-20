@@ -1,0 +1,21 @@
+X:1
+T: The Bobby Harvey Strathspey
+C: Angus Fitchet
+B: Leeds #10
+Z: From the Newcastle Branch RSCDS
+Z: John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: 4/4
+L: 1/8
+%--------------------
+K: G
+c \
+[| "G"B>d g>b "C"a-<e e2 | "D7"f>g a>f "G"g-<d d2 \
+|  "C"e>c g>e "G"d>B e>d | "Am"c>B A>G "D7"F-<A d2 |
+|  "G"B>d g>b "C"a-<e e2 | "D7"f>g a>f "G"g-<d d2 \
+|  "C"e>c g>e "G"d>B G>B | "Am"c/B/A/G/ "D7"F>d "G"B-<G G |]
+c \
+[| "G"B>c d>g "C"e-<c c2 | "A7"^c>A a>g "D7"f-<d d>=c \
+|  "G"B>c d>g "Em"e>d B>d | "Am"c/B/A/G/ "D7"F>d "G"B-<G G>c |
+|  "G"B>c d>g "C"e-<c c2 | "A7"^c>A a>g "D7"f-<d d2 \
+|  "G"g-<d d=c/d/ "Am"e>d "A7"B>G | "D7"F/G/A d>c "G"B-<G G |]

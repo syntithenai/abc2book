@@ -1,0 +1,17 @@
+X: 243
+T: the Fairy Boy   #2
+R: air, waltz
+%S: s:2 b:9(5+4)
+B: O'Neill's 1850 #243
+O: F.O'Neill
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Slurs ignored to make compacting possible.
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+Q: "Moderate"
+M: 3/4
+L: 1/8
+K: A
+"^A"[|] E2 |: Ac E2 FG | Ac f2 e2 | fe c3 A |1 BA F2 G2 :|2 c>B HA2 |]
+"^B"[|  e2 | ec f3 e | cA B3 A | cA f3 e | cA B3 c/"^->A2"B/ |]

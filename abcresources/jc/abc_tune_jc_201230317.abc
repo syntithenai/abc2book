@@ -1,0 +1,28 @@
+X: 1363
+T: Humours of Dublin.  a Jig.
+%R: jig
+B: Niel Gow & Sons "Complete Repository" v.1 p.36 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+d(.A.G) TF2D | AFD (E/F/G).E | dAF TF2D | GE=C (E/F/G)E |\
+dAG TF2D | faf Tg2e | d=cB Tc2A |1 GE=C (E/F/G).E :|2 GE=C C2 |
+|: g |\
+(f2d) dfd | dfd efg | e2d def | ge=c efg |\
+f2d dfd | BdB AFD | GEG FDF |1 (GE=C C2 :|2 GE=C (E/F/G).E |
+|:\
+DFD dFD | A(.F.D) (E/F/G).E | DFD dFD | G(.E.=C) (E/F/G).E |\
+DFD dFD | faf Tg2e | d=cB {AB}c2A |1 GE=C (E/F/G)E :|2 GE=C C2 |
+|: g | (f2d) ~d2f/g/ |\
+afd efg | f2d ~d2e/f/ | ge=c efg | (f2d) dfd |\
+BdB AFD | GEG FDF |1 GE=C C2 :|2 GE=C (E/F/G).E |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: d3 d3 | d3 A3 | d3 d3 | =c3 ^c3 | d3 d3 | d3 B3 | =c3 c3 |1 =c3 c3 :| =c3 c2 |
+|: z | d'3 d'3 | d'3 a3 | d'3 d'3 | =c'3 ^c'3 | d'3 d'3 | g3 f3 | e3 d3 |1 =c3 c2 :|2 =c3 c3 |
+|: d3 d3 | d3 A3 | d3 d3 | =c3 ^c3 | d3 d3 | d3 A3 | =c3 c3 |1 =c3 ^c3 :|2 =c3 c2 |
+|: z | d'3 d'3 | d'3 a3 | d'3 d'3 | =c'3 ^c'3 | d'3 d'3 | g3 f3 | e3 d3 |1 =c3 c2 :|2 =c3 ^c3 |]

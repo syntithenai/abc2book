@@ -1,0 +1,41 @@
+X: 1
+T: "The Godfather" Theme   [Am]
+T: Speak Softly, Love
+C: music: Nino Rota %(1911-1979)
+C: words: Larry Kusik
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Am
+%%continueall 1
+% - - - - - - - - - - - - - - -
+EAc | "Am"BAcA | "Dm"BAFG | "Am"E4 |
+w: Speak soft-ly, love and hold me warm a-gainst your heart.
+%
+zEAc | BAcA | BAE_E | "Dm"D4 |
+w: I feel your words, the ten-der trembl-ing mo-ments start.
+%
+zDF^G | "Dm6"B4 | zDF^G | "Am"A4 |
+w: We're in a world, our very own,
+%
+zA,CG | "Dm"FEGF | "E7"FEE^G, | "Am"A,4 |
+w: Shar-ing a love that on-ly few have e-ver known.
+%
+z[AC][AC][_AC] | "G7"[G4B,4] | [B2D2] [AC][FA,] | "C"[E4G,4] |
+w: Wine-col-ored days warmed by the sun,
+%
+z[EC][GE][EC] | "Bb"[D4_B,4] | "Bdim"zDF^D | "Em"E4 |
+w: Deep vel-vet nights when we are one.
+%
+"E7"zEAc | "Am"BAcA | "Dm"BAFG | "Am"E4 |
+w: Speak soft-ly, love so no one hears us but the sky.
+%
+zEAc | BAcA | BAE_E | "Dm"D4 |
+w: The vows of love we make will live un-til we die.
+%
+zDF^G | "Dm6"B4 | zDF^G | "Am"A4 |
+w: My life is yours and all be-cause
+%
+zA,CG | "Dm"FEGF | "E7"FEE^G | "Am"A4 z |]
+w: You came in-to my world with love so soft-ly love.
+% - - - - - - - - - - - - - - -

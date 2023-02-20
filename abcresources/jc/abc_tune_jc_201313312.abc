@@ -1,0 +1,25 @@
+X: 1
+T: Mount Hills
+P: Longways for as many as will
+%R: march, reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.256
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+d2a2 f2f2 | efed c2A2 | d2a2 f2f2 | a2(gf) e4 |\
+d2a2 f2f2 | efed c2A2 | d2(cB) g2(fe) | c4 d4 |]
+[|\
+c3d e2f2 | g2f2 e2(dc) | d2B2 g2a2 | f4 e4 |\
+abag f2f2 | d2d2 B3f | g2(fe) (dc) (de) | e4 d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First cu. cross over and go the half Figure .| The 2. cu. do the same :| The 1. man change with the
+%% 2. wo. 2. man change with the 1. wo. Hands all four half round .| Go back to back with your Partner,
+%% then right and left into the 2. cu. place :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

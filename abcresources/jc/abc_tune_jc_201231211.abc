@@ -1,0 +1,31 @@
+X: 14
+T: the Boys of the Nile
+%R: reel, march
+B: Name "Kauntze's Collection of the most favorite Dances, Reels, Waltzes, &c."
+F: http://imslp.org/wiki/Kauntze%27s_Collection_of_Dances,_Reels,_Waltzes_etc._%28Various%29
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Shortened final notes to fix the rhythm.
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+d/c/ |\
+Bdgd | ceag | fdef | g>a gd/c/ | Bdgd | ceag | fdef | g2g :|
+g/a/ |\
+bgeg | dgBg | dgBg | aAAa | bgeg | dgBg | cedc | BG Gg/a/ |
+bgeg | dgBg | dgBg | aAAc | Bdgd | ceag | fdef | g>ag |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+G2g2 | c2c'2 | [d'2d2]d2 | gdGz | G2g2 | c2c'2 | d'def | gdG :|
+z |\
+[g2b2d'2][g2c'2e'2] | [g2b2d'2][g2b2d'2] | [g2b2d'2][g2b2d'2] | [f2a2d'2][f2a2d'2] |\
+[g2b2d'2][g2c'2e'2] | [g2b2d'2][g2b2d'2] | [f2a2d'2][f2a2d'2] | [g2b2d'2][g2b2d'2] |
+GgGg | GgGg | GgGg | dd'dz |\
+[G2g2]z[Gg] | [c2d'2][^c2^c'2] | d'2d2 |gdG |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%%    Set, turn your Partner Right hand, Cast off one Cu: turn left hand, Back again,
+%% down the middle, up again, Right and Left.
+%%endtext

@@ -1,0 +1,34 @@
+X: 20811
+T: COQUETTE SETT (tune 4)
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" 1843 p.81 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Perhaps the F in bar 16 should also be sharp.
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+G2 |\
+c2c2 Bcec | G2G2 e3d | c2cB cdef | d^cdc dGAB |\
+c2c2 Bcec | G2G2 e3d | c2c2 BcdB | c2e2c2 H|]
+Bc |\
+ded^c d2g2 | B2d2 G2B2 | A2c2 ^F2A2 | GAG^F GABc |\
+dec^c d2a2 | B2d2 G2B2 | A2e2 d2^F2 | B,2G2 FGA"^D.C."B |]
+E2 |\
+A>BA>^G A>Bc>d | e2e2 e2f2 | e2ec B2Gc | B2B^G E2^FG |\
+A>BA>^G A>Bc>d | e2d2 e2f2 | e2d2 c2B2 | A3G ^FGA"^D.C."B |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All alamand corners,
+%% alamand partners,
+%% -- balance corners,
+%% turn corners,
+%% -- all chain,
+%% all promenade,
+%% -- repeat, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

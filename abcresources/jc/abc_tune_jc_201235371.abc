@@ -1,0 +1,44 @@
+X: 21103
+T: AMERICAN SETT (tune 3)
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" 1843 p.110 #3 (and top two staffs of p.111)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+fe |\
+d2{e}f2 c2{e}f2 | d2{e}f2 b2ba | g2gf e2ed | c2c2c2 fe |\
+d2{e}f2 c2{e}f2 | d2{e}f2 b2ba | gfed cecA | B2B2B2 H|]
+ed |\
+c2cd e2f2 | d2f2 B2ba | g2gb a2af | b2ag f2ed |\
+c2cd e2ef | d2f2 b2ba | gfed cecA | B2B2"^D.C."B2 |]
+D2 |\
+G2GA B2AG | d2d2d2 cB | A2A2 AcBA | B2 G4 D2 |\
+G2GA B2AG | d2d2d2 cd | ecdB cABG | ^F2A2"^D.C."d2 |]
+g2 |\
+G2f2- f2ed | e2gf edcB | A2Ac f2c2 | d2fe dcBA |\
+F2A2B2c2 | (d4 c2)ec | dBcA BGA^F | GBAc Bdc"^D.C."e |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% [between 1st & 2nd strains]
+%% First four lead to right,
+%% chassa out,
+%% and form lines across the hall,
+%% all right and left.
+%%endtext
+%%begintext align
+%% [between 3rd & 4th strains]
+%% All chassa across partners,
+%% across the hall,
+%% ladies forward and back,
+%% gentlemen the same,
+%% all chain across the hall,
+%% all forward and back,
+%% swing partners to place.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

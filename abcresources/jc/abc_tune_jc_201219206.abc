@@ -1,0 +1,17 @@
+X: 02130
+T: THAT'S MY BOY!
+C: Bob McQuillen '73
+B: Bob's Note Book 1&2 #130
+%R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+(3(DEF) \
+| GFGA BAGD | E2G2 A2G2 | D2GA BAGA | B2AG (3(BcB) A2 |
+| GFGA BAGD | E2G2 A2G2 | D2GA BAGA | BGAF G2 :|
+|: BA \
+| GFGA BcdB | cdec dcBA | GFGA BcdB | cBAG AcBA |
+| GFGA BcdB | cdec ddef | gfgd edBG | DGAF G2 :|
+%%begintext align
+%%endtext

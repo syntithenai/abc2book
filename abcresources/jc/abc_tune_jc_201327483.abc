@@ -1,0 +1,52 @@
+
+X: 0
+T: R-011
+K:
+
+%%sep 1 1 500
+
+X: 1
+T: Ross's Reel Number 4   [F]
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+B: Miller & Perron (New England Fiddler's Repertoire) #112 1983
+B: Page (Ralph Page Book of Contras) p.11 1969
+B: Tolman (The Nelson Music Collection) p.8 1969
+M: C|
+L: 1/8
+K: F
+   a2 | "C7"g3f e2d2 | "F"cdcB A2GF | "C7"ECEG c2cB | "F"AFAc f2a2 |
+   y3 | "C7"g3f e2d2 | "F"cdcB A2GF | "C7"EFGA Bcde | "F"f2a2 f2  :|
+|: cB | "F"Ac~c2 dc~c2 | Acfc acfc | Ac~c2 dc~c2 | Acfc acfc |
+   y3 | "C7"Bc~c2 dc~c2 | =Bcec gc_bc | =Bcec gc_bc | acgc "F"f2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Batchelder's Reel
+%date 1883
+M: C|
+R: reel
+K: F
+c2 |\
+"F"f2af "C7"efge | "F"f2c2 c2=Bc | "Bb"dcBA "Gm"BAGF | "C7"EFGA Bcde |
+"F"f2af "C7"efge | "F"f2c2 c2=Bc | "Bb"dcBA "Gm"BAGF | "C7"EFGE "F"F2 :|
+|: c2 |\
+"F"A2cA cAcA | "Bb"B2dB dBdB | "F"A2cA cAcA | "Gm"BAGF "C7"EFGB |
+"F"A2cA cAcA | "Bb"B2dB dBdB | "F"Acfa "C7"bgeg | "F"f2a2 f2 :|
+
+%%sep 1 1 500
+
+X: 123
+T: Mountain Ranger  [Bb]
+R: hornpipe
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: NEFR #123
+M: C|
+L: 1/8
+K: Bb
+FE |\
+"Bb"DF Bc "(Gm)"d2 cd | "Cm"ed cB "F7"G2 FE | "Bb"DF Bc "(Gm)"dB AB | "Eb"gf dB "F7"c2 FE |
+"Bb"DF Bc "(Gm)"d2 cd | "Cm"ed cB "F7"G2 FE | "Bb"DF Bd "F7"cB Ac | "Bb"B2 d2 B2 :|
+|: Bc |\
+"Bb"dB AB GB FB | "Bb"DF Bc dB AB | "Eb"gB fB ed cB | "C7"Gc cB "F7"AB ce |
+"Bb"dB {c}((3BAB) GB FB | "Bb"DF Bc dB AB | "Eb"gB fB "Cm"ed cB | "F7"AF GA "Bb"B2 :|

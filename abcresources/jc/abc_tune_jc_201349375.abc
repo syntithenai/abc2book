@@ -1,0 +1,48 @@
+X:74
+T:Villen Kansa Medley
+M:2/4
+L:1/16
+Q:1/4=80
+C:arr. Eira Mattsson (Washington DC Finlandia Foundation) ~1976
+S:Villen Kansa, Kuna Mina.. Varjele Hyvaa Issa, Nikkeli Markka, Humu-Pekka
+R:jenkka
+P:VK,KM,VHI,NM,HP
+N:1. Villen Kansa
+2. Kuna Mina Koto Ani Laksin
+3. Varjele Hyvaa Isa
+4. Nikkeli Markka
+5. Humu-Pekka
+K:Am
+P:VK
+"Am" c2cc "E7" B2B2 | "Am" A2A2 "E7" E2E2 | "Dm" D2DF A2AA | "Am" CCCE A2A2 |
+"E7" E2EF EDCB, | "Am" A,2C2 E4 | !
+"E7" E2E^G B2cc | "Am" B2A2 A3E | c2cc "E7" B2B2 | "Am" A2A2 "E7" E2E2 |
+"Dm" DDDF A2AA | "Am" C2CE A2A2 | !
+"E7" EEEF EDCB, | "Am" A,2C2 E3E | "E7" EEE^G B2cc | "Am" B2A2 A2EE |
+c2BA c2BA | ccBA "Dm" B4 | !
+"G7" B2AG B2AG | "C" A2GE G4 | "Dm" FEDE FAGF | "Am" F2E2 E2E2 |
+"Dm" D2DD "B7" ^D2D2 | "E7" E4 E4 | !
+P:KM
+"Am" A,2A,A, CCEE | A4 A2B2 | "Dm" c2AA A2F2 | "Am" E4 z4 |
+"Am" A,2A,A, CCEE | A4 A2B2 | "Dm" c2AA A2F2 | "Am" E4 z2 E2 | !
+"Dm" G2GG DDDF | "Am" A2A2 E2ED | C2CC "E7" B,2B,2 | "Am" A,4 z2 E2 |
+"Dm" G2GG DDDF | "Am" A2A2 E2ED | C2CC "E7" B,2B,2 | "Am" A,2A,2 A,2 z2 | !
+P:VHI
+"Am" E2ED CCCB, | C2CB, A,2A,2 | "Dm" AAAG F2FE | D3C "E7" B,2B,2 |
+"Am"CCCD E2ED | CCCB, A,2A,B, | C2CC "E7" B,2B,B, | "Am" A,2A,2 A,2 z2 | !
+P:NM
+"Am" EEcB A2EF | "Dm" G2FF "E7" D2B,2 |
+"Am" CCDD EEDC | "E7" B,2EF EDCB, |
+"Am" EEcB A2EF | "Dm" GGFF "E7" D2B,B, | !
+"Am" E2DC "E7" B,DCB, | "Am" A,2A,2 A,2 z2 |
+"E7" B,B,CC DDB,B, | "Am" C2D2 E2 z2 |
+"E7" EE^FF ^GGcB | "Dm" A2F2 "Am" E2 z2 | !
+"E7" B,B,CC DDB,B, | "Am" C2D2 E2 z2 |
+"E7" EE^FF ^GGcB | "Am" A2A2 A2 z2 | !
+P:HP
+"Am" A,A,CE AAAE | "Dm" FFFD "Am" E2E2 |
+"Dm" D2DB, "Am" CCCA, | "E7" B,2EF EDCB, | !
+"Am" A,A,CE AAAE | "Dm" FFFD "Am" E2E2 |
+c2cA "E7" BBB^G | "Am" A2A2 A2 z2 | !
+|: "Dm" FFdc B2B2 | "Am" EEcB A2A2 |
+"Dm" F2FD "Am" E2EE | "E7" E2cB "Am" A2 z2 :||

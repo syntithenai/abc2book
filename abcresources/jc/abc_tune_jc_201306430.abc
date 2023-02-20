@@ -1,0 +1,70 @@
+
+X: 1
+T: \'O Malh\~ao  [G]
+O: Portugal
+F: http://www.youtube.com/watch?v=p3wPho12Cgc
+F: http://www.youtube.com/watch?v=fTr3RqspAVE
+F: http://ifdo.ca/~seymour/runabc/intl.abc
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+P: Instr.
+GG BB dd | "G"~dG GG BB dd \
+| "D7"~dF FF AA dd |1 "D7"~dF FF AA dd | "G"~dG \
+:|2 "D7"fe dc Bc AB | "G"G2 z[gdBG] .[gdBG]2 .[gdBG]2  | .[gdBG]2 ||
+P: Vocal
+|: "G"GG G2 FF | "D7"D3 .[dAF] .[dAF]2 .[dAF]2 | .[dAF]2 FF F2 D2 \
+|  "G"G3 .[gdB] .[gdB]2 .[gdB]2 | .[gdB]2 :|
+|: "G"DD D2 E2 | "D7"D2 FF F2 E2 | D2 DC B,2 A,2 \
+|  "G"G,3 .[gdB] .[gdB]2 .[gdB]2 | .[gdB]2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: \'O Malh\~ao Malh\~ao
+O: Portugal
+F: http://lyricstranslate.com/en/O-Malhao-Malhao-O-Malhao-Malhao.html
+K:
+W: Portuguese:
+W: 1.~\'O Malh\~ao, Malh\~ao    Que vida \'e a tua?
+W:    Comer e beber, ai tirim-tim-tim    Passear na rua!
+W:
+W: 2.~\'O Malh\~ao, Malh\~ao    Quem te deu as meias?
+W:    Foi o caixeirinho, ai tirim-tim-tim    Tinha pernas feias!
+W:
+W: 3.~\'O Malh\~ao, Malh\~ao    Quem te deu as botas?
+W:    Foi o caixeirinho, ai tirim-tim-tim    Tinha as pernas tortas!
+W:
+W:    English
+W:    \'O Malh\~ao, Malh\~ao
+W:
+W: 1.~Oh Malhao, malhao    "what life is yours?"
+W:    "To eat, and drink, ai tirim-tim-tim"    "To stroll on the streets"
+W:
+W: 2.~\'O Malhao, Malh~ao    "Who gave you socks?"
+W:    "A caixeirinho did, ai tirim-tim-tim"    "He had ugly legs"
+W:
+W: 3.~Oh malhao, Malh~ao    "Who gave you boots?"
+W:    "A caixeirinho did, ai tirim-tim-tim"    "He had bent legs"
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: \'O Malh\~ao  (A)
+O: Portugal
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+P: Instr.
+AA cc ee | "A"~eA AA cc ee \
+| "E7"~eG GG BB ee |1 "E7"~eG GG BB ee | "A"~eA \
+:|2 "E7"gf ed cd Bc | "A"A2 z[aecA] .[aecA]2 .[aecA]2  | .[aecA]2 ||
+P: Vocal
+|: "A"AA A2 GG | "E7"E3 .[eBG] .[eBG]2 .[eBG]2 | .[eBG]2 GG G2 E2 \
+|  "A"A3 .[aec] .[aec]2 .[aec]2 | .[aec]2 :|
+|: "A"EE E2 F2 | "E7"E2 GG G2 F2 | E2 ED C2 B,2 \
+|  "A"A,3 .[aec] .[aec]2 .[aec]2 | .[aec]2 :|

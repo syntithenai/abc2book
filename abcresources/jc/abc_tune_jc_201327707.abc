@@ -1,0 +1,26 @@
+X:1
+T:ROWAN TREE
+M:C
+L:1/8
+Q:80
+C:
+S:MARCH
+K:HP
+{g}A3/2B/2 | \
+{g}c3{GdG}c{gcd}c2B2 | \
+{g}c/2e3/2{A}e2a2 |
+{fg}f3e{g}f2a2 | \
+{fg}f3e{A}e2{g}A3/2B/2 | \
+{g}c3{GdG}c{gcd}c2B2 |
+{g}c/2e3/2{g}f3e | \
+{g}e/2c3/2{g}B3{d}c | \
+A2{GAG}A2 |
+e | \
+{A}e2a2{g}a3g | \
+{f}g2f2{e}f2a2 | \
+{ef}e3f{e}fe{Gdc}dc |
+{g}c3/2d/2c/2{g}B{g}A3/2B/2 | \
+{g}c3{GdG}c{gcd}c2B2 | \
+{g}c/2e3/2{g}f3e |
+{g}e/2c3/2{g}B3{d}c | \
+{g}A2{GAG}A2 |

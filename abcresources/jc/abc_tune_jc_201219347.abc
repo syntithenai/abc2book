@@ -1,0 +1,35 @@
+X: 022
+T: Lochaber
+%R: air
+B: Francis Barsanti "A Collection of Old Scots Tunes" p.2 #2
+S: http://imslp.org/wiki/A_Collection_of_Old_Scots_Tunes_(Barsanti,_Francesco)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Q: "slow"
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 produces 4- or 8-bar phrases.
+V: 1
+GA |\
+B2 B2 Bc | TB3 AB>d | ~e2 A2 A2 | TA4 G>A |\
+B2 (cB)(AG) | D2 (dc)(BA) | TB2 (AG)(GA) | G4 :|\
+|: G2 |
+B>c d2 d2 | {e}d2 (cB)(TAG) | G2 g2 (g>a) | Tg4 "^P"G2 |\
+B>c d2 d2 | d>ed>cTB>A | G2 g2 (g>a) | g4 d2 |\
+e3 g Te2 |{de} d2 e2 g2 |
+b2 a2 (A>B) | {B}TA4 G>A |\
+(B<d)(c<B)(TA<G) | D2 (d<c)(B<A) | TB2 (AG)(GA) | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the staff breaks in the book.
+V: 2 clef=bass middle=d
+z2 |\
+g4 "7"d2 | g2 G2 g2 | c2 "6"c'2 ^c'2 | d'4 z2 |\
+g4 g2 | "6"f4 f2 | g2 "6"c2 d2 | G4 :|\
+|: z2 |
+g6 | "6"f6 | "5"e2 "6;4;2"d2 c2 | "6"B2 G2 z2 |\
+g6 | "6"f6 | e2 d2 c2 | "6"B2 G2 B2 |\
+c2 C2 c2 | "6"B2 "5"A2 "6"G2 |
+"6"c2 c'2 ^c'2 | d'4 z2 |\
+g4 g2 | "6"f4 f2 | g2 "6"c2 d2 | G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

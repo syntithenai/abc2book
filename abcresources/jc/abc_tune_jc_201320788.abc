@@ -1,0 +1,16 @@
+X:1
+T:Out on the Ocean
+R:Jig
+C:Trad Irish
+M:6/8
+L:1/8
+%%printtempo 0
+Q:160
+K:G
+E|\
+"G"D2B BAG|BdB "D"ABA|"G"GED G2 A|~B3 "D"AGE|
+"G"D2B BAG |BdB "D"ABA|"G"GED "D"G2 A|1"G"BGF G2 :|2 "G"BGF GBd||
+"Em"~e3 edB|efe edB|"D"~d3 dBA|d2d dBA|
+"G"G2 A B2 d|"C"ege dBA|"G"GED "D"G2 A|"G"BGF GBd|
+"Em"~e3 edB|efe edB|"D"~d3 def| gfe dBA|
+"G"G2 A B2 d|"C"ege dBA|"G"GED "D"G2 A|"G"BGF G2|]

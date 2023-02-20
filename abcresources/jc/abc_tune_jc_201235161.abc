@@ -1,0 +1,28 @@
+X: 21002
+T: the MILL, MILL O
+O: Scottish air.
+%R: air, strathspey, march
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.100 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d>e |\
+{de}f2A>B A3d | B>ABd {f}e2d>e |\
+{de}f2A2 gfed | B3c d2d>e |\
+{de}f2A>B A3d | B>ABd {f}e2d>e |\
+{de}f2A2 gfed | B3c d3 |]
+A |\
+d>ef>g a3a | bagf {f}e3A |\
+d>efg a>bag | f3g a2zA |\
+d>efg a2ga | bagf {f}e2d>e | {de}f2A2 gfed | B3c d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Burns' song, "When wild war's deadly blast was blawn,"
+%% is sung to the above air.
+%%endtext
+%%sep 1 1 300

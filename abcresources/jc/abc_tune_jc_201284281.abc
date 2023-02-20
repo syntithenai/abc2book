@@ -1,0 +1,33 @@
+X: 1
+T: Hampstead Manour
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (122)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+a |\
+f2a A2A | d2d def | e2a fed | e2A A2a |\
+f2a A2A | d2d def | eAa f>b^g | a3- a2 :|
+|: e |\
+c2e A2a | f>ed d2d | B2d G2g/f/ | g3 b3 |\
+efg a3 | fga b2b | bag f2e | e3- e2f/g/ |
+agf gfe | fed e2A | d2e f>gf | e3 A2a |\
+f2a A2A | d2d def | eag f>ed | d3- d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. lead down to the 4th Cu. the 1st Man turn the 4th
+%% Wo. and the 1st Wo. turn the 4th Man with her right hand
+%% and her Partner with her left .| Then turn the 3d Cu. and
+%% your Partners as before then the 2d Cu. then your Partners
+%% :| Then cross over every Cu. below the 4th and take
+%% your Partner by both Hands and draw quite round every
+%% Cu. till you come to the Top .| Change Places with the
+%% 2d Cu. and cast off and right and left quite round and
+%% turn your Partner :|
+%%endtext
+%%sep 1 8 500

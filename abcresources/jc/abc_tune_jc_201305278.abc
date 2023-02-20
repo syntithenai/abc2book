@@ -1,0 +1,37 @@
+X: 1
+T: Mac Foset's Farewell
+P: Longways for as many as will
+%R: strathspey
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.25
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+C2 |\
+F3GF3A GGG2 G2A2 | F3GF3A D4C4 |\
+F3GF3A GGG2 G2A2 | F2EF GFED C6 :|
+|: c2 |\
+FFF2 c2A2 d2G2G2A2 | FFF2 c2F2 D4 C2c2 |\
+FFF2 c2A2 d2G2G2A2 | F2EF GFED C6 :|
+|: c2 |\
+A2F2B2G2 c2A2d2B2 | F2D2 B2E2 E3DC3c |\
+A2F2B2G2 c2A2d2B2 | F2EF GFED C6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+a4f4 c'4c4 | a4f4 g4c4 |\
+a4f4 c'4c4 | d4g4 c6 :|\
+|: z2 | f4F4 B4G4 |
+F4f4 g4c4 | f4F4 B4G4 | d4g4 c6 :|\
+|: z2 |\
+f4g4 a4b4 | d4g4 c8 | f4g4 a4b4 | d4g4 c6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up all. 1st Man change Places with the 2d Man and lead out. then lead in.
+%% the 1st Wo. doing the same ..| the Men and We. fall back, then meet and foot it. the
+%% 2d Cu being in the 1st Place, cast off, fall back, and foot it as before. and cast off
+%% do this to the last.
+%%endtext

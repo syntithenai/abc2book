@@ -1,0 +1,23 @@
+X: 213	% 59
+T: Tom Tom Indian Dance
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.21 #3
+R: fox-trot
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Added dots to a few long notes, to fix the rhythms.
+N: The 32nd-note run seems to have a '3' above it; ignored because it doesn't work there.
+M: C|
+L: 1/8
+Q: "Fox Trot Rhythm"
+K: Em
+V: 1 name="59"
+[|"^Em"\
+E2EF G2(GF) | EFGA Be3 | E2EF G2(GF) | EFGA Be3 |\
+[cG][cG] [B2G2] [cG][cG] B2 | [B3G3]c BAGF | [E7B,7] (3(A,/B,/C/) |
+E2EF G2(GF) |\
+EFGA Be3 | E2EF G2(GF) | EFGA Be3 | [cG][cG] [B2G2] [cG][cG] [B2G2] |\
+B3c BAGF | "^Fine"E7 ||
+(D//E//F//G//) |\
+"^G" d2 d4 d2 | [e4G4] d4 | [B2G2] [B4G4] [B2G2] | [c4G4] [B4G4] |\
+B2 [A4F4] E2 | [B4G4] [A4D4] | A2G6 (3(B/c/d/) | e4 d3 (B/c/) |
+d2 d4 d2 | [e4G4] d4 | [B2G2] [B4G4] [B2G2] | [c4G4] [B4G4] |\
+[B2G2] [A4F4] E2 | B4 A4 | G6 (3(FGA) | G6 ("^D.C."GF) |]

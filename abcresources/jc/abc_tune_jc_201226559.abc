@@ -1,0 +1,22 @@
+X: 1032
+T: Earl of Loudoun's Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.3 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+% = = = = = = = = = =
+V: 1 staves=2
+f |\
+c<Fc>A F>Ac>A | D>dTd>c dGG<f |\
+c>Fc>A F(f/g/ a)>g | f>d c/d/c/B/ AF-F :| c |\
+f>g{fg}ag fd-d>f | c>df>g {fg}ag-g>a |
+f>g.a.g f<ca>g | f>d c/d/c/B/ AF-F>c ||\
+f>g{fg}ag fd-d>f | c>df>g {fg}ag-gf/g/ |\
+a>fg>d f/d/c a>g | f>d c/d/c/B/ AF-F |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | f2f2 f2f2 | g2g2 g2g2 | f2f2 f2f2 | c2c2 f2f :| z | f2f2 f2f2 | f2f2 g2g2 |
+f2f2 f2f2 | c2c2 f2f2 || f2f2 f2f2 | f2f2 g2g2 | f2f2 f2f2 | c2c2 f2f |]

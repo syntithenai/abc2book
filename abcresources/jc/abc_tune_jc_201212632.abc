@@ -1,0 +1,14 @@
+X: 1087
+T: Quadrille Acadien (A42)
+N: page A42
+N: heptatonic
+M: 4/8
+L: 1/16
+K: G
+Q:1/4=72
+%%MIDI gchord fcfc
+z4 d3 c|:"G" BcAB G2 Bd|gdBG "C"dcBc|"Am"dBcA "D" FAdc|
+"G"BGdB "D7"Aedc|"G"BcAB G2 Bd|gdBG "C"dcBc|"Am"dBcA "D"FAdc|
+[1"G"BG"D7"AF "G"G2 dc:|[2 "G"BG"D7"AF "G"G2 c2|:"G"Bggf g3 b|agbg agfd|
+"Am"eaag a3 b|"D7"agab "G"g2 dc|"G"BGBd g2 ga|bgdB "C"dcBc|
+"Am"dBcA "D7"FAdc|[1"G"BG"D7"AF "G" G2 c2:|[2"G"BG"D7"AF "G" G4|

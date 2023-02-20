@@ -1,0 +1,59 @@
+
+X: 0
+T: Branl Normande
+O: France
+%info: line
+K: C
+
+
+X: 1
+M: C|
+L: 1/8
+P: Mon p\`ere avait un petit boit
+K: D
+|: "D"F2FF A2A2 | "A7"F2E2 "D"D4 | FEFG ABAG | "A7"F2E2 "D"D4 |
+| "D"A2Bc "E7"d2d2 | "A"c2"A7"B2 "A"A4 | "G"BcdB "D"A2A2 | "G"BcdB "D"A4 |
+| "D"FEFG "F#m"ABAG | "F#7"FGFE "Bm"E2D2 | "D"FEFG ABAG | "A7"F2E2 "D"D4 :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Branle Normand
+T: Circle dance from Normandy
+M: 2/4
+L: 1/8
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: printed & handwritten MSS of unknown origin
+K: G
+%%indent 290
+"^Intro"|"G"BA Bc | de dc | B2 "D7"A2 | "G"G4 ||
+|:"G"B2 Bc | d2 d2 | B2 "D7"A2 | "G"G4 \
+| "G"BA Bc | de dc | B2 "D7"A2 | "G"G4 |
+| "G"d2 ef | g2 g2 | "C"f2 e2 | "G"d4 \
+| "C"ef ge | "G"d2 d2 | "C"ef ge | "G"d4 |
+| "G"BA Bc | de dc | Bc BA | "D7"A2 "G"G2 \
+| "G"BA Bc | de dc | B2 "D7"A2 | "G"G4 :|
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Branne Bachanalle
+O: France
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: G
+P: Intro
+d2dc B2AG | A2F2 G4 \
+|: "G"G2GF G2GA | B2AG "D7"A2A2 \
+| "G"GAGF "Em"G2GA | "A7"B2A2 "D"D4 |
+| "D"d2dc "G"B2BA | "Em"G2F2 E2"D7"F2 \
+| "G"G4 "D7"D4 | "G"G2GF G2GA | "A7"B2AG "D"A2A2 | d2dc "G"B2AG |
+| "C"A2"D7"F2 "G"G4 \
+| "G"G4 "D7"D4 \
+| "G"G2GF G2GA | "A7"B2AG "D"A2A2 \
+| d2dc "G"B2AG | "C"A2"D7"F2 "G"G4 :|

@@ -1,0 +1,45 @@
+X: 1
+T: Slavjanka
+O: Srbija
+M: 2/4
+L: 1/8
+Z: John Chambers <jc@trillian.mit.edu>
+K: C
+|: "C"[e4G4] | [dF][cE] [e2G2] \
+| [dF][cE] [e2G2] | [dF][cE] [e2G2] \
+| [c/E/][d/F/][eG] "G"[B/G/][c/A/][dB] | "D7"[cA][A^F] "G"[B2G2] \
+| "A7"[cA][d/B/][c/A/] [BG][GE] | "D"[A2^F2] [A2F2] :|
+|: c3 B | BA AG \
+| G^F FE | ED D2 \
+| "D7"D[E^C] [^FD][GE] | [A^F][BG] [c2A2] \
+| "A7"[c/A/][B/G/][A^F] [BG][GE] | "D"[A2^F2] [A2F2] :|
+|: "C"[e4G4] | [dF][cE] [e2G2] | [dF][cE] [e2G2] | [dF][cE] [e2G2] \
+w: 1.~Haj, ma-lo ja, ma-lo ti, ma-lo ja,
+w: Haj, gr-li me, lju-bi me, gr-li me,
+w: Haj, gr-li me, lju-bi me, gr-li me,
+| "G"[BG][cA] [dB][BG] | "D7"[cA][A^F] "G"[B2G2] | "A7"[BG][dB] [BG][GE] | "D"[A4F4] :|
+w: pa che-mo se cu-ri-ce o-pet vo-le-ti!
+w: i u ba-shtu vo-di me gde mi-ri-she cveche.
+w: i u kre-vet ba-ci me pa-ra-di shto snash.
+|: c3 B | BA AG | G[^FF] FE | ED D2 \
+w: Haj,* u-ba- u-ba- u-ba- u-ba- u-ba-va,
+w: Haj,* ne-ka- ne-ka- ne-ka- ne-ka ne-kse zna,
+w: Haj,* u-ba- u-ba- u-ba- u-ba- u-ba-va,
+| "D7"D[E^C] [^FD][GE] | [A^F][BG] [c2A2] | "A7"[BG][dB] [BG][GE] | "D"[A4F4] :|
+w: u-ba- u-ba- u-ba-va, cu-ra ga-ra va!
+w: ne-ka- ne-ka ne-kse zna, da te lju-bim ja!
+w: u-ba- u-ba- u-ba-va, cu-ra ga-ra va!
+%%sep 10 10 500
+K: D
+|: "D"[f4A4] | [eG][dF] [f2A2] \
+| [eG][dF] [f2A2] | [eG][dF] [f2A2] \
+| [d/F/][e/G/][fA] "A"[c/A/][d/B/][ec] | "E7"[dB][B^G] "A"[c2A2] \
+| "B7"[dB][e/c/][d/B/] [cA][AF] | "E"[B2^G2] [B2G2] :|
+|: d3 c | cB BA \
+| A^G GF | FE E2 \
+| "E7"E[F^D] [^GE][AF] | [B^G][cA] [d2B2] \
+| "B7"[d/B/][c/A/][B^G] [cA][AF] | "E"[B2^G2] [B2G2] :|
+|: "D"[f4A4] | [eG][dF] [f2A2] | [eG][dF] [f2A2] | [eG][dF] [f2A2] \
+| "A"[cA][dB] [ec][cA] | "E7"[dB][B^G] "A"[c2A2] | "B7"[cA][ec] [cA][AF] | "E"[B4G4] :|
+|: d3 c | cB BA | A[^GG] GF | FE E2 \
+| "E7"E[F^D] [^GE][AF] | [B^G][cA] [d2B2] | "B7"[cA][ec] [cA][AF] | "E"[B4G4] :|

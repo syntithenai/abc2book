@@ -1,0 +1,48 @@
+%%text RJ Set 132
+
+
+X: 1
+T: The Coming Dawn
+C: Keith Murphy
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: handout at Roaring Jelly practice
+B: Keith Murphy "Black Isle Music I" p.11 2001
+M: 6/8
+L: 1/8
+K: G
+A |\
+"G"BAG EDB, | "Bm"D3 DB,D | "C"EGE "G/B"DB,D | "A7"EFG "D"ABc |\
+"G"BAG EDB, | "Bm"D3 DB,D | "C"EGE "G/B"DB,D | "D"EGF "G"G2 :|
+|: A |\
+"G"B2d dBd | "C"edB AGA | "Em"BAG EDB, | "Bm"D3 DB,D |\
+"C"E3 "Am"EDB, | "D"GFG "D#dim"A3 | "Em"Bed "G/D"BAG | "C"AGF "Dsus"G2 :|
+
+
+X: 2
+T: Disconnect
+C: Jeremy Kittel
+R: jig
+M: 6/8
+L: 1/8
+K: Em
+|:"Em"~E3 BEc- | cBA Bcd | "D"~D3 ADB- | BAG F2G |\
+ "Em"~E3 BEc- | cBA Bcd |"D"~D3 Bcd |1 "Bm"DGD A2 B :|2 "Bm"~D3 Bcd|]
+|: "C"e2G GFG | "D"A3 ABc | "Bm"d2F FEF |"C"G2A Bcd |\
+ "Am/C"e2G GFG | "Bm/D"A3 Adc | "Bm/C"BAG FED |1 "Em"EFG "D"ABd :|2 "D"EFG FDB, |]
+%%text Transition: Just play the second ending as written into Coco Roco!
+
+
+X: 3
+T: Coco Roco
+C: Keith Murphy
+C: Black Isle Music, BMI
+K: Emix
+M: 6/8
+|:\
+"E"E2B AAB | dBA GAB | E2 B AAB | "G"=G2G "D"FED |\
+"E"E2B AAB | dBde2f | "C"=g2 g "D"fed | "B7"BAG "E"E2D :|
+|:\
+"Em"e2f "C"=gfe | "D"dBA "Bm"B2d | "Em"e2f "A7" =g^ga | "B7"bag "Em"e2B |\
+"Em"e2f "C"=gfe | "D"dBA "Bm"Bde | "A7"age dBA | "E"GAB "D"D3 :|
+

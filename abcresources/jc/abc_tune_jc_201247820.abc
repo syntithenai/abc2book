@@ -1,0 +1,271 @@
+X:1
+T:Arrival of the Queen of Sheba
+C:G.F.Handel (1685-1759)
+S:Sinfonia from the opera Solomon HWV 67
+Z:PJHeadford 2009
+M:C
+L:1/16
+Q:1/4=120
+K:Bb
+V:1 name-"Oboe I"
+f6 df b4d4|g4 f3e d4 z4|d6 df =e6 cg|
+agfg c2=e2 f2cd cdcd|c6 Ac f6 df|e6 ce d4 z4|
+V:2 name="Oboe II"
+d6 fd B6 fd|c3B A2A2 B4 z4|B6 Bd c6 g=e|
+cBAB G2c2 A2AB ABAB|A6 FA B6 fb|c6 Ac F4 z4|
+V:3 name="Violin I II"
+bfdf bfdf bfdf bfdf|cbag fedc dBcd efga|\
+bfdf bfdf b=ece bgcg|
+agfg c2=e2 f2cd cdcd|cAFA cAFA fdBd fdBd|\
+ecAc ecAc dFGA Bcde|
+V:4 name="Viola" clef=tenor octave=-1 middle=c
+d2f2f2f2 d2d2d2b2|b2c'2c'2f2 f4B4|\
+f2f2g2g2 g2g2c2c2|
+c'bab g2c2 c4 f2c2|c2f2f2f2 B2B2B2B2|\
+g2ag a2f2 f4 d4|
+V:5 name="Bassi" clef=bass octave=-2 middle=d
+b2b2a2a2 g2g2f2f2|e2e2f2f2 b4 B4|\
+d2d2g2g2 c2c2=e2e2|
+f2b2c'2c2 f4 A2c2|f2f2e2e2 d2d2g2g2|\
+c2c2f2f2 b4 B4|
+V:1
+f2d2f2d2 f2c2f2c2|d2B2d2B2 d2A2d2A2|\
+b2g2b2g2 b2f2b2f2|
+efgf edcB ABcB AGFE|D2E2F2G2 A2B2c2d2|\
+efef gfed cdcd efef|
+V:2
+d2B2d2B2 c2A2c2A2|B2G2B2G2 A2F2A2F2|\
+g2e2g2e2 f2d2f2d2|
+G2ef gfed cBAB cBAG|F2E2D2G2 F2B2F2B2|\
+cdcd edcB ABAB cdcd|
+V:3
+"7"fdBd fdBd fcAc fcAc|dBGB dBGB dAFA dAFA|\
+bgeg bgeg bfdf bfdf|
+efgf edcB cBAB AGFE|DFEG FAGB AcBd cedf|\
+efef gfed cdcd efef|
+V:4
+b2f2b2f2 a2f2a2f2|g2d2g2d2 f2d2f2d2|e2B2e2B2 d2b2d2b2|
+g2ef gfed c2ab c'bag|f2ce B2B2 f2d2f2f2|g2g2c'2g2 c2c2a2a2|
+V:5
+b2b2b2b2 a2a2a2a2|g2g2g2g2 f2f2f2f2|e2e2e2e2 d2d2d2d2|
+c2c2c2e2 f2f2f2A2|B2c2d2e2 f2g2a2b2|e2e2e2e2 f2f2f2f2|
+V:1
+gfgf eded cdcd efef|gfgf eded cdcd edec|d4z4 z8|
+z16|Bcde d2c2 B2f4 e2|d2ed e2c2 defg f2e2|\
+d2ed e2c2 d2c2 B4|
+V:2
+eded cBcB ABAB cdcd|eded cBcB ABAB cBcA|B4z4 z8|
+z16|z8 Bcde d2c2|B2cB c2A2 Bcde d2c2|\
+B2cB c2A2 B2F2 D4|
+V:3
+"13"gfgf eded cdcd efef|gfgf eded cdcd edec|\
+dfeg fagb a2gf b2e2|
+d2cB F2A2 B2F2 B,4|z16|z16|z16|
+V:4
+a2a2a2a2 a2a2a2a2|a2a2a2a2 a2a2a2a2|\
+f2a2b2e2 c'2a2f2g2|
+f2g2f2e2 d4z4|z16|z16|z16|
+V:5
+f2f2f2f2 f2f2f2f2|f2f2f2f2 f2f2f2f2|\
+B2c2d2e2 f2e2d2e2|
+f2e2f2F2 B4z4|z16|z16|z16|
+V:1
+z16|z16|f4 gfed e2g4 g2|fedf edce d2f4 f2|
+edce dcBd c2f2 ABcd|c2f2 ABcd c2f2f2f2|f4z4 z8|z16|
+V:2
+z16|z16|d4 edcB c2e4 e2|dcBd cBAc B2d4 d2|
+cBAc BAGB A2c2 FGAB|A2c2 FGAB A2A2A2A2|A4z4 z8|z16|
+V:3
+bfdf bfdf bfdf bfdf|cbag fedc d2F2 B,4|z16|z16|
+z16|z16|fcAc fcAc fcAc fcfa|gf=ed cBAG AFGA Bcde|
+V:4
+d2f2d2f2 g2b2g2b2|g2b2a2a2 b4z4|z16|z16|
+z16|z16|a2c'2a2c'2 a2f2a2c2|d2f2=e2e2 f2d2c2B2|
+V:5
+b2b2a2a2 g2g2f2f2|e2e2f2f2 B4z4|z16|z16|
+z16|z16|f2f2=e2e2 d2d2c2c2|B2B2c2c2 f2B2A2G2|
+V:1
+fgab a2g2 f2c4 B2|A2BA B2G2 ABcd c2=e2|\
+f2ga b2g2 a2g2 f4|c2A2c2A2 c2G2c2G2|
+a2f2a2f2 a2=e2a2e2|f2d2f2d2 f2c2f2c2|\
+B2d2B2G2 =e4 z2g2|(a2g2)(g2f2) (b2a2)(a2g2)|
+V:2
+ABcd c2B2 A2A4 G2|F2GF G2=E2 FGAB A2G2|\
+A2Bc d2=e2 f2c2 A4|A2F2 A2F2 G2=E2G2E2|
+f2d2f2d2 =e2c2e2c2|d2B2d2B2 c2A2c2A2|\
+d2B2G2d2 c4 z2=e2|(f2=e2)(e2d2) (g2f2)(f2e2)|
+V:3
+f4 z4 z8|z16|z16|cAFA cAFA cG=EG cGEc|
+afdf afdf a=ece aece|fdBd fdBd fcAc fcAc|\
+Bcdc BAGF =E4z4|z16|
+V:4
+c4 z4 z8|z16|z16|f2c2f2c2 =e2c2e2c2|
+d2A2d2A2 c'2a2c'2a2|b2f2b2f2 a2f2a2f2|\
+g2d2g2G2 G4z4|z16|
+V:5
+F4z4 z8|z16|z16|f2f2f2f2 =e2e2e2e2|
+d2d2d2d2 c2c2c2c2|B2B2B2B2 A2A2A2A2|\
+G2G2G2G2 c4z4|z16|
+V:1
+(abag) (gagf) (gagf) (fgf=e)|d=edc BcBA G4 z4|z16|
+z16|z16|defg f2e2 d2f4 e2|d2ed e2c2 d2c2 B4|
+V:2
+(fgf=e) (efed) (efed) (dedc)|BcBA GAGF =E4 z4|z16|
+z16|z16|Bcde d2c2 B2d4 c2|B2cB c2A2 B2F2 D4|
+V:3
+z16|d=edc BcBA GAGA BcBc|dcdc BABA GAGA BcBc|
+dcdc BABA GAGA BcBc|A2f2 G2=e2 f2c2 F4|z16|z16|
+V:4
+z16|f2f2g2g2 g2g2=e2e2|=e2e2e2e2 e2e2e2e2|
+=e2e2e2e2 e2e2e2e2|c2d2d2c2 c4 z4|z16|c16|
+V:5
+z16|B2B2B2B2 c2c2c2c2|c2c2c2c2 c2c2c2c2|
+c2c2c2c2 c2c2c2c2|f2d2B2c2 F4 z4|z16|z16|
+V:1
+z16|z16|(d2c2)(c2B2) (e2d2)(d2c2)|\
+(dedc) (cdcB) (cdcB) (BcBA)|
+Bcde d2c2 B2b4 a2|g2ag a2^f2 g2d2B2d2|g4z4 z8|z16|
+V:2
+z16|z16|(B2A2)(A2G2) (c2B2)(B2A2)|\
+(BcBA) (ABAG) (ABAG) (GAG=E)|
+GABc B2A2 G2d4 c2|B2cB c2A2 B2G2d2B2|G4z4 z8|z16|
+V:3
+bfdf bfdf bfdf bfdf|
+cbag fedc dBcd BDEF|B,4z4 z8|z16|
+z16|z16|gdBd gdBd gdBd gdgb|ag^f=e dcBA BGAB cdef|
+V:4
+d2f2d2f2 g2b2d2b2|g2b2a2a2 b4z4|z16|z16|
+z16|z16|B2d2B2d2 e2g2b2B2|c2a2^f2d2 d4z4|
+V:5
+b2b2a2a2 g2g2f2f2|e2e2f2f2 B4z4|z16|z16|
+z16|z16|g2g2f2f2 e2e2d2d2|c2c2d2d2 G4z4|
+V:1
+d4G4 e4c4-|c2de f2c2 d4B4-|\
+B2cd e2B2 c4A4-|A2Bc d2A2 B2G4 AB|
+c2A4 Bc d2B4 cd|e2c2=B2c2 ^f8|\
+g2d2B2d2 g2fe d2c2|B4A4 G4z4|
+V:2
+d4G4 e4c4-|c2de f2c2 d4B4-|\
+B2cd e2B2 c4A4-|A2Bc d2A2 B2G4 AB|
+c2A4 Bc d2B4 cd|e2c2=B2c2 ^f8|\
+g2d2B2d2 G4G4|G4^F4 G4z4|
+V:3
+g4z4 gece gece|f4z4 fdBd fdBd|\
+e4z4 ecAc ecAc|d4z4 gdBd gdBd|
+^f4z4 dBGB dBGB|E4z4 a^fdf afdf|\
+gdBd gdBd g2fe d2c2|B4A4 G4z4|
+V:4
+g2g2d2d2 g2g2e2e2|c2c2c2c2 f2f2d2d2|\
+B2B2B2B2 e2e2c2c2|A2A2A2A2 d2d2d2d2|
+c2c2^f2f2 g2d2g2d2|g4z4 ^f2a4f2|\
+d2d2d2d2 e2g2g2g2|g4 ^f3c B4z4|
+V:5
+=b2b2b2b2 c2c2c2c2|a2a2a2a2 b2b2b2b2|\
+g2g2g2g2 a2a2a2a2|^f2f2f2f2 g2g2g2g2|
+a2a2a2a2 b2b2b2b2|c'2e'2d'2c'2 d'2d'2c'2c'2|\
+b2g2f2f2 e2e2B2c2|d2c2d2D2 G4z4|
+" page 9"
+V:1
+b2g2b2g2 b2f2b2f2|g2e2g2e2 g2d2g2d2|\
+e2c2e2c2 e2B2e2B2|
+c4d4 e4z4|G_ABc B2A2 G2g4f2|\
+e2fe f2d2 e2b4_a2|g2_ag a2f2 g2f2 e4|
+V:2
+g2e2g2e2 f2d2f2d2|e2c2e2c2 d2B2d2B2|\
+c2_A2c2A2 B2G2B2G2|
+_A4F4 G4z4|EFG_A G2F2 E2B4A2|\
+G2_AG A2F2 G2g4f2|e2fe f2d2 e2B2G2B2|
+V:3
+bgeg bgeg bfdf bfdf|gece gece gdBd gdBd|\
+ec_Ac ecAc eBGB eBGB|
+_agfe dcB_A G2E2G2B2|E4z4 z8|z16|z16|
+V:4
+e'2b2e'2b2 d'2b2d'2b2|c'2g2c'2g2 b2g2b2g2|\
+_a2e2a2e2 g2e2g2e2|
+c4f4 B4z4|z16|z16|z16|
+V:5
+e'2e'2e'2e'2 d'2d'2d'2d'2|c'2c'2c'2c'2 b2b2b2b2|\
+_a2a2a2a2 g2g2g2g2|
+f2f2f2f2 e4z4|z16|z16|z16|
+V:1
+B2G2B2G2 c4z4|c2A2c2A2 d4z4|d2B2d2B2 e4z4|
+e2c2e2c2 f4z4|defg f2e2 d2f4e2|\
+d2ed e2c2 d2c2B2A2|d2c4B2 e2d4c2|
+V:2
+G4z4 G2=E2G2E2|A4z4 A2D2A2D2|B4z4 B2G2B2G2|
+c4z4 c2F2c2F2|Bcde d2c2 B2d4c2|\
+B2cB c2A2 B2e2d2c2|B2A4G2 c2B4A2|
+V:3
+BGEG BGEG cG=EG cGEG|cAFA cAFA dA^FA dAFA|\
+dBGB dBGB eBGB eBGB|
+ec_Ac ecAc fc=Ac fcAc|d4z4 z8|z16|z16|
+V:4
+e2e2e2e2 c2c2c2c2|a2a2f2f2 d2d2d2d2|\
+b2b2g2g2 e2e2e2e2|
+c'2c'2_a2a2 f2f2f2f2|f4z4 z8|z16|z16|
+V:5
+e2e2e2e2 =e2e2e2e2|f2f2f2f2 ^f2f2f2f2|\
+g2g2g2g2 g2g2g2g2|
+_a2a2a2a2 =a2a2a2a2|b4z4 z8|z16|z16|
+" page 11"
+V:1
+defg f2B2 A2B4c2|def4B2 ABc4d2|\
+efg4c2 =Bcd4G2|c2de f2d2 e2=B2c4-|
+c2de f2c2 d2A2B4-|B2_AG A2GF G2=ABc4-|\
+c2BA B2AG A4z4|
+V:2
+Bcde d2f2 F2G4A2|def4B2 ABc4d2|\
+efg4c2 =Bcd4G2|c2de f2d2 e2=B2c4-|
+c2de f2c2 d2A2B4-|B2_AG A2GF G2=AB c4-|\
+c2BA B2AG A4z4|
+V:3
+z16|bfdf bfdf A4z4|cGEG cGEG D4z4|ecGc d=BGB c4z4|
+cAFA cAFA B4z4|fdBd fdBd G4z4|g=ece gece dAFA cAFA|
+V:4
+z16|f2b2d2d2 c2a2a2=b2|\
+g2c'4c2 d2=b2g2d2|g2g2=B2B2 g2g2e2e2|
+f2f2a2a2 f2c2d2e2|f2f2d2d2 B2B2g2g2|g2g2=e2e2 a4f4|
+V:5
+z16|b2b2b2b2 f2f2f2f2|\
+c2c2e2e2 g2g2=b2b2|c'2c'2g2g2 c2c2c'2c'2|
+a2a2f2f2 B2B2B2c2|d2d2d2d2 e2e2e2e2|=e2e2e2e2 f4a4|
+V:1
+f2d2f2d2 f2c2f2c2|d2B2d2B2 d2A2d2A2|\
+b2g2b2g2 b2f2b2f2|
+efgf edcB ABcB AGFE|D2E2F2G2 A2B2c2d2|\
+efef gfed cdcd efef|
+V:2
+d2B2d2B2 c2A2c2A2|B2G2B2G2 A2F2A2F2|\
+g2e2g2e2 f2d2f2d2|
+G2ef gfed cBAB cBAG|F2E2D2G2 F2B2F2B2|\
+cdcd edcB ABAB cdcd|
+V:3
+fdBd fdBd fcAc fcAc|dBGB dBGB dAFA dAFA|\
+bgeg bgeg bfdf bfdf|
+efgf edcB ABcB AGFE|DFEG FAGB AcBd cedf|\
+efef gfed cdcd efef|
+V:4
+b2f2b2f2 a2f2a2f2|g2d2g2d2 f2d2f2d2|\
+e2B2e2B2 d2b2d2b2|
+g2ef gfed c2ab c'bag|f2ce B2B2 f2d2f2f2|\
+g2g2c'2g2 c2c2a2a2|
+V:5
+b2b2b2b2 a2a2a2a2|g2g2g2g2 f2f2f2f2|\
+e2e2e2e2 d2d2d2d2|
+c2c2c2e2 f2f2f2A2|B2c2d2e2 f2g2a2b2|\
+e2e2e2e2 f2f2f2f2|
+V:1
+gfgf eded cdcd efef|gfgf eded cdcd edec|\
+dfeg fagb a2gf b2e2|d4c3B B4z4|]
+V:2
+eded cBcB ABAB cdcd|eded cBcB ABAB cBcA|\
+F2A2B2e2 c2A2f2B2|B4 A2E2 D4z4|]
+V:3
+gfgf eded cdcd efef|gfgf eded cdcd edec|\
+dfeg fagb a2gf b2e2|d2cB F2A2 B2B,2 z4|
+V:4
+a2a2a2a2 a2a2a2a2|a2a2a2a2 a2a2a2a2|\
+f2a2b2e2 c'2a2f2g2|f2g2f2e2 d4z4|]
+V:5
+f2f2f2f2 f2f2f2f2|f2f2f2f2 f2f2f2f2|\
+B2c2d2e2 f2e2d2e2|f2e2f2F2 B4z4|]

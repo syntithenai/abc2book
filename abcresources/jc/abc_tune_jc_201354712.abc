@@ -1,0 +1,19 @@
+X: 1
+T: the Yo-Yo
+C: J.A. MacLelland
+R: jig, march
+S: BSFC 2021 zoom workshop 2021-6-21
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bm
+N: Version in BSFC collection:
+"^A"[|] f |:\
+B>BB c>AA | B>BB (d2e) | f>ef (e2d) | (e2d) c>AA || B>BB c>AA |
+B>BB (d2e) | f>ef (e2d) |[1 f>BB (B2f) |[2 f>BB (B2e) "^B:"|: f>ef (a2g) | f>ef (e2d) |
+f>ef (e2d) | (e2d) c>AA |[1 f>ef (a2g) | f>ef (e2d) | f>ef (e2d) | fBB (B2e) :|
+[2 B>BB c>AA | B>BB (d2e) | f>ef (e2d) | f>BB (B2f) "^C"|: B>BB d>Bf | f>dB (d2f) |
+c>AA A>cc | (e2d) c>AA || B>BB d>Bf | f>dB (d2f) | c>AA (e2c) | f>BB (B2f) :|
+"^D"|:\
+a>Aa (a2f) | d>ff (f2a) | e>Ae (e2d) | e>ff c>AA |[1 a>Aa (a2f) | d>ff (f2a) |
+[1 c>AA (e2c) | f>BB (B2f) :|[2 B>BB c>AA | B>BB (d2e) | f>ef (e2d) | f>BB B3 |]

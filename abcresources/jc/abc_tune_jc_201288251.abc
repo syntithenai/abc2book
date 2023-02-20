@@ -1,0 +1,19 @@
+X: 382
+T: Huish the cat
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #382
+R: single jig
+%S: s:2 b:16(8+8)
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0382/oneill-1001-0382-1.abc
+M: 6/8
+L: 1/8
+K: C
+%%slurgraces 1
+%%graceslurs 1
+"^A"\
+|: G>AG c2e | d<dA c2e | G>AG c2d | ecA A2c |\
+|  G>AG c2e | d<dA c2e | g>fe f2d | ecA A2{BA}G :|
+"^B"\
+|: gfe  f2d | edc  f2d | gfe  f2d | ecA A2G |\
+|  gfe  f2d | edc  f2d | G>AG f2d | ecA A2{BA}G :|
+%Bar 2: two first notes org. 8th note and dotted 16th note!

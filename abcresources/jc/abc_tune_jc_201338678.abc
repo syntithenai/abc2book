@@ -1,0 +1,13 @@
+X:1
+T:Smith's Reel
+R:Reel
+M:C|
+%%printtempo 0
+Q:180
+K:D
+(fg|\
+"D"a)fbf afde| f(afd) "G"e(dBc)| "D"d(edB A)Bde| f(af)d "A"e2(fg)|
+"D"afbf afde| f(afd) "G"e(dBc)| "D"d(edB A)Bde| "A"fde(c "D"d2) :|
+|:(FG|\
+"D"A)(FGA) A2 (dc)| "G"BAB(c BA)(FG | "D"A)(FAB) (AB)de| f(af)d "A"e(dBA)|
+"D"(FG)A(BA2)d(c| "G"BA)B(c BA)(FG| "D"A)(FAB) (AB)de| "A"fde(c "D"d2):|

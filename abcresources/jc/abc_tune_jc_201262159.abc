@@ -1,0 +1,54 @@
+
+X: 1
+T: Christmas Eve (simplified)
+O: O'Neill's 1850 #494
+B: O'Neill's 1850 #494
+%date: 1903
+Z: 1999 by John Chambers <jc:trillian.mit.edu>
+N: 2019 Chords by Darlene Wigton
+N: "Moderate"
+N: Collected by "F.O'Neill"
+M: C
+L: 1/8
+K: G
+   BA \
+| "G"G3E D2EG | "D"A2A2 "G"B2g2 | "G"d3c B2GA | "Em"B2E2 "D7"E2BA \
+| "G"G2D2 G3A | B2d2 "C"e2g2 | "G"d2B2 "D7"A2GA | "G"B2G2 G2 :|
+|: Bc \
+| "G"d3c B2G2 | "G"B2d2 "C"e2"D7"f2 | "G"g3e d3B | "Am"A2E2 "D7"E2BA \
+| "G"G3E D2EG | "Am"A2A2 "G"B2g2 | "D7"d3c B2GA | "G"B2G2 G2 :|
+
+%%sep 1 1 500
+
+X: 2
+T: Christmas Eve
+O: O'Neill's 1850 #494
+B: O'Neill's 1850 #494
+%date: 1903
+Z: 1999 by John Chambers <jc:trillian.mit.edu>
+N: 2019 Chords by Darlene Wigton
+N: "Moderate"
+N: Collected by "F.O'Neill"
+M: C
+L: 1/8
+K: G
+BA |\
+"G"G3E D2EG | "D"A2A2 "G"Bd"C"ge | "G"d3c BAGA | "Em"B2E2 "D7"E2BA || "G"GEDE "Em"G2GA |
+"G"B2d2 "C"ef"Am"ge | "G"d2B2 "D7"A2GA | "G"B2G2 G2 :: Bc  | "G"d3c "D"BAGA | "G"B2d2 "C"eg"D7"fa |
+"G"g3e "Bm"d3B | "Am"A2E2 "D7"EcBA || "G"G3E D2EG | "Am"A2A2 "G"Bd"C"ge | "G"d3c "D7"BAGA | "G"B2G2 G2 :|
+
+%%sep 1 1 500
+
+X: 3
+T: Christmas Day Ida Morning
+O: trad. Shetland
+M: 6/8
+%P: (AABBAB)x3 for Darlene's dance
+K: D
+"^A"|:\
+"D"f2d f3 | "A"e2d cA2 | "G"B2G d2c | "(Em)"BG2 G3 |\
+"A(Em)"e2f g2f | e2d c2B | "A7"A2{B}A ABc | "D"d3 d3 :|
+"^B"|:\
+"Em"e3 (4e-def | "(G)"g3 B3 | "A"A2{B}A A2A | "G"B2c dB2 |\
+"Em"e3 (4e-def | "(G)"g3 B3 | "A"A2e "G"dB2 | "A"A3 A3 :|
+

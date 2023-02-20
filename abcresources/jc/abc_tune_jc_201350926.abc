@@ -1,0 +1,17 @@
+X: 342
+T: We Met At the Fair   #2
+T: do \`teat\`mar ag an aona\`c
+R: jig, air
+%S: s:2 b:10(6+4)
+B: O'Neill's 1850 #342
+O: F.O'Neill
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+Q: "Gaily"
+M: 6/8
+L: 1/8
+K: A
+"^A"[|] (c/d/) | e>AB GFE | Tc>Bc [1 dcd | ede cAF | =G3- G3 :|[2 eag | fde cAB | A3 "^fine"A2 |]
+"^B"[|  (A/B/) | c(cd) e(ef) | {a}=gec d2(c/d/) | eAB {d}cAF | =G3- "^->A2"G3 |]

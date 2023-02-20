@@ -1,0 +1,25 @@
+X: 07045
+T: GREAT MEMORIES
+C: Bob McQuillen 17 Dec 1988
+B: Bob's Note Book 7 #45
+%R: waltz
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Noe: 3/6/12-bar phrases
+M: 3/4
+L: 1/4
+K: G
+B,D \
+| "G"GFG | D3 | DB,D | "C"EFG | E3 | "G"DB,D \
+| GFG | D3 | "Em"GAB | "Am"cBc | "D7"B3 | ABc |
+| "D7"dBA | "G"G3 | "G"DB,D | "C"EFG | E3 | "G"DB,D \
+| GBd | "C"e3 | "G"dBG | "D7"ABA | "G"G3- | G |]
+[| Bd \
+| "D7"ega | "G"b3 | g2b | "C"age | "C"e3 | "G"d3 | ega \
+| "Em"g3 | ege | "Bm"dBd | "Em"e3 | ede |
+| "G"gba | "C"g3 | e3 | ege | "G"d2B | "Em"G3 \
+| "C"AGE | "G"D3 | BdB | "D7"AGA | "G"G3- | G |]
+%%begintext align
+%% Today was a Memorial Day, too, a
+%% different one, full of love and sorrow,
+%% as such days are.
+%%endtext

@@ -1,0 +1,21 @@
+X: 04030
+T: GEORGE'S BLACK FLUTE
+C: Bob McQuillen 10 May 79
+B: Bob's Note Book 04 #30
+%R: polka, reel
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+DD \
+| D2BB B2G2 | AGFE D2EF | G2GA B2c2 | dedB A2DD |\
+| D2BB B2G2 | AGFE D2EF | G2AB cBAG | D2G2 G2 :|
+|: Bc \
+| d2g2 g2Bc | dgga g2Bc | d2ga bagb | agab a2Bc |\
+| d2g2 g2Bc | dgga g2Bc | dgeg fedc | BGAB G2 :|
+%%begintext align
+%% With fondest Best Wishes always to
+%% George Reynolds of Timber Salvage.
+%% You'll love the way he plays his
+%% black Irish flute!
+%%endtext

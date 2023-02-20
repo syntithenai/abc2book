@@ -1,0 +1,23 @@
+X:1
+T: Catching of Quails
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 165
+%W: A
+% voice 1 (1 lines, 34 notes)
+K:G
+M:6/8
+L:1/16
+c4 c2 c3 B A2 B4 G2 G3 e =f2 g4 g2 e3 =f g2 f6 d6 |c4 c2 c3 B A2 B4 G2 G3 e =f2 g4 g2 e3 =f g2 f6 d6 |
+%W: B1
+% voice 1 (1 lines, 31 notes)
+f4 g2 f4 g2 f4 g2 f3 e f2 g4 =f2 e3 d c2 B6 G6 |g4 a2 g4 a2 g4 a2 g4 =f2 e4 d2 e3 d c2 B6 G6 |
+%W: B2
+% voice 1 (1 lines, 31 notes)
+f4 g2 f4 g2 f4 g2 f3 e f2 g4 =f2 e3 d c2 B6 G6 |g4 a2 g4 a2 g4 a2 g4 =f2 e4 d2 e3 d c2 B6 G6 ||

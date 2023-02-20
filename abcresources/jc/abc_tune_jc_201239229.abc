@@ -1,0 +1,25 @@
+X: 3233
+T: Miss Z Loughnan's   Strathspey
+C: by Miss Sharpe of Hoddom
+%R: strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.23 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow"
+K: C
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 7-bar lines.
+V: 1 staves=2
+F |\
+(EG).G.G TG>cGE | DC/D/ EC {B,}A,2A,F |\
+[1 (EG).G.G G>c A/G/F/E/ | TD>CDE C2C :|\
+[2 EGAB Tc>A A/G/F/E/ | TD>CDE C2C |] G | Tc>d{cd}e>d {B}c>AGE |
+DC/D/ EC {B,}A,2A,G | Tc>dec fage | Td>cde {B}c2cG ||\
+Tc>dec Tf>a (a/g/)f/e/ | Tdc/d/ ec {B}A2(AB) |\
+(c>A)GE TG>A (A/G/)F/E/ | (TD/C/)D/E/ (G/F/)E/D/ C2TC |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | c'2c2 e2c2 | g2c2 F2f2 |[1 c2c'2 e2f2 | g2G2 c2C :|[2 c2f2 e2f2 | g2G2 c2c |] z | c'2c2
+efec | g2e2 f2F2 | c'2c2 f2ec | g2G2 c2C2 || c2c'2 bg c'c | g2e2 f2F2 | efec e2f2 | g2G2 c2c |]

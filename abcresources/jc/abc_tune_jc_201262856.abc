@@ -1,0 +1,16 @@
+X: 869
+T: the Clover Blossom
+R: hornpipe
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #869
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0869/oneill-1001-0869-1.abc
+M: C|
+L: 1/8
+K: A
+"^A"[|]\
+(3(efg) | a(ece) Ace(a | f)dBG A2(Bc) | def(e d)cBA | GBAF E2 ||\
+(3(efg) | a(ece) Ace(a | f)dBG A2(Bc) | df(ed c)ABG | E2A2A2 :|
+"^B"\
+|: (ed) | ceA(e ce)Ae | dfB(f df)Bf | ceA(e ce)Ac | B(AGF) E2 ||\
+   (ed) | ceA(e ce)Ac | d(cde) fgaf | eae(d c)ABG | E2A2A2 :|

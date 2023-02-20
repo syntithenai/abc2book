@@ -1,0 +1,73 @@
+
+X: 1
+T: Al Tira
+O: Israel
+%info: line
+M: 4/4
+L: 1/8
+C: E. Harussi and M. Zeira
+S: V. Pasternak: Great Songs of Israel
+Z: Seymour.Shlien@crc.doc.c
+K: Dm
+| "Dm" D2 C/2=B,/2C DD C/2=B,/2C | DF "C" ED/2C/2 "Dm" D4 | D2 C/2=B,/2C DD C/2B,/2C |"Dm" DF "C" ED/2C/2 D4 |
+| "F" F A2 A "Gm" G/2A/2 B2 B | "F" AF FF/2A/2 "C" G C2 C |"F" F A2 A "Gm" G/2A/2 B2 B | "F" AG/2F/2 "A7" GF/2E/2 "Dm" D2 D2 |
+| "Bb" D d2 d "C" c2 B/2A/2 B | "C7" G c2 B "F" A2 A2 | "Bb" D d2 d "C" c2 B/2A/2B | "C7" G c2 B "A" A2 A2 |
+| "Dm" FG AF "Gm" GA/2B/2 AG |"Dm" F2 "C" G2 "F" A4 | "Dm" FG AF "Gm" GA/2B/2 AG/2G/2 |"Dm" FF "Cm" _E/2D/2E "D" D4 |
+
+%%sep 1 1 500
+
+
+X: 1
+T: Al Tira
+O: Israel
+%info: line
+M: 2/4
+L: 1/8
+C: E. Harussi and M. Zeira
+O: Israel
+S: Handwritten MS of unknown origin
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+K: Am
+[|"Am"A2 "(G)"GG | "Am"AA "(G)"GG | "Am"Ac "G"BA/G/ | "Am"A3 z \
+| "Am"A2 "(G)"GG | "Am"AA "(G)"GG | "Am"Ac "G"BA/G/ | "Am"A3 z |]
+[| "C"ce- ee | "G7"df- ff |  "C"ec    ce | "G7"dG- GG \
+|  "C"ce- ee | "G7"df- ff |  "C"ec "G"dB | "Am"A2  A2 |]
+[|"Am"za- aa | "G7"g2 f2 |     dg- gf |  "C"e2 e2 \
+| "Am"za- aa | "G7"g2 f2 |     de- ed | "Am"c2 c2 |]
+[| "C"cd ec | "G7"de/f/ ed |  "C"c2 "G"  d2 | "Am"e4 \
+|  "C"cd ec | "G7"de/f/ ed | "Am"c2 "Gm"_B2 | "Am"A3 z |]
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: 'Al Tiruni
+O: Israel
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dm
+|: "Dm"zF2E "B"FE "C7"DC | "Dm"zD2C "B"DE "C7"FG \
+|  "Dm"zF2G AG AF | "G"G3 F/E/ "Dm"D4 :|
+|| "C"zC2C CC DC | zC2C D2 "F"A,2 \
+|  "C"zC2C CC DC | "F"zF2F "C"G2 "F"F2 |
+|  "F"zA2A AA GF | "F"zA2A AA GF \
+| "Dm"zF2F F2 "(C)"C2  | "B"FE "C7"DC "Dm"D2 D2 |]
+
+%%sep 1 1 500
+
+
+X: 1
+T: 'Al Tiruni
+O: Israel
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Em
+|: "Em"zG2F "C"GF "D7"ED | "Em"zE2D "C"EF "D7"GA \
+|  "Em"zG2A BA BG | "A"A3 G/F/ "Em"E4 :|
+|| "D"zD2D DD ED | zD2D E2 "G"B,2 \
+|  "D"zD2D DD ED | "G"zG2G "D"A2 "G"G2 |
+|  "G"zB2B BB AG | "G"zB2B BB AG \
+| "Em"zG2G G2 "(D)"D2  | "C"GF "D7"ED "Em"E2 E2 |]

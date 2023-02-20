@@ -1,0 +1,27 @@
+X:2105
+T:The Lea Rig
+%
+P: Kind Robin
+B: RSCDS 21-5(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "from Surenne"
+M: C
+L: 1/8
+K: F
+[| "F"F2F2 "Dm"F3A  | "Gm"GAGF "Bb"D3 "C7"C | "F"F2F2 "Dm"F3A      | "Gm"GFGA    "C7"c3d |
+|  "F"F2F2 "Dm"f3c  | "Gm"BAGF "Bb"D2"C7"CD | "F"F2F2 "Bb"d2"F"cA  | "C7"c4      "F"F2z2 |]
+[| "F"c2dc "Dm"A2fA | "Gm"BAGF "Bb"D3 "C7"C | "F"c2dc "Gm"BA"G7"GF | "C"G2"F"A>c "Bb"d3d |
+|  "F"c2de "Dm"f3A  | "Gm"BAGF "Bb"D2"C7"CD | "F"F2F2 "Bb"d2"F"cA  | "C7"c4      "F"F2z2 |]
+%
+P:The Lea Rig
+C:Traditional (Surenne)
+R:Strathspey (8x32)
+B:RSCDS 21-5(II)
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:A
+cB | "A"c2E2 E2F2 | A3B A2c2 | "Bm"B3c dcBA | "F#m"c2F2F2 ||
+cB | "A"c2E2 E2F2 | A3B A2ag | "D"f3e "Bm"fgae | "A"c2"D"A2 "A"A2 |]
+e2 | "D"fefg "A"a2c2 | "Bm"dcde "D"f2A2 | "Bm"B3c dcBA | "F#m"c2F2F2 ||
+cB | "A"c2E2 E2F2 | A3B A2ag | "D"f3e "Bm"fgae | "A"c2"D"A2 "A"A2 |]

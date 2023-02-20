@@ -1,0 +1,18 @@
+X: 638
+T: Nellie O'Donovan   #2
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #638
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0638/oneill-1001-0638-1.abc
+M: C|
+L: 1/8
+K:G
+"^A"\
+|: B2Bd dcAc | BGGB d2cA |\
+[1 B2Bd dcAc | d2cA BGGA :|\
+[2 BABc dcAc | dBcA BGGe |]
+"^B"\
+|: fgaf gfeg | fdcA Adde |[\
+1 fgaf gfeg | fdcA AGGe :|[\
+2 fefg abag | fdcA AGGA |]

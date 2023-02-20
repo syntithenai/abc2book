@@ -1,0 +1,35 @@
+X: 05
+T: Miss Betty McDonald's Reel
+%R: reel
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.99 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+G2 D(E/F/ G)DB,G, | GABG A/A/A A2 |\
+G2 (TF3/E//F//) GG,G,c | BdAB G/G/G G2 ::\
+BcdB ecdB | cB AG =F/F/F A2 |
+Bd-dg ecdB | cAdB G/G/G G2 |\
+BcdB ecdB | cB AG =F/F/F A2 |\
+Bd-dg egdB | cAdB G/G/G G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g2g2 g2g2 | g2g2 a2a2 |\
+g2g2 g2g2 | d2d2 G2G2 ::\
+g2g2 g2g2 | c2c2 =f2f2 |
+g2g2 g2g2 | d2d2 G2G2 |\
+g2g2 g2g2 | c2e2 =f2f2 |\
+g2g2 g2g2 | d2d2 G2G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The first and 2d Cu: foot it right and left half round .|
+%% the same back again :|
+%% lead down two couple foot it lead up to the Top and cast off :|:
+%%endtext
+%%sep 2 2 400

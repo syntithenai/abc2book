@@ -1,0 +1,30 @@
+X: 68
+T: Bristol Cross
+T: Longways for as many as will.
+%R: march, reel
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.64
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+FE |\
+D2d2 ^c2A2 | defg e2A2 | F2d2 E2^c2 | d2 D4 :|\
+|: ab |\
+c'2g2 e2c2 | a2f2 d2B2 | A2f2 G2e2 | f2 F4 :|
+|: cB |\
+A2F2 ABcA | B2 G4 ^c2 | d2ef gfed | ^c2 A4 ag |\
+f2d2 B2G2 | gfed cBAG | F2D2 A,2^c2 | d2 D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man & 2d Wo. meet & turn, the 1st Wo. & 2d
+%% Man do the same, 1st Man Back to Back with 2d Wo. &
+%% 1st Wo. the same with 2d Man, the 1st Cu. whole figure,
+%% the Man round 3d Cu. the Wo. round the 2d Cu. then the
+%% Man round the 2d Cu. & the Wo. round the 3d Cu.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

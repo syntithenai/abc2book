@@ -1,0 +1,24 @@
+X: 11422
+T: MINUET
+C: Humble.
+%R: minuet, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.142 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:!p!\
+(D4 F2) | (E4 G2) | (F4 A2) | (G4 B2) |\
+A2 (fdcB) | (A2 G2) FA | (A2 G2 F2 ) | (FE)(DC)(B,A,) |\
+(D4 F2) | (E4 G2) | (F4 A2) | (G4 B2) |\
+A2 (fdcB) | A2 G2 Fd | (c/B/A/G/) F2 TE2 | D4 Hz2 :|
+|:!f!\
+f6 | (3(DFA) (3(dfa) (3(fed) | e6 | (3A,CE (3(Ace) (3(aec) |\
+{e}d4 c2 | {c}B4 A2 | {e}d4 c2 | {c}B4 A2 |\
+fEFA df | (fe) e3 a | ({g}fe/d/) c2 TB2 | A6 |\
+c6 | d6 | fA {A}G2 F2 | TF2 E2 "^D.C."z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

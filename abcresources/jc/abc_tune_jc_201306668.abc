@@ -1,0 +1,31 @@
+X: 1
+T: In the Manchurian Hills
+T: Mant\vsurian kukkuloilla
+T: Na Sopkakh Manchurii
+C: music J.A.Schatrow 1905
+%: words S.Petrov
+R: waltz
+P: AABBACCA
+M: 3/4
+L: 1/4
+K: Am
+%%continueall
+"A"[|]\
+A,/B,/C/D/ | "Am"E3 | zCD | "E7"E3- | E3 | DE^G | c2B | "Am"A3- | A3 ||
+w: ****| K\"ay vuor-ten taa* p\"ai-v\"a jo ui-nu maan.*
+w: ****| K\"ay pol-ku-aan* kul-ki-ja mat-ka-mies.
+  "Am"EAc | ^G2A | "Dm"BAF | B2A | "Am"EAB | "E7"c2B | "Am"A3 | "fine"z :|
+w: Met-s\"at ja kum-mut kul-tai-nen keh-r\"a kie-toi jo vai-pal-laan.
+w: Ma-jas-sa ar-mas o-dot-ti en-nen, nyt on jo kyl-m\"a lies.
+"B"\
+|: {F}E/^D/E/F/ | "E7"E>B,B, | zCD | "Am"E3 | z {A}G/^F/G/A/ | "G7"G>DD |
+w: Mus-ta-lai-sen soit-to toi tur-mi-on, tu-vas-sa-ni viu-lu soi
+  ZEF | "C"G3 | zG"E7"^G || "Am"A>EE | E{FE}^DE |
+w: hur-mi-on. Ry\"os-ti ar-ma-hain, h\"an o-li
+   "Dm"G2F | zCD | "Am"EDC | "E7"B,2C | "Am"A,3 |  "d.C."z :|
+w: par-hain; y-h\"a kos-to-a kan-nan vain.
+"C"\
+|: A^G | "A7"A2_B | A2G | "Dm"G2F | FED | "G7"G2A | G2F | "C"FE^D | "E7"E3 ||
+w: Sik-si mat-ka-mie-hen mie-li sin-ne on, kun-ne kul-ki on-ne-sa tie.
+  "Am"A,CE | Ac>B | "Dm"{B}AGF | A2F | "Am"CED | "E7"B,2C | "Am"A,3 | z :|
+w: Nyt kyl-m\"a on lie', vaan pol-kun-sa sin-ne vie-l\"a-kin yk-sin vie.

@@ -1,0 +1,32 @@
+X: 31123
+T: COTILLION No. 18. AUBURN SETT tune 3
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.112 #3 (and p.113 #1)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+c/d/ |\
+e3- efg | a2g gfe | d3 ded | cBA Bcd |\
+e3- eef | a2g gfe | d3 ded | c3- c2 H|]
+B/c/ |\
+d3 dcd | f2_e edB | ^f3 fga | gBd GBc |\
+d3 dcd | f2_e edc | ^f3 fga | g3- g^f"^D.C."=f |]
+K: G
+!p!DGA |\
+B3 dcB | A3 ecA | {A}GFG (c/B/)A/G/F/E/ | DFE DGA |\
+B3 cde | E3 cBA | GBd [dD][eE][fF] | [g3G3] gf"^D.C."=f |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All alamand corners,
+%% alamand partners,
+%% all balance to corners,
+%% turn partners,
+%% grand chain,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,14 @@
+X: 208
+T: Joc de Doi
+O: Romania
+M: 2/4
+L: 1/8
+Q: 1/4=200
+K: G octave=1
+%%MIDI gchord fzfz
+%%MIDI bassvol 50
+%%MIDI bassprog 36
+|:"G"gfag|"D"f3e|"C"defe  |"D"d3c |\
+  Bcdc   |"D"B3A|[1 GABc  |"D"d4  :|"G"G2z2 |z4|
+|:"C"Bcdc|"D"B3A|"C"Bcdc  |"D"B3A |\
+  "C"Bcdc|"D"B3A|[1 .g2.d2|.g2.d2 :|[2"G" G4|z4|

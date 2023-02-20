@@ -1,0 +1,22 @@
+X: 10622
+T: CAPTAIN CLACKIT
+C: Dibdin.
+Q: "With spirit."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.62 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+G>AG (G>F)E | A2G c2z | def (ed)c | (cB)c dBG |\
+(GA)G (GF)E | A2G c2e | (dg)B {d}ccz | (Bd)G AAB |\
+(cd)e (ed)c | B2A BGG | GAB c2c | (cd)e f2e |
+(de)f (ed)c | (cB)c dBG | G>AG GFE | G2G c2A |\
+A2A FGA | A2A f2e | (ed)c (BA)G | G2G Gcz |\
+G2G Gdz | e2c faa | (ge)c (Bc)d | G2f ecz |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

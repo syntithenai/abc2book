@@ -1,0 +1,45 @@
+X: 1
+T: Ako umram il' zaginam
+%T: Ако умрам ил' загинам
+C: Jon\vce Khristovski
+%C: Јонче Христовски
+O: Macedonia
+R: lesnoto
+M: 7/8
+L: 1/8
+K: Dm
+"^Instr:"\
+|: "Dm"eff "Am"edec | "Dm"cdd "Am"dAce | "Dm"cdd "Am"dAce | "Dm"ddA =Bcd2 :|
+|: "Gm"[fA][gB][gB] [gB][fA][gB][ac] | "Dm"[eG][fA][fA] [fA][eG][fA][gB] |\
+"A7"[a2^c2][gB] [fA][gB][fA][eG] |1 "Dm"[d3F3] [e2G2][f2A2] :|[2 "Dm"[d3F3]- [d2F2] z2 |]
+"^Vocal"[|\
+"Dm"FED A2A2 | FED A2A2 | "Gm"dd2 c2B2 | "Dm"A2G AGFE |
+w: 1.~A-*ko um-ram il'*za-gi-nam, ne-moj da me \vza-li-te-*e,
+w: 2.~A-*ko um-ram il'*za-gi-nam, pop ne-moj da vi-ko-te,__
+w: 3.~A-*ko um-ram il'*za-gi-nam, \'ke o-sta-nat spo-me-ni.__
+"Dm"FED A2A2 | FED A2A2 | "A7"E2F A2G2 | "Dm"F2E D4 "Instr."|| "A7"E2F A2G2 | "Dm"F2E D2 ||
+w: 1.~na-*pij-te se ruj-*no vi-no, skr-\vse-te gi \vca-\vsi-te.
+w: 2.~vi-*e na grob da* mi doj-te, o-ro da za-ig-ra-te.
+w: 3.~\vSto* s\uum lu-do, lu-*do-va-lo, na mla-di-te go-di-ni.
+"^Chorus"|:\
+"Gm"[d3B3] [c2A2][B2G2] | "Dm"[A3F3]-[A4F4] | "Gm"[dB][d2B2] [c2A2][B2G2] | "Dm"[A3F3]-[A4F4] |
+w: E-e-e-ej,_ ver-ni dru-ga-ri,_
+"Gm"[B2G2][BG] [A2F2][G2E2] | "Dm"[F3D3]- [F2D2][G2E2] | "A7" [AF][G2E] [F2D2][E2^C2] | "Dm"D3-D4 :|
+w: pes-na za-pej-te,__ me-ne spom-nej-te.
+%
+%W: Ако умрам ил' загинам, немој да ме жалите,
+%W: напијте се рујно вино, скршете ги чашите.
+%W:   Еј, верни другари, песна запејте, мене спомнете. /2
+%W:
+%W: Ако умрам ил' загинам, поп немој да викате,
+%W: вие на гроб да ми дојте, оро да заиграте.
+%W:   Еј, верни другари, песна запејте, мене спомнете. /2
+%W:
+%W: Ако умрам ил' загинам, ќе останат спомени.
+%W: Што сум лудо, лудовало, на младите години.
+%W:   Еј, верни другари, песна запејте, мене спомнете. /2
+%
+W: 1. If I die or if I'm killed, don't cry for me. Pour red wine and break the glasses.
+W:      Chorus: Hey, faithful friends, sing a song, remember me.
+W: 2. If I die or if I'm killed, don't call a priest. Come to my grave and dance the oro.
+W: 3. If I die or if I'm killed, the memories will be what a wild fellow I was in the years of my youth.

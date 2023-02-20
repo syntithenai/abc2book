@@ -1,0 +1,18 @@
+X:143
+T:Aran Boat Song (harmonized)
+R:Jig
+M:6/8
+%%printtempo 0
+Q:150
+K:Edor
+V:1 clef=treble
+V:2 clef=alto
+V:3 clef=bass
+%
+[V:1]|:E| E>FE B>cd | A<FD   A<FD | E>FE   B>cd | F<EF E2 :| B | e>fe  g>fe | d>BG  A>FD |
+[V:2]|:z| G,B,D FEF | F<DA, F<DA, | G,B,G, B,DE | D3   B2,:| z | G,B,E E=CE | G,B,D FDA, |
+[V:3]|:z|"Em"E,3"Bm"B,,3|"D"D,A,F, D,A,F,|"Em"E,3"Bm"B,,3|"D"D,A,F,"Em"E,2:|z|"Em"E,2D,"C"=C,3|"G"G,3"D"D,3|
+%
+[V:1]e>fe  g>fe | ^d>Bd  e2B | e>fe g>fe | d>BG A>FD | E>FE   B>cd | F<EF E2|]
+[V:2]G,B,D =CEG | B,^D^A BGF | EGB  =cGE | AGE  CDA, | G,B,G, B,DF | DB,^A, B,2|]
+[V:3]"Em"E,2B,,"C"=C,3|"B"F,3 "Em"E,3|"Em"E,2D,"C"=C,3|"G"G,3"D"F,3|"Em"E,3"Bm"B,,3|"D"D,2"D#dim"^D,"Em"E,2|]

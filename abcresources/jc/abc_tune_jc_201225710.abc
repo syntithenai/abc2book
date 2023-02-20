@@ -1,0 +1,56 @@
+X: 9
+T: THE WIVES' VICTORY
+R: jig
+M: 6/8
+L: 1/8
+Z: 2011,2014 John Chambers <jc:trillian.mit.edu>
+B: Thomas Bray's Country Dances 1699 p.22
+P: AA BB ad lib.
+Q: 3/8=92 "with energy"
+K: Gm
+%----------------------------------------
+% V:1 arranged to give fewer, longer staff lines.
+V: 1
+"A"[|] d |\
+g>^fg a>ga | b>ag f>ed |\
+g2d c>dB | A3- A2 ", "B/c/ |\
+d2z A2z |
+B2z f2z |\
+c>de c2B | B3- B2 :|\
+"B"|: d/e/ |\
+f>gf B>cd | e>dc d>=ef |
+=e>^fg a2b | ^f3- f2d/c/ |\
+B2z e2z | A2z d2z |\
+G>AB B>AG | G3- G2 :|
+%----------------------------------------
+V: 2
+D |\
+B>AG ^F>=ED | G>=F_E D>EF | G>AB A>BG |\
+^F>GA D2z | =F2z F2z | D2z B,2z | G>FG A>GF | B>FD B,2 :|\
+|: B/c/ |\
+d>ed D>EF | C>DE D2G | G>AG ^F2G |
+A>GA D>=E^F | G>AB c2z | F>GA B2z | E>FG G>^FG | G>DB, G,2 :|
+%----------------------------------------
+V: 3 clef=bass middle=d
+g |\
+"Gm"gzz "D"dzz | "Gm"Gzz "Dm"dzz | "Eb"ezz "Cm"czz |
+"D"d3- d2d'/c'/ | "Bb"b>ag "F"f>ed | "Gm"g>fe "Bb"d>cd | "Cm"e>dc "F"f2F | "Bb"B3- B2 :|
+|: B |\
+"Bb"Bzz bzz | "F7"azz "G"=bzz | "C"c'z _b "D"az "Gm"g |
+"D"d'3- d'2b/a/ | "Gm"g>^fg "Cm"c>de | "F"=f>ef "Bb"B>cd | "Eb"e>dc "Gm"d2"D"D | "Gm"G3- G2 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%center The Wives Victory, a New Country Dance.
+%%begintext align
+%% The 1st Man take his Wo. by both hands, and pull her to him, and put her from him in the
+%% middle of the Room; the 2d Man puts his Wo. from him at the same time, and pulls her to him,
+%% till he comes into the middle of the Room, with his right shoulder to the 1st Wo. then the 2d Man and
+%% 1st Wo. change places with the right Hand, the 1st Wo. turns to her left hand into her Mans place, as at
+%% first; the 1st Man and 2d Wo. go half round at the same time, to their own Partners place as at first .|
+%% The same again, only the 1st Man and 2d Wo. must be with their right Shoulders to each other in the
+%% middle of the Room, and change places with the right Hand, and both turn to the left Hand to their proper
+%% places as at first, and the 1st Wo. and 2d Man go half round, at the same time to their places as at
+%% first :| Then both the Men change places with their We. with the right Hand, and back again with the
+%% left; 1st Man cross over with the 2d Wo. the other cu. do the same after them .| All four Hands half
+%% round to the left Hand, and all turn S. then all four Hands half round to the left Hand again, and each
+%% Man change places with his own :| And so to the end.
+%%endtext

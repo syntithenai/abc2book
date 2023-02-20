@@ -1,0 +1,18 @@
+X:218
+T:Elderberry Bubblegum
+C:Peter Jenkins, 2011
+L:1/4
+M:5/4
+%%MIDI gchord bcfcc
+%%MIDI program 43
+%%MIDI chordprog 102
+%%MIDI bassprog 54
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=96
+K:Dm
+P:A
+[| "Bb"d/c/B/d/ "F"cAF | "Gm"B/A/G/B/ "Dm"AFD | "C"G/F/E/G/ "Bb"FDB, | "C"C C/D/ "/"E/F/G/A/B/c/ |
+"Bb"d/c/B/d/ "F"cAF | "Gm"B/A/G/B/ "Dm"AFD | "C"C C/D/ "/"E/F/G/A/B/c/ | "Bb"d/c/B/A/ "C"GFE ||
+P:B
+"Dm"D D/E/ "/"D/E/F/G/ A | "Gm"G G/A/ "/"G/A/B/c/ d | "A"^c c/d/ "A7"c/=B/A/G/F/E/ | "Dm"D D/E/ "A7"D/^C/ A,2 |
+"Dm"D D/E/ "/"D/E/F/G/ A | "Gm"G/A/B/G/ "A"A^ce | "Dm"f/e/d/c/ "Gm"B/A/G/F/E/D/ | "A"^C/D/E "/"C "Dm"D2 |]

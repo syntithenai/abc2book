@@ -1,0 +1,32 @@
+X: 1
+T: Catchin' Rabbits
+C: Ian Powrie
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: D
+A2 |:\
+"D"FAAB "A7"ABde | "D"f2ef edBA |1,3 "Em"Beed e2ef | gefd "A7"edBA :|2,4 "Em"Beef gefd | "A7"eAce "D"d2 :|
+|: ag |\
+"D"f2ef "G"edBd | "D"ABde f2ed |1,3 "Em"Beed e2ef | gefd "A7"e2 :|2,4 "Em"Beef gefd | "A7"eAce "D"d2 :|
+ag |\
+"D"f2ef "G"edBd | "D"ABde f2ed | "Em"Beed e2ef | gefd "A7"edBA |
+y4 \
+"D"FAAB "A7"ABde | "D"f2ef edBA | "Em"Beef gefd | "A7"eAce "D"d2 |]
+
+%%sep 1 1 500
+X: 2
+T: Catchin' Rabbits
+C: Ian Powrie
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: D
+|: A2 | "D"FAAB "A7"ABde | "D"f2ef edBA | "Em"Beed e2ef |     gefd "A7"edBA |
+y4    | "D"FAAB "A7"ABde | "D"f2ef edBA | "Em"Beef gefd | "A7"eAce  "D"d2  :|
+   ag | "D"f2ef "G"edBd  | "D"ABde f2ed | "Em"Beed e2ef |     gefd "A7"e2ag |
+y4    | "D"f2ef "G"edBd  | "D"ABde f2ed | "Em"Beef gefd | "A7"eAce  "D"d2  |]
+   ag | "D"f2ef "G"edBd  | "D"ABde f2ed | "Em"Beed e2ef |     gefd "A7"edBA |
+y4    | "D"FAAB "A7"ABde | "D"f2ef edBA | "Em"Beef gefd | "A7"eAce  "D"d2  |]

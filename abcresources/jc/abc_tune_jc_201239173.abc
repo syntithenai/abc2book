@@ -1,0 +1,23 @@
+X: 3221
+T: Miss Johnston of Hilton's Fancy
+C: by Nath. Gow
+%R: jig
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.22 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Eb
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 8-bar lines.
+V: 1 staves=2
+B |\
+{A}G>FE GBc | BGA Bcd | eBG BGE | DFF TF2A || GFE GBc | BGA Bcd | efg fdB | e3 e2 :|
+g/a/ |\
+bge efg | fdB Bcd | efg {a}gfe | dff fga || bge efg | fdB fdB | cde Bed | {d}e3 e2 g/a/ ||
+bge efg | fdB Bcd | efg fge | dff {g}fed || cee Bee | Tc>Ac BGER | DAG FED | [E3G,3] [E2G,2] |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | e3 E3 | e3 e3 | e3 e3 |  b3 B3 || e3 e3 | e3 e3 | b3 B3 | e3 E2 :|
+z | e3 e3 | B3 B3 | e3 e3 |  b3 B3 || e3 e3 | b3 B3 | A3 B3 | e3 E3 || e3 e3 |
+    B3 B3 | e3 e3 | B3 b3 || a3 g3 |  d3 e3 | A3 B3 | E3 E2 |]

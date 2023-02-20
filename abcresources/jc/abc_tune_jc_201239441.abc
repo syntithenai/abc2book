@@ -1,0 +1,36 @@
+X: 32841
+T: PRIDE OF THE NORTH QUADRILLE Part 5
+C: By W.C. Paton
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.284 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+U: P=!crescendo(!
+U: p=!crescendo)!
+M: 2/4
+L: 1/16
+K: Am
+ua2 !segno!|\
+(.^g3.e)(.^f3.^g) | (.a3.b)(.c'3.a) | (.^g3.e)(.^f3.^g) | a6 b2 |\
+(.c'3.b)(.c'3.b) | {a}(.g3.=f)(.e3.c) | (.d3.f)(.e3.c) | B4 {d}(c3B) |
+(.A3.B)(.c3.d) | (e4a3)vg | {g}(=f4d3)uf | (.e3.c)A4 |\
+(.A3.B)(c3.d) | (.e3.^f)(.^g3.e) | (.a3.c')(.b3.^g) | va2z2 va2z2 H|]
+K: A
+ue2 |\
+aAaA gAfA | eAeA fAaA | cEcE dEBE | PAABc defgp |\
+aAaA gAfA | eAeA fAaA | cEcE dEBE | Aaec A2e2 |
+cABc defg | aAag fcfa | gBag fBgf | PeEGB eefgp |\
+aAaA gAfA | eAeA fAaA | cEcE dEBE | Aaec A2a2 |]
+K: Am
+[|\
+(.^g3.e)(.^f3.^g) | (.a3.b)(.c'3.a) | (.^g3.e)(.^f3.^g) | a6 b2 |\
+(.c'3.b).c'3.b | {a}(.g3.=f)(.e3.c) | (.d3.f)(.e3.c) | B4 {d}(c3B) |
+(.A3.B)(.c3.d) | (e4a3)vg | {g}(=f4d3)uf | (.e3.c)A4 |\
+(.A3.B)(c3.d) | (.e3.^f)(.^g3.e) | (.a3.c')(.b3.^g) | a2z2 va2z2 |]
+M:6/8
+L:1/8
+[|\
+v(.c2.B) (.c.d) | (.e2.f) (.e2.d) | (.c2.B) (.c2.d) | e3 (.E2.E) |\
+(c2d) (e2a) | (g2e) (d2e) | (c2A) {c}(B2^G) | A3 (.a2.B) |
+{c}c2A- AGE | {d}c2A- AGE | {d}c2A- AGE | G3- G2G |\
+(c2d) (e2a) | (g2e) (d2e) | (c2A) {c}(B2^G) | A3- "Finale."A2 "_D.C."|]

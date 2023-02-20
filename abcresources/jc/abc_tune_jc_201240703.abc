@@ -1,0 +1,35 @@
+X: 4081
+T: Weel may the Boatie row
+%R: air, march
+N: This is version 2, for ABC software that understands voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.4 p.8 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: "SLOW"
+K: D
+% - - - - - - - - - -
+% Voice 1 arranged as 4 i-bar staves:
+V: 1 clef=treble staves=2
+D2 |\
+(F2A2) AB3 | A2d2 (ed).c.B | (AF3) F3D | (F4 E3)D & D4 C2z2 |\
+(FA3) A3B | A2d2 (ed).c.B | (A2F2) TE3F | [D6A,6F,6] :|
+|: A2 |\
+d2A2 A2~c2 | d2A2 A2d2 | {c}TB3A B2d2 | H[e6c6A6] ~c2 |\
+(df3) (Bd3) | A3c (BA)(GF) | {F}TE3D E2F2 | [D6A,6F,6] :|
+|: "8vo. alto _ _ _" !p!D2 |\
+~F3G A2F2 |TB3c {e}d2{c}B2 | (AF3) F3D | (F4 E3)D & D4 C2z2 |\
+TF3G .A2F2 & D6 D2 | TB3c H[d2A2F2]cB | [A3F3][F^D] [G2E2][E2C2] | [D6A,6F,6] :|
+|: "^loco."(A/B/c) |\
+!f!d2A2A2~c2 | d2A2 A2dc | {c}TB3A B2d2 | {cd}He6 ~c2 |\
+(df3) (Bd3) | A3d (BA)(GF) | {F}TE3D E2F2 | [D6A,6F,6] :|
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout:
+V: 2 clef=bass middle=d
+z2 | x4f2g2 & d8 | f4 b2g2 | f4 d4 | zAdf a4 | x4f2g2 & d8 | f4 b2g2 | f2d2 a2A2 |
+DFAd D2 :||: z2 | [d'6a6f6] [g'2e'2c'2a2] | [f'4d'4a4] [d'4a4f4] | d'8 & g2f2g2f2 | Acea HA2z2 | [d'2f2]z2 [d'2g2]z2 | [d'4f4] (gf)(ed) |
+g3f g2a2 & A8 | DFAd D2 :||: !p!z2 | d3e f2d2 | g3a {c'}b2{a}g2 | [f4F4] [d4D4] | zAdf a4 |
+[d3a4]e .f2[d2a2=c'2] | [d3g3b3][ea] H[f2a2]g2 | f2b2 e2a2 | zDFA d2 :||: [G2g2] | !f![F6f6] [G2g2] | [F4f4] [D2d2][F2f2] |
+[G3g3][Ff] [G2g2]z2 | zAce Ha2 [a2e'2g'2] | [a4d'4f'4] [g4d'4] | x4 (gf)(ed) & [f4d'4] d4 | g3f g2a2 & A8 | zDFA d2 :|
+% - - - - - - - - - -
+%%text The "8vo. alto _ ... _ loco." is an octave higher symbol with lots of dashes over the 3rd strain.

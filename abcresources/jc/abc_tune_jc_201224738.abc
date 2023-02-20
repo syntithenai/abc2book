@@ -1,0 +1,57 @@
+%%text RJ Set 087
+
+%%scale 0.65
+
+X: 1
+T: Booth
+O: trad. version from Bruce Molsky
+R: reel
+Z: transcribed to ABC by Debby Knight
+M: C|
+L: 1/8
+K: A
+AF |\
+"A"ECEF E3E | "D"FA2B A3A | "A"ABcB AcBA | "F#m"F3 F3 AF |\
+"A"ECEF E3E | "D"FA2B A3f | "A"e2cB "E"AcBG | "A" A3 A3  :|
+AB |\
+"A"ce2f e3e | "D"fa2ba3f | "A"e2cB AcBA | "F#m"F3 F3 AB |\
+"A"ce2f e3e | "D"fa2ba3f | "A"e2cB "E7"AcBG | "A"A3 A3 ||
+AB |\
+"A"ce2f e3e | "D"fa2ba3f | "A"e2cB AcBA | "F#m"F3 F3 AF |\
+"A"ECEF E3E | "D"FA2B A3f | "E7"e2cB AcBG |["normal" "A"A6 |]["alt" "A"A4 "D"F4 |]
+%%text Alt ending may be used occasionally.  (Skip the pickup notes when you use it!)
+
+
+X: 2
+T: Julianne Johnson
+M: C|
+L: 1/8
+R: reel
+K: D
+z2 |\
+"D"fafe dfed | "G"Bd- de "D"d2fg |\
+[1,3 a2a2- aab2 | "A7" a6 :|\
+[2,4 f2e2 "(G)"dAB2 | "A7"A6 :: A2 |\
+"G" B4 d3A |
+"G"BABc "D"d3A | "G"BABc dAB2 | "D"A6- AA ||\
+"G"BABc "D"d2AA | "G"BABc d2e2 | "D"f2ff  edB2 |\
+["usual" "A7"A6 :| ["Transition" "A"A3A- Ace^g ||
+
+
+X: 3
+T: Benton's Dream
+R: reel
+Z: transcribed to ABC by Debby Knight
+M: C|
+L: 1/8
+K: Amix
+"A"[a6c6] e2 | "G"[g6B6] f2 |\
+"A"e3f edcB | A3c "(E7)"BA^GB |\
+"A"A2 F2 EFAB | "E7"=cBcB AFEF |
+"A"A3A- "E7"AcB^G |[1 "A"A3A- "(E7)"Ace^g :|[2 "A"A6 |: F2 |\
+"G"G2BG AGBG | AB-BA B2D2 |\
+G2BG AGBG | AB-BA B2B2 |
+"A"A3A- Ace^g | a2 a2 =gedc |\
+A3c "E7"BA^GB |[1 "A"A6 :|\
+[2 "A"A3A- Ace^g |] ["final" "A"A8 |]
+

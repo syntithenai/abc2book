@@ -1,0 +1,42 @@
+
+X: 1
+T: Sm\aalands-polskan    [C]
+N: Similar to the Danish "Nå er det jul igjen"
+N: From arrangement by Carl J.Johnson
+S: Printed MS of unknown origin from Marilyn Butler
+R: hambo
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+"(G7)"G2 |:\
+"C"[c2E2] [cE]>G E>G | "C"[c2E2] [cE]>G E>G | [cE]>B c>d e>f | "F"[a2f2c2] "C"[g3e3c3] e |\
+"Dm"[f2B2] [fB]>e "G7"d>f |
+"C"[e2G2] [eG]>d "(Am)"c>e |\
+[1 "D7"[d2F2] [dF]>c B>c | "G7"[dF]>c B>A [G2F2B,2]  :|\
+[2 "G7"[d2F2] [dF]>G [AF]>B | "C"[c2E2] [c2E2] z2 |]
+|:\
+"F"[f2A2] a>f af | "C"[e2G2] g>e ge | "G"[dF]>e [fB]G [AF][BF] |\
+[1,3 "C"[cE]>d [eG]>f [g2e2c2G2] :|[2,3 "C"[cGE]z H[c2G2E2] z2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Sm\aalands-polskan    [D]
+N: Similar to the Danish "Nå er det jul igjen"
+N: From arrangement by Carl J.Johnson
+S: Printed MS of unknown origin from Marilyn Butler
+R: hambo
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+"(A7)"A2 |:\
+"D"[d2F2] [dF]>A F>A | "D"[d2F2] [dF]>A F>A | [dF]>c d>e f>g | "G"[b2g2d2] "D"[a3f3d3] f |\
+"Em"[g2c2] [gc]>f "A7"e>g |
+"D"[f2A2] [fA]>e "Bm"d>f |\
+[1 "E7"[e2G2] [eG]>d c>d | "A7"[eG]>d c>B [A2G2C2]  :|\
+[2 "A7"[e2G2] [eG]>A [BG]>c | "D"[d2F2] [d2F2] z2 |]
+|:\
+"G"[g2B2] b>g bg | "D"[f2A2] a>f af | "A"[eG]>f [gc]A [BG][cG] |\
+[1,3 "D"[dF]>e [fA]>g [a2f2d2A2] :|[2,3 "D"[dAF]z H[d2A2F2] z2 |]

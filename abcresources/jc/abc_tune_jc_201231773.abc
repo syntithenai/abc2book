@@ -1,0 +1,28 @@
+X: 15
+T: Old England's Heroes
+%R: hornpipe, reel
+B: "Twenty Four Country Dances with Figures for the Year 1813", Button & Whitaker, p.8 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1813
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+B>c |\
+d>^cd>B g>fg>e | d>BG>B A>FD>^D | E>FG>A B>cd>e | d>BG>B A2B>c |
+d>^cd>B g>fg>e | d>BG>B A>FD>^D | E>FG>A B>cd>e | d>B A>B G2 |]
+G2 |\
+F>GA>B c>BA>B | c>ed>c B>cd>B | g>fe>d e>dc>B | c>BA>G F>AD>D |
+d>^cd>B g>fg>e | d>BG>B A>FD>d | c>ed>c B>dG>B | A>GA>B G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%text SINGLE FIGURE (Tune play'd straight thro')
+%%begintext align
+%% Set & hands across set and back again .| lead down
+%% the middle up again and set to the top couple .| .
+%%endtext
+%%text DOUBLE FIGURE (Each strain repeated)
+%%begintext align
+%% Hey contrary sides .| hey on your own sides |: lead down the mid: up
+%% again allemande .| & set 3 across & set 3 in your places |: .
+%%endtext

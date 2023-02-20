@@ -1,0 +1,12 @@
+X: 1
+T: Little Dutch Girl
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+N: This is a very basic version of the tune.
+M: C|
+L: 1/8
+K: A
+|: "A"e2f2 a2c2 | e2ed c2A2 | e2f2 a2c2 | "E7"e4- e4 \
+|  "A"e2f2 a2c2 | e2ed c2A2 | c2A2 "E7"B2G2 | "A"A4- A4 :|
+|: "A"e3f e2d2 | "A"c6   AB | c2c2 "D"d2c2 | "E7"B4- B4 \
+|  "D"d2e2 f2f2 | "A"e2ed c2A2 | c2A2 "E7"B2G2 | "A"A3B A4 :|

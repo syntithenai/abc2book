@@ -1,0 +1,38 @@
+X: 1
+T: Partings
+C: David A. Kaynor 2014
+%D: 2014
+S: Dave_Kaynors_Melodies_and_Harmonies.PDF 2021-11-30
+M: 3/4
+L: 1/8
+K: Am
+% = = = = = = = = = =
+V: 1 staves=2
+cB |\
+"Am"A3 c BA | e6 | A3 c BA | e6 |\
+"Dm"d3 A FE | D6 | "Em"E3 D EF | E6 |
+"Am"A3 c BA | e6 | "Dm"d3 A FE | D6 |\
+"Em" E3 D E2 | d3 B Bc | "Am"A6- | A3 c de ||
+"Dm"fA de fg | f3 A df | "Am"eA Bc de | e3 A ce |\
+"Dm"dA Bc de | d3 A df | "Am"eA cd ef | e6 |
+"Dm"dA de fg | f3 A df | "Am"eA cd ef | e3 A ce |\
+"Dm"dA Bc de | d3 c BA | "Am"A6 | "G"G4 GF ||
+"C"EC C2 DF | EC C2 DE | "Dm"Dd d3 D | FA A3 G, |\
+"G"B,D D4 | G4 GA | G3 D DF | "C"E4 "G"GF |
+"C"EC C2 DF | EC C2 DE | "Dm"Dd d3 D | FA A3 G, |\
+"G"B,D D4 | G4 DF | ED C2 DB, | "C"C4 |]
+% = = = = = = = = = =
+V: 2
+AG |\
+"Am"E3 A GE | c6 | E3 A GE | c6 |\
+"Dm"A3 F DA, A,6 | "Em"B,3 B, B,D | B,6 |
+"Am"E3 A GE | c6 | "Dm"A3 F DA, | A,6 |\
+"Em"B,3 B, B,2 | B3 G ED | "Am"[E6-C6-] | [E4C4] Ac ||
+"Dm"dF Ac de | d3 F Ad | "Am"cE A2 cd | c3 E Ac |\
+"Dm"AF GA Ac | A3 F Ad | "Am"cE AB cd | c4 Ac |
+"Dm"dF Ac de | d3 F Ad | "Am"cE AB cd | c3 E Ac |\
+"Dm"AF GA Bc | A3 F GA | "Am"E6 | "G"D4 DB, ||
+"C"CG, G,2 B,D | CG, G,2 B,C | "Dm"FA A3 A, | CF F3 B, |
+"G"G,B, B,4 | D4 DF | D3 B, B,D | "C"C4 "G"ED |\
+"C"CG, G,2 B,D | CG, G,2 B,C | "Dm"A,F F3 A, | CF F3 B, |\
+"G"G,B, B,4 | D4 B,D | CB, G,2 B,G, | "C"[E4G,4] |]

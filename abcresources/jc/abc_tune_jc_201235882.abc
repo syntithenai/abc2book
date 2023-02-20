@@ -1,0 +1,19 @@
+X: 2143
+T: Locheal's awa to France
+%R: strathspey, air
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.14 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow"
+K: Am
+% - - - - - - - - - -
+V: 1 staves=2
+a/g/ |\
+(e<A)A>B {B}Te2dB | TA>GAB gdda/g/ | (e<A)A>B {B}Te2dB | TA>GAB gee :| g | Td>eTg>a (g/a/b) Ta>b | gd (e/d/)c/B/ g>dTd>e |
+d>eg>a (g/a/b) ab | ge ed/e/ g>ee>g || d>eg>a (g/a/b) ab | gd e/d/c/B/ gddg/a/ | b/a/g/b/ a/g/e/a/ g/e/d/e/ g>B | TA>GAB gee |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+a | a2a2 a2a2 | g2g2 g2g2 | a2a2 c'2b2 | e'2e2 a2a :| z | g2g2 g2g2 | g2d2 G2G2 |
+g2g2 g2f2 | e2e2 e2e2 || b2g2 g2^f2 | e2B2 G2g2 | g2d2 e2B>g | ^f2g2 e2e |]

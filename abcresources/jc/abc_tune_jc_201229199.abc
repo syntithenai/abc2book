@@ -1,0 +1,25 @@
+X:1207
+T:The Yellow-Haired Laddie
+P:The Yellow-Haired Laddie
+C:Orpheus Caledonius, 1725
+R:Minuet (4x64)
+B:RSCDS 12-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:3/4
+L:1/8
+V:1
+K:D
+%%staves {(1 2) 3}
+%%staffsep 40pt
+D>E |\
+"D"F2 A2 "C#/A"Bc  | "Bm"d3 e f2 | "D"A2 "G"BA "Em"GF | "A7"[E4C4] D>E |\
+"D"F2 A2 "C#/A"B>c | "Bm"dc de f2 | "D"AB AF "A7"E>D | "D"D4 D>E |
+y4\
+"D"F2 A2 "C#/A"Bc  | "Bm"d3 e f2 | "F#m"A2 "G"BA "Em"GF | "A7"[E4C4] D>E |\
+"D"F2 A2 "C#/A"B>c | "Bm"dc de f2 | "F#m"A2 "G"gf "A7"ed | "D"[d4F4] || 
+d>e |\
+"D"f2 gf "Em"ed | "A"c2 ec "F#m"BA | "G"Bc dB "D"AF | "A7"[E4C4] DE |\
+"D"F2 A2 "C#/A"Bc | "Bm"dc de f2 | "D"A>B AF "A7"ED | "D"D4 d>e |
+y4\
+"D"f2 gf "Em"ed | "A"c2 ec "F#m"BA | "G"Bc dB "D"AF | "A7"[E4C4] DE |\
+"D"F2 A2 "C#/A"Bc | "Bm"dc de f2 | "F#m"A2 "G"gf "A7"ed | "D"[d4F4] |] 

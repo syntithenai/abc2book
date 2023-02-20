@@ -1,0 +1,21 @@
+X: 389
+T: Maguire's Kick
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #389
+R: single jig
+%S: s:3 b:24(8+8+8)
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0389/oneill-1001-0389-1.abc
+% m: Tn2 = (3n/o/n/ m/n/
+M: 6/8
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+(d/A/) \
+|  F2E EDE | F2D DCD | F2E EFA | Td2e fdA |\
+|  F2E EDE | F2D DCD | F2E EDE | B3 d2 :|
+|| A \
+|  ABd e2f | {e}d2B A2F | ABd e2f | d3 B2A |\
+|  ABd ede | fdB BAF | AFE EFA | d3 fdA |]
+|| F2E EDE | F2D DCD | F2E EFA | {e}d2e fdB |\
+|  F2E EDE | F2D D2F | A>FD DFA | B3 d2 |]

@@ -1,0 +1,32 @@
+X: 1
+T: Generous Conquest
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (121)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/4
+L: 1/4
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+g2d gba | g3 b3 | fdB dfb | c3 B3 |\
+Acf Bdg | dgb abg | ^fdg (g/a/b/a/g/a/) | ^f3- f2 :|
+|: f |\
+bfd Bdf | bfd c2B | aec Ace | aec B2A |\
+GBG ^FAD | GBG Adc |
+Bed g/b/(a/g/^f/a/) | g3 d2c |\
+BGD A^FD | BGD ccd | Bed DG^F | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man set to the 3d Wo cast above the 2d Man and
+%% turn his Partner .| The 1st Wo. do the same :| The
+%% Man take his Partner by both Hands dance down the
+%% Middle turn her half round cross over below the 3d
+%% Cu. meet two Steps forward and turn single .| The 1st
+%% Man cast above the 3d Man and go outside the 2d Wo.
+%% to his Place the 1st Wo. follow him at the same Time to
+%% her Place both set two Steps forward and cast off :|
+%%endtext
+%%sep 1 8 500

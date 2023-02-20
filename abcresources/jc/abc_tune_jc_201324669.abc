@@ -1,0 +1,18 @@
+X: 410
+T: the Pleasures of Life
+N: Irish title: tai.tnea.m na m-bea.ta
+R: jig, air
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #410
+O: J.O'Neill
+Z: henrik.norbeck@mailbox.swipnet.se
+Q: "Tenderly"
+M: 6/8
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+   B | (B{cB}AB) ({d}cBc) | (dba) g2 D | (TGFG) AGA | B{d}cB A2 ||
+|  A | (TBAB) (TcBc) | (dba) g2 d | (TBGB) (TAFA) | G3 G2 |]
+|| d | (TdcA) (ABc) | (TedB) G2 d | (TdcA) (ABc) | e3 (d2 ||
+| d) | (Tece) (gfe) | (dba) g2 d | (TBGB) (TAFA) | G3 G2 |]

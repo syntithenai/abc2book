@@ -1,0 +1,40 @@
+X: 1
+T: Geminiani's Minuet
+P: Longways for as many as will
+%R: minuet
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: 1: CCDTB http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various) p.74
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat; fixed to match the dance instructions, with da Capo at end of 2nd part.
+M: 3/8
+L: 1/16
+K: Cm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 reformatted to make 4- and 12-bar staff/line breaks:
+V: 1
+|: g6 | a2g2((3fga) | g2c2d2 | e4d2 |\
+f2e2d2 | g2fedc | de=B4 | Hc6 :|\
+e6 | c6 | f2agfe | d3cB2 |
+e2f2g2 | a2gfg2 | eff3e | edcdef |\
+g6 | a2g2((3gfa) | g2c2d2 | e4d2 |\
+f2e2d2 | g2fedc | d2=B4 | c6 |
+g2a2b2 | =e4f2 | a2b2c'2 | ^f4g2 |\
+G2A2=B2 | cdd2cd | ((3edc)f4 | ((3edc)a4 |\
+g6 | agfedc | =Bcc2Bc | "^D.C."d6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks:
+V: 2 clef=bass middle=d
+|: z2c'2c2 | f2e2d2 | e4d2 | c2g4 |d2c2=B2 | c2d2e2 | f2g2G2 | c6 :|\
+z2c'2c2 | z2agfe | d2B2=A2 | B2c2d2 | c2d2e2 | A2B2e2 | a2b2B2 | e4z2 | z2c'2c2 |
+f2e2d2 | e4d2 | B2g4 | d2c2=B2 | c2d2e2 | f2g2G2 | c6 | =e4g2 | c'2c2f2 |\
+^f4a2 | d'2d2g2 | z2z2g2 | f2=B4 | c2d2=B2 | c2fed2 | ((3edc)c'4 | f4f2 | g2c4 | "^D.C."g6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center First Part twice, the 2d but once.
+%%begintext align
+%% The 1st Man Minuet to the 2d Wo. & turn her round with his Right Hand, then 1st
+%% Wo. do the same to the 2d Man. (this to the first Strain play'd twice) then first Cu.
+%% Hands round with the 2d Cu. then cast off & lead thro' the 3d Cu. & thro' the 2d
+%% Cu. & turn single in 2d Cu. Place, then first Man change Places with the 2d Wo.
+%% and the 1st Wo. with the 2d Man and go quite round, then Right and Left quite
+%% round with the 2d Cu. & lead thro' the 3d Cu. and turn.
+%%endtext

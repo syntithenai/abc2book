@@ -1,0 +1,51 @@
+X: 1201
+T: Jingle, Bells
+C: music: J.Pierpont
+C: words: J.P.
+Q: "Quickly"
+%N: This is version 1, for ABC software that doesn't understand voice overlays or tremolo notation.
+B: "The Golden Book of Favorite Songs", 1923
+S: https://ia802507.us.archive.org/33/items/goldenbookoffavo00beat_0/goldenbookoffavo00beat_0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+V:1
+V:2 clef=bass middle=D
+%%continueall 1
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[DD] | [DD][BD] [AD][GD] [D2D2] z[D/D/]-[D/D/] | [DD][BD] [AD][GD] [E2C2] z[EC] |
+w: 1.~ Dash-ing thro' the snow In a one horse o-pen sleigh, _
+w: 2.~A day or two a-go        I* thought I'd take a ride, And
+w: 3.~ Now the ground is white,** Go it while you're young, _
+%
+[EC][cE] [BE][AE] [F2D2] z[FD] | [dF][dF] [cF][AF] [B2G2-] [GG][DD] |
+w: O'er the fields we go,*  Laugh-ing all the way;**
+w: soon Miss Fan-nie Bright Was seat-ed by my side;* The
+w: Take the girls to-night, And sing this sleigh-ing song;* Just
+%
+[DD][BD] [AD][GD] [D2D2] z[DD] | [DD][BD] [AD][GD] [E2C2] z[EC] |
+w: Bells on bob-tail ring,* Mak-ing spir-its bright, What
+w: horse was lean and lank, Mis-for-tune seem'd his lot, He
+w: get a bob-tailed nag,    Two-for-ty for his speed, Then
+%
+[EC][cE] [BE][AE] [dF][dF] [dF][dF] | [eF][dF] [cF][AF] [G3G3] z |]
+w: fun it is to ride and sing     A sleigh-ing song to-night!
+w: got in-to a drift-ed bank,     And we, we got up-sot.
+w: hitch him to an o-pen sleight, And crack! you'll take the lead.
+%
+"^CHORUS (Accompanied by jingling glasses)"y
+|: [BG][BG] [B2G2] [BG][BG] [B2G2] | [BG][dG] [GD]>[AF] [B2G2] z2 | [cE][cE] [cE]>[cE] [cE][BD] [BD]
+w: Jin-gle, bells! jin-gle, bells! Jin-gle all the way! Oh, what fun it is to ride
+[1 [B/G/][B/G/] | [BG][AF] [AF][GE] ([AF] [d3F3]) :|[2 [B/G/][B/G/] | [dF][dF] [cF][AF] [G3G3] |]
+w: In a one-horse o-pen sleigh!* In a one-horse o-pen sleigh!
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 
+[BG] | [BG][BG] [BG][BG] [B2G2] z[B/G/]-[B/G/] | [BG][BG] [BG][BG] [G2C2] z[GC] |
+[GC][GC] [GC][cC] [c2D2] z[cD] | [cD][cD] [AD][dD] [d3G3] [BG] |
+[BG][BG] [BG][BG] [B2G2] z[BG] | [BG][BG] [BG][BG] [G2C2] z[GC] |
+[GC][GC] [GC][cC] [cD][cD] [cD][cD] | [AD][AD] [AD][cD] [B3G3] z |] y
+|: [dG][dG] [d2G2] [dG][dG] [d2G2] | [dG][BG] [BG]>[cG] [d2G2] z2 | [cC][cC] [cC]>[cC] [cC][BG] [BG]
+[1 [d/G/][d/G/] | [dA][dA] [dA][dA] [d4D4]     :|   [d/G/][d/G/] | [AD][AD] [AD][cD] [B3G3] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

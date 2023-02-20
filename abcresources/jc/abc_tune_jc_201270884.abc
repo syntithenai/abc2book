@@ -1,0 +1,31 @@
+X: 1
+T: the Duke of Atholl's Jig
+C: Ron Gonella
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - -
+"^A"[|] A |\
+      "D"d2d "A7"efg | "D"a2a  fed |\
+[1,3 "A7"gfe  "D"fdA | "A7"e3- e2A :|\
+[2,4 "Em"e2e "A7"cAc | "D"d3-  d2 ::\
+"^B"[|] d |\
+"A7"cAA   Ace | "D"fAA Adf |
+"G"gag "D"fed | "A7"e3- e2[dA] |\
+[1,3 "A7"cAA     Ace | "D"fAA Adf |\
+     "Em"g2e "A7"cAc | "D"d3- d2 :|\
+[2,4  "D"dcd "A7"efg | "D"a2a fed |\
+     "Em"e2e "A7"cAc | "D"d3- d2 :|
+|: "^C"[|] [cA] |\
+ "Bm"B2B Bde |    f2f fed |\
+[1,3 fed dcB | "A"c3- c2 :|\
+[2,4 fed "A"cAc | "Bm"B3- B2 ::\
+"^D"[|] c |\
+"Bm"dBB     fBB |    dBB fBB |
+    fga "E7"fed | "A"e3- e2c |\
+[1,3 "Bm"dBB     fBB |     dBB fBB |\
+         fed  "A"cAc | "Bm"B3- B2 :|\
+[2,4 "D"dcd  "A7"efg | "D"a2a  fed |\
+     "Em"e2e "A7"cAc | "D"d3-  d2 |]

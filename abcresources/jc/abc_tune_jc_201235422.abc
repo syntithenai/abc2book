@@ -1,0 +1,27 @@
+X: 21133
+T: WHIPPLE'S SETT (tune 4)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.113 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="4"
+G |\
+cdc cGE | GAG GAB | cdc cGE | Ddd ded |\
+cdc cGE | GAG g2f | ede dBG | AcB c2 H|]
+G |\
+ceg gec | GBd dBG | ceg gec | egg g2G |\
+ceg gec | Bcd dgf | ede dBG | AcB "^D.C."c2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First four right and left,
+%% ladies chain,
+%% balance to partners,
+%% sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

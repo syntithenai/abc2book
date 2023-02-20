@@ -1,0 +1,40 @@
+X: 1
+T: Kilfenora Jig, The
+R: jig
+D: Arcady: Many Happy Returns
+D: Johnstons
+D: Gerry O'Connor
+M: 6/8
+L: 1/8
+K: D
+|:\
+A2D FED | A2D FED | A2D FED | dce dcB | \
+A2D FED | A2D FED | EDE =cAF |1 ~G3 GFG :|2 ~G3 GAG || 
+|:\
+F2d dAF | AFA BAG | F2d dAF | ~A3 BAG | \
+F2d dAF | ABA FED | ~E3 =cAF |1 ~G3 GAG :|2 ~G3 G2g || 
+|:\
+f2d dcd | f2d dcd | fdd dcd | a^ga ba=g | \
+f2d dcd | f2d def | ged cde | gfg a2g :| 
+|:\
+fed faf | gbg faf | fed faf | ~a3 bag | \
+fed faf | gbg faf | ged cde | gfg a2g :| 
+|:\
+fed edc | dcd AFA | DFA dAF | ~A3 AFA | \
+~B3 =c2c | B=cB AFD | EDE =cAF |1 ~G3 G2g :|2 GAG GFG |] 
+P: variations
+|:\
+A2D FED | A2D FED | A2D FED | dce dcB | \
+A2D FED | A2D FED | ~E3 =cAF |1 ~G3 GFG :|2 ~G3 GAG || 
+|:\
+F2d dcd | dBA BAG | F2d dcd | AFA BAG | \
+F2d dAF | ~A3 FED | EDE =cAF |1 ~G3 GAG :|2 ~G3 Geg || 
+|:\
+f2d dBA | f2d dBA | fdd dBA | ~a3 bag | \
+f2d dBA | f2d def | ged cde | gfg gag :| 
+|:\
+fed faf | gbg faf | fed faf | ~a3 bag | \
+fed faf | gbg faf | ged cde | gfg gag :| 
+|:\
+fed edc | ded AFD | DFA dAF | ABA AFA | \
+[B3D3] [=c3E3 ]| B=cB AFD | ~E3 =cAF |1 ~G3 G2g :|2 GAG GFG |] 

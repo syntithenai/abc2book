@@ -1,0 +1,16 @@
+X: 4403
+T: "REDOWA" POLKA
+R: Polka
+%R: polka
+B: James Kerr "Merry Melodies" v.4 p.45 #403
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The (.*.*) notation is used for the straight-line slurs in this tune.
+M: 2/4
+L: 1/16
+K: C
+|:\
+ceg2 (.g2.g2) | gagf e2e2 | cde2 cde2 | (e2d2) d4 |\
+def2 (.f2.f2) | fgfe d2d2 | Bcd2 Bcd2 | (d2c2) c4 :|
+|:\
+ce g4 e2 | (e2d2) d^cd2 | df a4 f2 | (f2e2) e^de2 |\
+ce g4 e2 | (e2d2) d^cd2 | bagf egfd | (d2c2) c4 :|

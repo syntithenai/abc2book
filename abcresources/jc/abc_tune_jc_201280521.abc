@@ -1,0 +1,27 @@
+X: 1
+T: Gilliam Callum
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (78)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: C|
+L: 1/8
+K: Gmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+GGG2 B2G2 | c4 A2F2 | GGG2 B2G2 | c4 B2G2 |\
+c4 B2G2 | c4 A2F2 | GGG2 B2G2 | c2A2 d4 :|
+|:\
+GGG2 B2G2 | A2f2 A2F2 | GGG2 B2G2 | B2g2 B2G2 |\
+B2g2 B2g2 | A2f2 A2F2 | GGG2 B2G2 | c2A2 d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st and 2d Cu. lead forward and back and turn single,
+%% then turn your Partners, then the 1st Cu. cast off .|
+%% The 2d Cu lead up and do the same :| Hands across
+%% round then back again and turn single .| The 1st Cu.
+%% Figure in cast off and turn Hands :|
+%%endtext
+%%sep 1 8 500

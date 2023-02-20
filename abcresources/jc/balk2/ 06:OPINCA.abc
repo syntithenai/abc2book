@@ -1,0 +1,47 @@
+X:2006
+T:Opinca
+O:Romania
+M:2/4
+L:1/8
+K:Am clef=treble
+Q:1/4=108
+%%MIDI chordprog 6
+%%MIDI bassprog 6
+P:A
+  [A,CEA] z z [A,CEA]|z z [A,CEA] z      |\
+  [A,CEA] z z [A,CEA]|z z [A,CEA] z      |
+P:B
+%%MIDI program 6 Harpsichord
+  A,ECA,             |C/B,/A, A,A,       |A,ECA,    |C/B,/A, A,A,|\
+  A,ECA,             |C/B,/A, A,A,       |A,ECA,    |C/B,/A, A,A,|
+P:C
+L:1/16
+%%MIDI program 74 Flute
+%%MIDI gchord hIgf
+|:"Am"E3C DCA,2      |A,^G,A,C ECEC      |\
+  E3C DCA,2          |A,G,A,C C2A,2      |\
+  E3C DCA,2          |A,^G,A,C ECEC      |\
+  CDCD EDCB,         |A,4 z4             :|
+P:D
+L:1/16
+%%MIDI program 41 Viola
+%%MIDI gchordoff
+  E2z2A,2            |B,C DCB,A, A,2     |z4E4      |\
+%%MIDI gchordon
+%%MIDI gchord fc
+  "Am"E2z2 A,2B,A,   |DCB,C DCB,C        |\
+  DCB,C A,zB,C       |
+  DCB,C  DCB,C       | A,4E4             |\
+  "E"E2^FG AGFG      |AG^FG A2z2         |\
+  AG^FG AGFG         | E4z4              |
+  E2^FG AGFG         |AG^FG F3E          |\
+  D3C ECB,C          |"D"^F,B,A,B, CB,CB,|
+  "A"E,2A,2 G,2A,2   |\
+  "D"D4- D2CD        |"E"E2D2 C2B,2      |\
+  "A"A,4z4           | z8                |
+P:E
+|:"Am"E8-            |E8                 |\
+   E2A2E2D2          |C3B, CB,A,2        |\
+  E,A,G,A, DCB,2     |C2A,2z4            |\
+  "E"E,2A,2G,2B,2    |^E4D2C2            |
+   E2C2 EDCB,        |"A" A,4z4         :|

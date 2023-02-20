@@ -1,0 +1,31 @@
+X: 127
+T: the Reel of Glamis
+T: Longways for as &c.
+%R: reel
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.64
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+GdBd A/A/A ce | GdBd GdBd |\
+cd B>c A/A/A ce | dcBA GABd :|
+|:\
+G/G/G gG AB c>e | G/G/G gG G/G/G gG |\
+G/G/G gG ABce | dcBA GABd :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice.
+%%begintext align
+%% The 1st Man turns the 2d Wo. and fall back and
+%% turn S. then 1st Wo. sett to the 2d Man, and
+%% fall back and turn S. the 1st Man change
+%% places with the 2d Wo. then 1st Wo. change
+%% places with the 2d Man, then all four meet
+%% and turn S. then the 1st Cu. being in the
+%% 2d Cu. place, lead thro' and cast off. :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

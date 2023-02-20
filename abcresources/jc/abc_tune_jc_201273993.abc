@@ -1,0 +1,19 @@
+X: 1
+T: Fab Girls
+C: by David A Kaynor & Susan Songer, 2006
+R: reel
+%D:2006
+B: David A. Kaynor "Living Music and Dance" 2021
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+S: Dave_Kaynors_Melodies_and_Harmonies.PDF
+M: 4/4
+L: 1/8
+K: Em
+# = = = = = = = = = =
+"^A"|:\
+"Em"E2EF G2GB | "Am"AGAc "Em"B4 | e2Bc [1 B2GA | "B7"BcBA BGFG :|[2 B2GB | "B7"AGFG "Em"E4 :|
+"^B"|:\
+"Am"A2cB Aee2 | A2cB Aee2 | "Em"gfga gebe |[1 gebe gebe :|[2 "Am"eBcB "B7"AGFG :|
+# = = = = = = = = = =
+%%begintext align
+%%endtext

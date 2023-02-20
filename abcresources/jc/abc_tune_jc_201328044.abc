@@ -1,0 +1,57 @@
+
+X: 1
+T: Ragtime Annie
+S: Roaring Jelly collection R-104
+O: Eck Robertson recording 1923
+%C: Old-Time,Bluegrass
+%C: New England
+M: C|
+Z:
+R: rag, reel
+K: D
+%
+FE "A"|\
+"D"DFBF AFBF | DFBF A2FE |\
+DEFG ABAF | "A"A2c2 c2cB |
+"A"ABcA B2cB | ABcA BAcB |\
+ABcd egfe | "D"d2dc d2 :|
+fg "B1"|\
+"D"a2ab afd2 | A6 fg |\
+a2ab agf2 | "G(Em)"g6 ef |
+"A"g2{f}ef g2{f}ef | gagf e2ef |\
+gagf edcB | "D"A6 |]
+fg "B2"|\
+"D"a2ab afdB | A2AB A2A2 |\
+[F4d4] "C"[E4=c4] | "G"[G6B6] A2 |
+"G"B2b2 b2ag | "D"f2a2 a2fd |\
+"A"A2ef gfec | "D"d2 "fine"y |]\
+[K:G] =c2 "D7"B2A2 |]
+"C"|:\
+"G"[G6B6] AB | "C"[E6c6] cB |\
+"D"A2f2 f2ef | "G"gfga gedc |
+"G"D2B2 B2AB | "C"E2c2 c2cB |\
+"D"A2f2 f2ef |1 "G"gfga g2dc :|2 "G"g6 |]
+
+%%sep 1 1 500
+
+X: 2
+T: Yoshke (Ma Yofus; Tanz, Tanz, Yideleh)
+C: arr. Naftule Brandwein 1917
+Z: John Chambers <jc:trillian.mit.edu>
+O: Trad
+M: C|
+L: 1/8
+P: Play AABBCCBB for contras
+K: _B_e^F	% D freygish
+"A"[|]z2 \
+|  "D"DEFG ABAG | F2FD "Gm"G4 | "D"A2A2 cBAG | F2FD "Gm"G4 |
+|  "D"DEFG ABAG | F2FD "Gm"G4 | "D"F2F2 "Cm"EDEC | "D"D6 :|
+K: Bb	% Bb, G minor
+"B"|: "F"[F2A] \
+|  "Bb"Bcd4 d2 | "F"cdcA F4 | "F7"FGAB cdec | "Bb"d2de "D"dcBA |
+|  "Gm"GAB4 B2 | "D"ABA^F D4 | DE^FG ABAF | "Gm"G6 :|
+K: _B_e^F	% D freygish
+"C"|: FE \
+|  "D"D2F2 D2F2 | "Gm"G2G2 cBAG | "D"F2F2 "Gm"GFGB | "D"A2A2 ~d4 |
+|  "D"D2F2 D2F2 | "Gm"G2G2 cBAG | "D"F2F2 "Cm"EDEC | "D"D6 :|
+

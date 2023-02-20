@@ -1,0 +1,14 @@
+X:1
+T: The Dusty Windowsills
+R: jig
+M: 6/8
+L: 1/8
+K:G
+%%printtempo 0
+Q:180
+|:"Am"A2B cBA|"Am"eAB cBA|"G"G3 EGG|"G"DGG EFG|
+"Am"A2B cBA|"Am"e2d efg|"G"age dBG|"Am"ABA A3:|
+|:"Am"a3 age|"G"dB/c/d g3|"G"gag "Em"gfe|dBA GFG|
+"Em"EGG "G"DGG|"Em"EGG "Am"ABc|"G"Bed BAG|"G"ABA "Am"A3:|
+|:"Am"A3 gAf|"Am"A3 "Em"ged|"G"G3 eGd|"G"G3 "Em"edB|
+"Am"A3 gAf|"Am"A3 "Em"efg|"Am"age "G"dBG|"Am"ABA A3:|

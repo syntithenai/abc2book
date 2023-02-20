@@ -1,0 +1,19 @@
+X: 1025
+T: the Simerons Jigg.
+%R: jig
+B: Henry Playford "Apollo's Banquet", London 1687 (5th Edition)
+F: https://archive.org/details/apollosbanquetco01rugg
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: Rest added as "pickup" to 2nd strain, to fix the rhythm.
+M: 6/4
+L: 1/8
+K: G
+% - - - - - - - - - -
+ef |\
+g2G4 B4c2 | d2D4 F4G2 |\
+(A2c4) (B2d4) | A6 G4 :: z2 |\
+(B2d4) g4B2 | (c2e4) a4^c2 |
+d2e2f2 g2a2f2 | e6 d4(ef) |\
+(gf)(ed)g2 B2(cB)(AG) | F4G2 (A2c4) |\
+(B2d4) A6 | G4 |]
+% - - - - - - - - - -

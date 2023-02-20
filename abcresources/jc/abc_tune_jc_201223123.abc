@@ -1,0 +1,22 @@
+X: 6
+T: 'Tis a joyful Night
+%R: jig
+B: "Twenty Four Favourite Dances for the Year 1783", Thomas Straight, ed. p.3 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1783
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A |\
+d>ef ecA | d3  A2F | G>AB AFD | E3 A,2A |\
+d>ef gec | dfB A2G | FdF  Edc | d3 D2 :|
+|: e |\
+f>ga ecA | g3  f3  | B>cd efd | c3 A2a/g/ |\
+fdc  BgB | AfB A2G | FdF  Ddc | d3 D2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Cross over 2d Cu foot it to your part.r & turn
+%% .|. cast over 1 Cu foot it & turn :|. lead down
+%% the middle up again & cast of .|: hands 6
+%% quite round :|:
+%%endtext

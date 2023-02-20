@@ -1,0 +1,22 @@
+X: 10892
+T: SWEETHEART SCHOTTISCHE
+R: shottish
+B: K\"ohler's Violin Repository, v.1, 1885 p.89 #2
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: First note in bar 9 was f; changed to f2 to match similar measures.
+N: Double bar between 2nd and 3rd parts lacked repeat signs; fixed.
+N: 3rd part lack pickup, giving bad rhythm.  Not fixed.
+M: 2/4
+L: 1/16
+K: G
+u(B>c) |\
+d2g2e2g2 | d>Bd>g b2(a>g) | f2a2d2 (b>a) | g2b2d2 (3ed^c |\
+d2g2e2g2 | d>Bd>g b2(a>g) | f2(a>g) fdef | g2g2g2 :|
+K: D
+|: u(a>g) |\
+f2(g>a) b2a2 | e2e>f g4 |  e2(f>g) c'2b2 | agfg abag |\
+f2(g>a) b2a2 | e2e>f g4 | c'3b agfe | d2f2d2 "^D.C.":|
+K: C
+|: v(.e>.g)^fg agc'2 | (.e>.g)^fg agc'2 | b2(de) fgab | c'2(g>f) (ea)g2 |\
+(.e>.g)^fg agc'2 | (.e>.g)^fg agc'2 | b2(de) fgab | c'2{d'}(.c'>.b) c'2 :|

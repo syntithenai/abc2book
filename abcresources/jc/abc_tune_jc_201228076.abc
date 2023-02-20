@@ -1,0 +1,66 @@
+X: 11061
+T: DIALOGUE DUET
+T: From Attwood's "Mouth of the Nile."
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.106 #1 (and p.107 #1)
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+%R: air
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Slow and pathetic.--"When William was gone."--Attwood.
+M: C
+L: 1/8
+B>c |\
+d2 c>d e2 d>c | B2 G>B F3 F | F2 F>e ed zf | e>d cB c2 B>c |\
+d2 c>d e2 d>c | B2 G>B F2 zF | F2 F>F B>B zd | c2 f>d B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Quick.--"Many be the merry days that we may pass together."--Del Caro's Hornpipe.
+M: 2/4
+L: 1/8
+[|\
+B>df>b | a>gf>g | f>ed>c | d>ef2 |\
+B>df>b | a>gf>e | d>cB>A | (c2 B2) |]
+[|\
+B>df>b | (3(gab) (3(gab) | F>Ac>e | (3(def) (3(def) |\
+B>df>b | a>gf>e | d>cB>A | (c2 B2) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Larghetto.--"In the moments of absence."--Attwood.
+M: C
+L: 1/8
+B>c |\
+d2 c>d e2 d>c | B2 G>B F3 F | F2 F>e ed zf | e>dcB c2 B>c |\
+d2 c>d e2 d>c | B2 G>B F2 F | F2 F>F BB zd | c2 f>d B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: "Nae luck about the house when William is awa."--Scottish air.
+M: 2/4
+L: 1/8
+B>B |\
+d2d>B | eee>c | d2d>B | c2fe |\
+ddd>B | e>fgb | fedc | B2z |]
+f |\
+bgfd | e>fga | bgfd | c2zf |\
+bgfd | e>fga/b/ | f>edc | B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Larghetto.--"On the beach as I stray'd."--Attwood.
+M: C
+L: 1/8
+B>c |\
+d2 c>d e2 d>c | B2 G>B F2 FF | F2 F>e ed zf | e>dcB c2 B>c |\
+d2 c>d e2 d>c | B2 G>B F2 zF | F2 F>F B2 zd/d/ | c2 f>d HB2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+P: Allegro.--"Now to grief adieu."--Martini.
+M: 6/8
+L: 1/8
+d |\
+c2f =e2g | f3- f2d | c2f =e2g | f3- f2f |\
+e2e d2d | c3- c2d | e2e d2d | c3- cF(G/A/) |]\
+B2B Bcd |
+e2c AGF | B2B Bcd | c2A FGA |\
+B2B Bcd | e2c AGF | B2d {d}cBc | B3 edc |]\
+B2B Bcd | e2c AGF |
+B2B Bcd | c2A FGA |\
+B2B Bcd | e2c AGF | B2d {d}cBc | B3 b3 |\
+ded cBc | B3 b3 | ded cBc | B2z z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

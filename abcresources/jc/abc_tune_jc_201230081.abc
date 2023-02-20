@@ -1,0 +1,33 @@
+X: 1321
+T: BIRD'S WALTZ
+C: Composed for two violins, by S. Knaebel
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.132 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+%
+V: 1
+.A,.B,.C |\
+.D.E.F.G.A.B | (A2 f).A d2 | (c2 g).f.e.d | .c.B.A.G.F.E |\
+.D.E.F.G.A.B | (A2 f)A d2 | (A2 g).f(ef) | d2 z :|
+|: !mf!.d.c.B |\
+.A.B.c.d.e.f | (gfga) g2 | (fefg) f2 | (ed)cB A2 |\
+!f!.b.a.g.f.e.d | .c.B.A.G.FE | (DF) A2 [c2E2A,2] | [d2D2] z H:|
+K:G
+|: !p!.D.E.F |\
+(GA).B.c.d.e | (ed) "^>"[b4d4] | (dc) [a4c4] | (cB) "^>"[g4B4] |\
+.e(gfgfe) | (ed) (^cd) d2 | (=ca) (Bg) (Af) | g2 z :|
+%
+V: 2
+.A,.B,.C |\
+.D.C.D.E.F.G | FA DA FA | [E3C3] .D.E.F | .E.D.C.B, A,2 |\
+.D.C.D.E.F.G | (FD) (AD) (FD) | (CE) (BA) (GA) | F2 z :|
+|: !mf!.F.E.D |\
+.C.D.E.F.G.A | ("^>"_B2 A2) c2 | (dcde) d2 | (cB).A.^G A2 |\
+!f!.=g.f.e.d.c.B | .A.G.F.E.D.C | D2 F2 [A2G2] | [A2F2] "^FINE"z H:|
+K:G
+|: zz2 |\
+!p!B,D G,D B,D | B,D GD GD | FD FD FD | GD GD GD |\
+.c(e^de=dc) | (cB) (^AB) B2 | (A2 B2) [c2D2] & D4 x2 | "^D.C. AL FINE"[B2D2G,2] zy :|

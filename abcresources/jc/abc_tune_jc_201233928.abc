@@ -1,0 +1,30 @@
+X: 20171
+T: LORD GREGORY
+O: Old Scottish air.
+Q: "Very slow and pathetically."
+%R: air, waltz
+N: This is version 2, for ABC software that understands voice trailing grace notes.
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.17 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A4 |\
+e8 A3B | ^G8 E3A |\
+A8 B3{d}c | c8 (3(c2e2g2) |\
+{f4}e8 d3c | B8 c2A2 |\
+B8 B3e | e8 (A>c)(BA) |\
+^G8 E3A | A8 B3c {d}|\
+Hc8 (3(c2e2g2) | {f4}e8 d3c |\
+c8 B3A | A8 :|
+|: A3e |\
+e4 e4 e3f/g/ | f8 e3d |\
+d8 (d3e/f/) | e8 e3d |\
+c8 (c3d/e/) | d8 c4 |\
+(c4 {dc}B4) B3e | e8 (AcBA) |\
+^G8 ^FE3 | A8 B3{d}c |\
+Hc8 (3(c2e2g2) | {f4}e8 d3c |\
+c8 B3A | A8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

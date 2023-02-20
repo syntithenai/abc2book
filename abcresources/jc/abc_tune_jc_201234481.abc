@@ -1,0 +1,26 @@
+X: 20542
+T: "TASTE LIFE'S GLAD MOMENTS."
+T: "FREUT EUCH DES LEBENS."
+C: H. G. N\"ageli.
+O: German air.
+Q: "Moderate."
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.54 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+B3 (c>Bc) | (d2g) g2z | G2G A>GA | (B>c)B A2z |\
+B3 (c>B)c | (d2g) g2G | B2B (A>G)A | "Fin."G3- G2 H|]
+d |\
+d2c (A>B)c | d2B G2d | d2c (A>B)c | d2B G2d |\
+e2c g2e | d2B g2d | (d>e)d (dc)B | (B3 {cB}A2) "^D.C."z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% This tune, sometimes attributed to Mozart,
+%% is the composition of H. G. H\"ageli.
+%%endtext
+%%sep 1 1 300

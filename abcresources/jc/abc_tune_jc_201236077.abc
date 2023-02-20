@@ -1,0 +1,55 @@
+X: 2161
+T: Mount your Baggage, With Variations
+%R: reel
+N: This is version 2, for ABC software that understands voice overlays.
+N: The voice overlays are used for the pickup notes to the 1st endings, and work as well when written as chords.
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.16 #1 (and top 10 staffs of p.17)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Note the 3/6-bar phrases. (This is also varied in the Variations.)
+N: Some repeat symbols aren't consistent; not fixed.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+FE |\
+(DEFG) A4 | D2A2 (BA)GF | G2E2 TE2FE | (DEFG) A4 | F2d2 Tc3B | A2F2 TF2 :| de | (fe)dc Td4 | D2A2 (BA)GF | G2E2 E2de |
+fd)ec Td4 | F2A2 BcdB | A2F2 TF2de | fdec Td4 | D2A2 (BA)GF | G2E2 (EG)FE | (DEFG) A4 | F2d2 Tc3B | A2F2 TF2 |]
+%
+"^1st V."|: FE | (DF)(AF) (DF)(BF) | (DF)(AF) (DF)(dF) | (ABc)A (Bcd).F | (G2E2 "^1."E2FE) & (G2E2 "_2."EGFE) |\
+[1 (DF)AF (DF)BF | (DF)AF (DF)dF | (DFA).g fedc | d2D2D2 :|
+|[2 (DEFG) A4 | F2d2 Tc3B | A2F2 TF2 |]\
+de | (fd)Bd (ec)Ac | (dB)GB (AF)DF | (BG)FG (AF)(dF) | G2E2 TE2de | (fd)Bd (ec)Ac |
+(dB)GB A(FTED) | (FGA).g (fe)dc | d2D2 D2Tf>e | (df)dA FAdA | (Bd)BA FAdA |\
+(Bcd)A (BA)GF | G2E2 E2TFE | (DEFG) A4 | F2d2 Tc3B | A2F2 TF2 |]
+%
+"^2d V."|: AG | (F/E/D) AD BDAD | (F/E/D) AD BDAD | (F/E/D) AF (dcd).F |\
+G2E2 TE2"^1."AG & x4 x2"_2."FE |[1 (F/E/D) AD BDAD | (F/E/D) AD BDAD | (FGA).g fedc | d2D2 D2 :|
+[2 (DEFG) A4 | F2d2 Tc3B | A2F2 TF2 |]\
+fg | afdf ecAc | dBGB A(FTED) | GBdG FAdF | G2E2 E2"^1."Tfg & x4 E"_2."GFE |
+[1 afdf ecAc | dBGB .A(FTED) | (FGA).g (fe)dc | d2D2 D2 :|[2 (DEFG) A4 | F2d2 Tc3B | A2F2 F2 |]
+%
+"^3d V."|: d/c/B | (AD)(BD) (cD)(dD) | (AD)(BD) (cD)(dD) | (F/E/D) FA (dcd).F | G2E2 TE2 (d/c/B) | (AD)(BD) (cD)(dD) |\
+(AD)(BD) (cD)(dD) | (FGA).g (fe)dc | d2D2 D2 (d/c/)B |
+(AD)(BD) (cD)(dD) | (AD)(BD) (cD)(dD) | (F/E/D) FA (dc)dF | G2E2 .E(GFE) |\
+(DEFG) A4 | F2d2 Tc3B | A2F2 F2 |: de | (fd)(fd) (ec)(ec) | (dB)(dB) (AF)(AF) |
+(GB)eG (FA)dF | G2E2 TE2"^1."de & x4 E"_2"GFE \
+|[1 (fd)(fd) (ec)(ec) | (dB)(dB) (AF)(AF) | (DFA).g (fe)dc | d2D2 D2 :|[2 (DEFG) A4 | F2d2 Tc3B | A2F2 TF2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |\
+d4 d4 | d4 d4 | e4 e4 | d4 d4 | d4 a4 | d4 d2 :| z2 | d4 d4 | f4 d4 |
+e4 e4 | d4 d4 | d4 g4 | f4 d4 | d4 d4 | f4 d4 | e4 e4 | d4 d4 | d4 a4 |
+d4 d2 |]\
+"^1st V."|: z2 | d4 d4 | d4 d4 | d4 g4 | e4 e4 |[1 d4 d4 | d4 d4 | d4 a4 |
+d4 d2 :|[2 d4 d4 | d4 a4 | d4 d2 |] z2 | d'4 a4 | g4 d4 | g4 f4 | e4 e2z2 |
+d'4 a4 | g4 d4 | d4 a4 | d'4 d4 | d4 d4 | d4 d4 | g4 d4 |
+e4 e4 | d4 d4 | d4 a4 | d4 d2 |] "^2d V."|: z2 | d2f2 g2f2 | d2f2 g2f2 | d4 d4 |
+e4 e4 |[1 d2f2 g2f2 | d2f2 g2f2 | d4 a4 | d4 d2 :|[2 d4 d4 | d4 a4 | d4 d2 |]
+z2 | d4 a4 | g4 d4 | g4 f4 | e4 e4 |[1 d4 a4 | b4 d4 | d4 a4 | d4 d2 :|
+[2 d4 d4 | d4 a4 | d4 d2 |] "^3d V."|: z2 | f2g2 a2b2 | f2g2 a2b2 | f4 d4 | e4 e2z2 | f2g2 a2b2 |
+f2g2 a2b2 | d4 a4 | d4 d2z2 | f2g2 a2b2 | f2g2 a2b2 | f4 d4 | e4 e4 | 
+d4 d4 | d4 a4 | d4 d2 |: z2 | d4 a4 |  b4 d4 | c4 d4 | e4 e4 |
+d4 a4 | b4 d4 | d4 a4 | d4 d2 :|[1 d4 d4 | d4a4 | d4 d2 |]

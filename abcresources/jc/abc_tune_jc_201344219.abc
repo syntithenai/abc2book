@@ -1,0 +1,17 @@
+
+X: 860
+T: Thirty Years Ago
+R: hornpipe
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #860
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0860/oneill-1001-0860-1.abc
+M: 2/4
+L: 1/16
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+"^A"|: (Bc) | dBeB dBAB | GFGA GDGA | BGBd cBAG | FGAF D2 || (Bc) | dBeB dBAB |
+| GFGA GABc | defe dcAF | G2{A}GF G2 "^B":: (3(DEF) | GFGA B2(AG) | FGAF DEFD |
+| GFGA B2(AG) | Adde dcBA || GFGA B2(AG) | FGAB c2(Bc) | defe dcAF | G2{A}GF G2 :|

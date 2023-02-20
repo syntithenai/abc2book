@@ -1,0 +1,19 @@
+X: 338
+T:Perinita
+O:Romania
+M:2/4
+L:1/16
+Q:1/4=180
+K:D
+%%MIDI program 50 SynthStrings 1
+%%MIDI gchord ffcz
+%%MIDI bassprog 32 Acoustic Bass
+%%MIDI chordprog 32 Acoustic Bass octave=1
+"D"^G2A2  G2A2| ^G2A2 F4|^G2A2 G2A2|F8|\
+"D"^G2A2  G2A2| ^G2A2 F4|^G2A2 G2A2|F8::
+D4 D4|D3E F4|D4 D3E|"F#m"F8|\
+"A"E4 E4|E3F G4|(3A2G2F2 (3G2F2E2|"D"D8::
+L:1/8
+%%MIDI chordprog 32 Acoustic Bass octave=0
+"G"(3GFG (3BAG|(3FEF (3AGF|(3EFE (3GFE|"D"Dz GA|\
+"G"(3GFG (3BAG|(3FEF (3AGF|(3EFE (3GFE|"D"D2 z2:|

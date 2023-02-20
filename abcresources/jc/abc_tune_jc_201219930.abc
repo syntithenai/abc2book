@@ -1,0 +1,28 @@
+X: 03032
+T: FRED and DINAH
+C: Bob McQuillen 8 Feb 77
+B: Bob's Note Book 03 #32
+R: jig
+%D:1977
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+P: FRED'S JIG
+E \
+| B,EF GFG | ABc BGA | Bde dBG | EFG F2F |\
+| B,EG GFG | ABc BGA | Bde dBA | GEE E2 :|
+|: e \
+| Bee efg | fdd ded | Bee efg | fdd d2d |\
+| Bee Bff | gfg a2a | bag fed | Bee e2 :|
+P: DINAH'S JIG
+E \
+| B,EE GAB | ABA DEF | EGB AGA | Bdd d2D |\
+| B,EE GAB | ABA DEF | EGB AGF | GEE E2 :|
+|: B \
+| eBe dBd | cAc BGE | eBe dBd | cAc B2B |\
+| eBe dcB | cAc BGE | eBA GFE | B,EE E2 :|
+%%begintext align
+%% For Fred & Dinah Breunig
+%% with fondest Best Wishes
+%%endtext

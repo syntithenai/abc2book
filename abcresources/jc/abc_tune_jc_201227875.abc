@@ -1,0 +1,35 @@
+X: 10
+T: the House of Gray
+%R: jig
+B: "Scots Reel & Country Dances for the Year 1769", R.Bremner, ed. p.101 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=104993891
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gdor
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+D |\
+G3 B3 | cAF cAF | G3 B2c | dBd dBG |\
+fgf Te2d | cAf cAF | G2G B>cd | cA^F G2 :|
+|: A |\
+B2B f2B | dBd cAF | B2B f2B | dBd fdf |\
+g>ag Tf2d | cAf cAF | G2G (B/A/B/c/d) | cA^F G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g3 g3 | f3 f3 | g3 g3 | g3 g3 |\
+g3 g3 | f3 f3 | g3 g3 | d3 G2 :|
+|: z |
+b3 b3 | f3 f3 | b3 b3 | b3 b3 |\
+b3 b3 | f3 f3 | g3 g3 | d3 G2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st Man turns his partner with his right hand & cast of one Cu: .|
+%% turn with your left hands the Man casts off the Woman cast up :|
+%% foot it three Top and Bottom .|.
+%% 1st Man falls in between the 2d and 3d Wo:
+%% the 1st Wo: falls between the second and third Man at the same time
+%% foot it all six the first Man turns his Partner :|:
+%%endtext
+%%sep 2 2 400

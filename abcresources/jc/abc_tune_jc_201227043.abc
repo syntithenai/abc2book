@@ -1,0 +1,23 @@
+X: 10591
+T: SOMEHOW MY SPINDLE I MISLAID.
+Q: "Lively."
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.59 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+dfe dfe | d2A {B}G2F | B2A {A}G2F | EDE D2z |\
+dfe dfe | dABcde | f^ga efd | cdB A2z |\
+efe f2e | B2c d2e | fgf a2d | {d}c2d {f}e2 |]
+A |\
+dcB A2A | AdA AdA | edc c2A | AeA AeA |\
+def fed | dcB  B2B | efg gfe | edc c2a |\
+aAa aAg | {g}f2e f2a | aAa aAg | {g}f2e d2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

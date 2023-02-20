@@ -1,0 +1,27 @@
+X: 1
+T: Fort Agustus
+%R: reel, hornpipe
+B: T. Davis "24 Country Dances for the Year 1748"
+S: http://imslp.org/wiki/24_Country_Dances_for_the_Year_1748_(Davis,_T.) 2013-11-30
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The only repeat sign is in the middle; the 2nd strain ends with a double bar line.
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 8-bar staffs.
+V: 1 staves=2
+d |\
+g>agb | g>agb | g2 dB | A3 B | G>A Bc | d2 g2 | dBAB | G3 :: G | A>BAG |
+A>BAG | BdcB | A3 d | g>agb | g>agb | gBAB | G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z |\
+G4- | G4- | G4 | d4 | G2 g2 | G>ABc | "6;4"d2 "5;3"D2 | G3 :: z | d4 |
+d4 | g2 G2 | d4 | G4 | G4 | "6"B2 d2 | G3 |]
+%%begintext align
+%% First Cu. foot it & cast off into the 2d Couple's Place, then foot it & cast off into the 3d Couple's
+%% Place | Then lead up to the Top & cast off into the 2d Couple's Place, then Right Hand &
+%% left quite round.
+%%endtext

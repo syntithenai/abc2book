@@ -1,0 +1,45 @@
+X: 0606
+T: The Threesome Reel {48S+48R} Medley - 1m+2w
+T: (48S+48R)
+O: RSCDS 6-6
+B: RSCDS 6-6
+P: Play 111-222
+K:
+%
+P: Mrs Stewart Nicholson's Strathspey
+C: Nathaniel Gow
+R: strathspey
+B: RSCDS 6-6 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+A2 |\
+"D"F3E D2F2 "Em"B,B,3 E4 | "A7"DCB,A, A,2B,C "D"D2F2A2d2 |\
+"D"F3E D2F2 "Em"B,B,3 E4 | "A7"DCB,A, A,2B,C "D"D4 D2 :|
+B2 |\
+"D"A2d2 "Bm"d2ef "Em"eB3 B3e | "A7"c3B A2Bc "D"defg a3d |\
+"D"A2d2 d2ef "G"g2B2 "Em"B3e | "A7"c3B ABcA "D"d4 D2 ||
+B2 |\
+"D"A2d2 "Bm"d2ef "Em"e2B2 B3e | "A7"c3B A2Bc "D"defg a3d |\
+"D"A2d2 "G"B2d2 "F#m"AB3 "Bm"F3D | "Em"DCB,A, "A7"B,2C2 "D"D4 D2 |]
+%
+P: Sleepy Maggie
+O: Trad
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+N: Neil Gow Collection
+N: Skye p.62
+N: O'Neill's p.135
+N: Williamson p.62
+N: Hunter 220
+N: Kerr's 3rd p.6
+N: Winston Scotty Fitzgerald on Celtic 17,
+N: second Kennedy tune-book p.20
+M: C|
+L: 1/8
+K: BDorian
+|: "Bm"f2Bb fBde | f2Ba "A"eAce | "Bm"f2Bb fBde | "(D)"fgaf "A"eAce :|
+[| "Bm"fBdB fBde | fBdB "A"eAce | "Bm"fBdB fBde | "(D)"fgaf "A"eAce ||
+|| "Bm"fBdB fBde | fBdB "A"eAce | "Bm"fBbB aBgB | "(D)"fgaf "A"HeAce |]
+

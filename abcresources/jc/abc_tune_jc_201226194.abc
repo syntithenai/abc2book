@@ -1,0 +1,16 @@
+X: 10131
+T: the YELLOW HAIR'D LADDIE
+Q: "Slow"
+%R: air, waltz
+B: "Edinburgh Repository of Music" v.1 p.13 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+D>E |\
+{DE}F2 A2 B>c | d3 e {de}f2 | A2 BAGF | {F2}E4 D>E |\
+{DE}F2 A2 B>c | d>cde f2 |[1 A>BAF TE>D | D4 :|[2 A2 g>fTe>d | d4 |]
+|: d>e |\
+f2 g>fe>d | c2 e>cBA | B>c d{c}B{B}AF | {F2}E4 D>E |F2 A2 B>c |\
+d>cde {de}f2 |[1 A>BAF TE>D | D4 :|[2 A2 gfTe>d | d4 |]

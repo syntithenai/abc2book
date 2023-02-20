@@ -1,0 +1,847 @@
+% ---------- set 75 ----------
+% Lady Anne Montgomery (D) / Sligo Creek (Bm) / The Devil's Dream (A)
+%%pageheight 11in
+%%pagewidth 8.5in
+%%topspace 0
+%%musicspace 0
+%%subtitlespace 0
+%%leftmargin     2.5cm
+%%topmargin     0.40cm
+%%botmargin     0
+%%staffwidth     15.50cm
+%%scale .65
+%%textfont       Times-Bold 18.0
+%%text Set 75
+%%textfont       Times-Roman 12.0
+X:1
+T:Lady Anne Montgomery (R-145)
+M:C|
+L:1/8
+K:D
+A| \
+"D"FADA FADA| FAdA "G"BAdA|"D"FADF "Em"EDEF| "A"DB,A,B, "D"D3E|
+"D"FADA FADA| FAdA BABc|"G"dBAF "Em"E3F|"A"DB,A,B, "D"D3:|
+|: e| \
+"D"f3f fede| fedB ABde|   f2fe "Bm"fede| "Em"fgaf "A"efde|
+"D"f3f fede| fedB ABde|"G"fded "Em"BdAd| "A"egfe "D"d3:|
+%%text Alternate chords/bass line for part B:
+%%text |: D - | - - | F#m/C# - | - - | Bm - | - - | Em G | A D :|
+
+X: 2
+T: Sligo Creek (R-154)
+C:Danny Noveck c1988
+R:reel
+Z:transcribed to abc by Mary Lou Knack
+M:C|
+L:1/8
+K:Bm
+de| "Bm"f2ef dB~B2| f2ef df~f2| "A"a2ed cAAF| EFAB "F#m"c3e|
+    "Bm"f2ef dB~B2| f2ef df~f2| "A"a2ed cAec| ABcA "Bm"B2 :|
+|: BA| \
+"G"GB~B2 Bcde| "D"f2ec defd| "A"eA (3.A.A.A cAFA| EFAB "F#m"c2BA|
+"G"GB~B2 Bcde| "D"f2ec defd| "A"ea (3.a.a.a faec| ABcA "Bm"B2 :|
+
+%%vskip 14pt
+
+X: 3
+T: Devil's Dream, The (R-7)
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: A
+e2| "A"agae agae| agae fedc| "Bm"dfBf dfBf| dfBf "E"agfe|
+    "A"agae agae| agae fedc| "D"dfed "A"cABA| "E"E2A2 "A"A2 :|
+|:\
+e2| "A"ceAe ceAe| ceAe fedc| "Bm"dfBf dfBf| dfBf "E"agfe|
+    "A"ceAe ceAe| ceAe fedc| "D"dfed "A"cABA| "E"E2A2 "A"A2 :|
+%%text 4/13/02
+
+%%newpage
+% ---------- set 76 ----------
+% Rock Valley (C) / Little Burnt Potato (D) / Irishman's Heart to the Ladies (A)
+%%pageheight 11in
+%%pagewidth 8.5in
+%%topspace -.7cm
+%%musicspace 0
+%%subtitlespace 0
+%%textfont       Times-Bold 18.0
+%%text Set 76
+%%textfont       Times-Roman 12.0
+%%leftmargin     2.5cm
+%%topmargin     0.40cm
+%%botmargin     0
+%%staffwidth     15.50cm
+%%scale .65
+X:1
+T: Rock Valley (J-78)
+M:6/8
+K:Am
+|:"C"C2E GFE|"F"D2E"Dm"F2A|"G"GAG GBd|"C"cBc "G7"AGE|
+"C"C2E GFE|"F"D2E"Dm"F2A|"G"GAG GBd|1 "C"cdc c3 :|2 "C"cdc cef|]
+|:"C"gag gag|"C"e2c cBA|"C"G2c B2c|"Dm"e2d d^cd|
+"C"gag gag|"C"e2c cBA|"G"G2c "G7"Bcd|"C"cdc c3:|
+%%text Transition -- play this instead of last measure above:
+|c3^f2g|
+
+X: 2
+T: Little Burnt Potato (J-34; New England)
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+% %staffwidth 12.5cm
+K: D
+fg|: "D"a^ga bag| afd Ade| fdf g2f| "Em (G)"efe Bcd|
+     "A"efe dcB| Ace a3|1 a^ga ba=g| "D"f3 f2g:|2 "A"a^ga b2c| "D"d3 d2g|]
+|:\
+"D"f2A f2A| fgf f2e| def afd| "G"g3 gef|
+"Em"gba gfe| "A"dcB A3|1 a^ga ba=g| "D"f3 fag:|2 "A"a^ga b2c| "D"d3|]
+
+X: 3
+T: Irishman's Heart to the Ladies (Irish; J-17)
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: A
+a| "A"ecA "D"BAF| "A"AFE EFA| "Bm"Bdc BAB| "E"cBB B2 a|
+   "A"ecA "D"BAF| "A"AFE EFA| "Bm"Bdc "E7"BAB| "A"cAA A2 :|
+|:\
+A| "A"cee "D"dff| "A"cee ecA| cde "D"eaf| "A"ecA "E"B2 A|
+   "A"cee "D"dff| "A"cee ecA| "Bm"Bdc "E7"BAB| "A"cAA A2 :|
+%%text 12/19/04.   Irishman's Heart to the Ladies also known as "Health to the Ladies".
+
+%%newpage
+% ---------- set 77 ----------
+% Dominion Reel (C) / Batchelder's (F) / Lamplighter's Hornpipe (A)
+
+%%pageheight 11in
+%%pagewidth 8.5in
+%%topspace -.7cm
+%%musicspace 0
+%%subtitlespace 0
+%%leftmargin     2.5cm
+%%topmargin     0.40cm
+%%botmargin     0
+%%staffwidth     15.50cm
+%%textfont       Times-Bold 18.0
+%%text Set 77
+%%textfont       Times-Roman 12.0
+%%scale .65
+X: 1
+T: Dominion Reel (R-92; New England)
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: C
+G2| "C"c2c2 "G"BcdB| "C"cega gece| "F"f2fd "C"e2ec| "G"dcBA G2AB|
+    "C"c2c2 "G"BcdB| "C"cega gece| "F"f2fd "C"e2ec| "G"dcBd "C"c2 :|
+|:\
+G2| "C"cege cege| "F"defe "G"dcBd| "C"cege cege| "G"dg"D"^fa "G"g2G2|
+    "C"cege cege| "F"f2fe dcBA| "G"GABc defg| "C"ec"G"dB "C"c2 :|
+%%text Alternate chords by Heather Pinney:
+%%text |: CGC- Dm-G- CGAmEm FDGC :|
+%%text |: C-G- C-DG C-F- G---C :|
+
+X:2
+T: Batchelder's (R-54; New England)
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: F
+c2| "F"f2af "C7"efge| "F"f2c2- c2=Bc| "Bb"dcBA BAGF| "C7"EFGA Bcde|
+    "F"f2af "C7"efge| "F"f2c2- c2=Bc| "Bb"dcBA BAGF| "C7"EFGE "F"F2 z2:|
+|:\
+"F"A2cA cAcA| "Bb"B2dB dBdB| "F"A2cA cAcA| "C7"BAGF EFGB|
+"F"A2cA cAcA| "Bb"B2dB dBdB| "F"Acfa "C7"bgeg| "F"f2a2 f4 :|
+%%text Transition -- play this instead of last measure above:
+|f2z2^c3d|
+
+X: 3
+T: Lamplighter's Hornpipe (R-90)
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: hornpipe
+K: A
+cd| "A"ecec eagf| ecec eagf| ecec fedc| "E7"d2B2 B2cd|
+    "A"ecec eagf| ecec eagf| efde "E7"cdBc| "A"A2A2 A2 :|
+|:\
+cd| "A"edcd e2fe| "E7"dcBc d2ed| "A"cAcA dcBA| "E"GABc B2cd|
+    "A"edcd e2fe| "E"dcBc d2ed| "A"cagf "E"edcB| "A"A2c2 A2 :|
+%%text 12/19/04
+
+%%newpage
+%%pageheight 11in
+%%pagewidth 8.5in
+%%topspace -.7cm
+%%musicspace 0
+%%subtitlespace 0
+%%textfont       Times-Bold 18.0
+%%text Set 78
+%%textfont       Times-Roman 12.0
+%%leftmargin     2.5cm
+%%topmargin     0.40cm
+%%botmargin     0
+%%staffwidth     15.50cm
+%%scale .65
+X:1
+T:The Clare Jig (J-79)
+M:6/8
+K:G
+|:"G"G3 GAB|"C"AGE "D"GED|"G"GFG "Am"AGE|"C"GED "D"DEF|
+"G"~G3 GAB|"C"AGE "C/B"GAB|"Am"cBA "C"BGE|[1"D"DED DEF:|2"D"DED D3|]
+|:"C"cBA "G"BAG|"D"ABA AGE|"C"cBA "G"BGE|"D"DED D3|
+"C"cBA "G"BAG|"Am"ABA ABc|"D"dcA "C"GEA|[1"D"DED D3:|2"D"D2 B cAF|]
+%%text Transition -- play this instead of last measure above:
+|D2 z3 f/2e/2|
+
+X:2
+T: Top of Cork Road (J-1)
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: D
+f/e/| "D"dAF DFA| "G"Bed "A"cBA| "D"dcd "A"efg| "D"fdf "A"ece|
+      "D"dAF DFA| "G"Bed "A"cBA| "D"dcd "A"efg| "D"fdd d2 :|
+|:\
+g| "D"fdf fga| "A"ecd efg| "Bm"dcd fed| "F#m"cAA A2c|
+   "G"BGB Bcd| "D"AFA ABc| "G"dcd "A"efg| "D"fdd d2 :|
+
+X:3
+T: Tenpenny Bit, The (J-3; in A Dorian)
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: ADor
+e| "Am"eAA eAA| "G"BAB GBd| "Am"eAA eAA| "D"def "G"gfg|
+   "Am"eAA eAA| "G"BAB GBd| "Em"edB gBB| "Am"BAA A2 :|
+|:\
+B| "Am"A2a aga| "Em"bge dBG| "Am"A2a aga| "Em"bge g2d|
+   "Am"e2a aga| "Em"bge dBd| edB gBB| "Am"BAA A2 :|
+%%text 1/1/05
+
+%%newpage
+%%scale .65
+%%pageheight 11in
+%%pagewidth 8.5in
+%%titlespace 0
+%%topmargin     0.40cm
+%%bottommargin 1cm
+%%topspace -.7cm
+%%musicspace 0
+%%subtitlespace 0
+%%leftmargin     2.5cm
+%%staffwidth     15.50cm
+%%textfont       Times-Bold 18.0
+%%text Set 79 (old 80)
+%%textfont       Times-Roman 10.0
+X:1
+T: Moon and Seven Stars, The (J-65)
+I: Moon and Seven Stars, The	J-65	D	jig
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: D
+%%text Don't play pickup at start!
+A| \
+"D"d2A AGF| "G"GAB "D"A2A| "G"Bcd efg| "A"fed cBA|
+"D"d2A AGF| "G"GAB "D"A2A| "G"Bcd efg| "A"Adc "D"d2 :|
+|: \
+"A"e2A ABA| efg "D"f3| "A"efg "D"fed| "E"cdB "A"A2A|
+"G"BGB "D"A2A| "G"BGB "D"A2A| "G"Bcd efg| "A"Adc "D"d3 :|
+
+X:2
+T: One-Horned Sheep  (J-64)
+I: One-Horned Sheep	J-64	G	jig
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: G
+"G"g2G GFG| "C"EGG "G"DGG| g2G GFG| "Am"EAG "D"FED|
+"G"g2G GFG| "C"EGG "G"DGG| "C"EGG "D"FGA| "G"BGF G3 :|
+|: \
+"G"GBd dBd| GAB d2D| GBd dcB| "D"cdc A2D|
+"G"GBd dBd| GAB def| "C"gfe dBG |1 "D"ABA G2D :|2 "D"ABc def |]
+%%rightmargin 12cm
+
+X:3
+T: Tenpenny Bit, The (J-3)
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+P: A Dorian
+K: ADor
+| "Am"e2A eAA| "G"BAB GBd| "Am"eAA eAA| "D"def "G"gfg|
+   "Am"eAA eAA| "G"BAB GBd| "Em"edB gBB| "Am"BAA A2 :|
+|:\
+B| "Am"A2a aga| "Em"bge dBG| "Am"A2a aga| "Em"bge g2d|
+   "Am"e2a aga| "Em"bge dBd| edB gBB| "Am"BAA A2 :|
+%%text 4/3/05
+
+%%newpage
+%%pageheight 11in
+%%pagewidth 8.5in
+%%topspace 0
+%%musicspace 0
+%%subtitlespace 0
+%%textfont       Times-Bold 18.0
+%%text Set 80 (old 79)
+%%textfont       Times-Roman 12.0
+%%leftmargin     2.5cm
+%%topmargin     0.40cm
+%%botmargin     0
+%%staffwidth     15.50cm
+%%scale .55
+X:1
+T:Marche Duvernay (J-76)
+M:6/8
+K:D
+|:"D"f2 f f2 f|fed dcB|A2 A A2 A|"D"Add "D#dim"ded|"Em7"c2 c c2 c
+|[1"A"cfe gba|"D"f2 f f2 f|fAB "A7"cBA:|2"A7"caa age|"D"dAB "A7"cBA|d2 A "D#dim"A2 B:|]
+|:"Em7"cBA cBA|"A7"cBA GFE|"A7"DFA dFB|A2 A "D#dim"A2 d|
+"Em7"cBA cBA|"A7"cBA GFE|[1"D"DFA d2 F|A3 "D#dim"d3:|2"D"DFA dAF|DAB "A7"cBA:|]
+%%text Transition -- play this instead of last measure above:
+|D3 "A7"A3|
+
+X:2
+T:Marche des Trois Rivieres (R-160)
+M:C|
+K:D
+A|:"D"A3 f e2 d2|(A4 A)B1/2 cB1/2|A3 f e2 d2|(A4 A)B1/2 cB1/2|
+"Em"A3 B c2 d2|"A"e6 aa|[1"Em"a2 e2 "A7"a2 e2|"D"(f4 "A"f3) A:|2"A"a2 g2 B2 c2|"D"ddAF "F#"D2 FF|]
+|:"Bm"F2 B2 B2 FF|F2 B2 B2 FF|F2 B2 B2 F2|"Em"A2 G2 G2 AA|
+"A"A2 c2 c2 AA|"A"A2 c2 c3 [1E|"A"E3 d "A/G"d2 c2|"F#m/F#m/A"B2 c2 A2 FF:|2B|"A"B2 A2 G2 E2|"D"DDFA d3|]
+%%text Transition -- play this instead of last measure above.  
+%%text Hold this quarter note as long as you will hold the eighth notes in next tune.
+|D2|
+
+
+X:3
+T: Marche du Mont Saint-Louis (R-124)
+M: C
+R: march
+K: D
+ABc|"D"d2 "A7"e2 "D"f2 "A7"e2|"D"d4- dA"A"Bc|"D"d>cBA "D#m"BAGF| "A"F2E2- EABc|
+"Em7"e2f2 "A7"g>fed|"Em7"c4- "A7"caaa|"Em7"a2g2 "Aaug"B>c"A"BA|"D"d4- "A"dab>a||
+"D"a4- af"A7"e>d|"D"A4- "A"AF/G/ A/A/B/c/|"D/F#"dd/B/"Fdim"dd/B/"D/F#"dd/B/ "Fdim"d/e/d/B/|"Em"c4- "A7"cab>f|
+"Em7"a4- "A7"age>c|"Em7"A4- "A"AA/A/AA|"Em7"B2g2 "A7"B>cBA|"D"d4- d||
+%%text 3/26/05
+
+%%newpage
+%%topmargin     0.40cm
+%%scale .8
+%%textfont       Times-Bold 18.0
+%%text Set 80, continued
+%%textfont       Times-Roman 10.0
+
+X:4
+T: Marche du Mont Saint-Louis in G (R-124, transposed)
+M: C
+R: march
+K: G
+%%scale .6
+DEF|"G"G2 "D7"A2 "G"B2 "D7"A2|"G"G4- GD"D"EF|"G"G>FED "G#m"EDCB,| "D"B,2A,2- A,DEF|
+"Am7"A2B2 "D7"c>BAG|"Am7"F4- "D7"Fddd|"Am7"d2c2 "Daug"E>F"D"ED|"G"G4- "D"Gde>d||
+"G"d4- dB"D7"A>G|"G"D4- "D"DB,/C/ D/D/E/F/|"G/B"GG/E/"Bbdim"GG/E/ "G/B"GG/E/ "Bbdim"G/A/G/E/|"Am"F4- "D7"Fde>B|
+"Am7"d4- "D7"dcA>F|"Am7"D4- "D"DD/D/DD|"Am7"E2c2 "D7"E>FED|"G"G4- G||
+%%scale 1
+
+X:5
+T: Marche des Marchands des Fruits (R-161)
+M: C
+R: march
+K: C
+%%scale .6
+g/ ga|"C"g>e ef e>c cc|dc "C#dim"Bc "Dm"f>f fg|"Dm"f>d de d>g ga|"G7"ba gf "C"e>g "G7"ga|
+"C"g>e ef e>c cc|dc "C7"Bc "F"a2 f>a|"F"a2 "Dm"f>a "C"g2 "Am"e>g|"Dm7"ag "G7"fd "G7"cG "G7"ce||
+|:"C"g2 g>a g/e/c/e/ ga| g2 e>e ee "C#dim"fe|"Dm7"d2 d>d "G"df ed|"C"c/G/c/e/ "G7"ag [1"C"cG "G7"ce:|2c3/2|]
+%%scale 1
+%%textfont Times-Roman 10.0
+%%text 4/30/05
+
+%%newpage
+%%pageheight 11in
+%%pagewidth 8.5in
+%%musicspace 0
+%%subtitlespace 0
+%%leftmargin     2.0cm
+%%rightmargin   2.0cm
+%%topmargin     0.40cm
+%%botmargin     0
+%%textspace 0
+%%textfont       Times-Bold 18.0
+%%text Set 81 (L)
+%%textfont       Times-Roman 10.0
+X: 1
+T: Liza Jane (R-99)
+I: Liza Jane	R-99	A	reel
+M: C|
+R: reel
+K: A
+%%text Fiddles shuffle in.  A, C#, and E are good notes to shuffle.  Anything else is not good.
+ef| "A"a2f2 e2ce| fecB A4| a2f2 e2c2| "D"f4 f2ef|"A"a2f2 e2ce| fecB A2AB| "D"cBAF "E"E2F2| "A"A6 :|
+|:BA| "A"c4 c3A| B2(A2 A)ABA| c2B2 A2E2| "D"(F6 F)E|"D"F2A2 "E"B3A| BAcA B2AB| "D"cBAF "E"E2F2| "A"A6 :|
+
+%%leftmargin     3cm
+%%rightmargin   3cm
+X:2
+T: Spotted Pony, The  (R-48)
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+FE| "D"D2D2 "A"E2E2| "D"FDF2 "G"G4| "D"ABde fede| f2a2 "A"e2 FE|
+    "D"D2D2 "A"E2E2| "D"FDF2 "G"G4| "D"ABAB dBAG |1 "D"F2"A"E2 "D"D2 :|2 "D"F2"A"E2 "D"D4 |]
+|:\
+"D"f2a2 f4| "G"efed BcdB| "D"ABde fede| f2a2 "A"e4|
+"D"f2a2 f4| "G"efed BcdB| "D"ABAB dBAG |1 "A"F2E2 "D"D4 :|2 "A"F2E2 "D"D2|]
+
+%%newpage
+%%textfont       Times-Bold 18.0
+%%text Set 81 continued
+%%textfont       Times-Roman 10.0
+X: 3
+T: North Carolina Breakdown (R-150; Arthur L. Smith \2511937)
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+D2| \
+"G"G2G2 EDEF| GFGA Bdef| "C"g2f2 edef| "D"gage dBAF|
+"G"G2G2 EDEF| GFGA Bdef| "C"g2f2 edBA| "D"dBAF "G"G2 :|
+|: d2| \
+"C"[e2g2][e2-g2-] [e2g2][e2-g2-]| [e2g2]g2 gag2| \
+   "G"[d2g2][d2-g2-] [d2g2][d2-g2-]| [d2g2][dg][dg] [B2g2][d2g2]|
+"C"[e4g4] g2b2-| b2b2 agef| "G"gage dBAB| "D"dBAF "G"G2 :|
+
+X: 4
+T:Kansas City  (R-152)
+R:reel
+Z:transcribed to ABC by Debby Knight
+M:C|
+L:1/8
+K:A
+%%text The first time, play quarter notes instead of the pairs of eighth notes in the first measure.  Make them loud.
+cB|"A"AAcB AAcB | Aceg aega | "E7"bgeg fecd | ecef ecBc|
+"A"A2cB A2cB | Aceg aega |"E7"bgeg fecd |"A"ecB2 A2 :|
+|: cd| \
+"A"e3e e3=g | fecd ecBA | "G"B3c B2=g2- | =gfeg fecA |
+"A"e3f e2e=g | fecd ecBA | "E7"Bege fefg | "A"ga2g a2 :|
+%%text 5/30/05
+
+%%pageheight 11.0in
+%%pagewidth 8.5in
+%%topmargin     0.40cm
+%%botmargin     0
+%%newpage
+%%topspace 0
+%%musicspace 0
+%%subtitlespace 0
+%%leftmargin     2.5cm
+%%rightmargin 2.5cm
+%%staffwidth     15.50cm
+%%topmargin     0.40cm
+%%botmargin     0
+
+%%scale .7
+%%textfont       Times-Roman 10.0
+% ---------- set 82 ----------
+%%scale .7
+% Dancing Bear (Em) / Vladimir's Steamboat (Amix/Dmix) / Carpathian Tune (Gm)/Kolomeyke #? (Am)
+%%textfont       Times-Bold 18.0
+%%text Set 82
+%%textfont       Times-Roman 10.0
+
+X: 1
+T: Dancing Bear, The (R-116)
+C: Bob McQuillen  2/22/78
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: Em
+"Em"EFGF EFGF| EFGA G2E2| "A"EFGF EFGF| EFGA G2E2|
+"C"EFGF EFGF| EFGA B2e2| "B7"B2Bc BAGF| "Em"G2E2 E4 :|
+|:\
+"Em"e2ef gfef| gfe2 e4| "A"e2ef gfef| gfe2 e4|
+"C"e2ef gfef| gfe2 e2dc| "B7"BABc BcBA| "Em"GFE2 E4 :|
+
+%%vskip .2cm
+X: 2
+T: Vladimir's Steamboat (R-162; \251Jay Ungar)
+M: C|
+L: 1/8
+R: reel
+K: Amix
+|:"A"Acde dcAc|dedc AGEA- |Acde dc A2|"G/E"GFGB AG E2|
+"A"Acde dcAc|dega gedg|edce "G"dc A2|"G/E"GFGB "A"A4:|
+| "A"az az az az|a2ga bagf|efed cdef|"G"gea^g "E"e4|
+"A"az az az a2-|a2ga bagf|efed "G"cdef|"E"ecdc "A"A4|
+| "A"aa- aa a2a2-|a2ga bagf|efed cdef|"G"gea^g "E"e4|
+"A"abag "G"egab|"A"aega bagf|efed cdef|"E"ecdc "A"A4|
+
+%%newpage
+%%text Set 82 Continued
+X: 3
+T: Vladimir's Steamboat in D (R-163; \251Jay Ungar)
+M: C|
+L: 1/8
+R: reel
+K:DMIX %Transposed from AMIX
+|:"D"DFGA GFDF|GAGF DCA,D- |DFGA GF D2|"C/A"CB,CE DC A,2|
+"D"DFGA GFDF|GAcd cAGc|AGFA "C"GF D2|"C/A"CB,CE "D"D4:|
+| "D"dz dz dz dz|d2cd edcB|ABAG FGAB|"C"cAd^c "A"A4|
+"D"dz dz dz d2-|d2cd edcB|ABAG "C"FGAB|"A"AFGF "D"D4|
+| "D"dd- dd d2d2-|d2cd edcB|ABAG FGAB|"C"cAd^c "A"A4|
+"D"dedc "C"Acde|"D"dAcd edcB|ABAG FGAB|"A"AFGF "D"D4|
+
+%%vskip .2cm
+X:4
+T: Carpathian Tune (R-164 from String Beings)
+L:1/8
+K: Gm
+M: C|
+%%leftmargin 1.5cm
+%%rightmargin 1.5cm
+"Gm"GABc d2 d2|"A"^c2 c2 "D"d4|"Gm"BAG2 A2B2|"D"A8|"Gm"GABc d2 d2|"A"^c2 c2 "D"d4|"Gm"BAG2 "D"A2B2|G8:|
+|:"Cm"(3cdcG2 (3cdcG2|"Gm"(3BcBG2 (3BcBG2|"Cm"(3cdcG2 c2>d2|"Gm"BcAB "Gm/B"G4|
+"Cm"(3cdcG2 (3cdcG2|"Gm"(3BcBG2 B2c2|"D"d6 de|["Repeat" d2c2B2A2:|["Transition""D5"d2=e2f2g2||
+%%textfont       Times-Roman 12.0
+%%text In the transition, harmony drones D below A.  That's what the notation "D5" means.
+%%leftmargin 2.5cm
+%%rightmargin 2.5cm
+
+%%vskip .2cm
+X:5
+T: Kolomeyke (R-165)
+M: C|
+L:1/8
+K: Am % transposed from Dm
+|:"Am"a2 e4 e2|"Dm"d2 d2 "Am"e3 d|cBAB cBcd|"E"e4 e4|
+"Am"a2 e4 e2|"Dm"d2 d2 "Am"e3 d|"E" cedc BdcB|"Am"AEcB A4:|
+|:"E"B2 E2 e3B|"Am"dcBc dcBA|"E"^G2 AB E2 ^F^G|[1,3"Am"A^GAB cBcA:|[2,4"Am"AEcB A4:|]
+  
+%%pageheight 11.0in
+%%pagewidth 8.5in
+%%topmargin     0.40cm
+%%botmargin     0
+%%newpage
+%%topspace 0
+%%musicspace 0
+%%subtitlespace 0
+%%leftmargin     2.5cm
+%%rightmargin 2.5cm
+%%staffwidth     15.50cm
+%%pageheight 11.0in
+%%pagewidth 8.5in
+%%topmargin     0.40cm
+%%botmargin     0
+
+%%textfont       Times-Roman 10.0
+% ---------- set 83 ----------
+%%scale .65
+%%textfont       Times-Bold 18.0
+%%text Set 83
+%%textfont       Times-Roman 10.0
+
+X:1
+T:Le tourment (J-79)
+R:jig
+C:Jean-Paul Loyer èØÅ°è°Å© 1975
+D:From recording by J-P Loyer, Ojnab
+Z:Translated to abc by Debbie Knight
+Z:Chords by Bruce Rosen, after Pete Sutherland
+M:6/8
+K:G
+"G"G2G "D7"AGA |"G"Bdc BAG |"C"E2c cBc | "D"d3 def |
+"Em"g2g d2d |"C" ede "G/B"B2B |"Am"cBA "G"BAG |[1 "D"A2F DEF :|\
+[2 "D"DGF "G"G2F |
+"C"E3 EFG |"G/B (Bm)"DGF GAB |"Am"d3 dcB |cBA "G/B"BAG |
+"C"E3 EFG |"G/B (Bm)"DGF GAB |"C"d2B cBA|[1 "D7"DGF "G"G2F :|\
+[2 "D7"DGF "G"G3 |]
+
+X: 2
+T: The Robin's Nest/Paddy Fahy's (J-80)
+M: 6/8
+L: 1/8
+R: jig
+K: Cmaj
+"C"c3 "G"dcB|"C"cGE "C/E"CEG"F"|F3 "Dm"DEF|"G"GAB ced|
+"C"c3 "G"dcB|"C"cGE "C/E"CEG|"F"F3 "G"DGF|"C"ECC C3 :|
+|:"C"c3 "C/G"g^fg|"C"ea^f "C/E"gec|"Dm"A2 f fef|Adf "G"afd|
+"C"c3 "C/G"g^fg| "C"ea^f "C/E"g2 a|"C"gec "G"fdB|"C"cGE C3 :|
+
+X: 3
+T: The Reverend Brother's Jig/The Monk's (J-81)
+M: 6/8
+L: 1/8
+R: jig
+K: Ador
+|:"Am"ABA c2e|dcd ege|ABA c2e|"G"dcA AGE|
+"Am"ABA c2e|dcd ege|a3 ged|"G"cAG "Am"A3:|
+|:"Am"eaa aba|"G"gef ged|"Am"eaa aba|"G"ged cAA|
+"Am"eaa aba|"G"gef g3|"Am"a3 ged|"G"cAG "Am"A3:||
+
+%%newpage
+X: 4
+T: The Reverend Brother's, lower octave
+M: 6/8
+L: 1/8
+R: jig
+K:ADOR %Transposed from DDOR
+|:"Am"A,B,A, C2E|DCD EGE|A,B,A, C2E|"G"DCA, A,G,B,|
+"Am"A,B,A, C2E|DCD EGE|A3 GED|"G"CA,G, "Am"A,3:|
+|:"Am"EAA ABA|"G"GEF GED|"Am"EAA ABA|"G"GED CA,A,|
+"Am"EAA ABA|"G"GEF G3|"Am"A3 GED|"G"CA,G, "Am"A,3:||
+
+X: 5
+T: The Reverend Brother's Harmony.  
+M: 6/8
+L: 1/8
+R: jig
+K:EDOR %Transposed from ADOR
+|:"Am"EFE G2B|AGA BdB|EFE G2B|"G"AGE EDB,|
+"Am"EFE G2B|AGA BdB|e3 dBA|"G"GED "Am"E3:|
+|:"Am"Bee efe|"G"dBc dBA|"Am"Bee efe|"G"dBA GEE|
+"Am"Bee efe|"G"dBc d3|"Am"e3 dBA|"G"GED "Am"E3:||
+%%text This sounds weirdly exciting if played occasionally!
+%%text But it just sounds weird if you play it too much, so wait for a sign from Debby.
+%%text It is just transposed up a fifth from the low-octave variant.
+
+%%newpage
+%%topspace 0
+%%musicspace 0
+%%subtitlespace 0
+%%leftmargin     2.5cm
+%%rightmargin 2.5cm
+%%staffwidth     15.50cm
+%%textfont       Times-Roman 10.0
+%%textfont       Times-Roman 10.0
+% ---------- set 84 ----------
+%%scale .55
+% The Great Cape Breton Set
+%%textfont       Times-Bold 18.0
+%%text Set 84 The Great Cape Breton Set!
+%%textfont       Times-Roman 10.0
+%%pageheight 11.0in
+X: 1
+T: Miss Susan Cooper (R-96 Ronnie Cooper)
+R: reel
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: (3ABc \
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde "Bm"fa^ga | "Em"=g2fd "A7"eAce |
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde fafd | "A7"eAce "D"d2 :|
+|: dc \
+| "Bm"Bcde fBBc | def^g "E7"a2gf | "A"eAce a2^ga | "Em"=g2fd "A7"eAce |
+| "D"dfed "G"B2dB | "D"A2FA DAFA | "D"ABde fafd | "A7"eAce "D"d2 :|
+
+X: 2
+T: Culburnie Cottage (R-166 \251Alasdair Fraser)
+N: (Ask permission)
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: fe | "D"d2AF DFAF | "G"GDGA "Em"B2cB | "D"Aa^ga =gfed | "A7"ceAc egfe | "D"d2AF DFAF |
+| "G"GDGA "Em"B2cB | "D"Aa^ga "A7"=gecA | "D"d4 d2 :: fg | "D"a2fa "A7"gece | "D"dAFA d2cd |
+| "A7"ecAc eAce | "D"fdba "A7"agfg | "D"a2fa "A7"gece | "Bm"dAFA "G"d2cd | "A7"ea^ga =gecA | "D"d4 d2 :|
+
+X: 3
+T:Rannie MacLellan's Reel (R-167; \251Brenda Stubbert)
+R:Reel
+S:http://www.cranfordpub.com
+D:In Jig Time,1994; Fiddler's Choice, Jerry Holland; Natalie MacMaster Live
+B:Brenda Stubbert's Collection
+L:1/8
+M:C|
+K:D
+|:fe|"D"dBAd BAFD|"Emin"E2 FE "G"DB,B,D|"D"A,B,DE F2 ED| "Emin"EBBA "A"B3 c|
+"D"defe dBAF|"Emin"E2 FE "G"DB,B,D|"D"A,B,DE F2 dB|"A"AFEF "D"D2:|
+|:FG| "D"Addc d2 cA| "Emin"Beed e2 de |"D"f2 af egfe|"G"dBAd "A"FEEF|
+"D"Dddc d2 cA|"Emin"Beed e2 de|"D"f2 af "G"egfe|"A"dBAF "D"D2:|
+
+X: 4
+T: Brenda Stubbert's (R-121, Jerry Holland)
+I: Brenda Stubbert's	R-121	A Dor	reel
+M: C|
+R: Reel
+K: ADor
+%%textfont Times-Bold 18.0
+%%text Play lower octave occasionally for dramatic effect.  Omit pickup on transition.
+%%staves (1 2)
+V:1 up
+B|"Am"A/A/A BA GAAB| A/A/A BA edde| "G"G/G/G BA BGGB| "F"[c2G2]BA "G"BGGB|
+  "Am"A/A/A BA GAAB| A/A/A BA edda| "G"gedB GABd| e2dB "Am"eAA:|
+V:2 
+B,|"Am"A,/2A,/2A, B,A, G,A,A,B,| A,/2A,/2A, B,A, EDDE| "G"G,/2G,/2G, B,A, B,G,G,B,| "F"[C2G,2]B,A, "G"B,G,G,B,|
+   "Am"A,/2A,/2A, B,A, G,A,A,B,| A,/2A,/2A, B,A, EDDA| "G"GEDB, G,A,B,D| E2DB, "Am"EA,A,:|
+% text B part on next page!!!
+%%newpage
+%%scale .55
+V:1 up
+B|: "Am"A/A/A a2 A/A/A g2| Aage ageg| "G"G/G/G BA BGGB| "F"[c2G2]BA "G"BGGB|
+   [1"Am"A/A/A a2 A/A/A g2| Aage agea| "G"gedB GABd| e2dB "Am"eAAB:|2
+   "Am"A/A/A BA GAAB| A/A/A BA edda| "G"gedB GABd| e2dB "Am"eAA|]
+V:2
+B,|: "Am"A,/2A,/2A, A2 A,/2A,/2A, G2| A,AGE AGEG| "G"G,/2G,/2G, B,A, B,G,G,B,| "F"[C2G,2]B,A, "G"B,G,G,B,|
+    [1"Am"A,/2A,/2A, A2 A,/2A,/2A, G2| A,AGE AGEA| "G"GEDB, G,A,B,D| E2DB, "Am"EA,A,B,:|2
+    "Am"A,/2A,/2A, B,A, G,A,A,B,| A,/2A,/2A, B,A, EDDA| "G"GEDB, G,A,B,D| E2DB, "Am"EA,A,|]
+
+X: 5
+T: Frank's (R-168; \251John McCusker)
+M: 4/4
+L: 1/8
+R: reel
+K: Amaj
+|"A"Ac BA "D"F2 AF|"A"EF AB "A/C#"cA Bc |"D"d3 f "A/C#"ec Ae |"D"fa ec "E7"(3Bcd cB |
+"A"Ac BA "D"F2 AF|"A"EF AB cA Bc |"D"d3 f "A"ec Ac |"E7"BA GB "A"A2 (3EFG |
+"A"Ac BA "D"F2 AF|"A"EF AB cA Bc |"Bm"d2 df "A/C#"ec Ae |"D"fa ec "E7"(3Bcd cB|
+"A"|Ac BA "D"EF AF |"A/C#"EF AB "A"cA Bc |"D"df (3fff "A"ec Ac|"E7"BA GB "A"Ae fg||
+|"A"aA Ag AA fA |ef fe cA Bc |"Bm7"d3 f "A/C#"ec Ac |"D"Bc de "E7"fe (3efg |
+"A"aA Ag AA fA |ef fe cA Bc |"D"df (3fff "A"ec Ac |"E7"BA GB "A"Ae fg |
+"A"aA Ag AA fA |e f2 e cA Bc |"Bm7"d3 f "A/C#"eA ce |"D"fa ec "E7"(3Bcd cB|
+|"A"Ac BA "D"F3 A |"A/C#"EF AB "A"cA Bc |"D"d3 f "A"ec Ac |"E7"BA GB "A"A4 ||
+
+X: 6
+T: Hull's (R-169; \251John Morris Rankin)
+M: 4/4
+L: 1/8
+R: reel
+F:
+K: Emaj
+ec|:"E"BE E/E/E B2 Ac|"E"BE E/E/E "A"cBce|"E"BE E/E/E B2 AB|"A"cBce "B7"fefg|
+"E"BE E/E/E B2 Ac|"E"BE E/E/E "A"cBce|"F#min"fgfe c2Bc|"A"efec "B7"Be:|
+ef|: "E"gB B/B/B "E/B"g2fg|"A"fc c/c/c c2Bc|"F#min"fc c/c/c c2Bc|"B7"eB B/B/B Bcef|
+"E"gB B/B/B "E/B"g2fg|"A"fc c/c/c c2Bc|"F#min"fgfe c2Bc|"A"efec "B7"Be :|"Ending""E"e[cf]|[B2e2g2]||
+
+%%newpage
+%%topspace 0
+%%musicspace 0
+%%subtitlespace 0
+%%leftmargin     2.5cm
+%%rightmargin 2.5cm
+%%staffwidth     15.50cm
+%%pageheight 11.0in
+%%pagewidth 8.5in
+%%topmargin     0.40cm
+%%botmargin     0
+%%scale .75
+%%textfont       Times-Bold 18.0
+%%text Set 85
+% ---------- set 85 ----------
+% Roaring Jelly (D) / Kesh Jig (G) / Morrison's (E Dor) / Stan Chapman (A)
+%%textfont       Times-Roman 10.0
+X: 1
+T: Roaring Jelly (J-2; Irish, New England)
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: D
+A,| "D"DED F2A| d2f "A"ecA| "G"G2B "D"F2A| "A"E2F GFE|
+    "D"DED F2A| d2f "A"ecA| "G"Bgf "A"edc| "D"d3- d2 :|
+\
+a| "D"a2f d2f| A2a agf| "A"g2e c2e| A2g gfe|
+   "D"f2 d "A"g2 e| "D"a2 f "G"bag| "D"fed "A"edc| "D"d3- d2 a|
+   "D"agf fed| Adf agf| "A"gfe ecA| Ace gfe|
+   "D"fed "A"gfe| "D"agf "G"bag| "D"fed "A"edc| "D"d3- d2 |]
+
+%%vskip .2cm
+X:2
+T: Kesh Jig (J-18)
+M: 6/8
+R: jig
+K: G
+D| "G"G3 GAB| "D"ABA ABd| "G"edd gdd| edB "D"dBA|
+   "G"G3 GAB| "D"ABA ABd| "G"edd gdB| "D"AGF "G"G2 :|
+|:\
+A| "G"B3 dBd| "C"ege "G"dBG| BAB dBG| "Am"ABA AGA|
+   "G"B3 dBd| "C"ege "G"dBd| "C"g3 "D"aga| "G"bgg g2 :|
+
+%%newpage
+%%text Set 85, continued
+X: 3
+T: Stan Chapman (J-62; \251Jerry Holland))
+I: Stan Chapman	J-62	A	jig
+R: jig
+M: 6/8
+K: A
+F| "A"E3 EFA| "E"B3 Bce| "D"fea "F#m"fec| "Bm"ecA "E"BAF|
+   "A"E3 EFA| "E"B3 Bce| "D"fea "E"fec| "A"ecA A2 :|
+|:\
+f| "A"e3 ecA| "D"f3 fga| "A"fec BAB| "F#m"cAF F2f|
+[1 "A"e3 ecA| "D"f3 fga| fec "E"BAB| "A"cAA A2 :|
+[2 "A"ecA ecA| "D"fdf fga| fec "E"BAB| "A"cAA A2 |]
+
+%%vskip .2cm
+X: 4
+T: Morrison's Jig (J-26)
+I: Morrison's Jig	J-26	E Dor	jig
+M: 6/8
+R: jig
+K: Edor
+"Em"E3 BEB| EBE "D"AFD| "Em"E3 BEB| "D"dcB AGF|
+"Em"E3 BEB| EBE "D"AFD| "G"G2G FGA| "D"dAG FED :|
+\
+"Em"Bee fee| aee "D"fed| "Em"Bee fee| "D"fag fed|
+"Em"Bee fee| bee "D"fed| edc d2A| "B7"BAG F3|
+"Em"Bee fee| aee "D"fed| "Em"Bee fee| "D"faf def|
+"G"g2g gfe| def g2d| "D"edc d2A| "B7"BAG F3|] "Em - go out on"HE4|]
+%%text 4/26/06
+
+%%pageheight 11.0in
+%%pagewidth 8.5in
+%%topmargin     0.40cm
+%%botmargin     0
+%%newpage
+%%topspace 0
+%%musicspace 0
+%%subtitlespace 0
+%%leftmargin     2.5cm
+%%rightmargin 2.5cm
+%%staffwidth     15.50cm
+%%pageheight 11.0in
+%%pagewidth 8.5in
+%%topmargin     0.40cm
+%%botmargin     0
+%%scale .65
+
+%%textfont       Times-Bold 18.0
+%%text Set 86
+%%textfont       Times-Roman 10.0
+X:1
+T: Needlecase (R-170)
+M: C
+L: 1/8
+R: reel
+K: D
+(3efg|"D"aAgA fedf|"G"fg2f g2(3efg|"D"aAgA fedA|"A" BABd A2(3efg |
+"D"aAgA fedf|"G"fg2f g2A2- |"A"ABcd edcA|BABc "D"d2:|
+FE|:"D"D2d2 dBA2|"G"B3=c B4 |"D"A2AB AFDF|"A"E3F E2FE|
+"D"DFAB dBA2|"G"B3=c B2A2- |"A"ABcd edcA|BABc "D"d2:|
+
+X: 2
+T: North Carolina Breakdown (R-150 Arthur L. Smith \2511937)
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+D2| \
+"G"G2G2 EDEF| GFGA Bdef| "C"g2f2 edef| "D"gage dBAF|
+"G"G2G2 EDEF| GFGA Bdef| "C"g2f2 edBA| "D"dBAF "G"G2 :|
+|: d2| \
+"C"[e2g2][e2-g2-] [e2g2][e2-g2-]| [e2g2]g2 gag2| \
+   "G"[d2g2][d2-g2-] [d2g2][d2-g2-]| [d2g2][dg][dg] [B2g2][d2g2]|
+"C"[e4g4] g2b2-| b2b2 agef| "G"gage dBAB| "D"dBAF "G"G2 :|
+
+
+X: 3
+T: Froggie on the Carport (R-171)
+M: C
+L: 1/8
+R: reel
+K: A
+cB|"A"Aceg aga2|Aceg aga2|"G"edef =gfgf|edef =gedB|
+"A"Aceg aga2 |Aceg aga2 |"E"efed cAB2|"A"A4 A2:|
+cB|:"A"ABcd efec|"D"d3e d2dB |"G"=GAB=c dedB|"C"=c3d c2cB|
+"A"ABcd ecAe|a2g2 "G"=g4 |"E"efed cAB2 |"A"A4 A2:||
+%%text Also called Doggie on the Carpet or Doggie on the Carport.

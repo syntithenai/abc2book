@@ -1,0 +1,23 @@
+X: 3005
+T: MISS CAMPBELL MONZIES
+Q:"Strathspey."
+R: Strathspey.
+%R:strathspey
+B: James Kerr "Merry Melodies" v.3 p.3 #5
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+%%slurgraces yes
+%%graceslurs yes
+M: C
+L: 1/16
+K: D
+uA2 |\
+AA3 A3F A4 (d3e) | {de}f4 (e3d) eE3E3A |\
+AA3 A3F B4 (b3a) | fa3 e3f dD3D3A |\
+AA3 A3F A4 (d3e) | {de}f4 (e3d) eE3E3A |
+AA3 A3F B4 (b3a) | fa3 e3f dD3 D2 |]\
+f2 |\
+a3ba3f g3ag3e | (fga2) d3f e3A A3d |\
+BB3 B3A B4 (b3a) |
+fa3 e3f | dD3D3f |\
+a3ba3f g3ag3e | (fga2) d3f eA3 A3d |\
+B3AB3d B3ba3g | fa3 e3f dD3 D2 |]

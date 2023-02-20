@@ -1,0 +1,32 @@
+X: 1
+T: Duke of York's Delight
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.90
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The key signature lacks the Eb, but the E sharp (!) in bar 4 says it should be there; this is a normal B-flat major tune.
+M: 6/4
+L: 1/4
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g |\
+fd2 B>AB | cA2 F2g/a/ | b>ag f>ed | cd=e f2g |\
+fd2 B>AB | cA2 F>GA | BG2 cA2 | FGA B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the presence, then to your we. Lead up forward and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. cu. cast off into the 2 cu. places, then turn your own half a-turn, the 2. cu. standing still, then
+%% the 1. man go round the 2. man, and the 1. wo. round the 2. wo. Do this to the end.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% Then the 1. and 2. cu. go all round in a ring half way, then each man turn his own wo. half way,
+%% the 2. cu. being in the 1. cu. place, and the 1. cu. in the 2. cu. place, the uppermost cu. cast off, and
+%% the other cu. following them till you come as you were.  Do this to the lowermost.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

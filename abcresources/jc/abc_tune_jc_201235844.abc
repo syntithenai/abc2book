@@ -1,0 +1,18 @@
+X: 21412
+T: I DREAM'D I LAY WHERE FLOWERS WERE SPRINGING
+Q: "Very slow."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.141 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Final grace note in bar 12 moved to after the bar line, for ABC software that doesn't understand final grace notes.
+M: 3/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D4 |\
+F2G2 A4 A4 | B2(AG) A4 D4 | F3G A4 (d2c2) | B2(AG) {G2}F8 |\
+F3G A4 A4 | B2(AG) A4 D4 | F3G A4 (d2c2) | B2(AG) F8 |]
+c2(de) f4 e4 | d3c d4 (cA3) | c2(de) f4 (e2fg) |(fe)(dc) d4 |{e}\
+f3e d4 (d2c2) | B2(AG) A4 D4 | F3G A4 (d2c2) | B2(AG) F8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

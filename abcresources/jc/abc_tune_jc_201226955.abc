@@ -1,0 +1,17 @@
+X: 10532
+T: FAINT AND WEARILY
+Q: "Allegretto"
+%R: march, reel
+B: "Edinburgh Repository of Music" v.1 p.53 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The single final segno is a bit odd, especially with the D.C. also at the end.
+M: 2/4
+L: 1/8
+K: C
+|:\
+c3d/c/ | BGAB | c2e2 | gfdB |\
+c3d/c/ | BGAB | .c2.e2 | .c2 "_Fine."z2 :|
+|:\
+gfd2 | gec2 | defe | e2d2 |\
+gfd2 | gec2 | defe | e2"_D.C."d2 !segno!:|

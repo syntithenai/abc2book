@@ -1,0 +1,12 @@
+X:1
+T:Four Little Girls
+C:Contra Dan's version
+R:reel
+M:4/4
+L:1/8
+K:A
+V:2 clef=alto middle=C
+"A" C2CC (B,A,)A,A, | C2E2 (FE)EE | C2E2 E2CC | "E" B,2A,2 "A" C4 |
+"A" C2CC (B,A,)A,A, | C2E2 (FE)EE | C2E2 E2CC | "E" B,2A,2 "A" A,4 ::
+"A" A2AA (AE)EE | "G" =G2GG G2E2 | "A" C2EE E2C2 | "E" B,2A,2 "A" C4 |
+"D" A2AA (AE)EE | "G" =G2GG G2E2 | "A" C2EC E2C2 | "E" B,2A,2 "A" A,4 :|

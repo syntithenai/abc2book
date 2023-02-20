@@ -1,0 +1,27 @@
+X: 452
+T: MISS BISSET. LOGIERAIT
+C: M. Mc DONALD
+R: Reel
+B: Glen Collection p.45 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Em
+%
+V: 1
+|:\
+egfd egB2  | dBAG FAFD | egfd egBd | AFdF E/E/E E :|
+GBEB GBe^c | dBAG FAFD | GBEB GBeB | AFdF E/E/E E2 |
+GBEB GBe^c | dBAG FAFD | GBEB GBeg | fdgf e/e/e e2 |]
+%
+V: 2
+|:\
+e2[b2g2] B2[b2g2] | d2[a2f2] A2[a2f2] |\
+e2[b2g2] B2[b2g2] | d2[f2d2] [g2e2][ge] :|
+e2[b2g2] e2A2 | d2[a2f2] A2[a2f2] |\
+e2[b2g2] B2[b2g2] | d2[f2d2] [g2e2][g2e2] |
+e2[b2g2] e2A2 | d2[a2f2] A2[a2f2] |\
+e2[b2g2] B2[b2g2] | d2^d2 e2[b2g2e2] |]

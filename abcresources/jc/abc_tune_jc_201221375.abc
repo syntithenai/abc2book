@@ -1,0 +1,19 @@
+X: 47
+T: Salley in our Alley
+%R: air, waltz
+B: Urbani & Liston "A Selection of Scotch, English Irish, and Foreign Airs", Edinburgh 1800, p.18 #3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-urbani1800
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Adjusted final rests to fill the measure. There are 17 bars, but the tune is really just 16 bars long, plus a "pause".
+M: 3/4
+L: 1/16
+K: D
+z4 z2A2A2 d2 |\
+d4 c2d2 ef {a}g{f}e | d4 c2d2B2A2 |\
+A6 (3GFE D2 d2 | d2z2 z2A2A2 d2 |\
+d4 c2d2 ef {a}g{f}e | d4 c2 dd B2A2 |
+A6 (3GFE D2 d2 | d2z2 z2A2A2F2 |\
+A6 =c2B2G2 | B6 f2g2f2 |\
+e6 d2c2e2- | e2z2 z2G2F2E2 |\
+D6 f2g2f2 | {f}e6 ff a2f2 |\
+d6 cB A2d2- | d4z4z4 |]

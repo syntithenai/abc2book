@@ -1,0 +1,13 @@
+X: 490
+T: Ti Momo, Ti Devojko
+O: Serbia
+W: From Deborah Jones' VIFD Book I (Serbian Medley)
+M: 2/4
+L: 1/8
+Q: 1/4=108
+K: Em^A
+%%MIDI program 21 accordian
+"Em" B4           | A2G2       |A2 G/F/E      |[1"B7" F2G z :|[2 F2 Fz     |:
+"Em"E4            | E2 FG      |"F#7" A2 G/F/E|"B7"F2Gz     :|[2 "F#7"AG FE|"B"F2 Fz|:
+"B" F3/2E/ F/G/B  |F3/2E/ F/G/B|[1F3/2E/ F/G/B|F3/2E/ ^DE   :|\
+[2 "F#7"F3/2E/ ^DE|"B"Fz Fz    |

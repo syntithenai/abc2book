@@ -1,0 +1,29 @@
+X: 1331
+T: BRAINARD'S WALTZ
+C: J. H. Seipp
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.133 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Bb
+%
+V: 1
+.d2 |\
+.c2.d2.e2 | (g2f2).d2 | (f2e2).c2 | (g2f2).d2 |\
+.c2.d2.e2 | (g2f2).d2 | (f2e2).c2 | B4 :|\
+|: c2 |\
+.c2.d2.=e2 | (f2c2).a2 |
+(b2c2).=e2 | f(=egf_e)d |\
+.c2.d2.e2 | (g2f2).d2 | (f2e2).c2 | (g2f2).d2 |\
+.c2.d2.e2 | (g2f2).d2 | (f2e2).c2 | B4 H:|
+%
+V: 2
+.B2 |\
+.A2.B2.c2 | (e2d2).B2 | (d2c2).A2 | (e2d2).B2 |\
+.A2.B2.c2 | (e2d2).B2 | (d2c2).A2 | B4 :|\
+|: c2 |\
+.c2.=B2._B2 | (A2c2).F2 |
+(G2c2).B2 | A2z2z2 |\
+.A2.B2.c2 | (e2d2).B2 | (d2c2).A2 | (e2d2).B2 |\
+.A2.B2.c2 | (e2d2).B2 | (d2c2).A2 | B4 H:|

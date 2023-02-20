@@ -1,0 +1,41 @@
+
+X: 1
+T: Ozhidanie
+T: Expectation Waltz
+T: Arkadi's Vals
+C: G.L.Kitler (ca.1900)
+O: Russia
+Z: John Chambers <jc:trillian.mit.edu>
+R: Waltz
+M: 3/4
+L: 1/4
+K: Dm
+|: z A || "Dm"B2 A | d2 e | f3- | f d e | f d e | f d f | "A7"e3- | e z A | B2 A | e2 f |
+| g3- | g e f | g e f | g a b | "Dm"a3- | a z A | "Dm"B2 A | d2 e | f3- | f z d/e/ |
+| f z e/f/ | "C7"g z f/g/ | "F"a3- | a b a | "A7"g3- | g a g | "Dm"f3- | f g f | "A7"e2 b | a2 ^c | "Dm"d3- | Hd :|
+|: a f || "Dm"a3- | a a f | a3- | a b g | "Gm"b3- | b b g | b3- | b e f | "A7"g3- | g f g |
+| "Dm"a3- | a g f | "A7"e> ab/a/ | ^c> ab/a/ | "Dm"d3- | d :| \
+|: d' c' || "C7"c'3- | c' b g |"F"a> a a | z _e' d' |
+|"D7"d'3- | d' c' a | "Gm"b> b b | z g a "C7"b3- | b g d' | "F"c'3- | c' a f | "C7"c> eg/b/ | d'2 c' | "F"f3- | "d.C."f :|
+
+%%sep 1 1 500
+
+X: 1
+T: Ozhidanie
+T: Expectation Waltz
+T: Arkadi's Vals
+C: G.L.Kitler (ca.1900)
+O: Russia
+Z: John Chambers <jc:trillian.mit.edu>
+R: Waltz
+M: 3/4
+L: 1/4
+K: Em
+|: z B || "Em"c2 B | e2 f | g3- | g e f | g e f | g e g | "B7"f3- | f z B | c2 B | f2 g |
+| a3- | a f g | a f g | a b c' | "Em"b3- | b z B | "Em"c2 B | e2 f | g3- | g z e/f/ |
+| g z f/g/ | "D7"a z g/a/ | "G"b3- | b c' b | "B7"a3- | a b a | "Em"g3- | g a g | "B7"f2 c' | b2 ^d | "Em"e3- | He :|
+|: b g || "Em"b3- | b b g | b3- | b c' a | "Am"c'3- | c' c' a | c'3- | c' f g | "B7"a3- | a g a |
+| "Em"b3- | b a g | "B7"f> bc'/b/ | ^d> bc'/b/ | "Em"e3- | e :| \
+|: e' d' || "D7"d'3- | d' c' a |"G"b> b b | z =f' e' |
+|"E7"e'3- | e' d' b | "Am"c'> c' c' | z a b "D7"c'3- | c' a e' | "G"d'3- | d' b g | "D7"d> fa/c'/ | e'2 d' | "G"g3- | "d.C."g :|
+

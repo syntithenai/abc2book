@@ -1,0 +1,19 @@
+X: 20704
+T: POLISH DANCE
+%R: march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.70 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+G2B2B2d2 | d2g2 g2(fg) | a2g2e2c2 | e2d2 dcBA |\
+G2B2B2d2 | d2g2 {a}g2(fg) | e2d2d2F2 | A2G2G2 :|
+|: AA |\
+A2dd d2AA | A2aa a2f2 | {a}g2f2 g2e2 | fgag f2AA |\
+A2dd d2AA | A2aa a2f2 | {a}g2f2g2e2 |[1 d6 :|[2 dcde dcBA |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

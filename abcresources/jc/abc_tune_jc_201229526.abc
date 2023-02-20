@@ -1,0 +1,55 @@
+%%text RJ Set 124 NEFFA 2015
+
+
+X: 1
+T: Scotch Mary   [D]
+O: trad Irish
+M: C|
+L: 1/8
+R: reel
+K: Dmix
+|:\
+"D"FGAG FGAG | FDA,B, "C"CDEG |\
+"D"FGAG FGAG | "C"FDEF "D"D3E |\
+"D"FGAG FGAG | FDA,B, "C"CDEG |
+"D"FGAB "C"cBAG |[1 "C"FDEF "D"D3E :|[2 "C"FDEF "D"DABc |:\
+"D"d3c ABAG | FGAB "C"c2Bc | "D"Addc "C"ABAG |
+"D"FDEF DABc | "D"d3c ABAG | FGAB "C"cABc |\
+"D"dBcA BGAG |[1 "C"FDEF "D"DABc :|[2 "C"FDEF "D"D4 |]
+
+
+X: 2
+T: Flying Home to Shelley
+C: Paul Gitlitz
+M: 4/4
+L: 1/8
+R: reel
+K: G
+M: C|
+"^A"|:\
+"G"DGdG "^>"cGBG | "Am"DGcG "^>"BGAG |\
+"Bm"DGAG BGAG | "C" DEGD "D"EDB,C ||\
+"G"DGdG cGBG | "Am"DGcG BGAG |
+"Bm"DGAG "Am"BGAG |[1 "D"DEFD "G"G4 :|[2 "D"DEFD "G"GABc "^B"|:\
+"G"d3 B AGAB | "Am"c3 B AG E2 | "C"e3 d "Bm"BA G2 |
+"Am"ABdA "D"BAGB || "Em"d3 B AGAB |\
+"Am"cGBG AG E2 | "C"e3 d "Am" BA G2 |\
+[1 "D"ABAF "G"GABc :|[2 "D"ABAF "G"G4 |]
+
+
+X: 3
+T: A Lovely Madness
+C: \251Beoga
+R: reel
+M: C|
+L: 1/8
+K: Amin
+"^A"|:\
+"Am"E2 (3EEE "Dm"DEFD | "Am"EDCE "Dm"DCB,C |\
+"Am"A,E (3EEE "Dm"DEFD | "Em"EAA^G AEAB ||\
+"Am"c3 A "Am/C#"BAGB | "Am/D"AE (3EEE "Dm/D#"FD (3DDD |
+"Em"DEEF EDB,D |[1 "Am/E-G"C2B,C "Am"A,4 :|[2 "Am/E-G"C2B,C "G7"A,3 B, "^B"|:\
+"C"C2 EC GCEC | "Dm"D2 FD ADFD | "C/E"E2 GE cEGE |
+"F"F2 AF dFAF || "Am"e2-ed "Am/G"cBAG | "Am/F"AE (3EEE "Dm"FD (3DDD | "Em"DEEF EDB,D- |\
+[1 "Em/G"DCB,C "G7"A,3 B, :|[2 "Em/G"DCB,C "A"A,4 |]
+

@@ -1,0 +1,30 @@
+X:369
+T:Joy
+C:Dennis Salter
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=112
+%%MIDI chordname dim 0 3 6 9
+K:G
+[| d | "G"zGG3/A/ | "G"Bd3 | "C"z/ed/ed | "D7"BA3 |\
+"G"GG2A | "G"B2d2 | "C"e3/d/e/f/g | "D7"a3b |
+"G"zGG3/A/ | "G"Bd3 | "C"z/ed/eg | "D7"ba2b |\
+"C"g2g2 | "G"edeg | "A7"z/b3/- "D7"b/g/a | "G"g3f |
+"Em"e2e3/f/ | "Em"ge3 | "Em"e3/d/BA | "Em"Be3 |\
+"D"Add3/e/ | "D"fd2^d | "Em"eg "A7"fe | "D7"dcBA |
+"G"zGG3/A/ | "G"Bd3 | "C"e3/d/e/f/g/a/ | "D7"ba3 |\
+"G"b2b2 | "Cm"aga^a | "D7"[bd'][^a^c'][=a=c'][g-b-] | "G"[gb]z/d/ e/gA/ |]
+N:Replace by blank line and X field
+T:There's one on the way
+L:1/4
+M:2/2
+K:D
+[| A^AG | "D"FF3/=F/ | "D"^FDEF | "Em"zGG3/F/ | "Em"G4 |\
+"A7"zGG3/F/ | "A7"GEFG | "D"zAA3/^G/ | "D"A4 |
+"G"zBB^A | "G"B3/A/GB | "D"zAA^G | "D"A4 |\
+"E7"E3/F/^GA | "E7"Bcd^d | "Em"e/f/e/d/ "E7"cB | "A7"A/B/A/G/FE |
+"D"zFF3/=F/ | "D"^FDEF | "Em"zGG3/F/ | "Em"G4 |\
+"E7"z^GG3/=G/ | "E7"^GEFG | "A7"z/A^G/AB | "A7"c4 |
+"D"zff=f | "D7"^fe/dc/=c | "G"z B/>A/ B/>d/ e | "G#dim"=f4 |\
+"D"AB/dB/d | "Em"d/B/ d/ "A7"ed/e | "D"d4- | "D"d |]

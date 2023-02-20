@@ -1,0 +1,20 @@
+X: 20682
+T: the Krakoviak Dance
+C: Bochsa.
+%R: krakowiak, polka
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.68 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+N: From the opera "Beniowsky" by Robert Nicolas Charles Bochsa.
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Added flag to 1st note in bar 2.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+F2(A2c2e2) | d2"^>"B4B2 | d2 (3(ded) c2A2 | G2"^>"B4G2 |\
+F2(A2c2e2) | d2"^>"B4B2 | d2 (3(ded) c2A2 | B2G2G2 :|
+|: G2 |\
+c2e2g2e2 | d2"^>"B4B2 | d2 (3(ded) c2A2 | B2"_>"G4G2 |\
+c2e2g2e2 | d2"^>"B4B2 | d2 (3(ded) c2A2 | B2G2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

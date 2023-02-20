@@ -1,0 +1,143 @@
+X: 1
+T: Youkali
+R: tango habanera
+C: Music: Kurt Weill
+C: Lyrics: Roger Fernay
+N: Written in 1934 while Weill was exiled in France, as incidental music
+N: for the play Marie Galante.  The lyrics were added some time later.
+%%topmargin 0.7cm
+%%staffsep 30
+%%vocalspace 30
+M: 2/4
+L: 1/16
+K: Gm
+|: d ^cdBA | "Gm"G4 G4
+w: 1.~C'est presqu' au bout du mon-de,
+w: 2.~Et la vie nous en-tra\^i-ne,
+|  "A"z3A BAG^F | "Gm"G4 G4
+w: ma bar-que va-ga-bon-de,
+w: las-san-te, quo-ti-dien-ne,
+|  "A"z3A BAG^F | "Gm"G4 G4
+w: er-rant au-gr\'e de l'on-de,
+w: mais la pauvre \^ame hu-mai-ne,
+|  "D7"z3^F GABc | "Gm"d8
+w: m'y con-dui-sit un jour.
+w: cher-chant par-tout l'ou-bli.
+|  z3 d fdBG | "Cm"(f3e) e4-
+w: L'\^ile est tou-te pe-ti-*te,
+w: A, pour quit-ter la ter-*re,
+|  "F7"e3c ecAF | "Bb"(e3d) d4-
+w: *mais la f\'ee qui l'ha-bi-*te
+w: *su trou-ver le mys-t\`e-*re
+|  "Gm"d3B dBGE | "Cm"(d3c) c4-
+w: *gen-ti-ment nous in-vi-*te
+w: *o\`u nos r\^e-ves se ter-*rent
+|  c3G ^FGAB | "D7"c8- | c6 ^c2 |[|
+w: *\`a en fai-re le tour.* You-
+w: *en quel-que You-ka-li.* You-
+|  "Gm"d4 d4- | d3d cBAG
+w: ka-li,* c'est le pa-ys de
+|  "Cm"A3B A4- | A6 A2
+w: nos d\'e-sirs.* You-
+|  "Cm"[g4e4] [g4-e4-]
+w: ka-li,
+|  [g3e3][ge] [fd][ec][dB][cA] | "Gm"[d3B3][ec] [d4-B4-]
+w: *c'est le bon-heur, c'est le plai-sir.
+|  [d6B6] d2 | "D7"[a4c4] [a4-c4-]
+w: *You-ka-li,
+|  [ac][gB][gB][^fA] [fA][eG][eG][d^F] | "Cm"[cG]B2A [G4-E4] | [G4E4] [g4e4]
+w: *c'est la terre o\`u l'on quit-te tous les sou-cis.* C'est,
+|  "Gm"[eB][d2B][^cB] [d2B2][d2B2] | [eB][d2B][^cB] [d2B2][d2B2] | "D7"[eA][d2A2][^cA] [d4-A4-]
+w: dans no-tre nuit, comme une \'e-clair-cie, l'\'e-toi-le qu'on suit.
+|  [d4A4] [b4d4] | "Gm"[a3c3][gB] [g4B4]
+w: *C'est You-ka-li!
+|  z4 z2G2 | "Eb"[g4e4] [g4-e4-] | [ge][ge][af][bg] [c'a][bg][af][ge]
+w: You-ka-li,* c'est le res-pect de tous les
+|  "Bb"[ge][f2d2][=e^c] [f4-d4-] | [f6d6] F2
+w: voeux \'e-chan-g\'es.* You-
+|  "Cm"[e4c4] [e4-c4-] | [ec][ec][fd][ge] [af][ge][fd][ec]
+w: ka-li,* c'est le pa-ys des beaux a-
+|  "Gm"[ec][d2B2][^cA] [d4-B4-] | [d4B4] [g4d4]
+w: mours par-ta-g\'es.* C'est
+|  "Cm"[d3B3][cG] [c4-G4-] | [c2G2][cA][dB] [ec][ec][dB][cA]
+w: l'es-p\'e-ran-ce qui est au coeur de tous
+|  "Gm"[e3c3][dB] [d4-B4-] | [d4B4] [g4d4] | "Cm"[d3B3][cG] [c4-G4-]
+w: les hu-mains,* la d\'e-li-vran-
+|  [c2G2][cA][dB] [ec][ec][dB][cA] | "D7"[e3c3][dc] [d2-c2][d2-B2]
+w: ce que nous at-ten-dons tous pour de-main.
+|  [d6A6] d2 | "Gm"[b4d4] [b4-d4-]
+w: ~ You-ka-li,
+|  [b2d2]([ac][bd]) [c'e][bd][ac][gB] | "Cm"[a3c3][bd] [a4-c4-]
+w: *c'est* le pa-ys de nos d\'e-sirs.
+|  [a6c6] c2 | "D7"[a4c4] [a4-c4-]
+w: *You-ka-li,
+|  [a2c2]([^g=B][ac]) [c'e][bd][bd][ac] | "Gm"[g3B3][ac] [g4-B4-]
+w: *c'est* le bon-heur, c'est le plai-sir.
+|  [g2B2]z2 [b4d4] | "Eb7"[a3f3][ge] [g4-e4-] | [g2e2]z2 [b4e4] | "Bb"[g3e3][fd] [f4-d4-]
+w: *Mais c'est un r\^eve,* u-ne fo-lie.
+|  [f2d2]z2 F4 | "Cm"[d3F3][cE] [c4-E4]
+w: *Il n'y a pas
+|  "F7"[c4F4-] [d4F4] | "Bb"[c3E3][BD] [B4-D4-] | [B2D2]z2 [b4d4]
+w: *de You-ka-li!* Mais
+|  "Eb7"[a3f3][ge] [g4-e4-] | [g2e2]z2 [b4e4] | "Bb"[g3e3][fd] [f4-d4-] | [f2d2]z2 F4 
+w: c'est un r\^eve,* u-ne fo-lie.* Il
+|1 "Cm"[d3F3][cE] [c4-E4] | "F7"[c4F4-] [d4F4] | "Bb"[c3E3][BD] [B4-D4-] | [B2D2]z 
+w: n'y a pas* de You-ka-li!
+:|2"Cm"[d3F3][cE] [c4-E4-] | "F7"[c2E4]z2 G4 | "Bb"B8-
+w: n'y a pas* de You-
+|  "C7"b8- | "Bb"b8- | "C7"b8- | "Bb"b8- | "C7"b8- | "B7"b4 z2 | z8 |]
+w: --ka-li!
+%%newpage
+W:Translation by A. Reaux:
+W:
+W:Verse 1:
+W:     Near the end of the world, my vagabond ship,
+W:     Wandering at the whim of the waves, directed me there one day,
+W:     This island is very small, but the fairy who lives there
+W:     Gently invited us to take a tour.
+W:Refrain:
+W:     Youkali, it is the land of our desires,
+W:     Youkali, it is happiness, it is pleasure,
+W:     It is the land where one leaves all cares,
+W:     It is, in our night, like a bright light,
+W:     A star which one follows - It is Youkali!
+W:     Youkali, it is the respect of exchanged vows.
+W:     Youkali, it is the land of beautiful lovers.
+W:     It is the hope Which is at the heart of all humans,
+W:     The deliverance we want for tomorrow.
+W:     Youkali, it is the land of our desires,
+W:     Youkali, it is happiness, It is pleasure -
+W:     But it is a dream, a folly.  There is no Youkali.
+W:Verse 2:
+W:     And life goes on, weariness everyday, but the poor human soul
+W:     Looks everywhere to forget it, to leave the earth, to find the mystery.
+W:     We dream on earth to live on some Youkali.
+W:Refrain:
+W:     Youkali, ...
+
+W:Translation by Michele Spadaro:
+W:
+W:Verse 1:
+W:     Lost at sea, afloat, my wandering little boat,
+W:     drifting with the waves, led me to a place.
+W:     A tiny scrap of island, but the girl that lived there smiled and
+W:     invited me to open my heart to Youkali.
+W:Refrain:
+W:     Youkali, the land of our desire and dreams,
+W:     Youkali, where everything is what it seems,
+W:     Youkali, a place where one can leave all cares and regrets,
+W:     A star in the night, a path shining bright,
+W:     a hope that we might find Youkali.
+W:     Youkali, it is the home of all we hold in our prayers,
+W:     Youkali, it is the country of the love that we share,
+W:     It's the hope that lives inside the heart of all mankind,
+W:     the answer that we wait for 'til the end of time,
+W:     Youkali, the land of our desire and dreams,
+W:     Youkali, where everything is what it seems,
+W:     but it isn't real, it's just a dream, it isn't there in Youkali.
+W:     We only see what we want to see, not really there in Youkali.
+W:Verse 2:
+W:     Only weariness survives our cold and hardened lives,
+W:     when hope has all but died, we still seek to forget,
+W:     to leave our earthly sorrows, find solace in tomorrows,
+W:     the mystery that enthralls those who search for Youkali.

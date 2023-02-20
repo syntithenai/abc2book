@@ -1,0 +1,9 @@
+X:1
+T:Old Tom of Oxford (T tells us that this is the title - you can leave this line blank, but for good form don't leave it out or the computer - in the case of an ABC decoder - would have problems reading the tune)
+K:Dmaj (This is the key signature and - really if we're being pernickety - should come last in the header, right before the tune starts)
+M:4/4 (The time signature)
+L:1/4 (The default length of any note in the piece - here we are told that the default length, unless otherwise stated, is a crotchet - if it had been a quaver, it would have said 1/8).
+|: A B/c/ d A | G F E F/E/ | D F/G/ A d | c d e c/B/ |
+A B/c/ d A | G F E (3A/B/c/ | d A G F | E2 D2 :|
+|: F A F A | F A d/c/B/A/ | G B G B | G B d/c/B/A/ |
+F A F G | A B/c/ d (3A/B/c/ | d A G F | E2 D2 :|

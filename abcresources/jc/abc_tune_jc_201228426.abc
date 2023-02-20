@@ -1,0 +1,24 @@
+X: 11273
+T: THRO' THE FOREST
+C: Weber.
+Q: "Moderate."
+%R: air, march
+N: This is version 1, for ABC software that doesn't understand crescendo symbols.
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.127 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A>B |\
+"_cres."=Bc "^^"f4 e>f | d2 "^^"G4 (g>f) |\
+(e>dc>B) (A>Gc>E) | G2 F4 :|\
+G2 |\
+e3e (dcBc) | "_cres."(Ad) f4 (ed) |\
+c3c =B2G2 | g2 g>(f e>dc>B) |
+(ABcd e{g}fed) | (c2 d/c/B/c/ e3d) |\
+c2 (ge) (c_BAB) | =Bc "^^"f4 ef |\
+d2 "^^"G4 g>f | e>dc>B A>Gc>E | F6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

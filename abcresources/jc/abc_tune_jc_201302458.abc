@@ -1,0 +1,19 @@
+X: 1
+T: Linnen Hall
+O: 1782
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+N: The basic tune is a lot simpler
+B: Aird (Selections of Scotch, English, Irish and Foreign Airs) 1782 v.2 #127 p.46
+B: Raven (English Country Dance Tunes) 1984 p.31
+B: Williamson (English, Welsh, Scottish and Irish Fiddle Tunes) 1976 p.22
+M: 6/8
+L: 1/8
+K: G
+|: "G"G2G A2A | "G"B2c dBG | "Am"E2E c2B | "D7"ABG FED \
+|  "G"GFG AGA | "G"B2c dBG | "Am"EcB "D7"AGF | "G"G6 :|
+[| "G(Bm)"d2d e2d | "C"efg "G"dcB | dcB "C"edc | "G"dcB "D"A3 \
+|  "G"d2d efg | "Em"gba gfg | "A7"egf ed^c | "D"d3- "D7"d2D |]
+[| "G"GFG AGA | "G"B2c dBG | "Am"EDE c2B | "D7"ABG FED \
+|  "G"G2D "D7"A2D | "G"B2c dBG | "Am"EcB "D7"AGF | "G"G6 |]

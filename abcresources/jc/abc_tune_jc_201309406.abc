@@ -1,0 +1,58 @@
+
+X: 1
+T: Mi Chamocha   [Dm]
+C: Jewish liturgical
+L: 1/4
+M: 4/4
+K: Dm
+|:\
+"Dm"d A d A | z/ d e/ f/e/ d | "C"c G c G | z/ c d/ e/d/ c/d/ |
+w: Mi cha-mo-cha, mi cha-mo - cha, mi cha-mo-cha, mi cha-mo - cha,
+w: Mi cha-mo-cha, ne-dar ba-ko-desh, mi cha-mo-cha, ne dar-ba-ko-desh.
+"Dm"d A d A | z/ d e/ f/e/ d | "C"e e f e |1 "Dm"d4 :|2 "Dm"d3 ||
+w: Mi cha-mo-cha, mi cha-mo - cha ba'e-lim A-do-nai
+w: Mi cha-mo-cha, ne-dar ba-ko-desh \- \- \- \- | | \-
+|: d/f/ | "Gm"g3 a/g/ | "Dm"f3 g/f/ | "C"e3 f/e/ |1 "Dm"d e f :|2 "Dm"d3 z |]
+w: No - ra t'hi - lot o - seh fe - leh. | \-leh.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mi Chamocha   [Em]
+C: Jewish liturgical
+L: 1/4
+M: 4/4
+K: Em
+|:\
+"Em"e B e B | z/ e f/ g/f/ e | "D"d A d A | z/ d e/ f/e/ d/e/ |
+"Em"e B e B | z/ e f/ g/f/ e | "D"f f g f |1 "Em"e4 :|2 "Em"e3 ||
+|: e/g/ | "Am"a3 b/a/ | "Em"g3 a/g/ | "D"f3 g/f/ |1 "Em"e f g :|2 "Em"e3 z |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mi Chamocha   [Gm]
+C: Jewish liturgical
+L: 1/4
+M: 4/4
+K: Gm
+|:\
+"Gm"G D G D | z/ G A/ B/A/ G | "F"F C F C | z/ F G/ A/G/ F/G/ |
+"Gm"G D G D | z/ G A/ B/A/ G | "F"A A B A |1 "Gm"G4 :|2 "Gm"G3 ||
+|: G/B/ | "Cm"c3 d/c/ | "Gm"B3 c/B/ | "F"A3 B/A/ |1 "Gm"G A B :|2 "Gm"G3 z |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mi Chamocha   [Am]
+C: Jewish liturgical
+L: 1/4
+M: 4/4
+K: Am
+|:\
+"Am"A E A E | z/ A B/ c/B/ A | "G"G D G D | z/ G A/ B/A/ G/A/ |
+"Am"A E A E | z/ A B/ c/B/ A | "G"B B c B |1 "Am"A4 :|2 "Am"A3 ||
+|: A/c/ | "Dm"d3 e/d/ | "Am"c3 d/c/ | "G"B3 c/B/ |1 "Am"A B c :|2 "Am"A3 z |]

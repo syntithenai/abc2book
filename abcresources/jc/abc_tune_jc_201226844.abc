@@ -1,0 +1,26 @@
+X: 10481
+T: KINLOCK
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.48 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+d/e/ |\
+f>ed AFA | BGB AFA | f>ed AFA | Bec d2 :: a | f2a e2a | d>ed cBA |
+f2a e2a | ba^g a3 | bgb afa | geg fed | f>ed AFA | Bec d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+F/G/ |\
+A>GF FDF | GDG FDF | A>GF FDF | G2E F2 :: A | d2A c2A | F>GF AGF |
+d2A c2A | dcB c3 | d2d d2d | A2A AGF | A>GF FDF | G2E F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+d |\
+d3 d3 | d3 d3 | d3 d3 | g2g d2 :: z | d2z A2z | d3 d3 |
+d2z A2z | dee A3 | ggg fff | eee d3 | d2d d2d | gaA d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,44 @@
+X:1
+T:Dublin to Derry  " "
+M:C
+L:1/8
+Q:80
+C:F. A. Sterling
+S:March
+K:HP
+{g}Ac | \
+{gef}e2{g}fe{GAG}A2{g}Bc | \
+{Gdc}d2{g}ef{gef}e2{g}c/2{d}A3/2 |
+{Gdc}d3/2e/2{g}f/2a3/2{ef}eA{g}dc | \
+{gcd}c2{g}B2{GdG}B2{g}Ac | \
+{gef}e2{g}fe{GAG}A2{g}Bc |
+{Gdc}d2{g}ef{gef}e2{g}c/2{d}A3/2 | \
+{Gdc}d3/2e/2{g}f/2a3/2{ef}ec{g}dB | \
+{g}A2{GdGe}A2{GAG}A2|]
+{g}ec | \
+{Gdc}d2{g}fd{gBd}B2{g}cd | \
+{gef}e2ae{gef}c2{g}B/2{d}A3/2 |
+{Gdc}d3/2e/2{g}f/2a3/2{ef}eA{g}dc | \
+{gcd}c2{g}B2{GdG}B2{g}ec | \
+{Gdc}d2{g}fd{gBd}B2{g}cd |
+{gef}e2ae{gef}c2{g}B/2{d}A3/2 | \
+{Gdc}d3/2e/2{g}f/2a3/2{ef}ec{g}dB | \
+{g}A2{GdGe}A2{GAG}A2|]
+{g}ef | \
+{gef}e2{GAG}A2{g}B/2{GdG}c3/2{gef}eA | \
+{ag}a3/2g/2{fg}fa{ef}e2{g}c/2{d}A3/2 |
+{Gdc}d3/2e/2{g}f/2a3/2{ef}eA{g}dc | \
+{gcd}c2{g}B2{GdG}B2ef | \
+{gef}e2{GAG}A2{g}B/2{GdG}c3/2{gef}eA |
+{ag}a3/2g/2{fg}fa{ef}e2{g}c/2{d}A3/2 | \
+{Gdc}d3/2e/2{g}f/2a3/2{ef}ec{g}dB | \
+{g}A2{GdGe}A2{GAG}A2|]
+{g}Ac | \
+{gef}e2ae{gcd}c2ae | \
+{gfg}f2a3/2f/2{gef}e2{g}c/2{d}A3/2 |
+{Gdc}d3/2e/2{g}f/2a3/2{ef}eA{g}dc | \
+{gcd}c2{g}B2{GdG}B2{g}Ac | \
+{gef}e2ae{gcd}c2ae |
+{gfg}f2a3/2f/2{gef}e2{g}c/2{d}A3/2 | \
+{Gdc}d3/2e/2{g}f/2a3/2{ef}ec/2{g}dB | \
+{g}A2{GdGe}A2{GAG}A2|]

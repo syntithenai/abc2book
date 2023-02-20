@@ -1,0 +1,682 @@
+
+X: 0
+T: Good Morning
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: After getting various single pages from this book from local dance leaders, I
+N: finally copied the tune pages and started a transcription project in my spare time.
+N: Index numbers are a 3-digit page and 2-digit number within medley for uniqueness.
+N: Some tunes are transcribed twice, first just the tune, then with bass+vocal lines.
+K:
+
+
+%%sep 5 1 500
+
+X: 03801
+T: Lancers "Oriental"
+T: Figure I
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Records No.104-A and No.105-A
+R: jig
+M: 6/8
+L: 1/8
+K: D
+(A/B/) |\
+"D"Az(a/b/) az(f/g/) | fz(d/e/) dzB | ABc def | "A7"gec A2(g/a/) |\
+"A7"gz(e/f/) ez(c/d/) | cz(A/B/) AzG | "D"FAd "A7"cAe | "D"dzz [dAF]z Hy ||
+K: A
+(c/d/) |\
+"A"efe "E7"dcB | "A"Ace [a3c3A3] | "E7"[gd]fe dBe | "A"cea [c'2c2](c/d/) |\
+"A"efe "E7"dcB | "A"Ace [a3c3A3] | "E7"gfe dBe | "A"Azz [aecA]z(a/^a/) ||
+K: D
+"A7"[bd]z(f [gB])z(^d | "A7"[eG])z^B (K[c2E2]=B) | "D"AFA dAd | fdf a2(a/^a/) |\
+"A7"[bd]z(f [gB])z(^d | "A7"[eG])zc (K[A2E2]B) | "A"(Aa)a "E7"^gfe | "A"azz "A7"[ac]"D.C."z |]
+
+
+%%sep 5 1 500
+
+X: 03802
+T: Lancers "Oriental"
+T: Figure II
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Dancers: Wait first eight bars.
+N: Records No.104-A and No.105-A
+R: reel
+M: 2/4
+L: 1/16
+K: D
+([fd][ge]) |\
+"D"[a2f2][a2d2]"A"[a2c2][a2A2] | "D"abag fagf | "A7"e2e2 egfe | "D"dc"A7"de "D"f2([fd][ge]) |
+"D"[a2f2][a2d2]"A"[a2c2][a2A2] | "D"abag fagf | "A7"e2e2 egfe | "D"d2z2 [d2F2]z2 Hy ||
+K: A
+"A"k[e4E4] k[a3A3][eE] | [a2A2][e2E2] "E7"k[g4G4]- |\
+[g2G2][d2D2] k[f4F4]- | "A"[f2F2][c2C2] k[e4E4] |\
+k[e4E4] k[c'3c3][eE] | "A"[c'2c2][e2E2] "E7"k[b4B4]- |\
+[b2B2][d2D2] k[g4G4]- | "A"[g2G2][c2C2] [f4F4] |
+k[e4E4] k[a3A3][eE] | [a2A2][e2E2] "E7"k[g4G4]- |\
+[g2G2][d2D2] k[f4F4]- | "A"[f2F2][c2C2] k[e4E4] |\
+k[e4E4] k[c'3c3][eE] | [c'2c2][e2E2] "E7"k[b4B4]- |\
+[b2B2][e2E2] [g2G2][b2B2] | "A"[a2A2]z2 [aecA]"D.C."y |]
+
+
+%%sep 5 1 500
+
+X: 03803
+T: Lancers "Oriental"
+T: Figure III
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Records No.104-B and No.105-B
+N: Dancers: Wait first eight bars.
+N: The A chord at the start of bar 12 is probably a typo.
+R: jig
+M: 6/8
+L: 1/8
+K: D
+((3A/B/c/) |\
+"D"[dF]z[fA] [aA]zd | "A7"cBA gfe | "D"dz[fA] [aA]zf | "A7"eba gfe |
+"D"[dF]z[fA] [aA]z=c | "G"Bz[bB] [gG]z[eG] | "D"[fA]af "A7"[e2G2][AG] | "D"[dF]zz [dF]zHz ||
+K: A
+"A"[ecA]fe [c'c]z[ec] | [acA]z[ecA] "E7"k[g3G3] | efe [d'd]zg | "A"[bB]ze "A"k[a3A3] |
+"A"[ecA]fe [c'c]z[ec] | [acA]z[ec=g] "D"H[f3d3A3] | "E7"egf edB | "A"Azz "A7"[a=gcA]"D.C."z |]
+
+
+%%sep 5 1 500
+
+X: 03804
+T: Lancers "Oriental"
+T: Figure IV
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Dancers: Wait first eight bars.
+N: Records No.104-B and No.105-B
+R: jig
+M: 6/8
+L: 1/8
+K: D
+((3A/B/c/) |\
+"D"dzd "A7"eze | "D"fef "A7"gfg | "D"aba gfe | "D"def "A7"[e2G2]((3A/B/c/) |
+"D"dzd "A7"eze | "D"fef "A7"gfg | "D"aba "A7"gfe | "D"dzz [dF]zHz ||
+K: A
+"A"cAc eze | [aA]ze [c'c]ze | [a2A2][cA] "rall."[e2c2A2][acA] | "E7"H[g6d6G6] |
+"E7"BGB [eG]z[BG] | [gd]z[ed] [bdB]z[gd] | [e2B2G2][dBG] [B2G2][eBG] | "A"H[c6A6E6] |
+"A"AEA kc3- | cAc ke3- | ecA Ace | "A7"H[=g3-c3-A3-] "D.C."[g2c2A2] |]
+
+
+%%sep 5 1 500
+
+X: 03805
+T: Lancers "Oriental"
+T: Figure V
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Record No.106
+R: reel, march
+M: 2/4
+L: 1/8
+K: D
+[d/F/]H[d3F3] !Segno!|| ((3A/B/A/) |:\
+"D"[fA][fA][eG][dF] | "A7"[dG]>[cG] [cG] ((3A/B/A/) |\
+"A7"[gcA][geA][fdA][ecG] | "D"[a3f3d3A3] ((3fg^g) | "D"a[aA] [bB]>[fF] |
+"Em"[aA][gG][gG] [e/E/][f/F/] |1 "A7"[gG][^g^G] [aA]>[eE] | "D"[f3F3] ((3A/B/A/) :|\
+[2 "A7"[gG][bB][aA][cG] | "D"[dF]z [dF]Hz [|\
+[K: A] "A"e/f/e/d/ ce | [ac][ec] [c'2-c2-] |
+"E7"[c'c]b/c'/ d'g | "A"[bc][ac] [e2c2] |\
+e/f/e/d/ ce | [ac][ec] [c'2-c2-] |\
+"E7"[c'c]b/c'/ d'[gd] | "A"[ac]z"A7"[a=gcA] ((3A/B/A/ |]
+K: D
+[| "D"[fA][fA][eG][dF] | "A7"[dG]>[cG] [cG]((3A/B/A/) |\
+"A7"[gcA][geA][fdA][ecG] | "D"[a3f3d3A3] ((3f/g/^g/) |\
+"D"a[aA] [bB]>[fF] | "Em"[aA][^g^G][=g=G]B |
+"A7"((3A/B/A/)^G/A/ [fA][e=G] | "D"[dF]z [dF]z "March"|[|[K:G]\
+"G"k[g2d2B2G2] B>d | k[g2d2B2G2] kB>d |\
+k[gdBG]Bd[gG] | [bB]>[aA] [g2G2] |
+"D7"[a2d2c2A2] [dD]>[eE] | [fF][gF][aA][bB] |\
+[c'c]>[bB] [c'c]>[bB]  | [c'c]>[aA] [fF][dD] |\
+"G"k[g2d2B2G2] B>d | k[g2d2B2G2] kB>d |
+k[gdBG]Bd[gG] | [bB]>[aA] [g2G2] |\
+"Am"[e2E2] [c'c]>[bB] | [aA][gG][fF][eE] |\
+"G"[dD][b/B/][b/B/] "D7"c[a/A/][a/A/] | "G"[gG]z "D.S."[gBG] !Segno!|]
+
+
+%%sep 5 1 500
+
+X: 04801
+T: Columbia, the Gem of the Ocean
+N: 1st tune in "Victory March" medley
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: march
+M: 2/4
+L: 1/8
+K: G
+V: 1 clef=treble
+V: 2 clef=bass middle=d
+V:1
+DD |\
+"G"[G2D2B,2] [GDB,][GDB,] | "D7"[A2F2D2] [dAF][cAF] |\
+"G"[BDB,] [G3-D3-B,3-] | [G2D2B,2] [DB,G,][DB,G,] |\
+"C"[E2C2G,2] [ecE]"E7"[dBE] | "Am"[cAE]"E"[B^GE] "Am"[AE]"A7"[=GE] |
+"G"[G4D4B,4] | "D"[F2D2A,2] [AFD][AFD] |\
+"D"[A2F2D2] [AFD][AFD] | "A7"[A2G2^C2] [BGE][^cGE] |\
+"D"[dFD] [A3-F3-D3-] | [A2F2D2] [dAD][dAD] |
+"Em"[^cE][BE] [AEB,][GEB,] | "A"[F^CA,][ECA,] [ACA,][^CA,] |\
+"D"[D4-A,4-F,4-] | [DA,F,]z DF |\
+"D7"[A2F2C2] [AFC][AFC] | [GC][FC] [EC]D |
+"G"[DB,] [G3-B,3-] | [G2B,2] [GB,][AC] |\
+"G"[B2G2D2] [BGD][BGD] | [cGD][BGD] [AB,][GB,] |\
+"D7"[A4-F4-D4-] | [AFD]z GB |\
+"G"[d2B2G2] [dBG][dBG] |
+"G"[cD][BD] [AB,][GB,] |\
+"C"[FCG,] [E3-C3-G,3-] | [E2C2G,2] [eGE]"E7"[d^GE] |\
+"Am"[cEC][BEC] [AEA,]"A7"[GEA,] | "D7"[F2C2A,2] [ECA,][FCA,] |\
+"G"[G4-D4-B,4-] | [GGDB,]z [GDB,] |]
+V:2
+z2 | Gd Dd | Fd Dd | Gd Dd | Gd BB | c2 c^G | AB c^c |
+dd/^c/ dd | d2 z2 | da Aa | ea Aa | da Aa | da ff |
+gg ee | ^cc Ae | dB AF | Dz z2 | FdDd | AdDd |
+Gd Dd | Gd Dd | Gd Dd | Gd Dd | dc AF | Dz z2 | Gd Dd |
+Gd Dd | cz GE | C2 cB | AB c^c | d2 Ad | ge dB | Gz [gdG] |]
+
+
+%%sep 5 1 500
+
+X: 4802
+T: Victory March
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Medley of "Columbia, the Gem of the Ocean" and "Yankee Doodle"
+R: march
+M: 2/4
+L: 1/8
+K: G
+P: Columbia, the Gem of the Ocean
+DD |\
+"G"[G2D2B,2] [GDB,][GDB,] | "D7"[A2F2D2] [dAF][cAF] |\
+"G"[BDB,] [G3-D3-B,3-] | [G2D2B,2] [DB,G,][DB,G,] |\
+"C"[E2C2G,2] [ecE]"E7"[dBE] | "Am"[cAE]"E"[B^GE] "Am"[AE]"A7"[=GE] |
+"G"[G4D4B,4] | "D"[F2D2A,2] [AFD][AFD] |\
+"D"[A2F2D2] [AFD][AFD] | "A7"[A2G2^C2] [BGE][^cGE] |\
+"D"[dFD] [A3-F3-D3-] | [A2F2D2] [dAD][dAD] |
+"Em"[^cE][BE] [AEB,][GEB,] | "A"[F^CA,][ECA,] [ACA,][^CA,] |\
+"D"[D4-A,4-F,4-] | [DA,F,]z DF |\
+"D7"[A2F2C2] [AFC][AFC] | [GC][FC] [EC]D |
+"G"[DB,] [G3-B,3-] | [G2B,2] [GB,][AC] |\
+"G"[B2G2D2] [BGD][BGD] | [cGD][BGD] [AB,][GB,] |\
+"D7"[A4-F4-D4-] | [AFD]z GB |\
+"G"[d2B2G2] [dBG][dBG] |
+"G"[cD][BD] [AB,][GB,] |\
+"C"[FCG,] [E3-C3-G,3-] | [E2C2G,2] [eGE]"E7"[d^GE] |\
+"Am"[cEC][BEC] [AEA,]"A7"[GEA,] | "D7"[F2C2A,2] [ECA,][FCA,] |\
+"G"[G4-D4-B,4-] | [GGDB,]z [GDB,] |]
+P: Yankee Doodle
+D |\
+"G"[GB,][GB,] "D7"[AFC][BFC] | "G"[GB,][BGD] "D7"[AFC][FD] |\
+"G"[GB,][GB,] "D7"[AFC][BFC] | "G"[G2D2B,2] "D7"[FCA,]D |\
+"G"[GDB,][GDB,] "D"[AFD]"G7"[BGD] |
+"C"[cGE]"E7"[B^GE] "Am"[AE]"A7"[=GE] |\
+"D7"[FC][DC] [EC][FC] | "G"[G2D2B,2] [GDB,]z |\
+"C"[EC2]>F [EC][DB,] | [EC][FD][G2E2] |
+"G"[DB,]>[EC] [DB,][CA,] | "G"[B,2G,2] [D2B,2] |\
+"C"[EC2]>F [EC][DB,] | [EC][FD] [GE][EC] |\
+"G"[DB,][GB,] "D7"[FC][AC] | "G"[G2D2B,2] [GDB,] |]
+
+
+%%sep 5 1 500
+
+X: 4803
+T: Victory March
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Medley of "Columbia, the Gem of the Ocean" and "Yankee Doodle"
+R: march
+M: 2/4
+L: 1/8
+K: G
+V: 1 clef=treble
+V: 2 clef=bass middle=d
+P: Columbia, the Gem of the Ocean
+V:1
+DD |\
+"G"[G2D2B,2] [GDB,][GDB,] | "D7"[A2F2D2] [dAF][cAF] |\
+"G"[BDB,] [G3-D3-B,3-] | [G2D2B,2] [DB,G,][DB,G,] |\
+"C"[E2C2G,2] [ecE]"E7"[dBE] | "Am"[cAE]"E"[B^GE] "Am"[AE]"A7"[=GE] |
+"G"[G4D4B,4] | "D"[F2D2A,2] [AFD][AFD] |\
+"D"[A2F2D2] [AFD][AFD] | "A7"[A2G2^C2] [BGE][^cGE] |\
+"D"[dFD] [A3-F3-D3-] | [A2F2D2] [dAD][dAD] |
+"Em"[^cE][BE] [AEB,][GEB,] | "A"[F^CA,][ECA,] [ACA,][^CA,] |\
+"D"[D4-A,4-F,4-] | [DA,F,]z DF |\
+"D7"[A2F2C2] [AFC][AFC] | [GC][FC] [EC]D |
+"G"[DB,] [G3-B,3-] | [G2B,2] [GB,][AC] |\
+"G"[B2G2D2] [BGD][BGD] | [cGD][BGD] [AB,][GB,] |\
+"D7"[A4-F4-D4-] | [AFD]z GB |\
+"G"[d2B2G2] [dBG][dBG] |
+"G"[cD][BD] [AB,][GB,] |\
+"C"[FCG,] [E3-C3-G,3-] | [E2C2G,2] [eGE]"E7"[d^GE] |\
+"Am"[cEC][BEC] [AEA,]"A7"[GEA,] | "D7"[F2C2A,2] [ECA,][FCA,] |\
+"G"[G4-D4-B,4-] | [GGDB,]z [GDB,] |]
+V:2
+z2 | Gd Dd | Fd Dd | Gd Dd | Gd BB | c2 c^G | AB c^c |
+dd/^c/ dd | d2 z2 | da Aa | ea Aa | da Aa | da ff |
+gg ee | ^cc Ae | dB AF | Dz z2 | FdDd | AdDd |
+Gd Dd | Gd Dd | Gd Dd | Gd Dd | dc AF | Dz z2 | Gd Dd |
+Gd Dd | cz GE | C2 cB | AB c^c | d2 Ad | ge dB | Gz [gdG] |]
+P: Yankee Doodle
+V: 1
+D |\
+"G"[GB,][GB,] "D7"[AFC][BFC] | "G"[GB,][BGD] "D7"[AFC][FD] |\
+"G"[GB,][GB,] "D7"[AFC][BFC] | "G"[G2D2B,2] "D7"[FCA,]D |\
+"G"[GDB,][GDB,] "D"[AFD]"G7"[BGD] |
+"C"[cGE]"E7"[B^GE] "Am"[AE]"A7"[=GE] |\
+"D7"[FC][DC] [EC][FC] | "G"[G2D2B,2] [GDB,]z |\
+"C"[EC2]>F [EC][DB,] | [EC][FD][G2E2] |
+"G"[DB,]>[EC] [DB,][CA,] | "G"[B,2G,2] [D2B,2] |\
+"C"[EC2]>F [EC][DB,] | [EC][FD] [GE][EC] |\
+"G"[DB,][GB,] "D7"[FC][AC] | "G"[G2D2B,2] [GDB,] |]
+V: 2
+z | Gd Dd | Gd Dd | Gd Dd | Gd Dz | Gg f=f |
+ed c^c | df Ad | gd Gz | ce Gg | cg Gg |
+Gd Dd | Gd Dd | cg Gg | cg cg | d2 d2 | gd G |]
+
+
+%%sep 5 1 500
+
+X: 04902
+T: Yankee Doodle
+N: 2nd tune in "Victory March" medley
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: march
+M: 2/4
+L: 1/8
+K: G
+V: 1 clef=treble
+V: 2 clef=bass middle=d
+V: 1
+D |\
+"G"[GB,][GB,] "D7"[AFC][BFC] | "G"[GB,][BGD] "D7"[AFC][FD] |\
+"G"[GB,][GB,] "D7"[AFC][BFC] | "G"[G2D2B,2] "D7"[FCA,]D |\
+"G"[GDB,][GDB,] "D"[AFD]"G7"[BGD] |
+"C"[cGE]"E7"[B^GE] "Am"[AE]"A7"[=GE] |\
+"D7"[FC][DC] [EC][FC] | "G"[G2D2B,2] [GDB,]z |\
+"C"[EC2]>F [EC][DB,] | [EC][FD][G2E2] |
+"G"[DB,]>[EC] [DB,][CA,] | "G"[B,2G,2] [D2B,2] |\
+"C"[EC2]>F [EC][DB,] | [EC][FD] [GE][EC] |\
+"G"[DB,][GB,] "D7"[FC][AC] | "G"[G2D2B,2] [GDB,] |]
+V: 2
+z | Gd Dd | Gd Dd | Gd Dd | Gd Dz | Gg f=f |
+ed c^c | df Ad | gd Gz | ce Gg | cg Gg |
+Gd Dd | Gd Dd | cg Gg | cg cg | d2 d2 | gd G |]
+
+
+%%sep 5 1 500
+
+X: 07000
+T: Couple Down Center
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: [What's the title of this waltz tune?]
+R: waltz
+M: 3/4
+L: 1/8
+K: C
+[E2C2] |\
+"C"[E2C4]D2[E2C2] | "G7"[F2B,4]E2[F2D2] | "C"[G2E2][e3G3][cE] | [G6E6] |
+"G7"[A2G2][B3F3][A2F2] | [F6D6] | ([F2D2][A3D3])[GD] | "C"E6 | [E2C4]D2[E2C2] |
+"G7"[F2B,4]E2[F2D2] | "C"[G2E2][e3G3][cE] | [G6E6] | "G7"[G2F2][B3F3][AF] | [F2D2][A3F3][GF] |
+"G7"[G2F2D2][A3D3][BF] | "C"[c2E2]z2[c2G2E2] ||\
+"F6"[c3A3F3]F[AF][dAF] | [c3A3F3] [AF][FD][AF] |\
+"C"[G4E4][eG][cE] | [G4E4][cE][cE] |
+"G7"[e4B4F4][dF][BF] | [F4D4][BF][eF] |\
+"C"[d4E4][cE][GE] | [E4C4][c2G2E2] |\
+"F6"[c3A3F3]F[AF][dAF] | [c3A3F3] [AF][FD][AF] |
+"C"[G4E4][eG][cE] | [G4E4][cE][cE] |\
+"G7"[e4B4F4][GF][GF] | [e2B2F2]z2[d2B2F2] |\
+[c2-E2][c2-E2G2][c2-E2G2] | [c2G2E2]z2 |]
+
+
+%%sep 5 1 500
+
+X: 7001
+T: Couple Down Center
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: [What's the title of this waltz tune?]
+R: waltz
+M: 3/4
+L: 1/8
+K: C
+V: 1 clef=treble
+[E2C2] |\
+"C"[E2C4]D2[E2C2] | "G7"[F2B,4]E2[F2D2] | "C"[G2E2][e3G3][cE] | [G6E6] |
+w: First cou-ple down cen-ter and there they di-vide,
+"G7"[A2G2][B3F3][AF] | [F6D6] | ([F2D2][A3D3])[GD] | "C"E6 | [E2C4]D2[E2C2] |
+w: la-dy goes right, gent* goes left. Hon-or your
+"G7"[F2B,4]E2[F2D2] | "C"[G2E2][e3G3][cE] | [G6E6] | "G7"[G2F2][B3F3][AF] | [F2D2][A3F3][GF] |
+w: corn-er and don't be a-fraid, Swing to your part-ner and
+"G7"[G2F2D2][A3D3][BF] | "C"[c2E2]z2"All Waltz"[c2G2E2] ||\
+"F6"[c3A3F3]F[AF][dAF] | [c3A3F3] [AF][FD][AF] | "C"[G4E4][eG][cE] | [G4E4][cE][cE] |
+w: waltz prom-e-nade ||
+"G7"[e4B4F4][dF][BF] | [F4D4][BF][eF] |\
+"C"[d4E4][cE][GE] | [E4C4][c2G2E2] |\
+"F6"[c3A3F3]F[AF][dAF] | [c3A3F3] [AF][FD][AF] |
+"C"[G4E4][eG][cE] | [G4E4][cE][cE] |\
+"G7"[e4B4F4][GF][GF] | [e2B2F2]z2[d2B2F2] |\
+[c6E6] | [c2G2E2]z2 |]
+%
+V: 2 clef=bass middle=d
+z2 |\
+[c2C2][g2e2][g2e2] | [d2D2][b2g2f2][b2g2f2] |\
+[c2C2][c'2g2e2][c'2g2e2] | [c2C2][c'2g2e2][c'2g2e2] |
+B2[b2g2f2][b2g2f2] | G2[b2g2f2][b2g2f2] |\
+G2[b2g2f2][b2g2f2] | [c2C2][c'2g2e2][c'2g2e2] |\
+[c2C2][g2e2][g2e2] | [d2D2][b2g2f2][b2g2f2] |\
+[e2E2][c'2g2e2][c'2g2e2] | [c2C2][c'2g2e2][c'2g2e2] |\
+[d2D2][b2g2f2][b2g2f2] | [g2G2][b2g2f2][b2g2f2] |
+[g2G2][f2F2][d2D2] | [c2C2][d2D2][e2E2] ||\
+[f2F2][d'2a2f2][d'2a2f2] | [f2F2][d'2a2f2][d'2a2f2] |\
+[e2E2][c'2g2e2][c'2g2e2] | [c2C2][c'2g2e2][c'2g2e2] |
+B2[b2g2f2][b2g2f2] | G2[b2g2f2][b2g2f2] |\
+[c2C2][c'2g2e2][c'2g2e2] | c2d2e2 |
+[f2F2][d'2a2f2][d'2a2f2] | [f2F2][d'2a2f2][d'2a2f2] |\
+[e2E2][c'2g2e2][c'2g2e2] | [c2C2][c'2g2e2][c'2g2e2] |\
+B2[b2g2f2][b2g2f2] | G2[b2g2f2][b2g2f2] |\
+c2e2g2 | [c'2g2c2]z2 |]
+
+
+%%sep 5 1 500
+
+X: 07200
+T: The Little Old Log Cabin in the Lane
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: march, reel
+M: 2/4
+L: 1/8
+K: F
+(F/A/) |\
+"F"[c2A2] [cA]>[dB] | [cA]A GF | "Bb"G<F F>D | "F"C2 "Dm"F"C7"[GE] |\
+"F"[AF][AF] "A7"[A^C][AC] | "Dm"[AD]<[AD] "G7"[GD]>[FD] | "C7"[G4-E4-] | [G2E2] F[AF] |
+"F"[c2A2] [cA]>[dB] | ([cA]A) GF | "Bb"G<F FD | "F"C2 "Dm"F"C7"[GE] |\
+"F"[AF]<[cA] AF "*1"| "C7"G<B A>G | "F"F4- | F2 [GE][A_E] |
+|: "Bb"[BD][BD] [BD]>[BD] | [BD] [d2F2] [dB] | "F"[dF][cF] [cF]>[AF] | [c3A3] A |\
+"F"FF FF | [AF]<[cA] [cA]>[AF] "*2"| "C"[G4-E4-] | [G2E2] ([AF][BG]) |
+"F"[cA][cA] [cA]>[dB] | [cA]A GF | "Bb"G<F FD | "F"C2 "Dm"F"C7"[GE] |\
+"F"[AF]<[cA] AF "*3"| "C7"G<B A>G | "F"F4- |1 F2 [GE][A_E] :|2 F2 |]
+P: Decorations:
+"*1"| "C7"[BG]<[dB] [cA]>[BG] | "F"[AF]F/F/ [AF][cAF] | [f2c2A2F2] |\
+"*2"| "C7"[GE]c/c/ [eB][geB] | [c'2g2e2] |\
+"*3"| "C7"[BG]<[dB] [cA]>[BG] | "F"[AF] [CA,][CA,][CA,] | [C2A,2] |]
+
+
+%%sep 5 1 500
+
+X: 7201
+T: The Little Old Log Cabin in the Lane
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: march, reel
+M: 2/4
+L: 1/8
+%%continueall
+K: F
+V: 1 clef=treble
+(F/A/) |\
+"F"[c2A2] [cA]>[dB] | [cA]A GF | "Bb"G<F F>D | "F"C2 "Dm"F"C7"[GE] |
+w: All* join hands and cir-cle to the left a-round the hall, To the
+"F"[AF][AF] "A7"[A^C][AC] | "Dm"[AD]<[AD] "G7"[GD]>[FD] | "C7"[G4-E4-] | [G2E2] F[AF] |
+w: Lit-tle Old Log Cab-in in the Lane._ You are
+"F"[c2A2] [cA]>[dB] | ([cA]A) GF | "Bb"G<F FD | "F"C2 "Dm"F"C7"[GE] |
+w: all go-ing wrong.** Go back the oth-er way, To the
+"F"[AF]<[cA] AF | "C7"G<B A>G | "F"F4- | F2 [GE][A_E] |
+w: Lit-tle Old Log Cab-in in the Lane._ Pla-ces
+|: "Bb"[BD][BD] [BD]>[BD] | [BD] [d2F2] [dB] | "F"[dF][cF] [cF]>[AF] | [c3A3] A |
+w: 1.~all and bal-ance all* and ev-'ry-bod-y swing, To~the
+w: 2.~First by the right hand* and next one by the left, To~the
+"F"FF FF | [AF]<[cA] [cA]>[AF] | "C"[G4-E4-] | [G2E2] ([AF][BG]) |
+w: Lit-tle Old Log Cab-in in the Lane._ The_
+w: Lit-tle Old Log Cab-in in the Lane._ And_
+"F"[cA][cA] [cA]>[dB] | [cA]A GF | "Bb"G<F FD | "F"C2 "Dm"F"C7"[GE] |
+w: left hand on your corn-er, and your part-ner by your right, And you
+w: when you meet your pern-ner you* make your home-ward flight, To the
+"F"[AF]<[cA] AF | "C7"G<B A>G | "F"F4- |1 F2 [GE][A_E] :|2 F2 |]
+w: grand right and left* half a-round_
+w: Lit-tle Old Log Cab-in in the Lane._
+%
+V: 2  clef=bass middle=d
+z | f[c'a] c[c'a] | f[c'a] c[c'a] | B[d'bf] d[d'bf] | f[af] [ad][bc] |
+f[c'a] e[ag] | d[af] G[=bgf] | c[_bge] eg | [bec]z f2 |
+f[c'a] c[c'a] | f[c'a] f[c'a] | B[d'bf] d[bf] | f[af] [ad][bc] |
+f[c'a] f[c'a] | e[c'g] c[c'ge] | f[c'a] c[c'af] | [c'2a2f2] [f2F2] |
+|: B[bf] d[bf] | B[d'bf] d[bf] | f[c'a] c[c'a] | f[c'a] c[c'a] |
+f[c'a] c[c'a] | f[c'a] f[c'a] | [c'c]>[d'd] [e'e][d'd] | [c'c]b ag |
+f[c'a] c[c'a] | f[c'a] f[c'a] | B[d'bf] d[d'bf] | f[af] [ad][bc] |
+f[c'a] c[c'a] | e[c'g] c[c'ge] | ff cA |1 [f2F2] f2 :|2 [f2F2] |]
+
+
+%%sep 5 1 500
+
+X: 07400
+T: Red River Valley
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: march, reel
+M: 2/4
+L: 1/8
+K: F
+|: (CF) | "F"A-A A-A | "C7"A2 GA | "F"G F3- | F2 CF | "F"A-A FA |
+"F"c-c BA | "C7"[G4-E4-C4-B,4-] | [GECB,]z (cB) | "F"A-A AG | "F7"[F2_E2C2] ([G_EC][AEC]) |
+"Bb"cB- B-B  | D2 "Bdim7"(ED) | "F"C2 EF | "G7"G2 "C7"AG | "F"[F4-C4-A,4-] | [FCA,]z |]
+
+
+%%sep 5 1 500
+
+X: 7401
+T: Red River Valley
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: march, reel
+M: 2/4
+L: 1/8
+K: F
+V: 1 clef=treble
+|: (CF) | "F"A-A A-A | "C7"A2 GA | "F"G F3- | F2 CF |
+w: 1.~_ Al-le-mande* left on the cor-ners_ And you
+w: 2.~First* cou-ple to the right and you bal-ance_ And you
+w: 3.~And you lead* to the next and you bal-ance_ And you
+"F"A-A FA | "F"c-c BA | "C7"[G4-E4-C4-B,4-] | [GECB,]z (cB) |
+w: grand* right and left* half a-round_ And_
+w: cir-cle to the left and to the right_ And you
+w: cir-cle to the left and to the right_ And you
+"F"A-A AG | "F7"[F2_E2C2] ([G_EC][AEC]) | "Bb"cB- B-B  | D2 "Bdim7"(ED) |
+w: when you meet your own you_ pro-me-nade back home And_
+w: swing* with the op-po-site la-dy___ Then you
+w: swing* with the op-po-site la-dy___  And you
+"F"C2 EF | "G7"G2 "C7"AG | "F"[F4-C4-A,4-] | [FCA,]z |]
+w: swing with your Red Riv-er Girl._
+w: swing with your Red Riv-er Girl._
+w: swing with your Red Riv-er Girl._
+%
+V: 2 clef=bass middle=d
+|: z2 | F[af] c[af] | e[c'b] c[c'b] | F[af] c[af] | F[af] c[af] |
+F[af] c[af] | F[af] c[af] | cB GE | Cz [b2g2e2c2] |
+F[af] c[af] | fa gf | B[bd] F[bd] | B[bd] =B[_af] |
+c[af] c[af] | d[=bf] c[_be] | fd cA | Fz :|
+
+
+%%sep 5 1 500
+
+X: 07500
+T: Nellie Bly
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: march, reel
+M: 2/4
+L: 1/8
+K: C
+V: 1
+"G"EF GG | EF G2 | (E>F) GA | "G7"[D4B,4] |\
+"C"[EC][FD] [GE][GE] | "F"[AF][BF] "C"[cE]c | "G7"([BF]>[cF] [dF])[BF] | "C"[c4E4] ||
+"C"[e2G2] [cE][cE] | "F"[c2A2] [AF][AF] | "C"[GE-]E EC | "G7"[D4B,4] |\
+"C"([EC]>[FD]) [GE][GE] | "F"[AF][BF] "C"[c2E2] | "G7"[BF][cF] [dF][BF] | "C"[c4E4] |
+"C"[e2G2] [cE][cE] | "F"[c2A2] [AF][AF] | "C"[GE]E EC | "G7"[D4B,4] |\
+"C"([EC][FD] [GE])[GE] | "F"[AF][BF] "C"[c2E2] | "G7"[BF][cF] [dF][BF] | "C"[c4E4] |]
+
+
+%%sep 5 1 500
+
+X: 7501
+T: Nellie Bly
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: march, reel
+M: 2/4
+L: 1/8
+K: C
+V: 1 clef=treble
+"G"EF GG | EF G2 | (E>F) GA | "G7"[D4B,4] |
+w: First two give right hands a-cross, take your steps in time;
+"C"[EC][FD] [GE][GE] | "F"[AF][BF] "C"[cE]c | "G7"([BF]>[cF] [dF])[BF] | "C"[c4E4] ||
+w: Back with left, take hold of hands, and bal-ance four in line.
+"C"[e2G2] [cE][cE] | "F"[c2A2] [AF][AF] | "C"[GE-]E EC | "G7"[D4B,4] |\
+"C"([EC]>[FD]) [GE][GE] | "F"[AF][BF] "C"[c2E2] | "G7"[BF][cF] [dF][BF] | "C"[c4E4] |
+"C"[e2G2] [cE][cE] | "F"[c2A2] [AF][AF] | "C"[GE]E EC | "G7"[D4B,4] |\
+"C"([EC][FD] [GE])[GE] | "F"[AF][BF] "C"[c2E2] | "G7"[BF][cF] [dF][BF] | "C"[c4E4] |]
+V: 2 clef=bass middle=d
+c[c'ge] [e'c'g'][c'ge] | c[c'ge] [e'c'g'][c'ge] | c[c'ge] e[c'g] | gGAB |
+c[c'ge] e[c'g] | f[c'a] c[c'ge] | g[d'b] G[bg] ||
+c[ge][c'g][ge] | F[af][c'a][af] | c[ge][c'g][ge] | [gG][fF][eE][dD] |\
+[cC][c'ge] e[c'g] | f[c'a] c[c'e] | g[d'b] G[bg] | c[c'ge][c'ge]z |
+c[ge][c'g][ge] | F[af][c'a][af] | c[ge][c'g][ge] | [gG][fF][eE][dD] |\
+[cC][c'ge] e[c'g] | f[c'a] c[c'e] | g[d'b] G[bg] | c[c'ge][c'ge]z |]
+
+
+%%sep 5 1 500
+
+X: 08000
+T: Lady Walpole's Reel
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: 2/4
+L: 1/16
+K: G
+Bc |\
+"G"dBdB dg"C"fe | "G"dBdB dg"C"fe | "G"dBdB edcB | "D7"c2A2 A2Bc |
+"G"dBdB dg"C"fe | "G"dBdB dg"C"fe | "G"decd "D7"BcAF | "G"D2G2G2 :|
+|: Bc |\
+"G"dcBc d2ed | "D7"cBAB c2dc | "G"BGBG cBAG | "D7"A2A2 A2Bc |
+"G"dcBc d2ed | "D7"cBAB c2dc | "G"BgGB "D7"AcFA | "G"D2G2G2 :|
+
+
+%%sep 5 1 500
+
+X: 08100
+T: Opera Reel
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: 2/4
+L: 1/16
+K: D
+|: "D"[d2A2F2][d2A2F2] "A7"fafa | "D"[d2A2F2][d2A2F2] "A7"edef |\
+   "D"[d2A2F2][d2A2F2] fafa | "G"bd'"D"af "A7"[e2c2G2][e2c2G2] :|
+|: "D"[d2A2F2][d2A2F2] dAFA | "D"[d2A2F2][d2A2F2] "A7"efge |\
+   "D"[d2A2F2][d2A2F2] dAFA | "G"Bd"D"AF "A7"[E2C2][E2C2] :|
+|: "D"afaf "A7"gege | "D"faed "A7"cBA2 |\
+   "D"afaf "A7"gege | "D"fa"A7"ec "D"[d2A2F2][d2A2F2] :|
+|: "D"[d2A2F2]fd "A7"efge | "D"[d2A2F2]fd "A7"edcA |\
+   "D"[d2A2F2]fd "A7"efge | "D"fa"A7"ec "D"[d2A2F2][d2A2F2] :|
+
+
+%%sep 5 1 500
+
+X: 08200
+T: Virginia Reel Medley
+O: Henry Ford Coll.
+B: Henry Ford "Good Morning"
+R: jig
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Record No. 117-A
+N: The repeat pattern isn't clear from the music; it's best to ask the caller.
+M: 6/8
+L: 1/8
+K: G
+P: First Part (Larry O'Gaff)
+!Segno![|]\
+((3d/e/f) |\
+"G"kgGG BAG | ded dBG | "D7"kcec "G"kBdB | "D7"kABc def |\
+"G"kgGG BAG | ded dBG | "C"kcec "G"kBdB | "D7"AGA "G"G2 d ||
+"G"kdgg gfg | gfg "D7"afd | kdaa aga | aga "G"b2g |\
+   gag "Am"gfe | "G"ded dBG | "C"cec "G"BdB | "D7"AGA "G"G2 d ||
+P: Reel (Miss MacLeod's)
+M: 2/4
+L: 1/16
+K: G
+"G"kG2g2 edeg | k[BD]BBA k[B2D2]BA | "G"kG2g2 edeg | "D7"k[AD]AAG k[A2D2]BA |
+"G"kG2g2 edeg | k[BD]BBA k[B2D2]d2 | "C" eeed e2de | "G"gedB "D7"A2BA ||
+"G"GABc  dGBG | k[BD]BBA k[B2D2]BA | "G" GABc dGBG | "D7"k[AD]AAG k[A2D2]BA |
+"G"GABc  dGBG | k[BD]BBA k[B2D2]d2 | "C" eeed e2de | "G"gedB "D7"A2[d2D2] !D.C.Reel!y||
+P: March (Battle Hymn of the Republic)
+M: 2/4
+L: 1/8
+"G"[d3D3] [cC] | [BB,]>[dD] [gG]>[aA] | ([b4d4B4] | [g2G2]) z2 |\
+"C"[e3E3] [fF] | [gG]>[fF] [gG]>[eE] | "G"([d4B4D4] | [BGB,])[dD] [dD][dD] |
+"G"[d3D3] [cC] | [BB,]>[dD] [gG]>[aA] | ([b4d4B4] | [g2B2G2]) [g2G2] |\
+"Am"[a2A2] [a2c2A2] | "G"[g2B2G2] "D7"[f2A2F2] | "G"[g4-B4-G4-] | [g2B2G2] "D.S."z2 |]
+
+
+%%sep 5 1 500
+
+X: 10400
+T: Highland Schottische
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Composed of two ighland steps, two five-step schottisches, and four waltz-galop steps, turning.
+R: shottish
+M: C
+L: 1/8
+K: F
+|: "F"[F2C2A,2] [F2C2A,2] ([AC]<[cA]) [c2A2F2] |\
+"C7"[BE2C2]>G "F"[AF2C2]>F "C"[GE2]>E D>C |\
+"F"[F2C2A,2] [F2C2A,2] ([AC]<[cA]) [c2A2F2] |\
+"Bb"[dB2F2]>f "C7"[eB2G2]>g"F"[f2A2] z2 :|
+"F"[fA]>[gB][ac]>[fA] "C7"[gB]>e "F"[dA]>c |\
+"Bb"[dB]>e"(F)"[fA]>d "F"[cA]>A[GE]>F |\
+"F"[fA]>[gB][ac]>[fA] "C7"[gB]>e"F"[dA]c |\
+"F"[dB]>f"C7"[eB]>g "F"[f2A2] c2 |
+"F"[fA]>[gB][ac]>[fA] "C7"[gB]>e"F"[dA]c |\
+"Bb"[dB]>e"(F)"[fA]>d "F"[cA]>A[GE]>F |\
+"F"[F2C2A,2] [F2C2A,2] ([AC]<[cA]) [c2A2F2] |\
+"Bb"[dB2F2]>f "C7"[eB2G2]>g "F"[f2A2] z2 |]
+
+
+%%sep 5 1 500
+
+X: 10500
+T: Varsovienne Waltz
+B: Henry Ford's "Good Morning"
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Record No. 110-B
+R: waltz
+M: 3/4
+L: 1/8
+K: G
+D>G |\
+"G"([GB2]D) ([GB2]D) ([GB2]D) | "D7"([dF4]>c A3) D/F/ |\
+"D7"([FA2]D) ([FA2]D) ([FA2]D) | "G"([cD4]>B G3) D |\
+"G"[B2G2] [A2F2] [G2E2] | "D7"[GE]>[FD] [F4D4] |\
+"D7"[A2F2] [G2E2] [E2C2] | "G"[D6B,6] |
+"A7"[AE4]>B A2 [A2G2] | "D"[d2F2] [A2F2] [A2F2] |\
+"B7"[BF4]>c B2 [B2A2] | "Em"[e2G2] [B2G2] [B2G2] |\
+"D7"[dA4]>e d2 [d2F2] | "G"[eG4]>d e2 [d2B2] |\
+"Am"(3[cA2E2]dc "G"[B2G2D2] "D7"[A2F2C2] |\
+"G"[G2D2B,2] "A7"[A2G2^C2] "D"H[d2F2] || [BGD] ||
+|:\
+"G"[B4G4D4] "C/G"[c2G2E2] | "C"[c4G4E4] "G"[B2G2D2] |\
+"D7"[B2F2-] [A2F2] [c2F2] | "D7"[c4F4] [B2F2] |\
+"D7"[B2F2-] [A2F2] [c2F2] | "D7"[c4F4] [B2F2] |\
+[1 "G"[B2-G2] [B2-D2] [B2-G2] | "G"[B2-G2] [B2-D2] [B2-G2] :|\
+[2 "G"G6- | "G"G2 !D.C.!z2 |]

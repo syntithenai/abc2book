@@ -1,0 +1,27 @@
+X: 1
+T: Glendaruel Highlanders
+R: jig, march
+C: P/M A.Fettes, Scots Guard v.1
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+S: Terry Traub 2014-9-27
+N: The first two parts are most often heard, as a 32-bar jig.
+M: 6/8
+K: Amix
+ec \
+| "A"A>AA ABc | "A"ece "D"f2e | "A"cBA "D"faf | "E7"e3 efa \
+| "A"A>AA ABc | "A"ece "D"f2e | "F#m"fac "E7"edB | "A"A3- "(E7)"A :|
+ed \
+| "A"c2A "E7"ceB | "A"c2A Ace | "D"f2e faf | "E7"e3 efa \
+| "A"c2A "E7"ceB | "A"c2A Ace | "Bm"fec "E7"edB | "A"A3- "(E7)"A ||
+ed \
+| "A"c2A "E7"ceB | "A"c2A Ace | "D"f2e faf | "E7"e3 efg \
+| "A"acc cde | "Bm"fBB Bce | "F#m"fac "E7"edB | "A"A3- A |]
+|: AB |\
+"A"c3 ecB | ABc e2c | "D"f3 agf | "A"e3 efa |\
+"A"c3 ecB | ABc e2g | "D"fac "E7"edB | "A"A3- A :|
+z"#"g |\
+"A"a3 fec | ABc e2c | "D"f3 edc | "E7"B3 B2"#"g |\
+"A"a3 fec | ABc e2g | "D"fac "E7"edB | "A"A3- A ||
+z"#"g |\
+"A"a3 fec | ABc e2c | "D"f3 edc | "E7"B3 Bed |\
+"A"cec dcB | ABc e2g | "D"fac "E7"edB | "A"A3- A |]

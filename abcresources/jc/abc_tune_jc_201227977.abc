@@ -1,0 +1,21 @@
+X: 11021
+T: WALY, WALY
+O: Scottish air.
+Q: "Very slow."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.102 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F |\
+A>B c2 f2 | g>a g3 G | A>B c2 f2 | {a}ge f3 F |\
+A>B c2 f2 | g>a g3 G | AB c2 f2 | {a}ge f3 |]
+_e |\
+d>c B3 c | dc _e2 dc | df c2 a2 | _b(a/g/) f2 zf |\
+dc {B}A3 f | {d}cA {A}G3 _e | dB f2 zA | B(A/G/) F3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

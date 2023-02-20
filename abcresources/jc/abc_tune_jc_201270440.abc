@@ -1,0 +1,26 @@
+X:1
+T:Drunken Duncan  "1998.3"
+M:C
+L:1/8
+Q:80
+C:P. MacCallum
+S:March
+K:HP
+[| {g}A3/2B/2 | \
+{GdG}c2{Gdc}d{e}c{G}A2{gcd}ce | \
+{g}f3/2e/2{Gdc}df{g}f/2e3/2{g}f3/2g/2 |
+{ag}a2{GdG}ae{ag}a3/2g/2{a}fe | \
+{g}f3/2e/2{Gdc}dc{gBd}B2{gef}e3/2d/2 | \
+{g}c/2e3/2{Gdc}d{e}c{G}A2{gcd}ce |
+{g}f3/2e/2{Gdc}df{g}f/2e3/2{g}f3/2g/2 | \
+{ag}aA{Gdc}df{gef}ec{g}B{d}c | \
+{g}A2{GAG}A3/2{d}B/2{G}A2|] [ |
+{gcd}ce | \
+{ag}a2{GdG}ae{gfg}f3/2e/2{gcd}ce | \
+{g}f3/2e/2{Gdc}df{g}f/2e3/2{g}f3/2g/2 |
+{ag}a2{GdG}ae{ag}a3/2g/2{a}fe | \
+{g}f3/2e/2{Gdc}dc{gBd}B2{g}A3/2B/2 | \
+{GdG}c2{Gdc}d{e}c{G}A2{gcd}ce |
+{g}f3/2e/2{Gdc}df{g}f/2e3/2{g}f3/2g/2 | \
+{ag}aA{Gdc}df{gef}ec{g}B{d}c | \
+{g}A2{GAG}A3/2{d}B/2{G}A2|]

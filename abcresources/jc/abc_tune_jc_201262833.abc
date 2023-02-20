@@ -1,0 +1,27 @@
+X:133
+T:Close Harmony
+C:Colin Hume, 2012
+L:1/4
+M:3/4
+Q:1/4=112
+N:This is NOT a waltz - think of Handel's minuet from the Water Music suite in F, but slower!
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%MIDI gchord b2b
+%%MIDI beat 100 95 80
+%%MIDI program 68     Oboe
+%%MIDI chordprog 73   Flute
+%%MIDI bassprog 43    Contrabass
+%%MIDI chordname 7sus 0 5 7 10
+K:C
+P:A
+[| "C"cGc | "G"dGd/e/ | "F"fed/c/ | "G"dG2 |\
+"C/E"g3/f/e | "Am/F#"e3/d/c | "G"B/4c/4d/ "D7sus"A- "D7"A/G/ | "G"G3 |
+P:B
+"C"cGc | "G"dGd/e/ | "F"fed/c/ | "G"dG2 |\
+"C/E"g3/f/e | "Am/F#"e3/d/c | "C/G"e/4f/4g/ "G7sus"d- "G7"d/c/ | "C"c3 |
+P:C
+"G"BB "D/F#"d | "Em"G3/A/ "Em/D"B | "C"cc "Am"e | "D"d3 |\
+"Em"Bed | "Am"c3/B/A | "Am/E"cB- "E7"B/A/ | "Am"A2 "G"B |
+P:D
+"C"cE "C/B"E | "Am"E/D/E/F/ "C/G"G | "F"cA "F/E"A | "Dm"A/G/A/B/ "F/C"c |\
+"G7/B"d "G7"g "G7/B"f | "C"ed/e/ "F"f | "C/G"e/4f/4g/ "G7sus"d- "G7"d/c/ | "C"c3 |]

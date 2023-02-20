@@ -1,0 +1,22 @@
+X: 1
+T: Sk\"ankl\aat, "Sk\aalarna"
+C: Trad. efter Byss-Kalle
+B: #9 in 57 L\aatar efter Byss-Kalle
+R: skanklat, march
+S: http://www.nyckelharpa.org/archive/written-music/american-allspel-list/ 2022/9/28
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: 1/4=60
+K: G
+"^A"\
+|: G2d2  d2d2  | cBcd    c2Ac  | B2B2    (dB)GB |1 A2D2 D4 :|2 A2D2 (DG)FG ||
+"^B"\
+[| A2A2 (AB)GB | A2D2   (DE)FG | A2A2    (AB)GB |  A2D2 A2Ac |
+| (BA)GF  G2Ac | BAGF    G2A2  | (BG)dG  (BA)dF |  G4   G4 |]
+"^C"\
+[| _B2d2  d2Bd | (dc)cc (ec)Ac | (c_B)BB (Bd)cB | _B2AB A4 |
+|  _B2d2  d2Bd | (dc)cc (ec)Ac | (c_B)BB (Bd)cB | _B2AB (AG)FG |]
+"^B"\
+[| A2A2 (AB)GB | A2D2   (DE)FG | A2A2    (AB)GB |  A2D2 D2Ac |
+| (BA)GF  G2Ac | BAGF    G2A2  | (BG)dG  (BA)dF |  G4   G4 |]

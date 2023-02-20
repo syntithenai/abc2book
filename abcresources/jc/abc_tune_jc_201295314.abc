@@ -1,0 +1,55 @@
+
+X: 0
+T: Klezmer Reel Medley 32 (D G)
+P: C instruments
+N: Arranged for contradance by Ben Pasamanick & John Chambers
+K: A
+
+%%sep 1 1 500
+
+
+X: 1
+T: Yikhes    [D]
+R: freilach
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+S: unknown source, from Ben Pasamanick 2018-9-14
+L: 1/8
+M: 4/4
+K: _B_e^F	% D freygish
+ D "A"|:\
+"D"F2 G2 A2 FD | GF- F6 |\
+F2 G2 AG BA | "Gm"G4 zG AB |\
+"Cm"cA B{A}G AF G{F}E | "D"GF-F2 zD ED |\
+"D"AF G{F}E "Cm"FD E{D}C |
+"D"D6 z2 "B"::\
+"Gm"G4 G4 | G2 G2 G2 G2 |\
+"Gm"DB AG "D"FG AF | "Gm"G4 zD ED |\
+"D"F4 zD ED | A8 |
+Ac BA BA GF | "Gm"G6 z2 \
+"C"::\
+"D"DF/F/ FF F2 A2 | "Cm"GF ED C4 |\
+CE DC FG FE |1,3 "D"D2 G2 "Cm"FE DC :|2,4 "D"D6 z2 :|
+
+%%sep 1 1 500
+
+
+X: 1
+T: Road to the Isles    [G]
+O: Scotland
+C: Kenneth MacLeod
+%date 1917
+M: 4/4
+L: 1/8
+N: Often played without repeats.
+N: Possibly written by a John MacLellan of Dunoon.
+N: Also known as 'The Burning Sands of Egypt' and 'The Bens of Jura'.
+N: Usually played as a strathspey, but occasionally heard as a plain march.
+K: G
+"A"[|] DG |\
+"G"B4 dB AB | "C"GA GF E2 GF | EC EF "G"GA Bd | "Am"A4- "D7"A2DG || "G"B4 dB AB |
+"C"GA GF E2 c2 |"G"Bd BG "D7"DF AF | "G"G2-"C"G2-"G"G2 "B":: Bc | "G"dD ~D2 BD ~D2 | "C"GA GF E2 GF |
+EC EF "G"GA Bd | "Am"A4- "D7"A2Bc || "G"dD ~D2 BD ~D2 | "C"GA GF E2 c2 |"G"Bd BG "D7"DF AF | "G"G2-"C"G2-"G"G2 :|
+
+%%sep 1 1 500
+
+%%text arr. Ben Pasamanick & John Chambers

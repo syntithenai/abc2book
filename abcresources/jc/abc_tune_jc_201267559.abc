@@ -1,0 +1,26 @@
+X:1
+T: Dear Abby
+N:
+C:Gary Roodman
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 216
+%W: A1
+% voice 1 (1 lines, 37 notes)
+K:G
+M:4/4
+L:1/16
+d4 |B4 d4d4 f4 |g2 f2 e2 d2 c4 d4 |B4 d4d4 f4 |e8 d4 c4 |B4 d4d4 f4 |g2 f2 e2 d2 c4 d4 |g4 e2 c2 d4 f4 |g4 G4G4 d4 |
+%W: A2
+% voice 1 (1 lines, 36 notes)
+B4 d4d4 f4 |g2 f2 e2 d2 c4 d4 |B4 d4d4 f4 |e8 d4 c4 |B4 d4d4 f4 |g2 f2 e2 d2 c4 d4 |e2 d2 c2 B2 A4 F4 |G8 F4 ^D4 |
+%W: B1
+% voice 1 (1 lines, 40 notes)
+E4 B4B4 G4 |A2 B2 A2 G2 F4 ^D4 |E4 B4B4 B4 |d2 e2 d2 c2 B6 d2 |e4 B4 d4 f4 |g2 a2 g2 f2 ^d4 B2 d2 |e2 f2 e4 B2 A2 F4 |E8 F4 ^D4 |
+%W: B2
+% voice 1 (1 lines, 38 notes)
+E4 B4B4 G4 |A2 B2 A2 G2 F4 ^D4 |E4 B4B4 B4 |d2 e2 d2 c2 B6 d2 |e4 B4 d4 f4 |g2 a2 g2 f2 ^d4 B2 d2 |e2 f2 e4 B2 A2 F4 |E12 ||

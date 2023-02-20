@@ -1,0 +1,32 @@
+X: 4241
+T: Sir Watkin William Wynn.
+O: A Welch Air
+%R: air, waltz
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.24 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+Q: "Slowish"
+K: G
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 12-bar lines, for compactness and proofreading.
+V: 1 staves=2
+D2 |\
+(G2B2).d2 | (B2G2).B2 | (AB)(cA)(BG) | A2F2D2 ||\
+TG>AB>GA>F | (G2E2).C2 | D2G2TF2 | [G4D4B,4] :||:\
+D2 |\
+TG2(B2d2) | (g2d2).B2 | ([AF][BG])([cA][dB])([ec][^dB]) | (e2c2).A2 ||
+(GA).B.c.d.e | (d2B2).G2 | !f!A2d2T^c2 | d4!p!B=c ||\
+(d2g2).d2 | (B2G2).B2 | (AB)(cA)(BG) | (A2F2).D2 ||\
+TG>AB>GA>F | (G2E2).C2 | D2[G2B,2][F2A,2] | [G4D4B,4] :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 |\
+[g6d6B6] | G2B2G2 | c4e2 | d4c'2 ||\
+b2g2d2 | c2e2a2 | d2b2a2 | g4 :|\
+|: z2 | G4g2 | G6 | d4B2 |
+c2e2f2 ||\
+g4g2 | b4g2 | !f!fga2A2 | d2D2!p!z2 ||\
+[b4g'4][b2g'2] | [g4d'4][g2d'2] | [f4d'4][g2d'2] |d4c'2 ||\
+b2g2d2 | c2e2a2 | d4D2 | [G4g4] :|

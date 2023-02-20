@@ -1,0 +1,24 @@
+X: 1
+T: Jock McLeod's Wedding March
+C: Alexander C. McColl 1947
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: Celebrate Fifty Years of Dancing with the Boston Branch RSCDS (2000)
+N: According to Jeanetta McColl, the composer's daughter, the first
+N: two bars were a quote of the opening of Beethoven's 5th Symphony.
+N: [From Susie Petrov in a message to the strathspey list, 2016-8-28.]
+M: 6/8
+L: 1/8
+K: D
+a \
+| "D"f>ef d3 | "A7"e>de c3 | "D"f>ef "Bm"def | "Em"g>fg "A7"efg \
+| "D"f>ef d3 | "A7"e>de c2g | "D"f>ed "A7"Ace | "D"d3 d2 :|
+|: f/g/ \
+| "D"a2a "D7"a>fd | "G"B<GB dBA | "D"a2a "Bm"d>ef | "Em"g>fg "A7"efg \
+| "D"a2a "D7"a>fd | "G"B<GB dBA | "D"f>ed "A7"Ace | "D"d3 d2 :|
+|: f \
+| "D"A>AA A3 | f>ef def | "A7"a>eg "D"fdd | "Em"g>fg "A7"edB \
+| "D"A>AA "D7"A3 | "G"B<GB dBA | "D"f>ed "A7"Ace | "D"d3 d2 :|
+|: g \
+| "D"f>dd add | "A7"g>cc ceg | "D"f>dd "Bm"add | "Em"g>fg "A7"efg \
+| "D"f>dd add | "A7"g>cc cea | "D"f>ed "A7"Ace | "D"d3 d2 :|

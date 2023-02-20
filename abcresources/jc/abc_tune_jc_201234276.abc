@@ -1,0 +1,29 @@
+X: 203
+T: MISS HALDANE OF GLENEAGLES
+C: Wm SHEPHERD
+R: Strathspey
+B: Glen Collection p.20 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: C
+%
+V: 1
+GF |\
+E3C C2DE F3E D2GF | E2C2 C2E2 DCB,A, G,2GF | E3C C2DE F3E D2G2 | ABcA Bcdf e2c2c2 :|
+{a}gf |\
+e3c c2de f3e  d2gf | e2c2 c2A2 BcdB G2gf | e3c  c2de f3e  d2gf | e2c2 Gagf e2c2c2 gf |
+e3c c2de fgaf d2gf | e2c2 c2A2 BcdB G2cB | A2c2 G2c2 F2d2 E2c2 | DEFD EAGF E2C2C2 |]
+%
+V: 2
+z2 |\
+c4[g4e4] G4[f4d4] | c4[g4e4] G4[d4B4] |\
+c4[g4e4] G4[b4g4] | f4g4 c4[c'2g2e2c2] :|
+z2 |\
+[c'4g4c4][c'4g4c4] [b4g4c4][b4g4c4] | c4[c'4g4] G4[b4g4] |\
+[c'4g4c4][c'4g4c4] [b4g4c4][b4g4c4] | [c'4g4c4][b4g4] [c'4g4][c'4g4] |
+[c'4g4c4][c'4g4c4] [b4g4c4][b4g4c4] | c4[c'4g4] G4[b4g4] |\
+[c'4f4][c'4e4] [b4d4][c'4c4] | [b4g4][b4g4] [c'4c4][g2e2c2] |]

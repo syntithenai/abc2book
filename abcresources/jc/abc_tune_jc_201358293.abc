@@ -1,0 +1,15 @@
+%%staffwidth 200pt
+X: 1
+T: D Dorian key signatures
+K: Ddor
+P: Ddor
+[| DEFG ABcd |]
+P: Ddor clef=bass
+K: Ddor clef=bass
+[| DEFG ABcd |]
+P: Ddor clef=bass middle=D
+K: Ddor clef=bass middle=D
+[| DEFG ABcd |]
+P: Ddor clef=bass middle=d
+K: Ddor clef=bass middle=d
+[| DEFG ABcd |]

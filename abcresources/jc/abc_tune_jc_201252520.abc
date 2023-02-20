@@ -1,0 +1,28 @@
+X: 1
+T: Billy Kings Bass Minuet
+%R: minuet
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (55)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "1st strain twice" instruction.
+N: The bar line between measures 13 and 14 was missing.
+M: 3/4
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+A2EDCB, | A,2cBcA | B2G2G2 | G2edcB |\
+c2^G2A2 | E2C2F2 | DFEDCB, | A,6 :|
+e2c2c2 | d4G2 | cedfeg | e3def |\
+g2c2d2 | BAG2c2 | d2B4 | c3edB "D.C."|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center The 1st strain twice the second but once and End with the 1st strain
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Minuet step The 1st Cu. go hands across half round with
+%% the 2d Cu. and lead thro the 3d Cu. and cast up .| then
+%% hands across half round with the 3d Cu. and cast up to
+%% the Top :| the 1st and 2d Cu. take hands and go quite
+%% round then the 1st Cu. cast of [sic] in the 2d Cu. place.
+%%endtext
+%%sep 1 8 500

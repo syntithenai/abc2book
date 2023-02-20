@@ -1,0 +1,20 @@
+X:167
+T:The Dance The Polygon
+C:Ashover Book, c. 1764
+M:4/4
+L:1/8
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=112
+%%MIDI gchord fcHcfcIc
+K:D
+P:A
+"D"Dd/c/ dd fdf2 | "A7"af a/g/f/e/ "D"d/c/d/e/ dd |\
+"D"Dd/c/ dd fdf2 | "A7"agfe "D"d2d2 |
+P:B
+"Em"[eg][eg] "D"[df][df] "Em"[eg][eg] "D"f2 | "D"Dd/c/ dd fdf2 | "A7"af a/g/f/e/ "D"d2D2 |
+P:C
+"G"G3/A/BB Bd d2 | "G"Bd "C"e/d/=c/B/ "Am"A/G/A/B/ "D7"AA |\
+"G"G3/A/BB Bd d2 | "G/B"dB "C"e/d/=c/B/ "G/D"B2 "D"A2 |
+"D7"A3/B/=cc "G"BdgB | "D7"A3/B/ =cc "G"Bd/e/ "D7"d/c/B/A/ |\
+"G"G3/A/BB BdgB | "D7"dB d/=c/B/A/ "G"G4 |]
+W:C-music bars 2 and 8: note "C" has no "natural" sign in original.

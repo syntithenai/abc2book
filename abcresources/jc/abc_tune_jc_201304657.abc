@@ -1,0 +1,25 @@
+X: 1
+T:The MacRae Meadow
+M:C
+L:1/8
+Q:80
+C:March
+S:
+K:HP
+{g}c3/2d/2{gcd}c{e}B{G}A2{gcd}ce|
+{gfg}f3e{gcd}c4|
+a2{g}a2{GdG}ae{g}fa|  !
+{fg}f3e{gcd}c4|
+{Gdc}d3e{gfg}f2{g}ed|
+{G}A3B{GdG}c4|  !
+{g}f3a{ef}ea{Gdc}dc|
+{gBd}B4{G}A3{g}e|]
+a2{g}a2{GdG}ae{g}fa|  !
+{gfg}f3e{gcd}c4|
+{g}c3/2d/2{gcd}c{e}B{G}A2{gcd}ce|
+{fg}f3e{gcd}c4|  !
+{Gdc}d3e{gfg}f2{g}ed|
+{G}A3B{GdG}c4|
+{g}f3a{ef}ea{Gdc}dc|  !
+{gBd}B4{G}A4|]
+

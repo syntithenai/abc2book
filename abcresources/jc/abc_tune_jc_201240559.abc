@@ -1,0 +1,30 @@
+X: 4012
+T: the Countess of Eglintoun's Delight
+C: by Niel Gow. *
+%R: air, jig
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.1 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slowish"
+K: Bb
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 8-bar lines.
+V: 1 staves=2
+E |\
+(D/E/F)F TF2d | Tc>Bc (dB).G | (D/E/F)F TF2d | Tc3 {Bcd}G2z ||\
+(D/E/F)F TF2d | Tc>Bc dBG | (g/a/b).g fdb | fdB B2 :|
+g |\
+(fd).f (bf)._a | (ge).g fdB | (fd).f (bf)._a | Tg>fg c2g ||\
+(fd).f (bf).._a | (ge).g fdB | Tg>ab fdB | (FB).A B2g ||
+(fd).f (bf)._a | (ge).g (fd).B | (fd).f (bf)._a | Tg>fg c2g ||\
+(fd).f (bf)._a | (ge).g (fd).B | .g(ec) .f(dB) | (FB).A B2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | B3 b3 | f3 e3 | d3 B3 | f3 e3 ||  [B3d3] b3 | f3 e3- | e3 d2B |
+F3 B2 :| z | B3 d3 | e3 d3 | B3 d3 | e3 f3 || B3 d3 | e3 d3 | e3 d2B | f2F B3 ||
+B3 d3 | e3 d3 | B3 d3 | e3 f3 || B3 d3 | e3 d3 | e3 d2B | f2F B2 |]
+% - - - - - - - - - -
+% The * after Gow's name refers to the Notice at the bottom of page 1.
+% It's in a different file (4019_notice.abc) in this ABC collection.

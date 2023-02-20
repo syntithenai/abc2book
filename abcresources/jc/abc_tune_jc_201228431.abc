@@ -1,0 +1,40 @@
+X: 11281
+T: Tweed Side
+%R: waltz, minuet
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.28 #1 (and top 8 staffs of p.29)
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Some pickup notes are slurred; others aren't, in no clear pattern.
+N: Removed last beam in bar 66 to fix the missing 8th note. (Cf. bar 18.)
+M: 3/4
+L: 1/16
+K: D
+"_Slow"Tf3e |\
+e4 {B}A4 B4 | d6 e2f2g2 | {f}e8 (f3e) | d4 {B}A4 B4 |\
+d4 (a2g2)(f2e2) | d8 (Tf3e) | d4 {B}A4 B4 | (d2c2d2e2) {fg}a4 |\
+{f}e8 (Td3e) | f4 (a2f2)(Te3d) |
+e4 {de}Te6 d2 | d8 :: (f3g) |\
+{fg}a4 g2f2Te3d | d6 e2 f2(ga) |{f}e8 (f3g) | {g}a4 (g2f2)(Te3d) |\
+d6 e2f2g2 | {fg}a8 (ga)b2 | a4 (g2f2){f}(Te3d) | d6 e2 f2(ga) |
+{f}e8 (d3e) | f2d2 b2a2 (d'c'ba) | (gfed) {d}Te6 d2 | d8 :: Tf3e |\
+d4 {G}F4 {E}D4 | d6 b2 a2(gf) | Tf4 e4 (f3e) | d4 (F3A)(G3A) |\
+D4 (afed) (gedc) |
+{c}d8 (Tf3e) | d3A (BAGF E2D2) | d6 g2 {b}a2gf |\
+Tf4 e4 (agfe) | d2b2 a4 a3(3(g/f/e/) | d3(3(c/B/A/) Te6 d2 | d8 :: (f3g) |\
+{fg}a4 {g}f4 {e}d4 |
+d6{ge} b2 a2gf | Tf4 e4 f3g | .a2.d'2.f2.a2.d2.f2 |\
+(A2d2)(f2a2)(d'2e'2) | {d'}c'6 a2b2c'2 | d'4 (d2f2a2c'2) | b2(d'c')b2a2g2f2 |\
+Tf4 e4 (ABcd/e/) | (f2d2)(a2f2)(d'2d2) |
+(c/B/A3) {A}e6 d2 | d8 :: f3e |\
+d2A4 B4c2 | (d3c)(e3d)(g3f) | Tf4 e4 Tf3e | d2A4 B4c2 |\
+d2(.b2.a2.g2.f2.e2) | d8 (Tf3e) | d2A4 B4c2 | d3(c/B/ f3)(e/d/ g3)f |
+Tf4 e4 (fedc) | d2(.b2.a2.g2.f2.e2) | f/e/d3 {A}e6 d2 | d8 :: (f3g) |\
+a2(ba) g2f2 Tf2(ed) | "_P.29" (g/a/)b a4 (gf) g2f2 | {ef}Tf4 e4 f3g | a2(ba) g2f2Tf2e2- |
+e2 d4 e2 f2g2 | {fg}a8 (gab2) | a2(ba) g2f2 Tf2ed | (g/a/b) a4 gf g2f2 |\
+Tf4 e4 (agfe) | d2b2 a3(g/f/ gfed) | (c/B/A3) Te6 d2 | d8 :|
+|: (Tf3e) |\
+d4 {B}A4 B4 | d6 e2 (fgab) | {f}e8 (Tf3e) | (d2e2f2)e2d2c2 |\
+(B2c2)(d2e2)(f2g2) | a6 a2b2c'2 | (d'2c'2)(b2a2)(g2f2) | (b2a2g2f2e2d2) |
+Tc8 (d2c2) | B4 (ga)b2 (fa)d'2 | (ef)g2 Te6 d2 | d8 :: (abc'2) |\
+d'2a2f2a2f2d2 | A2d2 f2a2d2f2 | Tf4 e4 (f3g) | .a2.d'2.f2.a2.d2.f2 |
+A2d2f2a2d'2e'2 | {d'}Tc'6 a2b2c'2 | d'4 d2f2a2c'2 | b2(d'c')b2a2g2f2 |\
+Tf4 e4 d2c2 | (B2c2)(d2e2)(f2g2) | a2b2 (Te6 de) | d8 :|

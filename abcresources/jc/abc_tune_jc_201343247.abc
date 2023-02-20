@@ -1,0 +1,34 @@
+
+X: 1
+T: Tanko Bushi
+T: Coal Miner's Dance
+O: Japan
+M: 2/4
+L: 1/8
+K: G
+"^instr:"\
+[| D>B A>G | Az A>A | D>B A>G | Az A>A | D>d B>d A>B G>E | D>B A>G | Az ||
+"^vocal"\
+|: A>A \
+| Dz B,>D | D4- | D2 E>G | G2 G2- | G2 A>G | ~E2 D>D | E3 z/[gG]/ | [eE]z [eE]z |
+| z>G, A,>B, | D>E G2 | E2 D2- | D2 E>D | B,2 A,>G, | A,2 a/d>b | az G>A | B2 B2- |
+| B2 d>e | d2 B>A | G2 A>B | G2 E>D | D2 g/e>d | dz E>G | G2 G2- | G2 A2 |
+| E2 D2 | z>D E>G | ~G2 E>G | Az [bB]>[gG] | [aA]z [aA]z "instr"|| D>B A>G | Az A>A | D>B A>G | Az :|
+
+%%sep 1 1 500
+
+X: 1
+T: Tanko Bushi
+T: Coal Miner's Dance
+O: Japan
+M: 2/4
+L: 1/8
+K: A
+"^instr:"\
+[| E>c B>A | Bz B>B | E>c B>A | Bz B>B | E>e c>e B>c A>F | E>c B>A | Bz ||
+"^vocal"\
+|: B>B \
+| Ez C>E | E4- | E2 F>A | A2 A2- | A2 B>A | ~F2 E>E | F3 z/[aA]/ | [fF]z [fF]z |
+| z>A, B,>C | E>F A2 | F2 E2- | E2 F>E | C2 B,>A, | B,2 b/e>c' | bz A>B | c2 c2- |
+| c2 e>f | e2 c>B | A2 B>c | A2 F>E | E2 a/f>e | ez F>A | A2 A2- | A2 B2 |
+| F2 E2 | z>E F>A | ~A2 F>A | Bz [c'c]>[aA] | [bB]z [bB]z "instr"|| E>c B>A | Bz B>B | E>c B>A | Bz :|

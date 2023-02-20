@@ -1,0 +1,24 @@
+X: 11311
+T: Peggy I must love thee
+%R: air, strathspey
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.31 #1 (top 5 staffs continued from p.30)
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+"_Slow" D |\
+{D}E2 G>A G3 B | {AB}cBAG TE3D |\
+{D}E2 (G>A) (G>A)(B>c) | {B}TA4 G3 :: A |\
+{A}B2 d>e d3 e | gedB {B}TA3G |
+{A}B2 (d>e) d3e | =fefg {f}e3d |\
+e2(g>e) d2(e>d) | B2g>B {B}TA3G |\
+{D}E2G>A (G>A)(B>c) | {B}A4 G3 :|
+|: d |\
+e2{ef}g2 G2g>a | {ga}b2 Ta>g Te3d |\
+e(g/f/) gG Bdga | {ga}b2Ta>g g3 :: d |\
+{Bc}d2(.d.d) d3e | (d/e/g/e/) (TdB) {B}TA3G |
+{Bc}d2(.d.d) {Bc}d2de | (=fefg) {f}e3d |\
+e(g/f/) ge d2 gG | caBg {B}TA3G |\
+{ef}g2(.g.g) eFGc | {B}TA4 G3 :|

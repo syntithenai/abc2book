@@ -1,0 +1,20 @@
+X:2
+T:Kazialest
+G:Kazimodal
+R:Bourr\'ee 2 temps
+C:Ronan Keryell, arrangement http://kazimodal.trad.org
+Q:C2=145
+P:B4
+M:4/4
+%%MIDI gchord c2ffccf2
+%%MIDI chordprog 105
+%%MIDI chordvol 80
+%%MIDI bassprog 36
+%%MIDI bassvol 127
+%%MIDI program 69
+K:Am ^g
+P:B
+|: "Am"A2 cA "C"e3 c | "Dm"d>e cd "E"e>d cB |\
+	"Am"A2 cA "C"e3 c | "Dm"d>e cd "E"B4 :|
+|: "Dm"d>e fa "E"g f2 e | "Dm"d e2 f "E"a b2 g |\
+	"Dm"d>e fa "E"g f2 e | "Dm"de fe "E"d>c B2 :|

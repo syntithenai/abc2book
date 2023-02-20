@@ -1,0 +1,38 @@
+X: 3
+T: Minny Wow's Fancy, and Puggy's delight.
+%R: reel
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Thomas Wilson & Willian Harmony "Four New Country Dances", 1812
+F: https://ia600206.us.archive.org/26/items/Wilson4NewCountryDances/Wilson%20-%204%20New%20Country%20Dances.pdf
+M: C|
+L: 1/8
+Q: "Allegro"
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+[|\
+cAdB ecTBA | fdcB AGTFE | cAdB ecfd | ec TBA {A}G2z2 | cAdB ecTBA |
+fdcB AGTFE | cAdB ecfd | ed TBG A2z2 |]| efga bgTfe | c'aTgf baTfe | efga bgTfe |
+c'agf edcB | cAdB ecTBA | fdcB AGTFE | cAdB ecfd | ed BG A2z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+A2B2 c2d2 | B2d2 e2E2 | A2B2 c2d2 | c2d2 e2E2 | A2B2 c2d2 |
+B2d2 e2E2 | A2B2 c2d2 | e2E2 A2A2 |]| e2E2 e2E2 | e2E2 e2E2 | e2E2 e2E2 |
+e2E2 e2E2 | A2B2 c2d2 | B2d2 e2E2 | A2B2 c2d2 | e2E2 A2 A,2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text  SINGLE FIGURE (the tune played S.t through)
+%%begintext align
+%% Set and change sides, set and back again |: lead
+%% down the middle up again and right and left with
+%% top Couple .| .
+%%endtext
+%%center --
+%%text  DOUBLE FIGURE (each strain repeated)
+%%begintext align
+%% Hay contrary sides .| hay on your own sides .|
+%% lead down the middle up again set to the top Couple
+%% .| swint corners |:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

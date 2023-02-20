@@ -1,0 +1,17 @@
+X:1
+T:Berkeley Reel
+C: Larry Unger
+M:C|
+K:Bm
+"Bm"Bffe fgfe|"G"dBBA "A"ABcA|"Bm"Bffe fgfe|"G"dBAF "F#m"A2 FA|
+"Bm"Bffe fgfe|"G"dBBA "A"ABcA|"G"B2 dB "D"AFED|"Em"EFED "G"B,2D2:|
+|:"Em"EDB,D E2 DE|"F#m"FAAB AFED|"G"EDEF EDB,D|EDB,D "A"A,4|
+"Em"EDB,D E2 DE|"F#m"FAAB AFED|1"G"EDEF EDB,D|"A"FABA "Bm"B4:|
+[2"Em"EFGE "F#m"FGAc |"G"Bcde "A"fedc|] "Ending" "Bm"B4 z4|]
+%%text $1Ending: Play the indicated B with Bm chord after the 2nd ending.
+#include "LeftHeader.h"
+%%footer 03/27/19 For use only by Roaring Jelly members
+%%text Set 139 NEFFA 2019
+%%scale .7
+$SmallLMargin
+$SmallRMargin

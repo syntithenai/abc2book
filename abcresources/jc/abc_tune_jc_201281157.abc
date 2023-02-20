@@ -1,0 +1,90 @@
+
+X: 1
+T: Glencoe March
+T: Glencoe Bridge March
+C: Dan R. MacDonal
+B: BSFC Session Tune Book 2016 p.54
+B: BSFC Tune Book IV-22
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+FG |\
+"D"A2 d2 F2 d2 | "D"A<F A<d f3a | "A7"~g3e ~c>A c<e |\
+[1,3 "A"d>c d>B A2 :|2,4 "D"d4 d2 :|
+|: fg |\
+"D"{fg}a3g f>d f<a | "A7"g3e ~c>A c<e | "D"d>c d>e f>d f<a | "G"g>f g<b "A/c#"a2 ||
+[1 fg |\
+"D"{fg}a3g f>d f<a | "A7"g3e ~c>A c<e | "D"d>c d>f "A"e<a c<e | "D"d4 d2 :|
+%fg |\
+%"D"{fg}a3g f>d f<a | "A7"g3e ~c>A c<e | "D"d>c d>e f>d f<a | "G"g>f g<b "A/c#"a2 ||
+[2 fg |\
+"D"(3agf ~g>e f>d e<c | d>B A>F D>F A>d | "Em"B>G B<d "A7"c>A c<e | "D"d4 d2 |]
+
+
+X: 2
+T: the Lewis Bridal Song - Mairi's Wedding
+O: trad. Hebrides Islands
+B: BSFC Session Tune Book 2016 p.54
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: D
+"A"[|] f | \
+"D"A>A AB | de "D7"f2 | "G"ed "Em"Bd | "A7"fe fa |\
+"D"A>A AB | de "D7"f2 | "G"ed "Em"BG | "A7"A2 A |]
+"B"[|] z |\
+"D"a>a ab | ag f2 | "G"ed "Em"Bd | "A7"fe fa |\
+"D"a>a ab | ag f2 | "G"ed "Em"BG | "A7"A2 A |]
+
+
+X: 3
+T: Louden's Bonnie Banks and Braes    [D]
+T: Lord Moira
+B: trad. pipe strathspey, "Ceol na fidhle" and pipe collns.
+B: James Kerr "Merry Melodies" v.3 p.19 #161
+S: BSFC Tune Book p.55 #1 arr. B.McOwen
+B: BSFC Session Tune Book 2016 p.55
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+"A"[|] A |\
+"D"d2 d2 f<a a2 | "G"g>e f>d "A"e>d c<A |\
+"D"d2 d2 f<a a2 | "G"B{c}d "A"c<A "D"d2 d :|
+"B"|: A |\
+"D"d>e f>d "A"e>d c<A | "G"B>c d>c "A"B<c A>B |\
+"D"d>e f>d "A"e>d c<A | "G"B{c}d "A"c<A "D"d2 d :|
+
+
+X: 4
+T: the Smith's a Gallant Fireman
+T: Carrick's Rant
+Z: John Chambers <jc:trillian.mit.edu>
+N: Often attributed incorrectly to J.S.Skinner. He wrote variations, but it's an old tune.
+B: John Anderson's "Second Collection of New Highland Strathspey Reels" 1791
+% 4 ways to give the publication date:
+O: 1791
+N: Published 1791
+%D: 1791
+%date: 1791
+%%slurgraces yes
+%%graceslurs yes
+B: In O'Neill's Dance Music of Ireland under the title "More Luck to Us"
+B: H&C p.87 (best setting)
+B: Skye p.44
+B: BSFC VII-2 and I-55
+B: BSFC Session Tune Book 2016 p.55
+M: C
+L: 1/8
+K: D
+[| "D"~D2 D>F {F}A2 A>B | A>B d>A F2 D2 \
+ | "Em"~E2 E>G {G}B2 B>f | g>f e>d "A7"B>A B{c}d |
+ | "D"~D2 D>F {F}A2 A>B | A>B d>A F2 D>F \
+ | "G"G>B G<B "D"F>A F<A | "Em"E>F G>A "A7"B>A B>c ||
+|| "D"d2 f>e e<d d>B | A>B d>A F2 D2 \
+ | "Em"e2 g>f e<e e>f | "G"g>f e>d "A7"B>A B>c |
+ | "D"d2 f>e e<d d>B | A>B d>A F2 D2 \
+ | "G"G>B G<B "D"F>A F<A | "Em"E>F G>A "A7"B>A B{c}d |]

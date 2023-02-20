@@ -1,0 +1,69 @@
+
+X: 1
+T: R\ua\vcenica for Three  [F]
+O: Bulgaria
+P: AB.ABC.DEC.DEC.FGC.FGC.DEC
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 7/8
+L: 1/8
+K: F
+"A" \
+[|"F"[A2F] [A2F] [A2F][BG] | [c2A] [c2A] [c2A][dB] | "C7"[e4c] [d3B] | "F"[c7A] \
+| "F"[A2F] [A2F] [A2F][BG] | [c2A] [c2A] [c2A][dB] | "C7"[e4c] [d3B] | "F"[c7A] |]
+"B" \
+|:"F"[c4A] "C7"[B3G] | "F"[A4F] "Bb"[d3B] | "F"[c2A] [c2A] [BG][AF][BG] | "F"[c7A] \
+| "F"[c4A] "C7"[B3G] | "F"[A4F] "Bb"[d3B] | "F"[c2A] [c2A] [BG][AF][BG] | "F"[A7F] :|
+%P: -
+"C" \
+|:"F"[AF][BG] [AF][BG] [c2A][cA] | "C7"[cA][dB] [cA][BG] "F"[A3F] | "F"[AF][BG] [AF][BG] [c2A][cA] | "C7"[cA][dB] [cA][BG] "F"[A3F] \
+| "F"[AF][BG] [AF][BG] [c2A][cA] | "C7"[cA][dB] [cA][dB] [e2c][dB] | "C7"[cA][dB] [dB][cA] [cA][BG][BG] | "F"[A7F] :|
+%P: -
+"D" \
+[|"F"[A2F] [B2G] [c3A] | [A2F] [B2G] [c3A] | "Bb"[d2B] [d4B][dB] | "C7"[cA][BG] [BG][AF] "F"[A3F] \
+| "F"[A2F] [B2G] [c3A] | [A2F] [B2G] [c3A] | "Bb"[d2B] [d4B][dB] | "C7"[cA][BG] [BG][AF] "F"[A3F] |]
+"E" \
+|:"Bb"[d2B] [d2B] [d2B][dB] | [d2B] [d2B] [d2B][cA] | "C7"[c2A] [d2B] [e2c][dB] | "F"[d2B] [c2A] [c3A] \
+| "C7"[c2A] [d2B] [e2c][dB] | "F"[d2B] [c2A] [c3A] | [A2F] [B2G][c2A][cA] | "C7"[cA][BG] [BG][AF] "F"[A3F] :|
+P: - C -
+"F" \
+[|"F"[c2A] [d2B] [dB][cA][dB] | "C7"[e7c] | "Bb"[cA][dB] [d2B] [dB][cA][BG] | "F"[c7A] \
+| "F"[c2A] [d2B] [dB][cA][dB] | "C7"[e7c] | "Bb"[cA][dB] [d2B] [dB][cA][BG] | "F"[c7A] |]
+"G" \
+[|"F"[c2A] [d2B] [cA][BG][AF] | "C7"[B7G] | [c2A] [d2B] [dB][cA][BG] | "F"[A7F] \
+| "F"[c2A] [d2B] [cA][BG][AF] | "C7"[B7G] | [c2A] [d2B] [dB][cA][BG] | "F"[A7F] |]
+P: - C -
+
+
+X: 2
+T: R\ua\vcenica for Three  [G]
+O: Bulgaria
+P: AB.ABC.DEC.DEC.FGC.FGC.DEC
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 7/8
+L: 1/8
+K: G
+"A" \
+[|"G"[B2G] [B2G] [B2G][cA] | [d2B] [d2B] [d2B][ec] | "D7"[f4d] [e3c] | "G"[d7B] \
+| "G"[B2G] [B2G] [B2G][cA] | [d2B] [d2B] [d2B][ec] | "D7"[f4d] [e3c] | "G"[d7B] |]
+"B" \
+|:"G"[d4B] "D7"[c3A] | "G"[B4G] "C"[e3c] | "G"[d2B] [d2B] [cA][BG][cA] | "G"[d7B] \
+| "G"[d4B] "D7"[c3A] | "G"[B4G] "C"[e3c] | "G"[d2B] [d2B] [cA][BG][cA] | "G"[B7G] :|
+%P: -
+"C" \
+|:"G"[BG][cA] [BG][cA] [d2B][dB] | "D7"[dB][ec] [dB][cA] "G"[B3G] | "G"[BG][cA] [BG][cA] [d2B][dB] | "D7"[dB][ec] [dB][cA] "G"[B3G] \
+| "G"[BG][cA] [BG][cA] [d2B][dB] | "D7"[dB][ec] [dB][ec] [f2d][ec] | "D7"[dB][ec] [ec][dB] [dB][cA][cA] | "G"[B7G] :|
+%P: -
+"D" \
+[|"G"[B2G] [c2A] [d3B] | [B2G] [c2A] [d3B] | "C"[e2c] [e4c][ec] | "D7"[dB][cA] [cA][BG] "G"[B3G] \
+| "G"[B2G] [c2A] [d3B] | [B2G] [c2A] [d3B] | "C"[e2c] [e4c][ec] | "D7"[dB][cA] [cA][BG] "G"[B3G] |]
+"E" \
+|:"C"[e2c] [e2c] [e2c][ec] | [e2c] [e2c] [e2c][dB] | "D7"[d2B] [e2c] [f2d][ec] | "G"[e2c] [d2B] [d3B] \
+| "D7"[d2B] [e2c] [f2d][ec] | "G"[e2c] [d2B] [d3B] | [B2G] [c2A][d2B][dB] | "D7"[dB][cA] [cA][BG] "G"[B3G] :|
+P: - C -
+"F" \
+[|"G"[d2B] [e2c] [ec][dB][ec] | "D7"[f7d] | "C"[dB][ec] [e2c] [ec][dB][cA] | "G"[d7B] \
+| "G"[d2B] [e2c] [ec][dB][ec] | "D7"[f7d] | "C"[dB][ec] [e2c] [ec][dB][cA] | "G"[d7B] |]
+"G" \
+[|"G"[d2B] [e2c] [dB][cA][BG] | "D7"[c7A] | [d2B] [e2c] [ec][dB][cA] | "G"[B7G] \
+| "G"[d2B] [e2c] [dB][cA][BG] | "D7"[c7A] | [d2B] [e2c] [ec][dB][cA] | "G"[B7G] |]
+P: - C -

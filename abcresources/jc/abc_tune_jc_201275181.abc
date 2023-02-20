@@ -1,0 +1,12 @@
+X: 1
+T: Fati\vse Kolo (in A)
+O: Srbija
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+%: 2+3+2+2
+M: 9/16
+L: 1/16
+K: A
+|: "E"E2 "A"c2c c2c2 | "E"Bc dcB Bc "A"A2 :| \
+|: "E"e2 edc "C7"Bc "F#m"AG | FG "Bm"A2B "C7"G2 "F#m"F2 :|
+|: "E"E2 "A"cBA "E"ed "A"cA | "E"E2 "A"cBA "E"ed "A"c2 \
+|  "E"E2 "A"cBA "E"ed "A"cA | "Bm"BA BcB "C7"AG "F#m"F2 :|

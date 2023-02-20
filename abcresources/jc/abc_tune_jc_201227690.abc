@@ -1,0 +1,34 @@
+X: 10923
+T: COTILLION No. 12. tune 3
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.92 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Final rest added to strain 2 to fix the rhythm.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+ABA G2F | E2F G2A | BcB GAG | F2G A2B |\
+ABc d2d | fed c2B | ABc dba | gfe f2 H|]
+[|\
+f2f fed | c2d cBA | BAG Gdc | BAG FAc |\
+f2f fed | c2d cBA | Bdc BAG | FAc f2"^D.C."z |]
+[|\
+d^cd fed | ^c2e a2g | fag fed | ^cec A=B^c |\
+d^cd fed | b2a g3 | faf ege | d3 c=B"^D.C."_B |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 lead to the right,
+%% chassa out,
+%% form lines across the hall,
+%% all forward and back,
+%% swing partners to places,
+%% grand chain,
+%% promenade 8,
+%% sides the same, &c.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

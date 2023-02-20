@@ -1,0 +1,28 @@
+X:0902
+T:The Jimp Waist
+P:Miss Hope's Strathspey
+C:John Pringle, 1800. From Gow's 4th Repository
+R:Strathspey (nx32)
+B:RSCDS 9-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:D
+V:1
+%%staves (1 2)
+[V:1] A,|"D"D>D F>D "G"E>D "D"B,>F|"Em"G<G G>A "A"B>A "D"F>d|\
+[V:1]    "F#m"A<F "Bm"F>D "Em"G>B "F"A>F|"Em/G"E<B, "A7"B,>C "D"D2 DA,|
+%
+[V:1] A,|"D"D>D F>D "G"E>D "D"B,>F|"Em"G<G G>A "A"B>A "D"F>d|\
+[V:1]    "F#m"A<F "Bm"F>D "Em"G>B "F"A>F|"Em/G"E<B, "A7"B,>C "D"D2 D ||
+%
+V:1
+A|"D"d>d A>d F>d D>d|"G"d>d "D7"f>d "G"B2 Bc|\
+  "D"d>f "A"c>A "G"B>d "F"A>F|"Em"G>B "A7"A>c "D"(3dAG (3FED|
+  "D"d>d A>d F>d D>d|"G"d>d "D7"f>d "G"B2 B>c|\
+  "D"d>f "A"c>A "G"B>d "D"A>F|"Em"E<B, B,>C "D"D2 D|]
+%V:2
+%[V:2] x |   x2  C2     B,2    A,2 |    B,4        E2     D2 |\
+%[V:2]         C2      D2      B,2    D2 |      x8                     |
+%[V:2] x |   x2  C2     B,2    A,2 |    B,4        E2     D2 |\
+%[V:2]         C2      D2      B,2    D2 |      x7                    ||

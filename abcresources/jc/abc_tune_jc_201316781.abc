@@ -1,0 +1,29 @@
+X: 1
+T: New Margery
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (198)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+AGFE D2F2 | E2D2 D2F2 | E2D2 EDEF | E2A,2 A,2E2 |\
+AGFE D2F2 | E2D2 GAB2 | A2d2 cdec | d2D2 D4 :|
+|:\
+e2e2 efed | c2A2 A2c2 | d2f2 efge | f6 fg |\
+afdf gece | fdBd ecAc | dfef gfed | d8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st two Men sett to their Partners and turn single
+%% then turn half round then all four sett and go half
+%% round again which brings the 1st Cu. into the 2d
+%% Couple's Place :| The 1st Couple cast off and turn then
+%% the 1st Man change Places with the 2d Woman and the
+%% 1st Woman with the 2d Man and turn Partners :|
+%% [CCDM2]
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,50 @@
+X: 1
+T: Bore la Bass
+P: Longways for as many as will
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.31 #52
+B: "The Dancing-Master: Containind Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.103 "K 4"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+ga |\
+b2(ag) f3g | a2 d4 (ed) |\
+c3B A2(Bc) | d2 d4 |] AB |\
+c3d edef | g2 g4 cB |
+c3d edcB | A2 A4 cB |\
+c3d edef | gfga g2Bc |\
+d2cB A2Bc | B2 G4 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Honour to the Presence, then to your own.
+%% Lead up forward and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First Cu. cast off into the 2d Cu. Place, and
+%% then cross over and go into the 3d Cu. Place,
+%% then go the Figure of 8 with the 3d Cu. and
+%% then with the 2d Cu. then the 1st Cu. being
+%% in the 2d Cu. Place, take Hands and lead up
+%% all abreast to the Presence; then the 1st Cu.
+%% being in the Middle, change Places and cast
+%% off into the 2d Cu. Place. Do this to the last.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% Honour to the Presence, then to your we. Lead up forward and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First cu. cast off into the 2. cu. place, and then cross over and go into the 3. cu. place, then go the
+%% Figure of 8. with the 3. cu. and then with the 2. cu. then the 1. cu. being in the 2. cu. place take hands,
+%% and lead up all a-breast to the Presence, then the 1. cu. being in the middle, change places and cast
+%% off into the 2. cu. place. Do this to the last.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

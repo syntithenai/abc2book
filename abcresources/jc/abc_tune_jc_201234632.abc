@@ -1,0 +1,44 @@
+X: 20661
+T: UNA VOCE.
+T: TYRANT SOON I'LL BURST THY CHAINS.
+C: Rossini.
+Q: "Slow."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.66 (and p.67 #1)
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G3A |\
+B4 z3dB3G | d4 z3dB3G | F4 z3A/G/ E3G/F/ | D4 z4 F3G |\
+A4 A3DB3D | c4 z2c2d2_e2 | _e4 F3dG3B | A4 z4 d3d |
+g4 g>fe>d c>BA>G | {F}E4 z4 (3(e2c2A2) |\
+G2F2 z2 (3(DFE) (3(EGF) (3(FAG) | G4 z4 d3d |\
+b4- b/(a/g/f/) (g/f/e/d/) (e/d/c/B/) (c/B/A/G/) | E4 z2e2 (3(edc) (3(BAG) |\
+G2F2 z4 D4 "_ad lib."{EFGABcd}e>d | G8 |]
+M: C
+L: 1/16
+G8 GFGA BABc | d6 e2 d4 GABc |\
+d2z2 (3(g2d2B2) (3(g2d2B2) (3(B2A2G2) | F3A cBcA F4 z4 |\
+A8 A^GAB cBcd | (^d8 e4) ABc=d |\
+e2z2 (3(e2d2c2) (3(e2d2c2) (3(c2B2A2) | Ggfe dcBA G2G2G2G2 |
+G6 e2 c2G2G2G2 | G6 d2 B2G2G2G2 |\
+G4 (edcB) (cBAG) AGFE | D8 z2d2d2d2 |\
+dede d2a2 d2d2d2d2 | (dede) d2g2 d2G2B2d2 |\
+(cdcB) (ABAG) (FGFE) (DEDC) | B,8 z2d2d2d2 |
+(dede) d2a2 d2d2d2d2 | (dede) d2a2 d2d2d2d2 |\
+(defg) (agfe) (dcBA) (GFED) | G8 z2d2c2B2 |\
+A6 ^G2 =G2=f2e2d2 | d6 ^c2 =c2A2B2c2 |
+(ed^cd) (d=cBc) (cBAB) (BAGA) | ^A4 B4 z2(e<d) (d<c) (c<B) |\
+A6 ^G2 =G2 (=f<e) (e<d) (d<c) | d6 ^c2 =c2A2B2c2 |\
+d2ba gfed c2ag fedc | B2gf edcB A2fe dcBA |
+(d8 c4) d2e2 | e3d d4 z2d2e2f2 |\
+g8 a2g2f2e2 | e3d d4 d2d2e2f2 |\
+(agfg) (fede) e(d^cd) (gfef) | (agfg) (fede) (ed^cd) (gfef) |
+g4 e4 d4 F4 | G2G2 (GABc) d2d2 (defg) |\
+a2a2 (agfe) d2d2 ( dcBA) | G2G2 GABc d2d2 defg |\
+a2a2 agfe d2d2 (dcBA) | G4 z2g2 g2g2 |\
+g4 z4 b4 z4 | g8 z8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

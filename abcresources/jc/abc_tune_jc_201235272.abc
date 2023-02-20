@@ -1,0 +1,32 @@
+X: 21061
+T: BAYADERS SETT (tune 1)
+C:
+%R: jig, march
+B: Elias Howe "The Musician's Companion" 1843 p.106 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="1"
+B, |\
+B,2B, B,2B, | B,B,B, B,2F | B2B c2d | edc f2d |\
+B,2B, B,2B, | B,B,B, B,2F | B2B c2d | edc B2 H|]
+d |\
+f2f def | def g3 | e2e cde | cde f3 |\
+f2f Bcd | Bcd e3 | g2g fed | edc B/d/f"^D.C."b |]
+f2f def | def g3 | e2e cde | cde f3 |\
+d2d Bcd | Bcd e3 | g2g fed | cAc B2"^D.C."z |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First four chassa across and back,
+%% forward four,
+%% half promenade,
+%% two ladies forward and back,
+%% two gentlemen the same,
+%% forward four,
+%% half right and left to place.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,26 @@
+X: 2439
+T: WINTER NIGHT SCHOTTISCHE
+R: shottish
+B: Kerr's v.2 p.50 #439
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 3rd (trio) strain is missing its final beat; fixed.
+M: C
+L: 1/8
+K: C
+[|\
+c'2e>f g2c>d | e>Bc>A G4 |\
+G>AB>c d>ef>g | a2g>^f g4 |\
+c'2e>f g2c>d | e>Bc>A G4 |
+G>AB>c d>ef>B | c2{d}c>B "_Fine."c2z2 H|:\
+A2A>^G A>Bc>d | e2e>^d e2a2 |\
+e2a2 e2d2 | c>dc>B A2E2 |
+A2A>^G A>Bc>d | e2e>^d e2a2 |\
+e2d>e c>dB>c |[1 A2z2 a2z2 :|\
+[2 "_D.C. and then to TRIO."A2z2 [g2B2]z2 |]
+P: TRIO.
+K: F
+|:\
+f2fa cfAc | FAcf a4 |\
+g2gb egce | Gceg b4 |\
+f2fa cfAc | FAcf a3f |\
+efga bcde | f2f2f2 "_D.C."z2 :|

@@ -1,0 +1,17 @@
+X: 1739
+T: Cooney's Hornpipe   #1
+R: hornpipe, reel
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #1739
+O: J.O'Neill
+Z: Bob Safranek, rjs@gsp.org
+Z: A.LEE WORMAN
+M: 2/4
+L: 1/16
+K: G
+D2 \
+| G2GF GBdB | A^GAB cdef | gfgf ecAG | FGAF DEFD |
+| GFEF GBdB | A^GAB cdef | gfgf ecAF | G2G2 G2 :|
+|: (Bc) \
+| dedc Bcdf | efed ^cdef | gfgf ecAG | FGAF DEFD |
+| GFEF GBdB | A^GAB cdef | gfgf ecAF | G2G2 G2 :|

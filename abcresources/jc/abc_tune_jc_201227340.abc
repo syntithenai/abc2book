@@ -1,0 +1,23 @@
+X: 10731
+T: Allegro
+C: Gaetano Brandi
+Q: "Allegro"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.73
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The c' grace note in bar 11 should probably be a d'.
+M: 3/8
+L: 1/16
+K: F
+%%graceslurs 0
+(c'b) |\
+a2f2a2 | .b4 (gf) | e2 (cdec) | f2F2 (c'b) |\
+a2f2a2 | .b4 (gf) | e2 (cdec) | f4 :|
+|: (f2 |\
+e2)c2(g2 | f2)c2c'2 | {c'/}(c'2b2a2) | {a}.g4 (f2 |\
+e2)c2(g2 | f2)c2c'2 | {c'/}b2a2g2 | "_Fine"f4 :|
+|:[K:Bb] (Bd) |\
+f4 df | e2c2 (c'd') | .e'2.c'2.a2 | b2f2 (Bd) |\
+f4 (df) | e2c2 (c'd') | .e'2.c'2.a2 | "_Da Capo"b4 :|
+%
+%%center -

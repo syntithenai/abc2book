@@ -1,0 +1,16 @@
+X: 761
+T: Kiss Your Partner
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #761
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0761/oneill-1001-0761-1.abc
+M: C|
+L: 1/8
+K: G
+"^A"[|]\
+(3(gfe) | d2Bd efge | dBGB AGEG | d2Bd efgb | afdf g2 ||\
+(3(gfe) | d2Bd efge | dBGB AGEG | d2Bd efgb | afdf g2 |]
+"^B"\
+[| d2 | g2{a}gf gbag | fdad bdad | g2{a}gf gbag | fdef g2 ||\
+   d2 | g2{a}gf gbag | fdad bdad | edeg fdfb | afdf g2 |]

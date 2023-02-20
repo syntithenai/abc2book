@@ -1,0 +1,52 @@
+
+X: 1
+T: Gr\aatvalsen
+C: Ale M\"oller
+O: Sweden
+R: Waltz
+N: transcribed 6/89 by Andrea Hoag (her notes say harmony by Per Gudmundson)
+Z: copied by Bob Wyttenbach from Buffalo Gap Scandi Week 2000 tunebook
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+%Q: 1/4=160
+K: Dmix
+FG |:\
+"D"A4A2 | A4A2 | A3GF2 | D4GA |\
+"G"B4d2 | c4B2 | "D"A6- | A3FGA |
+"G"B4d2 | c4B2 | "D"A3GF2 | D3FAB |\
+"C"A4AB | A3GF2 |1 "D"[D6F6] | D4FG :|2 "D"[D6F6] | F2G2A2 ||
+|:\
+"G"B4B2 | B3AG2 | "C"c4B2 | "D"A3FGA |\
+"G"B4d2 | "C"e4d2 | "D"A6- | A3FGA |
+"G"B4d2 | c4B2 | "D"A3GF2 | D3AAB |\
+"C"A4AB | A3GF2 |1 "D"[D6F6] | F2G2A2 :|2 "D"[D6F6] | [D4F4] |]
+
+%%sep 1 1 500
+
+X: 1
+T: Gr\aatvalsen
+C: Ale M\"oller
+O: Sweden
+R: Waltz
+N: transcribed 6/89 by Andrea Hoag (her notes say harmony by Per Gudmundson)
+Z: copied by Bob Wyttenbach from Buffalo Gap Scandi Week 2000 tunebook
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+%Q: 1/4=160
+K: Dmix
+% - - - - - - - - - -
+[V:1] FG |: "D"A4A2 | A4A2 | A3GF2 | D4GA | "G"B4d2 | c4B2 | "D"A6- | A3FGA |
+[V:2] DE |: F3G ((3FED) | F3G ((3FED) | F3ED2 | A,4B,D | G4{A}B2 | A4G2 | F3ED2 | [A,4D4]B,D |
+% - - - - - - - - - -
+[V:1] "G"B4d2 | c4B2 | "D"A3GF2 | D3FAB | "C"A4AB | A3GF2 |1 "D"[D6F6] | D4FG :|2 "D"[D6F6] | F2G2A2 ||
+[V:2] G4{A}B2 | A4G2 | F3ED2 | [A,6D6] | "*"[C3E3](D CB,) | [C3E3][B,E](CD) |1 D6 | D4DE :|2 D6 | D2E2F2 ||
+% - - - - - - - - - -
+[V:1] |: "G"B4B2 | B3AG2 | "C"c4B2 | "D"A3FGA | "G"B4d2 | "C"e4d2 | "D"A6- | A3FGA |
+[V:2] |: [G4G,4]G2 | [G3G,3]FD2 | [E4G,4]G2 | ([A,3D3][A,D]) B,D | G4{A}B2 | c4B2 | F3ED2 | [A,6D6] |
+% - - - - - - - - - -
+[V:1] "G"B4d2 | c4B2 | "D"A3GF2 | D3AAB | "C"A4AB | A3GF2 |1 "D"[D6F6] | F2G2A2 :|2 "D"[D6F6] | [D4F4] |]
+[V:2] G4{A}B2 | A4G2 | F3ED2 | [A,6D6] | [C3E6](D CB,) | ([C3E3]B,CD) |1 D6 | D2E2F2 :|2 D6 | D4 |]
+% - - - - - - - - - -
+W: *harmony may be an octave higher here

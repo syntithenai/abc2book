@@ -1,0 +1,17 @@
+%% Two voices with different time signatures (2/4 vs 6/8).
+
+X:1
+T:Two time signatures in two voices
+L:1/8
+M:6/8
+%Q:3/8=110
+K:G
+%
+V:1
+[| BAG AGF | G2E D2D | E2F GFG | A3 z2D |
+%
+V:2
+Q:1/4=3/8 % 1/4 note here equals 3/8 in V:1
+L:1/8
+M:2/4
+[| d3 d | c2 A2 | G2 E2 | D2 EF |

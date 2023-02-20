@@ -1,0 +1,23 @@
+X: 1
+T: Bonaparte's Retreat
+O: Benny Thomasson version
+R: march, reel
+S: Fiddle Hell Online 2021-11-07 handout for Rodney Miller workshop
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: The repeat notation is ambiguous.
+M: C|
+L: 1/8
+K: D
+"^A"|: D3E |\
+"D"F2F2 F2F2 | A2F2 F2F2 | "A"E2{FE}D2 EDEF | G2F2 E2{FE}DE ||\
+"D"F2F2 F2F2 | A2F2 F2F2 | "A"E2{FE}D2 E2FE | "D"D4 :|
+"^B"|: A2Bc |\
+"D"d2-d2- dfef | d2-d2 A2Bc | dedB A2F2 |1 E2{FE}D2 :|2 E2D2 "A"E2FE || "D"D2D2 D2D2 | "^fine"D2-D2 A4 ||
+"^C"|:\
+"D"f2d2 f2df | a2dg f2df | "A"e2df edef | g2f2 e2{fe}de ||\
+"D"f2d2 f2df | a2dg f2df | "A"e2df e2fe | "D"d4 d3e :|
+%%begintext align
+%% Rodney Miller's transcription, edited by John Chambers to show the repeats and some ornaments better.
+%% Benny's part order and repeat counts vary in the recording played at the workshop.
+%% Ties may be honored, or broken into multiple "bounced" notes.
+%%endtext

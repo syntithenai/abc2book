@@ -1,0 +1,21 @@
+X: 3361
+T: HORN HORNPIPE
+R: Hornpipe.
+%R: hornpipe, shottish
+B: James Kerr "Merry Melodies" v.3 p.40 #361
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+(3(de=e) !segno!|\
+g>fd>B F>de>d | d>c=E>d c2c>B |\
+A>ce>=e a>gf>_e | g>f=e>g f2 (3(d_e=e) |\
+g>fd>B F>de>d |
+d>c=E>d c2c>_B |\
+A>ce>a g>ce>A | c2B2B2 :|[K:=e][K:F]\
+|: A>B |\
+c>dc>B A>cf>a | g>AB>e d2c2 |\
+B>cB>A G>Bd>e |
+d>c=B>d c>A_B>=B |\
+c>dc>B A>cf>a | g>AB>e d2c2 |\
+c>bg>e c>^cd>e |[1 f2a2f2 :|[2 g>ff>=e f>d_e>=e !segno!|]

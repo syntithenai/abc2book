@@ -1,0 +1,25 @@
+X: 11001
+T: SATURDAY NIGHT AT SEA
+Q: "Moderate."
+%R: air, march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.100 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G>A |\
+B2(B>c) d2(de) | A2A>B c2(dB) |\
+G2G2 F2G2 | (B4 {cB}A2)B2 |\
+(BA)(GF) E2ze | (ed)(^cB) A3 B |\
+(^cd)(ef) g2e2 | {g}f4 ({e}d3^c) |\
+B2(^cd) (cd)(ef) | {e}d4 z2(de) |
+(fgaf) d2=c2 | B2(dB) G3F |\
+E2e2 (dc)(Bc/A/) | (G4 {AG}F2)D2 |\
+(EG)(cB) (cE)(FG) | (FG) (d^c) (dA)(B=c) |\
+(Bd)(gf) (gd)(eB) | {d}c4 (d3c) |\
+(BG)(AB) (cE)(AF) | {A}G4 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

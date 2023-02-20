@@ -1,0 +1,79 @@
+X: 11361
+T: OLD DAN TUCKER
+O: A.F.Knight
+%R: march
+N: This is version 1, for ABC software that doesn't understand tremolo notation.
+N: There are are a couple of dissonances that might be typos; not fixed.
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.136-137
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Eb
+%%indent 70
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="Eb Bugle" sname="EbBgl" staves=8
+K: C
+|: z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 :|
+|: !ff!\
+ee/e/ e2 | dcAd | dd/d/ d2 | GGAc |\
+ee/e/ e2 | dcAd | d>d eE | GGAc H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 name="Bb Bugle" sname="BbBgl"
+K: F
+|: z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 :|
+|: !ff!\
+aa/a/ a2 | gedf | gg/g/ g2 | ccdf |\
+aa/a/ a2 | gfdf | g>g ac | ccdf H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 name=" Bb Post Horn" sname="BbPHn"
+K: F
+|:\
+ff/f/ ff | fffc | ff/f/ ga | ccdc |\
+ff/f/ ff | fffc | ff/f/ ga | ccdf :|
+|: !ff!\
+ff/f/ f2 | BABA | ee/e/ e2 | AABA |\
+ff/f/ f2 | BABA | e>e fA | AABA :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 4 name="Bb Cornopean" sname="BbCrn"
+K: F
+|:\
+AA/A/ AA | AAAA | AA/A/ cc | AABA |\
+AA/A/ AA | AAAA | AA/A/ cc | AA BA :|
+|: !ff!\
+cc/c/ c2 | BABA | cc/c/ c2 | AABc |\
+cc/c/ c2 | BABA | c>c cc | cA BA H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 5 name="Tenor Trombone" sname="TTbm" clef=bass middle=D
+K: Eb
+|: z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 :|
+|: !ff! \
+ee/e/ e2 | ffff | dd/d/ d2 | BBce |\
+ee/e/ e2 | fe ce | B>B BB | eeee H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 6 name="Base Trombone" sname="BTbn" clef=bass middle=d
+K: Eb
+|:\
+ez ez | ez ez | ez ez | ez ez |\
+ez ez | ez ez | ez ez | ez ez :|
+|: !ff! \
+ee/e/ e2 | eeee | bb/b/ b2 | eeee |\
+ee/e/ e2 | eeee | B>B ee | eeee H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 7 name="1st Ophecleide" sname="Oph1" clef=bass middle=d
+K: Eb
+|:\
+ee/e/ ee | eeee | ee/e/ ee | eeee |\
+ee/e/ ee | eeee | ee/e/ ee | eeee :|
+|: !ff!\
+ee/e/ e2 | eeee | BB/B/ b2 | ggag |\
+ee/e/ e2 | agag | b>b ee | eeee H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 8 name="2d Ophecleide" sname="Oph2" clef=bass middle=d
+K: Eb
+EE/E/ EE | EEEE | EE/E/ EE | EEEE |\
+EE/E/ EE | EEEE | EE/E/ EE | EEEE H:|
+|: !ff!\
+ee/e/ e2 | EEEE | BB/B/ B2 | EEEE |\
+EE/E/ E2 | EEEE | B>B EE | EEEE H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

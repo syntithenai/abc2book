@@ -1,0 +1,17 @@
+X: 349
+T: She's a Dear Maid to Me
+T: Is cailm \`muirnea\`c domsa i
+R: air, waltz
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #349
+O: F.O'Neill
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: Note that there are no B flats in the tune. D dorian would be a better key.
+Q: "Slow"
+M: 3/4
+L: 1/8
+K: Dm
+A=B/^c/ | d2 A2 de | dc AG FG | {F}TE4 D2 | D4 ||
+|  de | f2 ed d/e/f | e2 dc ed | c4 (~BA) | A4 |]
+|| de | f2 f/g/a gf | e2 e/f/g fe | fe dc AG | G4 ||
+| A=B | c=B A2 fe | dc AG FG | TE4 D2 | HD4 |]

@@ -1,0 +1,26 @@
+X:1
+T: Companions
+N:
+C:T. Susato
+S:Tune is "Mon Amy" (Ronde II)
+A:
+O:
+R:
+M:4/4
+K:Em
+I:speed 200
+%W: A
+% voice 1 (1 lines, 34 notes)
+K:Em
+M:4/4
+L:1/16
+E4 E4 B4 B4 |d4 c2 B2 c4 B4 |d6 c2 B4 A4 |B6 A2 G4 F4 |E4 E4 B4 B4 |d4 c2 B2 c4 B4 |d6 c2 B4 A4 |B6 A2 G4 F4 |
+%W: B
+% voice 1 (1 lines, 38 notes)
+B2 A2 B2 c2 d6 c2 |B4 A4 G4 E4 |A6 F2 G4 E4 |B2 A2 G2 F2 G8 |B2 A2 B2 c2 d6 c2 |B4 A4 G4 E4 |A6 F2 G4 E4 |B2 A2 G2 F2 G8 |
+%W: C1
+% voice 1 (1 lines, 27 notes)
+E4 E4 F2 G2 A2 B2 |G6 E2 F2 G2 A2 B2 |G6 E2 F4 F4 |B6 G2 A4 F4 |E4 E4 B6 G2 |A4 F4 E8 |
+%W: C2
+% voice 1 (1 lines, 27 notes)
+E4 E4 F2 G2 A2 B2 |G6 E2 F2 G2 A2 B2 |G6 E2 F4 F4 |B6 G2 A4 F4 |E4 E4 B6 G2 |A4 F4 E8 ||

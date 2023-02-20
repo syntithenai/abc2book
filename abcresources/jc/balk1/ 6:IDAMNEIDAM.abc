@@ -1,0 +1,47 @@
+X: 206
+T: Idam, ne idam
+O: Bulgaria - Pirin
+Z: Birgitt Karlson
+F: http://www.youtube.com/watch?v=swo30PosTQI
+M: 7/8
+L: 1/8
+%% staves (1 2)
+Q: 1/4=120
+K: F
+V:1 clef=treble
+   "F"c2 B cd cB                           |"C"B3-B4                   |\
+   "Dm"A2 G AB AG                          |"Gm"G3-G4                  |
+V:2
+   A2 G AB AG                              |G3-G4                      |\
+   F2 E FG FE                              |E3-E4                      |
+V:1
+   "Bb"F2 G AB AG                          |"C"G2 ^F GA B=B            |\
+   c2 B cd cB                              |B3-B4                      |
+V:2
+   D2 ^C DE FE                             | E2 ^D EF G^G              |\
+   A2 G AB AG                              |G3-G4                      |
+V:1
+   "Dm"A2 G AB AG                          |"Gm" G3-G4                 |\
+   "B"F3 "C" GB BA                         |"F"A2 z A4                 |
+V:2
+   F2 E FG FE                              | E3-E4                     |\
+   D3 EG GF                                | F2 z F4                   |
+%% staves 1
+V: 1
+|: "F"[F,F] [F,F]2 [F,F]2 [A,F]2           |[CFA] [CFA]2 [CFA]4        |\
+   [CFA][CFA]2"B"[DFB]2"F"[CFA]2           |"C"[B,FG][B,FG]2"F"[A,F]4  :|
+V:2
+|: x7                                      |x7                         |\
+   x7                                      |x7                         :|
+V:1
+|: C3 [B,C]2 [B,C][A,C]                    |[B,C]2 [A,C] [G,C]4        |\
+   [F,A,D] [F,A,D]2 [G,A,D]2 [G,A,D][F,A,D]|[ACE]2[ACE] [ACE]2[ACE]2   |
+V:2
+|: x7                                      |x7                         |\
+   x7                                      |x7                         |
+V:1
+   "C"[EC]3 "C7"[B,CE]2 [B,CE][A,CE]       |[B,CE]2[A,CE] [B,CE]4      |\
+   "fm"[F,CD][F,CD]2[F,_A,CD]2 [A,CD][G,CF]|"G" [G,=B,D]3-[G,B,D]4     :|
+V:2
+   x7                                      |x7                         |\
+   x7                                      |x7                         :|

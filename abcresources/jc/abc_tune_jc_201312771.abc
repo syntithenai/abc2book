@@ -1,0 +1,16 @@
+X: 1431
+T: the Mooncoin Reel
+R: reel
+%S: s:2 b:16(8+8)
+B: O'Neill's 1850 #1431
+O: Dollard
+Z: Bob Safranek, rjs@gsp.org
+M: C|
+L: 1/8
+K: D
+"^A"[|] ((3ABc) |\
+d2 (AF) DFAc | dced cAAc | BAGF GABc | dced cABc ||\
+d2 (AF) DFAc | dced cAGA | BAGF GABc | dcec d2 |]
+"^B"[| de |\
+fdad fdad | fdad fddf | ecgc ecgc | ecgc ecce ||\
+fdad fdad | fdad fddf | g2 (gf) gbag | fdec d2 |]

@@ -1,0 +1,22 @@
+X: 11663
+T: FRIENDSHIP
+C: Hodson.
+Q: "Slow and with feeling."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.166 #3
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/8
+L: 1/16
+K: A
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+e2A2B2 | (cAGA) f2 | (e2dc) (BA) | (A2G2)A2 |\
+(B2c2){de}e2 | (e2d2)c2 | (c2B2) zB | (EFGA) B2 |\
+(3(caf) (e2^d2) | e4 e2 |
+(e2a2){g}f2 | (e>d)c2 B2 |\
+(Ac)e2 (dc) | (c2B2)A2 | (G2F2)E2 | (d>Bc2 d2) |\
+(A2G2 AB) | (cdef)(ga) | (3(fed) (c2B2) | A4 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

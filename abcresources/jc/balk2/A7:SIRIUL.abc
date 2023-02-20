@@ -1,0 +1,65 @@
+X: 417
+T: Siriul
+O: Romania
+F: http://www.youtube.com/watch?v=hzwwSDWW8iU
+F: http://www.youtube.com/watch?v=XH-ZPezb4N8
+F: http://www.youtube.com/watch?v=3D29_PTyOn8
+M: 3/2
+L: 1/16
+Q:1/4=132
+K:G % 1 sharps
+V:1
+%%MIDI program 74
+G2E2F2D2  E8-          E4F4      |\
+G2E2F2D2  E8-          E4F4      |\
+G2E2F2D2  E8-          E4F4      |\
+G2A2B2A2  G2E2F2D2     E8-       |
+E8-          E8           x8     |\
+ x8         |\
+% B
+e8           d8           e8         |\
+f4e4         d8           e8         |
+f4e4         d8           c8         |\
+B4A4         G8           A8         |\
+B4G4         A8           G4F4       |\
+E8-          E8-          E8         |
+e8           d8           e8         |\
+f4e4         d8           e8         |\
+f4e4         d8           c8         |\
+B4A4         G8           A8         |
+B4G4         A8           G4F4       |\
+E8-          E8-          E8         |\
+E8           E8           D8         |\
+E4F4         G8           A8         |
+B4d4         c8           B8         |\
+B4A4         G8-          G8         |\
+A8           B4G4         A8         |\
+G4F4         E8-          E8         |
+V:2
+%%MIDI program 45
+% B
+E,4B,4       E,4B,4       E,4B,4     |\
+E,4B,4       E,4B,4       E,4B,4     |\
+E,4B,4       E,4B,4       E,4B,4     |\
+E,4B,4       E,4B,4       E,4B,4     |
+E,4B,4       E,4B,4       E,4B,4     |\
+E,4B,4    |\
+% B
+E,4B,4       D,4A,4       E,4B,4    |\
+F,4C4        D,4A,4       E,4B,4    |
+F,4C4        D,4A,4       C,4G,4    |\
+B,4F4        B,4F4        A,4E4     |\
+G,4D4        A,4E4        G,4D4     |\
+E,4B,4       E,4B,4       E,4B,4    |
+E,4B,4       D,4A,4       E,4B,4    |\
+F,4C4        D,4A,4       E,4B,4    |\
+F,4C4        D,4A,4       C,4G,4    |\
+B,4F4        B,4F4        A,4E4     |
+G,4D4        A,4 E4       G,4D4     |\
+E,4B,4       E,4 B,4      E,4B,4    |\
+E,4B,4       E,4B,4       D,4A,4    |\
+E,4B,4       G,4D4        A,4E4     |
+D,4A,4       C,4G,4       G,4D4     |\
+G,4D4        G,4D4        G,4D4     |\
+A,4E4        B,4F4        A,4E4     |\
+B,4F4        E,4B,4       E,4B,4    |

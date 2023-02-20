@@ -1,0 +1,20 @@
+
+X: 721
+T: Duffy the Dancer
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #721
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0721/oneill-1001-0721-1.abc
+%m: Tn2 = (3n/o/n/ m/n/
+%%slurgraces 1
+%%graceslurs 1
+M: C|
+L: 1/8
+K: Ador
+"^A"[|]\
+   e | Ta2(ea) cAAd | cAeA cAAe | Ta2(ea) cAAd | BGdc BGB ||
+|| d | Ta2(ea) cAAd | cAeA cAAe | Tg2(fg) {b}aefd | BGdc BGG |]
+"^B"\
+[| e | cAeA fAeA | cAeA cAAd | cAeA fAeA | BGdc BGG ||
+|| d | cAeA fAeA | cAeA cAAe | Tg2(fg) {b}aefd | BGdc BG G |]

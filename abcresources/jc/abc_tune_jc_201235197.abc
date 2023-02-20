@@ -1,0 +1,22 @@
+X: 2102
+T: MARCHIONESS OF HUNTLY (2nd Setting)
+C:
+Q: "Strathspey."
+R: Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.2 p.13 #102
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+%%slurgraces yes
+%%graceslurs yes
+K: C
+uE2 |\
+vCc3c3uE G4(G3E) | vCc3c3uE {FE}D4 (D3E) |\
+vCc3c3uE vG3vAuc3ud | vcA3 c3uE {FE}D4 (D2E2) |\
+vCc3c3uE G4(G3E) | vCc3c3uE {FE}D4(D3E) |\
+vCc3c3uE  vG3vAuc3ud | vcA3 c3uE {FE}D4D2 |]
+ef |:\
+vg3vc (ag)fe vg3vc (ag)fe | vg3vc (ag)fe {^c}d4 (d2ef) |\
+[1 g3c (ag)fe c3g e3g | (fe)fg (ag)fe {^c}d4 (d2ef) :|\
+[2 vg3veuf3ud ec3e3ud | (dc)BA uc3uE D4D2 |]

@@ -1,0 +1,19 @@
+X: 27
+T: Brachot Le Havdalah
+C: Debbie Friedman
+F: http://www.youtube.com/watch?v=fpwcF-ZIz70
+O: Israel
+M: 3/4
+L: 1/8
+Q: 1/4=132
+K: Dm
+%%MIDI program 0
+%%MIDI chordprog 33
+%%MIDI chordvol 60
+%%MIDI gchord GIg
+|:"Dm"A,2D2DE|FGF2E2    |A,2D2DE   |FGF2E2  |
+  "Bb"C2DEF2 |"Gm"G2E2C2|"Dm"CED4  |[1CED4  :|[2CED2FG|
+  "F"A2B2A2  |"Gm"G2D2E2|"F"F2G2F2 |"Gm"E4FG|\
+  "F"A2B2A2  |"Gm"G2D2E2|"F"F4FG   |"Gm"E4FE|
+  "Dm"D4D2   |"Gm"E2F2G2|"Am"A2B2A2|"Dm"G2D4|\
+  "Gm"E2F2G2 |"Am"F2E2C2|"Dm"E2D4- |D6      |

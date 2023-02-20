@@ -1,0 +1,16 @@
+X:6
+T:Doctor O'Neill   #2
+B:Francis O'Neill: "The Dance Music of Ireland" (1907) #6
+R:double jig
+%S: s:5 b:27(5+5+5+6+6)
+Z:Frank Nordberg - http://www.musicaviva.com
+F:http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0006/oneill-1001-0006-1.abc
+%m:Nn3 = n o/n/ (3m/n/-n/
+M:6/8
+L:1/8
+K:D
+"^A"|: A | ~d3 AFD | E2F G2A | BGB Bcd |[1,3 AGF EF :|[2,4 AFD D2 :|
+"^B"|: A | ~d3 ceA | dfe dcB | AFA Bcd |[1,3 AGF EF :|[2,4 AFD D2 :|
+"^C"|: g | {g}fef afd | ded fed | gbg fa [1,3 f | gee e2 :|[2,4 g | fdd d2 :|
+"^D"|: g | {g}fdf ece | {e}dcB AFA |[1,3 AFd AFd | AGF E2 :|[2,4 AFA Bcd | AFD D2 :|
+"^E"|: G | FAF GBG | FAG FED |[1,3 FAF GBG | AGF E2 :|[2,4 BGB Bcd | AFD D2 :|

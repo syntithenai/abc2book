@@ -1,0 +1,27 @@
+X: 752
+T: O as I was Kiss'd the Streen
+R: jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.75 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Rhythms as the start and end of strains are messed up; fixed with initial rests and no final dots.
+M: 6/8
+L: 1/8
+K: Ador
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+z |\
+A>BA ABd | (e/f/g)B A2c | B>AB GAB | (B/c/d)B G2B |\
+cBc dcd | ede a2g | edB ABd | e2A A2 :|
+|: g |\
+a2A ABA | aAA A2f | g2G GAG | (TBAB) GAB |\
+cBc dcd | ede a2g | edB ABd | e2A A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a3 a3 | a3 a3 | g3 g3 | G3 G3 |\
+A3 B3 | c3 d3 | e3 E3 | A3 A2 :|
+|: z |\
+a3 a3 | a3 a3 | g3 g3 | G3 G3 |\
+A3 B3 | c3 d3 | e3 E3 | A3 A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

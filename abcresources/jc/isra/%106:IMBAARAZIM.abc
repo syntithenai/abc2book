@@ -1,0 +1,21 @@
+X: 106
+T: Im Baarazim
+O: Israel
+C: Yizhah Yaron 1945
+D: Israeli Folk Dance Party
+M: 2/4
+L: 1/8
+K: Dm
+Q: 1/4=160
+V:1
+%%MIDI program 22 Harmonica
+|:d2.D.D|D2EF|G2FE|D2z2|\
+A2=B2|c2=BA|AAA^G|A4::
+G3A|B2AG|F3G|A2GF|\
+E3E|ECDE|[1DDEC|D4:|D4-|D4|
+V:2
+%%MIDI program 33 Acoustic Bass
+|:D,,2z2|D,,D,,z2|E,,2z2|D,,2z2|
+z4|z2 A,,2|A,,2z2|A,,2z2::
+E,,2z2|z4|F,,2z2|F,,2z2|
+z2E,,2|z4|[1D,,2z2|D,,2z2:|D,,2z2|z4|

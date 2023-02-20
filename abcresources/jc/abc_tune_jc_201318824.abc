@@ -1,0 +1,33 @@
+X: 1
+T: Odzemek from Wallachia
+O: Czech
+M: C|
+L: 1/8
+P: Play AA BB CC
+N: Parts A and B use block chords; part C uses bass-chord 4 times per bar.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+S: Susan Worland, 2010-6-23 workshop at Peacuddy's Cafe, Melrose MA USA
+K: D
+a/a/b/c'/ \
+"A"\
+| "D"d'2 "D"a2 "D"a2 "D"g2 | "D"f2 "..."g2 aa "A7"bc' \
+| "D"d'2 a2 a2 g2 | "A7"f2 e2 d4 \
+||"D"d2 f2 f2 g2 | fe fg a2 (3agf |
+| "D"d2 f2 f<e a<g | "A7"f2 e<c "D"d2 "A7"(3cde \
+||"D"d2 f2 f2 g2 | fe fg a/b/a/g/ f/g/f/e/ \
+| "D"d2 f2 f<e a<g | "A7"f2 e2 "D"d2 |][K:=c]
+K: G
+def \
+"B"\
+| g2 d2 d2 c2 | "G"BA Bc d4 \
+| g2 d2 d2 c2 | "D7"Bd AF "G"G4 \
+|: "G"G2 B2 BA Bc | "G"BA Bc d2 d/c/B/A/ |
+|[1 "G"G2 B2 BA Bc | "D7"B/A/B/d/ A/G/F/A/ "G"G4 \
+:|[2 "G"G2 B2 BA Bc | "D7"BB/d/ AA/F/ "G"G4 |][K:=f]\
+[K:C][M:4/4]\
+"C"\
+[| "C"cc dc gg ag | "G7"fe d2 "C"c4 |
+|  "C"cc dc gg ag | "G7"fe d2 "C"c4 \
+|: "F"fg aa aa aa | "F"c'b a2 "C"g4 \
+|  "C"gg gg gg ag | "G7"fe d2 "C"c4 :|
+

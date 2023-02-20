@@ -1,0 +1,23 @@
+X: 3145
+T: the DUKE OF ATHOLE
+Q: "Strathspey."
+R: Strathspey.
+%R: strathspey
+B: James Kerr "Merry Melodies" v.3 p.17 #145
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+%%slurgraces yes
+%%graceslurs yes
+M: C
+L: 1/16
+K: Am
+uE2 |\
+vA3vBuA3uE AAA2 (A3B) | G3DG3B dcBA G3B |\
+A3BA3E AAA2 (A3B) | {^F}G3DB,3D (E4 A,2)uE2 |\
+A3BA3E AAA2 (A3B) |
+G3DG3B dcBA G3B |\
+A3BA3E AAA2 (A3B) | {^F}G3DB,3D (E4 A,2) |]\
+e2 |\
+{^g}a3e{g}a3e AAA2 {g}a4 | {^f}g3de3g dcBA G3e |
+{^g}a3d{g}a3e AAA2 {g}a4 | {e^f}g3dg3B e4 A3e |\
+{^g}a3e{g}a3e AAA2 {g}a4 | {^f}g3de3g dcBA G3B |\
+A3Ec3A c3de3a | {^F}G3EG3B, (E4 A,2) |]

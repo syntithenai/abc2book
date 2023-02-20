@@ -1,0 +1,28 @@
+X: 1
+T: Lady' Triumph
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (77)
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+DE |\
+F2A2 A2=B^c | d2A2 A2f2 |\
+e2d2 e2^c2 | d6 :|\
+|: fg |\
+a2f2 f2ga | g2c2 c2de |
+f2d2 d2ef | e2A2 A2FG |\
+AGAB AGFG | AGAB A2f2 |\
+e2d2 e2^c2 | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. set and cast off into the 2d Cu. Place .|
+%% The same back again :| Then go thro the 2d and 3d
+%% Cu. and turn your Partner in the 2d Cu. Place .|
+%% Figure thro the 2d Cu. and turn your Partner :|
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,22 @@
+X: 30573
+T: CAMERANIN REEL
+C:
+%R: reel, hornpipe
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.57 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added "pickup" rest at start of 2nd strain, to fix the rhythm.
+N: Added missing beam to 2nd half of bar 10, to make it 2/4.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(cB) |\
+AFFF AFcF | AFFA c2(BA) |\
+BGGA BGBd | BGGB d2 :: z2 |\
+F2(fg) fdcA | F2(fg) fdcA |
+G2(ga) gedB | G2(ga) bgec |\
+A2(fg) fdcA | F2(fg) f2(df) |\
+egdf egde | fbge f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

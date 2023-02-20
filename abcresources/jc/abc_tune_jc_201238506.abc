@@ -1,0 +1,30 @@
+X: 3091
+T: the London Highland Society    a Strathspey
+C: by Lord Macdonald & Published by his Authority.
+%R: air, strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.9 #1 (top 2 staffs continued from p.8)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "Slowish"
+K: G
+% - - - - - - - - - -
+% Voice 1 reformatted slightly, to make note spacing more even.
+V: 1 staves=2
+D/E/F |\
+G2G,2D2G,2 G2G,2 EDCB, | A,2AB cBAG TF3GA3B |\
+G3g fgaf Tg3a bgdB | ABcA Bcdc B2G2G2 (D/E/F) ||\
+GFED EDCB, CDEF GDB,D |
+A,2AB cBAG TF3GA2B2 |\
+TG3AB2c2 (dc)TBA (GF)TED | ^C3EG2A2 F3DD3 |[|\
+F |\
+DDD2 D3E F3GA3B | c3de3f g2d2d2b2 | (ba)gf g2d2
+B3c {d}c2BA | ^G3Bd2e2 ^c2A2A2=c2 ||\
+DDD2 D3E FEFG AGAB | cBcd edef g2d2Td3b |\
+(ba)gf g2d2 B3d {c}B2AG | E2c2 {B}A2GF G2G,2G,2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | G4B4 G4g4 | c4A4 d4D4 | B4d4 g4B4 | c4d2D2 G4G4 || G4g4
+G4g4 | A6^c2 d4d'4 | b4g4 G4g4 | a4A4 d4 D3 |[| z | d'6^c'2 =c'2b2a2g2 | f4[d4c'4] G4g4 | G4B4
+G4g4 | e4^g4 a4A4 || d6^c2 =c2B2A2G2 | F4 D2c2 B4g4 | G2g2G2g2 G4B4 | c4d2D2 G4G2 |]

@@ -1,0 +1,33 @@
+X: 1
+T:Bonny Green Garters
+M:6/8
+C:
+S:West Coast Teams
+N:As used for recessional
+A:Bampton + Headington
+O:English
+R:Jig
+%P:G$^2$.A$^4$.(BC)$^\infty$
+P:A4.(BC)8
+K:D
+|: A     | d>dd            AAA           | BBB             A2     \
+w: Oh,     here's to the   las-sies, we    love them so    well,
+w: Oh,     here's to the   lad-dies, we    love them so    well,
+   A     | d2   d          efg           | f3              e3     |
+w: though  some are        re-gu-lar       tar-tars.
+w: though  some are        ver-y slow      start-ers.
+           d>dd            AAA           | B>BB            A2     \
+w:         Here's to their stock-ings and  here's to their shoes,
+w:         Off with their  bald-ricks and  off with their  bells,
+   A     | d>dd            efg           | f2e            d2     :|
+w: and     here's to their bon-ny green    gar - ters.
+w: and~to  hell with their bon-ny green    gar - ters.
+P:A
+Q:C3=100
+A |: d>cd AFA | B>AB ABc  | d>cd efg |1 faf ede  :|2 f2e d2 ||\
+K:G
+P:B
+d |: d>cB AGF | G>AB cde  | d2d  dcB |1 B3  A2 d :|2 A3  G2 ||\
+P:C
+d |  d>cB AGF | G3   A2 d | d>cB AGF | G3 A2 \
+d |  d>cB AGF | G>AB cde  | d2d  dcB | A3 G2 ||

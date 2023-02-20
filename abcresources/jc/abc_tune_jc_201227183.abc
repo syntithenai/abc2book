@@ -1,0 +1,22 @@
+X: 10654
+T: CALIBRIA
+Q: "Lively."
+%R: reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.66 #4
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Strain 2 has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+Adde {de}f2ed | {de}f2ed ceef |\
+Adde {de}f2ed | BABc d2D2 ::\
+{Bc}d2cB AFFA | GEFD {F}E2E2 |
+{e}dcdB A2FA | GEAF D3d |\
+{Bc}d2cB AFFf | gefd cee2 |\
+{e}dBdB AFA2 | Bdce d2D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,40 @@
+X: 1
+T: Brave Blakeney
+T: Wild Boars Frolick
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.3:21
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+G3 d2c | BGB AFD | EGE AcA | F3 D3 |\
+G3 d2c | BGB AFD | E/F/GE AGF | G3 G,3 :|
+|:\
+b3 gb2 | afa geg | faf gbd | ^c3 A3 |\
+afa bgb | afa geg | faf ed^c | d3 D3 |
+G3 d2c BGB AFD | EGE AcA F3 D3 |\
+G3 d2c BGB AFD | EGe cAF G3 G,3 :|
+|:\
+BdB c2a | AcA B2g | EGE AcA | F3 D3 |\
+G3  d2c | BGB AFD | EGE F/G/AF | G3 G,3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g3  f3 | g3 d2B | c3 A3 | d3 D3 | G2g f3 | g3 d2B | c3 d3  | g3 G3 :|
+|:\
+g3  G3 | d3 ^c3 | d3 g3 | a3 A3 | d3  g3 | f3 e3  | d3 a2A | d3 D3  |
+g3  f3 | g3 d2B | c3 A3 | d3 D3 | G2g f3 | g3 d2B | c3 d3  | g3 G3 :|
+|:\
+gbg a3 | fgf g3 | c3 A3 | d3 D3 | G2g f3 | g3 d2B | c3 d3  | g3 G3 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1st Cu. cast of two Cu. .|
+%% lead up to the top & cast off :|
+%% 1st Man falls in between the 3d Cu. & his Partner between the 2d Cu.
+%% at the same time foot it all six foot it & hands round 3 top & Bottom .|.
+%% lead up to the top and cast off .||.
+%% lead thro the 3d Cu. cast up into the 2d Cu.s place & turn .||.
+%%endtext

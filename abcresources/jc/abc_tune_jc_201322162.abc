@@ -1,0 +1,31 @@
+X: 1
+T: Palokankaan poikien parempi valssi
+R: waltz
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 3/4
+L: 1/8
+K: D
+|: "D"(fg f)(e d2) | (fg f)e d2 \
+| "A7"(gf e)(d cd) | [e3c3] d(ef) \
+| g3 (fef) | (ga g)(f ga) \
+| "D"(b2 a2 g2) | f3 (gf)(e \
+| ~d2 c2 d2) |
+| "G"B3 (ABc) \
+| (~d2 c2 B2) | "D"(~B2 A)(^G A2) \
+| "A"(gf e)(d c)(B | A2) (B2 c2) \
+| "D"(~d2 A)(d fe) |1 d6 \
+| (DE F)(G AF) | D2 (DF Ad :|2 d3 e(fg) ||
+|: "D"(ab a)(g fg) | (af) de f2 \
+| "A7"~g2 ec (eg) | "D"(gf) de (fg) \
+| (ab a)(g fg) | (af) de f2 \
+| "A7"~g2 (Ac e2) |1 "D"d2 d3 f :|2 "D"d2 d4 ||
+|: "A"(Ac e)(c e2) | "D"(Ad f)(d f2) \
+| "A7"(Ac e)(c e2) | "D"(Ad f)(d f2) \
+| "G"(ab a)(g fg) | "D"(af) de f2 \
+| "A7"~g3 Ac e2 |1 "D"d2 d4 :|2 d2 d2 ~=c2 ||[K:=c]
+K: G
+|: "G"B2 d2 g2 | b3 (a ~g2) \
+| "D"f2 (d'2 f2) | "G"(g2 b2) d'2 \
+| B2 d2 g2 | b3 (a ~g2) | "D"f2 (d'2 f2) \
+|1 "G"g2 g3 d :|2 "G"g2 g4 |]

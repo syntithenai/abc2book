@@ -1,0 +1,14 @@
+X: 281
+T: Ravno Oro
+O: Macedonia
+M: 7/8
+L: 1/8
+Q: 1/4=102
+K: Dmix
+%%MIDI program 23
+%%MIDI drum d3d4
+%%MIDI drumon
+P:A
+|:(3AGFE F2ED |D2A,D EFG|(3AGFE F2ED| D2A,D z3:|
+P:B
+|:D2A,D CB,A,  |B,2C D2D2|EF2 EE2D|D2A, D3z:|

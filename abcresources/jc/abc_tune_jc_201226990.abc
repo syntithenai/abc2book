@@ -1,0 +1,22 @@
+X: 10554
+T: BOYNE WATER
+O: Irish air.
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.55 #4
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+z |\
+d3c d2f2 | c>dcA F2GA |\
+{A}B2(AG) d2(cA) | G3F D3 :|\
+|: G |\
+F2f2 f3g | f>gfd c3f |
+d2g2 g3a | (b>a)(gf) d3f |\
+(cd)(fg) {fg}a2g>a | f2(FG) (BA)(GF) |\
+B2(AG) d2(cA) | G3F D3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

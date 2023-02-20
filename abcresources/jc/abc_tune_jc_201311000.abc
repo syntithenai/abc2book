@@ -1,0 +1,16 @@
+X: 800
+T: Miss Fahey's Fancy
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #800
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0800/oneill-1001-0800-1.abc
+M: C|
+L: 1/8
+K: D	% ending on G
+"^A"[|]\
+   (AG) | FDD(C A,2) FG | A(=cBG) cBAG | AGD(E F2)EF | D(dcA) G2 ||
+|| (AG) | FDDC (3(A,B,C) (DG) | AB(cA dc)de | (3(fed) (3(edc) dcA(B | =cA)GF G2 |]
+"^B"
+[| (FG) | Add(e fd)ec | ABc(A dc)AG | Add(e fg)e(c | AB)cA d2 ||
+|| (fg) | (3(agf) (3(gfe) fde(f | dc)A(B cA)GE | Ddd(c A)de(g | f)d=cAG2 |]

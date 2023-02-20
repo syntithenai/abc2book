@@ -1,0 +1,23 @@
+X: 082
+T: the Victory
+%R: jig
+B: J.Gray's Twenty four Country Dances (for the Year 1812) p.8 #2
+S: http://www.eatmt.org.uk/gray_1812.htm 2014-8-7
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Rest added to end of each strain to fix the rhythm.
+N: The F in bar 14 could have been added after printing.
+M: 6/8
+L: 1/8
+K: Bb
+F |\
+(B,D)F (Bd)g | (fb)a gfe | (dg)f edc | T~BAB cAF |\
+B,DF (Bd)g | (fb)a gfe | (df)B (ce)A | (c3 B)z :|
+|: ((3f/g/a/) |\
+(bf)d BFD | (B,D)F (Bd)f | (gf)e dcB | [c3-F3-] [cF]z ((3f/g/a/) |\
+(bf)d (BF)D | (B,[FD])F (Bd)g | (fd)B (ec)A | (c3 B)z :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Half right & left back again down mid. up again. &
+%% swing corners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

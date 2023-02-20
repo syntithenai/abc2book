@@ -1,0 +1,19 @@
+X: 1141
+T: the Lassie wi' the yellow Coattie, a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.1 p.14 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+A |\
+TG2GB d>egd | e/e/e gd {f}edeg- | g>G GB Td>egd | (e/f/g) dB TAGE :| a | Tg>abg aegd | B(dde) =fg{f}ed |
+Tg>abg aege | (e/f/g) dB TAGEa || Tg>abg aegd | B(dde) =fg{f}ed | Tg>abg aegd | (e/f/g) dB TAGE |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | g2g2 g2B2 | c2c2 c'2c'2 | b2g2 g2b2 | c'2g2 [g2d'2][gc'] :| z | G2g2 g2g2 | g2G2 B2c2 |
+B2G2 g2B2 | c2G2 [G2d2][G2c2] || G2g2 g2g2 |g2G2 B2c2 | B2G2 c2B2 | c2G2 [G2d2][Gc] |]

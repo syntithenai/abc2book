@@ -1,0 +1,23 @@
+X: 1
+T: Mr Handel's Gigue
+C: George F.Handel
+S: Bruce Shawyer Dec 2012
+R: jig
+M: 6/8
+K: Am
+M: 3/8
+L: 1/8
+K: Am
+   e |\
+   a2A  a2A  | abc' a2e  | fed cdB |  cde ABc \
+|  def  Bcd  | G2c' b2a  | gfe fed |  c3  c2 :|
+|: g \
+|  c'2c c'2c | Bcd  G2e  | a2A a2A | ^GAB E2e \
+|  fed  cBA  | ^g3  a=gf | edc BAB |  A3  A2 :|
+K: A
+|: E \
+|  A2c B2d | cde ABc | def efd | c3 c2e \
+|  f2B Bcd | e2A ABc | ded cdc | B3 B2 :|
+|: F \
+|  B2B B2c | d3  d2B | f2f f2g | a2A A2B \
+|  cBA d3  | edc f2d | cdc BcB | A3 A2 :|

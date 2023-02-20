@@ -1,0 +1,16 @@
+X: 819
+T: the Heather Glen
+R: hornpipe
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #819
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0819/oneill-1001-0819-1.abc
+M: C|
+L: 1/8
+K: D
+"^A"[|]\
+   (AG) | FEFG A2(GA) | BABc dcde | fdec dBAF | B2E2 E2 ||
+|| (AG) | FEFG A2(GA) | BABc dcde | fdec dBAG | F2D2 D2 :|
+"^B"|: g2 \
+| fefg afdf | ecA2 A2dc | BABc dfed | c2A2 ABAG ||
+| FGAB A2(GA) | BABc dcde | fdec dBAG | F2D2 D2 :|

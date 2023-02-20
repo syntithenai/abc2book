@@ -1,0 +1,36 @@
+X: 10812
+T: COTILLION No. 7. tune 4
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.81 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(D/C/) |\
+B,3 CGF | [E3C3] [EC]cA | [E3A,3] DEF | [G3B,3] GDC |\
+B,3 B,GF | [E3C3] [EC]cA | [E3A,3] DEF | [G3B,3] [G2B,2] H|]
+(G/A/) |\
+BcB BAG | AFD DAB | cdc cBA | BdB GBc |\
+ded dcB | gag gfg | bag fed | d3 ^cAG ||
+[A3F3] AdB | [B3G3] Gge | [^c3E3] ABc | d2d dAG |\
+[A3F3] AdB | [B3G3] Gge | [^c3E3] ABc | d2d dB=c |
+ded dgb | ded dga | bag fed | d3 =cAB |\
+cdc cfa | cdc cfg | agf edc | c3 B2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% first 4 lead to right,
+%% chassa out,
+%% form lines across the hall,
+%% all forward and back,
+%% swing parts. to place,
+%% next 2, &c.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

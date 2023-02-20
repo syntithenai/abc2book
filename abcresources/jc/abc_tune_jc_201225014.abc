@@ -1,0 +1,30 @@
+X: 09042
+T: FRED and MARILYN'S WALTZ
+C: Bob McQuillen 20 Nov 92
+B: Bob's Note Book 9 #42
+R: waltz
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: G
+GE \
+| "G"DGB | BG>F | "C7(Gd7)"E3 | "G"D2G/E/ | DG>B | BGE | "D7"F3- | FDE \
+| FGA | ABc | B3 | A2G | Fd>d | edc | "G"B3- | BGE |
+| "G"DG>B | AGF | "C7(Gd7)"E3 | "G"D3 | BG>A | "G7"Bcd | "C"e3- | ecd \
+| "C"ec>B | "Gd7(C)"ABc | dB>A | "Em"G2A | "G"B3 | "D7"AGA | "G"G3- | G ||
+|| DE \
+| "G"GB>B | BDE | FA>A | AGF | EDE | FED | "D7"E3- | EDE \
+| "D7"FA>A | AGE | DF>G | FDE | FGA | AGF | "C7"E3 | "D7"DEF |
+| "G"GB>B | BDE | FA>A | AGA | Bcd | "G7"dBG | "C"F3 | E3 \
+| "C7"EFG | "Gd7"AGA | "G"B3 | "E7"D3 | "A7"EFG | "D7"A2G | "G"G3- | G |]
+%%text 'd7' used for diminished 7th chords to better fit with PDF formatting.
+%%begintext align
+%% Fred and Marilyn Richardson live over in
+%% Jaffrey, NH, and they've been dancing as far back as I can remember -
+%% They have been loyal supporters over many years, dancing with
+%% Ralph and then later with Duke at all those Fitzwilliam dances
+%% (Thanks, Jim Kennedy!) - Did you know Duke also called Friday nights
+%% in the summer at the Peterborough Golf Club - for about ten years? and
+%% pairs of shoes the Richardsons have worn out, just from
+%% the dances?! Much love to you both - Keep it up!
+%%endtext

@@ -1,0 +1,13 @@
+X: 18
+T: Befat Hakfar
+O: Israel
+M: 2/4
+L: 1/8
+Q: 1/4=144
+K: Cm
+%%MIDI program 23
+%%MIDI gchord fzcz
+|:"Cm"z2G2|FGEF   |"Cm"DCCB,|C2zG-  |\
+  "Cm"GEFA|G4     |"Cm"FFEC |FFE/D/C|
+  FFEC    |FFE/D/C|CFzG     |ECDE   |C4  :|\
+|:"Gm"zGc2|cdBc   |AGGF     |GGc2   |cdBc|AGGF|G2z2 :|

@@ -1,0 +1,17 @@
+X: 674
+T: Johnny has Gone to France   #2
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #674
+R: reel
+%S: s:2 b:13(6+7)
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0674/oneill-1001-0674-1.abc
+M: C|
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+"^A"\
+|: g2fg dcAc | dBcA FGAF | dg(3({a}gfg) dcA^c |[1 dBcA dBcA :|[2 dBcA BGG2 |]
+"^B"\
+[| dg (3({a}gfg) gbag | fdcA FGAF | dg (3({a}gfg) gbag | fdcA AGG2 ||
+|| g2dg gbag | fdcA defg | (3(aba) ag fgag | fdcA AGG2 |]

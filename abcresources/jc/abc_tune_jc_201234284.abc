@@ -1,0 +1,36 @@
+X: 204
+T: Cheerful Mary
+T: Mari ghreannar
+R: jig
+N: This is version 1, for ABC software that doesn't understand crescendo symbols.
+B: Simon Fraser's "Airs and Melodies Peculiar to the Highlands of Scotland and the Isles" 1816 p.94 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The repeat symbols used with the alternate endings were a bit garbled, and can't be made top
+N: with modern repeat notation, so I transcribed "the usual" interpretation of the two endings.
+M: 6/8
+L: 1/8
+Q: "Moderate."
+K: Bb   % ending on Gm
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+% Voice 1 formatted for 2 10-bar lines, for compactness and proofreading.
+V: 1 staves=2
+B |\
+!p!{DE}F2D F2G | B2B ~B2c | "_cres"d2f {d}c2A | TB2A G2B ||\
+!p!{DE}F2D F2A | TB2F D2F | "_< . . ."E2^C D2^F | {^F}[G3D3B,3] [G2D2B,2] :|\
+!p!B | B,2B TB2A | B2B ~B2c |
+"_cres"d2f {d}c2A | TB2A G2g |\
+[1 !f!f2"_dim"e d2c | TB2F D2F | "_< . . ." D2^C D2^F | {^F}G3 G2 :|\
+[2 {g^fga}"_f dim"b2a g2=f | d2c B2F | "_< . . ."(D2^C) D2^F | [G3D3B,3] [G2D2B,2] |]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |!p! B2b B2b | B2b B2b | "_cres"[b3B3] [f3F3] | g2f e3 ||\
+!p! [b3B3] [b3B3] | [b3d3] [b3f3] | B3 d2D | [g3G3] [g2G2] :|\
+z | B2b B2b | B2b B2f |
+"_cres"[b3B3] [f3F3] | g2f e3 |\
+[1 !f!d2"_dim"c B2c | d3 B3 | d3 D3 | G3 g2 :|\
+[2 "_f dim"d2f e2d | B3 b3 | d3 D3 | [g3G3] [g2G2] |]
+% = = = = = = = = = =
+

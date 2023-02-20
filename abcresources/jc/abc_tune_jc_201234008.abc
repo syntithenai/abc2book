@@ -1,0 +1,26 @@
+X: 20201
+T: RONDEAU
+Q: "With spirit."
+%R: reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.20 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G2G2 (AGFG) | A2A2 (BAGA) | B2B2 (cBAG) | F2A2A2B2 |\
+G2G2 (AGFG) | A2A2 (BAGA) | B2B2 (BAGA) | G2F2 G4 H:|
+B2B2 (cBAB) | c2c2c2d2 | B2B2 (cBAG) | F2A2A2c2 |\
+B2B2 (cBAB) | c2c2c2d2 | B2B2 (AGAB) | G2F2G2f2 |
+g2g2 (agfe) | d2d2d2e2 | d2d2 (edcB) | A2A2A2f2 |\
+g2g2 (agfe) | d2d2d2b2 | a2a2 (agfe) | d2d2 (dBc"^D.C."A) |]
+e2e2 (edcB) | c2a2a2^c2 | d2d2 (d=cBA) | B2g2g2f2 |\
+g2g2 (gfed) | e2e2d2d2 | c2A2B2G2 | d2d2 (dBc"^D.C."A) |]
+B2B2 (cBAB) | c2c2c2d2 | B2B2 (cBAG) | F2A2A2c2 |\
+B2B2 (cBAB) | c2c2c2d2 | B2B2 (AGAB) | G2G2G2f2 |
+e2G2G2e2 | d2G2G2e2 | d2f2f2f2 | g2g2g2f2 |\
+e2G2G2e2 | d2G2G2e2 | d2f2f2f2 | g2g2f2f2 | g2g2g2g2 |\
+g2z2 b2z2 | g6 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

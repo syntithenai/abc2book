@@ -1,0 +1,43 @@
+X: 1
+T: Winchester Wedding
+T: the King's Jigg
+P: Longways for as many as will
+%R: slip-jig, triple hornpipe
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.90 #132 (180)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.225
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The endpoints of slurs are difficult to determine, and many may be wrong. [Some slurs changed to match DMDfD's, which are clearer.]
+M: 9/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B, | (DF2) G2F D2B, | (DF2)  B2G  c2F | (DF2)  G2F  (DEF) | (GAB) B2A B2 |]
+g  | (fdB) f2B c2G  | (cde) (GcB) A2F | (BGE) (GBG) (cAF) |  Ge2  c2B B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. sett to the Partners, and cast off below the 2d Cu. and
+%% turn :| Then take Hands and lead down towards the 3d Cu. and turn
+%% their Partners :| The 1st Cu. being in the 3d Cu. Place, the 1st Man turns
+%% the 2d Wo. by the right Hand, and the 2d Wo turns the 3d Man by the
+%% right Hand at the same time, so meet in the middle, and turn to their
+%% own Sides .| The 1st Man being in the 3d Cu. Place, turns the 3d Wo.
+%% by the right Hand, then the 1st Wo. being in the 2d Wo. Place, the
+%% 2d Wo. turns the 1st Man, and the 1st Man the 3d Wo. with their
+%% right Hands, so meet in the middle and turn to your own Sides :|
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%    The 1. cu. set to their Partners, and cast off below the 2. cu. and turn .| Then take hands and lead
+%% down towards the 3. cu. and turn their Partners :|
+%%    The 1. cu. being in the 2. cu. place, the 1. man turns the 2. wo. by the right-hand, and the 1. wo. turns
+%% the 3. man by the right hand at the same time, so meet in the middle, and turn to their own sides .| The
+%% 1. man being in the 2. cu. place, turns the third wo. by the right-hand, then the 1. wo. being in the 2.
+%% wo. place, the 1. wo. turns the 1. man, and the 1. man the 3. wo. with their right-hands, so meet in the
+%% middle, and turn to your own sides :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,26 @@
+X:1
+T: Wooden Shoes
+N:
+C:aka Bartholomew Fair (not the 6/8 one)
+S:
+A:
+O:
+R:
+M:4/4
+K:C
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 37 notes)
+K:C
+M:4/4
+L:1/16
+g4 |e4 c4 d2 c2 B2 A2 |G12 g4 |e4 c4 c4 d4 |e4 c4 c4 d2 e2 |f4 f2 g2 a2 g2 f2 e2 |d4 g4 g4 a4 |^f4 d4 g4 f4 |g4 G4 G4 g4 |
+%W: A2
+% voice 1 (1 lines, 36 notes)
+e4 c4 d2 c2 B2 A2 |G12 g4 |e4 c4 c4 d4 |e4 c4 c4 d2 e2 |f4 f2 g2 a2 g2 f2 e2 |d4 g4 g4 a4 |^f4 d4 g4 f4 |g4 G4 G4 g4 |
+%W: B1
+% voice 1 (1 lines, 43 notes)
+g4 f2 e2 d2 e2 f2 g2 |a4 d4 d4 f4 |c4 c4 A4 d4 |B4 G4 G4 e4 |A2 B2 c4 B2 c2 d4 |d2 e2 f4 e2 f2 g4 |a2 g2 f2 e2 d2 e2 f2 g2 |e4 c4 c4 g4 |
+%W: B2
+% voice 1 (1 lines, 42 notes)
+g4 f2 e2 d2 e2 f2 g2 |a4 d4 d4 f4 |c4 c4 A4 d4 |B4 G4 G4 e4 |A2 B2 c4 B2 c2 d4 |d2 e2 f4 e2 f2 g4 |a2 g2 f2 e2 d2 e2 f2 g2 |e4 c4 c4 ||

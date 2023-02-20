@@ -1,0 +1,96 @@
+%!abctab2ps -noitaliantab -s 0.8
+X:1
+%
+%%historicstyle
+%%nobeams
+%%titleleft
+%%topmargin      3.00cm
+%%topspace       -1.2cm
+%%composerspace  -20pt
+%%gchordspace    6.0pt
+%
+T:Venga quel bel narciso
+T:(unknown composer)
+C:Source: Emanuel Adriaenssen
+C:Pratum Musicum (1584), fol. 53v
+L:1/4
+M:C
+K:DDorian
+%
+%%sysstaffsep 20pt
+%%systemsep   85pt
+%%indent 1.5cm
+%
+V:S clef=treble name=Canto bracket=3
+V:T clef=treble name=Tenore
+V:B clef=treble8 name=Basso space
+%
+[V:S] F2 EF  GA GE  FG E2  D2 :| z A 
+w:1.~~Ven-ga quel bel nar-ci-so che nel fon-te S'in
+w:2.~~Ven-ga quel Gre-co che dis-tru-sse Tro-ia E
+w:3.~~E ven-ga~an-cor Or-fe-a con sua Li-ra E
+w:4.~~E non sol que-lli ma~an-cor ven-ga Gio-ue E
+%
+AA GA Bc d>c B2 A2
+w:a-mo-ro e mi-rau' u-na vol-ta
+w:mi-ra s'oc-chi * sol u-na vol-ta
+w:sen-ta-ui par-lar sol u-na vol-ta
+w:mi-ra s'in-da-ra-te tre-zze tu-e 
+%
+|: z2 z d  d/c/B/A/ G2 z c 
+w:E fu-gga poi si puo, e 
+w:E fu-gga poi si puo, e 
+w:E fu-gga poi si puo, e 
+w:E fu-gga sciol-to~al ciel, E 
+%
+c/B/A/G/ AA G>F E2 [1D2 :| [2 D16 |]
+w:fu-gga poi si puo con l'al-ma sciol-ta. ta.
+w:fu-gga poi si puo con l'al-ma sciol-ta. ta.
+w:fu-gga poi si puo con l'al-ma sciol-ta. ta.
+w:fu-gga sciol-to~al ciel si po-tra po-i. i
+%
+%
+[V:T] D2 CD EF EC D D2 ^C D2 :| z F 
+w:1.~~Ven-ga quel bel nar-ci-so che nel fon-te S'in
+%
+FF E>^F GE "\#"F/G/ A2 ^G A A
+w:a-mo-ro e mi-rau' u-na vol - ta E
+%
+|: A/G/F/E/ F2 z G G/F/E/D/ C2 z2
+w:fu-gga poi si puo, e fu-gga poi si puo
+%
+z FE D2 "\#"C [1DA :| [2 D16 |]
+w:con l'al-ma sciol-ta. E ta.
+%
+%
+[V:B] D2 AB cF cA _BG  A2 D2 :| z F 
+w:1.~~Ven-ga quel bel nar-ci-so che nel fon-te S'in
+%
+FF cA GA BA e2 A2 
+w:a-mo-ro e mi-rau' u-na vol-ta
+%
+|: z d d/c/B/A/ G2 z c c/B/A/G/ F2
+w:E fu-gga poi si puo, e fu-gga poi si puo
+%
+z F G_B A2 [1D2 :| [2D16 |]
+w:con l'al-ma sciol-ta. ta.
+%
+
+X:2
+%
+%T:title
+%C:composer
+L:1/4
+M:C|
+K:frenchtab
+%
+[,bd,a2] [,abc1][,bdd] [,dff][ab,,d] [,dff][,abc] |\
+	[,bdd1][,dda] [,a,c],,c [,,d,a2] :| z1 [ab,,d1] |\
+%
+[ab,,d1][ab,,d] [,dff][a,,c/],c [cd,a1][da,c] [f,,e/],e[,f,c]d |\
+	[c,f1],e [a,,c]a
+%
+Sa/,d[,bd],a [,bd],,b[f,a],,,c | [f,,a/]d[cd]a [cd],b[,ab],,d \
+	[,ab],,a [d,,c],,,a[d,,,d]ca,d |\
+%
+[ab1][ab,,d] [,dfa][,,dd/],b [,a,c1],,c [1[,,d,a]a :| [2 [,,d,a4] |]

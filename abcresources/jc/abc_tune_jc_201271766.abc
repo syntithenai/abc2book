@@ -1,0 +1,32 @@
+X: 1
+T:The Ewie wi' the Crookit Horn
+M:C
+L:1/8
+Q:80
+C:
+S:Hornpipe
+K:HP
+e|
+{g}A2{GdGe}A3/2{d}B/2{g}G3/2A/2{gBd}B/2{e}G3/2|
+{g}A2{GdGe}A3/2B/2{Gdc}d3/2B/2{gcd}c/2{e}A3/2|1
+{Gdc}((3d3/2c/2{g}Bcd){gcd}c/2{e}A3/2{gBd}B/2{e}G3/2|  !
+{g}A2{GdGe}A3/2{d}c/2{gBd}B/2{e}G3/2{g}A:|2
+{g}B/2d3/2{g}c/2e3/2{Gdc}d3/2c/2{gBd}B/2{e}G3/2|
+{g}A2{GdGe}A3/2{d}c/2{gBd}B/2{e}G3/2{g}A2|]  !
+{g}c/2e3/2{A}e3/2f/2{Gdc}d3/2e/2{gfg}f3/2d/2|
+{g}c/2e3/2{A}e3/2f/2{gf}g3/2e/2{gfg}f3/2d/2|1
+{g}c/2e3/2{A}e3/2f/2{Gdc}d3/2e/2{gfg}f3/2d/2|  !
+{g}((3c/2e3/2{A}efg){fg}f3/2d/2{gef}e2:|2
+{gf}g3/2f/2{g}e3/2c/2{Gdc}d3/2B/2{g}f3/2d/2|
+{gef}((3e3/2A/2{g}fga){fg}f3/2d/2{gef}e2|]  !
+{g}A/2d3/2{G}d3/2e/2{g}c3/2d/2{gef}e3/2c/2|
+{g}A/2d3/2{G}d3/2e/2{gf}g3/2e/2{g}f3/2d/2|
+{gf}g3/2f/2{g}e3/2d/2{gcd}c/2{e}A3/2{gBd}B/2{e}G3/2|  !
+{g}A/2d3/2{G}d3/2f/2{gef}e3/2c/2{Gdc}d2:|
+{ag}a3/2d/2{g}f3/2d/2{gf}g3/2c/2{gef}e3/2c/2|
+{ag}a3/2d/2{g}f3/2d/2{ag}a3/2d/2{g}f3/2g/2|1  !
+{ag}a3/2d/2{g}f3/2d/2{gf}g3/2c/2{gef}e3/2c/2|
+a3/2g/2{a}f/2a3/2{f}g3/2e/2{Gdc}d2:|2
+{ag}a3/2d/2{g}f/2a3/2{f}g3/2f/2{g}e3/2c/2|  !
+{g}e3/2g/2{a}f/2a3/2{f}g3/2e/2{Gdc}d2|]
+

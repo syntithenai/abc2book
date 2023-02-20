@@ -1,0 +1,25 @@
+X: 2293
+T: Miss Rae's Jigg
+%R: jig
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.29 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - -
+V: 1 staves=2
+E |\
+TC2c- cGE | cGE C2E | C2c- TcBc | dDD D2E ||\
+C2c cGER | GAB cGER | FdF EcE | dDD D2 :|
+e |\
+c2g- Tgea | gec Tc2e | ceg geg | afd Td2e ||\
+c2g- Tgeg | agf edc | (f/g/a).f (e/f/g).e | afd Td2e ||
+c2g- Tgea | gec Tc2e | ceg geg | afd Td2f ||\
+e>fg def | edc dBG | A>Bc GEc | GEC TC2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z |\
+c3 c3 | c3 c3 | c3 e3 | g3 G3 || c3 c3 | c3 e3 | B3 c3 | g3 G2 :|
+z | c'3 c'3 | c'3 c'3 | c'3 c2e | f2^f g3 || c'3 c'3 | f3 c'3 | b3 c'2e | f2^f g3 ||
+c'3 c'3 | c'3 c'3 | c'3 c2e | f2^f g2b || c'3 g3 | a3 e3 | f3 g3 | c'3 c2 |]

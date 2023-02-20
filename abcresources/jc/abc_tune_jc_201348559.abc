@@ -1,0 +1,155 @@
+%%textfont Helvetica-Bold 21
+%%center Val Varaite
+%%titleleft
+%%textfont Helvetica 16
+%%infoline 1
+
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (Val Varaita, Italie)
+X: 1
+T:Countrodanso n°1
+R:---
+O:Val Varaita, Italie
+M:2/4
+L:1/8
+K:G
+GB/2c/2|:dd dc|BA Bc/2B/2|AG AA|BG GB/2c/2|dd dc|BA Bc/2B/2|AG AB| [1 G2 GB/2c/2 :| [2 G2
+GA|:B>B BB|cB AG|A>A AA/2B/2|AG GA|B>B BB|cB AG|A>c BA| [1 G2 GA:| [2 G2 G2 |:
+c>B AG|E2E2|A>G FE|F/2E/2D D2|G>F GA|B2 AB|dc BA| [1 G2 G2:| [2 G2 ||+fine+ d2 g2|g2
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (Val Varaita, Italie)
+X: 2
+T:Countrodanso n°2
+R:---
+O:Val Varaita, Italie
+M:2/4
+L:1/8
+K:G
+GB/2c/2|:dd dc|BA Bc/2B/2|AG AA|BG GB/2c/2|dd dc|BA Bc/2B/2|AG AB| [1 G2 GB/2c/2 :| [2 G2
+GB|:dd/2d/2 cB|cA FA|Ad/2c/2 BA|BG GB|de/2d/2 cB|cA FA|Ad/2c/2 BA| [1 G2 GB:| [2 G2
+GB|:d2 cB|c2 AF|A>c BA/2B/2|AG GB|d2 cB|c2 AF|A>c BA| [1 G2 GB:| [2 G2||+fine+d2 g2|g2
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (Val Varaita, Italie)
+X: 3
+T:Countrodanso n°3
+R:---
+O:Val Varaita, Italie
+M:2/4
+L:1/8
+K:G
+GB/2c/2|:dd dc|BA Bc/2B/2|AG AA|BG GB/2c/2|dd dc|BA Bc/2B/2|AG AB| [1 G2 GB/2c/2 :| [2 G2
+d2|:ed dc/2B/2|AG GF/2G/2|AG AB|dc cd|ed dc/2B/2|AG GF/2G/2|AG AB| [1 G2 d2 :| [2 G2 G2
+|:cB c/2B/2c/2B/2|AG GA/2B/2|AG AB|dc cc|cB c/2B/2c/2B/2|AG GA/2B/2|AG AB| [1 dc cc :| [2 G2
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (Val Varaita, Italie)
+X: 4
+T:Countrodanso n°4
+R:---
+O:Val Varaita, Italie
+M:2/4
+L:1/8
+K:G
+GB/2c/2|:dd dc|BA Bc/2B/2|AG AA|BG GB/2c/2|dd dc|BA Bc/2B/2|AG AB| [1 G2 GB/2c/2 :| [2 G2
+BG|:BG B/2c/2B/2A/2|AF AF|AF A/2c/2B/2A/2|BG BG|BG B/2c/2B/2A/2|AF AF| [1 AF A/2c/2B/2A|G2 BG:| [2 AF AA|G2 G2|:
+c>B AG|E2 E2|AG FE|F/2E/2D D2|GA AA|B2 AB|d>c BA|| [1 G2 G2:| [2 G2
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (Val Varaita, Italie)
+X: 5
+T:Courente (1)
+R:---
+O:Val Varaita, Italie
+M:2/4
+L:1/8
+K:G
+(3DEF|(3DEF (3DEF|A2 A>B|AG FE|F/2E/2D (3DEF|(3DEF (3DEF|A2 AB|AG FE|D2
+AB|:A>G FE|F/2E/2D AB|A>G FE|F/2E/2D (3DEF|(3DEF (3DEF|A2 AB| [1 AG FE|D2 AB:| [2 AG AB |G2
+GA/2B/2|dd dd|ed cB|Ad cd/2c/2|BG GB/2c/2|dd dd|ed cB|Ad c/2B/2A|G2
+dc/2B/2|:Ad cd/2c/2 |BG dc/2B/2|Ad cd/2c/2|BG GB/2c/2|dd dd|ed cB|Ad c/2B/2A| [1 G2 dc/2B/2:| [2 G2
+(3DEF|(3DEF (3DEF|A2 A>B|AG FE|F/2E/2D (3DEF|(3DEF (3DEF|A2 AB|AG FE|D2
+"pizz.".A .A|:.A "drco"D FE/2F/2|F/2E/2D "pizz.".A .A|.A "drco"D FE|F/2E/2D DE/2F/2|GG AB| [1c/2B/2A A/2B/2c/2B/2|AG FE|D2 .A .A:|
+ [2 c/2B/2A Bc/2B/2|AG AB|G2
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (Val Varaita, Italie)
+X: 6
+T:La Bouréo de San Martin
+R:---
+O:Val Varaita, Italie
+M:2/4
+L:1/8
+K:G
+GB|:d>d de|d2 Bd|cA FA|BG GB|d>d de|d2 Bd|cA FA|G2
+Bd| cA FA|"1)"B>G Bd|cA FA|BG GB|d>d de|d2 Bd|["n bbois" cA FA|G2 G2|G2 GB:|["bbin" cA dd|G2 d2|g2
+"Variante"|"1)"BG Bd|c>A Fd|
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (Val Varaita, Italie)
+X: 7
+T:La Marcho dla Baio
+R:---
+O:Val Varaita, Italie
+M:2/4
+L:1/8
+K:G
+|:G>G GG|BG GG|B2 Bc/2B/2|Ad d2|A>A AB|AG G2|dd/2d/2 dd|G2G2:|
+|:G>B BB|B>G GG|G>d dd|c2 A2|D>A AA| [1 AF FD|DA dd|B2 G2:| [2 AF AB/2c/2|dc B/2c/2B/2A/2|GG G2]|| ["bbin" d2 g2|g2
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (Val Varaita, Italie)
+X: 8
+T:La gigo (1)
+R:---
+O:Val Varaita, Italie
+M:2/4
+L:1/8
+K:G
+d2|: ed dc/2B/2|AG GF/2G/2|AG AB|dc cd|ed dc/2B/2|AG GF/2G/2|AG AB| [1 G2 d2:| [2 G2 G2|:
+cB c/2B/2c/2B/2|AG GA/2B/2|AG AB|dc cc|cB c/2B/2c/2B/2|AG GA/2B/2|AG AB| [1 dc cc:| [2 G2 GA|:
+B>B BB|cB AG|A>A AA/2B/2|AG GA|B>B BB|cB AG|A>c BA| [1 G2 GA :| [2 G2 G2|:
+c>B AG|E2E2|A>G FE|F/2E/2D D2|G>F GA|B2 AB|dc BA| [1 G2 G2:| [2 G2
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (Val Varaita, Italie)
+X: 9
+T:La gigo (2)
+R:---
+O:Val Varaita, Italie
+M:2/4
+L:1/8
+K:G
+BB|:BB/2B/2 AG|A2 cc|cc/2c/2 BA|BG BB|Bc/2B/2 AG|A2 cc|cc/2c/2 BA| [1 G2 BB:| [2 G2
+GB|:d2 cB|c2 AF|A>c BA/2B/2|AG GB|d2 cB|c2 AF|A>c BA| [1 G2 GB:| [2 G2
+GB|:dd/2d/2 cB|cA FA|Ad/2c/2 BA|BG GB|de/2d/2 cB|cA FA|Ad/2c/2 BA| [1 G2 GB:| [2 G2
+GB|:d2 cB|c2 AF|A>c BA/2B/2|AG GB|d2 cB|c2 AF|A>c BA| [1 G2 GB:| [2 G2
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (Val Varaita, Italie)
+X: 10
+T:Lou Calissoun
+R:---
+O:Val Varaita, Italie
+M:6/8
+L:1/8
+K:G
+B|:d2c B2d|cBA G2B|d2d cBA| d2B G2d|d2c B2d|cBA G2B|"1)"d2d cBA|G3 G3|
+c2c cBA|B2B BAG|A2A cBA|B2G G3|c3 {/d}cBA |B2B BAG|A2A cBA|["n bbois" "2)" G3 G2B :|["bbin" d3 g3|g3
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (Val Varaita, Italie)
+X: 11
+T:Lou Rigoudin
+R:---
+O:Val Varaita, Italie
+M:6/8
+L:1/8
+K:G
+G2A |:B2d cBA|d2B G2A|B2d cBA|G3 G2A|B2d cBA|d2B G2A|B2d cBA|G3 G3|
+A3 d3|B2G GFG|A2A cBA|G3 GFG|A3 d3|B2G GFG|A2A cBA|["n bbois" G3 G2A :|["bbin" G3 G3
+
+%%footer $D   Galouvielle-MBe 2006 \n--- (Val Varaita, Italie)
+X: 12
+T:Mazourco
+R:---
+O:Val Varaita, Italie
+M:3/4
+L:1/8
+K:G
+BAGABc|B2G2 B>c|A2F2 A>B|[M:2/4]B2 G2|[M:3/4]BAGABc|B2G2 B>c|A2 A>c B>A|G2 G2
+B>c|:d2 d>c B>c|d2 d2 c>B|A2 A>c B>A|B2 G2 B>c|d2 d>c B>c|d2 d2 c>B|A2 A>c B>A|G2G2
+c>c|c2(3BcB A>B|A2G2 c>B|A2 (3GAG E>E|E2E2 B>c|d2c2 c>d|{/d}c2 (3BcB A>B|[M:2/4]A2G2|
+[M:3/4] BAGFED|ED C2C2|EDC GAc|B2G2 B>B|A2F2A>c|[M:2/4]B2G2|[M:3/4]BAGABc|
+B2G2B>c|A2A>cB>A| [1,2,3 G2G2 B>c :| [4 d2 g2g2

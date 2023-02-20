@@ -1,0 +1,32 @@
+X:1
+T: The Working Masons in Merlin
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 210
+%W: A1
+% voice 1 (1 lines, 17 notes)
+K:G
+M:4/4
+L:1/16
+d4 |g4 B4 c4 B2 A2 |d4 G8 g2 e2 |f4 d4 e4 a2 g2 |f12 d4 |
+%W: A2
+% voice 1 (1 lines, 16 notes)
+g4 B4 c4 B2 A2 |d4 G8 g2 e2 |f4 d4 e4 a2 g2 |f12 a4 |
+%W: B1
+% voice 1 (1 lines, 15 notes)
+a4 f4 g4 f2 e2 |f4 B8 f2 g2 |e4 e4 e4 ^d4 |e12 g4 |
+%W:
+% voice 1 (1 lines, 15 notes)
+B4 c4 d4 c2 B2 |e4 d8 g2 e2 |f4 g4 g6 f2 |g12 a4 |
+%W: B2
+% voice 1 (1 lines, 15 notes)
+a4 f4 g4 f2 e2 |f4 B8 f2 g2 |e4 e4 e4 ^d4 |e12 g4 |
+%W:
+% voice 1 (1 lines, 14 notes)
+B4 c4 d4 c2 B2 |e4 d8 g2 e2 |f4 g4 g6 f2 |g12 ||

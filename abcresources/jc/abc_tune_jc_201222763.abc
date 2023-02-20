@@ -1,0 +1,17 @@
+X: 062	% 12
+T: Little Brown Jug - Polka
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.6 #2
+R: polka, reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+V: 1 name=12
+[|"^Tempo Gay (Polka)"\
+F2[AF][AF] [AF][AF][AF][AF] | B2[B2G2] [B4G4] |\
+A2[cE][cE] [cE][cE][cE][cE] | A2[d2F2] [f4d4] |\
+F2[AF][AF] [AF][AF][AF][AF] | G2[B2G2] [B4G4] |\
+A2[c2E2] cBcd | e2[d2F2] [d4F4] |]
+[|\
+fgaf d4 | f2e2 g4 | g2c2 cdef | e2d2 f4 |\
+fgaf d4 | f2e2 g4 | "^gliss"{a}b2c2 cdef | e2d2 d4 |]

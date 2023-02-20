@@ -1,0 +1,23 @@
+X: 193
+T: Speed the Plough
+R: strathspey
+M: C|
+L: 1/8
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: Abraham Mackintosh "A Collection of Strathspeys, Reels, Jigs &c.", Newcastle, after 1797, p._
+F: http://imslp.info/files/imglnks/usimg/a/a8/IMSLP80796-PMLP164326-Abraham_Mackintosh_coll.pdf
+K: A
+V: 1
+E |\
+A/A/A A>c e>fec | e<ae>c e>fe>c | d>ed>B c>dc>A | F<B{c}BA G<BB>c |
+A/A/A A>c e>fec | e<ae>c e>fe>c | d>ec>d B>c AE | F>AG>B cAA |]
+f/g/ |\
+aAaA aA eA | aAgA fAeA | f>bd>B c>ac>A | B<FB>A G<BB>e |
+c/B/A eA aAeA | f>dB>f e>cA>e | d>ec>d B>cAE | F>AG>B cAA |]
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | a2a2 a2a2 | g2e2 a2a2 | d2^d2 e2=d2 |
+c2B2 A2A2 | A2A2 a2a2 | f2e2 d2c2 | d2e2 a2A |]
+z |\
+a2a2 a3=g | f2e2 d2c2 | B2G2 A2a2 | d2^d2 e2e2 |
+a2a2 c2c2 | d2d2 c2c2 | f2e2 d2c2 d2e2 a2A |]

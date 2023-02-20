@@ -1,0 +1,37 @@
+X: 18543
+T: COUNTESS OF GOSFORD'S FANCY
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.18 p.54 #3
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+|:\
+d2de fgfe | d2de fgfe | d2B2 BcdB | c2F2 F2fe |
+d2de fgfe | d2de fgfe | dfBd ceAc | BABc B2z2 :|
+|:\
+babc' bfdf | babc' bfdf | babc' d'3b | agab c'agf |
+babc' bgeg | f=efg fdBd | c=Bcd ecAc | BABc B2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+|:\
+[b2B2][d'2b2][d'2b2][d'2b2] | [b2B2][d'2b2][d'2b2][d'2b2] |\
+[b2B2][d'2b2][d'2b2][d'2b2] | [f2F2][c'2f2][c'2f2]z2 |\
+[b2B2][d'2b2][d'2b2][d'2b2] | [b2B2][d'2b2][d'2b2][d'2b2] |\
+[b2B2][d'2b2][f2F2][c'2f2] | [b2B2][d'2b2][d'2b2]z2 :|
+|:\
+[b2B2][d'2b2][d'2b2][d'2b2] | [b2B2][d'2b2][d'2b2][d'2b2] |\
+[b2B2][d'2b2][=e'2g2][e'2g2] | [f'4f4] z4 |\
+[e'2e2][g'2e'2][g'2e'2][g'2e'2] | [b2B2][d'2b2][d'2b2][d'2b2] |\
+[c'2e2][c'2e2][c'2f2][e'2f2] | [d'2b2][d'2b2][d'2b2]z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hands across back again .| whole figure on your own side |: down
+%% the mid: up again, turn your partner & lead outsides |:.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

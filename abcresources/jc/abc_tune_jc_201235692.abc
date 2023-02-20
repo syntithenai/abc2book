@@ -1,0 +1,23 @@
+X: 2131
+T: Niel Gows Compliments return'd to Mr Marshall
+C: Niel Gow
+%R: reel, march, air
+N: This is version 1, for ABC software that doesn't understand trailing grace notes.
+%%slurgraces 1
+%%graceslurs 1
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.13 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+|:\
+(A,A)cA eATcA | A,A (d/c/B/A/) BG (TBA/B/) | (A,A)cA eAcA | (Tf/e/f/)g/ ac EAA2 :| f>aea d>aca | (B/A/B/c/) (d/c/B/)A/ GBTB2 |
+f>aea d>ac>a | (TB/A/B/c/) (d/c/B/)A/ EA Ag || f>aeA f>aca | (B/A/B/c/) (d/c/)B/A/ GBTBA/B/ | CEA,A FAHdf | {f}ed/c/ (d/c/)B/A/ EAA2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|: a2a2 a2a2 | a2A2 e2e2 | a2a2 a2a2 | d2e2 a2A2 :| d'2c'2 b2a2 | g2a2 e'2e2 |
+d'2c'2 b2a2 | d2e2 a2A2 || d2c2 B2A2 | G2A2 e2E2 | A2c2 d2HB2 | e2E2 A2A2 |]

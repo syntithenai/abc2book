@@ -1,0 +1,26 @@
+X:1
+T: Maiden Moor
+N:
+C:Brian Jenkins
+S:
+A:
+O:
+R:
+M:4/4
+K:C
+I:speed 232
+%W: A
+% voice 1 (1 lines, 30 notes)
+K:C
+M:4/4
+L:1/16
+E4 D4 |C8 C6 D2 |E4 G8 ^F4 |F6 E2 F4 G4 |A4 c8 e4 |g6 a2 g4 e4 |d4 c4 A4 E4 |D6 C2 D4 E4 |G8 E4 D4 |
+%W:
+% voice 1 (1 lines, 27 notes)
+C8 C6 D2 |E4 G8 ^F4 |F8 F6 G2 |A4 c8 e4 |g6 e2 d4 c4 |A4 G4 E4 C4 |D6 C2 A,4 G,4 |C8 F4 G4 |
+%W: B
+% voice 1 (1 lines, 28 notes)
+A8 A6 G2 |A4 c8 A4 |G6 A2 G4 E4 |D4 C4 E4 G4 |A6 B2 c4 A4 |G4 c4 e4 g4 |a8 d6 e2 |d8 E4 D4 |
+%W:
+% voice 1 (1 lines, 26 notes)
+C8 C6 D2 |E4 G8 C4 |F6 E2 F4 G4 |A4 c4 d4 c4 |e6 d2 c4 A4 |G4 A4 E4 D4 |C8 C6 D2 |C8 ||

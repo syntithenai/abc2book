@@ -1,0 +1,19 @@
+X: 159
+T: The Scotch Ramble
+%R: jig
+M: 6/8
+L: 1/8
+Z: 2011,2014 John Chambers <jc:trillian.mit.edu>
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1771", London 1771, p.80
+K: C
+e |\
+c>dc cGE | cGE cde | cdc cGE | DDD D2e | c>dc cGE |
+cGE cGE | FGF EFD | [cC][cC][cC] [c2C2] :: e | c>de/f/ gec | gec c2g |
+c>de/f/ gec | afd d2a | c>(de/f/) gec | gec gec | fgf efd | ccc c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Hey contrary sides .|. they Hey your own sides :|. lead
+%% down the middle, up again and cast off .|: right and left
+%% at Top :|:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

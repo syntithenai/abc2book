@@ -1,0 +1,28 @@
+X: 1
+T: Son De La Loma
+C: M. Matamoros
+O: Orquestra Aragor arr.
+R: charanga
+S: Fiddle Hell Online 2021-11-07 Skye Steele workshop
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+%%continueall 0
+"Intro"[|\
+"G"d2B2 e2Bd | zB2e "G"z2zB | d2B2 e2"D7"Bd | z^c=c- c4 |
+e2c2 f2ce | zc2f- f z2c | e2c2 f2"G"ce- | e^d2=d d4 |
+d2B2 e2Bd | zB2e z^G Bd | "E7"=fe2^d e2B=d | "Am"z^c2=c- c4 |
+"C"e^def "C#dim"agfe | "D"=d^cd^d "Em"e=d=cB | "Am"A^GAB "D7"dcBA | "G"=G3d= d4 ||
+"^A"|| "G"[B4G4] | z[d2B2] [e2c2][ec][d2B2] |  [B4G4][d4G4]"D"y | [e3G3] [d3F3] z2 | A2d2 zA2d | z2ze- e4 |
+"E7"[e8^G8] "Am"y | zc de2 -f2"E7"[e-^G-] | [e4G4] ed"Am"Bc- | cA2[aA] z4 |
+"C"[c4E4] "D7"[c4F4] | "G"[B4G4] "E7"[B4^G4] | "Am7"[c4=G4] "D7"[c4F4] | "G"G3[d-D-] [d4D4] |
+"^B"| !segno!"G"[B6G6] zd- | dc2 B2 A"E7"^G2- | G3B- B3"Am"A | zc de2 =f"E7"e2- | e4 z2"Am"zc |
+zc de2 =f"E7"e2- | e4 z4 "Am"y | zAB2 c2^c2 | "D"d2f2 e=c zd- | dA2d fad'2 |
+d2f2 ec zd- | d[f2A2]z z2dd | d2z2 z2dd | "_fine"d2z2 "^D.C."d4 :|
+"G"g3g ec2"D7"d- | df z"C"a zc' "G"b2 | g3g ec2"D7"d- | df z"C"a za zc' "G"b2 |
+g3g ec "D7"d2- | d3-.[db] "Bm7"za2g- | "Em7"g3[a-^c-] "A7".[ac][e2c2][f-d-] | "D7"[f4d4] z4 |
+|: "G"G3Z Bc2"D7"d- | df2"C"A c2"G"G2 | G3A Bc2"D7"d- | df2"C"A c2"G"G2 :|
+%%begintext align right
+%% open for Solos on cue D.S. (to B)
+%%endtext

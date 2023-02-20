@@ -1,0 +1,27 @@
+
+X: 2
+T: Eleno Mome (Elenino Horo) #2
+S: https://www.youtube.com/watch?v=i1WHj-Im2qA
+S: https://www.youtube.com/watch?v=s7KA2KDWanM
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+L: 1/16
+M: 7/8
+Q: 2/8 2/8 1/8 2/8
+K: A
+%%scale 0.60	% For jcabc2ps in a PDF page
+"A"|: "A"GAAE GABc dB c3E | "E"cedc BdcB "A"AG F3E |\
+      "A"GAAE GABc dB c3E | "E"cedc BdcB "A"A2 A4 :|
+"B"|: "A"GAAE GAB2 AG F3E | "E"GAAE GABG "A"A2 A3E |\
+      "A"GAAE GAB2 AG F3E | "E"GAAE GABG "A"A2 A4 :| {^d}e14- | e14 ||
+"C"|: "A"edcB cccA BA cccA | "A"edcB cccA BA cccA |\
+      "A"edcB cccA BA cccA | "A"edcB "E"BE "A"A4 :|
+"D"|: "B"^d=cBA TBBBF BF BBBF | "B"^d=cBA TBBBF BF BBBF :|\
+"E"|: "B"a=gfe ^ddd=c ec dddc | "Am"fe^d=c cBBA "B"cA BBBF |
+      "B"a=gfe ^ddd=c ec dddc | "Am"fe^d=c cBBA "B"cA B4 :|\
+"F"|: "B"fe^d=c cBBA cA BBBF | "B"fe^d=c cBBA cA B4 :| "A"{G}A14 ||
+"G"|: "A"A=GFE ^CDDA, CA, EEEA, | "A"A=GFE ^CDDA, CA, EEEA, |\
+      "A"A=GFE ^CDDA, CA, EEEA, |"A"A=GFE ^CDDA, CA, B,B,B,A, :| "A"{^D}E14 ||
+"G"|: "A"edcB cccA BA cccA | "A"edcB cccA BA cccA |\
+      "A"edcB cccA BA cccA | "A"edcB cccA BE [1 AAAE :|2 A4 |]
+%%text https://www.youtube.com/watch?v=i1WHj-Im2qA
+%%text https://www.youtube.com/watch?v=s7KA2KDWanM

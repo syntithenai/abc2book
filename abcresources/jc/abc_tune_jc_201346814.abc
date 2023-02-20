@@ -1,0 +1,26 @@
+X:1
+T: True Kit
+N:
+C:Tune is "Mr. Warwick's Mask" (Anon)
+S:
+A:
+O:
+R:
+M:4/4
+K:Am
+I:speed 210
+%W: A1
+% voice 1 (1 lines, 21 notes)
+K:Am
+M:4/4
+L:1/16
+e6 e2 c6 c2 |B2 c2 A2 B2 ^G2 A2 B2 E2 |c4 d2 e2 c2 d2 e4 |e4 d4 e8 |
+%W: A2
+% voice 1 (1 lines, 21 notes)
+e6 e2 c6 c2 |B2 c2 A2 B2 ^G2 A2 B2 E2 |c4 d2 e2 c2 d2 e4 |e4 d4 e8 |
+%W: B
+% voice 1 (1 lines, 25 notes)
+e4 e4 g6 f2 |e2 e2 d2 c2 d6 d2 |e2 d2 c2 B c d2 A2 B2 c2 |d2 e2 c2 d2 B6 B2 |
+%W:
+% voice 1 (1 lines, 23 notes)
+^G2 A2 B4 E2 ^F2 G4 |A2 B2 c2 d2 B6 B2 |A2 B2 c4 d2 e2 f4 |c2 d2 B3 A A8 ||

@@ -1,0 +1,60 @@
+
+X: 1
+T: Dumbartons Drums    [F/Dm]
+O: John Walsh 1740
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (70)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Z: 2016 John Chanbers (chords, a few added/changed notes from other sources)
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+FG |\
+"F"A3c "C7"ABGA | "F"F2c2 ({d}c2BA) | "Gm"(GF)(GA) (BA)(GF) | "Gm"D2d2 "C7"{e}d2cd |
+"F"f3g (ag)(fd) | "F"(cA)(cd) f3F "^I"| "Gm"GA fd "Am"(cA)(GF) | "Dm"D2d2 {e}d2 |]
+|: cd |\
+"F"f3g (fg)(ag) | "F"f2a2 {b}a2gf | "Gm"(gf)(ga) (ba)(gf) | "Gm"d2g2 "C7"{a}g2(fd) |
+"F"(cd)(fg) "(C7)"(ag)(fd) | "F"(cA)(cd) "Dm"f3g | "Dm"(ag)(fd) "Am"(cA)(GF) | "Dm"D2d2 {e}d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. lead thro the 2d Cu. and cast off, and turn, then the
+%% 1st Wo. turn the 2d Man, then Cross over below the 2d Cu.
+%% Then below the 3d Cu. and lead thro both Cu. and cast off,
+%% We. fall back and Men follow them and turn S. Men fall
+%% back We. follow and turn S. clap hands sides, clap hands
+%% with your Partners and cast off.
+%%endtext
+
+%%sep 2 1 500
+%%sep 1 1 500
+
+X: 2
+T: Dumbartons Drums    (G/Em)
+O: John Walsh 1740
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (70)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+Z: 2016 John Chanbers (chords, a few added/changed notes from other sources)
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+GA |\
+"G"B3d "D7"BcAB | "G"G2d2 ({e}d2cB) | "Am"(AG)(AB) (cB)(AG) | "Am"E2e2 "D7"{f}e2de |
+"G"g3a (ba)(ge) | "G"(dB)(de) g3G "^I"| "Am"AB ge "Bm"(dB)(AG) | "Em"E2e2 {f}e2 |]
+|: de |\
+"G"g3a (ga)(ba) | "G"g2b2 {c'}b2ag | "Am"(ag)(ab) (c'b)(ag) | "Am"e2a2 "D7"{b}a2(ge) |
+"G"(de)(ga) "(D7)"(ba)(ge) | "G"(dB)(de) "Em"g3a | "Em"(ba)(ge) "Bm"(dB)(AG) | "Em"E2e2 {f}e2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. lead thro the 2d Cu. and cast off, and turn, then the
+%% 1st Wo. turn the 2d Man, then Cross over below the 2d Cu.
+%% Then below the 3d Cu. and lead thro both Cu. and cast off,
+%% We. fall back and Men follow them and turn S. Men fall
+%% back We. follow and turn S. clap hands sides, clap hands
+%% with your Partners and cast off.
+%%endtext
+

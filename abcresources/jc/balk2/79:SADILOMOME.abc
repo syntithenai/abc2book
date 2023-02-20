@@ -1,0 +1,16 @@
+X: 379
+T:Sadilo Mome
+O:Bulgaria
+F: http://www.youtube.com/watch?v=aZwxASYvJbY
+F: http://www.youtube.com/watch?v=ULG1pCQhYC8
+F: http://www.youtube.com/watch?v=legJZ-fEzJ0
+L:1/8
+M:7/8
+Q:1/4=240
+K:Cm
+%%MIDI gchord fzffzfz
+%%MIDI beatstring fppmpmp
+|:"C" B3 c4| c3-c4 | e2dc4|e2dc4  |\
+  B3 e4    |d2fc4  | c3-c4|c3-c4  :|
+|:e3-e4-   |e3 fedc| d3-d4|d3 edcB|\
+  c2f c2f2 | c3-c4 |fc2-c4|fc2-c4 :|

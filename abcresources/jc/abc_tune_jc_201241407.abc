@@ -1,0 +1,31 @@
+X: 4342
+T: Captain Flash
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: in bar 9 there's what looks like a faint sharp before the f.
+N: The 2nd part has a begin-repeat but no end-repeat.
+M: 6/8
+L: 1/8
+K: C
+%
+V: 1
+|:\
+c3 ecA | afd {c}B3 | cGF EFG | ABc dBG |\
+A2c B2d | c2g f/g/af | edc G2B | c3 C3 :|
+|:\
+ecA e2^f | g3 G3 | dBG d2e | =f3 F3 |\
+dBG def | edc BAG | (A/B/)cA (B/c/)dB | c3 C3 |]
+%
+V: 2 clef=bass middle=d
+|:\
+c3 A3 | f3 g2f | e2d c3 | f3 g3 |\
+f2e d2B | c2e f2a | c'ba g2G | c2G C3 :|
+|:\
+a3 c'2a | bag G3 | g3 b2g | agf F3 |\
+g3 b3 | c'ba g2G | f3 g3 | c2G C3 |]
+%%begintext align
+First Man turn his Partner, with his Right Hand, and cast off .|
+1st Wo. turn the 2d Man with her Left Hand and cast off .|.
+1st Cu. clap Hands sideways with the 2d Cu. and turn them |.
+1st Cu figure and turn it out :|:
+%%endtext

@@ -1,0 +1,26 @@
+X: 1
+T: Maclod's Rant
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.68 #328
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:68 #328
+N: The 2nd part has a begin-repeat but no end-repeat.
+N: "Last Strain once" over second part; repeats adjusted accordingly.
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: B2 AG | G/G/G GA | B2 AG | A/A/A Ad | B2 AG | G/G/G GB | E/E/E EF | G/G/G G2 :|
+d>edg | d2Bc | d/d/d dg | d2Bc | d/d/d gd | c/c/c gc | B/B/B gB | A/A/A A2 |
+G>A Bd | E2 DB, | G/G/G Bd | E2 DB, | CDEF | Ge d2 | B2 AG | G/G/G G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: G4   | e4   | g2G2 | d4   | G4    | e4    | c2d2 | G4 :|
+g2g2 | g2G2 | g2g2 | g2G2 | b4    | a4    | g2G2 | d4 |
+z4   | zcBG | e2g2 | zcBG | c2c'2 | zc'bf | g2f2 | G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. foot it and turn the 2d Cu. to the Top, then foot it and turn the 2d Cu, into their Places |
+%% Dance inside below the 3d Cu. cast up into the 2d Cu.s Place, take hands sideways, foot it and turn |
+%%endtext

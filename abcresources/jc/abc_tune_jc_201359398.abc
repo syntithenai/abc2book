@@ -1,0 +1,353 @@
+
+X:1
+T:Beukenwals                 %titel
+M:3/4                           % type of bar  4/4 or 3/4
+L:1/8                        % length of shortest note
+Q:1/4=160                           %tempo  Q:1/4=80
+K:C             %transposed from D
+V:1                          %voice 1
+P:INTRO
+"C"E2G,2 CE|"C"G4 AG|"G7" GF FE FD |"C"C6||
+|: "C"C2 C2 C2|"C"C2 C2 C2|CC CD EF |GA Bc de|"G7"f2 D2 D2|D2 D2 D2|fe fd dc|BA GF ED:|
+|:"C"C2 E2 ce|g4 ag|"G7"gf fe fg|"C"ag fg ec |C2 E2 ce|g4 ag|"G7"gf fe fd|"C"c4 G2:|]
+|:"G"d2 cB AG|"C"e2 dc BA|"G"Gf ed cB |"C"ce Gc EG|"G"d2 cB AG|"C"e2 dc cA |"G"Gf ed cB|"C"c2c4:|
+
+X:2
+T:Zuiderzee Ballade
+L:1/8
+M:4/4
+K:G
+P:Intro
+B2c2B2 |"D7"A3 F(D4 |D2)c2 B2 A2|"G" G2B2"Cis"f2e2| "D"[F8A8d8]||
+"G"DDDD E2 D2|G2 G6|"C"[EG][EG][EG][EG]"Cm" [_E2A2] [E2G2]| "G"[G8B8]|"D7" [FA][FA][FA][FA] B2c2|
+"G"B2G4z2|"A" BAGF ^D2 E2|"D7" [A8F2]E2_E2D2| "G"DDDD E2D2|
+"G" G2 G6|"C"[EG][EG][EG][EG] [_E2A2] [E2G2]|"G"[G8B8]|BAGF ^D2 E2|
+"D"B2 A4 z2|"A7"AGFE "D" F2 G2| "D7" A2 D2 B,2 C2|: "G" D4(D4|"G" D2) "C".E2 .G2 "Cm"A2|
+"G"[G4B4] ([G4B4]| [G2B2])B2A2G2|"D7" [F3A3] F (D4|"G"D2) A2 G2A2|(B8|
+"G"B2) D2B,2C2| D4 (D4|"G" D2)"C" E2 [E2G2] "Cm" [_E2A2]| "G" [D4B4] ([D4B4]|[D2B2])[G2B2][F2A2]G2|
+"D7" A3 F (D4| D2) [E2c2][D2B2][C2A2] |([B,8G8]|[B,2G2]) G2 "D7" F2 "G7"=F2|
+"C" [C4E4][C2E2] "D7"[D2F2]|"C" [E4G4] "D7" [D2F2] "C" [C2D2]|"G" D4 G2A2 |"G" [G8B8]|"A7" [G3B3] [FA] [F2A2] [E2G2]|
+"A7"[G4D4] [D2F2]  [E2G2]|"D"([F8A8]|"D7"[F2A2])D2B,2C2| "G" D4 (D4|
+D2) "C" E2 [E2G2] "Cm"[_E2A2]| "G" [G4B4] ([G4B4]|[G2B2]) [D2B2] "C"[E2B2] "G"[D2B2]| "D7" [C3A3] [CF] ( [C4D4]|
+"D7"[C2D2]) [E2c2][D2B2] [C2A2] |"G" ([B,8G8] |1[C2G2]) D2 B,2 C2:|2 [B,6G6]||
+
+X:3
+T:Utrecht Horpipe compleet                 %titel
+T:Quaker
+M:4/4                           % type of bar  4/4 or 3/4
+L:1/8                        % length of shortest note
+Q:                           %tempo  Q:1/4=80
+K:G             %transposed from F
+|:"D7"(D2|\
+P:A
+"G"G2) G>(G B2)B>(B |d2) d2 B4| "Am" A2 A2 A2 A>(B|"D7"c)>B A>(G F2) (D2|
+G2) G>(G B2) B>(B|"G"d2) d2 "Em" (B2 B)>B|"Am" A2 A>(A "D7" B2) B>(A|"G" G2) B2 G2:|
+P:B
+|:"D7" B>c |"G" d4) "D7" (B2 B)>(A|"G"B)>c B>(A (G2) G)>A| "G"B2 B>(c "Em"d2) c>(B|"Am" A2) A2 "D7"A2 (D2|
+"G" G2) G2 G2 G>(A|"G" B)>A B>(c "Em" d2) c>(B| "Am" A2) A2 "D7"B2 B>A| "G" G2 B2 G2:|
+%%text Quaker
+P:C
+[K:C]\
+|:"G7" G>(c| "C" e2) ( e2 "F" d)>c B>A|"C" (3(ABA) G2 G2 G>(A|"G"B2) B2 B>A G>(B|"C" d2) c2 "G7" c>d e>(f|
+"C" g2) a>(g "C7" f2) g>(e|"F" d2) A2 A2 (f2|"G7" e)>d c>(B A2) (B2 |"C" c4) c2:|
+P:D
+|:"D7"B>(c| "G" d2) (d2 "C" e3) (e|"G"d)>c B>(c d2) e>(d|"Am" c)>B A>(B "D7" c2) d>(c| "G" B)>A G>(A B2) B>(c|
+"G"d2) (d2 "C" e3) (e |"G"d)>c B>(c d2) e>(d|"Am"c)>B A>(B "D7" c)>d e>(^f|"G" g2) G2  G2:|
+
+X:4
+T:Purmer-Reutel Horlepiep                 %titel
+M: 4/4                        % 4/4
+L:1/8                        % length of shortest note
+Q:                           %tempo  Q:1/4=160
+P:Intro, dan  6x A
+K:C                           %key C
+V:1                          %voice 1
+P:Intro
+"C"(3efg|"F"ag af2g af|"G"gf ge2f ge|"F"fe fd2g gf|"C"e2c2c2z2||
+P:A
+"C"c2c'2g2>f2| "C"e>f g>ec2d>e| "F"f>e f>g f>e d>c|"G"g>f g>a g>f e>d|
+"C"c2c'2g2>f2| "C"e>f g>e c2cB|"F"A2f2dg gf|"C"e2c2c2 (3efg |
+"F"ag af fg af|"G"gf ge ef ge|"F"fe fg fe dc|"G"gf ga gf ed|
+"F"ag af2g af|"G"gf ge2f ge|"F"fe fd2g gf|"C"e2c2c2z2 ||
+
+X:5
+T:De Amsterdamse grachten
+M:3/4
+L:1/8
+K:F
+z2 Ad "Dm"ef|(3efe dAa2|"Bm"z2 Ad ef|"Dm" e4 (3ded|A4A2|"Gm" B2c2B2|"A7" z6|z2z2A2|
+"Dm" d4d2| e2d2c2| A4A2|"Gm" G2F2G2| "Dm" A2 d'ad'a|d'2 d'ad'a|d'2 d'ad'a|=b4A2|"Dm"[d4z2][A4d2]|"C"[z2c2][d2A4]c2|
+"F"A4A2|"A7" G2F2E2|"Dm" D6|"Gm" z2[D2E2][D2E2G2]|"Dm"z2[D2F2][D2F2A2]|"A7" z2[C2^C2][C2A2]|"Dm"d4d2|"Am"e2d2c2|"Dm" A4A2|
+"Gm"{GA}G2F2G2|"Dm"[F6A6]c'ac'a|
+
+X:6
+T:Boan opstekker                           %title
+C:                           %composer
+O:                           %origin
+M:12/8                           % type of bar  4/4 or 3/4
+L:1/8                           % length of shortest note
+Q:1/4=130                           %tempo  Q:1/4=80
+I:clef=treble                    %bass octave=-2
+K:G
+V:1
+"G" dBd "C"e3 ece "G" d3|ded "D7" cBA "G" (G3G)z2||
+"G" d2d d2c B2B B2A| G2G "D7"A2A "G" BcB "D7" A3|"G"d2d dec B2B BcA|G2G "D7"ABA "G"G6:|
+"G"dBd "C"e3 ece "G"d3|ded "D7" cBA "G"GFE "D7" D3|"G"dBd "C"e3 ece "G" d3|ded "D7" cBA "G" (G3 G)z D|
+G2G "D7" A2A "G" BcB "D7" A2D| "G" G2G "D7" A2A "G" BcB "D7" A3|"G" dBd "C" e3 ece "G" d3| ded "D7" cBA "G" (G3 G) z2||
+V:2
+"G" dBd "C"e3 ece "G" d3|ded "D7" cBA "G" (G3G)z2||
+d2d B2A G2G G2A|B2B c2c d2d c3|G2B d2g d2d d3|B2B c2c B6:|
+B2B c3 c2c B3| B2d e2f g2d c2B| B2B c3 c2c B3|d2d e2f (g3 g)zG|
+B2B c2c ded c2G |B2B c2c ded c3|B2B c3 c2c B3|d2d e2f (g3g)z2||
+
+X:7
+T:hakke toone                           %title
+C:                           %composer
+O:                           %origin
+M:4/4                           % type of bar  4/4 or 3/4
+L:1/8                           % length of shortest note
+Q:1/4=100                           %tempo  Q:1/4=80
+K:C                           %key C  Cm
+V:1
+|:"C" ec ed/e/ "G7"fe d2|dG ce/d/ "C"cde2 |ec ed/e/ "G7"fe d2| ag fB "C"dc c2:|
+K:G
+V:2
+|:"C" CE GF/G/ "G7"AG F2|FD FG/F/ "C"EF G2| CE GF/G/ "G7"AG F2|fe dG"C"FE F2:|
+K:G
+V:1
+|:"G" BG BG/B/ "D7" cBA2| AD AB/A/ "G"GA B2| BG BA/B/ "D7"cB A2| ed c^F "G" AG G2:|
+V:2
+|:"G" GD GF/G/ "D7"AG F2|FD FD "G" EF G2| GD GF/G/ "D7" AG F2|cB AD "G"DA B,2:|
+
+X:8
+T:boerenplof                           %title
+C:                           %composer
+O:                           %origin
+M:2/4                           % type of bar  4/4 or 3/4
+L:1/16                           % length of shortest note
+Q:                           %tempo  Q:1/4=80
+K:C                           %key C  Cm
+"G" GABc dcBd |"C" c2c2 c4||
+"C"cGEG "F"FAGF |"C" EDCE "F" FAGF |"C" EDCD EDCE|"G"D2G2G4|
+"C"cGEG "F"FAGF |"C" EDCE "F" FAGF |"G" GABc dcBd|"C" c2c2 c4:|
+|:"G"dBGB d2d2|"D7" edcA "G"G4|dBGB d2d2|"D7" edcA "G" G4|
+"F" AFCF AcBA|"C" GECE GcBA|"G"GABc dcAd| "C" c2c2 c4:|
+
+X:9
+T:Riepe garste
+O:holland
+M:4/4
+L:1/8
+Q:1/4=166
+K:F
+V:1
+"F" c2 c2 "Bb" d2 d2 |"F" c3/2 d/c3/2 B/A2 F2 |"C7" B2 B2 "F" A2 A2 |1 "C" G2 c2 c2 z2 |
+:|2 "C" G2 c2 "F" F2 z2 || |:"F" C2 F2 F2 A2 |"C" A2 G2 G4 |"F" F2 G2 A2 B2 |
+"G7" cB cd "C" c4 |"F" C2 F2 F2 A2 |"C" A2 G2 G4 |c2 c2 B2 G2 |"F" F8 :|
+
+X:10
+T: Henriks Mazurka
+C: \251 Henrik Holm, 1983
+R: mazurka
+S: Corrected to match image send by the composer Henrik Holm 2013-11-13
+N: The last bar is missing a beat.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+"A"|:\
+"C"c>e .g.g .g.g | g/^f/a/f/ ge cc | "Bb"_B2d "Bb"B2d | "C"c2 G4 |
+"C"c>e .g.g .g.g | g/^f/a/f/ ge cc | "Bb"_B2d "Bb"B2d | "C"c2 !fine!c4 :|
+"B"[|]\
+"C"e>e c2 G2 | e>e c2 G2 | "G"(3fgf (3efe (3ded | "C"c2 c4 |
+"C"e>e c2 G2 | e>e c2 G2 | "G"(3fgf (3efe (3ded | "C"c2 (c2 "E7"B2) ||
+"C"[|]\
+"Am"A2 A>B c>e | a2 ae c2 | "D"d2 d>^f ab | "E"^g2 ^fg e2 |
+"Am"a2 a>e c>e | "D"A2 Ac "Dm"Bc |[M:2/4] "C"A2 "d.c. al fine"A2 |]
+
+
+X:11
+T:IJswals                           %title
+% afdrukken via abcm2ps.exe
+M:3/4                           % type of bar  4/4 or 3/4
+L:1/4                           % length of shortest note
+Q:                           %tempo  Q:1/4=80
+I:cleff=bass
+K:F     % transposed from F
+P:Intro
+a/g/ f/e/|"Dm" fg/f/ "A" e/f/|"Dm"  d2|]
+P: Deel 1
+D/E/|: "Dm" FF"C"G|"Dm"AG/A/ "Gm" B|
+"Dm"A G/A/ "Gm"B/G/|"A"A/G/ F/E/ D/E/|"Dm"FF "C"G|"Dm" A G/A/ "Gm"B|"Dm"AG/A/ "Gm"B/G/|1 "A"A2D/E/:|2 "A" A2D||
+|:"A"EE/D/ E/F/ |"Gm" GFE|"F" AG/F/ "Gm" E/D/|"A" ^C/>E/ A3/2D/|E E/F/ G/E/ |
+"Dm"FDA|"Gm"GF/E/ "A" D/^C/| "Dm" D2z:| |: "Dm"DA"C"E|"Dm" FD"F"A|
+"Gm" dd/e/ f/d/|"A"e/d/ ^c/=B/ A| "Dm" dA"C"E|"Bb"FE/F/ "A"D|"Gm"d d/e/ f/d/|1 "A" e2z
+:|2 "A" e2(3e/f/g/|| |:"A" a a/g/ f/e/ |"Dm"f/4g/4f/ e/f/ (3d/e/f/|"Gm"g g/a/ b/g/ |"A" a2(A|
+A) d2|^c a/g/ f/e/|"Dm" fg/f/ "A" e/f/|1 "Dm" dd/e/ f/g/:|2 d2||\
+T:
+P: Deel2
+V:1
+D/E/|: "Dm" FF"C"G|"Dm"AG/A/ "Gm" B| "Dm"A G/A/ "Gm"B/G/|"A"A/G/ F/E/ D/E/|"Dm"FF "C"G|
+"Dm" A G/A/ "Gm"B|"Dm"AG/A/ "Gm"B/G/|1 "A"A2D/E/:|2 "A" A2D|| |:"A"EE/D/ E/F/ |"Gm" GFE|
+"F" AG/F/ "Gm" E/D/|"A" ^C/>E/ A3/2D/|E E/F/ G/E/ |"Dm"FDA|"Gm"GF/E/ "A" D/^C/| "Dm" D2z:|
+|: "Dm"DA"C"E|"Dm" FD"F"A|"Gm" dd/e/ f/d/|"A"e/d/ ^c/=B/ A| "Dm" dA"C"E|
+"Bb"FE/F/ "A"D|"Gm"d d/e/ f/d/|1 "A" e2z:|2 "A" e2(3e/f/g/|| |:"A" a a/g/ f/e/ |
+"Dm"f/4g/4f/ e/f/ (3d/e/f/|"Gm"g g/a/ b/g/ |"A" a2(A|A) d2|^c a/g/ f/e/|"Dm" fg/f/ "A" e/f/ \
+|1 "Dm" dd/e/ f/g/:|2 d2||
+V:2
+D/E/|:  FFG|AG/A/  B| A G/A/ B/G/|A/G/ F/E/ D/E/|FF G|
+A G/A/ B|AG/A/ B/G/|1 A2D/E/:|2  A2D|| |:EE/D/ E/F/ | GFE|
+AG/F/  E/D/| ^C/>E/ A3/2D/|E E/F/ G/E/ |FDA|GF/E/  D/^C/|  D2z:|
+|:z3|z3| BB/^c/ d/B/|^c/z/ eg|fdc|
+B2A|GB2|1 A2z :|2 A2(3^c/d/e/|| |:f f/e/ d/^c/ |
+d/4e/4d/ ^c/d/ (3B/c/d/| e e/f/ g/e/|f2(E|E) A2|A f/e/ d/^c/| d e/d/ ^c/d/ \
+|1 Az2 :|2 d2||\
+T:
+P: Deel 3
+V:1
+D/E/|: "Dm" FF"C"G|"Dm"AG/A/ "Gm" B| "Dm"A G/A/ "Gm"B/G/|"A"A/G/ F/E/ D/E/|"Dm"FF "C"G|
+"Dm" A G/A/ "Gm"B|"Dm"AG/A/ "Gm"B/G/|1 "A"A2D/E/:|2 "A" A2D|| |:"A"EE/D/ E/F/ |"Gm" GFE|
+"F" AG/F/ "Gm" E/D/|"A" ^C/>E/ A3/2D/|E E/F/ G/E/ |"Dm"FDA|"Gm"GF/E/ "A" D/^C/| "Dm" D2z:|
+|: "Dm"DA"C"E|"Dm" FD"F"A|"Gm" dd/e/ f/d/|"A"e/d/ ^c/=B/ A| "Dm" dA"C"E|
+"Bb"FE/F/ "A"D|"Gm"d d/e/ f/d/|1 "A" e2z:|2 "A" e2(3e/f/g/|| |:"A" a a/g/ f/e/ |
+"Dm"f/4g/4f/ e/f/ (3d/e/f/|"Gm"g g/a/ b/g/ |"A" a2(A|A) d2|^c a/g/ f/e/|"Dm" fg/f/ "A" e/f/ \
+|1 "Dm" dd/e/ f/g/:|2 d3||
+V:2
+z |:DDE| F E/F/ G|FE/F/ G/E/|F/E/ D/^C/ B/C/|DDE|
+F E/F/ G|F E/F/ G/E/ |1^C2z:|2 ^C2 z|| |:^C BC|BAG |
+C2B|A3|^C C/D/ E/C/ |DEF|BAG| F2z:|
+|:z3|z3| BB/^c/ d/B/|^c/z/ eg|fdc|
+B2A|GB2|1 A2z :|2 A2(3^c/d/e/|| |:f f/e/ d/^c/ | d/4e/4d/ ^c/d/ (3B/c/d/|\
+e e/f/ g/e/|f2(E|E) A2|A f/e/ d/^c/| d e/d/ ^c/d/ \
+|1 Az2 :|2 d3||
+
+X:12
+T:De Valse Zeeman                 %titel
+C:                           %composer
+O:                           %origin
+M:3/4                           % type of bar  4/4 or 3/4
+L:1/8                        % length of shortest note
+Q:                           %tempo  Q:1/4=80
+%P:Intro ABC ABD B
+K:C                           %key C  Cm
+P:Intro
+|:"Am"A6|"Em" G6|"F" F3 E FE|"Dm" D6|"Am"A6|"Em"G6|1"F"(F6|F6):|2"F"(F6|F4)A2||
+P:A
+|:"Am" A4 e2|"Em"e4 ef|"F6" e2 e3 c|"Dm" A4B2|"Am"c6|\
+"Em"B4A2|"F"(A6 |"F"(A4) A)A|"Am"A4 e2|
+"Em" e4 ef| "F6"e4 ec| "Dm"(A4 A)B|"Am" c4 A2| "Em" B4 G2 \
+|1 "F" (A6|A4) A2:|2 "G"(G6|(G4)G)[Ge]||
+P:B
+"F"[e2F4] d2[F2c2]| "G" [G4B4] [G2B2]|"Em" [G4B4] [B2d2]|\
+"Am"([c4e4][ce])[Ae]|"Am"([c4e4][Ae])[Ae]|"Em"[G4e4] [e(A][A)d]|\
+"Am"([A6e6]|"Am"([A4e4])[Ae])[Gd]|"F"[F4c4] [F2c2]|
+"G" [G4d4] [G2d2]|"Em"[B4d4] [e(B][B)d] |"Am" [c4e4] [Ae][Gd]|\
+"F"[F4A4] [F2A2]|"G" [G4d4][G2d2]|"Em"([E6B6]|[e6B6])||
+P:C
+"Am" A6|"Em"G6|"F" F3E FE| "Dm" D6| "Am" A6|"Em"G6|(F6|F6)||
+P:D
+"Am" [a3A3] [Aa] [Bb][cc']|"Em"[d2d'2] [c2c'2] [A2a2]|"F" g6 |\
+"Dm" ef ed cd | "Am" e6|"Em" dc A2 G2|
+"F" (A6 | A6)| "Am" A6| "Em" G6 | "F" F3 E FE| "Dm" D6 |"Am" A6| "Em" G6|"F" (F6|F6)||
+
+X:13
+T:Tulpen uit Amsterdam
+C:                           %composer
+O:Holland                           %origin
+M:3/4                           % type of bar  4/4 or 3/4
+L:1/4                        % length of shortest note
+Q:1/4=130                           %tempo  Q:1/4=80
+K:F                           %key C  Cm
+V:1
+%text intro
+zEF|"Bb"c2B|c2B|"F"(A3|"D7"A)^GA|"Gm"ccB|"C7"A2 G |"F"F3||
+%text A
+zAA|"F"A2G|G2F|F2E|E3|"Gm"DDD|
+w:Als de | len-te |komt, dan | stuur ik| jou | tul-pen uit |
+"Gm"D2G|D3-|D GG| "C7"G2 F| F2 E|E2D|D3|
+w:Am-ster-|dam |~ als de|len-te| komt, pluk| ik voor | jou
+"F"CCC|C2 F| C3-|C cc|c2 B |B2 A|
+w:tul-pen uit| Am-ster-|dam |~ Als ik | we-der|kom dan |
+"F"A2 G | G3 |"Bb"FFF| F2 B|F3-|F DE|
+w:breng ik |jou  |tul-pen uit| Am-ster-|dam |~  Dui-zend|
+"Bb" F2 D|z DE|"F"F2 C|z EF|"C7" G2 C|z G^G|
+w:ge-le| dui-zend|rooi-e, | wen-sen |jou het |  al-ler-|
+"F" A2 F|z EF|"Bb"c2 B|"Bbm"c2 B|"F" A3-|"D7"A ^GA|
+w:mooi-ste| wat mijn |mond niet|zeg-gen | kan |~  zeg-gen|
+"Gm"ccB| "C7" A2 G|"F"F3-|F zz||
+w:tul-pen uit| Am-ster-|dam |~||
+V:2
+zCC|E2E|E2E|F3-|F FF|EEE|E2 E|C3||
+zFF|F2 E|E2 D|D2 C|C3|DDD|
+D2 D|D3-|D EE|E2 D |D2 C|C2 D| D3|
+CCC|C2 C| C3-|C FF|F2 F|F2 F|
+F2 E|E3|DDD| D2 D|D3-|D DE|
+D2D|z DE |C2 C|z CC|E2 C|z EE|
+F2 F|zCC|E2E|E2E|F3-|F FF|EEE|E2 E|C3-|Czz||
+
+X:14
+T:Koce Berberot                 %titel
+C:Macedonia                           %origin
+%P:Volgorde: Intro + 4x(ABC) + AB
+M:2/4                           % type of bar  4/4 or 3/4
+L:1/16                        % length of shortest note
+Q:1/4=96                           %tempo  Q:1/4=80
+P:I(ABC)4AB
+%P:Volgorde: Intro + 4x(ABC) + AB
+K:Am
+%MIDI gchord fzcz
+%P:Intro
+P:I
+"Am"eaea agfe| "Dm"dcBc "Am"A4|"G"GcBc dBcd |"E7"fdef "Am"e4|
+"Am"eaea agfe| "Dm"decB "Am"A4| "G"GcBc dBcd| "E7"BcBc  "Am"A2z2||
+P:A
+"Am"a2 z2 e2 z2|(ed)(cB) A2 z2| "G".G2.c2 .B2.c2| "E7"d6z2|
+"Am"a2 z2 e2 z2|(ed)(cB) A2 z2| "G".G2.c2 .B2.c2| "Am"A6z2||
+P:B
+"Am".e2.e2 .e2.e2|(ed)(cB) A4| "G".G2.c2 .B2.c2| "E7" d6 z2|
+"Am".e2.e2 .e2.e2|(ed)(cB) A4| "G ".G2.c2 "E7".B2.c2| "Am" A6 z2||
+P:C
+"Cm"GcGc cBAG|"Dm"dcBc "Am"A4| "G"GcBc dBcd| "E7"fdef  "Am"e4|
+"Am"eaea agfe | "Dm"decB "Am"A4| "G"GcBc dBcd| "E7"BcBc "Am"A2 z2||
+
+X:15
+T:barjace elzo                 %titel
+C:                           %composer
+O:                           %origin
+M:12/8                           % type of bar  4/4 or 3/4
+L:1/16                        % length of shortest note
+Q:1/8=110                           %tempo  Q:1/4=80
+K:Bb                           %key C  Cm
+%%MIDI gchord fzcfzczfzcfz
+V:1                          %voice 1
+P:INTRO
+|:"Cm"(4:3:3 c4 d2e2"Cm" c4 d2e2"Cm"(4:3:3 c4 d2e2 c4|"Fm"(4:3:4=B2c2d2e2"G" f2e2d2c2"Cm" (4:3:4=B2c2c2G2 c2G2 |
+"Cm"(4:3:3 c4 d2e2 c4 d2e2 (4:3:3 c4 d2e2 c4|"Fm"(4:3:4=B2c2d2e2"G" f2e2 d2c2 "Cm"(4:3:4=B2c2c2G2 c4:|
+P: deel A
+K:F
+|:"F"(4:3:4e2f2g2a2 a4 a4(4:3:4 a2g2a2f2 "C" g2f2|"F"(4:3:4a2g2a2f2 "G"g4 d2c2"C"(4:3:4 =B2c2c2G2 B2z2:|
+P:DEEl B
+"F"(4:3:4a2g2a2f2 "G"g4 d2c2 "C"(4:3:3 c4 e2f2 g2c2|(4:3:4 "F"a2g2a2f2 "G"g4 d2c2 "C"(4:3:4=B2c2c2G2 c4|
+"F"(4:3:4a2g2a2f2 "G"g4 d2c2 "C"(4:3:3 c4e2f2 g2c2|(4:3:4 "F"a2g2a2f2 "G"g4 d2c2 "C" c6 c4|
+P:DEEl C
+|:"C" (4:3:3 c4 e2f2 (4:3:4 d2c2d2c2 "C" (4:3:3 c4 e2f2 "G" d2c2|"C" (4:3:3 c4 e2f2 (4:3:4 d2c2d2c2 "C" (4:3:3c4 e2f2 "G" d2c2
+|1"C"c2e2f2 "G"(3:2:3 g2f2e2 d2c2  "C" (4:3:4=B2c2c2G2 cG:|2 "C"c2e2f2 "G"(3:2:3g2f2e2 d2c2  "C" (4:3:4=B2c2c2G2 c2 z2|
+P:deel D
+|:(4:3:4"F" e2f2g2a2 b2c'2d'2c'2 "C"(4:3:4 d'2c'2b2a2 g2f2|(4:3:4 "F"a2g2a2f2 "G"g4 d2c2 "C"(4:3:4=B2c2c2G2 c4|:
+(4:3:4"F" e2f2g2a2 b2c'2d'2c'2 "C"(4:3:4 d'2c'2b2a2 g2f2|(4:3:4"F"a2g2a2f2 "G"g4 d2c2 (4:3:4e2f2(g2g2 g4|
+(g6g8g6 g4))|\
+P:solo
+z12|
+z12|z12|
+z12|\
+P: deel E
+|:"F"(4:3:4b2a2a2g2 efgabc' (4:3:4b2a2a2g2 "C"g2d2|
+"F"(4:3:4b2a2a2g2 e2f2 (5:2:5gabc'd' (4:3:4b2a2a2f2 "C"g2d2|(4:3:4b2a2a2g2 efgabc'"F" (4:3:4b2a2a2g2 "C"g4|
+"F"(4:3:4b2a2a2g2"G" (4:3:4e2g2d2c2"C" (4:3:4=B2c2c2G2 c4:|\
+P:deel F
+|:"F"(4:3:4e2f2g2a2 a4a4(4:3:4a2g2a2g2"C" g2f2|
+"F"(4:3:4a2g2a2g2 "G"g4 d2c2(4:3:3c4e2f2 c4:||:"F"(4:3:4a2g2a2g2 "G"g4 d2c2"C"(4:3:3c4e2f2 g2c2|
+"F"(4:3:4a2g2a2g2 "G"g4 d2c2 "C"(4:3:4=B2c2c2G2 c4:|\
+P:SLOT
+"C"(4:3:3c4e2f2 (4:3:4d2c2d2c2 (4:3:3c4e2f2 d2c2|
+"C"c2e2f2"G" (3:2:3g2f2e2 d2c2 (4:3:4=B2c2c2G2 c2G2|"C"(4:3:3c4e2f2 (4:3:4d2c2d2c2 (4:3:3c4e2f2 d2c2|"C"c2e2f2"G" (3:2:3g2f2e2 d2c2 (4:3:4=B2c2c2G2 c2z2|]

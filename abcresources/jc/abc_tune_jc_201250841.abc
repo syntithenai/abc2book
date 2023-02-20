@@ -1,0 +1,26 @@
+X:1
+T: Bath Carnival
+N:4 October 1999
+C:
+S:Keppel's Delight
+A:
+O:
+R:
+M:6/8
+K:A
+I:speed 170
+%W: A
+% voice 1 (1 lines, 42 notes)
+K:A
+M:6/8
+L:1/16
+c4 d2 e2 d2 c2 f2 g2 a2 f2 g2 a2 f2 e2 d2 c2 B2 A2 G2 B2 A2 G2 F2 E2 |c4 d2 e2 d2 c2 f2 g2 a2 e2 g2 a2 f2 e2 d2 c2 d2 B2 A6 A,6 |
+%W:
+% voice 1 (1 lines, 42 notes)
+c4 d2 e2 d2 c2 f2 g2 a2 f2 g2 a2 f2 e2 d2 c2 B2 A2 G2 B2 A2 G2 F2 E2 |c4 d2 e2 d2 c2 f2 g2 a2 e2 g2 a2 f2 e2 d2 c2 d2 B2 A6 A,6 |
+%W: B
+% voice 1 (1 lines, 43 notes)
+B2 E2 E2 c2 E2 E2 d2 E2 E2 c2 E2 E2 B2 E2 E2 c2 E2 E2 B4 E2 E2 E2 E2 |B2 E2 E2 c2 E2 E2 d2 E2 E2 c2 E2 E2 B2 d2 c2 B2 A2 G2 A6 A6 |
+%W:
+% voice 1 (1 lines, 43 notes)
+B2 E2 E2 c2 E2 E2 d2 E2 E2 c2 E2 E2 B2 E2 E2 c2 E2 E2 B4 E2 E2 E2 E2 |B2 E2 E2 c2 E2 E2 d2 E2 E2 c2 E2 E2 B2 d2 c2 B2 A2 G2 A6 A6 ||

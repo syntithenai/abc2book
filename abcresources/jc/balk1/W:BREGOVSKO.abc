@@ -1,0 +1,18 @@
+X: 57
+T: Bregovsko
+O: Bulgaria
+F: http://www.youtube.com/watch?v=xEc_AVrNGHM
+M: 6/8
+L: 1/8
+K: A
+Q:1/4=240
+%%MIDI gchord fzfz
+|:"A"EFG A3   |AB=c A3  |"E"e^de e^de|"A"=cBA A3 :|
+K:G
+|:"C"GAB c3   |"Am"dcde3|"C"gfa g=fe | [1 dcd e3 :|[2"Am" dcB A3
+|:"Am"cBA A^GA|A^GA e3  | cBA A^GA   |A^GA e3    |
+  cBA A^GA    |A^GA e3  |cBA A^GA    |A2 z A2 z  :|
+K:C
+|:"C"c2z egf  |e2d c3   |egf e2d     |cBA G3     :: c2z egf|e2d c3 |
+  "C"egf e2d  |cBA G3   :: "C"egf egf|e2d c3     |egf e2d  |cBA A3 :|
+|:"C"egf egf  |e2d c3   |egf e2d     |cBA A3     :|

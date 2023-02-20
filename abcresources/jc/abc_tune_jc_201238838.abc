@@ -1,0 +1,32 @@
+X: 31411
+T: COTILLION No. 32. ISLE OF SHOALS' SETT tune 4
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.141 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+GG |\
+c2c2 cBcA | G2G2 GFDE | CCEG cege | d2d2d2 de |\
+fgef decd | BdcA GGAB | c2de gfde | c2c2c2 |]
+ef |\
+gc'ge cece | fgfd BdGB | cege c'gfe | (6:4:6(dedcBA) G2 de |\
+fgef dagf | efde cgfe | decd BGAB | c2c2"^D.C."c2 |]
+K: Cm
+gg |\
+c'ggg egdg | egdg cg=Bg | defe d2gg | cdfe d2gg |\
+fafa fa[fd]a | gfed ccde | dagf edc=B | ccGE "^D.C."C2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance.
+%% Next 2 forward, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

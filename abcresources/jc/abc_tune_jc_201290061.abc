@@ -1,0 +1,137 @@
+X: 1
+T: I'M LOOKING OVER A FOUR-LEAF CLOVER
+C: H.Woods
+M: C|
+L: 1/4
+K: Bb
+[| "Bb"B2 FD | C B,2 C | D2 F2 | B A2 "Bbm"B |
+w: I'm look-ing o-ver a four leaf clo-ver that
+"C7"c2 CD | =E2 G2 | c4- | c4 |
+w: I o-ver-looked be-fore.
+"F7"A2 GF | A G2 F | "Bb"GG "Fm"GG- | "G7"G4 |
+w: One leaf is sun-shine the sec-ond is rain,
+"C"c2 AG | c A2 G | "F7"FF FF- | F4 ||
+w: Third is the ros-es that grow in the lane.
+"Bb"B2 FD | C B,2 C | D2 F2 | B A2 "Bbm"B |
+w: No need ex-plain-ing the one re-main-ing is
+"C7"c2 CD | =E2 G2 | c4- | c4 |
+w: some-bo-dy I a-dore.
+"Cm"c2 BA | "Ebm"c B2 G | "Bb"A2 "F7"A2 | "G7"A G2 F |
+w: I'm look-ing o-ver a four leaf clo-ver that
+"C7"G2 AB | "F7"c2 F2 | "Bb"B4- | B2 z3 |]
+w: I o-ver-looked be fore.
+
+X: 2
+T: I'M LOOKING OVER A FOUR-LEAF CLOVER
+C: H.Woods
+M: C|
+L: 1/4
+K: C
+[| "C"c2 GE | D C2 D | E2 G2 | c B2 "Cm"c |
+w: I'm look-ing o-ver a four leaf clo-ver that
+"D7"d2 DE | ^F2 A2 | d4- | d4 |
+w: I o-ver-looked be-fore.
+"G7"B2 AG | B A2 G | "C"AA "Gm"AA- | "A7"A4 |
+w: One leaf is sun-shine the sec-ond is rain,
+"D"d2 BA | d B2 A | "G7"GG GG- | G4 ||
+w: Third is the ros-es that grow in the lane.
+"C"c2 GE | D C2 D | E2 G2 | c B2 "Cm"c |
+w: No need ex-plain-ing the one re-main-ing is
+"D7"d2 DE | ^F2 A2 | d4- | d4 |
+w: some-bo-dy I a-dore.
+"Dm"d2 cB | "Fm"d c2 A | "C"B2 "G7"B2 | "A7"B A2 G |
+w: I'm look-ing o-ver a four leaf clo-ver that
+"D7"A2 Bc | "G7"d2 G2 | "C"c4- | c2 z3 |]
+w: I o-ver-looked be fore.
+
+X: 3
+T: I'M LOOKING OVER A FOUR-LEAF CLOVER
+C: H.Woods
+M: C|
+L: 1/4
+K: D
+[| "D"d2 AF | E D2 E | F2 A2 | d c2 "Dm"d |
+w: I'm look-ing o-ver a four leaf clo-ver that
+"E7"e2 EF | ^G2 B2 | e4- | e4 |
+w: I o-ver-looked be-fore.
+"A7"c2 BA | c B2 A | "D"BB "Am"BB- | "B7"B4 |
+w: One leaf is sun-shine the sec-ond is rain,
+"E"e2 cB | e c2 B | "A7"AA AA- | A4 ||
+w: Third is the ros-es that grow in the lane.
+"D"d2 AF | E D2 E | F2 A2 | d c2 "Dm"d |
+w: No need ex-plain-ing the one re-main-ing is
+"E7"e2 EF | ^G2 B2 | e4- | e4 |
+w: some-bo-dy I a-dore.
+"Em"e2 dc | "Gm"e d2 B | "D"c2 "A7"c2 | "B7"c B2 A |
+w: I'm look-ing o-ver a four leaf clo-ver that
+"E7"B2 cd | "A7"e2 A2 | "D"d4- | d2 z3 |]
+w: I o-ver-looked be fore.
+
+X: 4
+T: I'M LOOKING OVER A FOUR-LEAF CLOVER
+C: H.Woods
+M: C|
+L: 1/4
+K: F
+[| "F"f2 cA | G F2 G | A2 c2 | f e2 "Fm"f |
+w: I'm look-ing o-ver a four leaf clo-ver that
+"G7"g2 GA | =B2 d2 | g4- | g4 |
+w: I o-ver-looked be-fore.
+"C7"e2 dc | e d2 c | "F"dd "Cm"dd- | "D7"d4 |
+w: One leaf is sun-shine the sec-ond is rain,
+"G"g2 ed | g e2 d | "C7"cc cc- | c4 ||
+w: Third is the ros-es that grow in the lane.
+"F"f2 cA | G F2 G | A2 c2 | f e2 "Fm"f |
+w: No need ex-plain-ing the one re-main-ing is
+"G7"g2 GA | =B2 d2 | g4- | g4 |
+w: some-bo-dy I a-dore.
+"Gm"g2 fe | "Bbm"g f2 d | "F"e2 "C7"e2 | "D7"e d2 c |
+w: I'm look-ing o-ver a four leaf clo-ver that
+"G7"d2 ef | "C7"g2 c2 | "F"f4- | f2 z3 |]
+w: I o-ver-looked be fore.
+
+X: 5
+T: I'M LOOKING OVER A FOUR-LEAF CLOVER
+C: H.Woods
+M: C|
+L: 1/4
+K: G
+[| "G"g2 dB | A G2 A | B2 d2 | g f2 "Gm"g |
+w: I'm look-ing o-ver a four leaf clo-ver that
+"A7"a2 AB | ^c2 e2 | a4- | a4 |
+w: I o-ver-looked be-fore.
+"D7"f2 ed | f e2 d | "G"ee "Dm"ee- | "E7"e4 |
+w: One leaf is sun-shine the sec-ond is rain,
+"A"a2 fe | a f2 e | "D7"dd dd- | d4 ||
+w: Third is the ros-es that grow in the lane.
+"G"g2 dB | A G2 A | B2 d2 | g f2 "Gm"g |
+w: No need ex-plain-ing the one re-main-ing is
+"A7"a2 AB | ^c2 e2 | a4- | a4 |
+w: some-bo-dy I a-dore.
+"Am"a2 gf | "Cm"a g2 e | "G"f2 "D7"f2 | "E7"f e2 d |
+w: I'm look-ing o-ver a four leaf clo-ver that
+"A7"e2 fg | "D7"a2 d2 | "G"g4- | g2 z3 |]
+w: I o-ver-looked be fore.
+
+X: 6
+T: I'M LOOKING OVER A FOUR-LEAF CLOVER
+C: H.Woods
+M: C|
+L: 1/4
+K: A
+[| "A"a2 ec | B A2 B | c2 e2 | a g2 "Am"a |
+w: I'm look-ing o-ver a four leaf clo-ver that
+"B7"b2 Bc | ^d2 f2 | b4- | b4 |
+w: I o-ver-looked be-fore.
+"E7"g2 fe | g f2 e | "A"ff "Em"ff- | "F#7"f4 |
+w: One leaf is sun-shine the sec-ond is rain,
+"B"b2 gf | b g2 f | "E7"ee ee- | e4 ||
+w: Third is the ros-es that grow in the lane.
+"A"a2 ec | B A2 B | c2 e2 | a g2 "Am"a |
+w: No need ex-plain-ing the one re-main-ing is
+"B7"b2 Bc | ^d2 f2 | b4- | b4 |
+w: some-bo-dy I a-dore.
+"Bm"b2 ag | "Dm"b a2 f | "A"g2 "E7"g2 | "F#7"g f2 e |
+w: I'm look-ing o-ver a four leaf clo-ver that
+"B7"f2 ga | "E7"b2 e2 | "A"a4- | a2 z3 |]
+w: I o-ver-looked be fore.

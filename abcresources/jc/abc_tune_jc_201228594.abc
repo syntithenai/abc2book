@@ -1,0 +1,88 @@
+X: 11401
+T: GOV. KING'S MARCH
+O: Arranged by A.F. Knight
+%R: march
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.140
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The bottom 5 voices have a final fermata, but the top 3 voices don't.
+M: C|
+L: 1/8
+K: Eb
+%%indent 70
+%%continueall
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="Eb Bugle" sname="EbBgl" staves=8
+K: C
+!ff!c>e |\
+g2g>g g2 (f/e/d/c/) | a2a>a a2z2 | g2(eg) (gf) (fe) | d2d>d d2c>e |\
+g2g>g g2 (f/e/d/c/) | a2a>a a2z2 | g2eg (gfed) | c2c2 c2 :|
+|: GG |\
+czz2 dzz2 | cz dz ezz2 |\
+fzz2 ezz2 | (d/e/d/c/) (B/c/B/A/) G/A/G/F/ (3(E/D/C/) (3(D/E/F/) |\
+G2G>G G2 (F/E/D/C/) | A2A>A ABcA | AGEG GFED | C2c>c c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 name="Bb Bugle" sname="BbBgl"
+K:  F
+!ff!z2 |\
+F2A>A F2z2 | B2d>d d2z2 | d2Ac (cB)(BA) | G2G>G G2z2 |\
+F2A>A A2z2 | B2d>d d2z2 | dzz2 c2B2 | A2A2 A2 :|
+|: z2 |\
+f2z2 e2z2 | f2e2 f2z2 | g2z2 f2z2 | e2z2 z2z2 |\
+c2c>c c2B/A/G/F/ | d2d>d (defd) | dcAc cBAG | F2f>f f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 name="Bb Post Horn" sname="BbPHn"
+K: F
+!ff!F>A |\
+c2c>c c2 B/A/G/F/ | d2d>d d>ef>d | (dc)(Ac) (cB)(BA) | G2G>G G2F>A |\
+c2c>c c2 (B/A/G/F/) |d2d>d defd | dcAc cBBG | F2F>F F2 :|
+|: z2 |\
+zc/c/ cc zc/c/ cc | zc/c/ zc/c/ zc/c/ zc/c/ |\
+zc/c/ cc zc/c/ cc | (e/f/e/d/) (c/d/c/B/) (A/B/A/G/) (3(F/E/D/) (3(E/F/G/) |\
+A2A>A A2z2 | B2B>B B2z2 | BAFA AGFE | F2A>A A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 4 name="Bb Cornopeon" sname="BbCrn"
+K: F
+!ff!z2 |\
+A2A>A A2z2 | B2B>B B>cd>B | (BA)(FA) (AG)(GF) | E2E>E E2z2 |\
+A2A>A A2z2 | B2B>B B>cd>B | BAFA AGFE | F2F>F F2 :|
+|: z2 |\
+f2z2 e2z2 | f2e2 f2z2 | [g2e2]z2 f2z2 | c2z2 z2z2 |\
+A2c>c c2 B/A/G/F/ | B2d>d d2z2 | d2Ac cBAG | A2F>F F2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 5 name="Tenor Trombone" sname="TTbn" clef=bass middle=D
+K: Eb
+z2 |\
+e2e>e e2z2 | c2c>c c2z2 | B2z2 (BA)(AG) | [B2F2]B>B B2z2 |\
+B2B>B B2z2 | c2c>c c2z2 | G2A2 B2d2 | e2e2 e2 :|
+|: z2 |\
+e2z2 d2z2 | e2d2 e2z2 | f2z2 e2z2 | d2z2 z2z2 |\
+B2B>B B2z2 | c2c>c c2z2 | z2A2 B2d2 | e2e>e e2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 6 name="Bass trombone" sname="BTbn" clef=bass middle=d
+K: Eb
+!ff!z2 |\
+e2e>e e2z2 | A2A>A [a2A2]z2 | g2g2 f2f2 | B2B>B B2z2 |\
+e2e>e e2z2 | A2a>a a2z2 | g2a2 b2B2 | e2e2 e2 :|
+|: z2 |\
+e2e2 B2B2 | e2B2 B2B2 | c2B2 B2B2 | f2z2 z2z2 |\
+e2e>e e2z2 | A2A>A A2z2 | g2a2 b2B2 | e2e>e e2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 7 name="1st Ophecleide" sname="Oph1" clef=bass middle=d
+K: Eb
+!ff!z2 |\
+e2e'>b g2z2 | a2a>a a2z2 | g2g2 a2a2 | b2b>b b2z2 |\
+e>e'b>g e2z2 | a2a>a a2z2 | g2a2 b2b2 | e2e2 e2 :|
+|: z2 |\
+b2z2 b2z2 | b2b2 b2b2 | c'2b2 b2b2 | f2z2 z2z2 |\
+e>e'b>g e2z2 | A>af>d A2z2 | G2A2 B2B2 | e2g>g g2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 8 name="2d Ophecleide" sname="Ohp2" clef=bass middle=d
+K: Eb
+!ff!z2 |\
+E2e>e e2z2 | A2A>A A2z2 | G2G2 A2A2 | B2B>B B2z2 |\
+E2E>E E2z2 | A2A>A A2z2 | G2A2 B2B2 | e2E2 E2 :|
+|: z2 |\
+E2E2 B2B2 | E2B2 B2B2 | c2B2 B2B2 | F2z2 z2z2 |\
+E2E>E E2z2 | A2A2 A2z2 | G2A2 B2B,2 | E2E2 E2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

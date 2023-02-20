@@ -1,0 +1,45 @@
+X:1
+T: Jesucita en Chihuahua
+T: Mexican Mixer
+P: Polka
+R: Polka
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+C: Trad
+M: 2/4
+L: 1/8
+K: A
+P:Ax2
+|: "A"c2 df | e2 ^de | a>e ^de | "E7"gf ^ef \
+| "E7"b2 af | a2 gd | g>d cd | fe _ed |
+|  "A"c2 df | e^d/e/ f/g/a/b/ | c'a ga | "D"bf ^ef \
+|     ba gf | "A"ae ^de | "B"fa "E7"gb | "A"a2 a2 :| \
+K:E
+P:Bx2
+|: "B7"b2 a2 | "E"gf/g/ ag | "B7"fe/f/ gf | "E"f/e/d/c/B2 \
+|  "B7"b2 a2 | "E"gf/g/ ag | "B7"fe/f/ gf |1 "E"e[ge] e2 :|2 "E"ee "E7"_ed |] \
+K:A
+P:Ax1
+[| "A"c2 df | e2 ^de | a>e ^de | "E7"gf ^ef \
+| "E7"b2 af | a2 gd | g>d cd | fe _ed |
+|  "A"c2 df | e^d/e/ f/g/a/b/ | c'a ga | "D"bf ^ef \
+|     ba gf | "A"ae ^de | "B"fa "E7"gb | "A"a2 a2 |] \
+K:D
+P:Cx4
+|: "D"([a4f] | [af])[fd] [ge][af] | "G"([b4g] |[bg])[ge] [af][bg] \
+| "A7"[c'4a] | [b2^g] [c'2=g] |1 "D"[b2g] ([a2f]| [af])[fd] [ge][^g^e] :|2 "D"([d'4f] | [d'f]) z :| \
+K:A
+L:1/16 \
+P:Dx2
+|: "E7"EFGA Bcde | "A"fecA E2a2 | "E7"gfdB G2g2 | "A"fecA E4 \
+|  "E7"EFGA Bcde | "A"fecA E2a2 | "E7"gfed cedB | "A"A4 A4 :| \
+K:D
+L: 1/8 \
+P:Cx2
+[| "D"([a4f] | [af])[fd] [ge][af] | "G"([b4g] |[bg])[ge] [af][bg] \
+| "A7"[c'4a] | [b2^g] [c'2=g] |1 "D"[b2g] ([a2f]| [af])[fd] [ge][^g^e] :|2 "D"([d'4f] | [d'f]) z |] \
+K:A
+P:Ax1
+[| "A"c2 df | e2 ^de | a>e ^de | "E7"gf ^ef \
+| "E7"b2 af | a2 gd | g>d cd | fe _ed |
+|  "A"c2 df | e^d/e/ f/g/a/b/ | c'a ga | "D"bf ^ef \
+|     ba gf | "A"ae ^de | "B"fa "E7"gb | "A"a2 a2 |]

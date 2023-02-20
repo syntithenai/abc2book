@@ -1,0 +1,27 @@
+X: 1
+T: Dobrudjanska Reka
+O: Bulgaria
+M: 2/4
+L: 1/16
+K: E
+"Intro"\
+|| "E"ABB2 ~B4 | ABB2 BA~B2 | ABB2 ~B4 | ABB2 BA~B2 ||
+"A"\
+|: "E"AB~B2 BA~G2 | ABBE ~B2AB | "A"~c2Ac "E"BA~G2 | ABBE B2z2 :|
+"B"\
+|: "A"~c2Ac "E"~B2AG | "B7"FGFE "E"~E2~B2 | "A"~c2Ac "E"BA~G2 | "B7"FGFE "E"~E2z2 :|
+"C"\
+|: "B7"DE~F2 "E"AF~G2 | "B7"FGFE "E"~E2~B2 | "B7"DE~F2 "E"AF~G2 |1 "B7"FGFE "E"~E3B, :|2 "B7"FGFE "E"~E2z2 ||
+"D"\
+|: "F#m"DF~C2 EF~F2 | "B7"FAGF "E"~E3B, | "A"DB,~C2 "F#m"EF~F2 |1 "B7"FEGF "E"~E3B, :|2 "B7"FEGF "E"~E2"ginf"z2 ||
+"E"\
+|: "B"ABBB feed | "E"~B2cB "B"~B2~F2 | "Bm"ABBB =dFcB |1 "Em"~B2cB "Bm"B3F :|2 "Em"~B2cB "Bm"B2z2 ||
+"F"\
+[K: A]\
+|: "A"ABAB de~c2 | ABde ~c2de | "E"~B2AB "A"de~c2 | "E"ABde "A"c4 :|
+"G"\
+[K: BMix]\
+|: "B"efff ef~d2 | "E"~B2cB "B"~B2~F2 | ABBB "E"ec~d2 |1 "F"~B2cB "B"~B2BF :|2 "F"B2cB "B"B2z2  ||
+"H"\
+[K: BDor]\
+|: "Bm"ABBB dFcB | "F#m"BAcB "Bm"BAGF | ABBB dFcB |1 "F#m"BAcB "Bm"B2BF :|2 "Fm"BAcB "Bm"B2z2 |]

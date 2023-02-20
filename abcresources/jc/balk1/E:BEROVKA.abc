@@ -1,0 +1,16 @@
+X: 45
+T: Berovka
+O: Macedonia
+S: Macedonia Song and Dance
+F: http://www.youtube.com/watch?v=ARo99BUd3l0
+M: 8/4
+L: 1/8
+Q: 1/4=120
+K: D octave=1
+%%MIDI program 74
+%%MIDI drum dzdzdzdzzzzzzdddd 41 43 41 43 45 45 45 45
+|:z2g2e2c2 gagfe2c2|\
+%%MIDI drumon
+z2g2e2c2 gagfe2c2|
+c2^d2e2ga g2^d2ccg2|\
+c2^d2e2ga g2^d2ccc2:|

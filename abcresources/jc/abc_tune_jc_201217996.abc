@@ -1,0 +1,21 @@
+X: 0024
+T: Gr\"asl\aaten
+C: Trad. fader
+O: efter Olmorts (Spak) Erik
+N: Uppt. Ture Gudmundsson
+%R: polska
+B: Paul B\"ackstr\"om's "L\aatar fr\aan Dalarna" collection" 1974
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Compacted via repeats and multiple endings; also by using labels and play order [JC]
+P: Play ABAB CBCB
+P: A1A2 BA2
+M: 3/4
+L: 1/8
+K: Dm
+%%vskip 5
+% - - - - - - - - - -
+"^A"|:\
+(^F>G) AF Ac | (BA) GA/G/ A2 | (^c>d) ec eg |1 (e^f) de/^c/ A2 :|2 (f/e/f) d2- "^fine"[d2D2] |]
+"^B"[|\
+([e^c]>d) ec eg | (e^f) ff/d/ e2 | (^c>d) ec eg | (e^f) dd/^c/ "^->A2"A2 |]
+% - - - - - - - - - -

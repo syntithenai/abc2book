@@ -1,0 +1,22 @@
+X: 1
+T: Silent Night [G]
+T: Stille Nacht
+S: Page from Merry Minstrels' collection, shifted up an octave
+C: Franz Gruber
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/4
+K: G
+%%continueall 0
+[| "G"[dB]>[ec][dB] | "(Em)"[B3G3] | "G"[dB]>[ec][dB] | "(Em)"[B3G3] |\
+   "D"[a2d2][ad] | "D7"[f2-c2-][fc] | "G"[g2B2][gB] | "G7"[d3B3] |
+w:  Stil-*le Nacht, hei-li-ge Nacht, all-les schl\"aft,_ ein-sam wacht.
+w:  Si--lent night, Ho-*ly night, All is calm,_ all is bright.
+|  "C"[e2c2][ec] | [ge]>[fd][ec] | "G"[dB]>[ec][dB] | "(Em)"[B3G3] |\
+   "C"[e2c2][ec] | [ge]>[fd][ec] | "G"[dB]>[ec][dB] | "(Em)"[B3G3] |
+w: Nur das trau-te hoch-hei-li-ge Paar, hol-der Kna-be im lock-i-gen Haar,
+w: Round yon vir-*gen mo-ther and child, Ho-ly in-fant so ten-der and mild
+|  "D"[a2d2][ad] | "D7"[c'f]>[ad][fc] | "G(Em)"[g3B3] | "G"[b2d2]z |\
+   "(Em)"[gB2][dB][BG] | "D7"[dF]>[cA][AF] | "C"[G3-G3-] | "G"[G2G2]z |]
+w: Schlaf in himm-lich-er Ruh!_ schlaf_ in himm-lich-er Ruh!_
+w: Sleep in hea-ven-ly peace,_ Sleep_ in hea-ven-ly peace.

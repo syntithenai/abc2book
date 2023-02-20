@@ -1,0 +1,23 @@
+X: 3102
+T: Hon.ble Mr Ramsay Maule's    Strathspey
+%R: strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.10 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Em
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+e |\
+B<ETB>A FDDd | B<ETB>A B<ETB>A | B<dA<d FDDd | B<ETB>A GEEe ||\
+B<ETB>A FDDd | B<FTB>A B<de<f | d>B AG FDDd | B<ETB>A GEE |]
+[| g | eBeg dDTA>F | eBeg eBeg | e>f {ef}ge dDAF | B<ETB>A GEEg ||\
+eBeg dD {B}AG/F/ | eBeg Be/f/ ge | dfBd FD {B}AG/F/ | B<ETB>A GEE |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | e2e2 d2d2 | e2e2 e2e2 | g2f2 d2d2 | e2B2 e2e2 || e2e2 d2d2 |
+e2e2 e2e2 | g2a2 d2d2 | e2B2 e2e |]\
+[| z | e2e2 d2d2 | e2e2 e2e2 | e2e2 d2d2 |
+e2B2 e2e2 || e2e2 d2d2 | e2e2 e2e2 | f2g2 d2d2 | e2B2 E2E |]

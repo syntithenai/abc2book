@@ -1,0 +1,30 @@
+X:99
+T:Camberwell
+C:John Young: Dancing Master, 1728
+L:1/4
+M:3/2
+%%MIDI gchord ccc
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=100
+K:Dm
+V:1 name=Tune
+%%MIDI program 43
+%%MIDI beat 75 65 50 1
+%%MIDI chordname dim 0 3 6 9
+%%MIDI chordprog 54
+%%MIDI chordvol 50
+P:A
+|: "Dm"FD-DA "Ddim"de | "A7"^cA-Ad ef | "Gm"ga/g/ "G#dim"fe fe/d/ | "A7"^c/d/e AG F3/E/ |
+"Dm"FD-DA "Ddim"de | "A7"^cA-Ad ef | "Gm"gf/e/ "G#dim"f/e/d "A7"^c/d/e | "Dm/A"Ad- "A7"d^c "Dm"dD :|
+V:2 name=Flute
+%%MIDI program 74
+|: de fd f3/^g/ | az A=B ^cd | ef/e/ d^c =B2 | A/B/^c c/d/e dc |\
+d/e/f f/g/a b3/^g/ | a2 z2 A2 | B2 ^G2 A2 | AB/A/ GA/G/ F2 :|
+P:B
+V:1
+|: "F"af-fa g3/f/ | "C"ec-cd/e/ "F"fc | "Bb"dc- "F/A"cB/A/ "Gm"BA | "C"G3/A/ Bc "F"AF |
+"F"cf-fA "Gm"BG | "Em/C#"eg-g=B "A7"^cA | "Bb"fb-ba- "Dm"ad | "A7"Ad-d^c "Dm"dD :|
+V:2
+|: c3c B3/A/ | G4 A2 | B2 A2 Gd | g3/f/ eg f2 |\
+af/g/ af g2 | ge/f/gd e2 | dB/c/ d2 AF/G/ | A2 ge/f/ d2 :|

@@ -1,0 +1,30 @@
+X: 1
+T: Pleskova\'c kolo   [D,G]
+O: Croatia
+Z: 1999 John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/16
+P: D
+K: D
+|: "D"F2A2 F2A2 | "A7"GFE2 "D"F2D2 | "D"F2A2 F2A2 | "A7"GFE2 "D"D4 \
+:: "G"BcdB "A7"edcB | "D"A2F2 F4 | "A7"EFGF AGFE |1 "D"D2F2 A4 :|2 "D"D2F2 D4 |]
+P: G
+K: G
+|: "G"B2d2 B2d2 | "D7"cBA2 "G"B2G2 | "G"B2d2 B2d2 | "D7"cBA2 "G"G4 \
+:: "C"efge "D7"agfe | "G"d2B2 B4 | "D7"ABcB dcBA |1 "G"G2B2 d4 :|2 "G"G2B2 G4 |]
+
+X: 2
+T: Pleskova\'c kolo   [E,A]
+O: Croatia
+Z: 1999 John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/16
+P: E
+K: E
+|: "E"G2B2 G2B2 | "B7"AGF2 "E"G2E2 | "E"G2B2 G2B2 | "B7"AGF2 "E"E4 \
+:: "A"cdec "B7"fedc | "E"B2G2 G4 | "B7"FGAG BAGF |1 "E"E2G2 B4 :|2 "E"E2G2 E4 |]
+P: a
+K: A
+|: "A"c2e2 c2e2 | "E7"dcB2 "A"c2A2 | "A"c2e2 c2e2 | "E7"dcB2 "A"A4 \
+:: "D"fgaf "E7"bagf | "A"e2c2 c4 | "E7"Bcdc edcB |1 "A"A2c2 e4 :|2 "A"A2c2 A4 |]
+

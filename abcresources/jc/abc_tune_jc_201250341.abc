@@ -1,0 +1,28 @@
+X: 1
+T: the Barbadoes
+%R: __
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #11 (17)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The rhythm wasn't correct at the ends of the strains; fixed in an obvious way.
+N: The notes in the triplets in the penultimate measure have obviously incorrect lengths.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |:\
+d3f e3g | f3d c3A | d3f e3g | f2 a4 zA |\
+d3f e3g | f3d c3A | B3B c3A | B2 d6 :|
+|:\
+A3G F3D | E2 (G6  | A3)G F3E | D2 d6 |\
+A3G F3D | E2  G6  | A2G  F3E | D2 d6 |
+d3f e3g | f3d c3A | d3f  e3g | f2 a4 zA |\
+d3f e3g | f3d c3A | (3(afd) (3(ecA) | B2 d6 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% First Cu. cast off and cast up again turn and the
+%% whole figure 1st Man foot it to the 2d Wo. 1st
+%% Wo. to the 2d Man all four foot it together
+%% then Right hands and Left
+%%endtext
+%%sep 1 8 500

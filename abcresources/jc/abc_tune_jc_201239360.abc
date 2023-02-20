@@ -1,0 +1,25 @@
+X: 3263
+T: Mrs Houston of Rosehall's Favourite
+C: by Nath. Gow
+%R:air, strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.26 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q:"Slow"
+K: A
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 4-bar lines.
+V: 1 staves=2
+E |\
+D{^c}ddd Td>ef>d | {=B}c>AFA (G/F/)E/D/ C>E | Dddd (Td/^c/e/).e/ (Tf/e/f/).g/ | !p!{fg}.[af].[ge].[fd].[e^c] {c}d2 D :|
+e |\
+Tf>g {fg}a>g Tf>ede | Tf>g (f/g/a/).f/ (g/f/)e/d/ ce | Tf>g {fg}a>g Tf>e (d/e/).f/.g/ | !p![af][ge][fd][e^c] {c}d2 D
+e |\
+Tf>g {fg}a>g Tf>ede | Tf>g (f/g/a/).f/ (g/f/e/)d/ ce | (f/e/f/g/) (f/g/a/)f/ (g/f/e/).f/ .e/(g/a/b/) | !p![fa][ge][fd][e^c] {c}d2 D |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | D2d2 D2d2 | F2AF C2c2 | d2D2 d3e | !p!fgaA dAD :| z |
+d2d'2 d2d'2 | d2d'2 c2c'2 | d3A d3e | !p!fg aA dA d2 | dd' d2 d'afe |
+dd' dd' cc' ec | dd'd2 AaA2 | !p!fgaA dA D |]

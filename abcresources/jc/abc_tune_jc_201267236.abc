@@ -1,0 +1,22 @@
+X:174
+T:Dartington
+C:Colin Hume, 1998
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=88
+K:D
+%%MIDI program 58
+%%MIDI chordprog 58
+%%MIDI bassprog 58
+%%MIDI drum d4d2d2 35 35 35 100 50 50
+%%MIDI drumon
+P:A
+|: "D"d2 "/"A3/A/ | "D"A2 "D/C#"Bc | "Bm"de "/"fg | "A7"e2 "D"d2 |\
+"Em"e2 "/"B3/B/ | "Em"B2- "/"Bc | "G"dc "/"de | "A"c2 "A7"A2 :|
+P:B
+"D"a2 "/"g/f/e/f/ | "G"g2- "/"gf | "Em"ed "/"cd | "A"e2 "/"A2 |\
+"G"B2 "/"A/G/F/G/ | "D/F#"A2- "/"AG | "Bm"FE "/"DF | "A"E2 "A7"(3ABc |
+P:C
+"D"d2 "/"A3/A/ | "D"AF "/"ED | "Em"e2 "/"B3/B/ | "Em"BG "/"FE |\
+"F#m"fe "/"fa | "G"gf "/"ed | "D/A"f2 "A7"e2 | "D"d2- "/"d2 |]

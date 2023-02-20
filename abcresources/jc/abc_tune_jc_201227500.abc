@@ -1,0 +1,25 @@
+X: 10821
+T: CORELLI'S JIGGA
+Q: "Allegro."
+%R: jig, tarantella
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.82 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 12/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+(ga^f) (gaf) g3 (gab) | (fgd) (efc) (dfb) (dcB) |\
+(cba) (cBA) (Bag) (d^fg) | (e^fg) D(gf) (GBd) (GBd) |\
+(^FAd) (FAd) (GBe) (GBe) | (Acf) (Acf) (dcB) (d^fg) |
+(=Bdg) (Bdg) (edc) (d^Fd) | (GBd) (Edc) d3 B3 |\
+d3 B3 A3 G2 :: f | (dcB) (dcB) (FAB) (DAc) |\
+(EBc) (FBA) (GAB) (DBc)| (EBc) (FBA) (GAB) (fBf) |
+(gBg) (aBa) (bfe) (dcB) | (GAB) (FBA) B3 (bag) |\
+(fed) (cdB) (FAB) (DBc) | (EBc) (FBA) B,3 z2d |\
+(ga^f) (gaf) g3 (gab) | (fgd) (efc) (dfb) (dcB) |
+(cba) (cBA) (Bag) (d^fg) | (c^fg) D(gf) (GBe) GFE |\
+FAd (FED) E(dc) (^Fcd) | (GAB) (DG^F) (GBe) (GFE) |\
+(FAd) (FED) E(dc) (^Fcd) | (GAB) (DG^F) G3 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

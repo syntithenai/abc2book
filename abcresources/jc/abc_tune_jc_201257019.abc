@@ -1,0 +1,17 @@
+X: 1
+T: Brodick Ferry - AB1 AB1 B2
+C: C Sherrit
+Z: Bruce Shawyer
+R: Jig
+M: 6/8
+L: 1/8
+K: D
+"A"[|] A |\
+"D"DFA DFA | "G"G2B dBG | "D"FAd AFD | "Em"EGF "A7"EAF |\
+"D"DFA DFA | "G"G2B dBG | "A7"Ace gfe | "D"d3 d2 |]
+"B1"[|] e |\
+"D"fdA F2A | "G"B2d gBG | "D"FAd def | "Em"e3 "A7"ede |\
+"D"fdA F2A | "G"B2d gBG | "A7"Ace gfe | "D"d3 d2 |]
+"B2"[|] e |\
+"D"fdA F2A | "G"B2d gBG | "D"FAd def | "Em"e3 "A7"ede |\
+"D"fed dc=c | "G"B2d GBd | "A7"Ace gfe | "D"d3 d2 |]

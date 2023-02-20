@@ -1,0 +1,21 @@
+X: 14
+T: Vestris Jigg
+%R: slip-jig
+B: "Twenty Four Country Dances for the Year 1782", Thomas Skillern, ed. p.7 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1782#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: C
+|:\
+c2G GEG GEG | c2G GEG F2D |\
+c2G GEG GEG | ABc GAF E2C :|
+|:\
+ceg geg geg | cde efg f2d |\
+afa geg ABc | ABc FAF E2C :|
+%%begintext align
+%%   Hands across & back again the 1st
+%% and 2d Couple Change sides and
+%% back again Lead down the middle
+%% up again and Cast off.
+%%endtext

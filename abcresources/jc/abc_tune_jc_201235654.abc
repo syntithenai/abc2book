@@ -1,0 +1,18 @@
+X: 21283
+T: the SWISS BOY
+O: Swiss melody.
+%R: shottish, polka
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.128 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(A>B |\
+c2)(A>B c2)(A>B | c2)(a>g f2)cc |\
+c2b>a g2a>g | f4 z2 :| c2 |\
+c2(g>f) e2c2 | c2(a>g) f2c2 |\
+(=Bc)(gf) e2c2 | (=Bc)(ag) f2(A_B) |\
+(cBAG) (cBAB) | c2a>g f2c2 | c2(b>a g2)(ag | f6) |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

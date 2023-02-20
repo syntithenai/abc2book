@@ -1,0 +1,53 @@
+
+X: 1
+T: Dva p\^ati na djasno
+O: Bulgaria
+M: 6/8
+L: 1/8
+P: Play I+(AABCC)x3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS by Patrick Yakono
+K: D
+"^Intro (no chords)"\
+|: [A2F2][^G^E] [A2F2][BG] | [A3F3] [F3D3] | [G2E2][FD] [E2C2][GE] | [F2D2] [D2A,2] :|
+"A"|: "D"[A2F2][^G^E] [A2F2][BG] | [A3F3] [F3D3] | [F2D2][EC] [F2D2][GE] | [F3D3] [D3A,3] :|
+w: Dva p\^a-ti na djas-no, dva p\^a-ti na lja-vo,
+w: Dva p\^a-ti na v\^a-tre, dva p\^a-ti na v\^an-ka,
+w: Dva p\^a-ti na do-lu, dva p\^a-ti na go-re,
+"B"|| "A"[A3E3] [E3C3] | "D"[F3D3] [D2A,2] | "A"[A3E3] [E3C3] | "D"[F3D3] [D3A,3] ||
+w: djas-no, lja-vo, djas-no, lja-vo,
+w: v\^a-tre, v\^an-ka, v\^a-tre, v\^an-ka,
+w: do-lu, go-re, do-lu, go-re,
+%%text faster:
+M: 2/4
+L: 1/8
+"C"|: "D"[DA,][DA,] "Em"[EB,][EB,] | "A"[E2C2] [A2E2] | "D"[DA,][DA,] "Em"[EB,][EB,] | "A"[E2C2] [E2C2] :|
+w: djas-no, djas-no, djas-no, lja-vo, lja-vo, lja-vo.
+w: v\^a-tre, v\^a-tre, v\^a-tre, v\^an-ka, v\^an-ka, v\^an-ka.
+w: do-lu, do-lu, do-lu, go-re, go-re, go-re.
+%
+W: Translation:
+W: 1) Two times to the right, two times to the left; right, left; right,right,right, left,left,left.
+W: 2) Two times in, two times out; etc.
+W: 3) Two times down, two times up; etc.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Dva p\^ati na djasno
+O: Bulgaria
+M: 6/8
+L: 1/8
+P: Play I+(AABCC)x3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS by Patrick Yakono
+K: G
+"^Intro (no chords)"\
+|: [d2B2][^c^A] [d2B2][ec] | [d3B3] [B3G3] | [c2A2][BG] [A2F2][cA] | [B2G2] [G2D2] :|
+"A"|: "G"[d2B2][^c^A] [d2B2][ec] | [d3B3] [B3G3] | [B2G2][AF] [B2G2][cA] | [B3G3] [G3D3] :|
+"B"|| "D"[d3A3] [A3F3] | "G"[B3G3] [G2D2] | "D"[d3A3] [A3F3] | "G"[B3G3] [G3D3] ||
+%%text faster:
+M: 2/4
+L: 1/8
+"C"|: "G"[GD][GD] "Am"[AE][AE] | "D"[A2F2] [d2A2] | "G"[GD][GD] "Am"[AE][AE] | "D"[A2F2] [A2F2] :|

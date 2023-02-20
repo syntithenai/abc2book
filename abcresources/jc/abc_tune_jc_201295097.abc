@@ -1,0 +1,37 @@
+X: 1
+T: Just a Going
+O: Vickers 1770
+C:
+R: reel
+B:William Vickers' 1770 music manuscript collection (Northumberland)
+B:Rutherfords Compleat Collection of 200 Country Dances Vol.1.
+Z:AK/Fiddler's Companion
+S:http://tunearch.org/wiki/Just_a-Going
+M:C|
+L:1/8
+K:D
+"A"|:\
+"D"f/g/a fd f/g/a fd | "A"ge cA ge cA |\
+"Em"G{FG}A "A7"Gg "D"F{EF}G Ff | "A7"ed Ac "D"d2 D2 :|
+"B"|:\
+"D"f/g/a "G"bg "A7"e/f/g "D"af | "D"d/e/f "Em"gf "A7"e{d}c {B}AG |\
+"D"FA df "A7"Ac eg | "D"fd "A7"Ac "D"d2 D2 :|
+%%sep 1 1 500
+
+X: 1
+T: Just a Going
+O: Vickers 1770
+R: reel
+B: Barnes v.1 p.62
+B: William Vickers' 1770 music manuscript collection (Northumberland)
+B: Rutherfords Compleat Collection of 200 Country Dances Vol.1.
+M: C|
+L: 1/8
+K: D
+"A"z |\
+"D"f/g/a fd | f/g/a fd | "A"ge cA | ge cA |\
+"G"G/F/G/A/ Gg | "D"F/E/F/G/ Ff | "G"ed "A7"Ac | "D"d2 D :|
+"B"|: a |\
+"D"fg/a/ "G"bg | "A7"ef/g/ "D"af | "D"de/f/ "Em"gf | "A7"e/d/c/B/ AG |\
+"D"FA df | "A7"Ac eg | "D"fd "A7"Ac | "D"d2 D :|
+%%sep 1 1 500

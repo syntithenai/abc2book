@@ -1,0 +1,15 @@
+X:1
+T: Port an Bhrathar
+I:
+M: 6/8
+R: jig
+K: D
+%%textfont       Times-Roman 9.0
+%
+%%textfont       Times-Roman 7.0
+%%text
+   "D"d2e "Bm"fdB| "D"d2e "Bm"fdB| "D"AFE "A"EFA |1 "D"AFE "A"EFA :|2 AFD "D"D3 |]
+|: "G"B3 "D"BAF| "A"ABc "D"d2B| AFE "A"EFA |1 "D"AFE "A"EFA :|2 AFD "D"D3 |]
+|: "G"gag "D"fgf| "A"ede "Bm"fdB| "D"AFE "A"EFA |1 "D"AFE "A"E2f :|2 AFD "D"D3 |]
+%
+%

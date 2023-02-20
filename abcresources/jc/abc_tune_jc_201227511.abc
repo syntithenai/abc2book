@@ -1,0 +1,38 @@
+X: 1082
+T: Harlequin in the Mud
+T: Busby's Frolick
+P: Longways for &c.
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat; fixed to agree with "Each Strain twice".
+N: The original has M:38; it's obviously M:6/8
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+F2c cAF | E2G GEC | F2c cAF | FAc f3 |\
+F2c cAF | E2G GEC | DEF GEC | DEF F3 :|
+|:\
+cdc cAF | FAc fed | cBA GAF | EFG ECc |\
+AFd BGf | ece f2B | AGF CFE | F3- F3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+f3 F3 | c3 B3 | A3 F3 | f3- f2A |\
+F3- F2A | c3- c2A | B3 zzG | B3 F3 :|
+|:\
+F3 A3 | f3 A2B | A3 =B3 | c3 zze |\
+f3 g3 | c'2b a2g | f2B c3 | F3- F3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+First Man go without side 2d Wo. up the Middle in his Wo. Place. 1st Wo at
+the same time go within side, round 2d Man up into her Man's Place. 2d Cu.
+doing the same: Men being on the We. side, 1st Cu. slips down into 2d Cu
+Place. Right and Left into their own Places. Men on We. side 1st Man
+cross over with 2d Wo. 2d Man cross over with 1st Wo. turn your own.
+%%endtext

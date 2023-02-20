@@ -1,0 +1,15 @@
+X: 1
+T: Polska fr\aan Lappfj\"ard
+O: efter Torsten P\"arus
+R: 16th-note polska
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: Dm
+|: "Dm"D2FA d2eg ~f2ed | "A7"^c2Ac e2g2 ~g2fe | "Dm"f2gf "A"e2fe "Dm"d2fg \
+|1,3 ~f2"A7"ed ^cAce a4 :|2,4 ~f2"A7"e^c "Dm"d8 :|
+"(C7)"y\
+|: "F"{c}a3f f2a2 bagf | "C"e2c2 e2g2 agfe \
+| "F"f3c f2a2 bagf | "C"e2c2 e2g2 "A7"agfe |
+| "Dm"d3^c d2e2 ~f2ed | "A7"^c2Ac e2g2 ~g2fe \
+| "Dm"f2gf "A"e2fe "Dm"d2fg | "A7"fed^c "Dm"d8 :|

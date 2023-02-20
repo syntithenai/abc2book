@@ -1,0 +1,25 @@
+X: 1072
+T: the Tune of Farrinel's Ground, to the Song of (All joy to Great Caesar.)
+%R: air, waltz
+B: Henry Playford "Apollo's Banquet", London 1687 (5th Edition)
+F: https://archive.org/details/apollosbanquetco01rugg
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: This tune is actually numbered 27, but it's between 71 and 73, and there's another 27 between 26 and 28.
+N: The times at the edges of strains are often incorrect. Some rests added to fix this.
+N: Numbers above the staff seem to be used for both strain numbers and time-signature changes.
+M: 3/4
+L: 1/8
+K: Dm
+% - - - - - - - - - -
+A |\
+d2 d3 e | ^c2 c2 c2  | d2 d3 d | e2 e2 ee | f2 f3 g | e2 e2 fe | d2 d3 e | ^c2 c3 c | d2 d3 f | c2 c2 c2  |
+d3 fed | e2 e2 ee | f2 f3 g | e2 e2 fe | (fd) d3 ^c | d2 d4 "^2."::[M:2/4] d2 D2 d2  | ^c2 A2 ^c2  | d2 D2 dd | e2 E2 e2  | f2 Ff ed |
+e2 Ee fe | d2 Dd ^c=B | ^c2 A=B ^cA | d2 A2 D>d | ^c2 A2 E>^c | d2 A2 D>d | e2 c2 E>e | f2 c2 F>f | g2 e2 c>a |
+f>e e3 d | d4 "^3 ."::[M:3/4] zd | d>^c d>e d>e | ^c>=B ^c>d ^ce | d>^c d>e d>f | e>d e>f e>g | f>e f>g f>g |
+e>d e>f e>f | d>^c d>e d>e | ^c>B ^c>d ^c>e | d>c d>e d>e | ^c>B ^c>d ^c>e | d>^c d>e d>f |
+e>d e>f e>g | f>e f>g f>a | g>f g>a g>a | f>e e3 d | d4 "^4."::[M:3/4] e2  | f2 f3 g | e2 e2 e2  | f2 f3 f | g2 g2 g2  | a2 a3 b |
+g2 g3 a | (fg/a/) g3 f | e2 e3 e | f2 f3 g | e2 e3 e | f2 f3 f | g2 g3 g | a2 (ba)(gf) | g2 g3 a | (gf/e/) e3 d | d2 d4 "^5.":: d3 ed2  |
+^c4 A2  | f3 a (gf) | e4 e2  | a3 b a2  | g3 a (gf) | e3 d (ec) | f6 | d3 fed | ^c4 A2  | f3 a (gf) | e4 e2  | a3 b a2  | g3 a (gf) |
+e3 d e2  | f6 "^6."|[| f3 g a2  | e3 f g2  | d3 f e2  | ^c3 =B A2  | f3 e f2  | e2 e3 f | d3 de2  | ^c4 E2  | ^F2 G2 A2  | B2 c2 d2  |
+^c2 d2 e2  | f2 g2 a2  | b2 a2 g2  | a3 g f2  | e3 d ^c2  | Hd6 |] y6 y6 y6 y6 y6 y6 y6 y6 y6 y6 y6 y6
+% - - - - - - - - - -

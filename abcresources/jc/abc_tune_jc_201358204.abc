@@ -1,0 +1,879 @@
+
+X: 1
+T: Cliffs of Moher
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: Ador
+|:"Am"a2a  bag |  eaf  ged |     c2A BAG |     EFG ABd \
+|     eaa  bag |  eaf  ged |     c2A BAG | "Em"EFG "Am"A3 :|
+||"Am"e=fe dBA | ~e3   dBA |  "G"GAB dBA |     GAB ~d3 \
+| "Am"e=fe dBA | ~e3   dBA |  "G"GAB dBG | "Em"EFG "Am"[E3A3] ||
+||"Am"e=fe dBA |  e=fe dBA |  "G"GAB dBA |     GAB ~d3 \
+| "Am"e=fe dee |  cee  Bee | "Em"EFG BAG |  "G"E[DF][B,G] "Am"[A3A,3] |]
+
+%%sep 1 1 500
+
+X: 2
+T: the Cock o' the North
+O: 1667
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Earliest known reference: 1667 Samuel Pepys' diary mentions "Joan's Placket", one of the early titles.
+N: Titled "Jumping John/Joan" in several 17th-century collections.
+N: Often called "Auntie Mary" in Ireland and New England, a song title with obscene lyrics.
+B: Playford 1674, 1686, as "Jumping Joan".
+M: 6/8
+L: 1/8
+K: A
+e/d/ \
+|: "A"cdc cBA | Ace "D"f2d | "A"cdc cBA | "G(E7)"BcB Bed \
+|  "A"cdc cBA | Ace "D"f2d | "A"cAc "G"B=GB | "A"ABA A2 :|
+|: "A"{efg}a2e "D"f2e | "A"a2e "D"f2e | "A"cdc cBA | "G(E7)"BcB B2f/g/ \
+|  "A"a2e "D"f2e | "A"a2e "D"f2e | "A"cdc "G"B=GB | "A"ABA A2 :|
+
+%%sep 1 1 500
+
+X: 3
+T: the Cock o' the North
+O: 1667
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Earliest known reference: 1667 Samuel Pepys' diary mentions "Joan's Placket", one of the early titles.
+N: Titled "Jumping John/Joan" in several 17th-century collections.
+N: Often called "Auntie Mary" in Ireland and New England, a song title with obscene lyrics.
+B: Playford 1674, 1686, as "Jumping Joan".
+M: 6/8
+L: 1/8
+K: G
+dc \
+|: "G"BcB BAG | GBd "C"e2c | "G"BcB "(Em)"BAG | "F"ABA "D7"Adc \
+|  "G"BcB BAG | GBd "C"e2c | "G"BGB "F"A=FA | "G"GAG G3 :|
+[| "G"{def}g2d "C"e2d | "G"g2d "C"e2d | "G"BcB BAG | "F"ABA "D7"A2e/f/ \
+|  "G"g2d "C"e2d | "G"g2d "C"e2d | "G"BcB "F"A=FA | "G"GAG G3 ||
+|| "G"{def}g2d "C"e2d | "G"g2d "C"e2d | "G"BcB BAG | "F"ABA "D7"Adc \
+|  "G"BcB BAG | GBd "C"e2c | "G"BGB "F"A=FA | "G"GAG G3 |]
+
+%%sep 1 1 500
+
+X: 4
+T: Coleraine
+O: Kerr "Merrie Melodies" v.4 p.26 #234, 1880s
+N: A nearly identical version was in the 2021 Fiddle Hell "NE jam" handout.
+Z: John Chambers <jc:trillian.mit.edu> 1997-01-05 (and added basic chords)
+R: jig
+M: 6/8
+L: 1/8
+K: Am
+"E7"E \
+| "Am"EAA ABc | "E7"B2e e2d | "Am"cAA ABc | "E7"B^GE E2E |\
+| "Am"EAA ABc | "E7"B2e e2d | "Am"cBA "E7"B^GE | "Am"A3- A2 :|
+|: "G7"B \
+| "C"c2c cdc | "G"Bdg "(E)"g2^g | "Am"aed cBA | "E7"^GBG E^FG |\
+| "Am"A^GA "E7"BAB | "Am"cde "Dm"fed | "Am"cBA "E7"B^GE | "Am"A3- A2 :|
+
+%%sep 1 1 500
+
+X: 5
+T: the Ferry Jig
+O: Trad
+B: SCD-20
+B: Kerr (Merry Melodies) v.4 #264, p.28
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: A
+   ed | "A"cBc Ace | "D"f3 "E7"efg | "A"a2c "F#m"cBA | "Bm"cBB "E7"Bed \
+      | "A"cBc Ace | "D"f3 "E7"efg | "A"a2c "E7" BAB |  "A"A3      z :|
+|: ed | "A"cea aga | "D"fdf    agf | "A"e2c "F#m"cBA | "Bm"cBB "E7"Bed \
+      | "A"cBc Ace | "D"f3 "E7"efg | "A"a2c "E7" BAB |  "A"A3      z :|
+
+%%sep 1 1 500
+
+X: 6
+T: the Ferry Jig
+O: Trad?
+B: SCD-20
+B: Kerr (Merry Melodies) v.4 #264, p.28
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: G
+   dc \
+| "G"BAB GBd | "C"e3 "D7"def | "G"g2B "Em"BAG | "Am"BAA "D7"Adc \
+| "G"BAB GBd | "C"e3 "D7"def | "G"g2B "D7"AGA | "G"G3 z :|
+|: dc \
+| "G"Bdg gfg | "C"ece    gfe | "G"d2B "Em"BAG | "Am"BAA "D7"Adc \
+| "G"BAB GBd | "C"e3 "D7"def | "G"g2B "D7"AGA | "G"G3 z :|
+
+%%sep 1 1 500
+
+X: 7
+T: the Frost is All Over
+T: the American Dwarf
+O: Trad
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: D
+   A \
+| "D"def edB | AFD "A7"E2D | "D"DFA "Bm"AFA | "E(m)"Bee "A7"edB \
+| "D"def edB | AFD "A7"E2D | "D"DFA AFA | "G"Bdd "D"d2 :|
+|: g \
+| "D"fdf afd | "G"gfg "(A7)"bag | "D"fdf "Bm"afd | "Em"gfg "A7"e2g \
+| "D"fdf afd | "G"gfg "(A7)"bag | "D"fga "A7"efg | "D"fdd d2 :|
+
+%%sep 1 1 500
+
+X: 8
+T: the Irish Washerwoman
+O: Petrie 1790
+B: Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+N: Similar tunes with many titles date back to the 17th C in the British Isles.
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+   d/c/ \
+| "G"BGG DGG | BGB dcB | "Am"cAA EAA | cAc "D7"edc \
+| "G"BGG DGG | BGB dcB | "Am"cBc "D7"Adc | "G"BGG G2 :|
+|: g/a/ \
+| "G"bgg dgg | bgb bag | "D7"aff dff | afa agf \
+| "C"egg "G"dgg | "C"cgg "G"B3 | "Am"cBc "D7"Adc | "G"BGG G2 :|
+
+%%sep 1 1 500
+
+X: 9
+T: the Irish Washerwoman
+S: Roaring Jelly Collection
+O: Irish
+M: 6/8
+R: jig
+K: G
+d/c/ |\
+"G"BGG DGG | BGB dcB | "D"cAA DAA | cAc edc |
+"G"BGG DGG | BGB dcB | "D"cBc Adc | "G"BGG G2 :|
+|: g |\
+"G"gdg gdg | gdg bag | "D"fdf fdf | fdf agf |
+"C"egg "G"dgg | "C"cgg "G"Bgg | "D"cBc Adc | "G"BGG G2 :|
+
+%%sep 1 1 500
+
+X: 10
+T: the Irish Washerwoman
+S: Roaring Jelly Collection
+O: Irish
+M: 6/8
+R: jig
+K: G
+d/c/ |\
+"G"BGG DGG | BGB dcB | "D"cAA DAA | cAc edc |
+"G"BGG DGG | BGB dcB | "D"cBc Adc | "G"BGG G2 :|
+|: g |\
+"G"gdg gdg | gdg bag | "D"fdf fdf | fdf agf |
+"C"egg "G"dgg | "C"cgg "G"Bgg | "D"cBc Adc | "G"BGG G2 :|
+
+%%sep 1 1 500
+
+X: 11
+T: an Irishman's Heart to the Ladies
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: NEFR #13
+M: 6/8
+L: 1/8
+K: A
+a \
+| "A"ecA "D"BAF | "A"AFE EFA | "Bm"Bdc BAB | "E7"cBB B2f || "A"ecA "D"BAF | "A"AFE EFA |
+"Bm"Bdc "E7"BAB | "A"cAA A2 :: B | "A"cee "D"dff | "A"cee ecA | cde "D"faf |
+"A"ecA "E7"B2A || "A"cee "D"dff | "A"cee ecA | "Bm"B{c}dc "E7"BAB | "A"cAA A2 :|
+
+%%sep 1 1 500
+
+X: 12
+T: an Irishman's Heart to the Ladies
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+a \
+| "A"ecA "D"BAF | "A"AFE EFA | "Bm"Bdc BAB | "E7"cBB B2a | "A"ecA "D"BAF |
+| "A"AFE EFA | "Bm"Bdc "E7"BAB | "A"cAA A2 :: B | "A"cee "D"dff | "A"cee ecA |
+| Ace "D"faf | "A"ecA "E7"B2A | "A"cee "D"dff | "A"cee ecA | "Bm"Bdc "E7"BAB | "A"cAA A2 :|
+
+%%sep 1 1 500
+
+X: 13
+T: Irishman's Heart to the Ladies
+S: Roaring Jelly collection
+M: 6/8
+R: jig
+K: A
+a |\
+"A"ecA "D"BAF | "A"AFE EFA | "Bm"Bdc     BAB | "E7"cBB B2a |
+"A"ecA "D"BAF | "A"AFE EFA | "Bm"Bdc "E7"BAB | "A"cAA  A2 :|
+|: A |\
+"A"Aee "D"dff | "A"cee ecA |     cde  "D"eaf | "A"ecA "E7"B2A |
+"A"cee "D"dff | "A"cee ecA | "Bm"Bdc "E7"BAB | "A"cAA     A2 :|
+
+%%sep 1 1 500
+
+X: 14
+T: Jefferson and Liberty
+T: the Gobby O
+O: 1843
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: NEFR #12 (in Am rather than Ador, which is slightly more common)
+B: Howe's Musician's Companion, Part 2 (1843)
+N: Based on an English song, "The Gobby O"
+N: Some versions have the pickup notes; others don't. NEFR has only the pickup on the B part.
+M: 6/8
+L: 1/8
+K: Ador
+"A"|:\
+"Am"{AB}c2A A^GA | E2A ABc | "G"B2G GBc | dBG GAB |\
+"Am"c2A A^GA | E2A A2e "I"| edc "E7"BAB | "Am"E2A A3 :|
+"B"|:\
+"Am"{B}A2B c2d | "C"e2f g3 | e2f g2e | "G"dBG G2E |\
+"Am"A2B c2d | "C"efg "F"a3 | "C"edc "E7"BAB | "Am"c2A A3 :|
+
+%%sep 1 1 500
+
+X: 15
+T: Jefferson and Liberty
+O: 1843
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+B: NEFR #12
+B: Howe's Musician's Companion, Part 2 (1843)
+N: Based on an English song, "The Gobby O"
+M: 6/8
+L: 1/8
+K: Ador
+|: "Am"c2A A^GA | E2A ABc |\
+"G"B2G GBc | dBG GAB | "Am"c2A A^GA |
+E2A A2e | edc "E7"BAB |\
+"Am"E2A A3 :: "Am"A2B c2d | "C"e2f g3 |
+e2f g2e | "G"dBG G2E | "Am"A2B c2d |\
+efg "F"a3 | "C"edc "E7"BAB | "Am"c2A A3 :|
+
+%%sep 1 1 500
+
+X: 16
+T: Jefferson and Liberty
+O: 1843
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+B: NEFR #12
+B: Howe's Musician's Companion, Part 2 (1843)
+N: Based on an English song, "The Gobby O"
+M: 6/8
+L: 1/8
+K: Ador
+|:"Am"c2A A^GA |    E2A ABc | "G"B2G     GBc |     dBG GAB |
+| "Am"c2A A^GA |    E2A A2e |    edc "E7"BAB | "Am"E2A A3 :|
+|:"Am"A2B c2d  | "C"e2f g3  |    e2f     g2e |  "G"dBG G2E |
+| "Am"A2B c2d  | efg "F"a3  | "C"edc "E7"BAB | "Am"c2A A3 :|
+
+%%sep 1 1 500
+
+X: 17
+T: Jefferson and Liberty  v.1   [Bm]
+P: piffero primo a0055
+O: safd 025
+F: http://ancients.sudburymuster.org/mus/med/pdf/jeffblackwC1.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bm
+(B/c/ |\
+"Bm"d2)B B^AB | F2B Bcd | "A"c2A ABc | ecA ABc |\
+"Bm"d2B  B^AB | F2B B2f | "F#7"fed cdc | "Bm"F2B B2 :|
+|: d |\
+"Bm"B2c d2e | "D"f2g a3 | f2g a2f | "A"ecA A2F |\
+"Bm"B2c d2e | fga "G"b3 | "D"fed "F#7"cdc | "Bm"F2B B2 :|
+
+%%sep 1 1 500
+
+X: 18
+T: Jefferson and Liberty  [Gm]
+%P: piffero primo a0055
+O: safd 025
+F: http://ancients.sudburymuster.org/mus/med/pdf/jeffblackwC1.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gm
+G/A/ |\
+"Gm"B2G G^FG | D2G GAB | "F"A2F FGA | cAF FGA |\
+"Gm"B2G G^FG | D2G G2d | "D7"dcB ABA | "Gm"D2G G2 :|
+|: B |\
+"Gm"G2A B2c | "Bb"d2e f3 | d2e f2d | "F"cAF F2D |\
+"Gm"G2A B2c | "Bb"def "Eb"g3 | "Bb"dcB "F"ABA | "Gm"D2G G2 :|
+
+%%sep 1 1 500
+
+X: 19
+T: Jefferson and Liberty  v.2   [Gm]
+P: piffero secondo a0056
+C: Dan Moylan
+F: http://ancients.sudburymuster.org/mus/med/pdf/jeffblackwC1.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bm
+z |"^>"\
+FD2 DCD | DB,2 DCB, | EC2 CDE | CEG GFE |\
+FD2 DCD | A,B,D DEA | DEF GFE | FED D2 :|
+|: z |\
+DEG FAG | AF2 EF2 | AFE FDA, | CEG GED |\
+DEG FAG | AEF G3  | DEF GFE  | FED D2 :|
+
+%%sep 1 1 500
+
+X: 20
+T: the Kesh Jig
+T: the Kincora Jig
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: George Petrie "Tear the Callies" 1850
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"~A3 ABc | "E7"~B3 Bce | "A"fee aee | "E7"fec ecB \
+| "A"~A3 "(F#m)"ABc | "Bm"~B3 "E7"Bce | "A"fee aec | "E7"BAG "A"A2 :|
+|: B \
+| "A"~c3 ece | "D"faf "A"ecA | "A"~c3 ecA | "Bm"~B3 "E7"BAB \
+| "A"~c3 ece | "D"faf "A"ece | "D"~a3 bab | "E7"c'ag "A"a2 :|
+
+%%sep 1 1 500
+
+X: 21
+T: Kesh Jig
+T: Kincora Jig
+O: Trad (Petrie 1850s)
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: George Petrie "Tear the Callies" 1850
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2G GAB | "D7"A2A ABd | "G"edd gdd | "D7"edB dBA \
+| "G"G2G GAB | "D7"A2A ABd | "G"edd gdB | "D7"AGF "G"G2 :|
+|: A \
+| "G"B2d dBd | "C"ege "G"dBG | "G"B2d dBG | "Am"ABA "D7"AGA \
+| "G"B2d dBd | "C"ege "G"dBd | "C"gfg "D7"aga | bgf "G"g2 :|
+
+%%sep 1 1 500
+
+X: 22
+T: Lad O'Beirne
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: "D"d2F AGF | d2F AGF | "A7"A,CE GFG | A,CE GFE \
+|  "D"DFA "G"DGB | "A7"Adc "D"d2e | fed "A7"cBA | GFE "D"D3 :|
+|: "D"~f3 a^ga | fdd de=f | "C"e=ce gfg | "A7"efd cde \
+|  "D"fef "A7"gfg | "D"aga "G"bag | "D"fed "A7"cBA | GFE "D"D3 :|
+
+%%sep 1 1 500
+
+X: 23
+T: Lanagan's Ball
+O: Ireland c.1860
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: EDor
+|: "Em"EFE G2A | B2A Bcd | "D"DED   F2G | AdB AFD \
+| "Em"EFE G2A | B2A Bcd | edB "Am"=cBA | "Em"BEE E3 :|
+B \
+|: "Em"e2f gfe | "D"fag fed | "Em"e2f gfe | "Bm"fBB B2d \
+| "Em"e2f gfe | "D"fag fed | "Em"edB "Am"=cBA | "Em"BEE E3 :|
+
+%%sep 1 1 500
+
+X: 24
+T: Little Burnt Potato
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+   f2g \
+| "D"a^ga "A7"bag | "D"afd Ade | "Bm"f2f g2f | "Em"e3 Bcd | "A7"efe dcB |
+| "A7"Ace a3 |1 a^ga ba=g | "D"f3 :|2 "A7"a^ga b2c | "D"d3 |: d2e | "D"f2A f2A | "Bm"f3- f2e |
+| "Bm"def agf | "Em"g3- gef | gba gfe | "A7"dcB A3 |1 a^ga ba=g | "D"f3 :|2 "A7"a^ga b2c | "D"d3 |]
+
+%%sep 1 1 500
+
+X: 25
+T: Little Burnt Potato
+O: Ireland
+B: NEFR #24
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+F: http://www.ibiblio.org/fiddlers/LITT_LL.htm
+M: 6/8
+L: 1/8
+K: D
+|: "D"a^ga bag | afd A2d | f2a g2f | e3 Bcd | "Em"e2f e2d | "A7"cAc a2a |
+[1 "A7"a^ga ba=g | "D"f3 fg^g :|[2 "A7"a^ga b2c | "D"d3 "A7"a2g |: "D"f2A f2A | "(Bm)"f3 f2e | dcd agf |
+| "Em"g3 gef | gba gfe | "A7"dcB A3 |1 a^ga ba=g | "D"f3 "A7"a2g :|2 "A7"a^ga b2c | "D"d3 d3 |]
+
+%%sep 1 1 500
+
+X: 26
+T: Margaret Brown's Favo[u]rite Jig
+T: Maggie Brown's Favo[u]rite
+T: Planxty Browne
+C: Nathaniel Gow (attr)
+B: O'Neill's 692
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Gow Collection, 3rd edition (1792), the earliest known published version
+M: 6/8
+L: 1/8
+K: G
+|: g \
+| "G"dBG GAB | "C"E2E E2c | "D7"AFD DEF | "G"G2G G2g \
+| "G"dBG Bcd | "C"E2E E2c | "D7"AFD DEF | "G"G3 G2 :|
+g/a/ \
+| "G"bgb "D"afd | "C"efg gfe | "G"dBg dBG | "D"AFD D2g/a/ \
+| "G"bgb "D"afd | "C"efg gfe | "D"faf "A7"ge^c | "D"d2d de=f |
+| "C"ece "G"dBd | "Am"cac "G"BgB | "Am"Ace "G"dBG | "D"FAF DEF \
+| "G"GAB "C"EFG | "Am"ABc "D7"def | "G"gdB "D7"cAF | "G"G3 G2 |]
+
+%%sep 1 1 500
+
+X: 27
+T: Merrily Kiss the Quaker's Wife
+O: Eire
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: D | "G"GAB D2B | "C"c2A AGE | "G"GAB DEG | "D"A3 AGE \
+     | "G"GAB DED | "C"c2A AGE | "G"GAB "D7"D2E | "G"G3- G2 :|
+|: A | "G"BGG AGG | BGG "C"AGE | "G"GAB DEG | "D"A3 AGA \
+     | "G"BGG AGG | BGG "C"AGE | "G"GAB "D7"D2E | "G"G3- G2 :|
+|:Bd | "G"g3 "D7"a3 | "G"bge dBd | g2g gab | "D"a3- agf \
+     | "C"gag "D7"fgf | "C"efe "D7"dBA | "G"GAB "D7"D2E | "G"G3- G2 :|
+
+%%sep 1 1 500
+
+X: 28
+T: the Mist-Covered Mountain
+R: jig, waltz
+Z: John Chambers <jc:trillian.mit.edu>
+D: De Danaan ________
+M: 3/4
+L: 1/8
+K: ADor
+D \
+| "Am"E2A ABd | e2A AGE | "G"G2G GAB | dBA GED \
+| "Am"E2A ABd | e2A "G"B^cd | "C"efg "G"dBG | "Em"BAG "Am"A2 :|
+a \
+| "Am"a>ge a2b | age edB | "G"AGE G2A | BAB deg \
+| "Am"a>ge a2b | age edB | "G"AGE G2A | BAG "Am"A2 |]
+a \
+| "Am"a>ge a2b | age edB | "G"AGE G2A | BAB GED \
+| "Am"EDE G2A | "G"BAG B^cd | "C"efg "G"dBG | "Em"BAG "Am"A2 |]
+%%text Played as both jig and waltz.
+
+%%sep 1 1 500
+
+X: 29
+T: Morrison's Jig
+O: trad Ireland
+M: 6/8
+L: 1/8
+R: jig
+K: EDor
+|:\
+"Em"~E3 BEB | EBE "D"AFD | "Em"~E3 BEB | "G"dcB "D"AFD |\
+"Em"~E3 BEB | EBE "D"AFD | "G"~G3 "D"FGA | "Em"[dB]AG "D"FED :|
+[|\
+"Em"Bee fee | aee "D"fed | "Em"Bee fee | "D"fag fed |\
+"Em"Bee fee | bee "D"fef | "G"gfe "D"d2A | "Em"BAG "D"FED |]
+[|\
+"Em"Bee fee | aee "D"fed | "Em"Bee fee | "D"faf def |\
+"G"~g3 gfe | "D7"def "G"g2d | "D"edc d2A | "(Bm)"BAG FED |]
+
+%%sep 1 1 500
+
+X: 30
+T: Off She Goes
+O: Murphy MS 1780
+R: jig
+M: 6/8
+L: 1/8
+K: D
+A |\
+"D"F2A "G"G2B | "A7"ABc "D"d2A | "D"F2A "G"G2B | "D"AFD "A7"E2D |\
+"D"F2A "G"G2B | "A7"ABc "D"d2e | "D"fed "G"g2f | "A7"edc "D"d2 :|
+|: g |\
+"D"f/g/af d2f | "G"g/a/bg "Em"e2g | "D"f/g/af d2f | "A7"ecA A2g |\
+"D"f/g/af d2f | "G"g/a/bg "Em"e2g | "D"fed "G"g2f | "A7"edc "D"d2 :|
+
+%%sep 1 1 500
+
+X: 31
+T: Off She Goes
+O: Murphy MS 1780
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Cole p.58; Skye p.175
+M: 6/8
+L: 1/8
+K: D
+   A \
+| "D"F2A "G"G2B | "A7"ABc "D"d2A | "D"F2A "G"G2B | "D"AFD "A7"E2D \
+| "D"F2A "G"G2B | "A7"ABc "D"d2e | "D"fed "G"g2f | "A7"edc "D"d2 :|
+|: g \
+| "D"faf     d2f |  "G"gbg "A7"e2g | "D"faf    d2f | "A7"ecA    A2g \
+| "D"faf "Bm"d2f | "Em"gbg "A7"e2g | "D"fed "G"g2f | "A7"edc "D"d2 :|
+
+%%sep 1 1 500
+
+X: 32
+T: Off She Goes
+O: Murphy MS 1780
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: "Rinnci na h-\'Eireann" Elizabeth Burchenal, ed. G.Schirmer (1925) p.42
+M: 6/8
+L: 1/8
+K: D
+|:\
+"D"F2A "G"G2B | "D"ABc d3 | "D"F2A "G"G2B | "D"AFD "A"E3 |\
+"D"F2A "G"G2B | "D"ABc d3 | "D"f2d "G"g2f | "A"edc "D"d3 :|
+|:\
+"D"faf d2f | "Em"gbg e2g | "D"faf d2f | "A"ecA A2z |\
+"D"faf d2f | "Em"gbg e2g | "D"f2d "G"g2f | "A"edc "D"d3 :|
+
+%%sep 1 1 500
+
+X: 33
+T: Rambling Rover, The
+C:Andy M. Stewart (1952-2015), Scotland
+R:song
+D:Silly Wizard
+D:The Dubliners
+Z:id:hn-song-107 modified by John Chambers
+M:6/8
+L:1/8
+%Q:3/8=100
+K:G
+% = = = = = = = = = =
+%"^Chorus:"[|]
+   D2E | "G"G2G "D"A2A | "G"A2G- G2d | d2B d2e | e2d- dBd | "C"e2e g2f | "G"e2d B2G | "Am"AAB     A2G | "C"E3 ||
+"D"D2E | "G"G2G    A2A |    A2G- G2d | d2B d2e | e2d- dBd | "C"e2e g2f | "G"e2d B2G | "Am"ABA "D7"G2F | "G"G3 |]|
+% = = = = = = = = = =
+%"^Verse:"[|]
+%   z2D | "G"G2G "D"A2A | "G"A2G- G2B | d2B d2e | e2d- dBd | "C"e-ee g2f | "G"e2d B2G | "Am"AAB A2G | "C"E3 ||
+%"D"D2E | "G"G2G "D"A2A | "G"A2G- Gdd | d2B d2e | e2d- dBd | "C"e2e g2f | "G"e2d B2G | "Am"ABA "D7"G2F | "G"G3 |]
+% = = = = = = = = = =
+
+%%sep 1 1 500
+
+X: 34
+T: the Road to Lisdoonvarna
+O: trad Ireland
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+D: Chieftains 3; Swallowtail "Flights of Fancy"
+D: Grey Larsen and Malcolm Dalglish "Banish Misfortune".
+O: trad Ireland
+M: 6/8
+L: 1/8
+K: EDor
+|:\
+"Em"E2B B2A | "(Bm)"B2c d2D/E/ | "D"F2A ABA | D2E FED |\
+"Em"E2B B2A | "(Bm)"B2c d3 | "A"cdc B2A | "Em"B2E E3 :|
+|:\
+"Em"e2f gfe | "Bm"d2B Bcd | "A"c2A ABc | "Bm"d2B [BB3]cd |\
+"Em"e2f gfe | "Bm"d2B Bcd | "A"cdc B2A | "Em"B2E E3 :|
+
+%%sep 1 1 500
+
+X: 35
+T: Roaring Jelly #1
+T: Smash the Windows
+O: trad
+R: jig
+B: Kerr's Caledonian; Kennedy v.1, Cole
+N: In O'Neill's as a reel (#1382)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: See also Smash the Windows, which has a B1 and a B2 part.
+M: 6/8
+L: 1/8
+K: D
+   A \
+| "D"D>ED F2A | d2f "A"ecA | "G"G2B "D"F2A | "Em"E2F "A7"GFE \
+| "D"D>ED F2A | d2f "A"ecA | "G"Bgf "A7"edc | "D"d3- d2 :|
+|: f/g/ \
+| "D"a2f d2f | f2g agf | "A7"g2e c2e | e2f gfe \
+| "D"fed "A7"gfe | "D"agf "G"bag | "D"fed "A7"cde | "D"fdd d2 :|
+
+%%sep 1 1 500
+
+X: 36
+T: Roaring Jelly #2
+T: Smash the Windows
+M: 6/8
+R: jig
+K: D
+A |\
+"D"DED F2A | d2f "A"ecA | "G"G2B "D"F2A | "A"E2F GFE |\
+"D"DED F2A | d2f "A"ecA | "G"Bgf "A"edc | "D"(d3 d2) :|
+a |\
+"D"a2f d2f | A2a agf | "A"g2e c2e | A2g gfe |\
+"D"f2 d "A"g2 e | "D"a2 f "G"bag | "D"fed "A"edc | "D"(d3 d2) ||
+a |\
+"D"agf fed | Adf agf | "A"gfe ecA | Ace gfe |\
+"D"fed "A"gfe | "D"agf "G"bag | "D"fed "A"edc | "D"(d3 d2) |]
+
+%%sep 1 1 500
+
+X: 37
+T: Roaring Jelly #3
+T: Smash the Windows
+R: jig
+B: Kerr's Caledonian; Kennedy v.1, Cole
+N: In O'Neill's as a reel (#1382)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: See also Roaring Jelly as played with B2 twice rather than this A1-A1-B1-B2 version.
+M: 6/8
+L: 1/8
+K: D
+|: A \
+| "D"D>ED F2A | d2f "A"ecA | "G"G2B "D"F2A | "Em"E2F "A7"GFE \
+| "D"D>ED F2A | d2f "A"ecA | "G"Bgf "A7"edc | "D"d3- d2 :|
+f/g/ \
+| "D"a2f d2e | f2g agf | "A7"g2e c2d | e2f gfe \
+| "D"a2f d2e | f2g agf | "Em"gfe "A7"cde | "D"fdd d2 ||
+e/f/ \
+| "D"aff dff | fdf agf | "A7"gee cee | eAe gfe \
+| "D"fed "Em"gfe | "D"agf "G"bag | "D"fed "A7"cde | "D"fdd d2 |]
+
+%%sep 1 1 500
+
+X: 38
+T: Rory O'More
+C: Samuel Lover
+O: Ireland, 1837
+M: 6/8
+L: 1/8
+Z: John Chambers <jc:trillian.mit.edu>
+K: G
+ e \
+| "G"dGG BGG | dGG    G2e |     dcB BAG | "D7"FAA ABc \
+| "G"dGG BGG | dBd "C"edc | "D7"Bcd def | "G"gGG G2 :|
+|: g \
+| "Em"gfe edB | "Am"cBA "B7"G2F | "Em"EFG GAB | Bed "D"def \
+| "Em"gfe edB | "Am"cBA "B7"G2F | "Em"EFG GAB | Bed "D7"d2 :|
+
+%%sep 1 1 500
+
+X: 39
+T: Scarce o' Tatties
+T: Cion a'Bhunta'ta
+C: Norman MacLean
+S: Barbara McOwen (Oct 1991), Allan MacDonald
+B: BSFC Session Tune Book 2016 p.25
+R: jig
+N: jig-time variant of the old tune "The Banks of the Devon"
+L: 1/8
+M: 6/8
+K: Ador
+e |\
+"Am"A>ee efg | "Am"e>dB "G"dBG | "Am"A>ee efg | "Em7"edB "Am"A2e |\
+"Am"a>aa "A7"ggg | "D"f>ff "Am"eAA | "Am"A>ee efg | "Em7"edB "Am"A2 :|
+|: e |\
+"Am"a>eg a2e | "Am"g2f eAA | "Am"a>eg a2e | "G"gaf "Am"e3 |\
+"Am"e>ee "A7"A>AA | "D"d>ff "Am"fee | "Am"A>ee efg | "Em7"edB "Am"A2 :|
+
+%%sep 1 1 500
+
+X: 40
+T: Shandon Bells
+T: Cluig Sean-duin
+B: O'Neill's
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: D
+ B \
+| "D"AFD DFA | ded cBA | "Em"BGE EFA | "A7"B2A Bcd \
+| "D"AFD DFA | ded cBA | "G"Bcd "A7"ecA | "D"d3-d2 :|
+|: g \
+| "D"f2d ded | faa afd | "A7"cAA eAA | cBc efg \
+| "D"f2d ded | faa afd | "G"Bcd "A7"ecA | "D"d3-d2 :|
+
+%%sep 1 1 500
+
+X: 41
+T: Smash the Windows
+R: jig
+B: Kerr's Caledonian; Kennedy v.1, Cole
+N: In O'Neill's as a reel (#1382)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: See also Roaring Jelly, played with B2 twice rather than A1-A1-B1-B2.
+M: 6/8
+L: 1/8
+K: D
+|: A \
+| "D"D>ED F2A | d2f "A"ecA | "G"G2B "D"F2A | "Em"E2F "A7"GFE \
+| "D"D>ED F2A | d2f "A"ecA | "G"Bgf "A7"edc | "D"d3- d2 :|
+f/g/ \
+| "D"a2f d2e | f2g agf | "A7"g2e c2e | e2f gfe \
+| "D"a2f d2e | f2g agf | "Em"gfe "A7"cde | "D"fdd d2 ||
+e/f/ \
+| "D"aff dff | fdf agf | "A7"gee cee | eAe gfe \
+| "D"fed "Em"gfe | "D"agf "G"bag | "D"fed "A7"cde | "D"fdd d2 |]
+
+%%sep 1 1 500
+
+X: 42
+T: the Star Above the Garter
+O: trad. Ireland
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: the Portland Collection v.1 p.190
+M: 6/8
+L: 1/8
+K: G
+B/c/ |\
+"G"d2B BAG | "D"A2A ABA | "C"G2E c2B | "D"BAG ABc |\
+"G"d2B BAG | "D"A2A ABA | "C"GFE cGE | "D"DED D2:|
+|:d |\
+"D"d2e fga | "G"gfe d2B | "G"G2B "C"c2B | "G"BAG "Am"A3 |\
+"D"d2e fga | "G"gfe d2B | "G"GAB "C"cGE | "D"DED D2 :|
+
+%%sep 1 1 500
+
+X: 43
+T: Swallowtail Jig    [Em]
+O: Ryan 1883
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+R: jig
+B: Ryan’s Mammoth Collection, 1883; pg. 100
+B: Kerr (Merry Melodies), vol. 2; No. 271, pg. 29
+B: White's Unique Collection, 1896; No. 42
+M: 6/8
+L: 1/8
+K: Edor
+   E/F/ \
+| "Em"GEE BEE | GEG BAG | "D"FDD ADD | dcd AGF \
+| "Em"GEE BEE | GEG B2c | "D"dcd AGF | "Em"GEE E2 :|
+|: B \
+| "Em"Bcd e2f | e2f edB | Bcd e2f | edB "D"d2B \
+| "Em"Bcd e2f | e2f edB | "D"dcd AGF | "Em"GEE E2 :|
+
+%%sep 1 1 500
+
+X: 44
+T: the Tenpenny Bit
+O: Trad, Ireland
+R: jig
+S: O'Neill's "1850" (Music of Ireland), 1903
+B: Harding’s "All Round Collection" 1905, under the title “Made in Ireland”
+N: Similar to The Three Little Drummers
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: ADor
+   e \
+| "Am"eAA eAA | "G"BAB GBd | "Am"eAA eAA | "G"def g[af]g \
+| "Am"eAA eAA | "G"BAB GBd | "G"edB g[dB]B | "G"BAG "Am"A2 :|
+|: B \
+| "Am"A2a aga | "G"bge dBG | "Am"A2a aga | "G"bge g2d \
+| "Am"e2a aga | "G"bge dBd | "G"edB g[dB]B | "G"BAG "Am"A2 :|
+%%text A major chords work just as well.
+
+%%sep 1 1 500
+
+X: 45
+T: Tenpenny Bit
+O: Trad Ireland
+R: jig
+B: NEFR #10
+B: Harding’s "All Round Collection" 1905, under the title “Made in Ireland”
+N: Similar to The Three Little Drummers
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: ADor
+|:\
+"Am"eAA eAA | "G"BAB GBd | "Am"eAA eAA | "G"def g[af]g |\
+"Am"eAA eAA | "G"BAB GBd | "G"edB gdB | BAG "Am"A3 ::
+"Am"eaa aga | "G"bab ged | "Am"eaa aga | "G"bab g2d |\
+"Am"eaa aga | "G"bab ged | "G"def gdB | BAG "Am"A3 :|
+
+%%sep 1 1 500
+
+X: 46
+T: the Top of Cork Road
+R: jig
+O: 1798
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+B: "Rinnci na h-\'Eireann" Elizabeth Burchenal, ed. G.Schirmer (1925) p.88
+N: Similar to The Yorkshire Lasses (NE England 1778)
+M: 6/8
+L: 1/8
+%Q: 3/8=126
+K: D
+f/e/ \
+| "D"dAF DFA | "G"Bed "A7"cBA | "D"dcd "A7"efg | "D"fdf "A"ece \
+| "D"dAF DFA | "G"Bed "A7"cBA | "D"dcd "A7"efg | "D"fdd    d2 :|
+|: g \
+| "D"fdf fga | "A"ecd efg | "E7"dcd     fed | "A"cAA A2c \
+| "G"BGB Bcd | "D"AFA ABc |  "D"dcd "A7"efg | "D"fdd d2 :|
+
+%%sep 1 1 500
+
+X: 47
+T: the Weaver and His Wife
+N: Nottingham Music Database
+C: Andrew Rankine
+M: 6/8
+K: A
+E \
+| "A"E2E E>AB | c3 A3 | c3 A2c | e>dc "Bm"B3 \
+| "E7"E2E E>Bc | d3 B2G | E2e d>cB |1 "A"c3- c2 :|2 "A"A3 -A2 ||
+|: "(E)"G/F/ \
+| "A"E>Ac e3 | E>Ae c3 | E>Ac edc | "Bm"d3 -d>Bc \
+| "E7"d>ed B>dB | G3 F3 | E2e d>cB |1 "A"c3 -c2 :|2 "A"A3 -A2 |]
+
+%%sep 1 1 500
+
+X: 48
+T: Mrs. MacPherson of Cluny
+T: the Wild Geese
+C: Joseph Lowe (1791-1866)
+%date:1844
+N: Published about 1844-45
+R: jig
+M: 6/8
+L: 1/8
+K: A
+e |\
+"A"c2e ece | "D"fga "A"ecA | "A"c2e ecA | "E7"GAB Bcd \
+| "A"c2e ece | "D"fga "A"ecA | "E"Bcd efg | "A"aec A2 :|
+(3e/f/g/ \
+| "A"a3 Ace | "D"aga "A"ecA | "Bm"dcB fdB | "E7"bge efg \
+| "A"a3 Ace | "D"aga "A"ecA | "E"Bcd efg | "A"aec A2 ||
+(3e/f/g/ \
+| "A"a3 Ace | "D"aga "A"ecA | "Bm"dcB fdB | "E7"bge efg \
+| "A"a2e ece | "D"fga "A"ecA | "E"Bcd efg | "A"aec A2 |]

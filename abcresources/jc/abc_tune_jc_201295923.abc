@@ -1,0 +1,17 @@
+X: 762
+T: Katie's Fancy   #2
+R: jig
+%S: s:5 b:17(5+4+4+4)
+B: O'Neill's 1850 "Music of Ireland" #762
+O: F.O'Neill
+Z: Stephen Foy (shf@access.digex.net)
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play (A1A2)x2 + (BA2)x2 + (CD)x2
+%: abc 1.6
+M: 6/8
+K: G
+G/E/ "^A"|: DEF G2A | Bgf efg | dBG FGA |[1,3 BGB AFD :|[2,4 BGG G2 :|
+"^B"|: d | gfe agf | gfe dBG | gfe dcB | AGA BG"^->A2"E |]
+"^C"|: d | dgf gab | eag fed | bag fag | fge d2 ||
+"^D"|| d | ece gfe | dBG DGB | cAF DFA | BGG G2 :|

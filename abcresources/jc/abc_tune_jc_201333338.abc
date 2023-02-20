@@ -1,0 +1,13 @@
+X:637
+T:Saint Albans
+C:Henry Playford, 1701
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=120
+M:6/8
+L:1/8
+%%MIDI ratio 3 1
+K:F
+|: "F"c2c "Bb"f>ed | "F"c2B A3 | "F"cAF "Gm"dBG | "F"fcd A>GF |\
+"F"cAc "Bb"f>ed | "F"c2B A2c | "D7"dAc "G"=BdG | "G7"gdf "C"e>dc :|
+|: "C"gec g2c | "Dm"afd a2d | "A7"ge^c Aad | "A7"gef "Dm"e2d |\
+"F"Acf "Gm"Bdg | "Am"cea "Bb"dfb | "C7"g>fg "F"cAF | "F"f>ga g2f :|

@@ -1,0 +1,25 @@
+X: 10214
+T: AIR FROM THE OPERA OF "NIOBE."
+C: Pacini.
+Q: "Andante."
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.21 #4
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The "Sym." inside ending/alternate brackets is a mystery; "[....]" used to mark the ends of the brackets.
+M: 6/8
+L: 1/8
+K: Bb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F !p!|\
+(Fd)c B2c | (BA)G F2F |\
+(FD)d (fe)"^cres."c | [BB2]"^[.."FB "^Sym"dcB |\
+"^..]"A2!pp!d d/e/d/c/ B/A/ | B2G/G/ _A>cd/e/ |\
+ed/ D/ G/A/ B2{B}A | G"^[.."{^F}G"^Sym"{F}G "^..]"=F2!pp!F |
+(Fd)c B2c | (BA)G FzF/F/ |\
+(FD)B (BF)d | (de)z/d/ (cd)c |\
+B2"^[.."_G/>G/ F2 e/>e/ | d2"^Sym."_d c=dc |\
+cdc "^..]"B2 z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

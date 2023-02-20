@@ -1,0 +1,13 @@
+X:781
+T:Seely Simpkins
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 78
+M:2/4
+L:1/16
+Q:1/4=100
+K:Em
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+(3(B^c^d)|Te3d B=cBA|GABG E3F|GG~G2 BGdB|GG~G2 BGdB|Te3d BcBA|
+GABG E3f|gfge fgfd|B2e2e2::ef|gBeg bc'ba|gBeg bc'ba|
+fAdf abag|fAdf a3f|gfga b2ag|fefg a2fa|gfge fgfd|B2e2e2:|

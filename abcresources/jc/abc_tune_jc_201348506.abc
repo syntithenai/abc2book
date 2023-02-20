@@ -1,0 +1,13 @@
+%%staffwidth 300
+X:1
+T: TEST: Vocal SB,, score.
+N: All parts written "on the staff" with commas.
+N: All parts should show scale from C below to above staff.
+K: C
+V:1 name="soprano" clef=treble   middle=B
+V:4 name="bass"    clef=bass     middle=D,
+%
+[V:1] | CDEF GABc | cdef gabc' |
+w:  C D E F  G A B c |  c d e f  g a b c' |
+[V:4] | C,,D,,E,,F,, G,,A,,B,,C, | C,D,E,F, G,A,B,C |
+w:  C,, D,, E,, F,,  G,, A,, B,, C, |  C, D, E, F,  G, A, B, C |

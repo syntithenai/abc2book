@@ -1,0 +1,12 @@
+X: 1
+T: Babes in the Wood  #2
+R: polka,reel
+Z: id:hn-polka-104
+M: 2/4
+L: 1/16
+F: http://norbeck.nu/abc/i/hnp1.abc	 2009-09-16 23:11:38 UT
+K: D
+|: "D"ABAG F2A2 | d2e2 f4  | "A7"g2ag f2e2 | "D"d2f2    a4   \
+|  "D"ABAG F2A2 | d2e2 f4  | "A7"g2ag f2e2 | "D"d4      d4  :|
+|: "A"e3f  e2d2 | c2e2 a4  |     e3f  e2f2 | "G"g2e2 "A"cBA2 \
+|  "A"e3f  e2d2 | c2e2 a3f | "E7"e2d2 c2B2 | "A"A4      A4  :|

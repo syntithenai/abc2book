@@ -1,0 +1,29 @@
+X: 15
+T: Pope Joan
+%R: waltz
+B: "Le Sylphe, Twenty Four Country Dances with Figures for the Year 1818", Button & Whitaker, p.8 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1818
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 3/8
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ef |\
+g2(fe)(fd) | c2(Ge)c2 | d2(Gf)d2 | e2(cdef) |\
+g2(fe)(fd) | c2(Ge)c2 | d2(Gf)d2 | c4 :|
+|: (ec) |\
+(Bd) g3f | (eg) c'3a | gd g3f | eg c'3a |\
+g2(fe)(fd) | c2(Ge)c2 | d2(Gf)d2 | c4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center WALTZ FIGURE        (Each strain repeated)
+%%begintext align
+%% The 1st Lady turns 2d Gent: a la waltz 1st Gent: turn 2d Lady
+%% a la waltz |: & whole poussette with sauteuse step |: .
+%%endtext
+%%center COUNTRY DANCE FIGURE        (Each strain repeated)
+%%begintext align
+%% Hands 3 round on the Ladies side hands 3 round on the Gent:
+%% side |: down the middle up again half poussette with top Cu: |: .
+%%endtext
+%%sep 1 1 450

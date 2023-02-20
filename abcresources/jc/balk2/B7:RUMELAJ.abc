@@ -1,0 +1,15 @@
+X: 427
+T:Rumelaj
+O:Hungary Macedonia Romani Gypsy
+F: http://www.youtube.com/watch?v=FL-U3EK32OI
+F: http://www.youtube.com/watch?v=6h4Q5HP_g5s
+F: http://www.youtube.com/watch?v=nqncjQf8j60
+M:4/4
+L:1/8
+Q:1/4=108
+K:DDor
+%%MIDI gchord fzzzfzzz
+%%MIDI bassprog 115
+%%MIDI program 65
+|:"D" G2^FG FGE2 |F2EF EFD2 |DEFG AGFE|DE2E E2E2 :|
+|:EA2^G AGAG     |A^GAG AGFE|DF2F GFED|DE2E E2E2 :|

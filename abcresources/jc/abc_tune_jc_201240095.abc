@@ -1,0 +1,26 @@
+X: 364
+T: the Warld's gane o'er me now.   a Reel.
+C: Old.
+O: Communicated by J. Allardyce.
+R: slip-jig
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c." p.36 #4 (and top staff on p.37)
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+Q: "Moderato"
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+f !segno!|\
+{f}Te2A Tc2A BGB | eAe (Tc2B/c/) d2f | {f}e2A cac BGB | A>BA {de}Tf2e {c}d2 :| f | efa efd cBA | efa {f}edc ~d2f |
+efa efd cde | Tf2d edc ~d2f || efa efd cBA | (f/e/d/e/f/^g/) aec ~d2f | efa efd cde | fdf ecA [dd3]ef !segno!|]
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z !segno!|\
+a3 a3 g3 | a3 A3 d3 | c3 A3 g3 | f2d a2A d2 :| z | A3 a3 a3 | a3 A3 d3 |
+A3 a3 a3 | d3 A3 d3 || A3 a3 a3 | a3 A3 d3 | a3 c'2b a2c' | d'3 a3 d3 !segno!|]
+% = = = = = = = = = =

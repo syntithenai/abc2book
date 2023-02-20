@@ -1,0 +1,30 @@
+X: 401
+T: Robinslaw
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.40#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: jig
+M: 6/8
+L: 1/8
+K: C
+V: 1
+G |\
+c2c {d}cBc | d2d ~def | (ec).B (Ad).c | ~c3 B2.G |\
+c2c {d}cBc | d2d def | (ge).c .G(cB) | c3- c2 :|
+(e/f/) |\
+g2g (gab) | c'2c' (c'b).a | (gfe) (fa).c | (~c3 B2)e/f/ |\
+g2g (gab) | (c'b).a (gf).e | (df).a (Bc).d | c3 ~c2 ||
+e/f/ |\
+(ge).g (gab) | (c'b).a (gf).e | (de).f .A(dc) | (~c3 B2)G |\
+!f!c2c (AF).D | (Bc).d (e2f) | (g<e)c A2~B | c3 c2 |]
+V: 2 clef=bass middle=d
+z |\
+ceg c3 | Bdg G2z | c2e f2^f | gdB G2z |\
+ceg c3 | GBd g3 | c2e g2G | cGE C2 :|
+z |\
+c'3 b2g | c'3 c3 | c2e f2^f | gbd' g2z |\
+c'ba b2g | c'2c c'2_b | a2f g2G | cGE C2 ||
+z |\
+c'3 b2g | c'3 e'd'c' | b2g f2^f | gdB G2z |\
+c2e f2^f | g2b c'2b | c'2c f2g | c'ge c2 |]

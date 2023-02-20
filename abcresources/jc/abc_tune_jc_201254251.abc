@@ -1,0 +1,47 @@
+
+X: 1
+T: Tino Mori
+O: Macedonia
+S: Deborah Jones ,1982 Vancouver Folk Dance Club
+Z: Chords modified by John Chambers
+M: 7/8
+L: 1/8
+K: G
+|: "G"G3-G2 [G2d2] | [G2d2] [Ec] [D2B2] [D2A2] | "C"[E3c3]  "G"[D4B4] | "D7"[C3A3] "G"[B,4G4] |
+w: 1.Bog* da bi-**e, Ti-no mo-ri,
+w: 2.\vSto mi te ar-*ma-*sa-ja, Ti-no,
+w: 3.Dur* no Gev-*ge-*li-ja, Ti-no,
+w: 4.Nad** gla-*va mu sto-ji, Ti-no,
+| "G"[D2B2] [Ec]  ([F2d2] [Ec][DB]) | "D7"[C3-A3-][C2A2] [D2B2]| ([C2A2] [B,G]) "G"[B,2-G2-][B,2G2] | [B,3G3] [B,4G4]|
+w: Ti-no mo-ri,* tvoj-*ta sta-*ra* maj-ka,
+w: Ti-no mo-ri,* mo\vc-nu* na* da-*le-ku,
+w: Ti-no mo-ri,* za del-jot tu-run-d\vzu-la,
+w: Ti-no mo-ri,* truj-*\vca i-*kim-*d\vzi-ji,
+| "C"[E3c3]  "G"[D4B4] | "D7"[C3A3]  "G"[B,4G4] | [D2B2] [Ec] [F2d2] [Ec][DB] | "D7"[C3-A3-][C3A3] [D2B2]|
+w: Ti-no mo-ri, Ti-no mo-ri,* tvoj-*ot
+w: Ti-no mo-ri, Ti-no mo-ri,* dur* na
+w: Ti-no mo-ri, Ti-no mo-ri,* za del-jot
+w: Ti-no mo-ri, Ti-no mo-ri,* truj-*\vca
+| "D7"([C2A2] [B,G]) "G"[B,4G4]| [D3B3] "D7"([CA][DB] [CA][CG]) | "G"[B,3-G3-][B,2-G2-][B,2-G2-] | [B,3-G3-] [B,2G2] z2 :|
+w: sta-*ri tat-ko*** de.
+w: Gev-*ge-li-ja*** de.
+w: tu-*run-d\vzu-la,*** de.
+w: i-*kim-d\vzi-ji,*** de.
+|: "G"GDG  "D7"A2 AG | "G"B2 A "D7"A2 AG| "G"Bcd "D7"B2 AG | "G"GDG "D7"A2 AG | "G"B2 A "D7"A2 AG | "G"G3 G2 z2 :|
+
+%%sep 1 1 500
+
+X: 1
+%%staffsep 40
+T: Tino Mori
+O: Macedonia
+S: Deborah Jones ,1982 Vancouver Folk Dance Club
+Z: Chords modified by John Chambers
+M: 7/8
+L: 1/8
+K: A
+|: "A"A3-A2 [A2e2] | [A2e2] [Fd] [E2c2] [E2B2] | "D"[F3d3]  "A"[E4c4] | "E7"[D3B3] "A"[C4A4] |
+| [E2c2] [Fd]  [G2e2] [Fd][Ec] | "E7"[D3-B3-][D2B2] [E2c2]| [D2B2] [CA] "A"[C2-A2-][C2A2] | [C3A3] [C4A4]|
+| "D"[F3d3]  "A"[E4c4] | "E7"[D3B3]  "A"[C4A4] | [E2c2] [Fd] [G2e2] [Fd][Ec] | "E7"[D3-B3-][D3B3] [E2c2]|
+| [D2B2] [CA] "A"[C4A4]| [E3c3] "E7"[DB][Ec] [DB][DA] | [C3-A3-][C2-A2-][C2-A2-] | [C3-A3-] [C2A2] z2 :|
+|: "A"AEA  "E7"B2 BA | "A"c2 B "E7"B2 BA| cde "E7"c2 BA | "A"AEA "E7"B2 BA | c2 B "E7"B2 BA | "A"A3 A2 z2 :|

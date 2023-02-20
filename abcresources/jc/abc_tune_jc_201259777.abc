@@ -1,0 +1,23 @@
+X: 33
+T: The Cape Breton Fiddlers' Welcome to the Shetland Isles.
+R: Reel
+C: W. Hunter (1982)
+N: Play AABBAABB', where B' is B with the coda
+A: Cape Breton
+B: Sandy Macintyre's lesson book
+Z: WM - 1 Dec 1996
+M: 4/4
+K: A
+"^A"|: AF !segno!|\
+E>C C/C/C ~C2 B,C | A,B,CE ~FECE |\
+F>B B/B/B BcBA | Bffe f2fg |\
+a>c c/c/c e>A A/A/A | cBAF E>C C/C/C |
+FGAF Eaaf | ecBc A2 \
+"^B":: fg |\
+a>e e/e/e efed | c>e e/e/e fece | b>f f/f/f fgfe |
+defd B2 !coda!fg |\
+a>e e/e/e efed | c>e e/e/e fece |\
+[1 fdge afed | cdBc A2 :|\
+[2 fdec dBcA | Bagf eAG!segno!F |]
+y8 "Coda:"y8 !coda!ed |\
+cdBc ABGA | FGEF DECD | B,CDE F^ABc | defg Ha4 |] x8 x8 x8 x8 x8 % x8 x8 x8

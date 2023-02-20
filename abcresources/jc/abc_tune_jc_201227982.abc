@@ -1,0 +1,31 @@
+X: 11023
+T: COTILLION No. 17. Porter Sett tune 3
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.102 #2 (and p.103 #1)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: It's not obvious why the last 4 bars are written low, with an "8va . . ." annotation.
+M: 2/4
+L: 1/16
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!mf!B2 |\
+e4 (Bege) | f2f2 f4 | (gf)ga (bg)fe | (b=a)bc' (b_agf) |!f!\
+e4 (Bege) | f2f2 f3a | (gb)ge (fb)af | e2e2e2 H|]
+!p!F2 |\
+B2=A2B2F2 | d2^c2d2B2 | f2.g.f (ed).c.B | (=AB).c.A .F2(GA) |\
+B2=A2B2F2 | d2^c2d2B2 | (G2e2)c2=A2 | (B2=A2_A2"^D.C."F2) |]
+!p!D2 |\
+C2c2c2=B2 | G2g2g2f2 | e2d2c2=B2 | cdec G4 !f!|\
+"8va  .  .  .  ."\
+G,2C2E2C2 | =B,2D2 F4 | G2F2D2=B,2 | C=B,CD CD_E"^D.C."F |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across partners and back,
+%% all balance partners and turn,
+%% grand chain,
+%% all promenade.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

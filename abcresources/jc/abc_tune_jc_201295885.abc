@@ -1,0 +1,36 @@
+
+X: 1
+T: Katia
+O:Russia
+M:2/4
+L:1/8
+Q:1/4=120
+K:Ador
+|: "Am"E2   E2 |     c2 c2  | "Em"B2 "Am"AG | "B#m"F2 "Am"E2 :|\
+|: "Am"c2 "Em"B2 | "Am"AA E2 |     Ac "Em"BA |   "C"GF "Am"E2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Katia
+O:Russia
+M:2/4
+L:1/8
+Q:1/4=120
+K:Edor
+|: "Em"B2   B2 |     g2 g2  | "Bm"f2 "Em"ed | "F#m"c2 "Em"B2 :|\
+|: "Em"g2 "Bm"f2 | "Em"ee B2 |     eg "Bm"fe |   "G"dc "Em"B2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Katia
+O:Russia
+M:2/4
+L:1/8
+Q:1/4=120
+K:Edor
+|: "Em"B,2   B,2 |     G2 G2  | "Bm"F2 "Em"ED | "F#m"C2 "Em"B,2 :|\
+|: "Em"G2 "Bm"F2 | "Em"EE B,2 |     EG "Bm"FE |   "G"DC "Em"B,2 :|

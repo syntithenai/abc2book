@@ -1,0 +1,17 @@
+X:1
+T:Trommelvalsen
+R:waltz
+M:3/4
+L:1/8
+Q:1/4=150
+K:G
+P:A
+|:(dc) |
+| "G"  (Bd)(gB)(gB) |(bB)(gB)(gB)|"D"(Ad)(fA)(fA)\
+|      (aA)(fA)(fA)|"G"(Bd)(gB)(gB)|(bB)(gB)(gB)\
+|  "D" (.A.d.f.A.d.f|"G" g4 :|
+P:B
+|: d2  |
+| "G" .e.d.B.d.g.e |.e.d.B.d.c.d|"D" .A.d.B.d.c.d |.A.d.B.d.c.d\
+| "G" .e.d.B.d.g.e |.e.d.B.d.c.d|"D" .A.d.e.d.e.f |"G" g4 :||
+

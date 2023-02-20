@@ -1,0 +1,55 @@
+X: 1
+T: Yismechu hashamayim  [Cm]
+C: Psalm 96:11
+O: Trad Hassidic
+M: C
+L: 1/8
+K: Cm
+"A"\
+|: "Cm"CC G,C E2 "G7"D2 | "Cm"C6 "Bb7"z2 | "Eb"EE B,E G2  "Bb7"F2 | "Eb"E6 z2 |\
+| "Eb"GG EG B2 "C7"(AG) | "Fm"(F4 c3) E | "Cm"(GF) (FE) "G7"(ED) (DC) | "Cm"C6 "fine"z2 :|
+"B"\
+|: "Cm"(EF) "Fm"FE "Cm"E4 | "Cm"(EF) "Fm"FE "Cm"E4 |  "Cm"(EF) "Fm"FE "Cm"(ED) DC |1 "Fm"F2 "Cm"E4 z2 :|2 "G7"(DE) "Cm"C4 z2 ||
+"C"\
+|: "Eb"(GA) "Bb7"AG "Eb"G4 | "Eb"(GA) "Bb7"AG "Eb"G4 |  "Eb"(GA) "Bb7"AG "Eb"(GF) FE |1 "Bb7"A2 "Eb"G4 z2 :|2 "Bb7"(GF) "Eb"(E4 "G7"D2) |]
+%%text Sometimes ends with another part B.
+
+X: 2
+T: Yismechu hashamayim
+C: Psalm 96:11
+O: Trad Hassidic
+M: C
+L: 1/8
+K: Dm
+"A"\
+|: "Dm"DD A,D F2 "A7"E2 | "Dm"D6 "C7"z2 | "F"FF CF A2  "C7"G2 | "F"F6 z2 |
+w: Yis-me-chu ha-sha-ma-yim, Yis-me-chu ha-sha-ma-yim,
+| "F"AA FA c2 "D7"(BA) | "Gm"(G4 d3) F | "Dm"(AG) (GF) "A7"(FE) (ED) | "Dm"D6 "fine"z2 :|
+w: Yis-me-chu ha-sha-ma-*yim* ve- ta-*ge-il ha-*a-*rets.
+"B"\
+|: "Dm"(FG) "Gm"GF "Dm"F4 | "Dm"(FG) "Gm"GF "Dm"F4 |  "Dm"(FG) "Gm"GF "Dm"(FE) ED |1 "Gm"G2 "Dm"F4 z2 :|2 "A7"(EF) "Dm"D4 z2 ||
+w: Yir-*am ha-yam,  yir-*am ha-yam, yir-*am ha-yam* u-me- lo-o. lo-*o.
+"C"\
+|: "F"(AB) "C7"BA "F"A4 | "F"(AB) "C7"BA "F"A4 |  "F"(AB) "C7"BA "F"(AG) GF |1 "C7"B2 "F"A4 z2 :|2 "C7"(AG) "F"(F4 "A7"E2) |]
+w: Yir-*am ha-yam,  yir-*am ha-yam, yir-*am ha-yam* u-me- lo-o. lo-*o.
+%%text Sometimes ends with another part B.
+
+X: 3
+T: Yismechu hashamayim
+C: Psalm 96:11
+O: Trad Hassidic
+M: C
+L: 1/8
+K: Em
+"A"\
+|: "Em"EE B,E G2 "B7"F2 | "Em"E6 "D7"z2 | "G"GG DG B2  "D7"A2 | "G"G6 z2 |
+w: Yis-me-chu ha-sha-ma-yim, Yis-me-chu ha-sha-ma-yim,
+| "G"BB GB d2 "E7"(cB) | "Am"(A4 e3) G | "Em"(BA) (AG) "B7"(GF) (FE) | "Em"E6 "ginf"z2 :|
+w: Yis-me-chu ha-sha-ma-*yim* ve- ta-*ge-il ha-*a-*rets.
+"B"\
+|: "Em"(GA) "Am"AG "Em"G4 | "Em"(GA) "Am"AG "Em"G4 |  "Em"(GA) "Am"AG "Em"(GF) FE |1 "Am"A2 "Em"G4 z2 :|2 "B7"(FG) "Em"E4 z2 ||
+w: Yir-*am ha-yam,  yir-*am ha-yam, yir-*am ha-yam* u-me- lo-o. lo-*o.
+"C"\
+|: "G"(Bc) "D7"cB "G"B4 | "G"(Bc) "D7"cB "G"B4 |  "G"(Bc) "D7"cB "G"(BA) AG |1 "D7"c2 "G"B4 z2 :|2 "D7"(BA) "G"(G2 "B7"F2) |]
+w: Yir-*am ha-yam,  yir-*am ha-yam, yir-*am ha-yam* u-me- lo-o. lo-*o.
+%%text Sometimes ends with another part B.

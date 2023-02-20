@@ -1,0 +1,27 @@
+X: 8
+T: Jaque's Ramble
+%R: jig
+B: Kitty Bridges "Collection of Country Dances 1745" p.8
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-bridges1745
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+Acc Bdd | Acc d2f |\
+e>dc Bcd | cAA A2 E :|\
+|:\
+A/B/c/d/e/f//g// Ha3 | fdd d3 |
+B/c/d/e/f/g//a// Hb3 | gee e3 |\
+A/B/c/d/e/f//g// Ha3 | fdd def |\
+cAA dBB | cAA A3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center Jaque's Ramble
+%%begintext align
+%%   Cast back One Coup.l and turn y.r Part.r
+%% then cast back the 2d Coup.l and turn y.r Part.r
+%% cross up two Coup.l and fall back into the 2d
+%% Coup.l's places, then right and left with the
+%% third Couple.
+%%endtext

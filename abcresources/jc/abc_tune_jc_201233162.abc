@@ -1,0 +1,32 @@
+X: 188
+T: Cynthia's Sceptre
+T: Longways &c.
+%R: jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.94
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed to match the dance.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+B2B Bcd | A2A ABc | Bcd ABc | B2A/G/ G2B/^c/ |\
+d2A B2A | G2F E2A | d2^c/B/ A2G/F/ | E2D D2 :|
+|: d |\
+d2c/B/ A2B/c/ | B2A/G/ A2d | d2c/B/ A2B/c/ | F2E/D/ D2G |\
+G2D E2A | A2E F2d | d2c/B/ ABc | B2A/G/ G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Take hands all four and turn backwards and for
+%% wards, then 1st Man and 2d Wo. change places and
+%% go half round .| the other Cu. do the same :| then
+%% the two Men clap twice sides, and once to their
+%% partners, and right and left quite round .| then
+%% the 1st Cu. being at the top, the Man takes his
+%% partner and leads her down between the 2d Cu
+%% and back again, then cast off, and lead thro' the 3d
+%% Cu. and cast up and turn :|
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

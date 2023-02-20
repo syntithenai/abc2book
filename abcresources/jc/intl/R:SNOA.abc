@@ -1,0 +1,19 @@
+X: 52
+T:Snoa
+O:Sweden
+M:2/4
+L:1/8
+Q:1/4=180
+K:D
+%%MIDI gchord zf
+%%MIDI program 41
+%%MIDI bassprog 33
+FG|\
+|:"D"AB GA|"F#"FG FE|"D"D2 f2|"F#"fe f2|
+  "D"A2 e2|"A"ed e2|[1A2 d2|dc FG:|[2"D" d2 f2|d2 FG|
+|:"D"AB GA|"F#"FG FE|"D"D2 f2|"F#"fe f2|
+  "D"A2 e2|"A"ed e2|[1A2 d2|dc FG:|[2"D" d2 f2|d2 FG|
+|:"A"e2 ed|e2 e2|"D"de dc|B2z2|[1de dc|B2 f2|
+  fe fe|c2 cd:|[2"D"Ba ^gf|"E"ed cB|"A"A4| A4|
+|:"A"e2 ed|e2 e2|"D"de dc|B2z2|[1de dc|B2 f2|
+  fe fe|c2 cd:|[2"D"Ba ^gf|"E"ed cB|"A"A4| A4|

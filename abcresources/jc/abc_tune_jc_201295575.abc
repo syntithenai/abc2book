@@ -1,0 +1,65 @@
+
+X: 1
+T: Kanonwalzer
+R: waltz
+O: Austria
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+P: Play the 3 parts as a round.
+M: 3/4
+L: 1/8
+K: C
+"A"\
+|: "G7"GF \
+| "C"EG Gc cG | EG Gc c2 | "G7"Bd df fa | "C"ag ge cG \
+| "C"EG Gc cG | EG Gc c2 | "G7"Bc de fB | "C"c4 :|
+|: dc \
+| "G"Bd df fa | "C"ag ge ec | "G7"g^f ag =fd | "C"c2 ec G2 \
+| "G"Bd df fa | "C"ag ge ec | "G7"g^f ag =fd | "C"c4 :|
+"B"\
+|: "G7"G,2 \
+| "C"C2 E2 G2- | G2 c2 e2 | "G7"dB BG FD | "C"C4 G,2 \
+| "C"C2 E2 G2- | G2 c2 e2 | "G7"dc dG FD | "C"C4 :|
+|: G2 \
+| "G"G2 f2 d2 | "C"G2 e2 c2 | "G7"G2 dB GB | "C"c2 cd ec \
+| "G"G2 f2 d2 | "C"G2 e2 c2 | "G7"G2 Bc dB | "C"c4 :|
+"C"\
+|: "G7"ED  \
+| "C"CE G2 AB | c2 e2 g2 | "G7"g_g f4 | "C"e2 c2 A2 \
+| "C"GE C2 A,2 | G,4 G2 | "G7"G,2 B,C DF | "C"E4 :|
+|: fe \
+| "G7"dc BA GF | "C"EF G4 | "G7"ED F4 | "C"DC G,4 \
+| "G7"DF FA AB | "C"cd ce g2 | "G7"b_b a2 g2 | "C"c4 :|
+
+
+%%sep 3 1 500
+
+X: 2
+T: Kanonwalzer
+R: waltz
+O: Austria
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+P: Play the 3 parts as a round.
+M: 3/4
+L: 1/8
+K: D
+"B"\
+|: "A7"AG \
+| "D"FA Ad dA | FA Ad d2 | "A7"ce eg gb | "D"ba af dA \
+| "D"FA Ad dA | FA Ad d2 | "A7"cd ef gc | "D"d4 :|
+|: ed \
+| "A"ce eg gb | "D"ba af fd | "A7"a^g ba =ge | "D"d2 fd A2 \
+| "A"ce eg gb | "D"ba af fd | "A7"a^g ba =ge | "D"d4 :|
+"C"\
+|: "A7"A,2 \
+| "D"D2 F2 A2- | A2 d2 f2 | "A7"ec cA GE | "D"D4 A,2 \
+| "D"D2 F2 A2- | A2 d2 f2 | "A7"ed eA GE | "D"D4 :|
+|: A2 \
+| "A"A2 g2 e2 | "D"A2 f2 d2 | "A7"A2 ec Ac | "D"d2 de fd \
+| "A"A2 g2 e2 | "D"A2 f2 d2 | "A7"A2 cd ec | "D"d4 :|
+"D"\
+|: "A7"FE  \
+| "D"DF A2 Bc | d2 f2 a2 | "A7"a_a g4 | "D"f2 d2 B2 \
+| "D"AF D2 B,2 | A,4 A2 | "A7"A,2 CD EG | "D"F4 :|
+|: gf \
+| "A7"ed cB AG | "D"FG A4 | "A7"FE G4 | "D"ED A,4 \
+| "A7"EG GB Bc | "D"de df a2 | "A7"c'=c' b2 a2 | "D"d4 :|

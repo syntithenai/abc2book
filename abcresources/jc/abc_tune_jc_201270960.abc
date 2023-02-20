@@ -1,0 +1,38 @@
+X: 1
+T: Duke of Lorrain's March
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.68
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The "K:Dmix" key is overly-specific, since there are no c or c sharp notes in the tune.
+M: C|
+L: 1/8
+K: Dmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[| d2dd d2d2 | d4 d4 | e2f2 g2fe | f8 | a2aa a2a2 | f4 f4 | e2f2 g2fe | f8 |]
+[| f2ff f2ff | f4 a4 | f2ef gf ed | e2fg a2g2 | (f3e/f/) g2f2 | e2d2 ag fe | d2dd d2d2 | d8 |]
+% - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up all and fall back, that again :| Set to your own and fall back, then arms with your own :|:|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. man and 2. wo. walk round their own and stand before them, then go on the Hey till the 1. wo. and 2. man meet
+%% each other, then give right hands to each other and left-hands to your own, the 1. cu. being in the 2. cu. place, and the
+%% 2. cu. in the 1. cu. place, then take hands all four and go round. Do this to all, the rest following :|:|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The two first men take hands and go to the wall, and their we. following them and fall back betwixt them, then take hands
+%% and fall back, the 1. and 2. man give hands behind them and go half round, the 1. cu. being in the 2. cu. place, and
+%% the 2. cu. in the 1. cu. place, then arms with your own. Do this to all, the rest following .:|.:|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The two first we. lead to the wall, and their men follow them and fall betwixt them, then the 1. and 2. wo. lead their men
+%% round into their own places, the 1. man and 2. wo. change places, and the 1. wo. and 2. man change places, then take
+%% hands all four and go half round, and the 1. cu. cast off into the 2. cu. place. Do this to all, the rest following.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

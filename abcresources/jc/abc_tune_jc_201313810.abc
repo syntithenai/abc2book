@@ -1,0 +1,28 @@
+X: 1
+T: Mr Lane's Minuet 
+P: Longways for as many as will
+%R: minuet
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.174
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The actual time signature is "3i".
+N: Repeat added to satisfy "Each Strain twice" instruction.
+M: 3/4
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d3 e ^c2 | d2 A2 f2 | e2 f2 d2 | edcB A2 |\
+d3 e ^c2 | d2 A2 f2 | e2 f2 d2 | e6 :|
+|:\
+f2 c2 c2 | AB c2 c2 | d2 G2 G2 | EF G2 G2 |\
+GA B2 A2 | =Bc d2 ^c2 | de f2 (ed) | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man set to the 2. wo. and fall back, and both turn S. then the 1. wo. set to the 2. man, and fall
+%% back and turn S .| The 1. cu. cross over and go the Figure through till they come into the 2. cu. place,
+%% then lead through the 3. cu. and cast up into the 2. cu. place :|
+%% [DMDfD]
+%%endtext
+%%text Note: Each Strain is to be play'd twice.
+%%sep 1 8 500

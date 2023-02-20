@@ -1,0 +1,32 @@
+X: 14
+T: Leaving the Shepherd's Inn
+C: Donald Ridley
+B: Roy Goldring "14 Social Dances"
+P: Tune for "Thirty Years On"
+R: strathspey
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+"G"d>e "D7/A"d>B "G/B"A>G B<d | "C"g>a g>f "Gdim"e>d e<g |\
+"G"d>e "D7/A"d>B "G/B"A>G B<d | "D7"f>g f>e "D7/A"(3dcB (3ABc |
+"G"d>e "D7/A"d>B "G/B"A>G B<d | "C"g>a g>f "Gdim"e>d e<g |\
+"D7"f>g f>d "D7/F#"c<A F>G | "Cm"A2 G2 "G"G2 F>G ||
+"D"A>B A>G "F/F#"F<D F<A | "G"d>e "D7/A"d>B "G/B"A<G B<d |\
+"D"(3fag (3fed "A7"e<g ^c<e | "D"d>e f>e "D7/F#"d>c B<c |
+"G"d>e "D7/A"d>B "G/B"A>G B<d | "C"g>a g>f "Gdim"e>d e<g |\
+"D7"f>g f>d "D7/F#"c<A F>G | "Cm"A2 G2 "G"G2 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+[g2G2] [f2A2] [g2B2] [d'2b2g2] | c2 [e'2c'2g2] G2 [e'2^c'2_b2g2] |\
+[g2G2] [f2A2] [g2B2] [d'2b2g2] | d2 [d'2c'2a2] A2 [d'2c'2f2] |
+[g2G2] [f2A2] [g2B2] [d'2b2g2] | c2 [e'2c'2g2] G2 [e'2^c'2_b2g2] |\
+d2 [d'2c'2a2] F2 [c'2a2d2] | c2 [_e'2c'2g2] [d'2b2g2] z2 ||
+D2 [d'2a2f2] F2 [d'2a2f2] |[g2G2] [f2A2] [g2B2] [d'2b2g2] |\
+D2 [f'2d'2a2] A2 [e'2^c'2a2g2] | d2 [f'2d'2a2] F2 [c'2f2d2] |
+[g2G2] [f2A2] [g2B2][=f'2b2g2] | c2 [e'2c'2g2] G2 [e'2^c'2_b2] |\
+d2 [c'2f2] A2 [c'2a2d2] | c2 [_e'2c'2g2] [b2g2] z2 :|

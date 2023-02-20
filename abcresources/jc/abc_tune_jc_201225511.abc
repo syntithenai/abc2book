@@ -1,0 +1,37 @@
+X: 96
+T: Lady Dillon
+C: Carolan
+%R: reel, hornpipe
+B: "The Hibernian Muse" p.60 - p.61 #1
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+P: No. XCVI.
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+F2DE F2F2 | AGTFE F2F2 | GAGC G2G2 | {B}A2FA B4 |\
+(A/B/c) Ac (B/c/d) Bd | AcAc BAGF | {F}E2DC {E}D2C=B, | C4 C4 |]
+FGAB c2c2 | d2TcB B4 | ABc2 BAGF | F2GF E2{A}G2 |\
+TG4 F2f2 | efge fedc | {c}TB2AB cBAG | {F}E2CE AGTFE | F4F4 |]\
+c'4 (b<a) (g<f) | (f<e)(f<d) (e<c)(f<e) |\
+(f<d)(e<c) defg | ag za (b<g)(a<f) & x4 z2zD |\
+z2za (b<g)(a<f) & F<DE<C z2zF | z2zb (d'<b)(c'<a) & (G<E)(F<D) z2zA |\
+z2zf (g<e)(f<d) & B<GA<F x4 | c2Te2 f4 |][M:6/8]\
+cdc cAF | {e}f3 e2d | cdc cAF | B3 TA2G |\
+(A/B/c)c cdc | {a}b3 a2g | gag gec | f3 f3 |\
+abc' c'd'c' | efg gab | agf efg | c3 c3 |\
+AFc AFc | dBf dBb | {b}agf (e/f/g)e | f3 f3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+d4 D4 | ^c2A2 d4 | e4 e2c2 | f2e2 d2B2 |\
+f2F2 B2d2 | f2F2 G2B2 | c2e2 g2G2 | c4 c4 |]
+F2f2 e2c2 | f2F2 B2d2 | f2F2 G2B2 | A2B2 c2B2 |\
+c2C2 F2a2 | c'2c2 d2f2 | g2f2 e2b2 | c'2c2 f2c2 |
+f4 F4 |] z2e2 f2F2 | B2z2 c'2z2 | b2z2 B2z2 | c2z2 x4 | x8 | x8 |\
+x4 z2b2 | c'2c2 f4 |][M:6/8]\
+f3 F3 | aga c'2b | a3 f3 | ece f2e | f3 a3 | geg f2b | c'3 c3 |
+fcA F3 | f3 a3 | c'3 c3 | f3 c'2b | c'ge cec | f3 F3 | B3 b3 | c'3 c3 | fcA F3 |]

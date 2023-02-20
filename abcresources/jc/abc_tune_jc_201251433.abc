@@ -1,0 +1,16 @@
+X: 398
+T: Behind the Bush in the Garden
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #398
+R: single jig
+%S: s:2 b:20(10+10)
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0398/oneill-1001-0398-1.abc
+M: 6/8
+L: 1/8
+K: Am
+"^A"[|] (A/B/) | c2A AGE | c2A AGE | G2G GAE | (G3 E2) \
+|| B | c2d e2a | g2e d2e | c2A BAG | A3 A2 "^B":: (A/B/) \
+| c2B c2d | efe e2d |
+| c2B c2d | e3 G2G |\
+[1 c2B c2d | efe e2d | cBA BAG | A3 A2 :|\
+[2 c2d e2a | g2e d2e | c2A BAG | A3 A2 |]

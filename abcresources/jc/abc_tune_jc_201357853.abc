@@ -1,0 +1,31 @@
+X:299
+T:Die Nachtigall
+T:(The nightingale)
+C:Franz Joseph Haydn?
+O:Austria
+N:Noone seems to know for sure who wrote this cute little catch. Both
+N:Mozart and Haydn have been mentioned, but it might be someone else
+N:as well.
+F:http://abc.musicaviva.com/tunes/haydn-franz-joseph/haydn-nachtigall/haydn-nachtigall-voca3.abc
+V:1 Program 1 40 %Violin
+V:2 Program 1 41 %Viola
+V:3 Program 1 110 %Fiddle
+M:C
+L:1/4
+Q:1/4=132
+K:Bb
+"^1"B,2C2|F2B,2|F2GE|F2B,2|
+w:Al-les schwei-get, Nach-tigal-len
+"^2"dd/d/ (f/e/)e|c>c (e/d/)d|BB/B/ (d/c/)c|AA/c/B2|
+w:lok-ken mit s\"u--\ssen Me-lodi--en. Tr\"a-nen ins Au--ge, Schwermut in Herz,
+"^3"BB/B/ (d/c/)c|A>A (c/B/)B|DD/D/ (C/E/)G|FF/E/D2:|
+w:lok-ken mit s\"u--\ssen Me-lodi--en. Tr\"a-nen ins Au--ge, Schwermut in Herz.
+W:
+W:Alles schweiget, Nachtigallen
+W:lokken mit s\"u\ssen Melodien.
+W:Tr\"anen ins Auge, Schwermut in Herz.
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

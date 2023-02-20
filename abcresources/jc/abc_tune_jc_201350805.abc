@@ -1,0 +1,41 @@
+X: 1
+T: Watton Towns End
+N: The title has "Town's" in the index, but not in the tune/dance page.
+P: Longways for as many as will
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.85 #122 (170)
+N: DMDfD has the same dance but a different setting of the tune.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+c | AFFF F2F2 | GABc dd2e | gfed d/e/f FF | GABA G2G |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up and fall back jump up all to your own,
+%% and turn S. That again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The two 1st Men and 1st We. fall back from your
+%% own and meet jump up thrice to your own and
+%% the 1st Cu. cast off into the 2d Cu. Place, while the
+%% 2d Cu. slip up into the 1st Cu. Place. Do this to
+%% all, the rest following :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1st Man and 2d Wo. change Places, then the 1st
+%% Wo. and 2d Man change Places and jump up thrice
+%% to their own, and then change Places with your
+%% own, the rest following :|
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1st and 2d Cu. take Hands and go half round
+%% and jump to your own, then change Places with
+%% your own. Do this to all the rest following :|
+%%endtext
+%%sep 1 8 500

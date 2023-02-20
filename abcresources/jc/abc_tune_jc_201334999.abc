@@ -1,0 +1,124 @@
+X: 1
+T: Scottish Quadrille Set - Part 1
+T: 4x(AABC)
+P: The Drunken Piper (Highland Rory)
+B: Scots Guards
+M: C|
+L: 1/8
+K: ADor
+e2 "A"| "Am"~A2AB e3f  | edBd      e2g2 | "G"~G2GB d3e  |     dBGB "E7"d2e2 |
+y3    | "Am"~A2AB e3f  | edBd      e2a2 | "G"~g2eg eged | "Am"B2A2     A2  :|
+e2 "B"| "Am"a4    e2a2 | edef "(D)"g2a2 | "G"~G2GB d3e  |     dBGB "E7"d2e2 |
+y2    | "Am"a4    e2a2 | edef "(D)"g2a2 | "G" g2eg eged | "Am"B2A2     A2  |]
+e2 "C"| "Am"a4    e2a2 | edef "(D)"g2a2 | "G"~G2GB d3e  |     dBGB "E7"d2e2 |
+y2    | "Am"~A2AB e3f  | edBd      e2a2 | "G"~g2eg eged | "Am"B2A2     A2  |]
+
+%%sep 10 10 500
+
+X: 2
+T: Scottish Quadrille Set - Part 2
+T: 2x(ABC)
+P: The Mist-Covered Mountain
+R: Jig
+M: 6/8
+L: 1/8
+K: ADor
+E "A" | "Am"E2A  ABd | e2A    AGE  | "G"G2G    GAB |     dBA     GED |
+   y2 | "Am"E2A  ABd | e2A "G"B^cd | "C"efg "G"dBG | "Em"BAG "Am"A3 |]
+a "B" | "Am"a>ge a2b | age    edB  | "G"AGE    G2A |     BAB     deg |
+   y2 | "Am"a>ge a2b | age    edB  | "G"AGE    G2A |     BAG "Am"A2 |]
+a "C" | "Am"a>ge a2b | age    edB  | "G"AGE    G2A |     BAB     GED |
+   y2 |  "G"EDE  G2A | BAG    B^cd | "C"efg "G"dBG | "Em"BAG "Am"A2 |]
+
+%%page
+
+X: 3
+T: Scottish Quadrille Set - Part 3
+T: 4x(AABCD)
+P: Lord Huntley's Cave
+C: J.S.Skinner
+M: C|
+L: 1/8
+K: D
+   de "A"| "D"f2A2 gfed | f2A2 d2cd |1,3 "A7"e2A2 agfe | "D"dcdf "A7"eA :|2,4 ea"A7"ca Aaca | "D"d6 :|
+|: fg "B"| "D"a3f  d2a2 | fAa2 d2cd |1   "A7"e2A2 agfe | "D"dcdf "A7"eA :|2   ea"A7"ca Aaca | "D"d6 |]
+%
+P: The Flowers of Edinburgh
+O: Trad
+M: C|
+L: 1/8
+K: G
+GE "C"| "G"D2DE G2GA | BGBd cBAG | "D7"FGFE DEFG | AFdF E2GE |
+y3    | "G"D2DE G2GA | "G"BGBd "C"efge | "G"dcBA "D7"GFGA | "G"B2G2 G2 |]
+d2 "D"| "G"g2gd gbag | "D7"f2fd fagf | "Em"~e2ef gfed | B2e2 "(C)"e2ge |
+y2    | "G"dBGB d2d2 | "C"edef g2fe | "G"dcBA "D7"GFGA | "G"B2G2 G2 |]
+
+%%sep 10 10 500
+
+X: 4
+T: Scottish Quadrille Set - Part 4
+T: 2x(ABBCC+DEEFF)
+%
+P: Behind the Haystack
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS dated 6/92
+M: 6/8
+L: 1/8
+K: D
+   A "A"| "D"d2e fdB | d2e fdB | "A7"AFE    E3  | AFE E2A \
+        | "D"d2e fdB | d2e fdB | "A7"AFD "D"D2B | AFD D2 |]
+|: A "B"| "G"B3 BAF | "A7"ABc "Bm"d2B | "A7"AFE    E3  | AFE E2A \
+        | "G"B3 BAF | "A7"ABc "Bm"d2B | "A7"AFD "D"D2B | AFD D2 :|
+|: f "C"| "G"gag "D"fgf | "Em"ede "Bm"fdB | "A7"AFE    E3  | AFE E2f \
+        | "G"gag "D"fgf | "Em"ede "Bm"fdB | "A7"AFD "D"D2B |     AFD D2 :|
+%
+P: Merrily Kiss the Quaker's Wife
+O: Eire
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+  zD "D"| "G"GAB D2B | "C"c2A AGE | "G"GAB DEG | "D"A3 AGE \
+        | "G"GAB DED | "C"c2A AGE | "G"GAB "D7"D2E | "G"G3 z |]
+|:zA "E"| "G"BGG AGG | BGG "C"AGE | "G"GAB DEG | "D"A3 AGA \
+        | "G"BGG AGG | BGG "C"AGE | "G"GAB "D7"D2E | "G"G3 z :|
+|:Bd "F"| "G"g3 "D7"a3 | "G"bge dBd | g2g gab | "D"a3- agf \
+        | "C"gag "D7"fgf | "C"efe "D7"dBA | "G"GAB "D7"D2E | "G"G3 z :|
+
+%%page
+
+X: 5
+T: Scottish Quadrille Set - Part 5
+T: 4x(ABB CDCD)
+P: Balquidder Lasses
+C:Traditional
+M:4/4
+L:1/8
+K:Edor
+BA "A"\
+| "Em"G2FG  EFGA | B2B2 e4 \
+| "D"d2A2 ABAF | DEFG A2 BA \
+| "Em"G2FG EFGA | B2B2e4 |
+| "D"d2A2 "(B7)"BAGF | "Em"E6 |] \
+B2 "B1"\
+| "Em"e2ef e2B2 | efgf e2 Bc \
+| "D"d2 de dAFA | DEFG A2B2 |
+| "Em"e2ef e2B2 | efgf e2 Bc \
+| "D"d2A2 "(B7)"BAGF | "Em"E6 |] \
+B2 "B2"\
+| "Em"e2ef e2B2 | efgf e2 Bc |
+| "D"d2 de dAFA | DEFG A2BA \
+| "Em"G2FG EFGA | B2B2 e4 \
+| "D"d2A2 "(B7)"BAGF | "Em"E6 |]
+%
+P: Father Kelley's Reel (The Rossmore Jetty)
+O: Ireland
+M: C|
+L: 1/8
+K: G
+   GA "C"| "G"B2GB "C"AGEG | "D7"DGGF "G"GABd | "Am"   c2AB      cBAG | "D7"FGAG    FDDA |
+         | "G"B2GB "C"AGEG | "D7"DGGF "G"GABd | "C"    cdef "(G)"gedc | "D7"BGAF "G"G2  |]
+[| Bc "D"| "G"d2Bd    gdBd |     d2Bd    gdBd | "C(Am)"e2ce      agfe | "D7"defg    agfe |
+         | "G"d2Bd    gdBd |     d2Bd    gdBd | "Am"   cBAc "G"  BAGB | "D7"AGFA "G"G2  :|
+

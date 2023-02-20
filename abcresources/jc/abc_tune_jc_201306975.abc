@@ -1,0 +1,21 @@
+X:183
+T: March ("duett VIII")
+N: O'Farrell's Pocket Companion v.2 (Sky ed. p.93)
+M: 2/4
+L: 1/8
+R: march
+Q: 200
+V: 1 %%MIDI program 1 73 volume=70 % flute
+V: 2 %%MIDI program 1 40 % fiddle
+K: D
+[V:1] f/g/|a>b fg|a>b fg| aa gf|e/d/e/f/ e2|
+[V:2] d/e/|f>g de|f>g de| fg ed|c/B/c/d/ c2|
+%
+[V:1] f>g de|f>g de|ff e/d/e/f/ | d>e d :|
+[V:2] d>e Bc|d>e Bc|dd c/B/c/d/ | DA F  :|
+%
+[V:1] d|ee ef|g>a gg|dd de|f>g fg|a>b fg|
+[V:2] A|cc Ad|e>B BB|DA Ac|de de |f>g de|
+%
+[V:1] a>b fg|ab/g/ fe|d>e d :|
+[V:2] f>g de|fg/e/ dc|DA  F :|

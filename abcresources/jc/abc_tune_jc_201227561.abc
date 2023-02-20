@@ -1,0 +1,28 @@
+X: 10861
+T: DUKE OF YORK'S FAVOURITE TROOP.
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.86 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Moved final rest in last bar to 3rd strain's pickup, to fix the rhythms of repeats.
+M: 3/8
+L: 1/16
+K: A
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(3(efg) !f!|\
+a2e2e2 | e3fed | c2A2A2 | A3cBA !p!|\
+G2B2B2 | A2c2e2 | {f}e2d2c2 | {c}B4(3(efg) |\
+a2e2e2 | e3fed | c2A2A2 | A4e2 |\
+f2afaf | e2cece | d2B2G2 | A4 :|
+|: A2 |\
+G2B2B2 | A2c2c2 | B2d2d2 | c3ecA |\
+G2BGBG | A2cAcA | B2dBdB | c4(3(efg) |\
+a2e2e2 | e3fed | c2A2A2 | A4e2 |\
+fefgaf | gabgae | d2B2G2 | A4 :|
+|: z2 |\
+c2e2e2 | ^e2f2f2 | B2d2d2 | ^d2e2e2 |\
+A2G2B2 | A2c2e2 | aeaecA | e6 |\
+c2e2e2 | ^e2f2f2 | B2d2d2 | ^d2e2e2 |\
+agagf^e | fedcBA | dfecdB | A4  :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

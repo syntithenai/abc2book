@@ -1,0 +1,65 @@
+X:1
+T:Diadem
+B:Ian Russell,A Festival of Carols - A Second Collection of Carols from the Mount-Dawson Manuscripts, Sheffield, 1996
+S:Jon Freeman <jon:folkinfo.org> abcusers 2003-12-19
+C:Arr. Ian Russell, http://www.sgpublishing.co.uk/gm/vc/vcabout.html
+Z:Ian Russell
+Q:1/4=112     %Tempo
+V:1  clef=treble name="Soprano"
+M:3/4     %Meter
+L:1/8     %
+K:G
+D2 |G4 A2 |(B3/2c/d2) G2 |A2 G2 F2 |
+w:All hail the power__ of Je-*sus'
+G4 (FE) |D3 E DC |(B,2D2) G2 |(E2c2) c2 |
+w:name, Let_ an-gels prost-rate fall_ Let an-*gels
+B4 A2 |G6-|G4 (GA) |B4 B2 |
+w:prost-rate fall *Bring_ forth the
+B2 A2 G2 |A2 G2 F2 |G3/2A/ B2 d2 |(c3BAc|
+w:roy-*al di-*a-dem__ And crown___
+B3AGB|A3GFA|G2) G2 z2 |c2 c2 z2 |
+w:_________ Him, crown Him,
+A2 A2 z2 |B2 B2 d2 |(G3/2A/B2) A2 |G4 F2 |G6-|G4 z2 |]
+w:crown Him, crown Him, And crown__ Him Lord of all!
+V:2 clef=treble name="Alto"
+M:3/4     %Meter
+L:1/8     %
+K:G
+B,2 |D4 D2 |D4 D2 |E2 D2 D2 |
+D4 (DC) |B,3 C B,A, |(G,2B,2) D2 |E4 E2 |
+D4 DC |B,6-|B,4 D2 |D4 D2 |
+D2 C2 B,2 |E2 D2 D2 |D4 D2 |E2 E2 z2 |
+w:******* And crown Him, *
+D2 D2 z2 |D2 D2 z2 |D2 D2 z2 |(E3DCB,|
+w:crown Him. crown Him, crown Him crown___
+D6-|D2 D2 D2 |D4 C2 |D4 D2 |D6-|D4 z2 |]
+w: __ Him, And crown Him Lord of all!
+V:3  clef=treble-8 name="Tenor"
+M:3/4     %Meter
+L:1/8     %
+K:G
+G2 |B2 G2 F2 |(G3/2A/B2) G2 |c2 B2 A2 |
+w:All hail_ the power__ of Je-*sus'
+G4 A2 |G3 G GG |G4 G2 |G4 G2 |
+w:name Let an-gels prost-rate fall Let an-gels
+G4 F2 |G6-|G4 (BA) |G4 G2 |
+w:prost-rate fall * Bring_ forth the
+(G2A2) B2 |(c2B2) A2 |(B3/2A/G2) B2 |(G3GFA|
+w:roy-*al di-*a-dem__ And crown ***
+G3ABG|F3GAA|B2) B2 z2 |G2 G2 z2 |
+w:********* Him, crown Him,
+F2 F2 z2 |G2 G2 B2 |(B3/2c/d2) c2 |B4 A2 |G6-|G4 z2 |]
+w:crown Him, crown Him, And crown__ Him Lord of all!
+V:4 clef=bass name="Bass" middle=D,
+M:3/4     %Meter
+L:1/8     %
+K:G
+G,,2 |G,,2 B,,2 D,2 |G,4 B,,2 |C,2 D,2 D,2 |
+G,,4 D,2 |G,,3 G,, G,,G,, |G,,4 G,,2 |C,4 A,,2 |
+D,4 D,2 |G,,6-|G,,4 G,,2 |G,4 G,2 |
+G,2 F,2 E,2 |C,2 D,2 D,2 |G,,4 G,,2 |C,2 C,2 z2 |
+w:******* And crown Him, *
+G,,2 G,,2 z2 |D,2 D,2 z2 |(G,3F,E,D,|C,3B,,A,,G,,|
+w:crown Him, crown Him, crown_______
+D,3E,F,D,|G,2) G,2 G,2 |G,4 C,2 |D,4 D,2 | G,,6-|G,,4 z2 |]
+w:_____ Him, And crown Him Lord of all!

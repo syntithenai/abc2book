@@ -1,0 +1,34 @@
+X: 1
+T: Engelsk fr. Mallebro
+R: ganglat, march
+M: 2/4
+L: 1/16
+K: A
+V: 1
+"A"|: AB \
+| c2cc cBcd | e4 c2dc | B2B2 B2AB | c3B A2AB \
+| c2cc cBcd | e2a2 e3d | cABc B3A | A6 :|
+"B"|: Ac \
+| e2e2 f2f2 | e6 ed | c2c2 d2e2 | c6 AB \
+| c2cc cBcd | e2a2 e3d | cABc B3A | A6 :|
+V:2
+|: cB \
+| "A"A2AA AGAB | "A"c4 A2BA | "E"G2B2 e2B2 | "A"e3e c2EG \
+| "A"A2c2 egab | "A"a2e2 c2de | "A"caga "E"B2g2 | "A"a6 :|
+|: ce \
+| "A"a2e2 "D"a2f2 | "A"e2c2 A2EA | "A"c2e2 "E"d2B2 | "A"c2A2 E2EG \
+| "A"A2E2 ceag | a2e2 c2de | "A"caga "E"B2g2 | "A"a6 :|
+V:3
+|: A,B, \
+| A,2E2 C2E2 | A,2E2 C2E2 | G2E2 E2CE | A3E C2AE \
+| A2AA AGAB | c2c2 c3G | ACDE E2E2 | E2D2 C2 :|
+|: EA \
+| c2c2 d2d2 | c6 cB | A2A2 E2E2 | A,6 CE \
+| A2AA AGAB | c2c2 c3G | ACDE E2E2 | [E6A,6] :|
+V:4
+|: EE \
+| "A"A,2E2 C2E2 | "A"A,2E2 C2E2 | "E"B,2E2 B,2E2 | "A"A,2C2 A,2z2 \
+| "A"A,2E2 C2E2 | "A"A,2E2 C2E2 | "A"A,2E2 "E"B,2E2 | "A"A,2E2 C2 :|
+|: EE \
+| "A"A,2E2 "D"A,2F2 | "A"A,2E2 C2E2 | "A"C2C2 "E"B,2B,2 | "A"E2C2 A,2A,B, \
+| "A"A,2E2 C2E2 | "A"A,2E2 C2E2 | "A"C2C2 "E"B,2B,2 | "A"A,2C2 C2 :|

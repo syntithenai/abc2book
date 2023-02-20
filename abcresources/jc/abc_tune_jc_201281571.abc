@@ -1,0 +1,30 @@
+X: 1
+T: the Godolphin
+C: Mr Paisible (1714)
+R: reel
+N: For a dance by the same name by Mr Isaac
+N: "The Godolphin : Mr. Isaac's new dance made for Her Majestys birth day 1714"
+S: http://memory.loc.gov/cgi-bin/ampage?collId=musdi&fileName=131/musdi131.db&recNum=0
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+Q: "Grave"
+M: C|
+L: 1/8
+K: D
+"A"|:\
+a3b agfe | d2g2 e2a2 |\
+f3e d2f2 | e2f2 d2e2 |\
+c3c fedc | B2e2 e3d |\
+c3B A2A2 :|
+"B1"[|\
+e3e fgaf | g4 f2b2 |\
+e3e agfe | ^d3B e2ed |\
+c3c f2fe | ^dB gf f3e |\
+e3e a>a g>a |
+f3A d>d c>d |\
+B3d gfed | cA fe e3d "B2"|[|\
+d3e fgaf | g4 f2b2 |\
+e3e agfe | ^d3B e2ed |
+c3c f2fe | ^dB gf f3e |\
+e3e a>a g>a | f3A d>d c>d |\
+B3d gfed | cA fe e3d |\
+d8 |]

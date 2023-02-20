@@ -1,0 +1,18 @@
+X: 138031
+T: FAGAN
+Q: "Irish Jig."
+R: Jig.
+%R: jig
+B: James Kerr "Merry Melodies" v.1 p.38 s.0 #31
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: G
+|:\
+v{def}g2z ue2z | dBG GBd | g2z a2z | bge ue2uf |\
+gba gfe | dBG GAB | A2z B2z | BGE E2 :|
+|: ud |\
+vB2vd uA2ud | B2d A2d | B2d efg | fdd def |\
+g2z a2z | bag fed | efg d2c | BGG G2 :|

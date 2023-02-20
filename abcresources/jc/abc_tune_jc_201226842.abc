@@ -1,0 +1,22 @@
+X: 10481
+T: Air
+C:
+Q: "Andante"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.48
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: C
+%%graceslurs 0
+G4 |\
+c8 d3B | c2e2 {g}f4 e4 | d2c2B2c2 {de}f2e2 | (e4 d4 G4) |\
+c6 (e2d2B2) | c2e2 {g}f4 e4 | d3c d4 B4 | c8 |]
+[| g4 |\
+c'4 c'bag fedc | (c3B) B4 (gabc') | d'4 c'2b2a2g2 | (f3e) e4 c2e2 |\
+(ed^cd) d4 bgdB | (dcBc) c4 (a^fdc) | B2d2g2d2c2B2 | (B4 A2)d2d2d2 |
+d8 dcBA | (A3G) G4 (gdcB) | (B3A) A4 (dcA^F) | (A3G) G4 z2G2 |\
+B4 Bcde gfdB | (d3c) c4 z2c2 | e4 (efga) (c'_bge) | (g3f) f4 z2f2 |
+a4 (g2f2e2d2) | g4 (f2e2d2c2) | c2(B2c2d2e2^f2) | g8 "_Da Capo"|]
+%
+%%center -

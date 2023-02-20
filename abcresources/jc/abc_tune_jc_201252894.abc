@@ -1,0 +1,21 @@
+X:57
+T:Black Mountain Reel
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+N:If you play this for Tom Hinds' dance you need to cut it down to 32 bars!
+Q:1/2=116
+M:2/2
+L:1/4
+%%MIDI program 41
+%%MIDI chordprog 7
+%%MIDI bassprog 33
+K:A
+P:A
+|: A/B/ | "A"cf/f/ "/"e/c/A/B/ | "F#m"cf/f/ "/"e/c/A/B/ | "A"cf/f/ "F#m"e/c/A/B/ | "Bm"c/B/A/F/ "E7"E/F/A/B/ |\
+"A"cf/f/ "/"e/c/A/B/ | "F#m"cf/f/ "/"e/c/A/B/ | "A"cf/f/ "F#m"e/c/A/B/ | "E7"c/B/A/F/ "A"A :|
+P:B
+A/B/ |: "A"[ce][ce]/[ce]/ "/"[Be]/[ce]/[ce]/c/ | "A"c/B/A/F/ "/"E/F/A/B/ | "A"cc/c/ "/"c/B/A/F/ | "E7"E/F/E/D/ "A"C/B,/A, :|
+P:C
+"A"[CE]2 "/"[CE][B,E] | "A"[A,E]2 "/"[CE][EA] | "D"[FA]2 "/"F/E/D/E/ | "D"[FA]2 "/"ED |\
+"A"[CE]2 "/"[CE][B,E] | "A"[A,E]2 "/"CE | "E7"G2 "/"A2 | "E7"B/c/B/A/ "/"G/F/E/D/ |
+"A"[CE]2 "/"[CE][B,E] | "A"[A,E]2 "/"[CE][EA] | "D"[FA]2 "/"F/E/D/E/ | "D"[FA]2 "/"GF |\
+"A"E2 "/"CE | "E7"DE "/"FG | "A"A2- "D"A2- | "A"A2- "/"A |]

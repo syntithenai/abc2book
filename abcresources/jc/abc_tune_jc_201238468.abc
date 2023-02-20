@@ -1,0 +1,28 @@
+X: 3083
+T: Colonel Campbell of Monzie's Favourite
+%R: air, strathspey
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.8 #3 (last 2 staffs on p.9)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+Q: "Slowish"
+K: Cm
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=2
+G2 |\
+c2c2c2G2 !f![A6A,6]F2 | G2G2G2E2 (FE)DC B,2D2 |\
+(TCB,)CD (TED)EF (TGF)G=A B2G2 | FD3B3D {D}C6G2 ||\
+c2c2c2G2 !f![A6A,6]F2 | G2G2G2E2
+(FED)C B,2E2 |\
+(TEDE).F (TGF)G=A B3cB3e | d2B2f2d2 {=B}c4 cdef |[|\
+gc3Tg3f g2c2c2d2 | f3gf2d2 B3cd3f | g2c2Tg3f
+g2c2c2e2 | d2B2f2d2 {d}c4 cdef ||\
+g2c2Tg3f g2c2c2d2 | (fg=ab) (fedc) TB3cd2f2 |\
+g3bf3g d2f2G2c2 | B2G2 (GF)ED {D}C4C2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z2 | c4e4 !f!f4d4 | e4c4 B4B4 | c4c4 e4d2e2 | f4g4 c4[c4C4] || c4e4 !f!f4d4 |
+e4c4 B4B4 | c4e4 d4e4 | f4g4 c4c4 |[| c'4c4 c'4c'4 | b4b4 b4b4 |
+c'4c4 c'4c'4 | g4G4 c4c4 || c'4c4 c'4c'4 | b4f4 B4B4 | e4d4 g4e4 | f4g4 c4c2 |]

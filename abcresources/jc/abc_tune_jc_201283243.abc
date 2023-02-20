@@ -1,0 +1,72 @@
+
+X: 1
+T: Gro\sser Achter [Bb]
+O: Germany
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+F2 \
+| "Bb"B2F2 GF=EF | D2E2 F2","F2 | "Bb"B2F2 GF=EF | D2E2 F2B2 \
+| "F"AFGA Bcde | "Bb"f2d2 B2B2 | "F7"FGAB cdec | "Bb"B2B2 B2 :|
+|: d2 \
+| "C7"c2B2 A2B2 |"F"A2G2 F2A2 | "C7"G2F2 =E2G2 | "F"F6 "F7"F2 \
+| "Bb"B2B2 "F7"A2A2 | "Eb"G2G2 "Bb"F2F2 | "F7"E2C2 B,2A,2 | "Bb"B,6 :|
+|: FB \
+| "Bb"d6 Bd | f6 df | "F7"efed cdcB | A2F2 F2FB \
+| "Bb"d6 Bd | f6 f2 | "Eb"g2g2 "F7"a2a2 | "Bb"b6 :|
+K: F
+M: 3/4
+|: FG \
+| "F"A3 G F2 | "Bb"dc BA GF | "C7"G3 F E2 | ed cB AG \
+| "F"F3 G A2 | F3 G A2 | "C7"A2 G2 E2 | "F"F2 F2 :|
+
+
+%%sep 2 1 500
+
+X: 2
+T: Gro\sser Achter [C]
+O: Germany
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+G2 \
+| "C"c2G2 AG^FG | E2F2 G2","G2 | "C"c2G2 AG^FG | E2F2 G2c2 \
+| "G"BGAB cdef | "C"g2e2 c2c2 | "G7"GABc defd | "C"c2c2 c2 :|
+|: e2 \
+| "D7"d2c2 B2c2 |"G"B2A2 G2B2 | "D7"A2G2 ^F2A2 | "G"G6 "G7"G2 \
+| "C"c2c2 "G7"B2B2 | "F"A2A2 "C"G2G2 | "G7"F2D2 C2B,2 | "C"C6 :|
+|: Gc \
+| "C"e6 ce | g6 eg | "G7"fgfe dedc | B2G2 G2Gc \
+| "C"e6 ce | g6 g2 | "F"a2a2 "G7"b2b2 | "C"c'6 :|
+K: G
+M: 3/4
+|: GA \
+| "G"B3 A G2 | "C"ed cB AG | "D7"A3 G F2 | fe dc BA \
+| "G"G3 A B2 | G3 A B2 | "D7"B2 A2 F2 | "G"G2 G2 :|
+
+
+%%sep 2 1 500
+
+X: 3
+T: Gro\sser Achter [D]
+O: Germany
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A2 \
+| "D"d2A2 BA^GA | F2G2 A2","A2 | "D"d2A2 BA^GA | F2G2 A2d2 \
+| "A"cABc defg | "D"a2f2 d2d2 | "A7"ABcd efge | "D"d2d2 d2 :|
+|: f2 \
+| "E7"e2d2 c2d2 |"A"c2B2 A2c2 | "E7"B2A2 ^G2B2 | "A"A6 "A7"A2 \
+| "D"d2d2 "A7"c2c2 | "G"B2B2 "D"A2A2 | "A7"G2E2 D2C2 | "D"D6 :|
+|: Ad \
+| "D"f6 df | a6 fa | "A7"gagf efed | c2A2 A2Ad \
+| "D"f6 df | a6 a2 | "G"b2b2 "A7"c'2c'2 | "D"d'6 :|
+K: A
+M: 3/4
+|: AB \
+| "A"c3 B A2 | "D"fe dc BA | "E7"B3 A G2 | gf ed cB \
+| "A"A3 B c2 | A3 B c2 | "E7"c2 B2 G2 | "A"A2 A2 :|

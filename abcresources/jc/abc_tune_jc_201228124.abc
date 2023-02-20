@@ -1,0 +1,40 @@
+X: 11081
+T: Why Dearest Silvia
+Q: "Andante"
+B: "Man of Feeling", Gaetano Brandi, ed. v.2 p.108-109
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Added missing dot to first note (f) in bar 15.
+M: 3/4
+L: 1/8
+K: A
+%%continueall
+%%graceslurs 0
+A2 | (e3 d) (cB) | A4 A2 | {c}(B2 c2) d2 | {d2}c4 e2 |
+w: Why dear-*est* Sil-via why* thus bent to
+(f/e/f/g/)Ha z>zf | (e>c A2) zA | (G/A/B/c/ d3) c | (c2 B3) A | {B}(A2 G2) zB |
+w: vex**** go vex** a faith-****ful | Heart* to Gold* and
+(B2 A3) c | (c2 B2) {e}d2 | {e}(d2 c2) e2 | f4 (f>g/a//) | {a2}g4 a2 |
+w: Ti-*tle you* re-lent* Love throws Love** throws in
+{f/}(f>e/d// c2) TB2{AB} |A4 z"^sym"e | fedcBA | G4 Az/e/ | (3fdB A2 {c}B2 |
+w: vain*** the Dart
+B2 A2 A2 | e4 ((3=gec) | {e}(d2 c2) B2 | (e>f/=g// fe) (dc) | {c2}d4 (d>e) |
+w: * * Let glit-'ring** fools* in Courts**** be* great for*
+{=g2}f4 (e/d/c/B/) | (A4 G2) zA | (B/c/B/c/ d2) c2 | (Tc2 {B/c}B2) z2 |
+w: pay for*** pay* let Ar-****mies move*
+% p.109
+e4 c> A | {G2}F4 z2 | f2 (e<d) (c<B) | {A2}G4 ze |
+w: Beau-ty should have no o-*ther* bait but
+(f/e/f/g/ a<f) (e<d) | (ecBA) (GA) | (F>B A2) G2 | A2 z2 "_sym"(3aaa |
+w: gen-*****tle* gen-***gle* vows** and Love
+(bagfed) | d2 caaa | (bagfed) | .c2 .a2 .a2 | .a4 |]
+%
+W: 2. If on these endless Charmrs you lay
+W: \t The value that's their due
+W: Kings are themselves too poor to pay
+W: \t A thousand Worlds too few
+W: But if a passion without vice
+W: \t Without disguise or Art
+W: Ah! Silvia, if true love's a prize
+W: \t Behold it in my Heart.
+%%center -

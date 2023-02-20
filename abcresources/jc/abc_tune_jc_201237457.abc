@@ -1,0 +1,21 @@
+X: 262	% 72
+T: Snow Dear
+N: Handwritten "Deer" after the title.
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.26 #2
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The rhythm shifts oddly between the two parts, giving a 31-bar tune.
+N: Dot added to first B note in bar 20.
+M: C
+L: 1/8
+K: G
+V: 1 name="72"
+D2 G2A2 ||\
+B2B^A B2B^A | B2G2 F2G2 | A2A^G A2A^G | A2G2 F2E2 |\
+D4 A4- | A2GG F2E2 | D4 B4- | B2D2 G2A2 |
+B2B^A B2B^A | B2G2 F2G2 | A2A^G A2A^G | A2G2 F2E2 |\
+D4 A4- | A2GG A2B2 | G4- G3G ||\
+A2B2 c4 | E6 G2 | F2E2 D4 | B8 |
+B3c B2A2 | A2^G2 A4 | A3B A2G2 | G2F2 G2G2 |\
+A2B2 c4 | E6 G2 | F2E2 D4 | B8 |\
+B3c B2A2 | A2^G2 A2c2 | B2A2 G4- | G2 |]

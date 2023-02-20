@@ -1,0 +1,18 @@
+X:1
+T: Young Jane
+I:
+C: W-2
+M: 3/4
+Z:
+R: waltz
+K: G
+(3DEF| "G"G3 A B2| A2 B2 d2| "C"e4 e2| "D7"d3 B A2|\
+       "G"G3 A2 B| "D7"A4 G2| "C"E6| "D7"D4 EF|
+       "G"G3 A B2| A2 B2 d2| "C"e4 e2| "G"d4 e2|\
+          G3 A2 B| "D7"A4 G2| "G"G6-| G4|]
+\
+Bc| "G"d2 B2 d2| g3 f g2| "C"e4 e2| "Am"A4 B2|\
+    "D7"c3 d e2| d2 B2 A2| "G"G6| "D7"F4 (3DEF |
+    "G"G3 A B2| A2 B2 d2| "C"e4 e2| "G"d4 e2|\
+       G3 A2 B| "D7"A4 G2| "G"G6-| G4|]
+%

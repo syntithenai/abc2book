@@ -1,0 +1,35 @@
+X: 08
+T: DANCING HEARTS
+B: Button & Whitaker "Twelve Elegant New Dances for the year 1810" #8
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Elegant_New_Dances_for_1810_%28Various%29
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Staff layout changed to fit our page size:
+V: 1 clef=treble middle=B
+f<e |\
+e<dd<c c<Bf<e | e<dd<c c<Bg<f | f<ed<d d<cc<B | A<cB<G F2 f<e | e<dd<c c<Bf<e |
+e<dd<f b2b<g | f<de<c d<Bc<A | B<dB<d B2 :|\
+|: A<B | c<de<f g2 f<e | d<fd<f b2b<g |
+f<df<d b<fe<d |\
+c<AB<G F2 f<e | e<dd<c B2 f<e | e<df<_a g2 b<g | f<de<c d<Bc<A | B<dd<f B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+z2 |\
+[f2B2][e2B2] [d2B2]z2 | [f2B2][e2B2] [d2B2]z2 |\
+c2d2 e2=e2 | f2c2 F2z2 | [f2B2][e2B2] [d2B2]z2 |
+[f2B2][f2B2] [f2d2]e2 | f2f2 F2F2 | B2b2 B2 :|\
+|: z2 | f2f2 a2a2 | b2b2 d2z2 | B2b2 d2e2 |
+f2c2 F2z2 | [f2B2][e2B2] [d2B2]z2 | B2B2 e2z2 | f2f2 F2F2 | B2b2 B2 :|
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Hey contrary sides, then to your own,
+%% down the mid: up again
+%% hands 4 at bottom 
+%% & right & left at top.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

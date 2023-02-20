@@ -1,0 +1,14 @@
+X:822
+T:Prince Eugene
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 82
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+AF|D4 F2A2|dcde defg|a2f2d2f2|edef e2f2|D4 F2A2|
+dcde defg|a2f2 def^g|a4 z2::cd|e2ee e2f2|e4 z2de|
+f2ff f2g2|f4 z2fg|abag fgfe|d2d2 A2 fg|abag fgfe|d2d2 A3B|
+A2F2 D3B|A2F2 D2 fg|afde f2fg|afed f2fg|abag f2e2|d4 z2:|

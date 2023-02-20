@@ -1,0 +1,99 @@
+
+X: 1
+T: La Nouvelle Vergne   [A/Am]
+R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #20
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+"A"ecA |\
+"E7"{GA}B2E d2c | "A"{c}B2A ecA | "D"f2e "Bm"d2c | "E7"{c}B3 "A"ecA "I"|\
+"E7"{GA}B2E d2c | "A"{c}B2A "B7"af^d | "E"eBA "B7"G2F | "E"{F}E3 :|
+"E"BGE |\
+"A"{Bc}dc2 "D"f2e | "Bm"d2c "E7"eBd | "A"ced cBA | "E"GFE "A7"ae=g |\
+"Bm"T=g2f "B7"bfa | "E"gb^d ebc | "D"dfB "E7"ceG | "A"A3 !segno!|][K:=f=c=g]
+P: Mineur
+K: Am
+EDF |\
+"Am"E2A "E7"^G2B | "Am"TB2A "E7"cBd | "Am"c2e "G7"d2f | "C"Tf2e "A"a^ce |\
+"Bm"d^cd "G"gBd | "Am"=cBc "Dm"fed | "B7"cBA ^G2A | "E"B2E EDF |
+"Am"E2A "E7"^G2B | "Am"TB2A "E7"cBd | "Am"c2e "G7"d2f | "C"Tf2e "B7"ag^f |\
+"Em"gb^d "(Am)"dec | "Em"B2c "B7"A2c | "Em"BAG "B7"^F2E | "Em"E3 ||
+"Am"ecA |\
+"Am"{fg}a2A "A7"a2g | "Dm"f2d "G"dBG | {fe}g2G "G7"g2f | "C"e2c "F"cAF |\
+"F"f2F f2e | "G"dcB "E7"ce^g | "Am"aed "E7"c2B | "Am"A3 !segno!|]
+
+%%sep 1 1 500
+
+X: 1
+T: La Nouvelle Vergne   (G/Gm)
+R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #20
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+"G"dBG |\
+"D7"{FG}A2D c2B | "G"{B}A2G dBG | "C"e2d "Am"c2B | "D7"{B}A3 "G"dBG "I"|\
+"D7"{FG}A2D c2B | "G"{B}A2G "A7"ge^c | "D"dAG "A7"F2E | "D"{E}D3 :|
+"D"AFD |\
+"G"{AB}cB2 "C"e2d | "Am"c2B "D7"dAc | "G"Bdc BAG | "D"FED "G7"gd=f |\
+"Am"T=f2e "A7"aeg | "D"fa^c daB | "C"ceA "D7"BdF | "G"G3 !segno!|][K:=f]
+P: Mineur
+K: Gm
+DCE |\
+"Gm"D2G "D7"^F2A | "Gm"TA2G "D7"BAc | "Gm"B2d "F7"c2e | "Bb"Te2d "G"g=Bd |\
+"Am"c=Bc "F"fAc | "Gm"_BAB "Cm"edc | "A7"BAG ^F2G | "D"A2D DCE |
+"Gm"D2G "D7"^F2A | "Gm"TA2G "D7"BAc | "Gm"B2d "F7"c2e | "Bb"Te2d "A7"gf=e |\
+"Dm"fa^c "(Gm)"cdB | "Dm"A2B "A7"G2B | "Dm"AGF "A7"=E2D | "Dm"D3 ||
+"Gm"dBG |\
+"Gm"{ef}g2G "G7"g2f | "Cm"e2c "F"cAF | {ed}f2F "F7"f2e | "Bb"d2B "Eb"BGE |\
+"Eb"e2E e2d | "F"cBA "D7"Bd^f | "Gm"gdc "D7"B2A | "Gm"G3 !segno!|]
+
+%%sep 1 1 500
+
+X: 1
+T: La Nouvelle Vergne
+R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #20
+K: A
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center La Nouvelle Vergne
+%%text Le Grand Rond - . 2/1
+%%begintext align
+%%   Each Gentleman Balanc\'e to his Partner,
+%% then turns the Lady on his left - 1/2
+%%endtext
+%%begintext align
+%%   Each Gentleman Balanc\'e to the Lady he
+%% turned, and then turns his Partner - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   The Ladies half Moulinet and turn the
+%% opposite Gentleman, then make an End of the
+%% Moulinet and turn their Partners - 1/1
+%%endtext
+%%begintext align
+%%   Each Gentleman Chass\'e with the Lady on his
+%% Left to the Corner, then back again and turn
+%% his Partner - 1/2
+%%endtext
+%%begintext align
+%%   The Gentlemen half Moulinet and turn the
+%% opposite Ladies, then make an End of the
+%% Moulinet and turn their Partners - 1/1
+%%endtext
+%%begintext align
+%%   Each Lady Chass\'e with the Gentleman on
+%% her Right to the Corner, then back again and
+%% turn her Partner - 1/2
+%%endtext

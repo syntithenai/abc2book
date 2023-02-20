@@ -1,0 +1,22 @@
+X: 222	% 61
+T: Steamboat Bill
+N: For Quadrille Or Slow Fox Trot
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.22 #2
+R: reel, fox-trot
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The B flats would be better written as A sharps.
+N: Bar 11 has 9 16th notes; not fixed.
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="61"
+(3(DEF) |\
+GGGG Bd2B | cBcA d3 (3(DEF) |\
+GGGG Bd2B | A2F2 D3(3(DEF) |\
+GGGG BBAA |
+G3E G3A |\
+B_B=B_B =Bd2B | _B=B2D G6 ::\
+{A_B}=B3D G3A | B_B=B_B =Bd3 |
+{A_B}=B3D G3(Bc) | dedB A4 |\
+{A_B}=B3D G3A | B_B=B_B =Bd3 |\
+[ec][ec][ec][ec] dBGA | BGA2 G6 :|

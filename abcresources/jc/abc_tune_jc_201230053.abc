@@ -1,0 +1,23 @@
+X: 131
+T: the Carravan          E.
+C: Ignatius Sancho 1775
+%R: reel, march
+B: "Minuets Cotillons & Country Dances", 1775 p.13 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] A2 | AEDC B,dcB | d>cd>B AGFE | AEDC B,dcB | c>AB>G A2 :: e2 | (a>e)d>c (f>e)(f>a) | (e>c)(B>A) BGFE |
+[V:2] z2 | A2a2 g2e2 | a2e2 A4 | a2Aa g2e2 | a2e2 A2 :: z2 | a2A2 d2B2 | c2^d2 e4 |
+[V:1] (a>e)dc (f>e)(f>a) | (e>c)BA {A}B3E | TA2 B/A/c TB2 c/B/d | c>Ae>c BGFE | Tf2 g/f/a (e>c)BA | f>dc>B A2 :|
+[V:2] A2a2 d2B2 | c2f2 e2z2 | A2a2 g2e2 | a2A2 e4 | d2BA G2A2 | d2e2 A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first Cu.foot it and cast off two Cu. .| foot it and cast up again :| cross over two Cu. Lead
+%% up to the top and cast off .|. hands round four at bottom Right and Left at top :|:
+%%endtext

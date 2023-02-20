@@ -1,0 +1,23 @@
+X:1
+T:KIM SOUTH'S REEL - OF AUSTRALIA
+Z: Contributed 2017-01-24 02:16:17 by David South david@dalsegnomusic.com
+K:
+%%titlefont NewCenturySchlbk-Bold 13pt
+%%gchordfont Arial-Bold 11pt
+C:composed by IAIN MacPHAIL (\251 2017)
+V: Melody clef=treble gchord=down
+%%staves [Melody]
+L:1/8
+M:C|
+K:F
+V: Melody
+c2{d/e/}|:"F"f2F2 AGFD|"F"C2F2 F2A2|"(1) Gm""(2) Gm"G^FGA "D+""Gm/F#"BABc|"Gm7""Gm7/F"dcdf "C7""C7/E"ecde|!
+"F"f2F2 AGFD|"F"C2F2 "Dm"F2A2|"Gm7"G^FGA "C7"BGEG|[1 "F"F2F2 F2"C7"c2{d/e/}:|[2 "Cm7/F"F2F2 "F7/A"F2z2||!
+"Bb"f2ef "Bb/D"Bfed|"F/A"c2=Bc "F/F"FAGF|"Gm7"Ec=Bc "C7"_BcGc|"Cm7/F"Fc=Bc "F/A"Acde|!
+"Bb"f2ef "Bb/D"Bfed|"(1) F/A""(2) F"c2=Bc "F/F""Dm"FAGF|"Gm7"Ec=Bc "C7"_BGEG|[1 "Cm7/F"F2F2 "F7/A"F2z2:|[2 "F"F2F2 F2|]
+%%begintext
+
+
+Commissioned by Kim South's husband David and children Liam & Mairi to celebrate
+her 50th birthday.
+%%endtext

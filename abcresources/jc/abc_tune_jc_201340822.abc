@@ -1,0 +1,51 @@
+
+X: 1
+T: Stav Lavan
+%T: סתיו לבן
+O: Israel
+C: Yoram Tehar-Lev (words), Shai Lavi (melody)
+R: waltz
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+"^intro"A2 \
+| "Dm"de f3 f | "Am"ed dc cA | "C7"Bc d3 d | "F"c4 F^F \
+| "Gm"G4 AB | d3 Bde | "A7"e6 | ^c2 d2 e2 ||
+!segno!\
+|: "Dm"de f3 f | "Am"e2 A3 A | "C7"c3 BAG | "F"F4 F2 \
+| "Gm"G3 GAB | "A7"A3 GFE |1 "Dm"F2 A4- | "A7"A4 A2 :|2  "Dm"F2 D4- | D4 "C7"C2 ||
+[| "F"F3 GAF | "Gm"G3 GGA | B3 BBB | "Dm"A3 AA_A \
+| "Gm"G4 G2 | "Dm"F3 FFF | "C"c2 c2 c2 | "Am"A4 D2 |
+| "D7"c3 dAB | "Gm"G3 GGA | B3 def | "Dm"d6- \
+| "Gm"de e3 f | "A7"g3 fef |["1-N" "Dm"e2 d4- | d4 !segno!|]
+|["Coda" "Dm"e2 d4- | d3 ffa | "Gm"g3 gab | d3 def | "Dm"d4 "A7"A2 | "Dm"[d6D6] |] \
+y4 y4 y4 y4 y4 y4
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Steppin' Out
+O: American
+S: page from Terry Traub dates 4/3/96
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+P: Play: I,AA,B,A, rhythm only for AA,B,A, silence for AA,B, melody on A.
+K: Dm
+%%indent 300
+"^Intro"|\
+"Dm"A3 B A2 G2 | "A7"F2 E2 "Dm"D2 z2 ||
+"A"|:\
+"Dm"D2 F2 A3 A | "Bbdim"G2 FG- "A7"GA3 |\
+"Dm"D2 F2 A3 A | "Bbdim"G2 FG- "A7"G3A |
+"Dm"D2 F2 A3 A | "Bbdim"G2 FG- "A7"GA3 |\
+"Dm"D2 F2 A3 G | "A7"A>G FD- "Dm"D2 !fine!z2 :|
+K: D
+"B"[|\
+"D"d3 c- cB A2 | "D"B2 AF- FE D2 |\
+"D"F z2 F- F4 | "D"F z2 F- F4 |
+"D"d3 c- cB A2 | "D"B2 AF- FE D2 |\
+"E"E z2 E- E4 | "A7"E z2 E- E2 "^d.C."z2 |]

@@ -1,0 +1,29 @@
+X: 11121
+T: the Highland Lassie
+%R: air, reel
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.12 (and top 3 staffs on p.13)
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Initial begin-repeat added to clarify the rhythms of repeats.
+M: C
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"A2 |:\
+{G}TF2(ED) (FG)(AF) | (BA)(GF) TE3B | A2D2 (FG)A2 | (Bc)(dA) TF2A2 |\
+D2(e>f) d3f | e2E2 TE3D | F2A2 (BdcB) | A2D2 TF2A2 :|
+|:\
+d3e (de)(fd) | (gf)(ed) e2(Tf>e) | d2A2 TF2A2 | (Bc)(dA) TF2A2 |\
+B2(dc) d3f | e2{EF}G2 TE3D | FGAF d2(Tc>B) | A2D2 TF2A2 :|
+|:\
+GFED (FGA)d | (BA)(dF) {F}E3B | (Ad)(DE) F2{FG}A2 | Bd/c/ dA TF2A2 |\
+D2FA d3f | ecdF {F}E3A | (3(Bcd) (3(cde) d2(Tc>B) |
+A2D2 TF2A2 ::\
+D2fa d2(ef) | (gf)(ed) e2(dc) | Bd/c/ dd TF2A2 | (3(Bcd) (3(Bcd) TF2A2 |\
+D(d/c/) dd Df Eg | Fa Gb Tc2BA |
+(3(agf) (3(gfe) d2(Tc>B) | A2D2 TF2A2 ::\
+(3(FED) (D>A) (3AGF F>d | (3(dcB) D>G {F}E3B | (3(AGF) (3(GFE) D2A2 | BcdA F2{FG}A2 |
+D>d (3(def) E>e (3(efg) | (3(fga) (3(def) E3D | (3(FGA) D>A {Bc}d2(Tc>B) | A2D2 TF2A2 ::\
+(3(Bcd) D>d (3(fga) d>f | "p.13" (gf)(ed) e2(dc) |
+B(d/c/) dA TF2A2 | (3(Bcd) (3(Bcd) TF2A2 |\
+(3(FED) d>f (3(GFE) (3(efg) | (3(fga) B>e Tc2BA | (FEF)A {Bc}d2Tc>B | A2D2 TF2A2 :|

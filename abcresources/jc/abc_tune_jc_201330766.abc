@@ -1,0 +1,30 @@
+X: 1
+T: the Roaring Seas
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (200)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/8
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+(dc)B (BAG) | (DC)D zzG | ABc BAG | d3 zzd |\
+(e/f/g)f (e/d/c)B | (FE)F zz(c//d//e/) | (dc)B (cF)A | B3- B2 :|
+|: B |\
+f2F (BA)G | (cBA) zzd | (ed)e (cB)c | A3 zzg |\
+(gf)(g e)de | (c=B)c- c2(c//d//e/) | (dc)(B BA)G | G3 zz :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% First Wo. figure thro 3d Cu. then outside the 2d Wo. to
+%% her place the 2d Man go the whole figure thro the 3d Cu. at
+%% the same time .| 1st Man and 2d Wo. do the same :| 1st Man
+%% take his Partner by both hands and lead her on the outside
+%% below the 2d Man, set to the 3d Wo. then to the 3d Man and
+%% turn sides quite round .| 1st Wo. cast up and go to her
+%% Partners Place he follows her at the same time, they go
+%% round each other proper and turn down the Middle :|
+%%endtext
+%%sep 1 8 500

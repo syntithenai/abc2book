@@ -1,0 +1,29 @@
+X: 4323
+T: Orange and Blue.   a Jig.
+%R: jig
+N: This is version 2, for ABC software that understands trailing grace notes.
+N: (Yes, this is an unimportant detail in this case.)
+B: Niel Gow & Sons "Complete Repository" v.4 p.32 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - -
+V: 1 staves=2
+f |\
+e2c TcBc | ~G2c E2c | e2c ege | c3 c2e | f2d Td^cd | A2d d2c | B2G BdB | G3 G2f || e2c Tc3{Bc} | G2c E2c |
+e2c ege | c3 c2g | a2f g2e | f2d e2c | BdB GAB | c3 c2 |[| f | e2g gag | e2g gag | e2c ege | c3 c2e | f2a ac'a |
+f2a ac'a | f2d faf | d3 d2f || e2g gag | e2g gag | e2c ege | c3 c2g | afa geg | fdf edc | BdB GAB | c3 [c2E2] |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+[c3C3][c3C3] | [c3C3][c3C3] | [c3C3][c3C3] | [c3C3][c3C3] |\
+[d3D3][d3D3] | [d3D3][d3D3] | [d3D3][d3D3] | [d3D3][d3D3] ||\
+[c3C3][c3C3] | [c3C3][c3C3] |
+[c3C3][c3C3] | [c3C3][c3C3] |\
+[f3F3][e3E3] | [d3D3][c3C3] | [g3G3][f3F3] | [e3E3][c2C2] |[| z |\
+[c'3c3][c'3c3] | [c'3c3][c'3c3] | [c'3c3][c'3c3] | [c'3c3][c'3c3] |\
+[d'3d3][d'3d3] | [d'3d3][d'3d3] | 
+[d'3d3][d'3d3] | [d'3d3][d'3d3] ||\
+[c'3c3][c'3c3] | [c'3c3][c'3c3] | [c'3c3][c'3c3] | [c'3c3][c'3c3] |\
+[f'3f3][e'3e3] | [d'3d3][c'3c3] | [g3G3][f3F3] | [e3E3][c2C2] |]

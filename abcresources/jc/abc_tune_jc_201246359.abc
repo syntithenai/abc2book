@@ -1,0 +1,16 @@
+X: 1
+T: \"Alvdalens brudmarsch efter S. J. Larsson
+O: Sweden, Dalarna, \"Alvdalen
+R: march, g\aangl\aat
+S: Fiddle Hell Online 2020-11-05 7pm lydia ievins workshop
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+D2 "^A"|:\
+G3G A2B2 | c2B2 A2G2 | B2d2  e2ce |  d2-d2  A2-A2 |\
+d3d e2f2 | g2f2 e2d2 | AB^cd e2ce |1 d2-d2- d2 B2 :|2 d2-d2- d2-d2 :|
+"^B"[|\
+d2-d2- d2f2 | a2fa    g3B | cBcd e2ce | d2-d2 {cB}A2B2 |\
+|:\
+c2-c2- cedc | B2-B2- BdcB | A2Ac B2AF |1 G2-G2 A2B2 :|2 G2-G2- G2 |]

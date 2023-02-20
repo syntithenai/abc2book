@@ -1,0 +1,21 @@
+X: 04004
+T: ANOTHER MARGARET'S WALTZ
+C: Bob McQuillen 29 April 79
+B: Bob's Note Book 04 #4
+%R: waltz
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+G2A2 \
+| B2E3B | A2G3F | G2D3D | E3FG2 | D2G2B2 | d2c2B2 | B2A3G | A4 GA | 
+| B2D3B | A2G3F | G2D3D | E3FG2 | D2G2c2 | B3DA2 | G6- | G2 :| 
+|: G2A2 \
+| B2d2B2 | c2e2c2 | B2d3B | G2A2B2 | c2e3c | B2d3B | A3B AG | F2E2D2 | 
+| B2d3B | c2e3c | de fg af | g2d2B2 | e2c3A | B2d3B | GBA3G | G2 :| 
+%%begintext align
+%% If you, too, have encountered
+%% Margaret Spellman at a dance,
+%% then you know why I wrote her
+%% this tune!
+%%endtext

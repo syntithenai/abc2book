@@ -1,0 +1,25 @@
+X: 20293
+T: PLANXTY DRURY
+O: Irish air.
+Q: "Moderate."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.29 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: E
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+e>fe edc | B2A G2A | F2f fgf | d2c B2B |\
+B2g gag | f2e d2B | g2a b2e | d2e d2c |\
+BGB BGB | cde fdB | bgb afd | e3 e2(3(d/e/c/) |
+BGB BGB | cde fdB | bgb afd | e3 e2 |]\
+B |\
+B>cB ABA | GAG F2F | F2F F2A | GEA (G/A/B)G |\
+E3 e3 | fgf fdB | B2B efg | {b}a2g fed |
+e2e efe | cBA cde | d2e fag | fge dcB |\
+e2G A2c | B2A GAB | cBf e2d | e2e e3 |\
+e2G A2c | B2A GAB | cBf e2d | e2e e3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

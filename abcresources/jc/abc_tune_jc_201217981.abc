@@ -1,0 +1,22 @@
+X: 00204
+T: Laurie's Waltz
+C: Bob McQuillen 23 July'12
+%R: waltz
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+S: Facebook "Remembering MAC" 2014-2-5 message from Laurie Indenbaum: "I love and treasure this Waltz."
+M: 3/4
+L: 1/8
+K: G
+GA \
+| B2 de dc | B2 G2 GA | B2 G3  E | D4 GF \
+| E2 CD EF | G2 D2 GA | B2 BA GB | A4 dc |
+| B2 de dc | B2 G2 GA | B2 c2 d2 | e4 cd \
+| e2 ef ga | g2 d2 Bd | (3(cdc) B2 A2 | G4 :|
+|: Bd \
+| e2 c2 de | d2 B2 Bd | c2 AB cd | B2 G2 Bd \
+| e2 cd ef | g2 d2 gf | e2 f2 g2 | a4 gf |
+| ec e4    | dB d4    | cB AB cd | B2 GA GF \
+| EG c4    | DG B2 dc | BA G2 F2 | G4 :|
+%%begintext align
+%% for Laurie Indenbaum
+%%endtext

@@ -1,0 +1,18 @@
+X: 1
+T: Sapri Tama
+O: Israel
+M: 2/4
+L: 1/8
+P: Twice in each key
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+K: F
+"^intro"\
+| "F"c4 | "Dm"F2 G2 | "Bb"F2 G2 | "Gm"AB AG |1 "C"G4- | G2 AB :|2 "C"G4 "A7"A4 ||
+P: Sapri Tama [D]:
+K: D
+|: "D"d/e/d cd | "A"ef e2 | "D"d/e/d cd | "A"e2 z2 :| "Em"ef g2 | g2 f2 |
+| "A"a4 | e4 |: "D"{g}a4 | "Bm"d2 e2 | "G"d2 e2 | "Em"fg fe | "A7"e4- | e2 z2 :|
+P: Sapri Tama [F]:
+K: F
+|: "F"F/G/F EF | "C"GA G2 | "F"F/G/F EF | "C"G2 z2 :| "Gm"GA B2 | B2 A2 |
+| "C"c4 | G4 |: "F"{B}c4 | "Dm"F2 G2 | "Bb"F2 G2 | "Gm"AB AG | "C7"G4- | G2 z2 :|

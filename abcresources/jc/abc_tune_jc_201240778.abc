@@ -1,0 +1,33 @@
+X: 4102
+T: Black Jock
+O: Irish
+%R: jig, air
+N: This is version 2, for ABC software that understands voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.4 p.10 #2 (and top 2 staves of p.11)
+Z: 2021 John Chambers <jc:trillian.mit.edu> M: 6/8
+N: Bar 10 has some weird rhythmic notation. Ignoring the dot after the lower E fixes it.
+L: 1/8
+Q: "SLOWLY"
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+"_Original."E |\
+E2A AGA | BcB TBAB | c>dc cBA | BcB BAF |\
+A3 TF2E | EFA A2E/D/ | "_Modern."(CE).A AGA | (Bd).c BAG |
+(Ac).e edc | Bdc {c}BAG | ~A>Bc ~F>GA | EFG [A2E2C2] |[| "^Original."d |\
+(c2d e2).e | fdf {f}e2d | c2d e>fe | Tf>ga edc |
+d2b c2a | BcB {c}BAB | ~c>dc cBA | B>cB BAF |\
+A3~F2E | EFA A2d | "^Modern."(cA).c (ec).e | (fd).f e2d |
+(cA).c (ec).e | (fd).f {f}He2c | ddd ccc | Bdc HB2A |\
+(Ac).e (ed).c | (Bd).c {c}BAG | ~A>Bc ~F>GA | EFG [A2E2C2] |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+[c2a2]z [c2a2]z | [e2b2]z [b2e2]z | [e2a2]z [e2a2]z | [e3b3] [e2b2]d |\
+cea d2c | cdB A2g | a3 cBA | [G2e2][Ae] e3 & x3 Bcd |
+e6 & c3 A3 | e3 E2x & G2A x2d | [C3c3] [D3d3] | e2E A2 |]| z |\
+a2b c'2c | dfg a2g | a2f c3 | [d3a3] [c3a3] |
+b2g a2A | e3- efg | [e2a2]z [e2a2]z | [e2b2]z [d2b2]d |\
+cea d2c- | cdB A2[ge'] | [a3c'3e'3] [a3c'3e'3] | [a3d'3f'3] [a2c'2e'2][gbe'] |
+[a3c'3e'3] [a3c'3e'3] | [a3d'3f'3] H[a2c'2e'2]z | gbe' ac'e' | eba H[e2g2]z |\
+e6 & c3 A3 | e3 E2x & G2A x2d | [C2c3] [D3d3] | e2E A2 |]

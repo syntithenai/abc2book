@@ -1,0 +1,13 @@
+X: 32
+T: Larry O'Gaff
+R: jig
+B: NEFR 32
+B: Levey "Dance Music of Ireland, 2nd Collection" 1873
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|:"G"{def}g2G BAG | ded dBG | "C"cec "G"BdB | "Am"ABc "D7"def \
+| "G"g2G BAG | ded dBG | "C"cec "G"BdB | "D7"AGA "G"G3 :|
+|:"G"d2g gfg | gfg "D"afd | d2a aga | aga "G"b2a \
+| "G"gba "C"gfe | "G"dge dBG | "C"cec "G"BdB | "D7"AGA "G"G3 :|

@@ -1,0 +1,22 @@
+X: 414
+T: Joc Aroman
+O: Romania
+M: 2/4
+L: 1/16
+K: Dm
+Q:1/4 = 80
+%%MIDI chordprog 24 % Acoustic Guitar (nylon)
+%%MIDI bassprog 32 % Acoustic Bass
+%%MIDI program 42 % Cello
+%%MIDI beat 97 87  77 4
+%%MIDI chordvol 60
+%%MIDI bassvol 77
+%%MIDI drum dd 66 66 110 70
+%%MIDI drumon
+%%MIDI drum dd 66 66 80 50
+%%MIDI drumon
+"Dm"D2DC D2DC|"Dm"GFGA F2z2|"F"A4 AGGF|"Dm"GFFE D4|
+"Gm"G4   FEDE|FGFE D4  |"F"C4 F2E2|"Dm"D4- D4|
+%%MIDI program 60 % French Horn
+"Dm"D2DC D2DC|"Dm"GFGA F2z2|"F"A4 AGGF|"Dm"GFFE D4|
+"Gm"G4   FEDE|FGFE D4  |"F"C4 F2E2|"Dm"D4- D4|

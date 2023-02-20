@@ -1,0 +1,19 @@
+X: 3333
+T: Bennevis.   a Strathspey.
+%R: strathspey, air
+B: Niel Gow & Sons "Complete Repository" v.3 p.33 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+F | D/D/D D>B A>FAB | D/D/D D>B AF[EC]>F | D/D/D D>B A>Bd>e | fdef F<d [EC] :|
+|: B | A<Fd<F AFdF | A/F/F dF B/A/G/F/ [EC]>F | A<Fd>F A>Bd>e | fdef F<d [EC] :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+[d2D2][d2D2] [d2D2][d2D2] | [d2D2][d2D2] [d2D2][a2A2] |\
+[d2D2][d2D2] [d2D2][d2D2] | [d2D2][d2D2] [d2D2][aA] :||: z |
+[d2D2][d2D2] [d2D2][d2D2] | [d2D2][d2D2] [d2D2][a2A2] |\
+D2D2 D2D2 | [d2D2][d2D2] [d2D2][aA] :|

@@ -1,0 +1,62 @@
+X: 11351
+T: SUCH A GETTING UP STAIRS
+O: A.F.KNIGHT
+%R: march
+N: This is version 1, for ABC software that doesn't understand measure-repeat or tremolo notation.
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.135
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The final rest in each voice makes the rhythm weird and should be ignored; not fixed.
+M: 2/4
+L: 1/16
+K: Bb
+%%indent 70
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="Eb Bugle" sname="EbBgl" staves=8
+K: G
+(GA) |\
+B2c2d2G2 | B2c2 d4 | e2d2c2B2 | A2B2 c2z2 :: (dc) |\
+BGAF D3G | FGAB cedc | BGAF D2G2 | FGAF G2z2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 name="Bb Bugle" sname="BbBgl"
+K: C
+z2 |\
+EGEG EGEG | EGEG EGEG | A2G2F2E2 | D2E2F2z2 :: (gf) |\
+ecdB E2E2 | DEFG AcBA | c2B2 G2E2 | F2F2E2z2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 name="Bb Post Horn" sname="BbPHn"
+K: C
+cc |\
+e2f2g2c2 | e2f2 g4 | a2g2f2e2 | d2e2 f2z2 :: gf |\
+ecdB G2c2 | Bcde fagf | ecdB G2c2 | BcdB c2z2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 4 name="Bb Cornopeon" sname="BbCrn"
+K: C
+cc |\
+c2d2e2c2 | c2d2 e4 | f2e2d2c2 | B2c2d2z2 :: z2 |\
+EGFG E2E2 | D2D2D2D2 | EGFG E2E2 | D2D2E2z2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 5 name="Tenor Trombone" sname="TTbn" clef=bass middle=D
+K: Bb
+z2 |\
+B2B2B2B2 | B2B2B2B2 | G2F2 e2d2 | A2B2c2z2 :: z2 |\
+f2f2f2z2 | f2f2f2z2 | f2f2f2f2 | f2f2d2z2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 6 name="Base Trombone" sname="BTbn" clef=bass middle=d
+K: Bb
+z2 |\
+B2z2 b2z2 | B2z2 b2z2 | e2z2 f2z2 | f2f2f2z2 :: z2 |\
+F2f2F2z2 | F2F2 f2f2 | F2F2F2F2 | F2F2B2z2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 7 name="1st Ophecleide" sname="Oph1" clef=bass middle=D
+K: Bb
+B>c |\
+d2e2f2B2 | d2e2f4 | g2f2e2d2 |c2d2e2z2 :: z2 |\
+d2c2c2z2 | A2B2c2c2 | d2c2c2c2 | c2c2d2z2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 8 name="2d Ophecleide" sname="Oph2" clef=bass middle=d
+K: Bb
+z2 |\
+B2B2B2B2 | B2B2B2B2 | e2f2f2f2 | f2f2f2z2 :: z2 |\
+f2f2f2z2 | f2f2f2f2 | f2f2f2f2 | f2f2B2z2 H:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

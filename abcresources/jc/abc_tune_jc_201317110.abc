@@ -1,0 +1,37 @@
+X: 1
+T: Niel Gow's Lamentation for Dr. James Moray of Abercairney
+B: Skye p.157; BSFC V-1; Hunter #9
+B: BSFC Tune Book V-1 and XXXII-6
+B: BSFC Session Tune Book 2016 p.83
+C: Niel Gow
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+Q: "Very Slow"
+K: G
+% - - - - - - - - - -
+"^A"[|] ({C}B,>A,) \
+| "G"(G,>B,) (DG) ("C"EG) "G"(DG) | "D"A>B "G"c/B/A/G/ "C"E2 EF/G/ \
+| "G"(G,>B,) (DG) "C"EG "G"D(g/e/) | "G/D"dG "D7"d/c/B/A/ "G"G2 G :|
+"B1"[|] e \
+| "G"de/f/ (gd) "C"ed "G"gB | "C"c(a/c/) "G"B(g/B/) "D"A2 A>B \
+"B2"[|] e \
+| "G"(G,>B,) (DG) "C"EG "G"D(g/e/) | "G"dG "D"d/c/B/A/ "G"G2 G |]
+e \
+| "G"(de/f/) (gd) "C"({f}ed) "G"(gB) | "C"c/B/c/a/ "G"B/A/B/g/ "Am"A2 ("D"AB/c/) \
+| "G"(e/d/)c/B/ "C"(d/c/)B/A/ "G"(c/B/)A/G/ "D"(B/A/)G/F/ | "C"(A/G/)F/E/ "D7"D/E/D/B,/ "G"G,2 "_fine"G, |]
+% - - - - - - - - - -
+X: 2
+P: Harmony
+C: Ed Pearlman
+M: 4/4
+L: 1/8
+K: G
+"^A1"[|] B,>A, \
+| G,>B, DB, CA, B,G, | D2 GD C2 A,2 | G,>B, DC CA, B,C | D2 DE/F/ G2- GD/C/ |
+"^A2"[|] DC \
+| B,>D GB cA BG | D2 GD C2 A,2 | B,>D GB cA Bc | d2 DE/F/ G2- G |]
+"^B1"[|] e \
+| dc/A/ BG c2 B2 | A2 G2 F>E DC | B,>D GB d/c/B/A/ Bc | dB DF G2- G ||
+"^B2"[|] c \
+| Bc/A/ BG cA BG | EG DG F>E DC | B,E A,D G,B, CA, | D2 CD B,3 |]

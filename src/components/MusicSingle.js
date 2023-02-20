@@ -15,6 +15,8 @@ import LinksEditorModal from './LinksEditorModal'
 import ViewModeSelectorModal from './ViewModeSelectorModal'
 import PlaylistManagerModal from './PlaylistManagerModal'
 import abcjs from "abcjs";
+import ParserProblemsDiff from './ParserProblemsDiff'
+import useAbcjsParser from '../useAbcjsParser'
 
   //return (
     //<ReactTags
@@ -32,6 +34,7 @@ export default function MusicSingle(props) {
     const audioPlayer = useRef(); 
     var youtubeProgressInterval = useRef()
     var speakTimeout = null
+    const abcjsParser = useAbcjsParser({tunebook: props.tunebook})
     //var {searchYouTube} = useYouTubeSearch()
     //console.log('single',props)
     const [showMedia, setShowMedia] = useState(false)
@@ -44,8 +47,9 @@ export default function MusicSingle(props) {
     const [isPlaying, setIsPlaying] = useState(false)
     const [autoStart, setAutoStart] = useState(false)
     const [hasSpoken, setHasSpoken] = useState(false)
+    //const [abc, setAbc] = useState('')
     let tune = props.tunes ? props.tunes[new String(params.tuneId)] : null
-    let abc = '' //props.tunebook.abcTools.settingFromTune(tune).abc
+    //let abc = '' //props.tunebook.abcTools.settingFromTune(tune).abc
     const handlers = useSwipeable({
         delta:300,
         trackMouse: false,    
@@ -101,26 +105,7 @@ export default function MusicSingle(props) {
 
     useEffect(function() {
        let tune = props.tunes ? props.tunes[params.tuneId] : null
-       // props.tempo is an integer
-       // tune tempo includes beat length eg 3/8=100
        if (tune) {
-                   
-            //abcjs.renderMidi(
-                //"midi-download-button",
-            //props.tunebook.abcTools.json2abc(tune),
-            //{
-                //generateDownload: true,
-            //});
-           //var tempo = props.tunebook.abcTools.cleanTempo(tune.tempo)
-           //if (tune.meter) {
-             //var bpb = getBeatsPerBar(tune.meter)
-             //props.setBeatsPerBar(bpb)
-           //}
-           //if (tempo != props.tempo) {
-               //props.setTempo(tempo)
-           //}
-           // has words but no music
-           //console.log('SING CHECK',props.tunebook.hasLyrics(tune),props.tunebook.hasNotes(tune))
            if (props.tunebook.hasLyrics(tune) && !props.tunebook.hasNotes(tune))  {
                props.setViewMode('chords')
            }
@@ -175,28 +160,30 @@ export default function MusicSingle(props) {
                   current++
               }
             })
-        } 
+        }  
+        
         //<iframe src={link} ></iframe>
         //console.log('sING abc',props.tunebook.abcTools.tunesToAbc(props.tunes))
         var firstVoice = tune.voices && Object.keys(tune.voices).length > 0 ? Object.values(tune.voices)[0] : {notes:[]}
-        var parsed = props.tunebook.abcTools.parseAbcToBeats(firstVoice.notes.join("\n"))
-        //console.log('sING',parsed.chords)
-        var [a,b,chordsArray,c] = parsed
-        var chords = props.tunebook.abcTools.renderChords(chordsArray,false, tune.transpose)
+        //var parsed = props.tunebook.abcTools.parseAbcToBeats(firstVoice.notes.join("\n"))
+        ////console.log('sING',parsed.chords)
+        //var [a,b,chordsArray,c] = parsed
+        var chords = abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name) + firstVoice.notes.join("\n"), false)
+        //props.tunebook.abcTools.renderChords(chordsArray,false, tune.transpose)
         var uniqueChords={}
         //console.log('sING',chords, JSON.stringify(chordsArray))
-        var chordLines = chords.split("\n")
-        chordLines.forEach(function(chordLine) {
-            var chordParts = chordLine.split("|")
-            chordParts.forEach(function(chordPart) {
-                var chordPartsInner = chordPart.split(" ")
-                chordPartsInner.forEach(function(cpi) {
-                    if (cpi.trim().length > 0) {
-                       uniqueChords[cpi] = true 
-                    }
-                })
-            })
-        })
+        //var chordLines = chords.split("\n")
+        //chordLines.forEach(function(chordLine) {
+            //var chordParts = chordLine.split("|")
+            //chordParts.forEach(function(chordPart) {
+                //var chordPartsInner = chordPart.split(" ")
+                //chordPartsInner.forEach(function(cpi) {
+                    //if (cpi.trim().length > 0) {
+                       //uniqueChords[cpi] = true 
+                    //}
+                //})
+            //})
+        //})
         
         function getYouTubeId(url) {
             const arr = url.split(/(vi\/|v%3D|v=|\/v\/|youtu\.be\/|\/embed\/)/);
@@ -221,68 +208,13 @@ export default function MusicSingle(props) {
         
         // update state to next link or navigate to next tune where there is a currentMediaPlaylist
         function nextLinkOrTune() {
-            //mediaLinkNumber
-            //tune
-            //console.log('nexzt tune or link',mediaLinkNumber,tune, tune.id, navigate)
             props.tunebook.navigateToNextSong(tune.id,navigate)
-            
-            //var useMediaLinkNumber = mediaLinkNumber > 0 ? parseInt(mediaLinkNumber) : 0
-            //if (Array.isArray(tune.links) && tune.links.length > (useMediaLinkNumber + 1)) {
-                //console.log('nexzt  link',useMediaLinkNumber + 1)
-                ////setMediaLinkNumber(mediaLinkNumber + 1)
-                ////props.forceRefresh()
-                //navigate('/tunes/'+tune.id+"/playMedia/"+(useMediaLinkNumber + 1))
-            //} else {
-                //if (props.mediaPlaylist && Array.isArray(props.mediaPlaylist.tunes) && props.mediaPlaylist.tunes.length > 1) {
-                    //console.log('next tune',props.mediaPlaylist)
-                    //var nextTuneNumber = parseInt(props.mediaPlaylist.currentTune) > 0 ? parseInt(props.mediaPlaylist.currentTune) + 1  : 1
-                    //console.log('next tune num',nextTuneNumber)
-                    //if (props.mediaPlaylist.tunes && props.mediaPlaylist.tunes.length > nextTuneNumber) {
-                        //var nextTune = props.mediaPlaylist.tunes[nextTuneNumber]
-                        //console.log('next tune rr',nextTune)
-                        //if (nextTune && nextTune.id) {
-                            //setMediaProgress(0)
-                            //setMediaLinkNumber(0)
-                            //setMediaLoading(true)
-                            //var playlist = props.mediaPlaylist
-                            //playlist.currentTune = nextTuneNumber
-                            //props.setMediaPlaylist(playlist)
-                            //navigate('/tunes/'+nextTune.id+"/playMedia/0")
-                        //}
-                    //} else {
-                        //// loop playlist
-                        //nextTuneNumber = 0
-                        //var nextTune = props.mediaPlaylist.tunes[nextTuneNumber]
-                        //setMediaProgress(0)
-                        //setMediaLinkNumber(0)
-                        //setMediaLoading(true)
-                        //var playlist = props.mediaPlaylist
-                        //playlist.currentTune = nextTuneNumber
-                        //props.setMediaPlaylist(playlist)
-                        //navigate('/tunes/'+nextTune.id+"/playMedia/0")
-                    //}
-                //} else {
-                    //console.log('fallback loop links')
-                    //if (Array.isArray(tune.links) && tune.links.length > 0) {
-                        //setMediaProgress(0)
-                        //setMediaLinkNumber(0)
-                        //setMediaLoading(true)
-                        //navigate('/tunes/'+tune.id+"/playMedia/0")
-                    //}
-                //}
-            //}
         }
         
         function onEnded(progress, start, stop,seek) {
-            //console.log("ON ENDfED", progress, start, stop, seek)
-            ////stop()
-            //seek(0)
-            //start()
-            
             if (props.mediaPlaylist || props.abcPlaylist) {
                 nextLinkOrTune()
             }
-            //props.tunebook.navigateToNextSong(null,navigate)
         }
        
         function downloadMidi() {
@@ -296,10 +228,10 @@ export default function MusicSingle(props) {
                   newVoices[vKey].notes = newVoices[vKey].notes.join("\n").repeat(useTune.repeats).split("\n")
                 })
                 useTune.voices = newVoices
-            }
+            } 
             // transpose
             var abc = props.tunebook.abcTools.json2abc(useTune)
-                
+            //console.log("adddbc",abc)    
             if (useTune.transpose !== 0) { 
                 var visualObj = abcjs.renderAbc("transpose_render", abc);
                 try {
@@ -322,10 +254,10 @@ export default function MusicSingle(props) {
                 window.URL.revokeObjectURL(url);
             }
         }
-                
+        var abc = props.tunebook.abcTools.json2abc(tune)        
         var useInstrument = localStorage.getItem('bookstorage_last_chord_instrument') ? localStorage.getItem('bookstorage_last_chord_instrument') : 'guitar'
         //console.log('uniq',uniqueChords)
-        return <div className="music-single"  {...handlers} >
+        return <div className="music-single" style={{border:'1px solid black'}} {...handlers} >
             <div className='music-buttons' style={{backgroundColor: '#80808033', width: '100%',height: '3em', padding:'0.1em', textAlign:'center'}}  >
                 
                 <ButtonGroup style={{float:'left', marginLeft:'0.1em'}}>
@@ -351,6 +283,8 @@ export default function MusicSingle(props) {
                        <Link to={'/editor/'+params.tuneId}><Button className='btn-warning' >{props.tunebook.icons.pencil}</Button></Link>
                  </ButtonGroup>   
                 
+                
+               
                 <span style={{float:'left'}}><BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} difficulty={tune.difficulty > 0 ? tune.difficulty : 0} onChangeDifficulty={function(val) {tune.difficulty = val; props.tunebook.saveTune(tune); props.forceRefresh()}} /></span  >
                 
                 
@@ -417,49 +351,52 @@ export default function MusicSingle(props) {
                                     
                                     }}  />
                     </div>}
+                    {(props.user && props.user.email &&  props.user.email === 'syntithenai@gmail.com'  && props.token) && <div style={{clear:'both',  textAlign:'left', marginTop:'2.6em'}} ><ParserProblemsDiff  tunebook={props.tunebook} abc={abc} /></div>}
+                    
+                    
                      
               
             </div>
             
 
              {props.viewMode === 'chords' && <>
-             
-             <div className="title" style={{float:'left', marginLeft:'0.1em', marginTop:'2.5em', width:'70%'}} >
-                <b>{tune.name}</b>
-                {tune.composer && <span> - {tune.composer}</span>}
-             </div>
-             <div className="lyrics" style={{float:'left', marginLeft:'0.1em', marginTop:'2.5em', width:'70%'}} >
-                {Object.keys(words).map(function(key) {
-                    return <div  key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >{words[key].map(function(line,lk) {
-                            return <div key={lk} className="lyrics-line" >{line}</div>
-                        })}</div>
-                })}
-                
-             </div>
-              
-  
-             <div style={{position:'fixed', fontSize:'1.1em', width: '30%',  right:'0.1em', top:'7.4em', bottom:'0%', zIndex: 999, backgroundColor: 'white'}} >
-                <div style={{ overflowY:'scroll', height:'100%'}} >
-                    <pre style={{ border:'1px solid black',marginTop:'1em', padding:'0.3em', lineHeight:'2em'}} >{chords}</pre>
-                    
-                    <div>
-                    {Object.keys(uniqueChords).map(function(chord) {
-                        var chordLetter = chord
-                        var chordType = ''
-                        return <Link to={"/chords/"+useInstrument+"/"+chordLetter+"/"+chordType} ><Button>{chord}</Button></Link>
-                    })}
+                <div style={{border:'1px solid black'}}>
+                     <div className="title" style={{ marginTop:'2.5em', width:'70%', paddingLeft:'0.3em'}} >
+                        <b>{tune.name}</b>
+                        {tune.composer && <span> - {tune.composer}</span>}
+                     </div>
+                     {Object.keys(words).length > 0 && <div className="lyrics" style={{ width:'65%', paddingLeft:'0.3em' ,marginTop:'2.5em'}} >
+                        {Object.keys(words).map(function(key) {
+                            return <div  key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >{words[key].map(function(line,lk) {
+                                    return <div key={lk} className="lyrics-line" >{line}</div>
+                                })}</div>
+                        })}
+                        
+                     </div>}
+                </div>  
+      
+                 <div style={{position:'fixed', fontSize:'1.1em', width: '30%',  right:'0.1em', top:'7.4em', bottom:'0%', zIndex: 999, backgroundColor: 'white'}} >
+                    <div style={{ overflowY:'scroll', height:'100%'}} >
+                        <pre style={{ border:'1px solid black', borderRadius:'5px',marginTop:'1em', padding:'0.3em', lineHeight:'2em'}} >{chords}</pre>
+                        
+                        <div>
+                        {Object.keys(uniqueChords).map(function(chord) {
+                            var chordLetter = chord
+                            var chordType = ''
+                            return <Link to={"/chords/"+useInstrument+"/"+chordLetter+"/"+chordType} ><Button>{chord}</Button></Link>
+                        })}
+                        </div>
+                        <br/><br/><br/>
                     </div>
-                    <br/><br/><br/>
-                </div>
-             </div>
+                 </div>
              </>}
-             {<>
+             {<div style={{paddingLeft:'0.7em', paddingRight:'0.7em'}}>
                  {(showMedia && Array.isArray(tune.links) && tune.links.length > 0) && <div style={{  clear:'both',  width:'100%', height:'3em'}} ></div>}
                  <div id={"abccontainer-"+(autoStart?"Y":"N")+"-"+(localStorage.getItem('bookstorage_autoprime') === "true"?"Y":"N")}  style={props.viewMode !== 'music' ? {position: 'relative', top: 2000} : {}}>
                     {autoStart && <Abc speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={(autoStart || localStorage.getItem('bookstorage_autoprime') === "true") ? true : false} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} hideSvg={false} hidePlayer={(showMedia && Array.isArray(tune.links) && tune.links.length > 0) || props.mediaPlaylist !== null  } />}
                      {!autoStart && <Abc  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={(autoStart || localStorage.getItem('bookstorage_autoprime') === "true") ? true : false} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} hideSvg={false} hidePlayer={(showMedia && Array.isArray(tune.links) && tune.links.length > 0) || props.mediaPlaylist !== null  } />}
                   </div>
-             </>}
+             </div>}
              
              {(Array.isArray(tune.files) && tune.files.length > 0) && <div style={{  clear:'both',  width:'100%', height:'3em'}} >
                  {tune.files.map(function(file,fk) {
@@ -507,7 +444,8 @@ export default function MusicSingle(props) {
                                 setMediaLoading(false);
                                 var toSpeak = tune.name
                                 if (tune.composer) toSpeak += " by " + tune.composer
-                                if (!hasSpoken) window.speak(toSpeak)
+                                var speakTitle = localStorage.getItem('bookstorage_announcesong') === "true" ? true : false
+                                if (speakTitle && !hasSpoken) window.speak(toSpeak)
                                 setHasSpoken(true)
                                 setIsPlaying(true)
                                 
@@ -567,7 +505,9 @@ export default function MusicSingle(props) {
                                         console.log('YTREDD')
                                         var toSpeak = tune.name
                                         if (tune.composer) toSpeak += " by " + tune.composer
-                                        if (!hasSpoken) window.speak(toSpeak)
+                                        var speakTitle = localStorage.getItem('bookstorage_announcesong') === "true" ? true : false
+            
+                                        if (speakTitle && !hasSpoken) window.speak(toSpeak)
                                         setHasSpoken(true)
                                         event.target.playVideo()
                                         setIsPlaying(true)

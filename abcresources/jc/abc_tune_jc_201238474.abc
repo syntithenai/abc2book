@@ -1,0 +1,29 @@
+X: 30852
+T: COTILLION No. 4. COQUETTE SETT tune 5
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.85 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Bars 1-4 are identical to bars 5-8; the 2nd and 3rd strains are identical.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+dfed c2d2 | ABcA dAFA | dfed c2d2 | ABcA d4 |\
+dfed c2d2 | ABcA dAFA | dfed c2d2 | ABcA d4 H|]
+d2e2=f2e2 | g2=f2 e2dc | d2e2 =f2e2 | g2=f2 e2dc |\
+dfed c2d2 | ABcA dAFA | dfed c2d2 | ABcA d4 :|
+d2e2=f2e2 | g2=f2 e2dc | d2e2 =f2e2 | g2=f2 e2dc |\
+dfed c2d2 | ABcA dAFA | dfed c2d2 | ABcA "^D.C."d4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All alamand corners,
+%% alamand partners,
+%% all balance to corners,
+%% turn partners,
+%% grand chain,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

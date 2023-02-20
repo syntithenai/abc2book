@@ -1,0 +1,24 @@
+X: 3
+T: the Whimsical Lover
+B: "Ten Country Dances and four cotillions with their basses for the pianoforte as they are now danced at Bath for the year 1797"
+P: No. III
+C: publisher: J&W Lintern's Music Warehouse, Abbey Church Yard Bath 1797
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - -
+V: 1
+|: EAAB AGFE | Acec B4   | EAAB AGFE | {G}FEFA E4 :|
+|: eddc BcdB | eccB ABcA | BFFG BAGF |  EAAB c2A2 :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: [a2c2][a2c2] [b2e2][b2e2] | [a2c2][a2c2] [b2e2][b2e2] \
+|  [a2c2][a2c2] [a2c2][a2c2] | [a2d2][a2d2] [a2c2][a2c2] :|
+|: b2a2g2e2 | c'2a2f2c2 | d2d2d2^d2 | [a2c2][b2e2] [a4c4] :|
+% - - - - - - - - - -
+%%begintext align
+%% First & 2d. Cu. set & change Sides .| The same Back again .|. Lead down the
+%% Middle & up again :|. Right & left at Top :|:
+%%endtext

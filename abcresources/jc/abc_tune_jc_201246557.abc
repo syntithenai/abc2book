@@ -1,0 +1,31 @@
+X: 1
+T: America with the Minuet   (Am)
+P: Longways for as many as will
+%R: reel+minuet
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.68 #102
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to match dance instructions.
+N: The meaning of the D.C. is unclear. It should probably be "fine" to match the dance instructions.
+M: C|
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"A"|: E2 |\
+"Am"A2A,2 C2E2 | "Dm"F2(ED) "G7"E2G2 |\
+"C"(cB)(AG) "G7"(FE)(DC) | "C"C6 "B"::\
+G2 |\
+"Dm"D2F2 "Am"E2A2 | "C"E2 (E/F/G) "D"^F2ED |
+"G"G3A "D7"B2(AG) | "G"G6 \
+"C":| B2 |\
+"Am"c2A2 "E"B2^G2 | "D"A2^F2 "E"^G2E2 | "Am"A3B "E7"c2(BA) | "Am"A6 |]
+P: Minuet
+M: 3/4
+L: 1/8
+"D"|:\
+"Am"cB A2 c2 | "E7"B2 e2 E2 | "Am"A2 B2 c2 | "E7"BABc B2 |\
+"Am"cB A2 c2 | "E7"B2 e2 E2 | "E7"A2 B2 ^G2 | "Am"A6 :|
+"E"[|\
+"C"ed c2 e2 | "G7"d2 g2 G2 | "C"c2 d2 e2 | "G7"dcde d2 |\
+"C"ed c2 e2 | "G"d2 g2 G2 | "E7"c2 d2 B2 | B4 "^d.C."y|]
+% - - - - - - - - - - Dance description: - - - - - - - - - -

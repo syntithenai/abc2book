@@ -1,0 +1,16 @@
+X: 1332
+T: Beamish's Goat
+O: Beamish
+R: reel
+%S: s:2 b:16(8+8)
+B: O'Neill's 1850 #1332
+Z: Trish O'Neil
+M: C|
+L: 1/8
+K: Ador
+"^A"[|]\
+(dB) | A2(AB) GFGB | A^GAB e2(dB) | A2(AB) GFGB | dBGB d2 ||\
+(dB) | A2(AB) GFGB | A^GAB cBcd   | e^def  gfge | dBGB A2 |]
+"^B"[|\
+(Bd) | e2(ef) gfgf | ed^cd efgf   | e2(ef) gfge | dBGB d2 ||\
+(Bd) | e2(ef) gfge | efge  a2(ef) | ^gaba =gfef | gedB A2 |]

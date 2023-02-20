@@ -1,0 +1,36 @@
+X:1
+T:Les Amantes Infideles (Am)
+O:Parisian cafe waltz
+D:Levy, Ostroushko, et al - First Generation
+Z:transcribed by Moshe Braner, March 2001
+N:yes, they play it with the extra measure marked "(skip?)"
+N:they play various other variations in part C
+M:3/4
+L:1/4
+K:Am
+P:Intro
+"Am"A/c/e/c/A/c/ | "G"G/B/d/B/G/B/ | "F"F/A/c/A/F/A/ | "E7"E z A/c/ |\
+P:A
+ "Am"e-e/f/e/d/ | e-e/f/e/d/ | edc | edc |\
+ "Dm"d-d/e/f/d/ | "Am"e-e/f/e/d/ | "(skip?)"e-e/f/e/d/ | "E7"e3 | z2 A/c/ |
+ "Am"e-e/f/e/d/ | e-e/f/e/d/ | edc | edc |\
+ "Dm"d-d/e/f/e/ | d-d/e/f/e/ | d3-|d z d/f/ |
+P:B
+"Am"a-a/b/a/g/ | a-a/b/a/g/ | a3 | "(Dm)"c'ba | c'ba |\
+"Am"e-e/f/e/d/ | e-e/f/e/d/ |
+"Am"e3 | c3 | "Dm"d3 | dfe | d2B |\
+"Am"A3 | "G"G3 | "F"F3 | "E7"E c'b |
+P:C
+"Am"b2a | e2c | e3-|e c'b |\
+b2a | e-e/f/g/e/ | "Dm"f3-|f de |
+"Dm"f>ef | agf | "Am"aa/^g/a | e3 |\
+"E7"e2d | c2B | "Am"A/^G/A/B/c/d/ | e c'b |
+"Am"b2a | e2c | e3-|e c'b |\
+b2a | e3 | "Dm"f3-|f de |
+"Dm"f3 | d3 | "Am"e3 | c3 |\
+"E7"e2d | c2B | "Am"A3-|A2 z |
+P:D
+"Am(Dm)"a>^ga | "E7"c'2^g| "Am"a3-|a2 z |\
+"D"^f3 | "E7"^g2e | "Am"c3-|c2 z |
+"Am"a>^ga | "E7"c'2^g| "Am"a3-|a2 z |\
+"D"^f3 | "E7"^g2 "    D.C."e | "Am"A3-|A2 z ||

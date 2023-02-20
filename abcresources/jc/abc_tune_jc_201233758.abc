@@ -1,0 +1,49 @@
+X: 20101
+T: MARSEILLES HYMN
+T: la Marseillaise
+C: Claude Joseph Rouget de Lisle (1792)
+N: Not actually attributed in Howe's collection.
+%R: march
+B: Elias Howe "The Musician's Companion" 1843 p.10 #1 (and p.11 #1)
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+G>G |\
+c2c2 d2d2 | g3e ccc_B | A2 f4 dB | c4 z2cd |\
+e2e2 e2fe | edd2 z2de | f2f2 f2gf |
+e4 z2g>g | g2ec g2ec | G4 zGGG |\
+d4 f2dB | c2c2 z2_B2 | A2AA c2 Bc | d4 z2zd |
+%p.11
+_e3e defe | d4 z2_ed | c2c2 c2dc | cB B4 zg |\
+g4 gd_ec | d4 z2zg | g4 gd_ec |
+d4 z2G2 | c6 c2 | e8 | f4 g2a2 |\
+d6 za | g4 gefd | c6 :\
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+E2E2 G2G2 | d3c EEED | F2 d4 FD | e4 z2EG |\
+c2c2 c2dc | cBB2 z2Bc | d2d2 d2ed |
+A4 z2z2 | e2cG e2cG | E4 zEEE |\
+B4 d2B2 | E2E2 z2[_B2G2] | F2FF G2GA | B4 z2zB |
+%p.11
+c3c Bcdc | B4 z2cB | A2A2 A2A2 | G2 G4 zz |\
+B4- B4 | B4 z2zz | B4 z2z2 |
+B4 z2z2 | E6 E2 | c8 | d4 e2f2 |\
+B6 zf | e4 ecdB | E6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+c2c2 G2G2 | c4 c2c2 | f4 g2G2 | c4 z2z2 |\
+c2c2 c2d2 | G2G2 z2z2 | f2f2 f2g2 |
+c4 z2z2 | c2z2 c2z2 | G4 zc3 |\
+f4 G4 | c2c2 z2z2 | [g2c2]c2 c2c2 | G4 z2z G |
+%p.11
+c4 c4 | G4 z2z2 | c4 c2c2 | G6 z2 |\
+g4 g2g2 | G4 z2z2 | c4 c2c2 |
+G4 z2z2 | c6 c2 | c8 | d4 e2f2 |\
+G6 z2 | c4 c2G2 | c6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

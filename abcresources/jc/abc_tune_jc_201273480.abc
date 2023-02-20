@@ -1,0 +1,22 @@
+X: 1
+T: Europes Revels
+P: Longways for as many as will
+%R: triple hornpipe, minuet
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.229 "X"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[| g4 G2g2 f4 | g2b2- b2ag a2f2 | g4 d2e2 B3c | d2D2 G2A2 A2G2 |]
+[| Bcd2 ABc2 B4 | e2a2- a2e2 f2d2 | efg2 Bcd2 GAB2 | D2G2- G2A2 A2G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%    The 1. man improper, the 1. man sets to the 2. man and both turn single :| The 1. woman and
+%% 2. woman the same :| The 1. cu. fall back and change places :| The 1. cu. go the half figure of 8.
+%% through the 2. cu. and slip down the middle to 2. improper (and at the same time the 2. cu. change
+%% sides)
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

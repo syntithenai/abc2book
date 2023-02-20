@@ -1,0 +1,26 @@
+X:1
+T: Fain I Would
+N:
+C:
+S:3 times
+A:
+O:
+R:
+M:6/8
+K:D
+I:speed 150
+%W:
+% voice 1 (1 lines, 28 notes)
+K:D
+M:6/8
+L:1/16
+e6 ^d6 e6 g6 f4 e2 e3 f e2 d6 d4 B =c |d3 e d2 =c4 B2 A6 B6 A4 G2 G3 A F2 G6G4 z2 |
+%W:
+% voice 1 (1 lines, 28 notes)
+e6 ^d6 e6 g6 f4 e2 e3 f e2 d6 d4 B =c |d3 e d2 =c4 B2 A6 B6 A4 G2 G3 A F2 G6G4 D2 |
+%W:
+% voice 1 (1 lines, 31 notes)
+D4 E2 F4 G2 A6A4 F2 B4 A2 G3 A B =c d6 d3 e d2 |c4 B2 A4 G2 F6 g6 f4 B2 e3 f ^d2 e6e4 D2 |
+%W:
+% voice 1 (1 lines, 30 notes)
+D4 E2 F4 G2 A6A4 F2 B4 A2 G3 A B =c d6 d3 e d2 |c4 B2 A4 G2 F6 g6 f4 B2 e3 f ^d2 e6e4 ||

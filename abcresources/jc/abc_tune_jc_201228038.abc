@@ -1,0 +1,20 @@
+X: 11044
+T: the LASS OF RICHMOND HILL
+%R: march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.104 #4 (and p.105 #1)
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+Addd | d(c/d/ e)g | fdBe | (d2{ed}c)A |\
+Addd | {e}dc/d/ ed | cAB^G | A2 zd |\
+cAAd | cAAd | cdgf | (f2{gf}e)d |
+cAAd | cAHad | cdec | d2 zA |\
+Addf | (f2e)d | ceeg | (Hg2f)e |\
+f>edc | dBAG | FdEc | d2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

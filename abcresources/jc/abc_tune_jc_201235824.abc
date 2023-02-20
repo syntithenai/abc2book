@@ -1,0 +1,21 @@
+X: 21401
+T: CULLODEN
+Q: "Slow and with feeling."
+%R: air, strathspey
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.140 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+E2A2A2c2 B2A2 (G2AB) | c3AB2G2 A2(AB) (AG)FE |\
+E2A2A2c2 B2A2 (G2AB) | c3AB2G2 E2A2BA3 |]\
+e2Ac ee3e2c2 | d4B2G2 dd3c2B2 |\
+A3Bc3d e3dc2e2 | (dc)(BA) G2B2 E2(Ac) B2A |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Tannahill's song, "O are ye sleeping Maggie?" is sung to the above air.
+%%endtext
+%%sep 1 1 300

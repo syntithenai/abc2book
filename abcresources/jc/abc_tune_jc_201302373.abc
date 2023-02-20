@@ -1,0 +1,14 @@
+X:412
+T:Lincoln
+C:John Walsh, c. 1709
+N:Charles Bolton's version (Retreads 20) is in 6/4 time.
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=110
+M:6/8
+L:1/8
+%%MIDI ratio 3 1
+K:C
+P:A
+|: z | "C"c>Bc g2e | "F"f>ga "C"gec | "G"B3 GAB | "C"c2E e>dc | "Dm"d>ed "G7"BGB | "C"c3 C2 :|
+P:B
+|: G | "C"E2G GEG | "F"A2c "Dm"cAd | "G"B3 G3 | "C"E2G GEG | "F"A/B/cA "G"B/c/dB | "C"c3 C2 :|

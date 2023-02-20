@@ -1,0 +1,36 @@
+X: 30031
+T: LONG, LONG AGO
+C:
+%R: song, march, reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.3 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+S: https://archive.org/stream/firstthirdpartof03howe/#page/66/mode/1up
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+[G2D2] |\
+G2GA B2Bc | d2ed B4 | d2cB A4 | c2BA G4 |\
+G2GA B2Bc | d2ed B4 | d2cB A2BA | G4 z2 :|
+B2 |\
+(dc)(cB) A2D2 | (cB)(BA) G4 | (dc)(cB) A2D2 | (cB)(BA) G4 |\
+G2GA B2Bc | d2ed B4 | d2cB A2BA | G4 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+D2 |\
+B,2B,D G2GA | B2cB G4 | B2AG F4 | A2GD B,4 |\
+B,2B,D G2GG | B2cB G4 | B2AG D2C2 | B,4 z2 :|
+G2 |\
+(BA)(AG) F2D2 | (AG)(GF) B,4 | BAAG F2D2 | AGGF B,4 |\
+B,2B,D G2GA | B2cB G4 | B2AG D2C2 | B,4 z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+d2 |\
+G2g2 G2g2 | G2Bd G4 | D2d2 D2d2 | G2Bd G4 |\
+G2g2 G2g2 | G2Bd G4 | D2d2 D2F2 | G4 z2 :|
+G2 |\
+D2d2 D2d2 | G2g2 G2g2 | D2d2 D2d2 | G2g2 G4 |\
+G2g2 G2g2 | G2Bd G4 | D2d2 D2F2 | G4 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

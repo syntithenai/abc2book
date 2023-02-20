@@ -1,0 +1,63 @@
+%%text RJ Set 057 Jigs
+
+
+X: 1
+T: Falling Off A Log
+% (J-68, aka 6/8 in G and D)
+I: RJ J-68 G/D jig
+I: 6/8 in G and D J-68 G/D jig
+R: jig
+H: Traditional reel from Quebec
+D: From workshop by Richard Forest; chords and bass line based on accompaniment by Mario Loiselle
+Z: Translated to abc by Debbie Knight, edited by Mary Lou Knack
+M: 6/8
+K: G
+B |\
+"G/G"d2B "C/C"e2B | "G/B"d2B "Gdim/A#"G2G | "Am7/A"FAF "D/D"DEF | "Am7/C"GFE "D+/F#"D2B |\
+"G/G"d2B "C/C"e2B | "G/B"d2B "Gdim/A#"G2G | "Am7/A"FAF "D7/D"DEF |[1 "D7/D"GBd "G"g2 :|[2 "G"G3 "A7"A2G |]
+K:D
+|:\
+"D"F2d dcd | F2d dcB | "Em7"A2e edc | "A7"dcd fdA |\
+"D"F2d dcd | F2d dcB | "Em7"A2e edc |[1 "A7"dfe "D"d2A :|[2 "A7"dfe "D7"d3 |]
+
+
+X: 2
+T: Mist Over Tennessee
+N: RJ	J-40	G	jig	Set 7
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: G
+"D7"d2c |\
+"G"B2B BGE | DGB d3 | "C"ege "G"dBG | "Am"c3 cAB |\
+"D"c2c cAF | DFA c3 | ded cBA |[1 "G"B3 :|[2 "G"G3 g2a |]
+|:\
+"G"b3 g3 | ded B3 | DGB DGB | "Am"c3 cBc |\
+"D"a3 f3 | d3 dBc | ded cBA |[1 "G"B2c d2g :|[2 "G"G3 |]
+
+
+X: 3
+T: Hommage \`a Jos. Bouchard
+I: RJ J-69 C/Am jig
+R: jig
+C: Philippe Bruneau
+H: Written by Philippe Bruneau, in honor of Joe Bouchard
+D: From Sam Bartlett, then Mario Loiselle
+Z: Translated to abc by Debbie Knight
+M: 6/8
+K: C	% and Am
+|:\
+"C"E3 EFA | G3GAB |\
+cBc "F"dcA | "A"G2G "Am7"EGc ||\
+"Dm"B2B "G"GBd | "Dm"f2f "G"GBd |\
+[1 "Dm"bag "G"fed | "C"cdc "G7"BAG :|
+[2 "G"bag fed | "G"c3-"E7"cAB |][K:Am]|:\
+"Am"c2c cBc | AEE EAB |\
+c2c cBc | "Bm7"BEE "E7"E3 ||\
+"Bm7"d2d dcd |
+"E7"BEE E^GB |\
+[1 "E"eEE "Fdim"dEE | "F#dim"cEE "E7/G#"BAB :|\
+[2 "E7"efe dcB |["." "Am7"A3 "G7"G3 |]\
+|[2 "A - Last time"A3-A3 |]
+% text 01/23/05
+

@@ -1,0 +1,35 @@
+X: 21302
+T: ITALIAN SETT (tune 2)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.130 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="2"
+A |\
+FGA AGF | FGA AGF | d3- dAF | GFG E2A |\
+def edc | Bcd efg | a2a cBc | d2f d2 H|]
+d |\
+B3 BAG | DGA B3 | BAG e2d | d2c A3 |\
+B3 e2d | dc2 EBA | GFG Aed | gd[bB] "^D.C."g2 |]
+A |\
+g3 gec | dcd A2A | A^GA d2f | e3 a2A |\
+g3 gec | d2f b2a | ^gab efg | aba gf"^D.C."e |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two give right hand across,
+%% left hand back,
+%% form a line,
+%% balance four,
+%% half promenade,
+%% ladies chain,
+%% forward four,
+%% half promenade to place,
+%% next two, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,20 @@
+X: 11111
+T: Pinkie House
+%R: air, strathspey
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.11 (top 6 staffs continued from p.10)
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"(G>A) |\
+B>A (B/c/d) TB2 (A>G) | (d>B)(d>e) d2(g>f) |\
+(e>d) (e/f/g) {e}dB{B}AG | A3B A2G>A |\
+(B>A) (B/c/d) B2(TA>G) |
+(d>B)(d>e) d2(g>f) |\
+(e>d)e>g (g/a/b) Ta>g | g3a g2 :: f>g |\
+(a>g)(a>b) a2(g>a) | b(a/g/) f(g/e/) {e}^d2(ef) |
+(g>f)(g>a) {g}f3e | e3f e2(e/f/)g |\
+{e}dB{B}AG Bd (e/f/)g |(d/c/)B (A/G/)F E2 (b>a) |\
+g>f (e/f/)g {c}B2 (A>G) | G3A G2 :|

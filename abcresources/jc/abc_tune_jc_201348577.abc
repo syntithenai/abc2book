@@ -1,0 +1,21 @@
+X: 1
+T:Valentine
+M:6/8
+C:
+S:Bacon (From E. Spring (RD))
+N:
+A:Ascott-under-Wychwood
+O:English
+R:Jig
+%:
+%:
+%P:A.(AB$^3$)$^4$.A
+P:A.(AB3)4.A
+K:G
+I:speed 300
+P:A
+d       | gfe  ede | edc  cBc       | dBg  dBG  | FAA A2 \
+d       | gfe  ede | edc  cBc       | dBG  DAF  | GGG G2 ||\
+P:B
+B/2c/2  | ded  dBd | BGG  G2 A/2B/2 | cAc  BGB  | FAA A2 \
+B/2c/2  | ded  dBd | BGG  G2 d      | efg  dBd  | BGG G2 ||

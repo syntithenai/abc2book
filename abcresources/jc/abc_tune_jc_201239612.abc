@@ -1,0 +1,22 @@
+X: 3332
+T: the_Boatman_of_Pitnacree.   a Reel.
+O: Very Old.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.3 p.33 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+g |\
+{g}f2(.A.A) {A}e2Ag | {g}f2ef dBB>g | f>A A/A/A e3g | f>e dB A/A/A A :| !f!B | A>F AB ~defd | e/e/e fd {f}e>d Bd |
+AFAB defd | efdB A/A/A A>B || AFAB ~defd | efdf {f}edBd | AFAB defa | efdB {B}A2A |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d2f2 a2A2 | d2f2 g2G2 | d2f2 a2c'2 | d'2g2 f2d :| !f!z |\
+[d2D2][d2D2] [d2D2][d2D2] | [a2A2][a2A2] [a2A2][a2A2] |
+[f2F2][d2D2] [d2D2][d2D2] | [a2A2][g2G2] [f2F2] [d2D2] ||\
+[d2D2][d2D2] [d2D2][d2D2] | [a2A2][f2F2] [g2G2][g2G2] |\
+[f2F2][d2D2] [d2D2][d2D2] | [a2A2][g2G2] [f2F2][dD] |]

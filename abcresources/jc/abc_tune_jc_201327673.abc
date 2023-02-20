@@ -1,0 +1,1338 @@
+% Roaring Jelly - waltzes
+
+#include "RightHeader.h"
+% %vskip 10cm
+% %center $2Waltzes
+#include "LeftHeader.h"
+% %center This page intentionally blank
+#include "RightHeader.h"
+% ---------- page 1 ----------
+
+X: 1
+T: Star of the County Down, The
+I: Star of the County Down, The	W-1	Am	waltz
+C: W-1
+C: Irish
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: Am
+EG| "Am"A4 A2| "F"A3 G A2| "C"c4 c2| "G"d4 cd|     "C"e3 d c2| "Am"A3 G E2| "Em"G6-| G2 c2 B2|
+    "Am"A4 A2| "F"A3 G A2| "C"c4 c2| "G"d4 cd|     "Am"e3 d c2| "Dm"A4 G2| "Am"A6-| A4|]
+e2| "C"g4 e2| e3 d c2| "G"d4 d2| d4 cd|    "Am"e3 d c2| A3 G E2| "Em"G6-| G2 c2 B2|
+    "Am"A4 A2| "F"A3 G A2| "C"c4 c2| "G"d4 cd|     "Am"e3 d c2| "Dm"A4 G2| "Am"A6-| A4|]
+% %text 5/29/99 For use only by Roaring Jelly members
+
+X: 2
+T: Young Jane
+I: Young Jane	W-2	G	waltz
+C: W-2
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: G
+(3DEF| "G"G3 A B2| A2 B2 d2| "C"e4 e2| "D7"d3 B A2|       "G"G3 A2 B| "D7"A4 G2| "C"E6| "D7"D4 EF|
+       "G"G3 A B2| A2 B2 d2| "C"e4 e2| "G"d4 e2|          G3 A2 B| "D7"A4 G2| "G"G6-| G4|]
+Bc| "G"d2 B2 d2| g3 f g2| "C"e4 e2| "Am"A4 B2|    "D7"c3 d e2| d2 B2 A2| "G"G6| "D7"F4 (3DEF |
+    "G"G3 A B2| A2 B2 d2| "C"e4 e2| "G"d4 e2|       G3 A2 B| "D7"A4 G2| "G"G6-| G4|]
+% %text 9/1/98 For use only by Roaring Jelly members
+
+#include "LeftHeader.h"
+% ---------- page 2 ----------
+X: 3
+T: Old Rosin, the Beau
+I: Old Rosin, the Beau	W-2	G	waltz
+C: W-2
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: G
+D2| "G"G2 F2 G2| B2 A2 G2| d6| "C"e2 f2 g2|     "G"d2 B2 G2| G2 A2 B2| "Em"E6-| E4 D2|
+    "G"G2 F2 G2| B2 A2 G2| d6| "C"e2 f2 g2|     "G"d2 B2 G2| "D7"A2 B2 A2| "G"G6-| G4|]
+Bc| "G"d2 B2 d2| d2 e2 f2| "C"g4 e2| g4 e2|     "G"d2 B2 G2| G2 A2 B2| "Em"E6-| E4 D2|
+    "G"G2 F2 G2| B2 A2 G2| d6| "C"e2 f2 g2|     "G"d2 B2 G2| "D7"A2 B2 A2| "G"G6-| G4|]
+% %text 9/1/98 For use only by Roaring Jelly members
+
+X: 4
+T: Shepard's Wife, The
+I: Shepard's Wife, The	W-2	G	waltz
+C: W-2
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: G
+D2| "G"G4 A2| B4 c2| d4 g2| g2 f2 d2|    "C"e3 f g2| "G"d2 c2 B2| "A7"A2 B2 G2| "D"F3 E D2|
+    "G"G4 A2| B4 c2| d4 g2| g2 f2 d2|    "C"e3 f g2| "D"a2 g2 f2| "G"g6| G4|]
+ga| "G"b4 b2| "D"a3 g f2| "Em"g4 g2| "Bm"g2 f2 d2|    "C"e3 f g2| "G"d2 c2 B2| "A7"A2 B2 G2| "D"F3 E D2|
+    "G"b4 b2| "D"a3 g f2| "Em"g3 a g2| "Bm"f4 d2|    "C"e3 f g2| "D"a2 g2 f2| "G"g6| G4|]
+% %text 9/1/98 For use only by Roaring Jelly members
+
+X: 5
+T: Greenwood Tree, The
+I: Greenwood Tree, The	W-3	D	waltz
+C: W-3
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: D
+A2| "D"f2 f2 e2| d4 cd| "G"B4 cB| "D"A2 F2 FG|    A2 AB AF| A2 d2 e2|1 f3 e d2| "A"e4:|2 "D"f3 "A7"g ec| "D"d4|]
+F2| "G"B4 Bc| d2 d2 F2| d4 cB| "D"A2 F2 FG|    A2 AB AF| A2 d2 e2| f3 e d2| "A7"e4 A2|
+    "D"f2 f2 e2| d4 cd| "G"B4 cB| "D"A2 F2 FG|    A2 AB AF| A2 d2 e2| "D"f3 "A7"g ec| "D"d4|]
+% %text 9/1/98 For use only by Roaring Jelly members
+
+#include "RightHeader.h"
+% ---------- page 3 ----------
+X: 6
+T: Sheebag Sheemore
+I: Sheebag Sheemore	W-3	D	waltz
+C: W-3
+C: O'Carolan
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: D
+de| "D"f3 e d2| d3 e d2| "G"B4 A2| "D"F4 A2|    "G"BA Bc d2| "A"e4 de| "D"f4 (3efe| d4 f2|
+    "G"B4 e2| "A"A4 d2| "D"F4 (3EFE| D4 f2|    "G"B4 e2| "A"A4 dc| "D"d4 d2| d4:|
+|:de| "D"f3 e d2| ed ef a2| "G"b4 a2| "D"f3 e d2|       "A"e4 a2| "D"f2 e2 d2| "G"d4 B2| "D"A4 BA|
+    "D"F4 (3EFE| D4 f2| "G"B4 e2| "A"A4 a2|       "G"ba gf ed| "A"e4 dc| "D"d4 dc| d4:|
+% %text 1/2/99 For use only by Roaring Jelly members
+
+X: 7
+T: Lord Inchiquin
+I: Lord Inchiquin	W-4	D	waltz
+C: W-4
+C: O'Carolan
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: D
+"D"d2 de fe| d2 ed "A7"cB| "D"A2 F2 A2| f3 g fe|   d2 ed "A7"cB| "D"A2 G2 F2| "G"G2 BA GF| "A7"E4 ag|
+"D"f3 e d2| d2 "A7"c2 B2| "D"A2 F2 A2| f3 g fe|   d2 ed "A7"cB| "D"Ad z2 F2| "A7"E3 F D2| "D"D6|]
+A2| "A7"AB cd e2| e2 d2 e2| "D"f2 de fd| "A"e4 fe|   "D"de fg a2| a2 b2 g2| f2 d2 f2| "A7"e3 g fe|
+   "D"de fg a2| "A7"a2 b2 g2| "D"f3 g e2| d4 f2|   "A7"gf e2 e2| e2 f2 d2| "E7"c3 d B2| "A"A4 ag|
+   "D"f3 e d2| "Bm"d2 c2 B2| "D"A2 F2 A2| "G"g4 fe|   "D"d2 ed "A7"cB| "D"Ad z2 F2| "A7"E3 F D2| "D"D4|]
+% %text 1/19/02 For use only by Roaring Jelly members
+
+#include "LeftHeader.h"
+% ---------- page 4 ----------
+
+X: 8
+T: My Home Waltz
+I: My Home Waltz	W-5	A	waltz
+C: W-5
+C: Old-Time
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: A
+ed| "A"c3 B A2| A2 c2 e2| "D"a2 g2 f2| "A"e4 d2|       c3 B c2| A2 B2 c2| "E7"d3 c d2| B4 ed|
+    "A"c3 B A2| A2 c2 e2| "D"a2 g2 f2| "A"e4 d2|       c3 A c2| "G"B3 =G B2| "A"A3 B A2| A4|]
+E2| "A"A3 B c2| c3 B c2| e3 d c2| c4 e2|    "E7"d3 c d2| B2 c2 d2| "A"e3 c A2| A4 ce|
+    "D"f3 d f2| a3 g f2| "A"e2 d2 c2| a4 d2|       c3 A c2| "G"B3 =G B2| "A"A3 B A2| A4|]
+% %text 1/2/99.  For use only by Roaring Jelly members
+% %text Also known as "My Own Home", "My Ain Home", and "My Own House".
+
+X: 9
+T: Gentle Maiden
+I: Gentle Maiden	W-5	G	waltz
+C: W-5
+C: Irish
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: G
+D2| "G"G3 A G2| "D7"F2 E2 D2| "G"d4 d2| "C"e2 f2 g2|    "G"d2 c2 B2| "G7"A4 G2| "C"E6-| E4 "D7"F2|
+    "G"G3 A G2| "D7"F2 E2 D2| "G"d4 d2| "C"e2 f2 g2|    "G"d3 c B2| "D7"A4 G2| "G"G6-| G4|]
+d2| "G"d3 e f2| "C"g4 g2| g4 g2| g2 f2 e2|    "G"d3 c B2| "G7"A4 G2| "C"E6-| E4 "D7"F2|
+    "G"G3 A G2| "D7"F2 E2 D2| "G"d4 d2| "C"e2 f2 g2|    "G"d3 c B2| "D7"A4 G2| "G"G6-| G4|]
+% %text For use only by Roaring Jelly members 1/2/99
+
+#include "RightHeader.h"
+% ---------- page 5 ----------
+
+X: 10
+T: Plaisir d'Amour
+I: Plaisir d'Amour	W-6	G	waltz
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+C: W-6
+K: G
+D| "G"G6| "D"A6| "G"B6| B4 z B| "C"[A6c6e6]| "G"B3 G B2| "D"A6| A4 z D|
+   "C"E6| "D"F6| "G"G4 AB| "C"E2 A3 c| "G"B6| "D"A6| "G"G6| [G,6G6]|]
+%%partsfont Times-Bold 13.0
+P: Alternate version
+%%partsfont Times-Bold 10.0
+D| "G"G6| "D"A2 BA GA| "G"B6| B4 z B| "C"[A6c6e6]| "G"B3 G B2| "D"A6| A4 z D|
+   "C"E6| "D"F6| "G"G4 AB| "C"E2 A3 c| "G"B6| "D"A6| "G"G2D2B,2| [G,6G6]|]
+%%text 9/1/98 For use only by Roaring Jelly members
+
+X: 11
+T: Come O'er the Stream, Charlie
+I: Come O'er the Stream, Charlie	W-7	G	waltz
+C: W-7
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: G
+D2| "G"G3 B d2| d2 B2 e2| d2 B2 g2| d2 B2 A2|       G3 B d2| d2 B2 G2| "D"D2 B2 A2| "G"G4:|
+d2| "G"g3 f g2| "C"e2 f2 g2| "A7"e2 a2 g2| "D"f2 e2 d2|    "G"g3 f g2| "C"e2 d2 c2| "G"B2 A2 G2| "D"d4 B2|
+    "C"c2 e2 c2| "G"B2 d2 g2| d3 B AG| "D"B2 A2 f2|    "C"g3 f e2| "G"d2 g2 B2| "D"d2 c2 A2| "G"G4|]
+%%text 9/1/98 For use only by Roaring Jelly members
+
+#include "LeftHeader.h"
+% ---------- page 6 ----------
+
+X: 12
+T: All Those Endearing Young Charms
+I: All Those Endearing Young Charms	W-7	G	waltz
+I: My Lodging's on the Cold Ground	W-7	G	waltz
+C: W-7
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: G
+BA| "G"G3 A G2| G2 B2 d2| "C"c2 e2 g2| g4 fe|    "G"d3 c B2| "D"A2 G2 A2| "G"B2 d2 B2| "D"A4 BA|
+    "G"G3 A G2| G2 B2 d2| "C"c2 e2 g2| g4 fe|    "G"d2 g2 B2| "D"A3 G A2| "G"G6-| G4|]
+dc| "G"B2 d2 g2| g4 d2| "C"e2 c2 g2| g4 fe|    "G"d3 c B2| "D"A2 G2 A2| "G"B2 d2 B2| "D"A4 BA|
+    "G"G3 A G2| G2 B2 d2| "C"c2 e2 g2| g4 fe|    "G"d2 g2 B2| "D"A3 G A2| "G"G6-| G4|]
+%%text 8/25/99.   For use only by Roaring Jelly members
+%%text Also known as "My Lodging's on the Cold Ground".
+
+X: 13
+T: Bonny Tyneside
+I: Bonny Tyneside	W-7	D	waltz
+C: W-7
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: D
+f>e| "D"d3 e d2| d2 F2 G2| A3 B A2| A4 AB|        d3 c d2| d2 e2 f2| "Em"e2 d2 B2| "A7"A4 f>e|
+     "D"d3 e d2| d2 F2 G2| A3 B A2| A4 (3ABc|        d2 d2 e2| "Em"f a3 f2| "A7"e3 d e2| d4|]
+fg| "D"a4 fg| a4 fg| a2 b2 f2| a4 fe|       d3 e d2| d2 e2 f2| "Em"e2 d2 B2| "A7"A4 f>e|
+    "D"d3 e d2| d2 F2 G2| A3 B A2| A4 (3ABc|       d2 d2 e2| f a3 f2| "Am"e3 d e2| "D"d4|]
+%%text 9/1/98 For use only by Roaring Jelly members
+
+X: 14
+T: Hvem Kan Segle Ulan Vind
+I: Hvem Kan Segle Ulan Vind	W-8	Am	waltz
+C: W-8
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: Am
+"Am"A4 B2| c2 B2 A2| e4 e2| e6| "Dm"d4 e2| f2 e2 d2| "Am"a6| e6|
+"Dm"d4 e2| f2 e2 d2| "Am"c4 c2| A6| "E7"B4 B2| E2 ^F2 ^G2| "Am"A6-| A6|]
+%%text 9/1/98 For use only by Roaring Jelly members
+
+#include "RightHeader.h"
+% ---------- page 7 ----------
+
+%%scale 1
+X: 15
+T: Bergman's Valtz
+I: Bergman's Valtz	W-8	Am	waltz
+C: W-8
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: Am
+E2| "Am"A3 ^G A2| "E"B4 c2| "Am"A4 A2| A4 E2| A3 ^G A2| "E"B4 c2| "Am"A6-| A4:|
+e2| "C"c4 e2| c4 e2| "Dm"f3 e f2| d4 d2| "G"B4 d2| B4 d2| "C"e3 d e4| c4 c2|
+    "Am"A4 c2| A4 d2| "Dm"B4 d2| B4 f2| "Am"e3 d c2| "E"d2 c2 B2| "Am"A6-| A4|]
+%text 9/1/98 For use only by Roaring Jelly members
+
+%%vskip 1cm
+%%textfont       Times-Roman 13.0
+%%text W-9, "The Star of the County Down", same as W-1
+%%textfont       Times-Roman 9.0
+
+X: 16
+T: Moragh of Dunvegan
+I: Moragh of Dunvegan	W-9	D	waltz
+C: W-9
+M: 3/4
+L: 1/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: D
+"A7"B2 c2| "D"d6| "G"d3 c B2| "D"A4 D2| D6|    F6| "Bm"F2 E2 F2| "Em"B4 A2| "A7"A3 B c2|
+"D"d6| "G"d3 c B2| "D"A4 D2| D6|   "Bm"F4 F2| "F#m"A4 F2| "A7"E6| "D"D6|]
+"D"F6| F2 E2 D2| F2 A4| A3 B c2|"G"d6| "D"d2 c2 d2| "Em"B4 A2| "A7"A6|
+"D"F6| "D7"F2 E2 F2| "G"B4 A2| "D"A6|"G"B6| "D"B2 A2 F2| "A7"E4 D2| "D"D2|]
+%%text 9/1/98 For use only by Roaring Jelly members
+
+#include "LeftHeader.h"
+% ---------- page 8 ----------
+
+X: 17
+T: Cori McLenon
+I: Cori McLenon	W-9	Am	waltz
+C: W-9
+C: Bob McQuillen \2511979
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: Am
+g2 f2| "Am"e3 d c2| "G"d2 c2 B2| "Am"A2 G3 E| "Em"G2 E2 G2|       "F"A2 B2 c2| "G"d3 c d2| "C"e6-| e2 g2 f2|
+"Am"e3 d c2| "G"d2 c2 B2| "Am"A G3 E2| "Em"G2 E2 G2|       "F"A2 B2 c2| "G"B3 A G2| "Am"A6-| A2 e2 f2|]
+"C"g3 a g2| g2 e2 g2| "F"a g3 a2| "C"g2 e2 d2|    e3 d c2| e3 a g2| e3 d c2| "G"B2 A2 G2|
+"Am"E2 A2 c2| "G"B3 A G2| "Am"A2 c2 d2| e3 a g2|    "F"e3 d c2| "G"B2 A2 G2| "Am"A6-| A2|]
+%%text 9/1/98 For use only by Roaring Jelly members
+
+X: 18
+T: Tipperary So Far Away
+I: Tipperary So Far Away	W-10	G	waltz
+C: W-10
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: G
+d2| "G"G4 B2| d4 g2| "C"e3 d e2| "D"d4 BA| "G"B2 G2 A2| "C"G4 G2| "G"G6-| G4 B2|
+    "G"d4 d2| "D"e4 f2| "Em"g4 g2| "D"f2 e2 d2| "C"e4 e2| e2 d2 B2| "D"d6-| d4 |]
+B2| "G"d4 d2| "D"e4 f2| "G"g4 g2| "D"f2 e2 d2| "C"e4 e2| "G"e2 d2 B2| "D"d6-| d2 B2 A2|
+    "G"G4 B2| d4 g2| "C"e3 d e2| "D"d4 BA| "G"B2 G2 A2| "C"G4 G2| "G"G6-| G4|]
+%%text 9/1/98 For use only by Roaring Jelly members
+
+#include "RightHeader.h"
+% ---------- page 9 ----------
+
+X: 19
+T: ? (There was no title for this waltz)
+I: ?	W-10	G	waltz
+C: W-10
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: G
+d2| "G"g2 f3 e| d2 G3 A| B3 c B2| "D"A4 AB| "Am"c2 d2 e2| "D"f2 e2 B2| "G"d6-| "D"d4 d2|
+    "G"g2 f3 e| d2 G3 A| B3 c B2| "D"A4 AB| "Am"c2 d2 e2| "D"B2 G2 A2| "G"G6-| G4 |]
+d2| "C"G2 c3 d| e2 g3 a| g4 e2| "G"d6| "Em"g6| "D"f2 e2 d2| "C"e6-| e6|
+    "Em"g4 g2| "D"f2 e2 d2| "Em"e2 d3 e| "Bm"B4 A2| "Em"B2 d2 e2| "D"B4 A2| "G"G6-| G4|]
+%%text 9/1/98 For use only by Roaring Jelly members
+
+X: 20
+T: Three Flowers, The
+I: Three Flowers, The	W-10	G	waltz
+C: W-10
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: G
+e2| "G"d4 d2| B4 g2| "D"f4 f2| A4- AB| c4 A2| F4 A2| "G"G6-| G6|
+    "G"d4 d2| "C"e4 g2| "D"a6| b4 a2| "G"g4 e2| "D"d4 e2| "G"g6-| g6|]
+"G"d4 d2| "C"e4 g2| "D"a6| b4 a2| "G"g4 e2| "D"d4 e2| "G"g6-| g2 f2 e2|
+"G"d4 d2| B4 g2| "D"f4 f2| A4- AB| c4 A2| F4 A2| "G"G6-| G4|]
+%%text 9/1/98 For use only by Roaring Jelly members
+
+#include "LeftHeader.h"
+% ---------- page 10 ----------
+
+X: 21
+T: South Wind
+I: South Wind	W-11	G	waltz
+H: from Robin C.
+C: W-11
+C: Irish
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: G
+dc| "G"B3 A G2| B3 c d2| "D7"A4 AB| A4 dc|    "G"B3 A G2| "C"E2 D2 E2| "G"G4 G2| G4:|
+d2| "G"g4 g2| "C"g3 f e2| "G"d4 d2| d4 c2| B3 A G2| B3 c d2| "D7"A4 AB| A4 d2|
+    "C"g4 g2| g3 f e2| "G"d4 BA| B4 dc| B3 A G2| "D7"A c3 F2| "G"G6| G4|]
+%%text 9/1/98 For use only by Roaring Jelly members
+
+X: 22
+T: Hewlett
+I: Hewlett	W-11	D	waltz
+C: W-11
+C: O'Carolan
+H: From Paul Milde 12/9/82
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: D
+AF| "D"D2 DE FG| "A"AB c2 A2| "Bm"d2 f2 fg| "G"fe d3 B|     "D"A2 F2 F2| "G"G3 B AG| "D"AF "G"D2 "A"D2|1 "D"D4:|2 "D"D6|]
+|:"D"A2 F2 AB| A2 F2 AB| A2 d2 d2| "Bm"dc BA GF| "Em"G2 E2 GA| G2 E2 EF| "A"GF GB AG| "D"AF D3 E|
+"D" FE F2 G2| "A"AB c2 A2| "Bm"fe fg ag| "G"fe d3 B|"D"A2 F2 F2| "G"G3 B AG| "D"AF "G"D2 "A"D2| "D"D6:|
+%%text 9/1/98 For use only by Roaring Jelly members
+
+X: 23
+T: Svensk-Anna's Waltz
+I: Svensk-Anna's Waltz	W-12	D	waltz
+H: from Matt Fichtenbaum 3/81
+C: W-12
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: D
+A FG| "D"A2 f3 e| "G"d2 c2 B2| "D"A2 F2 FG| A3 A FG|         A2 f3 e| d2 c2 d2| "A"e3 f ed| e3 A FG |
+      "D"A2 f3 e| "G"d2 c2 B2| "D"A2 F2 FG| A4 A2|      "G"B2 g2 f2| "A"e2 B2 c2| "D"d3 e dc| d3:|
+|:A FG| "D"A4 f2| A3 F GA| "G"B4 g2| B4 B2|     "A"c2 E2 EF| G3 F GA| B2 A2 G2| "D"FG FD FG|
+     "D"A4 f2| A3 F GA| "G"B4 g2| B4 B2|      "A"c3 d cB| A2 f2 e2| "D"d3 e dc| d3:|
+%%text 9/1/98 For use only by Roaring Jelly members
+
+#include "RightHeader.h"
+% ---------- page 11 ----------
+
+X: 24
+T: Rapp-Kalle's Waltz
+I: Rapp-Kalle's Waltz	W-12	D	waltz
+H: from Matt Fichtenbaum 3/81
+C: W-12
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: D
+D2| "D"DE FG AB| A2 gf ed| "A"cd eA Bc| "D"d2 AG FE|       DE FG AB| A2 gf ed| "A"cd eA Bc| "D"d4:|
+dd| "D"d2 c2 B2| "G"G4 B2| (3BcB A2 D2| "D"F4 A2|       (3ABA G2 A,2| "A"C4 d2| cd eA Bc|
+    "D"d2 c2 B2| "G"G4 B2| (3BcB A2 D2| "D"F4 A2|       (3ABA G2 A,2| "A"C4 d2| cd eA Bc| "D"d4:|
+|2| "D"a2 fd fa| a2 fd fa| a2 g2 f2| "A"g4 g2|       g2 ec eg| g2 ec eg| g2 f2 e2| "D"f4 a2|
+    "D"a2 fd fa| a2 fd fa| a2 g2 a2| "G"b4 g2|    "D"f3 g f2| "A"e3 f e2| A2 B2 c2| "D"ed cd fe| d4:|
+%%text 9/1/98 For use only by Roaring Jelly members
+
+X: 25
+T: Noel's Waltz
+I: Noel's Waltz	W-13	G	waltz
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+M: 3/4
+C: W-13
+K: G
+D2| "G"G3 A Bc| d2 B2 d2| "C"e3 d ce| "G"d4 d2|    "D"c2 A3 c| "G"B2 G2 B2| "D"A2 d2 "A7"e2| "D"f4 d2|
+    "G"g4 ba| "Em"g4 gf| "C"e4 gf| "Am"e4 dc|    "G"Bc d2 B2| "D"c2 A2 ed| "D7"cB A2 F2| "G"G4|]
+Bc| "G"d4 Bc| d4 ed| "Am"c4 cB| A4 AB|    "D"c3 d ed| "D7"c2 B2 A2| "G"B3 A GB| "D"A4 D2|
+    "G"G3 A Bc| d2 B2 d2| "C"e3 d ce| "G"d4 d2|    "D"c2 A2 c2| "G"B2 d2 G2| "D7"AB c2 F2| "G"G4|]
+%%text 9/1/98 For use only by Roaring Jelly members
+
+#include "LeftHeader.h"
+% ---------- page 12 ----------
+
+X: 26
+T: Limerick Rake, The
+I: Limerick Rake, The	W-13	Em	waltz
+H: "waltzified" by C. B.
+C: W-13
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: Em
+D2| "Em"E3 G F2| E2 D2 E2| G3 A B2| "Am"e4 e2| "Em"d3 B B2| "D"A2 F2 G2| A3 F E2| D4 D2|
+    "Em"E3 G F2| E2 D2 E2| G3 A B2| "Am"e4 e2| "Em"d3 B B2| "D"A2 F2 F2| "Em"E2 E4-| E4:|
+|:e2| "Em"e3 B B2| e2 f2 e2| d3 B B2| d4 e2| d3 B B2| "D"A2 F2 G2| A3 F E2| D4 D2|
+    "Em"E3 G F2| E2 D2 E2| G3 A B2| "Am"e4 e2| "Em"d3 B B2| "D"A3 F F2| "Em"E2 E4-| E4:|
+%%text 9/1/98 For use only by Roaring Jelly members
+
+X: 27
+T: Amelia's
+I: Amelia's	W-14	D	waltz
+C: W-14
+C: Bob McQuillen \2511981
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: D
+FE| "D"D3 E D2| D2 F3 E| D2 F2 B2| "F#m"A4 A2|    "G"B3 G B2| "D"A2 F2 E2| "Bm"D3 B, B,2| "G"B,4 "A"A,B,|
+    "D"D3 E D2| D2 F3 E| D2 F2 B2| "F#m"A4 A2|    "G"B3 c d2| "D"d2 e2 f2| "A"e2 c2 A2| A4:|
+|:ag| "D"f3 a f2| a2 f3 d| "A"e3 c A2| A4 fe|    "Bm"d3 B d2| f2 d2 B2| "F#m"c3 A F2| F4 A2|
+    "G"G3 B G2| "D"F2 A3 d| "A"e2 c2 A2| "Bm"d4 f2|    "G"g3 f e2| "D"a2 f2 d2| "A"d2 e3 c| "D"d4:|
+%%text 9/1/98 For use only by Roaring Jelly members
+
+%%vskip 1cm
+%%textfont       Times-Roman 13.0
+%%text W-15, "The Black Bear", moved to R-127
+%%textfont       Times-Roman 9.0
+
+%%textfont       Times-Roman 13.0
+%%text W-15, "Hewlett", same as W-11
+%%textfont       Times-Roman 9.0
+
+%%textfont       Times-Roman 13.0
+%%text W-15, "Da Slockit Light", moved to R-127
+%%textfont       Times-Roman 9.0
+
+%%textfont       Times-Roman 13.0
+%%text W-16, "Redwing", moved to S-R
+%%textfont       Times-Roman 9.0
+
+%%textfont       Times-Roman 13.0
+%%text W-16, "My Little Girl", moved to S-M
+%%textfont       Times-Roman 9.0
+
+#include "RightHeader.h"
+% ---------- page 13 ----------
+
+X: 28
+T: Jacqueline's Waltz
+I: Jacqueline's Waltz	W-17	A	waltz
+C: W-17
+C: Tom Anderson  1980
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: A
+AB| "A"c4 Bc| "E"d4 cd| "A"e2 c2 B2| A4 Bc|     "D"d2 c2 d2| "A"e2 c2 A2| "E"B6-| B4 AB|
+    "A"c4 Bc| "E"d4 cd| "A"e2 c2 A2| "D"a4 gf|     "A"e2 c2 A2| "E"d2 c2 B2| "A"A6-| A4:|
+fg| "A"a3e c2| "D"f2 d2 B2| "A"e3c B2| A4 Bc|     "D"d2 c2 d2| "A"e2 c2 A2| "E"B6-| B4 fg|
+    "A"a3e c2| "D"f2 d2 B2| "A"e2 f2 g2| "D"a4 c2|     "Bm"d2 c2 d2| "E"e2 c2 B2| "A"A6-| A4 fg|
+    "A"a3e c2| "D"f2 d2 B2| "A"e2 c2 B2| A4 Bc|     "D"d4 ef| "A"e2 c2 A2| "E"B6-| B4 AB|
+    "A"c4 Bc| "E"d4 cd| "A"e2 c2 A2| "D"a4 gf|     "A"e2 c2 A2| "E"d2 c2 B2| "A"A6-| A4|]
+%%text 9/1/98 For use only by Roaring Jelly members
+
+X: 29
+T: Margaret's Waltz
+I: Margaret's Waltz	W-18	A	waltz
+C: W-18
+C: Pat Shaw \2511959
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: A
+c2| "A"E3F AB| c4 c2| "D"BA F2 A2| "E7"B4 c2|     "A"E3F AB| c3d e2| "E7"c4 B2| "A"A4:|
+cd| "C#m"e3f ge| "F#m"a4 a2| "D"fe d2 f2| "E7"e3d cB|    "A"A3B cd| "F#m"e4 e2| "D"cB A2 c2| "E7"B4 cd|
+    "C#m"e3f ge| "F#m"a3g f2| "Bm"e2 d2 c2| "E7"B4 c2|     "A"E3F AB| c3d e2| "E7"c3A B2| "A"A4|]
+%%text 9/1/98 For use only by Roaring Jelly members
+
+#include "LeftHeader.h"
+% ---------- page 14 ----------
+
+X: 30
+T: Valse des Jouets (From "The Waltz Book", Bill Matthiesen)
+I: Valse des Jouets	W-19	D	waltz
+I: Waltz of the Toys	W-19	D	waltz
+C: W-19
+C: Michel Faubert
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: D
+F Ad|"D"fe fg fe| "G"dB AF D2| "D"fe fg fe| "G"dB AF D2|     "Em"ed ef ed| "A"c3d cB| "G"AE AB cA| "D"dB AF "A7"Ad|
+     "D"fe fg fe| "G"dB AF D2| "D"fe fg fe| "Bm"dB AF D2|     "Em"ed ef ed| "A"c3d cB| "G"AB AG "A7"FE| "D"D3:|
+|:d dc| "D"dA FA dA| "G"B3d dB| "A"cA Bc de| "D"f3f df|      "Bm"bf df bf| "Em"g3e ed| "A7"ce Ac ae| "D"f3d dc|
+      "Bm"BF FB BF| "G"G3e ed| "A"cB AG FE| "F#"F4- F2|      "G"GF GA Bc| "D"de f3f| "A7"ge ce BA| "D"d3:|
+%%text 10/21/98  Also known as "Waltz of the Toys". For use only by Roaring Jelly members
+
+X: 31
+T: Seamus O'Brien
+I: Seamus O'Brien	W-20	G	waltz
+C: W-20
+C: Irish
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: G
+g>f| "G"e2 d2 BA| G4 DD| "C"E2 G2 E2| "G"D3E DC|        B,2 D2 GB| "Em"e2 d2 B2| "Am"A3G AB| "D"A4 gf|
+     "G"e2 d2 BA| G4 DD| "C"E2 G2 c2| "C#dim"e3g fe|      "G"d2 B2 G2| "D"AE3 F2| "G"G3F GA| G4|]
+B2| "Em"e3d ef| g2 f2 e2| "B"f2 B3c| B4 B2|    "Em"e3d ef| g2 f2 g2| "C"a6| "D"g4 f2|
+    "G"e2 d2 BA| G4 DD| "C"E2 G2 c2| "C#dim"e3g fe|     "G"d2 B3G| "D"A2 E2 F2| "G"G4- GA| G4|]
+%%text 9/1/98 For use only by Roaring Jelly members
+
+#include "RightHeader.h"
+% ---------- page 15 ----------
+
+X: 32
+T: Sweet Baby James Waltz
+I: Sweet Baby James Waltz	W-21	A	waltz
+C: W-21
+C: Aram Hollman
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+%%staffwidth 12.5cm
+K: A
+(3::2e2d| "F#m"c2 (F2 (3::2F2)F| F4 (3::2F2E| "D"D2 (A2 (3::2A2)B| A4 f2|
+          "A"e4 c2| (c2 (3::2c2)B A2| "Bm"B6-| "E"B4 (3::2e2d|
+          "F#m"c2 (F2 (3::2F2)F| F4 (3::2F2E| "D"D2 (A2 (3::2A2)B| A4 f2|
+          "A"e4 c2| "E"(B2(3::2B2)A B2| "D"A6-| "A"A2 c2 e2|]
+       "F#m"f4 (3::2f2e| "D"(f2 (3::2f2)e f2| "A"(3::2ec2- c2B2| A2 c2 e2|
+       "D"f4 f2| "A"(3::2ec2- c2 e2| "F#m"f6-| f2c2e2|
+       "F#m"f4 (3::2f2e| "D"(f2 (3::2f2)e f2| "A"(3::2ec2- c2B2| (A2 (3::2A2)B c2|
+       "Bm"B4 (3::2B2 c| "C#m"B2 A2 E2| "D"F2 (A2 (3::2A2)A| "E"B4 (3::2e2 d|
+       "F#m"c2 (F2 (3::2F2)E| "D"F2 (A2 (3::2A2)B| "A"A6-| A4|]
+%%text 9/1/98 For use only by Roaring Jelly members
+
+%%vskip 1cm
+%%textfont       Times-Roman 13.0
+%%text W-22, "Growling Old Man and Grumbling Old Woman", moved to R-127
+%%textfont       Times-Roman 9.0
+
+#include "LeftHeader.h"
+% ---------- page 16 ----------
+
+X: 33
+T: Ed Shaw's Waltz
+I: Ed Shaw's Waltz	W-22	D	waltz
+C: W-22
+C: Ed Shaw  August 1987
+M: 3/4
+L: 1/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: D
+"D"[A3d3f3]| [d2f2][Ae]| "G"[G2d2] "Em"[EB]| "D"[D3A3]|   A>B[Ad]| [d2f2][Adf]| "A"[A3c3e3]| "A7"zBc|
+"D"[A3d3f3]| [d2f2][Ae]| "G"[G2d2] "Em"[EB]| "D"[D3A3]|   [DA][GB][Fd]| AD "A"[Ge]| "D"DAG| [F3d3]|]
+"D"[d2f2a2] "G"[gb]| "D"[d2a2] "G"[Bg]| "D"[A2f2] "A"[Ge]| "D"[F3d3]|"D"[Af] "Em"[Ge] "D"[Fd]| "D"[Adf] "Em"[GBe] "D"[FAd]| [A3d3f3]| "G"[d3g3b3]|
+"D"[F2d2a2] "G"[Gdb]| "D"[F2d2a2] "G"[EBg]| "D"DA "A"[Ge]| "D"FA "A"[Ge]|"D"[Af] "Em"[Ge] "D"[B,Fd]| [A,Adf] "Em"[B,GBe] "D"[DFAd]| A,D "A"[CGe]| "D"[D3F3A3d3]|]
+%%text 9/1/98 For use only by Roaring Jelly members
+
+X: 34
+T: Forest Flower Waltz
+I: Forest Flower Waltz	W-23	Bm	waltz
+C: W-23
+M: 3/4
+L: 1/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: Bm
+F/F/|: "Bm"FBc| dcB| [(B3(f3]| [B2)f2)] F/F/| FBc| dcB| "Em"[(B3(g3]| [B3)g3)]|
+efg| gfe| ed>e| "Bm"f3| "F#"F=F^F| "Em"d2c| "Bm"B3-| B2:|
+|:b/_b/| "Bm"bf>=f| ^fd>c| dB>_B| =Bdf| "Em"[(B3(g3]| [B)g)]ag| "Bm"[(B3(f3]| [B3)f3)]|
+"Em"fe>_e| =e3| "Bm"ed>c| d3| "F#"F=F^F| "Em"d2c| "Bm"B3-|1 B2:|2 B|]
+|:b_b| "A"([c3a3]| a)bg| "D"([d3f3]| f)gf| "A"([c3e3]| e)fe| "D"([F3d3]| d)ed|
+   "A"([E3c3]| c)dc| "Bm"[(D3(B3]| [D3)B3)]| "F#m"F=F^F| "Em"d2 c| "Bm"B3-|1 B :|2 B2|]
+%%text 9/1/98 For use only by Roaring Jelly members
+
+#include "RightHeader.h"
+% ---------- page 17 ----------
+
+X: 35
+T: Midnight on the Water
+I: Midnight on the Water	W-24	D	waltz
+C: W-24
+C: Luke Thomasson
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: D
+A, DE| "D"F4 F2| "(DM7)"F4 FE| "(D6)"F2 A3 B| "D"AF D2 D<E|          F2 d2 "G"B2| "D"A3 D ED| "A7"FB AF ED| "D"D3:|
+|:A Bc| "D"d4- dd| "(DM7)"dc BA Bc| "(D6)"d3 B AF| "D"D4 d2|      "Em"e4 ef| e2 d2 e2| "Bm"f3 a fe| dc BA Bc|
+      "G"d4 de| d2 c2 B2| "D"A3 B AG| FE D[A,E] DE|         F2 d2 "G"B2| "D"A3 D ED| "A7"FB AF ED|1 "D"D3:|2 "D"d3|]
+%%begintext ragged
+%%This is the version played by George Wilson.  Though Benny Thomasson is listed as
+%%the copywright holder, I've been told this tune was actually composed by his
+%%father, Luke Thomasson.  It's been recorded many times, including versions on
+%%"The Hammered Dulcimer" by Fennig's All-Stars (Front Hall Records); by Jay Ungar
+%%on "Songs, Ballads & Fiddle Tunes" (Philo); and on "Goin' to Town" by Jim
+%%Johnson, 6937 Salem Rd, Cincinnati, OH 45230.
+%%endtext
+%%text For use only by Roaring Jelly members 9/1/98. From "The Waltz Book", Bill Matthiesen.
+
+X: 36
+T: Ashokan Farewell
+I: Ashokan Farewell	W-25	D	waltz
+C: W-25
+C: Jay Ungar  \2511983
+M: 3/4
+L: 1/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: D
+A/c/| "D"d>c B/A/| "D/F#"F2 E/F/| "G"G>F E/D/| "Em"B, D> B,|      "D"A,DF| "Bm"Adf|1 "G"f>gf| "A7"e2:|2 "A7"Ace| "D"d2|]
+F/G/| "D"A>FD| "D7/F#"d2A| "G"B>cd| "D"A<FE|       F>ED| "Bm"B,2 G,| "A"A,3| "A7"A2 F/E/|
+      "D"DFA| "C"=c3| "G"B>cd| "D"AFD|      A,DF| "Bm"AdF| "A7"E>DC| "D"D2|]
+%%begintext ragged
+%%"At the end of the third summer of Ashokan in '82, I was particularly feeling the
+%%post-camp syndrome of finding it hard to return to what we mistakenly call the
+%%'real world.'  I really missed the people and the joy of having music and dance
+%%so much a part of my daily life.   Kind of like 'Brigadoon,' it's a world of its
+%%own, separate from the rest of life.  And each summer when these things end, you
+%%don't really know if it'll happen again.   So one morning I picked up my fiddle
+%%and started playing the saddest lament I could come up with - as a way of saying
+%%goodbye to that summer". Jay Ungar, RD 1 Box 489, West Hurley, NY 12491
+%%
+%%"Ashokan Farewell" is the 'goodbye' tune played at the end of each week of the
+%%music and dance camp run by Jay Ungar and Molly Mason, and holds emotional
+%%memories for many who have enjoyed the Ashokan experience.   Fiddle Fever's
+%%arrangement of "Ashokan Farewell" was the cornerstone for the soundtrack of the
+%%celebrated PBS series, "The Civil War", (Electra/Nonesuch) which won a Grammy
+%%award and was nominated for an Emmy.   It's also recorded on "Songs of the Civil
+%%War" (Sony/CBS); on "Waltz of the Wind"; and on "The Best of Fiddle Fever"
+%%(Flying Fish).
+%%endtext
+%%text 9/1/98.  From "The Waltz Book", Bill Matthiesen. For use only by Roaring Jelly members
+
+#include "LeftHeader.h"
+% ---------- page 18 ----------
+%%scale .8
+X: 37
+T: Planxty Fanny Power
+I: Planxty Fanny Power	W-26	G	waltz
+C: W-26
+C: O'Carolan
+M: 3/4
+L: 1/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: G
+"G"G2D| G2 A/B/| "Am"c2B| A2G| "D7"F2E| D2 E/D/| F2G| A2c|
+"G"B2 A/G/| Bcd| "C"e2A| "Am"A2G| "D7"F2 E/D/| DEF| "G"G3-| G2 D:|
+|:"G"dB/c/d| "G/F#"dB/c/d| "G/E"G2G| "G"G2G| "C"ec/d/e| "C/B"ec/d/e| "Am"A2A| "D"A2d/c/|
+"G"B>cd| "C"e>fg| "D"f>ga| d2c| "G"B>AG| "D7"A<cF| "G"G3-| G3:|
+%%begintext ragged
+%%A "planxty" is a melody or poem created in honor of friends and patrons.  Fanny Power was the daughter of David and Elizabeth
+%%Power, of Coorheen, Loughrea.  She married Richard Trench of Garbally, County Galway, in 1732.  Recorded by Walt Michael on "The
+%%Good Old Way" (Front Hall records); by the Glasnotes on "Live From California" (Avocet records); and by Patrick Ball on "Music of
+%%Turlough O'Carolan" (Fortuna records).
+%%endtext
+%%text 9/1/98. From "The Waltz Book", Bill Matthiesen.
+%%vskip .5cm
+
+X: 38
+T: Lady Lepley
+I: Lady Lepley	W-27	C	waltz
+C: W-27
+C: Ed Pearlman  10/84
+M: 3/4
+L: 1/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: C
+G|: "C"c2G| "G"d2G| "C"e>dc| "G"Bce/d/| "Am"c>BA| "Em"GAc| "F"A3-| "G"A2 G|
+"C"c2G| "G/B"d2G| "Am"e>de| "C/E"ga_b| "F"a>gf| "Em"e/f/gG| "F"A3-| "Em/G"Aeg|
+"F"f/g/a2| "C"e/f/g2| "G"deg/f/| "C"e>dc| "F"f>af| "C"e/f/gG| "Dm"e>dc| "G"A2G|
+"C"c2G| "G/B"d2G| "Am"e>de| "C/E"ga_b| "F"a>gf| "C"e>dc|1"F"A>GF-| "G"F2 G:|2 "F"A/G/F2-| "G"F2 E/F/|] "C - go out on"H[C3G3]|]
+%%text 9/1/98 For use only by Roaring Jelly members
+
+#include "RightHeader.h"
+% ---------- page 19 ----------
+
+X: 39
+T: Marleen's Last Goodnight
+I: Marleen's Last Goodnight	W-28	G	waltz
+C: W-28
+C: Bruce A. Randall 1992
+M: 3/4
+L: 1/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: G
+G/A/| "G"Bzd/B/| "D"ABA| "C"GEG| "G"D2G/A/| Bzd/B/| GAB| "A7"AEG| "D"F2G/A/|
+      "G"Bzd/B/| "D"ABA| "C"GEG| "G"D2G/A/| Bdz/B/| "D"ABA| "C"G3-| "G"G2|]
+|:d/d/| "C"ece| g2f/e/| "G"dBd| g2 d/d/|"A"^cBA| "A7"AB^c| "D"d3-| "D7"d2G/A/|
+      "G"Bzd/B/| "D"ABA| "C"GEG| "G"D2G/A/| Bdz/B/| "D"ABz/A/| "C"G3-| "G"G2:|
+%%text 9/1/98 For use only by Roaring Jelly members
+
+X: 40
+T: Rose by the Door, The
+I: Rose by the Door, The	W-29	D	waltz
+C: W-29
+C: Andrea Hoag 511985
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: D
+DE| "D"F3G F2| "A"E4 E2| "Bm"F2 G2 A2| "G"B4 d2|    "D (F#m)"AF3 A2| "F#m (Bm)"F2 E3D| "G (A)"E6-| "A"E4 DE|
+    "D"F2 G3F| "A"E4 E2| "Bm (D)"F2 G2 A2| "G"B4 cd|    "D"AF3 A2| "A"F2 E3D| "D"D6-|1 D4:|2 D3|]
+|:d2c| "G"B4 BA| "D (F#m)"A4 d2| "A"ed3 e2| "D"f4 f2|     "Em"e2 d2 e2 | "F#m"fa3 a2| "G"b4 af| "A"e4 e2|
+     "D"f3 g2 f| "A"e4 d2| "G (Bm)"B2 A3G| "F#m"A4 dc|     "G"B4 AF| "A"E4 ED| "D"D6-|1 D3 :|2  D4|]
+W: The rose by the door, I've seen it before, but never as lovely as now.
+W: With you by my side, I'm filled with such pride, makes everything different somehow.
+W: If my love were a boat, I'd set it afloat, and send it to gather up sun.
+W: When it couldn't hold more, I'd bring it to shore, a present for my darling one.
+W: Come dance through the night, your feet are so light.
+W: Your hands make such music, I ne'er saw the like.
+W: And when we are old, 'twill be better than gold, this day of the rose by the door.
+%%begintext ragged
+%%"It's hard to know where to write the dots, as they're never the same twice.  I
+%%was sitting in the early morning sun on the back steps of the sound crew house at
+%%Fiddle Tunes week in Port Townsend, WA.  A young couple in love came out and
+%%walked across the sunny field.  Roses were growing there by the door".  Andrea
+%%Hoag, 7425 Buffalo Ave, Takoma Park, MD 20912.
+%%endtext
+%%text 9/1/98.  From "The Waltz Book", Bill Matthiesen. For use only by Roaring Jelly members
+
+#include "LeftHeader.h"
+% ---------- page 20 ----------
+
+X: 41
+T: High Clouds
+I: High Clouds	W-30	G	waltz
+C: W-30
+C: David Kaynor  \2511980
+M: 3/4
+Z: Transcribed to ABC by Mary Lou Knack
+R: waltz
+K: G
+D2 |: "G"G3F GA| Bd3 D2| "C"E4 ED| EG3 FE| "G"D2 G2 "D"A2| "G"Bd3 "C"c2|1      "Am"BA z2 G2| "D"[D4A4] (3DEF :|2 "D"B3G A2| "G"[G,4G4]|]
+Bc| "G"d3B GD| "C"EG3 E2| "D"D3E DC| "G"B,4 Bc|        d2 B3A| "Em"G2 F2 G2| "A"A4- AB| "D"A4 Bc|
+    "G"d3B GD| "C"EG3 E2| "D"D3E DC| "G"B,2 C2 D2|     "C"E3F GB| "D"A4 G2| "G"G6-| G4|]
+%%begintext ragged
+%%"This was composed when I was working in a high school special ed program,
+%%helping a teacher who was showing some of his photographs to a particularly
+%%inattentive and unappreciative group of kids.  He had taken exquisite pictures of
+%%clouds - that's where I got the idea for the tune".  Recorded on 'The Chimes of
+%%Dunkirk', from New England Dancing Masters Productions, 6 Willow St, Brattleboro,
+%%VT 05301.
+%%endtext
+%%text 9/1/98.  From "The Waltz Book", Bill Matthiesen. For use only by Roaring Jelly members
+
+X: 42
+T: Take Me Out to the Ballgame
+I: Take Me Out to the Ballgame	W-31	F	waltz
+C: W-31
+C: Albert von Tilzer
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: F
+"F"F2 z2 f2| d2 c2 A2| "C"c6| G6| "F"F2 z2 f2| d2 c2 A2| "C"c6-| c6|
+"D7"d2 ^c2 d2| A2 B2 c2| "Gm"d4 B2| G6| "G7"d4 d2| d2 e2 f2| "C"g2 e2 d2| c2 B2 G2|
+"F"F2 z2 f2| d2 c2 A2| "C"c6| G4 A2| "F"F4 G2| "F7"A2 B2 c2| "Bb"d6-| d2 d2 e2|
+"Bb"f2 z4| "Bdim (Bb)"f2 z4| "F"f2 e2 d2| "D7"c2 =B2 c2| "G7"d6| "C"e6| "F"f6-| f2 z4|]
+%%text 9/1/98 For use only by Roaring Jelly members
+
+#include "RightHeader.h"
+% ---------- page 21 ----------
+
+X: 43
+T: Little Rascals
+I: Little Rascals	W-31	C	waltz
+C: W-31
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: C
+"(G)"G2 ^F2 =F2 | "C"E4 G2| A4 c2| e6| "Cdim"a6| "C"g4 e2| f4 e2| "F"A6-| A6|
+"G"F4 G2| A4 B2| d6| f4 b2| a4 g2| "G+"^f4 =f2| "C"e6-| "(G)"e6|
+"C"E4 G2| "(Cdim)"A4 c2| "C"e6| "Cdim"a6| "C7"g4 e2| d4 c2| "F"c'6-| c'6|
+"(Fdim)"a4 a2| "C"g4 c2| "(Abdim)"f4 e2| "Am"A4 c2| "D"d4 e2| "G"G4 A2| "C"c6|]
+%%text 9/1/98 For use only by Roaring Jelly members
+
+X: 44
+T: the Sound of Jura
+I: Sound of Jura, The	W-32	G	waltz
+C: W-32
+C: Eric Scott
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: G
+GE| "G"D4 D2| "C"G2 A2 G2| "D"A4 A2| "G"d4 "C"ed|     "G"B4 B2| "D"A2 B2 d2| "G"B2 A2 E2| "C"G4 GE|
+    "G"D4 D2| "C"G2 A2 G2| "D"A2 B2 d2| "C"e4 e2|     "G"d4 d2| "C"e3d B2| "D"A2 G2 E2| "G"G4 "Bm"B,2|
+    "Em"E4 E2| B2 A2 A2| B2 d2 B2| e4 de|     "C"g4 ed| "G"B2 d2 e2| "C"e2 d2 e2| "D"A4 GE|
+    "G"D4 D2| "C"A2 G2 A2| "D"B2 d2 A2| "G (Em)"B4 Bd|     "C"e3d e2| "G"B2 A2 B2| "D"A4 F2| "Em"E4|]
+%%text 1/2/99 For use only by Roaring Jelly members
+
+#include "LeftHeader.h"
+% ---------- page 22 ----------
+
+%%scale .8
+%%textfont       Times-Roman 9.0
+X: 45
+T: Valse
+I: Valse	W-33	D	waltz
+C: W-33
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: D
+A2| "D"f4 e2| "G"d4 c2| B2 c2 d2| "D"A4 A2| f4 e2| "G"d4 c2| "A"B2 a2 a2| a6|
+    "D"f4 e2| "G"d4 c2| B2 c2 d2| "D"A4 d2| "Em"B2 e2 d2| "A"c2 f3e| "D"d2 a2 f2| d4 :|
+A2| "D"ff f2 A2| ff f2 A2| f2 a2 f2| d4 A2| "A"ee e2 e2| ee e2 e2| e2 d2 e2| "D"f2 d2 A2|
+    "D"f4 e2| "G"d4 c2| B2 c2 d2| "D"A4 d2| "G"B2 e2 d2| "A"c2 f3e| "D"d2 a2 f2| d4 |]
+%%text ---------
+|:"Bm"B2 d2 e2| f6| "Em"d2 c2 d2| e6| "Bm"d2 B2 d2| "A"c6| B2 c2 A2| "Bm"B6 :|
+|:"Bm"f3e de| f2 d2 B2| "A"e3d cd| e2 d2 B2| "Bm"f3e de| f2 d2 B2| "A"d2 c2 A2| "Bm"B6 :|
+%%begintext ragged
+%%The Waltz in Brittany, as in the rest of France, is played at a brisk pace, at
+%%approximately 72 bars per minute.   The first tune given here is a Breton version
+%%of the Scottish tune "Mrs. Elder's Welcome".
+%%endtext
+%%text 9/1/98 For use only by Roaring Jelly members
+
+%%text W-33, "Scottish Set", moved to R-128
+
+$SmallRMargin
+X: 46
+%%topspace    0
+T: My Cape Breton Home
+I: My Cape Breton Home			W-34	G	waltz
+C: W-34
+C: Jerry Holland \2511988
+Z: Transcribed to abc by Mary Lou Knack
+R: Waltz
+M: 3/4
+% slow air
+K: G
+g| "G"g3g fg| "D"a2 f2 d2| "C"c3c Bc| "G"d2 B2 G2|       g3g fg| "D"a2 f2 d2| "Am7"c3c Bc| "D7"d3 f2 [gB]|
+   "G"[g3B3] g fg| "D"a2 f2 d2| "C"c3c Bc| "G"d2 B2 G2|    "Am7"Ec3 cB| "D"A3G F2| "G"G6| G4-G:|
+D| "G"D3G B2| "C"c3c Bc| "G"d3B G2| "Am"A2 G2 "D7"E2|    "G"D3G B2| "C"c3c Bc| "G"dg3 gf| "D7"d2 c2 A2|
+   "G"D3G B2| "C"c3c Bc| "G"d3B G2| "Am"A2 G2 "D7"E2|    "G"Dg3 fg| "Am7"d2 c2 "D7"A2| "G"G6| G4-G|]
+%%begintext ragged
+%%Originally written for Jerry's dad; a man who had a tender spot in his heart for an air played
+%%with expression.  It was Jerry's father who introduced Jerry to Cape Breton music.  The tune
+%%"My Cape Breton Home" was given its title to express the love they had for Cape Breton,
+%%its music, and its people.
+%%endtext
+%%text 1/19/02 For use only by Roaring Jelly members
+
+#include "RightHeader.h"
+% ---------- page 23 ----------
+
+X: 47
+T: Tillie's a Treasure
+I: Tillie's a Treasure	W-35	A	waltz
+C: W-35
+C: Leslie Fuller 1996
+Z: Transcribed to abc by Mary Lou Knack
+R: Waltz
+M: 3/4
+K: A
+"A"E4 FE| A6| "E7"E4 FE| B6| "A"E4 FE| c6| "D"d3c B2| "E7"A2 G2 F2|
+"A"E4 FE| A6| "E7"E4 FE| B6| "A"c2 B2 A2| "E7"B2 F2 G2| "A"A6-| A6 :|
+|:cd| "A"e6| "E7"d6| "A"c6| "E7"B6| "A"A4 A2| A2 B2 c2| "E7"c2 B2 A2| B4 cd|
+    "A"e6| "E7"d6| "A"c6| "E7"B6| "A"A4 A2| "E7"A2 B2 G2| "A"A6-| A4 :|
+%%text 9/1/98 For use only by Roaring Jelly members
+
+X: 48
+T: Ash Grove, The
+I: Ash Grove, The	W-36	A	waltz
+C: W-36
+C: Welsh
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: Waltz
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: A
+E2|: "A"A2 c2 ed| c2 A2 A2| "Bm"B2 dc BA| "E"G2 E2 E2|    "A"A2 cB AG| "D"F2 D2 F2| "E"E2 A2 G2|1 "A"A4-AE :|2 "A"A4 cd|]
+   "A"e2 cd ef| "E"e2 d2 c2| d2 Bc de| d2 c2 B2|    "A"c2 AB cd| "F#m"c2 B2 A2| "E"G2 e2 "B"^d2| "E"e4 E2|
+   "A"A2 c2 ed| c2 A2 A2| "Bm"B2 dc BA| "E"G2 E2 E2|    "A"A2 cB AG| "D"F2 D2 F2| "E"E2 A2 G2| "A"A4|]
+%%text 9/1/98   Formerly R-35 For use only by Roaring Jelly members
+
+#include "LeftHeader.h"
+% ---------- page 24 ----------
+
+X: 49
+T: Disarmament Waltz
+I: Disarmament Waltz	W-37	G	waltz
+C: W-37
+C: Micah Solomon
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: G
+"G"B4 c2| B2 A2 G2| "C"G4 A2| G4 E2| "G"D4 E2| G2 A2 B2| "C"E6| "D"D2 E2 F2|
+"Em"G6| E6| "C"G2 F2 E2| E3F GA| "G"B4 d2| "D7"c3B A2| "G"G6-| G6:|
+"G"d6| B6| "C"c2 B3 A| G6| "G"d4 e2| d2 c2 B2| "C"e6| "D"f2 g2 a2|
+"Bm"d6| d6| "Em"e2 d2 B2| "C"G4 A2| "Em"B4 c2| "D"d4 ef| "G"g6-| g6|
+"Em"e4 B2| B4 e2| "Bm"d6-| d2 B2 d2| "Em"e4 B2| B4 B2| "Am"c2 B3 c| "D"d2 e2 f2|
+"G"g4 f2| "G7"d6| "Em"e4 dB| "G"G6| "C"c2 B2 A2| G6| "Am"c4 B>A| "D"G4 A2| "G"G6-| G2 z4|]
+%%text 9/26/98  Formerly R-78 For use only by Roaring Jelly members
+
+X: 50
+T: Far Away
+I: Far Away	W-38	Bm	waltz
+C: W-38
+C: \2511986 Peter Jung
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: Bm
+FA| "Bm"B3 F Bd| "F#m"cA F2 FA| "Bm"B3 F Be| "A"c4 dc|
+"G"B3 G Bd| "F#m"cA F2 de| "Bm"fe dc "A"BA|1 "Bm"B4 :|2 "G"B4 |]
+|:de| "D"f3 d fa| "A"ec A2 de| "D"f2 fd fa| "Em"e4 de|
+"Bm"fd Be "A"cA| "G"dB Gc "F#m"AF| "Bm"F2 B2 "F#m"A2| "Bm"B4 :|
+%%text 2/15/99 For use only by Roaring Jelly members
+
+#include "RightHeader.h"
+% ---------- page 25 ----------
+X: 51
+T: Great Waltz of China, The
+I: Great Waltz of China, The	W-39	D	waltz
+C: W-39
+C: \2511985 Mark Simos
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+%%scale .8
+K: D
+"D"A2 FA "G"Bd| "D"A2 BA "A/C#"FE| "Bm"F2 DF "Bm/A"EF| "Gsus2"DB, A,4|
+"D"A2 Fd "G"BA| "Bm"F3 (3E/F/E/ D>F| "F#m"A6-| "A"A6-|
+"D"A2 FA "G"Bd| "D"A2 BA "A/C#"FE| "Bm"F2 EA "Bm/A"FD| "G"ED B,3A|
+"D"F4 B,A,| "A"E4 B,A,| "G"D6-| D6:|
+|:"A"EF AB "Bm"F2| "G"EF DB, "D/F#"D2| "Em"E2 "A"EF "F#m"A>B| "Bm"F6|
+"G"E2 FE DB,| "D"DA, "G"B,D "D"A,D| "Em"EB, DE B,>E| "A6"F4 "A"E2|
+"D"A2 FA "G"Bd| "D"A2 BA "A/C#"FE| "Bm"F2 EA "A/B"FD| "G"ED B,3 A,|
+"D"F4 B,A,| "A"E4 B,A,| "G"DB, "A7"D3E| "D"D6:|
+%%begintext ragged
+%% "The 'Great Waltz of China' was a forgotten pundit's winning submission to the 1985
+%% Ashokan Celtic Week Original Tune Title Competition.  Later that summer, during
+%% Northern Week, I sat alone one dawn at the piano in the Ashokan dance hall and wrote
+%% a tune to go with the name.  (Attentive listeners will note a judiciously pentatonic
+%% melody ensnared midst a decidedly Western harmonic substrate.)  A mystery of music:
+%% that one heart's sad and lonely moments may help another's sun rise some day."
+%% CD/cassette/tunebook 'All the Time in the World (And a Little Bit More)',
+%% Mark Simos/Samizdat Music, 45 Shea Rd, Cambridge, MA 02140-1225.  From "The Waltz Book", Bill Matthiesen.
+%%endtext
+%%scale .5
+%%vskip .1cm
+%%text 5/30/99. For use only by Roaring Jelly members
+
+#include "LeftHeader.h"
+% ---------- page 26 ----------
+
+X: 52
+T: Lover's Waltz, The
+I: Lover's Waltz, The	W-40	D	waltz
+C: W-40
+C: \2511992 Molly Mason & Jay Ungar
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: D
+A df|| "D"a3a fd| "G"B3A GF| "D"A6-| A3A df|     a3a fd| "G"B3A GF| "Em"A6-| "A7"A3A Bd|
+"Em"e3d ef| "G"ed3 BA| "D"A6-| A3A Bd| "G"e3d ef| "Em"ed3 BA| "A"a4- ab| a4 dc|]
+"D"d4 dc| "Em7"d4 dc| "D/F#"d3d dc| "G"d2 g3f| "D"d4 dc| "Bm"d4 BA| "Em"B4- BA/B/| "A7"A4 dc|
+"G"B3c d2| "A"c2 d2 e2| "Bm"f3g fe| d4 dc| "G"B2 c2 d2| "A7"e2 d3c| "D (G)"d6-| "D"d3|]
+%%begintext ragged
+%% "Molly and I wrote this tune in 1985, when we were first together.  It was a
+%% spontaneous composition -- where I started playing melody and she played chords, and both
+%% the chords and melody evolved as we played it.  We'd played it at home together.  But it
+%% was too personal to play for other people -- I felt the same way about 'Ashokan Farewell'
+%% at first.  You know, you're not sure if people will like it.  Eventually, we played it
+%% at a late night waltz session at Ashokan.  It seemed like the right moment for the tune
+%% to emerge.  We originally wrote it in the key of G.  But the melody only uses three
+%% strings on the fiddle, and in G you never touch the E string.  Usually, if a tune only
+%% uses three strings, I go for the higher strings.  So that is why it's notated here in D.
+%% Sometimes we play it in both G and D, to get the full range.  The other thing I do, if
+%% I'm playing it in G, is play the B part an octave higher the second time through, to get
+%% a different sonority."  Jay Ungar and Molly Mason, RD 1 Box 489, West Hurley, NY 12491.  From "The Waltz Book", Bill Matthiesen.
+%%endtext
+
+X: 53
+T: Valse des Bois
+I: Valse des Bois	W-41	Em	waltz
+C: W-41
+C: Richard Forest
+M: 3/4
+L: 1/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: Em
+B,| "Em"E>DE| "Bm7"F>EF| "Em7"GAG| "Bm7"FED| "Em"E3| "Bm7"DB,D| "Em"E3-| "B7sus"E2 :|
+"D7sus"G/A/| "G"B3| BcB| "D"AFD| DEF| "Em"G3| GAG| "Bm7"F3-| FGA|
+"G"B3| BcB| "D"AFD| DEF| "Em7"GFE| "Bm7"FED| "C"E3-| "D9"EGA|
+"G"B3| BcB| "D"Add| dcB| "Em"G3| GAG| "Bm7"F3-| FGA|
+"G"BAB| "C"cde| "Em"BAG| "Am"AGF| "Em7"G2G| "Bm7"FED| "Em"E3-| "(B7sus)"E2 |]
+%%text 10/28/99 For use only by Roaring Jelly members
+
+#include "RightHeader.h"
+% ---------- page 27 ----------
+
+X: 54
+T: Judy and Jim's Wedding
+I: Judy and Jim's Wedding	W-42	D	waltz
+C: W-42
+C: \2511988 Larry Unger
+B: The Curvy Road to Corinth
+Z: transcribed by Mary Lou Knack 6-Jul-1999
+M: 3/4
+% %musicspace 12pt
+K: D
+"D"D3E FG| "Em7"A2d3c| "F#m7"A2d2fd| "G"G4de| "D"d3c BA| "Bm"B2A2D2| "G"FG FE DE| "A7"D2C2A,2|
+"D"D3E FG| "Em7"A2d3c| "F#m7"A2d2fd| "G"G4de| "D"f3e dc| "G"d2c2B2| "A7"A2d3c| "D"d4de|]
+"D"f3e df| "A7"e2d2c2| "Bm"d3e dc| "G"c2B2FG| "D"A2d3A| "Em7"G2d3G| "D"F2d2F2| "A7"E4de|
+"Bm"f3e df| "Em7"e2d2e2| "F#m7"f2a2ef| "G"g2f2de| "D"f3e dc| "G"d2c2B2| "A7"A2d3c| "D"d6|]
+%%text 1/20/02.  From "The Curvy Road to Corinth". For use only by Roaring Jelly members
+
+X: 55
+T: Two Rivers
+I: Two Rivers	W-43	Bm	waltz
+C: W-43
+C: \2511986 Larry Unger
+B: The Curvy Road to Corinth
+Z: transcribed by Mary Lou Knack 7-Jul-1999
+M: 3/4
+K: Bm
+dc| "Bm"B4BA| Bc dB AF| "F#m"F2A2AB| A4dc|     "Bm"B4BA| Bc dc de| "G"f4 B2| "A"f4fe|
+    "D"d4dc| de fdf2| "F#m"a2f2d2| f4ba|     "Bm"f3d ef| "A"e2d2BA|1 "G"B6-|B2 z2 :|2 "G" B6-| B2 Bc de |]
+"Bm"f2B2f2| f2B2f2| "A"e2A2e2| e2Bc de| "Bm"f2B2f2| f2B2f2| "G"a4c2| "A"a4a2|
+"Bm"b3d' ba| f2d2d2| "G"Bf fB ff| "A"e2c2A2| "Bm"B3d BA| "F#m"F4ED|1 "G"E6-| "A"E2 Bc de :|2 "G"E6-| "A"E2 z2 |]
+%%text 1/20/02.  From "The Curvy Road to Corinth". For use only by Roaring Jelly members
+
+#include "LeftHeader.h"
+% ---------- page 28 ----------
+
+%%scale .7
+X:56
+T: Penobscot Memory
+I: Penobscot Memory	W-44	G	waltz
+R: waltz
+C: W-44
+C: Vince O'Donnell
+Z:Transcribed to abc by Debby Knight
+M:3/4
+K:G
+D2|"G"DB3B2 | "F"A=F2G AF |"G"G3ABc |d2B2G2 |"C"ce3e2 |"G"d3B GB |"F"A6-|"D"A4 D2|
+"G"DB3B2 | "F"A=F2G AF |"G"G3A  Bc |B2G2D2 |"C"EG3 G2 |"D"DA3 BA|"C"G6-|"G"G2 "B7"G2F2|
+"Em"E4 E2 |e3f ge |"D"fg fe d2-|d2f2a2 |"C"g4 g2-|g2 f2e2 |"G"d6-|d2 "B7"G2F2 |
+"Em"E4 E2 |"C"g4 g2 |"G"e d-d4 |"Em"e4 B2 |"Am"A3  B c2-|"D"c2 B2 A2 |"C"G6-|"G"G4|]
+%%scale .5
+%%text 1/20/02. Taken from "The Grumbling Old Woman," by Donna Hinds For use only by Roaring Jelly members
+%%scale .7
+
+X:57
+$BigLMargin
+$BigRMargin
+T:Waiting for Fish
+C:W-45
+R:waltz
+C:\251Susie Secco 1996
+D:
+Z:Transcribed to abc by Debbie Knight
+M:3/4
+K:Dm
+DF|"Dm"A2 AB AF | D4 F2 |"Gm"G2GB AG |"Dm"AF D2E2|
+ F2FA FD |"C"E2 EG EC |1"Bb"DE D2C2|"Am" A,4 :|		[2 "Bb"DE G2 "Am"A2 | "Dm"d3A de|]
+|: "Dm"f2 fa gf |"C"e3g fe |"Bb"de d2 "A"^c2| A4 AB |
+"F"cd cB A2 |"C"GA GF E2 |"Dm"D2E2 "C"C2|1 "Dm"D3 A de:|2 "Dm" D4|]
+%%text 4/12/03.  Taken from Along the River. For use only by Roaring Jelly members
+
+$SmallLMargin
+$SmallRMargin
+X: 1
+T: Tourner \`a Trois (\251Paul Machlis 1998)
+C:W-46
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+S: MS of unknown origin
+M: 3/4
+L: 1/8
+K: Bm
+|: "Bm"de f3 F | "Em"GA B4 | "A"cd e3 E | "D"G2 F4|  "Bm"B,D FB df |
+ "Em"ef g4|1 "C#m"fg f3 F | "F#"fg fe dc :|2 "F#"f3 e dc | "Bm"B6 |]
+[| "A"cd e3 g | "D"g2 f4 | "Em"e3 g fe | "Bm"e2 d4 | "C"=cd ef gc | "Bm"Bd f4 | "C#m"fg f3 F | "F#"fg f4 |
+| "Bm"bf dB FD | "Em"GA B4 | "A"cd e3 E | "D"G2 F4 | "C"=cd ef gc | "Bm"Bd f3 g | "F#"f3 e dc | "Bm"B6 |]
+
+#include "RightHeader.h"
+%%scale .7
+X:1
+T:Boda Valsen (Trad Swedish, with harmony by Cammy Kaynor)
+%%vskip -.3cm
+C:W-47
+$SmallLMargin
+$SmallRMargin
+M: 3/4
+R: Waltz
+K: G
+V:1
+"Em"B3c BA|"Em"B3c BA|"Em"B4e2|"Em"B3d ef|"Em"g4 g2|"B"f4 e2|"B"f3 gf2|"B"B6|
+"C"e4 e2|"G"d3 c BA|"G"B4 A2|"Em"G3 F GA|"Em"B3 A Bc|"B7"A3 G F2 |"Em"E6-|"Em"E6:|
+|:"C"e4 e2|"C"g3 f e2|"G"d6|"G"B6|"D7"A3 B c2|"D7"c3 B A2|"G"B4 c2|"G"d6|
+"C"e4 e2|"C"g3 fe2|"G"d6|"G"B6|[1"D7"A3B c2 |"D7"D2 E2 F2|"G"G3 A GF|"G"G6:|
+[2"D7"A3Bc2|"D7"D2 E2 F2|"G"G3 A GF|"G"G6||
+V:2
+K:G
+G3A GF|G3A GF|E4B2|G4E2|B4 B2|^d4 ^c2|^d3 e d2|F6|
+c4 c2|B3 A GF| G4 F2|E3 B, EF|G3 A G2|F3 E F2 |G6-|G6:|
+|:c4 c2|e3 d c2|B6|G6|F3 G A2|A3 G F2|G4 A2| B6|
+c4 c2|e3 dc2|B6|G6|[1F3G A2 |D2 ^C2 =C2|B,3 C B,A,|B,6:|
+[2f3 g a2|d2 ^c2 =c2|B3 c BA|B6||
+
+X: 2
+T: Anniversary Waltz (\251Dave Franklin, 1941)
+C:W-48
+I: Anniversary Waltz, The	W-??	Dm	waltz
+M: 3/4
+R: waltz
+K: Dm
+L:1/4
+"A"(A,3|A,) ^C D|(E3|E) ^C A,|"Dm"(F3|F) E D|(A3|"(D7)"A3)|"Gm"B B>B|"(C)"BAG|
+"Dm(F)"A A2|"(Bb)"A G F|"A(Edim)"E2 G|"A"F2 E|1"Dm"D3|DCB,:|2"Dm"(D3|D3)||"Bb"d d>d|
+"C"d d>d|"F"d c>A|c3|"Bb(C)"B B>B|"C"Bc>B|"F"B A>^G|A3|"Gm"G G>G|GAG|
+"Dm"GFE|"(Dm/C)"D3|"Bb"d B G|"A"F2 E|"Dm"(D3|D3):||
+%%scale .5
+%%text For use only by Roaring Jelly members
+
+#include "LeftHeader.h"
+%%scale .9
+X:1
+T:Emma's Waltz (traditional Finnish)
+C:W-49
+M:3/4
+L:1/8                        % length of shortest note
+K:Am
+EA c|:"Am"e3 f e2|"Am/G#"c2 AE Ac|"Am/G"e3 f ed|"Am/F#"c2 AB cA|
+"Dm"B3^A Bc|"E7"dE cE B2|"Am"A3 B cd|"E7"eE Ac ef|
+"Am"e3 f ed|"Am/G#"c2 AE Ac|"Am/G"e3 f ed|"Am/F#"c2 AB cd|
+"B7"B3 ^A Bc|"E7"dE cEB2|"Am"A3B A^G|[1AE Ac ef:|2
+AB cd e^g||"Dm"a3 a aA|"G7"a2 gG f2|"C"e3 e ef|"Am"eEd2c2|
+"B7"B3 ^A Bc|"E7"dE cEB2|"Am"A3 B cd|"A7"eE Ac e^g|
+"Dm"a3 a aA|"G7"aA g2 f2|"C"e3 e ef|"Am"(3efe d2c2|
+"B7"B3 ^A Bc|"E7"dE cEB2|"Am"A3 B A^G|A3|]
+%%scale .5
+%%text For use only by Roaring Jelly members
+
+#include "RightHeader.h"
+%%footer 04/18/11 For use only by Roaring Jelly members
+%%scale .78
+X:1
+T:La valse des pastoriaux (Breton; \251 Jacky Molard)
+C:W-50
+M:3/4
+L:1/8                        % length of shortest note
+K:G
+"1st time"D2y10|:"G"G2 GABc|d3 cBG|"Am"c2 cBAG|"D"A2 FADF|
+"G"GFGABc|d2 dcBG|"Am"cBAGFG|[1"D"A4D2:|[2"D"A3 gfd||
+|:"C"ede2"D"f2|"G"g3dBG|"Am"cBAGFG|"D"A3gfd|"C"edeg "D"(3fga|
+"G(Em)"g3 dBG|"Am"cBAGFG|[1"D"A3gfd:|[2"D"(3ABA FADF||["final""G"G4||
+%%textfont       Times-Roman 10.0
+%%text The pickup D quarter-note pickup should not be played when repeating the tune.
+$RestoreTextFont
+X:2
+T:H\"okpers Vals (\251 Lars H\"okpers)
+C:W-51
+M:3/4
+L:1/8
+K:Dm
+A2|:"Dm"d3e fa|"Gm"+trill+g3f ed|"A"+trill+^c2 A3G| "Dm"{/G}F4 D2|"F"F2 EF AG |
+"C"E4 c2|"G"+trill+=B2 GA Bd | "A"A4 A2|"Dm"d3e fa|"Gm"+trill+g3f ed|
+"A"+trill+^c2 A3G| "Dm"{/G}+trill+F4 E2|D2 ^CD EF|"Gm"A2 G3E|"A"F2 E2 D^C|"Dm"D4 A2-:|
+|:"Dm"(AF) (FD) (FA)|(AF) (FD) (FA)| A2 G3F |"A"{/F}+trill+E4 G2-|
+(GE) (E^C) (EG)| "A"(GE) (E^C) (EG) |G2 A3E|"Dm"{/G}+trill+F4 A2-|
+"Dm"(AF) (FD) (FA)|(AF) (FD) (FA)|"D"A2 d3c| "Gm"{/c}+trill+B4 B2|
+"Gm"{/c}B2 c3B|"Dm"A4 F2| "A"GF E2 D^C|"Dm"D4 A2-:|]
+
+#include "LeftHeader.h"
+$SmallLMargin
+$SmallRMargin
+%%scale .85
+%%footer 04/04/16 For use only by Roaring Jelly members
+X:1
+T:Il Valzer di Mezzanotte
+C:W-52
+K:Am
+M:3/4
+R:Waltz
+L:1/8
+E ABcd|"Am"e6|"Dm"f6|"Am"ed c4-|c2de dc|"E7"B6|d6|"Am"cBA4|
+"Am/E"zE ABcd|"Am"e6|"A7"g6|"Dm"fed4-|d2efed|"Am"c2z2e2|"E7"B2z2e2|"Am"A3 A A2
+|1A:|2"Am"+fine+Az z4|]:[K:A]"A"e6|f2!breath! g3a|"E7"g6-|"Bm7"g2 b3 a|"E7"g4 g2|f4 =f2|"A"e6-|e2 e2 d2|"F#"c6|
+c2 e3 c|"Bm"d6-|"D"d2e2 d2|"A"c2 z2 d2|"E"B2z2e2|"A"A3AA2|1"A"A6:|2"Am"AE AB=cd||
+[K:Am]"P lyrical""Am"e4c2|"Dm"d4B2|"Am"c4A2|"E7"B6|"Am"(e2f2)e2|"Dm"(d2e2)d2|"Am"(c2d2)c2|"E7"B|]
+
+%%titlefont  Times-Bold 14.0
+X:1
+T:Il Valzer di Mezzanotte First Harmony
+K:Am
+M:3/4
+R:Waltz
+L:1/8
+E F^GAB|"Am"c6|"Dm"d6|"Am"cBA4-|A2BcBA|"E7"^G6|B6|"Am"AFE4-|
+"Am/E"E E F^GAB|"Am"c6|"A7"e6|"Dm"d^cA4-|A2 cdcB|"Am"A2z2c2|"E7"^G2z2A2|"Am"E6-
+|1E:|2"Am"+fine+Ezz4|]:[K:A]"A"c6|d2!breath!e3 f|"E7"e6-|"Bm7"e2g3f|"E7"e6|d4 ^B2|"A"c6-|czc2B2|
+"F#"^A6|^A2c3A|"Bm"B6-|"D"B2c2B2|"A"A4 AB|"E"G4E2|"A"[E6A,6]|1[E6A,6]:|2"Am"z E =F^GAB||
+[K:Am]"P lyrical""Am"c4 A2|"Dm"B4 ^G2|"Am"A4  E2|"E7"^G4 AB|"Am"(c2d2)c2|"Dm"(B2c2)B2|"Am"(A2B2)A2|"E7"^G|]
+%%text End with a single A section; stop at the "fine".
+
+#include "RightHeader.h"
+%%footer 04/04/16 For use only by Roaring Jelly members
+$SmallLMargin
+$SmallRMargin
+%%scale .85
+X:1
+T:Il Valzer di Mezzanotte Second harmony
+K:Am
+M:3/4
+R:Waltz
+L:1/8
+B, CDE^G|"Am"A6|"Dm"B6|"Am"AF E4-|E2 AB^GF |"E7"E6|^G6|"Am"ED C3 B,|
+"Am/E"A,B, CDE^G|"Am"A6|"A7"^c6|"Dm"AGF4|-F2A^GAF|"Am".E2C4|"E7".E2B,4|"Am"A,3A,A,2|1 A,:|2"Am" +fine+A,zz4|]:
+[K:A]"A"A6|d2 !breath! e3 f|"E7"B6|"Bm7"e4dc|"E7"B4 (3BcB|A4 G2|"A"A2 E2 G2|A2 B2 G2|"F#"F3^EF=G|F2E2F2|
+"Bm"F3^EF=G|"D"F2A2F2|"A"E2z2E2|"E"E2z2E2|"A"A,3A,A,2|1A,6:|2"Am"A,B, =CDE^G||
+[K:Am]"P lyrical""Am"A4F2|"Dm"^G4E2|"Am"E2C2D2|"E7"E6|"Am"(A2B2)A2|"Dm"(^G2A2)G2|"Am"(E2D2)C2|"E7"E|]
+
+X:2
+T:Il Valzer di Mezzanotte Third harmony
+K:Am
+M:3/4
+R:Waltz
+L:1/8
+zz2A,B,|"Am"C6|"Dm"D6|"Am"CB, A,4|-A,2 B,CB,A, |"E7"^G,6|B,6|"Am"A,^G, A,4|
+z4A,B,|"Am"C6|"A7"E6|"Dm"DC A,4|-A,2CDCB,|"Am"A,2z2C2|"E7"^G,2z2B,2|"Am"A,6|1 A,:|2"Am" +fine+A,zz4||
+|:[K:A]"A"C6|D2 E3 F|"E7"(E6|"Bm7"E2)G3 F|"E7"E4 E2|D6|"A"C6|-C2 C2 B,2|"F#"^A,6|-^A,2 C3 ^A,|
+"Bm"B,6|"D"-B,2 C2 B,2|"A"A,6|"E"G,6|1"A"A,6|-A,6:|2"A"A,3 A, A,2|z4 A,B,||
+[K:Am]"P lyrical""Am"Czz4|"Dm"B,zz4|"Am"A,zz4|"E7"^G,6|"Am"(C2D2)C2|"Dm"(B,2C2)B,2|"Am"(A,2B,2)A,2|"E7"^G,|]
+%%text End with a single A section; stop at the "fine".
+
+#include "LeftHeader.h"
+$SmallLMargin
+$SmallRMargin
+%%scale .85
+X:53
+%%footer 06/02/11 For use only by Roaring Jelly members
+T:La Gueussinette (Quebequois \2512002 Stephen Jones)
+C:W-53
+K:Bm treble
+M:3/4
+R:Waltz
+L:1/8
+C: W-51
+K:Bm
+|:"Bm"B2 F2 B/c/d|B2 F4|BA Bc de|f6|"Em"g3 f eg|"Bm"f2 d2 B2|
+"C#m7(b5)"cB cd ed|"F#"c4 dc|"Bm"B2 F2 B/c/d|B2 F3 F|BA Bc de|fd B3 f|
+"Em"gf ed e/f/g|"Bm"fd BF Bd|"F#"cB ce dc|"Bm"B6:|
+|:"Em"g3 f eg|"Bm"f2 d2 B2|"G"BA Bc "A7"de|"D"f6|"Em"g3 f e/f/g|"Bm"f2 d2 B2|
+"C#m7(b5)"cB cd ed|"F#"c3 d ef|"Em"g3 f eg|"Bm"fd B3 F|"G"BA Bc "A"de|
+"D"f6|"Em"ga bg eg|"Bm"fd BF B/c/d|"F#"cBce dc|"Bm"B6:|]
+
+#include "RightHeader.h"
+%%scale .79
+$SmallLMargin
+$SmallRMargin
+X:1
+T:Haapavesi Waltz (\251 Keith Murphy)
+C:W-54
+R:Waltz
+M:3/4
+L:1/8
+K:D
+A cA|"D"cd dA cA|cd dA cd|"Em7"e2 eg fd|"A"e2 A2 Bc|
+"D"cd dA cA|cd dA cd|"Em7"e2 ef "A"e/d/c|"D"d3 :|]
+|: e fg |"D"a2 ag fd|"G"g3 f2 g| "A"eA Ag fg|
+ e2 A2 fg|"D"a2 ag fd|"G"g3 f2 g|"A"e2 ef e/d/c|1 "D"d3:|]
+
+X: 2
+T: Haapavesi Harmony I
+M: 3/4
+L: 1/8
+R: waltz
+K:D
+A GE|"D"EF FD ED|EF FD EF|"Em7"G2 GB AG|
+"A"A3 A GE|"D"EF FD ED|EF FD EF|"Em7"G2 GB AG|"D"F3 :|]
+|:z1 de| "D"f2 fe dA|"G"B3 d2 B| "A"AE EA EA|
+ A2 E2 de|"D"f2 fe dA|"G"B3 d2 B|"A"c2cB AG|"D"F3:|]
+
+X: 3
+T: Haapavesi Harmony II
+M: 3/4
+L: 1/8
+R: waltz
+K:D
+z z2|:"D"D4 D2|F4 F2|"Em7"G4 F2|"A"E4A,2|"D"D4 D2|F4 F2|"Em7"G4 E2|1"D"D4 A,2:|[2 "D"D3 ||
+|:E FG |"D"A2 AG FD|"G"G3 F2 G| "A"EA, A,G FG|
+E2 A,2 FG|"D"A2 AG FD|"G"G3 F2G|"A"E2 EF E/D/C| "D"D3:|]
+%%scale .5
+%%text 5/18/12 For use only by Roaring Jelly members
+
+#include "LeftHeader.h"
+$SmallLMargin
+$SmallRMargin
+X:1
+T:Inisheer $1(Traditional Irish)
+C: W-55
+%%scale .9
+K:G
+L:1/8
+M:3/4
+R: Waltz
+"G"B2 BA B<d|B2 BA B<d|"C"E3 B AB|"D"D3 B AG|
+"G"B2 BA B<d|B2 BA B<d|"C"E3 B "D"A/G/F|[1 "G"G3 D3:|[2"G"G3 A Bd||
+|:"C"e2 ef ed|"Bm"B2 BA Bd|"Em"gf ed B/c/d|"C"e3 d B<d|"Am7"e3  d e<g|
+"G"B3 B AB/A/|"C"G3 B "D"A/G/F|[1"G"G3 A Bd:|[2"G"G3 D3|]["Final""G"G6|]
+%%scale .8
+%%text Alt. chords: G|Em7|Cmaj7|D|G|Em7|Cmaj7 D|G:|
+%%text \ \ \ \ \ \ \ \ \ \ \ \ |:Cmaj7 D|Em7|Am Bm|Cmaj7|C D|G|Cmaj7 D7|G:|
+%%scale .5
+%%text 4/25/13 For use only by Roaring Jelly members

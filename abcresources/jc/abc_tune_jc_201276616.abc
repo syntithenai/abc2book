@@ -1,0 +1,19 @@
+X: 1
+T: the Merry-Go-Round
+T: Flirtation Hornpipe
+T: Evan's Hornpipe
+T: Euan's Hornpipe
+S: Kerr's, from David Knight via David Wiesler
+Z: T. Traub 7-30-03
+%%slurgraces 1
+R: Reel
+K: Am
+M: 4/4
+L: 1/8
+ E2 \
+|: "Am"A^GAB cdcB | "Am"ABcd e2 cd |1,3 "Am"efed cdec | "G"d2 G2 G2 cB \
+                                  :|2,4 "Am"efed "E"c2 Bd | "Am"c2A2 A2z2 :|
+[| "Am"{^g}a2A2 A2z2 | "Am"{^g}a2A2 "D7"A2z2 | "G"{^f}g2G2 G2z2 | "G"{^f}g2G2 G2z2 \
+|  "Am"{^g}a2A2 {^g}a2A2 | "G"{^f}g2G2 {f}g2G2 | "F"a2ef "E7"edcB | "Am"c2A2 A2z2 |]
+[| "Am"{^g}a2A2 y"/g#"A2z2 | "/g"{^g}a2A2 y"D/f#"A2z2 | "G"{^f}g2G^F GABc | "G7"dedc "E7"B2E2 \
+|  "Am"A^GAB cdcB | "Am"ABcd e2cd | "Am"efed "E7"c2Bd | "Am"c2A2 A2 |]

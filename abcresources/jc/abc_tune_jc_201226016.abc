@@ -1,0 +1,29 @@
+X: 10074
+T: the LEGACY
+T: HOW SHALL WE ABSTAIN FROM WHISKY.
+Q: "Moderate."
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.7 #4
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%%begintext align
+%% This last is the name given to the air by Captain Frazer,
+%% in his Collection, wherein he claims it as Scottish,
+%% and the composition of John McMurdo of Kintail.
+%%endtext
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(3(D/E/F/) |\
+G2G GDB, | d2e d(BG/F/) |\
+G2A (TB>AB) | E2F {EFA2}G2 :|\
+D |\
+GBd {B}g2g | f>ed edB |
+GBd g2g | fed {^d}He2 (3(d/e/f/) |\
+g2g gdB | {c}e2e dBG |\
+G2A (TB>AB) | E2F {EF}G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

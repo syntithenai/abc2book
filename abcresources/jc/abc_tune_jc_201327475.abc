@@ -1,0 +1,32 @@
+X:1
+T: Quite Carried Away
+N:
+C:
+S:aka "Joan Transported"
+A:
+O:
+R:
+M:3/4
+K:G
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 35 notes)
+K:G
+M:3/4
+L:1/16
+d2 c2 |B4 B2 c2 d2 e2 |A4 A2 B2 c2 d2 |G4 G2 A2 B2 c2 |B8 A4 |B4 B2 ^c2 d2 e2 |^c4 d2 e2 f2 d2 |g4 B4 ^c4 |d8 d2 c2 |
+%W: A2
+% voice 1 (1 lines, 33 notes)
+B4 B2 c2 d2 e2 |A4 A2 B2 c2 d2 |G4 G2 A2 B2 c2 |B8 A4 |B4 B2 ^c2 d2 e2 |^c4 d2 e2 f2 d2 |g4 B4 ^c4 |d8 e2 f2 |
+%W: B1
+% voice 1 (1 lines, 28 notes)
+g4 a2 g2 f2 e2 |d8 B2 d2 |e2 d2 c2 B2 A2 G2 |F4 E2 F2 D4 |E4 E2 F2 G2 E2 |F4 F2 G2 A2 F2 |
+%W:
+% voice 1 (1 lines, 29 notes)
+G4 G2 A2 B2 c2 |A2 B2 c2 d2 e2 f2 |g4 a2 g2 f2 e2 |d4 c4 B4 |A4/3 B4/3 c4/3 |B2 G2 A2 F2 G8 |e2 f2
+%W: B2
+% voice 1 (1 lines, 28 notes)
+g4 a2 g2 |f2 e2 d8 |B2 d2 e2 d2 c2 B2 |A2 G2 F4 E2 F2 |D4 E4 E2 F2 |G2 E2 F4 F2 G2 |A2 F2
+%W:
+% voice 1 (1 lines, 27 notes)
+G4 G2 A2 |B2 c2 A2 B2 c2 d2 |e2 f2 g4 a2 g2 |f2 e2 d4 c4 |B4 A4/3 B4/3 |c4/3 B2 G2 A2 F2 |G8 ||

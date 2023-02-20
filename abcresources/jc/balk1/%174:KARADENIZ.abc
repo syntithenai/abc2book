@@ -1,0 +1,16 @@
+X: 174
+T:Karadeniz
+O:Turkey
+M:12/8
+L:1/8
+I:(3 + 3 + 2 + 2 +2)/8
+Q:1/4=192
+K:Ab
+%%MIDI beatstring fppmppmpmpmp
+ B=Bd~_B2A.A2.A2.B2| B=Bd~_B2A.A2.A2.A2 |
+ B=Bd_B2A.A2.A2.B2 | B=Bd_B2A.A2.A2.A2  |
+^C=D=EC2B,.C2.C2.E2| ^C=D=EC2B,.C2.C2.E2|
+^C=D=EC2B,.C2.C2.E2| ^C=D=EC2B,.C2.C2.C2|
+ D2^FF2F.F2.F2.F2  |A2^F=E2E.E2.F2.E2   |^F2=E^C2C.C2.E2.C2|
+ B=Bd~_B2A.A2.A2.B2| B=Bd~_B2A.A2.A2.A2 |
+ B=Bd~_B2A.A2.A2.B2| B=Bd~_B2A.A2.A2.A2 |

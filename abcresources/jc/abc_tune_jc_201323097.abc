@@ -1,0 +1,32 @@
+X: 1
+T: Pennsylvania Polka  [F]
+C: Lester Lee & Zeke Manners, 1942
+R: polka
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: F
+"I1"[|] cde | "F"fz cd- | dA c2 | Fz CD- | DA,C2 |]
+"A"[|\
+"F"cc zc | AA zA | FA FC- | C2 z2|\
+"F"zC FA | c2 d2 | "C7"dE3- | E2 z2|
+"C7"dd zd | BB zB | GB GE- | E2 z2|\
+zC EG | c2 "C9"d2 | "F"dA3- | A2 zA |
+"F"cc zc | AA zA | FA FC- | C2 z2|\
+zC FA | "F7"c2 _e2 | "Bb"_e d3- | d2 z2|
+"Bb"d^c d^d | "C7"e3 =d | "F"d c3 | zA FD |\
+"C7"C E2 G | d2 E2 | "F"G F3- | "Fine"F |]
+K: Bb
+"I2"[|] fga | "Bb"bz fg- | gd f2 | Bz FG- | GDF2 |]
+"B"[|\
+"Bb"F4 | G4 | A4 | G4 |\
+"Bb"F2 G2 | A2 B2 | "F7"A>e ee | e4 |
+"F7"F4 | G4 | A4 | G4 |\
+"F7"F2 G2 | A2 G2 | "Bb"F>d dd | d4 |
+"Bb"F4 | G4 | A4 | G4 |\
+"Bb"F2 G2 | A2 B2 | "Eb"c>G GG | G3 c |
+"Cm"c>G ^FG | c2 "F7"dc | "Bb"B>F =EF | "(Gm)"B3 B |
+"F7"A3 G | F3 ^F | "C7"GB "F7"Ac | "Bb"B "d.C."y |]
+%%begintext
+	I1 and I2 (intro and interlude) are optional; omit them for 16/32/64-bar dances.
+%%endtext

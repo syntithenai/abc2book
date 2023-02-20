@@ -1,0 +1,23 @@
+X: 07092
+T: PAULINE'S WALTZ
+C: Bob McQuillen 18 Feb 84
+B: Bob's Note Book 7 #92
+%R: waltz
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G	% and Em
+DD \
+| "G"G2 G2 GG | "Em"G2 G3 G | "D"A2 G2 A2 | "G"B4 GA | B2 B2 BB | "Em"B2 B2 BB | "Am"c2 d3 e | "D"d4 ef |
+| "Em"g2 e2 eg | "Bm"fd B2 cd | "C"e2 f3 g | "G"d4 BG | "C"c2 d3 e | "Em"dB G2 Bd | "Am"(3(cdc) "D7"B2 A2 | "G"G4 ||
+K: Em
+|| GF \
+| "Em"E2 G2 B2 | e2 g3 g | "B7"f2 g2 f2 | "Em"e4 ef | g2 e2 eg | "Bm"d2 B2 BA | "Em"B2 e3 d | "B7"B2 A2 F2 |
+| "Em"E2 G2 B2 | e4 fg | "B7"f2 g2 a2 | "Em"b4 ed | "Am"c3 B Ac | "Em"BG E2 FG | "B7"F2 G3 F | "Em"E4 |]
+%%begintext align
+%% Pauline Laforte
+%% was so nice to us when we went down
+%% to Waltham, MA. to visit her and Ludger.
+%% We had a wonderful time - the music
+%% was fun, and the food was terrific!
+%%endtext

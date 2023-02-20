@@ -1,0 +1,47 @@
+
+X: 0
+T: Muster -- Dijon
+P: musterdj.mix
+C: 080105
+K:
+
+
+X: 1
+T: Muster
+P: piffero primo a0559
+O: Roy Watrous
+%R: march, reel
+F: http://ancients.sudburymuster.org/mus/med/pdf/musterdjC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+d2 |\
+g2gb agfe | (de)fg B2GA | B2Te2 dBGA | BGAB E2D2 |\
+G2gb agfe | (de)fg B2GA | B2Te2 dBGA .B2f2 .g2 :: B2 |\
+e3f g2f2 | Te2B2 TB2E2 |
+TE2B2 Te2b2 | agfg e2 :: fe |\
+d3e d2A2 | Bge d2cd | e3f e2c2 | Aagf e2de |\
+fz gf zedz | B2ef g2fg | a2 A2 bagf | egfe d2 :|
+
+
+X: 2
+T: Soldiers of France
+P: piffero primo a0554
+O: Roy Watrous
+%R: march, reel
+F: http://ancients.sudburymuster.org/mus/med/pdf/musterdjC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+(e^d |\
+e2)A2 c2BA | c2e2 f2ga | e2ag a2f2 | efec B2(e^d |\
+e2)A2 c2BA | c2e2 fga2 | e2ag afed | c2A2 A2 :|
+|: cB |\
+Acec  Acec | Acec f2e2 | Acec Acec | fecA B2cB |\
+Acec  Acec | Acec f2e2 | agaf efed | c2A2 A2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

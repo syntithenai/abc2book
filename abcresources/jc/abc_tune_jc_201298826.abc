@@ -1,0 +1,29 @@
+X: 1
+T: the Ladies Misfortune
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.314
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+cBA cBA | e3- e3 | cBA cBA | e3- e3 |\
+edc edc | g3- g3 | edc edc | g3- g3 |\
+gfe fed | edc dgf | edc dd2 | c3- c3 |]
+cde cde | d3- d3 | GAB cBA | B3- B3 |\
+c2c ^c2c | d2d e2e | fed ee2 | d3- d3 |\
+dcB BAG | dcB BAG | dcB A2G | G3- G3 |
+g2g ^fe^d | e3 e2^f | g^fe ^ff2 | e3- e3 |\
+cGc GEG | c3- c2d | edc B2A | A3- A2B |\
+cGc GEG | c3- c2d | edc B2A | A3- A3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man sets to the 2. wo. and turn single, then changing places with her, the other two cross over after, then hands
+%% half round and cast off; all four sets to their Partners, then set and turn sides, the 2. wo. leads the 1. wo. up, the 2 man
+%% leads the 1. man down at the same time, the 1. cu. cast up and lead down the middle and cast off. (Every Strain play'd once.)
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

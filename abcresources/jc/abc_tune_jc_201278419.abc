@@ -1,0 +1,19 @@
+X: 472
+T: Russian Sher
+N: Multiple sources, combined
+Z: 2004 by John Chambers <jc:trillian.mit.edu>
+D: I.J.Hochman's Orchestra "Klezmer Music" (Global Village 104, Folkways 34021)
+%%slurgraces 1
+M: 2/4
+L: 1/16
+K: D exp ^f_B_e
+"^A"\
+|:"D"d4 dc=Bc | e2 d4 d2 | "Cm"cffc cffc | cffe eddc |
+| "D"d4 dc=Bc | e2 d4 ag | fgag "Cm"Tf3e |1,3 "D"defg "Cm"agfe :|2,4 "D"~e2 d4 z2 :|
+"^B"\
+|:"D"f3d "Gm"g3d | "D"a4 "Gm"z2b2 | "Gm"(3b2a2g2 "D"(3a2g2f2 | "Cm"(3g2f2e2 "D"(3f2e2d2 |
+| "D"f3d "Gm"g3d | "D"a4 z2c'b | "Cm"abag f2e2 | "D"e2 d4 z2 :|[K:=f=e]
+K:Cmix
+"^C"\
+|:"C"e3g {g}f2{f}e2 |    g6 c'b | baag gffe | e3g edc2 |
+| "C"e3g {g}f2{f}e2 | "F"f6 ag  | "D"^fgag "Cm"f3{gf}_e | "D"_e2 d4 z2 :|

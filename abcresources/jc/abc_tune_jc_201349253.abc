@@ -1,0 +1,29 @@
+X: 1
+T: Vicar of Taunton Dean
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (98)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The time signature is 6/8, but the tune is in 6/4
+N: Repeat added to match dance instructions (whose 3rd phrase is a bit confused).
+M: 6/4
+L: 1/4
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+D |\
+G2A BAG | A2B cBA | GAB B2A | Gd2 d2 :|\
+d/e/ |\
+f2e d2c | d2c B2A/G/ | ABc c2B | Ac2 c2c |
+d>ed c>BA | B>AG d3 | c>Bc c>BA | Bd2 A2G |\
+^FD2 BG2 | d3- d2d | c>Bc c>BA | Gd2 d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Note The 1st Strain is to be play'd twice and the last but once
+%%begintext align
+%% All four lead up abreast and turn single .| Lead down
+%% again and turn single :| The 1st Cu. lead down the Middle
+%% of the 2d Cu. and the 2d Cu. and the Outside of
+%% the 3d. Cu. lead up the Middle of the 3d Cu. and the
+%% Outside of the 2d Cu. and cast off .|
+%%endtext
+%%sep 1 8 500

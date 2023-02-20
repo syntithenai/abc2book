@@ -1,0 +1,24 @@
+X: 1102
+T: the Bobers o' Brechin.   a Reel.
+C: by Mr Marshall.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.1 p.10 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Gm
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+g |\
+dg~g^f Tg2d=f | cdfg dfcf | dgTg^f Tg2dg | feTc>A {A}G2GB | GgTg^f Tg2{fg}d=f|
+Tc>dfg afcf | d^fga baTg=f | dfTc>A {A}G2G |[| !f!d | BGdG BGd=e | Tf>dc<f AFcA | BGdG BGdg |
+.f.dTd>A {A}G2Gd | BGdG BGd=e | Tf>dcf AFcA | .G.A.B.c .d.=e.f.g | f>dTc>A{A}G2G |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | g2g2 g2g2 | f2f2 [f2b2][f2a2] | g2d2 B2G2 | d2D2 G2G2 | g2g2 g2g2 |
+f2f2 f2f2 | g2g2 B2c2 | d2D2 G2G |[| z |\
+[g2G2][g2G2] [g2G2][g2G2] | [f2F2][f2F2] [f2F2][f2F2] | [g2G2][g2G2] [g2G2][g2G2] |
+[d2D2][d2D2] [g2G2][g2G2] | [g2G2][g2G2] [g2G2][g2G2] | [f2F2][f2F2] [f2F2][f2F2] |\
+[g2G2][g2G2] [b2B2][c2c'2] | [d'2d2][d2D2] [g2G2][gG] |]

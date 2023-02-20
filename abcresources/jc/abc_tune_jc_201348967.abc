@@ -1,0 +1,25 @@
+X: 1
+T: il Valzer di Mezzanotte    (Gm,G)
+C: Franc Amodio 1937
+S: Roaring Jelly collection
+P: (AABBC)xN+A
+K: Am
+M: 3/4
+R: Waltz
+L: 1/8
+K: Gm
+"^A"|:\
+D [GD][A^F] [BG][cA] |\
+"Gm"[d6B6] | "Cm"[e6c6] | "Gm"[dB][cA] [B4G4]- | [B2G2][cA][dB] [cA][BG] |\
+"D7"[A6^F6] | [c6A6] | "Gm"[BG][A^F] [G4D4] | "Gm/D"zD [GD][A^F] [BG][cA] |
+"Gm"[d6B6] | "G7"[f6=B6] | "Cm"[ec]d [c4G4]- | [c2G2] [dB][ec] [dB][cA] |\
+"Gm"[B2G2] z2 [d2B2] | "D7"[A2^F2] z2 [d2F2] | "Gm"[G3G3] [GG] [G2G2] |1 !fine![GG] :|2 "Gm"[G2G2] z2 z2 |]
+K: G
+"^B"|:\
+"G"[d4B4] z2 | [e2c2] [f2d2] z[ge] | "D7"[f6-d6-] | "Am7"[f2d2] [a3e3] [ge] |\
+"D7"[f4d4] [f2d2] | [e4c4] [_e2c2] | "G"[d6-B6-] | [d2B2] [d2B2] [c2A2] |
+"E7"[B6^G6] | [B2^G2] [d2B2] z[BG] | "Am"[c6-A6-] | "C"[c2A2] [d2B2] [c2A2] |\
+"G"[B2G2] z2 [c2G2] | "D"[A2^F2] z2 [d2F2] | "G"[G2G2] z[GG] [G2G2] |1 [G6G6] :|2 "(Gm)"[GG] [K:=f][K:Gm] 
+D [GD][A^F] [=BG][cA] "^C"[|\
+"Gm"[d4B4] [B2G2] | "Cm"[c4G4] [A2E2] | "Gm"[B4G4] [G2D2] | "D7"[A4^F4] [d2A2] |\
+"Gm"([d2B2][e2c2])[d2B2] | "Cm"([c2A2][d2B2])[c2A2] | "Gm"([B2G2][c2A2])[B2G2] | "D7"[A^F] "d.C."y|]

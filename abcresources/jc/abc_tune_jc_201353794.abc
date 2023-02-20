@@ -1,0 +1,26 @@
+X:1
+T: Wright's Humour
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 37 notes)
+K:G
+M:4/4
+L:1/16
+d4 d4 g4 f2 g2 |a2 g2 f2 e2 d8 |d4 e4 c4 d4 |A4 B4 A4 D4 |d4 d4 g4 f2 g2 |a2 g2 f2 e2 d8 |d4 c2 B2 A4 G2 F2 |E4 A4 D8 |
+%W: A2
+% voice 1 (1 lines, 37 notes)
+d4 d4 g4 f2 g2 |a2 g2 f2 e2 d8 |d4 e4 c4 d4 |A4 B4 A4 D4 |d4 d4 g4 f2 g2 |a2 g2 f2 e2 d8 |d4 c2 B2 A4 G2 F2 |E4 A4 D8 |
+%W: B1
+% voice 1 (1 lines, 35 notes)
+D2 E2 F2 G2 A4 A4 |d4 B4 A8 |B4 d4 B4 A4 |G4 A4 F4 D4 |d2 e2 f2 e2 g4 f2 e2 |d4 B4 A8 |d4 c4 B4 A2 G2 |A4 F4 G8 |
+%W: B2
+% voice 1 (1 lines, 35 notes)
+D2 E2 F2 G2 A4 A4 |d4 B4 A8 |B4 d4 B4 A4 |G4 A4 F4 D4 |d2 e2 f2 e2 g4 f2 e2 |d4 B4 A8 |d4 c4 B4 A2 G2 |A4 F4 G8 ||

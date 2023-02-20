@@ -1,0 +1,29 @@
+X: 10953
+T: COTILLION No. 13. tune 6
+C:
+%R: march, reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.95 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Bar 21 has 3 beats.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(3(ABc) |\
+d2A2f3e | d2A2f3e | dcde f2df | edcB A2(3(ABc) |\
+d2A2f3e | d2A2f3e | dcBA A2Bc | d6 H|]
+AF |\
+D2dA F2fd | A2af d2ef | g2gf e2ed | cedB A2AF |\
+D2dA F2fd | A2af d2ef | g2gf feed | f4 e2 ef |
+g2ge cAag | f2fe d2ba | g2gf efed | cedB ABAG |\
+FAd2 Adf2 cABc | dcdB BA^GB | B4 "^D.C."A2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across partners and back,
+%% allamand corners,
+%% allamand partners,
+%% all promenade.
+%%endtext
+%- - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

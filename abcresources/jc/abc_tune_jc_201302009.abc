@@ -1,0 +1,40 @@
+X:1
+T:The Liberton Pipe Band  "38"
+M:C|
+L:1/8
+Q:80
+C:
+S:March
+K:HP
+[| {g}A{d}B3/4A/4{g}G{d}A | \
+{Gdc}d{e}A{GdG}f2 | \
+{gfg}f{g}e3/4f/4{gf}ge |
+{gde}d3/4c/4{g}d/4e3/4{gfg}fA | \
+{g}A{d}B3/4A/4{g}G{d}A | \
+{Gdc}d{e}A{GdG}f2 |
+{gfg}f{g}e3/4f/4{gf}gc | \
+{gef}ed{gdc}d2 :: \
+{g}e{g}f3/4e/4{gcd}ce |
+{ag}ac{gef}e2 | \
+{g}e{g}f3/4e/4{Gdc}d{e}B | \
+{gfg}fe{gcd}c2 |
+{g}e{g}f3/4e/4{gcd}ce | \
+{ag}ac{gef}e2 | \
+{g}e{g}f3/4e/4{Gdc}dB |
+{gBd}B{e}A{GAG}A2 :: \
+{g}A{GdG}c{gcd}ce | \
+{gef}e{g}f3/4e/4{gcd}c2 |
+{g}e{g}f3/4e/4{Gdc}d{e}B | \
+{gfg}fe{gcd}c2 | \
+{g}A{GdG}c{gcd}ce |
+{gef}e{g}f3/4e/4{gcd}c2 | \
+{g}e{g}f3/4e/4{Gdc}dB | \
+{gBd}B{e}A{GAG}A2 ::
+{ag}af{gfg}fa | \
+{ef}e{g}f3/4e/4{gcd}c2 | \
+{g}e{g}f3/4e/4{Gdc}d{e}B |
+{gfg}fe{gcd}c2 | \
+{ag}af{gfg}fa | \
+{ef}e{g}f3/4e/4{gcd}c2 |
+{g}e{g}f3/4e/4{Gdc}dB | \
+{gBd}B{e}A{GAG}A2 :|

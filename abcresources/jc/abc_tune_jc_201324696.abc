@@ -1,0 +1,26 @@
+X:1
+T: The Pleasures of the Town
+N:
+C:aka "The Fair Maid of the Inn"
+S:Play  3  times
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 26 notes)
+K:G
+M:4/4
+L:1/16
+G6 B2 d6 B2 |G8 G8 |A6 B2 G6 A2 |F8 D8 |E6 G2 F6 A2 |G6 B2 A6 c2 |B6 d2 c6 B2 |B8 A8 |
+%W: A2
+% voice 1 (1 lines, 24 notes)
+G6 B2 d6 B2 |G8 G8 |A6 B2 G6 A2 |F8 E6 D2 |E6 G2 F6 A2 |G6 B2 B6 A2 |B8 A8 |G16 |
+%W: B1
+% voice 1 (1 lines, 26 notes)
+B,6 C2 D6 G2 |E8 E8 |D6 E2 F6 G2 |A8 A8 |G6 A2 B6 c2 |d6 g2 f6 e2 |d6 c2 B6 A2 |G8 G8 |
+%W: B2
+% voice 1 (1 lines, 25 notes)
+B,6 C2 D6 G2 |E8 E8 |D6 E2 F6 G2 |A8 A8 |G6 A2 B6 c2 |d6 g2 f6 e2 |d6 c2 B6 A2 |G16 ||

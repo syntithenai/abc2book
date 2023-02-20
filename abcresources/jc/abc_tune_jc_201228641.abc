@@ -1,0 +1,83 @@
+X: 11451
+T: NATIONAL CADET'S QUICKSTEP
+C:
+%R: quickstep, jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.146-147
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Corrected a lot of wrong-length rests; moved final rest in 1st strain to the start to fix the rhythms.
+M: 6/8
+L: 1/8
+K: Eb
+%%indent 100
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 sname="EbBgl" name="Eb Bugle"
+K: C
+z2!ff!(3(G/A/B/) |\
+c2 (3(G/A/B/) c2 (3(G/A/B/) | c3 !p!z.e.d | cBA GFE | (G^F=F) d2 (3(A/B/c/) |!ff!\
+d2 (3(A/B/c/) d2 (3(A/B/c/) | .d3 z.e.d | cBA GAB | c3 :|
+z2 z |\
+z6 | z6 | z6 | z6 | z6 | z6 | z6 | "^D.C."z3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 sname="BbBgl" name="Bb Bugle"
+K: F
+z2z |!ff!\
+A2z A2z | A3 z!p!.f.e | dcB AGF | z2G E2z |\
+!ff!c2z c2z | c3 z.c.B | dcB cde | f3 :|
+ccc |\
+d2c ccc | =B2c ccc | .f.e.d .c.B.A | c2_B BBB |\
+c2B BBB | A2B BBB | edc BAG | "^D.C."F3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 sname="BbPHn" name="Bb Post Horn"
+K:F
+z2(3(c/d/e/) |!ff!\
+f2 (3(c/d/e/) f2 (3(c/d/e/) | f3 z!p!.a.g | .f.e.d .c.B.A | (c=B_B) g2 (3(d/e/f/) |!ff!\
+g2 (3(d/e/f/) g2 (3(d/e/f/) | g3 z.a.g | fed cde | f3 :|
+AAA |\
+B2A AAA | G2A AAA | .d.c.B .A.G.F | A2G GGG |\
+A2G GGG | F2G GGG | cBA BAG | "^D.C."F3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 4 sname="BbCrn" name="Bb Cornopean"
+K: F
+z2z |\
+A2 (3(A/B/G/) A2 (3(A/B/G/) | f3 z!p!.f.e | .d.c.B .A.G.F | AGG E2z | !ff!\
+e2z e2z | e3 z.f.e | dcB ABG | A3 :|
+z2z |\
+z6 | z6 | z6 | z6 | z6 | z6 | z6 | "^D.C."z3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 5 sname="TTbn" name="Tenor Trombone" clef=bass middle=D
+K: Eb
+z2z |\
+e2z e2z | e3 z2!p!z | e3 e3 | d3 z2z |\
+d2!ff!z d2z | d3 z2z | e2z d2z | e3 |
+z2z |\
+z2B BBB | z2B BBB | e3 e3 | B2z _AAA |\
+B2A AAA | G2A AAA | c2z B2z | "^D.C."e3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 6 sname="BTbn" name="Bass Trombone" clef=bass middle=d
+K: Eb
+z2z |\
+e2z e2z | e3 z2!p!z | e3 e3 | B3 z2z |!ff!\
+B2z B2z | B3 z2z | e2z B2z | g3 :|
+z2z |\
+A2B BBB | f2f fff | e3 e3 | e2B BBB |\
+B2c ccc | e2c ccc | c3 B3 | "^D.C."e3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 7 sname="Oph1" name="1st Ophecleide" clef=bass middle=d
+K:
+z2z |!ff!\
+g2z g2z | g3 z2!p!z | e3 g3 | b3 z2z |!ff!\
+b2z b2z | b3 z2z | g2z _a2z | g3 :|
+z2z |\
+a2b b2b | f2f f2f | e2z g2z | e2z BBB |\
+B2z c2z | e2z c2z | f2z B2z | "^D.C."e3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 8 sname="Oph2" name="2nd Opecleide" clef=bass middle=d
+K:
+z2z |!ff!\
+e2z E2z | e3 z2!p!z | e3 E3 | B3 z2z |!ff!\
+B2z B2z | B3 z2z | E3 B3 | E3 :|
+z2z |\
+A2B B2B | f2F F2F | E2z E2z | E2z BBB |\
+B2z c2z | e2z c2z | c2z B2z | "^D.C."E3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

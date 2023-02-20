@@ -1,0 +1,19 @@
+X: 47
+T: 47. QUADRILLE
+B: Sam Bayard, "Hill Country Tunes" 1944 #47
+S: Played by John Kubina, (near) Davistown, Greene County, PA, Sept 3, 1943.
+S: Learned from Ann Peterson, fiddler, in East Pittsburgh.
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+%%slurgraces
+K: Gm
+{^c}d- |\
+dGG GGG | BGB dcB | AFF FFF | AFA c2-c/ ^c/ |
+dGG GGG | "a."BGB d2"*"=e | f"*"=ed cBA | "b."{Bc}BGG Gz || c |
+dgg dff | dgg fdc | dgg {de}d2c | BGG Gz (G//A//B//c//) |
+dgg dff | dgg fdc | {d}g2z {de}d2c | "c."BGG G2 |]
+P: Var:
+"a."BAB || "b."G3- G || "c (when going to beginning)"BGG [B2G2] |] y6 y6 y6 y6
+%%text Notes marked "*" occasionally flatted.

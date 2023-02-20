@@ -1,0 +1,75 @@
+X: 32411
+T: AERIAL QUADRILLE
+C: Composed by J. Scott, Sandyholm, Lokerbie
+N: Bowing and Fingering arranged by W.B. Laybourn
+R: jig
+B: K\"ohler's Violin Repository, v.3, 1885 p.241 #1
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+Z: Fixed extra count in bar 16.
+M: 6/8
+L: 1/8
+K: Bb
+P: 1.
+uF !segno!|\
+(.=Ez.F) (.Bz.c) | d3- dBc | d3- de=e | f3- f(=ef) |\
+a3- ag=e | g3- gfe | (d2c) (e2d) | B2z vb2 ||
+[K:F] uc |\
+{d}c=Bc fef | (.ez.d) (.bz.a) | gfe dBd | c3 (A3B) |\
+{d}c=Bc fef | d^cd bag | fed cBG | FFF FF "_D.C."!segno!||
+uc "^*"|\
+.cz .f .az .g | .gz .f .=ez .f | (g2f) gab | c'cc ccc |\
+.cz .f .az .g | .gz .f .=ez .d | (c=Bc) (a2g) | f3- f2 "^D.C."|]
+M: 2/4
+K: Bb
+P: 2.
+[|\
+FB/A/ Bc | d^c d2 | FB/A/ Bd | f=e f2 |\
+a2g/f/ gf | f2e/d/ ed | dc/B/ FA | Bz vb ||
+uF |\
+dedc | Bdf2 | (gf)Af | d3F |\
+dedc | Bdf2 | (gf)ec | B3B |
+ccd=e | fgab | agga | gf c(A/B/) |\
+AA =B/c/d/=e/ | fgad' | c'bde | [f3A3] "^D.C."z |]
+M: 6/8
+K: G
+P: 3.
+[|\
+vD3 DGA | B3- BcB | A3- A^GA | d3- d^cd |\
+(b2a) gfe | dGA Bcd | fed cBA | (G2B) G2 ||
+K: D
+(F/G/) |\
+ABA Ade | fff faa | eee e^de | fdB AFG |\
+ABc def | Bcd efg | fba gfe | dDD DDD "^D.C."||
+"^*".A |\
+.Az .d .^cz .d | .Az .f .=fz .^f | .ez .g .^cz .e | (dcB) (.A2.A) |\
+.Az .d .^cz .d | .Az.f .=fz .^f | .ez .g .Bz .^c | d3- d3 "^D.C."|]
+M: 2/4
+L: 1/16
+K: Bb
+P: 4.
+vFuF !segno!|\
+B2FF B2FF | B2c2d2e2 | f2=eg f2eg | f6=ef |\
+g2f2 c2=Bc | e2d2 B2AB | d2c2 F2GA | B6 ||
+uF2 |\
+F2d2c2B2 | c2F2F2F2 | F2c2B2A2 | B4(.B2.B2) |\
+B2A2B2c2 | d2f2e2d2 | d2c2B2c2 | d4(d2e2) |
+d2c2G2A2 | B2c2d2f2 | f2e2G2A2 | B4(A2B2) |\
+c2d2e2f2 | a2g2f2e2 | d2c2e2d2 | B6 "^D.C."||[K:F]
+(uAB) |\
+c2Ac f2ed | cccc c2(=Bc) | d2c2B2G2 | A2FE (FG)AB |\
+c2Ac f2cf | aaaa a2(ba) | gfed cBAG | F2FF F2F"_D.C."F !segno!|]
+M: 2/4
+K: G
+P: 5.
+vdud !segno!|\
+d2^c2d2 BB | B2^A2B2 cc | A2^G2A2B2 | GDEF GABc |\
+d2^c2d2 BB | {c}B2^A2B2 cc | A2^G2A2B2 | G2z2 vg2 ||[K:D]
+vAuA |\
+A2f2e2d2 | e2A2{c}B2A2 | c2A2e2A2 | b2(a^g) a2A2 |\
+A2f2e2d2 | e2A2{c}B2A2 | (c2A2)e2A2 | d2d2d2 AA |
+A2f2e2d2 | e2A2{c}B2A2 | c2A2e2A2 | b2(a^g) a2A2 |\
+A2f2e2d2 | e2A2{c}B2A2 | c2A2e2A2 | d2dd "_D.C."d2"_Fine."dd !segno!|]
+%%begintext
+%% * Staccato -- Heel of Bow, Nos. 1 and 3.
+%%endtext

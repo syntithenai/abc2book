@@ -1,0 +1,49 @@
+X: 1
+T: Lev\'entikos Fl\'orinas
+O: Greece
+M: 9+7/16
+L: 1/16
+Q: "|" 2/16 2/16 2/16 3/16 "|" 2/16 2/16 3/16 "|"
+K: D
+%%continueall
+"A"|:\
+cddddz (~d2c) | dcBc A2z | cddddz (~d2c) | dcBc A2E|\
+^GABcde (~f2e) | dcde (f2e) | dcdecB cAc | ~B4 z3 :|
+"B"|:\
+edecd2- d3 | eede ~f2e | dcdecB cAc | B2^GA B3 |\
+edecd2- d3 | eede ~f2e | dcdecB cAc | ~B4 z2E :|
+"C"|:\
+^GABcdB cAc | ~B2AG F2E | ^GABcdB cAc | ~B2^AB e2z |\
+^GABcdB cAc | ~B2AG F2E |  dcdecB cAc |1 B4 z2E :|2 ~B4 z2a |]
+"D"|:\
+bzfff2 ~f2e | fede ~d2c | BcccAz ~f2e | fede ~d2c |\
+BcccAz ~f2e | fede ~d2c | BcdedB cAc |1 Bcde fza :|2 B4 z3 |]
+"E"|:\
+dcdecB cAc | Bcde ~f2e | dcdecB cAz | fgag ~f2e |\
+dcdecB cAc | Bcde ~f2e | dcdecB cAc |1 B4 z3 :|2 B4 {^dedc} d3- |]\
+d6-d3- | d4-d3- | d6-d3- | d4-d3- | d6-d3 | z6-z3 |]
+"F"|:\
+Bc^defe ~d2c~ | ~e^d3- dzF | Bc^defe ~d2c | ~e^d3- dzF |\
+Bc^defe ~d2c~ | ~e^d3- dz2 | c2cB^dB cAc |1 ~B2BF B2z :|2 B4 z3 
+"G"|:\
+{B}c2cB^dB cAc | ~B2A^G F2E | c2cB^dB cAc | ~B2BF B2F |\
+c2cB^dB cAc | ~B2A^G F2E | c2cB^dB cAc | ~B4 z3 
+"H"::\
+B2eff2 f2e | gfe^d e2z | a^gaba=g ~f2e | e2z2 z2A |\
+e2eeed ~f2e | d2dc BcA | dcdecB cAc | ~B4 z3 
+"I"::\
+{^G}A2A2[B2G2] [c2=G2][cG] | [d2F2]z2 z3 | {^G}A2A2[B2G2] [c2=G2][cG] | [d2F2]z2 z3 |\
+e2eeed ~f2e | d2dc BcA | dcdecB cAc | ~B4 z3 :| "H"[|] |[| "I"[|] 
+"J"|:\
+{G}A2GABB BBA | cdef ~f2e | edefdz ~d2c | dcBd ~c2A |
+~c3Ae2 ~e2e | agfe ~e2d | dcdecB cAc | ~B4 z3 
+"K"::\
+cAced2 ~d2c | cAce d2z | cAced2 ~d2c | e2B2B2z |\
+cAced2 ~d2c cAce d2z | cAced2 cAc |1 B4 z3 :|2 B4 z2A 
+"L"::\
+dzdefz f2e | ~e2dc d2A | dAdefz f2e | ~e4 z2A |\
+dzdefz f2e | ~e2dc BcA | dcdecB cAc |1 B4 z3 :|2 B4 z2A 
+"M"::\
+fedfez e2c | dcBc A2E | ^GABcdB cAc | B2AB e2A |\
+fedfez e2c | dcBc A2E | ^GABcdB cAc |1 B4 z2A :|2 B4 z2E \
+|[| "H"[|] |[| "I"[|] |]

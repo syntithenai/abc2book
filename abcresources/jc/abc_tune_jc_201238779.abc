@@ -1,0 +1,25 @@
+X: 3131
+T: Cauld Kail in Aberdeen
+%R: air, march
+N: This is version 1, for ABC software that doesn't understand voice overlays or crescendo notation.
+B: Niel Gow & Sons "Complete Repository" v.3 p.13 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+Q: "Slow With Expre.n"
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+D |\
+(FA) d>B | {B}AF T[EC]>D | (FA) d>B | (A2 D)>G |\
+(FA) {Bc}d>B | (B/A/) (G/F/) T[EC]>D | F>A (B/c/d/B/) | (A2 D) :|
+|: A | Td>efd | {ef}g>f (ec) | ~d>e fd | ({f}e2 A) z/A/ |\
+Td>e fd | ge {d}Hcd/>B/ | A>F (B/c/d/).B/ | (A2 D) :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: z |\
+fd bg | fd {A}a2 | fd bg | aA d2 |\
+fd bg | fd a2 | fd BG | AA, D :|
+|: z |\
+F>A df | e>f g2 | fe d2 | A/c/e/a/ A z/g/ |\
+f>e df | "^cres."eg a "^P"z | Fd (G/A/)(B/c/) | dA D :|

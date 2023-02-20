@@ -1,0 +1,19 @@
+X: 2043
+T: Jenny Sutton's    Reel
+%R: reel
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.4 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 6-bar lines.
+V: 1 staves=2
+E |\
+A/A/A Ac ecec | A/A/A Ac dBGB | A/A/A Ac ecec | efdB Tc2A :| g | (aA)(aA) (gA)(gA) | (fg).a.f .e(cTBA) |
+(aA)(aA) (gA)(gA) | (fg)ag Tf2eg || acFa gBEg | fADf ecdB | A/A/A Ac ecfd | caBg a2A |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | a2A2 A2A2 | c2A2 e2E2 | a2A2 A2A2 | d2e2 a2A :| z | f2f2 e2e2 |
+d2d2 c2c2 | f2f2 e2e2 | d2d2 d2c2 || f4 e4 | d4 c4 | A2A2 A2d2 | e2E2 A2A |]

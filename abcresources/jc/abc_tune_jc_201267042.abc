@@ -1,0 +1,24 @@
+X:316
+T:Danza Prima de Lluarca
+R:Danza Prima
+C:Tradicional
+S:Música Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+B:Musicología Asturiana - La Canción Tradicional, Modesto González Cobas
+O:Lluarca
+Z:La Canción Tradicional, M.G.C.
+M:6/8
+L:1/8
+Q:3/8=60
+K:Eb
+"solo"
+G2 A
+|B2 A cBB|B>AG c2 B|B2 A cBB|B>AG-B3-|B3
+"coro"
+E2 F|G2 F AGG|G>FE A2G|G2 F AGG|G>FE-E3-|E3
+"solo"
+G2 A|B3 ccB|c2 c B3-|B3
+"coro"
+[G2E2][AF]|[G3B3][Ac][FA][GB]|[G3/2B3/2][F/A/][EG][A2c2][GB]|
+[G2B2][FA][Ac][GB][GB]|[G3/2B3/2][F/A/][E3G3]-|[E3G3] z3|

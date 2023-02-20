@@ -1,0 +1,20 @@
+X: 3303
+T: the Short Apron.   a Jig.
+%R: jig
+B: Niel Gow & Sons "Complete Repository" v.3 p.30 #3 (and top 2 staffs of p.31)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F	% ending on Dm
+% - - - - - - - - - -
+V: 1 staves=2
+f |\
+cAA fAA | aAA cGG | cAA fAA | aAc ~d2f |\
+cAA fAA | aAA cGG | A>GF Tf>ga | ge^c d2 :|
+|: c |\
+Acd cAF | (A/B/c)A ~G2B | Acd cAF | ~f2e ~d2c |\
+Acd cAF | (A/B/c)A ~G2B | AGF Tf>ga | ge^c d2 :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z | f3 f3 | f3 e3 | f3 f3 | f3 B3  | A3 F3 | f3 e3 | f3 d3 | A3 [d2D2] :|
+|: z | f3 f3 | f3 e3 | f3 f3 | a3 d2e | f3 f3 | f3 e3 | f3 d3 | A3 [d2D2] :|

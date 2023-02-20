@@ -1,0 +1,36 @@
+X: 1
+T:March To The Wars
+M:6/8
+L:1/8
+Q:80
+C:March
+S:
+K:HP
+|: {g}c/2e3/2[|
+{ag}a2A{g}A2{GdGe}A|
+{g}c2{GdG}c{gcd}c3/2B/2{G}A|  !
+{g}c/2e3/2f{g}c/2e3/2c|
+{gcd}c3/2B/2{G}A{GdG}B2e|
+{ag}a2A{g}A2{GdGe}A|  !
+{g}c2{GdG}c{gcd}c3/2B/2{G}A|
+{g}c/2e3/2f{g}c/2e3/2c|
+{g}B/2{d}G3/2{d}B{G}A2:|  !
+f|
+{g}e3/2f/2g{ag}a2g|
+{fg}f3/2d/2f{gef}e3/2d/2{g}c|
+{g}e3/2f/2g{ag}a2g|  !
+{a}f3/2d/2f{gef}e3|
+{g}e3/2f/2g{ag}a2e|
+{g}f/2a3/2f{gef}e3/2{g}c/2{d}A|  !
+{g}c/2e3/2f{g}c/2e3/2c|
+{g}B/2{d}G3/2{d}B{G}A2|]
+f|  !
+{g}e3/2f/2g{ag}a2g|
+{fg}f3/2d/2f{gef}e3/2d/2{g}c|
+{g}e3/2f/2ga2{GdG}a|  !
+f2{GdG}f{g}e2{gf}g|
+a2{GdG}a{ag}a2e|
+{g}f/2a3/2f{gef}e3/2{g}c/2{d}A|  !
+{g}c/2e3/2f{g}c/2e3/2c|
+{g}B/2{d}G3/2{d}B{G}A2|]
+

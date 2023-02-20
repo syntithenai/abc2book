@@ -1,0 +1,15 @@
+X: 11052
+T: MARCH IN BLUE BEARD
+%R: march
+B: "Edinburgh Repository of Music" v.1 p.105 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Voice overlay used for the final alternative notes, which almost works.
+M: C
+L: 1/8
+K: C
+|:\
+g3f e2d2 | c4 d4 | (ed)(ef) {a}g2fe | d2d>d d2z2 |\
+g3f e2d2 | c4 d4 | edef e2d2 | c2c>c c2"_Fine"z2 :|
+d3c B2c2 | d2z2 e2z2 | f3g agfe | d2d>d d2z2 |\
+d3c B2c2 | d4 e4 | d2c2 B2A2 | G2G>G G2z2 & x4 GFED "_D.C."|]

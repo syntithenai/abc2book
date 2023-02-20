@@ -1,0 +1,25 @@
+X: 4163
+T: Miss Maule of Panmure's    Reel
+C: By Nath. Gow
+%R: reel
+N: This is version 1, for ABC software that doesn't understand voice overlays or cres/diminuendo symbols.
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.16 #3
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+% - - - - - - - - - -
+V: 1 staves=2
+c |\
+"_cres."(A/B/c) "_dim."(d/c/B/A/) GE-E>c | GcEc GE-E>c |\
+(A/B/c) (d/c/B/A/) GEEc | G<Ec>E [EC][DB,][DB,] :|\
+f | (e/f/g) Tg>f ecc.e | (A/B/c) Gc EcGc |
+(e/f/g) Tg>f ecce | d>B c>E ([EC][DB,][DB,])f ||\
+(e/f/g) Tg>f ec-ce | (A/B/c) Gc EcGc |\
+egfd ecdB | (c/B/A/B/ c)>E [EC][DB,][DB,] |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | "_cres."[c2F2]"_dim."[c2F3] [c2E2][c2C2] | [c2C2][c2C2] [c2C2][c2E2] |\
+[c2F2][c2F2] [c2E2][c2C2] | e2c2 G2G :| z | c'2c'2 c'2c'2 | f2e2 c2e2 |
+c2c2 c2c2 | B2c2 G2G2 || c'2c'2 c'2e2 | f2e2 c2c2 | c'2b2 c'2g2 | e2c2 G2G |]

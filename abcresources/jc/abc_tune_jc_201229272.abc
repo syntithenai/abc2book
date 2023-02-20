@@ -1,0 +1,25 @@
+X: 12121
+T: the Yellow Haird Laddie
+%R: air, waltz
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.12
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"D>E |\
+{E}F2 A2 (B>c) | d3 e (d/e/)f | (A>B) (A<F) (TE>D) | {D}E4 D>E |\
+{E}F2 A2 B2 | (d>c)(d>e) (d/e/f) |[1 A>BAFE>D | D4 :|[2 A2 g<fTe>d | d4 |
+|: (de) |\
+f2 af(Ted) | c2 ec(TBA) | (Bc)(dB)(AF) | {F2}TE4 D>E | F2 A2 (Bc) |\
+[1 dcde d/e/f | A3 f (Te>d) | d4 :|[2 (dc)dBAd | AB TE3D | D4 |]
+"^Variation"DE |\
+F A2 B2 c | d/A/f- fe2d- | d(c/B/) (A/F/)d (A/F/)D | {F2}E4 (DE) |\
+F(D/F/) A(F/A/) d(A/d/) |[1 f2 edcB | Ad F2 TE2 | D4 :|
+[2 B2 c2 d2 | b/a/g f2 Te2 | d4 |: (de) |\
+f/d/a- (.a/.g/.f/.e/ .d/.c/.B/.A/) | (B/G/)g (.g/.f/.e/.d/ .c/.B/.A/.G/) |\
+(F/A/)d (B/G/)d (A/F/)d |
+{F2}E4 (DE) | FDAFdA |\
+[1 Bgcadb | a/(f/e/d/) f2 Te2 | d4 :|\
+[2 f2 g/f/e/d/ c/B/A/G/ | (3(FAd) F2 E2 | D4 |]

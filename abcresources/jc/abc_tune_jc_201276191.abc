@@ -1,0 +1,16 @@
+X:50
+T:Firth House, The
+C:Alastair Hardie
+B:Caledonian Companion
+R:Hornpipe
+M:2/4
+%%printtempo 0
+Q:90
+U:M=!tenuto!
+K:Bb
+uF2|\
+((3vBcB A>.c) B>d f2|((3fgf e>.c) B>d F2|(G>A) ((3PBAG) (F>.B) d2|((3ded c>.=B) (.c2 .F2)|
+((3BcB A>.c) B>d f2|((3fgf e>.c) B>d F2|(G>A) ((3PBAG) (F>.B) ((3dcB) | c2[f2A2][B2D2] "_Fine"|]
+uD2|\
+({/^F}[GG,]>AB>.c) ((3ude)vc uMd2|({^/F}[GG,]>AB>.c) ((3de)c Md2|e2 (3ded (3cdc (3BcB| (3ABc (3BAG ^F2 D2|
+({^/F}[GG,]>AB>.c) ((3de)c d2|({^/F}[GG,]>AB>.c) ((3de)c d2|e2 (3ded (3cdc (3BcB| (3ABc (3BAG (B>.A) "_D.C. al Fine" G2||

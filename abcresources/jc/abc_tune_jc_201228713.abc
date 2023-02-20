@@ -1,0 +1,23 @@
+X: 11522
+T: CALLAM'S FROLIC
+%R: reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.152 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The rhythms aren't right at the strain's boundaries; not fixed.
+M: C
+L: 1/8
+K: Gm
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+TG>FDG FDC2 | TB,>CDF G2D2 |\
+TB>cdg fdc>d | {c}BA/G/ {B}AG/^F/ {F}G2G, :|\
+|: G |\
+g>agd BdTg2 | fa cf TA2F2 |
+Bcdc Bcd2 | Gg (b/.a/)g/.^f/ Tg2gd |\
+gdgb dg Bd | Acfc A2FA | Bcdc Bd \
+Hg[1d/c/ | {c}BA/G/ {B}AG/^F/ G2G :|\
+[2 F/E/ | DC/B,/ A,D G,2G,2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

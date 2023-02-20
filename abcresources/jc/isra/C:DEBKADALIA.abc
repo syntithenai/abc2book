@@ -1,0 +1,19 @@
+X: 43
+T: Debka Dalia
+O: Israel
+C: Emanuel Zamir 1958
+D: Potpourri Israeli folk dances
+M: 2/4
+L: 1/8
+K: Gmix
+Q: 1/4=120
+%%MIDI program 71 Clarinet
+%%MIDI gchord fg
+%%MIDI bassprog 32 Acoustic Bass
+%%MIDI chordprog 32 Acoustic Bass
+%%MIDI bassvol 50
+%%MIDI chordvol 50
+"Am"DA2A|"G"G/F/E/F/Dz      |"Am"DA2d       |c/B/A/G/Az         |\
+DA2A    |"G"G/F/E/F/Dz      |G3/2A/Bd       |BGAz::
+"Dm"d4- |d3/2c/ "Am"B/A/B/c/|"Dm"d4-        |d3/2c/"Am" B/A/B/c/|\
+"Dm"ddcc|"G"BBA2            |"Am"c/B/c/d/ BB|AG A2              :|

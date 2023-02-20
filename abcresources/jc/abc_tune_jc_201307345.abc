@@ -1,0 +1,22 @@
+X: 1
+T: Marmaduke's Hornpipe
+C: trad. Missouri dance tune
+R: hornpipe, reel
+S: Fiddle Hell Online 2020 handout for Cathy Mason's workshop
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+B: R.P. Christeson "Old Time Fiddler's Repertory" v.1 p.50-51 1973
+N: The photo shows a page with "[68]" at the upper left, probably the tune number,
+N: so it's probably not a page from the Christeson book.
+N; Some of the chord changes might be better if shifted by a beat or so.
+N: The G chord in bar 6 should probably be a D chord, as in bar 2.
+M: 2/4
+L: 1/16
+K: D
+"^A"[|] [AD][AF] |\
+"D"A2AA ABAG | [AF][AE][AF][AE] [AD][AE][AF][AD] |\
+"A7"[E2A,2][AE][AE] [E2C2][AE][AE] | "(D)"[E2A,2][AE][AE] [E2C2][AD][AF] |
+"D"A2AA ABAG | "(G)"[AF][AE][AF][AE] [AD][AE][AF][AD] |\
+"A7"[E2A,2][AE][AE] [E2C2][AE][AE] | "D"[A2D2][AD][AF] [A2D2] :|
+"^B"|: Ac |\
+"D"dcde fded | "G"Bdef gfg2 | "D"ABde f2(3(fgf) | "A7"edcB AGFG |
+"D"ABde fded | "G"cdef gfga | "A7"bgaf gfed | "D"cABc d2 :|

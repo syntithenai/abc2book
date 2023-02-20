@@ -1,0 +1,40 @@
+X: 1
+T: Enfield Common
+P: Longways for as many as will
+%R:
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.102 #143 (144)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.252
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Partly-legible words verified by comparing with http://archive.org/stream/dancingmasterord00play/dancingmasterord00play_djvu.txt
+M: 3/2
+L: 1/4
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: fge |\
+fd2abg | af2age | fdeAd^c | dD2 :|\
+|: efd |\
+ge2 cec | fc2AcA |
+dBGgce | fF2fAc |\
+=Bd2g=Bd | ^ce2aeg | fdeAd^c | dD2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Man sets to the 2d Man, and turn right Hands once round .| Then
+%% set and turn left Hands once round, the two We. do the same the
+%% same Time :| Then the two Men lead through the two We. into their
+%% own Places and turn single, the two We. do the same after them .|
+%% Then Hands half round, and then right and left with your Partner, 'till
+%% the 1st Cu. comes into the 2d Cu. Place :|
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man sets to the 2. man and turn right-hands once round .| Then set and turn left-hands once
+%% round, the 2. wo. does the same at the same time :| Then the 2. man leads through the 2. wo. into their
+%% own places and turn single; the 2. wo. does the same after them .| Then hands half round, and then
+%% right and left with your Partner, till the 1. cu. comes into the 2. cu. place :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

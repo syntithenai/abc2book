@@ -1,0 +1,19 @@
+X: 48
+T: Blagoevgradsko Horo
+O: Bulgaria
+Z: Birgitt Karlson http://www-linux.gsi.de/~karlson/index_e.htm
+M: 7/8
+L: 1/8
+K: Am
+Q: 1/4=132
+%%MIDI program 23
+%%MIDI bassprog 117
+%%MIDI gchord f2zf2f2
+|:"C"dee ee ee     |"G" e2 d "C" de dc| dee ee ee         | "G" (3gfe d "C" e2 dc|
+  dee ee ee        |"G" e2 d "C" de dc| "Dm" (3edc B cd BG|"Am" A2 e AE A2       :|
+|:"Dm" cdd dc de   | d>cB "G" GG GD   | "F"cdd "Dm"dc de  | "D7" d>cB "G" GD GD  |
+  "F"cdd dc de     | "Dm" d>cB AB cd  | d>cB cd BG        |"Am" A2e AE A2        :|
+|: "Am"G>^FE FG AB  | "Dm" cdB AA AE   | "Dm" cdd dc de    |(3dcB G AA AG         |
+  "F" cdd dc de    |"Dm" (3dcB G AB cd|"Dm" (3gfe d cd BG |"Am" A2 e AE A2       :|
+|:"Dm"d>cB cd BG   |"Am" A2 E ^FG AB  |"Dm"(3edc B cd BG  |A2G AB cG             |
+  "Dm"(3edc B cd BG|"Am" A2 E^FG AB   |"Dm" (3edc B cd BG |"Am"A2 e AE A2        :|

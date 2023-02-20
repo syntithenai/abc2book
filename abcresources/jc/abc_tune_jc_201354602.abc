@@ -1,0 +1,26 @@
+X:1
+T: Yes! I am Mireille's Daughter
+N:
+C:Tune is "Stangate Bridge"
+S:(Circle dance)
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 33 notes)
+K:G
+M:4/4
+L:1/16
+B4 B4 d2 c2 B2 A2 |G4 G4 G8 |e2 f2 g4 d4 g4 |c8 B8 |G2 A2 B4 G4 D4 |F2 G2 A4 F4 D4 |B2 ^c2 d4 e4 c4 |d8 D8 |
+%W: A2
+% voice 1 (1 lines, 33 notes)
+B4 B4 d2 c2 B2 A2 |G4 G4 G8 |e2 f2 g4 d4 g4 |c8 B8 |G2 A2 B4 G4 D4 |F2 G2 A4 F4 D4 |B2 ^c2 d4 e4 c4 |d8 D8 |
+%W: B1
+% voice 1 (1 lines, 32 notes)
+d4 d4 e2 d2 c2 B2 |c4 a4 a8 |c4 c4 d2 c2 B2 A2 |B4 g4 g8 |e4 e4 e4 f4 |g8 G8 |F2 G2 A4 F4 D4 |G12 A2 B2 |
+%W: B2
+% voice 1 (1 lines, 30 notes)
+c4 c4 ^c4 c4 |d8 c8 |B4 G4 F4 D4 |B2 A2 G4 F4 D4 |e2 f2 g4 f2 g2 a4 |g8 c8 |B4 g4 f2 e2 d4 |g8 G8 ||

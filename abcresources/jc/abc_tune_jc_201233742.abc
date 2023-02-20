@@ -1,0 +1,29 @@
+X: 200
+T: Unconstant Cloe
+T: Longways &c.
+%R: reel
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.100
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: "Round O" on the staff after the final double bar.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+dc |\
+d2A2 B2dc | d2D2 E2dc | d2A2 BcdE | (GF)(ED) D2 :: FG |\
+A2A2 A2Bc | d2d2 d2cd | B2B2 B2cd | efed c2dc |
+d2A2 B2dc | d2D2 E2dc | d2A2 (Bc)(dE) | (GF)(ED) D2de |\
+f2dc B2cd | e2cB A2fe | d2ef gfed | c4 B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st and 2d Cu. sett striking their Feet to the
+%% Ground, and cross over the same again, then the
+%% 1st Man change with the 2d Wo. and the 1st Wo.
+%% do the same with the 2d Man, and turn all four
+%% half round, then right and left quite round and
+%% turn.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

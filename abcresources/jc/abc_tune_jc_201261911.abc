@@ -1,0 +1,12 @@
+X: 1
+T: the Chipmunk Song    [F]
+C: words & music: Ross Bagdasarian 1958
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: F
+% - - - - - - - - - -
+[| "F"A,2 C | D2 F | "C7"E2 B, | D3 | E2 B, | D2 F | "F"E2 D | D3 \
+|| "Gm7"B,2 D | "C7"E2 G | "Gm7"F2 D | "C7"E3 | "Gm7"F2 D | "C7"E2 G | "F"F2 D | D3 ||
+|| "F"A,2 C | D2 F | "C7"E2 C | D3 | "F"C2 D | "F7"F2 A | "Bb"A2 G | G3 \
+|| "Bb"A2 G | "Bbm"B2 A | "F"G2 F | "Gsus2"A2 E | "Gm"D2 E | "C7"C2 G | "F"F3- | Fzz |]

@@ -1,0 +1,17 @@
+X: 789
+T: Boil the Breakfast Early   #2
+R: reel
+%S: s:2 b:12(6+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #789
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0789/oneill-1001-0789-1.abc
+N: Compacted via repeats and multiple endings [JC]
+M: C|
+L: 1/8
+K: G
+"^A"\
+|:: GBB(G AF)DF |[1 GBB(d c2)BA :|[2 GEEG  c2(BA) :|\
+[3 GBB(d c2)Bc | d(BcA) BGAF | (GE)(EG) c2(Bc) |]
+"^B"\
+|:: dA (3AAA (dA)FA |[1 dAA(^c d)efe :|[2 GEEG c2(Bc) :|\
+[3 d(^cde) dgfe | d(BcA) BGAF | (GE)(EG) c2(BA) |]

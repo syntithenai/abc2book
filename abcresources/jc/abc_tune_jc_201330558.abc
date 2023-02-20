@@ -1,0 +1,99 @@
+%%center Road + Rose + Sentry + Seven
+
+
+X: 1
+T: The Road To Boston v.1
+P: piffero primo b0058
+O: safd 019
+%R: march, song
+F: http://ancients.sudburymuster.org/mus/acn/pdf/fyf08F.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+A2 |\
+f2z2 f2(f2 | g2f2) e2dd | c2d2 e2f2 | d2A2 F2A2 |\
+f2z2 f2(f2 | g2f2) e2dd | c2d2 e2f2 | d4   d2  :|
+|: f2 |\
+a6   a2    | b2a2 g2f2  | g6   g2   | a2g2 f2e2 |\
+f6   f2    | g2f2 e2d2  | c2d2 e2f2 | d4   d2  :|
+
+
+X: 2
+T: The Road To Boston v.2
+P: piffero secondo a0267
+O: mcv
+%R: march, song
+F: http://ancients.sudburymuster.org/mus/acn/pdf/fyf08F.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+z2 |\
+d2A2 d2(cd | e2)d2 c2B2 | E2F2  G2AG | F2E2 D2E2 |\
+d2A2 d2(cd | e2)d2 c2B2 | E2F2  G2A2 | F4   F2  :|
+|: d2 |\
+f2d2 d2f2  | g2f2 e2d2  | ece2- e2de | f2e2 d2c2 |\
+dAd2- d2cd | e2d2 c2B2  | E2F2  G2A2 | F4   F2  :|
+
+
+X: 3
+T: The Rose Tree
+P: piffero primo b0078
+O: Carroll Collection
+%R: march
+F: http://ancients.sudburymuster.org/mus/acn/pdf/fyf08F.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+fe |\
+d2B2 A2F2 | A3B A2B2 | d4 fede | f2e2 e2fe |\
+d2B2 A2F2 | A3B A2B2 | d4 fede | f2d2 d2  :|
+|: d2 |\
+f2e2 f2g2 | a4 g2f2 | e2b2 b2a2 | b2e2 e2fe |\
+d2B2 A2F2 | A4 A2B2 | d4   fede | f2d2 d2  :|
+
+
+X: 4
+T: The Sentry Box
+T: Bonnie Strathyre, Muckin' o' Geordie's Byre, Westering Home
+P: piffero primo b0078
+%P: piffero primo b0064 on another page, with slightly different ties.
+O: safd 021
+%R: jig
+F: http://ancients.sudburymuster.org/mus/acn/pdf/fyf08F.pdf
+F: http://ancients.sudburymuster.org/mus/sng/pdf/sentryboxC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+(3(d/c/B/ |\
+A2)A AFA | d2d def | g2e f2d | (e2d) B2 (3(d/c/B/ |\
+A2)A AFA | d2e f2g | afd ABc | d3- d2 :|
+|: f |\
+ggg ggg | ffff f2f | e2e ede | (f2d) B2 (3(d/c/B/ |\
+A2)A AFA | d2e f2g | afd ABc | d3- d2 :|
+
+
+X: 5
+T: The Seven Stars
+T: The Moon and Seven Stars
+P: piffero primo b0079
+O: Rutherford 1756
+%R: jig
+F: http://ancients.sudburymuster.org/mus/acn/pdf/fyf08F.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+z |\
+d2A A2F | GAB A3 | Bcd efg | fed cBA |\
+d2A A2F | GAB A3 | Bcd efg | Adc d2 :|
+|: z |\
+e2A A2f | efg Tf3 | efg fed | cde A3 |\
+BGB AFA | BGB A3  | Bcd cde | Adc d2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

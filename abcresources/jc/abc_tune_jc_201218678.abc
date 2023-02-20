@@ -1,0 +1,33 @@
+X: 13
+T: Little Bo-Peep.
+C: Elliott.
+Q: "Andante quasi allegretto."
+N: This is version 2, for ABC software that understands cresc/diminuendo annotations
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+%R: waltz
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Eb
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+B e G d2 c | B2 F G2 F | E2 E
+w: 1.~Lit-tle Bo-Peep has lost her sheep and can't tell
+w: 2.~Lit-tle Bo-Peep fell fast a-sleep, And dreamt she
+w: 3.~Then up she took her lit-tle crook, De-ter-mined
+%
+(EF) G | B3 A2z | pc Pc c B2 B/-B/ |
+w: where* to find them; Leave then a-lone; and*
+w: heard* them bleat-ing; When she a-woke, 'twas*
+w: for* to find them; What was her joy to be
+%
+A2 G F3 | !f!e d c (B G) E | QF3 qEzz |]
+w: they'll come home, Wag-ging their tails* be-hind them.
+w: all a joke\-\- Ah! cru-el vi-sion so fleet-ing.
+w: hold them nigh, Wag-ging their tails* be-hind them.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

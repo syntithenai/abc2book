@@ -1,0 +1,29 @@
+X: 1
+T: Love Knott
+R: reel
+M: 2/4
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: 19th century tune book collected by W.A. Cocks.
+F: http://www.asaplive.com/archive/browse_by_collection.asp
+N: The asaplive.com web site is complex, and links to its files don't usually work.
+K: D
+"f"ABc |\
+d2z2 f2z2 | a6 g2 | f2e2d2c2 | B2A2G2F2 |\
+e2z2 f2z2 | g6 f2 | e2d2c2B2 | A2a2f2e2 |
+d2z2 d2z2 | d2z2 d2z2 !Segno!|| "pp"a4-a4 |\
+f4z2z2 | d'4-d'4 | a4z2g2 | f2z2 f4- |
+f2e2d2e2 | d4z2z2 | z8 | d4-d4 |\
+d4b4 | a4-a4 | f4d4 | c4d4 |
+g4f4 | f4e4 | z8 | d4-d4  |\
+d4e4 | f4-f4 | a4-a4 | ^g4-g4 |
+=g4-g4 | {g}f4z2z2 | z8 | d'4-d'4 |\
+c'2d'2e'2d'2 | c'2z2b4- | b4 zgab | a3za4- |
+a2g2f2g2 | f4z2z2 | z2z2zdfa | d'4-d'4 |\
+c'2d'2e'2d'2 | c'2z2b4- | b4 d3e | f4f4 f2e2d2e2 |
+d4z2z2 | z8 | "f"a2z2 f2z2 | d'4-d'4 |\
+f2z2 (fe)de | d2d2 f2a2 | d2 fa d'2 z2 | d2 cdedcd |
+e2B2 g4- | g2 agfedc | B2 cdefga | b2 c'2 d'2 z2 |\
+a2 gabagf | edcB Agfe | d2 fa d'2 z2 | d2 cdedcd |
+e2B2 g4- | g2 agfedc | B2 cdefga | b2 c'2 d'2 z2 |\
+a2z2 c2z2 | d4 z2z2 !Segno!|| "DC"y 

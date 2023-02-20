@@ -1,0 +1,29 @@
+X: 393
+T: MISS GRACE STEWART
+C: EARL OF EGLINTON
+R: Strathspey
+B: Glen Collection p.39 #3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 clef=treble middle=B
+V: 2 clef=bass middle=d
+%%score {1 | 2}
+K: Gm
+%
+V: 1
+F |\
+(D<G) G>A B>c df | AF c>A {A}F2 FA | (D<G) G>A B>c dg | f>d Tc>A {A}d2 G :|
+d |\
+Tg>a g>f Td>c d>=e | f>g fd c>A FA | Tg>a gf Td>c d=e | f>d Tc>A {A}d2 Gd |
+Tg>a g>f Td>c d=e | f>g fd cA FA | G>B A>c B>d c>g | f>d Tc>A {A}d2 G |]
+%
+V: 2
+z |\
+[d'2b2g2][d'2b2d2] [d'2b2g2][d'2b2d2] | [c'2a2f2][c'2a2c2]  [c'2a2f2][c'2a2c2] |\
+[d'2b2g2][d'2b2d2] [d'2b2g2][d'2b2d2] | c2a2 [b2g2][bg] :|
+z |\
+g2[d'2b2] d2[d'2b2] | f2[c'2a2] c2[c'2a2] |\
+g2[d'2b2] d2[d'2b2] | f2a2 [b2g2][b2g2] |
+g2[d'2b2] d2[d'2b2] | f2[c'2a2] c2[c'2a2] |\
+[d2D2][^f2^F2] [g2G2][e2E2] | [d2D2][f2F2] [g2G2][d'bg] |]

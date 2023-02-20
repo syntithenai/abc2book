@@ -1,0 +1,37 @@
+X:239
+T:Six-Twenty Two-Step, The
+R:Jig
+C:Jimmy Shand
+M:6/8
+L:1/8
+K:G
+D2 |\
+"G" G2 G  "D" FGA   | "G" G2 G  G2 D | "G" B2 B "D" ABc | "G" B3      B2B |
+"D" c2 c      A2 c  | "G" B2 B  G2 B | "D" ABA  "A" GFE | "D" D3 "D7" D2D |
+"G" G2 G  "D" FGA   | "G" G2 G  G2 D | "G" B2 B "D" ABc | "G" B3      B2B |
+"D" c2 A      F2 e  | "G" d2 c  B2 d | "D" ded      cBA | "G" G3 "A7" A3|| [K:D] |
+K:D
+|\
+"D" A2 B  B2 A  | Afd   A2 A | A2 f fef   | "A" g3    gcB  |
+A2 c  c2 d  | d2 c  c2 c | ded  c2 B  | "D" B2 _B A2 A |
+A2 =B B2 A  | Afd   A2 A | a2 d d2 c  | "G" B3    B2 B |
+B2 g  g2 B  | "D" A2 f  f2 d | "A" c2 A ABc | "D" d3 "D7" D3 || [K:G] |
+K: G
+|\
+"G" G2 G "D" FGA  | "G" G2 G  G2 D | "G" B2 B "D" ABc | "G" B3      B2 B|
+"D" c2 A     F2 e | "G" d2 c  B2 d | "D" ded      cBA | "G" G3-"G7"GF=F || [K:C] |
+K: C
+|\
+"C" E3    B,3   | C3    E3   |     A2 G G2 ^F | G3-G3      |
+"C" E3    B,3   | C2 E  A2 G | "G" G3-G3      | B,3-B,3    |
+"Dm" D3  "A" ^C3      | "Dm" D2 A, F2 E | "Dm" D2 D "A" ^CDE | "Dm" D3-D3      |
+"G"  D2      ^D E2 F  | "D" ^F2 c  B2 A | "G"  G2 G "D" AG^F | "G"  G3-"G7"G3 ||
+|\
+"C"  E3    B,3   |     C3   E3  |     A2 G G2 ^F |     G3-G3         |
+"C"  e3    c3    |     G3   E3  | "F" B2 A A2 ^G |     A3-A3         |
+"Dm" f2 e  d2 ^c | "G" d3   g3  | "C" e2 d cBA   |     G3      G2 G  |
+"F"  A2 c  cBA   | "C" G2 e edc | "G" BAG  FED   | "C" C3 "D7" D3   || [K:G] |
+K: G
+|\
+"G" G2 G  "D" FGA   | "G" G2 G  G2 D | "G" B2 B "D" ABc | "G" B3 B2 B |
+"D" c2 A      F2 e  | "G" d2 c  B2 d | "D" ded      cBA | "G" HG3 |]

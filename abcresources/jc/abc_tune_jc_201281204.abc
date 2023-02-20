@@ -1,0 +1,17 @@
+X: 1611
+T: Glengariff Bay   #2
+R: hornpipe, reel
+%S: s:2 b:11(6+5)
+B: O'Neill's 1850 #1611
+O: F.O'Neill
+Z: Michael D. Long, 10/06/98
+Z: Michael Hogan
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play (A1A2)x2 + (BA2)x2
+M: 2/4
+L: 1/16
+K: G
+"^A"\
+(3(DEF) "^A"|: G2D2 G2D2 | GABG [1,3 AGFD | BGBd cBAG | E2A2 AcBA :|[2,4 AFDc | BABc dBAB |
+| G2GG "^fine"G2 "^B":: (dc) | BGBd gfga | bagf gfed | efgf edcB | cBAG FA"^->A2"dF |]

@@ -1,0 +1,23 @@
+X: 20544
+T: BOHEMIAN MELODY
+Q: "With spirit."
+%R: polka, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.54 #4
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+Bc |\
+d2d2 (agfe) | {e}d2(dB) G2(AB) |\
+c2c2 (Bced) | c4 B2(Bc) |\
+d2d2 e2e2 | ed^cd B2B2 |\
+c2c2 F2F2 | A4 G2(AB) |
+c2c2 A2A2 | BABc d2B2 |\
+c2c2 A2A2 | BABc Hd2 G/A/B/c/ |\
+d2d2 agfe | {e}d2(dB) G2(AB) |\
+c2c2 GFEF | A4 G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

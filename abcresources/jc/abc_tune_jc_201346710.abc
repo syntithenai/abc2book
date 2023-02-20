@@ -1,0 +1,23 @@
+X: 1
+T: Triti P\^uti 4
+Z: John Chambers <jc@trillian.mit.edu>
+D: Sofia Orchestra MH3403
+M: 2/4
+L: 1/16
+K: A
+"A"\
+|::: "A"A2de edc2 | cABA ABcA | A2de edc2 | "E"cABA "A"A2AE :::|
+"B"\
+|::: "E"~c2BB BEAB | "A"~c2BA ABcA | "E"~c2BB BEAB | "A"c2BA HA2AE :::|
+K: Am
+"C"\
+|::: "Am"ABcd ~e2dc | ~B2BA AEAB | ~c2cB cdB2 | "G"BGdG "Am"A2AE :::|
+"D"\
+|::: "A"A2eE ^cEdE | ^cEdE ~c2_BA | "Am"A2=cE BEcE | BEcE ~c2BA :::|
+"E"\
+|::: "Am"GA_BA AAdE | GAAA AAAE | "Am"GA_BA AAdE | GAAA A2AE :::|
+"F"\
+|: "C"edee edee | edec ~d2dc | gfe2 dcde | "G"d2cB "Am"~A2AG |
+|  "G"ABcd dcde | ~d2cB ~A2AG | ^FGA2 AGBG | "Dm"A2Ad "Am"A2AG :|
+"G"\
+|::: "G"ABcd dcde | ~d2cB A2A"(3x)"G ::|4 ^FGA2 AGBG | "Dm"A2Ad "Am"A2z2 :|

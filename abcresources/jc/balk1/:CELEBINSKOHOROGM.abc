@@ -1,0 +1,24 @@
+X: 84
+T: Celebinsko Horo  [Gm]
+O: Trakia, Thrace, Bulgaria
+F: http://www.youtube.com/watch?v=HWI_uZKmQ0U
+F: http://www.youtube.com/watch?v=yx0wo3S4850
+F: http://www.youtube.com/watch?v=IJwS8LwoQVk
+M: 9/8
+L: 1/8
+% 2/8 3/8 2/8 2/8
+W:
+W: 2011 John Chambers <jc:trillian.mit.edu>
+S: Printed MS from Yaron Shragai
+K: Gm
+Q:1/4=132
+%%MIDI program 71 % Clarinet
+%%MIDI bassprog 26 % Electric Guitar (jazz)
+%%MIDI chordprog 24 % Acoustic Guitar (nylon)
+"^inst"\
+|: "Bb"~dc def "F"~fe ~ed | "Bb"~dc Bcd "Gm"~BA G2 | "Cm"G2 B-c2 ~dc ~cB |
+|[1 "Gm"~BA GAF GA Bc :|[2 "Gm"~BA GAF G2 G2 \
+"^vocal"\
+|: "Gm"G2 cB2 "Cm"cB _A/G/F |
+"Gm"G2 A~B_A G=A B2 | B2 cB2 "Cm"cB _A/G/F | "Gm"G2 A~B_A G2 G2 :|
+% %text Harmony a third higher works well.

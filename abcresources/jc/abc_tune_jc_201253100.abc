@@ -1,0 +1,36 @@
+X: 1
+T: Black Nell
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.147 #201 (293)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.295 "C c 4"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Fixed rhythm inconsistencies at phrase boundaries.
+M: 6/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+z2 |\
+G4d2 B3AG2 | B2d4- d4e2 | d2B2g2 d2B2G2 | F2A4- A4B2 |\
+G4d2 B3AG2 | c2e4- e4g2 | fga2b2 a2f2d2 | A2d4- d4 |]
+A2 |\
+AG ABA2 A2F2D2 | dcded d2B2G2 | e^defe2 BA BcB2 | B2e4- e4g2 |\
+dcded2 d2B2G2 | AGABA2 A2F2a2 | bagfe2 agfed2 | B2g4- g4 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% The 1st Cu. lead up, the 2d Cu. lead down at the same Time, and all four Hands
+%% quite round; then 1st Cu. cast off, and go the whole Figure, then clap Hands
+%% and lead up, then clap Hands again and cast off into the 2d Cu. Place,
+%% and turn his Partner 'till the Tune ends.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% The first couple lead up, the second couple lead down at the same time, and all four hands quite round;
+%% then first couple cast off, and go the whole Figure, then clap hands and lead up, and then clap hands
+%% again and cast off into the secont couple place, and turn his Partner till the Tune ends.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

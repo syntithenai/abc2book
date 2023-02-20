@@ -1,0 +1,44 @@
+X: 33
+T: Dr Delany
+C: Carolan
+%R: air, reel
+B: "The Hibernian Muse" p.20
+F: http://imslp.org/wiki/The_Hibernian_Muse_%28Various%29
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The Roman-numeral label says "No. XXX", but it's obviously XXXIII.
+P: No. XXX(III).
+N: There are tall parens before or after most of the chords in the first strain. Arpeggios?
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+c4 c2zB & [G4E4] [G2E2]x2 | (BdB2) G4 |\
+[e4c4] [e4c4] & G4 G4 | [f4c4] [f4c4] & A4 A4 |\
+[g4d4] [g4d4] & B4 B4 | [a4e4] [a4e4] & c4 c4 |\
+{ef}g2f2 e2Td2 | {B}c2 {B}c2 [c4G4E4] |]\
+[M:C|] g2f2 efed |
+cdef gfed | cdef gefg | fedc BcdB |\
+cGAB cGAB | cBcA dcdB | c2g2 efge | f2f2 c'bc'a |\
+{c'}b2g2 d'c'd'b |
+{b}c'4 [c'4g4] |]\
+gabc' gabc' | gabc' d'bgb | a2a2 a2ge | g2g2 {a}g2f2 |\
+{f}e2e2 efdf | efdg {f}e2dc | AFcA Bddc | {c}B2TAG G4 |
+G2{F}E2{D} C2C2 | CDEF G2FE | F2{G}A2{G} F2F2 | FGAB c2{B}A2 |\
+{c}B2TAG G2B2 | cdef g2{f}e2 | f2e2 d2c2 | {c}B2GB [c4E4] |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+[c'4g4e4c4] [c'2g2e2c2]z2 | z4 G4 |\
+[c'4c4] [c'4c4] | [f4F4] [f4F4] |\
+[g4G4] [g4G4] | [a4A4] [a4A4] |\
+c2f2 g2G2 | c2G2 [c4C4] |][M:C|] e2d2 c2d2 |
+e2c2 g2G2 | c2c2 e2c2 | d2f2 g2G2 |\
+c2z2 c2z2 | f2F2 g2G2 | c4 c'4 | a4 f4 |\
+g4 G4 |
+c4 c4 |]\
+c2c'2 b2g2 | c'2c2 g2G2 | f2f2 f2c2 | e2e2 e2d2 |\
+c2c'2 c'2b2 | c'2g2 c'2c2 | f2d2 g2c2 | d2D2 G4 |
+c2c2 e2c2 | e2c2 e2c2 | f2f2 a2f2 | F2f2 e2c2 |\
+d2D2 G2f2 | e2c2 e2c2 | d2e2 f2d2 | g2G2 c4 |]

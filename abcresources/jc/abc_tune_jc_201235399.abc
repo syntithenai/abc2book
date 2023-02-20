@@ -1,0 +1,25 @@
+X: 21121
+T: THE ALEXANDRIA SCHOTTISCHE
+C: Composed by J. Davidson
+R: shottish
+B: K\"ohler's Violin Repository, v.2, 1885 p.112 #1
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The first part's repeat is wrong; it misses a half beat.  [Fixed.]
+N: Incorrect length in bar 7, fixed by lengthening the e.
+N: Incorrect length in bar 22, fixed by shortening the 2nd c.
+N: This tune would probably have been played AABBAACCAA.
+M: 2/4
+L: 1/16
+K: F
+z2 |\
+(vAB=Bc) (dcAF) | (Ad) c4 B>A |(Bf) e4 d>c | (dcAF) (DC=B,C) |
+(GFEF) (BAGB) | (Ad) c4 B>A | (B<f)e2- e>dB>G | [F2A,2][F2A,2][F2A,2] :|
+K: C
+|: z2 |\
+ue2c>a (^fg)ec | e2c>a (^fg)ec | c'2b>a g2^f>g | a2(g>e) d2g2 |
+e2c>a (^fg)ec | e2c>a (^fg)ec | c'2b>a (ge')d'c' | d'2c'2c'2 "^D.C.":|
+K: Bb
+|: (3uFFF |\
+B2(3FFF d2(3BBB | (.g>.f)d2- d(DFB) | e>dc2- c(DFA) | d>cB2- B (3uFFF |
+B2(3FFF d2(3BBB | (.g>.f)d2- dDFB | e>dc>B A>Fd>c | [B2D2][B2D2][B2D2] :|

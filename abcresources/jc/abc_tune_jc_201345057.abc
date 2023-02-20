@@ -1,0 +1,15 @@
+X: 1457
+T: Tit For Tat
+O: Ennis
+%S: s:3 b:13(5+4+4)
+B: O'Neill's 1850 #1457
+Z: Bob Safranek, rjs@gsp.org
+Z: Compacted via repeats and multiple endings [JC]
+M: C|
+L: 1/8
+K: G
+"^A"[|]\
+(dc) | BGGB AGG2 | D(G (3{A}GFG) A2(dc) | ((3BcB) BG ((3ABA) AB |1 cABG A2 :|2 cdef g2 |]
+"^B"\
+[| (Bd) | ((3efe) dB ((3efe) dB | ((3efe) dB A2Bd | e>(B (3{c}BAB) g>(B (3{c}BAB) | cABG A2 ||
+|| (Bd) | ((3efe) dB ((3efe) dB | ((3efe) dB A2Bd | eg2e gagf | edef g2 |]

@@ -1,0 +1,16 @@
+X: 21412
+T: O WALY WALY
+%R: mazurka, minuet
+B: "Edinburgh Repository of Music" v.2 p.141 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added dots to last notes of both strains to fix the rhythms.
+M: 3/4
+L: 1/16
+K: F
+F2 |\
+A3B c6 f2 | g3a g6 G2 | A3B c6 f2 | agfe f4 F4 |\
+A3B c6 f2 | g3a g6 G2 | A3B c6 f2 | agfe f6 :|
+|: _e2 |\
+d3c B6 c2 | d3c _e4 d2c2 | d2f2 c4 a4 | c'bag f4 z2f2 |\
+d3c A6 f2 | dcBA G6 _e2 | d3c f6 A2 | cBAG F6 :|

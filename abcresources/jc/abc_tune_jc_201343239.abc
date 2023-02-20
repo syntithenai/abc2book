@@ -1,0 +1,47 @@
+X:730
+T:Tango in Toronto
+C:Colin Hume, 2010
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=120
+H:For Karen Millyard and Bridget Whitehead
+%%MIDI gchord c3c
+K:Dm
+P:Intro
+V:1
+%%MIDI program 43
+%%MIDI chordprog 63
+[| z4 | z4 | z4 | z4 |
+V:2 bass octave=-2
+%%repbra 0
+%%MIDI program 63
+K:Dm
+[| D3A | d2A2 | D3A | d2A2 |
+%%vskip 20
+P:A
+V:1
+%%MIDI control 10 127  % speaker
+|: "Dm"AA-AB | "/"A2F2 | "A7"GG-GA | "/"G2E2 |\
+"Bb7"FF-FG | "/"F2ED | "A7"^CDEC | "/"DEFG |
+"Dm"AA-AB | "/"A2d2 | "Bb7"{de}fed^c | "/"defg |\
+"Dm/A"aazd | "A7"f2e2 |1 "Dm"d2z A/B/ | "/"AGFG :|2 "Dm"d2z D/E/ | "/"FG AB |]
+V:2 treble octave=0
+%%MIDI control 10 0  % speaker
+%%MIDI program 75
+|: f4- | fe d2 | e4- | ed ^c2 |\
+d4- | ddef | Tg4- | g2^c2 |
+d4- | d2A2 | _A4- | _AdcB |\
+=A2zF | A2 G2 |1 F2 z a/b/ | agfe :|2 F2 z2 | z4 |]
+%%vskip 20
+P:B
+V:1
+[| "C7"cc-cG | "/"d2c2 | "F"AA-AB | "/"A4 |\
+"A7"AA-AE | "/"BAzG/A/ | "Dm"F2zD/E/ | "/"FAde |
+"Bb7"ff-fe | "/"d2^G2 | "Dm"A2zA, | "/"B,2A,2 |\
+"A7"G,G,-G,A, | "/"E2^C2 | "Dm"D4- | "/"D2z2 |]
+V:2
+[| E4- | EF G2 | F4- | FED2 |\
+^C4- | ^C4 | D2 z2 | z4 |
+dd-dc | B2D2 | F2z2 | z4 |\
+E4 | A,4 | D2 zA | d2z2 |]

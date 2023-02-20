@@ -1,0 +1,36 @@
+X: 4182
+T: Duncan Gray
+%R: air, march, reel
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.4 p.18 #2 (and top 2 staves of p.19)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "SLOW"
+K: A
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+|: "_LEGATO"\
+(EAGA) Bc{A}G2 | A2B>d cAA2 |\
+(DAGA) Bc{A}G2 | A2 (B/c/)(d/B/) cAA2 ::\
+ce (f/e/)(d/c/) dd d2 |
+cd/c/ BA (G~F) E2 | !p!E(AGA) Bc {A}G2 |\
+A2 (B/c/)(d/B/) cA"_Fine"[A2E2C2] :|]\
+[K:=f=c=g][K:Am]\
+|: "MINORE."\
+E(A^GA) Bc^G2 | A2B>d {d}cBHB2 |
+.E(A^GA) Bc ^G2 | ~A2B>d cAH[A2E2C2] :|\
+ce ed/c/ Bd dc/B/ | ~AB/c/ BA (^GA) E2 | .E(A^GA) Bc {A}^G2 |
+~A2 (B/c/)(d/B/) cA [A2E2C2] ||\
+ce ed/c/ Bd dc/B/ | ~AB/c/ BA (^GA) E2 |\
+.E(A^GA) Bc{A}^G2 | ~A2 (B/c/)(d/B/) cAA "_Da Capo."^G/^F/ |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+|: c'2ba ga ed | cAGE Ac/e/ a c/e/ | a[c'f][c'^e][c'f] d^de^e | fc de AaA c/e/ ::
+A2 z2 eb (a/g/)(f/e/) | af/e/ d^d ef g2 | !p!a[c'f][c'^e][c'f] d^de^e | fc de Aa"_Fine"Az :|
+[K:=f=c=g][K:Am]\
+|: c'2 ba ^ga ed | cA ^GE Ae HE2 | c'2 ba ^ga ed | cA eE Aa HA2 :| zc c'2 zA g2 |
+a2 d^d e3 =d | c2 BA ^GA ed | cA eE Aa A2 || zc c'2 zA g2 |
+a2 d^d e3 =d | c2 BA ^GA ed | cA eE AaA "_Da Capo."e'/d'/ |]

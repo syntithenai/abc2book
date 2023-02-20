@@ -1,0 +1,34 @@
+X: 21451
+T: Jack Latin
+%R: reel
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.144 #1 & p.145 #0 (2 staves)
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - -
+|: "_Moderately Quick"\
+(GABc) d2g2 | d2B2B2g2 | d2B2B2g2 | d4TB4 |\
+(GABc) d2g2 | d2B2B2g2 | f2A2A2B2 | c4(BA3) :|\
+|: (GABc) d2B2 | e2c2d2B2 | (GABc) d2B2 | d4TB4 |
+(GABc) d2B2 | e2c2 d2B2 | e2A2A2B2 | c4(BA3) :|\
+|: (GAB2) .B2.B2 | .B2.B2.B2.B2 | (GAB2) .B2.B2 |  d4TB4 |\
+(GAB2) .B2.B2 | .B2.B2.B2g2 | a2A2A2B2 | c4(BA3) :|
+|: g2d2 (Bcd)B | G2d2 (Bcd)B | g2d2 (Bcd)B | d4TB4 |\
+g2d2 (Bcd)B | G2d2 (Bcd)B | e2A2A2B2 | c4(BA3) :|
+|: (GABc defg) | (GABc defg) | (GABc defg) | d4TB4 |\
+(GABc defg) | G2g2B2g2 | aAAB | c4(BA3) :|
+|: (gfed cBAG) | (gfed cBAG) | g2(dB) (g2dB) | d4TB4 |\
+(gfed cBAG) | g2(dB) G2g2 | a2A2A2B2 |c4(BA3) :|
+|: (ga)b2 b2b2 | (dB)(dB) (dB)(dB) | (ga)b2 e2g2 | d4TB4 |\
+(ga)b2 b2b2 | (dB)(dB) (dB)(dB) | e2A2A2B2 |c4(BA3) :|
+|: G2(Bd) g2(dB) | g2(dB) g2(dB) | G2(Bd) g2(dB) | d4TB4 |\
+G2(Bd) g2(dB) | g2(dB) g2(dB) | a2A2A2B2 | c4(BA3) :|
+|: GBBB BBBB | dBBB bggg | GBBB BBBB | cAAA aAAA |\
+GBBB BBBB | dBBB bggg | f2A2A2B2 | c4(BA3) :|
+|: bggg gggg | dggg Bggg | bggg gggg | Bggg Aggg |\
+bggg gggg | dggg Bggg | f2A2A2B2 | c4(BA3) :|
+|: (G4A4) | (B4g4) | G4(A2B2) | (d4B4) |\
+(g4e4) | (d4B2)g2 | f2A2A2B2 | c4(BA3) :|\
+|: g4(b2g2) | (e2g2)(d2B2) | (g2b2)(e2g2) | d4TB4 |\
+b4(a2g2) | (e2d2)(B2G2) | e2A2A2B2 | c4(BA3) :|

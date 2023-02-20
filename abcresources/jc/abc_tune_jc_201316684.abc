@@ -1,0 +1,15 @@
+X: 919
+T: the New Cloak   #2
+R: jig
+%S: s:2 b:10(6+4)
+B: O'Neill's 1850 #919
+Z: Tom Keays (htkeays@mailbox.syr.edu)
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play (A1A2)x2 + (BA2)x2
+%abc 1.6
+M: 6/8
+L: 1/8
+K: Em
+"^A"|: D | E>FA B>AF | dAF AFD |1,3 E>FA B>AF | F>EE E2 :|2,4 dfe dAF | F>EE E2 :|
+"^B"|: d | dBd efe | dBd e2(d/e/) | fed dcB | A>Bd F"^->A2"E |]

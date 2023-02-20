@@ -1,0 +1,33 @@
+X: 1
+T: JOHNNIE FAA   [C]
+O: Old Scottish melody.
+Q: "Slow."
+%Q: "Very slow."
+%R: air, strathspey
+%B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.92 #1
+S: image from Darlene Wigton 2019-4-3
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: C
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 clef=treble staves=2
+[|\
+G2G>A c3e | TA>GA>c {d}d4 | G2G>A c3e     | TA4{GA} G4 ||\
+G2G>A c3e |
+            TAGAc   {c}d4 | G2G>A c>eTd>c | TA4{AG} G4 |:\
+(d2de) g3a | (ge)(Tdc) c4 |
+                            d2de g3a | Te4 {de}d4 ||\
+d2d>e  g3a | (ge)(Tdc) c4 | G2G>A c>eTd>c | A4{GA} G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+"C"c'2"G"b2 "Am"a2e2 | "F"f3A "G7"G2gf | "Em"e2g2 "Am"a2e2 | "F"f4 "C"c4 ||\
+"C"c'2"G"b2 "Am"a2e2 | "F"f3A "G7"G2gf | "Em"e2g2 "Am"a2e2 | "F"f4 "G"g4 \
+|:\
+"G7"g2f2 "C"ede"(F)"f | "G"g2G2 "C"c4 | "G7"g2f2 "Em"e2B2 | "C"cdef "G"g4 ||\
+"G7"g2f2 "C"e2c2 | "G"B2"C"c2 "G7"G2gf | "Em"e2g2 "Am"a2e2 | "F"f4 "C"c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%text Si repete la seconda parte

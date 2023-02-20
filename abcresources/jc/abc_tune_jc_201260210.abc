@@ -1,0 +1,56 @@
+X: 1
+T: The Carfuffle Shuffle   [C/Am/F]
+C: Marianne Taylor
+M: 4/4
+L: 1/8
+P: Play AABBACC...A
+%%indent 400
+K: C
+"Intro"\
+[| "C"E>F G2 "G7"G>A B2 | "C"c>G "G7"e>d "C"c2 "G7"z2 |]
+"A"\
+|:"C"G2 E>F G2 c>B | "F"A2 A>G "Dm"F>E D2 \
+| "G"B2 B>c d2 d>c | "G7"B>c B>A G>F E>F |
+|  "C"G2 E>F G2 c>B | "F"A2 A>G "Dm"F>G A2 \
+| "G7"B>c d2 G>A B2 | "C"c>G "G7"e>d "C"c2 !fine!z2 :|
+K: Am
+"B"\
+|:"Am"A2 A>B c2 A2 | "E7"^G>A B2 E4 \
+| "E7"E>^F ^G>A B2 G2 | "Am"A>B c>d e4 |
+| "Am"A2 A>B c2 A2 | "E7"^G>A B2 E4 \
+| "E7"E>^F ^G>A B2 G2 | "Am"A2 c2 A2 "d.C."z2 :|
+K: F
+"C"\
+|:"F"F>G A2 A>_B c2 | "Bb"B>c d2 d>e f2 \
+| "C7"e>f g2 g>a b>a | "C7"(3gag (3fed (3cdc (3BAG |
+| "F"F>G A2 A>_B c2 | "Bb"B>c d2 d>e f2 \
+| "C7"e>f g>a b>c d>e | "F"f2 a2 f2 z2 :|
+
+%%sep 1 1 500
+X: 2
+T: The Carfuffle Shuffle   [D/Bm/G]
+C: Marianne Taylor
+M: 4/4
+L: 1/8
+P: Play AABBACC...A
+%%indent 400
+K: D
+"Intro"\
+[| "D"F>G A2 "A7"A>B c2 | "D"d>A "A7"f>e "D"d2 "A7"z2 |]
+"A"\
+|:"D"A2 F>G A2 d>c | "G"B2 B>A "Em"G>F E2 \
+| "A"c2 c>d e2 e>d | "A7"c>d c>B A>G F>G |
+|  "D"A2 F>G A2 d>c | "G"B2 B>A "Em"G>A B2 \
+| "A7"c>d e2 A>B c2 | "D"d>A "A7"f>e "D"d2 !fine!z2 :|
+K: Bm
+"B"\
+|:"Bm"B2 B>c d2 B2 | "F#7"^A>B c2 F4 \
+| "F#7"F>^G ^A>B c2 A2 | "Bm"B>c d>e f4 |
+| "Bm"B2 B>c d2 B2 | "F#7"^A>B c2 F4 \
+| "F#7"F>^G ^A>B c2 A2 | "Bm"B2 d2 B2 "d.C."z2 :|
+K: G
+"C"\
+|:"G"G>A B2 B>=c d2 | "C"c>d e2 e>f g2 \
+| "D7"f>g a2 a>b c'>b | "D7"(3aba (3gfe (3ded (3cBA |
+| "G"G>A B2 B>=c d2 | "C"c>d e2 e>f g2 \
+| "D7"f>g a>b c'>d e>f | "G"g2 b2 g2 z2 :|

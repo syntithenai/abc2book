@@ -1,0 +1,25 @@
+X: 701
+T: Doctor O'Neill
+O: Cronin
+B: O'Neill's 1850 #701
+Z: A. LEE WORMAN
+M: 6/8
+L: 1/8
+K: D
+%%slurgraces no
+%%graceslurs no
+A |\
+~d3 AFD | E2F G2A | BGB Bcd | AGF EFA |\
+~d3 AFD | E2F G2A | BGB Bcd | AFD D2 :|
+|: A |\
+~d3 ceA | dfe dcB | AFA Bcd | AGF EFA |\
+~d3 ceA | dfe dcB | AFA Bcd | AFD D2 :|
+|: g |\
+{g}fef afd | dfd fed | gbg faf | gee e2g |\
+{g}fef afd | dfd fed | gbg faf | fdd d2 :|
+|: g |\
+{g}fdf ece | {e}dcB AFA | AFd AFd | AGF E2g |\
+{g}fdf ece | dcB AFA | AFA Bcd | AFD D2 :|
+|: G |\
+FAF GBG | FAG FED | FAF GBG | AGF E2G |\
+FAF GBG | FAG FED | BGB Bcd | AFD D2 :|

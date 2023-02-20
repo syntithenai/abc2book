@@ -1,0 +1,1555 @@
+%%center New Years Eve contra-dance tunes
+
+% newpage
+%%center --- HORNPIPES ---
+%%sep 3 1 500
+%%sep 1 1 500
+
+
+X: 1
+T: Lamplighter's Hornpipe  [A]
+O: 1862
+B: Bruce & Emmett’s Drummers & Fifers Guide  (1862)
+Z: John Chambers <jc:trillian.mit.edu>
+N: Cole p.93
+N: NEFR
+M: C|
+L: 1/8
+K: A
+cd \
+| "A"[ee]c[ee]c eagf | "A"[ee]c[ee]c eagf \
+| "A"[ee]c[ee]c "F#m"fedc | "Bm"d2B2 "E7"B2cd | "A"[ee]c[ee]c eagf |
+| "A"[ee]c[ee]c eagf | "E7"[ee]f[dd]e [cc]d[BB]c \
+| "A"E2A2 A2 :: cd | "A"edcd e2fe | "E7"dcBc d2ed |
+| "A"[cc]A[cc]e "F#m"dcBA | "Bm"GABc "E7"B2cd \
+| "A"edcd e2fe | "E7"dcBc d2ed \
+| "A"cagf "E7"edcB | "A"A2c2 A2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Roxburgh Castle
+R: reel
+N: Also in A.  This is a common Morris-dance tune, in hornpipe rhythm.
+N: Kennedy 1-11
+N: Raven p.188 (identical to the Kennedy version)
+N: Brody p.237
+N: Karpeles and Schofreld, p.7 (in A), p.42 (in G)
+K: G
+(3DEF | "G"G2GB dBGB | "C"c2ce "G"dBGB | "C"c2ec  "G"B2dB | "Am"AGAB "D7"AcBA | "G"G2GB dBGB |
+| "C"c2ce "G"dBG2 | "C"gfge "D7"dcBA | "G"B2G2 G2 (3def |[| "G"gdBd edBd | gdBd edcB |
+| "C"c2ac "G"B2gB | "Am"AGAB "D7"AcBA | "G"G2GB dBGB | "C"c2ce "G"dBG2 | "C"gfge "D7"dcBA | "G"B2G2 G2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Sailor's Hornpipe
+O: Allan's p.39
+B: Allan's p.39
+R: hornpipe
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Em
+B2 \
+| "Em"e2e2 efge | "G"d2B2 B2dB \
+| "D"ABde "(A7)"faef |"D"d2A2 A2Bd \
+||"Em"e2ef g2fe |
+| "G"dBGB "(D)"d2BA | "Em"GFGE "D"DEFA \
+| "Em"G2E2 E2 :: GA | "Em"BGEG BGEG \
+| "Em"BAGF "(A7)"E2FG |
+| "D"AFDF AFDF | "D"AGFE D2EF \
+||"Em"GFGE "C"g2fe | "G"dBGB "(D)"d2BA \
+| "Em"GFGE "D"DEFA | "Em"G2E2 E2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: the Shepton Hornpipe
+O: England
+M: 4/4
+L: 1/8
+K: G
+D2 \
+| "G"GABc d2dB | "C"c2e2 "G"d2B2 | "G"GABc d2dB | "C"c2e2  "D7"A2A2 | "G"GABc d2dB |
+| "C"c2e2 "G"d2B2 | "G"GABc "D7"dedc | "G"B2G2 G2 |]| G2 | "G"g2g2 gagf | "C"e2c2 cdcB |
+| "A7"A2a2 abag | "D"f2d2 d2ef | "G"gagf "C"e2ag | "D"fgfe "D7"d2ef | "G"g2B2 "C"ce"D7"dc | "G"B2G2 G2 |]
+
+% newpage
+%%center --- JIGS ---
+% %sep 1 1 500
+% %sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Andy de Jarlis' Jig v.1   [E]
+C: trad.
+S: Jerry Holland, who learned it from Mike MacDougall
+R: jig
+M: 6/8
+L: 1/8
+K: E
+|: "E"EGB EGB | EGB "A"c2B | "E"EGB EGB | "D"=DFA B2A \
+|  "E"EGB EGB | EGB "A"c2a | "B7"g2f Bcd | "E"e6 :|
+f- \
+|: "E"gbg efg | "F#m"gba c3 | "B7"f2g f2e | dcB c2B \
+|  "E"gbg efg | "F#m"gba c2a | "B7"g2f Bcd | "E"e6 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: the Atholl Highlanders Jig
+O: Trad
+R: jig-time march
+Z: John Chambers <jc:trillian.mit.edu>
+N: The G chords are often "modernized" to E7, except for the last line, which always has G.
+N: Hebert p.20
+N: Lord Athlone's March on Banff SBS5406
+D: Graham Townsend on the Piper's Broken Finger
+D: Boys of the Lough, cut 4A
+M: 6/8
+L: 1/8
+K: AMix=g
+c/d/ |: "A"e3 e>cA  | ecA "G"Bcd  |1,3 "A"e3 e>cA  | "G"Bcd "(E)"cBA :|2,4 "A"e-<ae "D"fed | "E"cdB "A"A2 :|
+c/B/ |: "A"A>ce Ace | "D"A>df Adf |1,3 "A"A>ce Ace | "G"Bcd "(E)"c2B :|2,4 "A"e-<ae "D"fed | "E"cdB "A"A2 :|
+ e   |: "A"a2e edc  | a2e edc     |1,3  a2e edc    | "G"Bcd "(E)"cBA :|2,4 "A"e-<ae "D"fed | "E"cdB "A"A2 :|
+ B   |: "A"c>Ac cAc | "G"d-<Bd dBd |1,3 "A"c-<Ac cAc | "G"B-<GB Bcd :|2,4 "A"e-<ae "D"fed | "E"cdB "A"A2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Atholl Highlanders Jig (Balkanized)
+O: Trad
+N: This tune works well in the middle-eastern "hejaz/hijaz/freygish" scale.
+R: jig-time march
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: _B^c	% A hijaz
+c/d/ \
+| "A"e3 e>cA | ecA "Gm"Bcd \
+|1,3 "A"e3 e>cA | "Gm"Bcd cBA \
+:|2,4 "A"e-<ae "Dm"fed | "Gm"cdB "A"A2 :|
+|: c/B/ \
+| "A"A>ce Ace | "Dm"A>df Adf \
+|1,3 "A"A>ce Ace | "Gm"Bcd c2B \
+:|2,4 "A"e-<ae "Dm"fed | "Gm"cdB "A"A2 :|
+|: e \
+| "A"a2e edc | a2e edc \
+|1,3 a2e edc | "Gm"Bcd cBA \
+:|2,4 "A"e-<ae "Dm"fed | "Gm"cdB "A"A2 :|
+|: B \
+| "A"c>Ac cAc | "Gm"d-<Bd dBd \
+|1,3 "A"c-<Ac cAc | "Gm"B-<GB Bcd \
+:|2,4 "A"e-<ae "Dm"fed | "Gm"cdB "A"A2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Aunt Mary's Jig
+O: Canada
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: D
+|: de | "D"f2f f>ga | d3 dcB | A>BA "B7/D#"AGF | "Em"E3- E3 | "A7"e2e efg | e2d c2B |
+|1 A2A A>BA | "D"F6 :|2 A2A ABc | "D"d3- d |: FG || "D"A>FA faf | e2d d2B | A>FA "B7/D#"BcB |
+| "Em"A2G G3 | "(A7)"G>FG efe | "A7"d2c c2B |1 A2A A>BA | "D"F6 :|2 "A7"A2A ABc | "D"d3- d |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Calliope House   [D]
+C: Dave Richardson
+N: Originally in E, which works well on fiddle, but others might prefer D.
+N: Calliope House is a folk center in Pittsburgh.
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: zA | "D"dAA fAA | "A7"eAA "D"fAA | "Em"Bee e2d | "A"efd BdB | "D"ABA A2F | A2B d2e |
+     |1 "G"faf fed | "A7"e3- e :|2 "G"faf "A7"edB | "D"d3- d |: fg | "D"a3 faa | "A7"eaa "D"[fd]aa | "G"g3 fgf |
+     | "A7"efe edB | "D"ABA A2F | A2B d2e |1 "G"faf fed | "A7"e3- e :|2 "G"faf "A7"edB | "D"d3- d |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Calliope House   [E]
+C: Dave Richardson
+R: jig
+N: Calliope House is a folk center in Pittsburgh.
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: E
+zB | "E"eBB gBB | "B7"fBB "E"gBB | "F#m"cff f2e | "B"fge cec | "E"BcB B2G | B2c e2f |
+   |1 "A"gbg gfe | "B7"f3- f :|2 "A"gbg "B7"fec | "E"e3- e |: ga | "E"b3 gbb | "B7"fbb "E"[ge]bb | "A"a3 gag |
+   | "B7"fgf fec | "E"BcB B2G | B2c e2f |1 "A"gbg gfe | "B7"f3- f :|2 "A"gbg "B7"fec | "E"e3- e |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: the Church of Dromore
+O: O'Neill's #270
+N: "Moderate"
+N: "Collected by F.O'Neill"
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Ador
+G \
+| "Am"EAA ABc | "G"BAB G2A | Bee dBG | BAB GED \
+| "Am"EAA ABc | "G"BAB G2A | Bee dBG | "Am"BAA A2 :|
+|: d \
+| "C"gfg "G"edB | "Am"BAA A2d | "C"gfg edc | "G"BAB GED \
+| "Am"EAA ABc | "G"BAB G2A | Bee dBG | "Am"BAA A2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Cliffs of Moher
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: Ador
+|:"Am"a2a  bag |  eaf  ged |     c2A BAG |     EFG ABd \
+|     eaa  bag |  eaf  ged |     c2A BAG | "Em"EFG "Am"A3 :|
+||"Am"e=fe dBA | ~e3   dBA |  "G"GAB dBA |     GAB ~d3 \
+| "Am"e=fe dBA | ~e3   dBA |  "G"GAB dBG | "Em"EFG "Am"[E3A3] ||
+||"Am"e=fe dBA |  e=fe dBA |  "G"GAB dBA |     GAB ~d3 \
+| "Am"e=fe dee |  cee  Bee | "Em"EFG BAG |  "G"EDB, "Am"A,3 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Fair Jenny's Jig
+C: Peter Barnes
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"f3 fgf | "A7"ecA ecA | "G"Bcd "A7"ecA | "G"Bcd "A7"e2A \
+| "D"f3 fed | "A7"ecA ecA | "G"Bcd "A7"e2A | ABc "D"d2 :|
+|: A \
+| "G"B3 B=cB | GBB B=cB | "D"ADD dDD | cDD [=cA]DD \
+| "G"B3 B=cB | GBB B=cB | "A7"AEA ABc | "D"dAF D2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Haste to the Wedding
+O: 1760
+M: 6/8
+L: 1/8
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: Cole p.53
+B: Called "The Small Pin Cushion" in J. Oswald's "Caledonian Pocket Companion" (bk. 10, c 1760)
+B: Called "Carrick Fergus" in J. Brysson's "A Curious Collection of Favourite Tunes" (Edinburgh 1791)
+N: "The tune 'Come, Haste to the Wedding,' of Gaelic origin, was introduced in the pantomime, The Elopement, staged in London in 1767." (Linscott, 1939)
+K: D
+F/G/ \
+| "D"A>BA Agf | "G"ede "A7"fdB | "D"A>BA "Bm"AdF | "Em"GFG "A7"EFG | "D"A>BA Aaf |
+| "G"ede "A7"fdB | "D"A>BA "A7"faf | "D"d>ed d2 :: f/g/ | "D"a>fa afa | "G"b>gb "(A7)"bag |
+| "D"fga "Bm"agf | "Em"g>fg "A7"efg | "D"a2z "Bm"f2z | "Em"ede "A7"fdB | "D"A>BA "A7"faf | "D"d>ed d2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Ingonish Jig
+R: jig
+Z: 2000 John Chambers <jc:trillian.mit.edu>
+B: Pinewoods Scottish Music Collection [Alternates] (1986)
+M: 6/8
+L: 1/8
+K: Edor
+   A \
+| "Em"B2e efg | "D"fef dBA | "Em"B2e efg | "D"afe d2A \
+| "Em"B2e efg | "D"fef dBA | "G"Bcd "D"AFD | "Em"EFE E2 :|
+|: e \
+| "Em"BEE BEB | "D"AFD DFA | "Em"BEE BdB | "D"ADF Adc \
+| "Em"BEE BdB | "D"AFD DFA | "G"Bcd "D"AFD | "Em"EFE E2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: an Irishman's Heart to the Ladies
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+a \
+| "A"ecA "D"BAF | "A"AFE EFA | "Bm"Bdc BAB | "E7"cBB B2a | "A"ecA "D"BAF |
+| "A"AFE EFA | "Bm"Bdc "E7"BAB | "A"cAA A2 :: B | "A"cee "D"dff | "A"cee ecA |
+| Ace "D"faf | "A"ecA "E7"B2A | "A"cee "D"dff | "A"cee ecA | "Bm"Bdc "E7"BAB | "A"cAA A2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Morrison's Jig
+O: trad Ireland
+M: 6/8
+L: 1/8
+R: jig
+K: EDor
+|:\
+"Em"~E3 BEB | EBE "D"AFD | "Em"~E3 BEB | "G"dcB "D"AFD |\
+"Em"~E3 BEB | EBE "D"AFD | "G"~G3 "D"FGA | "Em"[dB]AG "D"FED :|
+[|\
+"Em"Bee fee | aee "D"fed | "Em"Bee fee | "D"fag fed |\
+"Em"Bee fee | bee "D"fef | "G"gfe "D"d2A | "Em"BAG "D"FED |]
+[|\
+"Em"Bee fee | aee "D"fed | "Em"Bee fee | "D"faf def |\
+"G"~g3 gfe | "D7"def "G"g2d | "D"edc d2A | "(Bm)"BAG FED |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: My Darling Asleep.
+T: Haymaker's Jig
+B: O'Neill's 925
+Z: John Chambers <jc:trillian.mit.edu>
+Z: abc 1.6
+M: 6/8
+R: Jig
+L: 1/8
+K: D
+(d/e/) \
+| "D"fdd "A7"cAA | "G"BGG "A7"A2G | "D"FAA "Bm"def | "Em"gfg "A7"eag \
+| "D"fdd "A7"cAA | "G"BGG "A7"A2G | "D"FAA     def | "A7"gec "D"d2 :|
+|: (A/G/) \
+| "D"FAA  "G"Bcd | "D"FAA  "G"BAG | "D"FAA "Bm"def | "Em"gfg "A7"eag \
+| "D"fdd "A7"cAA | "G"BGG "A7"A2G | "D"FAA     def | "A7"gec "D"d2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Out on the Ocean v.1   [G]
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 6/8
+L: 1/8
+K: G
+E |\
+"G"D2B BAG | BdB "D7"ABA | "G"GED G2A | ~B3 "D7"AGE |\
+"G"D2B BAG | BdB "D7"ABA | "G"GED G2A |1 "G"BGF G2 :|2 "G"BGF GBd ||
+|:\
+"Em"~e3 edB | efe edB | "D"~d3 dBA | d2d dBA |\
+"G"G2A B2d | "C"ege "D7"dBA | "G"GED "D7"G2A |1 "G"BGF GBd :|2 "G"BGF G2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Out On the Ocean v.2   [A]
+S: Roaring Jelly collection
+R: Jig
+M: 6/8
+L: 1/8
+K: A
+GF \
+| "A"E2c cBA | cec "E7"BcB | "A"AFE "(E)"A2B | "A"cec "E7"BAF \
+| "A"E2c cBA | cec "E7"BcB | "A"AFE "(D)"A2B | "E7"cAG "A"A :|
+ ce \
+| "F#m"f3 fec | "D"fgf fec | "A"efe ecB | e2e "E7"ecB \
+| "A"A2B c2e | "D"faf "E7"ecB | "A"AFE "(D)"A2B | "E7"cAG "A"A |]
+ ce \
+| "F#m"f3 fec | "D"fgf fec | "A"efe "E7"efg | "A"agf "E7"ecB \
+| "A"A2B c2e | "D"faf "E7"ecB | "A"AFE "(D)"A2B | "E7"cAG "A"A |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: the Sailor's Wife   [Dm]
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dm
+   "A7"A \
+| "Dm"DEF E2D | d2e f2g | agf edc | "F"AcA "C"GEC \
+| "Dm"DEF E2D | d2e f2g | agf "A7"ed^c | "Dm"d3- d2 :|
+|: "C7"e \
+| "F"fga fga | fga agf | "C"ecg ecg | efg "A7"gfe \
+| "Dm"fga agf | "C"efg gfe | "Dm"def "A7"ed^c | "Dm"d3- d2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: the Sailor's Wife   [Em]
+C: attr. Niel Gow
+O: 1780
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+B \
+| "Em"EFG F2E | "Em"e2f g2a | "Em"bag fed | "G"BdB "D"AFD \
+| "Em"EFG F2E | "Em"e2f g2a | "Em"bag "B7"fe^d | "Em"e3- e2 :|
+|: "D7"f \
+| "G"gab gab | "G"gab bag | "D"fda fda | "D"fga "B7"agf \
+| "Em"gab bag | "D"fga agf | "Em"efg "B7"fe^d | "Em"e3- e2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Scarce o' Tatties
+T: Cion a'Bhunta'ta
+C: Norman MacLean
+R: jig
+N: jig-time variant of the old tune "The Banks of the Devon"
+L: 1/8
+M: 6/8
+K: ADor
+|:"Am"A>ee efg | "G"e>dB dBG | "Am"A>ee efg | "G"edB "Am"A3 \
+| ~a3 "(C)"gag | "D"f>gf "Am"eAA | A>ee efg | "G"edB "Am"A3 :|
+|:"Am"a>eg a2e | "G"g2f "Am"eAA | a>eg a2e | "G"g2f "E(m)"e3 \
+| "Am"~e3 ~A3 | "D"d>ff "Am"fee | A>ee efg | "G"edB "Am"A3 :|
+W: A major chords also work.
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: the Star Above the Garter
+O: trad. Ireland
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: the Portland Collection v.1 p.190
+M: 6/8
+L: 1/8
+K: G
+B/c/ |\
+"G"d2B BAG | "D"A2A ABA | "C"G2E c2B | "D"BAG ABc |\
+"G"d2B BAG | "D"A2A ABA | "C"GFE cGE | "D"DED D2:|
+|:d |\
+"D"d2e fga | "G"gfe d2B | "G"G2B "C"c2B | "G"BAG "Am"A3 |\
+"D"d2e fga | "G"gfe d2B | "G"GAB "C"cGE | "D"DED D2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Timmy Clifford's
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: G
+|: DB, \
+| "G"G,>B,D "C"E2D | "D7"EGF "G"GDB, | "G"G,>B,D "C"C2B | "D"AGF "G"G3 | "G"G,>B,D "C"E2D |
+| "D7"EGF "G"GAB | "G"d3 B3 | "D"AGF "G"G :: Bd | "C"e>fe "G"d2B | BAG GBd | "C"e>fe "G"d2B |
+| BAG "D"A>gf | "C"e>fe "G"d2B | BAG GAB | "C"c3 "G"B3 | "D"AGF "G"G |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Tripping Up Stairs
+C:trad Ireland
+Z:Laurie Griffiths (distribute freely)
+L:1/8
+M:6/8
+K:D
+V:1
+|:  "D"FAA "G"GBB |  "D"Ade fed | "A"cBc ABc | "D"dfe "A7"dAG \
+ |  "D"FAA "G"GBB |  "D"Ade fed | "A"cBc ABc | "D"dfe d3 :|
+|: "Bm"dBB    fBB | "Bm"dBB fed | "A"cAA eAA | "A"cAc edc \
+ | "Bm"dBB    fBB | "Bm"dBd fed | "A"cBc ABc | "D"dfe d3 :|
+
+% newpage
+% %sep 3 1 500
+% %sep 1 1 500
+%%center --- KLEZMER ---
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Alle Br\"uder  [Dm]
+M:C|
+S:From Itzak Perlman "In the Fiddler's House"
+R:Reel
+Z:Spuds 3/7/03 SG
+K:Dm
+[| "Dm"A2d2 d2e2 | f3f e2d2 | "Dm"f4 "Gm"g4 |"Dm"f3f e2d2 |\
+A2d2 d2e2 | f3f e2d2 | "Dm"f4 "A7"e4 | "Dm"d4 "C7"z4 |
+| "F"c2f2 f2g2 | a3a g2f2 | "F"a4 "Bb"b4 | "F"a3a g2f2 |\
+c2f2 f2g2 | a3a g2f2 | "F"f4 "A7"e4 | "Dm"d2y2 |]| a2 "(D7)"a2a2 |
+| "Gm"g2zf (e4 | "A7"e2)g2 g2g2 | "Dm"f2ze (d4 | d2)f2 f2f2 |\
+"A7"e4 A4 | "A7"a2g2 f2g2 | "Dm"(a8 | a)za2 "(D7)"a2a2 |
+| "Gm"g2zf (e4 | "A7"e2)g2 g2g2 | "Dm"f2ze (d4 | d2)f2 f2f2 |\
+"A7"e4 A4 | a2g2 f2e2 | "Dm"d4 "A7"A4 | "Dm"d6 z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Bulgar: Henry Weinstein's
+C: Henry Weinstein (Kammen 9 #19)
+B: Kammen 9 #19
+Z: John Chambers <jc:trillian.mit.edu>
+R: Bulgar
+K: Dm
+M: 2/4
+L: 1/8
+|: DFA \
+|| "Dm"d^c dA- | A^G A2 | FE FD- | DD EF | "Gm"G3 F | "A7"A/^G/F F/E/D | "Dm"^G/=B/ A3- | AD FA |
+|| "Dm"d^c dA- | A^G A2 | FE FD- | DD EF | "Gm"G3 F | "A7"A/^G/F F/E/D | "Dm"D4-        | D :|
+|: "C7"c[d=B][e_B] \
+|| "F"[fA][cA] [fA][ac]- | [ac][fA] [a2c] | [c'a][af] [c'a][af]- | [a4f] \
+| "C7"[g3e] [af] | [bg][c'/a][b/g] [af][ge] | "F"[^ge] [a3f]- | [af]c "C7"[d=B][e_B] |
+|| "F"[fA][cA] [fA][ac]- | [ac][fA] [a2c] | [c'a][af] [c'a][af]- | [a4f] \
+|  "C7"[c'3a] [af] | [c'/a][b/g][af] [b/g/][a/f/][ge] | "F"[f4f]- | f :|
+|: F"A7"E^C \
+|| "Dm"D4- | D[E^C] [FD][GE] | [A4F]- | [AF]F ED | "A7"^C2 E2 | B3 ^G | "Dm"A3 ^G | A/^G/F F/E/D |
+|| "Dm"D4- | D[E^C] "D7"[FD][^F=C] | "Gm"[G4B,] | [B2D] z2 | "Dm"AD EF | "A7"A/^G/F F/E/D | "Dm"D4- | D :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Kishiniever Bulgar [G]
+T: Bulgar from Kishiniev
+S: Abe Schwartz's Orchestra 1917
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+DGB \
+| "G"dc B2 z DGB | dc B2 z DGB | "G"d2 "C" e2 "G"d2 "D7"cB | "G"d3 kg z DGB |
+| "G"dc B2 z DGB | "Am"cB A2 "D7"z ABc | "G"d>B "D7"c>A "G"B>G "D7"A>F | "G"G4 z :|
+|: z3 \
+| "G"de =f2 "C"ed e2 | "D7"dc d2 "G"c B3 | d2 cB d2 cB | d4 g2 g2 |
+| "G"de =fg e=f de | "D7"cd Bc "G"BA AG | "G"d>B "C"c>A "G"B>G "D7"A>F | "G"G4 z :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Lebedich un Freilech
+T: Lively and Happy
+R: freilach
+O: Abe Schwartz
+Z: 1998 John Chambers <jc:trillian.mit.edu>
+N: For contras: this tune is 64 bars, twice through the dance.
+M: 4/4
+L: 1/8
+K: DDor
+A^G/A/ _BA =GF EA | \
+|: "Dm"D>D FE- ED EF | A^G BA- AG FE | D>D FE- ED EF |1 A>^G B>G A A,B,^C :|
+|2 D4- D || D FA | "Dm"d2d2 d2de | "Am"c/B/A AA- AD FA | "Dm"d2d2 d2de | "Am"c/B/A AA- AG FE |
+| "Dm"D>D FE- ED EF | A^G BA- AG FE | D>D FE- ED EF | D4- D || [K:D]
+|: D GA \
+| "G"B4- BA B>A | GD3 zDGA | "D7"B>"/"A B>"/"A B>"/"A B>"/"A | "G"GD3 zDGA |
+| "G"B4 "Gm"_B4 | "A"AG FE- EE FG | "D"A>F "A7"G>E "D"F>D "A7"E>C | "D"D4- D:|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Toska po rodina
+T: Mot Barrikaderna
+O: Russia
+R: march
+Z: John Chambers <jc@trillian.mit.edu>
+D: Norrl�ter "Framtidshopp", identified as "Finsk arbetarmarsch"
+D: Andy Statman & David Grisman "Songs of our Fathers", called "Toska" and identified as a Russian march.
+B: Kammen V.1 #40 "Toska Porodina" (Longing for Home), no attribution.
+M: C
+L: 1/8
+K: Dm
+"A"[|] A^GA |\
+"Dm"f2 f3 ed^c | "A7"e>^c A3 A^GA | "(Gm)"g2 g3 "(A7)"gfe | "Dm"a>f d3 A^GA |
+"Dm"f2 f3 ed^c | "A7"e>^c A3 a^ga | ba eg ag fe | "Dm"dd/d/ dd d :|
+"B1"[|] zA2 |\
+"Dm"d2 c2 "Gm"B2 G2 | "A7"A4- A A^GA | "Gm"B2 A2 G2 F2 | "A7"A4- A A^GA |\
+"Gm"B2 A2 G2 F2 | "A7"A4- A AGF | E2 A2 F2 E2 | "Dm"DD/D/ DD D |]
+"B2"[|] ABA |\
+"Dm"A2 d2 e2 d2 | "A7"^c4- c ABA | A2 e2 f2 e2 | "Dm"d4- "D7"d ABA |\
+"Gm"G2 d2 e2 d2 | "Dm"A4- A AGF | "A7"E2 A2 F2 E2 | "Dm"DD/D/ DD D |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Yos'l Yos'l [Dm]
+M: 2/4
+L: 1/8
+K: Dm
+A,DF \
+| "Dm"A2 "Gm"B2 | "Dm"AA "A7"GF | "Dm"B A3 | zA,DF \
+| "Dm"A2 "Gm"B2 | "Dm"AG BA | "A7(Gm)"G4 | "A7"zA,^CE |
+| "A7"G2 A2 | "(Gm)"GG FE | "A7"G G3 | zA,^CE \
+| "A7"G2 A2 | GF AG | "Dm"F4 | zA,DF |
+| "Dm"A2 "Gm"B2 | "Dm"AA "A7"GF | "Dm"B A3 | zA,DF \
+| "Dm"A2 d2 | "D7"cB dc | "Gm"B4- | B2 Bc |
+| "Gm"dd dd | d2 cB | "Dm"AA AA | A2 GF \
+| "(A7)"A2 E2 | "A7"GG FE | "Dm"D4- | D |]
+%%text The last 8 bars are often repeated, giving 40 bars; this is a 32-bar contradance version.
+
+% newpage
+% %sep 3 1 500
+% %sep 1 1 500
+%%center --- MARCHES ---
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Jamie Allen
+T: Jimmy Allen
+T: Reel of Tullochgoram
+O: c.1800
+R: reel
+M: 2/4
+L: 1/8
+Z: John Chambers <jc:trillian.mit.edu>
+N: Jamie Allen (1734-1810) was a Northumbrian small-pipes player.
+N: This tune is attributed to him, but the details aren't known.
+K: G
+G/A/ |\
+"G"BG GA | "Em"B2 GA/B/ | "Am"cA AB | "D7"c2 BA |\
+"G"Gg "C"ge | "G"d2 B>c | "D7"dd c/B/A | "G"G3 :|
+|: B/A/ |\
+"G"Gg g>f | "Em"ed cB | "Am"Aa a>g | "D7"fd ef |\
+"C"g>a ge | "G"d2 B>c | "D7"dd c/B/A | "G"G3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Corn Rigs   [C]
+B: RSCDS 4-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: From Ramsay's Tea table miscellany 1725, also in Playford 1687.
+M: C|
+L: 1/8
+K: C
+G2 |\
+"C"c2cd e2dc | "G7"BABc d2G2 |\
+"C"c2cd "G7"efde | "C"c2g2 "(G7)"g2G2 |\
+"C"c2cd e2dc | "G7"BABc dBG2 |\
+"F"ABcA "G7"dcBA | "(C)"G2c2 "C"c2 :|
+|: G2 |\
+"C"c2g2 e2g2 | "G7"BABc d2G2 |\
+"C"c2g2 "G7"efde | "C"c2g2 "(G7)"g2G2 |\
+"C"c2g2 "Am"agfe | "Dm"fedc "G7"BcdG |\
+"F"ABcA "G7"dcBA | "(C)"G2c2 "C"c2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Corn Rigs   [D]
+B: RSCDS 4-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: From Ramsay's Tea table miscellany 1725, also in Playford 1687.
+M: C|
+L: 1/8
+K: D
+A2 |\
+"D"d2de f2ed | "A7"cBcd e2A2 |\
+"D"d2de "A7"fgef | "D"d2a2 "(A7)"a2A2 |\
+"D"d2de f2ed | "A7"cBcd ecA2 |\
+"G"BcdB "A7"edcB | "(D)"A2d2 "D"d2 :|
+|: A2 |\
+"D"d2a2 f2a2 | "A7"cBcd e2A2 |\
+"D"d2a2 "A7"fgef | "D"d2a2 "(A7)"a2A2 |\
+"D"d2a2 "Bm"bagf | "Em"gfed "A7"cdeA |\
+"G"BcdB "A7"edcB | "(D)"A2d2 "D"d2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: March of Saint Timothy
+C: Judi Morningstar 1985
+M: C|
+L: 1/8
+K: G
+|:\
+"G"B3c d2B2 | "D7"A3B c2A2 | "Em"G3A B2G2 | "Bm"G2F2 E2D2 | "C"E3F G2E2 |\
+"G"D2G2 B2d2 |1 "Am"c3B A2G2 | "D7"F2A2 D2c2 :|2 "Am"cBAG "D7"F2A2 | "G"G6 |]
+dd |\
+"D7"c2d2 A2c2 | F2A2 D2dd | "G"B2d2 G2B2 | D2G2 B,2dd |\
+"D7"c2d2 A2c2 | F2A2 D2dd | "G"d2D2 E2F2 | G2A2 B2 |]
+dd |\
+"D7"c2d2 A2c2 | F2A2 D2dd | "G"B2d2 G2B2 | D2G2 B,2G2 |\
+"C"E3F "C#dim"G2E2 | "G"D2G2 "Em"B2d2 | "Am"cBAG "D7"F2A2 | "G"G8 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: My Love is But a Lassie Yet
+O: Bremner 1757
+R: reel, march
+Z: 2001 John Chambers <jc:trillian.mit.edu>
+S: printed page SRSNH 2.14 in the Concord Slow Scottish Session collection
+B: Bremner's "Scots Reels", 1757 as "Miss Farqharson's Reel"
+B: Aird "Selections of Scotch, English, Irish and Foreign Airs", v.II, p.1, #1, c.1782
+N: Reused by Robert Burns for his song.
+M: C|
+L: 1/8
+K: D
+   dc \
+| "D"d2D2 F2A2 | d2D2 D2dc | d2D2 F2A2 | "Em"e2E2 "A7"E2dc \
+| "D"d2D2 F2A2 | "G"B2g2 "A7"f2e2 | "D"dcBA "A7"Bcde | "D"f2d2 d2 :|
+|: fg \
+| "D"a3f "A7"g3e | "D"f2d2 d2fg | a2f2 gfga | "Em"b2e2 "A7"e2fg \
+| "D"a2af "A7"g2ge | "D"f2fd "A7"e2ec | "D"dcBA "A7"Bcde | "D"f2d2 d2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: the Rakes of Mallow  [G]
+%T: the Jolly Sailor
+N: Called "Sandy Lent the Man His Mill" in some old books
+O: 1733
+Z: John Chambers <jc:trillian.mit.edu>
+B: Walsh "Caledonian Country Dances" 1733, p.34
+B: Burke Thumoth collection (as “Rakes of Marlow”), 1745
+M: C
+L: 1/4
+K: G
+|:\
+"G"GB GB | GB c/B/A/G/ | "D7"FA FA | FA d/c/B/A/ ||\
+"G"GB GB | GB d2 |  "D7"c/B/A/G/ F/G/A/c/ | "G"BG G2 :|
+|:\
+"G"gf/e/ dc | Bc "(D7)"d2 | "G"gf/e/ dc | B[gd] "D7"A2 ||\
+"G"gf/e/ dc | BG "C"c2 | "D7"c/B/A/G/ F/G/A/c/ | "G"BG G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: the Rakes of Mallow  [A]
+%T: the Jolly Sailor
+N: Called "Sandy Lent the Man His Mill" in some old books
+O: 1733
+Z: John Chambers <jc:trillian.mit.edu>
+B: Walsh "Caledonian Country Dances" 1733, p.34
+B: Burke Thumoth collection (as “Rakes of Marlow”), 1745
+M: C
+L: 1/4
+K: A
+|:\
+"A"Ac Ac | Ac d/c/B/A/ | "E7"GB GB | GB e/d/c/B/ ||\
+"A"Ac Ac | Ac e2 |  "E7"d/c/B/A/ G/A/B/d/ | "A"cA A2 :|
+|:\
+"A"ag/f/ ed | cd "(E7)"e2 | "A"ag/f/ ed | c[ae] "E7"B2 ||\
+"A"ag/f/ ed | cA "D"d2 | "E7"d/c/B/A/ G/A/B/d/ | "A"cA A2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: the Sweet Maid of Glendaruel
+O: Scots Guards
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+N: Scots Guard p.153
+N: BSFC XI-1
+M: 2/4
+L: 1/8
+K: AMix
+e \
+| "A"A>B cd | e>c Ad    | cA     ec | "E7"cB Be \
+|  "A"A>B cd | e>c AB/c/ | "G"d>B GB | "A"BA  A :|
+g \
+| "A"fe "(D)"a>f | "A"ec Ag    |    fe  ac | "E7"cB Bg \
+| "A"fe "(D)"a>f | "A"ec AB/c/ | "G"d>B GB | "A"BA  A |]
+g \
+| "A"fe "(D)"a>f | "A"ec Ag    |    fe  ac | "E7"cB Bg \
+| "A"fe  "D"fd   | "A"ec AB/c/ | "G"d>B GB | "A"BA  A |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: White Cockade
+R: march
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: C|
+L: 1/8
+K: G
+GA \
+| "G"BABd cBAG | "G"B2B2 B2GA | "G"BABd cBAG | "D7"B2A2 A2GA | "G"B2d2 cBAG |
+| "G"B2d2 g2ga | "G"bagf "C"efge | "G"d2B2 B2 :: Bc | "G"d2B2 g2Bc | "G"d2d2 d2Bc |
+| "G"d2B2 g2fg | "D7"a2A2 A2GA | "G"B2d2 "D"cBAG | "Em"B2d2 "G"g2ga | "G"bagf "C"efge | "G"d2B2 B2 :|
+
+%%newpage
+% sep 3 1 500
+% sep 1 1 500
+%%center --- POLKAS ---
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Golden Slippers    [D]
+C: James A Bland (USA)
+O: 1879
+B: Lee Owens "Advanced Square Dance Figures of the West and Southwest" p.109
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+(de) |\
+"D"f2f2 fede | f2f2 f2de | f2f2 g2f2 | f2"A7"e2 e2cd | e2ef edcd | e2ef e2cd |
+e2g2 f2e2 | "D"e2d2 d2 :: B2 | "D"A6 de | f2e2 d2=c2 | "G"B6 ef | "Em"g2f2 e2d2 |
+"A"c3B c2d2 |[1 "A"e3f e2c2 | "D"d3c d2e2 | f2d2 "A7"c2 :|[2 "A7"e4 g4 | f2-fg f2e2 | "D"d6 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Golden Slippers    [G]
+C: James A Bland (USA)
+O: 1879
+B: Lee Owens "Advanced Square Dance Figures of the West and Southwest" p.109
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+(GA) |\
+"G"B2B2 BAGA | B2B2 B2GA | B2B2 c2B2 | B2"D7"A2 A2FG | A2AB AGFG | A2AB A2FG |
+A2c2 B2A2 | "G"A2G2 G2 :: E2 | "G"D6 GA | B2A2 G2=F2 | "C"E6 AB | "Am"c2B2 A2G2 |
+"D"F3E F2G2 |[1 "D"A3B A2F2 | "G"G3F G2A2 | B2G2 "D7"F2 :|[2 "D7"A4 c4 | B2-Bc B2A2 | "G"G6 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Jackson's Breakdown
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+|: "D"Ad f/g/f/e/ | dF A>d |1,3 "A7"cE G>B | "D"AD F2 :|2,4 "A7"cA Bc | "D"d2 d2 :| [K:A]
+|: "A"[e2c2] [e2c2] | ea [e2c2] | "E7"bf ge |1,3 "A"ac e2 :|2,4 "A"a2 a2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Jenny Lind
+C: Anton Wallerstein
+O: Sweden
+R: polka
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+N:
+N: Morris Ring (several versions)
+N:
+N: Jenny Lind was a very popular singer from Sweden in the mid-1800s. Several tunes were written
+N: for her. This one was played all over Europe and North America, and a great many variations
+N: of it exist. This two-key version is common, as are versions entirely in G or D.
+M: 2/4
+L: 1/16
+K: D
+"(A7)"AG \
+| "D"F2A2 "G"G2B2 | "D"A2f2 fef2 | "A7"G2e2 ede2 | "D"F2d2 "(A7)"d2AG \
+| "D"F2A2 "G"G2B2 | "D"A2f2 fef2 | "A7"g2e2 egfe | "D"d2f2d2 :|[K:=c]
+K: G
+|: ef \
+| "C"g3f egfe | "G"d2B2 BAB2 | "D7"c2A2 AGA2 | "G"B2G2 Gdef \
+| "C"g3f egfe | "G"d2B2 BAB2 | "D7"c2A2 AcBA | "G"G2B2G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: John Ryan's Polka
+O: Ireland
+M: C|
+Z: Mary Lou Knack
+R: polka
+K: D
+|: "D"d2d2 "G"BcdB | "D"A2F2    A2F2 | "D"d2d2 "G"BcdB | "A"A2F2 "D"E2D2 \
+|  "D"d2d2 "G"BcdB | "D"A2F2 "A"A2de | "D"f2d2 "A"e2c2 | "D"d6      z2  :|
+|: "D"f2d2    d2ef | "G"g2f2 "A"e2de | "D"f2d2    d2de |    f2a2 "A"a3g \
+|  "D"f2d2    d2ef | "G"g2f2 "A"e2de | "D"f2d2 "A"e2c2 | "D"d6      z2  :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Kerry Polka #4    [A]
+M: C|
+Z: From Roaring Jelly collection; modified by John Chambers
+R: polka
+K: A
+|:\
+"A"E3F A2c2 | E3F A2c2 |\
+[1,3 "D"B2F2 F2EF | A2F2 "E"FAGF :| \
+[2,4"D"B2F2 "E"G2FG | "A"B2A2 A4 :|
+|:\
+"A"e2c2 c2Bc | e2c2 c3B |\
+[1,3 "F#m"A2F2 F2EF | "D"A2F2 "E"F2E2 :|\
+[2,4 "D"A2F2 "E"G2FG | "A"B2A2 A4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Klezmer Kerry Polka #1   [Dm]
+C: Rich Sobel
+R: polka
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Dm
+d2e2 |\
+"Dm"fedf "A"ed^ce | "Dm"d2A2 d2e2 |\
+fedf "A"ed^ce | "Dm"d4 d2e2 |\
+"Dm"fedf "A"ed^ce | "Dm"d2A2 "Gm"BAG2 |\
+"Dm"AGF2 "A7"GFE2 | "Dm"D4 :|
+|: "D7"[d4D4] |\
+"Gm"[g4B4] [g3B3]a | {a}b2g2 g4 |\
+"Dm"fefg a2f2 | d6 f2 |\
+"A"e2a2 e2a2 | e2a2 a4 |\
+[1 "Dm"d^cde f2g2 | a2f2 :|\
+[2 "A7"bag2 f2e2 | "Dm"d4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Miss Campbell   [A]
+C: Adam Rennie
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+E2 \
+| "A"A2A2 cBAc | e2e2 edcd | e2a2 "(E7)"g2f2 | "A"e4 z2E2 \
+| "E7"E2E2 GFEG | B2B2 BAGA | B2d2 B2G2 |1 "A"A6 :|2 "A"A4 ABcd ||
+|: "A"e3c A2A2 | "E7"d3B G2G2 | "A"e3c "F#m"A2A2 | "Bm"B4- "E7"B2E2 \
+|  "A"e3c A2A2 | "Bm"d3B "E7"G2G2 | "D"A2c2 "E7"B3G |1 "A"AEFG "E7"ABcd :|2 "A"A4 z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Redwing   [G]
+T: Union Maid
+R: polka, reel
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+N: Forms of this tune are found throughout the British Isles and
+N: Scandinavia, and many sets of words have been written to it.
+M: 2/4
+L: 1/8
+K: G
+D \
+|: "G"G>D GB | d3 B | "C"ce ge | "G"d3 B \
+|  "Am"cc/B/ "D7"Ac | "G"BB/A/ "Em"GB |1 "A7"AG FG | "D7"AF ED :|2 "A7"AG "D7"FA | "G"G2 ||
+gf \
+|: "C"e2 c2 | eg fe | "G"d2 B2- | Bd ed \
+| "D7"d2 A2- |1 Ad ed | "G"d2 B2- | Bg f=f :|2 Ac BA | "G"G4- | G2 z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Redwing   [Gm]
+T: Union Maid
+R: polka
+Z: 2004 John Chambers <jc@trillian.mit.edu>
+N: This minor "Russian" form works quite well.
+N: Forms of this tune are found throughout the British Isles and
+N: Scandinavia, and many sets of words have been written to it.
+M: 2/4
+L: 1/8
+K: Gm
+D \
+|: "Gm"G>D GB | d3 B | "Cm"ce ge | "Gm"d3 B \
+|  "D7"cc/B/ Ac | "Gm"BB/A/ GB |1 "A7"AG ^FG | "D7"A^F ED :|2 "D7"AG ^FA | "Gm"G2 ||
+gf \
+|: "Cm"e2 c2 | eg fe | "Gm"d2 B2- | Bd ed \
+| "D7"c2 A2- |1 Ad ed | "Gm"d2 B2- | Bg ^f=f :|2 Ac BA | "Gm"G4- | G2 z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Winster Gallop
+O:England
+R:polka
+Z:id:hn-polka-17
+M:2/4
+L:1/8
+K:G
+|: "G"GB GB | GB d2 | "Am"AB/c/ "D7"BA | "G"GB d2 \
+| "C"ce g>e | "G"dB d>B | "Am"AB/c/ "D7"BA | "G"GB G2 :|
+|: "G"gf ed | gf ed | "(Em)"gf ed | "Am"cB A2 \
+| "D7"fe d2 | fe d2 | d2 A>c | "G"BG G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Yrj\"on polkka
+T: George's polka
+O: Finland
+R: polka
+M: 2/4
+L: 1/16
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+K: Dm
+|: "Dm"a2d2 f2d2 | "A7"f2e2 efga | b2a2 a3e | "Dm"g2f2 fefg \
+|  "Dm"a2d2 f2d2 | "A7"f2e2 efga | b2a2 a3^c | "Dm"e2d2 d2z2:|
+|: "F"c2c2 c=Bc2 | f2f2 fefa | "C7"g2g2 g^fgc' | "F"a2a2 a4 \
+| "C"c'c'c'2 "C#dim"bbb2 | "Dm"aaa2 "Gm"ggg2 | "Dm"fff2 "A7"e3^c | "Dm"d2d2 d2z2 :|
+
+%%newpage
+% sep 3 1 500
+% sep 1 1 500
+%%center --- REELS ---
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Bus Stop Reel
+C: Anita Anderson \2511987
+R: reel
+Z: Transcribed to abc by Mary Lou Knack; headers added by John Chambers
+D: Open House "Open House"; Kevin Burke (fiddle), Paul Kotapish (guitar) et al.
+D: Salmonberry "New England Contra Dance Music"
+B: "The Portland Collection".
+B: "Brand New Old Time Fiddle Tunes (V.3)"
+B: Tunes From the Western Edge, by Anita Anderson and Michael Mendelson.
+N: Anita says she made up the tune "while waiting for the bus to work".
+M: C|
+L: 1/8
+K: Am
+|: "Am"A2eA dAc2 | ABcA "G"BAGB |\
+"Am"A2eA dAcA | "C"cde^f "G"gedB |\
+"Am"A2eA dAc2 |
+| "Am"ABcA "G"BAG2 |\
+"F"FGAc "G"BAGB | "(Em)"cABG "Am"A4 ::\
+"Am"ea-ag edcB | ABcd "(E)"e4 |
+| "Am"ea-ag "C"edc2 | "D"de^fd "E"e4 |\
+"Am"ea-ag edcB | ABcd "(C)"e2dc |\
+"G"BAGF EFGB | "(Em)"cABG "Am"A4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Cooley's Reel
+S: Roaring Jelly collection
+M: C|
+L: 1/8
+R: reel
+K: Edor
+F2 |\
+"Em"EBBA B2 EB | B2 AB dBAG | "D"(3FED AD BDAD | (3FED AD BAGF | "Em"EBBA B2 EB |
+B2 AB defg | "D"afec dBAF | "Bm"DEFD "Em"E2 :: gf | "Em"eB (3BBB eBgf | eB (3BBB gedB |
+"D"A2 FA DAFA | BAFA "Bm"defg | "Em"eB (3BBB eBgf | eB (3BBB defg | "D"afec dBAF | "Bm"DEFD "Em"E2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: the (Old) Dominion Reel
+O: 1839
+R: reel
+B: George P. Knauff’s Virginia Reels, vol. III (Baltimore, 1839)
+Z: Mary Lou Knack
+M: C|
+L: 1/8
+K: C
+G2 |:\
+"C"c2c2 "G7"BcdB | "C"cega gece | "F"f2fd "C"e2ec |\
+1,3 "Dm"dcBA "G7"G2AB :|2,4 "G7"dcBd "C"c2 :: G2 | "C"cege cege |
+"Dm"defe "G7"dcBd | "C"cege cege | "D7"dg^fa "G7"g2G2 ||\
+"C"cege cege | "F"f2fe dcBA | "G7"GABc defg | "(C)"ec"G7"dB "C"c2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: the Flowers of Edinburgh #1
+O: Oswald, c.1742
+Z: John Chambers <jc:trillian.mit.edu>
+N: Probably the best-known Scottish reel.
+B: Oswald "Curious Collection of Scots Tunes (II)" c.1742
+B: The Universal Magazine, April 1749, as "Flowers of Edinburgh".
+R: reel
+M: C|
+L: 1/8
+K: G
+GE | "G"D2DE G2GA | BGBd cBAG | "D7"FGFE DEFG | AFdF E2GE || "G"D2DE G2GA |
+| "G"BGBd "C"efge | "G"dcBA "D7"GFGA | "G"B2G2 G2 :: d2 | "G"g2gd gbag | "D7"f2fd fagf |
+| "Em"e2ef gfed | B2e2 "(C)"e2ge || "G"dBGB d2d2 | "C"edef g2fe | "G"dcBA "D7"GFGA | "G"B2G2 G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Galopede   [G]
+T: Yarmouth Reel
+T: Persian Dance
+%T: Corn Field
+O: Preston 1801
+R: Reel
+N: The AABC pattern is for the country dance "Galopede".  This tune is
+N: used for several dances, with several different repeat patterns.
+%P: AABC
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Preston "24 Country Dances for 1801" 1801
+B: Kerr - Merry Melodies vol. 4 (No. 296)
+B: Cecil Sharp "Country Dance Tuens" 1909
+B: Karpeles & Schofield p.1 1951
+B: Kennedy v.1 p.31 #63 1951
+B: Barnes v.1 p.43
+M: C|
+L: 1/8
+K: G
+   dc \
+| "G"B2Bc "D7"A2AB | "G"G2G2 G2AB |1,3 "C"cBcd edcB | "D7"A2A2 A2 :|2,4 "C"cBAG "D7"FGAF | "G"G2G2 G2 :|
+|: dc \
+| "G"B2gf "C"e2ed | "D7"dcBc A2dc |1 "G"B2gf "C"edcB | "D7"A2A2 A2 :|2 "G"BdcB "D7"AcBA | "G"G2G2 G2 |]
+|: Bc \
+| "G".d2.d2 .d2g2 | .d2.d2 .d2g2 |1 .d2.d2 "(C)"edcB | "D7"A2A2 A2Bc :|2 "C"edcB "D7"dcBA | "G"G2G2 G2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Hull's Victory
+O: 1842
+R: hornpipe, reel
+B: Elias Howe's "Musician's Companion" 1842
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+"C7"c2 \
+| "F"fcfa fcfg | "C7"agfe "F"f2AB | "(C)"c2cd c2B2 | "C7"ABGA "F"F2c2 | "F"fcfa fcfa |
+| "C"g2g2 g2ag | "G7"fedc =BcdB | "C"c2e2 c2 :: "C7"c2 | "F"fefg agfe | "Bb"d2B2 B2ef |
+| "G7"g^fga bag=f | "C7"e2c2 c2de | "F"fcfa fcfa | "C7"gcgb gcgb | "F"agfa "C7"gfeg | "F"f2a2f2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Old French Reel
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: ((3ABc) \
+| "D"d2cd BdAF | DFAd f2ed | "A7"cdef gece |1,3 "D"defd A2 :|2,4 "D"d2f2 d2 :|
+|: cd \
+| "A"efed c2A2 | AEAc e2dc | "G"BGBd gfed |1,3 "A"cAce a2 :|2,4 "A"c2A2 A2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: the Auld Grey Cat   [Em]
+R: reel
+O: Kerr c.1880
+B: Kerr's Merry Melodies, v.1 p.28 c.1880
+B: Roaring Jelly Coll.
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Edor
+B2 \
+| "Em"{^d}e2e2 E3F | GFGA BABc | "D"{c}d2d2 D3E | FAdB AFED |  "Em"{^d}e2e2 E3F |
+| GFGA BABc | "D"{c}dcBA "B7"BAGF | "Em"E4 e2 :: ed | "Em"B2e2 e3d  | Bdef gfed |
+| "D"A2d2 d3B | ABde fedf | "Em"e2B2 "D"g2B2 | "C"a2B2 "B7"b3a | "Am"gfed "B7"BAB^d | "Em"e6 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Pig Town Fling
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|:\
+"G"G2ge d2ed | B2ge "(D7)"dBAB | "G"G2ge d2ed |\
+[1,3 BGAG "C"EF"D7"GA :|[2,4 "D7"BGAF "G"G4 :|
+|:\
+"Em"Be2e e2eg | "D"fgaf "Em"gfed | Be2e efge |\
+[1,3 "D"fgaf "Em"g2B2 :|[2,4 "D"fgaf "G"g4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Silver Spear
+O: Trad Ireland
+M: C|
+L: 1/8
+K: D
+|:\
+"D"FA ~A2 BAFA | dfed "G"Bc"A7"dA | "D"FA ~A2 BAFA | dfed "G"B2"A7"A2 | "D"FA ~A2 BAFA |
+dfed "G"Bdef | "Em"~g3e "D"f3e | dfed "G"B2"A7"A2 :: "D"f2af bfaf | "G"gfed Bcde | "D"f2af bfaf |
+"Em"gfed "G"B2 "A7"A2 | "D"f2af bfaf | "G"gfed Bdef | "Em"~g3e "D"f3e | dfed "G"B2"A7"A2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: the Soldier's Joy
+T: the King's Head Reel
+R: reel
+O: Joshua Campbell 1778
+B: Joshua Campbell's Collection 1778
+B: RSCDS 2-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: The earlier name of this tune was "The King's Head Reel"
+M: C|
+L: 1/8
+K: D
+FG \
+| "D"AFDF AFDF | "D"A2d2 d2cB | "D"AFDF AFDF | "A7"G2E2 E2FG | "D"AFDF AFDF |
+| "D"A2d2 d2de | "D"fafd "A7"egec | "D"d2f2 d2 :: de | "D"f2fd fagf | "A7"e2ec egfe |
+| "D"f2fd fagf | "A7"edcB A2g2 | "D"f2fd fagf | "A7"e2ec egfe | "D"fafd "A7"egec | "D"d2f2 d2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Spootiskerry
+%T: da Fitful Head
+C: Ian Burns (Shetland)
+B: BSFC 4-16
+D: as trad by Fiddlers Five on CD 7
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: G
+DE |\
+"G"G2DE GDEG | DEGA "D7"B2AB |\
+"G"G2DE "Em"GABd | "Am"eged "D7"B2AB |\
+"G"G2DE GDEG | DEGA B2AB |
+"C"g2ed "D7"edBA | "G"B2G2 G2 :| ef |\
+"G"g2ed "Em"edB2 | "C"BABG "D7"E2DE |\
+"G"GABd "Em"eged | "Am"B2A2 "D7"A2ef |
+"G"g2ed "Em"edB2 | "C"BABG "D7"E2DE |\
+"G"GABd "D7"eged | "G"B2G2 G2 |] ef |\
+"G"g2ed "Em"edB2 | "C"BABG "D7"E2DE |
+"G"GABd "Em"eged | "Am"B2A2 "D7"A2DE |\
+"G"G2DE GDEG | DEGA B2AB |\
+"C"g2ed "D7"edBA | "G"B2G2 G2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Willafjord
+O: trad Shetland
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+N: Hardie p.35
+N: Lerwick p.14
+D: Hazel Stewart on  Thistledown  8B)
+N: John Stickle tune #8 from article??)
+N: Look at BOL albums
+M: C|
+L: 1/8
+K: D
+B2 |\
+"D"A2FA- ADFA | "G"B2GB- BDGB | "D"A2FA- ADFA | "Em"EFGA "A7"GFED || "D"A2FA- ADFA |
+"G"B2GB- BDGB | "A7"ABcd efge | "D"f2d2 d2 :: e2 | "D"f2df- fAdf | "Em"geaf "A7"gfeg |
+"D"f2df- fAdf | "A7"e2ce- eAce || "D"f2df- fAdf | "Em"geaf "A7"gfec | ABcd efge | "D"f2d2 d2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: the Wizard's Walk
+C: Jay Ungar
+O: West Hurley, New York
+%R: reel
+Z: Collected and edited 2014 by John Chambers <jc:trillian.mit.edu>
+B: GEMS The Best of the Country Dance and Song Society Diamond Jubilee Music, Dance and Song Contest 1993 p.84
+M: C|
+L: 1/8
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+"A1"[|\
+"Em"e2dc BAGF | GAFG E2B2 |\
+"Em"e3f gfef | "Em"ga"B7"fg "Em"e4 |\
+"Am"a2gf edcB | cdBc A2E2 |
+"Am"A3B cBAB | "Am"cd"E7"Bc "Am"A4 \
+"A2"|]|\
+"B7"BBfB BfBB | "C"ccgc cgcc |\
+"B7"BBfB BfBB | "C(Am)"ccgc cgcc |
+"B7"[fB]BBB "C"[gc]ccc | "B7"[fB]BB "C"[gc]ccc |\
+"B7"[fB]B^cc ^ddee | ffgg aabb \
+"B"|:\
+"Em"egbe bgeg | "B7"^dfbf bfdf |
+"D"=dfaf afdf | "A"^ceae aece | "C"=cege gece |\
+"Em"Bege geBe | "Edim"_Bege geBe | "Em"=Bege "B7"fe^df :|
+y8 y8 "Coda"[| "Em"e2dc BAGF | "Em"G2e2 "B7"F2^d2 |\
+"Em"e4 B2G2 | E8 |] y8 y8 y8 y8 y8 y8
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%%newpage
+% sep 3 1 500
+% sep 1 1 500
+%%center --- 48-bar REELS ---
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Reel B\'eatrice
+%T: Oggi Nevica (Today it snows)
+C: T.Fantini
+R: reel
+D: La Bottine Souriante "Je Voudrais Changer D'Chapeau"
+Z: John Chambers <jc:trillian.mit.edu>
+N: Well-known in New England, and many variants exist.
+N: According to Paul M.  MacDonald, the original reel began as a polka from  the
+N: Ballo  Liscio  dance  repertoire  called "Oggi Nevica" (which means 'today it
+N: snows'), played by Riccardo Tesi, an Italian accordion player.
+M: C|
+L: 1/8
+K: Am
+%%staffsep 40
+A,B, "A"\
+|: "Am"CB,A,C E2CE | A2EA EGAB |\
+cBAc e2ce | aeea egab |\
+c'bag fedc | "Dm"BddB d4 |
+"E7"e^def e=dcB | "Am"AA,A,A, A,2z2 :|\
+"B"\
+|: "Dm"a2^ga bff2 | "Am"fe^de a4 |\
+"E7"e2^de f2e=d | "Am"cdcB cBA2 |
+"Dm"a2^ga bff2 | "Am"fe^de a4 |\
+"E7"e^def e=dcB |1 "Am"AA,A,A, A,2z2 :|2 "Am"A2z2 "G7"G2AB ||
+"C"\
+|: "C"c2Gc EGce | c2Gc EGce |\
+"G7"d2Bd GBdB |1,3 "C"c2ba "(G7)"gfed :|2,4 "C"ce"G7"dB "C"c2z2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Over the Moor to Maggie
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+   BA \
+| "G"G2-GA BGBd | "C"efge "G"dBAG \
+|1,3 "Am"EAAG  ABAG | "Am"EAAG "D7"Ac \
+:|2,4 "C"EGGF "(G)"GAGE | "D7"DGGF "G"G2 :|
+|: ga \
+| "G"b2-bg "D"a2-af | "C"gage "G"d2Bd \
+|1,3 "Am"eaag abag | "Am"eaag "D7"a2 \
+:|2,4 "C"eggf "(G)"gage | "D7"dggf "G"g2 :|
+|: cd \
+| "C"e2-ec "G"d2-dB | "Am"c2-cA  "G"B2AG \
+|1,3 "Am"EAAG ABAG | "Am"EAAG "D7"AB \
+:|2,4 "C"EGGF "(G)"GAGE |  "D7"DGGF "G"G2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Ragtime Annie
+S: Roaring Jelly collection R-104
+%C: Old-Time,Bluegrass
+%C: New England
+M: C|
+Z:
+R: rag, reel
+K: D
+%
+FE "A"|\
+"D"DFBF AFBF | DFBF A2FE |\
+DEFG ABAF | "A"A2c2 c2cB |\
+"A"ABcA B2cB | ABcA BAcB |
+ABcd egfe | "D"d2dc d2 :| fg "B1"|\
+"D"a2ab afd2 | A6 fg |\
+a2ab agf2 | "G(Em)"g6 ef |
+"A"g2{f}ef g2{f}ef | gagf e2ef |\
+gagf edcB | "D"A6 |] fg "B2"|\
+"D"a2ab afdB | A2AB A2A2 |
+[F4d4] "C"[E4=c4] | "G"[G6B6] A2 |\
+"G"B2b2 b2ag | "D"f2a2 a2fd |\
+"A"A2ef gfec | "D"d2 "fine"y |][K:G] =c2 "D7"B2A2 "C"|:\
+"G"[G6B6] AB | "C"[E6c6] cB |
+"D"A2f2 f2ef | "G"gfga gedc |\
+"G"D2B2 B2AB | "C"E2c2 c2cB |\
+"D"A2f2 f2ef |1 "G"gfga g2dc :|2 "G"g6 |]
+
+%%newpage
+% %sep 3 1 500
+% %sep 1 1 500
+%%center --- WALTZES ---
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Bonnie at Morn
+C: Trad.
+O: Northumbria
+R: waltz, air
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+   A2 \
+| "Am"e3 fed | e2 A2 Bc | "G"d3 cBA | G2 A2 B2 \
+| "Am"e3 fed | e2 A2 Bc | "G"d2 B2 G2 | "Am"A3 Bcd |
+| "Am"e3 fed | e2 A2 Bc | "G"d3 cBA | G2 A2 B2 \
+| "Am"AG AB cd | e2 a2 g2 | "G"d g3 B2 | "Am"A4 |]
+|: cB \
+| "Am"A2 a2 a2 | A3 B c2 | "G"B2 g2 g2 | G3 A B2 \
+| "Am"AG AB cd | e2 a2 g2 | "G"d g3 B2 | "Am"A4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: a Daisy In December  [Dm]
+C: Winifred Horan [Solas]
+M: 3/4
+L: 1/8
+P: AABABA
+R: waltz
+K: Dm
+"A"[|]\
+d2 e2 | "Dm"f3 g f2 | "C"e4 c2 | "Bb"d3 c B2 | "A7"A4 G2 | "Dm"F3 G A2 | "Gm"B4 c2 | "A7"A6 |
+z2 d2 e2 | "Dm"f3 g f2 | "C"e4 c2 | "Bb"d3 c B2 | "A7"A4 G2 | A3 B A2 | ^c4 e2 | "Dm"d6 | "Fine"z2 :|
+"B"[|]\
+e2 f2 | "Gm"g3 a g2 | "A7"f4 {gf}e2 | f2 A2 ^c2 | "Dm"d4 f2 | "Gm"g3 a g2 | "A7"f4 e2 | "Dm"d6 |
+z2 e2 f2 | "Gm"g3 a g2 | "A7"f4 {gf}e2 | a4 e2 | "Dm"d4 A2 | "Gm"B2 c2 d2 | b4 f2 | "A7"e6 | "d.C."z2 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Morag's Waltz
+R: waltz
+C: Tom Anderson
+O: Shetland
+D: Buddy MacMaster "Glencoe Hall" BM-91
+F: http://www4.ncsu.edu/unity/users/p/pfackler/www/Music/CBTunes.abc
+Z: chords from Terry Traub's arrangement
+L: 1/8
+M: 3/4
+K: D
+AG |\
+"D"F4D2 | "Em"G4E2 | "A"A2B2c2 |  "D"d4F2 | "G"G4B2   | "D"A4F2 | "Em"A2G2F2 | "A7"E4AG |
+"D"F4D2 | "Em"G4E2 | "A"A2B2c2 | "Bm"d4F2 | "G"G2B2e2 | "A7"A2c2e2 | "D(G)"d6- | "D"d4 :|
+|: cd |\
+"A"e4c2 | A4ag | "D"f4e2 | d4f2 | "G"g4B2 | "E7"e4d2 | "A"c2e2c2 | "A7"A4G2 |
+"D"F2A2d2 | f2d2A2 | "G"G2B2e2 | "A"c4A2 | "G"BG3ed | "A7"cA3fe | "D(G)"d6- | "D"d4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Salo Enis Klezmer Waltz   [Dm]
+C: Salo Enis 1935-2013
+R: waltz
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+A2 |:\
+"Dm"f3 e ed | "D7"d2 A2 c2 | "Gm"B6- | B4 G2 |\
+"C"e3 d d^c | "A7"^c3 B AG | "Dm"F2 G3 A | "A7"A4 A2 |
+"Dm"f3 e gf | "D7"e2 d2 A2 | "Gm"c4 B2 | B6 |\
+"A7"A3 B ^cd | e4 f2 | "Dm"d6- | [1 d4 A2 :|[2 d6 ||
+|:\
+"Dm"DE F2 A2 | d2 f3 d | "A7" d2 ^c4- | c4 A2 |\
+e2 ^c3 A | e2 ^c3 A | "Dm"G2 F4- | F6 |
+"Dm"D2 F2 A2 | d2 f2 e2 | "D7"d2 c3 B | "Gm"G6 |\
+"A7"A3 B ^cd | e2 f4 |[1 "Dm"d6- | d6 :|2 "Dm"d3 d AF | D4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Salo Enis Klezmer Waltz   [Am]
+C: Salo Enis 1935-2013
+R: waltz
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+E2 |:\
+"Am"c3 B BA | "A7"A2 E2 G2 | "Dm"F6- | F4 D2 |\
+"G"B3 A A^G | "E7"^G3 F ED | "Am"C2 D3 E | "E7"E4 E2 |
+"Am"c3 B dc | "A7"B2 A2 E2 | "Dm"G4 F2 | F6 |\
+"E7"E3 F ^GA | B4 c2 | "Am"A6- | [1 A4 E2 :|[2 A6 ||
+|:\
+"Am"A,B, C2 E2 | A2 c3 A | "E7" A2 ^G4- | G4 E2 |\
+B2 ^G3 E | B2 ^G3 E | "Am"D2 C4- | C6 |
+"Am"A,2 C2 E2 | A2 c2 B2 | "A7"A2 G3 F | "Dm"D6 |\
+"E7"E3 F ^GA | B2 c4 |[1 "Am"A6- | A6 :|2 "Am"A3 A EC | A,4 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: the Star of the County Down waltz [Am]
+O: Trad
+R: waltz
+N: Also in 2/4 as a ballad.
+N: There is a County Down in both Ireland and Scotland, and both claim this tune.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+EG \
+|: "Am"A4 A2 | "F"A3 G A2 | "C"c4 c2 | "G"d4 cd | "Am"e3 d c2 |\
+[1 "Am"A3 G E2 | "Em"G6- | G2 c2 B2 :|\
+[2 "Dm"A4 A2 | "Am"A6- | A4 |]\
+ce | "C"g4 e2 |
+    e3 d c2 |  "G"d4   d2 |  d4 cd |\
+"Am"e3 d c2 |     A3 G E2 | "Em"G6- | G2 c2 B2 ||\
+"Am"A4   A2 |  "F"A3 G A2 | "C"c4 c2 | "G"d4 cd |\
+"Am"e3 d c2 | "Dm"A4   A2 | "Am"A6- | A4 |]
+
+% %center -- done --

@@ -1,0 +1,18 @@
+X: 10871
+T: Largo
+C: Bossi
+Q: "Largo"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.87
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+%%graceslurs 0
+F |\
+(B3c) d2{d/}c>A | (B3d) F2F2 | (G2B2A2G2) | {G/}(F3E) D2(B>d) |\
+(f3g) (fedc) | B3d (cBAB) | (c3d) (fe)dc | (BA)cA F3F |
+(B3c) ((3dfe)((3ced) | (B3d) F2F2 | (G2B2A2G2) | {G/}(F3E) D2(B>d) |\
+(f3g) (fedc) | B3d (cBAB) | c3e (BAGA) | B2d2B2z |]
+%
+%%center -

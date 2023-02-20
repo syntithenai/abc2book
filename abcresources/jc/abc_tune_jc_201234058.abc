@@ -1,0 +1,27 @@
+X: 2023
+T: MacGriogair a Ruaro
+T: Lamentation for McGrigor of Roro
+%R: air, lament
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.2 p.2 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+Q: "VERY SHOW WITH MUCH EXPR.n"
+K: A
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+E3F |\
+A4A4 TB2(AB) | (c4.E2)z2 E3F | A4 ~A4 {c}B2(AB) | (c4 .E4) (A,CE2) |\
+c4 ~c4 "_sf"e3c | B4 A4 F4 | E4 C3B,C2E2 | F4 A,2z2 TE3F |
+A4 A4 TB3(A/B/) | (c4 E4) ~E3F | A4 A4 TB3(A/B/) | (c4 .E4) (A,CE)A |\
+c4 ~c4 "_sf"{c}e3c | {c}B4 A4 A3F | (E4 C4) E3C | TB,4 A,4 |]
+% - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z4 |\
+[e4-c4] [e4-A4] [e4G4] | A4 a2z2 c2d2 | c4 A4 e4 | a4 A4 z4 |\
+A4 a4 g4 | f8 d4 | c4 A6 c2 | [d4A4-] [c2A4]z2 z4 |
+(c'2e'2)(c'2a2)(e'2e2) | a4 A4 c2d2 | (c2e2)(c2A2)(e2E2) | A4 A4 z4 |\
+(A2.e2)(A2.e2)(G2.e2) | F4 f4 d4 | c4 A4 A4 | [d4E4-] [c4E4] |]

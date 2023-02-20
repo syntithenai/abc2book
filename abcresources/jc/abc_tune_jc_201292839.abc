@@ -1,0 +1,13 @@
+X: 1
+T: A Jig for Charlotte Anne
+C: Bill Clement
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+S: image from Atsuko Clement
+M: 6/8
+L: 1/8
+K: Hp
+|: e | {g}A>B{GdG}c {g}c<e{g}A | {Gdc}d>ef {gef}e3 | {ag}a>ec {g}A>{d}ce | {gef}e>dc {gcG}B2e |
+y4   | {g}A>B{GdG}c {g}c<e{g}A | {Gdc}d>ef {gef}e3 | {ag}a>ec {ag}a2c | {gef}e>c{d}A {GAG}A2 :|
+|: e | {ag}a>ec {g}c<eA | {gfg}f>e{A}e {gef}e3 | {g}A>{d}ce a>ce | {gef}e>dc {gcG}B2e |
+y4   | {ag}a>ec {g}c<eA | {gfg}f>e{A}e {gef}e3 | {g}A>B{GdG}c {ag}a2c | {gef}e>c{d}A {AGA}A2 :|

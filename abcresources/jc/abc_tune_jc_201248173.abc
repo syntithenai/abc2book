@@ -1,0 +1,33 @@
+%%text RJ Asturian/Galician Waltz_2V
+
+
+X: 1
+T: Cau'l Chouzano
+T: Asturian Waltz
+T: (wrongly titled "Galician Waltz")
+C: Fernando Largo (Asturias)
+R: waltz
+S: handout (of unknown origin) at Roaring Jelly practice 2010-01-12
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Gmix
+% = = = = = = = = = =
+V: 1 staves=2
+"^A"[|]\
+Bc |:"G"d3 c Bc | "G"d3  d cB | "F"A3  F  GA | "G"G6 |\
+[1,3 "G"d3 c Bc | "G"d2 e2 f2 | "C"g3  g  fe | "F"f2 d2 c2 :|
+|[2,4"F"A3 B c2 |"Dm"A3  F GA | "G"G6-       | "G"G4 "^B":: AB \
+|    "F"c3 B A2 | "G"d3  c B2 | "C"e3  d  c2 | "F"f2 e2 f2 |
+|    "G"g3 g fe | "F"c3  c de |"Dm"cB AG- GA | "G"G6 |\
+|    "F"A3 B c2 |"Dm"A3  F GA | "G"G6-       | "G"G4 :|
+% = = = = = = = = = =
+V: 2	% attr. "Mary"
+"^A"[|]\
+GA |:"G"B3 A GA |     B3 B  AG |  "F"F3  C CF  | "G"D6 |\
+[1,3 "G"B3 A GA |     B2 c2 d2 |  "C"e3  e dc  | "Dm"d2 B2 A2 :|
+|[2,4"F"F3 G A2 | "Dm"F3 D  EF | "G"[D6-G,6-]  | [D4G,4]  "^B":: FG \
+|    "F"A3 G F2 |  "G"B3 A  G2 |  "C"c3  B A2  | "F"c2 c2 d2 |
+|    "G"d3 d cB |  "F"A3 A  Bc | "Dm"AG FD- DF | "G"D6 |\
+|    "F"F3 G A2 | "Dm"F3 D  EF |  "G"D6- | [D4G,4] :|
+

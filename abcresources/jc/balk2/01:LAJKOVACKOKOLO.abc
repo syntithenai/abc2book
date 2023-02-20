@@ -1,0 +1,20 @@
+X: 301
+T: Lajkovacko Kolo
+O: Serbia
+M: 2/4
+L: 1/8
+Q: 1/4=144
+K: Gdor
+%%MIDI program 22 Harmonica
+%%MIDI chordprog 24 Acoustic Guitar (nylon)
+%%MIDI bassprog 32 Acoustic Bass
+%%MIDI bassvol 80
+%%MIDI chordvol 32
+|:"F"(3ABc A2  |"C"AGGF |"F"A2 B3/2A/|"C"AGG2 |\
+  "F"(3ABc A2  |"C"AGGF |"F"A2 B3/2A/|"C"AGG2::
+  "F"A2 B3/2A/ |"C"AGcz |"F"A2B3/2A/ |"C"AGG2 |\
+  "F" A2 B3/2A/|"C"AGcz |"F"A2B3/2A/ |"C"AGG2::
+|:"F"F2 GA     |"C"czcz |"F"A2 GA    |"Bb"B4  |\
+  "F" F2 GA    |"Bb"BAAG|"F"A2 GF    |"C"G4::
+|:"F"ABcA      |AGGF    |A2 B3/2A/   |"C"AGG2 |\
+  "F" ABcA     |AGGF    |A2 B3/2A/   |"C"AGG2 :|

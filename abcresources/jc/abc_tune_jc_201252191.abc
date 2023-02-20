@@ -1,0 +1,11 @@
+X: 1161
+T: Biddy from Limerick   #2
+R: slipjig
+%S: s:1 b:6
+B: O'Neill's 1850 Music of Ireland #1161
+Z: Stephen Foy (shf@access.digex.net)
+%: abc 1.6
+M: 9/8
+K: D
+"^A"|: F2D A2F def |[1,3 F2D A2F GFE :|[2,4 g2f e2d cBA \
+"^B":: ABA d2A def |[1,3 ABA d2A GFE :|[2,4 g2f e2d cBA :|

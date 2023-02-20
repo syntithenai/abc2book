@@ -1,0 +1,26 @@
+X:1
+T: Maid Peeped out at the Window
+N:23 February 1997
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:G
+I:speed 180
+%W:      A
+% voice 1 (1 lines, 18 notes)
+K:G
+M:6/8
+L:1/16
+D2 |G4 G2 G3 A B2 A4 G2 E6 B4 B2 c3 d e2 d4 B2 G4 D2 |
+%W:
+% voice 1 (1 lines, 16 notes)
+G4 G2 G3 A B2 A4 G2 E6 B4 B2 c3 d e2 d4 B2 G4 ||
+%W:      B
+% voice 1 (1 lines, 18 notes)
+G2 |B4 c2 d3 e d2 c4 B2 A4 G2 =F4 E2 F4 G2 A3 G =F2 E6 |
+%W:
+% voice 1 (1 lines, 16 notes)
+D4 D2 G4 G2 =F3 E F2 E4 E2 D4 G2 =F3 G A2 G6 G4 |

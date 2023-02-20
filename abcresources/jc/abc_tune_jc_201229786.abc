@@ -1,0 +1,38 @@
+%%text RJ Set 129
+
+
+X: 1
+T: Rainy Night in Montague
+C: George Reynolds
+M: C|
+L: 1/8
+R: reel
+K: Dmix
+%%indent 500
+"Intro:" .[D2F2A,2]z2.[D2F2A,2]z2 | .[D2F2A,2]z2 G,A,CD ||
+|:\
+"D"ADCA, G,A,CD | ADCA, G,A,CD | "C"E2 ED EGED | E2 ED EGED |
+"D"ADCA, G,A,CD | ADCA, G,A,CD | "C"E2 ED EGED |1 "D"D2 DD G,A,CD :| \
+[2 "D"D2 DD D2 DD ||
+|:\
+"D"Addc d2 dc | AGAB c2 cB | "C"AGEG AdcB | "Am"A2 AB c2cB |
+"D"Addc dedc | AGAB c2 cB | "Am"AGEG AGED |1 "D"D2 DD DEFG :| \
+[2 "D"D2 DD D4 |]
+%%text On transition, crescendo on the last measure and emphasize the last note.
+
+
+X: 2
+T: Flying Home to Shelley
+C: Paul Gitlitz
+M: 4/4
+L: 1/8
+R: reel
+K: G
+M: C|
+"^A"|:\
+"G"DGdG "^>"cGBG | "Am"DGcG "^>"BGAG | "Bm"DGAG BGAG | "C" DEGD "D"EDB,C |
+"G"DGdG cGBG | "Am"DGcG BGAG | "Bm"DGAG "Am"BGAG |1 "D"DEFD "G"G4 :|2 "D"DEFD "G"GABc ||
+"^B"|:\
+"G"d3 B AGAB | "Am"c3 B AG E2 | "C"e3 d "Bm"BA G2 | "Am"ABdA "D"BAGB |
+"Em"d3 B AGAB | "Am"cGBG AG E2 | "C"e3 d "Am" BA G2 |1 "D"ABAF "G"GABc :|2 "D"ABAF "G"G4 |]
+

@@ -1,0 +1,19 @@
+X: 151110
+T: ELFIN WALTZ
+R: Waltz.
+%R: waltz
+B: James Kerr "Merry Melodies" v.1 p.51 s.1 #10
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Each of the |c2F| measures has a straight line between the two notes.
+M: 3/4
+L: 1/4
+K: G
+|:\
+DGB | c2F | GBe | d3 |\
+[1 DGB | c2F | AGB | G3 ::\
+[2 dcB | ^GAB | cEF | G3 ||
+|:\
+.d.d.e | .d.d.g | gfe |\
+[1 ABc :|[2 d6 ||\
+DGB | c2F | GBe | d3 |\
+dgb | dfa | Adf | g3 |]

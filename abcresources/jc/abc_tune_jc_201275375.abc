@@ -1,0 +1,19 @@
+X: 1
+T: Nancy's Fancy   [C]
+C: Fred Grimshaw
+N: For the dance Fenterlarick by Joyce Walker
+N: The titles for the dance and the tune are a bit confused.
+N: Playford published a different "Nancy's Fancy" tune and dance.
+B: Barnes p.33
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+|: G \
+| "C"cg -gc | B>A GG | "C"cc "G7"de/f/ | "C"e2 "G7"dG \
+| "C"cg -gc | B>A Gf | "F"ed/c/ "G7"GB | "C"c3  :|
+|| c \
+| "Am"ce- eA | "E7"c>B "Am"AA | cc "Dm"de/f/ | "C"e2 "G7"dG \
+| "C"ce- eg | "Dm"f>e de | "F"fa- ac' | "G7"b>a gg |
+| "C"c'g- gf | e>f gg | "F"af- fe | "Dm"d2- "G7"dG \
+| "C"cG- Gc | "G7"B>c dG | "F"Ac- "G7"cB | "C"c3 |]

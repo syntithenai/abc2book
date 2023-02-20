@@ -1,0 +1,51 @@
+
+X: 1
+T: Mary's Boy Child   [G]
+C: words & music: Jester Harston
+R: song
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+Q:"Andante"
+K: G
+% %continueall
+| "G"D2B2 "D"A2"G"G2 | "C"E2C2 A,2E2 | "G"D2G2 "D7"F2A2 | "C   G"G6y [|\
+D2 | "G"D2D2 G2G2 | "C"E2C2 A,2EE | "D7"D2F2 E2C2 |
+"G" B,8 | "G"D2B2 A2G2 | "C"E2C2 A,3E | "G"D2G2 F2A2 | "G"G6 |\
+"Refrain"[|] z2\
+|: "G"B2B2 "C"c2c2 | "D7"A2A2 "G"B2B2 | "Em"G2G2 "C"A2G2 | "D7"F6 E2 |
+| "G"D2B2 "D"A2"G"G2 | "C"E2C2 A,3E | "G"D2G2 F2A2 | "G"G8 ||\
+"G"B2B2 "C"c2c2 | "D7"A2A2 "G"B4 | "Em"G2GG "C"A2G2 | "D7"F6 E2 "^B"|
+"G"D2B2 "D"A2G2 | "C"E2C2 A,2E2 | "G"D2G2 "D7"F2A2 !coda!| "G"G6 "C"z2 ||\
+"G"z4 "D7"z4 | "G"z4 z2 D-D | "G"D2D2 G2G2 | "C"E2C2 A,EEE | "D7"D2F2 E2C2 | "G" B,6 D2 ||
+"G"D2B2 A2G2 | "C"E3C A,2E2 | "G"D2G2 "D7"FG A2 | "G"G6 D2 |\
+D2D2 G2G2 | "C"E2C2 A,2EE | "D7"D2F2 E2C2 | "G" B,6 D2 "B"||
+"G"D2B2 A2G2 | "C"E2C2 A,2EE | "G"D2G2 "D7"FGA2 | "G"G8 :|\
+y!coda![| "G"G4- G2"C"E2 | "G"D2G2 "D7"F2A2 | "G"G4- "C"G4- |"G"G8- | G2z6 | z8 |]
+
+%%sep 2 1 500
+
+X: 2
+T: Mary's Boy Child   [Bb]
+C: words & music: Jester Harston
+R: song
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+Q:"Andante"
+K: Bb
+% %continueall
+| "Bb"F2d2 "F"c2"Bb"B2 | "Eb"G2E2 C2G2 | "Bb"F2B2 "F7"A2c2 | "Eb   Bb"B6y [|\
+F2 | "Bb"F2F2 B2B2 | "Eb"G2E2 C2GG | "F7"F2A2 G2E2 | "Bb" D8  |
+| "Bb"F2d2 c2B2 | "Eb"G2E2 C3G | "Bb"F2B2 A2c2 | "Bb"B6 \
+"Refrain"[|] z2\
+|: "Bb"d2d2 "Eb"e2e2 | "F7"c2c2 "Bb"d2d2 | "Gm"B2B2 "Eb"c2B2 | "F7"A6 G2 |
+| "Bb"F2d2 "F"c2"Bb"B2 | "Eb"G2E2 C3G | "Bb"F2B2 A2c2 | "Bb"B8 ||\
+"Bb"d2d2 "Eb"e2e2 | "F7"c2c2 "Bb"d4 | "Gm"B2BB "Eb"c2B2 | "F7"A6 G2 "^B"|
+F2d2 "F"c2B2 | "Eb"G2E2 C2G2 | "Bb"F2B2 "F7"A2c2 !coda!| "Bb"B6 "Eb"z2 || "Bb"z4 "F7"z4 |\
+"Bb"z4 z2 F-F | "Bb"F2F2 B2B2 | "Eb"G2E2 CGGG | "F7"F2A2 G2E2 | "Bb" D6 F2 ||
+"Bb"F2d2 c2B2 | "Eb"G3E C2G2 | "Bb"F2B2 "F7"AB c2 | "Bb"B6 F2 |\
+F2F2 B2B2 | "Eb"G2E2 C2GG | "F7"F2A2 G2E2 | "Bb" D6 F2 ||
+"Bb"F2d2 c2B2 | "Eb"G2E2 C2GG | "Bb"F2B2 "F7"ABc2 | "Bb"B8 :|\
+y!coda![| "Bb"B4- B2"Eb"G2 | "Bb"F2B2 "F7"A2c2 | "Bb"B4- "Eb"B4- |"Bb"B8- | B2z6 | z8 |]
+

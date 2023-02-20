@@ -1,0 +1,35 @@
+
+X: 1
+T: Barnacle Bill the Sailor  [D]
+R: waltz+jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+P: Slow
+K: D
+%%slurgraces
+Ad \
+| "D"f3 ^efg | "A"e4 Ac | e3 ^def | "D"d4 :| Hz4 ||
+P: Fast
+|: "D"{c'}d'2d' a2a | f2f d2d | "A7"eee e2g | "D"f3 d3 :|
+[| "G"b2b d'2d' | "D"a2a f2a | "G"b2b d'2d' | "D"a2a f2a |
+|  "G"b2b d'2d' | "D"a2a f2a | "A7"eee e2g | "D"f3 d3 |]  Hz4 |]
+
+
+%%sep 3 1 500
+
+X: 2
+T: Barnacle Bill the Sailor  [G]
+R: waltz+jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+P: Slow
+K: G
+%%slurgraces
+DG \
+| "G"B3 ^ABc | "D"A4 DF | A3 ^GAB | "G"G4 :| Hz4 ||
+P: Fast
+|: "G"{f}g2g d2d | B2B G2G | "D7"AAA A2c | "G"B3 G3 :|
+[| "C"e2e g2g | "G"d2d B2d | "C"e2e g2g | "G"d2d B2d |
+|  "C"e2e g2g | "G"d2d B2d | "D7"AAA A2c | "G"B3 G3 |]  Hz4 |]

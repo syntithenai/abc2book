@@ -1,0 +1,24 @@
+X: 20811
+T: CAMELIA WALTZ
+C: Mozart.
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.81 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:!p!\
+(ef^fg)g2 | (cd^de)e2 | ^cdfed=c | cBdBG2 |!f!\
+(ef^fg)g2 | (a_b=bc')c'2 | c'aaffd | c2z2z2 :|
+|: !p!\
+(Bc^cd)d2 | (ef^fg)g2 | B(c^cded) | (ef^fgag) |\
+(e=f^fg)g2 | (a_b=bc')c'2 | c'aaffd | c2z2z2 :|
+|: "^(8va . . ."\
+G6 | cBAGFE | D2DFEG | F2z2z2 |\
+F6 | dcBAGF | E2GEFD | C2z2z2 :|
+|: \
+e2d2c2 | B2A2^G2 | e2d2c2 | B2A2^G2 |\
+e2e2e2 | (f4d2) | cBAGAB | "_. . . 8va)"c4"^D.C."z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

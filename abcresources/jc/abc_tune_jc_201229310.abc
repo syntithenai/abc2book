@@ -1,0 +1,18 @@
+X:121
+T:The Kelloholm Jig
+P:The Kelloholm Jig
+C:Peter Hyssett
+R:Jig (8x32)
+B:RSCDS L32-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+G|"G"D2B B^AB|d^cd BGE|D2B B^AB|"D7"dcB c3|\
+  D2A A^GA|cBc AFE|
+                   D2A A^GA|1 "G"ed^c d2 G:|2 cBA "G"G3||\
+  "G"DGB d2d|ed^c dBG|DGB dcB|"D7"c2A A3|
+  "D"DFA c2c|dcB cAF|DFA c3c|"G"ed^c d3|\
+  "G"DGB d2d|ed^c dBG|
+                      DGB dBG|"C"F2E E3|\
+  "Am"EAc ecA|"G"DGB dBG|"D7"FAc e2F|"G"G3-G2|]

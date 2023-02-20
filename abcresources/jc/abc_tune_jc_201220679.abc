@@ -1,0 +1,25 @@
+X: 3
+T: Mosee
+%R: reel
+B: Kitty Bridges "Collection of Country Dances 1745" p.3
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-bridges1745
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+N: One of the two groups of notes in the last bar should probably be 16th notes, but it's not obvious which.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B/A/B/c/ BAGF G2 | (e/f/g) (e/f/g) dgdc |\
+B/A/B/c/ BA GF G2 | (B/c/d) (B/c/d) cB A2 :|
+|:\
+d/c/d/e/ dd ef g2 | c'a (3{g}fed  c'a fe/d/ |\
+c/B/c/d/ cd ef gB | cBAG AGAB G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center Mosee
+%%begintext align
+%%   Cross over two Couple and up again
+%% the same, Hands round all four at top.
+%% and right and left.
+%%endtext

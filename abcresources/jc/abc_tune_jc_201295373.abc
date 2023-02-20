@@ -1,0 +1,53 @@
+%%staffwidth 10cm
+%%scale 0.60
+X: 1
+T: TEST: All the minor keys
+M: 4/4
+L: 1/8
+P: K: Am
+K: Am
+"Am"| AB cd ef ga |
+%: Sharps
+P: K: Em
+K: Em
+"Em"| EF GA Bc de |
+P: K: Bm
+K: Bm
+"Bm"| Bc de fg ab |
+P: K: F#m
+K: F#m
+"F#m"| FG AB cd ef |
+P: K: C#m
+K: C#m
+"C#m"| CD EF GA Bc |
+P: K: G#m
+K: G#m
+"G#m"| GA Bc de fg |
+P: K: D#m
+K: D#m
+"D#m"| DE FG AB cd |
+P: K: A#m
+K: A#m
+"A#m"| AB cd ef ga |
+%: Flats
+P: K: Dm
+K: Dm
+"Dm"| DE FG AB cd |
+P: K: Gm
+K: Gm
+"Gm"| GA Bc de fg |
+P: K: Cm
+K: Cm
+"Cm"| CD EF GA Bc |
+P: K: Fm
+K: Fm
+"Fm"| FG AB cd ef |
+P: K: Bbm
+K: Bbm
+"Bbm"| Bc de fg ab |
+P: K: Ebm
+K: Ebm
+"Ebm"| EF GA Bc de |
+P: K: Abm
+K: Abm
+"Abm"| AB cd ef ga |

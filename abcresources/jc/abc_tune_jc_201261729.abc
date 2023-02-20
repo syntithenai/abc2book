@@ -1,0 +1,21 @@
+X: 1
+T: Chicken Dance  [G]
+C: Werner Thomas (Swiss)
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/8
+K: G
+!f!d/d/ e/e/ B/B/ | "G"d !p!d/d/ e/e/ B/B/ |\
+d !f!d/d/ e/e/ g/g/ | "D7"f !p!fed |\
+c !f!c/c/ d/d/ A/A/ |
+"D7"c !p!c/c/ d/d/ A/A/ |\
+[1 c !f!d/d/ e/e/ f | "G"e !p!edc | B :|\
+[2 "D7"c def | "G"g4 |]\
+z d_dc | "G"B3 d |\
+b3 a | a2 g2- |
+g d_dc | B3 d |\
+a3 g | "D7"f4- |\
+f dd_d | "D7"c3 d |\
+a3 g | g2 f2- |\
+f aag | g2 f2- |\
+f fga | "G"g4- | g |]

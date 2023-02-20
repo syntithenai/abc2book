@@ -1,0 +1,20 @@
+%%abc 2.2
+
+X: 734
+T: Blessed be that Maid Marie   [Am]
+C: Trad. English
+O: from Ballet's Lute Book (c.1600)
+R:
+%S: s:4 b:16(4+4+4+4)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+% %score {(1 | 2) (3 |ong/Blessed_be_that_Maid_Marie-Em-12-4.abc:w song/Blessed_be_that_Maid_Marie-Em-12-4.abc4)}
+K: Am
+% - - - - - - - - - -
+% V: 1 staves=2
+[|\
+"Am"E2 A2 A2 "Em"G2 | "Am"A2 GF (E3 F) | "C"GA "Em"GF "Am"E2 DC | "G"B,A, B,C "Am"A,4 |
+"C"CD EF "Am"E2 DC | "G"B,A, B,C "Am"A,4 | "C"CD EF "Am"E2 DC | "Dm"B,A, B,C "F"A,4 |
+"C"C2 C2 "G"G,2 G,2 | "F"A,B, CD "C"(E3 F) | "C"GA "Em"GF "Am"E2 DC | "G"B,A, B,C "Am"HA,4 |]
+% - - - - - - - - - -

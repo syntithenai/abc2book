@@ -1,0 +1,27 @@
+X: 1
+T: Orange and Blue
+T: Brochan Lom
+T: Thin Porridge
+O: Trad
+%date: 1877
+Z: John Chambers <jc:trillian.mit.edu>
+B: Skye 1877 p.121 (jig)
+B: called a schottische in Skinner SV p.20 (with variations),
+B: Hunter  354
+B: second Kennedy tune-book
+B: p.19, BSFC I-23, keep under O&B name alphabetically
+M: C
+L: 1/8
+K: D
+  "A7"a>g \
+|  "D"f<d ~d2 A<d ~d2 | f>d a>f d2 ef \
+| "Em"g<e ~e2 B<e ~e2 | "A7"c>A e>c A2 ||
+  "A7"a>g \
+|  "D"f<d ~d2 A<d ~d2 | f>d a>f d2 (3fga \
+|  "G"b>g "D/F#"a>f "Em"g>e "D"f>d | "A7"e>c (3ABc "D"d2 |]
+  "A7"a>g \
+|  "D"f<a a2 "/C#"f<a a2 | "Bm"f>d a>f "/A"d2 e>f \
+| "Em"g<b b2 "/D"g<b b2 | "A/C#"g>e "/B"b>g "A"e2 ||
+  "A7"f>g \
+|  "D"f<a a2 "/C#"f<a a2 | "Bm"f>d a>f "/A"d2 (3fga \
+|  "G"b>g "D/F#"a>f "Em"g>e "D"f>d | "A7"e>c (3ABc "D"d2 |]

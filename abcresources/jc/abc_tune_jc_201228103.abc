@@ -1,0 +1,23 @@
+X: 11072
+T: WHEN THE HOLLOW DRUM
+%R: march
+B: "Edinburgh Repository of Music" v.1 p.197 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: What do the "SO." and "Sy." annotations mean?
+M: C|
+L: 1/8
+K: G
+[|\
+"_So."GGGG G2B2 | A3G G4 |\
+"_Sy."GGGG G2B2 | A3G G2z2 |\
+"_So."BBBB B2d2 | c3c B2z2 |\
+d2{f}e>d d2g>e | d2{f}e>d d2B2 |\
+c2A2G2F2 | G3A G2z2 |\
+d2e>dd2g>e |
+d2{f}e>d d2B2 |\
+c2A2 G2F2 | G3A G2"_Fine."z2 |]\
+b2g2 e2(fg) | a2f2 d2ef |\
+g2e2 d2^c2 | d3e d2z2 |\
+b2g2 e2(fg) | a2f2 d2(ef) |\
+g2e2 d2^c2 | d3e dB=c"_D.C."A |]

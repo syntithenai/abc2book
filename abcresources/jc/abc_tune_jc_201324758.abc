@@ -1,0 +1,19 @@
+X: 619
+T: the Plow Boy   #2
+T: an toirea\.m
+R: air, reel
+%S: s:3 b:13(5+4+4)
+B: O'Neill's 1850 #619
+O: J.O'Neill
+Z: "dcde" should probably be "d^cde" in part I, measures 3, 7
+Z: John Walsh (walsh@math.ubc.ca)
+N: Compacted via repeats and multiple endings [JC]
+P: Play ABAB CBCB
+Q: "Moderate."
+M: C
+L: 1/8
+%Q: 55
+K: G
+"^A"[|] (GF) | DG{A}GF G2FG | ABAG F2 ((3ABc) | dcde fdcA |[1 GBAG F2 :|[2 GBAF G2 |]
+"^B"[| (Bc) | dedB c2Bc | dgfa g2Bc | defd cAGF | DF{G}FE F2 |]
+"^C"[| GF | D2GF GABG | A2FE FGAc | ((3def) eg fdcA | GBAF G2 |]

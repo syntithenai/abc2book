@@ -1,0 +1,66 @@
+
+X: 1
+T: Scotch Mary  [C]
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: Roaring Jelly collection
+M: C|
+L: 1/8
+K: Cmix
+|:\
+EFGF EFGF | ECG,A, B,CDF | EFGF EFGF | ECDE C3D |
+EFGF EFGF | ECG,A, B,CDF | EFGA BAGF |1 ECDE C3D :|2 ECDE CGAB ||
+|:\
+c3B GAGF | EFGA B2AB | GccB GAGF | ECDE CGAB |
+c3B GAGF | EFGA BGAB | cABG AFGF |1 ECDE CGAB :|2 ECDE C4 |]
+
+%%sep 2 1 500
+
+X: 2
+T: Scotch Mary  [D]
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: Roaring Jelly collection
+M: C|
+L: 1/8
+K: Dmix
+|:\
+"D"FGAG FGAG | "D"FDA,B, "C"CDEG | "D"FGAG FGAG | "A7"FDEF "D"D3E |
+"D"FGAG FGAG | "D"FDA,B, "C"CDEG | "D"FGAB "C"cBAG |1 "A7"FDEF "D"D3E :|2 "A7"FDEF "D"DABc ||
+|:\
+"D"d3c ABAG | FGAB "C"c2Bc | "D"Addc ABAG | "A7"FDEF "D"DABc |
+"D"d3c ABAG | FGAB "C"cABc | "D"dBcA "G"BGAG |1 "A7"FDEF "D"DABc :|2 "A7"FDEF "D"D4 |]
+
+%%sep 2 1 500
+
+X: 3
+T: Scotch Mary  (G)
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: Roaring Jelly collection
+M: C|
+L: 1/8
+K: Gmix
+|:\
+Bcdc Bcdc | BGDE FGAc | Bcdc Bcdc | BGAB G3A |
+Bcdc Bcdc | BGDE FGAc | Bcde fedc |1 BGAB G3A :|2 BGAB Gdef ||
+|:\
+g3f dedc | Bcde f2ef | dggf dedc | BGAB Gdef |
+g3f dedc | Bcde fdef | gefd ecdc |1 BGAB Gdef :|2 BGAB G4 |]
+
+%%sep 2 1 500
+
+X: 4
+T: Scotch Mary  (A)
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: Roaring Jelly collection
+M: C|
+L: 1/8
+K: Amix
+|:\
+cded cded | cAEF GABd | cded cded | cABc A3B |
+cded cded | cAEF GABd | cdef gfed |1 cABc A3B :|2 cABc Aefg ||
+|:\
+a3g efed | cdef g2fg | eaag efed | cABc Aefg |
+a3g efed | cdef gefg | afge fded |1 cABc Aefg :|2 cABc A4 |]

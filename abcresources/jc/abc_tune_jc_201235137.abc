@@ -1,0 +1,71 @@
+X: 20
+T: la Nouvelle Vergne
+R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #20
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+ecA |\
+{GA}B2E d2c | {c}B2A ecA | f2e d2c | {c}B3 ecA |\
+{GA}B2E d2c | {c}B2A af^d | eBA G2F | {F}E3 :|
+BGE |\
+{Bc}dc2 f2e | d2c eBd | ced cBA | GFE ae=g |\
+Tg2f bfa | gb^d ebc | dfB ceG | A3 !segno!|][K:=f=c=g]
+K: Am
+"Mineur"\
+EDF |\
+E2A ^G2B | TB2A cBd | c2e d2f | Tf2e a^ce |\
+d^cd gBd | =cBc fed | cBA ^G2A | B2E EDF |
+E2A ^G2B | TB2A cBd | c2e d2f | Tf2e ag^f |\
+gb^d dec | B2c A2c | BAG ^F2E | E3 ||
+ecA |\
+{fg}a2A a2g | f2d dBG | {fe}g2G g2f | e2c cAF |\
+f2F f2e | dcB ce^g | aed c2B | A3 !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+A3 |\
+e3 f2e | d2c A2c | d2c B2A | e3 A3 | e3 f2e | d2c f2f |
+g2a b2B | e3 :| e3 | G2A d2c | B2A G2g | a3 A3 | e3 c2A |
+B3 ^d2B | e2f g2a | d3 e3 | A3 !segno!|][K:=f=c=g][K:Am] "Mineur"A3 | c2d e2d | c3 a2^g |
+a3 b3 | c'3 a3 | b3 g3 | a3 d3 | ^d3 e2A | e3 A3 | c2d e2d |
+c3 a2^g | a3 b3 | c'3 a2b | e2^f g2a | g2e ^f2^d | e3 B3 | e3 || A3 |
+c3 ^c3 | d3 B3 | B3 B3 | c3 A3 | A3 A3 | B2^G A2B | c2d e2E | A3 !segno!|]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center La Nouvelle Vergne
+%%text Le Grand Rond - - . 2/1
+%%begintext align
+%%   Each Gentleman Balanc\'e to his Partner,
+%% then turns the Lady on his left - - - 1/2
+%%endtext
+%%begintext align
+%%   Each Gentleman Balanc\'e to the Lady he
+%% turned, and then turns his Partner - - - 1/2
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   The Ladies half Moulinet and turn the
+%% opposite Gentleman, then make an End of the
+%% Moulinet and turn their Partners - 1/1
+%%endtext
+%%begintext align
+%%   Each Gentleman Chass\'e with the Lady on his
+%% Left to the Corner, then back again and turn
+%% his Partner - - - - 1/2
+%%endtext
+%%begintext align
+%%   The Gentlemen half Moulinet and turn the
+%% opposite Ladies, then make an End of the
+%% Moulinet and turn their Partners - - 1/1
+%%endtext
+%%begintext align
+%%   Each Lady Chass\'e with the Gentleman on
+%% her Right to the Corner, then back again and
+%% turn her Partner - - - 1/2
+%%endtext
+%%sep 1 1 400

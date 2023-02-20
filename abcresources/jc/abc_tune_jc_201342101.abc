@@ -1,0 +1,14 @@
+X:712
+T:Swanee
+C:Traditional singing square
+L:1/4
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=120
+%%stretchstaff 0
+K:F
+|: "^FIGURE"FG | "F"AAAA | "/"AGFG | "/"AAAA | "/"A3A | "C7"GGGG | "/"GABc | "F"ABAG | "/"F2AB |
+"F"c2f2 | "F7"c4 | "Bb"BB-Bc | "Gm"d2ed | "C7"c2ed | "/"c2ed | "/"cBAG |1,2 "F"F2 :|
+|3 "F"F2 "^CHORUS"FG || "F"AAA2 | "C"G2AG | "Bb"F2 "C7"G2 |
+"F"A4 | "C7"GFAG | "F"F2f2 | "Bb"df-f2 | "F"c4 | "Dm"A2F2 | "C"Gfed | "C7"c/c/BAG |
+"F"A4 | "C7"GFAG | "F"F2f2 | "Bb"df-f2 | "F"c2AF | "C7"G2AG | "F"F2-"Bb"F2 | "F"F2 |]

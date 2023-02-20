@@ -1,0 +1,19 @@
+X:470
+T:The Merry Conclusion
+T:Mr Kynaston's Famous Dance
+C:John Young, 1718
+%%MIDI gchord fcHcfc
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=120
+M:3/2
+L:1/8
+K:Am
+P:A
+|: "Am"A2e4A2 ecBA | "G"GABc d2G2B2 AG | "Am"A2e4A2 "Dm"ecBA | "Am"E2A4 c2 "E7"B2 "Am"A2 :|
+P:B
+|: "Am"edcB ABcd ecBA | "G"GABc dcBA BcdB | "Am"AecA ceac "Dm"BA^GF | "Am"E2A4c2 "E7"B2 "Am"A2 :|
+P:C
+|: "Am"e2a2 "G"d2g2 "F"c2f2 | "G"BcdB GABG BcdB | "Am"ea^gb edcB "Dm"ABcA | "Am"E2A4c2 "E7"B2 "Am"A2 :|
+P:D
+|: "C"e2e2e2e2 e4 | "G"dcBA G2d2 BcdB | "Am"eaec AcBA "Dm"^GABG | "Am"E2A4c2 "E7"B2 "Am"A2 :|

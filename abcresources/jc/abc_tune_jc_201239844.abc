@@ -1,0 +1,23 @@
+X: 343
+T: Muirland Willie
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.34#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: jig
+M: 6/8
+L: 1/8
+K: Gm
+V: 1
+D |\
+G2A B2c | ded f2d | BdB f2(e/d/) | ~c2B {B}AG^F |\
+G>AG B2c | dcd b2a | g^fg (dg)f | g3- g2 :|
+|: d |\
+g2a b2g | f2d f2d | B>cB f2e/d/ | ~c>dB AG^F |\
+GAG B2c | d>ed b2a | (g^fg) (dg).f | g3- g2 :|
+V: 2 clef=bass middle=d
+z |\
+zBd g2a | b2g bd'b | d2b a2b | a2g d'2d |\
+g2g g2a | b2^f g2a | bd'b d'2d | gdB G2 :|
+|: z |\
+g2z g2z | a2b bd'b | d2b a2b | a2g d'2d |\
+g2z b2a | g2^f g2a | bd'^c' d'2d | gdB G2 :|

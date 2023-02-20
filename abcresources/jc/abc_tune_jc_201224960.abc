@@ -1,0 +1,26 @@
+X: 09010
+T: the BLAZER
+C: Bob McQuillen 28 Feb 92
+B: Bob's Note Book 9 #10
+%R: reel
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%text x=flute notes
+FE \
+| "D"D2"x"A,"x"B, "x"A,2DE | "D"FABA FDFA | "Bm"BdBA F2BA | "Bm"FDED "x"B,"x"A,FE |
+| "D"D2"x"A,"x"B, "x"A,2DE | "D"FABA FDFA | "G"BAdB "A7"AFdB | "A7"AFEF "D"D2 :|
+|: FA \
+| "Bm"B2dB ABde | "Bm"fded "A"cAFA | "Bm"B2dB ABde | "Bm"fded B2de |
+| "D"f2df "G"edBA | "D"defd "G"B2dB | "A7"ABdA BdAG | "D"F2D2 D2 :|
+%%begintext align
+%% Alaska is the home of a huge
+%% amount of great stuff, and this includes Rex Blazer, of
+%% Fairbanks. What a joy it is to be around him when he
+%% winds up his beautiful fiddle and starts belting out a great
+%% tune, especially if he has Juanita Anderson on the piano.
+%% Now _there's_ a great combination that I hope you get to
+%% hear someday. I once heard them in my living room.
+%% Wonderful!!
+%%endtext

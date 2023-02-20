@@ -1,0 +1,25 @@
+X: 31042
+T: COTILLION No. 14. COLUMBIAN SETT tune 2
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.104 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+c2 |\
+f2f2a2f2 | c2c2A2c2 | BAGF EFGA | BGcA ecge |\
+f2~f2 afcA | BABd G4 | A2g2 ecge | f2a2f2 H|]
+c2 |\
+g2g2 gfed | c=Bcd c4 | c'2c'2 c'=bag | fefg f4 |\
+fedc BAGF | B2B2 b4 | afge fcAc | BABG "^D.C."F2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First gentleman forward twice,
+%% cross over and forward 3,
+%% opposite lady balance &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

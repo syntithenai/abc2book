@@ -1,0 +1,16 @@
+X: 998
+T: Ellis's Jig
+T: port ellis
+R: double jig
+O: J.O'Neill
+B: O'Neill's 1850 #998
+Z: Robert Thorpe (thorpe@skep.com)
+Z: ABCMUS 1.0
+M: 6/8
+K: G
+D \
+| G>AG B2G | c2A F2D | G>AG B2c | d2g B2c \
+| dge =f2d | cAG F2A | d>ed cBA | G3  G2 :|
+|: d \
+| g2d  B2G | c2A F2D | g2d B2^c | dde =f2e \
+| dge =f2d | cAG F2A | d>ed cBA | G3   G2 :|

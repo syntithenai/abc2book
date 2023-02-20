@@ -1,0 +1,16 @@
+X: 1764
+T: a Prize For The Ladies   #1
+R: hornpipe, reel
+%S: s:2 b:16(8+8)
+O: Casey
+B: O'Neill's 1850 #1764
+Z: Bob Safranek, rjs@gsp.org
+M: C|
+L: 1/8
+K: G
+((3DEF) \
+| GABG AGEG | c2ce dcAB | GABG AGEG | AGAB A2 ((3DEF) |\
+| GABG AGEG | c2ce dcAB | Ggfe dcAc | B2G2 G2 :|
+|: ((3DEF) \
+| GFGB d2(de) | fefg fed2 | edef edc2 | Bgfe dcBA |\
+| GFGB d2(de) | fefg fedc | dgfe dcAc | B2G2 G2 :|

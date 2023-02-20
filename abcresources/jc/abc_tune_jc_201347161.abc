@@ -1,0 +1,1349 @@
+
+X: 1
+T: Turlough O'Carolan's Tunes
+K:
+
+%%sep 1 1 500
+
+X: 2
+T: Beauty in Tears
+C:Turlough O'Carolan
+R:waltz
+M:3/4
+L:1/8
+K:D
+A2 \
+| "D"d2 f2 a2 | f2 d2 B2 | "Em"ef gf ed | "G"fe dc BA \
+| "D"d2 fd ec | "G"d2 B2 G2 | "A7"A2 [B2G2] [c2G2] | "D"[d4F4] :|
+z2 \
+| "D"d2 f2 a2 | [d'2a2] a2 g2 | "Em"ed ef ga | "G"b2 g2 e2 \
+| "D"dc de fg | "Bm"a2 gf ed | "E7"e2 [a2e2] [^g2d2] | "A"[a4c4] |]
+f2 \
+|"Bm"f2 d2 B2 | B2 c2 d2 | "A"ef gf ed | "G"fe dc BA \
+| "D"d2 fd ec | "G"d2 B2 G2 | "A7"A2 [B2G2] [c2G2] | [d4F4] |]
+
+%%sep 1 1 500
+
+X: 3
+T: Blind Mary
+C: O'Carolan
+B: O'Neill's 655
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+R: air
+N: "Very slow"
+N: collected by F.O'Neill.
+M: 2/4
+L: 1/8
+K: D
+A \
+| "D"d2 d>c | "G"{c}B2 "A7"A(F/G/) | "D"A>B "(Bm)"AF | "Em"E2- "A7"E(F/G/) \
+| "D"(Af) (f>e) | "G"(dB) "A7"A(D/E/) | "D"(F>G) "A7"({F}E>D) | "D"D3 ||
+|| (d/e/) \
+| "D"f>g "Bm"fB | "Em"e>c "A7"(AB/c/) | "D"d>D "Bm"D(E/F/) | "Em"E3 "A7"(A/G/) \
+| "D"(F>G) Ad | "Bm"f>e "G"d(D/E/) | "D"(F>G) "A7"({F}E>D) | "D"D3 |]
+
+%%sep 1 1 500
+
+X: 4
+T: Bumper Squire Jones
+C: O'Carolan
+B: O'Neill's 639
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Spirited"
+M: 6/8
+L: 1/8
+K: D
+A \
+| {G}FDD D2E | {G}FDD D2E | (F/G/A).F (G/A/B).A | BEE G2A |
+| FDD d2e | e(g/f/)(e/d/) edc | dBe cAc | dDD D2 ||
+a \
+| a(f/g/)(a/f/) d(f/g/)(a/f/) | b(g/a/)(b/g/) e(g/a/)(b/g/) | afd (e/f/g).e | cAA A2g |
+| (f/g/a).f geg | a(f/g/)(a/f/) geg | fed cBc | dDD D2 |]
+
+%%sep 1 1 500
+
+X: 5
+T: Captain O'Kane
+C: Turlaugh O'Carolan
+M: 6/8
+L: 1/16
+R: air, waltz
+B: after O'Neill's Music of Ireland
+K: G
+(FD) \
+| "Em"(B,2E2F2) (G4 FE) | "D"(FGAGFE) (D2E2F2) \
+| "Em" (G2B2G2) (BAGFED) | "Em"(B,2E2)F2 E4 (ED) |
+| "Em"(B,2E2F2) (G4 FE) | "D"(FGAGFE) (D2E2F2) \
+| "Em"(G2B2)G2 (BAGFED) | "Em"(B,2E2)F2 E4 |]
+EF \
+| "G"(G2B2)B2 B4 (AG) | "D"(F2A2)A2 A4 (dc) \
+| "Em"(B2e2^d2) (e3fg2) | "Em"(B2e2^d2) e4 (ef) |
+| "G"(g3fe2) (d3cB2) | "D"(A2F2)d2 (D3EF2) \
+| "Em"(G2B2G2) (BAGFED) | "Em"(B,2E2)E2 E4 ||
+
+%%sep 1 1 500
+
+X: 6
+T: Carolan's Draught
+C:Turlough O'Carolan
+M:4/4
+L:1/8
+Q:1/2=80
+R:Other
+D:Arty McGlynn, "McGlynn's Fancy"
+D:Zan McLeod
+K:G
+D2 |\
+"G"GABc "D"defd | "C"g2fe "G"d2d2 | "C"e2E2 "G"d2D2 | "Am"c2Bc "D"AB (3cBA |
+"G"GABc "D"defd | "Em"gfed "A"^cbag | "D"gfed "A"A2^c2 | "D"d6 :|
+|: \
+"D"fg | afga "G"bagf | "Em"(3efg fe "Am"edcB | "C"edef gfga | "G"bagf "C"efga |
+"G"bBbB "D"aBaB | "Em"gBgB "Bm"fBfB | "C"edef gfe^d | e6f2 |
+"Em"gfed "Am"cBAG | "C"e2d2 "G"d2D2 | "C"c2 (3BcB "Am"A2G2 | "D"FGAF D2z2 |
+"C"EFGE "D"FGAF | "G"GABG "D"ABcA | "G"d2g2 "D"bagf | "G"g6 :|
+
+%%sep 1 1 500
+
+X: 7
+T: Carolan's Dream
+M:4/4
+L:1/8
+C:Carolan
+Z:Steve Mansfield 07 March 2004
+K:C
+AB |:\
+c2B>A A2GA | c2BA G2cd | e2de dcBA | A4 A2 de | f2fg e2ef |
+d^cde a3g | aged dcAG | A6 :| ef | gede g3a | gede g3e |
+agab ageg | a6 ag | f2fg e2ef | d^cde a2ab | aged dcAG | A6 |]
+
+%%sep 1 1 500
+
+X: 8
+T: Catherine Nowlan
+C: O'Carolan
+B: O'Neill's 652
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+Q: "Slow"
+N: Bar 6 seems to have a 16th-note D, giving a wrong rhythm.
+N: I transcribed it like bar 14, which is otherwise identical.
+M: 3/4
+L: 1/8
+K: D
+(AB/c/) \
+| (d2F)z (d>c) | (B2A)z (AB/c/) | d4 c2 | B4 (d>c) |
+| ({Bc}B>A) ({GA}G>F) ({EF}E>D) | Dz D2 (DF/A/) | B2 (ez c)z | d4 ||
+(d>e) \
+| fz (az (f>e)) | dz (.d.c.B.A) | d4 cz | B4 (d>c) |
+| ({Bc}B>A) ({GA}G>F) ({EF}E>D) | Dz D2 (DF/A/) | B2 (ez c)z | d4 |]
+
+%%sep 1 1 500
+
+X: 9
+T: Dermot O'Dowd
+C: O'Carolan
+B: O'Neill's 653
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Slow"
+N: collected by F.O'Neill.
+M: 3/4
+L: 1/8
+K: Am
+(A>G) \
+| E2 A2 A2 | A2 (BA)(GA) | B2 (Bd) (BA) | G2 E2 D2 \
+| E2 A2 A2 | A2 (BA) (GA) | B2 d2 e^f | g4 ||
+|| (ed) \
+| (edegab) | a2 (ba)(g^f) | g2 (gaba) | g2 ez d2 \
+| e2 (eged) | B4 (A>G) | (E2 A2) A2 | B2 HA2 |]
+
+%%sep 1 1 500
+
+X: 10
+T: Eleanor Plunkett
+C: Turlough O'Carolan
+R: waltz
+S: printed page in Concord Slow Scottish Session collection
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The two parts are 6 and 10 bars long.
+M: 3/4
+L: 1/8
+K: G
+GA |\
+"G"B2 B2 "Am"(3ABA | "G"G2 G2 "Am"ag |\
+"C"e2 e2 ed | "G"B2 B2 "Am"AG |\
+EA A3 B | EA A2 :: ga |\
+"G"b2 "Am"ag ed | "C"e4 ef |
+"G"g2 gd (3gab | "Am"a2 "G"ba gf |\
+"G"g2 "Am"ag "C"fe | "G"d2 B2 d2 |\
+"C"e2 g2 G2 | "G"B2 d2 (3BAG |\
+"Am"EG A3 B | EA A2 :|
+
+%%sep 1 1 500
+
+X: 11
+T: Eleanor Plunkett
+C: Turlough O'Carolan
+R: waltz
+S: printed page in Concord Slow Scottish Session collection
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The two parts are 6 and 10 bars long.
+M: 3/4
+L: 1/8
+K: G
+GA |\
+"G"B2 B2 "Am"(3ABA | "G"G2 G2 "Am"ag |\
+"C"e2 e2 ed | "G"B2 B2 "Am"AG |
+EA A3 B | EA A2 :: ga |\
+"G"b2 "Am"ag ed | "C"e4 ef |
+"G"g2 gd (3gab | "Am"a2 "G"ba gf |\
+"G"g2 "Am"ag "C"fe | "G"d2 B2 d2 |
+"C"e2 g2 G2 | "G"B2 d2 (3BAG |\
+"Am"EG A3 B | EA A2 :|
+
+%%sep 1 1 500
+
+X: 12
+T: the Fairy Queen
+C: O'Carolan
+B: O'Neill's 637
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Moderate"
+N: Trailing grace notes in bar 32 not standard in abc (yet).
+N: O'Neill has single bar at start of 4th section.
+M: 3/4
+L: 1/8
+K: G
+G4 D2 | F4 D2 | G4 D2 | {A}G>F G>A B>A \
+| G3 F ED | {C}B,4 (A,/B,/D) | E4 ~F2 | G4 {c}B>A |
+| ">"G4 (G//B//d3/2) | ">"F4 (F//A//d3/2) | E3 F ED | {C}B,4 D2 \
+| {F}E>D (EF) (GE) | DB ~A3 (G/A/) | G6- | G4 Z2 ||
+|| (BABcBc) | (BABc)(BG) | A4 A2 | A2 B2 d2 \
+| ">"G3 ~G dG | ">"F3 ~F dF | (EDEF)(ED) | {C}B,4 (D/E/F) |
+| (GFED)B,A, | G,4 (FG) | A3 (G FE) | D4 (GA) \
+| B4 E2 | A4 D2 | ~G6 (F/G/) | G4 z2 ||
+|| "ff".G2 .G2 .F2 | .E2 .D2 .C2 | (B,DGB,) A,G | G,4 z2 \
+| "p"G2 G2 D2 | (E2 F2 G2) | (A>BAG)(FE) | .D.G,.B,.D.G.A |
+| [B4G4] zB | [A4F4] zA | "f"G2 G2 ED | {C}B,4 (GF) \
+| (E>DE)(FED) | ({C}B,A,G,A,)(B,D) | {D}E6 | z2 z2 (d/e/f) ||
+| g2 g2 f2 | e2 d2 c2 | (BdgB)(Ag) | G4 (~FE/F/) \
+| (GFEDEF) | (GFEFGA) | [B6G6] | z2 zBcd |
+| (edef)(ef) | ({a}gfga)(gf) | (edef)(ed) | HB4 (gf) \
+| (edef) g>d | (e<B) A4 | G2 G4- | G6 |]
+
+%%sep 1 1 500
+
+X: 13
+T: Fanny Power
+C: Turlough O'Carolan
+R: waltz
+S: printed page in Concord Slow Scottish Session collection
+N: The composer's name is given as "O'Carola"
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+G |\
+"G"G2D G2A/B/ | "Am"c2B A2G | "D7"{G}F2E D2{E}D | F2G A2c |\
+"G"B2A/G/ Bcd | "C"e2A "Am"A2G | "D7"F>ED DEF | "G"G3 G2 :|
+|: G |\
+"G"dB/c/d dB/c/d | G2G G2G/G/ | "C"ec/d/e ec/d/e | "Am"A2A A2d/c/ |\
+"G"B>cd "C"e>fg | "D"f>ga d2c | "G"B>AG "D7"A<cF | "G"G3 G2 :|
+
+%%sep 1 1 500
+
+X: 14
+T: Fanny Power
+C: Turlough O'Carolan
+R: waltz
+S: printed page in Concord Slow Scottish Session collection
+N: The composer's name is given as "O'Carola"
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+G |\
+"G"G2D G2A/B/ | "Am"c2B A2G | "D7"{G}F2E D2{E}D | F2G A2c |
+"G"B2A/G/ Bcd | "C"e2A "Am"A2G | "D7"F>ED DEF | "G"G3 G2 :|
+|: G |\
+"G"dB/c/d dB/c/d | G2G G2G/G/ | "C"ec/d/e ec/d/e | "Am"A2A A2d/c/ |
+"G"B>cd "C"e>fg | "D"f>ga d2c | "G"B>AG "D7"A<cF | "G"G3 G2 :|
+
+%%sep 1 1 500
+
+X: 15
+T: Isabella Burke
+C: O'Carolan
+B: O'Neill's 654
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Slow"
+N: collected by F.O'Neill.
+M: 3/4
+L: 1/8
+K: Dm
+[|\
+d2 d2 (dc) | d2 g2 (gf) | d2 fd c>B | B4 (FG) |\
+A2 B2 (AG) | F2 f2 (d>c) | B2 A2 (G>F) | D4 |]
+[| (D>E) |\
+(F2 B2) (AG) | F4 (F/G/A) | (B2 d2) (c>B) | B4 (FG) |\
+A2 B2 (AG) | F2 f2 (d>c) | B2 A2 (G>F) | D4 |]
+
+%%sep 1 1 500
+
+X: 16
+T: the Isle of Skye  [Bb]
+T: Planxty George Brabazon
+C:O'Carolan
+R:reel
+B:RSCDS 10-7
+N:Attributed to Gow in RSCDS; this is a variant of the O'Carolan tune.
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C|
+L:1/8
+K:Bb
+bg \
+| "Bb"f2B2 edcB | f2B2 edcB | "Cm"g2c2 cdef | g2c2 cdeg |
+| "Bb"f2ed b2ag | f2ed "Cm"c2Bc | "Bb"dcBG "F7"FGBc | d2B2 B2 ||
+|| bc' \
+| "Bb"d'2bd' "Cm"c'2ac' | "Bb"b2gb "Eb"g2df | "Cm"gcbc cdef | gcbc ca"F7"bc' |
+| "Bb"d'2bd' "Cm"c'2ac' | "Bb"b2gb "Eb"b2"Gm"dg | "Bb"f2F2 "F7"FGBc | "Bb"d2B2 B2 |]
+
+%%sep 1 1 500
+
+X: 17
+T: John O'Reilly the Active
+C: O'Carolan
+B: O'Neill's 645
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a repeat at the end but not at the beginning; fixed.
+M: 6/8
+L: 1/8
+K: G
+D |\
+DGG (GF>)G | cAG F2(G/A/) | (B<d)B (c<A)B | G>AG GDD |
+DGG GFG | c>AG F2GA | (c<A)d (c<A)d | G>AG G2 :|
+|: G |\
+G=ff f2f | =fdd cAA | Ggg g^fg | a=fd d2(c/B/) |
+cde =fef | ecB A2(B/c/) | dcd (d/e/=f)(e/d/) | cAG G2 :|
+
+%%sep 1 1 500
+
+X: 18
+T: Lady Gethin
+C: O'Carolan
+R: reel
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+a2 \
+| "D"f2d2 d2b2 | "Em"g2e2 "A7"e2a2 | "D"f2d2 "E(m)"Bcde | "Aa"c2A2 A2ag |
+| "D"fgaf "Bm"d2ba | "Em"gabg "A7"e2a2 | "G"gfed "A7"A2c2 | "D"d4- d2 :|
+|: A2 \
+| "D"F2A2 d2F2 | "G"G2B2 B3A | "E"^G2B2 "E7"e2G2 | "A"A2c2 "A7"e2fg |
+| "D"a2gf "G"b2ag | "D"agfg "A7"e2a2 | "G"gfed "A7"A2c2 | "D"d4- d2 :|
+
+%%sep 1 1 500
+
+X: 19
+T: Loftus Jones
+O:Ireland
+M:C|
+Z:Richard Robinson <abclist:beulah.demon.co.UK>
+%I:speed 400
+C:Turlough o'Carolan
+K:A
+a4   g2f2 | e2d2 cde2 | dcBA A2z2 | cdcB A2B2 |\
+cde2 def2 | e2dc dcBA | GAGF E2z2 | ABAG F2d2 |
+edec dcdB | A2E2 F2G2 | A2F2 G2A2 | B2G2 A2B2 |\
+c2A2 B2c2 | d4   e2z2 | dcBA GAB2 | A2ED C2E2 | A4 A2z2 :|
+|:\
+e2G2 A2F2 | G2E2 F2G2 | A2B2 G2c2 | F4   G4   |\
+c2c2 B4   | ABcd c2B2 | ABcd edcB | A2G2 F4   |
+CFAF CFAF | EGEG EGEG | FAFA FAFA | GBGB GBGB |
+AcAc AcAc | AcAc AcAc | fga2 g4   | f4   f2g2 |\
+aAaA gAgA | fAfA eAeA |
+dBdB cAcA | BAGF EFG2 |\
+A2ED C2E2 | BAGF E2e2 | dcBA GABG | A4   A2z2 :|
+
+%%sep 1 1 500
+
+X: 20
+T: Loftus Jones
+C:Turlough o'Carolan
+O:Ireland
+Z:Richard Robinson <abclist:beulah.demon.co.UK>, Chords by Ken Laberteaux irtrad-l 2001-11-7
+M:C|
+L:1/8
+Q:1/2=100
+K:G % transposed from A
+"G"g4 "D/F#"f2e2 | "G"d2c2 Bcd2 | "C"cBAG "G/B"G2z2 | "G/B"BcBA G2 "C"A2 |\
+"G/B"Bcd2 "C"cde2 | "G/B"d2cB "Am"cBAG | "D"FGFE "/F#"D2z2 | "G"GAGF "C"E2c2 |
+"G/B"dcdB "Am"cBcA | "G"G2D2 E2F2 | "Em"G2E2 F2G2 | "D/F#"A2F2 G2A2 |\
+"G"B2G2 A2B2 | "Am"c4   "G/B"d2z2 | "C"cBAG "D"FGA2 | "G"G2DC B,2D2 | "G"G4 "G"G2z2 :|
+|:\
+"D/F#"d2F2 G2E2 | F2D2 "Em"E2F2 | G2A2 "D/F#"F2B2 | "Em"E4 "D/F#"F4 |\
+"G"B2B2 "D/F#"A4 | "G"GABc B2"D/F#"A2 | "G"GABc dcBA | "G"G2"D/F#"F2 "Em"E4 |
+"Em"B,EGE B,EGE | "D"DFDF DFDF | "Em"EGEG EGEG | "D/F#"FAFA FAFA |\
+"Em"GBGB "/D#"GBGB | "/D"GBGB "/C#"GBGB | "Em"efg2 "D"f4 | "C"e4  e2f2 |
+"G"gGgG fGfG | eGeG dGdG | "C"cAcA "G/B"BGBG | "Am"AGFE "D"DEF2 |\
+"G"G2DC B,2D2 | "Am"AGFE "G/B"D2d2 | "C"cBAG "D"FGAF | "G"G4 "G"G2z2 :|
+
+%%sep 1 1 500
+
+X: 21
+T: Lord Mayo's march
+S: Lesl Harker <lmh:RCONS.COM> irtrad-l 2000-09-12
+D: John Doherty (Celebrated Recordings)
+D: Seamus Glackin on the Fiddlesticks Collection.
+D: Neilly Boyle on Folktracks.
+D: Mickey Doherty may have recorded it as well.
+D: Paul Bradley Atlantic Roar album.
+D: New Celeste Live
+D: Grainne Yeats double CD "The Belfast Harp Festival"
+D: Chieftains 4
+N: James Early and John McFadden from ca 1901-4, was reissued mistakenly as  a
+N: Patsy Touhey recording on a Skylark cassette.  D:Joanie Madden's "The Songs
+N: of the Irish Whistle" H:Bunting prints it as  a  song,  attributed  to  one
+N: David  Murphy,  in  the  service  of  Lord  Mayo  "long before the times of
+N: Carolan." The song is entitled "Inspiring  Fount  of  Cheering  Wine!"  The
+N: lyrics  (a  literal  translation  from the Irish, says Bunting) seem rather
+N: affected-- even to a wine loving Frenchman.
+W: Inspiring fount of cheering wine!
+W: Once more I see thee flow:
+W: Help me to raise the lay divine,
+W: Propitiate thy Mayo.
+W: Mayo! whose valour sweeps the field,
+W: And swells the trump of fame,
+W: May Heav'n's high power the champion shield!
+W: And deathless be his name!
+Z: RR,id:hn-march-8 for Ador version
+M: 2/4
+K: DDor
+A2 | \
+D2C2 D2E2 | A4 AGEG | A4 D2ED | CDCB, A,3A, | \
+D2C2 D2E2 | A4 c3B | A4 AGED |1 D6 A,2 :|2 D8 ||
+d2d2 cAcd | e4 edc2 | A2G2 GAc2 | C3D E2D2 | \
+d2d2 cAcd | e4 e2dc | A2G2 GAc2 | d6 c2 |
+d2d2 cAcd | e4 edc2 | A2G2 GAc2 | C3D C2A,2 | \
+DCDE G2E2 | D2C2 c3A | G4 EGED | D6 |]
+
+%%sep 1 1 500
+
+X: 22
+T: Madame Maxwell's Waltz
+C: Turlough O'Carolan
+R: waltz
+M: 3/4
+L: 1/8
+Z: John Chambers, based on several O'Neill versions and a Richard Robinson transcription.
+N: Waltz-time version of Planxty Madame Maxwell
+K: D
+|: "D"AB A2 FD | "D"F2 A2 d2 | "A7"cd ed ef | "A7"ef g2 fe \
+|  "D"dA GF ED | "G"G2 B2 d2 | "A7"cA e2 dc |  "D"d6 :|
+[| "D"a2 d2 a2 | "G"g2 b2 ag |  "D"fd a2 gf | "A7"g2 e2 g2 \
+|  "D"fg ag ab | "D"ag f2 e2 |  "G"d2 e2 d2 | "A7"c2 A2 Bc ||
+|| "D"d2 cB AG | "D"F2 D2 d2 | "A7"cd ef ed | "A7"c2 A2 Bc \
+|  "D"dc BA GF | "G"G2 B2 A2 | "A7"BA GF ED |  "D"D6 |]
+
+%%sep 1 1 500
+
+X: 23
+T: Maurice O'Connor. Second Air
+C:Turlough Carolan
+B:Carolan by Donal O'Sullivan, no. 116
+S:Deirdre Sullivan & Paul de Grae <sullgrae:IOL.IE>
+N:Maurice O'Connor was the head, in Carolan's day, of
+N:the O'Connor's of Offaly [D. O'S]
+N:Andante grazioso
+M:6/8
+L:1/8
+K:F
+f2 c fga|gf/e/d/c/ f2 c|d/e/fd {d}cAF|EGG B2 c|
+AGA FAf|{f}e2 f gab|c'a/b/c'/a/ bg/a/b/g/|e3 c3||
+fFf fAf|{f}e2 d c2 B|Aca Aca|b2 a g2 c|
+c'a/b/c'/a/ bgb/g/|fa/b/c'/a/ gec|dba gf/e/d/c/|f3 f3||
+
+%%sep 1 1 500
+
+X: 24
+T: Miss Murphy
+C: Turlough Carolan
+B: "Complete Collection ... of CAROLAN ..." by Ossian Publications
+B: Carolan by Donal O'Sullivan, no. 105
+B: "The Hibernian Muse", S., A. and P. Thompson, London c.1786.
+S: Deirdre Sullivan & Paul de Grae <sullgrae:IOL.IE>
+N: In the absence of any words or other information, it is not
+N: possible to say who this Miss Murphy was [D. O'S]
+N: Allegretto
+M: 4/4
+L: 1/8
+K: C
+gf | e2 g2 d2 g2 | c2 g2 B2 g2 | fedc B2 d2 | cB~AG G2 cB |
+| A2 c2 G2 c2 | F2 d2 cBAG | FG A2 D2 G2 | {F}E2 ~DC C2 z2 ||
+| GAGF E2 C2 | EF G2 G2 c2 | Bc d2 dedc | ~B2 G2 G4 |
+| ~g2 f2 ~g2 f2 | efge de B2 | a2 a2 ~g2 f2 | fgfe d2 g2 |
+| {f}e2 dc c'2 c2 | f2 a2 a2 gf | edec {e}d2 cB | c2 c2 c2 |]
+
+%%sep 1 1 500
+
+X: 25
+T: My Dermot
+C: O'Carolan
+B: O'Neill's 647
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Lively"
+N: collected by F.O'Neill.
+M: 6/8
+L: 1/8
+K: Dm
+F \
+| A2A ABG | F2E D2(A/B/) | c2c cdB | {d}c3 c2B |
+| A2A ABG | F2E D2((3A/B/c/) | d2d (de^c) d3 d2 ||
+|| (d/e/) \
+| f2f fge | f2A A2(A/B/) | {d}cBc {e}d2B | {d}c3- c2B |
+| A2A ABG | F2E D2A | d2d de^c | d3 d2 |]
+
+%%sep 1 1 500
+
+X: 26
+T: O'Carolan's Welcome
+C: Turlough O'Carolan
+R: waltz
+Z: John Chambers <jc:trillian.mit.edu>
+B: Ossian p.119 #171 (unnamed)
+N: The chords are highly variable.
+N: The G# in bar 24 is often played natural.
+M: 3/4
+L: 1/8
+K: Am
+cB \
+| "Am"A2 cd e2 | A2 cd e2 | "Dm"de dc BA | "Em"G/A/B G2 E2 \
+| "Am"c3 B A2 | "Dm"d3 c B2 | "Em"ce E2 G2 | "Am"A4 cB ||
+| "Am"A2 cd e2 | A2 cd e2 | "Dm"de dc BA | "Em"G/A/B G2 E2 \
+| "C"g3 f e2 | "F"a3 g ed | "Em"ce dc Bc | "Am"A4 |]
+[| e2 \
+| "Am"e2 ab c'2 | e2 ab c'2 | "G7"c'b ag ab | "C"c'2 e2 e2 \
+| "Dm"f2 af ed | "C"e2 ge dc | "Dm"d2 e2 "Em"g2 | "Am"Ha6 ||
+|| "F"ag eg a2 | "C"ge de g2 | "Am"ed cd ec | "G"d2 B2 G2 \
+| "Am"c3 B A2 | "Dm"d3 c B2 | "Em"c{d}e E2 G2 | "Am"A4 |]
+
+%%sep 1 1 500
+
+X: 27
+T: One Bottle More
+C: Turlough O'Carolan
+R: waltz
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: Printed MS of unknown origin
+M: 3/4
+L: 1/8
+K: G
+|:"G"G2 B2 d2 |"G7"d3  B G2 | "C"c2 e2 e2 |"A7"e4   dc \
+| "G"B2 d2 g2 |"Em"d2 B2 G2 |"A7"AF A2 A2 | "D"d4   A2 :|
+[|"G"G3  F G2 | "C"E2 F2 G2 |"D7"AB cd ef | "G"g4   fe \
+|    d2 e2 g2 |"D7"ag fe dc | "G"B2 G2 G2 |    G3 B dB ||
+||"D"AF A2 A2 |    D4    FG |    AB cd ef | "G"g4   fe \
+|    d2 g2 fg |"D7"ag fe dc | "G"B2 G2 G2 |    G4   z2 |]
+
+%%sep 1 1 500
+
+X: 28
+T: Planxty Burke
+C: O'Carolan
+B: O'Neill's 664
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+Q: "Animated"
+N: The turns are over the dots in O'Neill.
+M: 6/8
+L: 1/8
+K: Gm
+G(G/A/B/c/) d2c | Bcd cAF | FGF cAF | FGF fAF |\
+.G(G/A/B/c/) dBG | GAG dBG | f2f fga | ~f3 d2 |]
+(f/g/) |\
+agf gf=e | f=ed cde | f=ed gfe | f=ed cA^F |\
+.G(G/A/B/c/) dBG | GAG dBG | f2f fga | ~f3 d2 |]
+e |\
+fg=e fge | f=ed cA^F | g2g gag | fd=e f2e |\
+(^f/g/a).f gd=e | f=ed cA^F | g2d (=e/f/g)d | B3 G2 |]
+
+%%sep 1 1 500
+
+X: 29
+T: Planxty Corcoran
+C: O'Carolan
+B: O'Neill's 681
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+Q: "Animated"
+M: 6/8
+L: 1/8
+K: Dm
+F \
+| FEF D2F | FEF DAG | FED CEG | FED CDE |
+| FEF G^FG | A^GA d2e | ff/e/d edc | dd/c/A cAG |
+| AA/G/F GFE | FF/E/D EDC | DA,^C DFE | D3 D2 |]
+(D//E//F//G//) \
+| AGF (((3G/F/E/)DC) | cCC Cde | fed ed^c | dDD ((9D//E//F//G//A//B//^c//d//e//) |]
+| fed ed^c | AGF GFE | gfe fed | FED EDC |
+| ff/f/f gg/g/g | aa/a/a bag | fed ed^c | d3 d2 |]
+
+%%sep 1 1 500
+
+X: 30
+T: Planxty Denis O'Conor
+C: O'Carolan
+B: O'Neill's 667
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+Q: "Spirited"
+M: 6/8
+L: 1/8
+K: Bb
+[|\
+B2B BcA | B2f fge | d2e fdB | {c}BAB cAF |\
+B2B BcA | B2f fge | d2e fdB | FGA B2z |]
+[|\
+fga | b2f gfe | d2e fdB | {c}BAB cAF |\
+f2f fga | b2b bag | f2g fdB | FGA B2z |]
+[|\
+B,DF BAB | cAF FGA | Bcd dcB | cAF EDC |\
+B,DF BAB | cde edc | f2F FGA | B3 B2z |]
+
+%%sep 1 1 500
+
+X: 31
+T: Planxty Denis O'Conor
+C: O'Carolan
+B: O'Neill's 667
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Spirited"
+M: 6/8
+L: 1/8
+K: Bb
+  B2B BcA | B2f fge | d2e fdB | {c}BAB cAF \
+| B2B BcA | B2f fge | d2e fdB | FGA B2z ||
+| f2f fga | b2f gfe | d2e fdB | {c}BAB cAF \
+| f2f fga | b2b bag | f2g fdB FGA B2z ||
+| B,DF BAB | cAF FGA | Bcd dcB | cAF EDC \
+ B,DF BAB | cde edc | f2F FGA | B3 B2z |]
+
+%%sep 1 1 500
+
+X: 32
+T: Planxty Dobbins
+C: O'Carolan
+B: O'Neill's 661
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+Q: "Moderate"
+M: 3/4
+L: 1/8
+K: G
+((3def) \
+| g2 agfe | a2 d2 d2 | ~g2 B2 B2 | e2 A2 A2 \
+| ~d2 G2 G2 | g2 fgaf | g6- | g4 ||
+|| (ga) \
+| b2 gabg | c'2 gabg | ~b2 g2 e2 | e4 (fg) \
+| a2 fgaf | b2 gabg | ~a2 f2 d2 | d4 ((3def) |
+| g2 agfe | a2 d2 d2 | ~g2 B2 B2 | e2 A2 A2 \
+| ~d2 G2 G2 | g2 fgaf | g6- | g2 z2 ||
+|| z2 \
+| GG G2 G2 | GG G2 G2 | cA A2 A2 | cA A2 A2 \
+| Bc d2 d2 | d2 e2 c2 | Bc d2 d2 | d2 e2 d2 |
+| b2 gabg | c'2 gabg | b2 gabg | ~a2 f2 d2 \
+| e4 ag | ~f2 d2 f2 | g6 | g4 ((3efe) |
+| d2 B2 A2 | e4 A2 | A2 B2 A2 | d4 G2 \
+| G2 A2 G2 | e4 ag | ~f2 d2 f2 | g4 |]
+
+%%sep 1 1 500
+
+X: 33
+T: Planxty Drew
+C: O'Carolan
+B: O'Neill's 690
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+Q: "Spirited"
+M: 6/8
+L: 1/8
+K: Gm
+(G/A/) |\
+BAG Bcd | (cd)B (AG)F | GDG G2A | BGG G2(G/A/) |\
+BAG Bcd | (cd)B (AG)F | (Gg)g (a/g/f).d | cA^F G2 |] (B/A/) |
+GDG Bcd | Ggg gaf | gfd (c/B/A).G | Fff f2(f/g/) |\
+.a(f/g/a/f/) .g(=e/f/g/e/) | .f(d/=e/f/d/) .c(A/=B/c/A/) | Ggg (a/g/f).d | cA^F G2 |]
+
+%%sep 1 1 500
+
+X: 34
+T: Planxty Drury
+C: O'Carolan
+B: O'Neill's 691
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+Q: "Lively"
+M: 6/8
+L: 1/8
+K: D
+d>ed dcB | A2G F2G | E2e efd | c2B HA2A |\
+A2f fgf | e3d c2A | f2g a2d | c2d c2B |
+AFA AFA | Bcd ecA | afa gec | d3 (d2c/d/B/) |\
+AFA AFA | Bcd ecA | afa gec | d3 d2 |]
+A |\
+A>BA GAG | FGF E2E | E2E E2G | FDG (F/G/A).F |\
+D3 d3 | efe ecA | A2A def | {a}g2f edc |
+d2d ded | BAG Bcd | c2d egf | efd cBA |:\
+d2F G2B | A2G FGA | BAe d2c | d2d d2z :|
+
+%%sep 1 1 500
+
+X: 35
+T: Eleanor Plunkett
+C:Turlough O'Carolan
+S:Various recordings
+M:3/4
+L:1/4
+K:G
+G/A/ |\
+B B A/G/ | G G a/g/ | e e e/d/ | B B A/G/ |\
+E A A/B/ | A2 :|] g/a/ | b a/g/e/d/ | e2 e/f/ |
+g g b | a b/a/g/f/ | g a/g/f/e/ | d B d |\
+e g G | B B A/G/ | E A A/B/ | A2 :|]
+
+%%sep 1 1 500
+
+X: 36
+T: Planxty Fanny Powers
+C: O'Carolan
+B: O'Neill's 673
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Lively"
+M: 6/8
+L: 1/8
+K: A
+|:\
+A2E ABc | ">"(d2c) ">"(B2A) | ">"(G2F) EFE | ">"(G2A) ">"(B2d) |\
+| cBA cde | ">"(f2B) B2A | {A}GFE EFG | A3 A2z :|
+|:\
+.e(c/d/e) .e(c/d/e) | (.A2.A) (.A2.A) | .f(d/e/f) .f(d/e/f) | (.B2.B) (.B2.B) |\
+| cde fga | gab efe | {d}cBA BcB | A3 A2z :|
+
+%%sep 1 1 500
+
+X: 37
+T: Planxty Fanny Powers
+T: Fannuidh de Paor
+T: Mrs. Trench
+R: waltz, jig
+C: O'Carolan
+B: O'Neill's 673
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Lively"
+N: Originally a lively jig, but often played as a waltz.
+N: Mrs. Trench was Miss Fanny Powers' (or Fannuidh de Paor's) married name,
+N: so it is likely that O'Carolan got the gig to play at her wedding.
+M: 6/8
+L: 1/8
+K: A
+   E \
+| "A"A2E ABc | "D"d2c "E7"B2A | G2F EFE | G2A B2d |\
+| "A"cBA cde | "D"f2B "Bm"B2A | "E7"GFE EFG | "A"A3- A2 :|
+|: e \
+| "A"ec/d/e ec/d/e | "F#m"AcA AcA | "D"fd/e/f fd/e/f | "Bm"BdB BdB |\
+| "A"cde "D"fga | "E7"gab "A"efe | cBA "E7"BcB | "A"A3- A2 :|
+
+%%sep 1 1 500
+
+X: 38
+T: Planxty Fanny Powers
+T: Fannuidh de Paor
+T: Mrs. Trench
+C: O'Carolan
+R: waltz, jig
+B: O'Neill's 673
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Lively"
+N: Originally a lively jig, but often played as a waltz.
+N: Mrs. Trench was Miss Fanny Powers' (or Fannuidh de Paor's) married name,
+N: so it is likely that O'Carolan got the gig to play at her wedding.
+M: 6/8
+L: 1/8
+K: G
+   D |\
+"G"G2D GAB | "C"c2B "D7"A2G | F2E DED | F2G A2c |\
+"G"BAG Bcd | "C"e2A "Am"A2G | "D7"FED DEF | "G"G3- G2 :|
+|: d |\
+"G"dB/c/d dB/c/d | "Em"GBG GBG | "C"ec/d/e ec/d/e | "Am"AcA AcA |\
+"G"Bcd "C"efg | "D7"fga "G"ded | BAG "D7"ABA | "G"G3- G2 :|
+
+%%sep 1 1 500
+
+X: 39
+T: Frank Palmer
+R:air, waltz
+C:Turlough O'Carolan
+S:https://tunearch.org/wiki/Frank_Palmer
+S:https://www.youtube.com/watch?v=5_McqvrbJAw
+B:Holden's "Collection of Old-Established Irish Slow and Quick Tunes", Dublin 1806-7
+N:No other references seem known before 1958.
+L:1/8
+M:6/8
+K:C
+|:\
+G2c cdc | BGA Bcd | efg abc' | b3g3 |\
+f2a ac'a | e2g gag |
+fef gBG | c3 c3 ::\
+e2f gag | d2e fgf | c2d efe | d2cB2G |\
+cAF FAF |
+c3 c3 | dBG GBG | g3e3 |\
+fga abc' | bd'g ece | f/g/ad BGB | c3 c3 :|
+
+%%sep 1 1 500
+
+X: 40
+T: Planxty George Brabazon
+T: The Isle of Skye
+C: O'Carolan
+B: O'Neill's 657
+B: RSCDS 10-7 (in Bb) as "The Isle of Skye"
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+ge \
+| "G"d2G2 (cB)AG | d2G2 (cB)AG | "Am"e2A2 (AB)cd | e2A2 "D7"(AB)cd |
+y4 \
+| "G"(ed)cB "(C)"g2fe | "G"(ed)cB "(C)"(cB)AG | "G"(BA)GE "D7"(DE)GA | "G"B2G2 G2 :|
+|: (ga) \
+| "G"b2(gb) "D"a2(fa) | "Em"g2(eg) "(C)"(ed)cB | "Am"e2A2 (AB)cd | e2A2 "D7"A2 (ga) |
+y4 \
+| "G"b2(gb) "D"a2(fa) | "Em"g2(eg) "(C)"(ed)cB | "Am"(cB)AG "D7"(DE)GA | "G"B2G2 G2 :|
+
+%%sep 1 1 500
+
+X: 41
+T: Planxty George Brabazon
+T: The Isle of Skye
+C: Turlough O'Carolan
+M: C|
+L: 1/8
+Z: id:hn-carolan-17
+K: G
+|: ge |\
+"G"d2G2 "Am"cBAG | "G"d2G2 "Am"cBAG | e2A2 ABcd | edcB A2Bc |
+"G"d2cB g2fe | "Am"edcB "C"cBAG | "G"BAGE "D"DEGA | "G"B2G2 G2 :|
+|: ga |\
+"G"b2gb "D"a2fa | "Em"g2eg edcB | "Am"e2A2 ABcd | edcB A2ga |
+"G"b2gb "D"a2fa | "Em"g2eg edcB | "C"cBAG "D"DEGA | "G"B2G2 G2 :|
+
+%%sep 1 1 500
+
+X: 42
+T: Planxty Hugh O'Donnell
+C: O'Carolan
+B: O'Neill's 682
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Animated"
+N: O'Neill has a repeat at the beginning but not the end of the second part.
+M: 6/8
+L: 1/8
+K: C
+G \
+| G2c cdc | B2c d2f | e2A AcA | d2G GBG |\
+| c2G cBA | G3 g3 | ece ece | f3 a3 |
+| g>ag ece | f>gf dBd | e>fe cAc | d>ed BGB |\
+| c2G cBA | G3 g3 | fed cdB | c3 c2 :|
+|: c \
+| (.g2.c) (.g2.c) | agf edc | Bdd ded | Bdd ded |\
+| cee efe | ABc BAG | ABc Bcd | ABc dBG |
+| g2g a2a | b2b c'3 | c'2g c'2f | c'2e dd'c' |\
+| bag gag | gfe dgf | edc dcB | c3 Hc2 |]
+
+%%sep 1 1 500
+
+X: 43
+T: Planxty Irwin
+C: O'Carolan
+B: O'Neill's 677
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+Q: "Spirited"
+M: 6/8
+L: 1/8
+K: D
+A \
+| d2c Bcd | A2G FED | G2E FGA | C2D E2c |\
+| d2c Bcd | A2G FED | G2E FGA | D2C D2 :|
+|| A \
+| d>ed d2d | e2e ecA | (A<f)f e2d | dcB ABc |\
+| d2c Bcd | A2G FED | G2E FGA | D2C D2 :|
+
+%%sep 1 1 500
+
+X: 44
+T: Planxty Johnston
+C: O'Carolan
+B: O'Neill's 656
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Lively"
+M: 6/8
+L: 1/8
+K: D
+[|\
+d2d dcB | A2G F2G | E2A D2d | {d}c2B A2a |\
+f2e d2e | f2g a2b | a2f d2e |
+c2d e2f |\
+ecA ecA | B2c d2e | d2d {f}edc | d3 d2z |[|\
+afg a2f | c2d ebc' |
+d'2b c'2a | b2g efg |\
+a2a aba | f2f fgf | ded c2d | ecA ABc |\
+dcB AGF |
+G3- GAG | e2e efe ecA A2z |\
+faf gbg | faf geg | fdf ecA | d3 d2z |]
+
+%%sep 1 1 500
+
+X: 45
+T: Planxty Lady Athenry
+C: O'Carolan
+B: O'Neill's 686
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+R: jig, waltz
+N: "Lively"
+M: 6/8
+L: 1/8
+K: G
+[|\
+  B3 G2B | d2D GFE | A2G {G}F2E | D2d ded |\
+  BcB A2G | F2A d2A | B3 G2B | A2F D3 |
+| B,2C D2E | D2G FGA | B2D A2F | G2E CGE |\
+  d2e dBG | c2D A2F | D2G G2F | G3 G2 |]
+(B/c/) |\
+  d2B G2e | d2c B2c | d2g gbg | f2d a2f |\
+  d2g gbg | faf e2d | d2f faf | gfe dcB |
+| c3 c2d | efg efg | f2d d2e | fga fga |\
+  gfe dcB | cBA ABc | d2D A2F | G3 G3 |]
+
+%%sep 1 1 500
+
+X: 46
+T: Planxty Lady Wrixon
+C: O'Carolan
+B: O'Neill's 675
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+Q: "Lively"
+M: 6/8
+L: 1/8
+K: Gm
+e |\
+d2G B2G | d2G d=ef | c2F A2F | c2F ABc |\
+d2G B2G | d2G d=ef | c2A f2A | (G/A/B).G G2 :|
+|| (d//=e//^f/) |\
+gz g afd | gz g afd | fz f =ege | f3 d2f |\
+=ege dfd | c=ec BdB | AcA AfA | (G/A/B)A G2 |]
+
+%%sep 1 1 500
+
+X: 47
+T: Planxty Madame Maxwell
+C: Turlough O'Carolan
+R: reel
+M: 2/4
+L: 1/16
+Z: John Chambers, based on several O'Neill versions and a Richard Robinson transcription.
+K: D
+|: ABA2 AFD2 | F2A2 A2d2 | cde2 def2 | efg2 f2e2 |\
+   d2A2 GFED | G2B2 B2d2 | c2A2 e2dc | d4-  d2z :|
+   a2d2 a2d2 | g2b4 ag   | f2d2 a2gf | g2e4 g2   |\
+   fga2 gab2 | a2g2 f2e2 | Td4  e2d2 | c2A4 Bc   ||
+   d4   cBAG | F2D4 d2   | cde2 fed2 | c2A4 Bc   |\
+   dcBA BAGF | G2B4 A2   | BAGF AGFE | D4-  D2z  |]
+
+%%sep 1 1 500
+
+X: 48
+T: Planxty Mary O'Neill
+C: O'Carolan
+B: O'Neill's 662
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+Q: "Animated"
+M: 6/8
+L: 1/8
+K: D
+A |\
+dAG F2D | (E/F/G).E F2D | dAG ~F2D | ECE GFE |\
+dAG F2D | (E/F/G).E F2D | GAB =cBA | GE=C E/F/GE ||
+f2d (d/e/f)d | afd (e/f/g).e | f2d (d/e/f)d | gec efg |\
+fed edc | d=cB cBA | GAB =cBA | GE=C (E/F/G)E ||
+FED {F}d2D | FED {F}d2D | FED {F}d2D | GEC (E/F/G)E |\
+FED d2D | e2A f2D | g2A f2D | GE=C (E/F/G)E |]
+
+%%sep 1 1 500
+
+X: 49
+T: Planxty Miss Burke
+C: O'Carolan
+B: O'Neill's 672
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+Q: "Lively"
+N: The second section has a repeat at the end but not at the beginning.
+M: 6/8
+L: 1/8
+K: D
+|:\
+d2d ded | (c<e)z efg | {g}fed fed | (f<a)z z3 |\
+a2f {a}gfe | dcB ABc | dFA dFA | d3 d2 :|
+A |\
+(fa/b/).a {a}gfe | d2A d2A | bag fed | (c<e)z z2e |\
+.a(f/g/a) .b(g/a/b) | .a(f/g/a) geg | {g}fed {B}cAc | d3 d2 :|
+
+%%sep 1 1 500
+
+X: 50
+T: Planxty Mrs. O'Conor
+C: O'Carolan
+B: O'Neill's 666
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+Q: "Spirited"
+M: 6/8
+L: 1/8
+K: G
+[| G2G FED | E2F G2A | B2G c2A | B2G c2A |\
+|: Bcd EFG | ABG FED | EFG AFD | G3 G2A :|
+%  Bcd EFG | ABG FED | EFG AFD | G3 G2z |
+[| d2d def | g3 g3 | B2B Bcd | e3 e3 |\
+|: dcB c2e | d^cd D2D | EFG AFD | G3 G2z :|
+%  dcB c2e | d^cd D2D | EFG AFD | G3 G3 ||
+[| BGE EGE | AFD DFD | EFG ABG | F3 D2 |\
+|: ded dBG | efe efg | dcB AGF | G3 G2z :|
+%  ded dBG | efe efHg | dcB AGF | G3 G2z |]
+
+%%sep 1 1 500
+
+X: 51
+T: Planxty Nancy Vernon
+C: O'Carolan
+B: O'Neill's 676
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+Q: "Spirited"
+M: 6/8
+L: 1/8
+K: A
+e |\
+c2A (F>EF) | E3 (EFA) |1 B2B (BAF) | (ABc) (d2e) :|2 B2d c2B | BAA A2 ||
+c |\
+e2c A2c | d3 d2c | (d2e) f2e |  edc B2c | f2e edc | B3 c2B |
+BAF F2E | EFA HB2e || c2A (F>EF) | E3 (EFA) | B2d c2B | BAA A2 |]
+
+%%sep 1 1 500
+
+X: 52
+T: Planxty O'Carolan
+C: O'Carolan
+B: O'Neill's 668
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+Q: "Moderate"
+M: 6/8
+L: 1/8
+K: G
+G |\
+B2c dcB | cBA (B/c/d)z | e3 dcB | cBA (B/c/d)z |\
+g3 fed | (d/e/=f2) edc | (c/d/e2) dcB |
+ABG F2 |]| d |\
+GAB cde | =fed e2G | E2G (F/G/A)F | (G/A/B)G Az c |\
+e2c ABc | (d/c/B)A GAB |
+c>dc cBA | B3 z2d | g>fg d>cd | B3 z2G |\
+dcB AGF | E3 c2 | BAG EAF | G3 z2 |]
+
+%%sep 1 1 500
+
+X: 53
+T: Planxty O'Daly
+C: O'Carolan
+B: O'Neill's 688
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Spirited"
+N: The turn in bar 3 is above the dot in O'Neill.
+M: 6/8
+L: 1/8
+K: Gm
+(A/G/) \
+| FDD FDC | DGG G2A | ~B3 GBd | {d}cAG F2((3c/d/=e/) |
+| fFF AFF | cAG (F>GA/c/) | d2{ed}^c (d>cA/d/) | =cA^F G2 ||
+((3d/=e/^f/) \
+| g^fg G2(B/d/) | g^fg (G>cd/=e/) | f=ef F2(A/c/) | fcA F2 (G/A/) |
+| {c}BAB B,2=B | {d}c=Bc A2 (B/c/) | d2{ed}^c (d>cA/d/) | =cA^F G2 |]
+
+%%sep 1 1 500
+
+X: 54
+T: Planxty O'Flynn
+C: O'Carolan
+B: O'Neill's 669
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+Q: "Spirited"
+M: 6/8
+L: 1/8
+K: G
+G \
+| GDG G>AG | {G}FDF G2A | (B/c/d).B (c/d/e).c | Bdd g2a |
+| gfe dcB | (c/B/c/d/e/c/) ABA | F2D A(F/G/A) | G3 G2 ||
+|| D \
+| DB,D DB,D | (EC)C (EC)C | (F/G/A).A A>(BA/G/) | FDd d2c |
+| BAG GgG | GgG ecA | (B/c/d).d d>(ed/c/) | B(c/B/)(A/G/) AFD |
+| GEC CEC | DFD dcB | (c/d/e).A FDF | G3G2 |]
+
+%%sep 1 1 500
+
+X: 55
+T: Planxty O'Kelly
+C: O'Carolan
+B: O'Neill's 674
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+Q: "Lively"
+N: First phrase is 10 bars.
+M: 6/8
+L: 1/8
+K: G
+| G2G G2A | B2c d2B | d2e f2g | {b}a2g {g}fed | b2a {a}g2f |
+| {a}g2f {f}e2d | e2f {a}g2e | dec BcA | G2g gaf | g3 g3 :|
+|: (G2g) g2z | (G2g) g2a | (g/a/b).a {a}g2f | {a}g2f {f}e2d |
+| e2f {a}g2e | dec BcA | G2g gaf | g3 g2z |]
+
+%%sep 1 1 500
+
+X: 56
+T: Planxty O'Neill
+C: O'Carolan
+B: O'Neill's 683
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Animated"
+N: collected by J.O'Neill
+N: There are some very unclear slurs in my copy of O'Neill's.
+M: 6/8
+L: 1/8
+K: D
+A>FD DA,D | (F/G/A).B AFD | GFE {G}FED | B>(Bc/d/) ecA |
+| (d/f/e/d/c/e/) (d/c/B/A/G/)F/ | G/(A/G/F/E/)D/ CB,A, | .D(DE) FGA | .E(EF) FAB |
+| AFD dAF | BGE ecA | dAF {A}GEC | D3 D2z ||
+|| A2d ((d/c/)dc) | (B>cB/A/) GFE | (Ee).e edc | BAG F2G |
+| .A(g/e/c/e/) .d(c/d/e/d/) | .B(b/a/f/a/) .g(f/g/a/g/) | f/(e/d/c/B/A/) (G/F/E/F/G/)A/ | BEE {d}cAA |
+| (A/a/)(.f.d) (A/G/)(.E.E) | (G/F/)(.E.D) (C/B,/)(.A,.A,) | AdF {B}AGE | D3 D2z |]
+
+%%sep 1 1 500
+
+X: 57
+T: Planxty O'Reilly
+C: O'Carolan
+B: O'Neill's 665
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Animated"
+M: 6/8
+L: 1/8
+K: D
+d |\
+dcB ceG | (F2D) (.G2.E) | (F2A) ABA | (.F2.A) (A2f) |\
+fef (g2e) | fdB Bcd | (.e2.e) (.f2.d) | ecA ABc |
+d>cB f2A | d2F B2F | F>ED D2d | d3 d2 ||\
+G |\
+FDD F2D | GEE G2A | FAA A2A | FAA A2f |
+fef g2e | f2d ecA | B2c d2e | d2B AFD |\
+B2E E2E | EFE E>FA | B2B edc | d3 d2 |]
+
+%%sep 1 1 500
+
+X: 58
+T: Planxty O'Rourke
+C: O'Carolan
+B: O'Neill's 660
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+Q: "With spirit"
+N: O'Neill has two sharps, but this is clearly a typo.
+M: 6/8
+L: 1/8
+K: G
+D \
+| ">"G(G/A/B/c/) dBG | ccc (c/d/e)c | dBd (e/f/g).e | (f/g/a).f g2d |
+| .g(ab) (ab)g | (fg).e (dc).B | .c(Ad) .B(Gd) | eee f2d/d/ |
+| g>gg g(Bd) | gfg afd | eee (e/f/g).e | dBG G2D |
+| (DG).G Gz D | ">"G(G/A/B/c/) dBG | (EA).A Az E | ">"A(A/B/c/d/) ecA |
+| ddd dec | B>BB BB>A | G>GG G2A | (GFE) DDD |
+| (DEF) .G(B,D) | GFG (AFD) | d2c (B/c/d).G | (F/G/A)D G2 |]
+
+%%sep 1 1 500
+
+X: 59
+T: Planxty Scott
+C: O'Carolan
+B: O'Neill's 684
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+Q: "Moderate"
+N: collected by F.O'Neill.
+M: 6/8
+L: 1/8
+K: D
+  (D>EF/G/) A2B | ABd F>ED | EFA B2(d/e/) | .f(g/f/e/d/) B2d |
+| (D>EF/G/) A2B | ABd F>ED | .G(A/G/F/E/) .F(G/F/E/D/) | .E (E/F/G/A/) B2c |
+| (d/f/e/d/c/e/) d2(c/B/) | (B/A/G/A/B/c/) A2(B/c/) | dFd FdF | {F}EDD D2z ||
+|| dDF .d(e/d/c/B/) | A>Bd FED | eE(e/f/) e2(d/e/) | .f(g/f/e/d/) B2((3A/B/c/) |
+| dAd (d/c/d/e/f/e/) | (d/e/d/B/A/G/) F>ED | G/A/BG F/G/AF | E/F/GE F>ED |
+FAA A>FD | GBB B>cd A((F/A/)F) | G((E/G/)E) | {F}EDD D2z |]
+
+%%sep 1 1 500
+
+X: 60
+T: Planxty Toby Peyton
+C: O'Carolan
+B: O'Neill's 678
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+Q: "Lively"
+N: "1st Setting"
+M: 6/8
+L: 1/8
+K: Am
+e \
+| e/(d/c/B/A/^G/) ABA | GE^F G2d | BGB ded | eag ^f2d |
+| e^fg afa | bgb a^fa | .g(a/g/^f/e/) .d(c/B/A/G/) | (EA).A (EA).A |
+| {c}BAB GAB | gBA GAB | eAB GEG | ^GAA A2 ||
+|| G\
+| .G(A/G/)(^F/E/) DB,G, | (EA).A (EA).A | Bd.d (e/d/c/B/A/^G/) | Bee e2(e/f/) |
+| gBG gBG | Aaa a(b/a/g/^f/) | .g(a/g/^f/e/) .f(g/f/)(e/^d/) | Bee e2(e/^f/) |
+| gBG GAB | gBG GAB | eAB GEG | ^GAA A2 |]
+
+%%sep 1 1 500
+
+X: 61
+T: Planxty Toby Peyton
+C: O'Carolan
+B: O'Neill's 679
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Lively"
+N: "2nd Setting"
+N: collected by F.O'Neill.
+M: 6/8
+L: 1/8
+K: Gm
+d \
+| cA^F GA>G | FDE F>GF | DG^F (GA).c | (dg)=e f2g |
+| a>ba gag | fed edc | Af.d (cA)^F | (Gg).=e f2g |
+| (af)d (cA)^F | G3 G2 :: F | (DF).F (CF).F | (A,F).F (CF).F |
+| (Dd).d (Dc).c | (DB).B (DA).A | a>ba gag | fed edc |
+| (Af).d (cA).^F | (Gg).=e f2g | (af)d (cA)^F | G3 G2 :|
+
+%%sep 1 1 500
+
+X: 62
+T: Planxty Toby Peyton
+C: O'Carolan
+B: O'Neill's 680
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+Q: "Lively"
+N: "3rd Setting"
+N: collected by J.O'Neill.
+M: 6/8
+L: 1/8
+K: Gm
+c>AG GAG | FD=E F2d | c>AG GAc | d=eg f2c |
+| d>gg .g^f/g/a | .g(=e/^f/g) .=f(d/=e/f) | (=efed).c (d_edc).A | (cdcBAG) ^FDC |
+| D>GG GAG | ^FGA (A<=f)d | cAG ^FDF | G3 G2 :|
+|: E \
+| F>ED CB,A, | G,>GG G,>GG | Gcc (c/d/c/B/A/)G/ | Add d2=e |
+| fcA fcA | Ggg g^fg | (a/b/a/g/^f/a/) (g/a/g/=f/=e/g/) | (f/g/f/=e/d/c/) (d/_e/d/c/B/A/) |
+| fAG ^FGA | fAG ^FGA | dGG ^FDF | G3 G2 :|
+
+%%sep 1 1 500
+
+X: 63
+T: Planxty Tom Judge
+C: O'Carolan
+B: O'Neill's 685
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+Q: "Moderate"
+N: collected by Cronin.
+M: 6/8
+L: 1/8
+K: D
+c |\
+Add ded | cde (f<a)g | fed cAG | FDF GAG |
+FDg fed | cde a2g | f>de cAG | FDD D2 :|
+c |\
+Add def | AGF EDE | CAB cAG | (A/B/c).e d2D |
+(D/E/F).D (D/E/F).D | (C/D/E).C (C/D/E).C | DAG FED | CA,A, A,2A, |
+D/D/DE D/D/DE | C/C/CE C/C/CE | D/D/DB cAG | (A/B/c/d/e/f/) (g/a/g/f/.e) |
+(d/e/d/c/).B (c/d/c/B/).A | GEc GEC | D/D/Dc AdE | {F}EDD D2 |]
+
+%%sep 1 1 500
+
+X: 64
+T: Planxty Wilkinson
+C: O'Carolan
+B: O'Neill's 689
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+Q: "Spirited"
+N: Bar 12 clearly has incorrect note values.
+M: 6/8
+L: 1/8
+K: Gm
+(G/F/) \
+| DGG Bcd/=e/ | f2F FAc | (~d2c) (~B2A) | (~G2F) DCC |
+| DGG Bcd/=e/ | fed cBA | BAG (^F>GA/c/) | B2G G2 ||
+(A/G/) \
+| Fff fa/g/f/d/ | cAG F>GA | Gg^f gab | g>f=e/f/ d2(d/=e/^f/g/) |
+| a2F FAc | fed cBA | BAG (^F>GA/c/) | B2G G2 |]
+
+%%sep 1 1 500
+
+X: 65
+T: Si Bheag Si Mhor
+M: 3/4
+L: 1/8
+%Q: 225
+C: Turlough O'Carolan
+R: planxty
+S: Pgmulvaney <Pgmulvaney:aol.COM>
+Z: Probably the first tune composed by Carolan.  Si Bheag and Si Mhor are two
+Z: hills in County Leitrim associated in the local folklore with two bands of
+Z: fairies continually at war with each other.
+N: In fact, I am told, Carolan most likely arranged, but did not compose, the
+N: tune. I also believe the Faeries involved have since gone to the negotiations
+N: table, and are now making a mint in the post-peace-process-tourist-trade.
+N: PS: Sometimes referred to as "she begs for more". but never by me, of
+N: course. Must be reference to Guiness...
+K: D
+de \
+| f3ed2 | d3ed2 | B4 A2 | F4 A2 | BA Bc d2 | e4 de | f4 e2 | d4 f2 |
+| B4 e2 | A4 d2 | F4 E2 | D4 f2 | B4 e2 | A4 dc | d4 d2 | d4 :|
+|: de \
+| f3 e d2 | ed ef a2 | b4a2 | f4 ed | e4 a2 | f4 e2 | d4 B2 | A4 BA |
+| F4 E2 | D4 f2 | B4 e2 | A4 a2 | ba gf ed | e4 dc | d4 d2 | d4 :|
+
+%%sep 1 1 500
+
+X: 66
+T: Thomas Leixlip the Proud
+C: O'Carolan
+B: O'Neill's 638
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Spirited"
+M: 6/8
+L: 1/8
+K: D
+A \
+| d(f/e/)(d/c/) dAA | Afe fAA | d(f/e/)(d/c/) dAF | GAc d2A |
+| d(f/e/)(d/c/) dAA | Afe fAA | B(c/B/)(A/G/) A(B/A/)(G/F/) | GAc d2 :|
+A \
+| Add d2(f/e/) | (d/c/) (d/e/) (f/g/) afd | gfe {e}fdB | AFA HB2(c/d/) |
+| AFF BGG | AFd (B/A/) (G/F/) (E/D/) | AFd (B/A/) (G/F/) (E/D/) | EFA HB2 (c/d/) |
+| AFF BGG | AFd (B/A/) (G/F/) (E/D/) | g>fe fdB | ABc d2 |]
+
+%%sep 1 1 500
+
+X: 67
+T: Young Bridget
+C: O'Carolan
+B: O'Neill's 640
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Slow"
+M: 3/4
+L: 1/8
+K: G
+(B/d/e/f/) \
+| g2 c'b {b}ag | g4 (g>f) | e2 (gfed) | e2 ef (g>f) |\
+| ed {d}cB (A{BA}G) | ({G}F/E/F/G/) A3 G | G6 | G7/2 (c/ BA) |
+| G3 A (B>^c) | d3 (d g>f) | e2 (gf) e^d | e4 ({d}cB/A/) |\
+| (G>A) (B>c) (de/f/) | g2 (g>b) (a>g) | f2 ~e3 d | d4 (de/f/) |
+| g2 (.g.b .a.f) | g4 (f>g) | e2 (.g.f.e.d) | e3 f (g>f) |\
+| ({ef}ed) ({cd}cB) ({AB}AG) | ({G}F/E/F/G/) A3 G | G6- | G2 |]

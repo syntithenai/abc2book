@@ -1,0 +1,15 @@
+X: 653
+T: Tady's Wattle
+R: reel
+%S: s:2 b:12(6+6)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #653
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0653/oneill-1001-0653-1.abc
+M: C|
+L: 1/8
+K: G
+%%slurgraces 1
+%%graceslurs 1
+"^A"[|]\
+|: G2(BG) BddB | {d}cBcd efge | GBdG Bdgd | ecBc A2G2 "^B":| g2(3(aga) bggd | {f}edef gdBG |
+| g2(3(aga) bggd | edcB A2G2 || bgaf gfed | egfa gedB | GBAc Bdgd | ecBc A2G2 |]

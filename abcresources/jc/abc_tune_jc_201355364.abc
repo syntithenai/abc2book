@@ -1,0 +1,24 @@
+X: 1
+T: la Zone de Venus   [A]
+O: c.1755
+R: jig
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" #7
+F: http://books.google.com/books?id=ipV0y26Vq8EC
+M: 6/8
+L: 1/8
+P: Rondeau
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+"A"|:\
+"A"c3 "E"BAB | "A"E2F E2A | "A"E2A "B7"G2A | "E"B3 BAB |\
+"A"c3 "E"BAB | "A"E2F E2A | "D"Fdc "E7"B2A | "A"HA6 :|
+"B"[|\
+"A"e2a e2a | "A"cde "D"f3 | "Bm"df2 "(E7)"df2 | "E7"Bcd "(A)"e3 |\
+"A"ABA ABA | "A"ABA "E"GFE | "A"ABA "E"B2e | "A"c3 "E7"B3 "d.C."y|]
+"C"[|\
+"A"c2c cBA | "E"e2e e3 | "F#m"A2A "B7"AGF | "E"G2F E2B |\
+"A"c^de fga | "B7"^dcB A3 | "E"GFE "B7"TF3 | "E"E6 "d.C."y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

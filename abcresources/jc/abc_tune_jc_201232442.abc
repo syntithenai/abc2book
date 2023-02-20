@@ -1,0 +1,25 @@
+X: 1712
+T: POST HORN DUETTO
+C: A.F. Knight
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.171 #2
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% -------------------------
+V: 1
+|:"PRIMO"!f!\
+c2ed c2G2 | e2f2g2e2 | c2G2 c2d2 | ("^>"e4 c2)z2 !p!|\
+.d.d.d.d .d2.d2 | .e.e.e.e .e2.a2 | f2e2 d2g2 | (c3e/d/) c2z2 "^FINE"H:|
+|:\
+e2a^g a2e2 | f2^g2 a2e2 | b2e2 c'2ba | b2bb "^>"^g2ez |\
+e2a^g a2e2 | f2^g2 a2e2 | f2d2 B2^g2 | a2c'2a2z2 "^D.C.":|
+% -------------------------
+V: 2
+|:"SECONDO"!f!\
+E2GF E2G2 | c2d2e2c2 | c2G2 E2F2 | (G4 E2)z2 !p!|\
+.B.B.B.B .B2.B2 | .c.c.c.c .c2.e2 | d2c2 c2G2 | (G4 E2)z2 "^FINE"H:|
+|:\
+c2e2 c2e2 | f2f2 e2c2 | ^g2g2 a2a2 | ^g2a2 g2z2 |\
+e2e2e2e2 | f2f2 e2c2 | B2B2 d2d2 | c2e2c2z2 "^D.C.":|

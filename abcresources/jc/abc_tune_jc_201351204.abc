@@ -1,0 +1,32 @@
+X: 1
+T: the Welch Whim
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (145)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 6/4
+L: 1/4
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+e2e e>fe | e>fe e>fe |\
+f>ga e2d | c3 A3 :|\
+|:\
+cBA cBA | e3- e2e |
+cBA dBA | d3- d2e |\
+fga gad | cac Bag |\
+fba geg | a3 A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The first Man setts to his Partner and casts off then sett
+%% across with the third Couple and all four single
+%% This to the first Strain play'd twice. Then the 1st
+%% Man change Places with the second Woman and the
+%% 1st Woman with the second Man then Hands all four
+%% half round and cast off below the third Couple and lead
+%% up to the Top and cast off again. This to the Last
+%% strain play'd twice.
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,45 @@
+X: 10031
+T: SWEET HOME
+C:
+%R: march
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.3 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: This tune has only 23 bars; adding a bar of rests may be appropriate.
+N: Bar 21 of voice 2 should probably be a 3rd lower, as in similar early passages.
+M: 2/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has a staff break that gives even spacing.
+V: 1 staves=3
+G |\
+B2 c>e | d2 B>d | c>B c>A | B2 G>A |\
+B2 c>e | [d2B2] B>d | c>B c>A | G2 z[dB] |\
+g>f e>d | d2 B>d | c>B c>A |
+B3 d/e//f// |\
+g>f e>d | d2 B>d | c>B c>A | G2 z2 |\
+d2 cA | G2 A>B | B3 d | g>f e>d |\
+d2 B>d | de cF | G2 z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voices 2,3 preserve the original staff break.
+V: 2
+G |\
+G2 A>c | B2 G>B | A>G A>F | G3 G |\
+G2 A>c | B2 G>B | A>G A>F | G2 zB |\
+e>d c>B | B2 G>B |
+A>G A>F | G3 B |\
+e>d c>B | B2 G>B | A>G A>F | G2 z2 |\
+B2 AD | B,2 D>G | G3 B | e>d c>B |\
+d2 Bd | A2 F>F | G2 z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+g |\
+g2 g>g | g2 g>g | d2 d2 | g3 g |\
+g2 g>g | g2 g>g | d2 d2 | g2 zg |\
+g2 g>g | g2 g>g |
+d2 d2 | g3 g |\
+g3 g | g2 g>g | d2 d2 | g2z2 |\
+z4 | z4 | g3 g | g3 g |\
+g3 g | c2 d>d | g2 z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

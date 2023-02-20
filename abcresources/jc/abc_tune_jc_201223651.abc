@@ -1,0 +1,32 @@
+X: 74
+T: Miss Garricks Allemande
+%R: reel, march
+B: Stewart "A Select Collection of Airs, Jigs, Marches and Reels", ca.1784, p.36 #74
+F: http://imslp.org/wiki/A_Select_Collection_of_Airs,_Jigs,_Marches_and_Reels_%28Various%29
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+%%slurgraces 1
+%%graceslurs 1
+K: C
+|:\
+c'4 g2f2 | (e/f/g3) c2e2 | (d/e/f3) B2d2 | cBcd c2c2 |\
+c'4 g2f2 | (e/f/g3) c2e2 | (d/e/f3) (edcB) | c4 c4 :|\
+|:\
+G2d2B2d2 | G2e2c2e2 |
+G2 (f4 e2) | .d2.c2.B2.A2 |\
+G2d2 B2dB | G2e2 c2ec | G2f2 edcB | c4 c4 :|\
+|:\
+G6 A2 | G2F2E2F2 | G6 A2 | G2F2E2F2 |
+G2A2B2c2 | d2e2f2g2 | {f}e2ge {e}f2dB | c4 c4 :|\
+|:\
+g4 f2e2 | {g}f2{f}e2 {e}d4 | f4 {f}e2d2 | {f}e2c2 c4 |\
+g2ef e2g2 | {g}f2de {e}d2f2 |
+{f}e2ge {e}f2dB | c4 c4 :|\
+|:\
+e4 fedc | g2g2 agfe | a4 b4 | c'bc'd' c'2c'2 |\
+e4 fedc | g2g2 agfe |
+a2c'a b2d'2 | c'4 c'4 :|\
+|:\
+a4 g2f2 | e2f2g2e2 | d2e2f2d2 | cBcd c2c2 |\
+a4 g2f2 | {f}e2f2 {f}g2ec | {e}d2e2 {e}f2dB | c4 c4 :|

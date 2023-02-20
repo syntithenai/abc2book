@@ -1,0 +1,15 @@
+X: 238
+T: Jojon
+O: Armenia
+F: http://www.youtube.com/watch?v=IN_AlIt35sU
+M: 2/4
+L: 1/8
+Q:1/4=240
+K: Dm
+%%MIDI gchord f2z2
+%%MIDI program 71
+|:"D" efgz|gafz|fgez|efd2-|d2c2|f2f2|edez|d2dz :|
+  "G" eg3     |f2e2|f2f2|e2d2 |d2ef|g2g2|g2g2|f2e2 |f2f2|e2d2|z2fe|d4   |
+  a2g2    |g2f2|g2g2|f2e2 |d2ef|g2g2|g2g2|f2e2 |f2f2|e2d2|z2fe|d4   |
+|:"D"=B,CD2  |z2D2|z2D2|z2D2 |z2DG|F3D |G2G2|F2E2 |F2F2|E2D2|C3D |FED2 :|
+|:A3F     |G3F |A3F |G3F  |A3F |G3F |EFEG|D3z  :|

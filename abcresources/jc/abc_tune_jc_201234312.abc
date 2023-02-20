@@ -1,0 +1,24 @@
+X: 2041
+T: Miss Pensy McDonald's    Reel
+%R: reel
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.4 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: The beaming in bars 5,9 is a bit odd; not fixed.
+M: C|
+L: 1/8
+K: Gmix
+% - - - - - - - - - -
+V: 1 staves=2
+c |\
+BG G/G/G dBgd | BG G/G/G Tc>AFA |\
+BG G/G/G dBga | (b/a/g/f/) gd BGG :|\
+f |\
+(e/f/g) dgcg Bg | Af2c AFFf |
+(e/f/g) dg cgBg | Ag2d BGGf ||\
+(e/f/g) dgcg Bg | Af2c AFFf |\
+gefd ecdB | Ag^fa gGG |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | g2g2 g2g2 | g2g2 f2f2 | g2g2 g2g2 | d'2d2 g2g :| z | c'2b2 a2g2 | f2f2 f2f2 |
+c'2b2 a2g2 | d'2d2 g2g2 || c'2b2 a2g2 | f2f2 f2f2 | g2g2 c'2g2 | d'2d2 g2G |]

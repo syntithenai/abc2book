@@ -1,0 +1,15 @@
+X: 1
+T: Dusky Meadow
+O: Dunlay Bk.
+S: handwritten copy by B.R.McOwen in Concord Slow Scottish Session collection
+F: http://ramshaw.info/slowjamtunes/PDF/Tunes_D/Dusky_Meadow.pdf
+R: strathspey
+M: C
+L: 1/16
+K: Amix
+"^A"[| B,2 \
+| "A"A,3A E3C "G"DG,3 D3B, | "A"A,3A E3C "A7"FD3 E3C | "D"DE3 "A"CE3 "G"DCB,A, G,3B, | "E7"A,A3 E3D "A"CA,3 A,3B, |
+| "A"A,3A E3C "G"DG,3 D3B, | "A"A,3A E3C "A7"FD3 E3C | "D"DE3 "A"CE3 "G"DCB,A, G,3d | "E7"c3A edcB "A"cA3 A2 |]
+"^B"|: ^g2 \
+| "A"a3e c3A "G"BG3 G3^g | "A"a3e cA3 "A7"e3A c3A | "D"d3B "A"c3A "G"dcBA G3=g | "E7"fa3  e3d "A"cA3 A3^g |
+| "A"a3e c3A "G"BG3 G3^g | "A"a3e cA3 "A7"e3A c3A | "D"d3B "A"c3A "G"dcBA G3=g | "E7"fa2f e3d "A"cA3 A2 |]

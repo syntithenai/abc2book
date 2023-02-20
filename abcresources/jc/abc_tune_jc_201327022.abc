@@ -1,0 +1,10 @@
+X:1
+T:TEST Quarter tones
+%%scale 0.90
+K:D_/E_/B^/G^/c
+[| D_E^FG D_/E^/FG | A_B^cd A_/B^/cd | =c_BA^/G =F_ED_/C | D4 z4 |]
+%
+%%begintext
+K:D_/E_/B^/G^/c
+[| D_E^FG D_/E^/FG | A_B^cd A_/B^/cd | =c_BA^/G =F_ED_/C | D4 z4 |]
+%%endtext

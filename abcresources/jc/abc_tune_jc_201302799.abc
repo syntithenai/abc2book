@@ -1,0 +1,15 @@
+X: 72
+T: the Little Red Lark   #2
+R: air, waltz
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #72
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+N: Compacted by using labels and play order [JC]
+P: Play A2A2 BA2
+Q: "Gracefully"
+M: 6/8
+L: 1/8
+K: G
+"^A1"[|] D |  (G2A)  (GEF) | (G2A) (Bge)  |  dBG   B>AG  | E3 ({G}F2 |]
+"^A2"[| D) | .G.A.G .G.E.F | (G2A) (B<g)e | (dBG) (B>AG) | G3- "^fine"G2 |]
+"^B" [|  d | (gfg)   (edB) | (gfe) (d<g)e |  dBG   B>AG  | E3 ({G}"^->A2"F2 |]

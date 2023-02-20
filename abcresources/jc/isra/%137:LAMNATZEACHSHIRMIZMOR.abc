@@ -1,0 +1,17 @@
+X: 137
+T: Lamnatzeach Shir Mizmor
+D: Israeli Folk Dance Souvenir
+C: Dubi Zeltzer 1972
+O: Israel
+M: 4/4
+L: 1/8
+K: C
+Q: 1/4=160
+%%MIDI program 68 Oboe
+%%MIDI bassprog 32 Acoustic Bass
+%%MIDI chordprog 24 Acoustic Guitar
+%%MIDI bassvol 50
+%%MIDI chordvol 50
+"C"C2 CD E2 E2|E2 EG "Dm"F4 |D2 DF "C"E4    |[1 C2C2 "Dm"D4 :|[2C2C2 D2 "C"C2|z8|
+z2 E2 "G"G4   |"Am"A4 "G"G4 |"Am"z2 E2 "G"G4|"Am"A4 "G"G4   |
+z2 GF "C"E2 E2|G2 E2 "Dm"D4-|D4 G4-         |"G" G4 z4      |

@@ -1,0 +1,33 @@
+X: 1
+T: Pope Joan
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.188
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+B4 (G2AB) | A4 ^F2A2 | c3c d2e2 | B3B A2(Bc) |\
+B3A (G2AB) | A4 (G^F)A2 | (Bc)d2 d2=e^f | g6 |]
+[| ga |\
+b2(ag) f2(ed) | c2B2 A2g2 | (gf) (fd) (cd) (cB) | (AB) (AG) ^F2 (ga) |\
+b2(ag) f2(ed) | c3B (AB) (cd) | B2(AG) A2^F2 | G6 |]
+[| A2 |\
+B3A B2c2 | d2e2 c2A2 | B3A B2c2 | d2e2 c2A2 |\
+B3A B2c2 | d2e2 c2(BA) | B2(AG) A2^F2 | G6 |]
+[| A2 |\
+B2(AG) A2^F2 | G2B2 A2c2 | B2(AG) A2^F2 | G2B2 A2(A/B/c) |\
+B2(AG) A2^F2 | G2B2 A2c2 | B2(AG) A2^F2 | G6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The two men take hands and lead through the two we. and come into their own places, the two men turn sides once into their
+%% own places .| The two we. do the like :| The two men go the Figure through the two we. till they come into their own places .|
+%% The two we. do the like :| Then the 1. cu. cross over and turn his Partner till he come to his own side, the 2. cu. do the like :|
+%% The 1. cu. meet and set, the wo. slip down the middle, the man cast off and meet her in the 2. cu. place and turn her,
+%% the other cu. do the like, then 1. cu. cast off into the 2. cu. place :|
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

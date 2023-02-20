@@ -1,0 +1,8 @@
+X: 1
+T: TEST: French Violin Clef
+M: 3/4
+L: 1/8
+K: C
+V: 1 name="Violin 1" clef=treble middle=d
+[| CDE FGA | Bcd efg |]
+w: C D E F G A B c d e f g

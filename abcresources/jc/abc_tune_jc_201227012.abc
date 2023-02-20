@@ -1,0 +1,27 @@
+X: 10571
+T: MERRY GIRL
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.57 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 1/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+E2 |\
+A2A2 ABcA | BABc B2B2 | cdef edcB | ABcA E2 FG |\
+A2A2 ABcA | BABc B2f2 | fedc edcB | A2A2A2 :|
+|: e2 |\
+aecA Acec | dBGB E2E2 | C2EE A2cf | aecA E2e2 |\
+aecA Acec | dBGB E2e2 | fgaf edcB | A2A2A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=D
+E2 |\
+A2A2 A2A2 | D2D2 D4 | E2E2 E2E2 | A2A2 A4 |\
+A2A2 A2A2 | D2D2 D4 | E2E2 E2E2 | A2A2A2 :|
+|: E2 |\
+A2E2 A2E2 | B2E2 B2E2 | A2e2 c2A2 | E2Ac e4 |\
+A2E2 A2E2 | B2E2 B2c2 | d2d2 e2E2 | A2A2A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,28 @@
+X: 1
+T:Beaux of London City
+S:Bacon (MDT)
+N:
+H:abcTranscriber: Alex Boster <boster@acm.org>
+A:Badby
+O:English
+R:
+P:${1}\over{2}$A(AB)$^5$
+%P:A(AB)5
+K:A
+M:6/8
+L:1/8
+P:A
+ |: A2 B c2 A | dec ABc |\
+M:9/8
+L:1/8
+ d2 c BGE A3 :|
+P:B
+M:9/8
+L:1/8
+ |: e2 c B2 A c2 e | A2 A B2 c d3 |\
+M:6/8
+L:1/8
+ e2 c d2 B | AGF EAc |\
+M:9/8
+L:1/8
+ edc dcB A3 :|

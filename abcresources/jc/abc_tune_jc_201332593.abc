@@ -1,0 +1,914 @@
+X:1
+T:BEWARRP1- Tak Tent to the Rippells Gudeman
+S:Atkinson MS, 1694
+Q:1/4=120
+L:1/4
+M:3/4
+K:F
+F|DFF|Adc|Ac/A/ G/F/|G2F|DFF|d/e/ f/e/ d/c/|AFF|F2||\
+f|dfe|dgf|dcA|GAc|d3/2c/d|fcd|AFF|F2|]
+
+X:2
+T:BEWARRP2- The Rippels
+S:Walsh's 24 Country Dances for the Year 1736
+Q:1/4=120
+L:1/8
+M:6/8
+K:A mixolydian
+A|FAAf2e|dBBB2A|FAA fed|cAAA2::a|fef aef|\
+fed Bde|fef aef|dAAA2:|]
+
+X:3
+T:BEWARRP3- Beware of the Ripples
+S:Oswald's CPC, bk. 11, c 1759
+Q:1/4=120
+L:1/8
+M:6/8
+K:F
+F|DFFd2c|BGGG2F|DFF dcd|BFFF2||\
+c|dcd fce|dcB GBc|dcd fcd|AFFF2|]
+
+x:4
+T:TAILTDL1- Fiddle Faddle [Tail Toddle]
+S:Walsh's Caledonian Country Dances, I [c 1734]
+Q:1/4=120
+L:1/8
+M:C|
+K:D mixolydian
+G/G/G BGc2GE|G/G/G BGA2FD|G/G/G BG cA BG|A/B/c B/c/dA2FD||\
+c2GE Ec GE|c2GE DA FD|c2GE Ec GE|A/B/c/A/ B/c/d/B/A2FD||\
+G/G/G BG cA BG|G/G/G BG AD FD|G/G/G BG cAA BG|\
+A/B/c/A/ B/c/d/B/A2FD||\
+c2Ec Ec GE|c2E/c/B/c/ DA FE/D/|c2Ec Ec GE|\
+A/B/c/A/ B/c/d/B/A2FD|]
+
+X:5
+T:TAILTDL2- Lasses gar your tails toddle
+S:G. Skene MS, c 1715. NLS MS Adv. 5.2.21
+Q:1/4=120
+L:1/8
+M:C
+K:A mixolydian
+ddfde2cA|ddfd gefd|ee f/g/ae2cA::ddfdg2dB|\
+ddfd c/d/e cA|ddfd gefd|ee f/g/ae2cA:|]
+
+
+X:6
+T:TAILTDL3- Taill Todle
+S:Gairdyn MS. c 1710-35. NLS MS 3298
+Q:1/4=120
+L:1/8
+M:C
+K:A mixolydian
+d/d/d fd gefd|d/d/d fde2cA|d/d/d fd gefd|e/f/g f/g/ae2cA::\
+g2dB BgdB|g2dB AecA|g2dB BgdB|e/f/g f/g/ae2cA:|]
+
+X:7
+T:TAILTDL4- Little wat ye wha's coming
+S:Scots Musical Museum #572
+Q:1/4=120
+L:1/8
+M:C
+K:D mixolydian
+G/ G3/2 G B c2 G E|G/2 G3/2 B G A2F D|\
+G/2 G3/2 G B cA B G|A c B d A2 F D||\
+d d A F F d A F|d d A F E A G E|\
+d d A d c A B G|A c B d A2 F D|]
+
+X:8
+T:TAILTDL5- The Chevalier's Muster-Roll
+S:James Hogg's 'Jacobite Relics', I, p. 151, 1819
+Q:1/4=120
+L:1/8
+M:C
+K:D
+G/2 G3/2 B G c2 G E|G/2 G3/2 B G A2F D|\
+G/2 G3/2 B G (cA) B G|A c B d A2 F D||\
+=c c G E E c G E|=c c G E D A F D|\
+=c c G E E c G E|A c B d A2F D|]
+
+X:9
+T:MODWARK1- Mowdewort
+S:Walsh's Caledonian Country Dances, III, c 1740
+Q:1/4=120
+L:1/8
+M:6/8
+K:DM
+f|cAF GAc|d2GG2f|cAF ABG|F2DD2f|cAF GAc|dcA GAc|dcA cAG|\
+G2DD2::z|fcf gcg|aca gcg|fcf gcg|a2AA3|cc3/2f/ fed|gAg gab|\
+afd ge^c|d2DD2::fgf fed|gag gfe|fga gab|a2AA3|fgf fed|gag gab|\
+afd ge^c|d2DD2:|]
+
+X:10
+T:MODWARK2- Scotch Jig [Mowdiewart]
+S:Oswald's CPC, bk. 4, c 1752
+Q:1/4=120
+L:1/8
+M:6/8
+K:Em
+g|dBG ABd|e2AA2g|dBG ABd|e2EE2g|dBG ABc|\
+BAB GAB|cBA dcB|e2EE2::f|gag gfe|aba agf|\
+gfg aga|b2GG2f|gag gfe|aba agf|bag agf|e2EE2:|]
+
+X:11
+T:KNDDEAR1- My Ain Kind Deary
+S:Daniel Wright coll'n of c 1730 without title page
+Q:1/4=120
+L:1/8
+M:C
+K:G
+A|GEDEG2AB|G/A/B ~A3/2G/ AEEA|GEDEG2Gg|e2d3/2B/ dGG::g|\
+e/e/e ~d3/2B/ dGGB|A/A/A ~B3/2G/ AEEA|GEDEG2Gg|\
+e/e/e ~d3/2B/ dGGg|e/e/e gd eBgB|A/A/A B3/2G/ AEEA|\
+GEDEG2Gg|e/e/e ~d3/2B/ dGG:|]
+
+X:12
+T:KNDDEAR2- The Lee Rigg
+S:Oswald's CPC, bk. 8, c 1756.
+Q:1/4=120
+L:1/4
+M:C|
+K:A
+~c3/4B/4|AEEF|A2Ac|~B3/2A/Bc|AFFc/B/|AEEF|A2Aa|\
+~f2a/f/e/c/|eAA::e|f3/2a/fe/c/|e3/2f/ e/c/B/A/|\
+B3/2c/ e/c/B/c/|AFF~c/B/|AF/E/EF|A3/2B/ c/B/c/e/|\
+f2a/f/e/c/|eAA:|]
+
+X:13
+T:WNTNTHG- My Wife's a wanton Wi Thing
+S:Mitchell's Highland Fair, 1731
+Q:1/4=120
+L:1/4
+M:6/4
+K:D
+d2AA(B/c/)dA|d3A2B|=c3/2d/ccGE|=c3=C2^c|d2AB/c/dA|\
+d3A2G|FDFECE|(D3D2||F/G/|A3/2B/AFDF|A3F2E/F/|\
+G3/2A/AECE|G3E2F/G/|A3/2B/AFDF|A3a2g|fdfece|(d3d2)|]
+
+X:14
+T:DANTDVY- Dainty Davie
+S:Dancing Master, 1701
+Q:1/4=120
+L:1/4
+M:C|
+K:Dm
+f|c3/2B/AG|F(E/D/)F2|Fc(A/B/)(c/A/)|FcAf|c3/2B/AG|\
+F(E/D/)F3/2e/|(f/e/)(f/d/)e(d/^c/)|d2d::e|\
+f/g/af/g/a|f/g/aag/f/|e/f/ge/f/g|e/f/ggf/e/|f/g/af/g/a|\
+f/g/aag/f/|(g/f/)(e/d/)e(d/^c/)|d2d:|]
+
+X:15
+T:BNYMAY- Bonnie May
+S:Scots Musical Museum
+Q:1/4=120
+L:1/8
+M:C
+K:Dm
+(FG)|A2A G A2d d|c2G3/2 G/G2FG|A/ A3/2 A Af2e d|\
+e6A2|f2e d e2 (dc)|d3 cG2Ac|d3c A3/2 G/ A c|d4|]
+
+X:16
+T:LNXLV1- Lenox Love to Blanter
+S:Sinkler MS, via Glen's ESM, key sig., timing, corrected
+Q:1/4=60
+L:1/4
+M:C
+K:F
+A/|F/4F/4F/ F/G/ A3/4G/4F/A/|G/4G/4G/ B/c/ d/c/d/f/|\
+F/4F/4F/ F/G/ A3/4G/4F/A/|G3/4E/4F/C/DC/::f/|\
+c/4c/4c/ c/f/ a3/4g/4f|g3/4f/4g/a/ g3/4f/4d/4f3/4|\
+c/4c/4c/ c/f/ a3/4f/4g3/4f/4|a3/4f/4g/f/4f/4gf/4:|]
+
+X:17
+T:LNXLV2- Lenox Love to Blantyre
+S:from The Merry Medley, II, 1745
+Q:1/4=60
+L:1/4
+M:C|
+K:F
+D/|F/4F/4F/ G/G/ A3/4G/4F/A/|G/4G/4G/ G/A/ d3/4c/4d/f/|\
+F/4F/4F/ F/G/ A3/4G/4F/A/|GA/G/F/DC/::d/|\
+c/d/f/g/ a/f/g/a/|g/f/g/a/ g/f/c/f/|\
+c/f/a/f/ g/c/b/f/|g/c/b/f/ gf/:|]
+
+X:18
+T:HETILT- He tilt & she tilt
+S:from Oswald's CPC, bk. 9
+Q:1/4=60
+L:1/4
+M:C
+K:F
+xA/F/af/d/|cA/F/ E/G/G|cA/F/af/d/|cA/F/ D/F/F::\
+c'a/f/ d'b/g/|ag/f/ e/g/g|ba/f/d'b/g/|a/f/a/f/ c/f/f::\
+(A/4B/4c/) A/F/ f/a/~g|f/d/c/A/ f/A/~G|\
+(A/4B/4c/) A/F/ f/a/g/f/|d(c/4A/4G/4F/4) D/F/F::\
+a/4b/4c'/ a/f/ b/d'/c'|b/a/g/f/ (e/4f/4g/)c|\
+b/4c'/4d'/ a/f/ b/d'/c'/b/|~a g/f/ c/f/ f:|]
+
+X:19
+T:HADIWAT- Had I the Wate she bade me
+S:Oswald's CPC, bk. 7
+Q:1/4=60
+L:1/4
+M:C
+K:G
+d3/4B/4G3/4B/4 d3/4B/4G3/4B/4|d3/4B/4G3/4g/4 ~fd3/4f/4|\
+e3/4^c/4A3/4c/4 (e/4d/4^c/4B/4 A/c/|\
+e/4e/4e/ e3/4f/4 f (a/4g/4f/4e/4)|\
+d3/4B/4G3/4B/4 (d/4c/4B/4A/4) G/B/|\
+d/4d/4d/ d3/4e/4 ~fd/(f/4g/4)|\
+a/f/g/e/ f/d/B/a/|A/4A/4A/ B3/4d/4eg:|]
+
+X:20
+T:JANDMJ- John Anderson, My Jo
+S:from Alex. Stuart's Musick.. for TTM, c 1726
+Q:1/4=120
+L:1/4
+M:C|
+K:Am
+A3/4G/4|EAAA/B/|c3/2 d/cd/c/|B3/2 A/GG|G2G(E/D/)|E(AA)A/B/|\
+c3/2 d/cc/d/|e3/2 d/ (c/B/c/d/)|e2eg/f/|e(e/4f/4)g/ c3/2 d/|\
+(c/d/e/f/)gd/c/|B3/2 A/ G/A/B/c/|d2dc/d/|e(d/c/)c(d/e/)|\
+(f/e/)(d/c/)B(A3/4^G/4)|(A/B/)(c/d/) e/d/c/B/|A2A|]
+
+X:21
+T:STMPIE1- Jockey has gotten a wife (mistitled)
+S:Female Parson, 1730 (Tune is "Butter'd Peas")
+Q:1/4=120
+L:1/4
+M:C|
+K:F
+Bc2B/A/|Bd3|Bc2B/A/|BG3|Bc2B/A/|Bd2c/B/|A/B/c/A/ G/A/B/G/|\
+AF3|AB2d/e/|f/d/c/B/f2|Bc2B/A/|BA3|Ac2d/e/|f/e/c/A/f2|\
+A/B/c/A/ B/c/B/B/|AF3|]
+
+X:22
+T:STMPIE2- Butter'd Pease
+S:Boarding School & Achilles, 1733
+Q:1/4=120
+L:1/4
+M:C|
+K:F
+Ac2B/A/|Bdd2|Ac2B/A/|BAG2|Ac2B/A/|Bdd2|AcG/A/B|Aee2||Ac2d/e/|\
+f/e/f/g/ f2|Ac2B/A/|BGG2|Ac2d/e/|f/e/f/g/ e2|AcG/A/B|AFF2|]
+
+X:23
+T:STMPIE3- The Reel o' Stumpie
+S:SMM #457
+Q:1/4=120
+L:1/4
+M:C
+K:D
+F/ A/ de/ d/4c/4 d|F/ A/ c3/4 f/4 e/ E/ E/ G/|\
+F/ A/ d// f/ {f}e/ d/4c/4d|F/4 A3/4 E3/4 G/4 F/ D/ D/||\
+G/|F3/4 G/4 A/ F/ G3/4 A/4 B/ G/|\
+F3/4 G/4 A/ F/ G/ E/ E/ G/|F3/4 G/4 A/ F/ G3/4 A/4 B/ G/|\
+F3/4 A/4 E3/4 G/4 F/ D/D|]
+
+X:24
+T:BLUBLLS - The Blue Bells of Scotland
+Q:1/4=120
+L:1/8
+M:C
+K:Eb
+B|e2d cB2c (d/e/)|G G A F E3B|e2d cB2c (d/e/)|\
+G G A FE2zB|G3/2 E/ G B e2 d/e/|d B c =AB3(c/ d/)|\
+e2d c B3/2 B/ (c d/e/)|G3/2 G/ A F E3B|G3/2 E/ G B e2 c (d/e/)|\
+d B (d/c/) (B/=A/)B3 (c/ d/)|e2d c B3/2 B/ (c d/e/)|\
+G3/2 G/ A F E2|]
+
+X:25
+T:WHTCOKDA- The White Cockade
+S:Rutherford's 2nd selection of 200 CD's, c 1764
+Q:1/4=120
+L:1/4
+M:C|
+K:G
+G/A/|BBc/B/A/G/|Bd2e|dBc/B/A/G/|BA2G/A/|BBc/B/A/G/|\
+ABg3/2a/|b/a/g/e/ d/e/g/e/|dBB::B/c/|\
+dBgB|dB2B/c/|dBgB|aA2G/A/|BBc/B/A/G/|\
+ABg3/2 a/|b/a/g/e/ d/e/g/e/|dBB:|]
+
+X:26
+T:WHTCOKDB- The Ranting Highland Man
+S:Aird's Airs, I, c 1778
+Q:1/4=120
+L:1/4
+M:C
+K:G
+G/A/|BBBA/G/|BBBg|BBBA/G/|A/G/A/B/AG/A/|BBc/B/A/G/|\
+ABgf/g/|ag/f/gf/e/|dBB::B/c/|dBgB|ddde|dc/B/gf/g/|\
+aAAG/A/|BBc/B/A/G/|ABgf/g/|ag/f/gf/e/|dBB:|]
+
+X:27
+T:WHTCOKDC- Ranting Highland Man (different from A, B)
+S:R. Bride's 24 CD's for 1769
+Q:1/4=120
+L:1/8
+M:C|
+K:A
+e|A/A/A cA ~c3/2B/Ac|B/B/B =GB =gBBc|\
+A/A/A eA ~c3/2B/Ac|B/B/B {a}gf/g/ aA A::\
+f/g/|aefd cdec|B/B/B =GB gB Bf/g/|\
+aefd cdec|B/B/B {a}(~g3/2f/4g/4) aA A:|]
+
+X:28
+T:SHULE1- Air - I wish I were on yonder hill
+S:Stevenson & Moore's 'Irish Melodies', #9, 1825
+Q:1/4=60
+L:1/4
+M:C
+K:Am
+E/|ccB3/2B/|AA/G/E3/2E/|G3/2E/ G/A/ c3/4B/4|\
+{A}G3/2E/DC/D/|E3/2D/ C3/4D/4 E/F/|\
+G3/4A/4 G/E/{E}c3/2B/|A3/4B/4 A/G/ E3/4D/4 E/G/|\
+A3/4^G/A2|c2B2|A3/2G/E3/2G/|G3/2E/ G/A/ c/B/|\
+{A}G3/2E/Dz/D/|E3/2D/ C3/4D/4 E/F/|G3/4A/4 G/E/c3/2B/|\
+A3/4B/4 A/G/ E3/4D/4 E/G/|A3/2^G/{G}A3/2|]
+
+X:29
+T:SHULE2- Shule Arun (Song- I wish I were on yonder hill)
+S:Hornecastle's 'Music of Ireland', 1844
+Q:1/4=60
+L:1/4
+M:C
+K:Cm
+B|eedd|c3/2B/G3/2E/|B3/2G/ B/c/ e/d/|c/BG/FE/F/|\
+G/A/ G/F/ E/F/ G/A/|B/c/ B/G/ ee/d/|c3/4d/4 c/B/ G/F/ G/=B/|\
+c2z2|e2d2|c3/2B/Gz|B3/2G/ B/c/ e/d/|c/BG/FE/F/|\
+G3/4A/ G/F/ E/F/ G/A/|B/c/ B/G/ee/d/|c3/4d/4 c/B/ G/F/G/=B/|\
+c2z|]
+
+X:30
+T:BEDLAM- Black's Lamentation, The
+S:single sheet song with music, c 1730-40
+Q:1/4=60
+L:1/4
+M:3/4
+K:Am
+e/d/ c/ B/A|fe/d/e|Ad/f/ e/d/|c/B/Az|ed/c/ B/A/|\
+fe/d/e|Ad/f/e/ d/|c/B/Az||e/f/gg/a/|gf/ e/f|\
+z/e/ (d3/2e/)|fe/d/e|ed/c/ B/A/|d/f/e/ d/e|\
+Ad/f/e/ d/|c/B/Az|]
+
+X:31
+T:FLANDERS1- Will you go to Flanders
+S:Oswald's CPC, bk. 1, p. 36, c 1743
+Q:1/4=120
+L:1/8
+M:C
+K:G
+G|Gddde2{ef}g2|d/B3/2 (A3/2G/)A3{de}f|\
+(gfg)af~2e3/2d/2|(e3/2f/)~e3/2d/d2(e/f/)|\
+gfga~f2e3/2d/|eg {e}dBd2(e3/2f/)|\
+(gf)(ed)e2{ef}g2|d/B3/2 ~A3/2G/G3|]
+
+X:32
+T:FLANDERS- Will you go to Flanders/ Gramachree Molly
+S:SMM #46
+Q:1/4=60
+L:1/4
+M:C
+K:F
+F/|c3/4 d/4 c/ A/ (d3/4e/4) f3/4 d/4|c/ A/ G3/4 A/4Fz/c/|\
+f3/4 e/4 f/ g/ {f}ed/ c/|d3/4 c/4 f3/4 A/4c3/2c/|\
+f3/4 e/4 f3/4 g/4 f/ e/ d/ c/|d3/4 c/4 B/ A/ d3/2e/|\
+f3/4 e/4 d/ c/ d3/4 e/4 .f/ {ga}d/|(c/4A3/4) G3/4A/4F3/2|]
+
+
+X:33
+T:GDNIGHT1-  Good night and God be with you
+S:Skene MS, c 1635?. Graham's translation
+Q:1/4=80
+L:1/4
+M:C
+K:Bphrygian
+dBAd|BBba|fab/a/b/a/|b/a/f/e/fd||\
+dBAd|B/A/B/d/ba|f (3 a/b/a/ (3 f/e/f/ (3 a/b/a/|f2d2|\
+e/d/e/f/gB|d/B/d/e/ fd|e/d/e/f/ g/f/g/a/|beef/g/|agfe|\
+d3/2 e/fd|eBdA|G2B2|e/d/e/f/ gB|d/B/d/e/fd|\
+e/d/e/f/ g/f/g/a/|beEf/g/|a/g/f/e/ d/e/f/d/|a/g/f/e/fd|\
+efa/f/e/f/|d2B2|]
+
+X:34
+T:GDNIGHT2-  Good night and God be with yow
+S:Guthrie MS, c 1675. Diem's translation
+Q:1/4=80
+L:1/4
+M:C
+K:Ddorian
+(F/F/)DCF|DDd/c/A/c/|d/c/A/c/ d/c/A/c/|d/c/A/c/GF:|\
+G/F/G/A/ A/B/D|F/D/F/G/AC|D/C/D/F/ G/F/G/A/|d2G2|\
+c/A/c/d/ c/A/G/F/|F2D2|F/G/A/A/ G/A/F/A/| F2D2|
+
+X:35
+T:GDNIGHT3-  Good night and God be with you.
+S:Playford's 'Original Scotch Tunes', 1700
+Q:1/4=80
+L:1/4
+M:C
+K:Dmixolydian
+e/d/|ccG3/2 G/|AAg3/2 f/2|e/c/ f/g/  e/f/g/e|add||\
+c|d/c/d/e/ d (c/B/)|d/c/d/e/ d3/2 e/|\
+g/c/ f/g/  f/g/g/e/|add|]
+
+X:36
+T:GDNIGHT4-  Good night an joy be wi' you a'.
+S:Scot Musical Museum, #600, 1803/4
+Q:1/4=80
+L:1/4
+M:C
+K:Em
+(B/A/)|GGD3/2 G/|EEe3/2 d/|(B/d/) (e/d/) (B/d/) (e/d/)|\
+BGG B/A/|GGD3/2 G/|EEe3/2 d/|(B/d/) (e/d/) (B/d/) (e/d/)|\
+BGG||B|A/G/ A/B/AG/E/|D/E/ G/A/ BA/G/|A3/2 B/ (c/B/) (c/d/)|\
+eAA3/2 B/|c/B/ c/d/ed/c/|B/A/ B/c/ dc/B/|A/B/ d/e/ d/B/ A/B/|\
+GEE|]
+
+X:37
+T:GDNIGHT5- The Parting Glass
+Q:1/4=80
+L:1/4
+M:C
+K:Dm
+(A/G/)|FDD(C/D/)|FFG(F/G/)|AA(A/G/) (F/G/)|\
+ACC(A/G/)|FDD(C/D/)|FFG(F/G/)|Ad(c/A/) (G/A/)|FDDA|\
+(c/A/) (c/d/)cA|(c/A/) (c/d/)c3/2 A/|BA(A/G/) (F/G/)|\
+ACC(A/G/)|FDD(C/D/)|FFG(F/G/)|Ad(c/A/) (G/A/)|FDD|]
+
+X:38
+T:CURRAGH1- The Winter it is Past
+S:Oswald's 'Caledonian Pocket Companion', bk 10, c 1759-60
+Q:1/4=120
+L:1/8
+M:2/4
+K:G
+G/A/|BABd|G2gf|dBAB|G2AB|cdef|{ef}g2 f3/2e/|d3::\
+c/B/|cdef|{ef}g2fe|dBAG|A2GA|B2Be|dcBA|G3:|]
+
+X:39
+T:CURRAGH2- The Winter it is past, or Curragh of Kildare
+S:Petrie's 'Ancient Music of Ireland', 1855
+Q:1/4=120
+L:1/8
+M:4/4
+K:Fmixolydian
+F|FD FGB2e3/2d/|cB G3/2F/F2AB|c2def2ed|(c4c2)cd|ec de f2 ed|\
+cB GFF2FG|B2ed cB G3/2F/|(F4F2)cd|ec def2ed|cB GFF2FG|\
+B2ed cB G3/2F/|(F4F3)|]
+
+X:40
+T:CURRAGH3- The Winter it is Past
+S:The Scots Musical Museum, #200, 1788
+Q:1/4=120
+L:1/8
+M:2/4
+K:C
+F3/2G/|A3/2 G/ A c|F2f d |c A G F|G2 G A| B c d e|\
+(fe) (d^c)|d4{BAG}|Fd c3/2B/|A c d e|f3 e/d/|c A G F|\
+G2 F3/2G/|A2 A3/2 d/|(cB A G|F4{DCD}|C2|]
+
+X:41
+T:RISTHGHT- To curb rising thoughts
+S:in Pills to Purge Melancholy, from 1700 edition
+Q:1/4=120
+L:1/4
+M:6/4
+K:G
+(e/f/)|g3/2f/edcB|B3/2A/GG2B|B2BB2B|B2Be3|\
+g3d2e|d2dd2e/d/|d3B3/2c/d|d2dd2G|\
+G2G/G/G3/2G/ G/G/|G2AB3/2B/ c/c/|\
+d3g2f|e2d(c3/4B/4)A2|(G3G2)|]
+
+X:42
+T:GOWFRWL- Farewell to Whiskey...by Niel Gow
+S:Strathspey Reels, 5th bk (1809)
+N:"This tune alludes to prohibiting the making of Whisky in 1799
+N:It is expressive of a Highlanders' sorrow on being deprived
+N:of his Favorite Beverage."
+Q:1/4=100
+L:1/8
+M:C
+K:Bb
+D|B,2 "tr"(B/A/B/).d/ cG G3/2B/|\
+B,3/2B/ {d}(c/B/c/).d/ fd~d3/2f/|\
+(ga/b/) (g/f/)(e/d/) (e/d/)(c/B/) cd|B,3/2B/ (d/c/).B/.c/ dBB::\
+g|{g}f3/2d/ {d}b3/2d/ (e/d/)c/B/ ~cd|fdb3/2d/ f(bb3/2)f/|\
+(gb) {g}f3/2d/ e/d/c/B/ (cd)|B,3/2B/ ((d/c/)B/c/ dBB:|]
+
+X:43
+T:JENNYBAB- Jenny's Babee
+S:Aird's 'Airs', IV, #72 (1794)
+Q:1/4=60
+M:C|
+K:D
+f/|a/b/a/g/ (f/d/d/f/)|B/4B/4B/ (e/d/) c/(A/A/)f/|\
+a/f/a/g/ f/(d/d/)f/|B/4B/4B/ (c/A/)d3/2::g/|\
+f/d/g/e/ f/(d/d/)f/|B/4B/4B/ (e/B/) c/(A/A/)g/|\
+f/d/g/e/ f/(d/d/)f/|B/4B/4B/ (c/A/)d3/2:|]
+
+X:44
+T:AULDLNG1- Auld lang Syne
+S:Orpheus Caledonius, I, 1733
+Q:1/4=120
+L:1/4
+M:C|
+K:Dm
+c|f3/2g/ (f/g/)a|cA(B/A/) (G/F/)|f3/2g/a(g/f/)|d3c|\
+f3/2g/ (f/g/)a|c(B/A/)A(G/F/)|f3/2g/{fg}a(g/f/)|d3||\
+f|A(G/F/) (FG/) A/|B3/2A/GA|c3/2d/c(B/A/)|f3c|A(G/F/)F(G/A/)|\
+B3/2A/GA|c3/2d/ (c/d/c/A/)|c3|
+
+X:45
+T:AULDNLG2- Auld Lang Syne (old tune)
+S:SMM #413, 1796
+Q:1/4=120
+L:1/8
+M:C
+K:D
+A|d3/2 d/ e f A3/2 B/ A F|d3/2 f/ e3/2 d/ B2 (d/2B3/2)|\
+A3/2 F/ E D E3/2 D/ E3/2 F/|A2 B3/2A/ A3"Chorus"A|\
+d2(ef) A3/2 B/ A F|(d3/2f/2) edB3 (d/B/)|\
+A F E D E3/2 D/ E F|A2 ~B3/2A/ ({A}d3)|]
+
+X:46
+T:AULDLNG3- Should auld acquaintance be forgot
+S:Thompson, 1799, via Dick's 'Songs of R. B.'
+Q:1/4=120
+L:1/8
+M:2/4
+K:F
+C|F3/2 F/ F A|G7/4 F/4 Gz/ A/|F/ F3/2 A c|d3f|\
+c3/2 A/ A F|G3/2 F/ G/ z/ A/|F3/2 D/ (DC)|F3||\
+"Chorus"f/|c/A3/2 (A3/2F/)|G3/2 F/ Gz/A/|(c/A3/2) (A3/2c/)|\
+d3z/ f/|c A A F|G3/2 F/ G z/A/|(F/D3/2) (D3/2C/)|F3|]
+
+X:47
+T:AULDLNG4- O can ye labor lea, young man
+S:SMM #394, 1792
+Q:1/4=120
+L:1/8
+M:C|
+K:F
+C|F/ F3/2 F A G3/2 F/ G3/2 A/|F/ F3/2 F3/2 A/d3f|\
+F3/2 F/ F A G3/2 F/ G3/2 A/|F3/2 D/ DCF3||\
+d|c/ A3/2 A3/2 F/ G3/2 F/ G3/2 A/|(c/A3/2) A/ c3/2 d3f|\
+c3/2 A/ A3/2 F/ G3/2 F/ G3/2 A/|F/ D3/2 D3/2 C/{C}F3||\
+"Chorus"C|F/ F3/2 F A G3/2 F/ G3/2 A/|F/ F3/2 F3/2  A/ d2 f|\
+F3/2 F/ F A G3/2 F/ G3/2 A/|F/ D DC F3|]
+
+X:48
+T:AULDLNG5- The Miller's Daughter
+S:McGlashan's Reels, c 1778
+Q:1/4=120
+L:1/8
+M:C
+K:G
+D|G/G3/2G3/2E/ A3/2G/A/B3/2|D/D3/2E3/2D/ G3B|\
+G/G3/2G3/2E/ A3/2G/G/B3/2|D/D3/2E3/2D/G3||\
+B/c/|d3/2B/G3/2B/ A3/2G/A/B3/2|d/c/B/A/ A3/2D/ G3/2A/B3/2G/|\
+c3/2d/B3/2e/ A3/2G/A3/2B/|D3/2D/E3/2D/G3||]
+
+X:49
+T:AULDLNG6- Comin thro' the rye. 1st set
+S:Scots Musical Museum, #417 (1797)
+Q:1/4=120
+L:1/8
+M:C
+K:G
+G/ G3/2 G3/2 E/ A3/2 G/ A/ B3/2|D/ D3/2 E D/ G3zD/|\
+G/ G3/2 G3/2 E/ A3/2 G/ A/ B3/2|D/ D3/2 E3/2 D/G3||\
+(B/c/)|d/ B3/2 (G3/2B/) A3/2 G/ A/ B3/2|\
+D/ B3/2 G3/2 B/E3f/g/|d3/2 e/ d3/2 B/ e/ A3/2 A3/2 B/|\
+D/ D3/2 E3/2 D/G3||]
+
+X:50
+T:AULDLNG7- Comin thro' the rye. 2nd set.
+S:Scots Musical Museum, #418, (1797 and Watlen, 1794)
+Q:1/4=120
+L:1/8
+M:C
+K:Bb
+F/ F3/2 F3/2 d/ {d}c3/2 B/ c/ d3/2|F/ F3/2 {A}G3/2 F/{F}B4|\
+F/ F3/2 f3/2 d/ {d}c3/2 B/ c/ d3/2|F/ F {A}G3/2 F/ {Ac}B4||\
+f3/2 d/ B3/2 d/ {d}c3/2 B/ c/ d3/2|f/ d3/2 B/c/ d/f/ {a}g3 f/|\
+f3/2 d/ e3/2 c/ (d/B3/2) c3/2 d/|F/ F3/2 {A}G3/2 F/ {F}B4||]
+
+X:51
+T:AULDLNG8- Overture to Rossina, 1783
+Q:1/4=120
+L:1/8
+M:2/4
+K:G
+G3/2A/GB|AGAB|GGGB|d3g|GGGB|AGAB|G/E3/2E3/2D/|G3||f|\
+d3/2B/ BG|AG Ae|d3/2B/ BG|B3e|d3/2B/ BG|A3/2G/ AB|\
+G3/2E/ E3/2D/|G3||]
+
+X:52
+T:AULDLNG9- Sir Alex. Don's Strathspey, from the Opera of Rossina
+S:Gow's 1st Collection of Strathspey Reels (1784)
+Q:1/4=120
+L:1/8
+M:C
+K:D
+B,|D/D3/2 D3/2F/ E3/2D/EF|D/D3/2 D3/2F/A3d|\
+D/D3/2 D3/2F/ E3/2D/EF|D3/2B,/B,3/2A,/D3A,|\
+D/D3/2 D3/2A/ E3/2D/EF|D/D3/2 D3/2F/A3d|\
+D/D3/2 D3/2F/ E3/2D/EF|D/B,3/2B,3/2A,/D3||\
+B|A/F3/2F3/2D/ FEEF|A/F3/2F3/2D/ F3B|\
+A/F3/2F3/2D/ E3/2D/EF|D/B,3/2B,3/2A,D3B|\
+A/F3/2F3/2D/ FEEF|B3(c/d/)|(B/A/G/F/) (G/F/E/D/) E3/2D/EF|\
+D/B,3/2B,3/2A,A,D3||]
+
+X:53
+T:GREENSLV- Greensleeves (original)
+S:Ballet Lute MS
+Q:1/4=120
+L:1/4
+M:6/4
+K:C dorian
+C|E2FG3/2A/G|F2DB,3/2C/D|E2CC3/2=B,/C|D2=B,G,2z|\
+E2FG3/2A/G|F2D=B,3/2C/D|E3/2D/C=B,C=B,|C3G,3||\
+B3B2A/G/|F2DB,3/2C/D|E2CC3/2=B,/C|D2=B,G,2G,||
+B3B2A/G/|F2DB,3/2C/D|E2C=B,3/2A,/=B,3/2|(C3C2)|]
+
+X:54
+T:OURGOOD- Our Goodman came hame at e'en. &c
+S:Scots Musical Museum, #454
+Q:160
+L:1/8
+M:2/4
+K:A
+"Recit."E A A A|A A .A c|"in time"B2c3/2A/2|F3 "Recit."E|\
+E A A A|A A Az/2"in time"c/2|B3/2A/2 B3/2 c/2|.A2c3/2d/2|\
+e2c f|{f}e2 c3/2 A/2|B3/2A/2 B3/2 c/2|.F3 "Recit."E|\
+E/2A3/2 A A|A2 A3/2 "in time"c/2|B3/2 A/2 B3/2 c/2|.A3
+"Recit."A|\
+A3z/2 A/2|.e3 E/2 E/2|E3z/2 E/2|.A2 "in time"c3/2d/2|\
+e2 c/2f3/2|e e c A|B3/2 A/2 c3/2 A/2|{G}F3 "Recit."E|\
+E A A A|A2 A "in time"c|B/2 A3/2 B3/2 c/2|.A3 "Recit."A|\
+E2 E3/2 E/2|.A2 zA/2 A/2|A2 A3/2 A/2|.e2 "in time"(c3/2d/2)|\
+e2c3/2 f/2|e2c3/2 A/2|B3/2 A/2 B3/2 c/2|.F3 "Recit."E/2 E/2|\
+E A A A|A2 A3/2 "in time"c/2|B3/2 A/2 B3/2  c/2|A4|]
+
+X:55
+T:MILLMILL-  Mill, Mill, O
+S:SMM #242
+L:1/4
+M:C
+J:3#
+K:A
+A3/4B/4|cE3/4 F/4 E3/2A/|"tr"(F3/4E/4) F/ A/B(A3/4B/4)|\
+cE(d/c/B/) A/|({=G}F3/2^G/)A(A3/4B/4)|c(E3/4F/4)E3/2A/|\
+"tr"(F3/4E/4) F/ A/B(A3/4B/4)|({AB}c)E d/c/B/ A/|\
+({=G}F3/2^G/)A||\
+z/E/|(A/B/) c/ d/e3/2 e/|(f/e/) d/ c/B3/2E/|\
+(A/B/) c/ d/ (e3/4f/4e/) d/|"tr"c3/4d/ez/E/|\
+(A/B/) c/ d/e(d/e/)|(f/e/) d/ c/ B(A3/4B/4)|\
+({AB}c) EEc/4B/4 A/|({=G}F3/2^G/)A|]
+
+X:56
+T:LDYMNTSH- Mc.Intosh's Reel
+S:Bremner's Reels, 1759
+L:1/8
+M:C|
+K:Amixolydian
+f|d/d/d dA B3/2d/eg|d/d/d gd (B2 B)e|d/d/d dA B3/2d/e(g|\
+f)edB A2A::a3/2b/af gf e(g|f)dgd (B2 B)f|a3/2b/af gea(g|f)edB
+(A2A):|]
+
+X:57
+T:BRAWLAD- Braw, braw lads of Galla Water
+S:SMM II, #125, 1788
+Q:1/4=90
+L:1/8
+M:C
+K:Amixolydian
+F2(E3>D) D3F|A3B (A<F) ~E>D|F3EE2F>A|B>A d/c {c}B2.Az/A/|\
+A3(B/c/)d3e|f>ed B d3F|F2D>FE2F>A|B>A d>c {c}B2 .Az|]
+
+X:58
+T:SOORPLUM. Sowr Plumbs of Gallashiels.
+S:Mitchel's 'Highland Fair', transcribed by Jack Campin
+M:C|
+L:1/8
+K:G
+G2|B3 cB2 ge |(dB)(AG) A3  B|G3 A (BA)(Bd)|\
+e3 d B2 d>g|(e>dB>)d  (d>BA>)d|(B>A)(G>B) A2(dB)|\
+G3 d (e>fg>)c|B2 (A>B) G3||\
+d|(e>f)(g>a) g2 G2|g2 (de/=f/) e2(dc)|B2 d>e =f2 (gf)|\
+e4 d2 z d|(e>f)(g>a) g2 G2|(g>b)(a>g) e2(dc)| B2(d>e) (=fa)(gf)|
+e4  d2 z d|(e>f)(g>a) g2 G2|g2 (de/=f/) e2(dc)|\
+(BA) B2 (dB) d2|(e>d e2) =f3 f|(ge) g2 (ed)e2|(dB) d2 (BA)B2|\
+g3 (f/e/) d2 (cB)|(A3 G) G3|]
+
+X:59
+T:WHRWAD1- Where wad bonnie Annie ly
+S:SMM #324
+L:1/8
+M:2/4
+K:F
+A/G/|F f f e/d/|c c A A|G _e =e d/c/|B B G2|F f g/f/ e/d/|\
+c2A A|B/A/ G/F/ E G/B/|AF2||\
+A/B/|(c/B/) A/G/ F A|c cA2|B/A/ G/F/ _E G|\
+B B G G|c/B/ A/G/ F A|c2f3/2 c/|\
+B/A/ G/F/ E/F/ G/B/|AF2|]
+
+X:60
+T:WHRWAD2- Red House (Bonnie Annie)
+S:Dancing Master (9th ed), 1695
+L:1/4
+M:4/4
+K:Gm
+Gg2(f/e/)|d2B2|Af2e/d/|c(e/c/) (d/c/)(B/A/)|Gg2(f/e/)|\
+d2B2|(c/B/)(A/G/) (^F/G/) (A/B/)| [1BGG2:|[2 BGG|](B/c/)|\
+(d/c/)(B/A/) (G/A/)(B/c/)|d2B2|(c/B/)(A/G/) (F/G/)(A/B/)|\
+c2A2|(d/c/)(B/A/) (G/A/)(B/c/)|d2B2|(c/B/)(A/G/) (^F/G/) (A/B/)|\
+BGG:|(B/c/)|ddd(B/c/|dddA/B/|cccA/B/|cccB/c/|ddd(B/c/|dddA/B/|(c/
+B/)(A/G/) (^F/G/) (A/B/):|[1 BGG:|[2 BGG2|]
+
+X:61
+T:JACKP- Jack the Piper [Over the hills and far away]
+S:Riley's Flute Melodies, II, #352 (1820)
+L:1/4
+M:C
+J:2#E
+K:Edorian
+(d/e/)(f/e/) (d/e/)(f/e/)|dBB3/2A/|(d/e/)(f/e/)
+(d/e/)(f/e/)|\
+geez|(d/e/)(f/e/) (d/e/)(f/e/)|dBg3/2B/|B(A/G/)Af|gee2|\
+(d/e/)(f/e/) (d/e/)(f/e/)|dBB2|(d/e/)(f/e/)(d/e/)(f/e/)|\
+gee2|(d/e/)(f/e/) (d/e/)(f/e/)|dBg3/2B/|B(A/G/)Af|gee3/2g/|\
+a3/2g/fe|dBB2|a3/2g/fe/d/|gee2|a3/2g/fe|dBg2|BA/G/Af|gee2|]
+
+X:62
+T:CAHAWK- Ca' Hawkie through the watter.
+Q:180
+L:1/8
+M:2/4
+K:Em
+d B B G|A B c2|d B B G|A F F D|d B B TG|A B c c|\
+Be e ^d| e E E E||
+"Chorus"G2 G B|A2 A c|G2 G B|A/G/ F/E/ D F|G G G B|\
+A2 c c|B e e ^d|e E E E|]
+
+X:63
+T:GREENGRO- Green grows the rashes
+N:Scots Musical Musuem, #77
+Q:1/4=120
+L:1/8
+M:C
+K:Dm
+A/G/|F3/2 F/2 A3/2 G/ A F F A|G G d3/2 c/ d G G3/2 A/|\
+B3/2 B/ d c3/2 B/ A F|G3/2 B/ A3/2 G/ F D D2||\
+"Chorus"(cf) f3/2 e/ f c c2|(dg) g3/2 f/ g d d3/2 e/|\
+f3/2 g/ f (e/d/) c3/2 A/ F3/2 A/|g3/2 B/ (3 ABA) G/ F D D2|]
+
+X:64
+T:ELSIEMR- Alcy Marly
+Q:1/4=120
+L:1/8
+M:6/8
+K:Am
+c|BABG2G|G2g gdB|BABG2G|F2f fcA|BABG2G|G2g gdB|ABAF2F|F2f fcA::\
+B2Bc2c|d2g gdB|B2Bc2c|A2f fcA|B2Bc2c|d2g gdB|ABAF2F|F2f fcA::\
+G2g gdB|gdB gdB|F2f fcA|fcA fcA|G2g gdB|gdB gdB|ABAF2F|F2fcA|]
+
+X:65
+T:BEWARRP4- The Bonny Moorhen
+S:Hogg's Jacobite Relics, 1819
+L:1/8
+M:6/8
+K:Em
+E|
+EAAB2A|GEEE3|GAG (BA) B|GDDD2D|GFG AGA|ABd~e2d|\
+(BA) B dBA|GEEE2||\
+(B/d/)|ede f2e|dBBB2d|ded fe(f/e/)|dAAA2A|BAB BAG|\
+ABd (e2d)|(BA) B dBA|GEE2||]
+
+X:66
+T:BEWARRP5- Logie o' Buchan
+S:SMM #358
+L:1/8
+M:6/8
+K:Bm
+(F/E/)|D3/2E/ F F/ d3/2 B|A F FF2(F/E/)|\
+D3/2 E/ F F/ B3/2 c|d B B B2||\
+d/e/|f3/2 e/ f{g}a2{g}f/ e/|d3/2 e/ f A2(d/e/)|\
+f3/2 g/ f e/ d3/2 e|f d B B2||]
+
+X:67
+T:TAMLIN- Tam Lin
+S:Scots Musical Museum, V, #411, 1796
+N:Earliest tune, collected, with text, by Robert Burns
+Q:1/4=80
+L:1/8
+M:C
+K:Dm
+(c/B/)|A B c G A B c G|A d d ^c d3 e|\
+f3/2 A/2 A3/2 A/ A3/2 F/ G A|F3/2 G/ E3/2 D/ D3|]
+
+X:68
+T:ASLEEP1- Ta Me Ma Chulla's Na Doushe Me
+S:Neils' Celebrated Irish Tunes, Dublin (1724?)
+N:title translates to I am asleep and don't waken me
+Q:1/4=120
+M:3/4
+K:Gmix
+DE G/A/|G2G|A/B/d/A/B/G/|E2D|EG/A/G|B/c/de|"tr"A2G|\
+[1 G2A/B/4d/4|[2 G3||\
+f2f/g/|e2d|e/d/e/g/a/g/|e/g/ e/d/B|deg/a/|g2e/d/|A2G|\
+G/A/G/E/D|f/e/f/g/f/g/|e/d/e/f/g/e/|d/e/d/B/A/G/|GED|\
+EGG|B/c/de|"tr"A2G|[1 G2 B/4c/4d/4e/4|[2 G2|G/4A/4B/|c3|B3|\
+A3/2 B/ A/G/|E2D|EGG|B/c/de|A2G|G2G3/4A3/4B/|c2 g|\
+B2g|A3/2 B/ A/G/|E2D|EG/A/G|B/c/de|A2G|G2 B/4c/4d/4e/4||]
+
+X:69
+T:ASLEEP2- Cauld Frosty Morning [I am asleep]
+S:Scots Musical Museum #227
+Q:1/4=120
+M:3/4
+K:F
+C|C3/4D/4FF|F2F/ F/|G3/4A/4 B/A/ G/F/|FDC|C3/4D/4FF|\
+A3/4B/4 cF|"tr"G3/2F/ G/A/|F2G/A/|Bc/B/ A/G/|
+(AB/A/) G/F/|G/A/ B/A/ G/F/|FDC|\
+C3/4D/4FF|A3/4B/4cf|"tr"G3/2F/ G/A/|F2||\
+c/d/|_e3/2 f/ (e/f/)|{_e}d2c|ccf3/4g/4|\
+fdc|"tr"(_e3/4d/4) (e/g/) f/e/|_ed (c/4d/4f/)|\
+(B3/4d/4) (c/A/) (G/A/)|FDC|\
+"tr"(_e3/4d/4) (e/f/) (e/f/)|(d/c/A/c/) (d/f/)|\
+(c/d/) (A/c/) (G/A/)|FDC|C3/4D/4FF|(A3/4B/4)c(d/e/4f/4)|\
+{A/}"tr"G3/2 F/ (G/A/)|F2|]
+
+X:70
+T:BRAESBAL1- The Braes of Balquhidder
+S:David Young, 1740. Bodleian MS Don. d.54
+Q:1/=120
+L:1/8
+M:C|
+K:Aphrygian
+c2|(A/c/d) Fc A2 Ac|(A/c/d) Fc AGGc|\
+dFcF A2 Ac|defc A/A/A A:|\
+c|defc A/A/A ag|fd"tr"cA cGGc|defd "tr"cAag|\
+a/g/f/e/ fc A/A/A Ac|def A/A/A ag|\
+fd"tr"cA cGGA|FCC FGAa|(agfe f)c A2A:|]
+
+X:71
+T:BRAESBAL2- The Braes o' Bowhether
+S:John Hamilton, 24 Scots Songs, 1796
+N:H is not standard ABC yet; it means a fermata, sic-
+N:bars 6 and 8 are too long (2nd to last notes length 2 instead?)
+Z:Jack Campin
+Q:1/4=120
+M:C
+L:1/8
+K:F
+"Slow"
+A/ c/|d2 F> G A A> z c| d2  F> G A <G z/(G/A/)c/|\
+d2 F> G| (AG) A> c|(d>e)  f> d   (c/A/  A2)   ||\
+c |d> e f d c> A a> g| f d  c> A  (A/G/) G3 c/|\
+d> e f  d   c> A a> g| f> e (d/e/) (f/d/) (c/A/) A3 c/|\
+d> e f  d   c> A a> g| f> d (d/c/) (B/A/) (A/G/) G2   A/G/|\
+F> D C> D  (F>G)  A> c|(d>e) (g/f/) (e/d/) (c/A/  A2)  |]
+
+X:72
+T:BRAESBAL3- Bochuidear
+S:Capt. Fraser's Highland Melodies [reprint]
+Q:1/4=120
+L:1/8
+M:C
+K:F
+c|{A/c/}d2 F3/2c/ A2 A3/2c/|{A/c/}d2 F3/2c/ AGGc|\
+{A/c/}d2 F3/2c/ A2 Ac|d3/2e/{d/e/}f3/2d/ cA A:|\
+c|d3/2e/ {d/e/}f3/2d/ c/A3/2 {c/}a3/2g/|\
+f3/2c/ d/c/B/A/ AGGc|d3/2e/ {d/e/}f3/2d/ c/A3/2 {c/}a3/2g/|\
+f/d3/2) {d/e/}f3/2d/ c3/2A/Ac|\
+d3/2e/ {d/e/}f3/2d/ c/A3/2 {c/}a3/2g/|\
+f3/2c/ (d/c/)(B/A/) AGG (A/G/)|F3/2E/D3/2E/ F3/2G/A3/2c/|\
+d3/2e/ {d/e/}f3/2d/ cAA|]
+
+X:73
+T:BRAESBAL4:- Braes o' Balquhidder for Robert Burns' song,
+N:according to Wm. Stenhouse, SSM 'Illustrations'
+S:Scots Musical Museum, I, #193, 1788
+Q:120
+L:1/8
+M:C
+K:^F phrygian
+(E/A/)|B2D3/2 E/F2F3/2 A/|B2D3/2 E/ F E E (F/A/)|\
+B2D3/2 E/ (FE) F3/2A/|B3/2 c/ d3/2 B/ A F F||\
+A|B3/2 c/ d3/2 B/ A3/2 F/ f3/2 e/|d B A3/2 F/ F E Ez/A/|\
+B3/2 c/ d3/2 B/{B/}A3/2 F/ .f3/2 e/|\
+d3/2 c/ (B/c/) (d/B/) A F F|]
+
+X:74
+T:Jenny Nettles
+S:The Scots Musical Museum, #52, 1787.
+Q:1/4=120
+L:1/8
+M:C|
+K:Gmin
+A|B3/2 c/ B A G2 g2|d3/2 e/ f d c  A F A|\
+B3/2 c/ B A G2 g2|f d c e d2 G:|\
+A|B3/2 c/ d G B3/2 c/ d G|A3/2 B/ c F A3/2 B/ c A|\
+B3/2 c/ d G B3/2 c/ e g/ g/|f d e c d2 G:|]

@@ -1,0 +1,10 @@
+X: 0
+T: is the title of the tune,
+M: is the time signature,
+L: is the
+unit note length and
+K: is the key signature.
+Q: is the tempo field. In
+the above example the tempo is given as 120 quarter-notes per minute. X:
+must be the first field and
+K: must be the last field in the header.

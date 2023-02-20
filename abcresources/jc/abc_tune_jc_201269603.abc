@@ -1,0 +1,19 @@
+X:193
+T:Dovetail
+C:J.S. Bach: Minuet in E minor
+%%MIDI chordprog 46   Orchestral Harp
+%%MIDI bassprog 46    Orchestral Harp
+%%MIDI program 68     Oboe
+%%MIDI gchord bbb
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=104
+M:3/4
+L:1/8
+K:Em
+P:A
+|: "Em"B2 "/"gf "B7"e^d | "Em"e2 "/"B2 "Am"c2 | "B7"^DF "/"Ac "/"BA | "Em"G2 "/"FG "/"E2 |\
+"G"G2 "Am"cB "D7"ed | "Em"g2 "/"fe "D7/F#"dc | "G"Bc/d/ "C"G2 "D7"F2 | "G"G6 :|
+P:B
+|: "G"b2 "/"gb "Am"ag | "D"f/g/a "D"d2- "B7/D#"d2 | "Em"g2 "/"eg "Am"fe | "B7"^d/e/f "/"B2- "/"B2 |\
+"B7"B^c "/"^de "/"fg | "B7"af "/"^dc' "/"ba | "Em"g/f/e "B7"f2 "/"^d2 | "Em"e6 :|

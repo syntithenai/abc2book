@@ -1,0 +1,24 @@
+X: 1
+T: Maoz tsur
+T: Rock of Ages
+M: 2/2
+L: 1/8
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+S: printed MS of unknown origin, labelled "9." and "Chanukah"
+S: http://judaism.about.com/gi/dynamic/offsite.htm?zi=1/XJ&sdn=judaism&cdn=religion&tm=8&f=10&tt=2&bt=1&bts=0&zu=http%3A//www.chazzanut.com/englander/englander-21.html
+K: F
+V: 1 name="S"
+[| F2C2 F2B2 | A2G2 F4 | c2d2 G2B2 | A2G2 F4 |
+F2C2 F2B2 | A2G2 F4 | c2d2 G2B2 | A2G2 F4 ||
+|: c2c2 d2e2 | f4 c4 | f2e2 d2c2 | cBAB G4 |
+A3B c4 | G3A B4 | A2G2 F2B2 |1 A2G2 F4 :|2 A4 G3F | F8 |]
+V: 2 name="A"
+[| F2C2 F2F2 | F2E2 F4 | A2B2 G2G2 | F2E2 C2B,2 |
+A,2B,2 C2F2 | F2E2 D4 | F2F2 E2F2 | E4 F4 ||
+|: A2A2 B2G2 | A4 A4 | c2B2 A2G2 | F2F2 F2E2 |
+F4 G4 | G4 F4 | E2D2 C2D2 |1 F2E2 F4 :|2 C2 F4 E2 | C8 |]
+V: 3 name="T"
+[| f2c2 f2d2 | c2c2 f4 | f4 f2e2 | f2c2 A2G2 |
+F2G2 A2d2 | c2^c2 d2B2 | A2B2 =c2_d2 | c4 f4 ||
+|: f2f2 f2f2 | f4 f4 | a2g2 f2e2 | d2_d2 c4 |
+f4 e4 | _e4 d2_d2 | c2B2 A2G2 |1 c4 f4 :|2 c4 c4 | F8 |]

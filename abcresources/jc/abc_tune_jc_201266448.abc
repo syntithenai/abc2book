@@ -1,0 +1,17 @@
+X:162
+T:The Dainty Fine Bride
+C:Kynaston, 1718
+L:1/4
+M:3/2
+%%MIDI gchord fcHcfc
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=100
+%%MIDI chordname 7sus 0 5 7 10
+K:G
+P:A
+|: "Em"EB- "/"BA "B7"GF | "Em"EF/G/ "Am"A/G/F/E/ "B7"^DF | "Em"EB "C"Gc "D"Ad | "Em"Be "B7"B/A/G/F/ "Em"E2 :|
+P:B
+|: "Em"Be- "/"ed "Am"cB | "D"Ad- "/"dc "B7/D#"BA | "Em"GB "D"Ac "G"Bd | "Am"A/B/c/A/ "D7"B/c/B/A/ "G"G2 |
+"Em"Be- "B7"e^d "Em"e2 | "B7"Bf- "Am"fe "B7"f2 | "Em"Bg- "B7"gf "C"ef3/4g/4 | "Am"a3/g/ "/"f/g/f/e/ "D"d/c/B/A/ |
+"G"GB- "/"BA "Am"GF | "B7sus"FB- "/"BA "B7"GF | "Em"EF/G/ "Am"A/G/F/E/ "B7"^DB | "Em/B"G2 "B7"F3/E/ "Em"E2 :|

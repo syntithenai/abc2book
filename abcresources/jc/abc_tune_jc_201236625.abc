@@ -1,0 +1,19 @@
+X: 2271
+T: the Far awa' Wedding,   a Jig.
+%R: slip-jig
+B: Niel Gow & Sons "Complete Repository" v.2 p.27 #1 (top 2 staffs continued from p.26)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+e !segno!|:\
+Tc2A- AEA AEA | Tc2A- AEA B=GB | c2A AEA AEA | B=GB Bge dBG :| cAA a2e c(.A.A) | cAA a2f =g(.B.B) |
+cAA a2e cAc | B=GB Bge gdB || cAA a2e c(.A.A) | cAA T=g3 {fg}gBB | cAA a2e cAc | B=GB Bge gdB !segno!y|]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z !segno!|:\
+a3 a3 a3 | a3 a3 =g3 | a3 a3 a3 | =g3 g3 g3 :| a3 a3 a3 | a3 a3 =g3 |
+a3 a3 a3 | =g3 g3 g3 || a3 a3 a3 | a3 e3 =g3 | a3 a3 a3 | =g3 g3 g3 !segno!y|]

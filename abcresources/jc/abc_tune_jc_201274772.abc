@@ -1,0 +1,15 @@
+X: 1825
+T: Farewell To Whiskey   #2
+R: march
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #1825
+O: F.O'Neill
+Z: Bob Safranek, rjs@gsp.org
+N: Compacted by using labels and play order [JC]
+P: Play ABAB CBCB
+M: 2/4
+L: 1/16
+K: G
+"^A"[| (GE) | D2G2  B2G2  | A2E2  E2G2  | D2G2  BAGA  | B2d2 d3 |]
+"^B"[|   d  | efge  d2g2  | cBAG  A2B2  | D2G2  BAGA  | B2G2 HG2 |]
+"^C"[| (Bc) | d2B2 g2(Bc) | dcBA G2(Bc) | d2B2 g2(fg) | agfe "->B"d3 |]

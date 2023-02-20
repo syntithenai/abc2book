@@ -1,0 +1,48 @@
+X:1
+T:Johnny the Tree Wrecker  "Composed by Terry Tully"
+M:6/8
+L:1/8
+Q:80
+C:
+S:Jig
+K:HP
+|: {d}A | \
+e{g}e{A}e{gdedc}d2e | \
+{g}edB{gAGAG}A2{d}B |
+{g}G{d}B{G}B{g}Bd{c}d | \
+{gef}edB{g}G{d}Bg{a}fd{c}d{gdedc}d2g | \
+{a}eag{a}e2f |
+{a}ge{A}e{g}dBd | \
+{g}eA{d}A{gAGAG}A2 :: \
+{d}B |
+{g}Aag{ag}a2g | \
+{a}eag{a}e2f | \
+{a}gG{d}G{g}G{d}B{G}B |
+{g}Bd{c}d{gef}edB{g}AaA{ag}a2g | \
+{a}eag{a}e2f | \
+{a}ge{A}e{g}dBd |
+{g}eA{d}A{gAGAG}A2 :: \
+{d}A | \
+{g}eA{d}A{g}A{d}B{G}B | \
+{g}eA{d}A{g}eAe |
+{gde}dB{G}B{g}G{d}B{G}B | \
+{gef}edB{g}dB{d}G|1 {g}eA{d}A{g}A{d}B{G}B | \
+{g}eA{d}A{ag}a2f |
+{a}ge{A}e{g}dBd | \
+{g}eA{d}A{gAGAG}A2:|2
+{g}eA{d}A{g}fA{d}A |
+{a}gAg{ag}a2f | \
+{a}ge{A}e{g}dBd | \
+{g}eA{d}A{gAGAG}A2|] |:
+{g}e | \
+aA{d}A{a}gAg | \
+aA{d}A{gAGAG}A2a | \
+ge{A}e{g}dBd |
+{g}B{d}G{e}G{g}GBd|1 {g}eA{d}A{g}fA{d}A | \
+{a}gAg{ag}a2f | \
+{a}ge{A}e{g}dBd |
+{g}eA{d}A{gAGAG}A2:|2
+((3ecBA)((3fcBA) | \
+{a}gAg{ag}a2f |
+{a}ge{A}e{g}dBd | \
+{g}eA{d}A{gAGAG}A2 :|

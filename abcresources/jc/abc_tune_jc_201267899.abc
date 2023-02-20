@@ -1,0 +1,17 @@
+X: 1
+T: Delia (or The Amorous Goddess)   [A]
+C: Samuel Howard 1744
+N: This is a song "Delia", from Samuel Howard's opera The Amorous Goddess, written in 1744.
+%P: 3x ABA
+M: 4/4
+L: 1/8
+K: A
+"A"
+[|"A"A2 A/B/c "E"B2 eG | "F#m"A2 "Bm"d<B "D"A2 "E"G2 | "A"AE F=G "D"F^G "A"A2 | "Bm"B/c/d c2 "E"B4 |
+| "A"A2 A/B/c "E"B2 eG | "F#m"A2 "Bm"d<B "D"A2 "E"G2 | "A"AE F=G "D"F2 "Bm"dB | "A"A2 "E"G2 "A"A4 H|]
+"B"
+[|"E"G2 "A"A/B/c "E"B2 AG | "F#m"A2 "B"GF "E"G4 | "E"BG FE "A"C^D "E"E2 | "F#m"A2 G2 "B"F4 |
+| "E"G2 "A"Ac "E"B2 AG | "F#m"A2 fA "E"G4 | "E"BG FE "F#m"C2 AF | "E"E2 "B7"^D2 "E7"E4 "^d.C."[|]|]
+%"C" -- identical to the A part
+%[|"A"A2 A/B/c "E"B2 eG | "F#m"A2 "Bm"d<B "D"A2 "E"G2 | "A"AE F=G "D"F^G "A"A2 | "Bm"B/c/d c2 "E"B4 |
+%| "A"A2 A/B/c "E"B2 eG | "F#m"A2 "Bm"d<B "D"A2 "E"G2 | "A"AE F=G "D"F2 "Bm"dB | "A"A2 "E"G2 "A"A4 |]

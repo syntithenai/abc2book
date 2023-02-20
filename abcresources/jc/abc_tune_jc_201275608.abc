@@ -1,0 +1,17 @@
+X: 1
+T: Fiddler's Choice
+C: William (Bill) Sampson (2019)
+R: reel
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+S: Facebook 2019-8-4 from Bob Littman
+N: Written for the Glenora Distillers "International Night of A Thousand Fiddles", Aug. 31, 2019,
+N: They suggested that as many fiddlers as want to should play this tune on Aug 31.
+M: C|
+L: 1/8
+K: A
+"^A"\
+|: "A"EAAB "F#m"AFEA | "A"cBcd "F#m"cBA2 | "A"e^def e=dcd | ecAc "E7"B2B2 |
+|  "A"EAAB "F#m"AFEA | "A"cBcd "F#m"cBA2 | "A"e^def ecBA | "E7"EAAG "A"A2A2 :|
+"^B"\
+|: "A"afef edcd | ecAc "D"BAF2 | "A"EAAG ABcd | efec "E7"B2Bc |
+|  "D"dcde fedf | "A"ecAc "D"BAF2 | afef "A"ecBA | "E7"EAAG "A"A2A2 :|

@@ -1,0 +1,30 @@
+X: 1
+T: Carlton Maggot
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (41)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd (long) strain has initial repeat but no final repeat.
+M: 6/8
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B<c |\
+d2d d>cd | B2B B>AB | c>de d>cB | A2A A>Bc |\
+d2d d>cd | B2B B>AB | c>de dcB | A2G G> :|
+|: BB |\
+B3 Acc | c3 Bdd | d>ed c>dB | A2A A>BB |\
+B3 Acc | c3 B>cd | d>ed c>dB | A2A A>Bc |
+d2d d>cd | B2B BAB | c>de d>cB | A2A A>Bc |\
+d2d d>cd | B2B BAB | c>de dcB | A2G G>ba |
+g>fg a>ba | g>fg a>ba | a>gf =efg | ^f2d d>Bc |\
+d2d d>Bc | B2B B>AB | c>de d>cB | A2A A>Bc |
+d2d d>cd | B2B B>AB | c>de d>cB | A2G G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Man go round the 2d Wo. and turn the 2d Man 'till the 1st Man comes into his own
+%% Place the 1st Wo. go round the 2d Man and turn the 2d Wo. 'till the 1st Wo comes into
+%% her own Place the 1st Cu. cross over and go the Figure thro till they come into the 2d Cu.s Place
+%% then lead thro' the 3d Cu. and cast up and go the figure thro the 1st Cu. and so cast off
+%%endtext
+%%sep 1 8 500

@@ -1,0 +1,21 @@
+X:1102
+T: Gusta mi Magla Padnala
+O: Serbia
+F: http://www.youtube.com/watch?v=tecQs5ria0c
+F: http://www.youtube.com/watch?v=ygT_aiaxFnQ
+F: http://www.youtube.com/watch?v=sHlvazEJCk4
+Z:transcribed by Jutta Weber_Karn/Martin Junghans
+Z:adapted and converted to abc notation by Seymour Shlien
+F:http://www.folkloretanznoten.de/
+M: 7/8
+L: 1/8
+K: Dm
+Q:1/4=120
+%%MIDI drum d2dd2d2 41 41 43 41 100 70 85 80
+%%MIDI drumon
+%%MIDI program 24 Acoustic Guitar
+"Dm"a2g gf ag|f2e dc de|[1f2e fg ed|d2c de fg:|[2 "C" f2g e2ed|"Dm"d2c d2 z2::
+%%MIDI program 42 Cello
+%%MIDI drum d2dd2d2 41 41 43 41 80 60 75 65
+F2E FG ED|D3 D2-D2|G3 G2-GE|F2E DC DE|
+F2E FG ED|D3 D2-D2|"C"F2G E2-ED|D3-D2z2:|

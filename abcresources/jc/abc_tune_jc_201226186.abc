@@ -1,0 +1,27 @@
+X: 1012
+T: IRON BOOTS QUICK-STEP
+C: C. E. Bennett
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.101 #2
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: There's a missing 1/8 note bfore the first bar.  (Added.)
+N: The 3rd part has very odd beaming, transcribed as-is.
+N: The time signature was wrong: 2/2, corrected to 2/4.
+M: 2/4
+L: 1/16
+K: F
+z2 |\
+F2AA A2A2 | A2B2 B4 | B2G2 G4 | G2A2 A4 |\
+F2AA A2A2 | A2B2 B4 | G4 c4 | F2F2 z2 :|
+|: c2 |\
+a2gf edcB | A2B2c2z2 | c3e gege | c3f afaf |\
+a2gf edcB | A2B2c2z2 | c3e geag | f4 z2 H:|
+|: f2 |\
+e2 c2d2 d2 | c2 A2c2 c2 | B2 G2A2 G2 | A2B2c2 f2 |\
+e2 c2d2 d2 | c2 A2c2 c2 | B2z2 a2g2 | f4 z2 :|
+|:[K:C] G2 |\
+G2GG GGGG | c2c2 z2cd | e2dc e2dc | d2d2 z2G2 |\
+G2GG GGGG | c2c2 z2^f2 | g2g2 ^fgaf | g2g2 z2 :|
+|: cd |\
+ed3 A3B | c2e2 G4 | dcBc d2e2 | f2^f2 g4 |\
+ed3 A3B | c2e2 G4 | dcBc d2e2 | c4 "^da Capo"z2 :|

@@ -1,0 +1,27 @@
+X: 20862
+T: the REAL IRISH QUADRILLES No 2. -- l'Et\`e.
+P: a Bumper for Luck.
+N: The accent in the title is wrong.
+%R: march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.86 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(dcBA) !segno!|:\
+G2g2e2g2 | d4 (^cded) | A2A2 (^cded) | B2G2 (dcBA) |\
+G2g2e2g2 | d2(ef) (gfed) | ^c2d2 e2(fe) | d4 |]
+[| d2(d2 |\
+^c2)c2=c2(c2 | B4) d2b2 | c2a2B2g2 | B2A2 d2(de) |\
+^c2c2 =c2(cd) | B4 GABc | (defg) dcBA | GA_Bc d2=f2 |]
+K: Gm
+"Minore."[|\
+g2g2g2g2 | f2e2 d4 | e2e2e2e2 | d2c2 B4 |\
+c2c2B2A2 | B2d2 g4 | A2z2 f2z2 | (g^fed) ("^D.C. al"dc=BA) !segno! :|
+K: G
+"^Coda."[|\
+G2g2e2g2 | d4 (^cded) | A2A2 (^cded) | B2G2 (dcBA) |\
+G2g2e2g2 | d2(ef) (gedc) | B2G2A2F2 | G4 H|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

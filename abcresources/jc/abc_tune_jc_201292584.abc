@@ -1,0 +1,17 @@
+X: 28
+T: Jenny Pluck Pears
+R: jig, waltz
+B: "FIFTY OLD ENGLISH FOLK DANCE AIRS", Edgar H. Hunt ed., Schott & Co. Ltd. pub., London 1939
+Z: 2004-2014 John Chambers <jc:trillian.mit.edu>
+N: Chords by John Chambers
+N: The first two bars are sometimes repeated, giving an 8-bar first strain.
+M: 6/8
+L: 1/8
+K: Gdor
+|:\
+"Gm"G2G "F"(A>B)c | "Gm"(B>A)G "Dm"(F2D) |\
+"Gm"d2d "F"(c2A) | "Gm"(B>A)G "Dm"(F2D) |\
+"C"(E>F)G "Dm"(F>E)F | "Gm"G3 G3 :|[M:3/4][L:1/4]
+[|\
+"Gm"G(dc) | "(F)"(B2A) | "Gm"G(dc) | "(F)"(B2A) |\
+"Gm"Gdc | "Gm"(B>A)G | "Dm"(F>E)F | "Gm"G3 |]

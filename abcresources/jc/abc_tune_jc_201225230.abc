@@ -1,0 +1,23 @@
+X: 091
+T: le Contes des Fees.          F.
+C: Ignatius Sancho 1775
+%R: march, reel
+B: "Minuets Cotillons & Country Dances", 1775 p.9 #1
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: cfcA | cfcA | c2BA | dBGB  | cfcA  | cfcA | cBAG | F2F2 :|
+[V:2] |: f2a2 | f2F2 | a2f2 | b2c'2 | f2a2  | f2F2 | ABc2 | F2f2 :|
+[V:1] |: fafd | egec | dfed | c2A2  | BdBG  | AcAF | cBAG | F2F2 :|
+[V:2] |: f2Ff | e2Ee | f2g2 | c2f_e | d2=e2 | f2F2 | ABc2 | F2f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% All Round Back again Each Gentleman turn his Partner Ballance and Rigadoon Step,
+%% Each Gentleman turn his Partner the other way, Ballance and Rigadoon Step.
+%%endtext

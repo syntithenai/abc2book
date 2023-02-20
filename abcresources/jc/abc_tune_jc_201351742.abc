@@ -1,0 +1,22 @@
+X: 4
+T: When Daylight Shines  [A]
+O: England
+A: Gloucestershire and Cumberland
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 6/8
+L: 1/8
+K: A
+e "A1"\
+| "A"agf edc | "E7"e2d B2c | "E7"dcd f2e | "A"c3 Ace \
+| "A"agf edc | "E7"e2d B2c | "E7"dcd f2G | "A"A3- A2 |]
+e "A2"\
+| "A"edc cBA | "E7"G2B f2d | "E7"efe d2e | "A"c3 Ace \
+| "A"edc cBA | "E7"G2B f2d | "A"e2c "E7"edB | "A"A3- A2 |]
+E "B1"\
+| "A"A2B c2d | "A"e3 c2e | "A"f2e "E7"d2e | "A"c3 A2E \
+| "A"A2B c2d | "A"e3 a2a | "E7"gfe dcB | "A"A3- A2 |]
+F "B2"\
+| "A"AGA c2d | "A"e3 "D"f2d | "A"efe "E7"d2e | "A"c3 A2E \
+| "A"AGA c2d | "A"e3 "D"f2d | "A"e2c "E7"edB | "A"A3- A2 |]

@@ -1,0 +1,57 @@
+
+X: 1
+T: "Inspector Gadget" bulgar   [Dm]
+S: Jon Cannon @ Brookline Klezmer Jam
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/16
+K: Dm
+|:\
+"Dm"DEFG A2d2 A2d2 A4 | "A7"AGGF FEED "Dm"DEFG "(A7)"A4 |\
+"Dm"DEFG A2d2 A2d2 A4 | "A7"AGGF FEED "Dm"DED2- D4 :|
+|:\
+"A7"AGGF FEED "Dm"D2E2 F2G2 | "A7"AGGF FEED "Dm"DEFG A4 |\
+"A7"AGGF FEED "Dm"D2E2 F2G2 | "A7"AGGF FEED "Dm"DED2- D4 :|
+|:\
+"Gm"BBBB B2B2 "Dm"d2d2 A4 | "A7"AGGF FEED "Dm"DEFG A4 |\
+"Gm"BBBB B2B2 "Dm"d2d2 A4 | "A7"AGGF FEED "Dm"DED2- D4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: "Inspector Gadget" bulgar   [Em]
+S: Jon Cannon @ Brookline Klezmer Jam
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/16
+K: Em
+|:\
+"Em"EFGA B2e2 B2e2 B4 | "B7"BAAG GFFE "Em"EFGA "(B7)"B4 |\
+"Em"EFGA B2e2 B2e2 B4 | "B7"BAAG GFFE "Em"EFE2- E4 :|
+|:\
+"B7"BAAG GFFE "Em"E2F2 G2A2 | "B7"BAAG GFFE "Em"EFGA B4 |\
+"B7"BAAG GFFE "Em"E2F2 G2A2 | "B7"BAAG GFFE "Em"EFE2- E4 :|
+|:\
+"Am"cccc c2c2 "Em"e2e2 B4 | "B7"BAAG GFFE "Em"EFGA B4 |\
+"Am"cccc c2c2 "Em"e2e2 B4 | "B7"BAAG GFFE "Em"EFE2- E4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: "Inspector Gadget" bulgar   [Bm]
+S: Jon Cannon @ Brookline Klezmer Jam
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/16
+K: Bm
+|:\
+"Bm"Bcde f2b2 f2b2 f4 | "F#7"feed dccB "Bm"Bcde "(F#7)"f4 |\
+"Bm"Bcde f2b2 f2b2 f4 | "F#7"feed dccB "Bm"BcB2- B4 :|
+|:\
+"F#7"feed dccB "Bm"B2c2 d2e2 | "F#7"feed dccB "Bm"Bcde f4 |\
+"F#7"feed dccB "Bm"B2c2 d2e2 | "F#7"feed dccB "Bm"BcB2- B4 :|
+|:\
+"Em"gggg g2g2 "Bm"b2b2 f4 | "F#7"feed dccB "Bm"Bcde f4 |\
+"Em"gggg g2g2 "Bm"b2b2 f4 | "F#7"feed dccB "Bm"BcB2- B4 :|

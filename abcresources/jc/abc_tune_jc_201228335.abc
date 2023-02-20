@@ -1,0 +1,79 @@
+%%text RJ Set 111 NEFFA 2012 Irish Reels
+
+
+X: 1
+T: Scotch Mary   [C]
+O: trad Irish
+M: C|
+L: 1/8
+R: reel
+K:Cmix	% Transposed from DMIX
+|:\
+"C"EFGF EFGF | ECG,A, "Bb"B,CDF |\
+"C"EFGF EFGF | "Bb"ECDE "C"C3D |\
+"C"EFGF EFGF | ECG,A, "Bb"B,CDF |
+"C"EFGA "Bb"BAGF |[1 "Bb"ECDE "C"C3D :|[2 "Bb"ECDE "C"CGAB ::\
+"C"c3B GAGF | EFGA "Bb"B2AB | "C"GccB "Bb"GAGF |
+"C"ECDE CGAB | "C"c3B GAGF | EFGA "Bb"BGAB |\
+"C"cABG AFGF |[1 "Bb"ECDE "C"CGAB :|[2 "Bb"ECDE "C"C4 |]
+
+
+X: 2
+T: Scotch Mary   [D]
+O: trad Irish
+M: C|
+L: 1/8
+R: reel
+K: Dmix
+|:\
+"D"FGAG FGAG | FDA,B, "C"CDEG |\
+"D"FGAG FGAG | "C"FDEF "D"D3E |\
+"D"FGAG FGAG | FDA,B, "C"CDEG |
+"D"FGAB "C"cBAG |[1 "C"FDEF "D"D3E :|[2 "C"FDEF "D"DABc |:\
+"D"d3c ABAG | FGAB "C"c2Bc | "D"Addc "C"ABAG |
+"D"FDEF DABc | "D"d3c ABAG | FGAB "C"cABc |\
+"D"dBcA BGAG |[1 "C"FDEF "D"DABc :|[2 "C"FDEF "D"D4 |]
+
+
+X: 3
+T: Father Kelly's Reel
+R: Reel
+C: Fr Patrick Joseph Kelly
+S: Roaring Jelly collection
+M: C|
+L: 1/8
+K: G
+GA |\
+"G"B2 GB "G/A"AGEG | "G/B"DGGF "G"GABd |\
+"C"c2AB "C/B"cBAG | "Am"EAAG "D"FDGA ||\
+"G"B2GB AGEG |
+DGGF GABd |\
+"C"cdef "G"gdBd | "D"cAFA "G"G2 :: Bc |\
+"G"d2Bd gdBd | d2Bd gdBd |
+"C(Am)"e2 ce agfe | "D"defg agfe ||\
+"G"d2Bd gdBd | d2Bd gdBd |\
+"C"c2dc "G"BAGB | "D"ADFA "G"G2 :|
+
+
+X: 4
+T: Dillon Brown (also called Laington's)
+R: reel
+M: C|
+L: 1/8
+K: A
+cB |\
+"A"AFEF A3 e | "D"fece fgaf |\
+"A"e2 ce "F#m"afec | "Bm"BAFA "E"BdcB ||\
+"A"AFEF A2 ce | "D"fece fgaf |
+"A"(3efe ce "D"afec | "E"BdcB "A"A2 :|\
+ed |:\
+"A"ceAe ceAc | "E"BE (3EFE BcdB | "A"cAAG "F#m"Acec |
+"Bm"BABc "E"dcBd || "A"AccB cedc |\
+"E"B3 A  BcdB | "A"ABce "D"fefa |\
+["." "E"ecc=c ^cdcB :|["End" "A"AFEF A4 |]
+
+%%%text Alternate A part:
+%"A"AFEF A3 e | "D"fece fgaf | "A"ec=c^c "F#m"afec | "Bm"afec "E"BdcB |
+%"A"AFEF A=c^ce | "D"fece faaf | "A"(3efe ce "D"afec |1 "E"BdcB "A"A2 cB :|[2 "E"BdcB "A"A2 ed |]
+% text 4/10/12
+

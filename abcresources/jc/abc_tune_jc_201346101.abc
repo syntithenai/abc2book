@@ -1,0 +1,22 @@
+X: 719
+T: the Traveller
+T: aka Walker Street, Carpenter's Reel
+T: an siu\.balta\.c
+R: reel
+%S: s:2 b:16(8+8)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #719
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0719/oneill-1001-0719-1.abc
+M: C| 
+L: 1/8
+K: G
+"^A"[|] D2 !segno!|\
+G2(BG) dGBG | ABcd cBAG | Bdgd (3(efg) dB | cBAG FADF ||\
+G2(BG) dGBG | ABcd cBAG | Bdgd (3(efg) dc | BGAF G2 H ||
+"^B"[| (Bd) |\
+{a}g2(dg) Bgd"^1)"f | gabg agef | g2(dg) BgdB | cBAG FADF ||\
+{f}g2(dg) Bgd"^1)"g | gabg agef | gfga gfed (3(efg) (fa) gedB !segno!|]
+%%begintext align
+%% 1) These two notes should probably be identical. It's hard to
+%% say whether f or g is correct, though.
+%%endtext

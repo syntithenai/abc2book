@@ -1,0 +1,181 @@
+X:1027
+T:Variations on a Tyrolienne
+T:(original for cornet or trumpet)
+T:Introduction
+C:Joseph Jean Baptiste Laurent Arban
+B:From "Method for the Cornet"
+Z:Transcribed by Laura Conrad - http://www.world.std.com/~lconrad/
+F:http://abc.musicaviva.com/tunes/arban-joseph-jean-baptiste-laur/tyrolienne-trp.abc
+%%partsfont Helvetica 12
+M:9/8
+L:1/8
+K:G
+%1
+"Andante moderato" G6 FB^D | F3 E2 z B,EG | B3-BGE cAF | E3 ^D2 z z2 z |
+%2
+G3- G2G ^G3 | {FG}A2 E c3-c2 B | B^AE G3 ^A,3 | B,3-B,2 z z2 z | D3-DBA G{AG}F/G/c/B/ |
+%3
+^G3 A3 c3/4B//A3/4G//F3/4E// | E2 D D3 {ED^C}D/F/A/c/e/d | c3 B3 z2 z | D {E/D/}^C/D/E/D/ G/D/B/G/"rall."d-d/c/B/A/G/F/ |
+%4
+^D-D//E//F//E// B//c//d//c// ^G//A//B//A// E//F//E//D// E//F//G//G// A//G//F//G// A/B/c/^c/ | (3dd~^d (3He/=d/^c/ (3=c/B/A/ (3G/F/E/ {E}(3~DHB>A | G3 |]
+
+X:2
+T:
+T:Theme
+M:3/4
+L:1/8
+K:C
+%1
+"Andante"z2 G > F EG e3-d | c-E G3 c | BDFGBd | cE G3-F |
+%2
+EG e3-d | cE G3 c | BDFGBd | c4 z e | dc A3 ^F | GB d3 d | edcD^FA |
+%3
+GB g3e | dc A3 ^F | GB d3 d | edcD^FA | G4 G>F | EG e3 d | cE G3 c |
+%4
+BDFGBd | cEG3 F | EG e3 d | cEG3 c | BdfGBd | c4 |]
+
+X:3
+T:
+T:Variation I.
+M:3/4
+L:1/8
+K:C
+%1
+G>F | (3E-Gc e>c (3BcA | (3G^FA (3GEC G,>C | (3B,DF B2 (3dDF |
+%2
+(3EGc e2 G>F | (3EGc e>c (3BcA | (3G^FA (3GEC G,>C | (3B,DF (3GBd (3fBd |
+%3
+c4 || e2 | {E}(3dcA ^FDF A>F | G~B d > d | (3edc (3AD^F A>F |
+%4
+(3GBd g > e | {E}(3dcA (3^FDF A>F | G~B  d3  d | (3edc AD^F A>F |
+%5
+G4 G>F | (3EGc e>c (3 BcA | (3G^FA (3GEC G,>C | (3B,DF B2 (3dDF |
+%6
+(3EGc | e2 G>F | (3EGc "(1)"e3 c2 (3BcA | (3G^FA (3GEC G,>C | (3B,DF (3GBd (3fBd | c4 |]
+N: sic.  In other words, this one measure is in 4/4 instead of 3/4, but not notated that way.
+
+X:4
+T:
+T:Variation II.
+M:3/4
+L:1/8
+K:C
+%1
+L:1/16
+G3 F | EGed cEEG ceag | ^fgg^d deeB BccG |
+FGGB BGGd dGGB | cGEF GeFd EcGF | EGed cEEG ceag
+^fgg^d deeB BccG | FGGB BGGd dGGB | BcGE C4 || e3d |  d^f Ac ^F4 e3d |
+dgBd G4 B3 d | d^FFe eFFd d3c | BggB BddG e3d | d^fAc ^F4 e3d |
+dgBd G4 B3d | d^FFe eFFe {de}"rall."d3F | G8 "Tempo I"G3 F | EGed cEEG ceag |
+^fgg^d deeB BccG | FGGB BGGd dGGB | cGEF GeFd EcGF |
+EGed cEEG ceag | ^fgg^d deeB BccG | FGGB BGGd dGGB | BcGE C4 |]
+
+
+X:5
+T:
+T:Variation III.
+M:3/4
+L:1/16
+K:C
+%1
+G3F | ECE GEG cEG cGc eGG dGG | cedcBA GcBAGF EGFEDC |
+w:l1p238
+%2
+B,GGGGG FGGGGG BGG dGG | cBc e^de g^f=f e=dc BAG G^F=F | ECE GEG cEG cGc eGG dGG |
+w:l2p238
+%3
+cedcBA GcBAGF EGFEDC | B,GG GGG FGG GGG BGG dGG | cGG eGG c2 z2 ||
+w:l3p238
+%4
+e3d | ddd dg ^fff f>A c4 | BBB Bg ddd d>G B4 | eee eA ccc c^F AAA AD |
+w:l4p238
+%5
+G^GA ^ABc ^cd^d ef^f g3e | ddd dg ^fff f>A c4 | BBB Bg ddd d>G B4 |
+w:l5p238
+%6
+eee eA ccc c^F AAA "rall."Ad | G8 "Tempo I"G3F || ECE GEG cEG cGc eGG dGG |
+w:l6p238
+%7
+cedcBA GcBAGF EGFEDC | B,GGGGG FGGGGG BGG dGG |
+w:l7p238
+%8
+cBc e^de g^f=f e=dc BAG G^F=F | ECE GEG cEG cGc eGG dGG |
+w:l8p238
+%9
+ced cBA GcB AGF EGF EDC | B,GGGGG FGGGGG BGG dGG | cGG eGG c2 z2 |]
+w:l9p238
+
+X:6
+T:
+T:Variation IV.
+M:3/4
+L:1/16
+%%MIDI transpose -24
+K:C
+%1
+z4 | CEGceg ecGEGE CEGceg | CEGceg ecGEGE CEGceg |
+w:l
+%2
+fgfefe dfdcdc BcBAGF | ECEGce gecGEC G,GGGGG |
+w:2
+%3
+CEGceg ecGEGE CEGceg | CEGceg ecGEGE CEGceg |
+w:3
+%4
+fgfefe dedcdc BAGFED | CEGceg C4 || z4 | ^FFF AAA ccc ddd ^fff aaa|
+w:4
+%5
+g2 ddd BGG GGG BBB ddd | cddddd Addddd ^Fddddd |
+w:5
+%6
+Gddddd BGGGGG BBB GGG | ^FFF AAA ccc ddd ^fff aaa |
+w:6
+%7
+g2 ddd BGG GGG BBB ddd | cddddd Addddd ^Fddddd |
+w:7
+%8
+GBBBBBG4 z4 | CEGceg ecGEGE CEGceg | CEGceg ecGEGE CEGceg |
+w:8
+%9
+fgfefe dedcdc BcBAGF | ECEGce gecGEC G,GGGGG | CEGceg ecGEGE CEGceg |
+w:9
+%10
+CEGceg ecGEGE CEGceg | fgfefe dedcdc BAGFED | CEGceg C4 z4 |]
+w:10
+
+X:7
+T:
+T:Rondo
+M:2/4
+L:1/16
+K:C
+%1
+"Allegro"G3F | E2G2e2d2 | .c2.E2 G4 | A2G2.D2.B2 | d2c2G3F | E2G2e2d2 | c2E2 G4 | D2F2G2B2 |
+w:l1p239
+%2
+c4 z2 e2 | d2c2A2^F2 | G2B2 d4 | e2d2c2A2 | e2d2B2G2| d2c2A2^F2|G2B2 d4 | {e/d/}^c2d2=c2^F2 | G4 z4 | z16 |
+w:l2p239
+%3
+z4 GAGF | EGce dcBd | ceag fedc | BGBd cGce | dgdB GAGF | EGce dcBd |
+w:l3p239
+%4
+ceag fedc | defd cBAB | c4 z2 e2 | fagf egfe | dfed cedc  |BGBD cGce |
+w:l4p239
+%5
+d2GA Bcde | fagf egfe | dfed cedc | Adfd cBAB | cGGG eGGG | dG^FG AGBG |
+w:l5p239
+%6
+cGGG AGGG | ^FG=FG EGDG | CGGG eGGG | fG^FG AGBG | cGGG AGGG | ^FG=FG EGDG |
+w:l6p239
+%7
+C2EG cEGc | eEGc eGce | gecG ecGE | cGEC cGEC | G,2GG GGGG |
+w:l7p239
+%8
+GGGG GGGG | c2GG GGGG | GGGG GGGG | c4 z2 d2 | e2d2e2d2 | e4 z4 | g4 z4 | C8 |]
+
+
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+

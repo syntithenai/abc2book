@@ -1,0 +1,16 @@
+X: 21151
+T: JOHN OF BADENYON
+%R: strathspey
+B: "Edinburgh Repository of Music" v.1 p.115 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added missing dot to the B in bar 8.
+M: C|
+L: 1/8
+K: D
+d |\
+B>AF>A B>AF>A | d>edB A3d | B>cd>e f>ed>f | d<Bd>e f3a |
+b>fa>e f>de>B | d>BA>F d3e | f>de>B d>BA>F | E<EF>^A B3 :|
+|: a |\
+b>af>a b>af>b | a>fe>f {f}a3d' | b>af>a b>a {g}f>e | d>Bd>e f3a |
+b>fa>e f>de>B | d>BA>F d3e | f>de>c d/c/B/A/ d>F | E<EF>^A B3 :|

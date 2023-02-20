@@ -1,0 +1,29 @@
+X: 2112
+T: Old Dumbarton Drum's Scotish Measure
+%R: air, Scots measure, march
+N: This is version 1, for ABC software that doesn't understand diminuendo symbols.
+B: Niel Gow & Sons "Complete Repository" v.2 p.11 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: The unneeded flats before some B notes are "not even wrong", and transcribed as published.
+M: C
+L: 1/8
+Q: "SLOWISH"
+K: F	% and Dm
+% - - - - - - - - - -
+% Voice 1 reformatted slightly for 2 8-bar lines, for phrasing and proofreading.
+V: 1 staves=2
+c>B |\
+A3B (ABG)A | F2c2 ~c2BA | (TGF).G.A (BA)(GF) | D2d2 d2cB ||\
+A3B (Ac)(GA) | F2c2 ~c2BA | (GB)Ac (BG)(AF) | D2d2 d2 :|
+|:\
+(c/d/e) |\
+Tf3g fg(ag) | .f2.d2 .c2A2 | Tf3g (fg).a.g | ~f2 d4 (f>g) ||\
+(ag).f.a {a}g2fe | (df).e.g (gf).e.d | "_dim..."(dc)(BA) AGFE | D2d2 d2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+e2 |\
+f4 f2c2 | A4 F2f2 | e2f2 g2a2 | d4 e4 ||\
+f4 f2c2 | A4 F4 | G4 A2A2 | D2d2 D2 :||: z2 |
+f2f'2 f2f'2 | a2_b2 a2f2 | f2e2 d2aA | d2A2 D2d2 ||\
+f4 c'2^c'2 | d'2_b2 a2b2 | "_dim..."a4 A4 | d2D2 D2 :|

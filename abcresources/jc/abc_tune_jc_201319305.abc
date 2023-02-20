@@ -1,0 +1,17 @@
+X:545
+T:Old Wife Behind the Fire
+C:Neal, c.1726
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=120
+M:2/2
+L:1/4
+K:Gmix
+%%MIDI program 65     Alto Sax
+%%MIDI chordprog 73   Flute
+%%MIDI bassprog 67    Baritone Sax
+P:A
+|:c | "G"B2 GB | "F"AF cA | "G"B2 GB | "/"AG gd |\
+"G"B2 GB | "F"AF cA | "G"B/c/d "F"AB | "G"G2 G :|
+P:B
+|:c | "G"Bd2d/e/ | "F"fF cA | "G"Bd2e/f/ | "/"gd gd |\
+"G"Bd2d/e/ | "F"fF cA | "G"B/c/d "F"AB | "G"G2 G :|

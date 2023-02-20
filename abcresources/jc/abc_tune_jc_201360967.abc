@@ -1,0 +1,35 @@
+%%scale 1.02
+%%barsperstaff 4
+X:1
+T:Wild Mountain Thyme
+C:Traditional Folk Tune
+O:Scotland
+M:C
+L:1/8
+K:D
+%%staves {RH1}
+|DE|"D"F"^VERSES"F3 "G"E3D|("D"B,D3) "D7"z2 FA|"G"B3B B3A
+w:Oh, the sum-mer-time has come_ And the trees are sweet-ly
+w:I will build my love a tow-er By yon pure,_ crys-tal
+w:I will range_ through the wilds_ And the deep_ land so
+w:If my true love will not come_ I will sure-ly find a
+w:Oh, the au-tumn-time is comin'_ And the leaves will soon be
+|"D"FA3 "D7"z2 FA|"Bm"B4 A2F2|("Em"ED3) z2 EF|"G"G3F E2D2
+w:bloom-in', And the wild moun-tain thyme_ Grows a-round the pur-ple
+w:fount-ain, And it's there I will bring_ All the flow-ers of the
+w:drear-y, And re-turn with the spoils_ To the bow-er o' my
+w:noth-er, To pull wild moun-tain thyme_ All a-round the pur-ple
+w:fall-in' And the blossoms o' the sum-mer Will soon wi-ther on the
+|B,D3 D3B,|("D"A,3B,) "G"DD3|"D"D4 "D7"z2|
+w:heath-er; Will ye go,_ las-sie, go?
+w:mount-ain; Will ye go,_ las-sie, go?
+w:dear-ie; Will ye go,_ las-sie, go?
+w:heath-er; Will ye go,_ las-sie, go?
+w:mount-ain; Will ye go,_ las-sie, go?
+%%staves {RH1}
+|"^CHORUS"FA|
+w:And we'll
+|"G"B4 B3A|"D"FA3 "D7"z2 FA|"Bm"B4 A2F2|("Em"ED3) z2 EF
+w: all go to-geth-er, To pull wild moun-tain thyme_ All a-
+|"G"G3F E2D2|B,D3 D2B,2|("D"A,3B,) "G"DD3|"D"D6||
+w: round the pur-ple heath-er; Will ye go,_ las-sie, go?

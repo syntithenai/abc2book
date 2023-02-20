@@ -1,0 +1,17 @@
+X: 390
+T: Phiravelman Kalyi Phur
+O: Gypsy, Romani
+F: http://www.youtube.com/watch?v=1CGElOiuzMI
+M: 4/4
+L: 1/8
+K: FPhr =A clef=treble
+Q: 1/4=180
+%%MIDI program 1 % Bright Piano
+%%MIDI bassprog 32 % Acoustic Bass
+%%MIDI chordprog 24 % Acoustic Guitar
+ABcAB2A2    |AcBAG2F2   |ABcAB2A2       |AcBAG2F2 |
+ABcAB2A2    |AcBAG2E2   |DEF2 EFG2      |FGA2AcBA |G2F2z4|
+"Fm"z2ABc2c2|"Gb"d3cB4  |"Fm"z2ABc2c2   |"Gb"d3cB4|
+"Fm"z2ABc2c2|"Gb"d3cB2B2|"Fm"c3B"Gb"A2G2|"Fm"A4z4 |
+"Gb"z2B3Bc2 |"Fm"A2A6   |"Gb"z2B3Bc2    |"Fm"A2A6 |
+"Gb"z2B3BB2 |"Fm"c3BG2F2|F2F4z2         |

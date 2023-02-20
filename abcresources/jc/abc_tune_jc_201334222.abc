@@ -1,0 +1,22 @@
+X: 1
+T: Savila se bela loza
+O: Srbija
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+P: G
+K: G
+|: "G"[dB][dB][ec][fd] "C"[ge][ge][fd][ec] \
+| "G"[ec][dB][d2B2]- [dB][ge][fd][ec] |
+w:1.~Sa-vi-la se be-la lo-za vi-no-va uz ta-ra-bu
+w:2.~To ne be-\vse be-la lo-za vi-no-va uz ta-ra-bu % vinova
+w:3.~Ve\'c to be-\vse dvo-je mi-li i dra-gi, dvo-je mi-li % i dragi./3
+| "(D)"[ec][dB][d2B2]- [dB][ec][ec][dB] \
+| "D"[dB][cA][c2A2]- [cA][dB][dB][cA] \
+| "G"[B2G2]"D"[A2F2] "G"[G4D] :|
+w: vi-no-va uz ta-ra-bu vi-no-va uz ta-ra-bu vi-no-va.
+w: vi-no-va uz ta-ra-bu vi-no-va uz ta-ra-bu vi-no-va.
+w: i dra-gi, dvo-je mi-li i dra-gi, dvo-je mi-li i dra-gi.
+|:: "G"[dB][BG]"D"[cA][AF] "G"[GD][BG][B2G2] \
+| "D"[cA][AF]"A"[BG][GE] "D"[FD][AF]"(3X)"[A2F2] ::|
+w: To-dor To-di pod-va-lio Tri put cu-ru po-lju-bio.

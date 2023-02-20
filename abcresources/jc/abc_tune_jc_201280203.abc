@@ -1,0 +1,36 @@
+X: 1
+T: George's Maggot
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.264
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has 11 bars.
+M: 6/4
+L: 1/4
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+g>a^f g2d | gab a2a |\
+bfd gdB | B>AG G2d |\
+g>a^f g2d | gab a2a |\
+b=e(f/d/) ^c>=BA | d=e^c d2 |] f |\
+=e>d=e f2f | dfa b2b |
+bfd g2f | =e>d=e f2f |\
+fga bfd | gde d>cB |\
+B2(c/d/ f)>e (d/c/) | B>cd e>f (e/d/) |\
+c>de dgf | gdB B>AG | G3- G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First man and wo lead down the 2. cu. and cast up to the top, then cross over and turn one another in their proper
+%% places, then 1. man go round the 2. wo. the 1. wo. doing the same round the 2. man at the same time, then cross over
+%% to the top as they were at first.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+Then 1. and 2. wo. and 1. man, turn once round, and 1. man and wo. cast off below the 2. cu. then lead up through
+%% the 2. cu. and turn S. then 1. and 2. man and 1. wo. turn once round, and 1. man and wo. cast off below the 2.
+%% cu. then lead up through the 2. cu. and cast below them again, and so on.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

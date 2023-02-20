@@ -1,0 +1,22 @@
+X: 1
+T: the Virgin Queen
+P: Longways for as many as will
+%R: slip-jig
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.315 "E e 2"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: 9/4
+L: 1/4
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: (cB)A (AE)A (AE)A | (cB)A (BE)A (BG)B | (cB)A (AE)A (AE)A | B2G (GB)G (BG)B :|
+|: c>de dBA (AE)A | c>de c(d/c/) (B/A/) (BG)B | c>de cBA (AE)A | B>cd (B/c/) (d/c/) (B/A/) BGB :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first couple cross over the second couple, then lead up and cast off, then the Figure of Eight
+%% through the first couple, and the Figure of Eight through the third couple.
+%% [DMDfD]
+%%endtext
+%%center Each Strain twice
+%%sep 1 8 500

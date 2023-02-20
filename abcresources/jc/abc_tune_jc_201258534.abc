@@ -1,0 +1,331 @@
+
+X: 0
+T: Community Dances Manual 5
+N: Reprint No. 9, 1982
+N: Michael Bell, editor
+N: Publiched by EFDSS (The English Folk Dance and Song Society) 1957
+K:
+%%center Eighteen dances from various sources, including reel, threesomes, waltzes,
+%%center mixers and contras, together with sixteen tunes.
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 1
+T: AP SHENKIN
+T: The Tempest
+S: "Community Dances Manual 5", EFDSS, Michael Bell ed., 1957 p.7
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+"A"|: d/c/ |\
+"G"B2B Bgf | "C"e2e efg | "G"ded dcB | "D7"cAA A2d/c/ |\
+"G"BcB Bgf | "C"efe efg | "G"ded "D7"cBA | "G"G2B G2 :|
+"B"|: g/a/ |\
+"G"b2g "D"a2f | "Em"gfg "G"dcB | "C"cde "G"dgB | "D"BAA A2g/a/ |\
+"G"b2g "D"a2f | "Em"gfe "D"agf| "G"bag "A7"fge | "D"dgf "D7"edc |
+"G"B2B Bgf | "C"e2e efg | "G"ded "(E7)"dcB | "Am"cAA "D7"A2d/c/ |\
+"G"BcB Bgf | "C"efe efg | "G"ded "D7"cBA | "G"G2B G2 |]
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 2
+T: BLAYDON RACES
+S: "Community Dances Manual 5", EFDSS, Michael Bell ed., 1957 p.3
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D |\
+"G"G2G G2G | "G"G2G G2G |:\
+"D7"A2A A2A | "G"B3 G2G | "C"c2c c2c |
+"G"B2B B2B | "Am"A2B A2G | "D"F3 "D7"D2D |\
+"G"G2G G2G | G2G G2G | "D7"A2A A2A |
+"G"B3 G2"(G7)"G | "C"c2c c2c | "G"B2B d2d | "C"d2c "D7"B2"FINE"A |\
+"G"G3 B2c | "G"d3- d2B | "G"G3- G2G :|
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 3
+T: BLOW THE MAN DOWN
+S: "Community Dances Manual 5", EFDSS, Michael Bell ed., 1957 p.5
+R: waltz
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: F
+A | "F"c>dc | "F"AFA | "F"c>dc | "F"AFA | "Am"c3 | "Dm"d3 | "Gm"B>AB |
+"C"G2G | "Gm"B>cB | "C"GEG | "Gm"BAG | "Bb"d2f | "F"c>c | "C7"c2B | "F"A>GA | "F"F2 |]
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 4
+T: THE CURLY HEADED PLOUGHBOY
+S: "Community Dances Manual 5", EFDSS, Michael Bell ed., 1957 p.9
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: D
+"A"|: "A7"a3g |\
+"D"f2a2 d2f2 | "D"B4 A2d2 | "A"cdef "G"g2f2 | "D"fagf "A"e2a>g |
+"D"f2a2 d2f2 | "D(G)"B4 "D"A2d2 | "A7"cdef g2c2 | "D"d4 "B":: z2a2 | "E7"^g2g2 gefg | "A"a2a2 a2ba |
+"E7"^g2g2 gefg | "A"a6 ba | "E7"^g2g2 gefg | "A"a2e2 "D"f2d2 | "E7"c2B2 e2^G2 | "A"A4 :|
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 5
+T: DORSET FOUR HAND REEL (First tune)
+S: "Community Dances Manual 5", EFDSS, Michael Bell ed., 1957 p.11
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+"A"[|]BA |\
+"G"G2B2 d2cB | "C"c2e2 c2e2 | "G"G2B2 d3c | "D"B2A2 A2BA |
+"G"G2B2 d2cB | "C"c2e2 c2e2 | "G"G2B2 "D7"d3c | "G"B2G2 G2 :|
+"B"|: d2 |\
+"G"g2g2 "(C)"gfe2 | "G"d2d2 dcB2 | "Am"A2AB c2d2 | "D7"e2d2 d2ef |
+"G"g2g2 "(C)"gfe2 | "G"d2d2 dcB2 | "D7"A2AB c2A2 | "G"G4 G2 :|
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 6
+T: DORSET FOUR HAND REEL (Second tune)
+S: "Community Dances Manual 5", EFDSS, Michael Bell ed., 1957 p.11
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+"A"[|]E2 |\
+"A"A2ce aecA | "D"d2f2 d2f2 | "A"A2ce aecA | "D7"B2e2 B2e2 |
+"A"A2ce aecA | "D"d2f2 d2f2 | "E7"e2gf edcB | "A"A2a2 a2 :|
+"B"|: cd |\
+"A"e2c2 e2c2 | "D"f2d2 f2d2 | "A"e2c2 e2c2 | "E7"B2e2 e3e |
+"A"e2c2 e2c2 | "D"f2d2 f2d2 | "E7"e2gf edcB | "A"A2a2 a2 :|
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 7
+T: KEEL ROW
+S: "Community Dances Manual 5", EFDSS, Michael Bell ed., 1957 p._
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+dc |\
+"G"B2GB "D7"c2Ac | "G"B2GB "D"AFDc | "G"B2GB "Am"c2Ac | "D7"BGAF "G"G2dc |
+"G"B2GB "D7"c2Ac | "G"B2GB "D"AFDc | "G"B2GB "Am"c2Ac | "D7"BGAF "G"G2 ||
+c2 |\
+"G"Bddg "C"e2dc | "G"BAGB "D"AFDc | "G"Bddg "C"e2dc | "D7"BGAF "G"G2c2 |
+"G"Bddg "C"e2dc | "G"BAGB "D"AFDc | "G"Bddg "C"e2dc | "D7"BGAF "G"G4 |]
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 8
+T: KITTY McGEE
+S: "Community Dances Manual 5", EFDSS, Michael Bell ed., 1957 p.9
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+"A"|: A |\
+"D"d2d AFA | "D"d3 "A7(Em)"efg | "D"f2d "Em(E7)"e2d | "A"cec "A7"ABc | "D"d2d AFA |
+"D"d3 "A7(Em)"efg | "D"f2d "A7"e2c | "D"ddd d2 "B":: A | "D"d2f agf | "Em"e2f "A7"g3 |
+"D"f2d "Em(E7)"e2d | "A"cAA "A7"A3 | "D"aaa "G"g2f | "Em"e2f "A7"g3 | "D"f2d "A7"e2c | "D"ddd d2 :|
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 9
+T: LADIES TRIUMPH
+S: "Community Dances Manual 5", EFDSS, Michael Bell ed., 1957 p.7
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+"A"|: E2 | "A"E2A2 ABcA | "D"B2 F4 "(E7)"G2 |\
+"A"A2A2 ABcd | "E"e4 "A"c2e2 | "D"f2a2 "A"e2c2 |
+"D"dcBA "E"B2e2 | "A"E2A2 "E7"cBAB | "A"c2A2 A2 "B"::\
+cd | "A"e2c2 a2e2 | "D(Bm)"dcBA "E"B2cd |
+"A"e2c2 a2e2 | "E7"fagb "A"a3e | "D"f2a2 "A"e2c2 |\
+"D(Bm"dcBA "E"B2e2 | "A"E2A2 "E7"cBAB | "A"c2A2 A2 :|
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 10
+T: MY ROSE IN JUNE
+S: "Community Dances Manual 5", EFDSS, Michael Bell ed., 1957 p.5
+C: See "DORSET SONG BOOK"
+R: waltz
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: A
+E/E/ |\
+"A"EAA | "A"AGA | "E7"BcB | "A"A3 | "A"c>cc | "A"cBA | "E"G2B | "E"B3 |
+"E7"BGE | "E7"B2B | "A"c2d | "A"e3 | "A7"eAA | "D"d2c | "E7"BAG | "A"A2 |]
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 11
+T: SHEPTON HORNPIPE
+S: "Community Dances Manual 5", EFDSS, Michael Bell ed., 1957 p.13
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+"A"|: "G"GABc d2dB | "C"c2e2 "D"d3B |\
+"G"GABc d2dB | "C"c2e2 "D"A4 | "G"GABc d2dB |
+"C"c2e2 "G(Bm)"d3B | "Em"GABc "D7"d2dc | "G"B2G2 G4 "B"::\
+"G"g2g2 gagf | "C"e2c2 cdcB | "Am"A2a2 abag |
+"D"f2d2 d2ef | "G(Em)"gagf "C"e2ag | "D"fgfe d2ef |\
+"G"g2BB "D7"cedc | "G"B2G2 G2 :|
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 12
+T: THE STAFFORDSHIRE HORNPIPE
+S: "Community Dances Manual 5", EFDSS, Michael Bell ed., 1957 p.13
+R: hornpipe
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+((3ABc) |\
+"D"d2b2 "G(Em)"g2e>d | "A"c>ea2 "D"f2d2 | "D(G)"d2B2 "Em"g2e>d | "A"c>ea2 "A7"A>ce>c | "D"d2b2 "G(Em)"g2e>d |
+"A"c>ea2 "D"f2d2 | "G"g>ba>g "A7"f>de>c | "D"d2f2 d4 || "D"f2e2 d2c2 | "G"B>c ((3dcB) "D"A2B>c |
+"D"d>cd>e f>ef>g | "A7"a2g2 e2a2 | "D"f2e2 d2c2 | "G"B>c (3dcB "D"A2a2 | "G"b2a>g "A7"f>de>c | "D"d2f2 d2 |]
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 13
+T: STILL I LOVE HIM
+S: "Community Dances Manual 5", EFDSS, Michael Bell ed., 1957 p.5
+N: YARMOUTH
+R: waltz
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+D |\
+"D"DFA | "A7"AGE | "D"EDE | "D"D2D | "D"DFA | "E7"ded | "A"cBc |
+"A7"ABc | "D"d2"G"B | "D"AF2 | "A7"G2E | "D"FA2 | "G"d2B | "D"AFD | "A7"EFE | "D"D2 |]
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 14
+T: THE THREE SEA CAPTAINS
+S: "Community Dances Manual 5", EFDSS, Michael Bell ed., 1957 p.5
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+"A"D |\
+"G"G2G BGB | "D7"c2A F2D | "G"G2G BGB | "G"d2B G2B |\
+"Am"cec "D7"A2c | "G"BdB G2B | "Am"A2B c2B | "Am"ABG "D"FED ||
+!Segno![|]\
+"G"G2G BGB | "D"c2A F2D | "G"G2G BGB | "G"d2B "(G7)"G2B |\
+"Am"cec "D7"A2c | "G"BdB G2F | "C"EcB "D7"AGF | "G"G3- "FINE"G2 |]
+"B"[|d |\
+"G"g2g dcB | "D7"ABc def | "G"g2g dBd | "Am"ecA "D"A2f |\
+"Em"gfg bge | "D"fef afd |
+"Em"e2f g2f | "A7"ed^c "D"d2d |\
+"C"=cBc ecA | "G"BAB dBG | "Am"A2B c2B | "Am"ABG "D"FED "to"y!Segno!|]
+%
+% Original last line was:
+% "C"=cBc ecA | "G"BAB dBG | "Am"A2B c2B | "Am"ABG "D"FED | "G"G2 !Segno!|]
+% The final G2 doesn't make much sense, and breaks the rhythm.
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 15
+T: THE TRIUMPH (Dorset version)
+S: "Community Dances Manual 5", EFDSS, Michael Bell ed., 1957 p.9
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+"A"|: a !Segno!|\
+"A"ecce "D7"dcdB | "A"Aaga "D"f2fa | "A"ecce "E7"dcdB | "A"AcBA A3 :|
+"B"|: c |\
+"E7"B3d "A"c2e2 | "E7"B3d "A"c2e2 | "E7"B2d2 "A"ceaf | "E7"edcB | "A"A3 :|
+"C"|: A |\
+"A"c3e "E7"edcB | "A"c2e2 "E7"edcB | "A"c2e2 "D"fgaf |1 "E"edcB "D"A3 :|2 "E"gabg "D"bag"to"f!Segno!||
+%%text Last round only
+"C"[|] A |\
+"A"c3e "E7"edcB | "A"c2e2 "E7"edcB | "A"ABcd efga | "E7"gabg "A"Ha2 |]
+
+
+%%sep 5 1 500
+
+%%sep 1 1 500
+
+X: 16
+T: WILTSHIRE SIX HAND REEL
+S: "Community Dances Manual 5", EFDSS, Michael Bell ed., 1957 p.3
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: D
+"A"|:\
+"D"f2A2 d2e2 | "D"f2A2 d2e2 | "D"f4 g3f | "A7"f2e2 e4 |\
+"A"e2A2 c2d2 | "A"e2A2c2d2 | "A7"e4 f3e | "D"e2d2 d4 :|
+"B"|:\
+"D"addd d3d | "G"c2B2 B4 | "A7"gccc c3c | "D"B2A2 A4 |\
+"D"addd d3d | "G"c2B2 B4 | "A7"B2e2 B2c2 | "D"d4 d4 :|

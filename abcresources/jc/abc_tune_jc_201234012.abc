@@ -1,0 +1,23 @@
+X: 20203
+T: the DUSTY MILLER
+O: Scottish air.
+Q: "Lively."
+%R: air, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.20 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+B>cd BAG | FAA BAG |\
+B>cd BAG | DGG BAG :|\
+|:\
+Bdd g(fe) | aAA BAG |\
+Bde gfa | gGG BAG :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The above air is at least as old as since 1709
+%%endtext
+%%sep 1 1 300

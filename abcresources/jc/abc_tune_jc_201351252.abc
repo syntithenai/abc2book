@@ -1,0 +1,26 @@
+X:1
+T: Welcome to Winter
+N:
+C:Sue Richards
+S:
+A:
+O:
+R:
+M:4/4
+K:C
+I:speed 100
+%W: A
+% voice 1 (1 lines, 41 notes)
+K:C
+M:4/4
+L:1/16
+e4 e2 e2 g f e d e4 |c2 c B c2 d2 e d c B c d e f |g2 e d e2 e2 g f e d e2 c d |e2 A2 G A B c A4 A4 |
+%W:
+% voice 1 (1 lines, 41 notes)
+e4 e2 e2 g f e d e4 |c2 c B c2 d2 e d c B c d e f |g2 e d e2 e2 g f e d e2 c d |e2 A2 G A B c A4 A4 |
+%W: B
+% voice 1 (1 lines, 44 notes)
+e e A2 A2 A2 c d c2 B A B2 |e e A2 A B c d e d c B c d e f |g g c2 c2 c2 e d e2 d2 f2 |e2 A2 G A B c A4 A4 |
+%W: C
+% voice 1 (1 lines, 43 notes)
+e2 A2 e2 A2 d2 G2 d d G2 |e2 A2 A B c d e d c B A B c d |e e A2 e2 A2 d d G2 d2 G2 |c d e f g f e d c4 c4 ||

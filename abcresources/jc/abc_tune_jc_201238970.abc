@@ -1,0 +1,23 @@
+X: 3182
+T: Earl of Morton's    Jigg
+C: by Will: Gow.
+%R: jig
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.18 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 8-bar lines.
+V: 1 staves=2
+F |\
+(E/F/G).G cdc | TBAB cGE | FdF EcE | dDD D2F || (E/F/G).g cdc | TB3 {AB}cGE | TF3 {EF}DGF | ECC TC2 :|
+f |\
+ecc gcc | acc gcc | ecc gcc | fdd Td2f || ecc gcc | acc gcc |Tfef dgf | ecc c2 f ||
+ecc gcc | acc gcc | ecc gcc | fdd Td2G/F/ || (E/F/G)G cdc | TB3 {AB}cGE | (TFEF) DGF | ECC TC2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | c3 e3 | g3 e3 | d2B c3 | G3 g3 || c3 e3 | g3 e3 | d3 g3 |
+c3 c2 :| z | c3 e3 | f3 e3 | c3 e3 | G3 g3 || c3 e3 | f3 e3 | d3 g3 | c3 c3 ||
+c3 e3 | f3 e3 | c3 e3 | G3 g3 || c3 e3 | g3 e3 | d3 g3 | c3 c2 |]

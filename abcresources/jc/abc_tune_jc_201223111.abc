@@ -1,0 +1,28 @@
+X: 6
+T: Miss Field's Strathspey
+C: Robert Mackintosh
+B: Roy Goldring "14 Social Dances"
+P: Tune for "Glen Lyon"
+R: strathspey
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+"G"G,G3 G3D B,G3 G3D | "Am/C"A,A3 A3G "D7"FD3 EF3 |\
+"G"G,G3 G3D "C"E3G ce3 | "D7"d3B dcBA "G"BG3 G4 :|
+"G"bag2 dg3 Bg3 dg3 | "C/E"c3g "G"B3g "D"A2a2a2ga |\
+"G"bag2 dg3 "C"e3g "G/B"d3g | "Am"c3a "D7"fd3 "G"g3f g2a2 |
+"G"bag2 dg3 Bg3 dg3 | "C/E"c3g "G"B3g "D"A2a2a2ga |\
+"G"bg3 "D7"fa3 "G/B"gd3 "C"e3B | "Am"c3e "D7"dcBA "G"BG3 G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+G,4 [b4g4d4] G4 [b4g4d4] | C4 [c'4a4e4] D4 [c'4f4d4] |\
+G4 [b4g4d4] C4 [e'4c'4g4] | D4 [c'4f4d4] G4 [b4g4d4] :|
+[G4G,4] [b4g4d4] [d'4g4] [b4d4] | [c'4e4] [d'4g4] [d4D4] [f'4d'4a4] |\
+[G4G,4] [b4g4d4] [c'4c4] [b4B4] | [a4A4] [d4D4] G4 [d'4b4g4] |
+[G4G,4] [b4g4d4] [d'4g4] [b4d4] | [c'4e4] [d'4g4] [d4D4] [f'4d'4a4] |\
+[d'4g4] [c'4d4] [g4B4] [g4c4] | [a4A4] [c'4f4d4] G4 [d'4b4g4] |]

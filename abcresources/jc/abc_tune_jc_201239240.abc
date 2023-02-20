@@ -1,0 +1,22 @@
+X: 32363
+T: KINRARO'S STRATHSPEY
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.326 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Fixed missing 1/8 note in bar 8.
+M: C|
+L: 1/16
+K: F
+|:\
+(.f3.g) (a3f) (.b3.g) (ba)gf | (.b3.g) (ba)gf eg3g3e |\
+(.f3.g) (a3f) (.b3.g) (ba)gf | (.b3.g) (ba)gf (cf3) f4 :|
+|:\
+(v.F3.G)(A2F2) (.B3.G) (BA)GF | B3G (BA)GF EG3G3A |\
+(.F3.G)(A3F) (.B3.G) (BA)GF | (.B3.G) (BA)GF (CF3) F4 :|
+|:\
+(v.F3.G)(F3C) (.A,.C3) C3F | (EF)GA (BA)GF (.E3.G)(G3A) |\
+F3G(F3C) A,C3C3f | (efg2) (c2ab) a2f2f2z2 :|
+|:\
+(.f3.g)(f3c) (A3F)(.F3.f) | (ef)ga (ba)gf (.e3.g)(g3e) |\
+(.f3.g)(f2c2) AF3F3G | (EFG2) (CcB2) (.A3.F) "^Segue Reel."F2z2 "_D.C.":|

@@ -1,0 +1,13 @@
+X: 1
+T: the First No\"el   [G]
+R: waltz
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+   BA \
+| "G"G3 ABc | d4 ef | "C"g2 "(d)"f2 "(c)"e2 | "G"d4 ef \
+| "C"g2 "(d)"f2 "(c)"e2 | "G"d2 "(c)"e2 "D7"f2 | "G"g2 d2 "D7"c2 | "G"B4 :|
+|: BA \
+| "G"G3 ABc | d4 gf | "C"e4 e2 | "G"d4 \
+| "Em"g2 "Bm"f2 "C"e2 | "D7"d2 e2 f2 | "G"g2 d2 "D7"c2 | "G"B4 :|

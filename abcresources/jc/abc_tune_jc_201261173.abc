@@ -1,0 +1,344 @@
+%%textfont Helvetica-Bold 21
+ %%center Chansons
+%%center pour Elisabeth
+%%textfont Helvetica 16
+%%vskip 5cm
+%%center Recueil de chansons françaises traditionnelles
+%%vskip 15cm
+%%begintext
+Permission est donnée de copier et distribuer des versions modifiées ou non modifiées de ce
+recueil sous réserve que la notice de copyright et cette notice de permission soient
+préservées sur toutes les copies.
+
+Il serait trés désagréable que ce travail soit utilisé à des fins commerciales.
+%%endtext
+%%vskip 2cm
+%%center (c) Galouvielle - Michel Bellon - 2006
+%%center 16 chemin des Montquartiers - 92130 ISSY-LES-MOULINEAUX
+%%center galouvielle.free.fr
+%%newpage
+
+%%titleleft
+%%textfont Helvetica 16
+%%infoline 1
+
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X: 1
+T:Le retour du marin
+T:(Pauvre marin / Brave soldat)
+C:Parole et musique : tradition de l'Ouest de la France, antérieure au XVIIIe siècle
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:F
+"C"z3 CDE |: "F"F3 GAF | "C"(G2F ) E2G |1 "F" F3 z3 | "C"z3 CDE :|2 "F"F3 z2F ||
+"Bb"B2B "F"A2A | "C"c2A GzA | "Bb"B2G "F"A2F | "C"G2E (CD)E | "F"F3-F2z |]
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X: 2
+T:Il pleut bergère
+T:(L'hospitalité/l'orage)
+C:Paroles : Philippe Fabre d'églantine
+C:Musique : Victor Simon (1780)
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:C
+z3 z2E | "C"G2E G2E | C3 G,3 | C>B, C "G"D2D | "C"E6 | E>D E "F"F2F |
+"C"G3E3 | "F"G>AG F2F | "C"(E3"G"D3) | D>E D "F"F2F | "C"E3 G3 | "F"F>E D "C"E2C |
+(E3"G"D2)E | "C"G2E G2E | "F"F3A3 | "G"G>A G D2E | "C"C3-C2z |]
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X: 3
+T:Nous n'irons plus au bois
+C:Paroles traditionnelles du XVIIIe siècle sur l'air du Kyrie grégorien de la messe "De angelis"
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:D
+z>D FG |: "D"A2d2 | A>B AG | "A7"F2E2 |1 "D"D> D FG :|2 D>z D>D || DE D2 |
+"A"A,2 "D"D>D | DED2 | "A"A,2 "D"A2 | F2A2 | F2 "A7"E>F | GFEA | "D"Dz z2 |]
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X:4
+T:Aux marches du palais
+C:Paroles et musiques traditionnelles
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:G
+z3 z2B | "G"B2B "C"c2B | "G"B3 z2A | "D7"A2A "G"B2A | "D7"A3 z2D | "Em"G2G G2A | "D7"G>FE F2D | A2A A2B | A3 "G"G3 |]
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X: 5
+T:Compère Guilleri
+C:Paroles et musique : tradition antérieure au XVIIIe siècle
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:F
+z2 zC | "F"FFFA | F2 FC | FFFA | FF/2F/2 FF | "C7"cccc |
+"Bb"d2 BB | BBBd | "C7"dc/2B/2 Ac | "F"cB/2A/2 GB | "Bb"BA/2G/2 FA |
+"C7"G/2F/2E/2D/2 C2- | "F"C>F FF | "C7"G>G GG | "F"A>F Ac | "Bb"B2 "C7"(AG) | "F"F2 z2 |]
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X: 6
+T:Dans les prisons de Nantes
+T:Autre version
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+K:Bb
+"Gm"G2 DG GA | GF/2A/2 "Dm"AADA | A>B cd c/2B/2A/2B/2 | "Gm"G2 DG GA |
+G2 FB AG | "F"F2G2 "Dm"D>G | "Gm" GA BA G2- | G2 z4 |]
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X: 7
+T:Jean de la lune
+C:Paroles : Adrien Pages
+C:Musique : attribuée à Claude Auge (1889)
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:F
+"F"F>FF FCF | "Dm"A2F "C"C3 | A>AA AFA | "C"c2A "F"F3 | F>FF FCF |
+w:Par u-ne tiè-de nuit de prin-temps, il y a bien de ce-la cent ans, Que sous un brin de per-
+"Dm"A2F "C"C3 | C2c C2c | "F"F3 C>FA | "C"c6 | "F"A3 C>FA | "C"c6 | "F"F6 |]
+w:sil, sans bruit, Tout me-nu na-quit: Jean de la Lu-ne, Jean de la Lu-ne.
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X: 8
+T:La mère Michel
+T:C'est la mère Michel
+C:Paroles traditionnelles du début du XIX siècle sur un air du XVIIe
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:F
+"F"F>F FF | FCFG | A2 "C"G2 | "F"F2 zF | "C"E>D EF | GAGF | E2D2 | "C7"C2 zC |
+G>G GA | B3B | "F"AFcA | "C"G3G | "Bb"B>B BB | "F"AAAA | "C"G2c2 | "F"F>F FE |
+"Dm"D2 D>D | DEFD | "C"C2 C>C | C3C | "F"F2 A2 | "C7"c>B AG | "F"F>c "C7"cc | "F"F2z2 |]
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X:9
+T:Le chevalier du guet
+T:Compagnon de la marjolaine - Qui est-ce qui passe ici si tard ?
+C:Paroles et musique : tradition du milieu du XVIIe siècle
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:Em
+"Em"z3 E2E | "G"B2B A2B | "Em"G3 F2G | "D"A2A/A/ G2A |
+"Em"B2G E2E | "G"B2B A2B | "Em"G3 A3 | "B7"B3 FGF | "Em"E3 z3 |]
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X: 10
+T:Mon père m'a donné un mari
+C:Paroles et musique : tradition languedocienne remontant au XVIIe siècle
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:Bb
+"F"z3 FGA |: "Bb"B2F D2F | "Eb"E2G C2E |1 "Bb" D2B, F2D | D2C "F"FGA :|2 "Bb" D2B "F"c2A | "Bb"B3 z3 |]
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X: 11
+T:Le roi a fait battre tambour
+T:La marquise empoisonnée
+C:Paroles et musique traditionnelle
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:C
+z3 "Am" aef | "C"e3 "Dm"dcd | "Am"e3 aef | "C"e3 "Dm"dcd | "Am"e3 "G"def |
+"C"g2a (g>fe) | "G"d2z "E"eef | e3 dcB | "Am"A3 cBc | "Dm"d2e (A>Gc/2B/2) | "Am"A3- Az2 |]
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X:12
+T:Il était une dame tartine
+C:Paroles et musique : tradition du début du XIXe siècle
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:F
+z3 F2A |: "F"c2c "C7"BcB | "F"A2A F2A | c2c "C7"BcB |1 "F"A2z F2A :|2
+"F" AzA ABG || A2A ABG | A2A ABG | "C"c2F "C7"GFE | "F"F3 z3 |]
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X: 13
+T:La boulangère a des écus
+C:Paroles : Nicolas Gallet
+C:Musique anonyme (env. 1720)
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:F
+|: "F"FFF "Bb"B2B | B2B B2B | "C"c2c G2A | "Bb"(B2A) "C"G2z :| G2GG2B |
+"Bb"A2G F2F | "C"E2D E2F | GAG "F"C2F | "C"E2D E2F | "C7"(A2G) "F"F3 |]
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X:14
+T:En passant par la Lorraine
+T:En m'en revenant de Rennes
+C:Paroles et musique : tradition du XVIe siècle
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:C
+z3 C2C |: "C"G2G G2G | "F"A2F "C"G2G |1 "F"A2A "C"G3- | G2z C2C :|2 "F"A2A "C"G3- | G2z G2G |
+"F"c2G G2F | "C"E2D E2E | E2G "G"G2F | "C"E2D C2E | "G"G3- G2z | "F"A2F "G7"D2B, | "C"C2z z3 |]
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X:15
+T:La chèvre en parlement
+C:Paroles et musique  :tradition bretonne
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:G
+z2zD | "G"DGGG | G3G | "D7"FAAA | A3A | "G"GBBB | BAcA | "C7"G2"D7"F2 | "G"(G2d2) |
+DGGG | G3G | "D7"FAAA | A3z | "G"GBBB | BAcA | "C7"G2"D7"F2 | "G"G2 z2 |]
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X: 16
+T:Trois jeunes tambours
+T:Joli tambour
+C:Paroles et musique : tradition du XVIIIe siècle
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:F
+"F" c2A>G | F3 z/2C/2 | F>G A>B | "C7"A2Gz | G2G>A | G3z/2G/2 |
+A>B c>d | "F"c>B A>G | F2 (3FED | "C7"C3C | "F"F>G A>B | (A2"C7"G2) | "F"F4 |]
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X: 17
+T:Fleur d'épine
+C:Paroles et musique traditionnelle
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:F
+z3 C2C |: "F"F2G A2G | F3 F2G | A2A "Bb"B2G | "F"A3 "C"c3 |1 "F"A3C2C :|2 "F"A3 F2F |
+"Bb"B6 | G3 B2B | "F"A6 | F3A2A | "C"G2A B2G | "F"F2G A2F | "C"E2F G2E | "F"F3 FFF |
+"C"G6 | C3 GGG | "F"A6 | F3 AAA | "Bb"B2G G2G | "F"A2F F2F | "C"G2E D2E | "F"F3z3 |]
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X: 18
+T:Mon amant me délaisse
+T:Vive la rose
+C:Paroles et musique : tradition franc-comtoise
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:C
+z3z2G |: "C"C2D E2F | G3 G2G | "F"A3 cBA |1 "G"A3 G2G :|2 "G"A3 G2G |:
+"C"c2G E2C | "G7"D3 F>FF | A2G F2D |1 "C"E3 G3 :|2 C3 z3 |]
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X:19
+T:Derrière chez nous y'a un étang
+T:Vl'a l'bon vent - En passant par les épinettes
+C:Paroles et musique traditionnelle
+C:Harmonisation : Edouard-Gabriel Midon
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Am
+V:1
+z2 EA |: "Am"A2 "Em"EA/A/ | "Am"A2 "Em"EA | "Am"AB"C"cB |1 "Em"B>B EA :|2 "Am"A2 z>E |
+"Am"Ac"Em"BA | GB "Am"A>E | Ac"Em"BA | GB "Am"A>E | Ac"Em"BA | GF "E7"E2- | E2z2 |]
+V:2
+z4 |: zE/E/ E2 | zE/E/ E2 | zA EE |1 E>E z2 :|2 E2 z>E |
+AEGE | GE A>E | AEGE | GF E>E | FAGF | CDE2- | E2 z2 |]
+V:3
+z4 |: zc/c/ c2 | zA/A/ A2 | zB AG |1 G>G z2 :|2 A2 z>c |
+c2B2- | B2 A2- | A2 G2- | G2 A2- | A2 dc | BA ^G2- | G2 z2 |]
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X:20
+T:Sur l'pont de Nantes
+T:Au pont du nord
+C:Paroles et musiques traditionnelles
+C:Harmonisation Edouard-Gabriel Midon
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:G
+V:1
+zD GA | "G"B2B2 | B>A Bc | BGBG |
+"D"D2A2 | A>GAB | "G"G2z2 | z4 |]
+V:2
+zD GA | G2G2 | G>FGA | GGFE |
+D2D2 | F>D EF | G2z2 | z4 |]
+V:3
+z4 | zD GD | B,4 | zD DE |
+D4 | z>D EF | D>D ED | B,4 |]
+V:4
+z4 | zB, B,B, | G,4 | zG, B,B, |
+A,4 | z>B, CD | B,>D, E,F, | G,4 |]
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X: 21
+T:Auprès de ma blonde
+C:Paroles et musique du XVIIe siècle
+C:Harmonisation : Edouard-Gabriel Midon
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:D
+V:1
+z3 z2F |: "D"F2G F2E | D3 Dz D | A2A "G"B2B |1 "A7"A3 z2F :|2 "A7"A3 z2A || "B7"B2B B2F | "Em" G3 GzG |
+"A7"A2A A2E | "D"F3- Fz2 |: "D" D3 EFG | F3 A2z |1 "A7" E2G F2E | "D"D2B, A,3 :|2 "A7" E2G F2E | "D"D3 z3 |]
+V:2
+z3 z2D |: D2E D2A, | F,3 F,z F, | F,2F, G,2G, | [1 A,3 z2D :| [2 A,3 z2A, || D6 | (^D3E3) |
+C6 | A,3-A,z2 |: A,3 CB,A, | D3 A,2z |1 C2B, C2C | D2B, A,3 :|2 C2B, A,2G, | F,3 z3 |]
+V:3
+z3 z2F |: F2G F2E | F3 Fz A | F2F D2D |1 E3 z2F :|2 E3 z2A || B6 | G6 |
+E6 | A3- Az2 |: D3 EFG | (FDE) F2z |1 (GA)G (FD)E | F2G A3 :|2 A2B A2G | F3 z2z |]
+V:4
+z3 z2D, |: D,2E, D,2A,, | A,,3 A,, zA,, | F,,2F,, G,,2G,, |1 A,,3 z2D, :|2 A,,3 z2A,, || B,,6 | B,,6 |
+C,6 | A,,3- A,,z2 |: D,3 C,B,,A,, | D,3 A,,2z |1 C,2B,, A,,2C, | D,2B,, A,,3 :|2 A,,2B,, A,,2G,, | F,,3 z3 |]
+
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+X:22
+T:La mist'en laire
+T:Chanson mimée à récapitulation
+Z:Transcrit et/ou corrigé par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Em
+V:1
+E | "Em"B2 BA | (BA) G2 | "B7"A>G AB | "Em"(GF) E2 | EB G2 |
+"B7" A2B2 | c>B AB | (GF) "Em"E2 |: "Récapitulation" "G"G>F EF | G2D2 |
+"G"G>F EF | G2D2 :| "G"G2 "D7"A2 | "G"B3z | c>B "B7"AB | (GF) "Em"E2 |]
+V:2
+E | [B2G2] [BG][AF] | ([BG][AF]) [G2E2] | [A3/2B,4F4]G/ AB | [GB,][FA,] [E2G,2] | E[BG] [G2E2] |
+[A2F2][B2G2] | [c3/2E3/2]B/ [AE][B^D] | ([GE]F) E2 |: G>F EF | [G2B,2]D2 |
+G>F EF | [G2B,2]D2 :| [G2D2B,2] [C2D2F2A2] | [B,3D3B3] z | c>B AB | [GE]F E2 |]
+V:3
+z | [E,4B,,4E,,4] | [E,4B,,4E,,4] | [B,,4^D,4] | [E,4B,,4E,,4] | [E,4B,,4E,,4] |
+[E,4B,,4E,,4] | A,>B, CB, | [B,E,]A, G,2 |: [G,4G,,4] | [G,4G,,4] |
+[G,4G,,4] | [G,4G,,4] :| [G,2G,,2][D,2D,,2] | [G,3G,,3]z| A,>B, CB, | [B,G,]B,, E,2 |]

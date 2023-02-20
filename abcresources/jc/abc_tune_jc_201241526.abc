@@ -1,0 +1,30 @@
+X: 43
+T: ANDREW RANKINE'S COMPLIMENTS TO JIMMY CLINKSCALE
+C: Andrew Rankine
+R: schottish, march
+B: "The Complete Andrew Rankine Collection of Scottish Country Dance Tunes" p.49
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+N: The "D.C."s both have "(With Repeat)", but ABC tools don't seem to know how to format that sensibly.
+N: There is actually no "Fine" in the tune; presumably it's at the end of the first strain.
+N: Pickups move to the start of the strains, making alternate endings unnecessary.
+M: 2/3
+L: 1/16
+%P: Play AABBAATTAA.
+K: A
+(3EEE |\
+"A"E2c>c c>Bc>d | f2e2 e2B>A |\
+"E7"G>gg>g g2f>g | "A"a>gf>e "E7"f>dB>G |
+"A"E2c>c c>Bc>d | f2e2 e2B>A |\
+"E7"G>gg>g g>ef>g | "A"a2"D"a2"A"a2 :|
+|: z2 |\
+"D"f>df>a a>fd>A | "A"c>Ac>e e>cB>A |\
+"E7"G>EG>B d2c>B | "A"A>EA>c "A7"e2c>e |
+"D"f>df>a a>fd>A | "A"c>Ac>e e>cB>A |\
+"E7"G>DG>B d2c>B | "A"A2"D"A2"A"A2 "_D.C. al Trio"y:|
+P: TRIO
+K: E
+|: (3EEE |\
+"E"g2g>f e2B2 | G>EG>B c2B2 |\
+"B7"d2B>d g2f2 | "E"e>BG>E "Bbdim"c2"B7"B2 |
+"E"g2g>f e2B2 | G>EG>B c2B2 |\
+"B7"d2B>d g3f | "E"e2"A"e2 "E"e2"_D.C. al Fine"y:|

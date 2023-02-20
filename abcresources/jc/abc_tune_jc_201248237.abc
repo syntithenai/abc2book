@@ -1,0 +1,37 @@
+X: 1
+T: Athol Bray(s)
+P: Longways for as many as will
+%R: reel
+B: John Walsh "Caledonian Country Dances"
+S: 3: CCD3  http://javanese.imslp.info/files/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p:34-35
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.4 #3
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+d | TB2 AG B/c/d e/f/g | TB>AGB A/A/A Ad | TB2 A>G B/c/d eB | AFDB G/G/GG :|
+|: e/f/ | gdBg dgdB | g/f/e/d/ Bg Tf2 Ae/f/ | g/f/e/d/ Bg dgdB | c/B/A/G/ FA G/G/GG :|
+|: c | (BG)(BG) (BG) (B/c/)d | BG B/c/d g2A2 | (BG)(BG) (BG) (B/c/)d | D2 DB G/G/GG :|
+|: B | Gg g/f/e/d/ Bg g/f/e/d/ | BgDg Tf2 Ae/f/ | g/f/e/d/ Bg dgdB | c/B/A/G/ FA G/G/GG :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | g4 z2c'2 | gdBG d2D2 | G4 z2c'2 | d'2d2 g/g/gg :|
+|: z | g4 G4 | gabc' d'e'd'c' | b2zc' b2zg | a2d2 g/g/gg :|
+|: z | g4 G4 | g2f2 ecfd | g4 G2A2 | BcdD G/G/GG :|
+|: z | g4 G4 | gabc' d'e'd'c' |b2zc' b2zg | a2d2 g/g/gg :|
+% - - - - - - - - - - Dance description: - - - - - - - - - -
+%%center Athol Bray. a Scotch Country dance.
+%%begintext align
+%% The 1st Cu. foots it and cast off .|
+%% the 1st Cu. foots it again 1st man casts down and the 1st wo. casts up .|
+%% the 1st man Heys with the 2d and 3d wo. 1st wo. heys at the same time with the 2d and third men .|
+%% 1st man heys with the 2d and 3d men 1st wo. at the same time heys with the 2d and 3d we. :|
+%% the 1st man foots it with the 3d wo. and turns her
+%% 1st wo. does the same at the same with the 2d man .|
+%% then the 1st man foots it with the 2d wo. and turns her
+%% 1st wo. does the same at the same time with the 3d man :|
+%% the 1st Cu. leads through the 2d and 3d men and turn in the 2d Cu. Place .|
+%% then the 1st Cu. leads through the 2d and 3d we. and turn in the 2d Cu. Place.
+%%endtext

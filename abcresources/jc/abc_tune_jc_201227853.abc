@@ -1,0 +1,32 @@
+X: 10
+T: Mrs S.Douglas' Reel
+C: (Royal Navy) Hon: CG
+R: hornpipe, reel
+M: C
+L: 1/16
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://www.archive.org/stream/bibliographyofea00sonnrich/bibliographyofea00sonnrich_djvu.txt
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 
+|: d3fa4- a3fg3e | f3dg3e c3ec2A2 | d3f {fg}a4 a3fg3e | A3cd3f ddd2d4 :|
+|: (D3F) (A3D) (B3D) (A3D) | (BABc) .B2.A2 .G2.F2.E2.D2 | (D3F) (A3D) (B3D) (A3D) | A,3DF3E DDD2D4 :|
+|: (f3d)(f3d) (g3e)(g3e) | {fg}a2g2f2e2 d3Ad3A | (f3d)(f3d) (g3e)(g3e) | a3fe3f ddd2d4 :|
+|: (A2F2)(B2A2) (G2F2)(E2F2) | A,3DB,3D {DE}F3D[E4C4] | (A2F2)(B2A2) (G3F)(E2D2) | A,3DE2F2 DDD2D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: d4f4 a4A4 | d4e4 c4a4 | d4f4a4A4 | a4A4 d2d2d4 :|
+|: d4[f4d4] [g4d4][f4d4] | g4g2f2 e2d2c2d2 | d4[f4d4] [g4d4][f4d4] | a4A4 d2d2d4 :|
+|: d4d'4 c'4a4 | f4a4 f4d4 | d4d'4 c'4a4 | d4A4 d2d2d4 :|
+|: d4D4 d4D4 | F4G4 ^G4A4 | d4D4 d4D4 | A4A4 d2d2d4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Foot it and Change sides .|. D.o back again :|: Gallop down the
+%% Middle 2 Cu: up one and turn your Partner :|: set cross
+%% Corners and turn .|. D.o :|: Lead outsides .|. Turn to place :|:
+%% or go the Hey opposite sides.
+%%endtext

@@ -1,0 +1,23 @@
+X: 457
+T: Kojovo Horo
+O: Bulgaria
+M: 2/4
+L: 1/8
+K: Am
+Q: 1/4=180
+%%MIDI program 110 Fiddle
+%%MIDI bassprog 32 Acoustic Bass
+%%MIDI gchord z2f2
+%%MIDI drum dzzzdzz 43 60 90 90
+%%MIDI drumon
+|:"Am"dede|A3G|cA"Dm"BG|AGAB|\
+"Am"dede|A3G|cA"Dm"BG|"Am"A4|
+"Am"dede|A3G|cA"Dm"BG|AGAB|\
+"Am"dede|A3G|cA"Dm"BG|"Am"A4::
+"Am"e3d|gfed|cdcB|A4|\
+"Dm"Gd2c|cBG2|"Am"c3B|cde2|
+c3B|A3G|AcBA|A2z2::\
+"Am"c3G|cded|cBBA|A3G|
+cddc|cB"Dm"G4|\
+"Am"c3G|cded|cBBA|A3G|
+"Dm"GcBB|"Am"GA3:|

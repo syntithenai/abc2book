@@ -1,0 +1,27 @@
+X: 21263
+T: WHITE LADY SETT (tune 3)
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" 1843 p.126 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="3"
+de |\
+f4 d2e2 | f3e d3c | B2c2 d2e2 | c>A^G>A .B.c.d.e |\
+f4 d2e2 | f2e2 d2c2 | B2e2c2A2 | d6 H|]
+de |\
+f>gf>e d>cd>e | f2d2 d>ed>c | B2e2 efed | c2A2 B>cd>e |\
+f>gf>e d>cd>e | f2d2 d>ed>c | B>cd>e dcBc | d4 "^D.C."z2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Ladies cross hands,
+%% round and back,
+%% all balance to partners,
+%% Gentlemen the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

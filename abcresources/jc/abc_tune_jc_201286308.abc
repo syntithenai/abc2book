@@ -1,0 +1,25 @@
+X:63
+T:High Road to Linton (harmonized)
+R:Reel
+M:C|
+%%printtempo 0
+Q:180
+K:A
+V:1
+e|:\
+"A"ceef a2 (ae)| "D"f2 (fe) "A"a2(ae)| ceef a2 (ae)| "D"fa"A"ec "E7"B2 "A"A2::
+V:2
+z|:\
+A2G2F2E2|D2C2B,2A,2|A2G2F2E2|D2C2D2C2::
+V:1
+"A7"cee=g "D"fddf| "A"ecce "E7"fBBd| "A7"cee=g "D"fddf| "A"ecac "E7"B2 "A"A2::
+V:2
+[A,4E4][A,4D4]|[A,4E4][B,4D4]|[A,4E4][A,4D4]|[A,4E4][A,2uD2][A,2uE2]::
+V:1
+"A"a2a2 efa2|(ef)ae "D"fa"A"ef|"A"a2a2efae|"D"fa"A"ec "E7"B2 "A"A2::
+V:2
+c2c2ABc2|(AB)cA BcAB|c2c2ABcA|dccA E2A2::
+V:1
+"A"c2(ec) "D"defd| "A"c2 (ec) "E7"BcdB|"A"c2 (ec) "D"defg|"D"af"A"ec "E7"B2 "A"A2:|
+V:2
+A2(cA) FGAF|A2(cA) EAGE|A2 (cA) FAde| dAcA G2 A2:|

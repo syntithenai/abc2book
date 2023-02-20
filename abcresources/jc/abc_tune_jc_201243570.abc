@@ -1,0 +1,23 @@
+X: 383
+T:Campbell's Farewell to Redcastle
+N: page 142
+N: heptatonic
+R: Reel
+M:2/4
+L:1/8
+K:A major
+%
+ue | "A"A>B cd | ea e>d | cA A(B/c/) | "G"d>B =GB |
+%
+"A"A>B cd | ea e>d | "A"c(B/A/) "G"=GB | "A"A2 {/A}A :|
+%
+(=g3/4f1/4) | "A"ea a(=g/f/) | ea e>d | "A"cA A(B/c/) | "G"d>B =G(g/f/) |
+%
+"A" ea a(=g/f/) | ea ed | "A"c(B/A/) "G"=GB | "A"A2 {/A}A (=g3/4f1/4) |
+%
+"A"ea a(=g/f/) | ea e>d | "A"cA A(B/c/) | "G"d>B =GB |
+%
+"A"(A/B/c/d/) (c/d/e/f/) | "A"(e/f/g/a/) (e>d) | \
+"A"c(B/A/) "G"=GB | "A"A2 {/A}A f|]
+|:"A" e2 ef|a2 fe|"G" dB =GB|dB d=g|
+"A" e2 ef|a2 fe|"G" dB =gB|1"A"BA Af:|2"A"BA A2||

@@ -1,0 +1,17 @@
+X: 12321
+T: Cumernad House
+%R: strathspey
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.32 #1
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Double barline in bar 4 doesn't match repeat sign at very end; not fixed.
+N: The intent may have been a 2x12-bar tune, but repeat the strains as you like.
+M: C
+L: 1/16
+K: G
+%%slurgraces 1
+%%graceslurs 1
+(G3A) |\
+(B3A)(B3e) (dB3) (TA3G) | (E2D2E2)G2 A4 B3d | (e3d)B3g (dB3) (TA3G) | (D3E) (G3A) G4 |]
+(TB3A) |\
+(G2A2)(B2c2) d4 {ef}g4 | {e}d2(cB) (cB)(AG) {Bc}d4 (g3f) | (e2f2g2)a2 f4 (Te3d) | B4 (e3f) e4 d2(ef) |
+(g2f2e2)d2 B4 {ef}g4 | {e}d2(cB) (cB)(AG) A4 B2d2 | e2d2 (egf)g {e}d2(cB) (cB)(AG) | (D3E) (G3A) G4 :|

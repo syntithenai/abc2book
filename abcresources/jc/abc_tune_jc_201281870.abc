@@ -1,0 +1,19 @@
+%%scale 1.2
+%%barsperstaff 4
+X:1
+T:Good-Night, Ladies
+M:4/4
+L:1/4
+K:Bb
+P:A
+|d2 B2 | F/4 B3/4-B2 z | d2 B2 | c/4 c3/4-c2 z | d2 B2 | e/4 e3/4-e2 z/ e/ | d > d
+w:1.~Good-night, la-dies!* Good-night, la-dies!* Good-night, la-dies!* We're going to
+w:2.~Fare-well, la-dies!* Fare-well, la-dies!* Fare-well, la-dies!* We're going to
+w:3.~Sweet dreams, la-dies!* Sweet dreams, la-dies!* Sweet dreams, la-dies!* We're going to
+|c > c | B3 z||
+w:leave you now.
+w:leave you now.
+w:leave you now.
+P:B
+|: d3/4 c/4 B/ c/ d/ d/ d |1 c/ c/ c d/ f/ f :|2 c3/4 c/4 d/ c/ B2 ||
+w: Mer-ri-ly we roll a-long, roll a-long, roll a-long, O'er the dark blue sea.

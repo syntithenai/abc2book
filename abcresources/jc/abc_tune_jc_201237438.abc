@@ -1,0 +1,27 @@
+X: 261
+T: LADY CHARLOTTE CAMPBELL
+C: R. MACKINTOSH
+R: Strathspey
+B: Glen Collection p.26 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Bar 9 has both a dot and a 2nd flag on the 2nd (B) note; fixed to match bar 5.
+M: C
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: A
+V: 1
+F/E/ | D<(FF)>B E(GG)c/B/ | A<cf>e d<bB<f | D<(FF)<B E(GG)c/B/ | A<cF<e | d<BB :|
+a | b<BA<a g<GF<f | e>c e/d/c/B/ A<(c-c)a | b<Ba<B g<Bf<B | (A/B/c) Fe d<BB<a |
+    b<BA<a g<GF<f | ec e/d/c/B/ A(c-c)B/A/ | G>BF>B E>BD>B | (EF/G/) F>E DB,B, |]
+V: 2
+z |\
+B2[d'2b2] e2[c'2g2] | f2[c'2a2] B2[d'2b2] |\
+B2[b2f2] e2[c'2g2] | f2[a2f2] [b2B2][bB] :|
+z |\
+[f'2d'2][e'2c'2] [d'2b2][c'2a2] | [a2f2][b2f2] [c'2f2][c'2f2] |\
+[d'2b2][f'2b2] [e'2b2][d'2b2] | f2[a2f2] [b2B2][b2B2] |
+[f'2d'2][e'2c'2] [d'2b2][c'2a2] | [a2f2][b2f2] [c'2f2][a2f2] |\
+[b2e2][b2d2] [b2c2][b2B2] | c2[a2f2] [b2B2][fdB] |]
+

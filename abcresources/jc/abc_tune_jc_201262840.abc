@@ -1,0 +1,97 @@
+
+X: 0
+T: CLOSING OF THE DAY STANDPIECE
+%C: 071229
+K:
+
+%%textfont Times-Italic 12
+
+
+X: 1
+T: Barren Rocks of Aden
+P: Piffero primo a0063
+O: cfd bk 2
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/closingF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+z2 |:\
+f3g f2e2 | d2f2 A2d2 | c2e2 A2de | f2A2 d2e2 |\
+f3g f2e2 | d2f2 A2d2 | c2e2 A2fe |1 d4 z2de :|2 d4 z2 ||
+|: df |\
+a3f d2f2 | e2g2 A2ef | gge2 c2e2 | d2f2 A2df |\
+a3f d2f2 | e2g2 A2ef | gge2 c2e2 | d4 z2 :: df |\
+afdf afdf |
+e2g2 A2ef | gece gece | d2f2 A2df |\
+afdf afdf | e2g2 A2ef | gge2 c2e2 | d4 z2 :: df |\
+afdA Afdf |
+afdA Afdf | gecA Aece | gecA Aece |\
+afdA Afdf | afdA Afdf | gecA Aece | d4 z2 :|
+
+
+X: 2
+T: Farewell to Gibraltar
+P: Piffero primo a0011
+O: cfd bk 1
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/closingF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+cd |\
+e3f e2c2 | A3B A2ae | f2ec efae | c2B2 B2cd |\
+e3f e2c2 | A3B A2ae | f2ec efae | c2A2 A2  :: ag |
+f2ec efae | faec B2ae | f2ec efae | f2B2 B2ag |\
+f2ec efae | faec B2ae | f2ec efae | c2A2 A2 :|
+|: cB |\
+A3c e2a2 | f2ec B2cB | ABcd efec | f2B2 B2cB |\
+A3c e2a2 | f2ec B2cB | ABcd efed | c2A2 A2 :: cd |
+e3f  e2c2 | e3f  e2ag | f3g  f2e2 | f3g  f2ag |\
+f2ed c2BA | BABc e2ag | f2ec efae | c2A2 A2  :|
+
+% %slurgraces 1
+% %graceslurs 1
+%%center (drum interlude nr 1)
+
+
+X: 3
+T: Black Rocks of Glencoe  v.1
+P: Piffero primo a0012
+O: Greg Rice
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/closingF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Em
+BA |\
+B2B2 e2ef | gfef d2ef | g2e2 e2dc | defg a2 BA |\
+B2B2 e2ef | gfef d2ef | gfed edBA | B3E E2 :|
+|: Bd |\
+e2Be g2fe | fede B2BA | GABd gfed | e6 Bd |\
+e2Be g2ga | bgaf d2ef | bagf gfed | e6 :|
+
+
+X: 4
+T: Black Rocks of Glencoe  v.2
+P: Piffero secondo a0020
+O: Greg Rice
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/closingF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Em
+BA |\
+G2E2 B2Ad | d2Bc G2 ef | e2B2 c2BA | B2c2 d2BA |\
+E2G2 B2cd | d2Bc F2 ef | d2cB B2GF | F3E  E2  :|
+|: Bd |\
+B2BB d2cc | d2B2 E2DE | D2EG edcA | BAGA B2Bd |\
+B2BB d2Bd | e2d2 F2EG | gfed edcA | BAGA E2  :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

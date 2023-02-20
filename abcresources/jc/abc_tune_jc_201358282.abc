@@ -1,0 +1,49 @@
+%Scale the output
+%%scale 1.07
+%%stretchlast 1
+%%barsperstaff 0
+%%barnumbers -1
+%%gchordbox no
+%%splittune no
+X:1
+T:Keep on the Sunny Side  (#201)
+C:J Howard Entwisle
+M:4/4
+L:1/8
+K:D
+V:1 clef=treble
+|A3/2A/2|"D""^Verses"d2 d3/2e/2 f3/2d/2 B3/2d/2|A6 f3/2g/2|a2 a3/2a/2 a/2g3/2 d2
+w:1~There's a dark and a troub-led side of life. There's a bright and a sun-ny side,
+w:2~Tho' the storm in its fu-ry break to-day, crush-ing hopes that we cher-ished so
+w:3~Let us greet with a song of hope each day. Tho' the mo-ments be clou-dy or
+V:2 clef=treble
+|A3/2A/2|F2 F3/2G/2 A3/2A/2 G3/2G/2|F6 A3/2A/2|d2 d3/2d/2 A/2A3/2 A2
+V:1
+|"A"e6 e3/2f/2|"G"g2 e3/2e/2 a2 g3/2g/2|("D"f4 d2) f2
+w:too. Tho' we meet with the dark-ness and strife,_ The
+w:dear, Storm and cloud will in time pass a-way,_ The
+w:fair. Let us trust in our Sa-vior al-ways,_ Who
+V:2
+|A6 A3/2A/2|c2 c3/2c/2 c2 c3/2c/2|(d4 A2) A2
+V:1
+|"A"e3/2e/2 e3/2e/2 c2 B3/2c/2|"D"d6 z2||
+w:sun-ny side we al-so may view.
+w:sun a-gain will shine bright and clear.
+w:keep-eth ev-'ry one in His care.
+V:2
+|G3/2G/2 G3/2G/2 e2 G3/2G/2|F6 z2||
+V:1
+|"D""^Chorus"a2 a3/2a/2 a/2f3/2 d2
+w:Keep on the sun-ny side,
+V:2
+|A2 d3/2d/2 d/2d3/2 A2
+V:1
+|"G"d3/2d/2 d3/2e/2 d/2B3/2 A2|"D"f2 f3/2f/2 g/2f3/2 e3/2d/2|"A"e6 e3/2e/2
+w:Al-ways on the sun-ny side, Keep on the sun-ny side of life. It may
+V:2
+|B3/2B/2 B3/2B/2 B/2G3/2 F2|A2 A3/2A/2 B/2A3/2 A3/2A/2|A6 A3/2A/2
+V:1
+|"D"a3/2a/2 g3/2g/2 f2 d3/2d/2|"G"e3/2e/2 d3/2B/2 A2 "^TAG"d3/2e/2|"D"f2 f3/2f/2 "A"g/2f3/2 f3/2e/2|"D"d6||
+w:help us ev-'ry day, It will bright-en all the way, if we keep on the sun-ny side of life.
+V:2
+|c3/2c/2 c3/2c/2 d2 A3/2A/2|B3/2B/2 B3/2G/2 F2 A3/2B/2|A2 A3/2A/2 B/2A3/2 A3/2G/2|F6||

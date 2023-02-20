@@ -1,0 +1,27 @@
+X: 4252
+T: the Marquis of Tullybardine's Reel
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.4 p.26 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - -
+% Voice 1 formatted for compactness and proofreading.
+V: 1 staves=2
+c !segno!|\
+A/A/A cA eAAf | eAAa (fe)dc | Bcde fBBg | aBBa {g}f2ea || A/A/A cA eAAf |
+eAAa (fe)dc | defa fecf | ecBc Tf2eg |[| aA A/A/A cAAg | aAAg (fe)dc | bB B/B/B dBB^a |
+bBB=a {g}f2eg || aA A/A/A cAAg | aAAa (fe)dc | defa fecf | ecBc Tf2ea !segno!y|]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z !segno!|\
+[a2A2][a2A2] [a2A2][a2A2] | [a2A2][a2A2] [a2A2][a2A2] |\
+b2b2 b2b2 | b2c'2 d'2c'2 || a2a2 a2a2 |
+a2a2 a2a2 | d'2d'2 c'2a2 | g2a2 d'2c'b |[|\
+[a2A2][a2A2] [a2A2][a2A2] | [a2A2][a2A2] [a2A2][a2A2] |\
+[b2B2][b2B2] [b2B2][g2G2] |
+[b2B2][c'2c2] [d'2d2]c'b ||\
+[a2A2][a2A2] [a2A2][a2A2] | [a2A2][a2A2] [a2A2][a2A2] |\
+[d'2d2][d'2d2] [c'2c2][a2A2] | [g2G2][a2A2] [d'2d2][c'2c2] !segno!y|]

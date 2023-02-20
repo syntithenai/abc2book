@@ -1,0 +1,29 @@
+X: 042
+T: Mrs GRAY OF QUEBEC
+C: JOHN CLARK
+R: Reel
+B: Glen Collection p.4 #2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: A
+%
+V: 1
+E |\
+a2(ed) c2(Ac) | dcBA GBBe | a2ed c2Ac | BAGB A/A/A A :|
+B |\
+cAea dBgb | ceac BGFE | (CE).A.c (df).B.A | GA B/c/d/B/ cAAB |
+cAea dBgb | ceac BGFE | CEAc DFBF | dBGB A/A/A A |]
+%
+V: 2
+z |\
+[a2A2][c'2a2e2] [c'2a2e2][c'2a2e2] | d2[b2f2] e2[b2g2e2] |\
+A2[c'2a2e2] [c'2a2e2][c'2a2e2] | e2[d'2g2e2] A2[c'ae] :|
+z |\
+A2[c'2a2e2] e2[d'2b2] | A2[a2e2] e2[b2g2d2] |\
+A2[a2e2c2] d2^d2 | e2[b2g2e2] A2[c'2a2e2] |
+A2[c'2a2e2] e2[d'2b2] | A2[a2e2] E2[b2g2e2] |\
+A2 [a2e2c2] d2[b2f2]  | e2[b2g2e2] [c'2a2][acA] |]

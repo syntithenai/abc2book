@@ -1,0 +1,20 @@
+X: 1
+T:Old Black Joe
+M:6/8
+C:
+S:Bacon (Butterworth (MSS))
+N:
+H: abcTranscriber Alex Boster (boster@acm.org)
+A:Bucknell
+O:English
+R:Jig
+P:${1}\over{2}$A(AB)$^4$
+%P:A.(AB)4
+L:1/8
+K:G
+I:speed 300
+P:A
+|:DGG GFG|ABA A2 A|Gdd dcB|ABA cBA|G3 E3|AGF G3:|
+P:B
+|:cBc d2 d|ece d3|cBc d2 d|ece d3|\
+dcB BAG|ABA A2 A|Gdd dcB|ABA cBA|G3 E3|AGF G3:|

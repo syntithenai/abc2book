@@ -1,0 +1,15 @@
+X: 1412
+T: Going To The Fair
+R: reel
+%S: s:3 b:13(5+4+4)
+B: O'Neill's 1850 #1412
+O: F.O'Neill
+Z: Bob Safranek, rjs@gsp.org
+Z: Further compacted via added repeats and multiple endings [JC]
+Z: All ornaments (~) are mordents.
+M: C|
+L: 1/8
+K: G
+"^A"|: dG (3.G.G.G (dG)BG | efga bgfg | dG (3.G.G.G (dG)Bd |[1 (eg)dB BA A z :|[2 egfa (bg)g2 |]
+"^B"[| ((3aba)  ba  ((3gag) d2 | egdg egdg | ((3aba) (ba) geef | gedB (~BA)A2 ||
+     | ((3aba) (ba) ((3gag) d2 | egdg egdg |   bg ((3agf) geef | gedB (~BA)A2 |]

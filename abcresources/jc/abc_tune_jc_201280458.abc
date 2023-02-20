@@ -1,0 +1,13 @@
+X: 1
+T: Gigue Du Salon
+T: Living Room Jig
+C: Pascal Gemme (2013)
+%D:2013
+S: https://natunelist.net/gigue-du-salon-living-room-jig/
+R: jig
+M: 6/8
+L: 1/8
+K: A
+"^A"|: "A"EAB c2e | d2e cBA |"Bm"BcA [1,3 B2A | BcA "E"GFE :|[2,4 BAF | "E7"EFG "A"A3 :|
+"^B"|: "A"e2e cBA | efe cBA |"Bm"BcA [1,3 B2A | BcA "E"GFE :|[2   BAF | "E7"EFG "A"A3 :|
+"^A2"[| "A"EAB c2e | d2e cBA | "Bm"BcA BAF | "E7"EFG "A"A3 |]

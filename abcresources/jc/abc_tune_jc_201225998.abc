@@ -1,0 +1,35 @@
+X: 10071
+T: BONNY DOON
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.7 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+D |\
+G2G A2A | BdB AGA | BAG GED | DEG A2 B/A/ |\
+G2G A2A | BdB AGA | BAG GED | DEF G2 :|
+|: B/c/ |\
+d2e dBG | d2e dBG | dBG dBG | edB A2 B/A/ |\
+G2G A2A | BdB AGA | BAG GED | DEF G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+D |\
+B,2B, F2F | GBG F2F | GDB, B,CB, | B,CB, C2 D/C/ |\
+B,2B, F2F | GBG F2F | GDB, B,CB, | B,CA, B,2 :|
+|: G/A/ |\
+B2c B2G | B2c B2G | BGG BGG | cBG F2 D/C/ |\
+B,2B, F2F | GBG F2F | GDB, B,CB, | B,CA, B,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+d' |\
+g2g d2d | g2g d2d | g2g g2g | g2g f2d |\
+g2g d2d | g2g d2d | g2g g2g | gcd G2 :|
+|: G |\
+G2g G2G | G2g G2G | G2G G2G | G2B d2d |\
+g2g d2d | g2g d2d | g2g g2g | gcd G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

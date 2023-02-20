@@ -1,0 +1,32 @@
+X: 10
+T: Andrew Kerr
+T: Longways for as many as will.
+%R: slip-jig
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.5
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: There's a final repeat sign, but no begin repeat signs at all.  Not fixed.
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+B2d dBG dBG | B2e (ef)g f2A |\
+B2d def efg | D2G GAB A2G |]
+[|\
+g2d dBG dBG | g2e eae f2d |\
+gfe dBd def | g2G GAB A2G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. foot it and cast off one Cu. and turn .|
+%% Foot it and cast off the 3d. Cu. and turn :| lead up to
+%% the top cast off and turn. Right hand and left with
+%% the 2d Cu. .| the 1st Man foot it with the 3d Wo. and
+%% turn the 1st Wo. and 2d Man at the same time the
+%% one Man foot it with the 2d. Wo. the 1st Wo. the 3d
+%% Man :| Right Hand and left with the 3d Cu. then
+%% Hands round all six till you come into the 2d Cu.
+%% Place :|:
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

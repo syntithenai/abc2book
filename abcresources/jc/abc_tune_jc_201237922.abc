@@ -1,0 +1,26 @@
+X: 2
+T: Prince of Wales at Brighton
+O: 1796
+%R: reel
+B: A Musical Souvenir of the Royal Pavilion - Brighton"
+F: https://www.mediafire.com/folder/d9iv45ggjx1fu/Royal_Pavilion_-_Brighton
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Bar 15 is only half a bar; fixed by doubling the note lengths. Other fixes are possible.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+G4 GABc | d2d2d2B2 | g2d2B2G2 | AGAB A2D2 |
+G4 GABc | d2d2d2g2 | {g}f2ed e2^c2 | {c}d4 d4 :|
+|:\
+d4 g2d2 | c2B2A2c2 | {c}B2AG F2G2 | A2B2 dcBA |
+d4 g2d2 | egfa g2d2 | c2A2G2F2 | G4 G4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Cast off two Cu. up again
+%% Lead down the middle up again
+%% Set 3 & 3 top & bottom 3 & 3 sideways
+%% Hands six round.
+%%endtext
+% %sep 2 2 400

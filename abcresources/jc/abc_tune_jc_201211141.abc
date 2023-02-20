@@ -1,0 +1,15 @@
+X: 20
+T: Arnautsko Horo
+O: Macedonia
+F: http://www.youtube.com/watch?v=ICWAU0HbBrQ
+M: 2/4
+L: 1/8
+K: Bb octave=-1
+Q: 1/4=120
+%%MIDI program 42 % cello
+  dedc|c3F |GABc|cBAc|BAAF|G3F |GABc|
+  dedc|c3F |GABc|cBAc|BcAF|G4- |G4  |
+  F2GA|B4  |BcdB|c2B2|A2cA|BcAB|G4  |
+  F2GA|B4  |BcdB|c2B2|A2cA|B4- |B4  |
+|:c2c2|c2de|fedc|c2A2|BcAB|G4  |d4  |
+  c3B |AGF2|B3A |c2AB|G4- |G4  :|

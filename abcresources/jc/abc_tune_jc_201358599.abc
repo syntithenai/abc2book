@@ -1,0 +1,5777 @@
+
+I:abc-charset utf-8
+%%beginps
+/micronewps {1}
+/sbar {M -3.0 4.0 rmoveto 4.0 4.3 rlineto stroke}!
+/hbar {M -3.0 -1.0 rmoveto 6.0 1.5 rlineto stroke}!
+/num2 {M 2.0 6.0 rmoveto /Times-Roman 10 selectfont (2) show}!
+/num3 {M 4.0 6.0 rmoveto /Times-Roman 10 selectfont (3) show}!
+/ft1543  {2 copy ft0 sbar}! %_7/8
+/ft515 {ft1543}! %_3/4
+/ft3{gsave -1 1 scale exch neg exch ft0 grestore}!
+/ft259 {2 copy ft3}! %_2/4
+/sh3 {2 copy sh1}! %_1/4
+/sh259 {2 copy sh1}! %^2/4
+/sh515 { 2 copy sh0}! %^3/4
+/sh2055 {2 copy sh1 hbar}! % ^9/8
+%%endps
+
+X: 1000
+T: Her Gece Semâda Ararım Seni
+C: Bîmen Şen
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: kurdilihicazkar--sarki--aksak--her_gece--bimen_sen
+N: makam= kurdilihicazkar
+N: form= sarki
+N: usul= aksak = 9/8
+M: 9/8
+L: 1/16
+K: C _B _e _A 
+Q: 1/4=216
+%%MIDI tuningsystem comma53
+g16 z2 | d16z2  | c16 z2 | B3AG12z2  | b3=a g4 f3_3/4e d4 z2 | \
+w:  ARANAĞME  |   |   |   |   | 
+f3_3/4ed4_e3dc4B2  | 
+w:   | 
+e3d c2d2 B2A2 A4 G2 | G6 ABcd _2/4efg6  | \
+w:   |   | 
+g16 z2 | d16z2  | c16 z2 | 
+w:  ARANAĞME  |   |   | 
+B3AG12z2  | b3=a g4 f3_3/4e d4 z2 | f3_3/4ed4_e3dc4B2  | \
+w:   |   |   | 
+e3d c2d2 B2A2 A4 G2 | 
+w:   | 
+G6 ABcd _2/4efg6  | c6g2 g4 g6 | =a4b2 a2g2 ^f2g4z2  | \
+w:   |  Her  *  ge ce   |  se mâ *  da   | 
+g4 =a4 b4 a2g2 f2 | 
+w:  a ra rım  se  | 
+b8b2 =a2a2 g2f2  | g2=a2 f2e2 e2d2 d6 | \
+w:  ni    |  Her  *  *  *  ge *  ce   | 
+d4e2 d2c2 _2/4B2c4z2  | =a2g2 g2f2 f2_2/4e2 g2_7/8e2 d2 | 
+w:  se mâ *  da   |  a *  ra *  rım  *  se  | 
+d6 _2/4efgf efg6  | g8 g4 g4 f2 | f4g2 f2e2 d2e6  | \
+w:  ni   SAZ  |  Yıl dı za   |  meh tâ *  ba   | 
+d2e2 g2f2 e2d2 c2B2 d2 | 
+w:  so *  ra *  rım  *  se  | 
+c6 B2c2 {e}dcc6  | c2d2 B2A2 A2G2 G6 | \
+w:  ni    |  Yıl *  *  *  dı *  za   | 
+G4A2 G2F2 _2/4E2F4z2  | d2c2 c2B2 B2A2 c2A2 G2 | 
+w:  meh tâ *  ba   |  so *  ra *  rım  *  se  | 
+G6 b2=a2 c'2b6  | b8 b4 b4 =a2 | =a4b2 a2g2 ^f2g4z2  | \
+w:  ni   SAZ  |  Mes tâ ne   |  ağ la *  yıp   | 
+g4 d'4 d'4 d'4 c'2 | 
+w:  a na rım  se  | 
+c'4d'2 c'2b2 =a2b4z2  | =a2b2 d'2c'2 b2a2 a2g2 f2 | \
+w:  ni    |  Mes *  *  *  tâ *  ne   | 
+g2 =a2f2 e2e2 d2d4c2  | 
+w:  ağ *  *  *  la *  yıp   | 
+=a2g2 g2f2 f2_2/4e2 g2_3/4e2 d2 | \
+w:  a *  na *  rım  *  se  | 
+d6 _3/4efgf efg6  | g4 g4 g4 g4 f2 | 
+w:  ni   SAZ  |  Gi *  rer sin   | 
+f4g2 f2e2 d2e4z2  | d2e2 g2f2 e2d2 c2B2 d2 | \
+w:  rü ya *  ma   |  sa *  ra *  rım  *  se  | 
+c6 B2c2 dcc4z2  | 
+w:  ni    | 
+c2d2 B2A2 A2G2 G4 z2 | G4A2 G2F2 =E2F4z2  | \
+w:  Gi *  *  *  rer *  sin   |  rü ya *  ma   | 
+d2c2 c2B2 B2A2 c2A2 G2 | 
+w:  sa *  ra *  rım  *  se  | 
+G6 ABcd _3/4efg4z2  | z20  | g6=a4b4a4g2 | \
+w:  ni   SAZ  |  |  Gon ca  zan  | 
+g4b2=a2g2g2f2g6  | 
+w:  ne *  de *  rim   | 
+g6=a4b4a2g2f2 | b6b4b2=a2a4g2  | g6=a2b2a2g2g4f2 | \
+w:  kok la rım  se  |  ni    |  Gon ca  *  zan  | 
+f4_3/4e2e2d2d4d4c2  | 
+w:  ne *  de *  rim   | 
+=a4g2g2f2f2_3/4e2e4d2 | d4f2_3/4e2d2e2f2g6  | \
+w:  kok *  la *  rım  *  se  |  ni   SAZ  | 
+f6g4g4g4f2 | f4g2g2f2e2d2e6  | 
+w:  Sî nem de   |  can  *  gi *  bi   | 
+d4e2g2f2e2d2c2B2d2 | z18 | c6 B2c2 dcc6  | \
+w:  sak *  la *  rım  *  se  |  |  ni    | 
+c2d2 B2A2 A2G2 G6 | 
+w:  Sî *  *  *  nem *  de   | 
+G4A2 G2F2 _2/4E2F6  | d2c2 c2B2 B2A2 c2A2 G2 | \
+w:  can  gi *  bi   |  sak *  la *  rım  *  se  | 
+G6 dedc BAG6  | 
+w:  ni    | 
+|
+
+
+X: 1001
+T: Her Gece Yollarda
+C: Kâsım İnaltekin
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: huzzam--sarki--semai--her_gece--kasim_inaltekin
+N: makam= huzzam
+N: form= sarki
+N: usul= semai = 3/4
+M: 3/4
+L: 1/16
+K: C _1/4B _3/4e ^3/4f 
+Q: 1/4=150
+%%MIDI tuningsystem comma53
+g4 f4 a4  | f4 e4 d4  | f4 e4 g4  | e4 d4 c4  | \
+w:  ARANAĞME  |   |   |   | 
+d8 e4  | f4 e4 f4  | d12  | d2e2 f2a2 g4  | 
+w:   |   |   |   | 
+g4 f4 a4  | f4 e4 d4  | f4 e4 g4  | e4 d4 c4  | \
+w:   |   |   |   | 
+d4 e4 f4  | B4 c4 d4  | B12  | G2^A2 B2c2 d4  | 
+w:   |   |   |   | 
+d8 c2B2  | B12  | c4 d8  | f12  | e8 d4  | e4 c4 c2B2  | B12  | \
+w:  Her  ge  |  ce   |  yol lar  |  da   |  göz le  |  dim  *  se  |  ni    | 
+d2c2 B2c2 d4  | c4 d8  | 
+w:  SAZ  |  İ nan   | 
+d12  | d4 c2B2 A2G2  | g12  | f8 g4  | a2g2 f2e2 e2d2  | \
+w:  ki   |  gö nül  |  den   |  öz le  |  dim  *  *  *  se  | 
+d4 c4 e4  | d2c2 B2^A2 B4  | 
+w:  ni   SAZ  |   | 
+d8 c2B2  | B12  | c4 d8  | f12  | e8 d4  | e4 c4 c2B2  | B12  | \
+w:  Her  ge  |  ce   |  yol lar  |  da   |  göz le  |  dim  *  se  |  ni    | 
+d2c2 B2c2 d4  | c4 d8  | 
+w:  SAZ  |  İ nan   | 
+d12  | d4 c2B2 A2G2  | g12  | f8 g4  | a2g2 f2e2 e2d2  | d12  | \
+w:  ki   |  gö nül  |  den   |  öz le  |  dim  *  *  *  se  |  ni    | 
+a2g2 f2g2 a4  | 
+w:  SAZ  | 
+a4 a4 b4  | c'4 _7/8b4 a4  | g4 f4 e4  | d12  | \
+w:  Gül ler  |  de   |  a ra  |  dım   | 
+d4 a8  | g2f2 e2d2 c2d2  | e12  | e2d2 c2d2 e4  | 
+w:  ya kan   |  bû *  *  *  se  |  ni    |  SAZ  | 
+d4 d4 e4  | f4 e4 d4  | d4 c4 B4  | g12  | \
+w:  U nut  |  mam   |  sev *  gi  |  lim_  | 
+g4 f4 e4  | d4 c4 c2B2  | B12  | d2e2 f2g2 a4  | 
+w:  u nut  |  mam  *  se  |  ni    |  SAZ  | 
+a4 a4 b4  | c'4 _7/8b4 a4  | g4 f4 e4  | d12  | \
+w:  Gül ler  |  de   |  a ra  |  dım   | 
+d4 a8  | g2f2 e2d2 c2d2  | e12  | e2d2 c2d2 e4  | 
+w:  ya kan   |  bû *  *  *  se  |  ni    |  SAZ  | 
+d4 d4 e4  | f4 e4 d4  | d4 c4 B4  | g12  | \
+w:  U nut  |  mam   |  sev *  gi  |  lim_  | 
+g4 f4 e4  | d4 c4 c2B2  | B12  | FGAB cdef g4  | 
+w:  u nut  |  mam  *  se  |  ni    |  SAZ  | 
+g4 f4 a4  | f4 e4 d4  | f4 e4 g4  | e4 d4 c4  | \
+w:  ARANAĞME  |   |   |   | 
+d8 e4  | f4 e4 f4  | d12  | d2e2 f2a2 g4  | 
+w:   |   |   |   | 
+g4 f4 a4  | f4 e4 d4  | f4 e4 g4  | e4 d4 c4  | \
+w:   |   |   |   | 
+d4 e4 f4  | B4 c4 d4  | B12  | G2^A2 B2c2 d4  | 
+w:   |   |   |   | 
+d4 d4 c2B2  | B12  | c4 d8  | f12  | e8 d4  | \
+w:  Yıl lar   |  var   |  bu  has  |  ret   |  câ nı  | 
+e4 c4 c2B2  | B12  | d2c2 B2c2 d4  | c4 d8  | 
+w:  ma  yet  |  ti    |  SAZ  |  Hic râ  | 
+d12  | d4 c4 B4  | g12  | f8 g4  | a2g2 f2e2 e2d2  | \
+w:  nın   |  kal bim  |  de   |  sab rı   |  tü *  ket  | 
+d4 c4 e4  | d2c2 B2^A2 B4  | 
+w:  ti   SAZ  |   | 
+d4 d4 c2B2  | B12  | c4 d8  | f12  | e8 d4  | \
+w:  Yıl lar   |  var   |  bu  has  |  ret   |  câ nı  | 
+e4 c4 c2B2  | B12  | d2c2 B2c2 d4  | c4 d8  | 
+w:  ma  yet  |  ti    |  SAZ  |  Hic râ  | 
+d12  | d4 c4 B4  | g12  | f8 g4  | a2g2 f2e2 e2d2  | d12  | \
+w:  nın   |  kal bim  |  de   |  sab rı   |  tü *  ket  |  ti    | 
+a2g2 f2g2 a4  | a4 a4 b4  | 
+w:  SAZ  |  Ve fa  | 
+c'4 _7/8b4 a4  | g4 f4 e4  | d12  | d8 a4  | \
+w:  sız   |  gör  *  ba  |  na   |  aşk  ne  | 
+g2f2 e2d2 c2d2  | e12  | e2d2 c2d2 e4  | 
+w:  ler_ *  et  |  ti    |  SAZ  | 
+d4 d4 e4  | f4 e4 d4  | d4 c4 B4  | g12  | \
+w:  U nut  |  mam   |  sev *  gi  |  lim_  | 
+g4 f4 e4  | d4 c4 c2B2  | B12  | d2e2 f2g2 a4  | 
+w:  u nut  |  mam  *  se  |  ni    |  SAZ  | 
+a4 a4 b4  | c'4 _7/8b4 a4  | g4 f4 e4  | d12  | \
+w:  Ve fa  |  sız   |  gör  *  ba  |  na   | 
+d8 a4  | g2f2 e2d2 c2d2  | e12  | e2d2 c2d2 e4  | 
+w:  aşk  ne  |  ler_ *  et  |  ti    |  SAZ  | 
+d4 d4 e4  | f4 e4 d4  | d4 c4 B4  | g12  | \
+w:  U nut  |  mam   |  sev *  gi  |  lim_  | 
+g4 f4 e4  | d4 c4 c2B2  | B12  | B4 z8  | |
+
+
+X: 1002
+T: Her Gördüğü Periye...
+C: Itrî
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: buselik--beste--hafif--her_gordugu--itri
+N: makam= buselik
+N: form= beste
+N: usul= hafif = 32/4
+M: 32/4
+L: 1/16
+K: C    
+Q: 1/4=84
+%%MIDI tuningsystem comma53
+G2z2 c2c2 c6B2 B6A2 B2A2 G2^9/8F2 G6B2 A6G2 c8 B2c2 d2B2 c2B2 c2d2 c2B2 A2^9/8G2 A8 z4 g2f2 f2_1/4e4d2 e2d2 dccB c2z2 d2e2 d4 c2B2  | 
+w:   | 
+c2B2 c2d2 c2B2 A2^9/8G2 A8 _1/4e2d2 c2de d4 e8 z4 {^f}g8 =f3e d4 e2^f2 e4 f2g2 f4 g2a2 g2f2 c'3_1/4b a2b2 a2z2 f2g2 f4 e4 e2=f2 e2d2 c3B A4  | 
+w:   | 
+|
+
+
+X: 1003
+T: Her Halinle, Her Şeyinle...
+C: Erol Sayan
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: muhayyer--sarki--aksak--her_halinle--erol_sayan
+N: makam= muhayyer
+N: form= sarki
+N: usul= aksak = 9/8
+M: 9/8
+L: 1/16
+K: C _2/4B ^3/4f  
+Q: 1/4=192
+%%MIDI tuningsystem comma53
+a8 e8 d2 | e2 d2c2 B2A2 B2c2 d2e2  | \
+w:  SAZ  |   | 
+f2g2 a2b2 c'2b2 c'2b2 a2 | 
+w:   | 
+a6 g2f2 g2a2 a2g2  | g4 g2f2 g2e2 e4 d2 | \
+w:   |   | 
+e2 d2c2 B2A2 B2c2 d2c2  | 
+w:   | 
+d2c2 B2A2 G2A2 B4 A2 | d4(3c2B2A2A2 Bcde fgag  | 
+w:   |   | 
+a8 e8 d2 | e2 d2c2 B2A2 B2c2 d2e2  | \
+w:  SAZ  |   | 
+f2g2 a2b2 c'2b2 c'2b2 a2 | 
+w:   | 
+a6 g2f2 g2a2 a2g2  | g4 g2f2 g2e2 e4 d2 | \
+w:   |   | 
+e2 d2c2 B2A2 B2c2 d2c2  | 
+w:   | 
+d2c2 B2A2 G2A2 B4 A2 | d4(3c2B2A2A2 Bcde fgag  | 
+w:   |   | 
+f4 g4 a4 a6 | c'4c'2 b2a2 g2f2 e2f2  | \
+w:  Her  ha lin le   |  her  şe *  yin *  le   | 
+g2f2 e2d2 a4 a2{b}a2 {b}g2 | g2 g2g2 f2g2 f2g2 e2d2  | 
+w:  gü zel *  *  sin   SAZ  |  Ha ta  *  *  bul *  mak   | 
+c'2c'4b2 b2a2 a4 g2 | g2 ^2/4f2f2 e2e4e.c .d.e.=f2  | \
+w:  ku sur  *  bul *  mak   |  güç  *  sen *  de   SAZ  | 
+=f2f6 e2f2 f2e2 d2 | 
+w:  Ni ye  be *  nim   | 
+g2 g4 z2e4e4d2  | e2d2 c2B2 c4 d6 | e2 d2c2 B2A2 B2c2 d2c2  | 
+w:  i çin  ken din   |  ü zer *  *  sin    |  Gü nah  *  *  ben *  de   | 
+d2c2 B2A2 G2A2 B4 A2 | d4(3c2B2A2A4AG ABcd  | \
+w:  ku sur  *  *  ben *  de   |  suç  ben *  *  de   SAZ  | 
+e2d2 c2B2 A2B2 c2d2 c2 | 
+w:   | 
+d2 c2B2 A2G2 A2B4A2  | d4 (3c2B2A2 A4 A2B2 ^c2 | \
+w:   |   | 
+d4d2 d2d4d2 ^c2_7/8B2  | 
+w:  Her  kö şe ba şın  | 
+^c8 d4 e4 d2 | =f2 e2d2 ^c2d4ag ^f^efg  | \
+w:  da  dur dum   |  ağ *  la *  dım   SAZ  | 
+^f2f4f2 f2g2 f2e2 d2 | 
+w:  *  Her  ge len  *  ge çen  | 
+g4^f2 g2a4g2 f^ef2  | a4 (3g2f2e2 e8 z2 | \
+w:  den  *  *  sor dum   |  ağ la *  *  dım    | 
+^c2 d2d4c2 d2c2 _7/8B2A2  | 
+w:  Ba şı mı  taş *  la  | 
+a8 (3g2f2g2 e4 d2 | e2 d2c2 B2c4d6  | \
+w:  ra  vur *  *  dum   |  ağ *  la *  dım    | 
+e2d2 c2B2 A2B2 c2d2 c2 | 
+w:  Gü nah  *  *  ben *  de   | 
+d2 c2B2 A2G2 A2B4A2  | d4 (3c2B2A2 A8-A2 | \
+w:  ku sur  *  *  ben *  de   |  suç  ben *  *  de   | 
+e2 d2c2 B2A2 B2c2 d2c2  | 
+w:  Gü nah  *  *  ben *  de   | 
+d2c2 B2A2 G2A2 B4 A2 | d4(3c2B2A2A8-A2  | \
+w:  ku sur  *  *  ben *  de   |  suç  ben *  *  de   | 
+a8 e8 d2 | e2 d2c2 B2A2 B2c2 d2e2  | 
+w:  SAZ  |   | 
+f2g2 a2b2 c'2b2 c'2b2 a2 | a6 g2f2 g2a2 a2g2  | \
+w:   |   | 
+g4 g2f2 g2e2 e4 d2 | 
+w:   | 
+e2 d2c2 B2A2 B2c2 d2c2  | d2c2 B2A2 G2A2 B4 A2 | \
+w:   |   | 
+d4(3c2B2A2A2 Bcde fgag  | 
+w:   | 
+a8 e8 d2 | e2 d2c2 B2A2 B2c2 d2e2  | \
+w:  SAZ  |   | 
+f2g2 a2b2 c'2b2 c'2b2 a2 | 
+w:   | 
+a6 g2f2 g2a2 a2g2  | g4 g2f2 g2e2 e4 d2 | \
+w:   |   | 
+e2 d2c2 B2A2 B2c2 d2c2  | 
+w:   | 
+d2c2 B2A2 G2A2 B4 A2 | d4(3c2B2A2A2 Bcde fgag  | 
+w:   |   | 
+f4 g4 a4 a6 | c'4c'2 b2a2 g2f2 e2f2  | \
+w:  Her  ha lin le   |  her  şe *  yin *  le   | 
+g2f2 e2d2 a4 a2{b}a2 {b}g2 | g2 g2g2 f2g2 f2g2 e2d2  | 
+w:  gü zel *  *  sin   SAZ  |  Ha ta  *  *  bul *  mak   | 
+c'2c'4b2 b2a2 a4 g2 | g2 ^2/4f2f2 e2e4e.c .d.e.=f2  | \
+w:  ku sur  *  bul *  mak   |  güç  *  sen *  de   SAZ  | 
+=f2f6 e2f2 f2e2 d2 | 
+w:  Ni ye  be *  nim   | 
+g2 g4 z2e4e4d2  | e2d2 c2B2 c4 d6 | e2 d2c2 B2A2 B2c2 d2c2  | 
+w:  i çin  ken din   |  ü zer *  *  sin    |  Gü nah  *  *  ben *  de   | 
+d2c2 B2A2 G2A2 B4 A2 | d4(3c2B2A2A4AG ABcd  | \
+w:  ku sur  *  *  ben *  de   |  suç  ben *  *  de   SAZ  | 
+e2d2 c2B2 A2B2 c2d2 c2 | 
+w:   | 
+d2 c2B2 A2G2 A2B4A2  | d4 (3c2B2A2 A4 A2B2 ^c2 | \
+w:   |   | 
+d4d2 d2d4d2 ^c2_7/8B2  | 
+w:  Her  kö şe ba şın  | 
+^c8 d4 e4 d2 | =f2 e2d2 ^c2d4ag ^f^efg  | \
+w:  da  dur dum   |  ağ *  la *  dım   SAZ  | 
+^f2f4f2 f2g2 f2e2 d2 | 
+w:  *  Her  ge len  *  ge çen  | 
+g4^f2 g2a4g2 f^ef2  | a4 (3g2f2e2 e8 z2 | \
+w:  den  *  *  sor dum   |  ağ la *  *  dım    | 
+^c2 d2d4c2 d2c2 _7/8B2A2  | 
+w:  Ba şı mı  taş *  la  | 
+a8 (3g2f2g2 e4 d2 | e2 d2c2 B2c4d6  | \
+w:  ra  vur *  *  dum   |  ağ *  la *  dım    | 
+e2d2 c2B2 A2B2 c2d2 c2 | 
+w:  Gü nah  *  *  ben *  de   | 
+d2 c2B2 A2G2 A2B4A2  | d4 (3c2B2A2 A8-A2 | \
+w:  ku sur  *  *  ben *  de   |  suç  ben *  *  de   | 
+e2 d2c2 B2A2 B2c2 d2c2  | 
+w:  Gü nah  *  *  ben *  de   | 
+d2c2 B2A2 G2A2 B4 A2 | d4(3c2B2A2A8-A2  | |
+
+
+X: 1004
+T: Her Kimde Vardır
+C: Civan Ağa
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: kurdilihicazkar--sarki--duyek--her_kimde--civan_aga
+N: makam= kurdilihicazkar
+N: form= sarki
+N: usul= duyek = 8/4
+M: 8/4
+L: 1/16
+K: C _B _e _A 
+Q: 1/4=120
+%%MIDI tuningsystem comma53
+z2 f4 ga gf fe _1/4ba ag  | g2 c'b b=a ag g3/2a/ gf _1/4ed c2  | 
+w:   |   | 
+z2 _1/4ef g=a gf f3e fe ed  | d2 cd _1/4e2 de f2 ef g4  | 
+w:   |   | 
+z2 f4 ga gf fe _1/4ba ag  | g2 c'b b=a ag g3/2a/ gf _1/4ed c2  | 
+w:   |   | 
+z2 _1/4ef g=a gf f3e fe ed  | d6 _1/4ef gf ef g4  | 
+w:   |   | 
+z2 c4 g2 gf f_1/4e ed de  | f6 _1/4e2 g2 a2 gf e3/2d/  | \
+w:   |   | 
+c2 z2 d_1/4e gf ed d3c cB  | 
+w:   | 
+_1/4e2 dc c6 g2 f2 a2  | gf e3/2d/ c2 z2 Bc de dc B2  | \
+w:   |   | 
+cB BA AG e6 d2 de  | 
+w:   | 
+fg fe dc z2 Bc de dc cB2_1/4A BA AG G6 b2 =ab  | 
+w:   | 
+c'=a b4 z2 b4 ba a3g g3f b6 ba ag  | \
+w:   | 
+gf f_1/4e ed c2 ef g=a gf f3e fe ed d2 cd e2 de f2  | 
+w:   | 
+_1/4ef g4 z2 b4 b=a a3g g3f b6 ba ag  | \
+w:   | 
+gf f_1/4e ed c2 ef g=a gf f3e fe ed d4 z2 ef g3/2f3/4efg4z2c4g2gffeeddef6e2g2_a2gfe3/2d/c2z2degfedd3ccBdcc6g2f2a2gf_e3/2d/c2z2BcdedcB2cBBAAGe6d2defgfedcz2BcdedccB2ABAAGG6dedcBAG4B2cdedcdB2cBBAAGG4z2dedcBcd4c2def2gab3/2a/gafeedd2=abaggffeedd4f2g_ab2c'd'c'2b2a2g2f2e2defagfedc4Bcde(3ggf(3edcB2cBBAAGG3edccBBAAGG4B2cdedcdB2cBBAAGG4z2dedcBcd4c2def2gab3/2a/gafeedd2=abaggffeedd4f2g_ab2c'd'c'2b2a2g2f2e2defagfedc4Bcde(3ggf(3edcB2cBBAAGG3edccBBAAGG4z2c4g2gff_1/4eeddef6e2g2a2gfe3/2d/c2z2degfedd3ccBdcc6g2f2a2gf_e3/2d/c2z2BcdedcB2cBBAAGe6d2defgfedcz2BcdedccB2ABAAGG12z4|
+w:   | 
+
+
+X: 1005
+T: Her Makamın Nağmesinde
+C: Ahmet Avni Konuk
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: bendihisar--kupe--yuruksemai_ii--her--ahmet_avni_konuk
+N: makam= bendihisar
+N: form= kupe
+N: usul= yuruksemai_ii = 6/8
+M: 6/8
+L: 1/16
+K: C ^g ^d  
+Q: 1/4=120
+%%MIDI tuningsystem comma53
+^3/4d4 f2e6  | f3e ^3/4d2e2 d2z2  | e4 f2^3/4d2 d2e2  | \
+w:  Her  ma ka  |  mın   |  nağ me sin  | 
+c2^3/4d2 c2cB A4  | ^3/4d4 f2e6  | 
+w:  de   |  ay rı  ay  | 
+e2f2 ^3/4g2a2 gfe2  | b2a2 ^3/4g2g2 f2fe  | \
+w:  rı   |  neş *  *  *  *  e   | 
+e8-e2z2  | e4 b2a6  | b2a2 ^3/4g2f2 e4  | 
+w:  var    |  Him met_ i   |  dil  | 
+e2e2 f2^3/4d2 d2e2  | c2^3/4d2 c2cB A4  | \
+w:  le  *  a çıl  |  dı   | 
+_B4 B2B2 A2A=G  | =G2_7/8BA AGFE =D4  | 
+w:  bir  de  bu   |  Bend_  | 
+F2E2 =D2^3/4C2 D2ED  | =D8-=D2z2  | |
+
+
+X: 1006
+T: Her Mevsim, İçimden...
+C: Semahat Özdenses
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: ussak--sarki--duyek--her_mevsim--semahat_ozdenses
+N: makam= ussak
+N: form= sarki
+N: usul= duyek = 8/4
+M: 8/4
+L: 1/16
+K: C _2/4B   
+Q: 1/4=132
+%%MIDI tuningsystem comma53
+c2 d2 e2 {f}ed dc d4 z2  | d2 {e}de c2 B2 cd BA A4  | \
+w:  Her  *  mev *  *  *  sim   |  i *  çim *  *  *  den   | 
+e2 eg e2 d2 d2 c2 d2 ed  | 
+w:  ge lir  *  *  *  ge *  çer  | 
+d2 f2 e2 d2 cB BA A4  | e2 eg e2 d2 d2 c2 d2 {f}ed  | \
+w:  sin   |  ge lir  *  *  *  ge *  çer  | 
+d8 GA Bc d4  | 
+w:  sin   SAZ  | 
+z2 f4 e2 fg e2 fg ef  | d2 e4 d2 ef d2 ef de  | \
+w:   |   | 
+c2 d4 c2 B3A B3/2A/ Bc  | 
+w:   | 
+d6 ef g2 fe d4  | z2 f4 a2 g2 f2 e2 d2  | \
+w:   |  Sen  ve fâ *  sız   | 
+ef g4 fe d4 z4  | 
+w:  yol *  *  *  *  cu   | 
+c2 e4 dc B3/2A/ B2 z4  | B2 d4 cB A6 G2  | \
+w:  kal bim   |  kal bim   | 
+A2 f2 e2 ed d3c c3B  | 
+w:  kal bim  *  vî *  rân   | 
+B3A c2 BA A8  | z2 f4 e2 fg e2 fg ef  | \
+w:  e *  der *  *  sin    |  SAZ  | 
+d2 e4 d2 ef d2 ef de  | 
+w:   | 
+c2 d4 c2 B3A B3/2A/ Bc  | d6 ef g2 fe d4  | \
+w:   |   | 
+z2 f4 a2 g2 f2 e2 d2  | 
+w:  Sen  ve fâ *  sız   | 
+ef g4 fe d4 z4  | c2 e4 dc B3/2A/ B2 z4  | \
+w:  yol *  *  *  *  cu   |  kal bim   | 
+B2 d4 cB A6 G2  | 
+w:  kal bim   | 
+A2 f2 e2 ed d3c c3B  | B3A c2 BA A8  | \
+w:  kal bim  *  vî *  rân   |  e *  der *  *  sin    | 
+z2 f4 e2 fg e2 fg ef  | 
+w:  SAZ  | 
+d2 e4 d2 ef d2 ef de  | c2 d4 c2 B3A B3/2A/ Bc  | \
+w:   |   | 
+d6 ^3/4fg ag fg a4  | 
+w:   | 
+z2 g4 a2 a8  | z4 c'2 ba a8  | z2 g4 g2 c'8  | \
+w:  Mer ha ba   |  de me *  den   |  el ve dâ   | 
+c'8 c'b ag c'4  | z2 b4 b2 d'4 c'2 b2  | 
+w:   |  el ve dâ   | 
+a2 g2 a2 {c'}ba a4 ag fe  | de f4 e2 fg e2 fg ef  | 
+w:  der *  *  *  *  *  sin   SAZ  |   | 
+d2 e4 d2 ef d2 ef de  | c2 d4 c2 B3A B3/2A/ Bc  | \
+w:   |   | 
+d6 ef g2 fe d4  | 
+w:   | 
+z2 f4 a2 g2 f2 e2 d2  | ef g4 fe d4 z4  | \
+w:  Sen  ve fâ *  sız   |  yol *  *  *  *  cu   | 
+c2 e4 dc B3/2A/ B2 z4  | 
+w:  kal bim   | 
+B2 d4 cB A6 G2  | A2 f2 e2 ed d3c c3B  | \
+w:  kal bim   |  kal bim  *  vî *  rân   | 
+B3A c2 BA A8  | 
+w:  e *  der *  *  sin    | 
+|
+
+
+X: 1007
+T: Her Ne Dem Düşmen
+C: Ahmet Avni Konuk
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: sipihr--kupe--duyek--her--ahmet_avni_konuk
+N: makam= sipihr
+N: form= kupe
+N: usul= duyek = 8/4
+M: 8/4
+L: 1/16
+K: C    
+Q: 1/4=57
+%%MIDI tuningsystem comma53
+z4 a8 e4 ^f4 ^g4 a6z2  | z4 a8 _1/4b4 c'4 c'2b2 b4 a4  | \
+w:  Her  ne  dem  *  düş  |  men  fi ti *  *  liy  | 
+a2^g2 g8 ^f2e2 f4 e4 g2a2 _1/4b2c'2  | 
+w:  *  *  le  o  *  meh  *  bağ  | 
+_1/4b2a2 a2^g2 g2^f2 f2e2 f2g2 f2e2 e6z2  | \
+w:  *  *  rım  *  *  *  ya *  kar    | 
+z4 ^d8 ^1/4f4 e4 e2b2 b2a2 ^g2f2  | 
+w:  Top  gi bi  *  *  tak_  | 
+e4 d8 e4 c4 d4 c4 c2B2  | A4 A8 B4 c4 d4 e2f2 g2f2  | \
+w:  *  ı  Si pih *  re   |  *  gül le i  *  â  | 
+e2d2 c4 c2B2 A4 A2c2 B2A2 A6z2  | 
+w:  *  *  hım  *  *  çı kar    | 
+|
+
+
+X: 1008
+T: Her Ne Dem Ol
+C: Ahmet Avni Konuk
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: mahur--kupe--devrirevanihindi--her_ne--ahmet_avni_konuk
+N: makam= mahur
+N: form= kupe
+N: usul= devrirevanihindi = 14/8
+M: 14/8
+L: 1/16
+K: C ^9/8f   
+Q: 1/4=102
+%%MIDI tuningsystem comma53
+gfe2 f2g8a4ag ag^f^e f2z2  | ^3/4fgf2 e2fg fef2 g2a2 g2^2/4f2 e2=fe d2z2  | 
+w:  Her  *  *  ne  dem  ol   |  iş *  *  ve bâ *  *  *  *  *  zın   | 
+efe2 f2g2 gfg2 z2c'4c'2 c'b2a _1/4bag2  | \
+w:  nağ *  *  me si  *  *  *  Mâ  | 
+a_bab agac' _3/4baag gfg2 f2ag g6z2  | 
+w:  hur  *  *  *  *  *  *  *  *  *  o *  *  *  lur    | 
+e2e2 ^3/4f2g2 fef2 e2a2 g2f2 agfe d4  | \
+w:  Sabr_ *  ü  tâ *  *  *  *  kat   | 
+d2d2 a2g2 =f2e2 d2de d2dc dcB^A B2z2  | 
+w:  â *  şı kı  *  *  *  mih  | 
+A2{_1/4B}A2 B2c3ed2 c2B2 A2B2 dcBA G2z2  | \
+w:  net *  *  ke şan *  *  *  dan   | 
+A_7/8BAB AGAc _1/4BAAG GFG2 F2AG G6z2  | 
+w:  dûr  *  *  *  *  *  *  *  *  *  o *  *  *  lur    | 
+|
+
+
+X: 1009
+T: Her Ne Dem Sîne-keman
+C: Ahmet Avni Konuk
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: sazkar--kupe--devrirevanihindi--her_ne--ahmet_avni_konuk
+N: makam= sazkar
+N: form= kupe
+N: usul= devrirevanihindi = 14/8
+M: 14/8
+L: 1/16
+K: C _1/4B ^f  
+Q: 1/4=102
+%%MIDI tuningsystem comma53
+G4 ^A2B6 z2B2 A2B2 c/B/c/d/cB B2z2  | \
+w:  Her  ne  dem  sî  | 
+e2d2 e2d2 c2{d}c2 _2/4B2B2 c2BA A4 z4  | 
+w:  ne *  ke man  *  *  *  *  i  | 
+G4 A2_2/4B2 ABdc BAG4A2 B2c2 d2cB  | \
+w:  le  o  meh  *  *  *  *  *  *  Saz  | 
+=f2e2 d2d2 dcdc {d}cBB6 z8  | 
+w:  kâr  *  *  *  *  *  e *  *  *  *  der    | 
+B4 g2g3^3/4fe4f3ed2 d2e2 d2c2  | d4 e2d3cdc B^AB6 z8  | 
+w:  Câ nı na  *  *  üf  |  tâ de gâ *  *  *  *  *  nın   | 
+A_2/4BA2 B2c2 d2c2 e2d4{e}dc dcBA G2z2  | \
+w:  nağ *  *  me  i  *  *  *  *  *  Saz  | 
+A_7/8BAB AGAc _2/4BAAG GFG2 F2AG G6z2  | 
+w:  kâr  *  *  *  *  *  *  *  *  *  e *  *  *  der    | 
+|
+
+
+X: 1010
+T: Her Seherde Sen Gelirsin Aklıma
+C: Nihat Adlim
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: huseyni--sarki--duyek--her_seherde--nihat_adlim
+N: makam= huseyni
+N: form= sarki
+N: usul= duyek = 8/4
+M: 8/4
+L: 1/16
+K: C _2/4B ^3/4f  
+Q: 1/4=168
+%%MIDI tuningsystem comma53
+G2 A6 A8  | e16  | z2 e4 d2 e3d e3/2d/ e^f  | g16  | \
+w:  ARANAĞME  |   |   |   | 
+z2 g2 ^f2 g2 a4 g2 ^3/4f2  | 
+w:   | 
+gf e14  | z2 c2 B2 c2 d6 a2  | g2 =f2 e2 d2 c2 B2 A4  | \
+w:   |   |   | 
+z2 c2 B2 c2 d4 c2 B2  | 
+w:   | 
+cB A4 e2 A8  | G2 A6 A8  | e16  | z2 e4 d2 e3d e3/2d/ e^f  | g16  | \
+w:   |  ARANAĞME  |   |   |   | 
+z2 g2 ^f2 g2 a4 g2 ^3/4f2  | 
+w:   | 
+gf e14  | z2 c2 B2 c2 d6 a2  | g2 =f2 e2 d2 c2 B2 A4  | \
+w:   |   |   | 
+z2 c2 B2 c2 d4 c2 B2  | 
+w:   | 
+cB A4 e2 A8  | z2 A4 A2 e8  | e=f d6 de c6  | \
+w:   |  Her  se her  |  de   | 
+cd B2 Bc A2 A8  | 
+w:   | 
+z2 g4 g2 ga f6  | fg e6 e^1/4f d6  | \
+w:  sen  ge lir  |  sin   | 
+z2 a4 g2 f2 e2 g2 fe  | e16  | 
+w:  ak *  *  *  *  lı  |  ma    | 
+z2 c2 B2 d2 A8  | z2 A4 A2 e8  | e=f d6 de c6  | \
+w:  SAZ  |  Her  se her  |  de   | 
+cd B2 Bc A2 A8  | 
+w:   | 
+z2 g4 g2 ga f6  | fg e6 e^1/4f d6  | \
+w:  sen  ge lir  |  sin   | 
+z2 a4 g2 f2 e2 g2 fe  | e16  | 
+w:  ak *  *  *  *  lı  |  ma    | 
+z2 e4 d2 e3/2d/ ef g4  | ^f2 g6 g8  | \
+w:  SAZ  |  U fuk lar   | 
+z2 g6 f4 e4  | d2 e4 d2 d2 ed c2 B2  | 
+w:  çep çev re   |  a ğar *  dı ğı  *  *  za  | 
+{c}c16  | z2 e4 d2 ed cB c4  | z2 d6 d4 z2 a2  | \
+w:  *  man    |  SAZ  |  Bil sen  na  | 
+g2 =f2 e2 d2 c2 B2 A4  | 
+w:  sıl   | 
+z2 c4 c2 cd B4 z2  | Bc A14  | A12 z4  | \
+w:  çar pı yor   |  kal  |  bim   | 
+.G2 .c4 z2 B4 A2 A2  | A16  | g4 z2 f2 e4 d4  | 
+w:  na sıl  an la ta  |  mam     |  SAZ  | 
+^f2 g6 fg af g4  | g4 z2 f2 e4 d4  | \
+w:   |  Sen  ka ran lık   | 
+f2 g6 f4 e4  | ^f2 g6 f2 g2 a2 ag  | 
+w:  ge ce le ri   |  se ver  | 
+g16  | z2 g2 ^f2 g2 a8  | a=b g6 ga ^f6  | \
+w:  din    |  Sim *  si yah   |   | 
+fg e2 e^1/4f d2 de c6  | 
+w:   | 
+z2 d4 e2 e2 d2 ed cB  | {c}c16  | z2 e4 d2 ed cB c4  | \
+w:  göz le rin  *  var  |  *  dı    |  SAZ  | 
+z2 c2 B2 c2 d6 cB  | 
+w:  Son *  ra  el ve  | 
+A12 z4  | .G2 .c4 z2 .B4 .A4  | .G2 .c4 z2 .B4 .A4  | \
+w:  dâ   |  de din  bir  gün   |  SAZ  | 
+G2 c8-c2 z2 Bc  | d8 d6 a2  | 
+w:  Bü tün  ü  |  mit mit le  | 
+g2 =f2 e2 d2 c2 B2 A4  | G2 c6 B4 A4  | \
+w:  rim   |  ka rar  | 
+A12 z4  | G2 c4 z2 B4 A2 A2  | A16  | |
+
+
+X: 1011
+T: Her Tel Saçı...
+C: Kaptanzâde Ali Rıza Bey
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: kurdilihicazkar--sarki--senginsemai--her_tel--kaptanzade_ali_riza_bey
+N: makam= kurdilihicazkar
+N: form= sarki
+N: usul= senginsemai = 6/4
+M: 6/4
+L: 1/16
+K: C _B _e _A 
+Q: 1/4=66
+%%MIDI tuningsystem comma53
+.B4 .c4 .d4 e3/2d/ce d4 (3d2e2f2  | \
+w:  ARANAĞME  | 
+g3f e3d c3B c3/2B/cd e4 (3B2c2d2  | 
+w:   | 
+e3d c3B A3G G2(3AGA F8  | G2GA c3B A3G F2AG {A}G4 dcBA  | 
+w:   |   | 
+.B4 .c4 .d4 e3/2d/ce d4 (3d2e2f2  | \
+w:  ARANAĞME  | 
+g3f e3d c3B c3/2B/cd e4 (3B2c2d2  | 
+w:   | 
+e3d c3B A3G G2(3AGA F8  | G2GA c3B A3G F2AG {A}G3A/B/ c/d/e/f/g2  | 
+w:   |   | 
+c4 {f}g4 g2f_2/4e f_3/4eed {e}d6z2  | \
+w:  Her  *  tel  sa *  *  çı  *  *  *  *  bir   | 
+d2ed c4 d3_3/4e f2ed d3d _efg2  | 
+w:  ter  *  *  *  du *  da *  *  ğın  SAZ  | 
+f2g6 a3g g2f2 feed edef  | g6z2 .g.e.c.e .d.B.c.A G3A/B/ c/d/e/f/g2  | 
+w:  değ *  di *  ği  *  yer  |  dir   SAZ  | 
+c4 {f}g4 g2f_2/4e f_3/4eed {e}d6z2  | \
+w:  Her  *  tel  sa *  *  çı  *  *  *  *  bir   | 
+d2ed c4 d3_3/4e f2ed d3d _efg2  | 
+w:  ter  *  *  *  du *  da *  *  ğın  SAZ  | 
+f2g6 a3g g2f2 feed edef  | g6z2 edfd (3edc(3_1/4Bc^c d4 =c/B/c/d/e/d/e/f/  | 
+w:  değ *  di *  ği  *  yer  |  dir   SAZ  | 
+g4 e4 c4 b4 _1/4a2{c'}b_a g2{b}ag  | \
+w:  Us lan ma dı  yaş  | 
+f2{a}gf e4 defg fedc .B2.c2 .B2.c2  | 
+w:  lan *  *  *  *  ma *  *  *  dı  *  *  *  hay ret  SAZ  | 
+B3A G3F GABc d3c B3G A3F  | G6z2 edfd (3edc(3_1/4Bc^c d4 =c/B/c/d/e/d/e/f/  | 
+w:  se *  *  *  ne *  *  *  *  *  ler  |  dir   SAZ  | 
+g4 e4 c4 b4 _1/4a2{c'}b_a g2{b}ag  | \
+w:  Us lan ma dı  yaş  | 
+f2{a}gf e4 defg fedc .B2.c2 .B2.c2  | 
+w:  lan *  *  *  *  ma *  *  *  dı  *  *  *  hay ret  SAZ  | 
+B3A G3F GABc d3c B3G A3F  | G6z2 f3g a3/2g/f_1/4e f6z2  | 
+w:  se *  *  *  ne *  *  *  *  *  ler  |  dir   SAZ  | 
+{_1/4e}f4 f4 e2f2 agfe f6z2  | f2{a}gf _1/4e2f2 g2fe b2ag {a}g3d _efg2  | 
+w:  *  Bir  gül  ki  *  he *  *  *  nüz   |  gon *  *  *  *  *  ca  *  *  gi *  *  *  bi  SAZ  | 
+f2g6 a3g g2f2 feed edef  | g6z2 f3g agf_1/4e f6z2  | 
+w:  râ *  yi *  ha *  ver  |  dir   SAZ  | 
+{_1/4e}f4 f4 e2f2 agfe f6z2  | f2{a}gf _1/4e2f2 g2fe b2ag {a}g3d _efg2  | 
+w:  *  Bir  gül  ki  *  he *  *  *  nüz   |  gon *  *  *  *  *  ca  *  *  gi *  *  *  bi  SAZ  | 
+f2g6 a3g g2f2 feed edef  | g6z2 edfd (3edc(3_1/4Bc^c d4 =c/B/c/d/e/d/e/f/  | 
+w:  râ *  yi *  ha *  ver  |  dir   SAZ  | 
+g4 e4 c4 b4 _1/4a2{c'}b_a g2{b}ag  | \
+w:  Us lan ma dı  yaş  | 
+f2{a}gf e4 defg fedc .B2.c2 .B2.c2  | 
+w:  lan *  *  *  *  ma *  *  *  dı  *  *  *  hay ret  SAZ  | 
+B3A G3F GABc d3c B3G A3F  | G6z2 edfd (3edc(3_1/4Bc^c d4 =c/B/c/d/e/d/e/f/  | 
+w:  se *  *  *  ne *  *  *  *  *  ler  |  dir   SAZ  | 
+g4 e4 c4 b4 _1/4a2{c'}b_a g2{b}ag  | \
+w:  Us lan ma dı  yaş  | 
+f2{a}gf e4 defg fedc .B2.c2 .B2.c2  | 
+w:  lan *  *  *  *  ma *  *  *  dı  *  *  *  hay ret  SAZ  | 
+B3A G3F GABc d3c B3G A3F  | G6z2 |
+w:  se *  *  *  ne *  *  *  *  *  ler  |  dir    | 
+
+
+X: 1012
+T: Her Telden Ol Meh Çalmıyor
+C: Şakir Ağa
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: rast--sarki--duyek--her_telden--sakir_aga
+N: makam= rast
+N: form= sarki
+N: usul= duyek = 8/4
+M: 8/4
+L: 1/16
+K: C _1/4B ^f  
+Q: 1/4=120
+%%MIDI tuningsystem comma53
+z2 G4 B2 A2 c2 B2 d2  | c2 de d2 c2 B3A G4  | \
+w:   |   | 
+z2 A4 c2 B2 G2 A2 F2  | 
+w:   | 
+G3B A2 G2 F3E D4  | z2 G4 B2 A2 c2 B2 d2  | \
+w:   |   | 
+c2 de d2 c2 B3A G4  | 
+w:   | 
+z2 A4 c2 B2 G2 A2 F2  | G3D E2 F2 G2 BA G4  | \
+w:   |   | 
+z2 G4 B2 A2 c2 B2 d2  | 
+w:  Her  *  tel  | 
+d2 c4 cB B3A BA G2  | z2 c4 B2 c3B c2 de  | \
+w:  *  den_ *  *  ol  *  meh   |  çal *  *  *  *  mı  | 
+c2 d4 cB dc BA G4  | 
+w:  yor    | 
+z2 G4 B2 A2 c2 B2 d2  | d2 c4 cB B3A BA G2  | \
+w:  Her  *  tel  |  *  den_ *  *  ol  *  meh   | 
+z2 g4 gf f3d e2 {f}ed  | 
+w:  çal *  *  *  *  *  *  mı  | 
+d3A B2 ^c2 d2 fe d4  | z2 d6 d4 d2 g2  | \
+w:  yor   SAZ  |  Ben zâ rın   | 
+g2 de d2 c2 ed ec B2 d2  | 
+w:  *  â  | 
+d2 c4 cB B3G A2 {B}AG  | G3A B2 c2 dc Bc d4  | \
+w:  *  hın_ *  *  al *  *  *  mı  |  yor   SAZ  | 
+z2 d6 d4 d2 g2  | 
+w:  Ben zâ rın   | 
+g2 de d2 c2 ed ec B2 d2  | d2 c4 cB B3G A2 {B}AG  | \
+w:  *  â  |  *  hın_ *  *  al *  *  *  mı  | 
+G3D E2 F2 G2 BA G4  | 
+w:  yor   SAZ  | 
+z2 d6 ed d^c d4  | e2 de f2 ef g2 fg a2 b2  | \
+w:  Fer dâ *  *  *  ya   |  ger  | 
+g2 c'2 b2 a2 g3f ef ga  | 
+w:  *  çi  *  *  sal *  *  *  mı  | 
+f2 g4 =fe de dc BA G2  | z2 d6 ed d^c d4  | \
+w:  yor   *  SAZ  |  Fer dâ *  *  *  ya   | 
+e2 de f2 ef g2 fe ed dc  | 
+w:  ger  | 
+B2 g4 gf f3d e2 {f}ed  | d3A B2 ^c2 d2 fe d4  | \
+w:  *  çi  *  *  sal *  *  *  mı  |  yor   SAZ  | 
+z2 d6 d4 d2 g2  | 
+w:  Ben zâ rın   | 
+g2 de d2 c2 ed ec B2 d2  | d2 c4 cB B3G A2 {B}AG  | \
+w:  *  â  |  *  hın_ *  *  al *  *  *  mı  | 
+G3A B2 c2 dc Bc d4  | 
+w:  yor   SAZ  | 
+z2 d6 d4 d2 g2  | g2 de d2 c2 ed ec B2 d2  | \
+w:  Ben zâ rın   |  *  â  | 
+d2 c4 cB B3G A2 {B}AG  | 
+w:  *  hın_ *  *  al *  *  *  mı  | 
+G3D E2 F2 G2 BA G4  | |
+
+
+X: 1013
+T: Herkes Gitti Yalnız Kaldım...
+C: Refik Fersan
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: segah--sarki--raksaksagi--herkes_gitti--refik_fersan
+N: makam= segah
+N: form= sarki
+N: usul= raksaksagi = 9/8
+M: 9/8
+L: 1/16
+K: C _1/4B _1/4e ^f 
+Q: 1/4=184
+%%MIDI tuningsystem comma53
+G4 B4 G2B2 c2d4 | e2 ^3/4f2{a}g2 ^1/4f2e2 d4 B4  | \
+w:  ARANAĞME  |   | 
+c2d2 c2B2 ^A2B8 | G4B4G2 B2c2 d4  | 
+w:   |  ARANAĞME  | 
+e2^3/4f2 {a}g2^1/4f2 e2d4B4 | c2 d2c2 B2^A2 B8  | \
+w:   |   | 
+G4 B6c4B4 | c2 d2d6 e2g2 =f2e2  | 
+w:  Her kes  git ti   |  yal *  nız  kal *  dım   | 
+d2c2 B4 c2d8 | G4B6 c4 B4  | c2d2 d6e2 g2=f2 e2 | \
+w:  mey *  ha ne de    |  Her kes  git ti   |  yal *  nız  kal *  dım   | 
+d2 c2B4c2 d8  | 
+w:  mey *  ha ne de    | 
+d4 gfg2 e2f4d4 | .e4.c4z2 d3B B4  | c2d2 c2B2 ^A2B8 | \
+w:  Göz yaş *  *  la rı mı   |  iç tim  son  *  pey  |  mâ *  *  *  ne de    | 
+d4gf g2e2 f4 d4  | 
+w:  Göz yaş *  *  la rı mı   | 
+.e4 .c4 z2d3BB4 | c2 d2c2 B2^A2 B8  | \
+w:  iç tim  son  *  pey  |  mâ *  *  *  ne de    | 
+z4 g2b4c'4b4 | z4c'2 b2b2 d'4 b4  | 
+w:  Bu  kalp  dur du   |  dün  *  ge ce  vî  | 
+c'2b2 ^a2g2 {b}c'bb8 | z4g2 b4 c'2b2 d'4  | \
+w:  ran *  ha *  *  ne *  de    |  Bu  kalp  dur *  du  | 
+d'4 c'2b2 a2g2 f2ag fe | 
+w:  *  dün  *  ge ce  *  vî  | 
+d4b4ag g6z2  | d4 g4 e2e4f4 | d4e6 c4 {e}d4  | \
+w:  ran ha ne *  de    |  Her kes  *  git ti   |  yal nız  kal *  dım   | 
+e2c2 B2c2 e2d6 z2 | 
+w:  mey *  ha *  ne de    | 
+d4gf g2e2 f4 d4  | .e4 .c4 z2d3BB4 | \
+w:  Göz yaş *  *  la rı mı   |  iç tim  son  *  pey  | 
+c2 d2c2 B2^A2 B6z2  | d4 gfg2 e2f4d4 | 
+w:  mâ *  *  *  ne de    |  Göz yaş *  *  la rı mı   | 
+.e4.c4z2 d3B B4  | c2d2 c2B2 ^A2B6 z2 | |
+
+
+X: 1014
+T: Hey Onbeşli Onbeşli 
+C: Hamdi Tüfekçi
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: huseyni--turku--sofyan--hey_onbesli--tokat
+N: makam= huseyni
+N: form= turku
+N: usul= sofyan = 4/4
+M: 4/4
+L: 1/16
+K: C _2/4B ^3/4f  
+Q: 1/4=78
+%%MIDI tuningsystem comma53
+d2dB c2BA A2AG A2BA  | A/d/cdB c2BA A4 A4  | 
+w:  ARANAĞME  |   | 
+d2dB c2BA A2AG A2BA  | c2{e}dB c2BA A3A A4  | 
+w:   |   | 
+d2dB c2BA A2AG A2BA  | A/d/cdB c2BA A4 A4  | 
+w:  ARANAĞME  |   | 
+d2dB c2BA A2AG A2BA  | c2{e}dB c2BA A3A A4  | 
+w:   |   | 
+z2cd e2e2 e2{f}d2 .e4  | z2cd e2e2 e2{f}d2 e2z2  | \
+w:  Hey_ on beş li  on *  beş li    |  To kat  yol la rı  *  taş lı    | 
+z2cd e2e2 e2{f}d2 .e4  | 
+w:  Hey_ on beş li  on *  beş li    | 
+z2cd e2e2 e2{f}d2 e2z2  | g2gf gfge ee2d e2dc  | 
+w:  To kat  yol la rı  *  taş lı    |  On beş *  li ler  *  *  ge li *  yor    | 
+d2dd d2d2 d3/2e/ce d2z2  | d2dB c2BA A2AG A2BA  | 
+w:  *  Kız la rın  gö zü  *  yaş *  lı    |  As lan  *  yâ rim  *  kız  se nin_ a dın   | 
+A/d/cdB c2BA A4 A4  | d2dB c2BA A2AG A2BA  | 
+w:  He *  *  di *  *  *  *  ye    |  Ben  do *  lan dım  *  sen  de  *  do lan   | 
+c2dB c2BA A3A A4  | d2dB c2BA A2AG AABA  | 
+w:  gel  *  *  ge di *  ye    |  Fis tan_ *  al dım  *  en dâ *  ze si   | 
+A/d/cdB c/d/cBA A3A A4  | d2dB c2BA A2AG A2BA  | 
+w:  on *  *  *  *  ye *  *  di *  ye    |  ARANAĞME  | 
+A/d/cdB c2BA A4 A4  | d2dB c2BA A2AG A2BA  | 
+w:   |   | 
+c2{e}dB c2BA A3A A4  | d2dB c2BA A2AG A2BA  | 
+w:   |  ARANAĞME  | 
+A/d/cdB c2BA A4 A4  | d2dB c2BA A2AG A2BA  | 
+w:   |   | 
+c2{e}dB c2BA A3A A4  | z2cd e2e2 e2{f}d2 .e4  | \
+w:   |  Hey_ on beş li  on *  beş li    | 
+z2cd e2e2 e2{f}d2 e2z2  | 
+w:  To kat  yol la rı  *  taş lı    | 
+z2cd e2e2 e2{f}d2 .e4  | z2cd e2e2 e2{f}d2 e2z2  | \
+w:  Hey_ on beş li  on *  beş li    |  To kat  yol la rı  *  taş lı    | 
+g2gf gfge ee2d e2dc  | 
+w:  On beş *  li ler  *  *  ge li *  yor    | 
+d2dd d2d2 d3/2e/ce d2z2  | d2dB c2BA A2AG A2BA  | 
+w:  *  Kız la rın  gö zü  *  yaş *  lı    |  As lan  *  yâ rim  *  kız  se nin_ a dın   | 
+A/d/cdB c2BA A4 A4  | d2dB c2BA A2AG A2BA  | 
+w:  He *  *  di *  *  *  *  ye    |  Ben  do *  lan dım  *  sen  de  *  do lan   | 
+c2dB c2BA A3A A4  | d2dB c2BA A2AG AABA  | 
+w:  gel  *  *  ge di *  ye    |  Fis tan_ *  al dım  *  en dâ *  ze si   | 
+A/d/cdB c/d/cBA A3A A4  | |
+
+
+X: 1015
+T: Hezar Zar
+C: Suyolcuzâde Salih Efendi
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: karcigar--sarki--agirevfer--hezar_zar--suyolcuzade_salih_efendi
+N: makam= karcigar
+N: form= sarki
+N: usul= agirevfer = 9/4
+M: 9/4
+L: 1/16
+K: C _2/4B _3/4e ^3/4f 
+Q: 1/4=60
+%%MIDI tuningsystem comma53
+c2d4^f2 _7/8ee/d/ce dc_1/4B2 d2c3/2B/ ced3/2c/ dfe3/2d/ cdc2 d2z2  | 
+w:   | 
+d_7/8e^fg a_bag f3/2e/d2 f2e3/2d/ cdc2 d2e2 dedc d3/2c/_1/4Bc d4  | 
+w:   | 
+z2c2 d4 _b2ag2^fgf _7/8edc2 _1/4Bcd2 dagf edcB cBA2  | 
+w:   | 
+a2ag =f=egf eded c_1/4B_ed e2dc2Bc3/2B/ A4 Bcd3/2c/ Bcd4z2 c2d4_b2 ag2^f gf_7/8ed c2Bc d2da gfed cBcB  | 
+w:   | 
+A2a2 ag=f=e gfed edc_1/4B _ede2 dc2B c3/2B/A4^fg a3/2g/fg  | 
+w:   | 
+a4 z2_b3ab2 ag2^f f_7/8ef2 edde fga2 agb2 ag2f  | 
+w:   | 
+^f_7/8e2f2e/d/d4z2 defg a_bag f3/2e/d2 f2e3/2d/ cdc2 d2e2  | 
+w:   | 
+d_7/8edc d3/2c/_1/4Bc d4 z2c2 d4 _b2ag2^fgf edc2 Bcd2  | 
+w:   | 
+dag^f _7/8edc_1/4B cBA2 a2ag =f=egf eded cB_ed e2dc2Bc3/2B/  | 
+w:   | 
+A4 _1/4Bcd3/2c/ Bcd4z2 c2d4_b2 ag2^f gf_7/8ed c2Bc  | 
+w:   | 
+d2da g^f_7/8ed c_1/4BcB A2a2 ag=f=e gfed edcB _ede2 dc2B  | 
+w:   | 
+c3/2_1/4B/A4^fg a3/2g/fg a4 z2_b3ab2 ag2f f_7/8ef2 edde  | 
+w:   | 
+^fga2 ag_b2 ag2f f_7/8e2f2e/d/d4z2 defg abag f3/2e/d2  | 
+w:   | 
+^f2_7/8e3/2d/ cdc2 d2e2 dedc d3/2c/_1/4Bc d4 z2Bc defd ecd2  | 
+w:   | 
+_7/8e^fgf edc2 g3/2f/eg fedf edcd c2d2 z2de fgaf gef2  | 
+w:   | 
+_7/8e^fgf edc2 e3/2d/c_1/4B d3/2c/BA cABG A6Bc defd ecd2  | 
+w:   | 
+_7/8e^fgf edc2 g3/2f/eg fedf edcd c2d2 z2de fgaf gef2  | 
+w:   | 
+_7/8e^fgf edc2 e3/2d/c_1/4B d3/2c/BA cABG A6|
+w:   | 
+
+
+X: 1016
+T: Hicaz Aranağme (Aydın)
+C: ?
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz--aranagme--aydin--1--
+N: makam= hicaz
+N: form= aranagme
+N: usul= aydin = 9/8
+M: 9/8
+L: 1/16
+K: C _7/8B ^f ^c 
+Q: 1/4=216
+%%MIDI tuningsystem comma53
+.A4 .A4 z4 d2c2 B2 | .A4.A4z4d2 c2d2  | \
+w:  ARANAĞME  |   | 
+.e4 .e4 z4 =f2e2 d2 | c4c4z4=f2 e2d2  | 
+w:   |   | 
+c3B A2c2 B2A2 ^G2A2 B2 | A4A2 A2A4A6  | \
+w:   |   | 
+.A4 .A4 z4 d2c2 B2 | .A4.A4z4d2 c2d2  | 
+w:  ARANAĞME  |   | 
+.e4 .e4 z4 =f2e2 d2 | c4c4z4=f2 e2d2  | \
+w:   |   | 
+c3B A2c2 B2A2 ^G2A2 B2 | 
+w:   | 
+A12z6  | |
+
+
+X: 1017
+T: Hicaz Aranağme (Ağıraksak)
+C: ?
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz--aranagme--agiraksak--1--
+N: makam= hicaz
+N: form= aranagme
+N: usul= agiraksak = 9/4
+M: 9/4
+L: 1/16
+K: C _7/8B ^f ^c 
+Q: 1/4=66
+%%MIDI tuningsystem comma53
+c2d4d2 d4 e=fed cdcB AGAB c2cd cdcd cBBA  | 
+w:  ARANAĞME  | 
+A2g4fe d2f4ed d2a2 g2f2 efef ag^1/4fe d4  | 
+w:   | 
+cded e2dc Bcdc d2cB ABcB c2BA d3/2c/de dcBA G4  | 
+w:   | 
+A2B4A2 B2A2 g=fed c3d cBBA A4 GABc d4  | 
+w:   | 
+c2d4d2 d4 e=fed cdcB AGAB c2cd cdcd cBBA  | 
+w:  ARANAĞME  | 
+A2g4fe d2f4ed d2a2 g2f2 efef ag^1/4fe d4  | 
+w:   | 
+cded e2dc Bcdc d2cB ABcB c2BA d3/2c/de dcBA G4  | 
+w:   | 
+A2B4A2 B2A2 g=fed c3d cBBA A8 z4  | |
+
+
+X: 1018
+T: Hicaz Aranağme (Curcuna)
+C: ?
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz--aranagme--curcuna--1--
+N: makam= hicaz
+N: form= aranagme
+N: usul= curcuna = 10/8
+M: 10/8
+L: 1/16
+K: C _7/8B ^f ^c 
+Q: 1/4=180
+%%MIDI tuningsystem comma53
+d8-d2d2 e2c4z2  | B8-B2B2 c2A4z2  | =f2e2 d2d2 c2c2 B2B2 A2G2  | 
+w:  ARANAĞME  |   |   | 
+d18z2  | =f8-=f2f2 g2e4z2  | d8-d2d2 e2c4z2  | \
+w:   |   |   | 
+B2A2 G2e2 d2c2 B2B4A2  | 
+w:   | 
+A4 =f2e2 d2c2 B2A4z2  | d8-d2d2 e2c4z2  | \
+w:   |  ARANAĞME  | 
+B8-B2B2 c2A4z2  | =f2e2 d2d2 c2c2 B2B2 A2G2  | 
+w:   |   | 
+d18z2  | =f8-=f2f2 g2e4z2  | d8-d2d2 e2c4z2  | \
+w:   |   |   | 
+B2A2 G2e2 d2c2 B2B4A2  | 
+w:   | 
+A4 =f2e2 d2c2 B2A4z2  | |
+
+
+X: 1019
+T: Hicaz Aranağme (Evfer)
+C: ?
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz--aranagme--evfer--1--
+N: makam= hicaz
+N: form= aranagme
+N: usul= evfer = 9/8
+M: 9/8
+L: 1/16
+K: C _7/8B ^f ^c 
+Q: 1/4=120
+%%MIDI tuningsystem comma53
+d4 ^3/4c4 B4 A2A4 | =f4e4d4^3/4c2 c4  | \
+w:  SAZ  |   | 
+g4 e4 ^3/4c4 e2e4 | ^3/4c4A4B2 c2A2 A4  | 
+w:   |   | 
+B8 G4 A2A4 | B8G4A2 A4  | d4 ^3/4c4 B4 A2A4 | \
+w:   |   |  SAZ  | 
+=f4e4d4^3/4c2 c4  | g4 e4 ^3/4c4 e2e4 | 
+w:   |   | 
+^3/4c4A4B2 c2A2 A4  | B8 G4 A2A4 | B8G4A2 A4  | |
+
+
+X: 1020
+T: Hicaz Mandra
+C: Lavtacı Andon
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz--mandra--devrituran--hicaz_mandra--lavtaci_andon
+N: makam= hicaz
+N: form= mandra
+N: usul= devrituran = 7/16
+M: 7/16
+L: 1/16
+K: C _7/8B ^f ^c 
+Q: 1/4=432
+%%MIDI tuningsystem comma53
+A2 A2 A A A  | A2 A2 A A A  | A2 A2 A A A  | \
+w:   |   |   | 
+A2 A2 A A A  | ^3/4c2 B c B A G  | 
+w:   |   | 
+A2 B2 ^3/4c d e  | d ^3/4c B c B A G  | \
+w:   |   | 
+A2 A2 A3  | ^3/4c2 B c B A G  | 
+w:   |   | 
+A2 B2 ^3/4c d e  | d ^3/4c B c B A G  | \
+w:   |   | 
+A2 A2 A3  | A2 d ^3/4c B A B  | 
+w:   |   | 
+^3/4c2 d2 e d e  | A2 d ^3/4c B A G  | \
+w:   |   | 
+d2 ^3/4c e d2 z  | A2 d ^3/4c B A B  | 
+w:   |   | 
+^3/4c2 d2 e d e  | A2 d ^3/4c B A G  | \
+w:   |   | 
+.A2 .A2 A2 z  | d2 d A d2 d  | e2 e d e2 A  | 
+w:   |   |   | 
+a2 g ^3/4f f e d  | ^3/4f2 e {f}d {e}^3/4c {d}=B {c}A  | \
+w:   |   | 
+d2 d A d2 d  | e2 e d e2 d  | 
+w:   |   | 
+a2 g ^3/4f f e d  | .d2 .d2 d3  | a2 a a a a a  | \
+w:   |   |   | 
+a2 a a a a a  | 
+w:   | 
+=b2 a g ^3/4f e f  | g ^3/4f g =b a3  | \
+w:   |   | 
+=b2 a g ^3/4f e f  | g2 ^3/4f e d2 z  | 
+w:   |   | 
+=b2 a g ^3/4f e f  | g ^3/4f g =b a3  | \
+w:   |   | 
+=b2 a g ^3/4f e f  | g2 ^3/4f e d2 z  | 
+w:   |   | 
+.a2 a ^3/4f .g2 e  | =f2 f d e2 ^3/4c  | \
+w:   |   | 
+=f e d e ^3/4c2 B  | A B ^3/4c d e ^3/4f g  | 
+w:   |   | 
+.a2 a ^3/4f .g2 e  | =f2 f d e2 ^3/4c  | \
+w:   |   | 
+=f e d e ^3/4c2 B  | .A2 .A2 A2 A  | \
+w:   |   | 
+G A B ^3/4c d3  | 
+w:   | 
+=f e d ^3/4c B A B  | ^3/4c2 d c B A G  | \
+w:   |   | 
+d2 ^3/4c e d3  | G A B ^3/4c d3  | 
+w:   |   | 
+=f e d ^3/4c B A B  | .^3/4c2 d c B A G  | \
+w:   |   | 
+.G2 .G2 G2 z  | .G2 .G2 B A G  | 
+w:   |   | 
+.G2 .G2 B A G  | .G2 d ^3/4c B A G  | \
+w:   |   | 
+d2 ^3/4c e d3  | .G2 .G2 B A G  | .G2 .G2 B A G  | 
+w:   |   |   | 
+G2 d ^3/4c B A G  | .A2 .A2 A3  | .G2 .G2 B A G  | \
+w:   |   |   | 
+.G2 .G2 B A G  | .G2 d ^3/4c B A G  | 
+w:   |   | 
+d2 ^3/4c e d3  | .G2 .G2 B A G  | .G2 .G2 B A G  | \
+w:   |   |   | 
+G2 d ^3/4c B A G  | .A2 .A2 A2 z  | 
+w:   |   | 
+|
+
+
+X: 1021
+T: Hicaz Peşrev
+C: Neyzen Salim Bey
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz--pesrev--fahte----neyzen_salim_bey
+N: makam= hicaz
+N: form= pesrev
+N: usul= fahte = 20/4
+M: 20/4
+L: 1/16
+K: C _7/8B ^f ^c 
+Q: 1/4=72
+%%MIDI tuningsystem comma53
+G6BA A8  | BcBA B2c2 dcBA G2A2  | G2{c}BA A4 A2B2 A2G2  | 
+w:  1. HANE  |   |   | 
+d3c B2A2 ABAG FGAF  | G4 F2G2 A2BA G2A2  | \
+w:   |   | 
+B2cB A2B2 c2d2 c2d2  | 
+w:   | 
+e=fed cdcB A4 c2d2  | e2fg =fed2 efed c2d2  | 
+w:   |   | 
+c2de =fedc d2e^f g2=fe  | eddc d2e=f edcB AGFG  | 
+w:   |   | 
+A6B2 cde=f edcB  | A4 c2d2 e2=fe d2ed  | \
+w:   |   | 
+c2dc B2cB A4 e=fed  | 
+w:   | 
+e2f2 g3f e2d2 c2d2  | cde=f edcB A4 B2c2  | \
+w:   |   | 
+dcBA G2A2 G2A2 B2{c}BA  | 
+w:   | 
+A6^G2 A2cB BAAG  | ^G=FFE F2G2 A6B2  | \
+w:   |   | 
+ABcA B8 A2B2  | 
+w:   | 
+c2d4c2 eddc d2e2  | d4 c2d2 e6d2  | e=fed c2d2 e2^f2 g2a2  | 
+w:   |  TESLİM  |   | 
+z=b2a g2f2 z2ef e2fg  | a3g f2e2 z2de d2ef  | 
+w:   |   | 
+g3=f e2d2 z2cd c2d2  | e2dc d2cB c2BA A4  | \
+w:   |   | 
+ABAG A2B2 c2d2 e2fa  | 
+w:   | 
+g3=f e2d2 c2{d}cB A2c2  | B3A G2A2 G2A2 BcBA  | \
+w:   |   | 
+A6F2 G2F2 A4  | 
+w:   | 
+G4 A8 e2=f2  | e3d c2d2 c2d2 e2=f2  | \
+w:  2. HANE  |   | 
+d4 e4 z2=f2 e2d2  | g3=f e2d2 ed=c=B c2d2  | 
+w:   |   | 
+=c4 e2=f2 e4 d4  | =c4 =B4 A4 Bcde  | \
+w:   |   | 
+d=c=BA ^G2A2 G2AB cBAG  | 
+w:   | 
+A=B=c^d e=f^gf edcd e4  | z4 e2=f2 e4 ^d4  | \
+w:   |   | 
+e2=f2 e2f2 ^g4 a4  | 
+w:   | 
+e2=f2 ^g2a2 g2a2 =b2=c'2  | =b3a ^g2a2 g2a2 b2g2  | \
+w:   |   | 
+a6^9/8f2 e6d2  | cdc=B cde^9/8f edcB A2B2  | 
+w:   |   | 
+A4 c2d2 e6=f2  | =f2d4e4c4A2  | B2{c}BA B2d2 c3B cBBA  | 
+w:   |   |   | 
+Aag=f edcB ABAG A2B2  | c2d2 e2=f2 e3d c2d2  | 
+w:   |   | 
+c2de =fedc dd'=c'=b ag^fe  | d4 c2d2 e6d2  | \
+w:   |  TESLİM  | 
+e=fed c2d2 e2^f2 g2a2  | 
+w:   | 
+z=b2a g2f2 z2ef e2fg  | a3g f2e2 z2de d2ef  | 
+w:   |   | 
+g3=f e2d2 z2cd c2d2  | e2dc d2cB c2BA A4  | \
+w:   |   | 
+ABAG A2B2 c2d2 e2fa  | 
+w:   | 
+g3=f e2d2 c2{d}cB A2c2  | B3A G2A2 G2A2 BcBA  | \
+w:   |   | 
+A6F2 G2F2 A4  | 
+w:   | 
+|
+
+
+X: 1022
+T: Hicaz Sazsemâîsi
+C: Muhittin Erev
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz--sazsemaisi--aksaksemai----muhittin_erev
+N: makam= hicaz
+N: form= sazsemaisi
+N: usul= aksaksemai = 10/8
+M: 10/8
+L: 1/16
+K: C _7/8B ^f ^c 
+Q: 1/4=144
+%%MIDI tuningsystem comma53
+G4 A2AB AGcB AGd4e2  | =f4 e2dc dec2 BAA4B2  | 
+w:  1. HANE  |   | 
+c2d2 e2fe fgfe d2e2 f2a2  | g4 gff3eg2 fee4z2  | 
+w:   |   | 
+d4 a2a2 gf=b2 aggf e4  | g4 fefe fgag =fed4z2  | 
+w:     TESLİM   |   | 
+=f4 ede^f gag=f edc2 B2A2  | =f4 edc3dcB BAA4z2  | 
+w:   |   | 
+d4 a2a2 gf=b2 aggf e4  | g4 fefe fgag =fed4z2  | 
+w:     TESLİM   |   | 
+=f4 ede^f gag=f edc2 B2A2  | =f4 edc3dcB BAA4z2  | 
+w:   |   | 
+e4 e2e3ded =cde6  | =c2=B2 A2d2 cBBA A^GA2 B2c2  | 
+w:  2. HANE  |   | 
+=f4 e^de2 ^f2^g2 a=bg2 f2e2  | =c'4 =bad'c' ba^gf fee4z2  | 
+w:   |   | 
+d4 a2a2 gf=b2 aggf e4  | g4 fefe fgag =fed4z2  | 
+w:     TESLİM   |   | 
+=f4 ede^f gag=f edc2 B2A2  | =f4 edc3dcB BAA4z2  | 
+w:   |   | 
+d4 a2a2 gf=b2 aggf e4  | g4 fefe fgag =fed4z2  | 
+w:     TESLİM   |   | 
+=f4 ede^f gag=f edc2 B2A2  | =f4 edc3dcB BAA4z2  | 
+w:   |   | 
+f4 f2f3^ed2 def4a2  | g4 f2=b2 agag f^ed4cd  | 
+w:  3. HANE  |   | 
+e4 f2g2 a2g2 f2f2 e2d2  | =c'4 =bag2 gagf fee4z2  | 
+w:   |   | 
+d4 a2a2 gf=b2 aggf e4  | g4 fefe fgag =fed4z2  | 
+w:     TESLİM   |   | 
+=f4 ede^f gag=f edc2 B2A2  | =f4 edc3dcB BAA4z2  | 
+w:   |   | 
+d4 a2a2 gf=b2 aggf e4  | g4 fefe fgag =fed4z2  | 
+w:     TESLİM   |   | 
+=f4 ede^f gag=f edc2 B2A2  | =f4 edc3dcB BAA4z2  | 
+w:   |   | 
+z12  | A8A4  | d8c4  | d4c4e2d2  | d12  | =f8e4  | \
+w:  |  4. HANE  |   |   |   |   | 
+g8=f2e2  | d4c4d4  | e12  | a8a4  | 
+w:   |   |   |   | 
+a8g4  | g4f4f2e2  | d12  | e4f4g4  | a2=b2a4g4  | \
+w:   |   |   |   |   | 
+g4f4f2e2  | e12  | A8A4  | 
+w:   |   |  4. HANE  | 
+d8c4  | d4c4e2d2  | d12  | =f8e4  | g8=f2e2  | \
+w:   |   |   |   |   | 
+d4c4d4  | e12  | a8a4  | a8g4  | g4f4f2e2  | 
+w:   |   |   |   |   | 
+d12  | e4f4g4  | a2=b2a4g4  | g4f4f2e2  | e12  | \
+w:   |   |   |   |   | 
+d2c2d2e2f2g2  | a8g4  | 
+w:   |   | 
+g4f4e4  | d12  | g4=f4e4  | d2c2B4d4  | c12  | \
+w:   |   |   |   |   | 
+G8A4  | A8B4  | d2c2B2A2G2F2  | 
+w:   |   |   | 
+G12  | A4B4d4  | c8A4  | B8G4  | A12  | A8z4  | z20  | \
+w:   |   |   |   |   |   |  | 
+d4 a2a2 gf=b2 aggf e4  | 
+w:     TESLİM   | 
+g4 fefe fgag =fed4z2  | =f4 ede^f gag=f edc2 B2A2  | 
+w:   |   | 
+=f4 edc3dcB BAA4z2  | d4 a2a2 gf=b2 aggf e4  | 
+w:   |     TESLİM   | 
+g4 fefe fgag =fed4z2  | =f4 ede^f gag=f edc2 B2A2  | 
+w:   |   | 
+=f4 edc3dcB BAA4z2  | |
+
+
+X: 1023
+T: Hicaz Sazsemâîsi
+C: Refik Talat Alpman
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz--sazsemaisi--aksaksemai----refik_talat_alpman
+N: makam= hicaz
+N: form= sazsemaisi
+N: usul= aksaksemai = 10/8
+M: 10/8
+L: 1/16
+K: C _7/8B ^f ^c 
+Q: 1/4=108
+%%MIDI tuningsystem comma53
+A3/2c/ea ecA4g2 fee6  | G2FE E2(3AGA (3=BAGGF FEE4(3FEF  | 
+w:  1. HANE  |   | 
+D4 F2A4c2 BAB2 c2BA  | d4 d2(3ded (3cdc(3BcB AGd6  | 
+w:   |   | 
+=f4 fege2dfd2c.e2 .c4  | d4 dcec2BdB2AB2 G4  | 
+w:  MÜLÂZİME  |   | 
+A4 FAG3/2F/ GAB3/2A/ Bcdd cBAG  | \
+w:   | 
+gg=fe d2cB/c/ decB BAA6  | 
+w:   | 
+=f4 fege2dfd2c.e2 .c4  | d4 dcec2BdB2AB2 G4  | 
+w:  MÜLÂZİME  |   | 
+A4 FAG3/2F/ GAB3/2A/ Bcdd cBAG  | \
+w:   | 
+gg=fe d2cB/c/ decB BAA6  | 
+w:   | 
+=c4 c2c2 c_7/8dc3/2_1/4B/ ABc3dcB  | \
+w:  2. HANE  | 
+=c2c_1/4B BAe2 _7/8dc(3dcB BAA4^G2  | 
+w:   | 
+=F4 ^G2A4B3/2A/ Bcd{e}d cBA=G  | d4 d2(3ded (3cdc(3BcB AGd6  | 
+w:   |   | 
+=c4 c2c2 c_7/8dc3/2_1/4B/ ABc3dcB  | \
+w:  2. HANE  | 
+=c2c_1/4B BAe2 _7/8dc(3dcB BAA4^G2  | 
+w:   | 
+=F4 ^G2A4B3/2A/ Bcd{e}d cBA=G  | d4 d2(3ded (3cdc(3BcB AGd6  | 
+w:   |   | 
+=f4 fege2dfd2c.e2 .c4  | d4 dcec2BdB2AB2 G4  | 
+w:  MÜLÂZİME  |   | 
+A4 FAG3/2F/ GAB3/2A/ Bcdd cBAG  | \
+w:   | 
+gg=fe d2cB/c/ decB BAA6  | 
+w:   | 
+=f4 fege2dfd2c.e2 .c4  | d4 dcec2BdB2AB2 G4  | 
+w:  MÜLÂZİME  |   | 
+A4 FAG3/2F/ GAB3/2A/ Bcdd cBAG  | \
+w:   | 
+gg=fe d2cB/c/ decB BAA6  | 
+w:   | 
+e4 A2e2 edf2 feg2 fed2  | =f'e'd'=c' =bag3fa/g/f fee6  | 
+w:  3. HANE  |   | 
+e4 b2(3a=fa (3geg(3fdf (3ece(3dBd (3cAcBA  | 
+w:   | 
+d4 d2(3ded (3cdc(3BcB AGd6  | e4 A2e2 edf2 feg2 fed2  | 
+w:   |  3. HANE  | 
+=f'e'd'=c' =bag3fa/g/f fee6  | e4 b2(3a=fa (3geg(3fdf (3ece(3dBd (3cAcBA  | 
+w:   |   | 
+d4 d2(3ded (3cdc(3BcB AGd6  | =f4 fege2dfd2c.e2 .c4  | 
+w:   |  MÜLÂZİME  | 
+d4 dcec2BdB2AB2 G4  | A4 FAG3/2F/ GAB3/2A/ Bcdd cBAG  | 
+w:   |   | 
+gg=fe d2cB/c/ decB BAA6  | =f4 fege2dfd2c.e2 .c4  | 
+w:   |  MÜLÂZİME  | 
+d4 dcec2BdB2AB2 G4  | A4 FAG3/2F/ GAB3/2A/ Bcdd cBAG  | 
+w:   |   | 
+gg=fe d2cB/c/ decB BAA6  | z12  | A12  | \
+w:   |  |  4. HANE  | 
+A2c2e4d4  | 
+w:   | 
+A12  | A2d2f4d4  | e12  | d2e2g4e4  | f12  | f4e4d4  | A12  | \
+w:   |   |   |   |   |   |   | 
+A2c2e4c4  | A12  | A2d2f4d4  | 
+w:   |   |   | 
+e12  | d2b2a4^g4  | a12  | a2b2c'2c'2a4  | \
+w:   |   |   |   | 
+a3ga2b2a2g2  | f3ef2g2f2e2  | 
+w:   |   | 
+d3cd2e2f2d2  | e12  | g3fg2a2g2=f2  | e3de2=f2e2d2  | \
+w:   |   |   |   | 
+c2d2c2B2B2A2  | 
+w:   | 
+A12  | a3ga2b2a2g2  | f3ef2g2f2e2  | d3cd2e2f2d2  | e12  | \
+w:   |   |   |   |   | 
+g3fg2a2g2=f2  | 
+w:   | 
+e3de2=f2e2d2  | c2d2c2B2B2A2  | A12  | A2c2e4c4  | \
+w:   |   |   |   | 
+A2c2e4c4  | 
+w:   | 
+A2c2e4c4  | a12  | z20  | =f4 fege2dfd2c.e2 .c4  | \
+w:   |   |  |  MÜLÂZİME  | 
+d4 dcec2BdB2AB2 G4  | 
+w:   | 
+A4 FAG3/2F/ GAB3/2A/ Bcdd cBAG  | \
+w:   | 
+gg=fe d2cB/c/ decB BAA6  | 
+w:   | 
+=f4 fege2dfd2c.e2 .c4  | d4 dcec2BdB2AB2 G4  | 
+w:  MÜLÂZİME  |   | 
+A4 FAG3/2F/ GAB3/2A/ Bcdd cBAG  | \
+w:   | 
+gg=fe d2cB/c/ decB BAA6  | 
+w:   | 
+|
+
+
+X: 1024
+T: Hicaz Seyir
+C: Erol Bingöl
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz--seyir--duyek--1--erol_bingol
+N: makam= hicaz
+N: form= seyir
+N: usul= duyek = 8/4
+M: 8/4
+L: 1/16
+K: C _7/8B ^f ^c 
+Q: 1/4=120
+%%MIDI tuningsystem comma53
+A2 d6 e2 dc d4  | cd e4 dc cB BA A4  | \
+w:   |   | 
+d2 e4 g2 ^3/4f2 d2 e2 c2  | 
+w:   | 
+d6 e^3/4f ag ^2/4fe d4  | g2 a4 =b2 a2 g2 ^2/4f2 e2  | \
+w:   |   | 
+^3/4f2 g4 a2 ^1/4f3e d4  | 
+w:   | 
+c2 d4 e2 c2 B2 A2 G2  | d3c cB BA A8  | |
+
+
+X: 1025
+T: Hicaz Seyir
+C: Şefik Gürmeriç
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz--seyir--duyek--1--sefik_gurmeric
+N: makam= hicaz
+N: form= seyir
+N: usul= duyek = 8/4
+M: 8/4
+L: 1/16
+K: C _7/8B ^f ^c 
+Q: 1/4=120
+%%MIDI tuningsystem comma53
+A2 d4 dc cB BA A4  | z2 d4 e=f ed cd e4  | \
+w:   |   | 
+A2 d4 e2 ^3/4f2 g2 a=b ag  | 
+w:   | 
+^3/4f3e e=f ed d8  | d4 a4 a4 g2 ^3/4f2  | \
+w:   |   | 
+e2 d2 e2 ^3/4f2 g8  | ^3/4f2 g4 g2 g4 f2 e2  | 
+w:   |   | 
+e2 ^3/4f2 g2 a=b ag fe d4  | z2 e4 ^3/4f2 g4 =f2 e2  | \
+w:   |   | 
+d2 c2 B2 A2 BA GF G4  | 
+w:   | 
+A2 B4 A2 e2 d2 d2 c2  | c2 B2 cB BA A8  | |
+
+
+X: 1026
+T: Hicaz Seyir
+C: Rauf Yektâ
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz--seyir--semai--1--rauf_yekta
+N: makam= hicaz
+N: form= seyir
+N: usul= semai = 3/4
+M: 3/4
+L: 1/16
+K: C _7/8B ^f ^c 
+Q: 1/4=120
+%%MIDI tuningsystem comma53
+A8 c4  | d8 e4  | d8 c4  | B4 A4 G4  | A8 c4  | \
+w:   |   |   |   |   | 
+d8 e2=f2  | e4 d4 c4  | d8 z4  | z4 c4 d4  | 
+w:   |   |   |   | 
+e4 =f8  | e8 d4  | c4 B4 A4  | z4 B4 c4  | \
+w:   |   |   |   | 
+d4 e4 d4  | c4 B4 A4  | B8 z4  | G8 A4  | A8 z4  | 
+w:   |   |   |   |   | 
+B4 c4 d4  | c4 B4 A4  | A8 =f4  | e4 d4 c4  | \
+w:   |   |   |   | 
+c4 B4 A4  | A8 z4  | A8 ^g4  | a8 z4  | ^g4 ^1/4f4 e4  | 
+w:   |   |   |   |   | 
+d4 c4 B4  | A8 ^g4  | a8 ^g4  | ^g4 ^1/4f4 e4  | \
+w:   |   |   |   | 
+e8 z4  | z4 d4 e4  | f4 g4 a4  | a8 g4  | =f4 e4 d4  | 
+w:   |   |   |   |   | 
+e4 =f4 g4  | =f4 e4 d4  | d4 c4 B4  | c8 z4  | \
+w:   |   |   |   | 
+G8 A4  | A8 z4  | B4 c4 d4  | c4 B4 A4  | 
+w:   |   |   |   | 
+A8 =f4  | e4 d4 c4  | c4 B4 A4  | A8 z4  | |
+
+
+X: 1027
+T: Hicaz Taksim
+C: Tanburî Cemil Bey
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz--taksim--serbest----tanburi_cemil_bey
+N: makam= hicaz
+N: form= taksim
+N: usul= serbest = 0/1
+M: 0/1
+L: 1/16
+K: C _7/8B ^f ^c 
+Q: 1/4=66
+%%MIDI tuningsystem comma53
+G3/2 A/ G2 A4 A4 A4  | A2 A4 A4 z4 z4 B2 B2 c2 d2 e2 e2 d2  | \
+w:   |   | 
+c2 B2 c2 d2 c B A3 B A2  | 
+w:   | 
+G2 A2 B2 c4 B2 A2 z2  | A4 e3 e2 d4 d2 c3 c2 B3 B3 A3 A3  | \
+w:   |   | 
+G3 G A B c d e d c B A A4 A4 A4 z4 z4 z4 z4 z4 A A d2 c B z A B c2 B A G2 z4  | 
+w:   | 
+z4 z4 c d e2 d c B c  | d e c B A G A A B c c B B A B B  | 
+w:   |   | 
+B B B B B A B B A B2 A2 B2 A2 B2 A2 c d e2 d2 f2 e d c  | 
+w:   | 
+B c d e2 d c B B B3/2 B G2 A2 G2 A2 B2 A2 d2 d c B2 c B A A4 A2 A4 A8 z8 z4 z4 e e e c d e f g g f e d c B A4 z4 z4 c d e d =f8 e d c c c c d e2 d c B A2 c d ^f _e e4 e d3/2 d c3/2 c B3/2 B A3/2 G2 A2 B2 A2 d d c d d2 c B A B c c c A B c c B A2 =e2 e d c2 B B B3/2 A A4 A4 G2 A4 z4 z4 z4 z4 A A B  | 
+w:   | 
+c d e f g a b a g f e d c d e2  | \
+w:   | 
+f2 g2 e2 f2 g2 f/ g/ f/ e/ f2 g2  | 
+w:   | 
+f e d2 e3 d2 e2 f2 g2 a2 b b a g2 f2 e2 f4 e2  | \
+w:   | 
+f2 g2 a3 g f e d2 e/ f/ e/ g16 c/ a16 c d  | 
+w:   | 
+e/ f/ e/ d/ c d g4 =f4 e4  | g2 a2 =f3/2 e/ d2 e4 e4  | \
+w:   |   | 
+z4 z4 z4 z4  | A4 e2 d2 e4 e2 e2  | 
+w:  |   | 
+e4 e4 z4 z4  | e2 ^1/4f e f g e2 z4 z4  | \
+w:   |   | 
+^1/4f2 g f g a f2 z4 e2 f e  | 
+w:   | 
+^1/4f g e2 z4 e2 a g z2 g ^f3 f e3 e d3 z4 z4 z4 d e f g2 f e6 z2 f e3 e3 g3/2 a3 g f3 e f3 g2 a4 b3 a g2 f2 e f4 e a4 a ^g ^1/4f2 f f f e2 z4 z4 z4 e3/2 d/ c d e ^f =g a b =c' a2 b a g f g a b g2 b a a4 a4 a4 a8 a8 a8 a8 A8 a8 d e f g a b ^c' d' e' z d' c' b a g f e2 f2 g2 a2 f2 e2 g z f z e z g z f z e z a4 g2 f3/2 e/ c2 e2 d2 e2 f2 e2 e2 g2 a2 g2 f3/2 e/ d2 C D E F G A A G F E D C D4 c d e =f d f e d d c d3 C3 D E3 D D D D C D4 c d e ^f g g f e2 d4 G G F E2 D4 D2 =f2 f f3/2 e d3 d c3 B A3 c2 d2 B A3 e e3 d c B c2 c4 B d c2 c4 G2 A2 B2 A2 d e d c B A  | 
+w:   | 
+A4 A4 A4 A4  | f g a b c' c' b a a g g ^3/4f ^2/4f f f e  | \
+w:   |   | 
+d3 c B A c d e3 d c B A2  | 
+w:   | 
+A2 d4 c B B B B A2 A4 A4 A4 A4 z4 z4 G F G c6 B A  | \
+w:   | 
+A4 z4 z4 |
+w:   | 
+
+
+X: 1028
+T: Hicaz Örnek-öz
+C: Rûhî Ayangil
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz--ornek-oz--devrihindi--1--ruhi_ayangil
+N: makam= hicaz
+N: form= ornek-oz
+N: usul= devrihindi = 7/4
+M: 7/4
+L: 1/16
+K: C _7/8B ^f ^c 
+Q: 1/4=60
+%%MIDI tuningsystem comma53
+A_B cd e=f ed cB A4  | ed e^3/4f ga g^2/4f ed c4  | 
+w:   |   | 
+de =fe de dc BA B4  | ^3/4FG AB ed cB2c A4  | 
+w:   |   | 
+|
+
+
+X: 1029
+T: Hicaz Örnek-öz
+C: Rûhî Ayangil
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz--ornek-oz--senginsemai--1--ruhi_ayangil
+N: makam= hicaz
+N: form= ornek-oz
+N: usul= senginsemai = 6/4
+M: 6/4
+L: 1/16
+K: C _7/8B ^f ^c 
+Q: 1/4=60
+%%MIDI tuningsystem comma53
+A4 =f2d2 e4 B2G2 B4 A2G2  | f4 g2e2 c4 e2=f2 d8  | \
+w:   |   | 
+B2e2 c4 d2B2 G2A2 B8  | 
+w:   | 
+A2a2 g2=f2 e2d2 c2B2 A8  | |
+
+
+X: 1030
+T: Hicaz Örnek-öz
+C: Rûhî Ayangil
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz--ornek-oz--sofyan--1--ruhi_ayangil
+N: makam= hicaz
+N: form= ornek-oz
+N: usul= sofyan = 4/4
+M: 4/4
+L: 1/16
+K: C _7/8B ^f ^c 
+Q: 1/4=60
+%%MIDI tuningsystem comma53
+e2c2 d2B2 c2A2 B2G2  | A2B2 c2e2 d4 f4  | \
+w:   |   | 
+a2f2 g2e2 =f2d2 e2c2  | 
+w:   | 
+d2B2 c2B2 A8  | |
+
+
+X: 1031
+T: Hicaz Örnek-öz
+C: Rûhî Ayangil
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz--ornek-oz--yuruksemai--1--ruhi_ayangil
+N: makam= hicaz
+N: form= ornek-oz
+N: usul= yuruksemai = 6/8
+M: 6/8
+L: 1/16
+K: C _7/8B ^f ^c 
+Q: 1/4=120
+%%MIDI tuningsystem comma53
+A2B2 A2G2 d2c2  | d2c2 B2A2 B4  | c2d2 c2B2 A2c2  | \
+w:   |   |   | 
+B2A2 GBA6  | 
+w:   | 
+|
+
+
+X: 1032
+T: Hicaz-Hümâyûn Aranağme (Curcuna)
+C: ?
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz-humayun--aranagme--curcuna--1--
+N: makam= hicaz-humayun
+N: form= aranagme
+N: usul= curcuna = 10/8
+M: 10/8
+L: 1/16
+K: C _7/8B ^c  
+Q: 1/4=192
+%%MIDI tuningsystem comma53
+e2f2 g2a2 g2f2 e2f4z2  | e2f2 g2a4g2 f2e4d2  | \
+w:  ARANAĞME  |   | 
+d2c2 d2e2 f2e2 d2c2 B2A2  | 
+w:   | 
+A2G2 A2B2 c2d2 e2^f2 g2a2  | a4 =c'2b2 a2g2 f2e2 d2c2  | \
+w:   |   | 
+c2B2 d2c2 B2B2 A2A6  | 
+w:   | 
+|
+
+
+X: 1033
+T: Hicaz-Hümâyûn Aranağme (Düyek)
+C: ?
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz-humayun--aranagme--duyek--1--
+N: makam= hicaz-humayun
+N: form= aranagme
+N: usul= duyek = 8/4
+M: 8/4
+L: 1/16
+K: C _7/8B ^c  
+Q: 1/4=144
+%%MIDI tuningsystem comma53
+A2 d2 c2 B2 B2 c2 B2 A2  | .B2 B6 E2 G2 B4  | \
+w:  ARANAĞME  |   | 
+z2 e2 d2 c2 c2 d2 B2 c2  | 
+w:   | 
+A8 z2 E2 A2 c2  | d4 c4 z2 d4 e2  | e2 e6 e8  | \
+w:   |   |   | 
+e4 g8 f2 e2  | e8 fg fe f4  | 
+w:   |   | 
+z4 f2 f2 f6 f2  | f2 f14  | z2 e4 g2 f2 e2 d2 e2  | c16  | \
+w:   |   |   |   | 
+e4 d6 c4 B2  | B2 B14  | 
+w:   |   | 
+e4 d8 B2 c2  | A16  | |
+
+
+X: 1034
+T: Hicaz-Hümâyûn Peşrev
+C: Veli Dede
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz-humayun--pesrev--cenber----veli_dede
+N: makam= hicaz-humayun
+N: form= pesrev
+N: usul= cenber = 24/4
+M: 24/4
+L: 1/16
+K: C _7/8B ^c  
+Q: 1/4=66
+%%MIDI tuningsystem comma53
+G4 A4 A2 B2 A2 G2  | A2 Bc B2 c2 A6 f2  | \
+w:  1. HANE  |   | 
+e2 de d2 cd c2 Bc B2 A2  | 
+w:   | 
+A6 c2 cB BA B4  | B4 A2 B2 c2 d4 c2  | \
+w:   |   | 
+{d}c2 =Bc B2 c2 d4 z4  | c2 d4 c2 de d{e}c d2 e2  | 
+w:   |   | 
+d4 e2 f2 e2 f2 e2 d2  | e2 ^2/4f2 g2 =f2 e4 d4  | \
+w:   |   | 
+e2 f2 e2 d2 c3d c4  | c4 B2 c2 d2 e2 d2 c2  | 
+w:   |   | 
+c2 d2 c2 B2 B2 A2 B4  | c2 d4 c2 d2 c2 d2 e2  | \
+w:   |   | 
+d2 ef e2 d2 c3B A4  | 
+w:   | 
+e3d d3c c2 Bc B2 A2  | A6 d2 c2 B2 A2 G2  | \
+w:   |   | 
+A6 B2 c4 d3c  | {d}c2 =Bc B2 c2 d4 z4  | 
+w:   |   | 
+d2 ef e2 d2 e3d c4  | c2 de d2 c2 d3c B4  | \
+w:  TESLİM  |   | 
+B2 cd c2 d2 c3B A4  | 
+w:   | 
+A2 d2 c2 d2 c3B A2 c2  | B6 c2 B3A ^G2 A2  | \
+w:   |   | 
+^G4 A2 A2 A4 z4  | G2 A2 B2 d2 c4 d4  | 
+w:   |  2. HANE  | 
+c2 B2 A2 G2 d4 z4  | e2 ^3/4fg e2 d2 c2 B2 A2 G2  | \
+w:   |   | 
+A6 c2 B2 BA B4  | 
+w:   | 
+z4 A2 B2 c4 d4  | c2 d2 c2 B2 A4 z4  | \
+w:   |   | 
+B4 c4 B2 c2 B2 A2  | G4 z4 A4 G2 A2  | 
+w:   |   | 
+B4 A2 B2 c6 d2  | c2 d2 c2 B2 A6 B2  | \
+w:   |   | 
+c4 B2 c2 d4 c2 d2  | e6 f2 e4 d4  | 
+w:   |   | 
+e3d c2 d2 c4 d4  | e6 f2 e2 d2 c4  | \
+w:   |   | 
+d6 e2 d2 c2 B4  | c6 d2 c2 B2 A4  | 
+w:   |   | 
+B3A B2 c2 d6 c2  | {d}c2 =Bc B2 c2 d4 z4  | \
+w:   |   | 
+d2 ef e2 d2 e3d c4  | 
+w:  TESLİM  | 
+c2 de d2 c2 d3c B4  | B2 cd c2 d2 c3B A4  | \
+w:   |   | 
+A2 d2 c2 d2 c3B A2 c2  | 
+w:   | 
+B6 c2 B3A ^G2 A2  | ^G4 A2 A2 A4 z4  | \
+w:   |   | 
+d4 e4 e2 f2 e2 d2  | a2 g2 f2 e2 d2 c2 B2 A2  | 
+w:  3. HANE  |   | 
+B4 z4 z2 e2 d2 c2  | B3A B2 c2 B4 c4  | \
+w:   |   | 
+d8 z4 c2 d2  | c4 e2 f2 e3d =c2 e2  | 
+w:   |   | 
+d2 =c4 =B2 c4 d4  | A6 d2 c4 d4  | e6 g2 ^3/4f2 g2 a2 =b2  | \
+w:   |   |   | 
+a4 g2 ^3/4f2 e4 z4  | ^2/4f3e f2 g2 =f2 e2 d2 c2  | 
+w:   |   | 
+d4 c2 d2 e4 d2 e2  | ^3/4f4 e2 f2 g4 f2 g2  | \
+w:   |   | 
+a6 ^3/4f2 g2 a2 g2 f2  | e6 g2 ^3/4f4 e4  | 
+w:   |   | 
+d2 e2 d2 c2 B2 A2 B4  | z2 e2 d2 e2 d4 c2 d2  | \
+w:   |   | 
+{d}c2 =Bc B2 c2 d4 z4  | 
+w:   | 
+d2 ef e2 d2 e3d c4  | c2 de d2 c2 d3c B4  | \
+w:  TESLİM  |   | 
+B2 cd c2 d2 c3B A4  | 
+w:   | 
+A2 d2 c2 d2 c3B A2 c2  | B6 c2 B3A ^G2 A2  | \
+w:   |   | 
+^G4 A2 A2 A4 z4  | A2 d4 c2 d3c d2 e2  | 
+w:   |  4. HANE  | 
+d4 e2 f2 e2 d2 c4  | B2 c4 B2 c3B c2 d2  | \
+w:   |   | 
+c2 e2 d2 c2 B6 A2  | BA Bc B2 A2 G2 ^3/4F2 G4  | 
+w:   |   | 
+A2 B2 G2 A2 B4 c4  | B2 c2 B2 A2 G4 ^3/4F4  | \
+w:   |   | 
+G2 A2 G2 ^3/4F2 E4 F4  | G6 A2 B4 c4  | 
+w:   |   | 
+d4 c2 d2 e2 f2 e2 d2  | f2 e2 d2 c2 d6 c2  | \
+w:   |   | 
+B4 A4 B3A B2 c2  | d6 e2 d2 c2 B4  | 
+w:   |   | 
+c6 d2 c2 B2 A4  | B3A B2 d2 c2 B2 A2 G2  | \
+w:   |   | 
+A6 B2 c4 d4  | z2 g2 f2 e2 d4 c2 d2  | 
+w:   |   | 
+{d}c2 =Bc B2 c2 d4 z4  | d2 ef e2 d2 e3d c4  | \
+w:   |  TESLİM  | 
+c2 de d2 c2 d3c B4  | 
+w:   | 
+B2 cd c2 d2 c3B A4  | A2 d2 c2 d2 c3B A2 c2  | \
+w:   |   | 
+B6 c2 B3A ^G2 A2  | 
+w:   | 
+^G4 A2 A2 A4 z4  | |
+
+
+X: 1035
+T: Hicaz-Hümâyûn Peşrev
+C: Vardakosta Seyyid Ahmed Ağa
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz-humayun--pesrev--devrikebir----musahib_ahmed_aga
+N: makam= hicaz-humayun
+N: form= pesrev
+N: usul= devrikebir = 28/4
+M: 28/4
+L: 1/16
+K: C _7/8B ^c  
+Q: 1/4=81
+%%MIDI tuningsystem comma53
+d8 c4 d4 c4 d4 d4  | e4 d4 c4 B8 A2 B2 c2 d2  | \
+w:   |   | 
+c4 d4 c4 B4 A8 B8 c4 d4 c2 B2 A4 A6 z2  | 
+w:   | 
+c4 B2 c2 B4 A4 B8 B4  | z4 c4 d4 d6 z2 =B2 c2 B2 c2  | \
+w:   |   | 
+d4 e4 d6 f2 e4 d4 c4  | 
+w:   | 
+B4 A4 G4 d8 c4 d4  | c4 d4 d4 e4 d4 c4 B8 A2 B2 c2 d2 c4 d4 c4 B4  | 
+w:   |   | 
+A8 B8 c4 d4 c2 B2  | A4 A4 z4 c4 B2 c2 B4 A4  | \
+w:   |   | 
+B8 B4 e4 d4 c2 d2 c4  | 
+w:   | 
+B2 c2 B4 A4 A6 z2 A8  | A4 =B4 =c8 B4 A4 G4  | \
+w:   |   | 
+A2 G2 ^F2 E4 D4 F8 G8 A4 B2 c2 B4 A4 G4 F4 G6 z2 A4 B2 c2 B4 c4 B4 A4 G8 c4 d4 d4 c4 B4 A4 G4 F4 G8 e4 d4 c8 c4 B4 e2 d2 c4 B3 A G2 A2 G4 A4 A6 z2 A8 A4 =B4 =c8 B4 A4 G4 A2 G2 F2 E4 D4 F8 G8 A4 _7/8B2 ^c2 B4 A4 G4 F4  | 
+w:   | 
+G6 z2 A4 B2 c2 B4 c4 B4  | A4 G8 c4 d4 d4 c4  | \
+w:   |   | 
+B4 A4 G4 ^F4 G8 e4  | d4 c8 c4 B4 e2 d2 c4  | 
+w:   |   | 
+B3 A G2 A2 G4 A4 A6 z2 A8 A4 B4 A6 B2 c4 d4  | \
+w:   | 
+B4 c4 d8 G8 A4  | B4 G12 z4 G4 A4  | 
+w:   |   | 
+A4 G2 A2 B8 B4 A4 G6 A2 B4 c2 d2 c4 d4 d4 c4  | \
+w:   | 
+B4 A4 G4 ^F4 G6 z2 e4  | 
+w:   | 
+d4 c8 c4 B4 d6 c2  | B3 A G2 A2 G4 A4 A6 z2 A8 A4 B4 A6 B2 c4 d4  | 
+w:   |   | 
+B4 c4 d6 z2 A8 B8 c8 c4 d4 c4 B4  | \
+w:   | 
+A8 d2 e2 d2 c2 d4 e4 d4  | c4 B6 z2 c2 d2 c2 B2 c4 d4  | 
+w:   |   | 
+c4 B4 A4 B4 G8 e8 c4 d4 d4 c4 =B6 c2  | \
+w:   | 
+d4 e2 f2 e2 d2 c4 c4 d4 c6 z2 e2 d2 e4 d6 z2 g4 ^f2 a2  | 
+w:   | 
+g3 ^f e4 e4 z4 c2 d2 c4 d8 e6 g2 f4 e4 d4 c4  | \
+w:   | 
+d6 z2 c4 d4 d4 c4 c2 B2  | 
+w:   | 
+A4 B4 c2 d2 c4 d4 d4 c4  | B4 A4 G4 ^F4 G6 z2 e8 c4 d4 d4 c4 =B2 c2 B2 c2  | 
+w:   |   | 
+d4 e2 f2 e2 d2 c4 c4 d4 c6 z2 e2 d2 e4 d6 e2 ^f4 g4  | \
+w:   | 
+^f4 g4 a8 f8 g8 a8 _1/4b4 a4 g4 f4  | 
+w:   | 
+g8 ^f4 g2 a2 g4 a4 f4  | e4 d2 e2 ^f4 f8 f4 e4  | \
+w:   |   | 
+d4 c4 B4 c4 A6 z2 e4  | 
+w:   | 
+d4 e2 d2 c4 c4 B4 d6 c2  | B3 A G2 A2 G4 A4 A6 z2 A8 A4 _1/4B4 =c8 B4 A4  | 
+w:   |   | 
+G4 A2 G2 ^F2 E4 D4 F8 G8 A4 B2 c2 B4 A4 G4 F4 G6 z2 A4 B2 c2 B4 c4 B4 A4 G8 c4 d4 d4 c4 B4 A4 G4 F4 G8 e4 d4 c8 c4 B4 e2 d2 c4 B3 A G2 A2 G4 A4 A6 z2 A8 A4 =B4 =c8 B4 A4 G4 A2 G2 F2 E4 D4 F8  | 
+w:   | 
+G8 A4 B2 c2 B4 A4 G4  | ^F4 G6 z2 A4 B2 c2 B4 c4  | \
+w:   |   | 
+B4 A4 G8 c4 d4 d4  | 
+w:   | 
+c4 B4 A4 G4 ^F4 G8  | e4 d4 c8 c4 B4 e2 d2  | \
+w:   |   | 
+c4 B3 A G2 A2 G4 A4 A6 z2  | 
+w:   | 
+A8 A4 B4 A6 B2 c4  | d4 B4 c4 d8 G8  | \
+w:   |   | 
+A4 B4 G12 z4 G4  | A4 A4 G2 A2 B8 B4 A4  | 
+w:   |   | 
+G6 A2 B4 c2 d2 c4 d4 d4  | c4 B4 A4 G4 ^F4 G6 z2  | \
+w:   |   | 
+e4 d4 c8 c4 B4 d6 c2 B3 A G2 A2 G4 A4 A6 z2  | 
+w:   | 
+A8 A4 B4 A6 B2 c4  | d4 B4 c4 d6 z2 A8  | \
+w:   |   | 
+B8 c8 c4 d4 c4  | B4 A8 d2 e2 d2 c2 d4 e4  | 
+w:   |   | 
+d4 c4 B6 z2 c2 d2 c2 B2 c4  | d4 c4 B4 A4 B4 G8  | \
+w:   |   | 
+e8 c4 d4 d4 c4 =B6 c2 d4 e2 f2 e2 d2 c4 c4 d4  | 
+w:   | 
+c6 z2 e2 d2 e4 d6 z2 g4  | ^f2 a2 g3 f e4 e4 z4 c2 d2 c4  | \
+w:   |   | 
+d8 e6 g2 ^f4 e4 d4  | 
+w:   | 
+c4 d6 z2 c4 d4 d4 c4  | c2 B2 A4 B4 c2 d2 c4 d4 d4  | \
+w:   |   | 
+c4 B4 A4 G4 ^F4 G6 z2  | 
+w:   | 
+e8 c4 d4 d4 c4 =B2 c2  | =B2 c2 d4 e2 f2 e2 d2 c4 c4 d4  | \
+w:   |   | 
+c6 z2 e2 d2 e4 d6 e2 ^f4  | 
+w:   | 
+g4 ^f4 g4 a8 f8  | g8 a8 _1/4b4 a4 g4  | \
+w:   |   | 
+^f4 g8 f4 g2 a2 g4 a4  | ^f4 e4 d2 e2 f4 f8 f4  | 
+w:   |   | 
+e4 d4 c4 B4 c4 A6 z2  | e4 d4 e2 d2 c4 c4 B4 d6 c2 B3 A G2 A2 G4 A4 A6 z2  | 
+w:   |   | 
+A8 A4 _1/4B4 =c8 B4  | A4 G4 A2 G2 ^F2 E4 D4 F8 A4 ^G4 F4 ^E4 F8 G4 A4 A4 G2 z2 F8 F4 E4 F4 E4 F4 G4 A8 A4 B4 A8 G8 A8 B8 c4 d4 c4 d2 e2 d2  | 
+w:   |   | 
+c2 =B4 B8 c4 d4 c8 d4 e4 d8 e16 d6 c2 _7/8B4 A4 c2 d2 c4 d2 e2 d4 e6 g2 ^f4 e4 d4 c4 d6 z2 ^e4 f4 f4 e4 f4 e4 f4 ^g2 a2 g4 a4 a4 g4 ^1/4f4 =e4 d4 c4 d6  | 
+w:   | 
+z2 =b8 ^g4 a4 a4 g4 ^9/8f2  | ^9/8g2 ^9/8f2 g2 a4 =b2 =c'2 b2 a2 ^g4 g4 a4 g6 z2 b4 g4 a12 a2 a2 a6 a2 a6 z2 a8 a4 b4 a8 b4 a4 g8 a4 g4 ^1/4e8 g4 =f4 g3 ^1/4f =e4 e4 e4 d2 e2 ^f2 =g2 f4 g4 f4 e4 d4 c4 ^1/4e8 ^g4 =f4 g3 ^1/4f =e4 e4 e4 d2  | 
+w:   |   | 
+e2 ^f2 g2 f4 g4 f4 e4 d4 c4 d6 z2 =b8 ^g4 a4 a4 g4 ^9/8f2 ^9/8g2 f2 g2 a4 b2 =c'2 b2 a2 ^g4 g4 a4 g6 z2 b4 g4 a12 a2 a2 a6 a2 a6  | 
+w:   | 
+z2 a8 a4 =b4 a8 b4 a4 ^g8 a4 g4 ^1/4e8 g4 f4 g3 ^1/4f =e4 e4 e4 d2  | \
+w:   | 
+e2 ^f2 g2 f4 g4 f4 e4 d4 c4 ^1/4e8 ^g4 =f4 g3 ^1/4f =e4 e4 e4 d2 e2 ^f2 =g2 f4 g4 f4 e4 d4 c4 a8 a4 g4 a3 g a2 _1/4b2 a4 b4 a4 g4 f6  | 
+w:   | 
+z2 ^f4 g2 a2 g4 a4 g4 f4 e4 d4 e4 f4 f4 e4 d4 c4 B4 c4 A8 e4 d4 c8 c4 B4 d3 c B3 A G2 G2 G4 A4 A4 B4 c8 d8 e8 f8 g8 a6 z2 a8 a4 g4 a3 g a2  | 
+w:   | 
+_1/4b2 a4 b4 a4 g4 ^f6 z2 f4 g2 a2 g4 a4 g4 f4 e4 d4 e4 f4 f4 e4 d4 c4 B4 c4 A6 z2 e4 d4 e2 d2 c4 c4 B4 d3 c B3 A G2 A2 G4 A4 A6 z2 A8 A4 _1/4B4 =c8 B4 A4 G4 A2 G2 F2 E4  | 
+w:   | 
+D4 ^F8 G8 A4 B2 c2  | B4 A4 G4 ^F4 G6 z2 A4  | \
+w:   |   | 
+B2 c2 B4 c4 B4 A4 G8  | c4 d4 d4 c4 B4 A4 G4  | 
+w:   |   | 
+^F4 G8 e4 d4 c8  | c4 B4 e2 d2 c4 B3 A G2 A2 G4  | \
+w:   |   | 
+A4 A6 z2 A8 A4 =B4  | 
+w:   | 
+=c8 =B4 A4 G4 A2 G2 ^F2 E4 D4 F8 G8 A4 _7/8B2  | \
+w:   | 
+c2 B4 A4 G4 ^F4 G6 z2 A4 B2 c2 B4 c4 B4 A4 G8 c4 d4 d4 c4 B4 A4 G4 F4 G8 e4 d4 c8 c4 B4 e2 d2 c4 B3 A G2 A2 G4 A4 A6 z2 A8 A4 B4 A6 B2 c4 d4 B4 c4 d8 G8 A4 B4 G12 z4 G4 A4 A4 G2 A2 B8 B4 A4 G6 A2 B4 c2  | 
+w:   | 
+d2 c4 d4 d4 c4 B4 A4 G4 ^F4 G6 z2 e4 d4 c8 c4 B4 d6 c2 B3 A G2 A2 G4 A4 A6 z2 A8 A4 B4 A6 B2 c4 d4 B4 c4 d6 z2 A8 B8 c8 c4 d4 c4 B4 A8 d2  | 
+w:   | 
+e2 d2 c2 d4 e4 d4 c4 B6  | z2 c2 d2 c2 B2 c4 d4 c4 B4 A4 B4 G8 e8 c4 d4 d4 c4 =B6 c2 d4 e2 f2 e2  | 
+w:   |   | 
+d2 c4 c4 d4 c6 z2 e2 d2 e4 d6 z2 g4 ^f2 a2 g3 f e4 e4 z4 c2 d2 c4 d8 e6  | 
+w:   | 
+g2 ^f4 e4 d4 c4 d6 z2 c4 d4 d4 c4 c2 B2 A4 B4 c2  | \
+w:   | 
+d2 c4 d4 d4 c4 B4 A4 G4 ^F4 G6 z2 e8 c4 d4 d4 c4 =B2 c2 B2 c2 d4 e2 f2 e2  | 
+w:   | 
+d2 c4 c4 d4 c6 z2 e2 d2 e4 d6 e2 ^f4 g4 f4 g4 a8 f8 g8 a8 _1/4b4 a4 g4 f4 g8 f4 g2 a2 g4 a4 f4 e4 d2 e2 f4 f8 f4 e4 d4 c4 B4 c4 A6 z2 e4 d4 e2 d2 c4 c4 B4 d6 c2 B3 A G2 A2 G4 A4 A6 z2 A8 A4 _1/4B4 =c8 B4 A4 G4 A2 G2 ^F2  | 
+w:   | 
+E4 D4 ^F8 A4 ^G4 F4  | ^E4 ^F8 ^G4 A4 A4 G2 z2  | \
+w:   |   | 
+^F8 F4 ^E4 F4 E4 F4  | ^G4 A8 A4 B4 A8  | 
+w:   |   | 
+^G8 A8 B8 c4  | d4 c4 d2 e2 d2 c2 =B4 B8  | \
+w:   |   | 
+c4 d4 c8 d4 e4 d8 e16 d6 c2  | 
+w:   | 
+B4 A4 c2 d2 c4 d2 e2 d4 e6 g2 ^f4 e4 d4 c4 d6 z2  | \
+w:   | 
+^e4 ^f4 f4 e4 f4 e4 f4  | 
+w:   | 
+^g2 a2 g4 a4 a4 g4 ^1/4f4 e4  | d4 c4 d6 z2 =b8 ^g4  | \
+w:   |   | 
+a4 a4 ^g4 ^9/8f2 ^9/8g2 f2 g2 a4 =b2 =c'2  | 
+w:   | 
+=b2 a2 ^g4 g4 a4 g6 z2 b4  | ^g4 a12 a2 a2 a6 a2  | \
+w:   |   | 
+a6 z2 a8 a4 =b4 a8 b4 a4 ^g8 a4 g4  | 
+w:   | 
+^1/4e8 ^g4 f4 g3 ^1/4f =e4 e4  | e4 d2 e2 ^f2 g2 f4 g4 f4 e4  | \
+w:   |   | 
+d4 c4 ^1/4e8 ^g4 f4 g3 ^1/4f  | 
+w:   | 
+e4 e4 e4 d2 e2 ^f2 g2 f4 g4  | ^f4 e4 d4 c4 d6 z2 =b8 ^g4 a4 a4 g4 ^9/8f2 ^9/8g2 f2 g2  | 
+w:   |   | 
+a4 =b2 =c'2 b2 a2 ^g4 g4 a4 g6 z2 b4 g4 a12 a2 a2  | \
+w:   | 
+a6 a2 a6 z2 a8 a4  | 
+w:   | 
+=b4 a8 b4 a4 ^g8  | a4 ^g4 ^1/4e8 g4 f4 g3 ^1/4f  | \
+w:   |   | 
+e4 e4 e4 d2 e2 ^f2 g2 f4 g4  | 
+w:   | 
+^f4 e4 d4 c4 ^1/4e8 ^g4  | f4 ^g3 ^1/4f e4 e4 e4 d2 e2 ^f2 =g2  | \
+w:   |   | 
+^f4 g4 f4 e4 d4 c4 a8 a4 g4 a3 g a2 _1/4b2 a4 b4  | 
+w:   | 
+a4 g4 ^f6 z2 f4 g2 a2 g4  | a4 g4 ^f4 e4 d4 e4 f4  | \
+w:   |   | 
+^f4 e4 d4 c4 B4 c4 A8 e4 d4 c8 c4 B4  | 
+w:   | 
+d3 c B3 A G2 G2 G4 A4 A4 B4  | c8 d8 e8 ^f8 g8 a6 z2 a8  | \
+w:   |   | 
+a4 g4 a3 g a2 _1/4b2 a4 b4 a4  | 
+w:   | 
+g4 ^f6 z2 f4 g2 a2 g4 a4  | g4 ^f4 e4 d4 e4 f4 f4  | \
+w:   |   | 
+e4 d4 c4 B4 c4 A6 z2  | 
+w:   | 
+e4 d4 e2 d2 c4 c4 B4 d3 c  | B3 A G2 A2 G4 A4 A6 z2 A8 A4 _1/4B4 =c8 B4 A4  | 
+w:   |   | 
+G4 A2 G2 F2 E4 D4 A8 A4 B4 A6 B2 c4 d4 c2 d2 c2  | \
+w:   | 
+d2 e8 c2 d2 c4 d2 e2 d4 e8 ^f4 e4 d4 c4 d4 z4 =f8 f4 e4 f2 g2 f4 g2  | 
+w:   | 
+a2 g4 a8 a4 b4 a8 ^g8 a2 b2 a4 b2 c'2 b4 c'6 d'2 c'4 d'4 c'4 b4 a8 a4 b4 b4 a4 g2 a2 g2 a2 b4 c'2 d'2 c'3 b a4 a4 a2 a2 a8 a4 z4 A2 B2 A4 B2 c2 B4 c8 c4 d2 e2 d2 c2 =B4 B8 c4 d4 c8 d4 e4 d8 e8 e4 ^1/4f4 e8 ^9/8d8 e2 f2 e4 f2 g2 f4 g8 g4 a4 g4 f4 e8 e4 f4 f4 e4 d6 e2 f4 g4 e6 f2 g4 a4 g4 a4 =b8 g2 a2 g4 a2 b2 a4 b8 c'4 b4 a4 g4 a4 z4 g4 a4 a4 b4 a4 g4 f4 g2 a2 g4 a4 a4 g4 f4 e4 =d4 c4 d4 z4 b8 g4 a4 a4 g4 ^9/8f2 g2 f2 g2 a4 b2  | 
+w:   | 
+c'2 =b2 a2 ^g4 g4 z4 g8 b4 g4 a12 a2 a2 a6  | \
+w:   | 
+a2 a6 z2 A2 B2 A2 B2 c4 d4 c4 B4 A8 A4 A2 A2 A8 |
+w:   | 
+
+
+X: 1036
+T: Hicaz-Hümâyûn Sazsemâîsi
+C: Neyzen Yusuf Paşa
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz-humayun--sazsemaisi--aksaksemai----neyzen_yusuf_pasa
+N: makam= hicaz-humayun
+N: form= sazsemaisi
+N: usul= aksaksemai = 10/8
+M: 10/8
+L: 1/16
+K: C _7/8B ^c  
+Q: 1/4=132
+%%MIDI tuningsystem comma53
+A4 ^G2A3dcd ecd4e2  | f2ed cBc3ede cBA4B2  | 
+w:  1. HANE  |   | 
+G4 A2Bc BAAG G^3/4FG3DEF  | G4 A2cB AGA2 B2cB cdcB  | 
+w:   |   | 
+A3d cdeg feed dcd3ABc  | d4 ecd2 def2 edc4Bc  | 
+w:   |  TESLİM  | 
+eddc cBAB cdcB AcB4AG  | G4 g2gf feed dcdc BAG2  | 
+w:   |   | 
+A2B2 edc2 cdcB BAAB cdec  | d4 ecd2 def2 edc4Bc  | 
+w:   |  TESLİM  | 
+eddc cBAB cdcB AcB4AG  | G4 g2gf feed dcdc BAG2  | 
+w:   |   | 
+A2B2 edc3dcB BAA4z2  | e4 e2ef eded cd(3g^3/4fe e4  | 
+w:   |  2. HANE  | 
+d2=c2 =B2A_2/4B AGG^3/4F FEE4F2  | \
+w:   | 
+G2A2 B2dc BAAG G^3/4FG4A2  | 
+w:   | 
+B4 ABcB cdcB BAA4B2  | c2d2 e2fg feed dcd3ABc  | 
+w:   |   | 
+d4 ecd2 def2 edc4Bc  | eddc cBAB cdcB AcB4AG  | 
+w:  TESLİM  |   | 
+G4 g2gf feed dcdc BAG2  | A2B2 edc2 cdcB BAAB cdec  | 
+w:   |   | 
+d4 ecd2 def2 edc4Bc  | eddc cBAB cdcB AcB4AG  | 
+w:  TESLİM  |   | 
+G4 g2gf feed dcdc BAG2  | A2B2 edc3dcB BAA4z2  | 
+w:   |   | 
+a4 ^g2a=b agga gfe4f2  | ^g2a2 =b2=c'd' c'bba aga4z2  | 
+w:  3. HANE  |   | 
+^g2a2 =b2=c'd' c'bb2 a2bc' bagf  | \
+w:   | 
+edcd ef=b2 a^ggf fee4^3/4f2  | 
+w:   | 
+g4 e2fg feed dcd3ABc  | d4 ecd2 def2 edc4Bc  | 
+w:   |  TESLİM  | 
+eddc cBAB cdcB AcB4AG  | G4 g2gf feed dcdc BAG2  | 
+w:   |   | 
+A2B2 edc2 cdcB BAAB cdec  | d4 ecd2 def2 edc4Bc  | 
+w:   |  TESLİM  | 
+eddc cBAB cdcB AcB4AG  | G4 g2gf feed dcdc BAG2  | 
+w:   |   | 
+A2B2 edc3dcB BAA4z2  | z24  | d3cd3AB3cdedcd6e2  | 
+w:   |  |  4. HANE  | 
+f3ee3dd3cdcBAB6c2  | A3Bc3AB2c2dedcdcBAG4  | 
+w:   |   | 
+(3e2d2e2(3d2c2d2(3c2B2c2(3B2A2^G2A8  | \
+w:   | 
+d3cd3AB3cdedcd6e2  | 
+w:   | 
+f3ee3dd3cdcBAB6c2  | A3Bc3AB2c2dedcdcBAG4  | 
+w:   |   | 
+(3e2d2e2(3d2c2d2(3c2B2c2(3B2A2^G2A8  | \
+w:   | 
+a3^ga3ef3ga=baga6=g2  | 
+w:   | 
+=b3ag3^3/4ff3eegfee6d2  | e3^3/4fg3e=f3d(3e2f2g2(3f2e2d2c3B  | 
+w:   |   | 
+A4(3f2e2d2c3BcBBAA4z4  | a3^ga3ef3ga=baga6=g2  | 
+w:   |   | 
+=b3ag3^3/4ff3eegfee6d2  | e3^3/4fg3e=f3d(3e2f2g2(3f2e2d2c3B  | 
+w:   |   | 
+A4(3f2e2d2c3BcBBAA4z4  | z20  | d4 ecd2 def2 edc4Bc  | 
+w:   |  |  TESLİM  | 
+eddc cBAB cdcB AcB4AG  | G4 g2gf feed dcdc BAG2  | 
+w:   |   | 
+A2B2 edc2 cdcB BAAB cdec  | d4 ecd2 def2 edc4Bc  | 
+w:   |  TESLİM  | 
+eddc cBAB cdcB AcB4AG  | G4 g2gf feed dcdc BAG2  | 
+w:   |   | 
+A2B2 edc3dcB BAA4z2  | |
+
+
+X: 1037
+T: Hicaz-Hümâyûn Sazsemâîsi
+C: Tanburî İsak
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz-humayun--sazsemaisi--aksaksemai----tanburi_isak
+N: makam= hicaz-humayun
+N: form= sazsemaisi
+N: usul= aksaksemai = 10/8
+M: 10/8
+L: 1/16
+K: C _7/8B ^c  
+Q: 1/4=150
+%%MIDI tuningsystem comma53
+edcd c2=B4cd c2d4z2  | e3f g2a4a2 g2f4e2  | \
+w:   |   | 
+d4 d2e2 d2dc =B2c4z2  | 
+w:   | 
+d4 e2d2 c2d2 e2^f4g2  | e3^f g2f4a2 _1/4b2a2 g2f2  | \
+w:   |   | 
+e4 d2c2 d2ed e^fd4z2  | 
+w:   | 
+d4 e2ed c2c2 d2c2 B2c2  | A4 A2B4G3BA2 B2c2  | \
+w:   |   | 
+d4 c2d2 c2d2 e2d2 g2^f2  | 
+w:   | 
+e2d2 c2B2 c2B4A4B2  | c2B2 A2G4B4A4z2  | \
+w:   |   | 
+A4 g2^f2 g2a2 g2f4e2  | 
+w:   | 
+d4 d2e4ed c2d4z2  | d4 e2d4d2 e2d2 c2d2  | \
+w:   |   | 
+c2Bc dcB4cB A2G4z2  | 
+w:   | 
+A4 B2c4c2 B2d4c2  | e4 d2^f4f2 e2g4f2  | \
+w:   |   | 
+a4 g2^f3gf2 e2d4z2  | 
+w:   | 
+=c'4 _1/4b2a4g2 ^fed4z2  | e2fe edc4c2 d2e4d2  | \
+w:   |   | 
+e3f g2a4a2 g2f4e2  | 
+w:   | 
+d4 d2c3ded e^fd4z2  | d4 e2ed c2c2 d2c2 B2c2  | \
+w:   |   | 
+A4 A2B4G3BA2 B2c2  | 
+w:   | 
+d4 c2d2 c2d2 e2d2 g2^f2  | e2d2 c2B2 c2B4A4B2  | \
+w:   |   | 
+c2B2 A2G4B4A4z2  | 
+w:   | 
+A4 a2^g4a4g4^1/4f2  | ^1/4f2ef e2d4e3fc2 d2d2  | \
+w:   |   | 
+e4 ^1/4f2^g4a4=b2 =c'2b2  | 
+w:   | 
+a4 ^g2^1/4f3ga2 =b2a4z2  | a4 ^g2a3_b=c'2 d'2c'4_7/8b2  | \
+w:   |   | 
+a4 g2^f3gf2 e2d4gf  | 
+w:   | 
+e4 eee2 d2^f2 e2f4g2  | e4 ^f2g2 f2a2 _1/4b2a2 g2f2  | \
+w:   |   | 
+e4 d2c2 d2ed e^fd4z2  | 
+w:   | 
+d4 e2ed c2c2 d2c2 B2c2  | A4 A2B4G3BA2 B2c2  | \
+w:   |   | 
+d4 c2d2 c2d2 e2d2 g2^f2  | 
+w:   | 
+e2d2 c2B2 c2B4A4B2  | c2B2 A2G4B4A4z2  | \
+w:   |   | 
+^f2gf _e2f4d2 e2f4z2  | 
+w:   | 
+d2_e2 d2c4d2 e^fd4c2  | d4 _e2^f2 g2a2 g2f4e2  | \
+w:   |   | 
+d4 c2d4_e4^f4g2  | 
+w:   | 
+a2_ba g2^f4_e2 d2f4z2  | _e4 d2c2 d2e2 ^f2d4z2  | \
+w:   |   | 
+d4 c2d4_e4^f4g2  | 
+w:   | 
+a2_ba g2^f4_e2 d2f4z2  | _e4 d2c2 d2e2 ^f2d4z2  | \
+w:   |   | 
+d4 g2^f4g2 f2_e2 f2ef3ff f2e2 g2f2 e2d2 e2d2  | 
+w:   | 
+_e2ee e2d2 ^f2e2 d4 c2d4e2 f4 d4 f4 e2f4ff f2e2 g2f2 e2d2 e2d2  | 
+w:   | 
+_e2e2 e2d2 ^f2e2 d4 c2d4d2 c4 B4 A4 G2d4=e2 edc2 c2d2 c2B2 c2A4A2 B4 G3B A2B2 c2d4c2 d2c2 d2e2 d2g2 f2e2  | 
+w:   | 
+d2c2 B2c2 B4 A4 B2c2  | B2A2 G4 B4 A4 z2|
+w:   |   | 
+
+
+X: 1038
+T: Hicaz-Hümâyûn Sazsemâîsi
+C: Veli Dede
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz-humayun--sazsemaisi--aksaksemai----veli_dede
+N: makam= hicaz-humayun
+N: form= sazsemaisi
+N: usul= aksaksemai = 10/8
+M: 10/8
+L: 1/16
+K: C _7/8B ^c  
+Q: 1/4=108
+%%MIDI tuningsystem comma53
+d4 fed3fe2 d2ed c2B2  | c4 Bcde dcBc BAdc BAG2  | 
+w:  1. HANE  |   | 
+d4 c2d6 cdc4d2  | e2d2 efed dcc=B Bcd4z2  | 
+w:   |   | 
+d4 dcd4ed dccB BAB2  | cdc2 B2cd cdcB BAB4z2  | 
+w:  TESLİM  |   | 
+cdcd e^fg2 =feed dfed cBAe  | d2cB A2BA BcBA ^G2A4z2  | 
+w:   |   | 
+d4 dcd4ed dccB BAB2  | cdc2 B2cd cdcB BAB4z2  | 
+w:  TESLİM  |   | 
+cdcd e^fg2 =feed dfed cBAe  | d2cB A2BA BcBA ^G2A4z2  | 
+w:   |   | 
+|
+
+
+X: 1039
+T: Hicaz-Hümâyûn Seyir
+C: Erol Bingöl
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz-humayun--seyir--sofyan--1--erol_bingol
+N: makam= hicaz-humayun
+N: form= seyir
+N: usul= sofyan = 4/4
+M: 4/4
+L: 1/16
+K: C _7/8B ^c  
+Q: 1/4=60
+%%MIDI tuningsystem comma53
+G4 A4 A2B2 c2d2  | c3B cBBA A8  | A3B c2d2 e2f2 e2d2  | 
+w:   |   |   | 
+e3d c2ed d8  | d4 a4 a2_b2 a2g2  | f3e d2e2 c8  | \
+w:   |   |   | 
+A2B4A2 G2A2 B2d2  | 
+w:   | 
+c2A2 B2G2 A8  | |
+
+
+X: 1040
+T: Hicaz-Hümâyûn Seyir
+C: Şefik Gürmeriç
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz-humayun--seyir--sofyan--1--sefik_gurmeric
+N: makam= hicaz-humayun
+N: form= seyir
+N: usul= sofyan = 4/4
+M: 4/4
+L: 1/16
+K: C _7/8B ^c  
+Q: 1/4=60
+%%MIDI tuningsystem comma53
+A6B2 c2d2 e2f2  | e2d2 d2c2 d4 z4  | \
+w:   |   | 
+z2d4e2 f3e d2b2  | a2g2 f2g2 a4 z4  | 
+w:   |   | 
+z2g4a2 b4 a2g2  | g2f2 e2d2 c4 z4  | \
+w:   |   | 
+z2d4e2 f4 e2d2  | c2B2 A2c2 B8  | 
+w:   |   | 
+A4 a4 g2f2 e2d2  | c3B cBBA A8  | |
+
+
+X: 1041
+T: Hicaz-Uzzâl Seyir
+C: Şefik Gürmeriç
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz-uzzal--seyir--duyek--1--sefik_gurmeric
+N: makam= hicaz-uzzal
+N: form= seyir
+N: usul= duyek = 8/4
+M: 8/4
+L: 1/16
+K: C _7/8B ^f ^c 
+Q: 1/4=120
+%%MIDI tuningsystem comma53
+A2 ed c2 d2 e6 d2  | z2 e4 ^3/4f2 g2 a2 =b=c' ba  | \
+w:   |   | 
+a2 g2 g2 ^3/4f2 f3e eg fe  | 
+w:   | 
+e6 d2 c2 d2 e4  | z2 g2 a2 =b2 ga g^3/4f e4  | \
+w:   |   | 
+z2 ^3/4fe f2 g2 ag fe d4  | 
+w:   | 
+z2 e4 ^3/4f2 g4 a4  | g2 =f2 e2 d2 c6 BA  | \
+w:   |   | 
+z2 B4 A2 e2 d2 d2 c2  | c3B cB BA A8  | 
+w:   |   | 
+|
+
+
+X: 1042
+T: Hicaz-Uzzâl Seyir
+C: Erol Bingöl
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz-uzzal--seyir--senginsemai--1--erol_bingol
+N: makam= hicaz-uzzal
+N: form= seyir
+N: usul= senginsemai = 6/4
+M: 6/4
+L: 1/16
+K: C _7/8B ^f ^c 
+Q: 1/4=66
+%%MIDI tuningsystem comma53
+d4 d4 c4 d4 e8  | e6d2 g2^3/4fe e8 z4  | \
+w:   |   | 
+^3/4f4 g4 a4 =b4 g2f2 f2e2  | e8 e2d2 c2d2 e8  | 
+w:   |   | 
+d4 e4 ^3/4f4 g4 a8  | g4 a2g2 =f4 e4 d8  | \
+w:   |   | 
+g2=f2 e2d2 c4 d4 c2B2 B2A2  | 
+w:   | 
+A12 B2c2 A8  | |
+
+
+X: 1043
+T: Hicaz-Zirgüle Seyir
+C: Şefik Gürmeriç
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz-zirgule--seyir--duyek--1--sefik_gurmeric
+N: makam= hicaz-zirgule
+N: form= seyir
+N: usul= duyek = 8/4
+M: 8/4
+L: 1/16
+K: C _7/8B ^1/4f ^c ^g
+Q: 1/4=60
+%%MIDI tuningsystem comma53
+d2 d4 e2 e4 e4  | e6 f2 ed cd e4  | z2 e4 f2 g2 b2 a2 g2  | \
+w:   |   |   | 
+g3=f gf fe e8  | 
+w:   | 
+z2 a4 g2 =f3e d4  | z2 =g4 f2 e2 d2 c4  | \
+w:   |   | 
+z2 d4 e2 ^3/4f3e =g4  | f2 e2 d2 f2 e2 d2 c2 B2  | 
+w:   |   | 
+A2 A4 c2 B4 A4  | AG =F2 G2 A2 G8  | \
+w:   |   | 
+A6 B2 c2 d2 d2 c2  | c2 B2 B2 A2 G4 B2 BA  | 
+w:   |   | 
+A8 G4 {c}B2 A2  | A16  | |
+
+
+X: 1044
+T: Hicaz-Zirgüle Seyir
+C: Erol Bingöl
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz-zirgule--seyir--sofyan--1--erol_bingol
+N: makam= hicaz-zirgule
+N: form= seyir
+N: usul= sofyan = 4/4
+M: 4/4
+L: 1/16
+K: C _7/8B ^1/4f ^c ^g
+Q: 1/4=60
+%%MIDI tuningsystem comma53
+A6B2 c4 d4  | e3d c2d2 e8  | e2f2 e2d2 e2f2 g2a2  | \
+w:   |   |   | 
+g3f gffe e8  | 
+w:   | 
+a2g2 a2=b2 =c'2b2 a2g2  | f3e eddc c8  | \
+w:   |   | 
+A2B2 A2=G2 A4 c4  | 
+w:   | 
+B2A2 =G2BA A8  | |
+
+
+X: 1045
+T: Hicazaşîrân Seyir
+C: Şefik Gürmeriç
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicazasiran--seyir--sofyan--1--sefik_gurmeric
+N: makam= hicazasiran
+N: form= seyir
+N: usul= sofyan = 4/4
+M: 4/4
+L: 1/16
+K: C _7/8B ^f ^c 
+Q: 1/4=60
+%%MIDI tuningsystem comma53
+d6c2 d4 e2=f2  | e2d2 c2B2 A8  | z2d4e2 f2g2 (3a2g2f2  | \
+w:   |   |   | 
+f3e e=fed d8  | 
+w:   | 
+z2e4=f2 e2d2 c4  | z2d4e2 c2B2 A4  | \
+w:   |   | 
+z2g4gf f3e d4  | c2d2 egfe e8  | 
+w:   |   | 
+z2=f4f2 f2e4d2  | dcde d2c2 B3A G4  | \
+w:   |   | 
+z4 =c2c2 c2=B4A2  | 
+w:   | 
+A2G2 G2F2 F2E2 D4  | z4 E2F2 E4 F4  | \
+w:   |   | 
+G4 A2=B2 A4 G2F2  | F2E2 D2E2 D4 G2FE  | 
+w:   |   | 
+E16  | |
+
+
+X: 1046
+T: Hicazkâr Aranağme
+C: Muallim İsmail Hakkı Bey
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicazkar--aranagme--aksak--1--muallim_ismail_hakki_bey
+N: makam= hicazkar
+N: form= aranagme
+N: usul= aksak = 9/8
+M: 9/8
+L: 1/16
+K: C _1/4B _7/8e _7/8A ^f
+Q: 1/4=156
+%%MIDI tuningsystem comma53
+g4 gfg=a _b2a2 g2f2 e2 | g4fe dcfg =afg4z2  | 
+w:   |   | 
+gfg=a _b2a2 g2f2 e2d2 c2 | e2 dce2 dcBc dBc4z2  | 
+w:   |   | 
+g4 gfg=a _b2a2 g2f2 e2 | g4fe dcfg =afg4z2  | 
+w:   |   | 
+gfg=a _b2a2 g2f2 e2d2 c2 | e2 dce2 dcBc dBc4z2  | 
+w:   |   | 
+cggg g2=f2 e2f2 g2a2 _b2 | a2 g=f_e2 d2cB ced4z2  | 
+w:   |   | 
+cBcd e2d2 c2B2 c2g2 g2 | fe dcB2 c2BA AGGA Bcd2  | 
+w:   |   | 
+cggg g2=f2 e2f2 g2a2 _b2 | a2 g=f_e2 d2cB ced4z2  | 
+w:   |   | 
+cBcd e2d2 c2B2 c2g2 g2 | fe dcB2 c2BA AGG4z2  | 
+w:   |   | 
+BcBA Bcde dcBA GABc d2 | Bc BABc dedc BA.G2 .G2.G2  | 
+w:   |   | 
+BcBA Bcde dcBA GABc d2 | Bc BABc dedc BA.G2 .G2.G2  | 
+w:   |   | 
+gag=f g2z2 gag^f gaga g=f | ga agg=f f_2/4eed dcg4z2  | 
+w:   |   | 
+gaag =f2_3/4e2 d2c2 a2g2 f2 | =f3ee3dcd efg4z2  | 
+w:   |   | 
+gag=f g2z2 gag^f gaga g=f | ga agg=f f_2/4eed dcg4z2  | 
+w:   |   | 
+gaag =f2_3/4e2 d2c2 a2g2 f2 | =f3ee3dcB ced4z2  | 
+w:   |   | 
+Bcd_2/4e =f2e2 f2e2 f2e2 g2 | =f3_3/4ed2 _7/8e2dc cBB4z2  | 
+w:   |   | 
+BcBA G2A2 B2c2 d2c2 d2 | B2 AGd2 cBBA AGG4z2  | 
+w:   |   | 
+Bcd_2/4e =f2e2 f2e2 f2e2 g2 | =f3_3/4ed2 _7/8e2dc cBB4z2  | 
+w:   |   | 
+BcBA G2A2 B2c2 d2c2 d2 | B2 AGd2 cBBA AGG4f2  | 
+w:   |   | 
+|
+
+
+X: 1047
+T: Hicazkâr Aranağme (Aksak)
+C: ?
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicazkar--aranagme--aksak--1--
+N: makam= hicazkar
+N: form= aranagme
+N: usul= aksak = 9/8
+M: 9/8
+L: 1/16
+K: C _1/4B _7/8e _7/8A ^f
+Q: 1/4=180
+%%MIDI tuningsystem comma53
+gfga gfga gfga gfed c2 | =f_1/4e fgfe fgfe fagf _7/8edc2  | 
+w:  ARANAĞME  |   | 
+ede=f edef edeg ^fedc BA | GA Bcde fgag fag6  | 
+w:   |   | 
+gfga gfga gfga gfed c2 | =f_1/4e fgfe fgfe fagf _7/8edc2  | 
+w:  ARANAĞME  |   | 
+ede=f edef edeg ^fedc BA | GA Bcd2 cBBA AGG4z2  | 
+w:   |   | 
+|
+
+
+X: 1048
+T: Hicazkâr Aranağme (Curcuna)
+C: ?
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicazkar--aranagme--curcuna--1--
+N: makam= hicazkar
+N: form= aranagme
+N: usul= curcuna = 10/8
+M: 10/8
+L: 1/16
+K: C _1/4B _7/8e _7/8A ^f
+Q: 1/4=180
+%%MIDI tuningsystem comma53
+G6d4c2 d2e2 d2c2  | B16-B4  | G6d4c2 d2e2 d2c2  | g16-g4  | \
+w:  ARANAĞME  |   |   |   | 
+g6a2 g2=f2 g2a_b aga2  | 
+w:   | 
+=f6g2 f2e2 f2ga gfg2  | d2e2 =e2=f2 e2f2 g2_7/8e2 d2c2  | \
+w:   |   | 
+B6c2 B2c2 A2G6  | 
+w:   | 
+G6d4c2 d2e2 d2c2  | B16-B4  | G6d4c2 d2e2 d2c2  | g16-g4  | \
+w:  ARANAĞME  |   |   |   | 
+g6a2 g2=f2 g2a_b aga2  | 
+w:   | 
+=f6g2 f2e2 f2ga gfg2  | d2e2 =e2=f2 e2f2 g2_7/8e2 d2c2  | \
+w:   |   | 
+D6G4D4G6  | 
+w:   | 
+D6G4D4G6  | |
+
+
+X: 1049
+T: Hicazkâr Aranağme (Sofyan)
+C: ?
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicazkar--aranagme--sofyan--1--
+N: makam= hicazkar
+N: form= aranagme
+N: usul= sofyan = 4/4
+M: 4/4
+L: 1/16
+K: C _1/4B _7/8e _7/8A ^f
+Q: 1/4=72
+%%MIDI tuningsystem comma53
+GBdB c2d2 GBdB c2d2  | edeg fedc d8  | 
+w:  ARANAĞME  |   | 
+gfeg f4 edce d4  | cBcd BAGF G8  | GBdB c2d2 GBdB c2d2  | 
+w:   |   |  ARANAĞME  | 
+edeg fedc d8  | gfeg f4 edce d4  | cBcd BAGF G8  | 
+w:   |   |   | 
+|
+
+
+X: 1050
+T: Hicazkâr Etüd
+C: ?
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicazkar--etud--sofyan----ozer_ozel
+N: makam= hicazkar
+N: form= etud
+N: usul= sofyan = 4/4
+M: 4/4
+L: 1/16
+K: C _1/4B _7/8e _7/8A ^f
+Q: 1/4=81
+%%MIDI tuningsystem comma53
+d4 defg fgfe dedc  | BcBA Bcde dcBc dedc  | 
+w:   |   | 
+BcBA GABc defg fgag  | fgag fgfe fgfe fgab  | 
+w:   |   | 
+agfe fgfe dedc BcBA  | dcBA G4 z8  | 
+w:   |   | 
+|
+
+
+X: 1051
+T: Hicazkâr Peşrev
+C: Dede Salih Efendi
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicazkar--pesrev--agirduyek----dede_salih_efendi
+N: makam= hicazkar
+N: form= pesrev
+N: usul= agirduyek = 8/4
+M: 8/4
+L: 1/16
+K: C _1/4B _7/8e _7/8A ^f
+Q: 1/4=72
+%%MIDI tuningsystem comma53
+g6f2 g4 =a4 z2_b2 a2g2 f4 a2b2  | \
+w:   | 
+=a2g4f2 e4 d4 z2f2 e2d2 c2B2 c4  | 
+w:   | 
+z4 d2d2 d4 f4 f2e4d2 e4 g4  | g2f4d2 e2f2 g2=a2 f4 g8 a2b2  | 
+w:   |   | 
+c'2b2 =a2b2 a2g2 f2g2 a2g2 f2e2 d4 g4  | \
+w:   | 
+gfg=a g2f2 e2d2 c2B2 c6g2 =f2_1/4e2 g4  | 
+w:   | 
+d2=e2 =f2g2 e2f2 d2e2 c4 f4 f2e2 d2ef  | \
+w:   | 
+_1/4e2d2 c2de d2c2 B2cd B2A2 A2G2 G6z2  | 
+w:   | 
+G2A2 G2A2 B2c2 d2e2 d2c2 B2A2 G4 c4  | \
+w:   | 
+c2B2 A2G2 =F2B4AG G6c2 B4 c4  | 
+w:   | 
+c6B2 c4 d2e2 d2c4B2 B2A2 B4  | z2B4A2 B4 c2d2 cBcd c2B2 A4 G4  | 
+w:   |   | 
+z2g4f2 e3d c4 def4ed d8  | z4 g2g2 g2f2 e2d2 e2f2 g2=a2 f4 g4  | 
+w:   |   | 
+g4 a4 a2b2 a2g2 g2a2 g2^1/4f2 _1/4e4 g4  | \
+w:   | 
+gfga g2f2 e2d2 c2B2 c6g2 =f2_1/4e2 g4  | 
+w:   | 
+d2_1/4e2 =f2g2 e2f2 d2e2 c4 f4 f2e2 d2ef  | \
+w:   | 
+_1/4e2d2 c2de d2c2 B2cd B2A2 A2G2 G6z2  | 
+w:   | 
+G2A2 G2A2 B2c2 d2e2 d2c2 B2A2 G4 c4  | \
+w:   | 
+c2B2 A2G2 =F2B4AG G6g2 f4 g4  | 
+w:   | 
+gfg=a g2f2 g4 a4 a2_b2 a2b2 a2g2 f4  | \
+w:   | 
+g6c'2 b2c'2 d'4 c'2b4=a2 a6z2  | 
+w:   | 
+b2c'6 c'bc'd' c'2b2 b3=a g4 a4 _b4  | \
+w:   | 
+=a2g2 f4 f2g4f2 e4 d8 c'4  | 
+w:   | 
+b2=a2 b2c'2 a2g2 f4 g2f2 g2a2 f2e2 d4  | \
+w:   | 
+e2d2 e2f2 e2d2 c2B2 c6g2 =f2=e2 g4  | 
+w:   | 
+d3_1/4e =f2g2 e2f2 d2e2 c4 f4 f2e2 d2ef  | \
+w:   | 
+_1/4e2d2 c2de d2c2 B2cd B2A2 A2G2 G8  | 
+w:   | 
+GAGA B2c2 d2e2 d2c2 B2A2 G4 c4 c2B2  | \
+w:   | 
+A2G2 =F2B4AG G6d2 c4 d4 d2c2  | 
+w:   | 
+d4 B2A2 G4 B2A2 B4 G2=F2 _1/4E4 G2A2  | \
+w:   | 
+G2B2 A2G2 A4 B2c2 B2d2 c2B2 c4 d2e2  | 
+w:   | 
+d2f2 e2d2 e4 d2e2 f2g2 e2f2 g4 g2f2  | \
+w:   | 
+g4 e2d2 c4 d2c2 d4 B2A2 G4 G2A2  | 
+w:   | 
+B2c2 B2A2 G2F2 G6c2 B4 c4 d2e2  | \
+w:   | 
+d2c2 e2d2 c2B2 c6g2 =f4 g4 d2_1/4e2  | 
+w:   | 
+=f2g2 _1/4e2f2 d2e2 c4 f4 f2e2 d2ef e2d2  | \
+w:   | 
+c2de d2c2 B2cd B2A2 A2G2 G4 G2A2 G2A2  | 
+w:   | 
+B2c2 d2e2 d2c2 B2A2 G4 c4 c2B2 A2G2  | \
+w:   | 
+=F2B4AG G16 |
+w:   | 
+
+
+X: 1052
+T: Hicazkâr Peşrev
+C: Gazi Giray Han
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicazkar--pesrev--berefsan----gazi_giray_han
+N: makam= hicazkar
+N: form= pesrev
+N: usul= berefsan = 32/8
+M: 32/8
+L: 1/16
+K: C _1/4B _7/8e _7/8A ^f
+Q: 1/4=78
+%%MIDI tuningsystem comma53
+f4 g8 f4  | g4 =a2 _b2 a4 b4  | =a2 g2 f2 g2 f4 g4  | \
+w:   |   |   | 
+f4 g8 f4  | =a4 g2 f2 e2 d2 c2 d2  | 
+w:   |   | 
+c4 d8 z4  | d2 e2 d2 e2 f2 g2 =a4  | \
+w:   |   | 
+g2 a2 g2 f2 e2 d2 c4  | B6 =a _b a2 g2 =f2 =e2  | 
+w:   |   | 
+d2 c2 B2 A2 G4 c4  | c6 B2 d2 e4 d2  | \
+w:   |   | 
+(3c2B2A2 B8 d4  | c2 d2 c2 B2 B2 A2 G4  | 
+w:   |   | 
+G2 A2 G2 A2 B2 c2 d4  | B2 c B A2 G2 B2 A2 G2 F2  | \
+w:   |   | 
+G4 (3B2A2B2 G8  | 
+w:   | 
+z4 d2 d2 d4 c4  | d4 e8 d4  | (3c2B2A2 B8 d4  | \
+w:   |   |   | 
+c2 d2 c2 B2 B2 A2 G4  | G2 A2 G2 A2 B2 c2 d4  | 
+w:   |   | 
+B2 c B A2 G2 B2 A2 G2 F2  | G12 (3B2A2B2  | \
+w:   |   | 
+G12 z4  | d6 c2 B4 c4  | d12 c4  | 
+w:   |   |   | 
+d2 e2 d4 e4 z4  | d2 e2 d2 e2 f2 g2 =a4  | \
+w:   |   | 
+g2 =a2 g2 f2 e2 d2 c4  | a2 g2 f2 g2 f4 (3a2g2a2  | 
+w:   |   | 
+g6 f2 g2 f2 g4  | z4 d2 e2 d4 c4  | B2 c2 B2 c2 d6 f2  | \
+w:   |   |   | 
+e2 d2 e2 f2 d4 z4  | 
+w:   | 
+d2 e2 d2 e2 f2 g2 =a4  | g2 =a2 g2 f2 e2 d2 c4  | \
+w:   |   | 
+d6 =a _b a2 g2 =f2 =e2  | 
+w:   | 
+d2 c2 B2 A2 G4 d4  | d2 c4 B2 e6 d2  | \
+w:   |   | 
+(3c2B2A2 B8 d4  | c2 d2 c2 B2 A2 G2 G4  | 
+w:   |   | 
+G2 A2 G2 A2 B2 c2 d4  | B4 A2 G2 B2 A2 G2 F2  | \
+w:   |   | 
+G4 (3B2A2B2 G8  | d c d e d2 c2 B A B c B2 A2  | 
+w:   |   | 
+G6 B2 A2 G2 A2 B2  | G2 A2 G2 A2 B4 c4  | \
+w:   |   | 
+B2 c2 B2 c2 d8  | f4 g8 f4  | g4 =a2 _b2 a4 b4  | 
+w:   |   |   | 
+=a2 g2 f2 g2 f4 g4  | f4 g8 f4  | =a4 g2 f2 e2 d2 c2 d2  | \
+w:   |   |   | 
+c4 d8 z4  | d2 e2 d2 e2 f2 g2 =a4  | 
+w:   |   | 
+g2 a2 g2 f2 e2 d2 c4  | B6 =a _b a2 g2 =f2 =e2  | \
+w:   |   | 
+d2 c2 B2 A2 G4 c4  | c6 B2 d2 e4 d2  | 
+w:   |   | 
+(3c2B2A2 B8 d4  | c2 d2 c2 B2 B2 A2 G4  | \
+w:   |   | 
+G2 A2 G2 A2 B2 c2 d4  | B2 c B A2 G2 B2 A2 G2 F2  | 
+w:   |   | 
+G4 (3B2A2B2 G8  | z4 d2 d2 d4 c4  | d4 e8 d4  | \
+w:   |   |   | 
+(3c2B2A2 B8 d4  | c2 d2 c2 B2 B2 A2 G4  | 
+w:   |   | 
+G2 A2 G2 A2 B2 c2 d4  | B2 c B A2 G2 B2 A2 G2 F2  | \
+w:   |   | 
+G12 (3B2A2B2  | G12 z4  | 
+w:   |   | 
+d6 c2 B4 c4  | d12 c4  | d2 e2 d4 e4 z4  | \
+w:   |   |   | 
+d2 e2 d2 e2 f2 g2 =a4  | g2 =a2 g2 f2 e2 d2 c4  | 
+w:   |   | 
+a2 g2 f2 g2 f4 (3a2g2a2  | g6 f2 g2 f2 g4  | \
+w:   |   | 
+z4 d2 e2 d4 c4  | B2 c2 B2 c2 d6 f2  | 
+w:   |   | 
+e2 d2 e2 f2 d4 z4  | d2 e2 d2 e2 f2 g2 =a4  | \
+w:   |   | 
+g2 =a2 g2 f2 e2 d2 c4  | d6 =a _b a2 g2 =f2 =e2  | 
+w:   |   | 
+d2 c2 B2 A2 G4 d4  | d2 c4 B2 e6 d2  | \
+w:   |   | 
+(3c2B2A2 B8 d4  | c2 d2 c2 B2 A2 G2 G4  | 
+w:   |   | 
+G2 A2 G2 A2 B2 c2 d4  | B4 A2 G2 B2 A2 G2 F2  | \
+w:   |   | 
+G4 (3B2A2B2 G8  | d c d e d2 c2 B A B c B2 A2  | 
+w:   |   | 
+G6 B2 A2 G2 A2 B2  | G2 A2 G2 A2 B4 c4  | \
+w:   |   | 
+d4 e4 f4 g4  | f4 g8 f4  | =a4 g2 f2 e6 d2  | 
+w:   |   |   | 
+g6 f2 a4 g2 f2  | e2 f2 e2 f2 g4 a4  | \
+w:   |   | 
+f2 g2 f2 g2 =a4 _b4  | =a g a _b a2 g2 f e f g f2 e2  | 
+w:   |   | 
+d6 e2 f4 g4  | g f g =a g2 f2 e2 d2 c4  | \
+w:   |   | 
+d6 =a _b a2 g2 =f2 =e2  | d2 c2 B2 A2 G4 d4  | 
+w:   |   | 
+d2 c4 B2 e6 d2  | (3c2B2A2 B8 d4  | c2 e2 d2 c2 B2 A2 G4  | \
+w:   |   |   | 
+G2 A2 G2 A2 B2 c2 d4  | 
+w:   | 
+B2 c B A2 G2 B2 A2 G2 F2  | G6 A2 B4 c4  | \
+w:   |   | 
+d4 e4 f4 g4  | f4 g8 f4  | g4 =a2 _b2 a4 b4  | 
+w:   |   |   | 
+=a2 g2 f2 g2 f4 g4  | f4 g8 f4  | =a4 g2 f2 e2 d2 c2 d2  | \
+w:   |   |   | 
+c4 d8 z4  | d2 e2 d2 e2 f2 g2 =a4  | 
+w:   |   | 
+g2 a2 g2 f2 e2 d2 c4  | B6 =a _b a2 g2 =f2 =e2  | \
+w:   |   | 
+d2 c2 B2 A2 G4 c4  | c6 B2 d2 e4 d2  | 
+w:   |   | 
+(3c2B2A2 B8 d4  | c2 d2 c2 B2 B2 A2 G4  | \
+w:   |   | 
+G2 A2 G2 A2 B2 c2 d4  | B2 c B A2 G2 B2 A2 G2 F2  | 
+w:   |   | 
+G4 (3B2A2B2 G8  | z4 d2 d2 d4 c4  | d4 e8 d4  | \
+w:   |   |   | 
+(3c2B2A2 B8 d4  | c2 d2 c2 B2 B2 A2 G4  | 
+w:   |   | 
+G2 A2 G2 A2 B2 c2 d4  | B2 c B A2 G2 B2 A2 G2 F2  | \
+w:   |   | 
+G12 (3B2A2B2  | G12 z4  | 
+w:   |   | 
+d6 c2 B4 c4  | d12 c4  | d2 e2 d4 e4 z4  | \
+w:   |   |   | 
+d2 e2 d2 e2 f2 g2 =a4  | g2 =a2 g2 f2 e2 d2 c4  | 
+w:   |   | 
+a2 g2 f2 g2 f4 (3a2g2a2  | g6 f2 g2 f2 g4  | \
+w:   |   | 
+z4 d2 e2 d4 c4  | B2 c2 B2 c2 d6 f2  | 
+w:   |   | 
+e2 d2 e2 f2 d4 z4  | d2 e2 d2 e2 f2 g2 =a4  | \
+w:   |   | 
+g2 =a2 g2 f2 e2 d2 c4  | d6 =a _b a2 g2 =f2 =e2  | 
+w:   |   | 
+d2 c2 B2 A2 G4 d4  | d2 c4 B2 e6 d2  | \
+w:   |   | 
+(3c2B2A2 B8 d4  | c2 d2 c2 B2 A2 G2 G4  | 
+w:   |   | 
+G2 A2 G2 A2 B2 c2 d4  | B4 A2 G2 B2 A2 G2 F2  | \
+w:   |   | 
+G4 (3B2A2B2 G8  | d c d e d2 c2 B A B c B2 A2  | 
+w:   |   | 
+G6 B2 A2 G2 A2 B2  | G2 A2 G2 A2 B4 c4  | \
+w:   |   | 
+d4 e4 f4 g4  | f4 g8 f4  | =a4 g2 f2 e6 d2  | 
+w:   |   |   | 
+g6 f2 a4 g2 f2  | e2 f2 e2 f2 g4 a4  | \
+w:   |   | 
+f2 g2 f2 g2 =a4 _b4  | =a g a _b a2 g2 f e f g f2 e2  | 
+w:   |   | 
+d6 e2 f4 g4  | g f g =a g2 f2 e2 d2 c4  | \
+w:   |   | 
+d6 =a _b a2 g2 =f2 =e2  | d2 c2 B2 A2 G4 d4  | 
+w:   |   | 
+d2 c4 B2 e6 d2  | (3c2B2A2 B8 d4  | c2 e2 d2 c2 B2 A2 G4  | \
+w:   |   |   | 
+G2 A2 G2 A2 B2 c2 d4  | 
+w:   | 
+B2 c B A2 G2 B2 A2 G2 F2  | G6 A2 B4 c4  | \
+w:   |   | 
+d4 e4 f4 g4  | G12 (3B2A2B2  | 
+w:   |   | 
+G12 z4  | G8 D8  | G2 F2 G2 A2 G8  | d c d e d2 c2 B A B c B2 A2  | 
+w:   |   |   |   | 
+G6 B2 A2 G2 A2 B2  | G2 A2 G2 A2 B4 c4  | \
+w:   |   | 
+B2 c2 B2 c2 d6 e2  | e2 d2 c2 d2 c4 d4  | 
+w:   |   | 
+d2 z2 (3e2d2e2 d8  | G8 D8  | G2 F2 G2 A2 G8  | \
+w:   |   |   | 
+d2 d2 d4 B2 B2 B4  | G6 B2 A2 G2 A2 B2  | 
+w:   |   | 
+G2 A2 G2 A2 B4 c4  | B2 c2 B2 c2 d6 e2  | \
+w:   |   | 
+e2 d2 c2 d2 c4 d4  | d6 e2 d8  | 
+w:   |   | 
+z4 d2 d2 d4 c4  | d4 e8 d4  | (3c2B2A2 B8 d4  | \
+w:   |   |   | 
+c2 d2 c2 B2 B2 A2 G4  | d2 d2 d4 B2 B2 B4  | 
+w:   |   | 
+G6 B2 A2 G2 A2 B2  | G6 A2 B4 c4  | B2 c2 B2 c2 d8  | \
+w:   |   |   | 
+z4 d2 d2 d4 c4  | d4 e8 d4  | 
+w:   |   | 
+(3c2B2A2 B8 d4  | c2 d2 c2 B2 B2 A2 G4  | \
+w:   |   | 
+G2 A2 G2 A2 B2 c2 d4  | c2 B2 A2 G2 B2 A2 G2 F2  | 
+w:   |   | 
+G12 (3B2A2B2  | G12 z4  | |
+
+
+X: 1053
+T: Hicazkâr Peşrev
+C: Tanburî Büyük Osman Bey
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicazkar--pesrev--devrikebir----tanburi_buyuk_osman_bey
+N: makam= hicazkar
+N: form= pesrev
+N: usul= devrikebir = 28/4
+M: 28/4
+L: 1/16
+K: C _1/4B _7/8e _7/8A ^f
+Q: 1/4=72
+%%MIDI tuningsystem comma53
+f4 g4 g4 _b2=a2  | g3_b =a2g2 gfed e2fg  | \
+w:  1. HANE  |   | 
+fed2 =a3g f2g2 f2e2  | 
+w:   | 
+defg feed dccB c2d2  | c4 d2e2 f4 g2=a2  | \
+w:   |   | 
+z2g=a g2f2 _1/4e2f2 g2a2  | 
+w:   | 
+g2=a_b c'2ba aggf g4  | b4 c'3_b =a4 b3a  | \
+w:   |   | 
+g3_b =a2g2 gfed e2fg  | 
+w:   | 
+fed2 =a3g f2g2 f2e2  | defg feed dccB c2d2  | 
+w:   |   | 
+c4 d2e2 f3=a g2f2  | e3d c2d2 efed dccB  | \
+w:   |   | 
+cBcd cdcB B=AAB c4  | 
+w:   | 
+c4 B2c2 B4 c4  | defg feed dccB c4  | \
+w:   |   | 
+G4 c2B2 c4 g4  | 
+w:   | 
+=f3a aggf feed dccB  | c4 d2e2 f3=a g2f2  | 
+w:   |   | 
+e3d c2d2 efed dccB  | c2c'4_b=a aggf g4  | 
+w:   |   | 
+fg=a_b aggf g4 a2_1/4b2  | c'2b=a aggf feed dccB  | 
+w:  TESLİM  |   | 
+c4 g=ff_1/4e f3a g3f  | =f3_e e3d d3c Bcd_7/8e  | \
+w:   |   | 
+dcBA BAGF GABc dedc  | 
+w:   | 
+d2B4G2 AGAB A2G2  | G2A2 G2F2 E2F2 G4  | |
+
+
+X: 1054
+T: Hicazkâr Peşrev
+C: Tanburî Cemil Bey
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicazkar--pesrev--muhammes----tanburi_cemil_bey
+N: makam= hicazkar
+N: form= pesrev
+N: usul= muhammes = 32/4
+M: 32/4
+L: 1/16
+K: C _1/4B _7/8e _7/8A ^f
+Q: 1/4=72
+%%MIDI tuningsystem comma53
+g8 (3a2g2f2 g2 a2  | g2 a2 g2 f2 e2 f2 e2 d2  | \
+w:  1. HANE  |   | 
+e2 f2 g4 f4 g4  | a3 g a2 b2 a2 b2 g4  | 
+w:   |   | 
+z2 g4 a2 z2 f4 g2  | z2 e4 f g f e d c d2 e2  | \
+w:   |   | 
+d2 c2 c2 B2 B2 A2 A2 G2  | 
+w:   | 
+G3 A B2 c2 d2 e2 f2 g2  | g2 a2 g2 f2 g4 a2 b2  | \
+w:   |   | 
+d'2 c'2 b2 a2 g2 f2 e4  | 
+w:   | 
+f2 g2 f2 e2 f2 g2 b2 a2  | a2 g2 g2 f2 e3 d c2 B2  | \
+w:   |   | 
+c4 g4 f2 g2 =a2 _b2  | 
+w:   | 
+=a2 g2 g2 f2 f3 e d4  | z2 =a2 g2 f2 f2 e2 e2 d2  | \
+w:   |   | 
+d6 =a _b a g g f g4  | 
+w:   | 
+=a2 _b4 a2 b a g2 g f e2  | f g a4 g f g f e2 e d c2  | \
+w:  TESLİM  |   | 
+d3 e f2 g2 f2 e2 d2 c2  | 
+w:   | 
+d2 e2 d2 c2 B3 A G4  | B3 d c3 e d3 f e2 f2  | \
+w:   |   | 
+e3 d c3 e d2 e2 d2 c2  | 
+w:   | 
+B3 A G2 B2 A3 G F2 G2  | F2 G2 A B A G G4 z4  | \
+w:   |   | 
+c4 d4 d4 c2 d2  | 
+w:  2. HANE  | 
+_2/4e2 =f2 e2 d2 g g f e d4  | g4 =a8 g2 a2  | \
+w:   |   | 
+_b2 c'2 b2 =a2 a g g =f g4  | 
+w:   | 
+=f4 g4 f2 g2 _b2 c'2  | _b2 a2 g2 =f2 _e3 d c2 d2  | \
+w:   |   | 
+_B2 c2 B2 _A2 B2 A2 A2 G2  | 
+w:   | 
+G6 d e d c B c d4  | G3 A B2 c2 d2 e2 d c c B  | \
+w:   |   | 
+c2 d2 e f e d d8  | 
+w:   | 
+d2 e4 d c B c d4 c B  | A2 B2 c2 e2 d2 c2 B2 A2  | \
+w:   |   | 
+G3 A B2 c2 d2 e2 d2 c2  | 
+w:   | 
+d2 e2 f2 g2 f2 e2 d2 c2  | z2 =a2 g2 f2 f3 e e3 d  | \
+w:   |   | 
+d6 =a _b a g g f g4  | 
+w:   | 
+=a2 _b4 a2 b a g2 g f e2  | f g a4 g f g f e2 e d c2  | \
+w:  TESLİM  |   | 
+d3 e f2 g2 f2 e2 d2 c2  | 
+w:   | 
+d2 e2 d2 c2 B3 A G4  | B3 d c3 e d3 f e2 f2  | \
+w:   |   | 
+e3 d c3 e d2 e2 d2 c2  | 
+w:   | 
+B3 A G2 B2 A3 G F2 G2  | F2 G2 A B A G G4 z4  | \
+w:   |   | 
+(3_a2g2=f2 (3_e2d2c2 _2/4e2 f2 g2 a2  | 
+w:  3. HANE  | 
+g =f f _1/4e b a a g g8  | b2 c'4 d'2 b3 a g2 =f2  | \
+w:   |   | 
+=f3 _1/4e e3 d d f e d d4  | 
+w:   | 
+z2 d'4 a2 c'2 d'2 e'2 f'2  | d'2 c'4 _b2 _a3 g =f2 e'2  | \
+w:   |   | 
+d'2 c'4 b2 b3 a a3 g  | 
+w:   | 
+g6 =f2 b a a g g4  | g3 a b2 c'2 d'2 e'2 d'2 c'2  | \
+w:   |   | 
+b2 a2 g2 =f2 e'3 d' c'4  | 
+w:   | 
+z2 a4 a g g3 =f f3 _2/4e  | =f6 _1/4e2 d e d e f4  | \
+w:   |   | 
+_1/4e3 =f g2 =a2 g2 a2 g2 f2  | 
+w:   | 
+c' _b a b g2 =f2 e3 d c2 b2  | a2 g2 g2 f2 e3 d d3 c  | \
+w:   |   | 
+d6 =a _b a g g f g4  | 
+w:   | 
+=a2 _b4 a2 b a g2 g f e2  | f g a4 g f g f e2 e d c2  | \
+w:  TESLİM  |   | 
+d3 e f2 g2 f2 e2 d2 c2  | 
+w:   | 
+d2 e2 d2 c2 B3 A G4  | B3 d c3 e d3 f e2 f2  | \
+w:   |   | 
+e3 d c3 e d2 e2 d2 c2  | 
+w:   | 
+B3 A G2 B2 A3 G F2 G2  | F2 G2 A B A G G4 z4  | |
+
+
+X: 1055
+T: Hicazkâr Sazsemâîsi
+C: Gazi Giray Han
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicazkar--sazsemaisi--aksaksemai----gazi_giray_han
+N: makam= hicazkar
+N: form= sazsemaisi
+N: usul= aksaksemai = 10/8
+M: 10/8
+L: 1/16
+K: C _1/4B _7/8e _7/8A ^f
+Q: 1/4=120
+%%MIDI tuningsystem comma53
+g4 fg=a2 _b2a2 g2f4e2  | ded2 d2B2 c2B2 A2G4G2  | \
+w:   |   | 
+G4 G2Bc B2cd c2d4B2  | 
+w:   | 
+g4 d2e2 f2g2 =a2g4z2  | =a4 g2ga baag gfg4z2  | \
+w:   |   | 
+d4 e2=ag fefe ecd4z2  | 
+w:   | 
+B2c2 e2d2 cBBA AGG4A2  | g4 fg=a2 _b2a2 g2f4e2  | 
+w:   |   | 
+ded2 d2B2 c2B2 A2G4G2  | G4 G2Bc B2cd c2d4B2  | \
+w:   |   | 
+g4 d2e2 f2g2 =a2g4z2  | 
+w:   | 
+=a4 g2ga baag gfg4z2  | d4 e2=ag fefe ecd4z2  | 
+w:   |   | 
+B2c2 e2d2 cBBA AGG4A2  | G4 A2B2 ABc2 Bcd4B2  | 
+w:   |   | 
+c4 B2cd cBc2 A2B4G2  | A4 G2AB AGA2 B2G4G2  | \
+w:   |   | 
+d4 e2de dcB2 c2d4z4G4(3AGA G4 B2c2 d2c2  | 
+w:   | 
+B2e4d2 c3B BAAG G4  | A2G4A2 B2AB c2Bc d4  | \
+w:   |   | 
+B2c4B2 cdcB c2A2 B4  | 
+w:   | 
+G2A4G2 ABAG A2B2 G4  | G2d4e2 dedc B2c2 d4  | \
+w:   |   | 
+z4 G4 (3AGAG4B2 c2d2  | 
+w:   | 
+c2B2 e4 d2c3BBA AGG4A2 g4 g2f2 =a2ag fed4z2 e4 f2g2 a2ba gfg4z2 c'4 b2a4b2 g2_7/8a4z2 d4 edc2 d2B2 c2d4z2 g4 g2d4ed c2B4z2 e4 d2c2 B2BA AGG4A2 g4 fg=a2 _b2a2 g2f4e2 ded2 d2B2 c2B2 A2G4G2 G4 G2Bc B2cd c2d4B2 g4 d2e2 f2g2 a2g4z2 a4 g2ga _1/4baag gfg4z2 d4 e2ag fefe ecd4z2 B2c2 e2d2 cBBA AGG4A2 G4 A2B2 ABc2 Bcd4B2 c4 B2cd cBc2 A2B4G2 A4 G2AB AGA2 B2G4G2 d4 e2de dcB2 c2d4z4G4(3AGA G4 B2c2  | 
+w:   | 
+d2c2 B2e4d2 c3B BAAG  | G4 A2g4g2 f2=a2 agfe  | 
+w:   |   | 
+d4 z2e4f2 g2=a2 bagf  | g4 z2c'4b2 =a4 b2g2  | \
+w:   |   | 
+a4 z2d4ed c2d2 B2c2  | 
+w:   | 
+d4 z2g4g2 d4 edc2  | B4 z2e4d2 c2B2 BAAG  | \
+w:   |   | 
+G4 A2G4F2 E4 FGF2  | 
+w:   | 
+G4 G2G4A2 B2G2 A2F2  | G4 A2G4A2 BcB2 cdc2  | \
+w:   |   | 
+d4 z2e4de f2e2 d2c2  | 
+w:   | 
+d4 z2g4g2 d4 edc2  | B4 z2e4d2 c2B2 BAAG  | \
+w:   |   | 
+G4 A2g4fg =a2_b2 a2g2  | 
+w:   | 
+f4 e2de d2d2 B2c2 B2A2  | G4 G2G4G2 BcB2 cdc2  | \
+w:   |   | 
+d4 B2g4d2 e2f2 g2=a2  | 
+w:   | 
+g4 z2=a4g2 gaba aggf  | g4 z2d4e2 =agfe feec  | 
+w:   |   | 
+d4 z2B2 c2e2 d2cB BAAG  | G4 A2G4A2 B2AB c2Bc  | 
+w:   |   | 
+d4 B2c4B2 cdcB c2A2  | B4 G2A4G2 ABAG A2B2  | \
+w:   |   | 
+G4 G2d4e2 dedc B2c2  | 
+w:   | 
+d4 z4 G4 (3AGAG4B2  | c2d2 c2B2 e4 d2c3BBA  | \
+w:   |   | 
+AGG4A2 g4 g2f2 =a2ag  | 
+w:   | 
+fed4z2 e4 f2g2 =a2ba  | gfg4z2 c'4 b2=a4b2  | \
+w:   |   | 
+g2a4z2 d4 edc2 d2B2  | 
+w:   | 
+c2d4z2 g4 g2d4ed  | c2B4z2 e4 d2c2 B2BA  | \
+w:   |   | 
+AGG4A2 G4 F2E4FG  | 
+w:   | 
+F2G4G2 G4 A2B2 G2A2  | F2G4A2 G4 A2Bc B2cd  | \
+w:   |   | 
+c2d4z2 e4 def2 e2d2  | 
+w:   | 
+c2d4z2 g4 g2d4ed  | c2B4z2 e4 d2c2 B2BA  | \
+w:   |   | 
+AGG4A2 g2f2 =a2g4a2  | 
+w:   | 
+f4 e2d4c2 e2d2 c2e2  | d2c2 B2c2 d2c4G2 c4  | \
+w:   |   | 
+B2c4e2 d4 f2e2 d2c2  | 
+w:   | 
+B2c2 d2c2 B2_G2 B2A2 G2F4z2 |
+w:   | 
+
+
+X: 1056
+T: Hicazkâr Sazsemâîsi
+C: Tanburî Cemil Bey
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicazkar--sazsemaisi--aksaksemai----tanburi_cemil_bey
+N: makam= hicazkar
+N: form= sazsemaisi
+N: usul= aksaksemai = 10/8
+M: 10/8
+L: 1/16
+K: C _1/4B _7/8e _7/8A ^f
+Q: 1/4=160
+%%MIDI tuningsystem comma53
+g4 gfg3=a_ba gfg4ab  | =agfe d2a2 gffe edd6  | 
+w:  1. HANE  |   | 
+d3=e cdBc =AGB2 c2d2 _7/8edc2  | d2ed =aggf2efe ed{e}d4z2  | 
+w:   |   | 
+cd=e=f efgf efg_7/8b agga gagf  | \
+w:  TESLİM  | 
+=fgfg fee3dg2 g2g^f edc2  | 
+w:   | 
+e4 defg fede dcB4AB  | c4 Bced cBBA AGG4z2  | 
+w:   |   | 
+cd=e=f efgf efg_7/8b agga gagf  | \
+w:  TESLİM  | 
+=fgfg fee3dg2 g2g^f edc2  | 
+w:   | 
+e4 defg fede dcB4AB  | c4 Bced cBBA AGG4z2  | 
+w:   |   | 
+G4 dedc BABc dBc2 d2e2  | gfed cdB3cBA AGG4z2  | 
+w:  2. HANE  |   | 
+G4 dedc BAB2 c2d2 e2c2  | d2e2 =ag{a}gf2efe ed{e}d4z2  | 
+w:   |   | 
+cd=e=f efgf efg_7/8b agga gagf  | \
+w:  TESLİM  | 
+=fgfg fee3dg2 g2g^f edc2  | 
+w:   | 
+e4 defg fede dcB4AB  | c4 Bced cBBA AGG4z2  | 
+w:   |   | 
+cd=e=f efgf efg_7/8b agga gagf  | \
+w:  TESLİM  | 
+=fgfg fee3dg2 g2g^f edc2  | 
+w:   | 
+e4 defg fede dcB4AB  | c4 Bced cBBA AGG4z2  | 
+w:   |   | 
+gagf ede=f e2fg fag6  | b2c'2 d'2e'd' c'd'_b2 _a2g2 =f2_1/4e2  | 
+w:  3. HANE  |   | 
+_b4 b=aa2 g2g2 bag=f _1/4edc2  | d2e2 g2=f3_1/4efe edd4z2  | 
+w:   |   | 
+cd=e=f efgf efg_7/8b agga gagf  | \
+w:  TESLİM  | 
+=fgfg fee3dg2 g2g^f edc2  | 
+w:   | 
+e4 defg fede dcB4AB  | c4 Bced cBBA AGG4z2  | 
+w:   |   | 
+cd=e=f efgf efg_7/8b agga gagf  | \
+w:  TESLİM  | 
+=fgfg fee3dg2 g2g^f edc2  | 
+w:   | 
+e4 defg fede dcB4AB  | c4 Bced cBBA AGG4z2  | 
+w:   |   | 
+z24  | (3g2f2a2g4e3dc2e2d8  | (3B2c2d2(3e2d2c2B3A(3B2A2G2G8  | 
+w:  |  4. HANE  |   | 
+G3AB3cd3Bc3de3cd3e  | f3de3fg3fe3fg8  | 
+w:   |   | 
+(3g2f2a2g4e3dc2e2d8  | (3B2c2d2(3e2d2c2B3A(3B2A2G2G8  | 
+w:   |   | 
+z14  | =f2g2g2g=agfg2a2  | g2=f2_1/4e2dedcd2e2  | \
+w:  |   |   | 
+=f2g2=a2_bagagff_1/4e  | 
+w:   | 
+=f4f2f4fgf_1/4e  | _1/4e4e2e4_e2d2  | \
+w:   |   | 
+gfedcBc4z4  | =f2g2g2g=agf_1/4e^de2  | 
+w:   |   | 
+=f4g2f_edcd2_7/8e2  | dcBAB2c3dBAAG  | \
+w:   |   | 
+G4G2GFEFG4  | 
+w:   | 
+z20  | cd=e=f efgf efg_7/8b agga gagf  | 
+w:  |  TESLİM  | 
+=fgfg fee3dg2 g2g^f edc2  | e4 defg fede dcB4AB  | 
+w:   |   | 
+c4 Bced cBBA AGG4z2  | cd=e=f efgf efg_7/8b agga gagf  | 
+w:   |   | 
+=fgfg fee3dg2 g2g^f edc2  | e4 defg fede dcB4AB  | 
+w:   |   | 
+c4 Bced cBBA AGG4z2  | |
+
+
+X: 1057
+T: Hicazkâr Seyir
+C: Erol Bingöl
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicazkar--seyir--devrihindi--1--erol_bingol
+N: makam= hicazkar
+N: form= seyir
+N: usul= devrihindi = 7/4
+M: 7/4
+L: 1/16
+K: C _1/4B _7/8e _7/8A ^f
+Q: 1/4=60
+%%MIDI tuningsystem comma53
+f4 g4 g4 g2a2 b2a2 g3f e4  | d2e2 f2g2 a2b2 a3g f2a2 g8  | 
+w:   |   | 
+f2g2 a4 g2f2 f2e2 e2d2 gfed c4  | \
+w:   | 
+d2e2 f4 e2d2 d3c B2c2 d8  | 
+w:   | 
+a4 g4 f4 g3f e2d2 e8  | d2e2 f2g2 f2e2 d2c4e2 dcBA B4  | 
+w:   |   | 
+c4 d4 e4 g2f2 e2d2 c2e2 d2c2  | B2c2 d4 c2B2 B2A2 A2G2 G8  | 
+w:   |   | 
+|
+
+
+X: 1058
+T: Hicazkâr Seyir
+C: Erol Bingöl
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicazkar--seyir--devrihindi--2--erol_bingol
+N: makam= hicazkar
+N: form= seyir
+N: usul= devrihindi = 7/4
+M: 7/4
+L: 1/16
+K: C _1/4B _7/8e _7/8A ^f
+Q: 1/4=60
+%%MIDI tuningsystem comma53
+f4 g4 g2=a2 _b3a g2f2 g8  | c'4 _b4 =a4 a2g4b2 a2g2 f2e2  | \
+w:   |   | 
+d4 e4 f4 g4 =a4 _b4 a2g2  | 
+w:   | 
+f2g2 =a2_b2 a2g2 f3e e2d2 d8  | c4 g4 g4 a4 g2f2 g4 f2e2  | \
+w:   |   | 
+d2e2 f2g2 f2e2 d3c B2c2 d8  | 
+w:   | 
+c4 d4 e4 f2g2 f2e2 d2e2 d2c2  | B2c2 d2e2 d2c2 B2A2 A2G2 G8  | 
+w:   |   | 
+|
+
+
+X: 1059
+T: Hicazkâr Seyir
+C: Rauf Yektâ
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicazkar--seyir--semai--1--rauf_yekta
+N: makam= hicazkar
+N: form= seyir
+N: usul= semai = 3/4
+M: 3/4
+L: 1/16
+K: C _1/4B _7/8e _7/8A ^f
+Q: 1/4=120
+%%MIDI tuningsystem comma53
+g8 f4  | g8 _7/8b4  | =a8 g4  | f4 _1/4e4 d4  | \
+w:   |   |   |   | 
+c4 d4 _1/4e4  | f4 g4 =a2_7/8b2  | =a4 g4 f4  | \
+w:   |   |   | 
+g8 z4  | 
+w:   | 
+g8 c'4  | c'8 _7/8b4  | _7/8b4 =a4 g4  | \
+w:   |   |   | 
+f4 _1/4e4 d4  | c4 d4 _1/4e4  | f4 g6f2  | \
+w:   |   |   | 
+f4 _1/4e6d2  | d8 z4  | 
+w:   |   | 
+c8 g4  | g8 =f4  | =f8 _e4  | _e8 =f4  | g8 =a4  | \
+w:   |   |   |   |   | 
+_7/8b4 g6=f2  | =f4 _e6d2  | d8 z4  | c8 d4  | \
+w:   |   |   |   | 
+_e4 d4 c4  | 
+w:   | 
+B8 A4  | G8 z4  | c8 B4  | A4 G4 A4  | G2F2 _1/4E4 F4  | \
+w:   |   |   |   |   | 
+G8 z4  | |
+
+
+X: 1060
+T: Hicazkâr Seyir
+C: Şefik Gürmeriç
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicazkar--seyir--sofyan--1--sefik_gurmeric
+N: makam= hicazkar
+N: form= seyir
+N: usul= sofyan = 4/4
+M: 4/4
+L: 1/16
+K: C _1/4B _7/8e _7/8A ^f
+Q: 1/4=60
+%%MIDI tuningsystem comma53
+f4 g4 g4 =a4  | _b3=a aggf g8  | f2g2 =a2_b2 a2g2 g2f2  | \
+w:   |   |   | 
+f3e feed d8  | 
+w:   | 
+c4 g4 g4 f2g2  | a4 g2f2 e3d c4  | z4 d2_2/4e2 =f2a2 g2f2  | \
+w:   |   |   | 
+=f3_3/4e feed d8  | 
+w:   | 
+z2d4_2/4e2 c4 g4  | =f2e2 d2c2 B8  | \
+w:   |   | 
+z2c4e2 d2c2 c2B2  | B3A BAAG G8  | 
+w:   |   | 
+|
+
+
+X: 1061
+T: Hicazkâr Sirto
+C: Kemânî Sebuh
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicazkar--sirto--nimsofyan----kemani_sebuh
+N: makam= hicazkar
+N: form= sirto
+N: usul= nimsofyan = 2/4
+M: 2/4
+L: 1/16
+K: C _1/4B _7/8e _7/8A ^f
+Q: 1/4=96
+%%MIDI tuningsystem comma53
+f2g6  | gfed cBc2  | Bcde fgaf  | g6z2  | fgab c'2ba  | 
+w:  1. HANE  |   |   |   |   | 
+gagf ede2  | (3fgagf feed  | d3e dfed  | 
+w:   |   |   | 
+cBcd edef  | gfga bagf  | gabc' bc'ba  | 
+w:   |   |   | 
+bagf edc2  | BcdB c3d  | e3f g2fe  | dccB BAAG  | 
+w:   |   |   |   | 
+G6z2  | baag gffe  | f2g4fe  | def4ed  | (3fgagf edc2  | 
+w:   |  2. HANE  |   |   |   | 
+baag gffe  | f2g4fe  | gabc' d'c'ba  | g6z2  | 
+w:   |   |   |   | 
+baag gffe  | f2g4fe  | def4ed  | (3fgagf edc2  | 
+w:   |   |   |   | 
+BcdB c3d  | e3f g2fe  | dccB BAAG  | G6z2  | 
+w:   |   |   |   | 
+G2c2 c3/2B/ce  | d3/2^c/df ede=c  | defg agf^d  | 
+w:  3. HANE  |   |   | 
+dcde dcBA  | G2c2 c3/2B/ce  | d3/2^c/df ede=c  | 
+w:   |   |   | 
+defg fedf  | e6ed  | defg agfa  | g6fe  | 
+w:   |   |   |   | 
+fgac' bagf  | bagf edc2  | BcdB c3d  | 
+w:   |   |   | 
+e3f g2fe  | dccB BAAG  | G6z2  | baag gffe  | 
+w:   |   |   |  2. HANE  | 
+f2g4fe  | def4ed  | (3fgagf edc2  | baag gffe  | 
+w:   |   |   |   | 
+f2g4fe  | gabc' d'c'ba  | g6z2  | baag gffe  | 
+w:   |   |   |   | 
+f2g4fe  | def4ed  | (3fgagf edc2  | BcdB c3d  | 
+w:   |   |   |   | 
+e3f g2fe  | dccB BAAG  | G6z2  | =f2g4f_1/4e  | \
+w:   |   |   |  4. HANE  | 
+c'bag =f_1/4ed2  | 
+w:   | 
+_1/4e=fga ^fgaf  | g6z2  | =fg=a_b baag  | \
+w:   |   |   | 
+g=f=ag f_1/4eed  | 
+w:   | 
+dcg=f f_1/4eed  | d3e dfed  | cBcd edef  | 
+w:   |   |   | 
+gfga bagf  | gabc' bc'ba  | bagf edc2  | 
+w:   |   |   | 
+BcdB c3d  | e3f g2fe  | dccB BAAG  | G6z2  | 
+w:   |   |   |   | 
+baag gffe  | f2g4fe  | def4ed  | (3fgagf edc2  | 
+w:  2. HANE  |   |   |   | 
+baag gffe  | f2g4fe  | gabc' d'c'ba  | g6z2  | 
+w:   |   |   |   | 
+baag gffe  | f2g4fe  | def4ed  | (3fgagf edc2  | 
+w:   |   |   |   | 
+BcdB c3d  | e3f g2fe  | dccB BAAG  | G6z2  | 
+w:   |   |   |   | 
+|
+
+
+X: 1062
+T: Hicazkârkürdî Seyir
+C: Rauf Yektâ
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicazkarkurdi--seyir--semai--1--rauf_yekta
+N: makam= hicazkarkurdi
+N: form= seyir
+N: usul= semai = 3/4
+M: 3/4
+L: 1/16
+K: C _B _e _A 
+Q: 1/4=120
+%%MIDI tuningsystem comma53
+G8 f4  | g8 f4  | e8 f4  | g8 z4  | g8 c'4  | \
+w:   |   |   |   |   | 
+b8 a4  | a8 f4  | g8 z4  | g8 b4  | b4 a4 g4  | 
+w:   |   |   |   |   | 
+a2b2 a4 b4  | c'8 z4  | c'4 b4 a4  | g8 f4  | \
+w:   |   |   |   | 
+d4 e4 f4  | g8 z4  | g8 a4  | b8 g4  | a8 g4  | 
+w:   |   |   |   |   | 
+f8 z4  | e4 f4 g4  | a4 g4 f4  | f4 e4 d4  | \
+w:   |   |   |   | 
+d8 z4  | c4 d4 e4  | f4 g8  | g4 f4 e4  | 
+w:   |   |   |   | 
+d4 c8  | B4 c4 d4  | e8 d2c2  | B8 A4  | G8 z4  | |
+
+
+X: 1063
+T: Hicrân Oku Sînem Deler
+C: Şevki Bey
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: huseyni--sarki--turkaksagi--hicran_oku--sevki_bey
+N: makam= huseyni
+N: form= sarki
+N: usul= turkaksagi = 5/8
+M: 5/8
+L: 1/16
+K: C _2/4B ^3/4f  
+Q: 1/4=132
+%%MIDI tuningsystem comma53
+d2cd e4 ed | dc cBc4z2  | d2cd e4 ed | dc cBc4z2  | 
+w:  ARANAĞME  |   |   |   | 
+d2cd e2f2 g2 | a2 g2{b}ag =fed2  | c2B2 e2d2 {e}dc | \
+w:   |   |   | 
+cB BAA4z2  | 
+w:   | 
+d2cd e4 ed | dc cBc4z2  | d2cd e4 ed | dc cBc4z2  | 
+w:  ARANAĞME  |   |   |   | 
+d2cd e2f2 g2 | a2 g2{b}ag =fed2  | c2B2 e2d2 {e}dc | \
+w:   |   |   | 
+cB BAA4z2  | 
+w:   | 
+A4 d2c2 d2 | e8z2  | e2d2 d2c2 d2 | c2 d2c2 B2A2  | \
+w:  Hic rân_ *  o  |  ku   |  sî *  nem  *  de  |  ler    | 
+A4 d2c2 d2 | e8z2  | 
+w:  Hic rân_ *  o  |  ku   | 
+e2d2 d2c2 d2 | e4AB cde2  | e2d2 d2c2 B2 | \
+w:  sî *  nem  *  de  |  ler   SAZ  |  Ol *  mak *  ta  | 
+c2 {d}cBc2 d2e2  | 
+w:  dır   | 
+=f2e2 d2c2 B2 | c2 {d}BAB4z2  | A2B2 c2d2 e2 | \
+w:  ha *  lim  *  be  |  ter    |  Ol *  mak *  ta  | 
+=f2 e2d2 c2B2  | d3c c2B2 BA | 
+w:  dır   |  ha *  lim  *  be  | 
+A4de fag2  | g3f g4 a2 | =ba gfe4z2  | g2fe f2g2 a2 | 
+w:  ter   SAZ  |  Bu  *  if ti  |  rak   |  ar *  *  tık  *  ye  | 
+{a}g2 fed4z2  | =f2{g}fe f4 e2 | =f2 e2f2 g2a2  | \
+w:  *  ter    |  Bu  *  *  *  if ti  |  rak   | 
+e3d d2c2 d2 | e4AB cde2  | 
+w:  ar *  tık  *  ye  |  ter   SAZ  | 
+e2d2 d2c2 B2 | c2 {d}cBc2 d2e2  | =f2e2 d2c2 B2 | \
+w:  İn *  sâ *  fa   |  gel   |  ey  *  şî *  ve  | 
+c2 {d}BAB4z2  | 
+w:  ger    | 
+A2B2 c2d2 e2 | =f2 e2d2 c2B2  | d3c c2B2 BA | \
+w:  Bir  *  gün_ *  o  |  lur   |  ça *  ğın  *  ge  | 
+A4AB cde2  | 
+w:  çer   SAZ  | 
+e2d2 d2c2 B2 | c2 {d}cBc2 d2e2  | =f2e2 d2c2 B2 | \
+w:  İn *  sâ *  fa   |  gel   |  ey  *  şî *  ve  | 
+c2 {d}BAB4z2  | 
+w:  ger    | 
+A2B2 c2d2 e2 | =f2 e2d2 c2B2  | d3c c2B2 BA | \
+w:  Bir  *  gün_ *  o  |  lur   |  ça *  ğın  *  ge  | 
+A8z2  | d2cd e4 ed | 
+w:  çer    |  ARANAĞME  | 
+dc cBc4z2  | d2cd e4 ed | dc cBc4z2  | d2cd e2f2 g2 | 
+w:   |   |   |   | 
+a2 g2{b}ag =fed2  | c2B2 e2d2 {e}dc | \
+w:   |   | 
+cB BAA4z2  | d2cd e4 ed | 
+w:   |  ARANAĞME  | 
+dc cBc4z2  | d2cd e4 ed | dc cBc4z2  | d2cd e2f2 g2 | 
+w:   |   |   |   | 
+a2 g2{b}ag =fed2  | c2B2 e2d2 {e}dc | \
+w:   |   | 
+cB BAA4z2  | A4 d2c2 d2 | 
+w:   |  Hic rân_ *  o  | 
+e8z2  | e2d2 d2c2 d2 | c2 d2c2 B2A2  | A4 d2c2 d2 | \
+w:  ku   |  sî *  nem  *  de  |  ler    |  Hic rân_ *  o  | 
+e8z2  | e2d2 d2c2 d2 | 
+w:  ku   |  sî *  nem  *  de  | 
+e4AB cde2  | e2d2 d2c2 B2 | c2 {d}cBc2 d2e2  | \
+w:  ler   SAZ  |  Ol *  mak *  ta  |  dır   | 
+=f2e2 d2c2 B2 | 
+w:  ha *  lim  *  be  | 
+c2 {d}BAB4z2  | A2B2 c2d2 e2 | =f2 e2d2 c2B2  | \
+w:  ter    |  Ol *  mak *  ta  |  dır   | 
+d3c c2B2 BA | 
+w:  ha *  lim  *  be  | 
+A4de fag2  | g3f g4 a2 | =ba gfe4z2  | g2fe f2g2 a2 | 
+w:  ter   SAZ  |  Bu  *  if ti  |  rak   |  ar *  *  tık  *  ye  | 
+{a}g2 fed4z2  | =f2{g}fe f4 e2 | =f2 e2f2 g2a2  | \
+w:  *  ter    |  Bu  *  *  *  if ti  |  rak   | 
+e3d d2c2 d2 | e4AB cde2  | 
+w:  ar *  tık  *  ye  |  ter   SAZ  | 
+e2d2 d2c2 B2 | c2 {d}cBc2 d2e2  | =f2e2 d2c2 B2 | \
+w:  İn *  sâ *  fa   |  gel   |  ey  *  şî *  ve  | 
+c2 {d}BAB4z2  | 
+w:  ger    | 
+A2B2 c2d2 e2 | =f2 e2d2 c2B2  | d3c c2B2 BA | \
+w:  Bir  *  gün_ *  o  |  lur   |  ça *  ğın  *  ge  | 
+A4AB cde2  | 
+w:  çer   SAZ  | 
+e2d2 d2c2 B2 | c2 {d}cBc2 d2e2  | =f2e2 d2c2 B2 | \
+w:  İn *  sâ *  fa   |  gel   |  ey  *  şî *  ve  | 
+c2 {d}BAB4z2  | 
+w:  ger    | 
+A2B2 c2d2 e2 | =f2 e2d2 c2B2  | d3c c2B2 BA | \
+w:  Bir  *  gün_ *  o  |  lur   |  ça *  ğın  *  ge  | 
+A8z2  | |
+
+
+X: 1064
+T: Hicrân Olacaksa Bu Aşkın Sonu
+C: Ferit Sıdal
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: rast--sarki--duyek--hicran_olacaksa--ferit_sidal
+N: makam= rast
+N: form= sarki
+N: usul= duyek = 8/4
+M: 8/4
+L: 1/16
+K: C _1/4B ^f  
+Q: 1/4=156
+%%MIDI tuningsystem comma53
+Bc d4 dc e=f ed cd Bc  | AB c4 cB de dc Bc AB  | 
+w:  ARANAĞME  |   | 
+G2 g4 =fe dc BA Bc d2  | AB Ac Bc AB G8  | \
+w:   |   | 
+Bc d4 dc e=f ed cd Bc  | 
+w:  ARANAĞME  | 
+AB c4 cB de dc Bc AB  | G2 g4 =fe dc BA Bc d2  | 
+w:   |   | 
+AB Ac Bc AB G8  | G4 d8 c2 B2  | A2 B2 c{d}c BA G8  | \
+w:   |  Hic rân   |  o la cak *  *  *  *  sa   | 
+d2 =f2 e2 d2 d2 e2 c2 B2  | 
+w:  bu  aş *  *  kın   | 
+c2 d12 z2  | d3/2c/ d2 c3/2B/ c2 B3/2A/ B2 A2 BA  | \
+w:  so nu    |  SAZ  | 
+G2 =fe d2 c2 BA AG G4  | 
+w:   | 
+G4 d8 c2 B2  | A2 B2 c{d}c BA G8  | d2 =f2 e2 d2 d2 e2 c2 B2  | \
+w:  Hic rân   |  o la cak *  *  *  *  sa   |  bu  aş *  *  kın   | 
+c2 d12 z2  | 
+w:  so nu    | 
+d3/2c/ d2 c3/2B/ c2 B3/2A/ B2 A2 BA  | \
+w:  SAZ  | 
+G2 =fe d2 c2 B3/2A/ Bc d4  | 
+w:   | 
+d2 d6 g6 z2  | z2 d4 a2 g2 =f2 e2 d2  | \
+w:  Bı rak  git   |  kal bi mi   | 
+c2 e4 ed dc d4 cB  | B14 z2  | 
+w:  *  del me  *  boş  *  *  ye  |  re    | 
+B3/2^A/ B2 c3/2B/ c2 d3/2^c/ d2 e2 f2  | \
+w:  SAZ  | 
+g2 ag =fe de dc B^A B4  | 
+w:   | 
+B2 B6 d6 z2  | z2 c4 B2 c2 BA A4  | z2 d4 cB BA B4 AG  | \
+w:  Bı rak  git   |  kal bi mi   |  del me  *  boş  *  *  ye  | 
+G14 z2  | 
+w:  re    | 
+d3/2c/ d2 c3/2B/ c2 B3/2A/ B2 A2 BA  | \
+w:  SAZ  | 
+GA Bc de fa g3/2f/ ef g4  | 
+w:   | 
+z2 d4 d2 g8  | z2 g4 a2 f2 _7/8ed d4  | \
+w:  Mak sa dın   |  naz  e dip   | 
+d4 _7/8ed c2 de f4 ed  | d14 z2  | 
+w:  üz mek *  *  se  *  *  be  |  ni    | 
+d3/2c/ d2 c3/2B/ c2 B3/2A/ B2 A2 BA  | \
+w:  SAZ  | 
+GA Bc de fa g3/2f/ ef g4  | 
+w:   | 
+z2 d4 d2 g8  | z2 g4 a2 f2 _7/8ed d4  | \
+w:  Mak sa dın   |  naz  e dip   | 
+d4 _7/8ed c2 de f4 ed  | d14 z2  | 
+w:  üz mek *  *  se  *  *  be  |  ni    | 
+d3/2c/ d2 c3/2B/ c2 B3/2A/ B2 A2 BA  | \
+w:  SAZ  | 
+G2 =fe d2 c2 B3/2A/ Bc d4  | 
+w:   | 
+z2 d4 d2 g6 z2  | z2 d4 a2 g2 =f2 e2 d2  | \
+w:  Git ti ğin   |  yer de  kal   | 
+c2 e4 ed dc d4 cB  | 
+w:  *  gel me  *  boş  *  *  ye  | 
+B14 z2  | B3/2^A/ B2 c3/2B/ c2 d3/2^c/ d2 e2 f2  | \
+w:  re    |  SAZ  | 
+g2 ag =fe de dc B^A B4  | 
+w:   | 
+z2 B4 B2 d6 z2  | z2 c4 B2 c2 BA A4  | \
+w:  Git ti ğin   |  yer de  kal   | 
+z2 d4 cB BA B4 AG  | 
+w:  gel me  *  boş  *  *  ye  | 
+G14 z2  | |
+
+
+X: 1065
+T: Hicrân, Yine Hicrân mı
+C: Şerif İçli
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: huzzam--sarki--aksak--hicran_yine_hicran--serif_icli
+N: makam= huzzam
+N: form= sarki
+N: usul= aksak = 9/8
+M: 9/8
+L: 1/16
+K: C _1/4B _3/4e ^3/4f 
+Q: 1/4=114
+%%MIDI tuningsystem comma53
+G3A B2c2 A3B c2d2 e2 | c3de2 f2d3ef2 g2a2  | \
+w:  ARANAĞME  |   | 
+g3c' bc'a_b gafg efde dc | 
+w:   | 
+Bc def2 eddc cBB6  | G3A B2c2 A3B c2d2 e2 | 
+w:   |  ARANAĞME  | 
+c3de2 f2d3ef2 g2a2  | g3c' bc'a_b gafg efde dc | 
+w:   |   | 
+Bc def2 eddc cBB6  | d4 c3d d8 e2 | f2 edg2 {a}gffe edd4(3cBc  | 
+w:   |  *  Hic *  rân  |  *  *  *  yi *  ne *  hic *  *  *  rân  | 
+B4 c2d2 d3c defg gf | fe edd2 d2d2 cBg2 feed  | 
+w:  *  mı bu aş *  kın  |  *  *  *  *  so nu söy  | 
+d6fe dcB^A B3c Bc | d4c3dd8e2  | f2ed g2{a}gf feed d4 (3cBc | 
+w:  le SAZ  |  *  Hic *  rân  |  *  *  *  yi *  ne *  hic *  *  *  rân  | 
+B4c2 d2d3cde fggf  | feed d2d2 d2cB g2fe ed | 
+w:  *  mı bu aş *  kın  |  *  *  *  *  so nu söy  | 
+d6 fedc Bcd3ced  | d4 f3g g4 feed dc | 
+w:  le SAZ  |  *  Dal *  gın  | 
+c4d2 e2f2 g2a_b agfe  | d4 d2f2 e2d2 e3/2d/cd ef | 
+w:  *  ki o göz *  ler  |  *  se ni söy *  ler  | 
+d2 cBB2 B2c2 d2de dccB  | B6fe dcBc d3c ed | 
+w:  *  *  *  ba na böy  |  le SAZ  | 
+d4f3gg4fe eddc  | c4 d2e2 f2g2 a_bag fe | 
+w:  *  Dal *  gın  |  *  ki o göz *  ler  | 
+d4d2 f2e2 d2e3/2d/ cdef  | d2cB B2B2 c2d2 dedc cB | 
+w:  *  se ni söy *  ler  |  *  *  *  ba na böy  | 
+B6 agg^f f^ef4eg  | ^f4 ^e3g f4 g2^3/4f_1/4e de | \
+w:  le SAZ  |  *  Â *  vâ  | 
+d2 ^cBB2 c2d4d=c cBB^A  | 
+w:  *  *  *  re ge zen gön  | 
+B4 c2d2 d3c defg gf | fe edd2 d2d2 cBg2 feed  | 
+w:  *  lü me sev *  mek  |  *  *  *  *  bu mu söy  | 
+d6ag g^ff^e f4 eg | ^f4^e3gf4g2 ^3/4f_1/4ede  | \
+w:  le SAZ  |  *  Â *  vâ  | 
+d2^cB B2c2 d4 d=ccB B^A | 
+w:  *  *  *  re ge zen gön  | 
+B4c2 d2d3cde fggf  | feed d2d2 d2cB g2fe ed | 
+w:  *  lü me sev *  mek  |  *  *  *  *  bu mu söy  | 
+d6 fedc Bcd3ced  | d4 f3g g4 feed dc | 
+w:  le SAZ  |  *  Dal *  gın  | 
+c4d2 e2f2 g2a_b agfe  | d4 d2f2 e2d2 e3/2d/cd ef | 
+w:  *  ki o göz *  ler  |  *  se ni söy *  ler  | 
+d2 cBB2 B2c2 d2de dccB  | B6|
+w:  *  *  *  ba na böy  |  le  | 
+
+
+X: 1066
+T: Hicrânımı Hiç Kimseye
+C: Yesârî Âsım Arsoy
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: saba--sarki--kapali_curcuna--hicranimi_hic--yesari_asim_arsoy
+N: makam= saba
+N: form= sarki
+N: usul= kapali_curcuna = 10/8
+M: 10/8
+L: 1/16
+K: C _2/4B _3/4d  
+Q: 1/4=204
+%%MIDI tuningsystem comma53
+AB cd fe dc BA  | ed ed fe/d/ c/B/c3  | \
+w:  ARANAĞME  |   | 
+g/f/e/f/ g2 _7/8ag/f/ e/d/e2f  | 
+w:   | 
+e/d/c/B/ AB c/d/c/B/ A/G/A3  | B2 c3d2c BA  | c8-c2  | 
+w:   |  Hic râ nı  |  mı   | 
+cB/A/ B3e2d cd  | ed cB AA GA3  | A2 Bc2c dc/B/ c2  | 
+w:  hiç  *  *  *  kim  |  se *  *  *  *  ye   |  söy *  le ye *  mem   | 
+A2 Bc2c dc/B/ c2  | A2 Bc2c dc/B/ c2  | \
+w:  SAZ  |  söy *  le ye *  mem    | 
+A2 Bc2c dc/B/ c2  | 
+w:  SAZ  | 
+z2 cd2d cd/c/ d2  | d9c  | c2 de fe dc3  | \
+w:  O  bir  sır  |  dır   |  kor *  ka *  rım   | 
+ed cB AB cB3  | 
+w:  fâş   | 
+A2 Bc2c dc BA  | A2 Bc2c dc BA  | AB A(3edc(3cBAA3  | 
+w:  ey *  le ye *  mem   |  SAZ  |  ey *  *  le *  *  ye *  *  mem    | 
+AB cd e/f/e/d/ c/B/c3  | z2 cd2d cd/c/ d2  | \
+w:  SAZ  |  O  bir  sır  | 
+d9c  | 
+w:  dır   | 
+c2 de fe dc3  | ed cB AB cB3  | A2 Bc2c dc BA  | 
+w:  kor *  ka *  rım   |  fâş   |  ey *  le ye *  mem   | 
+A2 Bc2c dc BA  | AB A(3edc(3cBAA3  | \
+w:  SAZ  |  ey *  *  le *  *  ye *  *  mem    | 
+f4-ff/e/ =d/e/f3  | 
+w:  SAZ  | 
+e3f2f ef3  | z2 g_7/8a gf ef3  | f2 e=d2e2f3  | \
+w:  Ah de  düş *  tüm   |  ve fâ *  sız  *  yâr   |  pey *  le ye mem   | 
+f2 e=d2e2f3  | 
+w:  SAZ  | 
+f2 e=d2e2f3  | f8-f2  | e3f2g aa3  | ag ga2g fe3  | \
+w:  pey *  le ye mem    |   |  Ah de  düş *  tüm   |  *  *  ve fâ sız  *  yâr   | 
+e2 de2f2e dc  | 
+w:  pey *  le ye mem   | 
+e2 de2f2e dc  | c2 de fe/d/ c/B/c3  | c8-c2  | \
+w:  SAZ  |  pey *  le *  ye *  *  *  mem    |   | 
+AB cd e/f/e/d/ c/B/c3  | 
+w:  SAZ  | 
+c3d2d cd cd  | d9c  | c2 de fe dc3  | ed cB AB AB3  | 
+w:  Sır rı  aş  |  kı   |  kor *  ka *  rım   |  fâş   | 
+A2 Bc2c dc BA  | A2 Bc2c dc BA  | AB A(3edc(3cBAA3  | 
+w:  ey *  le ye *  mem   |  SAZ  |  ey *  *  le *  *  ye *  *  mem    | 
+A8-A2  | |
+
+
+X: 1067
+T: Hisar Sazsemâîsi
+C: Kemânî Ali Ağa
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hisar--sazsemaisi--aksaksemai----kemani_ali_aga
+N: makam= hisar
+N: form= sazsemaisi
+N: usul= aksaksemai = 10/8
+M: 10/8
+L: 1/16
+K: C _1/4B   
+Q: 1/4=120
+%%MIDI tuningsystem comma53
+e4 ^d2e^1/4f ede2 f2^ga gfe2  | f2e2 ^d2ed cBc2 d2e4z2  | 
+w:  1. HANE  |   | 
+ef^g2 ^1/4f2e3ba2 g2f4e^d  | e4 ^d2ba2^gg^1/4f fee4z2  | 
+w:   |   | 
+efe2 d2cd cBc2 d2e4z2  | efde cdc2 B2AB AGA2 B2c2  | 
+w:  TESLİM  |   | 
+c4 B2BA G2ed dcc4z2  | B4 c2_2/4BA BcBA GBA4z2  | 
+w:   |   | 
+d4 e2^fg fef2 g2ab a2g2  | ^f4 fff3gfe dfe4z2  | 
+w:  2. HANE  |   | 
+e2^1/4f2 ^g2g2 f2f2 e2b2 a2b2  | _a4 f2b2 =a_aaf fee4z2  | 
+w:   |   | 
+efe2 d2cd cBc2 d2e4z2  | efde cdc2 B2AB AGA2 B2c2  | 
+w:  TESLİM  |   | 
+c4 B2BA G2ed dcc4z2  | B4 c2_2/4BA BcBA GBA4z2  | 
+w:   |   | 
+g4 ^f2ef ede2 f2g2 _a2bc'  | b_a2g g2d'2 c'bba agg4z2  | 
+w:  3. HANE  |   | 
+_a2g2 ^f2gf e2^1/4fe ^d2e2 f2a=a  | \
+w:   | 
+_a2^1/4f2 e2e2 b2=ag g=ffe e2z2  | 
+w:   | 
+efe2 d2cd cBc2 d2e4z2  | efde cdc2 B2AB AGA2 B2c2  | 
+w:  TESLİM  |   | 
+c4 B2BA G2ed dcc4z2  | B4 c2_2/4BA BcBA GBA4z2  | 
+w:   |   | 
+|
+
+
+X: 1068
+T: Hisar Seyir
+C: Erol Bingöl
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hisar--seyir--devrihindi--1--erol_bingol
+N: makam= hisar
+N: form= seyir
+N: usul= devrihindi = 7/4
+M: 7/4
+L: 1/16
+K: C _1/4B   
+Q: 1/4=60
+%%MIDI tuningsystem comma53
+^d4 e4 e4 ^g2f2 e2d2 e8  | ^d2e2 f4 e2d2 d2c2 c2=B2 c3B A4  | \
+w:   |   | 
+^d2e2 f2^g2 a2=b2 c'4 b2a2 b4 a2g2  | 
+w:   | 
+a2=b2 ^g2f2 f2e2 e3^d c2d2 e8  | d2e2 ^f2g2 a4 =b2a2 g2f2 g3f e4  | 
+w:   |   | 
+e2a2 g2f2 e2d2 e3d c2_2/4B2 c8  | \
+w:   | 
+d2e2 ^3/4f2g2 a4 g2=f2 e2d2 e2d2 c2_2/4B2  | 
+w:   | 
+c2_2/4B2 e2d2 d2c2 c2B2 B2A2 A8  | |
+
+
+X: 1069
+T: Hisar Seyir
+C: Şefik Gürmeriç
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hisar--seyir--duyek--1--sefik_gurmeric
+N: makam= hisar
+N: form= seyir
+N: usul= duyek = 8/4
+M: 8/4
+L: 1/16
+K: C _1/4B   
+Q: 1/4=120
+%%MIDI tuningsystem comma53
+e8 ^d4 e4  | fe f^g f2 e2 e8  | z2 e4 f2 ^g2 a2 =b2 c'2  | \
+w:   |   |   | 
+=b2 a2 a2 ^g2 a8  | 
+w:   | 
+z2 ^g4 c'2 =b2 a2 g4  | z2 a4 =b2 ^g2 f2 e4  | \
+w:   |   | 
+z2 =b2 a2 ^g2 g2 f2 f2 e2  | ^d2 e2 f^g fe e8  | 
+w:   |   | 
+z2 e4 ^f2 g6 f2  | a3g f3e d4 z4  | z2 c4 d2 e2 ^3/4f2 g2 a2  | \
+w:   |   |   | 
+g2 f2 e2 d2 ed c_2/4B c4  | 
+w:   | 
+z2 c2 _2/4B2 c2 d4 e4  | d2 c2 _2/4B2 A2 Ac BA G4  | \
+w:   |   | 
+A2 _2/4B2 c2 d2 e2 d2 d2 c2  | 
+w:   | 
+c2 _2/4B2 B2 A2 A8  | |
+
+
+X: 1070
+T: Hisarbûselik Aranağme (Türkaksağı)
+C: ?
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hisarbuselik--aranagme--turkaksagi--1--
+N: makam= hisarbuselik
+N: form= aranagme
+N: usul= turkaksagi = 5/8
+M: 5/8
+L: 1/16
+K: C _1/4B   
+Q: 1/4=120
+%%MIDI tuningsystem comma53
+A4 e6 | (3fef (3a^gfe4z2  | e2d2 c4 G2 | \
+w:  ARANAĞME  |   |   | 
+(3c=Bc (3edcB4z2  | 
+w:   | 
+.c2.A2 G4 ^1/4F2 | (3^1/4FEF (3AGFE4z2  | \
+w:   |   | 
+.E2.A2 .c2.e2 d2 | c=B A^GA4z2  | 
+w:   |   | 
+A4 e6 | (3fef (3a^gfe4z2  | e2d2 c4 G2 | \
+w:  ARANAĞME  |   |   | 
+(3c=Bc (3edcB4z2  | 
+w:   | 
+.c2.A2 G4 ^1/4F2 | (3^1/4FEF (3AGFE4z2  | \
+w:   |   | 
+.E2.A2 .c2.e2 d2 | c=B A^GA4z2  | 
+w:   |   | 
+|
+
+
+X: 1071
+T: Hisarbûselik Aranağme (Yürüksemâî)
+C: ?
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hisarbuselik--aranagme--azeriyuruksemai--1--
+N: makam= hisarbuselik
+N: form= aranagme
+N: usul= azeriyuruksemai = 6/8
+M: 6/8
+L: 1/16
+K: C _1/4B   
+Q: 1/4=192
+%%MIDI tuningsystem comma53
+G3c c2=B2 c4  | c3e e2^d2 e4  | a3^g f2f3e^d2  | e12  | \
+w:  ARANAĞME  |   |   |   | 
+f3e d2e3dc2  | 
+w:   | 
+d3c =B2c3BA2  | c3=B A2B3A^G2  | A3=B c2d2 .e4  | \
+w:   |   |   | 
+f3e d2e3dc2  | 
+w:   | 
+d3c =B2c3BA2  | c3=B A2B3A^G2  | A12  | \
+w:   |   |   | 
+z4 c2=B2 c4  | G3c c2=B2 c4  | 
+w:   |   | 
+=B3c c2B2 c4  | G3c c2=B2 c4  | z4 d2f2 e2d2  | d12  | \
+w:   |   |   |   | 
+z4 e2^d2 e4  | c12  | 
+w:   |   | 
+z4 d2c2 =B4  | d2c2 =B2A2 B2^G2  | A12  | \
+w:   |   |   | 
+d2e2 d2c2 =B2A2  | z4 c2=B2 c4  | 
+w:   |   | 
+G3c c2=B2 c4  | =B3c c2B2 c4  | G3c c2=B2 c4  | \
+w:   |   |   | 
+z4 d2f2 e2d2  | d12  | 
+w:   |   | 
+z4 e2^d2 e4  | c12  | z4 d2c2 =B4  | d2c2 =B2A2 B2^G2  | A12  | A12  | |
+
+
+X: 1072
+T: Hisarbûselik Sazsemâîsi
+C: Tanburî Büyük Osman Bey
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hisarbuselik--sazsemaisi--aksaksemai----tanburi_buyuk_osman_bey
+N: makam= hisarbuselik
+N: form= sazsemaisi
+N: usul= aksaksemai = 10/8
+M: 10/8
+L: 1/16
+K: C _1/4B   
+Q: 1/4=120
+%%MIDI tuningsystem comma53
+A4 e2e^d {f}ed=d=B {d}cBA2 ^G4  | \
+w:  1. HANE  | 
+A4 =B2c3^ded cde4z2  | 
+w:   | 
+e4 ^g2g2 fef2 g2=b2 a4  | f4 e2=b2 a^gfe {g}fee4z2  | \
+w:   |   | 
+e4 ^ga=bc' baba gab6  | 
+w:   | 
+a4 c'2c'=b {d'}c'bba {c'}baa2 ^g4  | \
+w:   | 
+e4 ^g2f2 e2f2 g2=b2 a4  | f4 e2=b2 a^gfe {g}fee4z2  | 
+w:   |   | 
+d4 g2^fg fga2 gfe4z2  | g^f{g}fe d2gf {a}gffe ede2 d2c=B  | 
+w:  TESLİM  |   | 
+c4 G2c3edc =Bcd6  | c4 =B2cd cBBA {B}A^GA4z2  | 
+w:   |   | 
+c4 =BAG4A2 B2c4d2  | d4 c2=B3AAB AGG4z2  | \
+w:  2. HANE  |   | 
+A4 ^G2A2 =B2A2 B2c4^d2  | 
+w:   | 
+e4 a2^g3efe {g}fee4z2  | e4 a2^g2 e2f2 g2e2 ^d2e2  | \
+w:   |   | 
+c4 d2c3BBA {c}=BAA4z2  | 
+w:   | 
+cdc=B cBc4de dcdc d4  | e4 f2^g3efe {=g}fee4z2  | 
+w:   |   | 
+d4 g2^fg fga2 gfe4z2  | g^f{g}fe d2gf {a}gffe ede2 d2c=B  | 
+w:  TESLİM  |   | 
+c4 G2c3edc =Bcd6  | c4 =B2cd cBBA {B}A^GA4z2  | 
+w:   |   | 
+a4 ga=b3ac'b aba2 b4  | =b4 a2e'd' c'bba baa4z2  | 
+w:  3. HANE  |   | 
+a2=b2 c'2e'2 d'c'b2 a2g2 a4  | g4 ^f2=ba gffe {g}fee4z2  | 
+w:   |   | 
+e4 f2e2 dcfe dc=B4A2  | =B4 efe2 d2c2 B2A2 ^G2A2  | 
+w:   |   | 
+^G4 F2=B2 AGFE {G}FEE4z2  | d4 g2^fg fga2 gfe4z2  | 
+w:   |  TESLİM  | 
+g^f{g}fe d2gf {a}gffe ede2 d2c=B  | \
+w:   | 
+c4 G2c3edc =Bcd6  | 
+w:   | 
+c4 =B2cd cBBA {B}A^GA4z2  | z24  | A4d2c2c2=B2A2^G2A6z2  | 
+w:   |  |  4. HANE  | 
+A4e4e3dc2d2e6z2  | d4a2g2g2f2f2e2e2d2c2=B2  | \
+w:   |   | 
+A2=B2c2d2c2B2A2^G2A6z2  | 
+w:   | 
+A4d2c2c2=B2A2^G2A6z2  | A4e4e3dc2d2e6z2  | \
+w:   |   | 
+d4a2g2g2f2f2e2e2d2c2=B2  | 
+w:   | 
+A2=B2c2d2c2B2A2^G2A6z2  | a4^g2a2g2a2=b2g2a6z2  | \
+w:   |   | 
+e4^g2f2f3e^d2f2e6z2  | 
+w:   | 
+d4a2g2g2f2f2e2e2d2c2=B2  | A2=B2c2d2c2B2A2^G2A6z2  | 
+w:   |   | 
+a4^g2a2g2a2=b2g2a6z2  | e4^g2f2f3e^d2f2e6z2  | \
+w:   |   | 
+d4a2g2g2f2f2e2e2d2c2=B2  | 
+w:   | 
+A2=B2c2d2c2B2A2^G2A6z2  | z20  | d4 g2^fg fga2 gfe4z2  | 
+w:   |  |  TESLİM  | 
+g^f{g}fe d2gf {a}gffe ede2 d2c=B  | \
+w:   | 
+c4 G2c3edc =Bcd6  | 
+w:   | 
+c4 =B2cd cBBA {B}A^GA4z2  | |
+
+
+X: 1073
+T: Hisarbûselik Seyir
+C: Şefik Gürmeriç
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hisarbuselik--seyir--sofyan--1--sefik_gurmeric
+N: makam= hisarbuselik
+N: form= seyir
+N: usul= sofyan = 4/4
+M: 4/4
+L: 1/16
+K: C _1/4B   
+Q: 1/4=60
+%%MIDI tuningsystem comma53
+e8 ^d4 e4  | fef^g f2e2 e8  | z2e4f2 ^g2a2 =b2c'2  | \
+w:   |   |   | 
+=b2a2 a2^g2 a8  | 
+w:   | 
+=b4 c'4 b2a2 ^g4  | z2a4=b2 ^g2f2 e4  | \
+w:   |   | 
+z2=b2 a2^g2 g2f2 f2e2  | ^d2e2 f^gfe e8  | 
+w:   |   | 
+z2e4^f2 g6f2  | a3g f2e2 d4 z4  | z2c4d2 e2f2 g2a2  | \
+w:   |   |   | 
+g2f2 e2d2 dcc=B c4  | 
+w:   | 
+z4 =B2c2 d4 e4  | d2c2 =B2A2 A3c BA^G2  | \
+w:   |   | 
+z2c2 =B2c2 d2ed c2B2  | 
+w:   | 
+=B3A cBA^G A8  | |
+
+
+X: 1074
+T: Hiç Eşin
+C: Zeki Mehmed Ağa
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicazkar--sarki--evfer--hic_esin--zeki_mehmet_aga
+N: makam= hicazkar
+N: form= sarki
+N: usul= evfer = 9/8
+M: 9/8
+L: 1/16
+K: C _1/4B _7/8e _7/8A ^f
+Q: 1/4=120
+%%MIDI tuningsystem comma53
+g4 d4 _7/8baga f2g4 | de dcd3/2f/ eddc c2B2 c4  | 
+w:   |   | 
+Bcde f2ed agfe edd4 | f2 g2ga gfed c2d2 e3/2d/cd  | 
+w:   |   | 
+B2c2 cdcB BAAB c6 | Bc def2 edag feed d4  | 
+w:   |   | 
+zc2e defg fedc B2c2 BA | G2 A2AB AGGF EFG6  | 
+w:   |   | 
+GBAc Bdce defg f2g4 | z2 f4 d2ed egf2 g4  | 
+w:   |   | 
+fgac' c'2_7/8ba agfe edd4 | f2 g2ga gfed c2d2 e3/2d/cd  | 
+w:   |   | 
+B2c2 cdcB BAAB c6 | Bc def2 edag feed d4  | 
+w:   |   | 
+zc2e defg fedc B2c2 BA | G2 A2AB AGGF EFG6  | 
+w:   |   | 
+GBAc Bdce defg f2g4 | z2 f4 d2ed egf2 g4  | 
+w:   |   | 
+fgac' c'2_7/8ba agfe edd4 | |
+
+
+X: 1075
+T: Hiç Söz Olmaz
+C: Ahmet Avni Konuk
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: rahatulervah--kupe--agirevfer--hic--ahmet_avni_konuk
+N: makam= rahatulervah
+N: form= kupe
+N: usul= agirevfer = 9/4
+M: 9/4
+L: 1/16
+K: C _7/8B ^c ^f 
+Q: 1/4=72
+%%MIDI tuningsystem comma53
+z4 d8 d2^3/4c2 B3A B2c2 d2dc d4 z4  | \
+w:  Hiç  söz  *  ol *  *  *  maz   | 
+z4 ^3/4c2d2 e4 =f4 e2d4f2 edc=B c4 z4  | 
+w:  hâ *  *  sı lı  *  *  muh  | 
+z4 ^3/4c2B2 c4 e2=f2 e2d2 c2B2 c2{d}cB A4 z4  | \
+w:  rık  *  *  sa *  dâ *  *  *  lı   | 
+z4 A2B2 G4 e2=f2 e2d2 ^3/4c2ed d8 z4  | 
+w:  ta *  *  ze *  ye    | 
+z4 ^3/4f8 f4 d2e2 f2g2 a2g2 f3e d4  | \
+w:  Râ ha tül *  *  *  er  | 
+z4 g4 ^3/4f4 e2=f2 e2d2 ^3/4c2B2 c2cB A4 z4  | 
+w:  vâh  *  o *  lur *  *  *  du   | 
+z4 A2G2 A4 B4 ^3/4c4 {d}c2B2 A2AG ^3/4F4 B4  | \
+w:  baş *  *  la sa  *  *  *  â  | 
+z4 A2B2 ^3/4c4 B2A2 A3G G2G^3/4F F8 z4  | 
+w:  gâ *  *  ze *  ye    | 
+|
+
+
+X: 1076
+T: Hiçbir Şeyde Gözüm Yok
+C: Fethi Karamahmutoğlu
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz--sarki--duyek--hicbir_seyde--fethi_karamahmutoglu
+N: makam= hicaz
+N: form= sarki
+N: usul= duyek = 8/4
+M: 8/4
+L: 1/16
+K: C _7/8B ^f ^c 
+Q: 1/4=162
+%%MIDI tuningsystem comma53
+A2 =f4 f2 f2 g2 f2 e2  | z2 e4 e2 e2 =f2 e2 d2  | \
+w:  ARANAĞME  |   | 
+z2 d4 d2 d2 e2 d2 c2  | 
+w:   | 
+c2 d2 B2 A2 d4 c4  | z2 d4 d2 d2 e2 d2 c2  | \
+w:   |   | 
+z2 c4 c2 c2 d2 c2 B2  | z2 B4 B2 B2 c2 B2 A2  | 
+w:   |   | 
+A2 B2 G2 F2 B4 A4  | A2 =f4 f2 f2 g2 f2 e2  | \
+w:   |  ARANAĞME  | 
+z2 e4 e2 e2 =f2 e2 d2  | z2 d4 d2 d2 e2 d2 c2  | 
+w:   |   | 
+c2 d2 B2 A2 d4 c4  | z2 d4 d2 d2 e2 d2 c2  | \
+w:   |   | 
+z2 c4 c2 c2 d2 c2 B2  | z2 B4 B2 B2 c2 B2 A2  | 
+w:   |   | 
+A2 B2 G2 F2 B4 A4  | e4 =f4 e4 d2 c2  | \
+w:   |  Hiç bir  şey de  gö  | 
+e3d d4 z2 d2 e2 f2  | g2 g4 g2 g2 f2 f2 e2  | 
+w:  züm  *  yok   SAZ  |  *  Sen  ya nım *  da   | 
+d2 e4 f2 g2 gf g4  | z2 a4 b2 a4 g4  | \
+w:  *  ol  ye ter    |  Kap ka ran lık   | 
+=f2 e2 f4 e2 g2 f4  | e4 =f4 e2 d6  | 
+w:  o da ma  SAZ  |  Meh tap  gi bi   | 
+z2 e3d c2 d8  | z2 a2 g2 =f2 e2 d2 c2 B2  | \
+w:  dol  *  ye ter    |  SAZ  | 
+A2 A4 A2 B2 G2 A4  | e4 =f4 e4 d2 c2  | 
+w:   |  Hiç bir  şey de  gö  | 
+e3d d4 z2 d2 e2 f2  | g2 g4 g2 g2 f2 f2 e2  | \
+w:  züm  *  yok   SAZ  |  *  Sen  ya nım *  da   | 
+d2 e4 f2 g2 gf g4  | 
+w:  *  ol  ye ter    | 
+z2 a4 b2 a4 g4  | =f2 e2 f4 e2 g2 f4  | \
+w:  Kap ka ran lık   |  o da ma  SAZ  | 
+e4 =f4 e2 d6  | z2 e3d c2 d8  | z2 G2 A2 B2 c2 d2 e2 c2  | 
+w:  Meh tap  gi bi   |  dol  *  ye ter    |  SAZ  | 
+d2 d4 d2 e4 =f4  | =f4 f4 f2 f2 f2 e2  | \
+w:   |  Yağ mur  vu rur  | 
+e3d c2 d2 e8  | =f2 f4 e2 e3d d2 e2  | 
+w:  ken  *  *  ca ma    |  Da lar *  ken  *  ge  | 
+d3c c2 d2 c8  | z2 d4 =f2 e2 d2 c2 B2  | \
+w:  ce  *  *  ga ma    |  Öz le yen  *  kol  | 
+d3c cB BA B8  | B2 A4 G2 c2 B4 c2  | 
+w:  *  *  la *  rı *  ma    |  U sul ca  so kul  ye  | 
+A2 A6 e4 =f4  | =f4 f4 f2 f2 f2 e2  | \
+w:  ter   SAZ  |  Yağ mur  vu rur  | 
+e3d c2 d2 e8  | =f2 f4 e2 e3d d2 e2  | 
+w:  ken  *  *  ca ma    |  Da lar *  ken  *  ge  | 
+d3c c2 d2 c8  | z2 d4 =f2 e2 d2 c2 B2  | \
+w:  ce  *  *  ga ma    |  Öz le yen  *  kol  | 
+d3c cB BA B8  | B2 A4 G2 c2 B4 c2  | 
+w:  *  *  la *  rı *  ma    |  U sul ca  so kul  ye  | 
+A2 A4 A2 G4 A4  | A2 =f4 f2 f2 g2 f2 e2  | \
+w:  ter   SAZ  |  SAZ  | 
+z2 e4 e2 e2 =f2 e2 d2  | z2 d4 d2 d2 e2 d2 c2  | 
+w:   |   | 
+c2 d2 B2 A2 d4 c4  | z2 d4 d2 d2 e2 d2 c2  | \
+w:   |   | 
+z2 c4 c2 c2 d2 c2 B2  | z2 B4 B2 B2 c2 B2 A2  | 
+w:   |   | 
+z2 A2 B2 c2 d2 e2 ^1/4f2 ^g2  | a2 a4 a2 a8  | \
+w:   |  *  Sız la yan   | 
+a3^g ^1/4f2 g2 a8  | z2 ^g2 a2 =b2 g4 ^1/4f2 fe  | 
+w:  her  *  ye ri min    |  Şu  çi le li  se ri min    | 
+e2 e6 f4 g4  | z2 g6 g2 f2 f2 e2  | z2 a4 a2 g2 =f2 e2 d2  | \
+w:  SAZ  |  Sa hip *  siz   |  dert le ri min    | 
+z2 e4 f2 g2 g2 =f2 e2  | 
+w:  Ça re si ni   | 
+d2 e3d c2 d8  | z2 A2 B2 c2 d2 e2 =f2 ^g2  | \
+w:  *  bul  *  ye ter    |  SAZ  | 
+a2 a4 a2 =f4 a4  | a2 a4 a2 a8  | 
+w:   |  *  Sız la yan   | 
+a3^g ^1/4f2 g2 a8  | z2 ^g2 a2 =b2 g4 ^1/4f2 fe  | \
+w:  her  *  ye ri min    |  Şu  çi le li  se ri min    | 
+e2 e6 f4 g4  | z2 g6 g2 f2 f2 e2  | 
+w:  SAZ  |  Sa hip *  siz   | 
+z2 a4 a2 g2 =f2 e2 d2  | z2 e4 f2 g2 g2 =f2 e2  | \
+w:  dert le ri min    |  Ça re si ni   | 
+d2 e3d c2 d8  | z2 G2 A2 B2 c2 d2 e2 c2  | 
+w:  *  bul  *  ye ter    |  SAZ  | 
+d2 d4 d2 e4 =f4  | =f4 f4 f2 f2 f2 e2  | \
+w:   |  Yağ mur  vu rur  | 
+e3d c2 d2 e8  | =f2 f4 e2 e3d d2 e2  | 
+w:  ken  *  *  ca ma    |  Da lar *  ken  *  ge  | 
+d3c c2 d2 c8  | z2 d4 =f2 e2 d2 c2 B2  | \
+w:  ce  *  *  ga ma    |  Öz le yen  *  kol  | 
+d3c cB BA B8  | B2 A4 G2 c2 B4 c2  | 
+w:  *  *  la *  rı *  ma    |  U sul ca  so kul  ye  | 
+A2 A6 e4 =f4  | =f4 f4 f2 f2 f2 e2  | \
+w:  ter   SAZ  |  Yağ mur  vu rur  | 
+e3d c2 d2 e8  | =f2 f4 e2 e3d d2 e2  | 
+w:  ken  *  *  ca ma    |  Da lar *  ken  *  ge  | 
+d3c c2 d2 c8  | z2 d4 =f2 e2 d2 c2 B2  | \
+w:  ce  *  *  ga ma    |  Öz le yen  *  kol  | 
+d3c cB BA B8  | B2 A4 G2 c2 B4 c2  | 
+w:  *  *  la *  rı *  ma    |  U sul ca  so kul  ye  | 
+A2 A4 A2 G4 A4  | |
+
+
+X: 1077
+T: Horozumun Tüyleri
+C: Veli Kanık
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz--turku--aksak--horozumun_tuyleri--istanbul
+N: makam= hicaz
+N: form= turku
+N: usul= aksak = 9/8
+M: 9/8
+L: 1/16
+K: C _7/8B ^f ^c 
+Q: 1/4=228
+%%MIDI tuningsystem comma53
+c2d2 c2B2 A2B2 c4 e2 | d4c2 B2A4e2 e4  | \
+w:  ARANAĞME  |   | 
+c2d2 c2B2 A2B2 c4 e2 | 
+w:   | 
+d4c2 B2A8-A2  | c2d2 c2B2 A2B2 c4 e2 | \
+w:   |  ARANAĞME  | 
+d4c2 B2A4e2 e4  | c2d2 c2B2 A2B2 c4 e2 | 
+w:   |   | 
+d4c2 B2A8-A2  | c2d2 e2e2 =f2e2 f2^g4 | \
+w:   |  Ho ro zu mun  tüy *  le ri   | 
+=f2 e2d2 f2e4f2 ^g4  | c2d2 e2e2 =f2e2 f2^g4 | 
+w:  il *  vâ *  ne  a man    |  Ho ro zu mun  tüy *  le ri   | 
+=f2 e2d2 f2e8-e2  | c2d2 c2B2 A2B2 c4 e2 | \
+w:  il *  vâ *  ne    |  Ha pı  yut tu  ta vuk la rım   | 
+d4c2 B2A4e2 e4  | c2d2 c2B2 A2B2 c4 e2 | 
+w:  dî vâ *  ne  a man    |  Ha pı  yut tu  ta vuk la rım   | 
+d4c2 B2A8-A2  | c2d2 e2e2 e2e2 a6 | c2 d2e2 e2e2 e2a6  | \
+w:  dî vâ *  ne    |  Ha  gıt  gıt  gıt  gıt  gı dak    |  Ha  gıt  gıt  gıt  gıt  gı dak    | 
+c2d2 c2B2 A2B2 c4 e2 | 
+w:  Kör_ o la sı  ta vuk la rım   | 
+d4c2 B2A4e2 e4  | c2d2 c2B2 A2B2 c4 e2 | \
+w:  pek  fı kır dak  a man    |  Kör_ o la sı  ta vuk la rım   | 
+d4c2 B2A8-A2  | c2d2 c2B2 A2B2 c4 e2 | 
+w:  pek  fı kır dak    |  ARANAĞME  | 
+d4c2 B2A4e2 e4  | c2d2 c2B2 A2B2 c4 e2 | \
+w:   |   | 
+d4c2 B2A8-A2  | c2d2 c2B2 A2B2 c4 e2 | 
+w:   |  ARANAĞME  | 
+d4c2 B2A4e2 e4  | c2d2 c2B2 A2B2 c4 e2 | \
+w:   |   | 
+d4c2 B2A8-A2  | c2d2 e2e2 =f2e2 f2^g4 | 
+w:   |  Ho ro zu mun  tüy *  le ri   | 
+=f2 e2d2 f2e4f2 ^g4  | c2d2 e2e2 =f2e2 f2^g4 | \
+w:  il *  vâ *  ne  a man    |  Ho ro zu mun  tüy *  le ri   | 
+=f2 e2d2 f2e8-e2  | 
+w:  il *  vâ *  ne    | 
+c2d2 c2B2 A2B2 c4 e2 | d4c2 B2A4e2 e4  | \
+w:  Ha pı  yut tu  ta vuk la rım   |  dî vâ *  ne  a man    | 
+c2d2 c2B2 A2B2 c4 e2 | 
+w:  Ha pı  yut tu  ta vuk la rım   | 
+d4c2 B2A8-A2  | c2d2 e2e2 e2e2 a6 | c2 d2e2 e2e2 e2a6  | \
+w:  dî vâ *  ne    |  Ha  gıt  gıt  gıt  gıt  gı dak    |  Ha  gıt  gıt  gıt  gıt  gı dak    | 
+c2d2 c2B2 A2B2 c4 e2 | 
+w:  Kör_ o la sı  ta vuk la rım   | 
+d4c2 B2A4e2 e4  | c2d2 c2B2 A2B2 c4 e2 | \
+w:  pek  fı kır dak  a man    |  Kör_ o la sı  ta vuk la rım   | 
+d4c2 B2A8-A2  | |
+
+
+X: 1078
+T: Hoş Gelişler Ola
+C: (Anonim)
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: rehavi--mars--ikizaksak--hos_gelisler--
+N: makam= rehavi
+N: form= mars
+N: usul= ikizaksak = 12/8
+M: 12/8
+L: 1/16
+K: C _1/4B ^f  
+Q: 1/4=216
+%%MIDI tuningsystem comma53
+d4 c2B2 A2G2 d4 c2B2 A2G2  | c2G2 c2z2 c2e2 c2e2 d2c2 B2A2  | 
+w:  BANDO  |   | 
+B4 B2d2 B2d2 c4 B2B2 A2G2  | A2G2 A2z2 A2c2 B4 A2A4G2  | \
+w:   |   | 
+G2B2 G2G2 A2F2 G2F2 G2A2 A2B2  | 
+w:   | 
+c2G2 c2z2 c2e2 c2e2 d2c2 B2A2  | B4 B2d2 B2d2 c4 B2B2 A2G2  | 
+w:   |   | 
+A2G2 A2z2 A2c2 B4 A2A4G2  | G2B2 A2G2 A2F2 G2F2 E2D6  | \
+w:   |   | 
+G4 G2B4A2 G2F2 G2A6  | 
+w:  Hoş  ge liş *  ler_ *  o la   | 
+G4 B2A2 B2A2 G2F2 E2D6  | G4 G2B4A2 G2F2 G2A6  | \
+w:  Mus ta fa  Ke *  mal  *  Pa şa    |  Hoş  ge liş *  ler_ *  o la   | 
+G4 B2A2 B2A2 G2F2 E2D6  | 
+w:  Mus ta fa  Ke *  mal  *  Pa şa    | 
+G2G2 G2B4A2 G2F2 G2A6  | G4 B2A2 B2A2 G2F2 E2D6  | \
+w:  *  As ke rin  *  mil *  le tin   |  bay ra ğın la  *  çok  *  ya şa    | 
+G2G2 G2B4A2 G2F2 G2A6  | 
+w:  *  As ke rin  *  mil *  le tin   | 
+G4 B2A2 B2A2 G2F2 E2D6  | d6d6 d6z6  | \
+w:  bay ra ğın la  *  çok  *  ya şa    |  Arş  arş  arş   | 
+d4 c2B4z2 d4 c2B4z2  | 
+w:  i le ri  i le ri   | 
+c6c4e2 d2e2 d2c2 B2A2  | B6B4d2 c2d2 c2B2 A2G2  | \
+w:  arş  i le ri  SAZ  |  marş  i le ri   SAZ  | 
+A6A4c2 B2c2 B2A4G2  | 
+w:  Dön mez  ge ri  SAZ  | 
+G4 B2A2 G2F2 G6z6  | c6c4e2 d2e2 d2c2 B2A2  | \
+w:  Tür kün  as *  ke ri    |  Sağ dan  so la  SAZ  | 
+B6B4d2 B2c2 B2B2 A2G2  | 
+w:  sol dan  sa ğa   SAZ  | 
+A4 A2A4c2 B2c2 B2A4G2  | G4 B2A2 G2F2 G6z6  | \
+w:  Al  da  bay ra ğı  SAZ  |  düş man  üs *  tü ne    | 
+d4 c2B2 A2G2 d4 c2B2 A2G2  | 
+w:  BANDO  | 
+c2G2 c2z2 c2e2 c2e2 d2c2 B2A2  | B4 B2d2 B2d2 c4 B2B2 A2G2  | 
+w:   |   | 
+A2G2 A2z2 A2c2 B4 A2A4G2  | G2B2 G2G2 A2F2 G2F2 G2A2 A2B2  | 
+w:   |   | 
+c2G2 c2z2 c2e2 c2e2 d2c2 B2A2  | B4 B2d2 B2d2 c4 B2B2 A2G2  | 
+w:   |   | 
+A2G2 A2z2 A2c2 B4 A2A4G2  | G2B2 A2G2 A2F2 G2F2 E2D6  | \
+w:   |   | 
+G4 G2B4A2 G2F2 G2A6  | 
+w:  Hoş  ge liş *  ler_ *  o la   | 
+G4 B2A2 B2A2 G2F2 E2D6  | G4 G2B4A2 G2F2 G2A6  | \
+w:  Mus ta fa  Ke *  mal  *  Pa şa    |  Hoş  ge liş *  ler_ *  o la   | 
+G4 B2A2 B2A2 G2F2 E2D6  | 
+w:  Mus ta fa  Ke *  mal  *  Pa şa    | 
+G2G2 G2B4A2 G2F2 G2A6  | G4 B2A2 B2A2 G2F2 E2D6  | \
+w:  *  As ke rin  *  mil *  le tin   |  bay ra ğın la  *  çok  *  ya şa    | 
+G2G2 G2B4A2 G2F2 G2A6  | 
+w:  *  As ke rin  *  mil *  le tin   | 
+G4 B2A2 B2A2 G2F2 E2D6  | d6d6 d6z6  | \
+w:  bay ra ğın la  *  çok  *  ya şa    |  Arş  arş  arş   | 
+d4 c2B4z2 d4 c2B4z2  | 
+w:  i le ri  i le ri   | 
+c6c4e2 d2e2 d2c2 B2A2  | B6B4d2 c2d2 c2B2 A2G2  | \
+w:  arş  i le ri  SAZ  |  marş  i le ri   SAZ  | 
+A6A4c2 B2c2 B2A4G2  | 
+w:  Dön mez  ge ri  SAZ  | 
+G4 B2A2 G2F2 G6z6  | c6c4e2 d2e2 d2c2 B2A2  | \
+w:  Tür kün  as *  ke ri    |  Sağ dan  so la  SAZ  | 
+B6B4d2 B2c2 B2B2 A2G2  | 
+w:  sol dan  sa ğa   SAZ  | 
+A4 A2A4c2 B2c2 B2A4G2  | G4 B2A2 G2F2 G6z6  | |
+
+
+X: 1079
+T: Hoşgeldin Elimize
+C: Sadettin Kaynak
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: mahur--sarki--duyek--hosgeldin_elimize--sadettin_kaynak
+N: makam= mahur
+N: form= sarki
+N: usul= duyek = 8/4
+M: 8/4
+L: 1/16
+K: C ^9/8f   
+Q: 1/4=120
+%%MIDI tuningsystem comma53
+z2 dg gd g2 gf ga b3/2a/ g2  | z2 dg gd g2 gf ga b3/2a/ b2  | 
+w:   |   | 
+z2 bc' c'b a2 d'4 g2 ab  | ba g2 fg fa ag f2 ef2e  | 
+w:   |   | 
+f2 g2 a2 fg ge d2 zB cd  | ef ga g2 gg fe dc BA GF  | 
+w:   |   | 
+G4 z2 g2 g2 a2 gf ef  | gg fe d2 g2 g2 a2 gf ef  | 
+w:   |   | 
+gg fe d2 g2 =f2 e2 dc BA  | Bc d2 AB c2 BA GF G2 GA  | 
+w:   |   | 
+AF G2 z2 g2 g2 a2 gf ef  | gg fe d2 g2 g2 a2 gf ef  | 
+w:   |   | 
+gg fe d2 g2 =f2 e2 dc BA  | Bc d2 AB c2 BA GF G2 GA  | 
+w:   |   | 
+AF G2 z2 g2 f2 a2 g6 fe de d2 ef e2 fg f2  | \
+w:   | 
+g2 a2 z2 c'2 b2 a2 gg fe  | 
+w:   | 
+dc BA G3g gf ef gz2g  | ga g2 z2 g2 f2 g2 a4  | 
+w:   |   | 
+gf ed d2 ag g=f fe ed dc  | =f4 z2 c2 c2 c2 Bc cB  | 
+w:   |   | 
+A4 A2 d6 ed ef  | g4 g2 gg fe dc BA GF  | \
+w:   |   | 
+G4 z2 g2 g2 a2 gf ef  | 
+w:   | 
+gg fe d2 g2 g2 a2 gf ef  | gg fe d2 g2 =f2 e2 dc BA  | 
+w:   |   | 
+Bc d2 AB c2 BA GF G2 GA  | AF G2 z2 g2 g2 a2 gf ef  | 
+w:   |   | 
+gg fe d2 g2 g2 a2 gf ef  | gg fe d2 g2 =f2 e2 dc BA  | 
+w:   |   | 
+Bc d2 AB c2 BA GF G2 GA  | AF G2 z2 g2 f2 a2 g6 fe de d2 ef e2 fg f2  | 
+w:   |   | 
+g2 a2 z2 c'2 b2 a2 gg fe  | dc BA G3g gf ef gz2g  | 
+w:   |   | 
+ga g2 z2 g2 f2 g2 a4  | gf ed d2 ag g=f fe ed dc  | 
+w:   |   | 
+=f4 z2 c2 c2 c2 Bc cB  | A4 A2 d6 ed ef  | \
+w:   |   | 
+g4 g2 gg fe dc BA GF  | 
+w:   | 
+G4 z2 g4 a2 b2 ag  | c'2 ba g2 gf e2 ef g3/2f/ ga  | \
+w:   |   | 
+b3/2a/ ba g2 g4 a2 b2 ag  | 
+w:   | 
+c'2 ba g2 gf e2 ef g3/2f/ ga  | b3/2a/ ba a2 g4 a2 a4  | 
+w:   |   | 
+a4 z2 a4 c'2 b2 a2  | g2 f2 e2 d2 g2 g2 g4  | \
+w:   |   | 
+g2 f2 e2 e4 f2 g8 g2 gg =fe dc BA GF  | 
+w:   | 
+G4 z2 g2 g2 a2 gf ef  | gg fe d2 g2 g2 a2 gf ef  | 
+w:   |   | 
+gg fe d2 g2 =f2 e2 dc BA  | Bc d2 AB c2 BA GF G2 GA  | 
+w:   |   | 
+AF G2 z2 g2 g2 a2 gf ef  | gg fe d2 g2 g2 a2 gf ef  | 
+w:   |   | 
+gg fe d2 g2 =f2 e2 dc BA  | Bc d2 AB c2 BA GF G2 GA  | 
+w:   |   | 
+AF G2 z2 g2 f2 a2 g6 fe de d2 ef e2 fg f2  | \
+w:   | 
+g2 a2 z2 c'2 b2 a2 gg fe  | 
+w:   | 
+dc BA G3g gf ef gz2g  | ga g2 z2 g2 f2 g2 a4  | 
+w:   |   | 
+gf ed d2 ag g=f fe ed dc  | =f4 z2 c2 c2 c2 Bc cB  | 
+w:   |   | 
+A4 A2 d6 ed ef  | g4 g2 gg fe dc BA GF  | \
+w:   |   | 
+G4 z2 g4 a2 b2 ag  | 
+w:   | 
+c'2 ba g2 gf e2 ef g3/2f/ ga  | b3/2a/ ba g2 g4 a2 b2 ag  | 
+w:   |   | 
+c'2 ba g2 gf e2 ef g3/2f/ ga  | b3/2a/ ba a2 g4 a2 a4  | 
+w:   |   | 
+a4 z2 a4 c'2 b2 a2  | g2 f2 e2 d2 g2 g2 g4  | \
+w:   |   | 
+g2 f2 e2 e4 f2 g8 g2 gg =fe dc BA GF  | 
+w:   | 
+G4 g8 g8 ^fg fg gf g2 ed3  | dB cd e2 Bc cA B2 GA2^F  | 
+w:   |   | 
+G4 g8 g8 ^f2 g2 fe ed d6 ^cd e2 de f2 ef g4  | \
+w:   | 
+g^f ga bc' ba d'4 zc' ba  | 
+w:   | 
+g4 ze dc BA G2 g8 g8 ^f2 g2  | ^fe ed d6 ^cd e2 de  | 
+w:   |   | 
+^f2 ef g4 gf ga bc' ba  | d'4 zc' ba g4 ze dc  | 
+w:   |   | 
+BA G2 b6 ag a^f3  | ^f2 z2 a6 fe fd3  | \
+w:   |   | 
+d2 z2 ze2^f g2 a2 b2 a2  | 
+w:   | 
+g3/2f/ ef g8 z2 g2  | g2 a2 gf ef gg fe d2 g2  | \
+w:   |   | 
+g2 a2 gf ef gg fe d2 g2  | 
+w:   | 
+=f2 e2 dc BA Bc d2 AB c2  | BA GF G2 GA AF G2 z2 g2  | 
+w:   |   | 
+g2 a2 gf ef gg fe d2 g2  | g2 a2 gf ef gg fe d2 g2  | 
+w:   |   | 
+=f2 e2 dc BA Bc d2 AB c2  | BA GF G2 GA AF G2 z2 g2  | 
+w:   |   | 
+f2 a2 g6 fe de d2  | ef e2 fg f2 g2 a2 z2 c'2  | \
+w:   |   | 
+b2 a2 gg fe dc BA G3g  | 
+w:   | 
+gf ef gz2g ga g2 z2 g2  | f2 g2 a4 gf ed d2 ag  | 
+w:   |   | 
+g=f fe ed dc f4 z2 c2  | c2 c2 Bc cB A4 A2 d6 ed ef g4 g2 gg  | 
+w:   |   | 
+fe dc BA GF G4 z2 g4 a2 b2 ag c'2 ba g2 gf  | 
+w:   | 
+e2 ef g3/2f/ ga b3/2a/ ba g2 g4 a2 b2 ag c'2 ba g2 gf  | 
+w:   | 
+e2 ef g3/2f/ ga b3/2a/ ba a2 g4 a2 a4 a4 z2 a4 c'2 b2 a2 g2 f2 e2 d2  | 
+w:   | 
+g2 g2 g4 g2 f2 e2 e4 f2 g8 g2 gg  | \
+w:   | 
+=fe dc BA GF G4 g8 g8 ^fg fg  | 
+w:   | 
+g^f g2 ed3 dB cd e2 Bc  | cA B2 GA2^F G4 g8 g8 ^f2 g2  | 
+w:   |   | 
+^fe ed d6 ^cd e2 de  | ^f2 ef g4 gf ga bc' ba  | 
+w:   |   | 
+d'4 zc' ba g4 ze dc  | BA G2 g8 g8 ^f2 g2 fe ed d6 ^cd e2 de f2 ef g4  | 
+w:   |   | 
+g^f ga bc' ba d'4 zc' ba  | g4 ze dc BA G2 b6 ag a^f3 f2 z2 a6 fe fd3 d2 z2 ze2f  | 
+w:   |   | 
+g2 a2 b2 a2 g3/2f/ ef g8 |
+w:   | 
+
+
+X: 1080
+T: Hub-sadâ Bir Güzel
+C: Muallim İsmail Hakkı Bey
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: zavil--sarki--semai--hub_sada--muallim_ismail_hakki_bey
+N: makam= zavil
+N: form= sarki
+N: usul= semai = 3/4
+M: 3/4
+L: 1/16
+K: C ^9/8f   
+Q: 1/4=120
+%%MIDI tuningsystem comma53
+g8 _b4  | a8 g4  | g8 g2^f2  | ^f8 z4  | a8 c'4  | \
+w:  Hub  sa  |  dâ   |  bir  gü  |  zel   |  yak tı   | 
+_b8 a4  | g6^f2 g4  | a8 z4  | g8 _b4  | a8 g4  | 
+w:  bu   |  gön *  lü  |  mü    |  Hub  sa  |  dâ   | 
+g8 g2^f2  | ^f8 z4  | a8 c'4  | _b8 a4  | g8 ^f4  | \
+w:  bir  gü  |  zel   |  yak tı   |  bu   |  gön lü  | 
+g8 z4  | g8 _b4  | a4 g4 ^f4  | ^f6_7/8e2 e2d2  | 
+w:  mü    |  Raks_ e  |  dip   |  nâz  i  | 
+g2^f2 _7/8e2d2 c4  | d8 ^f4  | _7/8e8 d4  | \
+w:  le   |  çal dı   |  bu   | 
+d6c2 c2_1/4B2  | c8 z4  | c8 e4  | d4 ^c4 _7/8B4  | \
+w:  gön *  lü  |  mü    |  Raks_ e  |  dip   | 
+A8 _B4  | 
+w:  nâz  i  | 
+d2^c2 _7/8B2A2 G4  | A8 c4  | _1/4B8 G4  | \
+w:  le   |  çal dı   |  bu   | 
+A8 ^F4  | G8 z4  | G4 g4 g4  | g4 ^f4 g4  | \
+w:  gön lü  |  mü    |  ARANAĞME  |   | 
+a2g2 ^f4 g4  | 
+w:   | 
+a8 z4  | g2a2 _b4 a4  | g4 ^f4 _7/8e4  | \
+w:   |   |   | 
+d2c2 d4 _7/8e4  | g2^f2 _7/8e2d2 c4  | \
+w:   |   | 
+c4 c4 e4  | 
+w:   | 
+d2e2 d4 c4  | _1/4B2c2 A4 c4  | _1/4B8 z4  | \
+w:   |   |   | 
+^c2e2 d4 c4  | _7/8B4 A4 B4  | d2^c2 _7/8B4 A4  | 
+w:   |   |   | 
+G8 z4  | G4 g4 g4  | g4 ^f4 g4  | a2g2 ^f4 g4  | \
+w:   |  ARANAĞME  |   |   | 
+a8 z4  | g2a2 _b4 a4  | g4 ^f4 _7/8e4  | 
+w:   |   |   | 
+d2c2 d4 _7/8e4  | g2^f2 _7/8e2d2 c4  | \
+w:   |   | 
+c4 c4 e4  | d2e2 d4 c4  | _1/4B2c2 A4 c4  | \
+w:   |   |   | 
+_1/4B8 z4  | 
+w:   | 
+^c2e2 d4 c4  | _7/8B4 A4 B4  | d2^c2 _7/8B4 A4  | \
+w:   |   |   | 
+G8 z4  | |
+
+
+X: 1081
+T: Humârı Yok Bozulmaz
+C: Hacı Ârif Bey
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: muhayyer--sarki--aksak--humari_yok--haci_arif_bey
+N: makam= muhayyer
+N: form= sarki
+N: usul= aksak = 9/8
+M: 9/8
+L: 1/16
+K: C _2/4B ^3/4f  
+Q: 1/4=156
+%%MIDI tuningsystem comma53
+g2g4a2 a4 a4 z2 | d'c' c'_1/4bb3aa4a2 c'2ba  | \
+w:  Hu mâ *  rı  yok   |  bo *  zul *  *  *  maz   | 
+g2^fe f2g2 a2_1/4b2 c'2ba g2 | 
+w:  *  *  *  mec lis_ i  *  mey  | 
+z2 a_1/4bc'2 d'2c'2 d'2c'4(3bab  | \
+w:  ha  | 
+_1/4b2c'd' c'2d'2 c'bba a6 | 
+w:  *  ne *  *  i  aş  | 
+g2 a4 g=fed cBA4z2  | g2g4a2 a4 a4 z2 | \
+w:  kın  *  SAZ  |  Hu mâ *  rı  yok   | 
+d'c' c'_1/4bb3aa4a2 c'2ba  | 
+w:  bo *  zul *  *  *  maz   | 
+g2^fe f2g2 a2_1/4b2 c'2ba g2 | z2 a_1/4bc'2 d'2c'2 d'2c'4(3bab  | 
+w:  *  *  *  mec lis_ i  *  mey  |  ha  | 
+_1/4b2c'd' c'2d'2 c'bba a6 | g2 a6de ^fga4z2  | \
+w:  *  ne *  *  i  aş  |  kın  *  SAZ  | 
+g2a6 c'2_1/4b2 c'ba4 | 
+w:  A yıl maz  *  haş  | 
+_ba g6g2 ag=fe d4  | d2=fe d2cB B3/2A/G2 c2d4 | \
+w:  re  *  dek  mes *  *  *  *  tâ  |  *  *  *  *  ne *  si  *  *  pey  | 
+d2 c4 BAB2 A_1/4Bc2 d2e2  | 
+w:  *  mâ  | 
+e2dc _1/4B2c2 c_2/4BBA A6 | G2 A4 ^fgag fga4z2  | \
+w:  *  ne_ *  *  i  aş  |  kın   *  SAZ  | 
+g2a6 c'2_1/4b2 c'ba4 | 
+w:  A yıl maz  *  haş  | 
+_ba g6g2 ag=fe d4  | d2=fe d2cB B3/2A/G2 c2d4 | \
+w:  re  *  dek  mes *  *  *  *  tâ  |  *  *  *  *  ne *  si  *  *  pey  | 
+d2 c4 BAB2 A_1/4Bc2 d2e2  | 
+w:  *  mâ  | 
+e2dc _1/4B2c2 c_2/4BBA A6 | G2 A4 d2^c2 e2d4z2  | \
+w:  *  ne_ *  *  i  aş  |  kın   *  SAZ  | 
+^c2d2 c2_7/8B2 cBBA A6 | 
+w:  Ha rîm_ *  *  i  *  *  *  Kâ  | 
+d^c _7/8BAB2 cdcB BAA4z2  | d2d4^c2 =B2{c}Bc d6 | \
+w:  be_ *  i  *  *  *  *  aş *  *  *  kı   |  ta vâf  *  ey  | 
+d2 e4 d2g2 ^fga4(3_1/4bab  | 
+w:  ler   | 
+g2g4d'2 c'2_1/4b2 d'c'b2 ba | a6 a_1/4bag ^fga4z2  | \
+w:  dil_ i  *  cib  |  ril   SAZ  | 
+g2a6 c'2_1/4b2 c'ba4 | 
+w:  A yıl maz  *  haş  | 
+_ba g6g2 ag=fe d4  | d2=fe d2cB B3/2A/G2 c2d4 | \
+w:  re  *  dek  mes *  *  *  *  tâ  |  *  *  *  *  ne *  si  *  *  pey  | 
+d2 c4 BAB2 A_1/4Bc2 d2e2  | 
+w:  *  mâ  | 
+e2dc _1/4B2c2 c_2/4BBA A6 | G2 A4 ^fgag fga4z2  | \
+w:  *  ne_ *  *  i  aş  |  kın   *  SAZ  | 
+g2a6 c'2_1/4b2 c'ba4 | 
+w:  A yıl maz  *  haş  | 
+_ba g6g2 ag=fe d4  | d2=fe d2cB B3/2A/G2 c2d4 | \
+w:  re  *  dek  mes *  *  *  *  tâ  |  *  *  *  *  ne *  si  *  *  pey  | 
+d2 c4 BAB2 A_1/4Bc2 d2e2  | 
+w:  *  mâ  | 
+e2dc _1/4B2c2 c_2/4BBA A6 | G2 A4 |
+w:  *  ne_ *  *  i  aş  |  kın    | 
+
+
+X: 1082
+T: Hâb-gâh-ı Yâre Girdim
+C: Giriftzen Asım Bey
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: rast--sarki--musemmen--hab-gahi--giriftzen_asim_bey
+N: makam= rast
+N: form= sarki
+N: usul= musemmen = 8/8
+M: 8/8
+L: 1/16
+K: C _1/4B ^f  
+Q: 1/4=132
+%%MIDI tuningsystem comma53
+B4 ABAG FEDE FGAB  | c4 A2B2 c2d4z2  | \
+w:  ARANAĞME  |   | 
+d4 c2B4g4a2  | 
+w:   | 
+f4 d2eg fed4z2  | d4 a2g2 =fed4e2  | \
+w:   |   | 
+c4 e2de dcB4z2  | 
+w:   | 
+G4 A2B2 c2e2 d2c2  | B4 Azdc BAG4z2  | \
+w:   |   | 
+B4 ABAG FEDE FGAB  | 
+w:  ARANAĞME  | 
+c4 A2B2 c2d4z2  | d4 c2B4g4a2  | f4 d2eg fed4z2  | \
+w:   |   |   | 
+d4 a2g2 =fed4e2  | 
+w:   | 
+c4 e2de dcB4z2  | G4 A2B2 c2e2 d2c2  | \
+w:   |   | 
+B4 Azdc BAG4z2  | 
+w:   | 
+G6G4B6  | d4 cBcd edd6  | c4 d2e2 d2g2 =f2e2  | \
+w:  Hâb- gâh_ ı   |  yâ re  *  gir *  *  *  dim   |  arz_ i çin  *  ah  | 
+d4 B2dc B^AB6  | 
+w:  va li mi    | 
+d4 cBdc BAG6  | G6G4B6  | d4 cBcd edd6  | \
+w:  SAZ  |  Hâb- gâh_ ı   |  yâ re  *  gir *  *  *  dim   | 
+c4 d2e2 d2g2 =f2e2  | 
+w:  arz_ i çin  *  ah  | 
+d4 B2dc B^AB6  | d4 cBdc B^AB6  | c4 d2e2 d2g2 =f2e2  | 
+w:  va li mi    |  SAZ  |  Bir  pe ri *  şan   | 
+d4 cBBA BAA6  | G4 A2B2 c2e2 d2c2  | \
+w:  ha li *  ni  *  *  *  gör  |  düm  u nut *  tum   | 
+B3A AGG4GA Bcd2  | 
+w:  ha *  li *  mi   SAZ  | 
+c4 d2e2 d2g2 =f2e2  | d4 cBBA BAA6  | \
+w:  Bir  pe ri *  şan   |  ha li *  ni  *  *  *  gör  | 
+G4 A2B2 c2e2 d2c2  | 
+w:  düm  u nut *  tum   | 
+B3A AGG4gf efg2  | gfef g2g4g6  | a4 gfag fed6  | 
+w:  ha *  li *  mi   SAZ  |  Sa *  *  *  ki ten  ic  |  ra  e *  der *  *  *  ken   | 
+e4 f2d4e2 f2g2  | b3a agg4ga bc'd'2  | \
+w:  dî de  eşk_ i   |  â *  li *  mi   SAZ  | 
+d'4 c'bd'c' bag6  | 
+w:   | 
+d4 e2f2 g2a2 g2=f2  | e4 edd2 edd6  | \
+w:  Leb le rin *  de   |  si ne *  sin *  *  de   | 
+c4 d2e2 d2g2 =f2e2  | 
+w:  giz le nen  *  â  | 
+d4 B2dc B^AB6  | d4 cBdc B^AB6  | c4 d2e2 d2g2 =f2e2  | 
+w:  mâ li mi    |  SAZ  |  Bir  pe ri *  şan   | 
+d4 cBBA BAA6  | G4 A2B2 c2e2 d2c2  | \
+w:  ha li *  ni  *  *  *  gör  |  düm  u nut *  tum   | 
+B3A AGG4GA Bcd2  | 
+w:  ha *  li *  mi   SAZ  | 
+c4 d2e2 d2g2 =f2e2  | d4 cBBA BAA6  | \
+w:  Bir  pe ri *  şan   |  ha li *  ni  *  *  *  gör  | 
+G4 A2B2 c2e2 d2c2  | 
+w:  düm  u nut *  tum   | 
+B3A AGG4GF EFG2  | |
+
+
+X: 1083
+T: Hâbîde Olan Tâlî-i Nâ-sâzım
+C: Udî Sami Bey
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: sultaniyegah--sarki--aksak--habide_olan--udi_sami_bey
+N: makam= sultaniyegah
+N: form= sarki
+N: usul= aksak = 9/8
+M: 9/8
+L: 1/16
+K: C _B ^c  
+Q: 1/4=126
+%%MIDI tuningsystem comma53
+d3/2c/de c2B2 A2G2 A2B2 c2 | d2 efag feed dcd4z2  | 
+w:  ARANAĞME  |   | 
+ef2f f2f2 fefg a6 | e4c4BA BcA4z2  | \
+w:   |   | 
+A=c2c c2c2 c=Bc_e dc_BA G2 | 
+w:   | 
+GB2BB2 B2BA Bd=cB AGF2  | FA2A A2A2 AGAB AGFE D2 | 
+w:   |   | 
+EF EFAG FEED DCD6  | d3/2c/de c2B2 A2G2 A2B2 c2 | 
+w:   |  ARANAĞME  | 
+d2 efag feed dcd4z2  | ef2f f2f2 fefg a6 | 
+w:   |   | 
+e4c4BA BcA4z2  | A=c2c c2c2 c=Bc_e dc_BA G2 | 
+w:   |   | 
+GB2BB2 B2BA Bd=cB AGF2  | FA2A A2A2 AGAB AGFE D2 | 
+w:   |   | 
+EF EFAG FEED DCD6  | A4 d3e fedc d4 ef | 
+w:   |  Hâ bî *  de  *  o *  lan   | 
+ed cBA2 efed dcd6  | e2ef g2fe efed cdef df | 
+w:  tâ *  *  *  li  i  *  nâ  |  sâ *  *  zım_ u *  yan  | 
+e6 efed cde4z2  | e3f g2a2 bagb a4 z2 | \
+w:  dı   SAZ  |  Et *  tik *  le *  *  ri ne   | 
+ag bagf affe dcd6  | 
+w:  şûh_ *  *  *  i  *  si *  tem  | 
+e2ef g2fe efed cdef ed | c2 d4 A2BA Bcd6  | 
+w:  kâ *  *  rım_ u *  tan  |  dı   *  SAZ  | 
+d3=c BAG2 FEFG A4 z2 | A3Bc2 d2c2 edd6  | \
+w:  Et *  tik *  *  le *  *  ri ne   |  şûh_ *  i  si tem  | 
+d3=c =BAG2 F2EF AGFE DC | 
+w:  kâ *  rım_ *  u tan  | 
+D6 abag fga6  | g3a a4 a2{c'}ba a4 z2 | \
+w:  dı   SAZ  |  At *  tı  ko *  lu *  nu   | 
+f3_7/8gg2 gff_1/4e def6  | 
+w:  boy *  nu ma  *  mes  | 
+a3g =c'2ba abag agfg ab | g2 a4 abag fga6  | 
+w:  tâ *  ne  u *  zan  |  dı   *  SAZ  | 
+=c'3b b3a a2{b}ag g2g_7/8a gf | g2 {_7/8a}ga=c'_1/4b aggf fef2 e2d2  | 
+w:  At *  tı  *  ko *  lu *  nu   |  boy *  *  *  nu *  ma  *  mes  | 
+d2de f2fe efed cdef df | e6 efed cde6  | 
+w:  tâ *  *  ne  u *  zan  |  dı   SAZ  | 
+e3f g2a2 bagb a4 z2 | ag bagf affe dcd6  | 
+w:  Et *  tik *  le *  *  ri ne   |  şûh_ *  *  *  i  *  si *  tem  | 
+e2ef g2fe efed cdef ed | c2 d4 A2BA Bcd6  | 
+w:  kâ *  *  rım_ u *  tan  |  dı   *  SAZ  | 
+d3=c BAG2 FEFG A4 z2 | A3Bc2 d2c2 edd6  | \
+w:  Et *  tik *  *  le *  *  ri ne   |  şûh_ *  i  si tem  | 
+d3=c =BAG2 F2EF AGFE DC | 
+w:  kâ *  rım_ *  u tan  | 
+D6 |
+w:  dı    | 
+
+
+X: 1084
+T: Hâfız`ın Kabri
+C: Münir Nurettin Selçuk
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: rast--sarki--senginsemai--hafizin_kabri--munir_nurettin_selcuk
+N: makam= rast
+N: form= sarki
+N: usul= senginsemai = 6/4
+M: 6/4
+L: 1/16
+K: C _1/4B ^f  
+Q: 1/4=63
+%%MIDI tuningsystem comma53
+G3G G4 G4 A3c B3A G4  | A3A A4 B4 G3/2F/EF G6z2  | \
+w:  ARANAĞME  |   | 
+G3G G4 G4 A3c B3A G4  | 
+w:  ARANAĞME  | 
+A3A A4 B4 G3/2F/EF G6z2  | G3G G4 z4 G2G2 G6z2  | \
+w:   |   | 
+G3G G4 G4 A2BA AGGF G4  | 
+w:  Hâ fı zın kab ri o *  lan *  *  *  bah  | 
+A2c2 B2A2 G2F2 FEEF G6z2  | G2B2 B4 B4 A2B2 c2cB B4  | 
+w:  çe de bir *  gül *  var *  *  *  mış  |  Ye ni den her gün_ a çar *  *  mış  | 
+B2d2 c3B B3A AGGA B6z2  | G2d2 d4 d4 c2=f2 e3d d3c  | 
+w:  ka na yan *  ren *  giy *  *  *  le  |  Ge ce bül bül a ğa ran *  vak  | 
+c2cB B3A A3G G2{f}ed d4 z4  | c2e2 e3d {c}c4 B2d2 d3c {B}B3A  | 
+w:  te ka *  dar *  ağ *  lar *  *  *  mış  |  Es ki Şi *  *  râ zı ha yâl_ *  *  et  | 
+A2c2 c2B2 B2A2 AG{B}AG G6z2  | c2e2 e3d {c}c2z2 B2d2 d3c {B}B3A  | 
+w:  ti ren â *  hen *  giy *  *  *  *  le  |  SAZ  | 
+A2c2 c3B B3A AG{B}AG G4 d4  | G2d2 d4 d4 e2{g}=fe edd^c d4  | 
+w:   |  Ö lüm â sû de *  ba *  har *  *  *  ül  | 
+e2g2 =f3e d3^c =B3c d6z2  | d2f2 f4 f3e e2f2 g2fg a3g  | 
+w:  ke si dir *  bir *  rin *  de  |  Gön lü her yer *  de bu hur *  *  dan  | 
+f2d2 e2g2 =f2e2 d3/2^c/=Bc d6z2  | \
+w:  gi bi yıl *  lar *  ca *  tü *  ter  | 
+z4 e2g2 =f2e2 d^c=Bc d6z2  | 
+w:  SAZ  | 
+d2ef g4 g4 g2c'2 c'3b b3a  | a2ag g3f f2e2 agfe d6z2  | 
+w:  Ve se *  rin sel vi ler al *  tın  |  da ka *  lan *  kab *  rin *  *  de  ah    | 
+c3d e4 e3d =f2ed d6z2  | c4 c2c2 c2B2 c2B2 c2B2 c2B2  | 
+w:  Her se her bir *  gül_ a *  çar  |  her ge ce bir *  bül  | 
+=f6ed d3c c2cB B6z2  | G2B2 B4 B4 G2B2 B4 B4  | \
+w:  *  *  *  *  *  bül_ ö *  ter    |  SAZ  | 
+B2=f2 e3d d3c c2{d}cB B6z2  | 
+w:   | 
+c2e2 e3d c2z2 B2d2 d3c B4  | A2c2 c3B B3A A2{c}BA A4 z4  | 
+w:  Ve *  se rin sel vi ler_ al *  tın  |  da ka lan *  kab *  rin *  *  *  de  | 
+G3A A4 A3G c2BA A8  | z4 c2BA A6z2 G3A A2A2  | \
+w:  Her se her bir *  gül a *  çar  |  SAZ *  *  *  her *  ge ce  | 
+A2c2 B2A2 G3F E2F2 G6z2  | 
+w:  bir *  *  *  bül *  bül_ ö ter  | 
+G3A A2A2 A2c2 B2A2 G3F E2F2  | G16 z8  | |
+
+
+X: 1085
+T: Hâk Hâk Diyen Âşıklar
+C: ?
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz-humayun--ilahi--turkmen--hak_hak--
+N: makam= hicaz-humayun
+N: form= ilahi
+N: usul= turkmen = 18/8
+M: 18/8
+L: 1/16
+K: C _7/8B ^c  
+Q: 1/4=192
+%%MIDI tuningsystem comma53
+A4 d4 B2d2 c6B2 e2d2 c2B2 A6G2  | \
+w:  Hâk  hâk  di *  yen  *  â *  şık *  lar    | 
+A4 d4 B2d2 c6B2 e2d2 c2B2 A6G2  | 
+w:  Hâk  hâk  di *  yen  *  â *  şık *  lar    | 
+z16  | A4A2B2c2B2A2G2  | A2BcB2A2A4z4  | \
+w:  |  Ci ğer *  le *  ri   |  ya *  *  nık *  lar    | 
+A4A2B2c2B2A2G2  | 
+w:  Ci ğer *  le *  ri   | 
+A2BcB2A2A4z4  | z36  | A4 d4 B2d2 c6A2 e2d2 c2B2 A6G2  | \
+w:  ya *  *  nık *  lar    |  |  Se her de  *  u *  ya *  nık *  lar    | 
+A4 d4 B2d2 c6A2 e2d2 c2B2 A6G2  | 
+w:  Se her de  *  u *  ya *  nık *  lar    | 
+z16  | G4A2B2c2B2A2G2  | A2BcB2A2A4z4  | \
+w:  |  Nak şî *  ben *  dî  |  ler *  *  dir  *  bu    | 
+G4A2B2c2B2A2G2  | 
+w:  Lâ i *  lâ *  he   | 
+A2BcB2A2A4z4  | |
+
+
+X: 1086
+T: Hâl-i Dilimi Şerhedemem
+C: Şekerci Cemil Bey
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: suzinak-zirgule--sarki--senginsemai--hal-i_dilimi--sekerci_cemil_bey
+N: makam= suzinak-zirgule
+N: form= sarki
+N: usul= senginsemai = 6/4
+M: 6/4
+L: 1/16
+K: C _1/4B _7/8e _7/8A ^f
+Q: 1/4=72
+%%MIDI tuningsystem comma53
+d3/2c/dB G4 e2{f}e{f}d c3/2B/cd e3/2d/ef efed  | \
+w:  ARANAĞME  | 
+z=aga _bc'ag f3/2g/fg feed d4 (3ABc(3def  | 
+w:   | 
+g3/2f/gf e3/2d/ed c2d2 e2g2 {g}f2e2 d2c2  | \
+w:   | 
+{d}B3e d2c2 {d}B3A (3cBAAG G8  | 
+w:   | 
+d3/2c/dB G4 e2{f}e{f}d c3/2B/cd e3/2d/ef efed  | \
+w:  ARANAĞME  | 
+z=aga _bc'ag f3/2g/fg feed d4 (3ABc(3def  | 
+w:   | 
+g3/2f/gf e3/2d/ed c2d2 e2g2 {g}f2e2 d2c2  | \
+w:   | 
+{d}B3e d2c2 {d}B3A (3cBAAG G8  | 
+w:   | 
+G3/2A/GA B2c2 d2cB f2ed d2cd e2dc  | \
+w:  Hâl_ *  *  *  i  *  di *  *  li *  *  mi   | 
+B2c4cB B3/2c/BA BAAG G3.A .B.cd2  | 
+w:  şerh_ *  *  *  e *  *  *  de *  *  *  mem  SAZ  | 
+B4 d4 c4 e4 edef e2d2  | =a3/2_b/ag g3/2a/gf f3/2g/fe (3gfeed d3e dBcA  | 
+w:  ki  |  kim *  *  *  se *  *  *  ye  *  *  *  ey *  *  *  *  vah   SAZ  | 
+.GG2A B2c2 d2cB f2ed d3/2e/dc BAG2  | \
+w:  SAZ  | 
+G3/2A/GA B2c2 d2cB f2ed d2cd e2dc  | 
+w:  Hâl_ *  *  *  i  *  di *  *  li *  *  mi   | 
+B2c4cB B3/2c/BA BAAG G3.A .B.cd2  | \
+w:  şerh_ *  *  *  e *  *  *  de *  *  *  mem  SAZ  | 
+B4 d4 c4 e4 edef e2d2  | 
+w:  ki  | 
+=a3/2_b/ag g3/2a/gf f3/2g/fe (3gfeed d3e dBcA  | 
+w:  kim *  *  *  se *  *  *  ye  *  *  *  ey *  *  *  *  vah   SAZ  | 
+.GG2A B2c2 d2cB dfed .d.G.A.B .c.d.e.f  | \
+w:  SAZ  | 
+g3d d4 dedc B4 Bcde f2ed  | 
+w:  Bir  *  ben  bi *  *  *  li rim   | 
+z2e4ed d3/2e/dc c4 cBce dcBA  | G6z2 d3/2e/dc fedc B2BA (3cBAAG  | 
+w:  çek *  *  ti *  *  *  ği mi   |  bir  da *  *  *  hî  *  *  *  Al  | 
+G3A B2c2 d2cB f2ed .d.G.A.B .c.d.e.f  | \
+w:  lah   SAZ  | 
+g3d d4 dedc B4 Bcde f2ed  | 
+w:  Bir  *  ben  bi *  *  *  li rim   | 
+z2e4ed d3/2e/dc c4 cBce dcBA  | G6z2 d3/2e/dc fedc B2BA (3cBAAG  | 
+w:  çek *  *  ti *  *  *  ği mi   |  bir  da *  *  *  hî  *  *  *  Al  | 
+G4 G/A/B/c/d/e/f/g/ g3=f _2/4e3/2d/ef g3=a fed2  | \
+w:  lah   SAZ  | 
+=f2fg g4 =agf2 g2a2 g2a4gf  | 
+w:  Vus *  *  lat  sö *  *  zü *  nü   | 
+_2/4e=fgf g2fe e3d f2ed d4 ede2  | \
+w:  yâd_ *  *  *  *  *  *  e *  de *  *  rim   | 
+c4 _2/4e4 d4 =f4 e2gf e3/2d/c2  | 
+w:  de  | 
+=a3/2_b/ag g3/2a/gf =f3/2g/fe (3g^feed d4 e/g/f/e/d/c/B/A/  | 
+w:  dem  *  *  *  be  *  *  *  dem  *  *  *  ey *  *  *  *  vah   SAZ  | 
+.GG2A B2c2 d2cB dfed .d.G.A.B .c.d.e.f  | \
+w:   | 
+g3d d4 dedc B4 Bcde f2ed  | 
+w:  Bir  *  ben  bi *  *  *  li rim   | 
+z2e4ed d3/2e/dc c4 cBce dcBA  | G6z2 d3/2e/dc fedc B2BA (3cBAAG  | 
+w:  çek *  *  ti *  *  *  ği mi   |  bir  da *  *  *  hî  *  *  *  Al  | 
+G3A B2c2 d2cB f2ed .d.G.A.B .c.d.e.f  | \
+w:  lah   SAZ  | 
+g3d d4 dedc B4 Bcde f2ed  | 
+w:  Bir  *  ben  bi *  *  *  li rim   | 
+z2e4ed d3/2e/dc c4 cBce dcBA  | G6z2 d3/2e/dc fedc B2BA (3cBAAG  | 
+w:  çek *  *  ti *  *  *  ği mi   |  bir  da *  *  *  hî  *  *  *  Al  | 
+G4 |
+w:  lah    | 
+
+
+X: 1087
+T: Hâl-i Dîl-i Zârımı Duysa Cihân
+C: Hacı Ârif Bey
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: huzzam--sarki--senginsemai--hal-i_dil-i--haci_arif_bey
+N: makam= huzzam
+N: form= sarki
+N: usul= senginsemai = 6/4
+M: 6/4
+L: 1/16
+K: C _1/4B _3/4e ^3/4f 
+Q: 1/4=84
+%%MIDI tuningsystem comma53
+c8 d4 d4 d8  | d8 e4 d2c2 B8  | d2e2 g2f2 e2d2 e2d2 e4 d2c2  | \
+w:  Hâl_ i  dîl_ i   |  zâ rı mı  *  duy  |  sa  *  *  *  ci *  hân    | 
+d8 e4 d2c2 B8  | 
+w:  Hâl_ i  dîl_ *  i   | 
+c8 d4 e2d2 a2g2 g2f2  | f2g2 f2e2 e2d2 d8 z4  | \
+w:  zâ rı mı  *  duy  |  sa  *  *  *  ci *  hân    | 
+d8 a2g2 g2f2 g8  | 
+w:  Rahm_ e *  dip  *  ağ  | 
+g2a2 g2f2 f2e2 e2d2 e3d c4  | d2e2 g2f2 e2d2 e2d2 e2f2 e2d2  | 
+w:  lar  *  *  *  ba *  na  *  hep   |  â *  *  *  şı *  kan    | 
+d8 e4 d2c2 B8  | c8 d4 e2d2 f4 e2d2  | \
+w:  Rahm_ e dip  *  ağ  |  lar  ba na  *  hep   | 
+d2e2 d2c2 c2B2 B8 z4  | B8 g4 g2f2 g8  | 
+w:  â *  *  *  şı *  kan    |  Ol ma da  *  gün  | 
+g8 a2c'2 _b2a2 a2b2 a2g2  | g2f2 =e4 f4 g8 z4  | \
+w:  den  gü *  ne  *  hâ  |  lim  *  *  ya man    | 
+a2_b2 a2g2 g4 g4 g2a2 g2f2  | 
+w:  Ol *  *  *  ma da  gün  | 
+f2g2 f2e2 e4 e2d2 g2f2 {a}g2f2  | \
+w:  den  *  *  *  gü ne  *  hâ  | 
+f2g2 f2e2 e2d2 d8 z4  | d8 a2g2 g2f2 g8  | 
+w:  lim  *  *  *  ya *  man    |  Rahm_ e *  dip  *  ağ  | 
+g2a2 g2f2 f2e2 e2d2 e3d c4  | d2e2 g2f2 e2d2 e2d2 e2f2 e2d2  | 
+w:  lar  *  *  *  ba *  na  *  hep   |  â *  *  *  şı *  kan    | 
+d8 e4 d2c2 B8  | c8 d4 e2d2 f4 e2d2  | \
+w:  Rahm_ e dip  *  ağ  |  lar  ba na  *  hep   | 
+d2e2 d2c2 c2B2 B8 z4  | |
+
+
+X: 1088
+T: Hâl-i Nez`imde Acırsın
+C: Şevki Bey
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: hicaz--sarki--agiraksak--hali_nezimde--sevki_bey
+N: makam= hicaz
+N: form= sarki
+N: usul= agiraksak = 9/4
+M: 9/4
+L: 1/16
+K: C _7/8B ^f ^c 
+Q: 1/4=69
+%%MIDI tuningsystem comma53
+z8 z2c4d2 c2B2 {c}B2A2 A12  | A2BA GFG2 G2e2 d2dc c3B cBBA A8 B2c2  | 
+w:  Ha li  nez *  *  *  *  im  |  *  *  *  *  *  *  *  de  *  a *  cır *  *  *  *  *  sın   SAZ  | 
+A8 z2d2 c2d2 e8 A3B c2d2 e2f2  | g2{a}g2 =f2e2 d2f2 e2d2 c2d2 e2{f}ed d6ef eddc  | 
+w:  *  Sev *  di ğim  din  |  *  *  *  *  *  *  le  *  *  *  *  *  *  be *  ni   SAZ  | 
+d8 z2d4=f2 e3d =c4 d2e2 f2g2 f2e2  | \
+w:  *  A  be nim  *  *  rû  | 
+a2g2 =f2e2 d2d4d2 c2d2 efed d6c2 f2ed  | 
+w:  *  *  *  *  *  hi  re va *  *  *  *  *  nım   SAZ  | 
+d8 z4 c2d2 c2B2 {c}B2A2 A8 B4  | B2c4BA A2B4G2 A8 e2=fg fed2 e2c2  | 
+w:  *  Se ven  öl *  *  *  *  sün   |  *  mü  *  *  *  *  se ni   SAZ  | 
+d8 z2d4=f2 e3d =c4 d2e2 f2g2 f2e2  | \
+w:  *  A  be nim  *  *  rû  | 
+a2g2 =f2e2 d2d4d2 c2d2 efed d6c2 f2ed  | 
+w:  *  *  *  *  *  hi  re va *  *  *  *  *  nım   SAZ  | 
+d8 z4 c2d2 c2B2 {c}B2A2 A8 B4  | B2c4BA A2B4G2 A8 a6g2 f2g2  | 
+w:  *  Se ven  öl *  *  *  *  sün   |  *  mü  *  *  *  *  se ni   SAZ  | 
+a8 z2g4a2 a8 a2{=b}ag g8  | g2{a}gf f^ef2 f2a4=c'2 =b2a2 g2f2 g2f=e e4 f2g2  | 
+w:  *  Fir kat  ol maz  |  *  *  *  *  *  *  *  *  sa  di riğ  *  *  *  ey  | 
+e8 e2d2 c2d2 e8 A3B c2d2 e2f2  | g2{a}g2 =f2e2 d2f2 e2d2 c2d2 e2{f}ed d6ef eddc  | 
+w:  *  *  le *  me zem  ca  |  *  *  *  *  *  *  nü  *  *  *  *  *  *  te *  ni   SAZ  | 
+d8 z2d4=f2 e3d =c4 d2e2 f2g2 f2e2  | \
+w:  *  A  be nim  *  *  rû  | 
+a2g2 =f2e2 d2d4d2 c2d2 efed d6c2 f2ed  | 
+w:  *  *  *  *  *  hi  re va *  *  *  *  *  nım   SAZ  | 
+d8 z4 c2d2 c2B2 {c}B2A2 A8 B4  | B2c4BA A2B4G2 A8 e2=fg fed2 e2c2  | 
+w:  *  Se ven  öl *  *  *  *  sün   |  *  mü  *  *  *  *  se ni   SAZ  | 
+d8 z2d4=f2 e3d =c4 d2e2 f2g2 f2e2  | \
+w:  *  A  be nim  *  *  rû  | 
+a2g2 =f2e2 d2d4d2 c2d2 efed d6c2 f2ed  | 
+w:  *  *  *  *  *  hi  re va *  *  *  *  *  nım   SAZ  | 
+d8 z4 c2d2 c2B2 {c}B2A2 A8 B4  | B2c4BA A2B4G2 A8 |
+w:  *  Se ven  öl *  *  *  *  sün   |  *  mü  *  *  *  *  se ni    | 
+
+
+X: 1089
+T: Hâl-i Ruhsârına...
+C: Küçük Mehmed Ağa
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: dilkeshaveran--agirsemai--agir_aksaksemai--hal-i_ruhsarina--kucuk_mehmet_aga
+N: makam= dilkeshaveran
+N: form= agirsemai
+N: usul= agir_aksaksemai = 10/4
+M: 10/4
+L: 1/16
+K: C _2/4B ^3/4f  
+Q: 1/4=75
+%%MIDI tuningsystem comma53
+d2e8-e2 e2=f2 e2d2 edcd c2d2 e8 z4  | \
+w:  Ah  *  *  *  *  *  hâl_ *  *  *  *  i  ruh  | 
+g3=f f3e e3d d2e2 d2c2 _3/4e2d2 c2_1/4B2 B2c2 B2A2 A4  | 
+w:  sâ *  *  *  *  *  *  *  *  *  rı *  na  *  necm_  | 
+z4 A2_1/4B2 c4 d2e4d2 edcd c2de d2e6 z4  | \
+w:  i  *  *  *  *  *  se *  *  *  *  her  *  ül  | 
+g8 g2^f2 g2a2 g2f2 g4 a2_1/4b2 a2g2 f2e2 e2ba  | 
+w:  ker  *  *  *  *  *  *  mi  de *  sem   | 
+a_1/4ba2 g2^f2 e6=f2 e3d eddc d2e2 e8 z4  | \
+w:  vay  *  *  *  *  *  *  *  *  *  *  *  *  câ nân_ ey    | 
+d2e8-e2 e2=f2 e2d2 edcd c2d2 e8 z4  | 
+w:  Ah  *  *  *  *  *  ger *  *  *  *  den_ i   | 
+g3=f f3e e3d d2e2 d2c2 _3/4e2d2 c2_1/4B2 B2c2 B2A2 A4  | \
+w:  sâ *  *  *  *  *  *  *  *  *  fı *  na  *  nûr_  | 
+z4 ^F2G2 A2_1/4B2 d2c4B2 B2A4G2 A2G4GF F4  | 
+w:  i  *  *  *  *  meh_ *  i  *  *  en  | 
+c2_1/4B2 c2d2 c2d2 c2d2 c2B2 A2G2 A2B2 A2G2 G2^F2 c2BA  | 
+w:  ver  *  *  *  *  *  *  *  *  *  *  *  mi  de sem   | 
+A2G4G^F F8 z8 z2c_3/4d c_1/4BAB c4 z4  | z24  | \
+w:  vay   *  *  *  *  SAZ  |  | 
+c4c4_3/4d4 c2_1/4B2c4z4  | 
+w:  Â râ yîş_ i  *  bezm_  | 
+e2=f2e2f2d4 a4g2f2e2_3/4d2  | c3_3/4de3dd3c c2_1/4B2e4d2c2  | 
+w:  i  *  *  *  tâ râ bın   |  gel *  *  *  di  *  za *  ma  | 
+_1/4B4c12z8  | d4e4e4 e2d2a2g2=f2e2  | \
+w:  nı    |  Vakt_ i  fe râ *  hın   | 
+e3dd3cc3_1/4B B3AA4z4  | 
+w:  ol *  *  *  du  *  be *  dî  | 
+^F3GA2_1/4B2d3c c3BB2A4G2  | AG^F^EF8 z4^c4d4  | \
+w:  dâr_ *  *  *  ı  *  ni *  şâ  |  nı   *  *  *  *  Ah   | 
+d4d4d4 d4d2^c2_7/8BAB2  | 
+w:  teb dîl_ i  ma kam   | 
+^c6_7/8B2e2d2 c2B2A4z4  | a2g2=f2e2e2d2 d2^c2c3_7/8Be2dc  | 
+w:  ey *  le *  ye *  lim   |  semt_ *  *  *  i  *  Bo *  ğa  | 
+_7/8B4^c12z8  | d4e4e4 e2d2a2g2=f2e2  | \
+w:  za    |  Pür  zevk_ e de *  lim   | 
+e3dd3cc3_1/4B B3AA4z4  | 
+w:  tâ  *  *  *  be  *  gül_ *  ü   | 
+G3A_1/4B4d3c c3BB2A4G2  | AG^F^EF8 z4z8  | z40  | \
+w:  cism_ *  *  i *  le  *  câ  |  nı    |  | 
+d2e8-e2 e2=f2 e2d2 edcd c2d2 e8 z4  | 
+w:  Ah  *  *  *  *  *  ger *  *  *  *  den_ i   | 
+g3=f f3e e3d d2e2 d2c2 _3/4e2d2 c2_1/4B2 B2c2 B2A2 A4  | \
+w:  sâ *  *  *  *  *  *  *  *  *  fı *  na  *  nûr_  | 
+z4 ^F2G2 A2_1/4B2 d2c4B2 B2A4G2 A2G4GF F4  | 
+w:  i  *  *  *  *  meh_ *  i  *  *  en  | 
+c2_1/4B2 c2d2 c2d2 c2d2 c2B2 A2G2 A2B2 A2G2 G2^F2 c2BA  | 
+w:  ver  *  *  *  *  *  *  *  *  *  *  *  mi  de sem   | 
+A2G4G^F F8 z8 g4 ^f2^e2 f4 z4  | ^f18^e2 a2g2 g2f2 f2e2 f4 z4  | 
+w:  vay  *  *  *  *  gel  câ *  nım    |  Ah  *  bu *  la *  mam   | 
+e2^f2 e2f2 g2f2 _1/4b2a4b2 a2g2 g2f2 g2f2 e2d2 e4  | \
+w:  tavr_ *  *  *  *  *  *  *  *  ı  *  pe *  rî  | 
+z4 c2d2 c2_1/4B2 g2=f2 e2d2 d2cd c2B2 c3B A4 z4  | 
+w:  şâ *  *  *  *  *  *  *  nı *  *  na  *  tâ  | 
+g8 g2^f2 g2a2 g2f2 g4 a2_1/4b2 a2g2 f2e2 e2ba  | \
+w:  bir_ *  *  *  *  *  *  i  se *  zâ    | 
+a_1/4ba2 g2^f2 e4 e2=f2 e2d2 edcd c2de e2e4e2 z4  | 
+w:  Şûh_ *  *  *  *  *  i  *  *  *  sev  | 
+g3=f f3e e3d d2e2 d2c2 _3/4e2d2 c2_1/4B2 B2c2 B2A2 A4  | \
+w:  dâ *  *  *  *  *  *  *  *  *  yı  *  mı  *  yok  | 
+z4 ^F2G2 A2=B2 d2c4_1/4B2 B2A4G2 A2G4GF F4  | 
+w:  sa  *  *  *  *  *  *  dây_ *  ı  dil  | 
+c2_1/4B2 c2d2 c2d2 c2d2 c2B2 A2G2 A2B2 A2G2 G2^F2 F4  | z24  | \
+w:  ber  *  *  *  *  *  *  *  *  *  *  *  mi  de sem   |  | 
+A2G2GAG^FF8z8  | 
+w:  vay    | 
+z40  | c4 c4 _3/4d4 c2_1/4B2 c4 z4 e2=f2 e2f2 =d4 a4  | \
+w:  |  Â râ yîş_ i  *  bezm_ i  *  *  *  tâ râ  | 
+g2=f2 e2_3/4d2 c3d e3d d3c c2_1/4B2 e4 d2c2 B4 c4  | 
+w:  bın  *  *  *  gel *  *  *  di  *  za *  ma *  *  nı    | 
+c8 z8 d4 e4 e4 e2d2 a2g2 =f2e2  | \
+w:  *  Vakt_ i  fe râ *  hın   | 
+e3d d3c c3_1/4B B3A A4 z4 ^F3G A2B2 d3c c3B  | 
+w:  ol *  *  *  du  *  be *  dî dâr_ *  *  *  ı  *  ni  | 
+_1/4B2A4G2 AG^F^E F8 z4 ^c4 d4 d4 d4  | \
+w:  şâ *  *  nı   *  *  *  *  Ah  *  teb dîl_  | 
+d4 d4 d2^c2 _7/8BAB2 c6B2 e2d2 c2B2 A4 z4  | 
+w:  i  ma kam  *  *  *  *  ey *  le *  ye *  lim   | 
+a2g2 =f2e2 e2d2 d2^c2 c3_7/8B e2dc B4 c12  | \
+w:  semt_ *  *  *  i  *  Bo *  ğa *  *  *  *  za    | 
+z8 d4 e4 e4 e2d2 a2g2 =f2e2 e3d d3c  | 
+w:  Pür  zevk_ e de *  lim  *  *  *  tâ   | 
+c3_1/4B B3A A4 z4 G3A B4 d3c c3B B2A4G2  | \
+w:  be  *  gül_ *  ü  cism_ *  *  i *  le  *  câ  | 
+AG^F^E F8 z4 z8 |
+w:  nı    | 
+
+
+X: 1090
+T: Hâlâ Acıyor...
+C: Şerif İçli
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: ussak--sarki--turkaksagi--hala_aciyor--serif_icli
+N: makam= ussak
+N: form= sarki
+N: usul= turkaksagi = 5/8
+M: 5/8
+L: 1/16
+K: C _2/4B   
+Q: 1/4=120
+%%MIDI tuningsystem comma53
+G3A A4 Gd | cB BAA4z2  | ABAG ABcd ef | 
+w:  Hâ *  lâ   |  a *  cı *  yor   |  göz  | 
+ed dcd4z2  | dcBd c4 df | ed cBA6  | A2g2 f2e2 ed | 
+w:  le *  ri *  nin   |  yak  |   |  tı ğı  yer  | 
+d4c2 B2A2  | G3A A4 Gd | cB BAA4z2  | ABAG ABcd ef | 
+w:  ler   SAZ  |  Hâ *  lâ   |  a *  cı *  yor   |  göz  | 
+ed dcd4z2  | dcBd c4 df | ed cBA6  | A2g2 f2e2 ed | 
+w:  le *  ri *  nin   |  yak  |   |  tı ğı  yer  | 
+d4GA Bcd2  | dced d4 c/B/A/B/ | c2 d2de cBAG  | 
+w:  ler   SAZ  |  İn *  *  *  cit  |  me  ga ri  | 
+A3B cd_7/8e^f dc | cB BAA4z2  | gg/^f/ga g=fed cB | 
+w:  bim   |  be *  ni  *  bir   |  söz  | 
+ff/e/ fged cBAG  | dfed c2B2 BA | A4GA Bcd2  | 
+w:   |  le  *  se *  vin  |  dir   SAZ  | 
+dced d4 c/B/A/B/ | c2 d2de cBAG  | A3B cd_7/8e^f dc | 
+w:  İn *  *  *  cit  |  me  ga ri  |  bim   | 
+cB BAA4z2  | gg/^f/ga g=fed cB | ff/e/ fged cBAG  | 
+w:  be *  ni  *  bir   |  söz  |   | 
+dfed c2B2 BA | A4de ^fga2  | g3a a4 a_b | \
+w:  le  *  se *  vin  |  dir   SAZ  |  Aş *  kın   | 
+ag ^fga6  | 
+w:  ba *  na  *  rû  | 
+g3a _bc'_2/4ba ga | ^f_7/8e edd6  | dcBd c4 df | \
+w:  yâ  |  sı *  nı  *  gös  |  ter  | 
+ed cBA6  | 
+w:   | 
+A2g2 f2e2 ed | d4de ^fga2  | g3a a4 a_b | \
+w:  di  o  göz  |  ler   SAZ  |  Aş *  kın   | 
+ag ^fga6  | 
+w:  ba *  na  *  rû  | 
+g3a _bc'_2/4ba ga | ^f_7/8e edd6  | dcBd c4 df | \
+w:  yâ  |  sı *  nı  *  gös  |  ter  | 
+ed cBA6  | 
+w:   | 
+A2g2 f2e2 ed | d4GA Bcd2  | dced d4 c/B/A/B/ | 
+w:  di  o  göz  |  ler   SAZ  |  İn *  *  *  cit  | 
+c2 d2de cBAG  | A3B cd_7/8e^f dc | cB BAA4z2  | 
+w:  me  ga ri  |  bim   |  be *  ni  *  bir   | 
+gg/^f/ga g=fed cB | ff/e/ fged cBAG  | 
+w:  söz  |   | 
+dfed c2B2 BA | A4GA Bcd2  | dced d4 c/B/A/B/ | 
+w:  le  *  se *  vin  |  dir   SAZ  |  İn *  *  *  cit  | 
+c2 d2de cBAG  | A3B cd_7/8e^f dc | cB BAA4z2  | 
+w:  me  ga ri  |  bim   |  be *  ni  *  bir   | 
+gg/^f/ga g=fed cB | ff/e/ fged cBAG  | 
+w:  söz  |   | 
+dfed c2B2 BA | A4|
+w:  le  *  se *  vin  |  dir    | 
+
+
+X: 1091
+T: Hâlâ Gönlüm
+C: Tanburî Mustafa Çavuş
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: muhayyer--sarki--aksak--hala_gonlum--tanburi_mustafa_cavus
+N: makam= muhayyer
+N: form= sarki
+N: usul= aksak = 9/8
+M: 9/8
+L: 1/16
+K: C _2/4B ^3/4f  
+Q: 1/4=60
+%%MIDI tuningsystem comma53
+a2g4a2g2^f2e4 | ^f2d2z2f2g2a2_1/4b2c'4bag2z2g2a2g2f2 | 
+w:   |   | 
+g6c'4_1/4b2a2g4d'4d'c'd'e'c'2b2bc' | \
+w:   | 
+_1/4baa3g^fga2g4a2  | 
+w:   | 
+g2^f2e4f2d2z2f2 | g2a2_1/4b2c'4bag2z2  | \
+w:   |   | 
+g2a2g2^f2g6c'4_1/4b2a2g4d'4d'c'  | 
+w:   | 
+d'e'c'2_1/4b2bc'baa3g^fg | a2z2^f2g2a2_1/4b2c'2b2  | \
+w:   |   | 
+a2g2^f2g2a2g2f2e6e2z2e2a2g2=f2  | 
+w:   | 
+e2d2c2_1/4B2c4BAG4d6dcdec2B2  | _1/4BcBAA4z2z2a4 | 
+w:   |   | 
+g^fg2f2_1/4b2a2g2g2f2  | g2a2_1/4bag^fe6e2 | \
+w:   |   | 
+z2e2a2g2=f2e2d2c2  | 
+w:   | 
+_1/4B2c4BAG4d6dcdec2B2BcBAA4a2^fga2c'_1/4ba2g2fe | 
+w:   | 
+^fge4d2_1/4Bcd2=fed2  | e2dc_1/4Bcd4e2ABAG | 
+w:   |   | 
+_1/4Bcd2ABAGe4^fgag  | =fed2c_1/4BcABGA4a2 | 
+w:   |   | 
+^fga2c'_1/4ba2g2fefge4d2_1/4Bcd2=fed2e2dc | 
+w:   | 
+_1/4Bcd4e2ABAGBcd2  | A_1/4BAGe4^fgag=fed2 | 
+w:   |   | 
+c_1/4BcABGA4a2|
+w:   | 
+
+
+X: 1092
+T: Hâlâ Kanayan Kalbimi...
+C: Yorgo Bacanos
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: mahur--sarki--senginsemai--hala_kanayan--yorgo_bacanos
+N: makam= mahur
+N: form= sarki
+N: usul= senginsemai = 6/4
+M: 6/4
+L: 1/16
+K: C ^9/8f   
+Q: 1/4=66
+%%MIDI tuningsystem comma53
+d2ef gg/f/ge dBce dBcA G6z2  | d2ef gg/f/ge dBAF GBdg b6z2  | 
+w:  ARANAĞME  |   | 
+a3b c'3b a3g f2(3gfg e6d2  | g6e2 (3ded(3cdc (3BcB(3ABA G6z2  | 
+w:   |   | 
+d2ef gg/f/ge dBce dBcA G6z2  | d2ef gg/f/ge dBAF GBdg b6z2  | 
+w:  ARANAĞME  |   | 
+a3b c'3b a3g f2(3gfg e6d2  | g6e2 (3ded(3cdc (3BcB(3ABA G6z2  | 
+w:   |   | 
+g2fe d2ef g2a2 (3bab(3c'ba g6z2  | \
+w:  Hâ *  *  lâ  *  *  ka *  na *  *  *  *  *  yan   | 
+g{b}a/g/=f/e/d cB/A/Bc defe dcBA G6z2  | 
+w:  kal *  *  *  *  *  *  bi *  *  *  *  mi  *  *  *  *  *  *  *  aşk   | 
+d2g4{g}^fe d4 b4 a4 ac'ba  | g6=fe d2{e}dc (3BABcA G6z2  | 
+w:  a *  *  *  *  te şi  dağ  |  lar   SAZ  | 
+g2fe d2ef g2a2 (3bab(3c'ba g6z2  | \
+w:  Hâ *  *  lâ  *  *  ka *  na *  *  *  *  *  yan   | 
+g{b}a/g/=f/e/d cB/A/Bc defe dcBA G6z2  | 
+w:  kal *  *  *  *  *  *  bi *  *  *  *  mi  *  *  *  *  *  *  *  aşk   | 
+d2g4{g}^fe d4 b4 a4 ac'ba  | g6=fe d4 e2^9/8f2 g6z2  | \
+w:  a *  *  *  *  te şi  dağ  |  lar   SAZ  | 
+d4 g3a b3a g{a}g/f/ge d8  | 
+w:  Üm mî *  di  *  kı *  *  *  *  *  rıl  | 
+d2e2 =f2.e2 d2c2 _1/4B2A2 d6e^9/8f  | \
+w:  mış  *  *  *  be *  ni  *  â  | 
+g6=fe d3c B4 A3B c{d}c/B/cA  | 
+w:  ti *  *  ye  *  ne  bağ  | 
+G4 Gg=fe d4 e2^9/8f2 g6z2  | d4 g3a b3a g{a}g/f/ge d8  | 
+w:  lar   *  SAZ  |  Üm mî *  di  *  kı *  *  *  *  *  rıl  | 
+d2e2 =f2.e2 d2c2 _1/4B2A2 d6e^9/8f  | \
+w:  mış  *  *  *  be *  ni  *  â  | 
+g6=fe d3c B4 A3B c{d}c/B/cA  | 
+w:  ti *  *  ye  *  ne  bağ  | 
+G8 b4 ^3/4abc'b (3bag(3fe^d (3c'bab2  | \
+w:  lar   SAZ  | 
+b3^3/4a g3f g3/2f/e^d efga b6a2  | 
+w:  Gön *  lüm *  de *  *  *  ki  *  *  *  ök  | 
+g6f2 e2^d2 e2{a}gf f6e2  | (3eedd4ef g{a}g/f/ge d2b2 a4 ac'ba  | 
+w:  süz *  lü *  ğe  *  *  *  hat  |  tâ  *  *  *  *  *  gü *  *  *  *  *  len  *  ağ  | 
+g8 b4 ^3/4abc'b (3bag(3fe^d (3c'bab2  | \
+w:  lar   SAZ  | 
+b3^3/4a g3f g3/2f/e^d efga b6a2  | 
+w:  Gön *  lüm *  de *  *  *  ki  *  *  *  ök  | 
+g6f2 e2^d2 e2{a}gf f6e2  | (3eedd4ef g{a}g/f/ge d2b2 a4 ac'ba  | 
+w:  süz *  lü *  ğe  *  *  *  hat  |  tâ  *  *  *  *  *  gü *  *  *  *  *  len  *  ağ  | 
+g6=fe d4 e2^9/8f2 g6z2  | d4 g3a b3a g{a}g/f/ge d8  | \
+w:  lar   SAZ  |  Üm mî *  di  *  kı *  *  *  *  *  rıl  | 
+d2e2 =f2.e2 d2c2 _1/4B2A2 d6e^9/8f  | 
+w:  mış  *  *  *  be *  ni  *  â  | 
+g6=fe d3c B4 A3B c{d}c/B/cA  | G4 Gg=fe d4 e2^9/8f2 g6z2  | 
+w:  ti *  *  ye  *  ne  bağ  |  lar   *  SAZ  | 
+d4 g3a b3a g{a}g/f/ge d8  | d2e2 =f2.e2 d2c2 _1/4B2A2 d6e^9/8f  | 
+w:  Üm mî *  di  *  kı *  *  *  *  *  rıl  |  mış  *  *  *  be *  ni  *  â  | 
+g6=fe d3c B4 A3B c{d}c/B/cA  | G4 Ggfe d3c (3BABcA G6z2  | 
+w:  ti *  *  ye  *  ne  bağ  |  *  KARAR  | 
+|
+
+
+X: 1093
+T: Hâtır-ı Nâşâdı Gel Gör
+C: Tanburî Cemil Bey
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: segah--sarki--agiraksak--hatir-i_nasadi--tanburi_cemil_bey
+N: makam= segah
+N: form= sarki
+N: usul= agiraksak = 9/4
+M: 9/4
+L: 1/16
+K: C _1/4B _1/4e ^f 
+Q: 1/4=72
+%%MIDI tuningsystem comma53
+z8 z2^A4B2 A2B2 c2{e}dc A4 B4 A4  | \
+w:  Hâ tır_ ı  *  *  *  *  *  nâ  | 
+B^AGA G2F2 z2G4A2 B2c2 d2{e}dc c2B4A2 Bc2B  | 
+w:  *  *  *  *  *  *  şâ dı  gel  *  *  *  *  *  gör   | 
+B8 z2d4cB A6z2 B3c d2e2 f2ed  | d2g4gf f2a4gf f3e feed d6de dcBc  | 
+w:  *  bir  ne *  fes  şâd_  |  *  et  *  *  *  *  *  *  *  *  *  *  be *  ni   SAZ  | 
+d8 z2d4g2 aggf g4 a3g f2e2 g3f  | \
+w:  *  Kayd_ ı  hic *  *  *  *  rân  | 
+f2e4d2 z2d4ag gf2e feed d6c2 d2{f}ed  | 
+w:  *  *  *  dan  a  *  za *  *  *  *  *  *  lim   | 
+d8 z2e2 d2c2 B^AB6 g2fg a2gf f2e2  | \
+w:  *  ar *  tık_ a *  *  zâd_  | 
+e2f4ed d2g4fe d3c dccB B6d'c' c'bb^a  | 
+w:  *  et  *  *  *  *  *  *  *  *  *  *  be *  ni   SAZ  | 
+b8 z2g4^a2 b2ab c'2{d'}c'b b8 {e'}d'4  | \
+w:  *  Has re tin *  *  *  *  *  *  le   | 
+d'c'b^a g2f2 z2c'4c'b a2g2 bc'{d'}c'b b6a2 b2{d'}c'b  | 
+w:  *  *  *  *  *  *  pek  ha *  râ *  *  *  *  *  *  bım   | 
+b8 z2g4gf f3e e2d2 d3e f2g2 a2{b}ag  | \
+w:  *  ba ri  *  â *  *  *  bâd_  | 
+f2g4f2 g2fg a2gf f3e feed d6d'c' c'bb^a  | 
+w:  et  *  *  *  *  *  *  *  *  *  *  *  *  be *  ni   SAZ  | 
+b8 z2g4^a2 b2ab c'2{d'}c'b b8 {e'}d'4  | \
+w:  *  Has re tin *  *  *  *  *  *  le   | 
+d'c'b^a g2f2 z2c'4c'b a2g2 bc'{d'}c'b b6a2 b2{d'}c'b  | 
+w:  *  *  *  *  *  *  pek  ha *  râ *  *  *  *  *  *  bım   | 
+b8 z2g4gf f3e e2d2 d3e f2g2 a2{b}ag  | \
+w:  *  ba ri  *  â *  *  *  bâd_  | 
+f2g4fe e2g4fe d3c dccB B8 z4  | 
+w:  et  *  *  *  *  *  *  *  *  *  *  *  be *  ni    | 
+z16  | G4B2B4B4z2  | d4B2c2BAA4z2  | G4cBB4d4cB  | \
+w:  |  Ey  ce fâ  cû   |  ey le  in *  *  saf   |  â şık_ *  ı  bî  | 
+e2dccBB4B2^A2G2  | 
+w:  çâ *  *  re *  ne   SAZ  | 
+G4B2B4B4z2  | d4B2c2BAA4z2  | G4cBB4d4cB  | \
+w:  Ey  ce fâ  cû   |  ey le  in *  *  saf   |  â şık_ *  ı  bî  | 
+e2dccBB4g6  | 
+w:  çâ *  *  re *  ne   Ah   | 
+f4g2aggfg6  | c'2b2a2aggff4ed  | a4g2g2f2f4e2  | 
+w:  mer hem_ i  *  *  *  lut  |  fun *  la  im *  *  *  dâd   |  ey le  gel  *  â  | 
+g2feedd8z2  | z36  | d8 z2d4g2 aggf g4 a3g f2e2 g3f  | 
+w:  vâ *  *  re *  ne    |  |  *  Kayd_ ı  hic *  *  *  *  rân  | 
+f2e4d2 z2d4ag gf2e feed d6c2 d2{f}ed  | \
+w:  *  *  *  dan  a  *  za *  *  *  *  *  *  lim   | 
+d8 z2e2 d2c2 B^AB6 g2fg a2gf f2e2  | 
+w:  *  ar *  tık_ a *  *  zâd_  | 
+e2f4ed d2g4fe d3c dccB B6d'c' c'bb^a  | 
+w:  *  et  *  *  *  *  *  *  *  *  *  *  be *  ni   SAZ  | 
+b8 z2g4^a2 b2ab c'2{d'}c'b b8 {e'}d'4  | \
+w:  *  Has re tin *  *  *  *  *  *  le   | 
+d'c'b^a g2f2 z2c'4c'b a2g2 bc'{d'}c'b b6a2 b2{d'}c'b  | 
+w:  *  *  *  *  *  *  pek  ha *  râ *  *  *  *  *  *  bım   | 
+b8 z2g4gf f3e e2d2 d3e f2g2 a2{b}ag  | \
+w:  *  ba ri  *  â *  *  *  bâd_  | 
+f2g4f2 g2fg a2gf f3e feed d6d'c' c'bb^a  | 
+w:  et  *  *  *  *  *  *  *  *  *  *  *  *  be *  ni   SAZ  | 
+b8 z2g4^a2 b2ab c'2{d'}c'b b8 {e'}d'4  | \
+w:  *  Has re tin *  *  *  *  *  *  le   | 
+d'c'b^a g2f2 z2c'4c'b a2g2 bc'{d'}c'b b6a2 b2{d'}c'b  | 
+w:  *  *  *  *  *  *  pek  ha *  râ *  *  *  *  *  *  bım   | 
+b8 z2g4gf f3e e2d2 d3e f2g2 a2{b}ag  | \
+w:  *  ba ri  *  â *  *  *  bâd_  | 
+f2g4fe e2g4fe d3c dccB B8 z4  | 
+w:  et  *  *  *  *  *  *  *  *  *  *  *  be *  ni    | 
+|
+
+
+X: 1094
+T: Hâtırımdan Çıkmaz Asla
+C: Hacı Ârif Bey
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: rast--sarki--kapali_curcuna--hatirimdan_cikmaz--haci_arif_bey
+N: makam= rast
+N: form= sarki
+N: usul= kapali_curcuna = 10/8
+M: 10/8
+L: 1/16
+K: C _1/4B ^f  
+Q: 1/4=192
+%%MIDI tuningsystem comma53
+d2c2 d2e4c2 e2d4z2  | B2A2 B2c4A2 c2B4z2  | \
+w:  ARANAĞME  |   | 
+G4 A2B2 c2d2 e2=f2 e2d2  | 
+w:   | 
+a2g2 =f2e2 d2e2 c2d4z2  | d2c2 d2e4c2 e2d4z2  | \
+w:   |  ARANAĞME  | 
+B2A2 B2c4A2 c2B4z2  | 
+w:   | 
+G4 g2=f2 e2d2 c2B2 A2G2  | A2B2 c2B2 A2G2 F2G4z2  | \
+w:   |   | 
+B6B2 A2A2 G2F2 E2D2  | 
+w:  Hâ tı *  rım  | 
+d8-d2dc dec2 B2A2  | A6c4(3B2A2B2c2 A2G2  | \
+w:  dan   |  çık maz  as  | 
+G8-G2D4G4z2  | 
+w:  la  SAZ  | 
+c4 B2c4d8-d2  | g8-g2=f2 e2d2 c2B2  | \
+w:  ahd_ *  ü  pey  |  mâ  | 
+f2e2 f2d4e2 d2e4c2  | d4 e2d2 c2B2 A2G4z2  | 
+w:  nın  *  *  *  *  *  *  se  |  nin   SAZ  | 
+B6B2 A2A2 G2F2 E2D2  | d8-d2dc dec2 B2A2  | \
+w:  Hâ tı *  rım  |  dan   | 
+A6c4(3B2A2B2c2 A2G2  | 
+w:  çık maz  as  | 
+G8-G2D4G4z2  | c4 B2c4d8-d2  | g8-g2=f2 e2d2 c2B2  | \
+w:  la  SAZ  |  ahd_ *  ü  pey  |  mâ  | 
+f2e2 f2d4e2 d2e4c2  | 
+w:  nın  *  *  *  *  *  *  se  | 
+d4 e2d2 c2B2 c2d4z2  | d6g4g2 f2_7/8e2 d2c2  | \
+w:  nin   SAZ  |  Bin  ye min   | 
+d2_7/8e2 f2g4f2 a2g6  | 
+w:  et  | 
+d4 e2=f4e2 d2c4d2  | e8-e2e2 a2e4d2  | \
+w:  tin  *  a  za  |  lim   | 
+d6e2 d2(3d2c2d2e4d2  | 
+w:  yok  mu  *  in  | 
+d8-d2d2 c2B2 A2G2  | B2A2 B2G4A2 G2A4F2  | \
+w:  sa  |  fın  *  *  *  *  *  *  se  | 
+G4 e2d2 c2B2 c2d4z2  | 
+w:  nin   SAZ  | 
+d6g4g2 f2_7/8e2 d2c2  | d2_7/8e2 f2g4f2 a2g6  | \
+w:  Bin  ye min   |  et  | 
+d4 e2=f4e2 d2c4d2  | 
+w:  tin  *  a  za  | 
+e8-e2e2 a2e4d2  | d6e2 d2(3d2c2d2e4d2  | \
+w:  lim   |  yok  mu  *  in  | 
+d8-d2d2 c2B2 A2G2  | 
+w:  sa  | 
+B2A2 B2G4A2 G2A4F2  | G6g4f2 a2g4z2  | \
+w:  fın  *  *  *  *  *  *  se  |  nin   SAZ  | 
+g6g4(3g2f2g2a4g2  | 
+w:  Gön lü mü   | 
+g8-g2gf gaf2 _7/8e2d2  | a4 g2g2 f2f2 _7/8e2e4d2  | \
+w:  yık  |  tı  *  te *  mel  | 
+d18z2  | c4 B2c4d8-d2  | 
+w:  den   |  tîr_ *  i  müj  | 
+g8-g2=f2 e2d2 c2B2  | f2e2 f2d4e2 d2e4c2  | \
+w:  gâ  |  nın  *  *  *  *  *  *  se  | 
+d6g4f2 a2g4z2  | 
+w:  nin   SAZ  | 
+g6g4(3g2f2g2a4g2  | g8-g2gf gaf2 _7/8e2d2  | \
+w:  Gön lü mü   |  yık  | 
+a4 g2g2 f2f2 _7/8e2e4d2  | 
+w:  tı  *  te *  mel  | 
+d18z2  | c4 B2c4d8-d2  | g8-g2=f2 e2d2 c2B2  | \
+w:  den   |  tîr_ *  i  müj  |  gâ  | 
+f2e2 f2d4e2 d2e4c2  | 
+w:  nın  *  *  *  *  *  *  se  | 
+d4 e2d2 c2B2 c2d4z2  | d6g4g2 f2_7/8e2 d2c2  | \
+w:  nin   SAZ  |  Bin  ye min   | 
+d2_7/8e2 f2g4f2 a2g6  | 
+w:  et  | 
+d4 e2=f4e2 d2c4d2  | e8-e2e2 a2e4d2  | \
+w:  tin  *  a  za  |  lim   | 
+d6e2 d2(3d2c2d2e4d2  | 
+w:  yok  mu  *  in  | 
+d8-d2d2 c2B2 A2G2  | B2A2 B2G4A2 G2A4F2  | \
+w:  sa  |  fın  *  *  *  *  *  *  se  | 
+G4 e2d2 c2B2 c2d4z2  | 
+w:  nin   SAZ  | 
+d6g4g2 f2_7/8e2 d2c2  | d2_7/8e2 f2g4f2 a2g6  | \
+w:  Bin  ye min   |  et  | 
+d4 e2=f4e2 d2c4d2  | 
+w:  tin  *  a  za  | 
+e8-e2e2 a2e4d2  | d6e2 d2(3d2c2d2e4d2  | \
+w:  lim   |  yok  mu  *  in  | 
+d8-d2d2 c2B2 A2G2  | 
+w:  sa  | 
+B2A2 B2G4A2 G2A4F2  | G4 e2d2 c2B2 A2G4z2  | |
+
+
+X: 1095
+T: Hüseynî Aranağme (Aksak)
+C: ?
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: huseyni--aranagme--aksak--1--
+N: makam= huseyni
+N: form= aranagme
+N: usul= aksak = 9/8
+M: 9/8
+L: 1/16
+K: C _2/4B ^3/4f  
+Q: 1/4=168
+%%MIDI tuningsystem comma53
+A4 g4 =f4 e4 d2 | e2 d2e2 c2d4c2 _1/4B2A2  | \
+w:  ARANAĞME  |   | 
+A4 g4 =f4 e4 d2 | e2 d2c2 d2e8z2  | 
+w:   |   | 
+d4 e2^f2 g2f2 g4 f2 | g2 ^f2g2 a2g2 =f2e4d2  | \
+w:   |   | 
+d4 e2d2 c2_1/4B2 d4 c2 | 
+w:   | 
+c16z2  | z4 _1/4B2c2 d4 d4 z2 | c2 _1/4B2c2 d2c2 B2A4z2  | \
+w:   |   |   | 
+G4 c4 _1/4B4 A4 G2 | 
+w:   | 
+A8_1/4B2 c2d6  | z4 _1/4B2c2 d4 d4 z2 | \
+w:   |   | 
+c2 _1/4B2c2 d2c2 B2A4z2  | G4 c4 _1/4B4 A4 G2 | 
+w:   |   | 
+A4A4A4A4z2  | |
+
+
+X: 1096
+T: Hüseynî Aranağme (Düyek)
+C: ?
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: huseyni--aranagme--duyek--1--
+N: makam= huseyni
+N: form= aranagme
+N: usul= duyek = 8/4
+M: 8/4
+L: 1/16
+K: C _2/4B ^3/4f  
+Q: 1/4=156
+%%MIDI tuningsystem comma53
+d2 e4 d2 e3/2d/ ef ga e2  | d2 e4 c2 d{e}d cB A4  | \
+w:  ARANAĞME  |   | 
+^f2 g4 {a}gf g3f g3/2f/ ga  | 
+w:   | 
+gf e6 g2 fe e4  | g2 a4 g2 a3g =f3/2e/ d2  | \
+w:   |   | 
+e3c d3B c3B A4  | 
+w:   | 
+{=f}ed d4 cB B3/2A/ Bc BA G2  | B2 AB c2 BA A4 z4  | \
+w:   |   | 
+d2 e4 d2 e3/2d/ ef ga e2  | 
+w:  ARANAĞME  | 
+d2 e4 c2 d{e}d cB A4  | ^f2 g4 {a}gf g3f g3/2f/ ga  | \
+w:   |   | 
+gf e6 g2 fe e4  | 
+w:   | 
+g2 a4 g2 a3g =f3/2e/ d2  | e3c d3B c3B A4  | \
+w:   |   | 
+{=f}ed d4 cB B3/2A/ Bc BA G2  | 
+w:   | 
+A6 dc cB BA A4  | |
+
+
+X: 1097
+T: Hüseynî Aranağme (Raksaksağı)
+C: ?
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: huseyni--aranagme--raksaksagi--1--
+N: makam= huseyni
+N: form= aranagme
+N: usul= raksaksagi = 9/8
+M: 9/8
+L: 1/16
+K: C _2/4B ^3/4f  
+Q: 1/4=180
+%%MIDI tuningsystem comma53
+e2=f2 a2g2 f2e2 d2c2 B2 | A2 B2c4d2 e8  | \
+w:  ARANAĞME  |   | 
+e2=f2 a2g2 f2e2 d2c2 B2 | 
+w:   | 
+A2 B2c2 B2d2 A8  | e2=f2 a2g2 f2e2 d2c2 B2 | \
+w:   |  ARANAĞME  | 
+A2 B2c4d2 e8  | e2=f2 a2g2 f2e2 d2c2 B2 | 
+w:   |   | 
+A2 B2c2 B2d2 A8  | |
+
+
+X: 1098
+T: Hüseynî Etüd
+C: Hasan Esen
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: huseyni--etud--sofyan----hasan_esen
+N: makam= huseyni
+N: form= etud
+N: usul= sofyan = 4/4
+M: 4/4
+L: 1/16
+K: C _2/4B ^3/4f  
+Q: 1/4=60
+%%MIDI tuningsystem comma53
+A4 c2d2 e4 z4  | d2g2 f2g2 e4 z4  | d2g2 f2g2 f2g2 f2e2  | \
+w:   |   |   | 
+e12 z4  | 
+w:   | 
+e2d2 d2c2 d4 z4  | d2c2 c2B2 c4 z4  | \
+w:   |   | 
+c2B2 c2d2 e2d2 c2B2  | A12 z4  | 
+w:   |   | 
+A2g2 f2g2 f2g2 f2e2  | e12 a4  | e2d2 d2c2 d4 e4  | \
+w:   |   |   | 
+e12 z4  | e2f2 g2f2 g2f2 g2a2  | 
+w:   |   | 
+a2g2 f2e2 d4 z4  | d2e2 d2c2 e2d2 c2B2  | \
+w:   |   | 
+c12 z4  | c4 d4 d4 c4  | d2e2 e2d2 c4 z4  | 
+w:   |   |   | 
+B4 c4 c4 B4  | c2d2 d2c2 B4 z4  | A4 B4 B4 A4  | \
+w:   |   |   | 
+B2c2 c2B2 A4 z4  | e2d2 d2c2 c2B2 B2A2  | 
+w:   |   | 
+A12 z4  | |
+
+
+X: 1099
+T: Hüseynî Peşrev
+C: Tanburî İsak
+O: Turkey
+F: http://compmusic.upf.edu/node/140
+N: huseyni--pesrev--cifteduyek----tanburi_isak
+N: makam= huseyni
+N: form= pesrev
+N: usul= cifteduyek = 16/4
+M: 16/4
+L: 1/16
+K: C _2/4B ^3/4f  
+Q: 1/4=60
+%%MIDI tuningsystem comma53
+A4 e2 d2 e4 =f4  | e8 d =f e d d4  | \
+w:   |   | 
+c2 d2 c2 _1/4B2 c4 d4  | e8 c2 _1/4B2 A4  | 
+w:   |   | 
+A2 z2 c2 d2 e4 =f4  | e8 d2 =f2 e2 d2  | \
+w:   |   | 
+c2 _1/4B2 c2 d2 e2 d2 c2 B2  | A6 c2 _1/4B2 A2 G4  | 
+w:   |   | 
+G2 z2 d2 c2 d6 e2  | d4 e2 d2 c4 d2 c2  | \
+w:   |   | 
+_1/4B4 c2 B2 c4 d2 c2  | d4 e2 d2 e6 z2  | 
+w:   |   | 
+=f2 e2 f2 g2 a2 g2 f2 e2  | d2 =f2 e2 d2 d6 z2  | \
+w:   |   | 
+c2 _1/4B2 c2 d2 e2 d2 c2 B2  | 
+w:   | 
+A6 c2 _1/4B2 ^A2 B4  | _1/4B2 z2 G2 A2 G4 A4  | \
+w:   |   | 
+G4 A2 _1/4B2 c6 z2  | c2 d2 c2 _1/4B2 A2 G2 A2 B2  | 
+w:   |   | 
+c2 d2 c2 _1/4B2 c2 B2 c4  | c2 z2 _1/4B2 A2 B4 c4  | \
+w:   |   | 
+_1/4B2 c2 B2 c2 d6 z2  | A2 G2 ^F2 G2 F4 G4  | 
+w:   |   | 
+A2 c4 _1/4B A A4 z4  | d8 d4 e2 =f2  | \
+w:   |   | 
+g3 =f f3 e e3 d d3 c  | _1/4B6 c2 d4 e4  | 
+w:   |   | 
+e2 z2 d2 e2 =f2 e2 d2 c4 c2 z2 e2 e2 e4 f4 e8 f2 e2 d4 c2 _1/4B2 c2 d2 e2 d2 c2  | 
+w:   | 
+_1/4B2 A6 c2 B2 A2 G4 d8 d4 e2  | \
+w:   | 
+=f2 g3 f f3 e e3 d d3 c _1/4B6 c2 d4 e4 e4 d2 e2 e2 d2 c4 c2 z2 e2 e2 e4 f4 e8 f2 e2 d4 c2 B2 c2 d2 e2 d2 c2  | 
+w:   | 
+_1/4B2 A6 c2 B2 A2 G4 e2 ^f2 g2 a2 f2 g2 e2  | \
+w:   | 
+=f2 d2 f4 e d d6  | z2 c2 _1/4B2 c2 d2 e2 d2 c2  | 
+w:   |   | 
+_1/4B2 A6 c2 B2 ^A2 B4 e2 ^f2 g2 a2 f2 g2 e2  | \
+w:   | 
+=f2 d2 f2 e2 d2 d6  | z2 c2 _1/4B2 c2 d2 e2 d2 c2  | 
+w:   |   | 
+_1/4B2 A6 c2 B2 A2 B4 B2 z2 G2 A2 G4 A4 G4 A2 B2 c8 c2 d2 c2 B2 A2 G2 A2  | 
+w:   | 
+_1/4B2 c6 B2 c2 B2 c4 c2 z2 B2 A2 B4 c4 B2 c2 B2 c2 d6  | \
+w:   | 
+z2 _1/4B4 c4 B2 A2 G2  | 
+w:   | 
+A2 G4 A4 A6  | z2 |
+
+

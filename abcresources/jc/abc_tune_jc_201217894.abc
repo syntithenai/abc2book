@@ -1,0 +1,25 @@
+X: 00076
+T: SKELTON'S HORNPIPE
+C: Bob McQuillen 18 June'03
+B: Bob's Note Book 00 #76
+%R: hornpipe, reel
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+ag \
+| f2d2 dBAG | F2D2 DEFA | GBe2 efed | cea2 abag |
+| fdef d2AG | FDFA BAFA | GBed cABc | d2f2 d2  :|
+|: gf \
+| e2ed cABA | FDFA d2fa | g2ba gfed | cdcB A2de |
+| f2ef g2ag | fafd B2AG | FAdf gecd | e2d2 d2  :|
+%%begintext align
+%% John Skelton is a good
+%% friend of many years. From England, he now lives in
+%% Versailles, KY, and he can play the keys off a flute, the
+%% holes off a whistle, and say, did you ever hear a bombarde?
+%% A bombarde says "Waaaaaaaaaaa!!!" while (melodically,
+%% of course) it pulverizes your brain - well, anyway, he can
+%% play hell out of one of those, too!
+%% All the best to you, John!
+%%endtext

@@ -1,0 +1,12 @@
+X:1
+T:Fair Jenny
+C:Peter Barnes
+R:jig
+M:6/8
+L:1/8
+K:D
+V:2 clef=alto middle=C
+"D" F3 FGF | "A" ECA, ECA, | "G" B,CD "A" ECA, | "G" B,CD "A" EFG |
+"D" F3 FGF | "A" ECA, ECA, | "G" B,CD "A" ECA, | "A" A,B,C "D" D3 ::
+"G" B,3 B,=CB, | "G" G,2B, B,=CB, | "D" A,D,D, DD,D, | "D" CD,D, =CD,D, |
+"G" B,3 B,=CB, | "G" G,2B, B,=CB, | "A" A,B,A, A,B,C | "D" DA,F, D,3 :|

@@ -1,0 +1,6275 @@
+HTTP/1.1 200 OK
+Server: nginx/1.10.2
+Date: Tue, 10 Jan 2017 13:50:56 GMT
+Content-Type: application/octet-stream
+Content-Length: 149459
+Last-Modified: Tue, 10 Jan 2017 12:41:08 GMT
+Connection: close
+ETag: "5874d664-247d3"
+Accept-Ranges: bytes
+
+%abc
+%%abc-alias My music
+%%abc-creator ABCexplorer 1.6.1 [31/10/2016]
+
+X:1
+T:(Such a) Getting Upstairs I Never Did See
+R:hp 16 reel
+C:Trad arr. P J Headford
+S:John Locke
+B:Opus Pocus - John Kirkpatrick & Sue Harris 1988 Dragonfly Music
+Z:P J Headford 2005
+M:4/4
+L:1/8
+Q:1/4=160
+K:G
+|:dc|B2G2 D2G2|FGAB cedc|B2G2 D2G2|FGAF G2:|\
+d2|B3c d2G2|B2c2 d4|
+e2d2 c2B2|A2B2 cedc|\
+B2G2 D2G2|FGAB cedc|B2G2 D2G2|FGAF G2|]
+
+X:2
+T: A. M. Shinnie
+R: jig 32
+M: 6/8
+L: 1/8
+K:Dmaj
+|: A |d>ef e>dc | Bcd A2 F | G>AB Ade | fdf e2 A |
+d>ef e>dc | B>cd A2 F | GAB Adf | eBc d2 :|
+e |f2 f d>ef | a>gf e3 | d2 d Bcd | fed c3 |
+B>GB dcB | AFA d2 e | f>ef a2 f | fed eag |
+f<af d>ef | a>gf e3 | d3 Bcd | fed c3 |
+B>GB d>cB | A>FA d2 e | f>gf fcd | eBc d2 |]
+
+X:3
+T:Aiken Drum
+T:Willie Wood
+T:There's a Man Came to our Town
+R:hp 16 Reel
+C:Trad. Before 1820
+O:Scotland
+Z:Paul Hardy's Session Tunebook 2014 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:4/4
+L:1/8
+Q:1/4=140
+K:D
+de|"D"f2 f2 gfed|"G"B4 d3 B|"D"A3 B d2 A2|"E7"f2 e2 "A7"e2 de|"D"f2 f2 gfed|"G"B4 d3 B|"A7"A2 A2 B2 c2|"D"d6:|
+|:de|"D"f2 f2 f2 ed|"G"g2 g2 b3 g|"D"f2 a2 f2 d2|"Em"f2 e2 "A7"e2 de|"D"f2 f2 gfed|"G"B4 d3 B|"A7"A2 A2 B2 c2|"D"d6:|
+
+X:4
+T:Albert Farmer's Bonfire Tune
+T:Hindley Circle Dance
+Q:1/4=140
+R:hp 32
+C:Trad. ed. Barry Callaghan
+S:'Hard Core English' page 13A
+O:England
+A:Surrey
+B:Hard Core English ISBN 978 085418 201 5
+Z:PJHeadford 2008
+M:4/4
+L:1/8
+Q:1/4=140
+K:D
+|:d>e|f3d A2F2|G2GF G4|edcA B2c2|dffd A2de|
+f3d A2F2|G2GF G4|edcA B2c2|d6:|
+|:de|f2fd f2f2|gefd e3f|gfed cABc|dffd A2de|
+f3d A2F2|G2GF G4|edcA B2c2|d6:|]
+W:Recorded from Albert in the 1940s at Lingfield, Surrey.
+
+X:5
+T:Alexandra Park
+R:polka 32 reel
+S:Kerr's Merry Melodies
+B:English Choice, Nick Barber, pub mally.com
+M:2/2
+L:1/8
+Q:1/4=180
+K:G
+|:"G"d2BG d2BG|"C"cdef "D"agfe|
+"G"d2BG d2BG|"D"ABcB ABc^c|
+"G"d2BG d2BG|"C"cdef "D"agfe|
+"G"dgfe "D"dcBA|"G"G2B2 G4:|
+:"D"A2FD "Em"B2GE|"Am"c2AF "Bm"d3d|
+"C"edcB cBAG|"D"AGFE D4|
+A2FD "Em"B2GE|"Am"c2AF "Bm"d3d|
+"C"edcB "D"cBAG|ADFA "G"G4:|]
+
+X:6
+T: Antigonish Polka, The
+R: polka 48
+M: 4/4
+L: 1/8
+K:Dmaj
+|: FG |A2 f2 fedB | A2 AB AGFA | d2 cd b2 a2 | g3 a gfed |
+c2 cd cBAc | d2 dc defg | a/b/a ^ga b2 c2 | d4- d2 :|
+|: B2 |A/B/A ^GA Bcde | f4 fedB | A2 ^GA Bcde | f3 A fagf |
+eagf edcB | Aagf edcB | A/B/A ^GA BAFA | d4- d2 :|
+
+X:7
+T:Asleys Hornpipe
+R:hp 32
+S:John Clare (1793-1864)
+O:Northampton MS. 12 Deacon 35
+Q:1/4=140
+Z:P J Headford
+M:4/4
+L:1/8
+Q:1/4=140
+K:G
+|:GABc edcB|agfed3c|BdBG cecA|BdBG GFED|
+GABc edcB|agfed3c|BdBG cecA|G2F2G4:|
+|:defg fafd|gbge fafd|defg acc2|BdBG FAFD|
+BdBG cecA|fafd gbge|fgfe dcBA|G2F2G4:|]
+
+X:8
+T:Babes in the Woods
+R:polka 32
+M:2/4
+L:1/8
+Q:1/4=120
+R:polka
+K:D
+|: "D"AB/A/ FA | de f2 | "G"ga/g/ "A"fe | "D"df "A"A2 |
+"D"AB/A/ FA | de f2 | "G"ga/g/ "A"fe | "D"d2 d2 :|
+|: "A"ef/e/ ce | "D"fe "A"a2 | ef/e/ ce | "E7"fe "A"c/B/A |
+"A"ef/e/ ce | "D"fe "A"a2 | ef/e/ "E7"dB | "A"BA A2 :|
+
+X:9
+T:Bacca Pipes
+R:jig 32
+M:6/8
+L:1/8
+Q:1/4=140
+R:Jig
+K:ADor
+|: B |"C" c3   c2 e |"G" d2 c B2 d |"Am" c2 B A2 c |
+"G" B2 A G2 B |"C" c3   c2 e |"G" d2 c B2 d |"C" c2 A "G"B2 G |"Am" A3   A2 :|
+|: z |"G" g2 f g2 e | d2 B G3   | g3   ffg  |"D" a2 f d2 z |
+"G" g2 f g2 e | d2 B G2 B |"C" c2 A "G"B2 G |"Am" A3   A2 :|
+
+X:10
+T:Bang Up Hornpipe. TLY.082
+R:hp 32
+M:C
+L:1/8
+Q:1/2=90
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:.Hornpipe
+O:England.
+A:Lancashire.
+H:1860.
+Z:vmp.Taz Tarry.
+K:F
+cB| AFAc fcAc| Bdgf edcB| Acfe dcBA| G2G2G2 cB|!
+AFAc fcAc| Bdgf edcB| Acfc AcGB| A2 F2F2:|!
+|:ef| gfed cBAG| AFGA Bcde| fgaf bagf| e2 c2c2 cB|!
+AFAc fcAc| Bdgf edcB| Acfc AcGB| A2 F2F2:|
+
+X:11
+T:Bang Upp
+R:jig 48
+C:Trad. ed. Barry Callaghan
+S:'Hard Core English' page 71A
+O:England
+B:Hard Core English ISBN 978 085418 201 5
+Z:PJHeadford 2008
+M:6/8
+L:1/8
+Q:1/4=120
+K:D
+|:A|d2d f2f|a2a f2d|g2e f2d|cde ABc|\
+d2d f2f|a2a f2d|g2e f2d|cBA d2:|
+|:A|F2A E2A|F2A d2c|B2d A2d|G2e cBA|\
+F2A E2A|F2A d2c|Bcd ABc|d3- d2:|
+|:A|f2e d2c|B2A G2F|G2A B2e|dcB A2A|\
+f2e d2c|B2A G2F|G2B A2F|GFE D2:|]
+W:In Docker, Clare, Moore(T); printed in Preston 1801.
+
+X:12
+T: Banks of the Devon, The
+R: jig 16
+M: 6/8
+L: 1/8
+K:Em
+B,|E>FA B>Ad|A>DG F>ED|E>FA B>de|B>AF E2B,/B,/|
+E>FA B>Ad|A>DG F>ED|E>FA B>de|B>AF E2 z|
+e>Be g>fe|d>Ad F>ED|e>Be g>fe|B>ef e2 e|
+e>Be g>fe|d>Ad F>ED|E>FA B>de|B>GF E2|]
+
+X:13
+T: Barbara Allen
+R: hp 32 reel
+M: 4/4
+L: 1/8
+K:Gmin
+D2 |: GABG ABcA | d2d2 cAFA | B2GB A2F2 | GABG cAF2 |
+GABG ABcA | d2d2 cAFA | B2GA BAGF |[1 D2G2 G3D :|2 D2G2 G3d ||
+|: g^fd^f g^fd^f | g^fga gbag | fcAc fcAc | defd cAF2 |
+GABG ABcA | d2d2 cAFA | BBGA BAGF |[1 D2G2 G3d :|2 D2G2 G4 ||
+
+X:14
+T:Barrack Hill
+C:Trad. ed. P J Headford
+R:jig 32
+Z:PJHeadford 2011
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+|:e2A A2f|e2d Bcd|e2A A2B|G2A Bcd|\
+e2A A2f|e2d Bcd|e2d g2B|A3 A3:|]
+|:e2d efg|a2b g2e|d2e d2B|\
+d2e dcB|1e2d efg|a2b g2e|
+d2B g2B|A3 A3:|2e2d e2f|\
+g2a b2a|g2e d2B|A2a agf|]
+
+X:15
+T:Beatrice Hill's Three-Handed Reel
+R:hp 32
+S:Beatrice Hill
+B:English Choice, Nick Barber, pub mally.com
+M:2/2
+L:1/8
+Q:1/4=140
+K:D
+|:A2|"D"B2AF DFAd|"A7"c2BA B2ed|
+cdef gece|edcB A2A2|
+"D"B2AF DFAd|"A7"c2BA B2ed|
+cdef gece|e2dc "D"d2:|
+|:a2|"D"b2af dfa2|"A7"a2gf g2ef|
+gfed cdef|g2fe "D"f2a2|
+b2af dfa2|"A7"a2gf g2ef|
+gfed cdef|e2dc "D"d2:|]
+W:chords corrected - PJH.
+
+X:16
+T:Belfast Hornpipe
+R:hp 48
+C:Trad arr. P J Headford
+M:2/2
+L:1/8
+Q:1/4=180
+K:D
+|:ag|(3faf df AdFA|DFAd f2ef|
+gbec dfAF|GABG E2ag|
+(3faf df AdFA|DFAd f2ef|
+gbed cABc|d2f2 d2:|
+|:(3DEF|GFGA Bcde|fgfe dcdB|
+A2f2 fef2|G2e2 ede2|
+GFGA Bcde|fgfe dcdB|
+Afed cABc|d2f2 d2:|
+|:ag|(3fgf (3efe (3ded (3cdc|(3BcB (3ABA G2ba|
+(3gag (3fgf (3efe (3ded|(3cdc (3BcB A2ag|
+(3fgf (3efe (3ded (3cdc|(3BcB (3ABA (3GAG (3FGF|
+Eged cABc|d2f2 d2:|]
+
+X:17
+T:Bellingham Boat
+R:jig 32
+C:anon.
+O:England
+S:Charlton Mem.Tune Book
+Z:C.G.P
+F:http://abc.musicaviva.com/tunes/england/bellingham-boat.abc
+%Posted at abcusers Jan 2nd 2001 by Johnny Adams.
+M:6/8
+L:1/8
+K:G
+Bc|d3 cAF|AGF G2B|dcc cBB|BAA ABc|d3 cAF|
+AGF G2c|BdB cAF|G3 G::B-c|d2d def|g3 gfe|dbb caa|
+Bgg ABc|d2d def|g3 gfe|afd ge^c|d3 d:|
+
+X:18
+T:Bewicks Hornpipe
+R:hp 32
+Z:P J Headford
+M:4/4
+L:1/8
+Q:1/4=140
+K:D
+|:FG|A2A2 A2A2|BcdB A2FG|A2A2 A2A2|BAGF E2FG|
+A2A2 A2A2|BcdB A2d2|cdef gece|d2d2 d2:|
+|:de|f2f2 f2ef|gfed cBAG|FAdf gfed|efge f2e2|
+f2f2 f2ef|gfed cBAG|FAdf gece|d2d2 d2:|]
+
+X:19
+T:Bishop's Palace (The)
+R:hp 64
+C:Ian Hay arr. P J Headford
+S:Jeremy Tozer
+Z:PJHeadford
+M:2/4
+L:1/16
+Q:1/4=100
+K:Am
+|:ABcd ede2|def2 e4|ABcd ede2|d4 B4|\
+ABcd ede2|def2 e4|ABcd edc2|B4 A4:|]
+|:a4 e4|def2 e4|ABcd edc2|d4 B4|\
+a4 e4|def2 e4|ABcd edc2|B4 A4:|]
+K:Em
+|:EFGA BAB2|cBc2 B4|EFGA BAG2|A4 F4|\
+EFGA BAB2|ABc2 B4|EFGA BAG2|F4 E4:|]
+|:e4 B4|ABc2 B4|EFGA BAG2|A4 F4|\
+e4 B4|ABc2 B4|EFGA BAG2|F4 E4:|]
+
+X:20
+T:Black Nag (the)
+R:jig 24
+M:6/8
+L:1/8
+B:The Round Band Book of Playford
+K:G
+B, | E2E F2F | G2G AGA | BAG FGF |  E3-E2 :: \
+E | FDB, FDB, | FDB, FDB, |! BGE BGE | BGE BGE | \
+FDB, FDB, | FDB, FGA | BAG FGF | E3-E2 :|
+
+X:21
+T:Blazing Comet, The
+O:england
+R:jig 32
+M:6/8
+L:1/8
+N:Dance Music, 1820-1850
+A:Yorkshire
+B:"The Fiddler of Helperby", Dragonfly Music, ISBN 1-872277-18-7, 1994.
+K:D
+"D"DFA AFA|"G"Bcd "A"cde|"D"DFA AFA|"Em"eEE "A"E3|
+"D"DFA AFA|"G"Bcd "A"cde|\
+"Em"GeG "D"Fd"A"c|"D"dAF D3:|
+|:"D"dfd "A"ecA|"G"Bcd "D"AFD|\
+"D"dfd "A"ecA|"Em"eEE "A"E2 F|
+"Em"GFG "F#m"AGA|"G"Bcd "D"AFD|\
+"Em"Bge "A"cAc|"D"dAF D3:|
+
+X:22
+T: Blowzabella
+R:jig 32
+M: 6/8
+L:1/8
+Q:1/4=140
+R: jig
+K:Gmaj
+|:d2c BAG|c2A B2G|d2c BAG|A2D G3:|
+|:g2d BGB|cAc BAG|g2d BGB|1ADF G3:|2ADF G2A||
+|:BAB cBc|d3 d2c|BcB ABA|1 G3 G2A:|2G3 G3||
+|:g2G g2G|ABA B2G|g2G g2G|1 ABA G3:|2ABA G2A||
+
+X:23
+T: Blue Eyed Stranger
+R:hp 16 reel
+M: 4/4
+L: 1/8
+K:Gmaj
+|:G2D2 D2GF|EDEF G2 GA|B2d2 cBAG|E2 F2 G4:|
+GABc d2d2|edcB A2A2|GABc d2d2|B3c d4|
+GABc d2d2|edcB A2G2|A2c2 BAGF|E2 F2 G4||
+
+X:24
+T:Bluebell polka
+R:polka 48
+O:England
+M:2/4
+L:1/16
+Q:1/4=116
+K:G
+|:b2b2 gfge|dedc B3G|FGAB c2d2|ed^cd B2dg|
+b2b2 gfge|d2d2 B3G|FGAB cdef|g2g2 g4:|
+K:D
+|:A2A2 FAdf|a2a2 f4|a2 (3^gag =g2e2|b2a2 f4|
+A2A2 FAdf|a2a2 f4|a2 (3^gag =g2e2|d2f2 d4:|
+K:G
+|:B2B2 Bcd2|B2B2 Bcd2|cBcd cBA2|cBcd cBA2|
+B2B2 Bcd2|B2B2 Bcd2|cBcd cBA2|G2B2 G4:|]
+W:Sometimes played ABACA.
+
+X:25
+T:Bobby Casey's Hornpipe
+M:4/4
+L:1/8
+R:hp 32
+D:Kevin Burke: If the Cap Fits
+Z:Devin McCabe
+K:ADor
+ed|:c2 AB c3 d|eaag e/2f/2e dB|BccA ~B3 c|~d3 e dBGB|
+!A^GAB c3 d|eaag e/2/f/2e dB|cAAc dBGB|1A/2B/2A AG A2 ed:|2A/2B/2A AG A2
+(3Bcd|
+!:ea (3aaa aged|ea (3aaa aged|eg (3ggg ge d2|eg (3ggg gedB|
+!A^GAB c3 d|eaag e/2/f/2e dB|cAAc dBGB|1A/2B/2A AG A2 (3Bcd:|2A/2B/2A AG
+A2 ed||
+
+X:26
+T:Bobby Shaftoe
+R:hp 32
+L:1/8
+M:2/2
+K:G
+G2 BB A2B2|G2BB A2B2|G2e2d2B2|G2B2 A4|G2BB A2B2|
+G2BB A2B2|G2e2d2c2|(3BcB A2 G4||g3f g2e2|d2B2G4|
+g3f g2B2|A6d2|g3f g2B2|D4 d3c|B2G2A2F2|G4G4||
+
+X:27
+T:Bohemian Polka (the)
+R:polka 32
+M:2/4
+L:1/16
+Q:1/4=120
+K:G
+|:G2D2 B2AG|F2A2 D4|A2D2 c2BA|d4 g2z2|
+G2D2 B2AG|F2A2 D4|A2D2 c2BA|G2GG G4:|
+|:e2c2 g2fe|d2g2 G4|c2A2 e2dc|B2d2 G4|
+e2c2 g2fe|d2g2 G4|A2Ad ^c2ce|d2fe dBcA:|]
+
+X:28
+T:Bonny Kate
+R:polka 32
+S:Ashover MS
+B:English Choice, Nick Barber, pub mally.com
+M:2/2
+L:1/8
+Q:1/4=180
+K:G
+|:"C"d2e2 f2|"G"g3f g3f|"G"g2d2 d2B2|
+"C"cde2 "D"d3c|"G"B2G2 G3A|
+"Em"B2G2 G2AB|"Am"c2A2 A4|
+"G"Bcd2 "D"c2B2|1"D"A2:|2A8||
+:"G"B2G4AB|"Am"c2A2"Bm"d2B2|
+"C"e2c2 c2e2|"D"f4 d2ef|
+"G"g3f g2fe|"D"d2ef "G"g2B2|
+"C"cde2 "D"d3c|1"G"B2G2 G4:|2"G"B2|]
+
+X:29
+T:Bottom of the Punch Bowl
+R:polka 32
+S:Trad
+O:England
+M:4/4
+L:1/8
+K:D
+FE|:D2D2 d3 e|d2D2 FGAF|E2e2 efgf| edcB AGFE|
+|D2D2 d3 e|fedc d2 A2|BcdB ABAG|1 F2D2 D2FE:|2 F2D2 D2de|
+|:fedB ABde|fedc d2 A2|B2e2e2de|f2e2e2de|
+|fedB ABde|faef d2 A2|BcdB ABAG|1 F2D2 D2de:|2 F2D2D2FE|
+
+X:30
+T:Boyne Water
+C:Trad
+R:polka 32 march
+S:Fiddler Locke
+M:4/4
+L:1/8
+Q:2/4=100
+K:D
+|:A2 B2c2|d2d2 d2cB|AGFE D3A|d2dd d3e|f2d2 B2c2|
+d2d2 d2cB|AGFE D2EF|G2FE B2A2|1E2:|2E3- E2||
+|:DE|F2D2 E2C2|D2D2 D2EG|F2D2 D2EG|F2D2 D2EF|
+G2E2 F2D2|E2E2 A2AG|FED2 F2E2|1D4 D2:|2D2|]
+
+X:31
+T: Boys Of The Mill, The
+R: jig
+M: 6/8
+L: 1/8
+K:Gmaj
+F2 A d3|E2 G c3|BAG EGA|Bdc B2 A|
+F2 A d3|E2 G c3|BAG EcB|AFE D3:|
+F2 A F2 A|E2 G E2 G|G2 B G2 B|dcB A3|
+F2 A F2 A|E2 G E2 G|BAG EcB|AFE D3:|
+
+X:32
+T:Brighton Camp
+R:polka 32
+Z:Lewes
+M:4/4
+L:1/8
+Q:1/4=180
+K:G
+|:gf|e2dc B2A2|B2G2E2D2|G2G2GABc|d4B2gf|
+e2dc B2A2|B2G2E2G2|FG A2D2EF|G4G2:|
+|:dc|B2d2e2f2|g2dc BA G2|Bc d2e2f2|g4f2gf|
+e2dc B2A2|B2G2E2G2|FG A2D2EF|G4G2:|]
+
+X:33
+T:Can't Stop Polka
+R:polka 32
+M:4/4
+L:1/8
+Q:180
+Z:Phil Headford <flos@madasafish.com> abcusers 2002-4-16
+S:Rod Stradling
+K:D
+F2A2GAB2|A2def4|G2ede4|FAdcd4|F2A2GAB2|A2def4|g2e2cdec|d2f2d4:|
+d2c2G3A|B2A2F3D|CDEFG2B2|B2A2d3d/e/|d2c2G3A|B2A2F3D|CDEF GABc|d2f2d3d/d/:|
+A2d2c2B2|A2F2FEF2|G2E2EDE2|FAdcd3A/A/|A2d2c2B2|A2F2FEF2|G2E2EGFE|D2F2D4:|
+
+X:34
+T:Captain Lanoe's Quick March
+S:William Aylmore MS 1796
+R:jig 32
+B:English Choice, Nick Barber, pub mally.com
+M:6/8
+L:1/8
+Q:1/4=120
+K:G
+|:"G"G2B d2g|gfe d3|
+"D"cdc "G"B2B|"D"AGA "Em"B2G|
+"G"G2Bd2g|gfe d3|
+"D"cdc "G"B2B|"D"AGA "G"G3:|
+|:"B"B3 B3|BAB "D"c3|
+"G"B2c d2c|B2A B2G|
+"Em"B3 B3|BAB "C"c3|
+"G"B2g dBG|"D"A3 "G"G3:|]
+
+X:35
+T:Captain White 1
+C:Trad. ed. P J Headford
+R:jig 32
+Z:PJHeadford 2011
+M:6/8
+L:1/8
+Q:3/8=120
+K:D
+|:A|DFA d2f|edc B2d|A2d F2B|AGF E2A|\
+DFA d2f|edc B2d|A2d F2B|ABc d2:|]
+f|e^de A2f|e^de a2f|efe dcB|A2B c2f|\
+e^de A2f|e^de a2f|efe dcB|ABA GFE|
+D2f fef|d2A A^GA|D2f fef|gfe ecA|\
+D2f fef|d2A A^GA|Bed cBc|d3- d2|]
+
+X:36
+T:Captain White's
+R:jig 48
+M:6/8
+L:1/8
+Q:1/4=120
+K:Dmaj
+A|"D"DFA d2f|"G"edc B2d|"D"A2d F2B|"A7"AGF E2A|
+"D"DFA d2f|"G"edc B2d|"D"A2d F2B|"A7"ABc "D"d2:|f|:
+"A"e^de A2f|"A"e^de a2f|"A"efe "A7"dcB|"A"A2B c2f|
+"A"e^de A2f|"A"e^de a2f|"A"efe "E7"dcB|"A"ABA "E7"GFE:||
+"D"D2f fef|"D"d2A AGA|"D"D2f fef|"A7"gfe ecA|
+"D"D2f fef|"D"d2A AGA|"G"Bed "A7"cBc|"D"dAG "A7"FGE:|]
+
+X:37
+T:Cartharsis
+R: hp 32 reel
+M: C|
+L: 1/8
+P: Catharsis
+C: Amy Cann
+S: Natalie MacMaster ("No Boundaries" CD)
+S: Nigel Gatherer gatherer@argonet.co.uk tradtunes 2004-9-14
+Z: Transcribed by Tony Ludiker
+Z: Posted by Tony Ludiker 12/97
+K:Gm
+[| "Gm"DFGF  DFGF |     DFGA "Dm"BGAF | "Gm"DFGF     DFGF |     DEDC "D7"B,CA,B, |
+|  "Gm"G,FGF DFGF | "Gm"DFGA     B3c  | "Bb"dcBA "Cm"BAGF | "Dm"DGGF "Gm"GABc |]
+[| "Gm"dGGc  GGBG |     GAGG     AGAc |  "F"dFFc     FFBF |     FAFF     AGAc |
+|  "Eb"dEEc  EEBE |     EAEE     AGAc | "Bb"dcBA "Cm"BAGF | "Dm"DGGF "Gm"G4   |]
+
+X:38
+T:Champion's Hornpipe, The 1a
+R:hp 32
+S:Gavin Atkin
+M:4/4
+L:1/8
+Q:2/4=90
+K:Em
+B,|:E>FG>A .B2e>B|c>B (3ABc .B2e>B|\
+c>B (3ABc B>AG>B|1A>G (3FGA G>FE>D:|2A>GF>G .E2E|]
+B|:(3ddd e>d .B2G2|(3ggg a>g .e2c2|\
+D>EF>G A>Bc>d|1e>d^c<d .B2B2:|2e>d^c<d .G2G|]
+
+X:39
+T:Champion's Hornpipe, The 1b
+R:hp 32
+B:Honeyman's (19th Century Fiddle Tutor)
+M:4/4
+L:1/8
+Q:2/4=90
+K:G
+|:EFGA Be2B|cBA/B/c Be2B|cBAc BAGB|AGFG E2D2|
+EFGA Be2B|cBA/B/c Be2B|cBAc BAGB|AGFG E2D2:|]
+|:dded BG2z|ggag ec2z|DEFG ABcd|ed^cd B4|
+dded BG2z|ggag ec2z|DEFG ABcd|ed^cd G4:|]
+
+X:40
+T:Champion, The
+R:jig 32
+C:Trad. ed. Barry Callaghan
+S:'Hard Core English' page 57B
+O:England and USA
+B:Hard Core English ISBN 978 085418 201 5
+Z:PJHeadford 2008
+M:6/8
+L:1/8
+Q:1/8=140
+K:Dmaj
+|:FBc dcB|fBc dcB|c^AF cAF|fgf edc|\
+FBc dcB|fBc dcB|f3 f2e|dBB B3:|
+|:A3 G3|FAd fdA|GAc ecA|FAd fdA|\
+A3 G3|FAd fdA|GAc ecA|dAf d3:|]
+
+X:41
+T:Chatham Hornpipe
+R: hp 32
+M:C
+L:1/8
+Q:2/4=80
+C:B part Paul Davenport, arr. Taz Tarry
+K:D
+|:A2|d2cB AGFE|D2EF G2AG|F2dB A2ef|gfed dcBA|
+d2cB AGFE|D2EF G2AG|F2dB Agec|d2dd d2:|]
+|:AA|A2fA A2fA|B2gB B2gB|A2fA A2ff|gfed dcBA|
+A2fA A2fA|B2gB B2cB|A2dc Bgec|d2dd d2:|]
+
+X:42
+T:Clare's Dragoons
+R: polka 32 march
+M:4/4
+L:1/8
+K:D
+Q:1/4=140
+|F2 A2 A2 Bc| d3/2c/de d2 AG | F2 A2 A2 ef | g3/2f/ed B2 AG |
+|F2 A2 A2 Bc| d3/2c/de f3 g | a2 d2 B2 g2 |1 f2 e2 dcBA :|2 f2 e2 d3 e|
+|f2a2e2f2| d3 ef3 d|f2a2e2f2| gfed B3 g|
+|f2a2e2f2|d3 ef3 g|a2d2B2g2|f3 ed2||
+
+X:43
+T:Coleford Jig, The
+R:hp 32
+Z:P J Headford
+M:4/4
+L:1/8
+Q:1/4=140
+K:D
+|:.F2F2 DFA2|dAFD E2E2|DF((3ABc) d2df|edcB ABAG|
+.F2F2 DFA2|dAFD. E2E2|DFAd cdec|d2d2 d4:|
+|:Acef gfge|defg a2f2|g2 ((3efg) f2 ((3def)|edcB ABAG|
+.F2F2 DFA2|dAFD. E2E2|DFAd cdec|d2d2 d4:|]
+
+X:44
+T:Coleford Jig, The
+R:hp 32
+Z:P J Headford
+M:4/4
+L:1/8
+Q:1/4=140
+K:D
+|:.F2F2 DFA2|dAFD E2E2|DF((3ABc) d2df|edcB ABAG|
+.F2F2 DFA2|dAFD. E2E2|DFAd cdec|d2d2 d4:|
+|:Acef gfge|defg a2f2|g2 ((3efg) f2 ((3def)|edcB ABAG|
+.F2F2 DFA2|dAFD. E2E2|DFAd cdec|d2d2 d4:|]
+
+X:45
+T:Collier's Rant, The
+R:jig 32
+M:6/8
+L:1/8
+K:G
+Q:1/4=140
+B| Bee ddd| ccc B2 B| Beed-d d| ccc B2 B| Bee d2 d| ccc B2 A| G3/2 F/2 E G2 A|\
+B3/2 ^A/2 B E3| G3/2 F/2 E G2 A| B3/2 A/2 G B/2 d3/2 z| G3/2 F/2 E B2 A|\
+B3/2 ^A/2 B E3| G3/2 F/2 E G2 A| B3/2 A/2 G B/2 d3/2 ^d| e3/2 e/2 B c3/2- B/2- A|\
+B3/2 ^A/2 B E3|
+
+X:46
+T:Come Lasses and Lads
+R:jig 20
+M:6/8
+L:1/8
+R:Jig
+K:G
+GAB g2g | agf e2g | ded d2B | (d3 d2) B | B2e e^de | B2e e2f | gfe f2^d | (e3e2)
+d | ded g2f | (e3e2)e | efe a2g | (f3 f)ga | b2g a2f | gfe d2B | cde dgf | (g3g2)|
+a| b2g a2f | gfe d2B | cde dgf | (g3g2)
+w:the song is a 20 bar tune
+
+X:47
+T:Come Lasses and Lads
+R:jig 24
+M:6/8
+L:1/8
+R:Jig
+K:G
+GAB g2g | agf e2g | ded d2B | (d3 d2) B | B2e e^de | B2e e2f | gfe f2^d | (e3e2)|
+d |ded g2f | (e3e2)e | efe a2g | (f3 f)ga | b2g a2f | gfe d2B | cde dgf | (g3g2)|
+d |ded g2f | (e3e2)e | efe a2g | (f3 f)ga | b2g a2f | gfe d2B | cde dgf | (g3g2)|
+
+X:48
+T:Come Lasses and Lads
+R:jig 32
+M:6/8
+L:1/8
+R:Jig
+K:G
+GAB g2g | agf e2g | ded d2B | (d3 d2) B | B2e e^de | B2e e2f | gfe f2^d | (e3e2) :|
+|: d | ded g2f | (e3e2)e | efe a2g | (f3 f)ga | b2g a2f | gfe d2B | cde dgf | (g3g2) :|
+
+X:49
+T: Comet (The)
+R: hp 32
+M: 4/4
+L: 1/8
+S: Luke O'Malley vol 1
+Z: B.Black
+R: hornpipe
+K:F
+(3AB=B|cFAc dFBd|(3cdc Ac fef^f|gceg bcag|\
+(3fgf ef c2 (3AB=B|
+cFAc dFBd|(3cdc Ac fef^f|gebg ecBG|1\
+(3FAc (3fac' f'2 :|2 F2 A2 F2||
+(3ef^f|gceg beag|fAcf a2 g^f|gc'=ba (3gag (3fed|
+(3ceg (3c'ge c2 (3A,B,=B,|(3C=B,C A,C FAc^c|
+(3d^cd DF Bdfb|ac'fa gbeg|f2 a2 f2 :|
+
+X:50
+T: Corn Riggs
+R: polka 32
+M: 4/4
+L: 1/8
+Q:1/4=165
+K:Gmaj
+D2|G3 A B2AG| F2 G2 A2D2| G2 A2 BAGA| B2 e2 d2D2|
+G3 A B2 AG| F2 G2 A2D2| E2F2 AGFE | D2G2 G2:|
+A2|B2d2 B2d2 | edcB A2A2| B2d2 B3A| G2 e2 d4|
+B2d2 B2d2 | edcB A2D2|  E2F2 AGFE | D2G2 G2:|
+
+X:51
+T:Covent Garden Row
+C:Trad ed. PJHeadford
+R:slipjig
+S:Snowshill Manor
+N:SH.004
+M:9/8
+L:1/8
+Q:3/8=110
+P:A2
+K:D
+P:A
+|:d2A AFA AFA|d2d def g2f|e2e efe cde|A2A ABc d3:|] :a2a aba ^g2e|=g2g
+|gag f2e|d2d dcd efg|A2A ABc d3:|]
+
+X:52
+T:Cream Pot, The
+R:jig 48
+C:Trad arr. P J Headford
+Z:P J Headford 2004
+M:6/8
+L:1/8
+Q:3/8=110
+K:G
+|:G2A B2c|dBd efg|G2A B2c|dBG AFD|\
+E2C- CEG|F2D D2c|B/c/dB cAF|G3 G3:|]
+K:D
+|:d2e f2g|afd ecA|faf ege|fdf ecA|\
+B2G GBd|c2A A2g|faf gec|d3 d3:|]
+K:G
+|:B2g gdB|B2g gdB|A2A ABc|B2G AFD|\
+E2C CEG|F2D D2c|BdB cAF|G3 G3:|]
+
+X:53
+T:Cuckoo's Nest - Bledington
+R:hp 24
+M:2/2
+L:1/8
+K:Em
+GAGF E2 e2|B2 B2 A2 B2|FAFE D2 EF|G2 A2 E4:||
+e2 e2 e2 fe|d2 B2 B3 ^c|d2 d2 d2 ed|^c2 A2 A4|
+GAGF E2 e2|B2 B2 A2 B2|FAFE D2 EF|G2 A2 E4:||
+
+X:54
+T:Cuckoo's Nest, Longborough 1
+R:hp 24
+A:Longborough
+P:A(AB2)4A
+M:4/4
+L:1/8
+K:G
+P:A
+|:BcBA G2g2|dedB c2Bc|dcBA GFGA|B2G2 G4:|
+P:B
+d2d2 d2ed|c2A2 A2AB|c2c2 c2dc|B2G2 G4 |
+BcBA G2g2|dedB c2Bc|dcBA GFGA|B2G2 G4||
+
+X:55
+T:Cuckoo's Nest, Sherborne
+R:hp 24
+A:Sherborne
+P:A(AB)5A
+M:2/2
+L:1/8
+K:GDOR
+P:A
+|:BcBA G2g2| d2d2 c2d2| AcAG F2GA|B2c2 G4:|
+P:B
+|:g2g2 g2ag|^f2d2 d3e |=f2f2 f2gf|e2c2 c4 |
+BcBA G2g2| d2d2 c2d2| AcAG F2GA|B2c2 G4:|
+
+X:56
+T:Cuckoos Nest 225
+R:hp 32
+C:Trad arr. P J Headford
+S:John Clare (1793-1864)
+O:England, Northampton MS. 12 Deacon 225
+B:ISBN 0-86300-008-8
+Z:P Headford
+M:4/4
+L:1/8
+Q:1/4=140
+K:D
+(AG)|F2ED f2ed|cAFA B2AG|FEFD =C2EG|c2G2 A2AG|
+F2ED f2ed|cAFA B2BG|FDFD =CDEG|F2D2 D2:||
+A2|d2d2 dfed|c2A2 A2AB|c2c2 cedc|B2G2 G2AG|
+FEFD dfed|cAFA B2AG|F2ED =CDEG|F2D2 D2:|]
+W:Original in key of F.
+
+X:57
+T:Cuckoos Nest. JC.225
+R:hp 32
+A:Northamptonshire
+F:http://richardrobinson.tunebook.org.uk/tune/7707
+L:1/8
+M:C|
+N:Song text exists. See Deacon.
+O:England
+Q:2/4=60
+S:John Clare,Poet,Helpstone (1793-1864)
+Z:vmp.P. Headford
+%%TBL:{"version":"beta","type":"tune","id":"7707"}
+K:F
+(cB)|\
+A2GF a2gf|ecAc d2cB|AGAF E2GB|e2B2 c2cB|!
+A2GF a2gf|ecAc d2dB|AFAF EFGB|A2F2 F2:|!
+|:c2|f2f2 fagf|e2c2 c2cd|e2e2 egfe|d2B2 B2cB|!
+AGAF fagf|ecAc d2cB|A2GF EFGB|A2F2 F2:|
+
+X:58
+T:Cumberland Waltz, The
+R:waltz 64
+A:North-West
+M:3/4
+O:England
+R:Waltz
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/tune/1312
+K:D
+AA|\
+D2F2 AA| D2F2 AA| D2F2 A2| "tr"f4g2| f2e2d2| A4B2| A2F2D2| E4AA|\
+D2F2 AA| D2F2 AA| D2F2 A2| "tr"f4g2| f2e2 d2| A4 AA| A2c2 e2| d4||\
+A2|\
+f4 d2| e4 d2| ccc2B2| G4 A2| BBB2A2| BBB2A2| BcB2 A2| (F2A2) A2|\
+f4 d2| e4 d2| ccc2B2| G4 A2| BBB2A2| BBB2A2| A2c2e2| d4|]
+
+X:59
+T:Dance of the Demon Daffodils
+M:4/4
+R:polka 48
+K:Emin
+eeee ^d2 e2|B2 ee ^d2 e2|f2 B2 a2 B2|ggge f4|
+eeee ^d2 e2|B2 ee ^d2 e2|ccce B2 GA|^A2 B2 E4:||
+G2 dd ^c2 d2|G2 d2 ^c2 d2|A2 ee ^d2 e2|A2 e2 ^d2 e2|
+B2 BB g4|B2 BB f4|e2 BB BBBB|^A2 B2 G2 F2|
+E2 BB ^A2 B2|G2 e2 ^d2 e2|B2 ff=f2 ^f2|B2 b2 ^a2 b2|
+ggge f4|ggge f3 B|ggge f2 B2|^A2 B2 E4||
+
+X:60
+T: Dancing Bear, The
+R:hp 32 reel
+C: Bob McQuillen  2/22/78
+N: Bob wrote:
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+N: I have a wonderful friend who is a Bear named Oso and this tune is for
+N:m because he
+N: likes it. Barry Nielson likes it too, and so its for him, too, with lov
+N:from Mac.
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K:Em
+|: "Em"EFGF EFGF | EFGA G2E2 |  "A"EFGF EFGF |     EFGA G2E2 |
+|  "Em"EFGF EFGF | EFGA B4   | "B7"B2Bc BAGF | "Em"G2E2 E4  :|
+|: "Em"e2ef gfef | gfe2 e4   |  "A"e2ef gfef |     gfe2 e4   |
+|   "C"e2ef gfef | gfe2 e2dc | "B7"B2Bc BcBA | "Em"GFE2 E4  :|
+
+X:61
+T:Dark Girl Dressed in Blue
+R:polka 32
+B:English Choice, Nick Barber, pub mally.com
+M:2/2
+L:1/8
+Q:1/4=180
+K:D
+|:"D"A3G F3G|"D"AB=cA "G"B2G2|
+"D"A3G F3G|A2dc d4|
+"D"A3G F3G|"D"AB=cA "G"B2G2|
+"D"A2d2 "A"cdec|1"D"d2f2 d4:|2
+"D"d2f2 d2e2||
+:"D"f2a2 "A"g2fe|"G"d3B "A"A4|
+"D"f2a2 "A"gfe2|"D"d6 e2|
+f2a2 "A"g2fe|"G"d3B "A"A2B2|
+"C"=c4 B2A2|"G"G2A2 "C"=c2B2:|]
+
+X:62
+T:Dark Island
+R:Waltz 32
+M:3/4
+L:1/8
+Q:1/8=180
+K:Em
+E |"Am" A3 E A2 | "G"G3 A G2 | "Am"E3 D E2 | "G"D4 GA |
+"G"B3 A G2 | "G"B d3 D2 | "G"B3 d B2 | "Am"A4 DE |
+"Am"A3 E A2 | "G"G3 A G2 | "Am"E3 D E2 | "G"D4 GA |
+"G"B3 DdB | "Am"A3 DBA | "G"G6 | "G"G4 |]
+Bc | "G"d3 D D2 | "G"B3 A G2 | "Am"E C3 E2 | "G"D4 GA |
+"G"B3 A G2 | "G"B d3 D2 | "G"B3 d B2 | "Am"A4 DE |
+"Am"A3 E A2 | "G"G3 A G2 | "Am"E3 D E2 | "G"D4 GA |
+"G"B3 DdB | "Am"A3 DBA | "G"G6 | G4 |]
+
+X:63
+T:Day Room, the
+R:jig 32
+M:6/8
+L:1/8
+Q:1/4=180
+C:Paul Burgess (c)
+R:jig 32
+Z:Neil Gledhill (Old Swan Band)
+K:G
+|:E2E EFG|AGF E2E|FED d2D|FED d2D|
+E2E EFG|AGF E2E|FED d2F|1E3- E2D:|2E3 F3||!
+:G2G GAB|G2G GAB|DcB AGE|DcB AGF|
+G2G GAB|G2G GAB|DcB AGF|1G3- G2D:|2G3 F3|]
+
+X:64
+T:Dear Tobacco
+R:hp 32 reel
+M: 4/4
+L:1/8
+Q:1/4=140
+B:Charlton Memorial Tunebook (northumbrian Pipers' Society)
+K:Edor
+BE EF G/F/E/D/ F2 | BE Ec d>cBA | BE EF G/F/E/D/ F2 | D>E Dc dc BA :|
+|:Be ef g/f/e e2 Be eg | af ge Bd de | d/c/B/A/ d2 FA AF dc BA :|
+
+X:65
+T: Dear Tobacco
+R:hp 32 reel
+M: 4/4
+L: 1/8
+R: reel
+K:Gmaj
+eAAc BG A2|eAAf gfed|eAAc BG B2| G2 GB dedB:|
+efge fga2| efge dedB|efge fg A2| G2 GB dedB:|
+
+X:66
+T:Devil Among the Tailors
+T:De'il Among the Tailors
+R:hp reel 32/16
+O:England
+S:Thompson 1772
+M:4/4
+L:1/8
+Q:2/4=90
+K:A
+|:eg|a2eg a2eg|a2ea fedc|dfBf dfBf|dfba gfeg|
+a2eg a2eg|a2ea fedc|defd ecBA|E2G2 A2:|]
+|:ed|ceAe ceAe|ceag fedc|dfBf dfBf|dfba gfed|
+ceAe ceAe|ceag fedc|defd ecBA|E2G2 A2:|]
+
+X:67
+T:Devil Among the Tailors
+T:De'il Among the Tailors
+R:hp reel 32/16
+O:England
+S:Thompson 1772
+M:4/4
+L:1/8
+Q:2/4=90
+K:G
+|:df|g2df g2df|g2dg edcB|ceAe ceAe|ceag fdef|
+g2df g2df|g2dg edcB|cdec dBGE|DGFA G2:|]
+|:dc|BdGd BdGd|Bdgf edcB|ceAe ceAe|ceag fedc|
+BdGd BdGd|Bdgf edcB|cdec dBGE|DGFA G2:|]
+
+X:68
+T:Devon Bonny Breast Knots
+T:Bonny Breast Knots (Devon)
+R:hp 16 reel
+C:Trad arr. P J Headford
+Z:PJHeadford 2009
+M:2/4
+L:1/8
+Q:1/4=160
+K:G
+|:G2BG F2A2|.D2e2 dcBA|G2BG F2A2|d^cdA F2D2:|
+K:D
+|:f2d2 f2a2|edcd efge|f2d2 f2a2|cdec d4:|]
+
+X:69
+T:Devon Steamboat
+T:Steamboat
+R:hp 32
+M:4/4
+L:1/8
+Q:2/4=80
+C:Trad arr. P J Headford
+R:hp 32
+Z:P J Headford
+K:G
+|:g2gBd2d2|BcdB G2GA|B2BBB2B2|dcBcA2A2|
+g2gBd2d2|BcdB G2GA|B2BBd2g2|ecAFG4:|]
+|:GABc d2G2|FGAB cBA2|GABcd2g2|agfe dcBA|
+GABc d2G2|FGAB cBA2|GABc defg|ecAFG4:|]
+W:Collected in Devon
+
+X:70
+T:Devoran Reel
+C:Jimmy Shand
+R:polka 32 reel
+Z:PJHeadford from memory
+M:4/4
+L:1/8
+Q:2/4=90
+K:D
+|:F2|D2D2 FEDF|A2A2 BAFA|d2d2 e2de|f2e2 egfe|
+D2D2 FEDF|A2A2 BAFA|d2d2 e2de|f2d2 d2:|
+|:e2|f2f2 f2ed|e2A2 A4|B2B2 G2BG|B2A2 A4|
+G2G2 E2GE|F2A2 d4|BAGF EFGA|F2D2 D2:|]
+
+X:71
+T:Dorset Four Hand Reel
+R:polka 32 reel
+S:from the playing of Mary Motley
+Z:Lewes
+M:4/4
+L:1/8
+Q:1/4=180
+K:G
+|:GABc d2B2|c2e2 c2e2|GABc d2B2|c2A2 A4|
+GABc d2B2|c2e2 c2e2|GABc d2B2|A2G2 G4:|
+|:g2g2 gfe2|d2d2 dcB2|A3B c2d2|e2d2 e2f2|
+g2g2 gfe2|d2d2 dcB2|A3B c2F2|A2G2 G4:|]
+
+X:72
+T:Double Figure Eight
+R:polka 32
+Z:P J Headford
+M:2/4
+L:1/8
+Q:1/4=180
+K:D
+|:A2|d2A2 F2A2|B2e2 dcBA|d2f2 agfe|d2f2 agfe|
+d2A2 F2A2|B2e2 dcBA|d2f2 agfe|d2c2 d2:|]
+|:ef|gfed cdef|gfed cBA2|g2g2 gfed|cBA2 A2Bc|
+d2A2 F2A2|B2e2d cBA|d2f2 agfe|d2c2 d2:|]
+
+X:73
+T:Double Lead Through
+R:polka 32 rant
+C:Trad. arr. P J Headford
+Z:P J Headford
+M:4/4
+L:1/8
+Q:1/4=180
+K:G
+|:g2d2 c2A2|G2G2 GABG|E2E2 F2F2|G4 G4:|
+|:A2dd ^c2d2|A2dd ^c2d2|1A2d2 e2d2|f4 fedB:|2
+A2g2 f2e2|d2c2 B2A2||
+|:G2G2 GABG|A2A2 ABcA|Bcd2 cde2|e2d2 d2ef|
+g2g2 gfe2|d2de dcB2|ABc2 Bcd2|1egfe dcBA:|2
+e2f2 g4|]
+
+X:74
+T: Dribbles Of Brandy
+R: jig 32
+M:6/8
+L:1/8
+Q:1/8=140
+K:Emin
+"Em"EGE G2A|"Em" B2e dBG| "D"A2B cBA|"Bm" BAG FED|
+"Em"EGE G2A| "Em"B2e dBG| "D"A2B cBA| "Em"BGE E3:|
+"Em"e2f g2e|"D" fag fed|"C" e2f g2e|"Bm" fed "Em"e3|
+"Em"e2f g2e|"D" fag fed| "Em"e2B cBA| "Em"BGE E3:|
+
+X:75
+T:Drops of Brandy [A dorian] %1b
+R:slip 16
+S:Thomas Hardy collection
+O:England; Dorset
+Z:PJHeadford 2011
+M:9/8
+L:1/8
+Q:3/8=110
+P:A2
+K:Ador
+P:A
+|:e2d cAc cAc|e2d cAc dcB|e2d cAc cAc|dcd B2c dcB:|] :Ace aec aec|Ace
+|aec dcB|Ace aec aec|dcd B2c dcB:|]
+
+X:76
+T:Duke of Marlborough
+R:polka 32
+S:Rees Wesson
+Z:P J Headford
+M:2/4
+L:1/16
+Q:1/4=110
+K:D
+|:D2F2 FGFE|D2F2 FGFE|C2E2 EFED|C2E2 EFGF|
+D2F2 FGFE|D2F2 A2d2|cBA2 G2E2|D4 D4:|]
+|:d3c d3c|d2f2 e2d2|c2A2 A3B|c2d2 e2c2|
+d3c d3c|d2f2 e2d2|cBA2 G2E2|D4 D4:|]
+
+X:77
+T:Durham Rangers, The
+R:polka 32
+S:Lesley Dolman, via EF
+M:4/4
+L:1/4
+K:D
+P:A
+F/2G/2|"D"A/2B/2A/2F/2 Ad/2e/2|"D"f/2g/2e/2f/2 dd/2A/2|\
+"G"B/2c/2d/2B/2 "D"A/2B/2A/2F/2|"Em"GE "A7"EF/2G/2|
+"D"A/2B/2A/2F/2 Ad/2e/2|"D"f/2g/2e/2f/2 dd/2A/2|\
+"G"B/2c/2d/2B/2 "A7"A/2B/2A/2G/2|"D"FD D:|
+P:B
+a/2g/2|"D"f/2e/2f/2g/2 a/2f/2d/2f/2|"A7"e/2d/2c/2B/2 "D"A/2d/2f/2a/2|\
+"G"gb/2g/2 "D"fa/2f/2|"Em"ge "A7"eF/2G/2|
+"D"A/2B/2A/2F/2 Ad/2e/2|"D"f/2g/2e/2f/2 dd/2A/2|\
+"G"B/2c/2d/2B/2 "A7"A/2B/2A/2G/2|"D"FD D:|
+
+X:78
+T: Earl Of Mansfield's March, The
+M: 4/4
+L: 1/8
+R: hp 32 march
+K:Dmaj
+Q:1/4=140
+|: f<e |\
+d3 e d2 A2 | d>ef>g a2 g<f | e3 f e2 A2 | c>de>f g2 f<e |
+d3 e d2 A2 | d>ef>g a2 g<f | g2 e2 c2 A2 | d4 d2 :|
+|: ag |\
+f2 d2 d2 a>g | f2 d2 d2 e<f | g2 A2 c2 e2 |
+[1 c2 A2 A2 a>g | f2 d2 d2 a>g | f2 d2 d2 e<f | g2 e2 c2 A2 | d4 d2 :|
+[2 c2 A2 A3 B/c/ | d3 e d2 A2 | d>efg a2 g<f | g2 e2 c2 a2 | d4- d2 |]
+
+X:79
+T:East Neuk of Fife
+R:hp 32 reel
+S:Kevin Briggs, via EF
+M:4/4
+L:1/4
+K:G
+P:A
+Q:1/4 = 180
+D|"G"GG GB/2c/2|"G"d/2B/2G/2B/2 d/2B/2G/2B/2|"Am"AA Ag/2f/2|\
+"C"ee/2d/2 e/2f/2g/2e/2|
+"G"d/2c/2B/2A/2 G/2A/2B/2c/2|"G"d/2B/2G/2B/2 dc/2B/2|\
+"D"A/2B/2c/2d/2 B/2c/2A/2B/2|"Em"GE E:|
+P:B
+d/2c/2|"G"BG Gd/2c/2|"G"BG Ge/2d/2|"C"cA Af/2g/2|"D7"aA AB/2c/2|
+"G"dG BG|"C"g/2f/2g/2e/2 "G"dB|"D"A/2B/2c/2d/2 B/2c/2A/2B/2|"Em"GE E:|
+
+X:80
+T:Elterwater Quickstep
+M:6/8
+L:1/8
+K:G
+B/c/|d>BG d>BG|c2e efg|d>BG d>BG|F<AA A2B/c/|
+B>AG B>AG|c2e efg|d>BG c>AF|A3 G2:|
+|:g/a/|b>ag a>gf|g>fe d>cB|cde d>BG|B3 A2 g/a/|
+b>ag a>gf|g>fe d>cB|c2e dBG|A3G2:|
+
+X:81
+T:Engelska
+R:hp 32 reel
+C:Trad. arr. Ian Dedic
+O:Sweden
+N:cf English tune Liverpool Hornpipe
+M:4/4
+L:1/8
+Q:2/4=70
+K:D
+|:D2FA Adef|gfed dcBA|G2BG F2AF|E2AG GFEF|
+D2FA Adef|gfge dcBA|gfge dcBc|d2f2 d4:|]
+|:Adfd Acec|Adfe Acec|AGBG F2AA|AGBG F2AA|
+Adfd Acec|Adfd Acec|ABcd egec|e2d2 d4:|]
+
+X:82
+T:Engelska efter Johan August Nilsson, Munkedal
+R: hp 32 reel
+N:From the playing of Johan August Nilsson, Bohuslän county
+M:2/4
+Q:1/8=140
+R:polka 32 schottische
+K:D
+|:D2FA Adef|gfed dcBA|G2BG F2AF|E2A2 GFE2|D2FA Adef|gfed dcBA|gfge
+dcBc|d2f2 d2z2:||:Adfd Acec|Adfd Acec|AGBG F2AA|AGBG F2AA|Adfd
+Acec|Adfd Acec|ABcd egec|e2d2 d2z2:||
+
+X:83
+T:Engelska efter Johan August Nilsson, Munkedal
+R:hp 32 reel
+N:From the playing of Johan August Nilsson, Bohuslän county
+M:2/4
+Q:1/8=140
+R:hp 32 reel
+K:D
+|:D2FA Adef|gfed dcBA|G2BG F2AF|E2A2 GFE2|D2FA Adef|gfed dcBA|gfge
+dcBc|d2f2 d2z2:||:Adfd Acec|Adfd Acec|AGBG F2AA|AGBG F2AA|Adfd
+Acec|Adfd Acec|ABcd egec|e2d2 d2z2:||
+
+X:84
+T:Engelska fr\aa{}n Bohuslän
+N:used by Ian Dedic & Smiffs
+S:efter J.A. Nilsson, Munkedal
+R:polka 32 schottische
+Q:1/4=90
+O:Sweden
+M:2/4
+L:1/16
+B:Svenska L\aa{}tar Bohuslän nr.57
+A:Bohuslän
+K:D
+[A,2D2]FA (Ad)ef|(gf)ed (dc)BA|G2[G2B2] F2[F2A2]|[A,2E2]A2 GFE2|
+[A,2D2]FA (Ad)ef|(gf)ge (dc)BA|(gf)ge (dc)Bc|d2[d2f2] [d2f2] z2:|
+|:(Ad)fd (Ac)ec|(Ad)fd (Ac)ec|(AG)BG F2AA|(AG)BG F2AA|
+(Ad)fd (Ac)ec|(Ad)fd (Ac)ec|(AB)cd (eg)ec|e2[d2f2] [d2f2] z2:|
+
+X:85
+T:Engelska fr\aa{}n Bohuslän (efter Johan August Nilsson)
+R:polka 32 schottische
+O:england
+C:Groupa: Vildhonung
+S:RRtunes
+N:1/4=90
+M:2/4
+L:1/16
+K:C
+C2EG (Gc)de|(fe)dc (cB)AG|F2AF E2GE|D2G2 FED2|
+C2EG (Gc)de|(fe)fd (cB)AG|(fe)fd (cB)AB|c2e2 c2 z2:|
+|:(Gc)ec (GB)dB|(Gc)ec (GB)dB|(GF)AF E2GG|(GF)AF E2GG|
+(Gc)ec (GB)dB|(Gc)ec (GB)dB|(GA)Bc (df)dB|d2c2 c2 z2:|
+
+X:86
+T:Engelska fræn Bohuslän
+R:hp 32 reel
+S:efter J.A. Nilsson, Munkedal
+M:2/4
+L:1/16
+Q:1/4=90
+K:D
+[A,2D2]FA (Ad)ef|(gf)ed (dc)BA|G2[G2B2] F2[F2A2]|[A,2E2]A2 GFE2|
+[A,2D2]FA (Ad)ef|(gf)ge (dc)BA|(gf)ge (dc)Bc|d2[d2f2] [d2f2] z2:|
+:(Ad)fd (Ac)ec|(Ad)fd (Ac)ec|(AG)BG F2AA|(AG)BG F2AA|
+(Ad)fd (Ac)ec|(Ad)fd (Ac)ec|(AB)cd (eg)ec|e2[d2f2] [d2f2] z2:|
+
+X:87
+T:Englands Glory JC.117
+R:hp 16 reel
+C:Trad arr. P J Headford
+S:John Clare (1793-1864)
+O:Northampton MS.12 Deacon 117
+A:Northamptonshire
+B:ISBN.0-86300-008-8
+Z:P Headford
+R:reel 24
+M:2/2
+L:1/8
+Q:1/4=120
+K:G
+d|gfgd cBAG|FGAB cAAf|gfgd cBAG|DGAc BGGd|
+gfgd cBAG|FGAB cAAf|gfgd cBAG|DGAc BGG||
+|:z|DGBG DGBG|DGBG cAAB|DGBG DGBG|dedB BGGB|
+DGBG DGBG|DGBG cAAB|cdef gedc|BdAc BGG:|]
+
+X:88
+T:Enrico
+R:hp 32
+M:4/4
+L:1/8
+R:reel
+K:Dmaj
+A |: d2fe dcdB | ABAG F2A2 | d2f2 gfgf | e2a2 a2fe |
+d2fe dcdB | ABAG F2A2 | B2gf edec | d2f2 d2z2 :|
+|: a2ag fgfe | dedc B2B2 | g2gf efed | cdcB A2Bc |
+d2d2 cecA | d2d2 cecA | B2gf edec | d2f2 d2z2 :|
+
+X:89
+T:Evening Star
+T: Martha's Comet
+M:4/4
+L:1/8
+K:C
+
+X:90
+T: Faraway
+R: waltz 32
+M: 3/4
+L: 1/8
+C: Peter Jung 1985 (an Englishman in New York)
+K:Bmin
+z4 FA |B2 BA Bd |cA F2 FA |B2 BA B3/4c/e3/4 |
+c4 dc |B2 BA B3/4c/d3/4 |cB A2 de |fe dc BA |
+B3 A FA |B2 BA Bd |cA F2 FA |B2 BA B3/4c/e3/4 |
+c4 dc |B2 BA B3/4c/d3/4 |cB A2 de |fe dc BA |
+B3 c de |f2 fe f3/4g/a3/4 |ec A2 de |f2 fe f3/4g/a3/4 |
+e4 de |fd Be cA |dB Gd BG |F2 B2 BA |
+B3 c de |f2 fe f3/4g/a3/4 |ec A2 de |f2 fe f3/4g/a3/4 |
+e4 de |fd Be cA |dB Gd BG |F2 B2 BA |
+B3 A FA |]
+
+X:91
+T:Farewell to Devon
+R:waltz 32
+C:Pat Shaw
+Z:John Chambers <jc@trillian.mit.edu>
+M:3/4
+L:1/8
+K:G
+Q:1/4=140
+d2 \
+|  "G"g3 f ed |     B2 d4        | "D7"G2 G2 A2 |  "G"B4 d2    \
+| "Em"g3 f ed | "Bm"B2 d4        | "A7"BA G2 B2 | "D7"A4 d2    |
+|  "G"g3 f ed | "Bm"d2 B4        |  "C"e3  d cB | "Em"B2 G4    \
+| "Am"c3 B AG |  "C"A3  G     FE | "D7"D2 B2 A2 |  "G"G4 D2   ||
+|| "G"G3 A BA |     G2 D4        | "Am"A3  B cB | "D7"A2 D4    \
+|  "G"B3 c dc | "Em"B2 G2     cd | "Am"e3  d cB | "D7"A4 d2    |
+|  "G"B3 c dc | "Em"B2 G4        | "Am"c3  d ed | "D7"c2 A2 Bc \
+| "Bm"d3 e fd | "Em"g2 G2 "Am"c2 | "D7"B3  c A2 |  "G"G4      |]
+%%sep 1 1 500
+
+X:92
+T:Fiery Clock Face
+R:jig 32
+M:6/8
+L:1/8
+Q:1/4=140
+K:D
+|:A|dcd D2E|F2G A2B|=cBc E2F|G2A B2c|
+dcd D2E|F2G A2A|Bcd e2c|d3 d2:|!
+|:D/E/|F2F DEF|G2F E2D|C2B, A,2B,|C2D E2^E|
+F2F DEF|G2F E2D|CB,A, B,2C|D3 D2:|]
+" variant"
+|:A|d2d D2E|F2G A2B|=c2=c E2F|G2A B2c|
+d2d D2E|F2G A2A|Bcd edc|d3 d2:|
+|:e|f2f def|g2f e2d|c2B A2B|c2d e2e|
+f2f def|g2f e2d|cBA B2c|d3 d2:|]
+
+X:93
+T:First of May, The
+O:england
+R:hp 32
+M:C|
+K:Ador
+AG|EAAB cBcA|d^cde f2 (3def|gfe^c dfec|d^cAF G2AG|
+EAAB cBcA|d^cde f2 (3def|gfe^c dfec|A2AG A2:|
+|:fg|a2af g2ge|(3fga fd e2ed|^cdef gfge|d^cAF G2AG|
+EAAB cBcA|d^cde f2 (3def|gfe^c dfec|A2AG A2:|
+
+X:94
+T: Fish And Taters
+M: 2/4
+L: 1/8
+R: polka 32
+K:D
+"D"FA AB/c/|"D"dc "A"BA|"D"FA AB/c/|"G"dF "A"E"D"D|
+"D"FA AB/c/|"D"dc "A"BA|"D"Be ed/c/|"G"B"G"c "A    D"d2 :|
+"D"fd "A"de/f/|"D"ed "A"BA|"D"fd "A"de/f/|"G"ed ("A"e"D"e)|
+"D"fd de/f/|"D"ed "A"BA|"D"Be "A"ed/c/|"G"Bc "A      D"d2:|
+
+X:95
+T: Flight, The
+R:jig 32
+M: 6/8
+L:1/8
+Q:1/4=120
+K:Dmaj
+|:A|dfe dfe|d2A A2G|FAd Bcd|egf e2A|
+dfe dfe|d2A A2G|FAd Adc|d3 d2:|
+|:a|a2f dfa|b2g efg|a2d c2d|ecA A2a|
+a2f dfa|b2g efg|afd Adc|d3 d2:|
+
+X:96
+T:Flirtation Jig, The
+C:Trad. ed. P J Headford
+R:jig 32
+Z:PJHeadford 2011
+M:6/8
+L:1/8
+Q:3/8=120
+K:Am
+|:E|A2B c2d|ecA ecA|G2A B2c|ded dBG|\
+A2B c2d|ecA Bcd|efe dcB|A3- A2:|]
+A|EAA A2B|c2B c2A|G3- G2E|G3- G2A|\
+EAA A2B|c2B c2d|e3- e2c|e3- e2c|
+eee edc|d2d d2B|c2c cBA|B2B Bcd|\
+e3 d3|c3 B3|EAA A2^G|A3- A2|]
+
+X:97
+T:Flirtation Jig, The
+C:Trad. ed. P J Headford
+R:jig 32
+Z:PJHeadford 2011
+M:6/8
+L:1/8
+Q:3/8=120
+K:Bm
+|:F|B2c d2e|fdB fdB|A2B c2d|efe ecA|\
+B2c d2e|fdB cde|fgf edc|B3- B2:|]
+B|FBB B2c|d2c d2B|A3- A2F|A3- A2B|\
+FBB B2c|d2c d2e|f3- f2d|f3- f2d|
+fff fed|e2e e2c|d2d dcB|c2c cde|\
+f3 e3|d3 c3|FBB B2^A|B3- B2|]
+
+X:98
+T:Flowers of Edinburgh, The
+R:hp 32 reel
+C:Trad arr. P J Headford
+M:2/2
+L:1/8
+Q:1/4=140
+K:G
+|:GE|D2DE G2GA|BGBd cBAG|FGEF DEFG|A2FA D2GE|
+D2DE G2GA|BGBd efge|dcBA GFGA|B2G2 G2:|
+|:(3def|g2gf gbag|f2fe fagf|edef gfed|B2e2 e2ge|
+dBGB d2Bd|edef g2ge|dcBA GFGA|B2G2 G2:|
+
+X:99
+T:Flowing Tide (the)
+R:hp 16 reel
+M:2/2
+L:1/8
+Q:1/4=180
+K:G
+|:D|G2GB dGBd|GBdg bgag|egdg Bdge|dBAG edBA|
+G2GB dGBd|GBdg bgag|egdg Bdge|dBAB G3:|
+|:D|GFGB AGED|gfge dBGB|ceBd AcGB|(3cBA BG AGEG|
+DGBd BABd|(3cBA BG AGEG|DGBd gdBd|cAFA G3:|]
+" variation"
+|:BA|G3B dGBd|GBdg (3bag ag|
+(3efg (3ded (3Bcd ge|dBAG (3edB AF|
+G3B dGBd|GBdg (3bag ag|
+(3efg (3ded (3Bcd ge|dBAB G2:|
+|:(3DEF|GFGB AGED|g3e dBAG|
+(3cde (3Bcd (3ABc (3GAB|(3cBA (3BAG AGEG|
+DGBc B2Bd|(3cBA (3BAG AGEG|
+DGBd gdBd|(3cBA GF G2:|]
+
+X:100
+T:Foul Weather Call
+R:hp 32
+C:Trad. ed. Barry Callaghan
+S:'Hard Core English' page 36A
+O:England
+Q:1/4=140
+A:Sussex
+B:Hard Core English ISBN 978 085418 201 5
+Z:PJHeadford 2008
+M:4/4
+L:1/8
+Q:1/4=140
+K:D
+|:gfed e2a2|gfed dcBA|d2A2 BcdB|g2f2 e4|
+gfed e2a2|gfed dcBA|d3A BcdG|F2E2 D4:|
+|:GFED A2A2|Bcde dcBA|d2A2 BcdB|g2f2 e4|
+gfed e2a2|gfed dcBA|d3A BcdG|F2E2 D4:|]
+W:Welch. Popularised by Flowers and Frolics.
+
+X:101
+T:Four Seasons
+R:jig 48
+M:6/8
+L:1/8
+Z:C.G.P
+K:G
+|:d3 BGB|dcB A2D|G2D A2D|dcB A3|
+d3 BGB|dcB A2D|!G2D A2D|BcA G3:||
+FGF EFG|GFE F2D|FGF EFG|GFE F2A|
+FGF EFG|GFE F2D|FGF EFG|GFE D3:||
+ABA d3|ABA F3|!ABA GAG|EFG F2D|
+ABA d3|ABA F3|ABA GAG|EFE D3:||
+
+X:102
+T:Four Up
+R:polka 32 march
+C:Barry Goodman, 2001
+O:England, Morris
+Z:Paul Hardy's Session Tunebook 2010 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:4/4
+L:1/8
+Q:1/4=140
+K:Em
+"Em"E2 EF G2 GA|BA GB-BA G2|"Am"AF AB "D"AG F2|"Em"E2 F2 G2 F2|
+"Em"E2 EF G2 GA|BA GB-BA G2|"Am"AF AB "D"AG F2|"Em"G2 F2 E4:|
+|:"C"c2 c c2 c c2|"Em"BA GB-BA G2|"Am"AF AB "D"AG F2|"Em"G2 A2 B4|
+"C"c2 c c2 c c2|"Em"BA GB-BA G2|"Am"AF AB "D"AG F2|"Em"G2 F2 E4:|
+
+X:103
+T:Fourpence Halpenny Farthing
+R:jig 32
+C:Trad. ed. Barry Callaghan
+S:'Hard Core English' page 59B
+O:England
+B:Hard Core English ISBN 978 085418 201 5
+Z:PJHeadford 2008
+M:6/8
+L:1/8
+Q:1/4=120
+K:G
+|:D|G2A B2G|c2A B2G|G2A BAG|F3 "tr"TA3|\
+G2A B2G|c2A B2G|Bcd cAF|G3 G2:|
+|:c|BAG F2D|DED D2c|BAG F2D|E3 "tr"Tc3|\
+BAG F2D|DED D2c|Bcd cAF|G3 G2:|]
+W:Note to USA readers. 2 farthings=halfpenny, 2 ha'p'nies=1 penny,
+W:3 pennies=1 thrupn'y bit, 2 thrup'ny bits=1 tanner, 2 tanners=
+W:1 shilling or bob, 2 bob=1 florin, a florin + a tanner=1 half crown,
+W:four half crowns=1 ten bob note, two ten bob notes=1 pound or quid,
+W:1 quid + 1 bob= a guinea. The British resisted decimalisation for
+W:decades, because they thought it would be too complicated.
+W:Wisdom from Terry Pratchett, tune from Jackson (not identical to
+W:Playford). Also in Aird as Norickystie or the Wild Irishman, in
+W:Harrison, in Vickers as Kissed Behind the Garden.
+W:Halfpenny is pronounce haypnee, and abbreviated as ha'penny. Usually.
+
+X:104
+T:Fred Pigeon's No. 1
+R:polka 32
+Z:P J Headford
+M:2/4
+L:1/16
+Q:1/4=180
+K:G
+|:Bc|d2G2 G2AB|c2E2 E2G2|FGAB cBAc|e2d2 dcBc|
+d2G2 G2AB|c2E2 E2G2|FGAB cAF2|A2G2 G2:|
+|:ef|g2g2 g2ag|f2e2 e3B|c2c2 cBAc|e2d2 d2ef|
+g2g2 g2ag|f2e2 e3B|FGAG cAF2|A2G2 G2:|]
+
+X:105
+T:Freedom of Ireland (the)
+R:polka 32
+C:Rod Stradling
+Z:P Headford
+M:4/4
+L:1/8
+Q:2/4=90
+K:G
+|:.G2E2D2ED|GG.E2D3z/B/-|B2.d2A2BA|G2E2D2ED|
+GG.E2D2ED|.G2E2D3z/B/-|B2.d2A2BA|E8:|]
+B2.d2d2cB|c2.e2e4|.d2B2A2BA|.G2E2D4|
+B2.d2d2cB|c2.e2e3f|.g2f2.e2d2|e4e4|
+{f}.g2f2e2d2|efgeB4|.B2B2A2BA|G2.E2D2ED|
+.G2E2D2ED|.G2E2D3z|B2.d2A2BA|E8|]
+
+X:106
+T:Froggies First Jump
+R:polka 32
+M:4/4
+C:Dave Whetstone
+S:Over the Water
+N:
+A:Bampton
+O:Oxon.
+R:Reel
+K:G
+P:A
+dedc  BGBd  | c2 B2 A3 c | BcBA G2 B2 | A2 FG A4    |\
+dedc  BGBd  | c2 B2 A3 c | BcBG E2 F2 | G4    G4    ||\
+P:B
+AFGA  B2 A2 | G3  A G3 A | BGAB c2 e2 | d6       Bc |\
+d2 d2 c2 c2 | B2 B2 A3 c | BcBG E2 F2 | G4    G4    ||
+
+X:107
+T:Galopede, The
+R:polka 32=8*2+8+8 rant
+O:England
+Z:PJH
+M:2/4
+L:1/16
+Q:1/4=120
+K:G
+|:dc|B2Bc A2AB|G2G2 G2AB|cBcd edcB|AGFE D2dc|
+B2Bc A2AB|G2G2 G2AB|cBAG FDEF|G2G2 G2:|
+Bc|d2gf e2e2|dcBc A2Bc|d2gf edcB|A2D2 D2Bc|
+d2gf e2e2|dcBc A2Bc|dcBc AcBA|G2G2 G2Bc|
+d2d2 d2g2|d2d2 d2g2|d2Bd edcB|A2D2 D2Bc|
+d2d2 d2g2|d2d2 d2Bc|dcBc AcBA|G2G2 G2|]
+
+X:108
+T: Gaspe Reel
+R:hp 32 reel
+O:French Canadian
+M:C|
+L:1/8
+K:D
+|: "D"f2ef e2dB | AFA2 B2A2 | "A7"g2fg fecA | BABc ~B2A2 \
+|  "D"f2ef e2dB | AFA2 B2A2 | "A7"g2fg fecA | "A7"B2c2 "D"d4 :|
+|: "A7"e2f2 g2fe | "D"f2g2 a4 | "A7"e2f2 gecA | "(G)"BABc "A7"~B2A2 \
+|  "A7"e2f2 g2fe | "D"f2g2 a4 | "A7"e2f2 gecA | "A7"B2c2 "D"d4 :|
+
+X:109
+T:General Ward
+R:jig 32
+M:6/8
+L:1/8
+Q:1/4=180
+C:Paul Burgess
+S:Old Swan Band
+R:jig 32
+Z:P J Headford
+K:G
+|:D|GBd g2g|fga g2d|e2e efg|d2c B2B|
+c2c cdc|Bdg dBG|E2E FED|G3 G2:|!
+:G|A2D A2B|c2c Bcd|A2D A2B|cBA B2G|
+c2c cdc|Bdg dBG|E2E FED|G3 G2:|]
+
+X:110
+T:Getting Upstairs I Never Did See, (Such a)
+R:hp 32 reel
+C:Trad arr. P J Headford
+S:John Locke
+B:Opus Pocus - John Kirkpatrick & Sue Harris 1988 Dragonfly Music
+Z:P J Headford 2005
+M:4/4
+L:1/8
+Q:1/4=160
+K:G
+|:dc|B2G2 D2G2|FGAB cedc|B2G2 D2G2|FGAF G2:|\
+d2|B3c d2G2|B2c2 d4|
+e2d2 c2B2|A2B2 cedc|\
+B2G2 D2G2|FGAB cedc|B2G2 D2G2|FGAF G2|]
+
+X:111
+T:Girl with the Blue Dress on
+R:polka 32
+Z:Lewes
+M:4/4
+L:1/8
+Q:1/4=180
+K:G
+|:Bc|d2Bd c2Ac|B2G2 GFGB|A2F2 FEF2|A2GF G2Bc|
+d2Bd c2Ac|B2G2 GFGB|A2F2 FEFG|A2GF G2:|
+|:z|G2Bd g3f|f2e2 e3d|F2Ad f3e|e2d2 dcBA|
+G2Bd g3f|f2e2 e3g|fga2 e2f2|g4 g2:|]
+
+X:112
+T:Gloucester Hornpipe
+R:hp 32
+C:Trad arr. OSB
+S:Swan Upmanship
+Z:PJHeadford 2011
+M:4/4
+L:1/8
+Q:2/4=80
+K:G
+|:(3DEF|G2g2 g2dB|cBcd ef (3gfe|dBGB dBGB|cAFA cAFD|
+G2g2 g2dB|cBcd ef (3gfe|dBGB ecAF|G2B2 G2:|]
+|:A2|B2B2 BcdB|cBcd ef (3gfe|dBGB edcB|ABcA GFED|
+B2B2 BcdB|cBcd ef (3gfe|dBGB ecAF|G2B2 G2:|]
+
+X:113
+T:Gloucestershire Hornpipe, aka. JC.174
+R:hp 32
+S:John Clare,Poet,Helpstone (1793-1864)
+N:Untitled in MS
+O:England
+A:Northamptonshire
+Z:vmp.P. Headford
+M:C|
+L:1/8
+Q:2/4=90
+K:D
+AF|\
+D3d dAGF|G3B BcdB|AFAE BAGF|EFGE DCB,A,|!
+D3d dAGF|G3B BcdB|AFAF BGEC|D2D2 D2:|!
+|:z2|FDFD F/G/AA2|BGBG cde2|AFAF BAGF|EFGE DCB,G,|!
+FDFD FGA2|BGBG Bcd2|FAFA BGEC|D2D2 D2:|
+
+X:114
+T:Gloucestershire Hornpipe, The
+R:hp 32
+C:Trad. ed. OSB
+S:Gamesters, Pickpockets and Harlots
+Z:PJHeadford 2011
+M:4/4
+L:1/8
+Q:2/4=75
+K:G
+|:G,3G G2G2|AGAF G2GA|BABG cBcA|BABG FGAF|[G,3G3]G G2G2|
+AGAF G2G2|FGAB AGFE|1D2DE DCB,A,:|2D4D2|]
+|:dc|dcBA GFED|E2C2 C2ed|eded cBAG|F2D2 D2Bc|
+dBdB e2e2|dBdB e2e2|dgfe dcBA|G2B2 G2:|]
+
+X:115
+T:Go and 'List for a Sailor
+R:hp 32 reel
+O:England
+M:4/4
+K:G
+|:"Em"E2EF G2A2|B2e2 B2>^c2|"G"d2d2 d2FG|"D"ABAF D2F2|
+"Em"E2EF G2A2|B2e2 B2>^c2|"D"d2F2 A2GF|"Em"E4 E4:|
+|:"Em"e2e2 e2fe|"G"d2B2 B2^c2|"D"d2d2 d2FG|"Bm"ABAF D2F2|
+"Em"E2EF G2A2|B2e2 B2>^c2|"D"d2F2 A2GF|"Em"E4 E4:|
+
+X:116
+T:Grand Hornpipe, A
+R:hp 32
+M:C|
+L:1/8
+Q:1/2=70
+S:Henry Stables MS,Cumbria,late19thC
+O:Walthwaite,nr.Ambleside.
+A:England
+N:Played dotted, this has become a popular tune once again..CGP...
+Z:vmp.Chris Partington
+K:G
+dc|B2Bc dedc|B2Bc dedc|B2G2G2cB|A2D2D2dc|!
+B2Bc dedc|B2Bc dedc|BdGB cAFA|G2G2G2:|!
+|:d2|{a}gfga gdBd|{a}gfga gdBd|{a}gfgab2bg|fefg afdf|!
+e2ef gece|d2de dBGB|A2AB cAFA|G2B2G2:|]
+
+X:117
+T:Grande Chaine, La
+R:reel 32
+O:england
+D:Boys of the Lough, can't remember which
+M:4/4
+L:1/8
+Q:180
+K:G
+D2|B3 c BAGB|d2 d2 BGBd|cdcB AFAc|dedc BGGA|
+B3 c BAGB|d2 d2 BGBd|cdcB AFDF|G3 G G2:|]
+z2|gagf efge|d2 d2 BGBd|cdcB AFAc|dedc BG G2|
+gagf efge|d2 d2 BGBd|cdcB AFDF|G3 G G2:|]
+
+X:118
+T:Granny in the Wood
+R:polka 32
+C:Trad.
+S:Ian Dedic
+M:4/4
+L:1/8
+Q:1/4=180
+K:G
+|:z2|"G"g4 "D"f4|"C"ed ef e2 "D"d2|"G"BG Bd "C"e2 "D"d2|"G"BG Bd "C"e2"D"f2|
+"G"g4 "D"f4|"C"ed ef e2"D"d2|"G"BG Bd "C"e2d2|"D"B2A2 "G"G2:|]
+|:Bc|"G"d2G2 GA GD|"D"F2A2 A3d|"C"e2AA e2AA|e2d2 "D"BB c^c|
+"G"d2G2 GA GD|"D"F2A2 A4|"C"e2d2 Bc dB|A2G2 G2:|]
+
+X:119
+T:Great North Run '86
+R:polka 32 rant
+S:Robert Whitehead
+M:4/4
+L:1/16
+Q:1/4=120
+K:G
+|:D2|G2G2 FGAF|GABc d2B2|
+e2ce d2G2|ABAG E2D2|
+G2G2 FGAF|GABc d2B2|
+e2ce dBGB|A2F2 G2:|!
+|:f2|g2eg f2d2|e2ce d2B2|
+e2ce d2G2|ABAG E2D2|
+G2G2 FGAF|GABc d2B2|
+e2ce dBGB|A2F2 G2:|]
+
+X:120
+T:Green ship, The
+R:polka 32
+M:4/4
+L:1/8
+Q:1/4=180
+K:Em
+B|B2e2 fgfe | B2e2 g3f | B2Bc d2d2 | cBce d4 |
+B2e2 fgfe | B2e2 g3f | gbag fagf | g2e2 e2 :|
+|:dc | B2G2 G3D | B2G2 BdcB | c2A2 A3B | c2A2 cedc |
+B2G2 G3D | B2G2 g3f | gbag fagf | g2e2 e3 :|
+
+X:121
+T:Grommet
+R:polka 32 reel
+C:Jo Freya (Old Swan Band)
+Z:Neil Gledhill (Old Swan Band)
+M:2/4
+L:1/16
+Q:1/4=110
+K:D
+|:DFAF Adfa|gfef d2A2|B3A GABG|A2 AB AGFE|
+DFAF Adfa|gfef d3e2|f2ed cdec|d2dc d4:|]
+|:fdAf dAfd|edcB A4|ecAe cAec|dcde fde=f|
+
+X:122
+T:Grommet
+R:polka 32 reel
+C:Jo Freya (Old Swan Band)
+Z:Neil Gledhill (Old Swan Band)
+M:2/4
+L:1/16
+Q:1/4=90
+P:A2
+K:D
+P:A
+|:DFAF Adfa|gfef d2A2|B3A GABG|A2AB AGFE|
+DFAF Adfa|gfef d3e|f2ed cdec|d2d2 d4:|]
+|:fdAf dAfd|edcB A4|ecAe cAec|dcde fde=f|
+fdAf dAfd|edcB A4|ABcB ABcB|AGFE D4:|]
+
+X:123
+T:Gypsey's Hornpipe
+R:hp 32
+S:Thomas Hardy collection
+Z:P J Headford
+M:4/4
+L:1/8
+Q:1/4=140
+K:D
+|:FE|DFAd dcde|fdcd BAGF|GABc dAGF|BAGF .F2E2|
+DFAd dcde|fdcd A2fg|afaf gece|.d2.d2 d2:|
+|:AG|FADA FADA|FAdc BAGF|GBEB GBEB|GBed cBAG|
+FADA FADA|FA.d2 d2fg|afaf gece|.d2.d2 d2:|]
+
+X:124
+T:Halfe Hannikin
+M:6/8
+L:1/8
+Q:110
+R:jig 32
+K:G
+B>cd d2c|B>cB A2G|B>cd d>cB|A>GF G3||
+B3 c3|B3 A2G|B>AB c2B|A>GF G3|B>AB c>Bc|B>AB A2G|B>AB c2B|A>GF G3||
+
+X:125
+T:Hambo
+R:waltz 32
+C:Trad. Danish
+M:3/4
+L:1/8
+Q:3/4=60
+K:D
+FA d[|"D"f2fe "G"dB|"D"A3F Ad|"Bm"f>g fe dc|"G"B3G Bd|\
+"Em"g2gf ed|"A"c2cA cA|"G"B2 BG BG|"D"A3F Ad|
+"D"f2fe "G"dB|"D"A3F Ad|"Bm"f>g fe dc|"G"B3G Bd|\
+"Em"g2gf ed|"A"c2 (3cAc e2|c2 (3cAc e2|"D"d4 "G"B2|]|
+"D"A2 (3AFA d2|"C"A2 (3AFA dA|"G"B2 (3BGB d2|"Bm"B2 (3BGB d2|\
+"A"c2 (3cAc e2|"Em"c2 (3cAc e2|"D"dd "G"df "A"af|"D"d4 "G"B2|
+"D"A2 (3AFA d2|"C"A2 (3AFA dA|"G"B2 (3BGB d2|"Bm"B2 (3BGB d2|\
+"A"c2 (3cAc e2|"Em"c2 (3cAc e2|"D"dd "G"df "A"af|"D"d3 F"G"A d|]
+
+X:126
+T:Harliquin Air, A. BC.10
+T:Harliquin Air
+R: hp 32 march
+A:Uncertain, probably northern
+F:http://richardrobinson.tunebook.org.uk/tune/7882
+L:1/4
+M:C|
+N:Several works between 1735-1756 by Thomas Arne involving Harlequins
+N:could be the source of this tune. CGP.
+O:England
+Q:1/2=100
+R:.Air
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+Z:vmp.John Bagnall
+%%TBL:{"version":"beta","type":"tune","id":"7882"}
+K:D
+"D"d A A "G"d|"A"c/d/e/c/ A2| "G" B G G E|"A"F/G/A/F/ "D"D2|!
+"D"d A A "G"d|"A"c/d/e/c/ A g|"D"f e/d/ c"Em" d|"A"e2-e2:|!
+"A"e a a "Em"e|"D"f/g/a/f/ d2|"G"B g g"Bm" B|"A"c/d/e/c/ "A"A2|!
+"A"A a a "Em"g|"D"f/e/d/c/ d"Bm" G|F d"A" E c|"D"d2-"G"d2|]
+
+X:127
+T:Harper's Frolic
+R:polka 32
+C:Trad. ed. Barry Callaghan
+S:'Hard Core English' page 37C
+O:England
+A:Derbyshire
+B:Hard Core English ISBN 978 085418 201 5
+Z:PJHeadford 2008
+M:2/4
+L:1/8
+Q:1/4=120
+K:D
+|:A|FADA|FADd|cdec|d/c/d/e/ dA|
+FADA|FADd|cd ed/c/|d3:|
+|:g|fd2e/f/|ge2g|fd2f|e/d/c/B/ A>g|
+fd2e/f/|ge2g|fd ed/c/|d3:|
+W:Ashover (Harrison and Wall) MS 1762.
+
+X:128
+T:Haste to the Wedding
+R:jig 32
+C:Trad
+B:Francis O'Neill - TDMoI (1907) No. 203
+O:Ireland
+Z:Frank Nordberg
+M:6/8
+L:1/8
+Q:1/4=140
+K:D
+|:A|AFA Agf|ede fdB|AFA AdF|EFE E2A|
+AFA Agf|ede fdB|A2g (f<a)f|ded d2:|
+|:a|afa afa|bgb bgb|afa agf|efe efg|
+a3 f3|ede fdB|A2 g (f<a)d|ded d2:|]
+
+X:129
+T: Hawk Polka, The
+R: polka 48
+M: 4/4
+L: 1/8
+K:Dmaj
+M: 2/4
+F/G/ |AA FA | dA f/e/d/c/ | BB GB | e/f/g/f/ e/d/c/B/ |
+A (3A/B/A/ FA | dA/d/ fd | cB/c/ gc | ed dF/G/ |
+A2 F>A | dA/d/ f/e/d/c/ | B2 G>B | eg/f/ e/d/c/B/ |
+A/B/A/G/ F/D/F/A/ | d>e f/e/d/c/ | Bg/e/ cB/c/ | ed d ||
+g |fg/a/ b/a/^g/b/ | aA df | ef/g/ g/c/e/c/ | d/c/d/e/ fA |
+f2 g/a/b | aA/d/ fa | e>f gA/c/ | ed d>g |
+f/g/a/b/ bg/b/ | aA d/e/f | e/f/g gc | d/e/f fA |
+fg/b/ b/f/g/b/ | ac df | e2 g>c | ed d ||
+A |A/a/f/d/ A/F/D/F/ | A/a/f/d/ AF/G/ | AA/G/ EG | BA/G/ FG |
+Af/d/ AD/F/ | Af/d/ A/B/c/d/ | B>d c/d/e/f/ | ed dF/G/ |
+(3A/A/A/ f/d/ Ad/f/ | (3a/a/a/ f/d/ A2 | A/A/E EG | B/B/F FG |
+A/a/f/d/ A/F/D/F/ | A/d/f/d/ A2 | B/c/d c/d/e/f/ | ed d |]
+
+X:130
+T:Haywards Schottische. GHW.041
+M:4/4
+L:1/8
+Q:120
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:HP 32 Schottische
+O:England
+A:Norfolk
+N:Pause mark at end of A
+Z:vmp.Taz Tarry
+K:G
+B>cB>A G z d2|e>fg>e d3 B|c2 a>c B2 g>B|A>BA>^G A z d2|!
+B>cB>A G z d2|e>fg>e d3 B|c2 a>c B2 g>B|A>cB>A G3 z:|!
+|:A2A2 B3 A|FAde f3 g|fe^de B3 e|ede>d A3 A|!
+A2A2 B3 A|FAde f3 g|fe^de A^cfe|1 d2d2d2:|2 d2 c6||!
+K:C
+e2e2 f3e|ed^cd A3 A|c>BA>B d2 dd|e>dc>d e2 A2|!
+e2e2 f3e|ed^cd A3c|c>BA>G F>Ge>d|c2c2c2z2||
+
+X:131
+T: Heddon of Fawley
+T: london Pride (2nd version)
+R: hp 32
+C: Trad.
+S: CJS MSS (from Mason)
+Z: From Bacon's Handbook of Morris dances (transposed).
+M: C|
+L: 1/8
+K:Amix % 2 sharps
+P:A
+A2 e2 e2 d2 | BcBA G3 A/2B/2 | c2 e2 dcBA | B4 A4 :||
+P:B
+e2 ef g2 e2 | agfe d4 | e2 ef g2 e2 | a3 g e2 f2 |
+g2 g2 g2 e2 | dcBA G3 A/2B/2 | c2 e2 dcBA | B4 A4 ||
+
+X:132
+T:Heel and Toe Polka (1-2-3-4-5)
+R:polka 48/24
+S:Old Swan Band
+Z:P J Headford
+M:4/4
+L:1/8
+Q:1/4=120
+K:G
+|:BzB2 AGG2|FGAB d^c=c2|
+czc2 BAA2|1GFEF EDD2:|2GF/F/ EFG4||
+|:BEBE BEE2|GG/G/FE FBB2|
+BEBE BEE2|GG/G/FE E2E2:|
+|:D2G>A B3c|dBGA B4|
+ccA2 BBG2|1AEFG AGFE:|2AEFD GzG2|]
+W:Sultan Polka by Charles Louis Napoleon d'Albert 1809-1886.
+W:English of French stock. Known as Heel and Toe Polka, 12345.X:253
+
+X:133
+T:Herbert Smith's Four-Hand Reel
+T:Attila the Hun's Hornpipe
+R:polka 32 reel
+Z:P J Headford
+M:4/4
+L:1/4
+Q:1/4=180
+K:D
+|:dc BA|GF ED|D/E/F/G/ A>D|FE E2|\
+dc BA|GF ED|D/E/F/G/ Af|\
+M:2/4
+L:1/4
+ec|\
+M:4/4
+L:1/4
+ed d2:||
+|:ff/f/ ff|g/f/e/d/ e2|ff/f/ ff|e/d/c/B/ A2|
+ff/f/ ff|g/f/e/d/ e>e|fd ec|d2 d2:||
+K:G
+" key G"
+|:gf ed|cB AG|G/A/B/c/ dB|(3B/c/B/ A A>d|
+gf ed|cB AG|G/A/B/c/ db|\
+M:2/4
+L:1/4
+agag|\
+M:4/4
+L:1/4
+g4:|
+|:BB/B/ BB|c/B/A/G/ B2|BB/B/ BB|A/G/F/E/ D2|
+BB/B/ BB|c/B/A/G/ B2|Bc/B/ AB/A/|G2 G2:|]
+
+X:134
+T:Herbert the Sherbert
+R:jig 32
+C:Martin Ellison
+B:English Choice, Nick Barber, pub mally.com
+M:6/8
+L:1/8
+Q:1/4=140
+K:Em
+|:"Em"E2E e3|"Am"cBA "G"B3|
+"Em"GBA GFE|"Bm"FAG FED|
+"Em"E2E e3|"Am"cBA "G"B3|
+"Em"GBA GFE|"B"AGF "Em"E3:|
+"Em"EFG "B"F3|"Em"EFG "B"F3|
+"Em"Bef gfe|"G"ded B3|
+"G"ded "D"A3|"D"ded "G"G3|
+"G"Bde dBG|"D"AGF "Em"E3:|]
+
+X:135
+T:Hesleyside Reel, The
+R: hp 32 reel
+M: 4/4
+L: 1/8
+K:Gmaj
+GA|"G"B2 dB AGAB|GABc d2 ef|"C"gfge "G"dBGB|"Am"e2 A2 "D"A2 GA|
+"G"B2 dB AGAB|GABc d2 ef|"C"gfge "G"dBGA|"D"B2 G2 "G"G2:|
+|:Bd|"C"edef gfge|"G"dBGB d2 Bd|"C"edef gfge|"G"dBGB "D"A2 GA|
+"G"B2 dB AGAB|GABc d2 ef|"C"gfge "G"dBGA|"D"B2 G2 "G"G2:|
+
+X:136
+T: High Tea
+T: Willy Taylor's High Tea
+R:polka 32 rant
+C:Michelle Soinne
+M: 4/4
+L: 1/8
+K:Gmaj
+GA |: B2Bc BAGA | B2 d2 e4 | d2 g2 B2 d2 | cBAG A2 GA |
+B2Bc BAGA | B2 d2 e4 | d2 g2 B2 G2 |1 A4 G2 GA :|2 A4 G2 gf ||
+e2dc BAGA |B2 d2 e4 | d2 g2 B2 d2| cBAG A2gf |
+e2dc BAGA | B2 d2 e4 | d2 g2 B2 G2 | A4 G2 gf|
+e2dc BAGA | B2 d2 e4 | d2 g2 B2 d2 | cBAG A2 GA|
+B2Bc BAGA | B2 d2 e4| d2 g2 B2 G2| A4 G2z2||
+N:Named to commemorate the generous hospitality of the magnificent Northumbrian fiddler Willie Taylor and his wife, Nancy.
+
+X:137
+T:Hogmany Jig
+R:jig 32
+C:Trad
+M:6/8
+Q:1/8=140
+K:G
+BcB BcB|A2G G2A|BcB BAG|F2E E3|FGF FGF|E2D D2D|DFA d^cd|c2B B3|
+BcB BcB|A2G G2A| BcB BAG|F2E E3|FGF FGF|E2D D2D|DFA d2F| G3 G2A||
+B3 A3|G3 F3|E2E EDE|F3 DFA| c3 B3| A3 G3|F2F EFE|D3 DFA|
+B3 A3|G3 F3|E2E EDE|F3 DFA|c3 B3| A3 G3|DED DEF|G3 G3||
+
+X:138
+T: Horizonto
+R:jig 48
+M: 6/8
+L: 1/8
+K:Dmin
+ABA GAF|GEF DEC|A,2A, DEF|E2E CDE|
+F3 FGF|EDE CDE|F2D EDC|A,=B,^C D3:|
+B,2D DEF|B,DB, DEF|A,2D DEF|A,DE FED|
+B,2D DEF|B,DB, DEF|ABA GAF|GEF DEC|
+B,2D DEF|B,DB, DEF|A,2D DEF|A,DE FED|
+B,2D DEF|B,2D DEF|=B,2D DEF|=B,2D DEF|
+B2A2GF|E3 EFG|A2G2FE|D3 DEF|
+G2F2ED|^C3 CDE|F2G2^G2|A3 AGA|
+B2c2B2|E3 EFG|A2B2A2|D3 DEF|
+G2F2ED|^C3 CDE|F2E2C2|A,=B,^C D3||
+
+X:139
+T:Hot Punch
+T:Orange and Blue (the)
+R:jig 32
+O:England
+M:6/8
+L:1/8
+Q:1/8=180
+K:Gmaj
+d2c|B2G GFG|E2G D2G|B2G BdB|G3A2B|
+c2A AGA|F2A A2G|F2D FAF|D3d2c|
+B2G GFG|E2G D2G|B2G BdB|G3-G2d|
+dBd cAc|BGB A2A|D2D DEF|G3||
+d2c|B2d dcd|B2d dcd|B2G BdB|G3A2B|
+c2A AGA|F2A A2G|F2D FAF|D3d2c|
+B2d dcd|B2d d2c|B2G BdB|G3-G2d|
+dBd cAc|BGB A2A|D2D DEF|G3|]
+W:Published widely, often as The Orange and Blue.
+W:In Vickers aa The Frolic.
+
+X:140
+T:Hunting the Hare
+R:slip 16
+C:anon
+B:Francis O'Neill - TDMoI (1907) No. 433 O:Ireland Z:Frank Nordberg
+M:9/8
+L:1/8
+Q:3/8=110
+P:A2
+K:Gmaj
+P:A
+|:C|B,2D DB,D G2D|EFG A2G FED|B,2D DB,D G2D|EFG AGF G2:|] c|B2G GAB c2A|d2B
+|ABG FED|BAB GAB c2A|d2B AGF G2:|]
+
+X:141
+T:I'm Going To Get My Moustache Blacked When I Get There
+R:polka 32
+L:1/8
+M:4/4
+N: played by New Victory Band
+Z:Tim Willets
+K:D
+A|d2 d>e f2 f>e|d>cd>A F2B2|A>BA>F D2 F>G|A>BA>G F2A2|d2 d>e f2 f>e|d>cd>A
+F2B2|A>BA>F G>FE2|D2F>ED:|
+|:f|f>ga>g f2 fe|d>cd>A F2-F2|g2g2B2 c>e|f>ef>eA2f2|f>ga>g f2 fe|d>cd>A
+F2B2|A>BA>FG>FE2|D2F>ED3:|
+
+X:142
+T:Ilmington Lively Jig, The
+M:4/4
+O:Cotswold Morris Tune, Ilmington
+R:hp 32
+K:F
+P:A
+|:C2|\
+"F"F>GA>F "C"E>FG>E | "F"F>GA>F C2 F>E | "Gm"D>GG>A B>AG>F | "C"E>Gc>=B c2 C2|
+"F"F>GA>F "C"E>FG>E | "F"F>GA>F C2 G>F | "Bb"E>dc>B "F"A>G"C"F>E | "F"F2 F2 F2 ::
+P:B
+G>F|\
+"C"E>Gc>"G"=B "C"c2 G>F|"C"E>Gc>"G"=B "C"c2 B>c|"Dm"d>ef>e d>c=B>A|"G"G>AG>F G4 |
+"F"A>BA>G F>A c2|"C" G>AG>F E>G c2|"F"c>fe>d "C"c>BA>G |"F" F2 F2 F2 :|
+
+X:143
+T:Ilmington Lively Jig, The
+M:4/4
+O:Cotswold Morris Tune, Ilmington
+R:hp 32
+K:Gmaj
+P:A
+|:D2|\
+"G"G>AB>G "D"F>GA>F | "G"G>AB>G D2 G>F | "Am"E>AA>B c>BA>G | "D"F>Ad>^c d2 D2|
+"G"G>AB>G "D"F>GA>F | "G"G>AB>G D2 A>G | "C"F>ed>c "G"B>A"D"G>F | "G"G2 G2 G2 ::
+P:B
+A>G|\
+"D"F>Ad>"A"^c "D"d2 A>G|"D"F>Ad>"A"^c "D"d2 c>d|"Em"e>fg>f e>d^c>B|"A"A>BA>G A4 |
+"G"B>cB>A G>B d2|"D" A>BA>G F>A d2|"G"d>gf>e "D"d>cB>A |"G" G2 G2 G2 :|
+
+X:144
+T:In the Old Bazaar in Cairo
+R:polka 48 march
+M:4/4
+L:1/8
+Q:1/4=200
+K:Em
+e2 B2 e2 B2|cB Ac B4|e2 B2 e2 B2|cB Ac B4|e2 B2 e2 B2|A^G AB c2 =GA|
+B3  B B z A2|G2 E2-E2 z2|e2 B2 e2 B2|cB Ac B4|e2 B2 e2 B>B|cBAc B4|
+e2 B2 e2 B2|A^G AB c2 =GA|B3  B B2 A2|G2 E2-E4|
+|:D2 F2 A2 c2|B2 A2 G4|D2 F2 A2 c>c|B^A B=A  G4|E2 G2 B2 e2|cB cB A3 c|
+B3 c B3 c|Bc Bc Bc ^c^d|
+e2 B2 e2 B2|cB Ac B4|e2 B2 e2 B2|cB Ac B4|e2 B2 e2 B2|AG AB c2 =GA|
+B3  B B z A2|G2 E2-E2 z2:|
+%
+W: For the Charlie Chester song, the tune is played 1A 1B, as a 48 polka 1A 2B
+W:Sand bags, wind bags, camels with a hump,
+W:Fat girls, thin girls, some a little plump,
+W:Slave girls sold here, fifty bob a lump,
+W:In the old bazaar in Cairo.
+W:Brandy, shandy, beer without a froth,
+W:Braces, laces, a candle for the moth.
+W:Bet you'd look a smasher in an old loin cloth,
+W:In the old bazaar in Cairo.
+W:You can buy most anything,
+W:Thin bulls, fat cows, a little bit of string,
+W:You can purchase anything you wish,
+W:A clock, a dish and something for your Auntie Nellie,
+W:Harem, scarem, what d'ya think of that,
+W:Bare knees, striptease, dancing on the mat,
+W:Umpa! Umpa! That's enough of that,
+%
+W:In the old bazaar in Cairo.
+W:Rice pud, very good, what's it all about,
+W:Made it in a kettle and they couldn't get it out,
+W:Everybody took a turn to suck it through the spout,
+W:In the old bazaar in Cairo.
+W:Mamadan, Ramadan, everything in style,
+W:Genuine, beduine carpet with a pile,
+W:Funny little odds and ends floating down the Nile,
+W:From the old bazaar in Cairo.
+W:You can buy most anything,
+W:Sheeps eyes, sand pies, a watch without a spring,
+W:You can buy a pomegranate too,
+W:A water-bag, a little bit of hokey pokey,
+W:Yashmaks, pontefracts, what a strange affair,
+W:Dark girls, fair girls, some with ginger hair,
+W:The rest of it is funny but they censor it out there,
+W:In the old bazaar in Cairo.
+
+X:145
+T:In the Old Bazaar in Cairo
+R:polka 48 march
+M:4/4
+L:1/8
+Q:1/4=200
+K:Em
+e2 B2 e2 B2|cB Ac B4|e2 B2 e2 B2|cB Ac B4|e2 B2 e2 B2|A^G AB c2 =GA|
+B3  B B z A2|G2 E2-E2 z2|e2 B2 e2 B2|cB Ac B4|e2 B2 e2 B>B|cBAc B4|
+e2 B2 e2 B2|A^G AB c2 =GA|B3  B B2 A2|G2 E2-E4||
+D2 F2 A2 c2|B2 A2 G4|D2 F2 A2 c>c|B^A B=A  G4|E2 G2 B2 e2|cB cB A3 c|
+B3 c B3 c|Bc Bc Bc ^c^d|
+e2 B2 e2 B2|cB Ac B4|e2 B2 e2 B2|cB Ac B4|e2 B2 e2 B2|AG AB c2 =GA|
+B3  B B z A2|G2 E2-E2 z2
+
+X:146
+T:Iron Leg Hornpipe, The
+R:hp 32
+C:Trad. ed. Barry Callaghan
+S:'Hard Core English' page 38C
+O:England
+B:Hard Core English ISBN 978 085418 201 5
+Z:PJHeadford 2008
+M:4/4
+L:1/8
+Q:1/4=140
+K:D
+|:AG|F2AF E2AG|FGEF D2A2|B2c2 d2fe|cdBc A2AG|
+F2AF E2AG|FGEF D2A2|Bcde fedc|d6:|
+|:e2|fgfg efef|fgfg efef|dede cdcd|dede cdcd|
+BcBc ABAB|BcBc ABAB|Bcde fedc|d6:|]
+"^Alt B music"\
+|:e2|fgaf efge|fgaf efge|defd cdec|defd cdec|
+BcdB ABcA|BcdB ABcA|Bcde fedc|d6:|]
+W:Irwin, Jas Winder. Possible reference to Guiseppe Grimaldi.
+W:No time signature in the book.
+
+X:147
+T:J.B. Milne
+R:polka 32
+S:via PR
+M:4/4
+L:1/4
+K:Gmaj
+B/2c/2|"G"d/2e/2d/2c/2 BG|DG B2|"G"B/2d/2c/2B/2 AG|"Am"c3A/2B/2|\
+"D"c/2d/2c/2B/2 AF|
+DF A2|"D"A/2c/2B/2A/2 "D7"GA|"G"B3B/2c/2|"G"d/2e/2d/2c/2 BG|DG B2|\
+"G"B/2d/2c/2B/2 AG|
+"C"e3e/2f/2|"Gdim""c#"g/2e/2^c/2^A/2 Gg/2f/2|"G"e/2d/2B/2G/2 Df/2e/2|\
+"Am"d^c/2d/2 "D7"ef|"G"g3B/2c/2|
+"G"dB eB|dB eB|"G"d2 e/2d/2c/2B/2|"Am"c3A/2B/2|"D"cA dA|cA dA|
+"D"c2 "D7"d/2c/2B/2A/2|"G"B3B/2c/2|"G"dB eB|dB eB|"G"gf/2g/2 a/2g/2f/2g/2|
+"C"e3e/2f/2|g/2a/2g/2f/2 e/2g/2f/2e/2|"G"e/2d/2B/2G/2 Df/2e/2|\
+"D"d^c/2d/2 "D7"ef|"G"g3||
+
+X:148
+T:Jack Robinson
+T:Tune
+R:hp 32
+M:4/4
+L:1/8
+Q:1/4=140
+B:www.squeezy.fsnet.co.uk
+K:G
+P:A
+FE|"G"D2G2 D2BB|"C"c2c2 A4|"D"FGA2 FGA2|"G"GBd^c d3d|\
+"C"edce "G"d2B2|"Am"cBAB "D"A2G2|"G"D2G2 "Am"FGAB|"D"A2G2 "G"G2:|
+P:B
+|:Bc|"G"d2B2 "C"cde2|"C"e2A2 "D"A2Bc|"G"d2B2 "C"cde2|"Am"edcB "D"AcBA|\
+"G"GABc d2B2|"C"cBAB A2G2|"D"D2G2 FGAB|"D"A2G "G"G2:|
+T:Bass line
+P:A
+G2z2 B2z2|c2z2 A2z2|d2z2 f2z2|g2z2 d2z2|e2z2 d2z2|c2z2 B2z2|d8-|d2c2B2A2:|
+P:B
+G2z2 c2z2|z2e2d4|G2z2 c2z2|z2e2d4|g2z2 f2z2|e2z2 c2z2|d8-|d2c2B2A2:|
+%%newpage
+%%textfont * 20
+%%text P2 (3.0)
+%%textfont * 12
+
+X:149
+T:Jamaica
+R:hp 32
+M:4/4
+L:1/8
+Q:1/8=400
+K:G
+"G"G2 B2 B2 cd | "C"e2 d2 e4 | "G"d2 B2 B2 AG | "D"A4 "G"G4 :|
+"G"g2 g2 "D"f2 ed |"C" e2 e2 "G"d2 B2 |"G" g2 g2 "D" fg a2 |"A" e4 "D"d4 |
+"G"g2 g2 "D"f2 ed |"C" e2 e2"G" d2 B2 | "C"cd e2"G"d2 cB |"D" A4 "G" G4 ||
+
+X:150
+T: Jenny Bell's
+R: polka 48
+M: 2/4
+L: 1/8
+K:Gmaj
+E/F/|:Gg e/d/c/B/|dG G/F/G|AD FD|G/A/B/c/ d2|
+Gg e/d/c/B/|dG G/F/G|DF/A/ dF|1GG GE/F/:|2GG GB/c/||
+|:d/^c/d/e/ d2|d/g/B G/B/D|c/B/c/d/ c2|c/e/A F/A/D|
+d/^c/d/e/ d2|d/g/B G/B/D|DF/A/ dF|1GG GB/c/:|2GG Ge/f/||
+|:gf ed|cB AG|G/B/d/g/ gf|F/A/c/e/ ed|
+gf ed|cB AG|DF/A/ dF|1GG Ge/f/:|2GG G||
+
+X:151
+T:Jenny Lind Polka, The
+O:USA?
+R:polka 32
+F:http://www.abc-notation.com/abcs/je/jenny-lind/jenny-lind-1.abc
+M:C|
+L:1/4
+K:G
+d/c/|:Bdce|dbb/^a/b|caa/^g/a|Bgg/f/g|
+Bdce|dbb/^a/b|c'aa/c'/b/a/|ggg[1d/c/:|2z||
+gee/g/f/e/|dBB/^A/B|cAA/^G/A|edde/f/|
+gee/g/f/e/|dBB/^A/B|cAA/c/B/A/|GGG[1e/f/:|2d/c/|]
+
+X:152
+T: Jiggery Pokerwork
+M: 6/8
+L: 1/8
+R: jig
+K:Emin
+E2F GFE|B2c A3|A2B G2B|BAG FGF|
+E2F GFE|B2c A3|A2B G2B|BAF E3:|
+|:B^AB GEB|^ABG EBA|BGE cGE|dAF gdB|
+B^AB GEB|^ABG EBA|=A3 d3|BAF E3:|
+
+X:153
+T: Jock Wilson O' Fenton
+R: hp 32 reel
+M: 4/4
+L: 1/8
+K:Dmaj
+|:AG|FAd2 d2ed|cdef g2ag|fedc dfaf|gfed cBAG|
+FAd2 d2ed|cdef g2ag|fadf efge|f2d2 d2:|
+|:dc|Bcde fedc|fedc B2cB|ABcd edcd|edcB ABAG|
+FAd2 d2ed|cdef g2ag|fadf efge|f2d2 d2:|
+
+X:154
+T:Jump at the Sun
+R: jig 32
+M:6/8
+L:1/8
+Q:1/8=120
+K:Em
+"Em"EGB "Am"=A2 B|"Em"EGB "Am"=A2 B|"Em"eBB "Em"eBB|"Em"BAG "Bm"F3|"Em"E
+GB "Am"=A2 B|"Em"EGB "Am"=A2 B|
+"Em"eBB "Am"cBA|"D"GAF "Em"E3:||
+"Em"eBB "Em"gfe|"Bm"fBB "D"agf|"Em"gfe "Em"gfe|"Bm"fdB "Am"c2 B|"Em"eBB
+"Em"gfe|"Bm"fBB "D"agf|"Em"eBB "Am"cBA|
+"D"GAF "Em"E3:||
+
+X:155
+T:Jump at the Sun [Gm]
+R:jig 32
+S:John Kirkpatrick
+M:6/8
+L:1/8
+Q:1/4=140
+K:Gm
+|:B/A/|GBd ^c2d|GBd ^c2d|gdd gdd|dcB A2B|
+GBd ^c2d|GBd ^c2d|gdd edc|BcA G2:|!
+|:gdd bag|add c'ba|bag bag|a^fd e2d|
+gdd bag|add c'ba|gdd edc|BcA G2:|]
+
+X:156
+T:Juniper Jig
+R:jig 32
+C:Charlie Sherrit
+S:Chris Duncan Workshop-  Nov 97
+Z:Tim Barker, Nov 9
+M:6/8
+L:1/8
+Q:3/8=110
+K:G
+|:gfg dBG|EGc edc|Bdd GBB|ABc def|
+gfg dBG|EGc edc|BdB cBA|1G3 G2d:|2G3 G2=F|]
+|:EGc edc|edc gfe|dBG DGB|DGB BAG|1
+FAA DAA|FAA D2A|GFG AGA|B3 GF=F:|2
+FAA DAA|FAA D2e|fed cBA|G3 G2z|]
+
+X:157
+T:Just as the Tide was Flowing
+R:hp 32
+M:4/4
+L:1/8
+Q:2/4=90
+K:G
+|:G3D D2D2|EDEFG- GGA|B2B2 cBAG|E2F2 ((3EFE) D2|\
+G3D D2D2|EDEFG- GGA|B2B2 cBAG|E2F2 G4:|]
+|:GABc d2d2|edcB A2A2|GABc d2d2|B2c2 d4|\
+GABc d2d2|edcB A2GA|B2B2 cBAG|E3D G4:|]
+
+X:158
+T: Kathleen Hehir's
+R: slide
+M: 12/8
+L: 1/8
+K:Dmaj
+|dcd e2d c2E EFG | ~B3 BAG F2D DFA |
+dcd e2d c2E EFG | ABA GFE D DFA :|
+|:F2A d3 c2B G3 | ABA G2E B2A F3 |
+DFA dz2 c2B G2F | EFG ABc d3 d2A:|
+|:ddd d2e f2d A3 | ~f3 fed c2d ecA |
+ddd d2e f2d A2F |1 EFG ABc d3 d2 A:|2 EFG ABc d3 dfg||
+|:a2f f2d Adf agf | g2e e2c Bcd efg |
+a2f f2d Adf agf | gec ABc d3 dfg:||
+
+X:159
+T:Kathleen Hehir's Slide
+M:12/8
+L:1/8
+S:John B. Walsh
+R:slide
+Z:from the playing of de Danann
+K:D
+|:A|dcd e2d c2E EFG|~B3 BAG F2D DFA|dcd e2d c2E EFG|ABA GFE D3 z2:|!
+|:E|F2A ded c2B G3|ABA G2E B2A F3|DFA ded c2B G3|EFG ABc d3 z2:|!
+|:A|ded d2e f2d A3|fgf fed c2d ecA|ded d2e f2d A2F|EFG ABc d3 z2:|!
+|:f|a2f f2d Adf agf|g2e e2c Bcd efg|a2f f2d Adf agf|gec ABc d3 z2:|
+
+X:160
+T:Kentish Cricketers
+R:polka 32 reel
+C:Trad?
+R:polka 32 reel
+Z:PJH 2016
+M:2/4
+L:1/8
+Q:1/4=140
+K:D
+|:c/B/|AF dB|A/G/F/E/ D>B|AF dc/d/|eE EF/G/|
+AF dB|A/G/F/E/ Df|e>d ef|1d2- d:|2d2 d|]
+|:A|d/e/f/g/ af|bg af|f>e df|e3 e|
+d/e/f/g/ af|bg af|e>d ef|d2- d:|]
+
+X:161
+T:King Pippin Polka
+R: polka 48
+C:2/4
+L:1/8
+K:D
+AA/d/ ff| gg/B/ ff| fe e/d/e| ed d/e/d| AA/d/ ff| gg/B/ ff| fe e/d/e|fe dd :|
+K:G
+dg B>B| d^c =c2|D/E/F/G/ A/B/c/d/| e/f/g/a/ bb| dg B>B| d^c =c2|F/G/A/B/ c/d/e/f/ | gg g z :|
+K:D
+a/a/a A/A/A |BA A/B/A| fe e/f/e/f/| ed d/c/d| a/a/a A/A/A | BA A/B/A| fe e/f/e/f/| ed d z:|
+
+X:162
+T:Kingsbridge Assembly. WM.144
+T:Liberty For The Sailors,aka. WM.144
+M:6/8
+L:1/8
+Q:3/8=120
+S:Wm.Mittell's MS, New Romney,Kent,1799
+R:Jig 32
+O:England
+A:Kent
+Z:vmp.Chris Partington
+K:D
+f2ef2e|dcdA3|BAB AFD|EFGF2D|!
+f2ef2e|dcdA3|BAG FGE|D3D3:|!
+|:DFA AFD|G2BB3|Ace ecA|d2ff3|!
+afdB2B|gecA2A|BAG FGE|D3D3:|
+
+X:163
+T: Kinnegad Slashers, The
+R: jig 48
+S: Quick March of The Gloucestershire Regiment
+R: jig
+M: 6/8
+L: 1/8
+K:Dmaj
+|:A | ded dAF | ABA ABc | ded dAF | E2g gfe |
+ded dAF | ABA a2g | fef dBA | Bdc d2 :|
+|:A | dfa afd | cde ecA | dfa afd | fa^g a2f |
+dfa afd | cde eag | fef dBA | Bdc d2 :|
+|:A | dAF dAF | dAF ABc | dAF dAF | E2g gfe |
+dAF dAF | dAF a2g | fef dBA | Bdc d2 :|]
+
+X:164
+T:Kirks Hornpipe GHW.054
+T:West End, The GHW.054
+R:hp 32
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880 O:England A:Norfolk Z:vmp.Taz Tarry
+M:4/4
+L:1/8
+Q:1/4=180
+K:D
+|:(AG)|FGAF D2d2|cdec A2f2|gfed B2ed|c2A2 A2AG|
+FGAF D2d2|cdec A2f2|gfed cdce|d2d2 d2:|
+|:(fg)|afdf a2a2|gece g2g2|fedc d2ed|c2A2 A2fg|
+afdf a2a2|gece g2g2|fedc Bdce|d2d2 d2:|]
+
+X:165
+T:Knife's Edge, The
+R:hp 24
+M:2/4
+L:1/8
+R:Polka
+Z:Steve Mansfield
+K:G
+G>A BA|GA BG/2B/2|dB GB|A/2G/2A/2B/2 A2|G>A BA|GA BG/2B/2|dB GB|A2G2:||:d
+e/2f/2 gf/2e/2|de ed|de/2f/2 gf/2e/2|dc B>c|dd ed|cB AB/2c/2|dB GB|A2G2:
+|
+
+X:166
+T:Knockaboul Polka
+R:polka 48
+O:Ireland
+Z:RR/PJH
+M:2/4
+L:1/16
+Q:1/4=120
+K:G
+|:G2B2 BcBA|G2B2 BcBA|F2A2 D2A2|F2A2 AGBA|
+G2B2 BcBA|G2B2 d3g|f2d2 c2A2|B2G2 G4:|
+|:g4 g3f|g2a2 a3g|f2d2 d2e2|f2g2 agf2|
+g4 g3f|g2a2 a3g|f2d2 c2A2|B2 G2G4:|
+|:B4 B3c|d2c2 A2G2|=F4 F3G|A2B2 cBA2|
+B4 B3c|d2c2 A2g2|f2d2 c2A2|B2G2 G2:|]
+
+X:167
+T:La Russe
+R:polka 32
+M:4/4
+L:1/8
+K:G
+BA|:G2BB B2dd|d2g2 g2fg|a2g2 f2e2|e2d2 c2A2|
+|G2BB B2dd|d2g2g2 fg|e2c2 A2F2|1 G2 B2G2 BA:|2 G2B2G2A2|
+K:D
+|:A2d2 d2cB|A2f2 f3f|g2f2 g2e2|e2d2 d2 cB|
+|A2d2 d2cB|A2f2 f2ef|g2f2 g2e2|1 d6 B2:|2 d2c2 B2A2|
+
+X:168
+T:Lady Comptons Whim. JC.240
+M:6/8
+L:1/8
+Q:190
+S:John Clare,Poet,Helpstone (1793-1864)
+R:Jig 32
+O:England240
+A:Northamptonshire
+N:No TS or KS in the MS.
+Z:Phil Headford
+K:G
+G2G BAG|F2GA2c|B2B dcB|ABG FED|!
+G2G BAG|F2FA2c|BcB AGF|"crots"E3E3:|!
+|:g2ee2g|f2d dcd|e2cc2e|d2B BAG|!
+c2AA2c|B2GG2B|E2AG2F|"crots"G3G3:|]
+
+X:169
+T:Late For Work
+M:6/8
+L:1/8
+C:Taz Tarry
+S:Copyright B.Tarry, September 1993
+R:Jig 32
+K:G
+G2BA2c|BAGg3|gfe dcB|cBA BAG|
+G2BA2c|BAGg3|gfe dcB|cBA G3:|
+G2B GBG|F2A FAF|E2A EAE|DFA B2G|
+G2B GBG|F2A FAF|DFA cBA|BAF G3:|
+
+X:170
+T:Laura
+N:tune was known to Thomas Hardy
+R:hp 32 reel
+M:2/4
+L:1/16
+Q:1/4=70
+Z:abc2nwc
+K:G
+|:D2|GFGA G2B2|d^cde d2g2|edcB cBAG|FGAB A2D2|
+GFGA G2B2|d^cde d2g2|edcB AGAB|G2B2G2:|
+|:D2|FEFG A2F2|GFGA B2d2|c2e2B2d2|AGAB A2D2|
+FEFG A2F2|GFGA B2d2|c2e2d2F2|G4G2:|
+
+X:171
+T:Leeds Polka, The
+R:polka 48
+C:from the playing of Bob Keeble
+Q:1/8=200
+I:abc2nwc
+M:2/4
+L:1/16
+K:D
+d2g2 gfge|d2g2 B4|A2f2 f4|B2g2 g4|
+d2g2 gfge|d2g2 B4|A2f2 a2f2|g4g4:|
+|:Adf2 f2a2|a2g2 gfe2|Ace2 e2g2|g2f2 f2ed|
+Adf2 f2a2|a2g2 gfe2|Ace2 Ace2|d4d4:|
+|:DGB2 B4|DGB2 B4|=cBA2 cBA2|G2B2 e2d2|
+DGB2 B4|DGB2 B4|=cBA2 cBA2|G4G4:|
+
+X:172
+T:Lemonville Jig
+R:jig 32
+C:Jack Hayes
+O:Canada
+Z:PJHeadford 2008
+M:6/8
+L:1/8
+Q:3/8=120
+K:D
+f2g||"D"aba afd|fgf fdA|ded "B"dAF|"Em"G3- "D"G ef|\
+"A"gag gec|efe ecA|cBA "Em"gfe|"D"f3 "A"f2g|
+"D"aba afd|fgf fdA|ded "B"def|"Em"B3- "D"B ef|\
+"A"gag gec|efe ecA|cBA "Em"gfe|"D"d3- d||
+AG|"D"FGA AB"^(A)"c|"D"ded "B"def|"Em"gag gfe|B3- "D"B ed|\
+"A"cea age|cea age|cea "Em"gfe|"D"fdB "A"A2G|
+"D"FGA AB"^(A)"c|"D"ded "B"def|"Em"gag gfe|B3- "D"B ede|\
+"A"cea age|cea age|cea "Em"gfe|"D"d3|]
+
+X:173
+T:Lincolnshire Polka
+R: polka 32
+M:2/2
+L:1/8
+Q:190
+K:D
+F2A2 GFGB|A2d2f3 e|e2g2 B2c2|d2 fe dcBA|!
+F2A2 GFGB|A2d2f3 e|e2 gg B2 cc|1d4d4:|2d6 A2||!
+d2c2G2B2|BB A2F3 A|A2G2E2B2|B2A2F3 A|!
+d2c2G2B2|BBA2F3A|A2AAB2c2|1e2d2d2 A2:|2 e2 d2 d2||
+
+X:174
+T:Little Burnt Potato
+R: jig 32
+S:Lesley Dolman, via EF
+M:6/8
+L:1/8
+Q:1/8=140
+K:D
+f/2g/2|"D"a2a "A7"ba^g|"D"a2A d2e|"D"f2f "G"g2f|"Em"e2B Bcd|"Em"e2f e2c|
+"A7"Ace a3|"A7"a^ga ba=g|"D"f3 "A7"f2g|"D"a2a "A7"ba^g|"D"a2A d2e|\
+"D"f2f "G"g2f|
+"Em"e2B Bcd|"Em"e2f e2c|"A7"Ace a3|"A7"a^ga b2c|"D"d3 "A7"d2e|"D"f2A f2A|
+"D"f3 f2e|"D"def agf|"Em"g3 gef|"Em"gba gfe|"A7"dcB A2a|
+"A7"a^ga ba=g|"D"f3 "A7"fde|"D"f2A f2A|"D"f3 f2e|"D"def agf|
+"Em"g3 gef|"Em"gba gfe|"A7"dcB A2a|"A7"a^ga b2c|"D"d3 d2||
+
+X:175
+T:Liverpool Hornpipe, The
+R:hp 32
+C:Trad arr. P J Headford
+M:4/4
+L:1/8
+Q:1/4=140
+K:D
+|:AG|FDFA dfaf|gfed dcBA|GBGB FAFA|EDEF GFED|
+FDFA dfaf|gfed dcBA|dfaf bgec|d2d2 d2:|
+|:(3ABc|dfdf cece|BABc dcBA|GBGB FAF|EDEF GFED|
+FDFA dfaf|gfed dcBA|dfaf bgec|d2d2 d2:|]
+
+X:176
+T:LNB Polka, The
+R:polka 32
+M:2/4
+L:1/8
+R:Polka
+Z:Steve Mansfield
+K:G
+gd =f>e | dB cB/c/ | de d/e/d/c/ | Bd AG | gd =f>e | dB cB/c/ |
+de d/e/d/c/ |1 BA G2 :|2 BA G |:[L:1/16] AB | c2Ac ecAc | ece2 e2dc |
+B2GB dBGB | dBd2 d2cB | c2Ac ecAc | ece2 e2Bc | d2e2 dedc | B2A2G2 :|
+
+X:177
+T:LNB Polka, The
+R:polka 32
+M:2/4
+L:1/8
+R:Polka
+Z:Steve Mansfield
+K:G
+gd =f>e | dB cB/c/ | de d/e/d/c/ | Bd AG | gd =f>e | dB cB/c/ |
+de d/e/d/c/ |1 BA G2 :|2 BA G |:[L:1/16] AB | c2Ac ecAc | ece2 e2dc |
+B2GB dBGB | dBd2 d2cB | c2Ac ecAc | ece2 e2Bc | d2e2 dedc | B2A2G2 :|165
+T:Lollipop Man, The
+R:hp 32
+M:4/4
+L:1/8
+O:English
+F:http://banjolin.co.uk/tunes/abcs/lollipopman.abc
+K:G
+| BA |: GB D2 D2 EF | G2 G2 G2 A2 | BA GA BA GA | B2E2E2 BA |
+|GB D2 D2 EF | G2 G2 G2 d2 | ed ef g2 dc |1 B2G2G2 BA:|2 B2G2G4|
+|: d2d2 gf ed | Bc de d2 cB | A2 AB cB AG | B2E2E2 BA |
+|GB D2 D2 EF | G2 G2 G2 d2 | ed ef g2 dc | B2G2 G4 :|
+
+X:178
+T:London Hornpipe
+R: hp 32
+M:4/4
+L:1/8
+Q:2/4=80
+S:Lawrence Leadley MS (1827-1897)
+K:G
+|:Bc|dcBA G2Bd|g2eg f2dB|c2ac B2gB|cBAG GFED|
+EDEF GFGA|BABc d2g2|dBGB cAGF|G2GG G2:|]
+|:d2|g2bg f2af|g2eg f2d2|c2ac B2gB|cBAG GFED|
+EDEF GFGA|BABc d2g2|dBGB cAGF|G2GG G2:|]
+
+X:179
+T:London Pride
+R:hp 32
+M:4/4
+L:1/8
+S:As played by John Kirkpatrick on the Albion Country Band album "Battle of the Field."
+S:Transcribed/arranged by Doug Mast.
+K:C
+"F"A3B c2A2|"C"GF ED C4|"Dm"D2 A2 "Am"AG FE|1 "Dm"D3E F2G2 :|2 "Dm"D4 D4||
+|:"F"A3B c2A2|"G"dc BA "Em"G4 |"Dm"A2 A2 "G"B2 B2 | "Dm"d4 "F"A4 |
+"F"A3B c2A2|"C"GF ED C4|"Dm"D2 A2 "Am"AG FE|1 "Dm"D3E F2G2 :|2 "Dm"D4 D4||
+
+X:180
+T:Londonderry Hornpipe
+R:hp 48
+S:Variations by O'Neill
+M:4/4
+L:1/8
+Q:1/4=180
+K:D
+|:AG|F2Ad fdAF|G2Bd gdBG|
+F2Ad fdAF|E2GB (3edcAG|
+F2Ad fdAF|G2Bd g2ag|
+fafd Bgec|d2f2 d2:|
+|:fg|a2fd Adfa|g2ec Aceg|
+a2fd Adgf|(3efd(3cdB A2fg|
+a2fd Adfa|gece g2ag|
+fafd Bgec|d2f2 d2:|
+|:AG|(3FEDAD BDAD|dcdf ecAG|
+(3FEDAD BDAD|EGFA GBAG|
+(3FEDAD BDAD|dcdf edeg|
+(3fafdf gece|df(3edc d2:|
+
+X:181
+T:Long Odds
+R:hp 16 reel
+C:Trad arr. P J Headford
+S:Twenty-Four Dances of the Year, 1791. Pub. Preston
+Z:P Headford
+M:2/4
+L:1/8
+Q:1/4=120
+K:G
+|:DG GA|B2BG|c2cA|BG FE|\
+DG GA|Bc dB|ec AF|1G2 FE:|2G2 Bd||
+|:eg fe|edd2|ce dc|cBB2|\
+AB cA|Bc dB|1ec AG|GFED:|2ec AF|G2 FE|]
+
+X:182
+T:Lord Nelson's Hornpipe
+R:hp 32
+S:Thomas Hardy
+Z:P J Headford
+M:4/4
+L:1/8
+Q:1/4=140
+K:D
+|:A>F|D2d2 d2c>d|e>cA>c e2d>e|f>df>d g>eg>e|a>fd>f e2A>F|
+D2d2 d2c>d|e>cA>c e2c>d|e>ce>c d>B^G>B|A2A2 A2:|
+|:f>g|a>gf>e d>cB>A|B2G2 G2g>a|b>ag>f g>fe>d|c2A2 A2f>g|
+a>fa>f g>bg>b|a>fa>f g>bg>b|a>fb>g f>ed>c|d2d2 d2:|]
+
+X:183
+T:Louth Quick Step. JGi.136
+R: polka 32
+M:2/4
+L:1/8
+Q:1/4=120
+S:Joshua Gibbons MS,1823,Tealby,Lincs.
+R:quick step
+O:Tealby,Lincolnshire
+Z:VMP/R.Greig, 2009
+K:C
+ee/c/ eg|fdd2|ecBc|d/c/B/A/G2|ee/c/ eg|
+fddf|f/e/d/c/ B/c/d/B/|c ec2:|
+|:c'2ba|agg2|a2gf|fee2|c'2ba|
+ag gf|f/e/d/c/ B/c/d/B/|c f c2:|]
+
+X:184
+T:Lovely Nancy
+R:waltz 32
+M:3/4
+L:1/8
+K:Gmaj
+B>A |G2 G2 G>B | A2 A2 Ac | BG gd cB | B2 A2 B>A |
+G2 G2 G>B | A2 A2 A>c | Bg ec AF | G2 G2 B>A |
+G2 GD GB | A2 AD Ac | B2 gd cB | B2 AD c/B/A/F/ |
+G2 G2 G/D/G/B/ | AB/A/ A2 c/B/A | Bg ec AF | G2 G2 ||
+B>c |d2 d2 ge | d4 B>c | d2 d2 gB | A3 c c/B/A |
+G2 G2 GB | A2 A2 A/B/c/A/ | Bg e>c AF | G4 B>c |
+d2 d2 ge | e2 d2 B>c | d2 d2 gB | B2 AD c/B/A/F/ |
+GD GB AG | AD Ac BA | B2 g>c A/G/F | G4 |]
+
+X:185
+T:Mad Moll of the Cheshire Hunt
+R:hp 32
+O:england
+M:4/4
+L:1/8
+Q:1/4=113
+C:Trad
+K:G
+(3DEF|: G2 g>f e>dc>B|A>Bc>A B2A2|G2 g>f e>dc>B|d>cA>F G2 (3DEF|
+G2 g>f e>dc>B|A>Bc>A B2A2|e2d2 c2B2|1 c>AF>A G2 (3DEF:|2 c>AF>A G4|
+|: D>GB>G D>GB>G|D>GB>d c2A2|D>FA>F D>FA>F|D>FA>c B2G2|
+D>GB>G D>GB>G|D>GB>d c2A2|e2d2 c2B2|c>AF>A G4 :|
+
+X:186
+T:Madam del Caro's Hornpipe. WM082
+R:hp 16 reel
+S:Wm.Mittell,1799
+N:In other MSs this usually appears dotted and in 2/4,
+N:as it does earlier in this MS
+O:England
+A:Kent
+Z:C.G.P
+M:4/4
+L:1/8
+Q:1/4=180
+K:G
+|:GBdg fede|dcBA BcdB|GBdg fede|dcBA G3z:|
+|:GBdg e/f/g e/f/g|DFAc B/c/dB/c/d|
+GBdg e/f/g e/f/g|dcBA G3z:|]
+
+X:187
+T:Magnus Memory
+R:hp 32 reel
+C:Steve Young
+M:2/4
+L:1/16
+Q:1/4=70
+K:D
+|:e|f2ed AfdB|GBBd g2Bg|Aeec AecA|ddde f4|
+f2ed AfdB|GBBd g2ed|BccB AecA|1gAfe d3:|2gAfe d2|]
+|:fg|a2fd Aafd|GBBd g2Bg|Aeec AecA|ddde f3g|
+a2fd Aafd|GBBd g2ed|BccB AecA|1gAfe d2:|2gAfe d3|]
+
+X:188
+T:Maiden Lane
+R:hp 48
+M:4/4
+L:1/8
+Q:1/4=180
+S:Playford
+K:G
+d3 c BA G2| g2 f2 g2 d2 | g2 f2 g2 dc| B2 A2 G4| d3 c BA G2| g2 f2 g2 d2 |g2 f2 g2 dc| B2 A2 G2:|
+|: ABcd e2 A2| c2 B2 A2 e2| e2 e2 e2 dc |BABc A4| ABcd e2 A2 c2 B2 A2 e2 | e2 e2 e2 dc|BABc A4:|
+|: d2 Bc d2 Bc|dcBA B2 G2 | d2 Bc dedc | B2 A2 G4| d2 Bc d2 Bc dcBA B2 G1| d2 Bc dedc |B2 A2 G4:|
+
+X:189
+T: Major Mackie's Jig
+R: jig 32
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K:D
+A \
+| "D"ABc dcd | "G"B2e "Em"e2d | "A7"c2a a^ga | "D"f2d "A7"dcB \
+| "D"ABc dcd | "G"B2e "Em"e2d | "A7"c2a gfe | "D"d3- d2 :|
+|: e \
+| "Bm"f2f def | "Em"g2[gB] g2f | "A7"e2e cde | "D"f2[fA] f2e \
+| "Bm"d2d def | "Em"g2[gB] e2d | "A7"c2a gfe | "D"d3- d2 :|
+
+X:190
+T:Manchester Hornpipe, The
+T:Rickett's Hornpipe
+R:hp 32
+N:also a triple hornpipe by this name
+O:England
+M:4/4
+L:1/8
+Q:1/4=140
+K:Gmaj
+|:(3DEF|GFGD B,DGB|AGFE D2c2|BcdB edcB|AGFE DcBA|
+GFGD B,DGB|AGFE D2c2|BcdB ecAF|G2GF G2:|
+|:Bc|dBdB G2cd|ecec A2Bc|dBdB edcB|AGFE DcBA|
+GFGD B,DGB|AGFE D2c2|BcdB ecAF|G2GF G2:|]
+
+X:191
+T:Manchester Hornpipe, The
+T:Rickett's Hornpipe
+R:hp 32
+N:also a triple hornpipe by this name
+O:England
+M:4/4
+L:1/8
+Q:1/4=140
+K:Gmaj
+|:(3def|gfgd Bdgb|agfe d2c'2|bc'd'b e'd'c'b|agfe dc'ba|
+gfgd Bdgb|agfe d2c'2|bc'd'b e'c'af|g2gf g2:|
+|:bc'|d'bd'b g2c'd'|e'c'e'c' a2bc'|d'bd'b e'd'c'b|agfe dc'ba|
+gfgd Bdgb|agfe d2c'2|bc'd'b e'c'af|g2gf g2:|]
+
+X:192
+T:Manchester Hornpipe, The
+T:Rickett's Hornpipe
+R:hp 32
+N:also a triple hornpipe by this name
+O:England
+M:4/4
+L:1/8
+Q:1/4=140
+K:D
+|:(3ABc|dcdA FAdf|edcB A2g2|fgaf gfed|cdec A2 (3ABc|
+dcdA FAdf|edcB A2g2|fgaf bgec|d2f2 d2:|
+|:fg|afaf d2ga|bgbg e2fg|afaf bagf|edcB A2 (3ABc|
+dcdA FAdf|edcB A2g2|fgaf bgec|d2f2 d2:|]
+
+X:193
+T:March des Cabriettaires
+R:polka 32 march
+B:English Choice, Nick Barber, pub mally.com
+M:2/2
+L:1/8
+Q:1/4=150
+K:C
+Gcd|:"C"e2e2 e2"G"de|"C"c4- cGcd|
+e2c2 "G"B2"C"c2|"G"d4- dGde|
+f2f2 fgfe|d4- ddef|
+"G"g2f2 "C"e2"G"d2|1
+"C"c4- cGcd:|2"C"c4- c2cg||
+:"C"egeg e3g|a>g"G"fe fd2f|
+dfdf d3f|g>f"C"ed ec2g|
+egeg e3g|a>g"G"fe fd2f|
+dfdf d3f|1"G"g>f"C"ed c3g:|2
+"G"g>f"C"ed c|]
+
+X:194
+T:March of the Chocolate Coloured Aristocracy
+R:polka 32 rag
+Z:P J Headford
+M:4/4
+L:1/8
+Q:1/4=240
+K:G
+|:G2G2 GEDE|G6A2|B2Bc BAGF|E6d2|e2fg- gfe2|
+d2ed- dBG2|1A2B2 c2^c2|d2D2 E2F2:|2
+A2Bd- dBA2|G2d2 e2f2||
+|:g2gg- ged2|e6d2|e2ef e2d2|B6d2|e2fg- gfe2|
+d2ed- dBG2|1A2B2 c2^c2|d2^d2 e2f2:|2
+A2Bd- dBA2|G8||
+W:Chocolate-Coloured Aristocracy, from
+W:The King of the Cannibal Isles, Drury Lane Pantomime 17th or 18th c
+
+X:195
+T:March of the Men of Devon
+T:Novelty, The. JC.154
+T:Ymdiath Gwyr Dyfnant
+R:polka 32 march
+S:John Clare,Poet,Helpstone (1793-1864)
+N:MR.Time si 2/3 in Ms. Bars 4,10,18,26, the 3 qu's in Ms are given here
+N:as one qu & 2 semiqu's.Bar 6,294 qu's in ms given as
+N:semiqu's.Bar15,31,3 crots in ms given as qu & 2 semiqu's.Bar 18,4th
+N:note  crot in ms.Bar30 all notes qu's in MS.
+N:CGP. I have re-beamed bars 17 & 20.
+O:England
+A:Northamptonshire
+Z:vmp.P. Headford
+M:2/4
+L:1/16
+Q:1/4=110
+K:D
+A2G2|\
+F2DD D2DD|D2F2A2d2|c2AA A2AA|A2c2e2g2|!
+f4d2df|edcB g2f2|efed cdcB|ABAG FGFE|!
+F2DD D2DD|D2F2A2d2|c2AA A2AA|A2c2e2g2|!
+f2d2d2f2|edcB g2f2|efge d2c2|d2dd:|!
+|:f2g2|a2ff f2ff|f2d2f2a2|f2ee e2ee|e2c2e2g2|\
+f2dd d2f2|!
+edcB g2f2|efed cdcB|ABAG FGFE|F2DD D2DD|!
+D2F2A2d2|c2AA A2AA|A2c2e2g2|f2d2d2f2|\
+edcB g2f2|efdc Bcec|d2dd|]
+
+X:196
+T:Marten in the bag
+R: polka 32
+Z:H DEDIC
+L:1/8
+Q:1/4=240
+M:4/4
+I:linebreak $
+K:D
+"Bm" F2 DF B2 FB |"Bm" d2 Bd df df |"G" b2 b2"A" a3 e |"D" f2 f2 f4 |"Em" e2 gf e2 e2 |
+"D" d2 fe d2 d2 |"F#" c2 ed c2 ed |"F#7" c2 ed c2 f2 |"Bm" F2 DF FB FB |"Bm" d2 Bd df df |
+"G" b2 b2"A" a3 e |"D" f2 f2 f4 |"Em" e2 gf e2 e2 |"D" d2 fe d2 d2 |"F#7" c2 ed c2 dc |
+"Bm" B2 B2 B2 d2 |]"D" d2 Ad f2 df |"G" g2 (3fgf e2 d2 |"A" c2 Ac ce ce |
+"F#7" f2 (3efe d2 c2 |"G" B2 FB Bd Bd |"E7" e2 (3ded c2 B2 |"A" A2 EA Ac Ac |
+"A7" e2 ce a2 A2 |"D" d2 Ad df df |"G" g2 (3fgf e2 d2 |"A" c2 Ac ce ce |"F#7" f2 (3efe d2 c2 |
+"G" B2 FB Bd Bd |"E7" e2 (3ded c2 B2 |"A" A2 EA Ac Ac |"A7" A2 ce"D" d4 |]
+
+X:197
+T:Mason's Apron
+R:hp 32 reel
+C:Trad
+M:4/4
+L:1/8
+K:A
+g2 |: a2 A2A3F | EFAB cABc | d2 B2B3A | GABc defg |
+| a2 A2A3F | EFAB cA Bc | dcde fgaf |1 edcB A2 g2 :|2 edcB A2 ed|
+|: c2e2f2e2 | c2e2 fedc | d2f2g2f2 | d2f2 gfed |
+| c2e2f2e2 | c2e2 fedc | dcde fgaf |1edcB A2 ed :|2 edcB A2 g2 |
+
+X:198
+T:Matelot, The
+R:jig 32
+M:6/8
+L:1/8
+Q:1/4=140
+K:D
+|:A|FED FED|FGA A2A|Bcd AGF|GEE E2A|
+FED FED|FGA A2A|Bcd edc|d3- d2:|
+|:A|f2f fed|e2e e2A|Bcd edc|B3 A2A|
+f2f fed|e2e e2A|Bcd edc|d3- d2:|]
+
+X:199
+T:Mazurka de Barbary
+R:Mazurka 32
+L:1/8
+M:3/4
+N:Also known as Dziekowice, Mazurka Auvergnate,Skelton's. In massif Central book 1 # ?74
+O:France
+K:Gmaj
+|:DGGF G2|DBBA B2|cBAG FG|AGFE D2|DGGF G2|DBBA B2|
+cBAG FA|1 G3z GE:|2 G3z Bc|:d2de dc|B2G2 AB|c2cd cB|
+A3z Bc|d2de dc|B2G2 AB|cBAG FA|1 G3z Bc:|2 G4z2||
+
+X:200
+T: Men of Wrexham’s Hornpipe, The
+M: 4/4
+L: 1/8
+R: hp 32
+K:G
+|: Bc | d2 g2 gdBG | c2 e2 e2 ge | dBdB edcB | ABcB AGFD |
+d2 g2 gdBG | c2 e2 e2 ge | dBdB cAFA |G2 B2 G2 :|
+|: Bc | dBdB d2 g2 | ecec e2 g2 | dBdB edcB | ABcB AGFD |
+dBdB d2 g2 | ecec e2 g2 | dBdB cAFA |G2 B2 G2 :|
+
+X:201
+T: Men of Wrexham’s Hornpipe, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K:G
+|: Bc | d2 g2 gdBG | c2 e2 e2 ge | dBdB edcB | ABcB AGFD |
+d2 g2 gdBG | c2 e2 e2 ge | dBdB cAFA |G2 B2 G2 :|
+|: Bc | dBdB d2 g2 | ecec e2 g2 | dBdB edcB | ABcB AGFD |
+dBdB d2 g2 | ecec e2 g2 | dBdB cAFA |G2 B2 G2 :|
+
+X:202
+T:Michael Turner's Jig
+R:jig 32
+M:6/8
+L:1/8
+Q:1/4=140
+K:G
+|:G2G GFG|A2B c2d|e2e dBG|GFG AFD|
+G2G GFG|A2B c2d|e2e dBG|AGF G3:|
+|:A2A A2B|c2d B2d|g2d g2d|BAG d3|
+A2A A2B|c2d B2d|g2d g2d|ded cBA:|]
+
+X:203
+T:Michael Turner's Waltz
+R:waltz 32
+S:Turner MS
+B:English Choice, Nick Barber, pub mally.com
+M:3/4
+L:1/8
+Q:1/4=120
+K:G
+|:DGA|"G"B2BD"D"cD|"G"d4gf|
+"C"e3fge|"G"d3DGA|
+"G"B2BD"D"cD|"Bm"d3ecA|
+"C"G2GB"D"AF|"G"G3:|
+:zAB|"C"c3dcB|"D"A4Bc|
+"Bm"d3edc|"G"B4gf|
+"C"e3fge|"Bm"d3DGA|
+"C"B2Bc"D"AB|"G"G3:|]
+W:chords by PJH
+
+X:204
+T:Midnight on the Water
+R:waltz 32
+S:Luke Thomassen
+B:English Choice, Nick Barber, pub mally.com
+M:3/4
+L:1/8
+Q:1/4=150
+K:D
+|:DE|"D"F2F3E|F2F3E|
+FA-A3B|AF"A"ED "D"DE|
+"G"F2d2Bd|"D"A3F DE|
+F2AF"A"E>D|"D"D4:|
+FA|"G"d2d3e|dcBA Bc|
+"D"cd-dB AF|"D"D4d2|
+"Em"e2e3f|"A"e3cde|
+"D"f3afe|"D"dcBA Bc|
+"Bm"cd-dc de|dcBA Bc|
+"G"d3BAF|"D"D4 DE|
+"G"F2d2 Bd|"D"A3FDE|
+F2AF "A"E>D|"D"D4|]
+W:Nick Barber has the B music repeat
+W:and has Bminor chord in first bar, also
+W:Dmajor chord in its ninth bar.
+
+X:205
+T: Milesian, The
+R: polka 32 march
+%R: march, reel
+B: Chas & Sam Thompson "Twenty Four Country Dances for the Year 1778", London 1778, p.72 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-thompsons1778#
+Z: 2014 John Chambers <jc:trillian.mit.edu> (added dance description)
+M: 2/4
+L: 1/8
+K:Bb
+B |\
+BF-Fd | dB-Bf | edcB AB/c/ FG/A/ |\
+BF-Fd | dB-Bf | dBcA | B3 :|
+|: f |\
+gfbf | gfba | gfed | cc/d/ cf |\
+gfbf | gfbg | fedc | B2B/c/ B2 :|
+
+X:206
+T:Milesian, The
+R:polka 32
+M:2/4
+L:1/8
+K:G
+GD DB|BG Gd|cB AG|FG/A/ DE/F/|
+GD DB|BG Gd|BG AF|G3 d||
+ed gd|ed gf|ed cB|AA/B/ Ad|
+ed gd|ed ge|dc BA|GG/A/ G2|]
+
+X:207
+T:Mill Street Hornpipe
+T:Pibddawns Hewl-y-Felin
+T:Mill Road Hornpipe, The
+M:C|
+L:1/8
+Q:140
+S:Cadw Twmpath Collection
+R:Hornpipe
+A:Wales
+Z:brian_martin12345@yahoo.com
+K:D
+(3ABc|d2AF D2FG|A2Bc d2ef|g2f2 e2d2|edcB Agfe|
+d2AF DEFG|A2Bc d2ef|g2f2 e2d2|dAfe d2:||
+fg|a2fd Adfa|g2ec Aceg|f2dA FAdf|edcB A2(3ABc|
+d2AF DEFG|A2Bc d2ef|gffe eddc|dAfe d2:||
+
+X:208
+T:Miss Baker's Hornpipe
+R:hp 24 reel
+M:2/2
+L:1/8
+Q:1/4=180
+K:D
+|:AG|F2D2 DFED|CEG2 GBAG|FABc dABG|F2D2 D2:|
+|:(3ABc|dAFA dfed|ecAc egfe|fdec dBed|cBA=G A2dc|
+BAGF G2ed|cBAG FABc|dABG AFEG|F2D2 D2:|]
+
+X:209
+T: Miss Gayton's
+R: hp 32 reel
+M: 4/4
+L: 1/8
+K:Gmaj
+|: dc | Bdgf g2 dc | Bdgf g2 d^c | dfag fed^c | dfag fedc |
+Bdgf g2 dc | Bdgf g2 d2 | efge fgaf | g2 b2 g2 :|
+|: ga | b2 bg a2 af | gfge d2 dB | c2 ec B2 dB | AGAB A2 ga |
+| b2 bg a2 af | gfge d2 d2 | efge fgaf | g2 b2 g2 :|
+
+X:210
+T:Miss Wrights Fancy. JGi.095
+O:Tealby,Lincolnshire
+M:C|
+L:1/8
+Q:1/4=130
+S:Joshua Gibbons MS,1823,Tealby,Lincs.
+R:reel
+Z:VMP/R.Greig, 2009
+K:G
+d|B2GB dedc|B2GB cAAd|B2GB dedc|BdAc BGG:|
+|:f|g2dB g2dB|ggdB cAAf|g2dBg2dB|cAcc BGG||
+
+X:211
+T:Mittel's Untitled Hornpipe
+R:hp 32 march
+C:Trad. ed. Barry Callaghan
+S:'Hard Core English' page 22A
+O:England
+A:Kent
+B:Hard Core English ISBN 978 085418 201 5
+Z:PJHeadford 2008
+M:4/4
+L:1/8
+Q:1/4=140
+K:D
+|:D4 FDGE|A4 BABc|d2ef agfe|gfed dcBA|
+D4 FDGE|A4 BABc|d2ef agfe|dfec d4:|
+|:fdfa gfed|dced dcBA|fdfa gfed|bagf f2e2|
+fdfa gfed|dced dcBA|D2FA dfaf|gedc d4:|]
+W:Untitled in Mittel MS.
+
+X:212
+T:Moll In The Wad
+R:jig 32
+M:6/8
+L:1/8
+K:Dmix
+c|"Em"BAB G2F|"Em"E2F G2A|"Em"BAB G2B|"D"AFD D2c|
+"Em"BAB G2F|"Em"E2F G2A|"G"BGB dcB|"D"AFD D2:|
+c|"G"BGB d2c|"G"BGB d2c|"D"BGB dcB|"G"ecA A2c|
+"G"BGB d2c|"G"BGB def|"C"gfe dcB|"D"AFD D2:|
+W:MOLL-IN-THE-WAD (Mother Goose)
+W:Moll-in-the-Wad and I fell out,
+W:What do you think it was all about?
+W:I gave her a shilling, she swore it was bad,
+W:It's an old soldier's button, says Moll-in-the-Wad.
+
+X:213
+T:Moon and Seven Stars, The
+R:jig 32
+S:Thomas Hardy Collection
+M:6/8
+L:1/8
+Q:1/4=140
+K:D
+|:z|d2A A2F|GAB A3|Bcd efg|fed cBA|
+d2A A2F|GAB A3|Bcd efg|Adc d2:|
+|:f|e2A A2f|efg f3|efg fed|cec A3|
+BGB AFA|BGB AFA|Bcd efg|Adc d2:|]
+
+X:214
+T:Morgan Rattler
+R:jig 48
+C:Aylmore MS
+M:6/8
+L:1/8
+Q:1/4=120
+K:D
+|:AGF EFG|FEF D2d|AGF EFG|B2c Bcd|
+AGF EFG|FEF D2A|def edc|B2A Bcd:|
+|:d2e fdB|c2d ecA|d2e fdB|f2e fga|
+d2e fdB|c2d ecA|def ecA|B2A Bcd:|
+|:D2d dcd|E2e ede|D2d dcd|B2A Bcd|
+D2d dcd|E2e efg|agf edc|B2A Bcd:|]
+W:titled Morgan Ratler
+
+X:215
+T:Morgiana
+R:jig 32
+M:6/8
+L:1/8
+Q:3/8=120
+K:Gmaj
+|:d|dBd b2a|gfe d2d|dBd gdb|c'ba age|
+dBd b2a|gfe d2d|dBd gdg|baf g2:|]
+a|aba gfe|ddd c'2d|bdd gdd|bdd a3|
+aba gfe|ddd c'2d|bdd gdd|agf edc|
+BGB B2d|BGB B2d|c2e B2d|A3 A2 d|
+BGB B2d|BGB B2d|e2g f2a|g3 g2|]
+
+X:216
+T:Morgiana
+R:jig 32
+M:6/8
+L:1/8
+Q:3/8=120
+K:Gmaj
+|:D|DB,D B2A|GFE D2D|DB,D GDB|cBA AGE|
+DB,D B2A|GFE D2D|DB,D GDG|BAFG2:|]
+A|ABA GFE|DDDc2D|BDD GDD|BDD A3|
+ABA GFE|DDD c2D|BDD GDD|AGF EDC|
+B,G,B, B,2D|B,G,B, B,2D|C2E B,2D|A,3 A,2D|
+B,G,B, B,2D|B,G,B, B,2D|E2G F2A|G3 G2|]
+
+X:217
+T:Morgiana
+R:jig 32
+M:6/8
+L:1/8
+Q:3/8=120
+K:D
+|:A|AFA f2e|dcB A2A|AFA dAf|gfe edB|
+AFA f2e|dcB A2A|AFA dAd|fec d2:|]
+e|efe dcB|AAA g2A|fAA dAA|fAA e3|
+efe dcB|AAA g2A|fAA dAA|edc BAG|
+FDF F2A|FDF F2A|G2B F2A|E3 E2 A|
+FDF F2A|FDF F2A|B2d c2e|d3 d2|]
+
+X:218
+T:Morgiana
+R:jig 48
+M:6/8
+L:1/8
+Q:1/4=140
+K:D
+|:A|AFA f2e|dcB A2A|AFA dAf|gfe edB|
+AFA f2e|dcB A2A|AFA dAd|fec d2:|]
+e|efe dcB|AAA g2A|fAA dAA|fAA e3|
+efe dcB|AAA g2A|fAA dAA|edc BAG|
+FDF F2A|FDF F2A|G2B F2A|E3 E2 A|
+FDF F2A|FDF F2A|B2d c2e|d3 d2|]
+e|efe dcB|AAA g2A|fAA dAA|fAA e3|
+efe dcB|AAA g2A|fAA dAA|edc BAG|
+FDF F2A|FDF F2A|G2B F2A|E3 E2 A|
+FDF F2A|FDF F2A|B2d c2e|d3 d2|]
+
+X:219
+T:Morning Star
+R:hp 24
+C:Trad. ed. Barry Callaghan
+S:'Hard Core English' page 43B
+O:England
+Q:1/4=140
+B:Hard Core English ISBN 978 085418 201 5
+Z:PJHeadford 2008
+M:4/4
+L:1/8
+Q:1/4=140
+K:G
+|:dc|BdBG E2FG|ABAF D2dc|BdBG EFGE|D2F2 G2:|
+|:GA|B2dd g2e2|dcBA G3B|B2d2 g2e2|f2d2 d3c|
+B2d2 g2e2|dcBA GFGA|BdBE EFGE|D2F2 G2:|]
+W:Collected by C Sharp from Wm Hathaway (Lower Swell) James Lock
+W:(Newent). No idea why the repeats are like this.
+
+X:220
+T:Morpeth Rant
+R:polka 32 rant reel
+S:Kevin Briggs, via EF
+M:4/4
+L:1/8
+Q:1/4=120
+K:D
+P:A
+A|"D"dA/2G/2 F/2D/2F/2A/2|"G"B/2G/2B/2d/2 "A7"c/2A/2c/2e/2|\
+"D"ff/2d/2 "G"g/2f/2e/2d/2|"Em"ce "A7"eA|
+"D"dA/2G/2 F/2D/2F/2A/2|"G"B/2G/2B/2d/2 "A"c/2A/2c/2e/2|\
+"Bm"ff/2d/2 "A7"g/2f/2e/2d/2|"D"Ad d:|
+P:B
+f/2e/2|"D"d/2f/2a/2f/2 d/2f/2a/2f/2|"Em"g/2f/2e/2f/2 ge/2f/2|\
+"A7"g/2f/2e/2d/2 c/2d/2e/2g/2|"D"f/2e/2f/2g/2 "A"f3/2f/2|
+"D""Bm"d/2f/2a/2f/2 d/2f/2a/2f/2|"Em"g/2f/2e/2f/2 ge/2f/2|\
+"A7"g/2f/2e/2d/2 c/2e/2a/2g/2|"D"fd d:|
+
+X:221
+T:Morpeth Rant, Old (Tom Hughes' version of Morpeth Rant)
+R: polka 32 rant reel
+M:4/4
+L:1/8
+S:Tom Hughes, Border fiddler, Springthyme Records SPR 1005
+K:G
+BA|"G" G2 DD B,2 DG|"C" ECEE "Bm" DB,DF|"G" G2 AB "Am" cBAG|"D" F2 A2 AcBA|!
+"G" G2 DD B,2 DG|"C" ECEE "Bm" DB,DF|"G" G2 AB "D7" cBAF|"G" D2 G2G2:|!
+ef|"C" gfed "G" B2 GB|"Am" cBAG "D" F2 DF|"C" ECEB "Am" cBAG|"D" F2 D2 D2 F2|!
+"C" ECEB "Am" cBAG|"D" FDFA dcBA|"G" Ggfg "Em7" edBG|"D" A2 "G" G2 G2:||
+
+X:222
+T:Mount Hills
+Q:1/4=140
+R:polka 32 march
+C:Trad. ed. Barry Callaghan
+S:'Hard Core English' page 43C
+O:England
+B:Hard Core English ISBN 978 085418 201 5
+Z:PJHeadford 2008
+M:4/4
+L:1/8
+Q:1/4=140
+K:G
+|:G2d2 B2B2|ABAG F2D2|G2d2 B2B2|d2cB A4|
+G2d2 B2B2|ABAG F2D2|E2E2 c2BA|F4 G4:|
+|:F3G A2B2|c2B2 A2GF|G2E2 c2d2|B4 A4|
+dedc B2B2|G2G2 E3B|c2BA GFGA|A4 G4:|]
+W:Playford 11, 1701.
+
+X:223
+T:Munster Cloak
+R:waltz 32
+C:Trad arr. P J Headford
+Z:P J Headford
+M:3/4
+L:1/8
+Q:1/4=120
+K:G
+D2|:G2GA BG|A2AB cA|G2GA Bd|c2A2 F2|
+G2GA BG|A2AB cA|d2de fd|c2A2 F2:|
+|:g2ga ge|d2g2 a2|b2a2 g2|f2g2 a2|
+b2a2 g2|f2de (3fed|dcAB (3cBA|A2GF G2:|]
+
+X:224
+T: Nancy Clough
+R:polka 32
+M: 4/4
+C: Tom Clough
+L: 1/8
+K:Dmaj
+(3ABc|:d2D2F2A2|d2fe d2A2|d2ef gfed| c2ec A2 (3ABc|!
+d2D2F2A2|d2fe d2A2|B2g2 fedc| [1d6 (3ABc:|[2d6(fg)||!
+|:a3b a2f2|g3a g2e2|f2d2gfed| c2e2A2Bc|!
+d2D2F2A2|d2fe d2A2|B2g2 fedc|[1 d6(fg):|[2 d6 (3ABc||!
+|:dcBA GFED|F2A2d2A2|dcdf gfed| cdec A2(3ABc|!
+dcBA GFED|F2A2d2A2|B2g2 fedc|[1 d6 (3ABc:|[2 d6(fg)||!
+|:aAaA a2gf| gBgB g2fe| f2f2 gfed |cdec A2 (3ABc|!
+dcBA GFED|F2A2d2A2|B2g2 fedc|[1 d6(fg):|[2d6|]
+
+X:225
+T:Nancy's Fancy 1a
+R:polka 48
+M:4/4
+L:1/16
+Q:1/4=120
+K:G
+|:D2|G2B2 B2AB|c2A2 A2d2|B2G2 G2B2|AGFE D2D2|
+G2B2 B2AB|c2A2 A2d2|B2G2 A2F2|G6:|
+|:g2|f2e2 d2c2|B2A2 G2B2|d2g2 d2B2|B4 A2g2|
+f2e2 d2c2|B2A2 B2c2|d2g2 f2d2|g6:|
+|:D2|B2B2 BAB2|c2c2 cBc2|B2B2 BAB2|AGFE D2D2|
+B2B2 BAB2|c2c2 cBc2|B2G2 A2F2|G6:|]
+
+X:226
+T:New Anything
+R: hp 32
+M:C|
+L:1/8
+R:Country Dance
+B:Playford DM 1710
+K:D
+FG|A2d2A2d2|A3G F2d2|ABAG FdcB|AGFE D2 FG|
+A2d2A2d2|A3G F2d2|AdcB AGFE|D4-D2:|
+|:cd|e2c2A2 cd|efed c2A2|a2f2d2fg|abag f2 ed|
+cdef gBcd|efed c2A2|afdf e2c2|d4-d2:|]
+
+X:227
+T:New Long Room At Scarborough, The
+S: A First Collection of Yorkshire Dance Music, David Aston & Chris Dyson
+M:9/8
+L:1/8
+R:slip jig
+K:Gmaj
+|:"G" G2G GBG "Em" Bcd|"G" G2G GBG "D" AFD|"G" G2G GBG "Em" Bcd|"C" EFE EFG "D" AFD:|
+|:"G" g2g gag "D" fed|"G" g2g gfg "D" afd|"G" g2g gag "D" fed|"C" efg "G" dBG "D" AFD:|
+|:"G" BGB "Em" BGB "C" c2d|"G" BGB "Em"BGB "D" AFD|"G" BGB "Em" BGB "C" c2d|"Em" EFE "C" EFG "D" AFD:|
+
+X:228
+T:New Rigged Ship
+R:jig 32
+S:Thomas Hardy collection
+M:6/8
+L:1/8
+Q:1/4=140
+K:G
+|:zD|GFG G2B|GFG G2B|AFD DEF|AFD DEF|
+GFG G2B|GFG G2B|AFD DEF|1G4:|2G3||!
+|:B2c|d2B d2B|G2G GBd|e2c e2c|A2A ABc|
+d2B d2B|G2G GAB|AFD DEF|1G3:|2G4|]
+
+X:229
+T:Newcastle
+R:hp 32
+H:Simpson feels that the surviving tune is not the one which had some
+H:currency in Elizabethan days. He points out that wrenchings of accent
+H:are necessary to accomplish the fit of Playford's dance tune to a
+H:curious fragment of text found in the 18th century Percy folio MS, a
+H:source of dubious authenticity itself.
+H:__ Came you not from Newcastle? __
+H:__ Came yee not there away? &c __
+H:It is quite possible that this dance was inspired by William,
+H:Duke of Newcastle, a royalist who remained in London and bent
+H:his interests towards the theatre during the interregnum.
+M:4/4
+L:1/8
+Q:200
+K:G
+B2d2 G2A2|G3A G2D2|B2d2 G2d2|e2g4 fe|d2B2A2G2|
+E2e4 dc|d2B2 A2>G2|1 G8 :|2 G6ef||
+gfed g3B|A2 g4 A2|G3A B2F2|E2 e4 f2|gfed
+g3B|A2A2 c3d|e2B2 A3G|G8||
+
+X:230
+T:News of the Victory
+T:Tars of the Victory
+R:jig 32
+M:6/8
+L:1/8
+K:G
+d|d^cd d^cd|g2G G2B|ABc DEF|Bd d2d|
+d^cd d^cd|g2G G2B|ABc DEF|G2B G2:|
+g|fed d2c|Bcd G2B|ABc DEF|GBd d2g|
+fed d2c|Bcd G2B|ABc DEF|G3G2:|
+
+X:231
+T:Nine Men's Morris
+R:polka 32 march
+S:Great Western Morris
+L:1/8
+M:4/4
+Q:1/4=140
+K:D
+D2|:E2B2 BAGF|E2E2 DEFD|E2B2 BAGA|B4 B2D2|
+%Dd2|E2b2 bagf|E2E2 DEFD|E2b2 baga|b4 b2d2|E2b2 bagf|
+E2B2 BAGF|E2E2 DEFD|E2B2 BAGF|E4 E2A2:|]
+%E2E2 DEFD|E2b2 bAGF|E4 E2A2:|2
+%I can't work out what the next line is trying to do. I was expecting something like.
+B2e2 e3f|e2d2 B2A2|B2e2 e3f|e3d B2c2|
+e2z2 d4|B2z2 A3G|E2B2 BAGF|1E4 E4:|2E4 E2|]
+> A2d2b4|e2z2d4|b2z3A2d|E2b2 bagf|E4 E2D2:|2
+
+X:232
+T:Nipper
+R:jig 32
+C:John Kirkpatrick
+B:English Choice, Nick Barber, pub mally.com
+M:6/8
+L:1/8
+Q:1/4=120
+K:G
+|:"G"B2d "D"cBA|"G"G2B D2B|
+"G"G2B D2B|"D"ABc D3|
+"G"B2d "D"cBA|"G"G2B D2B|
+"A"A2B ^cBA|"D"d6:|
+:"G"g3 "C"e3|"G"ded B3|
+"D"cdc A3|"G"BdB GBd|
+g3 "C"e3|"G"ded B3|
+"D"ABc DEF|"G"G6:|]
+
+X:233
+T:Not for Joe%
+T:Brimfield
+R:polka 24
+M:4/4
+L:1/4
+Q:140
+Z:Brian Martin <brian_martin12345@yahoo.com> Winterbourn Downs Morris  (rcvd Jan 2003)
+K:G
+DG/G/DG/G/ | FEFE | DG/G/DG/G/ | FGA2 | DG/G/DG/G/ | FEFE | D2B>A | GFGA |]
+B>AGB | c2A2 | B>AGB | AFD2 | B>AGB | c2Ac | BGAF | GG/G/G2 |]
+B>AGB | c2A2 | B>AGB | AFD2 | B>AGB | c2Ac | BGAF | GG/G/G2 |]
+
+X:234
+T:Nymph (the)
+R:polka 48
+C:Trad arr. P J Headford
+M:2/4
+L:1/16
+Q:1/4=120
+K:D
+|:d2dc d2A2|d2f2 a2f2|g2e2 d2c2|dcde d2A2|
+d2dc d2A2|d2f2 a2f2|g2e2 d2c2|d4 d4:|
+|:g2f2 f4|e2d2 d4|c2d2 e2f2|gagf e4|
+g2f2 f4|e2d2 d4|e2g2 fedc|d4 d4:|
+|:f6 a2|d6 f2|^d2e2 g2e2|=d2c2 B2A2|
+d4 e2f2|g6 f2|f2e2 d2c2|d4 d4:|]
+" key C"
+K:C
+|:c2cB c2G2|c2e2 g2e2|f2d2 c2B2|cBcd c2G2|
+c2cB c2G2|c2e2 g2e2|f2d2 c2B2|c4 c4:|
+|:f2e2 e4|d2c2 c4|B2c2 d2e2|fgfe d4|
+f2e2 e4|d2c2 c4|d2f2 edcB|c4 c4:|
+|:e6 g2|c6 e2|^c2d2 f2d2|=c2B2 A2G2|
+c4 d2e2|f6 e2|e2d2 c2B2|c4 c4:|]
+
+X:235
+T:Nymph,The JJo.043
+R:polka 48
+S:J.Jones MS,1801,N.Shrops.
+A:N Shropshire
+Z:Neil Brookes 2006
+M:2/4
+L:1/8
+Q:1/4=140
+K:C
+cc/B/ cG|cege|fdcB|c/B/c/d/ cG|cc/B/ cG|cege|fdcB|c4::!
+fee2|dcc2|Bcde|f/g/f/e/ d2|fee2|dcc2|Bf e/d/c/B/|{B}c4::!
+e3g|c3e|{c}d2fd|{c}B2AG|c2de|f3e|ed cB|c4:|
+
+X:236
+T:Nymph,The JJo.043
+S:J.Jones MS,1801,N.Shrops.
+A:N Shropshire
+Z:Neil Brookes 2006
+M:2/4
+L:1/8
+Q:1/4=140
+K:Gmaj
+GG/2F/2 GD|GBdB|cAGF|G/2F/2G/2A/2 GD|GG/2F/2 GD|GBdB|cAGF|G4::!
+cBB2|AGG2|FGAB|c/2d/2c/2B/2 A2|cBB2|AGG2|Fc B/2A/2G/2F/2|{F}G4::!
+N:originally a 48 polka in C
+
+X:237
+T:Off She Goes [diddly B music]
+R:jig 32
+Z:P J Headford.
+M:6/8
+L:1/8
+Q:1/4=120
+R:Jig
+K:D
+|:A|F2A G2B|ABc d2A|F2A G2B|AFD E2D|\
+F2A G2B|ABc d2e|f2d g2f|edc d2:||
+|:e|faf def|gbg efg|faf def|ecA A2e|\
+faf def|gbg efg|f2d g2f|edc d3:||
+
+X:238
+T:Off She Goes [English B music]
+R:jig 32
+Z:P J Headford.
+M:6/8
+L:1/8
+Q:1/4=120
+C:Trad arr. P J Headford
+R:jig 32
+O:England
+K:D
+F2A G2B|ABc d3|F2A G2B|AFD E2D|\
+F2A G2B|ABc d2e|f2d g2f|edc d3:||
+M:9/8
+L:1/8
+Q:1/4=140
+|:f2a f2d e2f|g2b g2e f2a|f2d e2c A3|\
+f2a f2d e2f|g2b g2e f2d|g2f edc d3||
+
+X:239
+T: Oh, Joe! The Boat Is Going Over
+R: polka 32
+M: 2/4
+L: 1/8
+K:Dmaj
+F3G|A3B|Afed|c2B2|
+[1 E3F|G3A|BcBA|F3G:|
+[2 e2f2|gec>B|AABc|d3A||
+FAd>A|FAd>c|dfed|c2B2|
+[1 cde>d|cde>d|cdcB|A2A>G:|
+[2 e2f2|gec>B|AABc|d3 A||
+
+X:240
+T:Old Heddon of Fawley
+R:hp 24
+S:John Mason
+B:Coleford Jig, Menteith & Burgess, 2004
+Z:P J Headford 2005
+M:4/4
+L:1/4
+Q:1/4=120
+K:DMix
+DA AG|E/F/E/D/ C3/D//E//|
+FA G/F/E/D/|E2 D2:|
+AA/B/ cA|d/c/B/A/ G2|!
+AA/B/ cA|d>c AB|
+cc cA|G/F/E/D/ C3/D//E//|
+FA G/F/E/D/|E2 D2|]
+
+X:241
+T:Old Morpeth Rant
+T: Morpeth Rant (Tom Hughes)
+R:polka 32 rant reel
+C:Trad
+M:4/4
+L:1/8
+K:G
+D2|: G2DB, G,B,DB,| G,CEC G,B,DB,| G2AB cBAG| F2A2A2 D2|
+|G2DB, G,B,DB,| G,CEC G,B,DB,| G2AB cBAG|1 D2G2G2 D2:|2 D2G2G2 Bd|
+|:gf ed B2G2 |cB AG F2D2|E2E2cBAG| F2A2A2 D2|
+|E2E2cBAG| F2F2dcBA| Gg fg ecAF|1 A2G2G2 Bd:|2 A2G2G2 D2|
+
+X:242
+T:Old Mother Flanagan
+R:polka 32 rant
+M:4/4
+L:1/8
+Q:2/4=90
+K:G
+|:.G2G2 DEGA|B2B2 AGED|.G2G2 DEGA|B2GB d2Bd|\
+c4B4|A2AB AGED|.G2G2 DEGA|BBA2 G4:|]
+|:.g2g2 edBA|.B2B2 AGED|.G2G2 DEGA|B2GB d2Bd|\
+.g2g2 edBA|.B2B2 AGED|G2G2 DEGA|BBA2 G4:|]
+
+X:243
+T:Old Tom of Oxford, Bampton
+R:polka 32 march
+M:4/4
+L:1/8
+A:Bampton
+P:AAB(CB)2
+K:G
+P:A
+Bc|d2ef g2d2|c2B2 A2BA|G2Bc d2g2|f2g2 a2gf|
+d2ef g2d2|c2B2 A2ef|g2d2 c2B2|A4 G2||
+P:B
+dc|Bcd2 B2d2|B2d2 gfed|c2e2 c2e2|c2e2 gfed|
+B2d2 B2c2|d2ef g2f2|g2d2 c2B2|A4 G2||
+P:C
+M:2/4
+L:1/8
+B2c2|\
+M:4/4
+L:1/8
+d4 e2f2|g4 d4|c4 B4|A6 BA|G4 B2c2|d4 g4|f4 g4|
+M:2/4
+L:1/8
+a2fe|\
+M:4/4
+d2ef g2d2|c2B2 A2ef|g2d2 c2B2|A4 G2||
+
+X:244
+T:One For Dan
+R:hp 32
+M:2/2
+O:Swedish
+S:Recorded from the playing of John Lowe
+Z:Melanie Biggs
+R:Schottische
+K:G
+Gdge dBed|Gdge dBed|c2 Ac B2 GB|ABcd A4|Gdge dBed|Gdge dBed|cdef gedc|B2 A2 G4:|
+d2 fe d4|e2 f2 g3 g|fed2 edc2|dc B2 A3B|c2 cc B2 B2|ABcd A2 BA|GABc dcBA|Gggf g4:|
+
+X:245
+T:Orange In Bloom
+T:Sherbourne Waltz
+R:waltz 32
+M:3/4
+L:1/4
+Z:Steve Mansfield
+K:G
+D|E>GE|DGA|BdB|A2B/A/|GFE|DGA|BGG|1G2:|2G3|:B>AB/c/|dcB|AGA|
+Bcd|edB|AGA|BAG|E2D|EGE|DGA|BdB|A2B/A/|GFE|DGA|BGG|G3:|
+
+X:246
+T:Orlando's Return
+T:Orlando's Revenge
+R:polka 32 march
+M:4/4
+L:1/8
+R:
+K:G
+D2|:GFGA G2 A2|BABc B2 c2|d2G2c2B2|AGFE D2 D2|
+|GFGA G2 A2|BABc B2 c2| d2G2 BAGF|1G2 GF G2 D2:|2G2 GF G2 Bc|
+|:d3d d2 B2|c2e2A2c2|B2G2c2B2|AGFE D2 d2|
+|GFGA G2 A2|BABc B2 c2|d2G2 BAGF|1G2 FG A2c2:|2G2 GF G2 D2|
+
+X:247
+T:Oscar Woods Jig
+T:Tiger Smith's Jig
+R:Jig 32
+C:Trad. via Oscar Woods
+O:England, Northumberland
+Z:Paul Hardy's Session Tunebook 2013 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:6/8
+L:1/8
+Q:3/8=100
+K:G
+"G"BAG BAG|BcB ded|GAG BAG|"D7"A2A A3|
+"G"BAG BAG|BcB ded|d2 g dBG|"D7"ABA "G"G3:|
+|:"G"B2 d dcB|"C"c2 e edc|"G"B2 d dBG|"D7"c2A A3|
+"G"B2 d dcB|"C"c2 e edc|"G"d2 g dBG|"D7"ABA "G"G3:|
+
+X:248
+T:Oswestry Wake
+R:jig 48
+C:Trad. ed. Barry Callaghan
+S:'Hard Core English' page 74A
+O:England
+A:Welsh marches
+B:Hard Core English ISBN 978 085418 201 5
+Z:PJHeadford 2008
+M:6/8
+L:1/8
+Q:1/4=140
+K:G
+|:d|efg f2e|dcB A2G|gfe f2g|a3- a2d|\
+efg f2e|dcB ABc|BGB AFA|G3- G2:|
+|:A|B>cd ded|dBG dBG|A>BA c2d|e3 edc|\
+Bcd def|g3 d3|BGE AFD|G3- G2:|
+|:e/f/|gdB gdB|gdB A2G|gfe f2g|a3- a2f|\
+gba gfe|fag fed|egB A2G|G3- G2:|]
+W:Playford 1718, Walsh 1719. Usual known as Oswestry Wakes.
+
+X:249
+T:Over the Hills and Far Away
+R:hp 32 reel
+C:Trad. ed. Barry Callaghan
+S:'Hard Core English' page 45B
+O:England
+B:Hard Core English ISBN 978 085418 201 5
+Z:PJHeadford 2008
+M:
+L:1/16
+Q:1/4=120
+K:G
+|:d2f2 d2f2|d2B2 B4|defe defd|g2e2 e4|
+d2f2 d2f2|d2B2 g4|B2AG A2f2|g2e2 e4:|
+|:a3b agfe|d2B2 B4|a3b a2gf|g2e2 e2fg|
+a3b agfe|d2B2 g4|B2AG A2f2|g2e2 e4:|]
+W:Widespread in MSs and prints, used in Beggars Opera.
+
+X:250
+T:Oyster Girl, The
+R:jig 32
+M:6/8
+L:1/8
+Q:1/4=120
+K:G
+|:d|ded B2G|A2F D2D|G2G BGB|d2c ABc|
+ded B2g|f2e c2e|ded cAF|G3 G2:|
+|:A|Bcd Bcd|e2c e2c|ABc ABc|d2B dBc|
+ded B2g|f2e c2e|ded cAF|G3 G2:|]
+
+X:251
+T:Oyster Girl, The
+R:jig 48
+Z:P J Headford.
+M:6/8
+L:1/8
+C:Trad arr. P J Headford
+R:jig 48
+K:G
+B2c|ded B2G|A2F DEF|G2G BAB|
+d2c ABc|ded Bdg|f2e c2e|d2B cBA|G3:|!
+|:G2A|Bcd Bcd|e2c e2c|ABc ABc|
+d2B d2B|ded Bdg|f2e c2e|d2B cBA|G3:|!
+B2c|ded B2d|(g3g)fg|a2A A2B|
+c3A2B|cdc A2c|(f3f2)e|e2d G2A|!
+B3B2c|ded B2d|(g3g)fg|a2b a2g|
+e3e3|fgf e2d|c'2a f2e|ded e2f|g3||
+
+X:252
+T:Packie Russell's
+R:polka 32
+C:Trad. ed. OSB
+S:Swan For The Money
+M:2/4
+L:1/16
+Q:1/4=90
+K:G
+|:G2zB d2G2|F6 d2|e2d2 d2c2|B2Bc B2A2|
+G2zB d2G2|F6 d2|e2d2 e2f2|1g3e d2B2:|2g3e d2c2|]
+|:B3B B2B2|A2BA G2Bd|g2gg f2e2|d6 B2|
+cdcB A2c2|BcBA G2d2|e3d e2f2|1g3e d2c2:|2g3e d2B2|]
+
+X:253
+T: Parnell's March
+M: 12/8
+L: 1/8
+R: slide
+K:Gmaj
+|: d2 c |
+B2 G B2  c d3- d2 c | B2 G B2 c d3- d2 c |
+BdB GBd edc BA^G | Add d^cd Add cec |
+B2 G BBc d3- dBG | c2 B cde gag f/g/fe |
+d2 B GBd cAF DEF | A2 G GFA G3 :|
+|: ggf  |
+e/f/ec cBd c3 gfe | d2 B BAc B3 G2 B |
+ddd d^cd edc BA^G | Add d^cd Add cec |
+B2 G BBc d3- dBG | c2 B cde gag f/g/fe |
+d2 B GBd cAF DEF | A2 G GFA G3 :|
+
+X:254
+T:Parsons farewell
+Z:Paul Hardy's Session Tunebook 2010 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+R:hp 24 reel
+C:Trad. Playford 1650
+O:England
+M:4/4
+L:1/8
+Q:1/4=140
+K:Am
+"Am"c2 A2 A2 Bc|"G"d2 G2 G3 G|"Am"AB c2 B2 A2|1"Em"G2 E2 E4:|2("Em"E4E2)e2|:
+"Am"c4 c2 e2|"Am"c4 c2 e2|"Am"cd e2 cd e2|"G"d2 B2 B4|
+"G"Bc d2 Bc d2|"Am"c2 A2 ABcd|"Em"e2 dc BA B2|1"Am"A6 e2:|2 "Am"A8|]
+
+X:255
+T:Pearl Polka
+R: polka 48
+M:2/4
+L:1/8
+K:G
+DG G/2A/2B| FA A/2B/2c|Fe dc| B/c/A/B/ G2| DG G/2A/2B| FA A/2B/2c|Fe dF| AG G z:|
+K:D
+((3A/B/A/)F dA| ed/2c/2 d2|((3d/e/d/)Ae2|ef/e/ d2| ((3A/B/A/)F dA| ed/2c/2 d2|((3d/e/d/)A fe| .d z d2:|
+K:G
+((3g/a/g/)d ((3d/e/d/)B| ((3B/c/B/)G G2|F/G/A/B/ ed| c/d/e/f/ ag| ((3g/a/g/)d ((3d/e/d/)B| ((3B/c/B/)G G2|F/G/A/B/ eF| A/G/F/A/G2:|
+
+X:256
+T:Pearl Wedding
+R:hp 32 reel
+C:Willie Taylor
+S:'Hard Core English' page 45C
+O:England
+A:Northumbria
+B:Hard Core English ISBN 978 085418 201 5
+Z:PJHeadford 2008
+M:4/4
+L:1/8
+Q:1/4=180
+K:D
+|:E2|D2DE DFAd|f2fe dBBd|FAAB AFAd|ceef ecAF|
+D2DE DFAd|f2fe dBBd|FAAB AFAd|cdec d2:|
+|:fg|a2ag f2ed|BddB AFEF|DFAd fafd|ceef e2fg|
+a2ag f2ed|BddB AFEF|DFAD FAAd|cdec d2:|]
+
+X:257
+T:Pepper in the Brandy
+R:polka 32
+C:John Kirkpatrick; (c) Free Reed Music
+B:Opus Pocus - John Kirkpatrick & Sue Harris 1988 Dragonfly Music
+Z:P J Headford 2005
+M:4/4
+L:1/8
+Q:1/4=180
+K:G
+|:GBdg e2d2|GBdg e2d2|c2Ac B2GB|ABAG E2D2|
+GBdg e2d2|GBdg e2d2|c2Ac B2GB|AEFD G4:|]
+|:AGFA d2d2|BAGB d2d2|cdef g2d2|c2B2 A4|
+AGFA d2d2|BAGB d2d2|cdef g2d2|b2a2 g4:|]
+
+X:258
+T:Perfect Cure (the)
+R:jig 32
+M:6/8
+L:1/8
+Q:1/4=120
+R:jig 32
+Z:P J Headford.
+K:D
+|:FGA D2d|c2B A2G|FGA D2F|E3EAG|
+FGA D2d|c2B A2G|FGA ABc|1d2zA2G:|2dAB cde||!
+|:fed e2d|c2B A2e|fed c2d|e3 eag|
+fed e2d|c2B A2G|FGA ABc|1dAB cde:|2d2zA2G||
+
+X:259
+T:Pete's Kettle
+R: slipjig
+M:9/8
+L:1/8
+C:Taz Tarry
+S:Copyright B.Tarry 15th. September 1998
+K:D
+"D" d2e fed "G2" B2A|"D" def "Em" gfe "A7" c2A|"D" d2e fed "G" B2A|"A7" agf edc "D" d3:|!
+"D" DEF FGA "A" ABc|"D" DEF FGA "A" E2D|"D" DEF "G" GAB "A" cde|"A" afe "A7" dce "D" d3:|!
+"D" aff aff "A" afe|"D" aff "A" afe "D" dBA|"A" a3  aaa "D" aaa|"A" ABc ecA "D" d3:|
+
+X:260
+T:Petronella
+R:polka 32
+S:Lesley Dolman, via EF
+M:4/4
+L:1/4
+K:D
+P:A
+d/2A/2|"D"FA/2F/2 "A7"EA/2F/2|"D"DD DF/2A/2|"G"dc/2d/2 "E7"ed|\
+"A7"c/2d/2B/2c/2 Ad/2A/2|
+"D"FA/2F/2 "A7"EA/2F/2|"D"DD DF/2A/2|"G"dc/2d/2 "A7"ec|"D"d3:|
+P:B
+d/2A/2|"D"Ff/2d/2 Aa/2f/2|"Em"gg/2f/2 e/2d/2c/2B/2|"A7"Ae/2c/2 Ag/2e/2|\
+"D"ff/2d/2 "A7"A/2d/2A/2F/2|
+"D"Df/2d/2 Aa/2f/2|"Em"gg/2f/2 e/2d/2c/2B/2|"A7"Ae/2c/2 A/2g/2e/2c/2|"D"d3:|
+
+X:261
+T:Petronella
+R:polka 32
+S:Lesley Dolman, via EF
+M:4/4
+L:1/8
+Q:1/4=180
+K:D
+P:A
+d/2A/2|"D"FA/2F/2 "A7"EA/2F/2|"D"DD DF/2A/2|"G"dc/2d/2 "E7"ed|\
+"A7"c/2d/2B/2c/2 Ad/2A/2|
+"D"FA/2F/2 "A7"EA/2F/2|"D"DD DF/2A/2|"G"dc/2d/2 "A7"ec|"D"d3:|
+P:B
+d/2A/2|"D"Ff/2d/2 Aa/2f/2|"Em"gg/2f/2 e/2d/2c/2B/2|"A7"Ae/2c/2 Ag/2e/2|\
+"D"ff/2d/2 "A7"A/2d/2A/2F/2|
+"D"Df/2d/2 Aa/2f/2|"Em"gg/2f/2 e/2d/2c/2B/2|"A7"Ae/2c/2 A/2g/2e/2c/2|"D"d3:|
+
+X:262
+T:Pibddawns Hewl-y-Felin
+T:The Mill Road Hornpipe
+R: hp 32
+M:C|
+L:1/8
+Q:180
+S:Cadw Twmpath Collection
+R:Hornpipe
+A:Wales
+Z:brian_martin12345@yahoo.com
+K:D
+(3ABc|d2AF D2FG|A2Bc d2ef|g2f2 e2d2|edcB Agfe|
+d2AF DEFG|A2Bc d2ef|g2f2 e2d2|dAfe d2:||
+fg|a2fd Adfa|g2ec Aceg|f2dA FAdf|edcB A2(3ABc|
+d2AF DEFG|A2Bc d2ef|gffe eddc|dAfe d2:||
+
+X:263
+T:Piper in the Meadows Straying, The
+R:hp 16
+B:Joyce, P. W. OIFM&S
+M:4/4
+L:1/8
+Q:2/4=90
+K:G
+d2dc B2BA|GFGA B2G2|ABcA G2F2|G2B2 B2A2|
+d2dc B2BA|GFGA B2G2|ABcA G2F2|G2B2 G4:|
+A2AB c2A2|BABc d2A2|d2dd e2g2|fedc d2 ((3ABc)|
+dedc BcBA|GFGA B2G2|ABcA G2F2|G2B2 G4|
+
+X:264
+T:Plane Tree, The
+R:jig 32
+C:Undine Hornby
+B:English Choice, Nick Barber, pub mally.com
+M:6/8
+L:1/8
+Q:1/4=140
+K:Em
+|:"Em"EGB EGB|"Am"cBA "G"B2B|
+"C"cde "D"dcB|AGA "B"B2B|
+"Em"EGB EGB|"Am"cBA "G"B2B|
+"C"cde "D"dcB|"D"AGF "Em"E3:|
+|:"C"efg f2e|"D"ded "G"B2B|
+"C"cde "D"dcB|"D"AGA "Bm"B2B|
+"C"efg f2e|"D"ded "G"B2B|
+"C"cde "D"dcB|"B"AGF "Em"E3:|]
+
+X:265
+T:Pleasures of the Town, The
+T:Three Around Three
+Z:Paul Hardy's Session Tunebook 2010 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+R:Polka 32 Rant
+C:Trad.
+O:England
+M:4/4
+L:1/8
+Q:1/4=160
+K:G
+Bc|"G"d2BA G2G2|"D"A2BA "G"G2D2|"C"EDEF "G"G2AB|"Am"c2B2"D"B2A2|
+"G"d2BA G2G2|"D"A2BA "G"G2D2|"C"EDEF "D"G2Ac|"G"B2G2G2:|
+|:Bc|"G"d2ef "Em"gfed|"C"e2e2efge|"G"d2B2B2AG|"D"FGAB A3 B|
+"G"d2ef "Em"gfed|"C"e2e2e3d|"C"efge "D"fgaf|"G"g4g2:|
+
+X:266
+T:Plymouth Lasses. JMT.073
+T:Cylph Dance,The. JMT.073
+T:Sylph,The,aka. JMT.073
+R:jig 32
+M:6/8
+L:1/8
+Q:1/4=140
+S:J.Moore,Tyneside,1841.(51a)
+R:.Jig
+O:England
+A:Tyneside
+N:a.k.a. The Selph,Self,et
+Z:vmp.Chris Partington
+K:D
+A|AFA d(fa)|(ag)fe2g|(fe)d (fe)d|(ce)e"NB"e2A|!
+AFA dfa|agf efa|(f/g/)ad gec|dddd2:|!
+|:A/G/|(FA).d (dc).B|(BA).G (GF)D|(F/G/A)G F/G/AD|CEEE2A/G/|!
+FAd dcB|BAGF2D|(F/G/A)D GEC|EDDD2:|]
+W:NB=Crotchet E missing from MS
+
+X:267
+T:Polly Put the Kettle On
+R:hp 24
+C:Trad. ed. OSB
+S:Gamesters, Pickpockets and Harlots
+N:George Baldwin
+B:Coleford Jig, Menteith & Burgess, 2004 Z:PJHeadford 2011
+M:4/4
+L:1/8
+Q:2/4=75
+K:G
+|:gfed efge|dcBA Bcd2|gfed efgg|fgaf g4:|] :gabg afd2|efge dBG2|ABcA
+|dBGB|cAFA G4:|] :BcdB cde2|ABcA Bcd2|G3B cBAd|BGAF G2G2:|]
+
+X:268
+T:Poor but honest sailor, The (aka balquidder lasses (scots))
+R:polka 32
+D:Swarbrick, Ceilidh Album
+Z:Nigel Gatherer
+M:4/4
+L:1/8
+K:Edor
+BA | G2 E2 EFGA  | B2 B2 e2 B2 | d2 A2 ABAF | DEFG A2
+BA | G2 E2 EFGA  | B2 B2 e2 B2 | d2 A2 BAGF | E6      :|
+B2 | e^def e2 B2 | efgf  e2 Bc | d2 d2 dAFA | DEFG A2
+B2 | e^def e2 B2 | efgf  e2 Bc | d2 A2 BAGF | E6
+B2 | e^def e2 B2 | efgf  e2 Bc | d2 d2 dAFA | DEFG A2
+BA | G2 FG EFGA  | B2 B2 e4    | d2 A2 BAGF | E6      |]
+
+X:269
+T:Portobellow Hornpipe
+R:hp 32
+C:Trad. ed. Barry Callaghan
+S:'Hard Core English' page 22C
+O:England
+B:Hard Core English ISBN 978 085418 201 5
+N:In Irwin and Joseph Barnes.
+Z:PJHeadford 2008
+M:4/4
+L:1/8
+Q:1/4=140
+K:G
+|:DE/F/|G2GA G2B,E|DCB,A, G,A,B,G,|A,2AB A2GA|BABG EFGE|
+G2GA G2B,E|DCB,A, G,2Bc|dBGB cAFA|G2GA G2:|
+|:Bc|d2de d2ef|gfed e2ef|edcB cBAG|FGAF D2CB,|
+C2EC B,2DB,|A,2CA, G,2Bc|dBGB cAFA|G2GA G2:|]
+W:This from Irwin, also in Joseph Barnes.
+
+X:270
+T: Portsmouth, The
+R:hp 32
+M: 4/4
+L: 1/8
+R: hornpipe
+K:Gmaj
+|:D2|G3A BAGF|E4e4|d2B2cBAG|A6D2|
+G3A BAGF|E4e4|d2B2cBAB|G6:|
+|:D2|g3a bagf|g2d4B2|d2B2cBAG|A6 D2|
+G3A BAGF|E4e4|d2B2cBAB|G6:|
+
+X:271
+T:President Garfield's Hornpipe
+R:hp 64 reel
+C:Harry Carleton 1880 USA
+M:4/4
+L:1/8
+Q:1/4=140
+K:G
+|:GDB,D GDB,D|GFGA GABc|dAFA dAFA|d^cde d=cBA|
+GDB,D GDB,D|GFGA GABc|defe dcBA|1
+G2G2.G2D2:|2G2G2.G2gf||
+|:ecGE Gceg|dBGD GBed|cAed cAed|BGed BGgf|
+ecGE Gceg|dBGD GBc^c|defe dcBA|1
+G2G2.G2gf:|2G2G2.G2D2||
+|:GDB,D GDB,D|GFGA BABc|dAFA dAFA|defe dcBA|
+GDB,D GDB,D|GFGA BABc|defe dcBA|1
+G2B2G2D2:|2G2B2G2gf||
+|:ecGE- EGce|dBGD- DGBd|cAed cAed|BGed BGgf|
+ecGE- EGce|dBGD- DGBd|defe dcBA|1
+G2B2G2gf:|2G2B2G4|]
+
+X:272
+T:Pretty Girl (The)
+R:hp 16 reel
+N:19b
+S:The Ironbridge Hornpipe
+Z:PJHeadford
+M:C|
+L:1/8
+Q:1/2=80
+K:D
+|:dAFD dAFD|dAFD E2E2|dAFD EFGB|AGFE D2D2:|]
+|:fdfa .g.e.c.A|fdfa g2g2|fdfa gbeg|fedc d2d2:|]
+
+X:273
+T: Pride Of Petravore, The
+R:hp 32
+M: 4/4
+L: 1/8
+R: hornpipe
+K:Emin
+Q:1/4=140
+|:E3 F G3 A| BcBA G2 E2| D3 E F3 G| ABAG F2 D2|
+E3 F G3 A| BcBA G2 A2| B2Bc BAGF| E2D2 E4:|
+|:e2 e2 e2 e2| dBGA B2Bc|BAFG A2 AB|AGED E2 Bd|
+e2 e2 gfge| dBGA B2 GA| B2Bc BAGF| E2D2 E4:|
+
+X:274
+T:Prince Albert Jig
+R:jig 32
+C:(c) P J Headford 2003
+M:6/8
+L:1/8
+Q:1/4=140
+K:G
+D|G2Bd2d|e2dB2G|D2GB2d|A3-A3|
+DFA d^cd|=c3-c2A|DFA d^cd|B3-B2A|!
+|G2Bd2d|e2dB2G|D2GB2d|A3-A3|
+DFA d^cd|c3-c2F|DFA cBA|G3-G2D|!
+GBd gfg|d3-d2B|GBd gfg|f3-f2c|
+FAc fef|e3-e2d|fed fed|B3-B2D|!
+GBd gfg|d3-d2B|GBd gf=f|e3-e2e|
+fed fed|fed fed|fed cBA|G6||
+
+X:275
+T:Princess Royal, Adderbury
+R:hp 32
+M:4/4
+L:1/8
+P:A(AB2)4
+K:EMin
+P:A
+B>A|G2F2 E2B>A|G2F2 E4|e3d c2e2|d2c2 B3d|
+c2B2 A2G2|F2E2 D2d2|B2AG A2F2|E4 E2||
+P:B
+z2|d2d2 d2ef|g2G2 G3G|c2B2 A2G2|F2E2 D4|
+G2G2 A3A|B2B2 g4|g2G2 c4|e2G2 c4|
+c3B A2G2|F2E2 D2d2|B2AG A2F2|E4 E2||
+
+X:276
+T:Princess Royal, Bampton
+R:hp 32
+M:2/2
+L:1/8
+P:AAB(CB)2
+K:Emin
+P:A
+BA|G2F2 E2BA|G2FG E2GB|c2A2 ABcA|B2BA GFGB|
+A2G2 F2E2|DEDB, G,2BA|G2FE D2B2|E4 E4||
+P:B
+g2g2 g2fg|a2d2 d4|gfed cBAG|FAD2 D4|
+E2EF GFGA|B2B2 e3e|d2B2 c3c|B2E2 A4|
+BAGF EFGA|B2E2 E2BA|G2FE D2B2|E4 E4||
+P:C
+M:2/4
+B3A|M:4/4
+L:1/8
+G3A F3G|E4 B3A|G3A F3G|E4 B4|c4 A4|A2B2 c2A2|B4 G4|
+M:2/4
+GFGB|M:4/4
+L:1/8
+A2G2 F2E2|DEDB, G,2BA|G2FE D2B2|E4 E4||
+
+X:277
+T:Quaker, The
+R:polka 32
+M:4/4
+L:1/8
+K:G
+|:B2B2AG FE|E2D2D2DE|F2F2FE DF|A2G2G4|
+d2ed c2B2|A2E2E2c2|BA GF E2F2|G4G4:|
+|:
+K:D
+A2A2B2B2|AG FG A4|GF EF G2G2|FE DE F4|
+A2A2B2B2|AG FG A4|GF EF GA Bc|[1d8:|[2d4=c4|]
+
+X:278
+T:Quarryman's Jig
+R:jig 32
+C:Charlie Sherrit
+S:Ian Dedic
+Z:PJHeadford 2008
+M:6/8
+L:1/8
+Q:3/8=120
+K:D
+F2G||"D"Aff  f2e|"A"e2d "D"Dc"^(C)"=c|"G"B^AB dcB|"D"A3 [F2f2]"^(E)"[Ge]|\
+"A"Aee e2"^(G)"f|"A"(3gag ec2B|"G"A^GA "A"^AB=G|"D"F3 "A"F2G|
+"D"Aff f2e|"A"e2d "D"dc"^(C)"^B|"G"B^AB dc"Em"B|"D"A3 [F2f2]"^(E)"[Ge]|\
+"A"Aee e2"^(G)"f|"A"(3gag e c2B|"G"A^GA "A"^ABc|"D"d3 ||"C"d2c|
+"G"Bdd G2B|dBd "C"edB|"D"A2d FAA|dAd "G"fed|\
+"A"cgg gee|ecc "Em"c=cB|"D"Aff fee|"A"edd "C"dc=c|
+"G"Bdd G2B|dBd "C"edB|"D"A2d FAA|dBd "B"fed|\
+"A"cgg gee|ecc c=cB|"G"A^GA "A"^ABc|"D"d3|]
+
+X:279
+T:Queer Fella's Shot-ese
+R: hp 32 schottische
+M:4/4
+L:1/8
+S:Charlie Batchelor - NSW
+Z:Johnny Adams <j.adams:salford.ac.uk> tradtunes 2002-2-3
+K:G
+(3ABc | d2 d>e d>B c>A | G>D G>B d2 g>f | e>f g>e a>g e>c | A2 A2 A2
+(3A Bc | d2 d>e d>B c>A | G>D G>B d2 g>f | e>f g>e d>B (3cBA| G2G2G2
+z2 || g 2g2g2 b>a | g>f (3gfe d4 | B2B>f e>d c>B |  A6 z2 | g2g2g2 b>a
+| g>f (3g fe d2 g>f | e>f (3gfe d>B (3cBA | G6 ||
+
+X:280
+T:Quigley's Reel
+R:hp 32 reel
+M:4/4
+L:1/8
+Q:2/4=90
+P:A2
+K:D
+P:A
+|:A2|d2fd cdec|d2.A2 z2A2|BAGF GFED|CDEF GABc|
+d2fd cdec|d2.A2 z2AA|BAGF GFED|CDEC D2:|]
+|:AG|F2AF- FAAF|G2BG- GBBG|F2AF- FAAF|GFED CDEG|
+F2AF- FAAF|G2BG- GBBG|FAdf gece|d2d2 d2:|]
+
+X:281
+T:Radstock Jig
+R:hp 32
+O:england
+M:4/4
+L:1/8
+K:D
+|:\=c4 E3=F|G2G2 G4|A2 AB =cBcd|e2e2A4|
+|A2 AB =cBcd|e2 ef g2 fg|afdf egec|A2A2 A4|:|
+|:|g2g2 gfed|cdef g2 gf|e2a2 a3g|e2a2a2 ef|
+g2 ga gfed|cdef g2 fg|afdf egec|A2 AG A4|:|
+
+X:282
+T:Railway, The
+R:jig 32
+S:Trad, arr Phil Rowe
+L:1/8
+Q:1/4=140
+M:6/8
+K:G
+D|"G"G2G GBd|g2d d2d|"Am"e2d c2B|"D7"ABG FED|
+"G"G2G GBd|"G"g2d d2d|"C"edc "G"BAG|"D7"A3 "G"G2:|
+|:d|"G"b2b b2a|g2g g2d|"C"e2d efg|"D7"a2g fed|
+"Bm"bbb b2a|"Em"ggg g2d|"A7"efg "D7"agf|"G"g3 -g2:|
+
+X:283
+T: Rattle the Cash
+R:Jig 32
+Q:140
+K:G
+M:6/8
+L:1/16
+|:D2|G4B2 B2G2B2|c4c2 c4A2|G4B2 B2G2B2|A4A2 A4D2|
+G4B2 B2G2B2|c4c2 c4A2|d2B2G2 c2A2F2|G4G2 G4:|
+|:d2|g4g2 g2e2c2|c4c2 c4c2|a4a2 a2f2d2|d4d2 d4d2|
+g4g2 g2e2c2|c4c2 c4c2|B2G2B2 c2A2F2|G4G2 G4:|
+
+X:284
+T:Recovery, The
+R:polka 48
+S:John Clare (1793-1864)
+O:Northampton MS. 12 Deacon 48
+Z:P J Headford
+Z:P Headford
+M:4/4
+L:1/8
+Q:1/4=140
+K:D
+|:A2d2 A2d2|edef e4|a2g2 e2c2|dcde f4|
+A2d2 A2d2|edef e4|a2g2 e2c2|d4 d4:|
+|:a2g2 e2c2|d2f2 A4|G2F2 GFGA|G4 F2z2|
+a2g2 e2c2|d2f2 A4|G2FG AGFE|D4 z4:|
+|:f2ff f2f2|f6 g2|f2e2 d2c2|dcde f4|
+e2ee e2e2|e6 f2|e2d2 c2B2|A4 z4:|]
+
+X:285
+T:Recruiting Officer (the)
+R:waltz 32
+C:Trad. ed. Barry Callaghan
+S:'Hard Core English' page 63C
+O:England
+B:Hard Core English ISBN 978 085418 201 5
+Z:PJHeadford 2008
+M:6/8
+L:1/8
+Q:1/4=80
+K:D
+|:A|def ecA|d3 A2G/F/|GAB AFD|E3 A,2A|\
+def edc|BgB AGF|GAB cAc|d3 D2:|
+|:e|fga ecA|g3 f3|Bcd efd|c3 A2a/g/|\
+fed cac|BgB AGF|GAB cAc|d3 D2:|]
+W:George Farqhuar wrote a comedy of this name 1760. In Jackson,
+W:Harrison, Vickers, Watts, Biggins.
+
+X:286
+T: Reel Eugene
+M: 4/4
+L:1/8
+Q:1/4=160
+R:hp reel 32
+K:Bmin
+"Bm"B2Bc dcB2| "Em"e2ef gece| "F#7"f2fg fede| fbbf bfdc|
+"Bm"B2Bc dcB2| "Em"e2ef gece| "F#7"f2fg fedc|1 "Bm"B4 "F#7"F4 :|2 "G"B4 "A7"A4 |]
+|:"D"f2fe d2dB| AAdf "Do"b2f2| "Em"a2ag e2 (3cec| "A7"Aceg (3faf e2|
+"D"f2fe d2dB| AAdf "Do"b2f2| "Em"a2ag egec|1 "A7"dfec "D"d3e :|2 "A7"dfec "D"d4 |]
+
+X:287
+T:Robertson's Reel
+R:hp 32 reel
+M:4/4
+L:1/8
+Q:1/4=180
+C:© Tom Anderson?
+S:Tom Anderson
+R:hp 32 reel
+K:G
+GA|B2AB d2BA|GAGE D2GA|B2AB dBGB|A6GA|!
+B2AB d2BA|GAGE D2GA|BABd AGAd|G6:|!
+|:Bc|d2Bd g2fg|edBc d2Bc|d2Bd g2fg|e6de|!
+g2G2 G2BA|GAGE D2GA|BABd AGAd|G6:|]!
+K:A
+" key A"
+|:AB|c2Bc e2cB|ABAF E2AB|c2Bc e2c2|B4 B2AB|!
+c2Bc e2cB|ABAF E2AB|cBce BABc|A4 A2:||!
+|:cd|e2ce a2ga|fecd e2cd|e2ce a2g2|f4 f2e2|!
+a2A2 A2cB|ABAF E2AB|cBce BABc|A4 A2:|]
+% Output from ABC2Win  Version 2.1 f on 19/04/2006
+
+X:288
+T:Rochdale Coconut Dance
+R:polka 32
+S:Trad
+O:England
+M:4/4
+L:1/8
+K:Em
+|:EFGF E2B2|EFGF E2B2|c2 Ac B2G2|1 AGFE D4:|2 AG F2G4|
+|G2 BB G2B2|AGFG ABc2|G2BB G2B2|AGFE D4|
+|G2BB G2B2|AGFG ABc2|BdcB AcBA|G2F2G2F2|
+
+X:289
+T:Rogue's March, The
+R:jig 32
+C:Trad
+M:6/8
+L:1/8
+Q:1/4=140
+K:G
+|:B2B Bcd|e2e e3|d2d- d2e|d2c B2A|
+B2B Bcd|e2e e3|def gdB|A3 G3:|
+|:g3 f3|e3 def|g3 f3|e3 d2c|
+B2B Bcd|e2e e3|def gdB|A3 G3:|]
+
+X:290
+T:Roman Wall
+R:jig 32
+C:anon.
+O:England
+A:Northumberland
+Z:C.G.P
+F:http://abc.musicaviva.com/tunes/england/roman-wall.abc
+%Posted at abcusers Jan 2nd 2001 by Johnny Adams.
+M:6/8
+L:1/8
+K:G
+D|G2G BAG|Bdg dBG|c2e dBG|FAA A2D|G2G BAG|
+Bdg dBG|cde dBG|AGF G2::z|g2g fed|efg dBG|cde dBG|
+F2A A2d|g2g fed|efg dBG|cde dBG|AGF G2:|
+
+X:291
+T:Rondo in the Turnpike Gate(primo) RH.047
+T:Turnpike Gate,aka. RH.047
+R:jig 32
+S:Rev.R.Harrison's MS,c1815,Cumbria
+N:Odd placing of the bar lines, a la Italian.
+O:England
+A:Temple Sowerby,Cumbria
+Z:vmp.Simon Wilson. Review PJH, 2008.
+M:6/8
+L:1/8
+Q:3/8=120
+K:D
+V:1
+|:ded|f2d g2e|a2f ded|e2g B2e|c2A ded|!
+f2d g2e|a2f ded|e2g ABc|d3||!
+aba|a2f f2f|g2e efe|f2d d2d|e2A ABA|!
+d2d ede|f2f gfg|aba agf|f2" DC"e|]
+V:2
+|:z3|D3 E3|F3 z3|G3 E3|A3 z3|!
+D3 E3|F3 z3|(G2B) (A2G)|F3||!
+z3|DFA DFA|EGA EGA|DFA DFA|E3 G3|!
+F2F A2A|d2d ede|fgf fed|d2" DC"A|]
+
+X:292
+T:Rosza
+R:mazurka 32 waltz
+C:Undine Hornby (Late Night Band)
+O:UK, England, Oxon.
+Z:PJHeadford
+M:6/8
+L:1/16
+Q:3/8=60
+K:Gm
+edB|:G2GBdg b2bgdG|e2cdef dedcBA|\
+G2GBdg b2bgdg|1edcdef d3edB:|2e2cdef d4d2|]
+e2gab2 d2gab2|abc'2ba b2a2g2|\
+e2gab2 d2gab2|abc'2ba g3fed|
+egabag dgabag|abc'2ba b2a2g2|\
+egabag dgabag|abc'2ba g3|]
+
+X:293
+T:Rosza
+R:mazurka 32 waltz
+C:Undine Hornby (Late Night Band)
+O:UK, England, Oxon.
+Z:PJHeadford
+M:6/8
+L:1/16
+Q:3/8=60
+K:Em
+cBG|:E2EGBe g2geBE|c2ABcd BcBAGF|\
+E2EGBe g2geBe|1cBABcd B3cBG:|2c2ABcd B4B2|]
+c2efg2 B2efg2|fga2gf g2f2e2|\
+c2efg2 B2efg2|fga2gf e3dcB|
+cefgfe Befgfe|fga2gf g2f2e2|\
+cefgfe Befgfe|fga2gf e3|]
+
+X:294
+T:Rosza
+R:mazurka 32 waltz
+C:Undine Hornby (Late Night Band)
+O:UK, England, Oxon.
+Z:PJHeadford
+M:6/8
+L:1/16
+Q:3/8=60
+K:Dm
+BAF|:D2DFAd f2fdAD|B2GABc ABAGFE|\
+D2DFAd f2fdAd|1BAGABc A3BAF:|2B2GABc A4A2|]
+B2def2 A2def2|efg2fe f2e2d2|\
+B2def2 A2def2|efg2fe d3cBA|
+Bdefed Adefed|efg2fe f2e2d2|\
+Bdefed Adefed|efg2fe d3|]
+
+X:295
+T: Round The Corner
+C: Andy Cutting
+R: polka 32 schottische
+R: barndance
+M: 4/4
+L: 1/8
+K:Gmaj
+|:G2 AB A2 G(A|A)B BA Bc d2 |G2 AB A2 GA |cB AG EG ED :|
+|:e2 dc BA Bc |d2 BA GE E2 |cB AG D2 G(E|E) c2 B cd BA :|
+
+X:296
+T:runaway jig, the
+O:Ireland
+B:Francis O'Neill: "The Dance Music of Ireland" (1907) no. 399
+R:jig 32
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0399/oneill-1001-0399-1.abc
+M:6/8
+L:1/8
+K:D
+A2F F2A|d3 (cBA)|B2G G2A|B2A (Bcd)|A2F F2A|d3 (cBA)|Bcd ecA|[1 d3 (dcB):|[2 d3 d2H||
+||A|d2e f2d|g2e f2d|ecA AcA|ecA AcA|d2e f2d|g2e f2d|ecA ABc|[1 d3d2:|[2 d3 (dcB)|]
+
+X:297
+T:Sailor's Hornpipe, The
+T:College Hornpipe
+R:hp 32
+C:Trad. Shanty
+O:Britain
+M:4/4
+L:1/8
+Q:1/4=140
+K:G
+gf|"G"g2 G2 G2 dc|Bdgf gbag|"A7"a2 A2 A2 AG|"D"FA d2 d2 ef|
+"C"gfed "G"edcB|"C"cBAG "D"GFED|"C"EGFA "D"GBAc|"G"B2 "C"G2 "G"G2:|
+|:dc|"G"Bdgd Bdgd|"C"e2 c2 c2 ed|"A7"^ceae ^ceae|"D"f2 d2 d2 B2|
+"C"cBcd "Am"edcB|"C"cBAG "D"GFED|"C"EGFA "D"GBAc|"G"B2 "C"G2 "G"G2:|
+
+X:298
+T:Saint Anne's Reel
+M:4/4
+L:1/8
+Q:1/4=160
+R:reel
+K:Dmaj
+|:fedf edcB|A2FA DAFA|B2GB EBGB|A2FA DAFA|
+fedf edcB|A2FA DAFA|BGed cABc|eddc d2 de:|
+|:f2fg fedc|Bggf g2gf|edcB ABce|baa^g abag|
+f2fg fedc|Bggf g2gf|edcB ABcd|eddc d2 de:|
+
+X:299
+T:Salford Lasses, The
+A:North-West
+M:6/8
+L:1/8
+Q:1/8=140
+O:England
+R:Jig 32
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+F:http://richardrobinson.tunebook.org.uk/Tune/1237
+K:D
+e|\
+fed fed| Bcd AFD| Bcd efg| AGF E2e|\
+fed fed| Bcd AFD| Bcd efg| ABc d2::\
+a|\
+aba f2d| Bcd AFD| Bcd efg| f3 e2a|\
+{b}aba f2d| Bcd AFD| FGA aba| fdd d2:|
+
+X:300
+T:Sally Sloane's Jig
+T:Sally Sloane's Barn Dance
+R:jig 48
+C:Trad. ed. Barry Callaghan
+S:'Hard Core English' page 74B
+O:England
+B:Hard Core English ISBN 978 085418 201 5
+Z:PJHeadford 2008
+M:6/8
+L:1/8
+Q:1/8=140
+K:D
+|:A|FAd FAd|GBd GBd|FAd dcd|f2e e2A|\
+FAd FAd|GBd GBd|FAd dcd|e2c d2:|
+|:e|f3 def|f2e e2f|g2e cde|efe d2e|\
+f3 def|f2e e2f|g2e cde|efe d2:|
+|:z|A3 F2G|A3 F2G|AFA dAd|fed cBA|\
+G3 E2F|G3 E2F|GBA GFE|1F3 G2:|2D3 D2|]
+W:In Leadley, so has been returned from Australia by Sally. May have
+W:started as Trip to Cottingham.
+
+X:301
+T:Savage Hornpipe
+R:hp 32
+C:Trad. ed. Barry Callaghan
+S:'Hard Core English' page 23C
+O:England
+A:Northamptonshire
+B:Hard Core English ISBN 978 085418 201 5
+Z:PJHeadford 2008
+M:4/4
+L:1/8
+Q:1/4=140
+K:G
+|:(3DEF|G2G2 GABc|dBdg dBGB|E2E2 EFGE|DB,DG DB,G,B,|
+CB,CD EGFA|GABc def2|dBGB cAGF|G2G2 G2:|
+|:dc|BdGd BdGd|AdFd AdFd|GBEB GBEB|FADA FADB,|
+CB,CD EGFA|GABc defg|dBGB cAGF|G2G2 G2:|]
+W:From J Clare MS.
+
+X:302
+T:Sbrando, Untitled
+R:jig 48 sbrando
+S:Trad
+M:6/8
+L:1/8
+Q:1/8=140
+K:D
+F2G|:A2A ABA|F2F AGF|E2E GFE|F2D F2G|
+|A2A ABA|F2F AGF|E2E GFE|1 D3 F2G:|2 D3EFE|
+|:D3 E3|F3 EFE|DEF GFE|F2D F2G|
+|A2A ABA|F2F AGF |E2E GFE|1 D3 EFE:|2 D3 DEF|
+K:G
+|:G2G GAB|c2c cBA|d2d cBA|B2G DEF|
+|G2G GAB|c2c cBA|d2d cBA|1 G3 DEF:|2 G3 F2G|
+w: A sbrando is a type of dance from the Piedmont region of Italy
+
+X:303
+T:Sbrando, Untitled 2
+R:jig 48 sbrando
+C:Trad arr. P J Headford
+S:Rod Stradling
+M:6/8
+L:1/8
+Q:3/8=110
+K:D
+|:F2G|A2A ABA|F2F AGF|E2E GFE|F2D F2G|\
+A2A ABA|F2F AGF|E2E GFE|D3:|]
+|:EFE|D2D EFG|F2D EFG|F2F GFE|\
+F2D F2G|A2A ABA|F2F AGF|E2E GFE|D3:|]
+K:G
+|:DEF|G2G GAB|"^*"c2c cde|ded cBA|B2A DEF|\
+G2G GAB|c2c cde|ded cBA|G3:|]
+
+X:304
+T:Schottis efter Magnus Andersson
+R:polka 32 schottische
+C:efter Magnus Andersson, Eskilskulla
+A:SmÃ¥land
+Z:id:hn-schottis-12
+M:2/2
+L:1/8
+Q:1/2=70
+K:D
+|:A2fe d2d2|Addc B2B2|Bgge cAce|dcdf A4|
+A2fe d2d2|Addc B2B2|Bgge cAce|1 d2f2 d4:|2 d2f2 d3f||
+|:afdf Adfa|(3agaba g2ef|gece Aceg|(3gfgag f2df|
+afdf Adfa|a2a2 b3b|bafa agec|1 d2f2 d3f:|2 d2f2 d4||
+
+X:305
+T:Schottis fr Västergötland
+R:polka 32 schottische
+N:Yorkshire Dales Scandy weekend, June '99; workshop tunes
+O:Sweden
+Z:photocopies from Suzanne Lind & Louise Schultz
+M:4/4
+K:A
+(E|
+A)c/B/ Ac/d/ ee/f/ e>a|gg/f/ dd f/f/f/e/ cA|
+A/A/c/B/ Ac/d/ ef e>(a|g)B/c/ dB/G/ B2 A>(c|
+d/)d/f/e/ dd c/c/e/d/ cc|B/B/d/c/ B(B/G/) Ac/d/ e>(c|
+d/)d/f/e/ dd c/c/e/d/ cc|Bd/c/ B(B/G/) Ac A2||
+V:2
+z|
+A,>A, CE A,>A, CE|E>E GB A,>A, CE|
+A,>A, CE A,>A, CE|E>E FG AE A2|
+D>D FA A,>A, CE|E>E GB A,>A, B,C|
+D>D FA A,A, CE|E>E GB AE A2||
+V:1
+W: æ ingen har du som lagar din mat
+W: æ ingen har du som brygger din dricka
+W: men det har du själv för du var it lat
+W: och ej skatt at dej nå{g}on flicka
+
+X:306
+T:Schottis fran Idre
+R:polka 32 schottische
+S:Old Swan Band
+B:English Choice, Nick Barber, pub mally.com
+M:2/2
+L:1/8
+Q:1/4=180
+K:D
+|:"D"D2FA d2d2|D2FA d2d2|
+"A"efec A2Bc|"D"d2cB "A"AGFE|
+"D"D2FA d2d2|D2FA d2d2|
+"A"efec A2Bc|dedc "D"d4:|
+:"D"a2aa "A"g2g2|"D"f2f2 "A"e4|
+"Dm"=f2ag f2ed|"A"cded c2A2|
+"D"a2aa "A"g2g2|"D"f2f2 "A"e4|
+"Dm"=f2ag f2ed|"A"cdec "D"d4:|]
+
+X:307
+T:Schottische fran Havero
+R:polka 32 schottische
+M:2/2
+L:1/8
+Q:180
+O:Swedish
+S:Blowzabella
+K:Dm
+P:A
+D2 DE FGFE|D2 A2 A4|d^cde f2 f2|efe^c A2 A2|!
+D2 DE FGFE|D2 A2 A4|d^cde f2 f2|e2 e^c d4:|!
+P:B
+a2 a^g a2 a2|fgfe f2 f2|e2 e^c A2 A2|FGFE F2 D2|!
+a2 a^g a2 a2|fgfe f2 f2|e2 e^c Acec|d2 d2 d4:|!
+
+X:308
+T:Scottish Schottis
+R:polka 32 schottische
+C:Ole Moraeus
+S:Ian Dedic
+M:4/4
+L:1/8
+Q:2/4=80
+K:G
+|:"G".G2B2 .G2B2|"D"(3:2:2c2B (3:2:2A2B "G"(3:2:2G2D "^(D)"(3:2:2G2B|\
+"G".d2d2 .d2d2|"D"(3:2:2e2d (3:2:2^cd2 "G"(3:2:2B2G "^(E)"(3:2:2AB2|
+"C"c2e2 (3:2:2a2g (3:2:2f2g|"G"(3:2:2d2B (3:2:2G2B d2-(3:2:2d2"^(B)"c-|\
+"C"(3:2:2c2B (3:2:2A2c "G"(3:2:2B2A (3:2:2G2B|1"D".A2d2 d2(3DEF:|2"D".A2d2 "G"G2]
+|:(3def|"G"g2(3:2:2d2B (3:2:2G2G "^(D)"(3:2:2Bd2|"G"g2 "^(E)"(3:2:2fg2 "C"e2- (3:2:2e2a-|\
+(3:2:2a2g (3:2:2f2g "G"d2B2|"D"(3:2:2A2G (3:2:2A2B (3:2:2c2d (3:2:2e2f|
+"G"(3:2:2f2g (3:2:2d2B (3:2:2G2G "^(D)"(3:2:2Bd2|"G"g2 "^(E)"(3:2:2fg2 "C"e2- (3:2:2e2c|\
+"G/B"(3:2:2B2d "^(C)"(3:2:2c2B "D"(3:2:2A2c (3:2:2BA2|1"G".G2"D"B2"G"G2:|2"G".G2"D"B2"G"G2cBA|]
+
+X:309
+T:Seneca Square Dance, The
+T:Waiting for the Federals
+R:polka 32 rag
+Z:Nigel Gatherer
+M:2/4
+L:1/8
+K:C
+Q:1/4=120
+K:G
+B2 BA/B/|dB B/A/G|B2 d>B|A/B/A/G/ ED|B2 BA/B/|dB B/A/G|
+A/B/A/G/ EF|G2 G2::g2 g>e|d B2 B/d/|g2 g/f/g/a/|
+b/ee/ ef|g/a/b/a/ g>e|d/g/e/d/ B/A/G|A/B/A/G/ EF|G2 G2:|
+N:Properly it's Seneca Square Dance but Ry Cooder couldn't remember the name while recording at the Seneca Studios!
+
+X:310
+T:Serpentiner och Konfetti
+T:Reijländer - Serpentiner och Konfetti
+R:polka 32 schottische
+C:M. Edén
+M:2/4
+L:1/8
+Q: 140
+K:C
+EGGE FGAF|DFAF E2Cc|Bcdc B2B2|AFAB A2G2|\
+EGGE FGAF|
+DFAF E2Cc|Bcdc BGBd|decB c4:|\
+|:e2e2 f2ef|gfef gceg|a2a2 f3e|
+dBdf e2cd|\
+e2e2 f2ef|gfef gceg|a2a2 fedB|d2c2 c4:|
+
+X:311
+T: Shave The Monkey
+R: jig
+M:6/8
+L:1/8
+Q:1/8=140
+K:Gmaj
+|d^cd cAc| BGB A2 F|DEF GFG |AGA B2 G|
+d^cd cAc| BGB A2 F|DEF GFG |AGF G2  A:|
+K:F
+|BAB G2A|BAB GAB| AGA F2 G|AGA FGA|
+BAB G2 A| BAB G2 d|^c=cB AGF|DE^F G3:|
+
+X:312
+T:Sheffield Hornpipe
+R:hp 32
+C:Trad arr. P J Headford
+M:4/4
+L:1/8
+Q:1/4=140
+K:D
+|:FE|D2FA d2dc|BGBd A2Ad|c2ce d2df|ecdB AFGE|
+D2FA d2dc|BGBd A2Ad|BGBd cAce|d2f2 d2:|
+|:cd|ecAA A2de|fdAA A2ef|gefd ecdf|ecdB AFGE|
+D2FA d2dc|BGBd A2Ad|BGBd cAce|d2f2 d2:|]
+
+X:313
+T:Sherbourne Waltz
+T:Orange In Bloom
+R:waltz 32
+M:3/4
+L:1/4
+Z:Steve Mansfield
+K:G
+D|E>GE|DGA|BdB|A2B/A/|GFE|DGA|BGG|1G2:|2G3|:B>AB/c/|dcB|AGA|
+Bcd|edB|AGA|BAG|E2D|EGE|DGA|BdB|A2B/A/|GFE|DGA|BGG|G3:|
+
+X:314
+T:Sheriff's Ride
+M:4/4
+L:1/8
+N:Original key was E minor.
+S:As played by John Kirkpatrick et al. on the Albion Country Band album "Battle of the Field."
+S:Transcribed/transposed/arranged by Doug Mast.
+R:hp 32
+K:Dm
+"Dm"AG |F2 D2 D2 EF|"C"GF E2 "Dm"D3A|d2 d2 d2 ed|"C"c2 A2 A2 AB|
+"F"c2 c2 "Bflat"dc cB|"F"cB A2 "Gm"G2 FD|"Dm"F2 FG "C"cBAG|"Dm"A2 D2 D3 A|
+"Dm"d2 d2 d2 ed | "C"c2 A2 A4 | "Dm"d2 de f2 ed | "C"cd c2 A2 AB |
+"F"c2 c2 "Bflat"dc cB|"F"cB A2 "Gm"G2 FD|"Dm"F2 FG "C"cBAG|"Dm" A2 D2 D4||
+
+X:315
+T:Shooters Hornpipe
+R:hp 32
+O:England
+B:Joshua Jackson ms (Geoff Bowen)
+M:2/2
+L:1/8
+Q:1/2=90
+K:G
+|:G2G2 GABc|dcBA GBAG|A2A2 Aced|cBAG FAFD|
+G2G2 GABc|dcBA G2g2|fafd egec|d2d>d d4:|]
+|:A2A2 A2e>d|cBAG FAFD|d2d2 d2e>f|gedc BdBG|
+e2c2 cege|d2B2 Bdgd|ecdB cAGF|G2G>G G4:|]
+
+X:316
+T:Shropshire Lass
+R:polka 32 march
+C:Trad. ed. Barry Callaghan
+S:'Hard Core English' page 48B
+O:England
+B:Hard Core English ISBN 978 085418 201 5
+Z:PJHeadford 2008
+M:4/4
+L:1/8
+Q:1/4=200
+K:D
+|:(3ABc|d2d2 c2B2|A4 A2BA|G2F2 E2FG|AGFE DABc|
+d2d2 c2B2|e4 e2f2|gfed cdec|d6:|
+|:de|f2f2 e2d2|g3a gagf|efef gfge|a4 a2bg|
+fgef d2ag|fgef dfga|bagf e3d|d6:|]
+W:Walsh 1710, Playford 1713, Fallibroome 1971, Opus Pocus.
+
+X:317
+T:Silbaatno
+Z:Mikael Segerstrom
+R:polka 32 schottische
+L:1/4
+Q:1/4=200
+M:4/4
+I:linebreak $
+K:C
+V:1 treble nm="Unnamed-000"
+V:2 treble nm="Unnamed-001"
+V:3 bass nm="Unnamed-002"
+V:1
+|:!fff! E A/ c/ e e | E ^G/B/ d d | e e/f/ e d | c/d/ c/B/ A A | E A/c/ e e | E ^G/B/ d d |
+e e/f/ e/d/ c/B/ |1 A c A2 :|2 A c A2 |: a a/g/ f f | e e/d/ c c | B/A/ B/c/ d d | c/B/ c/d/ e e |
+a a/g/ f f | e e/d/ c c | E ^G/B/ e/d/ c/B/ |1 A c A- A :|2 A c A2 |]
+V:2
+|: z"Am" [Ace] z [Ace] | z"E" [E^GB] z"D" [D^FA] | z"Em" [EGB] z"G" [GBd] |
+z"Am" [Ace] z [Ace] | z"Am" [Ace] z [Ace] | z"E" [E^GB] z"D" [D^FA] |
+z"E7" [E^GBd] z [E^GBd] |1 z"Am" [Ace] z [Ace] :|2 z"Am" [Ace] z [Ace] |:
+z"F" [FAc] z"Dm" [DFA] | z"C" [CEG] z"D" [D^FA] | z"Em" [EGB] z"G" [GBd] |
+z"Am" [Ace] z"Em" [EGB] | z"F" [FAc] z"Dm" [DFA] | z"C" [CEG] z"D" [D^FA] |
+z"E7" [E^GBd] z [E^GBd] |1 z"Am" [Ace] z"G" [GBd] :|2 z"Am" [Ace] z [Ace] |]
+V:3
+|: A,,2 C, A,, | E,,2 D,,2 | E,,2 G,,2 | A,,2 E,, G,, | A,,2 C, A,, | E,,2 D,,2 | E,,2 ^G,,2 |1
+A,,2 E,, G,, :|2 A,,2 C, A,, |: F,,2 D,,2 | C,,2 D,,2 | E,,2 G,,2 | A,,2 E,,2 | F,,2 D,,2 |
+C,,2 D,,2 | E,,2 ^G,,2 |1 A,,2 G,,2 :|2 A,,2 E,, G,, |]
+
+X:318
+T:Silver Street Lasses
+R:hp 48
+S:J.Moore,Tyneside,1841.(20)
+O:England
+A:Northumbria
+Z:C.G.P
+M:4/4
+L:1/8
+Q:1/4=180
+K:C
+|:E2|A^GAB A=GEG|A^GAB cBcd|efge dedc|B2G2 G2E2|
+A^GAB A=GEG|A^GAB cBcd|efge dedB|c2A2 A2:|
+|:eg|a^gab a=geg|a^gab a=geg|gfga gedc|B2G2 G2eg|
+a^gab a=geg|a^g aba2AB|cBcd egde|c2A2 A2eg|
+a^gab a=geg|a^gaba2ef|gage dedc|B2G2 G2cB|
+A^GAB cBce|dcBA GABG|A ^GAB cBcd|e2A2 A2:|]
+
+X:319
+T:Silverton Polka
+R:polka 64
+C:Trad. ed. Barry Callaghan
+S:'Hard Core English' page 93B
+O:Britain
+B:Hard Core English ISBN 978 085418 201 5
+Z:PJHeadford 2008
+M:4/4
+L:1/8
+Q:1/4=180
+K:G
+|:Bc|g2G2 G2fe|dedc B2AB|c2E2 E2AG|FGFE D2Bc|\
+g2G2 G2fe|dedc B2AB|c2E2 AGFE|1D2G2 G2:|2D2G2 G3E||
+|:D2B2 BAGF|E2c2 c4|D2c2 cBAG|e2d2 B4|\
+D2B2 BAGF|E2c2 c4|d2fe dcBA|A4 G3E:|
+|:D2D2 DGFG|E2E2 E2cA|F2F2 (3FED EF|GFGA BGEB,|\
+D2D2 DGFG|E2E2 E2cA|F2F2 (3FED EF|1G2G2 G3E:|2G2G2 G2z2||
+|:B4-BDGA|B4-BDGA|B2fe dcBc|AGAB ADGA|\
+B4-BGAB|c4-cBAG|F2fe dcBA|1G2B2 G2z2:|2G2B2 G2|]
+W:Recorded by Peter Wyper 1915. The book has d2 for note 1 bar 1 & 5.
+
+X:320
+T: Sir Roger de Coverly
+R: slipjig
+S:Thomas Hardy collection
+O:England; Dorset
+Z:PJHeadford 2011
+M:9/8
+L:1/8
+Q:3/8=110
+M:9/8
+K:G
+|:G2G G2e dBG|A2A ABG FED|G2G G2e def|g2G GAG FED:|
+|:dBd ece dBG|E2A ABG FED|dBd ece def|g2G GAG FED:|
+|:gag f2e dBG|E2A ABG FED|gag f2e def|g2G GAG FED:|
+|:dcB cBA BAG|E2A ABG FED|dcB cBA Bcd|g2G GAG FED:|
+
+X:321
+T:Sir Roger de Coverly
+R: slipjig
+M:9/8
+L:1/8
+S:Thomas Hardy manuscript
+K:D
+(3A/B/c/)|d2 d d2 B AFD| B2 e efd cBA| d2 d d2 B ABc| d2 d ded cBA:|
+AFA BGB AFD| Bcd efd cBA| AFA BGB cAc| d2 d ded cBA:|
+agf gfe fed | cde efg gfe| agf gfe fed| d2 d ded cBA:|
+
+X:322
+T:Sloe, the
+R: polka 32
+M:4/4
+L:1/8
+K:D
+|:A2|d2A2d2e2|f3e d2c2|B2A2BcdB|A2G2F2A2|
+d2A2d2e2|f3e d2c2|B2A2B2c2|d4d2:|
+|:A2| (3BcB A2F2A2| (3BcB A2F2dd|d2cc c2BB|B2A2A2dd|
+d2c2c2ee|e2d2d2f2|f2e2B2c2|d4d2:|
+
+X:323
+T:Slugs & Snails changed ending
+R:polka 32
+C:Trad. ed. OSB
+S:Swan For The Money
+M:2/4
+L:1/16
+Q:1/4=90
+K:G
+A/|Bd G>A|Bd GB|AB/A/ FA|Ge ed|
+Bd G>A|Bd GB|AB/A/ FA|G2G>A||
+Bd G>A|Bd GB|AB/A/ FA|Ge ed|
+Bd G>A|Bd GB|AB/A/ FA|G2G3/2||]
+|:A/|Bd ef|g2ga|f/e/d ef|ed BA|
+Bd ef|g2ga|f/e/d ef|.e2d3/2:|]
+% end last B with g2a3ga2b2c'
+
+X:324
+T:Slugs and Snails
+T:Mrs O'Dwyer's
+T:Murroe, the
+R:polka 32
+C:Trad. ed. OSB
+S:Swan For The Money
+M:2/4
+L:1/8
+Q:1/4=90
+K:G
+A/|Bd G>A|Bd GB|AB/A/ FA|Ge ed|
+Bd G>A|Bd GB|AB/A/ FA|G2G>A||
+Bd G>A|Bd GB|AB/A/ FA|Ge ed|
+Bd G>A|Bd GB|AB/A/ FA|G2G3/2||]
+|:A/|Bd ef|g2ga|f/e/d ef|ed BA|
+Bd ef|g2ga|f/e/d ef|.e2d3/2:|]
+
+X:325
+T:Small Fee, A
+R:polka 32
+C: Martin Ellison
+S: The composer
+O: England
+M: 4/4
+L: 1/8
+Q: 2/4=90
+K:D
+(3ABc |"D"dAFE DFAd|"A"cBGE BE=cE|"A"cBGF EFGE|"D"DEFG "A"AABc|
+"D"dAFE DFAd|"A"cBGE BG=cE|"A"cBGF EFGE|1"D" Dddc d2:||2"D" Dddc d3=c||
+K:G
+|:"G" B2 BA GABd|"C" e2 e2 "G" dBgB|"C" e2 e2 "G" dBgB|"C" ccBG "D" A4|
+"G" BcBA GABd|"C" e2e2 "G" dBc^c|"D" d^cd^d "D" e=cAF|1"G" G8:||2 "G" G6||
+
+X:326
+T:Sonny Brogan's Mazurka
+R:mazurka 32
+D:Bobby Gardiner: His Master's Choice
+D:Stockton's Wing
+O:england
+M:3/4
+K:D
+DF|A2 AG FA|d2 dA BA|G2 GB AG|FG EF DF|A2 AG FA|d2 dA BA|~G3a fe|d4:|
+|:Ad|f2 fa gf|e2 eg fe|d2 df ed|cd Bc Ad|f2 fa gf|e2 eg fe|dc df ec|d4:|
+"variations"
+|:DF|~A3G FA|d3A FA|~G3B AG|FA EF DF|~A3G FA|d3A FA|~g3a fe|d4:|
+Ad|fA df af|eA ce ge|d2 fd ed|cA Bc Ad|fA df af|eA ce ge|d2 fd ec|d4 Ad|
+(3fgf df af|(3efe ce ge|~d3f ed|cd Bc Ad|f2 df af|(3efe ce ge|d2 df ec|d4||
+
+X:327
+T:Spanish Jig
+R:jig 48
+M:6/8
+L:1/8
+Q:1/8=140
+K:G
+|:ABc d2d|cBA G3|ABc d2e|c2d B2G|
+ABc d2d|cBA GAB|c2B ABc|BAB G3:|
+|:Bcd e2e|edc B3|e2d c2B|ABc d3|
+Bcd e2e|edc B3|e2d c2B|ABA G3:|
+|:def g2B|BAG A3|def g2B|AGA B2G|
+def g2B|BAG A3|def g2B|ABA G3:|]
+
+X:328
+T:Speed The Plough
+R: hp 32 reel
+C:Trad / From playing of John & Wendy Wilson
+N:Via Ed Rennie
+M:4/4
+L:1/8
+Q:120
+K:G
+G2 Bc dedB|dgdB dedB|cdcA BcBG|EAAG FGAB|
+G2 Bc dedB|dgdB dedB|cdBc ABGA|FGAB G2D2|
+G2 Bc dedB|dgdB dedB|cdcA BcBG|EAAG FGAB|
+G2 Bc dedB|dgdB dedB|cdBc ABGA|FGAB G3z|
+g2 gf gGBd|gGfG eGdG|cdcA BcBG|EAAG FGAB|
+g2 gf gdBG|efge dBAG|cdBc ABGA|FGAB G2G2|
+g2 gf gGBd|gGfG eGdG|cdcA BcBG|EAAG FGAB|
+g2 gf gdBG|efge dBAG|cdBc ABGA|FGAB G4|
+
+X:329
+T:Speed the Plough
+R:hp 32 reel
+M:4/4
+L:1/8
+K:G
+GABc dedB|dedB dedB|c2ec B2dB|c2 A2 A4|
+GABc dedB|dedB dedB|c2ec B2dB|c2 A2 G4:|
+g2 g2 g4|g2fe dBGB|c2ec B2dB|c2 A2 A4|
+g2 g2 g4|g2fe dBGB|c2ec B2dB|c2 A2 G4:|
+
+X:330
+T:Speed the Plough (Em)
+R:hp 32 reel
+M:4/4
+L:1/8
+K:Em
+"Em"EFGA BcBG | BcBG BcBG | "Am"A2 cA "Em"G2 BG |
+A2 F2 F4 | "Em"EFGA BcBG | BcBG BcBG | "Am"A2 cA "Em"G2 BG |
+F2 D2 "Em"E4 :: "Em"e2 e2 eBGB | e2 dc B2 G2 | "Am"A2 cA "Em"G2 BG | A2 F2 F4 |
+"Em"e2 e2 eBGB | e2 dc B2 G2 | "Am"A2 cA "Em"G2 BG | "B7"F2 D2 "Em"E4 |]
+
+X:331
+T:Spirit of the Dance
+R:jig 32
+M:6/8
+L:1/8
+Q:1/4=120
+K:D
+|:d2A B2A|d2A B2A|def gfg|efd cBA|
+d2A B2A|d2A B2A|def gab|gec d3:|
+|:Adf g3|f3 e3|efg a2b|g2a f3|
+def g3|f3 e3|efg f2g|f2e d3:|]
+
+X:332
+T:Sportsman's Hornpipe
+R:hp 32
+C:Trad. ed. Barry Callaghan
+S:'Hard Core English' page 24C
+O:England
+B:Hard Core English ISBN 978 085418 201 5
+Z:PJHeadford 2008
+M:2/2
+L:1/8
+Q:1/4=140
+K:Ador
+|:c2cc B2BA|GABc dBAG|c2cc B2BA|E2A2 A4|
+c2cc B2BA|GABc dBAG|gfge dBAG|E2A2 A4:|
+|:ABcd efge|afdf edcB|ABcd efge|afdf e3e|
+a2af g2ge|c2ce dBG2|cBcA BABG|E2A2 A4:|]
+W:This from Kershaw.
+
+X:333
+T:St. Anne's Reel
+R: hp 32 reel
+M:2/4
+I:speed 300
+I:part 1
+K:D
+|: Ad | f2fg fedB | A2FG AFAd | BGGG G2FG |BAAA A2 de |
+f2fg fedB| A2FG AFAd | BGBd cAce | d2dd d2:|
+|:ag fdfafdfa | aggf g2gf | edcB ABce | baa^g a2ag |
+fdfafdfa | aggf g2gf | edcB Aceg | fdec d2:|
+I:final
+FG | A2AB AGFG | F2DE F2D2|G2D2 B,2D2 | GFFF F2FG |
+A2AB AGFG| F2DE F2D2 | G2GBA2G2 F2FF F2:|
+|:A2 | dAdf dAdf | feed e2ed | cBAG A2A2| GFFF F2A2 |
+dAdf dAdf | feed e2ed | cBAG A2GB| AFGE F2:|
+
+X:334
+T: St. Catherine
+P: Longways for as many as will
+R: hp 32 reel
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.288
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the dance instructions.
+M: C|
+L: 1/8
+K:G
+de |\
+d2G2 G2A2 | B6 AB | cdcB ABAG | FGA2 A2de |\
+d2G2 G2A2 | B6 AB | cB AG FG AF | G6 :|\
+AB |\
+A2D2 D2E2 | F6 AB | A2D2 G2A2 | B6 Bc |
+B2B2 e2B2 | c6 cB | ABAG FG AG | G2 E4 Bc |\
+B2B2 e2B2 | c6 cB | A2A2 d2A2 | B6 de |\
+d2d2 g2d2 | edcB A2d2 | edcB (cB) (AG) | G6 |]
+
+X:335
+T:Staffordshire Hornpipe
+R:hp 32
+C:Trad.
+S:Ian Dedic
+M:4/4
+L:1/8
+Q:1/4=160
+K:G
+DEF|:"G"G2"^(E)"e2"C"cB AG|"D"FA dc "G"B3A|G2"^(E)"e2 "C"cB AG|"D"FAd2 DF AF|
+"G"G2"^(E)"e2 "C"cB AG|"D"FA dc "G"B2"^(B)"G2|"C"ce dc "D"BG AF|1"G"G4-GDF:|2"G"G4GD "^(D)"GA|]
+|:"G"B2"^(A)"A2"B"G2F2|"C"EF GE "G"D4|GD GA BG Bc|d2"^(C)"cB "D"A3c|
+"G"B2"^(A)"A2"B"G2F2|"C"EF GE "G"D4|"C"ce dc "D"BG AF|1"G"G4- GD "^(D)"GA:|2"G"G4- G|]
+
+X:336
+T: Star Above The Garter, The
+R:jig 32
+M: 12/8
+L:1/8
+Q:1/4=140
+R: slide
+K:Gmaj
+Bc|:"G"d2B BAG "D"~A3 ABA|"G"G2E "C"c2B "G"BAG "D"ABc|
+"G"d2B BAG "D"~A3 ABA|"C"G2E c2E "D"DED D3:|
+|:"D"d2e f2a "G"g2e d2B|G2B "C"c2B "G"BAG "D"ABc|
+"D"d2e f2a "G"g2e d2B|G2B "C"c2E "D"DED D3:|
+
+X:337
+T:Steamboat
+N: First collected in Devon, aka 'Devon Steamboat'
+R:hp 32
+M:4/4
+L:1/8
+Q:2/4=80
+C:Trad arr. P J Headford
+R:hp 32
+Z:P J Headford
+K:G
+|:g2gBd2d2|BcdB G2GA|B2BBB2B2|dcBcA2A2|
+g2gBd2d2|BcdB G2GA|B2BBd2g2|ecAFG4:|]
+|:GABc d2G2|FGAB cBA2|GABcd2g2|agfe dcBA|
+GABc d2G2|FGAB cBA2|GABc defg|ecAFG4:|]
+
+X:338
+T:Steamboat Hornpipe
+R:hp 32
+C:Trad arr. P J Headford
+M:4/4
+L:1/8
+Q:1/4=140
+K:G
+|:(3def|g2bg d2gd|BcdB G2AB|c2ec A2cA|FGAB cdef|
+g2bg d2gd|BcdB G2AB|cedc BAGF|A2G2 G2:|
+|:Bc|dBdB g2gd|ecec a2ag|fefd gfgb|agfe defd|
+g2bg d2gd|BcdB G2AB|cedc BAGF|A2G2 G2:|]
+
+X:339
+T: Stingo
+T: Cold and Raw
+T: Oil of Barley
+O: Playford 1651
+%Q: 110
+R: Jig 24
+H: Many versions of this tune exist, with many titles.
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K:Edor
+|:\
+"Em"E2E B2G | "D"AF2 D2D |\
+"Em"E2E B2G | "(C)"E3 G3 ::\
+"G"G2G G2F/2G/2 | "D"A2A A2A |
+"G"B2B "C(Em)"e2e | "G"B3 "(D)"d3 |\
+"G"G2G G2F/2G/2 | "D"A2A A>B=c |\
+"G"BA>G "D"AF2 | "Em"E3 G3 :|
+
+X:340
+T:Stjuls pa kallhagen
+S:Orsa Spelemann
+R:polka 32
+C:not known
+M:4/4
+L:1/16
+Q:1/4=120
+K:D
+d2dA B2A2 zADA B2A2|D2FA D2FA DFAd B2A2|\
+ABcd e2AB cdef e2cd|e2g2 f2e2 d4A4|
+d2dA B2A2 zADA B2A2|D2FA D2FA DFAd B2A2|\
+ABcd e2AB cdef e2cd|e2g2 f2e2 d4e4||
+f2e2 d2ef g2B2 e2ed|c2ec B2eB A4a3g|\
+f2e2 d2ef g2B2 e2ed|c2e2 g2f2 d6 ef|
+g2ge f2fd e2a2 a2ef|g2ag f2af e4a3g|\
+f2e2 d2ef g2B2 e2ed|c2e2 g2f2 d4-dABA|]
+
+X:341
+T:Stowe Quickstep, The
+R:jig 32
+S:John Mason
+M:6/8
+L:1/8
+Q:1/8=140
+K:D
+|:ABA ABA|A2d f2f|fed cde|d2f A2z/A/|
+ABA ABA|A2d f2f|agf edc|d3 d3:||!
+K:A
+|:efe efe|e2a c2c|B2B BcB|A2c e2e|
+efe efe|e2a c2c|B2B BcB|1A3 A3:|2A3 F2G|]
+
+X:342
+T:Susie Go Lightly
+R:hp 48
+C:Ray Campbell
+L:1/8
+M:4/4
+N:Written for wedding of John and Susie Golightly by JGs brother in law.
+N: Montys Maggot played the wedding ceilidh at Sidmouth Folkweek
+I:linebreak $
+K:G
+G2 B2 c2 E2 | FGAF G2 AB | c2 Ac B2 G2 | FGAF DEFD | G2 B2 c2 E2 |$ FGAF G2 AB | c2 Ac B2 G2 |1
+FGAF G2 D2 :|2 FGAF GABc |: [Fd]4 [DA]3 G |$ FGAF G2 G2 | dedc [DA]2 [DA]2 | FGAF GABc |
+[Fd]2 [Fd]2 A3 G |$ FGAF GABd | [Ec]4 [DA]3 G |1 FGAF GABc :|2 FGAF G2 D2 |] G2 B2 c2 E2 |$
+FGAF G2 AB | c2 Ac B2 G2 | FGAF DEFD | G2 B2 c2 E2 |$ FGAF G2 AB | c2 Ac B2 G2 | FGAF G2 AB |
+c2 E2 FGAF |$ G2 AB cBAc | BAGB AGFE | D2 (3DEF G2 B2 | c2 E2 FGAF | G2 AB cBAc |$
+BAGB AG F/G/A/F/ | G8 |]
+
+X:343
+T:Sussex Bonny Breastknot
+R:polka 32 rant
+M:4/4
+L:1/8
+K:G
+GA|:B2G2G2AB|cBAG F2D2|G2BAG2BA|G2B2d3c|
+|B2G2G2AB|cBAG F2D2|G2B2A2c2|1B2G2G2 GA:|2 B2G2G2Bc|
+|:d3ed3e|dcBA G4|A2B2 cBcd |e2A2A2Bc|
+|d3ed3e|dcBA G4|A4 D2EF|1G4 G2 Bc:|2 G4 G2 GA|
+
+X:344
+T:Sweep's Hornpipe, The
+R:hp 32 reel
+H:1837
+S:John Moore of Shropshire
+Z:vmp.John Adams
+M:4/4
+L:1/8
+Q:2/4=90
+K:G
+|:z2|G2BG E2cA|FGAF G2Bd|dcAc cBGB|ABcA GFED|
+GABG ABcA|BcdB cdef|gfgd ecAF|G2G2 G2:|]
+|:Bc|dBdB g2Bc|dedB G2Bd|dcAc cBGB|ABcA GFED|
+GABG ABcA|BcdB cdef|gfgd ecAF|G2G2 G2:|]
+
+X:345
+T:Sweet Briar, The
+R:polka 32
+M:2/4
+L:1/16
+Q:1/4=120
+C:Trad arr P J Headford
+S:John Mason
+R:polka 24/48
+B:Coleford Jig, Menteith & Burgess, 2004
+Z:P J Headford 2005
+K:D
+|:A2|d2d2 d2de|f2fe d2f2|e2d2 c2B2|A2G2 FGA2|
+B2Bc d2cB|A2d2 f2d2|cdef g2c2|d6:|!
+|:z2|e2ef e2ee|c2A2 c4|B2c2 f2e2|d2e2 c4|
+e2ef e2ee|c2A2 f4|e2d2 c2B2|A4 A2:|]
+
+X:346
+T:Swiss Boy, The
+R:hp 32 schottische
+C:Ignaz Moscheles ed. Barry Callaghan
+S:'Hard Core English' page 51A
+O:England
+Q:1/4=140
+B:Hard Core English ISBN 978 085418 201 5
+Z:PJHeadford 2008
+M:4/4
+L:1/8
+Q:1/4=180
+K:D
+|:FG|A2FG A2FG|A2fe d2FA|G2ed cABc|d2e2 f2FG|
+A2FG A2FG|A2fe d2FA|G2ed cABc|d4 d2:|
+|:FA|G2GF G2AG|FAde f2FA|G2GF G2AG|FAde f2FG|
+A2FG A2FG|A2fe d2FA|G2ed cABc|d4 d2:|]
+W:Air from Tyrolese Melodies by Ignaz Moscheles. In many MSs.
+
+X:347
+T:Tam Lin
+T:Tamlin; Tamlyn; Tam Lynn's
+R:hp 32 Reel
+O:Scotland
+M:4/4
+L:1/8
+Q:1/4=160
+K:Emin
+|:"Em"B,2EB, GB,EB,|"C"C2EC GCEC|"D"D2FD ADFD|GFED B,EED|
+"Em"B,2EB, GB,EB,|"C"C2EC GCEC|"D"D2FD ADFD|GFED "Em"B,EE2:|
+|:"Em"eBBB GBEB|eBBB GBEB|"D"dAAA FAAA|dAAA defd|
+"Em"eBBB GBEB|eBBB GBEB,|"C"C2CB, CDEF|"D"GEFD "Em"B,EE2:|
+
+X:348
+T:Tannerman, The
+R:polka 32 rant
+C:P J Headford
+M:2/4
+L:1/8
+Q:1/4=140
+K:G
+|:D|G2GB A2AB|G2G2 d3c|BAGB A2A2|B6 BA|
+G2GB A2AB|G2G2 d3c|BAGA B2A2|G6 z:|
+|:g|gfe2 dcB2|c2c2 d3c|BAG2 c2e2|d6 zg|
+gfed dcBG|c2c2 B2GA|B2Gc B2A2|G6 z:|]
+
+X:349
+T:Tempest, The
+R:polka 64
+M:2/4
+L:1/16
+Q:1/4=120
+K:D
+A2|:d2A2 ABA2|f2d2 ded2|e2A2 B2c2|dcde f2a2|
+d2A2 ABA2|f2d2 ded2|e2A2 B2c2|d4 d2fg||
+|:a2f2 f2d2|edcB A2fg|a2f2 f2d2|edcB ABcA|
+d2A2 ABA2|f2d2 ded2|e2A2 B2c2|d4 d2A2||
+|:d2f2 a2f2|b2g2 a3f|g2f2 e2d2|cdec A2Bc|
+d2f2 a2f2|b2g2 a3f|g2e2 c2A2|d4 d2ef||
+|:g2e2 c2A2|d2f2 a3f|g2e2 c2A2|defg a3f|
+d2f2 a2f2|b2g2 a3f|g2e2 c2A2|d4 d2||
+
+X:350
+T:The Other Three Jolly Sheepskins
+R:polka 16 reel
+C:Trad
+S:John Locke
+B:Opus Pocus - John Kirkpatrick & Sue Harris 1988 Dragonfly Music
+Z:P J Headford 2005
+M:4/4
+L:1/8
+Q:2/4=80
+K:A
+|:ABcd efec|BGEG BGEG|ABcd efec|BG ((3EFG) A2A2:|]
+|:fgag fgag|fgaf b2ag|f^efg f2=e2|BcdB A2A2:|]
+
+X:351
+T:Three Jolly Sheepskins
+T:Tom Long's Post
+R:polka 16 reel
+O:England
+M:2/4
+L:1/16
+Q:1/4=70
+K:A
+ABcd efec|dedB cdcB|\
+ABcd edea|1fdBG A2cB:|2fdBG A4|]
+|:B2E2 B2E2|d2d2 cdec|\
+B2E2 B2E2|1EdcB A2c/B/A:|2EdcB A2cB||
+
+X:352
+T:Three Jolly Sheepskins, The Other
+R:polka 16 reel
+C:Trad
+S:John Locke
+B:Opus Pocus - John Kirkpatrick & Sue Harris 1988 Dragonfly Music
+Z:P J Headford 2005
+M:4/4
+L:1/8
+Q:2/4=80
+K:A
+|:ABcd efec|BGEG BGEG|ABcd efec|BG ((3EFG) A2A2:|]
+|:fgag fgag|fgaf b2ag|f^efg f2=e2|BcdB A2A2:|]
+
+X:353
+T:Tipsy Parson, The
+R:polka 32
+C:Trad
+N:Sing and Play 2
+Z:Lewes
+M:4/4
+L:1/8
+Q:1/4=180
+K:D
+|:e2|f2A2 f2A2|fgfe d2ef|g2B2 g2B2|gagf e2de|
+f2A2 f2A2|fgfe d2cd|efed cABc|d2f2 d2:|
+|:FG|A2AB AGFE|D2FA d2cB|A2AB AGFD|E2E2 E2FG|
+A2AB AGFE|D2FA d2ef|gfed cABc|d2f2 d2:|]
+
+X:354
+T:Tom Sullivan's
+R:polka 32
+M:2/4
+L:1/8
+K:D
+"D"FG AB|"D"BA AF/G/|"D"Ad "A"dc|"G     A"d2 "D"d>e|
+"D"fd ed|"D"c/B/A AA/B/|"D"c/B/A "A"GE|1"G     A"D2 "D"D2:|2"G     A"D2 "D"d>e||
+"D"fd "A"ed|"D"c/B/A A>e|"D"fd "A"ec|"G       A"d2 "D"d>e|
+"D"fd ed|"D"c/B/A "G"A"A"A/B/|"D"c/B/A "A"GE|"G      A"D2 "D"d>e|
+
+X:355
+T:Tom Sullivan's
+R:polka 32
+M:2/4
+L:1/8
+K:D
+"D"FG AB|"D"BA AF/G/|"D"Ad "A"dc|"G     A"d2 "D"d>e|
+"D"fd ed|"D"c/B/A AA/B/|"D"c/B/A "A"GE|1"G     A"D2 "D"D2:|2"G     A"D2 "D"d>e||
+"D"fd "A"ed|"D"c/B/A A>e|"D"fd "A"ec|"G       A"d2 "D"d>e|
+"D"fd ed|"D"c/B/A "G"A"A"A/B/|"D"c/B/A "A"GE|"G      A"D2 "D"d>e|350
+T:Touch the String GHW070
+R:polka 32
+M:2/4
+L:1/8
+S:George H.Watson, Swanton Abbott, Norfolk1850-1880
+O:England
+A:Norfolk
+Z:Taz Tarry
+K:D
+d|AFFD|CEEG|FDFA|d2cB|AFFD|CEEG|FDAF|D2D F|!
+BcdB|ceAA|BcdB|{cd}e2 AA|BcdB|cdec|{de}fdc>B|d2c>B|!
+|AFFD|CEEG|FDFA|d2cB|AFFD|CEEG|FDAF|D2D|!
+
+X:356
+T:Touch the String GHW070
+T: Touch the Thing
+M:2/4
+L:1/8
+S:George H.Watson, Swanton Abbott, Norfolk1850-1880
+O:England
+A:Norfolk
+Z:Taz Tarry
+K:D
+d|AFFD|CEEG|FDFA|d2cB|AFFD|CEEG|FDAF|D2D F|!
+BcdB|ceAA|BcdB|{cd}e2 AA|BcdB|cdec|{de}fdc>B|d2c>B|!
+|AFFD|CEEG|FDFA|d2cB|AFFD|CEEG|FDAF|D2D|!
+|AFFD|CEEG|FDFA|d2cB|AFFD|CEEG|FDAF|D2D|!
+
+X:357
+T:Trip to Plymouth
+R:jig 32
+S:Trad
+O:English
+F:http://banjolin.co.uk/tunes/abcs/triptoplymouth.abc
+R:Jig
+M:6/8
+L:1/8
+Q:1/8=140
+K:D
+A |: d2f ecA | Bcd AFD | FGA Bcd | efd cBA |
+|d2f ecA | B2d AFD | FGA Bcd | edc d2 :|
+|:A | e2f ecA | f2g fdA | Bcd efg | Bed c2A |
+|e2f ecA | f2d AFD | FGA Bcd | edc d2 :|
+
+X:358
+T:Triumph, the
+R: hp 24
+S: Thomas Hardy's Manuscripts
+M:2/4
+L:1/8
+K:G
+.g2|"G" dB BG|"D7" cA AF|"G" Gg fe|"C" e2 dg|"G" dB BG|"D7" cA AF|"G" G2 B2|"G" G2:|!
+z2|"D7" A3c|"G" B2d2|"D7" A3c|"G" B2d2|"D7" AAAc|"G" BBBd|"C7" B2 "D" A2|"G" G2:|!
+A2|"G" B2 Bd|"C" ed cB|"D" A2 AB|"C" c2 "G" B2|"D" AB cd|"C" ef ge|"D" dc BA|"G" G3G:|!
+
+X:359
+T:Turmit Hoeing
+R: hp 16
+M:4/4
+L:1/4
+K:G
+D/2D/2| G D B, D| G/2G/2 G2 G| A B c B| B- A2|B/2-c/2| d B c A| B G/2G/2 A D|\
+D D E F| G/2F/2 E| D B,/2D/2| G3 D| A3 D| B d c B| B A2 B| d3/2 B/2|\
+c/2-B/2 A| B G A G| G F E D| E- F G||
+
+X:360
+T:Turmut-hoeing
+R:polka
+B:Broadwood, L, 1893, English County Songs, London, Leadenhall Press
+S:Words and tune from Mr R. Bennell
+Z:Lucy Broadwood
+F:http://www.folkinfo.org/songs
+M:4/4
+L:1/8
+K:G
+D | GF G A G F D3/2 D/ |G3/2 A/ B c (d2 A)
+w:'Twas on a jol-ly sum-mer's morn, the twen-ty first of May_
+w:For some de-lights in hay-mak-in'. and some they fan-cies mow-in',
+(B/c/) |d B c A B G A
+w: Giles_ Scrog-gins took his tur-mut hoe,
+w: But of all the trades as I likes best,
+(B/A/) |G F E D E F G :|
+w:with_ which he trudged_ a--way
+w:give_ I the tur-mut hoe--in'.
+D D |G3 D A3 D |B G c A G F E
+w:For the fly, the fly, the fly is on the tur--mut;
+D/D/ |d3/2 B/ c3/2 A/ B G A B |G F E D E F G  |]
+w:And it's all my eye for we to try, to keep fly off the tur--mut.
+
+X:361
+T:Turnpike Gate. JC.164
+R:jig 32
+M:6/8
+L:1/8
+Q:1/4=120
+S:John Clare,Poet,Helpstone (1793-1864)
+R:Jig
+O:England
+A:Northamptonshire
+Z:vmp.P. Headford
+K:D
+ded|f2dg2e|a2f ded|e2gB2d|c2A ded|!
+f2dg2e|a2f2 ded|e2"crot in MS"g ABd|"crot"d3:|!
+|:aba|a2ff2f|g2ee2e|f2d dcd|ecAA2A|!
+dcd ede|fef gfg|aba agf|f2"D.C."e:|]
+
+X:362
+T:Twin Sisters
+R:polka 32
+M: 4/4
+L: 1/8
+R: reel
+K:Gmaj
+D2|:G2B2 ABcA|G2g2 d4|cBAc B2G2|ABAG E2D2|
+G2B2 ABcA|G2g2 d4|cBAc BAGB|1 A2F2 G2 (3DEF:|2 A2F2 G2Bd||
+|:g2g2 fed2|efge d2B2|cBAc B2G2|ABAG E2D2|
+g2g2 fed2|efge d2B2|cBAc BAGB|1 A2F2 G2Bd:|2 A2F2 G4||
+
+X:363
+T:Uncle's Jig
+S:Trad
+O:England
+M:6/8
+L:1/8
+R:Jig 32
+K:D
+|:A2d c2e | d2f a2f | e2f gfe |d2f A3  |
+|A2d c2e | d2f a2f | e2f gfe |1  d3 B3 :|2 d3 B2=c||
+
+X:364
+T:Uncle's Jig
+S:Trad
+O:England
+M:6/8
+L:1/8
+R:Jig 32
+K:G
+|:ddd dBc | ddd def | g2g f2e |  d3 d2B | c2e edc |
+|B2d G2B | A2B cBA |1 GAG FED :|2 G3 B3 ||
+
+X:365
+T:Untitled 48 Bar Polka
+M:2/2
+L:1/8
+Q:150
+R:polka 48
+K:D
+"A" FG | A2 d2 c2 B2 | ABAG F2 EF | A2 E2 E2 DE | FGFE DFG^G | A2 d2 c2
+B2 | ABAG F2 EF | A2 E2 c2 Bc |[1 e2 d2 d2 |[2 e2 d2 d4 || "B"A2 A2 FAFA
+| d2 c2 B2 A2 | G2 G2 EGEG | B2 B2 A4 | A2 A2 FAFA | d2 cd e2 ef | edcB
+AGFE | D2 FA d4 :||
+"C" | K:G
+G2 DG B4 | B2 GB d4 | dedB c2 A2 | AcBA B2 G2 |  G2 DG B4 | B2 GB d4 |
+dedB c2 BA | G2 B2 G4 :||
+
+X:366
+T:Untitled 48 Bar Polka
+R:polka 48
+M:2/2
+L:1/8
+K:Gmaj
+Bc|d2 g2 f2 e2|dedc B2 AB|d2 A2 A2 GA|BcBA GABc|
+d2 g2 f2 e2|dedc B2 AB|d2 A2 f2 ef|1 a2 g2 g2:|2 a2 g2 g4||
+d2 d2 BdBd|g2 f2 e2 d2|c2 c2 AcAc|e2 e2 d4|
+d2 d2 BdBd|g2 fg a2 ab|agfe dcBA|G2 Bd g4:||
+[K:Cmaj] c2 Gc e4|e2 ce g4|gage f2 d2|dfed e2 c2|
+c2 Gc e4|e2 ce g4|gage f2 ed|c2 e2 c4:||
+
+X:367
+T:Untitled Mittel
+R:hp 32
+M:2/2
+L:1/8
+K:D
+D4 FDGE|A4BABc|d2ef agfe|dfed dcBA|!
+D4 FDGE|A4BABc|d2ef agfe|dfec d4:|!
+f2 fa gfed|d2 de dcBA|fd fa gfed|bagf f2 e2|!
+fdfa gfed|dced dcBA|D2 FA dfaf|gedc d4:|
+
+X:368
+T:Valiant, the
+S:Trad? via Simon Ritchie
+M:6/8
+L:1/8
+Z:John Adams.
+K:G
+G2A|: B2B BAG|B2A ABA| G2G GAG| G2F F2D|
+E2E EFG|1E2D D2D| G2G GAB|B2A A3:|2 BAG FED|
+EFG AGF|F2G G3:||d3e3|dcB AGF| G2G GAB|B2A A3|
+dBd ece|dcB AGF| G2G GAB|A2G G3:|
+|:E2E EFG|E2D D2D|G2G GAB| B2A A2D|
+E2E EFG|BAG FED| EFG AGF| F2G G3:||
+
+X:369
+T:Valiant, The
+R:jig 48
+S:Trad? via Simon Ritchie
+M:6/8
+L:1/8
+Q:1/4=120
+Z:J.A.
+K:G
+G2A| B2B BAG|B2A ABA| G2G GAG| G2F F2D|
+E2E EFG|1E2D D2D| G2G GAB|B2A A3:|2 BAG FED| EFG AGF|F2G G3:||d3e3|dcB AGF| G2G GAB|B2A A3| dBd ece|dcB AGF| G2G GAB|A2G G3:|
+|:E2E EFG|E2D D2D|G2G GAB| B2A A2D|
+E2E EFG|BAG FED| EFG AGF| F2G G3:||
+
+X:370
+T:Vasen
+R: polka 32 schottische
+C: Kjell-Erik Eriksson
+Z:Transcribed to abc by Robert BostrÃ¶m
+M:2/4
+L:1/16
+K:D
+ABc|:"D"d3f edcA|"G"BABc "D"d2AF|"G"G3B "D"AFD2|
+"G (Em)"GFGB "A"ABcA|"D"d3f edcA|"G"BABc "D"d2ef|"G"g3e "D"f2de|
+|1 "A"c2"D" d2- dABc :|2 "A"c2"D"d2- d4|:"Em"g2ge f2a2|abag e3f|
+g2ge "D"f2d2|dcA2 "Em"B4|g2ge f2a2|abag e3f|
+g2ge "D"f2d2|1dcA2 "G"B4:|2dcA2 "G"B4-||B2A2 BABc|
+d3f ecA2|d4- dABc"D.C."||
+
+X:371
+T:Vine Tree, the
+R:Mazurka 32
+O:Paul Burgess
+F:http://banjolin.co.uk/tunes/abcs/vinetree.abc
+M:3/4
+L:1/8
+K:G
+|:B2 GF G2|AF DF A2|DE FG AB|c2BA Bd|
+|B2 GF G2|AF DF A2|DE FG Ac|B2G4:||
+|:Bc d2g2|d2d2cB|AG FGA2|c2c2BA|
+|Bc d2g2|d2d2 cB|AG FA dB |cF A2 G2:||
+
+X:372
+T:Vine Tree, The
+R:Mazurka 32
+O:Paul Burgess
+F:http://banjolin.co.uk/tunes/abcs/vinetree.abc
+M:3/4
+L:1/8
+K:G
+|:B2 GF G2|AF DF A2|DE FG AB|c2BA Bd|
+|B2 GF G2|AF DF A2|DE FG Ac|B2G4:||
+|:Bc d2g2|d2d2cB|AG FGA2|c2c2BA|
+|Bc d2g2|d2d2 cB|AG FA dB |cF A2 G2:||
+
+X:373
+T:Waiting for a Partner
+R:jig 32
+C:Trad arr. P J Headford
+M:6/8
+L:1/8
+Q:1/8=140
+K:D
+F2F FED|A2A A2F|G2G GFE|B2B B3|
+c2B c2d|e2c B2A|d2c d2e|fed cBA|!
+F2F FED|A2A A2F|G2G GFE|B2B B2c|
+ddd dcB|AAA AGF|EFG ABc|dAB cde||!
+f3 f3|fed A3|dcd e2d|c2=c B3|
+g3 g3|gfe B3|c2B c2d|e2c d2e|!
+f3 f3|fed A3|dcd e2d|c2=c B3|
+ggg gfe|ddd dcB|A3 c3|d3 A3|]
+
+X:374
+T:Waiting for the Federals
+T:Seneca Square Dance, The
+R:polka 32 rag
+Z:Nigel Gatherer
+M:2/4
+L:1/8
+K:C
+Q:1/4=120
+K:G
+B2 BA/B/|dB B/A/G|B2 d>B|A/B/A/G/ ED|B2 BA/B/|dB B/A/G|
+A/B/A/G/ EF|G2 G2::g2 g>e|d B2 B/d/|g2 g/f/g/a/|
+b/ee/ ef|g/a/b/a/ g>e|d/g/e/d/ B/A/G|A/B/A/G/ EF|G2 G2:|
+W:Ry Cooder couldn't remember the name when he recorded it at  Seneca Studios so he called it Seneca Square Dance
+
+X:375
+T:Walter Bulwer's Polka No. 1
+R:polka 32
+C:Trad. ed. Barry Callaghan
+S:'Hard Core English' page 53C
+O:England
+A:Norfolk
+B:Hard Core English ISBN 978 085418 201 5
+Z:PJHeadford 2008
+M:4/4
+L:1/8
+Q:1/4=200
+K:G
+|:Bc|dcBd g3f|e2A2 A3B|cBAc f3e|d2B2 B2Bc|
+dcBd g3f|e2A2 A2AG|FGAB cdef|g2g2 g2:|
+K:D
+|:z2|a2fg a2fg|agfg e4|e2a2 gfe2|dcde f4|
+a2fg a2fg|agfg e4|e2a2 gfe2|d6:|]
+W:Recorded from fiddler Walter Bulwer (Shipdham, Norfolk) by
+W:Mervyn Plunkett 1959, Bill Leader 1959.
+
+X:376
+T:Walter Bulwer's Polka No. 2
+R:polka 32
+C:Trad. ed. Barry Callaghan
+S:'Hard Core English' page 53D
+O:England
+A:Norfolk
+B:Hard Core English ISBN 978 085418 201 5
+Z:PJHeadford 2008
+M:4/4
+L:1/8
+Q:1/4=200
+K:G
+|:D2G2 G2FG|A2E2 E4|FGA2 A^GA2|B2G2 G2FE|
+D2G2 G2FG|A2E2 E4|FGA2 D2EF|G2B2 G4:|
+K:D
+|:A2A2 B4|A2A2 F4|G2G2 EFG2|A2A2 FGA2|
+A2A2 B4|A2A2 F4|G2G2 EGFE|D8:|]
+W:Recorded from fiddler Walter Bulwer (Shipdham, Norfolk) by
+W:Mervyn Plunkett 1959, Bill Leader 1959.
+
+X:377
+T:Waterloo Dance, The
+R:polka 48
+C:Trad arr. P J Headford
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+|:AG|F2dB A2fe|d2d2 d2cd|e2e2 dcBc|defd A2AG|
+F2dB A2fe|d2d2 d2cd|e2e2 dcBc|d2fe d2:|
+K:A
+|:cd|e2ec a2af|e2ec A2A2|GABc dBfe|d4c2cd|
+e2ec a2af|e2ec A3A|GABc dBAG|A4- A2:|
+K:D
+|:fg|a6f2|b2a2 g2f2|e2e2 edef|d2e2 f2g2|
+a6 f2|b2a2 g2f2|e2e2 edef|d2f2 d2:||
+
+X:378
+T:Watson's Hornpipe. GHW.065
+R:hp 32
+M:2/4
+L:1/8
+Q:1/4=140
+C:Untitled in MS
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:.Hornpipe
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:D
+AGFG A2 d2|BGde dcBA|defe B2 (cd)|efge dcBA|!
+AGFG A2 d2|BGde dcBA|defe B2 g2|fdec d4:|!
+|:f2 (df) agfe|e2 (ce) aedc|defd B2 cd| efge dcBA|!
+AGFG A2 d2|BGde dcBA|defe B2 g2|fdec d4:|]
+
+X:379
+T:Weasel in the Grass
+R:jig 48
+C:Chris Taylor
+Z:P Headford
+M:6/8
+L:1/8
+Q:1/8=140
+K:G
+A3|:B2B A2B|AGG G2d|efg dBG|cAA A2A|
+B2B A2B|AGG G2d|efg dBG|1cAF G2A:|2cAF G2g||!
+|:fed cBA|BGG G2g|fed cBA|eAA A2g|
+fed cBA|BGG G2d|efg dBG|cAF G2g:|2cAF G2F||!
+E2E EDE|G2G GFG|A2A ABc|B3 Bcd|
+ecA ecA|d2B G2G|A2B c2B|ABG FED|!
+E2E EDE|G2G GFG|A2A ABc|B3 Bcd|
+e2c A2e|d2B G2g|fed cBA|G3|]
+
+X:380
+T:Weasel's Revenge
+R:polka 32 march
+C:Jan Hurst
+M:4/4
+L: 1/8
+Q:1/4=180
+K:G
+V:1
+%Melody
+z6 G,F,|E,2 G,F, E,2 G,F,|E,2 E2 B,3A,|G,2 E,2 E,F, G,E,|
+F,2 D,2 D,2 G,F,|E,2 G,F, E,2 G,F,|E,2 E2 B,3A,|G,2 E,2 F,E, D,2|
+E,6 G,F,|E,2 G,F, E,2 G,F,|E,2 E2 B,3A,|G,2 E,2 E,F, G,E,|
+F,2 D,2 D,2 G,F,|E,2 G,F, E,2 G,F,|E,2 E2 B,3A,|G,2 E,2 F,E, D,2|
+E,4 z4|B,2 E2 E2 FG|F2 D2 D2 GF|E2 B,2 B,2 CB,|
+A,G, F,G, A,B, A,F,|B,2 E2 E2 FG|F2 D2 D2 GF|E2 B,2 A,2 F,2|
+E,4 z4|B,2 E2 E2 FG|F2 D2 D2 GF|E2 B,2 B,2 CB,|
+A,G, F,G, A,B, A,F,|B,2 E2 E2 FG|F2 D2 D2 GF|E2 B,2 A,2 F,2|
+E,6 G,F,|
+V:2
+%Chords
+z6 B,A,|G,2 B,A, G,2 B,A,|G,2 E2 B,3A,|G,2 E,2 E,F, G,E,|
+A,2 F,2 F,2 B,A,|G,2 B,A, G,2 B,A,|G,2 E2 B,3A,|G,F, E,D, E,F, G,A,|
+B,6 B,A,|G,2 B,A, G,2 B,A,|G,2 E2 B,3A,|G,2 E,2 E,F, G,E,|
+A,2 F,2 F,2 B,A,|G,2 B,A, G,2 B,A,|G,2 E2 B,3A,|G,F, E,D, E,F, G,A,|
+E,4
+
+X:381
+T:Weavers' March
+R: hp 32 march
+S:James Aird (Glasgow) 1782
+B:English Choice, Nick Barber, pub mally.com
+M:2/2
+L:1/8
+Q:1/4=140
+K:D
+|:FG|"D"A2AG FGA2|"G"B2B2 "A"A3A|
+Bcd2 cde2|"G"dedc B2B2|
+"D"A2AG FGA2|"G"B2B2 "A"A3A|
+Bcd2 cde2|e3c "D"d2:|
+|:de|"D"f2gf "A"e2fe|"D"dfed dcBA|
+"A"Bcd2 c2d2|g2f2 e4|
+"D"A2AG FGA2|"G"B2B2 "A"A3A|
+Bcd2 cde2|e3c "D"d2:|]
+
+X:382
+T:West End, The
+R:hp 32
+O:England, Norfolk
+Z:PJHeadford 2011
+M:4/4
+L:1/8
+Q:2/4=90
+K:D
+|:(AG)|FGAF D2d2|cdec A2f2|gfed B2ed|c2A2 ABAG|
+FGAF D2d2|cdec A2f2|gfed Bdcd|d2d2 d2:|
+|:(fg)|afdf a2a2|gece g2g2|fedc d2ed|c2A2 A2fg|
+afdf a2a2|gece g2g2|afdf gece|d2d2 d2:|]
+
+X:383
+T:Westmorland Waltz
+R:Waltz 32
+O:England
+M:3/4
+K:G
+dc | \
+B3AG2 | F3ED2 | E3FG2 | F4G2 |\
+A3Bc2 | B3cd2 | e3fg2 | f4 ef |\
+g3gg2 | g2d2B2 | c4 B2 | A3B cd |
+B2G3B | A2F2D2 | EG3 G2 | G4 ::\
+ga | \
+b3ag2 | a3gf2 | g3fe2 | d4 ef |
+g3fe2 | d2g2B2 | A6 | d4 c2 |\
+B3AB2 | G2d2B2 | c3Bc2 | A3B cd | \
+B2G3B | A2F2D2 | EG3G2 | G4 :|
+
+X:384
+T:Weymouth Quick Step,aka. JBs.065
+R:jig 64
+S:Jas.Blackshaw MS, 1837, N.Shropshire
+A:North Shropshire
+N:Titled only "Quickstep" in MS.
+Z:T. Weatherall 2006
+M:6/8
+L:1/8
+Q:1/8=140
+R:Jig
+K:G
+d|g2d dBd|g2ab2c'|d'2b gab|c'2aa2b|!
+g2d dBd|g2ab2c'|d'2b aga|b2gg2:|!
+|:d|gag fef|gdB GBd|gag fef|g3z2:|!
+|:d|e2f gfe|e2dd2B|A2B cBA|B2cd2d|!
+e2f gfe|e2dd2c|BcB AGA|G3G2:|!
+|:d|g3g3|az2z2g|f2f fef|g2ab2d|!
+g3g3|az2z2g|fgf fef|g3g2:|
+
+X:385
+T:When Daylight Shines
+T:Mrs Swallow's Swedish Dance
+%P:Swedish dance 2As 2Bs, no Cs
+S:Kevin Briggs, via EF
+M:6/8
+K:G
+P:A
+|:d|"G"gfe dcB|"D7"d2c A2B|"Am"cBc "D7"e2d|"G"B3 GBd|
+"G"gfe dcB|"D7"d2c A2B|"Am"cBc "D7"e2F|"G"G3 -G2:|
+P:B
+|:D|"G"G2A B2c|"G"d3 B2d|"C"e2d "D7"c2d|"G"B3 G2D|"G"G2A B2c|"G"d3 g2g|\
+"D7"fed cBA|"G"G3 -G2:|
+P:C
+|:d|"G"dcB BAG|"D7"F2A e2c|"G"ded "D7"c2d|"G"B3 GBd|
+"G"dcB BAG|"D7"F2A e2c|"Em"d2B "D7"dcA|"G"G3 -G2:|
+
+X:386
+T:Whinhams Reel
+R:hp 32 reel
+S:Trad
+M:4/4
+L:1/4
+Q:1/4=140
+F:http://banjolin.co.uk/tunes/abcs/winhams.abc
+K:G
+D|:G/2A/2B/2A/2 GD|EG DG|EG DG|BA AB/2A/2|
+|G/2A/2B/2A/2 GD|EG DG|EG Dd|1 BG G D:|2 BG Gd|
+|:gG Bg|fA ce|dD FA|c/2B/2A/2B/2 c/2d/2e/2f/2|
+gG Bg|fA ce|dD Fd|1 BG G d:|2 BG G D|
+
+X:387
+T:Whiskey Before Breakfast
+C:Trad arr. P J Headford
+R:hp 32 reel
+M:4/4
+L:1/8
+Q:2/4=90
+P:A2
+K:D
+P:A
+|:A,B,DE D2DE|F2AB ADFA|G2BG F2AF|EDEF EDB,2|
+A,B,DE D2DE|F2AB ADFA|G2BG F2AF|EDEF D2z2:|]
+
+X:388
+T:Whitehaven Volunteer, The
+R:polka 32
+O:Cumbria
+M:4/4
+L:1/8
+Q:1/4=180
+S:ChristopherGeorge Partington <ChrisTheFiddlerPartington:Hotmail.com> tradtunes 2006-9-11
+N:from Fiddler's Companion
+N:WHITEHAVEN VOLUNTEERS.  English, Country Dance Tune  (2/4  time).   G  Major.
+N:Standard.   AABB.   The  melody  is  in  a  similar vein as "Petronella." The
+N:Whitehaven Volunteers were probably a local militia unit  raised  during  the
+N:Napoleonic  Wars,  from  Whitehaven,  Cumbria,  England.  Knowles (A Northern
+N:Lass), 1995; pg.  15.
+K:G
+%P:A
+d2>c2|\
+B2B2 BcAB|G2G2 G2D2|G2B2 d2B2|edcB A2dc|\
+B2B2 BcAB|G2G2 G2D2|E2c2 BAGF|G4 ::\
+%P:B
+d2>c2| B2d2 d2ef|g2d2 dedc|B2de d2B2|AGAB A2dc|\
+B2d2 d2ef|gfga g2dc|B2G2 BAGF|G4 :|
+
+X:389
+T:Whither?
+M:4/4
+L:1/8
+C:Taz Tarry June 1987
+S:Copyright B.Tarry, June 1987
+R:Hp 32 Reel
+K:G
+BAGE  D2 G2|A2AB  AGE2|BAGE  D2 G2|A2AB A4|
+BAGE D2 G2|A2AB AGE2|A2AB AGE2|AGA2  G4:|
+gdgd  e2  d2|e2ef  ed B2|gdgd  e2  d2|efed  BGBd|
+gdgd  e2  d2|e2ef  ed B2|edef  edBG|AF  A2  G4:|
+
+X:390
+T:Will's Way
+R:polka 32 march
+M:4/4
+L:1/8
+Q:1/4=180
+C:Will Ward
+S:Judy Tarry
+R:polka 32
+K:D
+|:FG.A2A2A2|BA.B2A4|DEFGA2B2|=c2.B2B2A2|
+FG.A2A2A2|BA.B2A4|DEFGF2E2|D4D4:|!
+|:.d2D2AGFE|.d2D2AGFE|DEFGA2B2|=c2.B2B2A2|
+.d2D2AGFE|.d2D2AGFE|DEFGF2E2|1D4D4:|2D8|]
+
+X:391
+T:William Taylor's Table Top
+R:hp 32
+M:4/4
+L:1/8
+R:hornpipe
+K:Amin
+|:A2 A2 ABcA|BcBA G2 E2|e2 e2 dedc|BAGA BcdB|
+A2 A2 ABcA|BcBA G2 E2|edcB AcBG|A2 A2 A4:|
+|:ecAc e2 e2|dBGB d2 d2|cBAG A2 Ac|BAGA B2 B2|
+ecGce2 e2|dAFAd2 d2|cBAG AcBG|A2 A2 A4:|
+
+X:392
+T:Willow's Way
+R:polka 32 schottische
+M:4/4
+L:1/8
+R:Schottische
+O:Swedish
+S:Recorded by Mel Biggs from the playing of Jim from Stroud Ladies/Lassington Oak
+N:Written to accompany One For Dan, according to Jim
+Z:Melanie Biggs
+K:G
+g3 f g3 f|edeg B3d|cBAB cdef|gBc^c d2 ef|g3 f g3 f|edeg B3d|cBAB cdef|g2 gf gdef:|
+g2 fe c2 c2|g2 fe B3 d|cBAB cdef|gBc^c d2 ef|g2 fe c2 c2|g2 fe B3d|cBAB cdef|g2 gf gdef:|
+
+X:393
+T:Wiltshire Tempest, The
+R:polka 32
+M:2/4
+L:1/16
+Q:1/4=120
+K:D
+A2|d2A2 ABA2|f2d2 ded2|e2A2 B2c2|dcde f2a2|
+d2A2 ABA2|f2d2 ded2|e2A2 B2c2|d4 d2fg|
+|a2f2 f2d2|edcB A2fg|a2f2 f2d2|edcB ABcA|
+d2A2 ABA2|f2d2 ded2|e2A2 B2c2|d4 d2A2|
+|d2f2 a2f2|b2g2 a3f|g2f2 e2d2|cdec A2Bc|
+d2f2 a2f2|b2g2 a3f|g2e2 c2A2|d4 d2ef|
+|g2e2 c2A2|d2f2 a3f|g2e2 c2A2|defg a3f|
+d2f2 a2f2|b2g2 a3f|g2e2 c2A2|d4 d2|
+
+X:394
+T:Wind the Bobbin Up
+R:polka 32
+M:4/4
+L:1/8
+K:G
+d2de dBGB|d2 de dBGB|c2Ac B2GB|AGFG ABce|!
+d2de dBGB|d2de dBGB|c2 Ac B2 GB|A2F2 G4:|!
+A2 FE D2D2|G2B2d3B|c2Ac B2 G2|AGFG D2 D2|!
+A2 FE D2D2|G2B2d3B|c2Ac B2 GB|A2F2G4:|
+
+X:395
+T:Winhams Reel
+R:hp 32 reel
+S:Trad
+M:4/4
+L:1/4
+Q:1/4=140
+F:http://banjolin.co.uk/tunes/abcs/winhams.abc
+K:G
+D|:G/2A/2B/2A/2 GD|EG DG|EG DG|BA AB/2A/2|
+|G/2A/2B/2A/2 GD|EG DG|EG Dd|1 BG G D:|2 BG Gd|
+|:gG Bg|fA ce|dD FA|c/2B/2A/2B/2 c/2d/2e/2f/2|
+gG Bg|fA ce|dD Fd|1 BG G d:|2 BG G D|
+
+X:396
+T:Winster Gallop
+R:polka 32 reel
+M:4/4
+L:1/8
+K:G
+|:G2B2 G2B2 | G2B2 d4 | A3c B2A2 | G2B2 d2B2 |
+| c2e2 g2e2 | d2B2 d4 | A2Bc B2A2 | G4G4 :|
+|:g2f2 e2d2 | g2f2 e2d2 | g2f2 e2d2 | c2B2 A4 |
+| (gf)e2 d4 |(gf)e2 d4| d4 A3c | B2A2 G4 :|
+
+X:397
+T:Woodcutters Jig, The
+R:jig 32
+C:P J Headford
+M:6/8
+L:1/8
+Q:1/8=140
+K:G
+|:B2G GFG|.F2F D2c|BcB AGF|GAB A3|
+B2G GFG|1.F2F E2c|BcB AGF|G3- G2A:|2
+FED d2c|B2B ABA|G3 G2A||!
+:B2d dcB|c2e f2e|ded cdc|BcB A3|
+B2d dcB|1c2e f2e|ded cBA|G6:|2
+c2e g2e|dcB cAF|G6|]
+:B2d dcB|c2e f2e|ded cdc|BcB A3|
+B2d dcB|1c2e f2e|ded cBA|G6:|2
+c2e g2e|dcB cAF|G6|]
+
+X:398
+T:Woodland Flowers
+C:Felix Burns
+M:6/8
+L:1/8
+K:G
+DGB A2G|DGB A2G|E2C E2G|c6|
+d2B c2A|B2G E2F|G2B AGE|D6|
+DGB A2G|DGB A2G|E2C E2G|c6|
+d2B c2A|B2G E2F|G2D BdB|G6||
+BAG D2D|BAG D2D|cBA E2E|cBA E2E|
+F2G F2E|D2c B2A|G2A BAG|D6|
+BAG D2D|BAG D2D|cBA E2E|cBA E2E|
+F2G F2E|D2c B2A|G2D BdB|G6||
+
+X:399
+T:Woodland Revels
+R:polka 48
+C:Trad. ed. Barry Callaghan
+S:'Hard Core English' page 70
+O:England
+B:Hard Core English ISBN 978 085418 201 5
+Z:PJHeadford 2008
+M:4/4
+L:1/8
+Q:1/4=200
+K:G
+E3c B4|E3c B4|c2c2 e2c2|B8|E3c B4|E3c B4|A2B2 c2^c2|d4 D4|
+E3c B4|E3c B4|c2c2 e2c2|B8|c2c2 B4|c2c2 B4|BcBA G2F2|E4 D4|
+G3e d4|G3e d4|B2B2 c2B2|A2e2 e4|A3B c4|A3B c4|c2c2 B2A2|G2e2 d4|
+B3c d4|GBde d4|B2B2 c2B2|A2e2 e4|\
+e2c2 e2c2|d2B2 d2B2|dcBA GFGA|B2d2 g2fe||
+d2d4 ^cd|e2d2 B2G2|EG2E G2A2|B8|d2d4 ^cd|e2d2 B2G2|EA2E A2B2|A2G2 E2D2|
+d2d4 ^cd|e2d2 B2G2|EG2E G2A2|B6 d2|e3e f2e2|d2B2 G2d2|e4 f4|g8|]
+W:Still looking for the author of this one, which turned up in
+W:the repertoire of the Tadley Band in Hampshire in 1924.
+
+X:400
+T:Worcestershire Hornpipe
+T:New Bridge Hornpipe (in Burnett)
+T:Navy, The (in Lister)
+R:hp 32
+C:Trad. ed. Barry Callaghan
+S:'Hard Core English' page 26C
+O:England
+B:Hard Core English ISBN 978 085418 201 5
+Z:PJHeadford 2008
+M:4/4
+L:1/8
+Q:1/4=140
+K:G
+|:D2|G2G2 GBd2|e2ef g2e2|dBGB dBGB|cAFA cAFD|
+G2G2 GBd2|e2ef g2e2|dgfe dcBA|G2G2 G2:|
+|:Bc|d2B2 GFG2|e2c2 cBc2|d2B2 GFG2|AGFE D4|
+d2B2 GFGB|cdef g2e2|dgfe dcBA|G2G2 G2:|]
+W:Collected C Sharp from Jason Mason, Stowe-on-the-Wold. In Moore.
+W:As New Bridge Hornpipe in Burnett and Bewick, as The Navy in Lister.
+
+X:401
+T:Would You Have/Court a Young Virgin of Fifteen?aka. JBu.10
+T:La Native,aka. JBu.10
+T:Poor Robin's Maggot,aka. JBu.10
+T:If The Heart of a Man is Depressed With Cares,aka. JBu.10
+R:jig 32
+O:England,South Yorkshire
+S:Joshua Burnett's MS,c1835,S.Yorkshire
+M:6/8
+L:1/8
+Q:1/8=140
+N:Untitled in MS
+Z:vmp.R.Greig.2010
+K:D
+F>G|A>BA A>BA|d2AA2F>G|A>BA A>BA|e2AA2F>G|
+A>BA A>BA|d2Ae2A|f>ed ABc|d2DD2:|
+|:f>ed f>ed|e2AA3|f>ed f>ed|g2ee3|
+f>ed f>ed|g>feHa2g|f>ed A>dc|d2DD2:|
+
+X:402
+T:Yarborough Chase
+R:jig 32
+M:6/8
+L:1/8
+Q:140
+C:Peter Kerrawn, Sydney Morris men
+K:G
+D3 |: G2G GAB | c2c cBA | G2G GAB | A2F D3| G2G GAB | c2c cBA | GAG FEF
+|  G6 :| :
+A2 | B2B BAG | A2 A A3 | G2G GAB | A2F D3 | B2B BAG | A2A  A3 | GAG FEF
+| G6 :|
+
+X:403
+T:Yarmouth Breakdown
+R:hp 32 reel
+C:Trad.
+M:4/4
+L:1/8
+Q:1/4=140
+K:D
+AG|"D"FAde fdAd|fedc"Em"B2"^(G)"A2|"A"gfed cABc|ed"^(E)"cB "A"A2 AG|
+"D"FAde fdAd|fedc "Em"B2"^(G)"A2|"A"gfed cABc|e2"^(G)"dc "D"d2AG:|]
+"D"FDFA dAFA|"Em"G2"^(G)"F2 "A"A,2D2|CDEF GECE|"D"DE"^(G)"FG "A"A2AG|
+"D"FDFA dAFA|"Em"G2"^(G)"F2 "A"A,2D2|CDEF GECE|E2"^(G)"DC "D"D2:|]
+
+X:404
+T:Yarmouth Breakdown
+R:hp 32
+C:Trad.
+S:Ian Dedic
+M:4/4
+L:1/8
+Q:1/4=140
+K:D
+AG|:"D"FA de fd Ad|fe dc"Em"B2"^(G)"A2|"A"gf ed cA Bc|ed "^(E)"cB "A"A2 AG|
+"D"FA de fd Ad|fe dc "Em"B2"^(G)"A2|"A"gf ed cA Bc|e2"^(G)"dc "D"d2AG:|]
+|:"D"FD FA dA FA|"Em"G2"^(G)"FD "A"A,3D|CD EF GE CE|"D"DE "^(G)"FG "A"A2AG|
+"D"FD FA dA FA|"Em"G2"^(G)"FD "A"A3D|CD EF GE CE|E2"^(G)"DC "D"D2:|]
+
+X:405
+T:Zakynthos Jig
+R:jig 32
+M:6/8
+L:1/8
+R:Jig
+C: roger wilson
+D:Eliza Carthy
+K:Amin
+|:"Am"a2a  gag |    e2a ag2 |    e2c  BcB | A2F "F"F3 \
+| "Am"EAB  cBA | "F"FAB cBA | "G"B2B ed(B | B)"Am"cd cBA :|
+|:"Dm"d2 d2 c2 |    dc2 B2A |    d2 d2 cd | B3 "E"A3 \
+| "Dm"d2 d2 c2 |    dc2 B2A |    d2 d2 cd | "E"ez2 z2 :|

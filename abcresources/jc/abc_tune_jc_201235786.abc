@@ -1,0 +1,33 @@
+X: 21381
+T: REPUBLICAN SETT (tune 1)
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.138 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Should the c in bar 17 be A instead?
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="1"
+A |\
+dcd Adf | a^gb a3 | =gfg ABc | def A2A |\
+dcd Adf | a^gb a3 | aef gBc | d2f d2 H|]
+a |\
+b2b bag | a2a agf | g2g gfe | a3 fga |\
+b2b bag | a2a agf | eba gBc | d2f "^D.C."d2 |]
+A |\
+dDF cdf | eA,C EAc | dDF Adf | ef^g a3 |\
+b[gB]b a[fA]a | gbg faf | efg ABc | d2f "^D.C."d2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First four right and left,
+%% balance four,
+%% and turn partners,
+%% ladies chain,
+%% promenade four,
+%% sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

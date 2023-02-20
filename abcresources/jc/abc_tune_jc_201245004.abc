@@ -1,0 +1,6 @@
+X: 1
+T: TEST: Chord above
+%%staffwidth 300
+%%scale 0.90
+K: 2/4
+[| "D"DE "Bm"FG "A7"AB "D"cd | "Bm"de "Em"fg "A7"ab "D"c'd' |]

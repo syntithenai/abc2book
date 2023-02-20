@@ -1,0 +1,29 @@
+X:1
+T: Thomas I Cannot
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:D
+I:speed 165
+%W: A1                                                      A2
+% voice 1 (1 lines, 34 notes)
+K:D
+M:6/8
+L:1/16
+D4 d2 c4 B2 A4 G2 F3 G A2 A3 G F2 E4 D2 D2 d4d6 |D4 d2 c4 B2 A4 G2 F3 G A2 A3 G F2 E4 D2 D2 d4d6 |
+%W: B1
+% voice 1 (1 lines, 25 notes)
+c3 d e2 e4 d2 c3 d c2 B4 A2 c3 d e2 e4 G2 F3 G F2 E4 D2 |c3 d e2 e4 f2
+%W:
+% voice 1 (1 lines, 24 notes)
+e3 d c2 B4 A2 A3 G F2 E4 D2 D2 d2 D2 D2 d2 B2 |A3 G F2 E4 D2 D2 d4d6
+%W: B2
+% voice 1 (1 lines, 25 notes)
+c3 d e2 e4 d2 c3 d c2 B4 A2 |c3 d e2 e4 G2 F3 G F2 E4 D2 c3 d e2 e4 f2
+%W:
+% voice 1 (1 lines, 24 notes)
+e3 d c2 B4 A2 |A3 G F2 E4 D2 D2 d2 D2 D2 d2 B2 A3 G F2 E4 D2 D2 d4d6 ||

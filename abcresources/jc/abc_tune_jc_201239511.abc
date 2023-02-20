@@ -1,0 +1,35 @@
+X: 3301
+T: Money in both Pockets
+%R: jig
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+N: The ABC2 version with overlays is rather pointless for this tune.
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.300 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slow"
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 8-bar lines, for phrasing and proofreading.
+% The book has odd staff breaks due to all the 16th notes in the 3rd strain.
+% Several double-bars introduced to simplify reading.
+V: 1 staves=2
+f !segno!|: !p!\
+{c}d2F TFEF | A2A AGF | {c}d2F TFEF | A3 gfe ||\
+{c}e2F {G}FEF | A>BA {B}AGF | !f!TE>FE EFA | TB3 {AB}ABc :|
+ [|\
+(df)a afd | (ce).a ecA | (df).a afd | Tg3{fg} f2f/g/ ||\
+{fg}a>gf {ga}b>ag | {fg}a>gf Te>de | f<dB A<FA | TB3 d2A "^:+:"|]
+ [|\
+df/g/a afd | (c/d/)e/f/(=g/a/) (f/e/)(d/c/)B/A/ | (Td/c/d/)e/f/g/ afd | {a}gfg f2f/g/ ||\
+(a/g/)f/g/a/f/ (b/a/)g/b/a/g/ | (a/g/)f/a/g/f/ {f}ede | !f!f>dB A<FA | TB3 ABc !segno!|]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z !segno!|: !p!\
+D3 d3 | D3 d3 | D3 d3 | cea A3 || d3 d3 | f3 d3 | !f!c3 d3 | GBd D3 :| [| d3 d'3 |
+a3 A3 | d3 d'3 | abc' d'2z || [d3f3a3] [d3g3b3] | [d3f3a3] [A3e3a3] | d2g f2d | gbd' f2a |] [| f2d' d3 | A2a
+A3 | dad' dad' | abc' d3 || dd'd' Ggg | fdd a2A | !f!d2g f2d | gbd' [d3f3] !segno!|]
+%%begintext align
+%% When this Tune is danced the 2d Strain is only Play'd to this :+: mark.
+%%endtext

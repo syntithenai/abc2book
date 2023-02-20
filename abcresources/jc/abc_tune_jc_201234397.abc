@@ -1,0 +1,26 @@
+X: 20483
+T: LORD EGLINTON'S AULD MAN
+Q: "With spirit."
+%R: march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.48 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+%%stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+dB |\
+A2D2 GFED A2D2D2dB | A2D2 AGFE {F}A4 A2dc |\
+B2E2G2E2 B2E2 B2AB | d3e gfed B4 A2B2 |\
+d3ef2a2 e2f2d2B2 |
+A3FD3F A3Bd2e2 |\
+f3de3B d2A2B2F2 | EEE2 F3A {A}B4 B2 |]\
+fg |\
+a2d2f2d2 a2d2 d2fg | a2d2f2d2 a4 a2fa |
+b2e2g2e2 b2e2 e2dB | d3e {de}f2ed B4 A2B2 |\
+d3ef2a2 e2f2d2B2 | A3FD3F A3Bd2e2 |\
+f3de3B d2A2B2F2 | EEE2 F3A {A}B4 B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

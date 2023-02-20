@@ -1,0 +1,51 @@
+X: 1
+T: Valentine's Day
+P: Longways for as many as will
+%R: jig
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.124 #181 (247)
+B: "The Dancing-Master: Containind Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.99 "K 2"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: In CCDM1, bar 12 is a repeat of bar 11; DMDfD's bar 12 is used here.
+M: 6/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+B>c |\
+d3ed2 B2G2B2 | c3dB2 A4Bc | d3ed2 B2G2B2 | A3GF2 G4 |]\
+Bc | d3ed2 B2G2G2 | G6- G3def | g3ag2 e2c2c2 |
+c6- c3efg | a3ba2 e2a2g2 | f6 d3def |\
+g2d2e2 d2B2G2 | g2d2e2 d2e2B2 | c3dB2 A4G2 | G6- G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the Presence, then to your We. lead up all forward and back; that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First Cu. lead up and the 2d Cu. lead down, then change Hands and meet, then
+%% the two Men take Hands, and likewise the two We. and lead to theWall and
+%% back again, then the 1st Man and 2d Wo. change Places, and stand still 'till the
+%% 1st Wo. and 2d Man do the like; then the two Men take Hands, and also the two
+%% We. and fall back from each other, then meet and cross over with your own
+%% Wo. then 1st Man and 2d Wo. meet and turn Back to Back, and then stand still
+%% 'till the 1st Wo. and 2d Man do the same; then all four clap Hands and turn
+%% S. and take Hands in a Ring and go quite round.  Do this to the last.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+%%begintext align
+%% Honour to the Presence, then to your we. Lead up all forward and back, that again.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% First cu. lead up, and the 2. cu. lead down, then change hands and meet, then the two men take hands,
+%% and likewise the two we. take hands, and lead to the wall and back again, then the 1. man and 2. wo.
+%% change places, and then stand still till the 1. wo. and 2. man do the like, then the two men take hands,
+%% and also the two we. take hands and fall back from each other, then meet and cross over with your
+%% own wo. then 1. man and 2. we. meet and turn back to back, and then stand still till the 1. wo. and
+%% 2. man do the same, then all four clap hands and turn S. and take hands in a ring and go quite round.
+%% Do the same over again to the last.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

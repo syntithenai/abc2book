@@ -1,0 +1,19 @@
+X: 180
+T: Joc De Fete
+Z: originally transciribed by Lyuben Dossev
+F: http://www.dunav.org.il/music_scores/055_romania_joc_de_fete.html
+O: Romanica
+F: http://www.youtube.com/watch?v=GuXmBgzS4DA
+M: 5/4
+L: 1/8
+K: D
+Q:1/4=144
+%%MIDI program 52 choir
+F2 F2 F2 F3 A    |GF E2 ED D4      |\
+EF E2 EF E3 D/C/ |DC B,2 B,A, A,4  |
+A,6 A,3z         |{D}E2 E2 EF (3EDC|\
+DC B,2 B,A, A,3 z|A2 A2 A2 A2 BA   |
+M: 6/4
+AG A3F GA F3D    |\
+M:5/4
+EF F2 ED D4-     |D6-D2z2          |

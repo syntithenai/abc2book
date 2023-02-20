@@ -1,0 +1,26 @@
+X:1
+T: The Waterfall Waltz
+N:
+C:
+S:Tune is "Troy"
+A:
+O:
+R:
+M:3/4
+K:D
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 28 notes)
+K:D
+M:3/4
+L:1/16
+d4 |A4 A2 B2 A2 G2 |F4 A4 D4 |G4 G2 A2 G2 F2 |E12 |A4 A2 B2 A2 G2 |F4 A4 D4 |G4 F4 E4 |D8 d4 |
+%W: A2
+% voice 1 (1 lines, 27 notes)
+A4 A2 B2 A2 G2 |F4 A4 D4 |G4 G2 A2 G2 F2 |E12 |A4 A2 B2 A2 G2 |F4 A4 D4 |G4 F4 E4 |D8 z4 |
+%W: B
+% voice 1 (1 lines, 27 notes)
+F6 E2 F2 G2 |A6 A2 A4 |F6 E2 F2 G2 |A8 A4 |d6 c2 d2 e2 |c6 B2 A4 |d4 d2 f2 e2 g2 |f8 e4 |
+%W: C
+% voice 1 (1 lines, 23 notes)
+d6 c2 B2 d2 |c4 B4 A4 |d4 F4 ^G4 |A12 |A4 A2 B2 A2 G2 |F4 A4 D4 |G4 F4 E4 |D8 ||

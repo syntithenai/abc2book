@@ -1,0 +1,16 @@
+X: 666
+T: the Green Groves of Erin
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #666
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0666/oneill-1001-0666-1.abc
+M: C|
+L: 1/8
+K: Amix
+"^A"\
+[| A2(cA) eAcA | (G2B)d gdBG | A2(cA) e(AcA) | B(EED) EdcB ||
+|| A2(cA) eAcA | (G2B)d gdBG | ABcd eAAc | B(EED) (EA)A2 |]
+"^B"\
+[| eaa(g ea)ag | egg(f eg)gf | eaa(g  ea)a(g | ed)ef gedB ||
+|| eaa(g bg)ag | eggf  afge  | d(ega) b2(ag) | (3(efg) (fa) gedB |]

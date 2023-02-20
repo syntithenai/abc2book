@@ -1,0 +1,28 @@
+X: 1041
+T: LYNN QUICK-STEP
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.104 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: The junction between the 2nd and 3rd parts has a rhythm problem.
+M: 2/4
+L: 1/16
+K: D
+|:\
+d4 f4 | a6 (3ABc | d3c B3d | A4 F4 |\
+c4 e4 | e3B c4 | c2dc B2^G2 | A4 z4 |\
+d4 f4 | a6 (3ABc | d3c e3d | f4 d4 |\
+Bdcd B2z2 | Adcd A2z2 | ABcd egce | D4 z4 :|
+|:\
+dced B4 | d2g2 b4 | b2c'b a2f2 | g2b2 d'4 |\
+dced B4 | d2g2 b4 | b2c'b a2f2 | g6 z2 :|\
+|: Ad |\
+f6 g2 | ^g2a2 b4 | agfg e2c2 | dced f3d |
+f6 g2 | ^g2a2 b4 | agfg e2c2 | d4 z4 :|\
+|:\
+FGAB A4 | A2d2 f4 | f2g2 c2e2 | b2a2 f4 |\
+FGAB A4 | A2d2 f4 | f2g2 c2e2 | d6 A2 :|
+|:\
+A6 G2 | G2F2 F2A2 | f6 e2 | e2d2 d2A2 |\
+B4 A4 | G4 F4 | E2F2 G2B2 | (B4 A2)A2 |\
+A6 G2 | G2F2 F2A2 | f6 e2 | e2 d4 A2 |\
+B4 c4 | dcde f2z2 | f2ag e2c2 | d4 z4 :|

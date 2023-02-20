@@ -1,0 +1,21 @@
+X: 21372
+T: the Maid of Elgin
+%R: air, reel, march
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.137 #2
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+N: Adjusted lengths of several final notes to fix the rhythms.
+M: C|
+L: 1/8
+K: D
+"_Slow"D |\
+F2GA B2cd | AFED E3A |\
+(GF)(ED) (FA) (dg) | (fe)(dc) d3 :|
+|: e |\
+f2(ed) B2(dB) | AFTED e2(de) |\
+(gf)(ed) B2(df) | (AF)(ED) D3 :|
+|: D |\
+D2(EF) (AB)(de) | f2(a/f/)d e3b |\
+(af)(Ted) (Bc)(de) | {de}f2 Ted d3 :|
+|: e |\
+f2 (f/e/)d e2(e/d/)B | (AB)(dF) E2(ba) |\
+f2 (a/f/)d B2 (A/B/)d | F2TE>D D3 :| 

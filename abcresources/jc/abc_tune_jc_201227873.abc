@@ -1,0 +1,44 @@
+X: 10
+T: les Aimables Filles.
+%R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #10
+N: Repeats added to the 1st strain to match the dance description: 1-1-2-1.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+G2B B/c/dB | GFG A3 | c2B A2G | FGA D3 |\
+G2B B/c/dB | GFG A3 | c2B A2G | AGF G3 :|
+d2g f/g/af | d^cd e3 | g2f e2d | ^cde A3 |\
+d2g f/g/af | d^cd e3 | g2f e2d | ed^c "_Da Capo"d3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+|:\
+G3 g3 | e2e d2f | e2d c2^c |
+d3 z2z |  G3 g3 | e2e d2f | e2d c2B |
+c2d G3 :| B2e d2d | B2B A2^c | B2A 
+G2^G | A3 a2g | f2e d2d' | b2b a2^c' |
+b2a g2f | g2a "_Da Capo"d3 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Les Aimables Filles.
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   The first Couple go between the fourth
+%% Couple, then half Moulinet and return to their
+%% places, while the third and second Couple do
+%% the same - - - - 1/2
+%%endtext
+%%begintext align
+%%   The Gentlemen Allemande to the Ladies on
+%% their Left, and then to their Partners - 1/1
+%%endtext
+%%sep 1 1 400

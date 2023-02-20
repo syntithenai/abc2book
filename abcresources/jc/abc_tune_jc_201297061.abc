@@ -1,0 +1,47 @@
+X: 1
+T: Kingsfold
+Z: Louis F. Benson, 1889
+L: 1/4
+M: 4/4
+K: G
+V: 1 staves=3
+V: 2
+V: 3 clef=bass middle=d
+F:http://www.stephenmerrony.co.uk/ABC/Carols/K/Kingsfold.abc 2017-07-05 214533 UT
+[V: 1]\
+[|\
+[E/G/]F/ [B,E] [B,E] [CE] | [A,D] [DG] [B,G] [DA] |\
+[D/G/][F/A/] [GB] [GB] [E/A/]G/ | [CE] [A,3D3] |\
+[D/G/]F/ E [CE] [C/E/]B,/ |
+[A,D] [DG] [^CG] [DA] |\
+[E/G/][C/A/] [B,B] [DB] [C/A/]G/ | [CE] [B,3E3] ||\
+[E/B/]c/ [Fd] [FB] [G/B/][D/A/] | [DG] [EA] [DA] [D-B-] |
+[DB] [GB] [G/B/][F/A/] [DG] | [C/E/]B,/ [A,3D3] |\
+[D/G/]F/ [DE] [CE] [C/E/]D/ | [D/E/]F/ [DG] [D/G/]^C/ [DA] |\
+[D/G/][C/A/] [B,B] [DB] [E/A/]G/ | [CE] [B,3-E3-] |\
+[B,E] z3 |]
+%
+[V: 2]\
+[|\
+[E,/B,/]A,/ [E,G,] [E,G,] G, | F, G, [E,G,] F, |\
+G,/C/ B, D C | G, G,2 F, |\
+G, G, G, G, | F, G, [E,G,] F, |\
+G,/F,/ G, G, E, | E,/F,/ [E,3G,3] ||\
+[E,G,] B, [B,D] [E,/D/][F,/C/] | [G,B,] A,/G,/ F, G,- |\
+G, D D/C/ B, | G, G,2 F, |\
+G, G, G, A, | [A,C] [G,/B,/][F,/A,/] [E,G,] F, |\
+G,/F,/ G, F, E, | E,/F,/ [E,3-G,3-] |\
+[E,G,]z3|]
+%
+[V: 3]\
+[|\
+z2z/ d/ c | c cz d |\
+c/c/ c c c | c d3 |
+c c c/c/ c | d cz d/c/ |\
+c/c/ c c c | cz3 ||
+z cz2 |z c d c- |\
+c c c/c/ c | c d3 |
+c c c/c/ c |z3 d |\
+c/c/ c c c | cz3 |\
+z4|]
+

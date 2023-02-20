@@ -1,0 +1,70 @@
+X: 1481
+T: FAIRBANKS' QUICK-STEP
+C: Wm. Richardson
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.148-149
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+N: Fixed missing beam in bar 26 of V:2.
+M: 2/4
+L: 1/16
+K: Eb
+%----------
+V: 1 nm="Bb BUGLE PRIMO"
+K: F
+|: (3cde |\
+f3ff3f | f3fa3f | .c2.c2 .d2.e2 | .f2ag fede |\
+f3ff3f | f3fa3f | c2gf ecde | f4 z2 :|
+|: AB |\
+caaa a2gf | fddd d2ef | g2gg g2ag | fFGA BAGB |\
+caaa a2gf | fddd d2ef | g2gg g2ag | f4 z2 :|
+|: c2 |\
+c4 A2c2 | cAcf a4 | c'4 g2b2 | a2ba gfed |\
+c4 A2c2 | cAcf a4 | c'4 g2ag | f4 z2 :|
+|: cB |\
+A2 "^>"F4 AA | A2c2 f4 | g2cc c2de | fefg a2 cB |\
+A2 "^>"F4 AA | A2c2 f4 | g2cc cbge | f4 z2 :|
+%----------
+V: 2 nm="Bb BUGLE SECONDO"
+K: F
+|: z2 |\
+A3AA3A | A3Ac3A | .B2.B2 .B2.B2 | A2A2A2z2 |\
+A3AA3A | A3Ac3A | B4 G2B2 | A4 z2 :|
+|: FG |\
+Accc c2cB | AFFF F2GA | B2BB B2cB | A4 z4 |\
+Accc c2B2 | AFFF F2GA | B2z2 B2B2 | A4 z2 :|
+|: A2 |\
+A4 F2A2 | AFAc f4 | a4 e2g2 | f4 z4 |\
+A4 F2A2 | AFAc f4 | a4 e2c2 | A4 z2 :|
+|: AG |\
+F2 "^>"C4 FF | F2A2 A4 | B2GG G2B2 | A2A2A2 AG |\
+F2 "^>"C4 FF | F2A2 A4 | B2GG G2B2 | A4 z2 :|
+%----------
+V: 3 nm="TENOR TROMBONE" clef=bass middle=D
+K: Eb
+|: z2 |\
+B2B2 B4 | B3BB3e | .f2.f2.f2f2 | e2e2e2z2 |\
+e3ee3e | e3e e3e | d4 d2f2 | e4 z2 :|
+|: z2 |\
+e2e2 e4 | e2e2 e4 | d2z2 d2d2 | e4 z4 |\
+e2e2 e4 | e2e2 e4 | d2z2 d2d2 | e4 z2 :|
+|: z2 |\
+e4 e2e2 | e2e2 e4 | e4 d2d2 | e4 z4 |\
+e4 e2e2 | e2e2 e4 | e4 d2d2 | e4 z2 :|
+|: z2 |\
+B2 "^>"G4 BB | B2B2 B4 | d2dd d2f2 | e2e2e2z2 |\
+B2 "^>"B4 BB | B2B2 B4 | d2dd d2f2 | e4 z2 :|
+%----------
+V: 4 nm="BASS TROMBONE" clef=bass middle=d
+K: Eb
+|: z2 |\
+e3ee3e | e3ee3e | d2_d2 c2=B2 | c2e2g2e2 |\
+e3ee3e | e3ee3e | B4 B2B2 | e4 z2 :|
+|: z2 |
+e2e2 e4 | e2e2 e4 | B2z2 B2B2 | e2e2e2z2 |\
+e2e2 e4 | e2e2 e4 | B2z2 B2B2 | e4 z2 :|
+|: z2 |\
+e4 e2e2 | e2e2 e4 | B4 B2B2 | e4 z4 |\
+e4 e2e2 | e2e2 e4 | B4 B2B2 | e4 z2 :|
+|: z2 |\
+e2e2 e4 | e2e2 e4 | B2f2d2B2 | e2e2e2z2 |\
+e2e2 e4 | e2e2 e4 | B2f2d2B2 | e4 z2 :|

@@ -1,0 +1,27 @@
+X: 403
+T: the Finale. a Hornpipe.   [E]
+C: by Wm Christie
+R: hornpipe, reel
+B: William Christie's "A Collection of Strathspeys, Reels, Hornpipes, Waltzes, &c."
+S: https://digital.nls.uk/special-collections-of-printed-music/archive/120545033
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q: "Con Spirito."
+K: E
+%%slurgraces yes
+%%graceslurs yes
+% = = = = = = = = = =
+V: 1 staves=2
+B2 |\
+.e2Tg>f e2a>g | f2ba (ga)fg | .e2g>f (ef)de | (cA)(af) (db).g.f ||\
+e2g>f e2a>g | f2b>a (ga)(fg) | (ef)(de) (cA).F.d | [e2B2G2][e2B2G2] [e2B2G2] :|
+|: (Bc/d/) |\
+eEGE BEGE | GBFB GBEB | GBFB EBGE | B,2(Tf>e) dfBd ||\
+eBfB gBaB | gBbB aBgB | fBeB (TcA)Fd |[e2B2G2][e2B2G2] "_Fine"[e2B2G2] :|
+% = = = = = = = = = =
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+   z2 | e2b2 g2a2 | b4 c'2d'2 | e'2d'2 c'2b2 | a2f2 b2B2 || e2b2 g2a2 | b2d'2 e'2b2 | c'2b2 a2b2 | e2e'2 e2 :|
+|: z2 | E2e2 g2e2 | e2d2 e2E2 | e2b2 g2e2 | d2c2 B2b2 || e'2d'2 e'2f'2 | e'2g'2 f'2e'2 | d'2c'2 a2b2 | e2e'2 e2 :|
+% = = = = = = = = = =

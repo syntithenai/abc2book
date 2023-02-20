@@ -1,0 +1,87 @@
+
+X: 1
+T: the Baddeck Gathering
+C: Piper Alex MacDonald
+%date: 1940
+O: 20th century Cape Breton
+B: Gordon MacQuarrie "Cape Breton Collection of Scottish Violin Music" 1940.
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+S: printed page in Concord Slow Scottish Session collection
+B: BSFC Session Tune Book 2016 p.50
+R: Jig
+M: 6/8
+K: D
+L: 1/8
+"A"[|] A, |\
+"D"DED FEF | "D"TD3 D2A, | "D"DED FEF | "D"TA3 ABc |\
+"G"dBd "D7"=cAc | "G"BGB "D"AFA | "D"AFA "Bm"d2F | "Em"EFE "A"TEDB, ||
+y |\
+"D"A,B,D "A"FEF | "D"TD3 D2A, | "D"DED FDF | "D7"TA3 ABc |\
+"G"dBd "D7"=cAc | "G"BGB "D"AFA | "G"GFG "A"A,B,C | "D"TD3 D2 |]
+"B"[|] g |\
+"D"faf d2g | "D"faa "(G7)"agf | "C"efg =c2g | "C"egg "(A7)"gfe |\
+"D"fga d2g | "D"faa agf | "A7"efg ABc | "D"d3 d2 ||
+g |\
+"D"faf d2g | "D"faa "(G7)"agf | "C"efg =c2g | "C"egg "(A7)"gfe |\
+"D"fga "A"ABc | "D"dcd "A"AFD | "D"TFED "A"A,B,C | "D"TD3 D2 |]
+
+
+X: 1
+T: Miss Sally Hunter of Thurston's Jig
+C: Nathaniel Gow
+N: BSFC III-23
+N: Hardie #293
+N: Skye p.177 (with an obvious typo)
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin, from Lance Ramshaw 2015-6-26
+M: 6/8
+L: 1/8
+K: D
+A |\
+"D"DFA d2A | "G"B2A "D"d2A | "G"Bcd "Em"efg | "A7"efd cBA |\
+"D"DFA d2A | "G"B2A "Bm"Bcd | "Em"egf "A7"edc | "D"d3- d2 :|
+g |\
+"D"fed "Em"g2e | "F#m"a2f "G"b2g | "D"fef "Bm"def | "Em"efd "A7"cBA |\
+"D"fed "Em"g2e | "F#m"a2f "G"b2g | "D"fga "A7"Adc | "D"d3- d2 ||
+g |\
+"D"fdf "Em"geg | "D"afa "G"bgb | "D"afd "Bm"Bcd | "E(m)"efd "A7"cBA |\
+"D"DFA d2A | "G"B2A "D/f#"Bcd | "Em"egf "A7"edc | "D"d3- d2 |]
+
+
+X: 1
+T: Fair Jenny's Jig
+C: Peter Barnes
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"f3 fgf | "A7"ecA ecA | "G"Bcd "A7"ecA | "G(E7)"Bcd "A7"e2A \
+| "D"f3 fed | "A7"ecA ecA | "G(E7)"Bcd "A7"e2A | ABc "D"d2 :|
+|: A \
+| "G"B3 B=cB | GBB B=cB | "D"ADD dDD | cDD [=cA]DD \
+| "G"B3 B=cB | GBB B=cB | "A7"AEA ABc | "D"dAF D2 :|
+
+
+X: 1
+T: Charlie Hunter's Jig
+%T: Charlie Stuart's Jig
+C: Bobby MacLeod
+D: FR200 "Kitchen Junket"
+D: Rounder 7004, Joe Cormier, "The Dances Down Home"
+B: Bobby MacLeod's Selection of Country Dance Tunes
+B: BSFC Tune Book XXVII-13
+B: BSFC Session Tune Book 2016 p.51
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+   A2 \
+| "D"DFA "G"GBd | "D"Adf "A7"a2g | "D"fed "Bm"Bcd | "A7"ecA GFE \
+| "D"DFA "G"GBd | "D"Adf "A7"a2g | "D"fef "A7"gec | "D"edd d :|
+|: fg \
+| "D"afd dcd | "G"BGG G2F | "E7"E^GB efe | "A"cAA Aag \
+| "D"fdA FDF | "G"GBd g2b | "D"fef "A7"gec | "D"edd d2 :|

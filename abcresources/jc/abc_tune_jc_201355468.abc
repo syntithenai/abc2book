@@ -1,0 +1,4535 @@
+X: 0
+T: Caledonian Country Dances
+C: John Johnson, ed.
+O: John Walsh, pub.
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+K:
+%%center CALEDONIAN COUNTRY DANCES
+%%center with a Thorough Bass for the Harpsicord, the (3rd?) Edition, with Aditions
+%%center Printed for I Johnson,
+%%center Musical Instrument Maker
+%%center at ye Harp & Crown in Cheapside London
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1001
+T: Steward's Rant
+P: Longways for as many as will
+C:
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+M: C
+L: 1/8
+K: G
+V: 1
+|: B/c/d e/f/g d2 B2 | cA=fA cA=fA | B/c/d e/f/g d2 B2 | cA (Tfe/f/) g2 G2 :|
+|: BG G/G/G BGBG | AD D/D/D ADAD | BG G/G/G BGBG | AD D/D/D d2 G2 :|
+V: 2 clef=bass middle=d
+|: g2c'2 g4 | d4 d4 | g2c2 G4 | c2d2 GBdg :|
+|: g2G2 g2G2 | d2D2 d2D2 | g2G2 g2G2 | d2D2 G4 :|
+%%begintext align
+The 1st Man foots it to the 2d Wo. and turns her .|
+The 1st Wo. does the same :|
+cross over two Cu. .|.
+Lead up to the top, foot it and cast off :|:
+Foot it Corners and turn .|:
+Foot it the other Corners and turn :||
+Lead out thro' the Man's side and turn, Lead out thro' the Wo. side and turn it out. :||:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1002
+T: Ranting Highland Man
+P: Longways for as many as will
+C:
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: There's an extra beat at the end of each phrase.
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+   d2 | G/G/G dG BAGB | A/A/A =FA =fAAd | G/G/G dG BAGB | A/A/A (fe/f/) gG G2 :|
+|: ef | gd ec BcdB | A/A/A =FA =fA Ae/^f/ | gdec BcdB | A/A/A (Tfe/f/) gG G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z2 | g2b2 g2G2 | d'4 d4 | g2b2g2G2 | d2d2 G2g2 :|
+|: z2 | g2c'2 g2G2 | d'2d2 d3c | B2c2 g2G2 | d2d2 G2g2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Man foots it and casts off, and turns the 3d Wo. and stands in the 2d Man's Place .|
+The 1st Wo. does the same with the 3d Man :|
+Foot it corners and turn :|
+Foot it the other Corners and turn :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1003
+T: Fiddle Faddle
+P: Longways for as many as will
+R: reel
+B: John Walsh "Caledonian Country Dances with a Thorough Bass" p.3
+B: John Walsh "Caledonian Country Dances 3d Edition" p.6-7
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: This is a close relative of the Tail Toddle Reel (see Aird v.2 1785).
+M: C|
+L: 1/8
+K: G
+V: 1
+|: G/G/G BG c2 GE | G/G/G BG A2 FD | G/G/G BG cA BG | A/B/c B/c/d A2 FD :|
+|: c2 GE Ec GE | c2 GE DAFD | c2 GE EC GE | A/B/c/A/ B/c/d/B/ A2 FD :|
+|: G/G/G BG cA BG | G/G/G BG ADFD | G/G/G BG cA BG | A/B/c/A/ B/c/d/B/ A2 FD :|
+|: c2 Ec Ec GE | c2 E/c/B/c/ DA FE/D/ | c2 Ec Ec GE | A/B/c/A/ B/c/d/B/ A2 FD :|
+V: 2 clef=bass middle=d
+|: g2z2 c2z2 | g2z2 f2z2 | g2z2 f2g2 | f2g2 d2D2 :|
+|: e2z2 c2z2 | c2z2 d2z2 | c2z2 c2z2 | f2g2 d2D2 :|
+|: g2z2 f2g2 | g2z2 f2d2 | g2z2 f2g2 | f2g2 d2D2 :|
+|: e2z2 c2z2 | c2z2 d2z2 | c2z2 c2z2 | f2g2 d2D2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1004
+T: Drown Drowth
+R: slip-jig
+P: Longways for as many as will
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: "Each Strain twice." Repeat signs added by jc.
+M: 9/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+   E | D/E/FD BFE D2B, | D/E/FD ECC C2E | D/E/FD BFE D2B, | D/E/FE DB,B, B,2 :|
+|: F | BcB dBg fdB  | A2F A/B/cc c2F | B>cd/e/ fga bag | fbd TdcB B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z | b3 f3 B3 | b3 f3 F3 | b3 B3 b2z | b2f B3 B2 :|
+|: z | b3 B3 b3 | f3 F3 f2e | d2c B2d gfe | d2B f2F B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st and 2d Cu. set all four, and turn single .|
+Then both Cu. Back to Back with their Partners :|
+Then the 1st Cu. cross over and turn and the 2d Cu. cast off and turn .|
+Then Hands all four quite round and each turn their Partners.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1005
+T: the Lads of Leath
+P: Longways for as many as will.
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: "Each Strain twice."  Repeats added to both phrases.
+M: 6/4
+L: 1/4
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B/c/ | ded c2B | ABG ^F2D | GAB cA^F | G3- G2 :||: B/c/ | dBb a2g | (fd)g f2f |
+B>cB fdg | c>dc A>GF | B>cB cBc | d2G ^F>ED | GAB cA^F | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | g3 ^f2g | d2e d2c | BAG d2D | gdB G2 :||: z | b2B f2e | d2e d2B |
+d2B d2e | f3 F3 | g2z a2z | b2c' d'2c' | bag d2D | gdB G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. Ballance, or set twice, and cast down in 2d Cu. Place .|
+Then Ballance again, and cast down below the 3d Cu. :|
+Then lead thro' the 3d Cu. and pass on the outside of the 2d Cu into your own Places .|
+Then right Hand and left, and turn your Partners.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1006
+T: Willey Wilky
+P: Longways for as many as will.
+N: AKA Cobler's Hornpipe
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+d2 |\
+c2F2 ABcA | c2F2 F2d2 | c2F2 ABcA | G2 C4 d2 |\
+c2F2 ABcA | c2F2 ABcA | G4 A3G | F2 D4 :|
+|: c2 |\
+f3g (Tg3f/g/) | a2 F4 c2 | f3g (Tg3f/g/) | a2 G4 de |\
+f2ef g2fg | a2ba g2fe | defd cdcA | F2 D4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+f8 | f8 | F8 | c8 |\
+f8 | f8 | e4 ^c4 | d6 :|
+|: z2 |\
+f4 c4 | f2g2 a2e2 | f4 c4 | f2e2 e2c2 |\
+d2z2 e2z2 | f2z2 e2z2 | d2z2 A2z2 | d6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. foot it and turn single all four Hands with the 2d Cu. and back again
+cross over, Figure in, lead up and then down, and then lead thro the 2d Cu. at top .
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1007
+T: Down the Burn Davie
+P: Longways for as many as will.
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: 2nd part has initial repeat, no final repeat.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+G |\
+D3E (GE)(GA) | {c}B2(AG) G2ga | (ba)(ge) (ge)(dB) | d2(AB) TA3d |\
+(dB)(AG) (DE)(GA) | {c}B2AG g3d | (ef)(gd) (ga)(bd) | (cB)(AG) TG3 :|
+|: b/a/ |\
+g3a (ba)(ge) | (dB)(de) g3G | (AB)(ge) (cB)(AG) | c2Bc A3e |\
+(dB)(AG) (DE)(GA) | {c}B2AG g3d | (ef)(gd) (ga)(bd) | cBAG G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+gabc' b3a | g2d2 B2d2 | G2z2 B2d2 | f2g2 dedc |\
+B2c2 dcBA | G2A2 BABG | c2B2 A2G2 | A2d2 G3  :|
+|: z |\
+gGBd g2c2 | B2zc GABG | c2B2 A4   | afgc dedc |\
+B2c2 dcBA | G2A2 BABG | c2B2 A2G2 | A2d2 G3  |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+Lead up all and back .|
+that again, the 1st Man moves to the 2d Wo. salute her, turn her about, and fall into their own Places,
+the 1st Wo. and 2d Man do the same :|
+The 1st Mand and 2d Wo. go Back to Back, and fall into their own Places,
+the 1st Wo. and 2d Man do as much :|
+The two Men clap Hands, and the two We. then turn all round single,
+then clap Hands with your own, and cast off into the 2d Cu. Place :|
+Do this to the last.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1008
+T: Box and Dice
+T: Boscomb Bucks
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: "The first Strain twice, and the last but once."  (Repeats modified to match.)
+N: The 2nd part has 14 bars.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 4 staffs rather than 2, showing the 4/6/4/4-bar phrasing.
+V: 1
+|:\
+B2 A/B/c/A/ BG Gg | dd de B3 d |\
+BGAF gfed | ^c/d/e Ac d4 :|
+A2 G/A/B/G/ AA2A | B3/c//d// cB B2 A2 |\
+GG Gg GG G2 | AA Aa AA A2 |\
+cc (c/B/)A Bedc | B2A2 G4 |
+^cccc dD DD | cc cB/A/ Bg2g |\
+ac cB/A/ Bedc | B2A2 G4 |
+B2 A/B/c/A/ BGFG | B2 A/B/c/A/ BGFG |\
+Dc cB/A/ Bedc | B2A2 G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout.
+V: 2 clef=bass middle=d
+|: g2d2 G4 | b2g2 g2f2 | g2d2 ed^cB | A2a2 d4 :| d2e2 f2d2 | g2fg d4 | g4 e4 | f4 d4 | e2f2
+ec'ba | g2d'2 g4 | g4 f4 | e2f2 g4 | f2d2 gc'ba | g2d'2 g4 | g2d2 G2z2 | g2d2 G2z2 | f2d2 gcBA | G2B2 G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. sett and cast off, clap Hands and turn sides; the 2d Cu. do the same :|
+Then the 1st Cu. turn the 2d Cu. across, and turn Partners :|
+The 1st Man change Places with the 2d Wo. and the 1st Wo. with the 2d Man.
+Then all four sett and turn single, then right & left half round, then sett and cast off .|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1009
+T: Prince Frederick's Hornpipe
+P: Longways for as many as will
+R: hornpipe, reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c2 |\
+A3G F2A2 | G2FE F2f2 | e2dc d2cB | A3G F2A2 |\
+G2FE F2A2 | G2FE FGAB | c2 B4 A2 | G6 :|
+|: c2 |\
+d2cB ABc2 | F2GA B4 | Bcd2 G2d2 | gab2 e4 | f2 e4 d2- | d2 c4 B2- | B2AB G2FE | F6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+c2 |\
+f4 F4 | c4 A2F2 | c4 d2e2 | f4 F4 |\
+c4 A2F2 | c4 d4 | e4 f4 | c2d2 e2 :|
+|: c2 |\
+B4 f4 | a2f2 edc2 | d4 B2G2 | bag2 c'2c2 |\
+f2c2 d4 | e4 c4 | e2f2 c2C2 | F2c2 f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First Cu. Hey on the contrary sides, then on your own sides,
+and cast off and turn contrary Corners,
+First Cu. whole figure at the bottom, then at the top,
+lead thro' the Man's side and turn in the middle,
+then thro' the Wo. side and turn in the middle.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1010
+T: Lady Tersichens Rant
+T: Lady Terfichens Rant
+N: It's not clear whether that's an f or a short s; both spellings are used in various dance lists.
+R: reel
+P: Longways for as many as will.
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 is reformatted as 4-bar lines/staffs.
+V: 1
+|: EEGE A/A/A AB | EGGB c/c/c ce | dB gB A/A/A AB | EcBA G2D2 :|
+|: gdge agab | gadf g2d2 | gdge agab | gadf g2 (g/a/b) |
+   gegB A/A/A AB | EGGB c/c/c ce | dBgB A/A/A AB | EcBA G2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|: e2e2 a2a2 | e2e2 a2a2 | g2g2 d2d2 | e2e2 d4 :| g2G2
+d2D2 | BcdD G4 | g2G2 d'2B2 | bc'd'd g2G2 | g2G2 d2D2 |
+e2E2 a2A2 | g2G2 d2D2 | e2e2 d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+Foot it cross - ways, first Cu. cross over two Cu. lead up to the top and foot a little, case off
+one Cu. foot it and Back to Back, and right hands and left with the uppermost Cu.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1011
+T: Andrew Kerr
+P: Longways for as many as will
+R: slip-jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: AK/Fiddler's Companion
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: B2d dBG dBG | d2e efg f2A | B2d def efg | D2G GAB A2G :|
+|: g2d dBG dBG | g2e eae f2d | gfe dBd def | g2G GAB A2G :|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: g3 G3 g3 | g3 e3 d3 | g3 f3 e3 | B3 G3 d2G :|
+|: b3 g3 G3 | e3 c3 d3 | e3 B3 d3 | b3 g3 d'2g :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. foot it and cast off one Cu. and turn .|
+foot it and cast off the 3d Cu. and turn :|
+lead up to the top cast off and turn .
+Right hand and Left with the 2d Cu. .|
+the 1st man foot it with the 3d Wo. and turn the 1st Wo.  and 2d man at the same time,
+the 1st man foot it with the 2d Wo. the 1st Wo. the 3d man :|
+Right hand and Left with the 3d Cu. then hands round all six till you come into the 2 Cu. place :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1012
+T: a Trip to the Lawndry
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: A2c2 B2d2 | c2e2 B2d2 | (dc)(BA) G2B2 | d2 TB6 |\
+   A2c2 B2d2 | c2e2 B2d2 |  dc``BA  G2B2 | c2 TA6 :|
+|: e2a2 (ag)(fe) | (fe)(dc) (dc)(BA) | e2a2 Tg2f2 | gab2 e4 |\
+   e2a2 (ag)(fe) | (fe)(dc) (dc)(BA) | cecA BdBG | c2 TA6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: a4 e4 | a4 g4 | a4 e4 | e2ef g2e2 |\
+   a4 e4 | a4 g4 | a2d2 e2E2 | A8 :|
+|: c2A2 B2c2 | d2f2 a2d2 | c2A2 B2d2 | e6 d2 |\
+   c2A2 B2c2 | d2f2 a2d2 | e4 E4 | A8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+Right hands, sideways, half round, set and turn single .|
+First Cu. lead thro' the 3d Cu. and Right Hands again :|
+Hey on the contrary sides and turn Partners .|
+Hey on your own sides and cast off :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1013
+T: Buttered Pease
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: B2 d4 cB | c2 e4 dc | B2 d4  cB | c2 A4 dc |\
+   B2 d4 cB | c2 e4 dc | Bcd2 ABc2 | B2G2 G4 :|
+|: B2 d4 ef | gfga g4  | B2 d4  cB | c2 A4 ef |\
+   B2 d4 ef | gfga g4  | Bcd2 ABc2 | B2G2 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: G4   g4   | a4 f4 | G4   g4   | a4 f4 |\
+   g2f2 e2g2 | a4 f4 | g2B2 c2d2 | G8   :|
+|: g4   f4   | e6 d2 | g4   b4   | a4 d4 |\
+   g4   f4   | e6 f2 | g2B2 c2d2 | G8   :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Man and Wo. set, foot it and turn .|
+the 1st Man does the same with the 2d Wo. as at the same time doth his Partner with the 2d Man .|
+The 1st Cu. cross over below the 3d Cu. .|
+Then slip up the middle to the top, foot it and cast off.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1014
+T: Fairly shot on her
+P: Longways for as many as will.
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/8
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+G4E2 G4E2 | G4B2 B2G2E2 | G4E2 G4E2 | F4A2 A2F2D2 |\
+G4E2 G4E2 | G4B2 B2G2E2 | c3de2 d2B2G2 | F4A2 A2F2D2 |]
+[| dcBAB2 E2c2E2 | G4B2 B2G2E2 | dcBAB2 E2B2E2 |\
+F4A2 A2F2D2 | dcBAB2 E2c2E2 | G4B2 B2G2E2 | c2d2e2 d2B2G2 | F4A2 A2F2D2 |]
+[| d4g2 g2d2B2 | G4B2 B2G2E2 | d2g2f2 g2d2B2 | F4A2 A2F2D2 |\
+d2g2f2 g2d2B2 | G4B2 B2G2B2 | c3de2 d2B2G2 | F4A2 A2F2D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[| e6 E6 | e6 E6 | e6 E6 | d6 D6 | e6 E6 | e6 E6 | e6 g6 | d6 D6 |]
+[| g6 e6 | e6 E6 | g6 e6 | d6 D6 | g6 e6 | e6 E6 | e6 g6 | d6 D6 |]
+[| g6 G6 | e6 E6 | g6 G6 | d6 D6 | g6 G6 | e6 E6 | e6 g6 | d6 D6 |]
+%%begintext align
+The 1st Man foot to the 2d Wo. and turn hands,
+the 1st Wo do the same to the 2d Man, 1st Strain .
+The 1st Cu. cast off and sett again, cast off behind the 3d Cu. and sett,
+then the same to the Top. Second Strain.
+The 1st Cu. go the whole Figure with the 2d Cu. then gallop down and up,
+and cast off in the 3d Cu. Place Third Strain.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1015
+T: Bessy Bell
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+FGA ABc | B>AB G2G | FGA A>BA | f3 g2f/g/ |\
+aAA ABc | BAG g2f/g/ | agf ed^c | d3 f2 :|
+|: f/g/ |\
+afd faf | e^ce efg | afd d>ed | f3 Tg2f/g/ |\
+afd faf | e^ce efg | agf ed^c | d3 f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d3 D3 | g3 G3 | d3 zzd | dAF D2d |\
+d3 D3 | g2d B2G | f2d a2A | dAF D2 :|
+|: z |\
+d'3 d3 | a3 A3 | d2f a2f | d3 e2c |\
+d2f a2d | a3 A3 | fed a2A | dAF D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+Two first Cu. fall back and cross over, and so back again to their Places :|
+cross over and figure in .|
+lead thro' the 3d Cu. cast up and turn hands.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1016
+T: Dusty Miller
+P: Longways for as many as will
+R: minuet
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: B3c d2B2 TA2G2 | F2 A4 c2 B2A2 | B3c d2B2 A2G2 | D2 G4 B2 A2G2 :|
+|: B3c d2e2 f2g2 | a2 A4 c2 TB2 A2 | B3c d2e2 Tf3e/f/ | g3a g2B2 A2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: g4 B4 c4 | d4 f4 d4 | g4 B4 c4 | d4 D4 G4 :|
+|: g4 f4 e4 | d4 f4 d4 | g4 b4 a4 | g4 G8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+Lead thro' the 2d Cu. and on the outside of the 3d Cu. meet and turn .|
+the same up :|
+turn Corners :|
+Foot :|
+and turn :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1017
+T: the King's Arms
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+D>ED AFD | AFD AFD | A>BA d>ef | e>dc/B/ A>GF/E/ |\
+D>ED AFD | AFD AFD | A>BA d>ef | e>de/c/ d3 :|
+|:\
+e>fe e>dc | B>cd/e/ Tc>BA | dAF dAF | G>AG/F/ E2A, |\
+e>fe e>dc | B>cd/e/ Td>cB | fdB ecA | B/c/dB d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d3 D3 | f3 d3 | d'3 d3 | a3 A3 |\
+d3 D3 | f3 d3 | d'3 d3 | a2A d3 :|
+|:\
+A3 a3 | a2^g a2=g | f2a f2d | c2d A2z |\
+a3 A3 | a2^g a3 | f2g a2f | g2a d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Man cast down, the 2d Wo. cast up at the same time, and then cast back again into their own Places :|
+their Partners do the same :|
+the 1st Man figures round the 3d Man.  1st Wo. figures round the 3d Wo. at the same time and turn her Partner in the 3d Cu. Place .|
+the 1st Man figures round the 2d Man. 1st Wo. figures round the 2d Wo. at the same time, and turn at top :|
+1st Man foots it with the 2d Wo. and turns her .|
+1st Wo. does the same with the 2d Man :|
+1st and 2d Cu. goes cross hands half round with their right hands, back with their left and cast off .|
+1st and 2d Cu. right and left quite round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1018
+T: New Way of Wooing
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 is in 4/8-bar staff lines:
+V: 1
+|:\
+F2 A4 de | f4 e2d2 | B4 A2F2 | E4- E4 |\
+F2 A4 de | f4 e2d2 | Bcd2 A2F2 | D8 :|
+|:\
+F2A2 BcdB | F2A2 BcdB | F2A2 BcdB | e2E2 E2E2 |\
+F2A2 BcdB | F2A2 BcdB | F2A2 BcdB | d2D2 D4 |
+F2A2 BcdB | F2A2 BcdB | F2A2 BcdB | e2E2 E2fg |\
+a2gf g2fe | f2ed c2BA | Bcd2 A2F2 | D4- D4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks:
+V: 2 clef=bass middle=d
+|: d'2d2 f2a2 | d'4 a2f2 | g2e2 f2d2 | A8 |\
+d'2d2 f2a2 | d'4 a2f2 | e2g2 a2A2 | d8 :|\
+|: d2f2 g2G2 | d2f2 g2G2 | d2f2 g2G2 | e2d2 c2A2 |\
+d2f2
+g2G2 | d2f2 g2G2 | d2f2 g2G2 | d8 |\
+d2f2 g2G2 | d2f2 g2G2 | d2f2 g2G2 | e2d2 c2A2 |\
+d2f2 e2A2 | d2g2 a2f2 | g2fg a2A2 | d8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. cast off and lead through the 3d .|
+1st Cu. cast off again and lead up to the top :|
+the 1st and 2d Cu. foots it. then clap hands.
+foot it again. clap as before. 1st Cu. cast off.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1019
+T: Lads of Dunce
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B |\
+AFD D>ED | D>ED TB2A | Bcd AFA | BEE Edc |\
+AFD DED | DED TB2A | B/A/B/c/d AFB | ADD D2 :|
+|: e |\
+Tf>ed d2e | f/e/f/g/a TB2A | Bcd AFA | BEE E2e |\
+f>ed d2e | f/e/f/g/a TB2A | B/A/B/c/d AFB | ADD D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d3 g3 | f3 d3 | g3 d'3 | g3 z2z |\
+d3 g3 | f3 d3 | g3 d'2g | a3 d2 :|
+|: z |\
+d'3 d3 | d'3 d3 | g3 d'3 | g3 a3 |\
+d'3 d3 | d'3 d3 | g3 f2g | a3 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+Two Cu. slip down and up footing and cast off by turns :|
+Change over, lead to the Wall, back again and turn Partners .||
+2 Men lead as before .||
+foot Corner Ways and turn :|
+cross over, 2 figure right and left .||
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1020
+T: Hare in the Corn
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Fixed rhythm problems at part ends by adding initial rests in 2nd part.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+G |\
+d3- de=f | edc BAG | c2g B2g | aAA ABc |\
+d3- de=f | edc BAG | cBc Agf | gGG G2 :|
+|: z |\
+dB/c/d/B/ GB/c/d/B/ | dB/c/d/B/ GB/c/d/B/ | cA/B/c/A/ FA/B/c/A/ | cA/B/c/A/ FA/B/c/A/ |\
+dcB edc | fed gfe | dcB Agf | gGG G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g3 G3 | c3 g3 | a3 g3 | f3 e3 |\
+g3 G3 | c3 g3 | e2c d2D | g3 G2 :|
+|: z |\
+g3 z2z | G3 z2z | d3 z2z | D3 z2z |\
+B3 c3 | d3 e3 | f2g d2D | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. cross over, half figure at bottom .|
+the 2d do the same :|
+clap to your Partner, then Sides, and turn Sides till the 1st Cu. is in the 2d Cu. Place .|
+clap Sides, clap to your Partner and turn :|
+lead up with the 2d Cu. and Jigg it, Jigg it and cast off .|
+lead down with the 3d Cu. Jigg it and cast up, 3 Men take hands, cast back to the Wall and Jigg it.
+the Wo. do the same.  meet and turn single. Right hand and Left at top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1021
+T: the Pump Room
+P: Longways for as many as will
+R: march, reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c2 |\
+F2F2 F2F2 | (c2A2) f4 | F2F2 A2GF | EFG2 G4 |\
+F2F2 F2F2 | (c2A2) fedc | =Bcd2 G2=B2 | c6 :|
+|: g2 |\
+c2c2 c2c2 | g2e2 b4 | cdef g2a2 | g2c2 c2f2 |\
+d2c2 f2B2 | B2A2 d2F2 | EFG2 C2E2 | F6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+f2F2 A2F2 | f4 a2f2 | a4 f4 | c2d2 e2c2 |\
+f2F2 A2F2 | f4 a2f2 | g4 G4 | c6 :|
+|: z2 |\
+c'2c2 e2c2 | c2c2 c2c2 | e2c2 e2f2 | e2g2 c'2a2 |\
+b2a2 d'4 | d'2c'2 b2ab | c'4 c4 | f2c2 F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. cast off one Cu. and then another Cu. lead up the middle and set and
+cast off into the 2d Cu. Place. lead your Partner down and then up and turn your
+Partner with both hands, then lead thro' the bottom and top and turn.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1022
+T: Sandy Laddy
+P: Longways for as many as will
+R: reel, march
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+d2 |\
+B2AG A2B2 | c6 e2 | d4 B4 | c2 A4 dc |\
+B2AG A2B2 | c4 c2de | g4 f4 | e2 c4 :|
+|: ef |\
+g4 f4 | e2c2 c2e2 | d4 B4 | c2 A4 dc |\
+B2AG A2B2 | c3d e2c2 | {ef}g4 f4 | e2 c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+g4 f4 | e4 c4 | g4 G4 | d4 D4 |\
+g4 f4 | e4 c4 | g4 G4 | c6 :|
+|: z2 |\
+g4 G4 | c8 | g4 G4 | d8 |\
+g4 f4 | e4 c4 | g4 G4 | c6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Man set to the 2d Wo. turn single .|
+the 1st Wo. and 2d Man do the same, hands round all four and turn single back to back and right hand and left .|
+half round :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1023
+T: the Bonny Boat Man
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: This dance seems to use periods to separate phrases and a colon for the midpoint of the dance/tune.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+EF |\
+G2 (A/B/c) (AG)(FE) | (FE)(DC) G3A | (AB)(cd) (e/f/)g fe | d3e D2EF |\
+G3c (AG)(FE) | (FE)(DC) G3E | F2GA G2cB | c2C2 C2 :|
+|: cB |\
+(AG)(AB) (cd)(ec) | (d/e/f) (fe) d3D | (DE)G2 c>d (e/f/g) | d3e D2(EF) |\
+G2 (A/B/c) (AG)(FE) | (FE)(DC) G3E | F2(GA) (Gc) (B/c/d) | c4 C2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+c2 |\
+c'2a2 b2c'2 | a2f2 e2c2 | f2ed c2C2 | G4 z2c2 |\
+c'2c2 b2c'2 | a2f2 e2c2 | d2ef g2G2 | c'geg c2 :|
+|: e2 |\
+f2d2 e2c2 | d2c2 g2G2 | c4 e2c2 | g2 G4 c2 |\
+c'2a2 b2c'2 | a2f2 e2c2 | d2ef g2G2 | cGEG C2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First Cu meet . sett and turn S . the 1st Wo . cast off into the 2d improper . her
+Partner at the same time follows her and casts off to the 2d improper .  the 2d
+Cu . doing the same : then the two Men hands and lead thro' the We . to the
+same . then all clap . and all hands quite round . the two We . do the same .
+then all clap and hands half round . and turn S .
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1024
+T: Highland Laddy
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: G2G2 B2AG | c4 B4 | A2A2 cdec | A2A2 cdec \
+|  G2G2 B2AG | c4 B4 | G2G2 BcdB | G8 :|
+|: gfed efge | d4 B4 | c2A2 A2fg | a2A2 A2ef \
+|  gfed efge | d4 B4 | G2G2 BcdB | G8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: G4 g4 | a2d2 g2G2 | A4 a2A2 | A4 a2A2 \
+|  G4 g4 | a2f2 g2a2 | b2c'2 d'2d2 | g8 :|
+|: g4 c'4 | b2a2 g2b2 | a8 | A8 \
+|  G4 c4 | B2A2 G2A2 | B2c2 d2D2 | G8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Man set to the 2d Wo. foot it and turn .|
+the 1st Wo. and 2d Man do the same :|
+the 1st Cu. cross over below the 3d Cu. .|
+then slip up the middle to the top. foot it and cast off .
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1025
+T: Mac Foset's Farewell
+P: Longways for as many as will
+R: strathspey
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+C2 |\
+F3GF3A GGG2 G2A2 | F3GF3A D4C4 |\
+F3GF3A GGG2 G2A2 | F2EF GFED C6 :|
+|: c2 |\
+FFF2 c2A2 d2G2G2A2 | FFF2 c2F2 D4 C2c2 |\
+FFF2 c2A2 d2G2G2A2 | F2EF GFED C6 :|
+|: c2 |\
+A2F2B2G2 c2A2d2B2 | F2D2 B2E2 E3DC3c |\
+A2F2B2G2 c2A2d2B2 | F2EF GFED C6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+a4f4 c'4c4 | a4f4 g4c4 |\
+a4f4 c'4c4 | d4g4 c6 :|\
+|: z2 | f4F4 B4G4 |
+F4f4 g4c4 | f4F4 B4G4 | d4g4 c6 :|\
+|: z2 |\
+f4g4 a4b4 | d4g4 c8 | f4g4 a4b4 | d4g4 c6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+Lead up all. 1st Man change Places with the 2d Man and lead out. then lead in.
+the 1st Wo. doing the same :| the Men and We. fall back, then meet and foot it. the
+2d Cu being in the 1st Place, cast off, fall back, and foot it as before. and cast off
+do this to the last.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1026
+T: Let's shak her Weall
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+N: Fixed incorrect length of V:2's final low Gs in both parts.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+g |\
+dG BG ABce | dG BG dG BG |\
+dG BG ABce | dB ge d2 G :|
+|: e/f/ |\
+g/f/e/d/ B/c/d/B/ ABce | g/f/e/d/ B/c/d/B/ g/f/e/d/ B/c/d/B/ |\
+cg Bg ABce | dB ge d2 G |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | g2G2 A2a2 | g2G2 g2G2 | g2G2 A2a2 | g2c2 d2G :|
+|: z | g2G2 A2a2 | g2G2 g2G2 | a2g2 d2c2 | B2c2 d2G |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Man turn his Partner half round and foot it.  then hold both hands and pull
+round the 2d Wo. into the 2d Cu Place. the 2d Cu do the same .| The 1st and 2d Cu.
+take their Partners by both hands.  then one slip up and the other down. and back
+again, then fall back and surn S.  the 2d Cu slip up the middle, and the 1st Cu.
+down. the 1st Cu slip up the middle, and the 2d Cu. down. then the 1st Cu cast off into
+the 2d Cu. Place, and the 2d Cu. lead up.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1027
+T: Hay my Nancie
+P: Longways for as many as will
+R: slip-jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/4
+L: 1/4
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+   g | f2e c/d/eA c/d/eA | f2e c/d/eA Bdg | f2e c/d/eA cdf | gfe dBG Bd :|
+|: g | fga efA    ceg    | fga eaA    Bdg | fga efA    cef | gfe dBG Bd :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z | d2a A3 a3 | d'2a a3 g3 | d2f a3 A3 | g3 A3 g2 :|
+|: z | d3  a3 A3 | d3   a3 g3 | d3  a3 A3 | G3 g3 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Man cast off, his Partner follows him, and then foot it in the 2d Cu. Place .|
+first Man follows his Partner back again, and foot it at the top :|
+first Man foots it with 2d Wo. and turns her .|
+their Partners do the same :#:
+the 1st Cu. back to back, cast off, 1st Cu back to back again, 1st Man cast down, and the 1st Wo. cast up at the same time :|
+the 1st Man turns the 3d Wo. 1st Wo. at the same time turns the 2d Man, and then her Partner with her left hand .|
+and then do the same at the other Corner.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1028
+T: My ain kind Deary
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 is formatted for 4-bar staff lines:
+V: 1
+A |\
+GEDE G2AB | G/A/B TA>G AEEA |\
+GEDE G2Gg | e2d>B dGG :|
+|: g |\
+e/e/e Td>B dGGB | A/A/A B>G AEEA |\
+GEDE G2Gg | e/e/e Td>B dGGg |
+e/e/e gd eBgB | A/A/A B>G AEEA |\
+GEDE G2Gg | e/e/e Td>B dGG :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%: Voice 2 preserves the original staff breaks:
+V: 2 clef=bass middle=d
+z |\
+g2c'2 b2a2 | g2c2 d2c2 | B2c2 Gg/a/ bg | c'2b>a gGG :|\
+|: z | c'2b2 bb/a/ bg | fdgG d2c2 |
+B2c2 Gg/a/ bg | c'2b2 bb/a/ bg |\
+c'2b2 c'2ze | fd gG d2c2 |\
+B2c2 Gg/a/ bg | c'2ba gGG :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. foots it and cast off .|
+1st Cu. foots it in the 2d Cu. Place and lead through the 3d Cu. :|
+1st Man foots it with the 3d Wo. and turns her, his Partner doing the same at the same time with the 2d Man .|
+The 1st Cu. does the same at the other Corners :#:
+First and 2d Cu. hands across quite round with their Right Hands and foot it .|
+then do the same back again with your left hands :|
+First Cu. foots it and turns .|
+1st and 2d Cu. Right and Left quite round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1029
+T: Huzza
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+defg a2a2 | b2a2 a4 | b4 a2g2 | agfe d4 |\
+defg f2A2 | ABcd c2F2 | FGA2 ABc2 | A2G2 F4 :|
+|:\
+FGAB c2F2 | EFG2 G4 | B4 A2D2 | ^CDE2 E4 |\
+A=B^cd e2G2 | F2de f2A2 | G2ba gfed | e2d^c d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d'2de f2d2 | g2fe f2d2 | g4 f2e2 | d4 D4 |\
+d4 z2f2 | f4 z2f2 | f4 F4 | c2C2 F4 :|
+|:\
+F2FG A2B2 | c4 c4 | ^c4 d4 | A4 A4 |\
+a4 ^c4 | d4 z2f2 | g4 b2g2 | a2A2 d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. foots it and turns .|
+First Cu. cross over and half figure at Top :|
+The 1st Man goes round the 3d Man on the Right hand side,
+1st Wo. does the same at the same time round the 2d Wo.
+1st Cu. turns in the 2d Cu. Place .|
+the 1st Man figures round the 3d Wo.
+1st Wo at the same Time figures round the 2d Man,
+and turn again in the 2d Cu. Place.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1030
+T: Bonny Lass
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+c2g gfe | d2e f3 | edc cde | dec dBG |\
+c2g gfe | d2e f>gf | edc f2e | dBG c3 :|
+|:\
+B2c dBG | B2c d2e/f/ | gec gec | gec gec |\
+B2c dBG | B2c d2e/f/ | gec f2e | dBG c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+e3 c3 | g3 G3 | c3 e3 | f2a g3 |\
+e3 c3 | g3 G3 | c3 d2c | g2G c3 :|
+|:\
+g3 G3 | g3 G3 | c'3 c3 | c'3 c3 |\
+g3 G3 | g3 G3 | c3 d2c | g2G c3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The two 1st Men dance round Partners. 1st Man lead his Partner thro' the 2d Cu.
+the two 1st We. figure round the Men. then 1st Wo. lead her Partner thro' .|
+the 1st Man sett to the 2d Wo. and turn single. the 1st Wo. sett to the 2d Man. 1st Cu cast off .|
+Man takes his Partner and draws her quite round 3d Cu. and round 2d :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1031
+T: Black as a Cole
+P: Longways for as many as will
+R: slip-jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: "Each Strain twice." Fixed repeats accordingly.
+M: 9/8
+L: 1/8
+K: Dmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: DEF DEF A,3 | DEF DEF G2E | DEF DEF A,2A, | efe e2G TF2E :|
+|: df/g/a/f/ df/g/a/f/ d2A | df/g/a/f/ df/g/a/f/ g2e | df/g/a/f/ df/g/a/f/ d2A | efe eEG TF2E :|
+|: afd dBG AFD | afd def g2e | afd dBG AFD | efe e2G TF2E :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: d3 d3 A3 | d3 d3 e3 | d3 d3 A3 | c3 a3 d2A :|
+|: d3 D3 d3 | d3 d3 e3 | d3 D3 d3 | c3 a3 d2A :|
+|: d3 D3 d3 | d3 d3 e3 | d3 D3 d3 | c3 a3 d2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. turn sett and cast down .|
+then turn sett and cast up again :|
+the 1st Man takes hands with the 3d Cu.
+the 1st Wo takes hands with the 2d cu and turn 'em half round. then turn his Partner .|
+the 1st Man turn the 2d Cu. the 1st Wo. the 3d Cu. half round and turn Partners. :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1032
+T: St. James's Bason
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+N: In bar 13, the original has gfg, unlike bar 9 which has geg.
+M: 6/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+C2C DEF | G2c B2A | A2A Bcd | e2a ^g2e |\
+C2C DEF | G2c B2G | cBA GEG | A/B/cE TD2C :|
+|:\
+cg2 geg | B2c dBG | cg2 gfg | c2a ^g2e |\
+cg2 gfg | B2c dBG | A/B/cA GEG | A/B/cE TD2C |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+c3 g3 | b2a g3 | f3 d3 | c2A e3 |\
+c3 e3 | b2a g3 | e2f e2c | f2d g2c :|
+|:\
+e3 c3 | g3 G3 | e3 c3 | A3 e3 |\
+e3 c3 | g3 G3 | f3 c3 | f2d g2c |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center A double Dance
+%%begintext align
+The 1st Cu. gallop down the middle and up to the Top and cast off .|
+the 2d Cu. do the same :|
+the 1st Man turn the 3d Wo. and 1st Wo. the 2d Man and turn Partners .|
+the 1st Man turn the 2d Wo. and 1st Wo. 3d Man and turn Partners :#:
+the 1st Man and 2d Wo. foot it and turn .|
+1st Wo. and 2d Man do the same :|
+the 1st Cu. cross over and figure in .|
+then right and left.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1033
+T: Ross Meor
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: "Each Strain twice."  Repeats corrected to match this instruction.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 arranges the tune as 4/8/12-line lines/staffs.
+V: 1
+|:\
+G4 B4 | G2d2 B2AG | F4 A4 | F2c2 A2GF |\
+G4 B4 | A2d2 B2AG | B2AG A2F2 | G8 :|
+|:\
+B3A GABc | Td6 g2 | Td6 g2 | Td6 gf |\
+g2d2 d2ef | g2d2 d2ef | g2d2 edcB | A6 D2 |\
+FGA2 F2D2 | FGA2 F2ED | B2AG A2F2 | G8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+g4 G4 | g4 G4 | d4 D4 | d4 D4 |\
+g4 G4 | g4 G4 | g2c'2 d'2d2 | g2d2 B2G2 :|\
+|:\
+g4 G4 | g2d2 B2G2 |
+g2d2 B2G2 | g2d2 B2d2 |\
+g4 b2c'2 | g4 b2c'2 | b2g2 c'4 | d'2a2 f2d2 |\
+d4 z4 | d4 z4 | g2c2 d2D2 | g2d2 B2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+The 1st and 2d Men lead thro' the two We. the We. lead thro' the Men. and all turn S. .|
+the 1st Cu. whole figure thro' the 2d Cu. and sett and cast off :|
+cross over round 3d Cu. Lead thro' the 3d Cu. and thro' the 2d Cu. right and left with the 3d Cu :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1034
+T: Silly old Man
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+C/D/ | F2F Ffd | cAF G2F | GAc d2g | FAF fed | cAF GAc | AGF D2 :|
+|: f | fcf f>gf | e>dc dcd | f>ga/b/ Tg2f | f>ga gaf | e>dc def | cAF TG2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | f3 a2b | f3 e2f | c3 B3 | F3 B3 | d3 c3 | d3 D2 :|
+|: z | a3 g3 | c3 b3 | a2f c'2f | a2f e2d | c3 B3 | F3 c2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Man and 2d Wo. clap hands with each other and turn single, then right and left half round .|
+the other Cu. do the same :|
+then cross over and half figure .|
+then lead thro' the Bottom and thro' the top, cast off and turn :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1035
+T: Scotch Contention
+P: Longways for as many as will.
+C:
+R: strathspey, hornpipe
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Rhythms corrected in the last bars of the bass voice; all were d4.
+N: A few long beams broken, to match modern beaming practice and improve readability.
+M: 2/4
+L: 1/8
+K: D
+V: 1
+f | d>ef>g | d>BA>d | B>de>g | E/E/E E>g | d>ef>g | d>BA>d | B.e A>F | D/D/DD |]
+B | A>DA>F | A>DA>F | B>EB>G | c>EB>G | A>DA>F | (AB)(df) | (dB)(AF) | D/D/DD |]
+e | a>ba>f | a>ba>f | (ge)(be) | (ge)(be) | a>ba>f | a>ba>f | g>ea>f | d/d/dd |]
+V: 2 clef=bass middle=d
+z | d'2 d2 | g2 f2 | g2 e2 | e4 | f2 d2 | g2 f2 | g2 f>a | d3 |]
+z | d2 z2 | d2 z2 | g2 z2 | a2 g2 |f2 d2 | D4 | e2 ea | d3 |]
+z | f2 a2 | d'2 d2 | e2 g2 | e2 g2 | f2 a2 | d'2 d2 | e2 fa | d3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. lead thro' the 2d Cu. and cast up again then the 1st Wo. turn the 2d Man
+then cross over below the 2d Cu. then below the 3d Cu. and lead thro' both Cu. and
+cast off, then the We. fall back and the Men follow them and turn single then the
+Men fall back and the We. follow them and turn single.  clap hands side then all
+four single, then clap hands, and turn round and cast off.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1036
+T: Walley Honey
+P: Longways for as many as will
+R: slip-jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Beginning and ending lengths adjusted to correct rhythms.
+M: 9/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+   z | cGG G2G cAA | cGG G2G c3 | cGG G2G cAA | B2c d/e/fd c2 :|
+|: e | de/f/g G2c AFe | de/f/g G2G f2e | de/f/g G2c AFc | B2c d/e/fd c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z  | c'3 g3 f3 | e2f g2G c3 | c'3 b3 a3 | g2a f2g c2 :|
+|: c' | b2g e2a f2c | B2g e2c d2c | B2g e2a f2e | d2c g2G c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Man sett to the 2d Wo. and turns her .|
+1st Wo. does the same with the 2d Man :|
+the 1st and 2d Men lead out, 1st and 2d We. do the same at the same Time and then turn your Partner .|
+the 1st and 2d Cu. right and left half round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1037
+T: Hambleton's Rant
+P: Longways for as many as will
+R: strathspey
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Long beams broken to improve readability.
+M: C|
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+GGG2 Bcd2 B3A G3A | A3G F2f2  A3G F2A2 |\
+GGG2 Bcd2 B3A G3c | A2F2 c2A2 G4 d4 |]
+[|\
+B2d2 def2 g2d2 BcdB | g2d2 Bcd2 f2c2 ABc2 |\
+B2d2 d2ef gfed edcB | cBAG A2F2 | G4 d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[| g8 G8 | d8 d'8 | g8 G8 | d4D4 G8 |]
+[| g4z4 G4z4 | g4z4 d4z4 | g4z4 b4c'4 | a2c'2d'2d2 G8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The two Men take Hands and fall back, then meet their Partners and turn
+single, the two We. doing the like, afterwards all four take hands and go
+half round and turn single, then half round and back again, then the double
+figure, and the 1st Cu. lead down the middle.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1038
+T: the Berks of Abergelde
+P: Longways for &c.
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+F3G A2c2 f4 e2d2 | f4 e2d2 efg2 c2c2 |\
+F3G A2c2 f3g a2g2 | f2d2c2A2 GGG2 d4 :|
+|:\
+F3G A2B2 c2F2 ABcA | c2F2 ABcA dcBA G2d2 |\
+F3G A2c2 f3g a2g2 | f2d2 c2A2 GGG2 d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+f4 F4 A4 B4 | A4 B4 c4 c'4 |\
+f4 F4 A4 c4 | d4 A4 G8 :|
+|:\
+f4 z4 F4 z4 | f4 z4 B4 G4 |\
+F4 f4 A4 c4 | d4 A4 G8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu foot it cast off and turn .|
+1st Cu. foots it again cast up and turn :|
+the 1st ?? 2d Cu. hands across quite round with their right hands .|
+Back again with their left hands :#:
+1st Man foots it with the 2d Wo. and turns her .|
+their Partners do the same :|
+the 1st Cu. cross over and half figure at top .|
+First and 2d Cu. right and left quite round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1039
+T: Tweedside
+P: Longways for as many as will
+R: minuet
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: This tune has 3-bar phrases.
+M: 3/4
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+cB |\
+A2 E2 F2 | A3 B (A/B/)c | B4 cB |\
+A2 E2 F2 | A3 B cB | A4 |]
+cd |\
+e2 (dc)(BA) | e2 (fe)(dc) | B4 cd |\
+e2 c2 A2 | AGABcd | e4 (f/g/a) |
+e2 (dc)(BA) | f2 (ed)(cd) | B4 AB |\
+c2 (dc)(BA) | d2 B3 A | A4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+a2 |\
+c4 d2 | c2 d2 A2 | e4 a2 |\
+c4 d2 | c2 d2 e2 | A4 |] a2 |\
+c2 e2 a2 | c2 d2 A2 | e4 a2 |\
+c2 e2 a2 |
+d4 cB | A4 d2 |\
+c2 e2 a2 | d2 A2 a2 | e2E2 cB |\
+A2 a2 c2 | B2 e2 E2 | A4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First Man dance the Minuet Step with the 2d Wo .|
+right and left with the 3d Cu. :|
+then the 1st Man turn the 3d Wo. and the 1st Wo. with the 2d Man and then his own Partner .|
+then the 1st Man turn the 2d Wo. and the 1st Wo. the 3d Man and turn Partners :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1040
+T: Scornfull Nancy
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: 2nd part has initial repeat but no final repeat.
+M: C
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+G2 |\
+G3A G2(FE) | (FE)(DC) A3c | G3A (GA)(GE) | G4 c2(cd) |\
+(ed)(cA) (cA)(GE) | (FE)(DC) A3c | G3A (GA)(cE) | TG3A c2 :|
+|: GA |\
+c2e2 e2(de) | (fe)(dc) A2(GA) | c3d (ed)(ec) | (f3g/)a/ g3a |\
+(ga)(gf) e2(de) | (fe)(dc) A3g | (e/f/g) G2 (GA)(GE) | G4 c2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+cdef e2c2 | d3e defd | e2f2 e2A2 | G2gf e2ed |\
+c2a2 f2c2 | d3e fgaf | g4 G4 | c4 c2 :|
+|: z2 |\
+c4 c'2b2 | a2f2 d2e2 | A2B2 c4 | d2e2 e2f2 |\
+e2d2 c2Bc |  d3e fedg | c2e2 g2G2 | c4 c2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First and 2d Men side to their Partners once. go Back to Back .|
+then 1st Man side to the 2d Man and the 1st Wo. to the 2d Wo. at the same time. and go back to back :|
+then turn sides, and turn your Partner in the 2d Place .|
+then go the whole figure with the 2d Cu. :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1041
+T: soldier Ladie
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Should the title be "Soldier Laddie"?
+M: 6/8
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+gd |\
+B3AG2 G2D2E2 | A3BA2 A2B2d2 | efg2G2 G2D2E2 | G3AG2 B4G2 |\
+c2dcBA B2cBAG | A3BA2 A2B2d2 | efg2G2 G2D2E2 | G3AG2 G4 :|
+|:ef |\
+g3ag2 g2d2B2 | a3ba2 a4g2 | efg2g2 g2d2B2 | g2agfe g2d2B2 |\
+cBcdef g3fg2 | a2A2A2 A2B2d2 | efg2G2 G2D2E2 | G3AG2 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+g6 G6 | f6 d6 | c4B2 B4A2 | G6 g6 |\
+a2f2d2 g2e2c2 | f6 d6 | c4B2 B4A2 | G6 G4 :|
+|: z2 |\
+G4A2 B4g2 | f4e2 f4g2 | c4B2 B4g2 | g2c2d2 G4g2 |\
+a4g2 b2a2g2 | f6 d6 | c4B2 B4A2 | G6 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Man heys with the 3d Cu. his Partner and the same time heys with the 2d Cu. .|
+then the 1st Man heys with the 2d Cu 1st Wo. at the same time heys with the 3d C4. :|
+1st Cu leads thro' the 2d and 3d We. and turn in the 2d Cu. Place .|
+1st Cu leads thro' the 2d and 3d Men and turns at top. the 1st Cu. Back to Back and caast off and turn .|
+the 2d Cu. does the same :|
+1st Man leads the 2d Wo. off & turns her 1st Wo. leads the 2d Man off and turns him, 1st Man cast off at the same time.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1042
+T: Gallaway Tom
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: 2nd part has initial repeat but no final repeat.
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+G |\
+cde ede | cAA A2G | cde cde | fdd d2G |\
+cde ede | cAA A2c | GAG AcA | cde d2 :|
+|: e |\
+gag ede | cAA A2a | gag ede | fed d2g |\
+agf edc | AAA A2c | GAG AcA | cde d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+e3 c3 | f3- f2z | e3 c3 | g3- g2f |\
+e3 c3 | f3 F3 | e3 f3 | e2c g2 :|
+|: z |\
+e3 c3 | f3 F3 | e3 d3 | g3- g2e |\
+f3 c2z | f3 F3 | e3 f3 | e2c g2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First Man turn his Partner round and foot it, clap hands twice and cast off in 2d Cu. Place .|
+then do the same and case off into 3d Cu. Place :|
+lead thro' the 3d Cu. and turn single, then lead thro' the 2d Cu. turn single and sett .|
+1st Cu. take hands and slip one step down and one back again then cast off and turn :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1043
+T: Border Reel
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: "Each Strain twice." Repeats corrected to match this instruction.
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+cAA eAA | cAA e2c | dBB fBB | dBB f2e |\
+cAA eAA | cAA e2c | d2e fga | edc TB2A :|
+|:\
+cAA f/g/a/g/f/e/ | cAA e2c | d2B f/g/a/g/f/e/ | dBB f2e |\
+cAA f/g/a/g/f/e/ | cAA e2c | d2e fga | edc B2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+a3 A3 | a3 a3 | b3 B3 | b3 B2g |\
+a3 A3 | a3 A3 | f2e d2c | cBA e2A :|
+|:\
+a3 A3 | a3 A3 | b3 B3 | b3 b2g |\
+a3 A3 | a3 A3 | f2e d2c | cBA e2A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The two 1st Men whole figure round their Partners,
+then the 1st Man lead hist Partner thro' the 2d Cu.
+the two 1st We. figure round the Men and the Wo lead her Partner thro :|
+the 1st Man sett to the 2d Wo and turn single.
+the 1st Wo. sett to the 2d Man, and 1st Cu. cast off.
+the 1st Man takes his Partner by both hands and draws her quite round the 3d Cu. and round the 2d Cu. :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1044
+T: Sulters of Selkerks
+P: Longways for &c.
+R: minuet, waltz
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: This tune has 3- and 6-bar phrases.
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+Bc d2 e2 | d2 B2 g2 | (ed)(cB)(AG) | Bc d2 e2 |\
+d2 B2 g2 | Tf4 A2 | Bc d2 e2 | d2B2g2 |\
+(ed)(cB)(AG) | c3 d e2 | d2 B2 g2 | Tf4 A2 :|
+|:\
+g2 G2 B2 | g2 f2 e2 | d2 B2 G2 | g2 G2 B2 |\
+{ef}g2 Tf2 e2 | Tf4 A2 | g2 G2 B2 | g2 f2 e2 |\
+d2 g2 B2 | c3 e (c/d/)e | d2 B2 g2 | Tf4 A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+ga b2 c'2 | b2 g2 b2 | c'2 e'2 c'2 | ga b2 c'2 |\
+b2 g2 c'2 | d'2 defd | ga b2 c'2 | b2 g2 b2 |\
+c'2 e'2 c'2 | a2 f2 d2 | g4 G2 | d6 :|
+|:\
+G4 gf | e2 d2 c2 | B4 c2 | G4 gf |\
+e2 d2 c2 | dedcBA | G4 gf | e2 d2 c2 |\
+B4 g2 | a2 f2 d2 | g4 G2 | d6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. lead off behind the 2d Cu. and go the figure of 8 till they come to
+their own Places. then 2d Cu cast up, and go the figure till they come in their
+own Places. The two Men take hands and lead thro' and then go about their
+own Partners into their own Places. the 1st Cu. take Hands and lead thro'
+below the 2d Cu. and cast up again. the two We. lead thro between the two
+Men. then the 1st Cu cast below 2d Cu. lead thro' and cast off again.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1045
+T: the Reel of Glames
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: "Each Strain twice." Repeats changed to match this instruction.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: GdBd A/A/A ce | GdBd GdBd | c>dB>c A/A/A ce | dcBA GABd :|
+|: G/G/G gG AB c>e | G/G/G gG G/G/G gG | G/G/G gG ABce | dcBA GABd :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: g2G2 d2c2 | g2G2 g2G2 | a2g2 d2c2 | G2d2 G4 :|
+|: g2G2 d2c2 | B2G2 g2G2 | g2e2 d2c2 | G2d2 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+The 1st Man turns the 2d Wo. and fall back and turn S. then 1st Wo. sett to
+the 2d Man and fall back and turn S. the 1st Man change Places with the 2d Wo
+then 1st Wo. change Places with the 2d Man. then all four meet and turn S.
+then the 1st Cu. being in the 2d Cu. Place, lead thro' and cast off :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1046
+T: Musselborough, or
+T: Jenny bang the Weaver
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: "Each Strain twice." Repeats changed to match this instruction.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+g2 |: fA A/A/A A/A/A Ag | fA A/A/A f2ed | fB B/B/B B/B/B Bd | ABde f2ed :|
+|: d>ef>d e>fg>e | d>ef>a e2dB | d>ef>d e>fg>e | f/g/a Af f2ed :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |: d2z2 A2c2 | d2c2 d2z2 | B2z2 G2B2 | cBA2 d2z2 :|
+|: d2z2 A2Bc | d2z2 c2B2 | z2d2 A2Bc | d2z2 D2z2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+The 1st Man and 2d Wo. take Hands and swing .|
+Then the 2d Cu. being at top they do the same :|
+then 1st Cu. lead down to the bottom and cast up to the top and turn .|
+then Right and Left.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1047
+T: Larry Grogan
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Should the parts be repeated?
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c |\
+BGB BGB | AFA AFA | (B/c/d)B AFD | GGG G2 |]\
+=f3 edc | Bcd dBG |
+=f3 efg | AcA AcA |\
+=f3 edc | Bcd dBG | (B/c/d)B AFD | GGG G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g3 G3 | d3 f3 | g3 d3 | G3 zz  |]\
+A2B c3 | G3 g2B |
+A2B cde | f3 d3 |\
+A2B c2e | g3 B3 | G3 d3 | G3 zzz |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Man take his own Wo. and the 2d Wo by their hands and to round 'till
+they come into their own Places, the 2d Man standing still, then the 1st Man &
+Wo with the 2d Man do the same the 2d Wo standing still, then fall back and turn
+then the two Men back to back, and the two We. back to back at the same time,
+then the 1st Cu. clap hands and cast off, the two Men clap hands on their side
+and the two We. clap hands on the other side; and so on to the next.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1048
+T: the Gallant Enterprize
+P: Longways for &c.
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+N: The 2nd part has 11 bars.
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 is reformatted to get 3 reasonable staff lengths.
+V: 1
+A |\
+FDBB BA2A | dGGG G/F/E Ff- | fe2d ^cd/e/ GF/E/ | FdE^c d3 :|
+|: f |\
+eAd=B ^cA2G | ^FAdA BG2F | EGcG Af2A | Bg2B ca2c | dgce f3a |
+^fd2c'2 b/a/ bg | ec2b2 a/g/ af | dB2g2 f/e/ fe | dbad ^c3A | BG2e ^cA2a | ^cdec d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z |\
+d2g2 ^c2d2 | =B2^c2 defd | Gc FB AA=B^c | dFGA D3 :: d |\
+a2fg aAcA | d2^f2 gGBG | c2e2
+f2F2 |\
+g2G2 a2A2 | b2c'2 f_edc | d2Bc d2G2 | c2AB c2F2 |\
+B2G2 A2dc | B2zB Aafd | gb/a/ gg agfd | a2A2 d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+First Cu. sett and hey on the contrary sides, then on your own sides and cast
+off and turn contrary Corners, 1st Cu. whole figure at the bottom then at top, lead
+thro' the Man's side and turn in the middle then thro' the We side & turn in the middle.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1049
+T: the Cleaver Lad, or
+T: Gin I was a bonny Lad
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: c>BAg f/g/a e>c | d>fe>d B/B/B B>e | c>BAa g/a/b e>c | d>fe>c A/A/A A2 :|
+|: cA eA fA eA | df ec B/B/B Be | cA eA aA ec | df ec A/A/A A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: ABcA d2cA | AdcA e2G2 | ABcd edcA | BdcA a2A2 :|
+|: A2c2 d2c2 | BdcA e2G2 | A2c2 d2c2 | BdcB a2A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+The 1st Man turns the 2d Wo. and fall back and turn S. then 1st Wo.
+sett to the 2d Man and fall back and turn S. the 1st Man change Places with
+the 2d Wo. then 1st Wo. change Places with the 2d Man. then all four meet & turn
+S. then the 1st Cu. being in the 2d Cu Place, lead thro' and cast off.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1050
+T: Camargo
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+GFGA B4 | AGAB c4 | BABc d2e2 | d2c2B2A2 |\
+GFGA B4 | AGAB c4 | BABc d2G2 | A2GF G4 |]
+d2d2 g2fe | dcBA B2G2 | d2d2 g2e2 | dcBA B4 |\
+c2B2 e2d2 | c2B2 A2G2 | c2B2 e2d2 | c2B2 A4 |
+GFGA B4 | AGAB c4 | BABc d2e2 | d2c2B2A2 |\
+GFGA B4 | AGAB c4 | BABc d2G2 | A2GF G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+g4 z2G2 | d4 e2f2 | g4 z2c2 | B2A2G2d2 |\
+g4 z2G2 | d4 e2f2 | g4 B4 | c2d2 G4 |]\
+G4 z2A2 | B2d2 g4 | G4 z2A2 |
+B2d2 g2G2 |\
+A2B2c2B2 | A2G2 d2e2 | A2B2c2B2 | A2G2 d2f2 |\
+g4 z2G2 | d4 e2g2 | f4 z2c2 | B2A2G2d2 |\
+g4 z2G2 | d4 e2f2 | g4 B4 | c2d2 G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First Man foot it to the 2d Wo. 1st Wo foot it to the 2d Man, 1st Cu.
+cross over and half figure, lead thro' the 3d Cu. and cast up, lead thro'
+the 2d Cu. and cast off and turn your Partner.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1051
+T: King of Damascus Reel
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 is formatted for 4-bar staff lines.
+V: 1
+g |\
+G/G/G Bc eAAg | G/G/G BG dG BG | cdBd eAAg | G/G/G GE E2 G |]
+e/f/ |\
+gage agab | gage gage | gage agab | gage g2b2 |
+G/G/G Bc eAAg | G/G/G BG dG BG | cdBd eA Ag | G/G/G GE G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z | G2zB c2zc | B2G2 z2g2 | efgB c2zB | c2zc dDG |] z | c2z2 c2z2 | c2z2 c2z2 |
+c2z2 c2z2 | c2z2 B2gG | z2GB c2zc | B2G2 z2g2 | efgB c2zB | c2zc G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Man Jump to the 2d Wo. and turn her .|
+The 2d Man do the same to the 1st Wo. :|
+Then Hands all four across, and go round and turn all four single .|
+Then Right and Left and turn your Partners :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1052
+T: Hobson's Choice
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+N: The last note in both parts was missing its dot.
+M: 6/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+FGF B2F | B2c d2c | A2F A2F | c2F c2F |\
+def gfe | dcB A2F | Ggf =ecf | f2=e f3 :|
+|:\
+efe g2e | ded f2d | cdc edc | dcB AGF |\
+FGF B2F | B2c d2g | fed c2B | B3- B3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+z2z zzf | d2c B2e | f3 d3 | A3 B3 |\
+zcd edc | BAG F2A | B3 c2A | B2c F3 :|
+|:\
+c3 edc | B3 dcB | A2A G2A | BAG F3 |\
+z2z zzf | d2c B2e | d2e f3 | B3- B3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+First Man cast off in the 2d Wo. Place, she crossing over at the same time into
+his Place. The 1st Cu. run the figure thro' the 2d Hands all four a quarter
+round. 2d Cu. cast off and lead up the Middle, the 1st Cu casting down and
+Left till they come into their own Places then sett and cast off.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1053
+T: the Hermitage
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+N: The c pickup for the 2nd phrase's bass is a bit odd, since the harmony is a G chord; d is better.
+N: Added "editorial" sharp to bass g note in bar 10.
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c |\
+B>AB GAB | cGF EFG | cGF DEF | GFG Cdc |\
+B>AB GAB | cGE AFD | GEA DG^F | G3- G2 :|
+|: d/c/ |\
+Bcd GAB | cde ^GEB | cBA BA^G | A3- A2c/B/ |\
+cGE AFD | GEG AFA | BAB GAB | c3- c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+c |\
+g3- g2f | e2d c3 | zgf def | gfg c2c |\
+g3- g2f | e3 f3 | e2c d3 | G2A B2 :|
+|: c |\
+g3 zzg | cBA e2"^#"g | a2c d2e | A2a/_b/ agf |\
+e3 f3 | e3 f3 | g3 G3 | c2d e2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+First Man take the 2d Wo. by the Right Hand and lead between the 2d Man
+and 1st Wo. cast off in their Places, and turn the 1st Cu. run the figure between the 2d
+turn your own, 1st Man standing in his own Place, 1st Man and 2d Wo cross
+and go round. 1st Man round his Wo. in his own Place & 2d Wo. round her Man
+in her Place. Hands half round, 2d Man cross over with 1st Wo. then turn their own & cast off.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1054
+T: Aldersgate Bars
+P: Longways for as many as will
+R: minuet
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: 3/2
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: dcBA BcBA G2GA | B2AB cBAG ^F2A2 | dcBA BcBA G2A2 | BABc d2^f2 g4 :|
+|: bagf gdcB edcB | A2gf edcB A2^F2 | dcBA BcBA Gg^fa | gdcB ABcA B2G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: G4 g4 B2A2 | G4 c4 d4 | z4 G4 B2A2 | G4 B2d2 G4 :|
+|: d4 e4 c4 | d4 c4 d4 | B4 G4 e4 | B4 c2d2 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+The 1st Cu. lead forward and take hands across and go half round .|,
+then the same back again :|
+The 1st and 2d Cu double figure and turn the 1st & 2d Man casting down into the 2d Wo. Place .|
+then the two We. do the same on the Men's side :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1055
+T: the Major
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: B2G GBG | dBG ABc | B2G GBG   | cAF ABc :|
+|: B2d ded | efg gfg | B2d de=f  | e2A ABc :|
+|: BAG g3  | dBG ABc | BAG =fe=f | cAF ABc :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: G3 z2z | G3 d3 | g3 B3 | A3 d3 :|
+|: G3 B3  | c3 B3 | G3 B3 | c3 d3 :|
+|: g3 BAG | g3 f3 | g3 B3 | A3 d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+The 1st Cu. lead thro' cast up and cast off .|
+Then lead thro' the 3d Cu. and cast up and cast off :|
+Then the 1st Cu. lead thro' the Top .|
+Turn your Partner in the 2d Cu. Place :|
+then the 1st Man set to the 2d Wo. and turn single, then the 1st Wo. and 2d Man the same .|
+Back to Back and turn your Partner :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1056
+T: Jack Latine
+P: Longways for as many as will
+R: Rreel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[| GABc d2g2 d2B4g2 | d2B4g2 d4B4 | GABc d2g2 d2B4cd | e2A4B2 c4 dcBA |]
+[| GABc d2B2 e2c2 d2B2 | GABc d2B2 d4 B4 | GABc d2B2 e2c2 d2B2 | c2A4B2 c4 dcBA |]
+[| g2d2 BcdB g2d2 BcdB | g2d2 BcdB d4 B4 | g2d2 BcdB g2d2 BcdB | a2A4B2 c4 dcBA |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[| g4 z4 z4 G4 | g4 G4 g4 z2G2 | g4 z4 B4 G2B2 | c2e2f2g2 e4 d4 |]
+[| G4 B4 c2A2B2G2 | z2G2 B4 G4 z2G2 | z2G2 B2G2 c2A2B2G2 | A2a2f2g2 a4 f2d2 |]
+[| z4 g4 z4 g4 | z4 G4 z2G2 g2G2 | z4 G4 z4 g4 | z2a2 f2g2 a4 f2d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. meet, set their Hands to their sides, and foot it and turn hands round .|
+The two Men and two We. do the same :|
+the 1st Cu. cross over and turn hands .|
+the 2d Cu. do the same :|
+All four foot it then take hands & gallop round .|
+Foot it again then Right & Left till 1st Cu. are in the 2d Cu. Place :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1057
+T: Kate
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+N: 6-bar phrases.
+M: 6/8
+L:1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B/c/ | d2A FDD | FDD B/c/d/c/B/A/ | GEE eEE | d2A FDD | FDD E2e | e>fd c2 :|
+|: A | d2e f/g/a/g/f/e/ | d2A d2g | f/g/a/g/f/a/ gec | d2g f/g/a/g/f/e/ | d2c B2e | e>fd c2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z | d3 z2z | d3  g3  | e3 c3 | B2c d3-| d3 G3 | A3 a2 :|
+|: z | f2e d3 | f2a f2e | d3 e3 | f2e d3 | F3 G3 | A3 a2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+The 1st Man foot it to 2d Wo. and turn Hands .|
+1st Wo. do the same to 2d Man :|
+1st Cu. cast off & set again, cast off behind the 3d Cu. & set; then the same to the Top .|
+the 1st Cu go the whole figure with the 2d Cu. then down and up and cast off in the 3d Cu. Place.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1058
+T: a Trip to Short's
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+D |\
+G2A BAG | d2c Bcd | e2E d2D | cAD B2c |\
+dcB edc | fed gfe | d^cd AGA | D3- D2 |]
+d |\
+dcB cBA | e2E E2B | cde EFG | ABc F2A |\
+d2c Bcd | efg f2e | gdg A2G | G3- G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | G3 g3 | f3 g3 | c3 B2G | F3 G2A |\
+B3 c3 | d3 e3 | a2b a2A | d3- d2 |]
+z |\
+G3 A2B | c3 ^G3 | A3- A2B | c2A d2e |\
+f3 g3 | c2A d2c | B2e d2D | G3- G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. gallop down the Middle and up to the top and cast off & turn .|
+then the 2d Cu. do the same :|
+then the 1st Cu. cross over and half figure & turn .|
+then Right Hands and Left.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1059
+T: Six and Sevens
+P: Longways for as many as will
+R: minuet, waltz
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+N: The 1st phrase has 13 bars.
+M: 3/8
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 preserves the original line breaks:
+V: 1
+|:\
+BdfdBd | cfAcFA | BdfdBd | c2F2f2 |\
+geeccA | fddBBG | eccAAF | fcgcac |\
+(fg)=e4 | f4z2 |
+fcgcac | (fg)=e4 | f6 :|\
+|:\
+cFAcfe | dfBdGB | EGcBAG | ^F4d2 |\
+gddBBG | eccedc |
+(Bc)A4 | G6 | BddggB | AccffA | (GB)BeeB |\
+AFBFcF | dFeFfF | BdfdBe | (dc) c3B | B6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original line breaks:
+V: 2 clef=bass middle=d
+|:\
+b4z2 | a4z2 | b4z2 | a4b2 | e2f4 | d2B2z2 |\
+A2f2z2 | d2B2z2 | A2f2z2 | d2B2z2 |
+d2e2z2 | f2e4 | f6 :|\
+|: f4z2 | B4z2 | e2cde2 | d4^f2 | g2b2g2 | ^f2d2g2 |
+c2d2D2 | G4z2 |\
+B4B2 | f4f2 | g2e2g2 | f2edc2 | B2A2B2 | b4z2 | B2f2F2 | B6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+The 1st Cu lead thro' the 2d Cu. and cast up to the Top and cast off .|
+the 2d Cu do the same :|
+then the 1st Cu cast off & go the half figure .|
+then Right & Left quite round and turn :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1060
+T: Gregg's Frolick
+P: Longways for as many as will
+R: reel, march
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the instructions in the dance.
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 4/8-bar staff lines:
+V: 1
+|:\
+g2c2 a2c2 | g2c2 a2c2 | g2c2 a2c2 | g2fe d4 |\
+d2G2 e2G2 | d2G2 e2G2 | c2BA A3G | G8 :|
+|:\
+G2d2 B2d2 | A2d2 G4 | c2e2 e2dc | B2A2 ^G4 |\
+A2e2 c2e2 | B2e2 A2Bc | d2c2 B3A | A8 |
+A2d2 d2cB | c2d2 B4 | c2g2 g2fe | f2g2 e4 |\
+g2c2 a2c2 | g2c2 a2c2 | f2ed d3c | c8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks:
+V: 2 clef=bass middle=d
+|:\
+c2c2 f4 | c2c2 F4 | c2c2 c2c2 | c2F2 G2G2 |\
+G4 g2g2 | g4 g2g2 | ^f2gc d2D2 | G8 :|\
+|:\
+G2G2 G2G2 | d2^f2 g2G2 | G4 A2Bc | d2d2 efed |\
+c2B2 ABcd |
+e2d2 cc'ba | ^g2ad e2E2 | A2AB c2^c2 |\
+d4 z2d2 | d2d2 g4 | z4 z2G2 | G2G2 c4 |\
+c2c2 c2c2 | c2c2 c2c2 | B2cF G2G2 | c8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st and 2d Cu. set across and turn all 4 round single, then set again and turn to
+your own Places.  This to the 1st strain play'd twice. Then cross below the 2d Cu.
+and up again to your own Places. The 1st Man change Places with the 2d Wo. and the
+1st Wo. with the 2d Man, then hands half round and cast off.  This to the 2d strain
+play'd twice.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1061
+T: Kick the World before me
+P: Longways for &c.
+R: slip-jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+e | =f2d ecA Acd | =f2d gec d2e | =f2d ecA Acd | =f/g/a=f ecA d2 :|
+|: e | =f/g/a=f ged cde | =f/g/a=f ged e/f/ge | =f/g/a=f gec cde | =f2d ecA d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+a | d3 A3 c3 | d3 e3 f2e | d3 A3 c3 | d3 a3 d2 :|
+|: A | d3 e3 f2e | d3 e2f c3 | d3 e3 f2e | d3 a3 d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+The 1st Man turn the 2d Wo. then stand Back to Back and kick out their Legs .|
+The other two do the same :|
+Then the 1st Man leads his Partner thro' the 2d Cu. and up again and cast off and turn .|
+then Right and Left quite round and turn .|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1062
+T: Rosemary_Lane.abc
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The first "strain" should apparently be played twice, which fits the dance.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+eg |\
+f2 c4 Bc | A2 F4 AB | G2F2 EFGE | E2 C4 eg |\
+f2 c4 Bc | A2 F4 c2 | defd efge | f2 F4 :|
+e2 |\
+fcAc F2f2 | ga b4 f2 | agfe defd | efde c2A2 |\
+BcdB GABG | ABcA FGAF | EFGE CFEG | F6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+c2 |\
+f4 d2e2 | f4 A2F2 | B4 G4 | c4 c4 |\
+f4 d2e2 |f4 A4 | B4 c4 | f4 F2 |]
+c2 |\
+f4 A2F2 | c4 d2e2 | f4 =B4 | c2d2 e2f2 |\
+g4 e4 | f4 d4 | c4 c4 | f6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center The last Strain but once.
+%%begintext align
+The 1st Cu. cross over below the 2d Cu. and lead thro' the 3d Cu.
+and Hands half round with the 2d Cu. and cast off .|
+The 2d Cu. do the same :|
+Then 1st Wo. change Places with the 2d Man, and 1st Man with the 2d Wo.
+then Hands half round & cast off & turn your Partner,
+the 2d Cu. turns about at the same Time.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1063
+T: John Black's Daughter
+P: Longways for &c.
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The tune is commonly known as "Green Grow the Rashes O".
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B | G/G/G B>A BGGB | A/A/A e>d eAAB | c3e d/c/B/A/ BG | A/A/A B>A GE E |]
+B | G/G/G g>f gddg | e/e/e a>g aeef | ga ef d/c/B/A/ BG | A/A/A B>A GE E |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | G2gd A2B2 | c2zB c2zB | Aaec B2GB | A2d2 e2E |]
+z | G2zd B2GB | c2zB c2zd | edcA B2GB | A2d2 e2E |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+Hey on the Mens side .|
+Then foot it to Partners, then to sides, turn single after Each :|
+then the 1st Man turn 3d Cu. half round, and cast up into the 2d Place .|
+The Wo. do the same back again :|
+change sides and foot it, cast up, change sides and foot it and cast off .|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1064
+T: the Yellow Hair'd Laddie
+P: Longways for &c.
+R: minuet, waltz
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+DE |\
+(FG) A2 (Bc) | (dc)(de) (d/e/f) | A2 (BA)(GF) | E4 (DE) |\
+(EF) A2 (Bc) | (dc)(de) (d/e/f) | A2 (gf)(ed) | d4 |]
+(de) |\
+(fg)(af)(ed) | (cd)(ec)(BA) | (Bc)(dB)(AG) | E4 (DE) |\
+(EF) A2 (Bc) | (dc)(de) (d/e/f) | ABAFED | D4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+d2 f2 g2 | f3  e d2 | c2 d2 G2 | A6 |\
+d2 f2 g2 | f3  e d2 | fg a2 A2 | d4 |]
+z2 |\
+d2 f2 d2 | A2 c2 A2 | G2 B2 G2 | A6 |\
+d2 f2 g2 | f3  e d2 | fg a2 A2 | d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. lead thro the 2d Cu. & turn in their own Places, then back to Back and turn .|
+The 2d Cu. do the same with the 3d Cu. :|
+Then the 1st Cu cast behind the 3d Cu. and lead up to the Top and turn :|
+then Back to Back and Right Hand & Left to the end of the Tune |
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1065
+T: Princess Amelia's Birth Day
+P: Longways for &c.
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+N: First bass note (b) is clearly wrong; rewritten as a.
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+A2e e2f | c2d e3 | ABc Bcd | c2B cBA |\
+A2e e2f | c2d e3 | ABc Bcd | c2B cBA :|
+|:\
+d2c B2A | G2F E3 | A2E B2E | d2c B3 |\
+d2c B2A | G2F E3 | A2E Bcd | cdB A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+a3- a2d | A2B cBA | a3 g3 | a2e A3 |\
+a3- a2d | A2c cBA | c3 d3 | e3  A3 :|
+|:\
+b2a g2f | e2d c2B | A2a g2a | b2a g2a |\
+b2a g2a | e2d c2B | A3  d3  | e3  A3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+The 1st Cu cross over and turn, then change over at Top and lead outsides .|
+and Back to Back sides & turn, the 1st Cu. being all at Bottom :|
+then Hands round at Top, then Right and Left quite round at Top .|
+Then the first Man heys at Top, and the Wo. at the Bottom, and turn it out :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1066
+T: Any Thing
+T: Sunday Morning
+P: Longways for &c.
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+D |\
+G2B BGB | A3 c3 | Bcd  ABc  | B2G G2D |\
+G2B BGB | A3 c3 | B^cd Ad^c | d3- d2 :|
+|: d |\
+e2c cde | d2B B>cd | cBA BAG | A2D D2A |\
+B2B Bcd | A2A ABc  | BAG GAF | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+G3 g3 | fdf e2f | g3 zzd | G3 z2z |\
+G3 g3 | fdf e2f | g3 a3 | d3- d2 :|
+|: B |\
+c3 A3 | B3 G3 | A3 G3 | d3 f3 |\
+g3 zzg | f3 d3 | g2B c2d | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice over
+%%begintext align
+The 1st Cu. cross over & lead thro' the 3d Cu. .|
+Then cast up at Top & lead thro' the Top and cast up & cast off again :|
+Then the first Man Hands half round with the 3d Cu. & his Partner Hands half round with the 2d Cu. at Top.
+then 1st Cu.  turns in the Middle .|
+Then the first Wo. Hands half round with the 3d Cu. & the first Man the same at Top.
+& meet his Partner in the Middle & turn her :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1067
+T: Bonny Lass of our Town
+P: Longways for &c.
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The first note in the bass line is almost certainly wrong.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c |\
+B>AB cGE | G>AG G2c | B>AB   cGE | D>ED D2c |\
+B>AB cGE | G>AG G2c | B/c/dB c2B | AFD  D2 :|
+|: c |\
+B/c/dB GBG | B/c/dB G2c | B/c/dB G2B | AFD D2c |\
+B/c/dB GBG | B/c/dB G2e | dcB    c2B | AFD D2 :|
+|: g |\
+fef gdB | gdB G2g | f>ef gdB | AFD D2g |\
+fef gdB | def gdB | cac  BaB | AFD D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+B |\
+g2f e2c | B2g e2c | g2f e2c | G3- G2c |\
+g2f e2c | B2g e2c | g3  a2g | d3- d2 :|
+|: c |\
+g3 z3 | G3 zzc | g3- g2G | d3 f3 |\
+g3 z3 | G3 B2c | B2g a2g | d3- d2 :|
+|: e |\
+d3 g3 | zzg G3 | d3 f3 | d3- d2e |\
+d3 g3 | d2c B2g | a3 g3 | d3- d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. lead thro' the 2d Cu. & cross over & turn single .|
+the 2d Cu. do the same :|
+the 1st Cu. cross over & go the whole figure of Eight .|
+the 2d Cu. do the same :|
+then all 4 clap Hands with your Partners & turn single .|
+then clap sides, & lead thro' & cast off & turn the Tune out :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1068
+T: Tit for Tat
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd phrase has a begin repeat but no end repeat.
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+N: The D.C. at the end seems superfluous; the dance seems to be 32 bars long.
+N: Perhaps the tune was meant to be played AABA?  Or maybe the dance should end in the middle?
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c2c |\
+G2G ABA | G3 c2c | d2e f2e | d2c c2c |\
+G2G ABA | G3 c2c | ded e2d | Hc3 :|
+|: efg |\
+g3 efg | g3 efg | a2g f2e | d2c efg |\
+g3 efg | g3 efg | a2g f2e | d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+c3 |\
+e3 f3 | e2c zzc | g2e d2c | g2c zzc |\
+e3 f3 | e2c e3 | f3 g3 | c3 :|
+|:\
+zzc' |\
+b2g zzc' | b2g zze | f2e d2c | g2c zzc' |\
+b2g zzc' | b2g c2e | f2e d2c | g3 "^D.C.":|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+The first Man sett to the 2d Wo. & clap Hands & turn, then foot it & knee it
+the 1st Man cast off below the 2d Cu. .|
+The 1st Wo. & 2d Man do the same, then first Wo. cast off below the 2d Wo :|
+the 1st Cu. go Hands across quite round with the 3d Cu.
+then lead up round the 2d Cu. into the 2d Cu. Place .|
+Then Right and Left with the 2d Cu. & turn Partners :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1069
+T: Shuffle and Cut
+P: Longways for as many as will
+R: slip-jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats modified to satisfy the "Each Strain but once" instruction.
+N: The natural in the base voice's bar 4 was missing, but it's obviously needed.
+M: 9/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[| dBG    FAF    E/F/GE | =cEE E2B AFD | dBG    FAF    F/G/AB | AFD D2B AFD |]
+[| f/g/af e/f/ge B/c/dB | =cEE E2B AFD | f/g/af e/f/ge B/c/dB | AFD D2B AFD |]
+[| G2e    F2d    E3     |  cEE E2B AFD | G2e    F2d    E2B    | AFD D2B AFD |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[| G3   d3 =c3 | A3  =c2G d3 | G3   d3 zzG | d2=c B2G d3|]
+[| d'3 =c'3 g3 | a3  =c2G d3 | d'3 =c'3 g3 | d2=c B2G d3 |]
+[| e3   d3  A3 | zzA =c2G d3 | e3   d3 A2G | d2=c B2G d3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain but once.
+%%begintext align
+The 1st Cu. dance thro' the 2d Cu. & cast off & turn .|
+then the 1st Cu. dance thro' the 3d Cu. & cast up again & turn :|
+then the first and 2d Cu jigg it round and cast off .:|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1070
+T: the Nassau
+P: Longways for as many as will
+R: slip-jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+M: 9/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A |\
+AFA DEF GFB | BAd e/f/gf e2A |\
+AFA DEF GFB | BAd e/f/ge d2 :|
+|: e |\
+e>dc/B/ A2B G2F | B>AG/F/ E2D    E3 |\
+EFG     GFB BAd | dcd     e/f/ge d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d3 f3 e2g | f2d a2d A3 |\
+d3 f3 e2g | f2d g2a d2 :|
+|: A |\
+a3 f2g e2f | g2B c2d A2B |\
+c3 e2g f2d | g2f g2a d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First sides with your own Wo. then on the other side; then both clap hands & make
+a Pass at each other, then turn your own Wo. once & a half & so on to the next till
+you come to your own Places. then the 1st Man take his own Wo. by the Right Hand
+holding it up till the 2d Wo. passes under; then face about while the 2d Wo
+goes back again, then they 3 clap hands & make a Pass altogether & all 3
+turn single, then take Hands & do the same to the 2d Man & to to the End.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1071
+T: Ward's Drop
+P: Longways for as many as will
+R: slip-jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+M: 9/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B, |\
+D/E/FE BFE DCB | c/d/ec GAB    A2e | d/e/fd bfg  fed  | cde FBA B2 :|
+|: d |\
+B/c/dB gde dcB | Ag^f   g/a/ba g2d | B/c/dG gd=e f=ed | cBA BAG F2F |
+D/E/FD BFE ECE | c/d/ec GAB    A2f | d/e/fd bfg  fed  | cde FBA B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+B |\
+B3 d2c BAG | F2f =e3 f2A | B3  d2e dcB  | edc f2F B2 :|
+|: B |\
+d3 edc BAG | d3   D3 G2B | G3 =B2c dc_B | GFE F2c F3 |
+B3 d2c BAG | F2f =e3 f2A | B3  d2e dcB  | edc f2F B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Man turns the 2d Wo. with his Right hand, and the 1st Man casts off,
+and the 2d Wo. casts up at the same Time .|
+the 1st Wo. does the same with the 2d Man :|
+Cross over and half figure, right and left quite round :|
+Foot it at Corners and turn, foot it at the other Corners and turn your Partners :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1072
+T: Kiss quick my Mother's a comeing
+T: Bonny Jocky
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+Bc |\
+d4 A4 | F2D2 FGAF | E2=c2E2=c2 | E2C2 EFGE |\
+d4 A4 | F3D D2F2 | GFED C2E2 | DDD2 D2 :|
+|: ag |\
+f3e d2a2 | f2d2 fgaf | e3d =c2g2 | e2=c2 efge |\
+f2d2 g2e2 | a2f2 g2e2 | gfed c2e2 | ddd2 d2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+d2d'2 c'2a2 | d4 d4 | =c4 c4 | c4 ^c4 |\
+d2d'2 c'2a2 | d2=c2 B2d2 | G4 A4 | d4 z2 :|
+|: z2 |\
+d2c2 B2c2 | d4 d4 | =c4 z4 | c4 ^c4 |\
+d4 e4 | f2d2 B2A2 | G4 A4 | d4 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+The 1st Man kiss quick the 2d Wo. & cast off & go the whole Figure round the 3d Cu & stand in the 2d Cu Place .|
+And the 1st Wo. do the same :|
+then the 1st Man heys with the 3d Cu at the Bottom & the 1st Wo. heys at Top with the 2d Cu. at the same Time .|
+then the 1st Cu. cast up at Top & go the whole figure & cast off into 2d Cu. Place :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1073
+T: Punchanello's Hornpipe
+T: the Three Rusty Swords
+R: minuet
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The time signature was 2/3, which doesn't make sense in modern notation; changed to 3/2.
+N: The 2nd part has initial repeat but no final repeat.
+M: 3/2
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: GABc d2G2 d2G2 | F2 A4 c2 B2A2 | GABc d2G2 B4 | D2 G4 B2 A2G2 :|
+|: g4   f4   e4   | f2 d4 f2 e2d2 | c4   B4   A4 | B2 G4 B2 A2G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: g4   z2G2 B2c2 | d4 f4  g2d2  | G4   g4   G4   | B4 G4 d2G2 :|
+|: z2G2 d2B2 c2A2 | d4 d'4 c'2b2 | a2A2 G2g2 f2e2 | g4 G4 d2G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The first Man and 2d Wo. dance the Hornpipe step & turn .|
+then the 2d Man and first Wo. do the same :|
+Then cross over below the 2d Cu. then below the 3d Cu & lead thro' both Couples & cast off & turn .|
+Then Men fall back, and the We. follow them dancing, and turn single.
+the We. fall back & the Men follow them and turn single dancing.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1074
+T: Geminiani's Minuet
+P: Longways for as many as will
+R: minuet
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat; fixed to match the dance instructions.
+M: 3/8
+L: 1/16
+K: Cm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 reformatted to make 4- and 12-bar staff/line breaks:
+V: 1
+|: g6 | a2g2((3fga) | g2c2d2 | e4d2 |\
+f2e2d2 | g2fedc | de=B4 | Hc6 :|\
+e6 | c6 | f2agfe | d3cB2 |
+e2f2g2 | a2gfg2 | eff3e | edcdef |\
+g6 | a2g2((3gfa) | g2c2d2 | e4d2 |\
+f2e2d2 | g2fedc | d2=B4 | c6 |
+g2a2b2 | =e4f2 | a2b2c'2 | ^f4g2 |\
+G2A2=B2 | cdd2cd | ((3edc)f4 | ((3edc)a4 |\
+g6 | agfedc | =Bcc2Bc | "^D.C."d6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks:
+V: 2 clef=bass middle=d
+|: z2c'2c2 | f2e2d2 | e4d2 | c2g4 |d2c2=B2 | c2d2e2 | f2g2G2 | c6 :|\
+z2c'2c2 | z2agfe | d2B2=A2 | B2c2d2 | c2d2e2 | A2B2e2 | a2b2B2 | e4z2 | z2c'2c2 |
+f2e2d2 | e4d2 | B2g4 | d2c2=B2 | c2d2e2 | f2g2G2 | c6 | =e4g2 | c'2c2f2 |\
+^f4a2 | d'2d2g2 | z2z2g2 | f2=B4 | c2d2=B2 | c2fed2 | ((3edc)c'4 | f4f2 | g2c4 | "^D.C."g6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center First Part twice, the 2d but once.
+%%begintext align
+The 1st Man Minuet to the 2d Wo. & turn her round with his Right Hand, then 1st
+Wo. do the same to the 2d Man. (this to the first Strain play'd twice) then first Cu.
+Hands round with the 2d Cu. then cast off & lead thro' the 3d Cu. & thro' the 2d
+Cu. & turn single in 2d Cu. Place, then first Man change Places with the 2d Wo.
+and the 1st Wo. with the 2d Man and go quite round, then Right and Left quite
+round with the 2d Cu. & lead thro' the 3d Cu. and turn.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1075
+T: I will have a Wife of my own
+P: Longways &c.
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+N: 6-b phrases.
+M: 6/4
+L: 1/4
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: EFE G2B | G3 EFE | G2c BGE | EFE G2A | G3 DED | D2c AFD :|
+|: g>ag f>gf | e3 E>FE | B2c BGE | g>ag f>gf | d3 D>ED | D2A AFD |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: c3 B2G | G2A c3 | B2G G2z | c3 B2G | g2G z3 | g3 d3 :|
+|: g3 B3 | c3 zzc | B2A G2z | zzB d3 | B3 zzB | g3 d3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First all lead up forward & back again .|
+that again :|
+First Cu. go Back to Back then Right Hands one turn and a half,
+then clap hands first your own, then one of each others, then
+walk out to the Wall, then back again, & Back to Back as before
+the Men on the Wo. side & Wo on the Men's. and in the last Part,
+after clapping Hands, then lead to the Wall and back again.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1076
+T: Patty's Delight
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the dance instruction.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c |\
+B/c/dB G2g | f/g/af d2c | B/c/dB A/B/cA | G/A/BG D2c |\
+B/c/dB G2g | f/g/af a2g | fed Ad^c | d2D D2 :|
+c |\
+c/d/ec edc | B/c/dB dcB | A/B/cA BAG | F/G/AF D2c |\
+B/c/dB G2g | f/g/af g2c | BAG DGF | G2G, G,2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+g3 B2c | d3 fed | g3 d2f | g2c def |\
+g3 b3 | d'3 ^c'ac' | d'2g a2A | d3- d2 :|
+z |\
+c3 a3 | B3 g3 | A2f g2c | d3- def |\
+g3 B2c | d3 e2f | g2c d2D | G3- G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center The first strain to be play'd twice & the second but once.
+%%begintext align
+The 1st Man & 1st & 2d We. take hands, go quite round to their Places .|
+then 1st Man & 2d Wo. & 2d Man to the same :|
+then the 1st Cu. cross over into the 1st & 2d Cu Place & lead up all 4
+a Breast & back again then 1st Cu cross over & go the half figure of 8
+into the 2d Cu. Place, then Right and Left till you come into your own
+Places. the 1st Cu. lead down between the 2d Cu. & cast up to the Top
+and all 4 clap hands then the 1st Cu. cast off into the 2d Cu. Place.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1077
+T: Whip her and Gird her
+P: Longways for &c.
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+G2G G2(3(B/c/d/) | BGB c2A | G2G G2(3(B/c/d/) | AFA c2A |\
+G2G G2(3(B/c/d/) | BGB g2d | ece dBd | AFA c2A :|
+|:\
+g>fg def | g>fg d>cB | g>fg def | AFA c2A |\
+g>fg def | g>fg d>cB | (c/d/)ec (d/e/)fd | AFAc2A |]
+[|\
+BGG GDD | BGG cBA | BGG GDD | AFA c2A |\
+BGG GDD | g>fg dcB | (c/d/)ec (d/e/)fd | AFAc2A |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g3 B2G | g3 c2d | g3 B2G | d3 e2f |\
+g3 B2G | g3 B2G | c2A B2G | d2d e2f :|\
+|:\
+g3 B2d | e3 f2f | e3 B3 | zzd e2f |\
+g3
+B2d | e3 f2g | g3 B3 zzc e2f |]\
+[|\
+g3 B2G | g3 c2d | g3 B3 | zzd e2f |\
+g3 B2d | e3 f2f | e3 B3 | zzd A2d |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First Cu cross over and gallop down to the Bottom & lead up & turn .|
+then foot it with your Partner, Jigg it and turn :|
+the 2d Cu. do the same .|
+then 1st and 2d Cu. take hands and lead out to the Wal & 1st Cu. take
+hands & foot it & cast off in the 2d Cu. Place.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1078
+T: Ward's Pill
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+N: The bass A in bar 2 should probably be G or B.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+G2d BGd | BGd BGd | F2A AEA | EAE TF2D |\
+G2d BGd | BGd BGd | E/F/GE F/G/AF | G3 G,3 :|
+|:\
+G/A/BG BGB | F/G/AF AFA | E/F/GE BGB | EAG F2D |\
+G/A/BG E3 | F/G/AF D3 | E/F/GE F/G/AF | G3 G,3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g3 z2z | A3 z2z | d3 A3 | ^c3 d2=c |\
+B3 G3 | g3 G3 | c3 d3 | G3 z2z :|
+|:\
+G3 z2z | B3 z2z | ^c3 z2z | A3 d2c |\
+B3 cBA | d2c BAG | c3 d3 | G3 z2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. foot it and cast off one Cu. and turn .|
+Foot it and cast up again and turn, cross over and half figure with the 3d Cu. :|.
+Right and Left quite round with the 2d Cu. :|:
+Foot it at Corners and turn .||
+Foot it at the other Corners and turn your Partner :||
+The Man heys with the 3d Cu. and the Wo. hands round with the 2d Cu. at the same Time, and foot it to your Partner :||
+The Man hands round with the 2d Cu. and the Wo. with the 3d and turn your Partners.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1079
+T: the Ridotta
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+G2G2 G2FE | DCB,A, G,A,FG | A2A2 A2Bc | dBAF E3F |\
+G2G2 G2FE | DCB,A, G,A,B,C | dBcA BGAF | GEDB, G,4 :|
+|:\
+d2d2 d2ef | gfgd e4 | d2cB cBAG | ABcE F2ED |\
+G2e2 F2d2 | E2c2 D2EF | G2FE DCB,A, | B,GA,F G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g2g2 g2fe | dcBA G2z2 | a2a2 a2GA | B2cd edef |\
+g2g2 g2fe | dcBA G2z2 | b2a2 g2d2 | g2z2 G4 :|
+|:\
+d'2d'2 d'2c'2 | b2g2 c'2c2 | B2G2 c2e2 | d4 z2=f2 |\
+e2c2 B2G2 | c2A2 B2c2 | Bgfe dcBA | G2d2 G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. figure thro' the 2d Cu. & cast up and foot it at the Top .|
+the 2d Cu. do the same :|
+then all four take hands, the 1st Cu. lead up and 2d Cu lead down at the same time .|
+then the 1st and 2d Cu Minuet step and 1st Cu. cast off :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1080
+T: the Blazing Star
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat, and 12 bars.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+c2 f4 a2 | g2f2 e4 | f2ed c2d2- | d2dB A2F2 |\
+c2 f4 a2 | g2f2 e2g2- | g2fe d2c2 | G2=B2 c4 :|\
+|:\
+G2 B4 d2- | d2cB A2f2- |
+f2ed ^c2d2 | A2^c2 d4 |\
+g4 g2fe | defg e2c2 | f6 _ed | cd_ec d2B2 |\
+b2 a4 g2- | g2 f4 e2 | efg2 c2f2 | f3e f4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+z2f2 a2f2 | c'2f2 c2a2 | d'2c'b a2b2 | e4 f4 |\
+z2f2 a2f2 | c'2f2 c2e2 | f2d2 g2a2 | g4 c4 :|
+|:\
+c4 d2e2 | b2ag f2d2 |
+g4 a2b2 | a4 d2f2 |\
+e2d2 e2c2 | =B4 c2c'2 | a2fg a2b2 | a4 b4 |\
+g2a2 b4 | =b4 c'2c2 | g2b2 a2f2 | c'2c2 f4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First Man cast off into the 2d Wo. Pace, she crossing over at the same
+Time into his Place, the 1st Cu. run the Figure thro' the 2d Hands all four
+a quarter round.  2d Cu. cast off and lead up the Middle 1st Cu. casting
+down and run the Figure between the 2d the 1st Cu. being in 2d Place,
+Hands Right & Left, till they come in their own Places, sett & cast off.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1081
+T: the Happy Pair
+T: Royal Wedding
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+G2B2 B2AG | ABc2 c4   | Bcd2 d2cB | AGFE D4 |\
+Bcd2 d2cB | cde2 efg2 | d2cB cBAG | D2F2 G4 :|
+|:\
+g2d2 d2cB | g2d2 d4   | e2c2 edcB | AGFE D4 |\
+GABG ABcA | BcdB cdec | d2g2 A2B2 | D2F2 G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+g4 G4   | d4 e2f2 | g2G2 B2G2 | d4-dcBA |\
+G4 z2g2 | a4 e2c2 | B2G2 A2c2 | d4 G4 :|
+|:\
+z4 g2G2 | z4 g2G2 | c4   A4   | d4 z2B2 |\
+e4 f4   | g4 a4   | b2A2 B2G2 | d4 G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First Man foot it and cast off one Cu. foot it again & cast of another
+Cu. lead up to the Top, foot it and cast off. both sett to the 2d Wo. and
+hands round the same with the 2d Man. lead out all four abreast on the
+We. side the same on the Mens side, Hey on the contrary. Hey on your
+own side.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1082
+T: Harlequin in the Mud
+T: Busby's Frolick
+P: Longways for &c.
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat; fixed to agree with "Each Strain twice".
+N: The original has M:38; it's obviously M:6/8
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+F2c cAF | E2G GEC | F2c cAF | FAc f3 |\
+F2c cAF | E2G GEC | DEF GEC | DEF F3 :|
+|:\
+cdc cAF | FAc fed | cBA GAF | EFG ECc |\
+AFd BGf | ece f2B | AGF CFE | F3- F3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+f3 F3 | c3 B3 | A3 F3 | f3- f2A |\
+F3- F2A | c3- c2A | B3 zzG | B3 F3 :|
+|:\
+F3 A3 | f3 A2B | A3 =B3 | c3 zze |\
+f3 g3 | c'2b a2g | f2B c3 | F3- F3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+First Man go without side 2d Wo. up the Middle in his Wo. Place. 1st Wo at
+the same time go within side, round 2d Man up into her Man's Place. 2d Cu.
+doing the same: Men being on the We. side, 1st Cu. slips down into 2d Cu
+Place. Right and Left into their own Places. Men on We. side 1st Man
+cross over with 2d Wo. 2d Man cross over with 1st Wo. turn your own.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1083
+T: Tod's Assembly
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: 2nd part has initial repeat but no final repeat.
+M: 6/4
+L: 1/4
+K: Fdor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c |\
+AFa g2=e | fcd c2B | (AG)F (dc)B | (AG)F =E2c |\
+AFd B2G | ECc A2F | DB,B AGF | F3- F2 :|
+|: c |\
+cB=A cec | dB=A B2B | BG_A BdB | cAG A2c |\
+dcB AGF | =EGB dfa | cBA GF=E | F3- F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+z3 zzc' | afb a2g | f2A Bcd | c2F c2z |\
+f2B d2z | c2A d2z | B3 c3 | f3 F2 :|
+|: z |\
+zzf =A3 | B2f dfd | e2f g3 | a2e cBA |\
+B3 c2d | c3 z3 | AGF c3 | F3- F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First Man sett to the 2d Wo. & turn single, then turn her .|
+the 2d Man do the same :|
+cross over & figure thro' 1st Cu. Right & left quite round .|
+lead thro' 3d Cu. and thro' 2d Cu. then cast off & turn four Partners :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1084
+T: a Trip to Bath
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: 2nd part has initial repeat but no final repeat.
+M: 6/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+G/A/ |\
+B>cd gdc | B2G G2B | cde Aag | f2d d2f |\
+gdB ecA | afd bag | fga dgf | g2G G2 :|
+|: B |\
+ceg gec | Bdg gdB | cBc Aag | f2d d2c |\
+Bdg cea | dfb bag | dcB Aaf | g2G G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+G |\
+g2d B2A | G3 B3 | A3 ^c3 | d3 c3 |\
+B3 c3 d3 G3 | d3 D3 | G3- G2 :|
+|: g |\
+e3 c3 | g3 B3 | A3 ^c3 | d3 f3 |\
+g3 a3 | b3 g3 | BAG d3 | G3- G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st and 2d Cu. clasp Hands, then loose and Back to Back & turn, .|
+then the Men hey on the We. side, and the We. after on the Mans side :|
+then the three 1st Cu. take hands and go round and turn S .|
+then Right and Left cast off and turn :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1085
+T: How can I keep my Maiden Head
+P: Longways for as many as will
+R: reel, strathspey
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: F/F/F FG A>GFA | G>FGA d>cdf | F/F/F FG A>GFA | G>FGA D/D/D D2 :|
+|: cdfg a>gfa | gfga f>edf | cdfg a>gfa | gf (g/a/b) g3 f :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: f3c FGAF | cdef B3d | f3c FGAF | c3A d2D2 :|
+|: dbag fgaf | edef dcBd | ABAG FGAF | cdef cBAF :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+The 1st Cu. cross over & foot it .|
+then lead thro' the 3d Cu. & cast up and turn :|
+then hands half round with the 1st Cu. & turn single and Right and Left half round .|
+then hands half round with the 3d Cu. & turn single, then Right and Left half round :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1086
+T: the Honest Yorkshire Man
+P: Longways for as many as will
+R: reel+jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+BA |\
+B2BB B2B2 | B2A2 z2AB | c2cc c2cc | c2B2 z2d2 |\
+e2ee e2dc | d2dd d2cB | edcB c2BA | G6 :|[M:6/8][L:1/8]
+|: d |\
+ded def | g3 G2e | dBG A/B/cB | A3- A2d |\
+ecA dBG | cBc A3 | z2z g3 | dcB cA2 | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+g2 |\
+G6 G2 | d2dd d2z2 | e2f2 d2f2 | g2gg g2z2 |\
+c'4- c'2a2 | b6 g2 | c2G2 d2D2 | G6 :|[M:6/8][L:1/8]
+|: z |\
+g3 g2f | edc BGc | G2B A2G | dd'c' bag |\
+c'2f b2e | a2c d3 | z2z e'd'c' | bag d'd2 | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First & 2d Man lead thro the We. & hands half round. The We. lead thro'
+the Men & hands half round :|
+(The Jigg.) the 1st & 2d Cu. hands across quite round & turn all single,
+then hands across back & turn single .|
+First Man & 1st Wo. Back to Back & lead thro' the 3rd Cu. & thro' the 2d Cu.
+then Right & Left quite round with 2d Cu. & turn your Partner :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1087
+T: Lewis Castle
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+GAG Bcd | g3  b3  | bag fga  | d3  c3 |\
+BAG Bcd |^c2d efg | fed Ad^c | d3- d3 :|
+|:\
+ DFA   dcB  | c3  B3  | edc BAG | FGA D2B/c/ |\
+(dB)g (dB)g | BcB ABc | BAG DGF | G3- G3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+G3 z2z | gdB GBd | f3  d3  | fed e2f |\
+g3 G3  | A2B ^c3 | d2g a2A | d2c BAG :|
+|:\
+d3 f2g | agf g2G | c3  G3 | d3  c3  |\
+G3 z2z | G3  d3  | G2c d3 | G2A BAG :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+The 1st & 2d Cu. hands round, the 1st Cu. casts off & hands round with 3d Cu.
+then lead up between the 2d Cu. & cast off. Foot it all four, the 1st Man to
+the 2d Wo. and the 2d Man to the 1st Wo. hands all four across quite round,
+then clap with your Partner 4 times & lead thro' the 3d Cu.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1088
+T: the Bleeding Heart
+P: Longways for &c.
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: 6/4
+L: 1/4
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B |\
+cBA ceB | cBA ^GBE | ABc BcA | B>A^G/F/ E2B |\
+edc def | edc  BdG | cde dcB | G>cB/d/  c2 :|
+|: B |\
+GFE CEC | FED B,EB, | ABc  BcA | B>A^G/F/ E2B |\
+cec BdB | cec  BdB  | ceA ^GEG | A>EC/B,/ A,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+e |\
+a3  zze | a3  e2d | cBA def | e3 ^g2e |\
+cBA B3  | cBA G2B | ABc g3  | G3  c2 :|
+|: g |\
+edc zze | dcB G2f | f3  def | e3 ^G3 |\
+A3 ^G3  | A3 ^G3  | A3  e3  | A3  zz :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+The 1st Cu. turn & Back to Back & lead thro' the 3d Cu. .|
+then lead up to the TOp and turn :|
+then 1st & 2d Cu. take Hands across and dance round and turn single .|
+then Right & Left the Tune out :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1089
+T: Tunbridge Frisk
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: 2nd part has initial repeat but no final repeat.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+D2 |\
+G4 G2B2 | AGAB A2c2 | B2g2 A2G2 | AGFE D2D2 |\
+G4 G2B2 | AGAB A2g2 | f2ed e2^c2 | d6 :|
+|: A2 |\
+d4 g2c2 | B4 g2B2 | A2c2 B2G2 | AGFE D2A2 |\
+BABc B2B2 | cBcd c2g2 | B2AG D2F2 | G6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+G4 b2g2 | f4 d4 | g4 f2e2 | d4 dcBA |\
+B4 b2g2 | f2d2 ^c2a2 | d2g2 a2A2 | d6 :|
+|: z2 |\
+b6 a2 | g6 g2 | f4 g4 | d8 |\
+g2G2 z4 | a2A2 z4 | g2c2 d2D2 | d6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First & 2d Cu. foot it & turn, then 1st & 2d Man foot it & turn, the two
+We. do the same, then 1st Man cast off two Cu. & 1st Wo. cast off one
+Cu. & cast up again, then foot it & turn in the 2d Cu. Place.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1090
+T: the Quadrille
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+N: Bass line starts with A, which is obviously wrong.  The F# in bar 3 may be wrong, too.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+   G2 | G,2G2 A2GA | B2AB c2BA | G2E2 C2D2 | G,6 :|
+|: de | f2ef  g2fe | d2c2 B2AB | cdc2 BcB2 | FGAF D2gf | efg2 A3G | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+   g2 | G2g2   a2ga | b2ab c'2ba | g2e2 c2f2 | G6 :|
+|: d2 | d'2c'2 b2a2 | b2a2 g2b2 | a4 g4 | d2c2 B2G2 | c2B2 c2d2 | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+First lead up all forwards & backwards. the 1st Cu. sett & turn Hands & cast off.
+(This must be done by every Couple) then the 1st Man & 2d Wo. change Places, & the
+2d Man & 1st Wo. change Places, then hands half round & the 1st Cu. cast off.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1091
+T: Riseing Sun
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: 2nd part has initial repeat but no final repeat.
+N: 3/6-bar phrases.
+M: 6/4
+L: 1/4
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+   f/g/ | a>gf   gec | f>ed cAF   | E2G G2A | B>cd/e/ fdB | cAF     GEC  | CFF F2 :|
+|: G/F/ | E/F/GE cGB | AFf e/f/gG | EGG G2A | (Bd)B (dB)d | g>ag/f/ e>fg | a2f f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z | f3 c3 | d3 A2B | c3 c2f | d2c B3 | A2B c3  | f3  F2 :|
+|: z | c3 e3 | f3 c'3 | c3 ecf | d3  B3 | B2G c2C | F2F F2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The first Man setts to the 2d Wo. and turns her .|
+1st Wo. & 2d Man do the same :|
+cross over & half figure .|
+then Right & Left quite round :#:
+1st Man turns 3d Wo. & 1st Wo. 2d Man at the same time & turn Partners .|
+first Man turns the 2d Wo. & 1st Wo 3d Man at the same time, then Partners :|
+cross Corners .|
+Right & Left with the 2d Cu. quite round.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1092
+T: Cork
+T: Thiselworth Assembly
+P: Longways for as many as will
+R: slip-jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/4
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+D |\
+G2c BGB AFA | G2G (B/c/)dB g2f | g>fe dcB AFD | G2G (B/c/)dB G2 :|
+|: d |\
+gdg gdg gdf | gdg gdg a2g/f/ | g>fe dcB AFD | G2G (B/c/)dB G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+b2a g2G d3 | g3 G3 g3 | b2c' bag d3 | g3 G3 g2 :|
+|: z |\
+b3 g3 d3 | b3 g3 f2d | | b2c' bag f3 | g3 G3 g2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+Cross over & turn Hands, the 2d Cu. do the same, then Right Hands
+and Left; Jigg up & down & cast off. Hands & cross dance to the 2d
+Wo. and turn, the other Cu. do the same.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1093
+T: Easter Thursday
+P: Longways for as many as will
+R: minuet
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/2
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[| d4 def2 e2d2 | e2 A4 c2 B2A2 | B4 Bcd2 c2B2 | c2 F4 c2 B2A2 | GAB2 AGF2 GFE2 | FED2 FGA2 HD4 |]
+[| agfe f2a2 d2a2 | bagf e2g2 c2g2 | agfe d2f2 B2f2 | gfed ^c2e2 A2F2- | F2 G4 A4 B2- | B2 A4 d2 e2^c2 "_D.C."|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[| d4 z2d2 ^c2d2 | A4 a4 d4 | g2f2 e2d2 e4 | f4 a4 g2^f2 | g4 d4 a4 | d4 z4 HD4 |]
+[| ^c4 d4 f4 | g4 c4 e4 | f4 b4 d4 | e4 a4 f4 | d4 e4 f4 | g4 f2d2 g2a2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The first Cu. Back to Back with the 2d Cu. and then with their Partners .|
+the first Cu. turn the 2d Cu. then turn their own :|
+Me?? all 4 and sett then turn single and clap Hands all 4 going quite round .|
+then the 1st Cu. go the figure thro' the 2d Cu. and cross over and turn their own Partners :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1094
+T: Ragg
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+g |\
+f2A (Bc)A | (B/c/d)B G2g | f2A AcA | d3 g2g |\
+f2A AcA | (B/c/d)B G2g | afd ge^c | d3 g2 :|
+|: g |\
+f2g afd | efg ge^c | f2g afd | f3 g3 |\
+fga afd | efg ge^c | (f/g/)af (e/f/)ge | d3 g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d'3 d3 | g3 G3 | d3 D3 | B3 G3 |\
+d3 D3 | g3 G3 | f3 e3 | d3 G2 :|\
+|: z |\
+d3 D3 | e3 E3 | d3 D3 | d3 G3 |\
+d'3 d3 | e'3 e3 | d3 c3 | B3 G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+Cross over down one Cu. and turn Hands, then down the next Cu. the same
+Way & turn Hands. The Wo. turns the upper Man with one Hand, her
+Partner with the other, the Man does the like at the same time, Only at
+the last, Dancers turn with both Hands.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1095
+T: Muirland Willie
+P: Longways for as many as will
+R: jig
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+G |\
+G2A B2c | d2e f2d | B2B f2d | (cA)c F2F |\
+G2A B2c | ded b2a | gfe d=e^f | g3- g2 :|
+|: g |\
+g2a b2g | f2d f2d | BcB g2d | cAc F2G/F/ |\
+G>AG B2c | e>ed b2a | gfe d=e^f | g3- g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+b2a g3 | f2e d2B | d3 B3 | f3 F3 |\
+e3 d2c | B2A G2d | edc d2D | G2d g2 :|
+|: z |\
+b2a g2e | d3 g3 | d3 e2z | d2z F2z |\
+e3 d2c | B2A G2d | edc d2D | G2d g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Man goes round his own Wo. the 2d Wo. follows him & fall into their own Places.
+1st Wo & 2d Man do as much :|
+1st Man & 2d Wo. cross over & turn S. then take all Hands go a quarter round & turn S.
+then the other Cu. cross over & turn S. then take all Hands & go round till
+you come to your own Places. then cast off to the 2d Place. do this to the last :|
+1st Cu lead up. 2d Cu. lead down back again: that again.
+the two Men go between their own We. & go round them into their own Places.
+then take all Hands go half round & turn all S. the We. do as much round the Men
+then take hands & go half round then the 1st Cu. cast off, do this to the last :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1096
+T: New Pierot
+P: Longways for &c.
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The time signature is just "2".
+N: Some phrase boundaries have incorrect rhythm; adjust final notes appropriately.
+N: The unusual use of Segno means to repeat the last 4 bars of the last phrase, within the repeat of the phrase.
+M: 2/2
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has staff breaks at phrase boundaries.
+V: 1
+A2Bc |\
+d2d2 c2B2 | A4 (Bc)d2 | (cd)e2 A2c2 | d4 :|\
+|: f2A2 |\
+TA4 g2A2 | TA4 f2A2 | TA4 a2A2 | TA4 cde2 |
+Bcd2 GAB2 | TA4 E2A2 | TA4 E2G2 | TG4 F2E2 | DBcd e2c2 | d4 :|\
+|: fg |\
+a2gf efge | f2ef d2fg | a2gf efge | Tf6 :|
+|: ef |\
+g2g2 g2g2 | Tg2f2 f2f2 | Tf2e2 e2f2 | e2dc B2e2 |\
+c2B2 A2!segno!dc | B2ed c2fe | d2gf e2ag | fede A2c2 | d6 !segno! :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+d'2c'2 | b2b2 a2g2 | f2d2 g4 | a2g2 a2A2 d2D2 :|\
+|: d'4 | c'4 b4 | c'4 d'4 | c'4 b4 | a4 A4 | d4 e4 |
+A4 a4 | b4 b4 | a4 a2g2 | f4 g2a2 | d4 :|\
+|: d'2 | f2g2 a2A2 | d6 d'2 | f2g2 a2A2 | d6 :|\
+|: A2 |
+B4 c4 | d4 d'4 | g4 g4 | ^g2f2 ^g2f2 |\
+a6 !segno!f2 | g4 a4 | b4 c'4 | d'2g2 a2A2 | d6 !segno!:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+Set and cast off & cast up again, then set across and turn single. 2d Cu. do the
+same. then all four Hands round & back again the Two Men and two We. fall
+back meet and turn Hands with their Partners then fall back again as
+before, then Right Hand and Left.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1097
+T: Swines Tale to Georgia
+P: Longways &c.
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+N: The 1st dance phrase ends with an unusual symbol, 2 dot arranged vertically over a horizontal line.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 4/8-bar staff lines.
+V: 1
+|:\
+A3B  A2F2 | E2F2 G2E2 | D2A2 A2B2 | d3e f2d2 |\
+e2c2 d2F2 | E2F2 G2E2 | D2A2 A2G2 | F4  D4  :|
+|:\
+a3b  a2f2 | e2f2 g2e2 | d/e/f/g/ a4 g2 | f2d2 a2f2 |\
+g2ag f2gf | e2f2 g2e2 | d/e/f/g/ a4 g2 | f4   d4  :|
+|:\
+DDD2 A2F2 | EEE2 G2E2 | DDD2 A3B  | ddd2 f2d2 |\
+e2c2 d2F2 | E3F  G2E2 | D2A2 A2G2 | F4   D4  :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+d4 z2d2 | A4 B2c2 | d4 z2g2 | f2e2 c2A2 |\
+c2A2 B2d2 | F2G2 A2F2 | d4 z2g2 | d'4 d4 :|\
+|:\
+d4 z2d2 | A4 B2c2 | d4 c4 | d4 z2d2 | e4
+d4 | A4 B2c2 | d4 a4 | d'4 d4 :|\
+|:\
+d4 z2c2 | A4 B2c2 | d4 z2g2 | f4 c2B2 |\
+c2A2 B2d2 | G2A2 B2G2 | d4 z2a2 | d'4 d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+First Cu. cross over & hands all 4 round with 3d Cu. and cast up ..|
+Then 1st & 2d Cu. hands round & Back to Back & turn :|
+1st Cu. cross over & half figure with 2d Cu. & turn .|
+2d Cu. cross over & half figure with 1st Cu. and turn :|
+1st Cu. Jigg it & cast up and Jigg it & cast off .|
+the Right & Left with the 2d Cu. quite round, & turn your Partner :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1098
+T: the Luxborough
+P: Longways for as many as will
+R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+A2 |\
+defe d2A2 | F6 E2 | FGFE DEFG | AGAB A2A2 |\
+defe d2A2 | F6 E2 | FGFE DEFG | A6 :|
+|: c2 |\
+fgag f2c2 | A6 d2 | bagf e2d2 | c6 A2 |\
+agfe fed^c | d^cBA BAGF | GFED A2A,2 | D6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+B4 z2^c2 | defe d2A2 | D4 B4 | A8 |\
+z4 z2A2 | defe d2A2 | d4 B4 | A6 :|
+|: z2 |\
+z4 z2c2 | fgag f2d2 | G4 A2B2 | A2ab agfe |\
+f4 a4 | d4 G4 | g2ab a4 | d6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+The 1st & 2d Cu. set across & Jigg it all 4 round single .|
+then set again & Jigg it round & turn to your own Places :|
+then cross below 2d Cu. & turn & up again to your own Places .|
+then the 1st Man change Places with the 2d Wo. & the 1st Wo. with the 2d Man, then Hands half round and cast off :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1099
+T: Cackny
+T: New Camargo
+P: Longways for &c.
+R: strathspey, hornpipe
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: C|
+L: 1/8
+K: G
+V: 1
+|: G>BB>A G>gf>e | d>ed>c TB2A2 | G>BB>A G>ga>f | e>de>f d2C2 :|
+|: d>gg>d c>gg>c | B>gg>B TB2A2 | G>AB>d d>gg>c | B2TA2 G4 :|
+V: 2 clef=bass middle=d
+|: G2dc Acdc | Bc BA FBdc | BG dc B2^cd | a2A2 d4 :|
+|: A4 c4 | g2c2 dd'c'c | B2G2 B2c2 | cAdD G4 :|
+%%center Each Strain twice.
+%%begintext align
+The 1st Cu. set turn and cast off & then cast up again; the 2d Cu do the same .|
+then cross over & half figure & lead thro the 3d Cu & cast up :|
+then cast up the 1st Cu Back to Back & turn .|
+then the 1st Cu. cast up the 2d Cu & Right & left :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 1100
+T: Right Scotch Contention
+T: the Duke of Athol's Rant
+R: strathspey
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+S: http://www.kantoreiarchiv.de/archiv/folk/caldonian_country_dances/0100.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 1st 2 beats of bar 5 are mostly illegible; copied from bar 7.
+N: The bass line has A rather than B in the last bar, clearly a typo (also fixed in kantoreiarchiv.de).
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: C|
+L: 1/16
+K: Em
+V: 1
+|: E3EE3E G3AB3G | c2A2B2G2 c2A2B2G2 | E3EE3E G3AB3G | c2A2B2G2 E4e4  :|
+|: g3ag3e dcBA G2B2 | cBcA e2A2 cBcA e2A2 | g3ag3e dcBA G2B2 | c2A2B2G2 E4e4 :|
+V: 2 clef=bass middle=d
+|: e8 e2f2g2e2 | a4g4 a4e4 | z4e4 z2f2 g2e2 | A2c2B4 e8 :|
+|: z4e4 f4g4 | a4z4 a4z4 | z4e4 f4g2G2 | A2c2B4 e8 :|
+%%center Each Strain twice.
+%%begintext align
+First Man sets to 2d Wo. foot it & turn .|
+the 1st Wo. & 2d Man does the same :|
+cross over two Cu .|
+and lead thro' two Cu. & foot it & cast off :|
+First Man sets to 3d Wo. and the 1st Wo sets to 2d Man at the same time, and
+turn the 1st Man, Wo. sets to the 2d Wo. and her Partner sets to the 3d
+Wo. and turns, then lead out to the Man's side & turn.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2005
+T: Miss in her own Hair
+R: reel
+B: John Walsh "Caledonian Country Dances"
+S: http://petrucci.mus.auth.gr/imglnks/usimg/5/50/IMSLP98359-PMLP202128-walsh_caledonian_country_dance_vol2.1.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+((3A2B2c2) (TB4 (3A2B2c2) TB4 | A2 a4 g2 Tf4 e4 |\
+(fede) f2a2 (edcd) e2a2 | d2b2c2a2 Tc4B4 |
+((3A2B2c2) (TB4 (3A2B2c2) TB4 | A2 a4 g2 Tf4 e4 |\
+(fede) f2a2 (edcd) e2a2 | f2d2B2e2 {d}c4B2A2 |]
+|:\
+B2e2e2d2 Tc4B4 & E4z4 E4E4 | B2e2e2d2 Tc4B4 & E4z4 E4E4 |\
+(3c2B2A2 (3c2d2e2 (3f2e2d2 (3f2g2a2 | (3g2f2e2 (3g2a2b2 a4A4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[|\
+a4e4 a4e4 | a4a4 a4a4 | d4d4 c4c4 | B4A4 e4e4 |
+a4e4 a4e4 | a4a4 a4a4 | d4d4 c4A4 | d4e4 A4a4 |]
+|:\
+g4e4 a4e4 | e4e4 e4e4 | a4a4 d4d4 | e4e4 A4A4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. turns the 2d Wo. the 2d Man lead down the middle, up again, foot it and cast off :|
+Foot it corners and turn .|
+Hands round all Six :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2006
+T: No sure
+R: jig
+B: John Walsh "Caledonian Country Dances"
+S: http://petrucci.mus.auth.gr/imglnks/usimg/5/50/IMSLP98359-PMLP202128-walsh_caledonian_country_dance_vol2.1.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: 2nd part has 14 bars.
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 is reformatted by phrase boundaries.
+V: 1
+|:\
+Bdb {d}Tc2B | Aca TB2A | BDG BdD | BDG BdD |\
+Bdb Tc2B | Aca TB2A | Bdg Ad^c | dAF D3 :|
+|:\
+ADd TB3 | ADc TB3 | efg Be^d | eBG E3 |\
+ADc TB3 | dBb Tc3 | (B/c/dG) (A/B/cG) | FAF D3 |
+(B/c/dG) (A/B/cG) | FAF DAc | Bdb dcB | Aca cBA | BGE DGF | GDB, G,3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|: g3 zzg | f3 zzf | g3 G3 | g3 G3 | g3 a3 | f2d g2d | g3
+a3 | d6 :||: f3 g3 | f3 g3 | c3 B3 | E2e g2e | f3 gdB | G2g afd |
+g3 c3 | d3 fdf | g3 c3 | d3 f3 | g3 G3 | A3 f3 | g2c d2D | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Man Sets to the 2d Wo. and turn her .|
+the 1st Wo. does the same :|
+Cross over two Cu. lead up to the top, foot it and cast off .|.
+Hands round four with the 3d Cu. Right hand and Left with the 2d Cu. :|:
+%%endtext
+
+% Continuation of previous page.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2008
+T: Jack's Delight
+R: reel
+B: John Walsh "Caledonian Country Dances"
+S: http://petrucci.mus.auth.gr/imglnks/usimg/5/50/IMSLP98359-PMLP202128-walsh_caledonian_country_dance_vol2.1.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: ga/b/ ag Tf2 ed | TB2 AG E/E/E E2 | ga/b/ ag Tf2 ed | B2 AG D/D/D D2 :|
+|: Bd-dc/d/ ec Tc2 | Ac-cB/c/ dB TB2 | GB-BA/B/ cA-AB/c/ | dBcA G/G/G G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: g2c2 d2f2 | g4 c4 | g2c2 d2f2 | g4 d4 :|
+|: g2b2 c'2a2 | f2a2 b2g2 | e2g2 a2f2 | g2d2 g4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Man casts of and turns the 3d Wo. and remains in the 2d Man's Place .|
+the 1st Wo. does the same :|
+Hands round all Six .|.
+Right hand and Left :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2009
+T: the Gaveson
+R: minuet
+B: John Walsh "Caledonian Country Dances"
+S: http://petrucci.mus.auth.gr/imglnks/usimg/5/50/IMSLP98359-PMLP202128-walsh_caledonian_country_dance_vol2.1.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: (Tf3/e//f//) ((3aef) Tf2 | (Tf3/e//f//) ((3aef) f2 | d>f c>f B>f | (3AcB (3AGF (3EDC :|
+|: (3GBA (3GAB (3ABc | (3Beg (3Beg f2 | (3GBA (3GAB (3ABc | (3dba (3gfe f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: f2 f2 f2 | f2 f2 f2 | b2 c'2 c2 | d2 F2 c2 :|
+|: c2 c2 f2 | g2 c2 f2 | e2 c2 f2 | B2 c2 F2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %begintext align
+% %endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2010
+T: Whip the Cat
+P: This tune is INCOMPLETE; the next page is missing.
+R: reel
+B: John Walsh "Caledonian Country Dances"
+S: http://petrucci.mus.auth.gr/imglnks/usimg/5/50/IMSLP98359-PMLP202128-walsh_caledonian_country_dance_vol2.1.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+G/A/B/A/ GA Bcd2 | gdTcB gdTcB | Aa2g {g}Tf2ed |\
+G/A/B/A/ GA Bcd2 | gdTcB gdTcB | Aagf g2G2 :|
+|:\
+be ((3gfe) be ((3gfe) | (3fga (Tf3/e//d//) (3fga (Tf3/e//d//) |\
+be ((3gfe) be ((3gfe) | (3fga (Tf3/e//d//) (3fga (Tf3/e//d//) |\
+gG GA TBcd2 | gdTcB gdTcB|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: g2g2 g2g2 | G2G2 G2G2 | c2A2 d2c2 | B2d2 g2g2 | G2G2 G2G2 | c2d2 G2G2 :|
+|: e2e2 e2e2 | d2d2 d2d2 | e2e2 e2e2 | d2d2 d2d2 | B2d2 G2G2 | G2G2 B2B2 |
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %begintext align
+% %endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2027
+T: Cameronian Rant
+R: reel
+B: John Walsh "Caledonian Country Dances"
+S: http://petrucci.mus.auth.gr/imglnks/usimg/5/50/IMSLP98359-PMLP202128-walsh_caledonian_country_dance_vol2.1.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has an initial repeat, but no final repeat.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+f |\
+cF F/F/F cFBd | cF F/F/F c2Ad | BG G/G/G BGdG | BG G/G/G c2A :|
+|: G |\
+Fffg fdcA | Fffg fdcA | Ggga gfed | Ggga gfed |
+Fffg fdcA | Fffg {f}e>dcf | (e/f/g) dg (e/f/g) dg | e/f/g dg {f}e3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+f2f2 f2f2 | f2f2 f2f2 | g2g2 g2g2 | g2g2 f2f :||: z | f2f2 f2f2 |
+f2f2 f2f2 | g2g2 g2g2 | g2g2 g2g2 | f2f2 f2f2 | f2f2 c'3=b | c'2=b2 c'2=b2 | c'2=b2 c'3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+Fall back two Cu. lead your Partner to the top and foot it, fall back to
+the 2d Cu. and lead thro' the 3d, cast up the 3d Cu. and lead thro' the 2d,
+foot it corners and turn, lead out of the sides.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2028
+T: the Mouse Trap
+R: reel
+B: John Walsh "Caledonian Country Dances"
+S: http://petrucci.mus.auth.gr/imglnks/usimg/5/50/IMSLP98359-PMLP202128-walsh_caledonian_country_dance_vol2.1.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 1st part has a missing 1/8 note in the last bar; fixed with an initial rest.
+N: The 2nd part has initial repeat but no final repeat.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+z |\
+D/D/D FA d>ed>f | edef e>fef |\
+D/D/D FA d>edf | edef d>e d :|
+|: f/g/ |\
+afd(e/f/) gece | afdf e>f (ef/g/) |\
+af-f(e/f/) g(e e)(f/g/) | afge d/d/d d |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | d2d2 d2d2 | a2a2 a2a2 | d2d2 d2d2 | a2A2 d2D :|
+|: z | d'2d2 a2A2 | d'2d2 a2A2 | d'2d2 a2A2 | d'2a2 d3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. foot it and turn single, all four hands with the 2d Cu. and back
+again, cross over, figure in, lead up and then down, and then lead thro' the
+2d Cu. at Top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2029
+T: Marquiss of Carmarthen's Birth Day
+R: reel
+B: John Walsh "Caledonian Country Dances"
+S: http://petrucci.mus.auth.gr/imglnks/usimg/5/50/IMSLP98359-PMLP202128-walsh_caledonian_country_dance_vol2.1.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+D2F2 F4 | F2A2 A4 | d2 f4 ed | edcB A4 |\
+D2F2 F4 | F2 A4 A2 | {d}c2BA B2^G2 | A4 A,4 :|
+|:\
+a2 A4 a2 | g2 A4 g2 | f2gf e2d2 | Tc2Bc A4 |\
+d2 D4 B2 | A2 D4 f2 | {f}e2d2 e2c2 | d4 D4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d4 d4 | d4 d4 | d4 d4 | A4 agfe |\
+d4 d4 | d4 d4 | e4 E4 | A4 a4 :|
+|:\
+a4 A4 | a4 A4 | d4 g4 | a6 g2 |\
+f4 g4 | f4 d4 | a4 A4 | d4 D4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First and 2d Cu. Set all four, and Hands round all four, Set all four
+and Hands round back again.  2d Part. The 1st Man and 1st Wo. figure
+down, and turn your Partners, then Right and Left.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2030
+T: the Green Room
+R: reel, march
+B: John Walsh "Caledonian Country Dances"
+S: http://petrucci.mus.auth.gr/imglnks/usimg/5/50/IMSLP98359-PMLP202128-walsh_caledonian_country_dance_vol2.1.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+N: The meter was actually just "2".
+N: The 2nd part has initial repeat but no final repeat.
+N: The dance description uses a thick _ character, apparently to separate dance phrases.
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+ed |\
+c2A2A2B2 | Tc4c2e2 | d2c2B2A2 | BAGF E2ed |\
+c2A2A2B2 | Tc4c2e2 | d2c2TB4 | A6 :|
+|: ba |\
+g2e2e2f2 | Tg4g2b2 | a2g2f2e2 | fe^dc B2ba |\
+g2e2e2f2 | Tg4g2b2 | a2g2Tf4 | e6 ga |
+b2d2Td4 | b2d2Td4 | b2d2d2d2 | c2B2 A2fg |\
+a2c2Tc4 | a2c2Tc4 |  a2c2B2A2 | G2F2 E2ed |
+Tc2A2A2c2 | Tc4c2e2 | d2c2TB4 | A6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+A8 | A8 | d4f4 | e4g4 | a4z4 | A4c4 | d4e4 | a6 :|
+|: z2 \
+e8 | e8 | f4c'4 | b4 z2^d2 | e8 | e8 | a4b4 | e8 |
+g8 | g8 | g4e4 | a4A4 | a8 | a8 | a4^d4 | e4g4 |
+a4z4 | A4c4 | d4e4 | A6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First and 2d Man foot it to their Partners and turn them to the Man's side _
+then foot it to their Partners and turn each into their Places _ First Cu.
+cast off one Cu. and lead up, footing it to the Top, and cast off to the 2d
+Cu.s Place, then the 1st Cu. foot it to the 2d Cu. then to themselves and turn _
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2098
+T: Petticoat tight
+R: jig
+B: John Walsh "Caledonian Country Dances"
+S: http://petrucci.mus.auth.gr/imglnks/usimg/5/50/IMSLP98359-PMLP202128-walsh_caledonian_country_dance_vol2.1.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+D |\
+FGA FGA | Bcd d2A | Bcd d2A | BGE E2D |\
+FGA FGA | Bcd d2A | Bcd d2A | AFD D2 :: e |
+f2d ecA | faf ecA | Bcd d2A | BGE E2A |\
+BGB AFA | GEG F2A | BGB cAc | dAF D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+d'3 c'3 | b3 f3 | g3 f3 | g3 a3 |\
+d'3 c'3 | b3 f3 | g3 a3 | d3 d2 :: a |
+d3 a3 | d3 a2f | g3 f3 | g3 a2f |\
+g2e f2d | e2c d2f | g2e a2A | d3 D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First Cu. Set 3 with the 2d Wo. and turn .|
+the same to the Man :|
+cast off and turn .|
+Lead thro' the 3d Cu. cast up and turn :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2099
+T: Hampstead Assembly
+R: reel
+B: John Walsh "Caledonian Country Dances"
+S: http://petrucci.mus.auth.gr/imglnks/usimg/5/50/IMSLP98359-PMLP202128-walsh_caledonian_country_dance_vol2.1.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+Bc |\
+d2g2d2c2 | {c}TB3AB2c2 | d2G2 BAGF | GFGA G2Bc |\
+d2g2d2c2 | {c}TB3cd2g2 | {g}f2ed fed^c | d4 D2 :|
+|: fg |\
+a2d2b2d2 | a2d2g2d2 | c2B2A2G2 | AGFE D2Bc |\
+dcBc dcBc | dcBc d2g2 | cBAG BAGF | G4 G,2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+G2 |\
+g4f2d2 | g4G4 | B4c2d2 | g4G4 |\
+g4f2d2 | g4G4 | a4A4 | d4D2 :|
+|: d2 |\
+f2d2g2d2 | f2d2g4 | e2d2c2e2 | d4D2G2 |\
+g4G4 | g4B2g2 | c4d4 | g4G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %begintext align
+% %endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3005
+T: Steward's Rant
+C:
+R: reel
+B: John Walsh "Caledonian Country Dances"
+S: http://javanese.imslp.info/files/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+M: C
+L: 1/8
+K: G
+V: 1
+|: B/c/d e/f/g d2 B2 | cA=fA cA=fA | B/c/d e/f/g d2 B2 | cA (Tfe/f/) g2 G2 :|
+|: BG G/G/G BGBG | AD D/D/D ADAD | BG G/G/G BGBG | AD D/D/D d2 G2 :|
+V: 2 clef=bass middle=d
+|: g2c'2 g4 | d4 d4 | g2c2 G4 | c2d2 GBdg :|
+|: g2G2 g2G2 | d2D2 d2D2 | g2G2 g2G2 | d2D2 G4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3006
+T: Fiddle Faddle
+C:
+R: reel
+B: John Walsh "Caledonian Country Dances with a Thorough Bass" p.3
+B: John Walsh "Caledonian Country Dances 3d Edition" p.6-7
+S: http://javanese.imslp.info/files/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: This is a close relative of the Tail Toddle Reel (see Aird v.2 1785).
+M: C|
+L: 1/8
+K: G
+V: 1
+|: G/G/G BG c2 GE | G/G/G BG A2 FD | G/G/G BG cA BG | A/B/c B/c/d A2 FD :|
+|: c2 GE Ec GE | c2 GE DAFD | c2 GE EC GE | A/B/c/A/ B/c/d/B/ A2 FD :|
+|: G/G/G BG cA BG | G/G/G BG ADFD | G/G/G BG cA BG | A/B/c/A/ B/c/d/B/ A2 FD :|
+|: c2 Ec Ec GE | c2 E/c/B/c/ DA FE/D/ | c2 Ec Ec GE | A/B/c/A/ B/c/d/B/ A2 FD :|
+V: 2 clef=bass middle=d
+|: g2z2 c2z2 | g2z2 f2z2 | g2z2 f2g2 | f2g2 d2D2 :|
+|: e2z2 c2z2 | c2z2 d2z2 | c2z2 c2z2 | f2g2 d2D2 :|
+|: g2z2 f2g2 | g2z2 f2d2 | g2z2 f2g2 | f2g2 d2D2 :|
+|: e2z2 c2z2 | c2z2 d2z2 | c2z2 c2z2 | f2g2 d2D2 :|
+
+% Continuation of previous page.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3008
+T: Ranting Highland Man
+R: reel
+B: John Walsh "Caledonian Country Dances"
+S: http://javanese.imslp.info/files/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: There's an extra beat at the end of each phrase.
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+   d2 | G/G/G dG BAGB | A/A/A =FA =fAAd | G/G/G dG BAGB | A/A/A (fe/f/) gG G2 :|
+|: ef | gd ec BcdB | A/A/A =FA =fA Ae/^f/ | gdec BcdB | A/A/A (Tfe/f/) gG G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z2 | g2b2 g2G2 | d'4 d4 | g2b2g2G2 | d2d2 G2g2 :|
+|: z2 | g2c'2 g2G2 | d'2d2 d3c | B2c2 g2G2 | d2d2 G2g2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Man foots it and casts off, and turns the 3d Wo. and stands in the 2d Man's Place .|
+The 1st Wo. does the same with the 3d Man :|
+Foot it corners and turn :|
+Foot it the other Corners and turn :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3009
+T: Prince Frederick's Hornpipe
+R: hornpipe, reel
+B: John Walsh "Caledonian Country Dances"
+S: http://javanese.imslp.info/files/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+c2 |\
+A3G F2A2 | G2FE F2f2 | e2dc d2cB | A3G F2A2 |\
+G2FE F2A2 | G2FE FGAB | c2 B4 A2 | G6 :|
+|: c2 |\
+d2cB ABc2 | F2GA B4 | Bcd2 G2d2 | gab2 e4 | f2 e4 d2- | d2 c4 B2- | B2AB G2FE | F6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+c2 |\
+f4 F4 | c4 A2F2 | c4 d2e2 | f4 F4 |\
+c4 A2F2 | c4 d4 | e4 f4 | c2d2 e2 :|
+|: c2 |\
+B4 f4 | a2f2 edc2 | d4 B2G2 | bag2 c'2c2 |\
+f2c2 d4 | e4 c4 | e2f2 c2C2 | F2c2 f2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+First Cu. Hey on the contrary sides, then on your own sides,
+and cast off and turn contrary Corners,
+First Cu. whole figure at the bottom, then at the top,
+lead thro' the Man's side and turn in the middle,
+then thro' the Wo. side and turn in the middle.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3010
+T: Down the Burn Davie
+R: reel
+B: John Walsh "Caledonian Country Dances"
+S: http://javanese.imslp.info/files/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd phrase has initial repeat but no final repeat
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 4/8-bar staff/line lengths.
+V: 1
+G |\
+D3E (GE)(GA) | {c}B2(AG) G2ga | (ba)(ge) (ge)(dB) | d2(AB) TA3d |\
+(dB)(AG) (DE)(GA) | {c}B2AG g3d | (ef)(gd) (ga)(bd) | (cB)(AG) TG3 :|
+|: b/a/ |\
+g3a (ba)(ge) | (dB)(de) g3G | (AB)(ge) (cB)(AG) | c2Bc A3e |\
+(dB)(AG) (DE)(GA) | {c}B2AG g3d | (ef)(gd) (ga)(bd) | cBAG G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+z |\
+gabc' b3a | g2d2 B2d2 | G2z2 B2d2 | f2g2 dedc | B2c2 dcBA | G2A2
+BABG | c2B2 A2G2 | A2d2 G3 :||: z | gGBd g2c2 | B2zc GABG | c2B2 A4 |
+afgc dedc | B2c2 dcBA | G2A2 BABG | c2B2 A2G2 | A2d2 G3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+Lead up all and back .|
+that again, the 1st Man moves to the 2d Wo. salute her, turn her about, and fall into their own Places,
+the 1st Wo. and 2d Man do the same .|
+The 1st Man and 2d Wo. go back to back, and fall into their own places,
+the 1st Wo. and 2d Man do as much ..|
+The two Men clap hands, and the two We. then turn all round single,
+then clap hands with your own, and cast off into the 2d Cu. Place ..|
+Do this to the last.
+%%endtext
+
+% Continuation of previous page.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3012
+T: the Nassau
+P: Longways for as many as will
+R:
+B: John Walsh "Caledonian Country Dances"
+S: http://javanese.imslp.info/files/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd phrase has a begin repeat but no end repeat.
+M: 9/4
+L: 1/4
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: AEA B2A B^GE | AEc B2A GEC | AEc B2A B^GE | Bcd dcB cBA :|
+|: A3 (^g2f/g/) aec | A2g f2e dBG | A3 ^g2a b^ge | agf edc B2A |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: a3 g2f e3 | a3 g3 c3 | a3 g2f e3 | ^g3 e3 a3 :|
+|: a3 e3 A3 | a2z b2c' g3 | f3 e3 E3 | A2B c2d e2A |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+Hands across and back again.
+First Cu. foot it and cast off, the 2d Cu. do the same,
+first Cu. change corners with the 2d Wo. and 2d Man,
+and lead thro' the bottom, then cast up to the top and foot it,
+and Right and left half way,
+turn corners with your left hand, and figure in,
+then with your right hand and figure in,
+Hey on your own sides, and Right and Left quite round, and turn.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3013
+T: Drown Drowth
+R: slip-jig
+P: Longways for as many as will
+B: John Walsh "Caledonian Country Dances"
+S: http://javanese.imslp.info/files/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: "Each Strain twice." Repeat signs added by jc.
+M: 9/8
+L: 1/8
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+   E | D/E/FD BFE D2B, | D/E/FD ECC C2E | D/E/FD BFE D2B, | D/E/FE DB,B, B,2 :|
+|: F | BcB dBg fdB  | A2F A/B/cc c2F | B>cd/e/ fga bag | fbd TdcB B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+   z | b3 f3 B3 | b3 f3 F3 | b3 B3 b2z | b2f B3 B2 :|
+|: z | b3 B3 b3 | f3 F3 f2e | d2c B2d gfe | d2B f2F B2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st and 2d Cu. set all four, and turn single .|
+Then both Cu. Back to Back with their Partners :|
+Then the 1st Cu. cross over and turn and the 2d Cu. cast off and turn .|
+Then Hands all four quite round and each turn their Partners.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3014
+T: Boscomb Bucks.  A Scotch Country Dance.
+R: reel
+B: John Walsh "Caledonian Country Dances"
+S: http://javanese.imslp.info/files/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: "The first Strain twice, and the last but once."  (Repeats modified to match.)
+N: The 2nd part has 14 bars.
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 4 staffs rather than 2, showing the 4/6/4/4-bar phrasing.
+V: 1
+|:\
+B2 A/B/c/A/ BG Gg | dd de B3 d |\
+BGAF gfed | ^c/d/e Ac d4 :|
+A2 G/A/B/G/ AA2A | B3/c//d// cB B2 A2 |\
+GG Gg GG G2 | AA Aa AA A2 |\
+cc (c/B/)A Bedc | B2A2 G4 |
+^cccc dD DD | cc cB/A/ Bg2g |\
+ac cB/A/ Bedc | B2A2 G4 |
+B2 A/B/c/A/ BGFG | B2 A/B/c/A/ BGFG |\
+Dc cB/A/ Bedc | B2A2 G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout.
+V: 2 clef=bass middle=d
+|: g2d2 G4 | b2g2 g2f2 | g2d2 ed^cB | A2a2 d4 :| d2e2 f2d2 | g2fg d4 | g4 e4 | f4 d4 | e2f2
+ec'ba | g2d'2 g4 | g4 f4 | e2f2 g4 | f2d2 gc'ba | g2d'2 g4 | g2d2 G2z2 | g2d2 G2z2 | f2d2 gcBA | G2B2 G4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. sett and cast off, clap Hands and turn sides; the 2d Cu. do the same :|
+Then the 1st Cu. turn the 2d Cu. across, and turn Partners :|
+The 1st Man change Places with the 2d Wo. and the 1st Wo. with the 2d Man.
+Then all four sett and turn single, then right & left half round, then sett and cast off .|
+%%endtext
+
+% Continuation of previous page.
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3016
+T: the Lads of Leath
+R: jig
+B: John Walsh "Caledonian Country Dances"
+S: http://javanese.imslp.info/files/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: "Each Strain twice."  Repeats added to both phrases.
+M: 6/4
+L: 1/4
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B/c/ | ded c2B | ABG ^F2D | GAB cA^F | G3- G2 :||: B/c/ | dBb a2g | (fd)g f2f |
+B>cB fdg | c>dc A>GF | B>cB cBc | d2G ^F>ED | GAB cA^F | G3- G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | g3 ^f2g | d2e d2c | BAG d2D | gdB G2 :||: z | b2B f2e | d2e d2B |
+d2B d2e | f3 F3 | g2z a2z | b2c' d'2c' | bag d2D | gdB G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. Ballance, or set twice, and cast down in 2d Cu. Place .|
+Then Ballance again, and cast down below the 3d Cu. :|
+Then lead thro' the 3d Cu. and pass on the outside of the 2d Cu. into your own Places .|
+Then right Hand and left and turn your Partners. :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3017
+T: Willey Wilky
+N: AKA Cobler's Hornpipe
+R: reel
+B: John Walsh "Caledonian Country Dances"
+S: http://javanese.imslp.info/files/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has initial repeat but no final repeat.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+d2 |\
+c2F2 ABcA | c2F2 F2d2 | c2F2 ABcA | G2 C4 d2 |\
+c2F2 ABcA | c2F2 ABcA | G4 A3G | F2 D4 :|
+|: c2 |\
+f3g (Tg3f/g/) | a2 F4 c2 | f3g (Tg3f/g/) | a2 G4 de |\
+f2ef g2fg | a2ba g2fe | defd cdcA | F2 D4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+f8 | f8 | F8 | c8 |\
+f8 | f8 | e4 ^c4 | d6 :|
+|: z2 |\
+f4 c4 | f2g2 a2e2 | f4 c4 | f2e2 e2c2 |\
+d2z2 e2z2 | f2z2 e2z2 | d2z2 A2z2 | d6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. foot it and turn single, all four Hands with the 2d Cu. and back again,
+cross over, Figure in, lead up and then down, and then lead thro' the 2d Cu. at top.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3018
+T: Fairly shot on her.  A Scotch Country Dance.
+R: jig
+B: John Walsh "Caledonian Country Dances"
+S: http://javanese.imslp.info/files/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/8
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+[|\
+G4E2 G4E2 | G4B2 B2G2E2 | G4E2 G4E2 | F4A2 A2F2D2 |\
+G4E2 G4E2 | G4B2 B2G2E2 | c3de2 d2B2G2 | F4A2 A2F2D2 |]
+[| dcBAB2 E2c2E2 | G4B2 B2G2E2 | dcBAB2 E2B2E2 |\
+F4A2 A2F2D2 | dcBAB2 E2c2E2 | G4B2 B2G2E2 | c2d2e2 d2B2G2 | F4A2 A2F2D2 |]
+[| d4g2 g2d2B2 | G4B2 B2G2E2 | d2g2f2 g2d2B2 | F4A2 A2F2D2 |\
+d2g2f2 g2d2B2 | G4B2 B2G2B2 | c3de2 d2B2G2 | F4A2 A2F2D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+[| e6 E6 | e6 E6 | e6 E6 | d6 D6 | e6 E6 | e6 E6 | e6 g6 | d6 D6 |]
+[| g6 e6 | e6 E6 | g6 e6 | d6 D6 | g6 e6 | e6 E6 | e6 g6 | d6 D6 |]
+[| g6 G6 | e6 E6 | g6 G6 | d6 D6 | g6 G6 | e6 E6 | e6 g6 | d6 D6 |]
+%%begintext align
+The 1st Man foot to the 2d Wo. and turn hands,
+the 1st Wo. do the same to the 2d Man, 1st Strain .
+The 1st Cu. cast off and sett again, cast off behind the 3d Cu. and sett,
+then the same to the Top, Second Strain.
+The 1st Cu. go the whole Figure with the 2d Cu. then gallop down and up,
+and cast off in the 3d Cu. Place, Third Strain.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3020
+T: a Trip to the Lawndry
+R: reel
+B: John Walsh "Caledonian Country Dances"
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: A2c2 B2d2 | c2e2 B2d2 | (dc)(BA) G2B2 | d2 TB6 |\
+   A2c2 B2d2 | c2e2 B2d2 |  dc``BA  G2B2 | c2 TA6 :|
+|: e2a2 (ag)(fe) | (fe)(dc) (dc)(BA) | e2a2 Tg2f2 | gab2 e4 |\
+   e2a2 (ag)(fe) | (fe)(dc) (dc)(BA) | cecA BdBG | c2 TA6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: a4 e4 | a4 g4 | a4 e4 | e2ef g2e2 |\
+   a4 e4 | a4 g4 | a2d2 e2E2 | A8 :|
+|: c2A2 B2c2 | d2f2 a2d2 | c2A2 B2d2 | e6 d2 |\
+   c2A2 B2c2 | d2f2 a2d2 | e4 E4 | A8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+Right hands, sideways, half round, set and turn single .|
+First Cu. lead thro' the 3d Cu. and Right Hands again :|
+Hey on the contrary sides and turn Partners .|
+Hey on your own Sides, and cast off :|
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3021
+T: Andrew Kerr
+R: slip-jig
+B: John Walsh "Caledonian Country Dances"
+S: http://javanese.imslp.info/files/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf
+Z: AK/Fiddler's Companion
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|: B2d dBG dBG | d2e efg f2A | B2d def efg | D2G GAB A2G :|
+|: g2d dBG dBG | g2e eae f2d | gfe dBd def | g2G GAB A2G :|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|: g3 G3 g3 | g3 e3 d3 | g3 f3 e3 | B3 G3 d2G :|
+|: b3 g3 G3 | e3 c3 d3 | e3 B3 d3 | b3 g3 d'2g :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+The 1st Cu. foot it and cast off one Cu. and turn .|
+foot it and cast off the 3d Cu. and turn :|
+lead up to the top cast off and turn .
+Right and Left with the 2d Cu. .|
+the 1st man foot it with the 3d Wo. and turn the 1st Wo.  and 2d man at the same time,
+the 1st man foot it with the 2d Wo. the 1st Wo. the 3d man :|
+Right hand and Left with the 3d Cu. then hands round all six till you come into the 2 Cu. place :|:
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3034
+T: Athol Bray
+C:
+R: reel
+B: John Walsh "Caledonian Country Dances"
+S: http://javanese.imslp.info/files/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+d | TB2 AG B/c/d e/f/g | B>AGB A/A/A Ad | B2 A>G B/c/d eB | AFDB G/G/GG :|
+|: e/f/ | gdBg dgdB | g/f/e/d/ Bg Tf2 Ae/f/ | g/f/e/d/ Bg dgdB | c/B/A/G/ FA G/G/GG :|
+|: c | (BG)(BG) (BG) (B/c/)d | BG B/c/d g2A2 | (BG)(BG) (BG) (B/c/)d | D2 DB G/G/GG :|
+|: B | Gg g/f/e/d/ Bg g/f/e/d/ | BgDg Tf2 Ae/f/ | g/f/e/d/ Bg dgdB | c/B/A/G/ FA G/G/GG :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | g4 z2c'2 | gdBG d2D2 | G4 z2c'2 | d'2d2 g/g/gg :|
+|: z | g4 G4 | gabc' d'e'd'c' | b2zc' b2zg | a2d2 g/g/gg :|
+|: z | g4 G4 | g2f2 ecfd | g4 G2A2 | BcdD G/G/GG :|
+|: z | g4 G4 | gabc' d'e'd'c' |b2zc' b2zg | a2d2 g/g/gg :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Athol Bray. a Scotch Country dance.
+%%begintext align
+The 1st Cu. foots it and cast off .|
+the 1st Cu. foots it again 1st man casts down and the 1st wo. casts up .|
+the 1st man Heys with the 2d and 3d wo. 1st wo. heys at the same time with the 2d and third men .|
+1st man heys with the 2d and 3d men 1st wo. at the same time heys with the 2d and 3d we. :|
+the 1st man foots it with the 3d wo. and turns her
+1st wo. does the same at the same with the 2d man .|
+then the 1st man foots it with the 2d wo. and turns her
+1st wo. does the same at the same time with the 3d man :|
+the 1st Cu. leads through the 2d and 3d men and turn in the 2d Cu. Place .|
+then the 1st Cu. leads through the 2d and 3d we. and turn in the 2d Cu. Place.
+%%endtext
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3098
+T: Wap at the Widow
+C:
+R: jig
+B: John Walsh "Caledonian Country Dances"
+S: http://javanese.imslp.info/files/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+V: 1
+D |\
+F>EF (D/E/)FD | EB,F TE2D | F>EF (DF)D | EFA d2e/d/ |\
+c>BA B>AF | dAF TE2D | (FE)D DFD | TF3 A2 :|
+|: A |\
+d>ef efd | eBf Te2d | d>ef (ef)d | c>BA d2e |\
+Tc>BA F/G/AB | AFd TE2D | dcd AdD | TF3 A2 :|
+V: 2 clef=bass middle=d
+z |\
+d3 d2f | a2d a2d | d3 d3 | c3 B3 |\
+A3 G3 | F2D A2D | D3 d3 | dAF D2 :|
+|: z |\
+d2d' a2b | c'2d' a2d' | d3 g3 | a2g f2g |\
+a3 d2g | f2d a2d | d3 D3 | dAF D2 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3100
+T: the Reel of Glames
+C:
+R: reel
+B: John Walsh "Caledonian Country Dances"
+S: http://javanese.imslp.info/files/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+V: 1
+|: GdBd A/A/A ce | GdBd GdBd | c>dB>c A/A/A ce | dcBA GABd :|
+|: G/G/G gG AB c>e | G/G/G gG G/G/G gG | G/G/G gG ABce | dcBA GABd :|
+V: 2 clef=bass middle=d
+|: g2G2 d2c2 | g2G2 g2G2 | a2g2 d2c2 | G2d2 G4 :|
+|: g2G2 d2c2 | B2G2 g2G2 | g2e2 d2c2 | G2d2 G4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 3101
+T: the Fourth of June
+%R: hornpipe, strathspey
+B: John Walsh "Calidonian Country Dances" Books II and IV
+S: http://sites.scran.ac.uk/jmhenderson/web/collection/jmhcoll/walsh.htm
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+F | E2E>F B>FE>F | E2E>F d>FD>F | E2E>F E>FG>A | B/c/d A>G F>DD :|
+|: F | E>e-e>^d e>EE>F | E>ee>c d>DD>F | E>e-e>d B>cd>e | (f/g/a) e>f d>DD :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+d | a2A2 g2G2 | a2A2 d2D2 | a2A2 g2e>f |g2a2 d2D :|
+|: d | e2E2 e2E2 | e2E2 d2D2 | e2E2 g>ab>c' | d'2a2 d2D :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Gallop down one Cu. up again and cast off .|
+%% Lead thro' the 3d Cu. cast up into the 2d Cu.s Place :|
+%% Foot it and Right hands across with the 3d Cu. .|.
+%% Foot it and Left hands across with the 2d Cu. :|:
+%% turn corners with your Right hands and your Partner with your Left .||.
+%% hands round four with the 3d Cu. .||:
+%% Right and Left at top :||:
+%%endtext

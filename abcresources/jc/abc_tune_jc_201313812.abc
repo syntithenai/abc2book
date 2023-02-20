@@ -1,0 +1,34 @@
+X: 1
+T: Mr. Lane's Trumpet-Minuet
+T: to be Danc'd with the Minuet Step.
+P: Longways for as many as will
+%R: minuet
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.194
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The actual time signature is "3i".
+N: Repeats added to satisfy the dance instruction, including the ":S:" for an extra repeat of the final 8 bars.
+M: 3/4
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+E2 G2 G2 | c2 e2 c2 | e2 c2 fe | dc BA G2 |\
+E2 G2 G2 | c2 e2 c2 | e2 c2 fe | d6 :|\
+|:\
+d2 g2 B2 | A4 G2 | c2 c2 Bc | d2 d2 cd |
+edcdef | g6 "^:S:"|\
+GFGA G2 | G2 E2 G2 | c2 GA G2 | G2 E2 G2 |\
+e6 | dcde d2 | c2 cdcd | c6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%%    The 1. man set to the 2. wo. then fall back and turn S. the 1. wo. set to the 2. man, then fall back
+%% and turn S.  This to the first Strain played twice.
+%%    The 1. man take the 2. man by the right-hand, and turn round till them come into their own places
+%% again, then all four take hands quite round till they come into their own places again; then 1. wo. take
+%% right-hands with the 2. wo. and turn her till she comes into her own place, and all four hands round
+%% back again till them come into their own places; then 1. man take his Partner and lead her into the 2.
+%% cu. place.  This to the second Strain played twice, and so far back as from the Repeat.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

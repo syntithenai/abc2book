@@ -1,0 +1,2782 @@
+X: 0
+T: The Joy of Sets
+O: from Paul Lizotte of Jump Start
+K:
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+X: 100
+T: The Joy of Sets -- Old TIme / New England
+O: from Paul Lizotte of Jump Start
+K:
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+X: 101
+T: Julianne Johnson
+M: 4/4
+L: 1/8
+R: reel
+K: D
+|"D"fafe dfed| Bd- de d2fg| a2 a2-aab2|"A" a8|
+"D"fafe dfed| Bd- de d2fg|f2 e2 dA B2| [1 "A" A8:|[2 "A" A6||
+|:A2|"G" B4 d3 A|BABc d3 A|BABc dA B2 |"D"A6- AA|
+"G"BABc d2 AA|BABc d2 e2|"D"f2ff  edB2| [1 "A7"A6:|[2 "A7" A8 |["Transition""A"A3A- Ace^g||
+
+X: 102
+T: Shove That Pig's Foot a Little Further in the Fire
+M:4/4
+L:1/8
+K:G
+GA|"G"BdBA G2 E2|"C"GAGE "G"D4|DE G2 B3c| "D"B2 A4 GA|
+"G"BdBA G2 E2|"C"GAGE "G"D4|DE G2 "D"B3G| "G"A2 G4:|
+|:GA|"G"Bd-d2 dBdg|"C"edBc "G"d4|"C"g4 g3d|"D"e2 d4 dd|
+"G"Bd-d2 dBdg|"C"edBc "G"d4|BABd "D"BAGB|"G"A2 G4 :||
+
+X: 103
+T: Benton's Dream
+R:reel
+Z:
+M:C|
+L:1/8
+K:Amix
+e2 \
+|:"A"[a6c6] e2 | "G"[g6B6] f2 | "A"e3f "E7"edcB | "A"A3c "E7"BA^GB |
+| "A"A2 F2 EFAB | "E"=cBcB AFEF | "A"A3A- "E"AcB^G |[1 "A"A3A- Ace^g :|[2 "A"A6 ||
+|: F2 \
+| "G"G2BG AGBG | AB-BA B2D2 | G2BG AGBG | AB-BA B2B2 |
+| "A"A3A- Ace^g | a2 a2 =gecB | A3c "E"BA^GB |[1 "A"A6 :|[2 "A"HA3A- Ace^g |]
+
+%%newpage
+
+X: 104
+T: Spotted Pony, The (R-48)
+M: C|
+Z:
+R: reel
+K: D
+FE | "D"D2D2 "A"E2E2 | "D"FDF2 "G"G4 | "D"ABde fede | f2a2 "A"e2 FE |
+   "D"D2D2 "A"E2E2 | "D"FDF2 "G"G4 | "D"ABAB dBAG | "D"F2"A"E2 "D"D4 :|
+|: "D"f2a2 f4 | "G"efed BcdB | "D"ABde fede | f2a2 "A"e4 |
+   "D"f2a2 f4 | "G"efed BcdB | "D"ABAB dBAG | "A"F2E2 "D"D4 :|
+
+X: 105
+T: Nail That Catfish to the Tree
+C:Steve Rosen
+M:C|
+L:1/8
+S:Roaring Jelly collection
+%%staffsep 35
+K:G
+DE \
+| "G"G2 BG AG BG | cB A2 [B4G4] | "D"ABAG FGAB | AGFD (3EFE D2 |
+| "G"G2 BG AG BG | cB A2 [B3G3] B | "D"ABAG FDEF | "G"(G[BG][B4G4]) :|
+|: D2 | "C"[C4E4] [A4D4] | [c4E4] c2c2 | "D"ABAG FGAB | AGFD (3EFE D2 |
+| "C"[C4E4] [A4D4] |1 [c6E6] (A2 | "D"A)BAG FDED | "G"(G[BG][B4G4]) \
+:|2 [c6E6] (d2 | "D"d)D cD BD A2 | "G"(G[BG][B4G4]) |]
+
+X: 106
+T: Sandy Boys Reel
+R: reel
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Amix
+|: "A"ag eg | e/d/c Aa- | ag eg | a>b aa- \
+|| "A"ag eg | e/d/c AA/B/ | ce "E"e/d/c | "A"A2A2 :|
+|: "A"e2 e2 | d/A/c AA/B/ | ce "D"dA/B/ | "A"ce d/c/A \
+|| "A"e2 e2 | d/A/c AA/B/ | ce "E"e/d/c | "A"A2 A2 :|
+
+%%newpage
+
+X: 107
+T: Round the Horn
+C: Jay Ungar
+N: Jump Start version
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+(3DEF |:\
+"G"G2G2 BAGA | Bd-de d4 | "C"cdef e2g2 | "D"a6 ga |
+"Em"b2g2 "D"a2f2 | "C"gfed "G"BAGB | "Am"A2d2 BAG2 |1 "Em"E4- EDEF :|2 "Em"E8 ||
+|:\
+"C"e3f e2d2 | "G"B6 B2 | A3A G2A2 | "Bm"B2d2 d4 |
+"C"g3a g2e2 | "G"dedc BAGB | "D"A2d2 BAG2 |1 "Em"E4- EGBd :|2 "Em"E6 |]
+
+X: 108
+T: Johnny, Johnny, Don't Get Drunk
+R: reel
+N: from the Jump Start collection
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|:"D"fa-a2 a2g2 |"(A)"fdec "D"d3A | "G"BABc dBAG | "A"FE-E2   E4 |
+  "D"fa-a2 a2g2 |"(A)"fdec "D"d3A | "G"BABc dBAG | "A"FDEF "D"D4 :|
+|:"D"FA-A2 A4   |     FGAB    A3A | "G"BABc dBAG | "A"FE-E2   E4 |
+  "D"FA-A2 A2d2 | "G" BABc "D"d3A | "G"BABc dBAG | "A"FDEF "D"D4 :|
+
+X: 109
+T: Booth Shot Lincoln
+S: Bruce Molsky
+R: reel
+M: C|
+L: 1/8
+K: A
+[|\
+"A"ECEF E2E2 | "D"FA2B A2A2- | "A"ABcB AcBA | "D"A[A3-F3-] [A4F4] |\
+"A"ECEF E2E2 | "D"FA2B A2f2 | "A"e2c2 "E"BcB2 | "A"A4 A4 :|
+"A"ce2f e4   | "D"fa2b a2f2 | "A"e2c2    AcBA | "D"[A3F3][AG] [A4F4] |\
+"A"ce2f e4   | "D"fa2b a2f2 | "A"e2c2 "E"BcB2 | "A"A4 A2 BA ||
+"A"ce2f e4   | "D"fa2b a2f2 | "A"e2c2    AcBA | "D"[A3F3][AG] [A4F4] |\
+"A"ECEF E2E2 | "D"FA2B A2f2 | "A"e2c2 "E"BcB2 | "A"A4 "D"[A4F4] |]
+
+%%newpage
+
+X: 110
+T: Possum up a Gum Stump [3]
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+B,A, \
+| "G"G,2G,A, B,A,G,B, | "C"CB,CD EFGE |  "G"D2DE DCB,G, | "D"A,3B, A,2B,A, |
+| "G"G,2G,A, B,A,G,B, | "C"CB,CD EFGE | "D7"DEFG AcBA   | "G"G2GF  G2 :|
+|: (3DEF \
+| "G"G2BG AGB2   | "C"G2cG  BGc2 |  "G"G2BG AGB2 | "D7"F4 [dD]3F |
+| "G"G2D2 B,2G,2 | "C"CB,CD EFGE | "D7"DEFG AcBA |  "G"G2GF G2 :|
+
+X: 111
+T: Auld Grey Cat, The
+S: Jump Start's "Joy of Sets"
+M: C|
+R: reel
+K: EDor
+|:\
+"Em"e2e2 E3F | GFGA BABc | "D"d2d2 D3E | FAdB AFED |
+"Em"e2e2 E3F | EFGA BABc | "D"dcBA "(B)"BAGF | "Em"G2E2 E4 :|
+|:\
+"Em"B2e2 e3d | Bdef gfed | "D"A2d2 d3B | ABde fedf |
+"Em"e2B2 "G"g2B2 | "A"a2B2 "B"b3a | "Em"gfed "Bm"BABd | "Em"e4 e4 :|
+
+X: 112
+T: Old Joe
+C: R-151
+M: C|
+Z:
+R: reel
+K: C
+"C"[E3c3]d "C/E"cAGc|  "F"AGAB "F#dim7"cBcd| "C/G"eg2e "A7"ggag| "D7"ega_b "G7"aged|
+"C"c2cd "C7"cAGc| "F"AGAB "F#dim7"cBcd| "G"ega_b "Am"agea| "G/B"gedB "C"c4 :|
+|: \
+"Am"A,4 C4| EA2_E DCA,G,| "Am"A,4 C4| "F7"_E3E DCA,G,|
+"Am"A,2A,2 C4| EA2_E DCA,C| "C"c2cA "F"GcAG| "G"ECDB, "C"C4 :|
+%as in Frets:
+%"C"[E3c3]d "C/E"cAGc|  "F"AGAB "F#dim7"cBcd| "C/G"eg2e "A7"ggag| "D7"ega_b "G7"aged|
+%"C"c2cd "C7"(3c/d/c/A Gc| "F"AGAB "F#dim7"cBcd| "G"ega_b "Am"agea| "G/B"gedB "C"c4 :|
+%"Am"A,4 C4| JEA2_E DCA,G,| "Am"A,4 C4| "F7"_E3E DCA,G,|
+%"Am"A,2A,2 C4| JEA2_E DCA,C| "C"G,2Jc2 "F"cG2E| "G"ECDB, "C"C4 :|
+%%begintext ragged
+%%3/27/02.  From the playing of Rodney Miller as transcribed in "Frets"
+%%magazine with slight changes by Debby Knight
+%%endtext
+
+%%newpage
+
+X: 113
+T: Forked Deer
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: C|
+L: 1/8
+K: D
+A2 |:\
+"D"defg a2f2 | "G"gfge "A7"fdec | "D"defg    a2f2 | "A7"gfed  cBA2 |
+"D"defg a2f2 | "G"gebe "A7"a2fe | "D"dBAF "G"GBAG | "A7"FDEF "D"D4 :|
+|:\
+"A"A4 cABc | ABAG "(E7)"F2E2 | "A"A4 cABc | ABcA "D"d4 |
+"A"A4 cABc | ABAG F2E2 | "D"D2ED "G"FDGD | "A7"FDEF "D"D4 :|
+
+X: 114
+T: Hollow Poplar
+M: C|
+F: http://www.thursdaycontra.com/~spuds/tunes/reels/HollowPoplar.abc
+K: G
+Bc |\
+"G"d4d2 Bc | d2B2 AGAB | "C"c4 c2 AB | c2B2 AGEG |
+"G"DEGA Bdef | g2f2 edBA | G2 BG "D7"AG F2 | "G"G6 :|
+|: Bc |\
+"G"d4g4 | g2f2e2d2 | "D"fa-a2 a2 fg | a2f2 edef |
+"G"gfef gfef | "C"g2 f2 edBA | "G"G2 BG "D7"AG F2 | "G" G6 :|
+
+X: 115
+T: Rock the Cradle Joe
+M: C|
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+R: reel
+K: D
+fg |\
+"D"a2a2 fefg | a2a2 fefg | a2a2 f2e2 | [f3d3]e [f2d2]f2- |
+"D"f2e2 d2e2 | fgfe d2ef | "G"gfed "A7"cABc | "D"d6 :|
+|: cB |\
+"A"Acec Acec | "D"dcde f2f2 | "G"gfgf g2a2 | "D"f3g f4 |
+"A"Acec Acec | "D"dcde f2ef | "G"gfed "A7"cABc | "D"d6 :|
+
+%%newpage
+
+X: 116
+T: Ragtime Annie
+C: R-104
+C: Old-Time,Bluegrass
+C: New England
+M: C|
+Z:
+R: rag
+K: D
+FE |\
+"D"DFBF AFBF | DFBF A2FE | DEFG ABAF | "A"A2c2 c2cB | "A"ABcA B2cB | ABcA BAcB |
+ABcd egfe | "D"d2dc d2 :| fg | "D"a2ab afd2 | A6 fg | a2ab agf2 | "G"g6 ef |
+"A"gfef gfef | gagf e2ef | gagf edcB | "D"A6 fg | "D"a2ab afdB | A2AB A2A2 |
+[F4d4] "C"[E4=c4] | "G"[G6B6] A2 | "G"B2b2 b2ag | "D"f2a2 a2gf | "A"A2ef gfec | "D"d6 |]
+
+X: 117
+T: the Green Meadow
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: C|
+L: 1/8
+K: A
+cB |\
+"A"A2AB cBce | "D"fgaf "A"ecBA | "Bm"FB~B2 BcBA | ~B3c "E7"BAFE |
+"A"A3B {d}cBce | "D"fa{b}af "A"ecBA | "D"FA~A2 ABAF | "E7"EAAB "A"A2 :|
+|: AB |\
+"A"c2{d}cA "E7"~B3c | "A"ABAF E2CE | "Bm"FB~B2 BcBA | FBBA "E7"B{c}BAB |
+"A"c3A "E7"B2B{c}B | "F#m"A2F2 "C#m"E3CE | "D"FA~A2 ABAF | "E7"EAAB "A"A2 :|
+
+X: 118
+T: East Tennessee Blues
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: C|
+L: 1/8
+K: C
+ef |\
+"C"gage gage | gage aged | "F"cdcA cdcA | cdcA dcAc |
+"C"GEGA cAcd | edef g2e2 |1 "D7"d^cde ^fef2 | "G"g4 "G7"g2 :|2 "G"d^cdg- ged2 | "C"c3d c4 ||
+|: "C"e4 e2[e2d2] | [e3c3][ed] [e4c4] | "F"A4 A2[A2G2] | [A3F3][AG] [A4F4] |
+"C"GEGA cAcd | edef g2e2 |1 "D7"d^cde ^fef2 | "G"g3a "G7"g4 :|2 "G"d^cdg- ged2 | "C"c3d c4 ||
+
+%%newpage
+
+X: 119
+T: Home with the girls in the morning
+M: C|
+L: 1/8
+F: http://library.yale.edu/HomeWithTheGirlsInTheMorning.abc	 2010-02-17 23:52:13 UT
+K: C
+%P: AABAAB
+%P:A
+G2 \
+| "Dm"A2d2d4 | "C"cdcB A2G2 | "Dm"A2d2 de d2 | "Am"c2 (A2A2) G2 \
+| "Dm"A2d2d4 | "C"cdcB A2 A(B | cB)A(G "Am"FD) EF | "Dm"D6 :|]
+%P:B
+DE \
+| "Dm"F2F2  "C"E2E2 | "Dm"DEDC A,2 DE  |    F2F2    "C"EDC2  | "Dm"D6 DE \
+| "Dm"F2F2  "C"E2E2 | "Dm"DEDC A,2 A(B | "C"cB)A(G "Am"FD)EF | "Dm"D6 ||
+DE \
+| "Dm"F2F2  "C"E2E2 | "Dm"DEDC A,2 D(E |    FE)D(F  "C"ED)C2 | "D"^F6 DE \
+| "Dm"=F2F2 "C"E2E2 | "Dm"DEDC A,2 A(B | "C"cB)A(G "Am"FD)EF | "Dm"D6 |]
+
+X: 120
+T: John Stenson's #2
+C: John Stenson
+R: reel
+D: Mark Simos, Ashokan '85, also similar in The Portland Collection
+D: Kevin Burke, "If the Cap Fits"
+Z: Transcribed to abc by Debbie Knight
+M: C|
+K: A
+|:"A"ABcA "E"B2cB | "A"ABcA "E"BAFE | "A"ABcA "E"B2ef |  "A"e2cA "E"BAFE  |
+| "A"ABcA "E"B2cB | "A"ABcA "E"BAFE | "D"d2dc    dfed |1 "E"cABc "A"A4   :|2 "E"cdBc "A"ABcd |]
+|:"A"edcd    edcd |    edcA "E"BAFE | "A"e2cd    edcA | "Bm"B3c  "E"BAFE  |
+| "A"edcd    edcd |    edcA "E"BABc | "Bm"d3c    dfed |1 "E"cdBc "A"ABcd :|2 "E"cABc "A"A4 |]
+
+X: 121
+T: Moses Hoe the Corn
+M: C|
+F: http://users.rcn.com/ladysmyth/tunes/MosesHoeCorn.abc
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+K: D
+|:"D"f2af "A"efec | "D"dedB A2AB | dcde    fede | "A"fa-ab  a4    |
+| "D"f2af "A"efec | "D"dedB A2AB | dcde "A"fdec |1 "D"d3c   d4   :|2 "D"d4 "D7"=c4 |]
+|:"G"B3d     BAG2 | "D"FGAB A2ag | fga2    a3a  |    b2a2   fed2  |
+| "G"B3d     BAG2 | "D"FGAB A2a2 | fgaf "A"edc2 |1 "D"d4 "D7"=c4 :|2 "D"d4 d4 |]
+
+%%newpage
+
+X: 122
+T: Woodchopper's Reel
+O: French-Canadian
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+ef |\
+"D"af dB Ad FA | DF Ad f2 ef | "A7"g{f}e cB Ac e^g | a^g ab a2 f=g | "D"af dB Ad FA |
+DF Ad f2 ef | "A7"g{f}e cB Ac ec | "D"df "A7"ec "D"d2 :: AF | "D"DF Ad (3BdB AF | DF Ad (3BdB A2 |
+"A7"A,C EA ce af | gf ed cB AF | "D"DF Ad (3BdB AF | DF Ad (3BdB A2 | "A7"A,C EA ce af | g{f}e cA "D"d2 :|
+
+X: 123
+T: Caribou
+C: by Andy de Jarlis
+R: reel
+M: C|
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+K: Edor
+|:\
+"Em"BEED EFGA | BEED EFGE | "D"DDFD DADD | BDDA DDFD |
+"Em"E2ED EFGA | Bdef g2fg | "C"afge f2ec | "D"dBAF "Em"E4 :|
+|:\
+"Em"Beed efed | Bdef gfed | "D"AddA d3e | fafd edBA |
+"Em"Beed efed | Bdef g2fg | "C"afge f2ec | "D"dBAF "Em"E4 :|
+
+X: 124
+T: John Howett
+M: C|
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+K: D
+fg |\
+"D"a2fd "A"g2ec | "D"d2AG FDDF | "Em"E2FG ABcd | "A7"eAfA g2fg |
+"D"a2fd "A"g2ec | "D"d2AG FDDF | "Em"E2FG ABcd | "A7"eABc "D"d2 :|
+|: A2 |\
+"D"defg afdf | "G"gfed "A"ceAe | "D"defg afdf | "Em"gbag "A"a4 |
+"D"abaf "G"gfed | "A"eAfA "Em"GFED | "D"F2AF "G"GABG | "A"Addc "D"d2 :|
+
+%%newpage
+
+X: 125
+T: Flying Home to Shelley
+C:\251 Paul Gitlitz 1988
+R: reel
+Z:Paul Gitlitz <paulg:pointbob.net> tradtunes 2001-04-03
+B:Paul Gitlitz "Giblitz Fancy"
+N:The chord extentions (6ths etc..) can be dropped for a more Appalachian feel.
+D:David DiGiuseppe's album "Welcome to Heaven" ,
+D:The Elftones " The Moon and Seven Stars"
+D:The Stringbeings on their yet untitled album.
+M:C|
+L:1/8
+K:G
+  "G"DGdG cGBG |"Am"DGcG BGAG |"Bm"DGAG     BGAG | "C"DEGD "(D7)"EDB,C |
+  "G"DGdG cGBG |"Am"DGcG BGAG |"Bm"DGAG "(Am)"BGAG |"D7"DEFD [1 "G"G2z2 :|2 "G"GABc ||
+|:"G"d3B  AGAB |"Am"c3B  AGE2 | "C"e3d  "b/G"BAG2 |"Am"ABdA   "D7"BAGB  |
+  "G"d2dB AGAB |"Am"c[GE]B[GE] AGE2 | "C"e3d  "(Am)"BAG2 |"D7"ABAF [1 "G"GABc :|2 "G"G4 |]
+
+X: 126
+T: Rare
+C: Keith Murphy
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: Portland Collection v.2
+M: C|
+L: 1/8
+K: D
+ A,B,C | "D"D2FD "(A)"EDEF | "D"ABAF EDB,D | "G"G,2G,A, B,DED | "A7"A,G,A,B, CDEC |
+    y8 | "D"D2FD "(A)"EDEF | "D"ABAF EDB,D | "G"G,2G,A, B,DED | "A7"CDEC "D"Dy :|
+|: EFA | "D"(ef)fe dcBA | "G"B2BA "(Em)"GFED | "A7"E2CE A,ECE | A,B,CD EFGE |
+    y8 | "D"D2fe   dcBA | "G"B2BA "(Em)"GFED | "A7"E2CE A,ECE | CDEC "D"Dy :|
+
+X: 127
+T: Shenandoah Falls
+S:Bernie Waugh
+R:reel
+S:Printed page from Debby Knight
+M:4/4
+L:1/8
+K:A
+ cd |\
+"A"e2ef edcB | AB (3cBA "D"d4 | "A"c2cA "(F#m)"B2{cB}Ac | "B7"BAGF "E"E2cd |
+"A"e2ef edcB | AB (3cBA "D"d4 | "A"cBAc "E7"BAG2 | "A"A6 :|
+|: G2 |\
+"Bm"F4 B4 | F2AB- BAF2 | "A"A2cA BcAB | cABc- cBA2 |
+"Bm"F4 B4 | F2AB- Bfed | "D"cdec "E"BAG2 | "A"A4 A2 :|
+
+%%newpage
+
+X: 128
+T: the (Old) Dominion Reel
+O: 1839
+M: C|
+B: George P. Knauffâ€™s Virginia Reels, vol. III (Baltimore, 1839)
+Z: Mary Lou Knack
+R: reel
+M: C|
+L: 1/8
+K: C
+G2 \
+| "C"c2c2 "G7"BcdB | "C"cega gece \
+| "F"f2fd "C"e2ec | "Dm"dcBA "G7"G2AB |
+| "C"c2c2 "G7"BcdB | "C"cega gece \
+| "F"f2fd "C"e2ec | "G7"dcBd "C"c2 :|
+|: G2 \
+| "C"cege cege | "Dm"defe "G7"dcBd \
+| "C"cege cege | "D7"dg^fa "G7"g2G2 |
+| "C"cege cege | "F"f2fe dcBA \
+| "G7"GABc defg | "C"ec"G7"dB "C"c2 :|
+
+X: 129
+T: Don Tremaine's Reel
+O: RJ R-38
+O: New England
+M: C|
+S: Roaring Jelly collection
+R: reel
+K: D
+FG |\
+"D"ABAG FADF | "G"GFGA BcdB | "A"Aceg fcec | "D"dAFB A2FG |
+"D"ABAG FADF | "G"GFGA BcdB | "A"Aceg fcec | "D"d2d2 d2 :|
+|: ef |\
+"G" gage "D"fgfd | "A"efec "D"dAef | "G"gage "D"fgfd | "A"ea2b  a2ef |
+"G" gage "D"fgfd | "A"efec "D"dAFD | "G"G2EG "D"FEDF | "A"EDCE "D"D2 :|
+
+X: 130
+T: Shenandoah Falls
+S:Bernie Waugh
+R:reel
+S:Printed page from Debby Knight
+M:4/4
+L:1/8
+K:A
+ cd |\
+"A"e2ef edcB | AB (3cBA "D"d4 | "A"c2cA "(F#m)"B2{cB}Ac | "B7"BAGF "E"E2cd |
+"A"e2ef edcB | AB (3cBA "D"d4 | "A"cBAc "E7"BAG2 | "A"A6 :|
+|: G2 |\
+"Bm"F4 B4 | F2AB- BAF2 | "A"A2cA BcAB | cABc- cBA2 |
+"Bm"F4 B4 | F2AB- Bfed | "D"cdec "E"BAG2 | "A"A4 A2 :|
+
+%%newpage
+
+X: 131
+T: Fisher's Hornpipe
+R: hornpipe
+M: C|
+K: D
+(3ABc |\
+"D"dAFA "G"GBAG | "D"FDFD "G"GBAG | "D"FDFD "G"GFGB | "D"AFDF "A"E2 (3ABc |
+"D"dAFA "G"GBAG | "D"FDFD "G"GBAG | "D"FAdf "A"gece | "D"d2d2 d2 :|
+|: cd |\
+"A"ecAc efge | "D"fdAd fgaf | "A"ecAc efgf | "E"edcB "A"A2A2 |
+"G"BGDG BcdB | "D"AFDF ABcA | "G"BcdB "A"AGFE | "D"D2D2 D2 :|
+
+X: 132
+T: Saratoga Hornpipe
+M:4/4
+L:1/8
+B:Cole's
+K:F
+AB \
+| "F"c=BcA "Bb"d_Bfd | "F"cAFA cAdc | "C7"BAGB "F"AGFA | "G7"Gc=Bd "C7"c_BAB |
+| "F"c=BcA "Bb"d_Bfd | "F"cAFA cdef | "Bb"defg "C7"efga | "F"f2a2 f2 :|
+|: {e}fg \
+| "Dm"aAgA fAeA | fAeA dAfA | "A7"eA^ce agfe | "(Dm)"fgef "Dm"defg |
+| "Dm"aAgA fAeA | fAeA dAdf | "C7"efga bgeg | "F"f2a2 f2 :|
+
+X: 133
+T: Saturday Night Breakdown
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: C|
+L: 1/8
+K: C
+ef | "C"g2g2 aged | c2G2 E2G2 | "F"FEFE DEFG | "G7"AG-G2 G2ef |
+y4   "C"g2g2 aged | c2G2 E2G2 | "F"FEFd0 "G7"dcB2 | "C"c4 c2 :|
+|: AB | "C"cBAG E2AB | cBAG E3F- | "F"FEFE DEFG | "G7"AG-G2 G2AB |
+y4      "C"cBAG E2AB | cBAG E2E2 | "F"FEFd- "G7"dcB2 | "C"c4 c2 :|
+
+%%newpage
+
+X: 134
+T: Tam Lin: alternate version
+C: Davey Arthur
+R: reel
+B: The Portland Collection v.2 p.200
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+|: "Dm"A,D (3DDD A,DFD | "Bb"B,2DB, FB,DB, | "C"C2EC GCEC | "Dm"FEDC "Am"DCA,G, |
+y3 "Dm"A,D (3DDD A,DFD | "Bb"B,2DB, FB,DB, | "C"C2EC GCEC | "Am"FEDC "Dm"D4 :|
+|: "Dm"dcAG F2D2 | dcAG F2D2 | "C"cE (3EEE cEdE | cE (3EEE c=Bc^c |
+y1 "Dm"dcAG F2D2 | dcAG F2DC | "Bb"B,2B,C D2DE | "Am"FEDC "Dm"D4 :|
+
+X: 135
+T: Devil in the Strawstack
+M:C|
+L:1/8
+K:Gm
+|: "Gm"GFDF GFDF | GFDF "F"C4 | "Gm"GFDF G2 d2- | "Dm"dcAc dcAc |
+y2 "Gm"GFDF GFDF | GFDF "F"C4 | "Gm"GFDF G2 d2- | "Dm"dcA2 "Gm"G4 :|]
+|: "Gm"d2g2g4 | gagf d4 | "F"fAgA fAgf | "Dm"dcAc d4 |
+y1 "Gm"d2g2g4 | gagf d4 | "F"fAgA fAgf | "Dm"dcA2 "Gm"G4 :|]
+
+X: 136
+T: East Tennessee Blues
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: C|
+L: 1/8
+K: C
+ef |\
+"C"gage gage | gage aged | "F"cdcA cdcA | cdcA dcAc |
+"C"GEGA cAcd | edef g2e2 |1 "D7"d^cde ^fef2 | "G"g4 "G7"g2 :|2 "G"d^cdg- ged2 | "C"c3d c4 ||
+|: "C"e4 e2[e2d2] | [e3c3][ed] [e4c4] | "F"A4 A2[A2G2] | [A3F3][AG] [A4F4] |
+"C"GEGA cAcd | edef g2e2 |1 "D7"d^cde ^fef2 | "G"g3a "G7"g4 :|2 "G"d^cdg- ged2 | "C"c3d c4 ||
+
+%%newpage
+
+X: 137
+T: Durang's Hornpipe
+R: hornpipe
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: "D"DEFE DEFA | "G"B2Bd BAFE | "D"DEFE DEFD | "A7"B,A,B,C "D"D2D2- |
+y2 "D"DEFE DEFA | "G"B2Bd BAFG | "A7"ABde fdec | "D"d3c d4 :|
+|: "D"f2fa fedA | "G"B2Bd BAFA | "Em"GDFD E2A2 | "A7"e3f e2f2- |
+y1 "D"f2fa fedA | "G"B2Bd BAFG | "A7"ABde fdec | "D"d3c d4 :|
+
+X: 138
+T: Seneca Square Dance
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+A2 | "G"B4 BABc | d2B2- B2A2 | "Em"B4 BAB2 | AG-GE G2A2 |
+y4   "G"B4 BABc | d2B2- B2AB | "D7"cBAG FDEF | "G"G6 :|
+|: d | "G"g2ga gfe2 | dB-Bd B2ef | gfef g2a2 | "Em"be-ef e2ef |
+y3     "C"g2ga gfe2 | "G"dB-Bd B2AB | "D7"cBAG FDEF | "G"G6 :|
+
+X: 139
+T: Ruffled Drawers
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: C|
+L: 1/8
+K: D
+dB | "D"A2f2 fgfe | "G"d2B2 BcdB | "D"A2f2 fgfe | "G"dB-B2 B2dB |
+y4   "D"A2f2 fgfe | "G"d2B2 BcdB | "D"ABAG "A7"FDE2 | "D"D3E D2 :|
+|: AB | "D"AF3 F2AB | AF-FE F2AB | A2F2 FED2 | "A7"E3D E2AB |
+y3      "D"AF3 F2AB | AF-FE F2D2 | "A7"EDE2 FDE2 | "D"D3E D2 :|
+
+%%newpage
+
+X: 140
+T: Through the Gates
+C: Russ Barenberg
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+DE |\
+"D"EF-FF- FEDB, | A,B,DE F2A2 | "G"Bd-dd- dBAF | "D"AFDF "A7"E2DE |
+"D(Bm)"EF-FF- FEDB, | A,B,DE F2A2 | "G"Bd-dd- dBAF | "A7"AFEF "D"D2 :|
+|: zA |\
+"D"(B/c/d) dd- dd (B/c/d) | ddBd efed | "Bm"(B/c/d) dd- dd (B/c/d) | dBAB "A7"AFED |
+"D(G)"(B/c/d) dd- dd (B/c/d) | ddBd efaf | "Bm(Em)"edBd "D"AFAB | "G"dABd "A7"AFED :|
+
+X: 141
+T: Rainy Night in Montague
+C: George Reynolds
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Ddor
+|:\
+"Dm"ADCA, G,A,CD | ADCA, G,A,CD | "C"E2ED EGED | E2ED EGED |
+"Dm"ADCA, G,A,CD | ADCA, G,A,CD | "C"E2ED "Am"EGED |1 "Dm"D2DD G,A,CD :|2 "Dm"D2DD D2DD ||
+|:\
+"Dm"Addc d2dc | AGAB c2cB | "C"AGEG AdcB | "Am"A2AB c2cB |
+"Dm"Addc d2dc | AGAB c2cB | "Am"AGEG AGED |1 "Dm"D2DD DEFG :|2 "Dm"D2DD D2DD |]
+
+X: 142
+T: Fiddler's Dream
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: C|
+L: 1/8
+K: D
+|:\
+"D"A,B,DE FEDB, | A,B,DE FEDB, | "G"G,A,B,D EFGA | Bdef gfed | "A7"c2cd cBAF |
+"A7"EFAB cdef |1 gfed cAB2 | "D"A3B A2A2 :|2 gfed cABc | "D"d4 d2fg ||
+|:\
+"D"a4 a4 | b2a2 fedf | b2a2 fed2 | "G"B3c B4 | "A"c2cd cBAF |
+"A7"EFAB cdef |1 gfed cAB2 | "D"A3B A2fg :|2 "A7"gfed cABc | "D"d4 d4 |]
+
+%%newpage
+
+X: 200
+T: The Joy of Sets -- Celtic Tunes
+O: from Paul Lizotte of Jump Start
+K:
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+X: 201
+T: the Flowers of Edinburgh
+C: James Oswald, c.1742
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+N: Probably the best-known Scottish reel; in all the old collections.
+N: RSCDS 1-1.
+N: Hardie p.32
+N: Skye p.170
+N: Bain p.33
+N: Williamson p.53
+N: BSFC I-10 and  V-9 and  XI-6
+D: Scottish  Traditional Fiddle Music tape
+D: Jimmy MacLellan on "This is Sidney" tape
+M: C|
+L: 1/8
+K: G
+   GE \
+| "G"D2DE G2GA | BGBd cBAG | "D7"FGFE DEFG | AFdF E2GE |
+| "G"D2DE G2GA | BGBd "C"efge | "G"dcBA "D7"GFGA | "G"B2G2 G2 :|
+|: d2 \
+| "G"g2gd gbag | "D7"f2fd fagf | "Em"~e2ef gfed | B2e2 "(C)"e2ge |
+| "G"dBGB d2d2 | "C"edef g2fe | "G"dcBA "D7"GFGA | "G"B2G2 G2 :|
+
+%%newpage
+
+X: 202
+T: Hugh Shortie's Reel
+C: John Wilmot
+O: Cape Breton
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: BSFC X-7
+K: G
+|: "G"~G2BG "D7"cAFA | "G"GABd g2fg | "C"ecAc "G"dBGB | "Am"cAAB "D7"AFD2 |
+|  "G"~DGBG "D7"cAFA | "G"GABd g2fg | "C"ecAc "G"dBGB | "D7"cAFA "G"G4 :|
+|| "G"~g2dg bgag | "C"ec~c2 "(Am)"efge | "G"dB~B2 "(Em)"dBGB | "Am"cAAB "D7"AFD2 |
+|  "G"~g2dg bgag | "C"ec~c2 "(Am)"efge | "G"dB~B2 "(Em)"dBGB | "D7"cAFA "G"G4 ||
+|| "G"~g2dg bgag | "C"ec~c2 "(Am)"efge | "G"dB~B2 "(Em)"dBGB | "Am"cAAB "D7"AFD2 |
+|  "C"G,CEC "G"B,DGB | "D7"cdef "G"g2fg | "C"ecAc "G"dBGB | "D7"cAFA "G"G4 |]
+
+X: 203
+T: the Earl's Chair
+R: reel
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bm
+A \
+| "Bm"B2Bd BAFA | "(G)"B2dB "(A7)"BAFB | "D"AFF2 DFF2 |     AFdB    ADFA |
+| "Bm"B2Bd BAFA | "(G)"B2dB "(A7)"BAFB | "D"AFAB defd | "A7"edef "D"d3  :|
+f \
+|:"Em"e2ef "Bm"d2df | "Em"edef "Bm"dBAB | "Em"e2ef "D"d2de | "Bm"fedB "D"ADFA |
+| "Em"e2ef "Bm"dBB2 | "Em"gBB2  "D"defg | "Bm"afbf "D"afeg | "Bm"fedB "D"ADFA :|
+
+X: 204
+T: Sandy MacIntyre's Trip to Boston
+O: Cape Breton
+Z: John Chambers (from handwritten transcription by B.McOwen)
+Z: From Jeff Rooney jeff.rooney:alcatel.com
+M: 4/4
+L: 1/8
+K: A
+F \
+| "A"E2 CE A,ECE | Acef ecAe | "D"f2af "A"ecAc | "Bm"dBcA "E7"BAFA |
+| "A"E2 CE A,ECE | Acef ecAe | "D"f2af "A"ecBc | "E7"dfec "A"A3 :|
+|: f \
+| "A"eA~c2 ecBc | "A7"ABce "D"f3a | "A"eA~c2 "F#m"dcBc | "Bm"dfec "E7"B3f |
+| "A"eA~c2 ecBc | "A7"ABce "D"f3g | agfe fgaf | "E7"ecBc "A"A3 :|
+
+%%newpage
+
+X: 205
+T: Mulqueen's Reel
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: printed MS from Jump Start repertoire
+M: C|
+L: 1/8
+K: D
+BAG |\
+"A7"F2EG "D"FDDG | "A7"FDAG "D"FDDE | "A7"F2EG "D"FDDG | "A7"FABc "D"dy :::|
+|: dcd |\
+"A"e2-e2 efed | "A"cdef "G"g2fg |\
+[1,3 "A"a2e2 efed | "A7"cABc "D"d :|\
+[2,4 "D"a2f2 "A7"g2e2 | "A7"dfec "D"d :|
+
+X: 206
+T: Julia Delaney
+C:anon
+B:Francis O'Neill: "The Dance Music of Ireland" (1907) no. 643
+Z:2012 John Chambers <jc:trillian.mit.edu>
+R:Reel
+M:C|
+L:1/8
+K:Dm
+|: "Dm"dcAG F2DF | "C"E2CE "Dm"F2D2 | dcAG F2DF |\
+[1,3 "Am"Addc "Dm(Bb)"defe :|[2,4 "A(m)"Add"#"c "Dm"d4 :|
+|: "Dm"{e}f2fe fagf | "C"e{d}cgc acgc |\
+[1,3 "Dm"fede fagf | "C"edce "Dm"Adde :|\
+[2,4 "Dm"fedf "C"edce | "A(m)"Add"#"c "Dm"d4 :|
+
+X: 207
+T: Union Street Session
+C: Paul Cranford
+M: 4/4
+L: 1/8
+R: reel
+K: D
+   c |\
+"D"d2AG F2DF | "A7"EA,A,2 GFED | "D"F2AF "G"GABd | "A7"AEE2 cdec |
+"D"d2AG F2DF | "A7"EA,A,2 GFED | "D"F2AF "G"GABd | "A7"AEE2 "D"FDD :|
+|: c |\
+"D"d2fd "G"gdfa | "A7"eA A/A/A cdec | "D"d2fd "G"g2fg | "A7"aeeg (3fga ec |
+"D"d2fd "G"gdfa | "A7"eA A/A/A cdeg | "D"f2ed "A7"e2cd | "A7"e2dc "D"d2A :|
+
+%%newpage
+
+X: 208
+T: Tuttle's
+T: Mills are Grinding
+T: Customs Gap
+F:http://www.irishtradmusic.org/100jigsreels.ABC
+M:C|
+L:1/8
+Q:200
+S:THSP
+R:reel
+Z:
+K:Ddor
+|:\
+"Dm"A,DDE FEFG | A2Gc Ad~d2 | A,DDE F2dB | "C"cAGE FDEC |
+"Dm"A,DDE FEFG | A2Gc Ad~d2 | fded dcAB |1 "C"cAGE "Dm"FDEC :|2 "C"cAGE "Dm"EDD2 ||
+|:\
+"Dm"d2dB "C"c2cG | "Dm"AddB "C"cAGA | "Dm"d2dB "C"cdcA | GEcE "Dm"EDD2 |
+d2dB "C"c2cG | "Dm"Addc "C"d2de | "Dm"fded dcAB |1 "C"cAGE "Dm"EDD2 :|2 "C"cAGE "Dm"FDEC |]
+
+X: 209
+T: Pigeon on the Gate
+M: C|
+L: 1/8
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+K: EDor
+dc \
+| "Em"BEE2 BEdE | "Em"BEE2 dBAF | "D"D2FD ADFD |  "D"  DEFA   BAdc |
+y4 \
+| "Em"BEE2 BEdE | "Em"BEE2 dBAF | "D"D2FA dfec | "(Bm)"dBAF "Em"E2 :|
+|: FA \
+| "Em"Beed efed | Bdef gfed | "D"Add2 dedB |  "D"  ABde   fded |
+y4 \
+| "Em"Beed efed | Bdef g2fg | "D"afge fdec | "(Bm)"dBAF "Em"E2 :|
+
+X: 210
+T: Brumley Brae
+C: William McPherson
+R: reel
+B: RSCDS 39-1
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+   A2 \
+| "D"d2cd AFDd | cdAF DFAF | "Em"E2EF GFED | CEGB "A7"=cA^cA |
+   y2 \
+| "D"d2cd AFDd | cdAF DFAF | "Em"Begf "E7"edcB | "A7"AGFE "D"D2 :|
+|: a2 \
+| "D"^gafd Aaga | fdAa ^gafd | "Em"eBBe bagf | "E7"edcB "A7"A^ABc |
+   y2 \
+| "D"d2cd AFDd | cdAF DFAF | "G"GB,DB, "A7"A,CEG | "D"F2"G"D2 "D"D2 :|
+
+%%newpage
+
+X: 300
+T: The Joy of Sets -- Qu\'ebec Tunes
+O: from Paul Lizotte of Jump Start
+K:
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+X: 301
+T: reel de Mattawa
+C: Richard Forest
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: The Portland Collection, v.1 p.132
+M: C|
+L: 1/8
+K: Edor
+ef \
+| "Em"gefd ecdB | "D"ABAF DEFD | "Em"EFGA B2ef | "C"gfed "D"Adef |
+| "Em"gefd ecdB | "D"ABAF DEFD | "Em"EFGA B2AG | "D"FAGF "Em"E2 :|
+|: zA \
+| "Em"B2eB gBeB | ABeB gBeB | "D"d2fd gdfd | Adfd gdfd |
+| "Em"B2eB gBeB | ABeB "(C)"gBeB | "D"f3g fedc | "Bm"Bcd2 "Em"e2 :|
+
+X: 302
+T: Hommage \`a la belle Gasp\'esie
+C: Marcel Messervier
+M: C|
+L: 1/8
+Z: 20040503 by John Chambers jc:ecf-guest.mit.edu
+K: A
+EA \
+| "A"c3d cBAc | feef e2EA | c3d cBAc | "Bm"edde d2Bc |
+| "(E7)"dcde dcBA | "E7"BABc B2cd | edef edcB |1 "A"cBcd cA :|2 "A"Ac "E7"(3BcB "A"A2 |]
+|: ce \
+| "D"aA=gA fAeA | "A"Acef ecAF | "E7"EGBc (3dcB GB |1,3 "A"ABcd e2 :|2,4 "A"Ac "E7"(3BcB "A"A2 :|
+
+X: 303
+T: Reel Joseph
+C: Marcel Messervier
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A "A7"Bcde \
+| "D"f3f fafd | A2~F2 ~E2D2 | "G"G3G GDGB | "Em"ddd2- dedB | "A"c2cd cAce |
+| a2~g2 ~f2~e2 |[1 "D"d2cd fedc | "Em"B3 :|[2 "D"d2~A2 "A"BAFA | "D"d2zd "E7"ddcd |]
+|: "A"~e2ce a3e | efed ~c2Ac | "E7"BABc d2~B2 | "A"AEAB c2Ac |
+| "A"~e2ce a3e | efed "F#m"~c2Ac | "Bm"BABc "E7"d2~B2 |[1 "A"AB (3cBA a2ze :|[2 "A"A3 |]
+
+%%newpage
+
+X: 304
+T: reel de Mattawa
+C: Richard Forest
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+B: The Portland Collection, v.1 p.132
+M: C|
+L: 1/8
+K: Edor
+ef \
+| "Em"gefd ecdB | "D"ABAF DEFD | "Em"EFGA B2ef | "C"gfed "D"Adef |
+| "Em"gefd ecdB | "D"ABAF DEFD | "Em"EFGA B2AG | "D"FAGF "Em"E2 :|
+|: zA \
+| "Em"B2eB gBeB | ABeB gBeB | "D"d2fd gdfd | Adfd gdfd |
+| "Em"B2eB gBeB | ABeB "(C)"gBeB | "D"f3g fedc | "Bm"Bcd2 "Em"e2 :|
+
+X: 305
+T: (Hommage \`a) la Belle Gasp\'esie
+C: Marcel Messervier
+M: C|
+L: 1/8
+Z: 20040503 by John Chambers jc:ecf-guest.mit.edu
+K: A
+AB \
+|:"A"c3d cBAc | fee^d e2EA \
+| c3d cBAc | "Bm"eddc d3c |
+| "E7"dcde dcBA | BABc B3e \
+| e^def e=dcB |1 "A"cBcd c2EA :|2 "A"Ac "E7"BG "A"A4 |]
+|:"A"aA=gA fAeA | Acef "F#m"ecBA \
+| "E7"E2BE cEBE |1,3 "A"ABcd ecBA :|2,4 "A"Ac "E7"BG "A"A4 :|
+
+X: 306
+T: Reel Joseph
+C: Marcel Messervier
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+S: printedMS of unknown origin
+M: C|
+L: 1/8
+K: D
+|:"D"f4 fafd | A2F2 E2{FE}D2 | "G"G2DG GDGB | "Em"d4 "E7"dedB | "A"c4 cAce |
+| a2g2 f2e2 |[1 "D"d2cd fedc | "A"B2{cB}A2 FAde :| |[2 "D"d2A2 "A"BcBA | "D"d4 d2 |]
+K: A
+|: cd \
+| "A"e2ce a2de | efed c4 | "E7"BABc d2B2 | "A"AEAB cBAc |
+| "A"e2ce a2de | efed c4 | "Bm"BABc "E7"d2B2 |1 "A"ABcB A2 :|2 "A"A4 "A7"FAde |]
+
+%%newpage
+
+X: 307
+T: Saint Anne's Reel
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: C|
+L: 1/8
+K: D
+e2 |\
+"D"f2fg fedB | A2FA A2FA | "G"B2GB B2GB | "D"ABAG FAde |
+"D"f2fg fedB | A2{BA}FA DAFA | "G"BGBd "A7"cAce | "D"d2f2 d2 :|
+|: gf |\
+fdfa fdfa | "Em"aggf g2gf | "A7"edcB Aceg | "D"baa^g a2a=g |
+fdfa fdfa | "Em"aggf g2gf | "A7"edcB Aceg | "D"fd"A"ec "D"d2 :|
+
+X: 308
+T: Evit Gabriel
+C:Daniel Thonon
+R:reel
+Z:transcribed to ABC by Debby Knight
+M:C|
+L:1/8
+K:Em
+|: "Em"EFGF EFGF | EFGA B2AB |"Am"cBAG F2GA | "Em"BAGB "B7"F4 |
+|  "Em"EFGF EFGF | EFGA B2AB | "Am"cBAG "B7"FBGF | "Em"EG"B7"FD "Em"E4 :|
+|: "Am"eAAe "D"dcBc | "G"dGGd "C"cBAG | "D7"FGAc "B7/D#"BAGF | "Em"GFGA "E7"B2cd |
+|  "Am"eAAe "D"dcBc | "G"dGGd "C"cBAG | "D7"FGAc "B7/D#"BAGF| "Em"GA"B7"FG "Em"E4 :|
+
+X: 309
+T: Hommage \`a Edmond Pariso (Pariseau)
+R: reel
+Z: transcribed to ABC by Debby Knight
+M: C|
+L: 1/8
+K: A
+A ABcd | "A"eAAe AAeA | AeAA "D"f2ed | "A"ceAB cAeA | ceAc "F#7"dedc |
+"B(m)7"B3B BABc |1 "E7"B3e efed | "A" c2B2 AcBA | "E7"E3 :|\
+[2 "E7"e2d2 c2B2 | "A"Afed "E7"cdBc | "A"A2c2 "A7" B2 A2 |]
+|: \
+"D"a4 "Em7/C#"f4 | "Bm7"d3A "E7"d2f2 | "A" e3e "E/G#"efec | "F#m"A2c2 B2A2 | "Bm"B2BB BABc |
+"E7"e2d2 c2B2 |1 "A"cBAc "E7"ecef | "A"e2c2 "A+/C#"B2A2 :|[2 "A"Afed "E7"c2B2 | "A"A3 |]
+
+%%newpage
+
+X: 310
+T: Reel Saint-Joseph
+O: Qu\'ebec
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+A2 |\
+"D"defd "A7"cdec | "D"defd A2dc | "G"B2gf edcB | "A"Aaab agfe |
+"D"defd "A7"cdec | "D"defd A2dc | "G"B2gf edcB | "A7"Agec "D"d2 :|
+|: de |\
+"D"f2fg fedc | "G"BAG2 "Em"g3f | "A7"e2ef edcB | Aaab agfe |
+"Bm"f2fg fedc | "G"BAG2 "Em"g3f | "A7"e2ef edcB | "A7"Agec "D"d2 :|
+
+X: 311
+T: Reel Eug\`ene
+R:reel
+Z:Transcribed to abc by Mary Lou Knack
+M:C|
+K:D
+|:\
+"Bm"B2Bc dcB2 | "Em"e2ef gece | "F#7"f2fg fece | fbbf bfdc |
+"Bm"B2Bc dcB2 | "Em"e2ef gece | "F#7"f2fg fedc |1 "Bm"B4 "F#7"F4 :|2 "Bm"B4 "A7"A4 |]
+|:\
+"D"f2fe d2dB | AAdf "B7"b2f2 | "Em"a2ag "(A7)"e2 (3cdc | "A7"Aceg fdAd |
+"D"f2fe d2dB | AAdf "B7"b2f2 | "Em"a2ag "A7"e2ce |1 "D"df"A"ec "D"d2de :|2 "D"df"A"ec "D"d2"A"c2 :|
+
+X: 312
+T: L\'evis Beaulieu
+R:reel
+Z:2012 John Chambers <jc:trillian.mit.edu>
+B:Portland Collection v.1 p.125
+M:C|
+K:A
+ed |\
+"A"c2AA AcBA | "D"FBAF "A"E4 | "Bm"BABc d2B2 | "A"AGAc "E7"efed |
+"A"c2AA AcBA | "D"FBAF "A"E4 | "Bm"BABc "E"dBed | "A"c2A2 A2 :|
+|: ce |\
+"A"a2ab afed | cAce a2ef | "G"=g2ga ged=c | B=GBd =g2e^g |
+"A"a2ab afed | cAce a2ee | "A"efec "E"dBed | "A"c2A2 A2 :|
+
+%%newpage
+
+X: 313
+T: Old French Reel
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|: ((3ABc) \
+| "D"d2cd BdAF | DFAd f2ed | "A7"cdef gece |1,3 "D"defd A2 :|2,4 "D"d2f2 d2 :|
+|: cd \
+| "A"efed c2A2 | AEAc e2dc | "G"BGBd gfed |1,3 "A"cAce a2 :|2,4 "A"c2A2 A2 :|
+
+X: 314
+T: Glise \`a Sherbrooke
+T: the Big Ship
+O: trad Qu\'ebec
+R: reel
+B: Kennedy
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|:\
+"G"B2B2 "C"cBce | "G"d2dc BABd | "D7"cdcB A2A2 | "G"dedc BAGA |
+"G"B2B2 "C"cBce | "G"d2dc BABd | "D7"cdcB AFDF | "G"GB"D"AF "G"G2G2 :|
+|:\
+"C"g2gf efge | "G"d2dc BGBd | "D7"c2cB ABcA | "G"dedc BGBd |
+"C"gagf efge | "G"d2dc BGBd | "D7"cdcB A2F2 | "G"GB"D"AF "G"G2G2 :|
+
+X: 315
+T: Gasp\'e Reel
+O: trad. Qu\'ebec
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+%%staffsep 45
+|: "D"f2ef e2dF | A2FA B2A2 |\
+[1,3 "Em"g2fg f2eA | "A7"BABc B2A2 :|\
+[2,4 "Em"g2fa gfeA | "A7"B2c2 "D"d4 :|
+|: "A7"e2f2 g2fe | "D"f2g2 a4 \
+|1,3 "Em"e2f2 gfec | "A7"BABc B2A2 \
+:|2 "Em"e2f2 gfeA | "A7"B2c2 "D"d4 \
+:|4 "G"b2a2 "Em"gfeA | "A7" B2c2 "D"d4 :|
+
+%%newpage
+
+X: 316
+T: le Diable Vert
+S: Printed MS from Debby Knight
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+DC \
+| "G"B,G,B,D GDGB | ed ~d2 dBGB \
+| "C"cBAG "D7"FDEF |1,3 "G"GBAG "D7"FE \
+:|2,4 "G"GB"D"AF "G"G2 :|
+|: GA \
+| "Em"[B3E3][BE] [B2E2] ef | "Em"gfeg "Bm"fB~B2 \
+| "Em"eBBe B[eB]ef | "Em"gB{c}BA "D"BAGA |
+| "Em"BEBE B2 ef | "Em"gfeg "Bm"fB~B2 \
+| "C"efg{f}e "G"dBGB | "D7"cBAF "G"G2 :|
+
+X: 317
+T: Growling Old Man and Grumbling Old Woman
+T: La chicaneuse
+C: French Canadian
+M: C|
+L: 1/8
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: Ador
+A,B, \
+| "Am"CA,[A,E]A, CA,[A,E]A, | "G"B,G,[G,D]G, B,G,[G,D]G, |\
+| "Am"CA,[A,E]A, CA,[A,E]A, |1,3 "G"B,G,[G,D]G, "Am"A,2 :|2,4 "G"B,G,[G,D][B,D] "Am"[A,2E2] :|
+|: ^cd \
+| "A" efed ^cdef | "G"g{f}ed=c BGGB | "A"efed ^cAcd | eaa^g a2ef |
+| "A"=gfed ^cdef | "G"g{f}ed=c BGGB | "Am"c2B2 {cB}AGE[FD] | "G"GEDB, "Am"A,2 :|
+
+X: 318
+T: Reel Ti-M\'e
+C: Marcel Messervier
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+fg |\
+"D"afbf afde | (3faf (3ege dBAG | FAdA FAdf | "Em"e2[B2G2] [B2G2]ef |
+"A7"gfga gfed |cBce c3B | AB (3cBA gfga | ba^ga "D"f2df |
+"D"afbf afde | (3faf (3ege dBAG | FAdA FAdf | "Em"e2[B2G2] [B2G2]ef |
+"A7"gfga gfed |cBce c3B | AB (3cBA gABc | "D"df"A7"ec "D"d2 :|
+|: d2 |\
+"D"D2FA dAFA | "G"G2BG =cGBG | "A7"AAkeA AkfAA | kgAAg fecA |
+"D"D2FA dAFA | "G"G2BG =cGBG | "A7"AAkeA AkfAA | gece "D"d2 :|
+
+%%newpage
+
+X: 319
+T: Reel de R\'emi
+R: reel
+M: C|
+K: D
+AG \
+| "D"FD-DD "D7/F#"DFA=c | "G"BG-GF  "Em"G2ed | "A7"cA-AA Aceg | "D"fdAd fd"A7"AG | "D"FD-DD "D7/F#"DFA=c |
+"G"BG-GF  "Em"G2ed | "A7"cA-AA Aceg | fdec "D"d2 :: ef | "G"g2gf g2b2 | "D"abaf "Bm"d2a2 |
+"Em"gece "A7"Acec | "D"dcde fdef  | "G"g2gf g2b2 | "D"abaf "Bm"dfaf | "Em"gece "A7"Aceg | fdec "D"d2 :|
+
+X: 320
+T: Reel Béatrice
+%T: Oggi Nevica (Today it snows)
+C: T.Fantini
+R: reel
+D: La Bottine Souriante "Je Voudrais Changer D'Chapeau"
+Z: John Chambers <jc:trillian.mit.edu>
+N: Well-known in New England, and many variants exist.
+N: According to Paul M.  MacDonald, the original reel began as a polka from  the
+N: Ballo  Liscio  dance  repertoire  called "Oggi Nevica" (which means 'today it
+N: snows'), played by Riccardo Tesi, an Italian accordion player.
+M: C|
+L: 1/8
+K: Am
+A,B, | "Am"C2A,C E2CE | A2EA EGAB | c2Ac e2ce | aeea egab | c'bag fedc |
+"Dm"Bd2B d4 | "E7"e^def e=dcB | "Am"A2A,A, A,2 :: ^g2 | "Dm"a2^ga bff2 | "Am"fe^de a4 |
+[1,3 "E7"e2^de f2e=d | "Am"cdcB cBA2 ::|2 "E7"e^def e=dcB | "Am"AA,A,A, A,2z2 :|4 "E7"e^def e=dcB | "Am"A2z2 "G7"G2AB ||
+|: "C"c2Gc EGce | c2Gc EGce | "G7"d2Bd GBdB | [1,3 "C"c2ba "(G7)"gfed :|2,4 "C"ce"G7"dB "C"c2z2 :|
+
+X: 321
+T: reel du Grandp\`ere
+O: Qu\'ebec
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+(3DEF |: "G"G2FG (3EGE DF | GABc d3d | "C"ef (3gfe "G"dBGB |1,3 "Am"ABAG "D7"FDEF :|2,4 "D7"ABAF "G"G2 :|
+K: D
+|: AG | "D"FA- AA ABAG | FAde f3f | "G"gfeg "D"fedf |1,3 "Em"edcB "A7"AB :|2,4 "A7"efec "D"d2 :|
+
+X: 322
+T: L\'evis Beaulieu
+R:reel
+Z:2012 John Chambers <jc:trillian.mit.edu>
+B:Portland Collection v.1 p.125
+M:C|
+K:A
+ed |\
+"A"c2AA AcBA | "D"FBAF "A"E4 | "Bm"BABc d2B2 | "A"AGAc "E7"efed |
+"A"c2AA AcBA | "D"FBAF "A"E4 | "Bm"BABc "E"dBed | "A"c2A2 A2 :|
+|: ce |\
+"A"a2ab afed | cAce a2ef | "G"=g2ga ged=c | B=GBd =g2e^g |
+"A"a2ab afed | cAce a2ee | "A"efec "E"dBed | "A"c2A2 A2 :|
+
+%%newpage
+
+X: 323
+T: Aim\'e Gagnon's #2
+O: Qu\'ebec
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: printed page from Debby Knight
+M: C|
+L: 1/8
+K: G
+   DC | "G"B,DGA B2DC | B,DGA "E7"B2AG | "Am"FGAB "D7"cAFA |1,3 "G"GABc "D7"d2 :|2,4 "D7"GBAF "G"G2 :|
+|: Bd | "G"gddg  ddgd | Bcde  "E7"dBAG | "Am"FGAB "D7"cAFA |1,3 "G"GABc "D7"d2 :|2,4 "D7"GBAF "G"G2 :|
+
+X: 324
+T: reel de Sainte-Louise
+O: trad Qu\'ebec
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+Ad | "D"f2f{a}f "A7"edeg | "D"fafd "(B/d#)"Adfd | "Em"eA2A Acec |1,3 "A"dcde "A7"fA :|2,4 "A7"dfec "D"d2 :|
+|: ef | "G"gbge "E/g#"Aceg | "D/a"fafd Adfd | "A"eAAA Acec |1,3 "D"dcde f{a}f ef :|2,4 "A7"dfec "D"d2 :|
+
+X: 325
+T: Reel Saint-Antoine
+O: Qu\'ebec
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+e2 | "A"a2aa- aece | a2aa- aece | agfe dcBA |1,3 "E7"GABc defg :|2,4 "E7"GABG "A"A2 :|
+|: AB | "A"c2cc- cBce | dcBA GABc |1,3 "D"d2dd- dcdf | "E7"edcB "A"A2 :|2,4 "D"defg afed | "E7"cABG "A"A2 :|
+
+%%newpage
+
+X: 326
+T: reel des Esquimaux
+T: the Eskimos' Reel
+O:Quebec
+M:4/4
+L:1/8
+R:reel
+K:G
+(3DEF |\
+"G"G3G GEDC | B,G,"D"A,C "G"B,G,G,2 | "G"B,DGB "G#dim"cBAG | "Am7"FGAB "D"A2 (3DEF |
+"G"GFGA GEDC | B,G,"D"A,C "G"B,G,G,2 | "G"B,DGB "Am7"cBAG | "D"FDEF "G"G2 :|
+|: Bc |\
+"G"d3e dcBd | "C"g2ga "Am"gedc | "G"BGBd "G#dim"cBAG | "Am7"FGAB "D"A2Bc |
+"G"d3e dcBd | "C"gfga "Am7"gedc | "G"BGBd "Am7"cBAG | "D"FDEF "G"G2 :|
+
+X: 327
+T: le 24 Juin
+O: Qu\'ebec
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+D2 \
+|: "Gm"G2GA B2Bc | d2de dcBA | G^FGA BABc | dcde d3d | "Cm"dccB c3c |
+"Gm"cBBA B4 |[1 "D7"A2{BA} ^GA BAGA | dDcD BDAD :|[2 "D7"A2{BA} ^GA dcBA |\
+"G"G=B"D7"A^F "G"G2 ||%[K:G=B=e^f]
+K: G
+"D7"A2 | "G"B2BB "D7"ABcA | "G"GABG E2{GE} DB, | G,B,DG B3B | "Am"ABcA E2AB |
+"Am"c2ec "G"BcdB | "D7"ABcA BAFE | DEFG ABcd | efge dcBA |]
+ "G"B2BB "D7"ABcA | "G"GABG E2{GE} DB, | G,B,DG B3B | "Am"ABcA E2AB |
+"Am"c2ec "G"BcdB | "D7"ABcA F3f | fedc BAFA | "G"GB"D7"AF "G"G2 |]
+
+X: 328
+T: Reel Saint-Paul
+O: Qu\'ebec
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+ed \
+| "A"c3B A2a2 | "D"f=gaf dfed | "A"cdec "F#m"A2Bc | "Bm"dB2B "E7"B2ed |
+| "A"c2(3BcB A2a2 | "D"f=gaf dfed | "A"cdec "F#m"A2Bc | "E7"dBGB "A"A2 :|
+|: Bc \
+| "D"d3e f2ed | "A"ccAc e2A2 | "E7"BABc dBcB | "A"AEAB "A7"cBAc |
+| "D"d3e f2ed | "A"ccAc e2A2 | "E7"BABc dBcB | "A"Aaec A2 :|
+
+%%newpage
+
+X: 329
+T: Hommage \`a Rock Proulx
+C: Marcel Messervier 1981
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: The Portland Collection v.2 p.87
+N: Extra beat between the parts eliminated to get a 32-bar contra-dance tune.
+M: C|
+L: 1/8
+K: G
+|:\
+"G"g2e2 dBGA | BGAG E2D2 | g3f edBd | "C"egab "D7"aged |
+"G"g2e2 dBGA | "G"BGAG E2D2 | "C"DEGA BcBA |"D7"FADF [1 "G"G4 :|[2 "G"G2"D7"A2 ||
+|:\
+"G"B4- BABc | B2A2 GFGB | e2d2- d^cde | d2B2 A2G2 |\
+[1 "D7"FADF ADFA | d2c2 B2A2 |
+"G"GBDG BDGB | "D7"d2D2 G2A2 :|\
+[2 "D7"F2z2 f3e | d2c2 B2A2 | "G"G2FG "D7"ABcd | "G"g2gg g4 |]
+
+X: 330
+T: reel du P\`ere Bruneau
+C: Lorenzo Picard
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: The Portland Collection v.2 p.155
+M: C|
+L: 1/8
+K: D
+ABc |\
+"D"dAFD "G"GBAG | "A7"FA (3EFE "D"DABc | dfed "A7"cBAG | FAEG "D"FABc |
+"D"dAFD "G"GBAG | "A7"FA (3EFE "D"DABc | dfed "A7"cBAG |1 FABc "D"d :|2 FABc "D"d2B2 ||
+|:\
+"D"(3ABA FA ddAd | ffdf a3B | (3ABA FA dFAd | "Em"c4 B2GF |
+"A7"E3F GBA2 | c3c- c2(3BcB | A2cB AGFE |1 "D"Dd- dA "A7"BAFG :|2 "D"D3D- D |]
+
+X: 331
+T: reel des \'Eboulements
+O:Quebec
+S:Dominique Renaudin <domren:free.fr> QueTrad 2003-2-12
+F:http://www.colinhume.com/ABC.txt
+R:reel
+M:4/4
+L:1/8
+K:A
+|: "A"aA~A2 cAeA | "Bm"Bcde "E7"f2fg |\
+"A"aA~A2 cAeA | "D"fd "E7"ge "A"~a3g |
+"A"aA~A2 cAeA | "Bm"Bcde "E7"f2fg | "D"agfe "Bm"fedc \
+|1 "D"df "E7"ec "A"A2fg:|2 "D"df "E7"ec "A"A2ed |
+|: "A"cAEA cAeA | "Bm"Bcde "E7"f2ed |\
+"A"cAEA cAeA | "Bm"fd "E7"ge "A"a2ed |
+"A"cAEA cAeA | "Bm"Bcde "E7"f2fg | "D"agfe "Bm"fedc \
+|1 "D"df "E7"ec "A"A2ed:|2 "D"df "E7"ec "A"A2AF |]
+|: "A"EAAB cABA | "E7"GABc dBEB |\
+"E7"GBEB GBEB | "E7"GBEB "A"A2cA |
+"A"eAAB c2BA | "E7"GABc defg | "D"agfe "Bm"fedc \
+|1 "D"df "E7"ec "A"A2AF:|2 "E7"defg "A"a2 |]
+
+%%newpage
+
+X: 332
+T: Louis Cyr
+M:C|
+L:1/8
+C:Jean-Claude Mirandette
+S:Jean Marie Verret and Guy Bouchard
+Z:For more tunes, discussion of the tunes, and other
+Z:traditional music and dance resources, go to
+Z:<http://tunes.nhcountrydance.com>.
+F:http://web.me.com/peterynh/music/fiddle-tunes_abc_reels.html
+K:G
+"D7"DB, |\
+"G"G,2G,B, D2B,D | "C"EDEF "(G)"G2GA | "G"BAGB "D"AGFD | "C"E2{D}EF "D7"FEB,D |
+"G"G,2G,B, D2B,D | "C"EDEF "(G)"G2GA | "Em"BAGB "D"AGFD | "C"ED"D"EF "G"G2 :|
+|: GA |\
+"G"BAGB "D"A2GA | "G"BAGB "D"A2AB | "Am"cBAc "Em"B2AB | "Am"cABG "D"A2GA |
+"G"BAGB "D"A2GA | "G"BAGB "D"AGFD | "Em"E2~E2 "Bm"E2~F2 | "D"FDE2 "Em"E2 :|
+
+X: 333
+T: Verret's
+R:Reel
+C:
+B:
+L:1/8
+M:C|
+K:D
+|: "D"fedf "Bbdim/Bb"edBc | "Bm"dB (3BBB "G"BAFD | "D"A,DFA "D#dim"cBAG | "Em7"FAde "A"fede |
+"D"fedf "Bbdim/Bb"edBc | "Bm"dB (3BBB "G"BAFD | "D"A,DFA "Em7"cBAG |1 "A"FDEF "D"D3 e :|[2 "A"FDEF "D"D2 AG ||
+|: "D"FDA,D FDDF | "C"E=CEG B2 AG | "D"FDAD FAAA | "G"BA"A"cA "D"d2 AG |
+"D"FDA,D FDDF | "C"E=CEG B2 AG | "D"FAdf "Em7"edce |1 "A"dfec "D"d2 AG :|[2 "A"dfec "D"d4["ending" ||
+
+X: 334
+T: Motel Henry
+C: Jean-Claude Mirandette
+O: Quebec
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 2/4
+L: 1/16
+K: A
+|: "A"[c3E3]c- cfec | "E7"BABc dcBA | "A"c3c- cfec | "E7"BABc  "A"AE[A2E2] |
+   "A"c3c- cfec | "E7"BABc dcBA | "D"c3c- cfec | "E7"BABc  "A"A2[A2E2] :|
+|: "D"f3f- fgaf | "A"e2(3cBA e2(3cBA | "E7"B2GB EBGB | "A"ABcd "A7"eA[e2A2] |
+   "D"fAAf- fgaf | "A"e2(3cBA e2(3cBA | "D"fgaf "A"ec"D"Aa- | "E7"afec "A"AE[A2E2] :|
+
+%%newpage
+
+X: 335
+T: reel de Pointe-au-Pic (traditional)
+C:
+R:Reel
+M:C|
+L:1/8
+K:C
+geg|\
+"C"decd BcAB|GG G2-Ggec|decd "C#dim"cBAc|"Dm"BBB2-B fde|
+"Dm"cdBd AcAc|"G"BB B2-Bgeg|aggg "G7"agec|"C"GG G2zgec|
+"C"decd BcAB|GG G2-Ggec|"C"dz cc "C7/Bb"cdcB |"F"A2 z2 "C#dim"A3B|
+"Dm"c2 Bc "G/B"dd cd|"C"eceg "Am"a3 e|"D7"g2f2- "G7"fdAB|"C"ccc2-"E7"c2 B2||
+"Am"A2 AB cBcd|"Am/G#"eaae a2-ag|"Am/G"eaag abag|"Am/F#"eaag ageA|
+"G"G3A BGBd|gg g2-gGBd|"Em"gg g2-gGBd|g^fga "E7"gedB|
+"Am"A3B c3d|"Am/G#"eaae a2-ag|"Am/G"eaag abag|"Am/F#"eaaga2 za|
+"Cdim/Eb"c'3c'- c'ef^f|"C"g^fga "Amin7"gecd|"D7"egec "G7"dedB|"C"ccc2-c|]
+
+X: 336
+T: Dedicado \`a Jos
+D:from La Boutine Souriante, "Je Voudrais Changer du Chapeau" album
+B:Roaring Jelly collection
+R:reel
+M:C|
+K:D
+|:\
+"Bm"B2Bc d2de | fgfd B3f | "F#m"fgfe c3f | "Bm"fgfd  B2F2 | "Bm"B2Bc dcde |
+fgfd B3f |1 "F#m"fgfd cedc | "Bm"B2F2 "F#"G2F2 :|2 "F#m"fgfd cedc | "Bm"B4 "A7"A4 |]
+|:\
+"D"[f8A8] | "G"[g4B4]"E7"[^g4B4] | "A7"[a3c3][ac] [a4c4]- | [a2c2]g2 f2e2 | [a3c3][ac] [a4c4]- |
+[a2c2]g2 f2e2 |1 "D"f2df dfdf | "A7"cfcf B2A2 :|2 "D"d3A "A7"BAFA | "D"Hd2z2 "F#7"[c4F4] |]
+
+%%newpage
+
+X: 337
+T: la Ronde des voyageurs
+S: Fortunat Malouin
+M: C|
+L: 1/8
+Z: Contributed 20050219210518 by John Chambers jc@trillian.mit.edu
+K: Am
+|: "Am"E3E A2c2 \
+| e4- eede \
+| "Dm"f3f f2a2 \
+| "Am"e3a "D7"a4 \
+| "G"G3G B2c2 |
+| d4- "/F"dBde \
+|1 "E7"f3d d2B2 \
+| "Am"~c2AB "E7"~A2E2 \
+:|2"E7"f2d2 B2e2 \
+| "Am"A6 "E7"AB ||
+[| "A"c3c c2e2 \
+| A4- AAcd \
+| "A"e2a2 g2f2 \
+| "E7"g2eg f2ec \
+| "Bm"d3f d2c2 |
+| "E7"B2GB EGBe \
+| "E7"g3a gfeg \
+| fedf "(A)"ecAB \
+|[| "A"c3c c2e2 \
+| A4- AAcd |
+| "A"e2a2 g2f2 \
+| "D"b4 f3g \
+| "D"a2ga "B7"g2fg \
+| "E"f2ef "F#(m)"eAce \
+| "B(m)"f2b2 "E7"f2g2 \
+| "A"afec A4 |]
+
+X: 338
+T: the Hare
+T: Reel Souci
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: The Portland Collection v.2 p.85
+M: C|
+L: 1/8
+K: D
+|: BAF |\
+"D"DFAd (3BdB AG | FABc dcd2 | "D"DFAd "Bm"BdB AF | "Em"BFAF "A7"EGFE |
+"D"DFAd (3BdB AG | FABc dcde | f2fa gfed | "A7"cABc "D"d :|
+|::: efg |\
+"D"a2fd Adfa | "A7"g2ec Acef | gece aece | bgec "D"d :::|
+
+X: 339
+T: Clog de Pariseau
+R: reel
+B: Danse ce soir #63
+M: 4/4
+L: 1/8
+K: A
+|:\
+"F#m"F2 GA F2 GA | FGAB c2cc | fgag "F#m/E"~f2 cc | "F#m/D"fgag  "C#7" ~f2 cc |
+"F#m"F2 GA F2 GA | FGAB c2cc | "Bm"fgag "C#dim"f2 cc | "C#"~f2 c2 "F#m"f4 :|
+|:\
+"A"e2 fe cAAA | aaAa "C#dim" g2 ~f2 | "E/B"EFGA "E"Bcde | "C#dim"fdfe "A/C#"~c2 AA |
+"A"e2 fe ~c2AA | aaAa "C#dim" g2 ~f2 | "E/B"EFGA "E"Bcde |1 "E/G#"Aaec "A"A2 ee :|[2 "E/G#"Aaec "A"A4 |]
+
+%%newpage
+
+X: 340
+T: Reel de R\'emi
+R: reel
+M: C|
+K: D
+AG |\
+"D"FDDD "D7/F#"DFA=c | "G"BGGF  "Em"G2ed | "A7"cAAA Aceg |1,3 "D"fdec "A7"dB :|2,4 "A7"fdec "D"d2 :|
+|: ef |\
+"G"g3f  g2b2 | "D"abaf "Bm"d2a2 | "Em"gece "A7"Acec | "D"dcde fdef  |
+"G"g2gf g2b2 | "D"abaf "Bm"dfaf | "Em"gece "A7"Ace[gc] | "A7"dfec "D"d2 :|
+
+X: 341
+T: reel du Li\`evre
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+   z2 | "G"gage dBGB | g2fg "D7"afdf | "G"gage ddgd |1,3 "D7"cBAd "G"BGG2 :|2,4 "D7"cBAF "G"G2 :|
+|: BG | "G"DGBG cGBG | DGBG "C"EE=FE |1,3 "G"DGBG cGBG | "D7"AcAF "G"GA :|2,4 "G"DGBd cBcB | "D7"AFDF "G"G2 :|
+
+X: 342
+T: Set Am\'ericain
+R:reel
+C:Th\'eodore Duguay
+Z:
+M:C|
+L:1/8
+K:D
+(3ABc|"D"dAFA DAFA | "A"EAEA "D"DABc | "D"dAFA DAFA | dAdf "A"ec (3ABc |
+"D"dAFA DAFA | "A"EAEA "D"DABc |"D"dcdf "A"ec (3ABc |1 "D" df"A"ec "D"d2 :|[2 "D"dfec "F#"d2c2|]
+|: "Bm"B3c dcde| fefg "F#"fedc | "Bm"BABc dcBA | "Em"GFGA "F#"G2F2 |
+"Bm"BFBc dcde| fefg "F#"fedc| "Bm"BABc "F#"dcBA |1 "Bm"Bbfd "Bm"B2 "F#"dc  :| [2 "Bm"Bbfd B2 |]
+%
+
+%%newpage
+
+X: 343
+T: Fleur de Mandragore
+C: by Michel Bordeleau
+O: Qu\'ebec
+R: reel
+Z: 2007 John Chambers <jc:trillian.mit.edu> from Roaring Jelly Collection
+B: The Portland Collection v.2 p.61
+M: C|
+L: 1/8
+K: A
+|:"A"EFGE GABA | Aced cAAA | "F#m/C#"EGAE GABB- | BABd cAAA |
+| "D"EGAE GABA | Aced cAAA | "E7"EGAE GABB- |1 BABd "A"cAA2 :|2 "E7"BABc "(A)"Aceg ||
+|:"A"a4 a2ga | "Bm"bAaA g2{ag}ec | "D"dfed "A"cABc | "E7"defg agfe |
+| "A"a4 a2ga | "Bm"bAaA g2{ag}ec | "D"dfed "A"cABc |1 "E7"dcBc "(A)"Aceg :|2 "E7"dcBc "A"BAA2 |]
+
+X: 344
+T: reel du P\`ere Bruneau
+C: Lorenzo Picard
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: The Portland Collection v.2 p.155
+M: C|
+L: 1/8
+K: D
+ABc |\
+"D"dAFD "G"GBAG | "A7"FA (3EFE "D"DABc | dfed "A7"cBAG | FAEG "D"FABc |
+"D"dAFD "G"GBAG | "A7"FA (3EFE "D"DABc | dfed "A7"cBAG |1 FABc "D"d :|2 FABc "D"d2B2 ||
+|:\
+"D"(3ABA FA ddAd | ffdf a3B | (3ABA FA dFAd | "Em"c4 B2GF |
+"A7"E3F GBA2 | c3c- c2(3BcB | A2cB AGFE |1 "D"Dd- dA "A7"BAFG :|2 "D"D3D- D |]
+
+X: 345
+T: the Devil's Churn
+C: Joseph Grote 1994
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: The Portland Collection v.2 p.52
+M: C|
+L: 1/8
+K: Dm
+|:\
+"Dm"Ad~d2 dcAd | "C"cAGE CDEG | "Dm"Ad~d2 dcAd | "C"cAGE "Dm"FDD2 |
+"Dm"Ad~d2 dcAd | "C"cAGE CDEG | "Dm"Adfd efec | "Am"efec "Dm"d4 :|
+|:\
+"Dm"Adfd "(C)"efec | "Bb"B2fB gBfB | "C"c2gc acgc | c2gc "A(m)"efe"(#)"c |
+"Dm"Adfd "(C)"efec | "Bb"B2fB gBfB | "C"c2gc acgc | "A(m)"efe"(#)"c "Dm"d4 :|
+
+%%newpage
+
+X: 346
+T: reel de Minuit
+M:2/4
+L:1/16
+Z:abc by Bruce Osborne - bosborne@kos.net
+K:D
+AG |\
+"D"F2D2 DFAF | "A7"G2E2 E3F | "Em"GFGA BGBd | "A7"ceAc dBAG |
+"D"F2D2 DFAF | "A7"G2E2 E3F | "Em"GFGA "A7"BGEG | "D"F2D2 D2 :|
+|: de |\
+"D"f2df "A"edce | "D"dfec dcBA | "G"GBef gfgf | "A7"edcB Acde |
+"D"f2df "A"edce | "D"dfed dcBA | "G"GABc "A7"dBAG | "D"F2D2 D2 :|
+
+X: 347
+T: Danse de Compagne
+C: Philippe Bruneau
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin, with the tune labelled "Violin"
+M: C|
+L: 1/8
+K: G
+D2 |\
+"G"Gg2g g2d2 | "C"efge "G"dBG2 | "Am"Aa2a a2a2 | "D7"fgab afdf | "G"g3g g2d2 |
+"C"efge "G"dBGB | "Am"cBAc "G"BAGB | "D7"AGFA "G"G2 :: D2 | "G"GABc d2Bd | "C"efge "G"dBG2 |
+"C"efge "G"dBGB | "Am"cBAG "D7"FADF | "G"GABc d2Bd | "C"efge "G"dBG2 | "C"efge "G"dBGB | "D7"cAFD "G"G2 :|
+
+X: 348
+T: reel de Montebello
+C: by Richard For\^et
+R: reel
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+|:\
+"Am"EABc ecBA | "Fmaj7"FABc ecBA | "G"GABc dBGB | "Em7"edBA GE/F/ ED |
+"Am"EABc ecBA | "Fmaj7"FABc AcBA | "G"GABc "Em7"dBGE | EDEG [1 "Am"A3A :|[2 "Am"A2ce ||
+|:\
+"Am"aece gecA | "G"GABc dcBd | gddf ddgd | "Am"edef (3efe ce |
+"Am"aece gecA | "G"GABc dcBd | gedg edBd | "Am"cBcd [1 cAce :|[2 cBAG |]
+
+%%newpage
+
+X: 400
+T: The Joy of Sets -- Jig to Reel
+O: from Paul Lizotte of Jump Start
+K:
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+X: 401
+T: the Rose in the Heather
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: D
+|: "D"FAF "A"EFE | "D"DFA BAF | "D"ABd "A"ede | "D"fdB "A"AFE \
+|  "D"FAF "A"E[FD][EB,] | "D"DFA BAF | "D"AdB "A"AFE | "(D)"FDC "D"D3 :|
+|: "D"fdB ABd | "D"faa afd | "G"gfg "D"fed | "Em"Bee "A"efg \
+|  "D"fdB ABd | "D"faa afa | "G"baf "A"gfe | "(D)"fdc "D"d3 :|
+
+X: 402
+T: Lady Anne Montgomery
+R: reel
+M: C|
+L: 1/8
+K: D
+A |\
+"D"FADA FADA | FAdA "G"BAdA | "D"FADF "Em"EDEF | "A"DB,A,B, "D"D3E | "D"FADA FADA |
+FAdA "G"BABc | "D"dBAF "Em"E3F | "A"DB,A,B, "D"D3 :: e | "D"f3f fede | fedB ABde |
+f2fe "Bm"fede | "Em"fgaf "A"efde | "D"f3f fede | fedB ABde | "G"fded "Em"BdAd | "A"egfe "D"d3 :|
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+X: 403
+T: la Maison de Glace
+T: the Ice House
+C: R\'ejean Brunet
+O: Qu\'ebec
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|:\
+"D"D2D DEF | "D"ABA AFA |\
+"G"B2B Bcd | "A7"cBA GFE |\
+"D"D2D DEF | "D"ABA AFA |
+[1 "G"B2B BAG | "A7"[FF]GF [EE]FE :|\
+[2 "G"B2B Bcd | "A(F#)"c6 \
+|: "Bm"B2B Bcd | "G"B2B Bcd |
+"D"fed "A"edc | "Bm"dcA "F#m"dcA |\
+"Bm"B2B Bcd | "G"B2B Bcd |\
+"D"fed "A"edc | "A"Adc [1 "F#m"d2c :|2 "D"d3 :|
+
+X: 404
+T: Bouchard's Hornpipe
+C: Mike Springer
+M: C|
+Z: Transcribed to abc by Mary Lou Knack 11/23/98
+R: hornpipe
+K: D
+FE |\
+"D"DFAd "G"BcdB | "A"cdec "D"d2ef | "Em"g2{f}ga gfed | "A"edcB A2dc | "G"B2{c}BA BcdB |
+"D"AGFG A2Bc | "G"d2{c}df "A"edc2 | "D"d4 d2 :: fg | "D"a2ab agfa | "Em"gfef g2ag |
+"Bm"f2fd gfed | "F#m"cdec A2dc | "G"B2BA "Em"BcdB | "D"AGFG A2Bc | "G"d2{c}df "A"edc2 | "D"d4 d2 :|
+
+%%newpage
+
+X: 500
+T: The Joy of Sets -- Jigs
+O: from Paul Lizotte of Jump Start
+K:
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+X: 501
+T: Moon and Seven Stars, The
+I:
+Z:
+R: jig
+M: 6/8
+K: D
+A| "D"d2A AGF| "G"GAB "D"A2A| "G"Bcd efg| "A"fed cBA|
+"D"d2A AGF| "G"GAB "D"A2A| "G"Bcd efg| "A"Adc "D"d2 :|
+|: "A"e2A ABA| efg "D"f3| "A"efg "D"fed| "E"cdB "A"A2A|
+"G"BGB "D"A2A| "G"BGB "D"A2A| "G"Bcd efg| "A"Adc "D"d3 :|
+%
+
+X: 502
+T: Swallowtail Jig
+C: J-3
+C: Irish
+O: Ryan 1883
+B: Ryanâ€™s Mammoth Collection, 1883; pg. 100
+B: Kerr (Merry Melodies), vol. 2; No. 271, pg. 29
+B: White's Unique Collection, 1896; No. 42
+M: 6/8
+Z:
+R: jig
+P: E Dorian
+K: EDor
+"Em"GEE  BEE| GEE BAG| "D"FDD ADD| dcd AGF|
+"Em"GEE  BEE| GEG B2c| "Bm"dcd "D"AGF| "Em"GEE E3 :|
+|:\
+"Em"Bc^d e2f| e2f e=dB| Bc^d e2f| e=dB "D"d3|
+"Em"Bc^d e2f| e2f e=dB| "Bm"dcd "D"AGF| "Em"GEE E3 :|
+%
+
+X: 503
+T: Calliope House
+I:
+C: Dave Richardson
+M: 6/8
+R: jig
+K: E
+B| "E"eBB gBB| fBB gBB| "A"cff f2e| "B"fge cec|
+   "E"BcB B2G| B2c e2f|1 "A"gbg gfe| "B"f3 f2:|2 "A"gbg "B"fec| "E"e3 ega|]
+|: "E"b3 gbb| fbb gbb| "A"a3 gag| "B"fgf fec|
+   "E"BcB B2G| "C#m"B2c e2f|1 "A"gbg gfe| "B"f3 fga:|2 "A"gbg "B"fec| "E"e3 e2|]
+%
+%
+
+%%newpage
+
+X: 504
+T: Humours of Trim
+M: 6/8
+L: 1/8
+R: jig
+K: D
+"D"F2D DED|D2d "A"cAG|"D"F2D DED|"Em7"ABA "A"GFE|
+"D"FEF DED|D2d "A"cAG|"D"FAF "G"GBG|"A"ABA GFE:|
+|:"D"D2d cAd| cAd "A"cAG|"D"F2d cAG|FAF "A"GFE |
+"D"D2d "A"cde|"D"fed "A"cAG|"D"FAF "G"GBG |"A"ABA GFE:|
+%%textfont       Times-Roman 14.0
+%
+
+X: 505
+T: Seanamhac Tube Station
+C: by John Carty
+M: 6/8
+L: 1/8
+R: jig
+K:Gdor
+"Gm"~G3 GFD | GAc ~d3 | "Gm"dcA "F"cAF | "Gm"GFD "F"CDF |
+"Gm"~G3 GFD | GAc ~d3 | dcA "F"cAF |1 "Gm"~G3 "F"ABA :|2 "Gm"~G3 "F"GAc ||
+"Gm"~d3 dcA | "F"~c3 cAc | "Gm"dcA "F"cAF | "Gm"GFD "F"CDF |
+"Gm"~d3 dcA | "F"~c3 fcf | "Gm"dcA "F"cAF | "G"~G3 "F"GAc |
+"Gm"~d3 dcA | "F" ~c3 cAc | "Gm"dcA "F"cAF | "Gm"GFD "F"CDF |
+"Gm"GFD GFD | GFD "F"dcA | "Gm"dcA "F"dcA |["cont""Gm"~G3 "F"ABA |]\
+["trans" "Gm"Gz2z3 |]
+
+X: 506
+T: The Spotted Dog
+C: ©2001 or earlier John McEvoy
+M: 6/8
+L: 1/8
+R: jig
+K: A
+|:"A"EAA ABc | "D"BAF "A"AFE |"Bm"FBB      Bce | "D"faf "E"ecA  |
+  "A"EAA ABc | "D"BAF "A"Ace | "D"f2a   "A"e2a | "E"ABc "A"B2A :|
+|:"A"cee ece | "D"fec "A"ecA | "A"eaf "F#m"ecA |"Bm"EFA "E"B2A  |
+  "A"cee ece | "D"fec "A"e2a | "D"f2a   "A"e2a | "E"ABc "A"B2A :|
+
+%%newpage
+
+X: 507
+T: Le tourment
+T: The Torment
+C: Jean-Paul Loyer
+O: Qu\'ebec
+M: 6/8
+L: 1/8
+K: G
+ D \
+|: "G"G2G "D7"AGA | "G"Bdc BAG | "C"E2c cBc | "D7"d2d def |
+| "Em"gfg "(D)"d2d | "C"ede "G"B2B | "Am"cBA "G"BAG |1 "D7"A2F DEF :|2 "D7"DGF "G"G2 ||
+|: F \
+| "C"E2E EFG | "G"DGF GAB | "Bm"d2d dcB | "Am"cBA "G"BAG |
+| "C"E2E EFG | "G"DGF GAB | "Bm"d2B "Am"cBA | "D7"DGF "G"G2 :|
+
+X: 508
+T: Forest Wedding
+C: by Todd Silverstein
+R: jig
+B: The Portland Collection, v.2 p.65
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dm
+|:\
+"Dm"D3 D2E | FED D3 | "Gm"G2D G2A | BAG GAB | "A"AA2- AA^c |
+"A7"e3- e2^c |1 "Dm"dfe dcB | "A7"AGF ED^C :|2 "Dm"d2f "A7"ed^c | "Dm"d2A d2e ||
+[|\
+"Dm"f3 f2g | fed d2A | "Gm"B3 B2c | BAG G3 |
+"A7"e3- eef | g3 g2e | "Dm"fed edc | dcB "A7"Ade |]
+[|\
+"Dm"f3 f2g | fed d2A | "Gm"B3 B2c | BAG G3 |
+"A7"e3- eed | ^c3- cde | "Dm"d2f "A7"ed^c | "Dm"d2z d2z |]
+
+X: 509
+T: All the Rage
+I:
+C: Larry Unger \2511989
+M: 6/8
+R: jig
+K: E
+e| "E"fgg gfe| fgg g2e| "A"cee "E"Bee| "F#m7"gfe "B7"f2e|
+   "E"fgg gfe| fgg g2b| "A"gfe "B7"fed| "E"e3- e2:|
+|:e| "A"cee "E"Bee| "A"cee "E"B2e| "A"ece "F#m7"fef| "E"gbg "B7"f2e|
+   "A"cee "E"Bee| "A"cee "E"B2b| "A"gfe "B7"fed| "E"e3- e2:|
+%
+%
+
+%%newpage
+
+X: 510
+T: Old Favorite
+R: jig
+M: 6/8
+K: G
+"G"B3 BAB| dBA G2B| ded d2B| ded "D"B2A|
+"G"B3 BAB| dBA G2B| ded "D"cBA| "G"G3 G3 :|
+|:"G"g3 "D"f3| "C"efe "G"d2B| ded d2B| ded Bdf| "G"g3 "D"f3|
+"C"efe "G"d2B|1 "D"dge dBA| "G"G3 G3 :|2 "G"dge dge| dge "D"dBA |]
+%
+
+X: 511
+T: Morrison's Jig
+O: trad Ireland
+M: 6/8
+L: 1/8
+R: jig
+K: EDor
+|:\
+"Em"~E3 BEB | EBE "D"AFD | "Em"~E3 BEB | "G"dcB "D"AFD |\
+"Em"~E3 BEB | EBE "D"AFD | "G"~G3 "D"FGA | "Em"[dB]AG "D"FED :|
+[|\
+"Em"Bee fee | aee "D"fed | "Em"Bee fee | "D"fag fed |\
+"Em"Bee fee | bee "D"fef | "G"gfe "D"d2A | "Em"BAG "D"FED |]
+[|\
+"Em"Bee fee | aee "D"fed | "Em"Bee fee | "D"faf def |\
+"G"~g3 gfe | "D7"def "G"g2d | "D"edc d2A | "(Bm)"BAG FED |]
+
+X: 512
+T: the Handsome Young Maidens
+C: by Charlie Lennon
+R: jig
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|:\
+"A"aed cdB | Ace aga | "E7"bee dee | Bee bag |
+"A"aed cdB | Ace aga | "E7"bee dee |1 BAG A3 :|2 BAG "A"A2B ||
+|:\
+"A"c2A EAc | "D"d2f fed | "A"cde aec | "E7"B2f fed | "A"c2A EAc | "D"d2f fed |
+[1 "A"cde aec "E7"dBe "A"A2B :|2 "A"ece "D"fdf | "E7"gfg bag |]["Coda" "A"ece "D"fdf | "E7"gfg "A"a3 |]
+
+%%newpage
+
+X: 513
+T: the Clare Jig
+R: jig
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|:\
+"G"G3 GAB | "D"AGE "G"GED | "G"G3 "Am"AGE | "D7"GED DEF |
+"G"G3 GAB | "Am"AGE GAB | "C"cBA "G"BGE |1 DED D3 :|2 "DD"DED DAB ||
+|:\
+"C"c2A "G/B"BAG | "Am"ABA "D7"AGE | "C"c2A "G"BGE | "D7"DED DAB |
+"C"c2A "G/B"BAG | "Am"ABA ABc | "D"dcA "C"GEA | "D"DED DAB :|2 "D"DED D3 |]
+
+X: 514
+T: Cliffs of Moher
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: Ador
+|:"Am"a2a  bag |  eaf  ged |     c2A BAG |     EFG ABd \
+|     eaa  bag |  eaf  ged |     c2A BAG | "Em"EFG "Am"A3 :|
+||"Am"e=fe dBA | ~e3   dBA |  "G"GAB dBA |     GAB ~d3 \
+| "Am"e=fe dBA | ~e3   dBA |  "G"GAB dBG | "Em"EFG "Am"[E3A3] ||
+||"Am"e=fe dBA |  e=fe dBA |  "G"GAB dBA |     GAB ~d3 \
+| "Am"e=fe dee |  cee  Bee | "Em"EFG BAG |  "G"EDB, "Am"A,3 |]
+
+X: 515
+T: Stan Chapman's
+C: Jerry Holland
+M: 6/8
+L: 1/8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+K: A
+   F \
+| "A"E3 EFA | "E"B3 Bce | "A"fea fec | ecA "E"BAF \
+| "A"E3 EFA | "E"B3 Bce | "A"fea fec | "E"ecA "A"A2 :|
+y  f \
+| "A"e2e ecA | "D"f2f fga | "A"fec "E"BAB | "F#m"cAF "D"F2f \
+| "A"e2e ecA | "D"f2f fga | "A"fec "E"BAB | "A"cAA A2 |]
+y  f \
+| "A"e2e ecA | "D"f2f fga | "A"fec "E"BAB | "F#m"cAF "D"F2f \
+| "A"ecA ecA | "D"fdf fga | "A"fec "E"BAB | "A"cAA A2 |]
+
+%%newpage
+
+X: 516
+T: Miller's Maggot
+M:6/8
+L:1/8
+B:the Portland Collection v.1 p. 135
+Z:2012 John Chambers <jc:trillian.mit.edu>
+R:jig
+K:G
+|:"G"G2A BBA | "Em"BBA BGE | "G"G2A BBA | "Em"B2e "C"edB |
+| "G"G2A BBA | "Em"BBA BGE | "C"gfe "D"dBA |1 "Em"Bee "Bm"edB :|2 "Em"Bee e3 |]
+|:"C"e2f gge | "G"d2B BAG | "C"e2f ~g3 | "D"aga "Em"bge |
+| "C"e2f gge | "G"d2B BAG | "Am"A2B "D"cBA |1 "Em"B2e e3 :|2 "Em"B2e edB |]
+
+X: 517
+T: Money in Both Pockets
+I:
+%%musicspace	2pt
+M: 6/8
+R: jig
+K: D
+A| "D"d2F "A"FEF| "D"DFA AFD| d2F "A"FEF| "D"D2f fef|
+   "D"d2F "A"FEF| "D"DFA AFD| "Em"EFE EFG| "A"BBB B2:|
+|:A| "D"dfa afd| "A"cea ecA| "D"dfa afd| "G"g3 fga|
+   "G"bag "D"agf| "A"ede "D"fdB| ABA AFA| "G"BBB B2 :|
+%
+
+X: 518
+T: the Stool of Repentance
+N: The title refers to the "dunking chair" that was used to punish
+N: people in some parts of the British Isles and New England.
+R: Jig
+B: the Portland Collection v.1 p.191
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|:"A"a2e c2e | agf e2c | "D"aff f2e | fag "E7"f2e |
+| "A"a2e c2e | agf e2c | "D"d2e f2e | fac "E7"B2z :|
+|:"A"cAA eAA | cAA edc |"Bm"dBB fBB | dBB "E7"fed |
+| "A"cAA eAA | agf e2c | "D"d2e f2e | fac "E7"B2z :|
+
+%%newpage
+
+X: 519
+T: Idlewild Jig
+M:6/8
+K:D
+|:\
+"D" D2D FED | F2A d2 A | "G" Bcd A2F | "A"E2D B,2A, |
+"D" D2D FED | F2A d2 A | "G" Bcd A2F | "A"E2F "D"D3 :|
+|:\
+"Bm"B2F F^EF |"Bm/A#"d2 B B^AB |"Bm/A" f2 B B^AB |"Bm/G#" b2f f^ef | "G"g2e "D"f2d |
+"A"e2c "D"d2A |1"G"Bcd A2 c | "A"B2A "F#m"F2A:|2"G"Bcd A2F | "A"E2D B,2A, |]
+
+X: 520
+T: Out on the Ocean
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 6/8
+L: 1/8
+K: G
+E |\
+"G"D2B BAG | BdB "D7"ABA | "G"GED G2A | ~B3 "D7"AGE |\
+"G"D2B BAG | BdB "D7"ABA | "G"GED G2A |1 "G"BGF G2 :|2 "G"BGF GBd ||
+|:\
+"Em"~e3 edB | efe edB | "D"~d3 dBA | d2d dBA |\
+"G"G2A B2d | "C"ege "D7"dBA | "G"GED "D7"G2A |1 "G"BGF GBd :|2 "G"BGF G2 |]
+
+X: 521
+T: Hundred Pipers
+R: jig, march
+O: trad Scotland
+B: the Portland Collection v.1 p.103
+Z: 2012 by John Chambers <jc:trillian.mit.edu>
+N: (*) G chords give even more "bagpipey" version.
+M: 6/8
+L: 1/8
+K: A
+   A2B | "A"c2E EFE | "D"F2A A2f | "A"e2c "Fm"cBA | "Bm"c2B "E7"BAB |
+   y3  | "A"c2E EFE | "D"F2A A2f | "A"e2c "E7"BAB | "A"A3 :|
+|: c2d | "A"e2e ece | "D"f2a agf | "A"e2c "Fm"cBA | "Bm"c2B "E7"Bcd |
+   y4  | "A"e2e ece | "D"f2a agf | "A"e2c "E7"BAB | "A"A3 :|
+
+%%newpage
+
+X: 522
+T: Glen Echo Jig
+C: Larry Unger
+M: 6/8
+L: 1/8
+R: jig
+K: G
+|:\
+"G"~B3 BAB | "Em"GED E2D | "C"EGD EGD | EGB "D"AGE |
+"G"B2B BAB | "Em"GED E2D | "C"EGD EGB | "D"AGE G3 :|]
+|:\
+"G"B,2D DED | B,DE D2D | "C"E2G GED | "Am"GED "D"B,A,G, |
+"G"B,2D DED | B,DE D2D | "C"EGB AGE | "D"DB,A, "G"G,3 :|]
+
+X: 523
+T: My Darling Asleep
+R: jig
+B: the Portland Collection v.1 p.145
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+   e |\
+"D"fdd "A7"cAA | "G"BAG "D"A2G | "D"FAA def | "Em"gfg "A7"eag |
+"D"fdd "A7"cAA | "G"BAG "D"A2G | "D"FAA def | "A7"gec "D"d2 :|
+|: A |\
+"D"FAA "A7"BAG | "D"FAA "G"B2A | "D"FAA def | "Em"gfg "A7"eag |
+"D"fdd "A7"cAA | "G"BAG "D"A2G | "D"FAA def | "A7"gec "D"d2 :|
+
+X: 524
+T: The Old Woman Tossed Up in a Blanket
+N:O'Neill's - 771, modified by Debby Knight
+Z:
+M:6/8
+R:Jig
+K:A
+E|"A"AcB Bce|fec "E7"B2 A|"A"AcB cAB|"F#m"cAF "D"~F2 E|
+"A"AcB Bce|fec "E"B2 A|"A"AcB cAB|"E7"cAA "A"A2:|
+a|"D"~f3 fea|fea fec|"A (C#m)"ecf ecf|ecA "E7"B2 e|
+"A"aff "E"gee|"A"fec "E7"B2 A|"A"AcB cAB|"E7"cAA "A"A2:|
+%
+
+%%newpage
+
+X: 525
+T: the New Stove
+M: 6/8
+L: 1/8
+C: Frank Ferrel
+R: Jig
+F: http://home.usit.net/~bhooper/scot3.abc 2006-01-25 16:54:05 UT
+K: D
+ A | "D"f2A "A7"e2A | "D"ded  dAF | "D"DFA ded | "G"BGG G2f | "Em"g2A "(Bm)"f2A | "A"efe ecB | "A7"ABA BAG | "D"F3 z2 ||
+yA | "D"f2A "A7"e2A | "D"ded  dAF | "D"DFA ded | "G"BGG G2f | "Em"g2A "(Bm)"f2A | "A"efe ecB | "A7"Aba gec | "D"d3 z2 |]
+yA | "D"F2A     AFD | "D"A,DF A2F | "D"DFA ded | "G"B3  z2B | "Em"g2A       e2A | "A"cdc c2B | "A7"ABA BAG | "D"F3 z2 ||
+yA | "D"f2A "A7"e2A | "D"ded  dAF | "D"DFA ded | "G"B3  z2A | "Em"Bgg       g2B | "D"Aff f2a | "A7"gec ABc | "D"d3 z2 |]
+
+X: 526
+T: Quadrille de l'\^Ile d'Orl\'eans, Partie 2
+R: jig
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: "D"dfd "F#m/c#"cfc | "Bm"B2B B2A | "D"dfd "F#dim"cfc | "Em"B2B B2A |\
+  "A7"ege "Bm"dfd | "A/c#"c3 c2B | "A"A2A ABc |1 "D"dcB "A7"AFA :|2 "D"dAF D3 ||
+|: "D"F3 FAd | f3- f2d | e2d "B7"c2d | "Em"g3- g2f |\
+  "A7"e2e e2d | c2c c2B | A2A ABc |1 "D"dcB "A7"A2G :|2 "D"dAF D3 |]
+
+X: 527
+T: Korolenko's Backyard
+C: Jean-Paul Loyer
+O: Qu\'ebec
+D: Jean-Paul Loyer "Ojnab"
+R: jig
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: printed page from Debby Knight
+M: 6/8
+L: 1/8
+K: G
+BA \
+|  "G"G2G GFG | "G"D2{E}D DBA | "G"G2G GFG | "Em"GEE EAB | "Am"c2c cBc | "D7"d2d dcB |
+[1 "D7"A2{B}A AGA | "G"BGE "D7"D :|[2 "D7"AGE DBA | "G"G3- "G7"G2D |: "C"E2E E2D | "C"E2F G2E |
+"G"DGG "D7"AGA | "G"BGB "G7"dBG |  "C"E2E E2D | "C"E2F G2E |\
+"G"DGG "D7"FGA |[1 "(G)"BGF "G"G2F :|[2 "(G)"BGF "G"G |]
+
+%%newpage
+
+X: 528
+T: The Roaring Barmaid
+R:jig
+C:Tony O'Sullivan
+Z:Translated to abc by Debbie Knight
+M:6/8
+L:1/8
+K:G
+|: "G"G3 EGD |"C/G"G3 EGD |"G"DGG BGG |dGG BdB \
+|  "G"G3 EGD |"G/B"G3 EGD |"C"GAB deg |"D" deg edB :|
+|: "G"deg b3 |"G/B"bab deg  |"C"b3 bag |"D"edB deg \
+|  "G"b3 bab |"G/B"agg bgg |"C"agg efg|"D"deg edB :|
+
+X: 529
+T: Pipe On The Hob, The
+O:Irish
+M:6/8
+L:1/8
+R:jig
+K:DMix
+A |\
+"D"d^cd A2G | F2D DED | "C"EDE cBc | E2D "D"D2A |\
+"D"dcB "Am7"cBA | "Bm7"BAG "Am7"A2G | "C"EDE cBc | "C"E2D "D"D2 :|
+g |\
+"D"f2d d^cd | f2d d^cd | "C"edB c2d | "C"ede "A"age |\
+"D"f2d d^cd | f2d d^cd | "C"ede age | "A"ed^c "D"d2 ||
+e |\
+"D"f2d d^cd | f2d d^cd | "C"edB c2d | "C"ede "A"age |\
+"D"fef "C"gfg | "D/B"afa "Am7"g2e | "D"fed "C"eag | "A"ed^c "D"d2 |]
+
+X: 530
+T: the Wild One
+C:Mary Pantaleone
+M:6/8
+L:1/8
+R:jig
+Z:abc by Debby Knight
+K:Dmin
+A, \
+| "Dm"DEF DGD | "F"ADc AGF | "Bb"DEF DGD | "Am"ADF "(C)"EDC \
+| "Dm"DEF DGD | "F"ADc AGF | "Bb"dcA "F/a"GAF | "C"EDC "Dm"D2 :|
+|: A \
+| "Dm"d2c A2c | "F"dcA cdc | "Bb"d2c A2G | "C"FGE "Dm"FED \
+| "Dm"d2c A2c | "F"dcA cdc | "Bb"dcA "F/a"cdF | "C"EDC "Dm"D2 :|
+
+X: 531
+T: Indian Point
+C: Rick Mohr
+R: jig
+M: 6/8
+K: Em
+|: "Em"B,EF G2A | BAG FED \
+| "C"CEF G2A | BAG BAG \
+| "D"FED A,2D | FEF AGF |
+|1 "Em"EFG BAG | "D(Bm)"F3 FED \
+:|2 "Em"GFE "D"FED | "Em"E3 -E2A \
+|: "Em"Bef gfe | "C"cef gfe |
+| "D"dfg agf | "Em"gfe "D"fed \
+| "Em"Bef gfe | "C"ceg "Am"a2a \
+| "Em"bag "B7"fgf | "Em"e3 -e3 |]
+
+%%newpage
+
+X: 532
+T: the Orphan
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: The Portland Collection v.2 p.149
+M: 6/8
+L: 1/8
+K: Em
+|:\
+"Em"E3 EDB, | GFG "D"A3 | "Em"B3 "D"ABA | "Em"GEF EDB, |\
+"Am"A,3 EDB, | "Em"GFG "D"AGA | "Bm"BdB ABA | GED "Em"E3 :|
+|:\
+"Em"efe eBA | "G"GAB d3 | "Em"efe "D"dBA | "Em"BGE EDB, |\
+"Am"EAG EDB, | "Em"GFG "D"AGA | "Bm"BdB ABA | GED "Em"E3 :|
+
+X: 533
+T: the Banks Of Lough Gowna
+B: O'Neill (Music of Ireland: 1850 Melodies) 1903 #1060
+B: O'Neill (Dance Music of Ireland: 1001 Gems) 1907; #264
+N: "Gowna" is the anglicisization of "Gamhna", and means "calf".
+N: There are lakes by this name in both Ireland and Scotland
+M: 6/8
+L: 1/8
+R: jig
+K: Bm
+dc \
+| "Bm"BcB BAF | "A7"FEF "D"DFA | "Bm"BcB BAF | "D"d2e fed  \
+| "Bm"BcB BAF | "A7"FEF "D"DFA | "D"def "A7"geg | "Bm"fdB B :|
+|: Bc \
+| "D"def ~a3 | "D"afb "(A7)"afe | "D"dFA "Bm"def | "A7"geg fdB  \
+| "D"def ~a3 | "D"afb "(A7)"afe | "D"def "A7"geg | "Bm"fdB B :|
+
+X: 534
+T: Over the Causeway
+C: Susan Conger 2001
+B: The Portland Collection v.2 p.152
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+E \
+|: "A"AAA ABc | e2A B2A | "Bm"B3 BcA | "D"FAG "E7"F2E \
+|  "A"AAA ABc | e2A B2A | "F#m"F2F "E7"GFE |1 "D"F3 "E7"E3 :|2 "D"F3- F2"E"G ||
+|: "A"A2a- "D"a2f- | "A"f2e c2e | f2e c2B | "F#m"cBA F2A \
+|  "A"E2a- "D"a2f- | "A"f2e c2B | c2e "E7"cBA |1 "A"A3- A2 "E"B :|2 "A"A3- A2 |]
+
+%%newpage
+
+X: 535
+T: Con Cassidy's Jig
+R: jig
+B: The Portland Collection v.2 p.40
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: A |\
+"G"B3 BAB | "G"d2c "D"AGF | "Em"G3 GFG | "(A7)"BAG "D"A2B |\
+"C"c3 cBc | "G"ded B2c | "D7"ded cAF | "G"GBd g2 :|
+|: g |\
+"D"f2d def | "G"gfg "Am"a2g | "D"f2d ded | "Am"c2A A2g |\
+"D"f2d def | "G"gfg "A7"a2g | "D"f2d "A7"ed^c |1 "D"d3 de :|2 "D7"ded "d.C."cB |]
+
+X: 536
+T: the Sailor's Wife
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dm
+   "A7"A \
+| "Dm"DEF E2D | d2e f2g | agf edc | "F"AcA "C"GEC \
+| "Dm"DEF E2D | d2e f2g | agf "A7"ed^c | "Dm"d3- d2 :|
+|: "C7"e \
+| "F"fga fga | fga agf | "C"ecg ecg | efg "A7"gfe \
+| "Dm"fga agf | "C"efg gfe | "Dm"def "A7"ed^c | "Dm"d3- d2 :|
+
+X: 537
+T: an Irishman's Heart to the Ladies
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: NEFR #13
+M: 6/8
+L: 1/8
+K: A
+a \
+| "A"ecA "D"BAF | "A"AFE EFA | "Bm"Bdc BAB | "E7"cBB B2f \
+| "A"ecA "D"BAF | "A"AFE EFA | "Bm"Bdc "E7"BAB | "A"cAA A2 :|
+|: B \
+| "A"cee "D"dff | "A"cee ecA | cde "D"faf | "A"ecA "E7"B2A \
+| "A"cee "D"dff | "A"cee ecA | "Bm"B{c}dc "E7"BAB | "A"cAA A2 :|
+
+%%newpage
+
+X: 538
+T: Charlie Hunter's Jig
+T: Charlie Stuart's Jig
+C: Bobby MacLeod
+D: FR200 "Kitchen Junket"
+D: Rounder 7004, Joe Cormier, "The Dances Down Home"
+B: Bobby MacLeod's Selection of Country Dance Tunes
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+   A \
+| "D"DFA "G"GBd | "D"Adf "A7"a2g | "D"fed "Bm"Bcd | "A7"ecA GFE \
+| "D"DFA "G"GBd | "D"Adf "A7"a2g | "D"fef "A7"gec | edc "D"d2 :|
+|: f/g/ \
+| "D"afd dcd | "G"BGG G2F | "E7"E^GB e2d | "A"cAA A2a/g/ \
+| "D"fdA FDF | "G"GBd g2g | "D"fef "A7"gec | edc "D"d2 :|
+
+X: 539
+T: Mist Over Tennessee
+T: the Grand Mira Jig
+C: Angus MacDougall & Mickey Gillis 1938
+O: Cape Breton
+N: Angus and Mickey lived in Grand Mira.
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+R: jig
+K: G
+"D7"d2c \
+| "G"B2B BGE | DGB d3 | "C"~e3 "G"dBG | "Am"c3- cAB \
+| "D7"c2c cAF | DFA c3 | d2d d2c | "G"B3 "D7"d2c ||
+y4\
+| "G"B2B BGE | DGB d3 | "C"~e3 "G"dBG | "Am"c3- cAB \
+| "D7"c2c cAF | DFA cBc | ded cBA | "G"G3 |]
+"D7"g2a \
+| "G"bz2 g3 | ded B3 | DGB DGB | "Am"c3- cBA \
+| "D7"az2 f3 | ded dBc | ded cBA | "G"Bc^c "D7"d2g  ||
+y4\
+| "G"bza g2e | ded B3 | DGB DGB | "Am"c3- cBA \
+| "D7"az2 f2e | ded dBc | ded cBA | "G"G3 |]
+
+X: 540
+T: Aunt Mary's Jig
+O: Canada
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: D
+|: de | "D"f2f f>ga | d3 dcB | A>BA "B7/D#"AGF | "Em"E3- E3 | "A7"e2e efg | e2d c2B |
+|1 A2A A>BA | "D"F6 :|2 A2A ABc | "D"d3- d |: FG || "D"A>FA faf | e2d d2B | A>FA "B7/D#"BcB |
+| "Em"A2G G3 | "(A7)"G>FG efe | "A7"d2c c2B |1 A2A A>BA | "D"F6 :|2 "A7"A2A ABc | "D"d3- d |]
+
+%%newpage
+
+X: 541
+T: the Coming Dawn
+C: Keith Murphy
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 6/8
+L: 1/8
+K: G
+A |\
+"G"BAG EDB, | "Bm"D3 DB,D | "C"EGE "G/B"DB,D | "A7"EFG "D7"ABc |
+"G"BAG EDB, | "Bm"D3 DB,D | "C"EGE "G/B"DB,D | "D7"EGF "G"G2 :|
+|: A |\
+"G"B2d dBd | "C"edB AGA | "Em"BAG EDB, | "Bm"D3 DB,D |
+"C"E3 "Am"EDB, | "D"GFG "B7/D#"A3 | "Em"Bed "G/D"BAG |  "C"AGF "D7"G2 :|
+
+X: 542
+T: Heavens to Betsy
+C: Todd Silverstein
+R: jig
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 6/8
+L: 1/8
+K: D
+|: "D"F>ED DEF | A>BA AFD | "G"G>GG GAB | "A7"E2E EFG |
+"D"F>ED DEF | A>BA AFD | "G"Gz2 B>cB |1 "A7"ABc "D"d2A :|2 "A7"ABc "D"d2e :|
+|: "Bm"f>gf fdB | fdB Bcd | "A"e>fe ecA | ecA ABc | "G"d>ed dBG |
+dBG GAB |1 "A7"cBc dcd | ede gfe :|2 "A7"cdc BcB | ABA GFE |]
+
+X: 543
+T: Connie O'Connell's Jig #2
+T: Lad O'Beirne
+M:6/8
+L:1/8
+R:jig
+F:http://www.ibiblio.org/fiddlers/CON_CONWAY.htm
+%%slurgraces
+K:D
+A |\
+"D"d>FF AFF | dFF AGF | "A7"A,CE ~G3 | A,CE GFE |
+"D"D>FA "G"DGB | "A7"Adc "D(Bm)"d2e | "D"fed "A"cBA | "A7"GFE "D"D2 :|
+|: e |\
+"D"f>ef a^ga | f>dc def | "C"e>=ce ~g3 | "A7"e>ce cde |
+"D"f>ef "G"g>fg | "D"a>^ga "G"ba=g | "D"fed "A"cBA | "A7"GFE "D"D2 :|
+
+%%newpage
+
+X: 544
+T: Paddy Fahy's Jig #1
+C: by Paddy Fahy
+R: jig
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+N: Various transcriptions disagree on which Bs are b-flats.
+M: 6/8
+L: 1/8
+K: G
+F |\
+"Gm"DGA _B2G | "F"cBc "G"d2g | "G"gfd Bcd | "F"cBG =FDC |\
+"Gm"DGA _B2G | "F"cBc "D"dfa | "G"gfd Bcd | "D7"cAF "G"G2 :|
+|: B/d/ |\
+"G"g2d "D7"fga | "G"gfd Bcd | "F"c2A =fef | "D7"agf def |\
+"Gm"g2a _bag | "D7"fdg fdc | "G"ABG "D"AGF | "D7"DGF "G"G2 :|
+
+X: 545
+T: Equinox
+C: by Joseph Grote
+R: jig
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 6/8
+L: 1/8
+K: Edor
+A |\
+"Em"Bee bee | gee fed | Bcd efg | "D"afd dcd |
+"Em"Bee bee | gee fed | "D"Bcd dBA | "Em"BGE E2 :|
+K: G
+|: F |\
+"G"G2B BAB | d2B B3 | "C"c2e efg | "D7"afe dBA |
+"G"G2B BAB | d2B B3 | "Am"ABc "D7"cBA | "Em"BGE E2 :|
+
+X: 546
+T: Irishman's Heart to the Ladies
+S: Roaring Jelly collection
+M: 6/8
+R: jig
+K: A
+a |\
+"A"ecA "D"BAF | "A"AFE EFA | "Bm"Bdc     BAB | "E7"cBB B2a |
+"A"ecA "D"BAF | "A"AFE EFA | "Bm"Bdc "E7"BAB | "A"cAA  A2 :|
+|: A |\
+"A"Aee "D"dff | "A"cee ecA |     cde  "D"eaf | "A"ecA "E7"B2A |
+"A"cee "D"dff | "A"cee ecA | "Bm"Bdc "E7"BAB | "A"cAA     A2 :|
+
+%%newpage
+
+X: 600
+T: The Joy of Sets -- Waltzes
+O: from Paul Lizotte of Jump Start
+K:
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+X: 601
+T: Andrea's Waltz
+C: Bob Pasquarello
+M: 3/4
+K: Em
+[| "Em"E4FG | "Em/D#"A4B2 | "Em/D"E4FG | "A/C#"A4B2 |\
+"C"c4dc | "G"BG3B2 | "D"A6- | "B7'"A2G2F2 ||
+||\
+"Em"E4FG | "Em/D#"A4B2 | "Em/D"E4FG | "Em/C#"A4B2 |\
+"C"ed cB GF | "D"A3B1/2A1/2 GF | "G"G6- | G2"B7"B2A2 |]
+[|\
+"E"^G2A2B2 | "Am"cE3AG | "D"F2G2A2 | "G"BD3GF |\
+"Em"E3FG2 | "A/C#"E3FG2 | "C"E2F2G2 | "B"B4"B7"A2 ||
+||\
+"E"^G2A2B2 | "Am"cE3AG | "D"F2G2A2 | "G"BD3GF |\
+"Cmaj7"E2G2B2 | "B7"A2G2F2 | "Em"HE6 | "B7"EG FE ^DB, |]
+
+X: 602
+T: Blue Monday
+C: Linda Henry & Bob Snope (1994)
+R: waltz
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+|:\
+"D"DE FA dA | "Em"G3 A B2 |\
+"A7"AB ce ae | f3 g a2 |\
+"G"g3 f e2 | "D"fg ag f2 |
+[1 "G"ef ed cd | "A7"ea ed cA :|\
+[2 "A7"ef gA cA | "D"d4 d2 \
+[|\
+"G"GF EF GA | "A7"c3 B A2 |\
+"D"de fa fd |
+"Bm"A3 G F2 |\
+"G"GF EF GA | "A7"c3 B A2 |\
+"D"F2 D2 "G"B2 | "D"A4 F2 |]|\
+"G"GF EF GA | "A7"c3 B A2 |
+"D"dA Bc de | "Bm"f3 a f2 |\
+"Em"ga ba gf | "G"ef ed cB |\
+"A7"AB cA Bc | "D"Hd3 "//"y AF"D.C."A |]
+
+X: 603
+T: Bluemont Waltz
+C:Rodney Miller
+S:Bernie Waugh
+N:From Karen Myers 2007-2-9
+R:Waltz
+M:3/4
+L:1/8
+K:A
+|: AB |\
+"A"c4ec | "E"B3dcB | "F#m"AF3FG | F4E2 |\
+"D"D3E FD | "A"E2c2BA | "Bm"B6- | "E"B4AB |
+"A"c4ec | "E"B3dcB | "F#m"AF3FE | F4E2 |\
+"D"D3E FD | "E"E2c2BA |1\
+"A"A6- | A4 :|2\
+"A"A6 | "A7"c2cd eA ||
+|:\
+"D"f6 | "E"e3f ed | "A"dc3cd | "F#m"c4B2 |\
+"D"A6 | "E"B4Ae | "A"c6 | "F#m"c2B2A2 |
+"Bm"B4Bc | "E"B4AF | "A"EA3AE | "F#m"FA3E2 |\
+"D"D3E FD | "E"E2c2BA |1\
+"A"A6 | c2d2e>A :|2\
+"A(D)"A6- | "A"A4 |]
+
+X: 604
+T: Bodavalsen
+O: Trad Sweden
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Em
+V: 1
+|:\
+"Em"B3 cBA |    B3 cBA |     B4 e2 |     B3 Bef | g4  g2 | "D"f4  e2 | "Bm"f3g f2 | "B7"B6 ||
+ "C"e4 e2  | "D"d3 cBc | "Bm"B4 A2 | "Em"G3 FEF | G3A G2 | "D"F3G F2 | "Em"E6- |  E6 :|
+|:\
+"C"e4 e2 | g3 f e2 | "G"d6 | B6 | "D7"A3 B c2 | c2 B2 A2 | "G"B4 c2  | d6 ||
+"C"e4 e2 | g3 f e2 | "G"d6 | B6 | "D7"A3 B c2 | D2 E2 F2 | "G"G3 AGF | G6 :|
+V: 2
+|:\
+G3 AGF | G3 AGF | G4 B2 | G4  GA | B4 B2 | ^d4 ^c2 | ^d3e d2 | F6 ||
+c4  c2 | B3 AGF | G4 F2 | E3 DGA | B3c B2 | A3B A2 | G6- | G6 :|
+|:\
+c4 c2 | e3d c2 | B6 | G6 | F3G A2 | A2 G2 F2 | G4 A2 | B6 ||
+c4 c2 | e3d c2 | B6 | G6 | F3G A2 | [d2D2] [_d2_D2] [c2C2] | [B3B,3] [cC][BB,][AA,] | [B6B,6] :|
+
+X: 605
+T: Candles in the Dark
+C: Jonathan Jensen
+R: waltz
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+S: Printed page labelles "22 Loretta Holz" at bottom
+M: 3/4
+L: 1/8
+K: Bm
+|: "Bm"Bb af "Em"ec | "Bm"d2 B4 |  "Bm"Bb af "Em"ec | "Bm"f6 \
+|  "Bm"Bb af "Em"ed | "A"c2 A2 Bc | "G"d3 c BA | "Bm"F2 B4 :|
+[| "G"d3 B "A/g"ec | "G"d3 B "A/g"cA | "G"BA Bc de | "D"f3 a fd \
+|  "A"c3 f "Bm"dB | "F#m"A3 d "G"BG | "Em"EF GA Bc | "Bm"d2 B4 |]
+[| "G"d3 B "A/g"ec | "G"d3 B "A/g"cA | "G"BA Bc de | "D"f3 a fd \
+|  "A"ec A"Bm"f dB | "F#m"cA F"G"d BG | "Em"EF GA Bc | "Bm"d2 B4 |]
+
+X: 606
+T: Far Away
+I:
+C: W-38
+C: \2511986 Peter Jung
+M: 3/4
+Z:
+R: waltz
+K: Bm
+FA| "Bm"B3 F Bd| "F#m"cA F2 FA| "Bm"B3 F Be| "A"c4 dc|
+"G"B3 G Bd| "F#m"cA F2 de| "Bm"fe dc "A"BA|1 "Bm"B4 :|2 "G"B4 |]
+|:\
+de| "D"f3 d fa| "A"ec A2 de| "D"f2 fd fa| "Em"e4 de|
+"Bm"fd Be "A"cA| "G"dB Gc "F#m"AF| "Bm"F2 B2 "F#m"A2| "Bm"B4 :|
+%
+
+X: 607
+T: la Gueussinette
+C: Stephen Jones
+R: waltz
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: printed MS from Debbie Knight at RJ practice
+N: "Cette pi\`ece lente fut compos\'ee en 2002 dans l'attente de la
+N: naissance de notre fils Gussie, que deviendrait le futur Gareth!"
+N: "Composed in 202, this slow tune was dedicated to our "in utero"
+N: child Gussie, Gareth-to-be."  --Stephen Jones
+M: 3/4
+L: 1/8
+K: Bm
+|:\
+"Bm"B2 F2 B{c}d | B2 F4 | BA Bc de | f6 |\
+"Em"g3 f eg | "Bm"f2 d2 B2 | "C#dim7"cB cd ed | "F#"c4 dc |
+"Bm"B2 F2 B{c}d | "Bm"B2 F3 F | BA Bc de | fd B3 f |\
+"Em"gf ed e{f}g | "Bm"fd BF Bd | "F#"cB ce dc | "Bm"B6 :|
+|: "Em"g3 f eg | "Bm"f2 d2 B2 | "G"BA Bc "A7"de | "D"f6 |\
+"Em"g3 f e{f}g | "Bm"f2 d2 B2 |"C#dim7"cB cd ed | "F#" c3 d ef |
+"Em"g3 f eg | "Bm"fd B3 F | "G"BA Bc "A"de | "D"f6 |\
+"Em"ga bg eg | "Bm"fd BF B{c}d | "F#"cB ce dc | "Bm"B6 :|
+
+X: 608
+T: Haapavesi valssi
+C: Keith Murphy
+R: waltz
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+AcA |\
+"D"cd dA cA | cd dA cd | "Em"e2 eg fd | "A7"e2 A2 Bc |\
+"D"cd dA cA | cd dA cd | "Em"e2 eg "A7"e{d}c | "D"d3 :|
+|: efg |\
+"D"a2 ag fd | "G"g3 f- fg | "A7"eA Ag fg | e2 A2 fg |\
+"D"a2 ag fd | "G"g3 f- fg | "Em"e2 eg "A7"e{d}c | "D"d3 :|
+
+X: 609
+T: Waltz from Pennou Skoulm
+N: Pennou Skoulm was a Breton band in the late 1980s.
+R: waltz
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+DF \
+| "G"GF GA Bc | d2 dc BG | "Am"c2 cB AG | "D7"A2 FA AD \
+| "G"GF GA Bc | d2 dc BG | "Am"cB AG FG | "D7"A4 :|
+|: d2 \
+| "C"ed e2 "D7"f2 | "G"g3 d BG | "Am"cB AG FG | "D7"A3 g fd \
+| "C"ed e2 "D7"f2 | "G"g3 d BG | "Am"cB AG FG |["1-N" "D7"A4 :|
+|["Coda" "D7"A2 FA AD | "G"HG6 |]
+
+X: 610
+T: Penobscot Memory
+C: Vince O'Donnell 1981
+C: Harmony: Vince O'Donnell 2005
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+V: 1
+D \
+| "G"DB3 B2 | "F"A=F- FG AF | "G"G3 ABc | d2 B2 G2 \
+| "C"ce3 e2 | "G"d3 BGB | "F"A6- | "D7"A4 D2 |
+| "G"DB3 B2 | "F"A=F- FG AF | "G"G3 ABc | B2 G2 D2 \
+| "C"EG3 G2 | "D7"DA3 BA | "C"G6- | "G"G2 "B7"G2 F2 |]
+[| "Em"E4 E2 | e3 fge | "D"fg fe d2- | d2 f2 a2 \
+| "C"g4 g2- | g2 f2 e2 | "G"d6- | d2 "B7"G2 F2 |
+| "Em"E4 E2 | "C"g4 g2 | "G"ed3 "(#)"d2 | "Em"e4 B2 \
+| "Am"A3B c2- | "D7"c2 B2 A2 | "C"G6- | "G"G4 |]
+V: 2
+D \
+| "G"G,6 | "F"A,6 | "G"B,3 CDE | =F2 G2 F2 \
+| "C"E C3 C2 | "G"D3 GDG | "F"=F3 EDC | "D7"D2 FG AF |
+| "G"G D3 G2 | "F"=F3 EDC | "G"D3 FGA | G2 D2 B,2 \
+| "C"C E3 G2 | "D7"D3 CB,A, | "C"G,A,/B,/ CB, A,C | "G"B,2 "B7"B,2 B,2 |]
+[| "Em"B,4 B,2 | B3 AGB | "D"AB AG F2- | F2 A2 F2 \
+| "C"G4- GA/B/ | c2 B2 A2 | "G"G6- | G2 "B7"G2 F2 |
+| "Em"G4 G2 | "C"c4 c2 | "G"cB3 "(B7)"B2 | "Em"B4 "(E7)"B2 \
+| "Am"c3 d e2- | "D7"e2 d2 c2 | "C"c2 B2 A2 "G"G4 |]
+
+X: 611
+T: Two Rivers
+I:
+C: W-43
+C: \2511986 Larry Unger
+B: The Curvy Road to Corinth
+Z:
+M: 3/4
+K: Bm
+dc | "Bm"B4BA | Bc dB AF | "F#m"F2A2AB | A4dc | \
+    "Bm"B4BA | Bc dc de | "G"f4 B2 | "A"f4fe |
+    "D"d4dc | de fdf2 | "F#m"a2f2d2 | f4ba | \
+    "Bm"f3d ef | "A"e2d2BA ||1 "G"B6- | B2 z2 :|2 "G" B6- | B2 Bc de |]
+\
+"Bm"f2B2f2 | f2B2f2 | "A"e2A2e2 | e2Bc de | \
+"Bm"f2B2f2 | f2B2f2 | "G"a4c2 | "A"a4a2 |
+"Bm"b3d' ba | f2d2d2 | "G"Bf fB ff | "A"e2c2A2 | \
+"Bm"B3d BA | "F#m"F4ED ||1 "G"E6- | "A"E2 Bc de :|2 "G"E6- | "A"E2 z2 |]
+%
+
+X: 612
+T: Valse Aldor
+C: Aldor Morin (1921-1998)
+O: Qu\'ebec
+R: waltz
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+[|\
+"D"f3 efg | "/C#"f3 efg | "/B"(3fff f2 d2 | "D"A3 Bcd |\
+"Em"e3 def | "/D"e3 def | (3eee e2 c2 | "A7"A2 Bc de |
+"D"f3 efg | "/C#"f3 efg | "/B"(3fff f2 d2 | "D"A6- |\
+"G"AA Bc de | "D"f2 fe cA | "E7"BA ^GA cB | "A7"AF G2 E2 |]
+[|\
+"D"f3 efg | "/C#"f3 efg | "/B"(3fff f2 d2 | "D"A3 Bcd |\
+"Em"e3 def | "/D"e3 def | "/C"(3eee e2 c2 | "A7"A6 |
+"D"(3ABA F2A2 | "D7"d3 c2=c | "G"(3BcB G2 B2 | "E7/^G"e4 d2 |\
+"A7"CD EF GA | B4 c2 | "D"d2 dc de | d3 B=c^c |][K:G]
+|:\
+"G"dB GD GB | "Em"dB GD GB | "Am"d2 c3 B | "/G"c3 BAB |\
+"D"cA FD FA | "/C"cA FD FA | "G"c2 B3 ^A | B3 GBd |
+"G"gd BG Bd | "G7/F"gd BG Bd | "C"f2 e3 ^d | "C6"e4 g2 |\
+"D7"(3fgf (3efe (3ded | (3cdc (3BcB (3ABA |1 "G"G3 B=c^c :|2 "G"g6 |]
+
+X: 613
+T: Valse des Jouets
+C: Michel Faubert
+M: 3/4
+R: waltz
+K: D
+F Ad |\
+"D"fe fg fe | "G"dB AF D2 | "D"fe fg fe | "G"dB AF D2 |\
+"Em"ed ef ed | "A"c3d cB | "G"AE AB cA | "D"dB AF "A7"Ad |
+"D"fe fg fe | "G"dB AF D2 | "D"fe fg fe | "Bm"dB AF D2 |\
+"Em"ed ef ed | "A"c3d cB | "G"AB AG "A7"FE | "D"D3 :|
+|:\
+d dc | "D"dA FA dA | "G"B3d dB | "A"cA Bc de | "D"f3f df |\
+"Bm"bf df bf | "Em"g3e ed | "A7"ce Ac ae | "D"f3d dc |
+"Bm"BF FB BF | "G"G3e ed | "A"cB AG FE | "F#"F4- F2 |\
+"G"GF GA Bc | "D"de f3f | "A7"ge ce BA | "D"d3 :|
+
+X: 614
+% %staffwidth 14.5cm
+T: Waiting for Fish
+C:W-45
+R:waltz
+C:Susie Secco c1996
+D:
+Z:
+M:3/4
+K:Dm
+DF|"Dm"A2 AB AF | D4 F2 |"Gm"G2GB AG |"Dm"AF D2E2|
+ F2FA FD |"C"E2 EG EC |1"Bb"DE D2C2|"Am" A,4 :|\
+		[2 "Bb"DE G2 "Am"A2 | "Dm"d3A de|]
+|: \
+"Dm"f2 fa gf |"C"e3g fe |"Bb"de d2 "A"^c2| A4 AB |
+"F"cd cB A2 |"C"GA GF E2 |"Dm"D2E2 "C"C2|1 "Dm"D3 A de:|2 "Dm" D4|]
+%
+
+%%newpage
+
+X: 700
+T: The Joy of Sets -- Marches
+O: from Paul Lizotte of Jump Start
+K:
+
+X: 701
+T: Belle Rivi\`ere
+C: Eric Favreau
+R: jig
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+N: From a printed transcription by Rachel A., 2009
+M: 6/8
+L: 1/8
+K: D
+[| "D"D3  FDF | "D"ABA ABc | "D"d3  ded |"A7"cdc "G"BcB \
+| "Em"E2F GFE |"A7"c3- c2B |"A7"AGA BAG | "D"FAd    A3  ||
+|| "D"D3  FDF | "D"ABA ABc | "D"d3  ded |"A7"cBA    e3  \
+| "Em"BAB e2B | "D"AFA d2B |"A7"ABA GFE | "D"DFA    d2f |]
+[| "D"f2e e2d | "D"d3  Ade | "D"fdf fdf | "G"gag    B3  \
+| "Em"g3  gfe |"A7"c3  c3B |"A7"AGA BAG | "D"FAd    A2f ||
+|| "D"f2e e2d | "D"d3  Ade | "D"fdf fdf | "G"gag    B3  \
+| "Em"g3  gfe | "D"a3  a2f |"A7"gec ABc | "D"dAF    D2z |]
+
+X: 702
+T: Korolenko's Backyard
+C: Jean-Paul Loyer
+O: Qu\'ebec
+D: Jean-Paul Loyer "Ojnab"
+R: jig
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: printed page from Debby Knight
+M: 6/8
+L: 1/8
+K: G
+BA \
+|  "G"G2G GFG | "G"D2{E}D DBA | "G"G2G GFG | "Em"GEE EAB | "Am"c2c cBc | "D7"d2d dcB |
+[1 "D7"A2{B}A AGA | "G"BGE "D7"D :|[2 "D7"AGE DBA | "G"G3- "G7"G2D |: "C"E2E E2D | "C"E2F G2E |
+"G"DGG "D7"AGA | "G"BGB "G7"dBG |  "C"E2E E2D | "C"E2F G2E |\
+"G"DGG "D7"FGA |[1 "(G)"BGF "G"G2F :|[2 "(G)"BGF "G"G |]
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+X: 703
+T: Coleman's March
+R: march, reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+"A7"ABAG |\
+"D"F4- F4 | "G"G6 FG | "D"A2-AB AG F2 | "A7"E6 FG |\
+"D"A2d2 "A7"c4 | "G"B2{c}BA "D"FED2 | "Em"E2EF "A7"GFE2 | "D"D4 :|
+|: DFAc |\
+"D"d6 e2 | "A"c6 A2 | "G"B2Bc dcB2 | "D"A6 FG |\
+"D"A2d2 "A7"c4 | "G"B2{c}BA "D"FED2 | "Em"E2EF "A7"GFE2 | "D"D6 z2 :|
+
+X: 704
+T: the Wren  [Bm]
+O: trad Breton
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bm
+|:\
+"Bm"B2f2 f2ef | "Em"g2e2 edcd | "A"eAce efed | c2c2 dcBA |\
+"Bm"B2f2 f2ef | "Em"g2e2 edcd | "A"eAce efed | "A"c2B2 "Bm"BAFA :|
+|:\
+"Bm"B3A Bcdc | "Bm"B2B2 "A"c3d | eAce efed | "A"c2c2 dcBA |\
+"G"B3A Bcdc | "G"B2B2 "A"c3d | eAce efed | "A"c2B2 "Bm"B2A2 :|
+
+X: 705
+T: On the Danforth
+C: Keith Murphy 2001
+N: Keith's book of tunes, Black Isle Music, is available for
+N: $15 plus $2 shipping for any number of copies from
+N: Keith Murphy and Rebecca Tracy
+N: Blackislemusic.com
+N: 104 Washington St, Brattleboro, VT 05301
+F: http://www.thursdaycontra.com/~spuds/tunes/reels/OnDanforth.abc
+L: 1/8
+M: C|
+K: A
+|: "A"c2 cd c2A2 | "E"B2c2 "D"F4 | "F#m"A2>B2 c2 BA | "E"B2c2c2B2 |
+   "A"c2 cd c2A2 | "E"B2c2 "D"F4 | "F#m"A2>B2 c2 BA | "E"B2G2 "A"A4 :|
+|: "A"e2>f2 e2d2 | "A"c2A2 "Bm"B2d2 | "A/C#"c2 A2 "D"B2d2 | "A/E"cB A2 "E"B2E2 |
+ "F#m"e2>f2 "E/G#"e2d2 | "A"c2A2 "D"B2d2 | "A"cB A2 "E"B2E2 | "A"A4 "D"A4 :|
+
+X: 706
+T: Pete's March
+C: Bob McQuillan
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/4
+K: D
+A,B, \
+| "D"D2  D>F | ED D>E | FA Ad | BA3 | f>e df | "G"e>d Bd | "D"A>B AF | "A7"FE A,B, |
+| "D"D2  D>F | ED D>E | FA Ad | BA3 | f>e df | "G"e>d Bd | "A7"AF EF/E/ | "D"D2 de ||
+|| "D"f2 f>g | "D7"fe d>f | "G"ed Bd | "D"BA FE | DF Ad | "Bm"fa gf | "Em"ed fd | "A7"f2 e2 |
+| "D"f2 f>g | "D7"fe dd | "G"ed Bd | "D"BA FE | DF Ad | "G"dB A>g | "A7"fe dc | "D"d2 |]
+
+X: 707
+T: The Quarry Cross
+M: C|
+L: 1/8
+F: http://www.thursdaycontra.com/~spuds/tunes/reels/QuarryCross.abc
+K: Em
+|:"Em"G2E2    E2ED |   B,2E2   E3G  | "D"F2D2     D3E  |    F2G2    ABBA \
+| "Em"G2E2    E2ED |   B,2E2   E3F  | "C"G2B2  "D"A2F2 |"Em"E4      E2BA :|
+|:"Em"B2e2    e3d  |   e2B2    B2A2 |    B2e2     e2d2 | "C"e4   "D"e3f  \
+| "Em"g2e2 "D"f2gf |"C"e2B2 "Bm"B3A |"Am"G2E2 "Bm"E2F2 | "C"G2A2 "D"B2BA :|

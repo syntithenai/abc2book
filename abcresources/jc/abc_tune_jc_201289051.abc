@@ -1,0 +1,18 @@
+X: 971
+T: Hurry the jug
+O: Ireland
+R: jig, long dance, set dance
+%S: s:5 b:20(4+4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #971
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0971/oneill-1001-0971-1.abc
+M: 6/8
+L: 1/8
+K: Em
+"^A"[|] D \
+| EFE G2A | BGE FEF | DED F2G | AdB AFD |
+| EFE G2A | BGE FGA | BdB AdF | EGF E2 :|
+"^B"|: A \
+| AFA d2d | ^cec d2A | AFA d2A | BAG FED |
+|[1,3 E2e e2f |  g2e f2d | B2e e2f | gfe fdB :|
+|[2,4 EFE G2A |  BGE FGA | BdB AdF | EGF E2 :|

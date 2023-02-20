@@ -1,0 +1,17 @@
+X: 3052
+T: When the King came o'er the (Boyne) water
+%R: march
+B: Niel Gow & Sons "Complete Repository" v.3 p.5 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Slow"
+K: Dm
+% - - - - - - - - - -
+V: 1 staves=2
+z2 | ~d3c d2f2 | c>dcA F2GA | {A}B2(AG) (d2c).A | TG3F D3 :: G | F2f2 Tf3g | f>gfd c3[fA] |
+d2g2 Tg3a | (b>a)(gf) ~d3f | (cd) (fg) {fg}a2Tg>a | f2(FG) (BA) (GF) | B2AG (d2c).A | TG3F D3 :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 | z2GA B4 | A2f2 F2ba | g4 B2c2 | d4 D3 :: z | F2f2 A2f2 | a3b a>gaf |
+b2g2 G2d2 | g3a b2z2 | (ab) (ag) f2c2 | f2(ab) (d'c') ba | g4 B2c2 | d4 D3 :|

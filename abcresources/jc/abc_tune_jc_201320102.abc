@@ -1,0 +1,17 @@
+X: 1473
+T: On the River Bank
+R: reel
+%S: s:2 b:16(8+8)
+B: O'Neill's 1850 #1473
+O: Stack
+Z: Bob Safranek, rjs@gsp.org
+M: C|
+L: 1/8
+K: G
+"^A"\
+[| d^cAF G2(GF) | DEFG ABcA | d^cAF GBAF | DEFG ABcA |\
+|  d^cAF G2(GF) | DEFG ABcA | d^cAF GBAF | DFAc BGG2 |]
+K: D
+"^B"\
+[| Addc d2cd | efcd efge | fgef d2(dc) | AGFG ABcB |\
+|  Addc d2cd | efcd efge | faef d2(dc) | Aceg fdd2 |]

@@ -1,0 +1,21 @@
+X: 3151
+T: Lord Seaforths Strathspey
+O: Very Old.
+%R: strathspey, air
+N: This is version 1, for ABC software that doesn't understand voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.3 p.15 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+B |\
+G<D-D>E GABG | c>AB>G E2-EA | GD-D>E G>ABe | d<BTA>B G2G :| g | (e/f/g) d>g B>gd>B | (c>AB)>G E2Eg |
+(e/f/g) d>g B>gd>B | c>Ad>B G2Gg || e<gd<b c>aB>g | c>AB>G E2EA | GD-D>E | G>ABe | d<BTA>B G2G |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+G2G2 g2g2 | f2g2 c2c'2 | b2g2 g2c2 | d2d2 G2G :| z | [g2c'2][g2b2] g2g2 | f2g2 c2c2 |
+[g2c'2][g2b2] g2g2 | c2d2 G2G2 || c'2b2 a2g2 | f2g2 c2c2 | B2G2 G2c2 | d2D2 G2G |]
+% - - - - - - - - - -

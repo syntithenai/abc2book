@@ -1,0 +1,20 @@
+X: 3243
+T: Comely Garden.   a Reel.
+C: Daniel Dow
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.3 p.24 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: The first 3 notes of bar 7 should probably be slurred, too.
+M: C|
+L: 1/8
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+e |\
+cA .c/.d/.e ~a2e=g | fd=g2 BGGB | cA .c/.d/.e ~a2e=g | d=gBd eA A :| e | (c/B/)A (.e.A) ce-.e>a | =gdBG Bd-d>e |
+c/B/A (.e.A) ce-e=g | d=gBd eAAe || (c/B/A) (.e.A) ce-e>a | =gdBG Bd-d>e | (c/B/A) ae fd=gd | B=GBd eAA |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | =g2g2 g2g2 | a2a2 a2a2 | d2e2 A2A :| z | a2a2 a2a2 | =g2g2 g2g2 |
+a2a2 a2a2 | d2e2 A2A2 || a2a2 a2a2 | =g2g2 g2g2 | a2c'2 d'2b2 | =g2^g2 a2a |]

@@ -1,0 +1,57 @@
+X: 1461
+T: GERMAN GALOPE
+O: Arranged by A. F. KNIGHT
+B: Oliver Ditson "The Boston Collection of Instrumental Music" 1910 p.146 #1
+F: http://conquest.imslp.info/files/imglnks/usimg/8/8f/IMSLP175643-PMLP309456-bostoncollection00bost_bw.pdf
+%: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Eb
+%----------
+V: 1 nm="Eb CLAR."
+K: C
+G |\
+G>G E>G | c>c f>e | d>a g^f | (g2 e)z |\
+e>e e^f | g>g G>A | B>B ^c^d | e2 z H:|
+|: z |\
+z4 | z4 |  z4 | z4 |\
+z4 | z4 |  z4 | z3 :| 
+|:[K:F] c |\
+c>c d>c | f>c a2 | (3agf (3agf | "^>"^f2 gc |\
+c>c d>c | g>c b2 | (3bag (3gfe | ef"^D.C."f :|
+%----------
+V: 2 nm="Bb CLAR. 1mo."
+K: F
+z |\
+f2 f2 | f2 f2 | d2 g2 | f2 f2 |\
+_e2 e2 | =e2 e2 | d2 d2 | c2 z H:|
+|: c' |\
+c'bag | (fa).c.f | "^>"(_d'2c')e | g2(fa) |\
+(c'b).a.g | facf | "^>"(_d'2c').e | f2z :|
+|:[K:Bb ] z |
+dddd | !/!d4 | dz dz | "^>"(^g2a)f |\
+_eeee | !/!e4 | f2ff | ([f2d2]"^D.C."[fd]) :|
+%----------
+V: 3 nm="Bb CLAR. 2mo."
+K: F
+z |\
+c2 c2 | c2 c2 | B2 e2 | c2 c2 |\
+c2 c2 | c2 c2 | =B2 B2 | A2 z H:|
+|: z |!p!\
+zeee | zfff | zeee | zfff |\
+z!/!e3 | z!/!f3 | z!/!e3 | fAz :|
+|:[K:Bb] z |\
+!/!B4 | !/!B4 | Bz Bz | "^>"d2 cA |\
+!/!B4 | !/!B4 | A2 AA | B2- "^D.C."B :|
+%----------
+V: 4 nm="OPHICLEIDE." clef=bass middle=d
+K: Eb
+z |\
+[g2e2] [g2e2] | [g2e2] [g2e2] | [f2B2] [b2B2] | [g2e2] [b2g2] |\
+[g2e2] [g2e2] | [g2e2] [g2e2] | [=a2d2] [a2d2] | [g2G2]z H:|
+|: z |!p!\
+B2 B2 | e2 e2 | B2 B2 | e2 E2 |\
+B2 B2 | e2 E2 | B2 BB | E2 z:|
+|:[K:Ab] z |\
+Az az | Az az | Az az | "^>"e2- ez |\
+ez ez | ez ez | ez ez | "^>"a2- "^D.C."a :|

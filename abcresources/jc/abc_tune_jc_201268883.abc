@@ -1,0 +1,38 @@
+
+X: 1
+T: Do Passi
+T: Two Steps
+O: Veneto, Verona, Italia
+O: from Roberto Bagnioli @ FAC Nor 2007
+N: from recording by Calicanto
+N: Taught at Stockton Folk Dance Camp 2009
+M: 2/4
+L: 1/8
+P: 2x(AB)+2x(CD)
+Q: "a tempo di sciottise"
+U: printed MS by Tom Pixton after workshop
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+K: D
+V: 1
+!A![|] Ad \
+| "D"f2f2 | ~f2Ad | f2f2 | ~f2 ef | "G"g2 gf | e2 ed | "A"~c2 B2 | A2 Ad |\
+"D"f2 f2 | ~f2 Ad |
+"D"f2 f2 | ~f2 ba | "Em"g2 gf | e2 ed | "A"~c2 A2 | "D"d2 z2 !B!|[|\
+"D"f2 ~f2 | d2 df | a2 a2 | f3 z | ~fe ed |
+"G"dc dB | "D"A2f2 | d3 z |\
+f2 ~f2 | d2 df | a2 a2 | f3 z | "A"dc ce | ag ~fe | "D"d2 f2 | d2 |]
+V: 2
+DF |\
+A2 A2 | A2 DF | A2 A2 | A2 GA | B2 BA | G2 GF | E2 D2 | A,2 DF |
+A2 A2 | A2 DF | A2 A2 | A2 dc | B2 BA | G2 GF | E2 E2 | D2 z2 |]
+D2 D2 | A,2 A,D | F2 F2 | D3 z | AGGF | FEFE | D2 A2 | F3 z |
+A2 A2 | F2 DE | F2 F2 | D3 z |  BA AG | FE DC | D2 A,2 | D2 |]
+%%sep 10
+P:
+K: G
+V:1
+!C![|] !tutti!DG \
+| "G"B2B2 | ~B2DG | "G"B2B2 | ~B2 AB | "C"c2 cB | A2 AG | "D"~F2 E2 | D2 DG |
+"G"B2 B2 | ~B2 DG | "G"B2 B2 | ~B2 ed | "Am"c2 cB | A2 AG | "D"~F2 D2 | "G"G2 z2 !D!|]
+[| "G"B2 ~B2 | G2 GB | d2 d2 | B3 z | ~BA AG | "C"GF GE | "G"D2B2 | GF GA |
+B2 ~B2 | G2 GB | d2 d2 | B3 z | "D"GF FA | dc ~BA | "G"G2 B2 | G2 |]

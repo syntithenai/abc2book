@@ -1,0 +1,21 @@
+X: 1
+T: the Warlocks
+C: Robert Lowe [19th C]
+R: strathspey
+B: J.Holland Book
+D: Bill Lamey (on a 78)
+Z: 2003 John Chambers <jc:trillian.mit.edu> (plus Jerry's chords 2020-2-17)
+M: C
+L: 1/8
+%%slurgraces 1
+%%graceslurs 1
+K: Em
+z \
+| "Em"B<E "(B7)"G>F "Em"E2 E/F/G | "D"A<B {B}A>F D2 D/E/F \
+| "Em"G>E "(D)"F>D "Em(C)"E<e e>f | "(Em)"g>e "D"f/e/d "Em"{d}e2 e :|
+B \
+| "Em"e/f/g B>g e<B g>e | "D"f/g/a d>a f<d a>f \
+| "Em"e/f/g B>g "(G)"e<B g>e | "D(Bm)"d>B A>F "Em"E2 E |]
+B \
+| "Em"e/f/g B>g e<B g>e | "D"f/g/a d>a f<d a>f \
+| "Em"e>g f>e "D"d>B A>F | "(Bm)"G<B "D"A>F "Em"E2 E |]

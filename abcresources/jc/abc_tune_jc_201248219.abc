@@ -1,0 +1,24 @@
+X: 1
+T: At the Inn
+T: To the Crown
+O: Germany
+R: waltz
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: F
+"A"[|]\
+C2 |\
+"F"A4 A2 | A3 G F2 | "F"c4 c2 | c6 |\
+"C7"e3 d c2 | B2 A2 G2 | "F"F6- | F4 :|\
+"B"\
+|: F2 |\
+"Bb"B3 c d2 | d3 c B2 |
+"F"A3 c c2 | c3 B A2 |\
+"C7"G4 A2 | B3 A G2 |[1 "F"c6- | c4 :|[2 "F"F6- | F4 \
+"C"\
+|: z2 |\
+"F"f6- | f2 e2 d2 | "C7"e2 z2 e2 | d6 |
+"C7"e6- | e2 d2 c2 | "F"d2 z2 d2 | c6 |\
+"F"f6- | f2 e2 f2 | "Bb"g2 z2 g2 | d6 |\
+"C7"e6  | e2 d2 e2 | "F"f6- | f4 :|

@@ -1,0 +1,12 @@
+X: 1
+T: Steamboat Quickstep
+R: jig
+%D:1843
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|:"G"{def}g2d B2G | "D7"def "G"g3 | "C"gfe "G"dcB | "D7"Adc "G"BAG \
+| "G"g2d B2G | "D7"def "G"g3 | "C"gfe "G"dcB | "D7"dcA "G"G2 :|
+|:"G"B2d ded | ded B2G | "C"c2e efe | efg "D7"d2c \
+| "G"B2d ded | ded B2G | "C"gfe "G"dcB | "D7"dcA "G"G2 :|

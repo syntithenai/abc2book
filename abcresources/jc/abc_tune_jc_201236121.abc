@@ -1,0 +1,23 @@
+X: 21673
+T: the MOUDIEWART
+Q: "With spirit."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.167 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The B flat in bar 3 is usually raised to B natural.
+M: 6/8
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+f |\
+cAF ABc | d2G G2f | cAF AB^c | d2D D2f |\
+cAF ABc | dcB AGF | BAG A2^c | d2D "^Fin."D2 H|]
+e |\
+fgf fed | gag gfe | fef gfg | a2d d2e |\
+fgf fed | efg a2g | fed A2^c | d2D D2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Burns' song, "O, for ane and twenty Tam," is sung to the above air.
+%%endtext
+%%sep 1 1 300

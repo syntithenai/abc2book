@@ -1,0 +1,28 @@
+X: 30912
+T: COTILLION No. 7. BLACKSTONE SETT tune 5
+N: This set isn't named on its first page (90), but its name is in the index at the end of the book.
+%R: reel, march
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.91 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+c2 |\
+a3g f>ef>d | c2Ac "^>"a4 | f2d2 "^>"a4 | f2c2 "^>"c'4 |\
+a3g f>ef>d | c2Ac "^>"a4 | d2c2 =Bcde | f6 H|]
+(3C2F2A2 .c2.A2 | (3F2A2c2 f2c2 | a3g fefd | (dc)(cB) (BA)(AG) |\
+(3(C2F2A2) (c2A2) | (3(F2A2c2) (f2c2) | a3g fedc | f6 "^D.C"y|]
+(Tc2A2) "^>"a4 | (Tf2c2) "^>"c4 | (d2c2)(c2G2) | (B3A)(A3F) |\
+(Tc2A2) "^>"a4 | Tf2d2 d4 | c2A2 c2BG | F6 "^D.C."y|]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 2 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

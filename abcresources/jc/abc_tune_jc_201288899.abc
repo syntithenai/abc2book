@@ -1,0 +1,26 @@
+X:1
+T: Hunt the Squirrel (1)
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 210
+%W: A1
+% voice 1 (1 lines, 55 notes)
+K:G
+M:4/4
+L:1/16
+D4/3 E4/3 F4/3 |G2 B2 A2 F2 G4 D4 |G2 B2 d2 e2 d4 B4 |G2 B2 d2 e2 d4 B2 A2 |G2 B2 A2 F2 G4 D4/3 |E4/3 F4/3 G2 B2 A2 F2 |G4 D4 G2 B2 d2 e2 |d4 B4 G2 B2 d2 e2 |d4 B2 A2 G2 B2 A2 F2 |G4 z4
+%W: B1
+% voice 1 (1 lines, 52 notes)
+e2 f2 g4 |e2 f2 g4 e2 f2 g2 a2 |g4 e4 d2 e2 d2 c2 |d4 B2 A2 G2 B2 A2 F2 |G4 z4 e2 f2 g4 |e2 f2 g4 e2 f2 g2 a2 |g4 e4 d2 e2 d2 c2 |d4 B2 A2 G2 B2 A2 F2 |G4 D4/3 E4/3 F4/3 |
+%W: A2
+% voice 1 (1 lines, 52 notes)
+G2 B2 A2 F2 G4 D4 |G2 B2 d2 e2 d4 B4 |G2 B2 d2 e2 d4 B2 A2 |G2 B2 A2 F2 G4 D4/3 |E4/3 F4/3 G2 B2 A2 F2 |G4 D4 G2 B2 d2 e2 |d4 B4 G2 B2 d2 e2 |d4 B2 A2 G2 B2 A2 F2 |G4 z4
+%W: B2
+% voice 1 (1 lines, 49 notes)
+e2 f2 g4 |e2 f2 g4 e2 f2 g2 a2 |g4 e4 d2 e2 d2 c2 |d4 B2 A2 G2 B2 A2 F2 |G4 z4 e2 f2 g4 |e2 f2 g4 e2 f2 g2 a2 |g4 e4 d2 e2 d2 c2 |d4 B2 A2 G2 B2 A2 F2 |G4 ||

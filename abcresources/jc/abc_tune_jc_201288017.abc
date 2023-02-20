@@ -1,0 +1,17 @@
+X: 1
+T: the Household Brigade
+C: Felix Burns
+Q: "Play AB AC ABC A"
+N: Tune for The British Immigrant
+M: 6/8
+K: G
+"A"[|] "D7"d3 |\
+"G"gdB GBd | g2f a2g | "Am"f2e c2A | E3 Ee_e | "D"dcA FAc | "D"f3 e3 | "D7"d^cd ^dec | "G"Bc^c "D7"def ||
+"G"gdB GBd | g2f a2g | "Am"f2e c2A | E3 Ee_e | "D"dcA FAc | "D"f3 e3 | "D7"d^cd ^def | "G"g3 |]
+"B"[| "G"g3 |\
+Bc^c d2e | d2B G2G | "C"e^de c2e | "G"d3 d3 | "G"Bc^c d2e | "G"d2B G2B | "A7"A2g f2e | "D7"fed cBA ||
+"G"Bc^c d2e | d2B G2G | "C"e^de c2e | "G"d3 d3 | "C"egc' "D7"b2a | "G"dgb "A(m)"a2g | "D7"fed cBA | "G"G3 |][K:=f]
+K: C
+"C"[| "G7"G3 |\
+"C"E3 -EDC | E3 E3 | "Dm"F3 -FED | F3 -FEF | "G7"Ged cBA | B^AB f2B | ^A2B f2B | "C"A^GA edc ||
+"C"E3 -EDC | E3 E3 | "Dm"F3 -FED | F3 -FEF | "G7"Ged cBA | B^AB f2B | B2f e2d | "C"c3 |]

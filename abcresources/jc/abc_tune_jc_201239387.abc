@@ -1,0 +1,25 @@
+X: 3271
+T: the Cushion Dance.   a Jig.
+%R: jig
+N: This is version 2, for ABC software that understands voice overlays and trailing grace notes.
+B: Niel Gow & Sons "Complete Repository" v.3 p.27 #1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+%%slurgraces 0
+%%graceslurs 0
+% - - - - - - - - - -
+V: 1 staves=2
+z |\
+e3 Tf3 ({ef}| e)dc TB2A | ~F>GA E2c | {c}d2c B2A || e3 Tf3 ({ef}| e)dc B2a | ecA TF2E | ~F3 A2 :: e |
+(ac').e (ac').e | bd'e bd'e | ac'e ac'e | gbe gbe || ac'e ac'e | bd'e Tb>c'd' | c'ba Tf2e | (Tf3 {ef}a2 :|
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+c'3d'3 & a3a3 | c'3 e'3 | c'3c'3 & a3a3 | g2a b2c' ||\
+x3d'3 & a3a3 | c'3 e'3 | c'3d'2c' & a3a3 | a3 a2 :: z |
+"_sf"[A3A,3] "^p"[a3c'3] | "_sf"[e3E3] [K:clef=treble]"^p"[E3G3] [K:clef=bass middle=d] |\
+"_sf"[A3A,3] "^p"[a3c'3] | "_sf"[e3E3] [K:clef=treble]"^p"[b3d'3] [K:clef=bass middle=d] ||\
+"_sf"[A3A,3] "^p"[a3c'3] | "_sf"[e3E3] [K:clef=treble]"^p"[E3G3] |\
+A3[K:clef=bass middle=d] d'2c' & x3[K:clef=bass middle=d] a3  | d'3c'2 & a3a2 :|

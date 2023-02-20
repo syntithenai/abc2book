@@ -1,0 +1,53 @@
+%abc2.1
+X: 3011
+T: Drunk at Night and Dry in the Morning
+%R: waltz, minuet
+N: This is version 2, for ABC software that understands voice overlays.
+B: Niel Gow & Sons "Complete Repository" v.3 p.1
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+Q: "SLOW"
+K: A
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+{AB}c4 ~B2 | c>BA>B c2 | (E2A2) (B/c/d) | (d2 c2) B2 |\
+{d}c>BA>B c2 | TE>DC>D E2 | (F2 A2) TG2 | [A6E6C6] :|\
+.A2 "_p"(ef/e/) c2 | A2 "_p"(ef/e/) c2 | (A2 "_p"e2) .e2 |
+%
+e3d c2 | A2 "_p"(ef/e/) c2 | A2 "_p"(ef/e/) c2 | "_pp"A2 c2 c2 | Tc3B A2 |\
+"_p"~c>BA>B c2 | !f!TE>DC>D E2 | (F2 A2) (Bc/d/) | (d2 c2) B2 |\
+"_p"c>BA>B c2 | !f!TE>DC>D E2 |
+%
+(F2 A2) TG2 | [A4E4C4] !segno!|]| (A,B,/C/) |!f!\
+D2 (FD) (FD) | C2 (EC) (EC) | A,2 A2 (Bc/d/) | (d2 c2) B2 |\
+D2 (FD) (FD) | C2 (EC) (EC) | A,2 A2 TG2 | [A4E4C4] (A,B,/C/) |\
+D2 (FD) (FD) | C2 (EC) (EC) |
+%
+A,2 A2 (Bc/d/) | (d2 c2) B2 |\
+"_p"~c>BA>B c2 | ~E>DC>D E2 | (F2 A2) TG2 | H[A6E6C6] !fine!|[|\
+"_p"A2 (fA) (fA) & [F4D4] x2 | "_p"A2 (eA) eA & [E4C4] x2 |\
+"_p"A2 e2 e2 | e3d c2 & [F4D4] x2 | A2 (fA) (fA) & [E4C4] x2 |
+%
+A2 (eA) (eA) |\
+A2 "_pp"c2 c2 | H[c3E3] [BD] H[A2C2] |\
+"_p"c>BA>B {cd}c2 | !f!E>DC>D E2 | F2 A2 (Bc/d/) | d2 c2 B2 |\
+"_p"{d}c>B A>B {AB}c2 | E>D C>D E2 | (F2 A2) TG2 | [A4E4C4] !segno!y|]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+A2e2E2 | A2a2z2 | e2A2[e2G2] | [e2A2]e2E2 | A2a4 | c>BA>Bc2 | d2e2E2 | A2a2z2 :|\
+"_sf"[A2A,2]c'2a2 | "_sf"[A2A,2]c'2a2 |
+%
+"_sf"[A2A,2]c'2c'2 | e'6 & c'3ba2 | "_sf"[A2A,2]c'2a2 | "_sf"[A2A,2]c'2a2 | x2 e'2e'2 & a6 | e'3d'c'2 & a6 |\
+e'>d'c'>d' | e'2 | c>BA>Bc2 | d2c2B2 | e4E2 | e'>d'c'>d'e'2 |
+%
+!f!c>BA>Bc2 | dBe2E2 | [A4A,4]!segno!|]|\
+z2 | !f!.d2(f2g2) | a2A2z2 | c2A2[e2G2] | A2e2E2 | .d2(f2g2) | a2A2z2 | c>Ae2E2 | [A4A,4]z2 | d2(f2g2) |
+%
+a4A2 | c2A2[e2G2] | A2e2E2 | e'>d'c'>d'e'2 | c>BA>Bc2 | d>Be2E2 | H[A6A,6] !fine!|[|\
+"_sf"[A2A,2]z4 | "_sf"[A2A,2]z4 | "_sf"[A2A,2]c'2c'2 | c'3ba2 | "_sf"[A2A,2]z4 | "_sf"[A2A,2]z4 |
+%
+[A2A,2]e2e2 | "^Ad Lib."He3^eHf2 | e'>d'c'>d'e'2 | !f!c>BA>Bc2 | d2c2B2 | e4E2 |\
+e'>d'c'>d'e'2 | c>BA>Bc2 | d>Be2E2 | [A4A,4] !segno!y|]

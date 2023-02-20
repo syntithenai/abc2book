@@ -1,0 +1,28 @@
+X: 30963
+T: COTILLION No. 10. MEDWAY SETT tune 3
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.96 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+G |\
+GEG cec | GFE Dde | fdc BAB | cEF GAB |\
+c3 _B3 | A2A f2e/f/ | gec BAB | d3 c2 H|]
+B/c/ |\
+Td>cd Td>cd | de/d/c/A/ Gz ^f/g/ | g>^fg gec | cBA G2G/G/ |\
+G>^FG dz d/d/ | B>AB g2f | edc BcA | GAG FE"^D.C."D |]
+E |\
+A2B cBA | e^de A2B | c2c ABc | dcd e2 (3a/^g/a/ |\
+e2 (3a/g/a d2 (3f/e/f/ | cBc B2e | cBA e2^G | A3 cB"^D.C."A |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right and left 4,
+%% chassa across,
+%% alamand, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

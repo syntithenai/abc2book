@@ -1,0 +1,19 @@
+X: 1
+T: Tekeli March
+C: James Hook (c.1800)
+N: Used in the opera Tekeli by Theodore Hook (1806),
+N: and widely played in the UK during the 1800s.
+M: 6/8
+L: 1/8
+R: jig,march
+B: Howe - 1000 Jigs and Reels (c.1867) p.164
+B: The Joseph Kershaw Manuscript (1993) #20.
+Z: AK/Fiddler's Companion
+S: http://www.ibiblio.org/fiddlers/TE.htm
+K: C
+G \
+| "C"c2c cBc | "F"A2c "C"G2G | "C"GAB "Am"cde | "Dm"f2d "G7"B2G \
+| "C"c2c cBc | "F"A2c "C"G2G | "C"GAB     cde | "G7"fdB  "C"c2 |]
+G \
+| "C"c2d e3 | "C"efe edc | "G7"{e}d2c {e}d2c | "G7"{e}d2c d2e \
+| "C"c2d e3 | "C"efe edc | "G7"{e}d2c    d2e |  "C"c3     c2 |]

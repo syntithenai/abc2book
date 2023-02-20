@@ -1,0 +1,26 @@
+X:1
+T: Mid Heath and Heather
+N:
+C:Jan Coray
+S:
+A:
+O:
+R:
+M:4/4
+K:G
+I:speed 220
+%W: A1
+% voice 1 (1 lines, 38 notes)
+K:G
+M:4/4
+L:1/16
+B4 d2 c2 B4 c2 d2 |e4 c2 B2 A4 D4 |G4 B4 d4 B4 |A2 G2 F2 E2 D4 D4 |G2 A2 B4 d4 B4 |c2 d2 e4 g4 e4 |d4 c4/3 d4/3 c4/3 |B4 A4 G16 |
+%W: A2
+% voice 1 (1 lines, 38 notes)
+B4 d2 c2 B4 c2 d2 |e4 c2 B2 A4 D4 |G4 B4 d4 B4 |A2 G2 F2 E2 D4 D4 |G2 A2 B4 d4 B4 |c2 d2 e4 g4 e4 |d4 c4/3 d4/3 c4/3 |B4 A4 G16 |
+%W: B1
+% voice 1 (1 lines, 30 notes)
+_B4 B4 c4 _e4 |d4 c2 _B2 c4 =F4 |_B4 B4 A4 G4 |=F8 ^F8 |G4 d4 B8 |A2 G2 F2 E2 D8 |E4 A4 F4/3 G4/3 |F4/3 D4 G16 |
+%W: B2
+% voice 1 (1 lines, 30 notes)
+_B4 B4 c4 _e4 |d4 c2 _B2 c4 =F4 |_B4 B4 A4 G4 |=F8 ^F8 |G4 d4 B8 |A2 G2 F2 E2 D8 |E4 A4 F4/3 G4/3 |F4/3 D4 G16 ||

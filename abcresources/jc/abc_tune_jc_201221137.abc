@@ -1,0 +1,53 @@
+%%text RJ Set 043 Jigs
+
+
+X: 1
+T: Off She Goes
+I: RJ J-8 D jig
+M: 6/8
+R: jig
+K: D
+A |\
+"D"F2A "G"G2B | "A"ABc "D"d2A | F2A "G"G2B | "D"AFD "A"E2D ||\
+"D"F2A "G"G2B | "A"ABc "D"d2e | fed "G"g2f | "A"edc "D"d2 :|
+|: g |\
+"D"f/g/af d2f | "G"g/a/bg "Em"e2g | "D"f/g/af d2f | "A"ecA A2g ||\
+"D"f/g/af d2f | "G"g/a/bg "Em"e2g | "D"fed "G"g2f | "A"edc "D"d2 :|
+% text Roaring Jelly  J-8
+
+
+X: 2
+T: Saddle the Pony
+I: RJ J-8 G jig Set 43
+I: Red Stocking, The J-8 G jig Set 43
+M: 6/8
+R: jig
+K: G
+(3D/E/F/ |\
+"G"GBA G2B | "D"def "G"gdB | GBA G2B | "D"AFD AFD ||\
+"G"GBA G2B | "D"def "G"gfg | "C"ecA "G"dBG | "D"FEF "G"G2 :|
+|: (3A/B/c/ |\
+"G"ded dcB | "D"def "G"gdB | ded dcB | "D"AFD AFD ||\
+"G"ded dcB | def gfg | "C"ecA "G"dBG | "D"FEF "G"G2 :|
+
+
+X: 3
+T: Ruddy Turnstone, the
+C: J.M. Graetz
+I: RJ J-54 D/A jig
+I: Noel Stone's Jig	J-54	D/A	jig
+M: 6/8
+R: jig
+K: D
+AG |\
+"D"FGA A2A | "Em"B3- BAG | "D"FDF GAB | "A7"E3- EAG ||\
+"D"FDD D2A | "G"BGG "(Em)"EFG |
+[1 "D"ABA AGF | "A7"E3 z :|\
+[2 "A7"ABA GFE | "D"D2E "E7"F2 |]\
+[K:A]|: ^G |\
+"A"A3 Bcd | e3- edc |
+"E"BGB dcB | "A"cBA "E"Bcd ||\
+"A"ecc c2e | "Bm"fdd B2A |\
+"E7"GEG dcB |[1 "A"A2E "E7"F2 :|[2 "A"A2z "A7"=G3 |]
+% text 08/29/98
+

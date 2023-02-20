@@ -1,0 +1,25 @@
+X: 1
+T: the Assembly Waltz  [Eb]
+C: Johann Nepomuk Hummel (1778-1837)
+R: waltz
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+F: http://imslp.info/files/imglnks/usimg/b/b5/IMSLP48900-PMLP103227-Hummel__Johann_Nepumuk__Assembly_Waltz.pdf
+M: 3/4
+L: 1/8
+P: AABBCCAB
+K: Eb
+%%staffsep 35
+"A"[|] EF |\
+"Eb"(G^F G2) (AG | "Bb7"F=E F2) (=AB) | "Bb7"(cB) (BA) (AF) | "Eb"(cB) (BG) (GE)
+y6 \
+"Eb"(G^F G2) (AG | "Bb7"F=E F2) (=AB) | "Bb7"(cB) (BA) (AF) | "Eb"E4 :|
+"B"|: _DD |\
+"Bbm"_D2 .[B2f2b2] .[=B2f2=b2] | "C"[c4=e4c'4] _CC | "Abm"_C2 .[A2e2a2] .[=A2e2=a2] | "Bb"[B4d4b4] (=ab) |
+y6 \
+"Bb7"c'2 (bd bd) | "Eb"a2 (gB gB) | "Bb7"g2 (fA fA) | "Eb"f2 (eG eG) |
+y6 \
+"Bb7"c'2 (bd bd) | "Eb"a2 (gB gB) | "Bb7"g2 (fA fA) | "Eb"e4 "fine"y:|
+"C"|: e2 |\
+"Ab"e2 (c_d ef) | "Ab"e2 (ca ec') | "Eb7"c'2 (b_d bd) | "Ab"b2 (ac ac) |
+y6 \
+"Ab"e2 (c_d ef) | "Ab"e2 (ca ec') | "Eb7"c'2 (b_d bd) | "Ab"[a2c2] "d.C."z2 :|

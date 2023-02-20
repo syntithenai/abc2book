@@ -1,0 +1,30 @@
+X: 20503
+T: the WAEFU' HEART
+Q: "Very slow."
+%R: air
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.50 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Trailing grace notes in bars 7,15 moved to next bar, for ABC software that doesn't permit trailing grace notes.
+M: C
+L: 1/8
+K: G
+% %stretchstaff 0
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G2 |\
+G3A {c}B2(AG) | A3B {d}c2(BA) |\
+G2(Bd) (ed)(cB) | (B3d/B/ A2)zG |\
+G3F {F}E3D | E2(G>A) {A}B3e |\
+d3e B2A2 | {GA}G6 |]
+d2 |\
+d3(e/f/) {f}g3(f/e/) | d3e B3e |\
+d3e (dB)(AG) | (B3c/B/ A2)zG |\
+G2Bd e3d | g3{b}a g3Hy(f/e/) |\
+(d<B)(g<e) d<BA2 | {GA}G6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The song beginning "Gin living worth could win my heart," is sung to this air.
+%%endtext
+%%sep 1 1 300

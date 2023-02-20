@@ -1,0 +1,107 @@
+
+X: 17
+T: Le Pouvoir de la Beaut\'e
+N: The book has a handwritten accent-grave over the final 'e', but that's bogus French.
+R: march
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #17
+M: 2/4
+%V: 1 clef=treble middle=B
+%V: 2 clef=bass   middle=d
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+"G"G2G2 |\
+"C"A2Bc "D"B2A2 | "Em"G4 gfed | "C"ef"G"gd "Am"c2"G"B2 | "D"{B}A4 "G"G2G2 |\
+"C"A2Bc "D"B2A2 | "Em"G4 gfed | "C"efga "D"g2f2 | "G"Hg4 :|
+"G"B2B2 |\
+"D"A2A2 d2"Em"ed | "A"^c2A2 "D"f2gf | "E7"e2d2 "A"^cdec | "A"A4 "D"d2fd |\
+"A"^c2BA "D"d2fd | "A"^c2BA "G"B^c"D"dA | "G"B^cdG "A"F2E2 | "G d.C."D4 |]
+K: Gm
+"Mineur:"|: \
+"Gm"B2c2 |\
+"Bb"d4 "Cm"e2dc | "Bb"d4 "Gm"{e}d2cB | "C"A2"A7"G2 "D"^FGAF | "D"D4 "Gm"B2"F"c2 |\
+"Bb"d4 "Cm"e2dc | "Bb"d4 "Gm"{e}d2cB | "Cm"A2G2 "D7"A2^F2 | "Gm"HG4 :|
+"Bb"B2d2 |\
+"F"f4 "Eb"edcB | "F"A2F2 "Bb"Bcde | "Bb"fgab "F"d2c2 | "Bb"B4B2d2 | "F"f4 "Eb"edcB |\
+"F"A2F2 "Bb"Bbag | "Eb"edcB "F"F2A2 | "Bb d.C."B4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass   middle=d
+g2g2 |\
+c4d2D2 | E4B4 | c2B2A2G2 | d4g2g2 | c4d2D2 |
+E4B4 | c4d2D2 | HG4 :| G2g2 | f2d2f2g2 | a4d2d'2 | g2^g2a4 |
+A2a2f2d2 | a4f2d2 | a2f2g2f2 | g2b2a2A2 | d4 |]
+K: Gm
+"Mineur:"|: g2A2 |\
+b4c'4 | b4g4 | c'2^c'2d'4 | d4g2a2 | b4c'4 |
+b4g4 | c2e2d2D2 | HG4 :| B2b2 | a2f2g2e2 | f4d4 | B4f2F2 |
+B4B2b2 | a2f2g2e2 | f4d4 | e4f2F2 | B4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+% %center La Pouvoire de la Beaut\`e
+%%begintext align
+%%    Le Grand Rond, - - 2/1
+%%endtext
+%%begintext align
+%%   The first and third Couple half Right hand
+%% and Left, then Allemande, at the same time
+%% the second and fourth Couple Allemande, then
+%% Right hand and Left half Round - - 1/2
+%%endtext
+%%begintext align
+%%   All Eight, the Moulinet half Round - - 1/1
+%%endtext
+%%center M I N E U R.
+%%begintext align
+%%   Half La Chaine - - 1/1
+%%endtext
+%%begintext align
+%%   All Balanc\'e, Rigaudon and Allemande with
+%% their Partners - - 1/2
+%%endtext
+%%begintext align
+%%   Finish La Chaine - - 1/2
+%%endtext
+%%begintext align
+%%   All Balanc\'e, Rigaudon and Alemande with their
+%% Partners - - 1/1
+%%endtext
+% %sep 1 1 400
+
+%%sep 1 0 500
+%%sep 1 0 500
+
+
+X: 1
+T: Le Pouvoir de la Beaut\'e   (A/Am)
+N: The book has a handwritten accent-grave over the final 'e', but that's bogus French.
+R: march
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #17
+M: 2/4
+%V: 1 clef=treble middle=B
+%V: 2 clef=bass   middle=d
+L: 1/16
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+"A"A2A2 |\
+"D"B2cd "E"c2B2 | "F#m"A4 agfe | "D"fg"A"ae "Bm"d2"A"c2 | "E"{c}B4 "A"A2A2 |\
+"D"B2cd "E"c2B2 | "F#m"A4 agfe | "D"fgab "E"a2g2 | "A"Ha4 :|
+"A"c2c2 |\
+"E"B2B2 e2"F#m"fe | "B"^d2B2 "E"g2ag | "F7"f2e2 "B"^defd | "B"B4 "E"e2ge |\
+"B"^d2cB "E"e2ge | "B"^d2cB "A"c^d"E"eB | "A"c^deA "B"G2F2 | "E"E4"_d.C."y|]
+P: Mineur
+K: Am
+|:\
+"Am"c2d2 |\
+"C"e4 "Dm"f2ed | "C"e4 "Am"{f}e2dc | "D"B2"B7"A2 "E"^GABG | "E"E4 "Am"c2"G"d2 |\
+"C"e4 "Dm"f2ed | "C"e4 "Am"{f}e2dc | "Dm"B2A2 "E7"B2^G2 | "Am"HA4 :|
+"C"c2e2 |\
+"G"g4 "F"fedc | "G"B2G2 "C"cdef | "C"gabc' "G"e2d2 | "C"c4c2e2 | "G"g4 "F"fedc |\
+"G"B2G2 "C"cc'ba | "F"fedc "G"G2B2 | "C"c4"_d.C."y|]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

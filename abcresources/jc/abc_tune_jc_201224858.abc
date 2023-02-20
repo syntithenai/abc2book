@@ -1,0 +1,47 @@
+%%text RJ Set 089
+
+
+X: 1
+T: Paddy Killoran's jig
+R: jig
+D: From recording by J-P Loyer, Ojnab
+Z: Translated to abc by Debby Knight
+M: 6/8
+L: 1/8
+K: G
+z |\
+"G"G,3 DB,D | GFG Bdg | "C"edc "Am"BcA | "D"BGE DB,A, |\
+"G"G,3 DB,D | GFG Bdg | "C"edc BcA | "D"BGF "G"G2 :|
+|: D |\
+"G"GBd g3 | "C"ece "G"d2B | "C"cBc "G"dBG | "Am7"AGA "D"BGE |\
+"G"GBd g3 | "C"ece "G"d2B | "C"cBc "G"dBG |"D"AGF "G"G2 :|
+
+
+X: 2
+T: La Maison de Glace
+M: 6/8
+L: 1/8
+R: 6/8
+K: D
+|:\
+"D"D3 DEF | "D/F#"ABA AFA | "G"B3 Bcd | "A7"cBA GFE | "D"D2D DEF |\
+"D/F#"ABA AFA |[1 "G"B3 BAG | "A"F3 EFE :|[2 "G"B3 Bcd | "A"c3- "F#m"c3 |]
+|:\
+"Bm"B2-B- Bcd | "G"B3- Bcd | "D"fed "A7"edc | "Bm"dcA "F#m"dcA |\
+"Bm"B2-B- Bcd | "G"B3- Bcd | "D"fed "A7"edc |[1 Adc "F#m"d2c :|[2 Adc "D"d3 |]
+
+
+X: 3
+T: The Old Woman Tossed Up in a Blanket
+N: O'Neill's - 771, modified by Debby Knight
+N: Ornament (~) is a mordant
+M: 6/8
+R: Jig
+K: A
+E |\
+"A"AcB Bce | fec "E7"B2 A | "A"AcB cAB | "F#m"cAF "D"~F2 E |\
+"A"AcB Bce | fec "E"B2 A | "A"AcB cAB | "E7"cAA "A"A2 :|
+|: a |\
+"D"~f3 fea | fea fec | "A (C#m)"ecf ecf | ecA "E7"B2 e |\
+"A"aff "E"gee | "A"fec "E7"B2 A | "A"AcB cAB | "E7"cAA "A"A2 :|
+

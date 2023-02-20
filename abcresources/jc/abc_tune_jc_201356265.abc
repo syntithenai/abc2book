@@ -1,0 +1,569 @@
+
+%Shortning Bread - 001
+%%scale 1.0575
+%%barsperstaff 4
+X:2
+T:Shortnin' Bread (#001)
+C:Traditional Kid's tune
+M:4/4
+L:1/8
+K:D
+|"D"d "^VERSES"d2 B AA z2|d d2 B A2 z2|ddBB AABB|"A7"F E2 "D"D-D2 z2
+w:1.Three lit-tle child-ren, layin' in the bed. Two _were _sick _and the other 'most dead._
+w:2.When those child-ren, _layin' in the bed, heard _that _talk _a-bout short-nin' bread,_
+w:3.Put on the skil-et. Put on the lid. Mam-my's gon-na make a lit-tle short-nin' bread._
+w:4.I snuck to~the kit-chen, picked up the lid, I filled my _pock-ets full of short-nin bread._
+w:5.Got caught with the skillet. Got caught with the~lid. Got caught with my mouth _full of short-nin' bread._
+|d B2 A_A2 B2|d2 BA-"A7"A2 z2|"D"ddBB AABB|F E2 "D"D-D2 z2
+w:Sent for the doc-tor, the doc-tor said, "Feed _those _child-ren on _short-nin' bread."_
+w:They popped up well, and start-ed to sing, skip-pin' 'round the room _doing the pig-eon wing._
+w:That's not all_ she's gon-na do._ She is gon-na make a lit-tle co-coa too._
+w:I winked at the pret-ty lit-tle girl and said, "Ba-by how'd you like some short-nin' bread?"_
+w:Six~months for the skil-let, six~months for the lid. Six months in the jail _eat-in' short-nin' bread._
+|"D"D"^CHORUS"DBB AA B2|D2 B2 A2 B2|DDBB AA B2|"A7"F E2 "D"D-D2 z2
+w:Mam-my's lit-tle ba-by loves short-nin' short-nin' Mam-my's lit-tle ba-by loves short-nin' bread._
+|DDBB AA B2|D2 B2 A2 B2|ddBB AA B2|"A7"F2 E2 "D"D2 z2||
+w:Mam-my's lit-tle ba-by loves short-nin' short-nin' Mam-my's lit-tle ba-by loves short-nin' bread.
+
+%Soldier's Joy - 001
+%%scale 1.25
+X:3
+T:Soldier's Joy (#001)
+C:Traditional Fiddle Tune
+M:4/4
+L:1/8
+K:D
+P:PART A
+|:"D"AF DF AF DF|A2 d2 d2 cB|AF DF AF DF|"A7"G2 E2 E2 FG
+|"D"AF DF AF DF|A2 d2 d2 de|fa fd "A7"eg ec|"D"d2 d2 d4:|
+P:PART B
+|:"D"f2 fg a2 f2|"A"e2 ef g2 e2|"D"f2 fg a2 f2|"A"ed cB A4
+|"D"f2 fg a2 f2|"A"e2 ef g2 e2|"D"fa fd "A7"eg ec|"D"d2 d2 d4:||
+
+%Boil Them Cabbage Down - 002
+%%scale .97
+X:4
+T:Bile Them Cabbage Down (#002)
+C:Traditional Folk Tune
+L:1/8
+M:2/4
+K:D
+V:1 clef=treble name="Melody"
+|"D"FF FF|"G"G2 G2|"D"FF FF|"A"E4
+w:1.Bile them cab-bage down boys, turn them hoe-cakes round.
+w:2.Rac-coon has a bushy tail, Pos-sum's tail is bare.
+w:3.Pos-sum up a 'simmon tree, Rac-coon on the ground.
+w:4.Jay-bird died with~the whoopin' cough, Spar-row died with~the colic.
+|"D"FF FF|"G"GG GG|"D"FF "A"EE|"D"D4||
+w:On-ly song that I can sing is bile them cab-bage down.
+w:Rab-bit's got no tail at all, But~a little bitty bunch of hair.
+w:Rac-coon says to~the pos-sum, "Won't you shake them 'sim-mons down?"
+w:Along come~the frog with~a fiddle on~his back, In-quirin' his way to~the frolic.
+V:2 clef=treble name="Harmony"
+|AA AA|BB BB|AA AA|G4
+|AA AA|BB BB|AA GG|F4||
+
+%Go Tell Aunt Rhodie - 003
+%%scale 1.122
+X:5
+T:Go Tell Aunt Rhodie (#003)
+C:Traditional
+M:2/4
+L:1/8
+K:D
+V:1 clef=treble
+|"D"F2 "^MELODY"FE|D2 D2|"A"E2 EG|("D"FE) D2
+w:Go tell Aunt Rho-die, go tell Aunt Rho_die,
+w:The~one she's been sav-ing, the~one she's been sav_ing,
+w:She~died in the mill-pond, she~died in the mill_pond,
+w:She~left~nine lit-tle gos-lins, she~left~nine lit-tle gos_lins,
+|A2 AG|F2 DD|"A"EG FE|"D"D4||
+w:Go tell Aunt Rho-die, The old grey goose is dead.
+w:The~one she's been sav-ing, To make a fea-ther bed.
+w:She~died in the mill-pond, A-stand-ing on her head.
+w:She~left~nine lit-tle gos-lins, To scratch for their own bread.
+V:2 clef=treble
+|"D"A2 "^HARMONY"AG|FG F2|"A"G2 GB|("D"AG) F2
+|D2 DE|F2 AA|"A"GB AG|"D"F4||
+
+%Skip To My Lou - 003
+%%scale .9
+X:6
+T:Skip To My Lou (#003)
+L:1/4
+M:2/4
+K:D
+V:1 clef=treble name="Dulcimer #1"
+|"D""^MELODY"FF DD | F F/2F/2 A2 |"Em" EE "A"CC |"Em"E E/2E/2 "A7"G2
+w:C~Skip,_ skip,_ skip to my Lou, skip,_ skip,_ skip to my Lou,
+w:1~Fly's in~the butter-milk, shoo, fly,_ shoo, fly's in~the butter-milk, shoo, fly,_ shoo,
+w:2~Cat's in~the cream jar, ooh, ooh,_ ooh, cat's in~the cream jar, ooh, ooh,_ ooh,
+w:3~Off to Tex-as, two by_ two, Off to Tex-as, two by_ two,
+w:4~Lost my part-ner, what'll I_ do, Lost my part-ner, what'll I_ do?
+w:5~I'll get~a-nother one, pretti-er than you, I'll get~a-nother one, pretti-er than you,
+w:6~Can't get~a red bird, Jay bird-'ll do, Can't get~a red bird, Jay bird-'ll do,
+|"D"FF DD | F F/2F/2 A2 |"A7"E G/2G/2 FE|"D"D2 D2 ||
+w:Skip,_ skip,_ skip to my Lou, skip to my Lou my dar-lin'.
+w:Fly's in~the butter-milk, shoo, fly,_ shoo, skip to my Lou, my dar-lin'.
+w:Cat's in~the cream jar, ooh, ooh,_ ooh, skip to my Lou my dar-lin'.
+w:Off to Tex-as, two by_ two, skip to my Lou my dar-lin'.
+w:Lost my part-ner, what'll I_ do? skip to my Lou my dar-lin'.
+w:I'll get~a-nother one, pretti-er than you, skip to my Lou my dar-lin'.
+w:Can't get~a red bird, Jay bird-'ll do, skip to my Lou my dar-lin'.
+V:2 clef=treble name="Dulcimer #2"
+|"^HARMONY"AA FF | A A/2A/2 d2 | GG EE | G G/2G/2 B2
+| AA FF | A A/2A/2 d2 | G B/2B/2 AG |FG F2 ||
+
+%Cindy - 004
+%%scale 1.15
+X:7
+T:Cindy (#004)
+C:Traditional
+M:4/4
+L:1/4
+K:D
+|"^Verses"A|"D"B A A3/2 F/2|E D2 A|B A F A
+w:1~I wish I was an ap-ple, a hang-in' in a
+w:2~I wish I had a quar-ter, for ev-'ry gal I
+w:3~You ought to see my Cin-dy, She lives_ way down
+|"A7"E3 A|"D"B A A3/2 F/2|"D7"E D D3/2 D|"G"E D D B,|"D"D2||
+w:tree, and ev'-ry time that Cin-dy passed, she'd take a bit of me.
+w:know, But Cin-dy is the best of all, that's why I love her so.
+w:South, _She's so sweet the hon-ey bees, _swarm a-round her mouth.
+|"^Chorus"D/2D/2 D|"G"B,2 B,3/2 B,/2|B, D D/2D/2 D|"D"A,4-
+w:Get a-long home, Cin-dy, Cin-dy, Get a-long home.
+|A,2 D/2D/2 D|"G"B,2 B,3/2 B,/2|B, D2 D|"A7"F F E E|D3||
+w:_Get a-long home Cin-dy, Cin-dy, I'll mar-ry you some-time.
+
+%Little Liza Jane - 005
+%%scale 1.25
+%%barsperstaff 4
+X:8
+T:Little Liza Jane (#005)
+C:Traditional
+M:4/4
+L:1/4
+K:D
+%%staves{RH1 RH2}
+V:RH1 clef=treble name="melody"
+|"D"F D E D|F D E D|"G"F "D"A2 F|A4
+w:v1~I've gotta gal in Bal-ti-more,_ Li'l Li-za Jane,
+w:v2~I've gotta gal and you've got none,_ Li'l Li-za Jane,
+w:v3~I know~a gal that I a-dore,_ Li'l Li-za Jane,
+w:v4~Down where~she lives the po-sies grow,_ Li'l Li-za Jane,
+w:v5~I wouldn't care how far we roam,_ Li'l Li-za Jane,
+|F D E D|F D E D|"A7"F F2 E|"D"D4|
+w:She's the gal that I a-dore,_ Li'l Li-za Jane.
+w:I've gotta gal that calls me "Hon',"_ Li'l Li-za Jane.
+w:Way down south in Bal-ti-more,_ Li'l Li-za Jane.
+w:Chick-ens round the kitch-en door,_ Li'l Li-za Jane.
+w:Where she's at is home sweet home,_ Li'l Li-za Jane.
+|"D"d3 A|"G"B2 "D"A2|"G"F "D"A2 F|A4
+w:ch~Oh, Li'l Li-za, Li'l Li-za Jane,
+w:ch~Oh, E-li-za, Li'l Li-za Jane,
+|d3 A|"G"B2 "D"A2|"A7"F F2 E|"D"D4||
+w:Oh, Li'l Li-za, Li'l Li-za Jane.
+w:Oh, E-li-za, Li'l Li-za Jane.
+V:RH2 clef=treble name="harmony"
+|A F G F|A F G F|A d2 A|d4
+|A F G F|A F G F|A A2 G|F4|
+|f3 d e2 d2|A d2 A|d4
+|f3 d|e3 d|A A2 G|F4||
+
+%You Are My Sunshine - 005
+%%scale 1.05
+%%barsperstaff 4
+X:9
+T:You Are My Sunshine (#005)
+C:Traditional
+M:4/4
+L:1/4
+K:D
+|A, D E|"D" F2 F2-| F F E F| D2 D2-
+w:C~You are my sun-shine,_ my on-ly sun-shine.
+w:1~The o-ther night dear,_ as I lay sleep-ing,
+w:2~I'll al-ways love you,_ and make you hap-py,
+w:3~You told me once dear,_ you real-ly loved me,
+| D D E F|"G" G2 B2-| B B A G|"D" F4-
+w:_You make me hap-py_ when skies are gray,
+w:_I dreamed I held you__ in my arms.
+w:_If you will on-ly__ say the same.
+w:_And no one else could__ come be-tween.
+| F|D E F|"G" G2 B2-| B B A G|"D" F2 D2-
+w:_You'll ne-ver know, dear,_ how much I love you,
+w:_When I a-woke, dear,_ I was mis-ta-ken,
+w:_But if you leave me,_ to love an-oth-er,
+w:_But now you've left me,_ and love an-oth-er,
+| D z D E| F3 G|"A" E E2 F|"D" D4-| D||
+w:_Please don't take my sun-shine a-way._
+w:_So I hung my head and I cried._
+w:_You'll re-gret it all_ some day._
+w:_You have shat-tered all_ me dreams._
+
+%Wildwood Flower - 006
+%%scale .98
+X:10
+T:Wildwood Flower (#006)
+C:A.P. Carter
+M:4/4
+L:1/4
+K:D
+|F G|"D"A2 B d|F2 G F|"A"E2 F E|"D"D4
+w:1~Oh I'll twine, with my ring-lets and wav-ing black hair
+w:2~Oh I'll dance, I will sing and my laugh shall be gay
+w:3~Oh he taught me lo love him and prom-ised to love
+w:4~Oh he taught me to love him and called me his flow'r
+|z2 F G|A2 B d|F2 G F|"A"E2 F E|"D"D4
+w:With the ro-ses so red and the lil-ies so fair
+w:I will charm ev-ery heart, in his crown I will sway
+w:And to cher-ish me o-ver all o-thers a-bove
+w:Tha's_ bloom-ing to cheer him through life's drear-y hour
+|z2 A d|f2 f e|d2 z A|"G"B2 d B|"D"A2 z E
+w:And the myr-tles so bright with em-er-ald dew. The
+w:When I woke from my dream-ing,~my id-ol was clay.  All
+w:How my heart is now won-d'ring~no mis-'ry can tell. He's
+w:Oh, I long_ to see~him and~re-gret the dark hour. He's
+|F2 F E|F A2 F|"A"E2 F E|"D"D4||
+w:pale and the lea-der and eyes look like blue.
+w:por-tion of love_ had all flown a-way.
+w:left me no warn-ing, no words of fare-well.
+w:gone and neg-lec-ted this pale wild-wood flow'r.
+
+%Amazing Grace - 007
+%%scale 1.1
+X:11
+T:Amazing Grace (#007)
+C:Traditional (Scotland); Lyrics: John Newton
+M:3/4
+L:1/4
+%N:End with Chorus
+K:D
+|A,/2B,/2|"D"D2 F/2D/2|"D7"F2 E|"G"D2 B,
+w:1~A-_maz-ing_ grace, how sweet the
+w:2~Twas_ grace that_ taught my heart to
+w:3~Through_ ma-ny_ dan-gers, toils and
+w:4~When_ we've been_ there ten thou-sand
+|"D"A,2 A,/2B,/2|D2 F/2D/2|"Bm"F2 E/2F/2|"A"A3-
+w:sound, that_ saved a_ wretch like_ me!
+w:fear, and_ grace my_ fears re-_lieved;
+w:snares, I_ have al-_rea-dy_ come;
+w:years, bright_ shin-ing_ as the_ sun;
+|"A7"A2 F|"D"A2 F/2A/2|"D7"F D/2D/2 A,|"G"B,2 D/2B,/2
+w:_I once was_ lost__ but now I am
+w:_how pre-cious_ did__ that grace ap-_
+w:_'twas grace that_ brought__ me safe thus_
+w:_we've no less_ days__ to sing God's_
+|"D"A,2 "^TAG"A,/2B,/2|"Bm"D2 F/2D/2|"A7"F2 E
+w:found, was_ blind, but_ now I
+w:pear, the_ hour I_ first be
+w:far, and_ grace will_ lead me
+w:praise, than_ when we_ first be-
+|"D"D3-|!fermata!D2:||
+w:see._
+w:lieved._
+w:home._
+w:gan._
+
+%Uncloudy Day - 008
+%%scale 1.2
+X:12
+T:Uncloudy Day (#008)
+C:Traditional
+M:2/4
+L:1/8
+K:D
+|A,B,|"D"D3/2D/2 DB,|D2 FE|"G"D2 B,2|"D"A,2 A,B,|D3/2D/2 DB,
+w:1~Oh, they tell me of a home far be-yond the skies, Oh they tell me of a
+w:2~Oh, they tell me of a home where my friends have gone, Oh they tell me of that
+w:3~Oh, they tell me of a King in His beau-ty there, And they tell me that mine
+w:4~Oh, they tell me that He smiles on His child-ren there. And His smile_ drives their
+|D2 FA|"A7"A4-|A2 A,B,|"D"D3/2D/2 DB,|D2 FE|"G"D2 B,2|"D"A,4|A4-
+w:home far a-way._ Oh, they tell me of a home where no storm clouds rise, Oh,
+w:land far a-way._ Where the tree_ of_ life in e-ter-nal bloom, Sheds
+w:eyes shall be-hold._ Where He sits_ on the throne that is whiter than snow, In,
+w:sorrows all a-way._ And they tell me that no tears ev-er fall a-gain. In
+|A3 B|AFDE|"D"F2 "A7"EE|"D"D4||
+w:_they tell me of an un-cloud-y day.
+w:_its fra-grance thro' the un-cloudy-ed day.
+w:_the cit-y that is made of_ gold.
+w:_that love-ly land of un-cloud-y day.
+|"D""^Chorus"A4-|A3 B|A2 FE|D2"G"E2|"D"F4
+w:ch~Oh,_ the land of_ cloud-less skies!
+|A4-|A3 B|A2 FE|"E"D2 FF|"A7"E4-|E2 A,B,|"D"D3/2D/2 DB,|D2 FE
+w:Oh,_ the land of the un-cloud-y day!_ Oh, they tell me of a home where no
+|"G"D2 B,2|"D"A,4|A4-|A3 B|A2 F2|D2 E2|F2 "A7"EE|"D"D4-|D2||
+w:storm clouds rise. Oh,_ they tell me of an un-cloudy-y day._
+
+%Beautiful River - 009
+%%scale 1.105
+%%barsperstaff 4
+X:13
+T:Beautiful River - (#009)
+T:Shall We Gather At The River
+C:Robert Lowry
+M:4/4
+L:1/4
+K:D
+%%staves{RH1 RH2}
+V:RH1 clef=treble name="melody"
+|"D"F F F3/4 E/4 F3/4 G/4|A2 F2
+w:v1~Shall we gath-er at the riv-er,
+w:v2~On the bos-om of the riv-er,
+w:v3~Ere we reach the shin-ing riv-er,
+w:v4~Soon we'll reach the shin-ing riv-er,
+V:RH2 clef=treble name="harmony"
+|D D D3/4 D/4 D3/4 E/4|F2 D2
+V:RH1
+|"A7"G G G3/4 A/4 G3/4 F/4|E2 A2
+w:Where bright an-gel feet have trod;_
+w:Where the Sav-ior King we own,_
+w:Lay we ev-'ry bur-den down;_
+w:Soon our pil-grim-age will cease;_
+V:RH2
+|E E E3/4 F/4 E3/4 D/4 C2-C2
+V:RH1
+|"D"F F F3/4 E/4 F3/4 G/4|A2 F F/2 G/2
+w:With its crys-tal tide for-ev-er, Flow-ing
+w:We shall meet, and sor-row nev-er, 'Neath the
+w:Grace our spir-its will de-liv-er, And pro-
+w:Soon our hap-py hearts will qui-ver With the
+V:RH2
+|D D D3/4 D/4 D3/4 E/4|F2 D D/2 D/2
+V:RH1
+|"A7"E E/2F/2 G F/2E/2|"D"D4||
+w:by the_ throne of_ God?
+w:glo-ry_ of the_ throne.
+w:vide a_ robe and_ crown.
+w:mel-o_dy of_ peace.
+V:RH2
+|C C/2D/2 E D/2C/2|D4||
+V:RH1
+|"G"B B d3/4 c/4 d3/4 B/4|"D"A2 F3/2 F/2
+w:ch~Yes, we'll ga-ther at the riv-er, The
+V:RH2
+|D D D3/4 D/4 D3/4 G/4|F2 D3/2 D/2
+V:RH1
+|"A7"G3/4 F/4 G3/4 F/4 G3/4 F/4 G/2E/2|"D"F2 A2
+w:beau-ti-ful, the beau-ti-ful_ riv-er,
+V:RH2
+|E3/4 ^D/4 E3/4 D/4 E3/4 D/4 E/2C/2|D2 F2
+V:RH1
+|"G"B3/4 B/4 B3/4 B/4 d3/4c/4 d3/4 B/4|"D"A2 F F
+w:Gath-er with the saints_ at the riv-er That
+V:RH2
+|G3/4 G/4 G3/4 G/4 G3/4-G/4 G3/4 G/4|F2 D D
+V:RH1
+|"A7"E E3/4 F/4 G F/2E/2|"D"D4||
+w:flows by the throne of_ God.
+V:RH2
+|C C3/4 D/4 E D/2C/2|D4||
+
+%Lily Of The Valley - 010
+%%scale .975
+%%barsperstaff 4
+X:14
+T:Lily of the Valley - (#010)
+T:Song of Solomon 2:1
+C:William S Hays
+M:4/4
+L:1/8
+K:D
+%%staves{RH1 RH2}
+V:RH1 clef=treble name="melody"
+|F G|"D"A A B A A F2 D|"G"E D D B, "D"A,2 D E
+w:v1~I have found a friend in Je-sus. He's eve-ry-thing to me. He's the
+w:v2~He_ all my grief has tak-en, and all my sor-rows borne; In temp-
+w:v3~He will nev-er, nev-er leave me, nor yet for-sake me here, While I
+V:RH2
+|D D D D D D D D2 A,|B, B, B, G, A,2 A, A,
+V:RH1
+|F F F F B A A F|"A"E6 F G
+w:fair-est of ten thou-sand to my soul; The_
+w:ta-tion He's my strong and might-y tow'r, I have
+w:live by faith and do His bless-ed will; A_
+V:RH2
+|D D D D D D F D|C6 D D
+V:RH1
+|"D"A A B A A F2 D|"G"G D D B, "D"A,2 D E
+w:Li-ly of the Val-ley, in Him a-lone I see All I
+w:all for Him for-sa-ken, and all my i-dols torn From my
+w:wall of fire a-bout me, I've noth-ing now to fear, From His
+V:RH2
+|D D D D D D2 A,|B, B, B, G, A,2 A, A,
+V:RH1
+|F A F D "A"E G F E|"D"D6 D2
+w:need to cleanse and make me ful-ly whole. In
+w:heart and now He keeps me by His pow'r. Though
+w:man-na He my hun-gry soul shall fill. Then
+V:RH2
+|D F D A, C E D C A,6 =C2
+V:RH1
+|"G"G G G G G B2 B|"D"B A A F A2 F E
+w:sor-row He's my com-fort, in trou-ble He's my stay; He_
+w:all the world for-sake me and Sa-tan temp me sore, Through_
+w:Sweep-ing up to glo-ry to see His bless-ed face, Where_
+V:RH2
+|B, B, B, B, B, D2 D|D D F D F2 A,-A,
+V:RH1
+|D D D D B A A F|"A"E6||
+w:tells me eve-ry care on Him to roll.
+w:Je-sus I shall safe-ly reach the goal.
+w:riv-ers of de-light shall ev-er roll.
+V:RH2
+|A, A, D D D D F D|C6||
+V:RH1
+|"^Chorus"F G|"D"A A B A A F2 D|"G"E D D B, "D"A,2 D E|F A F D "A"E G F E|"D"D6||
+w:He's the Li-ly of the Val-ley, the Bright and Morn-ing Star, He's the fair-est of ten thou-sand to my soul.
+V:RH2
+|D C|D D D D D D2 A,|B, B, B, G, A,2 A, A,|D F D A, C E D C|A,6||
+
+%Twinkle, Twinkle Little Star - 011
+%%scale 1.05
+%%barsperstaff 4
+X:15
+T:Twinkle, Twinkle Little Star (#011)
+T:Alphabet Song
+C:Traditional Kid's Song
+M:4/4
+L:1/4
+K:D
+|"D"D D A A|"G"B B "D"A2
+w:1~Twin-kle twin-kle lit-tle star,
+w:2~When the blaz-ing sun is gone,
+w:3~Then the trave-ler in the dark,
+w:4~A B C D    E F    G
+|"G"G G "D"F F|"A"E/2E/2E/2E/2 "D"D2
+w:How I won-der what_ you_ are
+w:when he noth-ing shines_ up-_on,
+w:thanks you for your ti-_ny_ spark;
+w:H I    J K    L  M  N  O      P
+|A A "G"G G|"D"F F "A"E2
+w:Up a-bove the world so high,
+w:Then you show your lit-tle light,
+w:He could not see which way~to go,
+w:Q R    S and  T U    V
+|"D"A A "G"G G|"D"F F "A"E2
+w:like a dia-mond in the sky.
+w:Twin-kle twin-kle, all the night.
+w:If you did not twin-kle so.
+w:dou-ble u and  X Y    Z
+|"D"D   D    A    A|"G"B B "D"A2
+w:Twin-kle twin-kle lit-tle star,
+w:Twin-kle twin-kle lit-tle star,
+w:Twin-kle twin-kle lit-tle star,
+w: Now I've said my   A B    C's.
+|"G"G    G "D"F    F|"A"E     E "D"D2|
+w:How I won-der what you are!
+w:How I won-der what you are!
+w:How I won-der what you are!
+w:Tell me   what you  think of   me.
+
+%Farther Along - 011
+%Scale the output
+%%scale 1.21
+%%stretchlast 1
+%%barsperstaff 0
+%%barnumbers -1
+%%gchordbox no
+%%splittune no
+X:16
+T:Farther Along (#011)
+C:J.R.Baxter and W.B.Stevens
+M:9/8    %(3/4, 4/4, 6/8)
+L:1/8    %(1/8, 1/4)
+%V:1 treble clef
+K:D    %(D, C)
+|"A7""^Verses"FAF
+w:1~Temp-ted and
+w:2~When we see
+w:3~Some-times I
+w:4~Soon we will
+|"D"D3 F3 "G"EDE|"D"D3 D3 FAB
+w:tried, we're oft made to wan-der, why it should
+w:Je-sus com-ing in glo-ry, when He comes
+w:won-der why I must suf-fer, go in the
+w:see our dear lov-ing Sav-iour, hear the last
+|A3 "Bm"F3 "E7"FED| "A7"E3-E3 FAF|"D"D3 F3 "G"EDE
+w:be thus, all the day long._ While there are oth-ers liv-ing a-
+w:from His home in the sky,_ Then we shall meet Him in that bright
+w:cold, the rain and the snow,_ While ma-ny wick-ed live in great
+w:trump-pet sound thro' the sky;_ Then we will meet those gone on be-
+|"D"D3 D3 FAB|"Bm"A3 F3 "A7"EFE|"D"D3-D3||
+w:bout us, Ne-ver mo-lest-ed, tho in the wrong._
+w:man-sion, We'll un-der-stand it all by and by._
+w:splend-or, Heed-less of where at last they must go._
+w:fore us, And we shall know and un-der-stand why._
+|"A7""^Refrain"FAB
+w:Far-ther a-
+|"D"A3 F3 "G"EDE|"D"D3 D3 FAB|"Bm"A3 F3 "E7"FED|"A7"E3-E3 FAF
+w:long we'll know all a-bout it, Far-ther a-long we'll un-der-stand why;_ Cheer up my
+|"D"D3 F3 "G"EDE|"D"D3 D3 "^TAG"FAB|"Bm"A3 F3 "A7"EFE|"D"D3-D3||
+w:bro-ther, live in the sun-shine, we'll un-der-stand it all by and by._
+
+%Scotland The Brave - 012
+%%scale 1.09
+X:17
+T:Scotland the Brave (#012)
+C:music: (Unknown ca. 1890)
+C:words: Cliff Hanley (1922-1999)
+N:Lyrics \251 1951 Kerrs Music, Berkeley Street, Glasgow, Scotland, UK
+M:4/4
+L:1/4
+K:D
+|"D""^Verses"D2 D3/2 E/2|F D F A|d2"G"d d|"D"d A"D7"F D|"G"G2 B G
+w:0 0 1 2 0 2 4 0 0 0 0 4 2 0 3 5 3
+w:v1~Hark where the night is fall-ing, Hark hear the pipes a call-ing, Loud-ly and
+w:v2~High in the mis-ty moun-tains, Out by the pur-ple high-lands, Brave are the
+w:v3~Far off in sun-lit pla-ces, Sad are the Scot-tish fa-ces, Yearn-ing to
+|"D"F A"Bm"F D|"E7"E2 A3/2 A/2|"A7"A G F (3EFE|"D"D2 D3/2 E/2|F D F A
+w:2 4 2 0 1 4 4 4 3 2 1 2 1 0 0 1 2 0 2 4
+w:proud-ly call-ing down through the glen.| There where the hills are sleep-ing,
+w:hearts that beat be-neath Scot-tish skies.| Wild are the winds to meet you,
+w:feel the kiss of sweet Scot-tish rain.| Where tro-pic skies are beam-ing,
+|d2"G" d d|"D"d A "D7"F A|"G"G2 B G|"D"F A "Bm"F D|"E7"E2 "A7"D C
+w:7 7 7 7 4 2 4 3 5 3 2 4 2 0 1 0 C
+w:Now feel the blood a leap-ing, High as the spir-its of the old high-land
+w:Staunch are the friends that greet you, Kind as the love that shines from fair maid-ens
+w:Love sets the heart a'-dream-ing, Long-ing and dream-ing for the home-land a-
+|"D"D2||
+w:0
+w:men.
+w:eyes.
+w:gain.
+|"^Chorus"F A|"A7"d2 d3/2 d/2|d c A D|"D"d2 d3/2 d/2|d A D A|"Bm"G2 B G
+w:2 4 7 7 7 7 4 2 0 7 7 7 7 4 2 4 3 5 3
+w:|C~Tower-ing in gal-lant fame,_ Scot-land my moun-tain hame,_ High may your
+|"F#m"F A F D|"E7"E2 E3/2 A/2|"A7"A G F (3EFE|"D"D2 D3/2 E/2|F D F A
+w:2 4 2 0 1 1 4 4 3 2 1 2 1 0 0 1 2 0 2 4
+w:proud_ stan-dards glor-ious-ly wave.| Land of my high en-dea-vour,
+|d2 "G"d3/2 d/2|"D"dA"D7"FA|"G"G2BG|"D"FA"Bm"FD|"Em"E2"A7"DC|"D"D4||
+w:7 7 7 7 4 2 4 3 5 3 2 4 2 0 1 0 C 0
+w:Land of the shin-ing ri-ver, Land of my heart for-ev-er, Scot-land the brave!
+
+%Cotton Eyed Joe - 013
+%%scale 1.3
+X:18
+T:Cotton-Eyed Joe (#013)
+C:Traditional
+N:No repeats when played with
+N:Dogwood Dulcimer Association
+M:4/4
+L:1/8
+K:D
+|DE|"D"F2 FF FE DE|F2 F2 d2 DE|F2 FF FE DF|"A"e2 e2 "D"D2 DE
+|F2 FF FE DE|F2 F2 d2 DE|F2 FF FE DF|"A7"e2 e2 "D"D2 A2:||:"D"A2 B2 "G"d2 dd
+|dA B2 A3 B|d2 B2 A2 G2|"A"FD E2 "D"D3 A|A2 B2 "G"d2 dd|"^TAG"dA B2 A3 B
+|d2 B2 A2 G2|"A"FD E2 "D"D2 z2:|
+
+%Mississippi Sawyer - 014
+%%scale 1.25
+X:19
+T:Mississippi Sawyer (#014)
+C:Traditional
+M:4/4
+L:1/8
+K:D
+|F2|:"D"A2 AF A2 AF|A2 AF BA A2|"G"B2 BB B2 BB|B2 BB B2 BB
+|"D"F2 FD F2 FD|F2 FD "G"BF B2|"A"e2 ee e2 e2|"D"D2 DD D2 F2:||:"D"D2 DD D2 D2
+|D2 FF D2 FF|D2 FF A2 A2|"A"e2 EE e2 ee|e2 ee "A7"e2 e2|"D"D2 FF D2 FF
+|D2 FF A2 A2|"A"e2 ee e2 e2|"D"D6 D2:|"D"D6 z2|

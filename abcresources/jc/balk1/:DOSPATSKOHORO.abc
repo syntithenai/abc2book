@@ -1,0 +1,32 @@
+X: 96
+T:Dospatsko Horo
+W:The dance was re-transcribed with modifications from "Music to
+W:31 of Your Favorite Bulgarian Dances", Richard Geisler (c) 1984.
+W:The harmony is my own.
+O:Bulgaria
+F: http://www.youtube.com/watch?v=1P5LP0KWO0U
+F: http://www.youtube.com/watch?v=Gsmx2D7Ymn4
+F: http://www.youtube.com/watch?v=N_rdsmPBrUE
+Q:1/4=120
+L:1/8
+M:7/8
+P:ABCABCDABC
+K:Em
+%%MIDI beatstring fppmpmp
+%%MIDI gchord f3c2c2
+P:A
+|:"Em" [B,3E3] E2 [G2B2]      | [G3B3] [G3B3]A           |\
+  "Am" [C3A3] [C3A3]G         |"Em" A B2 G2GF            :|
+P:B
+|:"A" [E2A2] G [E2G2] [E2G2]  |"D" G2 A [D2F2] [D2F2]    |\
+  "Em" [B,3E3] [B,4E4]        |
+  ~B3 B2 G2                   | [E2A2] G [E2G2] [E2G2]   |\
+  G2 A F2 F2                  |  [B,3E3] [B,4E4]         |\
+  "A" E3 "Em" E2-E2           :|
+P:C
+|:"D" DEF GA AG               | ~c2 B "G" .B2 z2         |\
+  [1"Am" c2 B cdcB            |"D"  ~A2 G "G" .G2 z2     :|\
+  [2 "Am" A2 G GAFD           |"Em" E3 E4                |
+P:D
+|:"D" d3 dc cB                | ~A2 G "G" G4             |\
+  dGe dc BA                   |"A" ~B2 "D" A A4          :|

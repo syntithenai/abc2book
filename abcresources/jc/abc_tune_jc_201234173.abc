@@ -1,0 +1,24 @@
+X: 20312
+T: YOU'RE THE BEAM OF MY EYE
+C: Copyright.--J. Harkin.
+Q: "Jig."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.31 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8	% The book has 9/8, but that's wrong.
+L: 1/8
+K: A
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+e !segno!|\
+cBA A<EA | A<EA A<EA |\
+cBA Acd | {d}f3 fga |\
+cBA A<EA | A<EA A<EA |\
+Aag fed | c2B "^Fin."A2 H|]
+A |\
+cde efe | efe efe |\
+agf edc | dBB B2A |\
+cde efe | efe efe |\
+eag fed | cBA edc !segno!|]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

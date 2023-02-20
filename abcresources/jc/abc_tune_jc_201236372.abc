@@ -1,0 +1,26 @@
+X: 21
+T: Trip to Paris
+O: Bland & Weller 1803
+R: jig
+B: Bland & Weller, eds. "24 Favorite Country Dances, Hornpipes and Reels", 1803, London p.11 #21
+S: http://imslp.org/wiki/24_Favorite_Country_Dances,_Hornpipes_and_Reels_(Various)
+M: 6/8
+L: 1/16
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K: D
+FG |\
+A6 (Bcd2B2) | A4G2 F2G2A2 |\
+B2c2d2 A2G2F2 | G2E2E2 E4FG |\
+A6 (Bcd2B2) |
+{B}A4G2 F2G2A2 |\
+(B/c/d3)B2 (c/d/e3)c2 | d2D2D2 D4 :: fe |\
+d2c2d2 d2e2f2 | e2c2A2 A2B2c2 |
+d2c2B2 A2G2F2 | G2E2E2 E4fg |\
+a2g2f2 b2g2f2 | e2f2d2 c2B2A2 |\
+(B/c/d3)B2 (c/d/e3c2) | d2D2D2 D4 :|
+%%begintext align
+%% Set & hands across .|
+%% back again :|
+%% down the middle up again :|.
+%% Allemand :|:
+%%endtext

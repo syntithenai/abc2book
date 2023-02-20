@@ -1,0 +1,13 @@
+X: 1
+T: TEST of inline V:
+N: Unbracketed V lines may not work
+%%staffwidth 250
+K: Am
+V:1 abcd abcd |
+w:  a b c d  a b c d |
+V:2 ABCD ABCD |
+w:  A B C D  A B C D |
+V:1 abcd abcd |]
+w:  a b c d  a b c d |]
+V:2 ABCD ABCD |]
+w:  A B C D  A B C D |]

@@ -1,0 +1,11 @@
+X: 1
+T: Neda Grivne  (C)
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/8
+K: C
+|: "C"[c2G] [c2G] | "G"[d3B] [dB] \
+| "C"[e2c] [c2G] | "G"[dB][ec] [f2d] \
+| "C"[e2c] [c2G] | "G"[dB][ec] [f2d] \
+| "C"[ec][dB] [ec][cG] | "G"[d3B] [fd] \
+| "C"[ec][dB] [ec][cG] | "G"[d3G] z :|

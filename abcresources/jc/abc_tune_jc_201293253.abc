@@ -1,0 +1,72 @@
+
+X: 1
+T: Aim\'e Gagnon's #1
+O: Qu\'ebec
+R: reel
+M: 4/4
+L: 1/8
+K: G
+DG | "G"B2BA GBed | B2BA GBdB | "C"edcB cBAG |1,3 "Am"FGAB "D"A2 :|2,4 "D"FDEF "G"G4 :|
+|:"B7"e2f2 "Em"g2e2 | e3f "C"gfed | edcB "Am"cBAG |1,3 "D"FGAB A4 :|2,4 "D"FDEF "G"G4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Aim\'e Gagnon's #2
+O: Qu\'ebec
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: printed page from Debby Knight
+M: C|
+L: 1/8
+K: G
+   DC | "G"B,DGA B2DC | B,DGA "E7"B2AG | "Am"FGAB "(D7)"cAFA |1,3 "G"GABc "D7"d2 :|2,4 "D7"GBAF "G"G2 :|
+|: Bd | "G"gddg  ddgd | Bcde  "E7"dBAG | "Am"FGAB "(D7)"cAFA |1,3 "G"GABc "D7"d2 :|2,4 "D7"GBAF "G"G2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Reel de Sainte-Louise
+O: trad Qu\'ebec
+R: reel
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+Ad |\
+"D"f2f{a}f "A7"edeg | "D"fafd "B(m)"Adfd | "Em"eA2A "A7"Acec |\
+[1,3 "D"dcde f2 :|[2,4 "A7"dfec "D"d2 :|
+|: ef |\
+"G"gbge "A7"Aceg | "D"fafd Adfd | "A"eAAA Acec |\
+[1,3 "D"dcde f{a}f :|[2,4 "A7"dfec "D"d2 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Reel St. Antoine #1
+R: reel
+S: Roaring Jelly collection.
+M: C|
+K: A
+|:\
+"A"a3a aece | aaa2-aece | agfe "F#7"dcBA | "Bm"GABc "E7"defg |
+"A"a3a aece | agab aece | agfe "Bm"dcBA | "E7"GABc "A"A4 :|
+|:\
+"A"c3c cAce | dcBA "F#7"GABc | "Bm"d3d dBdf | "E7"edcB AGAB |
+"F#m"c3c cAce | "Bm"dcBA GABc | "E7"defg afed | cdBc "A"A4 :|
+
+%%sep 1 1 500
+
+X: 1
+T: Reel St. Antoine #2
+R: reel
+S: Portland Collection
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C|
+K: A
+e2 |\
+"A"a2aa- aece | a2aa- aece | agfe dcBA | "E7"GABc defg |
+"A"a2aa- aece | a2aa- aece | agfe dcBA | "E7"GABG "A"A2 :|
+|:AB |\
+"A"c2cc- cBce | dcBA GABc | "D"d2dd- dcdf | edcB AAEA |
+"A(F#m)"c2cc- cBce | dcBA GABc | "D"defg afed | "E7"cABG "A"A2 :|

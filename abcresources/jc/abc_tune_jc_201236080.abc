@@ -1,0 +1,46 @@
+X: 21621
+T: HAIL! ALL HAIL! THOU MERRY MONTH OF MAY
+C: Weber
+%R: march, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.162
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 layout for compact small-scale format
+V: 1 staves=2
+|:!f!\
+d4 f4 | e4 z2A2 | {c}B2A2 B2c2 | d4 z2!p!AA |\
+A2f2 f2e2 | {e}d2cB A2A2 | B2c2 d2e2 | A2A2d2z2 |\
+!f!d4 f4 | a6 fd | AFAd f2e2 | d6 z2 :|
+d4 f4 | e4 z2A2 | {c}B2A2 B2c2 | d4 !p!A3A |\
+A2f2 f2e2 | {e}d2cB A2A2 | B2c2 d2e2 | A2A2 d2!f!AA |\
+A2f2 f2e2 | edcB !p!A2A2 |
+B2c2 d2e2 | A4 !f!d3d |\
+d6 f2 | a6 fd | AFAd f2e2 | d6 z2 |] \
+d4 f4 | e4 z2A2 | B3A B2c2 | d4 z2!f!AA |\
+A2f2 f2e2 | d2cB !pp!A2A2 |
+Af3 f2e2 | {e}d2cB "_mez."A2A2 |\
+B2c2 d2e2 | A4 A4 | BBcc d2e2 | A6 z2 |!f!\
+d4 f4 | {f}a6 fd | AFAd f2e2 | d6 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2
+|:!f!\
+F4 d4 | c4 z2F2 | G2F2 G2E2 | F4 z2!p!FF |\
+F2A2 A2G2 | F2F2 F2F2 | G2G2 G2G2 | F2F2F2z2 |\
+!f!F4 d4 |
+f6 dA | FDFA d2A2 | F6 z2 :|\
+F4 d4 | c4 z2F2 | G2F2 G2E2 | F4 !p!F3F |\
+F2A2 A2G2 | F2F2 F2F2 |
+G2G2 G2G2 | F2F2 F2!f!FF |\
+F2A2 A2G2 | FFAG !p!F2F2 | G4 G4 | F4 !f!F3F |\
+F6 d2 | f6 dA | FDFA d2A2 |
+F6 z2 |] \
+F4 d4 | c4 z2F2 | G3F G2E2 | F4 z2!f!FF |\
+F2A2 A2G2 | F2F2 !pp!F2F2 | FA3 A2G2 | F2AG "_mez."F2F2 |
+G2G2 G4 | F4 F4 | GGGG G2G2 | F6 z2 |!f!\
+F4 d4 | {d}f6 dA | FDFA d2A2 | F6 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

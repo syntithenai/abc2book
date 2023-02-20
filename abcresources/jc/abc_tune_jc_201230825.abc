@@ -1,0 +1,25 @@
+X: 141
+T: l'Homme et La Femme          F.
+C: Ignatius Sancho 1775
+%R: march
+B: "Minuets Cotillons & Country Dances", 1775 p.14
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] |: Dd2B | (AF)(ED) | Dd2B | (B3A) | Dd2B | (AF)(ED) | (A>F)(G>E) | (E3D) :|
+[V:2] |: d2fg | d2f2 | d2fg | d2D2 | d2fg | d2f2 | d2A2 | d2D2 :|
+[V:1] |: ff2d | (ec)(BA) | ff2d | (f3a) | ff2d | ecBA | (a>f)(g>e) | (e3d) :|
+[V:2] |: d2d'2 | c'4 | d'2d2 | d'2d2 | d2f2 | a4 | f2a2 | d2d'2 :|
+[V:1] |: D>d E>d | F>d E>d | f>Bc>d | (Td3c) | Gb2G | Fa2F | (ge)(dc) | (c3d) :|
+[V:2] |: d2z2 | d2z2 | d2e2 | A2a2 | g2e2 | f2d2 | a2A2 | d2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% All Round, back again, Each Gentleman turn his Partner, Ballance, turn each others
+%% Partner, Ballance a Rigadoon Step, Every Gentleman turn his Partner into her place.
+%%endtext

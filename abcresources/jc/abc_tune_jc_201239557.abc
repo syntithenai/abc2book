@@ -1,0 +1,23 @@
+X: 3311
+T: the_Highland_Skip.   a Reel.
+C: D.D.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.3 p.31 #1 (top 2 staffs continued from p.30)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - -
+V: 1 staves=2
+f |\
+cFTc>A cFcA | cFcA ~c3d | cFcA cFAc | ~f>dcA G3 :| d | (cA)(fA) (aA)(fA) | c<A f>A ~c3d |
+cAfA aAfd | c<Fc>A ~G3d || (cA)(fA) aAfA | cAfA ~c3d | cAfA cdfg | fdcA ~[G3E3] |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+[f2F2][f2F2] [f2F2][f2F2] | [f2F2][f2F2] [a2A2][b2B2] |\
+[a2A2][f2F2] [f2F2][f2F2] | [b2B2][f2F2] [c'3c3] :| z |\
+[f2F2][f2F2] [f2F2][f2F2] | [f2F2][f2F2] [a2A2][b2B2] |
+[a2A2][f2F2] [f2F2][f2F2] | [f2F2][f2F2] [c'3c3]z ||\
+[f2F2][f2F2] [f2F2][f2F2] | [f2F2][f2F2] [a2A2][b2B2] |\
+[a2A2][f2F2] [f2F2][f2F2] | [b2B2][f2F2] [c'3c3] |]

@@ -1,0 +1,20 @@
+X: 14
+T: Trip to Vauxhall
+%R: jig
+B: "Twenty Four Favourite Dances for the Year 1779", Thomas Straight, ed. p.7 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-straights1779
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The rhythms aren't quite right at the strain boundaries; not fixed.
+M: 6/8
+L: 1/8
+K: D
+|:\
+AFd dAf | fda fdA | Bcd Adf | f3 e3 |\
+AFd dAf | fda fdc | Bcd Aef | {f}e3 d2 :|
+|: f |\
+ecA d2f | ecA d2e | fdB AFd | c2B (Bcd) |\
+dAF GED | EFE e2f | fed ABc | d3 D2 :|
+%%begintext align
+%% Hey Contrary sides then on your own side hands across
+%% Back again Cross over one Cu: Right and Left at top
+%%endtext

@@ -1,0 +1,27 @@
+X:952
+T:When she came ben she bobed
+T:Lord Doneraile
+R:Other
+O:Scotland, Ireland
+B:Gibbon's Collection of Scots tunes
+B:O'Neill's 106
+S:Gibbon's Collection of Scots tunes
+Z:Transcription, chords:Mike Long
+M:6/4
+L:1/4
+K:Bb
+V:1 stv=2
+V:1 clef=treble
+V:2 clef=bass
+[V:1]D|\
+[V:2]z|\
+[V:1]"Gm"G2G B>c B/c/|"F"AF F/G/  F2F|"Gm"G2G g>a g/a/|"D"^fdd d2e|\
+[V:2]G, D, B,,  G,,2 G,     |F, A,/B,/A,/G,/ F,C,A,,|B,, G,, A,, B,,2      E|DA, ^F, D,2 C,|\
+[V:1]"Bb"fBf ~f>ed|"F"cfc {B}A>Bc|
+[V:2]B,,2z       B,,D,B,,|A,,2 z      F,A,D,|
+[V:1]"D"d2d d>ed/c/|"Gm"BGG G2:| |:d/4=e/4^f/|\
+[V:2]G,G,,G,       ^F,D,F,|G,D,B,,     G,,2:| |:z         |\
+[V:1]"Gm"g2g    g>ab|"F"aff f2 =e/^f/|"Gm"gBd g>ag/a/|
+[V:2]B,2 B, B,/C/B,/A,/ G,|F, C/B,/A,/G,/  F,F,,C,|B,,2G,,        B,,2E|
+[V:1]"D"^fdd d2e|"Bb"fBf ~f>ed|"F"cfc ~A>Bc|"D"d2d d>e d/c/|"Gm"BGG G2:|
+[V:2]DA,^F,   D,2C,|B,,2 z      B,,D,B,,|F,2 z    F,A,D,|G,G,,G,       ^F,D,F,|G,D,B,,     G,,2:|

@@ -1,0 +1,24 @@
+X: 082
+T: the Merry wives of Westminster.          E
+C: Ignatius Sancho 1775
+%R: jig
+B: "Minuets Cotillons & Country Dances", 1775 p.8 #2 (and top of p.9)
+S: https://www.bl.uk/collection-items/minuets-cotillons-and-country-dances-by-ignatius-sancho#
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 brace=2 % staves=2
+V: 2 clef=bass middle=d
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[V:1] A | AA,A, A,2D | CEA CEA | DFA DFA | BcA  GFE | AEA cBA | BEB dcB | cae fed | cAA A2 :|
+[V:2] z | A3    c2B  | A3  c3  | d3  f3  | B2^d e3  | a3  A2a | g3  e2g | a2c d2e | A3  a2 :|
+[V:1] e | ecA   aec  | dBb bgd | cAc cAc | BGE  E2e | ece aec | dBb bgd | ceA BdG | AAA A2 :|
+[V:2] z | a3    A2a  | a3  g3  | a3  A3  | e3   geg | a3  A2a | a3  g3  | a2c d2e | Ace a2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The First Couple cast off one Cu. hands round four with the third Cu. .| Cast up
+%% and hands round four at top :| Cross over one Cu. foot it and turn your Partner :|.
+%% Lead thro the Bottom Cast up into the Second Cu.s Place Right and Left at top :|:
+%%endtext

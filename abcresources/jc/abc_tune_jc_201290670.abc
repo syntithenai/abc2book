@@ -1,0 +1,56 @@
+%%center Irish American Reel + Mountain Ranger + Dominion Reel set
+
+
+X: 1
+T: Irish-American Reel
+C: Trad
+B: NEFR #83
+B: Ryan "Mammoth Collection" 1883
+B: Cole's 1000 Fiddle Tunes
+S: Fiddle Hell Online 2021-10-29
+R: reel
+M: C|
+L: 1/8
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The Ryan/Cole, O'Neill's and NEFR versions are identical. (Chords from unknown source.)
+K: F
+((3cde) \
+| "F"fage fcaf | "C"bgeg "F"fdcB | AFcF     dFcF | "Gm"AGG^F "C7"Gcde |
+| "F"fage fcaf | "C"bgeg "F"fdcB | ABcd "Bb"efga | "C7"bgeg   "F"f2  :|
+|: fg \
+| "F"afcf Acfg | afcf    Acfa | "Gm"bag^f  gdg=f | "C7"egfd  cefg  |
+| "F"afcf Acfg | afbg "C"ecde | "F"fcdB "Bb"cABG | "C7"AFGE "F"F2 :|
+
+
+X: 2
+T: Mountain Ranger  [Bb]
+R: hornpipe
+S: Fiddle Hell Online 2021-10-29
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+B: NEFR #123 (chords from the FH version)
+M: C|
+L: 1/8
+K: Bb
+FE |\
+"Bb"DFBc d2cd | "Eb"ed cB "F7"G2FE | "Bb"DFBc "(Gm)"dBAB | "Eb"gfdB "F7"c2FE |
+"Bb"DFBc d2cd | "Eb"ed cB "F7"G2FE | "Bb"DFBd "F7"cBAc | "Bb"B2d2 B2 :|
+|: Bc |\
+"Bb"dBAB GBFB | "Bb"DFBc dBAB | "Eb"gBfB edcB | "C(m)"GccB "F7"ABce |
+"Bb"dB {c}((3BAB) GBFB | "Bb"DFBc dBAB | "Eb"gBfB "Eb"edcB | "F7"AFGA "Bb"B2 :|
+
+
+X: 3
+T: Dominion Reel
+O: New England
+M: C|
+S: Transcription by Mary Lou Knack
+S: Fiddle Hell Online 2021-10-29 (slightly simpler chords.
+R: reel
+K: C
+G2 |\
+"C"c2c2 "G"BcdB | "C"cega gece | "F"f2fd "C"e2ec | "G"dcBA G2AB |
+"C"c2c2 "G"BcdB | "C"cega gece | "F"f2fd "C"e2ec | "G"dcBd "C"c2 :|
+|: G2 |\
+"C"cege cege | "G"defe dcBd | "C"cege cege | "D"dg^fa "G"g2g2 |
+"C"cege cege | "F"f2fe dcBA | "G"GABc defg | ecdB "C"c2 :|
+

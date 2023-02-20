@@ -1,0 +1,60 @@
+
+X: 1
+T: Christmas in Killarney   [C]
+C: John Redmond, James Cavanaugh, Frank Weldon
+R: jig
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+%%continueall 1
+A | "C"G2C C2C | G2C C2C | "F"AGF AGF | "C"G2C C2C |
+w: The hol-ly green, the i-vy green, the pret-ti-est pic-ture you've e-ver seen is
+%
+"F"A2B c2B | "C"A2G z2C | "D7"DED "G7"C2B, | "C"C3 z2 |] A | "C"G2C C2C | G2C C2C |
+w: Christ-mas in Kil-lar-ney with all of the folks at home. It's nice, you know, to kiss your beau while
+%
+"F"AGF AGF | "C"G2C C2C | "F"A2B c2B | "C"A2G "Am"E2C | "D7"DED "G7"C2B, | "C"C3 z2 |] E |
+w: cud-dl-ing un-der the mis-tle-toe, and San-ta Claus you know, of course, is one of the boys from home. The
+%
+"Am"E2A A2B | c2A z2B | "F"c2B A2B | "Am"E3 z2E | "G"D2G G2A | B2D D2D |
+w: door is al-ways o-pen, the neigh-bors play a call, and Fa-ther John be-fore he's gone will
+%
+"Am"c2c "D7"B2A | "G"G3 "G7"z2 |] A | "C"G2C C2C | G2C C2C |
+w: bless the house and all. How grand it feels to click your heels and
+%
+"F"AGF AGF | "C"G2C C2C | "F"A2B c2B | "C"A2G z2C | E2E "G7"F2"C7"G | "F"A3 "Dm"z2B |
+w: join in the fun of the jigs and reels. I'm hand-ing you no blar-ney, the likes you've ne-ver known, is
+%
+"F"c2B "F#dim"c2A | "C"G2c "Am"z2C | "D7"DED "G7"C2B, | "C"C3 z2 |]
+w: Christ-mas in Kil-lar-ney with all of the folks at home.
+
+%%sep 2 1 500
+
+X: 1
+T: Christmas in Killarney    [D]
+C: John Redmond, James Cavanaugh, Frank Weldon 1950
+R: jig
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+P: Play: Intro (ABAv)x3 Outro
+K: D
+"^Intro"[|] B |\
+"D"A2D D2D | A2D D2D | "G"BAG BAG | "D"A2D D2D |\
+"G"B2c d2c | "D"B2A z2D | "E7"EFE "A7"D2C |
+"D"D3 z2 \
+"^A"||:: B |\
+"D"A2D D2D | A2D D2D | "G"BAG BAG | "D"A2D D2D |\
+"G"B2c d2c | "D"B2A "Bm"F2D |
+"E7"EFE "A7"D2C | "D"D3 z2 |]\
+"^B"[| F |\
+"Bm"F2B B2c | d2B z2c | "G"d2c B2c | "Bm"F3 z2F |\
+"A"E2A A2B |
+c2E E2E | "Bm"d2d "E7"c2B | "A"A3 "A7"z2 "^vamp"|[| y2"^4"z8::|\
+"^Outro"[| B |\
+"D"A2D D2D | A2D D2D | "G"BAG BAG | "D"A2D D2D |
+"G"B2c d2c | "D"B2A z2D | F2F "D7"G2A | "G"B3 z2c |\
+"G"d2c "G#dim"d2B | "D"A2d "Bm"z2D | "E7"EFE "A7"D2C | "D"D3 z2 |]
+
+%%text Merry Minstrels arrangement 2022.

@@ -1,0 +1,20 @@
+X: 1
+T: Turid Askjem, gangar
+C: Knut Buen
+R: march
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+%%slurgraces 1
+%%graceslurs 1
+%%staffsep  45
+({Bc}u[cE2]d) !segno!|:\
+e3d (Bc)(AG |[1 EF){F}[G2-G,2-] [G2G,2]({B}cd) :|[2 (EF){F}[G2-G,2-] [G2G,2](eg) |:\
+({e}T=f2e)d (Bc)(AG |
+[1 EF)[G2-G,2-] [G2G,2](eg) :|[2 (EF)[G2G,2] (TB2AB) |:\
+{F}[G4G,4] (T[B2E2][AD2]B) | ({F}[G2G,4]E2) ({B}[c2E2]TB2) |
+[1,2 [A4A4] T[B2E2][AD]([BE-] | {cB}[c2E2])[eE]([dE-] [cE2]TB[AD][BE] :|\
+[3 [A4A4] {C}TB,2A,(B, | C2)A(G TF2)EF :|
+[4 [A4A4] {C}TB,2A,(B, | C2)A(G TF2)EF !coda!|\
+{F}[G4-G,4-] [G2G,2]({B}[cE2]d) "d.S."|] "^Coda" [G8G,8] |]

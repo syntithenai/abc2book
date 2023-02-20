@@ -1,0 +1,30 @@
+X:1
+T:Brigadier-General D.R. Coell
+M:6/8
+L:1/8
+Q:80
+C:S.S. Kelly 1993
+S:March
+K:HP
+|: c/2d/2 | \
+{g}e3-e3/2f/2e | \
+{g}e/2a3/2e{gcd}c2e |
+{g}d3/2B/2{G}B{g}B3/2c/2e | \
+{g}f3/2e/2{A}e{gcd}c2d | \
+{g}e3-e3/2f/2e |
+{g}e/2a3/2e{gcd}c2e | \
+{g}d3/2B/2{G}B{g}G3/2B/2{G}B | \
+{g}A3{GAG}A2 ::
+e | \
+{ag}a3{ef}e3 | \
+{g}f3/2g/2a{cd}c2d | \
+{g}e3/2f/2e{gef}e3/2d/2c |
+{gcd}c3|1 {e}B2e|2 {g}B3/2c/2d|1
+{ag}a3{ef}e3 | \
+{g}f3/2g/2a{cd}c2e |
+{g}d3/2B/2{G}B{g}G3/2B/2{G}B | \
+{g}A3{GAG}A2e:|2
+{g}e3-e3/2f/2e |
+{g}e/2a3/2e{gcd}c2e | \
+{g}d3/2B/2{G}B{g}G3/2B/2{G}B | \
+{g}A3{GAG}A2|]

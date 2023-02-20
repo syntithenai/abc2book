@@ -1,0 +1,18 @@
+X: 4132
+T: Garscube House    a Strathspey
+C: By a Lady
+%R: strathspey
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.13 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+% - - - - - - - - - -
+V: 1 staves=2
+B | F<BD<B F<B,-B,F | E<GF>D EC-C>B | F<BD>B FB,-B,>F | E<GTF>E CB,-B,>B || F<BD<B F<B,-B,F | E<GTF>D ECCD | B,>DFG | B>FGg |
+f<BTf>e dB-B |: d/e/ | f<Bf>d dc-cd/e/ | f<Bf>d f<Bb>g | f<Bf>d d(c-c d/)e/ |[1 f<ed<c dBB :|2 f/e/.d/.c/ TB>A BB,-B, |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | B2B2 B2d2 | e2d2 c2c2 | B2B2 B2d2 | e2f2 B2B2 || B2B2 B2d2 | e2d2 c2c2 | B2B2 d2e2 |
+f2F2 B2B |: z | b2b2 f2f2 | b2b2 [b2d2][b2e2] | [b2d2]B2 f2F2 |[1 def2 B2B :|[2 def2 B2B |]

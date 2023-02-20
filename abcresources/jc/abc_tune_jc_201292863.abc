@@ -1,0 +1,33 @@
+X:1
+T: Jig  The Rambling Pitchfork
+M: 6/8
+L: 1/8
+K: Dmaj
+|FEF AF{E}F | dF{e}F AFD | GFG ABc | ded cAG|
+|FEF AF{E}F |dF{E}F AFD|GFG BdB|AFD DGE |
+|~F2F AF{E}F] | dzF AFD] |GFG ABc | d2B cAG] |
+|~F2F AF{E}F |dF{E}F AFD|GFG BdB|AFD D3 |
+|dcd fed |ecA AFA |dcd efg | faf gfe] |
+| d2d fed| ecA AFD|GFG BdB|AFD DFA|
+| d2d fed] |ecA AFA |dcd efg | ( (3fga) f gfe]|
+| d2d fed| ecA AFD|GFG BdB| AFD D3 ||
+
+X:1
+T: Tony Molloy's  (jig)
+M: 6/8
+L: 1/8
+K: Em
+ | gfg edB | BAB EFG | FAF DFA | dAF AFD |
+gfg edB  | BAB EFG | (3B^cd B AGF | GED E2 :|
+B | efe Beg | bge gfe | d^cd Adf | afd fed |
+ege Beg | bag fed | (3B^cd B AGF | GED E3 :|
+
+X:1
+T:Humours Of Drinagh, The
+M:6/8
+L:1/8
+K:Dmaj
+|:FDF ABc|dfd ecA|FDF ABc|dcA GBG|
+FDF ABc|dfd ecA|fef gec|Adc ~d3:|
+|:fef gfg|agf gfe|fef gfg|agf ~g3|
+agf g2e|f2d ecA|fef gec|Adc ~d3:|

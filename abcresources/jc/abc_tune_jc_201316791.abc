@@ -1,0 +1,30 @@
+X: 1
+T: New Minuet
+%R: minuet
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (178)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+N: The actual time signature is just "3".
+M: 3/4
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+a2 efed | c2 A2 B2 | c2AB cd | edefge |\
+a2 efef | g2 dede | f2 c2 d2 | e6 :|
+|:\
+B2 BcBc | d2 cBAG | c2 cdcd | e2 dcBA |\
+d2 dede | f2 edcB | cd B3 A | A6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Note Each strain is to be play'd twice over.
+%%begintext align
+%% This dance must be done with the Minuet Step.
+%%   The two 1st Men take Hands and the two 1st We.
+%% and lead backward the 1st Cu. cast off and the 2d
+%% Cu. lead up :| The 1st and 2d Cu. take Hands and meet
+%% each other the 2d Cu. cast off and the 1st Cu. lead
+%% up :| The 1st Cu. cross over and turn Hands .| Then
+%% lead up all abreast and the 1st Cu. cast off :|
+%%endtext
+%%sep 1 8 500

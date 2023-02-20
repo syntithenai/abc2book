@@ -1,0 +1,24 @@
+X:179
+T: Tweed Side ("duett V")
+N: O'Farrell's Pocket Companion v.2 (Sky ed. p.91-2)
+N: "Scotch"
+M: 3/4
+L: 1/8
+R: waltz % ?
+Q: 240
+V: 1 %%MIDI program 1 73 volume=70 % flute
+V: 2 %%MIDI program 1 40 % fiddle
+K: A
+[V:1] c>B|A2E2F2|A>GAB cd|c2B2 cB|A2E2F2|A2 edcB|{B}A4 cB|
+[V:2] e>d|c2c2d2|c>BcG AB|A2G2 ed|c2c2d2|c2 cBAG|A4 e>d|
+%
+[V:1] A2E2 F>G|A>GAB c>d|c2B2 c>d|cd/e/ dcBA|Bc/d/ E2G2| A4 :|
+[V:2] c2c2 d2 |cBcG AB  |A2G2 z2 |A2 fedc   |d2c2  B2  | A4 :|
+%
+[V:1] c>d|e2 dcBA|e2 fedc|c2B2 c>d|e2 dcBA|A>GAB c>d|
+[V:2] A>B|c2 BAGA|c2 dcBA|A2G2 A>B|c2 BAdc|d2 cB A2|
+%
+[V:1] e4 fg/a/|fedc BA |d>c fedc|c2B2 A>B|cd/e/ dcBA|B2 E>dcB|A4 :|
+[V:2] G4 d2   |c2 BA dc|B2 dc BA|A2 G2 z2|A2 fedc|G2 c2 G2   |A4 :|
+%
+%%%%%

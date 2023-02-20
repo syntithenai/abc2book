@@ -1,0 +1,19 @@
+X:820
+T:Woolly and Georgey
+M:3/2
+L:1/4
+%%MIDI beat 100 95 80
+%%MIDI gchord czc
+%%MIDI program 25
+%%MIDI chordprog 50
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=90
+C:Henry Playford, 1701
+N:Originally in 3/4 time
+K:G
+P:A
+|: "G"G2(G/A/B) AG | "Am"cA (A/B/c) "D"BA | "G"B3/A/G3/A/ "Em"B3/c/ | "D"(d3e)D2 |
+"G"G2(G/A/B) (d/B/)(A/G/) | "Am"A2cd e3/f/ | "C"ge (d/e/)(d/B/) "D7"AG | "G"G3AB2 :|
+P:B
+|: "C"c3/d/ ed "G"gd | "Em"B3/c/ dB ed | "G"G3/A/ Bc dG | "D"F2A2A2 |
+"G"D3EDB, | "Em"G3E DB, | "G"d3B "D7"AG | "G"G3AB2 :|

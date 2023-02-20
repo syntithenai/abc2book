@@ -1,0 +1,20 @@
+X: 94
+T: Bulgar (Frailach) 9#13
+C: Joe Kutcher (Kammen 9#13)
+Z: John Chambers <jc@trillian.mit.edu>
+N: (1) The original had several more bars of Cm here.
+B: Kammen 9 #13
+R: Bulgar
+M: 2/4
+L: 1/8
+K: Am
+|:E^GA \
+| "E"B4-    | BB "Am"c/B/A        | "E"c B3-  | B^G  "Dm"{B}A/G/F \
+|  "E"A ^G3- | "E"^GE "Dm"{G}F/E/D | "E"EF ^GA | Bc ^de            |
+|  "E"B4-    | Bd "Am"c/B/A        | "E"c B3-  | B^G  "Dm"{B}A/G/F \
+|  "E"A ^G3- | ^GE "Dm"{G}F/E/D    | "E"E4-    | E :|
+|:"E7"E[cE][BD] \
+| "Am"[A4-C4-]     | [AC][cE] [BD][AC]      | "E7"[BD] [^G3B,3]- | [^GB,]E [cE][BD] \
+|  "Am"[A3C3] e    | "B7"^d/e/^f/e/ ^d/c/B/A/ | "E"B4-            | BE [cE][BD]      |
+|  "Am"A^G  AB | cB c^c        | "Dm"[d4F4]         | [d2F2] [d2F2]      \
+|  "E"dB "Am"c/B/A | "E"B^G "Dm"A/G/F         | "E"^GE "Dm"F/E/D  | "E"E  :|

@@ -1,0 +1,20 @@
+X: 10151
+T: LOVE NOT -- Quickstep
+O: Arranged by W. B. LAYBOURN
+B: K\"ohler's Violin Repository, v.1, 1885 p.15 #1
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: The last bar has two extra half-beats. This may be a typo, or a slow-down.
+M: C|
+L: 1/8
+K: C
+Q: "Introduction, Moderato."
+[|\
+c2e2 g3f | edcB AGFE | D2d2 f3e | dcBA GFED |
+Cz Cz Cz Cz || G4 E4 | c6 (CD) | E3{g}F EDCD | C6 G2 | c3c (c2a2) |
+g6 c2 | (B2c2) (f2e2) | d6 G2 | c3c (c2d2) | e4 g4 | ^f4 =f4 | e4- eceg | c'4 (bc')d'c' |
+b2.a2 z2((3fga) | g4- gfef | e4- eceg | c'4 (bc')d'c' | b2.a2 z2(cd) |
+e3{g}f (ed)cd | c6 z2 || "^Coda"[GG,]z [EG,]z [c4E4G,4] | E2 (E/D/C/D/) CCEG |
+EGc2- c(B/c/ d/c/B/c/) | dGf2- f(g/f/ e/d/c/B/) | A3G AB{d}cA |
+G(^F/G/) (A/G/)(=f/e/) d/c/B/A/ G/F/E/D/ | EGc2- c(B/c/ d/c/B/c/) |
+dGf2- f(g/f/ e/d/c/B/) | A3G AB{d}cA | [G2G,2]z [B2D2G,2]z "^Fine"[c4E4G,4] "_De Capo." !segno!|]

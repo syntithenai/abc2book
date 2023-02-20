@@ -1,0 +1,20 @@
+X:178
+T: Mill Mill O ("duett IV")
+N: O'Farrell's Pocket Companion v.2 (Sky ed. p.91)
+N: "O'Sullivan Meets O'Farrell" track 10
+N: "Scotch"
+M: C
+L: 1/8
+R: reel % ?
+Q: 240
+V: 1 %%MIDI program 1 73 volume=70 % flute
+V: 2 %%MIDI program 1 40 % fiddle
+K: D
+[V:1] d>e|f2 A>B A3d|B>ABd {f}e2 d>e|{e}f2A2 gfed|B3c d2 :|
+[V:2] z2 |daFG F3F  |G>FGB cAF>A    |dAFA BAGF   |G3A F2 :|
+%
+[V:1] zA |defg a3a  |bagf e3a |defg a>bag|{g}f2 fg Ha2 zA|
+[V:2] z2 |zAde fdfd |gfed c3A |zAde fgfe |{e}d2 de Hf2 z2|
+%
+[V:1] defg a3 g/a/ |bagf {f}e2 d>e| f2 A2 A2 f/e/d|B3c Hd2 :|
+[V:2] zAde f3 e/f/ |gfed cAFA     | dAFA A2 A/G/F |G3 E/A/ HF2 :|

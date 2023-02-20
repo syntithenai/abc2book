@@ -1,0 +1,25 @@
+X: 1
+T: Pandala\vs
+O: Bulgaria
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 7/8
+L: 1/8
+K: DMix
+"A"
+|: "D"A2 G2 ~F2D | ED ~D2 DAD | A2 G2 ~F2D |1 ED ~D2 DA,D :|2 ED ~D2 "fine"D3 ||
+"B"
+|: "D"~F2 CD EDD | ~D2 DA, FGA | ~F2 CD EDD |1 ~D2 DG, ~A,3 :|2 ~D2 DA, D3 ||
+"C"
+|::: "A"EF GE "D"~F2D | ED ~D2 DAA, | "A"EF GE "D"~F2D |1,3 ED ~D2 CB,A, :|2,4 ED ~D2 D3 :|
+"D"
+|::: "D"~F2 DA, DCD | ~E2 DA, DGA | ~F2 DA, DCD |1,3 ~E2 DA, D2D :|2,4 ~E2 DA, D3 :|
+"E"
+K:DDor
+|: "Am"A,2 ~D2 EDD | "Dm"DD DC CB,A, | "Am"A,2 ~D2 EDD |1,3 ~D2 "Dm"D2 G,A,2 :|2,4 ~D2 "Dm"D2 A,D2 ||
+"F"
+|: "G"G2 z2 GFG | D2 E2 ~F2E | GG GC GFG | D2 E2 ~F2E :|
+"G"
+|: "G"G2 D2 "C"~E3 | C2 ~D2 CDE | "G"F2 D2 "C"E3 | "D"C2 D2 "G"D2z :|
+"H"
+K: DMix
+|: "G"G2 D2 DCB, | "D"A,2 ~D2 DCD | E2 ~D2 DCB, | A,2 D2 D2z :|

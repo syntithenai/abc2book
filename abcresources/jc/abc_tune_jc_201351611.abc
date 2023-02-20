@@ -1,0 +1,31 @@
+X: 1
+T: Wha'll be King but Charley
+T: Se'n' Riogh a'tha aguin is fear linn.
+C:
+O:
+S: email from Darlene Wigton 2022007010
+R: jig
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am	% and C
+% = = = = = = = = = =
+V: 1 staves=2
+"^A1"[|] E |\
+"Am"T[c2E2]B c2d | e2f {f}e2d | T[c2E2]B c2d | "Em"{cd}e3 E3 |\
+"Am"Tc2d e2a | "G"{a}g2e {c}d2e | "Am"{B}Tc2A "Em"AGE | "Am"[A3E3C3] [A2E2C2] |]
+"^A2"[| B |\
+"Am"[c2E2][cE] [c2E2]d | "C"[e2c2][ec] "G/B"[e2c2]d | "Am"[c2E2][cE] [c2E2]d | "Em"{cd}e3 E2B |\
+"Am"Tc2d e2a | "G"{a}g2e {c}d2e | "Am"{B}Tc2A "Em"AGE | "Am"[A3E3C3] [A2E2C2] |]
+"^B1"[| B |\
+"Am"{B}Tc2A AGE | {B}Tc2A AGE | {B}Tc2A AGE | "G"G3 TG2B |\
+"Am"Tc2d e2a | "G"{a}g2e {c}d2e | "Am"{B}Tc2A "Em"AGE | "Am"[A3E3C3] [A2E2C2] |]
+"^B2"[| B |\
+"Am"{B}Tc2A AGE | {B}Tc2A AGE | "C"edc "G"dcB | "Am"cBA "Em"GFE |\
+"Am"Tc2d e2a | "G"{a}g2e {c}d2e | "Am"{B}Tc2A "Em"AGE | "Am"[A3E3C3] [A2E2C2] |]
+% = = = = = = = = = =
+V: 2 clef=bass middle=d
+   z | c3 c'3 | c3 c'3 | c3 c'3 | c6 | e2d c3 | c'3 b2c' | e'3e3 | a3 A2 |]
+[| z | c3 c'3 | c3 c'3 | c3 c'3 | c6 | a2b c'2d' |e'2c' b2^g | a2f e3 | [a3-A3-] [a2A2] |]
+[| z | A3 a3 | A3 a3 | A3 a3 | c3 c'2z | e2d c3 | c'3 b2c' | e'3 e3 | a3 [a2A2] |]
+[| z | A3 a3 | A3 a3 | A3 B3 | c3 c'3 | a2b c'2d' | e'2c' b2^g | e3 E3 | [a3-A3-] [a2A2] |]

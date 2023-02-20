@@ -1,0 +1,29 @@
+X: 21211
+T: FRA DIAVOLO SETT (tune 5)
+C:
+%R: gj
+B: Elias Howe "The Musician's Companion" 1843 p.121 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="5"
+c |\
+B2G d2B | efg d2c | Bdg dBG | FAA A2c |\
+B2G d2B | efg d2c | BcB AGA | GGG G2 H:|
+[ge] |\
+b2g dgb | {g}a2f dfa | {a}g2e efg | ded dgd |\
+B2G GAB | c2A ABc | ded cBA | GGG "^D.C."G2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First lady swing the gentleman on her right,
+%% with right hand,
+%% the next gentl'n with left hand, &c.,
+%% then swing her partner last,
+%% balance partner,
+%% others the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,26 @@
+X:1
+T: At Nancy's House
+N:
+C:Tune is "Elocine" by Bo Leyden
+S:
+A:
+O:
+R:
+M:3/4
+K:Am
+I:speed 159
+%W:
+% voice 1 (1 lines, 31 notes)
+K:Am
+M:3/4
+L:1/16
+e6 A2 c2 e2 |f2 g2 f6 g a |e6 A2 c2 e2 |^d12 |d6 B2 d2 c2 |A2 E2 E8 |F2 G2 A2 B2 c2 d2 |^G6 B2 c2 d2 |
+%W:
+% voice 1 (1 lines, 34 notes)
+e6 A2 c2 e2 |f2 g2 f6 g a |e6 a2 e2 c2 |_B8B2cA|A2E2F2^G2A2B2|c2d2e8|B6c2c2^G2|A6c2e2a2|
+%W:
+% voice 1 (1 lines, 29 notes)
+c'6 e2 a2 c'2 |b6 ^g2 e4 |^a6 g2 f2 g2 |a12 |^g6 f2 ^d2 f2 |g2 c2 ^d2 g2 ^f2 =d2 |f4 ^d6 =d2 |B6 g2 _a2 b2 |
+%W:
+% voice 1 (1 lines, 30 notes)
+c'6 e2 a2 c'2 |_b6 c'2 d'2 a2 |d2 f2 a2 ^c2 f2 a2 |c12 |B6 f2 e2 d2 |c2 B2 A2 ^D2 A2 B2 |c6 e2 ^g2 c'2 |a12 ||

@@ -1,0 +1,32 @@
+X: 311
+T: SIR JAMES GRANT
+C: J. ANDERSON
+R: Strathspey
+B: Glen Collection p.31 #1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: Eb
+%
+V: 1
+BA |\
+(G3E)(B,3E) (G,3E)(B,3E) | (G3E)(B,3E) D3F F2(BA) |\
+(G3E)(B3G) (e3B) Hg4{ab}y| (A3c)(B3A) G2E2 E2 :|
+((3Bcd) |\
+e3BG3B .E2.B2.e2.g2 | e2E2 (cB)(AG) (A2F2) TF4 |\
+e3BG3B .E2.e2.g2.b2 | a3gf3a g3ee4 |
+{Bcd}.e2.B2.G2.E2 .G2.E2.B,2.G,2 | (B,E)(FG) (AG)(FE) (D2F2) TF4 |\
+.E2.B2.G2.e2 .B2.g2.e2.b2 | (AG)(AG) (Fc)(BA) G2E2 E2 |]
+%
+V: 2
+z2 |\
+E4[g4e4] e4[g4e4] | E4[g4e4] [a4f4][f4d4] |\
+e4[e'4b4] [e'4g4][e'4b4]y| [d'4b4][d'4b4] e'4e2 :|
+z2 |\
+e4[e'4b4] [b4g4][b4g4] | e4[g4e4] [f4B4][d4B4] |\
+e4[e'4b4] [b4g4][e'4b4] | [d'4b4][d'4b4] [e'4e4][e'4b4g4e4] |
+e4[b4g4] B4[g4e4] | B4[g4e4] [a4f4][f4d4] |\
+[g4e4][b4e4] [b4e4][g4e4] | [f4d4][f4d4] [g4e4][b2g2e2] |]

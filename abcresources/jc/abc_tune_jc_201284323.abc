@@ -1,0 +1,29 @@
+X: 052
+T: Handels Clarinet
+C: unknown
+O: Norfolk, England
+R: march
+N: Norfolk Museums Service
+N: MS with "scribble John Brown His Book 16 November 1785" on 1st page
+N: There's a 2nd unclear name: Robert Jas Goff/Goffe/Suff/Soffe.
+F: https://www.eatmt.org.uk/alan-flos-musings-on-a-norfolk-tune-book/
+F: https://www.eatmt.org.uk/wp-content/uploads/2021/03/SCN0943-2.jpg (page 5 of the MS)
+Z: 2021-06-25 John Chambers <jc:trillian.mit.edu>
+N: There's an extra beat between the two strains.
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - -
+V: 1 staves=2
+|:\
+a2 (f/g/a/b/) {f}Te2 dA | (3ded (3efe Tf3 g/a/ | bb ba/g/ aa ag/f/ |\
+gg gf/e/ fffe | d/e/f/g/ ag/f/ bz gz | az Az d4 :: a2 |\
+fAdf e/d/e/f/ ea | fAdf e3a | ~a8- | a6 a2 |\
+(ba)(ag) (gf)(fg) | (ag)(gf) (fe)Te2 | d/e/f/g/ ag/f/ bz gz | az A2 d4 :|
+% - - - - - - - - - -
+V: 2
+|:\
+f2 (d/e/f/g/) {d}c2 dD | (3FGF (3ABA Td3 e/f/ | gg gf/e/ ff fe/d/ |\
+ee ed/c/ dddA | d/c/d/e/ fe/d/ gz ez | fz A2 F4 :: a2 |
+~a8- | a6 a2 | fAdf e/d/e/f/ ea | fAdf Te4 |\
+(gf)(fe) (ed)(de) | (fe)(ed) (dA)TA2 | d/c/d/e/ fe/d/ gz ez | fz Az F4 :|

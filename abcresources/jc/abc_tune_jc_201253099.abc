@@ -1,0 +1,44 @@
+X: 53
+T: Black Nagg.
+B: Playford "The Dancing Master" 4th edition 1657 p.53
+S: http://ks.imslp.net/files/imglnks/usimg/4/48/IMSLP337988-PMLP144608-dancing_master_4th_ed.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+P: Longways for six.
+N: //// used to separate the two columns in the dance description.
+L: 1/4
+M: 6/4	% C3
+K: Ddor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A |\
+d>ed e>de | f>ef efg |\
+a>gf e>de | d3- d2A ::\
+d |\
+ecA ecA | ecA ecA |
+afd afd | afd afd |\
+ecA ecA | ecA e2 f/2g/2 |\
+a>gf e>de | d3 d2 :| 
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead up a D. forward and back .:| That again :|
+%% ////
+%% First Cu. take both hands and 4. slips up and stand,
+%% the 2. Cu. as much, the 3. Cu. slip up, turn all S. :|
+%% Last Cu. slip down the 2. as much, the first as much,
+%% turn all single :|
+%%endtext
+%%sep 2 2 500
+%%begintext align
+%% Sides all :| That again :|
+%% ////
+%% First man and last Wo change places,
+%% first Wo. and last man change,
+%% the 2.| change with his own :|
+%% All this back again :|
+%%endtext
+%%sep 2 2 500
+%%begintext align
+%% Arms all .:| That again :|
+%% ////
+Men the single hey .:| We. as much .:|
+%%endtext
+%%sep 2 2 500

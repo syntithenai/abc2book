@@ -1,0 +1,38 @@
+X:1
+T: Cadger's Caper
+N:
+C:Tune is "Roodman's Romp" by W.H. Myers and C.E. Thomson
+S:
+A:
+O:
+R:
+M:9/8
+K:Am
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 24 notes)
+K:Am
+M:9/8
+L:1/16
+A4 B2 c4 e2 d2 c2 B2 A4 B2 c4 e2 a6 A4 B2 c4 e2 d2 c2 B2 A4 B2 c4 e2 a6 |
+%W:
+% voice 1 (1 lines, 24 notes)
+a2 b2 c'2 b4 g2 e6 d2 e2 f2 e4 c2 A6 B4 d2 c4 a2 g4 f2 e4 B2 d2 c2 B2 A6 |
+%W: A2
+% voice 1 (1 lines, 24 notes)
+A4 B2 c4 e2 d2 c2 B2 A4 B2 c4 e2 a6 A4 B2 c4 e2 d2 c2 B2 A4 B2 c4 e2 a6 |
+%W:
+% voice 1 (1 lines, 24 notes)
+a2 b2 c'2 b4 g2 e6 d2 e2 f2 e4 c2 A6 B4 d2 c4 a2 g4 f2 e4 B2 d2 c2 B2 A6 |
+%W: B1
+% voice 1 (1 lines, 24 notes)
+a2 b2 c'2 b4 g2 e6 d2 e2 f2 e4 c2 A6 B4 c2 d4 f2 a2 g2 f2 a4 c'2 b4 a2 g6 |
+%W:
+% voice 1 (1 lines, 25 notes)
+f4 g2 f2 g2 a2 d6 e4 f2 e2 f2 g2 c6 B4 c2 d4 f2 e2 d2 c2 e4 a2 g2 a2 b2 a6 |
+%W: B2
+% voice 1 (1 lines, 24 notes)
+a2 b2 c'2 b4 g2 e6 d2 e2 f2 e4 c2 A6 B4 c2 d4 f2 a2 g2 f2 a4 c'2 b4 a2 g6 |
+%W:                                                                                 Last time
+% voice 1 (1 lines, 31 notes)
+f4 g2 f2 g2 a2 d6 e4 f2 e2 f2 g2 c6 B4 c2 d4 f2 e2 d2 c2 e4 a2 g2 a2 b2 a6 |||e4 a2 ^g2 a2 b2 a6 |

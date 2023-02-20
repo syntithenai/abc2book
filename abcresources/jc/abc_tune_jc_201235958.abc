@@ -1,0 +1,26 @@
+X: 214
+T: THE DUTCHESS OF ATHOLE'S SLIPPER
+C: NIEL GOW
+R: Strathspey
+B: Glen Collection p.21 #4
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: F
+%
+V: 1
+|: CFAF c<FA<F | CFAF D<GTG2 | CFAF cFA<f | {d}Tc>BAG F<FTF2 :|
+c<fTf2 cfaf | Tgfaf dgTg2 | c<fTf2 cfaf | gfaf cfTf2 ||
+c<fTf2 cfaf | Tgfaf dgTg2 | f<ad<f c<fA<f | {d}Tc>B AG F<FTF2 |]
+%
+V: 2
+|:\
+[f2F2][a2f2c2] [a2f2c2][a2f2c2] | [f2F2][a2f2c2] [B2B,2][g2d2B2] |\
+[f2F2][f2c2] [a2f2c2][f2c2] | [c2C2][b2e2c2] [f2F2][a2f2c2] :|
+[f2F2][f'2c'2a2] [f'2c'2a2][f'2c'2a2] | [f2F2][f'2c'2a2] [b2B2][d'2b2] |\
+[f2F2][f'2c'2a2] [f'2c'2a2][f'2c'2a2] | [f2F2][f'2c'2a2] [f'2c'2a2][f'2c'2a2] ||
+[f2F2][f'2c'2a2] [f'2c'2a2][f'2c'2a2] | [f2F2][f'2c'2a2] [b2B2][d'2b2] |\
+[d'2d2][f'2d'2a2] [a2A2][f'2c'2a2] | [c2C2][b2e2c2] [a2f2][f2F2] |]

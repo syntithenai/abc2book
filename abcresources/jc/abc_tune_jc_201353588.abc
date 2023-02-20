@@ -1,0 +1,26 @@
+X: 1
+T: Wooden Shooes
+P: Longways for as many as will
+%R: reel
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.339 "G G 2"
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+g2 |\
+e2c2 dc BA | G6 g2 | e2c2 c2d2 | e2c2 c2de |\
+f2fg agfe | d2g2 g2a2 | ^f2d2 g2^f2 | g2G2 G2 |]
+[| g2 |\
+g2fe de fg | a2f2 f2g2 | c2c2 A2d2 | B2G2 G2e2 |\
+ABc2 Bcd2 | def2 efg2 | agfe de fg | e2c2 c2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The first man sets to the second woman and turns her, the first woman and 2. man do the same .|
+%% the first man change places with the second woman, the first woman and second man do the same :|
+%% All four hands half round, then back to back with your Partners, then right-hands and left till the first
+%% couple comes to the second couple's place.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

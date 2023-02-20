@@ -1,0 +1,21 @@
+%%abc-charset utf8
+X: 1
+T: Sakura (Cherry Blossom)
+T: 櫻花 (桜花)
+T: さくら
+T: サクラ
+M: C
+L: 1/4
+K: Am
+[| A A B2 | A A B2 | A B c B | A (B/A/) F2 |
+w: さ く ら  さ く ら  や よ い の そ ら* は
+w: sa-ku-ra sa-ku-ra ya-yo-i no so-ra* wa
+| E C E F | E (E/C/) B,2 | A B c B | A (B/A/) F2 |
+w: み わ た す か ぎ* り か す み か く も* か
+w: mi-wa-ta-su- ka-gi-*ri ka-su-mi ka ku-*mo ka
+| E C E F | E (E/C/) B,2 | A A B2 | A A B2 |
+w: に お い ぞ い ず* る い ざ や い ざ や
+w: ni-o-i zo i-zu-*ru i-za-ya i-za-ya
+| E F (B/A/)F | E2 z2 |]
+w: み に ゆ* か ん
+w: mi ni yu-*ka-n

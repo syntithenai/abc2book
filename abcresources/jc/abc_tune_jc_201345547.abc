@@ -1,0 +1,19 @@
+X: 1
+T:Ton double gavotte
+C:Padrig Sicard
+D:Portland
+Q:C3=156
+P:G2H2I4
+M:12/8
+K:Em
+P:G
+E3 E3 E2 e | E3 E3 E3 z3 ||\
+P:H
+        "Em"E3-E2 E "D"D3-D2 D | "G"G3-G2 G "A"A3-A2 "Bm"B ||
+P:I
+|: "Em"E3 "D"F2 G A3/2B3/2 "G"G3/2B3/2 |\
+         "D"A3/2F3/2 "Bm"A3/2G3/2 "C"E3 "Em"E3 :|
+|: "Em"B2 c B3/2"D"A3/2 G3/2A3/2 "G"B3 |\
+        B2 A/2G/2 "D"F3/2G3/2 "Am"A3/2B3/2 "C"G3/2B3/2 |\
+        "Em"E3 "D"F2 G A3/2B3/2 "G"G3/2B3/2 |\
+        "D"A3/2F3/2 "Bm"A3/2G3/2 "C"E3 "Em"E3 :|

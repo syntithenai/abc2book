@@ -1,0 +1,30 @@
+X: 451
+T: I have a wife of my Ain
+R: slip-jig
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.54 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Edor
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+(EFE) G2A B3 | (EFE) G2A BGE |\
+(EFE) G2A (Bcd) | (DED) F2d (AFD) :|\
+|:\
+(gag) (fgf) e3 | (EFE) G2A (BG)E |
+(gag) (fgf) (efe) | (DED) F2d (AFD) |\
+(gag) (fgf) e3 | (EFE) G2A (BGE) |\
+(gag) (fgf) (efe) | (ABc) (dcB) (AFD) :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+e3 e3 e3 | e3 e3 d3 |\
+e3 e3 e3 | d3 d3 d3 :|\
+|:\
+e3 e3 e3 | e3 e3 e3 |\
+e3 e3 e3 | d3 d3 d3 |
+e3 e3 e3 | e3 e3 e3 |\
+e3 e3 e3 | d3 d3 d3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

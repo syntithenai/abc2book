@@ -1,0 +1,17 @@
+X:365
+T:Jenny, come tie my cravat
+%%MIDI gchord G2ghih
+C:Henry Playford
+S:Dancing Master 7th Edition, 1688.
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+L:1/4
+M:3/4
+%%MIDI beat 100 95 80
+Q:1/4=120
+K:D
+P:A
+|: A | "D"FDF/G/ | "Bm"A3/G/F | "Em"ECE/F/ | "A7"G3/F/E |\
+"D"FDF/G/ | "F#m"A3/B/A | "A7"f/g/af | "D"d2 :|
+P:B
+|: d | "D"f/g/af | "G"g3/f/e | "A7"cAe/f/ | "D"f2e |\
+"F#m"f/g/af | "Em"g3/f/e | "A7"cAc | "D"d2 :|

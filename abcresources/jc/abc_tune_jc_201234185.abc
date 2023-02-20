@@ -1,0 +1,25 @@
+X: 20322
+T: Clout the Cauldron
+%R: march, reel
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.32 #2 (plus top 6 staves of p.33)
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The (d2d2) in bar 1 has a squiggle above rather than a tie/slur.
+M: 2/4
+L: 1/16
+K: D
+%%slurgraces 1
+%%graceslurs 1
+|:\
+(Bcd2) (d2d2) | d3ed2f2 | e2d2c2B2 | c4 {B}A4 ::\
+(F2E2)(E2F2) | B2A2F2D2 | (F2E2)(E2F2) | {F}B4 A4 ::\
+fga2 d2f2 | a2d2f2d2 | (ABcd) (edcB) |
+Tc4 {B}A4 ::\
+(Tf2e2) (e2fa) | b2a2 (f2ed) | Tf2e2 (e2fg) | {a}b4 a4 ::\
+(Bc)d2 D2d2 | A2(ag) f2d2 | B2(ba) (gf)(ed) | Tc4 {B}A4 ::\
+F3EE3F |
+D2(dB) (AF)(ED) | e2E2 E2(FA) | {A}B4 A4 ::\
+(df)(af) d2A2 | (df)(af) d3B | (cd)(ec) (ae)(fd) | c4 {B}A4 ::\
+f2(df) e2(ag) | f2(ba) (gf)(ed) |
+B2e2 e2(fa) | {a}b4 a4 ::\
+d2f2D2f2 | A2a2D2f2 | E2(ge) .b(gfe) | {d}Tc4 {B}A4 ::\
+d2FD E2F2 | B2(Fd) (AF)(ED) | d2(FD) (EF)(dc) | TB4 A4 :|

@@ -1,0 +1,30 @@
+
+X: 1
+T: Povrateno [G]
+O: Greece
+S: Seymour Shlien
+M: 4/4
+L: 1/8
+%Q: 1/4=84
+P: I+(ABT)3+AB last AB faster
+K: G_A=B
+"I"|: "Fm"F"G"G/G/ GG DD Gz | "Fm"F"G"G/G/ GG DD Gz :|
+"A"|::: "Fm"F"G"G/G/ Gd d/c/d/c/ BA | "G"GA/G/ FG "Fm"AG "G"Gz :::|
+"B"|::: "G"BA/B/ AG GA Bc | "G"BA/B/  AG "Fm"FG "G"Gz :::|
+"T"|::: "Fm"F"G"G/G/ GG DD Gz | "Fm"F"G"G/G/ GG DD Gz :::|
+W: The "T" sections are taksims, with everyone else playing backup chords.
+
+%%sep 2 1 500
+
+X: 2
+T: Povrateno [A]
+O: Greece
+S: Seymour Shlien
+M: 4/4
+L: 1/8
+%Q: 1/4=84
+K: A_B^c
+"I"|: "Gm"G"A"A/A/ AA EE Az | "Gm"G"A"A/A/ AA EE Az :|
+"A"|::: "Gm"G"A"A/A/ Ae e/d/e/d/ cB | "A"AB/A/ GA "Gm"BA "A"Az :::|
+"B"|::: "A"cB/c/ BA AB cd | "A"cB/c/ BA "Gm"GA "A"Az :::|
+"T"|::: "Gm"G"A"A/A/ AA EE Az | "Gm"G"A"A/A/ AA EE Az :::|

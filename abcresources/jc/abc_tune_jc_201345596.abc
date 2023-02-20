@@ -1,0 +1,65 @@
+
+X: 207
+T: The Tongadale Reel
+C:Farquhar McDonald (1995)
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:Reel
+K:Am
+AB |\
+"Am"cBcB AEAB | "F"cBcB AFAc |\
+[1,3 "G"BGDG EDEG | DEGB- "Em"B2AB :|\
+[2,4 "G"BGDG EDEG | "Em"EDCB, "Am"A,2 :|
+|: A,B, |\
+"Am"CA,EA, FA,EA, | GA,EA, FA,DC |\
+[1,3 "G"B,G,DG, EG,DG, | F2ED DC :|\
+[2,4 "G"B,G,DG, EG,CB, | "Em"CA,A,G, "Am"A,2- :|
+
+%%sep 1 1 500
+
+X: 207
+T: The Tongadale Reel
+C:Farquhar McDonald (1995)
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:Reel
+K:Am
+AB |\
+cBcB AEAB | cBcB AFAc | BGDG EDEG | DEGB- B2AB || cBcB AEAB | cBcB AFAc |
+BGDG EDEG | EDCB, A,2 :: A,B, | CA,EA, FA,EA, | GA,EA, FA,DC | B,G,DG, EG,DG, |
+F2ED DCA,B, || CA,EA, FA,EA, | GA,EA, FA,DC | B,G,DG, EG,CB, | CA,A,G, A2- :|
+
+%%sep 1 1 500
+
+X: 207
+T: The Tongadale Reel
+C:Farquhar McDonald (1995)
+M:4/4
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+R:Reel
+K:Am
+AB |:\
+cBcB AEAB | cBcB AFAc | BGDG EDEG | DEGB- B2AB |
+cBcB AEAB | cBcB AFAc | BGDG EDEG |1 EDCB, A,2 AB :|2 EDCB, A,2 A,B, ||
+|:\
+CA,EA, FA,EA, | GA,EA, FA,DC | B,G,DG, EG,DG, | F2ED DCA,B, |
+CA,EA, FA,EA, | GA,EA, FA,DC | B,G,DG, EG,CB, |1 CA,A,G, A,3B, :|2 CA,A,G, A,2 AB |]
+
+%%sep 1 1 500
+
+X: 207
+T: The Tongadale Reel
+C:Farquhar McDonald
+F:http://blackrosetheband.googlepages.com/ABCTUNES.ABC May 2009
+L:1/8
+M:4/4
+R:Reel
+K:Am
+AB |\
+"Am"cBcB AEAB | "F"cBcB AFAc |\
+[1,3 "G"BGDG EDDd | dBcB "Am"A2 :|\
+[2,4 "G"BGDG "Em"EDEG | EDCB, "Am"A,2 :|
+|: A,B, |\
+"Am"CA,EA, FA,EA, | GA,EA, "D"FEDC |\
+[1,3 "G"B,G,DG, EG,DG, | FG,EG, "Em"DC :|\
+[2,4 "G"B,G,DG, EDCB, | "Am"CA,A,G, "Am"A,2 :|

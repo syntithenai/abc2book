@@ -1,0 +1,28 @@
+X: 10562
+T: the BRAES OF BALLENDINE
+Q: "Slow and plaintively."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.56 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: F
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+F3G |\
+A4 c4 c3d | (d4 c4) (d3e/f/) |\
+(d2c2) (B2A2) (G2F2) | {A}G8 (F3G) |\
+A4 c4 (c3d/e/) | {e}f6 e2 d4 |\
+c3d ({d}c2BA) (G3F/G/) | F8 :|\
+|: A3B |\
+c6 d2 f2c2 | d4 f4 (g3a/b/) |\
+a6 g2 (bagf) | d8 (c3d/e/) |
+f4 F4 (F3G/A/) | G4 A4 c3f |\
+(e2d2) (c2B2) (A3B) | {A}G8 F3G |\
+A4 c4 (c3d/e/) | {e}f6 e2 d4 |\
+(c3d) (cA3) (G2F2) | D8 F3G |\
+A4 c4 C4 | (D3F) (F4 Hd3e/f/) |\
+(c3d) (cA3) G3F/G/ | F8 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

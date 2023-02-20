@@ -1,0 +1,17 @@
+X: 20162
+T: MY LODGING IS ON THE COLD GROUND
+Q: "Slow with Exp."
+%R: jig
+B: "Edinburgh Repository of Music" v.2 p.16 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added flag to 2nd strain's pickup note, to fix the rhythm.
+M: 6/8
+L: 1/16
+K: C
+(e>d) |\
+{B}c3dc2 ce3g2 | a6 z4bc' | g3ec2 c3de2 | {e}d6 z4(ed) |\
+c3dc2 c3eg2 | a6 z4bc' | gc'3e2 {e}d3cd2 | {d}c6 z4 :|
+|: g2 |\
+g3ab2 {d'}c'3bc'2 | {b}a6 z4bc' | g3ec2 c3de2 | {fede2}d6 z4ed |\
+{B}c3dc2 ce3g2 | Ha6 {gab}z4({c'4}ba) | g3c'e2 {e}d3cd2 | {d}c6 z4 :|

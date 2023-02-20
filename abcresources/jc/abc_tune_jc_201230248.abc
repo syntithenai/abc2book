@@ -1,0 +1,28 @@
+X: 135011
+T: the IRISHMAN'S RETURN FROM AMERICA
+Q: "Irish Reel."
+Q: "Slow."
+R: Reel.
+%R: reel
+B: James Kerr "Merry Melodies" v.1 p.35 s.0 #11
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+%%slurgraces yes
+%%graceslurs yes
+K: Am
+ue>ud |\
+vc>vduB>uc A2e>d | c>dB>c A2c>d |\
+e>fe>d c>de>f | g>ed>c d2e>d |\
+c>dB>c A>cB>A | G>ED>E G2e>d |\
+c2B>A ^G>AB>G | A6 :|
+{f}e>^d |\
+e2 a4 g>a | b2 A4 e>^f |\
+{a}g>^fg>a g2f>e | d>cB>A G2{f}e>^d |\
+e2 a4 g>a | b2 A4 e>d |\
+c2B>A ^G>AB>G | A6 |]
+{f}e>^d |\
+e2 a4 g>a | b2 A4 e>^f |\
+g>^fg>a g2f>e | d>cB>A G2e>d |\
+c>dB>c A>cB>A | G>ED>E G2e>d |\
+c2B>A ^G>AB>G | A6 |]

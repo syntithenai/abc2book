@@ -1,0 +1,38 @@
+X:1
+T: The Two Pauls
+N:
+C:Jonathan Jensen
+S:
+A:
+O:
+R:
+M:3/2
+K:Am
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 33 notes)
+K:Am
+M:3/2
+L:1/16
+A2 B2 c2 |d2 e4 |a4 f4 |g2 f2 e4 |f2 e2 d4 |e2 d2 c2 |B2 A2 c2 |B4 E4 |E4 B4 |d2 c2 B2 |A2 B4 |E4 E4 |B4 ^G4 |E4
+%W:
+% voice 1 (1 lines, 32 notes)
+A2 |B2 c2 d2 |e4 a4 |f4 g2 |f2 e4 |f2 e2 d4 |e2 d2 c2 |B2 A2 c2 |B4 E4 |E4 B4 |d2 c2 B2 |A2 E4 |A4 A6 |^G2 A8 |
+%W: A2
+% voice 1 (1 lines, 33 notes)
+A2 B2 c2 |d2 e4 |a4 f4 |g2 f2 e4 |f2 e2 d4 |e2 d2 c2 |B2 A2 c2 |B4 E4 |E4 B4 |d2 c2 B2 |A2 B4 |E4 E4 |B4 ^G4 |E4
+%W:
+% voice 1 (1 lines, 32 notes)
+A2 |B2 c2 d2 |e4 a4 |f4 g2 |f2 e4 |f2 e2 d4 |e2 d2 c2 |B2 A2 c2 |B4 E4 |E4 B4 |d2 c2 B2 |A2 E4 |A4 A6 |^G2 A8 |
+%W: B1
+% voice 1 (1 lines, 32 notes)
+G2 A2 B2 |c2 d4 |G4 f4 |e2 d2 e4 |d2 c2 B2 |c2 d4 |c8 |A2 B2 ^c2 |d2 e4 |A4 g4 |f2 e2 f4 |e2 d2 ^c2 |d2 e4 |d8 |
+%W:
+% voice 1 (1 lines, 34 notes)
+e2 ^f2 ^g2 |a2 b4 |e4 d'4 |c'2 b2 c'4 |b2 a2 ^g2 |a2 b4 |a4 =g2 |f2 e2 f2 |g4 f2 |e2 d2 c2 |d2 c2 B2 |A2 E4 |A4 A6 |^G2 A8 |
+%W: B2
+% voice 1 (1 lines, 32 notes)
+G2 A2 B2 |c2 d4 |G4 f4 |e2 d2 e4 |d2 c2 B2 |c2 d4 |c8 |A2 B2 ^c2 |d2 e4 |A4 g4 |f2 e2 f4 |e2 d2 ^c2 |d2 e4 |d8 |
+%W:
+% voice 1 (1 lines, 34 notes)
+e2 ^f2 ^g2 |a2 b4 |e4 d'4 |c'2 b2 c'4 |b2 a2 ^g2 |a2 b4 |a4 =g2 |f2 e2 f2 |g4 f2 |e2 d2 c2 |d2 c2 B2 |A2 E4 |A4 A6 |^G2 A8 ||

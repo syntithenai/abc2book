@@ -1,0 +1,19 @@
+X: 10723
+T: 3. STRATHSPEY
+R: strathspey
+N: Six Strathspeys and Reels Arranged by W.B. Laybourn
+B: K\"ohler's Violin Repository, v.1, 1885 p.72 #3
+F: http://www.archive.org/details/klersviolinrepos01edin
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+((3A/B/c/) !segno!|\
+(.d>.B)(A>F) D/D/D A>(F | E)>(EB)>(E G)>(EB)>(E |\
+d)vB(A>F) D/D/D A>(F | E)>vg (f>e) f<d d :|
+uA |\
+d/d/d (.f>.d) (.a>.d) (.f>.d) | e/e/e (.g>.e) (.b>.e) (.g>.e) |\
+(.f>.d) d/d/d (.A>.d)(.f>.a) | (.g>.b)(a>g) f<d d> |]
+A |\
+d/d/d (.d>.e) (.f>.g)(.a>.f) | (.g>.e)(b>e) (.g>.e)(b>e) |\
+(3fga (3efg (3fed (3cde | (3dcB (3AGF "_Segue Reel."(3EFG (3ABc !segno!"_D.C."|]

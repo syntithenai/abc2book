@@ -1,0 +1,20 @@
+X: 11391
+T: OPEN THE DOOR TO ME, OH.
+Q: "Very slow and pathetic."
+%R: air, waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.139 #1
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/16
+K: Eb
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+(GF) |\
+E4 GB B4 (G>B) | c3d ({f}ed) ({d}c2B2) (GF) |\
+E4 GB (B3c) d2 | {eg}e4 B2 {A}G4 :|\
+(Bc/d/) |\
+e4 de {eg}f4 ed | c3B G>B B4 (ed/c/) |\
+BG3 F>E eE3 {BA}G2 | F3EF2 E4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

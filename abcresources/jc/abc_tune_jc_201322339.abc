@@ -1,0 +1,18 @@
+X: 384
+T: the Parson Boasts of Mild Ale
+R: slip-jig, air
+%S: s:4 b:16(4+4+4+4)
+B: O'Neill's 1850 #384
+O: J.O'Neill
+N: The last note of the second section is 1/4 (should be dotted.)
+N: The accidental on the last note of the first section should
+N: be on the previous note. [Fixed. JC]
+Z: Chris Falt, cfalt@trytel.com
+Q: "Gaily."
+M: 9/8
+L: 1/8
+K: Gm
+[| G2D B,A,B, G,2D | G2G GAB cA^F | GAB AG^F G2(D/E/)  | =FGF FCB, A,B,C ||
+|  G2D B,A,B, G,2D | G2G GAB cAF  | BAG AG^F G2(G/A/)   | BAG DG^F G2    |]
+|| c | B2B B2d fdB | A2F FcB ABc  | BAG G2D  G2G        | dBG GAG  Bcd   ||
+|      B2B BBd f2B | A2F FcB ABc  | BAG G2D/D/ G2(G/A/) | BAG DG^F G3    |]

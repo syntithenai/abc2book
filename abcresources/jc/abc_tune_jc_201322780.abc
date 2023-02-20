@@ -1,0 +1,28 @@
+X: 1
+T: Peace and Plenty
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 #19 (33)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has an initial repeat but no final repeat.
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d4 (defd) | (e2A2) A4 | B4 (BcdB) | (F2D2) D4 |\
+(F2D2)(A2D2) | (F2D2)(d2D2) | (F2D2) (GAB2) | (F2D2) D4 :|
+|:\
+d4 f2(ed) | (fg)a2 a4 | d4 f2(ed) | (e2A2) A4 |\
+(DEFD) A2A2 | (DEFD) f2f2 | (DEFD) d2d2 | (DEFD) (a2a2) |
+ega2- a2gf | efg2- g2fe | (fgaf) (efge) | f2d2 d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st and 2d Cu. clap 4 times and foot it twice and
+%% cast off one Cu. |: the same down another Cu. :| whole
+%% figure at the Top and foot it :||: The 1st Man casts 
+%% behind the 3d Man and his Partner behind the 2d. Wo.
+%% and foot it and then the 1st Man casts behind the 3d
+%% Wo. and his Partner behind the 2d Man and turn :||:
+%%endtext
+%%sep 1 8 500

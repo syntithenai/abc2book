@@ -1,0 +1,20 @@
+X: 10331
+T: Air - Allegretto
+C: Coningsworth
+Q: "Allegretto"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.33
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+%%graceslurs 0
+!segno!G2 |\
+c3de2c2 | f2a2g4 | f2d2e2c2 | B2d2d2G2 |\
+c3de2c2 | f2a2g4 | f2d2g3f | e2c2c2"_Fine"z2 |]
+[| e6g2 | d6g2 | {d}c6c2 | B2G2G4 |\
+e4{a/}g2^fg | d4{a/}g2^fg | e2d2c2B2 | B4A2z2 |
+{d/}c2Bc A2A2 | {c/}B2AB G2G2 | {d/}c2Bc A2A2 | {c/}B2AB G2G2 |\
+E2^FG ABcd | e^fge d2d2 | d2c2B2A2 | HG6 !segno!|]
+%
+%%center -

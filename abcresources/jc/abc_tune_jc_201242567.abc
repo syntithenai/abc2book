@@ -1,0 +1,52 @@
+X: 611
+T: Willie Winks -- Strathspey
+R: strathspey
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.60 #1
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+f2 |\
+c3F (dcBA) c3FF2f2 | c3F (ABc)A TG3FD2f2 |\
+c3F (dcBA) c2F2A2F2 | GGG2 A3F TG3FD2 :|
+|: e2 |\
+f3c (dcBA) f3cc2e2 | f2c2f2a2 g2d2d2e2 |\
+f2c2c2e2 f3g (f/g/a)g2 | f2d2Tc3A G2D2-D2 :|
+|: f2 |\
+FF3 A3F c3FA3F | FFF2 A2F2 TG3FD2f2 |\
+FFF2 A2F2 c3FA3(c | B3)GA3F TG3FD2 :|
+|: ag |\
+f3cf3g a3fg3e | f3cf3g a3fg2a2 |\
+f3cf2g2 a2f2g2e2 | f2d2Tc3A TG3FD2 :|
+|: e2 |\
+f4 g4 FFF2 A4 | GGG2 A2F2 TG3FD2e2 |\
+f3ga2g2 f3c (f/g/a)g2 | f2d2c3A TG3FD2 :|
+|: e2 |\
+(fga2) g2a2 f2F2-F2A2 | B3GA3F TG3FD2e2 |\
+f3ga2f2 g2e2f2c2 | (def2) c2A2 TG3FD2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z2 |\
+f4f4 f4f4 | f4f4 d4d4 |\
+f4f4 f4f4 | f4f4 d4d2 :|\
+|: z2 |\
+f4f4 f4f4 |
+f4f4 g4g4 |\
+f4f4 f4f4 | f4f4 d4d2 :|\
+|: z2 |\
+f4f4 f4f4 | f4f4 d4d4 |\
+f4f4 f4f4 |
+g4f4 d4d2 :|\
+|: z2 |\
+f4f4 f4f4 | f4f4 f4f4 |\
+f4f4 f4f4 | f4f4 d4d2 :|\
+|: z2 |\
+f4f4 f4f4 | f4f4 d4d4 |
+f4f4 f4f4 | f4f4 d4d2 :|
+|: z2 |\
+f4f4 f4f4 | g4f4 d4d4 |
+f4f4 f4f4 | f4f4 d4d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,30 @@
+X: 1
+T: Tom jolly
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (75)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+N: What's a "jing boy"?
+M: C|
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+d2dd d2f2 | d4 A4 | f2ed e2e2 | f2ed e3e |\
+f^gab ^g3a | a4 a4 :|
+|:\
+g2gg g2b2 | g4 e4 | f3e defg | e4 A4 |\
+d2cd e2de | f2ef g2fg | a3b agfg | e4 d4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% First Cu. clap their own Hands first, then shake right
+%% Hands with one another, the Man leading the Wo. round
+%% him into his own Place, then both cast off .| The 2d Cu.
+%% do the same :| Now all being improper right and left 
+%% beginning sideways till they come proper then 1st Cu.
+%% cast off and turn single .| All four jing boys turn
+%% single lead thro the Top cast and turn Partners :|
+%%endtext
+%%sep 1 8 500

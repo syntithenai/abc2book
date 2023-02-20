@@ -1,0 +1,31 @@
+X: 06
+T: General Abercromby's reel or the Light Bob
+C: (Hon. C.G.)
+R: reel, hornpipe
+M: C
+L: 1/8
+Z: 2010 John Chambers <jc:trillian.mit.edu> (tune)
+Z: 2015 John Chambers <jc:trillian.mit.edu> (dance)
+B: Cantelo ed. "Twenty Four American Country Dances", London 1785 (Longman & Broderip)
+S: http://archive.org/details/imslp-american-country-dances-1785-various
+S: http://imslp.org/wiki/24_American_Country_Dances_(Cantelo,_Hezekiah)
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+B | G>Bd>B .g.d.B.G | .B.G.d.B TA>GAB | G>Bd>B .g.d.B.G | (d>e) BA G/G/G G :|
+|: [dD4]>Bd>B [cD4]>Ac>A | B>GFG (A/G/F/E/)D2 | [dD4]>Bd>B g>age | .d.c.B.A. GG/G/ G2 :|
+|: B,>D D>B, C>E E>C | B,>D D>B, TA,>G,A,B, | (B,>D) (D>G) G>B d>e | (d<B) (A>B) GG/G/ G2 :|
+|: g>aba (g>d)(g>d) | .e.d.c.B. TA>GAB | g>aba (g>b) (e>g) | d>B A>B GG/G/ G2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z | g2g2 g2g2 | g2G2 d2d2 | g2g2 g2g2 | a2d2 gdG :|
+|: g2b2 a2f2 | g2G2 d2d2 | b2b2 c'2c'2 | d'2d2 gdG2 :|
+|: B2B2 c2c2 | B2G2 d2D2 | G2g2 G2g2 | d2D2 GGG2 :|
+|: g2g2 g2B2 | c2c2 d2D2 | g2g2 g2c2 | d2D2 GGG2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Cast down 2 Cu: and Foot it .|. up again and D.o :|: gallop
+%% down the middle two Cu: and foot it .|. up again and cast off :|:
+%% set Corners and turn .|. D.o :|: lead outsides .|. and turn to
+%% place :|: or Hey on opposite sides and turn proper.
+%%endtext

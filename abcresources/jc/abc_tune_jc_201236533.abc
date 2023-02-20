@@ -1,0 +1,27 @@
+X: 2231
+T: the Cossy Jigg
+%R: jig
+B: Niel Gow & Sons "A Second Collection of Strathspey Reels, etc." v.2 p.23 #1 (top 2 staffs continued from p.22)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Bar 7 has the beaming messed up; copied from the identical ending bar 15.
+M: 6/8
+L: 1/8
+Q: "Slow"
+K: G
+% - - - - - - - - - -
+V: 1 staves=2
+(G//A//B/) |\
+c3 B3 | ~A>GA BGE | D>EG (G/A/BG) | {B}AGA BGE ||\
+cec BdB | {B}AGA BGE | D>EG {B}AGA | BGG G2 :|
+|: (d//e//f/) |\
+~g3 {f}edc | Bdg dBG | Tg2e {e}dBG | ecA TA2d ||\
+ge/f/g fd/e/=f | ecg dBG | D>EG {B}AGA | BGG G2 :|
+|: D |\
+(GB).d (GB).d | Gce Gce | GBd GBd | ecA TA2B ||\
+GBd GBd | Gce He>fHg | DEG {B}AGA | BGG G2 :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | a2f g2G | d2d g2G | B3 G2g | d'2dg2c || Aaf g2G | d3 g2c | B2G d2D |
+G2g G2 :||: z | G2g G3 | g3 G3 | B2c B2G | c2^c d3 || e3 d3 | c3 g3 | b2g d'2d |
+g2G G2 :||: z | g3 g3 | c'3 c'3 | g3 g3 | c'2^c' d'3 || g3 g3 | c'3 Hc2Hz | B2G d2D | G2g G2 :|

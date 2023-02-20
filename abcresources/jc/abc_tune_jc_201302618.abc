@@ -1,0 +1,19 @@
+X: 136
+T: the Little Bench of Rushes   #2
+T: Bunch of Green Rushes
+T: O! Pleasant was the Moon
+T: Live is all checkered with plasures and woes
+T: the Bark is on the Swelling
+R: air
+%S: s:2 b:9(5+4)
+B: O'Neill's 1850 #136
+Z: 1997 henrik.norbeck@mailbox.swipnet.se
+N: Compacted via repeats and multiple endings [JC]
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+Q: "Gracefully"
+M: C
+L: 1/8
+K: F
+"^A"|: (A/=B/^c/d/4e/4) | ~f3g (agfe) | "^>"d4 (edcA) | "^>"c4 (dcAG) |1 A2A2 HA2 :|2 TE3D "^fine"D2 |]
+"^B"[| (DE) | (~F3G) (.G2.G2) | (AGFE) F2(FA) | ~c3f (d>cAG) | A2A2 "^->A2"HA2 |]

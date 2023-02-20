@@ -1,0 +1,20 @@
+X: 1795
+T: Rub the Bag
+T: cumuil an \'mala
+R: jig, "long dance"
+%S: s:6 b:23(4+4+3+4+4+4)
+S: 1795 O'Neill's Music of Ireland
+N: The last second ending of the first part changed from d to d2 to fix the rhythm.
+B: O'Neill's 1850 #1795
+Z: Robert Thorpe (thorpe@skep.com)
+Z: ABCMUS 1.0
+M: 6/8
+L: 1/8
+K: D
+|:\
+d2d fed | cBA cec | BcB fdB | dcB fdB |
+d2d fed | cBA cec | ABA ecA |[1 (A/B/c)A ecA :|
+|[2 (A/B/c)B d2z |: ded def | efe efg |
+fgf f2^g | aba a2g | fgf fga | gfe efe |
+~d3 fed  | cBA cec | BcB fdB | (B/c/d)B fdB |
+~dcd fed | cBA cec | ABA ecA | (A/B/c)A d3 :|

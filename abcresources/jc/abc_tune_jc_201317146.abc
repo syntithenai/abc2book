@@ -1,0 +1,69 @@
+X: 1
+T: Nifty's Eigene   [Dm]
+C:
+S: PDF for WC Klezmer Jam 2013-11-24
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Parts D and C2 were actually up an octave.
+M: C
+L: 1/8
+P: Play ABCDC
+K: Dm
+"A"|:\
+"Dm"fa ^ga f3 a | "(A)"a/^g/g/f/ f/e/e/d/ "Dm"ga- aa |\
+"Dm"^g>f fa g>f fa | "A"a/^g/g/f/ f/e/e/d/ [1 "Dm"e/f/ d2 d :|[2 "Dm"d3 c- ||
+"B"|:\
+"F"c2 f2 ga gf | "Gm"^f<g g2 g2 a/^g/g/=f/ |\
+"A"ef ^ga "Dm"f3 a | "A"a/^g/g/f/ f/e/e/d/ [1 "Dm"g a3 :|[2 "Dm"d4 ||
+"C"[|\
+"Dm"D2 F2 A2 B/A/A/G/ | "Gm"GA Bd G3 F |\
+"Dm"FG/_A/ GF F/_E/D/F/ "Cm"E/D/C/E/ | "Dm"D2 F2 A2 d2 |
+"Dm"z D2 F A2 B/A/A/G/ | "Gm"GA Bd G3 F |\
+"Dm"FG/_A/ GF F/_E/D/F/ "Cm"E/D/C/E/ | "Dm"D8 |]
+P: Play D and C an octave higher if you like.
+"D"[|\
+"Cm"c2 d_e "Gm"d3 c | "Cm"(3_edc "C7"(3BAG "F"F3 C |\
+"F"(3FCF AFA c2 f2 | "C7"(3_edc (3BAG "F"F4 |
+"Cm"c2 d_e "Gm"d3 c | "Cm"(3_edc "C7"(3BAG "F"F2 A/^G/G/F/ |\
+"A"EF ^GA "Gm"=G3 A- | "A"A/^G/G/F/ F/E/E/D/ "Dm"D3 A, |]
+P: Play C again.
+%"C2"[|\
+%D2 F2 A2 B/A/A/G/ | GA Bd G3 F |\
+%FG/_A/ GF F/_E/D/F/ E/D/C/E/ | D2 F2 A2 d2 |
+%z D2 F A2 B/A/A/G/ | GA Bd G3 F |\
+%FG/_A/ GF F/_E/D/F/ E/D/C/E/ | D8 |]
+
+%%sep 1 1 500
+%%sep 1 1 500
+X: 2
+T: Nifty's Eigene   [Em]
+C:
+S: PDF for WC Klezmer Jam 2013-11-24
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Parts D and C2 were actually up an octave.
+M: C
+L: 1/8
+P: Play ABCDC
+K: Em
+"A"|:\
+gb ^ab g3 b | b/^a/a/g/ g/f/f/e/ ab- bb |\
+^a>g gb a>g gb | b/^a/a/g/ g/f/f/e/ [1 f/g/ e2 e :|[2 e3 d- ||
+"B"|:\
+d2 g2 ab ag | ^g<a a2 a2 b/^a/a/=g/ |\
+fg ^ab g3 b |[1 b/^a/a/g/ g/f/f/e/ a b3 :|[2 b/^a/a/g/ g/f/f/e/ e4 ||
+"C1"[|\
+E2 G2 B2 c/B/B/A/ | AB ce A3 G |\
+GA/_B/ AG G/=F/E/G/ F/E/D/F/ | E2 G2 B2 e2 |
+z E2 G B2 c/B/B/A/ | AB ce A3 G |\
+GA/_B/ AG G/=F/E/G/ F/E/D/F/ | E8 |]
+P: Play D and C2 an octave higher if you like.
+"D"[|\
+d2 e=f e3 d | (3=fed (3cBA G3 D |\
+(3GDG BGB d2 g2 | (3=fed (3cBA G4 |
+d2 e=f e3 d | (3=fed (3cBA G2 B/^A/A/G/ |\
+FG ^AB =A3 B- | B/^A/A/G/ G/F/F/E/ E3 B, |]
+P: Play C again.
+%"C2"[|\
+%E2 G2 B2 c/B/B/A/ | AB ce A3 G |\
+%GA/_B/ AG G/=F/E/G/ F/E/D/F/ | E2 G2 B2 e2 |
+%z E2 G B2 c/B/B/A/ | AB ce A3 G |\
+%GA/_B/ AG G/=F/E/G/ F/E/D/F/ | E8 |]

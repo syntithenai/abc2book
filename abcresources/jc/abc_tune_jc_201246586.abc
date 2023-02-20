@@ -1,0 +1,47 @@
+X:1
+T:The American Legion
+C:Carl D. Vandersloot
+C:arr. by Frank E. Barry
+M:2/
+L:1/4
+P:DbPiccolo
+%Q:1/=120
+%C:
+%%staffwidth 7.5in
+%%borderwidth .5in
+% %leftmargin 0.5in
+%%topmargin 0.5in
+%%composerspace 0
+%%partsspace 0
+%%musicspace 0
+%%staffsep
+%%textfont helvetica 16
+%%scale .7
+K:Fmaj
+!>!!ff!czz!>!_d|!>!czz=d|!<(!!>!e!>!f!>!g!>!a!<)!|!>!bz!>!c'2||
+%Error : Single colon in bar
+!>!c'(c'/=b/c')!>!b|!>!_b(b/a/b)!>!g|!>!a(a/^g/a)._g|.f.e.d._d|
+(!<(!!>!c=B/c/)(!>!e^d/e/!<)!)|
+%Error : stray / not in grace sequence
+(!>!g^f/g/)!>!c'2|(!>!fe/f/)(!>!a^g/a/)|(!>!c'=b/c'/)!>!f'2|!>!c'(c'/=b/c')!>!b|_b(b/a/b)!>!g|!>!a(a/^g/a).=g|.f.e.f.g|
+!>!_az/.a/.aa|!>!=azz2|z2(!>!e2|1 f).f'.e'.d':|2 f)zz2|||:
+%Error : Malformed note : expecting a-g or A-G
+!trill(!c'4-|c'4-|c'4-|!trill)!c'(!<(!f/a/ c'/a/c'/f'/!<)!)|!>!!sfz!e'z/.e'/.e'.=d'|!>!c'z/.=b/.c'._b|
+!>!az/.a/.a.=g|.f.f.e.d|
+%Error : Malformed note : expecting a-g or A-G
+!trill(!c'4-|c'4-|c'4|-!trill)!c'(f/a/ c'/a/c'/f'/)|!>!!sfz!f'z/.e'/.f'.d'|!>!c'z/.=b/.c'.a|c'_d'=d'e'|f'zz2:|
+"TRIO"
+K:Bbmaj
+!segno!z((3f/g/f/).d.f|z.f.f.f|z((3b/c'/b/).f.b|z.b.b.b|z(f/g/ a/b/c'/d'/)|.e'.c'.=b.c'|!<(!(f'>g'a').g'!<)!|
+!>(!.f'.=e'._e'.c'!>)!|z((3f/g/f/).d.f|z.f.f.f|z((3b/c'/b/).f.b|z.b.bb|(Tc'2c')z|(Tc'2c')z|!<(!c'_d'=d'=e'!<)!|!>!!f!f'z z2|
+%Error : Malformed note : expecting a-g or A-G
+z!p!fz._g|
+z!<(!.gz.a|z.bz.c'|z.d'z.e'!<)!|z(f'/=e'/.f')(f'/.e'/|.f')._e'.d'.c'|z(d'/_d'/=d')(d'/c'/|!>(!.d').=c'.b.g!>)!|
+%Error : Malformed note : expecting a-g or A-G
+z!p!fz._g|
+z!<(!.gz.az.bz.=b
+%Error : Bar 63 is 2/1 not 2/
+|.c'.d'.e'.=e'!<)!|!>!f'(f'/=e'/.f')(d'/_d'/|.d')(b/a/.b).g|.f._g.=g.a|bzbz!fine!!fermata!||!>!!ff!dzz!>!e|!>!dzz!>!e|
+!>!d!>!e!>!d!>!e|!>!dz!>!!sfz!d'z|!>!=fzz!>!_g|
+%Error : Malformed note : expecting a-g or A-G
+!>!fzz!>!g|!>!f!>!_g!>!f!>!g|!>!fz!>!!sfz!f'z|!>!f3!>!g|!>!a3!>!b|!>!c'!>!d'!>!e'!>!=e'|!>!f'z!>!!sfz!f'z!segno!|]

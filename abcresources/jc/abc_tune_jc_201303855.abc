@@ -1,0 +1,14 @@
+X: 209
+T: Lord Mayo
+R: air
+%S: s:3 b:12(4+4+4)
+B: O'Neill's 1850 #209
+O: F.O'Neill
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+Q: "Slow"
+M: C
+L: 1/8
+K: GDor
+ GF "^A" | (D>G) (G/A/c) d2(cA) |  d2   (G>A)    (GF)   D2  |  DG (G/A/c) d2  (fd) | (d>c) (A>G) G2 |]
+ d2 "^B1"| (fd)(fg)      a2(gf) | (d>c) (d/=e/f) (F>G) (FD) | (fd)(fg)    a2  (gf) |  d2   (ga)  g2 ||
+(ag)"^B2"| (fd)(fg)      a2(gf) |  d>c  (d/=e/f)  F>G   FD  | (D>G) (cA) (GF) (fd) |  d>c   A>G  G2 |]

@@ -1,0 +1,27 @@
+X: 21060
+T: Kennet's Dream [standard tuning]
+%R: air, waltz, jig
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.106 #1 [scordatura]
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The book has A,EA^c scordatura tuning, and the tune uses two-voice notation.
+N: This transcription is with single-voice chords for ABC version 1 software.
+N: (It's not clear why the book used 2-voice notation, which isn't needed.)
+M: 3/4
+L: 1/8
+K: A
+%%continueall 1
+[c2A2F2B,2] \
+|:"_Slow"\
+[c4c2] B2 | A2 F2 E2 | E2 F2 A2 | T[B4E4] (AB) | [c4c2] B2 | {B}A2 F2 E2 |
+E2 F2 (AB) | A6 :: [c4A4] [e2A2] | [e4A4] f2 | e2 c2 A2 | TB2 A2 B2 | [c4c4] [e2A2] | [e4A4] f2 |
+e2 c2 A2 | [B4E4] (AB) | [c4c4] [e2A2] | [e4A4] f2 | e2 c2 A2 | TB2 A2 B2 | [c4c2] B2 | A2 F2 E2 |
+E2 F2 AB | A4 :: "_Brisk" [M:6/8] c2B AFE | EFA TBAB | c2B AFE |
+EFA A3 :: c2e e2f | ecA TBAB | [c2c2]e e2f | ecA [E3B3] |
+c2e e2f | ecA TBAB | [c2c2]B AFE | EFA A3 ::
+[cA][cA][cA] [cA][cA][cA] | [BG][BG][BG] [BG][BG][BG] | A2A, CEA | BAG A3 ::
+eAe fAf | edc TB2A | eAe fAf | edc [E3B3] |
+e(c/d/e/c/) f(d/e/f/d/) | edc TBAB | [c2c2]A, CEA | dBG [A3A,3]:|
+%%begintext align
+%% The book has A,EA^c scordatura tuning; transcribed here as in the book.
+%% This tune has two voices, transcribed here with ABC 2.0 voice overlays.
+%%endtext

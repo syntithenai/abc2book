@@ -1,0 +1,37 @@
+X: 0842
+T: Prime of Life
+%R: reel
+N: This is version 2, for ABC software that understands voice overlays.
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+B: Skillern & Challoner "A Favorite Collection of Popular Country Dances", London 1809, No. 8 p.4 #2
+F: https://archive.org/search.php?query=Country%20Dances
+F: https://archive.org/details/SkillernChallonerCountryDances8
+%%slurgraces 1
+%%graceslurs 1
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+|:\
+c2(cB) (Ac)(cf) | (fc)(cA) F4 | (GA)(G^F) (GB)(Bd) | (cB)AG A2F2 |\
+c2(cB) (Ac)(cf) | (fc)(cA) F4 | (GA)(G^F) (GB)(Bd) | (cB)AG F4 & (E4 F4) :|
+|:\
+c2f2e2f2 | e2f2g2a2 | {ga}b2a2g2f2 | ecde f2f2 |\
+c2f2e2f2 | e2f2g2a2 | {ga}b2a2g2f2 | ecde f2f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=D
+|:\
+[A2F2]c2[A2F2]c2 | [A2F2]c2[c2F2]_e2 | [B2F2]d2[B2F2]d2 | [G2E2]c2F2c2 |\
+[A2F2]c2[A2F2]c2 | [A2F2]c2[c2F2]_e2 | [B2F2]d2[B2F2]d2 | [G2C2]B2 [A4F4] :|
+|:\
+FcAc BcAc | BcAc GcFc | EcFc GcAc | [G2C2]B2[A2F2][A2F2] |\
+FcAc BcAc | BcAc GcFc | EcFc GcAc | [G2C2]B2[A2F2][A2F2] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Change sides, back again,
+%% down the middle,
+%% up again and Allemand.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 5 500

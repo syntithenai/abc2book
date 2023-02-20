@@ -1,0 +1,27 @@
+X: 1
+T: the Tuneful Nightingale
+%R: reel
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (126)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+f4 c4 | f2ed c2B2 | A2B2 c2dc | B2A2 G2C2 |\
+f4 c4 | fedc dcBA | GA Bc Ad cB | AGFE F4 :|
+|:\
+a4 g4 | a2f2 c2f2 | b4 g4 | bagf e2c2 |\
+af af af af | bg bg bg bg | agfe dfef | f3e f4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% First Man and 2d Wo. go the whole Figure thro the
+%% 1st Wo. and 2d Man .| First Wo. and 2d Man do the
+%% same :| First Man lead his Partner below the 2d Man
+%% and figure thro the 2d Cu. .| Set sides then set to yr
+%% Partners fall back two steps the 1st Cu. cast off .|
+%%endtext
+%%sep 1 8 500

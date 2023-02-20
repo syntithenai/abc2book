@@ -1,0 +1,33 @@
+X: 114
+T: Cradle Song.
+T: (Wiegenlied.)
+C: words: Karl Simrock.
+C: music: Johannes Brahms
+O: GERMAN
+Q: "With gentle motion."
+%R: air, waltz
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2017 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Eb
+%%slurgraces 1
+%%graceslurs 1
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+z | z6 | z2 z2 G G | B3 G G2 | B2 z2 (GB) |
+w: 1.~Lul-la-by and good-night, with*
+w: 2.~Lul-la-by and good-night, thy*
+%
+e2 d3 c | (c2 B2) (FG) | A2 F2 (FG) | A2 z2 (FA) | (dc) B2 d2 |
+w: ro-ses be-dight,*    With* lil-ies o'er-*spread, is* ba-*by's wee
+w: moth-er's de-light,* Bright* an-gels a-*bove,    my* dar-*ling will
+%
+e2 z2 E E | e4 c A | B4 G E | A2 B2 c2 |
+w: bed;  Lay thee down now and rest,     may thy slum-ber be
+w: love; They will guard thee from harm, thou shalt wake in my
+%
+{F}B4 E E | e4 c A | B4 G E | A2{BA} G2 F2 | E4 z |]
+w: blest, Lay thee down now and rest,     may thy slum-ber be blest.
+w: arm,   They will guard thee from harm, thou shalt wake in my arm.
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

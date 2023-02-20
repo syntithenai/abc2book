@@ -1,0 +1,191 @@
+X: 0
+T: NEFFA 2021 Festival Orchestra Online
+T: (tune set in condensed form)
+O: neffa.org
+K: none
+
+X:1
+T:Chorus Jig
+M:C| 
+R:Reel
+L:1/8
+P: Play AAB CCB
+K:D
+"^A"|: AG |\
+"D" F2DF ABAG | FADF "A"A2 d2 | "D"D3 F ABAF | "C" GFEF G2 :| \
+[K:=c][K:G]\
+"^B"[| Bc |\
+"G"dBcA BGFG | "D" Ad^cd A2 B=c |
+                                   "G"dBcA BGFG | "D7" AcBA "G"G2 Bc | 
+"G"dBcA BGFG | "Am"ABcd  "C"efge | "D7" dBcA "Em"BGFG | "D7" AcBA "G"G2 | \
+[K:D]\
+"^C"|: ag |\
+"D"fddd fddd | fdfg "A"abag | "D" fddd fddd | "C" =cdef g2 :|
+%[K:=c][K:G]\
+%"^D"[| Bc |\
+%"G"dBcA BGFG | "D" Ad^cd A2 B=c | "G"dBcA BGFG | "D7" AcBA "G"G2 Bc | 
+%"G"dBcA BGFG | "Am"ABcd  "C"efge | "D7" dBcA "Em"BGFG | "D7" AcBA "G"G2 |] 
+
+X: 2
+T: Opera Reel
+M: C| 
+R: reel
+K: D
+"^A"[|] \
+A, |\
+"D"D2D2 FEFA | DCDF "A"EDB,A, | "D"D2D2 FEFA |1 "G"BdAF "A"EDCE :|2 "G"(3Bcd AF "A" E2(3ABc || 
+"^B"|| \
+"D"d2d2 dAFA | d2d2 "A"egfe | "D"d2d2 dAFA | "G"BdAF [1 "A"E2 (3ABc :|[2 "A"E2 fg || 
+"^C"|| \
+"D"a3 f "A"g3e | "D"fafe "G"dcBA | "D"afaf "G"gfge | "A"faec [1 "D" d2 fg :|[2 "D" d2 (3ABc || 
+"^D"|| \
+"D"defd "A"efge | "D"faec "G"dcBA | "D"defd "G"efge | "A7"faec [1 "D"d2 (3ABc :|[2 "D"d4 |] 
+
+X:3
+T:Come Dance and Sing
+M:C| 
+R:reel
+K:D
+|: A2 |\
+"D"d2cd "A7"e2de | "D"f2d2 de dc | "Em"B2e2 ef ed | "A7"c2A2 A2 (3ABc |\
+"D"d2cd "A7"e2de | "D"f2d2 de dc | "Em"B2e2 "A7"dcBc | "D"d4 d2 :| 
+|: AG |\
+"D"F2A2 AB AG | F2A2 A3G | "D" F2A2 "Bm"d2f2 | "Em" edcB "A7"A2 AG |\
+"D"F2A2 AB AG | F2A2 A2Bc | "G" d2d2 "Em"fefg | "A"a2A2 A2 :| 
+
+X:4
+T:Mason's Apron
+M:C| 
+L:1/8
+C:Trad
+R:Reel
+K:A
+|: ed |\
+"A"c2 A2ABAF | EFAB c2BA | "E" d2 B2BcBA | Bcdef2ed |\
+"A"c2 A2ABAF | EFAB c2BA | "D" Bcde "Bm"fefa | "E7" edcB "A"A2 :| 
+|: ed |\
+"A" cAeA fAeA | cAeA fedc | "Bm" dBfB gBfB | d2f2"E7" gfed |\
+"A" cAeA fAeA | cAeA fedc | "D" Bcde "Bm"fefa | "E7" edcB "A"A2 :| 
+
+X:5
+T:Broken Lantern
+R:jig
+M:6/8
+L:1/8
+K:the Broken Lantern
+|:\
+"C"Gcc cBc | "Dm"Add d^cd | "G7"edB G2G | "C"AGE C2G | \
+"C"Gcc cBc | "Dm"Add d^cd | "G7"edB GAB | "C"c2e c2 ::
+g |\
+"C"ecg ceg | efg "F"a2g | "G7"fdg "C"ecg | "G7"dBg G2g | \
+"C"ecg ceg | efg "F"a2g | "G7"fdg "C"ecg | "G7"dBg "C"c2 :| 
+
+X:6
+T:Cliffs of Moher, The
+R:Jig
+M:6/8
+K:Ador
+"Am"a2a  bag | eaf  ged | "Am"c2A BAG | "Em"EFG ABd | \
+"Am"eaa  bag | eaf  ged | "Am"c2A BAG | "Em"EFG "Am"A3 :| 
+"Am"e=fe dBA | ~e3  dBA | "G"GAB  dBA |     GAB ~d3 | \
+"Am"e=fe dBA | ~e3  dBA | "G"GAB  dBA | "Em"BAG "Am"[E3A3] || 
+"Am"e=fe dBA | e=fe dBA | "G"GAB  dBA |     GAB ~d3 | \
+"Am"e=fe dee | cee  Bee | "Am"EFG AGE | "G" DB,G, "Am" A,3 |] 
+
+X:7
+T:Stan Chapman's Jig
+M:6/8
+L:1/8
+K:A
+F |:\
+"A"E3 EFA | "E7"B3 Bce | "A"fea "D"fec | "A"ecA "E"BAF | 
+"A"E3 EFA | "E7"B3 Bce | "A"fea "D"fec |1 "E7"ecA "A"A2F :|2 "E7"ecA "A"A2f || 
+|: "A"e3 ecA | "D"f3 fga | "A"fec BAB | "F#m"cAF F2f | 
+|1 "A"e3 ecA | "D"f3 fga | "A"fec "E7"BAB | "A"cAA A2f :| 
+|2 "A"ecA ecA | "D"fdf fga | "A"fec "E7"BAB | "A"cAA A2 |] 
+
+X8 1
+T: Scotty O'Neil
+C: Bob McQuillen 1973
+M: C| 
+Z:
+R: reel
+F:http://www.john-chambers.us/~jc/music/book/RJ/reel/Scotty_ONeil_RJ.abc	 
+K: D
+AG |\
+"D"F2D2 A2F2 | "G"dedc BABc | "D"d2A2 G2F2 | "A"F2 E4 AG |\
+"D"F2D2 A2F2 | "G"dedc BABc | "D"d2A2 "A"ABAG | "D"F2 D4 :| 
+|: AG |\
+"D"F2A2 f2e2 | "G"d2c2 B3c | "D"d2A2 G2F2 | "A"F2 E4 AG |\
+"D"F2D2 f3e | "G"dedc BABc | "D"d2A2 "A"ABAG | "D"F2 D4 :| 
+
+X:9
+T:Chickadee's Polka, The
+C:Bob McQuillen  Oct '75
+M:C| 
+N:This is the tune the chickadee's sing in Mr. Scott Thomas' woodlot up in Norwich, Vt. I go up there every year, in the fall when it's so beautiful, just to hear them sing it. (Sometimes I see a deer!)
+R:polka
+K:G
+[|\
+"G"B2G2 D2GA | B2G2 D2GA | "G"B2G2 "C"E2G2 | E4 "G"D4 | \
+"C"C2E2 E3C  | "G"B,2D2 G2B2 | "A7"B2A2 E2B2 | "D7"B4 A2GA | 
+"G"B2G2 D2GA | B2G2 D2GA | "G" B2G2 "C"E2G2 | E4 "G"D4 | \
+"C"E2G2 c2e2 | "G"e2d2 B2dc | "D7"B2A2 G2F2 | "G"G6 || 
+dc |\
+"G"B2B2 B2dc | B2B2 B2dc | B2d2 g2a2 | b4 g4 | \
+"D"a3b  a2g2 | "C"e3g "G"d2B2 | "Am"e2d2 c2B2 | "D"A6 dc | 
+"G"B2B2 B2dc | "G"B2B2 B2dc | B2d2 g2a2 | "G"b4 g4 | \
+"D"abag f2ef | "G"gage d2Bd | "C"e2g2 "D7"f2a2 | "G"g6 |] 
+
+X:10
+T:Dancing Bear, The
+C:Bob McQuillen  2/22/78
+R:reel
+M:C| 
+L:1/8
+K:Em
+|:\
+"Em"EFGF EFGF | EFGA G2E2 | "A"EFGF EFGF | EFGA G2E2 |\
+"Em"EFGF EFGF | EFGA B2e2 | "B7"B2Bc BAGF | "Em"G2E2 E4 :| 
+|:\
+"Em"e2ef gfef | gfe2 e4 | "A"[^c2e2]ef gfef | gfe2 e4 |\
+ "C"[c2e2]ef gfef | gfe2 e2dc | "B7"BABc BcBA | "Em"GFE2 E4 :| 
+
+X:11
+T:Master of the Dance
+T:A Tribute to Ted Sannella
+C:David A Kaynor August 1995
+M:4/4
+L:1/8
+K:D
+"D"D2DEF3E | DEFD "A"EA, (3.A,.A,.A, | "D"D2DEF2ED | "A"CEAB AGFE |\
+"D"D2DEF3E | DEFD "A"EA, (3.A,.A,.A, | "D"D2DEF2ED | "A"CEAB A4 :| 
+"A"Acec "D"Adfd | "A"ecAG "D"FADF | "Em"G2BGE3D | "A"CDEC A,4 |\
+"A"Acec "D"Adfd | "A"ecAG "D"FADF | "Em"G2BGE3D | "A"CDEC "D"D4 :| 
+
+X:12
+T:Dark Skies, Bright Stars
+C:David A. Kaynor May 2015
+M:4/4
+L:1/8
+K:G
+DF |\
+"G"G3AG2B,D | "Am"CEAG "D"FDD2 | "G"G3A"Em"G2B,D | "Am"CEAB "D"A2DF |\
+"G"G3AG2B,D | "Am"CEAG "D"FDD2 | "G"BGDB, "Am"C2B,C | "D"DGGF "G"G2 :| 
+Bd |\
+"G"gage dgBd | "Am"cEAG "D"F[AD][A2D2] | "G"BABd "Em"g2ag | "Am"faeA "D"d2ef |\
+"G"gage dgBd | "Am"cEAG "D"FAdc | "G"BGDB, "Am"C2B,C | "D"DGGF "G"G2 :| 
+
+X:13
+T:Luke the Bear
+T:for Shirley Griffin
+C:David A. Kaynor Feb 2017
+M:4/4
+L:1/8
+K:D
+de |\
+"D"f3ed2AG | FAdA FAcd | "A"e3d cAAF | "Em"GABc "A"defg |\
+"D"f3ed2AG | FAdA FAcd | "A"e3d cAFG | Addc "D"d2 :| 
+FG |\
+"D"A3G FDEF | "A7"GFGE "D"FDD2 | A3G FDEF | "Em"GEFD "A"E2FG |\
+"D"A3G FDEF | "A7"GFGE "D"FDD2 | "Em"EFGA Bcde | "A"f2ec"D"d2 :| 

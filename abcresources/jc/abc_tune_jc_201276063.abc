@@ -1,0 +1,17 @@
+X: 1
+T: First of May
+B: Hendrickson's "John Griffiths Dancing Master."
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+%Q: 3/8=104
+K: G
+"A"\
+|:"G"GB,2 "(D7)"CD2 | "G"GB,2 "(D7)"CD2 | "G"B2B BAG | "D7"FGA D3 \
+| "G"GB,2 "(D7)"CD2 | "G"GB,2 "(D7)"CD2 | "C"c3 "G"BAG | "D7"DEF "G"G3 :|
+"B"\
+|:"G"d3 dBG | "Bm"def f3 | "C"e3 ecA | "D7"efg a3 \
+| "G"g2d BdB | "C"cec "Am"AcA | "D7"c3 "G"BAG | "D7"DEF "G"G3 :|
+
+%%sep 1 1 500

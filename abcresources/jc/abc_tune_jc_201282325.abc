@@ -1,0 +1,26 @@
+X:1
+T: Gramachree is a Sup of Good Drink
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:Em
+I:speed 165
+%W: A1
+% voice 1 (1 lines, 41 notes)
+K:Em
+M:6/8
+L:1/16
+B2 |e4 g2 g4 e2 f2 ^d2 B2 B4 B2 e4 f2 g4 a2 b2 g2 e2 e4 g a |b2 a2 g2 a2 g2 f2 g2 f2 e2 d2 c2 B2 A4 B2 c4 A2 B2 G2 E2 E4 B2 |
+%W: A2
+% voice 1 (1 lines, 40 notes)
+e4 g2 g4 e2 f2 ^d2 B2 B4 B2 e4 f2 g4 a2 b2 g2 e2 e4 g a |b2 a2 g2 a2 g2 f2 g2 f2 e2 d2 c2 B2 A4 B2 c4 A2 B2 G2 E2 E4 G2 |
+%W: B1
+% voice 1 (1 lines, 38 notes)
+G2 A2 G2 G4 g2 g4 e2 d2 B2 G2 A4 B2 c4 A2 B2 G2 E2 E4 G2 |G2 A2 G2 G4 g2 g4 e2 d2 B2 G2 A4 B2 c4 A2 B2 G2 E2 E4 G2 |
+%W: B2
+% voice 1 (1 lines, 37 notes)
+G2 A2 G2 G4 g2 g4 e2 d2 B2 G2 A4 B2 c4 A2 B2 G2 E2 E4 G2 |G2 A2 G2 G4 g2 g4 e2 d2 B2 G2 A4 B2 c4 A2 B2 G2 E2 E4 ||

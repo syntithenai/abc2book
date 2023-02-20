@@ -1,0 +1,54 @@
+X: 1
+T: Miller's Jigg
+P: Longways for as many as will
+%R: slip-jig, triple hornpipe
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.126 #190 (252)
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.117
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: DMDfD is missing a dot on the last note of each strain.
+N: The dances are identical in CCDM1 and DMDfD except for minor differences in capitalisation, spelling and punctuation.
+M: 9/4
+L: 1/4
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+c2G (EG)E (EG)E | c2G E/F/F>E D2_B |\
+A2G (EG)E (EG)A/B/ | c>BA GE2 C3 |]\
+e2c (e/f/)ge d/e/fd |
+e2d (c/d/)ef (ge)c |\
+d2A B/c/de (dB)G | c2G E/F/F>E D2_B |\
+A2G (EG)E (EG)A/B/ | c>BA GE2 C3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First Cu. take Hands and 2d Cu. take Hands, then 1st Cu. change into the 2d
+%% Cu. Place, and 2d Cu. into the 1st Cu. Place, then Back to Back with your own,
+%% and come to your Places the rest do the same. This to the first Strain of the
+%% Tune once over.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1st and 2d Cu. take right Hands across and go half round, then left
+%% Hands across and go half round, and so Back to Back into their own Places,
+%% then 1st Cu. cast off into the 2d Cu. Place, then all four take Hands and go
+%% half round, then each Man cross over with his own Wo. and so into their
+%% own Places again, the rest do the same. This to the Second Strain.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% First cu. take hands, and 2. cu. take hands, then 1. cu. change into the 2. cu. place, and 2. cu. into the
+%% 1. cu. place, then back to back with your own, and come to your places; The rest do the same. This
+%% to the first Strain of the Tune once over.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. and 2. cu. take right-hands a-cross and go half round, then take left-hands a-cross and go half
+%% round, and so back to back into their own places, then 1. cu. cast off into the 2. cu. place, then all four
+%% take hands and go half round, then each man cross over with his own wo. and so into their own places
+%% again; The other cu. do the same. This to the second Strain of the Tune.
+%% [CCDM1]
+%%endtext
+%%sep 1 8 500

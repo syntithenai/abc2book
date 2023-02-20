@@ -1,0 +1,25 @@
+X: 20213
+T: the OYSTER GIRL
+Q: "Lively dancing time."
+%R: jig
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.21 #3
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%%stretchstaff 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+d>ed B2G | A2F D2F | G2B dcB | (B3 A2)c |\
+d>ed B2G | g2e c2e | edB dcA | G3 G2 :|\
+B |\
+B2B B2B | B2e B2_B | A2A AB^c | d3 d2d |
+d>ed B2G | g2e cde | edB dcA | G3 G2d |\
+d>ed B2G | A2F D2F | GAB dcB | (B3 A2)d |\
+d>ed B2G | g2e c2e | d2B dcB | G3 G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The comic song, "Going out a shooting," is sung to the above air.
+%%endtext
+%%sep 1 1 300

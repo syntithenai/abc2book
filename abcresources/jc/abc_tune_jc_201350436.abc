@@ -1,0 +1,32 @@
+X: 1
+T: Waltz No.2
+T: from Suite No.2 for Jazz Orchestra
+C: Dmitri Shostakovich
+R: waltz
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: Cm
+"^A"|:\
+"Cm"G3 | E2D | C3- | CCD | ECE | G2A | G3 | "G7"F3 ||\
+F3 | D2C | =B,3 | zF,=B, | D=B,D | FGA | "Cm"^F3 | G3 ||
+"Cm"e3 | d2c | "Fm"B2A | F3 | "Bb7"d3 | c2B | "Eb"B3 | "Ab"z.E.[FD] ||\
+"Eb/G".[GE] G/F/ G/A/ | "Fm/Ab".[FD] F/E/ F/G/ | "Cm/G".[EC]z.[GEC] | "Ab"z.[EC].[FD] |\
+"Eb/G".[GE] G/F/ G/A/ | "Fm/Ab".[FD] F/E/ F/G/ | "Cm".[EC]z.[GEC] | "Ab"z.[cE][.[dF] ||
+"Cm/G".[ec] e/d/ e/f/ | "G7".[d=B] d/c/ "To Coda"d/e/ ||\
+[1 "Cm"c3- | c3- | c3- | c3 :|[2 "Cm"[c3-G3-E3-] | [cEG] z "B7"B "^B"||\
+"Eb"e3 | e3 | edc | BGB | "Bb7"d3 | d3 | "Eb"cBG | EFG ||
+"C7"c3 | B3 | "Fm"BAG | F_EF | "Eb"G2B | "Bb7"F2B | "Eb"G2B | e2f ||\
+"Eb"g3 | g3 | gfe | dBd | "Bb7"f3 | f3 | "Eb"fed | cGB ||
+"Eb"e3 | "Eb7/Db"e3 | "Ab/C"e3 | "/Cb"fef | "Eb/Bb"g2e | "Bb7"Bcd | "Eb"efe | _dc=B \
+"^C"|:\
+"Ab"c'2e- | ede | c'2e- | e_d'c' | "Eb7"c'2b | =a2b | f'2e' | _d'c'b ||
+"Ab"c'2e- | ede | c'2e- | efg | "Db"a2b | "/C"c'2c' | "Bb7"=d'c'd' |\
+[1 "Eb"e'2_d' :|[2 "Eb"e'/f'/ e'/d'/ e'/f'/ | "Gaug7"[g'2^d'2=b2]"D.C. al Coda"=d' !coda!|]\
+"Cm"c3 | "G7"zg2 ||
+"Cm"g3 | e2d | c3- | cde | ece | g2a | "G7/D"g3 | f3 ||\
+"Fm/D"f3 | "Cm/G"d2c | "G7/D"=B3- | BG=B | d=Bd | fga | "Cm"^f3 | g3 ||
+e3 | d2c | "Fm/D"B2A | F3 | "Bb/D"d3 | c2B | "Eb"B3 | "Ab"z.E.[FD] ||\
+"Eb/G".[GE] G/F/ G/A/ | "Fm/Ab".[FD] F/E/ F/G/ | "Cm/G".[EC]z.[GEC] | "Ab"z.[EC].[FD] |
+"Eb/G".[GE] G/F/ G/A/ | "Ab".[FD] F/E/ F/G/ | "Cm/G".[EC]z.[GEC] | "Ab".[cE].[dF] ||\
+"Cm/G".[ec] e/d/ e/f/ | "G7".[d=B] d/c/ d/e/ | "Cm"cz "G7".[gf=B] | "Cm".[c'ec] z2 |]

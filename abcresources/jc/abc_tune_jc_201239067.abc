@@ -1,0 +1,29 @@
+X: 3202
+T: Mrs Hamilton of Wishaw's    Strathspey
+%R: strathspey, air
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.20 #2
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+Q: "Very Slow"
+K: A
+% - - - - - - - - - -
+% Voice 1 reformatted for _ _-bar lines, for compactness and proofreading.
+V: 1 staves=3
+E | [AC][AC][AC][AC] B>GEG | AAcA [B3G3]c | AAAF G>ABc | F>B (A/G/)F/E/ [A2E2C2] [AEC] :|
+f/g/ | {g}a>e (a/g/)f/b/ {g}a>fec | (.A.A) ce fB Bf/g/ | {g}a>e a/g/f/b/ {g}a>f ec | EE EF/G/ {G}A2 Af/g/ ||
+a>e (a/g/)f/b/ {g}a>fec | AAce fB Bc/d/ | ceea dffb | EE EF/G/ {G}[A2E2C2] [AEC] |]
+% - - - - - - - - - -
+V: 2 clef=bass middle=d
+L:1/16
+"Harp.d Bass" z2 |\
+Aece Aece GeBe GeBe | Aece Aece EeBe EeBe | caea ^dbfb ebgb egac | dbfb ebgb Aaec A2 :|
+z2 | ae'c'e' c'e'd'b ae'c'e' ae'c'e' | caea caea dbfb ebgb | ae'c'e' c'e'd'b c'e'd'e' c'e'ae' | caea cedB Aaec A4 ||
+     ae'c'e' c'e'd'b ae'c'e' ae'c'e' | Aece Aece dbfb ebgb | caea caea dafa dbfb | ec'ac' ebgb Aaec A2 |]
+% - - - - - - - - - -
+% Voice 3 preserves the staff layout in the book.
+V: 3 clef=bass middle=d
+"Vio.clo Bass"\
+z | a2a2 e2e2 | a2A2 e2e2 | a2b2 e3c | d2e2 A2A  :|
+z | a2A2 a2A2 | c2A2 d2e2 | a2A2 A2e2 | c3d c2A2 ||
+    a2A2 a2A2 | c2A2 d2e2 | a2a2 d2d2 | e3d c2A  |]

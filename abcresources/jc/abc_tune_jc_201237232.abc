@@ -1,0 +1,64 @@
+X: 24
+T: les Plaisirs enchant\`es
+%R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini  "A New Collection of Forty-Four Cotillions" c.1755 #24
+N: The tune and dance titles have some minor spelling differences.
+P: Rondeau
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+G2AB |\
+ADAc BGBd | g4 gfed | edcB ABGA | ^F2D2 G2AB |\
+ADAc BGBd | g4 g^fgd | edcB AGA^F | HG4 :|
+B2cd |\
+cFce dBdf | b4 bagf | gfed edcB | A2F2 FEDC |\
+D4 edcB | c2F2 FGAB | cedc dcBA | "_Da Capo"B4 |]
+bagf |\
+=e2a2 gf=ed | ^c2A2 BAGF | =E2A2 GF=ED | ^C2A,2 A=Bcd |\
+c=BAG =B^cd=e | d^c=BA agf=e | gf=ed f=ed^c | "_Da Capo"d4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+g4 |\
+^f4 g4 | B2d2 =B2G2 | c4 ^c4 |
+d4 B2G2 | ^F4 G4 | B2d2 =B2G2 | c4 d4 |
+HG4 :| B4 | A4 B4 | d2f2 d2B2 | e4 c4 |
+f4 A4 | B2b2 e2g2 | f4 F4 | f4 F4 | "_Da Capo"B4 |]
+g4 |\
+a4 b4 | a4 g4 | a4 b4 | a4 ^f4 |
+g4 ^g4 | a4 ^c'4 | d'4 a4 | "_Da Capo"d4 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400
+%%center Les Plaisirs Enchant\'es
+%%begintext align
+%%   Le Grand Rond - - - 2/1
+%%endtext
+%%begintext align
+%%   All Eight Contretems, the Gentlemen turn
+%% to the Left, while the Ladies turn to the Right
+%% and Rigaudon, then back to back Round to their
+%% places - - - - 1/2
+%%endtext
+%%begintext align
+%%   The Ladies present themselves to do the
+%% Round, the Gentlement Pirouette, each placing
+%% himself between two Ladies, puts his hands on
+%% theirs and all Rigaudon, then half Round in
+%% this manner - - - 1/1
+%%endtext
+%%begintext align
+%%   Right hand and Left four and four - 1/3
+%%endtext
+%%begintext align
+%%   The Gentlemen present themselves to do the
+%% Round, the Ladies Pirouette, each placing
+%% herself between two Gentlemen, puts her
+%% hands on theirs all Rigaudon, then half
+%% Round in this manner - - 1/1
+%%endtext
+%%sep 1 1 400

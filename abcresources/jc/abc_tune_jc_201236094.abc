@@ -1,0 +1,31 @@
+X: 21642
+T: SALLY ROY
+C: Shield.
+Q: "Moderate."
+%R: waltz
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.164 #2
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+DF<A |\
+A3B AF | {F}E3D FA |\
+A3=c B>A | Bd2A de |\
+{de}f3e dF | {F}E3D FA |\
+A3=c BA | Bd2d cd |
+e3f cd | e3d cA |\
+F2d2 E F/G/ | A3=G F=c |\
+{c}B3A ^Gd | {d}c3A de |\
+f3F GA | B3c de |\
+f2F F<E | D3 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The penultimate measure has some baffling notation in small notes:
+%% \{ge Ha2\} appears after the first note, with the a aligned with the F.
+%% "ad lib." appears after the small a note.
+%% \{DFA\} appears with the large F note between the D and F small notes.
+%% There's also a fermata below the dot after the inital d note.
+%% I was unable to duplicate this with the ABC software that I have.
+%%endtext

@@ -1,0 +1,20 @@
+X:1
+T:Superjet
+C:Tadd Dameron
+M:4/4
+L:1/8
+Q:1/4=250
+K:Bb
+P:A
+|: "Bb7"(Bcdf b.b)z2 | "Ab7"(_ABce _a.a) z2 | "Gb7"(_G_AB_d _g2_af- | "F7"f8) :|
+P:B
+"Fm7"x8 | "Bb7"x8 | "Ebmaj7"x8 | "Ab7"x8 |
+"C7"x8 | x8 | "F7"x8 | x8 ||
+P:A
+|: "Bb7"(Bcdf b.b)z2 | "Ab7"(_ABce _a.a) z2 | "Gb7"(_G_AB_d _g2_af- | "F7"f8) :|
+P:B
+"Fm7"x8 | "Bb7"x8 | "Ebmaj7"x8 | "Ab7"x8 |
+"Dm7"x4 "G7"x4 | "Cm7"x4 "F7"x4 | !coda!"Bb7"x8 | x8 ||
+!coda!
+"Bb7"x4 x4 | x4 x4 | "Dm7"x4 "G7"x4 | "Cm7"x4 "F7"x4 |
+"Bb7"x4 x4 | x4 x4 | "Dm7"x4 "G7"x4 | "Cm7"x4 "F7"x4 | "Bb7"x4 x4 |]

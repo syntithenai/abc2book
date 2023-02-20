@@ -1,0 +1,19 @@
+X:8
+T: the Low Lands of Holand
+S:CPC book II p36
+Z:Jack Campin <jc@purr.demon.co.UK>
+M:C
+L:1/8
+K:AMix
+"Slow"
+     e2  |{d}Tc3  B  (A>B)(c>d)|(e>d)(e>f) e2 (dc)|({Bc}d3)B            (A<F)(E>F)|D6
+{f}(Te>d)|    c2(BA) (AB)(cd)  |(e>d)ef    e2 (dc)|    (dcd)e            f3    ^g |e6
+   (Ted) |   Tc3  B  (AB)(cd)  | e3f       e2 (dc)|({Bc}d3)B            (A<F)(E>F)|D6
+     F>A |    E4  ({E}F2) A2   | E3F      (AB)(cd)|     e>f e(d/c/) ({Bc}d)c(TB>A)|A6:|
+P:Gigg
+M:6/8
+"Brisk"
+E| A2 A  (Bc)e| f3    a3 |(ec)A (AB)c|(Bc)A (B^G)
+E|(AB)A  (Bc)e| f3    a2f|(ec)A TB2 A| A3-   A2:|
+e| a2 a (^ga)g|Tf3 {f}e2c| B2B  (Bc)e| a2^g Tf3 |
+   a3    (ec)A|(Bc)e  f2a| efA  TB2 A| A3-   A2:|

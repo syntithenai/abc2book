@@ -1,0 +1,141 @@
+X:560
+T:Paine's Fourth Set
+T:La Magdonal  (Pantalon)
+%%subtitlefont Times-Roman 28
+C:Paine of Almack's, 1815
+L:1/8
+M:6/8
+Q:3/8=110
+K:F
+%%textfont Times-Roman-Bold 20
+%%center Play A B A C A B A C A
+P:A
+[| !f!c || "F"c'3 a3 | "/"f3 {g}fef | "C/E"ggg {a}gfg | "F"{fg}a2f a2f |\
+"F"c'3 a3 | "/"f3- f/a/g/f/e/d/ | "C/E"ccc cde | "F"fc!fine!a f2 |]
+P:B
+[| g | "C"f^fg e'd'c' | "F/C"c'2=b {d'}c'ba | "G/B"ggg gaf | "C"fee e2g |\
+"C/E"g3 fec | "F"^g3 a=gf | "C/G"egg "G7"^f/g/a/g/=f/d/ | "C"c3 d/e/f/g/!D.C.!a/b/ |]
+P:C
+[| a | "Dm"agf fed | "Gm/D"b2g b2g | "A7/C#"{a}gfe efg | "Dm"{g}fef d2d |\
+"Dm/F"dd'c' c'ba | "Gm"g3 gab | "Dm/A"faf "A7"{f}ede | "Dm"d2f/e/ !D.C.! d2 |]
+N:Replace by blank line and X field
+T:La Nouvelle Et\'e  (L'Et\'e)
+L:1/16
+M:2/4
+Q:1/4=110
+%%MIDI ratio 3 1
+K:C
+%%textfont Times-Roman-Bold 20
+%%center Play A BB A BB A BB A BB A
+P:A
+%%MIDI chordvol 30
+%%MIDI bassvol 30
+[| !p! ef | "C"{a}g^fga g2c'2 | "/"{a}g^fga g2c'2 | "C"e2c2 c>de>c | "G"f2d2 d2 ef |\
+"C"{a}g^fga g2c'2 | "/"{a}g^fga g2c'2 | "C"eee2 "G7"dfdB | "C"c2!fine!e2 c2 |]
+P:B
+%%MIDI chordvol 80
+%%MIDI bassvol 80
+[| !ff! ef | "C"{a}g^fga g2c'2 | "/"{a}g^fga g2c'2 | "C"e2c2 c>de>c | "G"f2d2 d2 ef |\
+"C"{a}g^fga g2c'2 | "/"{a}g^fga g2c'2 | "C"eee2 "G7"dfdB | "C"c2e2 c2 || g2 |
+"G"{A}G>^FG>F G2=f2 | "C".e2.d2 c2g2 | "G"{A}G>^FG>F G2=f2 | "C".e2.d2 c2ef |\
+"C"{a}g^fga g2c'2 | "/"{a}g^fga g2c'2 | "C"eee2 "G7"dfdB | "C"c2e2 !D.C.! c2 |]
+N:Replace by blank line and X field
+T:La Non Chalant  (La Poule)
+L:1/8
+M:6/8
+Q:3/8=110
+K:D
+%%textfont Times-Roman-Bold 20
+%%center Play (ABAC) x 4, then final A
+P:A
+%%MIDI chordvol 30
+%%MIDI bassvol 30
+[| !p! A | "D"d2f d2f | "A/C#"a^g=g e2f | "D"d2f d2f | "A"e/f/e/d/c/B/ A2A |\
+"D"d2f d2f | "G"=cB^A Bba | "Em/G"g2e "A7"{d}cBc | "D"e3 !fine! d2 |]
+P:B
+[| c/d/ | "A7/C#"eaa {b}a^ga | "/"ac'c' {d'}c'bc' | "/"e'c'a abc' | "Em"^a3 b2c/d/ |\
+"A7/C#"eaa {b}a^ga | "D"^gff "Bm/D"fed | "A/E"cee "E7"f/e/d/c/d/B/ | "A"A3- !D.C.! A2 |]
+K:Dm
+P:C
+[| A/d/ | "Dm"f3- fdf | "/"a3- afa | "A7"b2a g2f | "Dm/A"f3 {gf}eAe |\
+"Dm"f3- fdf | "F7/C"a3- afa | "Bb"b2g "A7"e2^c | "Dm"d3- !D.C.! d2 |]
+N:Replace by blank line and X field
+T:La Nouvelle Pastorale  (Pastorale)
+L:1/8
+M:2/4
+Q:1/4=110
+K:G
+%%textfont Times-Roman-Bold 20
+%%center I haven't worked out the A's and B's yet!  Sorry.
+P:A
+%%MIDI chordvol 30
+%%MIDI bassvol 30
+[| !p! d/e/d/c/ | "G"BB c^c | "/"dB dB | "G"dB A/G/A/B/ | "D"A2 d/e/d/c/ |\
+"G"BB c^c | "/"dB dB | "G"dB "D"A/G/A/B/ | "G"!fine! G2 |]
+P:B
+%%MIDI chordvol 80
+%%MIDI bassvol 80
+[| !f!ba | "-"ga "D7"df | "G"gd ba | "-"ga "D7"df | "G"g2 "-"ag |\
+"-"fa "^cresc." "A7"ga | "D"fa "D/F#"df | "Em/G"eg "A7"^ce | "D"d2 "-"df |
+"-"gb "A"^ce | "D"d2 "-"d/^c/d/A/ | "D"f/e/f/d/ a/^g/a/f/ | "D"c'2 "D/F#"a^g |\
+"D/F#"a^gab | "D/A"c'a c'a | "A"ea a^g | "/"a2 =gf |
+"G"gf ga | "/"bg c'b | "D"ag fe | "/"d2 e^g |
+"Am/C"a2 "-"e^g | "Am/C"a2 "-"db | "D7"a=g fa | "G"g2e^g |\
+"Am/C"a2 "-"e^g | "Am/C"a2 "G/D"db | "D7"ag fa | !D.C.! "G"g2 |]
+N:Replace by blank line and X field
+T:La Veritable Chasse  (Finale)
+L:1/8
+M:6/8
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+N:From facsimile at:  http://www.libraryofdance.org/manuals/1816-Paine-4th-Set_(Powers).pdf
+Q:3/8=110
+K:C
+%%textfont Times-Roman-Bold 20
+%%center Play (AAB) x 4, then final AA
+P:A
+%%MIDI chordvol 30
+%%MIDI bassvol 30
+|: !p! GGG | "C"c2c "G"d2d | "C/E"e3 "G"ded | "C"c2c e2e | "G"d3 "-"GGG |\
+"C"c2c "G"d2d | "C/E"e3 "G"ded | "C"c2c "G"ded | "C"c3 :|
+P:B
+[| [I:MIDI=bassvol 80] [I:MIDI=chordvol 80] !f! C3 | [I:MIDI=bassvol 30] [I:MIDI=chordvol 30] !p! "C"E3 FDG | "/"E2C G,CD | "C"E3 "G"GFD | "C"C3 [I:MIDI=bassvol 80] [I:MIDI=chordvol 80] !f! C3 | [I:MIDI=bassvol 30] [I:MIDI=chordvol 30] |\
+!p! "C"E3 FDG | "/"E2C G,CD | "C"E3 "G"GFD | "C"C3 "_UNISON" [I:MIDI=bassvol 30] [I:MIDI=chordvol 30] !p! g2g |
+%%MIDI gchordoff
+e2e c2c | G3 [I:MIDI=bassvol 80] [I:MIDI=chordvol 80] !f! gab | c'gf edc | g3 [I:MIDI=bassvol 30] [I:MIDI=chordvol 30] !p! g2g |\
+e2e c2c | G3 [I:MIDI=bassvol 80] [I:MIDI=chordvol 80] !ff! gab | c'gf edc | g3 [I:MIDI=bassvol 30] [I:MIDI=chordvol 30] !p! GGG |
+%%MIDI gchordon
+"C"c2c "G"d2d | "C/E"e3 "G"ded | "C"c2c e2e | "G"d3 GGG |\
+"C"c2c "G"d2d | "C/E"e3 "G"ded | "C"c2c "G"ded | "C"c "_UNISON" CD EFG |
+%%MIDI gchordoff
+AFD B,GF | ECD EFG | AEF GAB | [I:MIDI=gchordon] "Ab/C"c2d _efg |\
+"/"_a2g ^f2g | "/"_ecd efg | "/"_a2g a2g | "Ab"_a3- agb |
+"C/E"c'gb c'gb | "/"e/c'/e/c'/e/c'/ e/c'/e/c'/e/c'/ | "G7"d/b/d/b/d/b/ d/b/d/b/d/b/ | "C"[ec']g/f/e/d/ ce/d/c/B/ |\
+"Dm/F"Af/e/d/c/ "G7"Bgg | "C"eg/f/e/d/ ce/d/c/B/ | "Dm/F"Af/e/d/c/ "G7"Bgg | "C"[cegc']3 |]
+N:Replace by blank line and X field
+T:La Veritable Chasse  (simplified)
+C:Julia Day, 2017 after Paine
+L:1/8
+M:6/8
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:3/8=110
+K:G
+%%textfont Times-Roman-Bold 20
+%%center Play (AAB) x 4, then final AA
+V:1 treble
+P:A
+%%MIDI chordvol 30
+%%MIDI bassvol 30
+|: !p! DDD | "G"G2G "D"A2A | "G/B"B3 "D"ABA | "G"G2G B2B | "D"A3 "-"DDD |\
+"G"G2G "D"A2A | "G/B"B3 "D"ABA | "G"G2G "D"ABA | "G"G3 :|
+P:B
+[I:MIDI=bassvol 80] [I:MIDI=chordvol 80] !f! G,3 | [I:MIDI=bassvol 30] [I:MIDI=chordvol 30] !p! "G"B,3 "D7"CA,D | "G"B,2G, "D7"DB,A, | "G"B,3 "D"DCA, | "G"G,3 [I:MIDI=bassvol 80] [I:MIDI=chordvol 80] !f! G,3 | [I:MIDI=bassvol 30] [I:MIDI=chordvol 30] |\
+!p! "G"B,3 "D7"CA,D | "/"B,2G, DB,A, | "G"B,3 "D"DCA, | "G"G,3 [I:MIDI=bassvol 30] [I:MIDI=chordvol 30] !p! d2d |
+"G"B2B G2G | "G"D3 [I:MIDI=bassvol 80] [I:MIDI=chordvol 80] !f! "D7"def | "G"gdc BAG | "D"d3 [I:MIDI=bassvol 30] [I:MIDI=chordvol 30] !p! "D7"d2d |\
+"G"B2B G2G | "G"D3 [I:MIDI=bassvol 80] [I:MIDI=chordvol 80] !ff! "D7"def | "G"gdc BAG | "D"d3 [I:MIDI=bassvol 30] [I:MIDI=chordvol 30] !p! "D7"DDD |
+%%MIDI gchordon
+"G"G2G "D"A2A | "G/B"B3 "D"ABA | "G"G2G B2B | "D"A3 DDD |\
+"G"G2G "D"A2A | "G/B"B3 "D"ABA | "G"G2G "D"ABA | "G"G G,A, B,CD |
+"Am"ECA, "D7"F,DC | "G"B,G,A, B,CD | "Am"EB,C "D7"DEF | "Gm"G2A "/"_Bcd |\
+"Cm"_e2d "D7"^c2d | "Gm"_BGA Bcd | "Cm"_e2d e2d | "D7"_e3- edf |
+"G"gdf "/"gdf | "G"ggg "/"ggg | "D7"fff "/"fff | "G"[Bg]dB GBG |\
+"Am"EcA "D7"Fdd | "G"Bdc "/"BAG | "Am"EcA "D7"Fdd | "G"[GBdg]3 |]

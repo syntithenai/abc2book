@@ -1,0 +1,20 @@
+X: 20702
+T: Annie and Colin
+%R: reel
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.70 #2
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: Added missing bar line after bar 7.
+N: Added missing dots to a few long notes.
+M: C|
+L: 1/8
+K: G
+"_Moderately Quick"Bc |\
+(dB) (AG) G2 (AB) | {d}c2 (BA) A2 (Bc) |\
+(Bc)(dB) (gd)(cB) | {B2}A6 (Bc) |\
+(dB) (AG) G2 (AB) | c2 (BA) {fg}a2 (gf) |
+(ef)(ge) (dc)(BA) | G6 :: (Bc) |\
+d2 (ge) d2 (Bc) | (dB)(ge) d2(cB) |\
+(cd)(ef) (gd)(cB) | {B2}A6 (ge) |
+(dB) (AG) (AB)(cd) | (ec)(TBA) {fg}a2 Tgf |\
+g3e (dc)(BA) | (Bd)(gB) A2(Bd) |\
+(eg) (de) {GA}B2 (TA>G) | G6 :|

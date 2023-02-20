@@ -1,0 +1,43 @@
+%%scale 0.55
+%%staffwidth=50
+%%stretchstaff 0
+%%titleleft yes
+
+X: 1
+T: Chords with names at left, using V:
+%%staffwidth=100
+%%indent 50
+M: none
+K: none clef=none
+V: 1 name="C Major"
+   [CEGc]
+V: 2 name="C Minor"
+   [C_EGc]
+V: 3 name="C Augmented"
+   [CE^G]
+V: 4 name="C Sus4"
+   [CFG]
+
+X: 2
+T: Chords with names at top left, using P:
+M: none
+%%partsspace 0
+K: none clef=none
+P: C Major
+	[CEGc]
+P: C Minor
+	[C_EGc]
+P: C Augmented
+	[CE^G]
+P: C Sus4
+	[CFG]
+
+X: 3
+T: Chords with names using accompaniment chords
+M: none
+K: none clef=none
+"C Major"     [CEGc]
+"C Minor"     [C_EGc]
+"C Augmented" [CE^G]
+"C Sus4"      [CFG]
+

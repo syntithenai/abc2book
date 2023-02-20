@@ -1,0 +1,5165 @@
+
+X: 30000
+T: K\"OHLER'S VIOLIN REPOSITORY  Book 3
+C: Ernest K\"ohler & Son, 1885
+       0 F: http: //www.ar chive.or g/detail s/klersv iolinrep os03rugg _
+       0 43267773 22777267 66676267 62667666 72666777 66666767 67337766 0
+         6A08440A FF777E12 38965EF2 7F45419C 3FBC5236 9FC9E250 F3032577 A
+Z: 2011-2012 John Chambers <jc:trillian.mit.edu>
+K:
+
+%%slurgraces
+
+%%sep 2 1 500
+
+X: 31931
+T: UP IN THE MORNING EARLY -- Variations
+N: Bowing and Fingering arranged by W. B. Laybourn.
+R: jig
+B: K\"ohler's Violin Repository, v.3, 1885 p.193
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Added missing dot in 2nd beat of bar 5.
+N: There's an extra 1/8 in bar 33. (Not fixed.)
+N: The repeat signs don't match properly.  Fixed to make all phrases repeat.
+M: 6/8
+L: 1/16
+Q: "Andante"
+K: Gm
+(uE/=E/^F) |\
+G3AG2 (G3c B/c/d) | F2c2F2 (dcBAG^F) | G3AG2 (Bc/d/)cBAB | ({A}G4Bc) d4 :|
+|: (uF/G/A) |\
+(B3cBc) (B3ABF) | c3dc2 (c2dcBA) | (B3cde) (f3gfe) | (d4^cd) uf4uF2 |
+B3cB2 (c4{dc}B2) | c2d2f2 (.g4.b2) | d3cB2 (c2BAG^F) | (G4Bc) d4 :|
+P: V1
+|: (uD/=E/^F) |\
+(G^F)GABG (BA)BcdB | (cB)A=efd (dc)BAG^F | G2g2f2 (d>edcBA) | (G4Bc) d4 :|
+|: (FE) |\
+(DB)B,DBc (BA)GABG | c2C2c2- c(dcBcA) | B2(F2{GF}E2) D2(fedc) | (d4^cd) f4(uF/G/A) |
+B2(D2B,2) (c3{dc}B)c2 | d2g2^f2 ({=ef}g3a{ga}b2) | (dedcdB) (A/B/cBAG^F) | (G4Bc) d4 :|
+P: V2
+|: uD/=E/^F |\
+(G2DCB,)A, G,2 (B>c Bcd) | F2f2d2 (dcBAG^F) | G2g2f2 (d>edcBA) | G2(DCB,)A, G,4 :|
+|: (uF/G/A) |\
+BAGAB2- B2(AGAB) | c2f2d2 (dcBAGF) | (Bfgabg) (fedcdB) | (df)bdcB (AcFBAB/c/) |
+(.BA/G/ FEDC B,/B/A/G/) c2C2c2 | d^FDgf(=e/f/) (g3a{ga}b2) | (dfbdcB) (AcfcBA) | (G4Bc) d4 :|
+P: V3
+|: uD/=E/^F |\
+(.G4.G2) B3cd2 | F2f2d2 (dcBAG^F) | G2g2f2 (d>edcBA) | (G4Bc) d4 :|
+|: (uF/G/A) |\
+B2B,2B2- B(AGABG) | c2C2c2- c(dcBcA) | B2(F2E2) D2(fedc) | (d4^cd) f4uF2 |
+B2B,2B2 c2C2c2 | d2D2~^f2 (g3a g/a/b)  | (d>cBc/d/c>B) (c>BAB/c/B>A) | (G4Bc) "^Fine"d4 |]
+
+%%sep 2 1 500
+
+X: 31941
+T: VERMONT HORNPIPE
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.194 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Fixed wrong lengths of pickup notes to part 2.
+N: Added missing triplet notation in bar 12.
+M: C|
+L: 1/8
+K: D
+(uFE) | DFAF DFA,F | EGAG EGA,G | FAdF GBec | Adfd cAGE |
+DFAF DFA,F | EGAG EGA,G | FAdF GBec | d2d2 d2 :|
+|: (ucd) |\
+ecAc EAce | fdAd FAdf | g2(fg) efdf | ((3edc) ((3dcB) ABcd |
+ecAc EAce | fdAd | FAdf | gbag fedc | d2d2 d2 :|
+
+%%sep 2 1 500
+
+X: 31942
+T: TITUS HORNPIPE
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.194 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Fixed wrong lengths of the very last note.
+N: Added missing triplet notation in bar 12.
+M: C|
+L: 1/8
+K: A
+(ued) |\
+cBAc BAGB | Aceg aefd |[1 cBAc BAGB | Aceg a2 :|
+[2 dcBA GABc | BAGB A2 |: (uef) | =g3(a gf)ed | cdef =g2((3efg) | a3(b a=g)ef |
+=gedB Adef | =g3(a gf)ed | cdef =g2((3efg) | a3(b a=g)ef | =gedB "^D.C."A2 |]
+
+%%sep 2 1 500
+
+X: 31943
+T: ROSS HORNPIPE
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.194 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: E
+(BG) |\
+E2(GB) egfe | defg a2(ga) | bgaf gefd | Bagf ecBA |
+GEGB egfe | defg a2(ga) | bgaf gefd | Bagf e2 :|
+|: (ude) |\
+fB ((3BAB) gB ((3BAB) | (bB)(gB) fB ((3BAB) | (ef)ga bgaf | gefd BcBA |
+GEGB egfe | defg a2(ga) | bgaf gefd | Bagf e2 |]
+
+%%sep 2 1 500
+
+X: 31951
+T: BUSHWICK HORNPIPE
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.195 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+N: Fixed wrong lengths for last note of 1st part and pickup to 2nd part (bar 8).
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+!ff!(ude) |\
+{g}f=efg f2{a}b2 | f=efg f2{a}b2 | fdbf cfaf | dfba gfde |
+{g}f=efg f2{a}b2 | f=efg f2{a}b2 | fdbf cfaf | bfdf B2 :|
+|: (uFE) |\
+!pp!DF ((3F=EF) (BF)dF | cF ((3F=EF) (AF)cF | (DF)BF (CF)AF | (Bd)cA (BG)FE |
+DF ((3F=EF) (BF)dF | CF ((3F=EF)  (AF)cF | (DF)BF (CF)AF | (Bd)cA B2 :|
+
+%%sep 2 1 500
+
+X: 31952
+T: LONG ISLAND HORNPIPE
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.195 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+(uFG) |\
+A3(B AF).E.D | (FA)AB (Ac)de | f2B2 Bcde | fdec BcdB |
+A3(B AF).E.D | (FA)AB (Ac)de | f2B2 BcdB | .A(FEF) D2 :||: (ufg) |
+a3(a af).d.e | (fd).b.d fdd2 | g3(a ge).c.e | (gB)bB fee2 |
+(fB) (aB) (bB) (aB) | gefd edBd | Acde fdec | dBAF D2 :|
+
+%%sep 2 1 500
+
+X: 31953
+T: HOWARD HORNPIPE
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.195 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has an initial repeat but no final repeat. The best solution isn't obvious, so I've left it "as is".
+M: C|
+L: 1/8
+K: A
+|:\
+vA2 ((3cBA) (c>e)a>e | f>ae>a d>ac>a | B2 ((3dcB) d>fb>a | ((3gag) ((3fe^d (3e)(fe (3=dcB) |
+ A2 ((3cBA) (c>e)a>e | f>ae>a d>ac>a | B2 ((3dcB) d>fb>a | ((3gfe (3dcB) A2 :|
+|:\
+vF2 ((3GF^E) (F>A)c>a | g>f^e>g f>ga2 | F2 ((3GF^E) (F>A)c>a | g>f^e>g uf2uf2 |
+E2 ((3GFE) (E>B)e>G | A2((3BAG) (A>e)a>c | B2 ((3^dcB) (d>f)b>a | ((3gag (3fgf (3efe (3dc"^D.C."B) |]
+
+%%sep 2 1 500
+
+X: 31961
+T: THE BANKS OF LOCH NESS -- Strathspey
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.196 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+uF |\
+D<GG>A (B>c)d<f | F<F (F>D) F2 F<B | G<G(G>A) (B>c)d<f | (d/c/)B/A/ B^F G2 G :|
+|: uf |\
+{e}d>B(f>B) (g>B)d>f | F<F (F>D) F2 F>f | (d>f)(B>d) c>B c<d | G<GG^F G2 Gf |
+(d>B) (f>B) (g>B) (f>e) | {e}d>B (c>A) (B>G)FD | {ga}(.b>.a) (g>f) dbaB | (Ae)d^F G2 "_Segue Reel.""^D.C."G |]
+
+%%sep 2 1 500
+
+X: 31962
+T: THE WEDDING RING REEL
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.196 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+uA |\
+B2dA B2dA | B2(fB) AFFA | B2(df) bfdB | (Ad)F^F G2G :|
+uF |\
+(DG)^FG (BG)A=F | (CF)=EF (AF)FA | (DG)^FG (BG)A=F | (Ad)D^F G2G=f |
+(dg)ga (bg)af | (cf)fg (af)cf | (dg)bg (fb)dB | (Ad)D^F G2"^D.C."G |]
+
+%%sep 2 1 500
+
+X: 31963
+T: "NEW YEAR'S DAY" STRATHSPEY
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.196 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The B in bar 15 should probably be flat, too.
+M: C|
+L: 1/8
+K: C
+ud |\
+(.G>.G) (G>A) (_B>c)d<f | e<c(f>d) (e<c)f>d | G<G (G>A) (_B>c)d<^f |
+(.g>.e) (f>d) c2 (cd) | G<G (G>A) (_B>c)d<f | e<c(f>d) (e<c)f>d | G<G (G>A) (_B>c)d<^f |
+(g>e)f>d c2c || (ue/f/) | g>ce<g f>_Bd<f | g<c(e>c) (g>f)e>c |
+(3faf (3ege f>_Bd>^f | g<e(f>d ) c2 c(e/f/) | g<ce>g f>_Bd<f |
+(3gc'g (3ege (3gc'g (3ege | (3faf (3ege (3d_bd (3Bdf | ((3geg) f>d c2 "^D.C.""_Segue Reel."c |]
+
+%%sep 2 1 500
+
+X: 31971
+T: "CATCH AND KISS THE ROMP" -- Reel
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.197 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The Bs in bars 5, 7 and 9 are probably flat, too.
+M: C|
+L: 1/8
+K: C
+|:\
+vGGGA _B2(Bg) | (ec)(gc) aceg | GGGA _B2(Ba) | gefd c/c/c g2 :|
+(ve/f/g) (g_b) Bdfd | (ec)(gc) aceg | (e/f/g) (g_b) Bdfd | gefd c/c/c g2 |
+(e/f/g) (g_b) Bdfd | (ec)(gc) aceg | (e/f/g) (ga) _bgf_e | d_Bdf c/c/c g2 "_D.C."|]
+
+%%sep 2 1 500
+
+X: 31972
+T: RINETTAN'S DAUGHTER -- Strathspey
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.197 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+uc |\
+(E/F/G) (c>G) A2(A<d) | c<GA>G (c>G)E2 | (.G>.A)(c>G) A/A/A (A>B) | (.c>.d) (e>d) cAA :|
+ua |\
+(g>e) (e<a) (.g>.e) (e>d) | c<GA>G (c>G)E2 | (.G>.A)(c>G) A/A/A (A>B) | (.c>.d)(e>d) c>AAa |
+(g<e) (e<a) (.g>.e) (e>d) | e>(G"^>"G>B) (c>G)E2 | (.G>.A)(c>G) A/A/A (A>B) | c>d(e<g) (d<e)"_Segue Reel.""^D.C."c |]
+
+%%sep 2 1 500
+
+X: 31973
+T: "THE PIPE SLANG" -- Reel
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.197 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+ue |\
+cA A/A/A A2AB | cdef gece | fd d/d/d d2df | eE E/E/E A2A ||
+uc |\
+A/A/A a2 gece | f2(ed) ecAc | A/A/A a2 gece | fdec A2(Ac) |
+A/A/A a2 gece | f2(ed) ecAc | GEcE GEEc | D/D/D (E^G) A3 "^D.C."|]
+
+% newpage
+
+%%sep 2 1 500
+
+X: 31980
+T: LES FARCEURS VALSE
+C: Par J. J. Hoglen, Edinburgh
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.198-199
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K:
+
+%%sep 2 1 500
+
+X: 31981
+T: LES FARCEURS VALSE #1
+C: Par J. J. Hoglen, Edinburgh
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.198
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+[|\
+vA6 | (^G4 B2) | A6- | A4 z2 |\
+vA6 | (^G4 B2) | A6- | A4 z2 |\
+f2 e2 d2 | c2 B2 A2 |
+(G B3) vA2 | F4 z2 |\
+vA6 | (^G4 B2) | A6- | A4 z2 |\
+B6 | (^A4 c2) | B6- | B4 z2 |
+vb2 a2 g2 | f2 e2 d2 | (c f3) ve2 | {c}d6 H|:\
+(.va2 z2 .a2) | (.a2 z2 .a2) | (a d'3) vc'2 | (b4 a2) |\
+(g4 f2) | (e4 d2) |
+(c d3) vB2 | (A4 a2) |\
+(.a2 z2 .a2) | (.a2 z2 .a2) | (a d'3) vc'2 | (b4 a2) |\
+(g4 f2) | (e4 d2) | (c f3) ve2 |[1 d4 (uA/B//c//d//e//f//g//) :|[2 d4 "_D.C."z2 |]
+
+%%sep 2 1 500
+
+X: 31982
+T: LES FARCEURS VALSE #2
+C: Par J. J. Hoglen, Edinburgh
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.198
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+[|\
+v[D2d2] [G2g2] [G2g2] | [G2g2] [F2f2] "_2nd times 8ves."[E2e2] | [D2d2] [c2c'2] [c2c'2] | [c2c'2] [B2b2] [A2a2] |\
+[G2g2] [e2e'2] [e2e'2] | [e2e'2] [d2d'2] [c2c'2] | [B2b2] [c2c'2] [A2a2] | [G2g2] [F2f2] [E2e2] |
+[D2d2] v[G2g2] [G2g2] | [G2g2] [F2f2] [E2e2] | [D2d2] [c2c'2] [c2c'2] | [c2c'2] [B2b2] [A2a2] |\
+[G2g2] [e2e'2] [e2e'2] | [e2e'2] [d2d'2] [B2b2] | [c2c'2] [A2a2] [F2f2] | [G6g6] H:|
+vG2 (.g2 .g2) | G2 (.g2 .g2) | G2 (.g2 .g2) | f2 (e2 d2) |\
+G2 (.e2 .e2) | G2 (.e2 .e2) | G2 (.e2 .e2) | c2 (A2 F2) |
+G2 (.g2 .g2) | G2 (.g2 .g2) | G2 (.g2 .g2) | f2 (e2 d2) |\
+^c2 d2 e2 | f2 g2 f2 |[1 e2 f2 ^d2 | (e4 =d2) :|2 e2 c2 A2 | F2 D2 C2 "_D.C."|]
+
+%%sep 2 1 500
+
+X: 31991
+T: LES FARCEURS VALSE #3
+C: Par J. J. Hoglen, Edinburgh
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.198
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+uA2 |\
+(A F3) vA2 | (.B4 .B2) | (B G3) vB2 | (.c4 .c2) |\
+c2 f2 e2 | d2 c2 B2 | A2 B2 A2 | (F4 A2) |
+(A F3) vA2 | (.B4 .B4) | (B G3) vB2 | (.c4 .c2) |\
+c2 b2 a2 | g2 f2 e2 | d2 f2 e2 |[1 d4 :|[2 d6 ||
+f2 c2 c2 | d2 c2 c2 | B2 c2 B2 | [^A4F4] z2 |\
+vf2 d2 d2 | e2 c2 c2 | d2 c2 B2 | [f4c4] z2 |
+vA2 d2 d2 | B2 e2 e2 | c2 f2 e2 | d2 c2 B2 |\
+A2 d2 d2 | B2 e2 e2 | c2 f2 e2 |1 {c}d4 z2 :|[2 d4 "_D.C."|]
+
+%%sep 2 1 500
+
+X: 31992
+T: LES FARCEURS VALSE #4
+C: Par J. J. Hoglen, Edinburgh
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.198
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+(vAB//c//d//e// |\
+f4) vf2 | f4 (AB//c//d//e// | f4) vf2 | (.f4 .f2) |\
+(b4 a2) | (g4 f2) | (e4 d2) | c4 (vAB//c//d//e// |
+f4) vf2 | f4 (Bc//d//e//f// | g4) vg2 | (.g4 .g2) |\
+(c'4 b2) | (a4 g2) | (f4 e2) | d4 H||
+ue2 |\
+(.e4 .e2) | (.e4 .e2) | (e c'3) vb2 | (a4 ^g2) |\
+(.f4 .f2) | (.f4 .f2) | (f a3) va2 | (^g4 e2) |\
+(.e4 .e2) | (.e4 .e2) |
+(e c'3) vb2 | (a4 ^g2 ) |\
+[1 (f4 ^g2) | (a4 b2) | (c'4 ^b2) | c'4 :|\
+[2 (f4 b2) | (a4 ^g2) | (f4 ^e2) | f4 "_D.C."|]
+
+%%sep 2 1 500
+
+X: 32001
+T: "THE FAIRY WEDDING" POLKA
+C: By W. C. Paton
+R: polka
+B: K\"ohler's Violin Repository, v.3, 1885 p.200 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Last part has final repeat, but no open repeat; fixed.
+M: 2/4
+L: 1/16
+K: Bb
+%%indent 300
+P: Introduction
+(^c'd')d2 (^c'd')d2 | (^c'd')d2 (^c'd')d2 |\
+{e}d^cde {e}dcde | d2z2 [d'4d4] ||
+P: Polka
+!segno!|:\
+!mf!vF2B2(.c3.d) | c2B2 "^>"f4 |\
+(fg)A2 (fg)A2 | (c2B2) F4 |\
+F2B2(.c3.d) | c2B2 "^>"f4 |\
+(fg)A2 (fg)A2 | [B2D2][B2D2][B2D2]z2 :|
+|: !ff!(vG^F)GA (BA)BA | (G^F)GA (BA)BA |\
+"^>"G2"^>"A2"^>"B2"^>"c2 | "^>"d2("^>".e2"^>".d4) |\
+("^>"ed)cB A2D2 | ("^>"dc)BA G2D2 |\
+G2G2 B2A2 | [1 G4 z2D2 :|[2 G2 z2!mf!F2 ||
+vF2B2(.c3.d) | c2B2 "^>"f4 |\
+(fg)A2 (fg)A2 | (c2B2) F4 |\
+F2B2(.c3.d) | c2B2 "^>"f4 |\
+(fg)A2 (fg)A2 | [B2D2][B2D2][B2D2]z2 ||
+|:\
+"_divisi"v[d2F2][d2F2] "^>"[c3F4] | [B2G2][B2G2] "^>"[A4^F4D4] |\
+{A}G^F.G.A {c}BA.B.c | .d.e.d.^c d2D2 |\
+[d2F2][d2F2] "^>"[c4F4] | [B2G2][B2G2] "^>"[A4^F4] |\
+{A}G^F.G.A {c}BA.G.F | G2z2 "^>"[g4B4D4G,4] "_D.C."!segno!:|
+
+%%sep 2 1 500
+
+X: 32002
+T: JOHN O' GROATS JIG
+C: By John Bain, Wick
+R: jig
+B: K\"ohler's Violin Repository, v.3, 1885 p.200 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dm
+(uA/G/) |\
+FGA DFA | dfd ecA | Agf edc | =Bed cBA |\
+FGA DFA | dfd ecA | Bgf ed^c | dDD D2 :|
+|: z |\
+vd3- d(fa) | afd gbg | ecA dfa | afd =Bed |\
+c=BA dfa |afd gbg | Bgf ed^c | dDD D2 :|
+
+%%sep 2 1 500
+
+X: 32011
+T: A MUCH-ADMIRED GERMAN VALSE
+N: Bowing and Fingering arranged by W. B. Laybourn
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.201 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Fixed the mismatched repeat symbols in parts 2 and 4.
+M: 3/8
+L: 1/16
+K: A
+uE2 |\
+A2{B}AGA2 | A2(.B2.B2) | c2(dc)dB | e2(.c2.A2) |\
+A2{B}AGA2 | A2(.B2.B2) | c2(dc)dB | A4 :|
+|: ue2 |\
+aeceAe | decdBc | ABGAFG | EFCEAg |\
+aeceAe | decdBc | (dc)dcdB | A4 :|
+|: (uAB) |\
+c2{d}cBc2 | c2(.c2.c2) | B2{c}BAB2 | B2(c2e2) |\
+agfedc | fedcBA | GABcdB | A4 :|
+|: uE2 |\
+CEAECE | DFAFDF | CEAECE | B,DBAGE |\
+CEAECE | DFAFDF | (dc)dcdB | A4 :|
+
+%%sep 2 1 500
+
+X: 32012
+T: A FRENCH VALSE
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.201 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Halved note lengths in bars 20, 28.
+M: 3/8
+L: 1/16
+K: D
+ua2 |\
+ba^ga=ge | d2(Ad)fd | e2(Ae)ge | (gf)efd2 |\
+ba^ga=ge | d2(Ad)fd | (eg)bgec | d4 :|
+|: uA2 |\
+(Ac)ecg3 | (Ad)fda2 | (Ac)ecg2 | (Ad)fda2 |\
+ba^ga=ge | d2(Ad)fd | (eg)bgec | d4 :|
+|: uA2 |\
+d2(fd)fd | f2(af)af | e2 ((3bag (3fge) | dfad'af |\
+d2(fd)fd | f2(af)af | e2 ((3bag (3fge) | d4 :|
+|: uf2 |\
+g2 ((3e'd'c' (3bag) | f2 ((3d'c'b (3agf) | e2 ((3bag (3fge) | dfad'af |\
+g2 ((3e'd'c' (3bag) | f2 ((3d'c'b (3agf) | e2 ((3bag (3fge) | d4 :|
+
+%%sep 2 1 500
+
+X: 32021
+T: CORNET HORNPIPE
+C: By W.P.Robertson, Riccarton, Kilmarnock
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.202 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: There's a final repeat symbol, but no others.
+M: C|
+L: 1/8
+K: F
+uC |\
+F>EF>A ((3cdc) Az | G>FG>B ((3ded) Bz | A>GA>c ((3fgf) ez | ((3ded) cz ((3BcB) (AG) |
+F>EF>A ((3cdc) Az | G>FG>B ((3ded) Bz | A>GA>c (3fgf (3cde | (3fAB (3cde f3 ||
+uc |\
+c>af>c B>ge>B | A>fc>A {e}d2 c2 | {c}B>AB>c {e}d>cd>e | (3fgf (3cde (3fed (3cBA |
+c>af>c B>ge>B | A>fc>A {e}d2 c2 | {c}B>AB>c d>cd>e | (3fgf (3cde [f3A3] :|
+
+%%sep 2 1 500
+
+X: 32022
+T: WALKER STREET HORNPIPE
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.202 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: There seems to be an extra segno.
+M: C|
+L: 1/8
+K: G
+uD2 !segno!|\
+G2(BG) dGBG | ABcd cBAG | Bdgd egdB | cBAG FADF |
+G2(BG) dGBG | ABcd cBAG | Bdgd egdB | edcA G2 :|
+|: (uef)!segno!|\
+{a}g2(dg) Bgdg | gabg agef | g2(dg) Bgdg | cBAG FADF |
+{a}g2(dg) Bgdg | gabg agef | gfga gfed | egfa gedB !segno!"_D.C.":|
+
+%%sep 2 1 500
+
+X: 32023
+T: WORRELL'S HORNPIPE
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.202#3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Fixed lengths of pickup to 2nd part.
+M: C|
+L: 1/8
+K: Bb
+(uFE) |\
+DFB,B AcFe | dfBb agec | dABF Ggec | AgG=e (3f_ec (3AFE |
+(3DFB, (3EGB (3AcF (3Bdf | GBcd efg=E | (3Ff=e (3fdB (3F_ed (3ecA | (3BdD (3EGA, B,2 :|
+|: (dc) |\
+AFec AFdB | geBg fdBf | edc=B cAc_B | Af=eg f2 ((3fga) |
+(3bfe (3dcB (3gec (3fdB | (3ecA (3FAc (3dBb (3fdB | (3Ggf (3edc (3BAG (3FGA | (3Bdf (3bfd B2 :|
+
+%%sep 2 1 500
+
+X: 32031
+T: JOHNSTON'S HORNPIPE
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.203 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+((3uABc) |\
+(dc)de (fd)AF | (GF)GA BGE2 | efg2 (cd)ec | (de)fd A2((3uABc) |
+(dc)de (fd)AF | (GF)GA BGE2 | efg2 (cd)ed | (cA)Bc d2 :|
+|: ue2 |\
+(fe)fg afd2 | (gf)ga bge2 | (fg)af (de)fd | (ca)Be A2(ugf) |
+(fe)fg afd2 | (gf)ga bg ((3efg) | (af)ge (fd)ec | (Ag)fe d2 :|
+
+%%sep 2 1 500
+
+X: 32032
+T: THOMPSON'S HORNPIPE
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.203 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+(ucA) !segno!|\
+BGFD ECC2 | (DG)G^F GABc | dBcA BGAF | DAG^F G2(cA) |
+BGFD ECC2 | (DG)G^F GABc | defd cAGF | DGG^F G2 :|
+|: uA2 |\
+B2(df) bdfd | B2(df) gdfd | B2(df) bdfd | c=Bcd _BGG2 |
+B2df bdbd | fdfd gdgd | bdbd fdfd | c=Bcd _BGGA !segno!"_D.C."|]
+
+%%sep 2 1 500
+
+X: 32033
+T: MILLER'S HORNPIPE
+C: By Zeke Bacus
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.203 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|:\
+vA,2CE D2FA | E2GB A2cA | (BE)(cE) (dE)(cE) | (BE)cB (AF)EC |
+A,2CE D2FA | E2GB A2cA | {g}(fe)fg (ag)af | e(cBc) A2 :|
+|: ((3efg) |\
+a2ga (fe)ce | b2bg (ag)fe | gebe gbeg | fe^df e2 ((3efg) |
+a2ga (fe)ce | fgag fece | (fB)(gB) afed | cABG A2 :|
+
+%%sep 2 1 500
+
+X: 32041
+T: CORRYMONNY STRATHSPEY
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.204 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Added dot to last note to fix the rhythm.
+M: C|
+L: 1/8
+K: A
+uF |\
+E<(C"^>"C>E) A,>EC<F | E<(C"^>"C>E) F>EC<F |\
+E<(C"^>"C>E) (A,>E) (.C>.c) | A<(F"^>"E>C) B,3F |
+E<(C"^>"C>E) A,>EC<F | E<(C"^>"C>E) F>EC<F |\
+E<(C"^>"C>E) (A,>E) (.C>.c) | A<(F"^>"E>C) B,3 ||
+uf |\
+e<c(a>c) (b>c)a>f | e<c(a>g) (f>e)c<f |\
+e<c(a>c) (b>c)a>g | (b/a/g/f/) (a>c) B2 (Bf) |
+e<c(a>c) (b>c)a>f | e<c(a>g) (f>e)c<f |\
+{c}(.e>c) {c}(.d>.B) (c>A)(B>G) | A<(F"^>"E>C) "_Segue Reel."B,3 "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32042
+T: BEAUFORT CASTLE REEL
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.204 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Added notation for 2nd ending of 1st part.
+M: C|
+L: 1/8
+K: A
+uC |\
+(A,C)CE (cA)Ac | (BA)GF (EC)CE |[1 (A,C)CE (cA)Ae | cAEC B,3 :| [2 (A,C)CE (cA)eA | cAEC B,3 ||
+uf |\
+(ec)af (ec)cb | (ag)af (ec)cf | (ec)af (ec)cb | (ag)ac B2Bf |
+(ec)af (ec)cb | (ag)af (ef)ce | cABG AcBc | AFEC "_Fine"B,3 "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32043
+T: HUNTLY'S WEDDING MEDLEY -- Strathspey
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.204 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: A
+(ubagf) |\
+(.e3.c) {AB}(c3A) FA3(E3D) | (C3E)A2g2 a4 (bagf) |\
+(.e3.A) {AB}(c3A) FA3 (E3C) | (EFGA) (B3G) A6 (ub/a/g/f/) |
+(.e3.A) {AB}(c3A) FA3(E3D) | (C3E)A2g2 a4 (bagf) |\
+(.e3A) {AB}(c3A) FA3 (E3C) | (EFGA) (B3G) A6 || uE2 |
+CE3(E3G) (AE3)E3C | C(E3A3B) | ~c4 (dcBA) |\
+CE3(E3G) (AE3)E3C | (EFGA) (B3G) A4 (A2E2) |
+CE3(E3G) (AE3)E3D | C3EA2g2 a4 (bagf) |\
+(3e2c2e2 (3f2d2f2 (3g2e2g2 {g}(a3f) | (efga) (b3g) "_Segue Reel."a4 "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32051
+T: "MERRY MAY THE PAIR BE" -- Reel
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.205 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|:\
+{G}vA2(Aa) cAec | {G}A2(Aa) cAea |\
+[1 {G}A2(Aa) cAec | (dB)Bc (de)fa :|\
+[2 {G}A2(Aa) cABG | AB,B,C DEFG ||
+vAAGA FAED | CA,EA, FA,EG |\
+AAGA FAEC | DB,B,C DEFG |
+AAGA FAED | CA,EA, FA,Ed |\
+(cA)(eA) (aA)(ec) | (dB)(fB) bBf"_Fine"a "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32052
+T: "THE COCK OF THE NORTH" -- Strathspey
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.205 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Some long beams broken for readability.
+M: C|
+L: 1/8
+K: Bb
+d |\
+(.B>.B,) B,/B,/B, F>B, D<d | B>B, (D/B/)d (.c>.A) (B>G) |\
+(.F>.B,) B,/B,/B, F>B, D<B | C<C (D>F) G2 G :|
+ud |\
+B>f d<f F<B D>d | B<f (d>f) (g>B) f<d |\
+B>f d<f F<B D>B | C<C (D>F) G2 G ||
+d |\
+B>f d<f F<B D>d | B<f (d>f) (g>B) f<b |\
+f<d ({Bc}d>B) (c>A) B<d | C<C (D>F) "_Segue Reel."G2 G "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32053
+T: "FAIR FA' THE MINSTREL" -- Reel
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.205 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Last part has an initial repeat but no final repeat.  (Not fixed)
+N: Parts 2 and 4 probably shouldn't be repeated, to give a 32-bar reel.
+M: C|
+L: 1/8
+K: Bb
+ue !segno!|\
+dB B/B/B (Fc)De | dB B/B/B (dB)fe | dB B/B/B (FB)DB | GEFD CDE :|
+|: uG |\
+(DB,)(FB,) GB,FB, | (DB,)(FB,) DEFB | (DB,)(FB,) GB,FB, | GEFD CDEG |
+(DB,)(FB,) GB,FB, | (DB,)(FB,) DEFe | dBcA BGFD | GEFD CDE :|
+|: ue |\
+dB B/B/B (FB)De | dB B/B/B (dB)fe | dB B/B/B (FB)DB | GEFD CDE :|
+|: ue |\
+(dB)(fB) gBfe | (dB)(fB) defb | (dB)(fB) gBfd | gefd cdeg |
+(dB)(fB) gBfe | (dB)(fB) defb | dbfd bdfb | gefd cdeg !segno!"_D.C."|]
+
+%%sep 2 1 500
+
+X: 32061
+T: "THE NEW CONQUEST" -- Contre Dance
+R: march, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.206 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Missing bar line between bars 11, 12 added.
+M: 2/4
+L: 1/16
+K: G
+(ud/e/d/c/) !segno!|\
+B2B2B2~c2 | d2d2g2e2 | d2(Bd) cBAG | F2A2A2 (d/e/d/c/) |
+B2B2B2~c2 | dgfg agfe | d2(Bd) c2(Ac) | B2G2G2 :|
+|: ud2 |\
+~g2(bg) gfed | e2(ge) edcB | e2e2 d2B2 | c2A2A2d2 |
+~g2(bg) gfed | e2(ge) edcB | A3G ABcd | B2G2G2 :|
+d2 |\
+gbag fagf | egfe dcBd | efgf edcB | c2A2 dcBA |
+GABG ABcA | BcdB cdec | (dg)gg (fa)aa | gfed cBAG !segno!|]
+
+%%sep 2 1 500
+
+X: 32062
+T: PADDY O' SNAP JIG -- Contre Dance
+R: slip jig
+B: K\"ohler's Violin Repository, v.3, 1885 p.206 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: D
+|: (.vf2.d) {e}dcd fed | (.g2.e) efd cBA | (.f2.d) {e}dcd fed | efg ABc d3 :|
+|: {A}(v.a2.A) ABG FAd | (.B2.e) efd efg | {A}(.a2.A) ABG FGA | efg ABc d3 :|
+
+%%sep 2 1 500
+
+X: 32063
+T: MISS SAMUEL'S FANCY JIG -- Contre Dance
+R: 6/8
+B: K\"ohler's Violin Repository, v.3, 1885 p.206 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: There's only one segno, at the very end.
+M: 6/8
+L: 1/8
+K: A
+uE |\
+c3 cdB | e3 cag | gfe e^d=d | cdc (.B2.E) |\
+c3 cdB | e3 cag | gfd cdB | A3- A2 :|
+uc |\
+(B2E) Bcd | cAA (.A2.c) | (B2E) Bcd | cAA A2c/d/ |\
+e3 cag | gfe e^d=d | cde fdB | "_D.C. for Finale."A3 G2 !segno!|]
+
+%%sep 2 1 500
+
+X: 32071
+T: BLACK JOCK, WITH VARIATIONS
+C: Arranged by W. B. Laybourn
+R: jig
+P: To play this, Tune the Third and Fourth Strings one note higher. [AEAE tuning]
+N: This is "scordatura", with the notes below A sounding a whole step higher.
+B: K\"ohler's Violin Repository, v.3, 1885 p.207-210
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Added dots to last notes when next phrase has no pickup note.
+M: 6/8
+L: 1/8
+% Scale this tune set to fit on two "letter" pages:
+%%scale 0.60
+K: ^f^c^g=G=D
+% --------------------------------------------------
+% Page 207:
+uD |\
+(D2=G) G>FG | (.B2.B) {Bc}B>AB | (.c2.c) c>BA | (.B2.B) BAF |\
+=G3 (E2{FE}D) | D>EF =G2 || ud | (c2{dcBc}d) (.e2.e) | fdf {ef}(u.e2u.d) |
+(c2{dcBc}d) (.e2.e) | f>ga {ef}(.d2.c) | (.d2.b) (.c2.a) | B>cB B>AB |\
+c>dc c>BA | B>cB BAE | =G3 (E2{FE}D) | DEF =G2 |]
+P: Var.1
+uD |\
+=G,3G- GFG | BAB (B2{cB}A) | =G,>df edc | Bdc BAE |\
+=G3 (E2{FE}D) | D>EF =G2 || ud | cAc edc | d2(e f)ed |
+cAc edc | agf edc | dcd (d/e/)fe | edc (B2{cB}A) |\
+cea edc | Bdc BAE | =G3 (E2{FE}D) | DEF =G2 |]
+P: Var.2
+uD |\
+=G,2G- GFG | (.A,2.B) (B2{cB}A) | =G,2e- edc | Bdc BAE |\
+=G3 EdB | DEF =G2 || ue | =G,2(c e)dc | d2(e f)ed |
+=G,2(c e)dc | agf edc | d(bd) c(ac) | BcB {Bc}B>AB |\
+ced cBA | Bdc BAE | AcA EAE | D=GF G3 |]
+P: Var.3
+[|\
+(cAc) A/(B/c)A & D3 D3 | (BAB) (B2{cB}A) & D3 D3 | cde agf | edc BAE |\
+=G3 (E2{FE}D) | DEF =G2 || ud | c2{dcBc}d edc | fed edc |
+cde efe | (f/e/f/g/a) edc | (dgb) (cea) | BAB (B2{cB}A) |\
+(f2a) eca | Bdc BAF | =GBc EFG | DEF =G3 |]
+P: Var.4
+[|\
+=GGG GG,G | BBB (B2{cB}A) | ccc c=G,c | BBB BAE |\
+A(c/B/)A (E2{FE}D) | DEF =G2 || z | veee ecA | fdA ecA |
+% --------------------------------------------------
+% Page 208:
+eee ecA | acA ecA | [dE]dd [cE]cc | [BE]BB (B2{cB}A) |\
+fdf eca | Bdc BAE | =G(c/B/)A (E2{FE}D) | DEF =G3 |]
+P: Var.5
+(ve2a) (A2c) | BAB (B2{cB}A) | cde (d2c) | BAB BAE |\
+=G3 (E2d) | DEF =G3 || eAc (.e2.a) | fAd (.f2.a) |
+eAc (e2a) |fAd (f2a) | (d>ef/g/) agf | edc (B2{cB}A) |\
+cAe- e(ca) | Bdc BAE | =G3- GFE | DEF =G3 ||
+P: Var 6.
+.=G,>(DA/D/) .G,>(DA/D/) | .=G,>(DB/D/) .G,>(DB/D/) |\
+.=G,>(Dc/D/) .G,>(Dc/D/) | .=G,>(DB/D/) .G,>(DB/D/) |\
+.B,>(DA/D/) .=C>(EA/E/) | (A,>FB/F/) [=G,DA]3 ||\
+[=G=G,]>(ce/c/) [GG,]>(ce/c/) |
+[=G=G,]>(df/d/) (eac) |\
+[=G=G,]>(ce/c/) [GG,]>(ce/c/) | [=G=G,]>(df/d/) (eac) |\
+.d(Dd) .c(Dc) | .B(DB) .B(DB) | cDc- c(BA) | BDB- B(AF) |\
+=GDB, =CEA | (A,DF) [AD=G,]3 ||
+P: Var.7
+vc3 (cBd) & D3 D3 | (cAc) (B2{cB}A) & D3 D3 |\
+cde (d2c) | BAB BAE | =G3 (E3{FE}D) | DEF =G3 ||\
+(vc/d/)eA edc | fed (e2{fe}d) |
+(c/d/)eA edc | (f/e/f/g/a) {ef}ue2uc |\
+(d/e/)fd (c/d/)ec | (B/c/)dc (B2{cB}A) |\
+a>bc' edc | (B/A/B/c/d/c/) BAE |\
+(A>Bc/B/) =GED | DEF =G3 ||
+P: Var.8
+.A(DA) .A(DA) | .B(DB) .B(DB) | .c(Dc) .c(Dc) | .B(DB) .B(DB) |\
+AcA EAE | D=GF G3 || .e(Ae) .e(Ae) | .f(Af) .f(Af) |
+.e(Ae) .e(Ae) | .a(Aa) .a(Aa) | dgb cea | .B(DB) .B(cB) |\
+.c(Dc) .c(ec) | .B(DB) .B(eg) | a3 (f2{gf}e) | efg a3 ||
+% --------------------------------------------------
+% Page 209:
+P: Var.9
+=G,A,B,=CDE | F=GB cde | Ac'b agf | edc BAE |\
+=G3 EdB | DEF =G3 || (vc/d/)(eA) e(c/d/e/c/) | f(d/e/f/d/) e2d |
+(c/d/)(ec) e(c/d/e/c/) | f(d/e/f/d/) e(c/d/e/c/) |\
+f(d/e/f/d/) g(e/f/g/e/) | a(f/g/a/f/) e(d/c/B/A/) |\
+f/g/a/g/f/e/ d2c | Bdc BAE | =GBc EFG | DEF =G3 ||
+P: Var.10
+({=GA}G>FG) ({GA}G>FG) & =G,3 G,3 | ({Bc}[BD]A.B) ({Bc}[BD]A.B) |\
+({cd}[cD]A.c) ({cd}[cD]A.c) | ({Bc}[BD]A.B) BAE |\
+A3 A3 &=G3 (E2D) | A3 A3 & DEF =G3 || veAc Ae=g | fdA Adf |
+ecA Ace | fdf ecA | dA,(d c)G,(c | B)DB (B2A) |\
+c=G,c- c(BA) | BDB- B(AF) | =G3- G(FE) | DEF =G3 ||
+P: Var.11
+vea(g a)(Aa) | b(Ab) b(Ab) | c'(Ac') c'(Ac') | b(Ab) b(ag) |\
+a3 (f2{gf}e) | efg a2 || d' | c'(Ac') e'(d'c') | d'(Ad') f'(e'd') |
+c'(Ac') e'(d'c') | d'(Ad') f'(e'd') | e'(Ae') d'(Ad') | c'(Ac') b(Ab) |\
+c'(Ac') c'(Ac') | b(Ab) b(ag) | a3 (f2{gf}e) | efg a3 ||
+P: Var.12
+(v.D2.D) D3 & =G,2G, (G,A,G,) | (.D2.D) D3 & A,2A, (A,B,A,) |\
+(.D2.D) D3 & B,2B, (B,A,=G,) | D3 F3 & (A,B,A,) A,3 |\
+% --------------------------------------------------
+% Page 210:
+[GB,]3 [E=C]3 | [DB,][E=C][FA,] [=G=G,]2 || ud |\
+(c2d) (.e2.e) & D3 D3 | (.f2.f) (e2d) & D3 D3 |
+(cec) (ece) & D3 D3 | (fdf) (ece) & D3 D3 |\
+(dfd) (cec) & D3 D3 | (BcB) (BAB) & D3 D3 |\
+(c>dc) (c>BA) & D3 D3 | (BcB) [g3B3] & D3 x3 |\
+[a3c3] [f3d3] | [ec][fd][gB] [ac]2 ||
+P: Var 13
+uD |\
+D(=G/F/)G/A/ G/D/F/D/G/D/ | (.B2.B) (B/D/)A/D/B/D/ |\
+(c/B/)c/d/c (c/D/)B/D/A/D/ | (B/A/)B/c/B (B/A/)B/c/d/B/ |\
+=G2(D E/D/)E/F/G/E/ | (D/G,/)E/G,/F/G, G2 || ud |
+(c/A/)c/A/d/A/ (.e2.e) | (f/d/)f/g/a/f/ {ef}(.e2.d) |\
+(c/A/)c/A/d/A/ (.e2.e) | (f/d/)f/g/a/f/ {ef}(.e2.c) | d/g/b/(d/c/B/) c/e/a/(c/B/A/) |
+(B/D/)c/D/B/D/ {Bc}B2A/B/ | (c/D/)d/D/c/D/ {cd}c2B/A/ |\
+(B/D/)c/D/B/D/ (B/d/)c/B/A/F/ | =G2(D E/D/)E/F/G/E/ | (D/=G,/)E/G,/F/G,/ G3 ||
+P: Var.14
+=G,B,D ABc | DFB dcB | DAc edc | Bdc BAF |\
+=GDB, =CEA | A,DF =G3 || vDAc edc | d2(e f)ed |
+DAc edc | agf edc | dfd cec | Bdc (B2{cB}A) |\
+(c/A/B//c//d//e//f//g// a)(.g.f) | edc BAF | =GFE D=CB, | =CB,A, "^Fine"u[AD=G,]2 |]
+
+%%sep 2 1 500
+
+X: 32072
+T: BLACK JOCK, WITH VARIATIONS
+C: Arranged by W. B. Laybourn
+R: jig
+P: For violin in standard G,DAe tuning; the original A,EAe "scordatura" version is X:32071.
+N: The original was "scordatura", with the notes below A written a whole step lower.
+B: K\"ohler's Violin Repository, v.3, 1885 p.207-210
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Added dots to last notes when next phrase has no pickup note.
+M: 6/8
+L: 1/8
+% Scale this tune set to fit on two "letter" pages:
+%%scale 0.60
+K: A
+% --------------------------------------------------
+% Page 207:
+uE |\
+(E2A) A>GA | (.B2.B) {Bc}B>AB | (.c2.c) c>BA | (.B2.B) BAG |\
+A3 (F2{GF}E) | E>FG A2 || ud | (c2{dcBc}d) (.e2.e) | fdf {ef}(u.e2u.d) |
+(c2{dcBc}d) (.e2.e) | f>ga {ef}(.d2.c) | (.d2.b) (.c2.a) | B>cB B>AB |\
+c>dc c>BA | B>cB BAF | A3 (F2{EF}E) | EFG A2 |]
+P: Var.1
+uE |\
+A,3A- AGA | BAB (B2{cB}A) | A,>df edc | Bdc BAF |\
+A3 (F2{GF}E) | E>FG A2 || ud | cAc edc | d2(e f)ed |
+cAc edc | agf edc | dcd (d/e/)fe | edc (B2{cB}A) |\
+cea edc | Bdc BAF | A3 (F2{GF}E) | EFG A2 |]
+P: Var.2
+uE |\
+A,2A- AGA | (.B,2.B) (B2{cB}A) | A,2e- edc | Bdc BAF |\
+A3 FdB | EFG A2 || ue | A,2(c e)dc | d2(e f)ed |
+A,2(c e)dc | agf edc | d(bd) c(ac) | BcB {Bc}B>AB |\
+ced cBA | Bdc BAF | AcA FAF | EAG A3 |]
+P: Var.3
+[|\
+(cAc) A/(B/c)A & E3 E3 | (BAB) (B2{cB}A) & E3 E3 | cde agf | edc BAF |\
+A3 (F2{GF}E) | EFG A2 || ud | c2{dcBc}d edc | fed edc |
+cde efe | (f/e/f/g/a) edc | (dgb) (cea) | BAB (B2{cB}A) |\
+(f2a) eca | Bdc BAG | ABc FGA | EFG A3 |]
+P: Var.4
+[|\
+AAA AA,A | BBB (B2{cB}A) | ccc cA,c | BBB BAF |\
+A(c/B/)A (F2{GF}E) | EFG A2 || z | veee ecA | fdA ecA |
+% --------------------------------------------------
+% Page 208:
+eee ecA | acA ecA | [dF]dd [cF]cc | [BF]BB (B2{cB}A) |\
+fdf eca | Bdc BAF | A(c/B/)A (F2{GF}E) | EFG A3 |]
+P: Var.5
+(ve2a) (A2c) | BAB (B2{cB}A) | cde (d2c) | BAB BAF |\
+A3 (F2d) | EFG A3 || eAc (.e2.a) | fAd (.f2.a) |
+eAc (e2a) |fAd (f2a) | (d>ef/g/) agf | edc (B2{cB}A) |\
+cAe- e(ca) | Bdc BAF | A3- AGF | EFG A3 ||
+P: Var 6.
+.A,>(EA/E/) .A,>(EA/E/) | .A,>(EB/E/) .A,>(EB/E/) |\
+.A,>(Ec/E/) .A,>(Ec/E/) | .A,>(EB/E/) .A,>(EB/E/) |\
+.C>(EA/E/) .D>(FA/F/) | (B,>GB/G/) [A,EA]3 ||\
+[AA,]>(ce/c/) [AA,]>(ce/c/) |
+[AA,]>(df/d/) (eac) |\
+[AA,]>(ce/c/) [AA,]>(ce/c/) | [AA,]>(df/d/) (eac) |\
+.d(Ed) .c(Ec) | .B(EB) .B(EB) | cEc- c(BA) | BEB- B(AG) |\
+AEC DFA | (B,EG) [AEA,]3 ||
+P: Var.7
+vc3 (cBd) & E3 E3 | (cAc) (B2{cB}A) & E3 E3 |\
+cde (d2c) | BAB BAF | A3 (F3{GF}E) | EFG A3 ||\
+(vc/d/)eA edc | fed (e2{fe}d) |
+(c/d/)eA edc | (f/e/f/g/a) {ef}ue2uc |\
+(d/e/)fd (c/d/)ec | (B/c/)dc (B2{cB}A) |\
+a>bc' edc | (B/A/B/c/d/c/) BAF |\
+(A>Bc/B/) AFE | EFG A3 ||
+P: Var.8
+.A(EA) .A(EA) | .B(EB) .B(EB) | .c(Ec) .c(Ec) | .B(EB) .B(EB) |\
+AcA FAF | EAG A3 || .e(Ae) .e(Ae) | .f(Af) .f(Af) |
+.e(Ae) .e(Ae) | .a(Aa) .a(Aa) | dgb cea | .B(EB) .B(cB) |\
+.c(Ec) .c(ec) | .B(EB) .B(eg) | a3 (f2{gf}e) | efg a3 ||
+% --------------------------------------------------
+% Page 209:
+P: Var.9
+A,B,CDEF | GAB cde | Ac'b agf | edc BAF |\
+A3 FdB | EFG A3 || (vc/d/)(eA) e(c/d/e/c/) | f(d/e/f/d/) e2d |
+(c/d/)(ec) e(c/d/e/c/) | f(d/e/f/d/) e(c/d/e/c/) |\
+f(d/e/f/d/) g(e/f/g/e/) | a(f/g/a/f/) e(d/c/B/A/) |\
+f/g/a/g/f/e/ d2c | Bdc BAF | ABc FGA | EFG A3 ||
+P: Var.10
+({AB}A>GA) ({AB}A>GA) & A,3 A,3 | ({Bc}[BE]A.B) ({Bc}[BE]A.B) |\
+({cd}[cE]A.c) ({cd}[cE]A.c) | ({Bc}[BE]A.B) BAF |\
+A3 A3 &A3 (F2E) | A3 A3 & EFG A3 || veAc Ae=g | fdA Adf |
+ecA Ace | fdf ecA | dB,(d c)A,(c | B)EB (B2A) |\
+cA,c- c(BA) | BEB- B(AG) | A3- A(GF) | EFG A3 ||
+P: Var.11
+vea(g a)(Aa) | b(Ab) b(Ab) | c'(Ac') c'(Ac') | b(Ab) b(ag) |\
+a3 (f2{gf}e) | efg a2 || d' | c'(Ac') e'(d'c') | d'(Ad') f'(e'd') |
+c'(Ac') e'(d'c') | d'(Ad') f'(e'd') | e'(Ae') d'(Ad') | c'(Ac') b(Ab) |\
+c'(Ac') c'(Ac') | b(Ab) b(ag) | a3 (f2{gf}e) | efg a3 ||
+P: Var.12
+(v.E2.E) E3 & A,2A, (A,B,A,) | (.E2.E) E3 & B,2B, (B,CB,) |\
+(.E2.E) E3 & C2C (CB,A,) | E3 G3 & (B,CB,) B,3 |\
+% --------------------------------------------------
+% Page 210:
+[AC]3 [FD]3 | [EC][FD][GB,] [AA,]2 || ud |\
+(c2d) (.e2.e) & E3 E3 | (.f2.f) (e2d) & E3 E3 |
+(cec) (ece) & E3 E3 | (fdf) (ece) & E3 E3 |\
+(dfd) (cec) & E3 E3 | (BcB) (BAB) & E3 E3 |\
+(c>dc) (c>BA) & E3 E3 | (BcB) [g3B3] & E3 x3 |\
+[a3c3] [f3d3] | [ec][fd][gB] [ac]2 ||
+P: Var 13
+uE |\
+E(A/G/)A/B/ A/E/G/E/A/E/ | (.B2.B) (B/E/)A/E/B/E/ |\
+(c/B/)c/d/c (c/E/)B/E/A/E/ | (B/A/)B/c/B (B/A/)B/c/d/B/ |\
+A2(E F/E/)F/G/A/F/ | (E/A,/)F/A,/G/A, A2 || ud |
+(c/A/)c/A/d/A/ (.e2.e) | (f/d/)f/g/a/f/ {ef}(.e2.d) |\
+(c/A/)c/A/d/A/ (.e2.e) | (f/d/)f/g/a/f/ {ef}(.e2.c) | d/g/b/(d/c/B/) c/e/a/(c/B/A/) |
+(B/E/)c/E/B/E/ {Bc}B2A/B/ | (c/E/)d/E/c/E/ {cd}c2B/A/ |\
+(B/E/)c/E/B/E/ (B/d/)c/B/A/G/ | A2(E F/E/)F/G/A/F/ | (E/A,/)F/A,/G/A,/ A3 ||
+P: Var.14
+A,CE ABc | EGB dcB | EAc edc | Bdc BAG |\
+AEC DFA | B,EG A3 || vEAc edc | d2(e f)ed |
+EAc edc | agf edc | dfd cec | Bdc (B2{cB}A) |\
+(c/A/B//c//d//e//f//g// a)(.g.f) | edc BAG | AGF EDC | DCB, "^Fine"u[AEA,]2 |]
+
+%%sep 2 1 500
+
+X: 32111
+T: CELIA SCHOTTISCHE
+C: John Taylor
+R: shottish
+B: K\"ohler's Violin Repository, v.3, 1885 p.211 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+|:\
+(ve>f)g>a g<c'e'2 | (d'<c')e>f a2g2 |\
+f>dB>c d<fb2 | (a>g)e>f g<c'e'2 |\
+(e<f)g<a g<c'e'2 | (d'<c')e>f a2g2 |
+a>g^f>g =f>dA>B | c2c2c2z2 :|[K:G]\
+((3ded)^c>d b2g>B | d2e>B c4 |\
+((3cdc)B>c a2g>c | B2e>d d4 |
+((3ded)^c>d b2g>f | ((3efe)a>vb c'3d' |\
+c'>ba>g f>ga>f |[1 g2g2g2z2 :|[2 (.g2.g2)g2=f2 ||[K:C]\
+(ve>f)g>a g<c'e'2 | (d'<c')e>f a2g2 |
+f>dB>c d>fb2 | (a>g)e>f g<c'e'2 |\
+(e<f)g<a g<c'e'2 | (d'<c')e>f a2g2 |\
+a>g^f>g =f>dA>B | c2c2c2 H|][K:F]
+P: Trio.
+(uAB) |\
+c4- c(agf) | d4- d(bgf) | .e2.f2 .g2.f.g | .a2.f.d .c(BAB) |\
+c4- c(agf) | d4- d(bgf) | e2a>d' c'2g>a |[1 f2f2f2 :|[2 f2f2f2 |:
+vTa2f>c Ta2f>c | b2b>a g4 | c'2b>a g2f>e | d2c=B (dc)Ac | Ta2f>c Ta2f>c |\
+b2b>a g4 | (d'c')(d'c') bgde |[1 f2f2f2 :|[2 f2f2 f(cAB) ||
+c4- c(agf) | d4 d(bgf) | .e2.f2 .g2.f.g | .a2.f.d c(BAB) |\
+c4- c(agf) | d4 d(bgf) | e2a>d' c'2g>a | f2f2f2 "D.C."z2 |]
+
+%%sep 2 1 500
+
+X: 32121
+T: THE THISTLE HORNPIPE
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.212 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+uF2 |\
+(B>A)B>d (c>e)c>A | (3BAB (d>B) G2F2 | (B>A)B>d (g>f)d>B | (c>=B)c>d (.c2.F2) |
+(B>A)B>d (c>e)c>A | (3BAB (d>B) G2(F>E) | (3DFB (3dcB (3Agf (3edc | B2b2 B2 :|
+|: uf2 |\
+(g>f)g>a (.b2.b2) | (3BAB (d>B) G2F2 | (B>A)B>d (g>f)d>B | (c>=B)c>d (.c2.f2) |
+(g>f)g>a (.b2.b2) | (3BAB (d>B) G2(F>E) | (3DFB (3dcB (3Agf (3edc | B2b2 B2 :|
+
+%%sep 2 1 500
+
+X: 32122
+T: BLUE BONNETS HORNPIPE
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.212 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The first A in bar 8 should probably be a G, as in bar 16.
+M: C|
+L: 1/8
+K: C
+(ugf) |\
+e>c ((3cBc) G>c ((3cBc) | e>c (3ege c2 d>e | f>d ((3d^cd) B>d ((3dcd) | B>A (3BdB G2 g>f |
+e>c ((3cBc) G>c ((3cBc) | e>c (3 ege c2 fg | a>(fg)>(e f)>(de)>(c | B)>(AA)>B c2 :|
+|: (ug>f) |\
+e>g ((3g^fg) e>g ((3gfg) | e>c (3ege c2 d>e | f>a ((3a^ga) f>a ((3aga) | f>d (3faf d2 g>f |
+e>g ((3g^fg) e>g ((3gfg) | e>c (3ege c2 fg | a>(fg)>(e f)>(de)>(c | B)>(GA)>B c2 :|
+
+%%sep 2 1 500
+
+X: 32123
+T: THE SHAMROCK HORNPIPE
+C: By W. C. Paton, Edinr.
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.212 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The first tripleg in bar 9 was labelled "2".
+M: C|
+L: 1/8
+K: Am
+ue2 |\
+aAce aAce | aAdf aAdf | efed cBAe | (fe)dc (Bc)de |
+aAce aAce | aAdf aAdf | (3efe (3ded (3cdc (3BcB | A2{^g}a2 A2 :||: (uAB) |
+(3ccc (cA) (3eee (ed) | cdBc A2(AB) | (3ccc (cA) (3eee (ef) | de cd Bc AB |
+(3ccc (cA) (3eee (ed) | cdBc (.A2.f2) | ef de cd Bc | A2{^g}a2 A2 :|
+
+%%sep 2 1 500
+
+X: 32131
+T: FORGET-ME-NOT HORNPIPE
+C: By J. C. Paton, Edinburgh
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.213 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The C in bar 1 might be a typo.  The D in bar 5 sounds better.
+M: C|
+L: 1/8
+K: G
+u(Bc) |\
+(dB)GD (B,C)GB | (cB)AG (FG)Ac | (Bd)gf (ed)cB |
+(AG)FG (AB)c^c | (dB)GD (B,D)GB | (cB)AG (FG)Ac | (Bd)gf (ed)^ce |
+[1 (dD)FA d2 :|[2 d2d2 d2 |: (ufg) | (ag)fe (fg)ef | decd BcAB | GABc defg |
+(fe)de (dc)Bc | (Bg)gg (fg)de | (de)ee (de)cd | (Bc)dB (AB)cA | (3GBc (3def g2 :|
+
+%%sep 2 1 500
+
+X: 32132
+T: ROCK HORNPIPE
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.213 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+(uFG) |\
+A3(B AF)DF | (Bd)cd (AF)DF | G2BA F2AF | G2E2 E2(EF) |
+DFAc d2(df) edcB A2d2 | cecA BdB^G | A2A2 A2 :||: (ucd) |
+e3(f ec)Ac | (ea)^ga (ec)Ac | d2fd c2ec | d2B2 B2((3ABc) |
+(dc)dA (BA)GF | GABc d2(cd) | (BA)GF (GB)AG | F2D2 D2 :|
+
+%%sep 2 1 500
+
+X: 32133
+T: STETSON'S HORNPIPE
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.213 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Corrected the original 2/4 time signature.
+M: C
+L: 1/8
+K: F
+uc |\
+f>c ((3c=Bc) f>c ((3cBc) | (de)fg a>f ((3fef) | (d>b)c>a (B>g)A>f | (G>B)c>B A>F C2 |
+f>c ((3c=Bc) f>c ((3cBc) | (d>e)f>g a>f ((3fef) | (d>b)c>a (B>g)A>f | G>(fa>g) f2 :||: (uc>f) |
+a2g>e f>ac'2 | (f>g)e>f dfb2 | (b>a)a>g g>ff>e | f>a (g/f/e/f/) c2(f>g) |
+a2g>e f>ac'2 | (f>g)e>f dfb2 | (b>a)a>g g>ff>g | f>ca>g f2 :|
+
+%%sep 2 1 500
+
+X: 32141
+T: JEANIE IN THE GLEN STRATHSPEY -- (NEW)
+C: By J. McQueen, Forres
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.214 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Fixed incorrect note length in bar 5 to match bar 7.
+M: C|
+L: 1/8
+K: Bb
+uF |\
+F<B (B>c) (d>c) B<F | G<c (c>d) (e>d) c<F |\
+F<B (B>c) (d>c) d<g | (.f>.d) (c>d) B<G G :|
+(ud/c/) |\
+B<F (F>B) (G>B) F>B | d>B (F>B) (G<c) c (d/c/) |\
+B<F (F>B) (G>B) F>B | d>g (f>e) (d<B) B(d/c/) |
+B<F (F>B) (G>B) F>B | d<B (F>B) (G<c) c(d/e/) |\
+(3fgf (3edc (3dcB (3AGF | (3BAG (3FBc d<B "_Segue Reel."B "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32142
+T: JEANIE'S REEL
+C: By W. B. Laybourn, from the above
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.214 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+uF |\
+FB ((3BAB) dB ((3BAB) | Gc (c=Bc) (ed)cF | FB ((3BAB) (dc)dg | (fd)cd (BG)G :|
+ud |\
+BFFB GBFB | dB FB Gccd | BFFB GBFB | (dg)fe (dB)Bd |
+BFFB GBFB | dBFB Gcce | f(fec) dBAF | (BG)Fc (dB)"_Finale"B "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32143
+T: McQUEEN'S FROLIC -- Strathspey
+C: By Geo. J. Ingram
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.214 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+uG !segno!|\
+G<c(c>e) (d>c)A>B | (.c>.A) (G>E) (.A>.D)(DF) |\
+E<G(c>e) (d>c)A>a | (3gfe (g>e) d<cc :|
+uf |\
+e<g(g>e) (a>e)g>c | (.e>.c) (g>e) (.a>.d)(d>f) |\
+e<g(g>e) (a>e)g>e | (f/e/d/c/) (B>g) e<c c>G |
+(c/d/e/f/) (g>e) (a>e) (g>c) | (3edc (3gfe (.a>.d)-(d>f) |\
+(3efg (3fga (3def (3efg | (3agf (3edc (3fed "_Segue Reel."(3cBA "^D.C."!segno!|]
+
+%%sep 2 1 500
+
+X: 32151
+T: THE SMIDDY'S CLAMOUR REEL -- (New)
+C: By J. McQueen, Forres
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.215 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+   uG | c2(ce) dcAG | c2(ce) gage | ccce dcAG | agec d2c :|
+|: ue | gage abae | gage aeef | gage abae | agec d2c "^Fine.":|
+
+%%sep 2 1 500
+
+X: 32152
+T: CALDER'S WELCOME -- Strathspey -- (New)
+C: By J. McQueen, Forres
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.215 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+(uA/B/) |\
+(.c>.A) {c}(B>G) A2 (Bc) | e<d d>c B<uG uG2 |\
+(.c>.A) {c}(B>G) A2 (Bd) | e<a (e>d) (e<A)A :|
+uA |\
+e<a(a>g) (a>g)e>f | (.g>.f)(d>g) B<uG uG2 |\
+e<a(a>g) (a>e)e>d | B<b e>d e<uA uA2 |
+e<a(a>g) (a>e)e>f | (.g>.e) (d>g) B<(G"^>"G>B) |\
+(3cBA (3dcB (3edc (3BAG | (3cBA (3EAB "_Segue Reel."c<A A "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32153
+T: MRS. SCOTT SKINNER -- Reel
+C: By J. McQueen, Forres
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.215 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+ug |\
+ec c/c/c (cG)EG | FD D/D/D (FD)DF | ec c/c/c (cG)EG |[1 ECDB, C3 :|[2 EcdB c2(c ||
+uG) |\
+(cB)ca (ge)cB | BGBd BGGB | (cB)ca (ge)cB | (Bc)dB c2cG |
+(cB)ca (ge)cB | BdBd BGGE | (FE)FG (AG)Ac | (Bc)dB c2"_Fine."uc "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32161
+T: WIESBADEN POLKA
+R: polka
+B: K\"ohler's Violin Repository, v.3, 1885 p.316 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Fixed missing count in bar 8.
+N: The 2nd phrase has 17 bars.
+%: No composer is listed.
+%: Why does the 4th part have a "key change" from F to F?
+%: At the bottom is "(To be Continued.)"; what does this mean?
+M: 2/4
+L: 1/16
+U: S=!//!
+K: C
+|:\
+vefd2 G2d2 | dec2 G2c2 | def2 fga2 | gag2 (.e2.e2) |\
+efd2 G2d2 | dec2 G2c2 | agf2 fed2 | c2e2c4 :|
+|: vc4 (gabc') | d'2b2g2b2 | c'4 (efga) | (g2f2) (d'c'ba) |\
+g4 (gabc') | d'2b2g2b2 | c'4 (^fgac') | b2bb (.b2.b2) |
+b2b2b2b2 | efd2 G2d2 | dec2 G2c2 | def2 fga2 |\
+gag2 (.e2.e2) | efd2 G2d2 | dec2 G2c2 | agf2 fed2 | c2c'c' c'4 |]
+K: F
+|:\
+vc4 f2ed | c2(dc) a2f2 | c4 f2ed | c2(dc) a2f2 |\
+a2ab c'2c'd' | e'2 f'4 e'd' | c'2 d'4 c'b | (ab)ga f4 :|
+K: F
+|:\
+vfgf_e c2e2 | dfb2- bagf | agf_e c2e2 | dfb2- bagf |\
+agf_e d=efd | c2(de) fgab | c'2c'2c'2b2 | (ab)c'a f4 "^D.C.":|
+K: C
+"^Coda"vefd2 G2d2 | dec2 G2c2 | def2 fga2 | gag2 (.e2.e2) |\
+efd2 G2d2 | dec2 G2c2 | agf2 fed2 | ceg^f a2g2 |
+def^f ag=fd | ceg^f a2g2 | def^f ag=fd | S[c'8e8] | S[c'8e8] |\
+S[c'8e8] | S[c'8e8] | [c'4e4]z4 | [c'4e4]z4 | [c'4e4]v"^Finale."C4 |]
+% Tremolo notation works with abcm2ps.
+% %text (To be Continued.)
+
+%%sep 2 1 500
+
+X: 32162
+T: EMELINA POLKA
+C: Composed by J.C. Paton, Edinburgh
+N: Bowing and Fingering arranged by W.B. Laybourn
+R: polka
+B: K\"ohler's Violin Repository, v.3, 1885 p.217 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+Q:"Vivace"
+K: C
+%%indent 400
+P: Introduction
+cd"^>"e2 AB"^>"c2 | F2G"_>"A D2E"_>"F | DB,G,B, DGBd | H[f4d4] z4 ||
+!segno!|: !mf!(uEF) "Polka"|\
+{A}G^FGA GFGA | G2 "^>"e4 dc | B2 "^>"f4 ed | c2ga g2EF |\
+{A}G^FGA GFGA | G2 "^>"e4 dc | vB2"^>"f2- fABG | c2c2c2 :|
+K: G
+|: !ff!(Bc) |\
+(dB)GD (GB)dg | f2A2 "^>"c4 | f2A2 (.c3.f) | e2d2 B2(Bc) |\
+(dB)GD (GB)dg | f2e2 (.[c'3a3].b) | a2g2 {g}fefd | g2g2g2 :|
+K: C
+(EF) |\
+{A}G^FGA GFGA | G2"^>"e4 dc | B2 "^>"f4 ed | c2ga g2EF |\
+{A}G^FGA GFGA | G2 "^>"e4 dc | vB2vf2- fABG | c2c2c2z2 |]
+K: F
+|: (c3A) (d3A) | (cB)GE C2z2 | {e}g2{d}f2{c}e2{B}d2 | {A}c2B2 (Ad)c2 |\
+(c3A) (d3A) | (cB)GE (.C3.F) | (E/F/)z(G/A/)z (B/c/)z(d/e/)z |\
+[1 (fc)ag f2 :|[2 "Da Capo to "f2f2f2 !segno!|]
+
+%%sep 2 1 500
+
+X: 32172
+T: WEE BELLA SCHOTTISCHE
+C: Composed by W.B. Laybourn
+R: shottish
+B: K\"ohler's Violin Repository, v.3, 1885 p.217 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Deleted spurious rest at end of first part.
+M: 2/4
+L: 1/16
+K: F
+|:\
+vc2A>B c>fa2 | (a>f)c>A (c2B2) | b2ge ^cAC2 | (f>e)d>^c (d2D2) |
+=c2A>B c>fa2 | (a>f)c>A (c2B2) | (Bb)(aA) ecde | [f2A2][f2A2][f2A2] :|
+|: ((3gag) |\
+e2((3c'd'c') a2((3fgf) | d2((3gag) e2((3cdc) | B2c2^c2d2 | e2f2^f2 ((3gag) |
+e2((3c'd'c') a2((3fgf) | d2((3gag) e2((3cdc) |[1 (Bc)(c^c) (cd)(d^d) | (^de)(ef) f2 :|[2 (Bc)de fgab | c'2c'2 _b4 "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32181
+T: CRAIGMILLAR CASTLE STRATHSPEY
+C: By W.C. Paton, Edinburgh
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.218 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+|:\
+("_>".G>.A) (B>c) d<uB uG2 | ("_>".F>.G) (A>B) c<f f>D |\
+("_>".G>.A) (B>c) d<uB uG2 | (.d>.e) (d>c) B<uG uG2 :|
+(.g>.a) (b>a) g<u^f ug2 | (.=f>.g) (a>f) c<f A<f |\
+(.g>.a) (b>a) g<u^f ug2 | (.d>.e) (d>c) B<G G>d |
+(.g>.a) (b>a) g<u^f ug2 | (.=f>.g) (a>f) c<f A<f |\
+(3gab (3fdB (3cde (3cBA | (3Bd!diminuendo(!f (3bfd (3cd!diminuendo)!B "_Segue Reel."(3A^FD "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32182
+T: CRAIGMILLAR CASTLE REEL
+C: By W.C. Paton, Edinburgh
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.218 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+|:\
+vGABc dBG2 | (FG)AB cff2 | (GA)Bc dBG2 | (de)dc (BG)G2 :|
+vgaba g^fg2 | (=fg)af cfAf | gaba g^fg2 | (de)dc BGG2 |
+(ga)ba g^fg2 | (=fg)af cfAf | gbfB cecA | Bdbd | cA"_Finale."^FD "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32183
+T: CAIRDS O' KEITH STRATHSPEY
+C: By J. McQueen, Forres
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.218 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+|:\
+vD2 (F<A) (.d>.e) (d<B) | A<F (d>A) (F<E)E>F |\
+D2 (F<A) (.d>.e)(d>A) | (3Bcd (3efg f<d d :|
+ug |\
+f>(da)>(d b)>(da)>(d | g)>(Af)>uc e2 (e<g) |\
+f>(da)>(d b)>(da)>ud | (3ABc (3deg f<dd>g |
+f>(da)>(d b)>(da)>(d | g)>(Af)>uA e2 (e<g) |\
+(3fga (3cBA (3dcB (3AGF | (3GAB (3ABc (3cBA (3GFE "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32191
+T: TO MY BED I WINNA GANG - Reel
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.219 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+ug |\
+(f/g/a) (AB) ABdF | EDEF B2(Bg) | (f/g/a) (AB) ABde | faef d2(d ||
+ue) |\
+f2fd g2ge | f2fd B2de | f2fd g2ge | (f/g/a) (ef) d2(de) |
+(fe)fd (gf)ge | (fe)fd (Bc)de | (fa)fd (gb)ge | faef d2"Fine."d |]
+
+%%sep 2 1 500
+
+X: 32192
+T: "BALMORAL" STRATHSPEY
+C: Composed by W.B. Laybourn, 1884
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.219 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Added flag to c note in bar 4, to correct the rhythm.
+N: The beaming in bar 5 is wrong; it should be like bar 9.
+M: C|
+L: 1/16
+K: A
+|:\
+vec3 [c3A3]B AuF3 u[F4D4] | dB3 [B3G3]A GuE3 u[E4C4] |\
+ec3 [c3A3]A FB3 [B4F4] | (Dd3) (Ee3) (cuA3) u[A4E4] :|
+(vagfg) (a3A)(g3A) (f3A) | (dcBc) (d3E) (c3E)(B3E) |\
+(AGFG) (A3F) (G3E)(F3D) | (E3C) (D3B,) (CuA,3) uA,4 |
+(agfg) (a3A) (g3A)(f3A) | (dcBc) (d3E) (c3E)(B3E) |\
+(F3A)(G3B) (A3c)(B3d) | (c3e)(B3g) auA3 u[A4E4] "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32193
+T: KEEP THE COUNTRY, BONNIE LASSIE
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.219 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+uf |\
+eAcA Bcdf | eAcA eAcA | dfce Bcdf | ecac {f}e2(A :|
+ug) |\
+(a/g/f/e/) (ce) Bcdf | (a/g/f/e/) (ce) aece | (a/g/f/e/) (ce) Bcdf | ecac e2(Ag) |
+(a/g/f/e/) (ce) Bcdf | (a/g/f/e/) (ce) (a/g/f/e/) (ce) | dfce Bcdf | eaca e2(A  |]
+
+%%sep 2 1 500
+
+X: 32201
+T: "THE CROWN" HORNPIPE
+C: By W.C. Paton, Edinburgh
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.220 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The {^a}b2 in bar 10 is a bit odd.
+M: C|
+L: 1/8
+K: Bb
+uF2 |\
+(3BBB (Bd) fdbf | (3BBB (dB) AcfA | Bbag f=e_ec | Bgfe dcBA | (3BBB (Bd) fdbf |
+(3BBB (dB) Acf=e |[1 f=e^cA agf=e | (fg)=ef d2 :|[2 f=e_ec AFEA | B2{^a}b2 B2 ||
+|: uB2 |\
+dD^FA dDGB | (de)dc BAG2 | ABcd efga | bagf edc^c | dD^FA dDGB |
+(de)dc BAG2 |[1 (3D^FA (3dcB (3Agf (3edc | B2{^a}b2 B2 :|[2 (AB)cd (ec)Ac | B2 (."^>"A2 "^>".G2) |]
+
+%%sep 2 1 500
+
+X: 32202
+T: "THE PEARL" HORNPIPE
+C: By W.C. Paton, Edinburgh
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.220 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+(uBc) |\
+(d>B)d>f (b>f)d>B | (c>b)a>g (f>e)d>c | ("^>"bB)("^>"aB) ("^>"gB)("^>"fB) | (ed)cB A2Bc |
+(d>B)d>f (b>f)d>B | (c>b)a>g (f>e)d>c | (f>=e)^c>A (a>g)f=e | d2d'2 d2 :|
+|: uD2 |\
+("^>"GF)GA (BA)Bc | (d"^>"^c)d"^>"c (d"^>"=c)BA | (de)d"^>"b (=cd)c"^>"a | (Bc)B"^>"g ("^>"BA)"^>"BA |
+("^>"G^F)GA (BA)Bc | (d"^>"^c)d"^>"c (d"^>"=c)BA | (de)d"^>"b (=cd)ca | B2A2 G2 :|
+
+%%sep 2 1 500
+
+X: 32203
+T: LENO HORNPIPE
+C: Composed by J. Easton, Edinburgh
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.220 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+(3FGA |\
+(B>A)B>g (f>d)B>F | (G>E)B>G (F>D)B,>D | (E>G)c>E (D>F)B>d | (3cdc (3BAG F2 ((3FGA) |
+(B>A)B>g (f>d)B>F | (G>E)B>G (F>D)B,>D | (E>G)c>E (D>F)B>d | (e>c)B>A B2 :|
+|: ((3fga) |\
+(b>a)b>g (f>d)B>d | (e>g)b>g (f>d)B>d | (e>g)c>e (d>f)B>d | (3cdc (3BAG F2 ((3FGA) |
+(B>A)B>g (f>d)B>F | (G>E)B>G (F>D)B,>D | (E>G)c>E (D>F)B>d | (e>c)B>A B2 :|
+
+%%sep 2 1 500
+
+X: 32211
+T: UNION JACK HORNPIPE
+C: Composed by J.C. Paton, Edinburgh, 1884
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.221 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+uG,2 |\
+(CE)DF (EG)FA | (GB)Ac (Bd)ce | .f.g.a.g .f.e.d.c | .B.A.G.F .E.D.C.B, |
+(CE)DF (EG)FA | (GB)Ac (Bd)ce |[1 dgab c'a^fa | g2g2 g2 :|[2 (fe)dc (Ba)gB | c2c2 c2 ||
+|: u"_>"E2 |\
+(A^G)AB (cB)Ac | (B^G)EG (Bf)ed | (ca)gf (ed)cc | (Bc)dc (BG)AB |
+(cB)cd (ed)ce | (d^c)de (fe)dd | (^de)^fa (af)df |[1 e2e'2 e2 :|[2 (ef)dB "_D.C."G2 |]
+
+%%sep 2 1 500
+
+X: 32212
+T: CAMPBELL'S HORNPIPE
+C: Composed by W.B. Laybourn, Edinburgh, 1884
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.221 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+(uA>G) | (F>A)d>c B>AG>F | E2"_>"e2- e>(fg)>e | (d>f)^g>a (^a>b)=g>e | a2d2- d>(BA)>G |
+(F>A)d>c (B>A)G>F | E2e2- e>(fg>e) | (^g>a)f>d =g>Af>A | ue2ud2 d2 :||: (uAG) |
+(F>A)d>c (B>A)G>F | (G>B)e>d (c>B)A>G | (F>A)d>A (G>B)d>B | (^G>B)d>B (A>c)e>c |
+(d>f)af (B>g)b>g | (e>^g)b>g (^a>b)=g>e | (^g>a)f>d =g>Af>A | ue2ud2 d2 :|
+
+%%sep 2 1 500
+
+X: 32213
+T: HORNPIPE
+C: By Archd. Allan, Teacher of Dancing
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.221 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a final repeat but no initial repeat.  The intended order may have been AABA.
+M: C|
+L: 1/8
+K: A
+uE2 |\
+A2 c>A (G>B) A>F | (E>A) c>e a2 e>c | (d>f) e>d (c>e) a>c | (d>c) B>A (G>B) E>G |
+A2 c>A (G>B) A>F | (E>A) c>e a2 e>c | (d>f) e>a (g>b) e>g | a2 a2 a2 :|
+|| (ug>a) |\
+(b>g)e>c d2e>d | (c>e)A>c e2d>c | B>f(^d>f) | B>f(d>f) | (g>a) g>f e2 g>a |
+(b>g)e>c d2e>d | (c>e)A>c e2a2 | (g>b)e>g (f>a)^d>f | ue2 ue2 "^D.C."e2 :|
+
+%%sep 2 1 500
+
+X: 32221
+T: THE LAIRD O' COCKPEN (for Two Violins)
+B: K\"ohler's Violin Repository, v.3, 1885 p.222-223
+F: http://www.archive.org/details/klersviolinrepos03rugg
+F: http://www.youscribe.com/catalogue/partitions-et-tablatures/art-musique-et-cinema/partitions-de-musique-romantique/partition-book-3-kohler-s-violon-repository-of-danse-music-kohler-s-1358681
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+%: The first page of this tune is illegible in the IMSLP (archive.org) edition.
+%: Page 222 transcribed from the youscribe.com edition.
+N: The 2nd part has a final repeat but no initial repeat.
+M: 6/8
+L: 1/16
+U: S=!/!
+K: Gm
+V: 1
+"Primo"\
+D2 |\
+G2A2G2 B4{d}cB | A2F2F2 (.F4.c2) |\
+G2A2G2 g4ag | f2d2d2 (d4e2) |\
+f2{a}g2f2 f2e2d2 | c2d2B2 A2B2c2 |\
+d2e2d2 (d3edc) | B2G2G2 G4 :|
+d2 |\
+g6 g2a2b2 | a2f2f2 f2g2a2 |\
+g6 g2a2g2 | f2d2d2 (d4=e2) |\
+f2g2f2 f2e2d2 | c2d2B2 A2B2c2 |\
+d6 d4cd | B2G2G2 G4 :|
+|: z2 |\
+GG,A,B,CD E=EFGAB | c=Bdced  c_BAG^F2 |\
+e2eeee ^c2cccc | d2dddd BFGABc |
+(db)agfe (dg)fedc | (Bf)edcB (Ae)dcBA |\
+GBAcBd cedcBA | B2G2G2 G4 :|
+|: vgua |\
+(bB)bag^f g2a2b2 | aAagfe dcBAG^F |\
+GG,A,B,CD E=EFGAB | c=Bdced c_BAG^FD |
+GBdgb2 FAcfa2 | EGBeg2 D^FAdf2 |\
+gdecdB cABGA^F | G2G,2G,2 G,4 :|
+|: vgug |\
+g2G2A2 B4cB | AF=EFGA Bcdef2 |\
+g6 g3(bag) | f2d2d2 (d4=e2) |
+f2F2(f2 e2)E2(e2 | d2)D2(d2 c2)(B2c2) |\
+fbagfe dgfedc | B2G2G2 G4 :|
+G2 |\
+D2G2B2 B2A2G2 | F2A2B2 c2B2A2 |\
+B2d2g2 g2^f2g2 | f2d2d2 A2B2c2 |\
+d2d'2d'2 c2c'2c'2 | B2b2b2 (A2a2)a2 |\
+(ba^g=g^f=f =e_edcBA) | B2G2G2 "_Fine."G4 |]
+%
+V: 2
+"Secundo"\
+G,2 |\
+G,2B,2D2 G,2B,2D2 | A,2C2F2 A,2C2F2 | G,2B,2D2 (G,4A,2) | B,2D2F2 F2B2c2 |\
+d2e2d2 d2c2B2 | A2B2G2 F2G2A2 | B2c2B2 (B3cBA) | G2D2B,2 G,4 :|
+z2 |\
+D2G2B2 D2G2B2 | D2F2A2 D2F2A2 | D2G2B2 D2G2B2 | B2d2f2 (B4c2) |\
+d2e2d2 d2c2B2 | A2B2G2 F2G2A2 | B6 B4AB | G2D2B,2 G,4 :|
+|: z2 |\
+[G2B,2]z2[G2B,2] [B2G2]z2[B2G2] | [A2^F2]z2[A2F2] [B2G2]z2[A2F2] |\
+[E2C2][E2C2][E2C2] G2G2G2 | ^F2F2F2 D4GA |\
+(Bg)fedc (Be)dcBA | (Gd)cBAG ^F2F2D2 |\
+G2A2GB AcBAG^F | GEDCB,A, G,4 :|
+|: uD2 |\
+G2(B2d2) edcBAG | F2(A2c2) BAGFED |\
+[G2B,2]z2[G2B,2] [B2G2]z2[B2G2] | [A2^F2]z2[A2F2] [B2G2]z2[B2G2] |\
+d2d2d2 c2c2c2 | B2B2B2 A2A2A2 |\
+G2A2B2 A2B2c2 | B2G2G2 G4 :|
+|: uD2 |\
+S[G6B,6]S[G6B,6] | S[F6A,6] S[F6A,6] |\
+S[B6G6] S[^c6E6] | [d2D2][d2D2][d2D2] [d4D4]z2 |\
+[d2F2]z2[d2F2] [c2E2]z2[c2E2] | [B2D2]z2[c2D2] [A4F4]z2 |\
+S[D6B,6]S[^F6A,6] | S[G6G,6] [G4G,4] :|
+z2 |\
+[G2B,2]z2[G2B,2] [G4B,4]z2 | [F2A,2]z2[F2A,2] [F4A,4]z2 |\
+[G2B,2]z2[G2B,2] [G4B,4]z2 | [D6B,6] [F6A,6] |\
+[d2D2]z2[d2D2] [c2E2]z2[c2E2] | [B2D2]z2[B2D2] [A4F4]z2 |\
+S[D6B,6] [^F6A,6] | GEDCB,A, G,4 |]
+
+%%sep 2 1 500
+
+X: 32241
+T: LORD HAWICK'S MARCH
+R: march
+B: K\"ohler's Violin Repository, v.3, 1885 p.224 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+N: The 2nd part has an initial repeat but no final repeat; fixed by making it not repeated.
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+(ud>c) !segno!|\
+B2(.B>.B) B2(.B>.B) | B2(B>d) gdcB | A2(.A>.A) AA/A/ A>B | A2A>B cedc |
+B2(.B>.B) BB/B/ (.B>.B) | B2(B>d) gdcB | cedc BAGF | G2(.G>.G) G2 :|
+(.d'>.d') |\
+d'2 (d'>.d') d'd'/d'/ d'd' | b2(g/a/b/c'/) d'4 |\
+d2(.d>.d) dd/d/ dd | B2(G/A/B/c/) d4 |
+(.d'>.d')d'2 (.d>.d)d2 | (.d'>.d')d'2 (.d>.d)d2 |\
+d'd'/d'/ d'd'/d'/ d'd'/d'/ (.d'>.d') | d'2d'>d' d'=c'ba "^D.C."!segno!||
+uD2 |\
+G4 (D3G) | B2 (d/c/B/A/) G2 (.B>.c) |\
+d2 (.g>.d) B2 (.d>.B) | G2 (.B>.G) D4 |
+b2 (b/a/b/c'/) d'd'd'd' | b2 (g/a/b/c'/) d'd'd'd' |\
+bd'bg bd'bg | d'd'/d'/ d'd'/d'/ d'2 ||
+(u.d>.d) |\
+dd/d/ dd dd/d/ dd | c'4 (c'af2) | dd/d/ dd dd/d/ dd | d'4 (d'bg2) |
+dd/d/ dd dd/d/ dd | c'z bz d'z bz | c'2b2 a2g2 | f2e2 d2"^D.C."c2 |]
+
+%%sep 2 1 500
+
+X: 32242
+T: JAMES WARES', OF WICK, STRATHSPEY
+C: By Jas. McQueen, Forres
+R: strathpsey
+B: K\"ohler's Violin Repository, v.3, 1885 p.224 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+uD |\
+D<G (G>D) (E>G) D<B, | (C>E) (D>B,) (C<A,) A,2 | D<G (G>D) (E>G) D>G | (F>G) (A>c) B<G G :| uc |
+B<d (g>d) (e<g) d>c |(B<d) (g>b) (b<a) a2 | B<d (g>d) (e<g) d>B | (3cBA (3Adc (B<G) G2 |
+B<d (g>d) (e<g) d>c |(B<d) (g>b) (b<a) a2 | (3bag (3gfe (3gfe (3dcB | (3cBA (3Adc (B<G) G |]
+
+%%sep 2 1 500
+
+X: 32243
+T: ROSEBUD VALSE
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.322 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: G
+|:\
+"^8va"\
+vB3  |  B3   | dc^G | A3  |\
+ A3  |  A3   | cBF  | G3  |\
+ B3  |  B3   | dc^G | A3  |\
+edc  | (Bc)A | G3-  | Gzz :|
+"8va"\
+ FAd  |  fdF  | AGF | E3  |\
+(E2F) | (G2B) | BAG | F3  |\
+ FAd  |  fdF  |vAGF | E2B |\
+ BAG  | (GF)E | D3- | Dzz |]
+
+%%sep 2 1 500
+
+X: 32251
+T: OUR LITTLE BEAUTIES -- Valse
+C: Composed by W.C. Paton
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.225
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+%
+P: 1.
+|:\
+!p!\
+vE6 | (B,4C2) | G,6- | G,2 !pp!({^F}.G2 {F}.G2) |\
+C6- | C2(B,2C2) | ^C6 | D6 |\
+!p!F6 | (E4 F2) | A,6- | A,2 !pp!({^F}u.A2 {G}u.A2) |
+A,6 | B,6 | A,6 | G,6 |\
+!p!E6 | (B,4 C2) | G,6- | G,2 ({^F}u.G2 {F}u.G2) |\
+C6- | C2 (B,2 C2) | c6 | B6 |
+(A4 E2) | A4 "^>"_E2 | G6 | F6 |\
+(E4 D2) | (.G,2 .A,2 .B,2) | C6- | C4 z2 H|:\
+!ff!vcc c2 e2 | A2 ({^g}.a2 {g}.a2) | dd d2f2 | A2 ({^g}.a2 {g}.a2) |
+!/!c2 !/!d2 !/!e2 | !/!d2 !/!c2 !/!B2 | !/!E2 !/!^G2 !/!B2 | (.e2 z.e) e2 |\
+cc c2 e2 | A2 ({^g}.a2 {g}.a2) | dd d2 f2 | A2 ({^g}.a2 {g}.a2) |\
+!/!c2 !/!d2 !/!e2 | !/!d2 !/!c2 !/!B2 | cc c2 B2 |[1 (.A2 z.A) A2 :|
+%
+P: 2.
+[2 "^>"A2 ("^>".^G2 "^>".F2) | [c'2c2E2] [c'cE][c'cE] [c'2c2E2] | [c'2c2E2] [c'2c2E2] [c'2c2E2] \
+!segno!|: !ff!vc6 | "^>"B6 | "^>"A6 | "^>"G6 |\
+(c2 d2 e2) | (c2 d2 e2) | d6 | G6 |
+"^>"d6 | "^>"c6 | "^>"B6 | "^>"G6 |\
+(G2 _A2 =A2) | (B2 e2 .d2) | (.vc2 z2 v.B2) | c4 z2 H:|\
+!ff!vedcBAG | ABcdef | (.e2 z.e') e'2 | z2 vd'2 uc'2 |
+(c'4 b2) | (a4 ^g2) | .f2 .e2 .d2 | .c2 .B2 .A2 |\
+edcBAG | ABcdef | (.e2 z.e') e'2 | z2 vd'2 vc'2 |\
+(c'4 b2) | (a4 ^g2) | a6- | a4 "_D.C."z2 !segno!:|
+%
+K: Dm
+P: 3.
+[A2a2] [Aa][Aa] [A2a2] | [A2a2] (.[A2a2] .[A2a2]) !segno!|:\
+!ff!([D4d4] [E2e2]) | ([F2f2] [E2e2] [D2d2]) |\
+[B6b6] | [A6a6] |\
+([A2a2] [B2b2] [c2c'2]) | ([G2g2] [A2a2] [B2b2]) |\
+([F2f2] [G2g2] [A2a2]) | [E6e6] |
+([D4d4] [E2e2]) | ([F2f2] [E2e2] [D2d2]) |\
+[d6d'6] | [B6b6] |\
+([A2a2] [B2b2] [A2a2]) | (.[G2g2] .[F2f2]) .[E2e2] |\
+[D6d6]- | [D4d4] z2 H:|\
+u(.d2 z2 .a2) | (f4 d2) |\
+(u.^c2 z2 .b2) | (a4 e2) |
+(e2 f2 g2) | (f4 e2) |\
+d6 | A6 |\
+u(.d2 z2 .a2) | (f4 d2) |\
+u(.^c2 z2 .b2) |\
+(a4 e2) | (e2 f2 g2) | (f4 e2) |\
+[1 (f4 e2 ) | d6 :|[2 d6- "_D.C."d4 z2 !segno!|]
+%
+P: 4.
+[d'2d2] [d'd][d'd] [d'2d2] | [d'2d2] (.[d'2d2] .[d'2d2]) !segno!|:\
+!f!v[d'6d6] | [b2B2] ([a2A2] [g2G2]) | [^f6^F6] | [d6D6] |\
+([G2g2] [A2a2] [B2b2]) | v([c2c'2] [d2d'2] [e2e'2]) |\
+([A2a2] [c2c'2] [A2a2]) | [A6a6] |\
+"^>"[d'6d6] | ([B2b2] [A2a2] [G2g2]) |
+"^>"[e6e'6] | ([c2c'2] [B2b2] [A2a2]) |\
+[d6d'6] | ([D2d2] [E2e2] [^F2^f2]) |\
+[G6-g6-] | [G4g4] z2 H:|\
+|: !ff!("^>"v.[g3B3] "^>".[gB]) "^>"[g2-B2-] | "^>"[g2B2] "^>"[f2A2] "^>"[e2E2] |\
+("^>".[e3E3] "^>".[dD]) "^>"[d2-D2-] | "^>"[d4D4] z2 |\
+vdedcBA | BdcBAG |
+^FAdcBA | (Bc)AB G2 !ff! |\
+("^>".[g3B3] "^>".[gB]) "^>"[g2-B2-] | "^>"[g2B2] "^>"[f2A2] "^>"[e2E2] |\
+("^>".[e3E3] "^>".[dD]) "^>"[d2-D2-] | "^>"[d4D4] z2 |\
+vdedcBA | BdcBAG |\
+^FAdcBA | "_D.C. Fine."G6 !segno!:|
+
+%%sep 2 1 500
+
+X: 32261
+T: STARLIGHT SCHOTTISCHE
+C: By James Francis, Edinburgh, 1884
+R: shottish
+B: K\"ohler's Violin Repository, v.3, 1885 p.226 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The beaming is odd in the 3rd bar of the Trio.
+N: The two endings of the Trio are identical.
+M: C
+L: 1/8
+K: D
+!segno!(!f!(3ua/b/c'/) |\
+d'2d'2 d'2c'>b | a>fd>f (b2a2) |\
+!p!b2b2 b>=c'b>a | g>fe>d (c2A) ((3a/b/)c'/ |\
+d'2d'2 d'2c'>b | a>fd>f (b2a2) |
+(b>=c')b>a g>fe>d | c>AB>c d2z2 :|\
+[K:A]\
+|: !ff!ve4- e>(c'b>a) | (g2^e>vf) (g2f2) |\
+!p!(e<d')(d'<c') (.b>.^a) bz | (e<c')(c'>b) (.a>.g) !ff!az |
+e4- e>(c'b>a) | (g2^e)>vf (g2f2) |\
+!p!(e<d')(d'<c') (b>^a)b>c' |[1 a2(a2 a)(cd^d) :|[2 a2a2 a2z2 [|\
+[K:D]\
+!ff!((3ua/b/c'/) |\
+d'2d'2 d'2c'>b | a>fd>f (b2a2) |
+(.b2.b2) b>=c'b>a | g>fe>d (c2A) ((3a/b/)c'/ |\
+d'2d'2 d'2c'>b | a>fd>f (b2a2) |\
+(.b>.c')b>a g>fe>d | c>AB>c d2z2 H|]
+K: G
+P: Trio
+|: !p!(B4 ^A)>(Bc>B) | (d4 ^c)>(de>f) |\
+g2 (b>a)(g>f) e>^d | f>e^d>e A2z2 |\
+(vA4 ^G)>(AB>A) | (c4 B)>(cd>e) |\
+(f>g)a>g f>ed>c | (^A4 B2)z2 |
+vB4- B>(B^c>^d) | (e>f) (g4 ^A2) |\
+=A4- A>(AB>^c) | (d>e) (f4 d2) |\
+(e>d)^c>d f>ac'>e' | e'>d'b>g d2(b2 |\
+b>a)f>d c2(b2 | a>g)d>B (.G2.d2) |
+(e>d)^c>d f>ac'>e'- | e'>d'b>g e2^c'2 |\
+((3d'c'b (3agf (3ed^d (3ecA) |[1 G2[g2B2] [g2B2]z2 :|[2 G2[g2B2] "_D.C. Fine."[g2B2]z2 !segno!|]
+
+%%sep 2 1 500
+
+X: 32271
+T: IMPERIAL HORNPIPE
+C: By James Francis, Edinburgh, 1884
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.227 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+uc2 |\
+(c>f)e>f (g>f)e>f | (d>g)^f>g (a>g)f>g |\
+(e>c')=b>c' (e'>d')b>g | (d'>c')a>f (e>_e)d>^c |
+(=c>f)e>f (g>f)e>f | (d>g)^f>g (a>g)f>g |\
+(e>c)=B>c (^c>d)B>G | Ecde f2 :|
+K: C
+|: ug2 |\
+gfdB Gfff | fecG Eeee |\
+(e>d)B>^G (E>G)B>d | (d>c)B>c (.A2"_>"._A2) |
+(G>B)d>f (^g>a)b>a | (G>c)e>g (^f>g)a>g |\
+(=f>d)B>d (f>^f)g>^g | (b>a)f>d c2 :|
+K: F
+uc2 |\
+(c>f)e>f (g>f)e>f | (d>g)^f>g (a>g)f>g |\
+(e>c')=b>c' (e'>d')b>g | (d'>c')a>f (e>_e)d>^c |
+(=c>f)e>f (g>f)e>f | (d>g)^f>g (a>g)f>g |\
+(e>c)=B>c (^c>d)B>G | Ecde f2 ||
+K: Bb
+|: uF2 |\
+((3vFGF D)z ((3uBcB F)z | ((3ded B)z ((3fgf d)z |\
+(g>f)d>B A>Be>d | (=B4 c2)uG2 |
+((3GAG E)z ((3cdc G)z | ((3efe c) ((3aba g)z |\
+(g>f)e>c A>cf>e | (^c4 d2)uF2 |
+((3FGF D)z ((3BcB F)z | ((3ded B)z ((3fgf d)z |\
+(B>A)^G>A B>B(c>^c) | d>d^f>a d'2d'2 |
+(e'>g)^f>g d'2c'2 | (b>=e)f>b _d'2e2 |\
+(f>g)a>b (c'>d')e'>=e' | f'z ((3fga) bz :|
+
+%%sep 2 1 500
+
+X: 32272
+T: DAISY HORNPIPE
+C: By James Francis, Edinburgh, 1884
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.227 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+{d}(uc>B) |\
+cagf egfd | ^cedB AGFE | (FG)AB (cd)ef | (g^f)ga (ge)_ed |
+cagf egfd | ^cedB AGFE | (FG)AB (cd)ef |[1 ^fgbe =f2:|[2 ^fgbe =f2^f2 ||
+|: (g^f)ga (ge)dc | (=Bd)fb a2g2 | (=Bd)fb a2g2 | (ce)ge' (d'2c'2) |
+(g^f)ga (ge)dc | (=Bd)fb a2g2 | (=Bd)fb aged |[1 cGA=B cdef :|[2 (.c2 "_D.C."v.[b4c4]) |]
+
+%%sep 2 1 500
+
+X: 32281
+T: RONDO
+C: By J. Pleyel
+R: march, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.228
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+V: 1
+vf2f2 |\
+{f}(edef) g2g2 | {g}(fefg) a2a2 | (a2ba) g2f2 | e4 f2f2 |\
+{f}(edef) g2g2 | {g}(fefg) a2a2 | (a2bg) f2e2 | d4 |]
+ve2e2 |\
+(edce) e2f2 | g4 f2f2 | (fede) f2g2 |Ha4 f2f2 |\
+{f}(edef) g2g2 | {g}(fefg) a2a2 | (a2bg) f2Te2 | d4 |]
+vdz uez |\
+vfz udz vgz uez | f4 (.dz .e)z | (f3g/f/) e2d2 | (d2c)z vdz uez |\
+vfz udz vgz uez | f4 (.b3.a) | (agfe) d2Tc2 | B4 d2d2 |
+{d}(cBcd) e2e2 | {e}(dcde) (f2d'2) | c'2b2 a2^g2 | H[g4A4] vf2f2 |\
+%
+{f}(edef)g2g2 | {g}(fefg) a2a2 | (a2ba) g2f2 | e4 f2f2 |
+{f}(edef) g2g2 | {g}(fefg) a2a2 | (a2bg) f2Te2 | d4 d'2d'2 |\
+(d'c'ba) b2c'2 | (d'2a)z vd'2d'2 | (d'c'ba) b2c'2 | d'2z2 (d'c'ba) |
+^g2g2 (aba=g) | f2f2 (ebge) | d2d2 {f}(edef) | (dAFA) (FAFA) |\
+(GAGA) (GAGA) | (FAFA) (FAFA) | (GAGA) (GAGA) | (FAFA) F2z2 |
+(vE=FED) C2C2 | D2(F2 G2)E2 | [F2A,2][F2A,2] [G2A,2][G2A,2] | [FA,] A,B,C DEFG |\
+A2FD A2(A,2 | D)ABc defg | a2fd a2[c'2A2] | [d'2f2D2]z2 z4 |]
+%
+V:2
+vd2d2 |\
+{d}cBcd e2e2 | {e}(dcde) f2f2 | (f2gf) e2d2 | c4 D2D2 |\
+{D}(CB,CD) E2E2 | {E}(DCDE) F2F2 | F2(G2 A2)A,2 | D4 |]
+vc2c2 |\
+(cBAB) c2d2 | e4 d2d2 | (dAFA) d2e2 | Hf4 D2D2 |\
+{D}(CB,CD) E2E2 | {E}(DCDE) F2F2 | F2(G2 A2)A,2 | D4 |]
+(vBFcF) |\
+(dFBF) (ecec) | (dBdB) (BFcF) | (dFdF) (cFBF) | (BF^AF) (BFcF) |\
+(dFBF) (cece) | (BdBd) (B^dfd) | e2(dc) B2F2 | B,2B2 [F2B,2][F2B,2] |
+[G4A,4] [G2A,2][G2A,2] | [F4A,4] z2(uFA | EGDF CEB,E) | H[E4C4] vD2d2 |
+%
+{d}(cBcd) e2e2 | {d}(dcde) f2f2 | (f2gf) e2d2 | c4 D2D2 | {D}(CB,CD) E2E2 |
+{E}(DCDE) F2F2 | F2G2 A2A,2 | (DAFA) (FAFA) | (GAGA) (GAEA) | (FAFA) (FAFA) |
+(EAEA) (GAGA) | (FAFA) vF2z2 | (vE=FED) C2C2 | (DCB,A,) G,2G2 |
+[F2A,2][F2A,2] [G2A,2][G2A,2] | [F2A,2]z2 vd'2d'2 | (d'c'ba) b2c'2 | (d'2a2) d'2d'2 | (d'c'ba)
+b2c'2 | d'4 (d'c'ba) | ^g2g2 (abag) | f2f2 (ebge) | d2d2 {f}(edef) |
+dABc defg | a2fd a2(A2 | d)A,B,C DEFG | A2FD A2vA,2 | vD2z2 z4 |]
+
+%%sep 2 1 500
+
+X: 32301
+T: THE DARLING STRATHSPEY
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.230 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bdor
+uf |\
+c<Fc{dc}B (A>F)F>f | c<F(c>e) ~f2f<a |\
+c<Fc{cd}>B (A>B)c<f | e>cA<c B3 :|
+ud |\
+c<f(f>g) (a>c)c>{dc}B | c<f(f>g) {b}a2gf |\
+c<f(f>g) (a>f)c<a | e>cA<c ~B2(Bd) |
+c<f(f>g) (a>f)c>{dc}B | c<f(f>g) {b}a2g<b |\
+f<a (g>{ag}f) (e<c)c>a | e<ca>c ~B2 "_Segue Reel."(B "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32302
+T: ANNIE IS MY DARLING -- Reel
+R: reel
+B: K\"ohler's Violin Repository, v.e, 1885 p.230 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+uc) |\
+A2(AE) CEAB | (cd)Bc (AF)FA | (GA)AE (CE)Ae |
+cAec B2(A :| ud) | ce{ef}e2 cf{fg}f2 | ec(c{dc}B) (AF)Fd |
+ce{ef}e2 (ce)fg | (ag)fe (f{gf}^e)fg | (ag)fe (fg)af |
+(ec)dB (cA)FA | GAEA CEA,e | cAec {Bc}B2("_Fine"A "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32303
+T: THE EWIE WI' THE CROOKED HORN -- Strathspey
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.230 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+uF |\
+D<G(G>A) (F>G){FG}A>F | C<G(G>A) (B>G)A<a |\
+f>ed<f c<fA>F | A<fd>B ({AB}c>A)G2 :|
+G<g(g>a) (f>g) {fg}a>f | d>g(g>a) {fg}(b>g)a>^f |\
+d<g(g>a) (=f>g) {fg}a>f | d(g/a/ b>g) (a>^f)g2 |
+=f>ed<f c<fA>F | D<G(G>A) (B>G)A>a |\
+{fg}(.a>.g) (f>d) {AB}(.c>.B) (A>F) | A<f d>B {AB}(c>A) "_Segue Reel"A2 "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32311
+T: THE SCOLDING WIVES OF ABERTARFF -- Reel
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.231 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+uf |\
+dG(BG) (B/c/d)f2 | (cF)AF (A/B/c)e2 | dG(BG) (B/c/d)g2 |
+(dg) (^f/g/a) g2g :| ua | bgdg dgbg | fdcf AFcA |
+bgdg dgbg | dg (^f/g/a) g2ga | bgdb caBg |
+Afcf AFcA | dG(BG) (B/c/d)g2 | (dg) (^f/g/a) g2"_Fine"g "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32312
+T: MILLER LADS -- Strathspey
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.231 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Added missing initial repeat to 2nd part.
+M: C|
+L: 1/8
+K: F
+uA |\
+F<F A2 F<F (A<c) | G<G (A>c) d2 d<f |\
+[1 F<F A2 F<F (A>c) | G<G (A>F) D2D :|\
+[2 (.f>.g)(a>c) (.A>.G)(F>A) | G<G (A>F) D2 D ||
+|: ue |\
+f>c d/c/B/A/ fcca | f<c(c>A) d2de |\
+[1 (.f>.g) (a>c) A>GF<A | G<G (A>F) D2D :|\
+[2 f>ag<a A>GF<A | G<G (A>F) "_Segue Reel"D2D "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32313
+T: INVERNESS LASSES -- Reel
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.231 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+|:\
+vfdcB ABc2 | (fd)cB ABca | fdcB ABc2 | (BA)GF ECEG |
+fdcB ABc2 | (fd)cB ABca | fedf cfAc | BAGF ECEG ||
+vFEFd cFA2 | (FE)Fd cFAd |[1 FEFd cFA2 | (BA)GF ECEG :|\
+[2 fedb caAc | (BA)GF (EC)E"_Fine"G "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32321
+T: BOB, THE SAILOR, HORNPIPE
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.232 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+(udc) |\
+(cB)AG (DG)BG | (DG)BG (DG)Bd | (cB)AG (DG) Bd | c2A2 A2(dc) |
+BGDG cAFA | ecAc fdAd | (gf)ed (Bd)Ac | B2G2 G2 :||: ((3def) |
+(gf)gd (Bc)dB | (gf)gd (Bc)dB | cedB GBdB | c2A2 A2(dc) |
+BGDG cAFA | ecAc fdAd | (gf)ed (Bd)Ac | B2G2 G2 :|
+
+%%sep 2 1 500
+
+X: 32322
+T: MONTMORRIS HORNPIPE
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.232 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+uFE |\
+D2DE (DE)FG | A2AB (AB)cA | d2de (dc)BA | (BA)GF (EF)GE |
+D2DE (DE)FG | A2AB (AB)cB | (Ad)cB (AG)FE | F2D2 D2 :|
+|: (ude) |\
+(fe)fg (fe)dc | (dc)de (dc)BA | (Bc)de (fd)gf | e2e2 e2(de) |
+(fe)fg (fe)dc | (dc)de (dc)BA | (Bc)de (fe)ef | e2d2 d2 :|
+
+%%sep 2 1 500
+
+X: 32323
+T: LIGHTFOOT HORNPIPE
+C: By J.B. Easton, Edinburgh
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.323 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+((3uFGA) |\
+B2B2 BFGA | BABc de=ef | (ag)ec (AF)=EF | (GF)Ac (ec)AF |
+B2B2 BFGA | BABc de=ef | (ag)ec (Ag)fA | B2b2 B2 :|
+|: (uAG) |\
+(FA)cA (ec)AF | (BF)dB (gf)dB | (Ac)fa (gb)=eg | f2f2 f=e_ec |
+Bdfb Acfa | GBeg | FBdf | (EG)ce (dB)cA | B2b2 B2 :|
+
+%%sep 2 1 500
+
+X: 32331
+T: BUY A BROOM - Old German Air, with variations
+C: Arr. by T.W. Howard
+N: Bowing and Fingering arranged by W.B. Laybourn
+R: air, waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.233
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: This is the well-known song tune "Ach du lieber Augustine".
+N: 2nd part of Air have initial repeat but no final repeat.
+N: The section labels, P: headers here, were placed below the first phrase, which is confusing.
+M: 3/4
+L: 1/8
+K: D
+P: Air.
+|: va3 bag | f2d2d2 | e2A2A2 | f2d2 df  | a3bag | f2d2d2 | e2A2A2 | d4z2 :|
+|: ve2A2A2 | f2d2d2 | e2A2A2 | f2d2(df) | a3bag | f2d2d2 | e2A2A2 | d4z2 H:|
+P: 1st Variation.
+|: va2([c'a]b)ag | (fA).d.f.a.f | (eA).c.e.a.e | fA.d.f.g.^g |\
+    a2([c'a]b)ag | (eA).d.f.a.f | (eA).c.e.a.c | d4z2 :|
+|: (veA).c.e.a.e | (fA).d.f.a.f | (eA).c.e.a.e | (fA).d.f.g.^g |\
+    a2([c'a]b)ag | (fA).d.f.a.f | (eA).c.e.a.c | d4z2 H:|
+P: 2nd Variation.
+|: va2([c'a]b)ag | (3.f.d.A (3.F.A.d (3.f.a.f | (3ecA (3EAc (3ege | (3dAF (3DFA (3d(fg) |\
+    a2([c'a]b)ag | (3fdA (3FAd (3faf | (3ecA (3EAc (3egf | d4z2 :|
+|: v(3ecA (3EAc (3ege | (3fdA (3FAd (3faf | (3ecA (3EAc (3ege | (3dAF (3DFA (3dfg |\
+    a2([c'a]b)ag | (3fdA (3FAd (3faf | (3ecA (3EAc (3egf | d4z2 H:|
+P: 3rd Variation.
+L: 1/16
+|: vaaaa c'c'c'c' aagg | ffAA ddff aaff | eeAA ccee aaee | ffAA ddff gg^gg |
+    aaaa c'c'bb aagg | ffAA ddff aaff | eeAA ccee aacc | d8z4 :|
+|: veeAA ccee aaee | ffAA ddff aaff | eeAA ccee aaee | ffAA ffdd gg^gg |
+    aaaa c'c'bb aagg | ffAA ddff aaff | eeAA ccee aacc | d8z4 H:|
+
+%%sep 2 1 500
+
+X: 32341
+T: DAVIE MOFFAT'S HORNPIPE
+C: Composed by R. Baillie, Peter Baillie's Gransdon, Penicuick
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.234 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+((3uEFG) |\
+(A>E)C>E (A>G)A>B | cagf ecAc | (d>f)e>d (c>e)d>c | B^ABc BGEG |
+(A>E)C>E (A>G)A>B | cagf ecAc | dfed cEFG | B2A2 A2 :|
+|: (ucA) |\
+(F^E).F.G (AG).F.E | FAcf agfa | (ec)Ac eAfA | (GA)BG EBAG |
+(FC)FG (Ac)BA | (GD)GA (Bd)cB | Acfa g^ece | f2F2 [F2A,2] :|
+
+%%sep 2 1 500
+
+X: 32342
+T: THE PENICUICK HORNPIPE
+C: Composed by R. Baillie, Penicuick
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.234 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+ud2 |\
+g2{a}gf (gd)Bg | ecAF GBDG | (FG)AB (ce)dc | Bdag fadf |
+(ga)gf (gd)Bg | ecAF GBDG | (FG)AB (cF)BA | G2{A}GF G2 :|
+|: z2 |\
+va2{b}ag (fd)fa | b2ba (gB)ef | gagf ed^ce | d2{e}d^c d2d2- |
+dcBd gBed | cBAc EAce | (ag)fe (df)af | g2b2 g2 :|
+
+%%sep 2 1 500
+
+X: 32343
+T: TOM TULLIE'S HORNPIPE -- (Very Old)
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.234 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+(uBc) | dcBA G(gfg) | e4 d4 | cdcB ABAG | F4 E4 | DEFG A2B2 |
+c2(de) d2c2 | BAGF E2F2 | G6 :| ud2 | g2bg e2ag | f4 d4 | g2bg e2ag |
+f4 d2ef | (gd)dd (gd)dd | gdgd (gd)dd | g2f2 (ed)cB |
+ABAG F2E2 | DEFG A2B2 | c2(de) d2c2 | BAGF E2F2 | G6 "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32351
+T: MR. MARTON'S HORNPIPE
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.235 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: This tune is better known as Roxbury Castle.
+M: C|
+L: 1/8
+K: A
+(ucB) |\
+A2Ac (ec)Ac | d2df (ec)Ac | d2fd c2ec | B2B2 B2(cB) |
+AEAc ecAc | d2df (ec)Ac | fgaf ecdB | A2A2 A2 :||: (fg) |
+aece Aece | aece Aece | dfdf cece | B2B2 B2(cB) |
+AEAc ecAc | d2df (ec)Ac | fgaf ecdB | A2A2 A2 :|
+
+%%sep 2 1 500
+
+X: 32352
+T: LOCH LEVEN CASTLE HORNPIPE
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.235 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+(ucB) |\
+(A^G)AB (A=G)EG | (A^G)AB c3(d | e^f)gd (eg)dc | B2G2 G2(cB) |\
+(A^G)AB (A=G)EG | (A^G)AB c3(d | e^f)gd (eg)dB | c2A2 A2 ||
+ue2 |\
+(a^g)ab (a=g)eg | (a^g)ab a2=g^f | gedc Bgdc | (BG)dB G3(e |\
+a^g)ab (a=g)eg | (a^g)ab a2cB | c3(d ge)dB | c2A2 A3e |
+(a^g)ab (a=g)eg | (a^g)ab a2=g^f | gedc Bgdc | BGdB G2(cB) |\
+(A^G)AB (cB)ce | (dc)BA (^GA)B=G | (Ec)ce (dB)A^G | e2A2 A2 "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32353
+T: THE FINE OLD MAN versus GLADSTONE'S HORNPIPE
+C: Composed by W.B. Laybourn, Edinburgh, 1884
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.235 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Em
+|:\
+ve4 A4 | BcBA G2F2 | E2c2 B2A2 | G2F2 EFGB |\
+e4 A4 | BcBA G2F2 | E2c2 B2A2 | G2uF2 uE2z2 :|
+|: vEFE^D EFGA | BcBA BAGF | E2F2 G2A2 | B2^c2 d2^d2 |\
+e4 A4 | BcBA GFED | E2c2 B2A2 | G2uF2 uE2z2 :|
+
+%%sep 2 1 500
+
+X: 32361
+T: ROTHEMURCHUE'S RANT -- Strathspey
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.236 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+uG |\
+(.E>.D)(E>C) EGG2 | (c>G)A>G c>GA<c |\
+(.E>.D)(E>C) E<GG>c | (A>d)(G>c) EDD :|
+|: ug |\
+{f}e2(d>c) (.d>.e)(dA) | (.c>.d)(ed) (e/d/)c/B/ (cG) |\
+A/A/A (a>g) {f}e2(dc) | (A>c)(G>c) EDD :|
+|: uf |\
+e<g(g>a) (g>a)g>d | e<a(a>b) (a>b)ag |\
+(e>g)(d>e) ~c>dec | A<a(g>e) (ed)d :|
+[| ug |\
+(fe)(dc) d<ea2 | (ge)e>d ~c2(Ac) |\
+(G>A)(c>d) (c/d/e) (d>c) | (Ac)(Gc) EDD>g |
+(ge)(dc) d<e{^g}a2 | (=g<e)(e>d) ~c2(Ae/g/) |\
+(a>e)(g>d) {f}e2(dc) | (A3/B//c//) (G>c) "_Segue Reel."EDD "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32362
+T: THE MERRY LADS OF AYR -- Reel
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.236 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The first phrase ends with a double bar preceded by a single dot, treated as a repeat sign.
+N: The final g note is only partly printed.
+M: C|
+L: 1/8
+K: C
+uf !segno!|\
+edcd cGGf | edce f2(f>g) | edcd cGGc | (A/B/c) (GE) A2 (A :| ud) |
+c2(g>a) gede | c/c/c (g>a) {a}g2(f{gf}e) | cega gece | (f>g) (a/g/f/e) d2(de) |
+~c2(g>a) gede | c/c/c (g>a) {a}g2(f{gf}e) | cega gece | faeg def"^Fine."g |]
+
+%%sep 2 1 500
+
+X: 32363
+T: KINRARO'S STRATHSPEY
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.326 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Fixed missing 1/8 note in bar 8.
+M: C|
+L: 1/16
+K: F
+|:\
+(.f3.g) (a3f) (.b3.g) (ba)gf | (.b3.g) (ba)gf eg3g3e |\
+(.f3.g) (a3f) (.b3.g) (ba)gf | (.b3.g) (ba)gf (cf3) f4 :|
+|:\
+(v.F3.G)(A2F2) (.B3.G) (BA)GF | B3G (BA)GF EG3G3A |\
+(.F3.G)(A3F) (.B3.G) (BA)GF | (.B3.G) (BA)GF (CF3) F4 :|
+|:\
+(v.F3.G)(F3C) (.A,.C3) C3F | (EF)GA (BA)GF (.E3.G)(G3A) |\
+F3G(F3C) A,C3C3f | (efg2) (c2ab) a2f2f2z2 :|
+|:\
+(.f3.g)(f3c) (A3F)(.F3.f) | (ef)ga (ba)gf (.e3.g)(g3e) |\
+(.f3.g)(f2c2) AF3F3G | (EFG2) (CcB2) (.A3.F) "^Segue Reel."F2z2 "_D.C.":|
+
+%%sep 2 1 500
+
+X: 32371
+T: GLEN FARNETE REEL
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.327 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+uA |\
+FAcA f2(fc) | f2(af) egga | fcAF dBAG | AcGc AFF :|
+uA |\
+(FA)cA (fe)fc | (AF)cA (BG)GA | (FA)cA (fe)fc | dfcf AFFA |
+(FA)cA (fe)fc | (AF)cA (BG)GA | (FA)cA (Bc)de | (fc)dB "Fine."(BF)F "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32372
+T: MRS. CAPTAIN STEWART'S, OF FINCASTLE, STRATHSPEY
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.237 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: Eb
+uB,2 !segno!|\
+(.E3.F) (EF)GE (FE)DC B,2CD | (.E3.G)(B3G) (.c3.d) {cd}(.e3.B,) |\
+(.E3.F) (EF)GE (FE)DC B,2cd |[1 {cd}(e3c) (ed)c=B (.c3.d) {cd}e4 !segno!:|\
+[2 {cd}(.e3.c) (ed)c=B c4 C2 ||
+uG2 |\
+(.c3.d) {cd}(e2c2) (fe)dc {c}(=B3G) | (.c3.d)(e3f) (.g3.a)(g3e) |\
+(a3f)(g3e) (f3d) (B2gf) | (.e3.c) (ed)c=B c4 (C3G) |
+(.c3.d) {cd}(e3c) (fe)dc {c}(=B3G) | (.c3.d)(e3f) (.g3.a)(g3e) |\
+(a3b)(g3a) f2(gf edc=B) | (.c3.G) (GF)ED "_Segue Reel"{D}C4 C2 "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32373
+T: COLIN McKAY'S REEL
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.237 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 'c' in McKay looks more like a reverse apostrophe.
+M: C|
+L: 1/8
+K: C
+ue |\
+c2CE G3(_B | AG)EC DE_B,D | (C/D/E/F/) (GE) G2(cG) | cagf ecc :|
+ue |\
+(c/d/e/f/) (gc) acgc | ecge fdde | (c/d/e/f/) (gc) acgc | ecgc Gcce |
+(c/d/e/f/) (gc) acgc | fdec (B/A/B/c/) (de) | cAEC FAG_B | Aagf ec"^Fine."c |]
+
+% newpage
+%%sep 2 1 500
+
+X: 32380
+T: DEUX DUOS
+B: K\"ohler's Violin Repository, v.3, 1885 p.238-239
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K:
+
+%%sep 2 1 500
+
+X: 32381
+T: DUO POUR DEUX VIOLONS
+C: Par James C. Paton
+B: K\"ohler's Violin Repository, v.3, 1885 p.238 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd-violin part is on the next (facing) page.
+N: Bar 4 has a missing half-beat; fixed in the obvious way, to be like bar 16.
+U: P=!crescendo(!
+U: p=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: C
+L: 1/8
+Q: "Andante"
+K: C
+P: Violino Primo
+|:\
+!p!vg4 (e2c2) | (cBdB) G2z2 |\
+vg4 (^f/g/a/g/ =f/e/d/c/) | .c.B (d/c/B/A/) G2z2 |\
+!p!vc4 c4 | (c2a2) (gfed) |
+c4 TB4{AB} | (d4 c2)z2 :|\
+!ff!v[d4-e4-] [de](.[de].[de].[de]) | [e2c2]z2 z(Aaug) |\
+P[^f4-A4-] p[fA]Q(.[fA].[fA].[fA]) | q.g(^fag "_Rall."=fef^f) |
+"_Tempo"g4 (e2c2) | (cBdB) G2z2 |\
+vg4 (^f/g/a/g/ =f/e/d/c/) | cB (d/c/B/A/) G2z2 |\
+"_cresc . . . . ."vc4 (cd e/f/a/^g/ | a2- Qa.g .f.e.fq.d) |
+c2(G>c) e2-e>vd | (d4 c2)z2 |\
+!p!v[E4G,4] ([FG,4]EFD) | [E2G,2]!ff!e2 "_Pizz."c2G2 |\
+!p![D4G,4] ([EG,4]DEF) | [D2G,2]GA (Bcd^d) |
+e4 (^defe) | e4 (c2ed) |\
+c4 B4 | A4- A(Gce) |\
+Qd4 (A2B2)q | !p![c2E2]z2 u[c2F2][c2F2] |\
+!pp![c4-E4-] [c2E2] "_Fine."z2 H|]
+
+%%sep 2 1 500
+
+X: 32382
+T: AN OLD FAVOURITE MINUETTO
+B: K\"ohler's Violin Repository, v.3, 1885 p.238 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a final repeat, but no initial repeat.
+N: The 2nd-violin part is on the next (facing) page.
+N: The 1st and 2nd violin parts have different titles.
+M: 3/4
+L: 1/8
+Q: "Moderato"
+K: C
+P: Primo
+uG2  |\
+c4 (dc/d/) | e2(c2G2) | e4 (fe/f/) | g2(e2c2) |\
+c'2(c'b)c'a | g2(ge)ge | f2(fd)fd | cBAGAB |
+c2c2(e/d/c/d/) | e2c2G2 | e2e2(g/f/e/f/) | g2e2c2 |\
+c'3(bag) | g3.f(fe) | (ed)dagB | (d2c2) :|
+z2 |\
+vG3(edc) | (cB) (uBA) (uA^G) | A3 (fed) | (dc) (ucB) (uBA) |\
+f3 (agf) | (fe)(ee')d'c' | (c'b) (bag^f) |
+Ha2 {fba}Hg2 (ac') | (c'b) (c'ba^g) | (a^g)(a=gfe) |\
+(fe) (fedc) | cBAGAB | c2c2(e/d/c/d/) |
+e2c2G2 | e2e2(g/f/e/f/) | g2e2c2 |\
+c'3(bag) | g3f(fe) | (ed) da gB | (d2"^Fine."c2) :|
+
+%%sep 2 1 500
+
+X: 32391
+T: DUO POUR DEUX VIOLONS
+C: Par James C. Paton
+B: K\"ohler's Violin Repository, v.3, 1885 p.239 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 1st-violin part is on the previous (facing) page.
+U: P=!crescendo(!
+U: p=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: C
+L: 1/8
+Q: "Andante"
+K: C
+P: Violino Secondo
+|:\
+!p!(EG,EG,) (GG,EG,) | (FG,)(FG,) [DB,](B,DF) |\
+(EG,EG,) (GG,EG,) | (FG,)(FG,) [DB,](GF)D |\
+("cres."EC^CD ^DEFG) | (A2f2) Q(edcG) q|
+[E4G,4] [D4G,4] | (FG,)(FG,) E(CEG) :|\
+!ff![B4-^G4] [BG].[BG].[BG].[BG] | AE^DE Azu"_>"[G2A2] |\
+v(D4- [DA,]).[DA,].[DA,].[DA,] | [D2G,2]z2 "_rall."(d^cdu^d) |
+"_tempo"e4 (c2E2) | (ED)(FD) .[DB,](GBd) |\
+e4 (^d/e/f/e/ =d/c/G/E/) | (ED) (F/E/D/C/) .[DB,](DFG) |\
+[E4G,4] [E4_B,4] | [F4A,4] [F4_A,4] |
+(EG,EG,) (DG,FG,) | (FG,)(FG,) .E.G.E.C |\
+!p!C4 (D^CDB,) | =C2!ff!g2 "_Pizz."e2!p![c2E2] |\
+B,4 (CB,CD) | B,2Bc (def^f) |
+g4 (^fgag) | g4 (e2gf) |\
+(AECE) (C^GB,G) | zAEC A,zz2 |\
+[F4G,4] (FG,DG,) | [E2G,2]!p!z2 u(.[F2G,2].[F2G,2]) | [E6G,6] "_Fine."z2 H|]
+
+%%sep 2 1 500
+
+X: 32392
+T: A FAVOURITE MINUETTO
+B: K\"ohler's Violin Repository, v.3, 1885 p.238 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a final repeat, but no initial repeat.
+N: The 1st-violin part is on the previous (facing) page.
+N: The 1st and 2nd violin parts have different titles.
+M: 3/4
+L: 1/8
+Q: "Moderato"
+K: C
+P: Violino Secondo
+z2 |\
+z4 uc2 | c2(c2G2) | c4(dc/d/) | e2c2z2 |\
+e2(eg)ec | e2(ec)ec | d2(df)dG | EGFEFG |
+z4 uc2 | c2(c2G2) | c2c2(e/d/c/d/) | e2c2z2 |\
+ve3(gfe) | e3d(dc) | (cB)BcGG | (F2G2) :|
+z2 |\
+z4z2 | z4z2 | F3(dcB) | (BA) (uAG) (uG^F) |\
+d3 (fed) | (dc) cc' (ba) | (ag) (ugf) (ufd) |
+Hc2 {Bdc}HB2 (u^fg) | (a^g) (a=gfe) | (fe)(fed^c) |\
+(d^c)(d=c_BA) | AGFEFG | z4z2 |
+z2z2uG2 | c2c2(e/d/c/d/) | e2c2z2 | e3(gfe) | e3d(dc) | (cB)GcGG | (F2"^Fine."E2) :|
+
+%%sep 2 1 500
+
+X: 32401
+T: TOM BHUMB -- Contre Dance
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.240 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Bb
+|: vB2FD | B2FD | B2FD  | (Bd)cB | (BA)GF | (GA)BA | (GF)ED | E2uF2 | uB,2z2 :|
+|: v(Bd)dd | d2dc | (Bd)fd | (.B2.B2) | (dc)cc | c2cA | (FG)FE | (ED)CB, :|
+|: v(df)ff | f2fg | (gf)ba | (gf)ed | (ef)gf | (ed)cB | (Ag)fe | (ed)cB :|
+
+%%sep 2 1 500
+
+X: 32402
+T: JOHN DWIGHT'S PLANTATION DANCE
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.240 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+|: vA>df>a | g>af>a | A>df>a | g2f2 | A>df>a | g>af>a | e>fd>e | ((3cdc) B2 :|
+|: vf>(dc>d) | (B/c/)d A>d | G>e F>d | E>(gf>e) | f>(dc>d) | (B/c/d) A>d | B>ge>c | d2d'2 :|
+
+%%sep 2 1 500
+
+X: 32403
+T: DASHING WHITE SERGEANT -- Contre Dance
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.240 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+(ucA) !segno! |\
+F2FG (FG)AB | (c=B)cd c2ag | f2d2 (dc)BA | d2G2 (GB)AG |\
+F2(FG) (FG)AB | (c=B)cd (.c2.a2) | g2f2 e2d2 | c6 :|
+uG2 |\
+c2cd e2ef | g2ge (.uc2.c2) | d2de f2fg | a2.af (.ud2.d2) |\
+e2ee f2ff | g2gg a2aa | b2a2g2f2 | e2d2c2B2 |
+A2f2 {g}(fe)fg | f2c2 c2f2 | d2g2 {a}(g^f)ga | g2d2 d2f2 |\
+c2f2 {g}(fe)fg | a2f2 {g}(fe)fg | a4 c'4 | c=Bcd c_BAG "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32404
+T: OWRE THE MUIR AMONG THE HEATHER -- Variations
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.240 #4
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+Q: "Moderato"
+K: D
+|:\
+vA,2D2 (D3E) | (DE)FE D2A,2 | B,2E2 (E3F) | (G2F2) E2D2 |\
+F2A2 A2(Bc) | d3e {d}(f3e) |  (.d3.B) (BA)GF | (EF)GF (E2D2) :|
+|:\
+vA2d2 (d3e) | (de)fe d2A2 | B2e2 (e3f) | {a}(g3f) e2d2 |\
+(f3e) d2B2 | A2(Bc) (d3e) | (.d3.B) (BA)GF | (EF)GF (E2D2) :|
+|:\
+vA,B,DE DA,DE | FGEF DEDA, | B,DEF EB,EF | (GF)dF (E2D2) |\
+DEFG (A3B) | (A>F)AB d3e | (fd)eB (dA)BF | (E>F)GF (E2D2) :|
+|:\
+vAd (dc/d/) fd (dc/d/) | Adfe d2A2 | E^GB^d edef | .e(a/g/) .f(g/f/) e2d2 |\
+edef dABd | AF {F}ED ABde | (fd)eB (dA)BF | (E>F)GF E2D2 :|
+%%begintext center
+% % (To be Continued)
+%%endtext
+
+%%sep 2 1 500
+
+X: 32410
+T: AERIAL QUADRILLE
+C: Composed by J. Scott, Sandyholm, Lockerbie
+N: Bowing and Fingering arranged by W.B. Laybourn
+B: K\"ohler's Violin Repository, v.3, 1885 p.241-242
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+K: none
+
+%%sep 2 1 500
+
+X: 32411
+P: AERIAL QUADRILLE Part 1.
+C: J. Scott, Sandyholm, Lockerbie
+R: jig
+B: K\"ohler's Violin Repository, v.3, 1885 p.241 #1
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Fixed extra count in bar 16.
+M: 6/8
+L: 1/8
+K: Bb
+uF !segno!|\
+(.=Ez.F) (.Bz.c) | d3- dBc | d3- de=e | f3- f(=ef) |\
+a3- ag=e | g3- gfe | (d2c) (e2d) | B2z vb2 ||
+[K:F] uc |\
+{d}c=Bc fef | (.ez.d) (.bz.a) | gfe dBd | c3 (A3B) |\
+{d}c=Bc fef | d^cd bag | fed cBG | FFF FF "_D.C."!segno!||
+uc "^*"|\
+.cz .f .az .g | .gz .f .=ez .f | (g2f) gab | c'cc ccc |\
+.cz .f .az .g | .gz .f .=ez .d | (c=Bc) (a2g) | f3- f2 "^D.C."|]
+%%text * Staccato -- Heel of Bow, Nos. 1 and 3.
+
+%%sep 2 1 500
+
+X: 32412
+P: AERIAL QUADRILLE part 2.
+C: J. Scott, Sandyholm, Lockerbie
+B: K\"ohler's Violin Repository, v.3, 1885 p.241 #2
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The repeated "D.C." may mean to play it ABACA.
+M: 2/4
+L: 1/8
+K: Bb
+[|\
+FB/A/ Bc | d^c d2 | FB/A/ Bd | f=e f2 |\
+a2g/f/ gf | f2e/d/ ed | dc/B/ FA | Bz vb ||
+uF |\
+dedc | Bdf2 | (gf)Af | d3F |\
+dedc | Bdf2 | (gf)ec | B3B |
+ccd=e | fgab | agga | gf c(A/B/) |\
+AA =B/c/d/=e/ | fgad' | c'bde | [f3A3] "^D.C."z |]
+
+%%sep 2 1 500
+
+X: 32413
+P: AERIAL QUADRILLE Part 3.
+C: J. Scott, Sandyholm, Lockerbie
+R: jig
+B: K\"ohler's Violin Repository, v.3, 1885 p.241 #3
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+[|\
+vD3 DGA | B3- BcB | A3- A^GA | d3- d^cd |\
+(b2a) gfe | dGA Bcd | fed cBA | (G2B) G2 ||
+K: D
+(F/G/) |\
+ABA Ade | fff faa | eee e^de | fdB AFG |\
+ABc def | Bcd efg | fba gfe | dDD DDD "^D.C."||
+"^*".A |\
+.Az .d .^cz .d | .Az .f .=fz .^f | .ez .g .^cz .e | (dcB) (.A2.A) |\
+.Az .d .^cz .d | .Az.f .=fz .^f | .ez .g .Bz .^c | d3- d3 "^D.C."|]
+%%text * Staccato -- Heel of Bow, Nos. 1 and 3.
+
+%%sep 2 1 500
+
+X: 32421
+P: AERIAL QUADRILLE Part 4.
+C: Composed by J. Scott, Sandyholm, Lockerbie
+B: K\"ohler's Violin Repository, v.3, 1885 p.242 #1
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bb
+vFuF !segno!|\
+B2FF B2FF | B2c2d2e2 | f2=eg f2eg | f6=ef |\
+g2f2 c2=Bc | e2d2 B2AB | d2c2 F2GA | B6 ||
+uF2 |\
+F2d2c2B2 | c2F2F2F2 | F2c2B2A2 | B4(.B2.B2) |\
+B2A2B2c2 | d2f2e2d2 | d2c2B2c2 | d4(d2e2) |
+d2c2G2A2 | B2c2d2f2 | f2e2G2A2 | B4(A2B2) |\
+c2d2e2f2 | a2g2f2e2 | d2c2e2d2 | B6 "^D.C."||[K:F]
+(uAB) |\
+c2Ac f2ed | cccc c2(=Bc) | d2c2B2G2 | A2FE (FG)AB |\
+c2Ac f2cf | aaaa a2(ba) | gfed cBAG | F2FF F2F"_D.C."F !segno!|]
+
+%%sep 2 1 500
+
+X: 32422
+P: AERIAL QUADRILLE Part 5.
+C: Composed by J. Scott, Sandyholm, Lockerbie
+B: K\"ohler's Violin Repository, v.3, 1885 p.242 #2
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+vdud !segno!|\
+d2^c2d2 BB | B2^A2B2 cc | A2^G2A2B2 | GDEF GABc |\
+d2^c2d2 BB | {c}B2^A2B2 cc | A2^G2A2B2 | G2z2 vg2 ||[K:D]
+vAuA |\
+A2f2e2d2 | e2A2{c}B2A2 | c2A2e2A2 | b2(a^g) a2A2 |\
+A2f2e2d2 | e2A2{c}B2A2 | (c2A2)e2A2 | d2d2d2 AA |
+A2f2e2d2 | e2A2{c}B2A2 | c2A2e2A2 | b2(a^g) a2A2 |\
+A2f2e2d2 | e2A2{c}B2A2 | c2A2e2A2 | d2dd "_D.C."d2"_Fine."dd !segno!|]
+
+%%sep 2 1 500
+
+X: 32423
+T: SUNBEAM POLKA
+C: A. ANDERSON
+R: polka, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.241 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+|:\
+!p!vE2E2 EGce | e2c2 (.G3.c) | (Bc)de fedc | Bcdc BAGF | E2E2 EGce |
+e2c2 (.G3.c) | (Bc)de fGAB | c2e2c2z2 :| vdcBA GFEF | G2d2 (.d3.e) | f2A2 (.A3.B) |
+c2e2 (.G3.c) | (dc)BA GFEF | G2d2 (.d3.e) | (fe)dc Bcde | c2c2c2z2 "^D.C.":|
+P: Trio
+|:\
+vE4 E(GcG) | e6 e2 | fcA2 (.A3.c) | dBG2 G4 |\
+E4- E(GcG) | e6 e2 | fcA2 (.B3.d) | d2c2c2z2 "^D.C.":|
+%%text pp 1st, ff 2nd time.
+
+%%sep 2 1 500
+
+X: 32431
+T: THE SHAMROCK HORNPIPE
+C: By John B. Easton, Edinburgh.
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.243 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+(uF>E) |\
+(D>d)B>G F>ec>A | B>bf>d B>F(D>F) | (E>G)F>B G>eF>d | c>BGc F2F>E |
+(D>d)B>G F>ec>A | B>bf>d B>F(D>F) | (E>G)F>B G>eF>d | c>FA>c B2 |] uA>G |
+(3FAc (3ecA (3FAc (3ecA | (3FBd (3fdB (3FBd (3fdB | (G>B)g>f e>d(c>B) | (3AcB (3GBA F2(F>E) |
+(D>d)B>G F>ec>A | B>bf>d B>F(D>F) | (E>G)F>B G>eF>d | c>FA>c B2 |]
+
+%%sep 2 1 500
+
+X: 32432
+T: MR. JAMES GRANT'S HORNPIPE
+C: By Wm. Findlay
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.243 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+(uB>c) |\
+(d>b)g>d (B>g)d>B | (G>F)G>A (B>G)E>C | (B,>D)G>B (d>B)G>B | (A^G)A>B A2B<c |
+(d>b)g>d (B>g)d>B | (G>F)G>A (B>G)E>C | (B,>D)G>B (d>c)E>F | G2B2 G2 :||: (uB>A) |
+G>d(B>d) g>d(B>d) | A>e(^d>e) g>e(c>A) | (d>b)c>a (B>g)A>f | g>(fe)>(d c)>(DE>F) |
+G>d(B>d) g>d(B>d) | A>e(^d>e) g>e(c>A) | d>(ba>g) (3fed (3cBA | G2B2 G2 :|
+
+%%sep 2 1 500
+
+X: 32433
+T: SIR GARNET'S HORNPIPE
+C: By Wm. Findlay
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.243 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: E
+(uG>A) |\
+(B>c)B>A (G>B)e>g | (f>g)a>f (.c2.a2) | (g>a)b>g (a>g)f>e | (d>e)c>d B2G>A |
+(B>c)B>A (G>B)e>g | (f>g)a>f (.c2.a2) | (g>a)b>(g (3a)gf (3Bcd | e2[E2B,2] [E2B,2] :||: (uG>A) |
+(3BBB (G>B) e>BG>B | (3BBB (G>B) e>BG>B | (3ccc (A>c) (a>g)f>e | d>ec>d B2G>A |
+(3BBB (G>B) e>BG>B | (3BBB (G>B) e>BG>B | (c>a)g>f e>dc>d |\
+[1 ue2u[E2B,2] [E2B,2] :|[2 e2 (3(EG)B e2 "_D.C."|]
+
+%%sep 2 1 500
+
+X: 32441
+T: DONALD BUTCHER'S BRIDAL (with Variations)
+B: K\"ohler's Violin Repository, v.3, 1885 p.244-245
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 6th part has final repeat but no initial repeat.  Fixed.
+N: The last part has initial repeat but no final repeat.  Fixed.
+M: C|
+L: 1/16
+K: D
+%%slurgraces 0
+|:\
+(vD3F) (D3F) DFEF DEFG | A2GF (BA)GA (F4{GF}) (E2D2) |\
+(G3F) (E>FD>F) (E{FE}DEF) E2gf | e2E2 gfed (B4{AB}) d4 |
+(D3F)(D3F) DFEF DEFG | A2A,2 dcBA (F4{GF}) (E2D2) |\
+G2G,2G2 FE F2A,2F2 ED | E2gf (gf)ed (B4{AB}) d4 :|
+|:\
+vdg (fe/f/) d2A2 Bg (fe/f/) d2D2 | dcBA (B/A/B/c/d)A F4 (E2{FE}D2) |\
+e2E2 eagf e2E2 eagf | edef gefd (B4{AB}) d4 |
+Bg (fe/f/) d2D2 dg (fe/f/) d2(AB/c/) | dcBA (B/A/B/c/d)A (F4{GF}) (E2D2) |\
+GDGB GDGB FDFA FDFA | EFGE gfed (B4{AB}) d4 :|
+|:\
+(vDF)AF (DF)dF (DF)AF (DF)dF | (DF)AF dABA (F4{GF}) (E2D2) |\
+(EG)BG (EG)eG (EG)BG (EG)eG | EGBG gfed (B4{AB}) d4 |
+(DF)AF (DF)dF (DF)AF (DF)dF | (DF)AF (dA)BA (F4{GF}) (E2D2) |\
+GDB,D GDB,D FDA,D FDA,D | e2gf (gf)ed (B4{AB}) d4 :|
+|:\
+(vf/e/f/g/a)f dfdA BdAB FADF | ABcA dcBA (F4{GF}) (E2D2) |\
+bgeB egeB egBe GBEG | eEef gefd (B4{AB}) d4 |
+(f/e/f/g/a)f dfdA BdAB FADF | ABcA dcBA (F4{GF}) (E2D2) |\
+GDGB GDGB FDFA FDAD | EFGE gfed (B4{AB}) d4 :|
+|:\
+(vB/A/B/c/d)A FABD FAfD FABD | FAdD dcBA (F4{GF}) (E2D2) |\
+eEGB cEGB gEGB cEGB | eEGB gfed (B4{AB}) d4 |
+(d/A/B/c/ d)D FABD FAdD FABD | (FA)fD FA (d/c/B/A/) (F4{GF}) (E2D2) |\
+GFGA GABG FEFG FGAF | EFGE gefd (B4{AB}) d4 :|
+|:\
+(va/g/f/e/d)a fdad (f/g/)a da fdAF | dcBA (B/A/B/c/d)A (F4{GF}) (E2D2) |\
+(b/a/g/f/e)b gebe (g/a/)b eb geBG | gfed (e/f/e/f/g)d (B4{AB}) (d2fg) |
+(a/g/f/e/d)a fdad (f/g/)a da fdAF | dcBA (B/c/B/c/d)A (F4{GF}) (E2D2) |\
+G2B2B2 AG F2A2A2 GF | E2gf (fe)dc (B4{AB}) d4 :|
+|:\
+vDFDA, DFDA, DFDA, DFDA, | DEFG AFdA (F4{GF}) (E2D2) |\
+EGEB, EGEB, EGEB, (E/D/E/G/E)B, | edef (g/f/.e) (f/e/)d (B4{AB}) d4 |
+DFDA, DFDA, DFDA, DFDA, | DEFG ADdD (F4{GF}) (E2D2) |\
+(G/F/E/F/G)G, (G/F/E/F/G)G, (F/E/D/E/F)A, (F/E/D/E/F)A, | (E/F/E/F/G)E (g/f/)e (f/e/)d (B4{AB}) d4 "^Fine.":|
+
+%%sep 2 1 500
+
+X: 32461
+T: MISS HAMILTON'S STRATHSPEY
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.246 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+(c/B/) |\
+(A>F)(C>F) (A,>F)(C>F) | (.B>.c) (d/c/)B/A/ B<G G(c/B/) |\
+(A>F)(C>F) (A,>F)(A>F) | (B>d) (G>c) A<F F(c/B/) |
+(A>F) (C>F) (A,>F) (C>F) | (.B>.c) (d/c/)B/A/ B<GG>B |\
+(.A>.c) (f>e) (.d>.B) (G>B) | (A/B/c) (G>B) A<FF :|
+|: uc |\
+(f>a) (c>f) (Af)(c>A) | G<gg>f e<cc>e |\
+(f>a) (c>A) (B>f) (B>G) | (A/B/c) (G>B) A<FF>c |
+(f>a) (c>f) (A>f) (c>A) | (B>g) (A>f) g<GG>B |\
+(3AFA (3cAc (3fed (3cBA | (3Bcd (3GAB "^Segue Reel."A<FF :|
+
+%%sep 2 1 500
+
+X: 32462
+T: LORD KELLIE'S REEL
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.246 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+uB |\
+(DG)BG (dG)BG | F2f2 FGAF | (DG)GB (Ac)Bd | cf (d/c/B/A/) (BG)G :|
+ug |\
+bgdg Gggb | afcf Fffa | bgdg fdcB | Af (d/c/B/A/) (BG)G ||
+g |\
+bgdg Gggb | afcf Fffa | bga^f gd=fc | Af (d/c/B/A/) BG"_Fine."G "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32463
+T: LADY ANN STEWART'S STRATHSPEY
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.246 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+"^*"uf |\
+vb<uf (uf>g) f2 (de/f/) | (g>B) (f>B) A<cc>a |\
+vb<uf (uf>g) f2 (d>B) | (A/B/c) (A>G) F<BB :|
+|: (ud/c/) |\
+(B>d)(G>B) (F>B)(D>c) | (B/c/d) (c>B) vA<uc (ucd/c/) |\
+BDDE ~G>ABg | f<B {B}A>G "_Segue Reel."F<BB :|
+%%text * First two Notes point of Bow, and the slur whole Bow.
+
+%%sep 2 1 500
+
+X: 32471
+T: LADY GRACE DOUGLAS'S REEL
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.247 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+ug | ~f2dB c2AF | B2(FD) ECCg | ~f2dB c2AF | BFGE DB,B, :|
+uE | (D/E/F) (FB) GBFB | EBDB cCCE | (D/E/F) (FB) GBFB | DFBF DB,B, ||
+ E | (D/E/F) (FB) GBFB | EBDB cCCE | DFBd cFBg | fdce dB"_Fine."B "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32472
+T: MR. MURRAY OF ABERCARNEY'S STRATHSPEY
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.247 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Some long beams broken to improve readability.
+M: C|
+L: 1/8
+K: Gm
+uD |\
+G<G (B>G) (d>G) B<g | F<F (A>F) (c>F) A<f | G<G (B>G) (d>G) B<g | f<d (c>A) (B<G)G :|
+ud |\
+g<b d<b c<a B<g | A<f c<f A<F F>A | g<b d<b c<a B<g | A<g d<g B<G G>d |
+g<b d<b c<a B<g | A<f c<f A<F F>A | G<G (B>G) (d>G) B<g | f<d (c>A) "_Segue Reel."(B<G)G |]
+
+%%sep 2 1 500
+
+X: 32473
+T: MR. MORTHLAND'S REEL
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.247 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+|:\
+vG3A BcdB | A3f AFcA | G2(GA) Bcdg | fdcA G/G/G G2 :|
+vgdga gbag | fcfg fagf | gdga gbag | fdcA G/G/G G2 |
+gdga gbag | fgag fdcf | (df)ga (gf)ga | fdcA G/G/G "_Fine."G2 "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32481
+T: COBORN'S DELIGHT HORNPIPE
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.248 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+(de) |\
+(3=efg (3gf_e (3cde (3edc | (AB)dB F2FE | (DF)Bd (cd)Bd | (3cdc (3BAG F2(de) |
+(3=efg (3gf_e (3cde (3edc | (AB)dc (BA)GF | (eg)fe (dc)BA | B2d2 B2 :|
+|: (uFE) |\
+(DF)BF (dB)DF | (EG)cG e2de | (fd)Bd (cd)Bd | (3cdc (3BAG F2(FE) |
+(DF)BF (dB)DF | EFGA Bcde | (fg)fe (dc)BA | B2d2 B2 :|
+
+%%sep 2 1 500
+
+X: 32482
+T: MOUNT SHASTA HORNPIPE
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.248 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|:\
+vE>E(A>c) B>A(c>e) | f2e>c f2e>c | a2g>f (e>c)A>c | (G>A)B>c d2c>A |
+ E>E(A>c) B>A(c>e) | f2e>c (d>e)f>g | (a>e)c>A (e>d)B>c | A2(.c2 .A2)z2 :|
+|:\
+vB>e ((3e^de) (f>e)g>f | (e>c)B>G E4 | B,>E ((3EDE) (F>E)G>E | B,>E ((3EDE) (F>E)G>E |
+ B>e ((3e^de) (f>e)g>e | (b>g)e>g a2b>a | (g>f)e>g (f>e)^d>f |[1 e2(.g2 .e2)z2 :|[2 (e^d)ef (e=d)B"^D.C."G |]
+
+%%sep 2 1 500
+
+X: 32483
+T: OLD HICKORY HORNPIPE
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.248 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+(udc) |\
+(BA)Bc (BF)dc | (BA)Bc (BF)dc | (Bc)de (fB)gf | (ed)cB (AF)GA |
+(BA)Bc (BF)dc | (BA)Bc (BF)dc | BfdB AFGA | B2d2 B2 :|
+|: (uAB) |\
+cAFA cAdB | ecAc ecgf | (ed)c=B (cG)c_B | (A=e)fe (fd)_ec |
+(BA)Bc (BF)dc | (BA)Bc (BF)dc | BfdB AFGA | B2d2 B2 :|
+
+%%sep 2 1 500
+
+X: 32491
+T: Set Waltzes -- "GLENPATRICK"
+C: BY JOHN B. EASTON, EDINBURGH, 1884
+N: Bowing and Fingering arranged by W.B. Laybourn.
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.349
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The first part should have two different ending measures.
+M: 3/4
+L: 1/8
+K: Bb
+P: 1.
+|:\
+vF6 | G2(.A3.G) | (F6 | B6) |\
+d6 | f2(.e3.d) | (c6 | G6) |\
+G6 | (_A4G2) | (c4e2) | (a4g2) |\
+(f2=e2)f2 | (g4e2) | d6- | d6 |
+vF6 | G2(.A3.G) | (F6 | B6) |\
+d6 | f2(.e3.d) | (c6 | G6) |\
+G6 | (_A4G2) | (c4e2) | (a4g2) | (f4e2) | A2(.d3.c) | B6- | B2 :|
+|: (uBdfb) |\
+(.a3.a)a2 | z2(uAcfg) | (g3.f)f2 | z2(uFBdg) |\
+(.f3.e)e2 | z2(uFBdg) | (.f3.d)B2 | z2(uBdfb) |
+(.a3.a)a2 | z2(uAcfa) | (.g3.f)f2 | z2v=e2ud2 |\
+((3cdc)=B2c2 | (g4=e2) |[1 f6- | f2 :|[2 (f2g2f2) | (e2c2A2 |]
+P: 2.
+[|\
+vd6 | c6 | B6- | B2D2E2 |\
+F2G2A2 | (B2e3)vd | (c6 | G6) |\
+e6 | d6 | c6- | c2c2d2 |\
+e2=e2f2 | (g2a3)vb | (d'6 | b6) |
+d6 | c6 | B6- | B2D2E2 |\
+F2G2A2 | (B2c3)vd | (a6 | g6) |\
+g6 | (A4g2) | f6 | (B4d2) |\
+(d4c2) | (G4A2) | B6- | B2z2z2 ||
+(vf2e2)vc | (A2g3)uf | (f2d2B2) | b6 |\
+B2c2d2 | f2e2d2 | (c2B3)vc | d6 |\
+(f2e3)vc | (A2g3)uf | (f2d2B2) | b6 |\
+Acf2a2 | (g2b3)v=e |\
+[1 f6- | f2z2z2 :|\
+[2 (f=e_e2c2) | A2(B2c2) "_D.C."|]
+P: 3.
+[|\
+vB6 | (d4e2) | f6- | f2.g2.a2 | (b4a2) | (g4f2) | A6- | A6 |\
+A6 | (B4=B2) | d6 | c6 | ((3FGF =E2 F2) | _e4c2 | d6- | d6 |
+B6 | (d4e2) | f6- | f2g2a2 | (b4a2) | (g4f2) | A6- | A6 |\
+A6 | (B4=B2) | c6 | (a4g2) | f2F2G2 | A2(d3c) | B6- | B2z2z2 ||
+|:\
+(vcAFAce) | (d2B2)uB2 | (bg=ec=Bc) | (a2f2) uf2 |\
+(cAFAce) | (d2B2)uB2 | (c=Bcd=eg) | (f2=e2_e2) |
+(cAFAce) | (d2B2)uB2 | (bg=ec=Bc) | (a2f2)uf2 |\
+(cAFAce) | (d2B2)uB2 | (cdefga) | b2z2"^Fine."z2 :|
+%%text
+
+%%sep 2 1 500
+
+X: 32501
+T: PRINCESS BEATRICE HORNPIPE
+C: Composed by W.B. Laybourn, 1885
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.250 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+(dc) |\
+BDGB AD^FA | (GD)GB (dc)BA | (Bd)gf (ed)cB | AGFE D(cBA) |
+BDGB AD^FA | (GD)GB (dc)BA | f=e_ed cBAG | FEDC B,2 :|
+|: (uFE) |\
+DBEB FBEB | (DF)Bd (fb)fd | Ec=Ec FcGc | (Ac)ec (AF)EC |
+DBEB FBEB | (DF)Bd (fb)fd | f=e_ed cBAG | FEDC B,2 :|
+
+%%sep 2 1 500
+
+X: 32502
+T: ANNIE'S HORNPIPE
+C: Composed by W.B. Laybourn, 1885
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.250 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+uD2 !segno!|\
+D>AB>^c (d>B)A>^c | (d>e)f>g a2g>a | (b>a)g>b (a>g)f>a | gfed cBAD |
+D>AB>^c (d>B)A>^c | (d>e)f>g a2g>a | (b>a)g>b (a>g)f>a | (f>d)e>^c d2 :|
+|: vc>ud |\
+(_e>d)c>e (d>c)B>d | (c>B)A>c B2c>B | AfBf cfdf | (e>g)b>g f2c>d |
+(_e>d)c>e d2A>B | (c>B)A>c B2A>G | (F>A)B>c (d>c)B>A |\
+[1 (B>A)B>^c d2 :|[2 (d>^c)d>_e (d>=c)B>A "_D.C."!segno!|]
+
+%%sep 2 1 500
+
+X: 32503
+T: DAVIE LONIE'S FARM YARD HORNPIPE
+C: Composed by W.B. Laybourn, 1885
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.250 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+U: P=!crescendo(!
+U: p=!crescendo)!
+M: C|
+L: 1/8
+K: F
+(uAB) |\
+cagf edc=B | (c=B)cd c2z2 | v[c2F2][c2F2] [c2F2][c2F2] | [c2F2](Pcf e2pg)z |
+vcagf edc^c | dbag fedc | Beg(Pf e2pg)z | fefg f2 ||
+(uAB) |\
+c=Bcd cA_B=B | c=Bcd cA_B=B | c=Bcd A_Bc^c | (d^c)d_e d2ef |
+g^fga gef^f | g^fga gef^f | g^fga e=fg^g | (a^g)ab a2 "_D.C."|]
+
+%%sep 2 1 500
+
+X: 32511
+T: MRS. WILSON'S FANCY HORNPIPE
+C: Composed by Wm. Findlay, Haywood.
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.251 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+((3EFG) |\
+(A>G)A>c (d>B)G>E | (A>c)e>g (a>g)f>e | (f>d)g>e (a>g)f>e | (d>c)B>A (G>E)F>G |
+(A>G)A>c (d>B)G>E | (A>c)e>g (a>g)f>e | (f>d)g>e (a>f)e>d | c2A2 A2 :|
+|: ((3uefg) |\
+(a>A)(g>A) a>ec>e | (f>d)B>f (e>c)A>c | (d>b)B>d (c>e)A>c | B>eg>f e2((3efg) |
+(a>A)(g>A) a>ec>e | (f>d)B>f (e>c)A>c | (d>f)e>g (a>f)e>d | c2A2 A2 :|
+
+%%sep 2 1 500
+
+X: 32512
+T: THE THISTLE HORNPIPE
+C: Composed by Wm. Findlay, Haywood.
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.251 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+(uB>c) |\
+(d>g)b>a (g>f)e>d | (c>e)a>g (f>e)d>c | B>gd>B c>(DE>F) | G>AB>c d2(B>c) |
+(d>g)b>a (g>f)e>d | (c>e)a>g (f>e)d>c | B>gd>B c>(DE>F) | G2G,2 G2 :|
+|:(uc>A) |\
+(F>D)E>F (G>A)B>c | (d>B)g>e (d>B)G>B | (c>e)a>c (B>d)g>B | (A>d)f>e d2c>A |
+(F>D)E>F (G>A)B>c | (d>B)g>e (d>B)G>B | (c>e)c>A (F>D)B>A | G2B2 G2 :|
+
+%%sep 2 1 500
+
+X: 32513
+T: THE BALL HORNPIPE
+C: Composed by Wm. Findlay, Haywood.
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.251 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+(uA>F) |\
+(D>F)A>d (f>e)d>c | (B>A)G>F E2(e>d) | (c>d)e>f (g>e)c>e | (d>e)f>g a2A>F |
+(D>F)A>d (f>e)d>c ( B>d)e>f ((3gfe (3dcB) | (A>d)f>a (g>A)B>c | d2d2 d2 :||: (uA>d) |
+f>Ad>f (b>a)(g>f) | g>AB>e (g>f)(e>d) | (c>e)a>c (b>a)g>e | (d>e)f>g ((3aba (3gfe) |
+f>Ad>f (b>a)(g>f) | g>Ac>e (g>f)(e>d) | (c>e)a>c (b>a)g>e | d2f2 d2 :|
+
+%%sep 2 1 500
+
+X: 32521
+T: MRS. FINDLAY'S, OF HAYWOOD, STRATHSPEY
+C: Composed by William Findlay, Haywood
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.252 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+uA, |\
+D<D(F>A) (d>e)f>a | (.g>.f)(e>d) (3cBA (3GFE |\
+D<D(F>A) (d>e)f>a | (g/f/)e/d/ (c/d/)e/g/ f<dd> ||
+A |\
+D<D(F>A) (d>e)f>a | (.g>.f)e>d (3cde (3cBA |\
+(3BGB (3dcB (3cAf (3gfe | (3Bcd (3efg f<dd |]
+uf |\
+(.a>.f)(d>B) A>FD<F | (.G>.B)(e>f) (g/f/)e/d/ (c/B/)A/G/ |\
+F<DA>F G<Ee>f | (3gfe (3cde f<dd> ||
+f |\
+(.a>.f)(d>B) A>FD<F | (.G>.B)(e>f) (g/f/)e/d/ (c/B/)A/G/ |\
+F<DA>F G<Ee>d | (3cBA (3GFE "^Segue Reel."F<DD |]
+
+%%sep 2 1 500
+
+X: 32522
+T: MRS. FINDLAY'S, OF HAYWOOD, REEL
+C: Composed by William Findlay, Haywood
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.252 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+uF |\
+D2FA (de)fa | (gf)ed (cd)ef | D2FA (de)fa | gfeg fddF |\
+D2FA (de)fa | (gf)ed (cd)eg | fdec dBAG | FAde fdd ||
+f |\
+afdf Afdf | bgeb gbeb | afdf Afdb | ageg fddf |\
+afdf Afdf | bgeb gbeb | afge fdec | Adeg fd"^Fine."d |]
+
+%%sep 2 1 500
+
+X: 32523
+T: KILWINNING ARCHERS' STRATHSPEY
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.252 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+uF |\
+D<DF<A (.B>.A)(B>d) | (.A>.B)(d>f) {f}(.e>.d)(e>f) |\
+(D>A)(F>A) B>AB<d | (.A>.B)(d>e) f<dd ||
+ue |\
+f<dd>e (f/g/)a/g/ (f<d) | (.B>.A)(B>d) {f}e>de<g |\
+f<dd>e (f/g/)a/g/ (f<d) | (.A>.B)(d>e) f<dd>e |
+(3fga (3bag (3afd (3dcd | (3Bcd (3efg (3fed (3cBA |\
+(D>A)(F>A) B>AB<d | (.A>.B)(d>e) "_Segue Reel."f<dd "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32531
+T: THE RANDY WIVES OF GREENLAW REEL
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.253 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The last note does have a dangling tie.
+M: C|
+L: 1/8
+K: D
+uc |\
+d2AG F2Dc | d2fd (eB)Bc | d2AG F2DF | (GB)AG (FD)D :|
+uc |\
+d2df (ab)af | (ge)fd (eB)Bc | d2df (ab)af | (ge)(af) d/d/d (dA) |
+d2df (ab)af | (ge)fd (eB)Bc | dfce BdAF | GBAF D/D/D "^Fine."D2- |]
+
+%%sep 2 1 500
+
+X: 32532
+T: J. TURNBULL'S COMPLIMENTS TO J. MANSON STRATHSPEY
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.253 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: Bb
+uB2 !segno!|\
+FD3 (D3E) (F3G) FB3 | FD3 D3E (FB3) d4 |\
+cG3 c3d cG3 c3d | (.e3.c) (ed).c.B Ac3 c3d !segno!:|
+(.B3.f)(d3f) (.B3.f)(d3b) | ge3 c3B AF3 e3c |\
+(.B3.f)(d3f) (.B3.f)(d3b) | (ag).f.=e (f3c) dB3 B3c |
+dB3f3d (._a3.f)(g3f) | eG3e3d c3B AF3 |\
+BF3 (B3d) (c3e) d3b | (ag).f.=e (f3c) "_Segue Reel."dB3B3d "_D.C."!segno!|]
+
+%%sep 2 1 500
+
+X: 32533
+T: MARMOT'S REEL
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.253 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+|: vB2BB (dB)BB | (ec)fd (gf)ff | (ba)gf (ga)bg | fedc B2b2 :|
+|: (vaf)ff (bf)ff | (af)ff (bf)ff | g2gg (g3f) | fedc B2b2 :|
+|: vF2FB (AG)AB | cdec Bdf2 | F2FB (AG)AB | (cd)ec B2b2 "^Fine.":|
+
+% newpage
+%%sep 2 1 500
+
+X: 32540
+T: THE CHORUS LANCERS QUADRILLES
+C: Arranged by W. Crow, Edinburgh
+B: K\"ohler's Violin Repository, v.3, 1885 p.254-255
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Labelled "Newly out" -- probably in 1885.
+M: none
+L: 1/8
+K:
+
+%%sep 2 1 500
+
+X: 32541
+P: THE CHORUS LANCERS QUADRILLES -- Part 1.
+C: Arranged by W. Crow, Edinburgh
+B: K\"ohler's Violin Repository, v.3, 1885 p.254 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: G
+vG/uG/ !segno!|\
+[g3B3D3G,3] gfe | edd (.d2.e) | dcc (.c2.d) | cBB B2G/G/ |\
+[g3B3D3G,3] gfe | edd (.d2.e) | dcc cdf | g3 |]
+uDGA |\
+(.B2.B) GBc | (.d2.d) eBe | dcA FAe | dBG DGA |\
+(.B2.B) GBc | (.d2.d) eBe | dcA DFA | G3- G2 "^D.C."|]
+uFGA |\
+(.B2.B) F^dF | (.B2.B) cBA | (.G2.G) DBD | (.G2.G) FGA |\
+(.B2.B) F^dF | (.B2.B) cBA | (.G2.G) DBD | G3- G2 "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32542
+P: THE CHORUS LANCERS QUADRILLES -- Part 2.
+C: Arranged by W. Crow, Edinburgh
+B: K\"ohler's Violin Repository, v.3, 1885 p.254 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+R: march
+M: 2/4
+L: 1/16
+K: D
+[|\
+vd'2c'b a2d2 | d'2c'b a2a2 | e2a2e2a2 | fgfe d2d2 |\
+d'2c'b a2d2 | d'2c'b a2a2 | e2a2 e2fe | d2z2 vd'2z2 |]
+vF2A2 A4- | A2B^G A2f2- | f2g^d e4- | e2fe c2d2 |\
+F2A2 A4- | A2B^G A2f2 | (^gf)ed edcB | cBA^G A2A2 |
+A2f2e2d2 | (.d3.A) A4 | A2{^d}e2A2{^d}e2 | A2(ea) a2A2 |\
+A2f2e2d2 | (.d3.A) A4 | e2AA e2A2 | a2ef d2d2 "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32543
+P: THE CHORUS LANCERS QUADRILLES -- Part 3.
+C: Arranged by W. Crow, Edinburgh
+B: K\"ohler's Violin Repository, v.3, 1885 p.254 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: C
+(uc/d/)!segno!|\
+(.e2.e)(e2f) | a2g- gfe | (.d2.d) ded | c3 Gcd |\
+(.e2.e) (e2f) | a2g- gfe | (.d2.d) ded | c3- c2 |]
+(uB/c/) |\
+(.d2.d) d^cd | f2_e- edc | (.^f2.f) fga | g3- g2(B/c/) |\
+"Ritard."(.d2.d) d^cd | (f2_e) Hd2uc | (.[^f2A2D2].f) fga | g3 g^f=f !segno!"_D.C."|]
+
+%%sep 2 1 500
+
+X: 32551
+P: THE CHORUS LANCERS QUADRILLES -- Part 4.
+C: Arranged by W. Crow, Edinburgh
+B: K\"ohler's Violin Repository, v.3, 1885 p.255 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+U: P=!crescendo(!
+U: p=!crescendo)!
+R: march, reel
+M: 2/4
+L: 1/16
+K: A
+[|\
+vc4 A4 | c4 A4 | c2BA B2cd | c4 A4 |\
+F4 B4 | F4 B4 | g3f edcB | A2z2 a2z2 |]
+vC2"^8va . . . . . . ."E2E2E2 | E2A2A2c2 |"^.  .  .  .  .  .  ."(c3B) B4 | !ff!B2"_>"B2 "_>"G2"_>"E2 |\
+E2G2G2B2 | B2d2d2G2 | (B3A) A4 | !ff!A2"_>"E2"_>"C2"_>"A,2 |
+c2G2G2G2 | G2A2G2F2 | (E3F) G4 | !ff!G2"_>"G2"_>"E2"_>"C2 |\
+e2B2B2^B2 | c2B2A2F2 |!ff!PE2EE (.E2.E2) | e2ee e2pz2 "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32552
+P: THE CHORUS LANCERS QUADRILLES -- Part 5.
+C: Arranged by W. Crow, Edinburgh
+B: K\"ohler's Violin Repository, v.3, 1885 p.255 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+R: jig
+M: 6/8
+L: 1/8
+K: D
+v[d2F2A,2]z v[d2F2A,2]z | v[d2F2A,2]z z2 !segno!|: uA |\
+.dz.e .fz.b | Q(a3 qf) zuA | .dz.e .fz.b | Q(a3 qf) zuA |\
+(.g2.g) {a/}gfg | g3 ega | (.b2.b) {c'/}b^ab | b2(a/g/) fz uf |
+.e(gf) .e(gf) | e2!ff!a/a/ az uf | .e(gf) .e(gf) | e3 ABc |\
+d>dd dfe | e>dd dfd | a2f/d/ a2e/f/ | d3- d2 :|
+K: G
+|: ud |\
+(.g2.f) (g2b) | d'3- d'2b | (d'2b) (d'2b) | (d'^c'=c') a3 |\
+(.a2.a) {b/}aga | (b2d') g3 | aba (d2d') | g3- g2z |
+ve'3 e'3 | d'3 d'3 | (._b3.b) bag | d'3 (d'^c'=c') |\
+(.a2.a) {b/}aga | (b2d') g3 | aba (d2d') | vg2z v[g2B2D2G,2] "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32561
+T: THE MASHER POLKA
+C: Composed by W.B. Laybourn, 1885
+P: Newly out.
+B: K\"ohler's Violin Repository, v.3, 1885 p.256 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The times of some of the measures with triplets don't add up correctly.
+N: They've been adjusted to match the rhythm of bar 10.
+R: Polka
+M: 2/4
+L: 1/16
+K: D
+|:\
+(vAB)cd efg^g | a2a2 f4 | ((3g/a/g/)fe ((3fgf)ed | ((3efe)dc (dc)BA |
+(AB)cd efg^g | a2a2 f4 | ((3g/a/g/)fe ((3fgf)ed | e2(.A2.d2)z2 :|
+K: A
+|:\
+ve2a2 a2gf | ((3gag)fe ((3fgf)e2 | e2d'2 d'2c'b | ((3c'/d'/c'/)ba ((3bc'b)a2 |
+e2a2a2 gf | ((3g/a/g/)fe ((3fgf)e | (eb)(bd') ((3c'd'c')b2 | a2(.c'2.a2)z2 "^D.C.":|
+K: G
+|:\
+vd4- d(gbd') | d6 (Bc) | B4- B(dfb) | B6 (db) |\
+(ba) a4 (ca) | (ag) g4 (Ag) | (gf) f4 (Af) | (ed) d4 (Bc) |
+d4- d(gbd') | d6 (Bc) | B4- B(dfb) | B6 (db) |\
+(ba) a4 (dc') | (c'b) b4 (Af) | (fe)(e^d) (de)(ef) | [g2B2][g2B2][g2B2]z2 :|
+
+%%sep 2 1 500
+
+X: 32562
+T: RAINBOW; OR, MIDNIGHT SCHOTTISCHE
+R: shottish
+B: K\"ohler's Violin Repository, v.3, 1885 p.256 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+|:\
+vc'2e>f g2c>d | e>(Bc)>A G4 | G>AB>c d>ef>g | a2g>^f g4 |\
+c'2e>f g2c>d | e>(Bc)>A G4 | G>AB>c d>ef>g | c2{d'/}c'>b c'2z2 :|
+|:\
+vA2{B/}A^G (AB)cd | e2{f/}e^d e2a2 | (e2a2)e2d2 | cdcB A2E2 |\
+A2{B/}A^G (AB)cd | e2{f/}e^d (e2a2) | e2(de) (ce)(Be) | [1A2z2 va2z2 !segno!:|[2 A2z2 Tvb4{a/b/} "^D.C."||
+|:[K:F]\
+vf2(fa) cfAc | FAcf a4 | g2gb egce | Gceg b4 |\
+f2fa cfac | FAcf a3f | efga bcde | [f2A2][a2c2][f2A2] z2 :|
+
+%%sep 2 1 500
+
+X: 32571
+T: LA ENFANT VALSE
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.257 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Yes, the French title is grammatically incorrect.
+N: Part 1's 3rd section has two endings, but no initial repeat.
+M: 3/4
+L: 1/8
+K: F
+P: 1.
+[|\
+vA2B2c2 | c2d2e2 | (f2a3g) | f6 |\
+f2e2d2 | (d2^c2d2) | (.e4.e2) | A6 |\
+(e3fe2) | (d2^c2d2) | (e3fe2) | a6 |
+(a2g2e2) | (f2d2A2) | (f4e2) | d6 |\
+(ve3fe2) | a6 | (e3fe2) | d6 |\
+(d2B2G2) | (F2A2d2) | (d4^c2) | d6 |]
+|:\
+vd6 | (e2f2e2) | d6 | a6 |\
+b6 | (b2a2^g2) | a6- | a4z2 |\
+vb6 | (b2a2^g2) | va6 | (a2g2f2) |
+[1 (e4f2) | (e4f2) | e6 | a6 :|\
+[2 e6 | a6 | d6- | d4z2 \
+[|:\
+v(A4B2) | (A4G2) | (G4^F2) | G6 |\
+(G4d2) | (d4^c2) | d6- | d4z2 |
+(v_e2d2^c2) | (d2c2B2 ) | (c2B2A2) | (B2A2G2) |\
+[1 (G2^F2G2) | (G2^F2G2) | A6 | D6 :|\
+[2 (D4B2) | (A4d2) | G6- | G2z2z2 "_D.C."|]
+K: D
+P: 2.
+|:\
+vF6 | (A4d2) | (f4g2) | f6 |\
+F6 | (A4d2) | (f4d2) | A6 |\
+(G2e4) | e6 | (F2d4) | d6 |\
+[1 (E2c4) | c6 | (d2A4) | A6 :|\
+[2 (c2f4) | (f4e2) | d6- | d2z2z2 |]
+va6 | (b4a2) | (c4d2) | c6 |\
+a6 | (b4a2) | (d4e2) | d6 |\
+a6 | (b4a2) | (a4g2) | (g4f2) |\
+(f4e2) | (e4d2) | (d4c2) | (B4A2) |
+a6 | (b4a2) | (c4d2) | c6 |\
+a6 | (b4a2) | (d4e2) | d6 |\
+(a4g2) | (g4f2) | (f4e2) | (B4e2) |\
+(d4c2) | (B4c2) | d6- | d2z2z2 "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32581
+T: RONDO, OR APE SHENKIN -- Irish Air
+R: jig
+B: K\"ohler's Violin Repository, v.3, 1885 p.258 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The last phrase has 2 extra bars in the run leading down to the B at the top.
+N: 1) Conflicting use of dot and flag; fixed by making it like other similar bars.
+M: 6/8
+L: 1/8
+P: Allegretto
+K: G
+(ud/c/)!segno!|\
+(.B2.B) Bgf | {f}(.e2.e) e>fg | d>ed d>cB | (B<AvA) A2d/c/ |\
+(.B2.B) Bgf | (.e2.e) e>fg | d>ed cBA | (.G2.G) G2 ||
+vg/ua/ |\
+(b2g) (a2f) | g>fe d>cB | c>de (d<g)uB | (B<A)vA A2g/a/ |\
+(b2g) (a2f) | g>fe a>gf | b>ag f>ge | d>gf edc |
+(.B2.B) Bgf | {f}(.e2.e2) e>fg | d>ed d>cB | (B<A)vA A2d/c/ |\
+(.B2.B) Bgf | {f}(.e2.e) e>fg | d>ed cBA | (.G2.G)"^Fine."G2 H|]
+vg/ua/ |\
+bgg fgg | eggdgg | bgg fgg | b3 a2g/a/ |\
+bgg fgg | egg dgg | bgg f>ef | a3 g2d/c/ |
+Bdd Add | Bdd G2e/d/ | cee Aee | cee A2f/e/ |\
+dff Bff | dff B2g/f/ | eag fba | gc'b ad'c' |
+{bc'}b>ab gab | {ab}a>ga fga | {ga}g>fg efg | (f<^d)vB B^cd |\
+efg fga | gfe fe^d | efg fga | gfe ce^d |
+efg fga | gab abc' | bag agf | gab abc' |\
+(b<g)vg {ga}g>fg | add fdd | (b<g)vg {ga}g>fg | bd'd' ad'd' |
+(b<g)vg {ga}g>fg | add fdd | (b<g)vg {ga}g>fg | bd'd' ad'd' |\
+bag c'ba | e'd'c' bag | fba gfe | dgf {ef}edc "_D.C."!segno!|]
+"Minor."\
+ve>(fg/e/) f>(ga/f/) | g>ab (b<g)ue | ^d>(ef/d/) e>(fg/e/) | (f<^d)vB B3 |\
+e>(fg/e/) f>(ga/f/) | g>ab (b<g)ue | c'>ba g>af | e3 e'3 |
+e'>d'c' c'>bc' | d'>c'b b>ag | e'>d'c' c'>bc' | d'>c'b b>ag |\
+(g<d)vg gdg | (a<d)va ada | b>ag g>fg | "1)"(a<f)vd (.d2.c') |
+b>ag g>fg | (a<f)vd (.d2.c) | Bdg Bdg | ceg ceg |\
+cea cea | dfa dfa | dfb dfb | ^dfb dfb |
+^dfa baf | ^dfa baf | e>(fg/e/) f>(ga/f/) | g>ab (b<g)ue |\
+^d>(ef/d/) e>(fg/e/) | (f<^d)vB B^cd | e>(fg/e/) f>(ga/f/) | g>ab (b<g)ue |
+c'>ba g>fe | bfd (.B2.B) | (c<B)vB ^dee | (c<B)vB fgg |\
+(c<B)vB faa | (g<e)ve (.e2.g) | (d/e/d/c/B/A/) (G2.a) | (b<g)vg (.g2.g) |
+(d/e/d/c/B/A/) (.G2.a) | (b<g)vg (.g2.a) | (b<g)vg aff | (g<e)ve e'>d'c' |\
+d'c'b c'ba | bag agf | gfe dcB | gfe dcB |
+gfe gfe | gfe {ef}e>d"_D.C."c !segno!|] %
+
+%%sep 2 1 500
+
+X: 32601
+T: NEIL GOW'S RECOVERY STRATHSPEY
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.260 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The final B, notes are dotted, but the pickups are 8th notes. Fixed by removing the dots.
+M: C|
+L: 1/16
+K: Bb
+uE2 |\
+(DEF2) (F3d) (dc)BA B4 | (GAB2) (F3D) EC3C3E |\
+(DEF2) F3d (dc)BA (B3F) | (GAB2) (F3{GF}E) DB,3B,2 :|
+uf2 |\
+(d3f)(B3f) dB3B3_a | (g3e)(f3d) ec3c3f |\
+(d3f)(B3f) dB3B3_a |(g3e)(f3e) dB3B3f |
+(d3f)(B3f) dB3B3_a | (ge3)(f3d) ec3c3e |\
+df3(cd3) (Be3)d3c | BG3(F3E) "_Segue Reel."(DB,3)B,2 "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32602
+T: MR. HAMILTON'S, OF WISHAW, REEL
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.260 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+uf | dB B/B/B TB2FB | cded cCCe | dB B/B/B TB2FB | ABcA BB,B, :|
+ud | B/B/B (fd) (bd)(fd) | B/B/B (fd) eccd | B/B/B (fd) (bd)(fd) | ABcA BB,B, ||
+ d | B/B/B (fd) (bd)(fd) | B/B/B (fd) eccf | gefd ecdc | BGFE DB,"_Fine."B, "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32603
+T: LADY ELIZABETH LINDSAY'S STRATHSPEY
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.260 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: A few long beams broken, for readability.
+M: C|
+L: 1/8
+K: Bb
+uf | f<B {Bc}(d>c) ( B<G)G>B | (FB) (DB) FD D>g | f<B {Bc}(d>c) (B<G)G>B | F<B (D>d) {d}c2c :|
+ug | f<d(d>e) (fd)dg | f<d(d>e) (f>d) d<b | f<d(d>e) (fg) d<b | f<d(d>B) c2c ||
+ g | f<d(d>e) (fd)dg | f<d(d>e) (fg) d<b | g<b (f<g) (d<f) c<d | G<B (F>D) {D}C2"_Segue Reel."C "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32611
+T: LADY SUTHERLAND'S REEL
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.261 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+ud | TB2(FB) GBFB | EBDB Cccd | TB2(FB) Ggfe | dfce dBB :|
+uf | bfdf egce | dfBd cFFf | bfdf egce | dfce dBB ||
+ a | bfdf egce | dfBd cFFf | (gf)ga (bg)fe | dfce dB"_Fine."B "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32612
+T: THE BRAES OF TULLYMET STRATHSPEY
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.261 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+U: s=!beambr1!
+K: Gm
+uc |\
+A<dT(d>c) T(d>c)sd<f | A<F(c>F) (d>F)c>B |\
+A<dT(d>c) T(d>c)df | T(.f>.d) (d/c/B/A/) A<G G :|
+ud |\
+~"\#"g>dsg<b ~"\#"g>dsg<b | ~"\="f>csf<a ~"\="f>csf<a |\
+~"\#"g>dsg<b ~"\#"g>dsg<b | T(.f>.d) {d}(c>A) G2 (.G>.d) |
+~"\#"g>dsg<b d(g/a/) bg | ~"\="f>csf<a cf/g/ (a/g/a/^f/) |\
+gd T(d>=e) T(f>g){fg}a>g | fd/f/ (d/c/B/A/) (A<G) "_Segue Reel."G "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32613
+T: SIR RONALD McDONALD'S REEL
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.261 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+uB | B/B/B (dc) d3g | fdcA FGAF | G/G/G (BG) Bddf | AFcA G3 :|
+uf | (ga)gf (cf)ga | (fd)cA (Ac)Af | (ga)gf (df)ga | fdcA G3 ||
+(f |  ga)gf dfga | fc (d/c/B/A/) (cd)fa | gafg dfcf | AFcA "_Fine."G3 "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32621
+T: MISS BAKER'S HORNPIPE
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.262 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+(uc>B) |\
+A2F2 FAGF | EGB2 (Bd)cB | Acde fcdB | AGFE FdcB |\
+A2F2 FAGF | EGB2 (Bd)cB | Acde fcdB | A2F2 F2 :|
+|: ((3ucde) |\
+fcAc fagf | gece gbag | afge fdgf | e2c2 c2(fe) |\
+dcBA B2(ba) | gfed c2(dc) | BAGF EdcB | A2F2 F2 :|
+
+%%sep 2 1 500
+
+X: 32622
+T: THE ROCKET HORNPIPE
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.262 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+((3ucde) |\
+f2F2 F2{a}g^f | g2G2 G2ga | bagf efga | gec2 c2de |
+f2F2 F2{a}g^f | g2G2 G2ga | bagf efge | f2f2 f2 :||: (ucB) | Afcf
+afcA | Bfdf bfdB | Afcf afcB | A2G2 G2(cB) |
+Afcf afcA | Bfdf bfdB | bagf afgd | [f2A2][f2A2] [f2A2] :|
+
+%%sep 2 1 500
+
+X: 32623
+T: WEST'S HORNPIPE
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.262 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+((3uABc) |\
+d2FG (AF)AF | d2FG A2FA | BAGF E2(ef) | gefd edcA |\
+d2FG (AF)AF | d2FG A2FA | BAGF E2(eg) | fdec d2 :|
+|: (uAd) |\
+fdAd afdf | ecAc gece | fdAd afdf | edcB A2(Bc) |\
+(dc)dB (cB)cA | (dc)dB (cB)cA | afge fdec | d2f2 d2 :|
+
+%%sep 2 1 500
+
+X: 32631
+T: THE NAVAL BRIGADE HORNPIPE
+C: Composed by W.B. Laybourn, 1885
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.263 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd B in bar 11 may be a typo, and should be A as in bars 3, 7 and 15.
+M: C|
+L: 1/8
+K: D
+vAuG |\
+(F/E/D) (CD) B,DA,D | (FA)Bc d2ed | (c/B/A) (eA) (fA)(gA) | a2b>^g a2A>G |
+(F/E/D) (CD) B,DA,D | (FA)Bc d2ed | (c/B/A) (eA) (fA)(gA) | a2b>^c d2 :||: vfug |
+(a/g/f) (aA) (g/f/e) (gA) | (fd)Ad f2ed | (c/B/B) (eA) (fA)(gA) | (^gA)(aA) (bA)(aA) |
+(a/g/f) (aA) (g/f/e) (gA) | (fd)Ad f2ed | (c/B/A) (eA) (fA)(gA) | a2b>c d2 :|
+
+%%sep 2 1 500
+
+X: 32632
+T: PIRATE'S HORNPIPE
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.263 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Eb
+uB,2 |\
+(ED)EF (EB,)G,B, | EeBG EFGE | (AF)cB (AG)FE | DBFD B,DFD |
+(ED)EF (EB,)G,B, | EeBG EFGE | (AF)cA (GF)ED | E2E2 E2 :|
+|: uB2 |\
+e2e2 dB=AB | f2fe (dB)=AB | (af)dB (AF)GE | DBFD B,2((3B,CD) |
+E2E2 CA,G,A, | F2(FE) DB,=A,B, | (eB)AG (FA)DF | [E2G,2][G2B,2] [E2G,2] :|
+
+%%sep 2 1 500
+
+X: 32633
+T: SANDERSON'S HORNPIPE
+C: Composed by W.B. Laybourn, 1885
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.263 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+uD2 |\
+G^FGA Bd^cd | Ac=Bc G_BAB | FcGc AcBc | Aced cBAD |
+G^FGA Bd^cd | Ac=Bc G_BAB | FcGc Ace^c | dcBA G2 :|
+|: (uga) |\
+bgdB GBdg | bgdB G2(fg) | afcA FAcf | afcA F2^F2 |
+GDGB AD^FA | GABc d2(ec) | dBcA BGA^F | G2B2 G2 :|
+
+%%sep 2 1 500
+
+X: 32641
+T: THE VIENNA POLKA
+R: polka
+B: K\"ohler's Violin Repository, v.3, 1885 p.264 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Bar 9: changed first a to 8th note, as in bar 12.
+M: 2/4
+L: 1/16
+K: G
+(uBc) |\
+d2B2g2B2 | d2{d}cB ceA2 | c2A2a2c2 | e2{e}d^c dgB2 |\
+d2B2g2B2 | d2{d}cB ceA2 | c2A2a2f2 | {a}gfga g2 :|
+|: (ufg) |\
+a2 (.A4 .e2) | de d4 b2 | cd c4 a2 | Bc B4 g2 |\
+a2 (.A4 .e2) | de d4 b2 | cdc2- c2a2 | g2b2g2 "^D.C.":|
+|: ud2 |\
+defg abc'd' | {c'd'}c'2b2 d'c'b2 | {bc'}b2a2 c'ba2 | {ab}a2g2 bag2 |\
+(de)fg abc'd' | {c'd'}c'2b2 d'c'b2 | {bc'}b2a2 c'ba2 | g2g2g2 "^D.C.":|
+
+%%sep 2 1 500
+
+X: 32642
+T: LA GITANA POLKA
+R: polka
+B: K\"ohler's Violin Repository, v.3, 1885 p.264 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+uc2 |\
+(.B3.c) d2f2 | {fg}f2e2 efe2 | {ef}e2d2 ded2 | {de}d2c2 cdc2 |\
+(.B3.c) d2f2 | {fg}f2e2 efe2 | {ef}e2d2 ded2 | c2c2c2 :|
+|:[K:G] ud2 |\
+d2(ef) gabc' | d'2d2 b4 | {bc'}b2a2 aba2 | {ab}a2g2 gag2 |\
+d2e^f gabc' | d'2d2 b4 | {bc'}b2a2 aba2 | g2b2g2 :|
+
+%%sep 2 1 500
+
+X: 32643
+T: OPERA POLKA
+R: polka
+B: K\"ohler's Violin Repository, v.3, 1885 p.264 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+uA2 |\
+A2d2 {e/}dcd2 | e2A2 {B/}AGA2 | e2A2g2A2 | b2a2 (ag)f2 |\
+A2d2 {e/}dcd2 | e2A2 {B/}A^GA2 | e2A2g2A2 | (fA)fe d2 :|
+|: (ued) |\
+c2e2a2c'2 | c'2(ba) ^g2f2 | f2e2 {f/}e^de2 | f2e2 {f/}e^de2 |\
+c2e2a2c'2 | c'2(ba) ^g2f2 | fe^de fec'b | (ae)c'b a2 "^D.C.":|
+|: z2 |\
+c'2A2c'2b2 | b2a2 (ag)f2 | a2A2a2g2 | g2f2 (fe)d2 |\
+c'2A2c'2b2 | b2a2 (ag)f2 | e2(c'b) avgBc | d2f2d2 "^D.C.":|
+% %center (To be Continued.)
+
+%%sep 2 1 500
+
+X: 32651
+T: O DEAR WHAT CAN THE MATTER BE? -- Variations
+B: K\"ohler's Violin Repository, v.3, 1885 p.265
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Some of the endings require adjusting to hold a steady beat.
+M: 6/8
+L: 1/16
+Q: "Allegretto."
+K: G
+|:\
+vd6 d6 | d2B2g2 d2B2G2 | c6 c6 | c2A2B2 c2B2A2 |\
+d6 d6 | d2B2g2 d2B2G2 | E2A2c2 B2c2A2 | G6- G4 :|
+|: ud2 |\
+d2B2c2 d2B2c2 | d2B2g2 d2B2G2 | c2A2B2 c2A2B2 | c2A2B2 c2B2A2 |\
+d2B2c2 d2B2c2 | d2B2g2 d2B2G2 | E2A2c2 B2c2A2 | G6- G4 :|
+|: z2 |\
+(vdg)bagf (ed)gfed | (cB)edcB (AG)cBAG | Fac'bag feagfe | (dc)fedc (BA)dcBA |
+Gbd'c'ba gfbagf | (ed)gfed (cB)edcB | (AG)cBAG (FA)dcBA | G6- G4 :|
+|: ud2 |\
+dcBcde dcBcde | (dg)bagf (ed)cBAG | cBABcd cBABcd | cac'bag fedcBA |
+BABGAB cBcABc | dbd'c'ba gfedcB | (Ac)ecAG (FA)dcBA | G6- G4 :|
+|: ((3uDEF) |\
+G2D2B2 G2d2B2 | g2d2b2 g2d2B2 | c2A2F2 A2F2C2 | F2D2C2 D2C2A,2 |\
+B,2G,2D2 B,2G2D2 | B2G2d2 B2G2D2 | (E2A2c2) (B2c2A2) | G6- G4 :|
+|: ud2 |\
+{e}d2^c2d2 {E}D2^C2D2 | g2f2g2 {E}D2^C2D2 | {d}c2B2c2 {E}D2^C2D2 | a2^g2a2 {E}D2^C2D2 |\
+(B2^A2B2) (G2F2G2) | (g2f2g2) (E2^D2E2) | (G2^G2A2) (A2=G2F2) | G6- G4 :|
+|: z2 |\
+vd2(GB)dg d2(Bd)gb | g2(dg)bd' b2(ga)bg | c'2(c'a)fd c2(af)dc | A2(cA)FD C2(AF)DC |
+B,2(G,B,)DG D2(B,D)GB | G2(DG)Bd B2(GB)dg | e2(EA)ce d2(DF)AF | G6- G2 :|
+|: (uGABc) |\
+d2(dcBA) G2(BAGF) | E2(GFED) C2(ABcd) | e2(edcB) A2(cBAG) | F2(AGFE) D2(DEFD) |
+G2(GFGA) B2(BABc) | d2(defd) g2(gfed) | c2(edcB) A2(dcBA) | "^D.C. for Finale."G6- G4 :|
+
+%%sep 2 1 500
+
+X: 32661
+T: THE BELL POLKA
+C: By E. Ames Muirpark, Dalkeith
+R: polka
+B: K\"ohler's Violin Repository, v.3, 1885 p.266 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+|:\
+vEFG2 EFG2 | ABc2 ABc2 | B2d2 (.d3.B) | c2e2e2z2 |\
+EFG2 EFG2 | ABc2 ABc2 | B2d2 (.d3.B) |[1 c2c2c2z2 :|[2 c2z2 vc2 zuc |]
+K:G
+[|\
+vB2^A2B2A2 | B6 A2 | G2B2 (.e3.d) | (d4 c2) zvA |\
+A2^G2A2G2 | A6=G2 | F2e2d2c2 | B6 zuB |
+B2^A2B2A2 | B6 A2 | G2B2 (.e2z.d) | (d4 c2) zuA |\
+A2^G2A2G2 | A6 B2 | c2d2e2f2 | g2z2z4 ]|
+K:C
+[|\
+vEFG2 EFG2 | ABc2 ABc2 | B2d2 (.d3.B) | c2e2e2z2 |\
+vEFG2 EFG2 | ABc2 ABc2 | B2d2 (.d2z.B) | c2z2 vc2 zuc |]
+K:F
+[|\
+f2a2f2d2 | c6 z(vA | f2) z(uc a2) z(vf | c'2)b2 z2zug |\
+(g2b2g2e2) | uc6 uB2 | (A2d2c2B2) | A6 zuc |
+(f2a2f2d2) | c6 z(vA | f2) z(uc a2) z(vf | c'2)b2 z2zug |\
+(g2b2g2e2) | uc6 uc2 | d2d2 e2e2 | vf2z2 vf2z2 "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32662
+T: SANDY McGAFF -- Jig
+R: jig
+B: K\"ohler's Violin Repository, v.3, 1885 p.266 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has a final repeat, but no initial repeat.
+M: 6/8
+L: 1/8
+K: Em
+|:\
+vE3- EFG | B3- B^cd | E3- E(FG) | BAG FED |\
+E3- EFG | B2^c d2e | fgf efe | d^cB AGF :|
+|:\
+(v.E2.e) (.e2.g) | fe^d e3 | (.E2.e) (.e2.g) | fga gfe |\
+DFA (.d2.e) | fe^c d3 | DFA (.d2.B) | ABG FED :|
+
+%%sep 2 1 500
+
+X: 32671
+T: THE MARIE VALSES
+C: Composed by J. Mackenzie, Edin.
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.267
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+P: 1.
+[|\
+G6 | (^F4G2) | (A4G2) | E6 |\
+G6 | (^F4G2) | (B4A2) | F6 |\
+F6 | (D4E2) | (F4G2) | (B4A2) |\
+(G4F2)| (D4E2) | (A4G2) | E6 |
+G6 | (^F4G2) | (A4G2) | E6 |\
+G6 | (^F4G2) | (B4A2) | F6 |\
+(c4B2) | (B4c2) | (e4d2) | (g4f2) |\
+(e4c2) | (d4e2) | c6- | c2 |]
+(g^f)ga \
+|: !f!(.g3.e)e2 | e2(g^f)ga | (.g3.e)e2 | e2(c'b)c'd' |\
+(.c'3.b)b2 | b2(ba)bc' | (.b3.g)g2 | g2(g^f)ga |
+(.g3.e)e2 | e2(g^f)ga | (.g3.e)e2 | e2(c'b)c'd' |\
+(.c'3.b)b2 | e4a2 |[1 g6- | g2(g^f)ga :|[2 g6- | g2z2z2 "_D.C."|]
+%
+K: G
+P: 2.
+N: Tune 2: 2nd part has final repeat but no initial repeat.  Fixed to repeat 2nd part.
+[|\
+(B4d2) | e6 | (d4B2) | g6 |\
+(g2f3)va | (g4f2) | e6 | d6 |\
+e6 | (f4g2) | g6 | d6 |\
+(d2c3)ve | (d4B2) | A6 | (d2^c2=c2) |
+(B4d2) | e6 | (d4B2) | g6 |\
+(g2f3)va | (g4f2) | e6 | d6 |\
+e6 | (f4g2) | g6 | d6 |\
+(d2c3)vd | (e4f2) | g6- | g2z2z2 |]
+|: vB4B2- | B2(.A3.G) | F4F2- | F2(.E3.F) |\
+G4G2- | G2(.F3.E) | (.B,4.B,2) | ^A,2(G2=A2) |
+B4B2 | B2(.A3.G) | F4F2- | F2(.E2.F2) |\
+G6 | (F4G2) |[1 E6- | E2(G2A2) :|[2 E6- | E2z2z2 "_D.C."|]
+%
+P: 3.
+N: Tune 3: both parts have a final repeat but no initial repeat.  Fixed to repeat both parts.
+|:\
+vgggggg | (f4d'2) | eeeeee | (d4b2) | (d3cAf) | (e4d2) | (d3cAf) | (e4d2) |
+gggggg | (f4d'2) | eeeeee | (d4b2) | (d3^cde) | (f3dfg) | (a3^gad') | g2z2 :||: ud2 |
+gfedcB | edcBAG | cBAGFE | D4D2 | DEFGAB | c4F2 | GABcde | d4d2 |
+gfedcB | edcBAG | cBAGFE | D4D2 | DEFGAB | c4d2 | ede^def | g2z2 :|
+
+%%sep 2 1 500
+
+X: 32681
+T: COMMON SCHOTTISCHE (Dewdrop)
+R: shottish
+B: K\"ohler's Violin Repository, v.3, 1885 p.268 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+(vF>G) |\
+A>BA^G A2d2 | A>BA^G A2f2 | ((3fed (3cBA) G2E2 | ((3cBA (3GFE) F2D2 |\
+A>BA^G A2d2 | A>BA^G A2f2 | f>eg>e cBAc | dzdzdz H:|
+K: A
+|: z2 |\
+va2e>a g2d>g | eEAc e2(dc) | BEGB dBGE | AEcA e^efg |\
+a2e>a g2d>f | eEAc e2(dc) | BAGF EdcB | A2a2 a2 "_D.C.":|
+K: G
+"Trio."|: z2 |\
+G2D>G B2G>B | dBgf edcB | A2E>A c2A>c | fed^c fe=cA |\
+G2D>G B2G>B | eBgf edcB | A2EA GFEF | G2G2 G2 "_D.C.":|
+
+%%sep 2 1 500
+
+X: 32682
+T: IRISH JIG
+C: By John B. Easton, Edinburgh
+R: jig
+B: K\"ohler's Violin Repository, v.3, 1885 p.268 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd part has an initial repeat but no final repeat; fixed.
+M: 6/8
+L: 1/8
+K: G
+(ud/c/) |\
+BGG DGG | EGE DB,G, | CEG B,DG | EFG A2d/c/ |\
+BGG DGG | EGE DB,G, | CDE DGB | AFD G2 :|
+|: B/c/ |\
+dgd ecA | dBG AFD | dgd eag | fef g2f/g/ |\
+afd gdB | ecA dBG | EFG Adc | BGG G2 :|
+
+%%sep 2 1 500
+
+X: 32691
+T: THE HUNTER'S VALSE
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.269
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Bb
+P: 1.
+|:\
+(vF2c3)vd | (.c2.B4) | (d2e3)vg | (.b2.f4) |\
+(f2g3)vf | (.d2.c4) | (.B2.c4) | f6 |\
+(f2g3)va | (.b2.f4) | (d2e3)vf | (.g2.f4) |
+(F2B3)vd | (.e2.d4) | (.d2.c4) |[1 B6 :|[2 B2(A2_A2) \
+|:\
+vG6- | G2F2E2 | G6- | G2F2E2 |\
+e6- | e2B2c2 | (B6 | G6) |
+G6- | G2F2E2 | G6- | G2F2E2 |\
+c6 | (B4G2) | F6 | (B2A2_A2) ||\
+G6- | G2F2E2 | G6- | G2F2E2 |
+e6- | e2B2c2 | (B6 | G6) |\
+e6- | e2(B2e2) | e6 | c6 |\
+G6 | (G4F2) | [E6-G,6-] | [E2G,2]z2z2 "_D.C."|]
+P: 2.
+N: The "Fine" in tune 2 is ambiguously placed between the two staffs; the "best" choice was used here.
+!segno!|:\
+(vd4f2) | g6 | (f4d2) | b6 |\
+(b2a3c') | b4a2 | g6 | f6 |\
+(g4B2) | (B4g2)  | (f4B2) | B6 |\
+(.c4.c2) | (d4c2) "_Fine."| c6 |[1 ^c6 :|12 B6 ||
+|: (d3BFB) | (.d4.d2) | (c3AFA) | (.c4.c2) |\
+(B3ABc) | (A4F2) | f6 | (f2=e2_e2) |\
+(d3BFB) | (.d4.d2) | (c3AFA) | (.c4.c2) |\
+(B3ABc) | (A4F2) | B6- | B2z2z2 !segno!:|
+P: 3.
+K: Eb
+[|\
+vE6 | E6 | D6 | D6 |\
+C6 | (.C4.C2) | B,6- | B,4z2 |\
+vG6 | G6 | B6 | A6 |\
+G6 | (F4GF) | E6- | E2(G2B2) |
+e6 | e6 | d6 | d6 |\
+c6 | (.c4.c2) | B6- | B4z2 |\
+vg6 | g6 | b6 | a6 |\
+g6 | (f4gf) | e6- | e2(udcde) ||
+|: vf2f2f2 | (g4f2) | (b6 | B2)(=AGAB) |\
+c2c2c2 | (d4B2) | f6- | f2(dcde) |
+f2f2f2 | (g4f2) | b6- | b2(dcde) |\
+f2(f=efe) | g2(gfgf) :|[1 vbzvb4- | b2(udcde) :|[2 vbzvb4- | b2z2z2 "_D.C."|]
+
+%%sep 2 1 500
+
+X: 32701
+T: DUET FOR TWO VIOLINS
+C: By Robert Baillie
+B: K\"ohler's Violin Repository, v.3, 1885 p.270 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+P: Violino Primo
+Q: "Modto."
+K: C
+|:\
+vc4 e4 | (g3e) (agfe) | d2d2 {e/}(dcde) | (c4 G2)z2 |\
+vc4 e4 | (g3e) (agfe) | (v.d2v.d2) (ede^f) | g4 z2u^g2 |
+a2e2 a2=g2 | f4 z2u^f2 | g2d2 g2=f2 | e4 z2ue2 | f2c2 f2e2 |\
+d2g2 e2a2 | g2[g2B2](^f2ef) & x4 A4 | [g2B2][g2B2][g2B2] z2 |
+v"^>"d(g^fg) "^>"b(gfg) | (ed)(cB) (dc)(BA) | (Gd^cd) (g^fga) |\
+g2[g2d2] [^f2d2]z2 | "^>"d(g^fg) "^>"b(gfg) |
+(ed)(cB) (dc)(BA) | (Gded) (cBcd) | c2[^f2c2] [g2B2]z2 :|\
+z4 (u^fa).b.g | e2ed (cAB^G) |
+[B2A2][B2A2] [B2A2][B2A2] | [B2^G2][B2G2] [B2G2]z2 | z4 (u^fa).b.g |\
+e2ed (cAB^G) | [B2A2][B2A2] [B2^G2][e2d2] | [e2c2][e2c2] [d2=G2][d2G2] |
+"^>"e(g^fg) "^>"c(gfg) | (ecBc) (feag) | (bag^f) (=fefg) | (efe^d) (ecf=d) |
+"^>"g(cBc) "^>"e(cBc) | (^cde=c) (feag) | (.f2.f2) {g/}(fefg) |\
+([ec]fge) [f4B4] | [e4c4] [c4E4] | H[c6E6] z2 H|]
+
+%%sep 2 1 500
+
+X: 32702
+T: DUET FOR TWO VIOLINS
+C: By Robert Baillie
+B: K\"ohler's Violin Repository, v.3, 1885 p.270 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+P: Violino Secondo
+Q: "Modto."
+K: C
+|:\
+[E2C2][E2C2] [G2C2][G2C2] | [E2C2][E2C2] [E2C2][G2C2] |\
+[F2B,2][F2B,2] [F2G,2][F2G,2] | [E2G,2][E2G,2] [E2C2][E2C2] |\
+[E2C2][E2C2] [G2C2][G2C2] | [E2C2][E2C2] [E2C2][G2C2] |\
+[B2D2][B2D2] [c2D2][c2D2] | [B2D2][B2D2] e2d2 |
+c4 z2u^c2 | d2A2 d2c2 | B4 z2uB2 | c2G2 c2_B2 | A4 z2uA2 |\
+=B4 c4 | [B4D4] (d2c2) & x4 D4 | [B2D2][B2D2] [B2D2]z2 | vB4 d4 |
+(g^f).e.d (fe).d.c | B2[B2D2] (BABc) & x4 D4 | (B4 A2)z2 & D6 x2 |\
+vB4 d4 | (g^f).e.d (fe).d.c | B2B2 (AGAB) |
+(A4 G2)z2 :| (v^GA).B.G E2ed | (cAB^G) A2E2 | (F[^dF]).[dF].[dF] u[d2F2]uF2 |\
+(E[eE]).[eE].[eE] [e2E2]z2 | (^GA).B.G E2ed |
+(cAB^G) uA2uE2 | (F[^dF])([dF]F) (Ee)(^GB) | A2[A2A,2] [B2D2=G,2][B2G2] |\
+[c4E4G,4] e4 | (g3e) (agfe) | d2d2 {e/}(dcde) |
+(c4 G2)z2 | ve4 g4 | (_b3e) (agfe) | vd2vd2 {e/}(dcde) | c4 {e/}(dcde) | c4 (FGAF) | H[E6C6] z2 H|]
+
+%%sep 2 1 500
+
+X: 32711
+T: THE FIRTH HOUSE HORNPIPE
+C: Com. by G. Duncan, Esq.
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.271 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+uF2 |\
+((3BcB) A>c B>d f2 | ((3fgf) e>c B>d F2 | (G>A)B>G F>B d2 | ((3ded) c>=B (.c2.F2) |
+((3_BcB) A>c B>d f2 | ((3fgf) e>c B>d F2 | (G>A)B>G F>B ((3edc) | B2 f2 B2 || uD2 |
+(G>A)B>c ((3dec) d2 | (G>A)B>c ((3dec) d2 | e2 ((3ded) ((3cdc) ((3BcB) | (3ABc ((3BAG) ^F2 D2 |
+(G>A)B>c ((3dec) d2 | (G>A)B>c ((3dec) d2 | e2 ((3ded) ((3cdc) ((3BcB) | (3ABc (B>A) G2 |]
+
+%%sep 2 1 500
+
+X: 32712
+T: OLD WOODHOUSELEE CASTLE (Strathspey)
+C: Com. by G. Duncan, Esq.
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.271 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: A few missing dots added to fix the rhythm.
+M: C|
+L: 1/8
+K: G
+uD |\
+((3BAG) (B,>D) (C>E) D2 | ((3BAG) (C>E) (B,>D) A,2 |\
+((3BAG) (B,>D) (C>E) D2  | (3EFG (3ABc (3BAG (3FED |
+((3BAG) (B,>D) (C>E) D2 | ((3BAG) (C>E) (B,>D) A,2 |\
+((3BAG) (B,>D) (C>E) D2 | (3EFG (3ABc (B>G) G ||
+|: ud |\
+(.g>.g) (b/a/g/f) (.g>.d) (B>G) | (c>e) (B>d) (.A>.G) (F>D) |\
+[1 (.g>.g) (b/a/g/f/) (.g>.d) (B>G) |
+(3ABc (3Adc (B<G) G :|[2 (3GAB (3ABc (3Bcd (3cde |\
+(3def "_Segue Reel. Volti Subito."(g>a) (b<g) g2 "_D.C."|]
+
+%%sep 2 1 500
+
+X: 32713
+T: OLD WOODHOUSELEE REEL
+C: Com. by G. Duncan, Esq.
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.271 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|:\
+vBG B,D CED2 | (BG)CE B,DA,2 | (BG)B,D CED2 | [1(EG)Ac BGFD :|[2 EGAc BGG2 |]
+vggbf gdBG | ceBd AGFD | ggbf gdBG | (Ac)Ad BGG2 |
+ggbf gdBG | ceBd AGFD | GBAc Bdce | (df)ga bgg2 "_D.C."|]
+
+%%sep 2 1 500
+
+X: 32721
+T: THE STRANGER HORNPIPE
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.272 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+(vABc) |\
+d>cd>f e>^de>g | f>ef>a g2(a>g) | f>af>d e>ge>c | d2d2 d2((3ABc) |
+d>cd>f e>^de>g | f>ef>a g2(a>g) | f>af>d e>ge>c | d2d2 d2 :|
+|: ((3abc') |\
+ud'2ud'2 (.c'3.a) | ub2vb2 (.a3.f) | g2g>e f2f>d | e2e>d c>BA2 |
+(d>c)d>f e>^de>g | f>ef>a g2(a>g) | f>af>d e>ge>c | d2d2 d2 :|
+
+%%sep 2 1 500
+
+X: 32722
+T: THE PILGRIM HORNPIPE
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.272 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+(uag) |\
+(fd)AF (DF)Ad | (AF)fg  fe A2 | (FA)de (fg)fe | f2e2 e2(AG) |
+(FA)de (fg)fe | (AB)AF uA2uA2 | (cd)ef (ge)cA | d2D2 D2 :||: (uAG) |
+(FA)dA (fd)AF | (GB)eB (ge)cA | (FA)dA (fd)AF | G2E2 E2(AG) |
+(FA)dA (fd)AF | (gf)ed (cB)AG | (Fd)AF (EB)AG | F2D2 D2 :|
+
+%%sep 2 1 500
+
+X: 32723
+T: HOOLEY'S HORNPIPE
+C: Com. by R.M. Hooley
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.272 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+!segno!(uDE) |\
+FGF=E FABc | dDFB d2(cd) | ecdB c(BAB) | (3cdc (3BAG F(EDE) |
+FGF=E FABc | eFAc g2(fe) | Bbag fedc | (3Bdf (3bfd B2 :| ub |
+d'c'ba bdfb | d'c'ba bdfb | c'bag ad^fa | c'bag ad^fa |
+d'c'ba (bd')d'2 | edc=B cfa2 | (ba)gf =ebge | {g}f=efg f2~f2 |
+bagf eg^fg | eg^fg cg^fg | =fedc Bf~f2 | df~f2 Bf~f2 |
+(ba)ba bagf | (gf)gf (gf)ed | cBdc edf=e | (gf)ag (fe)dc !segno!"_D.C."|]
+
+% newpage
+%%sep 2 1 500
+
+X: 32730
+T: PRINCESS BEATRICE WALTZES
+C: Composed by William Findlay, Broxburn
+N: Bowing and Fingering arranged by W.B. Laybourn
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.272-273
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K:
+
+%%sep 2 1 500
+
+X: 32731
+T: PRINCESS BEATRICE WALTZ #1
+C: Composed by William Findlay, Broxburn
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.272 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The repeat notation is a bit odd; adjusted to make phrase lengths and pickups match properly.
+M: 3/4
+L: 1/8
+K: C
+uC2 |\
+(G,2C2E2) | (G,2C2E2) | G6 | E6 |\
+(C2E2G2) | c2(B3A) | (F6 | D6) |\
+(B,2D2F2) | B6- | B2(A3F) | (E4F2) |\
+(G2A2G2) | (F4D2) | D2B,2C2 | B,2E2D2 |
+(G2c2e2) | (G2c2e2) | g6 | e6 |\
+(c2e2g2) | c'2(b3a) | (f6 | d6) |\
+(B2d2f2) | b6- | b2(a3f) | (e4f2) |\
+g2a2g2 | (f2A2B2) | [1 c6- | c2z2 :|[2 c6- | c2 ||
+|: (ue2f2) |\
+((3gag) ^f2g2 | (ba)gfed | ((3cdc) BAGF | E6 |\
+C2E2G2 | c2e2a2 | (g2f3e) | d6 |
+((3gag) ^f2g2 | (ba)gfed | ((3cdc) BAGF | E6 |\
+[1 C2E2G2 | c2e2a2 | g2z2uB2 | c2 :|\
+[2 (F4A2) | (G2e2d) | (.c3.c)c2 | c2z2 "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32732
+T: PRINCESS BEATRICE WALTZ #2
+C: Composed by William Findlay, Broxburn
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.272 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+uD2 |\
+(B,4D2) | (C4D2) | (B,C)D2G2 | B6 |\
+(d2^c2=c2) | E4F2 | A2(G3E) | D6 |\
+(B,4D2) | (C4D2) | (B,C)D2G2 | (B4G2) |
+d2c2A2 | F2(B3A) | G2GGGG | G2(B,2D2) |\
+(B4d2) | (c4e2) |  (Bc)d2g2 | b6 |\
+(d'2^c'2=c'2) | e4f2 | a2(g3e) | d6 |
+(B4d2) | (c4e2) | (Bc)d2g2 | (b4g2) |\
+b2a2g2 | f2e2d2 | (c2E3F) | G2z2 :|\
+|: ud2 |\
+b4g2 | (Bd)gBdg | f2(e3c) | A4G2 |
+(FG)A2B2 | (cd)e2f2 | a2(g3e) | (d4B2) |\
+b4g2 | (Bd).g.B.d.g | f2(e3c) | A4G2 |\
+[1 (FG)ABcd | e2f2b2 | a2e2f2 | g2z2 :|\
+[2 (FG)ABcd | e2f2a2 | g2(d3B) | G2z2 "^D.C."H|]
+
+%%sep 2 1 500
+
+X: 32741
+T: PRINCESS BEATRICE WALTZ #3
+C: Composed by William Findlay, Broxburn
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.274 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+uA2 |\
+(F4A2) | {c}(B4F2) | (G4B2) | (e4f2) |\
+{a}g2f2e2 | d2c2(B2 | A2)(G3E) | (F4A2) |\
+(F4A2) | {c}(B4F2) | (G4B2) | (e4f2) |\
+[1 (gf)edcB | (A2g3)uc | (.d3.d)d2 | d2z2 :|\
+[2 g2b2a2 | g2A2c2 | (d2f3e) | d2z2 ||
+|: uA2 |\
+f6 | cde2d2 | (A6 | F6) |\
+FGA2d2 | f2d2b2 | (a6 | g6) |\
+B6- | B2d2g2 | A6- | A2d2f2 |\
+(e4d2) | (c2d2) | e6 | (a2^g2=g2) |
+f6 | cde2d2 | (A6 | F6) |\
+FGA2d2 | f2d2b2 | (a6 | g6) |\
+B6- | B2d2g2 | b6- | b2a2g2 |\
+f2e2c2 | a2(f3e) | d6- | d2z2 :|
+
+%%sep 2 1 500
+
+X: 32742
+T: MISS ANDERSON'S POLKA
+C: By Mackenzie
+R: polka
+B: K\"ohler's Violin Repository, v.3, 1885 p.274 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd and 3rd parts start with a c-flat as key signature.  Changed to B-flat.
+N: The 3rd part has an initial repeat but no final repeat.  Final double bar changed to final repeat.
+M: 2/4
+L: 1/16
+K: C
+|:\
+(veg)G2 (eg)G2 | (GA)Bc def2 | (fa)A2 (fa)A2 | (AB)cd efg2 |\
+(eg)G2 (eg)G2 | (GA)Bc def2 | (fa)A2 (fa)B2 | c2e2c2z2 :|
+|:[K:F]\
+vcdef gab=b | c'2c'f c'4 | b2bg b4 | a2af a4 |\
+cdef gab=b | c'2c'a c'4 | a2ag (a2g2) | f2a2f2 "D.C.":|
+|:[K:F]\
+vc4 (defg) | a2e2g2f2 | (fe)dc e2d2 | (dc)BA d2c2 |\
+c4 (defg) | a2e2g2f2 | (fe)dc (ed)cB | (dc)Gc F2z2 :|
+
+%%sep 2 1 500
+
+X: 32743
+T: THE A1 JIG
+C: By Wm. Findlay, Broxburn
+R: jig
+B: K\"ohler's Violin Repository, v.3, 1885 p.274 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+uA |\
+EAA cBA | aAA gAA | fed cBA | GBB (.B2.e) |\
+EAA cBA | aAA gAA | fed cBA | EFG A2 :|
+|: ue |\
+ec'b c'af | efe ecA | EFG ABc | edc (.B2.e) |\
+ec'b c'af | efe ecA | Bcd ecA | EFG A2 :|
+
+%%sep 2 1 500
+
+X: 32751
+T: HAWTHORNDEN
+C: Composed by J. Nash, Dalkeith
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.275 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+((3uABc) |\
+dcde fgfe | d2a2 a2(gf) |gaba gfed | f2e2 e2((3ABc) |\
+dcde fgfe | d2f2 B2(de) | fgfe dbag | f2d2 d2 :|
+|: (uef) |\
+gfed cBAG | F2E2 E2(Bc) | dcBf edcB | f2B2 B2(ef) |\
+gfed cBAG | F2B2 A2(de) | fgfe dbag | f2d2 d2 :|
+
+%%sep 2 1 500
+
+X: 32752
+T: GENERAL GORDON'S HORNPIPE
+C: By W. Findlay, Broxburn
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.275 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+(uab) |\
+(c'>a)e>c (A>a)g>a | (f>e)d>c B2e>d | (c>e)a>c (d>f)b>a | (g>b)a>f e2a>b |
+(c'>a)e>c (A>a)g>a | (f>e)d>c B2e>d | (c>a)g>a (f>d)B>G | B2A2 A2 :||: (ue>d) |
+.c>(ae>c) ((3Ace) ((3Ace) | .d>(af>d) ((3Bdf) ((3Bdf) | (e>a)g>b (a>f)^d>f | (e>^d)e>f e2e>=d |
+.c>(ae>c) ((3Ace) ((3Ace) | .d>(af>d) ((3Bdf) ((3Bdf) | (e>a)g>f ((3efe (3dcB) | A2{g}a2 A2 :|
+
+%%sep 2 1 500
+
+X: 32753
+T: BLINKIN' TIBBIE -- Hornpipe
+C: By R. Baillie
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.275 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Bb
+(ufd) !segno! |\
+(c>B)A>B (FD)EF | (Ge)cB (AF)GA | Bbfd Bbge | BfdB AFGA |
+(cB)AB (FD)EF | (Ge)cB (AF)GA | BfdB AecA | BdDF B2 "^Fine.":| (uf=e) |
+(dc)=Bc | (Ac)FA Bc=eg facb | (ag)^fg (=ec)BG | dc=Bc ACFA |
+(dc)=Bc (Ac)FA | Bc=eg facb | ag^fg =ecBG | (FA)cB (Ae)"^D.C."cA !segno!|]
+
+%%sep 2 1 500
+
+X: 32761
+T: WINCHBURGH CASTLE -- Strathspey
+C: By Wm. Findlay, Broxburn
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.276 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+uA, !segno!|\
+D<D(F>E) (D/E/F/G/) A<F | (G>B)(F>A) E/F/G/A/ B/c/d/e/ |\
+f>(de)>(c d)>vB(A>F) | (3GAB (3ABc d<DD>A, |
+D<D(F>E) (D/E/F/G/) A<F | (G>B)(F>A) (E>F)(.G>.g) |\
+(3fed (3cde (.d>.B)(A>F) | (3GAB (3ABc d2 (d |]| f) |
+d<d (f/g/a) (d>a)f>a | (.g>.e)(c>B) (3ABc (3efg |\
+f<df<a (.b>.g)(e>d) | (3cde (3ABc d2 (d<f) |
+d<d (f/g/a) (d>a)f>a | (.g>.e)(c>B) (3ABc (3efg |\
+(3fdf (3ece (.d>.B)(A>F) | (3GAB (3ABc d2 d2 & x4 (3dAG (3FGE !segno!|]
+
+%%sep 2 1 500
+
+X: 32762
+T: MISS BAIGRIE -- Strathspey
+C: By Robert Baillie
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.276 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+N: The repeat notation for parts 2 and 3 doesn't make sense.
+N: Bar 6 has a funny use of ties.
+N: The 4th part is mssing its 2nd ending.
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/16
+K: D
+(GF2E) !segno! |:\
+(.D3.d)(d3c) (c2B2)(B2A2) | (.a3.f)(d3f) e3de2f2 |\
+(.D3.d)(d3c) (.c3.B) (BcdB) | (.A3.F)(E3F) DD3 D2A,2 :|
+|\
+(B,3D)(A,3D) (B,3D)(A,3F) | (.E3.F)(G3B) (.A3.F) ((GF)ED) |\
+(B,3D)(A,3D) (B,3D)(G3B) |[1 (.A3.F)(D3F) DD3D2A,2 :|[2 (.A3.F)(E3F) DD3D2f2 |]
+|:\
+(.[a3d3F3].b)(a3f) (.d3.e)(f3d) | (g3b)(f3a) e3def3 |\
+(.a3.b)(a3f) (.d3.e)(f3d) |[1 (.e3.d)(e3f) dd3d2f2 :|[2 e3d(e2f2) dd3d3B |]
+|: (BA3)(.A3.F) (G2F2)(E2D2) | (FABc) (d3F) (F2E2)(E2d2) |\
+(BA3)(.A3.F) (G2F2)(.E3.D) |[1 (D3B,)A,3B, DD3D3d :|
+
+%%sep 2 1 500
+
+X: 32763
+T: MISS BAIGRIE -- Reel
+C: By Robert Baillie
+R: reel, hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.276 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+uA |\
+(d>c)d>f | (a>^g)a>b | (a>f)e>f (d>A)A>d | (Bd)cB (AF)de | (fd)gf (eE)EA |
+(d>c)d>f | (a>^g)a>b | (a>f)e>f (d>A)A>d | (ce)dc (Bd)fd | caB^g aAA |[| uG |
+(F>G)(A>F) D>GB>G | F>A,D>F (G>E)(E>G) | (F>G)(A>F) D>GB>G | FABc dDDG |
+(F>G)(A>F) D>GB>G | F>Adf (ge)cA | (af)dA (Bd)gB | (ce)Ac (dD)D |]
+
+%%sep 2 1 500
+
+X: 32771
+T: THE OLD TOON OF BROXBURN REEL
+C: By Wm. Findlay
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.277 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+uA |\
+d2dA (GF)ED | (df)eg (fd)cA | (df)af (ge)cA | dBAF D2(DA) |\
+d2dA (GF)ED | (df)eg (fd)cA | (df)af (bg)ed | cABc d2(d |]
+f) |\
+(ab)af (gf)ed | gefd cABc | (df)af (eg)bg | faef dcBA |\
+(df)af (gf)ed | (ge)fd (cA)Bc | dfeg fagb | agfe d2(d |]
+
+%%sep 2 1 500
+
+X: 32772
+T: WHEN YOU GO TO THE HILL TAKE YOUR GUN -- Strathspey
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.277 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+uB |\
+(.D>.G)(B>G) (c>A)(B>G) | A/A/A (B>G) (.c>.A)(=F<A) |\
+(.D>.G)(B>G) (c>A)(B>G) | A/A/A (d>c) (.B>.G)(G<B) |
+(.D>.G)(B>G) (c>A)(B>G) | A/A/A (B>G) c>A(=F<A) |\
+(.D>.G)(B>G) (c>A)(B>G) | A/A/A (.d>{ed}c) B>GG |]
+uf |\
+(.g>d)(d>e) (=f>{gfe}g) {fg}(.a>.g) | (.=f>d)(c>{dc}_B) AFF^f |\
+g<(dd>e) (.g>"<~"a) {ga}(.b>.a) | (.g>.d)(d>e) (g/f/g/a/) (.g>.b) |
+g<(d"_>"d>e) (.=f>{gf}e)(fa) | (.=f>.d)(c>{dc}_B) AF.F (e/^f/) |\
+(g>e)(=f>d) (e>c)(d>B) | A<g f<a "_Segue Reel."gGG "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32773
+T: SCOTIA'S REEL
+C: Composed by W.B. Laybourn
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.277 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+uE |\
+A2ce acA2 | BGGA B^GGB | A2ce acA2 | BEBd cAA :|
+ue |\
+aecA EAce | fdAF DFAd | ecGE CEGc | dBGD B,DGB |
+AEAc BFBd | cGce dAdf | ecdB cAB^G | A2c2 A2 "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32781
+T: DUET FOR TWO VIOLINS
+C: By Robert Baillie
+P: Violin Primo
+Q: "Allo. M." 1/4=120
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.278 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: This part lacked the Vln2 key change to D at bar 21, but has c naturals thereafter.  K:D inserted in bar 21.
+N: The ending spot isn't indicated, but only bar 20 makes sense.
+U: P=!crescendo(!
+U: p=!crescendo)!
+M: C
+L: 1/8
+K: G
+[|\
+!ff!vb4 ud'3ub | g4 ub3ug | (d^c).d.e (fe).f.g | (a^g).a.b c'2 !segno![|\
+ba | g2g2 a2a2 | b6 (c'b) | a2a2 (d'c')(.b.a) | g4 uc'2uc'2 |
+(ba).g.f (ed).c.B | A4 (GFGB) | (cB).A.G (Fe).d.c |\
+B6 (ag) | .g(gfg) .a(a^ga) | b6 (c'b) |
+.a(a^ga) (d'c')(.b.a) | g4 uc'2uc'2 | (ba).g.f (ed).c.B |\
+A4 (GFGB) | (cB).A.G F2[BD][AD] | [G2G,2][g2B2] [gB] !fine!|]
+K: D
+!f!uABc |\
+[d4D4] u[d3D3]u[dD] | ([d2D2]ed) (dc)BA | (fga^g) (ba=gf) |\
+([f2A2][gA][fA] [e2A2])(ugf) | !p!e2ba g2fe | d2ag f2ed |
+c2cd (cB).A^G | ([^G4B,4] [FA,])P(.A.Bp.c) | !f![d4D4] u[d3D3]u[dD] |\
+([d2D2]ed) (dc)BA | (fga^g) (ba=gf) | ([f2A2][gA][fA] [e2A2])(ugf) |
+!p!e2ba g2fe | d2ag f2A^A | (Bd).c.B uAzuc2 |\
+(e4 d2)z2 | vf2(.c>.d) c2g2 | f2uB>uc B2z2 |
+e2uB>uc B2=f2 | e2uA>B A2(A!ff!B) | "^fz"([=c4F4] [cF])>vBuA>uB |\
+"^fz"[^c4E4-] [cE]>vAuB>uc | (.[dE]>.c)(.B>.A) (.^G>.B)(.e>.d) | c2(.[aA]>.[aA]) [aA](ABc) |
+!f![d4D4] u[d3D3]u[dD] | ([d2D2]ed) (dc)_BA | (fga^g) (ba=gf) |\
+([f2A2][gA][fA] [e2A2]) (ugf) | !p!e2ba g2fe | d2ag f2ed |
+c2cd (cB)A^G | ([^G4B,4] P[FA,])(.Ap.B.c) | !f![d4D4] u[d3D3]u[dD] |\
+([d2D2]ed) (dc)BA | (fga^g) (ba=gf) | ([f2A2][gA][fA] [e2A2])(gf) |
+!p!e2ba g2fe | d2ag f2A^A | (Bd).c.B uAzuc2 | d2fd c2ec |\
+d2fd c2ec | (dc).d.e (fe).f.g | (a^g).a.b =c'2 !segno!"_D.C."|]
+
+%%sep 2 1 500
+
+X: 32791
+T: DUET FOR TWO VIOLINS
+C: By Robert Baillie
+P: Violin Secundo
+Q: "Allo. M." 1/4=120
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.279 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: This part has a key change to D at bar 21 which makes sense but is missing in the Vln1 part.
+N: The ending spot isn't indicated, but only bar 20 makes sense.
+U: P=!crescendo(!
+U: p=!crescendo)!
+M: C
+L: 1/8
+K: G
+[|\
+!ff!vB4 ud3uB | G4 uB3uG | [FD]zz2 (ud^c).d.e | (fe).f.g a2 !segno![| z2 |\
+z4 z2!p!(ufe) | d2d2 e2e2 | f6 (gf) | e2e2 (ag)(.f.e) |
+d4 ug2ug2 | (fe).d.c (BA).G.=F | E4 (D^CDF) |\
+(GF).E.D G2z2 | z4 z2(ued) | .d(d^cd) .e(e^de) |
+f6 (gf) | .e(e^de) (ag)(.f.e) | d4 ug2ug2 |\
+(fe).d.c (BA)G=F | E4 (DA,D[DC]) | [D2B,2][D2G,2] [DG,] !fine!|]
+K: D
+!f!uA^G=G |\
+(FGA^G) (GA=GF) | (F2GF E)(.A.B.c) | [d4D4] u[d3D3][dD] |\
+([d2D2]ed) (dc)BA | !p!G2gf e2AG | F2fe d2[BE][B^E] |
+([A3F3]B) (A^G).F.^E | [c^E]C^DE PFA^Gp=G | !f!(FGA^G) (BAGF) |\
+(F2GF E)(.A.B.c) | [d4D4] u[d3D3][dD] | ([d2D2]ed) (dc)BA |
+!p!G2gf e2AG | F2(fe) d2[F2D2] | (GF).E.D (CA).G.E |\
+(cB).A.G F2z2 | (^AFAF AFAE) | (DFBF DFBF) |
+(DE^GE DEGD) | (CEAE C2)z2 | !ff!z2[A^D]/[AD]/[AD]/[AD]/ [AD]zz2 |\
+z2[AE]/[AE]/[AE]/[AE]/ [AE]zz2 | ([E4^G,4] [E2B,2][E2G,2]) | [E2A,2] (v[A2E2C2] v[AEC])A^G=G |
+!f!(FGA^G) (BA=GF) | (F2GF E)(.A.B.c) | [d4D4] u[d3D3]u[dD] |\
+([d2D2]ed) (dc)BA | !p!G2gf e2AG | F2fe d2[BE][B^E] |
+([A3F3]B) (A^G).F.^E | [c^E]C^DE FA^G=G | !f!(FGA^G) (BA=GF) |\
+(F2GF E)(.A.B.c) | [d4D4] u[d3D3]u[dD] | ([d2D2]ed) (dc)BA |
+!p!G2gf e2AG | F2(fe) d2[F2D2] | (GF).E.D (CA).G.E |\
+!f!(FAdF) (GAcG) | (FAdF) (GAc[AG]) | [AF]zz2 (udc).d.e | (fe).f.g a2 !segno!"_D.C."|]
+
+%%sep 2 1 500
+
+X: 32801
+T: PRINCESS BEATRICE GALOP
+C: Com. by W.B. Laybourn, 1885
+R: galop, polka
+B: K\"ohler's Violin Repository, v.3, 1885 p.280 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: 2/4
+L: 1/16
+K: A
+"Introduction"[|\
+vA2AA A2A2 | A4 z2uA2 | A2E2A2c2 | e4 z2uE2 | E2G2B2d2 | e2g2b2c'2 | d'8- | d'4z2 ||
+uE2 !segno!|"Galop"\
+c6((3cdc) | ^B2c2d2c2 | (=B2c2)d2c2 | {c/}B2^A2B4 | B6((3BcB) |  ^A2B2c2B2 | =A2B2c2B2 | "_>"A2"_>"G2"_>"F2"_>"E2 |
+c6((3cdc) | ^B2c2d2c2 | (=B2c2)d2c2 | {c/}B2^A2B4 | B6((3BcB) |  ^A2B2c2B2 | =A2(Bc) defg | a2z2z2 :|
+|: uE2 |\
+E2d2(QB4 q| B2)c2{e/}d2c2 | E2d2(QB4 q| B2)c2{e/}d2c2 | E2e2(Qc4 q| c2)d2{f/}e2c2 | E2e2(Qc4 q| c2)d2{f/}e2c2 |
+E2d2(QB4 q| B2)c2{e/}d2c2 | E2e2(Qc4 q| c2)e2{g/}f2c2 | (d6e2) | (f6g2) | a2(gf) edcB | A2z2z2 "^D.C.":|
+uE2 |\
+A2(Bc defg | a2)(gf edcB | A2)(GF EDCB, | A,2)(B,C DEFG | A2)c2e2a2 | c'2e2b2c'2 | d'2z2z4 | z8 |
+v.E2(FG ABc^d | e2)(fgabc'^d' | e'2)d'2b2g2 | e2d2B2G2 | E2D2B,2A,2 | (G,2E2F2G2 | A2)z2z4 | z4z2uE2 |
+(E6F2) | (G6A2) | (B6c2) | (d6e2) | (g6f2) | (.e6{g/}.f2) | e2d2c2B2 | A2G2F2"_D.C."E2 !segno!|]
+
+%%sep 2 1 500
+
+X: 32802
+T: LITTLE JIM'S HORNPIPE
+R: hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.280 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+U: P=!crescendo(!
+U: p=!crescendo)!
+M: C
+L: 1/8
+K: Bb
+(ud>e) |\
+(f>d)g>=e (f>d)g>e | (f>d)g>=e (f>d)B>d | (c>A)d>=B (c>A)!p!d>=B | (c>A)d>=B (cd)e=e |
+(f>d)g>=e (f>d)g>e | (f>d)g>=e (f>d)PB>d | c>Ge>cp!f! (AF)dc | B2((3fga) b2 :|
+K: D
+|: uA2 |\
+d2((3ABc) d>fa>f | e2((3Bcd) e>gb>g | !ff!(f>e)d>c (d>!p!c)d>f "_cres,"| (3e(fe (3dcB) A2((3ABc) |
+d2((3ABc) d>fa>f | e2((3Bcd) e>gb>g | !pp!(f>e)d>f !f!(eA)Bc | d2!f!((3abc') d'2 :|
+
+%%sep 2 1 500
+
+X: 32811
+T: THE KEEL ROW -- with Variations
+R: reel, hornpipe
+B: K\"ohler's Violin Repository, v.3, 1885 p.281 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Only the 1st Variation is labelled.
+N: The 2nd Variation has no initial repeat, but had a final repeat.
+M: 2/4
+L: 1/8
+K: G
+   (udc) | B2GB | c2Ac | B2GB | (AF)Dc | B2GB | c2Ac | BGAF | G2 :|
+|: (udc) | Bddg | e2(dc) | B2GB | (AF)Dc | Bddg | e2(dc) | BGAF | G2 :|
+P: 1st Var
+|:  (dc) | BdGB | ceAc | BdGB | AFDc | BdGB | ceAc | BGAF | G2 :|
+|: (udc) | Bdgf | edcB | cBAG | FAAc | Bdgf | edcB | BGAF | G2 :|
+P: 2nd Var
+|: (udc) | (3Bcd (3GAB | (3cde (3ABc | (3Bcd (3GAB | (3FAd (3DFA |\
+           (3Bcd (3GAB | (3cde (3ABc | (3Bed (3cBA | G2 :|
+|: (udc) | (3BGB (3dBd | (3gdc (3BAG | (3FDF (3AFA | (3cAG (3FED |\
+           (3BGB (3dBd | (3gdc (3BAG | (3Bed (3cBA | G2 :|
+P: 3rd Var
+|: (ud'c') | b2gb | c'2ac' | b2gb | (af)dc' | b2gb | c'2ac' | bgaf | g2 :|
+|: (ud'c') | bd' d'g' | e'2(d'c') | b2gb | (af)dc' | bd' d'g' | e'2 (d'c') | bgaf | g2 :|
+P: Reprise
+|: (udc) B2GB | c2Ac | B2GB | (AF)Dc | B2GB | c2Ac | BGAF | "^Fine"G2 :|
+
+% newpage
+%%sep 2 1 500
+
+X: 32820
+T: PRIDE OF THE NORTH QUADRILLE
+C: By W.C. Paton
+R:
+B: K\"ohler's Violin Repository, v.3, 1885 p.282-284
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: This is a medley of well-known Scottish tunes.
+K:
+
+%%sep 2 1 500
+
+X: 32821
+T: PRIDE OF THE NORTH QUADRILLE Part 1
+C: By W.C. Paton
+R: jig
+B: K\"ohler's Violin Repository, v.3, 1885 p.282 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gm
+!segno!D |\
+GAG (.B2.c) | AFF (.F2.A) | GAG (.g2.a) | ^fde (.d2.e) |\
+=fgf fed | cdB ABc | {Bc}(.d2.d) (.d2.d) | BGG (.G2.d) |
+(.g2.g) gab | aff (.f2.a) | (.g2.g2) (.g2.g) | ^fde (.d2.e) |\
+=fgf fed | cdB ABc | dcB cBA | GAG G2 ||
+uD "^Coda"|\
+GAG (.B2.c) | AFF (.F2.A) | GAG (.g2.a) | ^fde (.d2.e) |\
+=fgf fed | cdB ABc | "^Divisi""_>"[dD]"_>"[eE]"_>"[dD] "_>"[cC]"_>"[AA,]"_>"[dD] |\
+"^>"[G2G,2]z "^>"[g2B2D2G,2] "_Fine."H|][K:Eb]
+uB |\
+Bee ede | gff (.f2.a) | gfe (g<b)uB | Bcd (.e2.B) |\
+Bee ede | gff (.f2.a) | gfe (g<b)uB | Bcd e2 "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32822
+T: PRIDE OF THE NORTH QUADRILLE Part 2
+C: By W.C. Paton
+R: march, polka
+B: K\"ohler's Violin Repository, v.3, 1885 p.282 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+U: P=!crescendo(!
+U: p=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Added triplet markings in next-to-last bar.
+M: 2/4
+L: 1/16
+K: D
+[|\
+vD2DD D2DD | DA,DF DA,DF | F2FF F2FF | FDFA FDFA | A2AA A2AA |\
+AFAd AFAd | A_B=Bc ^cdef | d2 v[d'4d4] "_Fine."H|]
+uA2 |\
+A2d2c2d2 | e2f2c4 | Pd4(.e3.g) | f2pd2d4 |\
+A2d2c2d2 | e2f2c4 | Pd4 (.e3.g) | f2d2 pd2 |
+f2a2 a2gf | g2g2 "_Divisi"g4 | ([g2G2]Q[f2F2])[e2E2][d2D2] | [c2C2][B2B,2] [A4A,4]q |\
+a2ba g2ag | f2gf e4 | (dc)BA B2c2 | d2z2 [d'4d4] |]
+D2DD D2DD | DA,DF DA,DF | F2FF F2FF | FDFA FDFA |\
+A2AA A2AA | AFAd AFAd | A_B=Bc ^cdef | d2 v[d'4d4] |]
+(de) |\
+(.f2z.f) (.f2z.d) | (.g2z.g) (.g2z.e) | (.f2z.f) (.f2z.d) | e6 (de) |\
+(.f2z.f) (.f2z.d) | (.g2z.a) (.b2z.d') | {b}(.a2z.g) {g}(.f2z.e) | d6 c'2 |
+(.d'2z.b) (.a2z.f) | (.g2z.a) (.b2z.c') | (d'b2)z (af2)z | e6 zuc' |\
+(.d'2z.b) (.a2z.f) | (.g2z.a) (.b2z.d') | (3a2b2g2 (3f2g2e2 | vd2z2 v[d'4d4] "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32831
+T: PRIDE OF THE NORTH QUADRILLE Part 3
+C: By W.C. Paton
+R: jig
+B: K\"ohler's Violin Repository, v.3, 1885 p.283 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Phrases 1 and 2 are from The Atholl Highlanders.
+N: Bar 20 has 16th-notes in the A-d run; changed to 32nd-notes as in the first phrase.
+N: There's a spurious segno on the first bar that's not matched by another; dropped.
+N: The initial x (invisible rest) is to put the anacrusis into the 2nd "voice" to agree with the 1st bar's e3.
+M: 6/8
+L: 1/8
+K: A
+x & v(A//B//c//d// | e6 & e3) (ecA) | e6 & (ecA) (Bcd) | e6 & e3 (ecA) | e6 & (Bcd) c2 \
+     (A//B//c//d// | e6 & e3) (ecA) | e6 & (ecA) (Bcd) | (c>a)ve Tfed | (cd)B A2(c/B/) |
+Ace Ace | Adf Adf | Ace Ace | Bcd c2c/B/ |\
+Ace Ace | Adf Adf | (c<a)ve Tfed | cdB A2vc/ud/ |]
+"^Coda" e6 & ve3 (ecA) | e6 & (ecA) (Bcd) | e6 & e3 (ecA) | e6 & (Bcd) c2(A//B//c//d// |\
+e6 & e3) (ecA) | e6 & (ecA) (Bcd) | (c<a)vf edB | A2z v[a2A2]z H|][K:D]
+vAFA dAd | f>ed d>cB | A>GF F>ED | E3- E2vA/uA/ |\
+AFA dAd | f>ed d>cB | A>GF E>FE | D3- D2 "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32832
+T: PRIDE OF THE NORTH QUADRILLE Part 4
+C: By W.C. Paton
+R: jig
+B: K\"ohler's Violin Repository, v.3, 1885 p.283 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+M: 6/8
+L: 1/8
+K: G
+(uGA) |\
+"^>"BQ>AqG "^>"BQ>AqG | (B<d)vd d2g/>a/ | "^>"bQ>aqg "^>"bQ>aqg | (.a2.g) (.e2.g) |\
+"^>"BQ>AqG "^>"BQ>AqG | (B<d)vd d2g/>a/ | bgd dBd | (.e2.f) [g2B2]z H|][K:C]
+v(.c2.B) (.c2.d) | (.e2.f) (.e2.d) | (.c2.B) (.c2.d) | e3 (.E2.E) |\
+(.c2.d) (.e2.a) | (.g2.e) (.d2.e) | (.c2.A) {c}(B2^G) | A3 (.a2.B) |
+{d}c2A- AGE | {d}c2A- AGE | {d}c2A- AGE | G3- G2G |\
+(c2d) (e2a) | (g2e) (d2e) | (c2A) {c}(B2^G) | A3- A2 "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32841
+T: PRIDE OF THE NORTH QUADRILLE Part 5
+C: By W.C. Paton
+R: hornpipe, reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.284 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+U: P=!crescendo(!
+U: p=!crescendo)!
+M: 2/4
+L: 1/16
+K: Am
+ua2 !segno!|\
+(.^g3.e)(.^f3.^g) | (.a3.b)(.c'3.a) | (.^g3.e)(.^f3.^g) | a6 b2 |\
+(.c'3.b)(.c'3.b) | {a}(.g3.=f)(.e3.c) | (.d3.f)(.e3.c) | B4 {d}(c3B) |
+(.A3.B)(.c3.d) | (e4a3)vg | {g}(=f4d3)uf | (.e3.c)A4 |\
+(.A3.B)(c3.d) | (.e3.^f)(.^g3.e) | (.a3.c')(.b3.^g) | va2z2 va2z2 H|]
+K: A
+ue2 |\
+aAaA gAfA | eAeA fAaA | cEcE dEBE | PAABc defgp |\
+aAaA gAfA | eAeA fAaA | cEcE dEBE | Aaec A2e2 |
+cABc defg | aAag fcfa | gBag fBgf | PeEGB eefgp |\
+aAaA gAfA | eAeA fAaA | cEcE dEBE | Aaec A2a2 |]
+K: Am
+[|\
+(.^g3.e)(.^f3.^g) | (.a3.b)(.c'3.a) | (.^g3.e)(.^f3.^g) | a6 b2 |\
+(.c'3.b).c'3.b | {a}(.g3.=f)(.e3.c) | (.d3.f)(.e3.c) | B4 {d}(c3B) |
+(.A3.B)(.c3.d) | (e4a3)vg | {g}(=f4d3)uf | (.e3.c)A4 |\
+(.A3.B)(c3.d) | (.e3.^f)(.^g3.e) | (.a3.c')(.b3.^g) | a2z2 va2z2 |]
+M:6/8
+L:1/8
+[|\
+v(.c2.B) (.c.d) | (.e2.f) (.e2.d) | (.c2.B) (.c2.d) | e3 (.E2.E) |\
+(c2d) (e2a) | (g2e) (d2e) | (c2A) {c}(B2^G) | A3 (.a2.B) |
+{c}c2A- AGE | {d}c2A- AGE | {d}c2A- AGE | G3- G2G |\
+(c2d) (e2a) | (g2e) (d2e) | (c2A) {c}(B2^G) | A3- "Finale."A2 "_D.C."|]
+
+%%sep 2 1 500
+
+X: 32851
+T: ARTHUR'S SEAT WALTZ #1
+C: Louis J. Collins, Edinburgh
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.285 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+P: 2nd time, 8va.
+K: G
+|:\
+B6 | (F4G2) | c6 | B6 | (E6 | F4D2) | G6- | G6 |\
+G6 | (F4E2) | D6 (B,4D2) | (G6 | A4^A2) | B6- | B6 | B6 | (F4G2) |
+c6 | B6 | (E6 | F4D2) | G6- | G6 | (d4^c2) | (=c4A2) |\
+c6 | B6 | (A4^A2 | B4D2) | G6- | G4 :||: uD2 | BBbbbb |
+BBbbbb | BBbbbb | b4a2 | AAaaaa | AAaaaa | AAaaaa | a4g2 | ddd'd'd'd' |
+ddd'd'd'd' | ddd'd'd'd' | d'4c'2 | (c'f)fffc' | (be)eeeb | (ad)ddda |[1 g2z2 :|[2 g2d2c2 "_D.C."|]
+
+%%sep 2 1 500
+
+X: 32852
+T: ARTHUR'S SEAT WALTZ #2
+C: Louis J. Collins, Edinburgh
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.285 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The F-flat in bars 6 and 22 is a bit odd.  Maybe it should be natural?
+M: 3/4
+L: 1/8
+P: 2nd time, 8va.
+K: G
+uG,2 !segno!|\
+(B,2C2^C2) | (D4E2) | (E4D2) | D6 |\
+(B,2C2^C2) | D4_F2 | (F4E2) | E6 |\
+(F2G2^G2) | (A4B2) | (B4A2) | A6 |
+(F2G2^G2) | (A4c2) | (c4B2) | B6 |\
+(B,2C2^C2) | (D4E2) | (E4D2) | D6 |\
+(B,2C2^C2) | (D4_F2) | (F4E2) | E6 |
+(F2G2^G2) | (A4B2) | (c4B2) | e6 | (B2A2G2) |\
+[1 (.F4.F2) | E6- | E4 :|[2 (.F4.a2) | g6- | g2z2 \
+|: uG2 |\
+.F.G.A.B.c.d | e2z2ug2 | f2z2vFuF | F2z2uA2 |
+.G.A.B.c.d.e | f2z2ua2 | g2z2vGuG | G2z2uB2 |\
+.A.B.c.d.e.f | g2z2ub2 | a2z2vAuA | A2(a2g2) |\
+(f2e2d2) | (^c4d2) |[1 b6- | b4 :|[2 c2B2A2 | G2D2C2 !segno!"_D.C."|]
+
+%%sep 2 1 500
+
+X: 32853
+T: ARTHUR'S SEAT WALTZ #3
+C: Louis J. Collins, Edinburgh
+R: waltz
+B: K\"ohler's Violin Repository, v.3, 1885 p.285 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The 2nd phrase has unusual repeat notation.
+N: There is a "Repeat 8va" note on the right, between the 1st and 2nd staffs, but no clue what it applies to.
+N: You could play the 1st phrase an octave higher, or the 2nd phrase an octave lower.
+M: 3/4
+L: 1/8
+K: D
+uA,2 !segno!|\
+(A,2D2F2) | (A3^GA2) | (B2A3D) | C6 |\
+(C2E2F2) | (G3FG2) | (B2A3E) | (F4A,2) |\
+(A,2D2F2) | (A3^GA2) | (B2A3D) | d6 |
+(d2c2B2) | (A3DG2) | (F4E2) | D6 :|\
+ua2 !segno!|\
+(a^gagag) | (.a4d'2) | (d'c')c'c'c'c' | (.c'4.g2) |\
+(gfgfgf) | (.g4.b2) | (ba)aaaa | (.a4.a2) |
+(a^gagag) | (.a4.f'2) | (f'e')e'e'e'e' | (e'4d'2) | (d'c')c'c'c'c' | (.c'4e'2) |\
+[1 d'd'd'd'd'd' | d'2(f2g2) !segno!||[2 d'4d'd' | d'6- | "_Fine."d'2z2 "_D.C."|]
+
+%%sep 2 1 500
+
+X: 32861
+T: EXERCISE -- "LODER."
+C: Arranged by W.B. Laybourn
+B: K\"ohler's Violin Repository, v.3, 1885 p.286 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+P: Violin Primo
+Q: "Andante"
+M: 2/4
+L: 1/8
+K: G
+|:\
+vd3 d | (ed) (cB) | B3 B | (cB) (AG) |\
+(GB) (Bd) | d2 (ed) | (de/d/) cB | (B2 A2) |
+d3 d | (ed) (cB) | B3 B | (cB) (AG) |\
+(GB) (Bd) | d2 (ec) | (d<B) (A>B) | G3 z :|
+|:\
+vA3 A | (BA) A2 | (Bc/d/) (cB) | (BA) G2 |\
+(GB) (Bd) | d2 (ed) | (de/d/) cB | (B2 A2) |
+d3 d | (ed) (cB) | B3 B | (cB) (AG) |\
+(GB) (Bd) | d2 ec | (d<B) (A>B) | G3 :|
+
+%%sep 2 1 500
+
+X: 32862
+T: EXERCISE -- "LODER."
+C: Arranged by W.B. Laybourn
+B: K\"ohler's Violin Repository, v.3, 1885 p.286 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+P: Violin Primo
+Q: "Andante"
+M: 3/4
+L: 1/8
+K: G
+|:\
+(vd3 c) B2 | (B3 A) G2 | (Ed) (cB)AG | (F3 E) D2 |\
+(d3 c) B2 | (B3 A) G2 | (EA) G2 F2 | (F2 G2) z2 :|
+|: (vec) (Gc) eg | (g3f/e/) d2 | (cA) (FA) Dc | (B3 c) d2 |\
+(ec) (Gc) eg | (dB) (GB) dg | edcBAG | FEDCB,A, |
+([d3D3G,3] c) B2 | (B3 A) G2 | (Ed) (cB) AG | (F3 E) D2 |\
+(d3 c) B2 | (B3 A) G2 | (EA) G2 F2 | (F2 G2) z2 :|
+
+%%sep 2 1 500
+
+X: 32871
+T: EXERCISE -- "LODER."
+C: Arranged by W.B. Laybourn
+B: K\"ohler's Violin Repository, v.3, 1885 p.287 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+P: Violin Secundo
+Q: "Andante"
+M: 3/4
+L: 1/8
+K: G
+|:\
+vG,(GBG) | (cB) (AG) | D3 D | ([EC]F) ([FA,]G)  |\
+(B,D) (GB) | [B2G2] [cG-][BG] | (Bc/B/) AG | (D>^C D/=C/B,/A,/) |
+G,(GBG) | (cB) (AG) | D3 D | ([EC]F) ([FA,]G) |\
+(B,D) (GB) | (BG) [c2G2] | D3 ^F | GDG,z :|
+|: vD3 D | (GD) D2 | (GA/B/) (AG) | (DC) (B,G,) |\
+(B,D) (GB) | (BG) (cG) | (Bc/B/) AG | (D>^C D/=C/B,/A,/) |
+G,(GBG) | (cB) (AG) | D3 D | ([EC]F) ([FA,]G) |\
+(B,D) (GB) | [B2G2] [c2G2] | d2 (D^F) | GDG,z :|
+
+%%sep 2 1 500
+
+X: 32872
+T: EXERCISE -- "LODER."
+C: Arranged by W.B. Laybourn
+B: K\"ohler's Violin Repository, v.3, 1885 p.287 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+P: Violin Secundo
+Q: "Andante"
+M: 3/4
+L: 1/8
+K: G
+|:\
+(vG,3 A,) B,2 | (D3 C) B,2 | C4 ^C2 | (D3 E) F2 |\
+([G3G,3] A) B2 | (d3 c) B2 | (CA,) D2 (E/D/^C/D/) | D4 G,4 z2 :|
+|:\
+v[E2C2] [E2C2] [E2C2] | [D2C2] [D2C2] [D2C2] | [F2A,2] (.[F2A,2] .[F2A,2]) | ([G3G,3] A) B2 |\
+c2 C2 z2 | vG2 G,2 z2 | vG,2 A,2 B,2 | C2 DE F2 |
+[G2G,2] z2 z2 | (v[d3D3G,3] c) B2 | C4 ^C2 | (D3 E) F2 |\
+([G3G,3] A) B2 | (d3 c) B2 | (CA,) D2 D2 | (D2 G,2) z2 :|
+
+%%sep 2 1 500
+
+X: 32881
+T: CAPER FEY REEL
+R: reel
+B: K\"ohler's Violin Repository, v.3, 1885 p.288 #1
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+uG |\
+c2ed ~c2Gc | c2GF (EC)CE | d<d(f>e) ~d2(AB/^c/) | ~d2AG FDDE |
+c2ed ~c2(GA/B/) |~c2GF ECCE | (DE)FG (AB)^cA | "#"~d2(AG) FDD ||
+(ug/f/) |\
+(ec)(gc) (ac)(gc) | (ec)(gc) {/f}edce | (fd)(ad) (bd)(af) | defg (a/g/f/e/) d(g/f/) |
+(ec)(gc) (ac)(gc) | GA cd ecc (f/g/) | afge fde^c | d2(AG) FDD "^D.C."|]
+
+%%sep 2 1 500
+
+X: 32882
+T: MASTER ERSKINE'S HORNPIPE
+C: By NEIL GOW
+B: K\"ohler's Violin Repository, v.3, 1885 p.288 #2
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+uc |\
+GcBc EcBc | (ec)(gc) (ac)(gc) | GcBc EcBc | e2d2 d4 |
+(Gc)Bc EcBc | (ec)(gc) (ac)(gc) | GcBd cagf | e2c2 c2 :|
+|: ue |\
+(ga)gf (ef)ed | (cd)cB (AG)FE | (EG)cG (EF)GE | F2D2 D3f |
+(ga)gf (ef)ed | (cd)cB (AG)FE | EGcG Fagf | e2c2 c3 :|
+
+%%sep 2 1 500
+
+X: 32883
+T: CALEDONIAS' WAIL FOR NEIL GOW STRATHSPEY
+R: strathspey
+B: K\"ohler's Violin Repository, v.3, 1885 p.288 #3
+F: http://www.archive.org/details/klersviolinrepos03rugg
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Shortened last two notes of bar 6 to match other similar bars.
+M: C|
+L: 1/8
+K: Bm
+(uF/E/) |\
+D<B,(B,>C) (D>E)F>B | A<F(F>E) (C>A,) A,(F/E/) |\
+(D<B,)(B,>C) (D>E)Fg | (fd) (e/d/c/d/) FBB :|
+(uf/a/) |\
+(.b>.c')(d'>c') (.b>.a)(f>b) | (.a>.f) (ef/e/) dAA (f/a/) |\
+(.b>.c')(d'>c') (.b>.a) (g/a/b/c'/) | (.d'>.f) (e/d/)c/d/ (B/d/)f/d/ (Bd/e/) |
+fd'd' (f/d/) caa (d/c/) | (B>c) (d/c/d/e/) fBB (D/E/) |\
+[FD][FD][FD] (C/D/) [EC][EC][EC] (D/C/) | (B,/A,/)C/D/ (F^A,) B,3 |]
+
+%%sep 2 1 500
+
+X: 99999
+T: Health, Happiness, Pleasure
+R: song, round
+B: K\"ohler's Violin Repository, v.1, 1885 p.1 ("Musical Treasury")
+F: http://www.archive.org/details/klersviolinrepos01edin
+F: http://www.archive.org/details/klersviolinrepos02rugg
+%%indent 60
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: E
+V: 1
+"1."E3 F E F | G3 E3 || "2."G3 A G A | B3 G3 ||
+w: Health, hap-pi-ness, plea-sure, Peace, joy with-out mea-sure,
+V: 3
+"3."e3 d c d | e3 B3 || "4."B3 [B3B,3] | E3- E3 ||
+w: Good for-tune and trea-sure, All be thine!*
+%
+%%begintext align
+%% This is on the first page of all three "Musical Treasury" sections, after the tune pages.
+%% This 4-part round was transcribed for two "voices" to get the note alignment.
+%%endtext

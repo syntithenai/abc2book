@@ -1,0 +1,44 @@
+
+X: 1
+T: O Come O Come Emmanuel
+%%combinevoices 1
+N: Words: various, combined by unknown author approx 12th Century, Translated by John Mason Neale, 1851.
+N: Music: 'Veni Emmanuel' 15th Century French processional.  Setting: "Common Service Book" (ULCA), 1917.
+N: copyright: public domain.  This score is a part of the Open Hymnal Project, 2005 Revision.
+S: Music source: ULCA Hymnal, 1917 Hymn 1.
+M: 4/4 % time signature
+L: 1/4 % default length
+S: http://openhymnal.org/OpenHymnal2011.06.abc
+%%staves (S1V1 S1V2) | (S2V1 S2V2)
+V: S1V1 clef=treble
+V: S1V2
+V: S2V1 clef=bass
+V: S2V2
+K: Em
+%%continueall 1
+% - - - - - - - - - -
+[V: S1V1] [Q:1/4=130] E | G B B B | (A c B) A | G3 A | B G E G | (A F E) D | E3
+w: 1.~O come, O come, Em-man-**u-el, And ran-som cap-tive Is-**ra-el,
+w: 2.~O come, Thou Wis-dom from** on high, Who or-derest all things might-**i-ly
+w: 3.~O come, Thou Rod of Jes-**se, free Thine own from Sa-tan's ty-**ran-ny;
+w: 4.~O come, Thou Day-spring, come** and cheer Our spi-rits by Thine ad-**vent here;
+w: 5.~O come, Thou Key of Da-**vid, come, And o-pen wide our hea-**v'nly home;
+[V: S1V2]  E | E B, D G | G3 F | D3 D | D D C D | (E C B,) B, | B,3
+[V: S2V1]  G, | B, F, G, D | (E2 D) C | B,3 F, | G, G, G, B, | (A,2 G,) F, | G,3
+[V: S2V2]  E, | E, D, B,, G,, | (C, A,, B,,) D, | G,3 D, | G,, B,, C, B,, | (C, A,, B,,) B,, | E,3
+% - - - - - - - - - -
+[V: S1V1]  A | A E E F | (G2 F) E | D3 G | A B B B | (A c B) A | G3
+w: That mourns in lone-ly e-*xile here Un-til the Son of God** ap-pear.
+w: To us the path of know-*ledge show, And teach us in her ways** to go.
+w: From depths of hell Thy peo-*ple save, And give them vic-t'ry ov'r** the grave.
+w: Dis-perse the gloom-y clouds* of night, And death's dark sha-dows put** to flight.
+w: Make safe the way that leads* on high, And close the path to mi-**ser-y.
+[V: S1V2]  E/D/ | C A, E ^D | (E =D D) ^C | D3 B, | D D D G | G3 F | G3
+[V: S2V1]  A, | A, C B, A, | (G,2 A,) G, | F,3 G, | F, F, G, D | (E2 D) C | B,3
+[V: S2V2]  C,/B,,/ | A,, A, G, F, | (E, B,, A,,) A,, | D,3 E, | D, B,, G,, B,, | (C, A,, B,,) D, | G,,3
+% - - - - - - - - - -
+[V: S1V1]  d | d3 B | B3 B | (A c B) A | G3 "^intro"A | B G E G | (A F E) D | E3 |]
+w: Re-joice! Re-joice! Em-ma-**nu-el shall come to thee, O Is-**ra-el.
+[V: S1V2]  G | F3 G | F3 G | G3 F | G3 F | G D C D | (E C B,) B, | B,3 |]
+[V: S2V1]  B, | A,3 E | D3 D | (E2 D) C | B,3 D | D G, G, B, | (A,2 G,) F, | G,3 |]
+[V: S2V2]  G, | D,3 E, | B,,3 G,, | (C, A,, B,,) D, | E,3 D, | G,, B,, C, B,, | (C, A,, B,,) B,, | E,3 |]

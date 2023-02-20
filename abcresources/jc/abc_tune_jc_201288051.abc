@@ -1,0 +1,17 @@
+X: 1
+T: How Great Our Joy   [F]
+T: While By the Sheep We Watched
+C: trad. German carol
+S: https://hymnary.org/text/while_by_my_sheep_i_watched_at_night#authority_media_flexscores
+Z: 2018 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: F
+"^Verse"[|\
+"F"f2 ed | "F"c3 c | "Bb"d2 "C7"e2 | "F"f4 |\
+"F"f2 ed | "F"c3 c | "Bb"d2 "C7"e2 | "F"f3 \
+"^Chorus"|[| f |\
+"A7"e3 e | "Dm"d4 | "A7"e3 e | "Dm"d4 |
+"Dm"f2 "C"g2 | "F"a4 | "Dm"f2 "C"g2 | "F"a4 |\
+"F"a2 "C"g"F"f | "A7"e2 "Bb"d2 | "Gm"e2 "A7"^c2 | "Dm"d4 |\
+"F"a2 "A"g"Dm"f | "A7"e2 "Bb"d2 | "Gm"e2 "A7"^c2 | "Dm"d4 |]

@@ -1,0 +1,18 @@
+X: 3087
+T: BONNIE CHARLIE
+Q:"Strathspey."
+R: Strathspey.
+%R:strathspey
+B: James Kerr "Merry Melodies" v.3 p.11 #87
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: The 2nd strain has initial repeat but no final repeat; fixed.
+%%slurgraces yes
+%%graceslurs yes
+M: C
+L: 1/16
+K: A
+|:\
+vA3vBuc3uA (FA3)E4 | e3fe3c cB3 Bc3 |\
+A3Bc3A (FA3)E4 | e3fe3c {c}B4 A4 ::\
+(ce3) e3e (ce3) e4 | a3gf3e fedc B2c2 |\
+A3Bc3A (FA3)E4 | e3fe3c {c}B4 A4 :|

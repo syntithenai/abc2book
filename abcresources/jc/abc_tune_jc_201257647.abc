@@ -1,0 +1,30 @@
+
+X: 1
+T: Shapiro's Korohod    [Cm]
+S: Steve Rauch
+D: Budowitz "Wedding Without a Bride"
+M: C
+L: 1/8
+K: Cm
+G, \
+| "Cm"C2 E2 G2 c2 | e2 dc =B c3 | e2 dc (3=Bcd (3cBA | "Fm"(3GAB A/G/F/=E/ F4 |
+| "Eb"EF GA B=A Bc | _dc B=A _GF ED | "Fm"E F2 E "G7"(3GFE E/D/C/=B,/ | "Cm"C7 :|
+|: G, \
+| "Cm"CG, CD E4 | "G7"DF E/D/C/=B,/ "Cm"C4 | "Fm"F2 A2 cA FA | "Cm"G4 "G7"GF ED |
+| "Cm"CG, CD E4 | "G7"DF E/D/C/=B,/ "Cm"C4 | "Fm"E F2 E "G7"(3GFE E/D/C/=B,/ | "Cm"C7 :|
+
+%%sep 1 1 500
+
+X: 2
+T: Shapiro's Korohod    [Dm]
+S: Steve Rauch
+D: Budowitz "Wedding Without a Bride"
+M: C
+L: 1/8
+K: Dm
+A, \
+| "Dm"D2 F2 A2 d2 | f2 ed ^c d3 | f2 ed (3^cde (3dcB | "Gm"(3ABc B/A/G/^F/ G4 |
+| "F"FG AB c=B cd | _ed c=B _AG FE | "Gm"F G2 F "A7"(3AGF F/E/D/^C/ | "Dm"D7 :|
+|: A, \
+| "Dm"DA, DE F4 | "A7"EG F/E/D/^C/ "Dm"D4 | "Gm"G2 B2 dB GB | "Dm"A4 "A7"AG FE |
+| "Dm"DA, DE F4 | "A7"EG F/E/D/^C/ "Dm"D4 | "Gm"F G2 F "A7"(3AGF F/E/D/^C/ | "Dm"D7 :|

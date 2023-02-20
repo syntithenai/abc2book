@@ -1,0 +1,49 @@
+X:1
+T:The Jiggernaut
+M:6/8
+L:1/8
+Q:80
+C:Robert Mathieson
+S:Jig
+K:HP
+[| {g}A{d}A{e}A{g}d2f | \
+{g}Adfafd | \
+{g}G{d}G{e}G{g}B2d |
+{g}GBdgdB{g}A{d}A{e}A{g}c2e | \
+{g}A{d}cegeg | \
+{a}f2d{gef}e2c |
+{g}d2B{g}cB{G}A{Gdc}d3{g}A2d | \
+{g}Adfafd | \
+{gBd}B3{g}G2{d}B |
+{g}GBdgdB{gcd}c3{g}A2{d}c | \
+{g}Acegeg | \
+{a}fdfgec |
+{g}edc{g}d3|]  |: \
+{ag}a2f{g}d2f | \
+{g}Adfafd |
+{gf}g2d{g}B2d | \
+{g}GBdgdB|1 {gef}e2c{g}A2{d}c | \
+{g}Acegeg |
+{ag}a3g3 | \
+{a}f3{g}e3:| [ | \
+{ag}a2f{g}d2f |
+{g}Adfafd | \
+{gf}g2d{g}B2d | \
+{g}GBdgdB|2 {gef}e2c{g}A2c |
+{g}Acegeg | \
+{a}fdfgec | \
+{g}edc{g}d3|] |:
+{g}dfd{g}A2d | \
+{g}Adfafd | \
+{g}BdB{g}G2{d}B |
+{g}GBdgdB|1 {g}cec{g}A2{d}c | \
+{g}A{d}cegeg | \
+{a}A3{d}c3 |
+{g}e3{ag}a3:| [ | \
+{g}dfd{g}A2d | \
+{g}Adfafd |
+{g}BdB{g}G2{d}B | \
+{g}GBdgdB|2 {g}cec{g}A2{d}c | \
+{g}A{d}cegeg |
+{a}fdfgec | \
+{g}edc{g}d3|]

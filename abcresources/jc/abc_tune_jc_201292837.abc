@@ -1,0 +1,15 @@
+X: 1
+T: Jig for Archie
+C: Ian T. Muir
+R: jig
+N: Recommended tune for Full Circle, by Roy Goldring, in "A Reel for Alice".
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+G2E |\
+"C"CCC CCC | CCC CEG | "C"c2c "D7"cBc | "G"dDD "E7"DED |\
+"Am"CCC "Am#7"CCC | "Am7"CCC CEG | "D7"cBc "G7"edB | "C"c2z :|
+|: cde |\
+"Dm"f2f fgf | "Am"e2c cde | "D7"d2A ABc | "G"d2G "E7"^GAB |\
+"Am"ccc "(+M7)"ccc | "Am7"ccc "D7"ccc | "Dm"cBc "G7"edB | "C"c3 :|

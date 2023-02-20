@@ -1,0 +1,18 @@
+X: 20251
+T: le PANTALON.     Quadrille.
+%R: jig
+B: "Edinburgh Repository of Music" v.2 p.25
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%%slurgraces
+%%graceslurs
+!segno![|\
+g2g ({a}gf)g | a2a g3 | b2Tb d'2c' | a2a d'2b |\
+g2g {a}gfg | (b/a/)(^g/a/).b.a =g3 | b2b (d'c').b | agf g2z H|]
+d'2d' (^c'b).a | b2b a3 | f2a g2a | efg fed |\
+d'2d' (^c'b).a | (^c'/b/)(^a/b/).c'/.b/ =a3 | gbg faf | {f}ede d3 !segno!|]
+b2g efg | a2f ^dfd | B^c^d efg | {a}gfe ^d2B |\
+b2a (ga).b | c'2b (ab).c' | (bc').a gaf | (ef).^d  e3 !segno!|]

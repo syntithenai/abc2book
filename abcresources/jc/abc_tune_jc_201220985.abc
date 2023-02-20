@@ -1,0 +1,24 @@
+X: 041
+T: MISS JEAN STEWART
+C: Wm MARSHALL
+R: Strathspey
+B: Glen Collection p.4 #_
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+V: 1 middle=B clef=treble
+V: 2 middle=d clef=bass
+%%score {1 | 2}
+K: A
+%
+V: 1
+|: CA,3 Ac3 B3A F4 | AE3Ac3 e3f ec3 | d3e fedc dcBA F4 |1 AE3FE3 A2E2A2c2 :|2 (A3B)c3B AE3Ac3 ||
+|: e3fe2c2 dcBA F4 | (e3f)e2c2 ea3ec3 | d3e fedc dcBA TF4 |1 (AE3)FE3 A2E2c2A2 :|2 (A3B)c3B AE3Ac3 |]
+%
+V: 2
+|:\
+A4[c'4a4e4] [d'4a4f4][d'4a4f4] | [c'4a4e4][c'4a4e4] [c'4a4e4][c'4a4e4] |\
+B4[b4f4] d4[a4f4] |1 c4[c'4a4e4] A4[c'4a4e4] :|2 c4[a4e4] A4[c'4a4e4] ||
+|:\
+A4[c'4a4e4] [d'4a4f4][d'4a4f4] | [c'4a4][c'4a4] [c'4a4][c'4a4] |\
+B4[b4f4] d4[a4f4] |1 c4[c'4a4e4] A4[c'4a4e4] :|2 c4[a4e4] "_Ped."A4[c'4a4e4] |]

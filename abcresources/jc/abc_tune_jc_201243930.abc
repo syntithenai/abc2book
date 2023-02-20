@@ -1,0 +1,12 @@
+X:951
+T:Sailor Boy
+S:Bruce & Emmett's Drummers and Fifers Guide (1862), p. 95
+M:3/4
+L:1/8
+Q:1/4=180
+K:A
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+E2|A2A2B>A|(F<A)A2cd|e3cdB|A3GE2|A2A2B>A|F<A A2 (cd)|e2e2{g}a|e4::
+cd|e2e2{g}a2|e2e2fe|B2dcBA|F4E2|A2A2B>A|F<A A2 cd|e3cdB|A4:|

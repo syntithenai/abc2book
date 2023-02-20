@@ -1,0 +1,42 @@
+X: 1
+T: Lumps of Pudding
+N: "a Scots air" handwritten after title in DMDfD.
+P: Longways for as many as will
+%R:
+B: "The Dancing-Master" printed by John Walsh, London
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.23 #43
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.251
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to match the dance instructions.
+M: 6/4
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+B4  G2 B3g f2 | d2c2 d2 G4 AB | A4 F2 A3f d2 | c3B AG F4 fg |\
+a2g2f2 d2g2f2 | d3c  B2 f4 d2 | (cd)(cA) (G^F) G3A Bc | d4 B2 G4 :|
+|: A/B/c |\
+d2 (Bc)(dB) d2 (Bc)(dB) | d2 (Bc)(dB) G4 AB | c2 (AB)(cA) c2 (AB)(cA) | c2 (AB)(cA) F3A Bc |\
+d2 (Bc)(dB) d2 (Bc)(dB) | d2 BcdB f4 d2 | (cd)(cA) (G^F) G3A Bc | d4B2 G4 :|
+|: dc |\
+B2d2 g2 B2d2 g2 | B2d2 g2 G4 AB | A2c2 f2 A2c2 f2 | A2c2 f2 F4 dc |\
+B2d2 g2 B2d2 g2 | B2d2 g2 f4 d2 | (cd)(cA) (G^F) G3A Bc | d4B2 G4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1st Cu. lead through the 2d Cu. and turn single, to the first Strain once. The
+%% 2c Cu. do the same, to the first Strain twice. The 1st Cu. go the whole Figure of
+%% Eight, to the second Strain once. The 2d Cu. do the same, to the second Strain twice.
+%% All four clap Hands with your Partners, to the third Strain once. Then clap Sides
+%% lead through, and cast off, to the third Strain twice.
+%% [CCDM1]
+%%endtext
+%%sep 1 1 500
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. cu. lead through the 2. cu. and turn single .| The 2. cu. do the same :| The 1. cu. go the whole Figure of Eight .|
+%% The 2. cu. do the same :| All four clap Hands with your Partners. The third Strain once. Then clap sides and lead
+%% thorow and cast off. To the third Strain played twice.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

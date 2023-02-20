@@ -1,0 +1,16 @@
+X: 419
+T: the Mountain Top   #2
+N: Irish title: mulla.c na slei.be
+R: jig, air
+%S: s:3 b:14(4+6+4)
+Q: "With spirit"
+B: O'Neill's 1850 #419
+O: Ennis
+Z: henrik.norbeck@mailbox.swipnet.se
+N: Compacted via repeats and multiple endings [JC]
+M: 6/8
+L: 1/8
+K: F
+"^A1"[|] (A/G/) | F>ED FGA | c3 d2(c/d/) | A>GF G2F | F3- F2 |]
+"^B"|| A | cdA cde | f3 [1 e2f | gec d2c | c3- c2A :|[2 gfe | d>cA cde | f3- f2 ||
+"^A2"|| (A/G/) | F>ED FGA | c3 d2c | AGF G2F | F3 z2 |]

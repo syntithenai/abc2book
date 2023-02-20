@@ -1,0 +1,25 @@
+X: 082
+T: Captain Goscot's Frolic or the English Fleet
+%R: march
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+B: Thompson "Twenty four Country Dances for the Year 1805" p.8 #2
+F: http://folkopedia.efdss.org/images/2/2a/Thompson_24_1805.PDF 2014-8-13
+N: The f in bar 3 has a dot, but the e doesn't have a flag; fixed to look like the equivalent bar 19.
+N: The 2nd strain has initial repeat but no final repeat; not fixed.
+M: 2/4
+L: 1/8
+K: C
+|:\
+eccG | eccG | fedc | Bddz |\
+eccG | eccG | g>agf | eccz :|\
+|:\
+cece | cece | d>cBc | d>efd |
+cece | cece | d>cBc | d>efd |\
+eccG | eccG | fedc | Bddz |\
+eccG | eccG | g>agf | eccz |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% 1st & 2d Cu: hands across back again, lead
+%% down the middle up again, right & left at top.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -

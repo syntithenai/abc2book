@@ -1,0 +1,101 @@
+X:1
+T:Hark the Herald Angels Sing (Carlingcott)
+S:Manuscript from Weslyan Chapel, Carlingcott, Somerset
+Z:Bob and Jacqueline Patten
+F:http://www.folkinfo.org/songs
+V:1     %
+     %!STAVE 0 'Soprano' @
+     %!INSTR 'Choir aahs' 0 5200 @
+M:4/4     %Meter
+L:1/8     %
+Q:1/4=130
+K:G
+(G2 D2) (G2 B2) |(A2 c2) (B2 A2) |G4 F4 |G8 |
+w:Hark_ the_ Her--ald_ an-gels sing,
+(B2 G2) (A2 B2) |(c2 B2) (A2 G2) |G4 F4 |G8 |
+w:Glo--ry_ to_ the_ new-born king
+(B2 c2) (d2 B2) |(A2 B2) (c2 A2) |(B2 c2) (d2 B2) |A8 |
+w:Peace_ on_ Earth_ and_ mer--cy_ mild
+B2 B2 B2 B2 |c2 c2 c4 |A2 A2 A2 A2 |B2 B2 B4 |
+w:God and sin-ners rec-on-ciled God and sin-ners rec-on-ciled
+(B2 G2) (A2 B2) |(c2 B2) (A2 G2) |G4 F4 |G8 |
+w:God_ and_ sin--ners_ re-con-ciled
+B2 B2 B2 (BA) |(GG) (GG) (G2 G2) |c2 c2 c2 (cB) |(AA) (AA) (A2 A2) |
+w:Hark the her-ald_ an--gels_ sing_ Glo-ry to the_ new_ born_ King *
+(B2 G2) (A2 B2) |(c2 B2) (A2 G2) |G4 F4 |G8 |]
+w:Glo--ry_ to_ the_ new-born King
+V:2     %
+     %!STAVE 0 'Alto' @
+     %!INSTR 'Choir aahs 2' 0 5200 @
+M:4/4     %Meter
+L:1/8     %
+K:G
+D4 E4 | E4 (E2 C2)  |D4 D4 |D8 |
+(G2 D2) (F2 G2) |(E2 G2) D4 |D4 D4 |D8 |
+(G2 A2) (B2 G2) |(F2 G2) (A2 F2) |(G2 A2) (B2 G2) |F8 |
+G2 G2 G2 G2 |E2 E2 E4 |F2 F2 F2 F2 |G2 G2 G4 |
+(G2 D2) (F2 G2) |E4 E4 |D4 D4 |D8 |
+G2 G2 G2 (GE) |(DD) (DD) (D2 D2) |A2 A2 A2 (AG) |(DD) (DD) (D2 D2) |
+(G2 D2) (F2 G2) |(A2 G2) D4 |D4 D4 |D8 |]
+V:3     %
+     %!STAVE 0 'Tenor' @
+     %!INSTR 'Choir aahs 3' 0 5200 @
+M:4/4     %Meter
+L:1/8     %
+K:G
+B,4 (B,2 D2) |(C2 E2) (D2 C2) |B,4 A,4 |B,8 |
+(D2 B,2) (C2 D2) |(D2 B,2) (C2 D2) |B,4 A,4 |B,8 |
+D4 D4 |D4 D4 |D4 D4 |D8 |
+D2 D2 D2 D2 |E2 E2 E4 |D2 D2 D2 D2 |D2 E2 D4 |
+(D2 B,2) (C2 D2) |(E2 D2) C2 B,2 |B,4 A,4 |B,8 |
+D2 D2 D2 (DC) |(B,B,) (B,B,) (B,2 B,2) |E2 E2 E2 (ED) |(DD) (DD) (D2 D2) |
+(D2 B,2) (C2 D2) |(E2 D2) (C2 B,2) |B,4 A,4 |B,8 |]
+V:4     %
+     %!STAVE 0 'Bass' @
+     %!INSTR 'Choir aahs 4' 0 5200 @
+M:4/4     %Meter
+L:1/8     %
+K:G
+G,4 G,4 |C,4 C,4 |D,4 D,4 |G,8 |
+w:Hark the Her-ald an-gels sing
+G,4 D,4 |(A,,2 B,,2) (C,2 E,2) |D,4 D,4 |G,8 |
+w:Glo-ry to_ the_ new born king
+G,4 G,4 |C,4 C,4 |D,4 D,4 |D,8 |
+w:Peace on Earth and mer-cy mild
+G,4 G,4 |G,4 G,4 |C,4 C,4 |D,4 D,4 |
+w:God and sin-ners God and sin-ners
+G,4 C,4 |(A,,2 B,,2) C,4 |D,4 D,4 |G,8 |
+w:God and sin--ners re-con-ciled
+G,2 G,2 G,2 G,2 |G,2 G,2 (G,2 B,,2) |C,2 C,2 C,2 (C,D,) |(F,F,) (F,F,) (F,2 D,2) |
+w:Hark the her-ald an-gels sing_ Glo-ry to the_ new_ born_ King_
+G,4 D,4 |(A,,2 B,,2) C,4 |D,4 D,4 |G,8 |]
+w:Glo-ry to_ the new-born King
+W:Hark the Herald Angels sing,
+W:Glory to the new-born King
+W:Peace on mercy mild
+W:God and sinners reconciled.
+W:
+W:Joyful all ye nations rise,
+W:Join the triumph of the skies
+W:With the angleic hosts procliam
+W:Christ is born in Bethlehem.
+W:
+W:Christ be highest heaven adored
+W:Christ the everlasting Lord
+W:Late in time behold him come
+W:Offspring of the virgin's womb.
+W:
+W:Veiled in flesh the Godhead see
+W:Hail the incarnate deity
+W:Pleased and man with man to dewell
+W:Jesus our Emmanuel.
+W:
+W:Hail the heaven-born Prince of Peace
+W:Hail the Sun of Righteousness
+W:Light and life to all he brings
+W:Ris'n with healing in his wings.
+W:
+W:Mild he lays his glory by
+W:Born that man no more may die
+W:Born to raise the sons of Earth
+W:Born to give them second birth.

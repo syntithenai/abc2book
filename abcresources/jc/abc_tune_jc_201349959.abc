@@ -1,0 +1,18 @@
+X:776
+T:Walk Along John to Kansas
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=112
+M:2/2
+L:1/4
+%%MIDI ratio 3 1
+%%MIDI program 40
+%%MIDI chordprog 105
+%%MIDI bassprog 105
+%%MIDI chordvol 60
+K:A
+P:A
+|: A/G/ | "D"F/G/A/B/ AF | "A"EC- CA | "E7"B2 B>A | "A"E/F/A AA/G/ |\
+"D"F/G/A/B/ AF | "A"EC- CE | "E7"E/F/E C>B, | "A"B,A,-A, :|
+P:B
+|: A/B/ | "A"cc/B/ AA/B/ | "A"ce- ee- | "E"ee/f/ ee/c/ | "A"BA- AA/B/ |
+"A"cc/B/ AA/B/ | "A"c/d/e a-a/g/ | "D"fg a>f | "A"ec- ce | "E7"e/f/e c>B | "A"BA- A :|

@@ -1,0 +1,42 @@
+
+X: 1
+T: Craigie Burn Wood
+O: Robert Millar coll. 1820 #36
+S: Robert Millar music manuscript collection, 1820, #36
+S: BSFC VI-2 (waltz version)
+R: waltz, jig
+P: Waltz
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: D
+A/G/ |\
+"D"F>ED | "A"EFA | "B"B>cd | "D"AFD |\
+"D"d>cB | AFD | "Em"E3 | "A"{FG}A2G |
+"D"F>ED | "A"EFA | "G"B>cd | "D"AFD |\
+"G"{Bc}d>cB | "D"AFD | "C"E3 | "A"{FG}A2 |]
+A |\
+"Bm"B>dc | d>ef | "A"edc | "F#"{d}cB^A |\
+"Bm"Bdc | "G"~d>ef | "A"e2c | "Bm"d2 c/d/ |
+"A"ef/e/d/c/ | "G"~de/d/c/B/ | "D"AFA | "G"d2c/B/ |\
+B>cd | "D"AFD | "Em"E3 | "A"{FG}A2 |]
+
+%%sep 2 1 500
+
+X: 2
+T: Cragie-Burn Wood
+O: Robert Millar coll. 1820 #36
+M: 6/8
+L: 1/8
+R: Pipe Jig
+P: Pipe Jig
+S: Robert Millar music manuscript collection (1820, No. 36)
+N: "Forfar Reg. and Piper to the Aberdeen Highland Society, 1820"
+Z: AK/Fiddler's Companion
+K: G
+d/c/ |\
+TB>AG ABd | Te>fg d<BG | TB>AG ABd | e3 g2d/c/ |
+B>AG ABd | e>fg d<BG | Tg>fe d<BG | A3 e2 :|
+|: d |\
+e2f g>fg | a>gf f>ed | e2f g>fg | a3 e2d |
+e2f g>fg | a>gf g<eg | B>AG ABd | e3 g2 :|

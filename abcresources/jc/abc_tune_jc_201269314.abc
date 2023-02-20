@@ -1,0 +1,11 @@
+X: 1159
+T: Don't Leave Me Alone   #2
+R: slipjig
+%S: s:1 b:6
+B: O'Neill's 1850 Music of Ireland #1159
+Z: Stephen Foy (shf@access.digex.net)
+S: abc 1.6
+M: 9/8
+K: G
+"^A"|: g2f efg dcB |[1,3 e2A ABG FED :|[2,4] c2B AGF G3 \
+"^B":: B2c dcB dcB |[1,3 e2A ABG FED :|[2,4] c2B AGF G3 :|

@@ -1,0 +1,26 @@
+X: 21201
+T: FREEDOM I SERVE THEE
+C: Ermmann.
+P: German air arranged as a solo or duet.
+%R: march
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.120 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/4
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+d |\
+b>a ge | d2 BG | AB cd | B2 zd |\
+b>a ge | d2 BG | A(B/c/) BA | G2 zB |\
+A>B ce | e2 dd | da gf | g2 zG |\
+A>B ce | e2 dd | db ba | g2 z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z |\
+d>c Bc | B2 GG | FG AF | G2 zB |\
+d>c Bc | B2 GG | FG DF | G2 zG |
+F>G Ac | (c^A) BG | Ad ^c=c | B2 zG |\
+F>G Ac | c2 BG | Bd dc | B2 z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -: G

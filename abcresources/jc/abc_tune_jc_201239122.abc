@@ -1,0 +1,25 @@
+X: 3212
+T: Peggie's Wedding.   a Jig.
+%R: jig
+B: Niel Gow & Sons "Complete Repository" v.3 p.21 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+N: The book has the 2nd part written out identically twice.
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - -
+V: 1 staves=2
+|:!p!\
+~c>dc .c2.c | ceg gec | c>dc .c2.c | TB>cd dBG | Tc>dc c2c | ceg gec | faf ege | TB>cd dBG :|
+|:!f!\
+Tc>dc g2c | e2c g2c | Tc>dc g2c | TB>cd dBG | Tc>dc gec | edc gec | faf ege | TB>cd dBG :|
+% - - - - - - - - - -
+% The book has bars 4 & 8 written in bass clef.
+V:2 clef=bass middle=d
+|:!p![K:C clef=treble middle=B]\
+[G3E3C3] [G3E3C3] | [G3E3C3] [G3E3C3] | [G3E3C3] [G3E3C3] | [D3B,3G,3] [D3B,3G,3] |\
+[G3E3C3] [G3E3C3] | [G3E3C3] [G3E3C3] | [A3F3C3] [G3E3C3] | [D3B,3G,3] [D3B,3G,3] :|
+[K:C clef=bass middle=d]\
+|:!f!\
+[c3C3] [c3C3] | [c3C3] [c3C3] | [c3C3] [c3C3] | [g3G3] [g3G3] |\
+[c3C3] [c3C3] | [c3C3] [c3C3] | [f3F3] [e3E3] | [g3G3] [g3G3] :|

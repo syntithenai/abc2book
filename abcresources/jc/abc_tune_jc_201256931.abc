@@ -1,0 +1,44 @@
+X:1
+T:The British Columbia Scottish Festival
+M:C
+L:1/8
+Q:80
+C:R. MacNeil
+S:March
+K:HP
+[| {g}A3/2B/2 | \
+{Gdc}d2{gdc}df{g}A3/2d/2{gfg}fa | \
+{f}g3/2f/2{gef}eg{a}B3/2{d}c/2{gef}ed |
+{gcd}c2{GBG}A{d}c{ag}a2{f}g3/2f/2 | \
+{gef}eA{g}d/2a3/2{fg}f2{g}A3/2B/2 | \
+{Gdc}d2{gdc}df{g}A3/2d/2{gfg}fa |
+{f}g3/2f/2{gef}eg{a}B3/2{d}c/2{gef}ed | \
+{gcd}c2{GBG}A{d}c{ag}a2{f}g3/2f/2 | \
+{gef}e4{Gdc}d2|] [ |
+{g}f3/2g/2 | \
+{ag}a3/2g/2{a}faf/2{g}d3/2{ag}af | \
+{gf}g3/2f/2{gef}eg{a}B3/2{d}c/2{gef}ed |
+{gcd}c2{GBG}A{d}c{ag}a2{f}g3/2f/2 | \
+{gef}eA{g}d/2a3/2{fg}f2{e}f3/2g/2 | \
+{ag}a3/2g/2{a}fa{fg}f{g}d{ag}af |
+{gf}g3/2f/2{gef}eg{a}B3/2{d}c/2{gef}ed | \
+{gcd}c2{GBG}A{d}c{ag}a2{f}g3/2f/2 | \
+{gef}e4{Gdc}d2|] [ |
+{g}A3/2d/2 | \
+{gfg}f2{g}A{Gdc}df/2{g}d3/2{ag}af | \
+{gf}g3/2f/2{gef}eg{a}B3/2{d}c/2{gef}ed |
+{gcd}c2{GBG}A{d}c{gef}e2{gcd}ce | \
+{Gdc}d3/2e/2{g}fg{ag}a2A3/2d/2 | \
+{gfg}f2{g}A{Gdc}d{gfg}f{g}d{ag}af |
+{gf}g3/2f/2{gef}eg{a}B3/2{d}c/2{gef}ed | \
+{gcd}c2{GBG}A{d}c{ag}a2{f}g3/2f/2 | \
+{gef}e4{Gdc}d2|] [ |
+{ag}a3/2g/2 | \
+{a}f2{ag}a3/2g/2{a}f/2a3/2{fg}fd | \
+{gf}g3/2f/2{gef}eg{a}g3/2B/2{gef}ed |
+{gcd}c2{GBG}A{d}c{ag}a2{f}g3/2f/2 | \
+{gef}eA{g}d/2a3/2{fg}f2{ag}a3/2g/2 | \
+{a}f2{ag}a3/2g/2{fg}f{g}d{ag}af |
+{gf}g3/2f/2{gef}eg{a}B3/2{d}c/2{gef}ed | \
+{gcd}c2{GBG}A{d}c{ag}a2{f}g3/2f/2 | \
+{gef}e4{Gdc}d4|]

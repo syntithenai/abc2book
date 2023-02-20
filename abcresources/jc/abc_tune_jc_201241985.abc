@@ -1,0 +1,31 @@
+X: 49
+T: Minuet du Dauphin
+%R: minuet, waltz
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+S: http://books.google.com/books?id=ipV0y26Vq8EC
+B: Giovanni Andrea Gallini "A New Collection of Forty-Four Cotillions" c.1755 #49
+N: The fermata on the first beat of the last bar is a bit odd.
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 staff breaks arranged to fit a wider page:
+V: 1
+|:\
+GBB2A2 | Acc2B2 | BdcABG | A2DDD2 |\
+GBB2A2 | Acc2B2 | BdBGAF | G6 :|\
+|:\
+Bdgbag | fagfed | efgefd | e4A2 |
+dffeed | eggffe | faA2^c2 | d4D2 |\
+BcdBca | ABcABg | ABcABG | A4D2 |\
+GBBAAG | AccBBA | (3(Bcd)D2F2 | G6 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff layout:
+V: 2 clef=bass middle=d
+z2d'2d2 | z2d2g2 | z2d'2g2 | d6 |
+z2d'2d2 | z2d2g2 | z2d'2d2 | g2d2G2 :||: d4z2 |
+d4z2 | ^c4d2 | A4z2 | d2B2z2 | ^c2A2z2 |
+d2a2A2 | d6 | d6 | d6 | d4g2 |
+d4z2 | B2d2e2 | f2d2f2 | g2d2D2 | HG2B2d2 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%sep 1 1 400

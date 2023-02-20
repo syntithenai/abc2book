@@ -1,0 +1,16 @@
+X: 49
+T: the Mourne Shore   #2
+T: Down by the Sally Gardens
+R: air
+%S: s:2 b:9(5+4)
+B: "O'Neill's 1850 #49"
+O: J.O'Neill
+Q: "Moderate"
+Z: Norbert Paap, norbertp@bdu.uva.nl
+N: Compacted by using labels and play order [JC]
+P: Play A1A2 BA2
+M: C
+L: 1/4
+K: F
+"^A"|: F/G/ | AG/F/ (G/{AG}F/)G/A/ | c2 df/c/ | dc/A/ [1 G>F | D2 C :|[2 (.G.F) | "^fine"F3 |]
+"^B"[| c | fe/c/ d>f | e>c AA/c/ | dc/A/ c/d/f/g/ | "->A2"f3 |]

@@ -1,0 +1,19 @@
+X:1
+T:Berg Rosa
+R:Waltz
+C:Syen Nyhus
+M:3/4
+%%printtempo 0
+Q:180
+K:Gm
+L:1/4
+D2^F||:"Gm"G>A G/^F/|GAB|"D"d2c|"Gm"B2d|"Eb"g>gg|
+"Bb"fBc|"D"d>dd |"D"dcA|"Gm"G>A G/^F/|GAB|"D"d2c|
+"Gm"B2d|"Cm"b>ag|"D"^fdf|"Gm"g>gg|1g>^FD:|2 "Gm"g2d||
+|:"Gm"bag|g2d|gdc|B>AG|DdB|"C"A2G|
+"F"FBc|"Bb"d2d|"Gm"b>bb|"A"a2=e|"D"^f>=ef|"Gm"g2d|
+"Cm"gBc|"D"dA^F|"Gm"G>GG|1G2d:|2"Gm"G2D||
+K:G
+|:"G"d>dd|BG/B/ d/g/|b2a|g2d|"C"e2e|"C"gec|
+"G"B>c B/A/|G2d|"D"D f/f/f|fed|"G"g>gg |
+b2d|gd/B/ G/B/|"D"AdF|"G"G>GG|1"G"G2D:|2"G"G|]

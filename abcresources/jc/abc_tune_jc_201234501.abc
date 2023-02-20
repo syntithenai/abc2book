@@ -1,0 +1,33 @@
+X: 20561
+T: Allegro
+C: Gaetano Brandi
+B: "Man of Feeling", Gaetano Brandi, ed. v.2 p.56-57
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: Fixed the ^D2 in V:2, bar 18, which should obviously be a ^C2 as in bar 21. (Probably a lost leger line.) 
+M: 2/4
+L: 1/16
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 rearranged as 4/8-bar lines for readability.
+V: 1
+|:\
+(ab)(ga) (fg)(ef) |d2A2F2A2 | d2d2 {f/}(e2de) | .f2(fg) .e4 |\
+(ab)(ga) (fg)(ef) | d2A2F2A2 | d2d2 .e2(ef) | d4 z4 :|
+|:\
+(efge) (cABc) | .d2.f2 .a4 | (efge) (cABc) | .d2.f2 .a4 |\
+(d'c'ba) (bagf) | (e2e2f2g2) | a2zf {f/}(edef) | d4 "_Fine"z4 :|
+|:[K:Dm]\
+d6 f2 | e6 a2 | f6 d2 | ^c2e2 A4 |\
+d6 f2 | e6 a2 | f2d2e2^c2 | "_Da Capo al Fine"d4 z4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2
+|:\
+f2e2d2c2 | d2A2F2A2 | F2F2 {d/}c2Bc |
+.d2(de) .c4 | f2e2d2c2 | d2A2F2A2 | F2F2 .G2(GA) |
+F4 z4 :||: c4 G4 | .F2.d2 .f4 | c4 G4 |
+.F2.d2 .f4 | (bagf) (gfed) | (c2c2d2e2) | f2zA {B/}GFGA |
+F4 z4 :||:[K:Dm] D2A2F2A2 | ^C2A2E2A2 | D2A2F2A2 | E2A2 A4 |\
+D2A2F2A2 | ^C2A2E2A2 | D2A2F2A2 | F4 z4 :|
+%%center -

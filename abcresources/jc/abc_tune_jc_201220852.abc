@@ -1,0 +1,34 @@
+X: 04078
+T: RALPH PAGE
+C: Bob McQuillen 26 March 79
+B: Bob's Note Book 04 #78
+%R: polka, reel
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: Lines reformatted to 8 bars each, to make it easier to fit on a printed page.
+M: C
+L: 1/8
+K: A
+%%continuea 0	% or 1 to reformat for any size.
+[|\
+efef e2d2 | c2 A6 | efef e2d2 | c8 |\
+dede d2c2 | B2 E6 | efef e2d2 | c8 |
+efef e2d2 | c2 A6 | c2cc d2e2 | f8 |\
+f2ff e2d2 | c2cd e2cd | e2d2 c2B2 | A4 |]
+[|\
+c2cd c2B2 | A2 E6 | A2Bc B2A2 | G8 |\
+B2Bc B2A2 | G2 E6 | e2ef e2d2 | c8 |
+c2cd c2B2 | A2 E6 | c2cc d2e2 | f8 |\
+a2aa g2f2 | f2e2 c2cd | e2dc B2e2 | A8 |]
+[|\
+c4 A3B | c2A2 E2A2 | c4 A3c | B8 |\
+B4 G3A | B2G2 E4 | efef e2d2 | c8 |
+c4 A3B | c2A2 E2A2 | c4 d3e | f8 |\
+f4 g3f | f2e2 c3d | efed c2B2 | A8 |]
+[|\
+E2AA c2e2 | e2ce f2e2 | E2AA c2e2 | dedc B4 |\
+E2GG G2B2 | dede d2B2 | EFGA Bcde | f2e2 e4 |
+E2AA c2e2 | e2ce f2e2 | a2ga b2a2 | a2f2 f4 |\
+a4 a3f | f2e2 c3d | edcB A2G2 | A8 |]
+%%begintext align
+%% For a dear friend of many years.
+%%endtext

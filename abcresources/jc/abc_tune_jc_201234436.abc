@@ -1,0 +1,39 @@
+X: 20511
+T: SCOTCH HORNPIPE
+C:
+%R: hornpipe, reel
+B: Elias Howe "The Musician's Companion" 1843 p.51 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 1st strain has only 7 bars (plus an extra 16th rest).
+N: The 2nd strain has several 3-beat measures.
+N: Omitted extra c note in V:3's penultimate bar.
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+(3(cde) |\
+fa c2 (dc)df | fa c2 (dc)df | fefg afba | gfed cdec |\
+fa c2 (dc)df | fa c2 (dc)df | gfeg f2 z :|
+|:\
+c6 d2 cBAG | FGAB c2f2 | c6 d2 cBAG | FGAF C2C2 |\
+c6 d2 cBAG | FGAB c2f2 | g2gg efge | f2a2f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+z2 |\
+Ac A2 (BA)Bd | Ac c2 (BA)Bd | AGAB cAdc | edcB ABcA |\
+Ac A2 (BA)Bd | Ac A2 BABd | BAGB A2 z :|
+|:\
+A6 B2 AGFE | CEFG A2c2 | A6 B2 AGFE | CEFC E2E2 |\
+A6 B2 AGFE | CEFG A2c2 | e2(ed) cdec | A2c2A2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z2 |\
+f4 f2f2 | f4 f2f2 | f2f2 f2f2 | c2c2 c2c2 |\
+f4 f2f2 | f4 f2f2 | c2c2 f2 z :|
+|:\
+f6 g2 f2f2 | f2f2 f2f2 | f6 g2 f2f2 | f2f2 c2c2 |\
+f6 g2 f2f2 | f2f2 f2f2 | c2c2 c2c2 | f2f2f2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% %sep 1 1 300

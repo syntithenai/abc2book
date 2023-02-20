@@ -1,0 +1,30 @@
+X: 1
+T:Glendaruel Highlanders
+M:6/8
+L:1/8
+Q:80
+C:
+S:6/8 March
+K:HP
+|: e|
+{g}A2{GdGe}A{g}A3/2B/2{GdG}c|
+{g}e2{GdG}e{fg}f2e|
+{gcd}c3/2B/2{G}A{g}f/2a3/2f|  !
+{g}fe2{A}e3/2{g}f/2a{g}A2{GdGe}A{g}A3/2B/2{GdG}c|
+{g}e2{GdG}e{fg}f2e|
+{g}f/2a3/2c{gef}edB|  !
+{gBd}B2{e}A{GAG}A2:| |:
+{g}e3/2d/2|
+{gcd}c2{e}A{g}c/2e3/2{g}B|  !
+{gcd}c2{e}A{g}A3/2{d}c/2e|
+{gfg}f2{g}A{g}f/2a3/2f|1
+{g}fe2{A}e3/2{g}f/2a|1 {cd}c2{e}A{g}c/2e3/2{g}B|  !
+{gcd}c2{e}A{g}A3/2{d}c/2e|
+{gfg}f3/2e/2{g}c{gef}e3/2d/2B|
+{gBd}B2{e}A{GAG}A:|2  !
+{g}fe2{A}e3/2{g}f/2g|
+a3/2c/2{G}c{g}c3/2f/2{g}e|
+{g}f3/2B/2{G}B{g}B3/2d/2{g}e|  !
+{g}f/2a3/2c{gef}e3/2d/2B|
+{gBd}B2{e}A{GAG}A2|]
+

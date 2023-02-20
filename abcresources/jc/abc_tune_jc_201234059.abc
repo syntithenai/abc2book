@@ -1,0 +1,30 @@
+X: 20231
+T: CALLER HERRING
+Q: "Slow"
+%R: _
+B: "Edinburgh Repository of Music" v.2 p.32
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: The 3rd strain has initial repeat but no final repeat; not fixed.
+M: C
+L: 1/8
+K: D
+A |\
+d2 d>d {d}c2 d>e | fB e>d c>ABc |\
+d2 d>d {d}c2 d>e | f>g Te>d d3 :|\
+|: d' |\
+.c'.b.a.g .f.e.d.d' | .c'.b.a.g .f.e.d.d' |\
+.c'.b.a.g .f.f.g.a |
+bBe>d cABc |\
+d2 d>d {d}c2 d>e | fB e>d c>ABc |\
+d2 d>d {d}c2 d>e | f>g e>d d3 :|\
+|: a |\
+d'2 d'>d' {d'}c'2 d'>c' | bagf efg^g |
+a2 a>a {a}^g2 a>b | c'>d'bT^g  a3 f |\
+g2 g>g {g}f2 g>a | bB e>d cABc |\
+d2 d>d {d}c2 d (b/g/) | f2 Te2 {de}d3 a |\
+d'2 d'>d' {d'}c'2 d'>c' |
+.b.a.g.f efg^g |\
+a2 a>a {a}^g2 a>b | c'>d'bT^g a3 f |\
+g2 g>g {g}f2 g>a | bB e>d cABc |\
+d2 d>d {d}c2 d (b/g/) | f2 Te2 {de}d3 |]

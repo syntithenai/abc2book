@@ -1,0 +1,19 @@
+X: 608
+T: the Rising Sun
+R: reel
+%S: s:6 b:24(4+4+4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #608
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0608/oneill-1001-0608-1.abc
+M: C
+L: 1/8
+K: D
+"^A"\
+[|] (fe) | d2FB A2FA | (3(Bcd) e(g fdB)c | d2FB (AG)F(D | (3EFG) FE D ||
+|| (gfe) | d2FB A2FA | (3(Bcd) e(g fdB)c | d(cdB) AGF(D | (3EFG) FED2 |]
+"^B"\
+[|    (Ac) | d(efg) afe(d | (3cBA) eA fAec | d(efg) afe(d | (3cBA) Bc d2 ||
+|| (3(ABc) | d(efg) afe(d | (3cBA) eA fAec | dfff dggg | f(gfe) d2 |]
+"^C"\
+[| (3(efg) | (afb)(f af)df | gfed cd (3(efg) | (afb)(f af)df | ab(ag fd) ||
+|| (3(efg) | (af)b(g a)fdf | gfe(d fd)Bc | d2FG A2d(e | fa)ef d2 |]

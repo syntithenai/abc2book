@@ -1,0 +1,15 @@
+X:520
+T:A New Beginning
+C:Handel: Water Music
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=120
+M:3/4
+L:1/8
+K:Am
+P:A
+|: "Am"AB c2 B2 | "Am"A2 "Dm"f2 "Am"e2 | "E7"d2 c2 B2 | "Am"A^G AB cd |\
+"C"e2 "F"a2 "C/E"g2 | "Dm"f2 "C"e2 "G/B"d2 | "C"g2 c2 "G"B2 | "C"c6 :|
+P:B
+"C"ed c2 g2 | "/"g6 | "G/B"dc B2 g2 | "/"g6 | "Am"cB A2 g2 | "G"g6 | "C"g2 fe "F"dc | "G"Bc d2 G2 |
+"C"ed c2 c'2 | "C/B"c'6 | "Am"ed c2 c'2 | "C/G"c'6 | "F"f2 e2 d2 | "C"g2 fe dc | "G"d2 G2 B2 | "C"c4 |]

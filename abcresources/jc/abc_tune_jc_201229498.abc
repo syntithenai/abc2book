@@ -1,0 +1,22 @@
+X: 1242
+T: Greigs_Pipes.   a Reel.
+%R: reel, strathspey
+N: The tune is dotted like a strathspey.
+B: Niel Gow & Sons "Complete Repository" v.1 p.24 #2
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+(f | e)>ATc>A e>AA>f | e>ATc>A B>FTF>f | e>ATc>A e>ATc>A | B/B/B Tc>A BFF :: B | Tc>ATc>A c>AA>B |
+Tc>ATc>A B<FF>B | Tc>ATc>A  E>Ac>A | B/B/B Tc>A BFF :: !f!A | TE>A,C>A, TE>A,A,>A | TE>A,C>A, F>B,B,>A | TE>A,C>A, TE>A,C>A, |
+B,/B,/B, C>E FB,B, :: G | (A/G/F/G/) TA>E C>A,A,>G | (A/G/F/G/) A>E F>B,B,>G | (A/G/F/G/) TA>E C>ETE>C | B,/B,/B, (C>E) FB,B, :|
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | a2a2 a2a2 | a2a2 b2b2 | a2a2 a2a2 | g2a2 f2f :: z | a2a2 a2a2 |
+a2a2 b2b2 | a2a2 a2a2 | g2a2 f2f :: z | [A2A,2]A2 A2A2 | A2A2 B2B2 | A2A2 A2A2 |
+d2c2 B2B :: z | A2A2 A2A2 | A2A2 B2B2 | A2A2 A2A2 | d2c2 B2B :|
+%%text The 3rd strain has dashes under all the notes, to imply using the lower octave throughout.

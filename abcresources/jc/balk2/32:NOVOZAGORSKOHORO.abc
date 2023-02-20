@@ -1,0 +1,23 @@
+X: 332
+T: Novozagorsko Horo
+O: Bulgaria
+S: Horas and Ruchenitsas
+http://www.youtube.com/watch?v=cs1Ie8QWgG0
+http://www.youtube.com/watch?v=oHm2F1N9Td0
+M: 2/4
+L: 1/8
+Q: 1/4=150
+K: BPhr
+%%MIDI program 110
+|:(3Bff (3:2:1f3   |(3e^dc (3:2:1B3|(3:2:2^d2e (3:2:1f3   |(3age (3:2:1f3   |\
+  (3Bff (3:2:1f3   |(3e^dc (3:2:1B3|(3:2:2A2B (3:2:1B3 |(3e^dc (3:2:1B3 :|
+|:(3ABB (3:2:1B3|(3e^dc (3:2:1e3 |(3^def (3:2:1g3   |(3fe^d (3:2:1f3  |\
+  (3fg^g (3:2:2a2g  |(3:2:1a3 (3gfe  |(3^def (3e^dc |(3:2:1B3 (3:2:1B3  :|
+|:(3fg^g (3:2:2a2g  |(3:2:1a3 (3gfe  |(3ac'b (3agf   |(3gfe (3:2:1f3   |\
+  (3fg^g (3:2:2a2g  |(3:2:1a3 (3gfe  |(3^def (3e^dc |(3:2:1B3 (3:2:1B3  :|
+|:(3ABB (3:2:1B3|(3:2:2cc2 (3:2:1c3  |(3BAB (3:2:1B3|(3:2:1B3 (3:2:1B3  |\
+  (3ABB (3:2:1B3|(3:2:2cc2 (3:2:1c3  |(3BAB (3:2:1B3|(3:2:1B3 (3:2:1B3  :|
+|:(3:2:1A3 (3:2:1a3    |(3agf (3:2:1e3  |(3:2:1e3 (3:2:1f3     |(3e^dc (3:2:1A3 |\
+  (3:2:1e3 (3fga    |(3:2:1g3 (3:2:1f3   |(3:2:1e3 (3fe^d   |(3:2:1^c3 (3:2:1A3  :|
+|:(3:2:1e3 (3fga    |(3:2:1g3 (3:2:1f3   |(3:2:1e3 (3fe^d   |(3:2:1^c3 (3:2:1A3  |\
+  (3:2:1e3 (3fga    |(3:2:1g3 (3:2:1f3   |(3:2:1e3 (3fe^d   |(3:2:1^c3 (3:2:1A3  :|

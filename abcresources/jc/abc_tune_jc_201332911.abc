@@ -1,0 +1,59 @@
+X:1
+T:STB / Rowan Tree / Bonnie Galloway
+M:C
+L:1/8
+Q:80
+S:MARCH
+K:HP
+[| e | \
+{g}A2{GdGe}A3/2B/2{gcd}c{e}A{gcd}ce|{ag}a2{g}a2{GdG}ae{gcd}c{e}A | \
+{Gdc}d2{g}f3/2d/2{gcd}ce{gcd}c{e}A|  !{gBd}B2{gef}e2{A}e3/2f/2{g}e3/4d/4
+{g}c3/4B/4 | \
+{g}A2{GdGe}A3/2B/2{gcd}c{e}A{gcd}ce|{ag}a2{g}a2{GdG}ae{gcd}c{e}A |
+{Gdc}d2{g}f3/2d/2{gcd}ce{gcd}c{e}A|{gBd}B2{g}A3/2B/2{G}A2{gcd}ce|] [ | \
+{ag}a2{g}a2{GdG}ae{gcd}c{e}A|  !{ag}a2{g}a2{GdG}ae{gcd}ce | \
+{ag}a2{g}a3/2g/2{a}f2{ag}a3/2g/2|{gfg}fa{f}gf{gef}ed{gcd}cB |
+{g}A2{GdGe}A3/2B/2{gcd}c{e}A{gcd}ce|{ag}a2{g}a2{GdG}ae{gcd}c{e}A | \
+{Gdc}d2{g}f3/2d/2{gcd}ce{gcd}c{e}A|  !{gBd}B2{g}A3/2B/2{G}A3|]
+{g}A3/2B/2|{g}c3{GdG}c{gcd}c2B2 | \
+{g}c/2e3/2{A}e2a2|  !{fg}f3e{g}f2a2 | \
+{fg}f3e{A}e2{g}A3/2B/2|{g}c3{GdG}c{gcd}c2B2 |
+{g}c/2e3/2{g}f3e|{g}e/2c3/2{g}B3{d}c | \
+A2{GAG}A2|  !e|{A}e2a2{g}a3g|{f}g2f2{e}f2a2|{ef}e3f{e}fe{Gdc}dc |
+{g}c3/2d/2c/2{g}B{g}A3/2B/2 | \
+{g}c3{GdG}c{gcd}c2B2 | \
+{g}c/2e3/2{g}f3e |
+{g}e/2c3/2{g}B3{d}c | \
+{g}A2{GAG}A2 | \
+[| {g}f3c{gef}e2d2 | \
+{g}Bd3{e}A4 | \
+{g}A3B{Gdc}d2f2 |
+{g}e3f{gef}e4 | \
+{g}f3c{gef}e2d2 | \
+{g}Bd3{e}A4 |
+{g}A3B{Gdc}d2f2 | \
+{g}e3d{gdc}d4|] [ | \
+a3{g}a{fg}f2{Gdc}d2 |
+{ag}a2d2{gfg}f4 | \
+a3{g}a{fg}f2{Gdc}d2 | \
+{gcd}c{e}B{g}cd{gef}e2{AGAG}A2 |
+{g}f3c{gef}e2d2 | \
+{g}Bd3{e}A4 | \
+{g}A3B{Gdc}d2f2 |
+{g}e3d{gdc}d4|]
+[| {g}f3c{gef}e2d2 | \
+{g}Bd3{e}A4 | \
+{g}A3B{Gdc}d2f2 |
+{g}e3f{gef}e4 | \
+{g}f3c{gef}e2d2 | \
+{g}Bd3{e}A4 |
+{g}A3B{Gdc}d2f2 | \
+{g}e3d{gdc}d4|] [ | \
+a3{g}a{fg}f2{Gdc}d2 |
+{ag}a2d2{gfg}f4 | \
+a3{g}a{fg}f2{Gdc}d2 | \
+{gcd}c{e}B{g}cd{gef}e2{AGAG}A2 |
+{g}f3c{gef}e2d2 | \
+{g}Bd3{e}A4 | \
+{g}A3B{Gdc}d2f2 |
+{g}e3d{gdc}d4|]

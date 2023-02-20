@@ -1,0 +1,2776 @@
+
+X: 0
+T: John Pringle's Collection of Reels Strathspey & Jigs
+B: John Pringle "Collection of Reels Strathspey & Jigs", 1801
+F: http://imslp.org/wiki/A_Collection_of_Reels,_Strathspeys_and_Jigs_(Pringle,_John) [2009-02-25]
+N: Index numbers consist of the page number and a 1-digit tune-on-page.
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+K:
+% %center Collection
+%%center of
+%%center Reels Strathspeys & Jigs
+%%center --- with a ---
+%%center Bass for the Violoncello or
+%%center Piano Forte
+%%center Dedicated by Permission
+%%center to the Honorable
+%%center Miss Elliot
+%%center By
+%%center John Pringle
+
+%%sep 2 1 500
+
+X: 011
+T: Honble Miss Elliot's Strathspey
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.1#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/16
+K: F
+V: 1
+C2 |\
+F3GA2B2 c2A2 {A2}~F4 | ~G3A (BA).G.F E2C2C2E2 |\
+~F3G A2Bc D3E (Fd).c.B | (AcdB) GdcB A2F2F2 :|
+c2 |\
+~fefg a2c2 ~B2d2 g3f | efgc BAGF E2C2 C2c2 |\
+~fefa c2A2 ~d3(e/f/) {e}c2A2 | ~B2cd ~G2cB A2F2 F2c2 |
+~fefg a2c2 ~B2d2 g3f | efcA {^c}dBGF E2C2 C2=cB |\
+A3c f2B2 ~G2AB Hc2B2 | AfcB GdcB | A2F2 F2 |]
+%
+V: 2 clef=bass middle=d
+z2 | f4F4 A4F4 | G6=B2 c2G2C2z2 | f4F4 B4b4 | f2b2c'2c2 f2c2F2 :|
+z2 | f4 [a4f4] [b4f4] =b4 | c'4 b2=b2 c'2g2 c2z2 | f4F4 B4A4 | B4c4 f2c2 F2z2 |
+f2F2 f2_e2 [d4B4] B4 | F2A2 B2=B2 c2C2 c_BAG | F4B4 c4H[a2f2]z2 | f2b2 c'2c2 f2c2 F2 |]
+
+%%sep 2 1 500
+
+X: 012
+T: Tiviot Banks
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.1#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: F
+V: 1
+|:\
+F>GF FAc | F>GF FAc | D>ED DEF | GBA GFE |\
+F>GF FAc | ~ded def | cAd cEG | FGF F3 :|
+|: ABc dBd | cdc cAF | BGF EcB | Adf ecA |\
+~def .e(Ad) | .c(GB) .A(FA) | GEG AFE | FDD D3 :|
+V: 2 clef=bass middle=d
+|:\
+[f3F3] [f3F3] | [f3F3] [f3F3] | [b3B3] [b3B3] | g3 c3 |\
+[f3F3] [f3F3] | [b3B3] [b3B3] | c'3 c3 | f3 F3 :|
+|:\
+[f3F3] [b3B3] | [a3A3] [f3F3] | [c3C3] [c3C3] | [d3D3] [a3A3] |\
+[b3B3] [a3A3] | [g3G3] [f3F3] | c3 A3 | d3 D3 :|
+
+%%sep 2 1 500
+
+X: 013
+T: Honble Miss H Elliot's Reel
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.1#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: F
+V: 1
+B !Segno!|:\
+ABcA Bddf | efge faac' | ABcA Bcdf | ecde f/f/f f2 :|
+fcAF dBGE | cBAf egce | fcAF dBbg | afeg f/f/ffa |
+(ba).g.e egce | (ag).f.e dfBd | gfed cfAc | BdGc AFFB !Segno!y|]
+V: 2 clef=bass middle=d
+
+%%sep 2 1 500
+
+X: 021
+T: Lady Minto's Favourite
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.2#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: jig
+Q: "Slow"
+M: 6/8
+L: 1/8
+K: A
+V: 1
+|:\
+A3 (AG).F | (FE).E ~E3 | A3 (AG).A | cBB (B/e/)(d/c/)d/B/ |\
+(Ac).B AGF | (FE)~.E ECA, | .D.F.A ECA, | {C}B,.A,.B, A,3 :|
+|:\
+A3 (ec).A | {G}~F3 dBG | Ace FGA | (Bc).A (A/G/).F/.E/.D/.C/ |\
+~f3 ecA | ~d3 cAF | ~B>cd EFG | [AC][AC][AC] [A3C3] :|
+%
+V: 2 clef=bass middle=d
+|:\
+Ace fdc | dcc cAc | zAB cBA | Eee e2z | ced cBA | dcc c3 | d2f a2c | e2E A3 :|
+|:\
+Ace A3 | dfa e3 | a3 d2b | d2^d e2z | dfd a3 | bg^e f3 | d3 e2E | Ace a3 :|
+
+%%sep 2 1 500
+
+X: 022
+T: The Miller of Drone - a Strathspey
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.2#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: strathspey
+M: C
+L: 1/8
+K: A
+V: 1
+c/B/ |\
+A<FF>A E>FEC | A,<A,A,>c {c}B2 Bc/B/ | A<FF>A ~E>FEC | DFEG A2 Ac/B/ |
+A<FF>A E>FEC | A,<A,d>c {c}B2 ~Bc/d/ | e>Bc>G A>EF>C | E<E ~EF/G/ A2A ||
+c/d/ |\
+ecca ee (f/e/).d/.c/ | ecca Tf2 fg/a/ | ecca ee (f/e/).d/.c/ | d>Bc>A {G}F2 ~Fc/d/ |
+ecca ee (f/e/).d/.c/ | ecca Tf2 f>g | (3agf (3efg (3aed (3cBA | {c}d>Bc>A {G}~F2 F |]
+V: 2 clef=bass middle=d
+z | A2d2 A2A2 | A2c2  e2E2 | A2d2 c2A2 | d2e2 A2az |
+    A2d2 c2A2 | A2d^d e2Ez | a2e2 c2d2 | e2E2 A2a ||
+z | A2a2 c2a2 | A2a2  d2D2 | A2a2 A2c2 | GABc d2D2 |
+    A2a2 A2a2 | A2c2  dDdc | A3 e a2A2 | GABc d2D |]
+
+%%sep 2 1 500
+
+X: 023
+T: Miss Elizabeth Dewar's Reel
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.2#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: A
+V: 1
+c |\
+e2cA (B/c/d) BG | ABcd eagf | e2cA e2Be | (A/B/c) BG A3 :| c | BGEc dcdf | eaec fdBe |
+dcfe agfb | gef^d e2ec | dbdB caAc | BgAf GeFB | (c/d/e) cA (d/e/f) dB | (A/B/c) BG A3 :|
+V: 2 clef=bass middle=d
+z |\
+a2A2 e2E2 | A2a2 A2z2 | a2A2 B2e2 | f2e2 A3 :| z | e2E2 d2B2 | A2a2 d2g2 |
+b2a2 f2^a2 | b2B2 e2z2 | b2b2 a2a2 | g2a2 e2d2 | A2a2 b2g2 | f2e2 A3 |]
+
+%%sep 2 1 500
+
+X: 031
+T: Miss Jessy Dewar's Favourite
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.3#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slow"
+R: jig, air
+M: 6/8
+L: 1/8
+K: G
+V: 1
+|: {DE}~F>ED {D}CB,A, | GAB ~A3 | dAF T(B/A/)(B/c/).d | A/d/c/B/A/G/ ~F3 | .F.G.A .B.c.d |
+fdc TB>cd | dAF (B/d/)c/B/A | AdF D3 :: (CDE) G/F/~E/D/A | (d/c/)d/f/B/d/ c/B/A/G/F |
+A/f/d/c/B/A/ ^G/e/d/c/B/A/ | ~B/A/B/d/c/e/ AGF | d/c/B/A/G/F/ BEG | F~A,C D3 :|
+V: 2 clef=bass middle=d
+|: def g3 | b2g fad' | f2d g3 | a2A dfa | def gab |
+d'2f g3 | f2d g2z | a2A d3 :: A3 d3 | f2^g ac'd' |
+d2^d e2f | g2a d3 | f2d g2e | a2A d3 :|
+
+%%sep 2 1 500
+
+X: 032
+T: Miss Hope's Strathspey
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.3#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: D
+V: 1
+A, | [DA,]<[DA,] ~F2 {F}E>~DB,>F | G<G~G>A TB>AF<d | A<F~F>D GBFD | E<B,~B,C D3 :|
+A  | d>dAd FdDd | d>dfd {c}~B2Bc | f<dcA BdAF | G>BAc (3dAG (3FED |
+     d>dAd FdDd | d>dfd {c}~B2Bc | d>fcA BdAF | E<B,B,C D3 |]
+V: 2 clef=bass middle=d
+z | d2D2 A2G2 | G2G2 g2d2 | D2d2 e2d2 | g2a2 d2D :|
+z | D2d2 D2d2 | D2d2 g2G2 | d2a2 g2f2 | g2a2 d2z2 |
+    D2d2 D2d2 | D2d2 g2G2 | d2a2 g2f2 | g2a2 d2D |]
+
+%%sep 2 1 500
+
+X: 033
+T: Miss Jessy Scott's Reel
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.3#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: D
+V: 1
+g | fdec ~d2A=c | BGAF GEEg | fdec ~d2Ac | dfeg fdd :|
+g | fede fgaf | gbaf beeg | fede fgaf | gbag fddg |
+    fede fgaf | gbaf beeg | fdAd FdDg | (f/g/a) eg fdd |]
+V: 2 clef=bass middle=d
+z | d2A2 d2f2 | g2f2 a2A2 | d2c2 d2f2 | a2A2 d2D :|
+z | d2d2 d2f2 | g2f2 a2A2 | d2D2 d2f2 | g2a2 d2D2 |
+    d2D2 d2f2 | g2f2 a2A2 | d2f2 a2f2 | a2A2 d2D |]
+
+%%sep 2 1 500
+
+X: 041
+T: Miss Jane Tytler's Favourite
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.4#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slow"
+R: jig, air
+M: 6/8
+L: 1/8
+K: G
+V: 1
+B/c/ |\
+dBG ~EFG | DB,G, G,2B/c/ |\
+dBG ~c>de | e/d/c/B/A/G/ F/A/D/A/B/c/ |\
+dBg eca | gbd' He'2e/f/ |
+g/b/B/^d/e/B/ c/e/A/B/c/A/ | B/d/c/A/D/F/ G2 :|\
+B/c/ |\
+dBG e>cA | GFE ~c3 | {c}BAG FGA |
+G/B/A/G/F/E/ D3 | ECA FDd | BGg/f/ He3 |\
+B/g/f/e/d/c/ B/e/d/c/B/A/ | A/c/B/e/d/F/ G2 |]
+V: 2 clef=bass middle=d
+z | g3 c3 | G6 | g2=f ed^c | d3 d>cB/A/ | G3 c2c' | b2g Hc'2z |
+G^G2 AF2 | G/B/e/c/d/D/ G2 :| z | B3 c2^c d^de fa=d | g2b d'2d |
+gzz B/d/c/B/A/G/ | c2^c d2f | g2b Hc'3 | bz c' d'z d | f/a/g/c/d/D/ G2 |]
+
+%%sep 2 1 500
+
+X: 042
+T: Miss Lowis's Reel
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.4#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: G
+V: 1
+D | B,G,G,B cABG | EAAG FDDC | B,G,G,G FGAc | BGFA G2G :|
+c | BGdB eAAc | BGEA FDDc | BGdB ceAc | (E/F/G) AF ~G2GB |
+    cEAG FADF | GBAc BdGB | ecAd BGFA | (E/F/G) AF G2G |]
+V: 2 clef=bass middle=d
+z | G2G2  A2G2 | c2^c2 d2D2 | G2G2 d2d2 | g2d2 G2g :|
+z | g2b2  a2f2 | g2^c2 d2D2 | g2b2 a2d2 | c2d2 G2G2 |
+    c2^c2 d2f2 | g2a2  g2G2 | c2d2 G2d2 | c2d2 G2G |]
+
+%%sep 2 1 500
+
+X: 043
+T: Miss Jane Campbell's Strathspey
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.4#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: G
+V: 1
+|: D<GG<g | B<G~B2 | D<GG<g {c}BGBg | D<GG<g B<GTB2 | c>AB>G {B}A>GE<A :|
+|: g<gg>b {b}ag/f/ Tg2 | e>fg>a bgab | e>fge d<B~cd | e<gd>B (c/B/).A/.G/ E<A :|
+V: 2 clef=bass middle=d
+|: [g2G2][g2G2] [g2G2][g2G2] | [g2G2][g2G2] [g2G2][g2G2] |\
+   [g2G2][g2G2] [g2G2][g2G2] | [a2A2][g2G2] [d2D2][c2C2] :|
+|: [g2G2][g2G2] [g2G2][g2G2] | [e2E2][e2E2] [^d2B2][e2E2] |\
+   [c'2c2][c'2c2] [g2G2][g2G2] | [c2C2][g2G2] [d2D2][c2C2] :|
+
+%%sep 2 1 500
+
+X: 051
+T: Miss Walker's Strathspey
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.5#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: Bb
+V: 1
+F \
+|: !Segno!B>dfd e/d/c/B/ AF | B>dfd b>g {e}dc/B/ | e<gc>B A/B/c/B/ AF | c<eG<c AF B2 :|
+|: F>EDB Cc (B/A/G/F/) | GEce A<cF<B | e<gd<f | c<e {B}AG/F/ | G<E (c/d/e) AF !Segno!B2 :|
+V: 2 clef=bass middle=d
+z \
+|: !Segno!B2b2 B2f2 | B2b2 B2b2 | c2e=e f2F2 | e2E2 F2B2 :|
+|: B2b2 a2f2 | e2a2 f2F2 | e2B2  A2f2 | e2f2 F2!Segno!B2 :|
+
+%%sep 2 1 500
+
+X: 052
+T: Miss Maclachlan's Reel
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.5#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: Bb
+V: 1
+B | B2(FE) DEFD | ECec dBGc | BFDB GEAc | (E/F/G) FA B2B :|
+f | dBdf ecdB | (A/B/c) dB GcAF | dBdf bfdf | ecdB AFB2 |
+    fdge dfdB | ceAc BdFB | GBeg fabf | ecdB AcB |]
+V: 2 clef=bass middle=d
+z | b2f2 B2d2 | c2e2 d2G2 | B2B2 e2f2 | e2f2 B2b :|
+z | b2b2 c'2b2 | f2b2 e2f2 | b2B2 d2B2 | c2d2 f2B2 |
+    B2e2 B2B2 | e2f2 B2d2 | e2E2 F2B2 | e2b2 f2B |]
+
+%%sep 2 1 500
+
+X: 053
+T: Miss Scott of Sinton's Strathspey
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.5#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: D
+V: 1
+B !Segno!|:\
+A<F~F>A ~B>cd>B | A<F~F>E ~E>FGB | A<F~F>A ~B>cd>B | A<Fd>F E>FG<B :|
+A<d~d>f (f/e/d/c/) {c}~d2 | A<dd>f {f}Te>def | A<dd>f (f/e/d/c/) {c}dA | B<dA>F E>FGA |
+A<d~d>f (f/e/d/c/) {AB}d2 | A<dd>f {f}e>def | d<fe>c {c}d>BA<F | G>BAF E>FGB !Segno!y |]
+V: 2 clef=bass middle=d
+z !Segno!|:\
+d2d2 g2G2 | d2d2 [e2A2][e2A2] | d2d2 g2g2 | f2d2 [e2A2][e2A2] :|
+D2d2 A2D2 | d2d2 A2A2 | d2d2 A2d2 | g2f2 [e2A2][e2A2] |
+d2f2 a2f2 | d2d2 A2A2 | d2a2 g2f2 | a2f2 [e2A2][e2A2] !Segno!y |]
+
+%%sep 2 1 500
+
+X: 061
+T: Mrs David Maxwell's Favourite
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.6#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: jig, air
+M: 6/8
+L: 1/8
+K: A
+V: 1
+E |\
+A2c e2c | f2d B2d | c2F {F}d2c | cBA AGE |\
+A2c e2a | g2d c2f | {f}e2B B2~c | A3 A2 :|
+|: A |\
+A2F d2B | G2E e2d | c2f ~B2A | G2A B2e |\
+a3 g2f | {f}e2d c2e | f2B ~B2c | A3 A2 :|
+V: 2 clef=bass middle=d
+z |\
+A3 c3 | d3 e3 | a3 (d2^d) | e3- e(ed) |\
+cBA a2c | B2g a2^d | e3 E3 | Ace a2 :|
+|: z |\
+zfd Bc^d | e2(g/f/) efg | a3 d2^d | (eef gfe) |\
+(c'ba) ee'd' | (c'cB ABc) | d2^d e2E | Ace a2 :|
+
+%%sep 2 1 500
+
+X: 062
+T: Miss Duff's Strathspey
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.6#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: C
+V: 1
+G |\
+E>FGc AFDd | ecgc (B/c/d/c/) BG | EGcB Ad (f/e/d/c/) | Bg GA/B/ cdc :|
+e/f/ |\
+g<e {fg}a>f ge cd/e/ | fdec (B/c/d/B/) Ge/f/ | g<efa g<ece | fd (c/B/d/B/) c2ce |
+fdBg ecAf | dfBd ceGc | Ad {f}ed/c/ Bd {g}fe/d/ | eg (f/d/c/B/) | cdc |]
+V: 2 clef=bass middle=d
+z |\
+c2c2 c2B2 | c2c2 g2G2 | c3B A2f^f | g2G2 c2C :|
+z |\
+c'2c'2 c'2c2 | g2c2 G2g2 | c2f2 e2c2 | g2G2 c2Cz |
+g2G2 c2f2 | g2G2 c2c2 | f2c2 G2B2 | c2G2 C2c |]
+
+%%sep 2 1 500
+
+X: 063
+T: Miss Adams's Reel
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.6#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: C
+V: 1
+G |\
+Tc2ec ~B>cdf | ecAc ~dcBG | ~c2ec TBcdf | ecGB c/c/c c :|
+e |\
+geaf fdgf | ecAc ~d>cB<G | geaf fdgf | ecGB c/c/c ce |
+geaf fdgf | ecAc ~dcBG | EGcE FAdf | ecGB c/c/c c |]
+V: 2 clef=bass middle=d
+z |\
+c2c2 g2G2 | c2c2 G2G2 | c2c2 G2B2 | c2G2 c2C :|
+z |\
+c2c2 g2b2 | c'2c2 g2G2 | c2c2 g2b2 | g2G2 c2cz |
+c2c2 g2b2 | a2c2 g2G2 | c2e2 f2F2 | c2G2 c2C |]
+
+%%sep 2 1 500
+
+X: 071
+T: Miss Falconer's Strathspey
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.7#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slow"
+R: Strathspey
+M: C
+L: 1/8
+K: Em
+V: 1
+|: E>F~G>A B.B,.B,.B, | E>FGF E^DE2 \
+| c>A (G/F/G/A/) BG {F}E2 | AB/c/ (B/^d/).e/.A/. (G/F/)B/B,/ E2 :|
+|: ggB^d e=d/c/~B2 | A>c (B/A/)(G/F/) (G/E/).G/.^d/ e2 \
+| ggBe e/d/c/B/ AB/c/ | (B/G/F/A/) (G/E/)B/^d/ eEE2 :|
+V: 2 clef=bass middle=d
+|: gfe^d eBE2 | gabB eBE2 | [a2f2^d2][ge]d eBeE | c'b/a/ge bBe2 :|
+|: zgdB cdgG | d2ga bBeE | zgdB c^cdz | G^deB | eBE2 :|
+
+%%sep 2 1 500
+
+X: 072
+T: Miss Dalrymple Hay's Reel
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.7#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: Em
+V: 1
+B | eBBc BGEF | GBAd FDDB | GEAc BecA BGFA BEE :|
+e | gfge f^dBe | (A/B/c) BG FADf | gfge BecA | GBAc BEEe |
+    gbge dcBe | AcBd | FdDF | GEAc | Befg | Befa gee |]
+V: 2 clef=bass middle=d
+z | e2e2 e2e2 | e2f2 d2d2 | e2e2 e2c2 | B2B2 E2E :|
+z | e2e2 ^d2B2 | e2e2 d2d2 | e2e2 e2A2 | B2B2 E2E2 |
+    e2e2 d2d2 | e2g2 d2d2 | e2^d2 e2f2 | b2B2 e2E |]
+
+%%sep 2 1 500
+
+X: 073
+T: Mr E Marjoribanks's Hornpipe
+C: by Mr Bird
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.7#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: Bb
+V: 1
+|: B2df edcB | ceGc (BA)GF | DFBd EGcd | (ed)cB ([B2F2][A2F2]) | B2df (ed)cB |
+ceGc BAGF | DFBd EGce | dBFA B2B,2 :: geBG Egbg | fdBF Dfbf | ecGE Ccec |
+dBFD B,2(FE) | DFBd EGce | Acfa | Bdfb | (gf)gd (ed)cB | FBAc B2B,2 :|
+V: 2 clef=bass middle=d
+|: B2b2 B2d2 | e2=e2 f2_e2 | [d2B2]d2 e2E2 | e2=e2 fedc | B2b2 B2d2 |
+e2=e2 f2_e2 | B2d2 e2E2 | f2F2 B2B,2 :: z2e2 g2e2 | z2B2 d2B2 | z2c2 e2A2 |
+B2b2 B2z2 | B2b2 g2e2 | f2F2 B2d2 | E2e2 F2f2 | b2f2 B2B2 :|
+
+%%sep 2 1 500
+
+X: 081
+T: Miss Erskine Wade's Jigg
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.8#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: jig
+M: 6/8
+L: 1/8
+K: G
+V: 1
+D |\
+GBd {c}B2G | EAG ~F2F | GBd efg | (fa).c ~B2f |\
+(gb).B ceA | EAG TF2D | (ce).A (Bd).G | EAF G2 :|
+|: B/c/ |\
+d>cB gfg | eag Tf2d | (gb).B ~cBc | (Ad).G ~F2D |\
+(GB).D CEA | ~c>Bc DBc | dgb EAc | DAF G2 :|
+V: 2 clef=bass middle=d
+z |\
+G3 g3 | c2^c d2z | b2g c2^c | def g2z |\
+b2^g a2z | c2^c d2z | a2f g2B | c2d G2 :|
+|: z |\
+g3 G2B | c2^c d2z | b2g a2e | f2g d2z |\
+B2^G A2c | a2g f2d | B2G c2A | d2D G2 :|
+
+%%sep 2 1 500
+
+X: 082
+T: Miss Rollo's Strathspey
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.8#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: G
+V: 1
+D | G<GGF EDCB, | A,A/B/ c/B/A/G/ FDDF | G>B,CE D<GF<A | G<BDF G2G :|
+B/c/ | d>d (e/d/c/B/) cAAc | BGEA FD DB/c/ | d>d (e/d/c/B/) c<eA<c | B<dE<A DFG2 |
+d>d e/d/c/B/ c>AB>G EA (c/B/A/G/) FDDG | E<CE<A F<Dd>c | B<GD<F G2G |]
+V: 2 clef=bass middle=d
+z | g2G2 c2G2 | A2c2  d2D2 | g2c2  d2f2 | g2d2 G2G :|
+z | g2b2 a2d2 | g3^c  d2D2 | g2b2  c2d2 | g2c2 d2G2 |
+    g2b2 a2g2 | c2^c2 d2D2 | c2^c2 d2f2 | g2d2 G2G |]
+
+%%sep 2 1 500
+
+X: 083
+T: Miss Elizabeth Campbell's Reel
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.8#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: G
+V: 1
+D |\
+G2BG FDDF | G2BG (Bc/d/) BG | cBAG FADF | GBAF G2G :|
+c |\
+BcdB ecAc | BGcB AFDc | BcdB ecAc | BGDF G/G/G G ||
+B |\
+dgBd ceAc | {c}BABG {G}FEFD | G2DB, CEAc | BGDF G/G/G G |]
+V: 2 clef=bass middle=d
+z |\
+g2G2 d2f2 | g2G2 g2G2 | g2g2 d2d2 | g2d2 G2G :|
+z |\
+g2b2 c'2a2 | g2g2 d2d2 | g2g2 c'2a2 | g2d2 G2G ||
+z |\
+b2g2 a2c'2 | g2G2 d2D2 | G2B2 c2^c2 | d2D2 G2G |]
+
+%%sep 2 1 500
+
+X: 091
+T: Lord Palmerston's Favourite
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.9#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: jig
+M: 6/8
+L: 1/8
+K: A
+V: 1
+c/d/ |\
+{cd}e3 cAE | (F/G/A)F E2E | ECE ECE | {cd}~d2c Bcd |\
+e3 cAE | FGA EBd | cec dBG | {G}AAA A2 :|
+E |\
+A3 cAe | f2f ~fga | efe {f}edc | BeA {A}GFE |\
+A3 cAe | f2f ~fga | cfa {a}gf^e | fga efg |
+{g}a2e | efe | eac' {f}e2d | cea (f/e/)(d/c/)(B/A/) | BeA {A}GFE |\
+A3 cAe | f2g {b}agf | edc BeG | {G}AAA A2 |]
+V: 2 clef=bass middle=d
+z |\
+Ace Ace | dfa cea | Ace Ace | GBe Eed |\
+cea cea | dfa egb | Ace EBe | Ace A2 :|
+z |\
+Ace Ace | dfa dfa | Ace ABc | GBe EBe |\
+Ace cea | dfa dfa | fac' cgc' | f2z z3 |
+Ace Ace | A3 Ace | Ace ABc | GBe EBe |\
+Ace cea | dfa dfa | cea egb | aec A2 |]
+
+%%sep 2 1 500
+
+X: 092
+T: Honble Miss Catherine Elliot's Reel
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.9#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: A
+V: 1
+e | cABG A2EA | FAdf ecBd | cABG A2EA | dfEG A/A/A A :|
+d | ceag fgaf | gabg edce | ceag fgaf | gbaf e/e/e e ||
+c | dfag fedc | (dc)~BA BFFB | ceac dfbd | cABG A2A |]
+V: 2 clef=bass middle=d
+z | a2e2 A2c2 | d2d'2 c'2e2 | a2e2 A2c2 | d2e2 A2A :|
+z | a2a2 d'3^d' | e'2e2 a2A2 | a2a2 d2d'2 | b2B2 e2e ||
+z | b3g a2A2 | B3c d2D2 | A2a2 b2B2 | e2E2 A2A |]
+
+%%sep 2 1 500
+
+X: 101
+T: Wilton Lodge - a Strathspey
+C: by Robt. Howison
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.20#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slow"
+R: strathspey
+M: C
+L: 1/8
+K: E
+V: 1
+   G | E>E~GB GEBG | F~FA>B cFeg | EEGB cABG | C>cBA GEE :|
+|: B | e>Bc>A BEG2 | Fffg a>gf>e | g>fe>d c>BA>G | Cc~B>A GEE :|
+|: G | E>EB,>E G,>EB,>E | F>FC>FA,>FC>F | E>EB,>E G,>EB,>e | c>AGF GEE :|
+|: B | e>Bge d>Bfd | eBgf dfTfg | e>Bc>A BEG2 | Cc~B>A GEE :|
+V: 2 clef=bass middle=d
+   z | e2E2 e2g2 | f2c2 F2z2 | e2E2 A2G2 | A2B2 e2E :|
+|: z | e2a2 g2e2 | B2b2 B2z2 | e2G2 A2E2 | A2B2 e2E :|
+|: z | [e2E2][e2E2] [e2E2][e2E2] | [f2F2][f2F2] [f2F2][f2F2] \
+     | [e2E2][e2E2] [e2E2][e2E2] | [a2A2][b2B2] [e2E2][eE] :|
+|: z | g2e2 b2a2 | g2e2 b2B2 | g2a2 g2e2 | a2b2 e2E :|
+
+%%sep 2 1 500
+
+X: 102
+T: Mr A R Sutherland's Reel
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.10#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: D
+V: 1
+A | d2Ad FDDF | GBFD EDCA,| d2Ad FAGB | AGFE D3  :|
+A | FDGE AFDA | BcdB AGFA | FDGE AFBd | cABc d2de |
+    fdec BcdB | AdFd EFGB | Adfd cdef | gbec d2d |]
+V: 2 clef=bass middle=d
+z | d2d2 d2d2 | e2d2 A2A2 | d2f2 d2g2 | a2A2 d2D :|
+z | d2e2 f3d  | g2g2 f2d2 | d2e2 f2g2 | a2A2 d2d2 |
+    d2A2 G2g2 | f2d2 A2G2 | D2d2 A2d2 | e2A2 d2D :|
+
+%%sep 2 1 500
+
+X: 103
+T: Mr Davidson of Cantray's Strathspey
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.10#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slow"
+R: strathspey
+M: C
+L: 1/8
+K: D
+V: 1
+F/E/ | D<~B,B,>D ~A,2A,B, | D>BAF ~FE~EF | D<B,~B,>D A,B,DB | F<D~EF D3 :|
+A | d>ABd ABFD | TEDEF DB,B,c | d>AB>d ABFd | TEDEF D2D |
+d | {c}B>ABd Te>def | {e}d>BA>F FE~EF | D<B,~B,D A,2dB | A<FE>F D3 |]
+V: 2 clef=bass middle=d
+z | G2G2 F2F2 | D2d2 A2A2 | G2G2 f2d2 | a2A2 f2f :|
+z | d2g2 f2d2 | A2A2 G2g2 | f2g2 f2d2 | A2A2 d2D ||
+z | g2G2 a2A2 | d2d2 A2A2 | G2G2 F2F2 | d2A2 D2d |]
+
+%%sep 2 1 500
+
+X: 111
+T: Miss Stuart of Allbank's Strathspey
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.11#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Fixed cross-beat beams in bars 10, 14.
+N: The low Eb notes aren't playable on fiddle; perhaps G was meant?
+Q: "Slow"
+R: strathspey
+M: C
+L: 1/8
+K: Eb
+V: 1
+E<B,~GB {B}AG~FE | E<B,GB (A/c/B/A/)~G2 |\
+~c(d/e/) ~B(d/e/) f/d/B/A/ A/G/c/B/ | B>ecA (G/F/)(A/G/) B/A/G/F/ |
+E<B,~GB {B}AG~FE | E<B,GB (A/c/B/A/)~G2 |\
+~c(d/e/) ~B(d/e/) (f/d/).B/.A/ (A/G/).c/.B/ | B>ecA G/B/A/D/ E2 ||
+!f![EE,]>e g>e (e/d/).c/.B/ (B/c/)(d/e/) | B>e A/G/c/B/ ~(B/G/A/c/) B2 |\
+B/e/d/e/ f/d/e/G/ A/c/f/a/ g/b/B/G/ | A>c !p!Be G/B/A/D/ E2 |
+!f![EE,]>e g>e (e/d/c/B/) (B/c/d/e/) | B>e (A/G/)c/B/ ~(B/G/A/c/) B2 |\
+(B/e/d/e/) f/d/e/G/ A/c/f/a/ g/b/B/G/ | A>c B>e G/B/A/D/ E2 |]
+V: 2 clef=bass middle=d
+e2e2 (b2=bc') | g2ed (cd)e2 | a2g2 d2e2 | g2a2 b2B2 |
+e2e2 (b2=bc') | g2ed (cd)e2 | a2g2 d2e2 | g2a2 bBe2 ||
+e2e2 f2g2 | zg/a/ ba/g/ (_d'c') (d/f/b/a/) | g2ag fde2 | (c/d/f) (g/b/g/e/) bBe2 |
+e2e2 f2g2 | zg/a/ ba/g/ (_d'c') (d/f/b/a/) | g2ag fde2 | (c/e/a) (g/b/g/e/) bBe2 |]
+
+%%sep 2 1 500
+
+X: 112
+T: Miss Sandford's Jigg
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.11#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: jig
+M: 6/8
+L: 1/8
+K: Eb
+V: 1
+B, |\
+E>FE GEB | AFB GEC | ~B,CD EFG | AFF ~F2G |\
+EFE GEB | AFd eBG | cAF DEF | GEE E2 :|
+|: B |\
+eBG ~cde | BGE cAF | DEF GAB | cCC ~C2D |\
+EB,G AFd | eBG cAF | GEC AFB | GEE E2 :|
+V: 2 clef=bass middle=d
+z |\
+e3 e3 | [a3e3] [e3c3] | G3 e2=e | f3 B2z |\
+e3 e3 | [a3e3] [g3e3] | A3 B3 | e3 E2 :|
+|: z |
+e2g [a3e3] | g3 [a3f3] | Bcd efg | a3 A2z |
+EeB Faf | Gge AcA | Ege fdB | egb e2 :|
+
+%%sep 2 1 500
+
+X: 121
+T: Miss Barbara Campbell's Jigg
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.12#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: G
+V: 1
+|: d3  B2G | ~E3 EFG | cBA GFE |  DED DBc \
+|  dgf edc | Bcd ecA | BGF EFG |1 ABc AFD :|2 DEF GAB |
+|: cBc dBG | EcB AFD | GFG EAc |  BAG FGA \
+|  Bcd ecA | def gdB | ecA dBG |1 DEF GAB :|2 DEFGBc |]
+V: 2 clef=bass middle=d
+|: g3  b3 | c'3  c3 | A3  ^c3 |  d3 [d3D3] \
+|  G3  g3 | G3   c3 | G3 c2^c |1 d3 f3 :|2 d3 z3 |
+|: G2A B3 | c2^c d3 | e3   c3 | ^c3 d3 \
+|  g3 c'3 | g3   b3 | c'3  g3 |1 d3 z3 :|2 d3 z3 |]
+
+%%sep 2 1 500
+
+X: 122
+T: Miss Napier's Reel
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.12#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: G
+V: 1
+B |\
+G2GB, G,2dB | cABG FAAc |\
+BGEG c=FFA | (B/c/d) (e/f/g) BGG :|\
+c |\
+BG (B/c/d) gdgd | =fcA=F Accd |
+BG (B/c/d) g2df | gdBG Bdef |\
+gdec (B/c/d/c/) BG | A=fcf (A/_B/c/B/) AF |\
+GGBd gd=fc | A=F (A/B/c/A/) BGG |]
+V: 2 clef=bass middle=d
+z | g2g2 g2g2 | a2g2 d2d2 | g2g2 =f2f2 | g2d2 G2G :|
+z | g2g2 g2g2 | f2f2 f2f2 | g2g2 g2g2 | g2g2 g2g2 |
+g2c2 g2g2 | =f2a2 f2^f2 | g2g2 g2=f2 | =f2^f2 g2g |]
+
+%%sep 2 1 500
+
+X: 123
+T: Honble. Captn. Elliot's Quick Step
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.12#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel, polka
+M: 2/4
+L: 1/16
+K: Bb
+V: 1
+F2 |\
+B4 (ce).c.A | B2d2 {=e}f4 | e2c2 d2B2 | G2cB AFGA |
+~B4 cecA | ~d4 (eg).f.e | d2B2 G2A2 | {c}B4 B2 :|
+|: F2 |\
+A2B2 c2A2 | F2fe {e}~d4 | d2g2 | fedc | BAcB AGFE |
+D2d2 E2e2 | F2f2 G2g2 | f2ef e2A2 | {c}B4 B4 :|
+V: 2 clef=bass middle=d
+z2 |\
+bf'd'f' c'f'e'f' | bf'd'f' bf'd'f' | af'c'f' bf'd'f' | ec'=ec' f2z2 |
+Bfdf cfdf | Bfdf Bgeg | Bfdf cfdf | zbfd B2 :|
+|: z2 |\
+fc'gc' ac'fc' | Bbcb dbBb | ebgb =ec'gc' | fc'ac' f2z2 |
+Bbfb cafa | dbfb ebgb | fd'bd' fe'c'e' | zbfd B2 :|
+
+%%sep 2 1 500
+
+X: 131
+T: Miss Tytler's Strathspey
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.13#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: strathspey
+M: C
+L: 1/8
+K: F
+V: 1
+c | A<FTF>C F<FTF>C | ~B>c d/c/B/A/ CG Gc/B/ | A<F~F>C B>c dc/B/ | f>c B/A/G/F/ CFF :|
+e | f>cA>f gecA | F>ab>a ag Tg2{agfe}y| f>ac{_ed}^c dfBd | f>c (B/A/).G/.F/ CF F2{agfe}y|
+f>cAf gecA | F>ab>a a>gg>A, | B,FF>=B, CAB>G | Ac (B/A/).G/.F/ CFF |]
+V: 2 clef=bass middle=d
+z | f2F2 f2f2 | B2=B2 c2C2 | f3_e [d2B2]B2 | c2C2 F2 f :|
+z | f2f2 c2c2 | f2f2 c2c2y| f2f2 b2B2 | c2C2 F2f2y|
+    f2f2 c2c2 | f2f2 c2c2 | B2d2 c2B2 | c2C2 F2f |]
+
+%%sep 2 1 500
+
+X: 132
+T: Lord Minto's Waltz
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.13#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: waltz
+M: 3/8
+L: 1/16
+K: F
+V: 1
+|: c2BAGF | d2cBAG | F2E2G2 | GFBAd2 | c2BAGF | d2fedc | AcBdce f4z2 :|
+|: a2fafa | g2egec | dBdfBd | gfedcB | A2cABd | c2efge | f2gece | f4z2 :|
+V: 2 clef=bass middle=d
+|: f2f2c2 | B2a2f2 | F2c2e2 | c2g2b2 | f2f2e2 | B2a2b2 | f2d2c2 | f2c2F2 :|
+|: f2a2f2 | e2c2c2 | B2b2b2 | c'2g2c2 | f2a2f2 | c2c2e2 | f2c'2c2 | f2c2F2 :|
+
+%%sep 2 1 500
+
+X: 133
+T: The House of Gray - a Jigg
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.13#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: Gm
+V: 1
+|: G3  B3  | cAF cAF | G2A B2c | dBd dBd | fgf T=e2d | cfd cAF | G2A B2d | cA^F G3 :|
+|: B2B f2B | dBd cAF | B2B f2B | dBd fdf | gag Tf2d  | cfd cAF | G2A Bcd | cA^F G3 :|
+V: 2 clef=bass middle=d
+|: g3 G3 | f3 f3 | g3 G3 | B3 b3 | f3 c3 | F3 f3 | g3 g3 | d3 G3 :|
+|: B3 b3 | B3 f3 | B3 b3 | b3 B3 | e3 d3 | f3 f3 | g3 g3 | d3 G3 :|
+
+%%sep 2 1 500
+
+X: 141
+T: The Irish Wedding, a Favourite Dance
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.14#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: C
+V: 1
+((3G/A/B/) |\
+c2G GEG | A2G GAB | c2c d2d | e2c cde |\
+f2f e2e | d2d BGB | cBA EFG | A2G G2 :|
+(e/f/) |\
+g2g e2e | g2g e2e | ggg eee | f2d def |\
+g2e f2d | e2c d2B | cBA EFG | A2G G2e/f/ |
+gc'g ece | gc'g ece | gc'g ece | f2d def |\
+g2e f2d | e2c d2B | c2A GEG | a2c c2 |]
+V: 2 clef=bass middle=d
+z | c3 e3 | f3 e3 | c3 g3 | c3 c'3 | d'3 c'3 | b3 g3 | e3 c3 | [f3c3] [e2c2] :|
+z | e3 g3 | e3 g3 | e3 g3 | d3 g3 | c'3 d'3 | c'3 b3 | e3 c3 [f3c3] [e3c3] |
+c3 c'3 | c3 c'3 | c3 c'3 | d'3 g3 | e2c' b2g | c'2c g2G | e3 c3 | [f3c3] [e2c2] |]
+
+%%sep 2 1 500
+
+X: 142
+T: Miss Anderson's Favourite
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.14#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slow"
+R: jig
+M: 6/8
+L: 1/8
+K: F
+V: 1
+B |\
+A2c E2F | d2B G2F | ECA FDd | {d}cBA {A}G3 |\
+A2c A2F | d2f e2A | B2d c2E | F3 F2 :|
+|: e |\
+f2e d2a | b2a g3 | d'2c' {c'}b2a | gab afd | c2A B2d | c2e f2d' | {d'}c'2a d2e | f3 f2 :|
+V: 2 clef=bass middle=d
+z |\
+zfa bga | zbg ecf | ze^c dfB | AB=B c>_BA/G/ |\
+Ffe dfa | b2d' c'af | d2B c2C | FAc f2 :|
+|: z |\
+zd'^c' d'df | e2f cef | g2a bgf | e2[ec] f2z |\
+zf_e dcB | Afg afb | a2f bgc' | fcA F2 :|
+
+%%sep 2 1 500
+
+X: 143
+T: Mr William Jardine's Strathspey
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.14#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: F
+V: 1
+C | ~F>GFf d/c/B/A/ cf | f/e/f/g/ b/a/g/f/ e<gg>a | F>G Ff/e/ d/c/B/A/ cf | df e/f/g/b/ aff :|
+f/g/ | afcf Ffaf | dg b/a/g/f/ eggb | afcf Ffaf | efdf cffg |
+afcf Ffaf | dg/a/ (b/a/).g/.f/ e>ggb | a>b a/g/f/e/ {e}f>dc>A | Bd c/d/c/B/ AFF |]
+V: 2 clef=bass middle=d
+z | f2f2 f2a2 | f2F2  c2c2  | F2f2  f2a2 | b2c'2 f2F :|
+z | f2f2 a2f2 | b2=b2 c'2c2 | f2f2  a2f2 | c'2b2 a2f2 |
+    f2f2 a2f2 | b2=b2 c'2c2 | f2c'2 b2a2 | b2c'2 f2F |]
+
+%%sep 2 1 500
+
+X: 151
+T: Mis Diana Sinclair's Strathspey
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.15#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: strathspey
+M: C
+L: 1/8
+K: D
+V: 1
+|:\
+D2 A,>D ~F>D A,D | FA (G/F/).E/.D/ B,E (D/C/).B,/.A,/ |\
+D2 A,>D ~F>D A,D | FA (G/F/)(E/D/) TE2 {DE}D2 :|
+d2Ad fab2 | ~a>fdf {f}e>dTB>c |\
+d2Ad fab2 | (b/a/).g/.f/ (g/f/).e/.d/ Te2 {de}d2 |
+d>BAd (B/A/).G/.F/ (G/F/).E/.D/ | (E/F/).G/.A/ (B/A/).G/.F/ (G/F/E/D/) {D}B,2 |\
+~A,>B,DE ~FAB(c/d/) | (B/A/).G/.F/ (G/F/).E/.D/ E2 {DE}D2 |]
+V: 2 clef=bass middle=d
+|: Ddfd Ddfd | D2A2 G^GAz | Ddfd Ddfd | zfgG aAdD :|
+dfaf dfgG | dfaf afge | dfaf dfgG | ddg^g aAdz |
+fgfd D2A2 | G2d2 A2G2 | dgfA dfgz | ddgG aAd2 |]
+
+%%sep 2 1 500
+
+X: 152
+T: Miss Lilias Cunningham's Dance
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.15#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: D
+V: 1
+|: A3F (dc).B.A | BAGF [F2A,2][E2A,2] | (DF)dc dced | ~ceAG G2F2 |
+   A3F dcBA | ~B3c edcB | Adfa gefd |1 ceAc dAGF :|2 ceAc d4 ||
+|: afdf bged | cdef gedc | Begf efde | cedc BAGF |
+   FAdf gecA | B^ABc d=AGF | ~BABd cABG | FGEF D4 :|
+V: 2 clef=bass middle=d
+|: d2D2 d4 | g4 d2A2 | d4 d2c2 | A4 d4 |
+   d2D2 d4 | g2G2 g4 | f4a4 |1 A4 d4 :|2 A4 d4 ||
+|: d4 g2^g2 | a4 A4 | g4 g2^g2 | a2A2 d4 |
+   d4 a4 | g4 d4 | g2^g2 a2=g2 | d2A2 D4 :|
+
+%%sep 2 1 500
+
+X: 161
+T: The Poltogue Jigg
+O: Irish
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.16#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: slip-jig
+M: 9/8
+L: 1/8
+K: G
+V: 1
+|: G3 (GF).E (GF).E | G3 (GF).E (AB).c | G3 (GF).E (GF).E | (AB).c (BA).^G (AB).c :|
+|: ~c2e gec (BA).G | ~c2e gec (ef)g | ~c2e (gf).e (dc).B | (AB).c (BA).^G (AB).c :|
+|: ~E2c (cG).E (cG).E | TE(FE) (cG).E (AB).c | ~E2c (cG).E (cG).E | (AB).c (BA).^G (AB).c :|
+V: 2 clef=bass middle=d
+|: c3 c3 c3 | c3 c3 c3 | c3 c3 c3 | e3 e3 A3 :|
+|: c'3 c'3 g3 | c'3 c'3 c'3 | c'3 c'3 g3 | e3 e3 A3 :|
+|: c3 c3 c3 | c3 c3 c3 | c3 c3 c3 | e3 e3 A3 :|
+
+%%sep 2 1 500
+
+X: 162
+T: Mr Samuel Macknight's Favourite
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.16#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Very Slow"
+R: jig, air
+M: 6/8
+L: 1/8
+K: Bb
+V: 1
+d |\
+BFd {f}ed~c | Bdf {f}ed~c | BFd Ged | ~cfe dBg |
+fdB {a}bag | fdB gec | fdB eAc | dGA B2 :|
+|: F |\
+ABc dBG | Ceg FAc | dB~G ec~A | fg=e ~d2f |
+(bBb) afd | geg fdB | ABc Bdf | {f}ed~c B2 :|
+V: 2 clef=bass middle=d
+z |\
+BdB cfe | dBd f2e | d2B e2=e | f2^f g2d/b/ |
+d/b/B/b/d/b/ g/b/f/b/e/b/ | d/c/B/c/d/B/ e/d/c/d/e/c/ |\
+d/f/b/c'/d'/b/  e/c/f/g/a/f/ | b/d/e/c/f/F/ B/b/B :|
+|: z |\
+^f/d/g/d/a/d/ b/a/g/a/=b/g/ | zc/d/e/c/ f/=e/f/g/a/f/ |\
+bg/a/=b/g/ c'a/_b/^c'/a/ | d'/a/b/g/a/A/ d/e/f/e/d/c/ |
+B/A/B/c/d/e/ f/g/a/f/b/B/ | e/f/g/f/e/g/ bB/c/d/B/ |\
+F/f/G/f/A/f/ B/A/B/c/d/B/ | e/d/f/=e/f/F/ B/b/B :|
+
+%%sep 2 1 500
+
+X: 171
+T: Hawick Lasses, a Reel
+C: by Robert Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.17#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: D
+V: 1
+B | ADFA DAFA | E=cGc E=CGE | ADFD FAag  | fdAc dDD :|
+g | fdad fada | e=cgc egcg  | fdad fada  | fdAc dDD ||
+g | fdad fada | e=cgc egcg  | fdAd cdA=c | BGEA FDD |]
+V: 2 clef=bass middle=d
+z | d2d2 d2d2 | =c2c2 c2c2 | d2d2 d2f2 | a2A2 d2d :|
+z | d2d2 d2d2 | =c2c2 c2c2 | d2d2 d2d2 | a2A2 d2D ||
+z | d2d2 d2d2 | =c2c2 c2c2 | d2c2 d2A2 | G2A2 d2d |]
+
+%%sep 2 1 500
+
+X: 172
+T: Cut him down Susie, a Strathspey
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.17#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: D
+V: 1
+   B | A<FDF ~E>FGB | A<FDF A<d~d>B | A<FDF  E>FGB |   A<Fd>F Add :|
+|: A | d>fe>g f>dcA | dfeg  f<a~a>f | g>ef>d e>dcA | {Bc}dBAF Add :|
+V: 2 clef=bass middle=d
+   z | d2d2 A2G2 | d2d2 d2d2 | d2d2 c2d2 | d2d2 d2d :|
+|: z | d2c2 d2A2 | d2c2 d2d2 | G2d2 c2A2 | G2A2 d2d :|
+
+%%sep 2 1 500
+
+X: 173
+T: Mr Alexr. Campbell's Strathspey
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.17#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: G
+V: 1
+   D | G<GBG E>FGD | G<G~B>c d2~d>e | G<GBG E>FG>E | D<D{c}B>A {A}G2G :|
+|: c | B<G~E>F G>BAd | BGce ~d3f | g>de>B c>AB>G | D<D{c}B>A {A}G2G :|
+V: 2 clef=bass middle=d
+   z | g2g2 c2g2 | g2g2 [b2g2][b2g2] | g2g2 c2c2 | d2d2 G2G :|
+|: z | g2G2 g2d2 | g2g2 d2d2 | g2c2 A2G2 | d2d2 G2G :|
+
+%%sep 2 1 500
+
+X: 181
+T: A Lament for Lord Ballenden
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.18#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Pathetically Slow"
+R: slow air
+M: 3/4
+L: 1/8
+K: A
+V: 1
+E |\
+(A>B) ~c2 BA | F>A E3 F | A>B ~c2 BA | {d}c>B B2 AF |\
+A>B ~c2 BA | FA E3 C | D>F E3 C | {C}~B,A, A,3 :|
+E |\
+A>B ~c2 BA | (FE) ~f2 e2 | f>e ~e2 cA | c>B B3 E |\
+A>B ~c2 BA | F>A E3 C | D>F E3 C | {C}B,>A, A,3 ||
+E |\
+A>B ~c2 BA | FE {D}f2 e2 | f>e e2 cA | c>B TB2 ce |\
+f>c e2 AB | ~c>A {A}B3 F | ~A>F F2 EC | {C}~B,>A, A,3 |]
+V: 2 clef=bass middle=d
+z | A2 a2 [e2c2] | d2 c2 z2 | A2 a2 [f2^d2] | e2 E2 z2 |\
+    A2 a2 [e2c2] | d2 c2 A2 | d2 e2 E2 | A2 A,3 :|
+z | A2 a2 g2 | z2 d'2 c'2 | a2 c3 ^d | e2 E2 z2 |\
+    A2 a2 [e2c2] | d2 c2 A2 | d2 e2 E2 | A2 A,2 z ||
+z | A2 a2 g2 | z2 d'2 c'2 | a2 c3 ^d | e2 E2 z2 |\
+    d'2 c'2 cB | A2 e2 Ez | A2 d2 A2 | E2 A,3 |]
+
+%%sep 2 1 500
+
+X: 182
+T: Miss Cay's Jigg
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.18#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: A
+V: 1
+|: A3 cBA | cBA ecA | A3 cBA | cBA GFE |\
+A3 cAG | FGA Bcd | cfe dcB | AGF EFG :|
+|: A3 ecA | fga ecA | Bcd FGA | BcA GFE |\
+A3 ecA | fga efg | aec def | edc BAG :|
+V: 2 clef=bass middle=d
+|: [a3A3] [a3A3] | [a3A3] [a3A3] | [a3A3] [a3A3] | [a3A3] [e3E3] |\
+[a3A3] [a3A3] | [d3D3] [d3D3] | [e3E3] [e3E3] | A3 [e3E3] :|
+|: [a3A3] [a3A3] | d3 A3 | e3 d2^d | e3 E3 |\
+A3 a3 | d3 g3 | a3 d2^d | e3 E3 :|
+
+%%sep 2 1 500
+
+X: 191
+T: Mr Robert Hunter's Strathspey
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.19#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: D
+V: 1
+F/E/ | D>AF>d A<F~F>D | TE>DEF ~E>DB,E | D>AF>A G<BF<d | ~E>DE<A D2 D :|
+|: A | d<fce ~B>AFd | A<Fd>B A<FDd | e<fd<f | B<dA<F | E>DE<A D2 D :|
+V: 2 clef=bass middle=d
+z | d2d2 d2d2 | c2A2 A2G2 | d2d2 e2d2 | A2A2 d2d :|
+|: z | f2a2 g2d2 | d2d2 f2d2 | c2d2 g2f2 | a2A2 d2d :|
+
+%%sep 2 1 500
+
+X: 192
+T: Miss Ann Hay's Reel
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.19#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: D
+V: 1
+B | AFGE Dddc | BAGF Eeef | gefd (c/d/e) Ac | dABG FDD :|
+e | efdc BcdB | edcB ABcA | dfcA BdFd | Adec ~d2df |
+    geeg fddc | (B/c/d) ed cAAG | FDDd cAAg | fdec d2d |]
+V: 2 clef=bass middle=d
+z | d2e2 f2d2  | g2b2  a2A2 | e2d2 A2c2 | d2G2 A2d :|
+z | A2a2 A2^g2 | a2A2  c2a2 | d2a2 g2d2 | A2A2 d2D2 |
+    A2c2 d2D2  | G2^G2 A2A2 | D2d2 A2a2 | d2A2 D2d |]
+
+%%sep 2 1 500
+
+X: 193
+T: Miss Stevenson's Strathspey
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.19#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/16
+K: F
+V: 1
+(c/d/e) |\
+fc3~c3B A2F2F2(Bc) | {Bc}d3BG3F | E2C2C2e2 | fc3!c3B A2F2 F2Bc | d3FE2C2 F4F2 :|
+(cB) |\
+A2c2F2A2 B2d2G2B2 | A3cf2e2 (dc).B.A G2B2 | A2c2F2A2 B2d2G2B2 | A2c2C2E2 F4 F2(cB) |
+A2c2F2A2 B2d2G2B2 | A3cf2e2 (dc).B.A G2cB | A2f2d2B2 e2g2e2d2 | (3d2B2G2 (3E2C2E2 F4F2 |]
+V: 2 clef=bass middle=d
+z2 | f4f4 f4a4 | b4=b4 c'4c4 | f4f4 f4f4 | B4c4 f4F2 :|
+z2 | f4F4 B4B4 | f4a4 c'4c4 | f4F4 B4B4 | f4c4 A4f2z2 |
+     f4F4 B4B,4 | f4F4 c4C4 | F4B4 c4C4 | B4c4 F4F2 |]
+
+%%sep 2 1 500
+
+X: 201
+T: Lady Scott's Strathspey
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.20#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: Bb
+V: 1
+(d/c/) |\
+B>FG>F BF ~F(G/A/) | ~B(c/d/) e/>c/d/>B/ Ac ~cd/c/ |\
+B>FG>F BF ~F(G/A/) | ~B((3c/d/e/) d/>B/~c/>A/ BB B :|
+(d/e/) |\
+f>de>c d>Bc>B | (A/B/c/d/) .e/>(c/d/)>.B/ Ac ~cd/e/ |\
+f>de>c d>Bc>B | (A/B/c/e/) .d/>(B/c/)>.A/ BB B ||
+d/e/ |\
+f>de>c d>B~c>B | (A/B/c/d/) (e/g/)c/B/ Ac ~cd/e/ |\
+d>B ~F(G/_A/) GE HC(F/E/) | (D/E/).F/.G/ (A/B/).d/.e/ dB ~B |]
+V: 2 clef=bass middle=d
+z | B2B2 B2B2 | B2 e=e fc Fz | B2B2 B2B2 | de fF BF B,:|
+z | d'dc'c Bbaf | zd e=e fc Fz | b2a2 b2a2 | f2F2 BF B, ||
+z | zd' zc' zb za | zd e=e fc Fz | b2d2 e2 HAz | Bd fF BF B, |]
+
+%%sep 2 1 500
+
+X: 202
+T: Lady Scott's Reel
+C: by John Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.20#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: Bb
+V: 1
+F | ~B2AB FDB,2 | ~B2AB   Gccd | ~B2AB FDFB | A>BcA B2-B :|
+F |  Bcde fd~cB | gabg {g}f2dB |  Bcde fgab | afc=e ~f2d ||
+f | ~gfgb fgdB  | ~cBcd   BAGF | ~B2AB FBdB | ABcA   B2B |]
+V: 2 clef=bass middle=d
+z | B2B2 B2B2 | B2B2 c2c2 | B2f2 d2B2 | f2F2 B2B :|
+z | B2B2 d2f2 | e2e2 d2B2 | B2B2 d2=e2 f2c2 F2z ||
+z | e2e2 d2B2 | e2=e2 f2_e2 | B2f2 d2B2 | f2F2 B2B |]
+
+%%sep 2 1 500
+
+X: 203
+T: Lord Seaforth's Strathspey
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.20#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: G
+V: 1
+B | G<DD>E G>ABd | c>AB>G {F}E2EA | G<DD>E F>ABe | d<BA>B G2G :|
+g | (e/f/g) d>g B<gB>G | c>AB>G {F}E2Eg | (e/f/g) d<g B>gd>B | c>Ad>B G2~G ||
+g | e<gd<b c<aG<g | c>AB>G {F}E2 (E/c/B/A/) | G<DD>E F>ABe | d<B~A>B G2G |]
+V: 2 clef=bass middle=d
+z | G2B2 d2g2 | f2g2 c2C2 | G2B2 d2g2 | d2D2 A2A :|
+z | c'2b2 g2G2 | f2g2 c2c2 | c'2b2 g2B2 | c2d2 G2G ||
+z | c'2b2 a2g2 | f2g2 c2c2 | B2d2 B2G2 | d2D2 G2G |]
+
+%%sep 2 1 500
+
+X: 211
+T: Miss Thomson of Leckybank's Strathspey
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.21#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: A
+V: 1
+c/B/ |\
+A<EE>F A>BcA | B<FF>A B>cdB | A<EE>F A>BcA | d<fc>A B2Ac/B/ |
+A<EE>F A>BcA | B<FF>A B>cdf | A<Ec>e d>fca | e>cd>c B2A ||
+f |\
+e>cA>c d>efd | e>cAc BGEf | e>cAc d>efa | e<cd>c ~B2 Af |
+e>cAc d>efd | e>cAc (d/c/B/A/) Gf | e<cd>e f>gaf | e<cac TB2A |]
+V: 2 clef=bass middle=d
+z |\
+A2A2 c2A2 | d2d2 e2e2 | A2A2 c2A2 d2e2 E2A2 |
+A2A2 A2c2 | d2^d2 e2e2 | A2a2 b2a2 | e2e2 E2A ||
+z |\
+a2a2 d2d2 | a2a2 e2e2 | a2a2 d2d2 | a2a2 e2A2 |
+a2a2 d2d2 | a2a2 e2e2 | a2a2 d2d2 | e2e2 e2A |]
+
+%%sep 2 1 500
+
+X: 212
+T: Minto House - a Strathspey
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.21#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slow"
+R: strathspey
+M: C
+L: 1/8
+K: D
+V: 1
+F/G/ !Segno!|:\
+A<Fd>A {c}BA{G}F2 | A>Fd>F (G/F/E/^D/) EF/G/ |\
+A<Fd>A {c}BA{G}F2 |1 de (d/e/f/).d/ (~ed)(ef) :|
+|2 de (d/e/f/).d/ Te2d2 ||\
+fg/f/ ed c>B ^A2 | ~dc/d/ ~ed/e/ {^de}f>F{F}E2 |\
+fg/f/ed c>B^A2 | F>f (e/g/)(f/e/) ~d>c {c}B2 |
+fg/f/ ed {d}c>B ^A2 | .d/.d/~d .e/.e/~e {^de}f>F {F}E2 |\
+F>EA>F ~B>cHd2 | Dd'fd Te2!Segno!d2 |]
+V: 2 clef=bass middle=d
+z !Segno!|:\
+d2d2 d2d2 | d2d2 g^g(a=g) | d2d2 d2d2 |` d2g^g a2A2 :|
+|2 dafd aAd2 ||\
+d2d2 ef/^e/ f=e | dfac ddcA | d2g^g ab/=g/ fe | d2cd/e/ fFB2 |
+d2d2 ef/^e/ f=e | dfac d/e/f/^g/ a/=g/f/e/ | d2f2 gaHf2 | zfdf aA!Segno!d2 |]
+
+%%sep 2 1 500
+
+X: 221
+T: The London Reel
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.22#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: D
+V: 1
+e | fdcB AGFE | DFAF DFAd | fdcB AGFE DEFD B,3 :|
+A | dcde fdcB | Adfa gefd | dcde fdcB | edcB A2A ||
+c | dAGF BcdB | AFDF EDB,2 | B,DGF GBAG | FDA,C D3 |]
+V: 2 clef=bass middle=d
+z |\
+d2f2 a2A2 | d2d2 f2d2 | d2f2 a2A2 | d2A2 G3 :|
+z | d2f2 b2B2 | A2d2 e2d2 | f2^a2 b2B2 | e2E2 A3 ||
+z | d2f2 g2G2 | d2d2 A2G2 | G2G2 B2c2 | d2A2 D3 |]
+
+%%sep 2 1 500
+
+X: 222
+T: Miss Caldwall's Favorite
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.22#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: jig
+M: 6/8
+L: 1/8
+K: F
+V: 1
+|:\
+A>Bc F2~F | {A}GFG A2F | (A>Bc) cfe | fcA {c}BAG |\
+ABc F2F | {A}G>FG ABc  | d>ef edc | cd=B c3 :|
+!f!c>dc c!p!.a.g | !.f.e.d .c.B.A | !f!B>cB B!p!.g.f | .e.d.c BAG |\
+!f!A>BA A!p!.f.e | .d.c.B AG^F | (GB).d (cA).f | (cf)c {c}BAG |
+!f!ABc F2~F | {A}G>FG A2F | A>Bc cfe | fcA {c}BAG |\
+A>Bc F2~F | {A}G>FG ABc | ~d>ef cfc | {c}BAG F3 ||
+|:\
+FAc _e2e | {f}_e>dc d3 | G=Bd f2f | {g}fed e3 |\
+ceg bag | {c'}b>ag a2f | f>ed cfa | [gB][fA][eG] [f2F2]z :|
+V: 2 clef=bass middle=d
+|:\
+F3 f2a | c'2c fcA | F2f a2c' | a2f c'2z |\
+f3 a3 | c'2c f2g | =b2g c'2e | g2G c2z :|
+FAc f2z | F3 f3 | ceg c'2z | c3 c'3 |\
+f'c'a f2z | G3 f3 | e3 f3 | G2g cde |
+fac' fac' | egc' fac' | fac' egc' | fac' gfe |\
+fac' fac' | egc' fac' | b2g f2a | c'2c f3 ||
+|:\
+[a3f3] fac' | [a2f2][a_e] bfd | [=b3g3] gbd' | [=b2g2][bf] c'ge |\
+c3 e2g | c'2c f2a | b2B a2f | c'2c f2z :|
+
+%%sep 2 1 500
+
+X: 231
+T: Miss H Erskine's Strathspey
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.23#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: A
+V: 1
+e | {e}d>cBA B<FF>G | (A/B/c/d/ e)>c A>cea | d>c~BA B<FF>G | (A/B/c/d/ e)>c A2A :|
+E | A>cec d>efd | ~B>c (d/c/B/A/) G>ABE | A>cec d>efd | (e/d/c/B/) AG A2A ||
+E | A>cec d<fB>d | c<af>d c<eE>=G | F>Ad>B G>Be>c | (A/B/c/d/ e)>c A2A |]
+V: 2 clef=bass middle=d
+z | A2c2 d2d2 | e2e2 A2z2 | A2c2 d3^d | e2E2 A2A :|
+z | a2a2 b2b2 | g2e2 e2e2 | a2a2 b2d2 | e2e2 A2A ||
+z | a2a2 b2g2 | f2d2 e2e2 | d3^d e2c2 | e2E2 A2A |]
+
+%%sep 2 1 500
+
+X: 232
+T: Mr Henry Rankine's Strathspey
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.23#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C|
+L: 1/8
+K: A
+V: 1
+e | cAAc dBcA | cAAg a2fd | cAAc dBcA | GEEG A2A :| B | GBBd cAAc | dfed dcBA |
+GABd cecA | FBBG A2Ac | GABd cAAc | dfed dcBA | fdec dBcA | FBBG A2A |]
+V: 2 clef=bass middle=d
+z | [a2A2][a2A2] [b2B2][a2A2] | [a2A2][a2A2] [a2A2][a2A2] |\
+    [a2A2][a2A2] [b2B2][a2A2] | [e2E2][e2E2] [a2A2][aA] :|
+z | e2e2 A2c2 | d2e2 a2a2 | e2e2 a2A2 | d2e2 A2A2 |
+    e2e2 a2a2 | d2e2 A2A2 | d2c2 B2c2 | d2e2 A2A |]
+
+%%sep 2 1 500
+
+X: 233
+T: Mrs Ingliss's Strathspey
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.23#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C|
+L: 1/8
+K: Bb
+V: 1
+D | B,>BTB2 (A/B/c/B/) AF | G<G~G>e {G}F2FD | E>FGE DFBA | G>c (e/c/).B/.A/ B2B :|
+(d/e/) | f>deg f<d~B2 | G<cAG F2~Fd/e/ | f>deg f<dTB2 | A<ce>A ~B2Bd/e/ |
+         f>deg f<bd>f | B>d (c/B/A/G/) {G}F2~FG/A/ | B<dcA B>FG>E | D>B (e/c/)B/A/ B2B |]
+V: 2 clef=bass middle=d
+z | B2B2 f2f2 | e2=e2 f2F2 | e2e2 B2B2 | e2f2 B2B :|
+z | b2e2 f2b2 | e2=e2 f2F2 | d2e2 f2d2 | f2F2 B2B2 |
+    b2e2 f2b2 | d2e2 f2f2 | B2f2 e2=e2 | f2F2 b2b |]
+
+%%sep 2 1 500
+
+X: 241
+T: The Ettrick Shepherd
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.24#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: jig
+M: 6/8
+L: 1/8
+K: D
+V: 1
+F/G/ |\
+Add (dcB) | (BA)G ~.F2A | (Bcd) (gfe) | (dc).e ~A2G |\
+(FA).d (dc).B | (Bgf) ~e2(f/g/) | afb gec | (.d.d.d) d2 :|
+|: (c/d/) |\
+!f!eee ~c2(d/e/) | (fga) !p!~b2a/g/ | .f(fg) f2e/d/ | c(e/d/c/B/) ~A2G |\
+!f!(FA).d (dc).B | !p!(Bgf) ~e2f/g/ | !f!a~g/f/~e/d/ | (Bgb) | .a(.A.c) d2 :|
+V: 2 clef=bass middle=d
+   z |\
+zd'c' bag | f2g dfa | g2G A2c | aec A2z |\
+dfa bgf | g2^g a2z | d3 a2A | dAF D2 :|
+|: z |\
+Ace aAz | d2f g2z | dfa d2z | ze^g a/b/a/=g/f/e/ |\
+dfa bag | g2^g a2z | d2f g2^g | a2A d2 :|
+
+%%sep 2 1 500
+
+X: 242
+T: Miss Maxwell Gordon's Reel
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.24#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: D
+V: 1
+G |\
+F>GAF D/D/D DF | EA,CE AGFE |\
+FGAF D/D/D DF | EA,CE D3 :|\
+G |\
+FGAF dcBA | ^GEGB edcB |
+cdec A/A/A Ac | BE^GB A2AB/c/ |\
+dAGF GBcd | edcB AGFE |\
+FGAF D/D/D DF | EA,CE D3 |]
+V: 2 clef=bass middle=d
+z | d2A2 F2D2 | A2A2 c2A2 | d2A2D2D2 | A2A2 D3 :|
+z | d2d2 f2d2 | e2^g2 b2g2 | a2e2 A2z2 | e2e2 c2A2 |
+    d2d2 g2^g2 | a2a2 f2d2 | d2A2 G2D2 | A2A2 D3 |]
+
+%%sep 2 1 500
+
+X: 243
+T: Sally Robinson's Favorite
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.24#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: The two bass lines should be combined on one staff.
+Q: "Slow with Expression"
+R: reel
+M: 2/4
+L: 1/16
+K: F
+V: 1
+cB |\
+!p!.A2(A2B2d2) | c3AF2 zB | (AG)(BA) (^cd).B.G | !f!(F4 {GF}.E2)cB |
+!p!.A2(A2B2d2) | c3AF2 zd | (cf).A.c (cB).A.G | !f!(G4 {AG}.F2) :|
+|: G2 |\
+!f!E4 B2GE | !p!F2.d.c .B.A.G.F | !f!E4 B2GE | !p!(FD)(GF) (AG).B.A |
+c3AB2 zd | c2(cd/B/) A2 zd | (cf).A.c (cB)AG | (G4 {AG}F2) :|
+V: 2 clef=bass middle=d
+z2 |\
+ac'ac' bc'bc' | ac'ac' a2G2 | f4 b2=b2 | c'2c'd' c'bag |
+ac'ac' bc'bc' | ac'ac' a2y2 | y8 | y6 :|
+|: z2 |\
+ecec ecec | fcfc fcfc | ecec ecec | f2z2 z4 |
+ac'ac' bc'bc' | ac'ac' fac'a | y8 | y6 :|
+V: 3 clef=bass middle=d
+z2 |\
+f4 f4 | f4 f2G2 | f4 b2=b2 | c'2c'd' c'bag |
+f4 f4 | f4 f2B2 | a2f2c'2c2 | f2c2F2 :|
+|: z2 | G8 | F8 | G8 | f2z2 z4 |
+f4 f4 | f4 f4 | a2f2c'2c2 | f2c2F2 :|
+
+%%sep 2 1 500
+
+X: 251
+T: Miss Sherriff's Strathspey
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.25#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: A
+V: 1
+|:\
+(A/B/c) c<a (A/B/c) c>a | a>gf>e f>g~a2 | (A/B/c) c<a (A/B/c) ca | a>gf>e d>B~c2 :|
+A>EB>E c>Ed>B | c>Ad>B e>c~f2 | A>FB>E c>Ed>B | cA (c/d/e) {g}f>e~a2 ||
+A>EB>E c>Ed>B | cAdc fe~a2 | (3aba g>e f>ed>c | c<Ad>e f>ga2 |]
+V: 2 clef=bass middle=d
+|:\
+[a2A2][a2A2] [a2A2][a2A2] | [a2A2][a2A2] [e2E2][a2A2] |\
+[a2A2][a2A2] [a2A2][a2A2] | [a2A2][d2D2] [e2E2][a2A2] :|
+[a2A2][g2G2] [a2A2][b2B2] | [a2A2][b2B2] [a2A2][d2D2] |\
+[a2A2][g2G2] [a2A2][b2B2] | [a2A2][a2A2] [e2E2][a2A2] ||
+[a2A2][g2G2] [a2A2][b2B2] | [a2A2][g2G2] [e2E2][a2A2] |\
+[a2A2][e2E2] [d2D2][e2E2] | [a2A2][a2A2] [a2A2][a2A2] |]
+
+%%sep 2 1 500
+
+X: 252
+T: Charles Street Bath
+O: a Favorite Country Dance
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.25#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: A
+V: 1
+   e | agag aece | fgag Tf2eg | aece fdBd | ceGB A2A :|
+|: c | EBGB EcAc | EBcd ~c2B2 | aece fdBd | ceGB A2A :|
+V: 2 clef=bass middle=d
+   z | A2A2 A2A2 | A2c2 d2c2 | A2a2 e2e2 | a2e2 A2A :|
+|: z | [e2G2][e2G2] [e2A2][e2A2] | [e2G2][e2G2] [e2A2][e2G2] | A2a2 e2E2 | a2e2 A2A :|
+
+%%sep 2 1 500
+
+X: 253
+T: James Boick, a Strathspey
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.25#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: Em
+V: 1
+D |\
+G>AB>G FDDF | ~G>(AB^d) eB-Be/f/ |\
+g>edc (B/c/d/B/) G>A | B>GAF BEE :|
+|: e/f/ |\
+gb gf/e/ (^d/e/f/d/) Be/f/ | gba>g fdde/f/ |\
+g>bB>G AB/G/ {g}HFG/A/ | B>GA>F BEE :|
+V: 2 clef=bass middle=d
+z | eEe^d =dfaz | gfe^d eBEz | cc'bf gd Gz | egbB eBE :|
+|: z | e'be^a bfBz | zd'c'b aAdz | e2gB c^c Hdz | egbB eBE :|
+
+%%sep 2 1 500
+
+X: 261
+T: Mrs Hardie's Strathspey
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.26#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: Bb
+V: 1
+d/c/ |\
+B>FD>B, B>FD>B, | C<c~c>B A<G~G>A | B>FD>B, D<FE>G | FBAF B2B :|
+d/e/ |\
+f>Bdf g>ceg | (e/d/c/B/) Ac F2~Fd/e/ | f>Bdf g>ceg | (e/d/c/B/) AF B2~Bd/e/ |
+f>Bdf g>ceg | (e/d/c/B/) Ac F2~FG/A/ | B>FD<B E<BD<B | G>eF>A B2B |]
+V: 2 clef=bass middle=d
+z | B2B2 B2B2 | f2F2 E2e2 | B2B2 B2e2 | f2F2 B2B :|
+z | [d2B2][d2B2] [e2B2][e2B2] | B2=e2 f2F2 | [d2B2][d2B2] [e2B2][e2B2] | f2F2 B2B2 |
+    B2B2 e2E2 | B2=e2 f2F2 | [d2B2][d2B2] [e2B2][d2B2] | e2f2 B2B |]
+
+%%sep 2 1 500
+
+X: 262
+T: Miss Norton's Reel
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.26#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: Bb
+V: 1
+F | B2dB AFFA | B2dB ecdB | B2dB (A/B/c) AF | GBAc B3 :|
+d | BFDF BcdB | edcB Accd | BFDF GABg | fdec B2B ||
+d | BFDF BcdB | ecdB cGGc | BFDF GABg | fdec B2B |]
+V: 2 clef=bass middle=d
+z | B2B2 F2F2 | B2B2 c2B2 | B2d2 f2F2 | e2f2 B3 :|
+z | B2B2 B2B2 | e2=e2 f2F2 | B2B2 B2d2 | f2F2 B2B ||
+z | B2B2 d2B2 | c2d2 e2E2 | B2B2 e2E2 | f2F2 B2B |]
+
+%%sep 2 1 500
+
+X: 263
+T: Knit the Pocky - a Reel
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.26#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: Dm
+V: 1
+F | Ddd^c defd | cdAc GcEC | Ddd^c defg | ed^ce d/d/d d :|
+A | defg afdf | edcg ecge | defg afdf | ecge d/d/d ~ dA |
+    defg afdf | edcg ecge | defg abaf | ecge d/d/d d |]
+V: 2 clef=bass middle=d
+z | d2d2 d2d2 | c2c2 c2c2 | d2d2 d2d2 | A2A2 D2D :|
+z | d2d2 f2g2 | c'2c2 c2c2 | d2d2 f2g2 | a2A2 d2d2 |
+    d2d2 f2g2 | c'2g2 c2c2 | d2d2 f2d2 | a2A2 d2d |]
+
+%%sep 2 1 500
+
+X: 271
+T: Hendrie's Hornpipe
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.27#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: Eb
+V: 1
+A2 | GFGA BAGF | Eede cBAG | (cAGF) BGFE | FBDF CB,A,G, | GFGA BAGF | Eedc edef |
+gedc fdcB | ecB=A B2 :| e2 | dcde fdcB | gedc c=BAG | c=Bce dGBd | c=Bce dGBd |
+cedf egfa | gedc fdc=B | c2 (f/g/a) gecA | GFED C3A | GFGA BAGF | Eede cBAG |
+cAGF BGFE | FBDF EDCB, | G3A BGFE | CAB,G A,FG,E | G,B,EG A,CFA | GFED E2 |]
+V: 2 clef=bass middle=d
+z2 | E2e2 E2e2 | E2e2 E2e2 | a2a2 g2g2 | f2f2 B2z2 | E2e2 E2e2 | E2e2 E2e2 |
+e4 d2e2 | f2F2 B2 :| z2 | B2b2 B2b2 | e2f2 g2G2 | e2c2 g2f2 | e2c2 g2f2 |
+e2=B2 c2d2 | e2f2 g2G2 | a2f2 g2c2 | A2A2 C3z | E2e2 E2e2 | E2e2 E2e2 |
+a2a2 g2g2 | f2f2 B2z2 | E2e2 E2e2 | a2g2 f2e2 | G2G2 A2A2 | B2B2 E2 |]
+
+%%sep 2 1 500
+
+X: 272
+T: Dr Rutherford of Craigow's Strathspey
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.27#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: strathspey
+M: C
+L: 1/16
+K: D
+V: 1
+A,2 |\
+DD3 {DE}F3E DD3 {DE}F3E | DD3 d3c {c}B3A {A}G4 |\
+DD3 {DE}F3E DD3 {DE}F3D | B,E3 ~E3D {D}C3B, C2A,2 |
+DD3 {DE}F3E DD3 {DE}F3E | DD3 d3c {c}B3A ~F2A2 |\
+G2B2 ~E3G F2A2 D2EF | G3E GF.E.D {D}C3B, C2A,2 ||
+DD3 d3f DD3 d4 | DD3 ~d3f fedc ~B2cd |\
+DD3 d2f2 ~B3d ~A2d2 | ~G3d F2A2 GFETD E2F2 |
+DD3 d3f DD3 d4 | DD3 ~d3f (fe).d.c (dc).B.A |\
+~B3d ~F3A ~G3B E2G2 | F2A2 D2EF (GF).E.D (DC).B,.A, |]
+V: 2 clef=bass middle=d
+z2 |\
+[d4D4][d4D4] [d4D4][d4D4] | [d4D4][d4D4] [g4G4][g4G4] |\
+[d4D4][d4D4] [d4D4][d4D4] | [e4E4][e4E4] [c4C4][A4A,4] |
+[d4D4][d4D4] [d4D4][d4D4] | [d4D4][d4D4] [g4G4][d4D4] |\
+[g4G4][c4C4] [d4D4][d4D4] | [c4C4][d4D4] [A4A,4][A4A,4] ||
+[d4D4][d4D4] [d4D4][d4D4] | [d4D4][f4F4] [a4A4][g4G4] |\
+[d4D4][f4F4] [g4G4][f4F4] | [e4E4][d4D4] [d4D4][A4A,4] |
+[d4D4][d4D4] [d4D4][d4D4] | [d4D4][f4F4] [a4A4][g4G4] |\
+[g4G4][d4D4] [B4B,4][c4C4] | [d4D4][d4D4] [A4A,4][A4A,4] |]
+
+%%sep 2 1 500
+
+X: 281
+T: Kitty Tyrrel
+O: Irish
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.28#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slow"
+R: waltz, air
+M: 3/4
+L: 1/8
+K: Eb
+V: 1
+E>C |\
+(B,2 C2) E2 | ~E4 (EF) | .G2 (e2 d2) | {d}c4 (de) |\
+(cB) (AG) (FE) | E4 (EF) | ~G2 (AG) (FE) | {D}C4 E>C |
+(B,2 C2) .E2 | ~E4 EF | .G2 (e2 d2) | {d}c4 (de) |\
+(cB) (AG) (FE) | (E2 C2) (E/F/G) | {G}F2 .E2 .E2 | E4 :|
+|: (B/c/d) |\
+(e2 d2) .e2 | (c2 d2) .e2 | ~f2 (ed) (Tc>B) | B4 (B/c/d) |\
+(e2 d2) .e2 | ~B2 (cB) (AG) | G2 ((3EFG) ((3GFE) | {D}C4 E>C |
+(B,2 C2) .E2 | TE4 EF | (G2 e2) .d2 | {d}c4 (de) |\
+(~cB) (~AG) (~FE) | (E2 C2) (E/F/G) | {G}F2 .E2 .E2 | .E4 :|
+V: 2 clef=bass middle=d
+z2 |\
+[e2G2] [e2A2] [e2B2] | [e2G2] g2 d2 | e4 b2 | a2 A2 z2 |\
+e4 B2 | e2 ga ga | b2 c'b ag | a2 A2 z2 |
+[g2e2] [a2e2] [g2e2] | e2 b2 g2 | e4 g2 | a2 A2 z2 |\
+e4 B2 | e2 a2 g2 | b2 B2 e2 | E4 :|
+|: z2 |\
+[g2e2] [a2e2] [g2e2] | a2 b2 g2 | f4 F2 | B4 z2 |\
+e2 f2 g2 | e2 ag fe | e4 G2 | A4 z2 |
+e2 a2 g2 | e2 g2 e2 | e2 g2 b2 | a2 A2 z2 |\
+e4 b2 | g2 a2 g2 | b4 B2 | E4 :|
+
+%%sep 2 1 500
+
+X: 282
+T: The Honble Henry Erskine's Favorite
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.28#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: jig, air
+M: 6/8
+L: 1/8
+K: Eb
+V: 1
+B, |\
+.E.E.E ~F2B | G2E (EF).G | A>Bc {c}BAG | {G}FDB, (B,C).D |\
+.E.E.E ~F2B | ~G2B (Bed) | .c(Ac) .B(DF) | .E.E.E .E2 :|
+|: (G/A/) |\
+(Bde) (gec) | (cag) {g}Tf2g/a/ | (bg).e .c(ag) | .f=Ac ~B2G/_A/ |\
+.B(BG) .c(cA) | GBe Hg2 (f/4e/4d/4c/4) | .B(Gc) .B(DF) | .E.E.E E2 :|
+V: 2 clef=bass middle=d
+z |\
+e2E Bdf | eBG E2z | f2a g2e | Bdf B2z |\
+e2E Bdf | eBG E2z | A2a b2B | eBG E2 :|
+|: z |\
+e'3 e3 | a2=a b2z | e2g a2=a | b2f B2z |\
+GBe Acf | g2b e'2z | e2f b2B | eBG E2 :|
+
+%%sep 2 1 500
+
+X: 283
+T: Mrs Johnston's Reel
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.28#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: Em
+V: 1
+B,| E3F GAB2 | AGFE DEFD | E3F GABc | BAGF GEE :|
+B | efgf edB2 | cBAG FED2 | EFGA B^def | gebB e2e ||
+f | gef^d eBGB | cABG FdDF | ~E>FGA B^def | gef^d e2e |]
+V: 2 clef=bass middle=d
+z | e2e2 e2e2 | d2d2 d2d2 | e2e2 e2e2 | B2B2 e2e :|
+z | e2e2 e2g2 | d2d2 d2d2 | e2e2 e2e2 | B2B2 e2e ||
+z | e2^d2 e2e2 | d2d2 d2d2 | e2e2 e2e2 | B2B2 e2e |]
+
+%%sep 2 1 500
+
+X: 291
+T: Miss Dallas's Strathspey
+C: By j Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.29#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: D
+V: 1
+A |: d<df>d a>fg>e | d<df>d c<ec>A | d<df>d a>df>d | (3gag (3fgf (3efd (3cBA :|
+d>AF>A d>Af>d | d>AF>A B<dc>A | d>AF>A G<BF<A | ~Be (g/f/e/d/) c<e~e>f |
+d>AFA G>BFA | d>AFA B<ecA | d>fA=c BgG>B | (3cef (3gec (3dAG (3FED |]
+V: 2 clef=bass middle=d
+z |: d2d2 f2d2 | d2d2 A2A2 | d2d2 f2d2 | e2d2 c2A2 :|
+d2d2 f2d2 | d2d2 g2a2 | d2d2 e2d2 | g2^g2 a2A2 |
+d2d2 e2d2 | d2d2 g2a2 | d3=c G3^G | A2a2 A2z2 |]
+
+%%sep 2 1 500
+
+X: 292
+T: Miss Balfour's Strathspey
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.29#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slow"
+R: strathspey
+M: C
+L: 1/8
+K: G
+V: 1
+G |\
+(D<G)~G>F (E<A)~A>F | (G<B)~B>A {A}G>F {F}ED |\
+DG~GF Ec~cB | (Ae)dF G2G :|
+B |\
+Gg~f>e {e}d>BGF | (Ecc)A/G/ (G/F/).A/.F/ DE/F/ |\
+Ggdg e>cAG | (F/A/d) (d/^c/d/e/) (d/e/d/=c/) ({c}~B/A/B/G/) |
+(D<G)GF (EA)AF | .G/.A/.B/.c/ .d/.e/.f/.g/ .a/.b/.c'/.d'/ He'2 |\
+DGGF Ec~cB | (A/B/c/).e/ dF {F}G2 G |]
+V: 2 clef=bass middle=d
+z |\
+[g2d2B2][g2d2B2] [a2e2^c2][a2e2^c2] | [g2d2B2][g2d2B2] [g2d2B2][g2e2c2] |\
+[g2d2B2][g2d2B2] [g2e2c2][g2e2c2] | z^c'd'd gdG :|
+z |\
+zbag zgGz | zce^c dADz |\
+g2b2 c'ac'^c' | [d'4d4] [g4G4] |
+[g2d2B2][g2d2B2] [a2e2^c2][a2f2d2] | [gdB]zz2 f/g/a/b/ H[c'2g2e2c2] |\
+[g2d2B2][g2d2B2] [g2e2c2][g2e2c2] | z^cdD GgG |]
+
+%%sep 2 1 500
+
+X: 293
+T: The Honey Moon
+C: a Favorite Country Dance
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.29#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: 2/4
+L: 1/8
+K: D
+V: 1
+|: Addd | dffa | gfed | ceA2 | Addd | dffa | {a}gfge | d2-d2 :|
+|: d>A{BAG}A2 | G>d{edc}d2 | AFED | CE{FE^D}E2 | d>A{BAG}A2 | G>d {edc}de | f>ge>f | d2-d2 :|
+V: 2 clef=bass middle=d
+|: [f2d2]a2 | [f2d2]a2 | efg^g | a2A2 | [f2d2]a2 | [f2d2]a2 | [e2A2]a2 | [f4d4] :|
+|: [f2d2]a2 | [g2d2]b2 | dfg^g | aAa2 | [f2d2]a2 | [g2d2]b^g | a2A2 | d2D2 :|
+
+%%sep 2 1 500
+
+X: 301
+T: Miss Millar's Strathspey
+C: by J Pringle
+N: fixed typo in composer's name ;-)
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.30#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: D
+V: 1
+G | F<AA>B A>FD>F | A>FDd {c}TB2Bd | F<AA>B A>FDF | G>ABG {F}E2E :|
+G | F>AD>A F>GAG | F>ADd {c}B2~Bd | F>AD>A B>cdB | (B/A/G/F/) d>F {F}E2EG |
+    F>AD>A F>GAG | FA Df/d/ {c}B2Bc | d<fc<e B<dA>F | (B/A/).G/.F/ d>F D2D |]
+V: 2 clef=bass middle=d
+z | [d2D2][d2D2] [d2D2][d2D2] | [d2D2][d2D2] [g2G2][g2G2] |\
+    [d2D2][d2D2] [d2D2][d2D2] | [g2G2][^g2^G2] [a2A2][aA] :|
+z | [d2D2][d2D2] [d2D2][d2D2] | [d2D2][f2F2] [g2G2][g2G2] |\
+    d2f2 g2G2 | g2d2 c2A2 |
+	[d2D2][d2D2] [d2D2][d2D2] | [d2D2][f2F2] [g2G2][g2G2] |\
+	[d2D2][a2A2] [g2G2][f2F2] | [g2G2][a2A2] [d2D2][dD] :\
+
+%%sep 2 1 500
+
+X: 302
+T: Miss Bonnar's Reel
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.30#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: D
+V: 1
+A | d2af gefc | d2af geef | d2af gefd | cdea fdd :|\
+B | ABAF Adfa | gefd ceef |
+ABAF Addf | geac d2dB |\
+ABAF Addf | gefd ceed | BdAB FAdf | geac d2d :|
+V: 2 clef=bass middle=d
+z | d2f2 e2d2 | d2d2 e2A2 | d2f2 e2d2 | A2A2 d2d :|
+a | d2d2 d2d2 | e2e2 A2A2 | d2d2 d2d2 | g2a2 d2d2 |
+    d2d2 d2d2 | e2d2 A2a2 | g2f2 d2f2 | g2a2 d2d :\
+
+%%sep 2 1 500
+
+X: 303
+T: Mr E Marjoribanks' Quick Step
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.30#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: reel
+M: 2/4
+L: 1/16
+K: Bb
+V: 1
+dc |\
+B2B,2D2F2 | {E}G4 ~G2A2 | (B>A)(c>B) (e>d)(g>f) | (edcB) {A}G2dc |\
+B2B,2D2F2 | E2G2 G2(cB) | (ABcA) .F2.A2 | B4 B2 :|
+|: dc |\
+B3c (Bcde) | (fgab) {=B}c4 | e2e2 (ge)(cB) | A3B c2de |\
+f3d B2(AG) | F2GA B2cd | e2e2 ( dcBA) | (cBA).c B2 :|
+V: 2 clef=bass middle=d
+z2 |\
+B2d2f2d2 | e2E2G2B2 | B4 F4 | B2d2 e2E2 |\
+z2d2f2d2 | e2E2G2B2 | c2=e2f2F2 | B2b2 B2 :|
+|: z2 |\
+b2B2d2f2 | B2b2a2f2 | e2g2c'2a2 | f2g2a2f2 |\
+B2b2d2=e2 | f2a2b2B2 | e2g2 c'2a2 | b2f2 B2 :|
+
+%%sep 2 1 500
+
+X: 311
+T: Miss Maria Stewart's Jigg
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.31#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: F
+V: 1
+c |\
+{e}f2c f2c | fga gfe | d2f ~c2A | BGG ~G2c |\
+f2c f2c | f2a g2e | {e}f2d {d}c2B | AFF F2 :|
+B |\
+AFF cFF | dFF cFF | d2f ~c2A | BGG ~G2c |\
+AFF cFF | dFF cFF | d2f ~c2B | AFF F2 ||
+B |\
+AFF cFF | dFF cFF | d2f ~c2A | BGG ~G2c |\
+{g}fef gab | agf efg | f2d ~c2B | AFF F2 |]
+V: 2 clef=bass middle=d
+z |\
+[f3F3] [f3F3] | [f3F3] [e3E3] | [b3B3] [a3A3] | [g3G3] [c3C3] |\
+[f3F3] [f3F3] | [f3F3] [c3C3] | [B3B,3] [c3C3] | f3 F2 :|
+z |\
+[a3f3] [a3f3] | [b3f3] [a3f3] | [b3f3] [a3f3] | [g3c3] [g3c3] |\
+[a3f3] [a3f3] | [b3f3] [a3f3] | [b3B3] [c'3c3] | f3 f2 ||
+z |\
+[a3f3] [a3f3] | [b3f3] [a3f3] | [b3f3] [a3f3] | [g3c3] [g3c3] |\
+[a3f3] [b3f3] | [a3f3] [g3c3] | [b3B3] [c'3c3] | [f3F3] [f2F2] |]
+
+%%sep 2 1 500
+
+X: 312
+T: Mr James Campbell's Strathspey
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.31#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: D
+V: 1
+G |\
+F<A{c}d2 ~B>cd2 | A<F~F>A BE~E>G |\
+F<Ad2 c>deg | f>d (f/e/).d/.c/ {c}d2D :|
+g |\
+f>da>d c<ee>g | f>d (e/d/c/B/) cAAg |\
+f>df<a g<be>g | f<ae>g f<dd>g |
+f>da>d ceeg | f>d (e/d/c/B/) cAAG |\
+F>DD<d c<eA>g | fd f/e/d/c/ d2D |]
+V: 2 clef=bass middle=d
+z |
+[a2f2d2][a2f2d2] [b2g2d2][b2g2d2] | [a2f2d2][a2f2d2] [a2e2c2][a2e2c2] |\
+[a2f2d2][a2f2d2] [a2e2c2][a2e2c2] | d2A2 D2D :|
+z |
+[a2f2d2][a2f2d2] [a2e2c2][a2e2c2] | [a2f2d2][a2f2d2] [a2e2c2][a2e2c2] |\
+[a2f2d2][a2d2f2] [b2g2d2][a2f2d2] | d'2a2 d2d2 |
+[a2f2d2][a2f2d2] [a2e2c2][a2e2c2] | [a2f2d2][a2f2d2] [a2e2c2][a2e2c2] |\
+d2D2 a2a2 | d2A2 D2d |]
+
+%%sep 2 1 500
+
+X: 313
+T: Mr John Scott's Reel
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.31#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: D
+V: 1
+f | d2AG FEDF | Eeed cBAc | dABG FGAF | Dd (e/f/g) fdd :|
+f | defg abaf | abaf beef | defg abag | fd (g/a/b) fddf |
+    defg abaf | abaf beef | dfeg fagb | afeg fdd |]
+V: 2 clef=bass middle=d
+z | d2d2 d2d2 | e2e2 A2A2 | f2g2 d2d2 | A2A2 d2d :|
+z | d2d2 d2d2 | d2d2 e2A2 | d2d2 d2d2 | A2A2 d2d2 |
+    d2d2 d2d2 | d2d2 e2c2 | d2c2 d2e2 | a2A2 d2d |]
+
+%%sep 2 1 500
+
+X: 321
+T: Willie Pringle, a Strathspey
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.32#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slow"
+R: strathspey
+M: C
+L: 1/8
+K: Gm
+V: 1
+^f | g<d~d>c {c}BAGA | B>c (e/d/c/B/) {B}A2 D^f |\
+     g<d~d>c {c}B>AGA | B>G (B/A/)(G/^F/) G2G, :|
+A | B>dfb A>cea | B>c e/d/c/B/ {B}~A2 D>A |\
+    B>dfb A>cea | B>G B/A/.G/^F/ G2 G, ||
+A | B>dfb A>cea | (B/A/B/c/) (e/d/c/B/) {B}~A2 D^f |\
+    ~g(a/b/) a>g ~^f(g/a/) d>c | {c}B>G B/A/G/^F/ G2G, |]
+V: 2 clef=bass middle=d
+z | g2G2  gdGz | Bde=e f2z2 | zbgf  gdGz | zcdD GDG, :|
+z | b2b2  a2a2 | zde=e f2z2 | b2b2  a2a2 | zedD GDG, ||
+z | zbd'b zfaf | bde=e f2z2 | g2^f2 d2B2 | zcdD GDG, |]
+
+%%sep 2 1 500
+
+X: 322
+T: Miss Julia Sinclair's Favorite
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.32#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: jig
+M: 6/8
+L: 1/8
+K: Gm
+V: 1
+d |\
+BGG ~G2A | (Bdf) g2a | b2g fdB | fdB ~c2d |\
+BGG G2A | Bdf gbg | fdB ~c2d | BGG G2 :|
+|: g/a/ |\
+bag dbg | fdB Tc>Bc | d2g ^fga | bab ~g2a |\
+b2g fdg | fdB ~c>Bc | ~ d2g fdc | BGG G2 :|
+V: 2 clef=bass middle=d
+z |\
+g3 G3 | B2d e2f | d2e d2B | d2=e f2z |\
+g3 G3 | B3  e3  | B2b a2^f | gdB G2 :|
+|: z |\
+g2^f g2G | d2=e f2a | b2e d2^f | g2d G2z |\
+g2e d2e | d2B f2^f | g2b d'2d | gdB G2 :|
+
+%%sep 2 1 500
+
+X: 323
+T: Miss Macdonald Buchanan's Strathspey
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.32#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slow"
+R: strathspey
+M: C
+L: 1/8
+K: D
+V: 1
+A, |\
+D<D~F>A BE~E>F | D<DF>A BB,B,A, |\
+DDF>A ~Bc/d/ (B/A/).G/.F/ | {F}E>D {G}~F>E DB,B, :|
+|: (A//B//c/) |\
+dd ~d(f/d/) {B}Ad/A/ (G/F/).E/.D/ | dd (f/e/)(d/c/) ~cB B(A//B//c/) |\
+~df/d/ ~Ad/A/ F/G/A/B/ {F}~HE2 | D<D {G}F>E DB,B, :|
+V: 2 clef=bass middle=d
+   z | d2d2 c2A2 | d2A2 G2G2 | d2d2 g2f2 | a2A2 G2G :|
+|: z | d2d2 f2d2 | d2d2 g2G2 | d2F2 G^GHA2 | d2A2 G2G :|
+
+%%sep 2 1 500
+
+X: 331
+T: The Prince of Wales's Fancy
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.33#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: march, reel
+M: 2/4
+L: 1/8
+K: Bb
+V: 1
+d/c/ |\
+.B.F.B.F | (DF).F.F | (EG).G.G | e2~dc |\
+.B.F.B.F | (DF).F.F | (Ge).c.A | B2HB :|
+|: d/e/ |\
+.f.d.e.f | gabg | fdcB | {=e}f2f(d/_e/) |\
+fdef ga ba/g/ | (g/f/)(e/d/) (e/d/)(c/B/) | {=e}Hf3 :|
+V: 2 clef=bass middle=d
+   z | g2f2 | B2d2 | e2c2 | [f2A2]z2 | B2b2 | f2d2 | e2f2 | b2HB :|
+|: z | B2B2 | e2e2 | B2=e2 | f3 z | d'bc'd' | e'f'g'e' | bd'c'=e' | Hf'3 :|
+
+%%sep 2 1 500
+
+X: 332
+T: Lady Jardine of Applegirth's New Strathspey
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.33#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: Bb
+V: 1
+|:\
+D>FB,>f (e/d/c/B/) cG | F<D~G>A B>FBd  | D>FB,d (e/d/c/B/) ~cd  | B>FGA   Bdcd :|
+B>fd>f (e/d/c/B/) ~cd | B>fd>f  B>fd>f | B>fd>f (e/d/c/B/) ~cd  | B>cdc   B>FBd |
+B>fdf  (e/d/c/B/) ~cd | B>fd>f  B>fdB  | e<fd<f (e/d/c/B/) ~c>d | ~B>cd>c B>FBd |]
+V: 2 clef=bass middle=d
+|:\
+B2B2 f2F2 | B2B2 d2B2 | B2B2 f2F2 | B2B2 B2B2 :|
+B2B2 f2F2 | B2B2 B2B2 | B2B2 f2F2 | B2B2 B2B2 |
+B2B2 f2F2 | B2B2 B2B2 | c2B2 f2F2 | B2B2 B2B2 |]
+
+%%sep 2 1 500
+
+X: 333
+T: The Honble. Miss H Elliiot's Dance
+N: Did her last name really have two 'i's?
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.33#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: reel
+M: 2/4
+L: 1/16
+K: G
+V: 1
+(Bc) |\
+.d2(dc) .B2(BA) | .G2(GA) (BA).B.G | .c2(cB) .A2(AG) | F2FE (FE)D2 |\
+G2(Bd) (dc)AF | G2Bd D4 | G2Bd dcAF | G4 HG2 :|
+|: B2 |\
+[e2B2] e4 e2 | ^d2(d^c) (dcB2) | [e2B2] e4 g2 | {g}f2fe fefd |\
+[g2B2] [g4B4] b2 | {b}a2ag agfa | gfeg fe^df | (efgf) !D.C.!e2 :|
+V: 2 clef=bass middle=d
+z2 |\
+G2g2 G2g2 | G2g2 G2g2 | d2c'2 d2^c'2 | d2d'2 d2d'2 |\
+g2b2 B2d'2 | g2b2 d2D2 | g2b2 d'2d2 | g2d2 HG2 :|
+|: z2 |\
+e2e'2 e2e'2 | B2b2 B2b2 | e2e'2 e2e'2 | d2d'2 d2d'2 |\
+G2B2 d2g2 | f6 ^d2 | e2g2 b2B2 | e2B2 E2 :|
+
+%%sep 2 1 500
+
+X: 341
+T: Mr James Jenkins's Strathspey
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.34#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: G
+V: 1
+d/c/ |\
+B>GE>C B,D G,d/c/ | B>GD>B, A,A Ad/c/ |\
+B>GD>C B,>CDG | F>GAF DG G :|
+B |\
+G>Bdg (f/g/).f/.e/ ~d>c | G>Bdg faa2 |\
+G>Bdg (f/g/).f/.e/ d>B | c>BA>G F<A~AB |
+G>Bdg (f/g/).f/.e/ ~d>B | G>Bdg f<a~a>f |\
+g<b~d>B c<a~A>B | c>BAG FAA |]
+V: 2 clef=bass middle=d
+z |\
+[g2G2][g2G2] [g2G2][g2G2] | [g2G2][g2G2] [d2D2][d2D2] |\
+[g2G2][g2G2] [g2G2][g2G2] | [d2D2][d2D2] [g2G2][gG] :|
+z |\
+[g2G2][g2G2] [a2A2][g2G2] | [g2G2][g2G2] d2d2 |\
+[g2G2][g2G2] [a2A2][g2G2] | [c'2e2][b2d2] [a2d2][a2d2] |
+[g2G2][g2G2] [a2A2][g2G2] | [g2G2][g2G2] [d2D2][d'2d2] |\
+b3^g a2d2 | [c'2d2][b2d2] [a2d2][ad] |]
+
+%%sep 2 1 500
+
+X: 342
+T: Miss Colquhoun's Reel
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.34#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: G
+V: 1
+|:\
+G2GB AG~E2 | G2GB cABd | efge dgBG | AGBA GFED :|
+g2gb egdB  | g2fe dBAG | g2gf efgB | cABG (GF)(~ED) |
+g2gb egdB  | g2gf efga | bgaf gedB | cABG (GF).E.D |]
+V: 2 clef=bass middle=d
+|:\
+g2g2 d2c2 | g2g2 f2g2  | c2c2 B2G2  | f2g2 d2d2 :|
+g2g2 g2g2 | g2d2 G2G2  | g2g2 c'2b2 | f2g2 d2d2 |
+g2g2 g2g2 | g2b2 c'2b2 | g2f2 e2d2  | f2g2 d2d2 |]
+
+%%sep 2 1 500
+
+X: 343
+T: Muirland Willie
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.34#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: jig
+M: 6/8
+L: 1/8
+K: Gm
+V: 1
+D |\
+G2A B2c | ded f2d | BdB f2(e/d/) | ~c2B {B}AG^F |\
+G>AG B2c | dcd b2a | g^fg (dg)f | g3- g2 :|
+|: d |\
+g2a b2g | f2d f2d | B>cB f2e/d/ | ~c>dB AG^F |\
+GAG B2c | d>ed b2a | (g^fg) (dg).f | g3- g2 :|
+V: 2 clef=bass middle=d
+z |\
+zBd g2a | b2g bd'b | d2b a2b | a2g d'2d |\
+g2g g2a | b2^f g2a | bd'b d'2d | gdB G2 :|
+|: z |\
+g2z g2z | a2b bd'b | d2b a2b | a2g d'2d |\
+g2z b2a | g2^f g2a | bd'^c' d'2d | gdB G2 :|
+
+%%sep 2 1 500
+
+X: 351
+T: Miss Charlott Carruthers's Favorite
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.35#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: jig
+M: 6/8
+L: 1/8
+K: G
+V: 1
+B,/C/ |\
+D>ED DB,D | DB,D G,2G/A/ | {c}B>AG {A}G>FE | {F}E>DC B,2B,/C/ | D>ED DB,D |
+GAB {d}c2B | ~EFG ABc | .B(DF) G2 :: B/c/ | d>ed .g(dB) | cAd {c}B2A |
+G>FE c>BA | (GF).A D2B/c/ | d>ed gfe | .d(gb) gdB | (Ace) .d(DF) | GAG G2 :|
+V: 2 clef=bass middle=d
+z |\
+B3 B3 | d2D G,2z | G2g e2c | c2A G2z | B3 B3 |
+g2G a2g | c2^c d2z | g2d G2 :: z | [g3G3] [g3G3] | d3 g2f |
+e2c G2z | c2^c d2z | [g3G3] [g3G3] | [g3G3] [g3G3] | c3 d3 | G2d G2 :|
+
+%%sep 2 1 500
+
+X: 352
+T: Hawick, a Strathspey
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.35#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: G
+V: 1
+c |\
+(B/c/d) .d-.d d<dBG | (A/B/c) .c-.c c<cAc |\
+(B/c/d) .d-.d d<dBG | ~Ec (B/A/G/F/) G2Gc |
+(B/c/d) .d-.d d<gBG | (A/B/c) cc caAc |\
+(B/c/d) d>d {f}g>dBG | E>c B/A/G/F/ G2G ||
+c |\
+B<G~G>c BdBG | A<=FF>c AcAc |\
+BGGc BdBG | ~Ec (B/A/G/F/) G2~G ||
+c |\
+BGGc (B/c/d/c/) BG | A=FFc (A/B/c/B/) Ac |\
+BGGc B<g~BG | E>c (B/A/G/F/) G2G |]
+V: 2 clef=bass middle=d
+z |\
+[b2g2d2][b2g2d2] [b2g2d2][b2g2d2] | [a2f2d2][a2f2d2] [a2f2d2][a2f2d2] |\
+[b2g2d2][b2g2d2] [b2g2d2][b2g2d2] | [g2e2c2][a2f2d2] [g2d2B2][g2d2B2] |
+[b2g2d2][b2g2d2] [b2g2d2][b2g2d2] | [a2f2d2][a2f2d2] [a2f2d2][a2f2d2] |\
+[b2g2d2][b2g2d2] [b2g2d2][b2g2d2] | [g2e2c2][a2f2d2] [g2d2B2][gdB] ||
+z |\
+[g2d2B2][g2d2B2] [g2d2B2][g2d2B2] | [=f2c2A2][f2c2A2] [f2c2A2][f2c2A2] |\
+[g2d2B2][g2d2B2] [g2d2B2][g2d2B2] | [g2e2c2][a2f2d2] [g2d2B2][gdB] ||
+z |\
+[g2d2B2][g2d2B2] [g2d2B2][g2d2B2] | [=f2c2A2][f2c2A2] [f2c2A2][f2c2A2] |\
+[g2d2B2][g2d2B2] [g2d2B2][g2d2B2] | [g2e2c2][a2f2d2] [g2d2B2][gdB] |]
+
+%%sep 2 1 500
+
+X: 353
+T: Miss Haldane's Jigg
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.35#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: G
+V: 1
+D |\
+~G3 Bcd | ecA dBG | ~E3 ABc | AFD D2F |\
+{A}GFG Bcd | efg gfe | dcB cAd | BGG G2 :|
+|: c |\
+Bcd edc | ABc dcB | EFG ABc | BAG AFD |\
+Bcd gfe | dcB ABc | BGB AFD | G3 G2 :|
+V: 2 clef=bass middle=d
+z |\
+g3 g3 | c3 B3 | c3 ^c3 | d3 D3 |\
+g3 G3 | c3 ^c3 | d3 d3 | g3 G2 :|
+|: z |\
+g3 g3 | f3 g3 | c3 d3 | g3 d3 |\
+g3 c3 | B3 d3 | g3 d3 | G3 G2 :|
+
+%%sep 2 1 500
+
+X: 361
+T: Betsy Howison's Favorite
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.36#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: jig
+M: 6/8
+L: 1/8
+K: G
+V: 1
+D |:\
+G2D DEF | G2D DEF | G2g (gf).e | d<gB {B}A2G |\
+G2D DEF | G2D DB,D | G>AB AGF | EAG ~F2D :|
+|:\
+G2G GAB | {d}cBA BGE | G2G efg | {f}edB def |\
+gdB ecA | dBG AFD | G>AB c>de | d<gB {B}A2G :|
+V: 2 clef=bass middle=d
+z |\
+g2f {f}e2d | g2f {f}e2d | GBd g2f | g2G d2z |\
+g2f {f}e2d | g2f g2G | g3 d3 | c2^c d3 :|
+|:\
+g3 g3 | d2^d e2E | g2G c2g | e3 B3 |\
+g3 c'3 | g3 d3 | g2G c2^c | d2D G2G :|
+
+%%sep 2 1 500
+
+X: 362
+T: The Honble Margaret Erskine's Reel
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.36#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: G
+V: 1
+(B/c/) |\
+dgfe d2BG | cABG (GF)ED | dgfe d2BG | ABcA G2G :|
+c |\
+B>GdB FGAB | cdef gdcB | BGdB FGAB | cAGF G2Gc |
+BGdG FGAB | cdef gbdB | (cB)cd ecAG | FDEF G2G |]
+V: 2 clef=bass middle=d
+z | g2g2 b2g2 | a2g2 d2d2 | g2g2 b2g2 | d2D2 G2G :|
+z | g2b2 a2f2 | c2^c2 d2d2 | g2g2 d2d2 | A2d2 G2G2 |
+    g2b2 a2f2 | e2c2 B2g2 | e2d2 c2^c2 | d2D2 G2G |]
+
+%%sep 2 1 500
+
+X: 363
+T: The Marriage Morn
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.36#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slow with Expression"
+R: jig, air
+M: 6/8
+L: 1/8
+K: Eb
+V: 1
+B/A/ | G2B A2c | {c}B2A ~G2B | ~F2G ~E2B | ~F2G E2B, | AGA{G}F2B, | AGA {G}F2B, |
+BcB A2A | (GA).F {A}G2E | FG=A B2~B | c2=A B2B | A2~A G2B | A2~A G2B |
+({c}BA)G {G}~F2B | {c}B=AB B,2_d | _dc=B {B}~c2_B/A/ | GFG (A>B)c | B>cA G2~F | E3- E2 |]
+V: 2 clef=bass middle=d
+z | E3 A3 | B2=B c2z | B3 e3 | b2B e2z | zbb bbb | zbb bbb |
+e3 f3 | b2B e2z | B2f g2=e | f2F B2z | b2B e3 | d2f e3 |
+ga=a b2z | Bdf B2z | b2g a2z | e3 a3 | g2a b2B | EGB E2 |]
+
+%%sep 2 1 500
+
+X: 371
+T: Lady Dalrymple Hay's Strathspey
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.37#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Should the Em chords be G chords?
+Q: "Slow"
+R: strathspey
+M: C
+L: 1/8
+K: C
+V: 1
+E/F/ |\
+~G>AG>E ~G>AGE | ~c>d .e/.d/.c/.B/ .A/.G/.F/.E/ .D/.E/.F/.D/ |\
+G>AGE G>AGf | e<cg>e {e}d2 c :|
+e/f/ |\
+g>a~ge  g>a~ge | ea (a/g/)(f/e/) ed ~de/f/ |\
+g>age c>dcG | Aagf e~d c ||
+e/f/ |\
+g>age  g>age | ea (a/g/)(f/e/) ed~de |\
+c>ecG A(B/c/) (B/A/).G/.F/ | .E.G (c/e/).g/.e/ {e}d2 c |]
+V: 2 clef=bass middle=d
+z |\
+[c'2g2e2][c'2g2e2] [c'2g2e2][c'2g2e2] | [c'2g2e2][c'2g2e2] [c'2g2e2][b2g2e2] |\
+[c'2g2e2][c'2g2e2] [c'2g2e2][c'2g2e2] | [c'2g2e2][c'2g2e2] gG c :|
+z |\
+[c'2g2e2][c'2g2e2] [c'2g2e2][c'2g2e2] | [c'2g2e2][c'2g2e2] [b2g2e2][b2g2e2] |\
+[c'2g2e2][c'2g2e2] c'gcz | zf'e'd' c'gc  ||
+z |\
+[c'2g2e2][c'2g2e2] [c'2g2e2][c'2g2e2] | [c'2g2e2][c'2g2e2] [b2g2e2][b2g2e2] |\
+[c'3c3][_b_B] a2f2 | cdgG gG c |]
+
+%%sep 2 1 500
+
+X: 372
+T: Miss Jane Hunter's Reel
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.37#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: C
+V: 1
+G |\
+ECce dDDe | fedc BGGF | ECc_B AFfe | dBGB c2c :|
+f |\
+ec (a/g/f/e/) afdf | ecAc BdGf | ec (a/g/f/e/) afdf | ecdB c2~cf |
+ec (a/g/f/e/) a>fdf | ecAc BdGF | EcGE FADf | ecdB c2c |]
+V: 2 clef=bass middle=d
+z | c2c2 B2G2 | c2c2 G2G2 | c2e2 f2F2 | g2G2 c2c :|
+z | c2e2 f2g2 | c2c'2 g2G2 | c2e2 f2g2 | c2G2 c2c2 |
+    c2e2 f2g2 | e2^f2 g2G2 | c2e2 f2b2 | c'2g2 c2c |]
+
+%%sep 2 1 500
+
+X: 373
+T: Miss H Scott's Strathspey
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.37#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: F
+V: 1
+(B/c/) |\
+c<Af>A ~G>AB>d | c<AF>c d2Tdf | c<Af>A ~G>AB>d | cd/e/ f>d {B}A2A :|
+c |\
+f<ag<a f>cAF | f<ac>a {a}g2ga | f<ac>A d>efd | cA (c/B/A/G/) F2Fc/e/ |
+f<ag<a f>cAF | G<ac<a {a}g2~gf/g/ | a>fcA ~d>efd | e<gc>e f2f |]
+V: 2 clef=bass middle=d
+z | f2f2 c2c2 | f2a2 b2B2 | f2f2 c2c2 | f2f2 f2f :|
+z | [a2f2][a2f2] [a2f2][a2f2] | [a2f2][a2f2] [g2c2][g2c2] | [a2f2][a2f2] b2B2 | c2C2 F2F2 |
+    [a2f2][a2f2] [a2f2][a2f2] | [a2f2][a2f2] [g2c2][g2c2] | f2a2 b2B2 | c'2c2 f2f |]
+
+%%sep 2 1 500
+
+X: 381
+T: Miss Nisbet's Strathspey
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.38#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: C
+L: 1/8
+K: A
+V: 1
+E |\
+A>BA>B c<ec>A | ~B>c (d/c/B/A/) B<dG>E | A>cA>E ~F>GA>F | ~E>FA>B cA A :|
+c/d/ |\
+e>Ac>A aAAc/d/ | e>Af>A GBB(c/d/) | e>Af>A g>Aa>A | E>FAB cAAc/d/ |
+e>Ac>A a<AAc/d/ | e>Af>A GBBc/d/ | e>cf>d g>ea>e | f>dBg aA A |]
+V: 2 clef=bass middle=d
+z | a2a2 a2a2 | e2e2 e2e2 | a2A2 d2^d2 | e2E2 A2A :|
+z | a2a2 a2a2 | c'2d'2 e'2e2 | c'2d'2 b2a2 | e2E2 A2A2 |
+    a2a2 a2a2 | c'2d'2 e'2e2 | c'2d'2 e'2a2 | d2e2 A2A |]
+
+%%sep 2 1 500
+
+X: 382
+T: Mrs Col. Ross's Reel
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.38#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: A
+V: 1
+e | a2ce dcBA | Bcde fdcB | a2ce dcBA | AGFE A2A :|
+E | AEcA dBec | fgaf ecAc | AEcA dcde | fgaf e2ec |
+    fdcB ecBA | dBAG cAGF | EFGA Bcde | fdcB A2A |]
+V: 2 clef=bass middle=d
+z | a2a2 a2a2  | e2e2   e2e2 | a2a2 a2a2 | e2e2  A2A :|
+z | a2a2 b2c'2 | d'2d'2 a2a2 | a2a2 b2g2 | d2^d2 e2e2 |
+    b2b2 a2a2  | e2^e2  f2f2 | e2e2 g2e2 | d2e2  A2A |]
+
+%%sep 2 1 500
+
+X: 383
+T: The Fertish Hill
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.38#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: jig, air
+M: 6/8
+L: 1/8
+K: E
+V: 1
+B |\
+e2e ge2 | b3 g2b | {b}a2f ~fga | gec ~c2B |\
+e2e gab | a2f ~fga | geB ~c2e | e3- e2 :|
+|: B |\
+e2d cag | ~f2e dba | geb bag | fed cde |\
+e>fg edc | Bdf ~fga | (ge).B ~c2d | e3 e3 |]
+V: 2 clef=bass middle=d
+z | egb e3 | g3 e2z | B3 B3 | e3 A2z |\
+egb e3 | B3 B3 | e3 A2B | eBG E2 :|
+|: z |\
+e3 A3 | B2c d2z | e3 e3 | B3 A3 |\
+e3 A2A | B3 B3 | e3 A2B | eBG E2 :|
+
+%%sep 2 1 500
+
+X: 391
+T: The Loyal Edinburgh Spearmen's March
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.39#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Pomposo"
+R: march, strathspey
+M: C
+L: 1/8
+K: Bb
+V: 1
+F2 |\
+B2B>B B>cd>e | {e}d2B>B B2df | !p!(e>d)(gf) (ed).c.B | !f!A2c>c ~c2(de) |
+f2f>f !p!fbab | !f!{a}g2f>f !p!~f2df | g>ed>B e>gA>c | !f!B2B>B B2 :|
+|: !f!A>B |\
+c2c>c !p!(cde=e) | !f!f2f>f f>ga>b | b2b>b !p!(ba)(ag) | !f!f2f>f ~f2df |
+!f!~g2!p!bg !f!~f2!p!bf |  !f!~e2!p!ge f<d~cB | !f!A>Bc>d (e<g)A>c | B2B>B B2 :|
+V: 2 clef=bass middle=d
+z2 |\
+B2b2 f2d2 | B>bf>d B2z2 | z2B2 e2=e2 | f>FA>c f>=ed>c |
+Bbab B2z2 | B>df>d B2z2 | B2B>d f2F2 | B>bf>d B2 :|
+|: z2 |\
+f>ga=b c'2c2 | f>ac'>a f2z2 | Bbab c'2c2 | f>FA>c f2z2 |
+zegb zdfb | zbge B2z2 | f2=e2 f2F2 | B>bf>d B2 :|
+
+%%sep 2 1 500
+
+X: 392
+T: QuickStep
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.39#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel, quick step
+M: 2/4
+L: 1/8
+K: Bb
+V: 1
+d/c/ |\
+Bbag | fd ~Bd/f/ | (ed).c.B | (B/A/).c/.A/ FG/A/ |\
+Bbaf | ge ~cf/e/ | dB e/c/B/A/ | BB B :|
+A/B/ |\
+cc (c/B/A/).B/ | cAFA | (Bd).g.^f | g2 ~ga/b/ |\
+fbdf | Bdfd | ecdB | c/B/A/G/ F/E/D/!d.C.!c/ |]
+V: 2 clef=bass middle=d
+z | Bbc'b | BbBz | abc'=e' | f'c'af | zbaf | =efg_e | defF | Bb B :|
+z | FAcf | afcA |GBdD | GgGz | Bbfd | BbBz | Acd=e | fFz2 |]
+
+%%sep 2 1 500
+
+X: 393
+T: Miss E Wade's Reel
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.39#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: C
+V: 1
+e |\
+c2Gc ECG_B | AFGE Dd-df | ecBd cGEC | EGFA Gcc :|
+f | ecgc afge | d_BfB dfBg | ecgc afdg | Bdfd eccf |
+ecgc afge | d_BfB dfBg | ecBd cGEc | AFDf ecc |]
+V: 2 clef=bass middle=d
+z | c2c2 c2c2 | f2e2 d2d2 | c2d2 e2c2 | g2G2 c2c :|
+z | c'2c'2 c'2c'2 | _b2b2 b2b2 | c'2c2 f2d2 | g2G2 c2c2 |
+    c2e2 f2e2 | d2_B2 B2B2 | c2d2 e2c2 | f2G2 c2c |]
+
+%%sep 2 1 500
+
+X: 401
+T: Robinslaw
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.40#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: jig
+M: 6/8
+L: 1/8
+K: C
+V: 1
+G |\
+c2c {d}cBc | d2d ~def | (ec).B (Ad).c | ~c3 B2.G |\
+c2c {d}cBc | d2d def | (ge).c .G(cB) | c3- c2 :|
+(e/f/) |\
+g2g (gab) | c'2c' (c'b).a | (gfe) (fa).c | (~c3 B2)e/f/ |\
+g2g (gab) | (c'b).a (gf).e | (df).a (Bc).d | c3 ~c2 ||
+e/f/ |\
+(ge).g (gab) | (c'b).a (gf).e | (de).f .A(dc) | (~c3 B2)G |\
+!f!c2c (AF).D | (Bc).d (e2f) | (g<e)c A2~B | c3 c2 |]
+V: 2 clef=bass middle=d
+z |\
+ceg c3 | Bdg G2z | c2e f2^f | gdB G2z |\
+ceg c3 | GBd g3 | c2e g2G | cGE C2 :|
+z |\
+c'3 b2g | c'3 c3 | c2e f2^f | gbd' g2z |\
+c'ba b2g | c'2c c'2_b | a2f g2G | cGE C2 ||
+z |\
+c'3 b2g | c'3 e'd'c' | b2g f2^f | gdB G2z |\
+c2e f2^f | g2b c'2b | c'2c f2g | c'ge c2 |]
+
+%%sep 2 1 500
+
+X: 402
+T: Miss Scott of Ancrum's Reel
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.40#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: C
+V: 1
+G |\
+Tc2G>E C>EGE | FdEc dDDB | c>GEG ~cefa | {a}~gefd ecc :|
+G |\
+~c2e>c g>ce>c | (A/B/c) GE FD-DG |\
+c2ec g>cec | (f/g/a) Tg>f eccG |
+~c2e>c gcec | (A/B/c) G>E FDDG | TF>EFG A>cde | f<dTg>f ecc |]
+V: 2 clef=bass middle=d
+z | c2e2 c2c2 | d2c2 B2G2 | c2c2 d2e2 | g2G2 c2c :|
+z | c2c2 e2c2 | f2e2 d2B2 | c2c2 e2c2 | f2g2 c2c2 |
+    c2c2 e2c2 | f2e2 d2B2 | a3g f2^f2 | g2G2 c2c |]
+
+%%sep 2 1 500
+
+X: 403
+T: The bonniest Lass in a' the world
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.40#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: reel, air
+M: C
+L: 1/8
+K: G
+V: 1
+BA |\
+B2D2 {F}TE2G2 | cBTAG E2DE | G2g2 degd | ~e4 d2ef |\
+(gf).e.d efgB | cBAG {G}E2DE | G2g2 decd | B3A G2 :|
+ef |\
+gfed efge | agfe fgaf | Tfefa bgab | Te4 d2ga |\
+(ba).g.e degB | cBAG {F}E2DE | G2g2 decd | {c}~B3A G2 |]
+V: 2 clef=bass middle=d
+z2 |\
+G2B2 c2Bc | d2D2 zcBc | B2ba b2g2 | c'2c2 gbc'a |\
+b2g2 c'2b2 | a3b c'2bc' | b3c' d'2d2 | g2d2 G2 :|
+z2 |\
+B2cB c2Bc | d2d^c d2=c2 | B2BA G2g2 | c'2c2 gGBA | G2c2 B2G2 | A3B c2Bc | B3c d2D2 | g2d2 G2 |]
+
+%%sep 2 1 500
+
+X: 411
+T: Dance to your Daddy etc. - with Variations *
+C: Traditional
+C: variations by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.41#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+R: song, waltz
+M: 3/4
+L: 1/16
+K: Bb
+V: 1
+|: d4d2f2d2B2 | e2d2c2B2A2c2 | d4d2f2d2B2 | e2c2A2c2B4 ::\
+F2B2 {c}B2.A.B d2B2 | e2d2c2B2A2c2 |
+F2B2 {c}B2.A.B d2B2 | e2c2A2c2B4 ::\
+(df).e.d (ed).c.B (AB).c.A | (~BA).B.d (cB).A.G (FE).D.F | .G(edc) .B(gfe) (db).a.^f |
+g2e2A2c2B4 ::\
+f2d2g2e2d2B2 | e2c2f2e2d2B2 | A2c2F2B2d2f2 | {f}e2c2A2c2B4 ::\
+BFBd FBdB Acec |
+dfdB (ed).c.B (gf).e.d | (bf).d.f (ed).c.B (AB).c.A | bBaf (ge).c.A B4 ::\
+.f2.d2 .B2(G/F/E/D/) C2c2 | .e2.c2 .A2(F/E/D/C/) .B,2B2 |
+d2B2 e2c2 f2d2 | {^f}g2e2c2A2 B4 :|\
+"Minore"\
+G2G2 (~G^F).G.A B2c2 | d2d2 .d(g^fg) d2d2 | e2e2 (ed).c.B (AB).c.A | ~BA.B.c {^c}d2d2 D4 |
+G2G2 (GA).B.c d2d2 | d2g2f2e2d2c2 | d2d2 (cB).A.B G2d2 | (cB).A.G d2D2 HG2 "ad lib"G/A/B/=B/c/^c/ \
+|: d4d2f2d2B2 | e2d2c2B2A2c2 |
+d4d2f2d2B2 | e2c2A2c2B4 ::\
+F2B2 {c}B2.A.B d2B2 | e2d2c2B2A2c2 |\
+F2B2 {c}B2.A.B d2B2 | e2c2A2c2B4 :|
+V: 2 clef=bass middle=d
+|: [d'2b2]f'2[d'2b2]f'2[d'2b2]f'2 | [e'2c'2]f'2[e'2c'2]f'2[e'2c'2]f'2 |\
+[d'2b2]f'2[d'2b2]f'2[d'2b2]f'2 | [g2e2]c'2[a2f2]c'2[d'4b4] ::\
+[b2f2]d'2[b2f2]d'2[b2f2]d'2 | [c'2f2]e'2[c'2f2]e'2[c'2f2]e'2 |
+[b2f2]d'2[b2f2]d'2[b2f2]d'2 | [c'2f2]e'2[c'2f2]e'2[d'4b4] ::\
+[B4B,4] z4 [f4F4] | [b4B4] z4 [d4D4] | [e4E4] z4 [d4D4] |
+edec f=efF B2B,2 ::\
+[f'8d'8b8] [f'4d'4b4] | [f'8c'8a8] [f'4d'4b4] | [c'8a8f8] [b4f4d4] | [b4g4e4] [c'4a4f4] [d'4b4] ::\
+[f8d8B8] [f4F4] |
+[f12d12B12] | [b8f8d8] [c'4a4f4] | g2f2e2f2B4 ::\
+[d6B6] z2 [g4e4] | [c6A6] z2 [f4d4] |
+[B4B,4] [c4C4] [d4D4] | [e4E4] [f4F4] [B4B,4] ::\
+[b2g2]d'2[b2g2]d'2[b2g2]d'2 | [b2g2]d'2[b2g2]d'2[b2g2]d'2 |\
+[c'2g2]e'2[c'2g2]e'2[a2^f2]d'2 | g2d'2[a2^f2]d'2BcBA |
+[d2B2]g2[d2B2]g2[b2g2]d'2 | [b2g2]d'2[c'2g2]e'2[a2^f2]d'2 |\
+[b2g2]d'2[b2g2]d'2[b2g2]d'2 | [b2g2]d'2 [a2f2d2]c'2 H[g2d2B2G2]z2y \
+|: [d'2b2]f'2[d'2b2]f'2[d'2b2]f'2 | [e'2c'2]f'2[e'2c'2]f'2[e'2c'2]f'2 |
+[d'2b2]f'2[d'2b2]f'2[d'2b2]f'2 | [g2e2]c'2[a2f2]c'2[d'4b4] ::\
+[b2f2]d'2[b2f2]d'2[b2f2]d'2 | [c'2f2]e'2[c'2f2]e'2[c'2f2]e'2 |\
+[b2f2]d'2[b2f2]d'2[b2f2]d'2 | [c'2f2]e'2[c'2f2]e'2[d'4b4] :|
+%%text * This is a very old Tune, Sung on the Border to Children when Nursing
+
+%%sep 2 1 500
+
+X: 421
+T: Neeps like Sucker, whae'll buy Neeps *
+C: by J Pringle
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.42#1
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slow with much Expression"
+R: air
+M: 6/8
+L: 1/8
+K: Bb
+V: 1
+[|\
+!f!f2{=e}f !p!d<Bz | e2{=e}g f3 | !f!f2~f !p!d<Bz | c2f B>cd/e/ |\
+!f!{g}f2~f !p!d<Bz | e2{=e}g f>ga/b/ | f2~f d<Bz | c2{=e}f B3 ||
+!f!c2~c !p!A<Fz | {e}d2B {A}G3 | e2e d<fz | g>ab/d/ {d}c3 |\
+!f!f2~f d<fz | ~g(f/=e/).f/.a/ Hb2a/g/ | !p!{g}f2~f d<Bz | c2{=e}f {A}B3 |]
+V: 2 clef=bass middle=d
+[|\
+Bdf zbB | e2=e fcF | Bdf zbB | efF Bbz |\
+Bdf BbB | e2=e fFz | Bdf zbB | efF B3 ||
+FAc zfF | B2d e2E | fac' fbd' | e2=e f/e/f/_e/d/c/ |\
+Bdf zbB | e2f Hg2z | Bdf zbB | efF B3 |]
+%%text * This tune is made from the women crying those Articles in the streets of Edinburgh
+
+%%sep 2 1 500
+
+X: 422
+T: Tarry a While
+O: a Favorite Country Dance
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.42#2
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: Bb
+V: 1
+F |\
+B>cB F2D | {=E}F2F ~F2d | e>fe dcB | (d3 c2).F |\
+B>cB F2D | F2F FBd | f<dB ~c2d | B3- B2 :|
+e |\
+d2f {g}~f2d | e2g cde | {e}dcB {c}BAB | c2A {=E}F2e |\
+d2f {g}~f2d | e2g cde | {e}dcB {c}BAB | (d3 c2).F |
+!p!B>cB FDE | F2F ~F2d | e>fe dcB | (d3 c2).F |\
+B>cB F<DF | {E}G2B e2g | f<dB ~c2f | B3- B2 |]
+V: 2 clef=bass middle=d
+z |\
+Bdf bfd | Bdf B2z | fac' b2B | fbd' fac' |\
+B2b a2f | Bdf B2z | B2d f2F | Bdf b2 :|
+z |\
+B2b a2f | g2e _a2=a | b2B d2=e | fac' f2z |\
+bd'f' bf'_a' | be'g' _ac'f' | bd'f' bd'f' | f2f' f2z |
+B2b B2b | B2b B2z | [c'2a2][c'a] b2B | f3 F3 |\
+B2b a2_a | g2d e2=e | f2d f2F | B3 B2 |]
+
+%%sep 2 1 500
+
+X: 423
+T: Weel may ye a' be
+O: Very old
+B: John Pringle "Collection of Reels Strathspeys & Jigs", 1801 p.42#3
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+Q: "Slow"
+R: air
+M: C
+L: 1/8
+K: Bb
+V: 1
+   DE | F2FD  F2BA   | G2{A}GF  ~G>ABc | d2{d}cB B>cd>c  | B<GG>F F2 :|
+|: Bc | d2~dc d>ef>d | c2{d}c=B ~cde>g | f<d~c>B B>cHd>c | B<GG>F F2 :|
+V: 2 clef=bass middle=d
+   z2 | Bbfd  Bbaf  | eEGB E2z2 | Bbaf dfba  | gbef [d2B2] :|
+|: z2 | Bdfb  d'bfd | FAcf afcA | Bbaf dfHba | fbef [d2B2] :|

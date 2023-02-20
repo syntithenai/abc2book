@@ -1,0 +1,37 @@
+X: 1
+T: Under the Greenwood Tree
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master" printed by John Walsh, London
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.12 #23
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.95
+Z: 2012-2013 John Chambers <jc:trillian.mit.edu>
+N: There's an extra count in bar 5, in both versions (fixed).  DMDfD lacks both the sharps in the second half of the tune.
+N: DMDfD has bars 4 and 5 as first and second endings; appropriate repeat signs have been introduced.
+N: The dance descriptions are identical, except for minor spelling a punctuation differences.
+M: 6/4
+L: 1/4
+K: Dmix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+a2a a2g | f2e d>ef | e2A B2^c |1 d3 d3- :|2 d3 d2 |]\
+d |\
+^c2B c2d | e>fe A2f | e2d e2f | g3- g2a |\
+f>ed e2A | f>ef g2f | e>d^c B2A | A3- A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Honour to the Presence, then to your We.  Lead up all forward
+%% and back, that again. 
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1st Man Sides with his own Wo. then with the co. and back
+%% again, the 1st Man and Wo. go round each other and Back to
+%% Back, then take your own Wo. by the right Hand and turn her
+%% once round, then by the left Hand and turn her again, and so
+%% on to the next Wo. while your own Wo. takes the next Man, and
+%% so turn round 'till you come to your own Places again.
+%% [CCDM1]
+%%endtext
+%%sep 1 8 500

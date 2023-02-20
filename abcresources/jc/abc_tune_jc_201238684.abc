@@ -1,0 +1,30 @@
+X: 31152
+T: COTILLION No. 16. LONG ISLAND SETT tune 4
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.115 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+GE |\
+CB,CD CDEF | G^FGA GBcd | (ed)(dc) (cA)GE | A2DE F2ED |\
+CB,CD CDEF | G^FGA Gedc | BAGe dcA^F | GBdB G2 H|]
+G2 |\
+G^FGA BABc | dedB G2cB | A^GAB cBcd | efed A2cA |\
+BGdB cGec | defd egfe | fedc BdcA | G2[g2B2] [gB]fd"^D.C."B |]
+G2c2 {d}cBcd | [e2c2][cG][dA] c2BA | GABc d^cde | f2de d2cd |\
+edcB AGAB | c2G2 c2Bc | d2G2 d2cd | e2c2 gec"^D.C."G |]
+EGc2 {d}cBcd | c2GA _B2AG | Acd2 {e}d^cde | d2A=B c2BA |\
+G2cd cBcd | edcB cdef | e3c g3B | cBAG AGF"^D.C."D |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across partners and back,
+%% all balance partners and turn,
+%% grand chain,
+%% all promenade.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

@@ -1,0 +1,106 @@
+
+X: 1
+T: Down Among the Dead Men    [Dm]
+O: Playford 1726
+B: Playford v.3 1726
+R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A2 |\
+"Dm"d2d^c d2A2 | "Gm"B2G2 "A7"A3A | "Gm"B2BA "C"G2F2 | "C7"c2C2 "F"F4 |\
+"Dm"d2^c2 d2A2 | "Gm"B2AG "A7"A3A | "Gm"B2A2 "C"G2F2 | "C7"c2C2 "F"F3 ||
+A |\
+"Dm"d3^c d3e | "C7"f2e2 "F"f4 | "F"FGAB c2c2 | "Gm"GABc d2d2 |\
+"Bb"d4 "F"c4 | "C7"B4 "F"A4 "I"| "Dm"fed^c "Gm"d2G2 | "A7"A2A2 "Dm"D2 |] [f2C2]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center Longways for as many as will.
+%%begintext align
+%%   The first Man clap Hands twice to his Partner, and turn her by the Right-hand quite round .|
+%% The same sides .| Meet all four corner ways, and turn single, then Right and Left half round
+%% with the Second Couple, then clap Hands twice to your Partners and both turn to the Right-hand
+%% into their proper places.
+%%endtext
+
+%%sep 1 1 500
+
+X: 1
+T: Down Among the Dead Men    [Em]
+O: Playford 1726
+B: Playford v.3 1726
+R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Em
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+B2 |\
+"Em"e2e^d e2B2 | "Am"c2A2 "B7"B3B | "Am"c2cB "D"A2G2 | "D7"d2D2 "G"G4 |\
+"Em"e2^d2 e2B2 | "Am"c2BA "B7"B3B | "Am"c2B2 "D"A2G2 | "D7"d2D2 "G"G3 ||
+B |\
+"Em"e3^d e3f | "D7"g2f2 "G"g4 | "G"GABc d2d2 | "Am"ABcd e2e2 |\
+"C"e4 "G"d4 | "D7"c4 "G"B4 "I"| "Em"gfe^d "Am"e2A2 | "B7"B2B2 "Em"E2 |] [g2D2]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+% %center Longways for as many as will.
+% %begintext align
+% %   The first Man clap Hands twice to his Partner, and turn her by the Right-hand quite round .|
+% % The same sides .| Meet all four corner ways, and turn single, then Right and Left half round
+% % with the Second Couple, then clap Hands twice to your Partners and both turn to the Right-hand
+% % into their proper places.
+% %endtext
+
+%%sep 1 1 500
+
+X: 1
+T: Down Among the Dead Men    [Gm]
+O: Playford 1726
+B: Playford v.3 1726
+R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+d2 |\
+"Gm"g2g^f g2d2 | "Cm"e2c2 "D7"d3d | "Cm"e2ed "F"c2B2 | "F7"f2F2 "Bb"B4 |\
+"Gm"g2^f2 g2d2 | "Cm"e2dc "D7"d3d | "Cm"e2d2 "F"c2B2 | "F7"f2F2 "Bb"B3 ||
+d |\
+"Gm"g3^f  g3a | "F7"b2a2 "Bb"b4 | "Bb"Bcde      f2f2 | "Cm"cdef   g2g2 |\
+"Eb"g4 "Bb"f4 | "F7"e4   "Bb"d4 "I"| "Gm"bag^f "Cm"g2c2 | "D7"d2[d2D2] "Gm"G2 |] [b2F2D2]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+% %center Longways for as many as will.
+% %begintext align
+% %   The first Man clap Hands twice to his Partner, and turn her by the Right-hand quite round .|
+% % The same sides .| Meet all four corner ways, and turn single, then Right and Left half round
+% % with the Second Couple, then clap Hands twice to your Partners and both turn to the Right-hand
+% % into their proper places.
+% %endtext
+
+%%sep 1 1 500
+
+X: 1
+T: Down Among the Dead Men    [Am]
+O: Playford 1726
+B: Playford v.3 1726
+R: reel
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+e2 |\
+"Am"a2a^g a2e2 | "Dm"f2d2 "E7"e3e | "Dm"f2fe "G"d2c2 | "G7"g2G2 "C"c4 |\
+"Am"a2^g2 a2e2 | "Dm"f2ed "E7"e3e | "Dm"f2e2 "G"d2c2 | "G7"g2G2 "C"c3 ||
+e |\
+"Am"a3^g a3b | "G7"c'2b2 "C"c'4 | "C"cdef g2g2 | "Dm"defg a2a2 |\
+"F"a4 "C"g4 | "G7"f4 "C"e4 "I"| "Am"c'ba^g "Dm"a2d2 | "E7"e2[e2E2] "Am"A2 |] [c'2G2E2]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+% %center Longways for as many as will.
+% %begintext align
+% %   The first Man clap Hands twice to his Partner, and turn her by the Right-hand quite round .|
+% % The same sides .| Meet all four corner ways, and turn single, then Right and Left half round
+% % with the Second Couple, then clap Hands twice to your Partners and both turn to the Right-hand
+% % into their proper places.
+% %endtext

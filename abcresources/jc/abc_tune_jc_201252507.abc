@@ -1,0 +1,105 @@
+%%center BILLY BUDD STANDPIECE
+%X: 0
+%T: BILLY BUDD STANDPIECE
+%C: 100624
+%K:
+
+
+X: 1
+T: Korn Likker
+P: piffero primo b0016
+O: Bill Krug
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/billybudF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+ag |\
+fad2 d2ef | g2e2 e3c | c2c2 cABc | dcde fgag |\
+fad2 d2ef | g2e2 e4 | A2ce gece | e2d2 d2 :|
+|: df |\
+a3b a2f2 | g2gf e2Ae | g3a g2e2 | f2fe d2df |\
+a3b a2f2 | g2gf e4 | A2ce gece | e2d2 d2 :|
+
+
+X: 2
+T: Stillman's Reel
+P: piffero primo b0017
+O: safd 112
+%R: march
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/billybudF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+AG |\
+FAd2 d2cd | edcB A2AG  | FAd2 d2cd | e2a2 a2AG |\
+FAd2 d2cd | edcB A2^GA | B2gf edce | d2f2 d2  :|
+|: fg |\
+a3f d2f2 | edcB A2fg | a3f  gfed | c2e2 e2fg |\
+a3f d2f2 | edcB A2A2 | B2gf edce | d2f2 d2  :|
+
+%%center (drum bridge, Paddy on the Handcar, 8 bars)
+
+
+X: 3
+T: Paddy on the Handcar
+P: piffero primo b0051
+O: safd 055
+%R: reel
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/billybudF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|:\
+EAAA A2AB | cBAB cBAG | EGGG G2G2 | DGGG G2G2 |\
+EAAA A2AB | cBAB c2Bc | edef gfed | e2A2 A2z2 :|
+|:\
+e2a2 e2a2 | edef gfed | G2g2 G2g2 | BABc d4 |\
+e2a2 e2a2 | edef g2d2 | edef gfed | e2A2 A2z2 :|
+
+
+X: 4
+T: O'Connor's Quick Step
+P: piffero primo a0725
+%P: piffero primo b0052 in another set
+O: Bill Krug
+%R: quick-step, polka
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/billybudF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+ed |\
+c2ec Acec | d2fd fagf | e2a2 a2ga | b2B2 BdcB |\
+c2ec Acec | d2fd fagf | e2c2 BdcB | A2c2 A2  :|
+|: z2 |\
+ABcd e2e2 | fa2f ecA2 | ABcd e2e2 | cA2c B2z2 |\
+ABcd e2e2 | fa2f ecA2 | c2ec BdcB | A2c2 A2  :|
+
+%%center (drum bridge, Billy Budd, 8 bars)
+
+
+X: 5
+T: Billy Budd
+P: piffero primo b0053
+O: Roy Watrous
+%R: reel
+S: http://ancients.sudburymuster.org/mus/ssp/pdf/billybudF.pdf
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+ec |\
+A2A2 cecA | defg a2gf | eaec dfdB | cecA B2ec |\
+A2A2 cecA |
+defg a2gf | eaec fdB=G | A2A2 A2 :: cd |\
+ecfc ecfc | ecaf e2cd |
+eaec dfdB | cecA B2cd |\
+ecfc ecfc | ecaf e2cd | eaec fdB=G | A2A2 A2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

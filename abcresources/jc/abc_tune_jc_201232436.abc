@@ -1,0 +1,36 @@
+X:1712
+T:Donald Bane
+%
+P:Donald Bane
+C:Traditional?
+R:Strathspey (8x32)
+B:RSCDS 17-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:A
+a|"A"e/e/e e>d c>d e>c|A>e c<a "D"f2 "E7"e>a|\
+  "A"e/e/e e>d "F#m"c>d e>c|"Bm"B/B/B c>e "D"f2 "E7"e a|
+  "A"e/e/e e>d c>d e>c|A>e c<a "D"f2 "E7"e>a|\
+  "A"e/e/e e>d "F#m"c>d e>c|"Bm"B/B/B c>e "D"f2 "E7"e||
+g|"A"a>g a>f e>c A>g|"A"a>e "F#m"f>a "D"f2 "E7"ef/g/|\
+  "A"a>g a>f a>f e<c|"Bm"B/B/B c>e "D"f2 "E7"ef/g/|
+  "A"a>g a>f e>c A>g|"A"a>g "F#m"a>f "D"f>e "E7"f>g|\
+  "A"a>g a>f a>f e<c|"Bm"B/B/B c>e "D"f2 "E7"e|]
+%
+P: Miss Jenny Elliot's Strathspey
+C: R.Mackintosh
+R: strathspey
+B: RSCDS 17-12(II)
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+F2 \
+| "D"D3d ~d4 "A7"c3d e3g | "D"f3d "A"c3e "E(m)"B3e "A7"dcBA \
+| "D"D3d f3d "A7"c3d e3g | "D"fa3 "A7"g3e "D"d4 D2 :|
+A2 \
+| "Bm"dcBA d3F "Em"G3F "A"E3A | "D"F3D "G"G3D "D"A3D "G"B3D \
+| "Bm"dcBA d3F "Em"G3F "A"E3A | "Em"Bg3 "A7"e3c "D"d4 D3A |
+| "Bm"dcBA d3F "Em"G3F "A"E3A | "D"F3D "G"G3D "D"A3D "G"B3c \
+| "Bm"dcBA d3F "Em"G3F "A"E3A | "Em"B3e "A7"dcBA "D"d4 d2 |]

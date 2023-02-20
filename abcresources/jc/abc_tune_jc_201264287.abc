@@ -1,0 +1,23 @@
+X: 724
+T: the Contradiction Reel
+R: reel
+%S: s:8 b:32(4+4+4+4+4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #724
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0724/oneill-1001-0724-1.abc
+M: C|
+L: 1/8
+K: A
+"^A" e !segno!\
+[| c2(3({d}cBA) (BE)(ED) | CEAc dfed | c2(3({d}cBA) GABc | defg afed ||
+|| c2(3({d}cBA) (BE)(ED) | CEAc dfed | c2(3({d}cBA) GABg | afec A/A/AA |]
+"^B"\
+[| g |  aA  A/A/A aAcA | GBEB GBEg | (aA) A/A/A aAcA | GBEB cAA ||
+|| g | (aA) A/A/A (aA) cA | GBEB EBEg | agfe fedc |  BEFG A2 |]
+"^C"\
+[| e2 \
+|  ae(c'e) ae(c'e) | be(d'e) be(d'e) | c'e(e'e) c'e(e'e) | dcAB (EA)A2 ||
+|| aAc'A aAc'A | bAd'A bAd'A | c'Ae'A c'Ae'A | dcBA (EA)A2 |]
+"^D"\
+[| cefe cefe | dcBA (BE)E2 | cefe cefe | fagb afed ||
+|| cefe cefe | (3(fga) ec (BE)E2 | ecea fdfa | (gb)eg (ae)fe !segno!|] 

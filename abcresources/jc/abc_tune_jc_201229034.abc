@@ -1,0 +1,28 @@
+X: 1182
+T: Rall na grandach or Miss Lucia Campbell's delight
+%R: strathspey
+B: Niel Gow & Sons "A Collection of Strathspey Reels, etc." v.1 p.18 #3 (and top 4 staves of p.20)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+% - - - - - - - - - -
+% Voice 1 reformatted for 4 6-bar lines.
+V: 1 staves=2
+(B |\
+A)<DA<F A<DA>F | A<DA<F BE-E>(F | A)<DA<F d>ef>e | d>B A/B/d/F/ ADD :: f |\
+d>B A<F d>ef>e | d<B A>F eEE>e |
+d>B A<F d>ef>e | d>B d/B/A/F/ AD D :: B |\
+AD (A/G/F) AD (A/G/F) | AD (A/G/F) BEE>F | AD (A/G/F) d>ef>e | d>B A/B/d/F/ AD D ::
+(f |\
+d)>fA>f d>fA>(f | d)>fA>f eE-E>(e | d)>fA>f d>ef>e | d>B A/B/d/F/ AD D :: F |\
+A,>D (F/E/)D AD (F/E/)D | A,>D (F/E/)D BE-E>F |
+A,>D (F/E/)D AD (F/E/)D | d>B A/B/d/F/ AD D :: f |\
+(a>ba).f d>ef>d | e<fd>f eE-E>f | a>b a/b/a/f/ d>ef>e | d>B A/B/d/F/ AD D :|
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | d2d2 d2d2 | d2d2 c2A2 | d2d2 d2d2 | A2A2d2d :: z | d2d2 d2d2 | d2d2
+c2A2 | d2d2 d2d2 | A2A2 d2d :: z | d2d2 d2d2 | d2d2 c2A2 | d2d2 d2d2 | A2A2 d2d ::
+z | d2d2 d2d2 | d2d2 c2A2 | d2d2 d2d2 | A2A2 d2d :: z | d2d2 d2d2 | d2d2 c2A2 |
+d2d2 d2d2 | A2A2 d2d :: z | d2d2 d2d2 | d2d2 c2A2 | d2d2 d2d2 | A2A2 d2d :|

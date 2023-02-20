@@ -1,0 +1,19 @@
+X: 1
+T: Johnny's Jig
+C: John McCusker
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+"A"|:\
+"D"Add cdA- | Add cdA |\
+[1,3 "G"dB/c/d ede | "A"f2f edB :|\
+[2   "G"dB/c/d efg | "A7"fdc "D"d3 :|
+[4   "G"dB/c/d efg | "A7"fdc "D"def |]\
+"B"|:\
+"G"gBB BAG | "D"ABA f2f |\
+"A7"gAA cBc |[1 "D"edd def :|
+[2 "D"edd def :|[3 "D"edd dcA :|\
+"G"BB/B/B BAG | "D"ABA f2f |\
+"A7"gAA cBc | edd "D"d3 |]

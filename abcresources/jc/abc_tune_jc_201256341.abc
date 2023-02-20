@@ -1,0 +1,31 @@
+X:82
+T:Brawl: Clog
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=112
+M:none
+L:1/4
+P:ABABABABAB
+C:Thoinot Arbeau: Orchesographie, 1589
+K:Bb
+P:A
+%%MIDI drumon
+%%MIDI drum dzdd  64 64 64
+%%MIDI program 110
+%%MIDI chordprog 7
+%%MIDI bassprog 4
+"Bb"B2 "/"B2 | "Cm"c/B/A/G/ "F"AF | "Eb"GG "Bb"FB | "F"BA "Bb"B2 |\
+"Gm"B2 "Eb"B2 | "C7"c/B/A/G/ "F"AF | "Eb"GG "Bb"FB | "F"BA "Bb"B2 |
+P:B
+%%MIDI drum dzdd  35 35 35
+"Cm"c/B/A/G/ "F"AF | "Cm"c/B/A/G/ "F"AF |\
+%%MIDI drum dzdz  66
+%%MIDI gchordoff
+"F"Fz | "/"Fz | "F"Fz |\
+%%MIDI drum dzdd  35 35 35
+%%MIDI gchordon
+"Cm"c/B/A/G/ "F"AF | "Cm"c/B/A/G/ "F"AF |\
+%%MIDI drum dzdz  66
+%%MIDI gchordoff
+"F"Fz | "F"Fz | "F"Fz |\
+%%MIDI gchordon
+%%MIDI drum dzdd  64 64 64

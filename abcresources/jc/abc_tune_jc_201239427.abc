@@ -1,0 +1,26 @@
+X: 3281
+T: Mr Stabilini's Favourite
+C: by Nath. Gow
+%R: air, march
+B: Niel Gow & Sons "A Third Collection of Strathspey Reels, etc." v.3 p.28 #1
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+Q: "Slowish"
+M: 2/4
+L: 1/8
+K: E
+% - - - - - - - - - -
+% Voice 1 reformatted for 2 12-bar lines, for compactness and proofreading.
+V: 1 staves=2
+B |\
+(eg)(Be) | dG Tc2 | B<ETF>E | DF-FB ||\
+egB(e | d)(=E F)(c | d)>E {F}ED/C/ | B,ETE :| _D |\
+!f!(C=E)TEC | (FA)Ac | (fa) cf | {e}d3 g/a/ ||
+.b(g a)(f | g)(e f)(d | e)>E {F}ED/C/ | (B,E)E_D ||\
+(C=E)(TE.C) | (FA)(.A.c) | (fa) (cf) | {e}d2 (e/f/)g/a/ ||\
+(b/g/)(b/g/) (a/f/)(a/f/) | (g/f/).g/.e/ (f/e/).f/.d/ | e>E {F}ED/C/ | B,EE |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+z | e2 e2 | b2 a2 | g2 a=a | b2 B2 || e2 g2 | zcfa | g2 bB | e2 E :| z |
+c2 c2 | f2 f2 | f2 a2 | bf B2 || e2 b2 | c'2 a2 | g2 bB | eB E2 || C2 c2 | F2 f2 |
+f2 a2 | bB b2 || ee dd | ee B2 | GE BB | EeE |]

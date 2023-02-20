@@ -1,0 +1,31 @@
+X: 02
+T: KITTY KICKAWAY
+%R: jig
+B: Button & Whitaker "Twelve Elegant New Dances for the Year 1810", London 1810
+F: http://imslp.org/wiki/Button_and_Whitaker's_Elegant_New_Dances_for_1810_(Various)
+Z: 2018-6-25  John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 formatted for compactness.
+V: 1 staves=2
+|:\
+ded Bcd | e^de gfe | ded dcB | c2A A2d |\
+ded Bcd | e^de gfe | ded cBA | G2G G2z :|
+|:\
+ABA c2A | B2d ded | ^cec ABc | de^c def |\
+gdB GBd | e^de gfe | dbg {g}fef | g2g g3 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff breaks.
+V: 2 clef=bass middle=d
+|:\
+G2g G2g | C2c C2c | G2g G2g | D2d D2z | G2g G2g |
+C2c C2c | D2d D2d | G2g G2z :||: D2d D2d | G2g F2f | A2a A2a |
+d2A D2z | G2g G2g | C2c C2c | D2d D2d | G2g G3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Set & hands across, back again, lead down the middle up again, right & left at top.
+%%endtext
+% %center -------------------------
+% %center Button & Whitaker "Twelve Elegant New Dances for the Year 1810"

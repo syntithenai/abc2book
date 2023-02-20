@@ -1,0 +1,20 @@
+X: 21141
+T: MAY'S QUADRILLES # 1
+R: jig
+B: K\"ohler's Violin Repository, v.2, 1885 p.114 #1
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+N: The intented part order isn't clear; it may be ABACA.
+M: 6/8
+L: 1/8
+K: G
+uD |\
+GAB (Bc^c) | (d3 d2^c/e/) | (d3 d2^c/d/) | d3- d2=c |\
+{d}cBc (a2c) | {c}BAB (g2B) | Aed cBA | G3- G2 ||
+uD |\
+DGB BBB | EAc ccc | FAd ddd | (d2e/d/) (.B2.g) |\
+{a}gfg (.e'2.c') | {c'}bab (d'2.b) | ae'd' c'ba | g3- g2 "^D.C."||
+K: F
+uF |\
+(._E2.c) {d}c_Bc | (.A2.f) {g}fef | dba gfe | d3 (c2B) |\
+A3 (f/e/d/c/B/A/) | G3 (e/d/c/B/A/G/) | FGA dcE | F3- F2 "_D.C."|]

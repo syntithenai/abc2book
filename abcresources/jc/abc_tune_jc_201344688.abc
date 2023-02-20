@@ -1,0 +1,35 @@
+X: 1
+T: Tico-Tico No Fub\'a
+C: Zequinha Abreu
+%D:
+R:
+P: Form: Intro- AA BB A CC A
+S: Fiddle Hell Online 2022-4-7 handout for Enion Pelta's Groovy Accompaniments workshop
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+N: Moving the repeat signs to before the 3-note pickups removed the need for complex multiple
+N: endings and (with the P: line) the segno/coda symbols. This is noticably easier to read.
+M: 2/4
+L: 1/16
+K: Am
+%%continueall
+% %indent 400
+"^I"| "Am"ed2c B2A2 | "E7"^G2B2 c2d2 | "Am"e2z2 "F7"a2z2 | "E7"HE2z2 z
+"^A"!segno!|: E^DE |\
+"Am"FE2A zE^DE | "E7"FE2^G zE^DE | FEdB ^GED_D | "Am"C4 zA_AG |\
+"Dm"FA2d zcAF | "Am"EA2c zcB^A | "B7"BB,^D^F AcBA | "E7"^G4 z ||
+E^DE |\
+"Am"FE2A zE^DE | "E7"FE2^G zE^DE | FEdB ^GED_D | "Am"C4 zA_AG |\
+"Dm"FA2d zcAF | "Am"EA2c zcB^A | "E7"BE^GB edcB | A2e2 "^Fine"a :|
+K: A
+"^B"|: A^ce |\
+"A"aAcg- "AM7"gAcf | "A6"fAce- "A"eAcf | "A6"fAce- "A"eAcf | "E9"fBde- "D7"edef |\
+"E7/4"adeg- "E7"gdef | "E9"fBdf "E7/4"adeg- "E7"gdef | "A6"fAce- "A"eAce |
+"A"aAcg- "AM7"gAcf | "A6"fAce- "A"eAce | "F#7"fec^A fecA | "Bm"B^ABc d2z2 | "D"DCDE "D#dim7"FGAB |\
+"A"cd^de "F#7"fe=dc | "Bm"BAGF "E7"EDCB, | "A"A,4 !segno!z :|
+[K:=f=c=g] [K:Am]
+"^C"|: B,A,_A, |\
+"C"G,CEG ceg^g | "G7".a3.f zB,A,_A, | G,B,DG Bdfg | "C".a3.e z[c'e][c'e][c'e] |\
+[c'2e2][bg][bg] [b2g2][af][af] | "G7"[af][f2d2][f-d-] [fd][bd][bd][bd] | [b2d2][af][af] [a2f2][ge][ge] | "C"[ge][e2c2][e-c-] [ec] ||
+B,A,_A, |\
+G,CEG ceg^g | "G7".a3.f zB,A,_A, | "G7"G,B,DG Bdfg | "C".a3.e zcB_B |\
+"F"A^GAB "F#dim7"dcBc | "C"eGce "A7"g_gfe | "Dm"dcBA "G7"GFED | "C"C4 !segno!z :|

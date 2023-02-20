@@ -1,0 +1,23 @@
+X: 11002
+T: KINCALDRUM'S REEL
+O: Scottish.
+%R: reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.100 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Both strains have a final but no initial repeat; fixed.
+N: Shortened the initial pickup note, to fix the rhythm of repeats.
+M: C
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d |\
+g2dc {c}B2AG | F>GAB cAAd |\
+gfgd cBAG | D>FAc BG G :: B |\
+(DG).B.G A>GBG | (DG).B.G cAAc |
+Bdef gedc | BdAc BGGB |\
+(DG).B.G A>GBG | (DG).B.G cAAc |\
+Bdef gedc | BdAc BG G :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

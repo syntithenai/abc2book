@@ -1,0 +1,19 @@
+X: 10242
+T: GERMAN HORNPIPE
+%R: hornpipe, polka, reel
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.24 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Extra bar line in measure 22 ignored.
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+g2d2 Td4 | g2e2 Te4 | d4 (cBAG) | (FGAF) D4 |\
+g2d2 Td4 | g2e2 Te4 | d2B2 (dcBA) | G2G2 G4 H::\
+F2F2 TF4 | G2G2 TG4 | c2c2 (dcBA) | B2d2B2G2 |
+F2F2 TF4 | G2G2 (.G2AB) | c2A2G2F2 | G4 G4 ::\
+f2d2e2f2 | (gfga) g2(bg) | f2d2e2f2 | g4 b2g2 |\
+f2d2e2f2 | (gfga) g2bg | f2d2e2f2 | g4 "^D.C."g4 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

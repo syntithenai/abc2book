@@ -1,0 +1,17 @@
+X: 1005
+T: Blind Mary (A2)
+N:page A2
+N: heptatonic
+R: air
+C: O'Carolan
+B: O'Neill's 655
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Very slow"
+N: collected by F.O'Neill.
+M: 2/4
+L: 1/8
+K: D
+A \
+| "D"d2 d>c | "G"{c}B2 "A7"A(F/G/) | "D"A>B "(Bm)"AF | "Em"E2- "A7"E(F/G/)| "D"(Af) (f>e) | "G"(dB) "A7"A(D/E/) |
+ "D"(F>G) "A7"({F}E>D) | "D"D3 :: (d/e/) | "D"f>g "Bm"fB | "Em"e>c "A7"(AB/c/) | "D"d>D "Bm"D(E/F/) |
+ "Em"E3 "A7"(A/G/) |"D"(F>G) Ad | "Bm"f>e "G"d(D/E/) | "D"(F>G) "A7"({F}E>D) | "D"D3 :|

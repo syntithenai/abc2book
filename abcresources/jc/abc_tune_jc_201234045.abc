@@ -1,0 +1,19 @@
+X: 20222
+T: AULD ROB MORRIS
+Q: "Slow"
+%R: air, waltz
+B: "Edinburgh Repository of Music" v.2 p.22 #2
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: Added dot to the d in bar 7 to fix the rhythm.
+M: 3/4
+L: 1/8
+%%slurgraces
+%%graceslurs
+K: G
+(GA/B/) |\
+{A}G3 E D2 | E2 G2 g2 | {e}d3 B AG | {G2}A4 BA |\
+GAGE D2 | E2 {F}G2 ge | {e}d3 G AG | G4 |]
+B2 |\
+A2 A2 (Bd) | e2 e2 (ga) | (ba) (ge) (dB) | {B}A4 (BA) |\
+(GA)GE D2 | E2 G2 g>e | d3 BAG | G4 |]

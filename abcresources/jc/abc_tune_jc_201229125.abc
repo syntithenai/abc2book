@@ -1,0 +1,29 @@
+X: 11
+T: the Defiance
+%R: waltz
+B: "Le Sylphe, Twenty Four Country Dances with Figures for the Year 1818", Button & Whitaker, p.6 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1818
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: The Figures by Mr WILSON.
+M: 3/8
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+g2 |\
+g2(ed)e2 | c2(ce)g2 | f2(dc)d2 | e2(fa)c'2 |\
+g2(ed)e2 | c2(ce)g2 | f2(dB)d2 | c4 :|
+|: G2 |\
+G2ceg2 | {^g}a2(Af)d2 | (Bd)(dB)(Bd) | (Bd)(dB)g2 |\
+G2(ce)g2 | {^g}a2(Af)d2 | (Bd)(dB)B2 | c4 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%center WALTZ FIGURE        (Each strain repeated)
+%%begintext align
+%% The 3 Ladies & 3 Gent: set to each other & turn
+%% a la waltz |: & whole poussette :| .
+%%endtext
+%%center COUNTRY DANCE FIGURE        (Each strain repeated)
+%%begintext align
+%% Hands 3 round with 2d Lady hands 3 round with 2d
+%% Gent: down the mid: up again & allemande |: .
+%%endtext
+%%sep 1 1 450

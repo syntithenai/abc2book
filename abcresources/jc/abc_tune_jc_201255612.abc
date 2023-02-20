@@ -1,0 +1,30 @@
+X: 1008
+T: Box and Dice    (F)
+T: Boscomb Bucks
+O: Walsh ca.1740
+%P: Longways for as many as will
+%R: reel
+B: "Caledonian Country Dances" printed by John Walsh for John Johnson, London
+S: http://imslp.org/wiki/Caledonian_Country_Dances_with_a_Thorough_Bass_(Various)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: "The first Strain twice, and the last but once."  (Repeats modified to match.)
+N: The 2nd part has 14 bars.
+M: C
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 has 4 staffs rather than 2, showing the 4/6/4/4-bar phrasing.
+V: 1
+"A"|:\
+"F"A2 "C7"G/A/B/G/ "F"AF Ff | "F"cc cd A2- "C7"Ac |\
+"F"AF "C"GE "Dm"fe dc | "G7"=B/c/d GB "C"c4 :|
+"B"[|\
+"C"G2 "Dm"F/G/A/F/ "C"GG2G | "F"A3/B//c// "Dm"BA "C7"A2 G2 |\
+"F"FF Ff "Dm"FF F2 | "Gm"GG Gg "C"GG G2 |\
+"Gm"BB "C7"(B/A/)G "F"Ad "Bb"cB | "F"A2 "C7"G2 "F"F4 |]
+"C"[|\
+"G7"=BBBB "C"cC CC | "Gm"BB "C7"BA/G/ "F"Af2f |\
+"Gm"gB "C7"BA/G/ "F"Ad "Bb"cB | "F"A2 "C7"G2 "F"F4 |]
+"D"[|\
+"F"A2 "C7"G/A/B/G/ "F"A"^(n.c.)"F EF | "F"A2 "C7"G/A/B/G/ "F"A"^(n.c.)"F EF "I"|\
+"C7"CB BA/G/ "F"Ad "Bb"cB | "F"A2 "C7"G2 "F"F4 |]

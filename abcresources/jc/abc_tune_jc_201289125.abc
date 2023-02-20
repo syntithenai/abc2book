@@ -1,0 +1,3621 @@
+I:abc-charset utf-8
+%%titlefont Times-Bold 24
+%%subtitlefont Times-Bold 18
+%%gchordfont Times-Bold 14
+%%composerfont Times-Italic 16
+%%notationfont Times-Bold 16
+%%annotationfont Times-Bold 16
+%%textfont Times-Italic 16
+%%partsfont Times-Bold 14
+%%printtempo 0
+%%printparts 1
+%%partsbox 1
+%%bstemdown 1
+%%withxrefs 1
+%%pageheight 11in
+%%%staffsep .01
+%%topspace .25in
+%%botspace .25in
+%%notespacingfactor 1
+%%stretchlast 0
+%%titleformat  T, R-1 C1
+%%scale .685
+%%footer "Reels\n$P0.		$P1."
+%%newpage 361
+
+X:0
+%%%footer "Section D"
+%%withxrefs 0
+%%lineskipfac 8
+%%textfont Times-Bold 48
+%%begintext center
+%%Reels
+%%endtext
+%%titlefont Times-Bold 1
+I:0
+T:_Reels_
+M:1/1
+K:C
+%%newpage
+
+X:515
+T:MacPherson's Rant
+C:Joe Buchanan's Scottish Tome - Page 001.1
+I:001 1
+C:Trad.
+R:Reel
+Z:Carl Allison
+M:2/4
+L:1/8
+K:G
+GD BA/G/|A/G/A/B/ AD/E/|GD BA/G/|E2 ED/D/|
+GD BA/G/|A/G/A/B/ AD/E/|GD BA/G/|E2 EB/c/|
+dB c/B/A/G/|BA  AB/c/|dB AG|E2 EB/c/|
+dB c/B/A/G|BA  AB|GB AGE|D2 D:|
+
+X:516
+T:Ladies From Hell, The 
+C:Joe Buchanan's Scottish Tome - Page 001.2
+I:001 2
+C:James MacMillan Tait
+R:Reel
+Z:Carl Allison
+L:1/8
+M:2/4
+K:G
+d | BG Gg/a/ | gG  de/d/ | BA Bd  | f2 ef/g/ |
+a>f ab  | g/>f/e/>d/ ef/g/ | BA/B/ B/<G/B/<d/ | e2 e  :|
+g/e/2 | Be e/2>f/2e/2>d/2 | Be eg/2e/2 | dB B/2>A/2B/2>d/2 | e2 ef/2g/2 |
+a>e ga | g/2>f/2e/2>d/2 ef/2g/2 | BA/2B/2 B/2>G/2B/2>d/2 | e2 e |
+g| GB B/2>e/2d/2>c/2 | BG Gg | GB g/2>f/2e/2>d/2 | d2 ef/2g/2 |
+a/>g/f/>e/ g/>f/e/>d/ | e/>f/g/>e/ ae/d/ | BA/B/ B/>G/B/>d/ | e2 e  |
+
+X:517
+T:Ian Powrie's Compliments To Sir Thomas Wardle 
+C:Joe Buchanan's Scottish Tome - Page 004.0
+I:004 0
+R:Reel
+Z:Carl Allison
+L:1/8
+M:2/4
+K:Dmaj
+A | "D" d>e fa | "Em" gf "A7" ef | "D" d>e fA | "G" BA AG |
+"D" A>B d>e | "D" fa "B7" gf | "E7" f<e ef | "A7" e2A2 |
+"D" d>e fa | "Em" gf "A7" ef | "D" d>e fA | "G" BA AG |
+"D" A>B "Bm" d>e | "F#m" fa "B7" gf | "Em" eA "A7" f>e | "D" d2 d/e/f/g/ |]
+"D" ag fg | "Em" gf "A7" eg | "D" f>e fA | "G" BA AG |
+"D" A>B d>e | "A" fa "B7" gf | "E7" e>f e>f | "A7" e2 fg |
+"D" a>g fd | "Em" gf "A7" ec | "D" d>e fa | "G" BA AG |
+"D" A>B "Bm" d>e | "F#m" fa "B7" gf | "Em" eA "A7" f>e | "D" d2 d2 |]
+
+X:518
+T:Miss Linda MacFarlane #1 
+C:Joe Buchanan's Scottish Tome - Page 005.1
+I:005 1
+C:Robin Brock
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:Gmaj
+"D7" D |"D7" G2 "G" (F>G) "G" DGBd | "D7" d2 (d>A2) cA "G" G2 (F>G) | "C" E2 (e>d) "G" cBAG | "Am" B2 A2 "D7" A2 D2 |
+"G" G2 (F>G) "G" DGBd |"D7" d2 "Em" (c>A) "D" G2 (F>G) | "C" E2 (e>d) "D7" cFBA | "G" G2 "D7" (G>A)"G" G2 (B>c) |
+"G" d2 (B>c) "G7" dBgf | "C" e2 (c>d) ecgd | "G" d2 (D>G) Bdgd | "Am" B2 A2 "D7" A2 D2 |
+"G" G2 (F>G) "G" DGBd |"D7" d2 (c>A) "Em" G2 "D" (F>G) | "C" E2 (e>d) "D7" cFBA | "G" G2 "D" (G>A) "G" G2 |]
+
+X:519
+T:Glenbuchart Lodge 
+C:Joe Buchanan's Scottish Tome - Page 006.1
+I:006 1
+C:Lindsay Ross
+R:Reel
+Z:Carl Allison
+L:1/16
+M:2/4
+K:D
+A2 | "D"fd "D7"de/f/ | "G"g2B2 B2ed |"A7" c2A2 gc |"D" d/e/f/g/ a2>A2 |
+|"D" fd "D7"de/f/ |"G" g2B2 B2ed |"A7" c/d/e/c/ A2c2 |"D" d4 d2 :|
+AG | "D"F2A2 "D7"d2A2 | "G"B2G2 G2BA | "E7"^G2B2 e2B2 |"Am"c2A2 ABAG |
+|"D"F2A2 "D7"d2A2 | "G"B2G2 "E7"e2>d2 | "A7" cdec A2c2 | "D"d4 d2:|
+
+X:520
+T:Back Proddin' Mudguard 
+C:Joe Buchanan's Scottish Tome - Page 008.2
+I:008 2
+C:Mickie Ainsworth
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:D
+A>G | F>EFA d2 fe | d>BGB A2 AG/ | F>DFA dAFD | E2 ^GB A>=G |
+| F>EFA d2 fe | d>BGB A2 FE/ | D>EFA GA,FE | D2 F>E [DF]2 [DF]2 |]
+A>G| E>^DEF GEAG | F>EFG A2 A2 | G>F^GA BEFG | A2 B2 c2 A>G |
+| F>DFA d2 fe | d>BGB A2F>E| D>EFA GA,FE | D2 F>E [DF]4 |]
+
+X:521
+T:Burning of The Piper's Hut, The 
+C:Joe Buchanan's Scottish Tome - Page 013.0
+I:013 0
+R:Reel
+Z:Carl Allison
+L:1/8
+M:2/4
+K:Bm
+f | "Bm"B>c d>e | "Bm"f4 | "D"ee (e<a) | "D"e2 (ed) | "A"c2 A2 | "A"f2 A2 | "A"c>d e>f | "A"e (c<A) |
+"Bm"B>c d>e | "Bm"f2 | "D"ee (e<a) | "D"e2 (ed) | "A"c2 A2 | f (e>d) | "Bm"c2 B2 | "Bm"B3 :|
+f | "Bm"B>c d>e | "Bm"f2 B2 | "Bm"a2 B2 | "D"f2 (e>d) | "A"c2 A2 | "A"e2A2 | "A"c>d e>f | e (c<A) |
+"Bm"B>c d>e | "Bm"f2B2 | "Bm"a2B2 | "D"f2 (e>d) | "A"c2 A2 | "F7"e2 (e>d) | "Bm"c2B2 | "Bm" B3 :|
+f | "Bm"B>c d>e | "Bm"a>B B<B | "Bm"a>B B<B | "D"f2 (e>d) | "A"c2 A2 | e2 A2 | "A"c>d e>f | "A"e2 (c<A) |
+"Bm"B>c d>e | "Bm"fB B/B/B | "Bm"a>B B<B | "D"f2 (e>d) | "A"c2 A2 | "F#m"f2 (e>d) | "Bm"c2 B2 | "Bm" B3 :|
+f | "Bm"B>c d>e | "Bm"f>B B/B/B | "Bm"a>B B/B/B | "Bm"f>B B/B/B | "A"c>A A/A/A | "A"e>A A/A/A | "Bm"B>c d>e | "A"e2 (c<A) |
+"Bm"B>c d>e | "Bm"fB B/B/B | "Bm"a>B B<B | "Bm"f2 (e>d) | "A"c2 A2 | "F#m"f2 (e>d) | "Bm"c2 B2 | "Bm" B3 :|
+
+X:522
+T:John Huband of Muirhead 
+C:Joe Buchanan's Scottish Tome - Page 016.0
+I:016 0
+R:Reel
+Z:Carl Allison
+L:1/8
+M:2/4
+K:A
+a/>f/ |"A" eA cA |"A" c/>f/e/<A/ cB/<A/ |"Bm" fB dB |"Bm" a/>g/f/<e/ "E"fa/>f/ |
+|"A" eA cA |"A" e/>f/e/<A/ cB/<A/ |"Bm" B/d/f/<a/ "E"fe/d/ |"A" c"D"A "A"A2 :|
+f/>g/ |"A" a>e ce |"A" A/c/e/f/ ec/<A/ | "Bm"f>e dB | "Bm"a/>g/f/<e/ "E"fe/>f/ |
+|"A" a>e ce |"A" A/c/e/<f/ ec/<A/ |"Bm" B/d/f/<a/ "E"fe/d/ |"A" c"D"A "A"A2 :|
+|"A" ce ef |"A" A/B/c/<A/ eA | "D"df fA |"Bm" a/g/f/<e/ "E"fe/>d/ |
+|"A" ce ef |"A" A/B/c/<A/ eA |"Bm" B/d/f/<a/ "E"fe/d/ | "A"c"D"A "A"A2 |
+|"A" ea c/d/e |"A" A/B/c/<A/ eA |"Bm" f/g/f/e/ dB |"Bm" a/g/f/<e/ "E"f2 |
+|"A" e/f/a c/d/e |"A" A/B/c/<A/ eA |"Bm" B/d/f/<a/ "E"fe/d/ | "A"c"D"A "A"A |
+
+X:523
+T:Iain MacPhail's Welcome To Shetland 
+C:Joe Buchanan's Scottish Tome - Page 022.0
+I:022 0
+C:Ronald Jamisson
+R:Reel
+Z:Carl Allison
+L:1/8
+M:2/4
+K:A
+"E7"E2 |"A" A2 "A7"Bc | "D"d2 "Bm"F2 | "E7"G2 B>G |"A" A2 "A7"E2 |
+"D"F2 "B7"B>c |"Bm" d"A"c "E"B"F#m"A |"B7" A2 G>A |"Bm" E2 "E7"D>G |
+"F#m" A2 "C#"B"F#m"c |"Bm" d2 "D"F2 |"E" G2 "E#dim"B>G |"F#m" A2 "A7"E2 |
+"D" F2 "B7"B>c |"Bm" dE "E7"cB |"A" A2 "D"A>B |"A" A2 |]
+"E7"e2 |"A" a2 "A7"Aa |"D" f2 "Bm"d2 |"E7" e2 Ee |"A" c2 A2 |
+"B7" b2 Bb |"E7" g2 e2 |"B7" f>g af |"E7" e^e fg |
+"A" a2 "A7"Aa |"D" f2 "Bm7"d2 |"E7" e2 Ee |"A" c2 A2 |
+"D" D2 "B7"B>c |"Bm7" dE "E7"cB |"A" A2 "D"A>B |"A" A2 |]
+
+X:524
+T:Meeting of The Waters #1, The 
+C:Joe Buchanan's Scottish Tome - Page 025.1
+I:025 1
+R:Reel
+Z:Carl Allison
+L:1/8
+M:2/4
+K:Dmaj
+A>B | "D"d2  df    "D"A2  d>c        | "G"Bd  BG "D"A2 d>e | "D"fa  Aa     "Bm"gf ed | "E7"f2 e2  e2     "A7"A>B     |
+| "D"d2  df    "D"A2  "D7"d>c    | "G"Bd  BG "D"A2 d>e | "Bm"fa "Em"gf "A7"gA ce | "D"d2  d>e d2     f>g         |]
+| "D"a>g fa    "D7"d2 fd         | "G"(B<d) BG "D"A2 d>e | "D"fa  Aa     "Bm"gf ed | "E7"f2 e2  e2     "A7"f>g     |
+| "D"a>g fa"D" d2     "D7"fd     | "G"(B<d) BG "D"A2 d>e | "Bm"fa "Em"gf "A7"gf ed | "D"f2  e2  d>e    A>B         |]
+| "D"d2  de    "D"f2  f>g        | "G"aA  Bd "D"A2 a>g | "D"f>g gf     "Bm"gf ed | "E7"f2 e2  e2     "A7"A>B     |
+| "D"d2  d>e   "D"f2  "D7"f>g    | "G"af  ed "D"B2 d>e | "Bm"fa "Em"gf "A7"gA ce | "D"    d2  d>e    d2      a>g |]
+| "D"f2  a>g   fa     "D"     fA | "G"Bd BG "D"A2 d>c | "G"BG  Bd     "Em"gf ed | "E7"f2 e2  "A7"e2 a>g         |
+| "D"f2  a>g   fa"D"  fA         | "G"Bd gB "D"A2 d>c | "D"fa "Bm"gf "Em"fA ce | "D"d2    d>e    A>B         |]
+
+X:525
+T:Garden of Skye, The 
+C:Joe Buchanan's Scottish Tome - Page 026.0
+I:026 0
+C:Addie Harper
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:Amaj
+(c3B) | "A" A4 "D" (A3B) | "A" (c(e e2)) (e3c) | "B7" B2 A2 "E7" (c3B) | "A" A4 c2e2 |
+"D" f4 "D"(f3e) | "D" (f(a a2)) (g2f2) | "A" (f2e2) "E7" (e3f) | "A" e4 (c2e2) |
+"A" a4 (a3g) | "A" f4 (a3g) | "A" f2e2 "E7" c2B2 | "A" c4 "E7" (c3B) |
+"A" A4 "D"(A3B) | "D" (c(e e2)) (e3c) | "B7" B2A2 "E7" (c3B) | "A" A4 "E7" e3f |
+"A" c4 (c2e2) | "D" f4 (f2a2) | "A" e4 (e3f) | "E7" e2c2 B2d2 |
+"A" e4 (e2a2) | "A" f4 (f2a2) | "A" e3f "B7" e2c2 | "E7" B4 (ce) |
+"D" (f(a a2)) (a3 g) | "D" f4 (a3g) | "A" f2e2 "E7" c2B2 | "F#m" c2 f2 e2f2 |
+"A" A4 (A3B) | "A" (c(e e2)) (e3c) | "B7" (B2A2) "E7" (c3B) | "A" A4 :|
+
+X:526
+T:Miss Linda MacFarlane #2 
+C:Joe Buchanan's Scottish Tome - Page 027.2
+I:027 2
+C:Robin Brock
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:Gmaj
+"D7"D2 |"D7" G2 "G"(F>G) "G"DGBd | "D7"d2 cA "G"G2 (F>G) | "C"E2 (e>d)"G" cBAG |"Am" B2 A2 "D7"A2 D2 |
+"G"G2 (F>G) "G"DGBd | "D7"d2 "Em"(c>A) "G"G2 (F>G) |"C" E2 (e>d) cFBA |"G" G2 "D7"(G>A) (B>c) |
+"G"d2 (B>c) "G7"dBgf |"C" e2 (c>d) ecgd | "G"d2 (D>G) Bdgd |"Am" B2 A2 "D7" A2 D2 |
+"G"G2 (F>G)"G" DGBd |"D7" d2 (c>A)"Em" G2 "D"(F>G) | "C"E2 (e>d) "D"cFBA |"G" G2 "D"(G>A)"G" G2 |]
+
+X:527
+T:Bonnie Ann #1 
+C:Joe Buchanan's Scottish Tome - Page 028.0
+I:028 0
+R:Reel
+Z:Carl Allison
+L:1/16
+M:2/4
+K:A
+c>B | "A" {AB}A2a2{b} a>f | "A" e>fe>d c2(B<A) | "G"=G2=g2 {a}g2>e2 | "G" d>ed>c B2A<=G |
+"A" {AB}A2a2{b} a>f | "A" e>fe>d c2(e=g) | "G" d>cB>A =G>AB>c | "A" {e}d2=G2 A<A :|
+"A" c>d | "A" e>d>cB A>Bc>d | "A" {f}e2A2 {d}c2 | "G" (d>c)B>A =G>AB>d | "A" {e}c=A A<Ac>d |
+"A" e>dc>B A>Bc>d | "A" e2>a2 {d}c2=g2 | "G" d>cB>A =G>AB>c | "A" {d}c2A2 A<Ac>d |
+"A" e>dc>B A>Bc>d | "A" {f}e2a2 {d}c2 | "G" (d>c)B>A =G>AB>d |"A" {e}d2=g2 B<Bc>d|
+"A" e>dc>B A>Bc>d | "A" {f}e2a2 {d}c2(e<=g) | "G" (d>c)B>A =G>AB>d |"A" {e}d2=g2 B<Bc>d|]
+c>B | "A" A2a2 f>=ga>f | "A" e>fe>d c>de>c | "G" B>=gf<g a>gf>e |  "A" d>ed>c B>cd>B |
+"A" A2a2 f>=ga>f | "A" e>fe>d c>ac<e | "G" d>cB>A =G>AB<d | "A" {d}c2A2 A<A :|
+c>d | "A" e>dc>B A>Bc>d | "A" e>dc>A a>ec<A | "G" d>cB>A =G>AB>c | "A" d>cB<=G g>dB<G |
+"A" e>dc>B A>Bc>d | "A" e>dc<A a>ec<e | "G" d>cB>A =G>AB<d | "A" {d}c2A2 {B}A2(c>d) |
+"A" e>dc>B A>Bc>d | "A" e>Ac<A a>ec<A | "G" d>cB>A =G>AB>c | "A" d>=GB<G =g>dB<G |
+"A" e>dc>B A>Bc>d | "A" e>ca>=g f>A(e>c) | "G" d>cB>A =G<fe>d |"A" {d}c2A2 A<A |]
+
+X:528
+%%notationfont Times-Bold 16
+T:Duke of Fife's Welcome To Deeside, The 
+C:Joe Buchanan's Scottish Tome - Page 034.0
+I:034 0
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:C
+E | (EA) AB/c/ (BA) AB/c/ | de/f/ (ea) e/c/A/c/ BE |
+!>!(EA) AB/c/ (BA) AB/c/ | {c}de/f/ e/c/B/c/ {/G}(A2 A) :|
+c/d/ | ec/A/ ag/a/ faec | de/f/ ea e/c/A/c/ Bc/d/ |
+ec/A/ ag/a/ faec | de/f/ e/c/B/c/ {/G}([AA]2 A)c/d/ |
+ecA ag/a/ faec | de/f/ (ea) e/c/A/c/ BE |
+(EA) AB/c/ {c}(BA) AB/c/ | {c}de/f/ e/c/B/c/ {G}(A2 A) :|
+%%vskip 30
+P:Var
+E/D/C/E/ A/A,/A/c/ B/A/G/B/ A/A,/A/c/ | d/e/f/a/ e/c/d/B/ A2 Ac/d/ |
+e/c/d/B/ A/a/g/a/ f/a/d/f/ e/a/c/e/ | d/c/d/f/ e/c/A/a/ e/c/A/c/ B/B/c/d/ |
+e/c/d/B/ A/a/g/a/ f/a/d/f/ e/a/c/e/ | d/e/f/g/ e/c/d/B/ {/G}(A2 A) |]
+
+X:529
+T:Flett From Flotta #1 
+C:Joe Buchanan's Scottish Tome - Page 035.1
+I:035 1
+C:P.M. Donald Macleod
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:Amaj
+(f>e) | "A" {d}c>e cB {d}c2 (Ac) | "A" e>f ec {f}e2 (ce) | "D" {fa}f>e fa {fa}f2 (ec) | "A" {fa}f>e cA "E7" {c}B2(f>e) |
+"A" {d}c>e cB {d}c2 (Ac) | "A" e>f ec {g}a2 (AB) | "A" {d}c2 {g}a2 e<c "E7" B>c | "A" A4 {AB}A2 (A>B) |
+"A" {f}e2 (Ac) {g}a2 (Ac) | "A" e>f ec {f}e2 (Ac) | "A" {g}a2 (Ac) {f}e2 (ce) | "D" {fa}f>e "A" cA "E7" {c}B2 (f>e) |
+"A" {d}c>e cB {d}c2 (Ac) | "A" e>f ec {g}a2 (A>B) | "A" {d}c2 {g}a2 e<c "E7" B>c | "A" A4 {AB}A2 |]
+
+X:530
+T:Peat Fire Flame, The 
+C:Joe Buchanan's Scottish Tome - Page 035.3
+I:035 3
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:G
+| A>B cB | AG e2 | ed dc/2d/2 | ed de |
+A>B cB | AG e>d | cA BG | A2 A2 :|
+| c>d ec'/2b/2 | ag e2 | ed dc/2d/2 | ed de |
+c>d ec'/2b/2 | ag e>d | cA BG | A2 A2 :|
+
+X:531
+T:Coffins Off The Peg 
+C:Joe Buchanan's Scottish Tome - Page 036.1
+I:036 1
+C:Willie Shankie
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:D
+A2 |"D" de/f/ "A7"ed/c/ "D"d2 "D7"F2 | "G"GA/B/ "A7"A>G "D"((3FGA) D>F | "Em"GA/B/ "A7"AF/G/ "D"FA d>A | "E7"^GE e>d "A7"cA FE |
+"D" de/f/ "A" ed/c/ "D"d2 "D7"F2 | "G"GA/B/ "A7"A>G "D"((3FGA) D>F | "Em"GA/B/ "A7"EF/G/ "D"FA d>A | "Em" GE "A7"Ac "D"d2 :|
+d2 | "F#m"c2 de "Bm"dc B2 | "F#7"^A2 Bc "B7"B2 F2 | "Em"GA/B/2 "A7"E/F/G/ "D"FA d>A | "E7"^GE e>d "A7"cA fe |
+"D"de/2f/2 "A7"ed/c/ "D"d2 "D7"F2 | "G"GA/B/ "A7"A>G "D"((3FGA) D>F | "Em"GA/B/ "A7"EF/G/ ""FA d>A | "Em"GE "A7"Ac "D"d2 :|
+
+X:532
+T:Hunter's Hill 
+C:Joe Buchanan's Scottish Tome - Page 062.1
+I:062 1
+R:Reel
+Z:Carl Allison
+L:1/4
+M:4/4
+K:G G/A/|"G"B2B/c/B/A/|"G"GBDB/c/|"G"dd e/d/B|"G"d3 e/f/|"Em"g2"D"f>g|"C"ed "G"BG|"D"Ad "A7"^ce|"D7"dcBA|
+"G"B2B/c/B/A/|"G"GBDB/c/|"G"dd e/d/B|"G"d3 e/f/|"Em"g2"D"f>g|"C"ed "G"BG|"C"AG "D7"ED|"G"G3 B/d/|
+"Em"e2e>B|"Em"gfeB|"Em" e>fgf|"Em"e2"A7"fe |"D"d2 d>e|"D"fedf/g/|"A7"agfe|"D"dc"D7"BA|
+"G"B2B/c/B/A/|"G"GBDB/c/|"G"dd e/d/B|"G"d3 e/f/|"Em"g2"D"f>g|"C"ed "G"BG|"C"AG "D7"ED|"G"G3||
+
+X:533
+T:Catherine Margaret Hall 
+C:Joe Buchanan's Scottish Tome - Page 062.2
+I:062 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+"A"c2 "A/E"c/d/c/B/ "A"Ac "A/F"Ec/d/  | "A"ee "D"f/e/c "A/C#"e2 "A"ef/g/ | "F#m"a2 "A/E"g>a "D"fe"A/C#"cA | "B"Be"B/D#"^df "E"e"F#   "=d"E/G#"cB |
+"A"c2 "A/E"c/d/c/B/ "A"Ac "A/F"Ec/d/  | "A"ee "D"f/e/c "A/C#"e2 "A"ef/g/ | "F#m"a2 "A/E"g>a "D"fe"A/C#"cA | "Bm"BA"E7"FE "A"A2 "A/E"Ac |
+"F#m"f2 f"C#"c "F#m"agf"C#"c | "F#m"f>g"C#"ag "F#m"f2 "B"gf | "E"e2 "E/B"eB "E"gf "E/B"eg/a/ | "Bm"ba"D"gf "E"e"F#   "d"E/G#"cB |
+"A"c2 "A/E"c/d/c/B/ "A"Ac "A/E"Ec/d/ | "A"ee  "D"f/e/c "A/G#"e2 "A"ef/g/ |  "F#m"a2 "A/E"g>a "D"fe"A/E"cA | "Bm"BA"E7"FE "A"A2 "A/E"A2 :|
+
+X:534
+T:Snouts And Ears 
+C:Joe Buchanan's Scottish Tome - Page 062.3
+I:062 3
+Z:Carl Allison
+R:Reel
+L:1/8
+K:A
+((3efg) | "A"aA "A/E"A>B | "A"Ae "A/C#"ab/a/ | "E"ge "E/B"e/f/g/a/ | "Bm"be "E7"e(f/g/) |
+"A/C#"a/g/f/e/ "D"dc | "Bm"Be "E"e/f/e/d/ | "B7"cA "E7"BA/B/ |  "A"(c"D"A) "A/G#"A2 :|
+e2 | "A"cA "A/E"A>B | "A"ce "F#/A#"e(f/e/) | "Bm"dB "Bm"B>"F#"c | "Bm"da "E7"a/f/e/d/ |
+"A"cA "A/E"A>B | "A"ce "F#/A#"ef/e/ | "Bm"dB "E7"a/f/e/d/ | "A"c"D"A "A/C#"A2 :|
+
+X:535
+T:Piper O'Dundee, The 
+C:Joe Buchanan's Scottish Tome - Page 063.2
+I:063 2
+R:Reel
+S:Lesley Dolman, via EF
+Z:Carl Allison
+L:1/4
+M:4/4
+K:Am
+P:A
+"Am"A3/2B/2 c3/2A/2|"Am"E2 E3/2f/2|"E7"e3/2d/2 c3/2B/2|"Am"A3:|
+E|"Am"A3/2B/2 c3/2A/2|"Am"E2 E3/2^F/2|"G"G3/2A/2 B3/2c/2|"G"d3/2B/2 G3/2B/2|
+P:B
+"C"c3/2c/2 c3/2e/2|"G"g3/2G/2 G3/2f/2|"E7"e3/2d/2 c3/2B/2|"Am"A3:|
+A/2B/2|"C"c3/2c/2 c3/2e/2|"G"d3/2d/2 d3/2e/2|"C"c3/2c/2 c3/2e/2|"G"d2 d3/2B/2|
+
+X:536
+T:Flett From Flotta #2 
+C:Joe Buchanan's Scottish Tome - Page 064.1
+I:064 1
+C:P.M. Donald MacLeod
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:Amaj
+(f>e) |  {d}c>e cB {d}c2 (Ac) |  e>f ec {f}e2 (ce) |  {fa}f>e fa {fa}f2 (ec) |  {fa}f>e cA  {c}B2(f>e) |
+{d}c>e cB {d}c2 (Ac) |  e>f ec {g}a2 (AB) |  {d}c2 {g}a2 e<c  B>c |  A4 {AB}A2 (A>B) |]
+{f}e2 (Ac) {g}a2 (Ac) |  e>f ec {f}e2 (Ac) |  {g}a2 (Ac) {f}e2 (ce) |  {fa}f>e  cA  {c}B2 (f>e) |
+{d}c>e cB {d}c2 (Ac) |  e>f ec {g}a2 (A>B) |  {d}c2 {g}a2 e<c  B>c |  A4 {AB}A2 |]
+
+X:537
+T:She'll Be Comin' Round The Mountain
+C:Joe Buchanan's Scottish Tome - Page 064.3
+I:064 3
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+E>F | AAAA FECE | A2 A>B A2 A>B | ccc>c eeec | B2 B>c B2 e>d | 
+ccc>c B2 A2 | AAA>A d2 d>d | ccc>c BBcB | A2 A>B A2 |
+
+X:538
+T:Bonnie Lass O'Fyvie #2
+C:Joe Buchanan's Scottish Tome - Page 064.4
+I:064 4
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+D | G>F GA G D>D | G>F GA G2> G2 | A Bc d2 cB | A2 D2 D2> c2 |
+B>A Bc d2 D2 | G>A GE C2 B,C | D2 G>G AGFE | D2 G>A G2 :|
+
+X:539
+T:Thistle of Scotland #2, The
+C:Joe Buchanan's Scottish Tome - Page 065.1
+I:065 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+E>F | "A"A2 "E"Ac "A"A2 "D"AF | "A"E2 "C#m"E>F "A"E2 "E7"AB | "A"c2 "E"BA "A"A2 ec | "B7"B2 B>c "D#"B2 E>F | 
+"A"A2 "E"Ac "A"A2 "D"AF | "A"E2 "C#m"EF "A"E2 "E7"A>B | "A"ce"C#m"ce "E7"dB | "A"A2 "D"A>B "A"A2-> A2 :| 
+A>B | "A"c2 "C#m"ce "A"c2 "G#"BA | "D"F2 "F#"FA "A"E2 "E7"AB | "A"c2 "E"BA "F#"e2 "C"Ac | "B7"B2 "D# d7"B>c "E"B2 E>F | 
+"A"A>B"C#"ce "A"e2 "G#"cB | "D"F>A"F#"FA "A"E2 "E7"A>B | "A"cece "A"E2 "E7"A>B | "A"A2 "D"A>B "A"A2-> A2 :| 
+%
+W:Errata: Changed all of the "C#" chords to "C#m" and last chord of each part to "A" from "C#".
+
+X:540
+T:Tartan, The 
+C:Joe Buchanan's Scottish Tome - Page 065.2
+I:065 2
+R:Reel
+Z:Carl Allison
+L:1/4
+M:4/4
+K:G
+B | "G"G2 G A | "G"B2 A G |"D7" F> E F G | "D7" A3D |
+"Am"A2 A B |"D7"c2 B A | "G"G> F G A |"G"B2 d B |
+"G"G2 G A |"G7"B2 A G |"C"c2 c d |"C#"e2 e "Am"e |
+"G"d2 d d |"Ddim"d2 B c |"D7"d2 d d |"D7"d2 D E |]
+"G"G2 B> A |"G" G D2D |"D7"A2 c> B |"D7" A D2 D |
+"G"B2 d >c | "Bm"B d2 B |"A7" G2 F G |"D7"A2 D E |
+"G"G2 B> A |"G" G D2D | "Am"A2 c> B |"D7" A D2D |
+"G" B2 d c |"E7" B d2 c |"A7" B G2 "D7"A |1"G" G4 :|2"G" G^FED |]
+
+X:541
+T:Scotland The Brave #1 
+C:Joe Buchanan's Scottish Tome - Page 066.1
+I:066 1
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:Cmaj
+"C"C4 C3D | "C"E2 C2 E2 G2 | "C"c4 "F"c3B | "C"c2 G2 "C7"E2 C2 |
+"F"F4 A3F | "C"E2 G2 "Am"E2 C2 | "D7"D4 "G7"G3 A | "G7"G2 F2 E2 D2 |
+"C"C4 C3 D | "C"E2 C2 E2 G2 | "C"c4 c3 B | "C"c2 G2 E2 C2 |
+"F"F4 A3 F | "C"E2 G2 E2 C2 | "Fm"D4 C3 C | "C"C4 |
+"G"d4 d3 d | "G7"d2 B2 G4 | "C"c4 e3 d | c2 "C"A2 G4 |
+"Am"c4 c3 "D7"c | "G"B4 "Am"c3 B | "D7"A2 c2 B2 A2 | "G7"G2 F2 E2 D2 |
+"C"C4 C3 D | "C"E2 C2 E2 G2 | "C"c4 c3 B | "C"c2 G2 "C7"E2 C2 |
+"F"F4 A3 F | "C"E2 G2 "Am"E2 C2 | "Fm"D4 "C"C3 C | "C"C4 "C"C4 ||
+
+X:542
+T:Whisky In The Jar 
+C:Joe Buchanan's Scottish Tome - Page 067.2
+I:067 2
+R:Reel
+Z:Carl Allison
+L:1/4
+M:4/4
+K:Cmaj
+E | "C"G>G GA | "C"G (E2 G) | "Am"A>A AB | "Am"A (E2 G) |
+"F"A>A AB | "F"ccBA | "C"GG cB |1 A E2 :|2
+"C"AGEC || "G"D3/2 D D E |"G"D4 |z "C"E E3/2 D/ | "C"E F "C7"G4 |
+z "F"A A3/2 G/ | "F"A B c A | "C"G E "G7"D3/2 E/ | "C"C6 C2 :|
+
+X:543
+T:Hen's March Through The Midden, The 
+C:Joe Buchanan's Scottish Tome - Page 069.0
+I:069 0
+Z:Carl Allison
+R:Reel
+L:1/16
+M:2/4
+K:D
+((3ABc)|"D"d2A2 "Adim"d>ef>g| "D"a>gf>e "A7"e2>A2|"D" d2>e2 "Adim"f2f2|"G" {ef}g2f>g   "A7"a4 |
+"D"{fg}a>gf<a "A7"g>fe<g | "D"f>ed<f "A7"A2A2 | "D"d>f"A7"e>g "D7"f<a"D"g>f | "A7"[eA]4 "D"d4 :|
+"A"[AA]2{d}[Ac]2 "Edim"[AA]2{d}[Ac]2 | "A"A2A>c "C#dim"[ecA]2f2  | "D"d2{g}f2 "A"d2{g}f2 | "D"d2d>e "F#dim"[Adf]2a2 |
+"G"{c}d2d>f "Bdim"[Bdg]2b2 | "D"{c}d2d>e "F#dim"[Adf]2a2 | "G"{c}d2df "Bdim"[Bdg]2b2 | "D"{c}d2d>e "F#dim"[Adf]2a2 |
+"D"a>gf<a "A7"g>fe<g | "D"f>ed<f "A7"A2>A2 | "D"d>f"A7"e>g "D7"f<a"G"g>f |  "A7"[Ae]4 z2  "D"d2 :|
+agfa gfeg| fedf e2 A2 | df eg fa gf|e2 c2 d4:|
+
+X:544
+T:Thoughts of Bobby MacLeod 
+C:Joe Buchanan's Scottish Tome - Page 078.0
+I:078 0
+C:Ian Holmes (5-8-93)
+R:Reel
+Z:Carl Allison
+L:1/8
+M:12/8
+K:D
+f | "D"A>AA A>BG A3 d3 | f2 a "D7"a>fd "G"B3 G3 |
+"A7"A>AA c2 d "Em"e<gf e>dB | "A7"cA>a g>fe "D"f3 f2 a |
+"D"A>AA A>BG A3 d2 e | f2 a "D7"a>fd "G"B3 G2 B |
+"A7"A>AA c2 d egf e>dB | cAa g>ec "D"d3 dAd |]
+"D"f3 afd A3 A>Bd | f2 a "D7"a>fd "G"B3 G2 B |
+"A7"A>AA c2 d "Em7"e<gf e>dB | "A7"cAa gfe "D"f3 f>Ad |
+"D"f3 a>fd A3 A>Bd | f2 a "A7"a>fd "G"B3 G2 B |
+"A7"A>AA c2 d "Em"e<gf e>dB | "A7"c<Aa g>ec "D"d3 d2 f |]
+"D"A2 d "G"B>AG "D"A3 d2 e | f2 a "D7"f>ef "G"g>Gd B>AG |
+"A7"A2 c A2 c "Em"e<gf e>dB | "A7"c<Aa g>fe "D"f3 f2 a |
+""A2 d "G"B>AG "D"A3 d2 e | f<ag "D7"f>ef "G"gGd B>AG |
+"A7"A2 c A>ce "Em"e<gf e>dB | "A7"c<Aa g>ec "D"d3 d>fg |]
+"D"aAa a2 g f<aA "D7"f>ed | "G"B>GB B2 d B<Gd B>AG |
+"A7"A>AA c2 d "Em"e<gf e>dB | "A7"c<Aa g>fe "D"f3 f2 g |
+"D"aAa a2 g "Em"f<aA "D7"f>ed | "G"B<GB d>ef g>Gd B>AG |
+"A7"A2 c A>ce "Em"e<gf e>dB | "A7"c>Aa g>ec d2 |]
+
+X:545
+T:Blue Bonnets Over The Border
+C:Joe Buchanan's Scottish Tome - Page 088.0
+I:088 0
+Z:Carl Allison
+R:Reel
+L:1/8
+M:6/8
+K:A
+e | "A"A2 A c2 e | "A"a2 a a2 e | "G"=g>ag "D"f<af | "A"e>cA "E7"B2 c |
+"A"A2 A c2 e | "A"a2 a a2 e | "D"f>ed c2 "A"e | "E7"f<ac B2 A :|
+e | "A"A>ce e>ce | "D"fed "A"c>BA | "D"A>ce "D"f>ga | "A"A>Bc B2 A |
+"A"A>ce e>ce | "D"f>ed "A"c>BA | "D"a>gf "A"e>ce | "E7"f<ac "A"B2 A1 :| [K:D]
+"D"d3 "G"d3 | "D"d>fe d2 A | "G"d2 B B2 g | "A7"a>gf gfe |
+"D"d3 "G"d3 | "D"d>fe d2 A | "G"d>cB A>Bc | d>ef "D"e2 d :|
+"D"d>fa a>fd | a>gf "A7"f>ef | "D"d>fa a>fd | "D"d>ef e2 d |
+"D"d>fa a>fd | a>gf "A"f>ef | d>cB "Bm"A>Bc | "A"d>ef "D"e2 d :| [K:G]
+G3 G3 | G>BA G>ED | G>EE E2 D | e>dB A2 B |
+G3 G3 | G>BA G>ED | c>de (d>g)G | G>AB{B} A2 G :|
+G>Bd d>BG | e>dB B>AG | G>Bd e>fg | G>AB B>AG |
+G>Bd d>BG | e>dB B>AG | E<GE D>EF | G>AB{B} A2 G :|
+
+X:546
+T:End of The Road, The 
+C:Joe Buchanan's Scottish Tome - Page 090.0
+I:090 0
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:Bb
+|:"Bb"B2 B2 | B2 AG | F2 FG | F8 |
+| D F3 | "F7"E D2 C | "Bb"B,4- | B,2 DF |
+| B2 B2 | "C7"B2 AG | "F"A2 "C"B2 |"F"c4 |
+| "F"c A3 | "C7"A2 GA | "F"F4- | F2 GA |
+| "Bb"B3 A | c B3 | "Cm"B A2 ^G | "F"A2 EF |
+| "Bb"G G2 G | G F2 D |"F7"F4- | F2 F2 |
+|"Bb" d2 d2 | B2 cd |"Eb" e2 =e2 |"Bb" f2 dB |
+|"F7"(F4 |F2) AB |(c4 | c2) BB |
+|"Bb" (B4 | B)"F7"FGA :| B4- | B4 |]
+
+X:547
+T:Comin'Through The Rye 
+C:Joe Buchanan's Scottish Tome - Page 092.3
+I:092 3
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:G
+| D>D D<B | A>G A<B | D<D E>D | G2 FE  |
+| D>D d<B | A>G A<B | D>D E<D | G2 G z |
+| d>B G<B | A>G A<B | d>B G B/d/ | e2 z e |
+| d>B c>A | c/2B/2A/2G/2 A z/ B/ | D<D E>D | G2 G z |]
+
+X:548
+T:Glencoe March 
+C:Joe Buchanan's Scottish Tome - Page 094.1
+I:094
+C:Dan R. MacDonald
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:Dmaj
+F>G | A2 d2     F2 d2  | A>FA<d f3 a | g3   e c>AB>c | d>cd>B A2F>G |
+A2 d2     F2 d2  | A>FA<d f3 a | g3   e c>AB>c | d6 :|
+a2 a>g    f>df<a | g2 g>e c>Ac<e   | d>cd<e f>ef<a | g>fg<b a2f>g |
+a2 a>g    f>df<a | g2 g>e c>Ac<e   | d>cd>f e<ac<e | d6f>g |
+a2 a>g    f>df<a | g2 g>e c>Ac<e   | d>cd<e f>ef<a | g>fg<b a2f>g |
+((3agf) g>e f>de<c | d>BA>F D>FA<d   | B>GB<d c>Ac<e | d6d2 |]
+
+X:549
+T:Dornoch Links #1
+C:Joe Buchanan's Scottish Tome - Page 095.1
+I:095 1
+R:Reel
+L:1/8
+M:2/4
+K:A
+(af) | "A"eA "E"cB/c/ | "A"eA "E"A(a/f/) | "A"eA "F#m"c(B/c/) | "B7"fB "E7"B(c/d/) |
+"A"e/f/e/d/ "E"c(B/A/) | "A"ce "F#m"a>c | "B7"df "E7"B(e/d/) | "A"cA A :|
+e | "A"a2 "E"e(f/g/) | "A"a(e/d/) "E"c(B/A/) | "A"a2 "F#m"e/f/e/c/ | "B7"dB "E7"B>e | 
+"A"a2 "E"e(f/g/) | "A"a/e/f/d/ "F#m"c(B/A/) | "B7"df "E7"B(e/d/) | "A"cA A :|
+
+X:550
+T:72nd's Farewell To Aberdeen 
+C:Joe Buchanan's Scottish Tome - Page 095.2
+I:095 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+(cB) | "D"A2 d2 d2 "A0"ef | "D"gfed "A0"f4 | "Em"g2 B2 B2 (cd) | "A7"efed "A7"dcBA |
+"D"A2 d2 d2 "A0"ef | "D"gfed "A0"f4 | "Em"g2 B2 "A7"cdec | "D"d4 d2 :|
+((3efg) | "D"a2 A2 "A0"A2 =c2 | "G"B2 G2 "D"A4 | "D"A2 d2 "A0"dcde | "Em"f2 e2 e2 "A7"(fg) |
+"D"a2 A2 "A07"A2 =c2 | "G"B2 "D"G2 A4 | "D"A2 d2 "A7"fedc | "D"d4 d2 :|
+
+X:551
+T:Queen Victoria's Diamond Jubilee 
+C:Joe Buchanan's Scottish Tome - Page 104.2
+I:104 2
+R:Reel
+Z:Carl Allison
+L:1/16
+M:4/4
+K:Dmaj
+f2 | "D"A2f2 f>ef<a | "G"g2B2 e2>d2  | "A"c2e2 B2>c2 | "D"B2A2 f2>d2 |
+"D"A2f2 f>ef<a | "G"g2B2 e2d2  | "A"c2a2 "A7"a>gf<e | "D"{c}d4 dd :|
+f2 | "D"A2f2 f>ed<c | "G"B2g2 g>fe<d | "A7"c2a2 a>gf<e | "D"d>cd<e "G"f>ed<B |
+"D"A2f2 f>ed<c | "G"B2g2 g>fe<d | "A"c2a2 "A7"a>gf<e | "D"{c}d4 dd :|
+
+X:552
+T:Mount Stewart House #2 
+C:Joe Buchanan's Scottish Tome - Page 108.1
+I:108 1
+R:Reel
+Z:Carl Allison
+L:1/8
+M:2/4
+K:D
+a/>g/ | fd dA | Bd Ad | Be g/f/e/d/ | ce ea/g/ |
+fd dA | B/c/d/B/ Ad/c/ | B/c/d/g/ e/d/c/B/ | Ad d :|
+f/g/ | a>f da | fd af | e/g/f/a/ g/f/e/d/ | ce ef/g/ |
+a>f da | fd a>f | e/d/e/f/ g/f/e/d/ | Ad df/g/ |
+a>f da | fd a>f | e/g/f/a/ g/f/e/d/ | ce ea/g/ |
+fd dA | B/c/d/B/ Ad/c/ | e/d/e/f/ g/f/e/d/ | Ad d |]
+
+X:553
+T:Seige of Delhi, The 
+C:Joe Buchanan's Scottish Tome - Page 110.0
+I:110 0
+R:Reel
+Z:Carl Allison
+L:1/16
+M:2/4
+K:A
+A>B | "A"c4 (c2e2) | "A"e>A"D"f>A "A"e2A>B | c4 (c2e2) | "D"f<a"A"e>c "E7"B2A>B |
+"A"c4 (c2e2) | "A"e>A"D"f>A "A"e2A>B | "A"c2(a>e) "D"f2("E7"e>d) | "A"c2A2 A<A :|
+A>B | "A"c4 (c2e2) | "D"d4 (d2f2) | "A"c4 (c2e2) | "D"f<a"A"e>c "E7"B2(A>B) |
+"A"c4 (c2e2) | "D"d4 (d2f2) | "A"c2(a>e) "D"f2"E7"(e>d) | c2A2 A<A :|
+g2 | "A"a>Aa>f e>Ae>c | "A"A>AA>c e2(A>B) |"A" c4 (c2e2) | "D"f<a"A"e>c "E7"B2g2 |
+"A"a>Aa>f e>Ae>c | "A"A>AA>c e2(A>B) | "A"c2(a>e) f2(e>d) | "A"c2A2 A<A :|
+A>B | "A"c4 (c2e2) | "D"f>da>d f>da>d | "A"c4 (c2e2) | "D"f<a"A"e>c "E7"B2(A>B) |
+"A"c4 (c2e2) | "D"f>da>d f>da>d | "A"c2(a>e) "D"f2"E7"(e>d) | "A"c2A2 A<A :|
+
+X:554
+T:Dr. Ross's 50th Welcome To The Argyllshire Gathering 
+C:Joe Buchanan's Scottish Tome - Page 135.0
+I:135 0
+Z:Carl Allison
+C:P.M. Donald Macleod
+R:Reel
+L:1/8
+M:6/8
+K:A
+e | "A"A>ce (c<A)c   | "A"e>fe    {d}c2 A | "A"c<ee   "F#m"{f}e>dB   | "G"B<dc    {c}B2  =A  |
+  | "A"A>ce (c<A)c   | "A"e>fe    "F#m"{d}c2 A | "Bm"c<ee  "E7"{f}e>dB    | "A"A3      {A}A2     :|
+  | "A"a>Aa A>ce     | "A"{f}e>ca {d}c2 A | "A"(a<e)d "F#m"{f}c>Ac        | "G"(B<d)c  B2     =G  |
+  | "A"a>Aa A>ce     | "A"{f}e>ca {d}c2 A | "A"c<ee   "E7"{f}e>dB    | "A"A3      {A}A2  g   |
+  | "A"a>Aa A>ce     | "A"{f}e>ca {d}c2 A | "A"a>ed   "F#m"(c<A)c         | "G"(B<d)c  B2     =G  |
+  | "A"d>ff (d<c)e   | "A"e>fe    {d}c2 A | "A"c<ee   "E7"{f}e>dB    | "A"A3      {A}A2      |]
+e | "A"A>AA {d}c2  d | "A"e>fe    {d}c2 A | "A"e>AA   "F#m"c2           e | "G"(G<d)c  {c}B2  =G  |
+  | "A"A>AA {d}c2  d | "A"e>fe    {d}c2 A | "A"(c<e)e "E7"{f}e>dB    | "A"A3      {A}A2     :|
+g | "A"a>AA e>AA     | "A"{f}e>ca {d}c2 A | "A"(c<e)a "F#m"e>cA           | "G"(B<d)=g {Bd}B2 =G  |
+  | "A"a>AA e>AA     | "A"{f}e>ca {d}c2 A | "A"(c<e)a "E7"e>cA       | "A"A3      {A}A2  g   |
+  | "A"a>AA e>AA     | "A"{f}e>ca {d}c2 A | "A"(c<e)a "F#m"e>cA           | "G"(B<d)=g {Bd}B2 =G  |
+  | "A"A>Bc "Bm"B>ce     | "A/C#"(c<e)a  "F#m"{d}c2 A | "A"(c<e)e "E7"e>dB       | "A"A3      {A}A2      |]
+
+X:555
+T:My Love She's But A Lassie Yet #1 
+C:Joe Buchanan's Scottish Tome - Page 141.1
+I:141 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+d/c/ | "D"dD "F#"FA | "D"dD "F#"Dd/c/ | "D"fd "Bm"FA | "D7"eE "A7"Ed/c/ |
+"D"dD "F#"FA | "G"Bg "D"f>e | "G"d/c/B/A/ "A7"B/c/d/e/ | "D"fd "D7"d :|
+f/g/ | "D"a>f "G"g>e | "D"fd "F#"df/g/ | "D"af "Bm"g/f/g/a/ | "D7"be "A7"ef/g/ |
+"D"af "Em"ge | "D"fd "A7"dc | "G"d/c/B/A/ "A7"B/c/d/e/ | "D"fd "D7"d :|
+
+X:556
+T:Duncan Gray 
+C:Joe Buchanan's Scottish Tome - Page 141.2
+I:141 2
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:G
+"G"D2 G2 "D"F2 G2 | "A7"A2 B2 "D"E4 | "G"G4 "D7"A3 c | "G"B2 G2 G4 |
+"G"D2 G2 "D"F2 G2 | "A7"A2 B2 "D"F4 | "G"G4 "D7"A3 c | "G"B2 G2 G2 |
+"G"B2 d2 d2 cB | "Am"c2 c2 c4 | "Am"c2 B2 "A7"A2 G2 | "D7"F2 E2 "G"D4 |
+"G"d3 B "C"c2 A2 | "A7"B2 G2 "D"A4 | "C"G4 "D7"A3 c | "G"B2 G2 G4 :|
+
+X:557
+T:Davy Nicknack #1 
+C:Joe Buchanan's Scottish Tome - Page 143.3
+I:143 3
+R:Reel
+Z:Carl Allison
+L:1/16
+M:4/4
+K:G
+D2 | "G"GFGA B2B2 | "G"GFGA B2B2 | "Am"dcBc A2A2 | "Am"dcBc "D7"A2A2 |
+"G"AGFG B2B2 | "G"GFGA "Em"B2B2 | "Am"dcBc "D7"AcBA | "G"G2B2 G4 :|
+Bc |  "G"d2>c2 B2d2 | "G"g2g2 d4 | "Am"dcBc "D7"A2A2 | "Am"dcBc "D7"A2A2 |
+"G"d2>c2 B2d2 | "G"g2g2 "Em"d4 | "Am"dcBc "D7"AcBA | "G"G2B2 G4 :|
+
+X:558
+T:Roxburgh Castle #1
+C:Joe Buchanan's Scottish Tome - Page 144.1
+I:144 1
+C:Eight Some Reel
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+E | AA/c/ e/c/A/c/ | dd/f/ e/c/A/c/ | dfd cec | BB B/d/c/B/ |
+AA/c/ e/c/A/c/ | dd/f/ e/d/c/d/ | e/a/g/f/ e/d/c/B/ | A A A :|
+e | a/e/c/e/ f/e/c/e/ | a/e/c/e/ f/e/c/e/ | df/d/ ce/c/ | BB B/d/c/B/ |
+AA/c/ e/c/A/c/ | dd/f/ e/d/c/d/ | e/a/g/f/ e/d/c/B/ | A A A :|
+
+X:559
+T:Ton, The
+C:Joe Buchanan's Scottish Tome - Page 144.3
+I:144 3
+D:[end Reels]
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+c/d/ | ea ac/d/ | ce ec/B/ | AA BB | c/A/c/d/ dc/d/ |
+ea ac/d/ | ce ec/B/ | AA BB | A2 A :|
+c/d/ | ea fd | ea fd | e>c Ac | B/A/B/c/ Bc/d/ |
+e>a fd | ea fd | c/e/c/A/ B/d/B/G/ | A2 A :|
+
+X:560
+T:Storrer's Hornpipe 
+C:Joe Buchanan's Scottish Tome - Page 145.2
+I:145 2
+C:Bank's Hornpipe. WI.030
+Z:Carl Allison
+R:Reel
+L:1/8
+M:C
+K:A
+ed | cA A/c/B/A/ | GE E>E | DB B/c/B/A/ | GE Ee/d/ |
+cA A/c/B/A/ | G/A/B/c/ d/e/f/g/ | a/e/c/e/ f/a/e/d/ | cA A2 :|
+e | f/e/c/e/ a/g/f/e/ | fc c>e | f/e/c/e/ a/g/f/e/ | dB B>e |
+f/e/c/e/ a/g/f/e/ | f/e/f/g/ a/g/f/e/ | d/c/B/A/ G/f/e/d/ | cA A2 :|
+
+X:561
+T:Lady MacKenzie of Coull 
+C:Joe Buchanan's Scottish Tome - Page 146.1
+I:146 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:C
+K:D
+F/G/ |: "D"A>B Ad | "G"BG Ge/d/ | "A"cA "A7"AB/c/ | "D"d/e/f/g/ aF/G/ |
+"D"A>B Ad | "G"BG Gd | "A"c/d/e/c/ "A7"Ac | "D"{c}d2 d>d :|
+g | "D"fa aa | "G"bg "A7"e>g | "D"fa "Dm"df | "Em"e/d/c/B/ "A7"Ag |
+"D"fa a>a | "G"bg e>g | "D"fa "A7"c/d/e/c/ | "D"d2 dg |
+"D"fa aa | "Em"bg "A7"e>g | "Bm"fa "Bm"df | "E7"e/d/c/B/ "A7"AB/c/ |
+"D"d2 AF | "G"GB "Em"Eg | "D"fe/d/ "A7"ed/c/ | "D"{c}d2 d<d |]
+%
+W:Errata: Added repeat symbol after first bar.
+
+X:562
+T:Ton, The 
+C:Joe Buchanan's Scottish Tome - Page 147.1
+I:147 1
+Z:Carl Allison
+C:AKA Jessie's Hornpipe
+R:Reel
+L:1/8
+M:4/4
+K:G
+B/c/ |: "G"de gB/c/ | "G"Bd dB/A/ | "Em"GG "D7"AA | "G"B/A/B/c/ BB/c/ |
+"G"dg gB/E/ | "Em"Bd "Bm"dB/A/ | "C"GG "D7"A/G/A/B/ | "G"G3 G :|
+B/c/ |: "G"dg "C"ec | "G"dg "C"ec | "G"d>B "Em"GB | "A7"A/G/A/B/ "D7"AB/c/ |
+"G"dg "C"ec | "G7"dg "C"ec | "G"B/d/B/G/ "D7"A/c/A/F/ | "G"G G :|
+
+X:563
+T:Fight About The Fireside 
+C:Joe Buchanan's Scottish Tome - Page 148.2
+I:148 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:C
+K:C
+|: "Em"E2 EF "A7"E2 EF | "D"D/E/F/G/ "D"A/F/D/E/ | "Em"E2 EF "Em"E2 EF | "B7"e/f/e/^d/ e2  B2 :|
+"Em"e2 ef "A7"g2 fe | "D"d/e/f/g/ "D"a/f/d/f/ | "Em"e2 ef "C"g2 fe | "B7"e/f/e/^d/ "Em"e2 eB |
+"Em"e2 ef "A7"g2 fe | "D"d/e/f//g "D"a/f/d/f/ | "G"g2 bg "D"f2 af | "B7"e/f/e/^d/ "Em"e3 e |]
+
+X:564
+T:Billy Thom's Reel #1 
+C:Joe Buchanan's Scottish Tome - Page 149.1
+I:149 1
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:Amaj
+E |: "A"A2 af efec | "A"Acef ec"Adim"BA | "E7"G2 eG BeGB | "E7"e2 ^de =dBGB |
+"A"A2 af efec | "A"Acef ec"Adim"BA | "E7"G2 =G^G EGBd | "E7"cBAG "A"A2 :|
+cB |: "A"AaaA gAfA | "A"eAGA BA"Adim"GA | "E7"BEEe EBBE | "E7"Eedc BAGB |
+"A"AaaA "D"gAf"A7"A | "A"eAGA BA"Adim"GA | "E7"BEEe dcBA | "E7"GABG "A"A2 :|
+
+X:565
+T:J.D. McLennan's Reel 
+C:Joe Buchanan's Scottish Tome - Page 149.2
+I:149 2
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:D
+|:"Bm"d2 Bd "A7"BAAB | "D" dAde "A7"fe[Ae]g | "D" faef "Bm"defg | "Em" afed "A7"fe[Ae]f |
+"Bm"d2 Bd "A7"BAAB | "D" dAde "A7"fe[Ae]g | "D" faef "Bm"defg | "A7" afeg "D"fd [Ad]2 :|
+|:"Bm"b2 [da]2 "A7"feef | "D" d2 [Ad]2 "A7"BAAB | "D" dAde "Bm"defg | "Em" agfe "A7"fe [Ae]2 |
+"Bm"b2 [da]2 "A7"feef | "Bm" d2 [Ad]2 "A7"BAAB | "D" dAde "Bm"defg | "A7" afeg "D"fd [Ae]2 :|
+
+X:566
+T:Flowers of Edinburgh #1, The
+C:Joe Buchanan's Scottish Tome - Page 150.1
+I:150 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+GE |: "G"D2 DE G2 GA | BGBd "Am"cBAG | "D7"FGFE DEFG | BFdF E2 "C"GE |
+"G"D2 DE G2 GA | BGBd "C"efge | "G"dcBA "D7"GFGA |1 "G"B2 G2 G2 GE :|2 "G"B2 G2 G2 d2 |]
+|: "G"g2 g2 gaag | "D7"f2 f2 "Em"faff | e2 ef gfed | B2 e2 e2 "C"ge |
+"G"dBGB d2 d2 | "C"edef g2 "Edim"fe | "D7"dcBA GFGA |1 "G"B2 G2 G2 d2 :|2 "G"B2 G2 G2 "D7"F2 |]
+
+X:567
+T:Teetotaler's Reel #1, The
+C:Joe Buchanan's Scottish Tome - Page 150.3
+I:150 3
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+|: "G"G2 GF GABc | "C"dBge "B7"dBGB | "Em"BEED EFGA | "D7"BGAF GFED |
+"G"G2 GF GABc | "C"dBge "B7"dBGA | "Em"BEED EFGA |1 "D7"BGAF GFED :|2 "D7"BGAF "G"G2 B2 |]
+|: "Em"Beed e2 > f2 | geaf "Em"gfed | "D"Add^c d2 > e2 | fdaf "Am"gfed |
+"Em"Beed e2 > f2 | geaf "Em"gfed | "Em"BAGF "C"EFGA |1 "D7"BGAF G2 B2 :|2 "D7"BGAF "A7"G2 A2 |]
+
+X:568
+T:Pirn Reel, The 
+C:Joe Buchanan's Scottish Tome - Page 151.2
+I:151 2
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:A
+|:E | "A"AGAB cABc | "D"dcde "Bm"fefg | "A"a3 f "F#m"efed | "Bm"c2 B2 "E"B2 E2 |
+"A"AGAB "A7"cABc | "D"dcde "Bm"fefg | "A"a3 f "E7"efed | "A" c2"D" A2"A" A3 :|
+"E"GABc dBGB |"A" ABcd e2 E2 |"D" FGAF "A"EAce |"Bm" c2 B2 "E"B2 A2 |
+"E"GABc dBGB | "A"ABcd e2 E2 |"D" FGAF "E7"EedB |"A" c2 A2 A4 |
+"E"GABc dBGB | "A"ABcd e2 E2 |"D" FGAF "A"EAce |"Bm" c2 B2 "E"B2 E2 |
+"A"AGAB "A7"cABc | "D"dcde "Bm"fefg | "A"a3 f "E7"efed | "A"c2 "D"A2 "A"A4 |]
+
+X:569
+T:Miss Thornton's Reel
+C:Joe Buchanan's Scottish Tome - Page 153.1
+I:153 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+D2 |S G2 (Bd) gdBd | cBAB cedc | BGAF GBdg | ecAF GFED |
+G2 (Bd) gdBd | cBAB cedc | BGAF GBdg | ecAF G4 |]
+b2 ag b2 ag | egdg egdg | b2 ag b2 ag | egfa gfga |
+bgaa bgag | egdg egdg | bgaf gfed | egfa gedB S|]
+
+X:570
+T:Peeler's Jacket, The
+C:Joe Buchanan's Scottish Tome - Page 153.2
+I:153 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+G2 (BG) DGBG | FGAB c2 (Bc) | (Bg)(gf) d2 (eg) | (fd)cA (B<G)AF |
+G2 (BG) DGBG | FGAB c2 (Bc) | (Bg)(gf) d2 (eg) | (fd)cA (B<G)G z |]
+gagf d2 (ef) | gfga bgaf | gagf d2 (eg) | (fd)cA BGG z |
+gagf d2 (ef) | gfga agaf | gbag fdeg | (f<d)cA (B<G)AF |]
+
+X:571
+T:Bush In Bloom, The
+C:Joe Buchanan's Scottish Tome - Page 153.3
+I:153 3
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+ge |S d2 (BG) AG(EF) | G2 (Bd) ef{a}ge | d2 (BG) AGEd | eaag fde^c |
+d2 (BG) AGEF | G2 (Bd) ef{a}ge | d2 (BG) AGEF | GBAF G2 |]
+(ef) | g2 (dg) Bgdg | g2 (bg) ageg | g2 (dg) Bgdg | egfg g2 (ga) |
+b>g ((3ggg) agef | gage dega | bgaf gfed | edef gage S|]
+
+X:572
+T:Willafjord #1
+C:Joe Buchanan's Scottish Tome - Page 154.1
+I:154 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+|: B2 | "D"A2 FA- "D/F#"ADFA | "G"B2 GB- BDGB | "D"A2 FA- ADEG | "Em"EFGA "A7"GFED |
+"D"A2 FA- "D/F#"ADFA | "G"B2 GB- BDGB | "A7"ABcd efge | "D"f2 "G"d2 "D"d2 :|
+|: e2 | "D"f2 df- ffdf | "Em"geaf gfeg | "D"f2 df- fGdf | "A7"e2 ce- eAce |
+"D"f2 df- ffdf | "Em"geaf gfed | "A"ABcd efge | "D"f2 d2 d2 :|
+
+X:573
+T:Kitty Got A Clinking Coming From The Races
+C:Joe Buchanan's Scottish Tome - Page 154.3
+I:154 3
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+AG | FDFA d2 dc | BABc d2 d2 | FAAB d2 dB | AAF E2 D2 |
+FDFA d2 dc | BABc d2 d2 | FAAd BcdB | AGDF E2 D2 |
+FAAd BGGB | AFFA G2 E2 | FAAd BGGB | AFDF E2 D2 |
+FAAd BGGB | AFFA GE E2 | FAAd BcdB | AFDF E2 D2 |]
+
+X:574
+T:Sailor's Jacket, The
+C:Joe Buchanan's Scottish Tome - Page 155.3
+I:155 3
+Z:Carl Allison
+R:Reel
+L:1/8
+Q:1/4=120
+M:4/4
+K:D
+dfec A2 AB | cdef gfge | dfec AB | cBcG ED D2 |
+d2 (fd) adfd | c2 (ec) gcec | d2 (fd) adfd | eaag ed d2 |
+defg afge | cdef g2 fg | ((3agf) ((3gfe) fded | ca{b}ag ed d2 |]
+
+X:575
+T:Brolum, The
+C:Joe Buchanan's Scottish Tome - Page 156.1
+I:156 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+f2 | "A"e2 (ce) "D"fefa | "A"A2 (cB) ceef | "A"e2 ce "D"fefa | "Bm"B2 ce "E7"fBBf |
+"A"e2 ce "D"fefa | "A"A2 (cB) ceef | "A"ecae "D"f2 "A"(ec) | "E7"B2 (cB) "A"AAA :|
+e | "A"A2 (cA) eAcA | "F#m"A2 (cB) "A"ceef | "A"A2 (cA) eAcA | "Bm"B2 (ce) "E7"fBBe |
+"A"A2 (cA) eAcA | "F#m"A2 (cB) "A"ceef | "A"ecaf "D"f2 "A"(ec) | "E7"B2 (cB) "A"AAA :|
+e | "D"a2 (af) "A"e2 (ce) | "F#m"A2 cB "A"ceef | a2 (af) "A"e2 (ce) | "Bm"B2 (ce) "E7"fBBe |
+e | "D"a2 (af) "A"e2 (ce) | "F#m"A2 cB "A"ceef | "A"ecae "D"f2 "A"ec | "Bm"B2 (cB) AAA :|
+e2 | "A"AAAc AAAc | "F#m"A2 (cB) "A"ceef | "A"AAAc AAA | "Bm"B2 (ce) "E7"fBBe |
+"A"AAAc AAAc | A2 (cB) ceef | "A"ecae f2 "D"f2 "A"(ec) | "E7"B2 (cB) "A"AAA :|
+
+X:576
+T:Barrowburn Reel, The
+C:Joe Buchanan's Scottish Tome - Page 156.2
+I:156 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+A2 | "D"D2 (DE) (FA)(Ad) | "Bm"B2 (BA) "G"BddB | "D"A2 (AB) "Bm"d2 (df) | "D"(fe)(dB) "A7"AFEF |
+"D"D2 (DE) (FA)(Ad) | "Bm"B2 (BA) "G"BddB | "D"f2 (af) "Em"egfe | "G"dBAB "D"d2 :|
+(cd) | "A7"e2 (ef) edBA | "D"d2 (fg) fdBA | "Em"g2 (ga) gecA | "F#m"a2 (ab) f2 "D"(ef) |
+"A7"g2 (ga) gecA | "D"a2 (ag) f2 (ef) | "G"g2 (ag) "D"f2 (ed) | "G"(BA)"A7"(AB) "D"d2 :|
+
+X:577
+T:Deveron Reel, The
+C:Joe Buchanan's Scottish Tome - Page 157.1
+I:157 1
+%C:Iain MacFadyen
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+A | "D"D2 D2 FEDF | "F#m"A2 A2 BAFA | "D"d2 fede | "E7"f2 e2 "A7"e2 A2 |
+"D"D2 D2 FEDF | "F#m"A2 A2 BAFA | "D"d2 "A7"efga | "D"f2 d2 d3 :|
+A | "D"f2 f2 defd | "A"e2 A2 A2 > A2 | "G"B2 B2 "A7"GABG | "D"A2 D2 D2 >D2 |
+"Em" G2 G2 EFGE | "D"F2 A2 d2 A2 | "G"BAGF "A7"EFGB | "D"F2 D2 D2 > A2 |
+"D"d2 e2 defd | "A"e2 A2 A2 > A2 | "G"B2 B2 "A7"GABG | "D"A2 D2 D2 > D2 |
+"Em"G2 G2 EFGE | "D"F2 A2 d2 > a2 | "G"bagf efga | "D"f2 d2 d3 |]
+
+X:578
+T:Tongadale Reel, The
+C:Joe Buchanan's Scottish Tome - Page 157.2
+I:157 2
+C:Farquhar MacDonald
+Z:Carl Allison
+R:Reel
+L:1/16
+M:2/4
+K:C
+AB | "Am"cBcB AEAB | "Am"cBcB "F"AFAc | "G"BGDG EDEG | "G"DEGA "Em"BGG/G/G |
+"Am"cBcB AEAB | "Am"cBcB "F"AFAc | "G"BGDG EDDd | "G7"dBcB A2AB |
+"Am"cBcB AEAB | "Am"cBcB "F"AFAc | "G"BGDG EDEG | "G"DEGA "Em"BGG/G/G |
+"Am"cBcB AEAB | "Am"cBcB "F"AFAc | "G"BGDG "Em"EDEG | "Bm"EDCB, "Am"A,4 |]
+A,B, | "Am"CA,EA, GA,EA, | "Am"GA,EA, "F"FEDC | "G"B,G,DG, EG,DG, | "G"FG,EG, "Em"DCA,B, |
+"Am"CA,EA, GA,EA, | "Am"GA,EA, "F"FEDC | "G"B,G,DG, EDCB, | CA,A,G, A,4 :|
+
+X:579
+T:Prince Charlie'ss Welcome To The Isle of Skye #1
+C:Joe Buchanan's Scottish Tome - Page 158.0
+I:158 0
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+dB | "D"A2 D2 GFED | ""A2 D2 GFED | "Em"B2 E2 EFGA | "Em"B2 E2 "A"E2 EG |
+"D"A2 GF "Bm"d2 cB | "Em"BAGF "A"GFED | "D"FEDB, "A"A,B,DE | "D"F2 D2 D2 :|
+de | "D"f2 df "A"e2 ce | "Bm"d2 Ad "A"BAGF | "Em"B2 E2 "F#"EFGB | "Em"B2 E2 "A"E2 de |
+"D"f2 df "A"e2 ce | "Bm"d2 Ad "A"BAGF | "G"GFED "A"A,B,DE | "D"F2 D2 D2 :|
+W:Variation
+%%vskip 5
+dB | "D"ADFD GFED | "D"ADFD GFED | "Em"BEGE EFGA | "Em"BEAE "A"EFGA |
+"D"AFAF BGcA | "Bm"dcBA "Em"BAGF | "A"GFED A,B,DE | "D"F2 D2 D2 :|
+de | "D"fdfd "A"ecec | "Bm"dcBA "(A)"BAGF | "Em"BEGE "F#"EFGA | "Em"BEFE "A"E2 de |
+"D"fdfd "A"ecec | "Bm"dcBA "(A)"BAGF | "G"GFED "A"A,B,DE | "D"F2 D2 D2 de |
+"D"fedf "A"edce | "Bm"dcBd "(A)"BAGF | "Em"BEeE EFGA | "Em"BEeE "A"EFGg |
+"D"fedf "A"edce | "Bm"dcBd "(A)"BAGF | "G"GFED "A"A,B,DE | "D"F2 D2 D2 |]
+
+X:580
+T:Ale Is Dear, The
+C:Joe Buchanan's Scottish Tome - Page 159.1
+I:159 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+(de) | "Bm"f2 (ef) B2 (fe) | "Bm"f>ae>f "A"c>Ae>c | "Bm"f2 (ef) B2 (fe) | "Bm"f<a"A"e>c "Bm"B2 :|
+Bc | "Bm"B>BB>c d2 (cB) | "A"A>AA>B A>Bc>A | "Bm"B>BB>c d2 (cB) | "Bm"f<a"A"e>c B2 "Bm"B2 |
+"Bm"B>BB>c d2 (cB) | "A"A>AA>B A>Bc>A | "Bm"d2 (fd) "A"c2 (dc) | "Bm"d<f"A"e>c "Bm"B2 |]
+
+X:581
+T:Skye Dance
+C:Joe Buchanan's Scottish Tome - Page 159.2
+I:159 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+e | "A"AAeA c2 (BA) | "G"BBBB "D"d2 f2 | "A"AAeA c2 (BA) | "G"B2 BB "D"(dA) A :|
+e | "A"aeed c2 (BA) | "A"AAeA c2 e2 | "A"aeed c2 (BA) | "G"B2 BB "D"(dA) A :|
+
+X:582
+T:Jock Wilson's Ball
+C:Joe Buchanan's Scottish Tome - Page 159.3
+I:159 3
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+((3ABc) | "Bm"d2 c2 B2 f2 | Bcde fBBc | "Bm"d2 c2 B2 f2 | "A"AAeA cAAc :|
+"D"d2 (ad) f2 (ef) | "D"d2 (ae) "Bm"fBBc | "D"d2 (ad) f2  (ef) | "A"A2 (eA) cAAc |
+"D"d2 (ad) f2 (ef) | "D"d2 (ae) "Bm"fBBc | "D"defg aafa | "A"efed "A"cdec |]
+
+X:583
+T:Dancing Feet 
+C:Joe Buchanan's Scottish Tome - Page 159.4
+I:159 4
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:A
+"A"a2 (ea) ceAc|"A"a2 (ea) ce"E7"Bc| "A"a2 (ea) ceAc | "D"fa"A"ef "A"ce"E7"Bc :|
+"A"eA ((3AAA) (ce)Ac| "A"eA ((3AAA) (ce)Bc | "A"eA ((3AAA) (ce)Ac | "D"fa"A"ef "A"ce"E7"Bc :|
+
+X:584
+T:Tail Toddle, The
+C:Joe Buchanan's Scottish Tome - Page 159.5
+I:159 5
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+A | "D"d2 (f<d) g2 f<e | d2 (f<d) "A"e2 c<A | "D"d2 (f<d) g2 (f<e) | f>ga>f "A"e2 (c<A) :|
+"G"g2 (d<B) B2 (d<B) | "G"g2 (d<B) e2 (c<A) | "G"g2 (d<B) B2 (d<B) | "A"A2 (a<f) e2 (c<A) :|
+
+X:585
+T:Apple Tree #1, The
+C:Joe Buchanan's Scottish Tome - Page 160.2
+I:160 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+"A"A2 a2 fecB | "A"Aaga "F#7"fedc | "Bm"Bcde fBBc | "Bm"Bcde "E7"fefa |
+"A"A2 a2 fecB | "A"Aaga "F#7"fedc | "Bm"Bcde fBBa | "E7"gefg "A"a2 A2 |
+"A"EAAB cBAF | "A"EAAB cBAG | "Bm"FBBc dcBA | "E7"GABc defe |
+"A"EAAB cBAF | "A"EAAB cBAG | "Bm"FBBc dcBA | "E7"GEF "A"A2 e2 :|
+
+X:586
+T:Glen Ogle #1
+C:Joe Buchanan's Scottish Tome - Page 161.1
+I:161 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+A | "D"d2 (fd) "G"B2 (ed) | "A7"cABc "D"dAFD | "D"d2 (fd) "G"B2 (ed) | "A7"cABc "D"d2 d :|
+e | "D"f2 (df) "G"gfed | "A7"cABc "D"dAFD | "D"f2 (df) "Em"gfed | "A7"cABc "D"d2 (de) |
+"D"f2 (df) "G"gfed | "A7"cABc "D"dAFD | "D"dfdf "A7"cecA | "G"Bg"A7"ec "D"d3 |]
+
+X:587
+T:Sir David Davidson of Cantray
+C:Joe Buchanan's Scottish Tome - Page 161.2
+I:161 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+A | "D"d2 (fd) cdBd | "D"AdFd "Em"Ee"A7"dA | "D"d2 (fd) BdGF | "Em7"GE"A7"eB "D"d2 dA |
+"D"d2 (fd) cdBd | "D"AdFd "Em"Ee"A7"cA | "D"d2 (fd) cdAF | "Em"GE"A7"dc "D"d2 d :|
+f | "D"afdf afba | "Em"gfed "F#m"Bdef | "Em"gfed "A7"cbag | "D"fedc d2 (df) |
+"D"afdf "B7"afba | "Em"gfed "A7"cBAG | "D"FAdc "Em"Bbge | "A7"cABc de :|
+
+X:588
+T:Lord MacDonald
+C:Joe Buchanan's Scottish Tome - Page 161.3
+I:161 3
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+B |: "G"d2> e2 dBfB | "G"dBgB "D7"gAAB | "G"d^cde dBgB | "D7"A/B/c "G"(BA) BG G :|
+B |1 "G"DGBG AGBG | "G"DGBG "C"AGEG | "G"DGBG AGBG | "D7"DEDC "G"B,G,G,G |
+"G"DGBG AGBG | "G"DGBG "C"AGEG | "G"BAGF "Em"GFED | "Am"EF"D7"GA "B"BG G |]
+d |:2 "G"dgbg agbg | "G"dgbg "C"ageg | "G"dgbg agbg | "D7"dcBA BGGd |
+"G"dgbg agbg | "G"dgbg "C"ageg | "G"bagf "Em"gfed | "Am"ef"D7"ga "G"bg g ||
+%
+W:Refer to: Making Music with ABC 2
+W:A practical guide to modern ABC notation by Guido Gonzato
+W:Section 2.2. Music Properties
+W:"|:" added to each section start because this particular tune will not play
+W:due to abcm2ps and abcMIDI incompatibilities.
+W:
+
+X:589
+T:Hamilton Rant, The
+C:Joe Buchanan's Scottish Tome - Page 162.2
+I:162 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+FE | "D"DFAd BdAF | "D"DFAd B2 Ad | "A7"cdef gfed | "A7"edcB AGFE |
+"D"DFAd BdAF | "D"DFAd B2 Ad | "A7"cAce gece | "D"d2 f2 d2 :|
+fg | "D"a2 ab afdf | "D"abaf "Bm"dfed | "A7"cAce afed | "A7"c2 A2 A2 fg |
+"D"a2 ab afdf | "D"abaf "Bm"dfed | "A"cAce "A7"aece | "D"d2 f2 d2 :|
+
+X:590
+T:Calum Donaldson
+C:Joe Buchanan's Scottish Tome - Page 162.3
+I:162 3
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+E2 | "A"EAAG ABcd | "A"eAcA "F#m"eAcA | "Bm"Bffe f2 (fg) | "Bm"afec "E7"BdcB |
+"A"EAAG "A"ABcd | "A"eAcA "F#m"eAcA | "Bm"Bffe "D"fgaf | "E7"ecBc "A"A2 :|
+e2 | "A"agab agfe | "A"fedc dcBA | "Bm"Bffe f2 fg | "B7"afec "E7"Befg |
+"A"agab agfe | "A"fedc dcBA | "Bm"Bffe "D"fgaf | "E7"ecBc "A"A2 :|
+%
+W:Errata: Added an "A" chord to resolve ending of last measure in the A part.
+
+X:591
+T:Mickie Ainsworth
+C:Joe Buchanan's Scottish Tome - Page 163.1
+I:163 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+FG | "D"ABAF Adcd | "G"B2 (BA) BdcB | "D"ABde "Bm"fedf | "E7"e2 E2 "A7"E2 (FG) |
+"D"ABAF Adcd | "G"Bggf gBdg | "D"fAdf "A7"eAce | "D"d2 "G"d2 "D"d2 :|
+cd | "A7"ea^ga e=gfe | "D"d2 fd adfd | "G"gfeg "Bm"f2 df | "Em"efed "G"B2 dB |
+"D"ABAF "D7"Adcd | "G"Bggf gBdg | "D"fAdf "A7"eAce | "D"d2 d2 d2 :|
+%
+W:Errata: Added "D" chord to resolve last measure of A part.
+
+X:592
+T:Merry Blacksmith, The
+C:Joe Buchanan's Scottish Tome - Page 163.2
+I:163 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+A2 | "D"(d2 d)A BAFA | "D"ABdA BAFA | "D"ABde "Bm"f2 (ed) | "Em"Beed "A7"egfe |
+"D"d2 (dA) BAFA | "D"ABdA BAFA | "D"ABde fdec | "A7"dBAF "D"D2 :|
+fg | "D"a2 (ag) fgfe | "D"d2 (dA) BAFA | "D"ABde "Bm"f2 (ed) | "Em"Beed "A7"egfe |
+"D"abag fgfe | "D"d2 (dA) BAFA | "D"ABde fdec | "A7"dBAF "D"D2 :|
+
+X:593
+T:Reconciliation #1, The
+C:Joe Buchanan's Scottish Tome - Page 163.3
+I:163 3
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+e2 | "A"A2 (cA) eAfA | "A"eAfA e(cBc) | "A"A2 (cA) eAfA | "Bm"e(cBc) "D"A(FEF) |
+"A"A2 (cA) eAfA | "A"eAfA e(cBc) | "A"ABAF Ec"D"d(f | "E7"ec)Bc "A"A2 :|
+(cB) | "A"A2 ce a2 af | "A"efed cdcB | "A"A2 ce "F#m"a2 ag | "B7"fbba "E7"gbeg |
+"A"agae faec | "D"dBcA "E7"BAFG | "A"ABAF "D"Ecdf | "E7"ecBc "A"A2 :|
+
+X:594
+T:Aitken Drum #1, The
+C:Joe Buchanan's Scottish Tome - Page 164.3
+I:164 3
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:G
+GA | "G"B2 B2 "G/D"cBAG | "C"E4 G2 > "A7/C#"E2 | "G"D2 D2 E2 "Em"G2 | "A7"B2 A2 "D7"A2 GA |
+"G"B2 B2 "G/D"cBAG | "C"E4 G2 > "A7/C#"E2 | "G"D2 D2 E2 "Em"G2 | "G"G4 G2 :|
+G2 | "G"B2 B2 B2 "G/D"AG | "C"d4 e2 > c2 | "G"B2 d2 "Em"B2 G2 | "A7"B2 A2 "D7"A2 GA |
+"G"B2 B2 "G/D"cBAG | "C"E4 "A4/C#"G2 > E2 | "G"D2 D2 "D7"E2 F2 | "G"G4 G2 :|
+
+X:595
+T:Kemnay House 
+C:Joe Buchanan's Scottish Tome - Page 165.1
+I:165 1
+C:Adam Rennie
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:A
+fg |"A" a/a/a/a/ ga |"A" ec A>A |"A" E/E/E/E/ Ac |"Bm" f3 a |
+"E7"g/g/g/g/ fe | "E7"gg ge |"E7" d/d/d/d/ cB |"F#m" A/c/f "E7"ef/a/ |
+"A"a/a/a/a/ ga |"A" ec A>A |"A" E/E/E/E/ Ac | "D"f3 a |
+"E7"g/g/g/g/ fe |"E7" gg gf |"E7" e/e/e/e/ fg |"A" a2 a2 |
+"A"e/e/e/e/ ac |"A" fe ec/d/ |"A" e/e/e/e/ ea | "E7"(ag) gB/c/ |
+"Bm"d/d/d/d/ cd |"E7" gB "D"f>A |"E7" G/A/B/c/ d/e/f/g/ | "A"(fe) "E7"ec/d/ |
+"A"e/e/e/e/ ac |"A" fe ec/d/ |"A" e/e/e/e/ ea | "E7"(ag) gB/c/ |
+"E7"d/d/d/d/ cd |"E7" gB "D"fA |"E7" G/A/B/c/ d/e/f/g/ |"A" a2 a2 |
+
+X:596
+T:Galloway House
+C:Joe Buchanan's Scottish Tome - Page 166.1
+I:166 1
+C:Traditional
+R:Reel
+L:1/8
+M:C
+K:G
+(GA) | "G"B2 B2 B2 "GD"AG | "C"E4 G"A7/C#"E2 | "G"D2 D2 E2 "Em"G2 | "A7"B2 A2 A2  (GA) |
+"G"B2 B2 "G/D"cBAG | "C"E4 G2 > "A7/C#"E2 | "D7"D2 D2 "D7"E2 F2 | "G"G4 G2 :|
+GA | "G"B2 B2 B2 "G/D"AG | "C"c4 e2 > c2 | "G"B2 d2 "Em"B2 G2 | "A7"B2 A2 "D7"A2 GA |
+"G"B2 B2 "G/D"cBAG | "C"E4 G2 > "A7/F#"E2 | "G"D2 D2 "D7"E2 F2 | "G"G4 G2 :|
+
+X:597
+T:Davy Nicknack #2
+C:Joe Buchanan's Scottish Tome - Page 167.1
+I:167 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+D |: "G"G/F/G/A/ BB | "G"G/F/G/A/ BB | "Am"d/c/B/c/ AA | "Am"d/c/B/c/ "D7"AA |
+"G"G/F/G/A/ BB | "G"G/F/G/A/ BB | "Am"d/c/B/c/ "D7"A/c/B/A/ | "G"GB G2 :|
+B/c/ |: "G"d>c Bd | "G"gg d2 | "Am"d/c/B/c/ AA | "Am"d/c/B/c/ "D7"AA |
+"G"d>c Bd | "G"gg d2 | "Am"d/c/B/c/ "D7"A/c/B/A/ | "G"GB G2 :|
+%
+W:Errata: Added repeat symbols on first bar after lines 1 and 3.
+
+X:598
+T:Aitken Drum #2, The
+C:Joe Buchanan's Scottish Tome - Page 169.3
+I:169 3
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+GA | "G"B2 B2 "G/B"cBAG | "C"E4 G2 > "A7/C#"E2 | "G"D2 D2 E2 "Em"G2 | "A7"B2 A2 "D7"A2 GA |
+"G"B2 B2 "G/B"cBAG | "C"E4 G2 > "A&/C#"E2 | "D7"D2 D2 E2 F2 | "G"G4 G2 :|
+GA | "B"B2 B2 B2 "G/D"AG | "C"c4 d2 > c2 | "G"B2 d2 "Em"B2 G2 | "A7"B2 A2 "D7"A2 GA |
+"G"B2 B2 "G/B"cBAG | "C"E4 G2 > "A7/C#"E2 | "G"D2 D2 "D7"E2 F2 | "G"G4 G2 :|
+
+X:599
+T:Duke of Perth #1, The
+C:Joe Buchanan's Scottish Tome - Page 170.2
+I:170 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+B | "G"G/A/B/c/ dB | "G"gB dB | "G"gB dB | "D"aA AB |
+"G"G/A/B/c/ dB | "G"gB dB | "D7"cA dc | "G"BG G :|
+f | "Em"g>a ge | "Bm"a>b af | "Em"g>a ge | "Em"be ef |
+"Em"g>a ge | "Bm"a>b af | "G"gd e>c | "G"BG G :|
+
+X:600
+T:Jean Kirkpatrick's Fancy 
+C:Joe Buchanan's Scottish Tome - Page 171.1
+I:171 1
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:D
+A | "D"d/d/d/d/ cd | "D"fe dA | "D"d/d/d/d/ cd |"Em" e3 d |
+"A7"c/c/c/c/ BA | "A7"gg gB | "A7"c/c/c/c/ BA |"D" d/e/f AA |
+"D"d/d/d/d/ cd | "D"fe dA | "D"d/d/d/d/ cd | "Em"e3 d |
+"A7"c/c/c/c/ BA | "A7"cc c>B | "A7"A/A/A/A/ Bc | "D"d3 :|
+A | "D"f/f/f/f/ ef | "D"ed A>A | "D"f/f/f/f/ ed |"Em" g3 B |
+"A7"g/g/g/g/ fg | "A7"fe c>B | "A7"B/B/B/B/ AG |"D" F3 A |
+"D"f/f/f/f/ ef | "D"ed A>A | "D"f/f/f/f/ ed | "G"b3 B |
+"A7"c/c/c/c/ BA | "A7"gg g>A | "A7"A/A/A/A/ Bc | "D"d3 :|
+
+X:601
+T:Flowers of Edinburgh #2, The
+C:Joe Buchanan's Scottish Tome - Page 171.2
+I:171 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+GE | "G"D2 DE G2 GA | "G"BGBd cBAG| "D7"FGFE DEFG | "D7"AFdF "C"E2 EG |
+"G"D2 DE G2 GA | "G7"BGBd "C"efge | "G"dcBA "D7"GFGA | "G"B2 G2 G2 :|
+((3def) | "G"g2 g2 gbag | "D7"f2 f2 fagf | "Em"e2 ef gfed | "Em"B2 e2 e2 "C"(ge) |
+"G"dBGB "G7"d2 d2 | "C"edef "A7"g2 fe | "G"dcBA "D7"GFGA | "G"B2 G2 G2 :|
+
+X:602
+T:Island Spinning Song 
+C:Joe Buchanan's Scottish Tome - Page 172.1
+I:172 1
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:D
+"Bm"BBBB d4 | "A" c2 BB c4 | "C#m" e2 ee "F#m"A2 A2 | "C#m"e2 ee "F#m"A2 A2 |
+"Bm"BBBB | "A"c2 BB c2 (de) | "Bm" f2 d2 "A"e2 c2 | "Bm"B4 B4  |
+"Bm"f3 e B2 de | "Bm"f2 e2 B4 | "A"e3 c A2 cd |"A" e2 c2 A4 |
+"Bm"f3 e B2 de | "Bm"f2 e2 B2 (de) | "Bm"f2 d2 "A"e2 c2 | "Bm"B4 B4 :|
+
+X:603
+T:Duke of Perth #2, The
+C:Joe Buchanan's Scottish Tome - Page 173.1
+I:173 1
+Z:Carl Allison
+R:Reel
+S:Reels
+L:1/8
+M:4/4
+K:G
+B | G/A/B/c/ dB | gB dB | gB dB | aA AB |
+G/A/B/c/ dB  | gB dB | cA d>c | BG G :|
+f | g>a ge | a>b af | g>a ge | be ef |
+g>a ge | a>b af | gd d>c | BG G :|
+
+X:604
+T:Mrs. MacLeod of Rassay
+C:Joe Buchanan's Scottish Tome - Page 173.2
+I:173 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+cB | A2 a2 fefa | c2 cB c2 cB | A2 a2 fefa | B2 BA BdcB |
+A2 a2 fefa | c2 cB c2 ce | f2 fg fefg | afec BdcB :|
+ABcd eAcA | c2 cB c2 cB | ABcd eAcA | B2 BA BdcB |
+ABcd eAcA | c2 cB c2 ce | f2 fg fefg |1 afec BdcB :|2 a4 a2 |]
+%
+W:Errata: Uncertain about very last measure due to legibility.
+
+X:605
+T:My Love She's But A Lassie Yet #2
+C:Joe Buchanan's Scottish Tome - Page 174.2
+I:174 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+(d/c/) | "D"dD FA | "D"dD D(d/c/) | "D"dD FA | "Em"eE "A7"E(d/c/) |
+"D"dD FA | "D"Bg f>e | "D"d/c/B/A/ "A7"B/c/d/e/ | "D"fd d :|
+(f/g/) | "D"af "A7"ge | "D"fd d(f/g/) | "D"af "B7"g/f/e/a/ | "Em"be "A7"e(f/g/) |
+"D"af "A/C#"ge | "Bm"fd "A"ec | "G"d/c/B/A/ "A7"B/c/d/e/ | "D"fd d :|
+
+X:606
+T:Miss Forbes Farewell To Banff
+C:Joe Buchanan's Scottish Tome - Page 175.1
+I:175 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+AB | "A"c2 (ce) "E7"dcBA | "A"c2 e2 "D"fgaf | "A"e2 (ef) "F#m"ecAB | "B7"c2 B2 "E7"B2 AB |
+"A"c2 (ce) "E7"dcBA | "A"cAce "D"fgaf | "A"e2 (af) "E7"ecAB | "A"c2 A2 A2 :|
+e2 | "A"a2 (ab) agfe | "D"fefg a2 (gf) | "A"e2 (ef) "F#m"ecAB | "B7"c2 B2 "E7"B2 e2 |
+"A"a2 (ab) agfe | "D"fefg "D#dim"a2 gf | "A"e2 (af) "E7"ecAB | "A"c2 A2 A2 e2 |
+"A"a2 (ab) agfe | "D"fefg a2 (gf) | "A"e2 (ef) "F#m"ecAc | "B7"c2 B2 "E7"B2 (AB) |
+"A"c2 (ce) "E7"dcBA | "A7"cAce "D"fgaf | "F#m"e2 (af) "E7"ecAB | "A"c2 "D"A2 "A"A2 |]
+
+X:607
+T:Jean Milligan
+C:Joe Buchanan's Scottish Tome - Page 175.2
+I:175 2
+C:Jimmy Shand
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+E2 | "A"A2 cB "A7"A2 ce | "D"fefg a2 (gf) | "A"e2 c2 "F#m"dcBA | "B7"c2 B2 "E7"B2 cB |
+"A"A2 cB "A7"A2 ce | "D"fefg "D#dim"a2 gf | "A"eagf "E7"edcB | "A"c2 A2 A2 :|
+e2 | "A"a2 ed cB A2 | "D"dcde f2>e2 | "A"a2 e2 "F#7"efec | "Bm"d2 B2 "E7"B2 e2 |
+"A"a2 ed "A7"cB A2 | "D"dcde f2>d2 | "A"eagf "E7"edcB | "A"c2 "D"A2 "A"A2 :|
+
+X:608
+T:Kate Dalrymple
+C:Joe Buchanan's Scottish Tome - Page 176.1
+I:176 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+"A"A2 Ac "E7"B2 Bc | "A"A2 Ac "E7"B2 Bc | "A/C#"A2 a2  "D"fedc | "E7"B2 e2 "A"c2 A2 |
+"A"A2 Ac "E7"B2 Bc | "A"A2 Ac "E7"B2 Bc | "A/C#"A2 a2 "D"fedc | "E7"B2 e2 "A"c2 A2 |
+"A"e2 ef edcd | "A"e2 a2 e2 c2 | "A"e2 a2 c2 a2 | "A"e2 a2 "A/C#"e2 c2 |
+"D"d2 fd "A/C#"c2 ec | "Bm"B2 Bc "E7"eccB | "A/C#"A2 a2 "D"fedc | "E7"B2 e2 "A"c2 A2 :|
+
+X:609
+T:Girl I Left Behind Me, The
+C:Joe Buchanan's Scottish Tome - Page 177.1
+I:177 1
+C:Trad.
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:A
+a/>g/ | fe cB/A/ | B/c/B/A/ FG | AA/B/ A/B/c/d/ | e2 ca/g/ |
+fe cB/A/ | B/c/B/A/ FG/A/ | GB EF/G/ | A2 A :|
+e/>d/ | ce fg | ae cB/A/ | ce fg | a2 ga/>g/ |
+fe cB/A/ | B/c/B/A/ FG/A/ | GB EF/G/ | A2 A :|
+
+X:610
+T:Northlands, The
+C:Joe Buchanan's Scottish Tome - Page 177.2
+I:177 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+W:Play 1-2-1-3-1
+%%vskip 5
+P:1
+D |S B/B/B/B/ BD | GD BD | G/G/G/G/ GA | Bc dg |
+f/f/f/f/ fA | cd fe | d/d/d/d/ dB | cA FD |
+B/B/B/B/ BD | GD BD | G/G/G/G/ GA | Bc dg |
+e/e/e/e/ ae | d/d/d/d/ fe | d/e/f/e/ d/c/B/A/ | G2 A/A/ |]
+P:2
+AA/A/ AA/A/ | AF DA/A/ | AG EA/A/ | AF DA/A/ |
+AA/A/ AA/A/ | Af dA/A/ | Ag eA/A/ | Af dA/A/ |
+AA/A/ AA/A/ | AF DA/A/ | AG EA/A/ | AF DA/A/ |
+AA/A/ AA/A/ | Af dA/A/ | Bg ea | d H:|
+P:3
+B2 G>D | DB GD | G2 D>G | F/F/F/F/ FE |
+B2 G>D | DB GD | G2 D2 | F/F/F/F/ FE |
+B2 G>D | DB GD | B2 d^d | (e2 e2) |
+e2 fe | d/B/G/E/ D2 | Dd Fd | G2 D2 |]
+
+X:611
+T:Hamish's Tune
+C:Joe Buchanan's Scottish Tome - Page 178.2
+I:178 2
+C:Hamish Mendes
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+E | EA Ac | ce e2 | ed/e/ f>e | ed d2 |
+EG f2 | Be e2 | g>f g>f | fe fe |
+E2 Ac | ce e2 | e2 a>g | gf f=g |
+^gf gf | fe fe | e>d cB | A2 A |]
+E/E/ | EA cA | EA cA | c2 d>c | cB B>G |
+EG BG | EG BG | g>f g>f | fe fe |
+EA cA | EA cA | e2 a>g | gf f2 |
+gf gf | fe fe | e>d cB | A2- A |]
+
+X:612
+T:Mason's Apron #1, The
+C:Joe Buchanan's Scottish Tome - Page 179.3
+I:179 3
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+e/d/ | cA A/B/A/F/  | E/F/A/B/  cB/A/  | dB B/c/B/A/  | B/c/d/e/  fe/d/  |
+cA A/B/A/F/  | E/F/A/B/  cB/A/  | B/c/d/e/  f/g/a/f/  | e/d/c/B/  A :|
+e/d/ | c/A/e/A/  f/A/e/A/ | c/A/e/A/ f/e/d/c/ | d/B/f/B/  g/B/f/B/  | d/B/f/B/  g/f/e/d/  |
+c/A/e/A/  f/A/e/A/ | c/A/e/A/ f/e/d/c/ | B/c/d/e/ f/g/a/f/ | e/d/c/B/ A :|
+
+X:613
+T:Lass o' Patie's Mill, The
+C:Joe Buchanan's Scottish Tome - Page 180.1
+I:180 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+A2 | GFED F2 A2 | d2>e2 f2 A2 | Bcdc BAGF | F4 E2 AG |
+GFED F2 A2 | d2>e2 f2 A2 | BcdB cdef | d6 :|
+ef | gfed dcBA | d2>e2 f2 A2 | Bcdc BAGF | (G4 E2) AG |
+GFED F2 A2 | d2>e2 f2 A2 | BcdB cdef | d6 :|
+
+X:614
+T:East Neuk O' Fife
+C:Joe Buchanan's Scottish Tome - Page 180.2
+I:180 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+D2 | G2 G2 G2 (Bc) | dBGB dBGB | A2 A2 A2 (gf) | e2 ed (ef)ge |
+dcBA GABc | dBGB d2 (cB) | ABcd BcAB | B2 G2 G2 :|
+dc | B2 G2 G2 (dc) | B2 G2 G2 (ed) | c2 A2 A2 (fg) | a2 A2 A2 (Bc) |
+d2 G2 B2 G2 | gfge d2 cB  | ABcd BcAB | G2 E2 E2 :|
+
+X:615
+T:Bottom of the Punch Bowl
+C:Joe Buchanan's Scottish Tome - Page 180.3
+I:180 3
+C:Ronnie Cooper
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+(FE) | D2 D2 d2>e2 | d2 D2 FGAF | E2 e2 efgf | edcB AGFE |
+D2 D2 d2>e2 | fedc d2>A2 | Bc d2 A2>G2 | F2 D2 D3 :|
+(de) | fedB ABde | fdc d2>A2 | B2 e2 e2 (de) | f2 e2 e2 de |
+fedB ABde | faef d2 A2 | BcdB ABAG | F2 D2 D2 :|
+
+X:616
+T:Millbrae
+C:Joe Buchanan's Scottish Tome - Page 181.1
+I:181 1
+C:Ronnie Cooper
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:A
+(af) | "A"eA ((3AAA) (eA)ce | "D"fedf "A"eaga | "D"fedc "Bm"dcBA | "E7"G2 B2 B2 (af) |
+"A"eA ((3AAA) (eA)ce | "D"fedf "A"eaga | "D"fedc "D7"dBed | "A"c2 "D"A2 "A"A2 :|
+a2 | "E7"((3gab) (eg) begb | "A"aAce agfe | "D"fedc "Bm"dcBA | "E7"G2 B2 B2 a2 |
+"E7"((3gab) (eg) begb | "A"aAce "A/C#"agfe | "D"fedc "E7"dBed | "A"c2 "D"A2 "A"A2 a2 |
+"E7"((3gab) (eg) begb | "A"aAce "A/C#"agfe | "D"fedc "Bm"dcBA | "E7"G2 B2 B2 "D"(af) |
+"A"eA ((3AAA) (eA)ce | "D"fedf "A/C#"eaga | "D"fedc "E7"dBed | "A"c2 "D"A2 "A"A2 |]
+
+X:617
+T:Gordon's Favourite
+C:Joe Buchanan's Scottish Tome - Page 181.2
+I:181 2
+C:Ronnie Cooper
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+D2 | "G"G2>A2 "G"BGBd | "C"edef "G"gdBd | gfge "Em"dBGB | "Am"ABAG "C"E2 "D7"(DE) |
+"G"G2 (GA) "G7"BGBd | "C"edef "Gdim"g2 (ag) | "D"fafd "A7"egfe | "D" d2 "A7"f2 ""d2 :|
+"C"e2 ce gece | "G"d2 Bd gdBd | "Am"c2 Ac "G"B2 GB | "Am"ABAG "C"E2 "D7"DE |
+"G"G2 GA "G7"BGBd | "C"edef "Gdim"gfge | "G"dBGB "D"AcBA | "G"G2 "D7"B2 "G"G2 :|
+
+X:618
+T:Miss Susan Cooper
+C:Joe Buchanan's Scottish Tome - Page 182.1
+I:182 1
+C:Ronnie Cooper
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+u((3ABc) | "D"dfed "G"B2 (dB) | "D"A2 (FA) DAFA | "D"ABde fa^ga | "Em"=g2 (fd) "A7"eAce |
+"D"dfed "G"B2 (dB) | "D"A2 (FA) DAFA | "D"ABde "D/F#"fafd | "A7"eAce "D"d2 :|
+u(dc) | "Bm"Bcde fBBc | "Bm"def^g "E7"a2 (gf) | "A"eAce a2 (^ga) | "A7"=g2 (fd) eAce |
+"D"dfed "G"B2 (dB) | "D"B2 (FA) DAFA | "D"ABde "Bm"fafd | "A7"eAce "D"d2 :|
+
+X:619
+T:Tushkar, The
+C:Joe Buchanan's Scottish Tome - Page 182.2
+I:182 2
+C:Ronnie Cooper
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+cB | "A"Aafa edcB | "A"A2 cA EAcA | "A"cefg "F#m"afec | "Bm"d2 B2 B2 "E7"ag |
+"D"fgaf "E7"edcB | "F#m"A2 cA "A"EAcA | "Bm"Bcde "E7"fefg | "A"a2 A2 A2 :|
+dc | "E7"BeGe BGEG | "A"AecA EAcA | "A"cefg "F#m"afec | "E7"d2 B2 B2 (dc) |
+"E7"BeGe BGEG | "A"AecA EAcA | "Bm"Bcde "E7"fefg | "A"a2 A2 A2 (dc) |
+"E7"BeGe BGEG | "A"AecA EAcA | "A"cefg "F#m"afec | "E7"d2 B2 B2 (ag) |
+"D"fgaf "E7"edcB | "F#m"A2 cA "A"EAcA | "Bm"Bcde "E7"fefg | "A"a2 "D"A2 "A"A2 |]
+
+X:620
+T:Willafjord #2
+C:Joe Buchanan's Scottish Tome - Page 183.1
+I:183 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+B2 | "D"A2 F(A "D/F#"A)DFA | "G"B2 G(B B)DGB | "D"A2 F(A A)DFA | "Em"EFGA "A7"GFED |
+"D"A2 F(A "D/F#"A)DFA | "G"B2 G(B B)DGB | "A"ABcd efge | "D"f2 "G"d2 "D"d2 :|
+e2 | "D"f2 df ffdf | "Em"feaf gfeg | "D"f2 d(f f)Adf | "A7"e2c(e e)Ace |
+"D"f2 d(f f)fdf | "Em"geaf gfed | "A"ABcd efge | "D"f2 "G"d2 "D"d2 :|
+
+X:621
+T:St. Anne's Reel
+C:Joe Buchanan's Scottish Tome - Page 183.2
+I:183 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+(de) | "D"fedc "G"edcB | "D"A2 (FA) DAFA | "G"B2 (GB) EBGB | "D"A2 (FA) DAFA | 
+"D"fedc "G"edcB | "D"A2 (FA) DAFA | "E7"((3BcB) (ed) c"A7"ABc | "D"d2 (dc) d2 :| 
+(de) | "D"f2 (fg) "Bm"fdef | "Em"ga(gf) g2 (gf) | "A"edcB Aceg | "D"baa^g a2 (a=g) | 
+"D"f2 (fg) fdef | "Em"gagf g2 (gf) | "A"edcB Aceg | "D"fddc d2 :|
+
+X:622
+T:Maid Behind The Bar, The
+C:Joe Buchanan's Scottish Tome - Page 183.3
+I:183 3
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+E | "D"FAAB AFED | "D"FAAB A2 (de) | "Bm"fBBA Bcde | "Bm"fde(f "A7"e)dBA | 
+"D"FAAB AFED | "D"FAAB A2 (de) | "Bm"fBBA BcdB | "A7"AFEF "D"D2 :| 
+g2 | "D"faag fdde | "D"fdad fddf | "Em"efga bee(f | "Em"ge)be geeg | 
+"D"faaf "Bm"b2 (af) | "D"defd "A7"e2 (de) | "Bm"fdBc "G"dedB | "A7"AFEF "D"D2 :| 
+
+X:623
+T:Jackie Coleman's Reel #1
+C:Joe Buchanan's Scottish Tome - Page 184.2
+I:184 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+(udB) | "D"AF (3FFF (EF)DE | "D"F2 (AF) "B7"BFAF | "E7"E2 (BE) dEBE | "A7"ABd(e fe)dB |
+"D"AF ((3FFF) (EF)DE | "D"F2 (AF) "B7"BFAF | "E7"E2 (BE) dEBE | "A7"ABd(e fe) d2 :|
+e2 | "D"fddc dfag | "D"fd (3ddd (fa)gf | "A7"eA (3AAA (eA)fA | "A7"eA (3AAA (ef)ge |
+"D"fddc dfag | "D"fd (3ddd (df)af | "G"g2 {a}(gf) "Em"gbag | "A7"faeg "D"(fd) d2 :|
+
+X:624
+T:Reconciliation #2, The
+C:Joe Buchanan's Scottish Tome - Page 184.3
+I:184 3
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+e2 | "A"A2 (cA) eAfA | "A"eAfA e(cBc) | "A"A2 (cA) eAfA | "Bm"e(cBc) "D"A(FEF) |
+"A"A2 (cA) eAfA | "A"eAfA e(cBc) | "A"ABAF Ec"D"d(f | ec)Bc A2 :|
+(cB) | "A"A2 ce a2 af | "A"efed cdcB | "A"A2 ce "F#m"a2 ag | "B7"gbba "E7"gbeg |
+"A"agae fae(c | "D"dB)cA "E7"BAFG | "A"ABAF "D"Ecd(f | "E7"ec)Bc "A"A2 :|
+
+X:625
+T:Leveneep Head #1
+C:Joe Buchanan's Scottish Tome - Page 185.1
+I:185 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:Amaj
+"A"A,2 CE "D"D2 FA | "E7"E2 Ad "A7"cBAG | "D"FAdf "A"e2 e2 | "Bm7"dcBA "E7"GEDB, | 
+"A"A,2 CE "D"D2 FA | "E7"E2 Ad "A7"cBAG | "D"FAdf eEGB | "A"c2 "D"A2 "A"A2 :| 
+cd | "A"eAce a2 "A7"ga | "D"fedf "A"eAcA | "D"FAdf "A"eAce | "Bm7"dcBA B2 "E7"cd | 
+"A"eAce "A7"a2 ga | "D"fedf "A"eAcA | "D"FAdf "E7"eEGB | "A"c2 "D"A2 "A"A2 "E7"cd | 
+"A"eAce a2 "A7"ga | "D"fedf "A"eAcA | "D"FAdf "A"eAce | "Bm7"dcBA "E7"GEDB, | 
+"A"A,2 CE "D"D2 FA | "E7"E2 Ad "B7"cBAG | "D"FAdf "E7"eEGB | "A"c2 "D"A2 "A"A2  |]
+
+X:626
+T:Captain Peterson of Melby 
+C:Joe Buchanan's Scottish Tome - Page 185.2
+I:185 2
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:A
+((3EFG) | "A" A2 EC "A7"A,2 CE | "D" D2 FA "A"ECCE | "D" DEFD "A"EecA | "B7" c2 B2 "E7"B2 FG |
+"A" A2 EC A,2 CE | "D" D2 FA "A"ECCE | "Bm7" DEFD "A"EecA | "A" c2 "D"A2 "A"A2 :|
+cd | "A"e2 cA "A7"a2 AA | "D" fgaf "A"ecAF | "A" EFAB "F#m"cAeA | "Bm7" c2 B2 B2 "E7"cd |
+"A"e2 cA "A7"a2 AA | "D" fgaf "A"ecAF | "A" EFAB "E7"ceBe | "A" c2 "D"A2 "A"A2 "E7"cd |
+"A"e2 cA "A7"a2 AA | "D" fgaf "A"ecAF | "A" EFAB "F#m"cAeA | "Bm7" c2 B2 B2 "E7"FG |
+"A" A2 EC "A7"A,2 CE | "D" D2 FA "A"ECCE | "Bm7" DEFD "E7"EecA | "A" c2 "D"A2 "A"A2 |]
+
+X:627
+T:Oliver Jack
+C:Joe Buchanan's Scottish Tome - Page 186.2
+I:186 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+Bc | d2 dc B2 ge | d2 (dc) vBGBc | d2 dc B2 ge | d2 d2 :|
+Bd | c2 cA B2 BG | A2 AG FGAB | c2 cA BGGB | G2 d2 G3 :|
+
+X:628
+T:Sandyburn Reel
+C:Joe Buchanan's Scottish Tome - Page 187.1
+I:187 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+E2 | "A"A2 EA dcBA | "A"e2 cA a2 A2 | "A"agfe ^decA | "Bm7"B2 E2 "E7"d2 E2 |
+"A"A2 EA dcBA | "A"e2 cA "F#m"a2 A2 | "Bm7"agfe "E7"Bcde | "A"c2 "D"A2 "A"A2 :|
+e2 | "A"a2 ee c' e | "A"e' e2 a2 e2 | "A"agfe ^dece | "Bm7"B2 e2 "E7"g2 e2 |
+"A"a2 ee c' e2 | "A"e' e2 a2 e2 | "Bm7"agfe "E7"Bcde | "A"c2 "D"A2 "A"A2 :|
+E2 | "A"A2 EA dcBA | "A"EAce fecA | "E7"EGBd gf e2 | "Bm7"gebe "E7"gedB |
+"A"A2 EA dcBA | "A"EAce "F#m"fecA | "Bm7"agfe "E7"Bcde | "A"c2 "D"A2 "A"A2 :|
+e2 | "A"agae c'ee'e | "A"agfe c2 A2 | "A"agfe ^dece | "Bm7"Bege "E7"bege |
+"A"ceae c'ee'e | "A"agfe c2 "F#m"A2 | "Bm7"agfe Bcde | "A"c2 "D"A2 "A"A2 :|
+
+X:629
+T:Miss Frances Robertson 
+C:Joe Buchanan's Scottish Tome - Page 187.2
+I:187 2
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:A
+E2 |  "A"A2 ED C2 E2 | "A"Aceg aecB | "A"A2 ED "F#m"C2 c2 | "E7"BEGB dBGB |
+"A"A2 ED C2 E2 |"A" Aceg aecB |"Bm7" D2 FA "E7"E2 GB | "A" A6 :|
+ce |"A" agfe ^dece | A2 ce "A7"aecA |"Bm7" D2 FA "A"C2 EG | "Bm7"dcBA "E7"efge |
+"A"agfe ^dece |"A" A2 ce "A7"aecA |"Bm7" D2 FA "E7"E2 GB | "A  D  A"A6 :|
+
+X:630
+T:St. Ninian's Isle 
+C:Joe Buchanan's Scottish Tome - Page 188.1
+I:188 1
+C:Ronnie Cooper
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:A
+E2 | A2 cB AECE | DCDF FECE | A2 AB cAdc | B2 B,2 B,2 E2 |
+A2 cB AECE | DCDF FECE | A2 Bc dBed |c2 A2 A2 :|
+cd | ecAc eaga | fgaf fece | A2 AB cAdc | B2 B,2 B,2 cd |
+ecAc eaga | fgaf fece | A2 Bc dBed |  c2 A2 A2 :|
+cd | ecAc eaga | fgaf fece | A2 AB cAdc | B2 B,2 B,2 E2 |
+A2 cB AECE | DCDF FECE | A2 Bc dBed | c2 A2 A2 |]
+
+X:631
+T:Da Wattle o' T
+C:Joe Buchanan's Scottish Tome - Page 188.2
+I:188 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+de | f2 fd g2 ge | fd faaf | gefd ecdB | AFDF Ad d2 :|
+Addc d2 df | edcd ef g2 | fedc d2 AB | AFDF Ad d2 :|
+
+X:632
+T:John Spence of Uyeasound
+C:Joe Buchanan's Scottish Tome - Page 188.3
+I:188 3
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+A2 | c2 ce dcBA | ceef a2 AB | c2 ce dcBA | cBBc B2 AB |
+c2 ce dcBA | ceef a2 ea | f2 df e2 ce | dBGB A2 :|
+cB | A2 a2 c2 Bc | A2 ce f2 e2 | ed c2 Ac | dcBA BdcB |
+A2 a2 c2 Bc | A2 ce f2 e2 | f2 df e2 ce | dBGB A2 :|
+
+X:633
+T:Wir May 
+C:Joe Buchanan's Scottish Tome - Page 189.1
+I:189 1
+C:Tom Anderson
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:D
+A | d2 (AG) (FG)AF | B2 GE CDEC | DEFG (AF)Ac | BGge dcBA |
+d2 AG FGAF | B2 GE CDEC | DFAd B>Gge |  [df]2 [df]2- [df]2 :|
+g2 | (fd)f<a ece/a | (BG)B<d A2 GF | (GF)GB (AB)cd | f<dgf e2 (fg) |
+(fd)f<a (ec)e/a | (BG)B<d A2 GF | (GA)BG Agec | [df]2 ([df]2 [df]2) (eg) |
+(fd)f<a (ec)e<a | (BG)B<d A2 GF | (GA)BG (AB)cd | f<dgf e2 (fe) |
+d2 AG (FG)AF | B2 (GE) CDEC | DFAd B<Gge | [df]2 [df]2 [df]2 |]
+
+X:634
+T:Pam's Peerie Tune 
+C:Joe Buchanan's Scottish Tome - Page 189.2
+I:189 2
+C:Tom Anderson
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:G
+(BA) | G(3EDE GFGA | B(3AB<d [Be]2 (de) | gage e(3BAG | GBAG [Dd]2 (BA) |
+A(3EDE GFGA | B(3AB<d [Be]2 (de) | gage d(3BAG | [GB]2 ([GB]2 [G)B]2 :|
+(ef) | gd (3ddd eB (3BBB | e(3de<g B2 (ef) | gd (3ddd efge | d(3BAG A2 (ef) |
+gd (3ddd eB (3BBB | e(3deg d2 ef | gage d(3BAG | [GB]2 ([GB]2 [G)B]2 :|
+
+X:635
+T:Da Green Isle 
+C:Joe Buchanan's Scottish Tome - Page 189.3
+I:189 3
+C:Willie Hunter
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:G
+GA | BGDB, G,B,DG | BGDB, A,AAc | BGDB, G,gfe |  dBcA BG G2 :|
+e | dBgB dgBg | dBgB aAAe | dBgB edeg |  BdAc BG G2 :|
+
+X:636
+T:Da Blacksmith 
+C:Joe Buchanan's Scottish Tome - Page 190.1
+I:190 1
+C:Tom Anderson
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:D
+c | d2 AF A,DFA | dd/d/ ed cAA=c | BAGB AGFA | GEFD EA, A,3 c |
+d2 AF A,DFA | dd/d/ ed cAA=c | BAGB Adfa | gfea fd d2 :|
+g | fgaf Aafd | BB/B/ ed cAAg | fgaf Aafd | Bgfe fddg |
+fgaf Aafd | BB/B/ ed cA A3 c | d2 AF GABG | Agfe fd d2 :|
+
+X:637
+T:Sleep Sound In Da Mornin'
+C:Joe Buchanan's Scottish Tome - Page 190.2
+I:190 2
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:Amin
+G | A(a-a^g) a2 (ef) | gedB GABG | A(a-a^g) a2 (ef) | gedB A2 (BG) |
+A(a-a^g) a2 (ef) | gedB GABG | A(a-a^g) a2 (ef) | gedB A3 |
+B | =cAeA cAe(A | B=c)dB G3 B | =cAe(A cA)e(A | BA)GB A2 (AB) |
+=cAeA cAe(A | B=c)dB G2 (GB) | AB=cd efga | gedB A4 |]
+
+X:638
+T:Lasses Trust In Providence
+C:Joe Buchanan's Scottish Tome - Page 190.3
+I:190 3
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+((3ABc) | d2 (de) fdef | {Bc}d2 (fd) ed{Bc}BA | {Bc}d2 (de) fdef | dBAF E2 A2 ((3ABc) |
+d2 (de) fdef | {Bc}d2 (fd) ed{Bc}BA | {Bc}B2 d2 (de) fdef | dBAF E2 FG |
+A2 (AB) ADFA | {c}d2 d2 BABd | A2 (AB) ADFA | GFEC D2 F |
+A2 (AB) ADFA | {c}d2 d2 BABd | A2 (AB) ADFA | GFEC D2 z2 |]
+
+X:639
+%%annotationfont Times-Roman 14
+T:Cape Breton's Welcome To Shetland
+C:Joe Buchanan's Scottish Tome - Page 191.0
+I:191 0
+C:Willie Hunter
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+F |S EC ((3CCC) C2 B,C A,B,CE FECE | FB ((3BBB) BcBA | Bffe f2 fg |
+ac ((3ccc) eA ((3AGA) | cBAF EC B, | FGAF Eaaf ecBc A2 :|
+| fg | ae ((3eee) efed | ce ((3eee) fece | bf ((3fff) fgfe | defd Befg |
+ae ((3eee) efed | ce ((3eee) fece | fdge afed | cABG A2 fg |
+%%vskip 5
+%%sep 1 20 560
+"@-41,27|"
+"@-35,12First Time"
+ae ((3eee) efed | ce ((3eee) fece | bf ((3fff) fgfe | defd Befg !invisible!] |
+ae ((3eee) efed | ce ((3eee) fece | fdec dBcA | Aagf eAGF S|]
+%%vskip 5
+%%sep 1 20 560
+"@-41,33|"
+"@-35,16Last Time"
+fg ae ((3eee) efed | ce ((3eee) fece | bf ((3fff) fgfe | defd B2 cB !invisible!] |
+cdBc ABGA | FGEF DECD | B,CCE FABc | defg a2 !fine!|]
+W:Errata: Will not actually play properly in abc2midi as written.
+
+X:640
+T:Oot Be Est Da Vong
+C:Joe Buchanan's Scottish Tome - Page 192.1
+I:192 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+(dB) | "D"AFAB AB d2 | "D"(fd)fd "G"edBd | "D"AFAB ABde | "D"fa"A7"ef "D"d2 :|
+(ef) | "Em"g2 ge "Bm"f2 fd | "Em"edef "Bm"(ed) B2 | "Em"g2 ge "Bm"f2 fd | "A7"edef "D"a2 a2 |
+"Em"g2 ge "Bm"f2 fd | "Em"edef "G"edBd | "D"AFAB "G"ABd(e | "D"fa)"A7"ef "D"d2 |]
+
+X:641
+T:Leveneep Head #2
+C:Joe Buchanan's Scottish Tome - Page 192.2
+I:192 2
+C:Frank Jamison
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+"A"A,2 CE "D"D2 FA | "A"E2 (Ad) "E7"cBAG | "D"FAdf "A"e2 e2 | "Bm7"dcBA "E7"GEDB, |
+"A"A,2 CE "D"D2 FA | "A"E2 (Ad) "E7"cBAG | "D"FAdf "E7"eEGB | "A"c2 "D"A2 "A"A2 :|
+cd | "A"eAce "A7"a2 (ga) | "D"fedf "A"eAcA | "D"FAdf "A"eAce | "Bm7"dcBA "E7"B2 (cd) |
+"A"eAce "A7"a2 (ga) | "D"fedf "A"eAce | "D"FAdf "E7"eEGB | "A"c2 "D"A2 "A"A2 (cd) |
+"A"eAce "A7"a2 (ga) | "D"fedf "A"eAcA | "D"FAdf "A"eAce | "Bm7"dcBA "E7"GEDC |
+"A"A,2 CE "D"D2 FA | "A"E2 (Ad) "E7"cBAG | "D"FAdf "E7"eEGB | "A"c2 "D"A2 "A"A2 |]
+
+X:642
+T:Archie Broton
+C:Joe Buchanan's Scottish Tome - Page 192.3
+I:192 3
+C:J. Scott Skinner
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+f | "A"eAce a2   (ec) | "Bm"Bcde "E7"fBBf | "A"eAce a2   "Bm"(ec) | "E7"Bcde (cA) "A"A :|
+f | "A"eaga faea      | "A"daca "E7"bBBd | "A"eaga "D"fa"A"ea      | "D"da"E7"Ba "A"cAAf    |
+     "A"eaga "D"fa"A"ea      | "D"da"A"ca "E7"bBBd | "A"cAce a2   (ec) | "Bm"Bc"E7"de (c"A"A) A  |]
+
+X:643
+T:Da Fiddler's Soond 
+C:Joe Buchanan's Scottish Tome - Page 193.1
+I:193 1
+C:Violet Tulloch
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:A
+e>d | c>AG>B A2 ED | C>B,A,>G, A,2 Bc | d>cd>e fedc | B>e^d>f edcB |
+c>AG>B A2 ED | C>B,A,>G, A,B,CA, | D>EF>G ABcd | e>dc>B A2 :|
+cd | e2 ce a>ga>f | e>dc>B A2 Bc | d>cd>e fedc | B>e^d>f e2 fg |
+ag^df edfe | c>AG>B A2 EC | D>EF>G ABcd | edcB A2 cd |
+e2 ce a>ga>f | e>dc>B A2 Bc | d>cd>e fedc | B<e^d<f e2 fg |
+ag^df edfe | c>AG>B A2 EC | D>EF>G ABcd | efge a2 |]
+
+X:644
+T:Da Road To Houll
+C:Joe Buchanan's Scottish Tome - Page 194.1
+I:194 1
+C:Tom Anderson
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+A2 | "D"d2 fd A2 dA | "G"GABG "Em"E2 FG | "D"A2 A2 ABcd | "E7"f2 e2 "A7"e2 A2 |
+"D"d2 fd A2 dA | "G"GABG "Em"E2 (FG) | "D"A2 A2 "A7"ABAG | "D"F2 D2 D2 :|
+(fg) | "D"a2 af d2 dA | "G"BABd "D"A2 F2 | "G"G2 B2 "D"ABcd | "D"f2 e2 e2 (fg) |
+"D"a2 af d2 dA | "G"BABd "D"A2 F2 | "G"G2 B2 "A7"ABAG | "D"F2 D2 D2 (fg) |
+"D"a2 af d2 dA | "G"BABd "D"A2 F2 | "G"G2 B2 "D"ABcd | "E7"f2 e2 "A7"e2 A2 |
+"D"d2 fd A2 dA | "G"GABG "Em"E2 (FG) | "D"A2 A2 "A7"ABAG | "A7"F2 D2 "D"D2 |]
+
+X:645
+T:Hurlock's Reel
+C:Joe Buchanan's Scottish Tome - Page 194.2
+I:194 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+(AB) | "A"cBcA E2 (AB) | "A"cBce f2 "D"(ef) | "D"agaf "A"efAB | "A"c2 "E"B2 B2 (AB) |
+"A"cBcA E2 (AB) | "A"cBce f2 "D"(ef) | "F#m"agaf "E7"efAB | "A"c2 A2 A2 :|
+(ce) | "A"fece aece | "A"fecA E2 (AB) | "A"cAcA "E7"EFAB | "A"c2 "E7"B2 B2 (eg) |
+"A"fece aece | "A"fecA E2 (AB) | "A"cBcA "E7"EFAB | "A"c2 A2 A2 "E7"(eg) |
+"A"fece aece | "A"fecA E2 (AB) | "A"cBcA "E7"EFAB | "A"c2 "E"B2 B2 (FA) |
+"A"cBcA E2 (AB) | "A"cBce "D"f2 (ef) | "F#m"agaf "E7"efAB | "A"c2 A2 A2 |]
+W:Errata: In last measures, moved "E" or "E7" chord to first B note in measure, added "E" chord
+W:in last measure, fifth line.
+
+X:646
+T:Maggie's Reel
+C:Joe Buchanan's Scottish Tome - Page 195.1
+I:195 1
+Z:Carl Allison
+C:Hame Farers
+R:Reel
+L:1/8
+M:4/4
+K:D
+F/>E/ | "D"D/F/A/B/ A/F/E/D/ | dd/A/ "G"B/A/B/d/ | "D"A/B/d/A/ B/A/F/D/ | "E"B,/E/E/F/ "A7"E/G/F/E/ |
+"D"D/F/A/B/ A/F/E/D/ | "D"d/e/f/d/ "G"B/A/F/A/ | "D"dd/B/ A/F/E/D/ | "A7"B,/D/D/E/ D :|
+A/c/ | "D"d/e/f/d/ "A7"c/a/^g/a/ | f/d/A/F/ "Em"B/A/F/G/ | "D"A/d/c/d/ f/d/c/d/ | "Em"B/e/e/f/ "A7"eA/c/ |
+"D"d/e/f/d/ "A"e/c/A/F/ | G/A/B/G/ "D"A/d/F/D/ | "G"G/A/B/A/ "A7"A/B/c/A/ | "D"dd/c/ dA/c/ |
+"D"d/e/f/d/ "A7"c/a/^g/a/ | f/d/A/F/ "Em"B/A/F/G/ | "D"A/d/c/d/ f/d/c/d/ | "Em"B/e/e/f/ "A7"eF/E/ |
+"D"D/F/A/B/ A/F/E/D/ | d/e/f/d/ "G"B/A/F/A/ | "D"dd/B/ A/F/E/D/ | "A7"B,/D/D/E/ "D"D |]
+W:Errata: Converted the two lead-in notes to 16th notes.
+
+X:647
+T:Billy Nicholson
+C:Joe Buchanan's Scottish Tome - Page 195.2
+I:195 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+D | "G"G/D/G/A/ BA/G/ | "D7"A/D/A/B/ cB/c/ | "G"d/g/g/e/ d/e/d/B/ | "A7"c/A/F/A/ "A7"G/F/E/D/ |
+"G"G/D/G/A/ BA/G/ | "D7"A/D/A/B/ cB/c/ | "G"d/g/g/e/ "D7"d/e/d/c/ | "G"BG G :|
+d | "G"d/g/g/f/ gd/g/ | "Am"e/a/a/g/ "D7"a>f | "G"g/a/g/e/ d/e/d/B/ | "D7"cA Ad |
+"G"d/g/g/f/ gd/g/ |  "Am"e/a/a/^g/ "D7"a>f | "G"g/a/g/e/ "D7"d/e/d/c/ | "G"BG Gd |
+"G"d/g/g/f/ gd/g/ | "Am"e/a/a/^g/ "D7"a>f | "G"g/a/g/e/ d/e/d/B/ | "D7"c/A/F/A/ G/F/E/D/ |
+"G"G/D/G/A/ BA/G/ | "D"A/D/A/B/ cB/c/ | "G"d/g/g/e/ "D7"d/e/d/c/ | "G"BG G2 ||
+
+X:648
+T:Spootiskerry #1
+C:Joe Buchanan's Scottish Tome - Page 196.2
+I:196 2
+Z:Carl Allison
+C:Ian Burns
+R:Reel
+L:1/8
+M:4/4
+K:G
+(DE) | G2 (DE) DEGA B2 (AB) | G2 (DE) GABd | e(ged) B2 (AB) |
+G2 (DE) GDEG | DEGA B2 (AB) | g2 (ed) e(dBA) | B2 G2 G2 :|
+(ef) | g2 (ed) (ed) B2 | BABG E2 (DE) | GABd e(ged) | B2 A2 A2 (ef) |
+g2 (ed) (ed) B2 | BAG E2 (DE) | GABd e(ged) | B2 G2 G2 (ef) |
+g2 (ed) (ed) B2 | BABG E2 (DE) | GABd e(ged) | B2 A2 (DE) |
+G2 (DE) GDEG | DEGA B2 (AB) | g2 (ed) e(dBA) | B2 G2 G2 |]
+
+X:649
+T:High Road To Linton #1
+C:Joe Buchanan's Scottish Tome - Page 197.1
+I:197 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+e2 | "A"ceef a2 (ae) | "D"f2 (fe) "A"a2 (ae) | ceef a2 (ae) | "D"ef"A"ec "E7"B2 "A"A2 :|
+"A7"cee=g "D"fddf | "A"ecce "E7"fBBf | "A7"cee=g "D"fddf | "A"ecac "E7"B2 "A"A2 :|
+"A"a2 a2 (ef) a2 | "A"(ef)ae "D"fa"A"ef | a2 a2 ef ae | "D"fa"A"ec "E7"B2 "A"A2 :|
+"A"c2 (ec) defd | "A"c2 (ec) "E7"BcdB | "A"c2 (ec) "D"defg | "D"af"A"ec "E7"B2 "A"A2 :|
+
+X:650
+T:Spootiskerry #2
+C:Joe Buchanan's Scottish Tome - Page 197.2
+I:197 2
+Z:Carl Allison
+C:Ian Burns
+R:Reel
+K:G
+(DE) | G2 (DE) DEGA B2 (AB) | G2 (DE) GABd | e(ged) B2 (AB) |
+G2 (DE) GDEG | DEGA B2 (AB) | g2 (ed) e(dBA) | B2 G2 G2 :|
+(ef) | g2 (ed) (ed) B2 | BABG E2 (DE) | GABd e(ged) | B2 A2 A2 (ef) |
+g2 (ed) (ed) B2 | BAG E2 (DE) | GABd e(ged) | B2 G2 G2 (ef) |
+g2 (ed) (ed) B2 | BABG E2 (DE) | GABd e(ged) | B2 A2 (DE) |
+G2 (DE) GDEG | DEGA B2 (AB) | g2 (ed) e(dBA) | B2 G2 G2 |]
+
+X:651
+T:Donny The Post
+C:Joe Buchanan's Scottish Tome - Page 198.1
+I:198 1
+C:Graeme Mitchell
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:A
+((3efg) | "A"a2 ga "A"faea | "A"ecef "A"ecBA | "Bm"BABc "Bm7"dcBA | "Bm"F2 B2 B2 "E7"((3efg) |
+"A"a2 ga "A"faea | "A"ecef "A"ecBA | "Bm"BABc "Bm7"dcBA | "A"E2 A2 "A"A2 :|
+CD | "A"EA,CE "A"AEAc | "A"e2 ed "A"cBcA | "Bm"BABc "Bm7"dcBA | "Bm"F2 B2 B2 "E7"CD |
+"A"EA,CE "A"AEAc | "A"e2 ed "A"cBcA | "Bm"BABc "Bm7"dcBA | "A"E2 A2 A2 "A7"CD |
+"A"EA,CE "A"AEAc | "A"e2 ed "A"cBcA | "Bm"BABc "Bm7"dcBA | "Bm"F2 B2 B2 "E7"((3efg) |
+"A"a2 ga "A"faea | "A"ecef "A"ecBA | "Bm"BABc "Bm7"dcBA | "A"E2 A2 A2 |]
+
+X:652
+T:Willie Mann of Paddy
+C:Joe Buchanan's Scottish Tome - Page 198.2
+I:198 2
+C:Angus Cameron
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:A
+ed | "A"c2 A2 "A"EAce | "A"a2 ga "A"fece | "Bm"d2 B2 "Bm7"Bcde | "B7"fedc "E7"BdcB |
+"A"c2 A2 EAce | "A"a2 ga f"A"ece | "D"defa "E7"ecdB | "A"c2 A2 A2 :|
+cd | "A"e^def "A"ecAc | "A"eaga "D7"ecAc | "G"dcde "G"dBGB | "G"d=gfg "E7"dBBd |
+"A"edef "A"ecAc | "A"eaga "A7"ecAc | "D"defa "E7"ecdB | "A"c2 A2 "E7"A2 cd |
+"A"e=def "A"ecAc | "A"eaga "D7"ecAc | "G"dcde "G"dBGB | "G"d=gfg "E7"dBBd |
+"A"c2 A2 "A"EAce | "A"a2 ga "A7"fece | "D"defa "E7"ecdB | "A"c2 A2 A2 |]
+
+X:653
+T:Far From Home
+C:Joe Buchanan's Scottish Tome - Page 199.1
+I:199 1
+R:Reel
+Z:Carl Allison
+S:Irish Trad.
+L:1/8
+M:4/4
+K:G
+(BA) | GEEE G2 (GA) | B2 (BA) (Bc) d2 | GEDE G2 (GB) | A2 (AB) AGE-E |
+GEDE G2 (GA) | B2 (BA) (Bc) d2 | edef gedc | B(GAF) G2 :|
+g3 e f3 d | e2 (ef) (ed) B2 | gedB G2 (GB) | A2 (AB) A(GEF) | 
+GEDE G3 G | B2 (BA) (Bc) d2 | edef gedc | B(GAF) G2 |
+g3 e f3 d | e2 (ef) (ed) B2 | gedB G2 (GB) | A2 (AB) A(GEE) |
+GEDE G3 A | B2 (BA) (Bc) d2 | edef gedc | B(def) g2 :|
+
+X:654
+T:Spootiskerry #3
+C:Joe Buchanan's Scottish Tome - Page 199.2
+I:199 2
+C:Ian Burns
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+(DE) | G2 (DE) DEGA B2 (AB) | G2 (DE) GABd | e(ged) B2 (AB) |
+G2 (DE) GDEG | DEGA B2 (AB) | g2 (ed) e(dBA) | B2 G2 G2 :|
+(ef) | g2 (ed) (ed) B2 | BABG E2 (DE) | GABd e(ged) | B2 A2 A2 (ef) |
+g2 (ed) (ed) B2 | BAG E2 (DE) | GABd e(ged) | B2 G2 G2 (ef) |
+g2 (ed) (ed) B2 | BABG E2 (DE) | GABd e(ged) | B2 A2 (DE) |
+G2 (DE) GDEG | DEGA B2 (AB) | g2 (ed) e(dBA) | B2 G2 G2 |]
+
+X:655
+T:Timour The Tartar
+C:Joe Buchanan's Scottish Tome - Page 200.1
+I:200 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+E2 | "A"A2 ((3cBA) (e>A) ((3cBA) | "A"eAaA gAfA | "A"A2 ((3cBA) (e>A) ((3cBA) | "E7"BEdE cEBE |
+"A"A2 ((3cBA) (e>A) ((3cBA) | "A"eAaA gAfA | "A"efec eaec | "E7"BABc "A"A2 :|
+A2 | "E7"E2 ((3GFE) B>E ((3GFE) | "E7"BEdE cEBE | "A"A2 ((3cBA) e>A ((3cBA) | "A"eAaA gAfA |
+"A"edec "D"agaf | "A"e^dec "D"agaf | "A"ecag fedc | "E7"BA[GB][Fc] E"(A)"[FA]GE :| 
+
+X:656
+T:Mrs. Muir MacKenzie
+C:Joe Buchanan's Scottish Tome - Page 200.2
+I:200 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+A | "D"D d2 A FDD=F | "C"E =c2 G E=CCE | "D"D d2 A "A7"FGAg | "D"fd"A7"ef "D"d/d/d d2 |
+"D"D d2 A FDD=F | "C"E =c2 G E=CCE | "D"D d2 A "A7"FGAg | "D"fd"A7"ef "D"d/d/d d |]
+f | "D"afdf abaf | "C"ge=ce gage | "D"afdf abaf | "A7"geaf "D"d/d/d df |
+"D"afdf abaf | "C"ge=ce gage | "D"afdf abaf | "A7"geaf "D"d/d/d d |]
+
+X:657
+T:Donegal Reel, The
+C:Joe Buchanan's Scottish Tome - Page 200.3
+I:200 3
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+((3A,B,C) | "D"D2 DE FDFA | "D"dFAF BFAF | "Em"E2 (EF) GFGA | "Em"BdAF "A7"EGFE |
+"D"D2 (DE) FDFA | "D"dABF ABde | "D"((3fgf) ((3efe) dBAG | ((3"A7"FGF) ((3EFE) "D"D2 :|
+A2 | "D"defg afdf | "D"afdf "B7"a2 (gf) | "Em"edef gfed | "Em"edef "A7"g2 (fe) |
+"D"defg afdf | "D"afdf "B7"abag | "D"((3fgf) ((3efe) "G"dBAG | "A7"((3FGF) ((3EFE) "D"D2 :|
+
+X:658
+T:Mason's Apron #2, The 
+C:Joe Buchanan's Scottish Tome - Page 202.1
+I:202 1
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:Amaj
+(ed) | "A"cAAA ABAF | "A"EFAc "F#m"dcBA | "Bm"dBBB BcBA | "Bm"Bcde "E7"gfed | 
+"A"cAAA ABAF | "A"EFAc dcBA | "Bm"Bcde fefa | "E7"edcB "A"A2 :| 
+(ed) | "A"cAeA fAeA | "A"cAeA "F#m"fedc | "Bm"dBfB gBfB | "Bm"dBfB "E7"afed | 
+"A"cAeA fAeA | "A"EFAc "F#m"dcBA | "Bm"Bcde "D"fefa | "E7"edcB "A"A2 :| 
+e2 | "A"aeee fece | "A"aeee fece | "Bm"bfff gfdf | "Bm"dfff "E7"gfdf | 
+"A"aeee fece | "A"aeee fedc | "Bm"Bcde "D"fefa | "E7"edcB "A"A2 :| 
+(AB) | "A"c2 (ec) fcec | "A"c2 (ec) fcec | "Bm"d2 (fd) gdfd | "E7"d2 (fd) gdfd | 
+"A"c2 (ec) fcec | "A"c2 (ec) fcec | "Bm"Bcde "D"fefa | "E7"edcB "A"A2 :| 
+
+X:659
+T:De'il Among The Tailors, The 
+C:Joe Buchanan's Scottish Tome - Page 203.1
+I:203 1
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:A
+g | a2 eg a2 eg | a2 ea fedc | dfBf dfBf | dfba gefg | 
+a2 eg a2 eg | a2 ea fedc | defe dcBA | E2 G2 A2 :| 
+e2 | ceAe ceAe | ceag fedc | dfBf dfBf | dfba gfed | 
+ceAe ceAe | ceag fedc | defd ecBA | E2 G2 A2 z :|
+
+X:660
+T:Flowers of Edinburgh #3, The
+C:Joe Buchanan's Scottish Tome - Page 203.2
+I:203 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+(GE) | "G"D2 DE G2 GA | "G"BGBd cBAG| "D7"FGFE DEFG | "D7"AFdF "C"E2 EG |
+"G"D2 DE G2 GA | "G7"BGBd "C"efge | "G"dcBA "D7"GFGA | "G"B2 G2 G2 :|
+((3def) | "G"g2 g2 gbag | "D7"f2 f2 fagf | "Em"e2 ef gfed | "Em"B2 e2 e2 "C"(ge) |
+"G"dBGB "G7"d2 d2 | "C"edef "A7"g2 fe | "G"dcBA "D7"GFGA | "G"B2 G2 G2 :|
+
+X:661
+T:Mrs. MacLeod
+C:Joe Buchanan's Scottish Tome - Page 203.2
+I:203 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+cB | "A"A2 a2 "D"fefa | "A"c2 cB "F#m"c2 cB | "A"A2 a2 "D"fefa | "E"B2 BA "E7"BdcB |
+"A"A2 a2 "D"fefa | "A"c2 cB "F#m"c2 cB | "D"f2 fg fefg | "A"afec "E7"BdcB:|
+"A"ABcd eAcA | "A"c2 cB "F#m"c2 cB | "A"ABcd eAcA | "E"B2 BA BdcB | 
+"A"ABcd eAcA | "A"c2 cB "F#m"c2 ce | "D"f2 fg fefg | "A"afec "E7"BdcB:|
+
+X:662
+T:Fairy Dance 
+C:Joe Buchanan's Scottish Tome - Page 203.3
+I:203 3
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:Dmaj
+de | "D"f2fd f2fd | "D"f2fd "A7"cdeg | "D"f2fd "G"gfed | "A7"cABc defe |
+"D"f2fd f2fd | "D"f2fd "A7"cdeg | "D"f2fd "G"gfed | "A7"cABc defg |
+"D"a2af "B7"b2bf | "Em"g2ge "A7"a2ag | "D"f2fd "G"gfed | "A7"cABc defg |
+"D"a2af "B7"b2bf | "Em"gfge "A7"a2ag | "D"f2fa "G"gfed | "A7"cABc d2 :|
+
+X:663
+T:Cran Hill 
+C:Joe Buchanan's Scottish Tome - Page 204.1
+I:204 1
+R:Reel
+Z:Carl Allison
+C:C. Sherrit
+K:D
+M:4/4
+L:1/8
+A2 | "D"dDDE "Adim"FDFG | "D"ABAF "F#dim"D2 cd | "G"e"Em"EEF "Em"GAGF | "G"E"E7"eed "A7"cABc | 
+"D"dDDD "Adim"FDFG | "C#dim"ABAF "Bm"D2 ef | "Em"gfed "A7"cABc | "D"df"A7"ec "D"d2 :| 
+de | "D"fdcd "A"Adcd | "D"fdcd "F#dim"A2 ef | "Em"ge^de "G"B"Em"ede | "A7"cdec  "C#"Ag"A7"fe | 
+"D"fdcd "Adim"Adcd | "D"fdcd "F#dim"A2 ef | "Em"gfed "A7"cABc | "D"df"A7"ec "D"d2 :|
+
+X:664
+T:Billy Thom's Reel #2
+C:Joe Buchanan's Scottish Tome - Page 204.2
+I:204 2
+Z:Carl Allison
+C:Jim Johnston
+R:Reel
+L:1/8
+M:4/4
+K:A
+cB | "A"A2 af "E"efec | "A"Acef "C#"ecBA | "B7"G2 "E7"eG "E7"BeGB | "B7"e2 "E7"^de "G#"d"E7"BGB | 
+"A"A2 af "E"efec | "A"Acef "C#"ecBA | "B7"G2 =G^G "G#"E"E7"GBd | "E7"cBA"A"G "E7"A2 :|
+cB | "A"AaaA "E"gAfA | "A"eAcA "E7"BAGA | "E7"BEEB "B7"E2 BE | "G#"E"E7"edc "E7"BAGB | 
+"A"AaaA "E"gAfA | "A"eAcA "E7"BAGA | "G#"B"E7"EEe "B"dcBA | "E7"GABG "A"A2 :|
+W:Errata: Chords mostly illegible in scan. Added "A" and "E7" chords to second measure of last two lines.
+
+X:665
+T:Reconciliation #3, The
+C:Joe Buchanan's Scottish Tome - Page 204.3
+I:204 3
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+e2 | "A"A2 (cA) eAfA | "A"eAfA e(cBc) | "A"A2 (cA) eAfA | "Bm"e(cBc) "D"A(FEF) | 
+"A"A2 (cA) eAfA | "A"eAfA e(cBc) | "A"ABAF Ecd(f | "E7"e)cBc "A"A2 :| 
+cB | "A"A2 ce a2 af | "A"effd cdcB | "A"A2 ce "F#m"a2 ag | "B7"fbba "E7"gbeg | 
+"A"agae faec | "A"dBcA BAFG | "A"ABAF "D"Ecdf | "E7"ecAc "A"A2 :|
+
+X:666
+T:Wind That Shakes The Barley, The
+C:Joe Buchanan's Scottish Tome - Page 205.1
+I:205 1
+Z:Carl Allison
+R:Reel
+S:Reels
+K:D
+B | A2AB AFED | B2BA BcdB | A2 AB AFED | gfed Bcd :| 
+e | f2 fd g2 ge | f2 fd Bcde | afed B2 de |
+f2 fd g2 ge | f2 fd Bcde | fafd gbge | afed Bcd |]
+
+X:667
+T:Glenburnie Rant 
+C:Joe Buchanan's Scottish Tome - Page 205.2
+I:205 2
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:G
+e2 | E2 E2  EF E2 EF | DEFA AFDF | E2 EF E2 B2 | efe^d e2 :| 
+B2 | e2 ef g2 fe | defg afdf | e2 ef g2 fe | efe^d e2 B2 | 
+e2 ef g2 fe | defg afdf | g2 ag f2 gf | efe^d e2 |]
+
+X:668
+T:Rachel Rae 
+C:Joe Buchanan's Scottish Tome - Page 205.3
+I:205 3
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:D
+D2 FA d2 Ac | d2 fd e2 cA | d2 AF BAGF | EFGA FD D2 |]
+defg a2 fd | g2 ba e2 cA | defg a2 fd | egfe fddA |
+defg fafd | g2 bg e2 cA | d2 AF BAGF | EFGA FD D2 |]
+
+X:669
+T:High Road To Linton #2 
+C:Joe Buchanan's Scottish Tome - Page 205.4
+I:205 4
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:A
+d | ceaf a2 ae | f2 fe d2 ae | ceef a2 ae | faec {c}B2 A :| 
+d | ceeg fddf | ecce fBBd | ceeg fddf | ecac {c}B2 Ad |
+ceeg fddf | ecce fBBd | ceeg fddf | ecac {c}B2 A |]
+
+X:670
+T:Drunken Piper, The 
+C:Joe Buchanan's Scottish Tome - Page 206.1
+I:206 1
+R:Reel
+Z:Carl Alliaon
+L:1/16
+M:4/4
+K:G
+e2 | "Am"A>AA>B d2>e2 | e>dB>d e2g2 | "G"G>GG>B d2>e2 | d>BG>B d2>e2 | 
+"Am"A>AA>B d2>e2 | e>dB>d e2a2 | "G"g2"Am"e<a e>fe>d | "G"B2A2 "Am"A<A :| 
+g2 | "Am"a4 e2a2 | e>de>f g2a2 | "G"G>GG>B d2>e2 | "G"d>BG>B d2g2 | 
+"Am"a4 e2a2 | e>de>f g2a2 | "G"g2"Am"e<a e>fe>d | "G"B2A2 "Am"A<A g2 | 
+"Am"a4 e2a2 | e>de>f g2a2 | "G"G>GG>B d2>e2 | d>BG>B d2g2 | 
+"Am"A>AA>B d2>e2 | e>dB>d e2a2 | "G"g2e<a e>fe>d | "G"B2A2 "Am"A<A |] 
+
+X:671
+T:Pigeon On The Gate #1, The
+C:Joe Buchanan's Scottish Tome - Page 206.2
+I:206 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+(af) | "A"eA ((3AAA) (AB)cd | "A"eA ((3AAA) "D"(a2>f2) | "A"eA ((3AAA) (AB)cd | "A"ef=ge "G"d2 (cd) |
+"A"eA ((3AAA) (AB)cd | "A"eA ((3AAA) "D"(a2>f2) | "A"eA ((3AAA) (AB)cd | "A"ef=ge "G"d2 :|
+cd | "A"eaaf "G"=gfed | "A"eaaf "G"(=g2>f2) | "A"eaaf "G"=gfed | "A"ef=ge "G"d2 (cd) |
+"A"eaaf "G"=gfed | "A"eaaf "G"=g2 (fg) | "A"af"G"=ge "D"fd"A"ec | "G"B=GGB "D"d2 (af) | 
+"A"eaaf "G"=gfed | "A"eaaf "G"(=g2>f2) | "A"eaaf "G"=gfed | "A"eaaf "G"d2 (cd) |
+"A"eaaf "G"=gfed | "A"eaaf "G"=g2 (fg) | "A"af"G"=ge "D"fd"A"ec | "G"B=GGB "D"d2 |]
+W:Errata: Added missing naturals on G notes. 
+
+X:672
+T:Miller (Dawn Reel), The
+C:Joe Buchanan's Scottish Tome - Page 207.1
+I:207 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+"A"A,2 CE "D"D2 FA | "E"E2 GB "A"A2 cA | "E7"BEcE dEcE | "E7"BEcB AFEC | 
+"A"A,2 CE "D"D2 FA | "E"E2 GB "A"A2 ce | "D"fefg agaf | "E7"ecBc "A"A2 :| 
+((3efg) | "A"a2 (fa) fece | "B7"b2 (bg) agfe | "E7"gebe gbeg | "B7"fe^df e2 ((3efg) | 
+"A"a2 (ga) fece | "D"fgag "A"fece | "D"fA"E7"gA "D"afed | "A"cA"E7"BG "A"A2 :| 
+
+X:673
+T:Sheehan's Reel
+C:Joe Buchanan's Scottish Tome - Page 207.2
+I:207 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+F | "G"{F}G2 BG DGBG | "D7"FGAB c2 (Bc) | "G"dg{a}gf gdeg | "D7"fdcA BAGF |
+"G"{F}G2 BG DGBG | "D7"FGAB c2 (Bc) | "G"dg{a}gf gde(g | "D7"fd)cA "G"(BG) G :|
+d | "G"gaae {^c}d2 (ef) | "G"gfga "G"bg"D7"af | "G"gagd {^c}d2 ((3efg) | "D7"fdcA "G"BGBd |
+"G"gaae {^c}d2 (ef) | "G"gfga "G"bg"D7"af | "G"gagd {^c}d2 ((3efg) | "D7"fdcA "G"(BG) G :|
+
+X:674
+T:Maid In A Box
+C:Joe Buchanan's Scottish Tome - Page 207.3
+I:207 3
+C:Trad
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+E | "A"A2 cA EAce | "D"fefg "A"aecB | "A"Acea "F#m"fecA | "B7"BFBA "E7"GEFG |
+"A"A2 cA EAce | "D"fefg "A"aecB | "A"Acea "F#m"fecA | "E7"BAGB "A"A2 :|
+((3Ace) | "F#m"a2 z ((3Ace) "C#m"g z ((3Ace) | "D"f z ((3Acf) "A"e z ((3Ace) | "F#m"a z ((3Ace) "C#m"g z (eg) | "B7"fbba "E7"gefg |
+"F#m"a2 fa "E"gbeg | "D"agaf "A"ecAc | "D"defd "A"ceaf | "A"ec"E7"dB "A"A :|
+
+X:675
+T:Lugging The Box #1 
+C:Joe Buchanan's Scottish Tome - Page 208.1
+I:208 1
+C:Neil Barron
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:G
+D2 | "G"G2 GF "D/G"GAGE |"G"DEGA "D/G"BGGD | "Am"EA A2 "E"BA "Am"A2 | "Am"ABAG "D7"EcBA |
+"G"G2 GF "D/G"GAGE | "G"DEGA "G"BG"G7"GD | "C"E2 GE "D/G"DEGB | "D7"AGAB "G"G2 :|
+BA | "G"G2 BA "D"GAGE | "G"DEGA "D/G"BGcB | "Am"A2 cB ABAG | "D7"EGAB cABA |
+"G"G2 BA "D"GAGE | "G"DEGA "D/G"BGGD | "Em"E2 GE "D/G"DEGB |  "Am"AGAB "G"G2 G2 :|
+
+X:676
+T:Apple Tree #2, The
+C:Joe Buchanan's Scottish Tome - Page 208.2
+I:208 2
+Z:Carl Allison
+R:Reel
+R:March
+L:1/8
+M:4/4
+K:A
+"A"A2 a2 fecB | "A"Aaga "F#m"fedc | "Bm"Bcde fBBc | "Bm"Bcde "E7"fefa |
+"A"A2 a2 fecB | "A"Aaga "F#m"fedc | "Bm"Bcde fBBa | "E7"gefg "A"a2 A2 |
+"A"EAAB cBAF | "A"EAAB cBAG | "Bm"FBBc dcBA | "E7"GABc defe |
+"A"EAAB cBAF | "A"EAAB cBAG | "Bm"FBBc dcBA | "E7"GEFG "A"A2- A :|
+
+X:677
+T:Willafjord #3
+C:Joe Buchanan's Scottish Tome - Page 208.3
+I:208 3
+Z:Carl Allison
+R:Reel
+R:March
+L:1/8
+M:4/4
+K:D
+B | "D"A2 FA- "D/F#"ADFG | "G"B2 GB- BDGB | "D"A2 FA- ADF | "Em"EFGA "A7"GFED |
+"D"A2 FA- "D/F#"ADFG | "G"B2 GB- BDGB | "A7"ABcd efge | "D"f2 "G"d2 "D"d2 :|
+e | "D"f2 df- ffdf | "Em"geaf gfeg | "D"f2 df- fAdf | "A7"e2 ce- eAce |
+"D"f2 df- ffdf | "Em"geaf gfed | "A7"ABcd efge | "D"f2 d2 d2 :|
+
+X:678
+T:Teetotaller's Reel #2
+C:Joe Buchanan's Scottish Tome - Page 209.1
+I:209 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+"G"G2 GF GABc | "C"dBge "B7"dBGA | "Em"BEED EFGA | "D7"BGAF GFED |
+"G"G2 GF GABc | "C"dBge "B7"dBGA | "Em"BEED EFGA | "D7"BGAF G2 :|
+B2 | "Em"Beed e2> f2 | gafg "Em"gfed | "D"Add^c d2> e2 | fdaf "Em"gfed |
+"Em"Beed e2> f2 | gafg "Em"gfed | "Em"BAGF "C"EFGA | "D7"BGAF G2 :|
+
+X:679
+T:Mrs. Norman McKeigan #1
+C:Joe Buchanan's Scottish Tome - Page 209.2
+I:209 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+D2 DG FAAB | defd g2fe| dcBA BcdA | ((3Bcd) AF EDEF | 
+D2 DG FAAB | defd g2fe| dcBA BcdA | ((3Bcd) AF D2 :| 
+f | abaf defd | ((3fga) da f2 ef | abaf defd | ((3fga) df e2 ef | 
+abaf defd | ((3fga) da g fe | dcBA BcdA | ((3Bcd) AF D2 :|
+
+X:680
+T:Pigeon On The Gate #2, The
+C:Joe Buchanan's Scottish Tome - Page 209.3
+I:209 3
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+af | "A"eA ((3AAA) (AB)cd | "A"eA  ((3AAA) "D"a2>f2 | "A"eA ((3AAA) (AB)cd | "A"ef=ge "G"d2 cd | 
+"A"eA ((3AAA) (AB)cd | "A"eA ((3AAA) "D"(a2>f2) | "A"eA ((3AAA) (AB)cd | "A"ef=ge "G"d2 :| 
+cd | "A"eaaf "G"=gfed | "A"eaag "G"(=g2>f2) | "A"eaaf "G"=gfed | "A"ef=ge "G"d2 (cd) | 
+"A"eaaf "G"=gfed | "A"eaag "G"=g2 (fg) | "A"af"G"=ge "D"fd"A"ec | "G"B=GGB "D"d2 :|
+W:Errata: Added a natural to the G in the last measure. 
+
+X:681
+T:Lucky Scaup
+C:Joe Buchanan's Scottish Tome - Page 210.1
+I:210 1
+C:Jimmy Shand
+Z:Carl Allison
+S:Reels
+R:Reel
+L:1/8
+M:C
+K:D
+"D"D2 DF "A7"E2 EG | "D"F2 FA "G"G2 GB | "D"A2 f2 gfed | "A"f2 e2 e2 f2 |
+"D"D2 DF "A7"E2 EG | "D"F2 FA "G"G2 GB | "D"A2 a2 "A7"gfed | "D"f2 d2 d2 z2 :|
+fg | "D"a2 d2 "G"b2 d2 | "D"a2 gf "A"g2 fg | "D"g2 d2 "G"bagf | "Em"g2 e2 "A"e2 fg |
+"D"a2 d2 "G"b2 d2 | "D"a2 gf "A"g2 fe | "D"A2 a2 "A"gfed | "D"f2 d2 "D"d2 fg |
+"D"a2 d2 "G"b2 d2 | "D"a2 gf "A"g2 fg | "D"a2 d2 "G"bagf | "Em"g2 e2 "A"e2 f2 |
+"D"D2 DF "A7"E2 EG | "D"F2 FA "G"G2 GB | "D"A2 a2 "A"gfed | "D"f2 d2 "D"d2 z2 |]
+
+X:682
+T:There Was A Lad Was Born In Kyle
+C:Joe Buchanan's Scottish Tome - Page 211.2
+I:211 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:2/4
+K:G
+D/ | GG dG/A/ | BA AB/A/ | GG dG/A/ | (.B.g) d>d |
+(e/f/)g/d/ (B/c/)d/B/ | (e/d/)c/B/ AB/A/ | G{f}g d/e/d/c/ | BA {f}G :|
+d/ | gg g/a/b/g/ | (a/g/)a/b/ ag/e/ | (d/e/)g/a/ (g/a/)b/a/ gd ed |
+(e/f/)g/d/ (B/c/)d/B/ | (e/d/)c/B/ AB/A/ | G{f}g d/e/d/c/ | BA {F}G :|
+
+X:683
+T:Breakdown 
+C:Joe Buchanan's Scottish Tome - Page 212.1
+I:212 1
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:A
+"A"{efg}a2 AcBA | "A"E2 A2 AcBA | "Bm"F2 B2 BcBA | "E7"GABc defg |
+"A"a2 A2 AcBA |"A" E2 A2 AcBA |"Bm" GABc "E7"defg |"A" a4 a4 :|
+"A"A2 a2 A2 a2 |"A" A2 AB cB A2 |"E7" E2 e2 E2 e2 |"E7" E2 Bc dc B2 |
+"A"A2 a2 A2 a2 |"A" A2 AB cB A2 |"E7" E2 B2 BcdB | A4 a4 :|
+"A"c/e/e/e/ c/e/e/e/ "D"d/f/f/f/ d/f/f/f/ | "A"c/e/e/e/ c/e/e/e/ "E7"dB Be |
+"A"c/e/e/e/ c/e/e/e/ "D"d/f/f/f/ d/f/f/f/ | "A"e/a/g/f/ "E7"e/d/c/B/ "A"Aa A2 |]
+
+X:684
+T:Dinky's Reel
+C:Joe Buchanan's Scottish Tome - Page 214.1
+I:214 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:Amix
+ed | "A"cdBc "E"ABcd | "A"egfd "E"edBd | "G"gB B2 "D"gB"G"aB | "G"gB B2 "G"gfed |
+"A"cdBc "Em"ABcd | "A"egfd "D7"edBd | "G"ggge "D"dfed | "A"cd"D7"Bc "A"A2 :|
+ce | "A"aA A2 "E"aAgA | "A"aA A2 "E"agef | "G"gB B2 "D"gBaB | "G"gB B2 "G7"gefg |
+"A"aA A2 "E"aAgA | "A"aA A2 "E"agef | "G"ggge "D"dfed | "A"dBc "E7"A2 "A"ce |
+"A"aA A2 "E"aAgA | "A"aA A2 "E"agef | "G"gB B2 "D"gBaB | "G"gB B2 "G7"gefg |
+"A"aaaf "G"ggge | "F#m"fffd "Em"eeef | "G"ggge "D"dfed | "A"cd"E7"Bc "A"A2 |]
+W:Errata: Added "A" chord to resolve each part.
+
+X:685
+T:McKenna's Reel
+C:Joe Buchanan's Scottish Tome - Page 214.2
+I:214 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+cB | "Am"Ga ((3aaa) "Em"ba ((3aaa) | "Am"baab "Em"aged | "G"eg ((3ggg) "D"ag ((3ggg) | "G"agbg "D"aged |
+"Am"ea ((3aaa) "Em"ba ((3aaa) | "Am"baab "Em"ageg | "Am"aged "Em"edBA | "G"GABG "Am"A2 :|
+ge | "Am"eA ((3AAA) "Em"eABA | "Am"Bdef "Em"gedc | "G"BG ((3GGG) "D"DG ((3GGG) | "G"Bdef "D"gafg |
+"Am"cA ((3AAA) "Em"eABA | "Am"Bdef g2 "Em"fg | "Am"aged "Em"edBA | "G"GABG "Am"A2 :|
+
+X:686
+T:Lugging The Box #2 
+C:Joe Buchanan's Scottish Tome - Page 215.1
+I:215 1
+C:Neil Barron
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:G
+"G"G2 GF "D"GAGE |"G"DEGA "D"BGGD | "Am"EA A2 "E"BA "Am"A2 | "Am"ABAG "D7"EcBA |
+"G"G2 GF "D"GAGE | "G"DEGA "B"BG"G7"GD | "C"E2 GE "D"DEGB | "D7"AGAB "G"G2 :|
+BA | "G"G2 BA "D"GAGE | "G"DEGA "D"BGcB | "Am"A2 cB ABAG | "D7"EGAB cABA |
+"G"G2 BA "D"GAGE | "G"DEGA "D"BGGD | "Em"E2 GE "D"DEGB |  "Am"AGAB "G"G2 G2 :|
+W:Errata: Added chords for second part.
+
+X:687
+T:John MacNeill's Reel
+C:Joe Buchanan's Scottish Tome - Page 215.2
+I:215 2
+Z:Carl Allison
+C:R. Milne
+R:Reel
+L:1/8
+M:4/4
+K:A
+C | "A"A,2 CE FECE | AECE FECE | A,2 CE FEDE | "D"FAGG "E7"EDCB, | 
+"A"A,2 CF FECE | AECE FEDC| "Bm"B,D"A"CE "D"DF"E"EG | "D"FA"D"GB "A" cA A |] 
+e | "A"eA"D"fA "A"eAca | "A"eA"D"fA e2 "A"f/g/b | "A"eA"D"fA "A"eAce | "D"df"A"ca "E"B2 (d/e/f) | 
+"A"eA"D"fA "A"eAca | "A"eAgA "A"e2 (e/f/g) | agag "D"fedc | "Bm"BAGG "E7"EDCB, |] 
+
+X:688
+T:Mulindhu, The
+C:Joe Buchanan's Scottish Tome - Page 215.3
+I:215 3
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+a | edef g2 fe | dGdB dGdg| edef g2 fe | dBgB A2 A>a | 
+edef g2 fe | dGdB dGdg | edef gage | cBgB A2> A2 |] 
+a | eAed eAAB | dGdB dGGg | eAed eAAB | dGdB A2 A>a | 
+eAed eAAB | dGdB cGdg | edef gbge | dBgB A2 A |] 
+
+X:689
+T:Pumpkin's Fancy, The 
+C:Joe Buchanan's Scottish Tome - Page 216.0
+I:216 0
+R:Reel
+Z:Carl Allison
+C:Jerry Tully
+L:1/16
+M:2/4
+K:Amaj
+(fe) | "A"(B>c)(f>e) (B>c)(fe) | "A"fecB c2(fe) | "A"faaf efAB | "A"c2(BA) "E7"B2(fe) |
+"A"(B<c)(fe) (B<c)(fe) | "A"fecB c2(fe) | "D"faaf "E7"efAB | "A"c2A2 A2 :|
+"A"a2(fe) a2(fe) | "A"fecB c2(fe) | "D"faaf "A"efAB | "A"c2(BA) "E7"B2(fe) |
+"A"a2(fe) a2(fe) | "A"fecB c2(fe) | "D"faaf "E7"efAB | "A"c2A2 A2(fe) |
+"A"a2(fe) a2(fe) | "A"fecB c2(fe) | "D"faaf "E7"efAB | "A"c2(BA) A2(fe) |
+"A"B<c)(fe) (B<c)(fe) | "A"BccB c2fe | "D"faaf "E7"efAB | "A"c2A2 A2 |]
+fe | "A"(B<c)(fe) c2(fe) | "A"BccB c2(fe) | "A"(Bc)(fe) A2(fe) | "A"fecA "E7"B2(fe) |
+"A"(B<c)(fe) c2(fe) | "A"BccB c2(fe) | "D"faaf "E7"efAB | "A"c2A2 A2 :|
+"A"a2fe c2fe | "A"fafe c2fe | "D"faaf "A"efAB | "A"c2BA "E7"B2fe |
+"A"a2fe c2fe | "A"fafe c2fe | "F#m"faaf "A"efAB | "A"c2A2 B2fe |
+"A"a2fe c2fe | "A"fafe c2fe | "D"faaf "A"efAB | "A"c2BA "E7"B2fe |
+"A"B<cfe B<cfe | "A"fecB c2fe | "D"faaf "E7"efAB | "A"c2A2 A2 |]
+
+X:690
+T:Donegal Reel, The
+C:Joe Buchanan's Scottish Tome - Page 218.2
+I:218 2
+Z:Carl Allison
+R:Reel
+L:1/16
+M:4/4
+K:D
+A,2 | "D"D2DE F2FG | "D"A2FF AFEF | "A7"E2EF GFGA | "G"BdAF "A"EGFE |
+"D"D2DE F2FG | "D"A2GF A2de | "D"f2fd "A7"efdB | "D"AF"E7"EF "D"D2 :|
+A2 | "D"defg afdf | "D"afdf a2af | "A7"edef gfed | edef g2fe |
+"D"d2df afdf | "D"afdf a2ag | "D"f2fd "A7"efdB | "D"AF"E7"EF "D"D2 :|
+
+X:691
+T:Sligo Maid
+C:Joe Buchanan's Scottish Tome - Page 218.3
+I:218 3
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+"D"A2 BA "G"Bdef | "C"ge"G"dB "D7"AGEG | "G"G2 BG DGBG | "G"DEGA "D7"BAdA |
+"D"A2 BA "G"Bdef | "C"ge"G"dB "D7"BGEF | "G"B2> G2 A2 "D7"AE | "G"DEGA "D7"BA A2 :|
+"Am7"eaag a2 ga | "G"bg"D"af "D7"gfed | "C"eggf g2 ge | "G"dega "D7"bgaa |
+"Am7"eaaa a2 ga | "G"bgab "D7"aged | "Am"eg ((3ggg) "C"edBd | "G"dBgB "D7"BA A2 :|
+
+X:692
+T:Trip To Windsor #1
+C:Joe Buchanan's Scottish Tome - Page 219.1
+I:219 1
+Z:Carl Allison
+C:Dan R. MacDonald
+R:Reel
+S:Air, Strathspey, Hornpipe and Highland Schottische
+L:1/8
+M:4/4
+K:A
+B | ((3AAA) (GA) Ace=g | ((3fff) f=g fef=g | agfe fgaf | ecBc AFEF |
+((3AAA) (GA) Ace=g | ((3fff) f=g fef=g | agfe fgaf | ecBc cA A2 :|
+c | efec efae | ((3fga) (ec) BAcB | AFEC EFAE | ((3FGA) (EC) B,A,CB, |
+A, (CE) FECE | AEcB Aceg | agfe fgaf | ecBd cAAc |
+efec efae | ((3fga) (ec) BAcB | AFEC EFAE | ((3FGA) (EC) B,A,CB, |
+A, (CE) FECE | AEcB Aceg | agfe fgaf | ecBc A4 |]
+
+X:693
+T:Mrs. Norman McKeigan #2
+C:Joe Buchanan's Scottish Tome - Page 219.2
+I:219 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+D2 DG FAAB | defd g2 fe | dcBA BcdA | ((3Bcd) AF EDEF |
+D2 DG FAAB | defd g2 fe | dcBA BcdA | ((3Bcd) AF ((3DDD) D2 :|
+f | abaf defd | ((3fga) da f2 ef | abaf defd | ((3fga) f2 ((3eee) ef |
+gbaf defd | ((3fga) da g2 fe | dcBA BcdA | ((3Bcd) AF ((3DDD) D2 :|
+
+X:694
+T:Shiftin'Bobbins
+C:Joe Buchanan's Scottish Tome - Page 220.1
+I:220 1
+Z:Carl Allison
+C:Muriel Rimmer
+R:Reel
+L:1/8
+M:4/4
+K:A
+e | ^d/e/e/e/ fe | ^de cA | E/E/E/E/ Ac | cd d2 |
+^d/e/e/e/ fe | gf ef | g/f/e/d/ cB | AF E2 |
+^d/e/e/e/ fe | ^de cA | E/E/E/E/ Ac | cd d2 |
+c/d/d/d/ ^AB | =G^G ^DE | E/F/G/A/ cB | A2 A2 |
+E/E/E/E/ FE | ^DE FE | E/E/E/E/ Ac | ^AB B2 |
+G/G/G/G/ AG | =G^G ^DE | G>F E^D | FE E2 |
+E/E/E/E/ FE | ^DE FE | E/E/E/E/ Ac | cd d2 |
+cd/d/ ^AB | =G^G ^DE | E/F/G/A/ cB | A2 A |
+
+X:695
+T:Pat Donald
+C:Joe Buchanan's Scottish Tome - Page 220.2
+I:220 2
+Z:Carl Allison
+C:Adam Rennie
+R:Reel
+L:1/8
+M:4/4
+K:D
+F/G/ | A/A/A/A/ fc | ed dF/G/ | A/A/A/A/ fc | ed B>d |
+c/c/c/e/ B>d | c/c/c/e/ B2 | g/f/g Bc | d/A/F/A/ fF/G/ |
+A/A/A/A/ fc | ed dF/G/ | A/A/A/A/ fc | ed B>d |
+c/c/c/e/ B>d | c/c/c/e/ B>d | c/A/^G/A/ fe | d2 A2 |
+f/f/f/f/ ed | A/B/A A2 | f/f/f/f/ ed | B2> B2
+c/c/c/c/ BA | cc cG | B/B/B/B/ AG | F2> B2
+f/f/f/f/ ed | A/B/A A2 | f/f/f/f/ ed | b2> B2
+c/c/c/c/ BA | aa ag | f/A/^G/A/ fe | d2 d |]
+
+X:696
+T:Mrs. E.M. Monair of Bruach 
+C:Joe Buchanan's Scottish Tome - Page 221.2
+I:221 2
+C:Adam Rennie
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:G treble
+D | G(D/G/) B(G/B/) | dG g2 | g/f/e/d/ c/B/A/G/ | FE E2 |
+| A(E/A/) c(A/c/) | eA f>e | FG AB | ed B>D |
+| G(D/G/) B(G/B/) | dG g2 | g/d/B/G/ FG | e3 e |
+| f/f/f/f/ ed | EE E>G/ | F/G/A/B/ c/e/d/c/ | BG G>B |
+| d(B/d/) g(f/g/) | ed d2 | d/B/G/B/ g/f/e/d/ | cA A>B |
+| c(B/c/) A(A/B/) | c(B/c/) A>G | F/G/A/B/ c/A/f/e/ | dB B>c |
+| d(B/d/) g(f/g/) | ed d2 | d/B/G/B/ g/f/e/d/ | cA A>B |
+| cA fe | Dc E>G |1  F/G/A/B/ c/e/d/c/ | BG GD :|
+%%leftmargin 8.6cm
+|[2 F/G/A/B/ c/d/e/f/ | d |  [Bg]4 |]
+
+X:697
+T:Spey In Spate, The
+C:Joe Buchanan's Scottish Tome - Page 222.1
+I:222 1
+Z:Carl Allison
+C:J. Scott Skinner
+R:Reel
+L:1/8
+M:2/4
+K:D
+(3(A,B,C | "D"D)(F/D/) A,/D/F/A/ | "D"d/c/B/A/ ^G/A/F/D/ | "Em"E(G/E/) B,/E/G/B/ | "A7"g/e/c/A/ G/E/C/A,/ |
+"D"{C}D(F/D/) A,/D/F/A/ | "D"dDcD BDAf | "Em"g/e/"D"f/d/ "A/C#"e/c/"Bm"d/B/ | "D"A/F/"Em"G/E/ "A7"D/A/B/c/ |
+"D"d/d/d (f/d/) A/d/F/A/ | "D"D/F/A/d/ f/a/g/f/ | "Em"e/e/e (g/e/) B/e/G/B/ | "A7"C/E/A/c/ e/g/f/e/ |
+"D"d/d/d f/d/ A/d/F/A/ | "D"D/F/A/d/ "B7"f/a/g/f/ | "Em"g/e/f/d/ "A/C#"ec/"Bm"d/B/ | "D"A/F/"A7"G/E/ "D"D2 |]
+
+X:698
+T:Bungalow, The
+C:Joe Buchanan's Scottish Tome - Page 222.2
+I:222 2
+Z:Carl Allison
+C:J. Scott Skinner
+R:Reel
+L:1/8
+M:4/4
+K:A
+E | "A"A(c/A/) "Bm"B/c/d/B/ | "A"e/f/g/a/ "A/C#"e/c/A/c/ | "D"d/d/d (f/d/) "A"c/c/c (e/c/) | "E"B/e/"B7"d/f/ "E7"e/(=d/c/B/) |
+"A"A(c/A/) "Bm"B/c/d/B/ | "A"e/f/g/a/ "A/C#"e/c/A/c/ | "D"d/e/f/d/ "A"c/e/a/f/ | "A"e/a/"E7"g/b/ "A"a((3e/f/g/) |
+"F#m"a/b/"E"g/a/ "D"f/g/"A/C#"e/f/ | "Bm"d/e/"A"c/d/ "E7"B((3e/f/g/) | "F#m"a/b/"E"g/a/ "D"f/a/"A/C#"e/c/ | "A"e/a/"E7"g/b/ "A"a"E7"((3e/f/g/) |
+"F#m"a/f/"E"g/e/ "D"f/d/"A/C#"e/(c/ | "Bm"d/B/)"A"c/A/ "E7"B/G/E/D/ | "A"C/E/A/B/ "A/C#"c/e/a/(f/ | "A"e/c/)"E7"d/B/ "A7"A |]
+
+X:699
+T:Lady Montgomerie 
+C:Joe Buchanan's Scottish Tome - Page 222.3
+I:222 3
+C:Lord Eglintoune 1796
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:Bbmaj
+"Bb"B2 (BF) DEFD | "Gm"B2 cB "F7"ABcd | "Bb"B2 (BF) DEFD | "C7"CccB "F7"ABcd | 
+"Bb"B2 (fB) dBfB | "Bb"B2 (fb) defg | "Bb"B2 (fB) "Gm"dBfB | "Cm"edcB "F7"ABcd | 
+"Bb"B2 (fB) dBfB | "Bb"B2 (fb) defg | "Bb"B2 (fB) "Gm"dBfB |1 "Cm"BGFD "F7"Cccd :|
+%%leftmargin 409 cm
+|2  "Cm"BGFD "F7"C4 |]
+
+X:700
+T:Archie Menzies
+C:Joe Buchanan's Scottish Tome - Page 223.1
+I:223 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:F
+C2 | "F"F2 (CF) AFEF | "F"Acde fcAF | "Gm"G2 (DG) BGDG | "Gm"Bdef "C7"gdBG |
+"F"F2 (CF) AFEF | "F"Acde fcAF | "Gm"BdGB "F"AcFA | "C7"GFDE "F"F2 :|
+e2 | "F"f2 (cf) afef | "F"cfag fedc | "Gm"g2 (dg) bg^fg | "Gm"dgba "C7"gfed |
+"F"cfef afef | "F"cfag fedc | "Gm"BdGB "F"AcFA | "C7"GFDE "F"F2 :|
+
+X:701
+%%annotationfont Times 14
+T:Jean's Reel
+C:Joe Buchanan's Scottish Tome - Page 223.2
+I:223 2
+Z:Carl Allison
+C:Bobby MacLeod
+R:Reel
+L:1/8
+M:4/4
+K:F
+%%annotationfont Times 14
+T:Jean's Reel
+C:Joe Buchanan's Scottish Tome - Page 223.2
+I:223 2
+Z:Carl Allison
+C:Bobby MacLeod
+R:Reel
+L:1/8
+M:4/4
+K:F
+C2 | "F"F2 (FG) AFAc | fA ((3AAA) (dA)cA | "Gm"GFGA (GF) D2 | "Gm"GBAG FEDC |
+"F"F2 (FG) AFAc | "F"fgaf "Bb"gfdf | "F"c2 Ac fdcA | "C7"GFEG "F"F2 |]
+(Ac) | "F"fAcf AcfA | "F"cfAc fAcf | "C7"eccg ecgc | "C7"fefg acfg |
+"F"afge "Dm"fedc | "Bb"d(efe) "F"dcAc | "Bb"d2 (cA) "F"fdcA | "C7"GFEG "F"F2 |]
+(FG) | "F"ACCA CCAC | "F"FACF ACFA | "C7" !3!E!1!CCG ECGC | "C7"cC=Bc _BGEG |
+w:|||(3rd position)
+"F"!3!A!2!CCA CCC | "F"FACF ACFA | "C7"!3!E!1!CEG cCBc | "C7"!3!B!3!G!1!E!3!G "F"!2!F2 |
+w:(2nd position)|||(1st position)
+(Ac) | "F"fAcf AcfA | "F"cfAc fAcf | "C7"eccg ecgc | "C7"fefg acfg |
+"F"afge fedc | "Bb"d(ef)e "F"dcAc | "Bb"d2 cA "F"fdcA | "C7"GFEG "F"F2 |
+
+X:702
+T:Brenda Stubbert's Reel
+C:Joe Buchanan's Scottish Tome - Page 224.1
+I:224 1
+Z:Carl Allison
+C:Jerry Holland
+R:Reel
+L:1/8
+M:4/4
+K:C
+B | "Am"A/A/A (BA) GAAB | "Am"A/A/A (BA) edde | "G"G2 (BA) BGGB | "Am"c2 (BA) "G"BG-GB |
+"Am"A/A/A (BA) GAAB | "Am"A/A/A (BA) edda | "Em"gedB GABd | "Em"{d}e2 dB "Am"eA-A :|
+B | "Am"A/A/A a2 A/A/A g2 | "Am"Aage ageg | "G"G/G/G (BA) BGGB | "Am"c2 BA "G"BG-GB |
+"Am"A/A/A a2 A/A/A g2 | "Am"Aage agea | "G"gedB GABd | "Em"{B}e2 dB "Am"eA-AB |
+"Am"A/A/A a2 A/A/A g2 | "Am"Aage ageg | "G"G/G/G (BA) BGGB | "Am"c2 BA "G"BG-GB |
+"Am"A/A/A (BA) GAAB | "Am"A/A/A (BA) edda | "Em"gedB GABd | "Em"{d}e2 dB "Am"eA-A |]
+
+X:703
+T:Gravel Walks, The
+C:Joe Buchanan's Scottish Tome - Page 225.1
+I:225 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+"Am"A2 (eA) BAeA | "Am"A2 (eA) "G"BAGB | "Am"A2 (eA) Bdef | "G"gedc "Em"BAGB :|
+"Am"A2 (aA) gAfA | "Am"A2 (eA) "G"BAGB | "Am"A2 (aA) gAef | "G"gfge "Em"dBGB |
+"Am"A2 (aA) gAfA | "Am"A2 (eA) "G"BAGB | "Am"ABcd efga | "G"gfdc "Em"BAGB |]
+"Am"cAAG A2 AB | "Am"cA ((3AAA) "G"BGBd | "Am"cAAG A2 ef | "G"gfge dGBG :|
+"Am"c2 (gc) acgc | "Am"c2 (gc) "G"BAGB | "Am"c2 (gc) acga | "G"gedc BAGB |
+"Am"c2 (gc) acgc | "Am"c2 (gc) "G"BAGB | "Am"ABcd egfa | "G"gedc BAGB |
+"Am"c2 (gc) acgc | "Am"c2 (gc) "G"BAGB | "Am"c2 (gc) acga | "G"gedc BAGB |
+"Am"c2 (gc) acgc | "Am"c2 (gc) "G"BAGB | "A"Aa ((3aaa) agea | "D"af"Em"ge "G"dBGB |]
+
+X:704
+T:Glen Ogle #2
+C:Joe Buchanan's Scottish Tome - Page 225.2
+I:225 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+A | "D"d2 (fd) "G"B2 ed | "A7"cABc "D"dAFD | "D"d2 (fd) "G"B2 (ed) | "A7"cABc "D"d2 d :|
+e | "D"f2 (df) "G"gfed | "A7"cABc "D"dAFD | "D"f2 (df) "Em"gfed | "A7"cABc "D"d2 (de) |
+"D"f2 (df) "G"gfed | "A7"cABc "D"dAFD | "D"dfdf "A7"cecA | "G"Bg"A7"ec "D"d2 |]
+
+X:705
+T:Moving Cloud
+C:Joe Buchanan's Scottish Tome - Page 226.0
+I:226 0
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+(GE) | "G"(DG) ((3GFG) BGFG | "G"DGFG BGFB | "C"c2 (ec) "G"BDGA | "Am"ACEA "D7"GFEF |
+"G"(DG) ((3GFG) BGFG | "G"DGFG BGFG | "C"cEGc "G"BDGB | ADFA "G"G2 :|
+(Bc) | "G"d2 (gd) adgd | "G"d2 (gd) adgd | "Am"e2 (ae) "G"beae | e2 (ae) beae |
+"G"d2 (gd) adgd | "G"d2 (gd) adgd | "C"cEGc "G"BDGB | "D7"ADFA "G"G2 :|
+"G"Bd^cd ed^cd | "G"gd^cd ed^cd | "Am"ce^de fe^de | "Am"ae^de "D7"fe=dc |
+"G"Bd^cd ed^cd | "G"gd^cd ed^cd | "C"cEGc "G"BDGB | "D7"ADFA "G"G2 :|
+"G"((3DDD) (BD) ADGD | "G"((3DDD) (BD) ADG | "Am"((3EEE) (cE) BA | ((3"Am"EEE) (cE) BEAE |
+"G"((3DDD) (BD) ADGD | "G"((3DDD) (BD) ADGD | "C"cEGc "G"BDGB | "D7"ADFA "G"G2 :|
+(Bc) | "G"d2 (bd) adgd | "G"d2 (bd) adgd | "Am"e2 (c'e) beae | "Am"e2 (c'e) beae |
+"G"d2 (bd) adgd | "G"d2 (bd) adgd | "C"cEGc "G"BDGB | "D7"ADFA "G"G2 :|
+
+X:706
+T:Andy Rennick's Ferret
+C:Joe Buchanan's Scottish Tome - Page 227.0
+I:227 0
+Z:Carl Allison
+R:Reel
+L:1/8
+M:C
+K:C
+AB | cA ((3AAA) ABd | eagg age | gd ((3ddd) egdg | ^cdgd egdB |
+cA ((3AAA) ABd | eagg age | gd ((3ddd) egdg | dBgB A2 :|
+Bd | eaag agef | eaag agef | gd ((3ddd) egdg | ^cdgd egdg |
+eaa ageg | aaag agef | gd ((3ddd) efge | dBgB A2 :|
+AB | cA ((3AAA) ((3AAA) cA | ((3AAA) cA agef | gd ((3ddd) ^cdcd | ((3ddd) ^cdcd ((3ddd) |
+cA ((3AAA) ((3AAA) cA | ((3AAA) cA agef | gd ((3ddd) efge | dBgB A2 :|
+Bd | eaag ageg | aaag agef | gd ((3ddd) ^cdcd | ((3ddd) ^cdcd ((3ddd) |
+eag ageg | ((3aaa) ag agef | gd ((3ddd) efge | dBgB A2 Bd |
+eaag agef | aaag agef | gd ((3ddd) ^cdcd | ((3ddd) ^cdcd ((3ddd) |
+cA ((3AAA) ((3AAA) cA | AA agef | gd ((3ddd) efge | dBgB A2 |]
+
+X:707
+T:Rondall's Reel 
+C:Joe Buchanan's Scottish Tome - Page 229.0
+I:229 0
+C:Graeme Mitchell
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:G
+"G"^ABdg "D/G"dBeB | "G"^ABdg "D/G"dBeB | "G"d2 (3Bde "B/G"g2 e2 | "A/D7"f4 "D7"f4 |
+"D7"AdfA "A/D7"gAfA | "D7"aAgA "A/D7"fAeA | "Am"fgfe "D7"d2e2 | "G" B4 "D7"B4 |
+"G"^ABdg "D/G"dBeB | "G"ABdg "D/G"dBeB | "G"d2 (3Bde "B/G"g2 e2 | "A/D7"f4 "D7"f3 A |
+"D7"fAgA "A/D7"aAgA | "D7"fAeA "A/D7"dAcA | "Am"cdcA "D7"D2 F2 | "G"G4 "D7"G3 ^A |]
+"G"BdgB "D/G"aBgB | "G"bBaB "D/G"fBdB | "G"gdBd "B/G"g2 b2 | "A/D7"a4 "D7"a4 |
+"D7"AdfA "A/D7"gAfA | "D7"aAgA "A/D7"fAeA | "Am"fgfe "D7"d2 e2 | "G"B4 "D7"B3 ^A |
+"G"BdgB "D/G"aBgB | "G"bBaB "D/G"gBdB | "G"gdBd "B/G"g2 b2 | "A/D7"a4 "D7"a3 A |
+"D7"fAgA "A/D7"aAgA | "D7"fAeA "A/D7"dAcA | "Am"cdcA "D7"D2 F2 | "G"G4 G4 |]
+
+X:708
+T:Kate's Comin O'Age
+C:Joe Buchanan's Scottish Tome - Page 232.1
+I:232 1
+C:Graeme Mitchell
+Z:Carl Allison
+R:Reel
+M:4/4
+K:F
+C | "F"F2 AG "C/F"FAcd | "F"f2 fd "C/F"cdcA | "Gm"GFGA "D/Gm"BABc | "Gm"dBcd "C7"ecde |
+"F"f2 fd "C/E7"cdcA | "Dm7"GAGF "C/F7"ECCE | "Bb"D2 B,D "C7"GFED | "F"CFFG "F"F2 :|
+cd | "F"f2 df "C/F"caga | "F"fgfd "C/F"cAGF | "Gm"GFGA "D/Gm"BABc | "Gm"dBcd "C7"ecde |
+"F"f2 df "C/E7"caga | "Dm7"fgfd "C/F7"cAGF | "Bb"D2 B,D "C7"GFED | "F"CFFG "F"F2 cd |
+"F"f2 df "C/F"caga | "F"fgfd "F#/Cdim"cAGF | "Gm"GFGA "D/Gm"BABc | "Gm"dBcd "C7"ecde |
+"F"f2 fd "C/E7"cdcA | "Dm7"GAGF "C/F7"ECCE | "Bb"F2 B,D "C7"GFED | "F"CFFG "F"F2 |]
+
+X:709
+T:Crackens 
+C:Joe Buchanan's Scottish Tome - Page 232.2
+I:232 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+a^g | "D" a2 f2 "A/D"fedB | "D" A2 a2 "A/D"afed | "E/A7"c2 A2 "A7"^ga=ge | "Bm"defb "C#/A7"a3 ^g |
+"D"a2 Aa "A/D"fAdA | "D"B2 A2 "A/D"afed | "E/A7"c2 A2 "A7"^ga=ge | "D"d2 d2 d2 :|
+ed | "A7"cAeA "E/A7"gAeA | "D"dAfA "F#/D"gAaA | "A7"cAeA "E/A7"gAeA | "D"dABc "A7"defg |
+"D"a2 f2 "A/D"fedB | "D"A2 a2 "A/D"afed | "E/A7"c2 A2 "A7"gaae | "D"d2 d2 d2 ed |
+"A7"cAeA "E/A7"gAeA | "D"dAfA "A/D"gAaA | "A7"cAeA "E/A7"gAeA | "Bm"dABc "C#/A7"defg |
+"D"a2 Aa "A/D"fAdA | "D"B2 A2 "F#/D"afed | "E/A7"c2 A2 "A7"^ga=ge | "D"d2 d2 d2 |]
+
+X:710
+T:Power To The Harmonica 
+C:Joe Buchanan's Scottish Tome - Page 233.1
+I:233 1
+Z:Carl Allison
+C:Graeme Mitchell
+R:Reel
+L:1/8
+M:4/4
+K:G
+ge | "G"dB (3BBB "D/G"BcBA | "G"GABd "C"efge | "G"dB (3BBB "D/G"BAGB | "A7"degB "D7"A2 ge |
+"G"dB (3BBB "D/G"BcBA | "B/G7"GABd "C"efge | "B/G"dged "C"efge | "D7"dBAB "G"G2 :|
+ef | "C"ge (3eee "C/G"efge | "B/G7"dBBc "G"BABd | "C"efge "B/G"dBAG | "A7"degB "D7"A2 "G7"ef |
+"C"ge (3eee "C/G"efge | "B/G7"dBBc "G"BABc | "B/G"dged "C"efge | "D7"dBAB "G"G2 ef |
+"C"ge (3eee "C/G"efge | "B/G7"dBBc "G"BABd | "C"efge "B/G"dBAG | "A7"degB "D7"Agfe |
+"G"dB (3BBB "A/D7"BcBA | "B/G7"GABd "C"efge | "B/G"dged "C"efge | "D7"dBAB "G"G2 |]
+
+X:711
+T:Forbes Raeburn of Huntly 
+C:Joe Buchanan's Scottish Tome - Page 233.2
+I:233 2
+Z:Carl Allison
+C:Graeme Mitchell
+R:Reel
+L:1/8
+M:4/4
+K:F
+ag | "F"f3 g "C/F"fcAB | "F"c2 d2 "C/F"dcAc | "F"AAcd "C/F"cAGF | "Gm"DGGF "C7"G2 ag |
+"F"f3 g "C/F"fcAB | "F"c2 d2 "A/F7"dcAc | "Bb"f2 df "A/F"cdcA | "C/C7"GFGA "F"F2 :|
+(3EEE | "C7"EG G2 "E/C7"GB B2 | "F"A2 AB  "F#/D7"cA A2 | "G"^B2 Bc "Bb/G7"dBcd | "C7"e_e=eg "E/C7"c'bag |
+"F"f3 g "E/C7"fcAB | "F"c2 d2 "C/F"dcAc | "Bb"f2 df "A/F"cdcA | "G/C7"GFGA "F"F2 |
+
+X:712
+T:Mrs. Forbes Leith
+C:Joe Buchanan's Scottish Tome - Page 234.1
+I:234 1
+C:J.S. Skinner
+R:Reel
+Z:Carl Allison
+M:C
+K:Bb
+"Bb"(B,A,)B,D FBdc | "Bb"BABG FDB,(D | "C7"C=B,)CE Bced | "F"cBAG FEDC |
+"Bb"B,A,B,D FBdc | "Bb"BABG FDB,D | "Eb"EGcd "C7"ecgf | "F7"f=e_ec "F"Agec ||
+"Bb"B2AB (dB)AB | "Bb"fBgB fBdB | "F7"F2=E(F A)FEF | "F"cFeF dFcF |
+"Bb"B2(AB) dBAB | "Bb"fBgB fBdB | "Eb"EGce "Bb"DFBd | "F7"{/e}dcBA "Bb"B4 |]
+
+X:713
+T:Haggis, The 
+C:Joe Buchanan's Scottish Tome - Page 234.2
+I:234 2
+C:Athole Collection
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:C
+F | "C"(E/F/G) (Gc) GEEF | "C" (E/2F/G) "G"(GB) "C"{AB}c2 (ce) | ("C"EF/G/) (Gc) GBGE | "Bb"D/D/D (_BD) {E}F2 F :|
+g | "C"ecgc eccg | "C"ecge "F"f2 (fa)  | "C"ecgc "F"ac"C"gc | "Bb"d/d/d (_bd) "F"f2 (fa) |
+"C"ecgc eccg | "C"ecge "F"fa"G"gf  | "C"ec"G"dB "Am"cA"C"GE | "Bb"D/D/D _BE {DE}F2 F :|
+
+X:714
+T:Bridge of Inver, The 
+C:Joe Buchanan's Scottish Tome - Page 234.3
+I:234 3
+C:Athole Collection
+R:Reel
+S:The Athole Collection
+Z:Carl Allison
+L:1/8
+M:C|
+K:B
+d|~B2 FE DB,B,D|ECCE DF~FA|B2 FD CFBF|GecA ~B2 B:|
+f|dBdf gBbB|fdcB Ac~cf|dBdf gbfg|dfcA ~B2 Bf|dBdf gBbB|
+gBfB Accd|~BGFE DFBF|GecA ~B2B||
+
+X:715
+T:Barlinnie Highlander, The 
+C:Joe Buchanan's Scottish Tome - Page 235.0
+I:235 0
+C:R. Wallace
+R:Reel
+Z:Carl Allison
+L:1/8
+M:4/4
+K:D
+B/>e/e/>g/ g/>f/e/>A/ | B/>e/e/>g/ g/>f/e/>d/ | A/>d/d/>f/ f/>e/d/>A/ | dd/>e/ f/>e/d/>A/ |
+B/>e/e/>g/ g/>f/e/>A/ | B/>e/e/>g/ g/>f/e/>d/ | A/>d/d/>f/ f/>e/d/>e/ | fe e2 :|
+f | gg/>a/ g/>f/e/>f/ | g/>f/g/>a/ g/>f/e | ff/>g/ f/>e/d/>e/ | f/>f/f/>g/ f/>e/d/>f/ |
+gg/>a/ g/>f/e/>g/  | g/>f/g/>a/  g/>f/e/>d/| ff/>g/ f/>e/d/>e/  | fe e2 :|
+d/>c/ | B/>e/e/>g/ g/>B/B/>e/ | e/>g/g/B/ g/>f/e/>d/ | A/>d/d/>f/ f/>d/A/>d/ | d/>f/f/>g/ f/>e/d/>c/ |
+B/>e/e/>g/ g/>B/B/>e/ | e/>g/g/>B/ g/>f/e/>d/ | A/>d/d/>e/ f/>{g}e/{a}d/>{g}e/ | fe e2 :|
+e/>f/ | g/>e/a/>f/ g/>f/e/>f/ | g/>e/a/>f/ g/>f/e | f/>d/a/>e/ f/>e/d/>e/ |  ff/>g/ f/>e/d/>f/ |
+g/>e/a/>f/ g/>f/e/>f/ | g/>e/a/>f/ g/>f/e | ff/>g/ f/>e/d/>e/ |  fe ee/>f/ |
+g/>e/a/>f/ g/>f/e/>f/ | g/>a/a/>f/ g/>f/e | f/>d/a/>e/ f/>e/d/>e/ |  ff/<g/ f/>e/d/>f/ |
+g/>e/a/>d/ g/>f/e/>f/ | g/>a/a/>f/ g/>f/e | ff/>g/ f/>e/d/>e/ | fe e2 |]
+
+X:716
+T:John Morrison - Assynt House 
+C:Joe Buchanan's Scottish Tome - Page 236.0
+I:236 0
+Z:Carl Allison
+C:P.M. Peter MacLeod
+R:Reel
+L:1/8
+M:4/4
+K:D
+a | "Am"A>AA>B A>AA>B | "Am"{f}e2 e2 d>BB>d | "G"G>GG>B G>GG>B | "G"{e}d2 ed B>GG>B |
+"Am"{AB}A2 A2 G>AA>B | "Am"{f}e2 e2 d>BB>d | "G"(e<g)(B<d) "Am"e2 (a>e) | "G"g2 (B<d)e>A A2 |]
+A2 | "Am"{AB}A2 (a>g) a2 (eg) | {b}a2 ga "Em"geef | "G"{f}g2 (ae) g2 (B<d) | g2 (ag) "Bm"f>dd>f |
+"C"(e<g)("Bm"B<d) "Em"{f}e2 (ge) | "Am"{b}a2 (g<a) "C"g>ee>g | "G"d>BB>d "Em"e2 (a>e) | "G"g2 B<d"Am"e>A A2 |]
+a | "Am"{B}A2 e>d e2 A>B | {f}e2 e2 "G"d>BB>d | G<GdB {e}d2 G>B | "Em"{f}e2 d>A B>GG>B |
+"Am"{B}A2 e>d e2 A>B | {f}e2 e2 "G"d>BB>d | "C"e<g"Bm"B<d "Em"{f}e2 a>e | "G"g2 B<d"Am"e>A A |]
+B | "Am"A>aa>g a>ge>d | e>aa>g a2 (g<e) | "G"d>gg>a g>ed>B | d>gg>a g2 (e>d) |
+"Am"e>aa>g a>ge>d | e>aa>g a2 (g<e) | "G"d>BB>d "C"e2 (a>e) | "G"g2 (B<d)"Am"e>A A |]
+B | "Am"e>Ae>d e>AA>B | e>Ae>d B>AA>B | "G"d>Gd>B d>GG>B | "Am"e>Ad>A "G"B>GG>B |
+"Am"e>Ae>d e>AA>B | "C"{f}e2 e2 "G"d>BB>d | "C"(e<g)"Bm"(B<d) "Em"{f}e2 (a>e) | "G"g2 (B<d)"Am"e>A A2 |]
+e | "Am"{g}a2 (eg) a>ee>g | a2 (e>a) "Em"geae | "G"{f}g2 (d>e) g>dd>e | g2 (dg) e>dg>d |
+"Am"{g}a2 (eg) a>ee>g | a2 (e>a) "Em"geae | "G"d>BB>d "Em"e2 (a>e) | "G"g2 (B<d)"Am"e>A A |]
+
+X:717
+T:Balmullo Blacksmith, The 
+C:Joe Buchanan's Scottish Tome - Page 280.0
+I:280 0
+Z:Carl Allison
+C:R.F. Crone
+R:Reel
+L:1/8
+M:4/4
+K:D
+A | "D"F2 A "F#m"d2 A |"G" BGB "G"dcA |"F#m" A2 "G"d "E7"dcB |"A" cAc "C#"e"A7"cA |
+"D"d2 A A"F#m"FA |"G" BGB "G"dcB | "F#m"A2 F "A7"EFG |"D" FDD "D/A7"D2 :|
+F/G/ |"D" A2 F "F#m"d2 A |"G" BGd "F#m"AFD |"Em" GBG "F#m"AFD | "G"EG"Em"D "G#"E"A7"FG |
+"D"A2 D "F#m"d A2 |"G" BGB "G"dcB | "F#m"A2 d "A7"cde | "D"f"G"d"D"d "A7"d2 :|
+
+X:718
+T:Jackie Coleman's Reel #2
+C:Joe Buchanan's Scottish Tome - Page 286.2
+I:286 2
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+(udB) | "D"AF (3FFF (EF)DE | "D"F2 (AF) "B7"BFAF | "E7"E2 (BE) dEBE | "A7"ABd(e fe)dB |
+"D"AF (3FFF (EF)DE | "D"F2 (AF) "B7"BFAF | "E7"E2 (BE) dEBE | "A7"ABd(e fe) d2 :|
+e2 | "D"fddc dfag | "D"fd (3ddd (fa)gf | "A7"eA (3AAA (eA)fA | "A7"eA (3AAA (ef)ge |
+"D"fddc dfag | "D"fd (3ddd (df)af | "G"g2 {a}(gf) "Em"gbag | "A7"faeg "D"(fd) d2 :|
+
+X:719
+T:Reconciliation #4, The
+C:Joe Buchanan's Scottish Tome - Page 286.3
+I:286 3
+Z:Carl Allison
+L:1/16
+M:4/4
+K:C
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+e2 | "A"A2 (cA) eAfA | "A"eAfA e(cBc) | "A"A2 (cA) eAfA | "Bm"e(cBc) "D"A(FEF) |
+"A"A2 (cA) eAfA | "A"eAfA e(cBc) | "A"ABAF Ec"D"d(f | "E7"ec)Bc "A"A2 :|
+(cB) | "A"A2 ce a2 af | "A"efed cdcB | "A"A2 ce "F#m"a2 ag | "B7"fbba "E7"gbeg |
+"A"agae fae(c | "D"dB)cA "E7"BAFG | "A"ABAF "D"Ecd(f | "E7"ec)Bc "A"A2 :|
+
+X:720
+T:Randall's Reel
+C:Joe Buchanan's Scottish Tome - Page 288.0
+I:288 0
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+"G"^ABdg "D/G"dBeB | "G"^ABdg "D/G"dBeB | "G"d2 ((3Bde) "B/G"g2 e2 | "A/D7"f4 "D7"f4 | 
+"D7"AdfA "A/D7"gAfA | "D7"aAgA "A/D7"gAeA | "Am"fgfe "D7"d2 e2 | "G"B4 "D7"B4 |  
+"G"^ABdg "D/G"dBeB | "G"^ABdg "D/G"dBeB | "G"d2 ((3Bde) "B/G"g2 e2 | "A/D7"f4 "D7"f3 A | 
+"D7"fAgA "A/D7"aAgA | "D7"fAeA "A/D7"dAcA | "Am"cdcA "D7"D2 F2 | "G"G4 "D7"G3 ^A |]
+"G"BdgB "D/G"aBgB | "G"bBaB "D/G"gBdB | "G"gdBd "B/B"g2 b2 | "A/D7"a4 "D7"a4 | 
+"D7"AdfA "A/D7"gAfA | "D7"aAgA "A/D7"gAeA | "Am"fgfe "D7"d2 e2 | "G"B4 "D7"B3 ^A | 
+"G"^ABdg "D/G"dBeB | "G"^ABdg "D/G"dBeB | "G"gdBd "B/G"g2 b2 | "A/D7"a4 "D7"a3 A | 
+"D7"fAgA "A/D7"aAgA | "D7"fAeA "A/D7"dAcA | "Am"cdcA "D7"D2 F2 | "G"G4 "D7"G4 |]
+
+X:721
+T:Quendale Bay 
+C:Joe Buchanan's Scottish Tome - Page 493.0
+I:493 0
+C:Phil Cunningham
+T:AKA Quendale Beach 
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:Bb
+DC | B,4 F3 G/A/ | B4 b ab | g3 a/b/ f Bc/d/ | e G2 F2 D>C |
+B,4 F3 G/A/ | B4 b2 ab | g2 de f2 d2 | B6 :|
+Bc | d>c d<f F2 G/A/ | B3 D D2 EF | G3 F/E/ F2 D2 | C6 B/c/d/e/|
+d3 E E2 GA | B4 b2 ab | g2 de f2 d2 | B6 Bc | 
+d3 E E2 GA | B3 D D3 E/F/ | G3 F/E/ F2 D2 | C6 DC |  
+B,4 F3 GA | B4 b2 ab | g2 de f2 d2 | (B4 b2) |] 
+
+X:722
+T:Bonnie Nancy
+C:Joe Buchanan's Scottish Tome - Page 494.0
+I:494 0
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:G
+W:1st Violin
+%%vskip 0
+g | f2> g2 f2 e2 | d3 e2 | d2> D2 d2 c2 | B6 g2 |
+f2> g2 f2 e2 | d2 D d>cBA | G2> D2 E2 F2 | G8 :|
+FE | D2> F2 A2 c | B3 BG | A2> B2 c2 e2 | A6 G2 |
+F2> D2 E2 F2 | G2 g2 f>edc | B2> D2 E2 F2 | G6 FE |
+D2> F2 A2 c2 | B6 BG | A2> B2 c2 e2 | A6 g2 |
+f2> g2 f2 e2 | d2 D2 d>cBA | G2> D2 E2 F2 | G8 |]
+%%vskip 5
+W:2nd Violin
+%%vskip 0
+[M:2/4]
+BG | d2> e2 d2 c2 | B6 g3 | f6 a2 | g6 BG |
+d2> e2 d2 c2 | B2 g e2 dc | e2> f2 gf e2 | d6 B2 :|
+Bc | d2> e2 d2 c2 | B6 g2 | B2> d2 gfe2 | d6 g2 |
+a4 f4 | g2 b2 agfe | d2> g2 f4 | g6 Bc |
+d2> e2 d2 c2 | B6 g2 | e2> f2 gf e2 | d6 g2 |
+a4 c'4 | b2 g2 e2 dc | B2 d2 d2 <c2 | c6 B2 |]
+
+X:723
+T:Pearl, The
+C:Joe Buchanan's Scottish Tome - Page 495.0
+I:495 0
+Z:Carl Allison
+R:Reel
+L:1/4
+M:4/4
+K:D
+D/E/ | F2 E2 | D2 d e | f2 A> F | A2 B c |
+d2 c> D | B2 A D/E/ | F2 E> D |1 B,3 :|2 B,2 |]
+|: d/e/ | f2 A> F | A2 B c | d2 D> E | F2 E D |
+D2 B> A | F2 D> E | F2 E> D | B,2 :|
+%
+W:Errata: Added repeat at beginning of part 2.
+
+X:724
+T:Herr Roloff's Farewell 
+C:Joe Buchanan's Scottish Tome - Page 500.1
+I:500 1
+C:J. Scott Skinner
+Z:Jo Wegstein
+R:Reel
+L:1/8
+M:4/4
+K:Fmaj
+C | A2 B>G c2 A>F | f2 e>d c2 AF | E2 F2 D2 EF | B2 A2 G2> C2 |
+A2 B>G c2 A>F | f2 e>d c2 AF | E2 F>D C2 FB | A2 G2 F2> A2 ||
+A2 d>e f2 ed | e2 A2 d2> G2 | G2 cd e2 dc | d2 G2 c2> C2 |
+A2 B>G c2 A>F | f2 B>d c2 AF | D2 F2 C2 FB | A2 G2 F3 |]
+
+X:725
+T:Lament For The Death of The Reverend Archie
+C:Joe Buchanan's Scottish Tome - Page 501.2
+I:501 2
+Z:Jo Wegstein
+R:Reel
+L:1/8
+M:4/4
+K:Gmaj
+Bc | "G"d2> d2 {e}dc {Bc}BA | {F}G2 B2 D2> G2 | "C"{EF}E2 {F}(GE) "G"D2> B,2 | "D"{B,}A,6 (Bc) |
+"G"d2> d2 {e}dc {Bc}BA | {F}G2 B2 D2> G2 | "C"{EF}E2 {d}cA "D"{G}F2> D2 | "G"{D}G6 :|
+B,A, | "G"G,2> B, D2> D2 | {Bc}B2> A2 "C"{F}G2> E2 | "G"{DE}D2 {F}GE {DE}D2> B,2 | "D"{C}G,6 {C}B,A, |
+"G"G,2> B, D2> D2 | {Bc}B2> A2 "C"{F}G2> E2 | "G"{DE}D2 {F}GB, "D"{A,C}A,2> B, | "G"{A,}G,6 {C}B,A,
+"G"(G,B,)(DG) (Bd)(ga) | {ga}b2> a2 "C"{ga}g2> e2 | "G"{^c}d2 "C"{ga}ge "G"{^c}d2> B2 | "D7"{B}A6 (Bc) |
+"G"d2> d2 {de}dc {Bc}BA | {F}G2 B2 D2> G2 | "C"E2 {d}cA {G}FD CA, | "G"{A,}G,6 |]
+
+X:726
+T:Da Slochit Light
+C:Joe Buchanan's Scottish Tome - Page 502.0
+I:502 0
+Z:Jo Wegstein
+C:Tom Anderson
+C:AKA Slochit Light, The 
+R:Reel
+L:1/8
+M:4/4
+K:Dmaj
+FE | D2> F2 A2 d2 | fed<c d2> A2 | B2 d2 A2 d2 | BAG<F E<GFE |
+D2> F2 A2 d2 | fed<c d2 A2 | B2 G2 AGFE | D6 :|
+g2 | f2 a2 e2> c2 | d2> e2 d<cBA | f2 a2 e2 ^g2 | a6 =g2 |
+f2 a2 e2> c2 | d2> e2 d<cBA | B2 G2 AGFE | D6 g2 |
+f2 a2 e2> c2 | d2> e2 d<cBA | B2 d2 A2 d2 | BAG<F E<GFE |
+D2> F2 A2 d2 | fed<c d2 A2 | B2 G2 AGFE | D6 |]
+
+X:727
+T:Jeana's Tune 
+C:Joe Buchanan's Scottish Tome - Page 505.0
+I:505 0
+C:Tom Anderson
+Z:Jo Wegstein
+R:Reel
+L:1/8
+M:4/4
+K:Fmaj
+C2 | A4 B2 G2 | c3 d/e/ f2> A2 | B2 d2 A2 f2 | c2 BA G2> C |
+A4 B2 G2 | c2 E2 F2> A,2 | B,D BG EC AG | F6 :|
+A2 | d2> f2 e2 A2 | B2 d2 c2> E2 | F2 A2 d2 c2 | =Bc dG c2> c2 |
+d2> f e2 A2 | B2 d2 c2> f2 | fe dc B2 d2 | cf fe f2> A |
+d2> f e2 A2 | B2 d2 c2> E2 | F2 f2 c2> A2 | GF ED C2> C |
+A4 B2 G2 | c2 E2 F2> A,2 | B,D BG E<C !fermata!AG | F6 |]
+
+X:728
+T:Music of The Spey, The
+C:Joe Buchanan's Scottish Tome - Page 507.1
+I:507 1
+C:J. Scot Skinner
+U:T=!tenuto!
+Z:Carl Allison
+R:Reel
+L:1/8
+M:C
+K:A
+!p!E2 | c2 (BA) E2 E2 | (FE) (FA) E2 (FG) | A2 !crescendo(!TA2 TA2 TA2!crescendo)! | !diminuendo(!!mf!(B4 !4!e2)!diminuendo)! !p!E2 |
+c2 (B>A) E2 E2 | (F>E) (F>A) E2 (FG) | (A2 TA2) (B2 e2) | A6 |]
+!mf!E2 | d2 (d>c) {c}B E2 | e2 "_cresc."(e>d) c2 (d>e) | !f!Tf2 Te2 Td2 !diminuendo(!Tc2 | (c4 !diminuendo)!{ec}B2) !p!(e>d) |
+c2 (B>A) E2 E2 | (F>E) (F>A) E2 (F>G) | A2 TA2 (B2 e2) | A6 |]
+
+X:729
+T:Shingly Beach 
+C:Joe Buchanan's Scottish Tome - Page 511.0
+I:511 0
+Z:Carl Allison
+C:Tom Anderson
+R:Reel
+L:1/8
+M:C
+K:G
+D2 | G4 c4 | Bd cA F2 D2 | G2 (Bd) E2 (Ac) | D2 (FA) C2 FA |
+G4 c4 | B2 AG A2 D2 | G2 B2 E2 A2 D2 (GF) G3 :|
+d2 (cB) c2 f2 | g2 (dB) c2 d2 | B2 d2 A2 c2 | c2 (AG) A2 c2 |
+d2 (cB) c2 f2 | g2 (dB) c2 d2 | cB AG E2 A2 | D2 (GF) G3 e |
+d2 (cB) c2 f2 | g2 (dB) c2 d2 | B2 d2 A2 c2 | B2 (AG) A2 D2 |
+G4 c4 | Bd cA F2 D2 | G2 B2 E2 A2 | D2 (GF) G3 |]
+%%newpage
+W:2nd Fiddle
+%%vskip 0
+D2 | G4 (G2 F2) | GB AF D2 C2 | B,4 C4 | D4 A,4 |
+B,4 (G2 F2) | G2 D2 F2 C2 | B,4 C4 | D2 D2 G2 :|
+B2 ((AG)) A2 d2 | d2 (BG) A2 A2 | G2 F2 E2 E2 | D2 (CB,) C2 D2 |
+B2 ((AG)) A2 d2 | d2 BG FE DF | G4 C4 | D2 F2 G3 c |
+B2 ((AG)) A2 (dc) | (BA) G2 A2 A2 | G2 F2 E2 E2 | D2 FE D2 C2 |
+B,4 (G2 F2) | GB AF D2 C2 | B,4 C4 | D2 (GF) G3 |]
+
+X:730
+T:Bonnie Ann #2, The
+C:Joe Buchanan's Scottish Tome - Page 514.1
+I:514 1
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:F
+F | c2 c2 A2 F2 | B4 d2> d2 | c2 f2 e2 f2 | g4 (ag) |
+f2 f f2 A2 | (B2> c2) d2> d2 | c2 f2 A2 G2 | F6 |]
+A2 | (d2> e2) (f2 ed2) | e2 f2 g2 (fe) | d2 e2 f2 g2 | a6 g2 |
+f2 f2 (gf)(ed) | (c2 > B2) (A2 c2) !crescendo(!| d2 !crescendo)!d2 (ba)(g!crescendo(!f) | !crescendo)!(f3 g/4f/4 !crescendo(!e2) c2 !crescendo)! |
+(d2> e2) (f2 ed2) | e2 f2 g2 (fe) | d2 e2 f2 g2 | a6 g2 |
+f2 f2 (gf)(ed) | (c2 > B2) (A2 c2) | d"^RALL"cBA G2 !crescendo(!c2 | !crescendo)!F6 |]
+
+X:731
+T:Hills of Lorne, The
+C:Joe Buchanan's Scottish Tome - Page 514.2
+I:514 2
+C:C.S. Hunter
+Z:Carl Allison
+R:Reel
+L:1/8
+M:C
+K:D
+(FE) | D2 (FG) A2 d2 | f2> e2 d2 A2 | B2> d2 A2 F2 | E2 (GF) E2 (FE) |
+D2 (FG) A2 d2 | f2> e2 d2 A2 | B2 (gB) A2 c2 | d6 |]
+(ag) | f2 (ed) B2 (cd) | A2> F2 A2 (ag) | f2 (ed) A2 (df) | e6 (fe) |
+d2 (ef) A2 (dc) | B2 d2 !fermata!g2 (ag) | f2 (ed) A2 c2 | d6 |]
+
+X:732
+%%annotationfont Times-Roman-Bold 12
+T:Rose Acre
+C:Joe Buchanan's Scottish Tome - Page 516.0
+I:516 0
+Z:Carl Allison
+R:Reel
+L:1/8
+U:m=!diminuendo(!
+U:n=!diminuendo)!
+M:C
+K:A
+V:1
+E | m(cnB/A/) m(FnG/A/) ECA,E | (cB/A/) (F/A/E/C/) {C}(B, B,)>E |
+m(cnB/A/) m(FnG/A/) mAnG/F/ mEnD/C/ | mDnE/F/ EG  (A2 A) & z2  EG, (A,2 A,) :|
+e/d/ | (d/c/).B/.A/ ag/f/ e/d/c/B/ A/G/A/B/ | c/B/A/G/ (c/a/e/A/) {c}(B2  B)e/d/ |
+mcnB/A/ mang/f/ mgnf/e/ mfne/d/ | mend/c/ mdnc/B/ (A2 (F0) A)e/d/ |
+(d/c/).B/.A/ ag/f/ e/d/c/B/ {B}A/G/A/B/ | c/B/A/G/ (c/a/e/A/) {/c} (B  B)e/d/ |
+mcnB/A/ mGnA/B/ mAnG/F/ mEnD/C/ | mDnE/F/ (EG) (A2  A) |]
+E | e/c/B/A/ F(G/A/) .E.C.A,.E | e/c/{c}B/A/ F/A/E/C/ (B,2  B,)>E |
+e/c/B/A/ F/G/A/B/ A/G/F/E/ D/C/B,/A,/ | mDnE/F/ EG  (,A2  A) & z2  EG, (A,2 A,)  :|
+ed | (dc).B.A (b/a/).g/.f/ (e/d/).c/.B/ (A/G/).A/.B/ | c/B/A/G/ (A/a/e/c/) {c}(B2  B).e/.d/ |
+(dc).B.A (b/a/).g/.f/ (a/g/).f/.e/ (f/e/).d/.c/ | (f/e/).d/.c/ (e/d/).c/.B/ (A2  A).e/.d/ |
+(dc).B.A (b/a/).g/.f/ (e/d/).c/.B/ (A/G/).A/.B/ | c/B/A/G/ (A/a/e/c/) {c}(B2  B).e/.d/ |
+m(cnB/A/) m(FnG/A/) mAnG/F/ mEnD/C/ | (mDnE/F/) (EG,) (A,2 A,) |]
+%
+W:Errata: No facility in abc notation to make the weird slurs in the original scan. Left them out.
+W:Also left out some positional markers that would crash to pdf output. Refer to Page 516 scan.
+
+X:733
+T:Highland Cathedral 
+C:Joe Buchanan's Scottish Tome - Page 517.0
+I:517 0
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:D
+"D"(d6 ef) | "D"(e2 d2) (A2 d2) | "A7"(e6 f2) | "D"f8 |
+"D"(f6 ga) | "G"(g2 f2) (e2 d2) | "F#m7"(e6 f2) | "A7"A8 |
+"G"(B6 cd) | "D"(d2 A2) (c2 d2) | "A"(a6 g2) | "Bm"f8 |
+"Em"(e6 fg) | "D"(g2 d2) (A2 d2) | "A7"(e6 d2) | "D"d8 |]
+"A"(c6 A2) | "C#m"(e6 ce) | "F#m"(f6 c2) | "F#m"(c4 B4) |
+"D"(A6 Bc) | "E7"B8 | "A"(c4 d2 e2) | "E7"B8 |
+"A"(c6 A2) | "C#m"(e6 ce) | "F#m"(f6 c2) | "C#m"(c4 B4) |
+"Bm"(A6 Bc) | "E7"(B6 A2) | "A"A8- | "A"A8 |]
+W:Errata: Changed the third chord in line from "F7" to "F#m7".
+
+X:734
+T:No Matter What
+C:Joe Buchanan's Scottish Tome - Page 518.0
+I:518 0
+Z:Carl Allison
+R:Reel
+L:1/8
+M:4/4
+K:A
+z "A"ABc B2 A2 | C2 E6 | z ABc B2 A2 | "Bm/A"D8 |
+z "Bm"Bcd c2 B2 | "D/E"F2 G6 | z "E"GAB A2 G2 | "A"A6 z |
+z "A"ABc B2 A2 | C2 E6 | z ABc B2 A2 | "Bm/A"D4 z4 |
+z "Bm"Bcd c2 B2 | "D/E"F2 "E"G6 | z "E"GAB e2 GA- | "A"A4 z2 z e |
+e2 ee- e2 ef- | f2 "A7"ec- c2 | z "D"Adc- cBAF- | F8 |
+z "Bm"Bcd c2> B2 | "D/E"F2 "E"G6 | z "Esus4"GAB "E7"e2 GA- | "A"A4 z4 :|
+%%vskip 50
+[K:C]
+z "C"cde d2 c2 | E2 G6 | z cde d2> c2 | "Dm"F8 |
+z def e2> d2 | "G7"A2 B6 | z Bcd g2> B2 | "C"c8 "Fc" |]
+%%newpage
+z "C"cde d2 c2 | E2 "Fc"G6 | z "C"cde d2 c2 | "Dm"F4 z4 |
+z def e2 d2 | "F/G"A2 "G7"B4 z2 | "Gsus4"BBcd "G7"g2 Bc- | "C"c4 z2 z g |
+g2 gg- g2 ga- | "C7/E"a2 ge- e4 | z "F"cfe- edcA- | A8 |
+z "Dm"def e2 d2 | "F/G"A2 B6 | z "Gsus4"Bcd "G7"g2> B2 | c6 z g2 |
+"C"g2 gg- g2 ga- | a2 "C7/E"ge- e4 | z "F"cfe- edcA- | A8 |
+z "Dm"def e2> d2 | "G7"A2 B2 z GGG | GBcd g2 B2 | "C2"c8 |
+
+X:735
+T:An Gaiora 
+C:Joe Buchanan's Scottish Tome - Page 523.1
+I:523 1
+Z:Carl Allison
+R:Reel
+L:1/4
+M:4/4
+K:G
+"Em"(E2 D) | "A7"(E2 G) | "D"(F2 A) | "C"(E2 D) | "G"(G, B,) | "Bm"(D2 B,) | "Bm"D3 |
+"Em"(E2 G) | "Bm"(B2 A) | "C"(G E G) | "Em"(E> D B,) | "G"(G,2 A,) | "Em"(B,2 G) | "Bm"(F> E D) | "Em"E3 |
+"Em"(E2 G) | "G"(TB2 TB ) | "Bm"(B2 A) | "Am"(A2 E) | "Em"(G2 A) | "Bm"(B2 E) | "Em"(D2 B,) | "Bm"D3 |
+"Em"(E2 G) | "Bm"(B2 A) | "C"(G E G) | "Em"(E> D B,) | "G"(G,2 A,) | "Em"(B,2 G) | "Bm"(F> E D) | "Em"E3 |
+
+X:736
+T:Miss Mary Printy 
+C:Joe Buchanan's Scottish Tome - Page 651.2
+I:651 2
+C:Iain MacPhail
+R:Reel
+Z:Carl Allison
+L:1/8
+M:2/4
+K:F
+C |: "Bb"F"F7"F "C#7"AA | d^c/2d/2 e/2d/2A/2F/2 | "G"G"Cm"G "D"B"Gm"B | c^B/2c/2 e/2c/2=A/2G/2 |
+"F"F"F7"F AA | c^B/2c/2 e/2d/2A/2F/2 | "G"G"Cm"G "D"c/2A/2"Gm"G/2E/2 | FF FC/D/E/ :|
+F/A/B/ :| "F"c"Fm"A/c/ "C"F/c/"Fm"A/c/ | cA/c/ F/c/A/c/ | "C"c"C7"B/c/ "G"E/c/"C7"B/c/ | cB/c/ E/c/B/c/ |
+"F"c"Fm"A/c/ "C"F/c/"Fm"A/c/ | cA/c/ F/c/A/c/ | cA/c/ "G"B/G/"Cm"E/G/ | "F"F"Fm"F "C"F"Fm"A/B/ :|
+%
+W:Errata: Worst chords I've ever encountered. I leave it to someone else's imagination to correct them!
+
+X:737
+T:Mrs. Mary Printy 
+C:Joe Buchanan's Scottish Tome - Page 652.0
+I:652 0
+C:Iain MacPhail
+R:Reel
+L:1/8
+Q:1/4=120
+M:2/4
+K:F
+AA cc | fe/f/ g/f/c/A/ | BB dd | e^d/e/ g/e/c/B/ |
+AA cc | fe/f/ g/f/c/A/ | BB e/c/B/G/ | AF A z :|
+F/G/ | AF/A/ C/A/F/A/ | AF/A/ C/A/F/A/ | GE/G/ C/G/E/G/ | GE/G/ C/G/E/G/ |
+AF/A/ C/A/F/A/ | AF/A/ C/A/F/A/ | GE G/E/C/E/ | FF F :|
+C | FF AA | c=B/c/ d/c/A/F/ | GG | c=B/c/ d/c/_B/G/ |
+FF AA | c=B/c/ d/c/A/F/ | GG cB B/B/G/E/ | FF F :|
+x A/B/ & C0 D0/ E0/ | cA/c/ F/c/A/c/ | cA/c/ F/c/A/c/ | cB/c/ E/c/B/c/ | cB/c/ E/c/B/c/ |cA/c/ F/c/A/c/ | cA/c/ F/c/A/c/ | cA/c/ B/G/E/G/ FF F :|

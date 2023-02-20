@@ -1,0 +1,26 @@
+X:1
+T: Cecelia Swirl
+N:
+C:Tune is "The TIme of Day", trad Irish
+S:
+A:
+O:
+R:
+M:9/8
+K:G
+I:speed 180
+%W: A1
+% voice 1 (1 lines, 27 notes)
+K:G
+M:9/8
+L:1/16
+g2 |B2 c2 B2 B4 A2 G4 A2 B4 d2 d4 B2 d4 g2 B2 c2 B2 B4 A2 G4 A2 B4 e2 e4 d2 e4 g2 |
+%W: A2
+% voice 1 (1 lines, 26 notes)
+B2 c2 B2 B4 A2 G4 A2 B4 d2 d4 B2 d4 g2 B2 c2 B2 B4 A2 G4 A2 B4 e2 e4 d2 e4 B2 |
+%W: B1
+% voice 1 (1 lines, 29 notes)
+d2 e2 f2 g2 a2 g2 f2 e2 d2 B4 d2 d4 B2 d4 B2 d2 e2 f2 g2 a2 g2 f2 e2 d2 B4 e2 e4 d2 e6 |
+%W: B2
+% voice 1 (1 lines, 26 notes)
+d2 e2 f2 g2 a2 g2 f2 e2 d2 B4 d2 d4 B2 d4 g2 e4 d2 B4 A2 G4 A2 B4 e2 e4 d2 e4 ||

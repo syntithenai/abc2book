@@ -1,0 +1,18 @@
+X: 1
+T: la Grande Gigue Simple No.2
+C: from Ben Guillamette
+O: Qu\'ebec
+R:
+S: Fiddle Hell Online 2020-11-05
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 3/2
+L: 1/8
+Q: "Quick"
+K: D
+[| A2AB AGFD "^A"|:::\
+!segno! A,DDE FDED EGFD | A,DDE FDDB AGFD :::|
+"^B"|:\
+dfed cABc ecAc |1,3 dfed cAdB AGFA :| [2,4 dfdf gefd AGFD :|
+"^C"[|\
+dfdf gefd AGFD | dfdf gefd ecAc |\
+defg afdf ecAc | defg afdB AGFD !segno!|]

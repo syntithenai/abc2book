@@ -1,0 +1,27 @@
+X: 9
+T: John Kelly
+C: Traditional
+B: Roy Goldring "14 Social Dances"
+P: Tune for "the Miller of Sessnie"
+R: jig
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+"D"f2A "D/F#"ABA | "G"B2A "D/F#"ded | "G"c2B "Em7"B2A | "A7"g3 "A7/E"f2e |\
+"D"f2A "D/F#"ABA | "G"B2A "D/F#"ded | "Em"c2B "A7"B2A |1 "D"d3 "A7"d2e :|2 "D"d3 "D/F#"def ||
+"Em"g3 "A7"gfe | "D"f3 "D/F#"fed | "Em/G"B2e e2f | "Em"e2d "G"B2d |\
+"A7"g2a "A7/C#"gfe | "D"f2g "D/F#"fed | "G"Bcd "E7"ef^g | "A"a3 "A7"gfe |
+"D"f2A "D/F#"ABA | "G"B2A "D/F#"ded | "Em"c2B "Em/G"B2A | "A7"g3 "A7/E"f2e |\
+"D"f2A "D/F#"ABA | "G"B2A "D/F#"ded | "Em"c2B "A7"B2A | "D"d3 d2z |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+d2[d'a] f2[d'a] | g2d' f2d' | g2d' e2d' | A2[c'ag] e2[c'ga] | d2[d'a] f2[d'a] |
+g2d' f2d' | e2[bg] A2[c'ag] |1 d2[af] A2[c'ag] :|2 d2d' f2d' || e2[bg] A2[c'ag] |
+d2[d'a] f2[d'a] | g2[e'b] g2f | e2b g2b | a2[e'c'] c2[c'ag] | d2d' f2d'|
+g2[d'b] e2[d'^g] | a2[e'c'] A2[gc] | d2[d'a] f2d' | g2d' f2d' | e2b g2b |
+A2[c'a] e2[c'ag] | d2d' f2d' | g2d' f2d' | e2[bg] A2[c'ag] | [d3-D3] [d'2a2f2]z |]

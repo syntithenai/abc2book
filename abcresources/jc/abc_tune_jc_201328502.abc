@@ -1,0 +1,29 @@
+X: 1
+T: Ratcliff Cross
+P: Longways for as many as will
+%R: minuet
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.25 #49
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each Strain twice" instruction.
+M: 3/2
+L: 1/8
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: f2 c4 Bc A2F2 | d2Bd GB DF E2C2 | EG BA GFED C2c2 | A(FEF) CF (EG) F4 :|
+|: (cf) af (ba)(gf) e2c2 | (Bd) gd (gf)(ed) c2B2 | (Ac) fc fedc B2c2 | A(FEF) CFEG F4 :|
+|: f2c2 _egf_e d(B AB) | g2d2 fagf e(c =Bc) | a2e2 fagf edcB | A(FEF) CFEG F4 :|
+|: afcf Ac fa d2B2 | bg dg Bd gb e2c2 | dB GB DF Bd E2c2 | A(FEF) C(FEG) F4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each Strain twice.
+%%begintext align
+%% First Man turns the 2d Wo. with his Right-hand, and his Partner with his Left .|  First
+%% Wo. turns the 2d Man with her Right-hand, and her Partner with her Left .|  First Cu. cross
+%% over and half Figure at top with the 2d Cu. .|  Then whole Figure at bottom with the 3d
+%% Cu. :|  First Man turns the 3d Wo. and his Partner the 2d Man, then they turn one another .|
+%% The 1st Wo. turns the 3d Man with her Right-hand, and her Partner turns the 2d 
+%% Wo. and then turns his Partner :|  Then the 1st Man crosses over on the outSide of the 3d Wo.
+%% and the 1st Wo. cross over on the outSide of the 2d Man, and both cast quite round into the 2d
+%% Cu. Place .|  Then the 1st Man cross on the outSide of the 2d Wo. and the 1st Wo. cross over
+%% on the outSide the 3d Man, and then both cast quite round into the 2d Cu. Place, & turns his Partner :|
+%%endtext

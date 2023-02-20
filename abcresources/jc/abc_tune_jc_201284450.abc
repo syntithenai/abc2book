@@ -1,0 +1,62 @@
+%%center Hanover + Harum Scarum
+%D: 080105
+%S: hanoverhar.mix
+
+
+X: 0
+T: Hanover Hornpipe  v.1
+P: piffero primo a0678
+O: safd 41
+%R: hornpipe, reel
+F: http://ancients.sudburymuster.org/mus/ssp/pdf/hanoverharC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+FG |\
+AFAd BGBd | AFAd f2ef | gfed cABc | dAfd A2FG |\
+AFAd BGBd |
+AFAd f2ef | gfed cABc | d2f2 d2 :: ef |\
+gfed cABc | dcde f2ef |
+gfed cABc | dAfd A2FG |\
+AFAd BGBd | AFAd f2ef | gfed cABc | d2f2 d2 :|
+
+
+X: 1
+T: Harum Scarum  v.1
+T: Harem Scarem
+P: piffero primo a0529
+O: safd 114
+F: http://ancients.sudburymuster.org/mus/med/pdf/hanoverharC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+((3ABc |\
+d2)f2 dfdf | c2e2 cece | d2f2 dfdf | B2g2 BgBg |\
+d2f2 dfdf | c2e2 cece | dfdf cece | d2d2 d2 :|
+|: z2 |\
+d2AA F2D2 | F2A2 d4 | d2dd f2a2 | g2e2 c2A2 |\
+d2AA F2D2 | F2A2 d4 | dcde f2a2 | gece d2 :|
+
+
+X: 2
+T: Harum Scarum  v.2
+T: Harem Scarem
+P: piffero secondo a0530
+O: safd 114
+F: http://ancients.sudburymuster.org/mus/med/pdf/hanoverharC0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+A2 |\
+F2D2 F2D2 | A2A2 A4 | F2D2 F2A2 | G2G2 G4 |\
+F2D2 F2D2 | A2A2 A4 | F2D2 A2A2 | F2F2 F2 :|
+|: z2 |\
+f2e2 d2f2 | d2e2 f4 | F2F2 d2f2 | e2c2 A2c2 |\
+f2e2 d2f2 | d2e2 f4 | F2F2 d2f2 | e2c2 d2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

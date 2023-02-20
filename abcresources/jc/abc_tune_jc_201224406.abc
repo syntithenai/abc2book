@@ -1,0 +1,106 @@
+%%text RJ Set 082
+% continue all 0
+
+
+X: 1
+T: Dancing Bear, the
+C: Bob McQuillen 1978
+I: Dancing Bear, The	R-116	Em	reel
+M: C|
+R: reel
+K: Em
+|:\
+"Em"EFGF EFGF | EFGA G2E2 | "A"EFGF EFGF | EFGA G2E2 |\
+"C"EFGF EFGF |
+EFGA B2e2 | "B7"B2Bc BAGF | "Em"G2E2 E4 ::\
+"Em"e2ef gfef | gfe2 e4 |
+"A"e2ef gfef | gfe2 e4 |\
+"C"e2ef gfef | gfe2 e2dc | "B7"BABc BcBA | "Em"GFE2 E4 :|
+%%begintext ragged
+%% For the E half-notes in the B part, fiddles do a slide up to the harmonic E.
+%% Do this when Debby so signals.
+%%endtext ragged
+
+
+X: 2
+T: Vladimir's Steamboat [in A]
+C: Jay Ungar
+N: RJ R-162
+M: C|
+L: 1/8
+R: reel
+K: Amix
+|:\
+"A"Acde dcAc | dedc AGEA- |\
+Acde dc A2 | "G/E"GFGB AG E2 ||\
+"A"Acde dcAc | dega gedg |
+edce "G"dc A2 | "G/E"GFGB "A"A4 :|\
+"A"az az az az | a2ga bagf |\
+efed cdef | "G"gea^g "E"e4 ||
+"A"az az az a2- | a2ga bagf |\
+efed "G"cdef | "E"ecdc "A"A4 |]\
+"A"aa- aa a2a2- | a2ga bagf |
+efed cdef | "G"gea^g "E"e4 ||\
+"A"abag "G"egab | "A"aega bagf |\
+efed cdef | "E"ecdc "A"A4 |]
+
+
+X: 3
+T: Vladimir's Steamboat [in D]
+C: Jay Ungar
+N: RJ R-162
+M: C|
+L: 1/8
+R: reel
+K:Dmix	% Transposed from Amix
+|:\
+"D"DFGA GFDF | GAGF DCA,D- |\
+DFGA GF D2 | "C/A"CB,CE DC A,2 |\
+"D"DFGA GFDF | GAcd cAGc |
+AGFA "C"GF D2 | "C/A"CB,CE "D"D4 :|\
+"D"dz dz dz dz | d2cd edcB |\
+ABAG FGAB | "C"cAd^c "A"A4 ||
+"D"dz dz dz d2- | d2cd edcB |\
+ABAG "C"FGAB | "A"AFGF "D"D4 |]\
+"D"dd- dd d2d2- | d2cd edcB |
+ABAG FGAB | "C"cAd^c "A"A4 ||\
+"D"dedc "C"Acde | "D"dAcd edcB |\
+ABAG FGAB | "A"AFGF "D"D4 |]
+
+
+X: 4
+T: Carpathian Tune
+N: RJ R-164
+O: from String Beings
+L: 1/8
+M: C|
+K: Gm
+%%continueall
+|:\
+"Gm"GABc d2 d2 | "A"^c2 c2 "D"d4 |\
+"Gm"BAG2 A2B2 | "D"A8 |\
+"Gm"GABc d2 d2 | "A"^c2 c2 "D"d4 |\
+"Gm"BAG2 "D"A2B2 | "Gm"G8 ::\
+"Cm"(3cdcG2 (3cdcG2 |
+"Gm"(3BcBG2 (3BcBG2 |\
+"Cm"(3cdcG2 c2>d2 | "Gm"BcAB "Gm/B"G4 |\
+"Cm"(3cdcG2 (3cdcG2 | "Gm"(3BcBG2 B2c2 |\
+"D"d6 de |["Repeat" d2c2B2A2 :|["Trans." "D5"d2=e2f2g2 |]
+%%text In the transition, harmony drones D below A.  That's what the notation "D5" means.
+
+
+X: 5
+T: Kolomeyke (R-165)
+M: C|
+L: 1/8
+K: Am % transposed from Dm
+|:\
+"Am"a2 e4 e2 | "Dm"d2 d2 "Am"e3 d |\
+cBAB cBcd | "E"e4 e4 |\
+"Am"a2 e4 e2 | "Dm"d2 d2 "Am"e3 d |\
+"E" cedc BdcB |
+"Am"AEcB A4 ::\
+"E"B2 E2 e3B | "Am"dcBc dcBA |\
+"E"^G2 AB E2 ^F^G |[1,3 "Am"A^GAB cBcA :|\
+[2,4 "Am"AEcB A4 :|]
+

@@ -1,0 +1,39 @@
+X: 09271
+T: MISS GAYTONS FANCY
+B: Button & Whitaker "Button and Whitaker's Selection of Dances, Reels and Waltzes" v.9 p.27 #1
+S: http://imslp.org/wiki/Button_and_Whitaker%27s_Selection_of_Dances,_Reels_and_Waltzes_(Various)
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: This version is for ABC software that implements voice overlays (2 voices on 1 staff).
+M: 2/4
+L: 1/16
+K: Bb
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 1 clef=treble middle=B
+|:\
+[B2D4][BD][cE] [d2F2][B2D2] | [e2G2][c2E2] [c4E4] |\
+BAGF G2A2 & [E4C4] [E4C4] | [B4D4] [d4F4] |\
+[B2D4][BD][cE] [d2F2][B2D2] | [e2G2][c2E2] [c4E4] |\
+BAGF G2A2 & [E4C4] [E4C4] | [B4D4] [F4D4] :|
+|:\
+[d2B2][dB][ec] [f2d2][d2B2] | [g2B2][e2G2] [e4c4] |\
+[c2A2][cA][dB] [e2c2][c2A2]  | [f2B2][d2B2] [d4B4] |\
+B2Bc d2B2 | e2c2 [c4G4] & G4 x4 |\
+BAGF G2A2 & [E4C4] [E4C4] | [B4D4] [d4F4] :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Original staff layout preserved:
+V: 2 clef=bass middle=d
+|:\
+z2B2B2B2 & B,8 | z2B2B2B2 & B,8 | z2B2B2B2 & B,8 | z2B2B2B2 & B,8 |\
+z2B2B2B2 & B,8 | z2B2B2B2 & B,8 | z2B2B2B2 & B,8 | B4 b4 :|
+|:\
+b2b2b2b2 | e2e2e2e2 | f2f2f2f2 | d2d2g2g2 |\
+g2g2g2g2 | c2c2 e2e2 | f2f2f2f2 | b4 B4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% Lead outsides, back again,
+%% down the mid: up again,
+%% Right & Left, & swing Corners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 5 100

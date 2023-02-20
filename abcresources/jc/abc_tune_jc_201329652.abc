@@ -1,0 +1,15 @@
+X: 683
+T: the Reel of Bogie
+R: reel
+%S: s:4 b:16(4+4+4+4)
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) #683
+Z: Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/0683/oneill-1001-0683-1.abc
+M: C|
+L: 1/8
+K: Em
+"A"[|]\
+    dc  | BE {F}(3(EDE) (BA)FA | BFAF DEFA | BE {F}(3(EDE) (BA)FA | d^cdf e2 ||
+|| (dc) | BE {F}(3(EDE) (BA)FA | BFAF DEFA | d^cde fdec | dBAF E2 ||
+[| (FE) | D2(3(AB^c) dcdA | (3(B^cd) (AF) BFAF | D2 (3(AB^c) dcde | fdcA BF ||
+||  AF  | D2(3(AB^c) dcdf | edef g2(fg) | afge fde^c | dBAF E2 |]

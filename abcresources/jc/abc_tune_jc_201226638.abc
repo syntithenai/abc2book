@@ -1,0 +1,28 @@
+X: 10381
+T: Duet - Marchia
+C: Gaetano Brandi
+Q: "Marchia"
+B: "Man of Feeling", Gaetano Brandi, ed. v.1 p.38
+F: http://archive.org/details/manoffeelingorge00rugg
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+%%graceslurs 0
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 1 is rearranged to have 4/8-bar staff/line lengths:
+V: 1
+!f!(f>g) |\
+{b}a2gf {a}g2fe | d2d>d e2e>e | f3(e/f/) g2f2 | e2e>e .e2(f>g) |\
+{b}a2gf {a}g2fe | d2d>d e2e>e | f(age) d2Te2{de} | d2d>d d2 :|
+|: (c>d) |\
+e2e>e (a3g) | f2f>f .f2a>a | d'3a {c'/}ba {a/}gf | (f4 .e2)(e>f) |\
+{a}g2(fe) e>e (f>g) | {b}a2gf f>f d'>a | bd'bg f2Te2{de} | d2d>d d2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+% Voice 2 preserves the original staff/line breaks:
+V: 2
+(d>e) | {g}f2ed {f}e2dA | F2F>F c2c>c | d3(c/d/) e2d2 | c2c>c .c2(d>e) | {g}f2ed {f}e2dA |
+F2F>F c2c>c | d(fec) dd2Tc | d2F>F F2 :||: (A>B) | c2c>c (f3e) | d2d>d .d2f>f |
+f3f {a/}gf {f/}ed | (d4 .c2)(c>d) | {f}e2(dc) c>c (d>e) | {g}f2ed d>d f>f | gbge d2Tc2{Bc} | d2F>F F2 :|
+%
+%%center -

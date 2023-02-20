@@ -1,0 +1,22 @@
+X: 286
+T:Lesnoto Oro
+O:Macedonia
+L:1/8
+M:7/8
+Q:1/4=120
+K:Gm
+%%MIDI beatstring fppmpmp
+%%MIDI drum d3d2d2 43 43 43
+|: [D3B3] [D2B2] [D2B2]     |[Fc][DB][Fc] [D4B4]     |\
+   [DF][DB][Fc] [F3d3]c     |[DB][Fc][DB] [Fc][D3B3] :|
+|: [D3G3] [D2G2] [D2A2]     |[D3B3] [DA][D3-G3-]     |\
+   [D2G2] [D2-B2-][D2B2][DA]|[D3G3] [DA][D3G3]       :|
+Q:1/4=180
+%%MIDI drumon
+|: f2e dec2                |B2F Bcde                |\
+   d2c d2c2                |[1B2F Bcde             :|[2 B3 B4|
+Q:1/4=210
+|: d2c BcBA                |B2A GABc                |\
+   B2A B2A2                |[1G2F GABc             :|[2G3 G4 |
+|: d2c BcBA                |B2A GABc                |\
+   B2A B2A2                |[1G2F GABc              :|[2G3 G4 |

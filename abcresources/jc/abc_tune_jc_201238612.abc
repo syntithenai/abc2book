@@ -1,0 +1,30 @@
+X: 31033
+T: COTILLION No. 13. ST. LAWRENCE SETT tune 3
+C:
+%R: reel
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.103 #3
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+D2 |\
+GDBG d2d2 | gdbg d4 | dcBc A2 dc | BAGF G2D2 |\
+GFGB d2cA | AFag f2df | gecA dcAF | G2G2G2 H|]
+FG |\
+AFAF d2fa | ge^cA G2FG | GEed ^cAag | fed^c d2dB |\
+cAag fedc | Bdba g2fg | fadf eg^ce | d2^ce d=cB"^D.C."A |]
+K: Gm
+D2 |\
+G^FGA B2B2 | BAG^F d4 | (3gfgG2 (3dcdD2 | GABc d2D2 |\
+G^FGA B2B2 | AG^FG g4 | fedc B2A2 | G6 "^D.C."y |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Gentlemen balance to the right,
+%% chassa,
+%% balance.
+%% Ladies, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

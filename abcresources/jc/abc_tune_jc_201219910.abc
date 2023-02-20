@@ -1,0 +1,21 @@
+X: 03022
+T: DAVE'S BAZOUKI
+C: Bob McQuillen 4 Apr 77
+B: Bob's Note Book 03 #22
+%R: jig
+%D:1977
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A	 % and F#m
+cd \
+| eAA cBA | fed ecA | def eaf | ecA Bcd |\
+| eAA cBA | fed ecA | def eac | BAG A  :|
+|: AB \
+| cBc AGF | cBc AGF | fef ecB | cef ecB |\
+| cBc AGF | cBc AGF | fef ecB | AFF F  :|
+%%begintext align
+%% For Dave Richardson of the
+%% Boys of the Lough, with so very
+%% many thanks for your beautiful music.
+%%endtext

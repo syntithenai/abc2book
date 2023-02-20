@@ -1,0 +1,29 @@
+X: 20902
+T: CINDERELLA SETT (tune 2)
+C:
+%R: 2/4
+B: Elias Howe "The Musician's Companion" 1843 p.90 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: F
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="2"
+AB |\
+c4 cfaf | c4 cfaf | (fe)(dc) (c2de) | fefg a2GA |\
+B4 (Bd)(fB) | A4 (Ac)(fA) | (EFGA) (Bcde) | f2a2f2 H|]
+ef |\
+gc=Bc gcBc | bcac gc=Bc | facf bagf | egfa g2ef |\
+gc=Bc gcBc | bcac gc=Bc | Acfa Gceg | fcag "^D.C."f2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First two forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back,
+%% balance four,
+%% next two, &c.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

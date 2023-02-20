@@ -1,0 +1,23 @@
+X: 20531
+T: SPANISH AIR
+Q: "Moderato"
+%R: jig
+B: "Edinburgh Repository of Music" v.2 p.53 #1
+F: http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=87776133
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+[|\
+.c.c.c .c.c.d | e(ag) e<f-f |\
+c(e>d) B(d>c) | "^<>"A6 |\
+.c.c.c .c.c.d | e(ag) e<f-f |\
+.c("^>"ed) .B("^>"dc) |
+A3- "^<>"yA2z |\
+"^espress".c.c.c .c.c.d | e("^>"ag) e<"^>"f-f |\
+.c("^>"e>d) .B("^>"d>c) | A3- "^<>"yA2.e/.e/ |\
+(fe)c (ed)B | A3- "^<>"yA2e |
+(fg)a (ba)g | ae2 z2e |\
+("^>"f>e)c ("^>"e>d)B | A2z e3 |\
+fga (b>a)b | c'a2 z("_F."b>c') |\
+a3 z("_F."b>c') | a3- "^<>"ya2z |]

@@ -1,0 +1,17 @@
+X: 1
+T: Hungarian Railway Polkett
+C: by Magnus B\"ackstrom
+S: Bruce Sagan's "scanfolk" session archive
+F: https://nordicfiddlesandfeet.org/Allspel/Hungarian.pdf 2021-7-13
+R: polka
+%S: s:2 b:18(11+7)
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+"A"[|] A2 \
+| d2AB A2G2 | F6 A2 | d2AB ABcd | e6 f2 | g2fg f2e2 |\
+[1,3 c2Bc B2A2 | ABcd efge | fgfe f2 :|\
+[2,4 cAce a4 | abaf g2ec | e2d2 d2 :|
+z2 "^B"|: DEFG ABcd | edcB c2A2 | edcB c2eg |1,3 fedc B2A2 :|2 f2d2 d4 :|4 f2d2 d2 |]\
+y4 "Coda:" A2 | d2AB A2G2 | HF6 |]

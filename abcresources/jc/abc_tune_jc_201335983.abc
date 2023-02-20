@@ -1,0 +1,69 @@
+
+X: 1
+T: Shalom Aleichem
+C: lyrics: Kabbalists of Safed (1500s)
+C: melody: Israel Goldfarb (1918)
+D: Andy Statman & David Grisman "Songs of our Fathers"
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: a/8
+K: Dm
+[|"Dm"A2 fe d2 dd | "A7"^cd ed cB A2 | ^cc c2 "Dm"dc df | "A7"e4 z4 |
+w: Sha-lom a-lei-chem mal'a- che* ha-sha-ret__ ma-l'a-che el-***yon.
+| "Dm"A2 fe d2 dd | "A7"^cd ed cB A2 | "Gm"GG d2 ^c2 B{A}G | "A7"A4 z4 |
+w: Mi-**me-lech mal-che*ha-m'la-chim__ ha-ka-dosh ba-ruch* hu.
+| "F"fg a2 a2 a2 | "C7"gf ef "A7"ga g2 | "Dm"fe de fa gf | "A7"e4 z4 |
+w: Bo-'a-chem~l'-sha-lom ma-l'a-che ha-sha-*lom ma-l'a-che_ el-___yon
+| "Gm"e2 g2 g2 gg | "A7"gb ag "Dm"fe d2 | f2 ed "A7"e2 d^c | "Dm"d4 z4 |]
+w: Mi-*me-lech mal-'che* ha-m'la-chim__ ha-ka-dosh ba-ruch_ hu.
+%
+W: Peace upon you, ministering angels, angels of the Exalted One
+W: from the King Who reigns over kings, the Holy One, Blessed is He.
+
+%%sep 1 1 500
+
+X: 1
+T: Shalom Aleichem
+D: Andy Statman & David Grisman "Songs of our Fathers"
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: a/8
+K: Dm
+|: "Dm"[A2D2] [fA][eG] [d2F2] [d2F2] \
+| "A7"[^cE][dF] [eG][dF] [cE][BD] [A2^C2] \
+|1 [^cE][cE] [c2E2] "Dm"[dF][cE] [dF][fA] \
+| "A7"[e4G4] [a4^c4] \
+:|2 "Gm"[G2B,2] [d2F2] [^c2E2] [BD]{AB}[GB,] \
+| "A7"[A6^C6] z2 |
+| "F"[fA][gB] [a2c2] [a2c2] [a2c2] \
+| "C7"[gB][fA] [eG][fA] "A7"[gB][ac] [g2B2] \
+| "Dm"[fA][eG] [dF][eG] [fA][ac] [gB][fA] \
+| "A7"[e6G6] z2 |
+| "Gm"[e2G2] [g2B2] [g2B2] [g2B2] \
+| "A7"[gB][bd] [a^c][gB] "Dm"[fA][eG] [dF][AD] \
+| [f2A2] [eG][dF] "A7"[e2G2] [dF][^cE] \
+| "Dm"[d6F6] z2 |]
+
+%%sep 1 1 500
+
+X: 1
+T: Shalom Aleichem
+D: Andy Statman & David Grisman "Songs of our Fathers"
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: a/8
+K: Em
+|: "Em"[B2E2] [gB][fA] [e2G2] [e2G2] \
+| "B7"[^dF][eG] [fA][eG] [dF][cE] [B2^D2] \
+|1 [^dF][dF] [d2F2] "Em"[eG][dF] [eG][gB] \
+| "B7"[f4A4] [b4^d4] \
+:|2 "Am"[A2C2] [e2G2] [^d2F2] [cE]{Bc}[AC] \
+| "B7"[B6^D6] z2 |
+| "G"[gB][ac] [b2d2] [b2d2] [b2d2] \
+| "D7"[ac][gB] [fA][gB] "B7"[ac][bd] [a2c2] \
+| "Em"[gB][fA] [eG][fA] [gB][bd] [ac][gB] \
+| "B7"[f6A6] z2 |
+| "Am"[f2A2] [a2c2] [a2c2] [a2c2] \
+| "B7"[ac][c'e] [b^d][ac] "Em"[gB][fA] [eG][BE] \
+| [g2B2] [fA][eG] "B7"[f2A2] [eG][^dF] \
+| "Em"[e6G6] z2 |]

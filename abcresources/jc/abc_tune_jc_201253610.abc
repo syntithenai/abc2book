@@ -1,0 +1,17 @@
+X: 383
+T: the Blood-Red Rose   #2
+R: air, march
+%S: s:3 b:16(5+4+4)
+B: O'Neill's 1850 #383
+O: J.O'Neill
+Z: Chris Falt, cfalt@trytel.com
+N: Compacted via repeats and multiple endings [JC]
+N: Slurs removed to enable compaction, and to simplify teaching of "airs" styling.
+N: The key of the A part is ambiguous; the B and C parts are more clearly in F.
+Q: "Slow."
+M: C
+L: 1/8
+K: F
+"^A"[|] A>^c | d2G>A G2c>B | A>BG>A F2f>g | a>gfd fdcA |1 AGG>A B2 :|2 G2F>F F2 |]
+"^B"[| A>G | F2f>g f3g | a>gfd c2f>e | d2g>a g3a | bagfd2 ||
+"^C"|| f>g | a2b>a g2a>g | f>gfd c>dfg | a>gfd fdcA | G2F>F F2 |]

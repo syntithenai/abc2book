@@ -1,0 +1,34 @@
+X: 21161
+T: the DARK PHANTOM
+T: Arranged as a solo or duet.
+O: Irish air.
+Q: "Slowly and tenderly."
+%R: air, waltz
+N: This is version 2, for ABC software that understands diminuendo/crescendo notation.
+N: Oddly, a few cases of "cres." are used instead of crescendo symbols.
+U: p=!crescendo(!
+U: P=!crescendo)!
+U: Q=!diminuendo(!
+U: q=!diminuendo)!
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.116 #1
+B: W. Hamilton "Universal Tune-Book" Vol. 2 Glasgow 1846 p.116 #1
+S: http://s3-eu-west-1.amazonaws.com/itma.dl.printmaterial/book_pdfs/hamiltonvol2web.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=2
+GA !p!|\
+QB4 q(ed) | pd4 PB>d |Q (e2q d2) B2 | d2 d2 "_cres."(ef) |\
+Qg4 q(fe) | "_>"d2 B2 !p!e>f | "_>"d2 B2 !pp!e>f | d2 B2 !mf!(GA) |\
+pB2 Pd2 (ef) | Qg2 qg2 (fe) | (dc) (BA) (GA) | "cres."B2 !f!e2 (de) |\
+"_>"g2 f2 e2 | "_>"d2 B2 !p!(cB) | pA2 PG2 Bd | !f!e2 g2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+GF |\
+G4 c2 | B4 G>B | (c2 B2) G2 | (B2 d2) ^c=c |\
+(B2 e2 dc) | B2 G2 c2 | B2 G2 c2 | B2 G2 (GF) |
+G2 B2 c2 | B2 e2 (dc) | (BA) (GF) (GF) | G2 G2 FG |\
+B2 d2 c2 | B2 G2 G2 | F2 G2 GB | c2 B2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,18 @@
+X: 1123
+T: Cadgers of the Canongate.   a Reel.
+%R: reel
+B: Niel Gow & Sons "Complete Repository" v.1 p.12 #3
+Z: 2021 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+B | GBGB (de/f/g).e d<Bg>B A/A/A A>B | GBGB (de/f/g).e | d>Bg>B G/G/G G :| g | b>age g>edB | G>Bg>B A/A/A A>a |
+b>age g>edB | GBgB G/G/G Gg || b>age g>edB | G>Bg>B A/A/A A>a | !f!(b/a/g) (a/g/e) (g/e/d) (e/d/B) | d>Bg>B G/G/G G |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+z | g2g2 g2g2 | g2g2 a2a2 | g2g2 g2g2 | d2d2 G2G :| z | g2g2 g2g2 | g2g2 a2a2 |
+g2g2 c2B2 | G2g2 G2G2 || g2g2 g2g2 | g2g2 a2a2 | !f!g2c'2 g2e2 | g2d2 G2G |]

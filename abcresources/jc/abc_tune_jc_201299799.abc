@@ -1,0 +1,42 @@
+X: 1
+T: Lady's Favourite
+N: Pub: J. Walsh, London, 1748
+Z: 2012 John Chambers <jc:trillian.mit.edu>
+S: 2: CCD2  http://petrucci.mus.auth.gr/imglnks/usimg/6/61/IMSLP173105-PMLP149069-caledoniancountr00ingl.pdf p.54 #314
+S: 4: ACMV  http://archive.org/details/acompositemusicv01rugg p.4:54 #314
+N: The 2nd part has a begin-repeat but no end-repeat.
+N: The title was somewhat obscured, printed partly off the top of the page.
+N: Below the title, "LADy's" was added in handwriting.
+N: The title is also handwritten at the bottom, with the 2nd word barely legible.
+M: 2/4
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+|:\
+c2 (c/B/A) | d2 (d/c/B) | c2 (c/B/A) | GB B2 |\
+c2 (c/B/A) | d2 (d/c/B) | (c/d/e) (f/g/a) | cA A2 :|
+|:\
+a2 (a/g/f) | g2 (g/f/e) | f2 (f/e/d) | ce e2 |\
+a2 (a/g/f) | g2 (g/f/e) | (c/d/e) (f/g/a) | cA A2 ||
+(cA)(fd) | (ec)(dB) | (cA)(dB) | GB B2 |\
+(cA)(fd) | (ec)(dB) | (c/d/e) (f/g/a) | cA A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+|:\
+a2 z2 | b2 z2 | a2 z2 | e2 z2 | a2 z2 | b2 z2 | a2 d2 | eEA2 :|
+|:\
+a2 z2 | e2 z2 | d2 z2 | A2 z2 | a2 z2 | e2 z2 | a2 d2 | eE A2 ||
+a2 z2 | A2 z2 | a2 z2 | e2 z2 | a2 z2 | A2 z2 | a2 d2 | eE A2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext center
+%% 	Each Strain twice
+%%endtext
+%%begintext align
+%% First Cu. cast off one Cu. and turn .|
+%% the 2d Cu. the same :|
+%% First Cu. gallop down the middle, up again and cast off .|
+%% 2d Cu. do the same :|
+%% First Cu. cross over and half figure .|
+%% Right and Left with the 2d Cu. :|
+%%endtext

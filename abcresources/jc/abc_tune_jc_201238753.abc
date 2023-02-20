@@ -1,0 +1,31 @@
+X: 31272
+T: COTILLION No. 22. PILGRIM tune 5
+C:
+%R: waltz
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.127 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+N: It's not clear how the two strains' note lengths are related.
+N: The 2nd strain has 19 bars.
+M: 3/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+g2 gfga | .b2 .g2 .f2 | .d2 .e2 .B2 | (.d2 .^c2 .=c2) |\
+cz a^gab | .c'2 .a2 .f2 | .d2 .e2 .c2 |[1 (d4 c2) :|[2 B4 z2 H|]
+M: 3/8
+L: 1/8
+B>de/c/ | BBA | cB2 | GBc |\
+de>d | AA^G | BA2 | ABc |\
+de>d | BBA | cB2 | GBc |\
+de>d | AA^G | BA2 | ABc |\
+de>d | Ggg | "^D.C."g3 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% First 4 forward and back,
+%% cross over,
+%% chassa de chassa,
+%% cross back.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

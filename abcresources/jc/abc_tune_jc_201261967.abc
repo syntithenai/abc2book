@@ -1,0 +1,5 @@
+X: 1
+T: TEST: Chords Only (y)
+%%staffwidth 200
+K: C
+| "Dm"y2 "Gm"y2 | "A7"y2 "Dm"y2 |

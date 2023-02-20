@@ -1,0 +1,696 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 24
+B: RSCDS Book 24
+K:
+%%center Book24/2400-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2401
+T: The Scotch Circle
+P: Lady Erskine
+C:D. McLaren
+R:Reel (nx32)
+B:RSCDS 24-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:Am
+E|"Am"A2AB c2BA|"G"Bdgd BGGB|"Am"A2AB cdea|"Em"gegB "A"A2 AE|
+  "Am"A2AB c2BA|"G"Bdgd BGGB|"Am"A2AB cdea|"Em"gegB "A"A2 A||
+e|"Am"abag ega2|"G"gage deg2|"Am"abag e^fge|"G"dBgB "Am"A2 Ag|
+  "Am"abag ega2|"G"gage deg2|"Am"aabg a^f"G"ge|"Em"dBgB "Am"A2 A|]
+%%center Book24/2401-Scotch_Circle-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2402
+T: Balquidder Strathspey
+P: Mr Oswald (of Auchencruive)
+C:R. Mackintosh
+R:Strathspey (8x32)
+B:RSCDS 24-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:G
+D|"G"G>A B<d B>A B<g|d<B A>G "D7"F<A A>B|\
+  "G"G/A/B B<B "Em"B>A Bg|"D7"d<B A>G "G"D/G/G D|
+  "G"G>A B<d B>A B<g|d<B A>G "D7"F<A A>B|\
+  "G"G/A/B B<B "Em"B>A Bg|"D7"d<B A>G "G"D/G/G||
+f|"G"g>a b<g "D7"f<d a<f|"Em"g/f/g/a/ b>g "D7"f<aa>f|\
+  "G"g>a b<g "D7"f<d a<f|"C"g<e "D7"d>c "G"B<GG>f|
+  "G"g>a b<g "D7"f<d a<f|"G"g/f/g/a/ bg "D7"f<aa>f|\
+  "Em"g<b "D"a<b "Em"g<a "Bm"f<g|"Am"e<a "D7"f<d "G"g>a g|]
+%%center Book24/2402-Balquidder_Strathspey-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2403
+T: The Wild Geese
+P: Mrs McPherson of Cluny
+C:Joseph Lowe
+R:Jig (8x32)
+B:RSCDS 24-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:A
+|:d|"A"c2 e ece|"D"fga "A"ecA|c2 e "F#m"ecA|"Bm"GAB "E7"Bcd|\
+  "A"c2 e ece|"D"fga "A"ecA|
+                            "Bm"Bcd "E7"efg|"A"aec A2:|\
+e|"A"a3 Ace|aga ecA|"Bm"dcB fdB|"E7"bge efg|
+  "A"a3 Ace|aga ecA|"Bm"Bcd "E7"efg|"A"aec A2 e|\
+  "A"a3 Ace|aga ecA|
+                    "Bm"dcB fdB|"E7"bge efg|\
+  "A"a2 e ece|"D"fga "A"ecA|"Bm"Bcd "E7"efg|"A"aec A2|]
+%%center Book24/2403-Wild_Geese-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2404
+T: The Sailor
+P: The Davy Hornpipe
+C:Kerr's Coll.
+R:Reel (8x32)
+B:RSCDS 24-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:G
+dc|"G"BGBd gdcB|"Am"A2 a2 a2 ag|"D"fgfd cdcA|"G"GFGA B2 dc|
+   "G"BGBd gdcB|"Am"A2 a2 agec|"G"BdBG "D"AcAF|"G"G2 G2 G2||
+Bc|"G"dcBA GBdg|"C"e2 c2 c2 cd|"A"ed^cB Aaag|"D"f2 d2 d2 ef|
+   "Em"gaag "D"fgaf|"C"efge "G"dcBA|BdBG "D7"AcAF|"G"G2 G2 G2|]
+%%center Book24/2404-Sailor-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2405
+T: Saint Andrew's Day
+P: Vale of Leven
+C:Trad.
+R:Reel (8x32)
+B:RSCDS 24-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:A
+e|"A"A2AB ABcd|efec eaga|A2AB ABcA|"Bm"FBBA "E7"GABc|
+  "A"A2AB ABcd|efec eaga|"D"fgag "A"fedc|"Bm"BcBA "E"GBBe||
+  "A"ceef ecAB|ceef eaga|ceef ecAc|"Bm"EBBA "E7"GABd|\
+  "A"ceef ecAB|
+               ceef eaga|1"D"fgag "A"fedc|"Bm"BcBA "E7"GBBe:|2 \
+                          "D"fgaf "A"ecBA|"E7"GBed "A"cAA|]
+%%center Book24/2405-Saint_Andrews_Day-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2406
+T: Oh, Whistle and I'll Come Tae Ye, My Lad
+P: Borowlaski's Fancy
+C:Campbell's Coll.
+R:Jig (8x32) ABAA
+B:RSCDS 24-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:C
+G|"C"c>dc e2c|e2c "F"A2A|"C"GAG ceg|[e3c3] "G7"[d2B2]G|
+  "C"cec e2c|"Am"e2c "F"A2a|"C"gec "G"dcd|"C"e3 c2||
+[ec]|"G"[d2B2][cA] [B2G2][cA]|[d2B2][gG] [^f2^F2][gG]|\
+  "D"[d2B2][cA] "D7"[B2G2][A^F]|"G"[B3G3] G2[ec]|
+  "G"[d2B2][cA] [B2G2][cA]|[dB]e^f "C"g2[ec]|\
+  "D7"[dBE]ed [c^F]BA| "G"[GB,][GB,][GB,] "da Capo"[G2B,2]|]
+%%center Book24/2406-Oh_Whistle_and_Ill_Come_Tae_Ye_My_Lad-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2407
+T: I Canna Buckle To
+P: Alloa Kirk
+C:Lowe's Coll.
+R:Strathspey (8x32)
+B:RSCDS 24-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:G
+D|"G"G<dd>B "Am/C"A>G E<A|"G/B"G<dd>B "Em/G"d>B g2|\
+  "G"b/a/g/f/ g>B "Am"A>G E<A|"G"G<D"D7"E>F "G"G2 G2|
+  "G"G<dd>B "Am/C"A>G E<A|"G/B"G<dd>B "Em/G"d>B g2|\
+  "G"b/a/g/f/ g>B "Am"A>G E<A|"G"G<D"D7"B>A "G"G3||
+f|"G"g>d g/a/b "Am"a<ee>f|"G"g>d g/a/b "C"e>g "G"d>g|\
+  "D"c>a "G"B>g "D7"a<AA>B|"G"G<D "D7"E>F "G"G2 Gf|
+  "G"g>d g/a/b "Am"a<ee>f|"G"(3gab "D"(3agf "Em"(3efg "G"(3dcB|\
+  "D"c<a "G"B<g "D"a<AA>B|"G"G<D "D7"B>A "G"G2 G|]
+%%center Book24/2407-I_Canna_Buckle_To-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2408
+T: The Hollin Buss
+P: Farewell to the Tay
+C:Old Pipe Tune
+R:Jig (8x32)
+B:RSCDS 24-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:A
+|:e|"A"A>AA c>BA|e2A "D"f>ec|"A"A>AA "F#m"c>BA|"D"f>ec "E7"B2e|
+    "A"A>AA c>BA|e2A "D"f>ec|"A"a2e "F#m"f>ec|"E7"e>dB "A"A2:|
+|:e|"A"a2e f>ec|A>ce "D"f>ec|"A"a2e "F#m"f>ec|"Bm"B>ce "E7"f2e|
+    "A"a2e f>ec|A>ce "D"f>ec|"A"a2e "F#m"f>ec|"E7"e>dB "A"A2:|
+%%center Book24/2408-Hollin_Buss-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2409
+T: The Duke He Was a Bonnie Beau
+P: Birk Hall
+C:Jas. Lowe
+R:Reel (8x32)
+B:RSCDS 24-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:C
+a|"C"g2ec "G"BdGB|"C"c2ec "B"Bcda|"C"g2ec "G"Bddc|"G"BGAB "C"c2 ca|
+  "C"g2ec "G"BdGB|"C"c2ec "B"Bcda|"C"g2ec "G"Bddc|"G"BGAB "C"c2 c||
+G|"C"ECGF EGcB|"D7"AFdc "G"B/c/d BG|"C"ECGF EGcB|"D"AF"G"dG "C"c2 cG|
+  "C"ECGF EGcB|"D7"AFdc "G"B/c/d BG|"F"AcBd "C"ce"F"dc|"G7"BGAB "C"c2c|]
+%%center Book24/2409-Duke_He_Was_a_Bonnie_Beau-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2410
+T: The Campbells Are Coming
+P: A Quick step by the Duke of Gordon
+C:Petrie's 3rd Coll.
+R:Jig (nx32)
+B:RSCDS 24-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Bb
+|:B/c/|"Bb"dBd dBd|"F"cAF F2 B/c/|"Bb"dBd dBd|"F7"c3 F2 B/c/|
+       "Bb"dBd dBd|"F"cAF "Bb"F2B|"C"Ged "F7"cBA|"Bb"B3 B2:|
+|:d/e/|"Bb"fdB fdB|"Eb"gab "F7"f3|"Bb"fdB fdB|"F"cAF "F7"F2d/e/|
+       "Bb"fdB fdB|"Eb"gab "Bb"f2e|"Bb"dfB "F7"ceA|"Bb"BBB B2:|
+%%center Book24/2410-Campbells_Are_Coming-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 2411
+T: Adieu Mon Ami
+P: Miss Margaret Gordon
+C:R. Mackintosh
+R:Strathspey (8x32)
+B:RSCDS 24-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:Gm
+d|"Gm"B<GG>A "F"F>A c<A|"Gm"B<GG>A B>c d<g|\
+  "Gm"B<GG>A "F"F>A c<d|"Gm"B<G "D7"A>^F "Gm"G3 d|
+  "Gm"B<GG>A "F"F>A c<A|"Gm"B<GG>A B>c d<g|\
+  "Gm"B<GG>A "F"F>A c<d|"Gm"B<G "D7"A>^F "Gm"G3||
+d|"Gm"[gB]<[dG][dG]>[fB] "F"[AF]<F [cF]<A|"Gm"[gB]<d d>=e "F"f<g a<g|\
+  "Bb"f<dd>f "F"F>A c<d|"Eb"[BD]G "D"[AC]^F "Gm"[G2B,2] G^f|
+  "Gm"[gB]<[dG][dG]>[=fB] "F"A>F c<A|"Gm"[gd]<d d>=e "Dm"f>a g<a|\
+  "Gm"[fd]>g [dB]<g "F"[cA]<f [AF]<c|\
+                    "Gm"[dG]>B "D7"d/c/B/A/ "Gm"[G2D2B,2][GDB,]|]
+%%center Book24/2411-Adieu_Mon_Ami-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 24021
+T: Mr. Oswald of Auchincruive
+T: The Balquidder Strathspey
+R: strathspey
+B: RSCDS 24-2
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: There is also a "Miss Oswald of Auchincruive" by Nathaniel Gow, a completely different tune.
+M: C
+L: 1/8
+%--------------------
+K: G
+|: D \
+| "G"G>A B<d B>A B<g | d<B A>G "D7"F<A A>B \
+| "G"G/A/B B<B "(Em)"B>A B<g | "D7"d<B A>G "G"D<G G :|
+|| f \
+| "G"g>a b<g "D7"f<d a<f | "G"g/f/g/a/ b>g "D7"f<a a>f \
+| "G"g>a b<g "D7"f<d a<f | "C"g<e "D7"d>c "G"B<G G ||
+|| f \
+| "G"g>a b<g "D7"f<d a<f | "G"g/f/g/a/ b>g "D7"f<a a>f \
+| "G"g<b "D"a<b "Em"g<a "Bm"f<g | "Am"e<a "D7"f<d "G"g>a g |]
+%%center Book24/24021-Mr_Oswald_of_Auchincruive.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 24041
+T: The Davy Hornpipe
+R: hornpipe
+B: RSCDS 24-4
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: From Kerr (which?)
+M: C
+L: 1/8
+%--------------------
+K: G
+dc \
+| "G"BGBd gdcB | "Am"A2a2 a2ag |  "D7"fgfd cdcA | "G"GFGA B2dc |
+| "G"BGBd gdcB | "Am"A2a2 agec | "G"BdBG "D7"AcAF | "G"G2G2 G2 :|
+|: Bc \
+| "G"dcBA GBdg | "C"e2c2 c2cd | "A7"ed^cB Aaag | "D7"f2d2 d2ef |
+| "Em"gaag "D"fgaf | "C"efge "D7"dcBA | "G"BdBG "D7"AcAF | "G"G2G2 G2 :|
+%%center Book24/24041-Davy_Hornpipe-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 24041
+T: The Davy Hornpipe
+R: hornpipe
+B: RSCDS 24-4
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: From Kerr (which?)
+M: C
+L: 1/8
+%--------------------
+K: G
+dc \
+| "G"BGBd gdcB | "Am"A2a2 a2ag |  "D7"fgfd cdcA | "G"GFGA B2dc | "G"BGBd gdcB |
+| "Am"A2a2 agec | "G"BdBG "D7"AcAF | "G"G2G2 G2 :: Bc | "G"dcBA GBdg | "C"e2c2 c2cd |
+| "A7"ed^cB Aaag | "D7"f2d2 d2ef | "Em"gaag "D"fgaf | "C"efge "D7"dcBA | "G"BdBG "D7"AcAF | "G"G2G2 G2 :|
+%%center Book24/24041-Davy_Hornpipe-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 24041
+T: The Davy Hornpipe
+O:england
+R: hornpipe
+B: RSCDS 24-4
+N: From Kerr (which?)
+M: C
+L: 1/8
+%--------------------
+K: G
+dc \
+| "G"BGBd gdcB | "Am"A2a2 a2ag |  "D7"fgfd cdcA | "G"GFGA B2dc |
+| "G"BGBd gdcB | "Am"A2a2 agec | "G"BdBG "D7"AcAF | "G"G2G2 G2 :|
+|: Bc \
+| "G"dcBA GBdg | "C"e2c2 c2cd | "A7"ed^cB Aaag | "D7"f2d2 d2ef |
+| "Em"gaag "D"fgaf | "C"efge "D7"dcBA | "G"BdBG "D7"AcAF | "G"G2G2 G2 :|
+%%center Book24/24041-Davy_Hornpipe.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 24041
+T: Davy Hornpipe, The
+R:Hornpipe
+B:RSCDS 24-4
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M:4/4
+L:1/8
+%--------------------
+K:G
+dc |\
+"G"  BGBd     gdcB | "Am" A2a2     a2ag | "D7" fgfd      cdcA | "G"  GFGA B2dc |
+"G"  BGBd     gdcB | "Am" A2a2     agec | "G"  BdBG "D7" AcAF | "G"  G2G2 G2  :|
+|: Bc |\
+"G"  dcBA     GBdg | "C"  e2c2     c2cd | "A7" ed^cB     Aaag | "D7" f2d2 d2ef |
+"Em" gaag "D" fgaf | "C"  efge "D7"dcBA | "G"  BdBG "D7" AcAF | "G"  G2G2 G2  :|
+%%center Book24/24041-Davy_Hornpipe_The.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 24061
+T: Borowlaski's Fancy
+R: jig
+O: RSCDS 24-6
+B: RSCDS 24-6
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: C
+|: G \
+| "C"c>dc e2c | e2c "F"A2A | "C"GAG ceg | e3 "G7"d2G \
+| "C"cec e2c | e2c "F"A2a | "C"gec "G"dcd | "C"e3 c2 :|
+|| e \
+| "G"d2c B2c | d2g ^f2g | d2c "D7"B2A | "G"B3 G2e \
+| "G"d2c B2c | de^f "C"g2e | "D7"ded cBA | "G"G2G "d.C."G2 |]
+%%center Book24/24061-Borowlaskis_Fancy-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Borowlaski's Fancy
+R: jig
+B: RSCDS 24-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+ G \
+| "C"c>dc e2c | e2c "F"A2A | "C"GAG ceg | e3 "G7"d2G \
+| "C"cec e2c | e2c "F"A2a | "C"gec "G"dcd | "C"e3 Hc2 ||
+e \
+| "G"d2c B2c | d2g ^f2g | d2c "D7"B2A | "G"B3 G2e \
+| "G"d2c B2c | de^f "C"g2e | "D7"ded cBA | "G"G2G "d.C."G2 |]
+%%center Book24/BorowlaskisFancy-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Borowlaski's Fancy
+R: jig
+B: RSCDS 24-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+ G \
+| "C"c>dc e2c | e2c "F"A2A | "C"GAG ceg | e3 "G7"d2G \
+| "C"cec e2c | e2c "F"A2a | "C"gec "G"dcd | "C"e3 Hc2 ||
+e \
+| "G"d2c B2c | d2g ^f2g | d2c "D7"B2A | "G"B3 G2e \
+| "G"d2c B2c | de^f "C"g2e | "D7"ded cBA | "G"G2G "d.C."G2 |]
+%%center Book24/BorowlaskisFancy_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Borowlaski's Fancy
+R: jig
+B: RSCDS 24-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+ G \
+| "C"c>dc e2c | e2c "F"A2A | "C"GAG ceg | e3 "G7"d2G \
+| "C"cec e2c | e2c "F"A2a | "C"gec "G"dcd | "C"e3 Hc2 ||
+e \
+| "G"d2c B2c | d2g ^f2g | d2c "D7"B2A | "G"B3 G2e \
+| "G"d2c B2c | de^f "C"g2e | "D7"ded cBA | "G"G2G "d.C."G2 |]
+%%center Book24/BorowlaskisFancy_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Davy Hornpipe
+R: hornpipe
+B: RSCDS 24-4
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: From Kerr (which?)
+M: C
+L: 1/8
+K: G
+dc \
+| "G"BGBd gdcB | "Am"A2a2 a2ag |  "D7"fgfd cdcA | "G"GFGA B2dc |
+| "G"BGBd gdcB | "Am"A2a2 agec | "G"BdBG "D7"AcAF | "G"G2G2 G2 :|
+|: Bc \
+| "G"dcBA GBdg | "C"e2c2 c2cd | "A7"ed^cB Aaag | "D7"f2d2 d2ef |
+| "Em"gabg "D"fgaf | "C"efge "D7"dcBA | "G"BdBG "D7"AcAF | "G"G2G2 G2 :|
+%%center Book24/DavyH-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Davy Hornpipe
+R: hornpipe
+B: RSCDS 24-4
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: From Kerr (which?)
+M: C
+L: 1/8
+K: G
+dc \
+| "G"BGBd gdcB | "Am"A2a2 a2ag |  "D7"fgfd cdcA | "G"GFGA B2dc |
+| "G"BGBd gdcB | "Am"A2a2 agec | "G"BdBG "D7"AcAF | "G"G2G2 G2 :|
+|: Bc \
+| "G"dcBA GBdg | "C"e2c2 c2cd | "A7"ed^cB Aaag | "D7"f2d2 d2ef |
+| "Em"gabg "D"fgaf | "C"efge "D7"dcBA | "G"BdBG "D7"AcAF | "G"G2G2 G2 :|
+%%center Book24/DavyH_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Davy Hornpipe
+R: hornpipe
+B: RSCDS 24-4
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: From Kerr (which?)
+M: C
+L: 1/8
+K: G
+dc \
+| "G"BGBd gdcB | "Am"A2a2 a2ag |  "D7"fgfd cdcA | "G"GFGA B2dc | "G"BGBd gdcB |
+| "Am"A2a2 agec | "G"BdBG "D7"AcAF | "G"G2G2 G2 :: Bc | "G"dcBA GBdg | "C"e2c2 c2cd |
+| "A7"ed^cB Aaag | "D7"f2d2 d2ef | "Em"gabg "D"fgaf | "C"efge "D7"dcBA | "G"BdBG "D7"AcAF | "G"G2G2 G2 :|
+%%center Book24/DavyH_3_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Davy Hornpipe
+R: hornpipe
+B: RSCDS 24-4
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: From Kerr (which?)
+M: C
+L: 1/8
+K: G
+dc \
+| "G"BGBd gdcB | "Am"A2a2 a2ag |  "D7"fgfd cdcA | "G"GFGA B2dc | "G"BGBd gdcB |
+| "Am"A2a2 agec | "G"BdBG "D7"AcAF | "G"G2G2 G2 :: Bc | "G"dcBA GBdg | "C"e2c2 c2cd |
+| "A7"ed^cB Aaag | "D7"f2d2 d2ef | "Em"gabg "D"fgaf | "C"efge "D7"dcBA | "G"BdBG "D7"AcAF | "G"G2G2 G2 :|
+%%center Book24/DavyH_3_G_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Davy Hornpipe
+R: hornpipe
+B: RSCDS 24-4
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: From Kerr (which?)
+M: C
+L: 1/8
+K: G
+dc \
+| "G"BGBd gdcB | "Am"A2a2 a2ag |  "D7"fgfd cdcA | "G"GFGA B2dc | "G"BGBd gdcB |
+| "Am"A2a2 agec | "G"BdBG "D7"AcAF | "G"G2G2 G2 :: Bc | "G"dcBA GBdg | "C"e2c2 c2cd |
+| "A7"ed^cB Aaag | "D7"f2d2 d2ef | "Em"gabg "D"fgaf | "C"efge "D7"dcBA | "G"BdBG "D7"AcAF | "G"G2G2 G2 :|
+%%center Book24/DavyH_3_G_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Davy Hornpipe
+R: hornpipe
+B: RSCDS 24-4
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: From Kerr (which?)
+M: C
+L: 1/8
+K: G
+dc \
+| "G"BGBd gdcB | "Am"A2a2 a2ag |  "D7"fgfd cdcA | "G"GFGA B2dc |
+| "G"BGBd gdcB | "Am"A2a2 agec | "G"BdBG "D7"AcAF | "G"G2G2 G2 :|
+|: Bc \
+| "G"dcBA GBdg | "C"e2c2 c2cd | "A7"ed^cB Aaag | "D7"f2d2 d2ef |
+| "Em"gabg "D"fgaf | "C"efge "D7"dcBA | "G"BdBG "D7"AcAF | "G"G2G2 G2 :|
+%%center Book24/DavyH_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mr. Oswald of Auchincruive
+T: The Balquidder Strathspey
+C: Robert Mackintosh (1745-1807)
+R: strathspey
+B: RSCDS 24-2
+B: RSCDS 14-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: There is also a "Miss Oswald of Auchincruive" by Nathaniel Gow, a completely different tune.
+M: C
+L: 1/8
+K: G
+D \
+| "G"G>A B<d B>A B<g | d<B A>G "D7"F<A A>B \
+| "G"G/A/B B<B "(Em)"B>A B<g | "D7"d<B A>G "G"D<G G :|
+f \
+| "G"g>a b<g "D7"f<d a<f | "G"g/f/g/a/ b>g "D7"f<a a>f \
+| "G"g>a b<g "D7"f<d a<f | "C"g<e "D7"d>c "G"B<G G |]
+f \
+| "G"g>a b<g "D7"f<d a<f | "G"g/f/g/a/ b>g "D7"f<a a>f \
+| "G"g<b "D"a<b "Em"g<a "Bm"f<g | "Am"e<a "D7"f<d "G"g>a g |]
+%%center Book24/MrOswaldOfAuchincruive-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mr. Oswald of Auchincruive
+T: The Balquidder Strathspey
+C: Robert Mackintosh (1745-1807)
+R: strathspey
+B: RSCDS 24-2
+B: RSCDS 14-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: There is also a "Miss Oswald of Auchincruive" by Nathaniel Gow, a completely different tune.
+M: C
+L: 1/8
+K: G
+D \
+| "G"G>A B<d B>A B<g | d<B A>G "D7"F<A A>B \
+| "G"G/A/B B<B "(Em)"B>A B<g | "D7"d<B A>G "G"D<G G :|
+f \
+| "G"g>a b<g "D7"f<d a<f | "G"g/f/g/a/ b>g "D7"f<a a>f \
+| "G"g>a b<g "D7"f<d a<f | "C"g<e "D7"d>c "G"B<G G |]
+f \
+| "G"g>a b<g "D7"f<d a<f | "G"g/f/g/a/ b>g "D7"f<a a>f \
+| "G"g<b "D"a<b "Em"g<a "Bm"f<g | "Am"e<a "D7"f<d "G"g>a g |]
+%%center Book24/MrOswaldOfAuchincruive_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mr. Oswald of Auchincruive
+T: The Balquidder Strathspey
+C: Robert Mackintosh (1745-1807)
+R: strathspey
+B: RSCDS 24-2
+B: RSCDS 14-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: There is also a "Miss Oswald of Auchincruive" by Nathaniel Gow, a completely different tune.
+M: C
+L: 1/8
+K: G
+D \
+| "G"G>A B<d B>A B<g | d<B A>G "D7"F<A A>B \
+| "G"G/A/B B<B "(Em)"B>A B<g | "D7"d<B A>G "G"D<G G :|
+f \
+| "G"g>a b<g "D7"f<d a<f | "G"g/f/g/a/ b>g "D7"f<a a>f \
+| "G"g>a b<g "D7"f<d a<f | "C"g<e "D7"d>c "G"B<G G |]
+f \
+| "G"g>a b<g "D7"f<d a<f | "G"g/f/g/a/ b>g "D7"f<a a>f \
+| "G"g<b "D"a<b "Em"g<a "Bm"f<g | "Am"e<a "D7"f<d "G"g>a g |]
+%%center Book24/MrOswaldOfAuchincruive_G-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mr. Oswald of Auchincruive
+T: The Balquidder Strathspey
+C: Robert Mackintosh (1745-1807)
+R: strathspey
+B: RSCDS 24-2
+B: RSCDS 14-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: There is also a "Miss Oswald of Auchincruive" by Nathaniel Gow, a completely different tune.
+M: C
+L: 1/8
+K: G
+D \
+| "G"G>A B<d B>A B<g | d<B A>G "D7"F<A A>B \
+| "G"G/A/B B<B "(Em)"B>A B<g | "D7"d<B A>G "G"D<G G :|
+f \
+| "G"g>a b<g "D7"f<d a<f | "G"g/f/g/a/ b>g "D7"f<a a>f \
+| "G"g>a b<g "D7"f<d a<f | "C"g<e "D7"d>c "G"B<G G |]
+f \
+| "G"g>a b<g "D7"f<d a<f | "G"g/f/g/a/ b>g "D7"f<a a>f \
+| "G"g<b "D"a<b "Em"g<a "Bm"f<g | "Am"e<a "D7"f<d "G"g>a g |]
+%%center Book24/MrOswaldOfAuchincruive_G_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mr. Oswald of Auchincruive
+T: The Balquidder Strathspey
+C: Robert Mackintosh (1745-1807)
+R: strathspey
+B: RSCDS 24-2
+B: RSCDS 14-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: There is also a "Miss Oswald of Auchincruive" by Nathaniel Gow, a completely different tune.
+M: C
+L: 1/8
+K: G
+D \
+| "G"G>A B<d B>A B<g | d<B A>G "D7"F<A A>B \
+| "G"G/A/B B<B "(Em)"B>A B<g | "D7"d<B A>G "G"D<G G :|
+f \
+| "G"g>a b<g "D7"f<d a<f | "G"g/f/g/a/ b>g "D7"f<a a>f \
+| "G"g>a b<g "D7"f<d a<f | "C"g<e "D7"d>c "G"B<G G |]
+f \
+| "G"g>a b<g "D7"f<d a<f | "G"g/f/g/a/ b>g "D7"f<a a>f \
+| "G"g<b "D"a<b "Em"g<a "Bm"f<g | "Am"e<a "D7"f<d "G"g>a g |]
+%%center Book24/MrOswaldOfAuchincruive_G_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Mr. Oswald of Auchincruive
+T: The Balquidder Strathspey
+C: Robert Mackintosh (1745-1807)
+R: strathspey
+B: RSCDS 24-2
+B: RSCDS 14-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: There is also a "Miss Oswald of Auchincruive" by Nathaniel Gow, a completely different tune.
+M: C
+L: 1/8
+K: G
+D \
+| "G"G>A B<d B>A B<g | d<B A>G "D7"F<A A>B \
+| "G"G/A/B B<B "(Em)"B>A B<g | "D7"d<B A>G "G"D<G G :|
+f \
+| "G"g>a b<g "D7"f<d a<f | "G"g/f/g/a/ b>g "D7"f<a a>f \
+| "G"g>a b<g "D7"f<d a<f | "C"g<e "D7"d>c "G"B<G G |]
+f \
+| "G"g>a b<g "D7"f<d a<f | "G"g/f/g/a/ b>g "D7"f<a a>f \
+| "G"g<b "D"a<b "Em"g<a "Bm"f<g | "Am"e<a "D7"f<d "G"g>a g |]
+%%center Book24/MrOswaldOfAuchincruive_JC.abc

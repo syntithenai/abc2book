@@ -1,0 +1,344 @@
+
+X: 1
+T: El\"am\"a juoksuhaudoissa
+T: Life in the Trenches
+C: Tune: trad Finland, Russia
+C: Lyrics: Usko Kemppi 1927
+R: waltz
+M: 3/4
+L: 1/4
+K: Dm
+| "Dm"AFG \
+| Ad>B \
+| A3- \
+| AzA/A/ \
+| AFG \
+| AGF \
+| "A7"E3- \
+| EzA/A/ \
+|| "Dm"AFG \
+| Adf \
+| "Gm"a3 \
+| g2g/g/ |
+| "Dm"f2f \
+| "Gm"edB \
+| "A7"A3- \
+| AzA/A/ \
+|| "Dm"AFG \
+| Ad>B \
+| A3- \
+| AzA/A/ \
+| Adf \
+| ag>f \
+| "A7"e3- \
+| e2e |
+|| "Gm"g2a \
+| bag \
+| "Dm"a3 \
+| f2d/d/ \
+|"A7"A^ce \
+| gfe \
+| "Dm"d3- \
+| dzA \
+|| "Dm"f3 \
+| "A7"e3 \
+| "Dm"d3- \
+| d"A7"^c>e \
+| "Dm"d3- |
+| d"D7"A>B \
+| "Gm"G3- \
+| G2G \
+|| "A7"e3 \
+| ^c3 \
+| A3- \
+| AB>A \
+| A2E- \
+| EA>G \
+| "Dm"F3- \
+| FzA \
+|| "Dm"f3 \
+| "A7"e3 |
+| "Dm"d3- \
+| d"A7"^c>e \
+| "Dm"d3- \
+| d"D7"A>B \
+| "Gm"G3- \
+| GBA \
+|| "Gm"G3 \
+| "A7"efe \
+| "Dm"d3 \
+| "D7"Ac"Gm"B \
+| "A7"A2E- \
+| EFE \
+| "Dm"D3- \
+| Dz2 |]
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+
+X: 2
+T: Emma
+O: Trad Finland
+M: 3/4
+L: 1/4
+K: Dm
+|: D | "Dm"AAA | FDF |     AAA | FDF | "A7"EEE | GFE | "Dm"D2D | D2 :|
+|: A | "Gm"d2d | dcB | "Dm"A2A | AGF | "A7"EEE | GFE | "Dm"D2D | D2 :|
+
+
+X: 3
+T: Emma
+O: Trad Finland
+M: 3/4
+L: 1/4
+K: Am
+|: A | "Am"eee | cAc |     eee | cAc | "E7"BBB | dcB | "Am"A2A | A2 :|
+|: e | "Dm"a2a | agf | "Am"e2e | edc | "E7"BBB | dcB | "Am"A2A | A2 :|
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+
+X: 4
+T: Hannun ja Riitan h\"a\"avalssi
+T: Hannu and Riita's Wedding Waltz
+R: waltz
+C: Konsta Jylh\"a
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+M: 3/4
+L: 1/4
+K: Am
+|: "Am"[ec]>fe | "E7"[eB]>fe | "Am"[eA]dc | "E7"[B2^G2]B/c/ \
+| "Dm"[dF]>cB | "Am"[cE]BA | "G7"[GD]AF | "C"[E3C3] |
+| "Am"[ec]>fe | "E7"[eB]>fe | "Am"[eA][af][ge] | "Dm"[f3d3] \
+| "Am"[ec]>d[cA] | "E7"[d^G]eB | "Am"A3- | "fine"A2 :|
+|: "Dm"d/e/f/e/d | "G7"g2f | "C"e2-e/c/ | "Am"c3 \
+| "E7"e/^g/b/g/e | dcd | "Am"e3- | e3 |
+| "Dm"def | fed | "Am"c>de | "Dm"AGF \
+| "Am"E2E | "E7"^F2^G |1 "Am"A3- | A3 :|2 "Am"A3- | A2"G7"G ||
+|: "C"Gz/E/G/c/ | e/g/gf/e/ | "Dm"d/a/ a/z/a | a>af/d/ \
+| "G7"B/g/ g/z/g | g>fd/B/ | "C"G/e/ e/z/e | e2E/F/ |
+| "C"Gz/E/G/c/ | e/g/gf/e/ | "Dm"d/a/ a/z/a | a>gf/e/ \
+| "G7"d/g/ g/z/g | BgB |1 "C"c3- | c2E/F/ :|2 "C"c3 | "E7"e3 |]
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+
+X: 5
+T: Juuret Suomessa
+T: Roots in Finland
+C: Jukka Kuoppam\"aki
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+N: Written by Finnish folk singer Jukka Kuoppam\"aki for the 1992 celebration of
+N: Finland's 75 years of independance.  As a ballad, it it sung without repeats;
+N: as a waltz, it's probably better with the traditional repeats as above. Also,
+N: be prepared to play it in other keys, such as Dm, Em and Gm.
+M: 3/4
+L: 1/4
+K: Dm
+   A,/A,/ \
+| "Dm"FED | F2A,/A,/ | FED | "A7"E2A,/A,/ | "Bb"DCB, | "C7"EFG | "F"FG^G | "A7"A2A/A/ |
+| "Gm"BGF | "C7"EFG | "F"AFE | "Dm"D2D/E/ | "Bb"FDF | "Gm"GFG | "A7"A3- | A2 ||
+   A/A/ \
+| "Bb"dcB | "C7"GA>B | "F"A3- | "Dm"A2A/A/ | "Gm"BGF | "A7"EF>G | "Dm"F3- | F2D |
+| "Gm"BGF | "C7"EFG | "F"AcB | "Dm"A2F | "Gm"GAB | "A7"AFE | "Dm"D3- D2 |]
+
+
+X: 6
+T: Juuret Suomessa
+T: Roots in Finland
+R:
+C: Jukka Kuoppam\"aki
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+N: Written by Finnish folk singer Jukka Kuoppam\"aki for the 1992 celebration of
+N: Finland's 75 years of independance.  As a ballad, it it sung without repeats;
+N: as a waltz, it's probably better with the traditional repeats as above. Also,
+N: be prepared to play it in other keys, such as Dm, Em and Gm.
+M: 3/4
+L: 1/4
+K: Am
+   E/E/ \
+| "Am"cBA | c2E/E/ | cBA | "E7"B2E/E/ | "F"AGF | "G7"Bcd | "C"cd^d | "E7"e2e/e/ |
+| "Dm"fdc | "G7"Bcd | "C"ecB | "Am"A2A/B/ | "F"cAc | "Dm"dcd | "E7"e3- | e2 :|
+|: e/e/ \
+| "F"agf | "G7"de>f | "C"e3- | "Am"e2e/e/ | "Dm"fdc | "E7"Bc>d | "Am"c3- | c2A |
+| "Dm"fdc | "G7"Bcd | "C"egf | "Am"e2c | "Dm"def | "E7"ecB | "Am"A3- A2 :|
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+
+X: 7
+T: Kes\"an tullessa
+T: the Coming of Summer
+C: Konsta Jylh\"a
+R: waltz
+O: J.P.Nystr\"om
+D:
+B:
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+M: 3/4
+L: 1/8
+K: A
+|: EA \
+| "A"c3 c c2- | c2 cB AF | E3 E E2- | E2 CD EC | A3 A A2- | A2 AG FE | "E7"G6- | G2 GA Bc |
+| "Bm"d3 d d2- | d2 dc BA | "E7"G3 G G2- | G2 EF GA | B3 B B2 | ~B2 A2 B2 | "A"c6- | c4 EA |
+| "A"c3 c c2- | c2 cB AF | E3 E E2- | E2 CD EF | A3 A A2 | "A7"A2 B2 c2 | "D"d6- | d4 Bc |
+| "Bm"d3 d d2- | "E7"d2 dc BA | "A"c3 c c2- | "F#m"c2 BA GF | "E7"GF E2 F2 | D4 B,2 | "A"A,6- | "fine"A,2 z2 :| [K:Am]
+|: E2 \
+| "Am"E3 cBc | E3 cBc | "Dm"d4 c2 | "E7"B4 E2 | B2 B2 c2 | d2 c2 B2 | "Am"c4 d2 | e3 c A2 |
+| "Dm"f3 d B2 | "G7"g4 ~f2 | "C"e6- | "E7"e4 d2 \
+|1 "Am"c2 B2 A2 | "G7"G4 F2 | "C"E6- | "E7"E4 :|2 "Am"c2 e2 c2 | "E7"d2 ~c2 B2 | "Am"A6- | A2 z2 |]
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+
+X: 8
+T: Konstan parempi valssi
+T: Konsta's better waltz
+R: waltz
+C: Konsta Jylh\"a
+B:
+D:
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: From a July 1971 recording by Purppuripelimannit.
+N: The title means "Konsta's better waltz", and was bestowed on the tune by musicians
+N: who liked the tune.  Konsta Jylh\"a was one of Finland's best-known traditional
+N: fiddlers, and one of the main organizers of the Kaustinen festival.
+M: 3/4
+L: 1/8
+K: D
+|: "D"DD DF Ad | f4 d2 | "G"d2 {ed}cd ed | "Em"B2 {=c}BA GF \
+| "A7"EE A2 {A}c2 | c4 B2 |1,3 A2 {BA}^GA BA | "D"F2 E2 D2 :|2,4 A2 {BA}^GA Bc | "D"d4 "fine"z2 :|
+F2 \
+|: "Bm"B3 c d2 | d3 cBd | "Em"c3 B^AB | "F#7"c3 ^A F2 \
+| f3 gfg | fe dc B^A |1,3 "Bm"Bc de fg | "F#7"f4 F2 :|2,4 "Bm"B2  zB B2 | B4 z2 :|
+f2 \
+|: "D"f3 gaf | d3 ef2 | "G"gf ga bg | "Em"e2 ze e2 \
+| "A7"gf ga bg | e2 ze eg | "D"fe fg af | d2 A2 F2 ||
+|| "D"{DA}f3 gaf | d3 ef2 | "G"gf ga bg | "Em"e2 za ac' \
+| "A"c'b ba ag | ge cA Bc | "D"d2 zD D2 | D4 z2  :|
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+
+X: 9
+T: Kulkurin valssi
+T: Vagabond Waltz
+C: Tune: trad Finland
+C: Words: J. Alfred Tanner
+Z: John Chambers <jc@trillian.mit.edu>
+B: Pelimannis\"avelmi\a v.1, Pelimannikilta ry, (Fazer 1971)
+M: 3/4
+L: 1/4
+K: D
+"A"\
+| "D"DF>A | BAD | "A7"FG>C | E2C | A,CE |
+w: 1.~Lin-nois-sa krei-vi-en häät vie-te-tään, on mor-sie-mel
+| AA>G | "D"F3- | FzF | "D"FD>D | EDC |
+w: druu-nat-tu pää.* Siellä viih-dyn suo vii-ni ja
+| "G"B,G>G | "Em"G2B, | "A7"A,A,>A, | A,B,C | "D"D3- | Dz ||
+w: samp-pan-ja vaan, sydän kyl-mä voi ol-la kuin jää.
+A, "B"| "D"DD>D | DFA | "G"B3 | "D"A2F | "A7"EE>E |
+w: Siks mie-luum-min maan-tiel-lä tans-sin, kun met-si-en
+| EDE | "D"F3- | Fz"Intro"[|]A, | "D"DD>D | DFA |
+w: humi-na se soi,* minä kul-tai-sen kul-ku-rin
+| "G"d3 | B2G | "D"FA>A | "A7"AGE | "D"D3- | Dz ||
+w: vals-sin, tule kans-sa-ni, tyt-tö, o-hoi!
+"I1"\
+|: F/G/ \
+| "D"AA>G | F2A | "A7"GG>F | E2E/F/ | GG>F | EGB | AA>G | "D"F2F/G/ |
+| "D"AA>G | FAd | "G"BBA | "Em"G2B | "A7"Ac>B |1,3 AGE | "D"D3- | Dz :|1,3 ABc | "D"d3- | dz |]
+"I2"\
+|: A/d/ A/d/ \
+| "G"dc/B/ G- | G G/B/ G/B/ | "D"B A/F/ D- | D C/D/ C/B,/ \
+| "A7"A, C/E/ A- | A ^G/A/ G/A/ | "D"B/A/ F/D/ A,- | A, A/d/ A/d/ |
+| "G"dc/B/ G- | G G/B/ G/B/ | "D"B A/F/ D- | D C/D/ C/B,/ \
+| "A7"A, ^G, A, | GFE | "D"D3- | D :|
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+
+X: 10
+T: L\"ordags valsen
+T: Saturday waltz
+C: Anselm Johansson
+R: waltz
+O:
+B:
+D:
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+N:
+M: 3/4
+L: 1/8
+K: G
+|: D2 \
+| "G"G3 DB,D | G2 A2 B2 | "Am"A3 EAB | c3 BAG \
+| "D7"F3 DFA | c2 B2 A2 | "G"B3 AGE | D4 D2 |
+| "G"G3 DB,D | G2 A2 B2 | "Am"A3 EAB | c3 BAG \
+| "D7"F2 D2 F2 | A2 B2 A2 | "G"G3 G G2 | HG2 :|
+|: G2 \
+| "C"E3 CEG | A2 G2 E2 | "G"D3 B,DG | B3 BAG \
+| "D7"F2 D3 F | A2 d2 c2 | "G"B3 AGE | D4 G2 |
+| "C"E3 CEG | A2 G2 E2 | "G"D3 B,DG | B3 BAG \
+| "D7"F3 DFA | c2 B2 A2 | "G"G3 G G2 | G2 :|
+|: D2 \
+| "G"DG BD GB | DG BD GB | DG c2 B2 | "D7"A3 A A2 \
+| DF AD FA | DF AD FA | DF B2 A2 | "G"G3 G G2 |
+| "G"DG BD GB | DG BD GB | "Am"EA cE Ac | EA cE Ac \
+| "D7"d2 e3 d | c2 E2 F2 | "G"G3 G G2 | G2 :|
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+
+X: 11
+T: Mets\"akukkia
+T: Woodland Flowers
+O: Trad Finland
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+z4 \
+| "Dm"A,2 D2 E2 | F2 E2 D2 | A6- | A6 \
+| A,2 D2 E2 | F2 E2 D2 | "Gm"B6- | B6 \
+| G2 A2 B2 | B2 A2 G2 | "Dm"A6- | [A6F6] |
+| "A7"A,2 ^C2 E2 | G2 F2 E2 | "Dm"D6- | D2 :: d3c \
+| "C7"c6- | c2 d3 B | "F"A6- | A2 B3 A \
+| "A7"G6- | G2 A3 G | "Dm"F6- | F2 A2 A2 |
+| "Dm"A6- | A2 G2 F2 | "A7"E6- | E2 F2 E2 \
+| A,2 ^G,2 A,2 | F4 E2 | "Dm"D6- | D2 :: z2 ~d>^c \
+| "Dm"d z3 ~A>^G | A  z3 ~F>E | F z3  ~D>^C | D4 A2 |
+| "Gm"B4 A2 | G2 B2 d2 | "Dm"A6- | A6 \
+| "A7"A2 ^c3 d | e6 | "Dm"A2 d3 e | f6 \
+| "A7"A2 ^c3 e | f4 e2 | "Dm"d6- | d2 :|
+
+%%sep 3 1 530
+%%sep 1 1 530
+
+
+X: 12
+T: Villiruusu (The Wild Rose)
+T: Inarin J\"arvi (Lake Inari)
+R: waltz
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/4
+K: Dm
+|: A | "Dm"d2d | "A7"e2f | "Dm"d3 | A2d | "Gm"e2f | g2f | "A7"e3- | e2a || "Dm"a2f | d2f | "Gm"f3 |
+| "Gm"G2B | "A7"A2A | e2^c | "Dm"d3- | d2 :: a | "A7"a2g | "Dm"f2f | "Gm"g2f | "A7"e2e | "Dm"f2e |
+| "Dm"d2d | "A7"e2^c | A2A || "Dm"d2d | f2d | "Gm"d3 | G2B | "A7"A2A | Ae^c | "Dm"d3- | d2 :|

@@ -1,0 +1,37 @@
+X: 93
+T: Molly Mogg
+T: Longways for as many as will.
+%R: reel
+B: Daniel Wright "Wright's Compleat Collection of Celebrated Country Dances" 1740 p.47
+S: http://library.efdss.org/cgi-bin/dancebooks.cgi
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+N: Repeat sign added to match "The 1st Strain to be play'd twice".
+N: The meaning of "once, and from the Repeat" isn't clear.
+M: C
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2 |\
+B2AG d2cB | e2 g4 fe |\
+d2c2 BdcB | A6 DE |\
+FGAB cG FG | e2 d4 e2 |\
+f^cde A2^c2 | d6 :|\
+d^c |\
+d2 B4 G2 | E2 e4 dc |
+BABG cBcA | F6 d2 |\
+ecBA dBAG | f2 (g3f/e/) dc |\
+BGAB D2GF | G6 d2 |\
+ecBA dBAG | f2g2 Hz2A2 |\
+BFGA D2GF | G6 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center The 1st STrain to be play'd twice, the last once, and from the Repeat.
+%%begintext align
+%% The 1st Cu. go the whole figure thro' the 2d
+%% Cu. then cast off and lead within side of the
+%% 3d Cu. and cast up in the 2d Cu. Place :|
+%% The 1st Cu. take both hands and go half
+%% round and back again, then cross over and
+%% half figure, then all four quite round.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 2 4 300

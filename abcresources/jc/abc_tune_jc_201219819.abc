@@ -1,0 +1,21 @@
+X: 2
+T: Hackney Assembly
+%R: reel
+B: "Twenty Four Country Dances for the Year 1780", Thomas Skillern, ed. p.1 #2
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-skillerns1780#
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+F |\
+AcAF Acfd | c>dcA G3F |\
+AcAF Acfd | c>dcA F3 :|
+|: c |\
+f>gac f>gac | d>efA G3F |\
+A>BcF Acfd | c>dcA F3 :|
+%%begintext align
+%% Right hands four across .|. Left hands
+%% back again :|. Lead down one Cu: up
+%% again and cst off .|: Right and Left
+%% at top :|:
+%%endtext

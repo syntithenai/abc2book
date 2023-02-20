@@ -1,0 +1,33 @@
+X: 0
+T: The Lochalsh Reel
+T: 8x40R3
+C: Pat Burnett
+B: The Skye Collection Vol 2 #3
+P: Play ABABB
+K:
+%%begintext
+ 1-8  1C turn RH, cast off; cross LH and cast off to face up between 3C in promhold, M on R
+ 9-16 LSh Reel3 across with 3C, 1C finish between 3C facing up and split
+17-24 Mirror Reels 3 on opposite sides, 1C finish between 3C NHJ
+25-32 1C dance to top, split and turn 2C easy hand; cross down between 3C and cast up into
+33-40 Teapots (RHA with end couples; pass RSh into LHA) (to 2,1,3)
+%%endtext
+
+
+X: 1
+P: the Lochalsh Reel
+C: Colin Dewar
+R: reel
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+(3ABc "A"|\
+"D"d2d2 "A7"BAFE | "D"DEFD "A7"EDB,C | "D"DEFA "Bm"BAFA | "E7"defd "A"e2de |
+y4 |\
+"D"f2Ad "G"B2GB | "D"AFED "A7"E2dB | "D"AFdF "Em"EDB,F | "A7"EDB,A, "D"D2 ||
+dc "B"|\
+"G"B2BA Bdcd | "D"Adcd Fdcd | "A"cA^GA eAGA | "D"fedf "A7"e2dc |
+y4 |\
+"Bm"B2BA Bdcd | "D"Adcd "(A7)"Fdcd | "D"AFdF "G"EDB,F | "A7"EDB,A, "D"D2 |]
+

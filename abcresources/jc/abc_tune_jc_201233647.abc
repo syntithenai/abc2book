@@ -1,0 +1,32 @@
+X: 20051
+T: POACHERS OF LINCOLNSHIRE
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" 1843 p.5 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 staves=3
+A |\
+d2d dcB | A2G F2A | d2d e2c | d3 z2A |\
+d2e f2g | a2f d2e | f2f fed | e3 z2A |
+d2e f2g | a2f d2e | f2f fed |["BIS." e3 Hf2e |\
+d2d dcB | A3G F A | d2d e2c | d3 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2
+A |\
+F2F FAG | F2E D2F | F2F G2E | F3 z2F |\
+[A2F2]c d2e | f2d A2c | d2d dcB | c3 z2A |
+A2c d2e | f2d B2c | d2d dcB | c3 Hd2c |\
+B2B BAG | F3 E D F | F2F G2E | F3 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 clef=bass middle=d
+z |\
+d3 d3 | d3 d3 | d3 A3 | d3 z2z |\
+d3 d3 | d3 d3 | d2d d2d | A3 z2z |
+d3 d3 | d3 d3 | d2d dgb | a3 Hd2z |\
+d2d dgb | a3 cd2 | d3 A3 | d3 z2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,0 +1,85 @@
+X: 11191
+T: MARCH IN ELHYDER
+C:
+R: march
+N: This is version 2, for ABC software that doesn't understand voice overlays.
+B: Elias Howe "The Musician's Companion" Part 1 1842 p.116-118
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Ab
+%%indent 70
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1 name="Eb Bugle" sname="EbBgl" staves=4
+K: F
+!f!c3c |\
+(c8 A2)(fe gfed) | (c8 A4) z2c2 |\
+(B2gf edcB) (A2fe dcBA) | G4 G3G G4 c3c |
+(c8 A2)(fe gfed) | c4 f3g a4 g3f |\
+(e6 f2) (e2d2)c2=B2 | (d8 c4) :: !f!c3c |\
+g6 f2 e2d2c2B2 | A4 f3f f4 c4 |
+(d2gf e2d2) (c2dc B2)A2 | (A8 G4) c4 |\
+c8 B2A2G2F2 | "^   ~"d6 e2 (f4 e2d2) |\
+c4 d3B A4 G4 | F4 F3F F4 H:|
+|: z4 | z16 | z16 | z16 | z16 | z16 |
+z16 | z16 |\
+z8 z4 :: !p!E3F | "^   ~"G6 A2 B2(B2A2G2) |\
+"^   ~"A6 B2 c8 | (c2B2)(B2A2) (A2G2)G2F2 |
+(A8 G4) c4 | !mf!f8 (gfef) a3f |\
+c6 B2 A4 c4 | (d2^cd) ([b2B2]g2) (g2f2)(f2e2) |\
+(e8 f4) "^D.C."y:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 name="Bb Bugle" sname="BbBgl"
+K: Bb
+!f!d3d |\
+(d8 B2)(df agfe) | (d8 B4) z2d2 |\
+c2ag fedc B2gf edcB | A4 A3A A4 d3d |
+(d8 B2)(cf agfe) | d4 z4 c8 |\
+(c6 d2) (c2B2)A2G2 | (B8 A4) :: !f!z4 |\
+e6 d2 c2e2d2c2 | B4 d3d d4 d4 |
+(e2ag f2)e2 (d2ed c2)B2 | (B8 A4) z4 |\
+(_A2B2A2B2) (A2B2A2B2) | G4 B4 B8 |\
+B4 e3c B4 A4 | B4 F3F F4 :|
+|: !p!F3F |\
+(B8 cBAB) d3B | F6 E2 D4 F4 |\
+G2(c4d2) e2G2(d2c2) | (B8 {cB}A4) F4 | (B8 cBAB) d3B |
+F6 E2 D4 F4 | G4 (e2c2) (c2B2)(B2A2) |\
+(c8 B4) :: !p!F3G | "^   ~"A6 B2 c2(c2B2A2) |\
+"^   ~"B6 c2 d8 | (d2c2)(c2B2) G4 G4 |
+(B8 A4) z4 | !mf!d8 (edcd) f3d |\
+d6 c2 B4 F4 | G4 (e2c2) (c2B2)(B2A2) | (c8 B4) "^D.C."y:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 3 name="Bb Cornopeon" sname="BbCorn"
+K: Bb
+z4 |\
+F8 F4G4 | (F8 F4)z4 | F4F4 F4F4 | F4F3F F4z4 |
+F8 F4G4 | F4z4 B4G4 | F4C4 C4C4 | (C8 C4) :: !f!z4 | A4A4 A4A4 | B4F3F F4z4 |
+B4B4 B4G4 | (F8 F4)z4 | F4F4 F4F4 | E6F2 (G4 F2E2) | B4G4 F4E4 | D4D3D D4 :|
+|: z4 |\
+(D8 EDCD) F3D | D6C2 B,4z4 | G4 G8 G4 | (D8 C4)z4 | (D8 EDCD) F3D |
+B,6C2 B,4z4 | G8 F4E4 | (E8 D4) :: !p!z4 | F4F4 F4F4 | F4F4 F8 | F4F4 G4C4 |
+(F8 F4)z4 | !mf!F12 F4 | (F8 F4)B4 | B4G4 F4E4 | (E8 D4) "^D.C."y:|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 4 name="Trombone\nOphicleide" sname="Bass" clef=bass middle=d
+K: Ab
+!f!z4 |\
+c'8 c'4d'4 & A4a4 A4a4 | c'8- c'4z4 & A4c2e2 a4z4 |\
+[b4G4][b4G4] [c'4A4] [c'4A4] | [b4e4][b3e3][be] [b4e4]z4 |
+c'8 c'4d'4 & A4a4 A4a4 | [c'4A4]z4 [b8=d8] |\
+[b4e4][b4e4] [b4B4][b4B4] | z4[b4B4] [e4E4] :: z4 |\
+[e4E4][e4E4] [e4E4][e4E4] | [a4A4][a3A3][aA] [a4A4]z4 |
+a4a4 a4d2=d2 & A4A4 A4d2=d2 | e8- e4z4 & e4E4 e4x4|\
+[c'4A4][c'4A4] [c'4A4][c'4A4] | [d'4d4][d'4d4] [d'8d8] |\
+[e'4c4][d'4d4] [c'4e4][e'4e4] | [a4A4][a3A3][aA] [a4A4] :|
+|: !p!z4 |\
+e'12 c'4 & A8 a8 | a6b2 c'4c'4 & A4 c2e2 a4 z4 |\
+[d'6d6][e'2c2] [d'4B4][f'4d4] | e'8- e'4z4 & e4E4 d4z4 |\
+e'8 x4c'4 & A8 a8 |
+a6b2 c'4c'4 & A4c2e2 a4z4 | d'8 c'4b4 & d4B4 e4e4 |\
+e'8- e'4 & z4E4 A4 :: z4 | b6a2 g4a2b2 & e4e4 e4e4 |\
+a4a4 a8 & A4A4 A2e2c2A2 | [g4G4][a4A4] d4=d4 |
+(e8 d4)z4 & e4E4 d4z4 | c'12 c'4 & A8 a8 |\
+a6b2 c'4c'4 & A4c2e2 a4A4 | c'8 c'4b4 & d4d4 e4e4 |\
+z4e4 a4 "^D.C."y & (e8 A4)y :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

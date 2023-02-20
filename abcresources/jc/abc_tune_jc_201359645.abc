@@ -1,0 +1,134 @@
+X:1
+T:Ricercare con obligo del Basso come appare
+C:Girolamo Frescobaldi
+M:C
+L:1/8
+%%staves {1 2 3} 4
+%%CombineVoices yes
+K:C
+%
+V:1
+z8   |z8   |G4    B4   |c4    A4   |G4   zc2B   |
+V:2
+C4 E4|F4 D4|C2E2- E^FGE|AG=FE FCF2-|F2E2 G3/F/EG|
+V:3
+z8   |z8   |z8	       |z8	   |z4   z2C2-  |
+V:4
+z8   |z8   |z8	       |z8	   |C,4  E,4    |
+%
+V:1
+A2c2   _B2A2-	|A2G2  A2E2  |G3F/E/  D2G2  |z4     z2C2-   |CB,A,C B,2B2-|
+V:2
+C4     D2F2	|EF2E- ED2C- |CG,C2-  C2B,2-|B,CDB, E2G2-   |G2^F2 G4	  |
+V:3
+CB,A,C F,G,A,=B,|C4    F,2A,2|E,3F,   G,4   |z2G,2- G,F,E,G,|C,2C2 z2G,2  |
+V:4
+F,4    D,4	|C,4   z4    |z4      G,,4  |B,,4   C,4     |A,,4  G,,4   |
+%
+V:1
+BcdB  edcB |c3B/A/ B4  |z8	      |z8	      |A4      ^c4     |
+V:2
+z2G2- G=FEG|CDE^F  G2E2|A2z^F-  FGAF  |B2G2-  G^FGE   |^F3G    A2A2-   |
+V:3
+B,4   C4   |A,4	   G,4 |^F,2B,2 A,2zD-|DCB,D  G,A,B,^C|D2^F,2- F,G,A,F,|
+V:4
+z8	   |z8	       |D,4	^F,4  |G,4    E,4     |D,4     z4      |
+%
+V:1
+d4    B4       |A8	    |z8		       |A3G    ^FABA/G/|
+V:2
+A2G^F ^GA2G    |A2E2- ED^CE |^F2D2-    D2D2    |D2^C2  D4      |
+V:3
+B,4   ED/=C/B,E|^C4   z2A,2-|A,G,^F,A, D,E,F,G,|A,2E,2 D,2G,2  |
+V:4
+z8	       |A,,4  ^C,4  |D,4       B,,4    |A,,4   z4      |
+%
+V:1
+A2d=c B2zc-    |[M:6/4]cBAc    ^GA2G A4-  |[M:C]A2z2   ^FGAF	|^GA2G   A2E^F|
+V:2
+^F4   G4       |[M:6/4]E4      D4    ^C2E2|[M:C]z2A,2- A,G,^F,A,|B,^CDB, E4   |
+V:3
+D2z2  E,^F,G,E,|[M:6/4]A,B,C2- C2B,2 z2^C2|[M:C]E4	^F4	|D4     ^C4   |
+V:4
+z8	       |[M:6/4]z4	z4    A,,4|[M:C]^C,4    D,4	|B,,4    A,,4 |
+%
+V:1
+GAB2- B2^c2 |B4-    B2B2|z2A2-    AB^cA  |B^cB2    c4  |z2e2- ed^ce|
+V:2
+E3^F  ^GEA2-|A2^G^F EDE2|^CDED/E/ ^F4	 |z4	   z2E2|^G4   A4   |
+V:3
+z8	    |z8		|z2^C2-    CB,A,C|^G,A,2G, A,4 |ED^CE A,3C |
+V:4
+z8	    |E,4    ^G,4|A,4	   ^F,4	 |E,4	   z4  |z8	   |
+%
+V:1
+AB/=c/d2- d2^c2- |^c2B2  A2d2-|dcBd   GABA/G/|^FGA2-      A^G/F/G2|A2d2- dcB2-|
+V:2
+^F4	  E4	 |^F2F2- FGAF |B2G2-  G4     |z4	  D4	  |^F4   =G4  |
+V:3
+D=CB,A,   ^G,2A,2|D4	 z4   |B,CDB, ED2^C  |D2^F,G,/A,/ B,4	  |A,D2C B,2E2|
+V:4
+z8		 |D,4    ^F,4 |G,4    E,4    |D,4	  z4	  |z8	      |
+%
+V:1
+B2A2 B3A  |G2z2   EFGE    |AG2^F	G2D2  |E2z2   edce|
+V:2
+E4   D4-  |D4	  C4-     |C4		B,4   |C4     z4  |
+V:3
+C4   D2G,2|z2G,2- G,F,E,G,|C,D,E,D,/C,/ D,2G,2|C,2C2- CDEC|
+V:4
+z4   G,,4 |B,,4   C,4     |A,,4		G,,4  |z8	  |
+%
+V:1
+ABc2-    cB/A/G2|z4   zF2G |AF_B2- B2AG|A2c2-  c2c2   |c8	 |
+V:2
+z4	 z2E2-  |EDCE A,2DE|F2D2   EF2E|F2E2   A2G2-  |G2F2  E2A2|
+V:3
+FE/D/CA, E2E,2  |G,4  z4   |z8	       |zA,2G, F,A,E,2|A,3B, CDEF|
+V:4
+z4	 C,4    |E,4  F,4  |D,4    C,4 |z8	      |F,4   A,4 |
+%
+V:1
+zd2c  _BdG2 |A3=B c4   |c4   _BAA2-|A2G2  A4	  |z8		   |
+V:2
+G2F2- F2E2  |F2CD ECG2-|G2A2 F2E2  |D3E   FDF2	  |z2GF      _EGC2 |
+V:3
+D4-   D2C_B,|A,4  z2C2 |E2F2 D2C2  |_B,4  F,G,A,F,|G,A,_B,2- B,2A,2|
+V:4
+_B,4  G,4   |F,4  z4   |z8	   |_B,,4 D,4	  |_E,4      C,4   |
+%
+V:1
+z2_B2 d4      |_e4    c4   |_B2_e2-  e2d2   |c3_B   _AGAB/A/|G4    z2FG       |
+V:2
+D4    BAGB    |_EFG2- GG_A2|G8		    |z8		    |GF_EG D4	      |
+V:3
+_B,4  G,A,B,G,|C3D    _ECF2|_B,2G,A, =B,C2B,|C2_E2- E2D2-   |D2C2- C_B,/A,/B,2|
+V:4
+_B,,4 z4      |z8	   |_E,4     G,4    |_A,4   F,4     |_E,4  z4	      |
+%
+V:1
+AF_BA   GF/G/A2-|AG/F/G2 A3G/F/|E2A2   z4      |z4	z2A=B|
+V:2
+C2D2	_E2DC	|D2D=E	 FCD2- |D2C2   D2DC    |_B,DG,2 A,2C2|
+V:3
+A,2G,2- G,2F,2	|_B,4	 F,4   |z2F,E, D,G,F,2-|F,2E,2	F,4  |
+V:4
+z8		|z4	 F,,4  |A,,4   _B,,4   |G,,4	F,,4 |
+%
+V:1
+cGA2- A2GF   |_B3A/G/  A4      |G4     z4	 |cBAc  FGAB  |
+V:2
+E2F2- F2D2-  |DCDE     FCF2-   |F2E2-  E^FGE	 |A2=F2 z4    |
+V:3
+z2F,2 A,2_B,2|G,4      F,2A,=B,|CG,C2- CB,/A,/B,C|A,4-  A,2F,2|
+V:4
+z8	     |z8	       |C,4    E,4	 |F,4   D,4   |
+%
+V:1
+c8		     |z4       cBAc|G4	   c3B/A/     |G8	||
+V:2
+EFGE	  A2G2	     |C2E2-    E2z2|CDE2-  E2F2-      |F2ED   E4||
+V:3
+G,F,E,G,- G,F,2E,/D,/|E,F,G,E, A,4 |E,2CB, A,CA,G,/F,/|G,2G,2 C4||
+V:4
+C,8		     |C,8-	   |C,8		      |C,8	||

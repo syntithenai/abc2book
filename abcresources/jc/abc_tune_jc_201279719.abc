@@ -1,0 +1,33 @@
+X: 1
+T: the Garter
+T: King James's March
+N: "King James's March or the" handwritten above/before the title "Garter".
+P: Longways for as many as will
+%R: march
+B: "The Dancing-Master: Containing Directions and Tunes for Dancing" printed by W. Pearson for John Walsh, London ca. 1709
+S: 7: DMDfD http://digital.nls.uk/special-collections-of-printed-music/pageturner.cfm?id=89751228 p.143
+B: First appeared in Playford, 1686, as "The Garter", then as "King James's March" in later editions.
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+e3d efg2 | c2G2 c2(cd) | e2(ef) g2(fe) | dcde d2g2 |\
+e3d (ef)g2 | c2G2 c2(cd) | e2(ef) (^f3e/f/) | g4 |]
+[|\
+g3f/e/ d2g2 | e3d c2e2 | d2(cB) A2d2 | B3A G2z/d/e/f/ |\
+g3f/e/ d2g2 | e3f g2c2 | d2(ef) d3c | c8 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%begintext align
+%% The 1. man go round on the out-side of the 1. wo. into his own place, and the 2. wo. follow the 1.
+%% man into her own place, and turn S. then the 1. wo. go round on the out-side of the 1. man into her
+%% own place, and the 2. man follow her into his own place, and turn S.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The 1. man and 2. wo. change places, then the 1. wo. and 2. man change places, then both cu. go the
+%% half Figure and clap hands, then turn their own into their places again.
+%% [DMDfD]
+%%endtext
+%%sep 1 8 500

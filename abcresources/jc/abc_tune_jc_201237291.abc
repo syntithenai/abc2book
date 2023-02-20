@@ -1,0 +1,18 @@
+X: 251
+T: Mrs Isobel Murray
+C: Bert Murray
+R: air, strathspey
+B: Bert Murray's "Bon Accord Collection" 1999 p.25
+N: This tune was written for the wife of the omposer.
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+N: Fixed lengths: B2 to B3 in bar 1, F4 to F6 in bar 2.
+M: C
+L: 1/16
+K: Bb
+%%slurgraces
+{FG}vFuE |\
+D3C D2E2 FB3 d3c | B3A cBAG F6 {FG}FE | DB,3 DF3 BFBd f2B2 | e3d c2B2 {cd}c6 ({FG}FE) |
+D3C D2E2 FB3 d3c | {Bc}B3G E2G2 F6 {Bc}BA | GEGB e2G2 FDFB d2B2 | c3B A2c2 B6 ||
+(cd) |\
+e3G B2e2 d3c B2F2 | GFGB e2G2 F6 (cd) | e3d e2g2 f2d2B2F2 | GB3 c3d c6 {FG}FE |
+D3B, D2E2 FB3 d3c | B3A cBAG F6 {A}BA | GEGB e2fg f2d2 B3F | GE3 c2A2 {Bc}B6 |]

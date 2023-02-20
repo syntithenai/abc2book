@@ -1,0 +1,29 @@
+X: 31022
+T: COTILLION No. 13. ST. LAWRENCE SETT tune 2
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.102 #2
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+d/e//f// |\
+g2g gbg | d2d d2^c/d/ | e2e e^de | B3 BcB |\
+c2c cBc | ABc def | gdB cAd | G3 G2 H|]
+F/G/ |\
+A2A AB^c | d2d d2c/d/ | ecA AB^c | dfe d2 F/G/ |\
+A2A AB^c | d2d d2^c/d/ | cBc ABc | d2d de"^D.C."f |]
+E |\
+B2B B2B | e3 B3 | cBA GFG | FGE B,3 |\
+B2B B2B | e3 B3 | cBA GEB | E3 de"^D.C."f |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% Right and left 4,
+%% chassa across,
+%% alamand partners,
+%% alamand corners.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

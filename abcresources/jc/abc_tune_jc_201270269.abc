@@ -1,0 +1,78 @@
+
+X: 1
+T: Drowsy Maggie
+R: reel
+S: printed page in Concord Slow Scottish Session collection
+Z: 2015 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: EDor
+D |\
+"Em"E2BE dEBE | E2BE "D"AFDF |\
+"Em"E2BE dEBE | BABc "D"dAF :|\
+A |\
+"D"d2fd "A"c2ec | "D"defg afge |
+"D"d2fd "A"c2ec | "G"BABc "D"dAFA |\
+"D"d2fd "A"c2ec | "D"defg afge |\
+"D"afge "A"fdec | "G"BABc "D"dAF |]
+
+%%sep 2 1 500
+
+X: 2
+T: Drowsy Maggie
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: EDor
+|: "Em"E2BE dEBE | E2BE "D"AFDF |\
+   "Em"E2BE dEBE | BABc "D"dAFD \
+:: "D"d2fd "A7"c2ec |
+   "D"defg afge |\
+[1 "D"d2fd "A7"c2ec | "G"BABc "D"dAFA :|\
+[2 afge "A"fdec | "G"BABc "D"dAFD |]
+
+%%sep 2 1 500
+
+X: 3
+T: Drowsy Maggie
+T: Liz Carroll's 3-part version
+Z: unknown
+R: reel
+M: C|
+L: 1/8
+K: EDor
+|: "Em"E2BE dEBE | E2BE "D"AFDF | "Em"E2BE dEBE | BABc "D"dAFD :|
+K:D
+|: "D"d2fd "A7"c2ec | "D"defg afge |\
+[1 "D"d2fd "A7"c2ec | "G"BABc "D"dAFA :|\
+[2 afge "A"fdec | "G"BABc "D"dAFD |]
+K:A
+|: dBfB dBfB | A2 eA fAeA |\
+[1 dBfB dBfB | defg aecf :|\
+[2 EGBe aece | d2 ce dAFD |]
+
+%%sep 2 1 500
+
+X: 4
+T: Drowsy Maggie
+T: Ceol Rince na h\'Eirann 4-part version
+S: Michael (Master) McDermott, Tyrone
+B: Ceol Rince na h\'Eireann 4, Breathnach/Small
+Z: Paul de Grae <sullgrae:iol.ie> irtrad-l 2000-08-28
+M: 4/4
+L: 1/8
+R: reel
+K: Edor
+|: ~E2 BE dEBE | ~E2 Bc dAFD |\
+[1 ~E2 BE dEBB | BABc dAFD :|\
+[2 ~E2 BE dEBB | BABc dAFA |]
+|: d2 fd c2 ec | d2 fd faaf |\
+[1 d2 fd c2 ec | BABc dAFA :|\
+[2 (3bag af gfed | BABc dAFA |]
+|: dBfB dBfB | cAeA cAeA |\
+[1 dBfB ~B2 fB | defg aecA :|\
+[2 (3Bcd (3efg aecA | ~B2 Bc dAFA |]
+|: dffe dfBf | ce e2 ceAe |\
+[1 dffe defg | agfg aece :|\
+[2 afge fded | BABc dAFD |]

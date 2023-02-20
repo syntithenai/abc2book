@@ -1,0 +1,24 @@
+X: 11542
+T: NON PIU MESTA
+C: Rossini.
+Q: "Moderate."
+%R: air
+N: This is version 1, for ABC software that doesn't understand trailing grace notes.
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.154 #2
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+!p!G3c |\
+e2z2 c2z2 e2z2 c2z2 | a2z2 g2z2 d6 ^d2 |\
+e2z2 Tc4 {Bc}B2z2 Tc4 | {Bc}d2!ff!z2 g4 z4 G3c |\
+!p!e2z2 c2z2 e2z2 c2z2 | a2z2 g2z2 d6 ^d2 |\
+(e2c'b agfe) (d2ba) (gfed) | c2z2 e4 c4 :|
+|: B3c |\
+(d4 e4 f4 ^f4) | g4- gabc' g2z2 B3c |\
+(d4 e4 f4 ^f4) | g4- gabc' g2z2 G3c |\
+e(cBc) a3g e(cBc) a3g | (fd^cd) a3g d6 ^d2 |\
+(egc'b agfe dcBA GFE)D | C2z2 e4 c4 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -

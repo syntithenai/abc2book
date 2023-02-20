@@ -1,0 +1,14 @@
+X: 1165
+T: Dress Her Out in Fine Clothes   #2
+R: slipjig
+%S: s:2 b:10(5+5)
+B: O'Neill's 1850 Music of Ireland #1165
+O: McFadden
+Z: Stephen Foy (shf@access.digex.net)
+%: abc 1.6
+N: Compacted via repeats and multiple endings [JC]
+N: Also replaced z with 2 throughout.
+M: 9/8
+K: D
+"^A"|: A2G F2A d2A |[1,3 B2c d2e fdB :|[2,4 Bcd AFD D3 "^B":: f2d d2f a2f |[1 e2d c2e gfe :|
+[2 ecA ABc d2g "^C"|]| f2d d2f agf | e2c c2e gfe | fdf efg agf | edc ABc dcB |]

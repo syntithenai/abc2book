@@ -1,0 +1,26 @@
+X:1
+T: Saint James's Park
+N:
+C:
+S:
+A:
+O:
+R:
+M:4/4
+K:D
+I:speed 200
+%W: A1
+% voice 1 (1 lines, 41 notes)
+K:D
+M:4/4
+L:1/16
+D2 E2 |F4 D4 A4 d4 |c6 B2 A4 B4 |c4 d4 e4 c4 |d2 c2 d2 e2 d4 e2 f2 |g4 f2 g2 e4 f2 g2 |f4 e2 d2 c4 B2 A2 |d4 e2 f2 f6 e2 |e12 D2 E2 |
+%W: A2
+% voice 1 (1 lines, 38 notes)
+F4 D4 A4 d4 |c6 B2 A4 B4 |c4 d4 e4 c4 |d2 c2 d2 e2 d4 e2 f2 |g4 f2 g2 e4 f2 g2 |f4 e2 d2 c4 B2 A2 |d4 e2 f2 f6 e2 |e12 e4 |
+%W: B1
+% voice 1 (1 lines, 41 notes)
+c4 B2 A2 d4 e2 f2 |g4 f2 g2 e4 a4 |f4 d2 c2 B4 e4 |c2 d2 c2 B2 A4 c4 |d4 c2 d2 B4 c2 d2 |c4 B2 c2 A4 a2 g2 |f4 g2 f2 e6 d2 |d12 e4 |
+%W: B2
+% voice 1 (1 lines, 40 notes)
+c4 B2 A2 d4 e2 f2 |g4 f2 g2 e4 a4 |f4 d2 c2 B4 e4 |c2 d2 c2 B2 A4 c4 |d4 c2 d2 B4 c2 d2 |c4 B2 c2 A4 a2 g2 |f4 g2 f2 e6 d2 |d12 ||

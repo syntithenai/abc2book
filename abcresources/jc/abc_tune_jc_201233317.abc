@@ -1,0 +1,16 @@
+X: 191	% 50
+T: Beaver Creek
+S: Viola Ruth "Pioneer Western Folk Tunes" 1948 p.19 #1
+O: Arr. to fit call "Take a Peek"
+R: march
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+V: 1 name="50"
+[| (3(DEF |\
+MG2)MG2MG2MG2 | E2E2E3D | G2G2 GGGG | B2B2 A2(3(DEF |\
+MG2)MG2MG2MG2 | E2E2D3D | G2G2 GGGG | B2A2  G4 |]
+[|\
+B2d2 d2d2 | B2d2d4 | [cE][cE][cE][cE] [BG][BG][BG][BG] | A2(AB) AFED |\
+G2G2G2G2 | E2E2D3D | G2G2 [GB,][GB,][GB,][GB,] | B2A2 G4 :|

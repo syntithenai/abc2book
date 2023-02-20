@@ -1,0 +1,36 @@
+X: 11331
+T: Fy gar rub her o'er with Straw
+%R: air, march, reel
+B: James Oswald "The Caledonian Pocket Companion" v.1 b.1 p.33 #1 (and top 8 staffs of p.34)
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: Bm
+|: "_Slow"\
+d6c2 B4f4 | e3fd3e Tc4(B2A2) | d6e2 f2^g2a4 | Tf2(ef) d2c2 B8 ::\
+a4f4 (g2f2)(e2d2) | (c2d2e2)f2 Tc4B2A2 | a6g f3ef2a2 | b2a2f2a2 b6d'2 |
+{b}a6g2 Tf4(e2d2) | (c2d2)(e2d2) Tc4(B2A2) | d6e2 (f2^g2)a4 | (f2e2)(d2c2) B8 ::\
+d3ed2c2 B2f2d2f2 | e2a4d2 Tc2B2c2A2 | d2(fg) a2d2 c2e2a2c2 | (f2e2)(d2c2) B8 :|
+|:\
+a3ba2g2 f2d'4f2 | e2a2d2a2 Tc2B2c2A2 | a2a4g2 Tf3ef2a2 | b2B2d2f2 b2a2b2d'2 |\
+a2(ba) g2(ag) Tf2e2f2d2 | e2a4d2 c2B2c2A2 | (d2c2d2)B2 (e2d2e2)c2 |
+(f2e2)(d2c2) B8 ::\
+d2f2 (Bdf2) d2f2 (Bdf2) | e2c2 (cea2) e2c2 (cea2) | d2f2 (Bdf2) e2a2 (cea2) | (fefg fedc) B8 |
+f(a^ga) d(a^ga) f(a^ga) (df)ed | e(a^ga) c(a^ga) e(a^ga) cBcA | a2d2f2a2 f2d2f2a2 | b2B2d2f2 b2a2b2d'2 |
+a2d2 (fad'2) a2d2 (fad'2) | e2A2 (cea2) e2A2 (cea2) | .d(BAB) d2f2 .e(cBc) e2a2 | (fgef decd) B8 :|
+|:\
+(Bcde) f2B2 d2B2f2B2 | (ABcd e2)a2 (ABcd e2)c2 | (Bcde f2)b2 (ABcd e2)c2 "P.34"| (f2e2)(d2c2) B8 :|
+|:\
+(defg a2)d2 f2d2a2d2 | (ABcd e2)A2 c2A2e2A2 | (defg a2)d2 f2d2a2d2 | b2(.a.g .f.e.d.c) (Bcde f2)b2 |
+(defg a2)d2 (DEFG A2)F2 | (ABcd e2)c2 (ABcd e2)a2 | (Bcde f2)b2 (ABcd e2)c2 | b2(.a.g .f.e.d.c) B8 :|
+P:Minuet
+M: 3/4
+L: 1/8
+|:\
+(3(dcB) f2 b2 | T^a3  ^g f2 | (3(=afd) d'2 f2 | (3(edc) c'2 e2 |\
+(3(dcB) (3(edc) (3(fed) | g3 afg | Te2 d2 e2 | f6 :|
+|:\
+a3 bag | (3(fed) f2 d'2 | e3 fed | (3(cBA) a2 c2 |\
+f3 gfe | (3(dcB) (3(edc) (3(fed) | (3(gfe) f2 ^a2 | b3 d'c'b |
+a3 bag | (3(fed) d'3 f2 | e3 fed | (3(cBA) c'2 e2 |\
+f3 gfe | (3(dcB) (3(edc) (3(fed) | (3(gfe) Tc4 | B6 :|

@@ -1,0 +1,17 @@
+X: 1
+T: Jimmy McMillan of Giffnock
+C: G.B.Stirrat
+R: jig
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+B: Scottish Country Dances by James McMillan
+S: https://gallery.mailchimp.com/0a305577fb785fc871ac76e9e/files/22a3e133-f0b8-4882-b015-0b05a6b8f2c6/Scottish_Country_Dances_by_James_McMillan_copy.pdf
+N: Suggested tune for Nan's Jig.
+M: 6/8
+L: 1/8
+K: G
+D !segno!|:\
+"G"G3 B2D | GBe "D7"def | "G"gfg "Em"bag | "A7"fed "D"cBA |\
+"G"G3 B2D | GBe "D7"def | "G"gfe dcB | "D7"AGF "G"G3 !fine!:|
+[|\
+"C"E3 G3 | "E7"E3 ^G3 | "Am"Ace "E7"dcB | "Am"A3 A3 |\
+"D7"D3 F3 | "G"GFG B2_B | "A7"A^ce gfe | "D7"ded "D.S. al Fine"cBA |]

@@ -1,0 +1,32 @@
+X: 31221
+T: COTILLION No. 20. BEETHOVEN SETT tune 1
+C:
+%R: jig
+B: Elias Howe "The Musician's Companion" Part 3 1844 p.122 #1
+S: http://imslp.org/wiki/The_Musician's_Companion_(Howe,_Elias)
+Z: 2015 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(g/a/) |\
+gfe edc | (A2c) (G2F) | E2c cBc | (ed)d d2 (g/a/) |\
+gfe edc | (A2c) (G2F) | E2G c2d | ecc c2 H|]
+g |\
+^fga g2c' | e3 cBc | d2g G2B | c2d e2f |\
+^fga g2c' | e3 cBc | d2g GBd | c3- "^D.C."c2 |]
+E/F/ |\
+G3 FED | G3 GFE | D2C D2E | C2D E2F |\
+G3 FED | G3 GFE | D2C DFE | C3- "^D.C."C2 |]
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% All chassa across,
+%% all promenade,
+%% all chain,
+%% all promenade,
+%% first 4 right and left,
+%% balance.
+%% Sides the same.
+%%endtext
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%%sep 1 1 300

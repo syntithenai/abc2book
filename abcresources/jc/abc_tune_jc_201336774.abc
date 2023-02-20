@@ -1,0 +1,29 @@
+X: 1
+T: Shoomaker Row
+%R: __
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (124)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: C|
+L: 1/8
+K: Gm
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+d2 |\
+d3c B3A | B3A G3g | ^f3g a3b | a3g g3d |\
+d3c B3A | B3A G3g | ^f3g a3b | a6 :|
+|: f>g |\
+f3b f3b | f3e d3g | f2e>d c3f | d3c B3f |\
+d3g =e3a | ^f3g a3d | b2a>g d3b | a3g g2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Man set to the 2d Wo. and turn single and turn
+%% his Partner .| The 1st Wo. set to the 2d Man then turn
+%% single and turn her Partner :| The 1st Cu. whole Figure
+%% With the 2d Cu. and clap and cast off .| The 1st Man
+%% change Places with the 2d Wo. and the 1st Wo. with the
+%% 2d Man and Hands all four half round and turn single
+%% all four :|
+%%endtext
+%%sep 1 8 500

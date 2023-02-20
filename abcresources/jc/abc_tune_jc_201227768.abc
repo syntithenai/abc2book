@@ -1,0 +1,20 @@
+X: 10974
+T: FAREWELL
+Q: "Very slow."
+%R: air, waltz, jig
+B: W. Hamilton "Universal Tune-Book" Vol. 1 Glasgow 1844 p.97 #4
+S: http://imslp.org/wiki/Hamilton's_Universal_Tune-Book_(Various)
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+%%slurgraces yes
+%%graceslurs yes
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+G/A/ |\
+B>cB {B}A2G | {F}E3 G2E | D>EG (G>A)B | {B}A2z z2G/A/ |\
+B>dc B>AG | {F}E3 G2E | D>EG B>AG | G3 G2 |]
+B/c/ |\
+d>ed c>Bc | B3- B2B/c/ | e>dB BAG | {F}E3 G2D |\
+D<EG G<AB | c3 e3 | d>cB B<AG | G3 G2 |]
+% - - - - - - - - - - - - - - - - - - - - - - - - -

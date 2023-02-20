@@ -1,0 +1,42 @@
+X: 1
+T: Buff-Coat
+P: Longways for as many as will
+%R: jig
+B: "The Dancing-Master" printed by John Walsh, London
+S: 6: CCDM1 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.1 p.16 #28
+Z: 2012-2013 John Chambers <jc:trillian.mit.edu>
+M: 6/4
+L: 1/4
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+[|\
+d3 F3 | E3 c2B/c/ |\
+d2A F2E | FD2- D2 |][| d |\
+d>ed B>cd | e>de c>BA |
+d2d e>fg | f3 a3 |\
+f>ef B>cd | e>de c>BA |\
+d2A F2E | FD2- D2 |]
+% - - - - - - - - Dance description - - - - - - - -
+%%begintext align
+%% Lead up all, back again .| That again, fall back, sett every Man
+%% to his own Wo.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The first Cu. cast off into the 2d Cu. Place, back again :|  Cross over
+%% with your own Wo. into the 2d Place, and give one Clap with your
+%% Hands, and turn your own Wo. round .|  Do this to the last.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The first Man cast off, his Wo. following him; then he takes the
+%% other Wo. by the left Hand and leads her between his Wo. and the
+%% other Man, going round them into the same Place; then he takes
+%% his own Wo. and leads her up the Middle, and both cast off into the
+%% 2d Cu. Place, and turn her about .|  Do this to the last.
+%%endtext
+%%sep 1 1 300
+%%begintext align
+%% The first Man puts his Wo. back into the 2d Place, and back again :|
+%%endtext
+%%sep 1 8 500

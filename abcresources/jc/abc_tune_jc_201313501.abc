@@ -1,0 +1,26 @@
+X:1
+T: A Mover and Shaker
+N:
+C:Tune is "My Robe is New" (trad Shaker)
+S:
+A:
+O:
+R:
+M:6/8
+K:Em
+I:speed 150
+%W: A1
+% voice 1 (1 lines, 32 notes)
+K:Em
+M:6/8
+L:1/16
+e2 |g4 a2 b4 a2 b6b2 a2 g2 f4 e2 e2 f2 g2 f6f4 f2 |e4 e2 d4 c2 B6 B4 f2 g4 e2 f2 e2 d2 e6e4 e2 |
+%W: A2
+% voice 1 (1 lines, 31 notes)
+g4 a2 b4 a2 b6b2 a2 g2 f4 e2 e2 f2 g2 f6f4 f2 |e4 e2 d4 c2 B6 B4 f2 g4 e2 f2 e2 d2 e6e4 d2 |
+%W: B1
+% voice 1 (1 lines, 36 notes)
+e4 f2 g4 e2 e2 d2 B2 B4 B2 g4 g2 a2 g2 a2 b6b4 b2 |b2 a2 g2 e2 f2 g2 e2 d2 B2 B4 f2 g4 e2 f2 e2 d2 e6e4 d2 |
+%W: B2
+% voice 1 (1 lines, 35 notes)
+e4 f2 g4 e2 e2 d2 B2 B4 B2 g4 g2 a2 g2 a2 b6b4 b2 |b2 a2 g2 e2 f2 g2 e2 d2 B2 B4 f2 g4 e2 f2 e2 d2 e6e4 ||

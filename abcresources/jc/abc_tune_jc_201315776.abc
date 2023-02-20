@@ -1,0 +1,39 @@
+%%center Mystic Hornpipe
+
+
+X: 1
+T: Mystic Hornpipe v.1
+P: piffero primo a0870
+O: Frank Grady
+%R: hornpipe, reel
+F: http://ancients.sudburymuster.org/mus/sng/pdf/mystic1C0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The SAFD collection has two "versions", but they differ only in the drum part.
+M: 2/4
+L: 1/16
+K: D
+fe |\
+dcdA FAdc | BGBG E2ed | cdcB ABAG | FAdA f2fe | dcdA FAdc |
+BGBG E2ed | cdcB ABcd | edce d2 :: fg | aAfA fgfe | dcdB G2ef |
+gAfA edcd | edcd f2fg | aAfA fgfe | dcdB G2ed | cdcB ABcd | edce d2 :|
+
+
+X: 2
+T: Mystic Hornpipe v.2
+P: piffero secondo a0871
+O: Dave Migoya
+%R: hornpipe, reel
+F: http://ancients.sudburymuster.org/mus/sng/pdf/mystic1C0.pdf
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+N: The SAFD collection has two "versions", but they differ only in the drum part.
+M: 2/4
+L: 1/16
+K: D
+DE |\
+F2F2 D2D2 | EDED C2cB | AGFE DF2E | DDFF A2DE | F2F2 D2D2 |
+EDED C2cB | AGFE FGAB | c2A2 d2 :: AG | F2D2 F2A2 | BAGE D2CD |
+E2D2 F2A2 | GFED C2AG | F2D2 F2A2 | BAGE D2cB | AGFE FGAB | c2A2 d2 :|
+
+% %sep 1 1 200
+% %center - - - - - - - - - -
+% Whatever we want at the bottom of each set belongs here.

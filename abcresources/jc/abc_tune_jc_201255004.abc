@@ -1,0 +1,1239 @@
+
+X: 0
+T: Scottish Country Dances
+T: RSCDS Book 4
+B: RSCDS Book 4
+K:
+%%center Book04/0400-Title.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0401
+T: Torryburn Lassies
+P: Torryburn Lassies
+C:Aird 1782
+R:Reel (8x32)
+B:RSCDS 4-1
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:G
+|:D|"G"G2BG Bdd2|"C"c2ec egg2|"G"G2BG Bcdg|"C"ed"Am"cB "D7"A2"G"Gz|
+    "G"G2BG Bdd2|"C"c2ec egg2|"G"G2BG "Em"Bcdg|"Am"edcB "D7"A2"G"Gz||
+    "G"g2bg "D7"afed|"C"edef "G"gdBG|"G"g2bg "D7"afed|"Am"ed"D"ef "G"g2 ga|
+    "G"ba"D7"gf "G"gfed|"C"ed"D7"ef "G"gdBG|\
+           "Am"cB"G"cd "C"efge|"G"dBGB "D7"A2"G"G:|
+%%center Book04/0401-Torryburn_Lassies-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0402
+T: The Merry Dancers
+P: The Merry Dancers
+C:Bremner's Scots Reels and Country Dances 1757
+R:Jig (8x32)
+B:RSCDS 4-2
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+|:c|"G7"BAB "C"cGE|"G"GAG "C"G2c|"G7"BAB "C"cGE|"G"DED D2c|\
+    "G7"BAB "C"cGE|"G7"GAG "C"c2e|
+                                  "G"[dB][cA][BG] "Am"[c2E2]B|"D7"AFD D2:|\
+"D7"c|"G"B/c/dB GAG|B/c/dB G2c|B/c/dB GA"A7"G|"D"F/G/AF D2"D7"c|
+      "G"B/c/dB GAG|"G7"B/c/dB "C"c2e|\
+                           "G"[dB][cA][BG] "Am"[c2E2]"G"B|"D"AFD D2 g|\
+      "D7"fef "G"gdB|gdB G2g|
+                             "D7"fef "G"gdB|"D"AFD D2 g|\
+      "D7"fef "G"gdB|"D7"def "G"gdB|"Am"cac "G"BgB|"D7"AFD "G"G2|]
+%%center Book04/0402-Merry_Dancers-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0403
+T: Queen's Welcome
+P: Loch Earn
+C:Niel Gow's 2nd Collection 1788
+R:Reel (8x32)
+B:RSCDS 4-3
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:G
+"G"[g2d2B2G2]dB G2BG|"Am"E2AG FDD2|"G"[g2d2B2G2]dB G2BG|"Am"EA"D"FD "G"G2Bd|
+"G"[g2d2B2G2]dB G2BG|"Am"E2AG FDD2|"G"[g2d2B2G2]dB G2BG|"Am"EA"D"FD "G"G2Bd||
+"Em"efge "B7"fgaf|"Em"gfge "D"fddf|\
+            "Em"ef"A7"ge "D"fg"D7"af|"G"gf"D7"ed "G"g2 Bd|
+"C"efge "G"dBgB|"Am"ca"G"Bg "D"AF"D7"ED|"G"GABG "C"EGce|"D7"dBcA "G"G2 z2|]
+%%center Book04/0403-Queens_Welcome-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0404
+T: Kenmure's On and Awa'
+P: Kenmure's On and Awa'
+C:Johnson's Musical Museum 1792
+R:Jig (8x24) ABB
+B:RSCDS 4-4
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+B/A/|"G"G>AB gdB|d>ed "D7"dBA|"G"G>AB gdB|"A7"A>BA "D7"ABA|
+     "G"G>AB gdB|def "C"gfe|"G"dcB "D7"cBA|"G"G>AG G2||
+|:d|"G"g2d "C"ed"G"B|d>ed "D7"dba|"G"g2d "C"ed"G"B|"A7"A>BA "D7"A2d|
+    "G"g2d edB|"G"def "C"gfe|"G"dcB "D7"cBA|"G"G>AG G2:|
+%%center Book04/0404-Kenmures_On_and_Awa-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0405
+T: Light and Airy
+P: Light and Airy
+C:Niel Gow's Collection
+R:Jig (8x32)
+B:RSCDS 4-5
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+Bc|"G"d3 BdB|GBd gdB|1 d3 BdB|"D"A2B "D7"c2 e:|2 \
+                     "Am"cac "G"BgB|"Am"A2B "D7"c2e||
+   "G"gag gdB|"Em"gag "D7"[b2f2B2] a|"G"gag gdB |"D"A2B "D7"c2 e|\
+   "G"gbg "D7"ac'a|"G"gbg "D"faf|
+                                 "G"gfe dcB|"Am"A2B "D7"c2 e||\
+   "G"dBG G2B|dBG Bdg|"G"dBG G2B|"D"A2B "D7"c2 e|
+   "G"dBG GBd|"G"gfe "G7"dcB|"Am"cac "G"BgB |"Am"A2B "D7"c2e ||\
+   "G"gag gdB|"Em"gag "D7"[b2f2B2] a|
+                                     "G"gag gdB |"D"A2B "D7"c2 e|\
+   "G"gbg "D7"ac'a|"G"gbg "D7"faf|"G"gfe dcB|"D7"[A3F3C3] "G"[G2B,2]|]
+%%center Book04/0405-Light_and_Airy-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0406
+T: 92nd, The / Marquis of Huntly's Highlanders, The
+P: Marquis of Huntly's Highlanders
+C:Traditional
+R:Strathspey (8x24)
+B:RSCDS 4-6
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:A
+f |\
+"A"e>A c/B/A e>A c>A | "G"B<=GG>B d<GG>B |\
+"A"e>A c/B/A e>A c>A | "Em"B>=G "G"E>d "A"c<AA>d |
+"A"e>A c/B/A e>A c>A | "G"B<=GG>B d<GG>B |\
+"A"e>A c/B/A e>A c>A | "Em"B>=G "G"E>d "A"c<AA>d ||
+|: B |\
+"A"A<ag>a "D"f>a"A"e>d | "G"B<=gd>=c B<=GG>B |\
+"A"A<ag>a e>A c>A | "D"f<a"E7"e>d "A"c<AA>B |
+"A"A<ag>a "D"f>a"A"e>d | "G"B<=gd>=c B<=GG>B |\
+"A"c>A e>A a>A e>A | "G"d>B =G>B "A"c<AA :|
+%%center Book04/0406-Ninety_Second_The_Marquis_of_Huntlys_Highlanders-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0407
+T: The Foula Reel
+P: The Foula Reel
+C:Collected in Shetland
+R:Jig (4x40) ABABB
+B:RSCDS 4-7
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:G
+D|:"C"E2G G2e|"Bm"edB BAB|"Em"G2B "D7"A2B|"G"G2A "D"GED|
+   "C"E2G G2e|"Bm"edB "B7"BAB|"G"G2B "Am"A2B|"D7"[d3F3] [D3C3]:|
+ |:"G"edB ABd|edB BAG|"Em"g2B A2B|"C"G2A "D7"GED|
+|  "G"edB ABd|edB BAG|"Em"g2B "Am"A2B|[1"D7"[d3F3][D3C3]:|2 "D7"[d3F3] "G"G3:|
+%%center Book04/0407-Foula_Reel-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0408
+T: Waltz Country Dance
+P: Come o'er the Stream, Charlie
+C:Traditional
+R:Waltz (nx40) AABCC
+B:RSCDS 4-8
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:3/4
+L:1/8
+K:G
+D2|:"G"[G3B,3] B d2|d2 B2 "C"e2|"G"d2 B2 g2|"Bm"d2 B2 "B7"A2|\
+    "Em"G3 B d2|"G"d2 B2 "Em"G2|\
+            "G"D2 B2 "D7"[A2C2]|1"G"[G4B,4] "D7"[D2C2]:|2 "G"[G4B,4]||
+d2|"G"g3 f g2|"C"e2 f2 g2|"A7"e2 a2 g2|"D"f2 "D/E"e2 "D7/F#"d2|\
+   "G"g3 f "G/B"g2|"C"e2 "G/B"d2 "D7/A"c2|"G"B2 "D/F#"A2 "A7/E"G2|"D"d4 "G7"B2|
+   "Am"c2 e2 "D7"c2|"G"B2 d2 g2|d3 B "A7"AG|"D"B2 A2 "D7"d2|\
+   "G"g3 "Em"x f "C"e2|"G"d2 B2 "Em"G2|"G"D2 B2 "D7"[A2C2]|"G"[G4B,4]||
+B2|"Am"c2 e2 "D7"c2|"G"B2 d2 g2|d3 B "A7"AG|"D"B2 A2 "D7"d2|\
+   "G"g3 "Em"x f "C"e2|"G"d2 B2 "Em"G2|"G"D2 B2 "D7"[A2C2]|"G"[G4B,4]|]
+%%center Book04/0408-Waltz_Country_Dance-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0409
+T: Highland Laddie
+P: Cairney Mount
+C:Aird's Collection, 1788
+R:Reel (8x32)
+B:RSCDS 4-9
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:C
+L:1/8
+K:D
+dB|"D"A2D2 F2A2|"G"BAGF "A"E2dB|"D"A2D2 "D7"F2A2|"G"Bc"D"dA F2"A"A2|
+   "Bm"D2d2 "D"d2ef|"Em"e2E2 "A"[E3C3]D|"D"F2A2 "G"BcdB|"D"A2 "G"D2 "D"D2||
+A2|"D"d3e defd|"Em"gfed "A"e2fe|"D"d2A2 "D7"F2A2|"G"Bc"D"dA F2"A"A2|
+   "Bm"D2d2 "D"d2ef|"G"e2E2 "A"[E3C3]D|"D"F2A2 "G"BcdB|"D"A2 "G"D2 "D"D2|]
+%%center Book04/0409-Highland_Laddie-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0410
+T: Haughs o' Cromdale
+P: Haughs o' Cromdale
+C:Traditional
+R:Strathspey (8x16)
+B:RSCDS 4-10
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:4/4
+L:1/8
+K:Am
+a|"Am"e<A A>B "Em7"e>d B<d|"Am"e<A A>B "Em"G>A B<d|\
+  "Am"e<A A>B "Em7"e>d B<d|"Am"e>g "Em"e/d/c/B/ "Am"A2 Aa|
+  "Am"e<A A>B "Em7"e>d B<d|"Am"e<A A>B "Em"G>A B<d|\
+  "Am"e<A A>B "Em7"e>d B<d|"Am"e>g "Em"e/d/c/B/ "Am"A2 A||
+B|"G"G<g g>a g/^f/e/f/ g2|B<d d>e e/d/c/B/ d2|\
+  "Am"e<a a>b c'>a "G"b>g||"Am"e>g "Em"e/d/c/B/ "Am"A2 A>B|
+  "G"G<g "C"g>a "G"g/^f/e/f/ g2|B<d d>e e/d/c/B/ d2|\
+  "Am"e<a a>b c'>a "G"b>g||"Am"e>g "Em"e/d/c/B/ "Am"A2 A|]
+%%center Book04/0410-Haughs_o_Cromdale-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0411
+T: The Falkland Beauty
+P: The Falkland Beauty
+C:Traditional
+R:Jig (8x24)
+B:RSCDS 4-11
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:6/8
+L:1/8
+K:Bb
+d/e/|"Bb"fge "F7"dec|"Gm"BAB "Eb"GF"F7"E|"Bb"D2F B2c|"F"d2c "F7"cde|\
+     "Bb"fge "F7"de"D7"c|"Gm"BAB "Eb"GFE|
+                                         "Bb"D2F "F7"B2c|"Bb"d2B [B2D2]||\
+   f|"Bb"b2B d2B|b2B d2B|"F7"A2c cdB|A2c c2f|
+     "Bb"b2B d2B|b2B d2B|F2B "F7"[d2A2]B|"Bb"d2B [B2D2]|\
+   e|"Bb"d2f "Eb"g2f|"Bb"d2f "Eb"g2f|
+                                     g2f "Cm"e2d|"F7"d2c c3|\
+     "Bb"d2f "Eb"g2f|"Bb"d2f "Eb"g2f|"Cm"[g2e2c2G2]f "F9"[g2e2c2A2]a|\
+                         "Bb"[b3f3d3B3] b2:|
+%%center Book04/0411-Falkland_Beauty-AL.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 0412
+T: Corn Rigs
+P: Corn Rigs
+C:Ramsay's Tea Table Miscellany, 1725
+R:Reel (8x32)
+B:RSCDS 4-12
+Z:Anselm Lingnau <anselm@strathspey.org>
+M:2/4
+L:1/16
+K:C
+G2|"C"c2cd e2dc|"G"BABc d2G2|"C"c2cd efed|"C"c2[g2c2G2][g2c2G2] G2|
+   "C"c2cd fedc|"G"BABc d2"C"G2|"F"AB"Am/E"cA "Dm"dc"G"BA|"C"G2[c2G2][c2G2]::
+G2|"C"c2[g2c2G2]e2[g2c2G2]|"G"BABc d2G2|"C"c2g2 efd"G7"e|"C"c2g2g2 G2|
+   "C7"c2g2 "F"agfe|"Dm"fedc "G"B2G2|\
+                           "F"AB"Am/E"cA "Dm"dc"G7"BA|"C"G2[c2G2][c2G2]:|
+%%center Book04/0412-Corn_Rigs-AL.abc
+
+%%newpage
+%%center OTHER TRANSCRIPTIONS
+%%sep 3 1 500
+%%sep 1 1 500
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 04011
+T: Torryburn Lassies
+R: reel
+B: RSCDS 4-1
+N: Renamed by N. Gow from "Tadie's Wattle" in Aird 1782.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: G
+|: "G"G2BG     Bdd2 | "C"c2ec    egg2 |  "G"G2BG     Bcdg | "Am"edcB "D7"A2"G"G2 :|
+[| "G"g2bg "D7"afed | "C"edef "G"gdBG |  "G"g2bg "D7"afed |  "C"edef  "G"g2   ga ||
+|| "G"bagf "Em"gfed | "C"edef "G"gdBG | "Am"cBcd  "C"efge |  "G"dBGB "D7"A2"G"G2 |]
+%%center Book04/04011-Torryburn_Lassies-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 04011
+T: Torryburn Lassies
+R: reel
+B: RSCDS 4-1
+N: Renamed by N. Gow from "Tadie's Wattle" in Aird 1782.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: G
+D \
+|: "G"G2BG Bdd2 | "C"c2ec egg2 | "G"G2BG Bcdg | "C"ed"Am"cB "D7"([A2F2] "G"G)z :|
+|: "G"g2bg "D7"afed  | "C"edef "G"gdBG | "G"g2bg "D7"afed  | "C"edef "G"g2 ga |
+| "G"bagf gfed | "C"edef "G"gdBG | "Am"cBcd "C"efge | "G"dBGB "D7"([A2F2] "G"G)z :|
+%%center Book04/04011-Torryburn_Lassies-11.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 04011
+T: Torryburn Lassies
+R: reel
+B: RSCDS 4-1
+N: Renamed by N. Gow from "Tadie's Wattle" in Aird 1782.
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: G
+D \
+|: "G"G2BG Bdd2 | "C"c2ec egg2 | "G"G2BG Bcdg | "C"ed"Am"cB "D7"([A2F2] "G"G)z  |
+|  "G"G2BG Bdd2 | "C"c2ec egg2 | "G"G2BG Bcdg | "C"ed"Am"cB "D7"([A2F2] "G"G)z :|
+|: "G"g2bg "D7"afed  | "C"edef "G"gdBG | "G"g2bg "D7"afed  | "C"edef "G"g2 ga |
+| "G"bagf gfed | "C"edef "G"gdBG | "Am"cBcd "C"efge | "G"dBGB "D7"([A2F2] "G"G)z :|
+%%center Book04/04011-Torryburn_Lassies-6.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 04021
+T: The Merry Dancers
+B: RSCDS 4-2
+B: Bremner's Scots Reels and Country Dances 1757
+M: 6/8
+L: 1/8
+%--------------------
+K: G
+c \
+| "G7"BAB "C"cGE | "G"GAG "C"G2c | "G7"BAB "C"cGE | "D7"DED D2c \
+| "G7"BAB "C"cGE | "G"GAG "C"c2e | "G"dcB "Am"c2B | "D7"AFD D2 :|
+c \
+| "G"B/c/dB GAG | B/c/dB G2c | B/c/dB GAG | "D7"F/G/AF D2c \
+| "G"B/c/dB GAG | "G7"B/c/dB "C"c2e | "G"dcB "Am"c2B | "D7"AFD D2 ||
+g \
+| "D7"fef "G"gdB | gdB G2g | "D7"fef "G"gdB | "D7"AFD D2g \
+| "D7"fef "G"gdB | "D7"def "G"gdB | "Am"cac "G"BgB | "D7"AFD D2 |]
+%%center Book04/04021-Merry_Dancers-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 04031
+T: Loch Earn
+O: Neil Gow's 2nd collection 1788
+R: reel
+B: RSCDS 4-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: G
+|: "G"[g2d2B2G2]dB G2BG | "Am"E2AG "D7"FDD2 | "G"[g2d2B2G2]dB G2BG | "Am"EA"D7"FD "G"G2Bd :|
+|| "C"efge "D7"fgaf | "A7"gfge "D"fddf | "C"efge "D7"fgaf | gfed "G"g2Bd |
+| "C"efge "G"dBgB | "Am"ca"G"Bg "D7"AFED | "G"GABG "C"EGce | "D7"dBcA "G"G3z |]
+%%center Book04/04031-Loch_Earn-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 04031
+T: Loch Earn
+O: Neil Gow's 2nd collection 1788
+R: reel
+B: RSCDS 4-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+%--------------------
+K: G
+|: "G"[g2d2B2G2]dB G2BG | "Am"E2AG "D7"FDD2 | "G"[g2d2B2G2]dB G2BG | "Am"EA"D7"FD "G"G2Bd :|
+|| "C"efge "D7"fgaf | "A7"gfge "D"fddf | "A7"efge "D7"fgaf | "(G)"gf"(D)"ed "G"g2Bd |
+| "C"efge "G"dBgB | "Am"ca"G"Bg "D7"AFED | "G"GABG "C"EGce | "D7"dBcA "G"G3z |]
+%%center Book04/04031-Loch_Earn-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 04061
+T: The Marquis of Huntly's Highlanders
+T: The 92nd
+N: Pinewoods Alternates, notated "Marquis of Huntly RSCDS 4)
+R: strathspey
+B: RSCDS 4-6
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+%--------------------
+K: A
+"(E7)"f \
+| "A"e3A cBA2 e3A c2A | "G"B=G3 G3B d3G G3B \
+| "A"e3A cBA2 e3A c2A | "G"B3=G E3d "A"cA3 A3 :|
+B \
+| "A"A3a g3a f3a e3d | "G"Bg3 d3=c B=G3 G3B \
+| "A"A3a g3a e3A c3A | "D"f3a "E7"e3d "A"cA3 A3 |]
+B \
+| "A"A3a g3a f3a e3d | "G"Bg3 d3=c B=G3 G3B \
+| "A"c3A e3A a3A e3A | "G"d3B =G3B "A"cA3 A3 |]
+%%center Book04/04061-Marquis_of_Huntlys_Highlanders.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 04071
+T: Da Shaalds o' Foula
+O: Shetland
+R: jig
+B: RSCDS 4-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Suitable Pipe Tunes "The Rock and the wee pickle Tow" "Daft Donald".
+M: 6/8
+L: 1/8
+%--------------------
+K: Em
+D \
+|: "Em"E2G G2e | edB BAB | "G"G2B A2B | "C"G2A "D"GED \
+|  "Em"E2G G2e | edB BAB | "G"G2B A2B | "D"d3 D3 :|
+|: "Em"edB ABd | edB BAG | "G"g2B A2B | "C"G2A "D"GED \
+|  "Em"edB ABd | edB BAG | "G"g2B A2B | "D"d3 D3 :|
+%%center Book04/04071-Da_Shaalds_o_Foula-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 04081
+T: Come o'er the stream, Charlie
+O: Trad
+R: waltz
+B: RSCDS 4-8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Title of song by James Hogg, adapted by him to this contemporary Waltz tune circa 1822.
+N: Suitable Pipe Tune "Speed bonnie boat".
+M: 3/4
+L: 1/4
+%--------------------
+K: D
+|: A, \
+| "D"D>FA | "D"AF"G"B | "D"AF"G"B | "D"AF"A7"E | "D"D>FA | AFD | "A7"A,FE | "D"D2 :|
+|| A \
+| "D"d>cd | "G"Bcd | "E7"Bed | "A"cBA | "D"d>cd | "G"BAG | "D"FED | "A"A2 F |
+| "Em"GBG | "D"FAd | A>FE/D/ | "A7"FEA | "G"d>cB | "D"AdF | "A7"AGE | "D"D2 |]
+%%center Book04/04081-Come_oer_the_stream_Charlie-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 04081
+T: Come o'er the stream, Charlie
+O: Trad
+R: waltz
+B: RSCDS 4-8
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Title of song by James Hogg, adapted by him to this contemporary Waltz tune circa 1822.
+N: Suitable Pipe Tune "Speed bonnie boat".
+M: 3/4
+L: 1/4
+%--------------------
+K: G
+|: D | "G"G>Bd | "G"dB"C"e | "G"dB"C"e | "G"dB"D7"A | "G"G>Bd | dBG | "D7"DBA | "G"G2 :|
+y2 d | "G"g>fg | "C"efg | "A7"eag | "D"fed | "G"g>fg | "C"edc | "G"BAG | "D"d2 |]
+|: B | "Am"cec | "G"Bdg | d>BA/G/ | "D7"BAd | "C"g>fe | "G"dgB | "D7"dcA | "G"G2 :|
+%%center Book04/04081-Come_oer_the_stream_Charlie-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 04081
+T: Come o'er the stream, Charlie
+O: Trad
+R: 40-bar waltz
+B: RSCDS 4-8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Title of song by James Hogg, adapted by him to this contemporary Waltz tune circa 1822.
+N: Suitable Pipe Tune "Speed bonnie boat".
+M: 3/4
+L: 1/4
+%--------------------
+K: D
+|: A, \
+| "D"D>FA | "D"AF"G"B | "D"AF"G"B | "D"AF"A7"E | "D"D>FA | AFD | "A7"A,FE | "D"D2 :|
+|| A \
+| "D"d>cd | "G"Bcd | "E7"Bed | "A"cBA | "D"d>cd | "G"BAG | "D"FED | "A"A2 ||
+|: F \
+| "G(Em)"GBG | "D"FAd | A>FE/D/ | "A7"FEA | "G"d>cB | "D"AdF | "A7"AGE | "D"D2 :|
+%%center Book04/04081-Come_oer_the_stream_Charlie-3.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 04111
+T: Falkland Beauty
+R: jig
+B: RSCDS 4-11
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+%--------------------
+K: Bb
+d/e/ \
+|: "Bb"fge dec | BAB GFE | D2F B2c |1 "F7"d2c c2d/e/ :|2 "Bb"d2B "fine"B2 ||
+f \
+|: "Bb"b2B d2B | b2B d2B |1 "F7"A2c cdB | A2c c2f :|2 "F7"F2B "Bb"d2B | d2B B2 ||
+e \
+|: "Bb"d2f "Eb"g2f | "Bb"d2f "Eb"g2f |1 "Eb"g2f e2d | "F7"d2c c3 :|2 "Eb"g2f "F7"g2a | "Bb"b3 "d.C."b2 |]
+%%center Book04/04111-Falkland_Beauty-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 04121
+T: Corn Rigs
+B: RSCDS 4-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: From Ramsay's Tea table miscellany 1725, also in Playford 1687.
+M: C|
+L: 1/8
+%--------------------
+K: C
+|: G2 | "C"c2cd e2dc | "G7"BABc d2G2 | "C"c2cd "G7"efde | "C"c2g2 "(G7)"g2G2 | "C"c2cd e2dc |
+| "G7"BABc dBG2 | "F"ABcA "G7"dcBA | "(C)"G2c2 "C"c2 :: G2 | "C"c2g2 e2g2 | "G7"BABc d2G2 | "C"c2g2 "G7"efde |
+| "C"c2g2 "(G7)"g2G2 | "C"c2g2 "Am"agfe | "Dm"fedc "G7"BcdG | "F"ABcA "G7"dcBA | "(C)"G2c2 "C"c2 :|
+%%center Book04/04121-Corn_Rigs-1.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 04121
+T: Corn Rigs
+B: RSCDS 4-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: From Ramsay's Tea table miscellany 1725, also in Playford 1687.
+M: C|
+L: 1/8
+%--------------------
+K: C
+|: G2 | "C"c2cd e2dc | "G7"BABc d2G2 | "C"c2cd "G7"efde | "C"c2g2 "(G7)"g2G2 | "C"c2cd e2dc |
+| "G7"BABc dBG2 | "F"ABcA "G7"dcBA | "(C)"G2c2 "C"c2 :: G2 | "C"c2g2 e2g2 | "G7"BABc d2G2 | "C"c2g2 "G7"efde |
+| "C"c2g2 "(G7)"g2G2 | "C"c2g2 "Am"agfe | "Dm"fedc | "G7"BcdG | "F"ABcA "G7"dcBA | "(C)"G2c2 "C"c2 :|
+%%center Book04/04121-Corn_Rigs-2.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 04121
+T: Corn Rigs
+T: 8x32R2
+O: RSCDS 4-12
+%--------------------
+K: C
+%%center Book04/04121-Corn_Rigs-4.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 04121
+T: Corn Rigs
+B: RSCDS 4-12
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: From Ramsay's Tea table miscellany 1725, also in Playford 1687.
+M: C|
+L: 1/8
+%--------------------
+K: C
+|: G2 | "C"c2cd e2dc | "G7"BABc d2G2 | "C"c2cd "G7"efde | "C"c2g2 "(G7)"g2G2 | "C"c2cd e2dc |
+| "G7"BABc dBG2 | "F"ABcA "G7"dcBA | "(C)"G2c2 "C"c2 :: G2 | "C"c2g2 e2g2 | "G7"BABc d2G2 | "C"c2g2 "G7"efde |
+| "C"c2g2 "(G7)"g2G2 | "C"c2g2 "Am"agfe | "Dm"fedc | "G7"BcdG | "F"ABcA "G7"dcBA | "(C)"G2c2 "C"c2 :|
+%%center Book04/04121-Corn_Rigs-5.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Come o'er the stream, Charlie
+O: Trad
+R: waltz
+B: RSCDS 4-8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Title of song by James Hogg, adapted by him to this contemporary Waltz tune circa 1822.
+M: 3/4
+L: 1/4
+K: D
+A, |\
+"D"D>FA | "D"AF"G"B | "D"AF"G"B | "D"AF"A7"E |\
+"D"D>FA | AFD | "A7"A,FE | "D"D2 :|
+A |\
+"D"d>cd | "G"Bcd | "E7"Bed | "A"cBA |\
+"D"d>cd | "G"BAG | "D"FED | "A"A2 ||
+F |\
+"Em"GBG | "D"FAd | A>FE/D/ | "A7"FEA |\
+"G"d>cB | "D"AdF | "A7"AGE | "D"D2 |]
+%%center Book04/ComeOerTheStreamCharlie-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Come o'er the stream, Charlie
+O: Trad
+R: waltz
+B: RSCDS 4-8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Title of song by James Hogg, adapted by him to this contemporary Waltz tune circa 1822.
+M: 3/4
+L: 1/4
+K: D
+A, |\
+"D"D>FA | "D"AF"G"B | "D"AF"G"B | "D"AF"A7"E |\
+"D"D>FA | AFD | "A7"A,FE | "D"D2 :|
+A |\
+"D"d>cd | "G"Bcd | "E7"Bed | "A"cBA |\
+"D"d>cd | "G"BAG | "D"FED | "A"A2 ||
+F |\
+"Em"GBG | "D"FAd | A>FE/D/ | "A7"FEA |\
+"G"d>cB | "D"AdF | "A7"AGE | "D"D2 |]
+%%center Book04/ComeOerTheStreamCharlie_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Come o'er the stream, Charlie
+O: Trad
+R: 40-bar waltz
+B: RSCDS 4-8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Title of song by James Hogg, adapted by him to this contemporary Waltz tune circa 1822.
+N: Suitable Pipe Tune "Speed bonnie boat".
+M: 3/4
+L: 1/4
+K: D
+|: A, \
+| "D"D>FA | "D"AF"G"B | "D"AF"G"B | "D"AF"A7"E | "D"D>FA | AFD | "A7"A,FE | "D"D2 :|
+|| A \
+| "D"d>cd | "G"Bcd | "E7"Bed | "A"cBA | "D"d>cd | "G"BAG | "D"FED | "A"A2 ||
+|: F \
+| "G(Em)"GBG | "D"FAd | A>FE/D/ | "A7"FEA | "G"d>cB | "D"AdF | "A7"AGE | "D"D2 :|
+%%center Book04/ComeOerTheStreamCharlie_40-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Come o'er the stream, Charlie
+O: Trad
+R: 40-bar waltz
+B: RSCDS 4-8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Title of song by James Hogg, adapted by him to this contemporary Waltz tune circa 1822.
+N: Suitable Pipe Tune "Speed bonnie boat".
+M: 3/4
+L: 1/4
+K: D
+|: A, \
+| "D"D>FA | "D"AF"G"B | "D"AF"G"B | "D"AF"A7"E | "D"D>FA | AFD | "A7"A,FE | "D"D2 :|
+|| A \
+| "D"d>cd | "G"Bcd | "E7"Bed | "A"cBA | "D"d>cd | "G"BAG | "D"FED | "A"A2 ||
+|: F \
+| "G(Em)"GBG | "D"FAd | A>FE/D/ | "A7"FEA | "G"d>cB | "D"AdF | "A7"AGE | "D"D2 :|
+%%center Book04/ComeOerTheStreamCharlie_40_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Come o'er the stream, Charlie
+O: Trad
+R: 40-bar waltz
+B: RSCDS 4-8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Title of song by James Hogg, adapted by him to this contemporary Waltz tune circa 1822.
+N: Suitable Pipe Tune "Speed bonnie boat".
+M: 3/4
+L: 1/4
+K: D
+|: A, \
+| "D"D>FA | "D"AF"G"B | "D"AF"G"B | "D"AF"A7"E | "D"D>FA | AFD | "A7"A,FE | "D"D2 :|
+|| A \
+| "D"d>cd | "G"Bcd | "E7"Bed | "A"cBA | "D"d>cd | "G"BAG | "D"FED | "A"A2 ||
+|: F \
+| "G(Em)"GBG | "D"FAd | A>FE/D/ | "A7"FEA | "G"d>cB | "D"AdF | "A7"AGE | "D"D2 :|
+%%center Book04/ComeOerTheStreamCharlie_40_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Come o'er the stream, Charlie
+O: Trad
+R: waltz
+B: RSCDS 4-8
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Title of song by James Hogg, adapted by him to this contemporary Waltz tune circa 1822.
+M: 3/4
+L: 1/4
+K: D
+A, |\
+"D"D>FA | "D"AF"G"B | "D"AF"G"B | "D"AF"A7"E |\
+"D"D>FA | AFD | "A7"A,FE | "D"D2 :|
+A |\
+"D"d>cd | "G"Bcd | "E7"Bed | "A"cBA |\
+"D"d>cd | "G"BAG | "D"FED | "A"A2 ||
+F |\
+"Em"GBG | "D"FAd | A>FE/D/ | "A7"FEA |\
+"G"d>cB | "D"AdF | "A7"AGE | "D"D2 |]
+%%center Book04/ComeOerTheStreamCharlie_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Corn Rigs
+B: RSCDS 4-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: From Ramsay's Tea table miscellany 1725, also in Playford 1687.
+M: C|
+L: 1/8
+K: C
+G2 |\
+"C"c2cd e2dc | "G7"BABc d2G2 |\
+"C"c2cd "G7"efde | "C"c2g2 "(G7)"g2G2 |\
+"C"c2cd e2dc |
+| "G7"BABc dBG2 |\
+"F"ABcA "G7"dcBA | "(C)"G2c2 "C"c2 :: G2 |\
+"C"c2g2 e2g2 | "G7"BABc d2G2 |\
+"C"c2g2 "G7"efde |
+| "C"c2g2 "(G7)"g2G2 |\
+"C"c2g2 "Am"agfe | "Dm"fedc "G7"BcdG |\
+"F"ABcA "G7"dcBA | "(C)"G2c2 "C"c2 :|
+%%center Book04/CornRigsM-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Corn Rigs
+B: RSCDS 4-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: From Ramsay's Tea table miscellany 1725, also in Playford 1687.
+M: C|
+L: 1/8
+K: C
+G2 |\
+"C"c2cd e2dc | "G7"BABc d2G2 |\
+"C"c2cd "G7"efde | "C"c2g2 "(G7)"g2G2 |\
+"C"c2cd e2dc |
+| "G7"BABc dBG2 |\
+"F"ABcA "G7"dcBA | "(C)"G2c2 "C"c2 :: G2 |\
+"C"c2g2 e2g2 | "G7"BABc d2G2 |\
+"C"c2g2 "G7"efde |
+| "C"c2g2 "(G7)"g2G2 |\
+"C"c2g2 "Am"agfe | "Dm"fedc "G7"BcdG |\
+"F"ABcA "G7"dcBA | "(C)"G2c2 "C"c2 :|
+%%center Book04/CornRigsM_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Corn Rigs
+B: RSCDS 4-12
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: From Ramsay's Tea table miscellany 1725, also in Playford 1687.
+M: C|
+L: 1/8
+K: C
+G2 |\
+"C"c2cd e2dc | "G7"BABc d2G2 |\
+"C"c2cd "G7"efde | "C"c2g2 "(G7)"g2G2 |\
+"C"c2cd e2dc |
+| "G7"BABc dBG2 |\
+"F"ABcA "G7"dcBA | "(C)"G2c2 "C"c2 :: G2 |\
+"C"c2g2 e2g2 | "G7"BABc d2G2 |\
+"C"c2g2 "G7"efde |
+| "C"c2g2 "(G7)"g2G2 |\
+"C"c2g2 "Am"agfe | "Dm"fedc "G7"BcdG |\
+"F"ABcA "G7"dcBA | "(C)"G2c2 "C"c2 :|
+%%center Book04/CornRigsM_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Falkland Beauty
+R: jig
+B: RSCDS 4-11
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+d/e/ \
+|: "Bb"fge dec | BAB GFE | D2F B2c |1 "F7"d2c c2d/e/ :|2 "Bb"d2B "fine"B2 ||
+f \
+|: "Bb"b2B d2B | b2B d2B |1 "F7"A2c cdB | A2c c2f :|2 "F7"F2B "Bb"d2B | d2B B2 ||
+e \
+|: "Bb"d2f "Eb"g2f | "Bb"d2f "Eb"g2f |1 "Eb"g2f e2d | "F7"d2c c3 :|2 "Eb"g2f "F7"g2a | "Bb"b3 "d.C."b2 |]
+%%center Book04/FalklandBeautyJ-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Falkland Beauty
+R: jig
+B: RSCDS 4-11
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+d/e/ \
+|: "Bb"fge dec | BAB GFE | D2F B2c |1 "F7"d2c c2d/e/ :|2 "Bb"d2B "fine"B2 ||
+f \
+|: "Bb"b2B d2B | b2B d2B |1 "F7"A2c cdB | A2c c2f :|2 "F7"F2B "Bb"d2B | d2B B2 ||
+e \
+|: "Bb"d2f "Eb"g2f | "Bb"d2f "Eb"g2f |1 "Eb"g2f e2d | "F7"d2c c3 :|2 "Eb"g2f "F7"g2a | "Bb"b3 "d.C."b2 |]
+%%center Book04/FalklandBeautyJ_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Falkland Beauty
+R: jig
+B: RSCDS 4-11
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+d/e/ \
+|: "Bb"fge dec | BAB GFE | D2F B2c |1 "F7"d2c c2d/e/ :|2 "Bb"d2B "fine"B2 ||
+f \
+|: "Bb"b2B d2B | b2B d2B |1 "F7"A2c cdB | A2c c2f :|2 "F7"F2B "Bb"d2B | d2B B2 ||
+e \
+|: "Bb"d2f "Eb"g2f | "Bb"d2f "Eb"g2f |1 "Eb"g2f e2d | "F7"d2c c3 :|2 "Eb"g2f "F7"g2a | "Bb"b3 "d.C."b2 |]
+%%center Book04/FalklandBeautyJ_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Loch Earn
+O: Neil Gow's 2nd collection 1788
+R: reel
+B: RSCDS 4-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: "G"[g2d2B2G2]dB G2BG | "Am"E2AG "D7"FDD2 | "G"[g2d2B2G2]dB G2BG | "Am"EA"D7"FD "G"G2Bd :|
+|| "C"efge "D7"fgaf | "A7"gfge "D"fddf | "C"efge "D7"fgaf | gfed "G"g2Bd |
+| "C"efge "G"dBgB | "Am"ca"G"Bg "D7"AFED | "G"GABG "C"EGce | "D7"dBcA "G"G3z |]
+%%center Book04/LochEarn-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Loch Earn
+O: Neil Gow's 2nd collection 1788
+R: reel
+B: RSCDS 4-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: "G"[g2d2B2G2]dB G2BG | "Am"E2AG "D7"FDD2 | "G"[g2d2B2G2]dB G2BG | "Am"EA"D7"FD "G"G2Bd :|
+|| "C"efge "D7"fgaf | "A7"gfge "D"fddf | "C"efge "D7"fgaf | gfed "G"g2Bd |
+| "C"efge "G"dBgB | "Am"ca"G"Bg "D7"AFED | "G"GABG "C"EGce | "D7"dBcA "G"G3z |]
+%%center Book04/LochEarn_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Loch Earn
+O: Neil Gow's 2nd collection 1788
+R: reel
+B: RSCDS 4-3
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: "G"[g2d2B2G2]dB G2BG | "Am"E2AG "D7"FDD2 | "G"[g2d2B2G2]dB G2BG | "Am"EA"D7"FD "G"G2Bd :|
+|| "C"efge "D7"fgaf | "A7"gfge "D"fddf | "C"efge "D7"fgaf | gfed "G"g2Bd |
+| "C"efge "G"dBgB | "Am"ca"G"Bg "D7"AFED | "G"GABG "C"EGce | "D7"dBcA "G"G3z |]
+%%center Book04/LochEarn_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Marquis of Huntly's Highlanders
+T: The 92nd
+N: Pinewoods Alternates, notated "Marquis of Huntly RSCDS 4)
+R: strathspey
+B: RSCDS 4-6
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+"(E7)"f \
+| "A"e3A cBA2 e3A c2A | "G"B=G3 G3B d3G G3B \
+| "A"e3A cBA2 e3A c2A | "G"B3=G E3d "A"cA3 A3 :|
+B \
+| "A"A3a g3a f3a e3d | "G"Bg3 d3=c B=G3 G3B \
+| "A"A3a g3a e3A c3A | "D"f3a "E7"e3d "A"cA3 A3 |]
+B \
+| "A"A3a g3a f3a e3d | "G"Bg3 d3=c B=G3 G3B \
+| "A"c3A e3A a3A e3A | "G"d3B =G3B "A"cA3 A3 |]
+%%center Book04/MarquisOfHuntlysHighlanders_A-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Marquis of Huntly's Highlanders
+T: The 92nd
+N: Pinewoods Alternates, notated "Marquis of Huntly RSCDS 4)
+R: strathspey
+B: RSCDS 4-6
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: A
+"(E7)"f \
+| "A"e3A cBA2 e3A c2A | "G"B=G3 G3B d3G G3B \
+| "A"e3A cBA2 e3A c2A | "G"B3=G E3d "A"cA3 A3 :|
+B \
+| "A"A3a g3a f3a e3d | "G"Bg3 d3=c B=G3 G3B \
+| "A"A3a g3a e3A c3A | "D"f3a "E7"e3d "A"cA3 A3 |]
+B \
+| "A"A3a g3a f3a e3d | "G"Bg3 d3=c B=G3 G3B \
+| "A"c3A e3A a3A e3A | "G"d3B =G3B "A"cA3 A3 |]
+%%center Book04/MarquisOfHuntlysHighlanders_A_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: The Merry Dancers
+B: RSCDS 4-2
+B: Bremner's Scots Reels and Country Dances 1757
+M: 6/8
+L: 1/8
+K: G
+c \
+| "G"BAB "C"cGE | "G"GAG "C"G2c | "G"BAB "C"cGE | "D7"DED D2c \
+| "G"BAB "C"cGE | "G"GAG "C"c2e | "G"dcB "Am"c2B | "D7"AFD D2 :|
+c \
+| "G"B/c/dB GAG | B/c/dB G2c | B/c/dB GAG | "D7"F/G/AF D2c \
+| "G"B/c/dB GAG | "G7"B/c/dB "C"c2e | "G"dcB "Am"c2B | "D7"AFD D2 ||
+g \
+| "D7"fef "G"gdB | gdB G2g | "D7"fef "G"gdB | "D7"AFD D2g \
+| "D7"fef "G"gdB | "D7"def "G"gdB | "Am"cac "G"BgB | "D7"AFD D2 |]
+%%center Book04/MerryDancers_G.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Da Shaalds o' Foula
+O: Shetland
+R: jig
+B: RSCDS 4-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Suitable Pipe Tunes "The Rock and the wee pickle Tow" "Daft Donald".
+M: 6/8
+L: 1/8
+K: Em
+D \
+|: "Em"E2G G2e | edB BAB | "G"G2B A2B | "C"G2A "D"GED \
+|  "Em"E2G G2e | edB BAB | "G"G2B A2B | "D"d3 D3 :|
+|: "Em"edB ABd | edB BAG | "G"g2B A2B | "C"G2A "D"GED \
+|  "Em"edB ABd | edB BAG | "G"g2B A2B | "D"d3 D3 :|
+%%center Book04/ShaaldsOFoula-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Da Shaalds o' Foula
+O: Shetland
+R: jig
+B: RSCDS 4-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Suitable Pipe Tunes "The Rock and the wee pickle Tow" "Daft Donald".
+M: 6/8
+L: 1/8
+K: Em
+D \
+|: "Em"E2G G2e | edB BAB | "G"G2B A2B | "C"G2A "D"GED \
+|  "Em"E2G G2e | edB BAB | "G"G2B A2B | "D"d3 D3 :|
+|: "Em"edB ABd | edB BAG | "G"g2B A2B | "C"G2A "D"GED \
+|  "Em"edB ABd | edB BAG | "G"g2B A2B | "D"d3 D3 :|
+%%center Book04/ShaaldsOFoula_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Da Shaalds o' Foula
+O: Shetland
+R: jig
+B: RSCDS 4-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Suitable Pipe Tunes "The Rock and the wee pickle Tow" "Daft Donald".
+M: 6/8
+L: 1/8
+K: Em
+D \
+|: "Em"E2G G2e | edB BAB | "G"G2B A2B | "C"G2A "D"GED \
+|  "Em"E2G G2e | edB BAB | "G"G2B A2B | "D"d3 D3 :|
+|: "Em"edB ABd | edB BAG | "G"g2B A2B | "C"G2A "D"GED \
+|  "Em"edB ABd | edB BAG | "G"g2B A2B | "D"d3 D3 :|
+%%center Book04/ShaaldsOFoula_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Torryburn Lassies
+R: reel
+B: RSCDS 4-1
+N: Renamed by N. Gow from "Tadie's Wattle" in Aird 1782.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: "G"G2BG Bdd2 | "C"c2ec egg2 | "G"G2BG Bcdg | "Am"edcB "D7"A2"G"G2 :|
+[| "G"g2bg "D7"afed | "C"edef "G"gdBG | "G"g2bg "D7"afed | "C"edef "G"g2 ga ||
+|| "G"bagf "(Em)"gfed | "C"edef "G"gdBG | "Am"cBcd "(C)"efge | "G"dBGB "D7"A2"G"G2 |]
+%%center Book04/TorrburnLassiesR-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Torryburn Lassies
+R: reel
+B: RSCDS 4-1
+N: Renamed by N. Gow from "Tadie's Wattle" in Aird 1782.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: "G"G2BG Bdd2 | "C"c2ec egg2 | "G"G2BG Bcdg | "Am"edcB "D7"A2"G"G2 :|
+[| "G"g2bg "D7"afed | "C"edef "G"gdBG | "G"g2bg "D7"afed | "C"edef "G"g2 ga ||
+|| "G"bagf "(Em)"gfed | "C"edef "G"gdBG | "Am"cBcd "(C)"efge | "G"dBGB "D7"A2"G"G2 |]
+%%center Book04/TorrburnLassiesR_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Torryburn Lassies
+R: reel
+B: RSCDS 4-1
+N: Renamed by N. Gow from "Tadie's Wattle" in Aird 1782.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: "G"G2BG Bdd2 | "C"c2ec egg2 | "G"G2BG Bcdg | "Am"edcB "D7"A2"G"G2 :|
+[| "G"g2bg "D7"afed | "C"edef "G"gdBG | "G"g2bg "D7"afed | "C"edef "G"g2 ga ||
+|| "G"bagf "(Em)"gfed | "C"edef "G"gdBG | "Am"cBcd "(C)"efge | "G"dBGB "D7"A2"G"G2 |]
+%%center Book04/TorrburnLassiesR_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Torryburn Lassies
+R: reel
+B: RSCDS 4-1
+N: Renamed by N. Gow from "Tadie's Wattle" in Aird 1782.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D \
+|: "G"G2BG Bdd2 | "C"c2ec egg2 | "G"G2BG Bcdg | "Am"edcB "D7"[A2F2] "G"Gz :|
+|: "G"g2bg "D7"afed  | "C"edef "G"gdBG | "G"g2bg "D7"afed  | "C"edef "G"g2 ga |
+| "G"bagf "(Em)"gfed | "C"edef "G"gdBG | "Am"cBcd "(C)"efge | "G"dBGB "D7"[A2F2] "G"Gz :|
+%%center Book04/TorryburnLassies-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Torryburn Lassies
+R: reel
+B: RSCDS 4-1
+N: Renamed by N. Gow from "Tadie's Wattle" in Aird 1782.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: "G"G2BG Bdd2 | "C"c2ec egg2 | "G"G2BG Bcdg | "Am"edcB "D7"A2"G"G2 :|
+[| "G"g2bg "D7"afed | "C"edef "G"gdBG | "G"g2bg "D7"afed | "C"edef "G"g2 ga ||
+|| "G"bagf "(Em)"gfed | "C"edef "G"gdBG | "Am"cBcd "(C)"efge | "G"dBGB "D7"A2"G"G2 |]
+%%center Book04/TorryburnLassiesR-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Torryburn Lassies
+R: reel
+B: RSCDS 4-1
+N: Renamed by N. Gow from "Tadie's Wattle" in Aird 1782.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: "G"G2BG Bdd2 | "C"c2ec egg2 | "G"G2BG Bcdg | "Am"edcB "D7"A2"G"G2 :|
+[| "G"g2bg "D7"afed | "C"edef "G"gdBG | "G"g2bg "D7"afed | "C"edef "G"g2 ga ||
+|| "G"bagf "(Em)"gfed | "C"edef "G"gdBG | "Am"cBcd "(C)"efge | "G"dBGB "D7"A2"G"G2 |]
+%%center Book04/TorryburnLassiesR_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Torryburn Lassies
+R: reel
+B: RSCDS 4-1
+N: Renamed by N. Gow from "Tadie's Wattle" in Aird 1782.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: "G"G2BG Bdd2 | "C"c2ec egg2 | "G"G2BG Bcdg | "Am"edcB "D7"A2"G"G2 :|
+[| "G"g2bg "D7"afed | "C"edef "G"gdBG | "G"g2bg "D7"afed | "C"edef "G"g2 ga ||
+|| "G"bagf "(Em)"gfed | "C"edef "G"gdBG | "Am"cBcd "(C)"efge | "G"dBGB "D7"A2"G"G2 |]
+%%center Book04/TorryburnLassiesR_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Torryburn Lassies
+R: reel
+B: RSCDS 4-1
+N: Renamed by N. Gow from "Tadie's Wattle" in Aird 1782.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D \
+|: "G"G2BG Bdd2 | "C"c2ec egg2 | "G"G2BG Bcdg | "Am"edcB "D7"[A2F2] "G"Gz :|
+|: "G"g2bg "D7"afed  | "C"edef "G"gdBG | "G"g2bg "D7"afed  | "C"edef "G"g2 ga |
+| "G"bagf "(Em)"gfed | "C"edef "G"gdBG | "Am"cBcd "(C)"efge | "G"dBGB "D7"[A2F2] "G"Gz :|
+%%center Book04/TorryburnLassies_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Torryburn Lassies
+R: reel
+B: RSCDS 4-1
+N: Renamed by N. Gow from "Tadie's Wattle" in Aird 1782.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D \
+|: "G"G2BG Bdd2 | "C"c2ec egg2 | "G"G2BG Bcdg | "Am"edcB "D7"[A2F2] "G"Gz :|
+|: "G"g2bg "D7"afed  | "C"edef "G"gdBG | "G"g2bg "D7"afed  | "C"edef "G"g2 ga |
+| "G"bagf "(Em)"gfed | "C"edef "G"gdBG | "Am"cBcd "(C)"efge | "G"dBGB "D7"[A2F2] "G"Gz :|
+%%center Book04/TorryburnLassies_24-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Torryburn Lassies
+R: reel
+B: RSCDS 4-1
+N: Renamed by N. Gow from "Tadie's Wattle" in Aird 1782.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D \
+|: "G"G2BG Bdd2 | "C"c2ec egg2 | "G"G2BG Bcdg | "Am"edcB "D7"[A2F2] "G"Gz :|
+|: "G"g2bg "D7"afed  | "C"edef "G"gdBG | "G"g2bg "D7"afed  | "C"edef "G"g2 ga |
+| "G"bagf "(Em)"gfed | "C"edef "G"gdBG | "Am"cBcd "(C)"efge | "G"dBGB "D7"[A2F2] "G"Gz :|
+%%center Book04/TorryburnLassies_24_2-JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Torryburn Lassies
+R: reel
+B: RSCDS 4-1
+N: Renamed by N. Gow from "Tadie's Wattle" in Aird 1782.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D \
+|: "G"G2BG Bdd2 | "C"c2ec egg2 | "G"G2BG Bcdg | "Am"edcB "D7"[A2F2] "G"Gz :|
+|: "G"g2bg "D7"afed  | "C"edef "G"gdBG | "G"g2bg "D7"afed  | "C"edef "G"g2 ga |
+| "G"bagf "(Em)"gfed | "C"edef "G"gdBG | "Am"cBcd "(C)"efge | "G"dBGB "D7"[A2F2] "G"Gz :|
+%%center Book04/TorryburnLassies_24_JC.abc
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Torryburn Lassies
+R: reel
+B: RSCDS 4-1
+N: Renamed by N. Gow from "Tadie's Wattle" in Aird 1782.
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D \
+|: "G"G2BG Bdd2 | "C"c2ec egg2 | "G"G2BG Bcdg | "Am"edcB "D7"[A2F2] "G"Gz :|
+|: "G"g2bg "D7"afed  | "C"edef "G"gdBG | "G"g2bg "D7"afed  | "C"edef "G"g2 ga |
+| "G"bagf "(Em)"gfed | "C"edef "G"gdBG | "Am"cBcd "(C)"efge | "G"dBGB "D7"[A2F2] "G"Gz :|
+%%center Book04/TorryburnLassies_JC.abc

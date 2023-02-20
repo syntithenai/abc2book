@@ -1,0 +1,26 @@
+X:1
+T: The Jack's Farewell
+N:
+C:
+S:
+A:
+O:
+R:
+M:6/8
+K:Em
+I:speed 150
+%W:
+% voice 1 (1 lines, 24 notes)
+K:Em
+M:6/8
+L:1/16
+g f e2 e2 g2 B2 A2 G2 B2 e2 ^d4 f2 g f e2 e2 g2 B2 B2 e g f2 ^d2 e6 |
+%W:
+% voice 1 (1 lines, 24 notes)
+g f e2 e2 g2 B2 A2 G2 B2 e2 ^d4 f2 g f e2 e2 g2 B2 B2 e g f2 ^d2 e6 |
+%W:
+% voice 1 (1 lines, 25 notes)
+B c d2 d2 B2 G2 G2 g2 a g f2 g4 b2 c' b a2 g2 f2 b2 f2 g f e2 ^d2 e6 |
+%W:
+% voice 1 (1 lines, 25 notes)
+B c d2 d2 B2 G2 G2 g2 a g f2 g4 b2 c' b a2 g2 f2 b2 f2 g f e2 ^d2 e6 ||

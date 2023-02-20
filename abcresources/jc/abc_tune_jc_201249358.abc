@@ -1,0 +1,33 @@
+
+X: 1
+T: Bacca Pipes
+O: Morris Tune
+R: jig
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Ador
+"A"\
+|: "Am"c3 c2e | "G"d2c B3 | "Am"c2B A3 | "G"B2A G3 \
+|  "Am"c3 c2e | "G"d2c B3 | "Am"c2A "G"B2G | "Am"A3 A3 :|
+"B"\
+|: "C"g2f g2e | "G"d2B G3 | "C"g2f g2e | "D"a2f d3 \
+|  "C"g2f g2e | "G"d2c B3 | "Am"c2A "G"B2G | "Am"A3 A3 :|
+
+%%sep 5 1 500
+%%sep 1 1 500
+
+X: 2
+T: Bewicks Hornpipe
+R:hp 32
+Z:P J Headford
+M:4/4
+L:1/8
+Q:1/4=140
+K:D
+|: FG |\
+"D"A2A2 A2A2 | "G"BcdB "D"A2FG | "D"A2A2 A2A2 | "G"BAGF "A7"E2FG |
+"D"A2A2 A2A2 | "G"BcdB "D"A2d2 | "A7"cdef gece | "D"d2d2 d2 :|
+|: de |\
+"D"f2f2 f2ef | "A7"gfed cBAG | "D"FAdf "Em"gfed | "A7"efge "D"f2"A7"e2 |
+"D"f2f2 f2ef | "A7"gfed cBAG | "D"FAdf "A7"gece | "D"d2d2 d2 :|]

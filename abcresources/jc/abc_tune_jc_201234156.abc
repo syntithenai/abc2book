@@ -1,0 +1,18 @@
+X: 20311
+T: Earl Douglas's Lament
+%R: air, waltz
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.31 #1
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: The book uses "pia:" for piano and "for:" for forte; transcribed as !f! and !p!.
+M: 3/4
+L: 1/8
+K: D
+%%slurgraces 1
+%%graceslurs 1
+"_Slow"d>e |\
+Tf3 e d2 | .B2 .d2 z2 | A2 B2 d/e/f | {f}e4 d>e |\
+{de}f3 e d2 | .B2 .d2 z2 | (A<F) f2 Te2 | d4 :: d>e |\
+f4 g2 | a3 b c'2 | d'4 c'>d' | {d'}c'4 a2 |
+Tf2 e2 f2  | a3 b c'2 | d'2 {c'}Tb4 | a4 !p!f>a |\
+g4 f2 | e2 f2 a2 | b2 (d'b)(af) | {f}e4 !f!d>e |\
+{de}f3 e d2 | .B2 .d2 z2 | !p!(A<F) f2 Te2 | d4 :|

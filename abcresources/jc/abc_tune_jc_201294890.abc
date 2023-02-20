@@ -1,0 +1,39 @@
+X:380
+T:Julia
+C:Colin Hume, 2011
+N:For Julia Day on her 50th birthday.
+L:1/4
+M:2/2
+Q:1/2=92
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+%%MIDI chordname 7sus 0 5 7 10
+%%subtitlefont Times-Roman 28
+%%MIDI program 74
+%%MIDI gchord b3c
+%%MIDI chordprog 54
+%%MIDI bassprog 54
+%%MIDI chordvol 80
+%%MIDI bassvol 60
+K:G
+P:A
+[| "G"d3/c/ B2 | "Em"B3/A/ G2 | "Am"Ac BA- | "D7"A2 GA | "Em"B3/A/ G2 | "C"G3/F/ E2 | "Am"A2 Bc | "D7"e2 d2 |
+P:B
+"G"d3/c/ B2 | "Em"B3/A/ G2 | "C"eg fe- | "Am"e2 dc | "G/D"B2 cB | "D"A2 BA | "C"GE G3/A/ | "G"G4 ||
+P:C
+"Bm"d3/c/ B2 | "C"e3/d/ c2 | "A7/C#"e2 ag | "D"f3/e/ d2 | "Em"b2 ag | "C"fe fg | "D"a2 "B7/D#"f2 | "Em"g4 |
+P:D
+"C"g2 fe | "G/D"d3/c/ B2 | "B7"c2 BA | "Em/C#"G3/F/ E2 | "G/D"DG- GA | "G/D"Bd- "C/D"d c | "G/D"B2 "D7"A3/G/ | "G"G4 |]
+N:Replace by blank line and X field
+T:Julia - as a free waltz to end the evening
+M:3/4
+%%MIDI beat 100 95 80
+%%MIDI program 43
+%%MIDI chordprog 50
+%%MIDI bassprog 50
+%%printtempo 0
+Q:1/4=120
+K:G
+[| "G"d3/c/B | "Em"B3/A/G | "Am"AcB | "D7"A2 G/A/ | "Em"B3/A/ G | "C"G3/F/ E | "Am"ABc | "D7"e2d |
+"G"d3/c/B | "Em"B3/A/G | "C"egf | "Am"e2 d/c/ | "G/D"B2 c/B/ | "D"A2 B/A/ | "C"G3/E/ G/A/ | "G"G3 ||
+"Bm"d3/c/B | "C"e3/d/c | "A7/C#"eag | "D"f3/e/ d | "Em"b3/a/g | "C"fe f/g/ | "D"a2 "B7/D#"f | "Em"g3 |
+"C"gfe | "G/D"d3/c/B | "B7"cBA | "Em/C#"G3/F/E | "G/D"DGA | "G/D"Bd "C/D"c | "D7"B2 A | "G"G3 |]

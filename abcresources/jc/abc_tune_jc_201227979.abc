@@ -1,0 +1,24 @@
+X: 11022
+T: DAVID MILLSTONE'S HORNPIPE
+C: Bob McQuillen 24 Dec'01
+B: Bob's Note Book 11 #22
+%R: hornpipe, reel
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Am
+cB \
+| A2AB AGAc | d2dc dcec | A2AB AGAc | BAG2 GABG |
+| A2AB AGAc | d2dc dcec | A2AG AGAc | BAG^F G2 :|
+|: cd \
+| eaag ecAG | Aceg e2cd | eaag ecAG | cecA G2cd |
+| eaag ecAG | cdeg e2ag | ecdc AGed | cAGE G2 :|\
+["Optional last time" cAAG A2 |]
+%%begintext align
+%% There is no way that this
+%% tune will provide adequate compensation to David
+%% Millstone for all the happiness he has brought into my
+%% life, but I guess it could be called a step in the right direction.
+%% Anyhow, it's your tune, David, and it comes to you with sincere
+%% thanks and best wishes always from your friend, Mac.
+%%endtext

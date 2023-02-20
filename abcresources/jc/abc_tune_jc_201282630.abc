@@ -1,0 +1,79 @@
+X: 1
+T: Green and Gold   [D]
+O: Straight & Skillern, London c.1775
+R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu> (chords 2015)
+M: 2/4
+L: 1/16
+K: D
+|:\
+"D"defg .a2.a2 | "A7"abag "D"f2a2 | "Em"gagf "A7"e2g2 | "D"f2af d4 |\
+"A"a2A2 z2a2 | "(D)"a2A2 z2a2 | "A"e4 e4 | "A7"a2e2 A4 :|
+|:\
+"D"agfg f2z2 | "A7"e2A2 z2g2 | "A7"gfef e2z2 | "D"f2[d2D2] z4 |\
+"D"d'3a d'3a | "D"d'2a2 gfed "I"| "Em"e2ge "A7"{d}c2BA | "D"dcde d4 :|
+"Trio"[|\
+"D"d3e f2e2 | d2A2 TB2"(A7)"A2 | "D"d3e f2e2 | d4 e2f2 |\
+"A7"{a}g2{f}e2 "D"{g}f2{e}d2 | {d}c2{B}A2 e2f2 | "A7"{a}g2{f}e2 "D"{g}f2{e}d2 | "A7"e2AB AGFE |
+"D"d3e f2e2 | d2A2 TB2"(A7)"A2 | "D"d3e f2e2 | d4 e2f2 |\
+"A7"{a}g2fe "D"{g}f2ed | "A7"{d}c2{B}A2 "D"d2f2- | "Em"fBge "A7"d2Tc2 | "D"d8 |]
+%%begintext align
+%% The 1st 2d & 3d Cu. foot it & hands round 6 .| the same back
+%% again :| foot it corners & turn .|. foot it the other corners
+%% & turn :|: lead up to the top & cast off .||. lead thro'
+%% the 3d Cu. & cast up :||:
+%%endtext
+
+%%sep 1 1 500
+X: 1
+T: Green and Gold   (G)
+O: Straight & Skillern, London c.1775
+R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu> (chords 2015)
+M: 2/4
+L: 1/16
+K: G
+|:\
+GABc .d2.d2 | dedc B2d2 | cdcB A2c2 | B2dB G4 |\
+d2D2 z2d2 | d2D2 z2d2 | A4 A4 | d2A2 D4 :|
+|:\
+dcBc B2z2 | A2D2 z2c2 | cBAB A2z2 | B2G,2 z4 |\
+g3d g3d | g2d2 cBAG "I"| A2cA {G}F2ED | GFGA G4 :|
+"Trio"[|\
+!p!G3A B2A2 | G2D2 TE2D2 | G3A B2A2 | G4 A2B2 |\
+{d}c2{B}A2 {c}B2{A}G2 | {G}F2{E}D2 A2B2 | {d}c2{B}A2 {c}B2{A}G2 | !f!A2DE DCB,A, |
+G3A B2A2 | G2D2 TE2D2 | !p!G3A B2A2 | G4 A2B2 |\
+{d}c2BA {c}B2AG | {G}F2{E}D2 G2B2- | BEcA G2TF2 | G8 |]
+%%begintext align
+%% The 1st 2d & 3d Cu. foot it & hands round 6 .| the same back
+%% again :| foot it corners & turn .|. foot it the other corners
+%% & turn :|: lead up to the top & cast off .||. lead thro'
+%% the 3d Cu. & cast up :||:
+%%endtext
+
+%%sep 1 1 500
+X: 1
+T: Green and Gold   (A)
+O: Straight & Skillern, London c.1775
+R: reel
+Z: 2014 John Chambers <jc:trillian.mit.edu> (chords 2015)
+M: 2/4
+L: 1/16
+K: A
+|:\
+ABcd .e2.e2 | efed c2e2 | dedc B2d2 | c2ec A4 |\
+e2E2 z2e2 | e2E2 z2e2 | B4 B4 | e2B2 E4 :|
+|:\
+edcd c2z2 | B2E2 z2d2 | dcBc B2z2 | c2A,2 z4 |\
+a3e a3e | a2e2 dcBA "I"| B2dB {A}G2FE | AGAB A4 :|
+"Trio"[|\
+!p!A3B c2B2 | A2E2 TF2E2 | A3B c2B2 | A4 B2c2 |\
+{e}d2{c}B2 {d}c2{B}A2 | {A}G2{F}E2 B2c2 | {e}d2{c}B2 {d}c2{B}A2 | !f!B2EF EDCB, |
+A3B c2B2 | A2E2 TF2E2 | !p!A3B c2B2 | A4 B2c2 |\
+{e}d2cB {d}c2BA | {A}G2{F}E2 A2c2- | cFdB A2TG2 | A8 |]
+%%begintext align
+%% The 1st 2d & 3d Cu. foot it & hands round 6 .| the same back
+%% again :| foot it corners & turn .|. foot it the other corners
+%% & turn :|: lead up to the top & cast off .||. lead thro'
+%% the 3d Cu. & cast up :||:
+%%endtext

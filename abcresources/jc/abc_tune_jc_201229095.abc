@@ -1,0 +1,22 @@
+X: 11
+T: the Lads of Wicklow
+%R: slip-jig
+B: "Twenty Four Country Dances with Figures for the Year 1809", Button & Whitaker, p.6 #1
+F: http://www.vwml.org/browse/browse-collections-dance-tune-books/browse-button1809
+Z: 2014 John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: A
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+|:\
+ABA ABc cde | ABA ABc d2B |\
+ABA ABc cde | dcB BcA G2E :|
+|:\
+Ace {f}e^de fga | Ace edc d2B |\
+Ace {f}e^de fga | efe dcB A3 :|
+% - - - - - - - - - - Dance description - - - - - - - - - -
+%%begintext align
+%% The 1st Lady set to the 2d Gent: & turn round
+%% with both hands, 1st Gent: same with 2d Lady,
+%% Pousette & right & left at top.
+%%endtext

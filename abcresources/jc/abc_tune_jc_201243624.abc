@@ -1,0 +1,18 @@
+X: 385
+T:The Barren Rocks of Aden
+N: page 143
+N: hexatonic
+R: polka
+M:2/4
+L:1/8
+K:D major
+%
+(ud/e/) | "D"f>g fe | "D"df Ad | "A"ce Ae | "D"fA de |
+"D"f>g fe | "D"df Ad | "A"ce Ae | "D"{/c}d2 {/d}d :|
+|: (uf/g/) | "D"a>f df | "A"ef A(e/f/) | "A7"g>e ce | "D"df {A}A(f/g/) |
+a>f df | "A"ef A(e/f/) | "A7"g>e ce | "D"{/c}d2 {/d}d ::
+ (uf/g/) | "D"a/f/d/f/ a/f/d/f/ | "A7"ef A(e/f/) |\
+ "A7"g/e/c/e/ g/e/c/e/ | "D"df {/A}A(f/g/) |
+"D"a/f/d/f/ a/f/d/f/ | "A7"ef A(e/f/) | "A7"g>e ce | "D"{/c}d2 {/d}d :|
+%%stretchlast no
+%%newpage

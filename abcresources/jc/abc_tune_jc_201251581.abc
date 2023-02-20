@@ -1,0 +1,73 @@
+X: 1
+T: la Bella Lavanderina
+O: Italia
+R: tarantella, jig
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS from Patrick Yacono
+M: 6/8
+L: 1/8
+P: Play ABA'BABA'BABA''
+K: D
+"A"|: "A7"A,CE GFE | "D"DFA dAd | "A7"cBA GFE |1 "D"DFA dAF :|2 "D"D3 z2 ||
+"B"[|] F |\
+"D"AAA "G"B2B | "D"A3 F2F | "D"A2A "G"B2B | "D"A3 F2z |\
+"D"A2A "G"B2B | "D"A3 F3 | "A7"G3 F2E | "D"Az2 z3 |
+"D"A3 "G"B3 | "D"A3 Fz2 | "D"A3 "G"B2B | "D"A3 Fz2 |\
+"D"A2A "G"B2B | "D"A3 Fz2 | "D"AAA "G"B2B | "D"A3 Fz2 |
+"D"A3 A3 | "G//"Bz2 z3 | "A"A3 A3 | "D//"Fz2 z3 |\
+"D"A3 "G"B3 | "D"A3 ^A3 | "Em"B3 "A7"c3 | "D"dz3 z3 ||
+"A'"\
+|: "A7"GEC cGE | "D"AFD dAF | "A7"GEC cAc |1 "D"dAF AFD :|2 "D"d3 z2 |]
+"A''"\
+|: "A7"A,CE GFE | "D"DFA dAd |1 "A7"cBA GFE | "D"DFA dAF :|2 "A7"cBA ABc | "D"d3- dz2 |]
+%
+W: La bella lavanderina che lava i fazzoletti
+W: per i poveretti della citt\`a
+W:
+W: Fai un salto, fanne un altro
+W: Fai la giravolta, falla un'altra volta
+W: Guarda in su, guarda in gi\`u
+W: Dai un bacio a chi vuoi tu!
+W:
+W: La bella lavanderina che lava i fazzoletti
+W: per i poveretti della citt\`a
+W:
+W: Fai un salto, fanne un altro
+W: Fai la riverenza, fai la penitenza
+W: Guarda in su, guarda in gi\`u
+W: Dai un bacio a chi vuoi tu!
+
+%%sep 1 1 500
+X: 1
+T: la Bella Lavanderina   [G]
+O: Italia
+R: tarantella, jig
+Z: 2011 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS from Patrick Yacono
+M: 6/8
+L: 1/8
+P: Play ABA'BABA'BABA''
+K: G
+"A"|:\
+"D7"DFA cBA | "G"GBd gdg |\
+"D7"fed cBA |[1 "G"GBd gdB :|[2 "G"G3 z2 ||
+"B"[|] B |\
+"G"ddd "C"e2e | "G"d3 B2B |\
+"G"d2d "C"e2e | "G"d3 B2z |\
+"G"d2d "C"e2e | "G"d3 B3 |\
+"D7"c3 B2A | "G"dz2 z3 |
+"G"d3 "C"e3 | "G"d3 Bz2 |\
+"G"d3 "C"e2e | "G"d3 Bz2 |\
+"G"d2d "C"e2e | "G"d3 Bz2 |\
+"G"ddd "C"e2e | "G"d3 Bz2 |
+"G"d3 d3 | "C//"ez2 z3 |\
+"D"d3 d3 | "G//"Bz2 z3 |\
+"G"d3 "C"e3 | "G"d3 ^d3 |\
+"Am"e3 "D7"f3 | "G"gz3 z3 |
+"A'"
+|: "D7"cAF fcA | "G"dBG gdB | "D7"cAF fdf |\
+[1 "G"gdB dBG :|[2 "G"g3 z2 |]
+"A''"\
+|: "D7"DFA cBA | "G"GBd gdg |\
+[1 "D7"fed cBA | "G"GBd gdB :|\
+[2 "D7"fed def | "G"g3- gz2 |]

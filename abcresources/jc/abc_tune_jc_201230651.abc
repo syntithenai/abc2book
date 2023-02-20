@@ -1,0 +1,25 @@
+X: 14051
+T: MAGRUDER'S HORNPIPE
+C: Bob McQuillen July'08
+B: Bob's Note Book 14 #51
+%R: hornpipe, reel
+%D:2008
+Z: 2020 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: G	% and D
+Bc \
+| dBGB D2Bc | dedB G2GB | ABAG FDGB | ABcB A2Bc |
+| dBGB D2Bc | dBed BGBd | cBAB cdef | g2gf g2  :| [K:D]
+|: fg \
+| a2ag fdAF | GABG E2gf | edef gfed | cdec A2FG |
+| A2de fdcd | BGBd g2ag | fdAf gecd | e2d2 d2  :|
+%%begintext align
+%% Chris Magruder
+%% owns and operates the "Thundering Sky"
+%% recording studio in South Berwick, ME.
+%% He's done great work for Sarah Bauhan, so
+%% Old New England has a WIP (Work in Progress)
+%% there now. We can't wait 'til it's all done!
+%% Thanks, Chris! All the best to you!
+%%endtext

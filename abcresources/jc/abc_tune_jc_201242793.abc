@@ -1,0 +1,27 @@
+X: 692
+T: Insh of Perth	
+R: reel
+B: Robert Bremner "A Collection of Scots Reels or Country Dances" 1757 p.69 #2
+S: http://imslp.org/wiki/A_Collection_of_Scots_Reels_or_Country_Dances_(Bremner,_Robert)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Added flag to last notes to fix the repeat rhythm.
+M: C
+L: 1/8
+K: Amix
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 1
+f |\
+eaca e/e/e g2 | dgBg d/d/d Tf2 |\
+dgcg e/e/e (Tfe) | dfec A/A/A A :|
+|: f |\
+ecAc e/e/e g2 | d/c/B/A/ GB d/d/d Tf2 |\
+ecAc e/e/e (Tfe) | dfec A/A/A A :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+V: 2 clef=bass middle=d
+z |\
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | d2e2 A2A :|\
+|: z |
+a2a2 a2a2 | g2g2 g2g2 |\
+a2a2 a2a2 | d2e2 A2A :|\
+% - - - - - - - - - - - - - - - - - - - - - - - - -

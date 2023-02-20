@@ -1,0 +1,25 @@
+X: 1
+T: the Weavers Hornpipe
+%R: triple hornpipe, minuet
+B: "The Compleat Country Dancing-Master" printed by John Walsh, London ca. 1740
+S: 6: CCDM2 http://imslp.org/wiki/The_Compleat_Country_Dancing-Master_(Various) V.2 (204)
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+N: Repeats added to satisfy the "Each strain twice" instruction.
+M: 3/2
+L: 1/8
+K: D
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+|: D2F2 A2d2 fga2 | g2 e4 B2  dcBA | dABG AFGE FDEF | A,2 D4 F2 E2D2 :|
+|: BdBF GBFE FAFD | C2 E4 B,2 C2E2 | fafc dfdA GFED | A,2 D4 GF E2D2 :|
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+%%center Each strain twice
+%%begintext align
+%% The 1st Cu. lead forward and Back again, then lead through
+%% the 2d Cu. and cast up in your own places, then cast down
+%% again .| the 1st Cu. lead down and up again, then leading
+%% thro the 2d Cu. cast down and up again :| Then 1st and 2d
+%% Men double figure on the We. side the 1st Man casting
+%% down into the 2d Mans Place .| then the two We. do the
+%% same on the Mens side, then the 1st Wo. casting down :|
+%%endtext
+%%sep 1 8 500

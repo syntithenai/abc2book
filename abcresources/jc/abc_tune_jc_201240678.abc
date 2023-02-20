@@ -1,0 +1,28 @@
+X: 4064
+T: Arniston House
+%R: air, jig
+B: Niel Gow & Sons "A Fourth Collection of Strathspey Reels, etc." v.4 p.6 #4 (and 4 staffs on p.7)
+Z: 2022 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: "Slow"
+K: Cm
+% - - - - - - - - - -
+% Voice 1 reformatted for 3 8-bar lines, for compactness and proofreading.
+V: 1 staves=2
+|:\
+Ccc Tc2G | ~B2G FDB, | Ccc ~c2G | (cd).e (ed).c ||\
+Ccc Tc2=A | B2G FDB, |!p! TE3 {G}FEF | GEC C2 :|
+a |\
+g2c Tc>de | {e}dcB fdB | (gf).g c>de/f/ | (ga).f gec ||\
+{a}gfg cde | {e}dcB fed | e>fg {g}fed | gec c2a ||
+g2c cde | {e}dcB fdB | (gf).g c>de/f/ | (ga).f gec ||"_Exp.o"\
+(gc').g (eg).e | (fb).f def |!p!TE>FG TD>EF | GEC C2 |]
+% - - - - - - - - - -
+% Voice 2 preserves the staff layout in the book.
+V: 2 clef=bass middle=d
+|:\
+c3 c3 | d2e B3 | c3 c3 | c3 gfe || c2C c2f | d2e B3 |!p!c3 G3 | C3- C2 :| z | ceg c'3 |
+b3 B3 | c'3 c'3 | e'2d' c'3 || c'ge c2=a | b3 b2=b | c'3 g3 | c3 c3 || ceg c'2=a |
+b3 B3 | [c3e3g3c'3] [c3e3g3c'3] | [G3=B3d3g3] [c3e3g3c'3] ||"_Exp.o"\
+[c3e3g3c'3] [c3e3g3c'3] | [B3b3] [=B3=b3] |!p! [c3c'3] [G3g3] | [C3c3] [C2c2] |]

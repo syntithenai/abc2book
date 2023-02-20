@@ -1,0 +1,35 @@
+X: 194
+T: Hark! the Herald Angels Sing!
+C: music: Felix Mendelssogn
+C: words: Charles Wesley
+B: "The Everyday Song Book", 1927
+F: http://www.library.pitt.edu/happybirthday/pdf/The_Everyday_Song_Book.pdf
+Z: 2016 John Chambers <jc:trillian.mit.edu>
+N: Several quarter notes are missing dots, giving bars in 7/8 time; fixed.
+M: 4/4
+L: 1/8
+K: G
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[| D2 G2 G3 F | G2 B2 (B2 A2) | d2 d2 d3 c | B2 A2 B4 |
+w: 1.~Hark! the her-ald an-gels sing,*       "Glo-ry to the new-born King!
+w: 2.~Christ, by high-es heavn'n a-dored,*    Christ, the ev-er-last-ing Lord;
+w: 3.~Hail! the heav'n-born Prince of Peace!* Hail! the Son of Right-eous-ness!
+%
+   D2 G2 G3 F | G2 B2 (B2 A2) | d2A2 A3 F | F2 E2 D2 |
+w: Peace on earch, and mer-cy mild,* God and sin-ners rec-on-ciled."
+w: Late in time be-hold Him come,*   Off-spring of the fa-vored one.
+w: Light and life to all He brings,* Ris'n with heal-ing in His wings.
+%
+   d2 d2 d2 G2 | c2 B2 (B2 A2) | d2 d2 d2 G2 | c2 B2 (B2 A2) |
+w: Joy-ful, all ye na-tions rise,*     Join the tri-umph of the skies;*
+w: Veiled in flesh, the God-head see;* Hail th'in-car-nate De-i-ty;*
+w: Mild, He lays His glo-ry by,*       Born that man no more may die;*
+%
+   e2 e2 e2 d2 | c2 B2 c4 | A2 (Bc) d3 G | G2 A2 B4 |
+w: With th'an-gel-ic host pro-claim,  "Christ is* born in Beth-le-hem."
+w: Pleased, as man, with men to dwell, Je-sus,* our Im-man-u-el!
+w: Born to raise the sons of earth,    Born to* give them sec-ond birth.
+%
+   e2 e2 e2 d2 | c2 B2 c4 | A2 (Bc) d3 G | G2 A2G4 |]
+w: Hark! the her-ald an-gels sing, "Glo-ry* to the new-born King."
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

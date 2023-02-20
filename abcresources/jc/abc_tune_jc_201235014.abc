@@ -1,0 +1,26 @@
+X: 20961
+T: the Spinning Wheel
+%R: air, strathspey, reel
+B: James Oswald "The Caledonian Pocket Companion" v.2 p.96 #1
+Z: 2019 John Chambers <jc:trillian.mit.edu>
+N: In bar 20, the 2 16th notes were missing their flags and looked like quarter notes; fixed.
+M: C|
+L: 1/8
+K: G
+"_Lively"d2 |\
+{c}B3c (d<B)(e<c) | dB g4 TB2{AB}y | c3e (d<B) (TA>G) | (F>G)(A>B) A2zB |\
+(cB)(cd) (ef)(ga) |
+{ga}b2ag {f}e3g | d3g (d<B) TAG | e2(g>a) g2d2 |\
+{c}_B3A G2g2 | {g}=f3_e d3_e |
+=f2(_b<g) (=f<d)(f<d) | {d}c3_B A2ac |\
+{c}_B3A G2(_b<g) | (g^f)ad d2zd | c2_B2 A2G2 |
+d2_ed Hd3 d |\
+{c}B3c (d<B)(e<c) | dB g4 TB2{AB}y | c3e (d<B) TAG | (F>G)(A>B) A3B |
+(cB)(cd) (ef)(ga) | {ga}b2Tag {f}e3g | d3g (d<B) (TAG) | e2(g>a) g2B2 |\
+e3f (gf)(ba) |
+(ag)(gf) {f}e3^g | (ae)(=fe) bd(ed) | (dc)(cB) {B}A3a |\
+{g}f3g a<f (Ted) | (^c>d)(e>f) e3f |
+(g<e)(f<d) (e<^c)(A<c) | (d/e/f) Ted d2zd |\
+{c}B3c (d<B)(e<c) | dB g4 TB2 | c3e (d<B) TAG |
+F>GA>B A2zB |\
+(cB)(cd) (ef)(ga) | {ga}b2Tag e3g | d3g (d<B) (TAG) | e2g>a g2 |]

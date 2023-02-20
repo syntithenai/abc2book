@@ -1,0 +1,32 @@
+X:1
+T: Joy After Sorrow
+N:
+C:
+S:
+A:
+O:
+R:
+M:3/4
+K:Am
+I:speed 140
+%W: A
+% voice 1 (1 lines, 32 notes)
+K:Am
+M:3/4
+L:1/16
+c4 |B4 A4 ^G4 |A4 A2 B2 c2 d2 |e4 A2 B2 c2 d2 |e4 A4 c4 |B4 A4 ^G4 |A4 A2 B2 c2 d2 |e4 f2 e2 d2 c2 |B8 c4 |
+%W:
+% voice 1 (1 lines, 32 notes)
+B4 A4 ^G4 |A4 A2 B2 c2 d2 |e4 A2 B2 c2 d2 |e4 A4 c4 |B4 A4 ^G4 |A4 A2 B2 c2 d2 |e4 f2 e2 d2 c2 |B8 g2 g2 |
+%W: B
+% voice 1 (1 lines, 31 notes)
+g4 f4 e4 |f8 f2 f2 |f4 e4 d4 |e8 e2 e2 |e4 d4 ^c4 |d2 e2 f2 e2 d2 c2 |B2 c2 ^d2 c2 B2 A2 |^G4 E4 d2 d2 |
+%W:
+% voice 1 (1 lines, 25 notes)
+d4 c4 B4 |c8 e2 e2 |e4 d4 ^c4 |d8 e4 |f4 e4 d4 |e4 A2 B2 c2 d2 |e4 E4 ^G4 |A8 g2 g2 |
+%W:
+% voice 1 (1 lines, 31 notes)
+g4 f4 e4 |f8 f2 f2 |f4 e4 d4 |e8 e2 e2 |e4 d4 ^c4 |d2 e2 f2 e2 d2 c2 |B2 c2 ^d2 c2 B2 A2 |^G4 E4 d2 d2 |
+%W:
+% voice 1 (1 lines, 23 notes)
+d4 c4 B4 |c8 e2 e2 |e4 d4 ^c4 |d8 e4 |f4 e4 d4 |e4 A2 B2 c2 d2 |e4 E4 ^G4 |A8 ||

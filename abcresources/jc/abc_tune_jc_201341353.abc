@@ -1,0 +1,12 @@
+X:1
+T:Strathspey Excercises
+M:C
+L:1/8
+Q:80
+C:
+S:Excercise
+K:HP
+{gcd}c/2{e}A3/2{gcd}c/2{e}A3/2{gBd}B/2{e}G3/2{gBd}B/2{e}G3/2 | \
+{g}((3cde){gcd}c/2{e}A3/2{g}((3Bcd){gBd}B/2{e}G3/2 | \
+{g}((3A{d}A{e}A){gcd}c/2{e}A3/2{g}((3G{d}G{e}G){gBd}B/2{e}G3/2 |
+{g}((3A{d}A{e}A){gcd}((3c/2a3/2G{d}G{e}G){gBd}B/2g3/2|]

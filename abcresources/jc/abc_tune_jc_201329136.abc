@@ -1,0 +1,56 @@
+X: 1
+T:Reel of the 51st Division
+T:32R 3C x 8 -- RSCDS Book 13-10)
+P:The Drunken Piper (a.k.a. Highland Rory)
+B:RSCDS-13
+B:Scots Guards
+Z:John Chambers <jc@trillian.mit.edu>
+N:Can also be accompanied by A major chords without changing the melody.
+C:Scots Guards
+C:from John Chambers
+C:arr. Terry Traub 10-31-2002
+M:4/4
+L:1/8
+K:Ab
+|: "Bbm"~B2Bc f3g | fece f2a2 | "Ab"~A2Ac e3f | ecAc "F7"e2f2 |\
+"Bbm"~B2Bc f3g | fece f2b2 | "Ab"~a2fa fafe | "Bbm"c2B2 B4 :|
+f2 \
+| "Bbm"b4 f2b2 | fefg "(Eb)"a2b2 | "Ab"~A2Ac e3f | ecAc "F7"e2f2 |\
+"Bbm"b4 f2b2 | fefg "(Eb)"a2b2 | "Ab"a2fa fafe | "Bbm"c2B2 B2f2 ||
+"Bbm"b4 f2b2 | fefg "(Eb)"a2b2 | "Ab"~A2Ac e3f | ecAc "F7"e2f2 |\
+"Bbm"~B2Bc f3g | fece f2b2 | "Ab"~a2fa fafe | "Bbm"c2B2 B4 |]
+
+X: 1
+P:The Barren Rocks of Aden
+C:P.M. A. Mackellar
+C:Scots Guards, arr. John Chambers, mods. by T. Traub 2-24-2004
+R:march
+M:2/4
+L:1/8
+K:Eb
+e/2f/2 \
+|: "Eb"g>a gf | eg Be | "Bb7"df Be/2f/2 | "Eb"gB e>f | "Eb"g>a gf | eg Be | "Bb7"df Bg/2f/2 | "Eb"e4 :|
+g/2a/2 \
+|: "Eb"b>g eg | "Bb7"fg Bf/2g/2 | af dB | "Eb"eg "Bb7"g/2f/2g/2a/2 |"Eb"b>g eg | "Bb7"fg Bf/2g/2 | af dB | "Eb"e4 :|
+
+X: 1
+P:Johnny Cope
+C:trad., from Matt Petrie
+C:arr. T. Traub 2-24-2004
+M:2/4
+R:reel
+L:1/8
+K:Bb
+|: c | "Bbm"B2 Bc/2e/2|"Db"fa "Eb"cB/2c/2|"Ab"A2 A/2B/2c/2d/2|"Ab"ea "Fm"cB/2A/2|"Bbm"B2 Bc/2e/2|"Db"fa "Ab"cB/2A/2|"Bbm"Bc/2e/2 "Fm"fe/2c/2|"Bbm"cB B :|
+|: A |"Bbm"Bb bf/2e/2|"Bbm"cB Bc/2B/2|"Ab"Aa a/2b/2f/2e/2|"Ab"cA "Fm"Ac|"Bbm"Bb b/2a/2f/2e/2|"Fm"cA/2c/2 "Bbm"Bc|"Ab"ec/2e/2 f/2g/2a/2e/2|"Bbm"cB B :|
+
+X: 1
+P:Terribus
+C:arr. T. Traub 6-12-95, mods. 2-24-2004
+L:1/4
+M:4/4
+R:Reel
+K:Eb
+B|"Eb"e B e>f|"Eb"g b "Cm"g e|"Fm"a>g "Ab"f e|"Bb"d f d B|"Eb"e B e>f|"Eb"g b "Cm"g e|"Fm"a>g "Bb"f b|"Eb"g e e/2f/2g/2a/2||
+"Eb"b2 "Bb"b>a|"Eb"g b "Cm"g e|"Fm"a>g f e|"Bb"d f d B|"Eb"b2 "Bb"b>a|"Eb"g b "Cm"g e|"Fm"a>g "Bb"f b |"Eb"g e e |]
+

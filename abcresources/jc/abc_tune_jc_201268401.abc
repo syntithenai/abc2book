@@ -1,0 +1,16 @@
+X: 1564
+T: the Devils Dream   #2
+R: hornpipe
+%S: s:3 b:24(8+8+8)
+B: O'Neill's 1850 #1564
+Z: Michael Hogan
+N: Bar 21 should probably be |cAEA cAeA|. (It was cAFA ...; changed; that's what DMoI has; [JC])
+M: C|
+L: 1/8
+K: A
+"^A"[|] e2 |:\
+eaga eaga | eaga fedc |[1,3 dfBf dfBf | dfBf gfed :|[2,4 dfed cABG | E2A2 A2 :|
+"^B"|: e2 |:\
+ceAe ceAe | ceAe fedc |[1,3 dfBf dfBf | dfBf afed :|[2,4 dfed cABG | E2A2 A2 :|
+"^C"|: e2 |:\
+cAEA cAeA | cAeA fedc |[1,3 dBGB dBfe | defg agfe :|[2,4 dfed cABG | E2A2 A2 :|

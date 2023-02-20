@@ -1,0 +1,26 @@
+X:1
+T:Killiecrankie  "kilcrnk.bmw"
+M:C
+L:1/8
+Q:80
+C:St. Ann's of Hampton Version
+S:March
+K:HP
+|: {g}f3/2g/2 | \
+{ag}a3A{GAG}A2{g}B3/2c/2 | \
+{Gdc}d2G2{gGd}G2g |
+{afg}f3a{f}gf{gef}ed | \
+{g}f2a2{g}a2f3/2g/2 | \
+{ag}a3A{GAG}A2{g}B3/2c/2 |
+{Gdc}d2G2{gGd}G2a3/2g/2 | \
+{afg}f3/2g/2a3/2f/2{gef}e3d | \
+{g}B2{Gdc}d2{gdc}d2 ::
+{g}d3/2e/2 | \
+{g}f3g{afg}f2{gef}ed | \
+{gf}g3a{f}g2{g}d3/2e/2 |
+{g}f3{g}f2{gf}gf{gef}ed | \
+{gfg}f2{g}e2{A}e2{g}d3/2e/2 | \
+{g}f3g{afg}f2{gef}ed |
+{gf}g3a{f}g2a3/2f/2 | \
+{afg}f3/2g/2a3/2f/2{gef}e3d | \
+{g}B2{Gdc}d2{gdc}d2 :|

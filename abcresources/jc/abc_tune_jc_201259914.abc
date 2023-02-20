@@ -1,0 +1,17 @@
+X: 1
+T: Captain McGuire
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+F: http://www.cs.nott.ac.uk/~ef/music/pdf/FredsFolks/Reels/Reels_23.pdf
+F: http://www.cs.nott.ac.uk/~ef/music/pdf/FredsFolks/Reels/Reels_26.pdf
+S: PDF MS labelled "23 Reels", "Freds Folks Ceilidh Music" and "Arrangement \251 Eric Foxley"
+M: C|
+L: 1/8
+K: D
+FG \
+| "D"ABAG F2A2 | d2e2 "Bm"f2ef | "Em"g2ag "A7"f2e2 | "D"d2f2 "A7"A2FG \
+| "D"ABAG F2A2 | d2e2 "Bm"f2ef | "Em"g2ag "A7"f2e2 | "D"d6 :|
+|: cd \
+| "A"e3e e2d2 | c2e2 a4 | e3e e2f2 | g2e2 c2A2 \
+| "A"e3e e2d2 | c2e2 a3f | "E7"efed c2B2 | "A"A6 :|
+

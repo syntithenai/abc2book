@@ -1,0 +1,20 @@
+X:224
+T:Elizabeth
+C:Colin Hume, 1991
+L:1/4
+M:3/4
+%%MIDI gchord GIgIHI
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/4=102
+H:For Elizabeth Elton's 75th Birthday Dance
+N:This is in triple-time; it is NOT a waltz.
+K:G
+P:A
+[| "Em"B/A/BE | "Am"c/B/cE | "D"Fdc | "G"B/A/G2 | "C"E/D/EC | "Am"A/G/AC | "B7"B,BA | "Em"G/F/E2 |
+P:B
+"G"B/A/Bd | "C"cE "Em"G | "D"A3/B/ c/d/ | "G"cB2 | "Em"G/F/G "Am"A | "D"FDE/F/ | "C"G3/A/ "D"F | "G"G3 |
+P:C
+"G"gdg | "Dm"=f/e/df | "Am"ec/d/e/c/ | "G"dG2 | "G"gdg | "Dm"a/g/=fa | "C"ge/=f/g/e/ | "D"d2d/c/ |
+P:D
+"G"BGg/f/ | "C"e2 "Am"c/B/ | "D"AFf/e/ | "Bm"d2B/A/ | "Em"GEe/d/ | "Am"cA "A7"a/g/ | "D"fd/e/ "D7"f/d/ | "G"g3 |]

@@ -1,0 +1,65 @@
+
+X: 1
+T: Tarantella Di Masaniello  (Dm)
+M: 6/8
+L: 1/8
+F: http://www.thesession.org/tunes/display/5259
+R: tarantella, jig
+% %staffsep 40
+K: Dm
+"A"[|]{B}A^GA |\
+"Gm"B2d "Dm"A2d | "Gm"G2d EFG | "A7"ABA GFE | "Dm"FED {B}A^GA |\
+"Gm"B2d "Dm"A2d | "Gm"G2d EFG | "A7"ABA GFE | "Dm"D3 :|
+"B"|: ^cd_e |\
+"D7"d^cd _ed=c | "Gm"BAG EFG | "A7"ABA GFE | "Dm"FED ^cd_e |\
+"D7"d^cd _ed=c | "Gm"BAG EFG | "A7"ABA GFE | "Dm"D3 :|
+"C"|: FEF |\
+"Gm"GAG EDE | "Dm"FGF D^CD | "A7"EFE ^C=B,C | "Dm"D2F FEF |\
+"Gm"GAG EDE | "Dm"FGF D^CD | "A7"EFE ^C=B,C | "Dm"D3 :|
+K:D
+"D"|: z2d |\
+"D"D2d D2d | "Em"d2^c EFG | "A7"c2B EFG | "D"B2A z2d |\
+"D"D2d D2d | "Em"d2^c EFG | "A7"A^GA ^ABc | "D"d3 :|
+K:Dm
+"E"|: "(D7)"A2A |\
+"Gm"AGF G2G | "Dm"GFE F2G | "A7"ABA GFE | "Dm"FED "(D7)"A2A |\
+"Gm"AGF G2G | "Dm"GFE F2G | "A7"ABA GFE | "Dm"D3 :|
+P: (Optionally repeat C)
+K:D
+"F"|: "(A7)"BA^G |\
+"D"AFD "A7"BA^G | "D"AFD "A7"ABc | "D"dcd FGA | "A7"B2A BA^G |\
+"D"AFD "A7"BA^G | "D"AFD "A7"ABc | "D"def "A7"gBc | "D"d3 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 1
+T: Tarantella Di Masaniello  (Em)
+M: 6/8
+L: 1/8
+F: http://www.thesession.org/tunes/display/5259
+R: tarantella, jig
+% %staffsep 40
+K: Em
+"A"[|]{c}B^AB |\
+"Am"c2e "Em"B2e | "Am"A2e FGA | "B7"BcB AGF | "Em"GFE {c}B^AB |\
+"Am"c2e "Em"B2e | "Am"A2e FGA | "B7"BcB AGF | "Em"E3 :|
+"B"|: ^de=f |\
+"E7"e^de =fe=d | "Am"cBA FGA | "B7"BcB AGF | "Em"GFE ^de=f |\
+"E7"e^de =fe=d | "Am"cBA FGA | "B7"BcB AGF | "Em"E3 :|
+"C"|: GFG |\
+"Am"ABA FEF | "Em"GAG E^DE | "B7"FGF ^D=CD | "Em"E2G GFG |\
+"Am"ABA FEF | "Em"GAG E^DE | "B7"FGF ^D=CD | "Em"E3 :|
+K:E
+"D"|: z2e |\
+"E"E2e E2e | "Fm"e2^d FGA | "B7"d2c FGA | "E"c2B z2e |\
+"E"E2e E2e | "Fm"e2^d FGA | "B7"B^AB =Bcd | "E"e3 :|
+K:Em
+"E"|: "(E7)"B2B |\
+"Am"BAG A2A | "Em"AGF G2A | "B7"BcB AGF | "Em"GFE "(E7)"B2B |\
+"Am"BAG A2A | "Em"AGF G2A | "B7"BcB AGF | "Em"E3 :|
+P: (Optionally repeat C)
+K:E
+"F"|: "(B7)"cB^A |\
+"E"BGE "B7"cB^A | "E"BGE "B7"Bcd | "E"ede GAB | "B7"c2B cB^A |\
+"E"BGE "B7"cB^A | "E"BGE "B7"Bcd | "E"efg "B7"acd | "E"e3 :|
